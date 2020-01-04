@@ -277,7 +277,7 @@ doc
 aElem
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

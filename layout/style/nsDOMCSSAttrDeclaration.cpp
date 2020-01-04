@@ -511,7 +511,7 @@ OwnerDoc
 )
 rather
 than
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 because

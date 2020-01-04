@@ -871,7 +871,7 @@ doc
 mTarget
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

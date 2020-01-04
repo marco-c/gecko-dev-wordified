@@ -3115,7 +3115,7 @@ document
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

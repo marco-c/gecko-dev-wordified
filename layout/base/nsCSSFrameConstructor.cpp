@@ -17768,7 +17768,7 @@ NS_PRECONDITION
 aDocElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 "
@@ -17785,7 +17785,7 @@ NS_PRECONDITION
 aDocElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -

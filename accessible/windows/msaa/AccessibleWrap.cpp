@@ -2910,7 +2910,7 @@ document
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

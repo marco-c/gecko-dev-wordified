@@ -3323,7 +3323,7 @@ doc
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

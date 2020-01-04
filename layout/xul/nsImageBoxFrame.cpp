@@ -4303,7 +4303,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -4316,7 +4316,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -
@@ -4362,7 +4362,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -4375,7 +4375,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -

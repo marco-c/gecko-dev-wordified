@@ -1786,7 +1786,7 @@ NS_ENSURE_TRUE
 startNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -1805,7 +1805,7 @@ NS_ASSERTION
 startNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -1813,7 +1813,7 @@ GetCurrentDoc
 endNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 "

@@ -671,7 +671,7 @@ document
 tcContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

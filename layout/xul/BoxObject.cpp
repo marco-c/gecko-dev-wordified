@@ -802,7 +802,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

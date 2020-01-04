@@ -353,7 +353,7 @@ nsIDocument
 >
 oldDoc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -1600,7 +1600,7 @@ ContentRemoved
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 aParentContent

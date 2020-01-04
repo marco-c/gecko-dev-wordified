@@ -24118,7 +24118,7 @@ doc
 captureContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -5384,7 +5384,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

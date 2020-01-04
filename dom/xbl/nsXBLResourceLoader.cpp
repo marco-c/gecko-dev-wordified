@@ -1282,7 +1282,7 @@ doc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -5756,7 +5756,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -5798,7 +5798,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -8163,7 +8163,7 @@ a
 *
 document
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !

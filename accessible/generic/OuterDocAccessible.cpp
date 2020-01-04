@@ -405,7 +405,7 @@ outerDoc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

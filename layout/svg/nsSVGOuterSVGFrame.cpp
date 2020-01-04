@@ -885,7 +885,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -6942,7 +6942,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

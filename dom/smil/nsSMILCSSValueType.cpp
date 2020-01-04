@@ -2157,7 +2157,7 @@ doc
 aElem
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2676,7 +2676,7 @@ doc
 aTargetElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -3734,7 +3734,7 @@ doc
 rootContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

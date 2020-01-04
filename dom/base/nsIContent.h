@@ -488,7 +488,7 @@ that
 aParent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 can
@@ -497,8 +497,8 @@ null
 in
 which
 case
-this
 *
+this
 must
 also
 be

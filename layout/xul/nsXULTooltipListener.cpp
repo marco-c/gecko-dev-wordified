@@ -740,7 +740,7 @@ GetLastTriggerTooltipNode
 currentTooltip
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )

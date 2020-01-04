@@ -891,7 +891,7 @@ doc
 aContextNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2106,7 +2106,7 @@ doc
 aTarget
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

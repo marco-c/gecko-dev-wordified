@@ -338,7 +338,7 @@ mPosition
 mNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -460,7 +460,7 @@ mPosition
 mNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3021,7 +3021,7 @@ aNode
 mNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3034,7 +3034,7 @@ aOtherNode
 mNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

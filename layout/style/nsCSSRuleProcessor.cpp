@@ -24841,7 +24841,7 @@ MOZ_ASSERT
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 |

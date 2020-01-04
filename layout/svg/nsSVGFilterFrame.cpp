@@ -759,7 +759,7 @@ href
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 base

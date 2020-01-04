@@ -1384,7 +1384,7 @@ doc
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

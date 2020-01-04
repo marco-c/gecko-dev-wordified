@@ -30872,7 +30872,7 @@ href
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 base

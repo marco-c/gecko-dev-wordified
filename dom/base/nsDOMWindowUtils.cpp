@@ -1901,7 +1901,7 @@ if
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !
@@ -2337,7 +2337,7 @@ if
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !
@@ -2468,7 +2468,7 @@ if
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !
@@ -5589,7 +5589,7 @@ doc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -8873,7 +8873,7 @@ targetDoc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -11174,7 +11174,7 @@ doc
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

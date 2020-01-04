@@ -2938,7 +2938,7 @@ documentNode
 aTargetNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

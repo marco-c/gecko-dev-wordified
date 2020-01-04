@@ -916,7 +916,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

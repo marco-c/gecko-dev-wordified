@@ -4243,7 +4243,7 @@ doc
 keyContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

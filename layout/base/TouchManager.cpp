@@ -346,7 +346,7 @@ doc
 node
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

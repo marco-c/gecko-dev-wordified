@@ -3027,7 +3027,7 @@ document
 popup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3761,7 +3761,7 @@ document
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -4087,7 +4087,7 @@ doc
 aPopup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -9073,7 +9073,7 @@ doc
 popup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -9454,7 +9454,7 @@ doc
 aPopup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -10657,7 +10657,7 @@ mOpeningPopup
 mOpeningPopup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -10754,7 +10754,7 @@ Content
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -12329,7 +12329,7 @@ document
 aPopup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -17404,7 +17404,7 @@ document
 mPopup
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

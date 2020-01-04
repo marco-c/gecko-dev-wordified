@@ -6168,7 +6168,7 @@ doc
 aElementForAnimation
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
