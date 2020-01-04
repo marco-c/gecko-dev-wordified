@@ -427,10 +427,10 @@ class
 Blob
 ;
 class
-FormData
+BlobSet
 ;
 class
-MutableBlobStorage
+FormData
 ;
 class
 URLSearchParams
@@ -3158,7 +3158,7 @@ We
 stream
 data
 to
-mBlobStorage
+mBlobSet
 when
 response
 type
@@ -3181,9 +3181,9 @@ null
 .
 nsAutoPtr
 <
-MutableBlobStorage
+BlobSet
 >
-mBlobStorage
+mBlobSet
 ;
 nsString
 mOverrideMimeType
