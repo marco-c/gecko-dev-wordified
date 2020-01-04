@@ -223,7 +223,7 @@ mRenderState
 RENDER_STATE_INIT
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -1309,7 +1309,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -1656,7 +1656,7 @@ mRenderState
 RENDER_STATE_ALPHA_RECOVERY_WHITE_DONE
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -1669,7 +1669,7 @@ GetAsImageSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -1802,7 +1802,7 @@ Size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -1854,7 +1854,7 @@ SetFilter
 GraphicsFilter
 :
 :
-FILTER_FAST
+FILTER_BEST
 )
 ;
 pat

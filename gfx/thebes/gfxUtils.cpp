@@ -2709,7 +2709,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2748,7 +2748,7 @@ true
 GraphicsFilter
 :
 :
-FILTER_FAST
+FILTER_BEST
 1
 .
 0
@@ -2778,7 +2778,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -3221,7 +3221,7 @@ gfxFloat
 deviceX
 deviceY
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -4322,7 +4322,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4617,7 +4617,7 @@ imgIContainer
 FLAG_CLAMP
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -4658,7 +4658,7 @@ Succeeded
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -4885,7 +4885,7 @@ defined
 (
 MOZ_GFX_OPTIMIZE_MOBILE
 )
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -9572,7 +9572,7 @@ void
 /
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

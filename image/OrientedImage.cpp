@@ -600,7 +600,7 @@ innerSurface
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -617,7 +617,7 @@ size
 /
 Draw
 .
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -659,7 +659,7 @@ surfaceFormat
 GraphicsFilter
 :
 :
-FILTER_FAST
+FILTER_BEST
 )
 ;
 return
