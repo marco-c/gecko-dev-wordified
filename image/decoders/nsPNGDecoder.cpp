@@ -6111,7 +6111,7 @@ interlacebuf
 ;
 #
 ifndef
-PNGLCONF_H
+MOZ_EMBEDDED_LIBPNG
 /
 /
 if
