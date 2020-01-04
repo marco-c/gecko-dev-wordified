@@ -7,6 +7,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 "
@@ -165,6 +167,8 @@ setBoolPref
 browser
 .
 safebrowsing
+.
+phishing
 .
 enabled
 "
@@ -374,6 +378,8 @@ getBoolPref
 browser
 .
 safebrowsing
+.
+phishing
 .
 enabled
 "

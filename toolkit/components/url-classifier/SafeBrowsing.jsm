@@ -1175,6 +1175,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 )

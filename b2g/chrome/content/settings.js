@@ -5518,6 +5518,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 :

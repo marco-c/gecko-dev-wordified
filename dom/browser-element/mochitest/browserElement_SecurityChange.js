@@ -577,6 +577,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 false

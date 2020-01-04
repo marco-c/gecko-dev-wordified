@@ -911,6 +911,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 )

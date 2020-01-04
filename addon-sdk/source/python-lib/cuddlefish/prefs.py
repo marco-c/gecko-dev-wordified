@@ -604,6 +604,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 :
