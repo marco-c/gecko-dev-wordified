@@ -2502,7 +2502,7 @@ audiounit_add_listener
 stm
 output_dev_id
 kAudioDevicePropertyDataSource
-kAudioObjectPropertyScopeOutput
+kAudioDevicePropertyScopeOutput
 &
 audiounit_property_listener_callback
 )
@@ -2649,7 +2649,7 @@ audiounit_add_listener
 stm
 input_dev_id
 kAudioDevicePropertyDataSource
-kAudioObjectPropertyScopeInput
+kAudioDevicePropertyScopeInput
 &
 audiounit_property_listener_callback
 )
@@ -2761,7 +2761,7 @@ audiounit_remove_listener
 stm
 output_dev_id
 kAudioDevicePropertyDataSource
-kAudioObjectPropertyScopeOutput
+kAudioDevicePropertyScopeOutput
 &
 audiounit_property_listener_callback
 )
@@ -2841,7 +2841,7 @@ audiounit_remove_listener
 stm
 input_dev_id
 kAudioDevicePropertyDataSource
-kAudioObjectPropertyScopeInput
+kAudioDevicePropertyScopeInput
 &
 audiounit_property_listener_callback
 )
