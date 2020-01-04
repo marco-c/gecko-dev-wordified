@@ -477,7 +477,7 @@ itemView
 public
 static
 class
-CompactItem
+HighlightItem
 extends
 StreamItem
 implements
@@ -519,7 +519,7 @@ IconResponse
 ongoingIconLoad
 ;
 public
-CompactItem
+HighlightItem
 (
 View
 itemView

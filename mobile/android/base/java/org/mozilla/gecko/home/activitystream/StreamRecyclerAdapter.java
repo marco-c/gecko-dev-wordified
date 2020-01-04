@@ -171,7 +171,7 @@ activitystream
 .
 StreamItem
 .
-CompactItem
+HighlightItem
 ;
 import
 org
@@ -274,7 +274,7 @@ LAYOUT_ID
 else
 {
 return
-CompactItem
+HighlightItem
 .
 LAYOUT_ID
 ;
@@ -365,14 +365,14 @@ if
 type
 =
 =
-CompactItem
+HighlightItem
 .
 LAYOUT_ID
 )
 {
 return
 new
-CompactItem
+HighlightItem
 (
 inflater
 .
@@ -492,7 +492,7 @@ if
 type
 =
 =
-CompactItem
+HighlightItem
 .
 LAYOUT_ID
 )
