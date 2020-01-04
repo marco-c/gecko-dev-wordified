@@ -438,8 +438,7 @@ mIntl
 ;
 }
 inline
-Accessible
-*
+AccessibleOrProxy
 xpcAccessibleHyperLink
 :
 :
@@ -459,10 +458,6 @@ this
 -
 >
 mIntl
-.
-AsAccessible
-(
-)
 ;
 }
 inline
