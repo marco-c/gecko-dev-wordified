@@ -8345,7 +8345,10 @@ NS_STYLE_GRID_AUTO_FLOW_ROW
 ;
 mBoxSizing
 =
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 ;
 mAlignContent
 =

@@ -2011,7 +2011,10 @@ mBoxSizing
 )
 {
 case
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 :
 boxSizingAdjust
 +
@@ -2025,7 +2028,10 @@ hPadding
 Fall
 through
 case
-NS_STYLE_BOX_SIZING_PADDING
+StyleBoxSizing
+:
+:
+Padding
 :
 boxSizingAdjust
 +
@@ -2039,7 +2045,10 @@ hBorder
 Fall
 through
 case
-NS_STYLE_BOX_SIZING_BORDER
+StyleBoxSizing
+:
+:
+Border
 :
 /
 /

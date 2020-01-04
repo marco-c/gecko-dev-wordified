@@ -9213,7 +9213,10 @@ See
 nsStyleConsts
 .
 h
-uint8_t
+mozilla
+:
+:
+StyleBoxSizing
 mBoxSizing
 ;
 /

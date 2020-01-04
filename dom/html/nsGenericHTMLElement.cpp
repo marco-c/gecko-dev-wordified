@@ -2511,7 +2511,10 @@ StylePosition
 mBoxSizing
 !
 =
-NS_STYLE_BOX_SIZING_BORDER
+StyleBoxSizing
+:
+:
+Border
 )
 {
 const
