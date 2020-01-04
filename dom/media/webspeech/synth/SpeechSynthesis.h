@@ -358,11 +358,6 @@ AdvanceQueue
 (
 )
 ;
-void
-DispatchToCanceledQueue
-(
-)
-;
 bool
 HasVoices
 (
@@ -377,15 +372,6 @@ SpeechSynthesisUtterance
 >
 >
 mSpeechQueue
-;
-nsTArray
-<
-RefPtr
-<
-SpeechSynthesisUtterance
->
->
-mCanceledQueue
 ;
 RefPtr
 <
