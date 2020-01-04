@@ -2878,14 +2878,14 @@ so
 fake
 one
 nsAutoCString
-name
+fakeName
 (
 "
 :
 "
 )
 ;
-name
+fakeName
 .
 AppendInt
 (
@@ -2896,7 +2896,7 @@ _name
 .
 Assign
 (
-name
+fakeName
 )
 ;
 }
