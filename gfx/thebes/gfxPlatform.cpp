@@ -11201,6 +11201,14 @@ nsIGfxInfo
 :
 :
 FEATURE_STATUS_OK
+|
+|
+gfxPrefs
+:
+:
+HardwareVideoDecodingForceEnabled
+(
+)
 )
 {
 sLayersSupportsHardwareVideoDecoding
