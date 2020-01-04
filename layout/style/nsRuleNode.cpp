@@ -15463,6 +15463,7 @@ mPresContext
 )
 nsStyleDisplay
 (
+mPresContext
 )
 ;
 aContext
@@ -15552,6 +15553,7 @@ mPresContext
 )
 nsStyleTextReset
 (
+mPresContext
 )
 ;
 aContext
@@ -15611,6 +15613,7 @@ mPresContext
 )
 nsStyleBackground
 (
+mPresContext
 )
 ;
 aContext
@@ -15640,6 +15643,7 @@ mPresContext
 )
 nsStyleMargin
 (
+mPresContext
 )
 ;
 aContext
@@ -15699,6 +15703,7 @@ mPresContext
 )
 nsStylePadding
 (
+mPresContext
 )
 ;
 aContext
@@ -15788,6 +15793,7 @@ mPresContext
 )
 nsStylePosition
 (
+mPresContext
 )
 ;
 aContext
@@ -15817,6 +15823,7 @@ mPresContext
 )
 nsStyleTable
 (
+mPresContext
 )
 ;
 aContext
@@ -15846,6 +15853,7 @@ mPresContext
 )
 nsStyleTableBorder
 (
+mPresContext
 )
 ;
 aContext
@@ -15875,6 +15883,7 @@ mPresContext
 )
 nsStyleContent
 (
+mPresContext
 )
 ;
 aContext
@@ -15904,6 +15913,7 @@ mPresContext
 )
 nsStyleQuotes
 (
+mPresContext
 )
 ;
 aContext
@@ -15933,6 +15943,7 @@ mPresContext
 )
 nsStyleUserInterface
 (
+mPresContext
 )
 ;
 aContext
@@ -15962,6 +15973,7 @@ mPresContext
 )
 nsStyleUIReset
 (
+mPresContext
 )
 ;
 aContext
@@ -15991,6 +16003,7 @@ mPresContext
 )
 nsStyleXUL
 (
+mPresContext
 )
 ;
 aContext
@@ -16050,6 +16063,7 @@ mPresContext
 )
 nsStyleSVG
 (
+mPresContext
 )
 ;
 aContext
@@ -16079,6 +16093,7 @@ mPresContext
 )
 nsStyleSVGReset
 (
+mPresContext
 )
 ;
 aContext
@@ -16108,6 +16123,7 @@ mPresContext
 )
 nsStyleVariables
 (
+mPresContext
 )
 ;
 aContext
@@ -16194,19 +16210,6 @@ computes
 .
 *
 param
-ctorargs_
-The
-arguments
-used
-for
-the
-default
-nsStyle
-*
-constructor
-.
-*
-param
 data_
 Variable
 (
@@ -16249,7 +16252,6 @@ define
 COMPUTE_START_INHERITED
 (
 type_
-ctorargs_
 data_
 parentdata_
 )
@@ -16451,7 +16453,9 @@ else
 maybeFakeParentData
 .
 emplace
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 parentdata_
@@ -16525,7 +16529,9 @@ nsStyle
 #
 #
 type_
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 else
@@ -16674,7 +16680,9 @@ nsStyle
 #
 #
 type_
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 }
@@ -16691,7 +16699,9 @@ nsStyle
 #
 #
 type_
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 }
@@ -16739,19 +16749,6 @@ computes
 .
 *
 param
-ctorargs_
-The
-arguments
-used
-for
-the
-default
-nsStyle
-*
-constructor
-.
-*
-param
 data_
 Variable
 (
@@ -16794,7 +16791,6 @@ define
 COMPUTE_START_RESET
 (
 type_
-ctorargs_
 data_
 parentdata_
 )
@@ -16969,7 +16965,9 @@ nsStyle
 #
 #
 type_
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 \
@@ -17111,7 +17109,9 @@ else
 maybeFakeParentData
 .
 emplace
-ctorargs_
+(
+mPresContext
+)
 ;
 \
 parentdata_
@@ -27119,9 +27119,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Font
-(
-mPresContext
-)
 font
 parentFont
 )
@@ -29028,9 +29025,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Text
-(
-mPresContext
-)
 text
 parentText
 )
@@ -31571,8 +31565,6 @@ aConditions
 COMPUTE_START_RESET
 (
 TextReset
-(
-)
 text
 parentText
 )
@@ -32789,8 +32781,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 UserInterface
-(
-)
 ui
 parentUI
 )
@@ -33428,8 +33418,6 @@ aConditions
 COMPUTE_START_RESET
 (
 UIReset
-(
-)
 ui
 parentUI
 )
@@ -35062,8 +35050,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Display
-(
-)
 display
 parentDisplay
 )
@@ -43429,9 +43415,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Visibility
-(
-mPresContext
-)
 visibility
 parentVisibility
 )
@@ -44085,9 +44068,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Color
-(
-mPresContext
-)
 color
 parentColor
 )
@@ -46998,8 +46978,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Background
-(
-)
 bg
 parentBG
 )
@@ -47979,8 +47957,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Margin
-(
-)
 margin
 parentMargin
 )
@@ -48449,9 +48425,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Border
-(
-mPresContext
-)
 border
 parentBorder
 )
@@ -50401,8 +50374,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Padding
-(
-)
 padding
 parentPadding
 )
@@ -50536,9 +50507,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Outline
-(
-mPresContext
-)
 outline
 parentOutline
 )
@@ -51286,9 +51254,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 List
-(
-mPresContext
-)
 list
 parentList
 )
@@ -53961,8 +53926,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Position
-(
-)
 pos
 parentPos
 )
@@ -56249,8 +56212,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Table
-(
-)
 table
 parentTable
 )
@@ -56388,8 +56349,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 TableBorder
-(
-)
 table
 parentTable
 )
@@ -56678,8 +56637,6 @@ buffer
 COMPUTE_START_RESET
 (
 Content
-(
-)
 content
 parentContent
 )
@@ -58016,8 +57973,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Quotes
-(
-)
 quotes
 parentQuotes
 )
@@ -58296,8 +58251,6 @@ aConditions
 COMPUTE_START_RESET
 (
 XUL
-(
-)
 xul
 parentXUL
 )
@@ -58663,9 +58616,6 @@ aConditions
 COMPUTE_START_RESET
 (
 Column
-(
-mPresContext
-)
 column
 parent
 )
@@ -60165,8 +60115,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 SVG
-(
-)
 svg
 parentSVG
 )
@@ -63538,8 +63486,6 @@ aConditions
 COMPUTE_START_RESET
 (
 SVGReset
-(
-)
 svgReset
 parentSVGReset
 )
@@ -65413,8 +65359,6 @@ aConditions
 COMPUTE_START_INHERITED
 (
 Variables
-(
-)
 variables
 parentVariables
 )
