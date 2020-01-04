@@ -1638,6 +1638,7 @@ NormalizedConstraints
 public
 NormalizedConstraintSet
 {
+explicit
 NormalizedConstraints
 (
 const
