@@ -2654,11 +2654,11 @@ devtools
 /
 content
 /
-fontinspector
-/
-font
--
 inspector
+/
+fonts
+/
+fonts
 .
 xhtml
 "

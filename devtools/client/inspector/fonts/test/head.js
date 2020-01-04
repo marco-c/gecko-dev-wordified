@@ -146,11 +146,14 @@ devtools
 /
 client
 /
-fontinspector
+inspector
+/
+fonts
 /
 test
 /
 "
+;
 /
 *
 *
