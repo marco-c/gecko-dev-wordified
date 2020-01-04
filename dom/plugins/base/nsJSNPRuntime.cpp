@@ -1319,12 +1319,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 NPObjWrapper_Finalize
 NPObjWrapper_Call
 nullptr
@@ -1552,7 +1546,6 @@ JSCLASS_HAS_PRIVATE
 nullptr
 nullptr
 NPObjectMember_GetProperty
-nullptr
 nullptr
 nullptr
 nullptr

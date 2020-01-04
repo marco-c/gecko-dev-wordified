@@ -5621,12 +5621,6 @@ fun_mayResolve
 nullptr
 /
 *
-convert
-*
-/
-nullptr
-/
-*
 finalize
 *
 /

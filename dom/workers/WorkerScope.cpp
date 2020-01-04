@@ -3446,12 +3446,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 workerdebuggersandbox_finalize
 nullptr
 nullptr
