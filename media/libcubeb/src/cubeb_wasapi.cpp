@@ -8764,6 +8764,8 @@ NULL
 IMMDevice
 *
 devnode
+=
+NULL
 ;
 IAudioClient
 *
