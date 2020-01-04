@@ -7654,10 +7654,10 @@ heapAllocated
 p
 (
 "
-MEMORY_HEAP_COMMITTED_UNUSED_RATIO
+MEMORY_HEAP_OVERHEAD_FRACTION
 "
 "
-heapOverheadRatio
+heapOverheadFraction
 "
 )
 ;
