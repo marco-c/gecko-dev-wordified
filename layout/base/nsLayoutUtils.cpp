@@ -2136,7 +2136,7 @@ the
 entries
 for
 "
-true
+unsafe
 "
 in
 those
@@ -2182,11 +2182,11 @@ sIsInitialized
 ;
 static
 int32_t
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 ;
 static
 int32_t
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 ;
 bool
 isTextAlignUnsafeEnabled
@@ -2216,12 +2216,12 @@ the
 position
 of
 "
-true
+unsafe
 "
 in
 kTextAlignKTable
 .
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 =
 nsCSSProps
 :
@@ -2245,12 +2245,12 @@ the
 position
 of
 "
-true
+unsafe
 "
 in
 kTextAlignLastKTable
 .
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 =
 nsCSSProps
 :
@@ -2281,7 +2281,7 @@ or
 restore
 the
 "
-true
+unsafe
 "
 entry
 in
@@ -2303,7 +2303,7 @@ disabled
 .
 MOZ_ASSERT
 (
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 >
 =
 0
@@ -2314,7 +2314,7 @@ nsCSSProps
 :
 kTextAlignKTable
 [
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 ]
 .
 mKeyword
@@ -2327,7 +2327,7 @@ eCSSKeyword_UNKNOWN
 ;
 MOZ_ASSERT
 (
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 >
 =
 0
@@ -2338,7 +2338,7 @@ nsCSSProps
 :
 kTextAlignLastKTable
 [
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 ]
 .
 mKeyword
