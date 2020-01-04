@@ -214,7 +214,7 @@ ActiveInfo
 state
 :
 const
-GLint
+uint32_t
 mElemCount
 ;
 /
