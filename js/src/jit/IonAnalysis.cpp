@@ -14556,15 +14556,7 @@ if
 use
 -
 >
-isRegExpMatcher
-(
-)
-|
-|
-use
--
->
-isRegExpTester
+isRegExpReplace
 (
 )
 )

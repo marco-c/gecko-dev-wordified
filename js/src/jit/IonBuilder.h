@@ -5516,13 +5516,8 @@ CallInfo
 callInfo
 )
 ;
-/
-/
-String
-intrinsics
-.
 InliningStatus
-inlineStringReplaceString
+inlineStrReplace
 (
 CallInfo
 &

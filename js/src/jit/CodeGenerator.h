@@ -847,6 +847,14 @@ ool
 )
 ;
 void
+visitRegExpReplace
+(
+LRegExpReplace
+*
+lir
+)
+;
+void
 visitStringReplace
 (
 LStringReplace

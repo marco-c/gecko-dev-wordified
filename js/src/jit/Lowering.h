@@ -1295,6 +1295,14 @@ ins
 )
 ;
 void
+visitRegExpReplace
+(
+MRegExpReplace
+*
+ins
+)
+;
+void
 visitStringReplace
 (
 MStringReplace
