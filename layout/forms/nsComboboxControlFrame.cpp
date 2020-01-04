@@ -4065,7 +4065,7 @@ mLastDropDownBeforeScreenBCoord
 =
 thisScreenRect
 .
-BEnd
+BStart
 (
 aWM
 )
