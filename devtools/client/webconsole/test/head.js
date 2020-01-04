@@ -1813,7 +1813,7 @@ EventUtils
 synthesizeMouse
 (
 button
-5
+2
 2
 eventDetails
 button
