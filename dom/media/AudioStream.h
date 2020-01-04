@@ -1631,6 +1631,9 @@ private
 nsresult
 OpenCubeb
 (
+cubeb
+*
+aContext
 cubeb_stream_params
 &
 aParams
