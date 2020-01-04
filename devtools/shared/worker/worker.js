@@ -348,12 +348,10 @@ provided
 by
 devtools
 /
-toolkit
-/
 shared
 /
 worker
--
+/
 helper
 .
 *
@@ -1320,10 +1318,8 @@ devtools
 /
 shared
 /
-shared
-/
 worker
--
+/
 helper
 .
 js

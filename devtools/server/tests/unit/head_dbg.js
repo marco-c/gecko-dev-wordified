@@ -121,7 +121,7 @@ devtools
 shared
 /
 worker
--
+/
 loader
 .
 js

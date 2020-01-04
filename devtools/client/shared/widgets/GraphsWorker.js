@@ -72,8 +72,6 @@ communicate
 with
 devtools
 /
-toolkit
-/
 shared
 /
 worker
@@ -119,10 +117,8 @@ devtools
 /
 shared
 /
-shared
-/
 worker
--
+/
 helper
 .
 js

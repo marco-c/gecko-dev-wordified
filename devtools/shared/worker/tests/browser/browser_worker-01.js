@@ -177,7 +177,7 @@ devtools
 /
 shared
 /
-shared
+worker
 /
 worker
 .
@@ -205,7 +205,7 @@ devtools
 /
 shared
 /
-shared
+worker
 /
 worker
 "
