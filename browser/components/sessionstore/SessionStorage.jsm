@@ -264,7 +264,7 @@ session
 storage
 data
 as
-values
+strings
 .
 For
 example
@@ -289,7 +289,9 @@ value
 my_number
 "
 :
+"
 123
+"
 }
 }
 *
@@ -365,7 +367,7 @@ session
 storage
 data
 as
-values
+strings
 .
 For
 example
@@ -390,7 +392,9 @@ value
 my_number
 "
 :
+"
 123
+"
 }
 }
 *
@@ -479,7 +483,7 @@ session
 storage
 data
 as
-values
+strings
 .
 For
 example
@@ -504,7 +508,9 @@ value
 my_number
 "
 :
+"
 123
+"
 }
 }
 *
@@ -732,7 +738,7 @@ session
 storage
 data
 as
-values
+strings
 .
 For
 example
@@ -757,7 +763,9 @@ value
 my_number
 "
 :
+"
 123
+"
 }
 }
 *
