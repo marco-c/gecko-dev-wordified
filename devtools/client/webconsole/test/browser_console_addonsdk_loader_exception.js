@@ -491,7 +491,7 @@ browserconsole
 viewSourceInDebugger
 =
 (
-aURL
+sourceURL
 )
 =
 >
@@ -509,12 +509,12 @@ invoked
 :
 "
 +
-aURL
+sourceURL
 )
 ;
 URL
 =
-aURL
+sourceURL
 ;
 clickPromise
 .
