@@ -4173,6 +4173,16 @@ mController
 apzc
 -
 >
+SetCompositorController
+(
+aState
+.
+mCompositor
+)
+;
+apzc
+-
+>
 SetCompositorBridgeParent
 (
 aState
