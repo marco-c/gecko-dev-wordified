@@ -702,6 +702,12 @@ nsIAuthPrompt
 >
 mAuthPrompter
 ;
+nsCOMPtr
+<
+nsITabParent
+>
+mPrimaryTabParent
+;
 }
 ;
 /

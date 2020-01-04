@@ -838,6 +838,12 @@ mTargetableShells
 targetable
 shells
 only
+nsCOMPtr
+<
+nsITabParent
+>
+mPrimaryTabParent
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
