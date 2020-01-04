@@ -5530,7 +5530,7 @@ GetPseudoType
 animation
 -
 >
-SetTimeline
+SetTimelineNoUpdate
 (
 timeline
 )
