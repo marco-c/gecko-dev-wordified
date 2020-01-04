@@ -26413,7 +26413,10 @@ message
 let
 plain
 =
+new
 DOMParser
+(
+)
 .
 parseFromString
 (
