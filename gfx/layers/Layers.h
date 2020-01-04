@@ -3593,7 +3593,7 @@ caller
 !
 *
 /
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
@@ -10301,7 +10301,7 @@ caller
 !
 *
 /
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
