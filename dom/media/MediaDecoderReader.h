@@ -791,6 +791,7 @@ bool
 OnTaskQueue
 (
 )
+const
 {
 return
 OwnerThread
@@ -2424,6 +2425,7 @@ TaskQueue
 OwnerThread
 (
 )
+const
 {
 return
 mTaskQueue
