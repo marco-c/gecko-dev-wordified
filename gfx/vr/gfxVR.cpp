@@ -335,11 +335,6 @@ RenderTargetSet
 RenderTargetSet
 (
 )
-:
-currentRenderTarget
-(
-0
-)
 {
 }
 VRHMDRenderingSupport

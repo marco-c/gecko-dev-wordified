@@ -1387,9 +1387,6 @@ CompositingRenderTarget
 >
 renderTargets
 ;
-int32_t
-currentRenderTarget
-;
 virtual
 already_AddRefed
 <
