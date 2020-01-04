@@ -1949,6 +1949,9 @@ Exception
 :
 ToString
 (
+JSContext
+*
+aCx
 nsACString
 &
 _retval
@@ -2062,6 +2065,7 @@ mLocation
 >
 ToString
 (
+aCx
 location
 )
 ;
@@ -2611,6 +2615,9 @@ Exception
 :
 Stringify
 (
+JSContext
+*
+aCx
 nsString
 &
 retval
@@ -2632,6 +2639,7 @@ rv
 endif
 ToString
 (
+aCx
 str
 )
 ;
@@ -2819,6 +2827,9 @@ DOMException
 :
 ToString
 (
+JSContext
+*
+aCx
 nsACString
 &
 aReturn
