@@ -1265,6 +1265,16 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+!
+mControlThread
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 /
 /
 Dispatch
@@ -1539,6 +1549,11 @@ val
 return
 ;
 }
+if
+(
+mListener
+)
+{
 /
 /
 Call
@@ -1558,6 +1573,7 @@ val
 aInterface
 )
 ;
+}
 }
 void
 WifiProxyService
