@@ -253,7 +253,7 @@ npEvent
 ;
 pluginEvent
 .
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 =
 true
 ;

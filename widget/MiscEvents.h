@@ -1177,7 +1177,7 @@ aMessage
 aWidget
 ePluginEventClass
 )
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 (
 false
 )
@@ -1309,7 +1309,7 @@ to
 false
 .
 bool
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 ;
 void
 AssignPluginEventData
@@ -1328,11 +1328,11 @@ aEvent
 aCopyTargets
 )
 ;
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 =
 aEvent
 .
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 ;
 }
 protected
