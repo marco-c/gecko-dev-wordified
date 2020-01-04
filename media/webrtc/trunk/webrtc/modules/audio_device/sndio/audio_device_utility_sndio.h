@@ -151,7 +151,7 @@ int32_t
 Init
 (
 )
-OVERRIDE
+override
 ;
 private
 :
