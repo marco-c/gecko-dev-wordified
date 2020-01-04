@@ -902,6 +902,14 @@ png
 "
 #
 define
+IMAGE_APNG
+"
+image
+/
+apng
+"
+#
+define
 IMAGE_X_PNG
 "
 image
