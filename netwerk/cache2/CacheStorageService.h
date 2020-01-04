@@ -610,6 +610,8 @@ uint32_t
 aLastModifiedTime
 uint32_t
 aExpirationTime
+bool
+aPinned
 )
 =
 0

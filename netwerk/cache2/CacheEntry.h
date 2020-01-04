@@ -374,6 +374,16 @@ return
 mIsDoomed
 ;
 }
+bool
+IsPinned
+(
+)
+const
+{
+return
+mPinned
+;
+}
 /
 /
 Methods

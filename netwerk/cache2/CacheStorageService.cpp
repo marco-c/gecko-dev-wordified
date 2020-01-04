@@ -1537,6 +1537,8 @@ uint32_t
 aLastModifiedTime
 uint32_t
 aExpirationTime
+bool
+aPinned
 )
 {
 nsCOMPtr
@@ -1577,6 +1579,7 @@ aDataSize
 aFetchCount
 aLastModifiedTime
 aExpirationTime
+aPinned
 )
 ;
 }
@@ -1874,6 +1877,7 @@ mDataSize
 mFetchCount
 mLastModifiedTime
 mExpirationTime
+mPinned
 )
 ;
 return
@@ -1903,6 +1907,9 @@ mLastModifiedTime
 ;
 uint32_t
 mExpirationTime
+;
+bool
+mPinned
 ;
 }
 ;
@@ -2290,6 +2297,8 @@ uint32_t
 aLastModifiedTime
 uint32_t
 aExpirationTime
+bool
+aPinned
 )
 {
 /
@@ -2367,6 +2376,13 @@ info
 mExpirationTime
 =
 aExpirationTime
+;
+info
+-
+>
+mPinned
+=
+aPinned
 ;
 NS_DispatchToMainThread
 (
@@ -10080,6 +10096,12 @@ dataSize
 fetchCount
 lastModified
 expirationTime
+aEntry
+-
+>
+IsPinned
+(
+)
 )
 ;
 }
