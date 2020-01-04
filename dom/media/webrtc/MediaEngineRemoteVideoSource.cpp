@@ -505,6 +505,10 @@ __PRETTY_FUNCTION__
 )
 )
 ;
+AssertIsOnOwningThread
+(
+)
+;
 if
 (
 !
@@ -719,6 +723,10 @@ __PRETTY_FUNCTION__
 )
 )
 ;
+AssertIsOnOwningThread
+(
+)
+;
 -
 -
 mNrAllocations
@@ -838,6 +846,10 @@ LOG
 (
 __PRETTY_FUNCTION__
 )
+)
+;
+AssertIsOnOwningThread
+(
 )
 ;
 if
@@ -993,6 +1005,10 @@ __PRETTY_FUNCTION__
 )
 )
 ;
+AssertIsOnOwningThread
+(
+)
+;
 {
 MonitorAutoLock
 lock
@@ -1126,6 +1142,10 @@ nsString
 aDeviceId
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 if
 (
 !
@@ -2277,6 +2297,10 @@ nsString
 aDeviceId
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 switch
 (
 mMediaSource

@@ -1716,6 +1716,10 @@ nsString
 aDeviceId
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 if
 (
 mState
@@ -1888,6 +1892,10 @@ Deallocate
 (
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 -
 -
 mNrAllocations
@@ -2002,6 +2010,10 @@ TrackID
 aID
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 if
 (
 !
@@ -2255,6 +2267,10 @@ TrackID
 aID
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 {
 MonitorAutoLock
 lock
@@ -3686,6 +3702,10 @@ TrackID
 aId
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 aMediaStream
 -
 >
@@ -3716,6 +3736,10 @@ TrackID
 aId
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 aMediaStream
 -
 >
