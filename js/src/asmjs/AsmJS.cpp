@@ -49859,7 +49859,7 @@ fun
 )
 ;
 return
-Invoke
+InternalCallOrConstruct
 (
 cx
 args
