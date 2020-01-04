@@ -5471,7 +5471,7 @@ CreateImageContainer
 ImageContainer
 :
 :
-ASYNCHRONOUS_OVERLAY
+ASYNCHRONOUS
 )
 ;
 mOverlayImage
