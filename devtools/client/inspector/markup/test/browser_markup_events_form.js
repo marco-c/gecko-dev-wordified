@@ -111,7 +111,7 @@ NodeFront
 const
 TEST_PAGE_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_events_form
@@ -122,7 +122,7 @@ html
 const
 TEST_ACTOR_URL
 =
-CHROME_BASE
+CHROME_URL_ROOT
 +
 "
 actor_events_form
@@ -177,9 +177,7 @@ Toolbox
 )
 ;
 let
-{
 tab
-}
 =
 yield
 addTab
@@ -188,13 +186,12 @@ TEST_PAGE_URL
 )
 ;
 let
-{
 toolbox
-}
 =
 yield
-openToolbox
+openToolboxForTab
 (
+tab
 "
 webconsole
 "

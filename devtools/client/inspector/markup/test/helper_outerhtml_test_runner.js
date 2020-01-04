@@ -190,6 +190,16 @@ currently
 *
 opened
 *
+param
+{
+TestActorFront
+}
+testActor
+The
+current
+TestActorFront
+instance
+*
 return
 a
 promise
@@ -207,6 +217,7 @@ runEditOuterHTMLTests
 (
 tests
 inspector
+testActor
 )
 {
 info
@@ -252,6 +263,7 @@ runEditOuterHTMLTest
 (
 step
 inspector
+testActor
 )
 ;
 }
@@ -377,6 +389,16 @@ of
 InspectorPanel
 currently
 *
+param
+{
+TestActorFront
+}
+testActor
+The
+current
+TestActorFront
+instance
+*
 opened
 *
 /
@@ -386,6 +408,7 @@ runEditOuterHTMLTest
 (
 test
 inspector
+testActor
 )
 {
 info
@@ -613,6 +636,7 @@ getNodeInfo
 test
 .
 selector
+testActor
 )
 ;
 is

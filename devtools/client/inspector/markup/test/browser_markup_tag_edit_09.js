@@ -66,7 +66,7 @@ case
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_svg_attributes
@@ -84,17 +84,13 @@ function
 let
 {
 inspector
+testActor
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 yield
@@ -119,12 +115,14 @@ yield
 testWellformedMixedCase
 (
 inspector
+testActor
 )
 ;
 yield
 testMalformedMixedCase
 (
 inspector
+testActor
 )
 ;
 }
@@ -135,6 +133,7 @@ function
 testWellformedMixedCase
 (
 inspector
+testActor
 )
 {
 info
@@ -338,6 +337,7 @@ height
 200
 "
 }
+testActor
 )
 ;
 }
@@ -346,6 +346,7 @@ function
 testMalformedMixedCase
 (
 inspector
+testActor
 )
 {
 info
@@ -546,6 +547,7 @@ height
 200
 "
 }
+testActor
 )
 ;
 }

@@ -89,7 +89,7 @@ DRAG_DROP_MIN_INITIAL_DISTANCE
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_dragdrop
@@ -137,14 +137,9 @@ inspector
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 info
