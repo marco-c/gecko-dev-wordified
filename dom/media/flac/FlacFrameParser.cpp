@@ -155,6 +155,7 @@ namespace
 mozilla
 {
 class
+MOZ_RAII
 AutoByteReader
 :
 public
@@ -185,7 +186,6 @@ aSize
 )
 {
 }
-virtual
 ~
 AutoByteReader
 (

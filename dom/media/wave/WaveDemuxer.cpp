@@ -934,8 +934,6 @@ false
 }
 ByteReader
 RIFFReader
-=
-ByteReader
 (
 riffHeader
 -
@@ -999,8 +997,6 @@ false
 }
 ByteReader
 HeaderReader
-=
-ByteReader
 (
 header
 -
@@ -1055,8 +1051,6 @@ false
 }
 ByteReader
 fmtReader
-=
-ByteReader
 (
 fmtChunk
 -
@@ -1126,8 +1120,6 @@ false
 }
 ByteReader
 infoTagReader
-=
-ByteReader
 (
 infoTag
 -

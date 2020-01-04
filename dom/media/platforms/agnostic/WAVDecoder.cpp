@@ -447,8 +447,6 @@ Size
 ;
 ByteReader
 aReader
-=
-ByteReader
 (
 aSample
 -

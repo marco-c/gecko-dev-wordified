@@ -98,6 +98,7 @@ namespace
 mp4_demuxer
 {
 class
+MOZ_RAII
 ByteReader
 {
 public
