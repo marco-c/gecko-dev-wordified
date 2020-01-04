@@ -1166,7 +1166,7 @@ for
 (
 let
 itemvisit
-in
+of
 item
 .
 visits
