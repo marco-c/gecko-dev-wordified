@@ -14129,6 +14129,15 @@ hoistedScrollInfoItemsStorage
 )
 ;
 }
+const
+nsStyleEffects
+*
+effects
+=
+StyleEffects
+(
+)
+;
 bool
 useOpacity
 =
@@ -14153,7 +14162,7 @@ usingSVGEffects
 bool
 useBlendMode
 =
-disp
+effects
 -
 >
 mMixBlendMode
@@ -14412,15 +14421,6 @@ CheckForApzAwareEventHandlers
 (
 aBuilder
 this
-)
-;
-const
-nsStyleEffects
-*
-effects
-=
-StyleEffects
-(
 )
 ;
 nsRect
@@ -16372,7 +16372,7 @@ aBuilder
 this
 &
 resultList
-disp
+effects
 -
 >
 mMixBlendMode
@@ -17676,7 +17676,7 @@ GetUnit
 eStyleUnit_Coord
 |
 |
-disp
+effects
 -
 >
 mMixBlendMode
@@ -18097,7 +18097,7 @@ isStackingContext
 {
 if
 (
-disp
+effects
 -
 >
 mMixBlendMode

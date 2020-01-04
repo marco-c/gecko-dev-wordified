@@ -2232,7 +2232,7 @@ opacity
 0f
 |
 |
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -2767,7 +2767,7 @@ opacity
 0f
 |
 |
-StyleDisplay
+StyleEffects
 (
 )
 -

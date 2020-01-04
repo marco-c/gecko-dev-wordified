@@ -26663,7 +26663,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleDisplay
+StyleEffects
 (
 )
 -
