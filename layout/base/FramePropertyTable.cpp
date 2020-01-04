@@ -115,6 +115,7 @@ FramePropertyTable
 :
 Set
 (
+const
 nsIFrame
 *
 aFrame
@@ -533,14 +534,7 @@ aFrame
 {
 mLastFrame
 =
-const_cast
-<
-nsIFrame
-*
->
-(
 aFrame
-)
 ;
 mLastEntry
 =
@@ -717,6 +711,7 @@ FramePropertyTable
 :
 Remove
 (
+const
 nsIFrame
 *
 aFrame
@@ -1067,6 +1062,7 @@ FramePropertyTable
 :
 Delete
 (
+const
 nsIFrame
 *
 aFrame
@@ -1253,6 +1249,7 @@ FramePropertyTable
 :
 DeleteAllFor
 (
+const
 nsIFrame
 *
 aFrame

@@ -3290,6 +3290,7 @@ static
 void
 RemoveFrameFromLayerManager
 (
+const
 nsIFrame
 *
 aFrame
