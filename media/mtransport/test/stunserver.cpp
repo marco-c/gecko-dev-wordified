@@ -3264,6 +3264,12 @@ socket
 "
 )
 ;
+nr_socket_destroy
+(
+&
+newsock
+)
+;
 return
 ;
 }
@@ -3298,6 +3304,12 @@ socket
 "
 )
 ;
+nr_socket_destroy
+(
+&
+bufsock
+)
+;
 return
 ;
 }
@@ -3305,7 +3317,7 @@ if
 (
 nr_socket_getfd
 (
-bufsock
+wrapsock
 &
 fd
 )
@@ -3325,6 +3337,12 @@ connected
 tcp
 socket
 "
+)
+;
+nr_socket_destroy
+(
+&
+wrapsock
 )
 ;
 return
