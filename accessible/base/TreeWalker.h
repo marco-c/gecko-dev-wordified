@@ -324,6 +324,8 @@ TreeWalker
 Return
 the
 next
+/
+prev
 accessible
 .
 *
@@ -362,6 +364,12 @@ document
 Accessible
 *
 Next
+(
+)
+;
+Accessible
+*
+Prev
 (
 )
 ;
@@ -440,6 +448,8 @@ PushState
 nsIContent
 *
 aContent
+bool
+aStartAtBeginning
 )
 {
 return
@@ -454,6 +464,7 @@ AllChildrenIterator
 (
 aContent
 mChildFilter
+aStartAtBeginning
 )
 )
 ;
@@ -508,6 +519,18 @@ mChildFilter
 ;
 uint32_t
 mFlags
+;
+enum
+Phase
+{
+eAtStart
+eAtDOM
+eAtARIAOwns
+eAtEnd
+}
+;
+Phase
+mPhase
 ;
 }
 ;
