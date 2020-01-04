@@ -263,6 +263,26 @@ linux64
 /
 debug
 '
+or
+\
+               
+test
+[
+'
+test
+-
+platform
+'
+]
+=
+=
+'
+linux64
+-
+asan
+/
+opt
+'
 :
                 
 test
