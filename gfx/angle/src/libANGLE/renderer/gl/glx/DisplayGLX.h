@@ -463,6 +463,12 @@ configIdToGLXConfig
 glx
 :
 :
+FBConfig
+mContextConfig
+;
+glx
+:
+:
 Context
 mContext
 ;

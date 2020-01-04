@@ -103,6 +103,9 @@ public
 :
 WindowSurfaceWGL
 (
+RendererGL
+*
+renderer
 EGLNativeWindowType
 window
 int
@@ -231,6 +234,13 @@ isPostSubBufferSupported
 const
 override
 ;
+EGLint
+getSwapBehavior
+(
+)
+const
+override
+;
 private
 :
 int
@@ -249,6 +259,9 @@ const
 FunctionsWGL
 *
 mFunctionsWGL
+;
+EGLint
+mSwapBehavior
 ;
 }
 ;

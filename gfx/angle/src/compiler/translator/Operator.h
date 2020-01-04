@@ -103,15 +103,6 @@ parameters
 etc
 .
 EOpFunctionCall
-EOpInternalFunctionCall
-/
-/
-Call
-to
-an
-internal
-helper
-function
 EOpFunction
 /
 /

@@ -97,6 +97,9 @@ namespace
 rx
 {
 class
+DisplayGLX
+;
+class
 FunctionsGLX
 ;
 class
@@ -109,6 +112,9 @@ public
 :
 PbufferSurfaceGLX
 (
+RendererGL
+*
+renderer
 EGLint
 width
 EGLint
@@ -242,6 +248,13 @@ override
 ;
 EGLint
 isPostSubBufferSupported
+(
+)
+const
+override
+;
+EGLint
+getSwapBehavior
 (
 )
 const

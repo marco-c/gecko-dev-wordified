@@ -251,7 +251,7 @@ viewportSize
 ;
 for
 (
-size_t
+GLint
 i
 =
 0

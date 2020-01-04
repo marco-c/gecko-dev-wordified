@@ -103,6 +103,9 @@ public
 :
 PbufferSurfaceWGL
 (
+RendererGL
+*
+renderer
 EGLint
 width
 EGLint
@@ -236,6 +239,13 @@ override
 ;
 EGLint
 isPostSubBufferSupported
+(
+)
+const
+override
+;
+EGLint
+getSwapBehavior
 (
 )
 const

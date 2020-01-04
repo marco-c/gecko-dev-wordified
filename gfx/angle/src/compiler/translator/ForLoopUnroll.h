@@ -179,7 +179,6 @@ false
 )
 {
 }
-virtual
 bool
 visitBinary
 (
@@ -188,8 +187,8 @@ TIntermBinary
 *
 node
 )
+override
 ;
-virtual
 bool
 visitLoop
 (
@@ -198,8 +197,8 @@ TIntermLoop
 *
 node
 )
+override
 ;
-virtual
 void
 visitSymbol
 (
@@ -207,6 +206,7 @@ TIntermSymbol
 *
 node
 )
+override
 ;
 bool
 samplerArrayIndexIsFloatLoopIndex

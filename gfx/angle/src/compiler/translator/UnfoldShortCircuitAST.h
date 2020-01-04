@@ -153,7 +153,6 @@ false
 )
 {
 }
-virtual
 bool
 visitBinary
 (
@@ -162,6 +161,7 @@ visit
 TIntermBinary
 *
 )
+override
 ;
 }
 ;

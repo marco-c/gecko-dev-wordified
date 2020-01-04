@@ -62,6 +62,10 @@ h
 #
 include
 "
+compiler
+/
+preprocessor
+/
 DirectiveHandlerBase
 .
 h

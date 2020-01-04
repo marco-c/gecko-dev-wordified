@@ -94,14 +94,13 @@ output
 ;
 protected
 :
-virtual
 bool
 writeVariablePrecision
 (
 TPrecision
 )
+override
 ;
-virtual
 void
 visitSymbol
 (
@@ -109,8 +108,8 @@ TIntermSymbol
 *
 node
 )
+override
 ;
-virtual
 TString
 translateTextureFunction
 (
@@ -118,6 +117,7 @@ TString
 &
 name
 )
+override
 ;
 }
 ;

@@ -251,7 +251,6 @@ return
 mValid
 ;
 }
-virtual
 void
 visitSymbol
 (
@@ -259,6 +258,7 @@ TIntermSymbol
 *
 symbol
 )
+override
 {
 /
 /

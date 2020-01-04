@@ -107,6 +107,12 @@ NativeWindow
 (
 EGLNativeWindowType
 window
+const
+egl
+:
+:
+Config
+*
 )
 :
 mWindow

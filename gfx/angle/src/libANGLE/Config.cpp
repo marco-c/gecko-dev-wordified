@@ -343,10 +343,16 @@ section
 EGLint
 id
 =
+static_cast
+<
+EGLint
+>
+(
 mConfigs
 .
 size
 (
+)
 )
 +
 1

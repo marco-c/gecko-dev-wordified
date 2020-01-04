@@ -119,6 +119,9 @@ class
 RenderTargetD3D
 ;
 struct
+WorkaroundsD3D
+;
+struct
 ClearParameters
 {
 bool
@@ -479,7 +482,7 @@ AttachmentList
 getColorAttachmentsForRender
 (
 const
-Workarounds
+WorkaroundsD3D
 &
 workarounds
 )

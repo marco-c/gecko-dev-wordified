@@ -261,7 +261,9 @@ size_t
 offset
 size_t
 count
-RangeUI
+bool
+primitiveRestartEnabled
+IndexRange
 *
 outRange
 )

@@ -3699,6 +3699,8 @@ read
 (
 buf
 maxSize
+&
+yylineno
 )
 ;
 #

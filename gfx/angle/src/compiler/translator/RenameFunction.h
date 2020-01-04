@@ -115,7 +115,6 @@ newFunctionName
 )
 {
 }
-virtual
 bool
 visitAggregate
 (
@@ -125,6 +124,7 @@ TIntermAggregate
 *
 node
 )
+override
 {
 TOperator
 op

@@ -167,6 +167,7 @@ visitSymbol
 TIntermSymbol
 *
 )
+override
 ;
 void
 visitConstantUnion
@@ -174,6 +175,7 @@ visitConstantUnion
 TIntermConstantUnion
 *
 )
+override
 ;
 bool
 visitBinary
@@ -183,6 +185,7 @@ visit
 TIntermBinary
 *
 )
+override
 ;
 bool
 visitUnary
@@ -192,6 +195,7 @@ visit
 TIntermUnary
 *
 )
+override
 ;
 bool
 visitSelection
@@ -201,6 +205,7 @@ visit
 TIntermSelection
 *
 )
+override
 ;
 bool
 visitAggregate
@@ -210,6 +215,7 @@ visit
 TIntermAggregate
 *
 )
+override
 ;
 bool
 visitLoop
@@ -219,6 +225,7 @@ visit
 TIntermLoop
 *
 )
+override
 ;
 bool
 visitBranch
@@ -228,6 +235,7 @@ visit
 TIntermBranch
 *
 )
+override
 ;
 size_t
 mIndex

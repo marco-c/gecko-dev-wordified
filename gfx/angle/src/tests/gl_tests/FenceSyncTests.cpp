@@ -631,9 +631,15 @@ fences
 ;
 glGenFencesNV
 (
+static_cast
+<
+GLsizei
+>
+(
 ArraySize
 (
 fences
+)
 )
 fences
 )

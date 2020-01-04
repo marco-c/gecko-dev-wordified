@@ -108,15 +108,14 @@ TDependencyGraph
 graph
 )
 ;
-virtual
 void
 visitSymbol
 (
 TIntermSymbol
 *
 )
+override
 ;
-virtual
 bool
 visitBinary
 (
@@ -125,8 +124,8 @@ visit
 TIntermBinary
 *
 )
+override
 ;
-virtual
 bool
 visitSelection
 (
@@ -135,8 +134,8 @@ visit
 TIntermSelection
 *
 )
+override
 ;
-virtual
 bool
 visitAggregate
 (
@@ -145,8 +144,8 @@ visit
 TIntermAggregate
 *
 )
+override
 ;
-virtual
 bool
 visitLoop
 (
@@ -155,6 +154,7 @@ visit
 TIntermLoop
 *
 )
+override
 ;
 private
 :

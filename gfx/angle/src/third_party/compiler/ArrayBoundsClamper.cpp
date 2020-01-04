@@ -482,7 +482,6 @@ false
 )
 {
 }
-virtual
 bool
 visitBinary
 (
@@ -492,6 +491,7 @@ TIntermBinary
 *
 node
 )
+override
 {
 if
 (

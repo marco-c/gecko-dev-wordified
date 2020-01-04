@@ -74,6 +74,15 @@ define
 ANGLE_TEST_INSTANTIATE_H_
 #
 include
+<
+gtest
+/
+gtest
+.
+h
+>
+#
+include
 "
 common
 /
@@ -260,6 +269,7 @@ __VA_ARGS__
 INSTANTIATE_TEST_CASE_P
 (
 testName
+\
 testing
 :
 :
@@ -284,6 +294,13 @@ testName
 params
 )
 )
+)
+\
+testing
+:
+:
+PrintToStringParamName
+(
 )
 )
 ;

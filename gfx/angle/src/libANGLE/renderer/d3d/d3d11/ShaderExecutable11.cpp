@@ -355,7 +355,14 @@ constantBufferDescription
 .
 ByteWidth
 =
+static_cast
+<
+unsigned
+int
+>
+(
 initialSize
+)
 ;
 constantBufferDescription
 .

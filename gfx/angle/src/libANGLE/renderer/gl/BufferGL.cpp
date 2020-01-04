@@ -601,7 +601,6 @@ result
 {
 ASSERT
 (
-*
 result
 )
 ;
@@ -654,10 +653,12 @@ size_t
 offset
 size_t
 count
+bool
+primitiveRestartEnabled
 gl
 :
 :
-RangeUI
+IndexRange
 *
 outRange
 )
@@ -711,6 +712,7 @@ bufferData
 +
 offset
 count
+primitiveRestartEnabled
 )
 ;
 mFunctions

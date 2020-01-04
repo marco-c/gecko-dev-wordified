@@ -434,7 +434,7 @@ EXPECT_GL_NO_ERROR
 ;
 for
 (
-size_t
+GLenum
 face
 =
 0
@@ -520,7 +520,7 @@ EXPECT_GL_NO_ERROR
 }
 for
 (
-size_t
+GLenum
 face
 =
 0

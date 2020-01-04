@@ -116,7 +116,7 @@ int
 >
 :
 :
-None
+Invalid
 (
 )
 testInvalid
@@ -165,7 +165,7 @@ int
 >
 :
 :
-None
+Invalid
 (
 )
 testValid

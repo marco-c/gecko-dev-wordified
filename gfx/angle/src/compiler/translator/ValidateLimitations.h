@@ -133,7 +133,6 @@ return
 mNumErrors
 ;
 }
-virtual
 bool
 visitBinary
 (
@@ -141,8 +140,8 @@ Visit
 TIntermBinary
 *
 )
+override
 ;
-virtual
 bool
 visitUnary
 (
@@ -150,8 +149,8 @@ Visit
 TIntermUnary
 *
 )
+override
 ;
-virtual
 bool
 visitAggregate
 (
@@ -159,8 +158,8 @@ Visit
 TIntermAggregate
 *
 )
+override
 ;
-virtual
 bool
 visitLoop
 (
@@ -168,6 +167,7 @@ Visit
 TIntermLoop
 *
 )
+override
 ;
 private
 :

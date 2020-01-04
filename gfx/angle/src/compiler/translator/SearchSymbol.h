@@ -126,6 +126,7 @@ TIntermSymbol
 *
 symbolNode
 )
+override
 ;
 bool
 foundMatch

@@ -54,6 +54,10 @@ h
 #
 include
 "
+compiler
+/
+preprocessor
+/
 Token
 .
 h
@@ -830,9 +834,9 @@ Times
 ;
 /
 /
-Invalid
+Unrecognized
 pragma
-error
+warning
 .
 EXPECT_CALL
 (
@@ -845,7 +849,7 @@ pp
 Diagnostics
 :
 :
-PP_INVALID_PRAGMA
+PP_UNRECOGNIZED_PRAGMA
 pp
 :
 :
