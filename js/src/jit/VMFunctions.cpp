@@ -6848,15 +6848,6 @@ JitFrame_Exit
 +
 iter
 ;
-bool
-isConstructing
-=
-iter
-.
-isConstructing
-(
-)
-;
 RootedScript
 script
 (
@@ -6898,7 +6889,6 @@ cx
 script
 nullptr
 nullptr
-isConstructing
 force
 )
 ;
