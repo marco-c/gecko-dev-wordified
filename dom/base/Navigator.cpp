@@ -13480,7 +13480,7 @@ public
 workers
 :
 :
-WorkerMainThreadRunnable
+WorkerCheckAPIExposureOnMainThreadRunnable
 {
 public
 :
@@ -13501,7 +13501,7 @@ aWorkerPrivate
 workers
 :
 :
-WorkerMainThreadRunnable
+WorkerCheckAPIExposureOnMainThreadRunnable
 (
 aWorkerPrivate
 )
@@ -13638,15 +13638,15 @@ HasDataStoreSupportRunnable
 workerPrivate
 )
 ;
+return
 runnable
 -
 >
 Dispatch
 (
-aCx
 )
-;
-return
+&
+&
 runnable
 -
 >
