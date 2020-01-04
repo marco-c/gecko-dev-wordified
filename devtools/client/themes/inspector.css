@@ -126,6 +126,16 @@ endif
 #
 inspector
 -
+searchlabel
+{
+overflow
+:
+hidden
+;
+}
+#
+inspector
+-
 searchbox
 {
 transition
