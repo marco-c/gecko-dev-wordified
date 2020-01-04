@@ -834,6 +834,15 @@ CopySurface
 snapshot
 )
 ;
+if
+(
+!
+copy
+)
+{
+return
+;
+}
 mOwningElement
 -
 >
