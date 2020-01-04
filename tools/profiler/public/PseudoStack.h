@@ -2578,6 +2578,17 @@ mSleeping
 sleeping
 ;
 }
+bool
+isSleeping
+(
+)
+{
+return
+!
+!
+mSleeping
+;
+}
 void
 ref
 (
