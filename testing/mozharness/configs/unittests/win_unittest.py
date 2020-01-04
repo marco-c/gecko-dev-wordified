@@ -863,6 +863,14 @@ on
 -
 fail
 "
+                
+"
+-
+-
+cleanup
+-
+crashes
+"
             
 ]
             
@@ -1113,6 +1121,14 @@ errorsummary
 error_summary_file
 )
 s
+"
+                
+"
+-
+-
+cleanup
+-
+crashes
 "
             
 ]
