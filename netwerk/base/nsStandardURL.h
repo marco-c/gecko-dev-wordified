@@ -1161,7 +1161,7 @@ uint32_t
 aLen
 )
 ;
-bool
+nsresult
 NormalizeIDN
 (
 const
