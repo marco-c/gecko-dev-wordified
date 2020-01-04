@@ -410,7 +410,16 @@ nsresult
 DoRequest
 (
 const
-TerminateRequest
+CloseSessionRequest
+&
+aRequest
+)
+;
+nsresult
+DoRequest
+(
+const
+TerminateSessionRequest
 &
 aRequest
 )
