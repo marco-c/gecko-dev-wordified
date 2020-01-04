@@ -1931,7 +1931,6 @@ fftFrame
 )
 destinationL
 convolutionDestinationL1
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 m_convolverR1
@@ -1946,7 +1945,6 @@ fftFrame
 )
 destinationR
 convolutionDestinationR1
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
@@ -1973,7 +1971,6 @@ fftFrame
 )
 destinationL
 convolutionDestinationL2
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 m_convolverR2
@@ -1988,7 +1985,6 @@ fftFrame
 )
 destinationR
 convolutionDestinationR2
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 }

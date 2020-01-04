@@ -775,7 +775,6 @@ process
 m_fftKernel
 source
 temporaryBuffer
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 else
