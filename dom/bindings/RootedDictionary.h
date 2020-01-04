@@ -161,6 +161,7 @@ T
 class
 MOZ_RAII
 RootedDictionary
+final
 :
 public
 T
@@ -223,6 +224,7 @@ T
 class
 MOZ_RAII
 NullableRootedDictionary
+final
 :
 public
 Nullable

@@ -14077,6 +14077,7 @@ T
 class
 MOZ_RAII
 SequenceRooter
+final
 :
 private
 JS
