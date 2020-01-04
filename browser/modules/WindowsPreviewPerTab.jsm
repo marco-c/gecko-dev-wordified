@@ -2749,11 +2749,6 @@ function
 ctx
 )
 {
-let
-self
-=
-this
-;
 this
 .
 win
@@ -2765,10 +2760,11 @@ previewTab
 this
 .
 tab
-function
 (
 )
-self
+=
+>
+this
 .
 previewTabCallback
 (
@@ -5635,9 +5631,10 @@ AeroPeek
 "
 cacheTimer
 "
-function
 (
 )
+=
+>
 Cc
 [
 "
