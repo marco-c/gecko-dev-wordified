@@ -453,9 +453,11 @@ IsEmpty
 (
 )
 )
+{
 return
 aList
 ;
+}
 /
 /
 libspi

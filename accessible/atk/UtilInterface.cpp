@@ -1343,9 +1343,11 @@ MOZ_UNLIKELY
 listener
 )
 )
+{
 return
 0
 ;
+}
 static
 guint
 key
