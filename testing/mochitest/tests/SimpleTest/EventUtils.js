@@ -7978,7 +7978,7 @@ DOM_VK_VOLUME_DOWN
 :
 return
 "
-VolumeDown
+AudioVolumeDown
 "
 ;
 case

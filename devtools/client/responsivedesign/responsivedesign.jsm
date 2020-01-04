@@ -5121,7 +5121,7 @@ keydown
 key
 :
 "
-VolumeDown
+AudioVolumeDown
 "
 }
 )
@@ -5152,7 +5152,7 @@ keyup
 key
 :
 "
-VolumeDown
+AudioVolumeDown
 "
 }
 )
