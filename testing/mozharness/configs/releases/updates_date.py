@@ -233,6 +233,8 @@ west
 amazonaws
 .
 com
+/
+pub
 "
     
 "
@@ -249,6 +251,8 @@ archive
 mozilla
 .
 org
+/
+pub
 "
     
 "
