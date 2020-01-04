@@ -14486,6 +14486,14 @@ PContentPermissionRequestChild
 actor
 )
 {
+nsContentPermissionUtils
+:
+:
+NotifyRemoveContentPermissionRequestChild
+(
+actor
+)
+;
 auto
 child
 =
