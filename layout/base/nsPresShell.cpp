@@ -67769,6 +67769,8 @@ SetIsActive
 (
 bool
 aIsActive
+bool
+aIsHidden
 )
 {
 NS_PRECONDITION
@@ -68135,6 +68137,11 @@ repaint
 .
 if
 (
+aIsHidden
+)
+{
+if
+(
 TabChild
 *
 tab
@@ -68213,6 +68220,7 @@ MakeHidden
 (
 )
 ;
+}
 }
 }
 return
