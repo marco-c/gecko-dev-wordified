@@ -24999,7 +24999,7 @@ nsWindow
 OnDefaultButtonLoaded
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aButtonRect
 )
@@ -25121,13 +25121,13 @@ return
 NS_OK
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 widgetRect
 ;
 nsresult
 rv
 =
-GetScreenBoundsUntyped
+GetScreenBounds
 (
 widgetRect
 )
@@ -25138,7 +25138,7 @@ rv
 rv
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 buttonRect
 (
 aButtonRect
@@ -25150,7 +25150,7 @@ TopLeft
 )
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 centerOfButton
 (
 buttonRect
