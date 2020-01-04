@@ -118,6 +118,9 @@ video_capture_impl
 h
 "
 #
+ifdef
+WEBRTC_LINUX
+#
 include
 "
 webrtc
@@ -152,6 +155,8 @@ inotify
 .
 h
 >
+#
+endif
 namespace
 webrtc
 {
@@ -312,6 +317,9 @@ char
 deviceUniqueIdUTF8
 )
 ;
+#
+ifdef
+WEBRTC_LINUX
 void
 HandleEvent
 (
@@ -373,6 +381,8 @@ thread
 Atomic32
 _isShutdown
 ;
+#
+endif
 }
 ;
 }
