@@ -150,6 +150,11 @@ WorkerHolder
 (
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+WorkerHolder
+)
+;
 ReleaseWorkerInternal
 (
 )
@@ -174,6 +179,11 @@ WorkerPrivate
 aWorkerPrivate
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+WorkerHolder
+)
+;
 MOZ_ASSERT
 (
 aWorkerPrivate
@@ -218,6 +228,11 @@ ReleaseWorker
 (
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+WorkerHolder
+)
+;
 MOZ_ASSERT
 (
 mWorkerPrivate
@@ -236,6 +251,11 @@ ReleaseWorkerInternal
 (
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+WorkerHolder
+)
+;
 if
 (
 mWorkerPrivate
