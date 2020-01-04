@@ -303,11 +303,7 @@ LOCATION_SERVICE
 "
 location_service
 "
-R
-.
-string
-.
-restrictable_feature_location_services
+0
 )
 CLEAR_HISTORY
 (
