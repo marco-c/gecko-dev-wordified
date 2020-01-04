@@ -112,10 +112,6 @@ clearNamedTimeout
 require
 (
 "
-resource
-:
-/
-/
 devtools
 /
 client
@@ -124,9 +120,9 @@ shared
 /
 widgets
 /
-ViewHelpers
-.
-jsm
+view
+-
+helpers
 "
 )
 ;

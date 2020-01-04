@@ -283,9 +283,9 @@ shared
 /
 widgets
 /
-ViewHelpers
-.
-jsm
+view
+-
+helpers
 "
 )
 ;
