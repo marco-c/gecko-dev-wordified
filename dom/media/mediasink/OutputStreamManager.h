@@ -302,6 +302,11 @@ mPort
 class
 OutputStreamManager
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+OutputStreamManager
+)
+;
 public
 :
 /
@@ -458,6 +463,12 @@ nullptr
 }
 private
 :
+~
+OutputStreamManager
+(
+)
+{
+}
 /
 /
 Keep
