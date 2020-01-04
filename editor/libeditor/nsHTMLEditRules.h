@@ -2598,8 +2598,8 @@ ConfirmSelectionInBody
 nsresult
 InsertMozBRIfNeeded
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
