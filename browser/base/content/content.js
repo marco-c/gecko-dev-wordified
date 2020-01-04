@@ -6760,6 +6760,14 @@ document
 .
 lastModified
 ;
+docInfo
+.
+principal
+=
+document
+.
+nodePrincipal
+;
 let
 documentURIObject
 =
