@@ -177,6 +177,9 @@ class
 WheelScrollAnimation
 ;
 class
+SmoothScrollAnimation
+;
+class
 AsyncPanZoomAnimation
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -347,6 +350,17 @@ virtual
 WheelScrollAnimation
 *
 AsWheelScrollAnimation
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+SmoothScrollAnimation
+*
+AsSmoothScrollAnimation
 (
 )
 {

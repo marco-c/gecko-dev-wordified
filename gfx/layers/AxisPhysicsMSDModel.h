@@ -207,6 +207,7 @@ double
 GetDestination
 (
 )
+const
 ;
 /
 *

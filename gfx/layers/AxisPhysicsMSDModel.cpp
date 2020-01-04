@@ -438,6 +438,7 @@ AxisPhysicsMSDModel
 GetDestination
 (
 )
+const
 {
 return
 mDestination
