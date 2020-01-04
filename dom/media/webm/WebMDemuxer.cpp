@@ -3472,6 +3472,14 @@ isKeyframe
 if
 (
 discardPadding
+&
+&
+i
+=
+=
+count
+-
+1
 )
 {
 uint8_t
