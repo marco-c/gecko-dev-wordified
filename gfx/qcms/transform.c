@@ -11552,6 +11552,13 @@ defined
 (
 __powerpc__
 )
+&
+&
+!
+defined
+(
+__NO_FPRS__
+)
 )
 if
 (
