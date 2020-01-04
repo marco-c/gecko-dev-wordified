@@ -1013,10 +1013,8 @@ nsresult
 GetCurrentPosition
 (
 GeoPositionCallback
-&
 aCallback
 GeoPositionErrorCallback
-&
 aErrorCallback
 PositionOptions
 *
@@ -1027,10 +1025,8 @@ nsresult
 WatchPosition
 (
 GeoPositionCallback
-&
 aCallback
 GeoPositionErrorCallback
-&
 aErrorCallback
 PositionOptions
 *

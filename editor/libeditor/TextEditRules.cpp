@@ -2739,9 +2739,6 @@ looking
 for
 text
 nodes
-NodeFilterHolder
-filter
-;
 RefPtr
 <
 NodeIterator
@@ -2756,7 +2753,9 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-filter
+NodeFilterHolder
+(
+)
 )
 ;
 while

@@ -15444,7 +15444,6 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-const
 mozilla
 :
 :
@@ -15452,7 +15451,6 @@ dom
 :
 :
 NodeFilterHolder
-&
 aFilter
 mozilla
 :
@@ -15515,7 +15513,6 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-const
 mozilla
 :
 :
@@ -15523,7 +15520,6 @@ dom
 :
 :
 NodeFilterHolder
-&
 aFilter
 mozilla
 :

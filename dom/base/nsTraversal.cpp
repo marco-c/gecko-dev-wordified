@@ -156,9 +156,7 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-const
 NodeFilterHolder
-&
 aFilter
 )
 :
@@ -172,7 +170,10 @@ aWhatToShow
 )
 mFilter
 (
+Move
+(
 aFilter
+)
 )
 mInAcceptNode
 (
