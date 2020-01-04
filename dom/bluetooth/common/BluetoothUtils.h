@@ -300,7 +300,7 @@ uuid
 .
 *
 /
-nsresult
+void
 GenerateUuid
 (
 nsAString

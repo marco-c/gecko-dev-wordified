@@ -612,7 +612,7 @@ uint16_t
 )
 ;
 }
-nsresult
+void
 GenerateUuid
 (
 nsAString
@@ -646,9 +646,8 @@ generator
 rv
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
-rv
 rv
 )
 ;
@@ -666,9 +665,8 @@ GenerateUUIDInPlace
 uuid
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
-rv
 rv
 )
 ;
@@ -731,9 +729,6 @@ NSID_LENGTH
 3
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
