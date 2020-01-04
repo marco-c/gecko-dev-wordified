@@ -5303,7 +5303,7 @@ WriteParam
 aMsg
 aParam
 .
-mCausedByComposition
+mCausedOnlyByComposition
 )
 ;
 WriteParam
@@ -5377,7 +5377,7 @@ aIter
 aResult
 -
 >
-mCausedByComposition
+mCausedOnlyByComposition
 )
 &
 &

@@ -31729,7 +31729,7 @@ mAddedEndOffset
 lu
 "
 "
-mCausedByComposition
+mCausedOnlyByComposition
 =
 %
 s
@@ -31776,7 +31776,7 @@ GetBoolName
 (
 textChangeData
 .
-mCausedByComposition
+mCausedOnlyByComposition
 )
 GetBoolName
 (
@@ -31812,7 +31812,7 @@ if
 (
 textChangeData
 .
-mCausedByComposition
+mCausedOnlyByComposition
 )
 {
 /
@@ -31822,6 +31822,7 @@ text
 change
 notifications
 caused
+only
 by
 composition
 since
