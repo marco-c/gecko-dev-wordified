@@ -1281,11 +1281,6 @@ aCount
 mRemaining
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 return
 nullptr
 ;
