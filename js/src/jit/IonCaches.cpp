@@ -1085,7 +1085,7 @@ nextStubOffset_
 CodeOffsetJump
 rejoinOffset_
 ;
-CodeOffsetLabel
+CodeOffset
 stubCodePatchOffset_
 ;
 public
@@ -1859,7 +1859,7 @@ label
 ;
 rejoinLabel_
 =
-CodeOffsetLabel
+CodeOffset
 (
 label
 .

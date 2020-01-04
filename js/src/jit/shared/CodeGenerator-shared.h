@@ -335,10 +335,10 @@ NativeToTrackedOptimizations
 startOffset
 endOffset
 ]
-CodeOffsetLabel
+CodeOffset
 startOffset
 ;
-CodeOffsetLabel
+CodeOffset
 endOffset
 ;
 const
@@ -431,7 +431,7 @@ safepoints_
 Label
 invalidate_
 ;
-CodeOffsetLabel
+CodeOffset
 invalidateEpilogueData_
 ;
 /
@@ -563,7 +563,7 @@ js
 :
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >
@@ -574,7 +574,7 @@ js
 :
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >
@@ -587,7 +587,7 @@ public
 struct
 NativeToBytecode
 {
-CodeOffsetLabel
+CodeOffset
 nativeOffset
 ;
 InlineScriptTree

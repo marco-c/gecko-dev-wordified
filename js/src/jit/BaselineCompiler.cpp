@@ -1677,7 +1677,7 @@ i
 +
 )
 {
-CodeOffsetLabel
+CodeOffset
 label
 =
 icLoadLabels_
@@ -2951,7 +2951,7 @@ initialized
 .
 prologueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3100,7 +3100,7 @@ recompile
 .
 epilogueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3472,7 +3472,7 @@ entry
 return
 false
 ;
-CodeOffsetLabel
+CodeOffset
 patchOffset
 ;
 EmitCallIC
@@ -3487,7 +3487,7 @@ entry
 >
 setReturnOffset
 (
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4213,7 +4213,7 @@ done
 }
 postDebugPrologueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5296,7 +5296,7 @@ mozilla
 :
 DebugOnly
 <
-CodeOffsetLabel
+CodeOffset
 >
 offset
 =
@@ -5792,7 +5792,7 @@ disabled
 Label
 noInstrument
 ;
-CodeOffsetLabel
+CodeOffset
 toggleOffset
 =
 masm
@@ -5885,7 +5885,7 @@ disabled
 Label
 noInstrument
 ;
-CodeOffsetLabel
+CodeOffset
 toggleOffset
 =
 masm

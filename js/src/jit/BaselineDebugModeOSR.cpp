@@ -7507,7 +7507,7 @@ already
 fixed
 up
 .
-CodeOffsetLabel
+CodeOffset
 noFrameRegPopOffset
 (
 masm

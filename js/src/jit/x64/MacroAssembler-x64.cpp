@@ -331,7 +331,7 @@ uses
 .
 append
 (
-CodeOffsetLabel
+CodeOffset
 (
 j
 .
@@ -407,7 +407,7 @@ uses
 .
 append
 (
-CodeOffsetLabel
+CodeOffset
 (
 j
 .
@@ -510,7 +510,7 @@ uses
 .
 append
 (
-CodeOffsetLabel
+CodeOffset
 (
 j
 .
@@ -613,7 +613,7 @@ uses
 .
 append
 (
-CodeOffsetLabel
+CodeOffset
 (
 j
 .
@@ -641,7 +641,7 @@ uses
 {
 for
 (
-CodeOffsetLabel
+CodeOffset
 use
 :
 uses

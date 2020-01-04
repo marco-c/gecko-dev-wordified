@@ -12811,7 +12811,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -25779,7 +25779,7 @@ fin
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -25820,7 +25820,7 @@ label
 Always
 )
 ;
-CodeOffsetLabel
+CodeOffset
 ret
 (
 b
@@ -25834,7 +25834,7 @@ return
 ret
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -25917,7 +25917,7 @@ ma_nop
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 bo
 .
@@ -32175,7 +32175,7 @@ Simple
 call
 functions
 .
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -32191,7 +32191,7 @@ reg
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -32199,7 +32199,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -32229,7 +32229,7 @@ Always
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -32404,7 +32404,7 @@ scratch
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -32439,7 +32439,7 @@ nullptr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (

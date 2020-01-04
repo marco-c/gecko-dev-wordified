@@ -3511,14 +3511,14 @@ kind
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 returnOffset
 (
 )
 const
 {
 return
-CodeOffsetLabel
+CodeOffset
 (
 returnOffset_
 )
@@ -3527,7 +3527,7 @@ returnOffset_
 void
 setReturnOffset
 (
-CodeOffsetLabel
+CodeOffset
 offset
 )
 {

@@ -49504,8 +49504,8 @@ defined
 (
 JS_CODEGEN_X86
 )
-CodeOffsetLabel
-label
+CodeOffset
+offset
 =
 masm
 .
@@ -49523,7 +49523,7 @@ append
 (
 AsmJSGlobalAccess
 (
-label
+offset
 AsmJSHeapGlobalDataOffset
 )
 )

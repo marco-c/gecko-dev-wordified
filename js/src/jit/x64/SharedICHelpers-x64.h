@@ -227,7 +227,7 @@ inline
 void
 EmitCallIC
 (
-CodeOffsetLabel
+CodeOffset
 *
 patchOffset
 MacroAssembler
@@ -242,7 +242,7 @@ ICEntry
 offset
 into
 ICStubReg
-CodeOffsetLabel
+CodeOffset
 offset
 =
 masm

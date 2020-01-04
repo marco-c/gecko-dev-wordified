@@ -5473,7 +5473,7 @@ Assembler
 :
 writeCodePointer
 (
-CodeOffsetLabel
+CodeOffset
 *
 label
 )
@@ -5511,7 +5511,7 @@ Bind
 uint8_t
 *
 rawCode
-CodeOffsetLabel
+CodeOffset
 *
 label
 const
