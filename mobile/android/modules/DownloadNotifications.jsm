@@ -935,15 +935,8 @@ path
 ;
 /
 /
-we
-can
-'
-t
-use
-selectOrOpenTab
-since
-it
-uses
+Force
+using
 string
 equality
 to
@@ -954,7 +947,7 @@ window
 .
 BrowserApp
 .
-selectOrOpenTab
+selectOrAddTab
 (
 "
 about
@@ -963,6 +956,7 @@ downloads
 "
 +
 hash
+null
 {
 startsWith
 :
