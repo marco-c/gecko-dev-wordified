@@ -164,9 +164,7 @@ mozilla
 .
 gecko
 .
-sync
-.
-ExtendedJSONObject
+Locales
 ;
 import
 org
@@ -177,7 +175,7 @@ gecko
 .
 sync
 .
-Utils
+ExtendedJSONObject
 ;
 import
 org
@@ -1398,7 +1396,7 @@ addHeader
 HttpHeaders
 .
 ACCEPT_LANGUAGE
-Utils
+Locales
 .
 getLanguageTag
 (

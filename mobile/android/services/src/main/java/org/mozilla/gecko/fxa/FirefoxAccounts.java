@@ -200,6 +200,15 @@ mozilla
 .
 gecko
 .
+Locales
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 ThreadPool
@@ -1546,7 +1555,7 @@ final
 String
 LOCALE
 =
-Utils
+Locales
 .
 getLanguageTag
 (
