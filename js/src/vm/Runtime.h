@@ -5506,12 +5506,6 @@ defined
 (
 XP_DARWIN
 )
-&
-&
-defined
-(
-ASMJS_MAY_USE_SIGNAL_HANDLERS
-)
 js
 :
 :

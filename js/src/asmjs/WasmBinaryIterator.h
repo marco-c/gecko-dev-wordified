@@ -2661,6 +2661,8 @@ MOZ_MUST_USE
 bool
 readNullary
 (
+ExprType
+retType
 )
 ;
 MOZ_MUST_USE
@@ -6493,6 +6495,8 @@ Policy
 :
 readNullary
 (
+ExprType
+retType
 )
 {
 MOZ_ASSERT
@@ -6512,10 +6516,7 @@ Nullary
 return
 push
 (
-ExprType
-:
-:
-Void
+retType
 )
 ;
 }
