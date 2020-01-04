@@ -8320,6 +8320,10 @@ TAG_OFFSET
 )
 )
 ;
+asMasm
+(
+)
+.
 branchPtr
 (
 cond
@@ -8352,6 +8356,10 @@ PAYLOAD_OFFSET
 )
 )
 ;
+asMasm
+(
+)
+.
 branchPtr
 (
 cond
@@ -13966,6 +13974,10 @@ ptr
 SecondScratchReg
 )
 ;
+asMasm
+(
+)
+.
 branchPtr
 (
 cond
