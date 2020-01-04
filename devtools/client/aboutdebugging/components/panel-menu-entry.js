@@ -114,7 +114,7 @@ id
 )
 ;
 }
-onKeyUp
+onKeyDown
 (
 event
 )
@@ -236,11 +236,11 @@ onClick
 this
 .
 onClick
-onKeyUp
+onKeyDown
 :
 this
 .
-onKeyUp
+onKeyDown
 tabIndex
 :
 "
