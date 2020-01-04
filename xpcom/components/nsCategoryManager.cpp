@@ -3492,12 +3492,10 @@ aObserverData
 ?
 aObserverData
 :
-EmptyString
+MOZ_UTF16
 (
-)
-.
-get
-(
+"
+"
 )
 )
 ;
