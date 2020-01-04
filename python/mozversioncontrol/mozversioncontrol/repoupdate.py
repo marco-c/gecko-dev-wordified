@@ -85,8 +85,11 @@ revision
 '
 default
 '
-    
+                          
 hostfingerprints
+=
+None
+global_args
 =
 None
 )
@@ -125,6 +128,17 @@ args
 [
 hg
 ]
+    
+if
+global_args
+:
+        
+args
+.
+extend
+(
+global_args
+)
     
 for
 host
