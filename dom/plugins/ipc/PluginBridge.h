@@ -107,6 +107,15 @@ mozilla_plugins_PluginBridge_h
 #
 define
 mozilla_plugins_PluginBridge_h
+#
+include
+"
+base
+/
+process
+.
+h
+"
 namespace
 mozilla
 {
@@ -166,6 +175,11 @@ TerminatePlugin
 (
 uint32_t
 aPluginId
+base
+:
+:
+ProcessId
+aContentProcessId
 const
 nsCString
 &
