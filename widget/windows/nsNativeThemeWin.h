@@ -316,6 +316,10 @@ aAttribute
 bool
 *
 aShouldRepaint
+const
+nsAttrValue
+*
+aOldValue
 )
 override
 ;

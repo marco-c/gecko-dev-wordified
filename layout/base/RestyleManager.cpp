@@ -8617,6 +8617,7 @@ app
 nullptr
 &
 repaint
+nullptr
 )
 ;
 if
@@ -9376,6 +9377,7 @@ mAppearance
 aAttribute
 &
 repaint
+aOldValue
 )
 ;
 if
