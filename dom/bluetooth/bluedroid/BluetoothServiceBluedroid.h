@@ -1456,7 +1456,7 @@ const
 BluetoothAddress
 &
 aRemoteBdAddr
-bool
+BluetoothAclState
 aState
 )
 override

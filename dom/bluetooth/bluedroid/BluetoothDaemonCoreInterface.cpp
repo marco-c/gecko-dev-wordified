@@ -4559,7 +4559,7 @@ aArg1
 BluetoothAddress
 &
 aArg2
-bool
+BluetoothAclState
 &
 aArg3
 )
@@ -4639,14 +4639,7 @@ rv
 UnpackPDU
 (
 pdu
-UnpackConversion
-<
-BluetoothAclState
-bool
->
-(
 aArg3
-)
 )
 ;
 if

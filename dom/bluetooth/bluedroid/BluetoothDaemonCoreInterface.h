@@ -1160,7 +1160,7 @@ NotificationHandlerWrapper
 void
 BluetoothStatus
 BluetoothAddress
-bool
+BluetoothAclState
 BluetoothStatus
 const
 BluetoothAddress

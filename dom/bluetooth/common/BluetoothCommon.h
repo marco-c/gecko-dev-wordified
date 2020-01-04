@@ -2037,6 +2037,13 @@ NUM_STATUS
 }
 ;
 enum
+BluetoothAclState
+{
+ACL_STATE_CONNECTED
+ACL_STATE_DISCONNECTED
+}
+;
+enum
 BluetoothBondState
 {
 BOND_STATE_NONE
