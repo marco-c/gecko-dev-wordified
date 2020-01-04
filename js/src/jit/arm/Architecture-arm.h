@@ -3710,6 +3710,11 @@ GetARMFlags
 )
 ;
 bool
+HasARMv7
+(
+)
+;
+bool
 HasMOVWT
 (
 )

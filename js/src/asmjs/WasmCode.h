@@ -319,7 +319,6 @@ pointers
 into
 code
 for
-two
 stubs
 used
 for
@@ -341,6 +340,10 @@ interruptCode_
 uint8_t
 *
 outOfBoundsCode_
+;
+uint8_t
+*
+unalignedAccessCode_
 ;
 /
 /
@@ -525,6 +528,17 @@ const
 {
 return
 outOfBoundsCode_
+;
+}
+uint8_t
+*
+unalignedAccessCode
+(
+)
+const
+{
+return
+unalignedAccessCode_
 ;
 }
 /

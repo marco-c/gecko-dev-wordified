@@ -7812,6 +7812,16 @@ IsSSE2Present
 }
 static
 bool
+SupportsUnalignedAccesses
+(
+)
+{
+return
+true
+;
+}
+static
+bool
 SupportsSimd
 (
 )

@@ -2260,6 +2260,16 @@ true
 }
 static
 bool
+SupportsUnalignedAccesses
+(
+)
+{
+return
+true
+;
+}
+static
+bool
 SupportsSimd
 (
 )

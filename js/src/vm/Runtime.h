@@ -7037,6 +7037,9 @@ bool
 jitSupportsFloatingPoint
 ;
 bool
+jitSupportsUnalignedAccesses
+;
+bool
 jitSupportsSimd
 ;
 /
