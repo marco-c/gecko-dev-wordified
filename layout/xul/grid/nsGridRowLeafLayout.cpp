@@ -1079,7 +1079,7 @@ recursion
 aBox
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )

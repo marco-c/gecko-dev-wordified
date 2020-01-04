@@ -3663,7 +3663,7 @@ recurson
 box
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )
@@ -4149,7 +4149,7 @@ recurson
 box
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )

@@ -8141,7 +8141,7 @@ aPt
 nsMargin
 border
 ;
-GetBorder
+GetXULBorder
 (
 border
 )
@@ -8512,7 +8512,7 @@ aPt
 nsMargin
 border
 ;
-GetBorder
+GetXULBorder
 (
 border
 )
