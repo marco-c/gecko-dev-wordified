@@ -484,7 +484,10 @@ IsEmpty
 {
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Ios
 (
 nsAString
 &
@@ -580,7 +583,10 @@ aOS
 *
 aOS
 =
-DRIVER_OS_IOS
+OperatingSystem
+:
+:
+Ios
 ;
 /
 /
