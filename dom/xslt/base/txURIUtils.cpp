@@ -141,6 +141,9 @@ using
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 ;
 /

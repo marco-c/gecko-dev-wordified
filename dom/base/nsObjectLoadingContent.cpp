@@ -840,6 +840,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 static
 LogModule
 *

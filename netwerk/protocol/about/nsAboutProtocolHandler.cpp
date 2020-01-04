@@ -209,6 +209,12 @@ nsIScriptError
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 NS_DEFINE_CID
 (
@@ -2696,3 +2702,13 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

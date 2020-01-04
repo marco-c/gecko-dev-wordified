@@ -163,6 +163,12 @@ Services
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 /
 /
 -
@@ -2908,3 +2914,13 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

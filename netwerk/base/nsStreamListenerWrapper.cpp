@@ -75,6 +75,12 @@ h
 "
 #
 endif
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsStreamListenerWrapper
@@ -142,3 +148,13 @@ return
 rv
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

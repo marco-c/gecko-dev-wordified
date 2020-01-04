@@ -271,6 +271,12 @@ mozilla
 :
 ipc
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 NS_DEFINE_CID
 (
@@ -355,9 +361,6 @@ nsStandardURL
 /
 /
 static
-mozilla
-:
-:
 LazyLogModule
 gStandardURLLog
 (
@@ -394,9 +397,6 @@ args
 MOZ_LOG
 (
 gStandardURLLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -414,9 +414,6 @@ LOG_ENABLED
 MOZ_LOG_TEST
 (
 gStandardURLLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -4487,9 +4484,6 @@ SetLength
 approxLen
 +
 1
-mozilla
-:
-:
 fallible
 )
 )
@@ -21414,9 +21408,6 @@ nsIIPCSerializableURI
 -
 -
 inline
-mozilla
-:
-:
 ipc
 :
 :
@@ -21433,9 +21424,6 @@ aSegment
 )
 {
 return
-mozilla
-:
-:
 ipc
 :
 :
@@ -21458,9 +21446,6 @@ URLSegment
 FromIPCSegment
 (
 const
-mozilla
-:
-:
 ipc
 :
 :
@@ -22667,9 +22652,6 @@ nsStandardURL
 :
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -22730,9 +22712,6 @@ nsStandardURL
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -22750,3 +22729,13 @@ aMallocSizeOf
 )
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

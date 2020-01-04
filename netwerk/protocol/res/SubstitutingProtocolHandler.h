@@ -174,6 +174,9 @@ nsIIOService
 namespace
 mozilla
 {
+namespace
+net
+{
 /
 /
 /
@@ -663,6 +666,11 @@ aCID
 ;
 }
 ;
+}
+/
+/
+namespace
+net
 }
 /
 /

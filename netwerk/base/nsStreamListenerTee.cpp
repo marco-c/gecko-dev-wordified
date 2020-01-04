@@ -70,6 +70,12 @@ nsProxyRelease
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsStreamListenerTee
@@ -661,3 +667,13 @@ requestObserver
 )
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

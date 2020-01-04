@@ -263,6 +263,9 @@ using
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 ;
 /
@@ -3813,6 +3816,12 @@ below
 uri
 =
 new
+mozilla
+:
+:
+net
+:
+:
 nsSimpleURI
 (
 )

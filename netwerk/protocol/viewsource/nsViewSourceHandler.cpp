@@ -147,6 +147,12 @@ view
 -
 source
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 /
 /
 /
@@ -992,3 +998,13 @@ return
 gInstance
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

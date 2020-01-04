@@ -165,9 +165,6 @@ SimpleBuffer
 h
 "
 class
-nsStandardURL
-;
-class
 nsIInputStream
 ;
 class
@@ -179,6 +176,9 @@ mozilla
 namespace
 net
 {
+class
+nsStandardURL
+;
 class
 Http2Session
 ;

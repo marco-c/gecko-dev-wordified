@@ -182,6 +182,12 @@ h
 /
 /
 nsInputStreamChannel
+namespace
+mozilla
+{
+namespace
+net
+{
 nsresult
 nsInputStreamChannel
 :
@@ -692,3 +698,13 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

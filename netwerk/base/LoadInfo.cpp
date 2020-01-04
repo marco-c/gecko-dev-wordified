@@ -237,6 +237,9 @@ dom
 namespace
 mozilla
 {
+namespace
+net
+{
 static
 void
 InheritOriginAttributes
@@ -3534,6 +3537,11 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+net
 }
 /
 /

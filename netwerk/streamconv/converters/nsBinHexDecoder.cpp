@@ -196,6 +196,12 @@ include
 <
 algorithm
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsBinHexDecoder
 :
 :
@@ -3527,3 +3533,13 @@ return
 rv
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

@@ -213,6 +213,9 @@ ContentParent
 namespace
 mozilla
 {
+namespace
+net
+{
 /
 /
 Log
@@ -2737,6 +2740,11 @@ return
 rv
 ;
 }
+}
+/
+/
+namespace
+net
 }
 /
 /

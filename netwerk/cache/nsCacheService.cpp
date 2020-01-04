@@ -381,6 +381,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 /
 *
 *

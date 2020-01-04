@@ -105,6 +105,12 @@ segsize
 )
 segsize
 =
+mozilla
+:
+:
+net
+:
+:
 nsIOService
 :
 :
@@ -117,6 +123,12 @@ segcount
 )
 segcount
 =
+mozilla
+:
+:
+net
+:
+:
 nsIOService
 :
 :

@@ -133,6 +133,12 @@ include
 <
 limits
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsStreamLoader
 :
 :
@@ -761,3 +767,13 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla

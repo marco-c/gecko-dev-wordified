@@ -243,6 +243,9 @@ outLoadInfo
 /
 namespace
 ipc
+namespace
+net
+{
 /
 *
 *
@@ -777,6 +780,11 @@ mIsPreflight
 ;
 }
 ;
+}
+/
+/
+namespace
+net
 }
 /
 /
