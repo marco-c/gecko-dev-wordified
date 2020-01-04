@@ -97,11 +97,6 @@ SEC_IN_ONE_DAY
 1000
 ;
 var
-gProfileDir
-=
-null
-;
-var
 gHttpServer
 =
 null
@@ -150,12 +145,6 @@ test_setup
 )
 {
 loadAddonManager
-(
-)
-;
-gProfileDir
-=
-do_get_profile
 (
 )
 ;
