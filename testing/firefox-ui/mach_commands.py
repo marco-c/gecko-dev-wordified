@@ -350,6 +350,7 @@ default
 ones
     
 if
+not
 kwargs
 .
 get
@@ -360,21 +361,12 @@ tests
 )
 :
         
-tests
-=
 kwargs
-.
-get
-(
+[
 '
 tests
 '
-)
-    
-else
-:
-        
-tests
+]
 =
 [
 os
@@ -440,6 +432,18 @@ stdout
 }
 )
     
+#
+pass
+tests
+to
+parse_args
+to
+avoid
+rereading
+sys
+.
+argv
+    
 args
 =
 parser
@@ -448,7 +452,12 @@ parse_args
 (
 args
 =
+kwargs
+[
+'
 tests
+'
+]
 )
     
 for
