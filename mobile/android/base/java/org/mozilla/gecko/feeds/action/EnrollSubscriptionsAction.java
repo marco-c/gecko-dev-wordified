@@ -235,7 +235,7 @@ KnownSiteWordpress
 *
 *
 *
-EnrollAction
+EnrollSubscriptionsAction
 :
 Search
 for
@@ -252,9 +252,9 @@ to
 /
 public
 class
-EnrollAction
+EnrollSubscriptionsAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -294,7 +294,7 @@ Context
 context
 ;
 public
-EnrollAction
+EnrollSubscriptionsAction
 (
 Context
 context

@@ -141,7 +141,7 @@ FeedService
 public
 abstract
 class
-BaseAction
+FeedAction
 {
 public
 static

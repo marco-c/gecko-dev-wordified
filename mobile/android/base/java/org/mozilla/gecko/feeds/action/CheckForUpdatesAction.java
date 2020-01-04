@@ -365,7 +365,7 @@ List
 *
 *
 *
-CheckAction
+CheckForUpdatesAction
 :
 Check
 if
@@ -382,9 +382,9 @@ available
 /
 public
 class
-CheckAction
+CheckForUpdatesAction
 extends
-BaseAction
+FeedAction
 {
 /
 *
@@ -431,7 +431,7 @@ Context
 context
 ;
 public
-CheckAction
+CheckForUpdatesAction
 (
 Context
 context

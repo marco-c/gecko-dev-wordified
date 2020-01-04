@@ -185,7 +185,7 @@ FeedSubscription
 *
 *
 *
-WithdrawAction
+WithdrawSubscriptionsAction
 :
 Look
 for
@@ -198,9 +198,9 @@ from
 /
 public
 class
-WithdrawAction
+WithdrawSubscriptionsAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -217,7 +217,7 @@ Context
 context
 ;
 public
-WithdrawAction
+WithdrawSubscriptionsAction
 (
 Context
 context
