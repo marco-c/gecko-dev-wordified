@@ -3385,11 +3385,9 @@ d
 .
 0
 )
-{
 return
 0
 ;
-}
 return
 NSToCoordRoundWithClamp
 (
@@ -4257,7 +4255,6 @@ GetType
 =
 eStyleImageType_Image
 )
-{
 mImage
 .
 TrackImage
@@ -4265,7 +4262,6 @@ TrackImage
 aContext
 )
 ;
-}
 }
 void
 UntrackImages
@@ -4286,7 +4282,6 @@ GetType
 =
 eStyleImageType_Image
 )
-{
 mImage
 .
 UntrackImage
@@ -4294,7 +4289,6 @@ UntrackImage
 aContext
 )
 ;
-}
 }
 /
 /
@@ -5860,11 +5854,9 @@ c1
 =
 c2
 )
-{
 return
 true
 ;
-}
 while
 (
 c1
@@ -5886,11 +5878,9 @@ c2
 >
 mColor
 )
-{
 return
 false
 ;
-}
 c1
 =
 c1
@@ -6454,11 +6444,9 @@ mInset
 =
 aInset
 )
-{
 return
 true
 ;
-}
 }
 return
 false
@@ -6487,11 +6475,9 @@ Length
 (
 )
 )
-{
 return
 false
 ;
-}
 for
 (
 uint32_t
@@ -6523,11 +6509,9 @@ ShadowAt
 i
 )
 )
-{
 return
 false
 ;
-}
 }
 return
 true
@@ -6972,7 +6956,6 @@ if
 (
 mBorderColors
 )
-{
 for
 (
 int32_t
@@ -6988,7 +6971,6 @@ i
 +
 +
 )
-{
 mBorderColors
 [
 i
@@ -6996,8 +6978,6 @@ i
 =
 nullptr
 ;
-}
-}
 }
 }
 void
@@ -7182,7 +7162,6 @@ HasVisibleStyle
 aSide
 )
 )
-{
 mComputedBorder
 .
 Side
@@ -7192,7 +7171,6 @@ aSide
 =
 roundedWidth
 ;
-}
 }
 /
 /
@@ -7533,7 +7511,6 @@ BORDER_COLOR_SPECIAL
 =
 0
 )
-{
 aColor
 =
 mBorderColor
@@ -7541,7 +7518,6 @@ mBorderColor
 aSide
 ]
 ;
-}
 else
 if
 (
@@ -7552,14 +7528,11 @@ aSide
 &
 BORDER_COLOR_FOREGROUND
 )
-{
 aForeground
 =
 true
 ;
-}
 else
-{
 NS_NOTREACHED
 (
 "
@@ -7572,7 +7545,6 @@ here
 "
 )
 ;
-}
 }
 void
 SetBorderColor
@@ -7699,15 +7671,12 @@ if
 !
 mBorderColors
 )
-{
 *
 aColors
 =
 nullptr
 ;
-}
 else
-{
 *
 aColors
 =
@@ -7716,7 +7685,6 @@ mBorderColors
 aIndex
 ]
 ;
-}
 }
 void
 AppendBorderColor
@@ -7767,7 +7735,6 @@ mBorderColors
 aIndex
 ]
 )
-{
 mBorderColors
 [
 aIndex
@@ -7775,7 +7742,6 @@ aIndex
 =
 colorEntry
 ;
-}
 else
 {
 nsBorderColors
@@ -7794,7 +7760,6 @@ last
 >
 mNext
 )
-{
 last
 =
 last
@@ -7802,7 +7767,6 @@ last
 >
 mNext
 ;
-}
 last
 -
 >
@@ -9074,7 +9038,6 @@ if
 (
 mListStyleImage
 )
-{
 mListStyleImage
 -
 >
@@ -9082,7 +9045,6 @@ UnlockImage
 (
 )
 ;
-}
 mListStyleImage
 =
 aReq
@@ -9091,7 +9053,6 @@ if
 (
 mListStyleImage
 )
-{
 mListStyleImage
 -
 >
@@ -9099,7 +9060,6 @@ LockImage
 (
 )
 ;
-}
 }
 void
 GetListStyleType
@@ -13519,12 +13479,10 @@ roundedAngle
 *
 M_PI
 )
-{
 orientation
 =
 ANGLE_0
 ;
-}
 else
 if
 (
@@ -13536,12 +13494,10 @@ roundedAngle
 *
 M_PI
 )
-{
 orientation
 =
 ANGLE_90
 ;
-}
 else
 if
 (
@@ -13553,12 +13509,10 @@ roundedAngle
 *
 M_PI
 )
-{
 orientation
 =
 ANGLE_180
 ;
-}
 else
 if
 (
@@ -13570,19 +13524,15 @@ roundedAngle
 *
 M_PI
 )
-{
 orientation
 =
 ANGLE_270
 ;
-}
 else
-{
 orientation
 =
 ANGLE_0
 ;
-}
 /
 /
 Add
@@ -13599,13 +13549,11 @@ if
 (
 aFlip
 )
-{
 orientation
 |
 =
 FLIP_MASK
 ;
-}
 return
 nsStyleImageOrientation
 (
@@ -14748,12 +14696,10 @@ aOther
 =
 this
 )
-{
 return
 *
 this
 ;
-}
 mType
 =
 aOther
@@ -18952,7 +18898,6 @@ if
 (
 mImage
 )
-{
 mImage
 -
 >
@@ -18960,7 +18905,6 @@ UnlockImage
 (
 )
 ;
-}
 mImage
 =
 aImage
@@ -18969,7 +18913,6 @@ if
 (
 mImage
 )
-{
 mImage
 -
 >
@@ -18977,7 +18920,6 @@ LockImage
 (
 )
 ;
-}
 }
 imgIRequest
 *
