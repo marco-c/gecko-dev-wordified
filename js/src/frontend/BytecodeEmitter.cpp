@@ -13544,6 +13544,8 @@ pn_count
 0
 )
 ;
+MOZ_FALLTHROUGH
+;
 /
 /
 Subcomponents
@@ -56263,7 +56265,7 @@ break
 case
 PNK_POSHOLDER
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 Should
