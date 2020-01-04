@@ -581,6 +581,12 @@ aThread
 )
 const
 ;
+bool
+RequiresTailDispatchFromCurrentThread
+(
+)
+const
+;
 virtual
 TaskQueue
 *
