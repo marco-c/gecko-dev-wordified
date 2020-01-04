@@ -63,6 +63,8 @@ MPL
 /
 .
 import
+copy
+import
 os
 import
 sys
@@ -103,6 +105,15 @@ base
 errors
 import
 MakefileErrorList
+from
+mozharness
+.
+mozilla
+.
+blob_upload
+import
+BlobUploadMixin
+blobupload_config_options
 from
 mozharness
 .
@@ -300,6 +311,7 @@ B2GHazardBuild
 (
 PurgeMixin
 B2GBuildBaseScript
+BlobUploadMixin
 )
 :
     
@@ -497,8 +509,12 @@ __init__
             
 config_options
 =
-[
-]
+copy
+.
+deepcopy
+(
+blobupload_config_options
+)
             
 config
 =
@@ -570,6 +586,12 @@ None
         
 self
 .
+create_virtualenv
+(
+)
+        
+self
+.
 analysis
 =
 HazardAnalysis
@@ -611,6 +633,40 @@ is_automation
 ]
 =
 True
+            
+self
+.
+config
+.
+setdefault
+(
+'
+blob_upload_branch
+'
+self
+.
+config
+.
+get
+(
+'
+branch
+'
+self
+.
+buildbot_config
+[
+'
+properties
+'
+]
+[
+'
+branch
+'
+]
+)
+)
         
 else
 :
@@ -625,6 +681,20 @@ is_automation
 ]
 =
 False
+            
+self
+.
+config
+.
+setdefault
+(
+'
+blob_upload_branch
+'
+'
+devel
+'
+)
         
 dirs
 =
@@ -696,6 +766,22 @@ purge_env
 =
 nuisance_env_vars
 )
+        
+self
+.
+env
+[
+'
+MOZ_UPLOAD_DIR
+'
+]
+=
+dirs
+[
+'
+abs_blob_upload_dir
+'
+]
     
 def
 query_abs_dirs
@@ -897,6 +983,23 @@ analysis
 scriptdir
 '
 ]
+)
+            
+'
+abs_blob_upload_dir
+'
+:
+                
+os
+.
+path
+.
+join
+(
+abs_work_dir
+'
+blobber_upload_dir
+'
 )
         
 }
