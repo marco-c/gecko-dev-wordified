@@ -1870,17 +1870,6 @@ MOZ_CRASH
 ;
 }
 void
-neg32
-(
-Register
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 negateDouble
 (
 FloatRegister
