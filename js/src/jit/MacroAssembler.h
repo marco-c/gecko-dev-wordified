@@ -3088,7 +3088,7 @@ wasm
 CallSiteDesc
 &
 desc
-AsmJSInternalCallee
+uint32_t
 callee
 )
 ;

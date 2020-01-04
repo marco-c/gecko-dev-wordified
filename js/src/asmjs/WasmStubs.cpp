@@ -1984,10 +1984,7 @@ CallSiteDesc
 :
 Relative
 )
-AsmJSInternalCallee
-(
 target
-)
 )
 ;
 /
