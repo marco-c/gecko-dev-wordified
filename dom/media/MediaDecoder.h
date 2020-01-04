@@ -3116,17 +3116,6 @@ EnsureTelemetryReported
 (
 )
 ;
-#
-ifdef
-MOZ_RAW
-static
-bool
-IsRawEnabled
-(
-)
-;
-#
-endif
 static
 bool
 IsOggEnabled
