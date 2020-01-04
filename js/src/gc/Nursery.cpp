@@ -3797,7 +3797,7 @@ source
 MOZ_ASSERT
 (
 !
-isRunningWithLockHeld
+isRunning
 (
 )
 )
