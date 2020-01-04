@@ -532,6 +532,8 @@ nsIFrame
 aFrame
 )
 ;
+private
+:
 /
 /
 Get
@@ -581,8 +583,6 @@ nsCSSPropertySet
 aPropertiesOverridden
 )
 ;
-private
-:
 static
 void
 UpdateCascadeResults
