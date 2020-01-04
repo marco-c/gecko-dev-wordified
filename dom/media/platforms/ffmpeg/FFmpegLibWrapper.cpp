@@ -597,6 +597,11 @@ AV_FUNC_54
 )
 AV_FUNC
 (
+avcodec_free_frame
+AV_FUNC_54
+)
+AV_FUNC
+(
 av_log_set_level
 AV_FUNC_AVUTIL_ALL
 )
@@ -609,11 +614,6 @@ AV_FUNC
 (
 av_freep
 AV_FUNC_AVUTIL_ALL
-)
-AV_FUNC
-(
-avcodec_free_frame
-AV_FUNC_AVUTIL_54
 )
 AV_FUNC
 (
