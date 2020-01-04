@@ -1707,14 +1707,10 @@ UTF
 )
 )
 ;
-*
-aDocument
-=
 blankDoc
-;
-NS_ADDREF
+.
+forget
 (
-*
 aDocument
 )
 ;

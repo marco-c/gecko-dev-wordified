@@ -12961,14 +12961,10 @@ if
 aOutFontMetrics
 )
 {
-*
-aOutFontMetrics
-=
 metrics
-;
-NS_ADDREF
+.
+forget
 (
-*
 aOutFontMetrics
 )
 ;
