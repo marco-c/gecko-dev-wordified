@@ -41451,7 +41451,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -41524,7 +41524,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -41562,6 +41562,8 @@ information
 about
 disappeared
 mouse
+/
+/
 pointers
 if
 (
@@ -43636,7 +43638,7 @@ mWidget
 ;
 event
 .
-isPrimary
+mIsPrimary
 =
 i
 =

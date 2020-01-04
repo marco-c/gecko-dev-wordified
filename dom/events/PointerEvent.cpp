@@ -601,7 +601,7 @@ mPointerType
 widgetEvent
 -
 >
-isPrimary
+mIsPrimary
 =
 aParam
 .
@@ -848,7 +848,7 @@ AsPointerEvent
 )
 -
 >
-isPrimary
+mIsPrimary
 ;
 }
 }

@@ -4646,7 +4646,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -4693,7 +4693,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -4720,7 +4720,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -4809,7 +4809,7 @@ uint32_t
 mHeight
 ;
 bool
-isPrimary
+mIsPrimary
 ;
 /
 /
@@ -4849,11 +4849,11 @@ aEvent
 .
 mHeight
 ;
-isPrimary
+mIsPrimary
 =
 aEvent
 .
-isPrimary
+mIsPrimary
 ;
 }
 }
