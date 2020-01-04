@@ -315,7 +315,7 @@ check
 '
 +
 '
-sendSyncMessage
+sendAsyncMessage
 (
 "
 done

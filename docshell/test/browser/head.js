@@ -279,13 +279,13 @@ function
 ignore
 )
 {
-finish
-(
-)
-;
 gBrowser
 .
 removeCurrentTab
+(
+)
+;
+finish
 (
 )
 ;

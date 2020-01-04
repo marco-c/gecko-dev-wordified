@@ -2400,8 +2400,16 @@ true
 ;
 gBrowser
 .
-removeCurrentTab
+removeTab
 (
+gBrowser
+.
+selectedTab
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 gBrowser
