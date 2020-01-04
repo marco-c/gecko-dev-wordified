@@ -1095,6 +1095,10 @@ uninstall
 (
 )
 ;
+ensure_test_completed
+(
+)
+;
 check_test_4
 (
 )
