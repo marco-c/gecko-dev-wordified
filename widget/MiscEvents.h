@@ -823,7 +823,7 @@ command
 aCommand
 )
 {
-userType
+mSpecifiedEventType
 =
 aEventType
 ;
@@ -875,7 +875,7 @@ new
 WidgetCommandEvent
 (
 false
-userType
+mSpecifiedEventType
 command
 nullptr
 )

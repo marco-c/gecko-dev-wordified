@@ -1628,14 +1628,14 @@ eUnidentifiedEvent
 &
 aKeyboardEvent
 .
-userType
+mSpecifiedEventType
 &
 &
 nsDependentAtomString
 (
 aKeyboardEvent
 .
-userType
+mSpecifiedEventType
 )
 .
 EqualsLiteral

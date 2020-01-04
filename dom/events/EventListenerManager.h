@@ -1592,7 +1592,7 @@ mNoListenerForEventAtom
 aEvent
 -
 >
-userType
+mSpecifiedEventType
 )
 )
 {
