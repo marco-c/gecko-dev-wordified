@@ -939,6 +939,9 @@ args
 }
 ;
 var
+HttpObserverManager
+;
+var
 ChannelEventSink
 =
 {
@@ -1230,13 +1233,13 @@ iid
 ;
 }
 }
+;
 ChannelEventSink
 .
 init
 (
 )
 ;
-var
 HttpObserverManager
 =
 {

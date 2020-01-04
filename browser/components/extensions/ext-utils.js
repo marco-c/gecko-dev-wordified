@@ -393,16 +393,6 @@ the
 right
 property
 .
-let
-global
-=
-Cu
-.
-getGlobalForObject
-(
-imageData
-)
-;
 if
 (
 instanceOf
