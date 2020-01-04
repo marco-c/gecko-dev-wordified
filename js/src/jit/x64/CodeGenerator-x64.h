@@ -411,6 +411,14 @@ lir
 )
 ;
 void
+visitNotI64
+(
+LNotI64
+*
+lir
+)
+;
+void
 visitTruncateDToInt32
 (
 LTruncateDToInt32
