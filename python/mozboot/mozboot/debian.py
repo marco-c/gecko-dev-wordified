@@ -369,26 +369,6 @@ dev
 '
         
 '
-libgstreamer0
-.
-10
--
-dev
-'
-        
-'
-libgstreamer
--
-plugins
--
-base0
-.
-10
--
-dev
-'
-        
-'
 libgtk2
 .
 0

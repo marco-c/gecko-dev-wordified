@@ -197,22 +197,6 @@ static
 '
             
 '
-gstreamer
--
-devel
-'
-            
-'
-gstreamer
--
-plugins
--
-base
--
-devel
-'
-            
-'
 gtk2
 -
 devel
