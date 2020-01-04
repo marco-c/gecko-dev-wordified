@@ -1197,6 +1197,10 @@ YW5vdGhlciBzZXJpYWwu
 /
 serialNumber
 >
+<
+/
+certItem
+>
 "
 +
 /
@@ -1217,10 +1221,6 @@ and
 pubKeyHash
 .
 "
-<
-/
-certItem
->
 <
 certItem
 subject

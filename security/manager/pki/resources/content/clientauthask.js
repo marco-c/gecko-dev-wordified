@@ -389,7 +389,7 @@ GetInt
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -415,7 +415,7 @@ menuitem
 "
 )
 ;
-var
+let
 nick
 =
 dialogParams
@@ -487,7 +487,7 @@ setDetails
 (
 )
 {
-var
+let
 index
 =
 parseInt
@@ -504,7 +504,7 @@ nicknames
 value
 )
 ;
-var
+let
 details
 =
 dialogParams
