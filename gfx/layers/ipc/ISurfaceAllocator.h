@@ -314,6 +314,9 @@ layers
 class
 MaybeMagicGrallocBufferHandle
 ;
+class
+CompositableForwarder
+;
 enum
 BufferCapabilities
 {
@@ -1012,6 +1015,17 @@ SurfaceDescriptor
 aSurface
 )
 ;
+virtual
+CompositableForwarder
+*
+AsCompositableForwarder
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual

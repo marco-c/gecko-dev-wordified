@@ -3757,7 +3757,7 @@ const
 override
 {
 return
-true
+mHasInternalBuffer
 ;
 }
 protected
@@ -3780,6 +3780,11 @@ nsIntRegion
 aRegion
 =
 nullptr
+)
+;
+bool
+EnsureWrappingTextureSource
+(
 )
 ;
 virtual
@@ -3833,6 +3838,9 @@ mLocked
 ;
 bool
 mNeedsFullUpdate
+;
+bool
+mHasInternalBuffer
 ;
 }
 ;

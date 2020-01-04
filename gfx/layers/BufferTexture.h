@@ -378,11 +378,7 @@ HasInternalBuffer
 )
 const
 override
-{
-return
-true
 ;
-}
 /
 /
 use
