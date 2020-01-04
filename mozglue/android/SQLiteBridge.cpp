@@ -872,7 +872,7 @@ C
 "
 NS_EXPORT
 jobject
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_sqliteCall
 (
 JNIEnv
@@ -1010,7 +1010,7 @@ C
 "
 NS_EXPORT
 jobject
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_sqliteCallWithDb
 (
 JNIEnv
@@ -1068,7 +1068,7 @@ C
 "
 NS_EXPORT
 jlong
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_openDatabase
 (
 JNIEnv
@@ -1182,7 +1182,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_closeDatabase
 (
 JNIEnv

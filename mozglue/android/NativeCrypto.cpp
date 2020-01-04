@@ -65,6 +65,13 @@ h
 "
 #
 include
+"
+APKOpen
+.
+h
+"
+#
+include
 <
 jni
 .
@@ -131,7 +138,7 @@ C
 "
 JNIEXPORT
 jbyteArray
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_background_nativecode_NativeCrypto_pbkdf2SHA256
 (
 JNIEnv
@@ -359,7 +366,7 @@ C
 "
 JNIEXPORT
 jbyteArray
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_background_nativecode_NativeCrypto_sha1
 (
 JNIEnv

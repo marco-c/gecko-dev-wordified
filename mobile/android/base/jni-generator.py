@@ -107,7 +107,7 @@ NS_EXPORT
 returnType
 )
 s
-JNICALL
+MOZ_JNICALL
 %
 (
 functionName

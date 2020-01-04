@@ -636,7 +636,7 @@ C
 "
 NS_EXPORT
 jstring
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_NSSBridge_nativeEncrypt
 (
 JNIEnv
@@ -762,7 +762,7 @@ C
 "
 NS_EXPORT
 jstring
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_NSSBridge_nativeDecrypt
 (
 JNIEnv
