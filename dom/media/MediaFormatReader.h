@@ -1082,6 +1082,11 @@ TimeUnit
 aTimeThreshold
 )
 ;
+void
+SetVideoDecodeThreshold
+(
+)
+;
 size_t
 SizeOfQueue
 (
