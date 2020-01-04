@@ -356,14 +356,6 @@ TimingParams
 aTiming
 )
 ;
-virtual
-void
-NotifyAnimationTimingUpdated
-(
-)
-=
-0
-;
 /
 /
 This
@@ -537,6 +529,7 @@ aRetVal
 )
 const
 ;
+virtual
 void
 SetAnimation
 (
@@ -544,6 +537,8 @@ Animation
 *
 aAnimation
 )
+=
+0
 ;
 Animation
 *

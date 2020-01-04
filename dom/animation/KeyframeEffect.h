@@ -1426,6 +1426,14 @@ void
 NotifyAnimationTimingUpdated
 (
 )
+;
+void
+SetAnimation
+(
+Animation
+*
+aAnimation
+)
 override
 ;
 void
