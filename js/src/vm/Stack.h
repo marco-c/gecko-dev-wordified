@@ -3643,7 +3643,7 @@ strict
 ;
 }
 bool
-isDirectEvalFrame
+isNonGlobalEvalFrame
 (
 )
 const
@@ -3660,7 +3660,7 @@ isNonStrictEvalFrame
 )
 &
 &
-isDirectEvalFrame
+isNonGlobalEvalFrame
 (
 )
 ;

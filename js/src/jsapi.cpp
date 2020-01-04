@@ -19663,7 +19663,7 @@ StaticEvalObject
 (
 )
 .
-isDirect
+isNonGlobal
 (
 )
 ;

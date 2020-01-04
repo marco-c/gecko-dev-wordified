@@ -649,7 +649,7 @@ bool
 BaselineFrame
 :
 :
-isDirectEvalFrame
+isNonGlobalEvalFrame
 (
 )
 const
@@ -677,7 +677,7 @@ StaticEvalObject
 (
 )
 .
-isDirect
+isNonGlobal
 (
 )
 ;

@@ -811,7 +811,7 @@ bool
 InterpreterFrame
 :
 :
-isDirectEvalFrame
+isNonGlobalEvalFrame
 (
 )
 const
@@ -839,7 +839,7 @@ StaticEvalObject
 (
 )
 .
-isDirect
+isNonGlobal
 (
 )
 ;
@@ -2033,7 +2033,7 @@ this
 else
 if
 (
-isDirectEvalFrame
+isNonGlobalEvalFrame
 (
 )
 )
