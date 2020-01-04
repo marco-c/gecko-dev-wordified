@@ -44639,6 +44639,14 @@ rt
 jsCacheDir
 )
 ;
+if
+(
+!
+jsCacheDir
+)
+return
+false
+;
 jsCacheAsmJSPath
 =
 JS_smprintf
