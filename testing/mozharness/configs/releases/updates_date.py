@@ -351,7 +351,7 @@ d
 requires_mirrors
 "
 :
-False
+True
             
 "
 patcher_config
