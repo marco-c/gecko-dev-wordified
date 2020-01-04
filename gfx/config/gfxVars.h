@@ -224,6 +224,13 @@ Value
 \
 _
 (
+BrowserTabsRemoteAutostart
+bool
+false
+)
+\
+_
+(
 ContentBackend
 BackendType
 BackendType

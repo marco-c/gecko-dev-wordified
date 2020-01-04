@@ -757,17 +757,6 @@ h
 for
 XRE_GetIOMessageLoop
 #
-include
-"
-nsIXULRuntime
-.
-h
-"
-/
-/
-for
-BrowserTabsRemoteAutostart
-#
 ifdef
 XP_WIN
 #
@@ -6463,6 +6452,9 @@ if
 hasRemoteContent
 &
 &
+gfxVars
+:
+:
 BrowserTabsRemoteAutostart
 (
 )
