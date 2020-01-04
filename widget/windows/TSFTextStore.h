@@ -2974,6 +2974,7 @@ mSelectionLength
 /
 /
 For
+compositionstart
 compositionupdate
 and
 compositionend
