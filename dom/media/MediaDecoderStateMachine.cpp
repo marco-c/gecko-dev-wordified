@@ -2844,15 +2844,6 @@ DecodedAudioDataSink
 self
 -
 >
-mReader
--
->
-OwnerThread
-(
-)
-self
--
->
 mAudioQueue
 self
 -
