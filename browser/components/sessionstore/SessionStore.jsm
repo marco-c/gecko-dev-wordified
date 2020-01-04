@@ -18141,6 +18141,11 @@ window
 window
 .
 __SSi
+|
+|
+window
+.
+closed
 )
 {
 return
