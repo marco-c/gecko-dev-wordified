@@ -1987,13 +1987,7 @@ GetCDMProxy
 CloseSession
 (
 mSessionId
-mKeys
--
->
-StorePromise
-(
-promise
-)
+pid
 )
 ;
 EME_LOG
