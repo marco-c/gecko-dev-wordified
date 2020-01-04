@@ -144,7 +144,7 @@ protected
 by
 mReentrantMonitor
 .
-uint32_t
+uint64_t
 mParsedFrames
 =
 0
@@ -167,7 +167,7 @@ protected
 by
 mReentrantMonitor
 .
-uint32_t
+uint64_t
 mDecodedFrames
 =
 0
@@ -202,7 +202,7 @@ protected
 by
 mReentrantMonitor
 .
-uint32_t
+uint64_t
 mPresentedFrames
 =
 0
@@ -226,7 +226,7 @@ their
 composition
 deadline
 .
-uint32_t
+uint64_t
 mDroppedFrames
 =
 0
@@ -328,7 +328,7 @@ on
 any
 thread
 .
-uint32_t
+uint64_t
 GetParsedFrames
 (
 )
@@ -368,7 +368,7 @@ on
 any
 thread
 .
-uint32_t
+uint64_t
 GetDecodedFrames
 (
 )
@@ -421,7 +421,7 @@ on
 any
 thread
 .
-uint32_t
+uint64_t
 GetPresentedFrames
 (
 )
@@ -460,7 +460,7 @@ their
 composition
 deadline
 .
-uint32_t
+uint64_t
 GetDroppedFrames
 (
 )
@@ -505,11 +505,11 @@ thread
 void
 NotifyDecodedFrames
 (
-uint32_t
+uint64_t
 aParsed
-uint32_t
+uint64_t
 aDecoded
-uint32_t
+uint64_t
 aDropped
 )
 {
