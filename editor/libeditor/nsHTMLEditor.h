@@ -501,6 +501,12 @@ GetReturnInParagraphCreatesNewParagraph
 (
 )
 ;
+Element
+*
+GetSelectionContainer
+(
+)
+;
 /
 *
 -
