@@ -2406,7 +2406,7 @@ dom
 :
 DataTransfer
 >
-dataTransfer
+mDataTransfer
 ;
 /
 /
@@ -2472,11 +2472,11 @@ aEvent
 aCopyTargets
 )
 ;
-dataTransfer
+mDataTransfer
 =
 aEvent
 .
-dataTransfer
+mDataTransfer
 ;
 /
 /

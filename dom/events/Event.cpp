@@ -908,7 +908,7 @@ AsDragEvent
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 =
 nullptr
 ;
@@ -1120,7 +1120,7 @@ cb
 mEvent
 -
 >
-dataTransfer
+mDataTransfer
 "
 )
 ;
@@ -1131,7 +1131,7 @@ NoteXPCOMChild
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
 ;
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
