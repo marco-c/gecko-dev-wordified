@@ -32864,16 +32864,28 @@ _allowTreatNonCallableAsNull
 True
             
 elif
+(
 self
 .
 dictionaryMember
 and
+                  
+(
 identifier
 =
 =
 "
 ChromeOnly
 "
+or
+identifier
+=
+=
+"
+Func
+"
+)
+)
 :
                 
 if
@@ -32888,7 +32900,8 @@ WebIDLError
 (
 "
 [
-ChromeOnly
+%
+s
 ]
 must
 not
@@ -32903,6 +32916,8 @@ required
 dictionary
 member
 "
+%
+identifier
                                       
 [
 attribute
