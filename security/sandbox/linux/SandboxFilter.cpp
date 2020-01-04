@@ -3411,6 +3411,9 @@ __NR_unlink
 case
 __NR_fchown
 :
+case
+__NR_fchmod
+:
 #
 endif
 return
