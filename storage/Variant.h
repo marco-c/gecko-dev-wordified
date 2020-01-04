@@ -1833,13 +1833,6 @@ string
 .
 _str
 .
-Truncate
-(
-0
-)
-;
-_str
-.
 SetIsVoid
 (
 true
@@ -1864,13 +1857,6 @@ a
 void
 string
 .
-_str
-.
-Truncate
-(
-0
-)
-;
 _str
 .
 SetIsVoid

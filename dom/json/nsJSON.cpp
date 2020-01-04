@@ -444,12 +444,6 @@ aArgc
 {
 aJSON
 .
-Truncate
-(
-)
-;
-aJSON
-.
 SetIsVoid
 (
 true
@@ -529,12 +523,6 @@ DidWrite
 )
 )
 {
-aJSON
-.
-Truncate
-(
-)
-;
 aJSON
 .
 SetIsVoid

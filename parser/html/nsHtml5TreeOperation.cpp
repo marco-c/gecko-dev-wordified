@@ -3343,16 +3343,6 @@ nsIDOMDocumentType
 >
 docType
 ;
-nsAutoString
-voidString
-;
-voidString
-.
-SetIsVoid
-(
-true
-)
-;
 NS_NewDOMDocumentType
 (
 getter_AddRefs
@@ -3368,7 +3358,9 @@ GetNodeInfoManager
 aName
 aPublicId
 aSystemId
-voidString
+NullString
+(
+)
 )
 ;
 NS_ASSERTION

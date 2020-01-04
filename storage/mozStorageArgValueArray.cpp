@@ -631,13 +631,6 @@ string
 .
 _value
 .
-Truncate
-(
-0
-)
-;
-_value
-.
 SetIsVoid
 (
 true
@@ -736,13 +729,6 @@ empty
 /
 string
 .
-_value
-.
-Truncate
-(
-0
-)
-;
 _value
 .
 SetIsVoid

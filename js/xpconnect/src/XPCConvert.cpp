@@ -4164,13 +4164,6 @@ d
 rs
 -
 >
-Truncate
-(
-)
-;
-rs
--
->
 SetIsVoid
 (
 true
