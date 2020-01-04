@@ -290,6 +290,11 @@ ComputeHTMLReferenceRect
 (
 )
 ;
+nsRect
+ComputeSVGReferenceRect
+(
+)
+;
 /
 *
 *
