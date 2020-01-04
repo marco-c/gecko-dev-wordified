@@ -766,6 +766,11 @@ EndTime
 const
 {
 return
+std
+:
+:
+max
+(
 mDelay
 +
 ActiveDuration
@@ -773,6 +778,10 @@ ActiveDuration
 )
 +
 mEndDelay
+StickyTimeDuration
+(
+)
+)
 ;
 }
 bool
