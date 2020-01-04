@@ -533,14 +533,6 @@ testing
 /
 mozbase
 /
-mozhttpd
-'
-    
-'
-testing
-/
-mozbase
-/
 mozinfo
 '
     

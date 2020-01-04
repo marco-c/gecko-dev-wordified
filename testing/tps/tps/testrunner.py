@@ -70,9 +70,11 @@ time
 import
 traceback
 from
-mozhttpd
+wptserve
+.
+server
 import
-MozHttpd
+WebTestHttpd
 import
 mozinfo
 from
@@ -3633,21 +3635,21 @@ testfile
         
 self
 .
-mozhttpd
+httpd
 =
-MozHttpd
+WebTestHttpd
 (
 port
 =
 4567
-docroot
+doc_root
 =
 testdir
 )
         
 self
 .
-mozhttpd
+httpd
 .
 start
 (
@@ -3835,7 +3837,7 @@ break
         
 self
 .
-mozhttpd
+httpd
 .
 stop
 (

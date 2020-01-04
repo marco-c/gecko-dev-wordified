@@ -194,16 +194,6 @@ mozdevice
 '
                     
 '
-mozhttpd
-'
-:
-'
-0
-.
-3
-'
-                    
-'
 mozinfo
 '
 :

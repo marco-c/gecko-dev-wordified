@@ -18,8 +18,11 @@ load
 "
 "
 "
+from
+wptserve
 import
-mozhttpd
+server
+handlers
 import
 os
 import
@@ -62,7 +65,7 @@ self
 "
 test
 with
-mozhttpd
+wptserve
 and
 a
 http
@@ -74,10 +77,15 @@ URL
 "
 "
         
+handlers
+.
+handler
+        
 def
 example
 (
 request
+reponse
 )
 :
             
@@ -100,6 +108,7 @@ example
 return
 (
 200
+[
 {
 '
 Content
@@ -112,7 +121,7 @@ text
 /
 plain
 '
-                          
+                           
 '
 Content
 -
@@ -125,7 +134,10 @@ body
 )
                           
 }
+]
+[
 body
+]
 )
         
 host
@@ -142,41 +154,27 @@ host
         
 httpd
 =
-mozhttpd
+server
 .
-MozHttpd
+WebTestHttpd
 (
+            
 host
 =
 host
-                                  
-urlhandlers
+            
+routes
 =
 [
-{
-'
-method
-'
-:
+(
 '
 GET
 '
-                                                
-'
-path
-'
-:
-'
-.
+"
 *
-'
-                                                
-'
-function
-'
-:
+"
 example
-}
+)
 ]
 )
         
