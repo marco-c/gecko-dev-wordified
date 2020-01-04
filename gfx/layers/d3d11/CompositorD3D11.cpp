@@ -9497,7 +9497,7 @@ hr
 DXGI_ERROR_INVALID_CALL
 )
 {
-gfxCrash
+gfxDevCrash
 (
 deviceRemoved
 ?
