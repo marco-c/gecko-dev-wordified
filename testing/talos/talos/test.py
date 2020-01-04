@@ -4166,6 +4166,20 @@ timeout
 '
 :
 500
+                   
+'
+media
+.
+ruin
+-
+av
+-
+sync
+.
+enabled
+'
+:
+True
 }
     
 filters
