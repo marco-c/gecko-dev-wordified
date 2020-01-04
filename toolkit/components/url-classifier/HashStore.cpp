@@ -894,8 +894,10 @@ UrlClassifierDbService
 :
 5
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUrlClassifierDbServiceLog
 ;
 #
