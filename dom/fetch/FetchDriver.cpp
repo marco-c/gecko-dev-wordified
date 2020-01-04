@@ -465,13 +465,6 @@ WasCreatedByFetchEvent
 return
 Fetch
 (
-false
-/
-*
-CORS
-flag
-*
-/
 )
 ;
 }
@@ -481,8 +474,6 @@ FetchDriver
 :
 Fetch
 (
-bool
-aCORSFlag
 )
 {
 /
@@ -547,10 +538,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethodWithArg
-<
-bool
->
+NS_NewRunnableMethod
 (
 this
 &
@@ -558,7 +546,6 @@ FetchDriver
 :
 :
 ContinueFetch
-aCORSFlag
 )
 ;
 nsresult
@@ -609,8 +596,6 @@ FetchDriver
 :
 SetTaintingAndGetNextOp
 (
-bool
-aCORSFlag
 )
 {
 workers
@@ -919,7 +904,7 @@ if
 (
 (
 !
-aCORSFlag
+mCORSFlagEverSet
 &
 &
 NS_SUCCEEDED
@@ -1296,8 +1281,6 @@ FetchDriver
 :
 ContinueFetch
 (
-bool
-aCORSFlag
 )
 {
 workers
@@ -1312,7 +1295,6 @@ nextOp
 =
 SetTaintingAndGetNextOp
 (
-aCORSFlag
 )
 ;
 if
@@ -6159,7 +6141,6 @@ nextOp
 =
 SetTaintingAndGetNextOp
 (
-mCORSFlagEverSet
 )
 ;
 if
