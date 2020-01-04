@@ -17967,6 +17967,10 @@ Label
 notInt32
 end
 ;
+asMasm
+(
+)
+.
 branchTestInt32
 (
 Assembler
@@ -18527,6 +18531,10 @@ src
 scratch
 )
 ;
+asMasm
+(
+)
+.
 branchTestInt32
 (
 Assembler
@@ -18681,6 +18689,10 @@ NUNBOX32_TYPE_OFFSET
 scratch
 )
 ;
+asMasm
+(
+)
+.
 branchTestInt32
 (
 Assembler
@@ -21431,6 +21443,10 @@ typeReg
 isDouble
 )
 ;
+asMasm
+(
+)
+.
 branchTestInt32
 (
 Assembler

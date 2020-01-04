@@ -6024,7 +6024,7 @@ typename
 T
 >
 void
-branchTestInt32
+branchTestInt32Impl
 (
 Condition
 cond
