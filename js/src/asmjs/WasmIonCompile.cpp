@@ -16182,8 +16182,14 @@ popPhiOutput
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+f
+.
+inDeadCode
+(
+)
 (
 expected
 !
