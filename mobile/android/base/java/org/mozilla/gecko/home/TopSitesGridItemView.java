@@ -1240,6 +1240,8 @@ getContext
 )
 mUrl
 )
+.
+bitmap
 ;
 final
 int

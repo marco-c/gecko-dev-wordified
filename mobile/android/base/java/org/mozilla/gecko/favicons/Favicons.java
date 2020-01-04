@@ -3877,9 +3877,7 @@ url
 :
 AboutPages
 .
-getDefaultIconPages
-(
-)
+DEFAULT_ICON_PAGES
 )
 {
 pageURLMappings

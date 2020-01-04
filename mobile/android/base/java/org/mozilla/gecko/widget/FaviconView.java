@@ -1511,6 +1511,8 @@ getContext
 )
 pageURL
 )
+.
+bitmap
 ;
 ThreadUtils
 .
