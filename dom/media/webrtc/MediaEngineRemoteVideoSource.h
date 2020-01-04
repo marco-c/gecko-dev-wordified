@@ -354,7 +354,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 /
 /
 ExternalRenderer
-virtual
 int
 FrameSizeChange
 (
@@ -370,7 +369,6 @@ streams
 )
 override
 ;
-virtual
 int
 DeliverFrame
 (
@@ -401,7 +399,6 @@ XXX
 !
 FIX
 THIS
-virtual
 int
 DeliverI420Frame
 (
@@ -420,7 +417,6 @@ return
 ;
 }
 ;
-virtual
 bool
 IsTextureSupported
 (
@@ -464,7 +460,6 @@ Monitor
 "
 )
 ;
-virtual
 nsresult
 Allocate
 (
@@ -486,7 +481,6 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
@@ -494,7 +488,6 @@ Deallocate
 override
 ;
 ;
-virtual
 nsresult
 Start
 (
@@ -504,7 +497,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -514,7 +506,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -536,7 +527,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 NotifyPull
 (
@@ -553,7 +543,6 @@ aDesiredTime
 )
 override
 ;
-virtual
 dom
 :
 :
@@ -596,7 +585,6 @@ int
 aIndex
 )
 ;
-virtual
 void
 Shutdown
 (

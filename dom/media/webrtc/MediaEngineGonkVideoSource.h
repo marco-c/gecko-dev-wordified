@@ -329,7 +329,6 @@ Init
 )
 ;
 }
-virtual
 nsresult
 Allocate
 (
@@ -351,14 +350,12 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
 )
 override
 ;
-virtual
 nsresult
 Start
 (
@@ -370,7 +367,6 @@ aID
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -382,7 +378,6 @@ aID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -404,7 +399,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 NotifyPull
 (
@@ -421,7 +415,6 @@ aDesiredTime
 )
 override
 ;
-virtual
 dom
 :
 :

@@ -120,7 +120,6 @@ MediaEngineTabVideoSource
 (
 )
 ;
-virtual
 void
 Shutdown
 (
@@ -129,7 +128,6 @@ override
 {
 }
 ;
-virtual
 void
 GetName
 (
@@ -138,7 +136,6 @@ nsAString_internal
 )
 override
 ;
-virtual
 void
 GetUUID
 (
@@ -147,7 +144,6 @@ nsACString_internal
 )
 override
 ;
-virtual
 nsresult
 Allocate
 (
@@ -170,14 +166,12 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
 )
 override
 ;
-virtual
 nsresult
 Start
 (
@@ -193,7 +187,6 @@ TrackID
 )
 override
 ;
-virtual
 void
 SetDirectListeners
 (
@@ -204,7 +197,6 @@ override
 {
 }
 ;
-virtual
 void
 NotifyPull
 (
@@ -229,7 +221,6 @@ StreamTime
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -245,7 +236,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -270,7 +260,6 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Config
 (
@@ -284,14 +273,12 @@ int32_t
 )
 override
 ;
-virtual
 bool
 IsFake
 (
 )
 override
 ;
-virtual
 dom
 :
 :
@@ -312,7 +299,6 @@ MediaSourceEnum
 Browser
 ;
 }
-virtual
 uint32_t
 GetBestFitnessDistance
 (
@@ -339,7 +325,6 @@ return
 0
 ;
 }
-virtual
 nsresult
 TakePhoto
 (

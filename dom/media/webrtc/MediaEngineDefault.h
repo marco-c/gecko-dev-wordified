@@ -195,7 +195,6 @@ MediaEngineDefaultVideoSource
 (
 )
 ;
-virtual
 void
 Shutdown
 (
@@ -204,7 +203,6 @@ override
 {
 }
 ;
-virtual
 void
 GetName
 (
@@ -213,7 +211,6 @@ nsAString
 )
 override
 ;
-virtual
 void
 GetUUID
 (
@@ -222,7 +219,6 @@ nsACString
 )
 override
 ;
-virtual
 nsresult
 Allocate
 (
@@ -244,14 +240,12 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
 )
 override
 ;
-virtual
 nsresult
 Start
 (
@@ -261,7 +255,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -271,7 +264,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -293,7 +285,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 SetDirectListeners
 (
@@ -304,7 +295,6 @@ override
 {
 }
 ;
-virtual
 nsresult
 Config
 (
@@ -330,7 +320,6 @@ NS_OK
 ;
 }
 ;
-virtual
 void
 NotifyPull
 (
@@ -347,7 +336,6 @@ aDesiredTime
 )
 override
 ;
-virtual
 uint32_t
 GetBestFitnessDistance
 (
@@ -370,7 +358,6 @@ aDeviceId
 )
 override
 ;
-virtual
 bool
 IsFake
 (
@@ -381,7 +368,6 @@ return
 true
 ;
 }
-virtual
 dom
 :
 :
@@ -402,7 +388,6 @@ MediaSourceEnum
 Camera
 ;
 }
-virtual
 nsresult
 TakePhoto
 (
@@ -540,7 +525,6 @@ MediaEngineDefaultAudioSource
 (
 )
 ;
-virtual
 void
 Shutdown
 (
@@ -549,7 +533,6 @@ override
 {
 }
 ;
-virtual
 void
 GetName
 (
@@ -558,7 +541,6 @@ nsAString
 )
 override
 ;
-virtual
 void
 GetUUID
 (
@@ -567,7 +549,6 @@ nsACString
 )
 override
 ;
-virtual
 nsresult
 Allocate
 (
@@ -589,14 +570,12 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
 )
 override
 ;
-virtual
 nsresult
 Start
 (
@@ -606,7 +585,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -616,7 +594,6 @@ TrackID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -638,7 +615,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 SetDirectListeners
 (
@@ -649,7 +625,6 @@ override
 {
 }
 ;
-virtual
 nsresult
 Config
 (
@@ -685,7 +660,6 @@ TrackTicks
 aSamples
 )
 ;
-virtual
 void
 NotifyPull
 (
@@ -754,7 +728,6 @@ underrun
 #
 endif
 }
-virtual
 bool
 IsFake
 (
@@ -765,7 +738,6 @@ return
 true
 ;
 }
-virtual
 dom
 :
 :
@@ -786,7 +758,6 @@ MediaSourceEnum
 Microphone
 ;
 }
-virtual
 nsresult
 TakePhoto
 (
@@ -800,7 +771,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 uint32_t
 GetBestFitnessDistance
 (
@@ -891,7 +861,6 @@ MediaEngineDefault
 )
 {
 }
-virtual
 void
 EnumerateVideoDevices
 (
@@ -910,7 +879,6 @@ MediaEngineVideoSource
 )
 override
 ;
-virtual
 void
 EnumerateAudioDevices
 (
@@ -929,7 +897,6 @@ MediaEngineAudioSource
 )
 override
 ;
-virtual
 void
 Shutdown
 (
