@@ -1023,7 +1023,7 @@ to
 update
 sessionstore
 .
-bak
+old
 as
 necessary
 .
@@ -1049,9 +1049,8 @@ get
 context
 )
 .
-readSessionFile
+readPreviousSessionFile
 (
-true
 )
 ;
 if

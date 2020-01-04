@@ -9046,7 +9046,7 @@ Make
 sure
 sessionstore
 .
-bak
+old
 is
 either
 updated
