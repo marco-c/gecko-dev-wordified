@@ -475,10 +475,9 @@ pageMods
 .
 forEach
 (
-function
-(
 mod
-)
+=
+>
 mod
 .
 destroy

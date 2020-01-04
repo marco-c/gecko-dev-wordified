@@ -3149,12 +3149,16 @@ getContentDocument
 (
 panel
 )
+{
+return
 getContentFrame
 (
 panel
 )
 .
 contentDocument
+;
+}
 exports
 .
 getContentDocument

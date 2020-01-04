@@ -839,9 +839,10 @@ testing
 {
 toString
 :
-function
 (
 )
+=
+>
 "
 obj
 .

@@ -562,6 +562,8 @@ startup
 reason
 options
 )
+{
+return
 Startup
 .
 onceInitialized
@@ -815,6 +817,7 @@ bug
 }
 )
 ;
+}
 function
 run
 (

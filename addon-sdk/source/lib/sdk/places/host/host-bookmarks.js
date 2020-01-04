@@ -647,6 +647,8 @@ getBookmarkLastUpdated
 id
 }
 )
+{
+return
 resolve
 (
 bmsrv
@@ -656,6 +658,8 @@ getItemLastModified
 id
 )
 )
+;
+}
 exports
 .
 getBookmarkLastUpdated

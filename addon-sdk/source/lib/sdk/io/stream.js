@@ -1203,12 +1203,16 @@ get
 status
 (
 )
+{
+return
 nsIInputStreamPump
 (
 this
 )
 .
 status
+;
+}
 read
 :
 function

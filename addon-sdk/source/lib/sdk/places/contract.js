@@ -271,10 +271,9 @@ number
 ]
 map
 :
-function
-(
 value
-)
+=
+>
 value
 =
 =
@@ -390,10 +389,9 @@ object
 ]
 ok
 :
-function
-(
 tags
-)
+=
+>
 tags
 instanceof
 Set

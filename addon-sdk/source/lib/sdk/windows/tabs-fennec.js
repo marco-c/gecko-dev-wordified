@@ -1028,9 +1028,10 @@ on
 '
 ready
 '
-function
 (
 )
+=
+>
 emit
 (
 gTabs
@@ -1058,11 +1059,12 @@ on
 '
 pageshow
 '
-function
 (
 _tab
 persisted
 )
+=
+>
 emit
 (
 gTabs

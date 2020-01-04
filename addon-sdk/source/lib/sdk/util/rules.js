@@ -188,6 +188,8 @@ function
 .
 rules
 )
+{
+return
 [
 ]
 .
@@ -222,6 +224,8 @@ rule
 }
 this
 )
+;
+}
 remove
 :
 function
@@ -231,6 +235,8 @@ function
 .
 rules
 )
+{
+return
 [
 ]
 .
@@ -265,6 +271,8 @@ rule
 }
 this
 )
+;
+}
 get
 :
 function
@@ -320,6 +328,8 @@ function
 (
 uri
 )
+{
+return
 !
 !
 filterMatches
@@ -329,11 +339,14 @@ uri
 )
 .
 length
+;
+}
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object

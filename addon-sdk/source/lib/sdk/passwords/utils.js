@@ -179,6 +179,8 @@ filterMatchingLogins
 (
 loginInfo
 )
+{
+return
 Object
 .
 keys
@@ -188,10 +190,9 @@ this
 .
 every
 (
-function
-(
 key
-)
+=
+>
 loginInfo
 [
 key
@@ -206,6 +207,7 @@ key
 this
 )
 ;
+}
 /
 *
 *
@@ -647,6 +649,8 @@ loginToJSON
 (
 value
 )
+{
+return
 Login
 (
 value
@@ -655,6 +659,8 @@ value
 toJSON
 (
 )
+;
+}
 /
 *
 *

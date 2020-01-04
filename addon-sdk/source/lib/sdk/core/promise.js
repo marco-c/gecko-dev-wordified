@@ -300,6 +300,8 @@ execute
 (
 args
 )
+{
+return
 call
 .
 apply
@@ -307,6 +309,8 @@ apply
 call
 args
 )
+;
+}
 /
 /
 Utility
@@ -361,10 +365,9 @@ unknown
 .
 then
 (
-function
-(
 value
-)
+=
+>
 values
 .
 concat

@@ -495,6 +495,8 @@ has
 obj
 key
 )
+{
+return
 obj
 .
 hasOwnProperty
@@ -502,6 +504,7 @@ hasOwnProperty
 key
 )
 ;
+}
 exports
 .
 has

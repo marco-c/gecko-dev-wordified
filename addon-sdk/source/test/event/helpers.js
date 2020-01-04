@@ -497,10 +497,9 @@ events
 .
 forEach
 (
-function
-(
 event
-)
+=
+>
 emit
 (
 input
@@ -549,6 +548,8 @@ function
 (
 data
 )
+{
+return
 actual
 .
 push
@@ -556,6 +557,8 @@ push
 this
 data
 )
+;
+}
 )
 ;
 return
@@ -563,9 +566,10 @@ expected
 .
 reduce
 (
-function
 (
 )
+=
+>
 .
 concat
 (
@@ -596,6 +600,8 @@ listener
 (
 data
 )
+{
+return
 actual
 .
 push
@@ -603,6 +609,7 @@ push
 data
 )
 ;
+}
 on
 (
 output
@@ -706,9 +713,8 @@ expected
 .
 map
 (
-function
-(
-)
+=
+>
 +
 "
 #
@@ -738,9 +744,8 @@ target
 "
 data
 "
-function
-(
-)
+=
+>
 actual
 .
 push
@@ -759,9 +764,8 @@ target
 "
 data
 "
-function
-(
-)
+=
+>
 actual
 .
 push
@@ -780,9 +784,8 @@ target
 "
 data
 "
-function
-(
-)
+=
+>
 actual
 .
 push

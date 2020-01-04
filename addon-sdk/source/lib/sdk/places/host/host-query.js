@@ -1100,10 +1100,9 @@ reqStream
 filter
 (
 request
-function
-(
 data
-)
+=
+>
 /
 sdk
 -

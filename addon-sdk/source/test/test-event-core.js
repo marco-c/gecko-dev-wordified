@@ -694,6 +694,8 @@ function
 fail
 (
 )
+{
+return
 assert
 .
 fail
@@ -705,6 +707,8 @@ be
 removed
 '
 )
+;
+}
 ;
 on
 (

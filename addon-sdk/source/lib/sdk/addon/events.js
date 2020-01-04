@@ -424,6 +424,8 @@ clone
 (
 obj
 )
+{
+return
 JSON
 .
 parse
@@ -439,3 +441,5 @@ obj
 }
 )
 )
+;
+}

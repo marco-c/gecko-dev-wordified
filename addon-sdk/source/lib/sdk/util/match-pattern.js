@@ -910,9 +910,10 @@ false
 }
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object

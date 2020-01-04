@@ -548,10 +548,9 @@ text
 .
 filter
 (
-function
-(
 s
-)
+=
+>
 s
 )
 .

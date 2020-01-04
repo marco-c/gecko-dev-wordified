@@ -201,12 +201,13 @@ events
 filter
 (
 events
-function
 (
 {
 target
 }
 )
+=
+>
 isBrowser
 (
 target

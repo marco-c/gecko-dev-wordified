@@ -245,6 +245,8 @@ function
 getWindows
 (
 )
+{
+return
 windows
 (
 null
@@ -255,6 +257,7 @@ isPrivateBrowsingSupported
 }
 )
 ;
+}
 /
 *
 *

@@ -2070,9 +2070,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 file
 .
 mkpath
@@ -2228,9 +2229,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 file
 .
 rmdir
@@ -2372,9 +2374,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 file
 .
 rmdir

@@ -649,9 +649,10 @@ w
 .
 close
 (
-function
 (
 )
+=
+>
 resolve
 (
 window

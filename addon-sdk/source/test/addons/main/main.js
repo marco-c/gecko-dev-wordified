@@ -281,10 +281,9 @@ exports
 {
 testFail
 :
-function
-(
 assert
-)
+=
+>
 assert
 .
 fail

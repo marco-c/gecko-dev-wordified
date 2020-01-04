@@ -460,12 +460,16 @@ function
 toString
 (
 )
+{
+return
 "
 [
 object
 TestRunner
 ]
 "
+;
+}
 DEFAULT_PAUSE_TIMEOUT
 :
 (

@@ -746,10 +746,9 @@ window
 let
 continueAfterFocus
 =
-function
-(
 window
-)
+=
+>
 onFocus
 (
 window

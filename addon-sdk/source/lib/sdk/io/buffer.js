@@ -2417,6 +2417,8 @@ function
 (
 offset
 )
+{
+return
 this
 .
 view
@@ -2427,6 +2429,8 @@ name
 offset
 littleEndian
 )
+;
+}
 }
 )
 ;
@@ -2588,6 +2592,8 @@ function
 value
 offset
 )
+{
+return
 this
 .
 view
@@ -2599,6 +2605,8 @@ offset
 value
 littleEndian
 )
+;
+}
 }
 )
 ;

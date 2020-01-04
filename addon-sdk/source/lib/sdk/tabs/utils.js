@@ -168,6 +168,8 @@ function
 getWindows
 (
 )
+{
+return
 windows
 (
 null
@@ -178,6 +180,7 @@ isPrivateBrowsingSupported
 }
 )
 ;
+}
 const
 XUL_NS
 =
@@ -653,10 +656,9 @@ window
 )
 .
 children
-function
-(
 t
-)
+=
+>
 !
 t
 .
@@ -1894,11 +1896,15 @@ isPinned
 (
 tab
 )
+{
+return
 !
 !
 tab
 .
 pinned
+;
+}
 exports
 .
 isPinned

@@ -854,10 +854,9 @@ NON_PAGE_CONTEXT_ELTS
 .
 some
 (
-function
-(
 type
-)
+=
+>
 popupNode
 instanceof
 type

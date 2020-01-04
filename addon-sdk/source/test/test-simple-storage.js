@@ -2396,11 +2396,12 @@ compare
 compare
 |
 |
-function
 (
 a
 b
 )
+=
+>
 a
 =
 =
@@ -2658,9 +2659,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 ss
 .
 storage

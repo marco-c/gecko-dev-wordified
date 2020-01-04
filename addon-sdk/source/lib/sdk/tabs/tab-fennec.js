@@ -567,6 +567,8 @@ get
 title
 (
 )
+{
+return
 getTabTitle
 (
 tabNS
@@ -576,11 +578,14 @@ this
 .
 tab
 )
+;
+}
 set
 title
 (
 title
 )
+{
 setTabTitle
 (
 tabNS
@@ -591,6 +596,8 @@ this
 tab
 title
 )
+;
+}
 /
 *
 *
@@ -656,6 +663,7 @@ url
 (
 url
 )
+{
 setTabURL
 (
 tabNS
@@ -666,6 +674,8 @@ this
 tab
 url
 )
+;
+}
 getThumbnail
 :
 function
@@ -1019,6 +1029,8 @@ get
 contentType
 (
 )
+{
+return
 getTabContentType
 (
 tabNS
@@ -1028,6 +1040,8 @@ this
 .
 tab
 )
+;
+}
 /
 *
 *

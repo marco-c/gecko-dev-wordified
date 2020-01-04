@@ -229,6 +229,8 @@ get
 length
 (
 )
+{
+return
 listNS
 (
 this
@@ -237,6 +239,8 @@ this
 keyValueMap
 .
 length
+;
+}
 /
 *
 *
@@ -261,6 +265,8 @@ function
 toString
 (
 )
+{
+return
 '
 List
 (
@@ -276,6 +282,8 @@ keyValueMap
 '
 )
 '
+;
+}
 /
 *
 *

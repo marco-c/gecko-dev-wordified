@@ -3001,9 +3001,10 @@ tab
 .
 close
 (
-function
 (
 )
+=
+>
 secondOnCloseCalled
 =
 true
@@ -6423,6 +6424,8 @@ message
 function
 (
 )
+{
+return
 self
 .
 postMessage
@@ -6433,6 +6436,8 @@ location
 .
 href
 )
+;
+}
 '
 +
 '
@@ -6585,6 +6590,8 @@ message
 function
 (
 )
+{
+return
 self
 .
 postMessage
@@ -6595,6 +6602,8 @@ location
 .
 href
 )
+;
+}
 '
 +
 '
