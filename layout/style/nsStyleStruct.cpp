@@ -7300,6 +7300,7 @@ CalcDifference
 aOther
 .
 mMask
+nsChangeHint_RepaintFrame
 )
 ;
 return
@@ -12913,6 +12914,8 @@ const
 nsStyleImageLayers
 &
 aOther
+nsChangeHint
+aPositionChangeHint
 )
 const
 {
@@ -12989,6 +12992,7 @@ mLayers
 [
 i
 ]
+aPositionChangeHint
 )
 ;
 hint
@@ -14628,6 +14632,8 @@ nsStyleImageLayers
 Layer
 &
 aOther
+nsChangeHint
+aPositionChangeHint
 )
 const
 {
@@ -14777,7 +14783,7 @@ mPosition
 hint
 |
 =
-nsChangeHint_UpdateBackgroundPosition
+aPositionChangeHint
 ;
 }
 return
@@ -14989,6 +14995,7 @@ CalcDifference
 aOther
 .
 mImage
+nsChangeHint_UpdateBackgroundPosition
 )
 ;
 return

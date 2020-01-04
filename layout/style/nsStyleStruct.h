@@ -4380,6 +4380,16 @@ just
 this
 layer
 .
+/
+/
+aPositionChangeHint
+indicates
+the
+hint
+for
+position
+change
+.
 nsChangeHint
 CalcDifference
 (
@@ -4387,6 +4397,8 @@ const
 Layer
 &
 aOther
+nsChangeHint
+aPositionChangeHint
 )
 const
 ;
@@ -4716,6 +4728,8 @@ const
 nsStyleImageLayers
 &
 aOther
+nsChangeHint
+aPositionChangeHint
 )
 const
 ;
@@ -21825,7 +21839,7 @@ nsChangeHint_UpdateOverflow
 |
 nsChangeHint_NeutralChange
 |
-nsChangeHint_UpdateBackgroundPosition
+nsChangeHint_RepaintFrame
 |
 NS_STYLE_HINT_REFLOW
 ;
