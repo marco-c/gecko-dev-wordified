@@ -843,7 +843,7 @@ mozilla
 jni
 :
 :
-ClassObject
+Class
 :
 :
 Param
@@ -1087,7 +1087,7 @@ mozilla
 jni
 :
 :
-ClassObject
+Class
 :
 :
 LocalRef
