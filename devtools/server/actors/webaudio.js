@@ -364,7 +364,7 @@ AudioNodeActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 audionodeSpec
 {
@@ -2737,7 +2737,7 @@ WebAudioActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 webAudioSpec
 {
@@ -5183,10 +5183,15 @@ obj
 )
 {
 return
-obj
+Object
+.
+prototype
 .
 toString
+.
+call
 (
+obj
 )
 .
 match
