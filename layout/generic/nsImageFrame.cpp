@@ -10562,7 +10562,7 @@ mImage
 mImage
 -
 >
-IsOpaque
+WillDrawOpaqueNow
 (
 )
 )
