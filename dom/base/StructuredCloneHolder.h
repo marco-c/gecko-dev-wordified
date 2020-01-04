@@ -1042,6 +1042,16 @@ return
 mBlobImplArray
 ;
 }
+ContextSupport
+SupportedContext
+(
+)
+const
+{
+return
+mSupportedContext
+;
+}
 /
 /
 The
