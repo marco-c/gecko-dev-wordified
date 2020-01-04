@@ -460,8 +460,6 @@ nsDisplayListSet
 &
 aLists
 bool
-aUsingDisplayPort
-bool
 aCreateLayer
 bool
 aPositioned
