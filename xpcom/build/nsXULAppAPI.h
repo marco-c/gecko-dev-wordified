@@ -2519,6 +2519,13 @@ GeckoProcessType_GMPlugin
 Gecko
 Media
 Plugin
+GeckoProcessType_GPU
+/
+/
+GPU
+and
+compositor
+process
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -2549,6 +2556,9 @@ ipdlunittest
 "
 "
 geckomediaplugin
+"
+"
+gpu
 "
 }
 ;
