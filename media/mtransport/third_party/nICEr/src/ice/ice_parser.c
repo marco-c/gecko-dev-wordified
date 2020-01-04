@@ -1728,11 +1728,6 @@ R_BAD_DATA
 if
 (
 port
-<
-1
-|
-|
-port
 >
 0x0FFFF
 )
