@@ -2881,6 +2881,13 @@ aForceNoOpener
 *
 /
 false
+/
+*
+aLoadInfp
+=
+*
+/
+nullptr
 getter_AddRefs
 (
 newWindow

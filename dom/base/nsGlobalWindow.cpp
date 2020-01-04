@@ -45124,6 +45124,9 @@ const
 nsAString
 &
 aOptions
+nsIDocShellLoadInfo
+*
+aLoadInfo
 nsPIDOMWindowOuter
 *
 *
@@ -45137,6 +45140,7 @@ Open
 aUrl
 aName
 aOptions
+aLoadInfo
 _retval
 )
 NS_ERROR_NOT_INITIALIZED
@@ -45174,6 +45178,7 @@ nullptr
 /
 No
 args
+aLoadInfo
 _retval
 )
 ;
@@ -45241,6 +45246,10 @@ nullptr
 /
 No
 args
+nullptr
+/
+/
+aLoadInfo
 _retval
 )
 ;
@@ -45337,6 +45346,10 @@ aExtraArgument
 /
 /
 Arguments
+nullptr
+/
+/
+aLoadInfo
 _retval
 )
 ;
@@ -45419,6 +45432,10 @@ nullptr
 /
 No
 args
+nullptr
+/
+/
+aLoadInfo
 _retval
 )
 ;
@@ -45547,6 +45564,10 @@ nullptr
 /
 /
 Arguments
+nullptr
+/
+/
+aLoadInfo
 getter_AddRefs
 (
 dialog
@@ -51902,6 +51923,10 @@ argHolder
 /
 /
 args
+nullptr
+/
+/
+aLoadInfo
 getter_AddRefs
 (
 dlgWin
@@ -65384,6 +65409,9 @@ argv
 nsISupports
 *
 aExtraArgument
+nsIDocShellLoadInfo
+*
+aLoadInfo
 nsPIDOMWindowOuter
 *
 *
@@ -66473,6 +66501,7 @@ aNavigate
 argv
 isPopupSpamWindow
 forceNoOpener
+aLoadInfo
 getter_AddRefs
 (
 domReturn
@@ -66647,6 +66676,7 @@ aNavigate
 aExtraArgument
 isPopupSpamWindow
 forceNoOpener
+aLoadInfo
 getter_AddRefs
 (
 domReturn
