@@ -2638,12 +2638,6 @@ false
 if
 defined
 (
-NIGHTLY_BUILD
-)
-&
-&
-defined
-(
 MOZ_HAVE_RDTSC
 )
 js
@@ -2659,12 +2653,6 @@ cx
 endif
 /
 /
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 defined
 (
 MOZ_HAVE_RDTSC

@@ -4170,12 +4170,6 @@ AppConstants
 NIGHTLY_BUILD
 )
 {
-AddonWatcher
-.
-init
-(
-)
-;
 os
 .
 addObserver
