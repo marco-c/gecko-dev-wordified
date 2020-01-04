@@ -3192,6 +3192,11 @@ DownscaledTransparentICOWithANDMaskTestCase
 (
 )
 ;
+ImageTestCase
+TruncatedSmallGIFTestCase
+(
+)
+;
 }
 /
 /

@@ -4106,3 +4106,17 @@ Surface
 )
 ;
 }
+TEST_F
+(
+ImageDecoders
+TruncatedSmallGIFSingleChunk
+)
+{
+CheckDecoderSingleChunk
+(
+TruncatedSmallGIFTestCase
+(
+)
+)
+;
+}
