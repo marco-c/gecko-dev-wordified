@@ -21,14 +21,14 @@ var
 server
 ;
 const
-PREF_KINTO_BASE
+PREF_SETTINGS_SERVER
 =
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 ;
 const
@@ -37,7 +37,7 @@ PREF_LAST_UPDATE
 "
 services
 .
-kinto
+blocklist
 .
 last_update_seconds
 "
@@ -48,7 +48,7 @@ PREF_LAST_ETAG
 "
 services
 .
-kinto
+blocklist
 .
 last_etag
 "
@@ -59,7 +59,7 @@ PREF_CLOCK_SKEW_SECONDS
 "
 services
 .
-kinto
+blocklist
 .
 clock_skew_seconds
 "
@@ -323,7 +323,7 @@ prefs
 .
 setCharPref
 (
-PREF_KINTO_BASE
+PREF_SETTINGS_SERVER
 http
 :
 /
@@ -455,7 +455,7 @@ collection
 '
 updater
 .
-addTestKintoClient
+addTestBlocklistClient
 (
 "
 test
@@ -681,7 +681,7 @@ called
 .
 updater
 .
-addTestKintoClient
+addTestBlocklistClient
 (
 "
 test
