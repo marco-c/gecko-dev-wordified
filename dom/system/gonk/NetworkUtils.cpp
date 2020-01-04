@@ -4095,7 +4095,7 @@ setinterfacealert
 %
 s
 %
-ld
+lld
 "
 GET_CHAR
 (
