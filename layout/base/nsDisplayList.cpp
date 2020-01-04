@@ -42645,7 +42645,7 @@ result
 nsSVGIntegrationUtils
 :
 :
-PaintFramesWithEffects
+PaintMaskAndClipPath
 (
 params
 )

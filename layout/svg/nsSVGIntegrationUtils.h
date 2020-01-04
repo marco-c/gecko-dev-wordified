@@ -970,7 +970,7 @@ effects
 /
 static
 DrawResult
-PaintFramesWithEffects
+PaintMaskAndClipPath
 (
 const
 PaintFramesParams
