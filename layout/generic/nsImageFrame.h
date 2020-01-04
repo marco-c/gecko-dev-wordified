@@ -1789,6 +1789,12 @@ imgIContainer
 >
 mImage
 ;
+nsCOMPtr
+<
+imgIContainer
+>
+mPrevImage
+;
 nsSize
 mComputedSize
 ;
@@ -2170,6 +2176,9 @@ aFrame
 imgIContainer
 *
 aImage
+imgIContainer
+*
+aPrevImage
 )
 :
 nsDisplayImageContainer
@@ -2180,6 +2189,10 @@ aFrame
 mImage
 (
 aImage
+)
+mPrevImage
+(
+aPrevImage
 )
 {
 MOZ_COUNT_CTOR
@@ -2414,6 +2427,12 @@ nsCOMPtr
 imgIContainer
 >
 mImage
+;
+nsCOMPtr
+<
+imgIContainer
+>
+mPrevImage
 ;
 }
 ;
