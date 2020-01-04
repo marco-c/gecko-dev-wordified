@@ -6267,6 +6267,11 @@ MOZ_CONTENT_SANDBOX
 )
 if
 (
+mSandboxLevel
+>
+0
+&
+&
 !
 PR_GetEnv
 (
