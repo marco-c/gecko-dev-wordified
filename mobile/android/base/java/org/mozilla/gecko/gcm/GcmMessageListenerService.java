@@ -275,6 +275,9 @@ getInstance
 .
 onMessageReceived
 (
+GcmMessageListenerService
+.
+this
 bundle
 )
 ;
