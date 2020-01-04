@@ -972,7 +972,7 @@ to
 see
 if
 the
-widnow
+window
 still
 exists
 bool
