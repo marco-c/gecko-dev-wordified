@@ -459,7 +459,7 @@ nsISVGChildFrame
 interface
 :
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext
