@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-EffectSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventStates
 .
 h
