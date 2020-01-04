@@ -665,7 +665,7 @@ aIterator
 RawGeckoNodeBorrowed
 Gecko_GetNextStyleChild
 (
-StyleChildrenIteratorBorrowed
+StyleChildrenIteratorBorrowedMut
 aIterator
 )
 {

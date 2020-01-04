@@ -1289,7 +1289,7 @@ it
 RawGeckoNodeBorrowedOrNull
 Gecko_GetNextStyleChild
 (
-StyleChildrenIteratorBorrowed
+StyleChildrenIteratorBorrowedMut
 it
 )
 ;
