@@ -40298,6 +40298,7 @@ range
 )
 ;
 Label
+iterAlreadyDone
 iterDone
 done
 ;
@@ -40312,7 +40313,7 @@ Zero
 range
 range
 &
-iterDone
+iterAlreadyDone
 )
 ;
 masm
@@ -40653,6 +40654,14 @@ MapIteratorObject
 RangeSlot
 )
 )
+)
+;
+masm
+.
+bind
+(
+&
+iterAlreadyDone
 )
 ;
 masm
