@@ -532,7 +532,9 @@ icon
 type
 =
 "
-push
+desktop
+-
+notification
 "
 ]
 {
@@ -552,7 +554,7 @@ browser
 /
 skin
 /
-Push
+notification
 -
 64
 .

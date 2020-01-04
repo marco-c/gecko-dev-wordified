@@ -107,9 +107,6 @@ pointerLock
 "
 popup
 "
-"
-push
-"
 ]
 "
 Correct

@@ -206,10 +206,12 @@ geo
 :
 PERM_UNKNOWN
 "
-push
+desktop
+-
+notification
 "
 :
-PERM_DENY
+PERM_UNKNOWN
 "
 indexedDB
 "

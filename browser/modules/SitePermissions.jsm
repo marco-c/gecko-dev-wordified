@@ -1026,6 +1026,9 @@ notification
 "
 :
 {
+exactHostMatch
+:
+true
 }
 "
 camera
@@ -1128,15 +1131,6 @@ indexedDB
 }
 "
 pointerLock
-"
-:
-{
-exactHostMatch
-:
-true
-}
-"
-push
 "
 :
 {
