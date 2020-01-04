@@ -886,6 +886,12 @@ ShutdownLayersIPC
 (
 )
 ;
+static
+bool
+IPCAlreadyShutDown
+(
+)
+;
 /
 *
 *

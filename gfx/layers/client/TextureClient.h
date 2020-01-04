@@ -2747,6 +2747,11 @@ ForceIPDLActorShutdown
 PTextureChild
 *
 actor
+const
+char
+*
+const
+aProtocolName
 )
 ;
 /

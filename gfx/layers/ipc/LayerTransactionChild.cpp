@@ -411,6 +411,9 @@ Get
 GetKey
 (
 )
+"
+CompositorBridge
+"
 )
 ;
 }
@@ -466,6 +469,9 @@ Get
 GetKey
 (
 )
+"
+CompositorBridge
+"
 )
 ;
 }
