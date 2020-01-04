@@ -155,7 +155,6 @@ aOwner
 )
 {
 }
-virtual
 MediaDecoder
 *
 Clone
@@ -166,7 +165,6 @@ aOwner
 )
 override
 ;
-virtual
 MediaOmxCommonReader
 *
 CreateReader
@@ -174,7 +172,6 @@ CreateReader
 )
 override
 ;
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachineFromReader
@@ -185,7 +182,6 @@ aReader
 )
 override
 ;
-virtual
 void
 ChangeState
 (

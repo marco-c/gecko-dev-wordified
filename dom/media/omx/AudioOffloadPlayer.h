@@ -521,7 +521,6 @@ of
 aSource
 "
 .
-virtual
 void
 SetSource
 (
@@ -562,7 +561,6 @@ an
 offloaded
 audio
 track
-virtual
 status_t
 Start
 (
@@ -573,7 +571,6 @@ false
 )
 override
 ;
-virtual
 status_t
 ChangeState
 (
@@ -585,7 +582,6 @@ aState
 )
 override
 ;
-virtual
 void
 SetVolume
 (
@@ -594,7 +590,6 @@ aVolume
 )
 override
 ;
-virtual
 int64_t
 GetMediaTimeUs
 (
@@ -612,7 +607,6 @@ the
 element
 is
 visible
-virtual
 void
 SetElementVisibility
 (
@@ -653,7 +647,6 @@ compressed
 data
 is
 available
-virtual
 MediaDecoderOwner
 :
 :
@@ -663,7 +656,6 @@ GetNextFrameStatus
 )
 override
 ;
-virtual
 RefPtr
 <
 MediaDecoder

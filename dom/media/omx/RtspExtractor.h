@@ -245,7 +245,6 @@ MediaExtractor
 {
 public
 :
-virtual
 size_t
 countTracks
 (
@@ -253,7 +252,6 @@ countTracks
 final
 override
 ;
-virtual
 android
 :
 :
@@ -272,7 +270,6 @@ index
 final
 override
 ;
-virtual
 android
 :
 :
@@ -295,7 +292,6 @@ flag
 final
 override
 ;
-virtual
 uint32_t
 flags
 (

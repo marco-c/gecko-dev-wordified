@@ -162,7 +162,6 @@ MediaDecoderOwner
 aOwner
 )
 ;
-virtual
 void
 FirstFrameLoaded
 (
@@ -176,7 +175,6 @@ aEventVisibility
 )
 override
 ;
-virtual
 void
 ChangeState
 (
@@ -185,7 +183,6 @@ aState
 )
 override
 ;
-virtual
 void
 CallSeek
 (
@@ -196,7 +193,6 @@ aTarget
 )
 override
 ;
-virtual
 void
 SetVolume
 (
@@ -205,14 +201,12 @@ aVolume
 )
 override
 ;
-virtual
 int64_t
 CurrentPosition
 (
 )
 override
 ;
-virtual
 MediaDecoderOwner
 :
 :
@@ -222,7 +216,6 @@ NextFrameStatus
 )
 override
 ;
-virtual
 void
 SetElementVisibility
 (
@@ -231,7 +224,6 @@ aIsVisible
 )
 override
 ;
-virtual
 void
 SetPlatformCanOffloadAudio
 (
@@ -240,7 +232,6 @@ aCanOffloadAudio
 )
 override
 ;
-virtual
 void
 AddOutputStream
 (
@@ -252,7 +243,6 @@ aFinishWhenEnded
 )
 override
 ;
-virtual
 void
 SetPlaybackRate
 (
@@ -266,7 +256,6 @@ AudioOffloadTearDown
 (
 )
 ;
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine
