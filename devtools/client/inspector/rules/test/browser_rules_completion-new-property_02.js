@@ -467,7 +467,6 @@ let
 toolbox
 inspector
 view
-testActor
 }
 =
 yield
@@ -510,7 +509,6 @@ yield
 reloadPage
 (
 inspector
-testActor
 )
 ;
 yield
@@ -906,10 +904,16 @@ yield
 onKeyPress
 ;
 yield
-waitForTick
+wait
 (
+1
 )
 ;
+/
+/
+Equivalent
+of
+executeSoon
 info
 (
 "

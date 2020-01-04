@@ -76,6 +76,13 @@ the
 selector
 .
 const
+SEARCH
+=
+"
+00F
+"
+;
+const
 TEST_URI
 =
 [

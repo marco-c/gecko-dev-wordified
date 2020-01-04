@@ -70,7 +70,7 @@ style
 )
 {
 let
-html
+content
 =
 <
 style
@@ -128,7 +128,7 @@ utf
 +
 encodeURIComponent
 (
-html
+content
 )
 )
 ;

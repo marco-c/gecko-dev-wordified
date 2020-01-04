@@ -237,6 +237,9 @@ textProps
 .
 editor
 ;
+let
+editor
+=
 yield
 focusEditableField
 (
