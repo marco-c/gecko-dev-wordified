@@ -48895,7 +48895,7 @@ initial_values
 :
 [
 "
-auto
+normal
 "
 ]
 other_values
@@ -48991,7 +48991,7 @@ end
 safe
 "
 "
-auto
+normal
 unsafe
 "
 "
@@ -49012,7 +49012,7 @@ end
 "
 "
 end
-auto
+normal
 "
 "
 safe
@@ -49026,7 +49026,7 @@ end
 unsafe
 "
 "
-auto
+normal
 safe
 start
 "
@@ -49049,6 +49049,9 @@ unsafe
 "
 stretch
 safe
+"
+"
+auto
 "
 ]
 }
@@ -49074,10 +49077,7 @@ initial_values
 :
 [
 "
-auto
-"
-"
-start
+normal
 "
 ]
 /
@@ -49144,6 +49144,9 @@ unsafe
 left
 "
 "
+start
+"
+"
 center
 unsafe
 "
@@ -49190,7 +49193,7 @@ unsafe
 baseline
 "
 "
-auto
+normal
 unsafe
 "
 "
@@ -49205,6 +49208,9 @@ stretch
 "
 end
 end
+"
+"
+auto
 "
 ]
 }
@@ -49241,7 +49247,7 @@ will
 compute
 to
 '
-start
+normal
 '
 .
 )
@@ -49252,12 +49258,15 @@ initial_values
 auto
 "
 "
-start
+normal
 "
 ]
 other_values
 :
 [
+"
+start
+"
 "
 flex
 -
@@ -49347,7 +49356,7 @@ initial_values
 :
 [
 "
-auto
+normal
 "
 ]
 other_values
@@ -49444,7 +49453,7 @@ end
 safe
 "
 "
-auto
+normal
 unsafe
 "
 "
@@ -49464,7 +49473,7 @@ baseline
 end
 "
 "
-auto
+normal
 end
 "
 "
@@ -49479,7 +49488,7 @@ end
 unsafe
 "
 "
-auto
+normal
 safe
 start
 "
@@ -49502,6 +49511,9 @@ unsafe
 "
 safe
 stretch
+"
+"
+auto
 "
 ]
 }
@@ -49530,7 +49542,7 @@ initial_values
 auto
 "
 "
-start
+normal
 "
 ]
 other_values
@@ -49573,6 +49585,9 @@ baseline
 "
 "
 stretch
+"
+"
+start
 "
 "
 legacy
@@ -49708,12 +49723,15 @@ initial_values
 auto
 "
 "
-start
+normal
 "
 ]
 other_values
 :
 [
+"
+start
+"
 "
 end
 "
