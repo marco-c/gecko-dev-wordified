@@ -2288,6 +2288,7 @@ ArrayType
 class
 MOZ_RAII
 RootedTypedArray
+final
 :
 public
 ArrayType
