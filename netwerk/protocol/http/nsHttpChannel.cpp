@@ -12826,6 +12826,19 @@ mRedirectChannel
 =
 newChannel
 ;
+if
+(
+!
+(
+flags
+&
+nsIChannelEventSink
+:
+:
+REDIRECT_STS_UPGRADE
+)
+)
+{
 /
 /
 Ensure
@@ -12899,6 +12912,7 @@ rv
 rv
 )
 ;
+}
 PushRedirectAsyncFunc
 (
 &
