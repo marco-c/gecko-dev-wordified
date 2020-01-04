@@ -28214,7 +28214,7 @@ if
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &

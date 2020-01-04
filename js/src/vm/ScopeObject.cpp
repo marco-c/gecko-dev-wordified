@@ -1899,7 +1899,7 @@ MOZ_ASSERT
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -9440,7 +9440,7 @@ frame_
 &
 frame_
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &
@@ -18419,7 +18419,7 @@ if
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &
@@ -19816,7 +19816,7 @@ initialFrame
 (
 )
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 !

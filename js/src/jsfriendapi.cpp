@@ -2423,7 +2423,7 @@ if
 !
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -4400,7 +4400,7 @@ hasUsableAbstractFramePtr
 &
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &

@@ -42518,7 +42518,7 @@ if
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -42821,7 +42821,7 @@ calleev
 cx
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ?
@@ -42964,7 +42964,7 @@ setBoolean
 (
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &
@@ -44126,7 +44126,7 @@ if
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

@@ -1434,7 +1434,7 @@ const
 {
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -1585,7 +1585,7 @@ evalNewTargetAddress
 ;
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -2389,7 +2389,7 @@ isNonGlobalEvalFrame
 ;
 }
 bool
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 const
@@ -2400,12 +2400,6 @@ CalleeTokenIsFunction
 calleeToken
 (
 )
-)
-&
-&
-!
-isEvalFrame
-(
 )
 ;
 }

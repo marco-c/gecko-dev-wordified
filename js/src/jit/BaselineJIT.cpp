@@ -535,7 +535,7 @@ if
 fp
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &
@@ -1380,7 +1380,7 @@ if
 fp
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

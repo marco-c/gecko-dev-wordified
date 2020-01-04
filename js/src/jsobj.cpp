@@ -25268,7 +25268,7 @@ if
 (
 i
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -25445,7 +25445,7 @@ if
 (
 i
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

@@ -683,7 +683,7 @@ if
 !
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -1772,7 +1772,7 @@ done
 !
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -2268,7 +2268,7 @@ done
 !
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
