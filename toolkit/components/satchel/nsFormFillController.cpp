@@ -5331,9 +5331,14 @@ if
 (
 isOpen
 )
+{
 return
-NS_OK
+SetPopupOpen
+(
+false
+)
 ;
+}
 nsCOMPtr
 <
 nsIAutoCompleteInput
