@@ -207,6 +207,13 @@ init
 context
 )
 ;
+RobotiumHelper
+.
+init
+(
+context
+)
+;
 WaitHelper
 .
 init
