@@ -319,11 +319,6 @@ string
 "
 )
 }
-telemetry
-:
-"
-ECHO
-"
 }
 getDetail1
 :

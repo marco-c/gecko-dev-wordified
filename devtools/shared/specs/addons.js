@@ -121,11 +121,6 @@ json
 "
 )
 }
-telemetry
-:
-"
-INSTALL_TEMPORARY_ADDON
-"
 }
 }
 }
