@@ -4260,9 +4260,9 @@ set
 the
 /
 /
-BRS_ISBSTARTMARGINROOT
+mIsBStartMarginRoot
 and
-BRS_ISBENDMARGINROOT
+mIsBEndMarginRoot
 flags
 .
 FRAME_STATE_BIT
