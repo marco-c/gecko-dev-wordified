@@ -2502,8 +2502,10 @@ aCount
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_INVALID_ADVANCE_COUNT
+>
+(
 )
 ;
 return
