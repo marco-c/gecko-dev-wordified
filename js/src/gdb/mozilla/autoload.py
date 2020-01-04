@@ -114,6 +114,10 @@ import
 mozilla
 .
 jsval
+import
+mozilla
+.
+unwind
 #
 The
 user
@@ -185,4 +189,13 @@ lookup
 replace
 =
 True
+)
+    
+mozilla
+.
+unwind
+.
+register_unwinder
+(
+objfile
 )
