@@ -353,7 +353,7 @@ defineLazyModuleGetter
 (
 this
 "
-FormLikeFactory
+LoginFormFactory
 "
 "
 resource
@@ -698,7 +698,7 @@ content
 let
 formLike
 =
-FormLikeFactory
+LoginFormFactory
 .
 createFromForm
 (
@@ -738,7 +738,7 @@ content
 let
 formLike
 =
-FormLikeFactory
+LoginFormFactory
 .
 createFromField
 (

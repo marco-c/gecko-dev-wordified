@@ -455,7 +455,7 @@ object
 .
 See
 {
-FormLikeFactory
+LoginFormFactory
 }
 *
 /

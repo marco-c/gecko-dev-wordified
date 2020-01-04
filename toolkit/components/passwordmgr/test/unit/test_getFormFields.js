@@ -66,7 +66,7 @@ jsm
 const
 {
 LoginManagerContent
-FormLikeFactory
+LoginFormFactory
 }
 =
 LMCBackstagePass
@@ -1039,7 +1039,7 @@ test
 let
 formLike
 =
-FormLikeFactory
+LoginFormFactory
 .
 createFromField
 (
