@@ -13612,6 +13612,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -13654,6 +13655,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
+override
 {
 aWorkerPrivate
 -
@@ -13668,13 +13670,11 @@ false
 bool
 PreDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 /
 /
@@ -13724,6 +13724,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
+override
 {
 /
 /
@@ -14286,6 +14287,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -14361,6 +14363,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
+override
 {
 aWorkerPrivate
 -
@@ -14375,13 +14378,11 @@ false
 bool
 PreDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 /
 /
@@ -14454,6 +14455,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
+override
 {
 /
 /
