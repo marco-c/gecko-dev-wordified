@@ -742,7 +742,7 @@ result
 )
 )
 ;
-break
+return
 ;
 }
 ErrorInvalidEnum
