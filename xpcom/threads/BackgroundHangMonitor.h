@@ -198,12 +198,9 @@ reporting
 *
 hangs
 in
-background
-(
-non
--
 main
-)
+and
+background
 threads
 .
 A
