@@ -1235,6 +1235,16 @@ return
 AudioVolumeDown
 "
 ;
+case
+KeyboardEvent
+.
+DOM_VK_VOLUME_UP
+:
+return
+"
+AudioVolumeUp
+"
+;
 #
 else
 case
@@ -1247,8 +1257,6 @@ return
 VolumeDown
 "
 ;
-#
-endif
 case
 KeyboardEvent
 .
@@ -1259,6 +1267,8 @@ return
 VolumeUp
 "
 ;
+#
+endif
 case
 KeyboardEvent
 .

@@ -3339,6 +3339,10 @@ DEFINE_KEYNAME_WITH_SAME_NAME
 (
 AudioVolumeDown
 )
+DEFINE_KEYNAME_WITH_SAME_NAME
+(
+AudioVolumeUp
+)
 #
 else
 /
@@ -3351,12 +3355,12 @@ DEFINE_KEYNAME_WITH_SAME_NAME
 (
 VolumeDown
 )
-#
-endif
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
 VolumeUp
 )
+#
+endif
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
 VolumeMute

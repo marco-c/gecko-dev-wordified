@@ -5029,7 +5029,7 @@ keydown
 key
 :
 "
-VolumeUp
+AudioVolumeUp
 "
 }
 )
@@ -5060,7 +5060,7 @@ keyup
 key
 :
 "
-VolumeUp
+AudioVolumeUp
 "
 }
 )
