@@ -110,6 +110,12 @@ annotations
 "
 "
 from
+__future__
+import
+absolute_import
+print_function
+unicode_literals
+from
 taskgraph
 .
 util
@@ -193,9 +199,12 @@ for
 this
 task
     
+Required
+(
 '
 label
 '
+)
 :
 basestring
     
@@ -209,9 +218,12 @@ for
 metadata
 )
     
+Required
+(
 '
 description
 '
+)
 :
 basestring
     
@@ -221,9 +233,12 @@ for
 this
 task
     
+Optional
+(
 '
 attributes
 '
+)
 :
 {
 basestring
@@ -263,9 +278,12 @@ get_dependencies
 method
 .
     
+Optional
+(
 '
 dependencies
 '
+)
 :
 {
 basestring
@@ -296,20 +314,35 @@ g
 days
 "
 )
+.
+Defaults
+are
+set
+based
+on
+the
+project
+.
     
+Optional
+(
 '
 expires
 -
 after
 '
+)
 :
 basestring
     
+Optional
+(
 '
 deadline
 -
 after
 '
+)
 :
 basestring
     
@@ -331,9 +364,12 @@ added
 #
 automatically
     
+Optional
+(
 '
 routes
 '
+)
 :
 [
 basestring
@@ -359,9 +395,12 @@ be
 added
 automatically
     
+Optional
+(
 '
 scopes
 '
+)
 :
 [
 basestring
@@ -376,9 +415,12 @@ extra
 "
 content
     
+Optional
+(
 '
 extra
 '
+)
 :
 {
 basestring
@@ -419,9 +461,31 @@ config
 .
 json
     
+#
+If
+not
+specified
+no
+treeherder
+extra
+information
+or
+routes
+will
+be
+    
+#
+added
+to
+the
+task
+    
+Optional
+(
 '
 treeherder
 '
+)
 :
 {
         
@@ -597,9 +661,12 @@ Any
 (
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 Any
 (
@@ -710,6 +777,20 @@ bool
 Required
 (
 '
+taskcluster
+-
+proxy
+'
+default
+=
+False
+)
+:
+bool
+        
+Required
+(
+'
 allow
 -
 ptrace
@@ -749,6 +830,17 @@ False
 :
 bool
         
+Optional
+(
+'
+superseder
+-
+url
+'
+)
+:
+basestring
+        
 #
 caches
 to
@@ -758,9 +850,12 @@ for
 the
 task
         
+Optional
+(
 '
 caches
 '
+)
 :
 [
 {
@@ -847,9 +942,12 @@ image
 after
 completion
         
+Optional
+(
 '
 artifacts
 '
+)
 :
 [
 {
@@ -928,9 +1026,16 @@ basestring
 environment
 variables
         
+Required
+(
 '
 env
 '
+default
+=
+{
+}
+)
 :
 {
 basestring
@@ -974,9 +1079,12 @@ int
 }
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 '
 generic
@@ -1027,9 +1135,12 @@ cannot
 have
 names
         
+Optional
+(
 '
 artifacts
 '
+)
 :
 [
 {
@@ -1083,9 +1194,16 @@ basestring
 environment
 variables
         
+Required
+(
 '
 env
 '
+default
+=
+{
+}
+)
 :
 {
 basestring
@@ -1115,9 +1233,12 @@ int
 }
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 '
 buildbot
@@ -1127,6 +1248,8 @@ bridge
         
 #
 see
+        
+#
 https
 :
 /
@@ -2303,20 +2426,28 @@ split
 routes
 =
 task
-[
+.
+get
+(
 '
 routes
 '
+[
 ]
+)
         
 scopes
 =
 task
-[
+.
+get
+(
 '
 scopes
 '
+[
 ]
+)
         
 #
 set
@@ -2326,12 +2457,31 @@ extra
 extra
 =
 task
-[
+.
+get
+(
 '
 extra
 '
-]
+{
+}
+)
         
+task_th
+=
+task
+.
+get
+(
+'
+treeherder
+'
+)
+        
+if
+task_th
+:
+            
 extra
 [
 '
@@ -2339,27 +2489,13 @@ treeherderEnv
 '
 ]
 =
-task
-[
-'
-treeherder
-'
-]
+task_th
 [
 '
 environments
 '
 ]
-        
-task_th
-=
-task
-[
-'
-treeherder
-'
-]
-        
+            
 treeherder
 =
 extra
@@ -2372,7 +2508,7 @@ treeherder
 {
 }
 )
-        
+            
 machine_platform
 collection
 =
@@ -2390,7 +2526,7 @@ split
 '
 1
 )
-        
+            
 treeherder
 [
 '
@@ -2405,7 +2541,7 @@ platform
 :
 machine_platform
 }
-        
+            
 treeherder
 [
 '
@@ -2418,7 +2554,7 @@ collection
 :
 True
 }
-        
+            
 groupSymbol
 symbol
 =
@@ -2431,15 +2567,6 @@ symbol
 '
 ]
 )
-        
-if
-groupSymbol
-!
-=
-'
-?
-'
-:
             
 treeherder
 [
@@ -2479,7 +2606,7 @@ GROUP_NAMES
 [
 groupSymbol
 ]
-        
+            
 treeherder
 [
 '
@@ -2488,7 +2615,7 @@ symbol
 ]
 =
 symbol
-        
+            
 treeherder
 [
 '
@@ -2502,7 +2629,7 @@ task_th
 kind
 '
 ]
-        
+            
 treeherder
 [
 '
@@ -2516,13 +2643,13 @@ task_th
 tier
 '
 ]
-        
+            
 routes
 .
 extend
 (
 [
-            
+                
 '
 {
 }
@@ -2542,7 +2669,7 @@ v2
 format
 (
 root
-                                    
+                                        
 config
 .
 params
@@ -2551,7 +2678,7 @@ params
 project
 '
 ]
-                                    
+                                        
 config
 .
 params
@@ -2560,7 +2687,7 @@ params
 head_rev
 '
 ]
-                                    
+                                        
 config
 .
 params
@@ -2570,7 +2697,7 @@ pushlog_id
 '
 ]
 )
-            
+                
 for
 root
 in
@@ -2586,7 +2713,7 @@ treeherder
 -
 stage
 '
-        
+            
 ]
 )
         
