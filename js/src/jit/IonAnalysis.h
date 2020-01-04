@@ -278,7 +278,7 @@ MIRGraph
 graph
 )
 ;
-bool
+void
 RenumberBlocks
 (
 MIRGraph
