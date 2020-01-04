@@ -254,6 +254,7 @@ MARK
 SWEEP
 FINALIZE
 COMPACT
+DECOMMIT
 }
 ;
 /
@@ -6091,6 +6092,12 @@ is
 actively
 running
 .
+bool
+isRunningWithLockHeld
+(
+)
+const
+;
 bool
 isRunning
 (
