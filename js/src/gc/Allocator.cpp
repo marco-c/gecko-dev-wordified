@@ -841,6 +841,14 @@ clasp
 isNative
 (
 )
+|
+|
+clasp
+-
+>
+isProxy
+(
+)
 )
 ;
 /
