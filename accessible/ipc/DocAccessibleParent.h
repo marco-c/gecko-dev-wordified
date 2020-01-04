@@ -288,6 +288,16 @@ return
 mTopLevel
 ;
 }
+bool
+IsShutdown
+(
+)
+const
+{
+return
+mShutdown
+;
+}
 /
 *
 *
