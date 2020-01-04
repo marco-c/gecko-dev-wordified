@@ -221,10 +221,6 @@ SelectionDetails
 class
 nsTextFragment
 ;
-typedef
-nsFrame
-nsTextFrameBase
-;
 class
 nsDisplayTextGeometry
 ;
@@ -254,7 +250,7 @@ class
 nsTextFrame
 :
 public
-nsTextFrameBase
+nsFrame
 {
 typedef
 mozilla
@@ -344,7 +340,7 @@ nsStyleContext
 aContext
 )
 :
-nsTextFrameBase
+nsFrame
 (
 aContext
 )
