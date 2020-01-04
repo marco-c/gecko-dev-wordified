@@ -8784,6 +8784,11 @@ SrcRectConstraint
 constraint
 )
 {
+CHECK_SHOULD_DRAW
+(
+draw
+)
+;
 bool
 alphaOnly
 =
@@ -8805,11 +8810,6 @@ getTexture
 )
 )
 {
-CHECK_SHOULD_DRAW
-(
-draw
-)
-;
 GrBitmapTextureAdjuster
 adjuster
 (
