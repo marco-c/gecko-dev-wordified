@@ -11142,7 +11142,7 @@ if
 clientLayers
 &
 &
-mCompositorBridgeParent
+mCompositorSession
 )
 {
 /
