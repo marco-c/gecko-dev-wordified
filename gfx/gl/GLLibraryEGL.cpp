@@ -949,6 +949,7 @@ Platform
 {
 public
 :
+explicit
 AngleErrorReporting
 (
 nsACString
