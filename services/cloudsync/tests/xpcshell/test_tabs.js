@@ -65,6 +65,7 @@ run_next_test
 add_task
 (
 function
+*
 test_get_remote_tabs
 (
 )
