@@ -2111,6 +2111,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 nearbyint
 Args_Double_Double
 )
@@ -2130,6 +2133,9 @@ float
 )
 >
 (
+fdlibm
+:
+:
 nearbyintf
 Args_Float32_Float32
 )
