@@ -1981,16 +1981,6 @@ LastRelease
 ;
 /
 /
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
-/
-/
 DocAccessible
 virtual
 nsresult
