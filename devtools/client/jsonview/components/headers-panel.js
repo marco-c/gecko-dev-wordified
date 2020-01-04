@@ -354,6 +354,11 @@ Toolbar
 ToolbarButton
 (
 {
+className
+:
+"
+copy
+"
 onClick
 :
 this
