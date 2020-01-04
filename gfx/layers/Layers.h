@@ -9049,6 +9049,15 @@ return
 mScrolledClip
 ;
 }
+Maybe
+<
+ParentLayerIntRect
+>
+GetScrolledClipRect
+(
+)
+const
+;
 uint32_t
 GetContentFlags
 (
