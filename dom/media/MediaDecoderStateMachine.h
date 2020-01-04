@@ -1089,6 +1089,9 @@ false
 nsresult
 Init
 (
+MediaDecoder
+*
+aDecoder
 )
 ;
 /
