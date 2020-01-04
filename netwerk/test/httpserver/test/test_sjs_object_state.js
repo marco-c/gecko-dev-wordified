@@ -1442,10 +1442,9 @@ path
 ;
 channel
 .
-asyncOpen
+asyncOpen2
 (
 this
-null
 )
 ;
 }
