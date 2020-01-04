@@ -1488,41 +1488,15 @@ RIDEALONG_BUILDS
 {
     
 '
-linux
-'
-:
-[
-        
-'
-linux
--
-l10n
-'
-    
-]
-    
-'
 linux64
 '
 :
 [
-        
-'
-linux64
--
-l10n
-'
         
 '
 sm
 -
 plain
-'
-        
-'
-sm
--
-nonunified
 '
         
 '
@@ -1551,12 +1525,6 @@ compacting
 sm
 -
 rootanalysis
-'
-        
-'
-sm
--
-package
 '
     
 ]

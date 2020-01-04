@@ -1135,11 +1135,6 @@ platforms
 '
 linux
 '
-'
-linux
--
-l10n
-'
 ]
 "
         
@@ -1168,11 +1163,6 @@ platforms
 '
 linux
 '
-'
-linux
--
-l10n
-'
 ]
 )
     
@@ -1194,11 +1184,6 @@ platforms
 [
 '
 linux
-'
-'
-linux
--
-l10n
 '
 '
 win32
@@ -1234,11 +1219,6 @@ platforms
 [
 '
 linux
-'
-'
-linux
--
-l10n
 '
 '
 win32
@@ -1295,19 +1275,7 @@ linux
 '
             
 '
-linux
--
-l10n
-'
-            
-'
 linux64
-'
-            
-'
-linux64
--
-l10n
 '
             
 '
@@ -1330,18 +1298,6 @@ sim
 sm
 -
 compacting
-'
-            
-'
-sm
--
-nonunified
-'
-            
-'
-sm
--
-package
 '
             
 '
