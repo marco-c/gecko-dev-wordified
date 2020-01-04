@@ -754,11 +754,11 @@ date
 "
 )
 ;
-Integer
+Long
 type
 =
 (
-Integer
+Long
 )
 v
 .
@@ -790,7 +790,7 @@ Assert
 .
 assertEquals
 (
-Integer
+Long
 .
 valueOf
 (

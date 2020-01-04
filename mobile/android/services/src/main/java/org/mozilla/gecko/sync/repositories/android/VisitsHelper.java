@@ -652,7 +652,7 @@ insertTupleIntoVisitsUnchecked
 visits
 cursor
 .
-getInt
+getLong
 (
 visitTypeCol
 )
@@ -921,10 +921,14 @@ static
 void
 insertTupleIntoVisitsUnchecked
 (
+NonNull
+final
 JSONArray
 visits
-Integer
+NonNull
+Long
 type
+NonNull
 Long
 date
 )
