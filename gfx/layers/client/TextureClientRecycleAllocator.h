@@ -437,6 +437,11 @@ ITextureClientAllocationHelper
 aHelper
 )
 ;
+void
+ShrinkToMinimumSize
+(
+)
+;
 protected
 :
 virtual
