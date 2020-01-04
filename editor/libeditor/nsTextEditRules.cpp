@@ -110,6 +110,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -341,13 +348,6 @@ mozilla
 dom
 /
 NodeIterator
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -2929,7 +2929,7 @@ if
 nextNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR
@@ -6518,7 +6518,7 @@ AsElement
 if
 (
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR

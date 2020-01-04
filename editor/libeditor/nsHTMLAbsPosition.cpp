@@ -73,6 +73,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -352,13 +359,6 @@ h
 include
 "
 nsTextEditRules
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "

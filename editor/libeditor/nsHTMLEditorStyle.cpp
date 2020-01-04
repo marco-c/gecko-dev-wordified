@@ -103,6 +103,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 TypeInState
 .
 h
@@ -354,13 +361,6 @@ h
 include
 "
 nsTextEditRules
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -4361,7 +4361,7 @@ secondSplitParent
 {
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak

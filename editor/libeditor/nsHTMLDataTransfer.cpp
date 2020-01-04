@@ -128,6 +128,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -652,13 +659,6 @@ h
 include
 "
 nsTextEditRules
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -2453,7 +2453,7 @@ wsObj
 mEndReasonNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -2979,7 +2979,7 @@ NS_ERROR_FAILURE
 NS_ENSURE_TRUE
 (
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBody
@@ -3705,7 +3705,7 @@ parent
 &
 &
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBody
