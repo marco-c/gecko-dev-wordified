@@ -36055,7 +36055,7 @@ MIRType
 resultType
 size_t
 spIncrement
-bool
+PreservesTlsReg
 preservesTlsReg
 )
 {
