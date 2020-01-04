@@ -18375,10 +18375,7 @@ nullptr
 ;
 if
 (
-numFormals
->
-=
-1
+arg1
 &
 &
 !
@@ -18408,10 +18405,7 @@ nullptr
 ;
 if
 (
-numFormals
->
-=
-2
+arg2
 &
 &
 !
@@ -18441,10 +18435,7 @@ nullptr
 ;
 if
 (
-numFormals
->
-=
-3
+arg3
 &
 &
 !
