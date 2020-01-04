@@ -21450,12 +21450,6 @@ nsCSSPropertyID
 aProperty
 CSSEnabledState
 aEnabledState
-dom
-:
-:
-Element
-*
-aTargetElement
 nsStyleContext
 *
 aStyleContext
@@ -22256,7 +22250,6 @@ CSSEnabledState
 :
 :
 eIgnoreEnabledState
-aTargetElement
 aStyleContext
 styleRule
 values
@@ -22441,7 +22434,6 @@ ComputeValuesFromStyleRule
 (
 aProperty
 aEnabledState
-aTargetElement
 aStyleContext
 styleRule
 aResult
