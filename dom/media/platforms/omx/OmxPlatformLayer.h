@@ -503,6 +503,12 @@ OutputPortIndex
 )
 ;
 }
+virtual
+OMX_VIDEO_CODINGTYPE
+CompressionFormat
+(
+)
+;
 /
 /
 Check
