@@ -360,7 +360,7 @@ void
 VRManagerChild
 :
 :
-StartUpSameProcess
+InitSameProcess
 (
 )
 {
@@ -383,11 +383,11 @@ Thread
 if
 (
 sVRManagerChildSingleton
-=
-=
-nullptr
 )
 {
+return
+;
+}
 sVRManagerChildSingleton
 =
 new
@@ -436,7 +436,6 @@ ipc
 ChildSide
 )
 ;
-}
 }
 /
 *
