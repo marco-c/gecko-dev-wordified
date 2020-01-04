@@ -8312,7 +8312,7 @@ MarginBox
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleUserFocus
-None
+None_
 SelectMenu
 )
 #
