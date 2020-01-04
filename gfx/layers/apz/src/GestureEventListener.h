@@ -1307,7 +1307,7 @@ state
 .
 *
 /
-float
+ParentLayerCoord
 mSpanChange
 ;
 /
@@ -1329,7 +1329,7 @@ PinchGestureInput
 .
 *
 /
-float
+ParentLayerCoord
 mPreviousSpan
 ;
 /

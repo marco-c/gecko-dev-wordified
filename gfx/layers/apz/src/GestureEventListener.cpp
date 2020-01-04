@@ -408,7 +408,7 @@ secondTouch
 2
 ;
 }
-float
+ParentLayerCoord
 GetCurrentSpan
 (
 const
@@ -1600,7 +1600,7 @@ state
 break
 ;
 }
-float
+ParentLayerCoord
 currentSpan
 =
 GetCurrentSpan
@@ -1753,7 +1753,7 @@ nsEventStatus_eConsumeNoDefault
 break
 ;
 }
-float
+ParentLayerCoord
 currentSpan
 =
 GetCurrentSpan

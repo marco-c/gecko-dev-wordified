@@ -2584,9 +2584,9 @@ const
 ParentLayerPoint
 &
 aLocalFocusPoint
-float
+ParentLayerCoord
 aCurrentSpan
-float
+ParentLayerCoord
 aPreviousSpan
 Modifiers
 aModifiers
