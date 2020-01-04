@@ -220,7 +220,7 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
@@ -10033,7 +10033,7 @@ LayerScope
 status
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread

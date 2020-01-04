@@ -301,17 +301,10 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
-/
-/
-for
-CompositorBridgeParent
-:
-:
-IsInCompositorThread
 #
 include
 "
@@ -7435,7 +7428,7 @@ UsesOffMainThreadCompositing
 )
 |
 |
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
