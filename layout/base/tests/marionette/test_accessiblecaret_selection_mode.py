@@ -800,13 +800,13 @@ tap
         
 sel
 .
-move_caret_to_front
+move_cursor_to_front
 (
 )
         
 sel
 .
-move_caret_by_offset
+move_cursor_by_offset
 (
 offset
 )
@@ -816,7 +816,7 @@ y
 =
 sel
 .
-caret_location
+cursor_location
 (
 )
         
@@ -1639,7 +1639,6 @@ the
 location
 of
 the
-selection
 carets
 at
 the
@@ -1648,9 +1647,9 @@ of
 the
 content
 for
+later
         
 #
-later
 use
 .
         
@@ -1666,18 +1665,12 @@ select_all
 (
 )
         
-(
-_
-_
-)
-(
 end_caret_x
 end_caret_y
-)
 =
 sel
 .
-selection_carets_location
+second_caret_location
 (
 )
         
@@ -1713,7 +1706,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -1975,7 +1968,6 @@ the
 location
 of
 the
-selection
 carets
 at
 the
@@ -1984,9 +1976,9 @@ of
 the
 content
 for
+later
         
 #
-later
 use
 .
         
@@ -1996,18 +1988,12 @@ select_all
 (
 )
         
-(
-_
-_
-)
-(
 end_caret_x
 end_caret_y
-)
 =
 sel
 .
-selection_carets_location
+second_caret_location
 (
 )
         
@@ -2113,7 +2099,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -2159,7 +2145,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -2942,7 +2928,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3025,7 +3011,7 @@ caret4_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3195,29 +3181,31 @@ self
 '
 '
 '
-Testing
-drag
+Test
+dragging
+the
 caret
 over
+a
 non
+-
 selectable
 field
 .
         
-So
-that
-the
+The
 selected
 content
 should
 exclude
 non
+-
 selectable
-field
+elements
 and
+the
         
-end
-selection
+second
 caret
 should
 appear
@@ -3228,6 +3216,7 @@ range
 s
 position
 .
+        
 '
 '
 '
@@ -3327,18 +3316,12 @@ SelectionManager
 body
 )
         
-(
-_
-_
-)
-(
 end_caret_x
 end_caret_y
-)
 =
 sel
 .
-selection_carets_location
+second_caret_location
 (
 )
         
@@ -3350,18 +3333,12 @@ sel6
 0
 )
         
-(
-_
-_
-)
-(
 end_caret2_x
 end_caret2_y
-)
 =
 sel
 .
-selection_carets_location
+second_caret_location
 (
 )
         
@@ -3397,7 +3374,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3458,7 +3435,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3536,7 +3513,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3708,7 +3685,7 @@ end_caret_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3752,7 +3729,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3954,7 +3931,7 @@ p_end_caret_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -3980,7 +3957,7 @@ l_end_caret_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -4730,7 +4707,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         
@@ -4890,7 +4867,7 @@ caret2_y
 =
 sel
 .
-selection_carets_location
+carets_location
 (
 )
         

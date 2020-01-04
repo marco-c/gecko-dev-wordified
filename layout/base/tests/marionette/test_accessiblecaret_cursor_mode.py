@@ -370,7 +370,7 @@ target_content
         
 #
 Get
-touch
+first
 caret
 (
 x
@@ -391,41 +391,41 @@ tap
         
 sel
 .
-move_caret_to_front
+move_cursor_to_front
 (
 )
         
-caret0_x
-caret0_y
+cursor0_x
+cursor0_y
 =
 sel
 .
-caret_location
+cursor_location
 (
 )
         
-touch_caret0_x
-touch_caret0_y
+first_caret0_x
+first_caret0_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
 sel
 .
-move_caret_by_offset
+move_cursor_by_offset
 (
 1
 )
         
-touch_caret1_x
-touch_caret1_y
+first_caret1_x
+first_caret1_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
@@ -438,7 +438,7 @@ the
 input
 to
 make
-touch
+first
 caret
 appear
 .
@@ -447,14 +447,15 @@ el
 .
 tap
 (
-caret0_x
-caret0_y
+cursor0_x
+cursor0_y
 )
         
 #
 Move
-touch
+first
 caret
+.
         
 self
 .
@@ -463,11 +464,11 @@ actions
 flick
 (
 el
-touch_caret0_x
-touch_caret0_y
+first_caret0_x
+first_caret0_y
                            
-touch_caret1_x
-touch_caret1_y
+first_caret1_x
+first_caret1_y
 )
 .
 perform
@@ -584,7 +585,7 @@ the
 input
 to
 make
-touch
+first
 caret
 appear
 .
@@ -597,7 +598,7 @@ tap
         
 sel
 .
-move_caret_to_front
+move_cursor_to_front
 (
 )
         
@@ -608,14 +609,14 @@ tap
 *
 sel
 .
-caret_location
+cursor_location
 (
 )
 )
         
 #
 Move
-touch
+first
 caret
 to
 the
@@ -633,7 +634,7 @@ src_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
@@ -777,7 +778,7 @@ content
         
 #
 Get
-touch
+first
 caret
 location
 at
@@ -793,7 +794,7 @@ tap
         
 sel
 .
-move_caret_to_front
+move_cursor_to_front
 (
 )
         
@@ -802,7 +803,7 @@ dest_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
@@ -810,7 +811,7 @@ touch_caret_location
 Tap
 to
 make
-touch
+first
 caret
 appear
 .
@@ -858,13 +859,13 @@ tap
         
 sel
 .
-move_caret_to_end
+move_cursor_to_end
 (
 )
         
 sel
 .
-move_caret_by_offset
+move_cursor_by_offset
 (
 1
 backward
@@ -879,7 +880,7 @@ tap
 *
 sel
 .
-caret_location
+cursor_location
 (
 )
 )
@@ -889,13 +890,13 @@ src_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
 #
 Move
-touch
+first
 caret
 to
 the
@@ -1074,7 +1075,7 @@ timeout
 Tap
 to
 make
-touch
+first
 caret
 appear
 .
@@ -1122,13 +1123,13 @@ tap
         
 sel
 .
-move_caret_to_end
+move_cursor_to_end
 (
 )
         
 sel
 .
-move_caret_by_offset
+move_cursor_by_offset
 (
 1
 backward
@@ -1143,7 +1144,7 @@ tap
 *
 sel
 .
-caret_location
+cursor_location
 (
 )
 )
@@ -1151,7 +1152,7 @@ caret_location
 #
 Wait
 until
-touch
+first
 caret
 disappears
 then
@@ -1178,7 +1179,7 @@ src_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
@@ -1300,7 +1301,7 @@ tap
         
 sel
 .
-move_caret_to_end
+move_cursor_to_end
 (
 )
         
@@ -1380,7 +1381,7 @@ src_y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
@@ -1522,7 +1523,7 @@ tap
         
 sel
 .
-move_caret_to_front
+move_cursor_to_front
 (
 )
         
@@ -1533,7 +1534,7 @@ tap
 *
 sel
 .
-caret_location
+cursor_location
 (
 )
 )
@@ -1543,7 +1544,7 @@ y
 =
 sel
 .
-touch_caret_location
+first_caret_location
 (
 )
         
