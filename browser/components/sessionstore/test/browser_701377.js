@@ -139,9 +139,10 @@ false
 let
 tabShowCallback
 =
-function
 (
 )
+=
+>
 tabShown
 =
 true
@@ -264,9 +265,10 @@ opts
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close
@@ -299,9 +301,10 @@ true
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 aCallback
 (
 aWin

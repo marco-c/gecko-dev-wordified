@@ -672,14 +672,15 @@ countByTitle
 aClosedTabList
 aTitle
 )
+{
+return
 aClosedTabList
 .
 filter
 (
-function
-(
 aData
-)
+=
+>
 aData
 .
 title
@@ -690,6 +691,7 @@ aTitle
 .
 length
 ;
+}
 /
 /
 open

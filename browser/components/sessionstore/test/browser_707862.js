@@ -427,9 +427,10 @@ aCallback
 else
 setTimeout
 (
-function
 (
 )
+=
+>
 whenChildCount
 (
 aEntry

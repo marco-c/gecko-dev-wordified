@@ -797,9 +797,10 @@ opts
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close

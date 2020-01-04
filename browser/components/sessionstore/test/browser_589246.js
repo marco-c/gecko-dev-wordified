@@ -384,10 +384,9 @@ WINDOW_ATTRIBUTES
 .
 forEach
 (
-function
-(
 attr
-)
+=
+>
 delete
 expectedState
 [

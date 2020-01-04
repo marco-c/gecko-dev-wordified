@@ -872,12 +872,16 @@ function
 (
 aIndex
 )
+{
+return
 this
 .
 searches
 [
 aIndex
 ]
+;
+}
 QueryInterface
 :
 XPCOMUtils
