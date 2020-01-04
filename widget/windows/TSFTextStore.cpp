@@ -31364,11 +31364,6 @@ updatePreference
 nsIMEUpdatePreference
 :
 :
-NOTIFY_SELECTION_CHANGE
-|
-nsIMEUpdatePreference
-:
-:
 NOTIFY_TEXT_CHANGE
 |
 nsIMEUpdatePreference
