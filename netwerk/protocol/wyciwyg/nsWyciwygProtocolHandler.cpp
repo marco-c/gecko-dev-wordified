@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net

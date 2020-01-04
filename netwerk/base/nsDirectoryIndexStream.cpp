@@ -343,10 +343,11 @@ working
 #
 define
 THREADSAFE_I18N
-static
+using
+namespace
 mozilla
-:
-:
+;
+static
 LazyLogModule
 gLog
 (

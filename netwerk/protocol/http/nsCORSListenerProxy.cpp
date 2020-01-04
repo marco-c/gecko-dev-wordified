@@ -156,7 +156,7 @@ h
 #
 include
 "
-nsIHttpChannelChild
+HttpChannelChild
 .
 h
 "

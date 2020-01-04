@@ -156,6 +156,10 @@ r
 n
 "
 )
+using
+namespace
+mozilla
+;
 /
 /
 nsISupports

@@ -213,6 +213,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsIFileURL
+.
+h
+"
 /
 /
 needed

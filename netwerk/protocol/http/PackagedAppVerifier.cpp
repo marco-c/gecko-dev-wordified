@@ -232,6 +232,13 @@ BasePrincipal
 .
 h
 "
+#
+include
+"
+HttpLog
+.
+h
+"
 static
 const
 short

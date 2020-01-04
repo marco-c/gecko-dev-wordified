@@ -242,6 +242,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+nsIChannel
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsIndexedToHTML

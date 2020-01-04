@@ -84,6 +84,13 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+nsIStreamListener
+.
+h
+"
 namespace
 mozilla
 {

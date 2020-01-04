@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+WebSocketEventService
+.
+h
+"
+#
+include
+"
 WebSocketEventListenerParent
 .
 h

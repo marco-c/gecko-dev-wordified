@@ -180,6 +180,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 static
 void
 GC_gcollect

@@ -127,6 +127,13 @@ h
 #
 include
 "
+plstr
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

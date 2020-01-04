@@ -295,6 +295,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+NeckoParent
+.
+h
+"
+#
+include
+"
 LoadContextInfo
 .
 h

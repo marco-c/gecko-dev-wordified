@@ -99,6 +99,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Mutex
+.
+h
+"
 namespace
 mozilla
 {

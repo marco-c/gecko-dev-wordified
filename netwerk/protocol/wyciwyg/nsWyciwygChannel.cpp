@@ -277,6 +277,13 @@ nsContentSecurityManager
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 typedef
 mozilla
 :

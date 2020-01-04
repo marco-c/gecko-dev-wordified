@@ -195,6 +195,13 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+nsHttpHandler
+.
+h
+"
 namespace
 mozilla
 {

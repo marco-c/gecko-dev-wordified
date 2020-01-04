@@ -456,6 +456,13 @@ h
 #
 include
 "
+nsINetworkPredictorVerifier
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net

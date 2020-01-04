@@ -135,6 +135,10 @@ nsCacheService
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 *
 *

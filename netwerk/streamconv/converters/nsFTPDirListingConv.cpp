@@ -282,6 +282,10 @@ nsFTPDirListingConv
 "
 )
 ;
+using
+namespace
+mozilla
+;
 /
 /
 nsISupports

@@ -298,6 +298,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Telemetry

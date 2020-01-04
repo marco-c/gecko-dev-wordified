@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h

@@ -268,6 +268,15 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 /
 /
 Default
@@ -327,6 +336,10 @@ request
 define
 MAX_RETRY_COUNT
 20
+using
+namespace
+mozilla
+;
 /
 /
 -

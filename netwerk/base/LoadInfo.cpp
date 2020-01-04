@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -213,6 +220,13 @@ nsGlobalWindow
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {

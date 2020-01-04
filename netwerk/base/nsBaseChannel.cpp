@@ -240,6 +240,13 @@ LoadInfo
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 /
 /
 This

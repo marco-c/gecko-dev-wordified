@@ -282,6 +282,9 @@ net
 class
 HttpChannelParentListener
 ;
+class
+ChannelEventQueue
+;
 /
 /
 Note
