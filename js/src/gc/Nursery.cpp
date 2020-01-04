@@ -3841,10 +3841,10 @@ MinorGC
 4d
 "
 FMT
-js
+JS
 :
 :
-gcstats
+gcreason
 :
 :
 ExplainReason
