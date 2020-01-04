@@ -794,6 +794,12 @@ ensureStylesheet
 (
 )
 ;
+nsIDocument
+*
+getLoaderDoc
+(
+)
+;
 nsCOMPtr
 <
 nsISupports
@@ -874,14 +880,6 @@ aProcessor
 nsIDocument
 *
 aLoaderDocument
-mozilla
-:
-:
-net
-:
-:
-ReferrerPolicy
-aReferrerPolicy
 )
 ;
 extern
@@ -891,6 +889,9 @@ TX_CompileStylesheet
 nsINode
 *
 aNode
+nsIDocument
+*
+aLoaderDocument
 txMozillaXSLTProcessor
 *
 aProcessor
