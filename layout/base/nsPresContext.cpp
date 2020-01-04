@@ -1562,10 +1562,10 @@ enabled
 init
 stats
 struct
-LogModule
-*
-log
-=
+if
+(
+MOZ_LOG_TEST
+(
 gfxPlatform
 :
 :
@@ -1573,12 +1573,6 @@ GetLog
 (
 eGfxLog_textperf
 )
-;
-if
-(
-MOZ_LOG_TEST
-(
-log
 LogLevel
 :
 :
