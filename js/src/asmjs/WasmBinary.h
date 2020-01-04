@@ -587,14 +587,6 @@ asm
 .
 js
 specific
-Ternary
-/
-/
-to
-be
-merged
-with
-IfElse
 While
 /
 /
