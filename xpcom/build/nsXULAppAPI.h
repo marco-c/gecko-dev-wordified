@@ -216,6 +216,13 @@ XREChildData
 .
 h
 "
+#
+include
+"
+XREShellData
+.
+h
+"
 /
 *
 *
@@ -2742,6 +2749,10 @@ char
 *
 *
 envp
+const
+XREShellData
+*
+aShellData
 )
 )
 #
