@@ -599,7 +599,7 @@ return
 nullptr
 ;
 #
-endif
+else
 StartupCache
 :
 :
@@ -607,6 +607,8 @@ InitSingleton
 (
 )
 ;
+#
+endif
 }
 return
 StartupCache
