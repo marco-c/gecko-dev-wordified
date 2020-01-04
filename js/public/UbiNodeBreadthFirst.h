@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_UbiNodeTraverse_h
+js_UbiNodeBreadthFirst_h
 #
 define
-js_UbiNodeTraverse_h
+js_UbiNodeBreadthFirst_h
 #
 include
 "
@@ -2072,6 +2072,4 @@ JS
 endif
 /
 /
-js_UbiNodeTraverse
-.
-h
+js_UbiNodeBreadthFirst_h
