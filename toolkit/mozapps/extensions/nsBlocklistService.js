@@ -232,6 +232,12 @@ jsm
 "
 )
 ;
+/
+*
+globals
+AddonManagerPrivate
+*
+/
 }
 catch
 (

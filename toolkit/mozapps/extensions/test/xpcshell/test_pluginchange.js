@@ -189,6 +189,7 @@ mimeTypes
 }
 }
 ;
+const
 PLUGINS
 =
 [
@@ -248,6 +249,7 @@ plugin
 )
 ]
 ;
+const
 gPluginHost
 =
 {

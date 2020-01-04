@@ -28,6 +28,7 @@ zero
 /
 *
 /
+var
 gWindowWatcher
 =
 null
