@@ -1938,16 +1938,12 @@ PLAYBACK
 )
 )
 ;
-MediaEventProducer
+MediaEventProducerExc
 <
 UniquePtr
 <
 int
 >
-ListenerMode
-:
-:
-Exclusive
 >
 source
 ;
