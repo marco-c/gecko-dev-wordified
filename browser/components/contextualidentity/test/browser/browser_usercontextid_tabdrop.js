@@ -4,7 +4,7 @@ strict
 "
 ;
 let
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -28,11 +28,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 /
@@ -235,7 +235,7 @@ screenY
 0
 }
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -685,7 +685,7 @@ screenY
 0
 }
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1063,7 +1063,7 @@ drop
 "
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

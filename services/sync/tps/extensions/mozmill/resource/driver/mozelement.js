@@ -1058,7 +1058,7 @@ events
 .
 Adapted
 from
-ChromeUtils
+EventUtils
 .
 js
 synthesizeDrop

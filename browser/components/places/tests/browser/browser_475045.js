@@ -32,7 +32,7 @@ zero
 Instead
 of
 loading
-ChromeUtils
+EventUtils
 .
 js
 into
@@ -53,7 +53,7 @@ tests
 we
 only
 need
-ChromeUtils
+EventUtils
 .
 js
 for
@@ -69,7 +69,7 @@ using
 loadSubScript
 .
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -121,11 +121,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 add_task
@@ -393,7 +393,7 @@ makeURI
 uriSpec
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

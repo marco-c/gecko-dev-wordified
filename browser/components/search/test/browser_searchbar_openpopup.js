@@ -30,7 +30,7 @@ drop
 Instead
 of
 loading
-ChromeUtils
+EventUtils
 .
 js
 into
@@ -51,7 +51,7 @@ tests
 we
 only
 need
-ChromeUtils
+EventUtils
 .
 js
 for
@@ -67,7 +67,7 @@ using
 loadSubScript
 .
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -119,11 +119,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 const
@@ -3561,7 +3561,7 @@ popupshown
 "
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

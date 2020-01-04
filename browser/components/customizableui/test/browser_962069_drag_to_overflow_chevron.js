@@ -334,7 +334,7 @@ result
 dataTransfer
 ]
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDragOver
 (
@@ -356,7 +356,7 @@ session
 yield
 panelShownPromise
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDropAfterDragOver
 (

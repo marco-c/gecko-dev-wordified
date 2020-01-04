@@ -148,7 +148,7 @@ AppConstants
 tmp
 ;
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -172,11 +172,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 Services
@@ -266,7 +266,7 @@ synthesizeDragStart
 synthesizeDrop
 }
 =
-ChromeUtils
+EventUtils
 ;
 const
 kNSXUL

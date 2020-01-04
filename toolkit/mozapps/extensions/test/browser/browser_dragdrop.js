@@ -96,7 +96,7 @@ automatically
 Instead
 of
 loading
-ChromeUtils
+EventUtils
 .
 js
 into
@@ -117,7 +117,7 @@ tests
 we
 only
 need
-ChromeUtils
+EventUtils
 .
 js
 for
@@ -136,7 +136,7 @@ var
 gManagerWindow
 ;
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -188,11 +188,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 /
@@ -934,7 +934,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1095,7 +1095,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1271,7 +1271,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1465,7 +1465,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1672,7 +1672,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
