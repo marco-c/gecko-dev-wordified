@@ -601,6 +601,9 @@ struct
 LineRange
 ;
 struct
+SharedGridData
+;
+struct
 TrackSizingFunctions
 ;
 struct
