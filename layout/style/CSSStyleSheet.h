@@ -996,17 +996,6 @@ they
 generic
 ?
 void
-PrependStyleRule
-(
-css
-:
-:
-Rule
-*
-aRule
-)
-;
-void
 AppendStyleRule
 (
 css
