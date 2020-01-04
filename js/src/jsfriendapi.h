@@ -16863,9 +16863,9 @@ void
 )
 SetScriptEnvironmentPreparer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 ScriptEnvironmentPreparer
 *
 preparer
@@ -16927,9 +16927,9 @@ void
 )
 SetCTypesActivityCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 CTypesActivityCallback
 cb
 )
