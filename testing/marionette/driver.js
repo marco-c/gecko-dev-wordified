@@ -12980,7 +12980,13 @@ Context
 .
 CONTENT
 :
-return
+resp
+.
+body
+.
+value
+=
+yield
 this
 .
 listener
@@ -12990,6 +12996,8 @@ getElementProperty
 id
 name
 )
+;
+break
 ;
 }
 }
