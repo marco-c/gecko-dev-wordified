@@ -4582,7 +4582,7 @@ nanf
 ifFalse
 )
 ;
-bitwiseAndX4
+bitwiseAndSimd128
 (
 Operand
 (
@@ -4591,7 +4591,7 @@ mask
 reg
 )
 ;
-bitwiseAndNotX4
+bitwiseAndNotSimd128
 (
 Operand
 (
@@ -4600,7 +4600,7 @@ ifFalse
 mask
 )
 ;
-bitwiseOrX4
+bitwiseOrSimd128
 (
 Operand
 (
