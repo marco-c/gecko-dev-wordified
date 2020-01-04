@@ -6815,6 +6815,7 @@ aCallback
 }
 var
 {
+promiseInstallFile
 promiseInstallAllFiles
 }
 =
