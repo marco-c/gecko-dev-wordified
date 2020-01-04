@@ -2808,6 +2808,10 @@ ImageBridgeChild
 GetSingleton
 (
 )
+.
+get
+(
+)
 mDevice
 )
 ;
@@ -4724,6 +4728,10 @@ ImageBridgeChild
 :
 :
 GetSingleton
+(
+)
+.
+get
 (
 )
 mDevice
