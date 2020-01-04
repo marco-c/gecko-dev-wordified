@@ -256,6 +256,9 @@ Start
 SourceMediaStream
 *
 TrackID
+const
+PrincipalHandle
+&
 )
 override
 ;
@@ -312,6 +315,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;
@@ -565,6 +572,9 @@ Start
 SourceMediaStream
 *
 TrackID
+const
+PrincipalHandle
+&
 )
 override
 ;
@@ -631,6 +641,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 {
@@ -801,6 +815,9 @@ MediaEngineDefaultAudioSource
 ;
 TrackID
 mTrackID
+;
+PrincipalHandle
+mPrincipalHandle
 ;
 nsCOMPtr
 <

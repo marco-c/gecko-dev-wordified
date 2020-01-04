@@ -197,6 +197,12 @@ mozilla
 :
 :
 TrackID
+const
+mozilla
+:
+:
+PrincipalHandle
+&
 )
 override
 ;
@@ -231,6 +237,13 @@ mozilla
 :
 :
 StreamTime
+const
+mozilla
+:
+:
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;

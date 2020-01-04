@@ -124,6 +124,9 @@ StreamBuffer
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -631,6 +634,10 @@ const
 TrackID
 &
 aTrackId
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -785,6 +792,9 @@ const
 TrackID
 &
 aTrackId
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 JSObject

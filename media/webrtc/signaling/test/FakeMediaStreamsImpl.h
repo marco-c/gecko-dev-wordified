@@ -753,6 +753,10 @@ forget
 )
 channels
 AUDIO_BUFFER_SIZE
+mozilla
+:
+:
+PRINCIPAL_HANDLE_NONE
 )
 ;
 for

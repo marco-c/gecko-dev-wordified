@@ -575,6 +575,7 @@ GetDuration
 (
 )
 size
+PRINCIPAL_HANDLE_NONE
 )
 ;
 mVideoEncoder

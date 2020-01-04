@@ -125,6 +125,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 StreamBuffer
 .
 h

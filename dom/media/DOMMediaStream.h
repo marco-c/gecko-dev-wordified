@@ -4827,6 +4827,9 @@ OverlayImage
 >
 mOverlayImage
 ;
+PrincipalID
+mPrincipalHandle
+;
 #
 endif
 }

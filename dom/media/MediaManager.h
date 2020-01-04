@@ -722,6 +722,10 @@ Thread
 aThread
 uint64_t
 aWindowID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 :
 mMediaThread
@@ -731,6 +735,10 @@ aThread
 mWindowID
 (
 aWindowID
+)
+mPrincipalHandle
+(
+aPrincipalHandle
 )
 mStopped
 (
@@ -1549,6 +1557,7 @@ aGraph
 mStream
 kAudioTrack
 aDesiredTime
+mPrincipalHandle
 )
 ;
 }
@@ -1571,6 +1580,7 @@ aGraph
 mStream
 kVideoTrack
 aDesiredTime
+mPrincipalHandle
 )
 ;
 }
@@ -1678,6 +1688,16 @@ bool
 aHasListeners
 )
 ;
+PrincipalHandle
+GetPrincipalHandle
+(
+)
+const
+{
+return
+mPrincipalHandle
+;
+}
 private
 :
 /
@@ -1694,6 +1714,10 @@ mMediaThread
 ;
 uint64_t
 mWindowID
+;
+const
+PrincipalHandle
+mPrincipalHandle
 ;
 /
 /

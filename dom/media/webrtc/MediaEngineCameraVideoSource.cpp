@@ -161,6 +161,10 @@ TrackID
 aID
 StreamTime
 delta
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 MOZ_ASSERT
@@ -208,6 +212,7 @@ forget
 )
 delta
 size
+aPrincipalHandle
 )
 ;
 /

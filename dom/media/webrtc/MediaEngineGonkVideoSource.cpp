@@ -395,6 +395,10 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+const
+PrincipalID
+&
+aPrincipalHandle
 )
 {
 VideoSegment
@@ -691,6 +695,7 @@ forget
 )
 delta
 size
+aPrincipalHandle
 )
 ;
 /
@@ -734,6 +739,7 @@ aID
 (
 segment
 )
+aPrincipalHandle
 )
 ;
 }
@@ -4959,6 +4965,10 @@ i
 mImage
 mTrackID
 1
+mPrincipalHandles
+[
+i
+]
 )
 ;
 }

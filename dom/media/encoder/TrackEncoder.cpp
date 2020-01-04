@@ -1650,6 +1650,7 @@ mFrame
 GetIntrinsicSize
 (
 )
+PRINCIPAL_HANDLE_NONE
 chunk
 .
 mFrame

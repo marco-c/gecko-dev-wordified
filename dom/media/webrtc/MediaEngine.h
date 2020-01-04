@@ -685,6 +685,9 @@ Start
 SourceMediaStream
 *
 TrackID
+const
+PrincipalHandle
+&
 )
 =
 0
@@ -737,6 +740,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 =
 0
