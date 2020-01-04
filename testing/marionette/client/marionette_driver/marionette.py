@@ -6181,9 +6181,9 @@ self
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
             
@@ -6196,14 +6196,14 @@ execute_script
 script
 script_args
 =
-[
+(
 perm
-]
+)
 sandbox
 =
-'
+"
 system
-'
+"
 )
         
 with
@@ -6211,9 +6211,9 @@ self
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -6335,9 +6335,9 @@ testPerm
 "
 script_args
 =
-[
+(
 value
-]
+)
 )
         
 return
@@ -6633,9 +6633,9 @@ self
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
             
@@ -6648,15 +6648,15 @@ execute_script
 script
 script_args
 =
-[
+(
 allow
 perm
-]
+)
 sandbox
 =
-'
+"
 system
-'
+"
 )
         
 current_perm
@@ -6667,9 +6667,9 @@ get_permission
 (
 perm
 [
-'
+"
 type
-'
+"
 ]
 )
         
@@ -6679,9 +6679,9 @@ current_perm
 =
 perm
 [
-'
+"
 action
-'
+"
 ]
 :
             
@@ -6690,9 +6690,9 @@ self
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
                 
@@ -6751,9 +6751,9 @@ changed
 "
 sandbox
 =
-'
+"
 system
-'
+"
 )
             
 return
@@ -6763,9 +6763,9 @@ self
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -6884,9 +6884,9 @@ true
 "
 script_args
 =
-[
+(
 perm
-]
+)
 )
         
 with
@@ -7249,9 +7249,9 @@ null
 "
 script_args
 =
-[
+(
 pref
-]
+)
 sandbox
 =
 "
@@ -7327,9 +7327,9 @@ arguments
 "
 script_args
 =
-[
+(
 pref
-]
+)
 )
     
 def
@@ -7417,10 +7417,10 @@ arguments
 "
 script_args
 =
-[
+(
 pref
 value
-]
+)
 )
     
 def
@@ -7431,9 +7431,9 @@ prefs
 )
 :
         
-'
-'
-'
+"
+"
+"
 Sets
 preferences
 .
@@ -7484,9 +7484,9 @@ or
 more
 preferences
 and
+            
 their
 values
-        
 to
 be
 set
@@ -7496,27 +7496,27 @@ Usage
 example
 :
 :
-          
+            
 marionette
 .
 set_prefs
 (
 {
-'
+"
 browser
 .
 tabs
 .
 warnOnClose
-'
+"
 :
 True
 }
 )
         
-'
-'
-'
+"
+"
+"
         
 for
 pref
@@ -7547,9 +7547,9 @@ prefs
 )
 :
         
-'
-'
-'
+"
+"
+"
 Sets
 preferences
 for
@@ -7592,26 +7592,26 @@ Usage
 example
 :
 :
-          
+            
 with
 marionette
 .
 using_prefs
 (
 {
-'
+"
 browser
 .
 tabs
 .
 warnOnClose
-'
+"
 :
 True
 }
 )
 :
-              
+                
 #
 .
 .
@@ -7622,9 +7622,9 @@ stuff
 .
 .
         
-'
-'
-'
+"
+"
+"
         
 original_prefs
 =
@@ -7678,7 +7678,6 @@ prefs
 "
 "
 "
-        
 Checks
 if
 the
@@ -7691,11 +7690,11 @@ prefs
 .
 If
 not
+        
 it
 will
 kill
 the
-        
 currently
 running
 instance
@@ -7703,6 +7702,7 @@ and
 spawn
 a
 new
+        
 instance
 with
 the
@@ -11866,7 +11866,8 @@ self
 script
 script_args
 =
-None
+(
+)
 async
 =
 True
@@ -11892,17 +11893,6 @@ default
 '
 )
 :
-        
-if
-script_args
-is
-None
-:
-            
-script_args
-=
-[
-]
         
 args
 =
@@ -11997,7 +11987,8 @@ self
 script
 script_args
 =
-None
+(
+)
 new_sandbox
 =
 True
@@ -12089,8 +12080,8 @@ execute
 param
 script_args
 :
-A
-list
+An
+interable
 of
 arguments
 to
@@ -12254,10 +12245,10 @@ arguments
                                                
 script_args
 =
-[
+(
 2
 3
-]
+)
 )
             
 assert
@@ -12298,9 +12289,9 @@ id
 "
 script_args
 =
-[
+(
 some_element
-]
+)
 )
             
 assert
@@ -12502,17 +12493,6 @@ foo
 "
 "
         
-if
-script_args
-is
-None
-:
-            
-script_args
-=
-[
-]
-        
 args
 =
 self
@@ -12647,7 +12627,8 @@ self
 script
 script_args
 =
-None
+(
+)
 new_sandbox
 =
 True
@@ -12743,8 +12724,8 @@ execute
 param
 script_args
 :
-A
-list
+An
+interable
 of
 arguments
 to
@@ -12933,17 +12914,6 @@ result
 "
 "
 "
-        
-if
-script_args
-is
-None
-:
-            
-script_args
-=
-[
-]
         
 args
 =
