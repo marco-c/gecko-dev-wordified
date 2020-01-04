@@ -12566,9 +12566,6 @@ return
 false
 ;
 }
-NeuterDataDisposition
-changeData
-;
 RootedString
 str
 (
@@ -12608,6 +12605,9 @@ dataDisposition
 )
 return
 false
+;
+DetachDataDisposition
+changeData
 ;
 if
 (
@@ -12683,7 +12683,7 @@ false
 if
 (
 !
-JS_NeuterArrayBuffer
+JS_DetachArrayBuffer
 (
 cx
 obj

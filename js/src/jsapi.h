@@ -22767,7 +22767,7 @@ with
 this
 content
 then
-JS_NeuterArrayBuffer
+JS_DetachArrayBuffer
 (
 )
 should
