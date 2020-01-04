@@ -169,10 +169,6 @@ aProxy
 PDMFactory
 *
 aPDM
-bool
-aCDMDecodesAudio
-bool
-aCDMDecodesVideo
 )
 ;
 virtual
@@ -315,12 +311,6 @@ RefPtr
 TaskQueue
 >
 mTaskQueue
-;
-bool
-mCDMDecodesAudio
-;
-bool
-mCDMDecodesVideo
 ;
 }
 ;

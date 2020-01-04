@@ -944,12 +944,10 @@ uint64_t
 aCaps
 )
 {
-CALL_ON_GMP_THREAD
-(
-SendSetCaps
-aCaps
-)
-;
+/
+/
+Deprecated
+.
 }
 void
 GMPDecryptorChild
