@@ -380,6 +380,10 @@ aCb
 )
 override
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_NAME_METHOD
+(
+JSGCThingParticipant
+)
 }
 ;
 class
@@ -532,6 +536,10 @@ aCb
 )
 override
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_NAME_METHOD
+(
+JSZoneParticipant
+)
 }
 ;
 class
