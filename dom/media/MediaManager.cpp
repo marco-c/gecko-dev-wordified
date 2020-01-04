@@ -7117,7 +7117,7 @@ Fail
 NS_LITERAL_STRING
 (
 "
-SourceUnavailableError
+NotReadableError
 "
 )
 NS_LITERAL_STRING
@@ -7206,7 +7206,7 @@ Fail
 NS_LITERAL_STRING
 (
 "
-SourceUnavailableError
+NotReadableError
 "
 )
 NS_LITERAL_STRING
