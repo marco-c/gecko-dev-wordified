@@ -10825,3 +10825,13 @@ org
 "
 )
 ;
+pref
+(
+"
+media
+.
+openUnsupportedTypeWithExternalApp
+"
+true
+)
+;
