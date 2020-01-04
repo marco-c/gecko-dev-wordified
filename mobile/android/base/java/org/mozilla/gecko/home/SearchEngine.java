@@ -99,6 +99,15 @@ gecko
 home
 ;
 import
+android
+.
+support
+.
+annotation
+.
+NonNull
+;
+import
 org
 .
 mozilla
@@ -475,6 +484,7 @@ FHR
 .
 *
 /
+NonNull
 public
 String
 getEngineIdentifier
