@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 WebGLActiveInfo
 .
 h
