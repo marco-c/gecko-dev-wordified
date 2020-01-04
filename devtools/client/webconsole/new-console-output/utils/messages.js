@@ -435,6 +435,11 @@ data
 level
 ]
 ]
+|
+|
+"
+log
+"
 ;
 break
 ;
@@ -512,12 +517,6 @@ SEVERITY_WARNING
 ;
 }
 else
-if
-(
-data
-.
-info
-)
 {
 severity
 =
