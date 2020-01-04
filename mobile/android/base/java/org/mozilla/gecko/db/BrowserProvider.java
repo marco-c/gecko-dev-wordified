@@ -2662,7 +2662,7 @@ sortOrder
 =
 BrowserContract
 .
-getFrecencySortOrder
+getCombinedFrecencySortOrder
 (
 false
 true
@@ -2953,7 +2953,7 @@ sortOrder
 =
 BrowserContract
 .
-getFrecencySortOrder
+getCombinedFrecencySortOrder
 (
 true
 false
@@ -6985,7 +6985,7 @@ BY
 +
 BrowserContract
 .
-getFrecencySortOrder
+getCombinedFrecencySortOrder
 (
 true
 false
