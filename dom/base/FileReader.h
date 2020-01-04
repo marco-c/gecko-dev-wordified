@@ -176,7 +176,7 @@ h
 #
 include
 "
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -235,7 +235,7 @@ public
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 {
 friend
 class
@@ -480,7 +480,7 @@ aRv
 }
 /
 /
-WorkerHolder
+WorkerFeature
 bool
 Notify
 (
@@ -772,7 +772,7 @@ Kept
 alive
 with
 a
-WorkerHolder
+WorkerFeature
 .
 workers
 :

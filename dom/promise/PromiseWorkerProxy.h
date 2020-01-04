@@ -173,7 +173,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -992,7 +992,7 @@ public
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 public
 StructuredCloneHolderBase
 {
@@ -1632,7 +1632,7 @@ rely
 on
 mCleanedUp
 bool
-mWorkerHolderAdded
+mFeatureAdded
 ;
 #
 endif

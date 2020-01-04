@@ -134,7 +134,7 @@ h
 #
 include
 "
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -160,7 +160,7 @@ dom
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 {
 WeakPtr
 <
@@ -184,7 +184,7 @@ bool
 mIsDisabled
 ;
 bool
-mWorkerHolderAdded
+mFeatureAdded
 ;
 #
 ifdef

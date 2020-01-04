@@ -220,7 +220,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -393,7 +393,7 @@ class
 Derived
 >
 class
-FetchBodyWorkerHolder
+FetchBodyFeature
 ;
 /
 *
@@ -926,9 +926,9 @@ nsAutoPtr
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 >
-mWorkerHolder
+mFeature
 ;
 protected
 :
@@ -1013,12 +1013,12 @@ ReleaseObject
 )
 ;
 bool
-RegisterWorkerHolder
+RegisterFeature
 (
 )
 ;
 void
-UnregisterWorkerHolder
+UnregisterFeature
 (
 )
 ;

@@ -238,7 +238,7 @@ class
 CacheStorageChild
 ;
 class
-CacheWorkerHolder
+Feature
 ;
 class
 CacheStorage
@@ -577,9 +577,9 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-CacheWorkerHolder
+Feature
 *
-aWorkerHolder
+aFeature
 )
 ;
 explicit
@@ -623,9 +623,9 @@ mPrincipalInfo
 ;
 RefPtr
 <
-CacheWorkerHolder
+Feature
 >
-mWorkerHolder
+mFeature
 ;
 /
 /

@@ -131,7 +131,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -210,7 +210,7 @@ final
 public
 nsXHREventTarget
 public
-WorkerHolder
+WorkerFeature
 {
 public
 :

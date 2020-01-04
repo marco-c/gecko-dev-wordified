@@ -167,7 +167,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -266,7 +266,7 @@ dom
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 ;
 using
 mozilla
@@ -289,7 +289,7 @@ final
 public
 SendStreamChild
 public
-WorkerHolder
+WorkerFeature
 {
 public
 :
@@ -319,7 +319,7 @@ StartDestroy
 override
 ;
 bool
-AddAsWorkerHolder
+AddAsWorkerFeature
 (
 dom
 :
@@ -363,7 +363,7 @@ override
 ;
 /
 /
-WorkerHolder
+WorkerFeature
 methods
 virtual
 bool
@@ -532,7 +532,7 @@ this
 event
 through
 the
-WorkerHolder
+Feature
 .
 nsresult
 rv
@@ -649,7 +649,7 @@ via
 /
 /
 the
-WorkerHolder
+Feature
 .
 return
 NS_OK
@@ -847,7 +847,7 @@ bool
 SendStreamChildImpl
 :
 :
-AddAsWorkerHolder
+AddAsWorkerFeature
 (
 WorkerPrivate
 *
@@ -867,9 +867,12 @@ aWorkerPrivate
 bool
 result
 =
-HoldWorker
-(
 aWorkerPrivate
+-
+>
+AddFeature
+(
+this
 )
 ;
 if
@@ -969,8 +972,12 @@ if
 mWorkerPrivate
 )
 {
-ReleaseWorker
+mWorkerPrivate
+-
+>
+RemoveFeature
 (
+this
 )
 ;
 mWorkerPrivate
@@ -1994,7 +2001,7 @@ workerPrivate
 actor
 -
 >
-AddAsWorkerHolder
+AddAsWorkerFeature
 (
 workerPrivate
 )
