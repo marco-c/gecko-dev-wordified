@@ -600,10 +600,12 @@ label
 return
 waitForSuccess
 (
+function
+*
 (
 )
-=
->
+{
+return
 label
 .
 getAttribute
@@ -615,6 +617,8 @@ value
 =
 =
 text
+;
+}
 "
 Link
 text
