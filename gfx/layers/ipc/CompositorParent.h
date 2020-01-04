@@ -1324,6 +1324,13 @@ override
 ;
 virtual
 bool
+RecvForcePresent
+(
+)
+override
+;
+virtual
+bool
 RecvGetTileSize
 (
 int32_t

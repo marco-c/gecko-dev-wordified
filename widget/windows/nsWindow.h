@@ -1663,6 +1663,11 @@ nsWindow
 aWindow
 )
 ;
+void
+ForcePresent
+(
+)
+;
 /
 *
 *
