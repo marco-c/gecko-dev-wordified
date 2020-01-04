@@ -749,7 +749,10 @@ FILL_WINDING
 /
 Equivalent
 to
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 RefPtr
 <
 nsStyleContext
@@ -784,7 +787,10 @@ StyleSVG
 mFillRule
 =
 =
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 |
 |
 styleContext
@@ -798,7 +804,10 @@ StyleSVG
 mFillRule
 =
 =
-NS_STYLE_FILL_RULE_EVENODD
+StyleFillRule
+:
+:
+EvenOdd
 )
 ;
 if
@@ -814,7 +823,10 @@ StyleSVG
 mFillRule
 =
 =
-NS_STYLE_FILL_RULE_EVENODD
+StyleFillRule
+:
+:
+EvenOdd
 )
 {
 fillRule
