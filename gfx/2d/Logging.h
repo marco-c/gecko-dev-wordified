@@ -841,6 +841,7 @@ AsyncTransactionTimeout
 30
 TextureCreation
 InvalidCacheSurface
+AlphaWithBasicClient
 /
 /
 End
