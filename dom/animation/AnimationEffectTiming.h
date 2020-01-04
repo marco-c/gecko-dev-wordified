@@ -219,6 +219,9 @@ SetIterationStart
 (
 double
 aIterationStart
+ErrorResult
+&
+aRv
 )
 ;
 void
