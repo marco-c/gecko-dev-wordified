@@ -846,6 +846,11 @@ onSearch
 (
 mSearchEngine
 suggestion
+TelemetryContract
+.
+Method
+.
+SUGGESTION
 )
 ;
 }
@@ -1704,6 +1709,11 @@ onSearch
 (
 mSearchEngine
 searchTerm
+TelemetryContract
+.
+Method
+.
+SUGGESTION
 )
 ;
 }
