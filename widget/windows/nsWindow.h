@@ -1850,6 +1850,17 @@ return
 mDefaultIMC
 ;
 }
+virtual
+void
+SetCandidateWindowForPlugin
+(
+int32_t
+aX
+int32_t
+aY
+)
+override
+;
 protected
 :
 virtual
