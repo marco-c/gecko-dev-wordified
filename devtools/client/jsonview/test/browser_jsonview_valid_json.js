@@ -120,9 +120,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;
@@ -148,9 +148,9 @@ expandJsonNode
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberLabel
+treeLabel
 "
 )
 ;
@@ -164,9 +164,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;

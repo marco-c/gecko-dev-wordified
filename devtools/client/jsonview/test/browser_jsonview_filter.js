@@ -120,9 +120,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;
@@ -203,9 +203,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 .
 hidden
 "

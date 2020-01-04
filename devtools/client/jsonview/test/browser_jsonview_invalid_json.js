@@ -120,9 +120,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;
