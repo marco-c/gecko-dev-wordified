@@ -1003,11 +1003,6 @@ function
 )
 {
 let
-window1
-=
-window
-;
-let
 window2
 =
 yield
