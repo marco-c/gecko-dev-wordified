@@ -13910,7 +13910,6 @@ floatManager
 >
 IntersectsDamage
 (
-wm
 lineBCoordBefore
 lineBCoordAfter
 )
@@ -13921,7 +13920,6 @@ floatManager
 >
 IntersectsDamage
 (
-wm
 lineBCoordCombinedBefore
 lineBCoordCombinedAfter
 )

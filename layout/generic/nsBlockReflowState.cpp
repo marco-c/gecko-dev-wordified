@@ -7841,7 +7841,6 @@ mFloatManager
 >
 IncludeInDamage
 (
-wm
 blockStart
 blockEnd
 )

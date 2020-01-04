@@ -1595,11 +1595,6 @@ IsEmpty
 void
 IncludeInDamage
 (
-mozilla
-:
-:
-WritingMode
-aWM
 nscoord
 aIntervalBegin
 nscoord
@@ -1622,11 +1617,6 @@ mBlockStart
 bool
 IntersectsDamage
 (
-mozilla
-:
-:
-WritingMode
-aWM
 nscoord
 aIntervalBegin
 nscoord
