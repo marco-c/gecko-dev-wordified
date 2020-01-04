@@ -140,9 +140,9 @@ h
 #
 include
 "
-vm
+threading
 /
-Mutex
+ExclusiveData
 .
 h
 "
@@ -160,9 +160,16 @@ counter
 const
 static
 uint8_t
-numThreads
+NumThreads
 =
 64
+;
+const
+static
+bool
+ShowDiagnostics
+=
+false
 ;
 struct
 CounterAndBit
@@ -174,7 +181,7 @@ const
 js
 :
 :
-Mutex
+ExclusiveData
 <
 uint64_t
 >
@@ -189,7 +196,7 @@ const
 js
 :
 :
-Mutex
+ExclusiveData
 <
 uint64_t
 >
@@ -210,18 +217,11 @@ MOZ_ASSERT
 (
 bit
 <
-numThreads
+NumThreads
 )
 ;
 }
 }
-;
-const
-static
-bool
-shouldPrint
-=
-false
 ;
 void
 printDiagnosticMessage
@@ -233,7 +233,7 @@ seen
 if
 (
 !
-shouldPrint
+ShowDiagnostics
 )
 return
 ;
@@ -261,7 +261,7 @@ mozilla
 :
 MakeRange
 (
-numThreads
+NumThreads
 )
 )
 {
@@ -439,7 +439,7 @@ return
 }
 BEGIN_TEST
 (
-testMutex
+testExclusiveData
 )
 {
 auto
@@ -448,7 +448,7 @@ maybeCounter
 js
 :
 :
-Mutex
+ExclusiveData
 <
 uint64_t
 >
@@ -471,7 +471,7 @@ isSome
 js
 :
 :
-Mutex
+ExclusiveData
 <
 uint64_t
 >
@@ -506,7 +506,7 @@ threads
 .
 reserve
 (
-numThreads
+NumThreads
 )
 )
 ;
@@ -520,7 +520,7 @@ mozilla
 :
 MakeRange
 (
-numThreads
+NumThreads
 )
 )
 {
@@ -598,5 +598,5 @@ true
 }
 END_TEST
 (
-testMutex
+testExclusiveData
 )
