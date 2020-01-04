@@ -3870,8 +3870,9 @@ mozinterruptend
 )
 /
 /
-This
-is
+These
+are
+used
 for
 testing
 only
@@ -3883,6 +3884,12 @@ const
 ;
 bool
 ComputedMuted
+(
+)
+const
+;
+nsSuspendedTypes
+ComputedSuspended
 (
 )
 const
