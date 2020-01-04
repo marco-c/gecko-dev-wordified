@@ -102,6 +102,8 @@ DeleteTextTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

@@ -95,13 +95,15 @@ MPL
 /
 #
 ifndef
-ChangeStyleTransaction_h
+mozilla_ChangeStyleTransaction_h
 #
 define
-ChangeStyleTransaction_h
+mozilla_ChangeStyleTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h
@@ -773,4 +775,4 @@ endif
 /
 #
 ifndef
-ChangeStyleTransaction_h
+mozilla_ChangeStyleTransaction_h

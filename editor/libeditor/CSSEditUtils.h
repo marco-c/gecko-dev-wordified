@@ -95,13 +95,15 @@ MPL
 /
 #
 ifndef
-CSSEditUtils_h
+mozilla_CSSEditUtils_h
 #
 define
-CSSEditUtils_h
+mozilla_CSSEditUtils_h
 #
 include
 "
+mozilla
+/
 ChangeStyleTransaction
 .
 h
@@ -110,9 +112,6 @@ h
 /
 for
 ChangeStyleTransaction
-:
-:
-EChangeType
 #
 include
 "
@@ -2894,4 +2893,4 @@ endif
 /
 #
 ifndef
-CSSEditUtils_h
+mozilla_CSSEditUtils_h

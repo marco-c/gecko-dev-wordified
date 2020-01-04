@@ -102,6 +102,8 @@ StylesheetTransactions_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

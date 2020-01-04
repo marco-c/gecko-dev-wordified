@@ -102,7 +102,9 @@ mozilla_HTMLEditor_h
 #
 include
 "
-CSSEditUtils
+mozilla
+/
+Attributes
 .
 h
 "
@@ -111,7 +113,7 @@ include
 "
 mozilla
 /
-Attributes
+CSSEditUtils
 .
 h
 "

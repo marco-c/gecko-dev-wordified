@@ -105,7 +105,9 @@ h
 #
 include
 "
-EditorUtils
+mozilla
+/
+ArrayUtils
 .
 h
 "
@@ -114,7 +116,7 @@ include
 "
 mozilla
 /
-ArrayUtils
+EditorUtils
 .
 h
 "

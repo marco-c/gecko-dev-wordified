@@ -401,6 +401,8 @@ Misc
 #
 include
 "
+mozilla
+/
 EditorUtils
 .
 h

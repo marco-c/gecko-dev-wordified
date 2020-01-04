@@ -102,6 +102,8 @@ SetDocumentTitleTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

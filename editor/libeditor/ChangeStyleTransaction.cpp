@@ -96,6 +96,8 @@ MPL
 #
 include
 "
+mozilla
+/
 ChangeStyleTransaction
 .
 h
