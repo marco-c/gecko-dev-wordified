@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsISimpleUnicharStreamFactory
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
