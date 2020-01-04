@@ -601,12 +601,6 @@ glesslVersion
 case
 100
 :
-if
-(
-!
-versionStrLen
-)
-{
 /
 *
 According
@@ -641,7 +635,6 @@ n
 "
 )
 ;
-}
 break
 ;
 case
