@@ -388,7 +388,7 @@ this
 _browsers
 =
 new
-Set
+WeakSet
 (
 )
 ;
