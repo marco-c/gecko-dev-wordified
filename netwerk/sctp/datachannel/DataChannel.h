@@ -2788,10 +2788,8 @@ CloseAll
 (
 )
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 ON_CHANNEL_CREATED
 :

@@ -4593,6 +4593,7 @@ proxy
 .
 if
 (
+(
 0
 /
 *
@@ -4604,6 +4605,7 @@ IsSTSThread
 )
 *
 /
+)
 )
 {
 res
@@ -12394,9 +12396,6 @@ strchg
 uint16_t
 stream
 ;
-uint32_t
-i
-;
 RefPtr
 <
 DataChannel
@@ -12899,6 +12898,7 @@ streams
 }
 for
 (
+uint32_t
 i
 =
 0
