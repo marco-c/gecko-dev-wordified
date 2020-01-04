@@ -755,8 +755,10 @@ of
 the
 wrapper
 .
-typedef
-GCRekeyableHashMap
+using
+VMWrapperMap
+=
+HashMap
 <
 const
 VMFunction
@@ -764,7 +766,6 @@ VMFunction
 JitCode
 *
 >
-VMWrapperMap
 ;
 VMWrapperMap
 *
