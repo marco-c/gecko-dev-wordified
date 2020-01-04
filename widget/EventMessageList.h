@@ -774,10 +774,6 @@ eLegacyDragDrop
 )
 NS_EVENT_MESSAGE
 (
-eLegacyDragGesture
-)
-NS_EVENT_MESSAGE
-(
 eDrag
 )
 NS_EVENT_MESSAGE

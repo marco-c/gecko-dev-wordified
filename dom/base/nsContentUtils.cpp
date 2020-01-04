@@ -29593,8 +29593,6 @@ NS_OK
 /
 /
 For
-draggesture
-and
 dragstart
 events
 the
@@ -29632,15 +29630,6 @@ session
 .
 NS_ASSERTION
 (
-aDragEvent
--
->
-mMessage
-!
-=
-eLegacyDragGesture
-&
-&
 aDragEvent
 -
 >
