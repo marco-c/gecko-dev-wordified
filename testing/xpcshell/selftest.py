@@ -55,6 +55,10 @@ tempfile
 import
 unittest
 from
+buildconfig
+import
+substs
+from
 StringIO
 import
 StringIO
@@ -114,11 +118,6 @@ mozinfo
 .
 isMac
 :
-  
-from
-buildconfig
-import
-substs
   
 xpcshellBin
 =
@@ -6215,6 +6214,30 @@ assertInLog
 TEST_FAIL_STRING
 )
         
+if
+not
+substs
+.
+get
+(
+'
+RELEASE_BUILD
+'
+)
+:
+          
+#
+async
+stacks
+are
+currently
+not
+enabled
+in
+release
+builds
+.
+          
 self
 .
 assertInLog
