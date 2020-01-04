@@ -281,6 +281,7 @@ badgeBackgroundColor
 0xff
 0
 0
+0xff
 ]
 "
 disabled
@@ -347,6 +348,7 @@ badgeBackgroundColor
 0
 0xff
 0
+0xff
 ]
 "
 disabled
@@ -413,6 +415,7 @@ badgeBackgroundColor
 0
 0xff
 0
+0xff
 ]
 "
 disabled
@@ -481,6 +484,7 @@ badgeBackgroundColor
 0
 0xff
 0
+0xff
 ]
 }
 ]
@@ -822,6 +826,7 @@ color
 0xff
 0
 0
+0xff
 ]
 }
 )
@@ -1155,6 +1160,7 @@ color
 0
 0xff
 0
+0xff
 ]
 }
 )
