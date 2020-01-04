@@ -2090,7 +2090,7 @@ GetDOMDocument
 if
 (
 !
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -2100,9 +2100,11 @@ nullptr
 trans
 )
 )
+{
 return
 NS_OK
 ;
+}
 rv
 =
 InsertTextFromTransferable
@@ -2208,7 +2210,7 @@ GetDOMDocument
 if
 (
 !
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -2218,9 +2220,11 @@ nullptr
 aTransferable
 )
 )
+{
 return
 NS_OK
 ;
+}
 return
 InsertTextFromTransferable
 (

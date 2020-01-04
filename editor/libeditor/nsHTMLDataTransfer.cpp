@@ -9089,7 +9089,7 @@ domdoc
 if
 (
 !
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -9099,9 +9099,11 @@ nullptr
 trans
 )
 )
+{
 return
 NS_OK
 ;
+}
 return
 InsertFromTransferable
 (
@@ -9197,7 +9199,7 @@ GetDOMDocument
 if
 (
 !
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -9207,9 +9209,11 @@ nullptr
 aTransferable
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsAutoString
 contextStr
 infoStr

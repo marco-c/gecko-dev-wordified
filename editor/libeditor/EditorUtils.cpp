@@ -1322,11 +1322,6 @@ return
 hasChildren
 ;
 }
-}
-/
-/
-namespace
-mozilla
 /
 *
 *
@@ -1497,7 +1492,7 @@ hooks
 *
 /
 nsresult
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 GetHookEnumeratorFromDocument
@@ -1569,7 +1564,7 @@ aResult
 ;
 }
 bool
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -1719,3 +1714,8 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+mozilla
