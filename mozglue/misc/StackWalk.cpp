@@ -4860,7 +4860,7 @@ aDetails
 library
 modInfo
 .
-LoadedImageName
+ModuleName
 sizeof
 (
 aDetails
