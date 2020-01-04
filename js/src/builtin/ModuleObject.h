@@ -1100,7 +1100,7 @@ starExportEntries
 ;
 static
 bool
-FreezeArrayProperties
+Freeze
 (
 JSContext
 *
@@ -1109,9 +1109,12 @@ HandleModuleObject
 self
 )
 ;
+#
+ifdef
+DEBUG
 static
-void
-AssertArrayPropertiesFrozen
+bool
+IsFrozen
 (
 JSContext
 *
@@ -1120,6 +1123,8 @@ HandleModuleObject
 self
 )
 ;
+#
+endif
 void
 fixScopesAfterCompartmentMerge
 (

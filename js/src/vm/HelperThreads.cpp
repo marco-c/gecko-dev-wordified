@@ -7051,7 +7051,7 @@ if
 ModuleObject
 :
 :
-FreezeArrayProperties
+Freeze
 (
 cx
 module

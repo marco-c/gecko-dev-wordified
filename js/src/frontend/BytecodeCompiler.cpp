@@ -4583,7 +4583,7 @@ if
 ModuleObject
 :
 :
-FreezeArrayProperties
+Freeze
 (
 cx
 -
