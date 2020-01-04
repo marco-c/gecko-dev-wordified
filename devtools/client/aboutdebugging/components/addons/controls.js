@@ -620,8 +620,6 @@ Strings
 GetStringFromName
 (
 "
-addonDebugging
-.
 moreInfo
 "
 )
