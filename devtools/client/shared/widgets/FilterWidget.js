@@ -186,11 +186,13 @@ devtools
 /
 client
 /
-sourceeditor
+shared
 /
 css
 -
-tokenizer
+parsing
+-
+utils
 "
 )
 ;

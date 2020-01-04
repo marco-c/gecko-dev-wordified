@@ -75,7 +75,7 @@ use
 strict
 "
 ;
-var
+const
 Cu
 =
 Components
@@ -102,8 +102,6 @@ modules
 /
 devtools
 /
-shared
-/
 Loader
 .
 jsm
@@ -124,7 +122,7 @@ devtools
 /
 client
 /
-styleinspector
+shared
 /
 css
 -

@@ -75,7 +75,7 @@ use
 strict
 "
 ;
-var
+const
 Cu
 =
 Components
@@ -118,7 +118,7 @@ devtools
 /
 client
 /
-styleinspector
+shared
 /
 css
 -
