@@ -5345,6 +5345,16 @@ SourceSurface
 aSourceSurface
 )
 ;
+SourceSurfaceImage
+(
+gfx
+:
+:
+SourceSurface
+*
+aSourceSurface
+)
+;
 ~
 SourceSurfaceImage
 (
