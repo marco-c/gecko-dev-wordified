@@ -637,6 +637,10 @@ ifdef
 DEBUG
 private
 :
+static
+bool
+sPluginHasFocus
+;
 #
 ifdef
 NS_ENABLE_TSF
@@ -696,10 +700,6 @@ window
 static
 bool
 sIsIMMEnabled
-;
-static
-bool
-sPluginHasFocus
 ;
 static
 bool
