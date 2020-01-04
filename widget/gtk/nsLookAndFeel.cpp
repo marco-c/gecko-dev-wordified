@@ -553,6 +553,14 @@ aValue
 )
 )
 ;
+if
+(
+!
+pattern
+)
+return
+false
+;
 /
 /
 Just
