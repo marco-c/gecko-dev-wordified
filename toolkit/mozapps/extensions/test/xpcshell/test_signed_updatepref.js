@@ -13,6 +13,10 @@ PREF_EM_CHECK_UPDATE_SECURITY
 false
 )
 ;
+gUseRealCertChecks
+=
+true
+;
 const
 DATA
 =
@@ -417,6 +421,16 @@ function
 (
 )
 {
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_XPI_SIGNATURES_REQUIRED
+false
+)
+;
 startupManager
 (
 )

@@ -6,15 +6,9 @@ checks
 for
 these
 tests
-Services
-.
-prefs
-.
-setBoolPref
-(
-PREF_XPI_SIGNATURES_REQUIRED
+gUseRealCertChecks
+=
 true
-)
 ;
 /
 /
