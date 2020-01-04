@@ -35212,6 +35212,9 @@ true
 ;
 if
 (
+nextNode
+&
+&
 mHTMLEditor
 -
 >
@@ -35277,6 +35280,9 @@ true
 ;
 if
 (
+priorNode
+&
+&
 mHTMLEditor
 -
 >
