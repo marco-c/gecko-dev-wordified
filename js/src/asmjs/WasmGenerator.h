@@ -673,6 +673,9 @@ startOfUnpatchedBranches_
 JumpSiteArray
 jumpThunks_
 ;
+bool
+tableExported_
+;
 /
 /
 Parallel
