@@ -3878,6 +3878,10 @@ rendering
 void
 ReturnTarget
 (
+bool
+aForceReset
+=
+false
 )
 ;
 /
