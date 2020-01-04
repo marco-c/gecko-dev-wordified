@@ -4292,7 +4292,7 @@ info
 (
 )
 .
-scopeChainSlot
+environmentChainSlot
 (
 )
 )
@@ -4302,7 +4302,7 @@ if
 def
 -
 >
-isOsrScopeChain
+isOsrEnvironmentChain
 (
 )
 )
@@ -4311,7 +4311,7 @@ cloneRp
 def
 -
 >
-toOsrScopeChain
+toOsrEnvironmentChain
 (
 )
 ;
@@ -4996,7 +4996,7 @@ MDefinition
 MBasicBlock
 :
 :
-scopeChain
+environmentChain
 (
 )
 {
@@ -5007,7 +5007,7 @@ info
 (
 )
 .
-scopeChainSlot
+environmentChainSlot
 (
 )
 )
@@ -5039,7 +5039,7 @@ void
 MBasicBlock
 :
 :
-setScopeChain
+setEnvironmentChain
 (
 MDefinition
 *
@@ -5052,7 +5052,7 @@ info
 (
 )
 .
-scopeChainSlot
+environmentChainSlot
 (
 )
 scopeObj

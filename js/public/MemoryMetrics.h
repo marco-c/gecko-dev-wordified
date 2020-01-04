@@ -4198,6 +4198,13 @@ macro
 (
 Other
 MallocHeap
+varNamesSet
+)
+\
+macro
+(
+Other
+MallocHeap
 nonSyntacticLexicalScopesTable
 )
 \

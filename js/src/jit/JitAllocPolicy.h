@@ -162,7 +162,7 @@ include
 "
 ds
 /
-InlineMap
+InlineTable
 .
 h
 "
@@ -914,6 +914,12 @@ void
 *
 uint32_t
 2
+DefaultHasher
+<
+void
+*
+>
+SystemAllocPolicy
 >
 allocIDs
 ;
@@ -1174,7 +1180,8 @@ found
 allocID
 =
 entry
-.
+-
+>
 value
 (
 )
@@ -1364,7 +1371,8 @@ found
 allocID
 =
 entry
-.
+-
+>
 value
 (
 )

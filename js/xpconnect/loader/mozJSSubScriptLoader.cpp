@@ -968,7 +968,7 @@ script
 else
 {
 AutoObjectVector
-scopeChain
+envChain
 (
 cx
 )
@@ -983,7 +983,7 @@ targetObj
 &
 &
 !
-scopeChain
+envChain
 .
 append
 (
@@ -1016,7 +1016,7 @@ JS
 CompileFunction
 (
 cx
-scopeChain
+envChain
 options
 nullptr
 0
@@ -1105,7 +1105,7 @@ script
 else
 {
 AutoObjectVector
-scopeChain
+envChain
 (
 cx
 )
@@ -1120,7 +1120,7 @@ targetObj
 &
 &
 !
-scopeChain
+envChain
 .
 append
 (
@@ -1153,7 +1153,7 @@ JS
 CompileFunction
 (
 cx
-scopeChain
+envChain
 options
 nullptr
 0
@@ -1263,14 +1263,14 @@ JS
 :
 :
 AutoObjectVector
-scopeChain
+envChain
 (
 cx
 )
 ;
 ok
 =
-scopeChain
+envChain
 .
 append
 (
@@ -1281,7 +1281,7 @@ target_obj
 JS_ExecuteScript
 (
 cx
-scopeChain
+envChain
 script
 retval
 )

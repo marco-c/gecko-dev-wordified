@@ -190,7 +190,7 @@ include
 "
 vm
 /
-ScopeObject
+EnvironmentObject
 .
 h
 "
@@ -1234,7 +1234,7 @@ template
 struct
 MovableCellHasher
 <
-ScopeObject
+EnvironmentObject
 *
 >
 ;

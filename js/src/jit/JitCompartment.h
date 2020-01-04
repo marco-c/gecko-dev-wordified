@@ -257,7 +257,7 @@ JSContext
 cx
 )
 :
-scopeChain
+envChain
 (
 cx
 )
@@ -293,7 +293,7 @@ unsigned
 osrNumStackValues
 ;
 RootedObject
-scopeChain
+envChain
 ;
 RootedValue
 result
@@ -325,7 +325,7 @@ CalleeToken
 calleeToken
 JSObject
 *
-scopeChain
+envChain
 size_t
 numStackValues
 Value

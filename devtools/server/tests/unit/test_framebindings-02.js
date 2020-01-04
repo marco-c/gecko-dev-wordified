@@ -237,12 +237,6 @@ actor
 /
 /
 Skip
-both
-the
-eval
-lexical
-scope
-and
 the
 global
 lexical
@@ -251,8 +245,6 @@ scope
 parentEnv
 =
 parentEnv
-.
-parent
 .
 parent
 .

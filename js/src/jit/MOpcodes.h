@@ -309,7 +309,7 @@ OsrValue
 \
 _
 (
-OsrScopeChain
+OsrEnvironmentChain
 )
 \
 _
@@ -744,7 +744,7 @@ NewTypedObject
 \
 _
 (
-NewDeclEnvObject
+NewNamedLambdaObject
 )
 \
 _

@@ -251,12 +251,6 @@ actor
 /
 /
 Skip
-both
-the
-eval
-lexical
-scope
-and
 the
 global
 lexical
@@ -266,8 +260,6 @@ let
 parentEnv
 =
 env
-.
-parent
 .
 parent
 .

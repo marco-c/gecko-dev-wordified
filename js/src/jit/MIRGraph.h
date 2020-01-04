@@ -1025,7 +1025,7 @@ depth
 ;
 MDefinition
 *
-scopeChain
+environmentChain
 (
 )
 ;
@@ -1306,7 +1306,7 @@ slot
 )
 ;
 void
-setScopeChain
+setEnvironmentChain
 (
 MDefinition
 *

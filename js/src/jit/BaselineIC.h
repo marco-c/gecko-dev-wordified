@@ -7677,7 +7677,7 @@ own
 property
 off
 some
-scope
+env
 object
 .
 Unlike
@@ -7709,7 +7709,7 @@ required
 all
 along
 the
-scope
+env
 chain
 .
 template
@@ -7718,7 +7718,7 @@ size_t
 NumHops
 >
 class
-ICGetName_Scope
+ICGetName_Env
 :
 public
 ICMonitoredStub
@@ -7749,7 +7749,7 @@ shapes_
 uint32_t
 offset_
 ;
-ICGetName_Scope
+ICGetName_Env
 (
 JitCode
 *
@@ -7777,7 +7777,7 @@ return
 Kind
 )
 (
-GetName_Scope0
+GetName_Env0
 +
 NumHops
 )
@@ -7786,7 +7786,7 @@ NumHops
 public
 :
 void
-traceScopes
+traceEnvironments
 (
 JSTracer
 *
@@ -7821,7 +7821,7 @@ i
 "
 baseline
 -
-scope
+env
 -
 stub
 -
@@ -7849,7 +7849,7 @@ NumHops
 return
 offsetof
 (
-ICGetName_Scope
+ICGetName_Env
 shapes_
 )
 +
@@ -7872,7 +7872,7 @@ offsetOfOffset
 return
 offsetof
 (
-ICGetName_Scope
+ICGetName_Env
 offset_
 )
 ;
@@ -8026,7 +8026,7 @@ space
 return
 newStub
 <
-ICGetName_Scope
+ICGetName_Env
 >
 (
 space

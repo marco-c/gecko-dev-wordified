@@ -423,7 +423,7 @@ method_
 (
 nullptr
 )
-templateScope_
+templateEnv_
 (
 nullptr
 )
@@ -1049,7 +1049,7 @@ data
 calleeToken
 data
 .
-scopeChain
+envChain
 .
 get
 (
@@ -1618,7 +1618,7 @@ this
 |
 data
 .
-scopeChain
+envChain
 =
 nullptr
 ;
@@ -1679,12 +1679,12 @@ address
 ;
 data
 .
-scopeChain
+envChain
 =
 fp
 -
 >
-scopeChain
+environmentChain
 (
 )
 ;
@@ -3030,13 +3030,13 @@ TraceNullableEdge
 (
 trc
 &
-templateScope_
+templateEnv_
 "
 baseline
 -
 template
 -
-scope
+environment
 "
 )
 ;

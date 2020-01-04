@@ -1723,6 +1723,14 @@ shape
 )
 ;
 void
+eagerlyMarkChildren
+(
+Scope
+*
+scope
+)
+;
+void
 lazilyMarkChildren
 (
 ObjectGroup

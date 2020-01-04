@@ -1113,6 +1113,15 @@ PHASE_SWEEP
 35
 }
 {
+PHASE_SWEEP_SCOPE
+"
+Sweep
+Scope
+"
+PHASE_SWEEP
+59
+}
+{
 PHASE_SWEEP_SHAPE
 "
 Sweep
@@ -1335,7 +1344,7 @@ PHASE_MARK_ROOTS
 PHASE_LIMIT
 nullptr
 PHASE_NO_PARENT
-58
+59
 }
 /
 /
@@ -1344,7 +1353,7 @@ number
 of
 telemetryBuckets
 is
-58
+59
 .
 If
 you

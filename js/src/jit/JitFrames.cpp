@@ -3099,9 +3099,9 @@ const
 JitFrameIterator
 &
 frame
-ScopeIter
+EnvironmentIter
 &
-si
+ei
 ResumeFromException
 *
 rfe
@@ -3130,7 +3130,7 @@ script
 /
 /
 Unwind
-scope
+environment
 chain
 (
 pop
@@ -3147,11 +3147,11 @@ isExceptionPending
 (
 )
 )
-UnwindScope
+UnwindEnvironment
 (
 cx
-si
-UnwindScopeToTryPc
+ei
+UnwindEnvironmentToTryPc
 (
 script
 tn
@@ -3413,7 +3413,7 @@ updated
 to
 where
 the
-scopes
+envs
 have
 been
 unwound
@@ -3540,9 +3540,9 @@ const
 JitFrameIterator
 &
 frame
-ScopeIter
+EnvironmentIter
 &
-si
+ei
 ResumeFromException
 *
 rfe
@@ -3659,7 +3659,7 @@ SettleOnTryNote
 cx
 tn
 frame
-si
+ei
 rfe
 pc
 )
@@ -3769,7 +3769,7 @@ SettleOnTryNote
 cx
 tn
 frame
-si
+ei
 rfe
 pc
 )
@@ -3935,7 +3935,7 @@ SettleOnTryNote
 cx
 tn
 frame
-si
+ei
 rfe
 pc
 )
@@ -4268,8 +4268,8 @@ hasTrynotes
 )
 )
 {
-ScopeIter
-si
+EnvironmentIter
+ei
 (
 cx
 frame
@@ -4287,7 +4287,7 @@ ProcessTryNotesBaseline
 (
 cx
 frame
-si
+ei
 rfe
 &
 pc
@@ -15640,10 +15640,10 @@ JSObject
 InlineFrameIterator
 :
 :
-computeScopeChain
+computeEnvironmentChain
 (
 Value
-scopeChainValue
+envChainValue
 MaybeReadFallback
 &
 fallback
@@ -15655,7 +15655,7 @@ const
 {
 if
 (
-scopeChainValue
+envChainValue
 .
 isObject
 (
@@ -15683,7 +15683,7 @@ fallback
 .
 maybeCx
 &
-scopeChainValue
+envChainValue
 .
 toObject
 (
@@ -15753,7 +15753,7 @@ needsCallObject
 }
 return
 &
-scopeChainValue
+envChainValue
 .
 toObject
 (
@@ -15789,7 +15789,7 @@ function
 prologue
 before
 the
-scope
+env
 /
 /
 chain
@@ -15835,7 +15835,7 @@ the
 global
 on
 their
-scope
+env
 chain
 .
 MOZ_ASSERT
@@ -15875,7 +15875,7 @@ global
 (
 )
 .
-lexicalScope
+lexicalEnvironment
 (
 )
 ;
@@ -17292,7 +17292,7 @@ fprintf
 (
 stderr
 "
-scope
+env
 chain
 :
 "

@@ -401,15 +401,6 @@ include
 "
 vm
 /
-ScopeObject
-.
-h
-"
-#
-include
-"
-vm
-/
 StringBuffer
 .
 h

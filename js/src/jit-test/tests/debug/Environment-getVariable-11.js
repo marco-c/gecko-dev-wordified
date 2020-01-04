@@ -58,8 +58,6 @@ environment
 .
 parent
 .
-parent
-.
 getVariable
 (
 '

@@ -17739,7 +17739,7 @@ the
 nearest
 enclosing
 with
-scope
+environment
 object
 for
 a
@@ -17747,8 +17747,8 @@ given
 function
 .
 If
-the
 *
+the
 function
 is
 not
@@ -17762,8 +17762,8 @@ a
 with
 scope
 returns
-the
 *
+the
 global
 .
 *
@@ -17774,7 +17774,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-GetNearestEnclosingWithScopeObjectForFunction
+GetNearestEnclosingWithEnvironmentObjectForFunction
 (
 JSFunction
 *
@@ -17961,7 +17961,7 @@ WindowProxy
 *
 *
 The
-scope
+environment
 chain
 on
 the

@@ -664,10 +664,6 @@ false
 )
 #
 endif
-activeCompilations
-(
-0
-)
 {
 }
 PerThreadData
@@ -1125,10 +1121,6 @@ numGrouping
 )
 #
 endif
-activeCompilations_
-(
-0
-)
 keepAtoms_
 (
 0

@@ -237,7 +237,7 @@ include
 "
 vm
 /
-ScopeObject
+EnvironmentObject
 .
 h
 "

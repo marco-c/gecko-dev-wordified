@@ -2288,7 +2288,7 @@ this
 GCHashSet
 /
 /
-specializeation
+specialization
 in
 lieu
 of

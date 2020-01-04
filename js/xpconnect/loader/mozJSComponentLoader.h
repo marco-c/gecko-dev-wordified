@@ -581,7 +581,7 @@ obj
 ;
 if
 (
-JS_HasExtensibleLexicalScope
+JS_HasExtensibleLexicalEnvironment
 (
 obj
 )
@@ -590,7 +590,7 @@ obj
 JS_SetAllNonReservedSlotsToUndefined
 (
 cx
-JS_ExtensibleLexicalScope
+JS_ExtensibleLexicalEnvironment
 (
 obj
 )

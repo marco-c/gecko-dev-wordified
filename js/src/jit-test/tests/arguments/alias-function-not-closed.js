@@ -291,10 +291,14 @@ a
 )
 /
 /
-function
-declaration
-before
-body
+eval
+in
+defaults
+exprs
+get
+own
+var
+envs
 d
 =
 eval
@@ -319,7 +323,7 @@ assertEq
 a
 (
 )
-72
+62
 )
 )
 )

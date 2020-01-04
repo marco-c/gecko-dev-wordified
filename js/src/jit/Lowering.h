@@ -587,9 +587,9 @@ ins
 )
 ;
 void
-visitNewDeclEnvObject
+visitNewNamedLambdaObject
 (
-MNewDeclEnvObject
+MNewNamedLambdaObject
 *
 ins
 )
@@ -1203,9 +1203,9 @@ value
 )
 ;
 void
-visitOsrScopeChain
+visitOsrEnvironmentChain
 (
-MOsrScopeChain
+MOsrEnvironmentChain
 *
 object
 )

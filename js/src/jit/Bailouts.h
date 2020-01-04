@@ -1230,7 +1230,7 @@ activation_
 ;
 MOZ_MUST_USE
 bool
-EnsureHasScopeObjects
+EnsureHasEnvironmentObjects
 (
 JSContext
 *

@@ -183,7 +183,7 @@ x
 }
 )
 ;
-expectError
+eval
 (
 for
 (
@@ -206,11 +206,6 @@ x
 }
 )
 ;
-/
-/
-XXX
-bug
-449811
 eval
 (
 for
@@ -232,7 +227,7 @@ x
 }
 )
 ;
-expectError
+eval
 (
 for
 (
@@ -253,11 +248,6 @@ x
 }
 )
 ;
-/
-/
-XXX
-bug
-449811
 eval
 (
 for
@@ -337,7 +327,7 @@ of
 }
 )
 ;
-expectError
+eval
 (
 for
 (
@@ -358,11 +348,6 @@ of
 }
 )
 ;
-/
-/
-XXX
-bug
-449811
 eval
 (
 try

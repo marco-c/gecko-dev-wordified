@@ -740,9 +740,9 @@ jsbytecode
 pc
 )
 ;
-DeclEnvObject
+LexicalEnvironmentObject
 *
-templateDeclEnvObject
+templateNamedLambdaObject
 (
 )
 ;

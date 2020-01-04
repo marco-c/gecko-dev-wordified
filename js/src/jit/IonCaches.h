@@ -4448,7 +4448,7 @@ IonCache
 protected
 :
 Register
-scopeChain_
+environmentChain_
 ;
 PropertyName
 *
@@ -4462,7 +4462,7 @@ public
 BindNameIC
 (
 Register
-scopeChain
+envChain
 PropertyName
 *
 name
@@ -4470,9 +4470,9 @@ Register
 output
 )
 :
-scopeChain_
+environmentChain_
 (
-scopeChain
+envChain
 )
 name_
 (
@@ -4489,13 +4489,13 @@ CACHE_HEADER
 BindName
 )
 Register
-scopeChainReg
+environmentChainReg
 (
 )
 const
 {
 return
-scopeChain_
+environmentChain_
 ;
 }
 HandlePropertyName
@@ -4538,7 +4538,7 @@ IonScript
 *
 ion
 HandleObject
-scopeChain
+envChain
 )
 ;
 MOZ_MUST_USE
@@ -4554,7 +4554,7 @@ IonScript
 *
 ion
 HandleObject
-scopeChain
+envChain
 HandleObject
 holder
 )
@@ -4572,7 +4572,7 @@ outerScript
 size_t
 cacheIndex
 HandleObject
-scopeChain
+envChain
 )
 ;
 }
@@ -4618,7 +4618,7 @@ bool
 typeOf_
 ;
 Register
-scopeChain_
+environmentChain_
 ;
 PropertyName
 *
@@ -4636,7 +4636,7 @@ liveRegs
 bool
 typeOf
 Register
-scopeChain
+envChain
 PropertyName
 *
 name
@@ -4652,9 +4652,9 @@ typeOf_
 (
 typeOf
 )
-scopeChain_
+environmentChain_
 (
-scopeChain
+envChain
 )
 name_
 (
@@ -4671,13 +4671,13 @@ CACHE_HEADER
 Name
 )
 Register
-scopeChainReg
+environmentChainReg
 (
 )
 const
 {
 return
-scopeChain_
+environmentChain_
 ;
 }
 HandlePropertyName
@@ -4730,7 +4730,7 @@ IonScript
 *
 ion
 HandleObject
-scopeChain
+envChain
 HandleObject
 holderBase
 HandleNativeObject
@@ -4752,7 +4752,7 @@ IonScript
 *
 ion
 HandleObject
-scopeChain
+envChain
 HandleObject
 obj
 HandleObject
@@ -4777,7 +4777,7 @@ IonScript
 *
 ion
 HandleObject
-scopeChain
+envChain
 )
 ;
 static
@@ -4793,7 +4793,7 @@ outerScript
 size_t
 cacheIndex
 HandleObject
-scopeChain
+envChain
 MutableHandleValue
 vp
 )

@@ -451,7 +451,7 @@ include
 "
 vm
 /
-NativeObject
+EnvironmentObject
 -
 inl
 .
@@ -462,7 +462,7 @@ include
 "
 vm
 /
-ScopeObject
+NativeObject
 -
 inl
 .
@@ -18762,7 +18762,7 @@ varObj
 lexicalScope
 -
 >
-enclosingScope
+enclosingEnvironment
 (
 )
 ;

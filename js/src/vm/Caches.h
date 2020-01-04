@@ -314,7 +314,7 @@ purge
 /
 *
 *
-ScopeCoordinateName
+EnvironmentCoordinateName
 cache
 to
 avoid
@@ -340,7 +340,7 @@ operation
 *
 /
 struct
-ScopeCoordinateNameCache
+EnvironmentCoordinateNameCache
 {
 typedef
 HashMap
@@ -362,7 +362,7 @@ shape
 Map
 map
 ;
-ScopeCoordinateNameCache
+EnvironmentCoordinateNameCache
 (
 )
 :
@@ -1842,8 +1842,8 @@ gsnCache
 js
 :
 :
-ScopeCoordinateNameCache
-scopeCoordinateNameCache
+EnvironmentCoordinateNameCache
+envCoordinateNameCache
 ;
 js
 :

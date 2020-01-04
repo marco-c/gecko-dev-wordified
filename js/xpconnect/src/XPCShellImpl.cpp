@@ -9567,7 +9567,7 @@ glob
 JS_SetAllNonReservedSlotsToUndefined
 (
 cx
-JS_GlobalLexicalScope
+JS_GlobalLexicalEnvironment
 (
 glob
 )

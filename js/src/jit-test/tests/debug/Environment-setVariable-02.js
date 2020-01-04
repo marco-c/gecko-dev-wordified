@@ -49,8 +49,6 @@ environment
 .
 parent
 .
-parent
-.
 setVariable
 (
 "

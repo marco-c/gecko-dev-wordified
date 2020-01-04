@@ -1563,10 +1563,9 @@ implemented
 by
 *
 CallObject
-ClonedBlockObject
-DynamicWithObject
+LexicalEnvironmentObject
 and
-DeclEnvObject
+WithEnvironmentObject
 among
 *
 others
