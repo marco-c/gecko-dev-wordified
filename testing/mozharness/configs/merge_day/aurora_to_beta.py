@@ -45,26 +45,6 @@ txt
 "
         
 "
-mobile
-/
-android
-/
-confvars
-.
-sh
-"
-#
-TODO
-:
-remove
-this
-line
-before
-gecko
-43
-merge
-        
-"
 b2g
 /
 confvars
