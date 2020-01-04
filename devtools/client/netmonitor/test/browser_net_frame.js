@@ -812,10 +812,10 @@ one
 request
 .
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor

@@ -58,9 +58,9 @@ function
 )
 {
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor
@@ -1292,9 +1292,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1305,6 +1303,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 /
 /
@@ -1327,10 +1327,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1340,7 +1337,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 /
 /
@@ -1425,9 +1424,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1438,6 +1435,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 /
 /
@@ -1460,10 +1459,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1473,7 +1469,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 /
 /
@@ -1558,9 +1556,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1571,6 +1567,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 /
 /
@@ -1593,10 +1591,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1606,7 +1601,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 /
 /

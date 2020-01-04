@@ -316,9 +316,9 @@ bogus
 )
 ;
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor

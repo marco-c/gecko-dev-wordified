@@ -71,10 +71,10 @@ actuallyThrottle
 )
 {
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor

@@ -55,9 +55,9 @@ function
 )
 {
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor

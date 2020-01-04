@@ -64,10 +64,10 @@ function
 )
 {
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor

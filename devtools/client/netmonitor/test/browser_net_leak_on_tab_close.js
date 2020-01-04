@@ -102,9 +102,9 @@ are
 none
 .
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor

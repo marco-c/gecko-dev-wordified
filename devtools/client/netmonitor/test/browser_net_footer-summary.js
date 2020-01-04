@@ -93,10 +93,10 @@ jsm
 )
 ;
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor
