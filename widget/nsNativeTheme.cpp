@@ -2305,6 +2305,11 @@ eCaseMatters
 )
 ;
 }
+/
+*
+static
+*
+/
 bool
 nsNativeTheme
 :

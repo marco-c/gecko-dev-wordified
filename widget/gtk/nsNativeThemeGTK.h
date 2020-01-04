@@ -367,6 +367,14 @@ nsNativeThemeGTK
 ;
 private
 :
+GtkTextDirection
+GetTextDirection
+(
+nsIFrame
+*
+aFrame
+)
+;
 gint
 GetTabMarginPixels
 (

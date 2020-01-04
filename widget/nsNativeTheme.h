@@ -342,6 +342,7 @@ aEventStates
 RTL
 chrome
 direction
+static
 bool
 IsFrameRTL
 (
