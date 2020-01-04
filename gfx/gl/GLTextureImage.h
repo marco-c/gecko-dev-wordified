@@ -138,13 +138,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -1273,7 +1266,10 @@ mWrapMode
 void
 SetFilter
 (
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 )
 {
@@ -1408,7 +1404,10 @@ gfx
 SurfaceFormat
 mTextureFormat
 ;
-GraphicsFilter
+gfx
+:
+:
+Filter
 mFilter
 ;
 Flags

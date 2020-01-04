@@ -1391,7 +1391,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -1450,7 +1450,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -4712,10 +4712,10 @@ Create
 aSize
 )
 aWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 Nothing
 (
 )
@@ -4880,7 +4880,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -5006,7 +5006,7 @@ imageRect
 ImageRegion
 region
 ;
-GraphicsFilter
+Filter
 filter
 ;
 const
@@ -5142,7 +5142,7 @@ uint32_t
 aWhichFrame
 *
 in
-gfxGraphicsFilter
+Filter
 aFilter
 *
 [
@@ -5181,7 +5181,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -5803,10 +5803,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 aParams
 .
 flags
@@ -8381,7 +8381,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags

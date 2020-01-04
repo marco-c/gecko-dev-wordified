@@ -476,13 +476,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 nsInlineFrame
 .
 h
@@ -34718,7 +34711,7 @@ DrawResult
 SUCCESS
 ;
 }
-GraphicsFilter
+Filter
 filter
 =
 nsLayoutUtils
@@ -36181,8 +36174,8 @@ srcRect
 )
 ;
 }
-GraphicsFilter
-graphicsFilter
+Filter
+filter
 =
 nsLayoutUtils
 :
@@ -36217,7 +36210,7 @@ ThebesContext
 )
 aPresContext
 subImage
-graphicsFilter
+filter
 aFill
 aDirtyRect
 nullptr
@@ -36254,7 +36247,7 @@ ThebesContext
 )
 aPresContext
 subImage
-graphicsFilter
+filter
 tile
 aFill
 tile

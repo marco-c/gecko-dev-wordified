@@ -1837,7 +1837,10 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 uint32_t
 aFlags

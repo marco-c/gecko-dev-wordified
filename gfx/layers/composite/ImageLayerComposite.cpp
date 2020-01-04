@@ -973,13 +973,7 @@ GetEffectFilter
 )
 {
 return
-gfx
-:
-:
-ToFilter
-(
 mFilter
-)
 ;
 }
 void

@@ -1209,13 +1209,6 @@ QueueEvents
 (
 )
 ;
-bool
-HasEndEventToQueue
-(
-)
-const
-override
-;
 /
 /
 The

@@ -158,17 +158,6 @@ ParentLayerIntRect
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-/
-/
-for
-GraphicsFilter
-#
-include
-"
 gfxRect
 .
 h
@@ -2845,7 +2834,7 @@ ImageHost
 >
 mImageHost
 ;
-GraphicsFilter
+Filter
 mFilter
 ;
 gfx

@@ -8786,7 +8786,7 @@ packed
 =
 in
 .
-ToARGB
+UnusualToARGB
 (
 )
 ;
@@ -8829,7 +8829,7 @@ out
 Color
 :
 :
-FromARGB
+UnusualFromARGB
 (
 packed
 )

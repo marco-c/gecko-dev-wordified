@@ -1243,7 +1243,7 @@ mCheckGeneration
 (
 0
 )
-mNeedsRefreshes
+mStyleChanging
 (
 true
 )
@@ -2550,7 +2550,7 @@ style
 change
 .
 bool
-mNeedsRefreshes
+mStyleChanging
 ;
 private
 :

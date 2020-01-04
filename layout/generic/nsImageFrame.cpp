@@ -4793,7 +4793,7 @@ imgIContainer
 :
 FLAG_ASYNC_NOTIFY
 ;
-GraphicsFilter
+Filter
 filter
 =
 nsLayoutUtils

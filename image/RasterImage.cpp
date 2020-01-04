@@ -8920,7 +8920,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags
@@ -9227,7 +9227,7 @@ gfxContext
 aContext
 *
 in
-gfxGraphicsFilter
+Filter
 aFilter
 *
 [
@@ -9298,7 +9298,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -9440,10 +9440,10 @@ we
 re
 not
 using
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 we
 shouldn
 '
@@ -9451,10 +9451,10 @@ t
 high
 -
 quality
-/
-/
 scale
 or
+/
+/
 downscale
 during
 decode
@@ -9465,10 +9465,10 @@ flags
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 ?
 aFlags
 :
@@ -11458,7 +11458,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags
@@ -11555,10 +11555,10 @@ if
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 &
 &
 CanDownscaleDuringDecode
