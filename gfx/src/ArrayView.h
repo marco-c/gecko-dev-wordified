@@ -119,6 +119,7 @@ ArrayView
 {
 public
 :
+MOZ_IMPLICIT
 ArrayView
 (
 const
