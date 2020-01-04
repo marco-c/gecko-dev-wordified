@@ -8030,12 +8030,6 @@ if
 Versions
 .
 preMarshmallow
-|
-|
-!
-AppConstants
-.
-NIGHTLY_BUILD
 )
 {
 mTextSelection

@@ -1600,13 +1600,6 @@ js
 ]
 ]
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 lazilyLoadedObserverScripts
 .
 push
@@ -1648,7 +1641,6 @@ js
 ]
 )
 ;
-}
 if
 (
 AppConstants
@@ -5098,13 +5090,6 @@ events
 to
 ActionBarHandler
 .
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 window
 .
 addEventListener
@@ -5140,7 +5125,6 @@ wantsUntrusted
 false
 )
 ;
-}
 }
 get
 _startupStatus
