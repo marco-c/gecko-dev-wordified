@@ -9896,14 +9896,6 @@ HTMLMediaElement
 }
 {
 "
-nsIDOMMediaError
-"
-"
-MediaError
-"
-}
-{
-"
 nsIDOMOfflineResourceList
 "
 "

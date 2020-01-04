@@ -123,13 +123,6 @@ mozilla_dom_mediakeys_h__
 #
 include
 "
-nsIDOMMediaError
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
