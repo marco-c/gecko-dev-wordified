@@ -9260,7 +9260,6 @@ return
 nullptr
 ;
 }
-virtual
 gfxFloat
 GetAdjustedSize
 (
