@@ -16825,14 +16825,8 @@ links
 "
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 /
 /
-if
-true
-it
 activates
 the
 remote
@@ -16852,8 +16846,6 @@ remote
 false
 )
 ;
-#
-endif
 /
 /
 Enable
