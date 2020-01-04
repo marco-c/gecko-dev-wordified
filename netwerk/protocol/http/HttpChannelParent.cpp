@@ -1244,9 +1244,7 @@ nsIURI
 *
 aURI
 bool
-aIsNavigate
-nsContentPolicyType
-aType
+aIsNonSubresourceRequest
 bool
 *
 aShouldIntercept
