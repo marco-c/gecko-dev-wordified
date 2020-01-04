@@ -315,11 +315,11 @@ errorMessage
 /
 Unknown
 property
-'
+.
 user
 -
 select
-'
+.
 /
 i
 }
