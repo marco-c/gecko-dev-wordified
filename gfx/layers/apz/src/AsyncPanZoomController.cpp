@@ -20352,6 +20352,7 @@ aFrameMetrics
 .
 SetUseDisplayPortMargins
 (
+true
 )
 ;
 /
@@ -25037,6 +25038,7 @@ endZoomToMetrics
 .
 SetUseDisplayPortMargins
 (
+true
 )
 ;
 StartAnimation

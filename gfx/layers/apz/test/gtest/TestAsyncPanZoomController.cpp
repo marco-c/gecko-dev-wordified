@@ -14664,6 +14664,7 @@ metrics
 .
 SetAllowVerticalScrollWithWheel
 (
+true
 )
 ;
 aLayer
