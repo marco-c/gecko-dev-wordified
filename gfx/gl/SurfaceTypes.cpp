@@ -108,7 +108,7 @@ mozilla
 /
 layers
 /
-ISurfaceAllocator
+TextureForwarder
 .
 h
 "

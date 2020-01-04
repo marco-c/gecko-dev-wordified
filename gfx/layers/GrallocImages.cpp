@@ -487,7 +487,7 @@ false
 }
 RefPtr
 <
-ClientIPCAllocator
+LayersIPCChannel
 >
 allocator
 =
@@ -3166,7 +3166,7 @@ GrallocImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

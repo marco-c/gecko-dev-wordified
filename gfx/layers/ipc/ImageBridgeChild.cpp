@@ -1895,7 +1895,7 @@ client
 ;
 RefPtr
 <
-ClientIPCAllocator
+LayersIPCChannel
 >
 allocator
 =
@@ -1911,11 +1911,6 @@ client
 nullptr
 ;
 allocator
--
->
-AsClientAllocator
-(
-)
 -
 >
 GetMessageLoop

@@ -2449,7 +2449,7 @@ BUFFER_NEEDS_REALLOCATION
 {
 RefPtr
 <
-ClientIPCAllocator
+LayersIPCChannel
 >
 allocator
 =

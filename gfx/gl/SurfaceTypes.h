@@ -132,7 +132,7 @@ namespace
 layers
 {
 class
-ISurfaceAllocator
+LayersIPCChannel
 ;
 }
 /
@@ -193,7 +193,7 @@ RefPtr
 layers
 :
 :
-ISurfaceAllocator
+LayersIPCChannel
 >
 surfaceAllocator
 ;
