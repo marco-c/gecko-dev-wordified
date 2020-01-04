@@ -1639,10 +1639,6 @@ nsGkAtoms
 :
 :
 tspan
-nsGkAtoms
-:
-:
-altGlyph
 )
 )
 {
