@@ -288,9 +288,7 @@ window
 :
 toolbox
 .
-doc
-.
-defaultView
+win
 }
 )
 ;
