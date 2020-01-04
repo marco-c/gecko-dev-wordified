@@ -2373,6 +2373,10 @@ SurfaceMode
 :
 SURFACE_OPAQUE
 )
+mWasLastPaintProgressive
+(
+false
+)
 {
 }
 virtual
@@ -2399,6 +2403,10 @@ aCallback
 void
 *
 aCallbackData
+bool
+aIsProgressive
+=
+false
 )
 =
 0
@@ -2557,6 +2565,9 @@ mLastPaintSurfaceMode
 CSSToParentLayerScale2D
 mFrameResolution
 ;
+bool
+mWasLastPaintProgressive
+;
 }
 ;
 class
@@ -2674,6 +2685,10 @@ aCallback
 void
 *
 aCallbackData
+bool
+aIsProgressive
+=
+false
 )
 override
 ;

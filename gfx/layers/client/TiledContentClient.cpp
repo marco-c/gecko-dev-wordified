@@ -5515,6 +5515,7 @@ xScale
 mFrameResolution
 .
 yScale
+mWasLastPaintProgressive
 )
 ;
 }
@@ -5544,6 +5545,8 @@ aCallback
 void
 *
 aCallbackData
+bool
+aIsProgressive
 )
 {
 TILING_LOG
@@ -5606,6 +5609,10 @@ aCallback
 mCallbackData
 =
 aCallbackData
+;
+mWasLastPaintProgressive
+=
+aIsProgressive
 ;
 #
 ifdef
@@ -11230,6 +11237,7 @@ regionToPaint
 aInvalidRegion
 aCallback
 aCallbackData
+true
 )
 ;
 aInvalidRegion
