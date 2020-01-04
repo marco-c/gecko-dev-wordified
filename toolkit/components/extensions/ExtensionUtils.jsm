@@ -3950,7 +3950,7 @@ either
 an
 /
 /
-ExtensionPage
+ExtensionContext
 in
 the
 chrome

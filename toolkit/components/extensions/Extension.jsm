@@ -1289,7 +1289,7 @@ scriptScope
 this
 ;
 var
-ExtensionPage
+ExtensionContext
 GlobalManager
 ;
 /
@@ -1474,9 +1474,9 @@ this
 global
 :
 scriptScope
-ExtensionPage
+ExtensionContext
 :
-ExtensionPage
+ExtensionContext
 GlobalManager
 :
 GlobalManager
@@ -2128,7 +2128,7 @@ default
 false
 )
 .
-ExtensionPage
+ExtensionContext
 =
 class
 extends
@@ -2619,7 +2619,7 @@ where
 context
 is
 an
-ExtensionPage
+ExtensionContext
 .
 docShells
 :
@@ -3659,7 +3659,7 @@ let
 context
 =
 new
-ExtensionPage
+ExtensionContext
 (
 extension
 {

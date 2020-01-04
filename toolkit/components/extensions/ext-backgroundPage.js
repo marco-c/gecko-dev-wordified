@@ -445,7 +445,7 @@ this
 context
 =
 new
-ExtensionPage
+ExtensionContext
 (
 this
 .
