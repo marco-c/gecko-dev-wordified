@@ -285,9 +285,8 @@ assertTrue
 (
 /
 ^
+Illegal
 URL
-not
-allowed
 /
 .
 test
