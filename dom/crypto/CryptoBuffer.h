@@ -252,11 +252,13 @@ JSObject
 *
 )
 void
-GetLengthAndData
+GetLengthAndDataAndSharedness
 (
 JSObject
 *
 uint32_t
+*
+bool
 *
 T
 *
@@ -272,7 +274,7 @@ TypedArray_base
 <
 T
 UnwrapArray
-GetLengthAndData
+GetLengthAndDataAndSharedness
 >
 &
 aArray
