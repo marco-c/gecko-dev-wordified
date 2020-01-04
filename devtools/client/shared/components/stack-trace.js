@@ -280,10 +280,6 @@ frames
 .
 push
 (
-"
-\
-t
-"
 AsyncFrame
 (
 {
@@ -294,10 +290,6 @@ s
 asyncCause
 }
 )
-"
-\
-n
-"
 )
 ;
 }
@@ -305,10 +297,6 @@ frames
 .
 push
 (
-"
-\
-t
-"
 Frame
 (
 {
@@ -362,10 +350,6 @@ onClick
 onViewSourceInDebugger
 }
 )
-"
-\
-n
-"
 )
 ;
 }
