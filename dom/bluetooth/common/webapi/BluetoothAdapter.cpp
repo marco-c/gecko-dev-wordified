@@ -6078,6 +6078,14 @@ IsBluetoothCertifiedApp
 (
 )
 {
+NS_ENSURE_TRUE
+(
+GetOwner
+(
+)
+false
+)
+;
 /
 /
 Retrieve
