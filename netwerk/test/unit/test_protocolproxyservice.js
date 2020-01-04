@@ -6109,6 +6109,8 @@ isResolvable
 nonexistant
 .
 lan
+.
+onion
 "
 )
 )
