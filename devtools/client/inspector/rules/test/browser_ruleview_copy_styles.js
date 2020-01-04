@@ -745,7 +745,9 @@ client
 "
 +
 "
-styleinspector
+inspector
+/
+rules
 /
 test
 /

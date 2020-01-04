@@ -277,7 +277,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+rules
 /
 test
 /
@@ -301,7 +303,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+rules
 /
 test
 /
