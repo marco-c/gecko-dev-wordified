@@ -821,6 +821,13 @@ typedef
 mozilla
 :
 :
+LayoutDeviceIntPoint
+LayoutDeviceIntPoint
+;
+typedef
+mozilla
+:
+:
 LayoutDeviceIntRect
 LayoutDeviceIntRect
 ;
@@ -945,7 +952,7 @@ aBackingScale
 ;
 }
 static
-nsIntPoint
+LayoutDeviceIntPoint
 CocoaPointsToDevPixels
 (
 const
@@ -957,7 +964,7 @@ aBackingScale
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 NSToIntRound
 (
