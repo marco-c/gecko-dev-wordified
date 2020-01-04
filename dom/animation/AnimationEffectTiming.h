@@ -207,6 +207,15 @@ mEffect
 nullptr
 ;
 }
+void
+SetDuration
+(
+const
+UnrestrictedDoubleOrString
+&
+aDuration
+)
+;
 private
 :
 KeyframeEffect
