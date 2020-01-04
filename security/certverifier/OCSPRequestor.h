@@ -145,10 +145,6 @@ psm
 The
 memory
 returned
-via
-|
-encodedResponse
-|
 is
 owned
 by
@@ -156,7 +152,8 @@ the
 given
 arena
 .
-Result
+SECItem
+*
 DoOCSPRequest
 (
 PLArenaPool
@@ -174,15 +171,6 @@ PRIntervalTime
 timeout
 bool
 useGET
-/
-*
-out
-*
-/
-SECItem
-*
-&
-encodedResponse
 )
 ;
 }
