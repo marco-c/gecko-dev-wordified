@@ -843,7 +843,7 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 bool
 *
@@ -1454,6 +1454,17 @@ Tables
 :
 :
 yes
+)
+;
+already_AddRefed
+<
+nsIDOMNode
+>
+IsInListItem
+(
+nsIDOMNode
+*
+aNode
 )
 ;
 mozilla
