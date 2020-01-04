@@ -10802,6 +10802,9 @@ height
 .
 boxBSize
 =
+nsLayoutUtils
+:
+:
 ComputeBSizeValue
 (
 blockContentSize
