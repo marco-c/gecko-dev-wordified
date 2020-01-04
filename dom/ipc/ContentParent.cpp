@@ -17493,6 +17493,7 @@ settings
 bool
 isOffline
 isLangRTL
+haveBidiKeyboards
 ;
 bool
 isConnected
@@ -17520,6 +17521,8 @@ isOffline
 isConnected
 &
 isLangRTL
+&
+haveBidiKeyboards
 &
 unusedDictionaries
 &
