@@ -219,7 +219,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsArray
 .
 h
 "

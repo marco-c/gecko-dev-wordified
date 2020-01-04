@@ -207,7 +207,7 @@ class
 nsDocShellEditorData
 ;
 class
-nsISupportsArray
+nsIMutableArray
 ;
 /
 /
@@ -527,7 +527,7 @@ mViewerBounds
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mRefreshURIList
 ;

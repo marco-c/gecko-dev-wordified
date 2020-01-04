@@ -562,6 +562,9 @@ class
 nsIHttpChannel
 ;
 class
+nsIMutableArray
+;
+class
 nsIPrompt
 ;
 class
@@ -572,9 +575,6 @@ nsISecureBrowserUI
 ;
 class
 nsIStringBundle
-;
-class
-nsISupportsArray
 ;
 class
 nsIURIFixup
@@ -4768,13 +4768,13 @@ doc
 loads
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mRefreshURIList
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mSavedRefreshURIList
 ;
