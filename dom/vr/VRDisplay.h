@@ -556,16 +556,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 VRPose
 )
-double
-Timestamp
-(
-)
-const
-{
-return
-mTimeStamp
-;
-}
 uint32_t
 FrameID
 (
@@ -739,9 +729,6 @@ nsCOMPtr
 nsISupports
 >
 mParent
-;
-double
-mTimeStamp
 ;
 uint32_t
 mFrameId
