@@ -365,10 +365,10 @@ defined
 _WIN64
 )
 const
-Operand
+Address
 token
 =
-Operand
+Address
 (
 rbp
 16
