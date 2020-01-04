@@ -9874,6 +9874,10 @@ mIsDormant
 =
 %
 d
+mdsm
+=
+%
+p
 "
 mInfo
 ?
@@ -9919,6 +9923,9 @@ PlayStateStr
 (
 )
 mIsDormant
+GetStateMachine
+(
+)
 )
 ;
 nsString
@@ -9929,6 +9936,16 @@ GetMozDebugReaderData
 str
 )
 ;
+if
+(
+!
+str
+.
+IsEmpty
+(
+)
+)
+{
 DUMP_LOG
 (
 "
@@ -9950,6 +9967,7 @@ get
 )
 )
 ;
+}
 if
 (
 GetStateMachine
