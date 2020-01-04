@@ -57,6 +57,7 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_b2g
 from
 marionette_driver
 .
@@ -655,6 +656,8 @@ key_reporter_value
 "
 "
 )
+    
+skip_if_b2g
     
 def
 test_open_in_new_window_shortcut

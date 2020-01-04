@@ -57,6 +57,7 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_b2g
 from
 marionette_driver
 .
@@ -264,6 +265,15 @@ marionette
 .
 title
 )
+    
+skip_if_b2g
+#
+we
+currently
+allow
+this
+in
+b2g
     
 def
 test_navigate_chrome_error
@@ -873,6 +883,8 @@ to
 Bug
 977899
     
+skip_if_b2g
+    
 def
 test_navigate_frame
 (
@@ -1102,6 +1114,21 @@ type
 e
 )
 )
+    
+skip_if_b2g
+#
+about
+:
+blocked
+isn
+'
+t
+a
+well
+formed
+uri
+on
+b2g
     
 def
 test_should_navigate_to_requested_about_page

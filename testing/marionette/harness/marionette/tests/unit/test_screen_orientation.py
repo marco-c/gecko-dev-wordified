@@ -61,6 +61,7 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_b2g
 skip_if_desktop
 from
 mozrunner
@@ -763,6 +764,8 @@ set_orientation
 (
 None
 )
+    
+skip_if_b2g
     
 def
 test_unsupported_operation_on_desktop
