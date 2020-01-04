@@ -221,6 +221,7 @@ already
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 OpenChannel
 (
