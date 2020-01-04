@@ -164,7 +164,14 @@ enable
 -
 oop
 "
-                
+            
+]
+            
+"
+tests
+"
+:
+[
 "
 %
 (
@@ -172,7 +179,6 @@ test_manifest
 )
 s
 "
-            
 ]
         
 }

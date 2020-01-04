@@ -921,7 +921,7 @@ runtests
 py
 "
         
-base_cmd
+cmd
 =
 [
 self
@@ -938,7 +938,7 @@ u
 '
 ]
         
-base_cmd
+cmd
 .
 append
 (
@@ -1002,7 +1002,7 @@ directory
 #
 Exit
         
-base_cmd
+cmd
 +
 =
 [
@@ -1015,7 +1015,7 @@ raw
 =
 -
 "
-                     
+                
 "
 -
 -
@@ -1039,14 +1039,14 @@ dirs
 abs_blob_upload_dir
 "
 ]
-                                                   
+                                              
 "
 wpt_raw
 .
 log
 "
 )
-                     
+                
 "
 -
 -
@@ -1059,7 +1059,7 @@ s
 self
 .
 binary_path
-                     
+                
 "
 -
 -
@@ -1076,7 +1076,7 @@ self
 query_symbols_url
 (
 )
-                     
+                
 "
 -
 -
@@ -1110,7 +1110,7 @@ test_type
 )
 :
             
-base_cmd
+cmd
 .
 append
 (
@@ -1139,7 +1139,7 @@ e10s
 )
 :
             
-base_cmd
+cmd
 .
 append
 (
@@ -1176,7 +1176,7 @@ if
 val
 :
                 
-base_cmd
+cmd
 .
 append
 (
@@ -1275,22 +1275,58 @@ abs_work_dir
             
 }
         
-opt_cmd
+try_options
+try_tests
 =
-[
-item
-%
-str_format_values
-for
-item
-in
+self
+.
+try_args
+(
+"
+web
+-
+platform
+-
+tests
+"
+)
+        
+cmd
+.
+extend
+(
+self
+.
+query_options
+(
 options
-]
+                                      
+try_options
+                                      
+str_format_values
+=
+str_format_values
+)
+)
+        
+cmd
+.
+extend
+(
+self
+.
+query_tests_args
+(
+try_tests
+                                         
+str_format_values
+=
+str_format_values
+)
+)
         
 return
-base_cmd
-+
-opt_cmd
+cmd
     
 def
 download_and_extract
@@ -1376,15 +1412,6 @@ self
 .
 _query_cmd
 (
-)
-        
-cmd
-=
-self
-.
-append_harness_extra_args
-(
-cmd
 )
         
 parser
