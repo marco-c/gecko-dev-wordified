@@ -169,8 +169,11 @@ TIME_PRECISION
 =
 0
 .
-000001
+0005
 ;
+/
+/
+ms
 /
 /
 Allow
