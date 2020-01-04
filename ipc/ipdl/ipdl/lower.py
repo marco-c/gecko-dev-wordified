@@ -2716,10 +2716,10 @@ arr2
 ]
 )
 def
-_callCxxArrayInsertSorted
+_callInsertManagedActor
 (
-arr
-elt
+managees
+actor
 )
 :
     
@@ -2728,7 +2728,7 @@ ExprCall
 (
 ExprSelect
 (
-arr
+managees
 '
 .
 '
@@ -2740,14 +2740,14 @@ InsertElementSorted
 args
 =
 [
-elt
+actor
 ]
 )
 def
-_callCxxArrayRemoveSorted
+_callRemoveManagedActor
 (
-arr
-elt
+managees
+actor
 )
 :
     
@@ -2756,7 +2756,7 @@ ExprCall
 (
 ExprSelect
 (
-arr
+managees
 '
 .
 '
@@ -2768,13 +2768,13 @@ RemoveElementSorted
 args
 =
 [
-elt
+actor
 ]
 )
 def
-_callCxxArrayClear
+_callClearManagedActors
 (
-arr
+managees
 )
 :
     
@@ -2783,7 +2783,7 @@ ExprCall
 (
 ExprSelect
 (
-arr
+managees
 '
 .
 '
@@ -2793,10 +2793,10 @@ Clear
 )
 )
 def
-_cxxArrayHasElementSorted
+_callHasManagedActor
 (
-arr
-elt
+managees
+actor
 )
 :
     
@@ -2806,7 +2806,7 @@ ExprBinary
         
 ExprSelect
 (
-arr
+managees
 '
 .
 '
@@ -2823,7 +2823,7 @@ ExprCall
 (
 ExprSelect
 (
-arr
+managees
 '
 .
 '
@@ -2834,7 +2834,7 @@ BinaryIndexOf
 args
 =
 [
-elt
+actor
 ]
 )
 )
@@ -28155,7 +28155,7 @@ foreachdealloc
                 
 StmtExpr
 (
-_callCxxArrayClear
+_callClearManagedActors
 (
 p
 .
@@ -32061,7 +32061,7 @@ ithkid
                 
 StmtExpr
 (
-_callCxxArrayInsertSorted
+_callInsertManagedActor
 (
 manageearray
 actorvar
@@ -32374,7 +32374,7 @@ static
 _abortIfFalse
 (
                         
-_cxxArrayHasElementSorted
+_callHasManagedActor
 (
 manageearray
 actorvar
@@ -32396,7 +32396,7 @@ NL
                     
 StmtExpr
 (
-_callCxxArrayRemoveSorted
+_callRemoveManagedActor
 (
 manageearray
 actorvar
@@ -39643,7 +39643,7 @@ channelForSubactor
             
 StmtExpr
 (
-_callCxxArrayInsertSorted
+_callInsertManagedActor
 (
                 
 self
