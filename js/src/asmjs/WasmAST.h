@@ -3132,7 +3132,7 @@ kind_
 AstRef
 funcSig_
 ;
-ResizableLimits
+Limits
 resizable_
 ;
 AstGlobal
@@ -3187,7 +3187,7 @@ AstName
 field
 DefinitionKind
 kind
-ResizableLimits
+Limits
 resizable
 )
 :
@@ -3311,7 +3311,7 @@ return
 funcSig_
 ;
 }
-ResizableLimits
+Limits
 resizable
 (
 )
@@ -3738,13 +3738,13 @@ funcImportNames_
 ;
 Maybe
 <
-ResizableLimits
+Limits
 >
 table_
 ;
 Maybe
 <
-ResizableLimits
+Limits
 >
 memory_
 ;
@@ -3837,7 +3837,7 @@ init
 bool
 setMemory
 (
-ResizableLimits
+Limits
 memory
 )
 {
@@ -3872,7 +3872,7 @@ memory_
 ;
 }
 const
-ResizableLimits
+Limits
 &
 memory
 (
@@ -3887,7 +3887,7 @@ memory_
 bool
 setTable
 (
-ResizableLimits
+Limits
 table
 )
 {
@@ -3922,7 +3922,7 @@ table_
 ;
 }
 const
-ResizableLimits
+Limits
 &
 table
 (

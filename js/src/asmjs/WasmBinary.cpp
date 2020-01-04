@@ -830,12 +830,12 @@ bool
 wasm
 :
 :
-DecodeResizable
+DecodeLimits
 (
 Decoder
 &
 d
-ResizableLimits
+Limits
 *
 limits
 )
