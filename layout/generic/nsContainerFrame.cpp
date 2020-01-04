@@ -2490,7 +2490,7 @@ Helper
 member
 functions
 static
-nsresult
+void
 ReparentFrameViewTo
 (
 nsIFrame
@@ -2554,7 +2554,6 @@ reparent
 it
 .
 return
-NS_OK
 ;
 }
 #
@@ -2765,9 +2764,6 @@ aOldParentView
 }
 }
 }
-return
-NS_OK
-;
 }
 void
 nsContainerFrame
@@ -3779,7 +3775,6 @@ reparent
 any
 child
 views
-return
 ReparentFrameViewTo
 (
 aChildFrame
