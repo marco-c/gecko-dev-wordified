@@ -274,7 +274,7 @@ pki
 .
 sha1_enforcement_level
 "
-3
+4
 )
 ;
 var

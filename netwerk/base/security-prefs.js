@@ -680,7 +680,7 @@ cpp
 .
 /
 /
-3
+4
 =
 allow
 SHA
@@ -706,7 +706,7 @@ pki
 .
 sha1_enforcement_level
 "
-3
+4
 )
 ;
 /
