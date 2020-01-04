@@ -318,8 +318,12 @@ class
 doReturn
 (
 "
+{
+content
+:
 [
 ]
+}
 "
 .
 getBytes
