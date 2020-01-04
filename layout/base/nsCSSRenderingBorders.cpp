@@ -168,6 +168,13 @@ h
 #
 include
 "
+BorderConsts
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
