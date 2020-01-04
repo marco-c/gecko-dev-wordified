@@ -746,7 +746,7 @@ append
 }
 /
 *
-widget
+java
 *
 /
 \
@@ -773,7 +773,7 @@ append
 }
 /
 *
-widget
+java
 *
 /
 \
@@ -817,7 +817,7 @@ append
 }
 /
 *
-widget
+java
 *
 /
 \

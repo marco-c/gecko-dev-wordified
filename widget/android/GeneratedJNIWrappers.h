@@ -36672,7 +36672,7 @@ Natives
 }
 /
 *
-widget
+java
 *
 /
 }
