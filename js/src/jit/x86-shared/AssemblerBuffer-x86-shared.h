@@ -1277,7 +1277,7 @@ PageProtectingVector
 unsigned
 char
 256
-SystemAllocPolicy
+ProtectedSystemAllocPolicy
 >
 m_buffer
 ;
