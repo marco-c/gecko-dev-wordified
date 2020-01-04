@@ -70,6 +70,13 @@ jni
 h
 >
 #
+include
+<
+pthread
+.
+h
+>
+#
 ifndef
 NS_EXPORT
 #
@@ -123,6 +130,12 @@ const
 char
 *
 msg
+)
+;
+NS_EXPORT
+pthread_t
+getJavaUiThread
+(
 )
 ;
 static
