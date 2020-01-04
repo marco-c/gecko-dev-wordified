@@ -1850,14 +1850,14 @@ colon
 /
 Build
 the
-OriginAttributes
+NeckoOriginAttributes
 object
 of
 it
 .
 .
 .
-OriginAttributes
+NeckoOriginAttributes
 oa
 ;
 DebugOnly

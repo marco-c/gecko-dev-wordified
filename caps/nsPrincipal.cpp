@@ -522,7 +522,7 @@ nsIURI
 *
 aCodebase
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 )
@@ -2266,7 +2266,7 @@ rv
 rv
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 bool

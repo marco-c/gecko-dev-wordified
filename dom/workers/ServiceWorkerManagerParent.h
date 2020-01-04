@@ -135,7 +135,7 @@ namespace
 mozilla
 {
 class
-OriginAttributes
+PrincipalOriginAttributes
 ;
 namespace
 ipc
@@ -228,7 +228,7 @@ bool
 RecvPropagateSoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const

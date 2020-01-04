@@ -203,7 +203,7 @@ namespace
 mozilla
 {
 class
-OriginAttributes
+NeckoOriginAttributes
 ;
 }
 class
@@ -682,7 +682,7 @@ aManifestURL
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 aOriginAttributes

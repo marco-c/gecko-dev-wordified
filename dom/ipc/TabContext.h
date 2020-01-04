@@ -795,7 +795,7 @@ OriginAttributesRef
 )
 returns
 the
-OriginAttributes
+DocShellOriginAttributes
 of
 this
 frame
@@ -827,7 +827,7 @@ AppId
 *
 /
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 OriginAttributesRef
 (
@@ -1051,7 +1051,7 @@ mozIApplication
 *
 aAppFrameOwnerApp
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aOriginAttributes
 const
@@ -1190,7 +1190,7 @@ mContainingAppId
 *
 *
 *
-OriginAttributes
+DocShellOriginAttributes
 of
 the
 top
@@ -1199,7 +1199,7 @@ tab
 docShell
 *
 /
-OriginAttributes
+DocShellOriginAttributes
 mOriginAttributes
 ;
 /
@@ -1339,7 +1339,7 @@ mozIApplication
 *
 aAppFrameOwnerApp
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aOriginAttributes
 const

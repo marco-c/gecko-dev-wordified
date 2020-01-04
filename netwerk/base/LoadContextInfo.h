@@ -97,7 +97,7 @@ bool
 aIsPrivate
 bool
 aIsAnonymous
-OriginAttributes
+NeckoOriginAttributes
 aOriginAttributes
 )
 ;
@@ -121,7 +121,7 @@ mIsAnonymous
 :
 1
 ;
-OriginAttributes
+NeckoOriginAttributes
 mOriginAttributes
 ;
 }
@@ -202,7 +202,7 @@ aIsPrivate
 bool
 const
 aIsAnonymous
-OriginAttributes
+NeckoOriginAttributes
 const
 &
 aOriginAttributes

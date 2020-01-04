@@ -822,7 +822,7 @@ const
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 &
 attr
 =

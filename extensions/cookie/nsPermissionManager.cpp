@@ -736,7 +736,7 @@ originNoSuffix
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -838,7 +838,7 @@ nsCookieService
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 (
 aAppId
@@ -895,7 +895,7 @@ aPrincipal
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr
@@ -13678,7 +13678,7 @@ over
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 =
 mozilla

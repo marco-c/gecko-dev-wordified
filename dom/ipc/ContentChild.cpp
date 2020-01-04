@@ -11679,7 +11679,7 @@ process
 nsAutoCString
 originNoSuffix
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 attrs

@@ -1880,7 +1880,7 @@ using
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 ;
 using
 mozilla
@@ -43499,7 +43499,7 @@ MOZ_ASSERT
 principal
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 =
 BasePrincipal

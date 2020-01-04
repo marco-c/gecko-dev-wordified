@@ -7751,7 +7751,7 @@ features
 to
 it
 .
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr

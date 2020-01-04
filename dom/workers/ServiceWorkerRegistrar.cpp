@@ -1618,7 +1618,7 @@ GET_LINE
 suffix
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if

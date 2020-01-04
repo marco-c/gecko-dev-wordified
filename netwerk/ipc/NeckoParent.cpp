@@ -475,7 +475,13 @@ using
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
+;
+using
+mozilla
+:
+:
+NeckoOriginAttributes
 ;
 using
 mozilla
@@ -846,7 +852,7 @@ aSerialized
 PContentParent
 *
 aContent
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -1126,7 +1132,7 @@ continue
 }
 aAttrs
 =
-OriginAttributes
+DocShellOriginAttributes
 (
 appId
 inBrowserElement
@@ -1205,7 +1211,7 @@ else
 {
 aAttrs
 =
-OriginAttributes
+DocShellOriginAttributes
 (
 NECKO_NO_APP_ID
 false
@@ -1254,7 +1260,7 @@ nsILoadContext
 aResult
 )
 {
-OriginAttributes
+DocShellOriginAttributes
 attrs
 ;
 const
@@ -4926,7 +4932,7 @@ nestedFrameId
 =
 0
 ;
-OriginAttributes
+DocShellOriginAttributes
 attrs
 (
 NECKO_UNKNOWN_APP_ID
@@ -5117,7 +5123,7 @@ nestedFrameId
 =
 0
 ;
-OriginAttributes
+DocShellOriginAttributes
 attrs
 (
 NECKO_UNKNOWN_APP_ID

@@ -347,7 +347,7 @@ nsNullPrincipal
 Create
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 )
@@ -395,7 +395,7 @@ nsNullPrincipal
 Init
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 )

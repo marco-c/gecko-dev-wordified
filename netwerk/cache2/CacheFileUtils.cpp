@@ -204,7 +204,7 @@ private
 /
 /
 Results
-OriginAttributes
+NeckoOriginAttributes
 originAttribs
 ;
 bool
@@ -974,7 +974,7 @@ code
 .
 *
 /
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 oa

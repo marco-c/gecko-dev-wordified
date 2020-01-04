@@ -1296,7 +1296,7 @@ InFrameSwap
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 GetOriginAttributes
 (
 )
@@ -1508,9 +1508,6 @@ aOldURI
 nsIURI
 *
 aNewURI
-nsIPrincipal
-*
-aLoadingPrincipal
 bool
 aInPrivateBrowsing
 )

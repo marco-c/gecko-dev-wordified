@@ -250,7 +250,7 @@ aBrowser
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )

@@ -1040,7 +1040,7 @@ ServiceWorkerManagerParent
 RecvPropagateSoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const

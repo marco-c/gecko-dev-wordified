@@ -503,7 +503,7 @@ aEnforceSecurity
 bool
 aInitialSecurityCheckDone
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aOriginAttributes
 nsTArray
@@ -675,7 +675,7 @@ mEnforceSecurity
 bool
 mInitialSecurityCheckDone
 ;
-OriginAttributes
+NeckoOriginAttributes
 mOriginAttributes
 ;
 nsTArray

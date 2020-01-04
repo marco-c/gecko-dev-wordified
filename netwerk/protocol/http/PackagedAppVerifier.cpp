@@ -588,7 +588,7 @@ EmptyCString
 (
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 (
 )
 .

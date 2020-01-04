@@ -268,7 +268,7 @@ using
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 ;
 class
 nsICookiePermission
@@ -365,7 +365,7 @@ nsCString
 &
 baseDomain
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 attrs
 )
@@ -557,7 +557,7 @@ true
 nsCString
 mBaseDomain
 ;
-OriginAttributes
+NeckoOriginAttributes
 mOriginAttributes
 ;
 }
@@ -1674,7 +1674,7 @@ aIsForeign
 bool
 aHttpBound
 const
-OriginAttributes
+NeckoOriginAttributes
 aOriginAttrs
 bool
 aIsPrivate
@@ -1722,7 +1722,7 @@ aServerTime
 bool
 aFromHttp
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aOriginAttrs
 bool
@@ -2068,7 +2068,7 @@ Remove
 )
 *
 with
-OriginAttributes
+NeckoOriginAttributes
 parameter
 .
 *
@@ -2099,7 +2099,7 @@ nsACString
 &
 aHost
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aAttrs
 const

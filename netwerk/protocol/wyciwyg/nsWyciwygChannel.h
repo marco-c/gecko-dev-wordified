@@ -446,7 +446,7 @@ mLoadFlags
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 mOriginAttributes
 ;
 nsCOMPtr
