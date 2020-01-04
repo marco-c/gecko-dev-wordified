@@ -9643,13 +9643,6 @@ wbr
 )
 GK_ATOM
 (
-webkitdirectory
-"
-webkitdirectory
-"
-)
-GK_ATOM
-(
 when
 "
 when
