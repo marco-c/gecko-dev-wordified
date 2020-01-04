@@ -16127,7 +16127,7 @@ momentum
 aEvent
 -
 >
-isMomentum
+mIsMomentum
 ?
 nsIScrollableFrame
 :
@@ -34976,7 +34976,7 @@ if
 aEvent
 -
 >
-isMomentum
+mIsMomentum
 )
 {
 /
