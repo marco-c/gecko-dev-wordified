@@ -83,9 +83,7 @@ doc
 =
 toolbox
 .
-frame
-.
-contentDocument
+doc
 ;
 let
 root
