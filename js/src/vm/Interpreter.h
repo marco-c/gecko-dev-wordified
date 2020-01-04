@@ -161,9 +161,6 @@ js
 class
 ScopeIter
 ;
-class
-StaticWithScope
-;
 /
 *
 *
@@ -2552,11 +2549,7 @@ AbstractFramePtr
 frame
 HandleValue
 val
-Handle
-<
-StaticWithScope
-*
->
+HandleObject
 staticWith
 )
 ;

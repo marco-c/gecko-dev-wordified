@@ -3418,11 +3418,7 @@ getOrCreateNonSyntacticLexicalScope
 JSContext
 *
 cx
-Handle
-<
-StaticNonSyntacticScope
-*
->
+HandleObject
 enclosingStatic
 HandleObject
 enclosingScope

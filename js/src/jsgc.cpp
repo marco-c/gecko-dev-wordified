@@ -42154,11 +42154,7 @@ fixed
 up
 below
 .
-Rooted
-<
-StaticScope
-*
->
+RootedObject
 targetStaticGlobalLexicalScope
 (
 rt
