@@ -3408,6 +3408,9 @@ __NR_utimes
 case
 __NR_unlink
 :
+case
+__NR_fchown
+:
 #
 endif
 return
