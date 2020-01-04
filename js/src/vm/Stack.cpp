@@ -544,6 +544,10 @@ prevsp_
 =
 nullptr
 ;
+evalInFramePrev_
+=
+evalInFramePrev
+;
 MOZ_ASSERT_IF
 (
 evalInFramePrev
@@ -551,10 +555,6 @@ isDebuggerEvalFrame
 (
 )
 )
-;
-evalInFramePrev_
-=
-evalInFramePrev
 ;
 if
 (
