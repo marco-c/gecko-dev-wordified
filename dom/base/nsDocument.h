@@ -6577,7 +6577,7 @@ mozilla
 dom
 :
 :
-ElementCreationOptions
+ElementCreationOptionsOrString
 &
 aOptions
 ErrorResult

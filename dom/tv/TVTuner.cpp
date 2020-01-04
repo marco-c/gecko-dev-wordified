@@ -1253,8 +1253,14 @@ nullptr
 ErrorResult
 error
 ;
-ElementCreationOptions
+ElementCreationOptionsOrString
 options
+;
+options
+.
+SetAsString
+(
+)
 ;
 RefPtr
 <
