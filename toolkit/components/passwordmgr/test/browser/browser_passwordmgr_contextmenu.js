@@ -118,7 +118,7 @@ https
 :
 /
 /
-developer
+support
 .
 mozilla
 .
