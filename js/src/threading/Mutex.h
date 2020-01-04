@@ -287,6 +287,10 @@ Mutex
 =
 delete
 ;
+friend
+class
+ConditionVariable
+;
 PlatformData
 *
 platformData
