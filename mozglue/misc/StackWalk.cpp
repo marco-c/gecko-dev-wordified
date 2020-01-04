@@ -173,6 +173,13 @@ StackWalk
 h
 "
 #
+include
+<
+string
+.
+h
+>
+#
 if
 defined
 (
