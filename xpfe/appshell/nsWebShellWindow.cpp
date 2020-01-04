@@ -1774,7 +1774,7 @@ SetPositionAndSize
 0
 aWidth
 aHeight
-false
+0
 )
 ;
 }
