@@ -134,8 +134,16 @@ mozilla
 namespace
 psm
 {
-nsresult
-LoadExtendedValidationInfo
+#
+ifndef
+MOZ_NO_EV_CERTS
+void
+EnsureIdentityInfoLoaded
+(
+)
+;
+void
+CleanupIdentityInfo
 (
 )
 ;
@@ -204,6 +212,8 @@ CertPolicyId
 policy
 )
 ;
+#
+endif
 }
 }
 /
