@@ -3677,11 +3677,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 (

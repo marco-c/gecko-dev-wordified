@@ -1489,11 +1489,6 @@ return
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 reinterpret_cast

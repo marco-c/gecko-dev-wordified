@@ -1370,7 +1370,7 @@ SurfaceFormat
 aFormat
 )
 ;
-virtual
+static
 already_AddRefed
 <
 DrawTarget

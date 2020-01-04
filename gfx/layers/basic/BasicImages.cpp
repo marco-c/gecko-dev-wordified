@@ -970,11 +970,6 @@ drawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 mDecodedBuffer
