@@ -1197,7 +1197,7 @@ pt
 .
 x
 =
-IsLTR
+IsPhysicalLTR
 (
 )
 ?
@@ -2130,7 +2130,7 @@ aVerticalWM
 )
 ;
 bool
-IsLTR
+IsPhysicalLTR
 (
 )
 const
@@ -8448,7 +8448,7 @@ if
 !
 mHelper
 .
-IsLTR
+IsPhysicalLTR
 (
 )
 )

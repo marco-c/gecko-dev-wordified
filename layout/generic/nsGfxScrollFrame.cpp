@@ -9740,7 +9740,7 @@ dest
 .
 x
 =
-IsLTR
+IsPhysicalLTR
 (
 )
 ?
@@ -27900,10 +27900,11 @@ mRestorePos
 if
 (
 !
-IsLTR
+IsPhysicalLTR
 (
 )
 )
+{
 /
 /
 convert
@@ -27942,6 +27943,7 @@ GetRect
 width
 )
 ;
+}
 nsWeakFrame
 weakFrame
 (
@@ -32179,7 +32181,7 @@ bool
 ScrollFrameHelper
 :
 :
-IsLTR
+IsPhysicalLTR
 (
 )
 const
@@ -32467,11 +32469,13 @@ if
 !
 mIsRoot
 )
+{
 return
-IsLTR
+IsPhysicalLTR
 (
 )
 ;
+}
 switch
 (
 presContext
@@ -32514,7 +32518,7 @@ Document
 content
 directionality
 return
-IsLTR
+IsPhysicalLTR
 (
 )
 ;
@@ -38456,7 +38460,7 @@ NS_STYLE_DIRECTION_RTL
 }
 }
 return
-IsLTR
+IsPhysicalLTR
 (
 )
 ?
