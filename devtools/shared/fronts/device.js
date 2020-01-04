@@ -108,12 +108,16 @@ protocol
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -199,8 +203,6 @@ dataURL
 let
 deferred
 =
-promise
-.
 defer
 (
 )

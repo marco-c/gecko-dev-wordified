@@ -347,8 +347,6 @@ server
 let
 copyDeferred
 =
-promise
-.
 defer
 (
 )

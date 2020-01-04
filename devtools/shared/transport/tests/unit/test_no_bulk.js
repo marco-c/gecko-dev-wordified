@@ -124,8 +124,6 @@ transportFactory
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -299,8 +299,6 @@ gPort
 let
 closedDeferred
 =
-promise
-.
 defer
 (
 )

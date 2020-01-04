@@ -164,8 +164,6 @@ toTimeString
 let
 clientDeferred
 =
-promise
-.
 defer
 (
 )
@@ -173,8 +171,6 @@ defer
 let
 serverDeferred
 =
-promise
-.
 defer
 (
 )
@@ -737,8 +733,6 @@ match
 let
 compareDeferred
 =
-promise
-.
 defer
 (
 )

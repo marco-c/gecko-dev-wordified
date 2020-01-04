@@ -277,6 +277,20 @@ promise
 "
 )
 ;
+const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
 DevToolsUtils
 .
 defineLazyGetter
@@ -1580,8 +1594,6 @@ this
 .
 _readyForWriting
 =
-promise
-.
 defer
 (
 )
@@ -1825,8 +1837,6 @@ pauseIncoming
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2184,8 +2194,6 @@ pauseOutgoing
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -307,6 +307,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 EventEmitter
 =
 require
@@ -4295,8 +4309,6 @@ Receiver
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4435,8 +4447,6 @@ Sender
 let
 sendDeferred
 =
-promise
-.
 defer
 (
 )
@@ -4477,8 +4487,6 @@ executeSoon
 let
 copyDeferred
 =
-promise
-.
 defer
 (
 )

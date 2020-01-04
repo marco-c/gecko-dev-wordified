@@ -106,6 +106,20 @@ promise
 "
 )
 ;
+var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
 loader
 .
 lazyRequireGetter
@@ -373,8 +387,6 @@ waitForTick
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -456,8 +468,6 @@ aDelay
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -610,8 +620,6 @@ aFn
 const
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2862,8 +2870,6 @@ loadGroup
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4047,8 +4053,6 @@ iterable
 let
 deferred
 =
-promise
-.
 defer
 (
 )

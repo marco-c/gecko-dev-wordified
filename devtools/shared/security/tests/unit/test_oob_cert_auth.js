@@ -222,8 +222,6 @@ getOrCreate
 let
 oobData
 =
-promise
-.
 defer
 (
 )
@@ -618,8 +616,6 @@ sockets
 let
 oobData
 =
-promise
-.
 defer
 (
 )
@@ -811,8 +807,6 @@ transport
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1060,8 +1054,6 @@ getOrCreate
 let
 oobData
 =
-promise
-.
 defer
 (
 )
@@ -1406,8 +1398,6 @@ getOrCreate
 let
 oobData
 =
-promise
-.
 defer
 (
 )
