@@ -17086,6 +17086,10 @@ runtime
 DispatchToMicroTask
 (
 task
+.
+forget
+(
+)
 )
 ;
 return
@@ -17729,6 +17733,10 @@ runtime
 DispatchToMicroTask
 (
 task
+.
+forget
+(
+)
 )
 ;
 }
