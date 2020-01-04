@@ -1,3 +1,11 @@
+/
+/
+<
+meta
+>
+timeout
+=
+long
 importScripts
 (
 "
@@ -35,6 +43,11 @@ js
 ;
 run_test
 (
+[
+"
+ECDSA
+"
+]
 )
 ;
 done
