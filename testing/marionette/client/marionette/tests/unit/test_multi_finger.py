@@ -58,7 +58,7 @@ marionette
 import
 MarionetteTestCase
 from
-marionette
+marionette_driver
 .
 marionette
 import
