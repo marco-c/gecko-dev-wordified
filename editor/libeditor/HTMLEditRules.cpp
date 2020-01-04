@@ -8813,7 +8813,7 @@ at
 a
 time
 .
-nsAutoLockListener
+AutoLockListener
 lockit
 (
 &
