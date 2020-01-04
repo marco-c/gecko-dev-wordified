@@ -9113,6 +9113,12 @@ StyleUserSelect
 None
 MozText
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleUserInput
+None
+Auto
+)
 #
 ifdef
 MOZ_XUL
@@ -34338,7 +34344,10 @@ parentUI
 -
 >
 mUserInput
-NS_STYLE_USER_INPUT_AUTO
+StyleUserInput
+:
+:
+Auto
 )
 ;
 /

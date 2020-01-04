@@ -21335,7 +21335,10 @@ return
 nsChangeHint_NeedReflow
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleUserInput
 mUserInput
 ;
 /

@@ -29760,11 +29760,16 @@ ui
 mUserInput
 =
 =
-NS_STYLE_USER_INPUT_NONE
+StyleUserInput
+:
+:
+None
 )
+{
 return
 false
 ;
+}
 }
 if
 (
