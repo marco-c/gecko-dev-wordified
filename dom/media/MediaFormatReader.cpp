@@ -7251,12 +7251,6 @@ mNumSamplesOutputTotal
 +
 +
 ;
-decoder
-.
-mNumSamplesOutputTotalSinceTelemetry
-+
-+
-;
 ReturnOutput
 (
 output
