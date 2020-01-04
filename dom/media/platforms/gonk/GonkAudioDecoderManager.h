@@ -222,6 +222,13 @@ ProcessFlush
 )
 override
 ;
+virtual
+void
+ResetEOS
+(
+)
+override
+;
 const
 char
 *
