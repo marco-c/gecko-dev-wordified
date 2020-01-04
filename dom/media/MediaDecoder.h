@@ -3331,6 +3331,12 @@ aString
 )
 {
 }
+virtual
+void
+DumpDebugInfo
+(
+)
+;
 protected
 :
 virtual
