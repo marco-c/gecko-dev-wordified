@@ -1826,9 +1826,6 @@ toObject
 )
 ;
 }
-/
-/
-static
 void
 ShadowingDOMProxyHandler
 :
