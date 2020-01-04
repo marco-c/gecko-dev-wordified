@@ -3150,17 +3150,6 @@ copy
 (
 )
     
-env
-[
-'
-XRE_NO_WINDOWS_CRASH_DIALOG
-'
-]
-=
-'
-1
-'
-    
 if
 test
 .
