@@ -123,12 +123,12 @@ ReorderQueueComparator
 bool
 LessThan
 (
-VideoData
+MediaData
 *
 const
 &
 a
-VideoData
+MediaData
 *
 const
 &
@@ -155,7 +155,7 @@ nsTPriorityQueue
 <
 RefPtr
 <
-VideoData
+MediaData
 >
 ReorderQueueComparator
 >
