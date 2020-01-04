@@ -10489,9 +10489,6 @@ mapped
 array
 buffer
 .
-#
-ifndef
-XP_WIN
 pref
 (
 "
@@ -10504,8 +10501,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 SystemUpdate
