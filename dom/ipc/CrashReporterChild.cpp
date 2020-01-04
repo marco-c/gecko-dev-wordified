@@ -264,7 +264,7 @@ nullptr
 ;
 }
 return
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 *
 reporters

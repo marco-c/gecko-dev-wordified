@@ -914,7 +914,7 @@ PJavaScriptParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPJavaScriptParent
 (

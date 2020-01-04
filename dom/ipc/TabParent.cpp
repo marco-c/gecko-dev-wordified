@@ -12125,7 +12125,7 @@ PRenderFrameParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPRenderFrameParent
 (

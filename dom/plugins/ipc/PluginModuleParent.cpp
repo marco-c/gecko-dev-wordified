@@ -8346,7 +8346,7 @@ CrashReporterParent
 *
 >
 (
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPCrashReporterParent
 (
