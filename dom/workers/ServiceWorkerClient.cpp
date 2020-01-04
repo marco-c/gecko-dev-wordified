@@ -516,7 +516,7 @@ final
 public
 nsRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 uint64_t
 mWindowId
@@ -530,7 +530,7 @@ uint64_t
 aWindowId
 )
 :
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported

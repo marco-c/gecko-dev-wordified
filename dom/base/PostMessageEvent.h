@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -209,7 +209,7 @@ final
 public
 nsRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 public
 :

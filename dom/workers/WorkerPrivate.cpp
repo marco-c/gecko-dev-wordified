@@ -553,7 +553,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -2910,7 +2910,7 @@ final
 public
 WorkerRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 /
 /
@@ -2948,7 +2948,7 @@ WorkerRunnable
 aWorkerPrivate
 aBehavior
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported

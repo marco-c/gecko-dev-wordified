@@ -9325,12 +9325,12 @@ nullptr
 ;
 /
 /
-Shutdown
+Clear
 the
-StructuredCloneHelperInternal
+StructuredCloneHolderBase
 class
 .
-Shutdown
+Clear
 (
 )
 ;
@@ -9654,7 +9654,7 @@ is
 written
 into
 the
-StructuredCloneHelperInternal
+StructuredCloneHolderBase
 .
 if
 (
@@ -9987,7 +9987,7 @@ JSObject
 PromiseWorkerProxy
 :
 :
-ReadCallback
+CustomReadHandler
 (
 JSContext
 *
@@ -10032,7 +10032,7 @@ bool
 PromiseWorkerProxy
 :
 :
-WriteCallback
+CustomWriteHandler
 (
 JSContext
 *

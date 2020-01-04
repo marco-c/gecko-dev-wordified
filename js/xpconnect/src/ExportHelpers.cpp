@@ -198,7 +198,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -496,7 +496,7 @@ MOZ_STACK_CLASS
 StackScopedCloneData
 :
 public
-StructuredCloneHelperInternal
+StructuredCloneHolderBase
 {
 public
 :
@@ -529,14 +529,14 @@ StackScopedCloneData
 (
 )
 {
-Shutdown
+Clear
 (
 )
 ;
 }
 JSObject
 *
-ReadCallback
+CustomReadHandler
 (
 JSContext
 *
@@ -1006,7 +1006,7 @@ nullptr
 ;
 }
 bool
-WriteCallback
+CustomWriteHandler
 (
 JSContext
 *

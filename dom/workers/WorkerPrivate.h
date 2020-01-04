@@ -334,7 +334,7 @@ class
 MessagePortIdentifier
 ;
 class
-StructuredCloneHelper
+StructuredCloneHolder
 ;
 }
 /
