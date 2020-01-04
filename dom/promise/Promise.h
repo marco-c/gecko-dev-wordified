@@ -1435,6 +1435,15 @@ nsIRunnable
 aRunnable
 )
 ;
+enum
+JSCallbackSlots
+{
+SLOT_PROMISE
+=
+0
+SLOT_DATA
+}
+;
 protected
 :
 struct
