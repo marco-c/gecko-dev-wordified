@@ -3639,10 +3639,13 @@ zeal
 :
 JS_SetGCZeal
 (
+JS_GetRuntime
+(
 context
 -
 >
 mContext
+)
 (
 uint8_t
 )

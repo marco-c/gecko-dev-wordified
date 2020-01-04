@@ -862,7 +862,7 @@ FinalizeCalls
 ;
 JS_SetGCZeal
 (
-cx
+rt
 9
 1000000
 )
@@ -1071,7 +1071,7 @@ FinalizeCalls
 ;
 JS_SetGCZeal
 (
-cx
+rt
 0
 0
 )

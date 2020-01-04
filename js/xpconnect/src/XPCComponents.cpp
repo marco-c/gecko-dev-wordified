@@ -16693,7 +16693,10 @@ ifdef
 JS_GC_ZEAL
 JS_SetGCZeal
 (
+JS_GetRuntime
+(
 cx
+)
 uint8_t
 (
 aValue
