@@ -13815,7 +13815,7 @@ char
 NativePanZoomController
 :
 :
-HandleHoverEvent_t
+HandleMotionEvent_t
 :
 :
 name
@@ -13827,7 +13827,7 @@ char
 NativePanZoomController
 :
 :
-HandleHoverEvent_t
+HandleMotionEvent_t
 :
 :
 signature
@@ -13839,7 +13839,7 @@ char
 NativePanZoomController
 :
 :
-HandleMotionEvent_t
+HandleMouseEvent_t
 :
 :
 name
@@ -13851,7 +13851,7 @@ char
 NativePanZoomController
 :
 :
-HandleMotionEvent_t
+HandleMouseEvent_t
 :
 :
 signature
