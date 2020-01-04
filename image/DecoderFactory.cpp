@@ -1165,7 +1165,7 @@ IDecodingTask
 task
 =
 new
-DecodingTask
+AnimationDecodingTask
 (
 WrapNotNull
 (
