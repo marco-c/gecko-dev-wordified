@@ -1051,6 +1051,7 @@ INFO_HEADER_REST
 BITFIELDS
 COLOR_TABLE
 GAP
+AFTER_GAP
 PIXEL_ROW
 RLE_SEGMENT
 RLE_DELTA
@@ -1242,6 +1243,14 @@ LexerTransition
 State
 >
 SkipGap
+(
+)
+;
+LexerTransition
+<
+State
+>
+AfterGap
 (
 )
 ;
