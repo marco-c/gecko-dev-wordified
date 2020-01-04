@@ -142,15 +142,6 @@ mozilla
 .
 gecko
 .
-Assert
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 overlays
 .
 service
@@ -891,9 +882,9 @@ break
 ;
 default
 :
-Assert
-.
-fail
+throw
+new
+IllegalStateException
 (
 "
 Unknown
@@ -906,8 +897,6 @@ code
 +
 result
 )
-;
-break
 ;
 }
 }
