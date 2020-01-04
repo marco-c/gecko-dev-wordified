@@ -138,7 +138,6 @@ js
 template
 <
 typename
-typename
 >
 struct
 DefaultTracer
