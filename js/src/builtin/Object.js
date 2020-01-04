@@ -435,6 +435,17 @@ Step
 .
 c
 .
+if
+(
+typeof
+desc
+!
+=
+=
+"
+undefined
+"
+)
 _DefineDataProperty
 (
 descriptors
