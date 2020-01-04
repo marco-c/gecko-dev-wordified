@@ -15943,7 +15943,7 @@ nsStyleConsts
 .
 h
 uint8_t
-mFloats
+mFloat
 ;
 /
 /
@@ -15957,7 +15957,7 @@ h
 NS_STYLE_FLOAT_
 *
 uint8_t
-mOriginalFloats
+mOriginalFloat
 ;
 /
 /
@@ -15965,7 +15965,7 @@ mOriginalFloats
 reset
 ]
 saved
-mFloats
+mFloat
 for
 position
 :
@@ -15978,7 +15978,7 @@ fixed
 otherwise
 equal
 to
-mFloats
+mFloat
 uint8_t
 mBreakType
 ;
@@ -16780,7 +16780,7 @@ return
 NS_STYLE_FLOAT_NONE
 !
 =
-mFloats
+mFloat
 ;
 }
 bool
