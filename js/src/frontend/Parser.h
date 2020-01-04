@@ -169,6 +169,15 @@ include
 "
 frontend
 /
+NameAnalysisTypes
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameCollections
 .
 h
