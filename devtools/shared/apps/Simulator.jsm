@@ -158,7 +158,8 @@ simulators
 js
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -167,7 +168,11 @@ Simulator
 "
 ]
 ;
-const
+let
+Simulator
+=
+this
+.
 Simulator
 =
 {
