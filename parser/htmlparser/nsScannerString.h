@@ -2754,7 +2754,7 @@ aEnd
 )
 ;
 }
-void
+bool
 CopyUnicodeTo
 (
 const
@@ -2771,7 +2771,7 @@ aDest
 )
 ;
 inline
-void
+bool
 CopyUnicodeTo
 (
 const
@@ -2787,6 +2787,7 @@ nsScannerIterator
 begin
 end
 ;
+return
 CopyUnicodeTo
 (
 aSrc
@@ -2805,7 +2806,7 @@ aDest
 )
 ;
 }
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2822,7 +2823,7 @@ aDest
 )
 ;
 inline
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2838,6 +2839,7 @@ nsScannerIterator
 begin
 end
 ;
+return
 AppendUnicodeTo
 (
 aSrc
@@ -2856,7 +2858,7 @@ aDest
 )
 ;
 }
-void
+bool
 AppendUnicodeTo
 (
 const

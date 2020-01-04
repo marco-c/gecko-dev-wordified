@@ -2547,7 +2547,7 @@ return
 result
 ;
 }
-void
+bool
 CopyUnicodeTo
 (
 const
@@ -2595,6 +2595,7 @@ Truncate
 )
 ;
 return
+false
 ;
 /
 /
@@ -2622,8 +2623,11 @@ aSrcEnd
 writer
 )
 ;
+return
+true
+;
 }
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2700,9 +2704,10 @@ aSrcStart
 aSrcEnd
 )
 ;
+return
+true
+;
 }
-else
-{
 /
 /
 The
@@ -2721,6 +2726,7 @@ a
 dependent
 substring
 .
+return
 AppendUnicodeTo
 (
 aSrcStart
@@ -2733,8 +2739,7 @@ writable
 )
 ;
 }
-}
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2786,6 +2791,7 @@ fallible
 )
 )
 return
+false
 ;
 /
 /
@@ -2816,6 +2822,9 @@ fromBegin
 aSrcEnd
 writer
 )
+;
+return
+true
 ;
 }
 bool

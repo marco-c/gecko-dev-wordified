@@ -12851,6 +12851,9 @@ theContext
 mCopyUnused
 )
 {
+if
+(
+!
 theContext
 -
 >
@@ -12861,7 +12864,13 @@ CopyUnusedData
 (
 mUnusedInput
 )
+)
+{
+mInternalState
+=
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 delete
 theContext
