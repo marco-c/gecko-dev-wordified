@@ -6888,13 +6888,6 @@ foo
 bar
 )
 {
-\
-"
-use
-strict
-\
-"
-;
 return
 bar
 +
