@@ -834,6 +834,8 @@ MainThreadShutdown
 (
 )
 ;
+return
+;
 }
 DemuxNextSample
 (
@@ -1181,6 +1183,10 @@ OnThread
 )
 )
 ;
+mFinished
+=
+true
+;
 if
 (
 mDecoder
@@ -1434,10 +1440,6 @@ ToSeconds
 (
 )
 ;
-mFinished
-=
-true
-;
 MainThreadShutdown
 (
 )
@@ -1684,10 +1686,6 @@ elapsedTime
 ToSeconds
 (
 )
-;
-mFinished
-=
-true
 ;
 MainThreadShutdown
 (
