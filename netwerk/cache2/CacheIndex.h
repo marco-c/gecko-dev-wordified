@@ -5648,6 +5648,11 @@ void
 aClosure
 )
 ;
+void
+DelayedUpdateLocked
+(
+)
+;
 /
 /
 Posts
