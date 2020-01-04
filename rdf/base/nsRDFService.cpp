@@ -7385,6 +7385,9 @@ if
 (
 uri
 )
+{
+rv
+=
 uri
 -
 >
@@ -7393,6 +7396,17 @@ GetSpec
 spec
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
+}
 }
 /
 /
