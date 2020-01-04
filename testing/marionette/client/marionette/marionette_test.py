@@ -4088,16 +4088,18 @@ gre
 /
 modules
 /
-Preferences
+Services
 .
 jsm
 "
 )
 ;
             
-Preferences
+Services
 .
-set
+prefs
+.
+setBoolPref
 (
 SECURITY_PREF
 true
