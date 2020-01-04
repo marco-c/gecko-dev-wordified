@@ -17438,9 +17438,6 @@ NS_IsMainThread
 )
 )
 {
-workers
-:
-:
 WorkerPrivate
 *
 worker
@@ -17769,9 +17766,6 @@ PromiseReportRejectWorkerHolder
 :
 Notify
 (
-workers
-:
-:
 Status
 aStatus
 )
@@ -17780,9 +17774,6 @@ MOZ_ASSERT
 (
 aStatus
 >
-workers
-:
-:
 Running
 )
 ;
@@ -18134,9 +18125,6 @@ class
 PromiseWorkerProxyRunnable
 :
 public
-workers
-:
-:
 WorkerRunnable
 {
 public
@@ -18192,9 +18180,6 @@ WorkerRun
 JSContext
 *
 aCx
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -18380,9 +18365,6 @@ PromiseWorkerProxy
 :
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -18538,9 +18520,6 @@ PromiseWorkerProxy
 :
 PromiseWorkerProxy
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -18629,9 +18608,6 @@ CleanProperties
 #
 ifdef
 DEBUG
-workers
-:
-:
 WorkerPrivate
 *
 worker
@@ -18783,9 +18759,6 @@ return
 true
 ;
 }
-workers
-:
-:
 WorkerPrivate
 *
 PromiseWorkerProxy
@@ -18865,9 +18838,6 @@ const
 #
 ifdef
 DEBUG
-workers
-:
-:
 WorkerPrivate
 *
 worker
