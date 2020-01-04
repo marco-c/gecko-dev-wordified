@@ -383,6 +383,13 @@ mReferrerPolicy
 copy
 -
 >
+mEnvironmentReferrerPolicy
+=
+mEnvironmentReferrerPolicy
+;
+copy
+-
+>
 mContentPolicyType
 =
 mContentPolicyTypeOverridden
@@ -607,6 +614,12 @@ mReferrerPolicy
 aOther
 .
 mReferrerPolicy
+)
+mEnvironmentReferrerPolicy
+(
+aOther
+.
+mEnvironmentReferrerPolicy
 )
 mMode
 (
