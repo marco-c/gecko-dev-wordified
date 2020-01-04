@@ -6881,6 +6881,9 @@ PeerConnectionMedia
 :
 UpdateSinkIdentity_m
 (
+MediaStreamTrack
+*
+aTrack
 nsIPrincipal
 *
 aPrincipal
@@ -6923,6 +6926,7 @@ u
 >
 UpdateSinkIdentity_m
 (
+aTrack
 aPrincipal
 aSinkIdentity
 )
@@ -6935,6 +6939,9 @@ LocalSourceStreamInfo
 :
 UpdateSinkIdentity_m
 (
+MediaStreamTrack
+*
+aTrack
 nsIPrincipal
 *
 aPrincipal
@@ -6996,6 +7003,7 @@ pipeline
 >
 UpdateSinkIdentity_m
 (
+aTrack
 aPrincipal
 aSinkIdentity
 )
