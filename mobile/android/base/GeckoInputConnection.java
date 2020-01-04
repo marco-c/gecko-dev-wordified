@@ -1559,9 +1559,9 @@ mBatchEditCount
 ;
 mEditableClient
 .
-setUpdateGecko
+setBatchMode
 (
-false
+true
 )
 ;
 return
@@ -1644,9 +1644,9 @@ false
 }
 mEditableClient
 .
-setUpdateGecko
+setBatchMode
 (
-true
+false
 )
 ;
 }
