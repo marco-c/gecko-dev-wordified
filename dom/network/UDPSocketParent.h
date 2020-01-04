@@ -265,6 +265,10 @@ const
 bool
 &
 aLoopback
+const
+uint32_t
+&
+recvBufferSize
 )
 override
 ;
@@ -461,6 +465,10 @@ const
 bool
 &
 aLoopback
+const
+uint32_t
+&
+recvBufferSize
 )
 ;
 nsresult

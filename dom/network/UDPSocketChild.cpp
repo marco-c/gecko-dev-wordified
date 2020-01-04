@@ -808,6 +808,8 @@ bool
 aAddressReuse
 bool
 aLoopback
+uint32_t
+recvBufferSize
 )
 {
 UDPSOCKET_LOG
@@ -929,6 +931,7 @@ aPort
 )
 aAddressReuse
 aLoopback
+recvBufferSize
 )
 ;
 return
