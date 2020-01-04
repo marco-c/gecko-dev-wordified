@@ -477,7 +477,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 )
@@ -582,7 +582,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 RefPtr
@@ -683,7 +683,7 @@ PersistentBufferProviderShared
 :
 SetForwarder
 (
-KnowsCompositor
+ShadowLayerForwarder
 *
 aFwd
 )
