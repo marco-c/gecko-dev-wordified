@@ -6328,6 +6328,7 @@ end
 0
 ;
 }
+toolbar
 .
 toolbarbutton
 -
@@ -6337,6 +6338,7 @@ toolbarbutton
 toolbarbutton
 -
 icon
+toolbar
 .
 toolbarbutton
 -
@@ -6374,6 +6376,7 @@ width
 16px
 ;
 }
+toolbar
 .
 toolbarbutton
 -
@@ -6391,6 +6394,7 @@ primaryToolbarButtons
 toolbarbutton
 -
 icon
+toolbar
 .
 toolbarbutton
 -
