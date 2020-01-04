@@ -10525,7 +10525,7 @@ js
 :
 SetActivityCallback
 (
-Runtime
+Context
 (
 )
 nullptr
@@ -24612,7 +24612,7 @@ js
 :
 SetPreserveWrapperCallback
 (
-runtime
+cx
 PreserveWrapper
 )
 ;
@@ -24641,7 +24641,7 @@ runtime
 endif
 JS_SetAccumulateTelemetryCallback
 (
-runtime
+cx
 AccumulateTelemetryCallback
 )
 ;
@@ -24650,7 +24650,7 @@ js
 :
 SetActivityCallback
 (
-runtime
+cx
 ActivityCallback
 this
 )
