@@ -308,6 +308,10 @@ mContext
 }
 protected
 :
+friend
+struct
+CanvasBidiProcessor
+;
 CanvasGradient
 (
 CanvasRenderingContext2D
