@@ -8704,7 +8704,7 @@ i
 <
 mg
 .
-numDeclaredExports
+numExports
 (
 )
 ;
@@ -8741,7 +8741,7 @@ i
 <
 mg
 .
-numDeclaredImports
+numImports
 (
 )
 ;
