@@ -1990,6 +1990,10 @@ toggleBarriers
 (
 bool
 enabled
+ReprotectCode
+reprotect
+=
+Reprotect
 )
 {
 method
@@ -2000,6 +2004,7 @@ method
 togglePreBarriers
 (
 enabled
+reprotect
 )
 ;
 }

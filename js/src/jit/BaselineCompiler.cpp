@@ -1607,6 +1607,7 @@ baselineScript
 toggleBarriers
 (
 true
+DontReprotect
 )
 ;
 /
@@ -1651,12 +1652,6 @@ baselineScript
 toggleProfilerInstrumentation
 (
 true
-)
-;
-AutoWritableJitCode
-awjc
-(
-code
 )
 ;
 /

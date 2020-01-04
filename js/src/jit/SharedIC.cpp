@@ -6389,6 +6389,7 @@ newStubCode
 togglePreBarriers
 (
 true
+DontReprotect
 )
 ;
 /

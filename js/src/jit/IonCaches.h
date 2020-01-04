@@ -2350,6 +2350,9 @@ cx
 MacroAssembler
 &
 masm
+StubAttacher
+&
+attacher
 IonScript
 *
 ion
@@ -2391,6 +2394,8 @@ masm
 StubAttacher
 &
 attacher
+CodeLocationJump
+lastJump
 Handle
 <
 JitCode
