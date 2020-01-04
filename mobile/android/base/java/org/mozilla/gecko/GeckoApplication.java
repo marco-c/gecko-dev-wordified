@@ -941,6 +941,17 @@ init
 (
 )
 ;
+NetworkInfoService
+.
+getInstance
+(
+context
+)
+.
+init
+(
+)
+;
 /
 /
 Make
