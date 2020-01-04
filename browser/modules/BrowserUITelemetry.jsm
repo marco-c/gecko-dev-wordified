@@ -4974,6 +4974,16 @@ hidecontrols
 "
 video
 -
+showstats
+"
+"
+video
+-
+hidestats
+"
+"
+video
+-
 fullscreen
 "
 "
