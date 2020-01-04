@@ -28229,12 +28229,6 @@ engineToRemove
 name
 ]
 ;
-notifyAction
-(
-engineToRemove
-SEARCH_ENGINE_REMOVED
-)
-;
 /
 /
 Since
@@ -28256,6 +28250,12 @@ _saveSortedEngineList
 )
 ;
 }
+notifyAction
+(
+engineToRemove
+SEARCH_ENGINE_REMOVED
+)
+;
 }
 moveEngine
 :
