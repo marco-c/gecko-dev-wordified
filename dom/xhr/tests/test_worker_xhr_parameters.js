@@ -61,9 +61,9 @@ copy
 of
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 test_XHR_parameters
 .

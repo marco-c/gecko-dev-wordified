@@ -686,6 +686,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 /
 /
 Maximum

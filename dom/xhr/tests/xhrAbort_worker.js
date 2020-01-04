@@ -387,7 +387,7 @@ open
 GET
 "
 "
-testXHR
+worker_testXHR
 .
 txt
 "
