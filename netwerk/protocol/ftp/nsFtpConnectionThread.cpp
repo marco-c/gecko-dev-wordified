@@ -1624,11 +1624,11 @@ cached
 control
 connection
 :
+RefPtr
+<
 nsFtpControlConnection
-*
+>
 connection
-=
-nullptr
 ;
 /
 /
@@ -1670,8 +1670,10 @@ mChannel
 URI
 (
 )
-&
+getter_AddRefs
+(
 connection
+)
 )
 ;
 if
