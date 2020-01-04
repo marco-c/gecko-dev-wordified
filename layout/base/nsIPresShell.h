@@ -9772,6 +9772,10 @@ nsRect
 aRect
 =
 nullptr
+bool
+aRemoveOnly
+=
+false
 )
 =
 0
