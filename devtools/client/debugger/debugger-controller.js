@@ -395,6 +395,13 @@ Debugger
 :
 BreakpointRemoved
 "
+BREAKPOINT_CLICKED
+:
+"
+Debugger
+:
+BreakpointClicked
+"
 /
 /
 When
