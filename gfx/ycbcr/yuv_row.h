@@ -666,6 +666,7 @@ endif
 extern
 SIMD_ALIGNED
 (
+const
 int16
 kCoefficientsRgbY
 [
