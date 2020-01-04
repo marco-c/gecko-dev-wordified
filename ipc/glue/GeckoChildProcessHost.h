@@ -1080,7 +1080,7 @@ mChildTask
 ;
 #
 endif
-void
+bool
 OpenPrivilegedHandle
 (
 base
