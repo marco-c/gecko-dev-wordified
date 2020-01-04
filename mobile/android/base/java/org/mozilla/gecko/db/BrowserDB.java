@@ -1265,13 +1265,4 @@ String
 url
 )
 ;
-public
-abstract
-int
-getTrackingIdForUrl
-(
-String
-url
-)
-;
 }
