@@ -175,7 +175,7 @@ split
 APK
 starts
 at
-14
+15
 .
         
 return
@@ -228,7 +228,7 @@ that
         
 #
 the
-v14
+v15
 +
 ARMv7
 APK
@@ -541,7 +541,7 @@ ARM
 build
 targeting
 API
-14
+15
 +
     
 and
@@ -583,7 +583,7 @@ supports
 API
 11
 -
-13
+14
 .
 API
 9
@@ -1168,7 +1168,7 @@ to
 11
 .
 The
-14
+15
 +
 APK
 directly
@@ -1188,7 +1188,7 @@ elif
 min_sdk
 =
 =
-14
+15
 :
             
 version
