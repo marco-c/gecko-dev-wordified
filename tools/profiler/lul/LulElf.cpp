@@ -857,6 +857,14 @@ is_set_
 (
 false
 )
+size_
+(
+0
+)
+base_
+(
+NULL
+)
 {
 }
 ~
