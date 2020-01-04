@@ -3984,10 +3984,9 @@ _dbConnection
 .
 asyncClose
 (
+function
 (
 )
-=
->
 closed
 =
 true
@@ -4996,13 +4995,9 @@ get
 enabled
 (
 )
-{
-return
 Prefs
 .
 enabled
-;
-}
 search
 :
 function

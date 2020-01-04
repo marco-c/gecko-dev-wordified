@@ -2906,9 +2906,10 @@ conditions
 .
 map
 (
+function
+(
 c
-=
->
+)
 "
 (
 "
@@ -4308,9 +4309,10 @@ conditions
 .
 map
 (
+function
+(
 c
-=
->
+)
 "
 (
 "

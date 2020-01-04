@@ -755,11 +755,7 @@ get
 filenamesRegex
 (
 )
-{
-return
 filenamesRegex
-;
-}
 get
 folder
 (
@@ -1048,13 +1044,9 @@ get
 profileRelativeFolderPath
 (
 )
-{
-return
 "
 bookmarkbackups
 "
-;
-}
 /
 *
 *

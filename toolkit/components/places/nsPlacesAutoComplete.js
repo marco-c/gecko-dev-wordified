@@ -5786,8 +5786,6 @@ get
 _databaseInitialized
 (
 )
-{
-return
 Object
 .
 getOwnPropertyDescriptor
@@ -5803,8 +5801,6 @@ value
 =
 =
 undefined
-;
-}
 /
 *
 *

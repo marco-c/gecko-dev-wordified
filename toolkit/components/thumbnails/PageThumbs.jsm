@@ -860,8 +860,6 @@ get
 scheme
 (
 )
-{
-return
 "
 moz
 -
@@ -869,8 +867,6 @@ page
 -
 thumb
 "
-;
-}
 /
 *
 *
@@ -890,13 +886,9 @@ get
 staticHost
 (
 )
-{
-return
 "
 thumbnail
 "
-;
-}
 /
 *
 *
@@ -913,15 +905,11 @@ get
 contentType
 (
 )
-{
-return
 "
 image
 /
 png
 "
-;
-}
 init
 :
 function

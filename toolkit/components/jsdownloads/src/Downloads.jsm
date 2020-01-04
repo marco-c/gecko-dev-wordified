@@ -596,8 +596,6 @@ get
 PUBLIC
 (
 )
-{
-return
 "
 {
 Downloads
@@ -605,8 +603,6 @@ Downloads
 PUBLIC
 }
 "
-;
-}
 /
 *
 *
@@ -629,8 +625,6 @@ get
 PRIVATE
 (
 )
-{
-return
 "
 {
 Downloads
@@ -638,8 +632,6 @@ Downloads
 PRIVATE
 }
 "
-;
-}
 /
 *
 *
@@ -662,8 +654,6 @@ get
 ALL
 (
 )
-{
-return
 "
 {
 Downloads
@@ -671,8 +661,6 @@ Downloads
 ALL
 }
 "
-;
-}
 /
 *
 *

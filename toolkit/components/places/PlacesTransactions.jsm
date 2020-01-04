@@ -2432,13 +2432,9 @@ get
 undoPosition
 (
 )
-{
-return
 this
 .
 _undoPosition
-;
-}
 /
 /
 Handy

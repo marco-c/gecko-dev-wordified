@@ -506,13 +506,9 @@ get
 matchCount
 (
 )
-{
-return
 this
 .
 rowCount
-;
-}
 handleEnter
 :
 function

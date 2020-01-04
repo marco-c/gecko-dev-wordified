@@ -3356,11 +3356,7 @@ get
 typeAheadResult
 (
 )
-{
-return
 false
-;
-}
 /
 *
 *
