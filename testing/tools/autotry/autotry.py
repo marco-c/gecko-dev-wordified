@@ -1458,7 +1458,11 @@ chrome
 '
 mochitest
 -
-dt
+devtools
+-
+chrome
+-
+1
 '
                             
 '
@@ -1469,6 +1473,8 @@ e10s
 devtools
 -
 chrome
+-
+1
 '
 ]
         
