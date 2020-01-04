@@ -8184,6 +8184,12 @@ else
 if
 (
 selection
+!
+=
+null
+&
+&
+selection
 .
 contains
 (
