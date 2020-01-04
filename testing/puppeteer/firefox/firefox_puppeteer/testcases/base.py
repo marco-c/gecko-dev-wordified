@@ -609,9 +609,9 @@ def
 restart
 (
 self
-flags
-=
-None
+*
+*
+kwargs
 )
 :
         
@@ -670,6 +670,19 @@ an
 in_app
 restart
         
+with
+self
+.
+marionette
+.
+using_context
+(
+'
+chrome
+'
+)
+:
+            
 self
 .
 marionette
@@ -679,7 +692,7 @@ execute_script
 "
 "
 "
-          
+                
 Components
 .
 utils
@@ -701,7 +714,7 @@ jsm
 "
 )
 ;
-          
+                
 let
 cancelQuit
 =
@@ -721,7 +734,7 @@ PRBool
 1
 "
 ]
-                                     
+                                         
 .
 createInstance
 (
@@ -732,7 +745,7 @@ interfaces
 nsISupportsPRBool
 )
 ;
-          
+                
 Services
 .
 obs
@@ -750,12 +763,37 @@ requested
 null
 )
 ;
-        
+                
 "
 "
 "
 )
         
+if
+kwargs
+.
+get
+(
+'
+clean
+'
+)
+:
+            
+self
+.
+marionette
+.
+restart
+(
+clean
+=
+True
+)
+        
+else
+:
+            
 self
 .
 marionette
