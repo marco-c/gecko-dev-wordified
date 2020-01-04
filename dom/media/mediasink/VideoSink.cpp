@@ -2402,6 +2402,12 @@ PeekFront
 ;
 mVideoFrameEndTime
 =
+std
+:
+:
+max
+(
+mVideoFrameEndTime
 currentFrame
 ?
 currentFrame
@@ -2412,6 +2418,7 @@ GetEndTime
 )
 :
 lastDisplayedFrameEndTime
+)
 ;
 /
 /
