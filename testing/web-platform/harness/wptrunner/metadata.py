@@ -168,6 +168,12 @@ False
 sync_root
 =
 None
+property_order
+=
+None
+boolean_properties
+=
+None
 )
 :
     
@@ -293,6 +299,14 @@ log_file_names
 ignore_existing
 =
 ignore_existing
+                                                
+property_order
+=
+property_order
+                                                
+boolean_properties
+=
+boolean_properties
 )
     
 for
@@ -861,12 +875,34 @@ ignore_existing
 =
 kwargs
 .
-pop
+get
 (
 "
 ignore_existing
 "
 False
+)
+    
+property_order
+=
+kwargs
+.
+get
+(
+"
+property_order
+"
+)
+    
+boolean_properties
+=
+kwargs
+.
+get
+(
+"
+boolean_properties
+"
 )
     
 expected_map
@@ -895,14 +931,23 @@ id_path_map_manifest
 =
 create_test_tree
 (
+            
 paths
 [
 "
 metadata_path
 "
 ]
-                                                                       
+            
 test_manifest
+            
+property_order
+=
+property_order
+            
+boolean_properties
+=
+boolean_properties
 )
         
 expected_map
@@ -1997,6 +2042,13 @@ create_test_tree
 (
 metadata_path
 test_manifest
+property_order
+=
+None
+                     
+boolean_properties
+=
+None
 )
 :
     
@@ -2059,6 +2111,14 @@ test_manifest
 metadata_path
 test_path
 tests
+                                      
+property_order
+=
+property_order
+                                      
+boolean_properties
+=
+boolean_properties
 )
         
 if
@@ -2072,8 +2132,18 @@ expected_data
 create_expected
 (
 test_manifest
+                                            
 test_path
+                                            
 tests
+                                            
+property_order
+=
+property_order
+                                            
+boolean_properties
+=
+boolean_properties
 )
         
 for
@@ -2110,6 +2180,13 @@ create_expected
 test_manifest
 test_path
 tests
+property_order
+=
+None
+                    
+boolean_properties
+=
+None
 )
 :
     
@@ -2124,6 +2201,14 @@ test_path
 test_manifest
 .
 url_base
+                                               
+property_order
+=
+property_order
+                                               
+boolean_properties
+=
+boolean_properties
 )
     
 for
@@ -2160,6 +2245,13 @@ test_manifest
 metadata_path
 test_path
 tests
+property_order
+=
+None
+                  
+boolean_properties
+=
+None
 )
 :
     
@@ -2176,6 +2268,14 @@ test_path
 test_manifest
 .
 url_base
+                                                    
+property_order
+=
+property_order
+                                                    
+boolean_properties
+=
+boolean_properties
 )
     
 if
