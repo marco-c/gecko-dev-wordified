@@ -1706,6 +1706,15 @@ aDocument
 )
 override
 ;
+void
+FlushConsoleReports
+(
+nsIConsoleReportCollector
+*
+aCollector
+)
+override
+;
 class
 nsContentEncodings
 :
