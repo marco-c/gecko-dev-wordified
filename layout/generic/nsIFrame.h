@@ -21499,7 +21499,7 @@ For
 nsSprocketLayout
 virtual
 Valignment
-GetVAlign
+GetXULVAlign
 (
 )
 const

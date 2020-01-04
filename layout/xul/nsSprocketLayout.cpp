@@ -753,7 +753,7 @@ valign
 aBox
 -
 >
-GetVAlign
+GetXULVAlign
 (
 )
 ;
@@ -6128,7 +6128,7 @@ valign
 aBox
 -
 >
-GetVAlign
+GetXULVAlign
 (
 )
 ;
