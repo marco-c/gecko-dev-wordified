@@ -2205,5 +2205,9 @@ NULL
 stream_register_device_changed_callback
 =
 NULL
+.
+register_device_collection_changed
+=
+NULL
 }
 ;
