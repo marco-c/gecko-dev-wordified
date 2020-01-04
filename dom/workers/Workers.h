@@ -1485,10 +1485,12 @@ GetWorkerCrossThreadDispatcher
 JSContext
 *
 aCx
+const
 JS
 :
 :
 Value
+&
 aWorker
 )
 ;
