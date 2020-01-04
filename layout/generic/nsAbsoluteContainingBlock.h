@@ -260,6 +260,14 @@ request
 class
 nsAbsoluteContainingBlock
 {
+using
+ReflowInput
+=
+mozilla
+:
+:
+ReflowInput
+;
 public
 :
 typedef
