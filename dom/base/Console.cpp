@@ -2186,7 +2186,7 @@ custom
 Cancel
 method
 .
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
