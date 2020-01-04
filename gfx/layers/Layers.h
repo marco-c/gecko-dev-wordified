@@ -11832,6 +11832,7 @@ recomposited
 *
 /
 const
+virtual
 gfx
 :
 :
