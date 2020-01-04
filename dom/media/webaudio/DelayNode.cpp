@@ -838,7 +838,7 @@ block
 StreamTime
 tick
 =
-mSource
+mDestination
 -
 >
 GraphTimeToStreamTime

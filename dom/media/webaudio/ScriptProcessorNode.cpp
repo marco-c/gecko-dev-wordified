@@ -2087,7 +2087,7 @@ thread
 StreamTime
 playbackTick
 =
-mSource
+mDestination
 -
 >
 GraphTimeToStreamTime
@@ -2145,12 +2145,11 @@ destination
 double
 playbackTime
 =
-mSource
+mDestination
 -
 >
-DestinationTimeFromTicks
+StreamTimeToSeconds
 (
-mDestination
 playbackTick
 )
 ;
