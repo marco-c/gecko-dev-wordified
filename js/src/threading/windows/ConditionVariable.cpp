@@ -147,7 +147,7 @@ h
 #
 include
 <
-Windows
+windows
 .
 h
 >
@@ -494,8 +494,7 @@ T
 fn
 )
 {
-void
-*
+FARPROC
 ptr
 =
 GetProcAddress
