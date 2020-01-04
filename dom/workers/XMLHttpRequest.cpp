@@ -5271,7 +5271,7 @@ mArrayBufferResponseWasTransferred
 {
 MOZ_ASSERT
 (
-JS_IsNeuteredArrayBufferObject
+JS_IsDetachedArrayBufferObject
 (
 obj
 )
@@ -5291,7 +5291,7 @@ else
 MOZ_ASSERT
 (
 !
-JS_IsNeuteredArrayBufferObject
+JS_IsDetachedArrayBufferObject
 (
 obj
 )
