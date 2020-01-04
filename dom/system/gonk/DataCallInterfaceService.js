@@ -492,6 +492,10 @@ null
 pcscf
 :
 null
+mtu
+:
+-
+1
 }
 ;
 function
