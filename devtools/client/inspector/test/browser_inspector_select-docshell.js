@@ -354,7 +354,7 @@ frames
 =
 menu
 .
-menuitems
+items
 .
 slice
 (

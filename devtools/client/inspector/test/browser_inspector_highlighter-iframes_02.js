@@ -577,7 +577,7 @@ root
 ;
 menu
 .
-menuitems
+items
 [
 frameIndex
 ]
