@@ -810,7 +810,7 @@ NoteClosedRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :
@@ -1070,7 +1070,7 @@ ForgetRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

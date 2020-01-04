@@ -431,7 +431,7 @@ PostMessageRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 friend
 class

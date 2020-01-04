@@ -3659,7 +3659,7 @@ AlreadyCreatedCallbackRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

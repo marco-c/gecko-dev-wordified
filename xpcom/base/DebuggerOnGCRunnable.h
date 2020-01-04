@@ -175,7 +175,7 @@ class
 DebuggerOnGCRunnable
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 JS
 :

@@ -234,7 +234,7 @@ class
 AsyncEventDispatcher
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

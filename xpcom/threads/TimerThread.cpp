@@ -769,7 +769,7 @@ class
 nsTimerEvent
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

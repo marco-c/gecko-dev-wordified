@@ -366,7 +366,7 @@ nsInputStreamReadyEvent
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 public
 nsIInputStreamCallback
 {
@@ -706,7 +706,7 @@ mTarget
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsInputStreamReadyEvent
-nsCancelableRunnable
+CancelableRunnable
 nsIInputStreamCallback
 )
 /
@@ -834,7 +834,7 @@ nsOutputStreamReadyEvent
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 public
 nsIOutputStreamCallback
 {
@@ -1174,7 +1174,7 @@ mTarget
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsOutputStreamReadyEvent
-nsCancelableRunnable
+CancelableRunnable
 nsIOutputStreamCallback
 )
 /
@@ -1461,7 +1461,7 @@ nsIInputStreamCallback
 public
 nsIOutputStreamCallback
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :
@@ -2691,7 +2691,7 @@ nsAStreamCopier
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsAStreamCopier
-nsCancelableRunnable
+CancelableRunnable
 nsIInputStreamCallback
 nsIOutputStreamCallback
 )
