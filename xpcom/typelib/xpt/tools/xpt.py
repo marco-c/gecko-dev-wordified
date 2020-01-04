@@ -989,7 +989,7 @@ other
         
 return
 (
-                
+            
 #
 First
 make
@@ -1008,7 +1008,7 @@ pun
 intended
 !
 )
-                
+            
 cmp
 (
 type
@@ -1021,7 +1021,7 @@ other
 )
 )
 or
-                
+            
 cmp
 (
 self
@@ -1032,7 +1032,7 @@ other
 pointer
 )
 or
-                
+            
 cmp
 (
 self
@@ -1662,7 +1662,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -1671,7 +1671,7 @@ self
 other
 )
 or
-                
+            
 cmp
 (
 self
@@ -2018,7 +2018,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -2027,7 +2027,7 @@ self
 other
 )
 or
-                
+            
 #
 When
 comparing
@@ -2039,7 +2039,7 @@ at
 the
 name
 .
-                
+            
 cmp
 (
 self
@@ -2054,7 +2054,7 @@ iface
 name
 )
 or
-                
+            
 cmp
 (
 self
@@ -2472,7 +2472,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -2481,7 +2481,7 @@ self
 other
 )
 or
-                
+            
 cmp
 (
 self
@@ -2492,7 +2492,7 @@ other
 param_index
 )
 or
-                
+            
 cmp
 (
 self
@@ -2884,7 +2884,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -2893,7 +2893,7 @@ self
 other
 )
 or
-                
+            
 cmp
 (
 self
@@ -2904,7 +2904,7 @@ other
 element_type
 )
 or
-                
+            
 cmp
 (
 self
@@ -2915,7 +2915,7 @@ other
 size_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -2926,7 +2926,7 @@ other
 length_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -3319,7 +3319,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -3328,7 +3328,7 @@ self
 other
 )
 or
-                
+            
 cmp
 (
 self
@@ -3339,7 +3339,7 @@ other
 size_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -3350,7 +3350,7 @@ other
 length_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -3709,7 +3709,7 @@ other
         
 return
 (
-                
+            
 Type
 .
 __cmp__
@@ -3718,7 +3718,7 @@ self
 other
 )
 or
-                
+            
 cmp
 (
 self
@@ -3729,7 +3729,7 @@ other
 size_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -3740,7 +3740,7 @@ other
 length_is_arg_num
 )
 or
-                
+            
 cmp
 (
 self
@@ -4117,7 +4117,7 @@ other
         
 return
 (
-                
+            
 cmp
 (
 self
@@ -4128,7 +4128,7 @@ other
 type
 )
 or
-                
+            
 cmp
 (
 self
@@ -4139,7 +4139,7 @@ other
 in_
 )
 or
-                
+            
 cmp
 (
 self
@@ -4150,7 +4150,7 @@ other
 out
 )
 or
-                
+            
 cmp
 (
 self
@@ -4161,7 +4161,7 @@ other
 retval
 )
 or
-                
+            
 cmp
 (
 self
@@ -4172,7 +4172,7 @@ other
 shared
 )
 or
-                
+            
 cmp
 (
 self
@@ -4183,7 +4183,7 @@ other
 dipper
 )
 or
-                
+            
 cmp
 (
 self
@@ -5049,7 +5049,7 @@ other
         
 return
 (
-                
+            
 cmp
 (
 self
@@ -5060,7 +5060,7 @@ other
 name
 )
 or
-                
+            
 cmp
 (
 self
@@ -5071,7 +5071,7 @@ other
 getter
 )
 or
-                
+            
 cmp
 (
 self
@@ -5082,7 +5082,7 @@ other
 setter
 )
 or
-                
+            
 cmp
 (
 self
@@ -5093,7 +5093,7 @@ other
 notxpcom
 )
 or
-                
+            
 cmp
 (
 self
@@ -5104,7 +5104,7 @@ other
 constructor
 )
 or
-                
+            
 cmp
 (
 self
@@ -5115,7 +5115,7 @@ other
 hidden
 )
 or
-                
+            
 cmp
 (
 self
@@ -5126,7 +5126,7 @@ other
 optargc
 )
 or
-                
+            
 cmp
 (
 self
@@ -5137,7 +5137,7 @@ other
 implicit_jscontext
 )
 or
-                
+            
 cmp
 (
 sorted
@@ -5154,7 +5154,7 @@ params
 )
 )
 or
-                
+            
 cmp
 (
 self
@@ -6237,7 +6237,7 @@ other
         
 return
 (
-                
+            
 cmp
 (
 self
@@ -6248,7 +6248,7 @@ other
 name
 )
 or
-                
+            
 cmp
 (
 self
@@ -6259,7 +6259,7 @@ other
 type
 )
 or
-                
+            
 cmp
 (
 self
@@ -7343,7 +7343,7 @@ c
         
 return
 (
-                
+            
 cmp
 (
 sorted
@@ -7360,7 +7360,7 @@ methods
 )
 )
 or
-                
+            
 cmp
 (
 sorted
@@ -7377,7 +7377,7 @@ constants
 )
 )
 or
-                
+            
 cmp
 (
 self
@@ -7388,7 +7388,7 @@ other
 scriptable
 )
 or
-                
+            
 cmp
 (
 self
@@ -7399,7 +7399,7 @@ other
 function
 )
 or
-                
+            
 cmp
 (
 self
@@ -7410,7 +7410,7 @@ other
 builtinclass
 )
 or
-                
+            
 cmp
 (
 self
