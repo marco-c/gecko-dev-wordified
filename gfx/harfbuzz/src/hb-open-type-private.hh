@@ -5092,9 +5092,13 @@ return
 major
 <
 <
+(
 sizeof
 (
 FixedType
+)
+*
+8
 )
 )
 +
