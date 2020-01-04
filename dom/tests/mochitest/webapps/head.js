@@ -725,6 +725,13 @@ null
 )
 ;
 }
+showAlert
+:
+function
+(
+)
+{
+}
 showAlertNotification
 :
 function
