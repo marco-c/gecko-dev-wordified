@@ -770,7 +770,7 @@ rt
 )
 ;
 void
-CheckHeapAfterMovingGC
+CheckHeapAfterGC
 (
 JSRuntime
 *
