@@ -1130,6 +1130,11 @@ Matrix4x4
 Preserves3DContext
 (
 )
+:
+mAccumulatedRectLevels
+(
+0
+)
 {
 }
 Preserves3DContext
