@@ -64,6 +64,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 theme

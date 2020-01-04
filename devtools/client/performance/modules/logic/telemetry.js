@@ -72,6 +72,8 @@ Telemetry
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -113,7 +115,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -129,6 +131,8 @@ EVENTS
 "
 "
 devtools
+/
+client
 /
 performance
 /

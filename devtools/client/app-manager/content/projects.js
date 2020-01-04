@@ -98,6 +98,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -124,6 +128,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -143,6 +149,8 @@ require
 "
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -160,6 +168,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -180,6 +190,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -254,6 +266,10 @@ require
 "
 devtools
 /
+shared
+/
+apps
+/
 app
 -
 actor
@@ -282,6 +298,8 @@ modules
 /
 devtools
 /
+shared
+/
 event
 -
 emitter
@@ -298,7 +316,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -

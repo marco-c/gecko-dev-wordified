@@ -131,7 +131,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 tree
 -
@@ -149,7 +155,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 jit
 "

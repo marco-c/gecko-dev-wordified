@@ -202,6 +202,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 undo
@@ -218,6 +220,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -246,6 +250,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -263,6 +271,8 @@ require
 (
 "
 devtools
+/
+client
 /
 markupview
 /
@@ -292,6 +302,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -308,7 +320,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -356,6 +368,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -420,7 +434,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -442,6 +456,10 @@ gre
 modules
 /
 devtools
+/
+shared
+/
+gcli
 /
 Templater
 .
@@ -543,6 +561,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

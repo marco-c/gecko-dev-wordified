@@ -127,7 +127,13 @@ Plugin
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 plugins
 /
@@ -143,7 +149,13 @@ getLocalizedString
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 helpers
 /

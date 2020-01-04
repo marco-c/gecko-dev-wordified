@@ -84,6 +84,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 getjson
@@ -341,6 +343,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

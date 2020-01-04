@@ -97,7 +97,11 @@ global
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "

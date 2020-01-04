@@ -88,6 +88,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -150,7 +152,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -195,6 +197,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -213,7 +217,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 tab
 -
@@ -230,6 +238,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -252,6 +262,8 @@ require
 "
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -269,6 +281,10 @@ require
 (
 "
 devtools
+/
+shared
+/
+apps
 /
 app
 -
@@ -383,7 +399,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 runtimes
 "
@@ -422,6 +442,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

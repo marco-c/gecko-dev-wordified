@@ -76,6 +76,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -93,6 +95,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -119,6 +123,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -147,6 +153,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -174,6 +184,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 DOMHelpers
 .
 jsm
@@ -191,6 +205,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -220,7 +236,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -1196,6 +1212,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -1791,7 +1809,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

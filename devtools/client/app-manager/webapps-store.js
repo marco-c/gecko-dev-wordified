@@ -64,6 +64,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 observable
@@ -80,7 +82,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -
@@ -99,6 +101,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 client
 /

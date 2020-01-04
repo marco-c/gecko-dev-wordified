@@ -138,7 +138,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -404,7 +404,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -421,6 +421,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleeditor
 /

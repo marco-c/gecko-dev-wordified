@@ -122,11 +122,9 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
-.
-js
 "
 )
 ;
@@ -138,7 +136,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -191,6 +189,8 @@ TargetFactory
 "
 "
 devtools
+/
+client
 /
 framework
 /

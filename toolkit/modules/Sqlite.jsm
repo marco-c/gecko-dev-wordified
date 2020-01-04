@@ -374,6 +374,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm

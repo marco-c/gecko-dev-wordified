@@ -136,6 +136,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt

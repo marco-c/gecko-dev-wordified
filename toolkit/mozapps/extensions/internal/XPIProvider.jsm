@@ -456,6 +456,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 ToolboxProcess
 .
 jsm
@@ -480,6 +484,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

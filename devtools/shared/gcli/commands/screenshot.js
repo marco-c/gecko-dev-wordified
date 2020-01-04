@@ -119,7 +119,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /

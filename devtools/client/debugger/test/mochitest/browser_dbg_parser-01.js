@@ -71,6 +71,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 Parser
 .
 jsm

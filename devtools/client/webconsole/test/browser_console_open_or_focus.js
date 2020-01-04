@@ -74,6 +74,10 @@ Tools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )

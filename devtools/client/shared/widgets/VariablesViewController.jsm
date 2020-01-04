@@ -174,6 +174,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -193,6 +199,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -219,6 +231,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .
@@ -259,7 +273,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -331,6 +345,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

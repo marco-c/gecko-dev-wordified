@@ -79,6 +79,8 @@ require
 "
 devtools
 /
+shared
+/
 css
 -
 color
@@ -92,6 +94,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 css
 -

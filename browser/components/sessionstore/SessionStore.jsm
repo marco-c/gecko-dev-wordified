@@ -1096,6 +1096,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -1236,6 +1238,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+scratchpad
 /
 scratchpad
 -

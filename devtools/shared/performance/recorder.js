@@ -200,7 +200,7 @@ Memory
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -220,7 +220,7 @@ Timeline
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -240,7 +240,7 @@ Profiler
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -304,7 +304,7 @@ mapRecordingOptions
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -324,7 +324,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -341,7 +341,7 @@ getSystemInfo
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

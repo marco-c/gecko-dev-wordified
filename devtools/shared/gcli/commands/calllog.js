@@ -110,6 +110,8 @@ TargetFactory
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -134,6 +136,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .

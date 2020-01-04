@@ -98,7 +98,11 @@ L10N
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -116,7 +120,13 @@ WATERFALL_MARKER_SIDEBAR_WIDTH
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+widgets
 /
 marker
 -

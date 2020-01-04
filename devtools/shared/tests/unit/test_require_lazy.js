@@ -76,6 +76,8 @@ path
 "
 devtools
 /
+shared
+/
 async
 -
 utils

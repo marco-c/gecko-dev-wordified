@@ -114,6 +114,8 @@ require
 "
 devtools
 /
+client
+/
 eyedropper
 /
 eyedropper

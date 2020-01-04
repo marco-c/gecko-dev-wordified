@@ -193,6 +193,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -210,6 +212,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -252,6 +256,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -300,6 +306,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -
@@ -411,6 +419,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -437,7 +447,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -513,7 +523,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

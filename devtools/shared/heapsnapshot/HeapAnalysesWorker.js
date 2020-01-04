@@ -130,6 +130,8 @@ devtools
 /
 shared
 /
+shared
+/
 worker
 -
 helper

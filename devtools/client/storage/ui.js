@@ -99,7 +99,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -118,6 +118,8 @@ TreeWidget
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -138,6 +140,8 @@ TableWidget
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -165,6 +169,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -189,6 +199,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -202,6 +218,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

@@ -159,6 +159,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets

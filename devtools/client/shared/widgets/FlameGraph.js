@@ -100,6 +100,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -123,6 +129,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -151,7 +163,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -169,6 +181,8 @@ getColor
 "
 "
 devtools
+/
+client
 /
 shared
 /
@@ -188,7 +202,11 @@ CATEGORY_MAPPINGS
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -206,7 +224,13 @@ FrameUtils
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 frame
 -
@@ -224,6 +248,8 @@ AbstractCanvasGraph
 "
 "
 devtools
+/
+client
 /
 shared
 /
@@ -245,6 +271,8 @@ GraphArea
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -264,6 +292,8 @@ GraphAreaDragger
 "
 "
 devtools
+/
+client
 /
 shared
 /

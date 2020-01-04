@@ -87,7 +87,13 @@ JITOptimizations
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 jit
 "
@@ -105,7 +111,13 @@ FrameUtils
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 frame
 -

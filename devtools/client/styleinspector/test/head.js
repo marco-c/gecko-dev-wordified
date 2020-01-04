@@ -79,6 +79,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -107,6 +111,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -125,6 +131,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -140,6 +148,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -160,6 +170,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 rule
@@ -179,6 +191,8 @@ require
 "
 devtools
 /
+shared
+/
 styleinspector
 /
 css
@@ -195,7 +209,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -223,6 +237,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -253,6 +269,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

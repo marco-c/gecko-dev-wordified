@@ -72,7 +72,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

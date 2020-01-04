@@ -47,6 +47,8 @@ require
 "
 devtools
 /
+shared
+/
 styleinspector
 /
 css

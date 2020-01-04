@@ -75,7 +75,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 tree
 -
@@ -93,7 +99,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

@@ -164,6 +164,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 css

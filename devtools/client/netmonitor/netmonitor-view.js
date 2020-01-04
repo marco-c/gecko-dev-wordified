@@ -125,6 +125,8 @@ require
 "
 devtools
 /
+client
+/
 netmonitor
 /
 har
@@ -132,8 +134,6 @@ har
 har
 -
 exporter
-.
-js
 "
 )
 .
@@ -160,7 +160,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

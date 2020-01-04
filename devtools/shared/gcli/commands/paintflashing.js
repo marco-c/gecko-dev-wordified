@@ -122,6 +122,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -159,7 +161,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

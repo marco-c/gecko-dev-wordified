@@ -124,6 +124,8 @@ require
 "
 devtools
 /
+shared
+/
 content
 -
 observer

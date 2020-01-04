@@ -54,6 +54,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -70,6 +72,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -85,6 +89,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /
@@ -109,6 +115,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -124,6 +132,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /
@@ -143,6 +153,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -159,7 +171,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -176,7 +188,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /

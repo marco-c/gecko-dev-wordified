@@ -50,6 +50,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 sidebar

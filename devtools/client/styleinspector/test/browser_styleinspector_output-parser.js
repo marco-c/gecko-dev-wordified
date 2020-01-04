@@ -116,6 +116,8 @@ require
 "
 devtools
 /
+shared
+/
 output
 -
 parser

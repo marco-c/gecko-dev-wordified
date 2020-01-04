@@ -151,6 +151,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -195,6 +197,8 @@ TargetFactory
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -212,6 +216,8 @@ Toolbox
 "
 "
 devtools
+/
+client
 /
 framework
 /
@@ -238,6 +244,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -296,7 +304,7 @@ DebuggerClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -311,6 +319,10 @@ DefaultTools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -325,7 +337,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -340,6 +352,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -8667,6 +8681,10 @@ loader
 main
 (
 "
+devtools
+/
+client
+/
 main
 "
 )

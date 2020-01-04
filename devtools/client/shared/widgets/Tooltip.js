@@ -105,6 +105,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -123,6 +125,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -140,6 +144,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -159,6 +165,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -175,7 +183,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -192,6 +200,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 css
 -
@@ -223,6 +233,8 @@ require
 "
 devtools
 /
+client
+/
 eyedropper
 /
 eyedropper
@@ -236,6 +248,8 @@ require
 (
 "
 devtools
+/
+client
 /
 sourceeditor
 /
@@ -254,7 +268,11 @@ beautify
 "
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 "
 )
 ;
@@ -314,6 +332,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -338,6 +362,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -362,6 +392,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -385,6 +421,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 VariablesViewController
 .

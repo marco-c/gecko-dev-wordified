@@ -137,7 +137,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -154,7 +154,7 @@ DebuggerSocket
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -174,7 +174,7 @@ AuthenticationResult
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /

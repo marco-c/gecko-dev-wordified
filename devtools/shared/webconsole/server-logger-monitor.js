@@ -152,7 +152,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -175,7 +175,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

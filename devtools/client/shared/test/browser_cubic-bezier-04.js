@@ -94,6 +94,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -111,6 +113,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

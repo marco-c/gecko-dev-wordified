@@ -100,6 +100,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -148,6 +150,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .

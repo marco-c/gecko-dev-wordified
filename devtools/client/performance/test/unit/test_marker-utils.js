@@ -65,7 +65,11 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 markers
 "
@@ -79,7 +83,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 marker
 -

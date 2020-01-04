@@ -525,6 +525,8 @@ modules
 /
 devtools
 /
+server
+/
 content
 -
 server

@@ -176,6 +176,8 @@ require
 "
 devtools
 /
+shared
+/
 styleinspector
 /
 css
@@ -232,6 +234,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

@@ -127,7 +127,13 @@ Plugin
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 plugins
 /

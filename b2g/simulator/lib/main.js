@@ -170,6 +170,10 @@ modules
 /
 devtools
 /
+shared
+/
+apps
+/
 Simulator
 .
 jsm

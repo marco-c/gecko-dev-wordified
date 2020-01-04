@@ -93,6 +93,8 @@ require
 "
 devtools
 /
+shared
+/
 async
 -
 utils

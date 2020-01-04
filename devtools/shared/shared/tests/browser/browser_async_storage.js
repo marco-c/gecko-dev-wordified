@@ -106,7 +106,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

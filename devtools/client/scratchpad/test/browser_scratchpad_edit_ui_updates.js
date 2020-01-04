@@ -64,7 +64,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

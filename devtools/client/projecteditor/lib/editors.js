@@ -180,6 +180,8 @@ require
 "
 devtools
 /
+client
+/
 sourceeditor
 /
 editor

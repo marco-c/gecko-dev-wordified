@@ -168,6 +168,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -188,6 +192,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -
@@ -210,6 +216,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -260,6 +272,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -275,6 +289,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -292,6 +308,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 doorhanger
@@ -308,7 +326,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 touch
 /
@@ -1138,6 +1156,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+responsivedesign
 /
 responsivedesign
 -

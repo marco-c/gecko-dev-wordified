@@ -69,6 +69,8 @@ modules
 /
 devtools
 /
+shared
+/
 deprecated
 -
 sync
@@ -101,6 +103,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -118,6 +122,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -137,7 +143,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

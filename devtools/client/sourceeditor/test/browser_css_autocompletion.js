@@ -58,6 +58,8 @@ require
 "
 devtools
 /
+client
+/
 sourceeditor
 /
 css
@@ -93,6 +95,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

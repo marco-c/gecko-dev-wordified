@@ -104,7 +104,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -122,6 +122,8 @@ Poller
 "
 "
 devtools
+/
+client
 /
 shared
 /
@@ -141,7 +143,7 @@ CompatUtils
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -162,7 +164,7 @@ RecordingUtils
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

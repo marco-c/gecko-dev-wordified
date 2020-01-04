@@ -121,6 +121,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -143,7 +145,7 @@ require
 '
 devtools
 /
-toolkit
+shared
 /
 touch
 /
@@ -949,6 +951,10 @@ modules
 /
 devtools
 /
+client
+/
+responsivedesign
+/
 responsivedesign
 .
 jsm
@@ -1274,6 +1280,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -1301,6 +1311,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .

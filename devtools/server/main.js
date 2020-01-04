@@ -186,7 +186,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 transport
 /
@@ -202,7 +202,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -225,7 +225,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -276,7 +276,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -309,7 +309,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -726,7 +726,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -
@@ -6579,7 +6579,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

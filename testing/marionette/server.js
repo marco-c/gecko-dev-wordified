@@ -277,6 +277,8 @@ modules
 /
 devtools
 /
+shared
+/
 transport
 /
 transport

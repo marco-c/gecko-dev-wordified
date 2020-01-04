@@ -70,6 +70,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -85,6 +87,8 @@ require
 (
 "
 devtools
+/
+client
 /
 sourceeditor
 /
@@ -110,7 +114,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

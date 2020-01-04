@@ -64,6 +64,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 observable
@@ -99,6 +101,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 client
 /

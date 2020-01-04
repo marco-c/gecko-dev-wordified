@@ -91,6 +91,8 @@ require
 "
 devtools
 /
+shared
+/
 css
 -
 color
@@ -387,6 +389,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -405,6 +409,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 output
 -

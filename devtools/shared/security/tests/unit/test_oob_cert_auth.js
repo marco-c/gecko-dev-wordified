@@ -40,7 +40,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /

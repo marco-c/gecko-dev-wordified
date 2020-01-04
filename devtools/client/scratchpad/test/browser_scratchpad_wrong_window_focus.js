@@ -246,6 +246,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -263,6 +265,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

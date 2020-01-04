@@ -344,6 +344,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -382,6 +384,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -395,6 +401,8 @@ require
 (
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -421,6 +429,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -654,6 +664,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 ToolboxProcess
 .
 jsm
@@ -753,6 +767,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .

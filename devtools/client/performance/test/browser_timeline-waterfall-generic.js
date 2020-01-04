@@ -86,7 +86,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+widgets
 /
 marker
 -

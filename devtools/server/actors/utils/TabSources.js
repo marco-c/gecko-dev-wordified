@@ -92,7 +92,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -114,7 +114,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

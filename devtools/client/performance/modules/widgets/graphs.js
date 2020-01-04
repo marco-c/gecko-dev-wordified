@@ -135,6 +135,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -148,6 +154,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -164,6 +172,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -180,6 +190,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -198,6 +210,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -228,7 +242,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -246,6 +260,8 @@ colorUtils
 "
 "
 devtools
+/
+shared
 /
 css
 -
@@ -265,6 +281,8 @@ getColor
 "
 devtools
 /
+client
+/
 shared
 /
 theme
@@ -283,7 +301,11 @@ ProfilerGlobal
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -300,7 +322,11 @@ L10N
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -318,7 +344,13 @@ MarkersOverview
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+widgets
 /
 markers
 -
@@ -338,7 +370,13 @@ createTierGraphDataFromFrameNode
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 jit
 "

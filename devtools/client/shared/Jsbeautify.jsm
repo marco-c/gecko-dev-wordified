@@ -74,7 +74,11 @@ require
 "
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 "
 )
 instead
@@ -117,6 +121,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -135,7 +141,11 @@ require
 "
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 "
 )
 ;

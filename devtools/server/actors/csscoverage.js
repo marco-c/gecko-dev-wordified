@@ -171,6 +171,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -270,6 +274,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

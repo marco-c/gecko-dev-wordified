@@ -131,6 +131,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 SideMenuWidget
 .
 jsm
@@ -150,6 +156,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -171,6 +183,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -198,6 +212,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -224,7 +240,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -278,7 +294,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -291,6 +307,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -427,7 +445,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

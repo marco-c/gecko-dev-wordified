@@ -172,7 +172,13 @@ forget
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 helpers
 /
@@ -202,7 +208,13 @@ LocalStore
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 stores
 /

@@ -66,6 +66,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 AbstractTreeItem
 .
 jsm
@@ -92,6 +98,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .

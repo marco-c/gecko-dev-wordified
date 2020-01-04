@@ -137,6 +137,8 @@ require
 "
 devtools
 /
+client
+/
 styleeditor
 /
 utils
@@ -153,6 +155,8 @@ overlays
 "
 "
 devtools
+/
+client
 /
 styleinspector
 /

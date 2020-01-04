@@ -123,7 +123,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -151,7 +151,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

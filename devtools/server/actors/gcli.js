@@ -1684,7 +1684,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /

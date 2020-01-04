@@ -205,7 +205,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -232,7 +232,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 path
 "
@@ -292,13 +292,11 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
 worker
-.
-js
 "
 )
 ;
@@ -388,6 +386,8 @@ CssLogic
 "
 "
 devtools
+/
+shared
 /
 styleinspector
 /

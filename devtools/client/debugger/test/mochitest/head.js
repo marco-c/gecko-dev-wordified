@@ -201,6 +201,8 @@ modules
 /
 devtools
 /
+shared
+/
 deprecated
 -
 sync
@@ -232,6 +234,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -260,6 +266,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -276,7 +284,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -300,6 +308,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 ToolboxProcess
 .
@@ -336,7 +348,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -378,7 +390,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -396,6 +408,8 @@ require
 "
 devtools
 /
+shared
+/
 async
 -
 utils
@@ -412,6 +426,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -427,6 +443,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

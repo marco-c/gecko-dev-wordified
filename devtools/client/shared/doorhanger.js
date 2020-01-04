@@ -113,6 +113,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 DOMHelpers
 .
 jsm

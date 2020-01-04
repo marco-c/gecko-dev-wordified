@@ -85,6 +85,8 @@ HarAutomation
 "
 devtools
 /
+client
+/
 netmonitor
 /
 har

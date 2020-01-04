@@ -181,7 +181,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -197,6 +197,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -211,6 +213,8 @@ require
 "
 devtools
 /
+client
+/
 webconsole
 /
 hudservice
@@ -224,6 +228,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -266,6 +272,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -285,6 +295,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+scratchpad
 /
 scratchpad
 -
@@ -307,6 +321,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
 /
 DOMHelpers
 .
@@ -350,6 +368,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
 /
 DeveloperToolbar
 .
@@ -488,6 +510,8 @@ getHighlighterUtils
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox
@@ -510,6 +534,8 @@ Hosts
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox
@@ -529,6 +555,8 @@ Selection
 "
 "
 devtools
+/
+client
 /
 framework
 /
@@ -568,7 +596,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -584,6 +612,8 @@ showDoorhanger
 "
 "
 devtools
+/
+client
 /
 shared
 /
@@ -623,7 +653,7 @@ system
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -693,6 +723,8 @@ require
 "
 devtools
 /
+client
+/
 netmonitor
 /
 har
@@ -700,8 +732,6 @@ har
 toolbox
 -
 overlay
-.
-js
 "
 )
 .
@@ -868,6 +898,8 @@ commands
 :
 "
 devtools
+/
+client
 /
 tilt
 /

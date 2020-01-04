@@ -94,6 +94,8 @@ require
 "
 devtools
 /
+client
+/
 styleeditor
 /
 utils

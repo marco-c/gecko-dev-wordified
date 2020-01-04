@@ -121,6 +121,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -149,6 +153,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -176,6 +182,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 Curl
 .
 jsm
@@ -202,7 +212,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -220,7 +230,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -235,6 +245,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -251,6 +263,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

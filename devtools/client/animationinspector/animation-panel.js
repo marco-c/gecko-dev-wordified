@@ -131,6 +131,8 @@ require
 "
 devtools
 /
+client
+/
 animationinspector
 /
 components

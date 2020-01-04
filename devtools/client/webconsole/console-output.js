@@ -133,6 +133,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -157,6 +163,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -180,6 +192,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -254,6 +270,8 @@ TableWidget
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -274,7 +292,7 @@ ObjectClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -397,7 +415,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

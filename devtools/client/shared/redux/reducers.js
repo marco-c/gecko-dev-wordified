@@ -71,6 +71,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 vendor

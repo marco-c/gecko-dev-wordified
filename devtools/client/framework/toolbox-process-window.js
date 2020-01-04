@@ -95,6 +95,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -123,6 +127,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -141,6 +147,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -156,6 +164,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -199,7 +209,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -225,6 +235,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .

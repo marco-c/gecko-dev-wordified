@@ -109,6 +109,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -124,6 +128,10 @@ defaultThemes
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -178,6 +186,10 @@ from
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -191,6 +203,10 @@ defaultTools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -204,6 +220,10 @@ defaultThemes
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -217,6 +237,10 @@ Tools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -242,6 +266,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -272,6 +298,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

@@ -317,6 +317,8 @@ modules
 /
 devtools
 /
+shared
+/
 event
 -
 emitter

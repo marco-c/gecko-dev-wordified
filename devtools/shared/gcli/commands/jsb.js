@@ -139,7 +139,11 @@ beautify
 "
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 "
 )
 ;

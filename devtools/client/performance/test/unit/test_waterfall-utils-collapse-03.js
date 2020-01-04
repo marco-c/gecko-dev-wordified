@@ -81,7 +81,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 waterfall
 -

@@ -109,7 +109,7 @@ PerformanceIO
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -128,7 +128,7 @@ RecordingUtils
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -147,7 +147,7 @@ PerformanceRecordingCommon
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

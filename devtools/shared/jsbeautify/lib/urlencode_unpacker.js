@@ -112,9 +112,11 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 jsbeautify
+/
+lib
 /
 sanitytest
 "

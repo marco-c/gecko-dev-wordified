@@ -198,6 +198,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 inplace
@@ -215,7 +217,13 @@ forget
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 helpers
 /

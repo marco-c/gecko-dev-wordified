@@ -77,6 +77,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -127,6 +131,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -144,6 +150,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -165,6 +173,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -185,7 +195,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 app
 -
@@ -203,7 +217,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 build
 "

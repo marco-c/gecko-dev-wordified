@@ -82,6 +82,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -108,6 +112,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -126,6 +132,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox
@@ -143,6 +151,8 @@ require
 "
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -159,7 +169,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -

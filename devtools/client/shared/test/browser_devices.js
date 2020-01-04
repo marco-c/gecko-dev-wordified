@@ -39,6 +39,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 devices

@@ -121,6 +121,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -137,7 +143,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -166,7 +172,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -192,6 +198,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 shared
 /
@@ -255,6 +263,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 GraphsWorker
 .

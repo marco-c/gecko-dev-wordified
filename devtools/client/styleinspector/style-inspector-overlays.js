@@ -184,6 +184,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -200,7 +202,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -402,6 +404,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -1531,6 +1535,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /

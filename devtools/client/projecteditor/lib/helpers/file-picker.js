@@ -198,7 +198,13 @@ getLocalizedString
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 helpers
 /

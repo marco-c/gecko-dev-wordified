@@ -38,7 +38,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 transport
 /

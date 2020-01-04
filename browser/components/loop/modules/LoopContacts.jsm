@@ -114,6 +114,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -246,6 +248,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -

@@ -170,7 +170,13 @@ EditorTypeForResource
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 editors
 "
@@ -184,7 +190,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

@@ -99,6 +99,8 @@ require
 "
 devtools
 /
+client
+/
 sourceeditor
 /
 editor
@@ -138,6 +140,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -

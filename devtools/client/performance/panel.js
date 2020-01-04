@@ -175,7 +175,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

@@ -152,6 +152,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -169,6 +171,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -196,6 +200,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -222,7 +228,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

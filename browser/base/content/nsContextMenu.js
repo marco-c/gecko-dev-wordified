@@ -5643,6 +5643,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
