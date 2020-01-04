@@ -2718,6 +2718,12 @@ const
 uintptr_t
 step
 =
+js
+:
+:
+gc
+:
+:
 ChunkSize
 ;
 uintptr_t
