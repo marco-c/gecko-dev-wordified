@@ -844,6 +844,11 @@ mAllEvents
 :
 1
 ;
+bool
+mIsChrome
+:
+1
+;
 EventListenerFlags
 mFlags
 ;
