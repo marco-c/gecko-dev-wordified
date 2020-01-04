@@ -214,6 +214,13 @@ nsJSUtils
 .
 h
 "
+#
+include
+"
+xpcprivate
+.
+h
+"
 using
 namespace
 mozilla
