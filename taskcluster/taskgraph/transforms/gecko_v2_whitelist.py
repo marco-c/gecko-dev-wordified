@@ -424,26 +424,6 @@ opt
 '
     
 '
-mulet
--
-dbg
-'
-    
-'
-mulet
--
-haz
--
-debug
-'
-    
-'
-mulet
--
-opt
-'
-    
-'
 nexus
 -
 5

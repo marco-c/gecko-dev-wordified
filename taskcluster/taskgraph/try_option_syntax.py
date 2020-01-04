@@ -193,12 +193,6 @@ analysis
 '
 spidermonkey
 '
-    
-'
-b2g
--
-device
-'
 ]
 )
 #
