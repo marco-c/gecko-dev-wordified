@@ -678,16 +678,11 @@ do_GetService
 NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 os
 )
 ;
-if
-(
-os
-)
-{
 MOZ_ALWAYS_SUCCEEDS
 (
 os
@@ -789,7 +784,6 @@ nullptr
 )
 )
 ;
-}
 if
 (
 NS_FAILED

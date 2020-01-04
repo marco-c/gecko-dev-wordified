@@ -192,7 +192,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mThread
 )
@@ -609,7 +609,7 @@ operator
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCopyCounter
 )
@@ -700,7 +700,7 @@ operator
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCopyCounter
 )
@@ -781,7 +781,7 @@ operator
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mMoveCounter
 )
@@ -896,12 +896,12 @@ operator
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCopyCounter
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mMoveCounter
 )
@@ -2308,7 +2308,7 @@ TestSuicide
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 thread
 )
