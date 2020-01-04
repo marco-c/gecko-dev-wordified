@@ -17202,7 +17202,6 @@ isForEval
 )
 &
 &
-!
 (
 state
 .
@@ -17218,7 +17217,7 @@ type
 InterpreterFrame
 :
 :
-GLOBAL
+FUNCTION
 )
 )
 {
