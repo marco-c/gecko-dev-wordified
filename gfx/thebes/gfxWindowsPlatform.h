@@ -887,6 +887,13 @@ aFormatFlags
 )
 override
 ;
+virtual
+void
+CompositorUpdated
+(
+)
+override
+;
 bool
 DidRenderingDeviceReset
 (
