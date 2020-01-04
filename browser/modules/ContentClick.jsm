@@ -648,11 +648,6 @@ allowMixedContent
 json
 .
 allowMixedContent
-isContentWindowPrivate
-:
-json
-.
-isContentWindowPrivate
 }
 ;
 /
