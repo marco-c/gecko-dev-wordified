@@ -1082,6 +1082,7 @@ RotatedContentBuffer
 {
 public
 :
+explicit
 ContentClientBasic
 (
 gfx
