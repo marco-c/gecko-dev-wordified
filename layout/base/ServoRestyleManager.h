@@ -202,6 +202,10 @@ NS_INLINE_DECL_REFCOUNTING
 (
 ServoRestyleManager
 )
+ServoRestyleManager
+(
+)
+;
 void
 Disconnect
 (
@@ -376,6 +380,9 @@ ServoRestyleManager
 )
 {
 }
+uint64_t
+mRestyleGeneration
+;
 }
 ;
 }
