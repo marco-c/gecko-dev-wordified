@@ -108,6 +108,17 @@ nsITelemetry
 :
 SCALAR_STRING
 '
+    
+'
+boolean
+'
+:
+'
+nsITelemetry
+:
+:
+SCALAR_BOOLEAN
+'
 }
 class
 ScalarType
