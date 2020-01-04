@@ -292,9 +292,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 device
 "
