@@ -5561,6 +5561,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineRegExpInstanceOptimizable
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Object

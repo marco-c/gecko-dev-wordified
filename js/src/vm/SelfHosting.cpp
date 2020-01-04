@@ -16770,6 +16770,16 @@ RegExpPrototypeOptimizable
 0
 RegExpPrototypeOptimizable
 )
+JS_INLINABLE_FN
+(
+"
+RegExpInstanceOptimizable
+"
+RegExpInstanceOptimizable
+1
+0
+RegExpInstanceOptimizable
+)
 /
 /
 See
