@@ -1835,7 +1835,7 @@ notifications
 void
 ContentInserted
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -1859,7 +1859,7 @@ notifications
 void
 ContentAppended
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
@@ -1964,7 +1964,7 @@ removal
 void
 ContentRemoved
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -2017,7 +2017,7 @@ needed
 void
 RestyleForInsertOrChange
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -2067,7 +2067,7 @@ needed
 void
 RestyleForAppend
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
