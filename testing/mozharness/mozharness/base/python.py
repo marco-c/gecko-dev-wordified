@@ -3849,9 +3849,9 @@ register_virtualenv_module
 psutil
 >
 =
-0
+3
 .
-7
+1
 .
 1
 '
@@ -3876,9 +3876,7 @@ mozsystemmonitor
 =
 0
 .
-0
-.
-0
+1
 '
                                         
 method
