@@ -975,6 +975,13 @@ aObjects
 nsIPrincipal
 *
 aPrincipal
+const
+JS
+:
+:
+Value
+&
+aTransfers
 JSContext
 *
 aCx

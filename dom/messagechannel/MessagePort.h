@@ -227,9 +227,9 @@ MessagePort
 >
 Create
 (
-nsPIDOMWindowInner
+nsISupports
 *
-aWindow
+aSupport
 const
 nsID
 &
@@ -250,9 +250,9 @@ MessagePort
 >
 Create
 (
-nsPIDOMWindowInner
+nsISupports
 *
-aWindow
+aSupport
 const
 MessagePortIdentifier
 &
@@ -427,9 +427,9 @@ private
 explicit
 MessagePort
 (
-nsPIDOMWindowInner
+nsISupports
 *
-aWindow
+nsISupports
 )
 ;
 ~
