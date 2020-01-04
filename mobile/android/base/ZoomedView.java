@@ -1960,7 +1960,7 @@ R
 .
 dimen
 .
-button_corner_radius
+standard_corner_radius
 )
 ;
 moveToolbar
