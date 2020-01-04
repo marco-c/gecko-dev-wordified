@@ -1191,6 +1191,12 @@ TransitionProperty
 )
 const
 ;
+StyleAnimationValue
+ToValue
+(
+)
+const
+;
 bool
 HasLowerCompositeOrderThan
 (
