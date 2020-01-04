@@ -6969,7 +6969,7 @@ NS_ENSURE_TRUE
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 NS_ERROR_NOT_AVAILABLE
@@ -7074,7 +7074,7 @@ NS_ENSURE_TRUE
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 NS_ERROR_NOT_AVAILABLE
@@ -17550,6 +17550,14 @@ bool
 callerIsContentJS
 =
 (
+nsContentUtils
+:
+:
+GetCurrentJSContext
+(
+)
+&
+&
 !
 nsContentUtils
 :

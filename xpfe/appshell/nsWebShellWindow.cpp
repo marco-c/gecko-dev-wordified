@@ -1417,7 +1417,7 @@ CreateAboutBlankContentViewer
 nsContentUtils
 :
 :
-SubjectPrincipal
+SubjectPrincipalOrSystemIfNativeCaller
 (
 )
 )

@@ -17128,7 +17128,7 @@ MOZ_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )

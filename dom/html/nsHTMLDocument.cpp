@@ -16615,6 +16615,15 @@ if
 nsContentUtils
 :
 :
+LegacyIsCallerNativeCode
+(
+)
+&
+&
+!
+nsContentUtils
+:
+:
 SubjectPrincipal
 (
 )

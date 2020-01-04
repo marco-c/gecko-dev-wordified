@@ -413,7 +413,7 @@ webIDLCallerPrincipal
 nsContentUtils
 :
 :
-SubjectPrincipal
+SubjectPrincipalOrSystemIfNativeCaller
 (
 )
 ;

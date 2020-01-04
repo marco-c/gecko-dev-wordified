@@ -12395,7 +12395,7 @@ newWindowPrincipal
 nsContentUtils
 :
 :
-SubjectPrincipal
+SubjectPrincipalOrSystemIfNativeCaller
 (
 )
 ;
@@ -25800,7 +25800,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -34968,7 +34968,7 @@ eForFullscreenMode
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -43991,7 +43991,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -54094,6 +54094,15 @@ IsOuterWindow
 &
 &
 mInnerWindow
+&
+&
+!
+nsContentUtils
+:
+:
+LegacyIsCallerNativeCode
+(
+)
 &
 &
 !
@@ -65659,7 +65668,7 @@ checkForPopup
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 &

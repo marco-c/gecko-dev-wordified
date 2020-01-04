@@ -8596,7 +8596,7 @@ IsHandlingUserInput
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )

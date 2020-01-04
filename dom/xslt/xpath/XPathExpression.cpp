@@ -493,6 +493,15 @@ if
 nsContentUtils
 :
 :
+LegacyIsCallerNativeCode
+(
+)
+&
+&
+!
+nsContentUtils
+:
+:
 CanCallerAccess
 (
 &
