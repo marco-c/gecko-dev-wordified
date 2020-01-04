@@ -329,9 +329,11 @@ nullptr
 {
 MOZ_ASSERT
 (
-IsCallable
-(
 executor
+-
+>
+isCallable
+(
 )
 )
 ;
