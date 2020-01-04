@@ -5311,6 +5311,7 @@ Task
 spawn
 (
 function
+*
 _openFile
 (
 )

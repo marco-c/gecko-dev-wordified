@@ -2979,12 +2979,10 @@ Register
 {
 urls
 :
-[
-u
-for
+Array
+.
+from
 (
-u
-of
 this
 .
 pages
@@ -2993,7 +2991,6 @@ keys
 (
 )
 )
-]
 }
 )
 }

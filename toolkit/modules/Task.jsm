@@ -2158,7 +2158,10 @@ arguments
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 Task
@@ -2177,11 +2180,6 @@ value
 )
 ;
 }
-catch
-(
-ex
-)
-{
 return
 Promise
 .
@@ -2758,7 +2756,10 @@ yielded
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 Task
@@ -2800,10 +2801,9 @@ value
 )
 ;
 }
-catch
-(
-ex
+else
 if
+(
 ex
 instanceof
 StopIteration
@@ -2830,10 +2830,7 @@ undefined
 )
 ;
 }
-catch
-(
-ex
-)
+else
 {
 /
 /
@@ -2853,6 +2850,7 @@ _handleException
 ex
 )
 ;
+}
 }
 }
 }

@@ -412,6 +412,7 @@ target
 add_task
 (
 function
+*
 test_extractFilesAsync
 (
 )
