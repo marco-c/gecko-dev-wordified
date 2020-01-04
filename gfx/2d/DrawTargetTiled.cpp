@@ -473,6 +473,15 @@ mRect
 )
 ;
 }
+void
+DrawTargetTiled
+:
+:
+DetachAllSnapshots
+(
+)
+{
+}
 /
 /
 Skip

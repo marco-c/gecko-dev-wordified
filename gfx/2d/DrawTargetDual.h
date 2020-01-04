@@ -436,6 +436,13 @@ GetSize
 )
 ;
 }
+virtual
+void
+DetachAllSnapshots
+(
+)
+override
+;
 FORWARD_FUNCTION
 (
 Flush
