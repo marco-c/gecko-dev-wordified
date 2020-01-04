@@ -1093,7 +1093,7 @@ getContext
 )
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {

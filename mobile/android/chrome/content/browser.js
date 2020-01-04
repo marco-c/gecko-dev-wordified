@@ -32252,8 +32252,7 @@ to
 let
 you
 open
-any
-file
+various
 urls
 .
 if
@@ -32265,7 +32264,7 @@ isAllowed
 (
 ParentalControls
 .
-VISIT_FILE_URLS
+BROWSE
 fixedURI
 )
 )

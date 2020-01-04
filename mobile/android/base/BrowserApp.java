@@ -11704,7 +11704,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_LOCATION_SERVICE
+LOCATION_SERVICE
 )
 )
 {
@@ -19984,7 +19984,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_SHARE
+SHARE
 )
 ;
 share
@@ -20032,7 +20032,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_DOWNLOADS
+DOWNLOAD
 )
 )
 ;
@@ -20528,7 +20528,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 ;
 MenuUtils
@@ -20714,7 +20714,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_GUEST_BROWSING
+GUEST_BROWSING
 )
 )
 {
@@ -20742,7 +20742,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_INSTALL_EXTENSION
+INSTALL_EXTENSION
 )
 )
 {

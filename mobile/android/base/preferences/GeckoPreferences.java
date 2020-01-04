@@ -3663,7 +3663,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_ADVANCED_SETTINGS
+ADVANCED_SETTINGS
 )
 )
 {
@@ -4928,7 +4928,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_ADVANCED_SETTINGS
+ADVANCED_SETTINGS
 )
 )
 {
@@ -5042,7 +5042,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {
@@ -5303,7 +5303,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_LOCATION_SERVICE
+LOCATION_SERVICE
 )
 )
 {
@@ -5343,7 +5343,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_REMOTE_DEBUGGING
+REMOTE_DEBUGGING
 )
 )
 {
@@ -5383,7 +5383,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_REMOTE_DEBUGGING
+REMOTE_DEBUGGING
 )
 )
 {
@@ -5483,7 +5483,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_REMOTE_DEBUGGING
+REMOTE_DEBUGGING
 )
 )
 {
@@ -5629,7 +5629,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_MODIFY_ACCOUNTS
+MODIFY_ACCOUNTS
 )
 )
 {
@@ -5941,7 +5941,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {
@@ -5981,7 +5981,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {
@@ -6021,7 +6021,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_MASTER_PASSWORD
+MASTER_PASSWORD
 )
 )
 {
@@ -6103,7 +6103,7 @@ isAllowed
 this
 Restrictable
 .
-DISALLOW_CLEAR_HISTORY
+CLEAR_HISTORY
 )
 )
 {

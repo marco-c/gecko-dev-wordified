@@ -284,7 +284,7 @@ isAllowed
 context
 Restrictable
 .
-DISALLOW_IMPORT_SETTINGS
+IMPORT_SETTINGS
 )
 ;
 }
