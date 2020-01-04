@@ -1119,6 +1119,9 @@ Allow
 (
 )
 )
+#
+ifdef
+CLOCK_MONOTONIC_COARSE
 .
 ElseIf
 (
@@ -1130,6 +1133,8 @@ Allow
 (
 )
 )
+#
+endif
 .
 ElseIf
 (
@@ -1152,6 +1157,9 @@ Allow
 (
 )
 )
+#
+ifdef
+CLOCK_REALTIME_COARSE
 .
 ElseIf
 (
@@ -1163,6 +1171,8 @@ Allow
 (
 )
 )
+#
+endif
 .
 ElseIf
 (
