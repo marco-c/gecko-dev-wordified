@@ -802,6 +802,7 @@ compositor
 new
 CompositorOGL
 (
+nullptr
 widget
 gCompWidth
 gCompHeight
@@ -838,6 +839,7 @@ compositor
 new
 BasicCompositor
 (
+nullptr
 widget
 )
 ;
