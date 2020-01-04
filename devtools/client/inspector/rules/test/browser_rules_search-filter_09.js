@@ -231,12 +231,9 @@ let
 editor
 =
 yield
-focusEditableField
+focusNewRuleViewProperty
 (
-view
 ruleEditor
-.
-closeBrace
 )
 ;
 info
