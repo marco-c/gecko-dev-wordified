@@ -10849,7 +10849,7 @@ mAlignItems
 *
 Return
 the
-computed
+used
 value
 for
 '
@@ -10874,7 +10874,7 @@ root
 *
 /
 uint8_t
-ComputedAlignSelf
+UsedAlignSelf
 (
 nsStyleContext
 *
@@ -10954,7 +10954,7 @@ const
 *
 Return
 the
-computed
+used
 value
 for
 '
@@ -10979,7 +10979,7 @@ root
 *
 /
 uint8_t
-ComputedJustifySelf
+UsedJustifySelf
 (
 nsStyleContext
 *

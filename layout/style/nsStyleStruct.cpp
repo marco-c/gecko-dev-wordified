@@ -9699,7 +9699,7 @@ uint8_t
 nsStylePosition
 :
 :
-ComputedAlignSelf
+UsedAlignSelf
 (
 nsStyleContext
 *
@@ -9879,7 +9879,7 @@ uint8_t
 nsStylePosition
 :
 :
-ComputedJustifySelf
+UsedJustifySelf
 (
 nsStyleContext
 *
