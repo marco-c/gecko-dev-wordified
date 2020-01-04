@@ -526,16 +526,7 @@ responses
 )
 ;
 yield
-waitForPromise
-(
 timeoutPromise
-DEFAULT_TIMEOUT
-'
-Reconnect
-timed
-out
-'
-)
 ;
 equal
 (

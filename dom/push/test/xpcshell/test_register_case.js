@@ -248,8 +248,6 @@ let
 newRecord
 =
 yield
-waitForPromise
-(
 PushService
 .
 register
@@ -288,17 +286,6 @@ false
 }
 )
 }
-)
-DEFAULT_TIMEOUT
-'
-Mixed
--
-case
-register
-response
-timed
-out
-'
 )
 ;
 equal
