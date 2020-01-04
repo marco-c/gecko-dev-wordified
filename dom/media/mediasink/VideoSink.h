@@ -411,7 +411,7 @@ listener
 related
 .
 void
-OnVideoQueueEvent
+OnVideoQueuePushed
 (
 RefPtr
 <
@@ -420,6 +420,11 @@ MediaData
 &
 &
 aSample
+)
+;
+void
+OnVideoQueueFinished
+(
 )
 ;
 void
@@ -769,6 +774,9 @@ for
 VideoQueue
 MediaEventListener
 mPushListener
+;
+MediaEventListener
+mFinishListener
 ;
 /
 /
