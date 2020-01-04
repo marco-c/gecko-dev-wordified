@@ -985,6 +985,9 @@ ConsoleApiCall
 {
 message
 onViewSourceInDebugger
+open
+:
+true
 }
 )
 )

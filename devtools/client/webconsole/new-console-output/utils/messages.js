@@ -818,6 +818,17 @@ messageText
 pageError
 .
 errorMessage
+stacktrace
+:
+pageError
+.
+stacktrace
+?
+pageError
+.
+stacktrace
+:
+null
 frame
 }
 )
