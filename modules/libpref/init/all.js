@@ -16312,9 +16312,12 @@ img
 <
 area
 >
-and
 <
 iframe
+>
+and
+<
+link
 >
 are
 honoured
