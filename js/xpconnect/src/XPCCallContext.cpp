@@ -1068,6 +1068,10 @@ mState
 =
 SYSTEM_SHUTDOWN
 ;
+mSet
+=
+nullptr
+;
 mInterface
 =
 nullptr
