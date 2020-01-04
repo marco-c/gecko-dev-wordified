@@ -4800,7 +4800,9 @@ HasPseudoElementData
 )
 |
 |
-mPseudoTag
+IsPseudoElement
+(
+)
 )
 {
 mBits
