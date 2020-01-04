@@ -1655,6 +1655,12 @@ GetPageEnd
 const
 ;
 ParentLayerCoord
+GetScrollRangeEnd
+(
+)
+const
+;
+ParentLayerCoord
 GetPos
 (
 )

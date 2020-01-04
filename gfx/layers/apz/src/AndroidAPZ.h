@@ -246,6 +246,14 @@ override
 ;
 private
 :
+void
+DeferHandleFlingOverscroll
+(
+ParentLayerPoint
+&
+aVelocity
+)
+;
 /
 /
 Returns
@@ -268,6 +276,8 @@ Axis
 aAxis
 float
 aValue
+float
+aDirection
 float
 *
 aClamped
@@ -329,8 +339,8 @@ fling
 ParentLayerPoint
 mFlingDirection
 ;
-int32_t
-mOverScrollCount
+ParentLayerPoint
+mPreviousVelocity
 ;
 }
 ;
