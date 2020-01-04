@@ -82,7 +82,6 @@ MP4PARSE_OK
 #
 define
 MP4PARSE_ERROR_BADARG
--
 1
 /
 /
@@ -92,7 +91,6 @@ failure
 #
 define
 MP4PARSE_ERROR_INVALID
--
 2
 /
 /
@@ -103,7 +101,6 @@ InvalidData
 #
 define
 MP4PARSE_ERROR_UNSUPPORTED
--
 3
 /
 /
@@ -114,7 +111,6 @@ Unsupported
 #
 define
 MP4PARSE_ERROR_EOF
--
 4
 /
 /
@@ -125,7 +121,6 @@ UnexpectedEOF
 #
 define
 MP4PARSE_ASSERT
--
 5
 /
 /
@@ -136,7 +131,6 @@ AssertCaught
 #
 define
 MP4PARSE_ERROR_IO
--
 6
 /
 /
