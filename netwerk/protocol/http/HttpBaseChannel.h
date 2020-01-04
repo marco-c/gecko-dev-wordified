@@ -2015,6 +2015,8 @@ nsIChannel
 *
 bool
 preserveMethod
+uint32_t
+redirectFlags
 )
 ;
 /

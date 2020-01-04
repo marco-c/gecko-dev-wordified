@@ -6117,6 +6117,10 @@ const
 nsHttpResponseHead
 *
 responseHead
+const
+uint32_t
+&
+redirectFlags
 nsIChannel
 *
 *
@@ -6259,6 +6263,7 @@ uri
 newChannel
 !
 rewriteToGET
+redirectFlags
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6445,6 +6450,7 @@ SetupRedirect
 uri
 &
 responseHead
+redirectFlags
 getter_AddRefs
 (
 newChannel
@@ -6575,6 +6581,10 @@ SetupRedirect
 (
 responseURI
 responseHead
+nsIChannelEventSink
+:
+:
+REDIRECT_INTERNAL
 getter_AddRefs
 (
 newChannel
