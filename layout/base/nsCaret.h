@@ -1002,9 +1002,6 @@ context
 void
 PaintCaret
 (
-nsDisplayListBuilder
-*
-aBuilder
 DrawTarget
 &
 aDrawTarget

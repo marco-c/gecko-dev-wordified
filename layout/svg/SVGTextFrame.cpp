@@ -23253,7 +23253,6 @@ caret
 >
 PaintCaret
 (
-nullptr
 aDrawTarget
 frame
 nsPoint

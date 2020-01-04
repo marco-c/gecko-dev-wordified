@@ -1885,7 +1885,6 @@ aPresContext
 aRenderingContext
 mFrame
 buttonRect
-aDirtyRect
 )
 ;
 result

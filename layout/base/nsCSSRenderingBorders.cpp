@@ -9242,14 +9242,6 @@ DrawCorner
 DrawTarget
 *
 aDrawTarget
-mozilla
-:
-:
-css
-:
-:
-Corner
-c
 const
 Point
 &
@@ -10462,7 +10454,6 @@ radius
 DrawCorner
 (
 mDrawTarget
-c
 outerCorner
 innerCorner
 cornerMults
