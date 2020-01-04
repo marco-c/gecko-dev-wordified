@@ -2974,6 +2974,8 @@ GetOverscrollHandoffChain
 CancelAnimations
 (
 ExcludeOverscroll
+|
+ScrollSnap
 )
 ;
 }
