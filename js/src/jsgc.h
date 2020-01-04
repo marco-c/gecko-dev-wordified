@@ -5456,11 +5456,13 @@ startBackgroundThread
 State
 newState
 const
-js
-:
-:
 AutoLockGC
 &
+lock
+const
+AutoLockHelperThreadState
+&
+helperLock
 )
 ;
 void
@@ -5606,6 +5608,10 @@ const
 AutoLockGC
 &
 lock
+const
+AutoLockHelperThreadState
+&
+helperLock
 )
 ;
 void
@@ -5944,6 +5950,9 @@ methods
 bool
 startWithLockHeld
 (
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 void
