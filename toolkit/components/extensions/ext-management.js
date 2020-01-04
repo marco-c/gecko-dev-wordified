@@ -55,7 +55,10 @@ registerSchemaAPI
 "
 management
 "
+(
+extension
 context
+)
 =
 >
 {

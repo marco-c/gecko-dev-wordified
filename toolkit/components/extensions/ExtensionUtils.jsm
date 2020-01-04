@@ -1206,7 +1206,7 @@ BaseContext
 {
 constructor
 (
-extension
+extensionId
 )
 {
 this
@@ -1256,17 +1256,9 @@ false
 ;
 this
 .
-extension
-=
-extension
-;
-this
-.
 extensionId
 =
-extension
-.
-id
+extensionId
 ;
 this
 .
