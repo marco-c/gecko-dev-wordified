@@ -3033,7 +3033,7 @@ mDeviceName
 nsCString
 mDeviceUUID
 ;
-uint32_t
+int32_t
 mSampleFrequency
 ;
 int32_t
