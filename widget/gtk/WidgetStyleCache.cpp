@@ -1010,6 +1010,8 @@ WidgetNodeType
 aNodeType
 GtkTextDirection
 aDirection
+GtkStateFlags
+aStateFlags
 StyleFlags
 aFlags
 )
@@ -1038,6 +1040,18 @@ style
 ;
 #
 endif
+gtk_style_context_set_state
+(
+style
+aStateFlags
+)
+;
+gtk_style_context_set_direction
+(
+style
+aDirection
+)
+;
 return
 style
 ;
