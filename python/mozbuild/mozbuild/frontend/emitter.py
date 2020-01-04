@@ -8262,6 +8262,21 @@ in
 defaults
 )
             
+obj
+.
+default_support_files
+=
+defaults
+.
+get
+(
+'
+support
+-
+files
+'
+)
+            
 filtered
 =
 mpmanifest

@@ -5011,6 +5011,7 @@ fh
 :
             
 o
+_
 =
 json
 .
@@ -8150,20 +8151,6 @@ tests
 RecursiveMakeBackend
 )
         
-tests_dir
-=
-mozpath
-.
-join
-(
-env
-.
-topobjdir
-'
-_tests
-'
-)
-        
 all_tests_path
 =
 mozpath
@@ -8209,6 +8196,7 @@ fh
 :
             
 o
+_
 =
 json
 .
