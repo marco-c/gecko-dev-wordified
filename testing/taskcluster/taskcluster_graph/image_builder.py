@@ -1838,7 +1838,7 @@ scopes
 '
 ]
 .
-append
+add
 (
 define_task
 )
@@ -1849,8 +1849,9 @@ graph
 scopes
 '
 ]
-.
-extend
+|
+=
+set
 (
 image_task
 [
@@ -1907,8 +1908,9 @@ graph
 scopes
 '
 ]
-.
-extend
+|
+=
+set
 (
 route_scopes
 )
