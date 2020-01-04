@@ -598,7 +598,7 @@ mCurrentFrame
 mCurrentFrame
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 )

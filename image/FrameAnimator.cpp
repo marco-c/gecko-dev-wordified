@@ -1097,7 +1097,7 @@ nextFrame
 nextFrame
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 )

@@ -1232,7 +1232,7 @@ decoded
 *
 /
 bool
-IsImageComplete
+IsFinished
 (
 )
 const
@@ -1294,7 +1294,7 @@ deadlock
 *
 /
 void
-WaitUntilComplete
+WaitUntilFinished
 (
 )
 const
@@ -1600,7 +1600,7 @@ AssertImageDataLocked
 const
 ;
 bool
-IsImageCompleteInternal
+AreAllPixelsWritten
 (
 )
 const
@@ -2028,6 +2028,9 @@ mHasNoAlpha
 ;
 bool
 mAborted
+;
+bool
+mFinished
 ;
 bool
 mOptimizable
