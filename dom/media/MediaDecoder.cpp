@@ -2844,13 +2844,6 @@ mVolume
 )
 INIT_CANONICAL
 (
-mPlaybackRate
-1
-.
-0
-)
-INIT_CANONICAL
-(
 mPreservesPitch
 true
 )
