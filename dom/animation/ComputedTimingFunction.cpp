@@ -263,7 +263,7 @@ range
 MOZ_ASSERT
 (
 aType
-!
+=
 =
 nsTimingFunction
 :
@@ -275,7 +275,7 @@ StepStart
 |
 |
 aType
-!
+=
 =
 nsTimingFunction
 :
