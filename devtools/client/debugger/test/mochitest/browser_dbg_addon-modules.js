@@ -162,8 +162,8 @@ is
 addonDebugger
 .
 title
-"
-Debugger
+Developer
+Tools
 -
 Test
 add
@@ -172,7 +172,10 @@ on
 with
 JS
 Modules
-"
+-
+{
+ADDON_URL
+}
 "
 Saw
 the
