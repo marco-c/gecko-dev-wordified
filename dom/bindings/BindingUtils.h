@@ -3962,10 +3962,6 @@ js
 Class
 *
 constructorClass
-const
-JSNativeHolder
-*
-constructor
 unsigned
 ctorNargs
 const

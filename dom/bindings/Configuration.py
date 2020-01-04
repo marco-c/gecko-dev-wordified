@@ -5244,25 +5244,6 @@ NonOrdinaryGetPrototypeOf
 )
     
 def
-needsConstructHookHolder
-(
-self
-)
-:
-        
-assert
-self
-.
-interface
-.
-hasInterfaceObject
-(
-)
-        
-return
-False
-    
-def
 needsHeaderInclude
 (
 self
