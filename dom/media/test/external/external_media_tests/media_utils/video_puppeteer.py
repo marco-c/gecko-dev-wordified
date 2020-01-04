@@ -2168,7 +2168,6 @@ video
 tcurrent_time
 :
 {
-0
 }
 '
 .
@@ -2184,7 +2183,6 @@ current_time
 tduration
 :
 {
-0
 }
 '
 .
@@ -2200,7 +2198,6 @@ duration
 texpected_duration
 :
 {
-0
 }
 '
 .
@@ -2213,10 +2210,24 @@ expected_duration
                 
 '
 \
+tplayed
+:
+{
+}
+'
+.
+format
+(
+self
+.
+played
+)
+                
+'
+\
 tlag
 :
 {
-0
 }
 '
 .
@@ -2232,7 +2243,6 @@ lag
 turl
 :
 {
-0
 }
 '
 .
@@ -2248,7 +2258,6 @@ video_url
 tsrc
 :
 {
-0
 }
 '
 .
@@ -2265,7 +2274,6 @@ tframes
 total
 :
 {
-0
 }
 '
 .
@@ -2283,7 +2291,6 @@ t
 dropped
 :
 {
-0
 }
 '
 .
@@ -2301,7 +2308,6 @@ t
 corrupted
 :
 {
-0
 }
 '
 .
