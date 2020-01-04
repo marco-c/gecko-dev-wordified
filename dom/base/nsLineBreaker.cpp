@@ -2031,7 +2031,7 @@ aTextStart
 aTextLimit
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 bool
 200

@@ -9302,7 +9302,7 @@ GetStrokeDashData
 nsIFrame
 *
 aFrame
-FallibleTArray
+nsTArray
 <
 gfxFloat
 >
@@ -9865,7 +9865,7 @@ BEVEL
 break
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 gfxFloat
 10
