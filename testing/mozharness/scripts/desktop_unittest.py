@@ -3517,8 +3517,8 @@ config
             
 if
 suite
-=
-=
+in
+(
 '
 browser
 -
@@ -3526,6 +3526,12 @@ chrome
 -
 coverage
 '
+'
+xpcshell
+-
+coverage
+'
+)
 :
                 
 base_cmd
