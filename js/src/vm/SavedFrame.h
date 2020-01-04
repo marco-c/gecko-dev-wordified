@@ -158,6 +158,11 @@ struct
 :
 JSStructuredCloneReader
 ;
+static
+const
+ClassSpec
+classSpec_
+;
 public
 :
 static
