@@ -218,7 +218,7 @@ kContentChangeThresholdPx
 const
 kModalHighlightRepaintFreqMs
 =
-10
+100
 ;
 const
 kHighlightAllPref
@@ -1610,6 +1610,9 @@ let
 params
 =
 {
+allowDistance
+:
+1
 caseSensitive
 :
 this
@@ -3322,6 +3325,7 @@ if
 (
 kDebug
 )
+{
 this
 .
 _modalHighlightOutline
@@ -3330,6 +3334,9 @@ remove
 (
 )
 ;
+}
+else
+{
 try
 {
 this
@@ -3355,6 +3362,7 @@ catch
 ex
 )
 {
+}
 }
 this
 .
@@ -5546,11 +5554,13 @@ window
 {
 if
 (
+!
 this
 .
 _modalHighlightAllMask
 )
-{
+return
+;
 /
 /
 If
@@ -5582,6 +5592,7 @@ if
 (
 kDebug
 )
+{
 this
 .
 _modalHighlightAllMask
@@ -5590,6 +5601,9 @@ remove
 (
 )
 ;
+}
+else
+{
 try
 {
 window
@@ -5610,13 +5624,13 @@ ex
 )
 {
 }
+}
 this
 .
 _modalHighlightAllMask
 =
 null
 ;
-}
 }
 /
 *
