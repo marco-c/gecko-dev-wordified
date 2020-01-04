@@ -1139,6 +1139,9 @@ sMonitor
 if
 (
 sFFmpegInitDone
+&
+&
+mCodecContext
 )
 {
 avcodec_close
