@@ -3587,7 +3587,7 @@ intel_decoder
 .
 enabled
 "
-false
+true
 )
 ;
 #
