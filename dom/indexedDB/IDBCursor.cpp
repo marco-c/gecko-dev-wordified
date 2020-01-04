@@ -2957,6 +2957,9 @@ mType
 =
 =
 Type_IndexKey
+|
+|
+mContinueCalled
 )
 {
 aRv
