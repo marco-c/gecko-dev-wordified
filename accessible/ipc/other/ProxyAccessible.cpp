@@ -2442,6 +2442,9 @@ uint32_t
 aRowExtent
 )
 {
+Unused
+<
+<
 mDoc
 -
 >
@@ -2469,6 +2472,9 @@ uint32_t
 aRowIdx
 )
 {
+Unused
+<
+<
 mDoc
 -
 >
