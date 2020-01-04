@@ -10347,7 +10347,6 @@ height
 )
 nullptr
 0
-&
 D2D1
 :
 :
