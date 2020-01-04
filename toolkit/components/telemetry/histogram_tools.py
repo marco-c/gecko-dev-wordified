@@ -546,7 +546,7 @@ releaseChannelCollection
 bug_numbers
 '
 ]
-n_buckets_whitelist
+whitelists
 =
 None
 ;
@@ -584,9 +584,9 @@ __file__
 )
 )
 '
-bucket
+histogram
 -
-whitelist
+whitelists
 .
 json
 '
@@ -607,16 +607,34 @@ f
 try
 :
             
-n_buckets_whitelist
+whitelists
 =
-set
-(
 json
 .
 load
 (
 f
 )
+            
+for
+name
+whitelist
+in
+whitelists
+.
+iteritems
+(
+)
+:
+              
+whitelists
+[
+name
+]
+=
+set
+(
+whitelist
 )
         
 except
@@ -629,7 +647,6 @@ BaseException
 '
 error
 parsing
-bucket
 whitelist
 (
 %
@@ -642,7 +659,7 @@ except
 IOError
 :
     
-n_buckets_whitelist
+whitelists
 =
 None
     
@@ -2232,7 +2249,7 @@ _n_buckets
 n_buckets
         
 if
-n_buckets_whitelist
+whitelists
 is
 not
 None
@@ -2259,7 +2276,12 @@ self
 _name
 not
 in
-n_buckets_whitelist
+whitelists
+[
+'
+n_buckets
+'
+]
 :
                 
 raise
@@ -2268,8 +2290,10 @@ KeyError
 '
 New
 histogram
+"
 %
 s
+"
 is
 not
 permitted
