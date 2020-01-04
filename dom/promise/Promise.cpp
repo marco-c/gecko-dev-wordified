@@ -2487,6 +2487,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 }
@@ -3244,6 +3245,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -3335,6 +3337,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -3452,6 +3455,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -3516,6 +3520,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -3561,6 +3566,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -3735,6 +3741,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -3782,6 +3789,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -3830,6 +3838,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -3872,6 +3881,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -6666,6 +6676,27 @@ Failed
 )
 )
 {
+if
+(
+aRv
+.
+IsUncatchableException
+(
+)
+)
+{
+/
+/
+Just
+propagate
+this
+to
+the
+caller
+.
+return
+;
+}
 /
 /
 There
@@ -7504,6 +7535,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -7532,6 +7564,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -7756,6 +7789,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -7797,6 +7831,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -8060,6 +8095,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -8499,6 +8535,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -8692,6 +8729,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -9099,6 +9137,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -9327,6 +9366,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -9473,6 +9513,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -9678,6 +9719,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -9824,6 +9866,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -9853,6 +9896,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -9927,6 +9971,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -10550,6 +10595,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -10652,6 +10698,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 return
@@ -10689,6 +10736,7 @@ aRv
 .
 NoteJSContextException
 (
+aCx
 )
 ;
 }
@@ -12181,6 +12229,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return
@@ -14341,6 +14390,7 @@ aRv
 .
 NoteJSContextException
 (
+cx
 )
 ;
 return

@@ -1248,9 +1248,6 @@ ClearTimeout
 (
 int32_t
 aHandle
-ErrorResult
-&
-aRv
 )
 {
 mWorkerPrivate
@@ -1466,9 +1463,6 @@ ClearInterval
 (
 int32_t
 aHandle
-ErrorResult
-&
-aRv
 )
 {
 mWorkerPrivate

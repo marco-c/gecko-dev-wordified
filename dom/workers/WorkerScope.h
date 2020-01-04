@@ -531,9 +531,6 @@ ClearTimeout
 (
 int32_t
 aHandle
-ErrorResult
-&
-aRv
 )
 ;
 int32_t
@@ -612,9 +609,6 @@ ClearInterval
 (
 int32_t
 aHandle
-ErrorResult
-&
-aRv
 )
 ;
 void
