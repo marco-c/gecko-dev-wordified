@@ -1848,6 +1848,16 @@ AsmReinterpretFromI64
 \
 _
 (
+Rotate
+)
+\
+_
+(
+Rotate64
+)
+\
+_
+(
 GetDOMProperty
 )
 \

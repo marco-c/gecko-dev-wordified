@@ -943,6 +943,14 @@ ins
 )
 ;
 void
+visitRotate
+(
+MRotate
+*
+ins
+)
+;
+void
 visitFloor
 (
 MFloor

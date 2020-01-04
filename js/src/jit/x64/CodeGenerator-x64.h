@@ -363,6 +363,14 @@ lir
 )
 ;
 void
+visitRotate64
+(
+LRotate64
+*
+lir
+)
+;
+void
 visitAddI64
 (
 LAddI64

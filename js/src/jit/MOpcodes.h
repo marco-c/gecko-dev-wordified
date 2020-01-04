@@ -1489,6 +1489,11 @@ AsmReinterpret
 \
 _
 (
+Rotate
+)
+\
+_
+(
 NewDerivedTypedObject
 )
 \
