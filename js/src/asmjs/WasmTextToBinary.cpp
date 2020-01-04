@@ -12281,7 +12281,7 @@ char
 (
 end
 -
-begin
+cur
 +
 1
 )
@@ -12323,6 +12323,18 @@ cur
 i
 ]
 )
+;
+buffer
+[
+end
+-
+cur
+]
+=
+'
+\
+0
+'
 ;
 char
 *
