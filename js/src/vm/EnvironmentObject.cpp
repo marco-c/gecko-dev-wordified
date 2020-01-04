@@ -20121,6 +20121,14 @@ isGenerator
 )
 )
 ;
+JS
+:
+:
+ExposeObjectToActiveJS
+(
+callee
+)
+;
 Rooted
 <
 CallObject
