@@ -36847,7 +36847,7 @@ DISPLAY_MIN_WIDTH
 aFrame
 data
 .
-prevLines
+mPrevLines
 )
 ;
 aFrame
@@ -36869,7 +36869,7 @@ ForceBreak
 return
 data
 .
-prevLines
+mPrevLines
 ;
 }
 /
@@ -36923,7 +36923,7 @@ DISPLAY_PREF_WIDTH
 aFrame
 data
 .
-prevLines
+mPrevLines
 )
 ;
 aFrame
@@ -36945,7 +36945,7 @@ ForceBreak
 return
 data
 .
-prevLines
+mPrevLines
 ;
 }
 static

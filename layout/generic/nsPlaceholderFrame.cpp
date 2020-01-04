@@ -393,7 +393,7 @@ out
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 |
 /
 /
@@ -418,7 +418,7 @@ set
 aData
 -
 >
-skipWhitespace
+mSkipWhitespace
 to
 /
 /
@@ -464,7 +464,7 @@ MIN_ISIZE
 aData
 -
 >
-floats
+mFloats
 .
 AppendElement
 (
@@ -529,7 +529,7 @@ out
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 |
 /
 /
@@ -554,7 +554,7 @@ set
 aData
 -
 >
-skipWhitespace
+mSkipWhitespace
 to
 /
 /
@@ -600,7 +600,7 @@ PREF_ISIZE
 aData
 -
 >
-floats
+mFloats
 .
 AppendElement
 (

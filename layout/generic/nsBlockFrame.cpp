@@ -4409,7 +4409,7 @@ ForceBreak
 ;
 data
 .
-currentLine
+mCurrentLine
 =
 nsLayoutUtils
 :
@@ -4517,7 +4517,7 @@ ConvertsToLength
 )
 data
 .
-currentLine
+mCurrentLine
 +
 =
 nsRuleNode
@@ -4545,7 +4545,7 @@ indent
 .
 data
 .
-line
+mLine
 =
 &
 line
@@ -4645,10 +4645,10 @@ n
 "
 data
 .
-prevLines
+mPrevLines
 data
 .
-currentLine
+mCurrentLine
 )
 ;
 }
@@ -4666,7 +4666,7 @@ mMinWidth
 =
 data
 .
-prevLines
+mPrevLines
 ;
 return
 mMinWidth
@@ -4976,7 +4976,7 @@ ForceBreak
 ;
 data
 .
-currentLine
+mCurrentLine
 =
 nsLayoutUtils
 :
@@ -5084,7 +5084,7 @@ ConvertsToLength
 )
 data
 .
-currentLine
+mCurrentLine
 +
 =
 nsRuleNode
@@ -5112,7 +5112,7 @@ indent
 .
 data
 .
-line
+mLine
 =
 &
 line
@@ -5212,10 +5212,10 @@ n
 "
 data
 .
-prevLines
+mPrevLines
 data
 .
-currentLine
+mCurrentLine
 )
 ;
 }
@@ -5233,7 +5233,7 @@ mPrefWidth
 =
 data
 .
-prevLines
+mPrevLines
 ;
 return
 mPrefWidth
@@ -5557,7 +5557,7 @@ ConvertsToLength
 {
 data
 .
-currentLine
+mCurrentLine
 +
 =
 nsRuleNode
@@ -5586,7 +5586,7 @@ indent
 .
 data
 .
-line
+mLine
 =
 &
 line
@@ -5672,7 +5672,7 @@ min
 aX
 data
 .
-currentLine
+mCurrentLine
 +
 childX
 )
@@ -5689,7 +5689,7 @@ max
 aXMost
 data
 .
-currentLine
+mCurrentLine
 +
 childXMost
 )
