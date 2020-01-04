@@ -349,6 +349,15 @@ TryOnPush
 (
 )
 ;
+static
+bool
+TestOnPush
+(
+Http2Stream
+*
+consumer
+)
+;
 virtual
 bool
 DeferCleanup
