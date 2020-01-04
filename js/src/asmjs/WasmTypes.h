@@ -3809,7 +3809,7 @@ const
 unsigned
 MaxImports
 =
-4
+64
 *
 1024
 ;
@@ -3818,7 +3818,7 @@ const
 unsigned
 MaxExports
 =
-4
+64
 *
 1024
 ;
@@ -3846,6 +3846,8 @@ unsigned
 MaxBrTableElems
 =
 4
+*
+1024
 *
 1024
 ;
