@@ -752,9 +752,11 @@ DOMMediaStream
 {
 public
 :
-explicit
 CanvasCaptureMediaStream
 (
+nsPIDOMWindowInner
+*
+aWindow
 HTMLCanvasElement
 *
 aCanvas

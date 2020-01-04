@@ -1303,6 +1303,7 @@ aWindow
 :
 DOMMediaStream
 (
+aWindow
 )
 mCameraControl
 (
