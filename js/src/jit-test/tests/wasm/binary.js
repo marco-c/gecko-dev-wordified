@@ -312,7 +312,7 @@ toBuf
 ]
 )
 )
-Error
+TypeError
 magicError
 )
 ;
@@ -331,7 +331,7 @@ toBuf
 ]
 )
 )
-Error
+TypeError
 magicError
 )
 ;
@@ -352,7 +352,7 @@ magic2
 ]
 )
 )
-Error
+TypeError
 magicError
 )
 ;
@@ -374,7 +374,7 @@ toBuf
 ]
 )
 )
-Error
+TypeError
 magicError
 )
 ;
@@ -396,7 +396,7 @@ magic3
 ]
 )
 )
-Error
+TypeError
 versionError
 )
 ;
@@ -419,7 +419,7 @@ magic3
 ]
 )
 )
-Error
+TypeError
 versionError
 )
 ;
@@ -442,7 +442,7 @@ ver0
 ]
 )
 )
-Error
+TypeError
 versionError
 )
 ;
@@ -467,7 +467,7 @@ ver2
 ]
 )
 )
-Error
+TypeError
 versionError
 )
 ;
@@ -514,7 +514,7 @@ moduleHeaderThen
 )
 )
 )
-Error
+TypeError
 sectionError
 )
 ;
@@ -535,7 +535,7 @@ moduleHeaderThen
 )
 )
 )
-Error
+TypeError
 extraError
 )
 ;
@@ -809,7 +809,7 @@ body
 )
 )
 )
-Error
+TypeError
 )
 ;
 assertThrowsInstanceOf
@@ -841,7 +841,7 @@ body
 )
 )
 )
-Error
+TypeError
 )
 ;
 wasmEval
@@ -945,7 +945,7 @@ ret
 )
 )
 )
-Error
+TypeError
 /
 bad
 expression
@@ -985,7 +985,7 @@ VoidCode
 )
 )
 )
-Error
+TypeError
 /
 bad
 value
@@ -1077,7 +1077,7 @@ declSection
 )
 )
 )
-Error
+TypeError
 /
 signature
 index
@@ -1124,7 +1124,7 @@ declSection
 )
 )
 )
-Error
+TypeError
 /
 signature
 index
@@ -1171,7 +1171,7 @@ declSection
 )
 )
 )
-Error
+TypeError
 /
 fewer
 function

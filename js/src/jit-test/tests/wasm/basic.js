@@ -610,7 +610,7 @@ a
 )
 '
 )
-Error
+TypeError
 /
 export
 function
@@ -648,7 +648,7 @@ a
 )
 '
 )
-Error
+TypeError
 /
 export
 function
@@ -1015,7 +1015,7 @@ a
 )
 '
 )
-Error
+TypeError
 /
 duplicate
 export
@@ -1056,7 +1056,7 @@ a
 )
 '
 )
-Error
+TypeError
 /
 duplicate
 export
@@ -1165,7 +1165,7 @@ i32
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -1201,7 +1201,7 @@ nop
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -1371,7 +1371,7 @@ i64
 )
 '
 )
-Error
+TypeError
 /
 NYI
 /
@@ -1398,7 +1398,7 @@ i64
 )
 '
 )
-Error
+TypeError
 /
 NYI
 /
@@ -1663,7 +1663,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 /
 get_local
 index
@@ -1774,7 +1774,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -1815,7 +1815,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -1940,7 +1940,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -1985,7 +1985,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2024,7 +2024,7 @@ const
 )
 '
 )
-Error
+TypeError
 /
 set_local
 index
@@ -2091,7 +2091,7 @@ const
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2131,7 +2131,7 @@ nop
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2176,7 +2176,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2221,7 +2221,7 @@ get_local
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2392,7 +2392,7 @@ i64
 )
 '
 )
-Error
+TypeError
 /
 NYI
 /
@@ -2530,7 +2530,7 @@ block
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2569,7 +2569,7 @@ block
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2609,7 +2609,7 @@ block
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2758,7 +2758,7 @@ const
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
@@ -2854,7 +2854,7 @@ const
 )
 '
 )
-Error
+TypeError
 mismatchError
 (
 "
