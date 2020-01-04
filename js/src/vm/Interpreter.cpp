@@ -9136,7 +9136,7 @@ this
 *
 is
 what
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 tests
 )
 .
@@ -9252,9 +9252,14 @@ obj
 {
 if
 (
-IsGlobalLexicalEnvironment
-(
 obj
+-
+>
+is
+<
+GlobalObject
+>
+(
 )
 )
 return
@@ -9264,7 +9269,7 @@ UndefinedValue
 ;
 if
 (
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 obj
 )

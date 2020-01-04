@@ -31535,7 +31535,7 @@ true
 {
 MOZ_ASSERT
 (
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 tobj
 )
@@ -31647,7 +31647,7 @@ holder
 {
 MOZ_ASSERT
 (
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 envChain
 )
@@ -31912,7 +31912,7 @@ true
 if
 (
 !
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 envChain
 )
@@ -32396,7 +32396,7 @@ obj2
 if
 (
 !
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 obj2
 )

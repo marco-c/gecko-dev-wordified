@@ -261,7 +261,7 @@ bug
 static
 inline
 bool
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 JSObject
 *
