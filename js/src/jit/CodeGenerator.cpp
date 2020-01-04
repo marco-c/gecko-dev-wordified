@@ -26072,7 +26072,12 @@ pushArg
 (
 ImmGCPtr
 (
-gen
+current
+-
+>
+mir
+(
+)
 -
 >
 info
