@@ -332,6 +332,14 @@ TextTrack
 aTextTrack
 )
 ;
+void
+NotifyCueRemoved
+(
+TextTrackCue
+&
+aCue
+)
+;
 /
 *
 *
