@@ -2990,7 +2990,13 @@ true
 int64_t
 fileSize
 =
+static_cast
+<
+int64_t
+>
+(
 kChunkSize
+)
 *
 mIndex
 +
