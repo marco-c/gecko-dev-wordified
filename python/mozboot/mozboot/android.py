@@ -125,12 +125,12 @@ automation
 ANDROID_TARGET_SDK
 =
 '
-22
+23
 '
 ANDROID_BUILD_TOOLS_VERSION
 =
 '
-22
+23
 .
 0
 .
