@@ -367,6 +367,24 @@ constants
 "
 )
 ;
+const
+{
+KeyCodes
+}
+=
+require
+(
+"
+devtools
+/
+client
+/
+shared
+/
+keycodes
+"
+)
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -3472,7 +3490,7 @@ keyCode
 )
 {
 case
-e
+KeyCodes
 .
 DOM_VK_RETURN
 :
@@ -3485,7 +3503,7 @@ _onSearchboxInput
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_ESCAPE
 :
@@ -5321,7 +5339,7 @@ keyCode
 )
 {
 case
-e
+KeyCodes
 .
 DOM_VK_UP
 :
@@ -5341,7 +5359,7 @@ true
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_DOWN
 :
@@ -5361,7 +5379,7 @@ true
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_LEFT
 :
@@ -5410,7 +5428,7 @@ ownerView
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_RIGHT
 :
@@ -5476,7 +5494,7 @@ true
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_PAGE_UP
 :
@@ -5529,7 +5547,7 @@ PAGE_SIZE_MAX_JUMPS
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_PAGE_DOWN
 :
@@ -5582,7 +5600,7 @@ PAGE_SIZE_MAX_JUMPS
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_HOME
 :
@@ -5595,7 +5613,7 @@ focusFirstVisibleItem
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_END
 :
@@ -5608,7 +5626,7 @@ focusLastVisibleItem
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_RETURN
 :
@@ -5670,12 +5688,12 @@ _activateValueInput
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_DELETE
 :
 case
-e
+KeyCodes
 .
 DOM_VK_BACK_SPACE
 :
@@ -5707,7 +5725,7 @@ e
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_INSERT
 :
@@ -5752,7 +5770,7 @@ e
 keyCode
 =
 =
-e
+KeyCodes
 .
 DOM_VK_C
 )
@@ -7919,6 +7937,10 @@ this
 _init
 (
 aName
+.
+trim
+(
+)
 aFlags
 )
 ;
@@ -11042,10 +11064,6 @@ setAttribute
 value
 "
 aName
-.
-trim
-(
-)
 )
 ;
 name
@@ -25309,7 +25327,7 @@ keyCode
 )
 {
 case
-e
+KeyCodes
 .
 DOM_VK_TAB
 :
@@ -25322,7 +25340,7 @@ _next
 break
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_RETURN
 :
@@ -25335,7 +25353,7 @@ _save
 break
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_ESCAPE
 :

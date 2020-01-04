@@ -2572,7 +2572,7 @@ keyCode
 )
 {
 case
-e
+KeyCodes
 .
 DOM_VK_RETURN
 :
@@ -2611,7 +2611,7 @@ selectNext
 break
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_DOWN
 :
@@ -2624,7 +2624,7 @@ selectNext
 break
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_UP
 :
