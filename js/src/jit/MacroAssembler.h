@@ -5546,6 +5546,17 @@ x86_shared
 ;
 inline
 void
+addDouble
+(
+FloatRegister
+src
+FloatRegister
+dest
+)
+PER_SHARED_ARCH
+;
+inline
+void
 sub32
 (
 const

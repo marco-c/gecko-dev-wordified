@@ -1224,15 +1224,6 @@ dest
 )
 ;
 void
-addDouble
-(
-FloatRegister
-src
-FloatRegister
-dest
-)
-;
-void
 subDouble
 (
 FloatRegister
