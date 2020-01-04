@@ -1277,6 +1277,15 @@ mozbrowser
 "
 )
 ;
+/
+/
+SpecialPowers
+.
+setAllAppsLaunchable
+(
+true
+)
+;
 SpecialPowers
 .
 setBoolPref

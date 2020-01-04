@@ -60,6 +60,13 @@ addPermission
 (
 )
 ;
+SpecialPowers
+.
+setAllAppsLaunchable
+(
+true
+)
+;
 function
 testAppElement
 (
