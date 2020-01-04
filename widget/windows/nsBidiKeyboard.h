@@ -131,6 +131,12 @@ nsBidiKeyboard
 (
 )
 ;
+static
+void
+OnLayoutChange
+(
+)
+;
 protected
 :
 nsresult
