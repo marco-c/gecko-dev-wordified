@@ -8412,8 +8412,16 @@ Block
 aTrackId
 in
 the
+source
+stream
+from
+being
+passed
+through
+the
 port
 .
+*
 Consumers
 will
 interpret
@@ -8457,7 +8465,7 @@ bool
 nsresult
 >
 >
-BlockTrackId
+BlockSourceTrackId
 (
 TrackID
 aTrackId
@@ -8466,7 +8474,7 @@ aTrackId
 private
 :
 void
-BlockTrackIdImpl
+BlockSourceTrackIdImpl
 (
 TrackID
 aTrackId

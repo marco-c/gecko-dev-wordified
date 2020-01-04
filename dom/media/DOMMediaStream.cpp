@@ -608,7 +608,7 @@ DOMMediaStream
 TrackPort
 :
 :
-BlockTrackId
+BlockSourceTrackId
 (
 TrackID
 aTrackId
@@ -623,7 +623,7 @@ return
 mInputPort
 -
 >
-BlockTrackId
+BlockSourceTrackId
 (
 aTrackId
 )
@@ -7041,7 +7041,7 @@ p
 aTrack
 -
 >
-BlockTrackId
+BlockSourceTrackId
 (
 aTrack
 -
