@@ -5361,9 +5361,7 @@ ANDROID_VERSION
 17
 if
 (
-GetIPDLActor
-(
-)
+mActor
 &
 &
 aCompositable
@@ -5395,9 +5393,9 @@ AsyncTransactionWaiter
 >
 waiter
 =
-waiter
+aWaiter
 ?
-waiter
+aWaiter
 :
 new
 AsyncTransactionWaiter
@@ -5447,6 +5445,9 @@ CompositorChild
 s
 presence
 .
+mActor
+-
+>
 GetForwarder
 (
 )
