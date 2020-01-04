@@ -12190,7 +12190,12 @@ if
 mCurrentTransaction
 &
 &
+!
+DispatchingAsyncMessage
 (
+)
+&
+&
 DispatchingSyncMessagePriority
 (
 )
@@ -12203,7 +12208,6 @@ Message
 :
 :
 PRIORITY_HIGH
-)
 )
 {
 CancelCurrentTransactionInternal
