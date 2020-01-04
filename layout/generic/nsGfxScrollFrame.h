@@ -468,16 +468,6 @@ aPositioned
 )
 ;
 bool
-IsUsingDisplayPort
-(
-const
-nsDisplayListBuilder
-*
-aBuilder
-)
-const
-;
-bool
 GetBorderRadii
 (
 const
