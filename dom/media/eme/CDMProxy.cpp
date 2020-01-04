@@ -1936,6 +1936,12 @@ nsAutoPtr
 SetServerCertificateData
 >
 data
+(
+new
+SetServerCertificateData
+(
+)
+)
 ;
 data
 -
