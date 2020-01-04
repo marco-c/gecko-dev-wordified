@@ -445,6 +445,11 @@ TracerConcreteWithCompartment
 struct
 CopyToBufferMatcher
 {
+using
+ReturnType
+=
+size_t
+;
 RangedPtr
 <
 char16_t
@@ -682,6 +687,11 @@ m
 struct
 LengthMatcher
 {
+using
+ReturnType
+=
+size_t
+;
 size_t
 match
 (

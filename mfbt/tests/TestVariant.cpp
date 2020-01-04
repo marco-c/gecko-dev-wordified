@@ -894,6 +894,13 @@ char
 *
 big
 ;
+using
+ReturnType
+=
+const
+char
+*
+;
 const
 char
 *
