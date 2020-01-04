@@ -1239,6 +1239,13 @@ GetCumulativeResolution
 )
 override
 ;
+virtual
+float
+GetCumulativeScaleResolution
+(
+)
+override
+;
 /
 /
 nsIViewObserver
