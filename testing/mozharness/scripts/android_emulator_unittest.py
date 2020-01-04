@@ -2930,6 +2930,11 @@ _dump_host_state
 (
 )
         
+if
+not
+emulator_ok
+:
+            
 self
 .
 _screenshot
@@ -2943,11 +2948,6 @@ screenshot
 -
 "
 )
-        
-if
-not
-emulator_ok
-:
             
 self
 .
