@@ -33865,7 +33865,7 @@ wasmModuleScripts
 CrossCompartmentKey
 :
 :
-DebuggerObject
+DebuggerWasmScript
 referent
 )
 ;
@@ -42195,7 +42195,7 @@ wasmModuleSources
 CrossCompartmentKey
 :
 :
-DebuggerObject
+DebuggerWasmSource
 referent
 )
 ;
