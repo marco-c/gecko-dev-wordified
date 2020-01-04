@@ -1767,7 +1767,7 @@ height
 :
 1
 .
-1
+2
 ;
 max
 -
@@ -1775,7 +1775,7 @@ height
 :
 2
 .
-2em
+4em
 ;
 }
 .
@@ -1914,11 +1914,14 @@ clip
 :
 rect
 (
-auto
+-
+0
+.
+1em
 auto
 2
 .
-3em
+6em
 auto
 )
 ;
