@@ -360,14 +360,9 @@ StartCORSPreflight
 nsIChannel
 *
 aRequestChannel
-nsIPrincipal
-*
-aPrincipal
 nsICorsPreflightCallback
 *
 aCallback
-bool
-aWithCredentials
 nsTArray
 <
 nsCString

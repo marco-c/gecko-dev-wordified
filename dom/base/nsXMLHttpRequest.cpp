@@ -16207,8 +16207,6 @@ internalHttpChannel
 SetCorsPreflightParameters
 (
 mCORSUnsafeHeaders
-withCredentials
-mPrincipal
 )
 ;
 NS_ENSURE_SUCCESS
