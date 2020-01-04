@@ -303,7 +303,7 @@ override
 {
 }
 void
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible

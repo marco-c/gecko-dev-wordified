@@ -18820,7 +18820,7 @@ it
 s
 playing
 .
-NotifyAudibleStateChanged
+SetAudibleState
 (
 shouldPlay
 )
@@ -31657,7 +31657,7 @@ void
 HTMLMediaElement
 :
 :
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible

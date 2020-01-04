@@ -1030,7 +1030,7 @@ state
 changed
 virtual
 void
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible

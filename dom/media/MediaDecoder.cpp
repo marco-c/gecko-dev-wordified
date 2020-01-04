@@ -9835,7 +9835,7 @@ mShuttingDown
 mOwner
 -
 >
-NotifyAudibleStateChanged
+SetAudibleState
 (
 mIsAudioDataAudible
 )
