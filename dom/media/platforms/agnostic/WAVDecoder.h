@@ -178,8 +178,6 @@ nsACString
 aMimeType
 )
 ;
-private
-:
 RefPtr
 <
 InitPromise
@@ -233,6 +231,8 @@ decoder
 "
 ;
 }
+private
+:
 bool
 DoDecode
 (

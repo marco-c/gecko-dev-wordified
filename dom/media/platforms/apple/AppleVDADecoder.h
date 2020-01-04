@@ -435,8 +435,6 @@ AppleFrameRef
 aFrameRef
 )
 ;
-private
-:
 RefPtr
 <
 InitPromise
