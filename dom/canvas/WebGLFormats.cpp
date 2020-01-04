@@ -8941,9 +8941,6 @@ Texture
 Image
 Formats
 "
-#
-if
-ALLOW_ES3_FORMATS
 /
 /
 Note
@@ -9159,8 +9156,6 @@ false
 true
 )
 ;
-#
-endif
 #
 undef
 FOO
