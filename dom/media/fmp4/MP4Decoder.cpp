@@ -1452,6 +1452,13 @@ IsHardwareAccelerated
 aFailureReason
 )
 ;
+decoder
+-
+>
+Shutdown
+(
+)
+;
 return
 result
 ;
@@ -1813,6 +1820,13 @@ if
 decoder
 )
 {
+decoder
+-
+>
+Shutdown
+(
+)
+;
 result
 =
 true
