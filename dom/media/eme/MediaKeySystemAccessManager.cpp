@@ -330,9 +330,6 @@ mAddedObservers
 (
 false
 )
-#
-ifdef
-XP_WIN
 mTrialCreator
 (
 new
@@ -340,8 +337,6 @@ GMPVideoDecoderTrialCreator
 (
 )
 )
-#
-endif
 {
 }
 MediaKeySystemAccessManager
