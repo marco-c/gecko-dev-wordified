@@ -319,6 +319,7 @@ util
 .
 Log
 ;
+public
 class
 HomeConfigPrefsBackend
 implements
@@ -367,7 +368,7 @@ of
 panel
 configs
 .
-private
+public
 static
 final
 String
@@ -396,7 +397,7 @@ of
 panel
 configs
 .
-private
+public
 static
 final
 String
