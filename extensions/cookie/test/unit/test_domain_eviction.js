@@ -645,6 +645,8 @@ false
 false
 false
 shortExpiry
+{
+}
 )
 ;
 do_timeout
@@ -696,6 +698,8 @@ false
 false
 false
 futureExpiry
+{
+}
 )
 ;
 do_check_eq
@@ -729,6 +733,8 @@ captchart
 .
 com
 "
+{
+}
 )
 ;
 while
@@ -833,6 +839,8 @@ false
 false
 false
 aExpiry
+{
+}
 )
 ;
 }
@@ -1073,6 +1081,8 @@ cookiemgr
 getCookiesFromHost
 (
 aHost
+{
+}
 )
 ;
 while

@@ -1250,6 +1250,8 @@ cookieManager
 getCookiesFromHost
 (
 pocketSiteHost
+{
+}
 )
 ;
 var
