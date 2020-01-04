@@ -147,7 +147,6 @@ STATE_NONE
 STATE_SCHEDULED
 STATE_DOWNLOADED
 STATE_FAILED
-STATE_IGNORED
 STATE_UPDATED
 STATE_DELETED
 }
@@ -203,7 +202,7 @@ public
 static
 final
 int
-STATE_IGNORED
+STATE_UPDATED
 =
 4
 ;
@@ -211,17 +210,9 @@ public
 static
 final
 int
-STATE_UPDATED
-=
-5
-;
-public
-static
-final
-int
 STATE_DELETED
 =
-6
+5
 ;
 StringDef
 (
