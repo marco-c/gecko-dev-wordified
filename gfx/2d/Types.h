@@ -675,6 +675,16 @@ CAIRO
 SKIA
 RECORDING
 DIRECT2D1_1
+/
+/
+Add
+new
+entries
+above
+this
+line
+.
+BACKEND_LAST
 }
 ;
 enum
