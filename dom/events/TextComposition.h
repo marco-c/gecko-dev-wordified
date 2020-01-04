@@ -2218,7 +2218,7 @@ widget
 *
 /
 void
-NotityUpdateComposition
+OnCompositionEventHandled
 (
 const
 WidgetCompositionEvent
