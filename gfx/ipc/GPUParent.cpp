@@ -614,6 +614,10 @@ CSSToLayoutDeviceScale
 &
 aScale
 const
+TimeDuration
+&
+aVsyncRate
+const
 bool
 &
 aUseExternalSurfaceSize
@@ -633,6 +637,7 @@ new
 CompositorBridgeParent
 (
 aScale
+aVsyncRate
 aUseExternalSurfaceSize
 aSurfaceSize
 )

@@ -1147,6 +1147,10 @@ CompositorBridgeParent
 (
 CSSToLayoutDeviceScale
 aScale
+const
+TimeDuration
+&
+aVsyncRate
 bool
 aUseExternalSurfaceSize
 const
@@ -3468,6 +3472,9 @@ mTestTime
 ;
 CSSToLayoutDeviceScale
 mScale
+;
+TimeDuration
+mVsyncRate
 ;
 bool
 mIsTesting

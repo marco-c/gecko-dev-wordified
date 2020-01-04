@@ -3470,6 +3470,10 @@ CompositorBridgeParent
 (
 CSSToLayoutDeviceScale
 aScale
+const
+TimeDuration
+&
+aVsyncRate
 bool
 aUseExternalSurfaceSize
 const
@@ -3488,6 +3492,10 @@ nullptr
 mScale
 (
 aScale
+)
+mVsyncRate
+(
+aVsyncRate
 )
 mIsTesting
 (
@@ -6642,6 +6650,7 @@ mCompositionManager
 TransformShadowTree
 (
 time
+mVsyncRate
 )
 ;
 if
@@ -7794,6 +7803,7 @@ mCompositionManager
 TransformShadowTree
 (
 aTime
+mVsyncRate
 )
 ;
 if
@@ -7961,6 +7971,7 @@ mCompositionManager
 TransformShadowTree
 (
 time
+mVsyncRate
 AsyncCompositionManager
 :
 :
