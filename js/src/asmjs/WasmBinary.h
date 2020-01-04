@@ -668,8 +668,6 @@ ContinueLabel
 Break
 BreakLabel
 Id
-InterruptCheckHead
-InterruptCheckLoop
 I32Min
 I32Max
 /
