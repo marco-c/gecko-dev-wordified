@@ -1904,6 +1904,18 @@ migrateToDevEdition
 '
 :
 False
+        
+'
+media
+.
+libavcodec
+.
+allow
+-
+obsolete
+'
+:
+True
     
 }
 )
