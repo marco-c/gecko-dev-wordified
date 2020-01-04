@@ -45505,6 +45505,15 @@ checkTablesAfterMovingGC
 c
 -
 >
+dtoaCache
+.
+checkCacheAfterMovingGC
+(
+)
+;
+c
+-
+>
 checkInitialShapesTableAfterMovingGC
 (
 )
