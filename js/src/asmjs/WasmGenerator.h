@@ -1080,7 +1080,7 @@ names
 void
 setFuncNames
 (
-CacheableCharsVector
+NameInBytecodeVector
 &
 &
 funcNames
