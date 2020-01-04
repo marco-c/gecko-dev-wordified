@@ -1180,6 +1180,13 @@ return
 group
 ;
 }
+aContext
+-
+>
+Restore
+(
+)
+;
 }
 Matrix
 maskTransform
