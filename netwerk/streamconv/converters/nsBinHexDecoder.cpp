@@ -258,6 +258,14 @@ mOutgoingBuffer
 =
 nullptr
 ;
+mPosInDataBuffer
+=
+0
+;
+mRlebuf
+=
+0
+;
 mOctetBuf
 .
 val
