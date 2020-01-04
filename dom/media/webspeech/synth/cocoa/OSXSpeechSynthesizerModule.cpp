@@ -190,7 +190,7 @@ GetInstanceForService
 /
 /
 Defines
-kSAPISERVICE_CID
+kOSXSERVICE_CID
 NS_DEFINE_NAMED_CID
 (
 OSXSPEECHSYNTHESIZERSERVICE_CID
@@ -262,14 +262,14 @@ kCategories
 {
 {
 "
-profile
+speech
 -
-after
+synth
 -
-change
+started
 "
 "
-Sapi
+OSX
 Speech
 Synth
 "

@@ -262,11 +262,11 @@ kCategories
 {
 {
 "
-profile
+speech
 -
-after
+synth
 -
-change
+started
 "
 "
 Sapi
