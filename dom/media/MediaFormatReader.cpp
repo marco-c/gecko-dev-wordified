@@ -1354,6 +1354,13 @@ IsWaitingOnCDMResource
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 #
 ifdef
 MOZ_EME
