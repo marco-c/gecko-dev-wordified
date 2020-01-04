@@ -2921,7 +2921,9 @@ this
 .
 close
 (
-aStatus
+Cr
+.
+NS_OK
 )
 ;
 this
