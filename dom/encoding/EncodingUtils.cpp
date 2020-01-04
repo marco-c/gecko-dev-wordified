@@ -175,6 +175,7 @@ static
 const
 char
 *
+const
 labelsEncodings
 [
 ]
@@ -198,6 +199,7 @@ static
 const
 char
 *
+const
 encodingsGroups
 [
 ]

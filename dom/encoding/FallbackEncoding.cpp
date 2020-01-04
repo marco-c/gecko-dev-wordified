@@ -178,6 +178,7 @@ static
 const
 char
 *
+const
 localesFallbacks
 [
 ]
@@ -201,6 +202,7 @@ static
 const
 char
 *
+const
 domainsFallbacks
 [
 ]
@@ -224,6 +226,7 @@ static
 const
 char
 *
+const
 nonParticipatingDomains
 [
 ]
