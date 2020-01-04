@@ -453,12 +453,9 @@ externalArray
 )
 const
 ;
-bool
+void
 set
 (
-JSContext
-*
-cx
 uint32_t
 index
 void
