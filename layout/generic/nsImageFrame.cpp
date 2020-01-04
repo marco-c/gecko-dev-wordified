@@ -974,7 +974,7 @@ nsStyleContext
 aContext
 )
 :
-ImageFrameSuper
+nsAtomicContainerFrame
 (
 aContext
 )
@@ -1076,7 +1076,7 @@ nsImageFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-ImageFrameSuper
+nsAtomicContainerFrame
 )
 #
 ifdef
@@ -1389,7 +1389,7 @@ RemoveIconObserver
 this
 )
 ;
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 DestroyFrom
@@ -1409,7 +1409,7 @@ nsStyleContext
 aOldStyleContext
 )
 {
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 DidSetStyleContext
@@ -1575,7 +1575,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 Init
@@ -12877,7 +12877,7 @@ true
 }
 }
 return
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 HandleEvent
@@ -13120,7 +13120,7 @@ aModType
 nsresult
 rv
 =
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 AttributeChanged
@@ -13220,7 +13220,7 @@ nsIImageLoadingContent
 "
 )
 ;
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 OnVisibilityChange
@@ -13257,7 +13257,7 @@ MaybeDecodeForPredictedSize
 )
 ;
 }
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 OnVisibilityChange

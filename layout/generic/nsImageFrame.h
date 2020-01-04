@@ -290,15 +290,11 @@ mFrame
 ;
 }
 ;
-typedef
-nsAtomicContainerFrame
-ImageFrameSuper
-;
 class
 nsImageFrame
 :
 public
-ImageFrameSuper
+nsAtomicContainerFrame
 public
 nsIReflowCallback
 {
@@ -623,7 +619,7 @@ const
 override
 {
 return
-ImageFrameSuper
+nsAtomicContainerFrame
 :
 :
 IsFrameOfType
