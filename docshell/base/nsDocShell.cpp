@@ -9295,16 +9295,6 @@ false
 ;
 triggeringPrincipal
 =
-principalToInheritAttributesFrom
-?
-nsNullPrincipal
-:
-:
-CreateWithInheritedAttributes
-(
-principalToInheritAttributesFrom
-)
-:
 nsNullPrincipal
 :
 :
