@@ -1475,7 +1475,7 @@ types
 static
 const
 JSFunctionSpec
-TypedObjectMethods
+SimdTypedObjectMethods
 [
 ]
 =
@@ -2329,7 +2329,7 @@ JS_DefineFunctions
 (
 cx
 proto
-TypedObjectMethods
+SimdTypedObjectMethods
 )
 )
 {
