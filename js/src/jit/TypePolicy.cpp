@@ -6670,9 +6670,11 @@ has
 to
 be
 a
-bool32x4
+boolean
 .
 MOZ_ASSERT
+(
+IsBooleanSimdType
 (
 ins
 -
@@ -6686,12 +6688,7 @@ getOperand
 type
 (
 )
-=
-=
-MIRType
-:
-:
-Bool32x4
+)
 )
 ;
 /
