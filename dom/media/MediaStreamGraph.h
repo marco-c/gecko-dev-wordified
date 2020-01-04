@@ -8075,11 +8075,9 @@ virtual
 nsresult
 OpenAudioInput
 (
-CubebUtils
-:
-:
-AudioDeviceID
-aID
+char
+*
+aName
 AudioDataListener
 *
 aListener

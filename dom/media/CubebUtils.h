@@ -148,10 +148,6 @@ mozilla
 namespace
 CubebUtils
 {
-typedef
-cubeb_devid
-AudioDeviceID
-;
 /
 /
 Initialize
