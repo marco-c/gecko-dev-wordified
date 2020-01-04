@@ -1194,6 +1194,10 @@ value
 ;
 ptr
 =
+(
+void
+*
+)
 v
 .
 bitsAsPunboxPointer
