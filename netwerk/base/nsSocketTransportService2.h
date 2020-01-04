@@ -1111,16 +1111,6 @@ PollableEvent
 >
 mPollableEvent
 ;
-bool
-mAutodialEnabled
-;
-/
-/
-pref
-to
-control
-autodial
-code
 /
 /
 Returns

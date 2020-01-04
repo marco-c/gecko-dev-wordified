@@ -1071,9 +1071,6 @@ int32_t
 mRestrictedPortList
 ;
 bool
-mAutoDialEnabled
-;
-bool
 mNetworkNotifyChanged
 ;
 int32_t
