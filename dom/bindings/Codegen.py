@@ -274,6 +274,7 @@ name
 def
 mayUseXrayExpandoSlots
 (
+descriptor
 attr
 )
 :
@@ -310,8 +311,32 @@ reflector
 for
 caching
 .
+Also
+for
+interfaces
+that
+    
+#
+don
+'
+t
+want
+Xrays
+we
+obviously
+never
+use
+the
+Xray
+expando
+slot
+.
     
 return
+descriptor
+.
+wantsXrays
+and
 not
 attr
 .
@@ -59588,6 +59613,9 @@ mayUseXrayExpandoSlots
 (
 self
 .
+descriptor
+self
+.
 idlNode
 )
             
@@ -69259,6 +69287,9 @@ reasonable
 if
 mayUseXrayExpandoSlots
 (
+self
+.
+descriptor
 self
 .
 attr
