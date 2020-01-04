@@ -20992,14 +20992,6 @@ getURL
 ;
 bookmark
 .
-setEnabled
-(
-!
-isAboutReader
-)
-;
-bookmark
-.
 setVisible
 (
 !
