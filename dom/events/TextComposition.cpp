@@ -533,7 +533,7 @@ mCompositionStartOffset
 (
 0
 )
-mCompositionTargetOffset
+mTargetClauseOffsetInComposition
 (
 0
 )
@@ -2893,9 +2893,9 @@ mCompositionStartOffset
 0
 ;
 }
-mCompositionTargetOffset
+mTargetClauseOffsetInComposition
 =
-mCompositionStartOffset
+0
 ;
 }
 else
@@ -2909,10 +2909,8 @@ CausesDOMTextEvent
 )
 )
 {
-mCompositionTargetOffset
+mTargetClauseOffsetInComposition
 =
-mCompositionStartOffset
-+
 aCompositionEvent
 -
 >
