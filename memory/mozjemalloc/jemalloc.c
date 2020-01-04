@@ -7318,6 +7318,13 @@ defined
 (
 __mips__
 )
+&
+&
+!
+defined
+(
+__aarch64__
+)
 #
 define
 MALLOC_STATIC_SIZES
@@ -7415,12 +7422,6 @@ elif
 defined
 (
 __powerpc64__
-)
-|
-|
-defined
-(
-__aarch64__
 )
 #
 define
