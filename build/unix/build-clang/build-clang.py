@@ -349,7 +349,7 @@ base
 tar
 "
 -
-cjf
+cJf
 "
 name
 directory
@@ -2064,7 +2064,7 @@ clang
 .
 tar
 .
-bz2
+xz
 "
 stage2_dir
 "
