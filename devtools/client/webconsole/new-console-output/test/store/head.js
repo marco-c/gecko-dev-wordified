@@ -30,7 +30,7 @@ zero
 /
 *
 exported
-storeFactory
+configureStore
 *
 /
 "
@@ -131,7 +131,7 @@ false
 ;
 const
 {
-storeFactory
+configureStore
 }
 =
 require

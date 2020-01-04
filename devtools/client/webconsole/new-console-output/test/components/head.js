@@ -322,6 +322,8 @@ output
 /
 test
 /
+fixtures
+/
 stubs
 "
 )

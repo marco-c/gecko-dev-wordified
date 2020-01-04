@@ -174,7 +174,7 @@ getState
 dispatch
 }
 =
-storeFactory
+configureStore
 (
 )
 ;
@@ -311,7 +311,7 @@ getState
 dispatch
 }
 =
-storeFactory
+configureStore
 (
 )
 ;
@@ -484,7 +484,7 @@ getState
 dispatch
 }
 =
-storeFactory
+configureStore
 (
 )
 ;
@@ -611,7 +611,7 @@ getState
 dispatch
 }
 =
-storeFactory
+configureStore
 (
 )
 ;
@@ -784,7 +784,7 @@ getState
 dispatch
 }
 =
-storeFactory
+configureStore
 (
 )
 ;
