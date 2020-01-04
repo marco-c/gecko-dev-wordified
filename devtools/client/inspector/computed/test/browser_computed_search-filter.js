@@ -304,9 +304,9 @@ focus
 search
 if
 the
+/
+/
 container
-/
-/
 isn
 '
 t
@@ -424,10 +424,9 @@ propertyViews
 .
 forEach
 (
-function
-(
 propView
-)
+=
+>
 {
 let
 name

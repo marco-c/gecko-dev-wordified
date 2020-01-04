@@ -5234,6 +5234,9 @@ return
 value
 ;
 }
+return
+null
+;
 }
 }
 ;
@@ -7321,10 +7324,9 @@ _matchedSelectorResponse
 .
 forEach
 (
-function
-(
 selectorInfo
-)
+=
+>
 {
 let
 selectorView
