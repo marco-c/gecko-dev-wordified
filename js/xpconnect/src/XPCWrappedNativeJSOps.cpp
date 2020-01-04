@@ -4456,6 +4456,10 @@ nullptr
 /
 enumerate
 XPC_WN_JSOp_ThisValue
+nullptr
+/
+/
+funToString
 }
 }
 }
