@@ -2234,6 +2234,7 @@ uncompressed_size
 E_OUTOFMEM
 )
 )
+{
 memset
 (
 uncompressed_table
@@ -2311,6 +2312,7 @@ uncompressed_size
 E_SHRINKERFAILED
 )
 ;
+}
 break
 ;
 }
