@@ -8102,6 +8102,13 @@ delegate
 =
 delegate
 ;
+MessageChannel
+.
+setupMessageManagers
+(
+messageManagers
+)
+;
 }
 Messenger
 .
