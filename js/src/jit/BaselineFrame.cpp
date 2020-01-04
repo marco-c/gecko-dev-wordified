@@ -861,7 +861,7 @@ isNonEvalFunctionFrame
 ;
 MOZ_ASSERT
 (
-fun
+callee
 (
 )
 -

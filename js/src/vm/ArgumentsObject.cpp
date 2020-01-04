@@ -332,7 +332,7 @@ if
 (
 frame
 .
-fun
+callee
 (
 )
 -

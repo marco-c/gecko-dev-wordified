@@ -967,7 +967,7 @@ MOZ_ASSERT
 !
 frame
 .
-fun
+callee
 (
 )
 -
@@ -992,7 +992,7 @@ isObject
 |
 frame
 .
-fun
+callee
 (
 )
 -
@@ -1004,7 +1004,7 @@ strict
 |
 frame
 .
-fun
+callee
 (
 )
 -

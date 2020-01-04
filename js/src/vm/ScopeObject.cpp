@@ -9447,7 +9447,7 @@ isNonEvalFunctionFrame
 &
 frame_
 .
-fun
+callee
 (
 )
 -
@@ -17180,7 +17180,7 @@ if
 (
 frame
 .
-fun
+callee
 (
 )
 -
@@ -17230,7 +17230,7 @@ if
 (
 frame
 .
-fun
+callee
 (
 )
 -

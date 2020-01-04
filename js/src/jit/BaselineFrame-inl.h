@@ -525,7 +525,7 @@ hasCallObj
 ;
 MOZ_ASSERT
 (
-fun
+callee
 (
 )
 -
