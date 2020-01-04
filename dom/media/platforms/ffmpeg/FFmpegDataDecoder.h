@@ -235,15 +235,6 @@ Shutdown
 )
 override
 ;
-static
-AVCodec
-*
-FindAVCodec
-(
-AVCodecID
-aCodec
-)
-;
 protected
 :
 /

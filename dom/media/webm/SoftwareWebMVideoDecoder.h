@@ -158,7 +158,10 @@ aReader
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 unsigned
