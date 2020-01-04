@@ -790,6 +790,9 @@ param
 Number
 }
 height
+(
+optional
+)
 *
 Preferred
 height
@@ -820,6 +823,17 @@ shrink
 around
 the
 content
+.
+If
+not
+specified
+will
+use
+all
+the
+height
+*
+available
 .
 *
 return
@@ -852,6 +866,8 @@ function
 content
 width
 height
+=
+Infinity
 )
 {
 let
