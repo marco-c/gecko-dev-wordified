@@ -104,6 +104,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Checks
