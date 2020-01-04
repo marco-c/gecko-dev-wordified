@@ -5837,6 +5837,12 @@ form
 =
 WNSSSV
 "
+or
+"
+form
+=
+WNSSCX
+"
 var
 allowedParams
 =
@@ -5852,6 +5858,9 @@ WNSFC2
 "
 "
 WNSHCO
+"
+"
+WNSSCX
 "
 "
 WNSSSV
