@@ -777,6 +777,18 @@ or
 '
 ]
         
+paths
+=
+map
+(
+os
+.
+path
+.
+abspath
+paths
+)
+        
 #
 Set
 up
