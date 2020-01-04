@@ -707,7 +707,12 @@ GetDocumentURI
 (
 )
 domNode
-true
+linkTypes
+&
+nsStyleLinkElement
+:
+:
+ePREFETCH
 )
 ;
 return
