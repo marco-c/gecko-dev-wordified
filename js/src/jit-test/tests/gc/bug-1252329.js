@@ -21,7 +21,7 @@ helperThreadCount
 !
 (
 '
-gczeal
+oomAfterAllocations
 '
 in
 this
