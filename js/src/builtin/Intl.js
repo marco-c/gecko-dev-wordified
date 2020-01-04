@@ -697,7 +697,7 @@ left
 =
 callFunction
 (
-std_String_substring
+String_substring
 locale
 0
 pos
@@ -708,7 +708,7 @@ right
 =
 callFunction
 (
-std_String_substring
+String_substring
 locale
 pos
 )
@@ -3248,7 +3248,7 @@ locale
 =
 callFunction
 (
-std_String_substring
+String_substring
 locale
 0
 pos
@@ -3923,7 +3923,7 @@ subtag
 +
 callFunction
 (
-std_String_substring
+String_substring
 subtag
 1
 )
@@ -6001,7 +6001,7 @@ if
 (
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 seen
 tag
 )
@@ -6360,7 +6360,7 @@ candidate
 =
 callFunction
 (
-std_String_substring
+String_substring
 candidate
 0
 pos
@@ -7242,7 +7242,7 @@ keyPos
 =
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 extensionSubtags
 key
 )
@@ -7338,7 +7338,7 @@ valuePos
 =
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 keyLocaleData
 requestedValue
 )
@@ -7443,7 +7443,7 @@ valuePos
 =
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 keyLocaleData
 "
 true
@@ -7527,7 +7527,7 @@ undefined
 &
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 keyLocaleData
 optionsValue
 )
@@ -7614,7 +7614,7 @@ preExtension
 =
 callFunction
 (
-std_String_substring
+String_substring
 foundLocale
 0
 extensionIndex
@@ -7625,7 +7625,7 @@ postExtension
 =
 callFunction
 (
-std_String_substring
+String_substring
 foundLocale
 extensionIndex
 )
@@ -8353,7 +8353,7 @@ undefined
 &
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 values
 value
 )
@@ -18945,7 +18945,7 @@ optionsPropIndex
 =
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 values
 optionsProp
 )
@@ -18955,7 +18955,7 @@ formatPropIndex
 =
 callFunction
 (
-std_Array_indexOf
+ArrayIndexOf
 values
 formatProp
 )
