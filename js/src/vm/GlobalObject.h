@@ -236,8 +236,6 @@ SimdTypeDescr
 enum
 class
 SimdType
-:
-uint8_t
 ;
 /
 *

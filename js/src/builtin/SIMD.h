@@ -6411,8 +6411,6 @@ types
 enum
 class
 SimdType
-:
-uint8_t
 {
 Int8x16
 =
