@@ -2093,7 +2093,6 @@ if
 '
 locations
 '
-not
 in
 task_def
 [
@@ -2103,19 +2102,6 @@ extra
 ]
 :
         
-raise
-BuildTaskValidationException
-(
-'
-task
-.
-extra
-.
-locations
-missing
-'
-)
-    
 locations
 =
 task_def
@@ -2129,7 +2115,7 @@ extra
 locations
 '
 ]
-    
+        
 if
 '
 build
@@ -2138,7 +2124,7 @@ not
 in
 locations
 :
-        
+            
 raise
 BuildTaskValidationException
 (
@@ -2153,7 +2139,7 @@ build
 missing
 '
 )
-    
+        
 if
 '
 tests
@@ -2169,7 +2155,7 @@ not
 in
 locations
 :
-        
+            
 raise
 BuildTaskValidationException
 (
@@ -2183,7 +2169,7 @@ locations
 tests
 or
 '
-                                           
+                                               
 '
 task
 .
