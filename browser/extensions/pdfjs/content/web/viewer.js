@@ -9799,8 +9799,13 @@ pdfOpenParams
 }
 }
 return
+this
+.
+getAnchorUrl
+(
 '
 '
+)
 ;
 }
 /
