@@ -1845,11 +1845,18 @@ formatter
 JarFormatter
 (
 copier
+                                 
 optimize
 =
 app_finder
 .
 optimizedjars
+                                 
+compress
+=
+app_finder
+.
+compressed
 )
     
 elif
@@ -1877,6 +1884,12 @@ optimize
 app_finder
 .
 optimizedjars
+                                     
+compress
+=
+app_finder
+.
+compressed
                                      
 non_resources
 =

@@ -277,6 +277,12 @@ optimizedjars
 =
 False
         
+self
+.
+compressed
+=
+True
+        
 jars
 =
 set
@@ -1136,6 +1142,26 @@ self
 optimizedjars
 =
 True
+        
+if
+not
+any
+(
+f
+.
+compressed
+for
+f
+in
+jar
+)
+:
+            
+self
+.
+compressed
+=
+False
         
 if
 jar
