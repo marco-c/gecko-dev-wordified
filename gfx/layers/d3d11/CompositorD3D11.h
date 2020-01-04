@@ -246,6 +246,9 @@ public
 :
 CompositorD3D11
 (
+CompositorBridgeParent
+*
+aParent
 nsIWidget
 *
 aWidget
