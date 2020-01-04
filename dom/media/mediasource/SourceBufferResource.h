@@ -803,8 +803,12 @@ more
 than
 the
 threshold
+reduced
+by
 /
 /
+the
+given
 number
 of
 bytes
@@ -819,7 +823,7 @@ EvictData
 uint64_t
 aPlaybackOffset
 int64_t
-aThreshold
+aThresholdReduct
 ErrorResult
 &
 aRv

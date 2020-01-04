@@ -440,6 +440,13 @@ GroupEndTimestamp
 )
 override
 ;
+int64_t
+EvictionThreshold
+(
+)
+const
+override
+;
 /
 /
 Interface
@@ -2297,8 +2304,11 @@ int64_t
 >
 mSizeSourceBuffer
 ;
-uint32_t
-mEvictionThreshold
+int64_t
+mVideoEvictionThreshold
+;
+int64_t
+mAudioEvictionThreshold
 ;
 Atomic
 <
