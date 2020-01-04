@@ -890,6 +890,11 @@ Print
 windowID
 :
 aWindowID
+simplifiedMode
+:
+this
+.
+_shouldSimplify
 }
 )
 ;
