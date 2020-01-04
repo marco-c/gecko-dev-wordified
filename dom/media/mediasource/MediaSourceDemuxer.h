@@ -483,9 +483,6 @@ InitPromise
 >
 mInitPromise
 ;
-bool
-mInitDone
-;
 /
 /
 Monitor
