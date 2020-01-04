@@ -942,6 +942,14 @@ ServiceWorkerPrivate
 (
 )
 ;
+already_AddRefed
+<
+KeepAliveToken
+>
+CreateEventKeepAliveToken
+(
+)
+;
 /
 /
 The
