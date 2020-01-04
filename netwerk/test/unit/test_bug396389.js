@@ -324,11 +324,10 @@ nsIPrefBranch
 )
 ;
 for
-each
 (
 var
 pref
-in
+of
 prefData
 )
 {
@@ -510,11 +509,10 @@ asciiHost
 finally
 {
 for
-each
 (
 var
 pref
-in
+of
 prefData
 )
 {

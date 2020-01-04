@@ -337,11 +337,10 @@ run_test
 )
 {
 for
-each
 (
 var
 test
-in
+of
 test_array
 )
 {
@@ -381,11 +380,10 @@ line
 )
 ;
 for
-each
 (
 var
 check
-in
+of
 test
 .
 lines
