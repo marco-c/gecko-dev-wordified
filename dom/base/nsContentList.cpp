@@ -2550,6 +2550,15 @@ content
 &
 &
 (
+(
+content
+-
+>
+IsHTMLElement
+(
+)
+&
+&
 content
 -
 >
@@ -2562,6 +2571,7 @@ nsGkAtoms
 name
 name
 eCaseMatters
+)
 )
 |
 |
