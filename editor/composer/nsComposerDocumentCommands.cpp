@@ -2291,9 +2291,11 @@ nsICommandManager
 >
 commandManager
 =
-do_GetInterface
-(
 mDocShell
+-
+>
+GetCommandManager
+(
 )
 ;
 *

@@ -5920,9 +5920,11 @@ nsICommandManager
 >
 commandManager
 =
-do_GetInterface
-(
 docShell
+-
+>
+GetCommandManager
+(
 )
 ;
 nsCOMPtr

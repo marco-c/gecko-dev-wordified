@@ -16873,9 +16873,11 @@ NS_ERROR_FAILURE
 ;
 mMidasCommandManager
 =
-do_GetInterface
-(
 docshell
+-
+>
+GetCommandManager
+(
 )
 ;
 if
