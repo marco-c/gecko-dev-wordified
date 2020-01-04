@@ -670,5 +670,13 @@ int
 port
 )
 ;
+int
+nr_transport_addr_is_reliable_transport
+(
+nr_transport_addr
+*
+addr
+)
+;
 #
 endif

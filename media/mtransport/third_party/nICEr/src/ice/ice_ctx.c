@@ -2426,6 +2426,13 @@ Ta
 =
 20
 ;
+ctx
+-
+>
+test_timer_divider
+=
+0
+;
 if
 (
 r
