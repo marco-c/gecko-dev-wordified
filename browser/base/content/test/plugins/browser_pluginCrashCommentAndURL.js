@@ -1142,7 +1142,7 @@ resolve
 addEventListener
 (
 "
-PluginCrashed
+PluginCrashReporterDisplayed
 "
 function
 onPluginCrashed
@@ -1152,7 +1152,7 @@ onPluginCrashed
 removeEventListener
 (
 "
-PluginCrashed
+PluginCrashReporterDisplayed
 "
 onPluginCrashed
 )
