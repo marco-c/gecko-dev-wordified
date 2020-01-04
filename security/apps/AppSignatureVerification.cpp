@@ -5122,7 +5122,7 @@ items
 .
 RemoveEntry
 (
-entryFilename
+item
 )
 ;
 }
@@ -7889,7 +7889,7 @@ aItems
 .
 RemoveEntry
 (
-curName
+item
 )
 ;
 }
