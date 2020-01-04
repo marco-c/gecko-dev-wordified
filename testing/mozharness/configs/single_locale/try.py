@@ -283,26 +283,6 @@ try
 "
         
 "
-clone_upstream_url
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-mozilla
--
-central
-"
-        
-"
 clone_by_revision
 "
 :
