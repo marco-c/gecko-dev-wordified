@@ -3119,6 +3119,12 @@ use
 uint8_t
 mBlockDirAlign
 ;
+mozilla
+:
+:
+WritingMode
+mWritingMode
+;
 PerFrameData
 *
 Last
