@@ -292,7 +292,7 @@ entity
 '
 excess
 reference
-entitiy
+entity
 '
 )
             
