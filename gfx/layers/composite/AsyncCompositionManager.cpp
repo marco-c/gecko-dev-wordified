@@ -2987,8 +2987,6 @@ const
 ScreenMargin
 &
 aFixedLayerMargins
-bool
-aTransformAffectsLayerClip
 ClipPartsCache
 *
 aClipPartsCache
@@ -3119,18 +3117,6 @@ aTransformScrollId
 aPreviousTransformForRoot
 aCurrentTransformForRoot
 aFixedLayerMargins
-true
-/
-*
-descendants
-'
-clip
-rects
-are
-always
-affected
-*
-/
 aClipPartsCache
 )
 ;
@@ -3923,7 +3909,7 @@ ToUnknownPoint
 (
 )
 )
-aTransformAffectsLayerClip
+true
 aClipPartsCache
 )
 ;
@@ -7448,11 +7434,6 @@ GetScrollId
 oldTransform
 transformWithoutOverscrollOrOmta
 fixedLayerMargins
-clipParts
-.
-IsSome
-(
-)
 &
 aClipPartsCache
 )
@@ -11050,7 +11031,6 @@ GetLocalTransformTyped
 (
 )
 fixedLayerMargins
-false
 nullptr
 )
 ;
