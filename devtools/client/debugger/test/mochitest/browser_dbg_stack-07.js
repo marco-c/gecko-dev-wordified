@@ -148,12 +148,7 @@ options
 {
 source
 :
-EXAMPLE_URL
-+
 "
-code_script
--
-switching
 -
 01
 .

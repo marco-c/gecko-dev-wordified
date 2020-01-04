@@ -127,8 +127,6 @@ options
 {
 source
 :
-EXAMPLE_URL
-+
 "
 code_ugly
 -
