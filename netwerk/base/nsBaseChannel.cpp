@@ -616,7 +616,8 @@ mLoadInfo
 GetSecurityFlags
 (
 )
-^
+&
+~
 nsILoadInfo
 :
 :
