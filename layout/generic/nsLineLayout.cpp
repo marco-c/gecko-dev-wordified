@@ -8390,6 +8390,10 @@ PushFrame
 aFrame
 )
 ;
+aPushedFrame
+=
+true
+;
 }
 #
 ifdef

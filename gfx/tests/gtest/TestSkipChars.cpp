@@ -541,7 +541,7 @@ for
 i
 ;
 }
-uint32_t
+int32_t
 expectOriginal1
 [
 ]
@@ -966,7 +966,7 @@ for
 i
 ;
 }
-uint32_t
+int32_t
 expectOriginal2
 [
 ]
