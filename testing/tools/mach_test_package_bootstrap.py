@@ -221,6 +221,10 @@ tools
 /
 wptserve
 '
+    
+'
+xpcshell
+'
 ]
 #
 Individual
@@ -251,6 +255,14 @@ mach
 commands
 /
 commandinfo
+.
+py
+'
+    
+'
+xpcshell
+/
+mach_test_package_commands
 .
 py
 '
