@@ -227,6 +227,13 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+YCbCrUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -2008,9 +2015,6 @@ SetCapacity
 length
 )
 ;
-gfxUtils
-:
-:
 ConvertYCbCrToRGB
 (
 *
