@@ -5250,7 +5250,7 @@ from
 Equals
 (
 "
-brotli
+br
 "
 )
 )
@@ -6050,7 +6050,7 @@ CaseInsensitiveFindInReadable
 NS_LITERAL_CSTRING
 (
 "
-brotli
+br
 "
 )
 start

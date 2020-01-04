@@ -243,7 +243,7 @@ compress
 define
 HTTP_BROTLI_TYPE
 "
-brotli
+br
 "
 #
 define
