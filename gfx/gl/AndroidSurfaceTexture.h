@@ -482,6 +482,7 @@ bool
 CanDetach
 (
 )
+const
 {
 return
 mCanDetach
@@ -489,9 +490,10 @@ mCanDetach
 }
 GLContext
 *
-GetAttachedContext
+AttachedContext
 (
 )
+const
 {
 return
 mAttachedContext
@@ -502,6 +504,7 @@ AndroidNativeWindow
 NativeWindow
 (
 )
+const
 {
 return
 mNativeWindow
@@ -536,11 +539,13 @@ Matrix4x4
 &
 aMatrix
 )
+const
 ;
 int
 ID
 (
 )
+const
 {
 return
 mID
@@ -622,6 +627,7 @@ GLuint
 Texture
 (
 )
+const
 {
 return
 mTexture
@@ -642,6 +648,7 @@ Ref
 JavaSurface
 (
 )
+const
 {
 return
 mSurface
@@ -700,9 +707,6 @@ Surface
 GlobalRef
 mSurface
 ;
-Monitor
-mMonitor
-;
 GLContext
 *
 mAttachedContext
@@ -724,6 +728,10 @@ nsCOMPtr
 nsIRunnable
 >
 mFrameAvailableCallback
+;
+mutable
+Monitor
+mMonitor
 ;
 }
 ;
