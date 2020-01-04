@@ -2196,7 +2196,6 @@ here
 may
 fail
 )
-virtual
 nsresult
 Init
 (
@@ -2223,7 +2222,6 @@ and
 used
 from
 MainThread
-virtual
 bool
 IsVideo
 (
@@ -2311,7 +2309,6 @@ the
 main
 thread
 .
-virtual
 void
 DetachMedia
 (
@@ -2326,7 +2323,6 @@ MediaPipeline
 :
 TransportReady
 .
-virtual
 nsresult
 TransportReady_s
 (
@@ -3318,7 +3314,6 @@ queue_track
 )
 {
 }
-virtual
 void
 DetachMedia
 (
@@ -3349,14 +3344,12 @@ nullptr
 ;
 }
 }
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 bool
 IsVideo
 (
@@ -3517,7 +3510,6 @@ nullptr
 /
 Implement
 MediaStreamListener
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -3543,7 +3535,6 @@ input_tid
 override
 {
 }
-virtual
 void
 NotifyPull
 (
@@ -3737,7 +3728,6 @@ the
 main
 thread
 .
-virtual
 void
 DetachMedia
 (
@@ -3847,14 +3837,12 @@ nullptr
 ;
 }
 }
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 bool
 IsVideo
 (
@@ -3931,7 +3919,6 @@ nullptr
 /
 Implement
 VideoRenderer
-virtual
 void
 FrameSizeChange
 (
@@ -3961,7 +3948,6 @@ number_of_streams
 )
 ;
 }
-virtual
 void
 RenderVideoFrame
 (
@@ -4003,7 +3989,6 @@ GetImage
 )
 ;
 }
-virtual
 void
 RenderVideoFrame
 (
@@ -4097,7 +4082,6 @@ queue_track
 /
 Implement
 MediaStreamListener
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -4123,7 +4107,6 @@ input_tid
 override
 {
 }
-virtual
 void
 NotifyPull
 (
