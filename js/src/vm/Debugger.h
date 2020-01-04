@@ -3345,8 +3345,6 @@ AutoCompartment
 >
 &
 ac
-bool
-callHook
 )
 ;
 JSTrapStatus
@@ -3363,8 +3361,6 @@ AutoCompartment
 ac
 MutableHandleValue
 vp
-bool
-callHook
 const
 mozilla
 :
@@ -3405,8 +3401,6 @@ ac
 MutableHandleValue
 *
 vp
-bool
-callHook
 const
 mozilla
 :
