@@ -12944,7 +12944,7 @@ checkFailed
 )
 ;
 void
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 JSContext
 *

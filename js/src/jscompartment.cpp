@@ -452,7 +452,7 @@ globalWriteBarriered
 (
 false
 )
-neuteredTypedObjects
+detachedTypedObjects
 (
 0
 )
