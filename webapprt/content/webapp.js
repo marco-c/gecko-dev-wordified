@@ -530,7 +530,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 )
 {
 document
@@ -1027,7 +1027,7 @@ document
 addEventListener
 (
 '
-mozfullscreenchange
+fullscreenchange
 '
 function
 (
@@ -1037,7 +1037,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 )
 {
 document

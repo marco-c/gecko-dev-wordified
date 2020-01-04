@@ -4760,11 +4760,11 @@ content
 .
 document
 .
-mozFullScreenEnabled
+fullscreenEnabled
 )
 media
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

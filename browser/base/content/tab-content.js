@@ -3824,7 +3824,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 /
@@ -4034,7 +4034,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 /

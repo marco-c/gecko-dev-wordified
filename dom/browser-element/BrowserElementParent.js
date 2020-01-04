@@ -1837,7 +1837,7 @@ windowEvents
 visibilitychange
 '
 '
-mozfullscreenchange
+fullscreenchange
 '
 ]
 ;
@@ -8260,7 +8260,7 @@ break
 ;
 case
 '
-mozfullscreenchange
+fullscreenchange
 '
 :
 if
@@ -8272,7 +8272,7 @@ _window
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 this

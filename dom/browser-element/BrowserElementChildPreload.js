@@ -3685,7 +3685,7 @@ content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 {
 /

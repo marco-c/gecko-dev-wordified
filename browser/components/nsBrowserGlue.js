@@ -19963,7 +19963,7 @@ browser
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 onFullScreen
 true
@@ -20065,7 +20065,7 @@ browser
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 onFullScreen
 true

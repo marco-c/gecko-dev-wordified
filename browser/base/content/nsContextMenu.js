@@ -1357,7 +1357,7 @@ target
 .
 ownerDocument
 .
-mozFullScreenElement
+fullscreenElement
 !
 =
 null
@@ -4552,7 +4552,7 @@ target
 .
 ownerDocument
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 null
@@ -9777,7 +9777,7 @@ function
 {
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;

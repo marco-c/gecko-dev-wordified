@@ -1305,7 +1305,7 @@ contentDocument
 .
 documentElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
