@@ -1224,11 +1224,6 @@ indexOfMatch
 +
 patternLength
 ;
-/
-/
-Crash
-here
-?
 if
 (
 indexOfMatch
