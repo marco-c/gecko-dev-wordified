@@ -4795,6 +4795,9 @@ FasterMake
 '
 CompileDB
 '
+'
+ChromeMap
+'
 ]
         
 help

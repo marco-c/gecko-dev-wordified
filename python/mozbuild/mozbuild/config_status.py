@@ -940,6 +940,10 @@ FasterMake
 '
 CompileDB
 '
+                                 
+'
+ChromeMap
+'
 ]
                         
 default
@@ -1295,6 +1299,31 @@ backends_cls
 append
 (
 CompileDBBackend
+)
+        
+elif
+backend
+=
+=
+'
+ChromeMap
+'
+:
+            
+from
+mozbuild
+.
+codecoverage
+.
+chrome_map
+import
+ChromeMapBackend
+            
+backends_cls
+.
+append
+(
+ChromeMapBackend
 )
         
 else
