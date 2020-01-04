@@ -243,13 +243,13 @@ Cursor
 topSitesCursor
 ;
 private
-final
 HomePager
 .
 OnUrlOpenListener
 onUrlOpenListener
 ;
-StreamRecyclerAdapter
+void
+setOnUrlOpenListener
 (
 HomePager
 .
