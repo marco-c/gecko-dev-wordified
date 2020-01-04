@@ -497,6 +497,7 @@ mozilla
 namespace
 dom
 {
+const
 JSErrorFormatString
 ErrorFormatString
 [
