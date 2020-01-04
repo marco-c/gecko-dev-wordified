@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-Error
-/
-/
 TODO
 Pass
 the
@@ -20,6 +10,10 @@ the
 error
 message
 ?
+quit
+(
+)
+;
 var
 importedArgs
 =

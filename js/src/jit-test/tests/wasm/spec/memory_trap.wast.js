@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-Error
-/
-/
 TODO
 current_memory
 opcode
@@ -17,6 +7,10 @@ opcode
 traps
 on
 OOB
+quit
+(
+)
+;
 var
 importedArgs
 =

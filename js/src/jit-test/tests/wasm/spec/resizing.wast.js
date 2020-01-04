@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-Error
-/
-/
 TODO
 memory
 resizing
@@ -20,6 +10,10 @@ don
 t
 say
 )
+quit
+(
+)
+;
 var
 importedArgs
 =

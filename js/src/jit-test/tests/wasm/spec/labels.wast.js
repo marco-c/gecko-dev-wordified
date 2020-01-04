@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-Error
-/
-/
 TODO
 br_if
 not
@@ -18,6 +8,10 @@ with
 its
 br
 value
+quit
+(
+)
+;
 var
 importedArgs
 =
