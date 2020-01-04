@@ -839,8 +839,10 @@ let
 pref
 def
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 aPref
 )

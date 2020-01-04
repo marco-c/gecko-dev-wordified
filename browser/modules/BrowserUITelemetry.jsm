@@ -726,7 +726,9 @@ let
 buttons
 ]
 of
-Iterator
+Object
+.
+entries
 (
 DEFAULT_AREA_PLACEMENTS
 )
@@ -1664,9 +1666,10 @@ i
 key
 ]
 of
-Iterator
-(
 aKeys
+.
+entries
+(
 )
 )
 {

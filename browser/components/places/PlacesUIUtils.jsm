@@ -9702,8 +9702,10 @@ let
 name
 id
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 this
 .

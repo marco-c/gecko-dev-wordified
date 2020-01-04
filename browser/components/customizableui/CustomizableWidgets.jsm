@@ -621,7 +621,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 aAttrs
 )

@@ -728,7 +728,9 @@ k
 v
 ]
 of
-Iterator
+Object
+.
+entries
 (
 attrs
 )
