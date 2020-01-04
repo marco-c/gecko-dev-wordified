@@ -305,6 +305,15 @@ NO_BLOCK_ID
 =
 0
 ;
+enum
+class
+TargetConfirmationState
+{
+eUnconfirmed
+eTimedOut
+eConfirmed
+}
+;
 explicit
 InputBlockState
 (
@@ -337,6 +346,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
+TargetConfirmationState
+aState
 )
 ;
 const
@@ -465,7 +476,7 @@ AsyncPanZoomController
 >
 mTargetApzc
 ;
-bool
+TargetConfirmationState
 mTargetConfirmed
 ;
 const
@@ -1422,6 +1433,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
+TargetConfirmationState
+aState
 )
 override
 ;
@@ -2006,6 +2019,8 @@ AsyncPanZoomController
 >
 &
 aTargetApzc
+TargetConfirmationState
+aState
 )
 override
 ;
