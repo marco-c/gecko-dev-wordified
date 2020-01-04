@@ -498,8 +498,6 @@ elementManager
 new
 ElementManager
 (
-[
-]
 )
 ;
 /
