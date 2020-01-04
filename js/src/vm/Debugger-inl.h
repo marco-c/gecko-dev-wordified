@@ -154,6 +154,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 bool
 ok
 )
@@ -264,6 +267,7 @@ slowPathOnLeaveFrame
 (
 cx
 frame
+pc
 ok
 )
 ;

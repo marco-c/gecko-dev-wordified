@@ -6803,6 +6803,9 @@ regs
 fp
 (
 )
+regs
+.
+pc
 frameOk
 )
 ;
@@ -7937,6 +7940,9 @@ regs
 fp
 (
 )
+regs
+.
+pc
 ok
 )
 ;
@@ -12600,6 +12606,9 @@ REGS
 fp
 (
 )
+REGS
+.
+pc
 interpReturnOK
 )
 ;
@@ -25462,6 +25471,9 @@ REGS
 fp
 (
 )
+REGS
+.
+pc
 interpReturnOK
 )
 ;
