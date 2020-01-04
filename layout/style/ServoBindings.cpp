@@ -1505,8 +1505,7 @@ build
 #
 endif
 }
-RawServoDeclarationBlock
-*
+RawServoDeclarationBlockStrongBorrowedOrNull
 Gecko_GetServoDeclarationBlock
 (
 RawGeckoElementBorrowed
@@ -1648,6 +1647,14 @@ nullptr
 ;
 }
 return
+reinterpret_cast
+<
+const
+RawServoDeclarationBlockStrong
+*
+>
+(
+&
 decl
 -
 >
@@ -1658,6 +1665,7 @@ AsServo
 >
 RefRaw
 (
+)
 )
 ;
 }

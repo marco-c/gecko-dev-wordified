@@ -1616,7 +1616,7 @@ SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
 Style
 attributes
 .
-RawServoDeclarationBlockBorrowedOrNull
+RawServoDeclarationBlockStrongBorrowedOrNull
 Gecko_GetServoDeclarationBlock
 (
 RawGeckoElementBorrowed
