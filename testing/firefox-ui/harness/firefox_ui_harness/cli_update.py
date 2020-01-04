@@ -85,6 +85,9 @@ UpdateTestRunner
 def
 cli
 (
+args
+=
+None
 )
 :
     
@@ -97,6 +100,10 @@ UpdateTestRunner
 parser_class
 =
 UpdateArguments
+           
+args
+=
+args
            
 )
 if

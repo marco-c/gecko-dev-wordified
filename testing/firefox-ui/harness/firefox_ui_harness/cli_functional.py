@@ -85,6 +85,9 @@ FirefoxUITestRunner
 def
 cli
 (
+args
+=
+None
 )
 :
     
@@ -97,6 +100,10 @@ FirefoxUITestRunner
 parser_class
 =
 FirefoxUIArguments
+           
+args
+=
+args
            
 )
 if

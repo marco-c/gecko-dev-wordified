@@ -59,8 +59,6 @@ import
 mozfile
 import
 mozinstall
-import
-firefox_ui_tests
 from
 firefox_puppeteer
 .
@@ -287,7 +285,7 @@ results
 def
 _run_tests
 (
-manifest
+tags
 )
 :
             
@@ -297,6 +295,17 @@ None
             
 try
 :
+                
+#
+Backup
+current
+tags
+                
+test_tags
+=
+self
+.
+test_tags
                 
 application_folder
 =
@@ -321,14 +330,18 @@ Firefox
 '
 )
                 
+self
+.
+test_tags
+=
+tags
+                
 FirefoxUITestRunner
 .
 run_tests
 (
 self
-[
-manifest
-]
+tests
 )
             
 except
@@ -371,6 +384,12 @@ exc_info
             
 finally
 :
+                
+self
+.
+test_tags
+=
+test_tags
                 
 self
 .
@@ -451,11 +470,13 @@ run_direct_update
             
 _run_tests
 (
-manifest
+tags
 =
-firefox_ui_tests
-.
-manifest_update_direct
+[
+'
+direct
+'
+]
 )
             
 failed
@@ -496,11 +517,13 @@ run_fallback_update
             
 _run_tests
 (
-manifest
+tags
 =
-firefox_ui_tests
-.
-manifest_update_fallback
+[
+'
+fallback
+'
+]
 )
             
 failed

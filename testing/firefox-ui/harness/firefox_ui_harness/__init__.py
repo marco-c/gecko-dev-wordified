@@ -62,3 +62,7 @@ __version__
 .
 0
 '
+import
+cli_functional
+import
+cli_update
