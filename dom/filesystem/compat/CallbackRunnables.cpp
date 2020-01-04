@@ -172,6 +172,17 @@ mozilla
 /
 dom
 /
+FileSystemDirectoryReaderBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemFileEntry
 .
 h

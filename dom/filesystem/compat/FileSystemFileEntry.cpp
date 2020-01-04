@@ -139,6 +139,17 @@ File
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+FileSystemFileEntryBinding
+.
+h
+"
 namespace
 mozilla
 {

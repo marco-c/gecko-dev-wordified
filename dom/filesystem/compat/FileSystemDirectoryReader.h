@@ -179,6 +179,9 @@ class
 FileSystem
 ;
 class
+FileSystemEntriesCallback
+;
+class
 FileSystemDirectoryReader
 :
 public
