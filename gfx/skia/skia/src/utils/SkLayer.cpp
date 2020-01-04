@@ -154,7 +154,7 @@ SkLayer
 {
 fParent
 =
-NULL
+nullptr
 ;
 m_opacity
 =
@@ -242,7 +242,7 @@ INHERITED
 {
 fParent
 =
-NULL
+nullptr
 ;
 m_opacity
 =
@@ -662,7 +662,7 @@ index
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 SkLayer
@@ -707,7 +707,7 @@ child
 fParent
 =
 =
-NULL
+nullptr
 )
 ;
 child
@@ -776,7 +776,7 @@ index
 ;
 fParent
 =
-NULL
+nullptr
 ;
 this
 -
@@ -852,7 +852,7 @@ child
 >
 fParent
 =
-NULL
+nullptr
 ;
 /
 /
@@ -904,7 +904,7 @@ root
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 root
@@ -1160,7 +1160,7 @@ layer
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 layer

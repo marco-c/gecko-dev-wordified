@@ -356,7 +356,7 @@ SkAnimatorScript
 scriptEngine
 (
 maker
-NULL
+nullptr
 SkType_Int
 )
 ;
@@ -623,7 +623,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -668,7 +668,7 @@ if
 end
 =
 =
-NULL
+nullptr
 )
 end
 =

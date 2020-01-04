@@ -114,11 +114,11 @@ SkDrawClip
 :
 rect
 (
-NULL
+nullptr
 )
 path
 (
-NULL
+nullptr
 )
 {
 }
@@ -138,7 +138,7 @@ if
 rect
 !
 =
-NULL
+nullptr
 )
 maker
 .
@@ -160,7 +160,7 @@ SkASSERT
 path
 !
 =
-NULL
+nullptr
 )
 ;
 maker

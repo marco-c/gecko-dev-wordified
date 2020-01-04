@@ -140,7 +140,7 @@ class
 SkDisplayable
 ;
 class
-SkDrawable
+SkADrawable
 ;
 class
 SkDump

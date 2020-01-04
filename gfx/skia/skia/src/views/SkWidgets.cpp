@@ -465,7 +465,7 @@ fAnimators
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -520,7 +520,7 @@ if
 gSkinSuite
 =
 =
-NULL
+nullptr
 )
 gSkinSuite
 =
@@ -539,7 +539,7 @@ st
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -657,7 +657,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -779,7 +779,7 @@ event
 )
 !
 =
-NULL
+nullptr
 )
 fEvent
 .
@@ -1240,7 +1240,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1969,7 +1969,7 @@ p
 .
 setMaskFilter
 (
-NULL
+nullptr
 )
 ;
 p
@@ -2356,8 +2356,8 @@ fText
 size
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 this
@@ -2440,7 +2440,7 @@ fPaint
 measureText
 (
 0
-NULL
+nullptr
 &
 before
 &
@@ -2538,7 +2538,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2614,7 +2614,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2791,7 +2791,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2854,7 +2854,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3199,7 +3199,7 @@ paint
 )
 !
 =
-NULL
+nullptr
 )
 SkPaint_Inflate
 (

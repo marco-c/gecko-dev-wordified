@@ -282,15 +282,9 @@ entry
 {
 SkASSERT
 (
-NULL
-!
-=
 fHead
 &
 &
-NULL
-!
-=
 fTail
 )
 ;
@@ -325,9 +319,6 @@ fNext
 ;
 if
 (
-NULL
-!
-=
 prev
 )
 {
@@ -348,9 +339,6 @@ next
 }
 if
 (
-NULL
-!
-=
 next
 )
 {
@@ -451,9 +439,6 @@ fHead
 ;
 if
 (
-NULL
-!
-=
 fHead
 )
 {
@@ -550,9 +535,6 @@ NULL
 ;
 if
 (
-NULL
-!
-=
 fTail
 )
 {
@@ -656,9 +638,6 @@ existingEntry
 {
 SkASSERT
 (
-NULL
-!
-=
 newEntry
 )
 ;
@@ -828,9 +807,6 @@ existingEntry
 {
 SkASSERT
 (
-NULL
-!
-=
 newEntry
 )
 ;
@@ -1223,9 +1199,6 @@ Iter
 kHead_IterStart
 )
 ;
-NULL
-!
-=
 item
 ;
 item
@@ -1411,9 +1384,6 @@ entry
 =
 fHead
 ;
-NULL
-!
-=
 entry
 ;
 entry

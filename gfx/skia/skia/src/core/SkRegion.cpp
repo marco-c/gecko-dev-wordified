@@ -38,6 +38,13 @@ file
 #
 include
 "
+SkAtomics
+.
+h
+"
+#
+include
+"
 SkRegionPriv
 .
 h
@@ -46,13 +53,6 @@ h
 include
 "
 SkTemplates
-.
-h
-"
-#
-include
-"
-SkThread
 .
 h
 "
@@ -1486,7 +1486,7 @@ result
 char
 *
 )
-malloc
+sk_malloc_throw
 (
 max
 )
@@ -1496,11 +1496,11 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 count
@@ -3070,7 +3070,7 @@ rgn
 *
 this
 kDifference_Op
-NULL
+nullptr
 )
 ;
 }
@@ -3630,7 +3630,7 @@ Oper
 this
 rgn
 kIntersect_Op
-NULL
+nullptr
 )
 ;
 }
@@ -3922,7 +3922,7 @@ validate
 )
 if
 (
-NULL
+nullptr
 =
 =
 dst
@@ -7673,7 +7673,7 @@ get
 (
 )
 op
-NULL
+nullptr
 =
 =
 result
@@ -7875,7 +7875,7 @@ const
 {
 if
 (
-NULL
+nullptr
 =
 =
 storage
@@ -9431,7 +9431,7 @@ fBounds
 ;
 fRuns
 =
-NULL
+nullptr
 ;
 }
 else
@@ -9516,7 +9516,7 @@ if
 fRuns
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -10121,7 +10121,7 @@ right
 ;
 fRuns
 =
-NULL
+nullptr
 ;
 /
 /
@@ -10313,7 +10313,7 @@ if
 fRuns
 =
 =
-NULL
+nullptr
 )
 {
 /

@@ -440,7 +440,7 @@ bytes
 If
 it
 returns
-NULL
+nullptr
 *
 then
 the

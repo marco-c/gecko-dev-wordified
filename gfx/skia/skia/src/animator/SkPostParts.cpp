@@ -84,7 +84,7 @@ SkDataInput
 :
 fParent
 (
-NULL
+nullptr
 )
 {
 }

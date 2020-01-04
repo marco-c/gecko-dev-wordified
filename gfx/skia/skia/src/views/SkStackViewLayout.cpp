@@ -522,7 +522,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 {
 n
@@ -833,7 +833,7 @@ kStretch_Align
 )
 crossSetSizeP
 =
-NULL
+nullptr
 ;
 int
 childCount
@@ -956,7 +956,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1689,7 +1689,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 {
 child

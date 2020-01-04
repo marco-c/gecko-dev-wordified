@@ -71,7 +71,7 @@ window
 =
 create_sk_window
 (
-NULL
+nullptr
 argc
 argv
 )

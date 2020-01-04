@@ -70,13 +70,13 @@ SkLine
 (
 )
 ;
-virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
+override
 ;
 private
 :

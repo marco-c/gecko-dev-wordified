@@ -44,7 +44,7 @@ SkSnapShot_DEFINED
 #
 include
 "
-SkDrawable
+SkADrawable
 .
 h
 "
@@ -73,7 +73,7 @@ class
 SkSnapshot
 :
 public
-SkDrawable
+SkADrawable
 {
 DECLARE_MEMBER_INFO
 (
@@ -84,13 +84,13 @@ SkSnapshot
 (
 )
 ;
-virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
+override
 ;
 private
 :

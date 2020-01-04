@@ -101,7 +101,7 @@ these
 steps
 fails
 a
-NULL
+nullptr
 pointer
 will
 be
@@ -141,7 +141,7 @@ these
 steps
 fails
 a
-NULL
+nullptr
 pointer
 will
 be

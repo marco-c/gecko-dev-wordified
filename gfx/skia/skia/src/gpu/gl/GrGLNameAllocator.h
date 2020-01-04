@@ -51,7 +51,7 @@ include
 "
 gl
 /
-GrGLFunctions
+GrGLTypes
 .
 h
 "

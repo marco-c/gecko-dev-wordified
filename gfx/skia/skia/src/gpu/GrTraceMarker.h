@@ -53,12 +53,6 @@ public
 :
 GrGpuTraceMarker
 (
-)
-{
-}
-;
-GrGpuTraceMarker
-(
 const
 char
 *

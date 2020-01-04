@@ -188,10 +188,6 @@ SkFlattenable
 {
 public
 :
-SK_DECLARE_INST_COUNT
-(
-SkDrawLooper
-)
 /
 *
 *
@@ -640,7 +636,6 @@ rect
 .
 *
 /
-virtual
 bool
 canComputeFastBounds
 (
@@ -651,7 +646,6 @@ paint
 )
 const
 ;
-virtual
 void
 computeFastBounds
 (
@@ -796,19 +790,6 @@ protected
 :
 SkDrawLooper
 (
-)
-{
-}
-SkDrawLooper
-(
-SkReadBuffer
-&
-buffer
-)
-:
-INHERITED
-(
-buffer
 )
 {
 }

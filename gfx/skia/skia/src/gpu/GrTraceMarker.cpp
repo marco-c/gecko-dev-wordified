@@ -555,7 +555,7 @@ count
 check
 used
 for
-GrGpuGL
+GrGLGpu
 device
 after
 we

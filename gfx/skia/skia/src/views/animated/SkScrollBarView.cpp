@@ -476,7 +476,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 else
@@ -545,7 +545,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 return

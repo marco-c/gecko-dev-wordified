@@ -101,7 +101,7 @@ SkXMLPullParser
 :
 fStream
 (
-NULL
+nullptr
 )
 {
 fCurr
@@ -128,7 +128,7 @@ stream
 :
 fStream
 (
-NULL
+nullptr
 )
 {
 fCurr
@@ -163,7 +163,7 @@ this
 >
 setStream
 (
-NULL
+nullptr
 )
 ;
 }
@@ -355,7 +355,7 @@ fName
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -390,7 +390,7 @@ fName
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }

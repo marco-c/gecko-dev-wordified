@@ -67,7 +67,6 @@ SkLinearColorSpaceLuminance
 public
 SkColorSpaceLuminance
 {
-virtual
 SkScalar
 toLuma
 (
@@ -80,7 +79,7 @@ SkScalar
 luminance
 )
 const
-SK_OVERRIDE
+override
 {
 SkASSERT
 (
@@ -94,7 +93,6 @@ return
 luminance
 ;
 }
-virtual
 SkScalar
 fromLuma
 (
@@ -107,7 +105,7 @@ SkScalar
 luma
 )
 const
-SK_OVERRIDE
+override
 {
 SkASSERT
 (
@@ -129,7 +127,6 @@ SkGammaColorSpaceLuminance
 public
 SkColorSpaceLuminance
 {
-virtual
 SkScalar
 toLuma
 (
@@ -139,7 +136,7 @@ SkScalar
 luminance
 )
 const
-SK_OVERRIDE
+override
 {
 return
 SkScalarPow
@@ -149,7 +146,6 @@ gamma
 )
 ;
 }
-virtual
 SkScalar
 fromLuma
 (
@@ -159,7 +155,7 @@ SkScalar
 luma
 )
 const
-SK_OVERRIDE
+override
 {
 return
 SkScalarPow
@@ -180,7 +176,6 @@ SkSRGBColorSpaceLuminance
 public
 SkColorSpaceLuminance
 {
-virtual
 SkScalar
 toLuma
 (
@@ -193,7 +188,7 @@ SkScalar
 luminance
 )
 const
-SK_OVERRIDE
+override
 {
 SkASSERT
 (
@@ -274,7 +269,6 @@ luminance
 )
 ;
 }
-virtual
 SkScalar
 fromLuma
 (
@@ -287,7 +281,7 @@ SkScalar
 luma
 )
 const
-SK_OVERRIDE
+override
 {
 SkASSERT
 (

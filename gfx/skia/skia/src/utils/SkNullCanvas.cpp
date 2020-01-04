@@ -91,13 +91,11 @@ null
 canvas
 .
 return
-SkNEW_ARGS
-(
+new
 SkNWayCanvas
 (
 0
 0
-)
 )
 ;
 }

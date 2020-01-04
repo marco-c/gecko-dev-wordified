@@ -46,6 +46,9 @@ SkTypes
 .
 h
 "
+#
+ifdef
+SK_BUILD_FOR_WIN
 void
 SkTraceHR
 (
@@ -369,3 +372,11 @@ msg
 }
 #
 endif
+/
+/
+SK_BUILD_FOR_WIN
+#
+endif
+/
+/
+SkHRESULT_DEFINED

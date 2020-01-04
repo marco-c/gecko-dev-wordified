@@ -98,7 +98,7 @@ SkImageView
 {
 fMatrix
 =
-NULL
+nullptr
 ;
 fScaleType
 =
@@ -108,7 +108,7 @@ fData
 .
 fAnim
 =
-NULL
+nullptr
 ;
 /
 /
@@ -303,7 +303,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -404,7 +404,7 @@ if
 fMatrix
 =
 =
-NULL
+nullptr
 )
 fMatrix
 =
@@ -462,7 +462,7 @@ fMatrix
 ;
 fMatrix
 =
-NULL
+nullptr
 ;
 changed
 =
@@ -510,7 +510,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -640,7 +640,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 return
@@ -1000,7 +1000,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 else
@@ -1283,7 +1283,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 fUriIsValid
@@ -1346,7 +1346,7 @@ fData
 .
 fAnim
 =
-NULL
+nullptr
 ;
 /
 /

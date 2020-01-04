@@ -113,7 +113,7 @@ fSigma
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

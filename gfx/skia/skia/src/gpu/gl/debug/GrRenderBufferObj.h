@@ -182,12 +182,11 @@ return
 fBound
 ;
 }
-virtual
 void
 deleteAction
 (
 )
-SK_OVERRIDE
+override
 {
 this
 -

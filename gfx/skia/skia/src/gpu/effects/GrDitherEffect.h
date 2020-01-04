@@ -54,7 +54,7 @@ GrTypesPriv
 h
 "
 class
-GrEffect
+GrFragmentProcessor
 ;
 namespace
 GrDitherEffect
@@ -77,7 +77,7 @@ RGBA8
 framebuffer
 *
 /
-GrEffect
+GrFragmentProcessor
 *
 Create
 (
