@@ -11771,17 +11771,6 @@ Truncate
 )
 ;
 }
-if
-(
-!
-mPreviousDictionary
-.
-Equals
-(
-currentDictionary
-)
-)
-{
 nsresult
 rv
 =
@@ -11796,7 +11785,6 @@ rv
 rv
 )
 ;
-}
 return
 NS_OK
 ;
