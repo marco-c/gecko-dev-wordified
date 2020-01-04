@@ -16065,10 +16065,8 @@ eltGroup
 NS_HTML5TREE_BUILDER_TR
 |
 |
-eltGroup
-=
-=
-NS_HTML5TREE_BUILDER_HTML
+!
+eltPos
 )
 )
 {
