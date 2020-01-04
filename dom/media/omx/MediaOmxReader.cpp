@@ -3410,7 +3410,13 @@ mVideoSeekTimeUs
 =
 aTarget
 .
-mTime
+GetTime
+(
+)
+.
+ToMicroseconds
+(
+)
 ;
 RefPtr
 <
@@ -3544,6 +3550,8 @@ mAudioSeekTimeUs
 =
 mVideoSeekTimeUs
 =
+aTarget
+.
 GetTime
 (
 )
