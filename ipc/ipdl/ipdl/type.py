@@ -1684,6 +1684,7 @@ __init__
 (
 self
 nested
+prio
 sendSemantics
 direction
                  
@@ -1732,6 +1733,12 @@ self
 nested
 =
 nested
+        
+self
+.
+prio
+=
+prio
         
 self
 .
@@ -8204,6 +8211,9 @@ MessageType
 md
 .
 nested
+md
+.
+prio
 md
 .
 sendSemantics
