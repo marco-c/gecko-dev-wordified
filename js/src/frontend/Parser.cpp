@@ -35531,6 +35531,9 @@ TOK_COLON
 case
 TOK_COMMA
 :
+case
+TOK_IN
+:
 /
 /
 No
