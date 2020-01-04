@@ -212,7 +212,7 @@ inline
 +
 "
 :
-15
+9
 media
 screen
 and
@@ -246,7 +246,7 @@ inline
 +
 "
 :
-8
+2
 "
 "
 check

@@ -102,7 +102,8 @@ background
 -
 color
 :
-red
+#
+f00
 ;
 }
 <
