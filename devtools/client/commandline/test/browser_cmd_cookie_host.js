@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -119,6 +124,11 @@ zip
 =
 zop
 /
+/
+zig
+=
+zag
+/
 ]
 }
 }
@@ -188,6 +198,11 @@ zep
 zip
 =
 zop
+/
+/
+zig
+=
+zag
 /
 /
 zup
