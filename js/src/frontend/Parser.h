@@ -7555,6 +7555,8 @@ Node
 pn
 FunctionSyntaxKind
 kind
+GeneratorKind
+generatorKind
 bool
 *
 tryAnnexB
