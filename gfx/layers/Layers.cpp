@@ -12305,6 +12305,11 @@ scrollId
 =
 %
 lld
+sides
+=
+0x
+%
+x
 anchor
 =
 %
@@ -12314,6 +12319,9 @@ s
 ]
 "
 GetFixedPositionScrollContainerId
+(
+)
+GetFixedPositionSides
 (
 )
 ToString
