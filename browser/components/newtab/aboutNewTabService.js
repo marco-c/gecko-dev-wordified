@@ -65,7 +65,7 @@ NewTabPrefsProvider
 Services
 Locale
 UpdateUtils
-MODE_CHANNEL_MAP
+NewTabRemoteResources
 *
 /
 "
@@ -197,7 +197,7 @@ defineLazyModuleGetter
 (
 this
 "
-MODE_CHANNEL_MAP
+NewTabRemoteResources
 "
 "
 resource
@@ -1262,6 +1262,8 @@ if
 (
 mode
 in
+NewTabRemoteResources
+.
 MODE_CHANNEL_MAP
 )
 )
@@ -1274,6 +1276,8 @@ production
 ;
 }
 return
+NewTabRemoteResources
+.
 MODE_CHANNEL_MAP
 [
 mode
