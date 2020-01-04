@@ -2408,6 +2408,9 @@ function
 {
 try
 {
+let
+networkManager
+=
 Cc
 [
 "
@@ -2422,6 +2425,13 @@ manager
 1
 "
 ]
+;
+if
+(
+networkManager
+)
+{
+networkManager
 .
 getService
 (
@@ -2440,11 +2450,13 @@ changed
 "
 ;
 }
+}
 catch
 (
 e
 )
 {
+}
 return
 "
 network
@@ -2456,7 +2468,6 @@ status
 changed
 "
 ;
-}
 }
 _findService
 :
