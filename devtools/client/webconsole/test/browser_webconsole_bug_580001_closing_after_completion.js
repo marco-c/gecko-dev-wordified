@@ -189,15 +189,6 @@ defer
 )
 ;
 let
-inputNode
-=
-hud
-.
-jsterm
-.
-inputNode
-;
-let
 errorWhileClosing
 =
 false
@@ -227,7 +218,7 @@ false
 /
 Focus
 the
-inputNode
+jsterm
 and
 perform
 the
@@ -237,7 +228,9 @@ close
 the
 WebConsole
 .
-inputNode
+hud
+.
+jsterm
 .
 focus
 (

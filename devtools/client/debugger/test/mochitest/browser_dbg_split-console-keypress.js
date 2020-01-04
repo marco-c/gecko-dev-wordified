@@ -592,8 +592,6 @@ false
 ;
 jsterm
 .
-inputNode
-.
 focus
 (
 )

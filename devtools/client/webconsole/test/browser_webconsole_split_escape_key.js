@@ -220,8 +220,6 @@ clickMessageAndShowVariablesView
 ;
 jsterm
 .
-inputNode
-.
 focus
 (
 )
@@ -897,8 +895,6 @@ false
 )
 ;
 jsterm
-.
-inputNode
 .
 focus
 (
