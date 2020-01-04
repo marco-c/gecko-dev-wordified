@@ -3659,11 +3659,6 @@ IsDecodingFirstFrame
 )
 &
 &
-IsVideoDecoding
-(
-)
-&
-&
 VideoQueue
 (
 )
