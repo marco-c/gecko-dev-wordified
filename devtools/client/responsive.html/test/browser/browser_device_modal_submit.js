@@ -45,8 +45,8 @@ device
 modal
 const
 {
-GetDevices
-AddDevice
+getDevices
+addDevice
 }
 =
 require
@@ -359,7 +359,7 @@ let
 remoteList
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;
@@ -1124,7 +1124,7 @@ changes
 for
 next
 test
-AddDevice
+addDevice
 (
 addedDevice
 )
@@ -1205,7 +1205,7 @@ let
 remoteList
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;
