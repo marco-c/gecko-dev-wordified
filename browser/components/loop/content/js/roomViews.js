@@ -1953,11 +1953,6 @@ mozL10n
 .
 get
 (
-"
-invite_copy_
-"
-+
-(
 this
 .
 state
@@ -1965,13 +1960,12 @@ state
 copiedUrl
 ?
 "
-triggered
+invite_copied_link_button
 "
 :
 "
-button
+invite_copy_link_button
 "
-)
 )
 )
 )
@@ -2046,7 +2040,7 @@ mozL10n
 get
 (
 "
-invite_email_button
+invite_email_link_button
 "
 )
 )
