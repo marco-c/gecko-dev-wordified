@@ -3372,9 +3372,6 @@ case
 PNK_CONST
 :
 case
-PNK_GLOBALCONST
-:
-case
 PNK_LET
 :
 case
@@ -4412,7 +4409,6 @@ table
 "
 "
 js_var_str
-js_const_str
 js_const_str
 js_let_str
 "

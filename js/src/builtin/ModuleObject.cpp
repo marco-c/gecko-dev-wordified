@@ -4125,9 +4125,6 @@ case
 PNK_CONST
 :
 case
-PNK_GLOBALCONST
-:
-case
 PNK_LET
 :
 {

@@ -140,6 +140,15 @@ h
 #
 include
 "
+frontend
+/
+ParseNode
+.
+h
+"
+#
+include
+"
 vm
 /
 Stack
