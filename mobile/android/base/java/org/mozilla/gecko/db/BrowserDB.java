@@ -1257,6 +1257,13 @@ suggestedSites
 ;
 public
 abstract
+SuggestedSites
+getSuggestedSites
+(
+)
+;
+public
+abstract
 boolean
 hasSuggestedImageUrl
 (
