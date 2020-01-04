@@ -9034,7 +9034,8 @@ type
 minimum
 |
 |
-0
+-
+Infinity
 type
 .
 maximum
