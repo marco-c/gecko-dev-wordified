@@ -472,15 +472,6 @@ uint8_t
 >
 AudioConfigNotification
 ;
-class
-ConnectionStateInitOp
-;
-class
-AudioStateInitOp
-;
-class
-AudioConfigInitOp
-;
 void
 ConnectionStateNtf
 (
