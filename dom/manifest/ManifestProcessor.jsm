@@ -521,7 +521,6 @@ prefix
 '
 Web
 Manifest
-:
 '
 }
 )
