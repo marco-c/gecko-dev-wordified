@@ -277,6 +277,8 @@ const
 MediaSource
 &
 )
+=
+delete
 ;
 MediaSource
 &
@@ -287,6 +289,8 @@ const
 MediaSource
 &
 )
+=
+delete
 ;
 }
 ;
