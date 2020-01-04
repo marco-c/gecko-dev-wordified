@@ -367,10 +367,21 @@ dom
 media
 /
 test
+/
+external
 '
             
 '
 pattern
+'
+:
+'
+*
+*
+'
+            
+'
+dest
 '
 :
 '
@@ -379,9 +390,6 @@ external
 media
 -
 tests
-/
-*
-*
 '
         
 }

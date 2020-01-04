@@ -56,7 +56,7 @@ MPL
 import
 re
 from
-harness
+external_media_harness
 .
 testcase
 import

@@ -84,12 +84,14 @@ mn_cli
 import
 mozlog
 import
-media_tests
+external_media_tests
 from
 testcase
 import
 MediaTestCase
 from
+external_media_tests
+.
 media_utils
 .
 video_puppeteer
@@ -151,7 +153,7 @@ path
 .
 join
 (
-media_tests
+external_media_tests
 .
 urls
 '
@@ -259,7 +261,7 @@ args
 tests
 =
 [
-media_tests
+external_media_tests
 .
 manifest
 ]
@@ -379,7 +381,7 @@ self
 .
 server_root
 =
-media_tests
+external_media_tests
 .
 resources
         
@@ -582,11 +584,11 @@ def
 __init__
 (
 self
-                 
+             
 runner_class
 =
 MediaTestRunner
-                 
+             
 parser_class
 =
 MediaTestArguments

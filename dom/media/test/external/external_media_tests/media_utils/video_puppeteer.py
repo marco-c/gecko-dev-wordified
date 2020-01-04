@@ -65,7 +65,7 @@ By
 expected
 Wait
 from
-media_tests
+external_media_tests
 .
 utils
 import
