@@ -6357,6 +6357,12 @@ if
 (
 IsPackedArray
 (
+A
+)
+&
+&
+IsPackedArray
+(
 E
 )
 )
