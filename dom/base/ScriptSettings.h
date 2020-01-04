@@ -2640,6 +2640,7 @@ docshell
 .
 class
 DocshellEntryMonitor
+final
 :
 public
 JS
