@@ -344,14 +344,6 @@ nsIRDFResource
 capacity
 ]
 ;
-if
-(
-!
-resources
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 for
 (
 int32_t
