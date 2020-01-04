@@ -5345,8 +5345,6 @@ Jsvalify
 (
 &
 XPC_WN_NoHelper_JSClass
-.
-base
 )
 ;
 /
