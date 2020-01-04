@@ -4413,7 +4413,7 @@ GetDelay
 ;
 timing
 .
-mIterationCount
+mIterations
 =
 src
 .

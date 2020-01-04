@@ -4357,7 +4357,7 @@ TimeDuration
 ;
 timing
 .
-mIterationCount
+mIterations
 =
 animation
 .
