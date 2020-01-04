@@ -9792,6 +9792,14 @@ scrollIntoView
 (
 )
 ;
+if
+(
+!
+entry
+.
+suppressClick
+)
+{
 EventUtils
 .
 synthesizeMouse
@@ -9806,6 +9814,7 @@ hud
 iframeWindow
 )
 ;
+}
 if
 (
 entry

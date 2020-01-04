@@ -120,6 +120,7 @@ clearOutput
 true
 )
 ;
+yield
 hud
 .
 jsterm
