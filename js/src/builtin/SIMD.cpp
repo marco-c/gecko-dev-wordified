@@ -191,6 +191,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -856,10 +865,8 @@ charArgIndex
 2
 ]
 ;
-snprintf
+SprintfLiteral
 (
-charArgIndex
-sizeof
 charArgIndex
 "
 %
