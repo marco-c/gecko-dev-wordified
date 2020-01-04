@@ -178,7 +178,7 @@ IMF2DBuffer
 a2DBuffer
 )
 :
-RecyclingPlanarYCbCrImage
+PlanarYCbCrImage
 (
 nullptr
 )

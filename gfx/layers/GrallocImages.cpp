@@ -337,7 +337,7 @@ GrallocImage
 (
 )
 :
-RecyclingPlanarYCbCrImage
+PlanarYCbCrImage
 (
 nullptr
 )
