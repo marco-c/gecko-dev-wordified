@@ -108,6 +108,16 @@ container
 "
 )
 ;
+yield
+selectNode
+(
+"
+#
+test
+"
+inspector
+)
+;
 let
 container
 =
