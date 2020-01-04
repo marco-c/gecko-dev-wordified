@@ -747,7 +747,7 @@ PHASE_LIMIT
 ]
 ;
 static
-void
+bool
 initialize
 (
 )

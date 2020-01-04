@@ -666,6 +666,9 @@ initialize
 return
 false
 ;
+if
+(
+!
 js
 :
 :
@@ -678,6 +681,9 @@ Statistics
 initialize
 (
 )
+)
+return
+false
 ;
 libraryInitState
 =
