@@ -607,18 +607,6 @@ get
 )
 ;
 }
-if
-(
-mReorderQueue
-.
-Length
-(
-)
-<
-=
-mMaxRefFrames
-)
-{
 mCallback
 -
 >
@@ -626,7 +614,6 @@ InputExhausted
 (
 )
 ;
-}
 }
 private
 :
