@@ -103,6 +103,9 @@ require
 .
 .
 /
+.
+.
+/
 modules
 /
 worker

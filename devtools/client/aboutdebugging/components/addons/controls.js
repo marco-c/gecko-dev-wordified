@@ -156,8 +156,6 @@ require
 "
 .
 /
-addons
--
 install
 -
 error
