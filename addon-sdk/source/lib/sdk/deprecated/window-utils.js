@@ -111,6 +111,7 @@ windows
 isDocumentLoaded
 isBrowser
 getMostRecentBrowserWindow
+getToplevelWindow
 getMostRecentWindow
 }
 =
@@ -886,7 +887,10 @@ this
 .
 _regWindow
 (
+getToplevelWindow
+(
 window
+)
 )
 ;
 }
@@ -918,7 +922,10 @@ subject
 let
 window
 =
+getToplevelWindow
+(
 subject
+)
 ;
 /
 /
