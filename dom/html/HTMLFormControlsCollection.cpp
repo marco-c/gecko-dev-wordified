@@ -368,6 +368,9 @@ case
 NS_FORM_INPUT_WEEK
 :
 case
+NS_FORM_INPUT_DATETIME_LOCAL
+:
+case
 NS_FORM_SELECT
 :
 case
