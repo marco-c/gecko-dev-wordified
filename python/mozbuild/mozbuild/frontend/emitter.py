@@ -4046,8 +4046,6 @@ symbols_file
                         
 [
 symbols_file
-.
-full_path
 ]
 defines
 )
@@ -7547,13 +7545,9 @@ path
 )
                                 
 [
-mozpath
-.
-join
+Path
 (
 context
-.
-srcdir
 path
 +
 '
@@ -7844,8 +7838,6 @@ inputs
 append
 (
 p
-.
-full_path
 )
             
 else
