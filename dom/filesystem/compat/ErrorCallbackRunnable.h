@@ -162,6 +162,10 @@ aGlobalObject
 ErrorCallback
 *
 aCallback
+nsresult
+aError
+=
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 :
 mGlobal
@@ -172,6 +176,10 @@ mCallback
 (
 aCallback
 )
+mError
+(
+aError
+)
 {
 MOZ_ASSERT
 (
@@ -181,6 +189,14 @@ aGlobalObject
 MOZ_ASSERT
 (
 aCallback
+)
+;
+MOZ_ASSERT
+(
+NS_FAILED
+(
+aError
+)
 )
 ;
 }
@@ -224,7 +240,7 @@ new
 DOMError
 (
 window
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
+mError
 )
 ;
 mCallback
@@ -253,6 +269,9 @@ RefPtr
 ErrorCallback
 >
 mCallback
+;
+nsresult
+mError
 ;
 }
 ;
