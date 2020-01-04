@@ -2869,10 +2869,6 @@ const
 nsFlexContainerFrame
 *
 aFlexContainer
-const
-WritingMode
-&
-aWM
 )
 ;
 void
@@ -2882,10 +2878,6 @@ const
 nsFlexContainerFrame
 *
 aFlexContainer
-const
-WritingMode
-&
-aWM
 )
 ;
 /
@@ -24885,7 +24877,6 @@ StyleContext
 InitAxesFromLegacyProps
 (
 aFlexContainer
-aWM
 )
 ;
 }
@@ -24894,7 +24885,6 @@ else
 InitAxesFromModernProps
 (
 aFlexContainer
-aWM
 )
 ;
 }
@@ -25067,10 +25057,6 @@ const
 nsFlexContainerFrame
 *
 aFlexContainer
-const
-WritingMode
-&
-aWM
 )
 {
 const
@@ -25103,7 +25089,7 @@ const
 bool
 wmIsVertical
 =
-aWM
+mWM
 .
 IsVertical
 (
@@ -25290,7 +25276,7 @@ axis
 will
 still
 match
-aWM
+mWM
 '
 s
 inline
@@ -25300,7 +25286,7 @@ direction
 if
 (
 !
-aWM
+mWM
 .
 IsBidiLTR
 (
@@ -25452,10 +25438,6 @@ const
 nsFlexContainerFrame
 *
 aFlexContainer
-const
-WritingMode
-&
-aWM
 )
 {
 const
