@@ -537,6 +537,14 @@ this
 this
 .
 webNav
+.
+close
+(
+)
+;
+this
+.
+webNav
 =
 null
 ;
