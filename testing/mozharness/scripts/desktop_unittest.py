@@ -270,6 +270,9 @@ SUITE_DEFAULT_E10S
 '
 mochitest
 '
+'
+reftest
+'
 ]
 #
 DesktopUnittest
