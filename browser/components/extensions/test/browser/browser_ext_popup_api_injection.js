@@ -335,7 +335,14 @@ show
 (
 tabId
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -345,6 +352,9 @@ sendMessage
 "
 ready
 "
+)
+;
+}
 )
 ;
 }

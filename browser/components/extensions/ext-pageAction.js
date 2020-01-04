@@ -89,6 +89,7 @@ jsm
 var
 {
 EventManager
+IconDetails
 }
 =
 ExtensionUtils
@@ -1621,6 +1622,13 @@ show
 true
 )
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 hide
 (
@@ -1651,6 +1659,13 @@ tab
 show
 "
 false
+)
+;
+return
+Promise
+.
+resolve
+(
 )
 ;
 }

@@ -966,7 +966,14 @@ show
 (
 tabId
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -978,6 +985,9 @@ next
 -
 test
 "
+)
+;
+}
 )
 ;
 }
