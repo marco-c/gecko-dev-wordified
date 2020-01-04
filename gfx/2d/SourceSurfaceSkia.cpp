@@ -528,7 +528,7 @@ skiaTexGlue
 .
 fOrigin
 =
-kBottomLeft_GrSurfaceOrigin
+kTopLeft_GrSurfaceOrigin
 ;
 skiaTexGlue
 .
