@@ -295,6 +295,16 @@ mIPCOpen
 mDestroyed
 ;
 }
+bool
+IsDestroyed
+(
+)
+const
+{
+return
+mDestroyed
+;
+}
 void
 SetForwarder
 (
