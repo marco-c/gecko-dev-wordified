@@ -1006,7 +1006,9 @@ false
 }
 a
 .
-mParsed
+mStats
+.
+mParsedFrames
 +
 +
 ;
@@ -1382,7 +1384,9 @@ mCurrentFrame
 ;
 a
 .
-mDecoded
+mStats
+.
+mDecodedFrames
 +
 +
 ;
