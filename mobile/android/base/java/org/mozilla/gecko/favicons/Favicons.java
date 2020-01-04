@@ -3450,12 +3450,6 @@ clear
 )
 ;
 }
-LoadFaviconTask
-.
-closeHTTPClient
-(
-)
-;
 }
 /
 *
