@@ -1039,6 +1039,16 @@ folder
 "
 button
 .
+if
+(
+!
+mBrowseDirs
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 mBrowseDirs
 -
 >
@@ -1057,10 +1067,6 @@ false
 ;
 if
 (
-!
-mBrowseDirs
-|
-|
 !
 aElements
 .
