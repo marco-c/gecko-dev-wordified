@@ -29896,7 +29896,7 @@ else
 {
 /
 /
-MTruncateToInt64
+MWasmTruncateToInt64
 MOZ_ASSERT
 (
 toType

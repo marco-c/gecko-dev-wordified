@@ -975,9 +975,9 @@ MOZ_CRASH
 ;
 }
 void
-visitTruncateToInt64
+visitWasmTruncateToInt64
 (
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 )
 {

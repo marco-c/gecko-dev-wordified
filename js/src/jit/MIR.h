@@ -28797,7 +28797,7 @@ None
 }
 ;
 class
-MTruncateToInt64
+MWasmTruncateToInt64
 :
 public
 MUnaryInstruction
@@ -28810,7 +28810,7 @@ Data
 bool
 isUnsigned_
 ;
-MTruncateToInt64
+MWasmTruncateToInt64
 (
 MDefinition
 *
@@ -28845,10 +28845,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-TruncateToInt64
+WasmTruncateToInt64
 )
 static
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 NewAsmJS
 (
@@ -28867,7 +28867,7 @@ new
 (
 alloc
 )
-MTruncateToInt64
+MWasmTruncateToInt64
 (
 def
 isUnsigned
@@ -28905,7 +28905,7 @@ ins
 ins
 -
 >
-toTruncateToInt64
+toWasmTruncateToInt64
 (
 )
 -

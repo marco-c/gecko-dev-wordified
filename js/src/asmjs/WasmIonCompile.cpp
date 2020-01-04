@@ -11391,7 +11391,7 @@ f
 .
 truncate
 <
-MTruncateToInt64
+MWasmTruncateToInt64
 >
 (
 unary

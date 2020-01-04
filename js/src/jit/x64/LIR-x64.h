@@ -892,7 +892,7 @@ canBeDivideByZero
 }
 ;
 class
-LTruncateToInt64
+LWasmTruncateToInt64
 :
 public
 LInstructionHelper
@@ -906,10 +906,10 @@ public
 :
 LIR_HEADER
 (
-TruncateToInt64
+WasmTruncateToInt64
 )
 ;
-LTruncateToInt64
+LWasmTruncateToInt64
 (
 const
 LAllocation
@@ -934,7 +934,7 @@ temp
 )
 ;
 }
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 mir
 (
@@ -945,7 +945,7 @@ return
 mir_
 -
 >
-toTruncateToInt64
+toWasmTruncateToInt64
 (
 )
 ;

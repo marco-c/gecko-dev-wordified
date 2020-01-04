@@ -4584,7 +4584,7 @@ isUnsigned
 }
 OutOfLineWasmTruncateCheck
 (
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 mir
 FloatRegister
