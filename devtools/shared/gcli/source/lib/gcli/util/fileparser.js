@@ -730,7 +730,7 @@ exports
 .
 supportsPredictions
 =
-true
+false
 ;
 /
 *
