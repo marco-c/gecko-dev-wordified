@@ -2468,7 +2468,7 @@ MOZ_WM_KEYUP
 ;
 }
 bool
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 const
 MSG
@@ -2478,7 +2478,7 @@ aMSG
 const
 {
 return
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 aMSG
 .
@@ -2487,7 +2487,7 @@ message
 ;
 }
 bool
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 UINT
 aMessage
@@ -2538,7 +2538,7 @@ const
 {
 return
 (
-IsPrintableCharMessage
+IsCharOrSysCharMessage
 (
 aMessage
 )
