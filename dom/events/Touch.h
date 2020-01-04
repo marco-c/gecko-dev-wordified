@@ -474,7 +474,7 @@ mPagePoint
 CSSIntPoint
 mClientPoint
 ;
-LayoutDeviceIntPoint
+CSSIntPoint
 mScreenPoint
 ;
 LayoutDeviceIntPoint

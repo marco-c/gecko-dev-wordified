@@ -1510,7 +1510,7 @@ is
 locked
 .
 static
-LayoutDeviceIntPoint
+CSSIntPoint
 sLastScreenPoint
 ;
 /
