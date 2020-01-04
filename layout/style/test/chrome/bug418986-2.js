@@ -412,16 +412,6 @@ suppressed_toggles
 -
 moz
 -
-images
--
-in
--
-menus
-"
-"
--
-moz
--
 mac
 -
 graphite
