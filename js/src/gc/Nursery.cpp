@@ -912,8 +912,6 @@ JS_GC_PROFILE_NURSERY
 N
 \
 n
-\
-n
 "
 "
 \
@@ -928,6 +926,8 @@ than
 N
 microseconds
 .
+\
+n
 "
 )
 ;
