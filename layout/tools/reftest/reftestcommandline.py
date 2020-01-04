@@ -4974,7 +4974,11 @@ add_argument
 "
 -
 -
-suppressDeviceInfo
+no
+-
+device
+-
+info
 "
                           
 action
