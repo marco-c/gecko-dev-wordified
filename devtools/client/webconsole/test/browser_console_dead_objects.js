@@ -89,6 +89,8 @@ Web
 Browser
 Consoles
 .
+/
+/
 See
 bug
 883649
@@ -129,6 +131,8 @@ tab
 on
 the
 chrome
+/
+/
 window
 object
 /
