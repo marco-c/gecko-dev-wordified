@@ -790,12 +790,16 @@ get
 isCurrent
 (
 )
+{
+return
 this
 .
 storageManager
 !
 =
 null
+;
+}
 abort
 (
 )
