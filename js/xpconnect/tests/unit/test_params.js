@@ -94,7 +94,7 @@ components
 /
 native
 /
-xpctest
+chrome
 .
 manifest
 '
