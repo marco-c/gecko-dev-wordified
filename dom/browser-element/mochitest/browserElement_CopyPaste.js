@@ -2741,11 +2741,6 @@ URI
 .
 spec
 '
-originAttributes
-'
-:
-{
-'
 appId
 '
 :
@@ -2753,11 +2748,10 @@ principal
 .
 appId
 '
-inBrowser
+isInBrowserElement
 '
 :
 true
-}
 }
 ;
 addEventListener
