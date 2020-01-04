@@ -26898,6 +26898,19 @@ global
 )
 ;
             
+MOZ_ASSERT
+(
+!
+JS
+:
+:
+ObjectIsMarkedGray
+(
+global
+)
+)
+;
+            
 /
 /
 That
