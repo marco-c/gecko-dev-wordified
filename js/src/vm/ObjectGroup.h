@@ -3248,9 +3248,6 @@ friend
 class
 ObjectGroup
 ;
-struct
-NewEntry
-;
 class
 NewTable
 ;
@@ -3480,6 +3477,9 @@ allocationSiteTable
 ;
 public
 :
+struct
+NewEntry
+;
 ObjectGroupCompartment
 (
 )
