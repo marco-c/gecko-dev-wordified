@@ -385,9 +385,6 @@ private
 ULONG
 mRefCnt
 ;
-MainThreadInvoker
-mInvoker
-;
 RefPtr
 <
 IWeakReference
