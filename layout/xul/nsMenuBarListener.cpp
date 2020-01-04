@@ -1502,12 +1502,11 @@ uint32_t
 >
 keys
 ;
-nsContentUtils
-:
-:
+nativeKeyEvent
+-
+>
 GetAccessKeyCandidates
 (
-nativeKeyEvent
 keys
 )
 ;
