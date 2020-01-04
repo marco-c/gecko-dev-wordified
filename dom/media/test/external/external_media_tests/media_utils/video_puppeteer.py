@@ -610,13 +610,13 @@ expected_duration
         
 self
 .
-_start_time
+_first_seen_time
 =
 0
         
 self
 .
-_start_wall_time
+_first_seen_wall_time
 =
 0
         
@@ -890,7 +890,7 @@ range
         
 self
 .
-_start_time
+_first_seen_time
 =
 self
 .
@@ -898,7 +898,7 @@ current_time
         
 self
 .
-_start_wall_time
+_first_seen_wall_time
 =
 clock
 (
@@ -1062,11 +1062,88 @@ self
 .
 duration
         
-set_duration
+#
+Do
+our
+best
+to
+figure
+out
+where
+the
+video
+started
+playing
+        
+played_ranges
 =
 self
 .
-_set_duration
+played
+        
+if
+played_ranges
+.
+length
+>
+0
+:
+            
+#
+If
+we
+have
+a
+range
+we
+should
+only
+have
+on
+continuous
+range
+            
+assert
+played_ranges
+.
+length
+=
+=
+1
+            
+start_position
+=
+played_ranges
+.
+start
+(
+0
+)
+        
+else
+:
+            
+#
+If
+we
+don
+'
+t
+have
+a
+range
+we
+should
+have
+a
+current
+time
+            
+start_position
+=
+self
+.
+_first_seen_time
         
 #
 In
@@ -1083,36 +1160,29 @@ time
 partial
 playback
         
-if
-self
-.
-_set_duration
-and
-self
-.
-_start_time
-:
-            
-set_duration
-+
+remaining_video
 =
-self
-.
-_start_time
+video_duration
+-
+start_position
         
 if
 0
 <
-set_duration
+self
+.
+_set_duration
 <
-video_duration
+remaining_video
 :
             
 self
 .
 expected_duration
 =
-set_duration
+self
+.
+_set_duration
         
 else
 :
@@ -1121,7 +1191,7 @@ self
 .
 expected_duration
 =
-video_duration
+remaining_video
     
 def
 get_debug_lines
@@ -1443,14 +1513,63 @@ set
 "
 "
         
+played_ranges
+=
+self
+.
+played
+        
+#
+Playback
+should
+be
+in
+one
+range
+(
+as
+tests
+do
+not
+currently
+seek
+)
+.
+        
+assert
+played_ranges
+.
+length
+=
+=
+1
+        
+played_duration
+=
+self
+.
+played
+.
+end
+(
+0
+)
+-
+self
+.
+played
+.
+start
+(
+0
+)
+        
 return
 self
 .
 expected_duration
 -
-self
-.
-current_time
+played_duration
     
 property
     
@@ -1988,7 +2107,7 @@ current_time
 -
 self
 .
-_start_time
+_first_seen_time
         
 elapsed_wall_time
 =
@@ -1998,7 +2117,7 @@ clock
 -
 self
 .
-_start_wall_time
+_first_seen_wall_time
         
 return
 elapsed_wall_time
@@ -2731,17 +2850,10 @@ otherwise
 "
 "
     
-remaining_time
-=
+if
 video
 .
 remaining_time
-    
-if
-abs
-(
-remaining_time
-)
 <
 video
 .
