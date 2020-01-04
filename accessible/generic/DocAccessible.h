@@ -2683,6 +2683,17 @@ nsIContent
 aInsertedContent
 )
 ;
+void
+ProcessContentInserted
+(
+Accessible
+*
+aContainer
+nsIContent
+*
+aInsertedContent
+)
+;
 /
 *
 *
