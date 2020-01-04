@@ -403,6 +403,14 @@ lir
 )
 ;
 void
+visitWasmStoreI64
+(
+LWasmStoreI64
+*
+ins
+)
+;
+void
 visitAsmSelectI64
 (
 LAsmSelectI64
