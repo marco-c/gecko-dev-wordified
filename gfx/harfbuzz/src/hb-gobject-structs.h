@@ -244,6 +244,10 @@ types
 *
 *
 *
+hb_gobject_blob_get_type
+:
+*
+*
 Since
 :
 0
@@ -271,6 +275,10 @@ hb_gobject_blob_get_type
 )
 /
 *
+*
+*
+hb_gobject_buffer_get_type
+:
 *
 *
 Since
@@ -302,6 +310,10 @@ hb_gobject_buffer_get_type
 *
 *
 *
+hb_gobject_face_get_type
+:
+*
+*
 Since
 :
 0
@@ -331,6 +343,10 @@ hb_gobject_face_get_type
 *
 *
 *
+hb_gobject_font_get_type
+:
+*
+*
 Since
 :
 0
@@ -358,6 +374,10 @@ hb_gobject_font_get_type
 )
 /
 *
+*
+*
+hb_gobject_font_funcs_get_type
+:
 *
 *
 Since
@@ -417,6 +437,10 @@ hb_gobject_shape_plan_get_type
 )
 /
 *
+*
+*
+hb_gobject_unicode_funcs_get_type
+:
 *
 *
 Since

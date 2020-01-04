@@ -320,14 +320,6 @@ USE_B
 BASE
 *
 /
-USE_IV
-=
-2
-/
-*
-BASE_VOWEL
-*
-/
 USE_IND
 =
 3
