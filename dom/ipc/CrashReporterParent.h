@@ -1006,7 +1006,7 @@ the
 child
 process
 type
-uint32_t
+GeckoProcessType
 mProcessType
 ;
 bool
