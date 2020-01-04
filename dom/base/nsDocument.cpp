@@ -28996,6 +28996,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -29043,6 +29048,7 @@ interactive
 nullptr
 )
 ;
+}
 /
 /
 Fire
@@ -51723,6 +51729,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -51801,6 +51812,7 @@ mObservingAppThemeChanged
 =
 true
 ;
+}
 }
 DispatchPageTransition
 (

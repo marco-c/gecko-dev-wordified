@@ -5687,6 +5687,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -5730,6 +5735,7 @@ loaded
 nullptr
 )
 ;
+}
 /
 /
 Notify
