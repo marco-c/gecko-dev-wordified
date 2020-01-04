@@ -7862,16 +7862,6 @@ ensureInit
 (
 args
 action
-TextUtils
-.
-isEmpty
-(
-uri
-)
-?
-null
-:
-uri
 /
 *
 debugging
