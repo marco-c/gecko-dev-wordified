@@ -1094,11 +1094,17 @@ rv
 =
 SECSuccess
 )
-{
 return
 false
 ;
-}
+if
+(
+!
+csinfo
+.
+isExportable
+)
+{
 rv
 =
 SSL_CipherPrefSet
@@ -1122,6 +1128,7 @@ SECSuccess
 return
 false
 ;
+}
 }
 }
 return

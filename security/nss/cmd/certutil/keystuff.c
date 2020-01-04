@@ -2932,12 +2932,6 @@ sect131r2
 "
 SEC_OID_SECG_EC_SECT131R2
 }
-{
-"
-curve25519
-"
-SEC_OID_CURVE25519
-}
 }
 ;
 static

@@ -263,7 +263,7 @@ care
 *
 /
 const
-sslNamedGroupDef
+namedGroupDef
 *
 namedCurve
 ;
