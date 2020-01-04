@@ -37,12 +37,6 @@ match
 "
 species
 "
-"
-toPrimitive
-"
-"
-unscopables
-"
 ]
 ;
 for
