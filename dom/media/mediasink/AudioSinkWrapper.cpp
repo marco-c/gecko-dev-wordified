@@ -1019,10 +1019,6 @@ mAudioSink
 >
 Init
 (
-)
-;
-SetPlaybackParams
-(
 mParams
 )
 ;
