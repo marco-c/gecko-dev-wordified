@@ -2974,7 +2974,7 @@ SetPacketFilter
 capture
 )
 ;
-DisableDheAndEcdheCiphers
+EnableOnlyStaticRsaCiphers
 (
 )
 ;
