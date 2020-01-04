@@ -722,8 +722,11 @@ menuPopupFrame
 >
 MoveTo
 (
+CSSIntPoint
+(
 aLeft
 aTop
+)
 true
 )
 ;
