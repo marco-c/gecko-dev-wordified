@@ -245,6 +245,10 @@ debuggers
 (
 nullptr
 )
+suppressObjectMetadataCallback
+(
+false
+)
 arenas
 (
 rt
