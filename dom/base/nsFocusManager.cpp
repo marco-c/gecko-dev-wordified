@@ -5896,9 +5896,6 @@ gets
 properly
 focused
 .
-bool
-beingDestroyed
-;
 nsCOMPtr
 <
 nsIDocShell
@@ -5912,6 +5909,17 @@ GetDocShell
 (
 )
 ;
+bool
+beingDestroyed
+=
+!
+docShellBeingHidden
+;
+if
+(
+docShellBeingHidden
+)
+{
 docShellBeingHidden
 -
 >
@@ -5921,6 +5929,7 @@ IsBeingDestroyed
 beingDestroyed
 )
 ;
+}
 if
 (
 beingDestroyed
