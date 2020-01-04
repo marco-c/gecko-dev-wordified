@@ -236,7 +236,7 @@ NotifyConnectionStatusChanged
 (
 )
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 RefPtr
