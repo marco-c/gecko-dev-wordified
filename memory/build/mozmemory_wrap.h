@@ -973,7 +973,7 @@ if
 !
 defined
 (
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 )
 #
 ifdef
@@ -1178,7 +1178,7 @@ else
 *
 defined
 (
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 )
 *
 /
@@ -1202,7 +1202,7 @@ MOZ_MEMORY_IMPL
 |
 defined
 (
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 )
 #
 define

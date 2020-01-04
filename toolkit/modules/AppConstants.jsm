@@ -660,11 +660,11 @@ else
 false
 #
 endif
-MOZ_NATIVE_NSS
+MOZ_SYSTEM_NSS
 :
 #
 ifdef
-MOZ_NATIVE_NSS
+MOZ_SYSTEM_NSS
 true
 #
 else

@@ -363,7 +363,7 @@ DEBUG
 |
 defined
 (
-MOZ_NATIVE_SQLITE
+MOZ_SYSTEM_SQLITE
 )
 /
 *
