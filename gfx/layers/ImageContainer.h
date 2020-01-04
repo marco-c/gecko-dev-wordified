@@ -5512,6 +5512,12 @@ aData
 .
 mSize
 ;
+mSidebandStream
+=
+GonkNativeHandle
+(
+)
+;
 }
 void
 SetData
@@ -5533,6 +5539,10 @@ mSize
 aData
 .
 mSize
+;
+mOverlayId
+=
+INVALID_OVERLAY
 ;
 }
 already_AddRefed
