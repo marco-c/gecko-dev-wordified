@@ -4990,7 +4990,6 @@ nsPresContext
 *
 aPresContext
 )
-CPP_THROW_NEW
 {
 return
 aPresContext
@@ -5651,7 +5650,6 @@ nsPresContext
 *
 aPresContext
 )
-CPP_THROW_NEW
 {
 return
 aPresContext

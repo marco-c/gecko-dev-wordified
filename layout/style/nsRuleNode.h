@@ -248,7 +248,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -498,7 +497,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -697,7 +695,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -838,7 +835,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -3613,7 +3609,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 ;
 void
 Destroy

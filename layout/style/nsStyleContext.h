@@ -646,7 +646,6 @@ nsPresContext
 *
 aPresContext
 )
-CPP_THROW_NEW
 ;
 void
 Destroy
