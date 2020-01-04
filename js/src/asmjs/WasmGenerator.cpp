@@ -4264,7 +4264,7 @@ bool
 ModuleGenerator
 :
 :
-declareFuncExport
+addFuncExport
 (
 UniqueChars
 fieldName
