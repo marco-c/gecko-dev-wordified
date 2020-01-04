@@ -3420,6 +3420,9 @@ input
 (
 aTime
 TimeStamp
+:
+:
+Now
 (
 )
 GetModifiers
