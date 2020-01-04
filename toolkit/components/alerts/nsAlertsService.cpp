@@ -480,6 +480,7 @@ aAlertText
 aAlertCookie
 aAlertListener
 aAlertName
+aPrincipal
 )
 ;
 return

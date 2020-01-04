@@ -992,6 +992,9 @@ const
 nsAString
 &
 aAlertName
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 int

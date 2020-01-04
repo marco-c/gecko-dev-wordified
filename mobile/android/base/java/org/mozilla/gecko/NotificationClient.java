@@ -414,6 +414,9 @@ String
 aImageUrl
 final
 String
+aHost
+final
+String
 aAlertTitle
 final
 String
@@ -445,6 +448,7 @@ add
 (
 notificationID
 aImageUrl
+aHost
 aAlertTitle
 aAlertText
 contentIntent
