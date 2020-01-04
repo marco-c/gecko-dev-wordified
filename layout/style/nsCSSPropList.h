@@ -6152,7 +6152,7 @@ offsetof
 nsStyleDisplay
 mDisplay
 )
-eStyleAnimType_EnumU8
+eStyleAnimType_None
 )
 CSS_PROP_SVGRESET
 (
