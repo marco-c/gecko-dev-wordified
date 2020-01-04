@@ -5949,13 +5949,7 @@ overflowRect
 .
 Inflate
 (
-gfx
-:
-:
-ToIntMargin
-(
 extraSize
-)
 )
 ;
 }
