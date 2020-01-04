@@ -462,6 +462,14 @@ bool
 aUsingDisk
 )
 ;
+static
+TimeDuration
+const
+&
+MaxShutdownIOLag
+(
+)
+;
 private
 :
 static
@@ -576,6 +584,10 @@ sCacheFSReported
 static
 bool
 sHashStatsReported
+;
+static
+int32_t
+sMaxShutdownIOLag
 ;
 /
 /
