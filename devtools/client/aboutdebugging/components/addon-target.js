@@ -193,6 +193,8 @@ className
 :
 "
 target
+-
+container
 "
 }
 dom
@@ -228,8 +230,6 @@ className
 :
 "
 target
--
-details
 "
 }
 dom
