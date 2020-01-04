@@ -3715,6 +3715,11 @@ mReferrerPolicy
 *
 aValue
 ;
+ToLowerCase
+(
+mReferrerPolicy
+)
+;
 }
 inline
 void
