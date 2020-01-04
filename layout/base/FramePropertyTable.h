@@ -1158,7 +1158,7 @@ property
 *
 -
 Calling
-IsSet
+Has
 (
 )
 before
@@ -1192,7 +1192,7 @@ typename
 T
 >
 bool
-IsSet
+Has
 (
 const
 nsIFrame
@@ -2550,7 +2550,7 @@ typename
 T
 >
 bool
-IsSet
+Has
 (
 Descriptor
 <
@@ -2564,7 +2564,7 @@ return
 mTable
 -
 >
-IsSet
+Has
 (
 mFrame
 aProperty
