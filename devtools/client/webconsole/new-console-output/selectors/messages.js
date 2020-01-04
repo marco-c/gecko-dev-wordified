@@ -227,7 +227,7 @@ filters
 [
 message
 .
-severity
+level
 ]
 =
 =

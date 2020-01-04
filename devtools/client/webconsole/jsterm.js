@@ -2889,16 +2889,6 @@ ConsoleCommand
 messageText
 :
 executeString
-source
-:
-"
-javascript
-"
-type
-:
-"
-command
-"
 /
 /
 TODO
