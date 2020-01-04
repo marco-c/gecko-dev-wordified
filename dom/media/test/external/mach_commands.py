@@ -143,6 +143,11 @@ structured
 import
 commandline
     
+from
+argparse
+import
+Namespace
+    
 parser
 =
 MediaTestArguments
@@ -192,11 +197,9 @@ ini
     
 args
 =
-parser
-.
-parse_args
+Namespace
 (
-args
+tests
 =
 tests
 )

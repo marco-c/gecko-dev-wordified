@@ -146,6 +146,11 @@ structured
 import
 commandline
     
+from
+argparse
+import
+Namespace
+    
 import
 firefox_ui_harness
     
@@ -432,32 +437,10 @@ stdout
 }
 )
     
-#
-pass
-tests
-to
-parse_args
-to
-avoid
-rereading
-sys
-.
-argv
-    
 args
 =
-parser
-.
-parse_args
+Namespace
 (
-args
-=
-kwargs
-[
-'
-tests
-'
-]
 )
     
 for
