@@ -457,6 +457,7 @@ ref
 ;
 class
 MacIOSurface
+final
 :
 public
 mozilla
@@ -591,7 +592,6 @@ aHasAlpha
 true
 )
 ;
-virtual
 ~
 MacIOSurface
 (
@@ -915,16 +915,15 @@ mHasAlpha
 ;
 class
 MacIOSurfaceLib
-:
-public
-MacIOSurface
 {
 public
 :
-MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
-(
 MacIOSurfaceLib
+(
 )
+=
+delete
+;
 static
 void
 *
