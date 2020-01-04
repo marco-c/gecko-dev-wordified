@@ -1654,7 +1654,7 @@ rid
 "
 )
 {
-switch
+if
 (
 it
 -
@@ -1665,14 +1665,13 @@ mTrack
 GetMediaType
 (
 )
-)
-{
-case
+=
+=
 SdpMediaSection
 :
 :
 kVideo
-:
+)
 {
 addVideoExt
 =
@@ -1697,9 +1696,6 @@ GetDirection
 )
 )
 ;
-break
-;
-}
 }
 }
 }
