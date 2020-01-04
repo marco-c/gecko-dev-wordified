@@ -1376,6 +1376,9 @@ Ci
 nsIPresentationSessionTransport
 Ci
 .
+nsIPresentationSessionTransportBuilder
+Ci
+.
 nsIPresentationTCPSessionTransportBuilder
 Ci
 .
