@@ -994,6 +994,17 @@ key
 }
 static
 bool
+skipDeselectedConstructor
+(
+JSContext
+*
+cx
+JSProtoKey
+key
+)
+;
+static
+bool
 ensureConstructor
 (
 JSContext
