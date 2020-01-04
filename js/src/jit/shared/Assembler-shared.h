@@ -711,7 +711,7 @@ value
 explicit
 Imm64
 (
-uint64_t
+int64_t
 value
 )
 :
