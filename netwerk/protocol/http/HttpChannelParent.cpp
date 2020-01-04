@@ -6107,6 +6107,7 @@ mTabParent
 OnStartSignedPackageRequest
 (
 mChannel
+aPackageId
 )
 ;
 }
