@@ -2,6 +2,8 @@ import
 argparse
 import
 os
+import
+sys
 from
 collections
 import
@@ -10,6 +12,8 @@ from
 urlparse
 import
 urlparse
+import
+mozlog
 here
 =
 os
@@ -1548,6 +1552,15 @@ containing
 tests
 "
 )
+        
+mozlog
+.
+commandline
+.
+add_logging_group
+(
+self
+)
     
 def
 get_ip
@@ -1767,9 +1780,6 @@ options
 reftest
 )
 :
-        
-import
-sys
         
 if
 not
