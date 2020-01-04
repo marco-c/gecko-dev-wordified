@@ -1292,6 +1292,9 @@ mAutoFocusCompleteTimer
 int32_t
 mAutoFocusCompleteExpired
 ;
+uint32_t
+mPrevFacesDetected
+;
 /
 /
 Guards
