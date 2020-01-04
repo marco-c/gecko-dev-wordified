@@ -3648,6 +3648,10 @@ InitLoggingIfRequired
 ;
 #
 endif
+OverrideDefaultLocaleIfNeeded
+(
+)
+;
 /
 /
 Run
