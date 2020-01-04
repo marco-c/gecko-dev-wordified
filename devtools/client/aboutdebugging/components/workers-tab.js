@@ -681,6 +681,7 @@ render
 let
 {
 client
+id
 }
 =
 this
@@ -704,11 +705,7 @@ div
 {
 id
 :
-"
-tab
--
-workers
-"
+id
 className
 :
 "

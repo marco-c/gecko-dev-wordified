@@ -140,6 +140,7 @@ map
 (
 (
 {
+panelId
 id
 name
 icon
@@ -163,6 +164,7 @@ TabMenuEntry
 tabId
 :
 id
+panelId
 name
 icon
 selected
@@ -193,6 +195,11 @@ id
 :
 "
 categories
+"
+role
+:
+"
+tablist
 "
 }
 tabLinks
