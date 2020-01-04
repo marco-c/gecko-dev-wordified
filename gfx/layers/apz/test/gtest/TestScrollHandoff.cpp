@@ -913,7 +913,7 @@ root
 rootApzc
 -
 >
-GetFrameMetrics
+GetScrollMetadata
 (
 )
 .

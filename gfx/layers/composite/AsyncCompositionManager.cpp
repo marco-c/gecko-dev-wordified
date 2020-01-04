@@ -6746,7 +6746,7 @@ asyncClip
 &
 &
 !
-metrics
+scrollMetadata
 .
 UsesContainerScrolling
 (

@@ -441,7 +441,7 @@ FrameMetrics
 START_SCROLL_ID
 )
 {
-metrics
+metadata
 .
 SetIsLayersIdRoot
 (
@@ -474,7 +474,7 @@ CSSPoint
 )
 )
 ;
-metrics
+metadata
 .
 SetPageScrollAmount
 (
@@ -485,7 +485,7 @@ LayoutDeviceIntSize
 )
 )
 ;
-metrics
+metadata
 .
 SetLineScrollAmount
 (
@@ -496,7 +496,7 @@ LayoutDeviceIntSize
 )
 )
 ;
-metrics
+metadata
 .
 SetAllowVerticalScrollWithWheel
 (
@@ -789,10 +789,6 @@ GetScrollMetadata
 )
 ;
 metadata
-.
-GetMetrics
-(
-)
 .
 SetScrollParentId
 (

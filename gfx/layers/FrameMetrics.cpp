@@ -126,7 +126,7 @@ NULL_SCROLL_ID
 0
 ;
 void
-FrameMetrics
+ScrollMetadata
 :
 :
 SetUsesContainerScrolling
