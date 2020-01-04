@@ -550,6 +550,19 @@ arguments
         
 '
 var
+baseURI
+=
+arguments
+[
+0
+]
+.
+baseURI
+;
+'
+        
+'
+var
 currentTime
 =
 video
@@ -1779,7 +1792,7 @@ self
 .
 _last_seen_video_state
 .
-video_url
+video_uri
                                          
 self
 )
@@ -2163,9 +2176,20 @@ as
 follows
 :
         
+base_uri
+:
+the
+baseURI
+attribute
+of
+the
+wrapped
+element
+.
+        
 current_time
 :
-The
+the
 current
 time
 of
@@ -2387,17 +2411,6 @@ wrapped
 element
 .
         
-video_url
-:
-the
-url
-attribute
-of
-the
-wrapped
-element
-.
-        
 :
 return
 :
@@ -2422,6 +2435,10 @@ video_state_info
 '
                           
 [
+'
+base_uri
+'
+                           
 '
 current_time
 '
@@ -2460,10 +2477,6 @@ corrupted_frames
                            
 '
 video_src
-'
-                           
-'
-video_url
 '
 ]
 )
@@ -2852,24 +2865,6 @@ src
 '
 )
         
-video_state_info_kwargs
-[
-'
-video_url
-'
-]
-=
-self
-.
-video
-.
-get_attribute
-(
-'
-url
-'
-)
-        
 #
 Create
 video
@@ -2922,6 +2917,10 @@ _video_var_script
 '
 return
 [
+'
+                
+'
+baseURI
 '
                 
 '
@@ -3055,6 +3054,9 @@ snapshot
 keys
 =
 [
+'
+base_uri
+'
 '
 current_time
 '

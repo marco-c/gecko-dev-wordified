@@ -2652,6 +2652,10 @@ return
 '
                 
 '
+baseURI
+'
+                
+'
 currentTime
 '
                 
@@ -2831,25 +2835,28 @@ video_keys
 =
 [
 '
+base_uri
+'
+'
 current_time
 '
 '
 duration
 '
+                      
 '
 raw_buffered_ranges
 '
-                      
 '
 raw_played_ranges
 '
+                      
 '
 total_frames
 '
 '
 dropped_frames
 '
-                      
 '
 corrupted_frames
 '
