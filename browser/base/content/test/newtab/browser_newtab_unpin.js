@@ -67,8 +67,10 @@ anymore
 .
 *
 /
+add_task
+(
 function
-runTests
+*
 (
 )
 {
@@ -95,7 +97,7 @@ pinned
 /
 nothing
 should
-happend
+happen
 when
 we
 unpin
@@ -125,10 +127,13 @@ setPinnedLinks
 )
 ;
 yield
+*
 addNewTabPageTab
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -150,6 +155,8 @@ unpinCell
 1
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -236,10 +243,13 @@ setPinnedLinks
 )
 ;
 yield
+*
 addNewTabPageTab
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -261,6 +271,8 @@ unpinCell
 1
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -330,10 +342,13 @@ setPinnedLinks
 )
 ;
 yield
+*
 addNewTabPageTab
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -354,6 +369,8 @@ unpinCell
 1
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -374,6 +391,8 @@ unpinCell
 8
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -446,10 +465,13 @@ setPinnedLinks
 )
 ;
 yield
+*
 addNewTabPageTab
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -471,6 +493,8 @@ unpinCell
 0
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -487,3 +511,5 @@ checkGrid
 )
 ;
 }
+)
+;
