@@ -40579,6 +40579,10 @@ GetContent
 )
 ;
 }
+RenumberLists
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -42842,6 +42846,10 @@ IntrinsicISizeType
 aConstraint
 )
 {
+RenumberLists
+(
+)
+;
 /
 /
 Calculate
