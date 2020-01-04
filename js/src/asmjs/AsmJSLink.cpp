@@ -9233,6 +9233,10 @@ end
 if
 (
 !
+src
+|
+|
+!
 AppendUseStrictSource
 (
 cx
