@@ -827,7 +827,10 @@ Count
 :
 CountBase
 {
-mozilla
+JS
+:
+:
+ubi
 :
 :
 Vector
@@ -2327,7 +2330,10 @@ non
 -
 deterministic
 .
-mozilla
+JS
+:
+:
+ubi
 :
 :
 Vector
@@ -3823,7 +3829,10 @@ non
 -
 deterministic
 .
-mozilla
+JS
+:
+:
+ubi
 :
 :
 Vector
@@ -5153,7 +5162,10 @@ non
 -
 deterministic
 .
-mozilla
+JS
+:
+:
+ubi
 :
 :
 Vector

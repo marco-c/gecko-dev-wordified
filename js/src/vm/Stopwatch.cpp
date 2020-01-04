@@ -1209,7 +1209,7 @@ return
 true
 ;
 }
-GroupVector
+PerformanceGroupVector
 recentGroups
 ;
 recentGroups_
@@ -1414,7 +1414,7 @@ clear
 ;
 }
 const
-GroupVector
+PerformanceGroupVector
 *
 PerformanceGroupHolder
 :
@@ -1560,7 +1560,7 @@ iteration
 )
 ;
 const
-GroupVector
+PerformanceGroupVector
 *
 groups
 =
