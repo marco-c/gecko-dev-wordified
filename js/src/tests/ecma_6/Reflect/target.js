@@ -95,12 +95,6 @@ deleteProperty
 x
 "
 ]
-/
-/
-enumerate
-:
-[
-]
 get
 :
 [

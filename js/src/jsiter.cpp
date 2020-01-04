@@ -5599,17 +5599,6 @@ hook
 .
 /
 /
-In
-the
-future
-also
-for
-Reflect
-.
-enumerate
-.
-/
-/
 JSITER_ENUMERATE
 is
 just

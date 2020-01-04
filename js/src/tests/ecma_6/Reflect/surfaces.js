@@ -170,11 +170,6 @@ defineProperty
 deleteProperty
 :
 2
-/
-/
-enumerate
-:
-1
 get
 :
 2
