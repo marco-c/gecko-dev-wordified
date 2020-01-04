@@ -325,8 +325,7 @@ nullptr
 )
 mInputFrameID
 (
--
-1
+0
 )
 mMessageLoop
 (
@@ -1573,7 +1572,7 @@ return
 success
 ;
 }
-int
+uint32_t
 VRManagerChild
 :
 :
