@@ -7543,6 +7543,8 @@ cx
 wrapper
 attrSpec
 .
+accessors
+.
 getter
 .
 native
@@ -7579,6 +7581,8 @@ if
 (
 attrSpec
 .
+accessors
+.
 setter
 .
 native
@@ -7603,6 +7607,8 @@ XrayCreateFunction
 cx
 wrapper
 attrSpec
+.
+accessors
 .
 setter
 .
