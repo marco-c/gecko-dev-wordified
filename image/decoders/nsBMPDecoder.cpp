@@ -4243,11 +4243,11 @@ below
 /
 Run
 with
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 BMPDecoder
 :
-4
+5
 set
 to
 see
