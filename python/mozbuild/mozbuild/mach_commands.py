@@ -11931,6 +11931,38 @@ self
 func
 )
         
+jobchoices
+=
+{
+            
+'
+android
+-
+api
+-
+11
+'
+            
+'
+android
+-
+x86
+'
+            
+'
+macosx64
+'
+            
+'
+win32
+'
+            
+'
+win64
+'
+        
+}
+        
 args
 =
 [
@@ -11974,23 +12006,7 @@ JOB
 '
 choices
 =
-[
-'
-android
--
-api
--
-11
-'
-'
-android
--
-x86
-'
-'
-macosx64
-'
-]
+jobchoices
                 
 help
 =
@@ -12500,17 +12516,14 @@ x86
 :
                 
 return
-(
 tree
 '
 android
 -
 x86
 '
-)
             
 return
-(
 tree
 '
 android
@@ -12519,7 +12532,6 @@ api
 -
 11
 '
-)
         
 if
 self
@@ -12563,12 +12575,30 @@ environment
 .
             
 return
-(
 tree
 '
 macosx64
 '
+        
+if
+self
+.
+defines
+.
+get
+(
+'
+XP_WIN
+'
+False
 )
+:
+            
+return
+tree
+'
+win32
+'
         
 raise
 Exception
