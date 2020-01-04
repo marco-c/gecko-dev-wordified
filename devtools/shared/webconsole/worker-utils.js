@@ -167,7 +167,7 @@ exports
 Utils
 =
 {
-l10n
+L10n
 :
 function
 (
