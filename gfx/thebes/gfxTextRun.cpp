@@ -10682,6 +10682,8 @@ to
 the
 default
 case
+MOZ_FALLTHROUGH
+;
 default
 :
 SetLoading
