@@ -2161,6 +2161,9 @@ xdr
 >
 fail
 (
+JS
+:
+:
 TranscodeResult_Failure_RunOnceNotSupported
 )
 ;
@@ -5293,6 +5296,9 @@ xdr
 >
 fail
 (
+JS
+:
+:
 TranscodeResult_Failure_AsmJSNotSupported
 )
 ;
@@ -5482,6 +5488,9 @@ xdr
 >
 fail
 (
+JS
+:
+:
 TranscodeResult_Failure_UnknownClassKind
 )
 ;
