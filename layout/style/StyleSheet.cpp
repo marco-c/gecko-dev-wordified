@@ -419,7 +419,8 @@ IsGecko
 AsGecko
 (
 )
-.
+-
+>
 mDirty
 "
 Can
@@ -556,6 +557,7 @@ IsServo
 )
 {
 return
+*
 AsServo
 (
 )
@@ -566,7 +568,8 @@ return
 AsGecko
 (
 )
-.
+-
+>
 mInner
 ;
 }
