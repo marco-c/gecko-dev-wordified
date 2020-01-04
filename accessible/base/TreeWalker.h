@@ -289,7 +289,6 @@ TreeWalker
 Return
 the
 next
-child
 accessible
 .
 *
@@ -327,7 +326,7 @@ document
 /
 Accessible
 *
-NextChild
+Next
 (
 )
 ;

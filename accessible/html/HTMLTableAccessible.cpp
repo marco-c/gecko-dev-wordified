@@ -3286,7 +3286,7 @@ child
 =
 walker
 .
-NextChild
+Next
 (
 )
 )
@@ -3321,7 +3321,7 @@ child
 =
 walker
 .
-NextChild
+Next
 (
 )
 )

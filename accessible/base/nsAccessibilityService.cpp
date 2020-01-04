@@ -4447,7 +4447,7 @@ child
 =
 walker
 .
-NextChild
+Next
 (
 )
 ;
