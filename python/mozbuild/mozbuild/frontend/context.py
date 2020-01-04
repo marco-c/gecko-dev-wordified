@@ -9950,7 +9950,11 @@ CONFIGURE_SUBST_FILES
 '
 :
 (
+ContextDerivedTypedList
+(
+SourcePath
 StrictOrderingOnAppendList
+)
 list
         
 "
@@ -10045,7 +10049,11 @@ CONFIGURE_DEFINE_FILES
 '
 :
 (
+ContextDerivedTypedList
+(
+SourcePath
 StrictOrderingOnAppendList
+)
 list
         
 "
