@@ -353,10 +353,6 @@ org
 /
 "
 "
-http
-:
-/
-/
 ftp
 .
 mozilla
@@ -380,10 +376,6 @@ org
 /
 "
 "
-http
-:
-/
-/
 ftp1
 .
 mozilla
@@ -407,10 +399,6 @@ org
 /
 "
 "
-http
-:
-/
-/
 ftp42
 .
 mozilla
