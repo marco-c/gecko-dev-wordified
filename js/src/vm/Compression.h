@@ -237,6 +237,9 @@ outbytes
 bool
 initialized
 ;
+bool
+finished
+;
 /
 /
 The
@@ -453,7 +456,6 @@ dest
 size_t
 destBytes
 )
-const
 ;
 static
 void
