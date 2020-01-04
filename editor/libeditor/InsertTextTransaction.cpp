@@ -303,7 +303,7 @@ DoTransaction
 )
 {
 nsresult
-res
+rv
 =
 mTextNode
 -
@@ -316,8 +316,8 @@ mStringToInsert
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 /
@@ -359,7 +359,11 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-res
+DebugOnly
+<
+nsresult
+>
+rv
 =
 selection
 -
@@ -380,7 +384,7 @@ NS_ASSERTION
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 "
 Selection

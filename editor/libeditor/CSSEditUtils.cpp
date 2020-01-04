@@ -3454,7 +3454,7 @@ the
 style
 attribute
 nsresult
-res
+rv
 =
 RemoveCSSProperty
 (
@@ -3467,8 +3467,8 @@ aPropertyValue
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 if
@@ -5507,7 +5507,7 @@ carry
 on
 .
 nsresult
-res
+rv
 =
 SetCSSEquivalentToHTMLStyle
 (
@@ -5529,7 +5529,7 @@ NS_ASSERTION
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 "
 SetCSSEquivalentToHTMLStyle
@@ -5539,7 +5539,7 @@ failed
 ;
 NS_ENSURE_SUCCESS
 (
-res
+rv
 count
 )
 ;
@@ -5708,7 +5708,7 @@ index
 )
 {
 nsresult
-res
+rv
 =
 SetCSSProperty
 (
@@ -5728,8 +5728,8 @@ aSuppressTransaction
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 }
@@ -5950,7 +5950,7 @@ index
 )
 {
 nsresult
-res
+rv
 =
 RemoveCSSProperty
 (
@@ -5970,8 +5970,8 @@ aSuppressTransaction
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 }
@@ -6190,7 +6190,7 @@ of
 the
 property
 nsresult
-res
+rv
 =
 GetCSSInlinePropertyBase
 (
@@ -6205,8 +6205,8 @@ aStyleType
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 /
@@ -6431,7 +6431,7 @@ bool
 isSet
 ;
 nsresult
-res
+rv
 =
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -6450,7 +6450,7 @@ aStyleType
 ;
 NS_ENSURE_SUCCESS
 (
-res
+rv
 false
 )
 ;
@@ -6531,7 +6531,7 @@ CSS
 equivalent
 styles
 nsresult
-res
+rv
 =
 GetCSSEquivalentToHTMLInlineStyleSet
 (
@@ -6544,8 +6544,8 @@ aStyleType
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 /
@@ -8476,7 +8476,7 @@ uint32_t
 length
 ;
 nsresult
-res
+rv
 =
 GetInlineStyles
 (
@@ -8493,16 +8493,18 @@ if
 (
 NS_FAILED
 (
-res
+rv
 )
 |
 |
 !
 cssDecl
 )
+{
 return
-res
+rv
 ;
+}
 return
 cssDecl
 -

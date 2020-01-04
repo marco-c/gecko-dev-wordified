@@ -552,9 +552,6 @@ if
 aDestinationNode
 )
 {
-nsresult
-res
-;
 RefPtr
 <
 Selection
@@ -618,7 +615,8 @@ targetNode
 targetOffset
 )
 ;
-res
+nsresult
+rv
 =
 DeleteSelection
 (
@@ -628,12 +626,13 @@ eStrip
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 }
-res
+nsresult
+rv
 =
 selection
 -
@@ -646,8 +645,8 @@ targetOffset
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 }

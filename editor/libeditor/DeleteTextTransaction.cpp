@@ -326,7 +326,7 @@ about
 to
 delete
 nsresult
-res
+rv
 =
 mCharData
 -
@@ -342,11 +342,11 @@ MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 )
 ;
-res
+rv
 =
 mCharData
 -
@@ -359,8 +359,8 @@ mNumCharsToDelete
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 if
@@ -418,7 +418,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-res
+rv
 =
 selection
 -
@@ -433,7 +433,7 @@ NS_ASSERTION
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 "
 Selection
@@ -450,8 +450,8 @@ deletetext
 ;
 NS_ENSURE_SUCCESS
 (
-res
-res
+rv
+rv
 )
 ;
 }
