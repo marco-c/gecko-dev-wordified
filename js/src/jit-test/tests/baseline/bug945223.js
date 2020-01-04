@@ -182,6 +182,10 @@ forceinlineCaches
 0
 )
 ;
+enableNoSuchMethod
+(
+)
+;
 Array
 .
 prototype
