@@ -240,6 +240,10 @@ mSurfaceAllocator
 (
 aAllocator
 )
+mDestroyed
+(
+false
+)
 {
 TCP_LOG
 (
@@ -912,6 +916,9 @@ if
 (
 !
 aClient
+|
+|
+mDestroyed
 )
 {
 return
@@ -1036,6 +1043,9 @@ if
 (
 !
 aClient
+|
+|
+mDestroyed
 )
 {
 return
@@ -1736,6 +1746,10 @@ Destroy
 Clear
 (
 )
+;
+mDestroyed
+=
+true
 ;
 mInitialPoolSize
 =
