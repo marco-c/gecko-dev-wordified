@@ -1134,7 +1134,7 @@ notifications
 /
 MOZ_GTK_INFO_BAR
 }
-GtkThemeWidgetType
+WidgetNodeType
 ;
 /
 *
@@ -1452,7 +1452,7 @@ flags
 ;
 see
 the
-GtkThemeWidgetType
+WidgetNodeType
 definition
 .
 *
@@ -1475,7 +1475,7 @@ RTL
 gint
 moz_gtk_widget_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 GdkDrawable
 *
@@ -1500,7 +1500,7 @@ else
 gint
 moz_gtk_widget_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 cairo_t
 *
@@ -1630,7 +1630,7 @@ otherwise
 gint
 moz_gtk_get_widget_border
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 gint
 *
@@ -2471,7 +2471,7 @@ height
 void
 moz_gtk_get_arrow_size
 (
-GtkThemeWidgetType
+WidgetNodeType
 widgetType
 gint
 *

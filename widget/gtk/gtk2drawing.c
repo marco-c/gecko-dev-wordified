@@ -6515,7 +6515,7 @@ static
 gint
 moz_gtk_scrollbar_trough_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 GdkDrawable
 *
@@ -6704,7 +6704,7 @@ static
 gint
 moz_gtk_scrollbar_thumb_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 GdkDrawable
 *
@@ -11510,7 +11510,7 @@ GdkRectangle
 cliprect
 GtkTextDirection
 direction
-GtkThemeWidgetType
+WidgetNodeType
 widget
 )
 {
@@ -14714,7 +14714,7 @@ MOZ_GTK_SUCCESS
 gint
 moz_gtk_get_widget_border
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 gint
 *
@@ -16228,7 +16228,7 @@ MOZ_GTK_SUCCESS
 void
 moz_gtk_get_arrow_size
 (
-GtkThemeWidgetType
+WidgetNodeType
 widgetType
 gint
 *
@@ -16744,7 +16744,7 @@ result
 gint
 moz_gtk_widget_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 GdkDrawable
 *

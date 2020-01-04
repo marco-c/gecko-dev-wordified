@@ -383,7 +383,7 @@ aWidgetType
 nsIFrame
 *
 aFrame
-GtkThemeWidgetType
+WidgetNodeType
 &
 aGtkWidgetType
 GtkWidgetState
