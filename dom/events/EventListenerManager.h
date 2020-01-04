@@ -2227,6 +2227,11 @@ GetDocShellForTarget
 (
 )
 ;
+void
+ProcessApzAwareEventListenerAdd
+(
+)
+;
 /
 *
 *
