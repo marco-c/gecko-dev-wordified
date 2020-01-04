@@ -3921,6 +3921,7 @@ FxAccountDeviceRegistrator
 .
 register
 (
+fxAccount
 context
 )
 ;
