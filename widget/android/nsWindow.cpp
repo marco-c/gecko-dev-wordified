@@ -13741,7 +13741,7 @@ characters
 .
 event
 .
-isChar
+mIsChar
 =
 (
 charCode
@@ -13757,7 +13757,7 @@ mCharCode
 =
 event
 .
-isChar
+mIsChar
 ?
 charCode
 :
@@ -13769,7 +13769,7 @@ mKeyCode
 =
 event
 .
-isChar
+mIsChar
 ?
 0
 :
@@ -13902,7 +13902,7 @@ else
 {
 event
 .
-isChar
+mIsChar
 =
 false
 ;

@@ -1696,7 +1696,7 @@ keyEvent
 keyEvent
 -
 >
-isChar
+mIsChar
 :
 false
 ;

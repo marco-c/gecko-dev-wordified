@@ -1132,7 +1132,7 @@ nsIDOMKeyEvent
 :
 DOM_KEY_LOCATION_STANDARD
 )
-isChar
+mIsChar
 (
 false
 )
@@ -1249,7 +1249,7 @@ nsIDOMKeyEvent
 :
 DOM_KEY_LOCATION_STANDARD
 )
-isChar
+mIsChar
 (
 false
 )
@@ -1702,7 +1702,7 @@ a
 printable
 character
 bool
-isChar
+mIsChar
 ;
 /
 /
@@ -2692,11 +2692,11 @@ aEvent
 .
 mAlternativeCharCodes
 ;
-isChar
+mIsChar
 =
 aEvent
 .
-isChar
+mIsChar
 ;
 mIsRepeat
 =

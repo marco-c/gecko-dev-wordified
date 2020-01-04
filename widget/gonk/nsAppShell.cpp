@@ -1572,7 +1572,7 @@ mDOMKeyCode
 }
 event
 .
-isChar
+mIsChar
 =
 !
 !
