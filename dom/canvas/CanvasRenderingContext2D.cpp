@@ -30032,6 +30032,10 @@ reacquire
 it
 here
 .
+EnsureTarget
+(
+)
+;
 if
 (
 drawDT
@@ -33189,6 +33193,10 @@ aW
 4
 ;
 }
+EnsureTarget
+(
+)
+;
 if
 (
 !
