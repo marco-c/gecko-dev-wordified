@@ -1470,6 +1470,7 @@ this
 .
 _notifyOnLocationChange
 (
+browser
 )
 ;
 return
@@ -1516,6 +1517,7 @@ _notifyOnLocationChange
 bind
 (
 this
+browser
 )
 )
 ;
@@ -1572,6 +1574,7 @@ this
 .
 _notifyOnLocationChange
 (
+browser
 )
 ;
 return
@@ -1635,6 +1638,7 @@ _notifyOnLocationChange
 bind
 (
 this
+browser
 )
 )
 ;
@@ -1717,6 +1721,7 @@ this
 .
 _notifyOnLocationChange
 (
+browser
 )
 ;
 return
@@ -1735,6 +1740,7 @@ _notifyOnLocationChange
 bind
 (
 this
+browser
 )
 )
 ;
@@ -2157,7 +2163,7 @@ obs
 .
 notifyObservers
 (
-null
+browser
 "
 browser
 -
@@ -2657,7 +2663,7 @@ obs
 .
 notifyObservers
 (
-null
+browser
 "
 browser
 -
@@ -2784,7 +2790,7 @@ obs
 .
 notifyObservers
 (
-null
+browser
 "
 browser
 -
@@ -3850,6 +3856,7 @@ _notifyOnLocationChange
 function
 FullZoom__notifyOnLocationChange
 (
+browser
 )
 {
 this
@@ -3866,7 +3873,7 @@ obs
 .
 notifyObservers
 (
-null
+browser
 "
 browser
 -
