@@ -262,6 +262,17 @@ true
 ]
 [
 "
+moz
+-
+extension
+:
+/
+/
+"
+true
+]
+[
+"
 about
 :
 config
