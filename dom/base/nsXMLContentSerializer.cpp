@@ -8699,10 +8699,8 @@ sawBlankOrTab
 =
 true
 ;
-/
-/
-no
-break
+MOZ_FALLTHROUGH
+;
 case
 '
 \

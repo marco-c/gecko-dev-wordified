@@ -36417,6 +36417,8 @@ imported
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDOMNode
@@ -41557,6 +41559,8 @@ return
 nullptr
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDOMNode
@@ -43542,6 +43546,8 @@ scaleMaxErrorCode
 mViewportType
 =
 Specified
+;
+MOZ_FALLTHROUGH
 ;
 }
 case

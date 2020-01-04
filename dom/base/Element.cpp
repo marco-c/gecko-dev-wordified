@@ -16795,10 +16795,8 @@ mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
-/
-/
-FALL
-THROUGH
+MOZ_FALLTHROUGH
+;
 case
 eFocus
 :
@@ -16889,10 +16887,8 @@ mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
-/
-/
-FALL
-THROUGH
+MOZ_FALLTHROUGH
+;
 case
 eBlur
 :

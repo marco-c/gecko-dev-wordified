@@ -1601,10 +1601,8 @@ return
 NS_OK
 ;
 }
-/
-/
-NO
-BREAK
+MOZ_FALLTHROUGH
+;
 case
 DBOperation
 :

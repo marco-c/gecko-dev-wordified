@@ -21669,6 +21669,8 @@ click
 .
 .
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_FORM_INPUT_BUTTON
@@ -21830,9 +21832,8 @@ isMovingBack
 =
 true
 ;
-/
-/
-FALLTHROUGH
+MOZ_FALLTHROUGH
+;
 case
 NS_VK_DOWN
 :
