@@ -1451,9 +1451,9 @@ wantNames
 JS
 :
 :
-ZoneSet
+CompartmentSet
 *
-zones
+compartments
 JS
 :
 :
@@ -1493,9 +1493,9 @@ wantNames
 JS
 :
 :
-ZoneSet
+CompartmentSet
 *
-zones
+compartments
 JS
 :
 :
@@ -1517,7 +1517,7 @@ cx
 node
 writer
 wantNames
-zones
+compartments
 noGC
 ignoreNodeCount
 ignoreEdgeCount

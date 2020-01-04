@@ -8807,14 +8807,14 @@ provided
 set
 of
 |
-Zone
+JSCompartment
 |
 s
 .
 bool
 init
 (
-ZoneSet
+CompartmentSet
 &
 debuggees
 )
@@ -8835,7 +8835,9 @@ s
 set
 of
 debuggee
-zones
+/
+/
+compartments
 .
 bool
 init
