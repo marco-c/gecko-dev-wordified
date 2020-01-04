@@ -3287,7 +3287,7 @@ widget
 widget
 -
 >
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 =

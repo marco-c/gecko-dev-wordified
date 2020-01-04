@@ -3820,8 +3820,11 @@ mPluginFocused
 ;
 }
 virtual
-nsIntPoint
-GetClientOffsetUntyped
+mozilla
+:
+:
+LayoutDeviceIntPoint
+GetClientOffset
 (
 )
 override

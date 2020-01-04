@@ -2691,7 +2691,10 @@ return
 mScreenRect
 ;
 }
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 GetLastClientOffset
 (
 )
@@ -3796,7 +3799,10 @@ didn
 t
 change
 .
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mLastClientOffset
 ;
 nsPopupType

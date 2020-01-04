@@ -1619,8 +1619,11 @@ WidgetToScreenOffset
 override
 ;
 virtual
-nsIntPoint
-GetClientOffsetUntyped
+mozilla
+:
+:
+LayoutDeviceIntPoint
+GetClientOffset
 (
 )
 override

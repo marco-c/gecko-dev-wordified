@@ -14461,7 +14461,7 @@ NS_OK
 }
 /
 /
-return
+Return
 the
 x
 y
@@ -14473,13 +14473,13 @@ area
 from
 the
 origin
-/
-/
 of
 the
 window
 .
 If
+/
+/
 the
 window
 is
@@ -14490,11 +14490,11 @@ returns
 0
 )
 .
-nsIntPoint
+LayoutDeviceIntPoint
 nsWindow
 :
 :
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 {
@@ -14505,7 +14505,7 @@ mWnd
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -14530,7 +14530,7 @@ WidgetToScreenOffset
 )
 ;
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 pt
 .
