@@ -2478,7 +2478,7 @@ fullMimeType
 transferred
 size
 time
-fromCache
+displayedStatus
 }
 =
 aData
@@ -3076,11 +3076,9 @@ tooltip
 is
 (
 value
-fromCache
+displayedStatus
 ?
-"
-cached
-"
+displayedStatus
 :
 status
 "
