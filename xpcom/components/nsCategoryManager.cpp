@@ -3200,6 +3200,10 @@ const
 char
 *
 aObserverTopic
+const
+char16_t
+*
+aObserverData
 )
 {
 nsresult
@@ -3484,6 +3488,10 @@ Observe
 (
 aOrigin
 aObserverTopic
+aObserverData
+?
+aObserverData
+:
 EmptyString
 (
 )

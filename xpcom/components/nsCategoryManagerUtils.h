@@ -141,6 +141,12 @@ const
 char
 *
 aObserverTopic
+const
+char16_t
+*
+aObserverData
+=
+nullptr
 )
 ;
 #
