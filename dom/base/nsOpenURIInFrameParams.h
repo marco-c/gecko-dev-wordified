@@ -117,6 +117,15 @@ MPL
 #
 include
 "
+mozilla
+/
+BasePrincipal
+.
+h
+"
+#
+include
+"
 nsIBrowserDOMWindow
 .
 h
