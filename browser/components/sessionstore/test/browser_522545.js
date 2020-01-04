@@ -77,7 +77,7 @@ waitForExplicitFinish
 ;
 requestLongerTimeout
 (
-3
+4
 )
 ;
 /
