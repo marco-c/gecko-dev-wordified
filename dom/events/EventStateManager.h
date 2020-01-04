@@ -4948,6 +4948,9 @@ dispatchedToContentProcess
 int32_t
 mLockCursor
 ;
+bool
+mLastFrameConsumedSetCursor
+;
 /
 /
 Last
