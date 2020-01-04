@@ -717,13 +717,6 @@ FloatRegister
 dest
 )
 ;
-void
-negateDouble
-(
-FloatRegister
-reg
-)
-;
 /
 /
 Somewhat
