@@ -1504,6 +1504,10 @@ aOriginAttributes
 nsIDocument
 *
 aDoc
+const
+nsAString
+&
+aDocumentIdForTopLevelNavigation
 nsIInterceptedChannel
 *
 aChannel

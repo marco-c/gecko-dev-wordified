@@ -81653,6 +81653,7 @@ PrepareFetchEvent
 (
 attrs
 doc
+mInterceptedDocumentId
 aChannel
 isReload
 isSubresourceLoad

@@ -677,13 +677,10 @@ aChannel
 nsILoadGroup
 *
 aLoadGroup
-UniquePtr
-<
-ServiceWorkerClientInfo
->
+const
+nsAString
 &
-&
-aClientInfo
+aDocumentId
 bool
 aIsReload
 )
