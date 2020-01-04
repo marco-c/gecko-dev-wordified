@@ -1785,6 +1785,7 @@ folder
 }
 )
 ;
+yield
 Assert
 .
 rejects
