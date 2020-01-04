@@ -174,26 +174,6 @@ bundles
 ]
         
 '
-symbol_server_host
-'
-:
-"
-dev
--
-stage01
-.
-srv
-.
-releng
-.
-scl3
-.
-mozilla
-.
-com
-"
-        
-'
 stage_server
 '
 :
@@ -396,18 +376,6 @@ bundles
         
 ]
         
-'
-symbol_server_host
-'
-:
-"
-symbolpush
-.
-mozilla
-.
-org
-"
-        
 #
 bug
 1216907
@@ -483,18 +451,6 @@ mozilla
 .
 org
 '
-        
-'
-symbol_server_host
-'
-:
-"
-symbolpush
-.
-mozilla
-.
-org
-"
         
 '
 stage_server
