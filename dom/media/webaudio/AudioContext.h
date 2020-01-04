@@ -324,6 +324,9 @@ class
 ChannelSplitterNode
 ;
 class
+ConstantSourceNode
+;
+class
 ConvolverNode
 ;
 class
@@ -1053,6 +1056,17 @@ already_AddRefed
 AudioBufferSourceNode
 >
 CreateBufferSource
+(
+ErrorResult
+&
+aRv
+)
+;
+already_AddRefed
+<
+ConstantSourceNode
+>
+CreateConstantSource
 (
 ErrorResult
 &
