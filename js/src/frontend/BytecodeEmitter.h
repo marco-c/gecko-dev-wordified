@@ -4278,7 +4278,7 @@ letDecl
 )
 ;
 bool
-emitNormalFor
+emitCStyleFor
 (
 ParseNode
 *
