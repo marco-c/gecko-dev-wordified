@@ -177,9 +177,6 @@ StackScroller
 GlobalRef
 mOverScroller
 ;
-TimeStamp
-mLastFling
-;
 }
 ;
 class
