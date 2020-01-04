@@ -3688,7 +3688,12 @@ TextureFlags
 :
 :
 NO_FLAGS
+TextureAllocationFlags
+(
 ALLOC_FOR_OUT_OF_BAND_CONTENT
+|
+ALLOC_UPDATE_FROM_SURFACE
+)
 )
 ;
 if
@@ -4120,7 +4125,12 @@ TextureFlags
 :
 :
 NO_FLAGS
+TextureAllocationFlags
+(
 ALLOC_FOR_OUT_OF_BAND_CONTENT
+|
+ALLOC_UPDATE_FROM_SURFACE
+)
 )
 ;
 if
