@@ -91,7 +91,7 @@ times
 const
 TOOL_DELAY
 =
-200
+1000
 ;
 add_task
 (
