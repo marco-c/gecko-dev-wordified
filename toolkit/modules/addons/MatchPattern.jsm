@@ -78,6 +78,12 @@ MatchPattern
 "
 ]
 ;
+/
+*
+globals
+MatchPattern
+*
+/
 const
 PERMITTED_SCHEMES
 =
@@ -307,10 +313,10 @@ path
 new
 RegExp
 (
-'
+"
 .
 *
-'
+"
 )
 ;
 }
@@ -440,9 +446,9 @@ match
 ]
 =
 =
-'
+"
 *
-'
+"
 )
 {
 this
@@ -612,9 +618,9 @@ this
 host
 =
 =
-'
+"
 *
-'
+"
 )
 {
 /
@@ -637,9 +643,9 @@ host
 ]
 =
 =
-'
+"
 *
-'
+"
 )
 {
 /
@@ -703,7 +709,6 @@ false
 }
 }
 else
-{
 if
 (
 this
@@ -719,7 +724,6 @@ host
 return
 false
 ;
-}
 }
 if
 (
@@ -833,6 +837,7 @@ p
 ;
 }
 }
+;
 MatchPattern
 .
 prototype

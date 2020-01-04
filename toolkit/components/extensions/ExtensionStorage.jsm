@@ -155,6 +155,7 @@ osfile
 jsm
 "
 )
+;
 Cu
 .
 import
@@ -174,6 +175,13 @@ jsm
 "
 )
 ;
+/
+*
+globals
+OS
+ExtensionStorage
+*
+/
 var
 Path
 =

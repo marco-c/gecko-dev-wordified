@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 interfaces
@@ -114,6 +119,7 @@ storeId
 :
 DEFAULT_STORE
 }
+;
 if
 (
 !
@@ -494,7 +500,7 @@ in
 details
 )
 {
-var
+let
 uri
 =
 Services
@@ -1584,6 +1590,7 @@ cause
 )
 ;
 }
+;
 /
 /
 We

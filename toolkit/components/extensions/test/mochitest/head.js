@@ -1,3 +1,14 @@
+"
+use
+strict
+"
+;
+/
+*
+exported
+waitForLoad
+*
+/
 function
 waitForLoad
 (

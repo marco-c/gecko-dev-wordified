@@ -915,7 +915,6 @@ Map
 )
 ;
 }
-;
 LocaleData
 .
 prototype
@@ -1117,6 +1116,7 @@ get
 (
 message
 )
+;
 if
 (
 !
@@ -1191,6 +1191,7 @@ index
 parseInt
 (
 index
+10
 )
 -
 1
@@ -2901,8 +2902,6 @@ delete
 callback
 )
 ;
-this
-.
 unregister
 (
 )
@@ -3164,7 +3163,7 @@ consoleService
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -3172,7 +3171,7 @@ org
 consoleservice
 ;
 1
-'
+"
 ]
 .
 getService
@@ -3259,9 +3258,9 @@ prop
 ]
 =
 =
-'
+"
 _
-'
+"
 )
 {
 continue
@@ -3628,12 +3627,6 @@ type
 listener
 )
 {
-let
-index
-=
--
-1
-;
 for
 (
 let
@@ -4134,6 +4127,15 @@ disconnected
 )
 {
 throw
+new
+this
+.
+context
+.
+contentWindow
+.
+Error
+(
 "
 Attempt
 to
@@ -4142,6 +4144,7 @@ on
 disconnected
 port
 "
+)
 ;
 }
 this
@@ -4433,6 +4436,15 @@ disconnected
 )
 {
 throw
+new
+this
+.
+context
+.
+contentWindow
+.
+Error
+(
 "
 Attempt
 to
@@ -4443,6 +4455,7 @@ a
 disconnected
 port
 "
+)
 ;
 }
 this

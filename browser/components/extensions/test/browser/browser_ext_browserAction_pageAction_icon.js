@@ -99,7 +99,7 @@ getImageData
 color
 )
 {
-var
+let
 canvas
 =
 document
@@ -123,7 +123,7 @@ height
 =
 2
 ;
-var
+let
 canvasContext
 =
 canvas
@@ -197,7 +197,7 @@ height
 }
 ;
 }
-var
+let
 imageData
 =
 {
@@ -219,7 +219,18 @@ green
 )
 }
 ;
-var
+/
+*
+eslint
+-
+disable
+comma
+-
+dangle
+indent
+*
+/
+let
 iconDetails
 =
 [
@@ -1352,7 +1363,7 @@ ImageData
 >
 "
 ;
-var
+let
 tabId
 ;
 browser
@@ -1396,7 +1407,7 @@ message
 )
 ;
 }
-var
+let
 details
 =
 iconDetails
@@ -1406,7 +1417,7 @@ test
 index
 ]
 ;
-var
+let
 expectedURL
 =
 details
@@ -1418,7 +1429,7 @@ test
 resolution
 ]
 ;
-var
+let
 detailString
 =
 JSON
@@ -1448,6 +1459,7 @@ URL
 expectedURL
 }
 )
+;
 browser
 .
 browserAction
@@ -1611,7 +1623,7 @@ them
 /
 correctly
 .
-var
+let
 tests
 =
 [
@@ -1619,7 +1631,7 @@ tests
 ;
 for
 (
-var
+let
 [
 idx
 icon
@@ -1634,7 +1646,7 @@ entries
 {
 for
 (
-var
+let
 res
 of
 Object
@@ -2117,7 +2129,7 @@ tabs
 =
 >
 {
-var
+let
 tabId
 =
 tabs
@@ -2129,7 +2141,7 @@ id
 ;
 for
 (
-var
+let
 api
 of
 [
@@ -2240,6 +2252,7 @@ size
 ;
 }
 }
+;
 /
 /
 test
@@ -2249,7 +2262,7 @@ size
 inputs
 for
 (
-var
+let
 type
 of
 [
@@ -2728,7 +2741,7 @@ tabs
 =
 >
 {
-var
+let
 tabId
 =
 tabs
@@ -3013,7 +3026,7 @@ tabs
 =
 >
 {
-var
+let
 tabId
 =
 tabs
@@ -3023,7 +3036,7 @@ tabs
 .
 id
 ;
-var
+let
 urls
 =
 [
@@ -3049,7 +3062,7 @@ true
 ;
 for
 (
-var
+let
 url
 of
 urls
@@ -3057,7 +3070,7 @@ urls
 {
 for
 (
-var
+let
 api
 of
 [

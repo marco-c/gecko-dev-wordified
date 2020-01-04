@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 EXPORTED_SYMBOLS
 =
@@ -65,6 +70,12 @@ WebRequestCommon
 "
 ]
 ;
+/
+*
+exported
+WebRequestCommon
+*
+/
 const
 Ci
 =
