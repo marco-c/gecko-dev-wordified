@@ -2816,6 +2816,15 @@ devices
 "
 menu
 item
+if
+(
+clients
+.
+length
+>
+1
+)
+{
 const
 separator
 =
@@ -2858,6 +2867,7 @@ addTargetDevice
 allDevicesLabel
 )
 ;
+}
 devicesPopup
 .
 appendChild
