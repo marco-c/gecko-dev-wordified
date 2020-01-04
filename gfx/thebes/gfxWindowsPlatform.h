@@ -1076,7 +1076,6 @@ aFormatFlags
 )
 override
 ;
-virtual
 bool
 DidRenderingDeviceReset
 (
@@ -1085,6 +1084,12 @@ DeviceResetReason
 aResetReason
 =
 nullptr
+)
+override
+;
+bool
+UpdateForDeviceReset
+(
 )
 override
 ;
