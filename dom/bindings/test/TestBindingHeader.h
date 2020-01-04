@@ -10690,6 +10690,11 @@ TestRenamedNamespace
 {
 }
 ;
+class
+TestProtoObjectHackedNamespace
+{
+}
+;
 }
 /
 /

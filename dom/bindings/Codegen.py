@@ -4473,6 +4473,9 @@ def
 InterfaceObjectProtoGetter
 (
 descriptor
+forXrays
+=
+False
 )
 :
     
@@ -4636,10 +4639,41 @@ isNamespace
 )
 :
         
+if
+(
+forXrays
+or
+            
+not
+descriptor
+.
+interface
+.
+getExtendedAttribute
+(
+"
+ProtoObjectHack
+"
+)
+)
+:
+            
 protoGetter
 =
 "
 JS_GetObjectPrototype
+"
+        
+else
+:
+            
+protoGetter
+=
+"
+binding_detail
+:
+:
+GetHackedNamespaceProtoObject
 "
         
 protoHandleGetter
@@ -4894,6 +4928,10 @@ InterfaceObjectProtoGetter
 self
 .
 descriptor
+                                                      
+forXrays
+=
+True
 )
         
 if
