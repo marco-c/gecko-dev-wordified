@@ -2094,7 +2094,11 @@ Hidden
 Plugin
 "
 NULL
-NULL
+"
+dummy
+.
+plugin
+"
 NULL
 NULL
 NULL
