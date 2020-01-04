@@ -11600,7 +11600,7 @@ shouldInject
 (
 namespace
 name
-restrictions
+allowedContexts
 )
 {
 /
@@ -11629,7 +11629,7 @@ content_child
 "
 |
 |
-restrictions
+allowedContexts
 .
 includes
 (
