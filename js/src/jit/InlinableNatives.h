@@ -419,6 +419,11 @@ _
 RegExpInstanceOptimizable
 )
 \
+_
+(
+GetFirstDollarIndex
+)
+\
 \
 _
 (

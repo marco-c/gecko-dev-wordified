@@ -5684,6 +5684,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineGetFirstDollarIndex
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Object

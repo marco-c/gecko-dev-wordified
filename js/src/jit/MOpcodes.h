@@ -829,6 +829,11 @@ RegExpInstanceOptimizable
 \
 _
 (
+GetFirstDollarIndex
+)
+\
+_
+(
 StringReplace
 )
 \

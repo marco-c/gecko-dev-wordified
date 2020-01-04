@@ -1303,6 +1303,14 @@ ins
 )
 ;
 void
+visitGetFirstDollarIndex
+(
+MGetFirstDollarIndex
+*
+ins
+)
+;
+void
 visitStringReplace
 (
 MStringReplace
