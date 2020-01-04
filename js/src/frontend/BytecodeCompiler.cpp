@@ -4864,14 +4864,14 @@ if
 lazy
 -
 >
-usesArgumentsApplyAndThis
+isLikelyConstructorWrapper
 (
 )
 )
 script
 -
 >
-setUsesArgumentsApplyAndThis
+setLikelyConstructorWrapper
 (
 )
 ;

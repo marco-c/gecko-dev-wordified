@@ -1065,7 +1065,7 @@ nonLazyScript
 )
 -
 >
-usesArgumentsApplyAndThis
+isLikelyConstructorWrapper
 (
 )
 )
@@ -1114,7 +1114,7 @@ lazyScript
 )
 -
 >
-usesArgumentsApplyAndThis
+isLikelyConstructorWrapper
 (
 )
 )

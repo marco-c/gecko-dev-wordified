@@ -28855,7 +28855,7 @@ false
 ;
 p
 .
-usesArgumentsApplyAndThis
+isLikelyConstructorWrapper
 =
 false
 ;
