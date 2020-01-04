@@ -1891,6 +1891,17 @@ RegExp
 .
 prototype
 .
+unicode
+getter
+is
+not
+modified
+*
+*
+RegExp
+.
+prototype
+.
 exec
 is
 an
