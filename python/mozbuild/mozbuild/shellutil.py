@@ -446,6 +446,7 @@ re
 .
 compile
 (
+r
 '
 [
 \
