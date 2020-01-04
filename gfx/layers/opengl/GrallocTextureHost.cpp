@@ -914,6 +914,8 @@ gralloc
 buffer
 is
 nullptr
+\
+n
 "
 )
 ;
@@ -2656,7 +2658,7 @@ sync
 /
 *
 400
-usec
+msec
 *
 /
 )
