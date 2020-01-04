@@ -159,7 +159,6 @@ ifndef
 NO_PP
 /
 *
-\
 *
 Compile
 with
@@ -171,7 +170,6 @@ a
 while
 to
 be
-\
 *
 sure
 that
@@ -181,7 +179,6 @@ on
 it
 get
 added
-\
 *
 outside
 of
@@ -191,7 +188,6 @@ pretty
 printing
 routines
 .
-\
 *
 /
 #

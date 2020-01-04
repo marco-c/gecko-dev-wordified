@@ -242,12 +242,10 @@ RAND_BUF_SIZE
 #
 define
 ERROR_BREAK
-\
 rv
 =
 SECFailure
 ;
-\
 break
 ;
 const

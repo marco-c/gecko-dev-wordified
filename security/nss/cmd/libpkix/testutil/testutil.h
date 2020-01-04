@@ -825,8 +825,10 @@ obj
 {
 \
 PKIX_TEST_EXPECT_NO_ERROR
+\
 (
 PKIX_PL_Object_DecRef
+\
 (
 (
 PKIX_PL_Object
@@ -991,6 +993,7 @@ pkixTestTempResult
 =
 \
 PKIX_PL_Object_DecRef
+\
 (
 (
 PKIX_PL_Object
@@ -1154,6 +1157,7 @@ pkixTestErrorMsg
 =
 \
 PKIX_Error2ASCII
+\
 (
 pkixTestErrorResult
 plContext
@@ -1173,6 +1177,7 @@ pkixTestErrorMsg
 ;
 \
 PKIX_PL_Free
+\
 (
 (
 PKIX_PL_Object
@@ -1211,6 +1216,7 @@ PKIX_ALLOC_ERROR
 {
 \
 PKIX_PL_Object_DecRef
+\
 (
 (
 PKIX_PL_Object
@@ -1435,6 +1441,7 @@ match
 ;
 \
 testEqualsHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1475,6 +1482,7 @@ match
 ;
 \
 testHashcodeHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1517,6 +1525,7 @@ match
 ;
 \
 testEqualsHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1559,6 +1568,7 @@ match
 ;
 \
 testHashcodeHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1602,6 +1612,7 @@ _ToString
 ;
 \
 testToStringHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1618,7 +1629,6 @@ expAscii
 plContext
 )
 ;
-\
 }
 \
 if
@@ -1641,6 +1651,7 @@ _Duplicate
 ;
 \
 testDuplicateHelper
+\
 (
 (
 PKIX_PL_Object
@@ -1650,7 +1661,6 @@ goodObj
 plContext
 )
 ;
-\
 }
 \
 }
@@ -1768,6 +1778,7 @@ arena
 (
 arena
 ?
+\
 (
 PORT_Strcmp
 (

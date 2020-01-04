@@ -697,6 +697,7 @@ n
 )
 \
 do
+\
 {
 \
 /
@@ -742,6 +743,7 @@ again
 /
 \
 }
+\
 while
 (
 0
@@ -1726,14 +1728,6 @@ YY_NUM_RULES
 define
 YY_END_OF_BUFFER
 18
-/
-*
-clang
--
-format
-off
-*
-/
 static
 yyconst
 short
@@ -2783,14 +2777,6 @@ yy_chk
 66
 }
 ;
-/
-*
-clang
--
-format
-on
-*
-/
 static
 yy_state_type
 yy_last_accepting_state
@@ -2955,11 +2941,9 @@ SECFailure
 }
 else
 {
-\
 return
 SECFailure
 ;
-\
 }
 /
 *
@@ -3397,6 +3381,7 @@ yy_current_buffer
 >
 yy_is_interactive
 )
+\
 {
 \
 int
@@ -3441,7 +3426,6 @@ c
 n
 '
 ;
-\
 +
 +
 n
@@ -3514,6 +3498,7 @@ n
 ;
 \
 }
+\
 else
 if
 (
@@ -3533,9 +3518,9 @@ yyin
 =
 0
 )
-&
-&
 \
+&
+&
 ferror
 (
 yyin
@@ -8563,6 +8548,7 @@ n
 )
 \
 do
+\
 {
 \
 /
@@ -8613,6 +8599,7 @@ n
 ;
 \
 }
+\
 while
 (
 0
