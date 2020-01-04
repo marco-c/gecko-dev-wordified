@@ -4375,9 +4375,6 @@ IsFast
 )
 )
 {
-mMaster
--
->
 mSeekTask
 =
 new
@@ -4427,9 +4424,6 @@ IsNextFrame
 )
 )
 {
-mMaster
--
->
 mSeekTask
 =
 new
@@ -4590,9 +4584,6 @@ mMaster
 >
 UpdatePlaybackPositionInternal
 (
-mMaster
--
->
 mSeekTask
 -
 >
@@ -4652,9 +4643,6 @@ seeking
 .
 if
 (
-mMaster
--
->
 mSeekTask
 -
 >
@@ -4707,9 +4695,6 @@ mSeekTaskRequest
 .
 Begin
 (
-mMaster
--
->
 mSeekTask
 -
 >
@@ -4816,9 +4801,6 @@ DisconnectIfExists
 ;
 if
 (
-mMaster
--
->
 mSeekTask
 )
 {
@@ -4832,9 +4814,6 @@ RejectIfExists
 __func__
 )
 ;
-mMaster
--
->
 mSeekTask
 -
 >
@@ -4842,9 +4821,6 @@ Discard
 (
 )
 ;
-mMaster
--
->
 mSeekTask
 =
 nullptr
@@ -5390,9 +5366,6 @@ SeekCompleted
 int64_t
 seekTime
 =
-mMaster
--
->
 mSeekTask
 -
 >
@@ -6060,6 +6033,12 @@ SeekTask
 SeekTaskPromise
 >
 mSeekTaskRequest
+;
+RefPtr
+<
+SeekTask
+>
+mSeekTask
 ;
 }
 ;
@@ -13638,7 +13617,10 @@ up
 .
 if
 (
-mSeekTask
+mState
+=
+=
+DECODER_STATE_SEEKING
 |
 |
 mQueuedSeek
