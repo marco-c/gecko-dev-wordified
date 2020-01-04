@@ -1898,9 +1898,12 @@ IsPrivate
 aInfo
 -
 >
-AppId
+OriginAttributesPtr
 (
 )
+-
+>
+mAppId
 =
 =
 aRec
@@ -1932,9 +1935,12 @@ kAnonymousMask
 aInfo
 -
 >
-IsInBrowserElement
+OriginAttributesPtr
 (
 )
+-
+>
+mInBrowser
 =
 =
 !

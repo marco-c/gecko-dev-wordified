@@ -3067,12 +3067,10 @@ new
 LoadContextInfo
 (
 false
-nsILoadContextInfo
-:
-:
-NO_APP_ID
 false
-false
+OriginAttributes
+(
+)
 )
 ;
 rv
