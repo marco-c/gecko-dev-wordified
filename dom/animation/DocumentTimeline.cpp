@@ -537,6 +537,8 @@ timing
 GetNavigationStartTimeStamp
 (
 )
+-
+mOriginTime
 )
 ;
 return
@@ -1178,7 +1180,11 @@ GetNavigationStartTimeStamp
 (
 )
 +
+(
 aTimeDuration
++
+mOriginTime
+)
 ;
 return
 result
