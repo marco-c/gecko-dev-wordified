@@ -3516,6 +3516,13 @@ RemoveTexturesIfNecessary
 mForwarder
 -
 >
+RemoveCompositablesIfNecessary
+(
+)
+;
+mForwarder
+-
+>
 SendPendingAsyncMessges
 (
 )
