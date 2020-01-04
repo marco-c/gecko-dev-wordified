@@ -714,6 +714,12 @@ MediaMemoryTracker
 :
 sUniqueInstance
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 PRLogModuleInfo
 *
 gStateWatchingLog
@@ -730,6 +736,8 @@ PRLogModuleInfo
 *
 gMediaSampleLog
 ;
+#
+endif
 void
 MediaDecoder
 :
@@ -745,6 +753,12 @@ NS_IsMainThread
 )
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 Log
@@ -777,6 +791,8 @@ MediaSample
 "
 )
 ;
+#
+endif
 }
 NS_IMPL_ISUPPORTS
 (
