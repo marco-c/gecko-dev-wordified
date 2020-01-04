@@ -8972,10 +8972,6 @@ GraphTime
 aStateEnd
 )
 {
-MaybeProduceMemoryReport
-(
-)
-;
 /
 /
 Process
@@ -8990,6 +8986,10 @@ this
 iteration
 .
 RunMessagesInQueue
+(
+)
+;
+MaybeProduceMemoryReport
 (
 )
 ;
