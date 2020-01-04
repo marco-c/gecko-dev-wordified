@@ -95,6 +95,9 @@ TestRunner
 start
 (
 sets
+"
+preferences
+"
 )
 ;
 }

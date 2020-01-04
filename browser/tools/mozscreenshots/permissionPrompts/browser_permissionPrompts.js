@@ -98,6 +98,9 @@ TestRunner
 start
 (
 sets
+"
+permissionPrompts
+"
 )
 ;
 }

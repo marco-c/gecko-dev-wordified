@@ -107,6 +107,9 @@ TestRunner
 start
 (
 sets
+"
+primaryUI
+"
 )
 ;
 }
