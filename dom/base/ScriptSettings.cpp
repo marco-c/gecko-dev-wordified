@@ -3414,9 +3414,6 @@ xpc
 :
 FindExceptionStackForConsoleReport
 (
-cx
-(
-)
 inner
 exn
 )
