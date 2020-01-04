@@ -2943,10 +2943,6 @@ override
 bool
 InitBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 &
 aConfiguration

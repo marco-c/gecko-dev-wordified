@@ -3999,10 +3999,6 @@ TabParent
 :
 InitBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 &
 aConfiguration
@@ -4014,7 +4010,6 @@ ContentParent
 :
 GetBrowserConfiguration
 (
-aURI
 aConfiguration
 )
 ;
@@ -4169,7 +4164,6 @@ NS_WARN_IF
 !
 InitBrowserConfiguration
 (
-spec
 configuration
 )
 )
