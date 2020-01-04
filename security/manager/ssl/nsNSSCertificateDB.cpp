@@ -4527,19 +4527,6 @@ thread
 return
 ;
 }
-nsPSMUITracker
-tracker
-;
-if
-(
-!
-tracker
-.
-isUIForbidden
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIInterfaceRequestor
@@ -4553,6 +4540,7 @@ if
 !
 my_ctx
 )
+{
 my_ctx
 =
 new
@@ -4560,6 +4548,7 @@ PipUIContext
 (
 )
 ;
+}
 /
 /
 This
@@ -4638,8 +4627,10 @@ if
 !
 prompt
 )
+{
 return
 ;
+}
 prompt
 -
 >
@@ -4653,7 +4644,6 @@ get
 )
 )
 ;
-}
 }
 }
 NS_IMETHODIMP

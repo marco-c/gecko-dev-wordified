@@ -1035,6 +1035,7 @@ setPassword
 (
 mSlot
 mUIContext
+locker
 )
 ;
 if
