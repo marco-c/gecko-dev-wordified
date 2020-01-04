@@ -3678,6 +3678,12 @@ if
 initData
 .
 length
+&
+&
+initData
+[
+0
+]
 )
 {
 docShell
