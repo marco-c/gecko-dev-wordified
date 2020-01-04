@@ -440,11 +440,7 @@ DeviceInfoAndroid
 :
 Initialize
 (
-ats
-.
-env
-(
-)
+g_jvm
 )
 ;
 g_java_capturer_class
