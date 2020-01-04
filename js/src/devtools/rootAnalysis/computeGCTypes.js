@@ -1694,8 +1694,6 @@ annotation
 )
 ;
 }
-/
-/
 for
 (
 var
@@ -1705,8 +1703,6 @@ listNonGCPointers
 (
 )
 )
-/
-/
 annotations
 .
 NonGCPointers
