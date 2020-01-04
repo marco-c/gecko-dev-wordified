@@ -47745,10 +47745,6 @@ accounts
 |
 addons
 |
-app
--
-manager
-|
 cache
 |
 config
