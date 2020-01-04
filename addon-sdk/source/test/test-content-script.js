@@ -5916,7 +5916,7 @@ helper
 createWorker
 (
 '
-let
+var
 toplevelScope
 =
 true

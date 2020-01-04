@@ -454,6 +454,17 @@ EditorCleaned
 "
 }
 ;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+EVENTS
+"
+EVENTS
+)
+;
 const
 STRINGS_URI
 =

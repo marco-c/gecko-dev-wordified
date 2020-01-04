@@ -851,7 +851,9 @@ specialpowers
 let
 loader
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -1037,7 +1039,9 @@ chrome
 let
 loader
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -1166,7 +1170,9 @@ onDevice
 var
 cpuLock
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla

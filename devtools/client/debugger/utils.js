@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+var
 XULUtils
 =
 {
@@ -279,7 +279,7 @@ sources
 .
 *
 /
-const
+var
 SourceUtils
 =
 {
