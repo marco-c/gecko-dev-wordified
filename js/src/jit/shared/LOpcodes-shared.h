@@ -1033,6 +1033,11 @@ WrapInt64ToInt32
 \
 _
 (
+ExtendInt32ToInt64
+)
+\
+_
+(
 BooleanToString
 )
 \
