@@ -6631,7 +6631,7 @@ MediaPipelineTransmit
 PipelineListener
 :
 public
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 {
 friend
 class
@@ -7035,7 +7035,7 @@ override
 /
 /
 Implement
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 void
 NotifyRealtimeTrackData
 (

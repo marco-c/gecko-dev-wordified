@@ -17058,7 +17058,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 aListener
 TrackID
@@ -17082,7 +17082,7 @@ listeners
 .
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 listener
 =
@@ -17093,7 +17093,7 @@ listener
 >
 NotifyDirectListenerInstalled
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 :
 :
 InstallationResult
@@ -17109,7 +17109,7 @@ MediaStream
 :
 AddDirectTrackListener
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -17129,7 +17129,7 @@ Message
 MediaStream
 *
 aStream
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -17172,7 +17172,7 @@ mTrackID
 }
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 mListener
 ;
@@ -17206,7 +17206,7 @@ MediaStream
 :
 RemoveDirectTrackListenerImpl
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -17229,7 +17229,7 @@ do
 .
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 listener
 =
@@ -17242,7 +17242,7 @@ MediaStream
 :
 RemoveDirectTrackListener
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -17262,7 +17262,7 @@ Message
 MediaStream
 *
 aStream
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -17301,7 +17301,7 @@ mTrackID
 }
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 mListener
 ;
@@ -18774,7 +18774,7 @@ Length
 j
 )
 {
-MediaStreamDirectListener
+DirectMediaStreamListener
 *
 l
 =
@@ -18841,7 +18841,7 @@ for
 const
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 &
 source
@@ -19067,7 +19067,7 @@ SourceMediaStream
 :
 AddDirectListener
 (
-MediaStreamDirectListener
+DirectMediaStreamListener
 *
 aListener
 )
@@ -19122,7 +19122,7 @@ SourceMediaStream
 :
 RemoveDirectListener
 (
-MediaStreamDirectListener
+DirectMediaStreamListener
 *
 aListener
 )
@@ -19179,7 +19179,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 aListener
 TrackID
@@ -19209,7 +19209,7 @@ isVideo
 ;
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 listener
 =
@@ -19327,7 +19327,7 @@ isVideo
 {
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 *
 sourceListener
@@ -19394,7 +19394,7 @@ listener
 >
 NotifyDirectListenerInstalled
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 :
 :
 InstallationResult
@@ -19490,7 +19490,7 @@ listener
 >
 NotifyDirectListenerInstalled
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 :
 :
 InstallationResult
@@ -19506,7 +19506,7 @@ SourceMediaStream
 :
 RemoveDirectTrackListenerImpl
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -19545,7 +19545,7 @@ i
 const
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 &
 source
@@ -19815,7 +19815,7 @@ for
 (
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 &
 l
