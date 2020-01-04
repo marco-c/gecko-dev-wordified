@@ -743,6 +743,14 @@ clone
 "
 KHRONOS_REPO_URL
 directory
+"
+-
+-
+depth
+"
+"
+1
+"
 ]
 )
     
@@ -962,6 +970,27 @@ walk
 destination
 )
 :
+        
+if
+'
+/
+resources
+'
+in
+dirpath
+:
+          
+continue
+#
+Most
+of
+the
+files
+under
+resources
+directories
+are
+used
         
 for
 f

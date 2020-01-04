@@ -217,7 +217,7 @@ to
 Element
 Interface
 :
-createShadowRoot
+attachShadow
 method
 creates
 new
@@ -356,8 +356,15 @@ s
 =
 host
 .
-createShadowRoot
+attachShadow
 (
+{
+mode
+:
+'
+open
+'
+}
 )
 ;
 assert_true
@@ -366,7 +373,7 @@ s
 instanceof
 ShadowRoot
 '
-createShadowRoot
+attachShadow
 (
 )
 method
