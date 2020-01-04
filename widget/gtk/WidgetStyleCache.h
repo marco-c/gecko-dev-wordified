@@ -260,7 +260,7 @@ aNodeType
 GtkTextDirection
 aDirection
 =
-GTK_TEXT_DIR_LTR
+GTK_TEXT_DIR_NONE
 GtkStateFlags
 aStateFlags
 =
