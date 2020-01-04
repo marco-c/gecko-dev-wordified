@@ -710,7 +710,6 @@ aData
 mCbCrStride
 aStride
 yuvtype
-ROTATE_0
 FILTER_BILINEAR
 )
 ;
