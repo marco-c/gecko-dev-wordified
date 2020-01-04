@@ -2445,6 +2445,7 @@ jit
 MIRType
 type
 )
+const
 {
 if
 (

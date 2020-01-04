@@ -3000,6 +3000,7 @@ jit
 MIRType
 type
 )
+const
 ;
 /
 *

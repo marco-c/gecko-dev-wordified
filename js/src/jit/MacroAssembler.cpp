@@ -1119,8 +1119,16 @@ AnyObjectType
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+types
+-
+>
+getObjectCount
+(
+)
+>
+0
 scratch
 !
 =
@@ -1577,8 +1585,6 @@ bind
 &
 matched
 )
-;
-return
 ;
 }
 template
