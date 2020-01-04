@@ -1380,6 +1380,17 @@ GetTextureClientRecycler
 (
 )
 ;
+bool
+HasTextureClientRecycler
+(
+)
+{
+return
+!
+!
+mTextureClientRecycler
+;
+}
 static
 void
 DumpTextureClient
