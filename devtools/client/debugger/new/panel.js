@@ -172,6 +172,12 @@ target
 }
 )
 ;
+this
+.
+isReady
+=
+true
+;
 return
 this
 ;
