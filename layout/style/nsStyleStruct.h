@@ -20727,6 +20727,8 @@ nsChangeHint_UpdateEffects
 |
 nsChangeHint_UpdateOverflow
 |
+nsChangeHint_UpdateContainingBlock
+|
 nsChangeHint_NeutralChange
 |
 NS_STYLE_HINT_REFLOW
