@@ -477,8 +477,6 @@ updated
 let
 oncePrefChanged
 =
-promise
-.
 defer
 (
 )

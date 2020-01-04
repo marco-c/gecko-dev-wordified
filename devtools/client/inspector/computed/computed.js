@@ -188,6 +188,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 Services
 =
 require
@@ -2829,8 +2843,6 @@ _createViewsPromise
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3250,8 +3262,6 @@ true
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -8500,8 +8510,6 @@ ELEMENT_STYLE
 let
 deferred
 =
-promise
-.
 defer
 (
 )

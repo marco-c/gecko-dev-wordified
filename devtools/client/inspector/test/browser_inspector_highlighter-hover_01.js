@@ -323,8 +323,6 @@ waitForTheBrieflyShowBoxModelTimeout
 let
 deferred
 =
-promise
-.
 defer
 (
 )

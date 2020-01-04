@@ -535,8 +535,6 @@ event
 let
 def
 =
-promise
-.
 defer
 (
 )

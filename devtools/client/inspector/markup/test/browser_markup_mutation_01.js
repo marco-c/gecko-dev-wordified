@@ -2407,8 +2407,6 @@ multiples
 let
 def
 =
-promise
-.
 defer
 (
 )

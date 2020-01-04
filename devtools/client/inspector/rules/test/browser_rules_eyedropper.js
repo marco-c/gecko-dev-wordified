@@ -481,8 +481,6 @@ dropper
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -772,8 +770,6 @@ swatch
 let
 deferred
 =
-promise
-.
 defer
 (
 )

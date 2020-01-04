@@ -241,12 +241,16 @@ logic
 )
 ;
 var
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -1069,8 +1073,6 @@ validatorFn
 let
 def
 =
-promise
-.
 defer
 (
 )

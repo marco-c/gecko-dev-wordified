@@ -982,8 +982,6 @@ messageManager
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -1705,8 +1703,6 @@ untitled
 let
 def
 =
-promise
-.
 defer
 (
 )

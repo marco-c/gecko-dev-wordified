@@ -564,8 +564,6 @@ tab
 let
 def
 =
-promise
-.
 defer
 (
 )

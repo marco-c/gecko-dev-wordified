@@ -735,8 +735,6 @@ click
 let
 deferred
 =
-promise
-.
 defer
 (
 )
