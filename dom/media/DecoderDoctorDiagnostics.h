@@ -137,9 +137,7 @@ DecoderDoctorEvent
 enum
 Domain
 {
-/
-/
-TODO
+eAudioSinkStartup
 }
 mDomain
 ;
