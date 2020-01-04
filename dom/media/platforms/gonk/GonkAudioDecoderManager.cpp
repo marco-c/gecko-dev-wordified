@@ -497,7 +497,6 @@ get
 (
 )
 false
-nullptr
 )
 ;
 if
