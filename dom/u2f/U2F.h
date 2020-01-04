@@ -177,7 +177,7 @@ h
 #
 include
 "
-nsINSSU2FToken
+nsIU2FToken
 .
 h
 "
@@ -298,7 +298,7 @@ TIMEOUT
 typedef
 nsCOMPtr
 <
-nsINSSU2FToken
+nsIU2FToken
 >
 Authenticator
 ;
