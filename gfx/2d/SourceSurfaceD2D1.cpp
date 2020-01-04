@@ -147,10 +147,6 @@ mDC
 (
 aDC
 )
-mDrawTarget
-(
-aDT
-)
 mDevice
 (
 Factory
@@ -159,6 +155,10 @@ Factory
 GetD2D1Device
 (
 )
+)
+mDrawTarget
+(
+aDT
 )
 {
 aImage
