@@ -2748,7 +2748,7 @@ CONTENT_WIDTH_MAX
 9
 ;
 let
-currentLineHeight
+currentContentWidth
 =
 Services
 .
@@ -2763,7 +2763,7 @@ content_width
 "
 )
 ;
-currentLineHeight
+currentContentWidth
 =
 Math
 .
@@ -2775,7 +2775,7 @@ Math
 min
 (
 CONTENT_WIDTH_MAX
-currentLineHeight
+currentContentWidth
 )
 )
 ;
@@ -2822,7 +2822,7 @@ updateControls
 {
 if
 (
-currentLineHeight
+currentContentWidth
 =
 =
 =
@@ -2854,7 +2854,7 @@ disabled
 }
 if
 (
-currentLineHeight
+currentContentWidth
 =
 =
 =
@@ -2893,7 +2893,7 @@ this
 .
 _setContentWidth
 (
-currentLineHeight
+currentContentWidth
 )
 ;
 plusButton
@@ -2928,7 +2928,7 @@ stopPropagation
 ;
 if
 (
-currentLineHeight
+currentContentWidth
 >
 =
 CONTENT_WIDTH_MAX
@@ -2937,7 +2937,7 @@ CONTENT_WIDTH_MAX
 return
 ;
 }
-currentLineHeight
+currentContentWidth
 +
 +
 ;
@@ -2949,7 +2949,7 @@ this
 .
 _setContentWidth
 (
-currentLineHeight
+currentContentWidth
 )
 ;
 }
@@ -2988,7 +2988,7 @@ stopPropagation
 ;
 if
 (
-currentLineHeight
+currentContentWidth
 <
 =
 CONTENT_WIDTH_MIN
@@ -2997,7 +2997,7 @@ CONTENT_WIDTH_MIN
 return
 ;
 }
-currentLineHeight
+currentContentWidth
 -
 -
 ;
@@ -3009,7 +3009,7 @@ this
 .
 _setContentWidth
 (
-currentLineHeight
+currentContentWidth
 )
 ;
 }
