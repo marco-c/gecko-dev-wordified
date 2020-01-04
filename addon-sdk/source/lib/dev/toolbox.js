@@ -435,6 +435,7 @@ label
 tooltip
 icon
 invertIconForLightTheme
+invertIconForDarkTheme
 }
 =
 validate
@@ -480,6 +481,9 @@ icon
 invertIconForLightTheme
 :
 invertIconForLightTheme
+invertIconForDarkTheme
+:
+invertIconForDarkTheme
 isTargetSupported
 :
 target
