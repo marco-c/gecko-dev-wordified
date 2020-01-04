@@ -25438,12 +25438,6 @@ nsRect
 aBoundsOverride
 =
 nullptr
-nsIFrame
-*
-*
-aOutAncestor
-=
-nullptr
 )
 ;
 static
@@ -25466,12 +25460,6 @@ const
 nsRect
 *
 aBoundsOverride
-=
-nullptr
-nsIFrame
-*
-*
-aOutAncestor
 =
 nullptr
 )
@@ -25945,10 +25933,6 @@ const
 nsRect
 *
 aBoundsOverride
-nsIFrame
-*
-*
-aOutAncestor
 )
 ;
 StoreList
