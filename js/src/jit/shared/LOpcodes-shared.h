@@ -1920,6 +1920,11 @@ _
 (
 CheckReturn
 )
+\
+_
+(
+CheckObjCoercible
+)
 #
 endif
 /

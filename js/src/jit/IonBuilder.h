@@ -5062,6 +5062,11 @@ jsop_newtarget
 (
 )
 ;
+bool
+jsop_checkobjcoercible
+(
+)
+;
 /
 *
 Inlining

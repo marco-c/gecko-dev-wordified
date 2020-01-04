@@ -1471,6 +1471,11 @@ _
 (
 CheckReturn
 )
+\
+_
+(
+CheckObjCoercible
+)
 /
 /
 Forward

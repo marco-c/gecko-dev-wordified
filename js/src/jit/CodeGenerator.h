@@ -2704,6 +2704,14 @@ ins
 )
 ;
 void
+visitCheckObjCoercible
+(
+LCheckObjCoercible
+*
+ins
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
