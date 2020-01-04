@@ -3308,11 +3308,7 @@ strstr
 (
 report
 .
-toStringResult
-(
-)
-.
-c_str
+message
 (
 )
 lineAndColumnASCII

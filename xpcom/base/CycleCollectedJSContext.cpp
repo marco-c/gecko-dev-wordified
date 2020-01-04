@@ -3359,6 +3359,9 @@ MozCrashWarningReporter
 (
 JSContext
 *
+const
+char
+*
 JSErrorReport
 *
 )

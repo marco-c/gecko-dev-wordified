@@ -173,6 +173,10 @@ WarningReporter
 JSContext
 *
 cx
+const
+char
+*
+message
 JSErrorReport
 *
 report
