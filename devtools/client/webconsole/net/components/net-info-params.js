@@ -133,6 +133,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+NetInfoParams
+"
 propTypes
 :
 {
@@ -167,11 +172,6 @@ isRequired
 .
 isRequired
 }
-displayName
-:
-"
-NetInfoParams
-"
 render
 (
 )
@@ -226,7 +226,10 @@ params
 .
 forEach
 (
+(
 param
+index
+)
 =
 >
 {
@@ -241,9 +244,7 @@ tr
 {
 key
 :
-param
-.
-name
+index
 }
 DOM
 .
