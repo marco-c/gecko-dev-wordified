@@ -2470,7 +2470,7 @@ GetNextSibling
 {
 nsIAtom
 *
-type
+kidType
 =
 kid
 -
@@ -2481,7 +2481,7 @@ GetType
 ;
 if
 (
-type
+kidType
 =
 =
 nsGkAtoms
@@ -2506,7 +2506,7 @@ PrincipalChildList
 {
 nsIAtom
 *
-type
+grandKidType
 =
 grandKid
 -
@@ -2517,7 +2517,7 @@ GetType
 ;
 if
 (
-type
+grandKidType
 !
 =
 nsGkAtoms
@@ -2526,7 +2526,7 @@ nsGkAtoms
 svgPathGeometryFrame
 &
 &
-type
+grandKidType
 !
 =
 nsGkAtoms
@@ -2545,7 +2545,7 @@ continue
 }
 if
 (
-type
+kidType
 !
 =
 nsGkAtoms
@@ -2554,7 +2554,7 @@ nsGkAtoms
 svgPathGeometryFrame
 &
 &
-type
+kidType
 !
 =
 nsGkAtoms
