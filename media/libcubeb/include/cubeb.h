@@ -2830,7 +2830,7 @@ input
 only
 .
 param
-latency
+latency_frames
 Stream
 latency
 in
