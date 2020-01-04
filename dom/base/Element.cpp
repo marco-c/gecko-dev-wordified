@@ -4117,8 +4117,13 @@ C
 style
 cast
 .
-CSSIntPoint
+auto
 scrollPos
+=
+CSSIntPoint
+:
+:
+Truncate
 (
 mozilla
 :
@@ -4324,6 +4329,9 @@ scrollPos
 +
 =
 CSSIntPoint
+:
+:
+Truncate
 (
 mozilla
 :

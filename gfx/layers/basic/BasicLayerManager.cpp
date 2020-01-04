@@ -6533,6 +6533,9 @@ untransformedDT
 CreateSimilarDrawTarget
 (
 IntSize
+:
+:
+Truncate
 (
 xformBounds
 .

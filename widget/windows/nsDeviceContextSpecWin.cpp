@@ -2013,6 +2013,9 @@ CreateOrNull
 (
 stream
 IntSize
+:
+:
+Truncate
 (
 width
 height

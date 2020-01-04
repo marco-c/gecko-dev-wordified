@@ -982,6 +982,9 @@ Set
 (
 eTurbulenceOffset
 IntPoint
+:
+:
+Truncate
 (
 offset
 .

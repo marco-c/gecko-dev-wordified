@@ -2170,6 +2170,9 @@ IntSize
 size
 =
 IntSize
+:
+:
+Truncate
 (
 bitmap
 -

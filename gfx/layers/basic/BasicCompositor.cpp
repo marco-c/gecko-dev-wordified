@@ -1903,6 +1903,9 @@ gfx
 :
 :
 IntPoint
+:
+:
+Truncate
 (
 aDestRect
 .
@@ -1915,6 +1918,9 @@ gfx
 :
 :
 IntPoint
+:
+:
+Truncate
 (
 aDestRect
 .
@@ -1929,6 +1935,9 @@ gfx
 :
 :
 IntPoint
+:
+:
+Truncate
 (
 aDestRect
 .
@@ -3708,6 +3717,9 @@ dest
 CreateSimilarDrawTarget
 (
 IntSize
+:
+:
+Truncate
 (
 transformBounds
 .

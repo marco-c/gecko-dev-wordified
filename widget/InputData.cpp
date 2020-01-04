@@ -200,6 +200,9 @@ Touch
 (
 mIdentifier
 LayoutDeviceIntPoint
+:
+:
+Truncate
 (
 mScreenPoint
 .
@@ -209,6 +212,9 @@ mScreenPoint
 y
 )
 LayoutDeviceIntPoint
+:
+:
+Truncate
 (
 mRadius
 .
