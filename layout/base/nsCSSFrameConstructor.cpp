@@ -31926,6 +31926,13 @@ NS_NewMathMLmathBlockFrame
 (
 mPresShell
 blockContext
+)
+;
+blockFrame
+-
+>
+AddStateBits
+(
 NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
@@ -32195,7 +32202,7 @@ FCDATA_DECL
 FCDATA_FORCE_NULL_ABSPOS_CONTAINER
 |
 FCDATA_WRAP_KIDS_IN_BLOCKS
-NS_CreateNewMathMLmathBlockFrame
+NS_NewMathMLmathBlockFrame
 )
 ;
 return

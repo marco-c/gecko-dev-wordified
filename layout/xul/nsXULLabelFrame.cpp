@@ -169,7 +169,7 @@ aContext
 it
 -
 >
-SetFlags
+AddStateBits
 (
 NS_BLOCK_FLOAT_MGR
 |

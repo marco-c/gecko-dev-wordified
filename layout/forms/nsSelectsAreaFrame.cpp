@@ -188,7 +188,7 @@ select
 it
 -
 >
-SetFlags
+AddStateBits
 (
 aFlags
 |
