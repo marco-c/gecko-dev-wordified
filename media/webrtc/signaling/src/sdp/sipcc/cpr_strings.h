@@ -91,17 +91,6 @@ define
 cpr_strncasecmp
 _strnicmp
 #
-if
-_MSC_VER
-<
-1900
-#
-define
-snprintf
-_snprintf
-#
-endif
-#
 else
 /
 /
