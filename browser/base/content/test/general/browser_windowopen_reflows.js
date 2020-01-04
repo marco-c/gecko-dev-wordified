@@ -337,6 +337,10 @@ EXPECTED_REFLOWS
 push
 (
 "
+TabsInTitlebar
+.
+_update
+/
 rect
 chrome
 :
