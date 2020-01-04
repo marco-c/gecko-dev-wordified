@@ -8992,7 +8992,7 @@ m
 .
 top
 ;
-GetMargin
+GetXULMargin
 (
 m
 )
@@ -34719,7 +34719,7 @@ margin
 mVScrollbarBox
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -34831,7 +34831,7 @@ margin
 mHScrollbarBox
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )

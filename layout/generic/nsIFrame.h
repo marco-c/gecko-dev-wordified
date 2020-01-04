@@ -21455,7 +21455,7 @@ aBorderAndPadding
 ;
 virtual
 nsresult
-GetMargin
+GetXULMargin
 (
 nsMargin
 &

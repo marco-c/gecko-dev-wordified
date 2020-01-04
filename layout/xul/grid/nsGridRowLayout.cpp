@@ -989,7 +989,7 @@ ourMargin
 aBox
 -
 >
-GetMargin
+GetXULMargin
 (
 ourMargin
 )

@@ -1036,7 +1036,7 @@ GetRect
 box
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )

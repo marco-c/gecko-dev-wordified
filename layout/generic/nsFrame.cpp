@@ -59766,7 +59766,7 @@ margin
 0
 )
 ;
-GetMargin
+GetXULMargin
 (
 margin
 )

@@ -796,7 +796,7 @@ nsresult
 nsScrollbarFrame
 :
 :
-GetMargin
+GetXULMargin
 (
 nsMargin
 &
@@ -939,7 +939,7 @@ rv
 nsBox
 :
 :
-GetMargin
+GetXULMargin
 (
 aMargin
 )

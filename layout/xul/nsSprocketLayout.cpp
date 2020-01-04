@@ -3061,7 +3061,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -5249,7 +5249,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -6200,7 +6200,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -7236,7 +7236,7 @@ margin
 aChild
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -9180,7 +9180,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )

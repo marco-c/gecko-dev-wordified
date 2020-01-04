@@ -1859,7 +1859,7 @@ nsresult
 nsBox
 :
 :
-GetMargin
+GetXULMargin
 (
 nsMargin
 &
@@ -4808,7 +4808,7 @@ margin
 aChild
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
