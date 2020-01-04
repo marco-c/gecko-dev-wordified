@@ -1595,6 +1595,9 @@ nullptr
 return
 false
 ;
+if
+(
+!
 gc
 .
 zones
@@ -1607,7 +1610,13 @@ get
 (
 )
 )
+)
+return
+false
 ;
+if
+(
+!
 atomsZone
 -
 >
@@ -1621,6 +1630,9 @@ get
 (
 )
 )
+)
+return
+false
 ;
 atomsCompartment
 -
