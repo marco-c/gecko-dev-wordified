@@ -585,7 +585,7 @@ Result
 }
 ;
 class
-NonMemMovableChecker
+NonMemMovableTemplateArgChecker
 :
 public
 MatchFinder
@@ -741,8 +741,8 @@ noDuplicateRefCntMemberChecker
 NeedsNoVTableTypeChecker
 needsNoVTableTypeChecker
 ;
-NonMemMovableChecker
-nonMemMovableChecker
+NonMemMovableTemplateArgChecker
+nonMemMovableTemplateArgChecker
 ;
 ExplicitImplicitChecker
 explicitImplicitChecker
@@ -4850,7 +4850,7 @@ arg
 AST_MATCHER
 (
 CXXRecordDecl
-needsMemMovable
+needsMemMovableTemplateArg
 )
 {
 return
@@ -6945,7 +6945,7 @@ classTemplateSpecializationDecl
 (
 allOf
 (
-needsMemMovable
+needsMemMovableTemplateArg
 (
 )
 hasAnyTemplateArgument
@@ -6967,7 +6967,7 @@ specialization
 "
 )
 &
-nonMemMovableChecker
+nonMemMovableTemplateArgChecker
 )
 ;
 astMatcher
@@ -10131,7 +10131,7 @@ void
 DiagnosticsMatcher
 :
 :
-NonMemMovableChecker
+NonMemMovableTemplateArgChecker
 :
 :
 run
@@ -10314,14 +10314,7 @@ NonMemMovable
 .
 hasEffectiveAnnotation
 (
-args
-[
-i
-]
-.
-getAsType
-(
-)
+argType
 )
 )
 {
