@@ -14188,6 +14188,8 @@ GetDecodedAudioDuration
 )
 <
 EXHAUSTED_DATA_MARGIN_USECS
+*
+mPlaybackRate
 ;
 }
 bool
@@ -14211,11 +14213,6 @@ IsVideoDecoding
 )
 &
 &
-static_cast
-<
-uint32_t
->
-(
 VideoQueue
 (
 )
@@ -14223,9 +14220,10 @@ VideoQueue
 GetSize
 (
 )
-)
 <
 LOW_VIDEO_FRAMES
+*
+mPlaybackRate
 ;
 }
 bool
