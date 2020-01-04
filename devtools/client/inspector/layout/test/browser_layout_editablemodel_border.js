@@ -291,7 +291,10 @@ border
 yield
 selectNode
 (
-node
+"
+#
+div1
+"
 inspector
 )
 ;
