@@ -2739,6 +2739,9 @@ aDoPurge
 #
 ifdef
 HAVE_JEMALLOC_STATS
+#
+ifndef
+MOZ_JEMALLOC4
 if
 (
 aDoPurge
@@ -2761,6 +2764,8 @@ jemalloc_purge_freed_pages
 )
 ;
 }
+#
+endif
 #
 endif
 task_basic_info

@@ -19074,6 +19074,7 @@ Unroot
 nsCycleCollector_dispatchDeferredDeletion
 (
 false
+true
 )
 ;
 timeLog
@@ -23446,6 +23447,8 @@ nsCycleCollector_dispatchDeferredDeletion
 (
 bool
 aContinuation
+bool
+aPurge
 )
 {
 CycleCollectedJSRuntime
@@ -23470,6 +23473,7 @@ rt
 DispatchDeferredDeletion
 (
 aContinuation
+aPurge
 )
 ;
 }

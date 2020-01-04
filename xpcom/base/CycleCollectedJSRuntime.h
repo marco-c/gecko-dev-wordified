@@ -1573,6 +1573,10 @@ DispatchDeferredDeletion
 (
 bool
 aContinuation
+bool
+aPurge
+=
+false
 )
 =
 0
