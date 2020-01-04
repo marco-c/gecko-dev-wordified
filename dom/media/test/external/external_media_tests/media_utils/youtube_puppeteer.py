@@ -2661,6 +2661,15 @@ duration
                 
 '
 [
+buffered
+.
+length
+bufferedRanges
+]
+'
+                
+'
+[
 played
 .
 length
@@ -2828,15 +2837,19 @@ current_time
 duration
 '
 '
-raw_played_ranges
+raw_buffered_ranges
 '
                       
+'
+raw_played_ranges
+'
 '
 total_frames
 '
 '
 dropped_frames
 '
+                      
 '
 corrupted_frames
 '
