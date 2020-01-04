@@ -316,7 +316,7 @@ include
 "
 asmjs
 /
-AsmJS
+WasmModule
 .
 h
 "
@@ -26962,7 +26962,7 @@ if
 (
 is
 <
-AsmJSModuleObject
+WasmModuleObject
 >
 (
 )
@@ -26970,7 +26970,7 @@ AsmJSModuleObject
 {
 as
 <
-AsmJSModuleObject
+WasmModuleObject
 >
 (
 )
