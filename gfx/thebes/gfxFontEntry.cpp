@@ -1164,8 +1164,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+UniquePtr
+<
 uint8_t
-*
+[
+]
+>
 uvsData
 ;
 unsigned
@@ -1235,7 +1239,10 @@ rv
 }
 mUVSData
 =
+Move
+(
 uvsData
+)
 ;
 }
 return
@@ -1270,6 +1277,10 @@ gfxFontUtils
 MapUVSToGlyphFormat14
 (
 mUVSData
+.
+get
+(
+)
 aCh
 aVS
 )
