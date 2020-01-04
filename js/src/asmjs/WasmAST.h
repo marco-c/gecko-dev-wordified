@@ -2990,9 +2990,12 @@ false
 type_
 (
 ValType
+(
+TypeCode
 :
 :
 Limit
+)
 )
 {
 }

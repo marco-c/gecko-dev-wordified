@@ -320,9 +320,12 @@ ValType
 prev
 =
 ValType
+(
+TypeCode
 :
 :
 Limit
+)
 ;
 for
 (
