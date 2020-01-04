@@ -375,6 +375,12 @@ AudioNodeStream
 :
 :
 EXTERNAL_OUTPUT
+aContext
+-
+>
+Graph
+(
+)
 )
 ;
 mPort
