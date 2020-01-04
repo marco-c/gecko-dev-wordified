@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsWeakPtr
+nsIPrincipal
 .
 h
 "
@@ -438,8 +438,11 @@ mFormatConv
 bool
 mPrivateData
 ;
-nsWeakPtr
-mRequestingNode
+nsCOMPtr
+<
+nsIPrincipal
+>
+mRequestingPrincipal
 ;
 nsContentPolicyType
 mContentPolicyType

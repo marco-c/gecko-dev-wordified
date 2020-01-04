@@ -180,7 +180,7 @@ class
 nsIThread
 ;
 class
-nsINode
+nsIPrincipal
 ;
 /
 /
@@ -1870,9 +1870,9 @@ nsIURI
 pSourceURI
 uint32_t
 aContentPolicyType
-nsINode
+nsIPrincipal
 *
-aRequestingNode
+aRequestingPrincipal
 )
 ;
 NS_DECL_ISUPPORTS
