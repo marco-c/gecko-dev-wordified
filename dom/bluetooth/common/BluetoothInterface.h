@@ -3544,8 +3544,10 @@ SendIndication
 (
 int
 aServerIf
-int
-aAttributeHandle
+const
+BluetoothAttributeHandle
+&
+aCharacteristicHandle
 int
 aConnId
 const
@@ -3562,10 +3564,7 @@ aConfirm
 true
 :
 indication
-*
-/
-/
-*
+;
 false
 :
 notification
