@@ -796,6 +796,16 @@ mParentStack
 )
 ;
 }
+public
+FolderType
+getOpenFolderType
+(
+)
+{
+return
+openFolderType
+;
+}
 /
 *
 *
