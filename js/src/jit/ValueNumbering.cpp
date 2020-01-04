@@ -836,7 +836,7 @@ def
 {
 set_
 .
-rekeyInPlace
+replaceKey
 (
 p
 def
