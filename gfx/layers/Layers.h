@@ -14579,7 +14579,9 @@ RenderTargetIntRect
 :
 FromUnknownRect
 (
-mVisibleRegion
+GetEffectiveVisibleRegion
+(
+)
 .
 GetBounds
 (
