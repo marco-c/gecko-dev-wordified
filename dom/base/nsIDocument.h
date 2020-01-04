@@ -15645,6 +15645,12 @@ float
 aY
 )
 ;
+Element
+*
+GetScrollingElement
+(
+)
+;
 /
 /
 QuerySelector
