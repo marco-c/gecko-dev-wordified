@@ -831,7 +831,6 @@ site
 from
 the
 list
-var
 uri
 =
 Services
@@ -925,7 +924,6 @@ org
 )
 )
 ;
-var
 uri
 =
 Services
@@ -1497,7 +1495,6 @@ org
 )
 )
 ;
-var
 uri
 =
 Services
@@ -2039,7 +2036,6 @@ IS_PRIVATE
 )
 )
 ;
-var
 uri
 =
 Services

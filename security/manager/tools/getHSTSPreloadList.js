@@ -1544,7 +1544,6 @@ RedirectAndAuthStopper
 )
 {
 }
-;
 RedirectAndAuthStopper
 .
 prototype

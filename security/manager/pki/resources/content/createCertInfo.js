@@ -184,10 +184,8 @@ default
 var
 alreadyClosed
 =
-new
-Object
-(
-)
+{
+}
 ;
 keygenThread
 .
