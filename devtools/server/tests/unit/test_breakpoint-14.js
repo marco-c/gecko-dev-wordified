@@ -784,9 +784,9 @@ stepOver
 }
 )
 ;
-gDebuggee
+Cu
 .
-eval
+evalInSandbox
 (
 "
 var
@@ -899,11 +899,12 @@ b
 \
 n
 "
-)
-;
 /
 /
 line0
 +
 7
+gDebuggee
+)
+;
 }

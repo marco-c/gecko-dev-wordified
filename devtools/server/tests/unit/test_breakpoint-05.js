@@ -44,7 +44,7 @@ code
 in
 a
 child
-scrip
+script
 *
 will
 skip
@@ -441,9 +441,9 @@ resume
 }
 )
 ;
-gDebuggee
+Cu
 .
-eval
+evalInSandbox
 (
 "
 var
@@ -552,11 +552,12 @@ foo
 \
 n
 "
-)
-;
 /
 /
 line0
 +
 7
+gDebuggee
+)
+;
 }

@@ -444,9 +444,9 @@ resume
 }
 )
 ;
-gDebuggee
+Cu
 .
-eval
+evalInSandbox
 (
 "
 var
@@ -635,11 +635,11 @@ foo
 \
 n
 "
-)
-;
 /
 /
 line0
 +
 13
+gDebuggee
+)
 }

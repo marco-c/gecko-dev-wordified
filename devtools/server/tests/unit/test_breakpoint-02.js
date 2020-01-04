@@ -337,9 +337,9 @@ gCallback
 }
 )
 ;
-gDebuggee
+Cu
 .
-eval
+evalInSandbox
 (
 "
 var
@@ -386,11 +386,12 @@ b
 \
 n
 "
-)
-;
 /
 /
 line0
 +
 3
+gDebuggee
+)
+;
 }
