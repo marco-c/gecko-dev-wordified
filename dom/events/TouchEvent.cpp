@@ -1373,8 +1373,17 @@ flag
 )
 {
 #
-ifdef
+if
+defined
+(
 XP_WIN
+)
+|
+|
+MOZ_WIDGET_GTK
+=
+=
+3
 static
 bool
 sDidCheckTouchDeviceSupport
@@ -1391,6 +1400,8 @@ false
 /
 On
 Windows
+and
+GTK3
 we
 auto
 -

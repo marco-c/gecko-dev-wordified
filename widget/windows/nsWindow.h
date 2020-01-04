@@ -1807,15 +1807,10 @@ override
 ;
 virtual
 void
-ConfigureAPZCTreeManager
-(
-)
-override
-;
-void
 RegisterTouchWindow
 (
 )
+override
 ;
 virtual
 nsresult
