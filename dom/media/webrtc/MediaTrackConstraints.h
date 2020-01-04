@@ -1676,7 +1676,10 @@ NormalizedConstraints
 aOthers
 )
 ;
-nsTArray
+std
+:
+:
+vector
 <
 NormalizedConstraintSet
 >
@@ -2195,7 +2198,7 @@ c
 .
 mAdvanced
 .
-Length
+size
 (
 )
 )
