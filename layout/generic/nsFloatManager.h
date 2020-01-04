@@ -665,11 +665,6 @@ coordinate
 space
 .
 *
-returns
-previous
-writing
-mode
-*
 /
 void
 Translate

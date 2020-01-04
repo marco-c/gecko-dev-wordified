@@ -139,16 +139,6 @@ group
 by
 nsStyleXXX
 struct
-/
-/
-Indices
-into
-border
-/
-padding
-/
-margin
-arrays
 namespace
 mozilla
 {
