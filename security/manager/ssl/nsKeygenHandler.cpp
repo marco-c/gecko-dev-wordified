@@ -2509,11 +2509,8 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-char
-*
+UniquePORTString
 keystring
-=
-nullptr
 ;
 char
 *
@@ -3660,6 +3657,8 @@ ascii
 /
 keystring
 =
+UniquePORTString
+(
 BTOA_DataToAscii
 (
 signedItem
@@ -3668,6 +3667,7 @@ data
 signedItem
 .
 len
+)
 )
 ;
 if
@@ -3687,12 +3687,11 @@ loser
 CopyASCIItoUTF16
 (
 keystring
-aOutPublicKey
-)
-;
-free
+.
+get
 (
-keystring
+)
+aOutPublicKey
 )
 ;
 rv
