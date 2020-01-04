@@ -25598,11 +25598,6 @@ inputVal
 )
 ;
 }
-/
-/
-Down
-Arrow
-key
 else
 if
 (
@@ -25612,6 +25607,11 @@ direction
 HISTORY_FORWARD
 )
 {
+/
+/
+Down
+Arrow
+key
 if
 (
 this
