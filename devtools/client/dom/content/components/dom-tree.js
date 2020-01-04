@@ -516,6 +516,9 @@ props
 defaultRep
 :
 Grip
+cropLimit
+:
+50
 }
 )
 )
