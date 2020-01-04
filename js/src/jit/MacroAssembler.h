@@ -10687,9 +10687,9 @@ Register
 dest
 )
 {
-loadPtr
+movePtr
 (
-AbsoluteAddress
+ImmPtr
 (
 GetJitContext
 (
@@ -10699,7 +10699,7 @@ GetJitContext
 runtime
 -
 >
-addressOfJSContext
+getJSContext
 (
 )
 )

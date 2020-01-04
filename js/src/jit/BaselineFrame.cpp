@@ -1081,7 +1081,7 @@ JSContext
 *
 cx
 =
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 ;

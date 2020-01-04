@@ -4702,7 +4702,7 @@ JSContext
 *
 cx
 =
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 ;
@@ -16428,7 +16428,7 @@ more
 InlineFrameIterator
 parent
 (
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 this
@@ -16829,7 +16829,7 @@ JSContext
 *
 cx
 =
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 ;
@@ -17386,7 +17386,7 @@ nargs
 ;
 unaliasedForEachActual
 (
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 d
@@ -17590,7 +17590,7 @@ JitFrame_IonJS
 InlineFrameIterator
 frames
 (
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 this
@@ -18161,7 +18161,7 @@ info
 InlineFrameIterator
 inlineFrames
 (
-GetJSContextFromJitCode
+GetJSContextFromMainThread
 (
 )
 this
