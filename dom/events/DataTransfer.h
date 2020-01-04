@@ -601,9 +601,9 @@ for
 non
 -
 clipboard
+/
+/
 operations
-/
-/
 or
 if
 access
@@ -654,6 +654,7 @@ nsISupports
 GetParentObject
 (
 )
+const
 {
 return
 mParent
@@ -816,6 +817,7 @@ DOMStringList
 Types
 (
 )
+const
 ;
 void
 GetData
@@ -913,6 +915,7 @@ uint32_t
 MozItemCount
 (
 )
+const
 {
 return
 mItems
@@ -1057,6 +1060,7 @@ bool
 MozUserCancelled
 (
 )
+const
 {
 return
 mUserCancelled
@@ -1081,6 +1085,7 @@ Element
 GetDragTarget
 (
 )
+const
 {
 return
 mDragTarget
@@ -1114,10 +1119,10 @@ added
 or
 existing
 data
+/
+/
 removed
 .
-/
-/
 Only
 the
 dropEffect
@@ -1197,6 +1202,8 @@ aIndex
 into
 an
 nsITransferable
+/
+/
 object
 .
 already_AddRefed
@@ -1248,6 +1255,7 @@ uint32_t
 *
 aLength
 )
+const
 ;
 /
 /
@@ -1360,6 +1368,7 @@ int32_t
 *
 aY
 )
+const
 {
 *
 aX
@@ -1438,6 +1447,7 @@ nsAString
 &
 aOutFormat
 )
+const
 ;
 /
 /
