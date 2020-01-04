@@ -424,7 +424,7 @@ getService
 (
 Ci
 .
-nsIWebContentHandlerRegistrar
+nsIWebContentConverterService
 )
 ;
 registrar
