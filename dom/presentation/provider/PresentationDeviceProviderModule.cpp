@@ -236,6 +236,12 @@ kPresentationDeviceProviderCategories
 if
 defined
 (
+MOZ_WIDGET_COCOA
+)
+|
+|
+defined
+(
 MOZ_WIDGET_ANDROID
 )
 |
