@@ -462,6 +462,10 @@ sGMPDecoderEnabled
 ;
 static
 bool
+sFFmpegDecoderEnabled
+;
+static
+bool
 sEnableFuzzingWrapper
 ;
 static
