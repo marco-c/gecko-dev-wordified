@@ -109,7 +109,6 @@ strict
 ;
 const
 {
-Cc
 Ci
 Cu
 }
@@ -126,7 +125,6 @@ const
 Utils
 :
 WebConsoleUtils
-CONSOLE_WORKER_IDS
 }
 =
 require
@@ -2077,10 +2075,8 @@ errorDocLink
 .
 textContent
 =
-"
 [
-"
-+
+{
 l10n
 .
 getStr
@@ -2089,10 +2085,8 @@ getStr
 webConsoleMoreInfoLabel
 "
 )
-+
-"
+}
 ]
-"
 ;
 errorDocLink
 .
@@ -2165,11 +2159,9 @@ foo
 if
 (
 typeof
-(
 response
 .
 exception
-)
 =
 =
 =
@@ -2737,6 +2729,7 @@ executeString
 )
 {
 return
+null
 ;
 }
 let
@@ -6406,6 +6399,14 @@ clearCompletion
 }
 /
 *
+eslint
+-
+disable
+complexity
+*
+/
+/
+*
 *
 *
 The
@@ -7537,7 +7538,6 @@ nsIDOMKeyEvent
 .
 DOM_VK_RIGHT
 :
-{
 let
 cursorAtTheEnd
 =
@@ -7649,7 +7649,6 @@ clearCompletion
 }
 break
 ;
-}
 case
 Ci
 .
@@ -7739,6 +7738,14 @@ break
 ;
 }
 }
+/
+*
+eslint
+-
+enable
+complexity
+*
+/
 /
 *
 *
