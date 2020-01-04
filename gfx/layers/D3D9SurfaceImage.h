@@ -373,6 +373,14 @@ aClient
 )
 override
 ;
+already_AddRefed
+<
+IDirect3DSurface9
+>
+GetD3D9Surface
+(
+)
+;
 virtual
 bool
 IsValid
