@@ -1044,11 +1044,6 @@ GridColumnEnd
 )
 COMPUTED_STYLE_PROP
 (
-grid_column_gap
-GridColumnGap
-)
-COMPUTED_STYLE_PROP
-(
 grid_column_start
 GridColumnStart
 )
@@ -1056,11 +1051,6 @@ COMPUTED_STYLE_PROP
 (
 grid_row_end
 GridRowEnd
-)
-COMPUTED_STYLE_PROP
-(
-grid_row_gap
-GridRowGap
 )
 COMPUTED_STYLE_PROP
 (
