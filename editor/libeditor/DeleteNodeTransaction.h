@@ -151,12 +151,12 @@ h
 class
 nsEditor
 ;
-class
-nsRangeUpdater
-;
 namespace
 mozilla
 {
+class
+RangeUpdater
+;
 /
 *
 *
@@ -206,7 +206,7 @@ aEditor
 nsINode
 *
 aNode
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )
@@ -299,7 +299,7 @@ Range
 updater
 object
 .
-nsRangeUpdater
+RangeUpdater
 *
 mRangeUpdater
 ;

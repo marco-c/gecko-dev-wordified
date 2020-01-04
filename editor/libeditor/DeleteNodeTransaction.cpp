@@ -109,7 +109,7 @@ h
 "
 /
 /
-nsRangeUpdater
+RangeUpdater
 #
 include
 "
@@ -205,7 +205,7 @@ aEditor
 nsINode
 *
 aNode
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )

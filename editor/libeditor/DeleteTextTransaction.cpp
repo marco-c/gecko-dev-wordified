@@ -191,7 +191,7 @@ uint32_t
 aOffset
 uint32_t
 aNumCharsToDelete
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )

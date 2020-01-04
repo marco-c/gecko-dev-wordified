@@ -151,12 +151,12 @@ h
 class
 nsEditor
 ;
-class
-nsRangeUpdater
-;
 namespace
 mozilla
 {
+class
+RangeUpdater
+;
 /
 *
 *
@@ -254,7 +254,7 @@ uint32_t
 aOffset
 uint32_t
 aNumCharsToDelete
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )
@@ -376,7 +376,7 @@ Range
 updater
 object
 .
-nsRangeUpdater
+RangeUpdater
 *
 mRangeUpdater
 ;
