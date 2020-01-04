@@ -44385,8 +44385,7 @@ report
 ParseError
 false
 pn
-JSMSG_BAD_GENERATOR_SYNTAX
-js_yield_str
+JSMSG_BAD_YIELD_SYNTAX
 )
 ;
 return
@@ -52509,17 +52508,6 @@ SyntaxParseHandler
 NodeFailure
 ;
 }
-static
-const
-char
-js_generator_str
-[
-]
-=
-"
-generator
-"
-;
 #
 endif
 /
@@ -54028,8 +54016,7 @@ report
 ParseError
 false
 argNode
-JSMSG_BAD_GENERATOR_SYNTAX
-js_yield_str
+JSMSG_BAD_YIELD_SYNTAX
 )
 ;
 return
@@ -54120,7 +54107,6 @@ ParseError
 false
 argNode
 JSMSG_BAD_GENERATOR_SYNTAX
-js_generator_str
 )
 ;
 return
@@ -54158,7 +54144,6 @@ ParseError
 false
 argNode
 JSMSG_BAD_GENERATOR_SYNTAX
-js_generator_str
 )
 ;
 return
@@ -60268,7 +60253,6 @@ null
 (
 )
 JSMSG_BAD_GENERATOR_SYNTAX
-js_generator_str
 )
 ;
 return
@@ -60337,7 +60321,6 @@ null
 (
 )
 JSMSG_BAD_GENERATOR_SYNTAX
-js_generator_str
 )
 ;
 return
@@ -60679,7 +60662,6 @@ null
 (
 )
 JSMSG_BAD_GENERATOR_SYNTAX
-js_generator_str
 )
 ;
 return
