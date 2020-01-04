@@ -13170,9 +13170,6 @@ e
 .
 g
 .
-hgtool
-'
-s
 buildbot
 props
 json

@@ -592,13 +592,6 @@ mercurial
 update
     
 #
-hgtool
-uses
-mercurial
-share
-out
-    
-#
 tag
 -
 release

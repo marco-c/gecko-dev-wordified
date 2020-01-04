@@ -184,16 +184,6 @@ base
 .
 vcs
 .
-hgtool
-import
-HgtoolVCS
-from
-mozharness
-.
-base
-.
-vcs
-.
 gittool
 import
 GittoolVCS
@@ -226,12 +216,6 @@ hg
 '
 :
 MercurialVCS
-    
-'
-hgtool
-'
-:
-HgtoolVCS
     
 '
 gittool
