@@ -1229,10 +1229,6 @@ MP4Demuxer
 :
 NotifyDataArrived
 (
-uint32_t
-aLength
-int64_t
-aOffset
 )
 {
 for
