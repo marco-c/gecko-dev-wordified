@@ -151,7 +151,7 @@ include
 "
 js
 /
-TraceableHashTable
+GCHashTable
 .
 h
 "
@@ -2148,8 +2148,10 @@ l
 }
 }
 ;
-typedef
-TraceableHashMap
+using
+FieldInfoHash
+=
+GCHashMap
 <
 JSFlatString
 *
@@ -2157,7 +2159,6 @@ FieldInfo
 FieldHashPolicy
 SystemAllocPolicy
 >
-FieldInfoHash
 ;
 void
 TraceFieldInfoHash
