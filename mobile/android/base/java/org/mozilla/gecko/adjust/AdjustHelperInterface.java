@@ -164,6 +164,14 @@ appToken
 )
 ;
 void
+setEnabled
+(
+final
+boolean
+isEnabled
+)
+;
+void
 onReceive
 (
 final
