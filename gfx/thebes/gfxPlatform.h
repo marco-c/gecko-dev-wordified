@@ -2830,7 +2830,7 @@ OffMainThreadCompositingEnabled
 )
 ;
 void
-UpdateCanUseHardwareVideoDecoding
+UpdateCanUseHardareVideoDecoding
 (
 )
 ;
