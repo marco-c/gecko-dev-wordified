@@ -3823,7 +3823,7 @@ true
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5274,7 +5274,7 @@ hasGetterOrSetter
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5339,7 +5339,7 @@ toObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5378,7 +5378,7 @@ hasGetterOrSetter
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5423,7 +5423,7 @@ object
 wrapper
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9525,7 +9525,7 @@ address
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9591,7 +9591,7 @@ address
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9719,7 +9719,7 @@ address
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9916,7 +9916,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -9977,7 +9977,7 @@ wrapper
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12610,7 +12610,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12702,7 +12702,7 @@ wrapper
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12743,7 +12743,7 @@ obj
 XrayForWrappedNative
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

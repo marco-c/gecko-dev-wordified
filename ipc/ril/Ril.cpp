@@ -880,7 +880,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1128,7 +1128,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1194,7 +1194,7 @@ Scalar
 Uint8Clamped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1246,7 +1246,7 @@ if
 isShared
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1278,7 +1278,7 @@ size
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "
@@ -1305,7 +1305,7 @@ if
 raw
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCx
 "

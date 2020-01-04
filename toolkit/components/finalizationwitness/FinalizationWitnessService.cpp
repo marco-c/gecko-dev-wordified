@@ -833,7 +833,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -908,7 +908,7 @@ event
 nullptr
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

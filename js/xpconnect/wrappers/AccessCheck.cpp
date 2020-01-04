@@ -1709,7 +1709,7 @@ true
 /
 Badness
 .
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

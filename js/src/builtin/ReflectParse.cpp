@@ -20828,7 +20828,7 @@ Module
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21288,7 +21288,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

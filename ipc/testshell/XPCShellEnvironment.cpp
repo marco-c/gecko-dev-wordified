@@ -848,7 +848,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

@@ -5293,7 +5293,7 @@ if
 wrapped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7655,7 +7655,7 @@ if
 unwrapped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -8262,7 +8262,7 @@ Value
 vp
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11391,7 +11391,7 @@ if
 unwrapped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

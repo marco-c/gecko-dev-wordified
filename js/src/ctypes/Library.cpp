@@ -649,7 +649,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -698,7 +698,7 @@ toString
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -866,7 +866,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1479,7 +1479,7 @@ ctypesObj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1516,7 +1516,7 @@ isUndefined
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1625,7 +1625,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1651,7 +1651,7 @@ length
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1757,7 +1757,7 @@ obj
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1786,7 +1786,7 @@ if
 library
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1943,7 +1943,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1973,7 +1973,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2157,7 +2157,7 @@ toObjectOrNull
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2314,7 +2314,7 @@ if
 fnptr
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2390,7 +2390,7 @@ if
 data
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

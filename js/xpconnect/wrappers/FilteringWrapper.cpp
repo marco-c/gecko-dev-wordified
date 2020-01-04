@@ -1582,7 +1582,7 @@ result
 )
 const
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -1638,7 +1638,7 @@ result
 )
 const
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

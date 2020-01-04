@@ -5109,7 +5109,7 @@ get
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5212,7 +5212,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6847,7 +6847,7 @@ st
 0
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6918,7 +6918,7 @@ if
 contents
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7820,7 +7820,7 @@ if
 str
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11483,7 +11483,7 @@ sc
 readLineBuf
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11495,6 +11495,8 @@ set
 You
 must
 initially
+"
+"
 call
 readlineBuf
 with
@@ -11741,7 +11743,7 @@ return
 true
 ;
 }
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11804,7 +11806,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -11977,7 +11979,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12382,7 +12384,7 @@ code
 128
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12490,7 +12492,7 @@ startTimingMutator
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -12599,7 +12601,7 @@ gc_ms
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -13510,7 +13512,7 @@ length
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -16540,7 +16542,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -16659,7 +16661,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -16986,7 +16988,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -17747,7 +17749,7 @@ length
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -18219,7 +18221,7 @@ Value
 vp
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -18948,7 +18950,7 @@ JSCLASS_IS_GLOBAL
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19623,7 +19625,7 @@ CanUseExtraThreads
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19670,7 +19672,7 @@ isString
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -19710,7 +19712,7 @@ runtime
 runningOOMTest
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20022,7 +20024,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20124,7 +20126,7 @@ isObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20287,7 +20289,7 @@ t_secs
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20327,7 +20329,7 @@ duration
 MAX_TIMEOUT_INTERVAL
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21132,7 +21134,7 @@ t
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21161,7 +21163,7 @@ t
 MAX_TIMEOUT_INTERVAL
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21195,7 +21197,7 @@ t
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21288,7 +21290,7 @@ length
 2
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21369,7 +21371,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21455,7 +21457,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21546,7 +21548,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21767,7 +21769,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21817,7 +21819,7 @@ JSFunction
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -22032,7 +22034,7 @@ sc
 lastWarningEnabled
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -22122,7 +22124,7 @@ sc
 lastWarningEnabled
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -22197,7 +22199,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -22474,7 +22476,7 @@ return
 true
 ;
 }
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -24048,7 +24050,7 @@ CanUseExtraThreads
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -24481,7 +24483,7 @@ length
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -24526,7 +24528,7 @@ ownedChars
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -24667,7 +24669,7 @@ if
 token
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -25001,7 +25003,7 @@ length
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -25046,7 +25048,7 @@ ownedChars
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -25184,7 +25186,7 @@ if
 token
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -28071,7 +28073,7 @@ cx
 isWorker
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -28774,7 +28776,7 @@ true
 ;
 #
 else
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -28974,7 +28976,7 @@ true
 ;
 #
 else
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -29978,7 +29980,7 @@ addReference
 }
 else
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -30710,7 +30712,7 @@ rt
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -32418,7 +32420,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33199,7 +33201,7 @@ rval
 ;
 }
 }
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -33250,7 +33252,7 @@ length
 1
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -39258,7 +39260,7 @@ isOpen
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -39378,7 +39380,7 @@ isPrimitive
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

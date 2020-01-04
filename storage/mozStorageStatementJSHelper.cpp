@@ -356,7 +356,7 @@ rv
 {
 :
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCtx
 "
@@ -502,7 +502,7 @@ rv
 {
 :
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 aCtx
 "

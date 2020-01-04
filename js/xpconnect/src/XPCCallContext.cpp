@@ -374,7 +374,7 @@ if
 unwrapped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 mJSContext
 "

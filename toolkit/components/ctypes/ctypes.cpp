@@ -250,7 +250,7 @@ rv
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

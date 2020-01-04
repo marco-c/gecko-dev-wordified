@@ -6431,7 +6431,7 @@ if
 unwrapped
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6641,7 +6641,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -6826,7 +6826,7 @@ if
 toBufferObj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7303,7 +7303,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -7844,7 +7844,7 @@ if
 obj
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -14344,7 +14344,7 @@ if
 moduleResolveHook
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -14407,7 +14407,7 @@ ModuleObject
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "

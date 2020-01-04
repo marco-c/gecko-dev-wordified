@@ -2155,7 +2155,7 @@ getSingletonsAsTemplates
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -5310,7 +5310,7 @@ isAsmJSNative
 )
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20858,7 +20858,7 @@ functionNonDelazifying
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21455,7 +21455,7 @@ isAsmJSNative
 )
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
