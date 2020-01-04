@@ -54,6 +54,11 @@ window
 being
 private
 )
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
