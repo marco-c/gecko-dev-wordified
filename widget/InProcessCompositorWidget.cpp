@@ -512,6 +512,8 @@ VsyncObserver
 aObserver
 )
 {
+if
+(
 RefPtr
 <
 CompositorVsyncDispatcher
@@ -524,7 +526,8 @@ mWidget
 GetCompositorVsyncDispatcher
 (
 )
-;
+)
+{
 cvd
 -
 >
@@ -533,6 +536,7 @@ SetCompositorVsyncObserver
 aObserver
 )
 ;
+}
 }
 }
 /
