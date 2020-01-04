@@ -1339,8 +1339,8 @@ aAllowPartialMatch
 nsresult
 ParseLine
 (
-char
-*
+nsACString
+&
 line
 )
 ;

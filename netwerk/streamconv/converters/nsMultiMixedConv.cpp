@@ -6519,16 +6519,6 @@ if
 mResponseHead
 )
 {
-/
-/
-ParseHeaderLine
-is
-destructive
-.
-We
-create
-a
-copy
 nsAutoCString
 tmpHeader
 (
@@ -6541,10 +6531,6 @@ mResponseHead
 ParseHeaderLine
 (
 tmpHeader
-.
-get
-(
-)
 )
 ;
 }

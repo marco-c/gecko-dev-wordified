@@ -1134,6 +1134,7 @@ nsHttpRequestHead
 :
 ParseHeaderSet
 (
+const
 char
 *
 buffer
@@ -1148,8 +1149,7 @@ mReentrantMonitor
 nsHttpAtom
 hdr
 ;
-char
-*
+nsAutoCString
 val
 ;
 while
@@ -1157,6 +1157,7 @@ while
 buffer
 )
 {
+const
 char
 *
 eof
@@ -1179,14 +1180,6 @@ eof
 break
 ;
 }
-*
-eof
-=
-'
-\
-0
-'
-;
 if
 (
 NS_SUCCEEDED
@@ -1196,7 +1189,13 @@ nsHttpHeaderArray
 :
 ParseHeaderLine
 (
+nsDependentCSubstring
+(
 buffer
+eof
+-
+buffer
+)
 &
 hdr
 &
@@ -1210,10 +1209,7 @@ mHeaders
 SetHeaderFromNet
 (
 hdr
-nsDependentCString
-(
 val
-)
 false
 )
 ;

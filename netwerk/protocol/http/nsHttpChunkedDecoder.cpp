@@ -1066,7 +1066,11 @@ mTrailers
 >
 ParseHeaderLine
 (
+nsDependentCSubstring
+(
 buf
+count
+)
 )
 ;
 }
