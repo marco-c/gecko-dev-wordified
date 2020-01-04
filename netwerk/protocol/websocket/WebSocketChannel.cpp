@@ -14221,7 +14221,7 @@ uint8_t
 *
 buffer
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 4
 =
@@ -14230,6 +14230,17 @@ sizeof
 (
 mask
 )
+"
+Size
+of
+the
+mask
+should
+be
+equal
+to
+4
+"
 )
 ;
 nsresult

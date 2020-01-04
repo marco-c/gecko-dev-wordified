@@ -291,7 +291,7 @@ nsStyleSheetService
 (
 )
 {
-PR_STATIC_ASSERT
+static_assert
 (
 0
 =
@@ -309,6 +309,12 @@ USER_SHEET
 =
 =
 AUTHOR_SHEET
+"
+Convention
+for
+Style
+Sheet
+"
 )
 ;
 NS_ASSERTION

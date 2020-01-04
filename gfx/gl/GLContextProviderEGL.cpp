@@ -1474,7 +1474,7 @@ return
 false
 ;
 }
-PR_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -1486,6 +1486,13 @@ sizeof
 (
 int32_t
 )
+"
+GLint
+is
+smaller
+than
+int32_t
+"
 )
 ;
 mMaxTextureImageSize

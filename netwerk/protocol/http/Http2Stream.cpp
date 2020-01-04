@@ -503,7 +503,7 @@ uint8_t
 mTxInlineFrameSize
 )
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 nsISupportsPriority
 :
@@ -512,6 +512,15 @@ PRIORITY_LOWEST
 <
 =
 kNormalPriority
+"
+Lowest
+Priority
+should
+be
+less
+than
+kNormalPriority
+"
 )
 ;
 /

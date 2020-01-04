@@ -29062,7 +29062,7 @@ nsStyleContext
 aStyleContext
 )
 {
-PR_STATIC_ASSERT
+static_assert
 (
 eParentTypeCount
 <
@@ -29076,6 +29076,13 @@ eParentTypeCount
 FCDATA_PARENT_TYPE_OFFSET
 )
 )
+"
+Check
+eParentTypeCount
+should
+not
+overflow
+"
 )
 ;
 /

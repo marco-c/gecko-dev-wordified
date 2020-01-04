@@ -5500,7 +5500,7 @@ BeginFrameTreesLocked
 (
 )
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 nsDisplayItem
 :
@@ -5516,6 +5516,16 @@ nsDisplayItem
 :
 TYPE_BITS
 )
+"
+Check
+nsDisplayItem
+:
+:
+TYPE_MAX
+should
+not
+overflow
+"
 )
 ;
 }
