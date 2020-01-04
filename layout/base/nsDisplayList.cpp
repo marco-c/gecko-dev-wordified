@@ -38221,7 +38221,7 @@ return
 false
 ;
 }
-Rect
+RectDouble
 result
 (
 NSAppUnitsToFloatPixels
@@ -38254,7 +38254,7 @@ factor
 )
 )
 ;
-Rect
+RectDouble
 childGfxBounds
 (
 NSAppUnitsToFloatPixels
@@ -38378,7 +38378,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-Rect
+RectDouble
 result
 (
 NSAppUnitsToFloatPixels
@@ -38426,7 +38426,7 @@ aBuilder
 snap
 )
 ;
-Rect
+RectDouble
 childGfxBounds
 (
 NSAppUnitsToFloatPixels
