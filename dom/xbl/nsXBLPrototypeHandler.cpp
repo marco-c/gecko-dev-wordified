@@ -2362,6 +2362,9 @@ NS_ERROR_OUT_OF_MEMORY
 nsAutoCString
 bindingURI
 ;
+nsresult
+rv
+=
 mPrototypeBinding
 -
 >
@@ -2373,6 +2376,12 @@ DocURI
 GetSpec
 (
 bindingURI
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 uint32_t
@@ -2464,7 +2473,6 @@ emptyVector
 cx
 )
 ;
-nsresult
 rv
 =
 nsJSUtils
