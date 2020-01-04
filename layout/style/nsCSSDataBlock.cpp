@@ -3703,7 +3703,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kChunkCount
@@ -3734,7 +3734,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kBitsInChunk
@@ -3763,7 +3763,7 @@ DEBUG
 nsCSSPropertyID
 iProp
 =
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 CSSPropertyAt
@@ -4247,7 +4247,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kChunkCount
@@ -4280,7 +4280,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kBitsInChunk
@@ -4434,7 +4434,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kChunkCount
@@ -4465,7 +4465,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 kBitsInChunk
@@ -4491,7 +4491,7 @@ continue
 nsCSSPropertyID
 iProp
 =
-nsCSSPropertySet
+nsCSSPropertyIDSet
 :
 :
 CSSPropertyAt

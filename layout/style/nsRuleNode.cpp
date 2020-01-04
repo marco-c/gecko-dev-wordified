@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -69137,7 +69137,7 @@ aProperties
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aPropertiesOverridden
 )

@@ -5097,7 +5097,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aSetProperties
 )

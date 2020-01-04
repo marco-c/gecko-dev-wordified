@@ -3920,7 +3920,7 @@ frame
 aKeyframes
 )
 {
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesOnThisKeyframe
 ;
 ComputedKeyframeValues
@@ -9240,7 +9240,7 @@ should
 be
 sufficient
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 properties
 ;
 /
@@ -9249,7 +9249,7 @@ All
 properties
 encountered
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesWithFromValue
 ;
 /
@@ -9262,7 +9262,7 @@ defined
 %
 value
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesWithToValue
 ;
 /
@@ -10547,7 +10547,7 @@ pacedPropertyCount
 =
 0
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 pacedPropertySet
 ;
 bool
