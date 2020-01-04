@@ -1816,6 +1816,12 @@ loadSubScript
 "
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSContext
 *
 cx
