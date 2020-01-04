@@ -3213,16 +3213,7 @@ call
 .
 *
 /
-UniquePtr
-<
-char
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueChars
 DecompileValueGenerator
 (
 JSContext

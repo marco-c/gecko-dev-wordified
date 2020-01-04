@@ -3007,7 +3007,7 @@ CSP
 JS
 :
 :
-AutoFilename
+UniqueChars
 scriptFilename
 ;
 if

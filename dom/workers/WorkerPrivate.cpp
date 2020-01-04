@@ -20938,7 +20938,7 @@ on
 JS
 :
 :
-AutoFilename
+UniqueChars
 fileName
 ;
 if

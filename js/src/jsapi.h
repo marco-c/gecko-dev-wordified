@@ -35679,13 +35679,6 @@ length
 namespace
 JS
 {
-typedef
-js
-:
-:
-UniqueChars
-AutoFilename
-;
 /
 *
 *
@@ -35754,7 +35747,7 @@ DescribeScriptedCaller
 JSContext
 *
 cx
-AutoFilename
+UniqueChars
 *
 filename
 =

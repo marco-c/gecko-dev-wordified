@@ -3547,7 +3547,7 @@ lineNum
 JS
 :
 :
-AutoFilename
+UniqueChars
 file
 ;
 if
