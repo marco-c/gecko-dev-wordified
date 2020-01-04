@@ -181,6 +181,10 @@ import
 gdbpp
 .
 tarray
+import
+gdbpp
+.
+thashtable
 gdb
 .
 printing
