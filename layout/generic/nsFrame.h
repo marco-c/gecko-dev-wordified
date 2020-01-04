@@ -508,7 +508,7 @@ own
 operator
 new
 and
-GetAllocatedSize
+GetFrameId
 .
 If
 they
