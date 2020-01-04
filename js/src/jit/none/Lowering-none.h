@@ -166,12 +166,9 @@ MOZ_CRASH
 )
 ;
 }
-void
+LBoxAllocation
 useBoxFixed
 (
-LInstruction
-*
-size_t
 MDefinition
 *
 Register

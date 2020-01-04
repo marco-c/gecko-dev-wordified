@@ -316,6 +316,10 @@ Input
 ;
 LUnboxFloatingPoint
 (
+const
+LBoxAllocation
+&
+input
 MIRType
 type
 )
@@ -325,6 +329,12 @@ type_
 type
 )
 {
+setBoxOperand
+(
+Input
+input
+)
+;
 }
 MUnbox
 *
@@ -1394,6 +1404,10 @@ TableSwitchV
 LTableSwitchV
 (
 const
+LBoxAllocation
+&
+input
+const
 LDefinition
 &
 inputCopy
@@ -1406,6 +1420,12 @@ MTableSwitch
 ins
 )
 {
+setBoxOperand
+(
+InputValue
+input
+)
+;
 setTemp
 (
 0
