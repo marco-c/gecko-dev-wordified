@@ -4454,6 +4454,12 @@ RestyleResult
 {
 /
 /
+default
+initial
+value
+eRestyleResult_None
+/
+/
 we
 left
 the
@@ -4469,8 +4475,6 @@ not
 restyle
 children
 eRestyleResult_Stop
-=
-1
 /
 /
 we
