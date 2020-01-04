@@ -422,10 +422,6 @@ existingBackgroundChild
 )
 )
 ;
-SynchronouslyCreatePBackground
-(
-)
-;
 existingBackgroundChild
 =
 ipc
@@ -434,7 +430,7 @@ ipc
 BackgroundChild
 :
 :
-GetForCurrentThread
+SynchronouslyCreateForCurrentThread
 (
 )
 ;
@@ -690,10 +686,15 @@ to
 run
 /
 /
-SynchronouslyCreatePBackground
+BackgroundChild
+:
+:
+SynchronouslyCreateForCurrentThread
 there
 while
 we
+/
+/
 block
 in
 this
