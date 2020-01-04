@@ -236,6 +236,12 @@ using
 mozilla
 :
 :
+Move
+;
+using
+mozilla
+:
+:
 NonOwningAnimationTarget
 ;
 using
@@ -3898,7 +3904,10 @@ r
 >
 SetAttributeFilter
 (
+Move
+(
 filters
+)
 )
 ;
 r

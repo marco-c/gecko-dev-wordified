@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -1149,6 +1158,7 @@ nsCOMArray
 nsIAtom
 >
 &
+&
 aFilter
 )
 {
@@ -1172,8 +1182,11 @@ Clear
 )
 ;
 mAttributeFilter
-.
-AppendObjects
+=
+mozilla
+:
+:
+Move
 (
 aFilter
 )
