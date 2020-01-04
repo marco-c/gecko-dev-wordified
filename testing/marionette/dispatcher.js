@@ -290,7 +290,7 @@ param
 {
 function
 (
-Emulator
+EmulatorService
 )
 :
 GeckoDriver
@@ -303,9 +303,7 @@ function
 that
 takes
 an
-Emulator
-as
-argument
+EmulatorService
 and
 produces
 *
@@ -392,7 +390,9 @@ this
 emulator
 =
 new
-Emulator
+emulator
+.
+EmulatorService
 (
 this
 .
