@@ -1341,6 +1341,7 @@ c
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -1610,6 +1611,7 @@ ts
 }
 private
 :
+MOZ_MUST_USE
 bool
 callbackHelper
 (
@@ -1739,6 +1741,7 @@ typename
 .
 Arguments
 >
+MOZ_MUST_USE
 bool
 callbackHelper
 (
@@ -1867,6 +1870,7 @@ typename
 .
 Arguments
 >
+MOZ_MUST_USE
 bool
 callback
 (
@@ -2030,6 +2034,7 @@ UndefinedHandleValue
 v
 ;
 }
+MOZ_MUST_USE
 bool
 atomValue
 (
@@ -2092,6 +2097,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 newObject
 (
@@ -2131,6 +2137,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 newArray
 (
@@ -2141,6 +2148,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 createNode
 (
@@ -2153,6 +2161,7 @@ MutableHandleObject
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 newNodeHelper
 (
@@ -2199,6 +2208,7 @@ typename
 .
 Arguments
 >
+MOZ_MUST_USE
 bool
 newNodeHelper
 (
@@ -2374,6 +2384,7 @@ typename
 .
 Arguments
 >
+MOZ_MUST_USE
 bool
 newNode
 (
@@ -2423,6 +2434,7 @@ args
 )
 ;
 }
+MOZ_MUST_USE
 bool
 listNode
 (
@@ -2500,6 +2512,7 @@ dst
 )
 ;
 }
+MOZ_MUST_USE
 bool
 defineProperty
 (
@@ -2624,6 +2637,7 @@ optVal
 )
 ;
 }
+MOZ_MUST_USE
 bool
 newNodeLoc
 (
@@ -2634,6 +2648,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 setNodeLoc
 (
@@ -2700,6 +2715,7 @@ misc
 nodes
 *
 /
+MOZ_MUST_USE
 bool
 program
 (
@@ -2713,6 +2729,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 literal
 (
@@ -2725,6 +2742,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 identifier
 (
@@ -2737,6 +2755,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 function
 (
@@ -2765,6 +2784,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 variableDeclarator
 (
@@ -2779,6 +2799,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 switchCase
 (
@@ -2794,6 +2815,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 catchClause
 (
@@ -2810,6 +2832,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 prototypeMutation
 (
@@ -2822,6 +2845,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 propertyInitializer
 (
@@ -2848,6 +2872,7 @@ dst
 statements
 *
 /
+MOZ_MUST_USE
 bool
 blockStatement
 (
@@ -2861,6 +2886,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 expressionStatement
 (
@@ -2873,6 +2899,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 emptyStatement
 (
@@ -2883,6 +2910,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 ifStatement
 (
@@ -2899,6 +2927,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 breakStatement
 (
@@ -2911,6 +2940,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 continueStatement
 (
@@ -2923,6 +2953,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 labeledStatement
 (
@@ -2937,6 +2968,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 throwStatement
 (
@@ -2949,6 +2981,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 returnStatement
 (
@@ -2961,6 +2994,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 forStatement
 (
@@ -2979,6 +3013,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 forInStatement
 (
@@ -2997,6 +3032,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 forOfStatement
 (
@@ -3013,6 +3049,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 withStatement
 (
@@ -3027,6 +3064,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 whileStatement
 (
@@ -3041,6 +3079,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 doWhileStatement
 (
@@ -3055,6 +3094,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 switchStatement
 (
@@ -3072,6 +3112,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 tryStatement
 (
@@ -3091,6 +3132,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 debuggerStatement
 (
@@ -3101,6 +3143,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 importDeclaration
 (
@@ -3116,6 +3159,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 importSpecifier
 (
@@ -3130,6 +3174,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 exportDeclaration
 (
@@ -3149,6 +3194,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 exportSpecifier
 (
@@ -3163,6 +3209,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 exportBatchSpecifier
 (
@@ -3173,6 +3220,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 classDefinition
 (
@@ -3191,6 +3239,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 classMethods
 (
@@ -3201,6 +3250,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 classMethod
 (
@@ -3225,6 +3275,7 @@ dst
 expressions
 *
 /
+MOZ_MUST_USE
 bool
 binaryExpression
 (
@@ -3241,6 +3292,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 unaryExpression
 (
@@ -3255,6 +3307,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 assignmentExpression
 (
@@ -3271,6 +3324,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 updateExpression
 (
@@ -3287,6 +3341,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 logicalExpression
 (
@@ -3303,6 +3358,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 conditionalExpression
 (
@@ -3319,6 +3375,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 sequenceExpression
 (
@@ -3332,6 +3389,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 newExpression
 (
@@ -3347,6 +3405,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 callExpression
 (
@@ -3362,6 +3421,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 memberExpression
 (
@@ -3378,6 +3438,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 arrayExpression
 (
@@ -3391,6 +3452,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 templateLiteral
 (
@@ -3404,6 +3466,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 taggedTemplate
 (
@@ -3419,6 +3482,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 callSiteObj
 (
@@ -3435,6 +3499,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 spreadExpression
 (
@@ -3447,6 +3512,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 computedName
 (
@@ -3459,6 +3525,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 objectExpression
 (
@@ -3472,6 +3539,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 thisExpression
 (
@@ -3482,6 +3550,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 yieldExpression
 (
@@ -3496,6 +3565,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 comprehensionBlock
 (
@@ -3514,6 +3584,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 comprehensionIf
 (
@@ -3526,6 +3597,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 comprehensionExpression
 (
@@ -3545,6 +3617,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 generatorExpression
 (
@@ -3564,6 +3637,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 metaProperty
 (
@@ -3578,6 +3652,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 super
 (
@@ -3594,6 +3669,7 @@ dst
 declarations
 *
 /
+MOZ_MUST_USE
 bool
 variableDeclaration
 (
@@ -3615,6 +3691,7 @@ dst
 patterns
 *
 /
+MOZ_MUST_USE
 bool
 arrayPattern
 (
@@ -3628,6 +3705,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 objectPattern
 (
@@ -3641,6 +3719,7 @@ MutableHandleValue
 dst
 )
 ;
+MOZ_MUST_USE
 bool
 propertyPattern
 (
@@ -4239,6 +4318,7 @@ NullValue
 )
 )
 ;
+return
 defineProperty
 (
 node
@@ -4247,9 +4327,6 @@ loc
 "
 nullVal
 )
-;
-return
-true
 ;
 }
 RootedValue
