@@ -1922,6 +1922,14 @@ mWindowSize
 )
 ;
 }
+if
+(
+mView
+!
+=
+null
+)
+{
 mView
 .
 getGLController
@@ -1944,6 +1952,7 @@ mScreenSize
 height
 )
 ;
+}
 String
 json
 =
