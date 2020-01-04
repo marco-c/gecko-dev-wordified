@@ -1294,6 +1294,12 @@ icon
 :
 tabState
 .
+image
+|
+|
+(
+tabState
+.
 attributes
 &
 &
@@ -1302,6 +1308,7 @@ tabState
 attributes
 .
 image
+)
 |
 |
 "
