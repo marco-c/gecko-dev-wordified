@@ -862,6 +862,17 @@ long
 folderId
 )
 ;
+public
+abstract
+int
+getBookmarkCountForFolder
+(
+ContentResolver
+cr
+long
+folderId
+)
+;
 /
 *
 *
