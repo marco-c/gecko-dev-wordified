@@ -47663,6 +47663,14 @@ nullptr
 )
 )
 ;
+if
+(
+!
+obj
+)
+return
+nullptr
+;
 using
 namespace
 MemInfo
