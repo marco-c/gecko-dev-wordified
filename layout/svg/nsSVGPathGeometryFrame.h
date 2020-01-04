@@ -203,15 +203,11 @@ nsSVGMarkerProperty
 struct
 nsRect
 ;
-typedef
-nsFrame
-nsSVGPathGeometryFrameBase
-;
 class
 nsSVGPathGeometryFrame
 :
 public
-nsSVGPathGeometryFrameBase
+nsFrame
 public
 nsISVGChildFrame
 {
@@ -252,7 +248,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGPathGeometryFrameBase
+nsFrame
 (
 aContext
 )
@@ -305,7 +301,7 @@ const
 override
 {
 return
-nsSVGPathGeometryFrameBase
+nsFrame
 :
 :
 IsFrameOfType
