@@ -933,12 +933,6 @@ lock
 .
 nsCacheServiceAutoLock
 lock
-(
-LOCK_TELEM
-(
-NSDISKCACHEBINDING_DESTRUCTOR
-)
-)
 ;
 NS_ASSERTION
 (

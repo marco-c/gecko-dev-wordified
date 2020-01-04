@@ -376,12 +376,6 @@ Run
 {
 nsCacheServiceAutoLock
 lock
-(
-LOCK_TELEM
-(
-NSDISKCACHEDEVICEDEACTIVATEENTRYEVENT_RUN
-)
-)
 ;
 CACHE_LOG_DEBUG
 (
@@ -480,12 +474,6 @@ Run
 {
 nsCacheServiceAutoLock
 lock
-(
-LOCK_TELEM
-(
-NSEVICTDISKCACHEENTRIESEVENT_RUN
-)
-)
 ;
 mDevice
 -
