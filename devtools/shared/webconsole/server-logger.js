@@ -173,17 +173,6 @@ DevToolsUtils
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-atob
-"
-]
-)
-;
 loader
 .
 lazyGetter
