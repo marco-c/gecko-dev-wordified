@@ -55219,13 +55219,6 @@ create
 (
 cx
 emptyString
-/
-*
-proto
-=
-*
-/
-nullptr
 TenuredObject
 )
 )
