@@ -1684,15 +1684,13 @@ win32
 :
 "
 firefox
--
-bin
 .
 exe
 "
 mac64
 :
 "
-B2G
+FirefoxNightly
 .
 app
 /
