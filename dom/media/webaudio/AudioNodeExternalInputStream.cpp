@@ -1074,7 +1074,7 @@ inputChannels
 ;
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -1083,7 +1083,7 @@ tracks
 source
 -
 >
-mBuffer
+mTracks
 MediaSegment
 :
 :
@@ -1105,7 +1105,7 @@ Next
 )
 {
 const
-StreamBuffer
+StreamTracks
 :
 :
 Track

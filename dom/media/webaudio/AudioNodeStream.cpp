@@ -1951,12 +1951,12 @@ mStream
 ns
 -
 >
-mBufferStartTime
+mTracksStartTime
 -
 =
 mAdvance
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -3575,7 +3575,7 @@ AdvanceOutputSegment
 (
 )
 {
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -3595,7 +3595,7 @@ tracks
 will
 be
 coming
-mBuffer
+mTracks
 .
 AdvanceKnownTracksTime
 (
@@ -3744,7 +3744,7 @@ FinishOutput
 (
 )
 {
-StreamBuffer
+StreamTracks
 :
 :
 Track

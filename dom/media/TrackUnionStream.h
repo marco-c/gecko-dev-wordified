@@ -368,7 +368,7 @@ Track
 /
 we
 call
-StreamBuffer
+StreamTracks
 :
 :
 FindTrack
@@ -483,7 +483,7 @@ AddTrack
 MediaInputPort
 *
 aPort
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -503,7 +503,7 @@ aIndex
 void
 CopyTrackData
 (
-StreamBuffer
+StreamTracks
 :
 :
 Track
