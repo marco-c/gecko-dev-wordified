@@ -675,7 +675,7 @@ expect
 /
 Also
 test
-if_else
+if
 for
 the
 compare
@@ -706,7 +706,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i64
 .
