@@ -2534,10 +2534,6 @@ bool
 &
 aSizeSpecified
 const
-nsString
-&
-aName
-const
 nsCString
 &
 aFeatures
