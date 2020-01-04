@@ -3424,6 +3424,7 @@ getInternalFormat
 .
 format
 GL_LINEAR
+false
 )
 ;
 }
@@ -13125,7 +13126,7 @@ Texture2DArray
 .
 MipLevels
 =
-1
+mipLevels
 ;
 srvDesc
 .

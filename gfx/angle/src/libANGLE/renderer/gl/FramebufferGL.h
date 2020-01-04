@@ -310,9 +310,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -334,9 +334,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -358,9 +358,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -382,9 +382,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -482,7 +482,7 @@ sourceFramebuffer
 )
 override
 ;
-GLenum
+bool
 checkStatus
 (
 )

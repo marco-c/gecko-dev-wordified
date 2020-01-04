@@ -419,6 +419,7 @@ TIntermLoop
 *
 loop
 )
+override
 {
 visitControlFlow
 (
@@ -439,6 +440,7 @@ TIntermSelection
 *
 selection
 )
+override
 {
 visitControlFlow
 (
@@ -1673,6 +1675,7 @@ TIntermLoop
 *
 loop
 )
+override
 {
 bool
 isDiscontinuous

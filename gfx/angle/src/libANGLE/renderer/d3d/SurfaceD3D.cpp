@@ -492,6 +492,11 @@ SurfaceD3D
 :
 bindTexImage
 (
+gl
+:
+:
+Texture
+*
 EGLint
 )
 {

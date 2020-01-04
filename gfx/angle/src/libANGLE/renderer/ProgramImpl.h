@@ -238,6 +238,16 @@ stream
 0
 ;
 virtual
+void
+setBinaryRetrievableHint
+(
+bool
+retrievable
+)
+=
+0
+;
+virtual
 LinkResult
 link
 (

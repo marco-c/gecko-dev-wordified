@@ -1455,6 +1455,13 @@ size_t
 index
 )
 ;
+void
+initSamplerDefaultPrecision
+(
+TBasicType
+samplerType
+)
+;
 /
 /
 Removes

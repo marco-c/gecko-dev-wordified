@@ -266,7 +266,7 @@ const
 gl
 :
 :
-State
+Data
 &
 GLenum
 GLint
@@ -288,7 +288,7 @@ const
 gl
 :
 :
-State
+Data
 &
 GLenum
 GLint
@@ -310,7 +310,7 @@ const
 gl
 :
 :
-State
+Data
 &
 GLenum
 GLint
@@ -332,7 +332,7 @@ const
 gl
 :
 :
-State
+Data
 &
 GLenum
 GLint
@@ -424,7 +424,7 @@ Framebuffer
 MOCK_CONST_METHOD0
 (
 checkStatus
-GLenum
+bool
 (
 )
 )

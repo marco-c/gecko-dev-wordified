@@ -165,6 +165,14 @@ stream
 )
 override
 ;
+void
+setBinaryRetrievableHint
+(
+bool
+retrievable
+)
+override
+;
 LinkResult
 link
 (

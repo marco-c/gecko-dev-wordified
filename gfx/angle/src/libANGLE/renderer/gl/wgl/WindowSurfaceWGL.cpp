@@ -679,6 +679,12 @@ WindowSurfaceWGL
 :
 bindTexImage
 (
+gl
+:
+:
+Texture
+*
+texture
 EGLint
 buffer
 )

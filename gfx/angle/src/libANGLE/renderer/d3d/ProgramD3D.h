@@ -841,6 +841,7 @@ BinaryInputStream
 *
 stream
 )
+override
 ;
 gl
 :
@@ -855,6 +856,15 @@ BinaryOutputStream
 *
 stream
 )
+override
+;
+void
+setBinaryRetrievableHint
+(
+bool
+retrievable
+)
+override
 ;
 gl
 :

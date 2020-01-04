@@ -286,6 +286,11 @@ GLenum
 usage
 )
 ;
+void
+emptyStaticBufferCache
+(
+)
+;
 BufferFactoryD3D
 *
 mFactory

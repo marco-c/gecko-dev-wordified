@@ -2433,7 +2433,7 @@ n
 "
 precision
 mediump
-uint
+int
 ;
 \
 n
@@ -2693,7 +2693,7 @@ n
 "
 precision
 mediump
-uint
+int
 ;
 \
 n
@@ -2933,7 +2933,7 @@ n
 "
 precision
 highp
-uint
+int
 ;
 \
 n

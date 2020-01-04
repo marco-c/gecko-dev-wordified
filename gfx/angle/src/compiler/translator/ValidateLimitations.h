@@ -119,7 +119,7 @@ sh
 GLenum
 shaderType
 TInfoSinkBase
-&
+*
 sink
 )
 ;
@@ -168,6 +168,15 @@ TIntermLoop
 *
 )
 override
+;
+static
+bool
+IsLimitedForLoop
+(
+TIntermLoop
+*
+node
+)
 ;
 private
 :
@@ -361,7 +370,7 @@ GLenum
 mShaderType
 ;
 TInfoSinkBase
-&
+*
 mSink
 ;
 int
@@ -369,6 +378,12 @@ mNumErrors
 ;
 TLoopStack
 mLoopStack
+;
+bool
+mValidateIndexing
+;
+bool
+mValidateInnerLoops
 ;
 }
 ;

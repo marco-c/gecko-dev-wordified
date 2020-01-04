@@ -158,6 +158,14 @@ const
 =
 0
 ;
+virtual
+bool
+deviceExternallySourced
+(
+)
+=
+0
+;
 }
 ;
 }

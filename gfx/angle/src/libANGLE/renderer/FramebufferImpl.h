@@ -300,9 +300,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -326,9 +326,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -352,9 +352,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -378,9 +378,9 @@ const
 gl
 :
 :
-State
+Data
 &
-state
+data
 GLenum
 buffer
 GLint
@@ -488,7 +488,7 @@ sourceFramebuffer
 0
 ;
 virtual
-GLenum
+bool
 checkStatus
 (
 )
