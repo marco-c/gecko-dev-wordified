@@ -258,6 +258,12 @@ mozilla
 :
 dom
 ;
+NS_IMPL_QUERY_INTERFACE_INHERITED
+(
+nsStyledElement
+nsStyledElementBase
+nsStyledElement
+)
 /
 /
 -
