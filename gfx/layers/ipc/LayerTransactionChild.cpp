@@ -801,6 +801,9 @@ const
 SurfaceDescriptor
 &
 const
+LayersBackend
+&
+const
 TextureFlags
 &
 )

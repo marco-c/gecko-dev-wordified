@@ -4588,6 +4588,9 @@ const
 SurfaceDescriptor
 &
 const
+LayersBackend
+&
+const
 TextureFlags
 &
 )
@@ -5022,6 +5025,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 )
@@ -5036,6 +5041,7 @@ return
 SendPTextureConstructor
 (
 aSharedData
+aLayersBackend
 aFlags
 )
 ;

@@ -251,17 +251,6 @@ mFailedResetAttempts
 0
 )
 {
-Compositor
-:
-:
-SetBackend
-(
-LayersBackend
-:
-:
-LAYERS_D3D9
-)
-;
 }
 CompositorD3D9
 :

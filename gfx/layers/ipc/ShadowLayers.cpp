@@ -5148,6 +5148,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 )
@@ -5180,6 +5182,7 @@ mShadowManager
 SendPTextureConstructor
 (
 aSharedData
+aLayersBackend
 aFlags
 )
 ;

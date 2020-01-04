@@ -432,14 +432,6 @@ MOZ_COUNT_CTOR
 BasicCompositor
 )
 ;
-SetBackend
-(
-LayersBackend
-:
-:
-LAYERS_BASIC
-)
-;
 mMaxTextureSize
 =
 Factory

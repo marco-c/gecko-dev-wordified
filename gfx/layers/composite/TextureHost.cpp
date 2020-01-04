@@ -532,6 +532,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+LayersBackend
+&
+aLayersBackend
+const
 TextureFlags
 &
 aFlags
@@ -695,9 +699,6 @@ mTextureHost
 /
 /
 /
-/
-/
-static
 PTextureParent
 *
 TextureHost
@@ -712,6 +713,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 )
@@ -784,6 +787,7 @@ actor
 Init
 (
 aSharedData
+aLayersBackend
 aFlags
 )
 )
@@ -1119,9 +1123,6 @@ TextureFlags
 aFlags
 )
 ;
-/
-/
-static
 already_AddRefed
 <
 TextureHost
@@ -1138,6 +1139,8 @@ aDesc
 ISurfaceAllocator
 *
 aDeallocator
+LayersBackend
+aBackend
 TextureFlags
 aFlags
 )
@@ -1217,12 +1220,7 @@ TSurfaceDescriptorMacIOSurface
 :
 if
 (
-Compositor
-:
-:
-GetBackend
-(
-)
+aBackend
 =
 =
 LayersBackend
@@ -1316,12 +1314,7 @@ TSurfaceDescriptorDXGIYCbCr
 :
 if
 (
-Compositor
-:
-:
-GetBackend
-(
-)
+aBackend
 =
 =
 LayersBackend
@@ -4333,6 +4326,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+LayersBackend
+&
+aBackend
+const
 TextureFlags
 &
 aFlags
@@ -4347,6 +4344,7 @@ Create
 (
 aSharedData
 mCompositableManager
+aBackend
 aFlags
 )
 ;

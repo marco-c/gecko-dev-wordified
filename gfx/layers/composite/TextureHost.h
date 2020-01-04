@@ -2035,6 +2035,8 @@ aDesc
 ISurfaceAllocator
 *
 aDeallocator
+LayersBackend
+aBackend
 TextureFlags
 aFlags
 )
@@ -2784,6 +2786,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 )
