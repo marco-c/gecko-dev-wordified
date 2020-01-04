@@ -254,7 +254,7 @@ HEBREW
 /
 /
 6
-he
+iw
 "
 ITALIAN
 "
@@ -4450,7 +4450,7 @@ de
 5
 GERMAN
 "
-he
+iw
 "
 /
 /
@@ -8656,7 +8656,7 @@ HEBREW
 /
 /
 6
-he
+iw
 "
 ITALIAN
 "
@@ -12880,7 +12880,7 @@ None
 /
 /
 6
-he
+iw
 {
 ULScript_Latin
 None
@@ -18889,7 +18889,7 @@ de
 /
 /
 6
-he
+iw
 7
 /
 /

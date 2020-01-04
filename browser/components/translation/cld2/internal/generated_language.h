@@ -239,7 +239,7 @@ HEBREW
 6
 /
 /
-he
+iw
 ITALIAN
 =
 7
