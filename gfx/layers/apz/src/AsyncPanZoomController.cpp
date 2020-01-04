@@ -25225,6 +25225,7 @@ AsyncPanZoomController
 CurrentTouchBlock
 (
 )
+const
 {
 return
 GetInputQueue
@@ -25245,6 +25246,7 @@ AsyncPanZoomController
 CurrentPanGestureBlock
 (
 )
+const
 {
 return
 GetInputQueue
@@ -25347,6 +25349,7 @@ AsyncPanZoomController
 HasReadyTouchBlock
 (
 )
+const
 {
 return
 GetInputQueue
