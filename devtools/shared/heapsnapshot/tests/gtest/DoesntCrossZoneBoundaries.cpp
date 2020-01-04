@@ -132,6 +132,12 @@ zone
 JS
 :
 :
+CompartmentOptions
+options
+;
+JS
+:
+:
 RootedObject
 newGlobal
 (
@@ -147,6 +153,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;
