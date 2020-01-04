@@ -115,7 +115,7 @@ jsm
 )
 ;
 var
-tps
+pcs
 ;
 /
 /
@@ -391,7 +391,7 @@ loopOfferAnser
 (
 )
 {
-tps
+pcs
 =
 Cc
 [
@@ -417,7 +417,7 @@ Ci
 nsIPresentationControlService
 )
 ;
-tps
+pcs
 .
 id
 =
@@ -425,7 +425,7 @@ id
 controllerID
 '
 ;
-tps
+pcs
 .
 startServer
 (
@@ -460,7 +460,7 @@ presenterControlChannelClose
 let
 controllerControlChannel
 ;
-tps
+pcs
 .
 listener
 =
@@ -486,7 +486,7 @@ equal
 deviceInfo
 .
 id
-tps
+pcs
 .
 id
 '
@@ -978,7 +978,7 @@ nsITCPDeviceInfo
 let
 presenterControlChannel
 =
-tps
+pcs
 .
 connect
 (
@@ -1324,7 +1324,7 @@ setOffline
 (
 )
 {
-tps
+pcs
 .
 listener
 =
@@ -1355,7 +1355,7 @@ valid
 '
 )
 ;
-tps
+pcs
 .
 close
 (
@@ -1401,7 +1401,7 @@ oneMoreLoop
 {
 try
 {
-tps
+pcs
 .
 startServer
 (
@@ -1445,7 +1445,7 @@ shutdown
 (
 )
 {
-tps
+pcs
 .
 listener
 =
@@ -1472,7 +1472,7 @@ changed
 }
 }
 ;
-tps
+pcs
 .
 close
 (
@@ -1482,7 +1482,7 @@ Assert
 .
 equal
 (
-tps
+pcs
 .
 port
 0
