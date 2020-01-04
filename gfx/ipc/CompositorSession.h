@@ -160,6 +160,9 @@ namespace
 gfx
 {
 class
+GPUProcessHost
+;
+class
 GPUProcessManager
 ;
 }
@@ -226,6 +229,13 @@ GPUProcessManager
 ;
 protected
 :
+typedef
+gfx
+:
+:
+GPUProcessHost
+GPUProcessHost
+;
 typedef
 widget
 :
