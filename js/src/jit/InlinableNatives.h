@@ -537,6 +537,11 @@ IntrinsicIsObject
 \
 _
 (
+IntrinsicIsWrappedArrayConstructor
+)
+\
+_
+(
 IntrinsicToInteger
 )
 \

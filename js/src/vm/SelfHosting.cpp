@@ -15169,7 +15169,7 @@ intrinsic_IsArray
 0
 ArrayIsArray
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 IsWrappedArrayConstructor
@@ -15177,6 +15177,7 @@ IsWrappedArrayConstructor
 intrinsic_IsWrappedArrayConstructor
 1
 0
+IntrinsicIsWrappedArrayConstructor
 )
 JS_INLINABLE_FN
 (
