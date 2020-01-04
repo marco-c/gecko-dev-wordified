@@ -34483,7 +34483,6 @@ the
 transform
 is
 3d
-or
 the
 layer
 takes
@@ -34492,9 +34491,15 @@ in
 preserve
 -
 3d
+/
+/
 sorting
-/
-/
+or
+the
+layer
+is
+a
+separator
 then
 we
 *
@@ -34502,6 +34507,8 @@ always
 *
 want
 this
+/
+/
 to
 be
 an
@@ -34526,6 +34533,9 @@ mFrame
 Combines3DTransformWithAncestors
 (
 )
+|
+|
+mIsTransformSeparator
 )
 {
 return
@@ -35731,6 +35741,10 @@ mFrame
 Extend3DContext
 (
 )
+&
+&
+!
+mIsTransformSeparator
 )
 {
 return
