@@ -259,6 +259,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 /
 /
 Clean
@@ -426,6 +427,9 @@ reckless
 Chrome
 \
 "
+"
++
+"
 new_ie
 :
 \
@@ -467,6 +471,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 /
 /
 Clean
