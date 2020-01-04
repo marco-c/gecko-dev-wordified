@@ -2189,6 +2189,8 @@ aPrincipal
 nsIQuotaUsageCallback
 *
 aCallback
+bool
+aGetGroupUsage
 nsIQuotaUsageRequest
 *
 *
@@ -2305,6 +2307,14 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+params
+.
+getGroupUsage
+(
+)
+=
+aGetGroupUsage
+;
 nsAutoPtr
 <
 PendingRequestInfo
