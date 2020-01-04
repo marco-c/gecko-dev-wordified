@@ -5674,6 +5674,13 @@ aPrincipal
 )
 override
 ;
+virtual
+bool
+RecvNotifyLowMemory
+(
+)
+override
+;
 /
 /
 If

@@ -352,6 +352,15 @@ nsIFile
 aFile
 )
 ;
+nsresult
+GetDefaultMemoryReportFile
+(
+nsIFile
+*
+*
+aFile
+)
+;
 void
 SetTelemetrySessionId
 (
