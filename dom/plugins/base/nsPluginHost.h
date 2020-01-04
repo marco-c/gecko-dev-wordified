@@ -920,6 +920,16 @@ SpecialType
 eSpecialType_None
 /
 /
+Needed
+to
+whitelist
+for
+async
+init
+support
+eSpecialType_Test
+/
+/
 Informs
 some
 decisions
