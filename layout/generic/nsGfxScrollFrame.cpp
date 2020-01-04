@@ -13142,6 +13142,12 @@ nsGkAtoms
 :
 :
 restore
+&
+&
+!
+PageIsStillLoading
+(
+)
 )
 {
 /
