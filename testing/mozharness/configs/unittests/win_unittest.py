@@ -1318,6 +1318,34 @@ tests
 /
 bin
 "
+                
+"
+-
+-
+log
+-
+raw
+=
+%
+(
+raw_log_file
+)
+s
+"
+                
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
+)
+s
+"
             
 ]
             
