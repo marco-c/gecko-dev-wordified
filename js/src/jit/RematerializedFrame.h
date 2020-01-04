@@ -792,6 +792,12 @@ return
 isFunctionFrame
 (
 )
+&
+&
+!
+isModuleFrame
+(
+)
 ;
 }
 bool

@@ -2343,11 +2343,14 @@ const
 {
 return
 !
-CalleeTokenIsFunction
-(
-calleeToken
+isFunctionFrame
 (
 )
+&
+&
+!
+isModuleFrame
+(
 )
 ;
 }
