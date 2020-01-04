@@ -25580,14 +25580,9 @@ hasNonSyntacticScope
 &
 &
 !
-dynamicScope
--
->
-is
-<
-GlobalObject
->
+IsGlobalLexicalScope
 (
+dynamicScope
 )
 )
 {

@@ -3724,6 +3724,11 @@ CopyScript
 .
 *
 /
+MOZ_ASSERT
+(
+enclosingScopeArg
+)
+;
 enum
 ScriptBits
 {
@@ -5453,8 +5458,10 @@ HasNonSyntacticScope
 )
 &
 &
-!
+IsStaticGlobalLexicalScope
+(
 enclosingScope
+)
 )
 {
 enclosingScope
@@ -5465,7 +5472,7 @@ StaticNonSyntacticScopeObjects
 create
 (
 cx
-nullptr
+enclosingScope
 )
 ;
 if
@@ -23926,7 +23933,7 @@ src
 {
 MOZ_ASSERT
 (
-IsGlobalLexicalScope
+IsStaticGlobalLexicalScope
 (
 enclosingScope
 )
@@ -25783,6 +25790,13 @@ staticScope
 if
 (
 staticScope
+&
+&
+!
+IsStaticGlobalLexicalScope
+(
+staticScope
+)
 )
 {
 StaticBlockObject
