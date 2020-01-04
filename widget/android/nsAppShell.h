@@ -784,14 +784,6 @@ nullptr
 )
 ;
 void
-ResendLastResizeEvent
-(
-nsWindow
-*
-aDest
-)
-;
-void
 SetBrowserApp
 (
 nsIAndroidBrowserApp
