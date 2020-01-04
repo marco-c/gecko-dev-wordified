@@ -26284,6 +26284,9 @@ ratio
 )
 ;
 }
+nscoord
+scriptLevelAdjustedUnconstrainedParentSize
+;
 /
 /
 font
@@ -26295,16 +26298,6 @@ length
 percent
 inherit
 nscoord
-scriptLevelAdjustedParentSize
-=
-aParentFont
--
->
-mSize
-;
-nscoord
-scriptLevelAdjustedUnconstrainedParentSize
-;
 scriptLevelAdjustedParentSize
 =
 ComputeScriptLevelSize
