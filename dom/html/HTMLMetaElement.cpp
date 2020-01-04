@@ -761,8 +761,6 @@ do_QueryInterface
 aDocument
 )
 ;
-rv
-=
 principal
 -
 >
@@ -775,12 +773,11 @@ csp
 )
 )
 ;
-NS_ENSURE_SUCCESS
+if
 (
-rv
-rv
+csp
 )
-;
+{
 /
 /
 Multiple
@@ -877,6 +874,7 @@ ApplySettingsFromCSP
 false
 )
 ;
+}
 }
 }
 /
