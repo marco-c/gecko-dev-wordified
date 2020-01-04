@@ -7127,6 +7127,17 @@ lock
 )
 ;
 void
+traceRuntimeAtoms
+(
+JSTracer
+*
+trc
+AutoLockForExclusiveAccess
+&
+lock
+)
+;
+void
 traceRuntimeCommon
 (
 JSTracer
