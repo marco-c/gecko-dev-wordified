@@ -424,14 +424,6 @@ lir
 )
 ;
 void
-visitShiftI64
-(
-LShiftI64
-*
-lir
-)
-;
-void
 visitRotate64
 (
 LRotate64
