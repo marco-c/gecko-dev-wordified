@@ -1745,6 +1745,12 @@ onAttachedToWindow
 (
 )
 {
+super
+.
+onAttachedToWindow
+(
+)
+;
 /
 /
 We

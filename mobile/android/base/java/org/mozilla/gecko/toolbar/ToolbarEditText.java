@@ -624,6 +624,12 @@ onAttachedToWindow
 (
 )
 {
+super
+.
+onAttachedToWindow
+(
+)
+;
 setOnKeyListener
 (
 new

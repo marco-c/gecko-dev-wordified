@@ -936,6 +936,12 @@ onPrepareForRemoval
 (
 )
 {
+super
+.
+onPrepareForRemoval
+(
+)
+;
 if
 (
 mLoadTask
