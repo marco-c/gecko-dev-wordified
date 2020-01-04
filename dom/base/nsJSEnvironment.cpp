@@ -1595,14 +1595,11 @@ return
 nullptr
 ;
 }
-JSContext
+JSRuntime
 *
-cx
+rt
 =
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 ;
@@ -1612,7 +1609,7 @@ JS
 RootedObject
 exceptionObject
 (
-cx
+rt
 &
 exceptionValue
 .
@@ -1727,7 +1724,7 @@ JS
 RootedValue
 value
 (
-cx
+rt
 )
 ;
 stack

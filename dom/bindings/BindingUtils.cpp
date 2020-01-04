@@ -14087,10 +14087,7 @@ Value
 >
 initReturn
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 )

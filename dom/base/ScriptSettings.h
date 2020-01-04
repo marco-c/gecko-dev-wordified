@@ -1254,6 +1254,12 @@ GetJSContext
 /
 namespace
 danger
+JSRuntime
+*
+GetJSRuntime
+(
+)
+;
 class
 ScriptSettingsStack
 ;
