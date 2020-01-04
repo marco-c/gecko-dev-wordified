@@ -1453,16 +1453,6 @@ GetPropertyPolymorphicT
 \
 _
 (
-GetElementCacheV
-)
-\
-_
-(
-GetElementCacheT
-)
-\
-_
-(
 BindNameCache
 )
 \

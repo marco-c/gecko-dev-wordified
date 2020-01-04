@@ -879,11 +879,6 @@ SetPropertyPolymorphic
 \
 _
 (
-GetElementCache
-)
-\
-_
-(
 SetElementCache
 )
 \

@@ -1758,14 +1758,6 @@ ins
 )
 ;
 void
-visitGetElementCache
-(
-MGetElementCache
-*
-ins
-)
-;
-void
 visitBindNameCache
 (
 MBindNameCache
