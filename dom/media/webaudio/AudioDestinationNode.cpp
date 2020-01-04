@@ -122,6 +122,13 @@ h
 #
 include
 "
+AlignmentUtils
+.
+h
+"
+#
+include
+"
 AudioContext
 .
 h
@@ -654,6 +661,12 @@ duration
 =
 =
 WEBAUDIO_BLOCK_SIZE
+&
+&
+IS_ALIGNED16
+(
+inputBuffer
+)
 )
 {
 /

@@ -120,6 +120,13 @@ h
 #
 include
 "
+AlignedTArray
+.
+h
+"
+#
+include
+"
 AudioBlock
 .
 h
@@ -1186,9 +1193,10 @@ aChunk
 AudioBlock
 *
 aBlock
-nsTArray
+AlignedTArray
 <
 float
+16
 >
 *
 aDownmixBuffer
@@ -1211,9 +1219,10 @@ float
 >
 &
 aOutputChannels
-nsTArray
+AlignedTArray
 <
 float
+16
 >
 &
 aDownmixBuffer

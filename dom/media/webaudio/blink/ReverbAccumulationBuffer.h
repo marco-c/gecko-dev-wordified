@@ -287,7 +287,7 @@ ReverbAccumulationBuffer_h
 #
 include
 "
-nsTArray
+AlignedTArray
 .
 h
 "
@@ -303,13 +303,6 @@ h
 namespace
 WebCore
 {
-typedef
-nsTArray
-<
-float
->
-AudioFloatArray
-;
 /
 /
 ReverbAccumulationBuffer
@@ -537,7 +530,11 @@ aMallocSizeOf
 }
 private
 :
-AudioFloatArray
+AlignedTArray
+<
+float
+16
+>
 m_buffer
 ;
 size_t
