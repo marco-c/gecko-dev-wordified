@@ -182,6 +182,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 MediaSourceDecoder
 .
 h
@@ -239,9 +246,6 @@ MediaByteBuffer
 ;
 class
 MediaRawData
-;
-class
-MediaResult
 ;
 class
 MediaSourceDemuxer
@@ -1080,7 +1084,7 @@ typedef
 MozPromise
 <
 bool
-nsresult
+MediaResult
 /
 *
 IsExclusive
@@ -1170,7 +1174,9 @@ NeedMoreData
 void
 RejectAppend
 (
-nsresult
+const
+MediaResult
+&
 aRejectValue
 const
 char
@@ -2628,7 +2634,9 @@ UpdateBufferedRanges
 void
 RejectProcessing
 (
-nsresult
+const
+MediaResult
+&
 aRejectValue
 const
 char
