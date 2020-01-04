@@ -1902,6 +1902,10 @@ mQuadPS
 (
 nullptr
 )
+mLinearSamplerState
+(
+nullptr
+)
 mVSConstantBuffer
 (
 nullptr
@@ -1915,10 +1919,6 @@ mVertexBuffer
 nullptr
 )
 mInputLayout
-(
-nullptr
-)
-mLinearSamplerState
 (
 nullptr
 )
