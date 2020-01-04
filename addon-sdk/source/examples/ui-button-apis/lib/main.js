@@ -132,7 +132,7 @@ extensions
 /
 extensionGeneric
 .
-png
+svg
 '
 ;
 exports
