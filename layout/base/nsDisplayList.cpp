@@ -27888,6 +27888,8 @@ aFrame
 nsDisplayList
 *
 aList
+uint8_t
+aBlendMode
 const
 DisplayItemScrollClip
 *
@@ -27900,6 +27902,10 @@ aBuilder
 aFrame
 aList
 aScrollClip
+)
+mBlendMode
+(
+aBlendMode
 )
 {
 MOZ_COUNT_CTOR
@@ -28066,15 +28072,7 @@ nsCSSRendering
 :
 GetGFXBlendMode
 (
-mFrame
--
->
-StyleDisplay
-(
-)
--
->
-mMixBlendMode
+mBlendMode
 )
 )
 ;
