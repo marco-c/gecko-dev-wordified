@@ -121,6 +121,13 @@ __FFmpegVideoDecoder_h__
 #
 include
 "
+FFmpegLibWrapper
+.
+h
+"
+#
+include
+"
 FFmpegDataDecoder
 .
 h
@@ -207,6 +214,9 @@ public
 :
 FFmpegVideoDecoder
 (
+FFmpegLibWrapper
+*
+aLib
 FlushableTaskQueue
 *
 aTaskQueue
