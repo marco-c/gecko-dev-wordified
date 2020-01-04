@@ -6619,7 +6619,10 @@ char
 name
 )
 {
-JS_CallObjectTracer
+JS
+:
+:
+TraceEdge
 (
 trc
 &
