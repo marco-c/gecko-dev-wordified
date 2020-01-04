@@ -12287,6 +12287,15 @@ DrawOptions
 aDrawOptions
 )
 {
+MOZ_CRASH
+(
+"
+not
+completely
+implemented
+"
+)
+;
 MarkChanged
 (
 )
