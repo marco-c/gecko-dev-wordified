@@ -221,6 +221,17 @@ mozilla
 /
 dom
 /
+BodyUtil
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 EncodingUtils
 .
 h
@@ -394,13 +405,6 @@ h
 include
 "
 Workers
-.
-h
-"
-#
-include
-"
-FetchUtil
 .
 h
 "
@@ -5208,7 +5212,7 @@ arrayBuffer
 cx
 )
 ;
-FetchUtil
+BodyUtil
 :
 :
 ConsumeArrayBuffer
@@ -5292,7 +5296,7 @@ Blob
 >
 blob
 =
-FetchUtil
+BodyUtil
 :
 :
 ConsumeBlob
@@ -5386,7 +5390,7 @@ FormData
 >
 fd
 =
-FetchUtil
+BodyUtil
 :
 :
 ConsumeFormData
@@ -5448,7 +5452,7 @@ if
 (
 NS_SUCCEEDED
 (
-FetchUtil
+BodyUtil
 :
 :
 ConsumeText
@@ -5494,7 +5498,7 @@ json
 cx
 )
 ;
-FetchUtil
+BodyUtil
 :
 :
 ConsumeJson

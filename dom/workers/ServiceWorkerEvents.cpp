@@ -368,7 +368,7 @@ mozilla
 /
 dom
 /
-EncodingUtils
+BodyUtil
 .
 h
 "
@@ -379,7 +379,7 @@ mozilla
 /
 dom
 /
-FetchUtil
+EncodingUtils
 .
 h
 "
@@ -5503,7 +5503,7 @@ NS_ERROR_DOM_UNKNOWN_ERR
 return
 ;
 }
-FetchUtil
+BodyUtil
 :
 :
 ConsumeJson
@@ -5578,7 +5578,7 @@ if
 data
 )
 {
-FetchUtil
+BodyUtil
 :
 :
 ConsumeArrayBuffer
@@ -5641,7 +5641,7 @@ Blob
 >
 blob
 =
-FetchUtil
+BodyUtil
 :
 :
 ConsumeBlob
@@ -5709,7 +5709,7 @@ NS_OK
 nsresult
 rv
 =
-FetchUtil
+BodyUtil
 :
 :
 ConsumeText
