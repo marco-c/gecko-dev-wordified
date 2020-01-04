@@ -23748,6 +23748,7 @@ bool
 BackfaceIsHidden
 (
 )
+const
 {
 return
 StyleDisplay

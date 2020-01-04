@@ -11944,11 +11944,6 @@ return
 mFrame
 -
 >
-StyleDisplay
-(
-)
--
->
 BackfaceIsHidden
 (
 )

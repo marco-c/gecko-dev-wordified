@@ -8404,11 +8404,6 @@ if
 aFrame
 -
 >
-StyleDisplay
-(
-)
--
->
 BackfaceIsHidden
 (
 )
