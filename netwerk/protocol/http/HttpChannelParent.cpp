@@ -6359,7 +6359,7 @@ them
 requestHead
 -
 >
-Enter
+Lock
 (
 )
 ;
@@ -6428,7 +6428,7 @@ NS_ERROR_UNEXPECTED
 requestHead
 -
 >
-Exit
+Unlock
 (
 )
 ;
