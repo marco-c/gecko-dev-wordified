@@ -3197,6 +3197,9 @@ SEMGET
 case
 SEMCTL
 :
+case
+SEMOP
+:
 return
 Some
 (
