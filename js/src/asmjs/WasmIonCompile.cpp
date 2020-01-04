@@ -7607,7 +7607,7 @@ readU8
 return
 func_
 .
-readU8
+uncheckedReadU8
 (
 &
 pc_
@@ -7622,7 +7622,7 @@ readU32
 return
 func_
 .
-readU32
+uncheckedReadU32
 (
 &
 pc_
@@ -7637,7 +7637,7 @@ readI32
 return
 func_
 .
-readI32
+uncheckedReadI32
 (
 &
 pc_
@@ -7652,7 +7652,7 @@ readF32
 return
 func_
 .
-readF32
+uncheckedReadF32
 (
 &
 pc_
@@ -7667,7 +7667,7 @@ readF64
 return
 func_
 .
-readF64
+uncheckedReadF64
 (
 &
 pc_
@@ -7684,7 +7684,7 @@ readSig
 return
 func_
 .
-readSig
+uncheckedReadSig
 (
 &
 pc_
@@ -7699,7 +7699,7 @@ readI32X4
 return
 func_
 .
-readI32X4
+uncheckedReadI32X4
 (
 &
 pc_
@@ -7714,7 +7714,7 @@ readF32X4
 return
 func_
 .
-readF32X4
+uncheckedReadF32X4
 (
 &
 pc_
