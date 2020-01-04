@@ -4325,11 +4325,6 @@ JS
 SetPromiseRejectionTrackerCallback
 (
 cx
--
->
-runtime
-(
-)
 ForwardingPromiseRejectionTrackerCallback
 )
 ;
@@ -17940,7 +17935,7 @@ JS
 :
 SetEnqueuePromiseJobCallback
 (
-rt
+cx
 ShellEnqueuePromiseJobCallback
 )
 ;
@@ -17949,7 +17944,7 @@ JS
 :
 SetGetIncumbentGlobalCallback
 (
-rt
+cx
 ShellGetIncumbentGlobalCallback
 )
 ;
@@ -18123,7 +18118,7 @@ JS
 :
 SetGetIncumbentGlobalCallback
 (
-rt
+cx
 nullptr
 )
 ;
@@ -18132,7 +18127,7 @@ JS
 :
 SetEnqueuePromiseJobCallback
 (
-rt
+cx
 nullptr
 )
 ;
@@ -48877,7 +48872,7 @@ destroy
 ;
 JS_SetInterruptCallback
 (
-rt
+cx
 ShellInterruptCallback
 )
 ;
@@ -48956,7 +48951,7 @@ JS
 :
 SetEnqueuePromiseJobCallback
 (
-rt
+cx
 ShellEnqueuePromiseJobCallback
 )
 ;
@@ -48965,7 +48960,7 @@ JS
 :
 SetGetIncumbentGlobalCallback
 (
-rt
+cx
 ShellGetIncumbentGlobalCallback
 )
 ;
@@ -49151,7 +49146,7 @@ JS
 :
 SetGetIncumbentGlobalCallback
 (
-rt
+cx
 nullptr
 )
 ;
@@ -49160,7 +49155,7 @@ JS
 :
 SetEnqueuePromiseJobCallback
 (
-rt
+cx
 nullptr
 )
 ;

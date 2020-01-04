@@ -8685,12 +8685,6 @@ UndefinedValue
 )
 )
 ;
-JS_SetInterruptCallback
-(
-rt
-XPCShellInterruptCallback
-)
-;
 AutoJSAPI
 jsapi
 ;
@@ -8706,6 +8700,12 @@ jsapi
 .
 cx
 (
+)
+;
+JS_SetInterruptCallback
+(
+cx
+XPCShellInterruptCallback
 )
 ;
 argc

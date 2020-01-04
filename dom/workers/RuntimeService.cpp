@@ -4248,7 +4248,7 @@ nullptr
 }
 JS_SetInterruptCallback
 (
-aRuntime
+workerCx
 InterruptCallback
 )
 ;
