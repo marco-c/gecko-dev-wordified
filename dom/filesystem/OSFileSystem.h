@@ -158,9 +158,9 @@ aRootDir
 void
 Init
 (
-nsPIDOMWindowInner
+nsISupports
 *
-aWindow
+aParent
 )
 ;
 /
@@ -168,9 +168,9 @@ aWindow
 Overrides
 FileSystemBase
 virtual
-nsPIDOMWindowInner
+nsISupports
 *
-GetWindow
+GetParentObject
 (
 )
 const
@@ -252,9 +252,9 @@ OSFileSystem
 }
 nsCOMPtr
 <
-nsPIDOMWindowInner
+nsISupports
 >
-mWindow
+mParent
 ;
 }
 ;
