@@ -454,12 +454,6 @@ ObjectCreate
 \
 _
 (
-CallBoundFunction
-)
-\
-\
-_
-(
 SimdInt32x4
 )
 \

@@ -2564,9 +2564,15 @@ NOT_EXTENSIBLE
 INDEXED
 =
 0x20
-BOUND_FUNCTION
-=
+/
+*
+(
 0x40
+is
+unused
+)
+*
+/
 HAD_ELEMENTS_ACCESS
 =
 0x80

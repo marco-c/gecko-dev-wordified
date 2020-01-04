@@ -13753,6 +13753,16 @@ fun
 allowSuperProperty
 (
 )
+|
+|
+info
+.
+fun
+-
+>
+isSelfHostedBuiltin
+(
+)
 )
 ;
 static_assert

@@ -1583,7 +1583,7 @@ array
 nullptr
 nullptr
 }
-1
+0
 0
 "
 ArrayShorthand

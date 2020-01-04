@@ -1889,15 +1889,6 @@ native
 js
 :
 :
-CallOrConstructBoundFunction
-&
-&
-native
-!
-=
-js
-:
-:
 IteratorConstructor
 &
 &
