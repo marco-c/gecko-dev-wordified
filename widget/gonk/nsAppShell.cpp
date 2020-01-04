@@ -4269,6 +4269,13 @@ gAppShell
 =
 this
 ;
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 Preferences
 :
 :
@@ -4284,6 +4291,7 @@ unset
 "
 )
 ;
+}
 }
 nsAppShell
 :
