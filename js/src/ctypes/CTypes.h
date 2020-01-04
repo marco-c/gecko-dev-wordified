@@ -730,6 +730,9 @@ AP
 w
 )
 {
+if
+(
+!
 v
 .
 append
@@ -745,6 +748,8 @@ length
 (
 )
 )
+)
+return
 ;
 }
 template
@@ -812,6 +817,10 @@ hasLatin1Chars
 (
 )
 )
+{
+if
+(
+!
 v
 .
 append
@@ -830,8 +839,15 @@ length
 (
 )
 )
+)
+return
 ;
+}
 else
+{
+if
+(
+!
 v
 .
 append
@@ -850,7 +866,10 @@ length
 (
 )
 )
+)
+return
 ;
+}
 }
 template
 <
