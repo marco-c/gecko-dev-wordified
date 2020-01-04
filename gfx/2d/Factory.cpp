@@ -3622,6 +3622,8 @@ float
 aSize
 bool
 aUseEmbeddedBitmap
+bool
+aForceGDIMode
 )
 {
 return
@@ -3635,6 +3637,7 @@ aFontFamily
 aFontFace
 aSize
 aUseEmbeddedBitmap
+aForceGDIMode
 )
 ;
 }
