@@ -898,7 +898,8 @@ scripts
 .
 *
 /
-bool
+JSObject
+*
 ValueToIterator
 (
 JSContext
@@ -906,7 +907,7 @@ JSContext
 cx
 unsigned
 flags
-MutableHandleValue
+HandleValue
 vp
 )
 ;
