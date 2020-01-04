@@ -4463,6 +4463,16 @@ Disconnect
 (
 )
 {
+/
+/
+No
+need
+to
+do
+anything
+when
+disconnect
+.
 return
 NS_OK
 ;
