@@ -4074,10 +4074,7 @@ virtual
 void
 GetAdapterProperty
 (
-const
-nsAString
-&
-aName
+BluetoothPropertyType
 BluetoothResultHandler
 *
 aRes
@@ -4130,10 +4127,8 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-const
-nsAString
-&
-aName
+BluetoothPropertyType
+aType
 BluetoothResultHandler
 *
 aRes

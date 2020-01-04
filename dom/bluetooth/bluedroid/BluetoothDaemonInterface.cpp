@@ -3449,10 +3449,8 @@ BluetoothDaemonInterface
 :
 GetAdapterProperty
 (
-const
-nsAString
-&
-aName
+BluetoothPropertyType
+aType
 BluetoothResultHandler
 *
 aRes
@@ -3473,7 +3471,7 @@ mProtocol
 >
 GetAdapterPropertyCmd
 (
-aName
+aType
 aRes
 )
 ;
@@ -3610,10 +3608,8 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-const
-nsAString
-&
-aName
+BluetoothPropertyType
+aType
 BluetoothResultHandler
 *
 aRes
@@ -3635,7 +3631,7 @@ mProtocol
 GetRemoteDevicePropertyCmd
 (
 aRemoteAddr
-aName
+aType
 aRes
 )
 ;
