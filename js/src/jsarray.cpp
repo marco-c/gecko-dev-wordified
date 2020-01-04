@@ -20322,6 +20322,9 @@ ArrayKeys
 0
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -20333,6 +20336,8 @@ ArrayValues
 0
 0
 )
+#
+endif
 /
 *
 ES7
