@@ -209,6 +209,15 @@ as
 \
 macro
 (
+ArrayBufferSpecies
+ArrayBufferSpecies
+"
+ArrayBufferSpecies
+"
+)
+\
+macro
+(
 ArrayIteratorNext
 ArrayIteratorNext
 "
