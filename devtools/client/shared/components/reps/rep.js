@@ -793,6 +793,9 @@ string
 else
 if
 (
+object
+&
+&
 type
 =
 =
