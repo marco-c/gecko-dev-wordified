@@ -679,6 +679,9 @@ Tracks
 struct
 GridReflowState
 ;
+class
+LineNameMap
+;
 friend
 nsContainerFrame
 *
