@@ -4461,7 +4461,10 @@ ctx
 InitializeWithDrawTarget
 (
 nullptr
+WrapNotNull
+(
 canvasTarget
+)
 )
 ;
 /

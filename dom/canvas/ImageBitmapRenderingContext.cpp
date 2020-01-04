@@ -425,11 +425,14 @@ InitializeWithDrawTarget
 nsIDocShell
 *
 aDocShell
+NotNull
+<
 gfx
 :
 :
 DrawTarget
 *
+>
 aTarget
 )
 {

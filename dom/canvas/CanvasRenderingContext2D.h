@@ -2611,11 +2611,14 @@ InitializeWithDrawTarget
 nsIDocShell
 *
 aShell
+NotNull
+<
 gfx
 :
 :
 DrawTarget
 *
+>
 aTarget
 )
 override
