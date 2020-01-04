@@ -33333,6 +33333,11 @@ toPrimitive
 \
 macro
 (
+toStringTag
+)
+\
+macro
+(
 unscopables
 )
 enum

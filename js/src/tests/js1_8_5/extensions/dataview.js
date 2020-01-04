@@ -17263,7 +17263,7 @@ prototype
 "
 [
 object
-DataViewPrototype
+DataView
 ]
 "
 )
