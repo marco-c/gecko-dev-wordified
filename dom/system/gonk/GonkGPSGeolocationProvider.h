@@ -541,9 +541,6 @@ int
 id
 GpsNiNotifyFlags
 flags
-nsString
-&
-message
 )
 ;
 #
