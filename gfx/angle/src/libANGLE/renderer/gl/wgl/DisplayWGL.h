@@ -262,6 +262,13 @@ generateConfigs
 override
 ;
 bool
+isDeviceLost
+(
+)
+const
+override
+;
+bool
 testDeviceLost
 (
 )
@@ -434,9 +441,6 @@ mFunctionsWGL
 FunctionsGL
 *
 mFunctionsGL
-;
-bool
-mHasARBCreateContextRobustness
 ;
 ATOM
 mWindowClass

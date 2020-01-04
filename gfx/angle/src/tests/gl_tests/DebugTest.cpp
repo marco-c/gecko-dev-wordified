@@ -2362,7 +2362,7 @@ if
 mDebugExtensionAvailable
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 <

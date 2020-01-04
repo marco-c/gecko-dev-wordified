@@ -110,14 +110,6 @@ mColorLocation
 -
 1
 ;
-mFramebuffer
-=
-0
-;
-mColorRenderbuffer
-=
-0
-;
 }
 struct
 Color
@@ -209,7 +201,7 @@ colorFormat
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -840,7 +832,7 @@ RGBA32f
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1014,7 +1006,7 @@ RGBA16F
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <

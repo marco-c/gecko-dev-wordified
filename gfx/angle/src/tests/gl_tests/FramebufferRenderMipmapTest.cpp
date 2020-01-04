@@ -318,7 +318,7 @@ GL_OES_fbo_render_mipmap
 )
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 >
@@ -589,7 +589,7 @@ GL_OES_fbo_render_mipmap
 )
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 >

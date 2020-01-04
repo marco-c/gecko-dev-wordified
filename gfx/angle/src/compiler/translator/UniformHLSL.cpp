@@ -700,7 +700,7 @@ getArraySize
 (
 )
 :
-1u
+1
 ;
 mSamplerRegister
 +
@@ -947,11 +947,10 @@ type
 ;
 for
 (
-unsigned
 int
 i
 =
-0u
+0
 ;
 i
 <
@@ -970,7 +969,7 @@ if
 (
 i
 >
-0u
+0
 )
 out
 <
@@ -1874,7 +1873,6 @@ TString
 >
 symbolsToAPINames
 ;
-unsigned
 int
 arrayOfStructsSize
 =
@@ -1890,7 +1888,7 @@ getArraySize
 (
 )
 :
-0u
+0
 ;
 type
 .

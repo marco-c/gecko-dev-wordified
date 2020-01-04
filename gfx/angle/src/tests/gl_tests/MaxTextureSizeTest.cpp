@@ -97,11 +97,11 @@ setConfigAlphaBits
 )
 ;
 }
+virtual
 void
 SetUp
 (
 )
-override
 {
 ANGLETest
 :
@@ -314,11 +314,11 @@ ASSERT_GL_NO_ERROR
 )
 ;
 }
+virtual
 void
 TearDown
 (
 )
-override
 {
 glDeleteProgram
 (
@@ -795,7 +795,7 @@ SpecificationTexStorage
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1023,7 +1023,7 @@ pixel
 }
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1291,7 +1291,7 @@ RenderToTexture
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <

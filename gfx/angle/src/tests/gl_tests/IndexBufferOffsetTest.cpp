@@ -705,7 +705,7 @@ UInt32Index
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <

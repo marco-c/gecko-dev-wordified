@@ -472,9 +472,6 @@ ASSERT
 (
 d3dFormatInfo
 .
-info
--
->
 mipGenerationFunction
 !
 =
@@ -658,9 +655,6 @@ destData
 ;
 d3dFormatInfo
 .
-info
--
->
 mipGenerationFunction
 (
 sourceDesc

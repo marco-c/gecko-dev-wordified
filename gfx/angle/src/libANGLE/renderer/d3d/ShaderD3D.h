@@ -101,9 +101,6 @@ D3DCompilerWorkarounds
 struct
 D3DUniform
 ;
-struct
-WorkaroundsD3D
-;
 class
 ShaderD3D
 :
@@ -121,10 +118,6 @@ gl
 ShaderState
 &
 data
-const
-WorkaroundsD3D
-&
-workarounds
 )
 ;
 virtual
@@ -458,16 +451,9 @@ int
 >
 mInterfaceBlockRegisterMap
 ;
-int
-mAdditionalOptions
-;
 }
 ;
 }
-/
-/
-namespace
-rx
 #
 endif
 /
