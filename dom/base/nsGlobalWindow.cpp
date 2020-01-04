@@ -39388,6 +39388,10 @@ GetCurrentInnerWindowInternal
 -
 >
 mDoc
+.
+get
+(
+)
 :
 nullptr
 )

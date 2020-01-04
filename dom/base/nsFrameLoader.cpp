@@ -8320,6 +8320,10 @@ nsIDocShellTreeItem
 typeContent
 ?
 otherChromeEventHandler
+.
+get
+(
+)
 :
 nullptr
 )
@@ -8337,6 +8341,10 @@ nsIDocShellTreeItem
 typeContent
 ?
 ourChromeEventHandler
+.
+get
+(
+)
 :
 nullptr
 )

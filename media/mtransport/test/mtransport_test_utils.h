@@ -224,10 +224,8 @@ rv
 )
 ;
 }
-nsCOMPtr
-<
 nsIEventTarget
->
+*
 sts_target
 (
 )

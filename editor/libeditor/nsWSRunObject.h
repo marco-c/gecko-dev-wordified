@@ -2639,10 +2639,8 @@ subtree
 .
 *
 /
-already_AddRefed
-<
 nsINode
->
+*
 GetWSBoundingParent
 (
 )

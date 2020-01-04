@@ -11053,6 +11053,10 @@ GetCurrentPrincipal
 (
 )
 )
+.
+get
+(
+)
 true
 nsString
 (

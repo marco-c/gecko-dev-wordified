@@ -1833,10 +1833,8 @@ Get
 the
 STS
 thread
-nsCOMPtr
-<
 nsIEventTarget
->
+*
 GetSTSThread
 (
 )
