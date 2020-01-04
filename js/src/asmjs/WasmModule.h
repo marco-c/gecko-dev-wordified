@@ -1011,6 +1011,12 @@ instances
 .
 class
 Module
+:
+public
+RefCounted
+<
+Module
+>
 {
 const
 Bytes
@@ -1248,7 +1254,7 @@ const
 uint8_t
 *
 cursor
-UniquePtr
+RefPtr
 <
 Module
 >
@@ -1297,11 +1303,11 @@ const
 }
 ;
 typedef
-UniquePtr
+RefPtr
 <
 Module
 >
-UniqueModule
+SharedModule
 ;
 /
 /

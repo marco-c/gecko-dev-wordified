@@ -13427,7 +13427,7 @@ finishFuncDefs
 )
 ;
 }
-UniqueModule
+SharedModule
 finish
 (
 )
@@ -47415,7 +47415,7 @@ true
 ;
 }
 static
-UniqueModule
+SharedModule
 CheckModule
 (
 ExclusiveContext
@@ -47601,7 +47601,7 @@ m
 return
 nullptr
 ;
-UniqueModule
+SharedModule
 module
 =
 m
@@ -54711,7 +54711,7 @@ parser
 bool
 *
 loadedFromCache
-UniqueModule
+SharedModule
 *
 module
 UniqueChars
@@ -55904,7 +55904,7 @@ key
 bool
 loadedFromCache
 ;
-UniqueModule
+SharedModule
 module
 ;
 UniqueChars
@@ -56144,10 +56144,8 @@ WasmModuleObject
 create
 (
 cx
-Move
-(
+*
 module
-)
 )
 )
 ;

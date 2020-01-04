@@ -1284,7 +1284,7 @@ and
 source
 )
 .
-UniqueModule
+SharedModule
 finish
 (
 ImportVector
