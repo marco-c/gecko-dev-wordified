@@ -2827,19 +2827,7 @@ abs_symbols_dir
         
 self
 .
-mkdir_p
-(
-dirs
-[
-'
-abs_fennec_dir
-'
-]
-)
-        
-self
-.
-_download_unzip
+download_unzip
 (
 self
 .
@@ -3016,7 +3004,7 @@ query_symbols_url
         
 self
 .
-_download_unzip
+download_unzip
 (
 self
 .
@@ -3032,7 +3020,7 @@ abs_symbols_dir
         
 self
 .
-_download_unzip
+download_unzip
 (
 self
 .

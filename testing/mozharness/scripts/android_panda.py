@@ -3383,10 +3383,6 @@ hostutils_url
 ]
         
 #
-create
-the
-hostutils
-dir
 get
 the
 zip
@@ -3396,19 +3392,7 @@ it
         
 self
 .
-mkdir_p
-(
-dirs
-[
-'
-abs_hostutils_dir
-'
-]
-)
-        
-self
-.
-_download_unzip
+download_unzip
 (
 self
 .
