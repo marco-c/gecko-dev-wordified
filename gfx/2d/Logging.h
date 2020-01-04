@@ -948,14 +948,15 @@ InvalidFont
 PAllocTextureBackendMismatch
 GetFontFileDataFailed
 MessageChannelCloseFailure
+MessageChannelInvalidHandle
 TextureAliveAfterShutdown
 InvalidContext
 InvalidCommandList
 AsyncTransactionTimeout
-TextureCreation
 /
 /
 30
+TextureCreation
 /
 /
 End
