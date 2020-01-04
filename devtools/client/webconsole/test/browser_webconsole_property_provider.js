@@ -168,7 +168,11 @@ shared
 /
 webconsole
 /
-utils
+js
+-
+property
+-
+provider
 "
 )
 ;
