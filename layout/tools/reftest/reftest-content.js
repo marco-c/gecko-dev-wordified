@@ -787,7 +787,7 @@ PaintWaitFinishedListener
 true
 )
 ;
-LogWarning
+LogInfo
 (
 "
 Using
