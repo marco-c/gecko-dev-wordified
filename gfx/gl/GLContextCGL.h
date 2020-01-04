@@ -324,7 +324,11 @@ SupportsRobustness
 )
 const
 override
+{
+return
+false
 ;
+}
 virtual
 bool
 SwapBuffers
