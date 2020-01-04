@@ -510,16 +510,14 @@ tooltips
 colorPicker
 ;
 let
-onShown
+onReady
 =
 cPicker
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -530,7 +528,7 @@ click
 )
 ;
 yield
-onShown
+onReady
 ;
 /
 /

@@ -341,16 +341,14 @@ colorswatch
 )
 ;
 let
-onShown
+onColorPickerReady
 =
 cPicker
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -361,7 +359,7 @@ click
 )
 ;
 yield
-onShown
+onColorPickerReady
 ;
 yield
 simulateColorPickerChange

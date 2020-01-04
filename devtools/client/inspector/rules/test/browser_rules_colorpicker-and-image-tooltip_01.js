@@ -337,16 +337,14 @@ tooltips
 colorPicker
 ;
 let
-onShown
+onColorPickerReady
 =
 picker
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -357,7 +355,7 @@ click
 )
 ;
 yield
-onShown
+onColorPickerReady
 ;
 yield
 simulateColorPickerChange
