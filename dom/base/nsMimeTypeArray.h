@@ -264,15 +264,6 @@ bool
 found
 )
 ;
-bool
-NameIsEnumerable
-(
-const
-nsAString
-&
-name
-)
-;
 uint32_t
 Length
 (

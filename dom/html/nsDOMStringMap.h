@@ -298,15 +298,6 @@ bool
 found
 )
 ;
-bool
-NameIsEnumerable
-(
-const
-nsAString
-&
-aName
-)
-;
 void
 GetSupportedNames
 (

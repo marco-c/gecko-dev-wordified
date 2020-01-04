@@ -778,15 +778,6 @@ bool
 aFound
 )
 ;
-bool
-NameIsEnumerable
-(
-const
-nsAString
-&
-aName
-)
-;
 already_AddRefed
 <
 Attr
