@@ -117,9 +117,9 @@ ipdl
 .
 ast
 import
-NORMAL_PRIORITY
-HIGH_PRIORITY
-URGENT_PRIORITY
+NOT_NESTED
+INSIDE_SYNC_NESTED
+INSIDE_CPOW_NESTED
 import
 ipdl
 .
@@ -1468,14 +1468,14 @@ if
 (
 lesser
 .
-priorityRange
+nestedRange
 [
 0
 ]
 <
 greater
 .
-priorityRange
+nestedRange
 [
 0
 ]
@@ -1483,14 +1483,14 @@ or
             
 lesser
 .
-priorityRange
+nestedRange
 [
 1
 ]
 >
 greater
 .
-priorityRange
+nestedRange
 [
 1
 ]
@@ -1514,7 +1514,7 @@ use
         
 #
 message
-priorities
+nesting
 .
         
 if
@@ -1528,12 +1528,12 @@ and
             
 lesser
 .
-priorityRange
+nestedRange
 !
 =
 (
-NORMAL_PRIORITY
-NORMAL_PRIORITY
+NOT_NESTED
+NOT_NESTED
 )
 )
 :
@@ -1683,7 +1683,7 @@ def
 __init__
 (
 self
-priority
+nested
 sendSemantics
 direction
                  
@@ -1729,17 +1729,17 @@ None
         
 self
 .
-priority
+nested
 =
-priority
+nested
         
 self
 .
-priorityRange
+nestedRange
 =
 (
-priority
-priority
+nested
+nested
 )
         
 self
@@ -2025,7 +2025,7 @@ __init__
 (
 self
 qname
-priorityRange
+nestedRange
 sendSemantics
 stateless
 =
@@ -2041,9 +2041,9 @@ qname
         
 self
 .
-priorityRange
+nestedRange
 =
-priorityRange
+nestedRange
         
 self
 .
@@ -5047,7 +5047,7 @@ ProtocolType
 qname
 p
 .
-priorityRange
+nestedRange
 p
 .
 sendSemantics
@@ -8203,7 +8203,7 @@ MessageType
 (
 md
 .
-priority
+nested
 md
 .
 sendSemantics
@@ -10986,10 +10986,10 @@ loc
 if
 mtype
 .
-priority
+nested
 =
 =
-HIGH_PRIORITY
+INSIDE_SYNC_NESTED
 and
 not
 mtype
@@ -11007,8 +11007,8 @@ error
 loc
                 
 "
-high
-priority
+inside_sync
+nested
 messages
 must
 be
@@ -11034,10 +11034,10 @@ pname
 if
 mtype
 .
-priority
+nested
 =
 =
-URGENT_PRIORITY
+INSIDE_CPOW_NESTED
 and
 (
 mtype
@@ -11062,7 +11062,8 @@ error
 loc
                 
 "
-urgent
+inside_cpow
+nested
 parent
 -
 to
@@ -11092,10 +11093,12 @@ pname
 #
 We
 allow
-high
-priority
-sync
+inside_sync
 messages
+that
+are
+themselves
+sync
 to
 be
 sent
@@ -11107,9 +11110,12 @@ parent
 .
 Normal
 and
-urgent
-sync
+inside_cpow
+nested
 messages
+that
+are
+sync
 can
 only
 come
@@ -11129,10 +11135,10 @@ isSync
 and
 mtype
 .
-priority
+nested
 =
 =
-NORMAL_PRIORITY
+NOT_NESTED
 and
 (
 mtype
