@@ -3466,6 +3466,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
+)
 bool
 mAccessibilityInUseFlag
 ;
