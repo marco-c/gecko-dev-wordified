@@ -5930,7 +5930,7 @@ root
 /
 "
 }
-require
+requireHook
 :
 (
 id
@@ -6085,7 +6085,7 @@ root
 /
 "
 }
-require
+requireHook
 :
 (
 id
