@@ -4314,6 +4314,13 @@ InitStatics
 (
 )
 ;
+SharedThreadPool
+:
+:
+InitStatics
+(
+)
+;
 return
 NS_OK
 ;
