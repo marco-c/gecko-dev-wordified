@@ -1036,7 +1036,7 @@ mkdirs
 )
 )
 ;
-FileUtil
+FileUtils
 .
 writeJSONObjectToFile
 (
@@ -1787,7 +1787,7 @@ PROFILE_CREATION_DATE_JSON_ATTR
 expectedDate
 )
 ;
-FileUtil
+FileUtils
 .
 writeJSONObjectToFile
 (
@@ -2122,7 +2122,7 @@ CLIENT_ID_JSON_ATTR
 clientId
 )
 ;
-FileUtil
+FileUtils
 .
 writeJSONObjectToFile
 (
