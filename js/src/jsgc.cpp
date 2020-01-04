@@ -22858,7 +22858,7 @@ true
 }
 compartments
 .
-resize
+shrinkTo
 (
 write
 -
@@ -23145,7 +23145,7 @@ zone
 }
 zones
 .
-resize
+shrinkTo
 (
 write
 -
