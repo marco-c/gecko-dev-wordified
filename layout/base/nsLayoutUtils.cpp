@@ -40476,7 +40476,7 @@ switch
 sc
 -
 >
-StyleSVG
+StyleVisibility
 (
 )
 -
