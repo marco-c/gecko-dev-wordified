@@ -3379,6 +3379,10 @@ __func__
 ;
 #
 endif
+DiscardOngoingSeekIfExists
+(
+)
+;
 /
 /
 This
