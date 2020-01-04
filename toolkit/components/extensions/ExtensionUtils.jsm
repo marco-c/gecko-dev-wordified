@@ -4583,7 +4583,8 @@ sender
 usually
 giving
 its
-extensionId
+extension
+id
 tabId
 etc
 .
