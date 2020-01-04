@@ -151,7 +151,7 @@ Exception
     
 pass
 class
-DummyFunction
+DependsFunction
 (
 object
 )
@@ -654,7 +654,7 @@ behind
 each
         
 #
-DummyFunction
+DependsFunction
 generated
 from
 depends
@@ -1665,7 +1665,7 @@ not
 isinstance
 (
 value
-DummyFunction
+DependsFunction
 )
 and
                 
@@ -1739,7 +1739,7 @@ if
 isinstance
 (
 arg
-DummyFunction
+DependsFunction
 )
 :
             
@@ -2538,7 +2538,7 @@ elif
 isinstance
 (
 arg
-DummyFunction
+DependsFunction
 )
 :
                 
@@ -2668,7 +2668,7 @@ wraps
 func
 )
 (
-DummyFunction
+DependsFunction
 (
 )
 )
@@ -2705,7 +2705,7 @@ if
 isinstance
 (
 arg
-DummyFunction
+DependsFunction
 )
 :
                         
@@ -4028,7 +4028,7 @@ and
 isinstance
 (
 value
-DummyFunction
+DependsFunction
 )
 :
             
@@ -4114,7 +4114,7 @@ not
 isinstance
 (
 value
-DummyFunction
+DependsFunction
 )
 :
             
