@@ -3739,7 +3739,7 @@ break
 ;
 }
 case
-kRtpExtensionRID
+kRtpExtensionRtpStreamId
 :
 {
 /

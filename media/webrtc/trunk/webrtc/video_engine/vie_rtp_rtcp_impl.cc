@@ -4520,7 +4520,7 @@ if
 vie_channel
 -
 >
-SetSendRIDStatus
+SetSendRtpStreamId
 (
 enable
 id
@@ -4653,7 +4653,7 @@ if
 vie_channel
 -
 >
-SetReceiveRIDStatus
+SetReceiveRtpStreamId
 (
 enable
 id
