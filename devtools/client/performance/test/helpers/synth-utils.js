@@ -724,6 +724,8 @@ hbox
 ;
 node
 .
+style
+.
 marginInlineStart
 =
 (

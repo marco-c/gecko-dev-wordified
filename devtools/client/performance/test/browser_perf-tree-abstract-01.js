@@ -351,6 +351,8 @@ treeRoot
 .
 target
 .
+style
+.
 marginInlineStart
 "
 0px
@@ -718,6 +720,8 @@ fooItem
 .
 target
 .
+style
+.
 marginInlineStart
 "
 10px
@@ -849,6 +853,8 @@ is
 barItem
 .
 target
+.
+style
 .
 marginInlineStart
 "
@@ -1330,6 +1336,8 @@ is
 bazItem
 .
 target
+.
+style
 .
 marginInlineStart
 "
