@@ -671,7 +671,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

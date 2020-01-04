@@ -4524,7 +4524,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .
@@ -5265,7 +5265,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

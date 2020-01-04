@@ -5,7 +5,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

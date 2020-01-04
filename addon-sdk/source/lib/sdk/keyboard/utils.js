@@ -301,7 +301,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

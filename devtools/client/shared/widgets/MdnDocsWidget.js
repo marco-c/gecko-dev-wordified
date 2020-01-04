@@ -562,7 +562,7 @@ https
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

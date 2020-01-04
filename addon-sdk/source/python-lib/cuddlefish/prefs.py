@@ -1485,7 +1485,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

@@ -3186,7 +3186,7 @@ https
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .
