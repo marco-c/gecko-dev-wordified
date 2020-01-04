@@ -306,7 +306,7 @@ nsISVGSVGFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 )
 #
 ifdef
@@ -354,7 +354,7 @@ element
 "
 )
 ;
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -618,7 +618,7 @@ clipRect
 ;
 }
 return
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 PaintSVG
@@ -890,7 +890,7 @@ InvalidateFrame
 )
 ;
 }
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 ReflowSVG
@@ -1275,7 +1275,7 @@ mCanvasTM
 nullptr
 ;
 }
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 NotifySVGChanged
@@ -1844,7 +1844,7 @@ nullptr
 }
 }
 return
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 GetFrameForPoint
