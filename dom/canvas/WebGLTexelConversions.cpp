@@ -355,6 +355,12 @@ WebGLTexelFormat
 :
 RG16F
 :
+case
+WebGLTexelFormat
+:
+:
+RG32F
+:
 return
 2
 ;
@@ -1733,6 +1739,13 @@ WebGLTexelFormat
 :
 :
 RG16F
+)
+WEBGLIMAGECONVERTER_CASE_DSTFORMAT
+(
+WebGLTexelFormat
+:
+:
+RG32F
 )
 /
 /
