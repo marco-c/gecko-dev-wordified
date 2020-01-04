@@ -2378,7 +2378,7 @@ fnname
 "
 string
 "
-InformalValueType
+InformalValueTypeName
 (
 value
 )
