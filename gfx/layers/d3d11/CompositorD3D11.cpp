@@ -8188,9 +8188,6 @@ ForcePresent
 (
 )
 {
-RECT
-clientRect
-;
 LayoutDeviceIntRect
 rect
 ;
