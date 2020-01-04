@@ -23522,7 +23522,6 @@ clipState
 mBGClipArea
 layer
 nullptr
-co
 )
 ;
 result
@@ -25514,8 +25513,6 @@ aLayer
 bool
 *
 aOutIsTransformedFixed
-CompositionOp
-aCompositonOp
 )
 {
 /
