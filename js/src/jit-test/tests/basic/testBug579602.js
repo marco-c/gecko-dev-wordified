@@ -34,10 +34,11 @@ function
 )
 x
 =
+new
 Proxy
-.
-create
 (
+{
+}
 (
 function
 (
@@ -53,8 +54,8 @@ gc
 )
 (
 )
-x
 )
+;
 with
 (
 {

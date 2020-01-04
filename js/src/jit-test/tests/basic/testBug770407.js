@@ -18,11 +18,12 @@ newGlobal
 var
 proxy
 =
+new
+(
 otherGlobal
 .
 Proxy
-.
-create
+)
 (
 {
 }
