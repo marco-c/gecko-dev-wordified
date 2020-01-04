@@ -11198,6 +11198,9 @@ of
 the
 principal
 .
+nsresult
+rv
+=
 nsJSPrincipals
 :
 :
@@ -11210,6 +11213,12 @@ prin
 GetScriptLocation
 (
 filenameBuf
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 lineNo

@@ -512,7 +512,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 nsNullPrincipal
 :
 :
@@ -523,6 +523,7 @@ nsACString
 aStr
 )
 {
+return
 mURI
 -
 >

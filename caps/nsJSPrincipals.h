@@ -372,7 +372,7 @@ reports
 *
 /
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString
