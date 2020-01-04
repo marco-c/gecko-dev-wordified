@@ -352,7 +352,7 @@ tab
 &
 id
 =
-1
+10000
 "
 )
 )
@@ -386,7 +386,7 @@ with
 outerWindowID
 :
 '
-1
+10000
 '
 doesn
 '
