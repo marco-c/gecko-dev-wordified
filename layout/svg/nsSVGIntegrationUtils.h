@@ -978,6 +978,16 @@ PaintFramesParams
 aParams
 )
 ;
+static
+DrawResult
+PaintFilter
+(
+const
+PaintFramesParams
+&
+aParams
+)
+;
 /
 *
 *
