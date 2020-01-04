@@ -754,6 +754,7 @@ matches
 ;
 while
 (
+(
 matches
 =
 regExp
@@ -761,6 +762,7 @@ regExp
 exec
 (
 str
+)
 )
 )
 {
