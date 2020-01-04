@@ -5579,9 +5579,11 @@ GetBrowserDOMWindow
 if
 (
 !
+!
 otherBrowserDOMWindow
-|
-|
+!
+=
+!
 !
 browserDOMWindow
 )
