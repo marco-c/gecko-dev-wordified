@@ -1996,6 +1996,11 @@ bool
 aIsRunning
 )
 ;
+void
+ResetIsRunningOnCompositor
+(
+)
+;
 /
 /
 Returns
@@ -2265,11 +2270,6 @@ aOptions
 ErrorResult
 &
 aRv
-)
-;
-void
-ResetIsRunningOnCompositor
-(
 )
 ;
 void
