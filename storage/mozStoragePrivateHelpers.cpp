@@ -1370,6 +1370,8 @@ v
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
