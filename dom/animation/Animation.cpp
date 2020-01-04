@@ -4649,7 +4649,10 @@ true
 ;
 }
 return
-IsRunningOnCompositor
+mEffect
+-
+>
+CanThrottle
 (
 )
 ;
