@@ -2118,6 +2118,11 @@ Display
 (
 )
 {
+MOZ_ASSERT
+(
+mInitialized
+)
+;
 return
 mEGLDisplay
 ;
@@ -2128,6 +2133,11 @@ IsANGLE
 )
 const
 {
+MOZ_ASSERT
+(
+mInitialized
+)
+;
 return
 mIsANGLE
 ;
@@ -2138,6 +2148,11 @@ IsWARP
 )
 const
 {
+MOZ_ASSERT
+(
+mInitialized
+)
+;
 return
 mIsWARP
 ;
