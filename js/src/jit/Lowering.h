@@ -1483,14 +1483,6 @@ ins
 )
 ;
 void
-visitAsmJSInterruptCheck
-(
-MAsmJSInterruptCheck
-*
-ins
-)
-;
-void
 visitWasmTrap
 (
 MWasmTrap

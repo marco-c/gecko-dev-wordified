@@ -1933,11 +1933,6 @@ InterruptCheck
 \
 _
 (
-AsmJSInterruptCheck
-)
-\
-_
-(
 WasmTrap
 )
 \
