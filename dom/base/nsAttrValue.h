@@ -958,8 +958,10 @@ aSerialized
 void
 SetTo
 (
+already_AddRefed
+<
 ServoDeclarationBlock
-*
+>
 aDeclarationBlock
 const
 nsAString

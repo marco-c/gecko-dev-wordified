@@ -196,7 +196,7 @@ include
 "
 mozilla
 /
-ServoBindings
+ServoBindingHelpers
 .
 h
 "
@@ -2149,8 +2149,10 @@ nsAttrValue
 :
 SetTo
 (
+already_AddRefed
+<
 ServoDeclarationBlock
-*
+>
 aValue
 const
 nsAString
@@ -2187,6 +2189,10 @@ mValue
 mServoCSSDeclaration
 =
 aValue
+.
+take
+(
+)
 ;
 cont
 -
@@ -8652,8 +8658,10 @@ value
 aString
 )
 ;
+RefPtr
+<
 ServoDeclarationBlock
-*
+>
 decl
 =
 Servo_ParseStyleAttribute
@@ -8678,6 +8686,10 @@ Length
 )
 sheet
 )
+.
+Consume
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -8687,6 +8699,10 @@ decl
 SetTo
 (
 decl
+.
+forget
+(
+)
 &
 aString
 )
@@ -9430,7 +9446,7 @@ mGeckoCSSDeclaration
 }
 else
 {
-Servo_DropDeclarationBlock
+Servo_DeclarationBlock_Release
 (
 cont
 -
