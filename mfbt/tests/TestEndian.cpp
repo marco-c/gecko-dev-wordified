@@ -128,7 +128,7 @@ include
 "
 mozilla
 /
-Endian
+EndianUtils
 .
 h
 "
@@ -371,7 +371,7 @@ endif
 }
 /
 /
-Endian
+EndianUtils
 .
 h
 functions
@@ -380,7 +380,7 @@ declared
 as
 protected
 in
-an
+a
 base
 class
 and

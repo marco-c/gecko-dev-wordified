@@ -572,10 +572,10 @@ ptr
 /
 #
 ifndef
-mozilla_Endian_h
+mozilla_EndianUtils_h
 #
 define
-mozilla_Endian_h
+mozilla_EndianUtils_h
 #
 include
 "
@@ -4173,6 +4173,6 @@ mozilla
 endif
 /
 *
-mozilla_Endian_h
+mozilla_EndianUtils_h
 *
 /
