@@ -1787,10 +1787,6 @@ ptr
 temp
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 cond
@@ -1985,10 +1981,6 @@ valueReg
 temp
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 cond

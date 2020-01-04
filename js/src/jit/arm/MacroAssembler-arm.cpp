@@ -18089,10 +18089,6 @@ valaddr
 scratch
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 NotEqual
@@ -18114,10 +18110,6 @@ valaddr
 scratch
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 NotEqual
@@ -18145,10 +18137,6 @@ valaddr
 scratch
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 NotEqual
@@ -18171,10 +18159,6 @@ valaddr
 scratch
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 Equal
