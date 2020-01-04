@@ -413,6 +413,9 @@ TransferringSupported
 StructuredCloneHolder
 :
 :
+StructuredCloneScope
+:
+:
 DifferentProcess
 )
 mExternalData

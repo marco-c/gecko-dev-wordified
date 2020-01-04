@@ -602,6 +602,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported
+StructuredCloneScope
+:
+:
 SameProcessDifferentThread
 )
 mWindowId

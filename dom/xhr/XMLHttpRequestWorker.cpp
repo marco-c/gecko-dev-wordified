@@ -1460,6 +1460,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
+StructuredCloneScope
+:
+:
 SameProcessDifferentThread
 )
 mStringBody
@@ -2392,6 +2395,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
+StructuredCloneScope
+:
+:
 SameProcessDifferentThread
 )
 mType
@@ -2501,6 +2507,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
+StructuredCloneScope
+:
+:
 SameProcessDifferentThread
 )
 mType
