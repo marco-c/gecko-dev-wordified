@@ -4801,7 +4801,7 @@ true
 /
 /
 Prevent
-collpasing
+collapsing
 the
 scope
 .
