@@ -9526,7 +9526,7 @@ parameters
 name
 ;
 let
-isB2G
+isMobile
 =
 this
 .
@@ -9534,7 +9534,7 @@ appName
 =
 =
 "
-B2G
+Fennec
 "
 ;
 let
@@ -9568,19 +9568,6 @@ nsIDOMWindowUtils
 )
 .
 outerWindowID
-;
-rv
-+
-=
-isB2G
-?
-"
--
-b2g
-"
-:
-"
-"
 ;
 return
 rv
@@ -9663,7 +9650,7 @@ gBrowser
 &
 &
 !
-isB2G
+isMobile
 )
 {
 let
