@@ -56,12 +56,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 var
 resizeContent
 =

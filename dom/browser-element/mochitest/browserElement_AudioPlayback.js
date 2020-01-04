@@ -81,12 +81,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 /
 *
 *
@@ -493,7 +487,7 @@ src
 =
 browserElementTestHelpers
 .
-emptyPage1
+fileEmptyPage1
 ;
 }
 addEventListener

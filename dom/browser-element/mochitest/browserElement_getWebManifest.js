@@ -62,12 +62,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 /
 /
 request

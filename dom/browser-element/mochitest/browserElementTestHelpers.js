@@ -743,6 +743,15 @@ file_empty
 html
 '
 '
+fileEmptyPage1
+'
+:
+'
+file_empty
+.
+html
+'
+'
 emptyPage2
 '
 :

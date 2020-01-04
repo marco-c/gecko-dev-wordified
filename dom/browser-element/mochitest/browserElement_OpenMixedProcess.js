@@ -235,12 +235,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 function
 runTest
 (

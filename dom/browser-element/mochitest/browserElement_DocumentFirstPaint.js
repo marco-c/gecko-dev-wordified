@@ -54,12 +54,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 var
 iframe
 ;
