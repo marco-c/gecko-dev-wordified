@@ -239,10 +239,10 @@ stderr
 {
 assert
 .
-ok
+equal
 (
-!
 err
+null
 "
 no
 errors
