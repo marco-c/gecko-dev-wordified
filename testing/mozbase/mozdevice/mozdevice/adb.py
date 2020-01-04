@@ -8681,6 +8681,20 @@ timeout
 =
 timeout
 )
+        
+self
+.
+shell_output
+(
+"
+log
+logcat
+cleared
+"
+timeout
+=
+timeout
+)
     
 def
 get_logcat
