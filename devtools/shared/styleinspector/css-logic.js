@@ -6370,6 +6370,19 @@ g
 "
 )
 ;
+let
+originalText
+=
+text
+;
+text
+=
+text
+.
+trim
+(
+)
+;
 /
 /
 don
@@ -6422,7 +6435,7 @@ ruleCount
 )
 {
 return
-text
+originalText
 ;
 }
 /
@@ -7522,7 +7535,7 @@ endOffset
 )
 {
 return
-text
+originalText
 ;
 }
 /
