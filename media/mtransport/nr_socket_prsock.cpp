@@ -9988,11 +9988,6 @@ int
 backlog
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 return
 R_INTERNAL
 ;
@@ -10012,11 +10007,6 @@ nr_socket
 sockp
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 return
 R_INTERNAL
 ;
