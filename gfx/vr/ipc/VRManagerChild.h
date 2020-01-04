@@ -511,6 +511,17 @@ RunFrameRequestCallbacks
 )
 ;
 void
+UpdateDisplayInfo
+(
+nsTArray
+<
+VRDisplayInfo
+>
+&
+aDisplayUpdates
+)
+;
+void
 FireDOMVRDisplayConnectEvent
 (
 )
@@ -869,6 +880,9 @@ VRDisplayClient
 >
 >
 mDisplays
+;
+bool
+mDisplaysInitialized
 ;
 nsTArray
 <

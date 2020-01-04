@@ -249,6 +249,17 @@ aDisplayID
 )
 ;
 void
+GetVRDisplayInfo
+(
+nsTArray
+<
+VRDisplayInfo
+>
+&
+aDisplayInfo
+)
+;
+void
 SubmitFrame
 (
 VRLayerParent
