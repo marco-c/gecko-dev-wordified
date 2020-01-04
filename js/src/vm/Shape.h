@@ -6428,6 +6428,11 @@ JSTracer
 trc
 )
 ;
+void
+updateBaseShapeAfterMovingGC
+(
+)
+;
 /
 *
 For

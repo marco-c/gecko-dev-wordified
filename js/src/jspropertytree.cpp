@@ -1604,8 +1604,11 @@ bool
 listpPointsIntoShape
 =
 !
+MaybeForwarded
+(
 base
 (
+)
 )
 -
 >

@@ -8995,10 +8995,6 @@ JSTracer
 trc
 )
 {
-assertConsistency
-(
-)
-;
 if
 (
 trc
@@ -9058,6 +9054,10 @@ global
 "
 global
 "
+)
+;
+assertConsistency
+(
 )
 ;
 }
@@ -10629,6 +10629,13 @@ shape
 )
 ;
 }
+shape
+-
+>
+updateBaseShapeAfterMovingGC
+(
+)
+;
 /
 /
 If

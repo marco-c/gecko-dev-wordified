@@ -759,6 +759,16 @@ lazyp
 override
 ;
 void
+onBaseShapeEdge
+(
+BaseShape
+*
+*
+basep
+)
+override
+;
+void
 onChild
 (
 const
