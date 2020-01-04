@@ -503,9 +503,6 @@ nsCString
 aDescription
 )
 {
-int
-pid
-;
 if
 (
 aProcess
@@ -515,6 +512,7 @@ IsEmpty
 )
 )
 {
+int
 pid
 =
 getpid
@@ -565,10 +563,6 @@ get
 }
 else
 {
-pid
-=
-0
-;
 DUMP
 (
 aOStream
