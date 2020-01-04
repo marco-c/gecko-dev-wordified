@@ -254,7 +254,6 @@ NS_ConvertUTF16toUTF8
 (
 aScope
 )
-nullptr
 )
 ;
 return
