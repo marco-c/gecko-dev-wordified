@@ -108,7 +108,7 @@ Code
 taken
 from
 commit
-364c6b951a07306848a706d1d03c2a6ae942517d
+58d092419a1ee84e574ce2ba18bcbf92356fcb21
 *
 /
 /
@@ -5730,6 +5730,18 @@ styleOptions
 var
 isIE8
 =
+(
+typeof
+navigator
+!
+=
+=
+"
+undefined
+"
+)
+&
+&
 (
 /
 MSIE
