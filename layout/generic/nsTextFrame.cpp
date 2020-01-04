@@ -44392,6 +44392,12 @@ if
 aParams
 .
 callbacks
+&
+&
+!
+aParams
+.
+generateTextMask
 )
 {
 const
