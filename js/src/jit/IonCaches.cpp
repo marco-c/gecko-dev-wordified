@@ -7830,7 +7830,7 @@ obj
 holder
 object
 scratchReg
-failures
+maybePopAndFail
 )
 ;
 /
