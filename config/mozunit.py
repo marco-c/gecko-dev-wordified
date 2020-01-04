@@ -569,6 +569,15 @@ splitlines
 [
 0
 ]
+if
+value
+.
+message
+else
+'
+NO
+MESSAGE
+'
         
 #
 Skip
