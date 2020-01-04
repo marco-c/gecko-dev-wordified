@@ -4126,7 +4126,7 @@ url
 in
 it
 .
-inputAndLoadUrl
+loadUrlAndWait
 (
 url
 )
