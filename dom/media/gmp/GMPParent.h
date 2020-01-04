@@ -674,6 +674,12 @@ GetPluginId
 )
 const
 ;
+nsString
+GetPluginBaseName
+(
+)
+const
+;
 /
 /
 Returns
