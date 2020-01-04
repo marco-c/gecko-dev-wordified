@@ -2678,7 +2678,7 @@ we
 '
 ve
 already
-exit
+exited
 fullscreen
 .
 if
