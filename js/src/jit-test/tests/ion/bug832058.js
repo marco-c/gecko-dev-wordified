@@ -5,9 +5,6 @@ jit
 -
 test
 |
-error
-:
-TypeError
 function
 f
 (
@@ -79,6 +76,9 @@ a
 c
 '
 )
+;
+var
+s
 ;
 for
 (
