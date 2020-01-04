@@ -1271,6 +1271,15 @@ NS_STYLE_WILL_CHANGE_FIXPOS_CB
 <
 4
 )
+#
+define
+NS_STYLE_WILL_CHANGE_ABSPOS_CB
+(
+1
+<
+<
+5
+)
 /
 /
 See
