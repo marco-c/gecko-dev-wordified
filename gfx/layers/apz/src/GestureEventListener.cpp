@@ -2682,8 +2682,13 @@ GetInputQueue
 )
 -
 >
-CurrentTouchBlock
+GetCurrentTouchBlock
 (
+)
+;
+MOZ_ASSERT
+(
+block
 )
 ;
 RefPtr
