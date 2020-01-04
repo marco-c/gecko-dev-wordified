@@ -550,8 +550,12 @@ the
 target
 process
 .
+Always
+returns
+true
+.
 virtual
-void
+bool
 CopyFromProcess
 (
 void

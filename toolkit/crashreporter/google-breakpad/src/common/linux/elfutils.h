@@ -317,10 +317,10 @@ files
 /
 #
 ifndef
-COMMON_LINUX_ELFUTILS_H__
+COMMON_LINUX_ELFUTILS_H_
 #
 define
-COMMON_LINUX_ELFUTILS_H__
+COMMON_LINUX_ELFUTILS_H_
 #
 include
 <
@@ -594,7 +594,7 @@ void
 *
 *
 section_start
-int
+size_t
 *
 section_size
 int
@@ -762,7 +762,7 @@ void
 *
 *
 segment_start
-int
+size_t
 *
 segment_size
 int
@@ -852,4 +852,4 @@ google_breakpad
 endif
 /
 /
-COMMON_LINUX_ELFUTILS_H__
+COMMON_LINUX_ELFUTILS_H_

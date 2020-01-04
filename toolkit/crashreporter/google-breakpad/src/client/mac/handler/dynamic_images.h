@@ -2230,6 +2230,15 @@ return
 CPU_TYPE_ARM
 ;
 #
+elif
+defined
+(
+__aarch64__
+)
+return
+CPU_TYPE_ARM64
+;
+#
 else
 #
 error
