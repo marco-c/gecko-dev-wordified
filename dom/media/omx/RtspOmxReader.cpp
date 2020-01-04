@@ -338,7 +338,13 @@ SeekTime
 (
 aTarget
 .
-mTime
+GetTime
+(
+)
+.
+ToMicroseconds
+(
+)
 )
 ;
 mRtspResource
