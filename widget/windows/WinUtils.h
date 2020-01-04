@@ -160,13 +160,6 @@ RemoveDirectory
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

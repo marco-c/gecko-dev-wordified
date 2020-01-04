@@ -143,6 +143,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsBaseWidget
 .
 h
@@ -760,7 +769,10 @@ between
 multiple
 synthesized
 points
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :

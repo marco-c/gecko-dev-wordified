@@ -116,7 +116,9 @@ handling
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+RefPtr
 .
 h
 "
