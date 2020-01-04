@@ -182,7 +182,10 @@ MOZ_LOGGING
 )
 extern
 GFX2D_API
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetGFX2DLog
 (
@@ -981,7 +984,7 @@ On
 platforms
 that
 support
-PR_LOGGING
+MOZ_LOGGING
 the
 story
 is
@@ -1016,10 +1019,10 @@ is
 further
 controlled
 by
+the
 "
 gfx2d
 "
-PR
 logging
 module
 .
