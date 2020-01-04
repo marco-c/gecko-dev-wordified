@@ -1019,15 +1019,6 @@ FlagsToGLFlags
 (
 mFlags
 )
-SurfaceFormatToImageFormat
-(
-aSurface
--
->
-GetFormat
-(
-)
-)
 )
 ;
 }
