@@ -2337,6 +2337,17 @@ nullptr
 )
 ;
 }
+bool
+ReportValidity
+(
+)
+{
+return
+CheckValidFormSubmission
+(
+)
+;
+}
 Element
 *
 IndexedGetter

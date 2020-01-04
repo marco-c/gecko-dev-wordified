@@ -425,6 +425,11 @@ CheckValidity
 (
 )
 ;
+bool
+ReportValidity
+(
+)
+;
 protected
 :
 /

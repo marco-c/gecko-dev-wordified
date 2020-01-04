@@ -1483,6 +1483,12 @@ nsIConstraintValidation
 :
 CheckValidity
 ;
+using
+nsIConstraintValidation
+:
+:
+ReportValidity
+;
 /
 /
 nsIConstraintValidation
