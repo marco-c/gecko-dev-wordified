@@ -16804,7 +16804,7 @@ behavior
 WidgetGestureNotifyEvent
 :
 :
-ePanDirection
+PanDirection
 panDirection
 =
 WidgetGestureNotifyEvent

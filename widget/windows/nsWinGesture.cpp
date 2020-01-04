@@ -801,7 +801,7 @@ hWnd
 WidgetGestureNotifyEvent
 :
 :
-ePanDirection
+PanDirection
 aDirection
 )
 {
