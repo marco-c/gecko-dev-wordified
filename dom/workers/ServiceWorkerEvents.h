@@ -333,6 +333,8 @@ ExtendableEvent
 public
 Event
 {
+protected
+:
 nsTArray
 <
 RefPtr
@@ -342,8 +344,6 @@ Promise
 >
 mPromises
 ;
-protected
-:
 explicit
 ExtendableEvent
 (
@@ -541,6 +541,9 @@ aOptions
 void
 WaitUntil
 (
+JSContext
+*
+aCx
 Promise
 &
 aPromise
