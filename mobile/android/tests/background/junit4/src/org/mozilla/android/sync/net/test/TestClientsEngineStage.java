@@ -697,7 +697,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_SERVER
 )
 ;
 SyncConfiguration

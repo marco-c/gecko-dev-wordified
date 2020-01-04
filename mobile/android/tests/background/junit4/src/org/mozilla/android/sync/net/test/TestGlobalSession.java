@@ -974,7 +974,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_CLUSTER_URL
 )
 ;
 SyncConfiguration
@@ -1219,7 +1218,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_CLUSTER_URL
 )
 ;
 SyncConfiguration
@@ -1417,7 +1415,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_CLUSTER_URL
 )
 ;
 /
@@ -1995,7 +1992,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_CLUSTER_URL
 )
 ;
 SyncConfiguration

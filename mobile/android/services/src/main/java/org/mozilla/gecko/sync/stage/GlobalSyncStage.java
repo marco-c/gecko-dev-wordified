@@ -140,16 +140,6 @@ TODO
 :
 clear
 status
-ensureClusterURL
-/
-/
-Setting
-up
-where
-we
-talk
-to
-.
 fetchInfoCollections
 /
 /
@@ -161,7 +151,6 @@ timestamps
 .
 fetchMetaGlobal
 ensureKeysStage
-attemptMigrationStage
 /
 *
 ensureSpecialRecords
