@@ -1848,7 +1848,6 @@ XULElementBinding
 GetConstructorObjectHandle
 (
 cx
-global
 defineOnGlobal
 )
 ;

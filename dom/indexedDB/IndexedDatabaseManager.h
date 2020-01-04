@@ -671,15 +671,6 @@ ResolveSandboxBinding
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aGlobal
 )
 ;
 static

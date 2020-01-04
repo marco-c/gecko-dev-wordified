@@ -4070,7 +4070,10 @@ ArrayClass
 protoGetter
 =
 "
-JS_GetArrayPrototype
+JS
+:
+:
+GetRealmArrayPrototype
 "
         
 elif
@@ -4089,7 +4092,10 @@ ExceptionClass
 protoGetter
 =
 "
-GetErrorPrototype
+JS
+:
+:
+GetRealmErrorPrototype
 "
         
 elif
@@ -4105,7 +4111,10 @@ isIteratorInterface
 protoGetter
 =
 "
-GetIteratorPrototype
+JS
+:
+:
+GetRealmIteratorPrototype
 "
         
 else
@@ -4114,7 +4123,10 @@ else
 protoGetter
 =
 "
-JS_GetObjectPrototype
+JS
+:
+:
+GetRealmObjectPrototype
 "
         
 protoHandleGetter
@@ -4633,7 +4645,10 @@ ProtoObjectHack
 protoGetter
 =
 "
-JS_GetObjectPrototype
+JS
+:
+:
+GetRealmObjectPrototype
 "
         
 else
@@ -4658,7 +4673,10 @@ else
 protoGetter
 =
 "
-JS_GetFunctionPrototype
+JS
+:
+:
+GetRealmFunctionPrototype
 "
         
 protoHandleGetter
@@ -20755,7 +20773,6 @@ getParentProto
 "
 (
 aCx
-aGlobal
 )
 "
         
@@ -20810,7 +20827,6 @@ getConstructorProto
 "
 (
 aCx
-aGlobal
 )
 "
         
@@ -22382,7 +22398,6 @@ proto
 GetProtoObjectHandle
 (
 aCx
-aGlobal
 )
 ;
                     
@@ -23027,7 +23042,6 @@ prot
 GetProtoObjectHandle
 (
 aCx
-aGlobal
 )
 ;
                   
@@ -23207,23 +23221,6 @@ JSContext
 aCx
 '
 )
-                
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aGlobal
-'
-)
 ]
 +
 extraArgs
@@ -23300,6 +23297,19 @@ sometime
 *
 /
             
+JSObject
+*
+global
+=
+JS
+:
+:
+CurrentGlobalOrNull
+(
+aCx
+)
+;
+            
 if
 (
 !
@@ -23309,7 +23319,7 @@ js
 :
 GetObjectClass
 (
-aGlobal
+global
 )
 -
 >
@@ -23348,7 +23358,7 @@ protoAndIfaceCache
 *
 GetProtoAndIfaceCache
 (
-aGlobal
+global
 )
 ;
             
@@ -23366,10 +23376,25 @@ id
 )
 {
               
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+rootedGlobal
+(
+aCx
+global
+)
+;
+              
 CreateInterfaceObjects
 (
 aCx
-aGlobal
+rootedGlobal
 protoAndIfaceCache
 aDefineOnGlobal
 )
@@ -23632,23 +23657,6 @@ JSContext
 aCx
 '
 )
-             
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aGlobal
-'
-)
 ]
 )
     
@@ -23665,7 +23673,6 @@ return
 GetProtoObjectHandle
 (
 aCx
-aGlobal
 )
 ;
 \
@@ -23845,23 +23852,6 @@ JSContext
 aCx
 '
 )
-             
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aGlobal
-'
-)
 ]
 )
     
@@ -23878,7 +23868,6 @@ return
 GetConstructorObjectHandle
 (
 aCx
-aGlobal
 )
 ;
 \
@@ -23910,23 +23899,6 @@ JSContext
 '
 '
 aCx
-'
-)
-                
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aGlobal
 '
 )
 ]
@@ -24012,7 +23984,6 @@ parent
 GetProtoObjectHandle
 (
 aCx
-aGlobal
 )
 )
 ;
@@ -24074,6 +24045,19 @@ sometime
 *
 /
             
+JSObject
+*
+global
+=
+JS
+:
+:
+CurrentGlobalOrNull
+(
+aCx
+)
+;
+            
 if
 (
 !
@@ -24083,7 +24067,7 @@ js
 :
 GetObjectClass
 (
-aGlobal
+global
 )
 -
 >
@@ -24124,7 +24108,7 @@ protoAndIfaceCache
 *
 GetProtoAndIfaceCache
 (
-aGlobal
+global
 )
 ;
             
@@ -24519,7 +24503,6 @@ interfaceObject
 GetConstructorObjectHandle
 (
 aCx
-aGlobal
 aDefineOnGlobal
 )
 ;
@@ -24624,7 +24607,6 @@ return
 GetConstructorObjectHandle
 (
 aCx
-aGlobal
 aDefineOnGlobal
 )
 ;
@@ -26880,7 +26862,6 @@ canonicalProto
 GetProtoObjectHandle
 (
 aCx
-global
 )
 ;
         
@@ -41067,7 +41048,6 @@ PromiseBinding
 GetConstructorObjectHandle
 (
 cx
-globalObj
 )
 ;
                   
@@ -102226,7 +102206,6 @@ s
 GetConstructorObject
 (
 aCx
-aObj
 )
 "
 %
@@ -102448,7 +102427,6 @@ s
 GetConstructorObject
 (
 aCx
-aObj
 )
 "
 %
@@ -102875,7 +102853,6 @@ s
 GetConstructorObject
 (
 aCx
-aObj
 )
 "
 %

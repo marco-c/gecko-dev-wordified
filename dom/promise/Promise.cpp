@@ -8270,7 +8270,6 @@ PromiseBinding
 GetConstructorObject
 (
 aCx
-global
 )
 ;
 if
@@ -10530,20 +10529,6 @@ JS
 :
 Rooted
 <
-JSObject
-*
->
-calleeGlobal
-(
-aCx
-aCalleeGlobal
-)
-;
-JS
-:
-:
-Rooted
-<
 JS
 :
 :
@@ -10577,7 +10562,6 @@ PromiseBinding
 GetConstructorObject
 (
 aCx
-calleeGlobal
 )
 ;
 if

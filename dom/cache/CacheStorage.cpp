@@ -1844,6 +1844,15 @@ object
 "
 )
 ;
+js
+:
+:
+AssertSameCompartment
+(
+aCx
+aGlobal
+)
+;
 if
 (
 NS_WARN_IF
@@ -1855,7 +1864,6 @@ CacheStorageBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -1866,7 +1874,6 @@ CacheBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 )
 )
@@ -1959,15 +1966,6 @@ Value
 caches
 (
 aCx
-)
-;
-js
-:
-:
-AssertSameCompartment
-(
-aCx
-aGlobal
 )
 ;
 if

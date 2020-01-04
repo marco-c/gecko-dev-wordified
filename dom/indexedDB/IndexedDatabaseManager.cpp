@@ -2811,15 +2811,6 @@ ResolveSandboxBinding
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aGlobal
 )
 {
 MOZ_ASSERT
@@ -2836,7 +2827,13 @@ js
 :
 GetObjectClass
 (
-aGlobal
+JS
+:
+:
+CurrentGlobalOrNull
+(
+aCx
+)
 )
 -
 >
@@ -2908,7 +2905,6 @@ IDBCursorBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2919,7 +2915,6 @@ IDBCursorWithValueBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2930,7 +2925,6 @@ IDBDatabaseBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2941,7 +2935,6 @@ IDBFactoryBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2952,7 +2945,6 @@ IDBIndexBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2963,7 +2955,6 @@ IDBKeyRangeBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2974,7 +2965,6 @@ IDBLocaleAwareKeyRangeBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2985,7 +2975,6 @@ IDBMutableFileBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -2996,7 +2985,6 @@ IDBObjectStoreBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -3007,7 +2995,6 @@ IDBOpenDBRequestBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -3018,7 +3005,6 @@ IDBRequestBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -3029,7 +3015,6 @@ IDBTransactionBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 |
 |
@@ -3040,7 +3025,6 @@ IDBVersionChangeEventBinding
 GetConstructorObject
 (
 aCx
-aGlobal
 )
 )
 {

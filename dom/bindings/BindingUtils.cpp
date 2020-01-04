@@ -11838,7 +11838,6 @@ mGetProto
 )
 (
 aCx
-newParent
 )
 ;
 if
