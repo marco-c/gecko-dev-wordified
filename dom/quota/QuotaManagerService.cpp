@@ -2214,16 +2214,6 @@ MOZ_ASSERT
 aCallback
 )
 ;
-MOZ_ASSERT
-(
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
-)
-;
 RefPtr
 <
 UsageRequest

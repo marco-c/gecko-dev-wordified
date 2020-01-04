@@ -81,6 +81,9 @@ languages
 "
 hardwareConcurrency
 "
+"
+storage
+"
 ]
 ;
 self
