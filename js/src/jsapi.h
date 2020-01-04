@@ -35788,6 +35788,10 @@ JSErrorReport
 (
 )
 {
+freeLinebuf
+(
+)
+;
 freeMessage
 (
 )
