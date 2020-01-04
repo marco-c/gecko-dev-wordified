@@ -1952,7 +1952,8 @@ aMode
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetWindowShadowStyle
 (
 int32_t
@@ -2014,7 +2015,8 @@ aMargins
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetWindowTitlebarColor
 (
 nscolor

@@ -6621,7 +6621,8 @@ platforms
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 SetWindowShadowStyle
 (
 int32_t
@@ -8305,7 +8306,8 @@ X11
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 SetWindowClass
 (
 const
@@ -8680,7 +8682,8 @@ windows
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 SetWindowTitlebarColor
 (
 nscolor

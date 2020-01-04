@@ -1000,16 +1000,6 @@ nullptr
 override
 ;
 NS_IMETHOD
-SetWindowClass
-(
-const
-nsAString
-&
-xulWinType
-)
-override
-;
-NS_IMETHOD
 SetCursor
 (
 nsCursor

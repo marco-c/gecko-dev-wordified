@@ -22522,7 +22522,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -22540,7 +22540,6 @@ if
 mShell
 )
 return
-NS_ERROR_FAILURE
 ;
 const
 char
@@ -22557,7 +22556,6 @@ if
 res_class
 )
 return
-NS_ERROR_FAILURE
 ;
 char
 *
@@ -22574,7 +22572,6 @@ if
 res_name
 )
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 const
 char
@@ -22790,7 +22787,6 @@ res_name
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 class_hint
@@ -22877,9 +22873,6 @@ free
 (
 res_name
 )
-;
-return
-NS_OK
 ;
 }
 void
