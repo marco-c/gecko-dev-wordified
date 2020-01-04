@@ -447,6 +447,9 @@ eCBWidthAndHeightChanged
 eCBWidthChanged
 |
 eCBHeightChanged
+eIsGridContainerCB
+=
+0x8
 }
 ;
 /
