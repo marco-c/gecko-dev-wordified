@@ -1521,7 +1521,7 @@ MetadataPromise
 MediaDecoderReader
 :
 :
-AsyncReadMetadata
+AsyncReadMetadataInternal
 (
 )
 {
@@ -1542,7 +1542,7 @@ DECODER_LOG
 MediaDecoderReader
 :
 :
-AsyncReadMetadata
+AsyncReadMetadataInternal
 "
 )
 ;
