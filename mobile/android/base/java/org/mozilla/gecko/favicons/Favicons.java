@@ -2058,7 +2058,6 @@ cache
 .
 *
 /
-public
 static
 Bitmap
 getSizedFaviconFromCache
