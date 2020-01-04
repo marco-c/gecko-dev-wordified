@@ -14577,12 +14577,15 @@ c
 .
 ts
 .
-getIf
+match
 (
 WasmToken
 :
 :
 End
+c
+.
+error
 )
 )
 return
