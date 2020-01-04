@@ -3920,6 +3920,9 @@ mIsCoveringTitlebar
 bool
 mIsFullscreen
 ;
+bool
+mIsOpaque
+;
 LayoutDeviceIntRect
 mTitlebarRect
 ;
