@@ -274,13 +274,6 @@ EditArray
 typedef
 InfallibleTArray
 <
-OpDestroy
->
-OpDestroyArray
-;
-typedef
-InfallibleTArray
-<
 EditReply
 >
 EditReplyArray
@@ -526,10 +519,6 @@ EditArray
 &
 &
 cset
-OpDestroyArray
-&
-&
-aToDestroy
 const
 uint64_t
 &
@@ -583,10 +572,6 @@ EditArray
 &
 &
 cset
-OpDestroyArray
-&
-&
-aToDestroy
 const
 uint64_t
 &
