@@ -2172,6 +2172,14 @@ changed
 /
 /
 EVENT_VIRTUALCURSOR_CHANGED
+"
+text
+value
+change
+"
+/
+/
+EVENT_TEXT_VALUE_CHANGE
 }
 ;
 #

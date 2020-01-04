@@ -749,5 +749,12 @@ nsIAccessibleEvent
 :
 :
 EVENT_VIRTUALCURSOR_CHANGED
+EVENT_OBJECT_VALUECHANGE
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_TEXT_VALUE_CHANGE
 }
 ;

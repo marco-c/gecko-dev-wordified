@@ -271,6 +271,13 @@ nsIAccessibleEvent
 EVENT_VALUE_CHANGE
 ;
 const
+EVENT_TEXT_VALUE_CHANGE
+=
+nsIAccessibleEvent
+.
+EVENT_TEXT_VALUE_CHANGE
+;
+const
 EVENT_VIRTUALCURSOR_CHANGED
 =
 nsIAccessibleEvent

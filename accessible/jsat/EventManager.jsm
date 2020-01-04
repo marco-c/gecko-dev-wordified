@@ -2056,6 +2056,11 @@ Events
 .
 VALUE_CHANGE
 :
+case
+Events
+.
+TEXT_VALUE_CHANGE
+:
 {
 let
 position

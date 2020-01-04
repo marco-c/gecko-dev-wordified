@@ -688,7 +688,7 @@ FireDelayedEvent
 nsIAccessibleEvent
 :
 :
-EVENT_VALUE_CHANGE
+EVENT_TEXT_VALUE_CHANGE
 aAccessible
 )
 ;
