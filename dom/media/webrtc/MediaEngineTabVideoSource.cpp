@@ -1706,6 +1706,13 @@ LayerManager
 :
 CreateImageContainer
 (
+layers
+:
+:
+ImageContainer
+:
+:
+ASYNCHRONOUS
 )
 ;
 RefPtr

@@ -1080,6 +1080,13 @@ LayerManager
 :
 CreateImageContainer
 (
+layers
+:
+:
+ImageContainer
+:
+:
+ASYNCHRONOUS
 )
 ;
 mState
