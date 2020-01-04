@@ -4798,10 +4798,7 @@ matrix2D
 )
 &
 &
-gfx
-:
-:
-Size
+gfxSize
 (
 1
 .
@@ -4812,13 +4809,10 @@ Size
 )
 <
 =
-ToSize
-(
 aSnapRect
 .
 Size
 (
-)
 )
 &
 &
