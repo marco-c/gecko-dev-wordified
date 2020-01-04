@@ -23,6 +23,11 @@ from
 sourcefile
 import
 SourceFile
+from
+utils
+import
+from_os_path
+to_os_path
 CURRENT_VERSION
 =
 2
@@ -1185,7 +1190,10 @@ iteritems
 reftest_nodes
 =
 {
+from_os_path
+(
 key
+)
 :
 [
 v
@@ -1450,6 +1458,13 @@ iteritems
 (
 )
 :
+            
+path
+=
+to_os_path
+(
+path
+)
             
 for
 v
@@ -1815,7 +1830,10 @@ self
 reftest_nodes
 =
 {
+from_os_path
+(
 key
+)
 :
 [
 v
@@ -1865,22 +1883,18 @@ deleted
 "
 :
 [
-]
-}
-        
-rv
-[
-"
-deleted
-"
-]
-.
-extend
+from_os_path
 (
+path
+)
+for
+path
+in
 self
 .
 _deleted
-)
+]
+}
         
 for
 test_type
@@ -1905,6 +1919,13 @@ iteritems
 (
 )
 :
+                
+path
+=
+from_os_path
+(
+path
+)
                 
 rv
 [
@@ -2080,6 +2101,13 @@ iteritems
 )
 :
             
+path
+=
+to_os_path
+(
+path
+)
+            
 for
 v
 in
@@ -2141,7 +2169,10 @@ self
 .
 add_deleted
 (
+to_os_path
+(
 item
+)
 )
         
 return
