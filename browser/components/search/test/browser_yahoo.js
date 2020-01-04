@@ -285,13 +285,6 @@ hspart
 =
 mozilla
 "
-type
-:
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
 hidden
 :
 false

@@ -397,11 +397,7 @@ engineURL
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :

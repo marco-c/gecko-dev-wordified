@@ -7385,11 +7385,7 @@ search
 addEngine
 (
 url
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
+null
 "
 "
 false

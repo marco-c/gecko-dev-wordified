@@ -1730,13 +1730,6 @@ google
 com
 /
 "
-type
-:
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
 wrappedJSObject
 :
 {

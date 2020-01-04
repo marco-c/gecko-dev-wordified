@@ -524,13 +524,6 @@ utf
 -
 8
 "
-type
-:
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
 hidden
 :
 false

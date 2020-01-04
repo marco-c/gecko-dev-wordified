@@ -2061,11 +2061,7 @@ POSTSearchEngine
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 null
 false
 )
@@ -4913,11 +4909,7 @@ search
 addEngine
 (
 url
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
+null
 "
 "
 false

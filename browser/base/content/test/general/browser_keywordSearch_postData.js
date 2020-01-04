@@ -302,11 +302,7 @@ POSTSearchEngine
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 null
 false
 )

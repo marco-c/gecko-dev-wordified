@@ -723,11 +723,7 @@ testEngine
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :
