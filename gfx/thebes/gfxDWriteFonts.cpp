@@ -1418,7 +1418,7 @@ hr
 mFontFace
 -
 >
-GetGlyphIndicesW
+GetGlyphIndicesA
 (
 &
 ucs
@@ -1651,7 +1651,7 @@ SUCCEEDED
 mFontFace
 -
 >
-GetGlyphIndicesW
+GetGlyphIndicesA
 (
 &
 ucs
@@ -1722,7 +1722,7 @@ SUCCEEDED
 mFontFace
 -
 >
-GetGlyphIndicesW
+GetGlyphIndicesA
 (
 &
 ucs
