@@ -782,13 +782,15 @@ quota
 manager
 #
 define
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 "
 profile
 -
 before
 -
-change2
+change
+-
+qm
 "
 #
 define
@@ -9911,7 +9913,7 @@ observerService
 AddObserver
 (
 observer
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 false
 )
 ;
@@ -10512,7 +10514,7 @@ MOZ_ASSERT
 strcmp
 (
 aTopic
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 )
 )
 ;

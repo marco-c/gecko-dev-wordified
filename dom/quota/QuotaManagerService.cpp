@@ -265,13 +265,15 @@ h
 "
 #
 define
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 "
 profile
 -
 before
 -
-change2
+change
+-
+qm
 "
 namespace
 mozilla
@@ -1231,7 +1233,7 @@ observerService
 AddObserver
 (
 this
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 false
 )
 ;
@@ -2838,7 +2840,7 @@ if
 strcmp
 (
 aTopic
-PROFILE_BEFORE_CHANGE2_OBSERVER_ID
+PROFILE_BEFORE_CHANGE_QM_OBSERVER_ID
 )
 )
 {
