@@ -640,9 +640,6 @@ mCbCrStride
 mIsValid
 =
 requiredSize
-&
-&
-requiredSize
 <
 =
 mDataSize
@@ -1026,7 +1023,6 @@ aYSize
 .
 height
 <
-=
 0
 |
 |
@@ -1034,7 +1030,6 @@ aYSize
 .
 width
 <
-=
 0
 |
 |
@@ -1042,7 +1037,6 @@ aCbCrSize
 .
 height
 <
-=
 0
 |
 |
@@ -1050,7 +1044,6 @@ aCbCrSize
 .
 width
 <
-=
 0
 )
 {
@@ -1109,6 +1102,15 @@ return
 }
 if
 (
+aYSize
+!
+=
+IntSize
+(
+)
+&
+&
+(
 !
 gfx
 :
@@ -1138,6 +1140,7 @@ height
 aYSize
 .
 height
+)
 )
 {
 return

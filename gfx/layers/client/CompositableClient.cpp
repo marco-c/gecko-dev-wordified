@@ -973,7 +973,7 @@ ID
 }
 already_AddRefed
 <
-BufferTextureClient
+TextureClient
 >
 CompositableClient
 :
