@@ -815,6 +815,10 @@ type
 v2i
 )
 (
+result
+i32
+)
+(
 i32
 .
 const
@@ -2620,6 +2624,10 @@ type
 v2i1
 )
 (
+result
+i32
+)
+(
 i32
 .
 const
@@ -2634,6 +2642,10 @@ type
 v2i2
 )
 (
+result
+i32
+)
+(
 i32
 .
 const
@@ -2646,6 +2658,10 @@ c
 (
 type
 i2v
+)
+(
+param
+i32
 )
 )
 (
