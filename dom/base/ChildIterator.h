@@ -313,6 +313,7 @@ public
 explicit
 ExplicitChildIterator
 (
+const
 nsIContent
 *
 aParent
@@ -794,6 +795,7 @@ for
 the
 binding
 .
+const
 nsIContent
 *
 mParent
@@ -1130,6 +1132,7 @@ public
 explicit
 FlattenedChildIterator
 (
+const
 nsIContent
 *
 aParent
@@ -1236,6 +1239,7 @@ XBL
 /
 FlattenedChildIterator
 (
+const
 nsIContent
 *
 aParent
@@ -1406,6 +1410,7 @@ public
 :
 AllChildrenIterator
 (
+const
 nsIContent
 *
 aNode
@@ -1630,6 +1635,7 @@ GetPreviousChild
 (
 )
 ;
+const
 nsIContent
 *
 Parent
@@ -1681,6 +1687,7 @@ nsIFrame
 aFrame
 )
 ;
+const
 nsIContent
 *
 mOriginalContent
@@ -1942,6 +1949,7 @@ public
 explicit
 StyleChildrenIterator
 (
+const
 nsIContent
 *
 aContent
@@ -2009,6 +2017,7 @@ static
 bool
 IsNeeded
 (
+const
 Element
 *
 aParent

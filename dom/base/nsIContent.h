@@ -1756,6 +1756,7 @@ bool
 IsInChromeDocument
 (
 )
+const
 ;
 /
 *

@@ -765,6 +765,7 @@ bool
 IsInChromeDocument
 (
 )
+const
 {
 return
 mIsInChromeDocument

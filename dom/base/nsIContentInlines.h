@@ -181,6 +181,7 @@ nsIContent
 IsInChromeDocument
 (
 )
+const
 {
 return
 nsContentUtils
