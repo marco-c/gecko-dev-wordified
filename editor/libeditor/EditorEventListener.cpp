@@ -5627,6 +5627,13 @@ dataTransfer
 GetTypes
 (
 types
+*
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 )
 ;
 /
