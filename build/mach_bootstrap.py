@@ -703,6 +703,22 @@ testing
 /
 mozbase
 /
+mozinfo
+'
+    
+'
+testing
+/
+mozbase
+/
+mozinstall
+'
+    
+'
+testing
+/
+mozbase
+/
 mozleak
 '
     
@@ -752,14 +768,6 @@ testing
 mozbase
 /
 mozsystemmonitor
-'
-    
-'
-testing
-/
-mozbase
-/
-mozinfo
 '
     
 '
