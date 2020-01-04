@@ -2608,7 +2608,7 @@ filter
 .
 serviceworkers
 "
-false
+true
 )
 ;
 pref
