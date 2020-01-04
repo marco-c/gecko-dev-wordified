@@ -7704,7 +7704,6 @@ mCompositor
 SetDispAcquireFence
 (
 mRoot
-mirrorScreenWidget
 )
 ;
 /
