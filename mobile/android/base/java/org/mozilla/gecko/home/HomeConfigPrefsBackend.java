@@ -288,6 +288,15 @@ android
 .
 support
 .
+annotation
+.
+VisibleForTesting
+;
+import
+android
+.
+support
+.
 v4
 .
 content
@@ -333,7 +342,7 @@ trigger
 a
 migration
 .
-private
+VisibleForTesting
 static
 final
 int
