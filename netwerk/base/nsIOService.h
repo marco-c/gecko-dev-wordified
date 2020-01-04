@@ -1052,6 +1052,12 @@ mNetworkLinkServiceInitialized
 Cached
 protocol
 handlers
+only
+accessed
+on
+the
+main
+thread
 nsWeakPtr
 mWeakHandler
 [

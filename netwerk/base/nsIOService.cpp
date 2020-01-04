@@ -2663,6 +2663,13 @@ nsIProtocolHandler
 handler
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 for
 (
 unsigned
@@ -2850,6 +2857,13 @@ uint32_t
 end
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 uint32_t
 len
 =
