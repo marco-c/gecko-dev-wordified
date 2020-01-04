@@ -61995,13 +61995,12 @@ entering
 JS
 here
 .
-JSInterruptCallback
+bool
 old
 =
-JS_SetInterruptCallback
+JS_DisableInterruptCallback
 (
 cx
-nullptr
 )
 ;
 /
@@ -62030,7 +62029,7 @@ neverShowDlgChk
 buttonPressed
 )
 ;
-JS_SetInterruptCallback
+JS_ResetInterruptCallback
 (
 cx
 old
