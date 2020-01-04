@@ -5728,7 +5728,7 @@ TIP
 .
 static
 bool
-sCreateNativeCaretForATOK
+sCreateNativeCaretForLegacyATOK
 ;
 static
 bool
