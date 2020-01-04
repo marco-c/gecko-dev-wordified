@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsGridContainerFrame
+.
+h
+"
+#
+include
+"
 nsGfxScrollFrame
 .
 h
