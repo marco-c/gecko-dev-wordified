@@ -775,6 +775,7 @@ this
 )
 ;
 }
+virtual
 ~
 nsExpirationTracker
 (
