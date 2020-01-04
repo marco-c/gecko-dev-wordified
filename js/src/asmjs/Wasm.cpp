@@ -9261,6 +9261,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 wasm_static_methods
 [
