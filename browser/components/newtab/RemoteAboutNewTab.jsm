@@ -408,6 +408,12 @@ function
 (
 )
 {
+RemoteNewTabLocation
+.
+init
+(
+)
+;
 this
 .
 pageListener
@@ -2306,6 +2312,12 @@ function
 (
 )
 {
+RemoteNewTabLocation
+.
+uninit
+(
+)
+;
 this
 .
 _removeObservers
