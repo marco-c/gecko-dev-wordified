@@ -211,12 +211,14 @@ aSize
 gfxImageFormat
 aFormat
 )
+override
 ;
 virtual
 gfxImageFormat
 GetOffscreenFormat
 (
 )
+override
 {
 return
 mOffscreenFormat
@@ -247,6 +249,7 @@ gfxFont
 *
 aFont
 )
+override
 ;
 /
 /
@@ -290,6 +293,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
+override
 ;
 virtual
 gfxPlatformFontList
@@ -297,6 +301,7 @@ gfxPlatformFontList
 CreatePlatformFontList
 (
 )
+override
 ;
 virtual
 void
@@ -317,6 +322,7 @@ char
 &
 aFontList
 )
+override
 ;
 gfxFontGroup
 *

@@ -1982,6 +1982,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
+override
 {
 return
 this
@@ -2055,6 +2056,7 @@ GetTextureTarget
 (
 )
 const
+override
 {
 return
 mTextureTarget
@@ -2307,6 +2309,7 @@ char
 Name
 (
 )
+override
 {
 return
 "

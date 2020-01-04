@@ -366,6 +366,7 @@ aFontStyle
 bool
 aNeedsBold
 )
+override
 ;
 /
 /
@@ -454,6 +455,7 @@ aFontInfoData
 =
 nullptr
 )
+override
 ;
 virtual
 hb_blob_t
@@ -527,6 +529,7 @@ FontListSizes
 aSizes
 )
 const
+override
 ;
 virtual
 void
@@ -542,6 +545,7 @@ FontListSizes
 aSizes
 )
 const
+override
 ;
 FT_Face
 mFTFace

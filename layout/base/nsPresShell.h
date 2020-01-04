@@ -4220,6 +4220,7 @@ nsIDocument
 GetTouchEventTargetDocument
 (
 )
+override
 ;
 #
 endif
