@@ -2225,7 +2225,7 @@ OnVideoDecoded
 (
 MediaData
 *
-aVideoSample
+aVideo
 TimeStamp
 aDecodeStartTime
 )
