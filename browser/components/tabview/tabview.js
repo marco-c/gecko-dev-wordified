@@ -245,6 +245,8 @@ tabviewString
 (
 name
 )
+{
+return
 tabviewBundle
 .
 GetStringFromName
@@ -257,11 +259,14 @@ tabview
 name
 )
 ;
+}
 function
 tabbrowserString
 (
 name
 )
+{
+return
 tabbrowserBundle
 .
 GetStringFromName
@@ -269,6 +274,7 @@ GetStringFromName
 name
 )
 ;
+}
 XPCOMUtils
 .
 defineLazyGetter
@@ -452,10 +458,9 @@ filter
 gBrowser
 .
 tabs
-function
-(
 tab
-)
+=
+>
 Utils
 .
 isValidXULTab

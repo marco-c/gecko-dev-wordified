@@ -735,6 +735,8 @@ get
 right
 (
 )
+{
+return
 this
 .
 left
@@ -742,6 +744,8 @@ left
 this
 .
 width
+;
+}
 set
 right
 (
@@ -763,6 +767,8 @@ get
 bottom
 (
 )
+{
+return
 this
 .
 top
@@ -770,6 +776,8 @@ top
 this
 .
 height
+;
+}
 set
 bottom
 (
@@ -822,6 +830,8 @@ get
 xRange
 (
 )
+{
+return
 new
 Range
 (
@@ -832,6 +842,8 @@ this
 .
 right
 )
+;
+}
 /
 /
 -
@@ -867,6 +879,8 @@ get
 yRange
 (
 )
+{
+return
 new
 Range
 (
@@ -877,6 +891,8 @@ this
 .
 bottom
 )
+;
+}
 /
 /
 -
@@ -5384,10 +5400,9 @@ Array
 forEach
 (
 second
-function
-(
 el
-)
+=
+>
 Array
 .
 push

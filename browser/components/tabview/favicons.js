@@ -201,6 +201,8 @@ get
 defaultFavicon
 (
 )
+{
+return
 this
 .
 _favIconService
@@ -208,6 +210,8 @@ _favIconService
 defaultFavicon
 .
 spec
+;
+}
 init
 :
 function
