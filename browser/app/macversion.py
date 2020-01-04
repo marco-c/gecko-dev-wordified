@@ -263,6 +263,8 @@ a
 trunk
 nightly
 )
+define
+MOZ_BUILDID
 buildid
 =
 open
@@ -276,6 +278,10 @@ r
 )
 .
 read
+(
+)
+.
+split
 (
 )
 #
