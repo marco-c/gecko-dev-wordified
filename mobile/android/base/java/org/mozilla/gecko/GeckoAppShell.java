@@ -3362,6 +3362,12 @@ onUIThread
 (
 )
 .
+doNotPromptIf
+(
+!
+enable
+)
+.
 run
 (
 new
