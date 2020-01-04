@@ -2108,6 +2108,11 @@ AsmJSCall
 \
 _
 (
+AsmJSCallI64
+)
+\
+_
+(
 AsmJSCompareExchangeHeap
 )
 \

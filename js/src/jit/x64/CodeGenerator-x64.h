@@ -592,6 +592,14 @@ ins
 )
 ;
 void
+visitAsmJSCallI64
+(
+LAsmJSCallI64
+*
+ins
+)
+;
+void
 visitAsmJSLoadHeap
 (
 LAsmJSLoadHeap
