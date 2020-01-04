@@ -24981,6 +24981,13 @@ defined
 (
 XP_LINUX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 /
 /
 If
