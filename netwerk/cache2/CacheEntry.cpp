@@ -1131,6 +1131,10 @@ mSkipSizeCheck
 (
 aSkipSizeCheck
 )
+mIsDoomed
+(
+false
+)
 mSecurityInfoLoaded
 (
 false
@@ -1148,10 +1152,6 @@ mPinned
 aPin
 )
 mPinningKnown
-(
-false
-)
-mIsDoomed
 (
 false
 )
