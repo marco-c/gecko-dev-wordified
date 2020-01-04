@@ -80,8 +80,6 @@ skip
     
 skip_if_desktop
     
-skip_if_mobile
-    
 SkipTest
     
 skip_unless_protocol
