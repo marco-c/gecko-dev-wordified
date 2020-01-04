@@ -376,6 +376,16 @@ HEALTH_REPORT
 true
 )
 ;
+configuration
+.
+put
+(
+Restrictable
+.
+DEFAULT_THEME
+true
+)
+;
 }
 /
 *
@@ -414,6 +424,9 @@ GUEST_BROWSING
 Restrictable
 .
 DATA_CHOICES
+Restrictable
+.
+DEFAULT_THEME
 )
 ;
 /
