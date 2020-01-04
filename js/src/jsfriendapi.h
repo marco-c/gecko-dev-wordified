@@ -7161,9 +7161,9 @@ JSFlatString
 )
 GetErrorTypeName
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 int16_t
 exnType
 )
