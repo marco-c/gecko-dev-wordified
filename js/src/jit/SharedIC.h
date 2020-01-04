@@ -7076,6 +7076,9 @@ DEBUG
 bool
 entersStubFrame_
 ;
+uint32_t
+framePushedAtEnterStubFrame_
+;
 #
 endif
 /
@@ -7194,6 +7197,10 @@ entersStubFrame_
 (
 false
 )
+framePushedAtEnterStubFrame_
+(
+0
+)
 #
 endif
 {
@@ -7205,6 +7212,16 @@ the
 frame
 ptr
 .
+void
+PushFramePtr
+(
+MacroAssembler
+&
+masm
+Register
+scratch
+)
+;
 void
 pushFramePtr
 (
