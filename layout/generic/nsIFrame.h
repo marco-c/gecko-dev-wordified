@@ -10219,6 +10219,16 @@ SVG
 viewBox
 attribute
 )
+or
+if
+its
+transform
+-
+style
+is
+preserve
+-
+3d
 .
 *
 /
