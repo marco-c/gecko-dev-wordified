@@ -573,7 +573,7 @@ file
 >
 AppendNative
 (
-nsAutoCString
+nsDependentCString
 (
 aRelativePath
 )

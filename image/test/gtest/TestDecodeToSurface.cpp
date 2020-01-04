@@ -328,7 +328,7 @@ ImageOps
 DecodeToSurface
 (
 mInputStream
-nsAutoCString
+nsDependentCString
 (
 mTestCase
 .
@@ -749,7 +749,7 @@ ImageOps
 DecodeToSurface
 (
 inputStream
-nsAutoCString
+nsDependentCString
 (
 testCase
 .
