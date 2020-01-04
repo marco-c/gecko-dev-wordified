@@ -844,6 +844,9 @@ caller
 while
 (
 stack
+&
+&
+stack
 .
 filename
 &
