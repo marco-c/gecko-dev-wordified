@@ -13329,7 +13329,7 @@ restore
 the
 window
 .
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -13339,9 +13339,6 @@ nsSizeMode
 aMode
 )
 {
-nsresult
-rv
-;
 /
 /
 Let
@@ -13402,7 +13399,6 @@ aMode
 mSizeMode
 )
 return
-NS_OK
 ;
 /
 /
@@ -13414,8 +13410,6 @@ mLastSizeMode
 =
 mSizeMode
 ;
-rv
-=
 nsBaseWidget
 :
 :
@@ -13426,12 +13420,6 @@ aMode
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 mIsVisible
 )
 {
@@ -13679,9 +13667,6 @@ true
 )
 ;
 }
-return
-rv
-;
 }
 /
 /

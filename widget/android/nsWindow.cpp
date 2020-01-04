@@ -10396,7 +10396,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -10438,9 +10438,6 @@ default
 break
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsWindow
