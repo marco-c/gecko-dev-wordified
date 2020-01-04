@@ -9831,9 +9831,16 @@ key
 entry
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 ids
 .
 forget
