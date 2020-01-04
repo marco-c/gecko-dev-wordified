@@ -1163,6 +1163,15 @@ LWrapInt64ToInt32
 lir
 )
 ;
+virtual
+void
+visitExtendInt32ToInt64
+(
+LExtendInt32ToInt64
+*
+lir
+)
+;
 /
 /
 Out
