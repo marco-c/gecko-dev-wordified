@@ -3009,7 +3009,7 @@ GetScriptGlobalObject
 (
 )
 ;
-void
+nsresult
 FillCompileOptionsForRequest
 (
 const
