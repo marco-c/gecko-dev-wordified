@@ -802,7 +802,7 @@ listening
 to
 slow
 group
-apertsl
+alerts
 *
 /
 function
