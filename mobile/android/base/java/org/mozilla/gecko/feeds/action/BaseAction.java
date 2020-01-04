@@ -171,4 +171,9 @@ requiresNetwork
 (
 )
 ;
+boolean
+requiresPreferenceEnabled
+(
+)
+;
 }

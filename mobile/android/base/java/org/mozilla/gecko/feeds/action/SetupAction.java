@@ -265,6 +265,17 @@ return
 false
 ;
 }
+Override
+public
+boolean
+requiresPreferenceEnabled
+(
+)
+{
+return
+false
+;
+}
 private
 void
 cancelPreviousAlarms

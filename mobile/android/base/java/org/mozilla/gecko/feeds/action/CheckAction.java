@@ -1124,4 +1124,15 @@ return
 true
 ;
 }
+Override
+public
+boolean
+requiresPreferenceEnabled
+(
+)
+{
+return
+true
+;
+}
 }
