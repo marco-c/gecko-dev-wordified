@@ -134,13 +134,6 @@ nsICryptoHash
 .
 h
 "
-#
-include
-"
-SRIMetadata
-.
-h
-"
 class
 nsIChannel
 ;
@@ -156,6 +149,9 @@ mozilla
 namespace
 dom
 {
+class
+SRIMetadata
+;
 class
 SRICheck
 final
