@@ -230,7 +230,7 @@ GetAppId
 )
 ;
 bool
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 ;

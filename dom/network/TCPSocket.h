@@ -1447,12 +1447,13 @@ socket
 created
 inside
 of
-a
-mozbrowser
+an
+isolated
+browser
 frame
 ?
 bool
-mInBrowser
+mInIsolatedMozBrowser
 ;
 /
 /

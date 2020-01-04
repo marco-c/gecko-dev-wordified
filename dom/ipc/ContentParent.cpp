@@ -6560,7 +6560,7 @@ if
 (
 aContext
 .
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 |
@@ -6594,7 +6594,7 @@ MOZ_ASSERT
 (
 aContext
 .
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 )
@@ -6631,7 +6631,7 @@ GetNewOrUsedBrowserProcess
 (
 aContext
 .
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 initialPriority
@@ -28685,7 +28685,7 @@ thisTabParent
 thisTabParent
 -
 >
-IsBrowserOrApp
+IsMozBrowserOrApp
 (
 )
 )

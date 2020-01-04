@@ -760,7 +760,7 @@ GetAppId
 mServerBridgeParent
 -
 >
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 )

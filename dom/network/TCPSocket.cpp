@@ -876,7 +876,7 @@ nsIScriptSecurityManager
 :
 UNKNOWN_APP_ID
 )
-mInBrowser
+mInIsolatedMozBrowser
 (
 false
 )
@@ -5547,7 +5547,7 @@ SetAppIdAndBrowser
 uint32_t
 aAppId
 bool
-aInBrowser
+aInIsolatedMozBrowser
 )
 {
 #
@@ -5557,9 +5557,9 @@ mAppId
 =
 aAppId
 ;
-mInBrowser
+mInIsolatedMozBrowser
 =
-aInBrowser
+aInIsolatedMozBrowser
 ;
 #
 endif
@@ -5791,7 +5791,7 @@ nssProxy
 SaveAppStats
 (
 mAppId
-mInBrowser
+mInIsolatedMozBrowser
 mActiveNetworkInfo
 PR_Now
 (
