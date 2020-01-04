@@ -601,6 +601,17 @@ recipient
 ;
 }
 get
+id
+(
+)
+{
+return
+context
+.
+extensionId
+;
+}
+get
 lastError
 (
 )
