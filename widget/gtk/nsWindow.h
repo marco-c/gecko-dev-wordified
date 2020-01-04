@@ -1545,7 +1545,10 @@ mozilla
 EventMessage
 aMsg
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aRefPoint
 guint
