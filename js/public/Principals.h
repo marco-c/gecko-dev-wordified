@@ -331,9 +331,9 @@ void
 )
 JS_DropPrincipals
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSPrincipals
 *
 principals

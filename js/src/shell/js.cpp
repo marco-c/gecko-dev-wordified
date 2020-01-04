@@ -26067,11 +26067,6 @@ principals
 JS_DropPrincipals
 (
 cx
--
->
-runtime
-(
-)
 principals
 )
 ;

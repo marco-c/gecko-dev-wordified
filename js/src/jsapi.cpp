@@ -18224,9 +18224,9 @@ void
 )
 JS_DropPrincipals
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSPrincipals
 *
 principals
@@ -18249,7 +18249,7 @@ rc
 =
 0
 )
-rt
+cx
 -
 >
 destroyPrincipals

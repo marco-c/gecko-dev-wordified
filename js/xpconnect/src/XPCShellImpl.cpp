@@ -9612,7 +9612,7 @@ EXITCODE_RUNTIME_ERROR
 }
 JS_DropPrincipals
 (
-rt
+cx
 gJSPrincipals
 )
 ;

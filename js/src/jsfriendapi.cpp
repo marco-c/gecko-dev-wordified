@@ -1060,7 +1060,7 @@ JS_DropPrincipals
 compartment
 -
 >
-runtimeFromMainThread
+contextFromMainThread
 (
 )
 compartment
