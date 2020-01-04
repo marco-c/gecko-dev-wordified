@@ -122,6 +122,37 @@ s
 %
 exe
     
+#
+Use
+universal_newlines
+so
+everything
+is
+'
+\
+n
+'
+which
+gets
+converted
+to
+    
+#
+'
+\
+r
+\
+n
+'
+when
+writing
+out
+the
+file
+in
+Windows
+.
+    
 data
 =
 subprocess
@@ -131,6 +162,9 @@ check_output
 [
 run_exe
 ]
+universal_newlines
+=
+True
 )
     
 with
