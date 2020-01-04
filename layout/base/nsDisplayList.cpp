@@ -6868,10 +6868,6 @@ const
 DisplayItemScrollClip
 *
 aParent
-const
-DisplayItemScrollClip
-*
-aCrossStackingContextParent
 nsIScrollableFrame
 *
 aScrollableFrame
@@ -6906,7 +6902,6 @@ p
 DisplayItemScrollClip
 (
 aParent
-aCrossStackingContextParent
 aScrollableFrame
 aClip
 aIsAsyncScrollable
