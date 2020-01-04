@@ -6236,7 +6236,7 @@ GetPlatform
 )
 -
 >
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 )
@@ -7426,7 +7426,7 @@ GetPlatform
 )
 -
 >
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 )
@@ -9647,7 +9647,7 @@ GetPlatform
 )
 -
 >
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 |
@@ -27010,7 +27010,7 @@ GetPlatform
 )
 -
 >
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 )
