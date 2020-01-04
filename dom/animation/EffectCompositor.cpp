@@ -1001,7 +1001,7 @@ if
 animation
 -
 >
-IsPlaying
+IsPlayableOnCompositor
 (
 )
 )

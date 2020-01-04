@@ -3545,7 +3545,7 @@ if
 anim
 -
 >
-IsPlaying
+IsPlayableOnCompositor
 (
 )
 )
