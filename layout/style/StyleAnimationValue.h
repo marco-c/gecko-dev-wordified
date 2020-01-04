@@ -182,7 +182,7 @@ class
 gfx3DMatrix
 ;
 struct
-ServoDeclarationBlock
+RawServoDeclarationBlock
 ;
 namespace
 mozilla
@@ -1597,10 +1597,10 @@ ComputeValues
 that
 takes
 a
-ServoDeclarationBlock
+RawServoDeclarationBlock
+*
 as
 the
-*
 specified
 value
 .
@@ -1622,7 +1622,7 @@ nsStyleContext
 *
 aStyleContext
 const
-ServoDeclarationBlock
+RawServoDeclarationBlock
 &
 aDeclarations
 nsTArray

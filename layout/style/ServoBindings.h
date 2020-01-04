@@ -360,7 +360,7 @@ struct
 nsStyleDisplay
 ;
 struct
-ServoDeclarationBlock
+RawServoDeclarationBlock
 ;
 namespace
 mozilla
@@ -717,7 +717,7 @@ RawServoStyleSheet
 )
 DECL_ARC_REF_TYPE_FOR
 (
-ServoDeclarationBlock
+RawServoDeclarationBlock
 )
 DECL_OWNED_REF_TYPE_FOR
 (
@@ -1584,7 +1584,7 @@ SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
 Style
 attributes
 .
-ServoDeclarationBlockBorrowedOrNull
+RawServoDeclarationBlockBorrowedOrNull
 Gecko_GetServoDeclarationBlock
 (
 RawGeckoElementBorrowed

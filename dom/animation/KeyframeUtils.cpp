@@ -6614,7 +6614,7 @@ baseString
 ;
 RefPtr
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 servoDeclarationBlock
 =

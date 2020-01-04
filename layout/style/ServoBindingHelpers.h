@@ -236,7 +236,7 @@ ServoComputedValues
 DEFINE_REFPTR_TRAITS
 (
 DeclarationBlock
-ServoDeclarationBlock
+RawServoDeclarationBlock
 )
 ;
 #

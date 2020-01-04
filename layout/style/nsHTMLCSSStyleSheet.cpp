@@ -396,7 +396,7 @@ nsAttrValue
 eServoCSSDeclaration
 :
 {
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 declarations
 =

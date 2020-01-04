@@ -242,7 +242,7 @@ h
 "
 /
 /
-ServoDeclarationBlock
+RawServoDeclarationBlock
 and
 /
 /
@@ -465,7 +465,7 @@ string
 .
 RefPtr
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 mServoDeclarationBlock
 ;

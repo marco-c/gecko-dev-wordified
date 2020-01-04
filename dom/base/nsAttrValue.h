@@ -273,7 +273,7 @@ struct
 MiscContainer
 ;
 struct
-ServoDeclarationBlock
+RawServoDeclarationBlock
 ;
 namespace
 mozilla
@@ -974,7 +974,7 @@ SetTo
 (
 already_AddRefed
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 aDeclarationBlock
 const
@@ -1423,7 +1423,7 @@ GetGeckoCSSDeclarationValue
 const
 ;
 inline
-ServoDeclarationBlock
+RawServoDeclarationBlock
 *
 GetServoCSSDeclarationValue
 (

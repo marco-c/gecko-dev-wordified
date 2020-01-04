@@ -2151,7 +2151,7 @@ SetTo
 (
 already_AddRefed
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 aValue
 const
@@ -8800,7 +8800,7 @@ aString
 ;
 RefPtr
 <
-ServoDeclarationBlock
+RawServoDeclarationBlock
 >
 decl
 =
