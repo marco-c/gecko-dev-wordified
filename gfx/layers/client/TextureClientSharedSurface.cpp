@@ -226,6 +226,16 @@ surf
 )
 )
 {
+AddFlags
+(
+mSurf
+-
+>
+GetTextureFlags
+(
+)
+)
+;
 }
 SharedSurfaceTextureClient
 :
