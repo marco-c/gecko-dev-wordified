@@ -1518,6 +1518,9 @@ TelemetryContract
 Method
 .
 LIST
+"
+home_contextmenu
+"
 )
 ;
 return
