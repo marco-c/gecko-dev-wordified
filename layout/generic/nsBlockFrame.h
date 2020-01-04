@@ -881,8 +881,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsFrameState
-aFlags
 )
 ;
 /

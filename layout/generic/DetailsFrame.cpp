@@ -183,7 +183,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBlockFrame
 )
-DetailsFrame
+nsBlockFrame
 *
 NS_NewDetailsFrame
 (
