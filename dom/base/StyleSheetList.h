@@ -141,7 +141,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 namespace
 dom
@@ -202,7 +202,7 @@ Length
 0
 ;
 virtual
-CSSStyleSheet
+StyleSheet
 *
 IndexedGetter
 (
@@ -215,7 +215,7 @@ aFound
 =
 0
 ;
-CSSStyleSheet
+StyleSheet
 *
 Item
 (

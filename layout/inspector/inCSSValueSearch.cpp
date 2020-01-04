@@ -617,7 +617,7 @@ i
 {
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 sheet
 =
