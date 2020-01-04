@@ -6684,6 +6684,14 @@ nsFrameList
 aChildList
 )
 {
+if
+(
+aListID
+=
+=
+kPrincipalList
+)
+{
 /
 /
 First
@@ -6720,6 +6728,7 @@ mHasBeenInitialized
 =
 false
 ;
+}
 }
 nsHTMLScrollFrame
 :

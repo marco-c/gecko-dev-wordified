@@ -991,6 +991,14 @@ aListID
 aChildList
 )
 ;
+if
+(
+aListID
+=
+=
+kPrincipalList
+)
+{
 /
 /
 initialize
@@ -1029,6 +1037,7 @@ FirstChild
 )
 )
 ;
+}
 }
 /
 *
