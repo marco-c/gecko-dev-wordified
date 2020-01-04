@@ -3688,7 +3688,7 @@ obj
 comp
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
