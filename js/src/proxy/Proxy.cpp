@@ -1352,7 +1352,7 @@ MOZ_ASSERT
 proxy
 -
 >
-hasLazyPrototype
+hasDynamicPrototype
 (
 )
 )
@@ -1416,7 +1416,7 @@ MOZ_ASSERT
 proxy
 -
 >
-hasLazyPrototype
+hasDynamicPrototype
 (
 )
 )
@@ -1481,7 +1481,7 @@ MOZ_ASSERT
 proxy
 -
 >
-hasLazyPrototype
+hasDynamicPrototype
 (
 )
 )
@@ -5470,7 +5470,7 @@ this
 ;
 MOZ_ASSERT
 (
-hasLazyPrototype
+hasDynamicPrototype
 (
 )
 )

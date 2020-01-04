@@ -2326,7 +2326,7 @@ must
 override
 getPrototype
 with
-lazy
+dynamic
 prototype
 "
 )
@@ -2360,8 +2360,8 @@ protos
 on
 proxies
 with
-lazy
-protos
+dynamic
+prototypes
 but
 no
 hook
@@ -2434,7 +2434,7 @@ must
 override
 getPrototypeIfOrdinary
 with
-lazy
+dynamic
 prototype
 "
 )

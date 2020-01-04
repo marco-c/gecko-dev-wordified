@@ -364,7 +364,7 @@ const
 {
 if
 (
-isLazy
+isDynamic
 (
 )
 )

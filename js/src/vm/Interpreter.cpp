@@ -21610,7 +21610,7 @@ MOZ_ASSERT
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 )
@@ -21716,7 +21716,7 @@ MOZ_ASSERT
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 )

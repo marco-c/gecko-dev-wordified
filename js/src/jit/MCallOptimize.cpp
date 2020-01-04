@@ -13494,7 +13494,7 @@ proto
 templateObject
 -
 >
-getProto
+staticPrototype
 (
 )
 )
