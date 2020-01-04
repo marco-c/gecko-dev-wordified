@@ -247,16 +247,6 @@ GetProp_Fallback
 \
 _
 (
-GetProp_ArrayLength
-)
-\
-_
-(
-GetProp_UnboxedArrayLength
-)
-\
-_
-(
 GetProp_Primitive
 )
 \
