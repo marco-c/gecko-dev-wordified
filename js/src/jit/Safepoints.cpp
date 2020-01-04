@@ -1360,7 +1360,7 @@ slots
 if
 defined
 (
-DEBUG
+JS_JITSPEW
 )
 &
 &
