@@ -401,7 +401,6 @@ this
 ;
 }
 }
-;
 for
 (
 let

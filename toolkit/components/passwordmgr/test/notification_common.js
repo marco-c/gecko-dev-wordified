@@ -603,7 +603,7 @@ notifications
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -696,7 +696,6 @@ window
 top
 )
 ;
-var
 notes
 =
 nb
@@ -723,7 +722,7 @@ bars
 ;
 for
 (
-var
+let
 i
 =
 0

@@ -446,12 +446,10 @@ false
 =
 *
 /
-var
 testnum
 =
 1
 ;
-var
 testdesc
 =
 "
