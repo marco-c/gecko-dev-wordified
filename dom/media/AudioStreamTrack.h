@@ -134,12 +134,17 @@ DOMMediaStream
 aStream
 TrackID
 aTrackID
+const
+nsString
+&
+aLabel
 )
 :
 MediaStreamTrack
 (
 aStream
 aTrackID
+aLabel
 )
 {
 }

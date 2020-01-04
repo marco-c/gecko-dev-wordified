@@ -137,6 +137,10 @@ DOMMediaStream
 aStream
 TrackID
 aTrackID
+const
+nsString
+&
+aLabel
 )
 :
 mOwningStream
@@ -146,6 +150,10 @@ aStream
 mTrackID
 (
 aTrackID
+)
+mLabel
+(
+aLabel
 )
 mEnded
 (

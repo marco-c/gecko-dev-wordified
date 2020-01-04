@@ -2922,6 +2922,9 @@ VideoStreamTrack
 (
 this
 aTrackID
+nsString
+(
+)
 )
 ;
 RefPtr

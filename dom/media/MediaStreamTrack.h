@@ -196,6 +196,10 @@ DOMMediaStream
 aStream
 TrackID
 aTrackID
+const
+nsString
+&
+aLabel
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -348,8 +352,9 @@ aLabel
 {
 aLabel
 .
-Truncate
+Assign
 (
+mLabel
 )
 ;
 }
@@ -475,6 +480,9 @@ mTrackID
 ;
 nsString
 mID
+;
+nsString
+mLabel
 ;
 bool
 mEnded
