@@ -5303,11 +5303,18 @@ rb
 )
         
 if
-self
+os
 .
-log_manager
+isatty
+(
+sys
 .
-terminal
+stdout
+.
+fileno
+(
+)
+)
 :
             
 env
@@ -5347,11 +5354,13 @@ environment
                 
 env
 [
+b
 '
 LESS
 '
 ]
 =
+b
 '
 FRX
 '
