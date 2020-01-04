@@ -20862,6 +20862,11 @@ charset
 ownerDoc
 .
 characterSet
+referrerURI
+:
+ownerDoc
+.
+documentURIObject
 }
 )
 ;
