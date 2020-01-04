@@ -507,6 +507,26 @@ UTF
 -
 8
 '
+        
+#
+Tell
+the
+shell
+to
+disable
+crash
+dialogs
+on
+windows
+.
+        
+'
+XRE_NO_WINDOWS_CRASH_DIALOG
+'
+:
+'
+1
+'
     
 }
     
