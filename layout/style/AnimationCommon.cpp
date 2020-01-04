@@ -1241,7 +1241,7 @@ AnimationCollection
 CommonAnimationManager
 :
 :
-GetAnimations
+GetAnimationCollection
 (
 dom
 :
@@ -1727,11 +1727,16 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aPseudoType
 false
+/
+*
+aCreateIfNeeded
+*
+/
 )
 ;
 if

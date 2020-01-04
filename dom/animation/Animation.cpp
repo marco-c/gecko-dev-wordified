@@ -8255,11 +8255,16 @@ return
 manager
 -
 >
-GetAnimations
+GetAnimationCollection
 (
 targetElement
 targetPseudoType
 false
+/
+*
+aCreateIfNeeded
+*
+/
 )
 ;
 }
