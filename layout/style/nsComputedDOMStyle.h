@@ -3867,7 +3867,7 @@ void
 SetValueToPositionCoord
 (
 const
-nsStyleImageLayers
+mozilla
 :
 :
 Position
@@ -3885,7 +3885,7 @@ void
 SetValueToPosition
 (
 const
-nsStyleImageLayers
+mozilla
 :
 :
 Position

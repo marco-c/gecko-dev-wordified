@@ -1105,7 +1105,7 @@ void
 ComputeObjectAnchorPoint
 (
 const
-nsStyleImageLayers
+mozilla
 :
 :
 Position

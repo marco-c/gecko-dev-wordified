@@ -13492,9 +13492,6 @@ nsComputedDOMStyle
 SetValueToPositionCoord
 (
 const
-nsStyleImageLayers
-:
-:
 Position
 :
 :
@@ -13585,9 +13582,6 @@ nsComputedDOMStyle
 SetValueToPosition
 (
 const
-nsStyleImageLayers
-:
-:
 Position
 &
 aPosition
