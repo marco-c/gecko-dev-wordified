@@ -21618,6 +21618,19 @@ self
 descriptor
 .
 name
+            
+getConstructorProto
+=
+CGGeneric
+(
+getConstructorProto
+)
+            
+constructorProto
+=
+"
+constructorProto
+"
         
 else
 :
@@ -21658,6 +21671,16 @@ nullptr
 "
             
 interfaceCache
+=
+"
+nullptr
+"
+            
+getConstructorProto
+=
+None
+            
+constructorProto
 =
 "
 nullptr
@@ -21806,7 +21829,9 @@ protoClass
 }
 protoCache
                                         
+{
 constructorProto
+}
 {
 interfaceClass
 }
@@ -21856,6 +21881,10 @@ parentProto
 protoCache
 =
 protoCache
+            
+constructorProto
+=
+constructorProto
             
 interfaceClass
 =
@@ -23140,10 +23169,7 @@ CGList
             
 [
 getParentProto
-CGGeneric
-(
 getConstructorProto
-)
 initIds
              
 prefCache
