@@ -3721,7 +3721,6 @@ mFormat
 ;
 }
 }
-}
 RefPtr
 <
 DrawTarget
