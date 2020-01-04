@@ -2925,17 +2925,6 @@ uint32_t
 aIndex
 )
 ;
-void
-GetSupportedNames
-(
-nsTArray
-<
-nsString
->
-&
-aNames
-)
-;
 static
 bool
 IsPrivilegedChromeWindow
@@ -10762,6 +10751,8 @@ ErrorResult
 aRv
 )
 ;
+public
+:
 /
 /
 Outer
@@ -10774,6 +10765,8 @@ GetWindowList
 (
 )
 ;
+protected
+:
 /
 /
 Helper
