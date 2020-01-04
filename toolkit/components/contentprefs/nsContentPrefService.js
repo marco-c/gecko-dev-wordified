@@ -2401,6 +2401,7 @@ _notifyPrefRemoved
 (
 group
 aName
+true
 )
 ;
 return
@@ -2519,6 +2520,7 @@ _notifyPrefRemoved
 (
 group
 aName
+false
 )
 ;
 }
@@ -2750,6 +2752,7 @@ _notifyPrefRemoved
 (
 group
 aName
+true
 )
 ;
 }
@@ -3024,6 +3027,7 @@ groupNames
 i
 ]
 aName
+false
 )
 ;
 }
@@ -3640,6 +3644,7 @@ ContentPrefService__notifyPrefRemoved
 (
 aGroup
 aName
+aIsPrivate
 )
 {
 for
@@ -3663,6 +3668,7 @@ onContentPrefRemoved
 (
 aGroup
 aName
+aIsPrivate
 )
 ;
 }

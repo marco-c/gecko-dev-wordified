@@ -927,6 +927,7 @@ FullZoom_onContentPrefRemoved
 (
 aGroup
 aName
+aIsPrivate
 )
 {
 this
@@ -935,6 +936,7 @@ _onContentPrefChanged
 (
 aGroup
 undefined
+aIsPrivate
 )
 ;
 }
