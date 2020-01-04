@@ -1016,6 +1016,13 @@ device
 list
 changes
 .
+if
+(
+window
+.
+PresentationRequest
+)
+{
 fxOSTVDevice
 .
 init
@@ -1029,6 +1036,7 @@ registerDevice
 fxOSTVDevice
 )
 ;
+}
 /
 /
 Search
