@@ -17879,7 +17879,7 @@ WarningReporter
 ;
 JS_InitDestroyPrincipalsCallback
 (
-rt
+cx
 ShellPrincipals
 :
 :
@@ -48853,7 +48853,7 @@ availMem
 ;
 JS_SetTrustedPrincipals
 (
-rt
+cx
 &
 ShellPrincipals
 :
@@ -48873,7 +48873,7 @@ securityCallbacks
 ;
 JS_InitDestroyPrincipalsCallback
 (
-rt
+cx
 ShellPrincipals
 :
 :

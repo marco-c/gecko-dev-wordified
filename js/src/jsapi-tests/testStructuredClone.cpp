@@ -750,7 +750,7 @@ securityCallbacks
 ;
 JS_InitDestroyPrincipalsCallback
 (
-rt
+cx
 StructuredCloneTestPrincipals
 :
 :
@@ -759,7 +759,7 @@ destroy
 ;
 JS_InitReadPrincipalsCallback
 (
-rt
+cx
 StructuredCloneTestPrincipals
 :
 :
