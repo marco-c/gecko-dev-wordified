@@ -2563,6 +2563,7 @@ ContextDerived
 :
             
 return
+False
         
 backend_file
 =
@@ -2573,6 +2574,8 @@ _get_backend_file_for
 obj
 )
         
+consumed
+=
 CommonBackend
 .
 consume_object
@@ -2675,12 +2678,11 @@ it
 .
         
 if
-obj
-.
-_ack
+consumed
 :
             
 return
+True
         
 if
 isinstance
@@ -3748,6 +3750,7 @@ else
 :
                 
 return
+False
         
 elif
 isinstance
@@ -4067,12 +4070,10 @@ else
 :
             
 return
+False
         
-obj
-.
-ack
-(
-)
+return
+True
     
 def
 _fill_root_mk

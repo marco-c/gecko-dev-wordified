@@ -207,29 +207,6 @@ obj
 )
 :
         
-#
-We
-currently
-ignore
-a
-lot
-of
-object
-types
-so
-just
-acknowledge
-        
-#
-everything
-.
-        
-obj
-.
-ack
-(
-)
-        
 if
 not
 isinstance
@@ -1498,7 +1475,25 @@ defines
 else
 :
             
+#
+We
+currently
+ignore
+a
+lot
+of
+object
+types
+so
+just
+acknowledge
+            
+#
+everything
+.
+            
 return
+True
         
 self
 .
@@ -1510,6 +1505,9 @@ obj
 .
 objdir
 )
+        
+return
+True
     
 def
 consume_finished

@@ -740,18 +740,6 @@ obj
 )
 :
         
-#
-Just
-acknowledge
-everything
-.
-        
-obj
-.
-ack
-(
-)
-        
 reldir
 =
 getattr
@@ -1001,6 +989,15 @@ reldir
 p
 )
 )
+        
+#
+Just
+acknowledge
+everything
+.
+        
+return
+True
     
 def
 _add_sources

@@ -1418,6 +1418,7 @@ Makefile
 :
                 
 return
+False
             
 with
 self
@@ -1763,12 +1764,10 @@ else
 :
             
 return
+False
         
-obj
-.
-ack
-(
-)
+return
+True
     
 def
 consume_finished

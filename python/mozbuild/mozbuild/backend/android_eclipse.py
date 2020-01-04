@@ -381,7 +381,9 @@ ContextDerived
 :
             
 return
+False
         
+if
 CommonBackend
 .
 consume_object
@@ -389,7 +391,8 @@ consume_object
 self
 obj
 )
-        
+:
+            
 #
 If
 CommonBackend
@@ -403,47 +406,12 @@ done
 with
 it
 .
-        
-if
-obj
-.
-_ack
-:
             
 return
+True
         
 #
-We
-don
-'
-t
-want
-to
-handle
-most
-things
-so
-we
-just
-acknowledge
-all
-objects
-.
-.
-.
-        
-obj
-.
-ack
-(
-)
-        
-#
-.
-.
-.
-and
-handle
+Handle
 the
 one
 case
@@ -483,6 +451,26 @@ obj
 .
 objdir
 )
+        
+#
+We
+don
+'
+t
+want
+to
+handle
+most
+things
+so
+we
+just
+acknowledge
+all
+objects
+        
+return
+True
     
 def
 consume_finished
