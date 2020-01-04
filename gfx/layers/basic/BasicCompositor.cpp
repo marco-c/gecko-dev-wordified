@@ -579,6 +579,10 @@ BasicCompositor
 :
 Initialize
 (
+nsCString
+*
+const
+out_failureReason
 )
 {
 return
