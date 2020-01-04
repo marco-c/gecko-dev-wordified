@@ -27479,17 +27479,6 @@ something
 went
 wrong
 .
-nsContentUtils
-:
-:
-MaybeReportInterceptionErrorToConsole
-(
-GetDocument
-(
-)
-aError
-)
-;
 error
 .
 AssignLiteral
