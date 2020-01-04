@@ -923,7 +923,7 @@ scrollport
 /
 static
 bool
-GetDisplayPortRelativeToScrollPort
+GetDisplayPort
 (
 nsIContent
 *
