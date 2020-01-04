@@ -58,7 +58,7 @@ requestLongerTimeout
 const
 TEST_URI
 =
-BASE_URI
+URL_ROOT
 +
 "
 browser_fontinspector
@@ -83,7 +83,7 @@ remote
 true
 url
 :
-BASE_URI
+URL_ROOT
 +
 "
 ostrich
@@ -116,7 +116,7 @@ remote
 true
 url
 :
-BASE_URI
+URL_ROOT
 +
 "
 ostrich
@@ -148,7 +148,7 @@ remote
 true
 url
 :
-BASE_URI
+URL_ROOT
 +
 "
 ostrich
@@ -180,7 +180,7 @@ remote
 true
 url
 :
-BASE_URI
+URL_ROOT
 +
 "
 ostrich
@@ -211,7 +211,7 @@ function
 let
 {
 inspector
-fontInspector
+view
 }
 =
 yield
@@ -224,7 +224,7 @@ ok
 (
 !
 !
-fontInspector
+view
 "
 Font
 inspector
@@ -238,7 +238,7 @@ alive
 let
 viewDoc
 =
-fontInspector
+view
 .
 chromeDoc
 ;
