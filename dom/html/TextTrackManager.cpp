@@ -3057,6 +3057,10 @@ TextTracks
 .
 if
 (
+!
+mTextTracks
+|
+|
 mTextTracks
 -
 >
