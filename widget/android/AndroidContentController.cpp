@@ -132,7 +132,7 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+IAPZCTreeManager
 .
 h
 "
@@ -164,7 +164,7 @@ mozilla
 layers
 :
 :
-APZCTreeManager
+IAPZCTreeManager
 ;
 namespace
 mozilla
@@ -198,7 +198,7 @@ AndroidContentController
 :
 NotifyDefaultPrevented
 (
-APZCTreeManager
+IAPZCTreeManager
 *
 aManager
 uint64_t
@@ -281,7 +281,7 @@ bool
 (
 aManager
 &
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 ContentReceivedInputBlock
