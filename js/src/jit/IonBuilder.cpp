@@ -12407,6 +12407,9 @@ jsop_newobject
 case
 JSOP_INITELEM
 :
+case
+JSOP_INITHIDDENELEM
+:
 return
 jsop_initelem
 (
@@ -12469,7 +12472,13 @@ case
 JSOP_INITPROP_GETTER
 :
 case
+JSOP_INITHIDDENPROP_GETTER
+:
+case
 JSOP_INITPROP_SETTER
+:
+case
+JSOP_INITHIDDENPROP_SETTER
 :
 {
 PropertyName
@@ -12501,7 +12510,13 @@ case
 JSOP_INITELEM_GETTER
 :
 case
+JSOP_INITHIDDENELEM_GETTER
+:
+case
 JSOP_INITELEM_SETTER
+:
+case
+JSOP_INITHIDDENELEM_SETTER
 :
 return
 jsop_initelem_getter_setter

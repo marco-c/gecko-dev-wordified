@@ -23137,6 +23137,12 @@ JSOP_INITELEM
 op
 =
 =
+JSOP_INITHIDDENELEM
+|
+|
+op
+=
+=
 JSOP_INITELEM_ARRAY
 |
 |
@@ -23233,6 +23239,12 @@ op
 =
 =
 JSOP_INITELEM
+|
+|
+op
+=
+=
+JSOP_INITHIDDENELEM
 )
 {
 if
@@ -23241,6 +23253,7 @@ if
 InitElemOperation
 (
 cx
+pc
 obj
 index
 rhs
