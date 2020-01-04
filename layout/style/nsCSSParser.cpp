@@ -10131,6 +10131,14 @@ mReusableSheets
 =
 nullptr
 ;
+mSheet
+-
+>
+SetParsingMode
+(
+aParsingMode
+)
+;
 return
 NS_OK
 ;
