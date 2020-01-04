@@ -1065,15 +1065,11 @@ _backend_output_files
 )
 )
         
-else
-:
-            
-#
-Always
-update
-its
-mtime
+elif
+self
 .
+_updated_count
+:
             
 with
 open
