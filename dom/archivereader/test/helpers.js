@@ -32,10 +32,6 @@ zero
 /
 var
 testGenerator
-=
-testSteps
-(
-)
 ;
 function
 runTest
@@ -74,6 +70,12 @@ function
 (
 )
 {
+testGenerator
+=
+testSteps
+(
+)
+;
 return
 testGenerator
 .
