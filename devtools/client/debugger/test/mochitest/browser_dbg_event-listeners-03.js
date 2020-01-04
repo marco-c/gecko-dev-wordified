@@ -448,7 +448,7 @@ return
 /
 There
 are
-4
+3
 event
 listeners
 in
@@ -464,7 +464,7 @@ onload
 /
 /
 and
-two
+one
 more
 from
 the
@@ -479,7 +479,7 @@ aPacket
 listeners
 .
 length
-4
+3
 "
 Found
 all
