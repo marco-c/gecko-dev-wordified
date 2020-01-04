@@ -2546,7 +2546,6 @@ aTextureId
 )
 override
 ;
-virtual
 base
 :
 :
@@ -2555,7 +2554,6 @@ GetParentPid
 (
 )
 const
-override
 ;
 /
 *
