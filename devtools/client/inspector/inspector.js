@@ -455,9 +455,7 @@ layout
 )
 ;
 const
-{
 MarkupView
-}
 =
 require
 (
