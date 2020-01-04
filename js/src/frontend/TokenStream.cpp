@@ -3410,15 +3410,12 @@ warning
 .
 unsigned
 flags
-=
-JSREPORT_STRICT
 ;
 if
 (
 strictMode
 )
 flags
-|
 =
 JSREPORT_ERROR
 ;
@@ -3432,9 +3429,10 @@ options
 extraWarningsOption
 )
 flags
-|
 =
 JSREPORT_WARNING
+|
+JSREPORT_STRICT
 ;
 else
 return
