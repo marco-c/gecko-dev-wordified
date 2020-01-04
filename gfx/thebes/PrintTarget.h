@@ -804,8 +804,6 @@ aRecorder
 =
 nullptr
 )
-=
-0
 ;
 protected
 :
@@ -821,6 +819,9 @@ constructors
 explicit
 PrintTarget
 (
+cairo_surface_t
+*
+aCairoSurface
 const
 IntSize
 &
@@ -854,6 +855,10 @@ DrawTarget
 *
 aDrawTarget
 )
+;
+cairo_surface_t
+*
+mCairoSurface
 ;
 IntSize
 mSize
