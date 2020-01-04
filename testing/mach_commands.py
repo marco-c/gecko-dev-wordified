@@ -4818,8 +4818,10 @@ blocking
 "
 )
         
-resolver
+resolver_func
 =
+lambda
+:
 self
 .
 _spawn
@@ -4834,10 +4836,31 @@ AutoTry
 self
 .
 topsrcdir
-resolver
+resolver_func
 self
 .
 _mach_context
+)
+        
+if
+kwargs
+[
+"
+list
+"
+]
+:
+            
+at
+.
+list_presets
+(
+)
+            
+sys
+.
+exit
+(
 )
         
 if
