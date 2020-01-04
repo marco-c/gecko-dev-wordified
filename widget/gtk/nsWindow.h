@@ -415,9 +415,6 @@ MOZ_LOGGING
 *
 /
 class
-gfxASurface
-;
-class
 gfxPattern
 ;
 class

@@ -370,7 +370,7 @@ pixel
 in
 line
 with
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize

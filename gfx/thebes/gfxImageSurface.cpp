@@ -383,6 +383,9 @@ aStride
 if
 (
 !
+Factory
+:
+:
 CheckSurfaceSize
 (
 aSize
@@ -687,6 +690,9 @@ mStride
 if
 (
 !
+Factory
+:
+:
 CheckSurfaceSize
 (
 mSize

@@ -347,13 +347,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h
@@ -29052,7 +29045,7 @@ issues
 if
 (
 !
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize
@@ -30425,7 +30418,7 @@ issues
 if
 (
 !
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize
