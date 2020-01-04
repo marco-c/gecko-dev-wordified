@@ -481,6 +481,7 @@ AddRef
 (
 void
 )
+override
 {
 return
 2
@@ -494,6 +495,7 @@ Release
 (
 void
 )
+override
 {
 return
 1
@@ -509,6 +511,7 @@ void
 *
 aInstancePtr
 )
+override
 ;
 NS_DECL_NSITHREADOBSERVER
 public
@@ -548,6 +551,7 @@ void
 DoRunLoop
 (
 )
+override
 ;
 protected
 :
