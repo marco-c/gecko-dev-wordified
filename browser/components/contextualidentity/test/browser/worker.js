@@ -1,0 +1,7 @@
+/
+/
+empty
+worker
+always
+succeed
+!
