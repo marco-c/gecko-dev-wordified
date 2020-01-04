@@ -3502,8 +3502,6 @@ MediaDecoderStateMachine
 :
 HaveEnoughDecodedAudio
 (
-int64_t
-aAmpleAudioUSecs
 )
 {
 MOZ_ASSERT
@@ -3512,6 +3510,13 @@ OnTaskQueue
 (
 )
 )
+;
+int64_t
+ampleAudioUSecs
+=
+mAmpleAudioThresholdUsecs
+*
+mPlaybackRate
 ;
 if
 (
@@ -3531,7 +3536,7 @@ GetDecodedAudioDuration
 (
 )
 <
-aAmpleAudioUSecs
+ampleAudioUSecs
 )
 {
 return
@@ -4191,9 +4196,6 @@ IsAudioDecoding
 mMinimizePreroll
 HaveEnoughDecodedAudio
 (
-mAmpleAudioThresholdUsecs
-*
-mPlaybackRate
 )
 )
 ;
@@ -4237,9 +4239,6 @@ mMinimizePreroll
 !
 HaveEnoughDecodedAudio
 (
-mAmpleAudioThresholdUsecs
-*
-mPlaybackRate
 )
 )
 )
