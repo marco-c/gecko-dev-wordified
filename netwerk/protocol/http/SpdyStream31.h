@@ -535,6 +535,11 @@ return
 mBlockedOnRwin
 ;
 }
+bool
+ChannelPipeFull
+(
+)
+;
 /
 /
 A

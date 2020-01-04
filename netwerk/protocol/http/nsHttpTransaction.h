@@ -1101,6 +1101,15 @@ mInitialRwin
 ;
 }
 ;
+bool
+ChannelPipeFull
+(
+)
+{
+return
+mWaitingOnPipeOut
+;
+}
 /
 /
 Locked
@@ -2023,6 +2032,9 @@ mContentDecodingCheck
 ;
 bool
 mDeferredSendProgress
+;
+bool
+mWaitingOnPipeOut
 ;
 /
 /
