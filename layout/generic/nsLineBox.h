@@ -3384,6 +3384,16 @@ aFrameIndexInLine
 #
 ifdef
 DEBUG_FRAME_DUMP
+const
+char
+*
+BreakTypeToString
+(
+uint8_t
+aBreakType
+)
+const
+;
 char
 *
 StateToString
