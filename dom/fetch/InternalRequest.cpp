@@ -353,7 +353,10 @@ copy
 >
 mContentPolicyType
 =
-mContentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_FETCH
 ;
 copy
 -
