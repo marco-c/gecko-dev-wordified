@@ -1441,6 +1441,14 @@ ins
 )
 ;
 void
+visitPostWriteElementBarrier
+(
+MPostWriteElementBarrier
+*
+ins
+)
+;
+void
 visitArrayLength
 (
 MArrayLength
