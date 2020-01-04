@@ -291,6 +291,15 @@ include
 "
 vm
 /
+Debugger
+.
+h
+"
+#
+include
+"
+vm
+/
 HelperThreads
 .
 h
