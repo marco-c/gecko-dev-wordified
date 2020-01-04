@@ -6169,6 +6169,9 @@ test
 src
 )
 ;
+let
+loopChatWindows
+=
 [
 .
 .
@@ -6182,12 +6185,14 @@ filter
 (
 isLoopURL
 )
-.
-forEach
+;
+for
 (
+let
 chatbox
-=
->
+of
+loopChatWindows
+)
 {
 let
 window
@@ -6214,8 +6219,6 @@ LoopHangupNow
 )
 ;
 }
-)
-;
 }
 /
 *
