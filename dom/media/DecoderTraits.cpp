@@ -1552,10 +1552,12 @@ aType
 )
 ;
 #
-endif
+else
 return
 false
 ;
+#
+endif
 }
 static
 bool
@@ -1582,7 +1584,7 @@ return
 false
 ;
 #
-endif
+else
 return
 MP3Decoder
 :
@@ -1593,6 +1595,8 @@ aType
 aCodecs
 )
 ;
+#
+endif
 }
 static
 bool
