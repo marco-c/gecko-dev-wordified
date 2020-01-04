@@ -2090,8 +2090,12 @@ static
 void
 UpdateMirroringWidgetSync
 (
+RefPtr
+<
 nsScreenGonk
-*
+>
+&
+&
 aScreen
 nsWindow
 *
