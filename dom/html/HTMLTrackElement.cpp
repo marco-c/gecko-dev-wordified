@@ -1629,6 +1629,9 @@ aNullParent
 if
 (
 mMediaParent
+&
+&
+aNullParent
 )
 {
 /
@@ -1663,16 +1666,10 @@ mTrack
 )
 ;
 }
-if
-(
-aNullParent
-)
-{
 mMediaParent
 =
 nullptr
 ;
-}
 }
 nsGenericHTMLElement
 :
