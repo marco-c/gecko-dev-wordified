@@ -225,7 +225,6 @@ GonkVideoDecoderManager
 aImageContainer
 aConfig
 )
-aVideoTaskQueue
 aCallback
 )
 ;
@@ -275,7 +274,6 @@ GonkAudioDecoderManager
 (
 aConfig
 )
-aAudioTaskQueue
 aCallback
 )
 ;
