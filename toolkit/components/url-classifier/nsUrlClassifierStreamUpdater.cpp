@@ -244,6 +244,12 @@ nsIURLFormatter
 .
 h
 "
+using
+mozilla
+:
+:
+DocShellOriginAttributes
+;
 static
 const
 char
@@ -1302,6 +1308,15 @@ a
 separate
 jar
 .
+DocShellOriginAttributes
+attrs
+;
+attrs
+.
+mAppId
+=
+NECKO_SAFEBROWSING_APP_ID
+;
 nsCOMPtr
 <
 nsIInterfaceRequestor
@@ -1314,7 +1329,7 @@ mozilla
 :
 LoadContext
 (
-NECKO_SAFEBROWSING_APP_ID
+attrs
 )
 ;
 rv

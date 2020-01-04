@@ -457,6 +457,12 @@ using
 mozilla
 :
 :
+DocShellOriginAttributes
+;
+using
+mozilla
+:
+:
 PrincipalOriginAttributes
 ;
 using
@@ -11584,6 +11590,15 @@ See
 bug
 897516
 .
+DocShellOriginAttributes
+attrs
+;
+attrs
+.
+mAppId
+=
+NECKO_SAFEBROWSING_APP_ID
+;
 nsCOMPtr
 <
 nsIInterfaceRequestor
@@ -11596,7 +11611,7 @@ mozilla
 :
 LoadContext
 (
-NECKO_SAFEBROWSING_APP_ID
+attrs
 )
 ;
 rv
