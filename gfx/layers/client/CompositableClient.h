@@ -978,6 +978,15 @@ Destroy
 (
 )
 ;
+static
+bool
+DestroyFallback
+(
+PCompositableChild
+*
+aActor
+)
+;
 bool
 IsConnected
 (
