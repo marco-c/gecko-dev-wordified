@@ -1887,6 +1887,16 @@ mUnusedApzTransformWarning
 true
 ;
 }
+void
+DisabledApzWarning
+(
+)
+{
+mDisabledApzWarning
+=
+true
+;
+}
 bool
 LastFrameMissedHWC
 (
@@ -2365,6 +2375,9 @@ mWarnTime
 ;
 bool
 mUnusedApzTransformWarning
+;
+bool
+mDisabledApzWarning
 ;
 RefPtr
 <
