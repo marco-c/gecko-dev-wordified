@@ -2169,10 +2169,6 @@ IsValid
 )
 &
 &
-!
-aImage
-&
-&
 IsYV12Format
 (
 Y
