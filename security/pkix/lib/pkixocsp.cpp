@@ -304,7 +304,6 @@ SHA1_DIGEST_LENGTH
 }
 /
 /
-unnamed
 namespace
 namespace
 mozilla

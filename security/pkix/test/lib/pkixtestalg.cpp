@@ -1172,7 +1172,6 @@ DSS_G_RAW
 }
 /
 /
-unnamed
 namespace
 TestSignatureAlgorithm
 :

@@ -553,7 +553,6 @@ Success
 }
 /
 /
-unnamed
 namespace
 Result
 VerifyRSAPKCS1SignedDigestNSS

@@ -397,7 +397,6 @@ certID
 }
 /
 /
-unnamed
 namespace
 class
 pkixocsp_VerifyEncodedResponse
