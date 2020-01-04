@@ -472,6 +472,8 @@ ifreq
 ifr_name
 aInterface
 IFNAMSIZ
+-
+1
 )
 ;
 if
