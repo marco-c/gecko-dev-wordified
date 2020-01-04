@@ -4880,6 +4880,33 @@ all_files
                 
 continue
             
+if
+dist_install
+is
+False
+:
+                
+raise
+SandboxValidationError
+(
+                    
+'
+%
+s
+cannot
+be
+used
+with
+DIST_INSTALL
+=
+False
+'
+%
+var
+                    
+context
+)
+            
 for
 _
 files
