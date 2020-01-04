@@ -3397,16 +3397,7 @@ crypto
 >
 Update
 (
-reinterpret_cast
-<
-const
-unsigned
-char
-*
->
-(
 aPubKey
-)
 aPubKeyLength
 )
 ;

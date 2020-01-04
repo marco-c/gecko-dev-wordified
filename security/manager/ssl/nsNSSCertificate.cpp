@@ -8713,7 +8713,7 @@ return
 newList
 ;
 }
-void
+CERTCertList
 *
 nsNSSCertList
 :
