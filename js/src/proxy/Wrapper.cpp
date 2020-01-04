@@ -422,7 +422,7 @@ JSObject
 *
 wrapped
 bool
-stopAtOuter
+stopAtWindowProxy
 unsigned
 *
 flagsp
@@ -454,7 +454,7 @@ WrapperObject
 |
 MOZ_UNLIKELY
 (
-stopAtOuter
+stopAtWindowProxy
 &
 &
 wrapped
@@ -578,7 +578,7 @@ JSObject
 *
 obj
 bool
-stopAtOuter
+stopAtWindowProxy
 )
 {
 while
@@ -597,7 +597,7 @@ obj
 UnwrapOneChecked
 (
 obj
-stopAtOuter
+stopAtWindowProxy
 )
 ;
 if
@@ -630,7 +630,7 @@ JSObject
 *
 obj
 bool
-stopAtOuter
+stopAtWindowProxy
 )
 {
 if
@@ -664,7 +664,7 @@ ext
 innerObject
 &
 &
-stopAtOuter
+stopAtWindowProxy
 )
 )
 {

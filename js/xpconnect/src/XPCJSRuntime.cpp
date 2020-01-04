@@ -3458,7 +3458,7 @@ UncheckedUnwrap
 proto
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -9066,7 +9066,7 @@ CheckedUnwrap
 proto
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

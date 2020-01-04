@@ -854,7 +854,7 @@ UncheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -1093,7 +1093,7 @@ UncheckedUnwrap
 wrapper
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

@@ -389,7 +389,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

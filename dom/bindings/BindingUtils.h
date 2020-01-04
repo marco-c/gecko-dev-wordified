@@ -1392,7 +1392,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -6804,7 +6804,7 @@ CheckedUnwrap
 scope
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -7256,7 +7256,7 @@ CheckedUnwrap
 scope
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

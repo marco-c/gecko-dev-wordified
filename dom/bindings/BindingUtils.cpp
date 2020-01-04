@@ -5708,7 +5708,7 @@ CheckedUnwrap
 origObj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -11885,7 +11885,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -12337,7 +12337,7 @@ UncheckedUnwrap
 instance
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -17392,7 +17392,7 @@ UncheckedUnwrap
 aObj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

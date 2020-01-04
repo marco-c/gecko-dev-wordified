@@ -7503,7 +7503,7 @@ CheckedUnwrap
 dom_obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -10730,7 +10730,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

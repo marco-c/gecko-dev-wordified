@@ -25885,7 +25885,7 @@ toObject
 )
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -43034,7 +43034,7 @@ CheckedUnwrap
 scopeProto
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

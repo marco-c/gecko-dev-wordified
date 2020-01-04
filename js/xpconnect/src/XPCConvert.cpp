@@ -5959,7 +5959,7 @@ CheckedUnwrap
 src
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -6889,7 +6889,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

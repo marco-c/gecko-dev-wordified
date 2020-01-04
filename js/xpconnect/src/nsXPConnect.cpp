@@ -3946,7 +3946,7 @@ CheckedUnwrap
 aJSObj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -4030,7 +4030,7 @@ CheckedUnwrap
 reflector
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

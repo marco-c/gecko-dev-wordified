@@ -414,7 +414,7 @@ UncheckedUnwrap
 wrapper
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

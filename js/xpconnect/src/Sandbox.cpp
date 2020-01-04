@@ -3086,7 +3086,7 @@ UncheckedUnwrap
 proto
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

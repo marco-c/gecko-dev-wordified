@@ -15198,7 +15198,7 @@ CheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -16765,7 +16765,7 @@ toObject
 )
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -16871,7 +16871,7 @@ toObject
 )
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -17171,7 +17171,7 @@ UncheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
