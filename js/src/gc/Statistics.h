@@ -806,7 +806,7 @@ endSlice
 (
 )
 ;
-void
+bool
 startTimingMutator
 (
 )
