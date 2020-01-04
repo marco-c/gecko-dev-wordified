@@ -8583,6 +8583,10 @@ mShadowTransformSetByAnimation
 (
 false
 )
+mShadowOpacitySetByAnimation
+(
+false
+)
 mDestroyed
 (
 false
