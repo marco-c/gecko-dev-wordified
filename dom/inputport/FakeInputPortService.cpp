@@ -622,11 +622,6 @@ Cancel
 ;
 }
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 FakeInputPortService
 :
@@ -669,11 +664,6 @@ return
 NS_OK
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 FakeInputPortService
 :
@@ -693,11 +683,6 @@ return
 NS_OK
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 FakeInputPortService
 :

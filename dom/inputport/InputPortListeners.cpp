@@ -223,11 +223,6 @@ aPort
 )
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 InputPortListener
 :

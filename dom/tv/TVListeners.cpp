@@ -258,11 +258,6 @@ i
 }
 }
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 TVSourceListener
 :
@@ -306,11 +301,6 @@ return
 NS_OK
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 TVSourceListener
 :
@@ -350,11 +340,6 @@ return
 NS_OK
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 TVSourceListener
 :
@@ -394,11 +379,6 @@ return
 NS_OK
 ;
 }
-/
-*
-virtual
-*
-/
 NS_IMETHODIMP
 TVSourceListener
 :
