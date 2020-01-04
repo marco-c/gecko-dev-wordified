@@ -9304,7 +9304,7 @@ nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_VISIBILITY
+CSS_PROP_USERINTERFACE
 (
 pointer
 -
@@ -9320,7 +9320,7 @@ VARIANT_HK
 kPointerEventsKTable
 offsetof
 (
-nsStyleVisibility
+nsStyleUserInterface
 mPointerEvents
 )
 eStyleAnimType_EnumU8

@@ -2181,7 +2181,7 @@ background
 bool
 pointerEventsNone
 =
-StyleVisibility
+StyleUserInterface
 (
 )
 -

@@ -3792,7 +3792,7 @@ flags
 ;
 switch
 (
-StyleVisibility
+StyleUserInterface
 (
 )
 -

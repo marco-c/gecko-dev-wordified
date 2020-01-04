@@ -1071,7 +1071,7 @@ IsSVGText
 ;
 }
 uint8_t
-nsStyleVisibility
+nsStyleUserInterface
 :
 :
 GetEffectivePointerEvents
@@ -1179,7 +1179,7 @@ return
 f
 -
 >
-StyleVisibility
+StyleUserInterface
 (
 )
 -
