@@ -12344,7 +12344,7 @@ r
 CacheIOThread
 :
 :
-CLOSE
+WRITE
 )
 ;
 }
