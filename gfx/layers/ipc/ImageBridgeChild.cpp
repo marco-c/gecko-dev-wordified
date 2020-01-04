@@ -998,8 +998,6 @@ actors
 "
 )
 ;
-break
-;
 }
 }
 mDestroyedActors

@@ -389,6 +389,14 @@ entries
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+UserData
+:
+:
+Add
+"
 )
 ;
 }

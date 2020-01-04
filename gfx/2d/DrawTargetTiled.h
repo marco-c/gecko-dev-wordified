@@ -387,6 +387,11 @@ implemented
 /
 MOZ_CRASH
 (
+"
+GFX
+:
+DrawSurfaceWithShadow
+"
 )
 ;
 }

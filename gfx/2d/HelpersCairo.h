@@ -529,7 +529,10 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
+Cairo
 filter
 "
 )

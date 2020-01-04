@@ -388,11 +388,9 @@ override
 MOZ_CRASH
 (
 "
-don
-'
-t
-do
-this
+GFX
+:
+ToSurfaceDescriptor
 "
 )
 ;

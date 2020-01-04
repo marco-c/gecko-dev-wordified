@@ -1691,6 +1691,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 target
 "

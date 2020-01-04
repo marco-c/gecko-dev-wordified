@@ -722,6 +722,8 @@ GLTexture
 MOZ_CRASH
 (
 "
+GFX
+:
 Did
 you
 forget
@@ -754,6 +756,8 @@ GLRenderbuffer
 MOZ_CRASH
 (
 "
+GFX
+:
 Did
 you
 forget

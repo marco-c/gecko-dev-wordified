@@ -1144,8 +1144,6 @@ actors
 "
 )
 ;
-break
-;
 }
 }
 mDestroyedActors

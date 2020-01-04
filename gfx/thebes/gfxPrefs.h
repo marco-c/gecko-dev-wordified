@@ -1042,9 +1042,11 @@ default
 :
 MOZ_CRASH
 (
+"
+Incomplete
+switch
+"
 )
-;
-break
 ;
 }
 }
@@ -1110,9 +1112,11 @@ default
 :
 MOZ_CRASH
 (
+"
+Incomplete
+switch
+"
 )
-;
-break
 ;
 }
 }

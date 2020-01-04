@@ -2258,6 +2258,11 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+TexImageTargetForTargetAndFace
+"
 )
 ;
 }

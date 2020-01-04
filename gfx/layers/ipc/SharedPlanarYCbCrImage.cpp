@@ -1244,9 +1244,6 @@ YCbCr
 "
 )
 ;
-return
-false
-;
 }
 aData
 .

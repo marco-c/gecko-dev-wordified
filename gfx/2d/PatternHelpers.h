@@ -734,6 +734,8 @@ mPattern
 MOZ_CRASH
 (
 "
+GFX
+:
 GeneralPattern
 not
 initialized

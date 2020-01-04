@@ -706,6 +706,8 @@ mCapacity
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 EmplaceAppend
 .

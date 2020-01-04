@@ -2871,6 +2871,8 @@ BottomLeft
 MOZ_CRASH
 (
 "
+GFX
+:
 Incomplete
 switch
 "
@@ -2929,6 +2931,8 @@ BottomLeft
 MOZ_CRASH
 (
 "
+GFX
+:
 Incomplete
 switch
 "
@@ -2987,6 +2991,8 @@ TopLeft
 MOZ_CRASH
 (
 "
+GFX
+:
 Incomplete
 switch
 "
@@ -3178,6 +3184,8 @@ X
 MOZ_CRASH
 (
 "
+GFX
+:
 Incomplete
 switch
 "
