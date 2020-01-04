@@ -57884,6 +57884,9 @@ getWarmUpCount
 RecompileInfo
 recompileInfo
 ;
+bool
+isValid
+;
 if
 (
 !
@@ -57894,7 +57897,17 @@ script
 constraints
 &
 recompileInfo
+&
+isValid
 )
+)
+return
+false
+;
+if
+(
+!
+isValid
 )
 return
 true

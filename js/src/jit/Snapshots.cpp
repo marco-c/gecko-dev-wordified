@@ -2034,6 +2034,16 @@ of
 the
 mode
 .
+if
+(
+!
+writer
+.
+oom
+(
+)
+)
+{
 MOZ_ASSERT
 (
 writer
@@ -2099,6 +2109,7 @@ p
 .
 type
 ;
+}
 break
 ;
 }
