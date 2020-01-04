@@ -132,10 +132,7 @@ changed
 DateCacheCleaner
 calls
 *
-JS
-:
-:
-ResetTimeZone
+JS_ClearDateCaches
 to
 update
 the
