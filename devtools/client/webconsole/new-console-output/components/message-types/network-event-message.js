@@ -324,6 +324,7 @@ const
 {
 actor
 source
+type
 level
 request
 response
@@ -366,11 +367,6 @@ mozilla
 "
 ]
 ;
-if
-(
-source
-)
-{
 classes
 .
 push
@@ -378,12 +374,13 @@ push
 source
 )
 ;
-}
-if
+classes
+.
+push
 (
-level
+type
 )
-{
+;
 classes
 .
 push
@@ -391,7 +388,6 @@ push
 level
 )
 ;
-}
 if
 (
 open
