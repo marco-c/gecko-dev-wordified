@@ -2714,6 +2714,7 @@ SendEndDragSession
 (
 aDoneDrag
 mUserCancelled
+mEndDragPoint
 )
 ;
 }
