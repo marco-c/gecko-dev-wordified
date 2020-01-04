@@ -600,6 +600,17 @@ override
 ;
 virtual
 bool
+RecvCaptureAllPlugins
+(
+const
+uintptr_t
+&
+aParentWidget
+)
+override
+;
+virtual
+bool
 RecvHideAllPlugins
 (
 const

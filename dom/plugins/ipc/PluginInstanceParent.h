@@ -1427,6 +1427,13 @@ defined
 XP_WIN
 )
 nsresult
+SetScrollCaptureId
+(
+uint64_t
+aScrollCaptureId
+)
+;
+nsresult
 GetScrollCaptureContainer
 (
 mozilla
