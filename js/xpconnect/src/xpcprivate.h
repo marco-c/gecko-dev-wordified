@@ -18570,14 +18570,6 @@ GetSafeJSContext
 (
 )
 ;
-bool
-HasJSContext
-(
-JSContext
-*
-cx
-)
-;
 private
 :
 friend
