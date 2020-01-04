@@ -3148,6 +3148,14 @@ ClientManager
 (
 )
 )
+&
+&
+gfxPrefs
+:
+:
+LayersSingleTileEnabled
+(
+)
 )
 {
 mContentClient
