@@ -207,9 +207,12 @@ nsDisplayList
 aForeground
 )
 ;
-void
+DrawResult
 PaintOutlineAndFocusBorders
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsPresContext
 *
 aPresContext
@@ -229,6 +232,9 @@ aRect
 DrawResult
 PaintBorderAndBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsPresContext
 *
 aPresContext
@@ -243,8 +249,6 @@ const
 nsRect
 &
 aRect
-uint32_t
-aBGFlags
 )
 ;
 void
