@@ -13971,14 +13971,10 @@ nsDisplayList
 :
 SortByZOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 {
 Sort
 (
-aBuilder
 IsZOrderLEQ
 nullptr
 )
@@ -13990,9 +13986,6 @@ nsDisplayList
 :
 SortByContentOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIContent
 *
 aCommonAncestor
@@ -14000,7 +13993,6 @@ aCommonAncestor
 {
 Sort
 (
-aBuilder
 IsContentLEQ
 aCommonAncestor
 )
@@ -14012,14 +14004,10 @@ nsDisplayList
 :
 SortByCSSOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 {
 Sort
 (
-aBuilder
 IsCSSOrderLEQ
 nullptr
 )
@@ -14031,9 +14019,6 @@ nsDisplayList
 :
 Sort
 (
-nsDisplayListBuilder
-*
-aBuilder
 SortLEQ
 aCmp
 void

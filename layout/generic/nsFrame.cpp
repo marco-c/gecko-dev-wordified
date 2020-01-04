@@ -13641,7 +13641,6 @@ PositionedDescendants
 >
 SortByZOrder
 (
-aBuilder
 )
 ;
 nsDisplayList
@@ -13922,7 +13921,6 @@ Outlines
 >
 SortByContentOrder
 (
-aBuilder
 content
 )
 ;

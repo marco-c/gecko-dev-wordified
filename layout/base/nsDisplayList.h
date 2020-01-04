@@ -13347,9 +13347,6 @@ order
 void
 SortByZOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 ;
 /
@@ -13440,9 +13437,6 @@ correctness
 void
 SortByContentOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIContent
 *
 aCommonAncestor
@@ -13523,9 +13517,6 @@ order
 void
 SortByCSSOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 ;
 /
@@ -13596,9 +13587,6 @@ aClosure
 void
 Sort
 (
-nsDisplayListBuilder
-*
-aBuilder
 SortLEQ
 aCmp
 void
@@ -15234,9 +15222,6 @@ order
 void
 SortAllByContentOrder
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIContent
 *
 aCommonAncestor
@@ -15265,7 +15250,6 @@ i
 .
 SortByContentOrder
 (
-aBuilder
 aCommonAncestor
 )
 ;
