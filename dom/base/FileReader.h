@@ -484,9 +484,6 @@ WorkerFeature
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

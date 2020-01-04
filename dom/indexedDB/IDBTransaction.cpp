@@ -444,9 +444,6 @@ virtual
 bool
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )
@@ -4812,9 +4809,6 @@ WorkerFeature
 :
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

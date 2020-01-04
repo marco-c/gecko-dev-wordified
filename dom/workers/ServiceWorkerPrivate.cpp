@@ -2127,9 +2127,6 @@ true
 bool
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

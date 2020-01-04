@@ -3378,9 +3378,6 @@ FileReader
 :
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

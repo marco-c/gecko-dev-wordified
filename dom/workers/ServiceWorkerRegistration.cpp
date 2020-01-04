@@ -5245,9 +5245,6 @@ ServiceWorkerRegistrationWorkerThread
 :
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

@@ -11662,9 +11662,6 @@ aWebSocketImpl
 bool
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

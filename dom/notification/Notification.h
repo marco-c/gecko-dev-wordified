@@ -297,9 +297,6 @@ aNotification
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :
