@@ -741,8 +741,6 @@ virtual
 void
 NotifyDataArrived
 (
-bool
-aThrottleUpdates
 )
 =
 0

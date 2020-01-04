@@ -3053,13 +3053,6 @@ mCallback
 >
 NotifyDataArrived
 (
-/
-*
-aThrottleUpdates
-=
-*
-/
-true
 )
 ;
 /

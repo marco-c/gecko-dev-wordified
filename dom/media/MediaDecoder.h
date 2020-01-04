@@ -3336,8 +3336,6 @@ virtual
 void
 NotifyDataArrived
 (
-bool
-aThrottleUpdates
 )
 override
 ;
