@@ -1307,9 +1307,9 @@ virtual
 bool
 ShouldFixToViewport
 (
-LayerManager
+nsDisplayListBuilder
 *
-aManager
+aBuilder
 )
 override
 {
