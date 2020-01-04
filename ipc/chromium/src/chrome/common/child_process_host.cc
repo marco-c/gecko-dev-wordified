@@ -470,16 +470,6 @@ StopWatching
 (
 )
 ;
-ProcessWatcher
-:
-:
-EnsureProcessTerminated
-(
-handle
-(
-)
-)
-;
 #
 if
 defined
