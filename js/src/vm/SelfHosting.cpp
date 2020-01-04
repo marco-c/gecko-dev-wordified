@@ -12794,7 +12794,7 @@ intrinsic_TypedArrayLength
 0
 IntrinsicTypedArrayLength
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 PossiblyWrappedTypedArrayLength
@@ -12802,6 +12802,7 @@ PossiblyWrappedTypedArrayLength
 intrinsic_PossiblyWrappedTypedArrayLength
 1
 0
+IntrinsicPossiblyWrappedTypedArrayLength
 )
 JS_FN
 (

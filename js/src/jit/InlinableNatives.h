@@ -594,6 +594,11 @@ IntrinsicTypedArrayLength
 \
 _
 (
+IntrinsicPossiblyWrappedTypedArrayLength
+)
+\
+_
+(
 IntrinsicSetDisjointTypedElements
 )
 \

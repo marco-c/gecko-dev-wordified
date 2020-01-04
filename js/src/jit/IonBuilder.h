@@ -5683,6 +5683,14 @@ callInfo
 )
 ;
 InliningStatus
+inlinePossiblyWrappedTypedArrayLength
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineSetDisjointTypedElements
 (
 CallInfo
