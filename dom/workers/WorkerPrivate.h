@@ -3629,9 +3629,6 @@ aIncrease
 bool
 AddChildWorker
 (
-JSContext
-*
-aCx
 ParentType
 *
 aChildWorker
@@ -3640,9 +3637,6 @@ aChildWorker
 void
 RemoveChildWorker
 (
-JSContext
-*
-aCx
 ParentType
 *
 aChildWorker
