@@ -426,6 +426,26 @@ external_attr
 &
 0x1FF
         
+#
+Only
+update
+permissions
+if
+attributes
+are
+set
+.
+Otherwise
+fallback
+to
+the
+defaults
+.
+        
+if
+mode
+:
+            
 os
 .
 chmod
