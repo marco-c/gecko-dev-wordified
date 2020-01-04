@@ -334,7 +334,7 @@ R
 .
 attr
 .
-menuItemActionViewStyle
+menuItemSwitcherLayoutStyle
 )
 ;
 }
@@ -1125,7 +1125,7 @@ set
 this
 but
 *
-MenuItemActionView
+MenuItemSwitcherLayout
 is
 too
 integrated
