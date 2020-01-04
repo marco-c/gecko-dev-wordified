@@ -2080,6 +2080,10 @@ regexpCompartment
 cStats
 .
 savedStacksSet
+&
+cStats
+.
+nonSyntacticLexicalScopesTable
 )
 ;
 }

@@ -16345,6 +16345,12 @@ as
 appearing
 in
 CallObjects
+*
+and
+the
+global
+lexical
+scope
 .
 *
 /
@@ -16365,6 +16371,12 @@ is
 CallObject
 >
 (
+)
+|
+|
+IsExtensibleLexicalScope
+(
+obj
 )
 )
 ;

@@ -2315,8 +2315,6 @@ _register_modules_protocol_handler
 if
 (
 !
-this
-.
 _TESTING_MODULES_DIR
 )
 {
@@ -8325,8 +8323,6 @@ child
 ;
 if
 (
-this
-.
 _TESTING_MODULES_DIR
 )
 {
