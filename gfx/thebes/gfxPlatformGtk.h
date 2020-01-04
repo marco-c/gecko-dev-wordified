@@ -637,14 +637,6 @@ GetOffscreenFormat
 )
 override
 ;
-virtual
-int
-GetScreenDepth
-(
-)
-const
-override
-;
 bool
 SupportsApzWheelInput
 (

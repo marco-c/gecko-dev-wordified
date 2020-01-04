@@ -440,13 +440,6 @@ GetFTLibrary
 )
 ;
 virtual
-int
-GetScreenDepth
-(
-)
-const
-;
-virtual
 bool
 CanRenderContentToDataSurface
 (
