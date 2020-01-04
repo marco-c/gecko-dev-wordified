@@ -28878,7 +28878,7 @@ mArea
 ;
 baselineTrack
 =
-isOrthogonal
+isInlineAxis
 ?
 area
 .
@@ -28927,7 +28927,7 @@ mArea
 baselineTrack
 =
 (
-isOrthogonal
+isInlineAxis
 ?
 area
 .
@@ -29419,7 +29419,7 @@ eContentBaseline
 ;
 baselineTrack
 =
-isOrthogonal
+isInlineAxis
 ?
 area
 .
@@ -29459,7 +29459,7 @@ eContentBaseline
 baselineTrack
 =
 (
-isOrthogonal
+isInlineAxis
 ?
 area
 .
