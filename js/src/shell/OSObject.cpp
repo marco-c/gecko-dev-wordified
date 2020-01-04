@@ -736,7 +736,7 @@ name
 JS
 :
 :
-UniqueChars
+AutoFilename
 scriptFilename
 ;
 if

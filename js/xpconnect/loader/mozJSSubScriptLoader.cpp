@@ -3154,7 +3154,7 @@ us
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 if

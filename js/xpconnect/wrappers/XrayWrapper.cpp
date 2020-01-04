@@ -1217,7 +1217,7 @@ str
 return
 false
 ;
-UniqueChars
+AutoFilename
 filename
 ;
 unsigned
