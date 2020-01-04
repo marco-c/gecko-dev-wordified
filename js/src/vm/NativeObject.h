@@ -4418,6 +4418,12 @@ numFixedSlots
 ;
 }
 uint32_t
+numFixedSlotsForCompilation
+(
+)
+const
+;
+uint32_t
 slotSpan
 (
 )
