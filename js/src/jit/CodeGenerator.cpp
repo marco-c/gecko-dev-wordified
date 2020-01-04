@@ -80594,7 +80594,7 @@ wasm
 JumpTarget
 :
 :
-UnreachableTrap
+Unreachable
 )
 ;
 }
