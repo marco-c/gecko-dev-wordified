@@ -2790,7 +2790,7 @@ utf32Char
 )
 |
 |
-IsBidiControl
+IsBidiControlRTL
 (
 utf32Char
 )
