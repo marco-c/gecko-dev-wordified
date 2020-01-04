@@ -314,6 +314,7 @@ BufferDecoder
 GetOwner
 (
 )
+const
 {
 /
 /

@@ -5852,12 +5852,15 @@ NS_IsMainThread
 )
 )
 ;
-return
+MOZ_ASSERT
+(
+!
 IsShutdown
 (
 )
-|
-|
+)
+;
+return
 mOwner
 -
 >
@@ -9566,6 +9569,7 @@ MediaDecoder
 GetOwner
 (
 )
+const
 {
 MOZ_ASSERT
 (

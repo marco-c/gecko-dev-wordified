@@ -574,6 +574,7 @@ MediaDecoderOwner
 GetOwner
 (
 )
+const
 =
 0
 ;
