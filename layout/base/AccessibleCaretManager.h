@@ -2032,15 +2032,9 @@ with
 caret
 -
 drag
-tapping
-into
-empty
-inputs
 and
 ActionBar
-visiblity
-/
-/
+visibility
 during
 page
 scroll
