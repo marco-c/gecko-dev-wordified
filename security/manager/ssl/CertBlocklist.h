@@ -427,6 +427,10 @@ static
 uint32_t
 sMaxStaleness
 ;
+static
+bool
+sUseAMO
+;
 virtual
 ~
 CertBlocklist
