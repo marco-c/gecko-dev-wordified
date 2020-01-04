@@ -1328,7 +1328,6 @@ eachother
 .
 if
 (
-!
 (
 load
 -
@@ -1350,7 +1349,7 @@ isNone
 )
 )
 return
-true
+false
 ;
 /
 /
