@@ -409,12 +409,6 @@ evalscript
 "
 )
 ;
-if
-(
-isFunctionFrame
-(
-)
-)
 TraceRoot
 (
 trc
