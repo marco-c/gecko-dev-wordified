@@ -190,7 +190,7 @@ aConfig
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -338,7 +338,7 @@ mImageContainer
 const
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
