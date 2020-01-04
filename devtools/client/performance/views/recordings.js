@@ -270,7 +270,7 @@ on
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _onNewRecording
@@ -355,7 +355,7 @@ off
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _onNewRecording
@@ -1398,7 +1398,7 @@ emit
 (
 EVENTS
 .
-RECORDING_SELECTED
+UI_RECORDING_SELECTED
 model
 )
 ;

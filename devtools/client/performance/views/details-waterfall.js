@@ -487,6 +487,15 @@ call
 this
 )
 ;
+clearNamedTimeout
+(
+"
+waterfall
+-
+resize
+"
+)
+;
 this
 .
 _cache
@@ -667,7 +676,7 @@ emit
 (
 EVENTS
 .
-WATERFALL_RENDERED
+UI_WATERFALL_RENDERED
 )
 ;
 }

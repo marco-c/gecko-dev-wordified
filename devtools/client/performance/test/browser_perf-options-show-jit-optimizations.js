@@ -476,7 +476,7 @@ once
 JsCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+UI_JS_CALL_TREE_RENDERED
 )
 ;
 RecordingsView
@@ -539,7 +539,7 @@ once
 JsCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+UI_JS_CALL_TREE_RENDERED
 )
 ;
 RecordingsView
@@ -630,7 +630,7 @@ once
 JsCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+UI_JS_CALL_TREE_RENDERED
 )
 ;
 Services
@@ -834,7 +834,7 @@ once
 JsCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+UI_JS_CALL_TREE_RENDERED
 )
 ;
 JsCallTreeView

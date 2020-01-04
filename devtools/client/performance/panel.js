@@ -198,7 +198,7 @@ iframeWindow
 ;
 this
 .
-_toolbox
+toolbox
 =
 toolbox
 ;
@@ -301,7 +301,7 @@ gToolbox
 =
 this
 .
-_toolbox
+toolbox
 ;
 this
 .
@@ -484,7 +484,7 @@ on
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _checkRecordingStatus
@@ -599,7 +599,7 @@ target
 return
 this
 .
-_toolbox
+toolbox
 .
 target
 ;
@@ -652,7 +652,7 @@ off
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _checkRecordingStatus
@@ -717,7 +717,7 @@ isRecording
 {
 this
 .
-_toolbox
+toolbox
 .
 highlightTool
 (
@@ -731,7 +731,7 @@ else
 {
 this
 .
-_toolbox
+toolbox
 .
 unhighlightTool
 (
