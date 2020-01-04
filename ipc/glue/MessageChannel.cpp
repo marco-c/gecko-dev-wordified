@@ -1083,7 +1083,7 @@ ipc
 {
 static
 const
-int
+uint32_t
 kMinTelemetryMessageSize
 =
 8192
@@ -4371,7 +4371,7 @@ if
 aMsg
 -
 >
-size
+capacity
 (
 )
 >
@@ -4400,7 +4400,7 @@ name
 aMsg
 -
 >
-size
+capacity
 (
 )
 )
@@ -6556,7 +6556,7 @@ if
 aMsg
 -
 >
-size
+capacity
 (
 )
 >
@@ -6585,7 +6585,7 @@ name
 aMsg
 -
 >
-size
+capacity
 (
 )
 )
