@@ -852,7 +852,7 @@ this
 cellRS
 -
 >
-parentReflowState
+mParentReflowState
 -
 >
 frame
@@ -874,7 +874,7 @@ rs
 =
 aReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 rs
 !
@@ -886,7 +886,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 rs
@@ -950,7 +950,7 @@ rs
 =
 aReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 if
 (
@@ -1013,7 +1013,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 ;
 if
 (

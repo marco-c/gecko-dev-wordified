@@ -10950,7 +10950,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 nsIAtom
@@ -11295,7 +11295,7 @@ AncestorsHaveStyleBSize
 *
 aReflowState
 .
-parentReflowState
+mParentReflowState
 )
 )
 {
@@ -11443,7 +11443,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 nsIAtom
@@ -18932,7 +18932,7 @@ mResizedColumns
 !
 aReflowState
 .
-parentReflowState
+mParentReflowState
 -
 >
 mFlags

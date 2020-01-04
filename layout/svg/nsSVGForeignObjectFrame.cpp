@@ -1035,7 +1035,7 @@ NS_ASSERTION
 !
 aReflowState
 .
-parentReflowState
+mParentReflowState
 "
 should
 only

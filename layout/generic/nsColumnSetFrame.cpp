@@ -1607,7 +1607,7 @@ rs
 =
 aReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 rs
 &
@@ -1621,7 +1621,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 if

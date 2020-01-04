@@ -477,7 +477,7 @@ context
 "
 )
 ;
-parentReflowState
+mParentReflowState
 =
 nullptr
 ;
@@ -1331,7 +1331,7 @@ reflow
 "
 )
 ;
-parentReflowState
+mParentReflowState
 =
 &
 aParentReflowState
@@ -1384,7 +1384,7 @@ frame
 >
 AddStateBits
 (
-parentReflowState
+mParentReflowState
 -
 >
 frame
@@ -1708,7 +1708,7 @@ DUMMY_PARENT_REFLOW_STATE
 |
 |
 (
-parentReflowState
+mParentReflowState
 -
 >
 mFlags
@@ -2542,7 +2542,7 @@ nsHTMLReflowState
 *
 parent
 =
-parentReflowState
+mParentReflowState
 ;
 parent
 !
@@ -2554,7 +2554,7 @@ parent
 parent
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 if
@@ -3219,10 +3219,10 @@ NS_FRAME_IN_CONSTRAINED_BSIZE
 }
 if
 (
-parentReflowState
+mParentReflowState
 &
 &
-parentReflowState
+mParentReflowState
 -
 >
 GetWritingMode
@@ -3422,7 +3422,7 @@ InitCBReflowState
 if
 (
 !
-parentReflowState
+mParentReflowState
 )
 {
 mCBReflowState
@@ -3434,7 +3434,7 @@ return
 }
 if
 (
-parentReflowState
+mParentReflowState
 -
 >
 frame
@@ -3485,7 +3485,7 @@ tableFrame
 {
 mCBReflowState
 =
-parentReflowState
+mParentReflowState
 -
 >
 mCBReflowState
@@ -3495,7 +3495,7 @@ else
 {
 mCBReflowState
 =
-parentReflowState
+mParentReflowState
 ;
 }
 }
@@ -3503,7 +3503,7 @@ else
 {
 mCBReflowState
 =
-parentReflowState
+mParentReflowState
 -
 >
 mCBReflowState
@@ -5617,7 +5617,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 ;
 if
 (
@@ -7793,7 +7793,7 @@ for
 (
 state
 =
-parentReflowState
+mParentReflowState
 ;
 state
 &
@@ -7811,7 +7811,7 @@ state
 state
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 /
@@ -14357,7 +14357,7 @@ rs
 rs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 nsIAtom
@@ -14926,7 +14926,7 @@ frameType
 rs
 -
 >
-parentReflowState
+mParentReflowState
 &
 &
 nsGkAtoms
@@ -14938,7 +14938,7 @@ canvasFrame
 rs
 -
 >
-parentReflowState
+mParentReflowState
 -
 >
 frame
@@ -15985,7 +15985,7 @@ if
 nullptr
 =
 =
-parentReflowState
+mParentReflowState
 |
 |
 mFlags
@@ -16335,7 +16335,7 @@ if
 cbrs
 -
 >
-parentReflowState
+mParentReflowState
 )
 {
 fType
@@ -19841,7 +19841,7 @@ nsHTMLReflowState
 *
 prs
 =
-parentReflowState
+mParentReflowState
 ;
 if
 (
@@ -19908,7 +19908,7 @@ prs
 prs
 -
 >
-parentReflowState
+mParentReflowState
 ;
 }
 if

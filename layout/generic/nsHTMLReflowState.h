@@ -1708,7 +1708,7 @@ state
 const
 nsHTMLReflowState
 *
-parentReflowState
+mParentReflowState
 ;
 /
 /
