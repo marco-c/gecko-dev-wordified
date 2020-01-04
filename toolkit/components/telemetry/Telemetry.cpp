@@ -5507,6 +5507,10 @@ kRecordingInitiallyDisabledIDs
 ]
 =
 {
+Telemetry
+:
+:
+FX_REFRESH_DRIVER_SYNC_SCROLL_FRAME_DELAY_MS
 /
 /
 The
