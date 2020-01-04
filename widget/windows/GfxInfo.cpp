@@ -7273,6 +7273,17 @@ driver
 "
 )
 ;
+/
+*
+This
+may
+not
+be
+needed
+at
+all
+*
+/
 APPEND_TO_DRIVER_BLOCKLIST2
 (
 DRIVER_OS_WINDOWS_7
@@ -7306,7 +7317,7 @@ nsIGfxInfo
 :
 :
 FEATURE_BLOCKED_DRIVER_VERSION
-DRIVER_LESS_THAN_OR_EQUAL
+DRIVER_LESS_THAN
 V
 (
 8
