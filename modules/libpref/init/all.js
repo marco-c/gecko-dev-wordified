@@ -51884,6 +51884,16 @@ json
 "
 )
 ;
+pref
+(
+"
+signon
+.
+schemeUpgrades
+"
+false
+)
+;
 /
 /
 Satchel
