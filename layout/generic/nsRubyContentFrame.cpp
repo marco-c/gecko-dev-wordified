@@ -298,7 +298,7 @@ false
 ;
 }
 return
-nsRubyContentFrameSuper
+nsInlineFrame
 :
 :
 IsFrameOfType
