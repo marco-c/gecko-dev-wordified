@@ -311,6 +311,7 @@ length
 &
 i
 <
+=
 max
 ;
 i
@@ -437,6 +438,12 @@ length
 max
 )
 {
+items
+.
+pop
+(
+)
+;
 let
 objectLink
 =
@@ -476,14 +483,6 @@ props
 .
 object
 }
-(
-array
-.
-length
--
-max
-)
-+
 "
 more
 "
