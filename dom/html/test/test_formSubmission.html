@@ -9252,6 +9252,9 @@ checkMPSubmission
 sub
 expected
 test
+isFormData
+=
+false
 )
 {
 function
@@ -9592,6 +9595,25 @@ i
 ]
 .
 fileName
+!
+=
+"
+"
+|
+|
+!
+isFormData
+?
+expected
+[
+i
+]
+.
+fileName
+:
+"
+blob
+"
 )
 +
 "
@@ -10754,6 +10776,7 @@ XHR
 and
 FormData
 "
+true
 )
 ;
 /
@@ -10829,6 +10852,7 @@ XHR
 and
 FormData
 "
+true
 )
 ;
 setDisabled
@@ -10953,6 +10977,7 @@ expectedAugment
 send
 FormData
 "
+true
 )
 ;
 /
@@ -11021,6 +11046,7 @@ send
 augmented
 FormData
 "
+true
 )
 ;
 SimpleTest
