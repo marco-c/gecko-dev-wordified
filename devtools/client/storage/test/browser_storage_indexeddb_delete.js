@@ -154,8 +154,6 @@ tree
 popup
 -
 delete
--
-database
 "
 )
 ;
