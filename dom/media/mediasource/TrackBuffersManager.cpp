@@ -1028,12 +1028,15 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mAppendRunning
 "
-AbortAppendData
+Append
+is
+running
+abort
 must
 have
 been
@@ -2123,7 +2126,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mAppendRunning
@@ -3959,7 +3962,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mAppendPromise
 .
@@ -4132,6 +4135,10 @@ OnTaskQueue
 (
 )
 )
+;
+mAppendRunning
+=
+true
 ;
 while
 (
