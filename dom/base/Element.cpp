@@ -17754,6 +17754,9 @@ GetTokenList
 nsIAtom
 *
 aAtom
+const
+DOMTokenListSupportedTokenArray
+aSupportedTokens
 )
 {
 #
@@ -17868,6 +17871,7 @@ nsDOMTokenList
 (
 this
 aAtom
+aSupportedTokens
 )
 ;
 NS_ADDREF

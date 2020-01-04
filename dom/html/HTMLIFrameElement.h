@@ -502,6 +502,7 @@ nsGkAtoms
 :
 :
 sandbox
+sSupportedSandboxTokens
 )
 ;
 }
@@ -1126,6 +1127,13 @@ nsRuleData
 *
 aData
 )
+;
+static
+const
+DOMTokenListSupportedToken
+sSupportedSandboxTokens
+[
+]
 ;
 }
 ;
