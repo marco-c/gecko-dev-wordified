@@ -2117,8 +2117,6 @@ not
 None
 :
                 
-options
-.
 reftestExtensionPath
 =
 os
@@ -2135,7 +2133,7 @@ topobjdir
 "
 _tests
 "
-                                                            
+                                                    
 "
 reftest
 "
@@ -2147,8 +2145,6 @@ reftest
 else
 :
                 
-options
-.
 reftestExtensionPath
 =
 os
@@ -2161,6 +2157,19 @@ here
 "
 reftest
 "
+)
+            
+options
+.
+reftestExtensionPath
+=
+os
+.
+path
+.
+normpath
+(
+reftestExtensionPath
 )
         
 if
@@ -2196,8 +2205,6 @@ not
 None
 :
                 
-options
-.
 specialPowersExtensionPath
 =
 os
@@ -2214,7 +2221,7 @@ topobjdir
 "
 _tests
 "
-                                                                  
+                                                          
 "
 reftest
 "
@@ -2226,8 +2233,6 @@ specialpowers
 else
 :
                 
-options
-.
 specialPowersExtensionPath
 =
 os
@@ -2236,11 +2241,23 @@ path
 .
 join
 (
-                    
 here
 "
 specialpowers
 "
+)
+            
+options
+.
+specialPowersExtensionPath
+=
+os
+.
+path
+.
+normpath
+(
+specialPowersExtensionPath
 )
         
 options
