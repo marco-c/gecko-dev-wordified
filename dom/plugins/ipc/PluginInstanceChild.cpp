@@ -481,6 +481,13 @@ nsWindowsDllInterceptor
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 typedef
 BOOL
 (

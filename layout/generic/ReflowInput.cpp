@@ -6368,7 +6368,7 @@ case
 StyleDisplay
 :
 :
-None_
+None
 :
 default
 :
@@ -8993,7 +8993,7 @@ mOriginalDisplay
 StyleDisplay
 :
 :
-None_
+None
 "
 mOriginalDisplay
 has

@@ -688,7 +688,7 @@ mDisplay
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 changeHint

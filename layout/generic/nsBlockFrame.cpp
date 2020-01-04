@@ -14696,7 +14696,7 @@ GetBreakTypeBefore
 StyleClear
 :
 :
-None_
+None
 |
 |
 (
@@ -15140,7 +15140,7 @@ mFloatBreakType
 StyleClear
 :
 :
-None_
+None
 ;
 bool
 willReflowAgain
@@ -15688,7 +15688,7 @@ GetBreakTypeBefore
 StyleClear
 :
 :
-None_
+None
 |
 |
 replacedBlock
@@ -15727,7 +15727,7 @@ inlineFloatBreakType
 StyleClear
 :
 :
-None_
+None
 )
 {
 curBCoord
@@ -15924,7 +15924,7 @@ inlineFloatBreakType
 StyleClear
 :
 :
-None_
+None
 )
 {
 aState
@@ -15996,7 +15996,7 @@ inlineFloatBreakType
 StyleClear
 :
 :
-None_
+None
 ;
 }
 bool
@@ -18400,7 +18400,7 @@ inlineFloatBreakType
 StyleClear
 :
 :
-None_
+None
 )
 {
 aState
@@ -23049,7 +23049,7 @@ if
 StyleClear
 :
 :
-None_
+None
 !
 =
 aState
@@ -23077,7 +23077,7 @@ mFloatBreakType
 StyleClear
 :
 :
-None_
+None
 ;
 }
 /
@@ -23296,7 +23296,7 @@ breakType
 StyleClear
 :
 :
-None_
+None
 ;
 nsIFrame
 *
@@ -25462,7 +25462,7 @@ newBCoord
 StyleClear
 :
 :
-None_
+None
 replacedBlock
 )
 ;
@@ -29942,7 +29942,7 @@ than
 StyleClear
 :
 :
-None_
+None
 .
 *
 /
@@ -30275,7 +30275,7 @@ SetBreakTypeAfter
 StyleClear
 :
 :
-None_
+None
 )
 ;
 if
@@ -30289,7 +30289,7 @@ frameReflowStatus
 StyleClear
 :
 :
-None_
+None
 !
 =
 aState
@@ -30358,7 +30358,7 @@ MOZ_ASSERT
 StyleClear
 :
 :
-None_
+None
 !
 =
 breakType
@@ -30367,7 +30367,7 @@ breakType
 StyleClear
 :
 :
-None_
+None
 !
 =
 aState
@@ -30640,7 +30640,7 @@ if
 StyleClear
 :
 :
-None_
+None
 !
 =
 aState
@@ -30668,7 +30668,7 @@ mFloatBreakType
 StyleClear
 :
 :
-None_
+None
 ;
 }
 /
@@ -30703,7 +30703,7 @@ breakType
 StyleClear
 :
 :
-None_
+None
 ;
 }
 }
@@ -45089,7 +45089,7 @@ return
 StyleClear
 :
 :
-None_
+None
 ;
 }
 void

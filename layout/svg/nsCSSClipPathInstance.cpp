@@ -231,7 +231,7 @@ type
 StyleShapeSourceType
 :
 :
-None_
+None
 "
 unexpected
 none
@@ -372,7 +372,7 @@ type
 StyleShapeSourceType
 :
 :
-None_
+None
 "
 unexpected
 none

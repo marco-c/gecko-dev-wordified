@@ -114,12 +114,6 @@ MPL
 .
 *
 /
-#
-ifndef
-MOZILLA_GFX_X11UNDEFINENONE_H_
-#
-define
-MOZILLA_GFX_X11UNDEFINENONE_H_
 /
 /
 The
@@ -286,10 +280,3 @@ X11None
 endif
 #
 endif
-#
-endif
-/
-*
-MOZILLA_GFX_X11UNDEFINENONE_H_
-*
-/

@@ -1305,7 +1305,7 @@ mBreakType
 StyleClear
 :
 :
-None_
+None
 |
 |
 !
