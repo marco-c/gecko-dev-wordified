@@ -362,6 +362,10 @@ mScaleHint
 (
 aScaleHint
 )
+mStride
+(
+0
+)
 mDelayedConversion
 (
 false
