@@ -1025,7 +1025,7 @@ nsRect
 mPositioningArea
 ;
 nsRect
-mDestArea
+mDestRect
 ;
 }
 ;
