@@ -95,8 +95,6 @@ org
 mozilla
 .
 gecko
-.
-util
 ;
 import
 org
