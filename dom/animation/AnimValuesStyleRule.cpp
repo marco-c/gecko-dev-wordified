@@ -353,9 +353,9 @@ i_end
 i
 )
 {
-PropertyValuePair
+PropertyStyleAnimationValuePair
 &
-cv
+pair
 =
 mPropertyValuePairs
 [
@@ -379,7 +379,7 @@ nsCSSProps
 :
 kSIDTable
 [
-cv
+pair
 .
 mProperty
 ]
@@ -395,7 +395,7 @@ aRuleData
 >
 ValueFor
 (
-cv
+pair
 .
 mProperty
 )
@@ -426,10 +426,10 @@ StyleAnimationValue
 :
 UncomputeValue
 (
-cv
+pair
 .
 mProperty
-cv
+pair
 .
 mValue
 *
@@ -548,7 +548,7 @@ i
 )
 {
 const
-PropertyValuePair
+PropertyStyleAnimationValuePair
 &
 pair
 =
