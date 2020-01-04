@@ -300,9 +300,6 @@ object
 object
 .
 class
-+
-"
-"
 )
 ;
 }

@@ -319,9 +319,6 @@ object
 object
 .
 class
-+
-"
-"
 )
 ;
 }

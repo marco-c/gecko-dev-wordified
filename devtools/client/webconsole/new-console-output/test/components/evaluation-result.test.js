@@ -205,7 +205,8 @@ textContent
 toBe
 (
 "
-Date1970
+Date
+1970
 -
 01
 -

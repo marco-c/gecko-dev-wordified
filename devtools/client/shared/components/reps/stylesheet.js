@@ -262,9 +262,6 @@ object
 grip
 }
 title
-+
-"
-"
 )
 )
 ;
