@@ -412,7 +412,7 @@ CallIndirect
 0x13
 CallImport
 =
-0x09
+0x1f
 /
 /
 Constants
@@ -4271,6 +4271,15 @@ static
 const
 unsigned
 MaxArgsPerFunc
+=
+4
+*
+1024
+;
+static
+const
+unsigned
+MaxBrTableElems
 =
 4
 *
