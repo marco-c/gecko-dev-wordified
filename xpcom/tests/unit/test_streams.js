@@ -673,11 +673,10 @@ length
 do_check_eq
 (
 [
-b
-for
+.
+.
+.
 (
-b
-of
 new
 Uint8Array
 (

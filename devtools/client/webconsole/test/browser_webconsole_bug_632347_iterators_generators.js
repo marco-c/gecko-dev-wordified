@@ -340,6 +340,8 @@ gen2
 next
 (
 )
+.
+value
 ;
 completion
 =
@@ -389,6 +391,8 @@ gen2
 next
 (
 )
+.
+value
 "
 gen2
 .
