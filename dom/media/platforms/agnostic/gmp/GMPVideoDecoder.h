@@ -592,7 +592,6 @@ aHost
 ;
 const
 VideoInfo
-&
 mConfig
 ;
 MediaDataDecoderCallbackProxy
