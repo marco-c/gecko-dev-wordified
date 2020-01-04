@@ -4488,15 +4488,6 @@ kind
 ;
 }
 function
-ArrayIteratorIdentity
-(
-)
-{
-return
-this
-;
-}
-function
 ArrayIteratorNext
 (
 )

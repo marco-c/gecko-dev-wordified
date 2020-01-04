@@ -7,7 +7,7 @@ iterator
 )
 returns
 an
-Iterator
+iterator
 object
 .
 load
@@ -54,9 +54,16 @@ assertEq
 iter
 instanceof
 Iterator
-true
+false
 )
 ;
+/
+/
+Not
+a
+legacy
+Iterator
+.
 assertEq
 (
 iter
