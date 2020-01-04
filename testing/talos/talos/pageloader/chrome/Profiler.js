@@ -95,7 +95,7 @@ js
 -
 talos
 /
-page_load_test
+tests
 /
 devtools
 /
@@ -111,7 +111,7 @@ js
 -
 talos
 /
-page_load_test
+tests
 /
 tart
 /

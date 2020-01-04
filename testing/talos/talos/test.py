@@ -1694,7 +1694,7 @@ extensions
 talos
 }
 /
-page_load_test
+tests
 /
 tabswitch
 '
@@ -1706,7 +1706,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tabswitch
 /
@@ -1754,7 +1754,7 @@ talos
 '
                                                      
 '
-page_load_test
+tests
 '
                                                      
 '
@@ -2038,7 +2038,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tart
 /
@@ -2054,7 +2054,7 @@ extensions
 talos
 }
 /
-page_load_test
+tests
 /
 tart
 /
@@ -2344,7 +2344,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tart
 /
@@ -2360,7 +2360,7 @@ extensions
 talos
 }
 /
-page_load_test
+tests
 /
 tart
 /
@@ -2513,7 +2513,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 devtools
 /
@@ -2529,7 +2529,7 @@ extensions
 talos
 }
 /
-page_load_test
+tests
 /
 devtools
 /
@@ -2667,7 +2667,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 webgl
 /
@@ -2869,7 +2869,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tp5n
 /
@@ -3192,7 +3192,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tp5n
 /
@@ -3340,7 +3340,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 tp5n
 /
@@ -3502,7 +3502,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 v8_7
 /
@@ -3600,7 +3600,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 kraken
 /
@@ -3683,7 +3683,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 canvasmark
 /
@@ -3865,7 +3865,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 dromaeo
 /
@@ -3953,7 +3953,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 dromaeo
 /
@@ -4002,7 +4002,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 svgx
 /
@@ -4123,7 +4123,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 svgx
 /
@@ -4244,7 +4244,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 svg_opacity
 /
@@ -4320,7 +4320,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 scroll
 /
@@ -4445,7 +4445,7 @@ tpmanifest
 talos
 }
 /
-page_load_test
+tests
 /
 a11y
 /
