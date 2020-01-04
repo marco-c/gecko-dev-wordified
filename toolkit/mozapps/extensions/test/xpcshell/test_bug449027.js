@@ -2075,7 +2075,7 @@ create
 target
 .
 NORMAL_FILE_TYPE
-0644
+0o644
 )
 ;
 var
@@ -2119,7 +2119,7 @@ target
 0x08
 |
 0x20
-0664
+0o664
 0
 )
 ;
