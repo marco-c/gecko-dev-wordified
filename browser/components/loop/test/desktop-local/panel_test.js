@@ -6273,12 +6273,6 @@ sharedActions
 CreateRoom
 (
 {
-nameTemplate
-:
-"
-Fake
-title
-"
 urls
 :
 [
