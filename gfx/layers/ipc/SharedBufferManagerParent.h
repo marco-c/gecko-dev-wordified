@@ -310,9 +310,6 @@ link
 /
 SharedBufferManagerParent
 (
-Transport
-*
-aTransport
 ProcessId
 aOwner
 base
@@ -665,10 +662,6 @@ mBuffers
 ;
 #
 endif
-Transport
-*
-mTransport
-;
 base
 :
 :

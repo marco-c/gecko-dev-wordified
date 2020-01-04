@@ -353,9 +353,7 @@ Close
 ;
 }
 channel_
-.
-reset
-(
+=
 mozilla
 :
 :
@@ -372,16 +370,6 @@ Channel
 :
 :
 MODE_SERVER
-)
-)
-;
-channel_
--
->
-set_listener
-(
-&
-listener_
 )
 ;
 if

@@ -387,8 +387,10 @@ return
 NS_OK
 ;
 }
+UniquePtr
+<
 Transport
-*
+>
 OpenDescriptor
 (
 const
@@ -403,8 +405,10 @@ aMode
 )
 {
 return
-new
+MakeUnique
+<
 Transport
+>
 (
 aTd
 .
@@ -416,8 +420,10 @@ nullptr
 )
 ;
 }
+UniquePtr
+<
 Transport
-*
+>
 OpenDescriptor
 (
 const
@@ -432,8 +438,10 @@ aMode
 )
 {
 return
-new
+MakeUnique
+<
 Transport
+>
 (
 aFd
 .
