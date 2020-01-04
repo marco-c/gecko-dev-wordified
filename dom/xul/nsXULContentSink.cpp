@@ -3112,7 +3112,7 @@ mSrcURI
 script
 -
 >
-GetScriptObject
+HasScriptObject
 (
 )
 )
