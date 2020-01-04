@@ -1561,6 +1561,9 @@ tab
 "
 geckomediaplugin
 "
+"
+gpu
+"
 ]
     
 for
