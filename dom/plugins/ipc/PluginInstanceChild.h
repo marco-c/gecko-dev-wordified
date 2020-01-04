@@ -2297,7 +2297,10 @@ gfxASurface
 *
 aSurface
 const
-gfxRGBA
+gfx
+:
+:
+Color
 &
 aColor
 )
