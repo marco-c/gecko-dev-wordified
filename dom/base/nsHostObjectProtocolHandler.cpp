@@ -3136,17 +3136,6 @@ StealNSResult
 )
 ;
 }
-nsString
-type
-;
-blob
--
->
-GetType
-(
-type
-)
-;
 if
 (
 blob
@@ -3223,7 +3212,7 @@ SetContentType
 (
 NS_ConvertUTF16toUTF8
 (
-type
+contentType
 )
 )
 ;
