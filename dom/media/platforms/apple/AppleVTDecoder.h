@@ -270,6 +270,14 @@ aSample
 )
 override
 ;
+nsresult
+DoDecode
+(
+MediaRawData
+*
+aSample
+)
+;
 /
 /
 Method
