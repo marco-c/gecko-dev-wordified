@@ -1621,7 +1621,9 @@ return
 mCurSendCodecConfig
 -
 >
-mMaxFrameSize
+mEncodingConstraints
+.
+maxFs
 ;
 }
 return
@@ -1644,7 +1646,9 @@ return
 mCurSendCodecConfig
 -
 >
-mMaxFrameRate
+mEncodingConstraints
+.
+maxFps
 ;
 }
 return
