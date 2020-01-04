@@ -436,6 +436,7 @@ initialize
 :
 function
 (
+isWorker
 )
 {
 if
@@ -537,6 +538,7 @@ Sources
 .
 initialize
 (
+isWorker
 )
 ;
 this

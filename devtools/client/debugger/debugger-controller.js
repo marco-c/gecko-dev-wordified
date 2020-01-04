@@ -1969,6 +1969,11 @@ DebuggerView
 .
 initialize
 (
+this
+.
+_target
+.
+isWorkerTarget
 )
 ;
 this
