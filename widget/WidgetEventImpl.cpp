@@ -531,7 +531,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 :
 return
 true
@@ -673,11 +673,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 :
 return
 "
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+TextRangeType
+:
+:
+eSelectedClause
 "
 ;
 default

@@ -909,7 +909,10 @@ TextRangeType
 eConvertedClause
 or
 *
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+TextRangeType
+:
+:
+eSelectedClause
 .
 *
 /

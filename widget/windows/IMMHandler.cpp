@@ -12754,7 +12754,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 default
 :

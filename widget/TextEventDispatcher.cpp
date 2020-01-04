@@ -3893,7 +3893,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 :
 {
 EnsureClauseArray

@@ -848,7 +848,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 :
 return
 nsISelectionController

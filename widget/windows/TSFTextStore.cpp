@@ -13216,7 +13216,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 case
 TF_ATTR_CONVERTED

@@ -10704,7 +10704,10 @@ the
 *
 clause
 is
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+TextRangeType
+:
+:
+eSelectedClause
 .
 *
 2
@@ -11014,7 +11017,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 }
 /
