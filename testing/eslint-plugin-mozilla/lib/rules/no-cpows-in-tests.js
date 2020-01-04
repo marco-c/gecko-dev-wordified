@@ -153,14 +153,12 @@ strict
 -
 -
 -
--
 /
 /
 Rule
 Definition
 /
 /
--
 -
 -
 -
@@ -379,6 +377,7 @@ context
 -
 -
 -
+-
 /
 /
 Helpers
@@ -458,10 +457,10 @@ Helpers
 -
 -
 -
+-
 function
 showError
 (
-context
 node
 identifier
 )
@@ -497,6 +496,7 @@ CPOW
 }
 /
 /
+-
 -
 -
 -
@@ -650,6 +650,7 @@ Public
 -
 -
 -
+-
 return
 {
 MemberExpression
@@ -704,7 +705,6 @@ expression
 {
 showError
 (
-context
 node
 expression
 )
@@ -746,7 +746,6 @@ expression
 {
 showError
 (
-context
 node
 expression
 )
@@ -866,7 +865,6 @@ return
 }
 showError
 (
-context
 node
 expression
 )
