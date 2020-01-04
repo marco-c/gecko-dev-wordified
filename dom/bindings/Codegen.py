@@ -118213,11 +118213,13 @@ GetContext
 )
 {
               
+MOZ_ASSERT
+(
 aRv
 .
-Throw
+Failed
 (
-NS_ERROR_UNEXPECTED
+)
 )
 ;
               
@@ -121105,11 +121107,13 @@ cx
 )
 {
               
+MOZ_ASSERT
+(
 aRv
 .
-Throw
+Failed
 (
-NS_ERROR_UNEXPECTED
+)
 )
 ;
               
