@@ -533,10 +533,11 @@ Inset
 clip
 -
 path
-sizing
+geometry
+box
 enum
 class
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 uint8_t
 {

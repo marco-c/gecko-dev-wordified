@@ -5491,7 +5491,7 @@ kBoxPackKTable
 static
 const
 KTableEntry
-kClipShapeSizingKTable
+kClipPathGeometryBoxKTable
 [
 ]
 ;

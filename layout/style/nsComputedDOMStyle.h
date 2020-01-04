@@ -4307,7 +4307,7 @@ aStyleBasicShape
 mozilla
 :
 :
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 aSizingBox
 )
 ;

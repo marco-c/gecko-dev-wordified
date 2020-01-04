@@ -63870,10 +63870,10 @@ box
 "
 )
 ;
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 sizingBox
 =
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 NoBox
@@ -63944,7 +63944,7 @@ type
 >
 uint8_t
 (
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 View
@@ -63955,7 +63955,7 @@ type
 <
 uint8_t
 (
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 NoBox
@@ -63978,7 +63978,7 @@ sizingBox
 =
 static_cast
 <
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 >
 (
 type

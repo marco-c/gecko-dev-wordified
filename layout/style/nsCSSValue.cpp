@@ -9133,7 +9133,7 @@ intValue
 nsCSSProps
 :
 :
-kClipShapeSizingKTable
+kClipPathGeometryBoxKTable
 )
 aResult
 )

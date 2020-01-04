@@ -96307,7 +96307,7 @@ referenceBox
 nsCSSProps
 :
 :
-kClipShapeSizingKTable
+kClipPathGeometryBoxKTable
 )
 ;
 const
@@ -96420,7 +96420,7 @@ referenceBox
 nsCSSProps
 :
 :
-kClipShapeSizingKTable
+kClipPathGeometryBoxKTable
 )
 ;
 }

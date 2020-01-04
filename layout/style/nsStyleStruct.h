@@ -22457,7 +22457,7 @@ StyleClipPath
 =
 StyleShapeSource
 <
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 >
 ;
 }
