@@ -1068,10 +1068,6 @@ mState
 =
 SYSTEM_SHUTDOWN
 ;
-mInterface
-=
-nullptr
-;
 if
 (
 mPrevCallContext
