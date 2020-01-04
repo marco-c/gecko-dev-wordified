@@ -2336,6 +2336,9 @@ JSStackFrame
 :
 GetAsyncCause
 (
+JSContext
+*
+aCx
 nsAString
 &
 aAsyncCause
@@ -2357,9 +2360,6 @@ return
 NS_OK
 ;
 }
-ThreadsafeAutoJSContext
-cx
-;
 JS
 :
 :
@@ -2370,7 +2370,7 @@ JSString
 >
 asyncCause
 (
-cx
+aCx
 )
 ;
 bool
@@ -2383,7 +2383,7 @@ false
 ;
 GetValueIfNotCached
 (
-cx
+aCx
 mStack
 JS
 :
@@ -2426,14 +2426,14 @@ str
 .
 init
 (
-cx
+aCx
 asyncCause
 )
 )
 {
 JS_ClearPendingException
 (
-cx
+aCx
 )
 ;
 aAsyncCause
@@ -2485,6 +2485,9 @@ JSStackFrame
 :
 GetAsyncCaller
 (
+JSContext
+*
+aCx
 nsIStackFrame
 *
 *
@@ -2506,9 +2509,6 @@ return
 NS_OK
 ;
 }
-ThreadsafeAutoJSContext
-cx
-;
 JS
 :
 :
@@ -2519,7 +2519,7 @@ JSObject
 >
 asyncCallerObj
 (
-cx
+aCx
 )
 ;
 bool
@@ -2532,7 +2532,7 @@ false
 ;
 GetValueIfNotCached
 (
-cx
+aCx
 mStack
 JS
 :
