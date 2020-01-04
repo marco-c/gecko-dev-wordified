@@ -309,9 +309,6 @@ dat
 '
 +
 file
-"
-r
-"
 )
     
 while

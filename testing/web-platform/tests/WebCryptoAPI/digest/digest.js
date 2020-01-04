@@ -1757,9 +1757,9 @@ assert_equals
 (
 err
 .
-name
+message
 "
-NotSupportedError
+OperationError
 "
 "
 Bad
@@ -1767,7 +1767,7 @@ algorithm
 name
 should
 cause
-NotSupportedError
+OperationError
 "
 )
 }
