@@ -1990,6 +1990,12 @@ GetStyleSheet
 if
 (
 sheet
+&
+&
+lineNumber
+!
+=
+0
 )
 {
 nsINode
