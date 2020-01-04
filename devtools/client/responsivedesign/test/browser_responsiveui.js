@@ -943,7 +943,9 @@ once
 (
 manager
 "
-contentResize
+content
+-
+resize
 "
 )
 ;
@@ -1139,7 +1141,9 @@ once
 (
 manager
 "
-contentResize
+content
+-
+resize
 "
 )
 ;
@@ -1406,7 +1410,9 @@ once
 (
 manager
 "
-contentResize
+content
+-
+resize
 "
 )
 ;

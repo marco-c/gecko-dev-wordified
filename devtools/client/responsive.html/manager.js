@@ -1222,11 +1222,6 @@ tab
 setViewportSize
 (
 args
-.
-width
-args
-.
-height
 )
 ;
 break
@@ -3119,6 +3114,8 @@ getViewportSize
 Helper
 for
 tests
+GCLI
+etc
 .
 Assumes
 a
@@ -3138,8 +3135,7 @@ async
 function
 *
 (
-width
-height
+size
 )
 {
 yield
@@ -3153,8 +3149,7 @@ toolWindow
 .
 setViewportSize
 (
-width
-height
+size
 )
 ;
 }

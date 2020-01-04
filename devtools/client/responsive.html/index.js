@@ -876,7 +876,9 @@ set
 viewport
 size
 from
+tests
 GCLI
+etc
 .
 *
 /
@@ -885,8 +887,10 @@ window
 setViewportSize
 =
 (
+{
 width
 height
+}
 )
 =
 >
