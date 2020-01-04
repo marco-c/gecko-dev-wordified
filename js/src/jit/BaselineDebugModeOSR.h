@@ -484,7 +484,12 @@ Engine
 IonMonkey
 )
 return
-false
+stub_
+-
+>
+invalid
+(
+)
 ;
 MOZ_ASSERT
 (
