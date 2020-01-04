@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+/
+*
+globals
+document
+window
+*
+/
 "
 use
 strict
