@@ -872,7 +872,7 @@ focused
 "
 )
 ;
-return
+yield
 ContentTask
 .
 spawn
