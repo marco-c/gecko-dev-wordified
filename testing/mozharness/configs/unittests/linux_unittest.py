@@ -2544,6 +2544,11 @@ all_cppunittest_suites
 cppunittest
 "
 :
+{
+"
+tests
+"
+:
 [
 "
 tests
@@ -2551,6 +2556,7 @@ tests
 cppunittest
 "
 ]
+}
     
 }
     
