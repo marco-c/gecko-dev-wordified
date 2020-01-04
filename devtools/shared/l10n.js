@@ -635,6 +635,8 @@ LocalizationHelper
 (
 "
 devtools
+-
+shared
 /
 locale
 /
