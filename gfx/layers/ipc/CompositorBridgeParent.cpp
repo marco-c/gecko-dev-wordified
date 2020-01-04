@@ -2547,7 +2547,10 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethodWithArgs
+<
+TimeStamp
+>
 (
 this
 &
@@ -2884,7 +2887,7 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethod
 (
 this
 &
@@ -7449,7 +7452,7 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethod
 (
 this
 &

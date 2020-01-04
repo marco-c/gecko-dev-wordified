@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -718,7 +718,13 @@ Now
 }
 mCurrentVsyncTask
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethodWithArgs
+<
+mozilla
+:
+:
+TimeStamp
+>
 (
 this
 &
