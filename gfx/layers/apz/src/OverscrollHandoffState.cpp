@@ -869,7 +869,7 @@ bool
 OverscrollHandoffChain
 :
 :
-HasApzcPannedIntoOverscroll
+HasOverscrolledApzc
 (
 )
 const
@@ -881,7 +881,7 @@ AnyApzc
 AsyncPanZoomController
 :
 :
-IsPannedIntoOverscroll
+IsOverscrolled
 )
 ;
 }
