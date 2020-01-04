@@ -10481,6 +10481,10 @@ no
 aState
 .
 mPrevBEndMargin
+.
+get
+(
+)
 borderPadding
 .
 BStart
