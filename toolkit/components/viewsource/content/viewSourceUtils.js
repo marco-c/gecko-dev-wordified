@@ -1076,9 +1076,7 @@ xul
 _blank
 "
 "
-scrollbars
-resizable
-chrome
+all
 dialog
 =
 no
