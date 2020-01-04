@@ -752,10 +752,6 @@ nscoord
 aWidth
 nscoord
 aHeight
-bool
-aHeightChanging
-=
-true
 )
 override
 ;
@@ -767,8 +763,6 @@ nscoord
 aWidth
 nscoord
 aHeight
-bool
-aHeightChanging
 )
 override
 ;
