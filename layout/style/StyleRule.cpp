@@ -8689,7 +8689,7 @@ RuleMatched
 mDeclaration
 -
 >
-MapNormalRuleInfoInto
+MapRuleInfoInto
 (
 aRuleData
 )
