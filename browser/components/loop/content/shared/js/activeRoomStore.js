@@ -3391,14 +3391,14 @@ sharedActions
 UpdateRoomInfo
 (
 {
-urls
+roomContextUrls
 :
 roomData
 .
 decryptedContext
 .
 urls
-description
+roomDescription
 :
 roomData
 .

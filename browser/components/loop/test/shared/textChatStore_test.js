@@ -1092,7 +1092,7 @@ roomUrl
 "
 fake
 "
-urls
+roomContextUrls
 :
 [
 {
@@ -1252,7 +1252,7 @@ roomUrl
 "
 fake
 "
-urls
+roomContextUrls
 :
 [
 {
@@ -1363,7 +1363,7 @@ roomUrl
 "
 fake
 "
-urls
+roomContextUrls
 :
 [
 {
