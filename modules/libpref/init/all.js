@@ -3810,6 +3810,7 @@ notifications
 allowed
 "
 "
+MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
 "
 )
