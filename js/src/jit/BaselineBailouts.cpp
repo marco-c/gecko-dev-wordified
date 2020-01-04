@@ -8143,6 +8143,11 @@ expectedDepth
 }
 }
 }
+#
+endif
+#
+ifdef
+JS_JITSPEW
 JitSpew
 (
 JitSpew_BaselineBailouts

@@ -548,7 +548,7 @@ think
 .
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 congruent
@@ -2467,7 +2467,7 @@ def
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_GVN
@@ -2513,6 +2513,11 @@ id
 )
 )
 ;
+#
+endif
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 def
@@ -4163,7 +4168,7 @@ id
 }
 #
 ifdef
-DEBUG
+JS_JITSPEW
 }
 else
 if
@@ -5149,7 +5154,7 @@ nullptr
 }
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_GVN
@@ -6073,7 +6078,7 @@ toInstruction
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_GVN
@@ -6418,7 +6423,7 @@ def
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_GVN
@@ -6761,7 +6766,7 @@ block
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_GVN

@@ -1162,7 +1162,7 @@ continue
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_Unrolling

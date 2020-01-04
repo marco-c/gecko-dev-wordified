@@ -8231,7 +8231,7 @@ JitcodeMapBufferWriteSpewer
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 CompactBufferWriter
 *
 writer
@@ -8507,7 +8507,7 @@ else
 /
 /
 !
-DEBUG
+JS_JITSPEW
 explicit
 JitcodeMapBufferWriteSpewer
 (
@@ -8531,7 +8531,7 @@ name
 endif
 /
 /
-DEBUG
+JS_JITSPEW
 }
 ;
 /

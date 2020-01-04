@@ -723,7 +723,7 @@ nullptr
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 for
 (
 const
@@ -868,7 +868,7 @@ nullptr
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 for
 (
 const
@@ -951,7 +951,7 @@ const
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 SpewTempOptimizationTypeInfoVector
 (
 &
@@ -5434,7 +5434,7 @@ constructor
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 !
@@ -5648,7 +5648,7 @@ offset
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_OptimizationTracking
@@ -5747,7 +5747,7 @@ sorted
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 /
 /
 Spew

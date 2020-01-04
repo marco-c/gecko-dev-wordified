@@ -17879,7 +17879,7 @@ JitFrame_Bailout
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 switch
 (
 it
@@ -18256,6 +18256,9 @@ break
 }
 #
 endif
+/
+/
+JS_JITSPEW
 if
 (
 !

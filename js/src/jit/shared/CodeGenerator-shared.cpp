@@ -1857,7 +1857,7 @@ dumpNativeToBytecodeEntries
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 InlineScriptTree
 *
 topTree
@@ -1953,7 +1953,7 @@ idx
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 NativeToBytecode
 &
 ref

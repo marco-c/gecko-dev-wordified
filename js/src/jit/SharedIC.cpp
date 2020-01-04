@@ -262,7 +262,7 @@ jit
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 void
 FallbackICSpew
 (
@@ -596,6 +596,9 @@ fmtbuf
 }
 #
 endif
+/
+/
+JS_JITSPEW
 ICFallbackStub
 *
 ICEntry
