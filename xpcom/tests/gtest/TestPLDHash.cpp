@@ -502,6 +502,11 @@ reporter
 "
 )
 ;
+if
+(
+crashreporter
+)
+{
 crashreporter
 -
 >
@@ -510,6 +515,7 @@ SetEnabled
 false
 )
 ;
+}
 #
 endif
 /

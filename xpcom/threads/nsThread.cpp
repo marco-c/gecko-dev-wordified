@@ -3000,6 +3000,11 @@ reporter
 "
 )
 ;
+if
+(
+cr
+)
+{
 cr
 -
 >
@@ -3007,6 +3012,7 @@ SaveMemoryReport
 (
 )
 ;
+}
 }
 return
 needMemoryReport
