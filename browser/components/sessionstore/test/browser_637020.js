@@ -452,7 +452,9 @@ checkWindows
 Cleanup
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )

@@ -149,7 +149,9 @@ let
 win
 =
 yield
-promiseNewWindowLoaded
+BrowserTestUtils
+.
+openNewBrowserWindow
 (
 {
 private
@@ -180,7 +182,9 @@ com
 )
 ;
 yield
-promiseBrowserLoaded
+BrowserTestUtils
+.
+browserLoaded
 (
 tab
 .
@@ -240,7 +244,9 @@ window
 count
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )

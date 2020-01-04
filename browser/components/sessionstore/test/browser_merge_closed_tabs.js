@@ -581,10 +581,12 @@ max_tabs_undo
 "
 )
 ;
-win
+yield
+BrowserTestUtils
 .
-close
+closeWindow
 (
+win
 )
 ;
 }

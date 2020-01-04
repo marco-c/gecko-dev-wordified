@@ -801,10 +801,11 @@ registerCleanupFunction
 )
 =
 >
-win
+BrowserTestUtils
 .
-close
+closeWindow
 (
+win
 )
 )
 ;
