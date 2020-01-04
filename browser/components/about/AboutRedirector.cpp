@@ -916,11 +916,11 @@ chrome
 :
 /
 /
-loop
+browser
 /
 content
 /
-panels
+loop
 /
 conversation
 .
@@ -955,11 +955,11 @@ chrome
 :
 /
 /
-loop
+browser
 /
 content
 /
-panels
+loop
 /
 panel
 .

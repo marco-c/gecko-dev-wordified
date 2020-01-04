@@ -3891,7 +3891,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 loop
 /
