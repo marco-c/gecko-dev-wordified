@@ -3156,6 +3156,14 @@ layer
 Matrix4x4
 ancestorTransform
 ;
+if
+(
+layer
+!
+=
+aTransformedSubtreeRoot
+)
+{
 AccumulateLayerTransforms
 (
 layer
@@ -3168,6 +3176,7 @@ aTransformedSubtreeRoot
 ancestorTransform
 )
 ;
+}
 /
 /
 Calculate
