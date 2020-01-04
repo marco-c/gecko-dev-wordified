@@ -12679,6 +12679,13 @@ vars
 /
 MOZ_ASSERT
 (
+!
+IsSyntacticScope
+(
+scope
+)
+|
+|
 scope
 -
 >
