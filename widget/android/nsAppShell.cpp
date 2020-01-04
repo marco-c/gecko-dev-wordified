@@ -4238,10 +4238,10 @@ kStandardGamepadAxes
 java
 :
 :
-GeckoAppShell
+AndroidGamepadManager
 :
 :
-GamepadAdded
+OnGamepadAdded
 (
 curEvent
 -
