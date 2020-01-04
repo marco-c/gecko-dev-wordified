@@ -969,9 +969,9 @@ failure
 since
 promise
 is
+/
+/
 expected
-/
-/
 to
 be
 rejected
