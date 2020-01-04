@@ -5140,6 +5140,14 @@ attr_type
 =
 SDP_ATTR_SIMULCAST
 )
+&
+&
+(
+attr_type
+!
+=
+SDP_ATTR_RID
+)
 )
 {
 return
