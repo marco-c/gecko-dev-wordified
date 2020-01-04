@@ -683,7 +683,7 @@ mBackBuffer
 mBackBuffer
 -
 >
-IsReadLocked
+IsImmutable
 (
 )
 |
@@ -830,13 +830,6 @@ TextureClient
 return
 ;
 }
-mBackBuffer
--
->
-EnableReadLock
-(
-)
-;
 MOZ_ASSERT
 (
 mBackBuffer
