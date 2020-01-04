@@ -621,6 +621,17 @@ else
 false
 #
 endif
+ASAN
+:
+#
+ifdef
+MOZ_ASAN
+true
+#
+else
+false
+#
+endif
 MOZ_B2G_RIL
 :
 #
