@@ -270,6 +270,10 @@ SeekTask
 RejectIfExist
 (
 const
+MediaResult
+&
+aError
+const
 char
 *
 aCallSite
@@ -293,6 +297,12 @@ val
 mIsVideoQueueFinished
 =
 mIsVideoQueueFinished
+;
+val
+.
+mError
+=
+aError
 ;
 mSeekTaskPromise
 .

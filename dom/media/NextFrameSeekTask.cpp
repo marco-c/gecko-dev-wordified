@@ -325,6 +325,7 @@ MDSM
 .
 RejectIfExist
 (
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -1374,6 +1375,7 @@ anyway
 .
 RejectIfExist
 (
+aError
 __func__
 )
 ;
@@ -1699,6 +1701,7 @@ CancelCallbacks
 ;
 RejectIfExist
 (
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
