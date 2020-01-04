@@ -2362,8 +2362,6 @@ regs
 HandleFunction
 callee
 HandleValue
-thisv
-HandleValue
 newTarget
 HandleObject
 scopeChain
@@ -2553,7 +2551,9 @@ argv
 1
 ]
 =
-thisv
+UndefinedValue
+(
+)
 ;
 SetValueRangeToUndefined
 (
@@ -6034,8 +6034,6 @@ resumeGeneratorFrame
 HandleFunction
 callee
 HandleValue
-thisv
-HandleValue
 newTarget
 HandleObject
 scopeChain
@@ -6077,7 +6075,6 @@ asJSContext
 )
 regs_
 callee
-thisv
 newTarget
 scopeChain
 )

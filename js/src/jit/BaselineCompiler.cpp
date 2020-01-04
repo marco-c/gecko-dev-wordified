@@ -22061,6 +22061,10 @@ loopDone
 /
 Push
 |
+undefined
+|
+for
+|
 this
 |
 .
@@ -22068,15 +22072,8 @@ masm
 .
 pushValue
 (
-Address
+UndefinedValue
 (
-genObj
-GeneratorObject
-:
-:
-offsetOfThisSlot
-(
-)
 )
 )
 ;
