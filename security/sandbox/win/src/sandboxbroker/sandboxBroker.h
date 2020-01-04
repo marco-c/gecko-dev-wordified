@@ -206,7 +206,7 @@ defined
 (
 MOZ_CONTENT_SANDBOX
 )
-bool
+void
 SetSecurityLevelForContentProcess
 (
 int32_t
@@ -220,11 +220,6 @@ SetSecurityLevelForPluginProcess
 (
 int32_t
 aSandboxLevel
-)
-;
-bool
-SetSecurityLevelForIPDLUnitTestProcess
-(
 )
 ;
 enum
