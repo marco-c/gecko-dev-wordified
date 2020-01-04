@@ -136,13 +136,6 @@ endif
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -4156,7 +4149,10 @@ an
 OpenGL
 context
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 GLPresenter
 >
