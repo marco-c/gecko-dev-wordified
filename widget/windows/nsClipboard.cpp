@@ -6957,13 +6957,10 @@ and
 pass
 it
 out
-nsDependentString
+NS_ConvertUTF8toUTF16
 urlString
 (
-UTF8ToNewUnicode
-(
 url
-)
 )
 ;
 /
