@@ -2245,7 +2245,7 @@ WidgetDragEvent
 (
 )
 :
-userCancelled
+mUserCancelled
 (
 false
 )
@@ -2288,7 +2288,7 @@ aWidget
 eDragEventClass
 eReal
 )
-userCancelled
+mUserCancelled
 (
 false
 )
@@ -2422,7 +2422,7 @@ drag
 operation
 .
 bool
-userCancelled
+mUserCancelled
 ;
 /
 /
@@ -2481,16 +2481,16 @@ mDataTransfer
 /
 /
 XXX
-userCancelled
+mUserCancelled
 isn
 '
 t
 copied
 is
 this
-instentionally
+intentionally
 ?
-userCancelled
+mUserCancelled
 =
 false
 ;

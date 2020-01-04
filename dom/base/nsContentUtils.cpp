@@ -29141,7 +29141,7 @@ mMessage
 aDragEvent
 -
 >
-userCancelled
+mUserCancelled
 isCrossDomainSubFrameDrop
 getter_AddRefs
 (

@@ -1751,7 +1751,7 @@ WriteParam
 aMsg
 aParam
 .
-userCancelled
+mUserCancelled
 )
 ;
 WriteParam
@@ -1809,7 +1809,7 @@ aIter
 aResult
 -
 >
-userCancelled
+mUserCancelled
 )
 &
 &

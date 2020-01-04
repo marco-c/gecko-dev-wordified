@@ -2899,7 +2899,7 @@ mEndDragPoint
 ;
 event
 .
-userCancelled
+mUserCancelled
 =
 mUserCancelled
 ;
