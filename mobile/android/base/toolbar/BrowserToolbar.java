@@ -2041,15 +2041,6 @@ setImageLevel
 ;
 menuButton
 .
-setVisibility
-(
-View
-.
-VISIBLE
-)
-;
-menuButton
-.
 setOnClickListener
 (
 new
