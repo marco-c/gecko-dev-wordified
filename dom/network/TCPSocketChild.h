@@ -125,6 +125,17 @@ include
 "
 mozilla
 /
+dom
+/
+TypedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 PTCPSocketChild

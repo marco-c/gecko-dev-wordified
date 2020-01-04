@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BufferList
 .
 h
@@ -1065,6 +1074,7 @@ NoTransferables
 }
 ;
 class
+MOZ_NON_MEMMOVABLE
 JSStructuredCloneData
 :
 public
