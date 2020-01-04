@@ -150,7 +150,7 @@ parentEl
 report
 debounceRate
 =
-100
+60
 )
 {
 let
