@@ -514,12 +514,12 @@ amo
 "
 ;
 const
-PREF_KINTO_UPDATE_ENABLED
+PREF_BLOCKLIST_UPDATE_ENABLED
 =
 "
 services
 .
-kinto
+blocklist
 .
 update_enabled
 "
@@ -4661,7 +4661,7 @@ gPref
 .
 getBoolPref
 (
-PREF_KINTO_UPDATE_ENABLED
+PREF_BLOCKLIST_UPDATE_ENABLED
 )
 )
 {
