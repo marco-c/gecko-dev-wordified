@@ -1306,14 +1306,14 @@ IsValid
 const
 {
 return
-mImage
+mDisplay
 .
 width
 >
 0
 &
 &
-mImage
+mDisplay
 .
 height
 >

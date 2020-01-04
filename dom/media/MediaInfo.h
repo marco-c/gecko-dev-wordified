@@ -948,14 +948,14 @@ const
 override
 {
 return
-mImage
+mDisplay
 .
 width
 >
 0
 &
 &
-mImage
+mDisplay
 .
 height
 >
