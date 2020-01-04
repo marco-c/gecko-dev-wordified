@@ -2110,9 +2110,7 @@ incomplete
 ControlStatus
 restartLoop
 (
-const
 CFGState
-&
 state
 )
 ;
