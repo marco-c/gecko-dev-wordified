@@ -625,6 +625,7 @@ alloc
 )
 op0
 rhs
+MIRType_Int32
 )
 ;
 ptr
