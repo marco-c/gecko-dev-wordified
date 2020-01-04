@@ -937,13 +937,8 @@ pref
 .
 icon
 :
-PlacesUtils
-.
-favicons
-.
-defaultFavicon
-.
-spec
+"
+"
 }
 )
 ]

@@ -10972,13 +10972,8 @@ match
 icon
 |
 |
-PlacesUtils
-.
-favicons
-.
-defaultFavicon
-.
-spec
+"
+"
 ;
 match
 .
