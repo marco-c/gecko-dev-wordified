@@ -1427,7 +1427,7 @@ GetType
 nsDisplayItem
 :
 :
-TYPE_SVG_EFFECTS
+TYPE_MASK
 )
 {
 nsCString
@@ -1436,7 +1436,7 @@ str
 (
 static_cast
 <
-nsDisplaySVGEffects
+nsDisplayMask
 *
 >
 (

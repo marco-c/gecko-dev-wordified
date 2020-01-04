@@ -22960,12 +22960,12 @@ GetType
 nsDisplayItem
 :
 :
-TYPE_SVG_EFFECTS
+TYPE_MASK
 )
 {
 static_cast
 <
-nsDisplaySVGEffects
+nsDisplayMask
 *
 >
 (
