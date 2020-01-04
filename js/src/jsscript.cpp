@@ -4752,6 +4752,12 @@ case
 ScopeKind
 :
 :
+SimpleCatch
+:
+case
+ScopeKind
+:
+:
 Catch
 :
 case
