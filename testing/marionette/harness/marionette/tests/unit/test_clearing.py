@@ -137,7 +137,7 @@ assertEqual
 "
 element
 .
-get_attribute
+get_property
 (
 "
 value
@@ -283,7 +283,7 @@ assertEqual
 "
 element
 .
-get_attribute
+get_property
 (
 "
 value

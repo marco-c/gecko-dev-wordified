@@ -858,11 +858,11 @@ def
 "
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -933,11 +933,11 @@ DEF
 "
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -1006,11 +1006,11 @@ assertEqual
 '
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -1073,15 +1073,15 @@ self
 .
 assertEqual
 (
-'
-'
+"
+"
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -1136,31 +1136,31 @@ key_reporter
 .
 send_keys
 (
-'
+"
 me
 EXampLe
 .
 com
-'
+"
 )
         
 self
 .
 assertEqual
 (
-'
+"
 me
 EXampLe
 .
 com
-'
+"
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -1224,15 +1224,15 @@ self
 .
 assertEqual
 (
-'
-'
+"
+"
 key_reporter
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
 )
     
@@ -2129,16 +2129,16 @@ self
 .
 assertEqual
 (
+"
+"
 element
 .
-get_attribute
+get_property
 (
 "
 value
 "
 )
-"
-"
 )
     
 def
@@ -2215,15 +2215,15 @@ self
 .
 assertEqual
 (
+numericLineCharsNonShifted
 element
 .
-get_attribute
+get_property
 (
 "
 value
 "
 )
-numericLineCharsNonShifted
 )
     
 def
@@ -2284,15 +2284,15 @@ self
 .
 assertEqual
 (
+"
+1234
+"
 element
 .
-get_attribute
+get_property
 (
 "
 value
 "
 )
-"
-1234
-"
 )
