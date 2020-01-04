@@ -1743,6 +1743,9 @@ aDefault
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 !
@@ -1754,6 +1757,7 @@ mGfxInfo
 GetFeatureStatus
 (
 aFeature
+discardFailureId
 &
 status
 )

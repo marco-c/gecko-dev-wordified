@@ -233,6 +233,10 @@ mSuggestedVersion
 (
 nullptr
 )
+mRuleId
+(
+nullptr
+)
 mGpu2
 (
 false
@@ -260,6 +264,10 @@ VersionComparisonOp
 op
 uint64_t
 driverVersion
+const
+char
+*
+ruleId
 const
 char
 *
@@ -332,6 +340,10 @@ mSuggestedVersion
 (
 suggestedVersion
 )
+mRuleId
+(
+ruleId
+)
 mGpu2
 (
 gpu2
@@ -402,6 +414,12 @@ mSuggestedVersion
 aOrig
 .
 mSuggestedVersion
+)
+mRuleId
+(
+aOrig
+.
+mRuleId
 )
 mGpu2
 (

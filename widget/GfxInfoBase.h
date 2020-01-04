@@ -317,6 +317,9 @@ GetFeatureStatus
 (
 int32_t
 aFeature
+nsACString
+&
+aFailureId
 int32_t
 *
 _retval
@@ -687,6 +690,9 @@ GfxDriverInfo
 >
 &
 aDriverInfo
+nsACString
+&
+aFailureId
 OperatingSystem
 *
 aOS
@@ -809,6 +815,9 @@ nsAString
 aSuggestedVersion
 int32_t
 aFeature
+nsACString
+&
+aFailureId
 OperatingSystem
 os
 )

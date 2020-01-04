@@ -772,6 +772,9 @@ gfxInfo
 int32_t
 angleSupport
 ;
+nsCString
+discardFailureId
+;
 gfxUtils
 :
 :
@@ -782,6 +785,7 @@ nsIGfxInfo
 :
 :
 FEATURE_WEBGL_ANGLE
+discardFailureId
 &
 angleSupport
 )

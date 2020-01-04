@@ -719,6 +719,9 @@ gfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailure
+;
 if
 (
 NS_SUCCEEDED
@@ -732,6 +735,7 @@ nsIGfxInfo
 :
 :
 FEATURE_STAGEFRIGHT
+discardFailure
 &
 status
 )

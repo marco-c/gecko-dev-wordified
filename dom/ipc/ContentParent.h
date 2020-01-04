@@ -5102,6 +5102,9 @@ aFeature
 int32_t
 *
 aStatus
+nsCString
+*
+aFailureId
 bool
 *
 aSuccess

@@ -2108,6 +2108,9 @@ nsIGfxInfo
 gfxInfo
 int32_t
 feature
+nsACString
+&
+failureId
 int32_t
 *
 status
