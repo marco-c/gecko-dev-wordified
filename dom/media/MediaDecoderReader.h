@@ -306,15 +306,6 @@ MetadataHolder
 }
 }
 ;
-enum
-class
-ReadMetadataFailureReason
-:
-int8_t
-{
-METADATA_ERROR
-}
-;
 /
 /
 Encapsulates
@@ -435,7 +426,7 @@ RefPtr
 <
 MetadataHolder
 >
-ReadMetadataFailureReason
+MediaResult
 IsExclusive
 >
 ;

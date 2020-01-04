@@ -528,8 +528,10 @@ OnNotDemuxed
 void
 OnMetadataNotRead
 (
-ReadMetadataFailureReason
-aReason
+const
+MediaResult
+&
+aError
 )
 {
 EXPECT_TRUE

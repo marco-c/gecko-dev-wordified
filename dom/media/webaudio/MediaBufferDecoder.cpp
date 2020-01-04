@@ -699,8 +699,10 @@ aMetadata
 void
 OnMetadataNotRead
 (
-ReadMetadataFailureReason
-aReason
+const
+MediaResult
+&
+aError
 )
 ;
 void
@@ -1527,7 +1529,9 @@ MediaDecodeTask
 :
 OnMetadataNotRead
 (
-ReadMetadataFailureReason
+const
+MediaResult
+&
 aReason
 )
 {
