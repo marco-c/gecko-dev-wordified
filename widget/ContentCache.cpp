@@ -3778,7 +3778,7 @@ mPendingEventsNeedingAck
 (
 0
 )
-mIsComposing
+mWidgetHasComposition
 (
 false
 )
@@ -3847,7 +3847,7 @@ mEditorRect
 ;
 if
 (
-mIsComposing
+mWidgetHasComposition
 )
 {
 NS_WARNING_ASSERTION
@@ -4005,16 +4005,16 @@ Length
 %
 u
 }
-mIsComposing
+mWidgetHasComposition
 =
 %
 s
+"
+"
 mCompositionStart
 =
 %
 u
-"
-"
 mEditorRect
 =
 %
@@ -4141,7 +4141,7 @@ Length
 )
 GetBoolName
 (
-mIsComposing
+mWidgetHasComposition
 )
 mCompositionStart
 GetRectText
@@ -4481,7 +4481,7 @@ false
 else
 if
 (
-mIsComposing
+mWidgetHasComposition
 )
 {
 if
@@ -8211,7 +8211,7 @@ mPendingEventsNeedingAck
 =
 %
 u
-mIsComposing
+mWidgetHasComposition
 =
 %
 s
@@ -8264,7 +8264,7 @@ Length
 mPendingEventsNeedingAck
 GetBoolName
 (
-mIsComposing
+mWidgetHasComposition
 )
 mCommitStringByRequest
 )
@@ -8294,7 +8294,7 @@ time
 if
 (
 !
-mIsComposing
+mWidgetHasComposition
 )
 {
 if
@@ -8343,7 +8343,7 @@ StartOffset
 ;
 }
 }
-mIsComposing
+mWidgetHasComposition
 =
 !
 aEvent
@@ -8355,7 +8355,7 @@ CausesDOMCompositionEndEvent
 if
 (
 !
-mIsComposing
+mWidgetHasComposition
 )
 {
 mCompositionStart
@@ -8552,7 +8552,7 @@ mPendingEventsNeedingAck
 =
 %
 u
-mIsComposing
+mWidgetHasComposition
 =
 %
 s
@@ -8591,7 +8591,7 @@ mUseNativeLineBreak
 mPendingEventsNeedingAck
 GetBoolName
 (
-mIsComposing
+mWidgetHasComposition
 )
 )
 )
@@ -8735,7 +8735,7 @@ aCancel
 %
 s
 )
-mIsComposing
+mWidgetHasComposition
 =
 %
 s
@@ -8752,7 +8752,7 @@ aCancel
 )
 GetBoolName
 (
-mIsComposing
+mWidgetHasComposition
 )
 mCommitStringByRequest
 )
@@ -8860,7 +8860,7 @@ RequestToCommitComposition
 )
 "
 "
-mIsComposing
+mWidgetHasComposition
 =
 %
 s
@@ -8874,7 +8874,7 @@ synchronously
 this
 GetBoolName
 (
-mIsComposing
+mWidgetHasComposition
 )
 composition
 -
