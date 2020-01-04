@@ -2216,6 +2216,30 @@ config
 interface
 )
         
+example_paths
+=
+self
+.
+_example_paths
+(
+interface
+)
+        
+for
+path
+in
+example_paths
+:
+            
+print
+"
+Generating
+%
+s
+"
+%
+path
+        
 return
 self
 .
@@ -2223,12 +2247,7 @@ _maybe_write_codegen
 (
 root
 *
-self
-.
-_example_paths
-(
-interface
-)
+example_paths
 )
     
 def
