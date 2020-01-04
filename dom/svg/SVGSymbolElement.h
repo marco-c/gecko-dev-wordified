@@ -329,6 +329,16 @@ PreserveAspectRatio
 (
 )
 ;
+/
+/
+SVGTests
+bool
+IsInChromeDoc
+(
+)
+const
+override
+;
 protected
 :
 virtual

@@ -762,6 +762,15 @@ nullptr
 ;
 }
 bool
+IsInChromeDocument
+(
+)
+{
+return
+mIsInChromeDocument
+;
+}
+bool
 HasAny
 (
 Flags
@@ -854,6 +863,9 @@ mExplicitChangeHint
 ;
 bool
 mIsHTMLElementInHTMLDocument
+;
+bool
+mIsInChromeDocument
 ;
 }
 ;
