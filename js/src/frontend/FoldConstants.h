@@ -262,6 +262,7 @@ parser
 return
 false
 ;
+MOZ_MUST_USE
 bool
 FoldConstants
 (
@@ -281,6 +282,7 @@ parser
 )
 ;
 inline
+MOZ_MUST_USE
 bool
 FoldConstants
 (

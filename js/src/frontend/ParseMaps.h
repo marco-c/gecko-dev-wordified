@@ -818,6 +818,7 @@ clearMap
 )
 ;
 }
+MOZ_MUST_USE
 bool
 ensureMap
 (
@@ -1849,6 +1850,7 @@ false
 .
 *
 /
+MOZ_MUST_USE
 bool
 popFront
 (
@@ -1948,6 +1950,7 @@ template
 typename
 ParseHandler
 >
+MOZ_MUST_USE
 bool
 pushFront
 (
@@ -2049,6 +2052,7 @@ template
 typename
 ParseHandler
 >
+MOZ_MUST_USE
 bool
 appendBack
 (
@@ -2579,6 +2583,7 @@ AtomDecls
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -2841,6 +2846,7 @@ atom
 .
 *
 /
+MOZ_MUST_USE
 bool
 addUnique
 (
@@ -2927,6 +2933,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addShadow
 (
@@ -2937,6 +2944,7 @@ DefinitionNode
 defn
 )
 ;
+MOZ_MUST_USE
 bool
 addShadowedForAnnexB
 (

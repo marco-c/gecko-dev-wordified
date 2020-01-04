@@ -1547,7 +1547,7 @@ return
 NodeGeneric
 ;
 }
-bool
+void
 addToCallSiteObject
 (
 Node
@@ -1558,9 +1558,6 @@ Node
 cookedNode
 )
 {
-return
-true
-;
 }
 Node
 newThisLiteral
@@ -1823,6 +1820,7 @@ return
 NodeUnparenthesizedArray
 ;
 }
+MOZ_MUST_USE
 bool
 addElision
 (
@@ -1838,6 +1836,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addSpreadElement
 (
@@ -1944,6 +1943,7 @@ return
 NodeSuperBase
 ;
 }
+MOZ_MUST_USE
 bool
 addPrototypeMutation
 (
@@ -1959,6 +1959,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addPropertyDefinition
 (
@@ -1974,6 +1975,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addShorthand
 (
@@ -1989,6 +1991,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addObjectMethodDefinition
 (
@@ -2006,6 +2009,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addClassMethodDefinition
 (
@@ -2105,6 +2109,7 @@ pc
 )
 {
 }
+MOZ_MUST_USE
 bool
 prependInitialYield
 (
@@ -2386,6 +2391,7 @@ return
 NodeElement
 ;
 }
+MOZ_MUST_USE
 bool
 addCatchBlock
 (
@@ -2405,6 +2411,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 setLastFunctionArgumentDefault
 (
@@ -2681,6 +2688,7 @@ return
 NodeGeneric
 ;
 }
+MOZ_MUST_USE
 bool
 finishInitializerAssignment
 (
