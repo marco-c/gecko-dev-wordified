@@ -1361,6 +1361,8 @@ run
 (
 self
 path
+=
+None
 )
 :
         
@@ -1389,6 +1391,10 @@ script
 '
 '
         
+if
+path
+:
+            
 self
 .
 include_file
