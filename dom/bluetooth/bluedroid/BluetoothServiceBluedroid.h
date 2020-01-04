@@ -897,7 +897,9 @@ int64_t
 aDuration
 int64_t
 aPosition
-ControlPlayStatus
+const
+nsAString
+&
 aPlayStatus
 BluetoothReplyRunnable
 *
@@ -1684,6 +1686,16 @@ static
 nsresult
 StopGonkBluetooth
 (
+)
+;
+static
+ControlPlayStatus
+PlayStatusStringToControlPlayStatus
+(
+const
+nsAString
+&
+aPlayStatus
 )
 ;
 static
