@@ -3463,7 +3463,6 @@ kPrefDnsNotifyResolution
 notifyResolution
 )
 ;
-}
 if
 (
 mFirstTime
@@ -3479,11 +3478,6 @@ register
 as
 prefs
 observer
-if
-(
-prefs
-)
-{
 prefs
 -
 >
@@ -3627,6 +3621,7 @@ false
 )
 ;
 }
+}
 nsCOMPtr
 <
 nsIObserverService
@@ -3676,7 +3671,6 @@ NS_NETWORK_LINK_TOPIC
 false
 )
 ;
-}
 }
 nsDNSPrefetch
 :
