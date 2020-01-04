@@ -7166,7 +7166,9 @@ AutoWrapperRooter
 JSContext
 *
 cx
+const
 WrapperValue
+&
 v
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
