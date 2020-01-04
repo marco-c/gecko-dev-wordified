@@ -899,7 +899,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 nsJPEGDecoder
 :
 :
@@ -961,6 +961,9 @@ mState
 JPEG_DONE
 ;
 }
+return
+NS_OK
+;
 }
 Maybe
 <
@@ -1745,10 +1748,6 @@ mState
 =
 JPEG_ERROR
 ;
-PostDataError
-(
-)
-;
 MOZ_LOG
 (
 sJPEGDecoderAccountingLog
@@ -1818,10 +1817,6 @@ default
 mState
 =
 JPEG_ERROR
-;
-PostDataError
-(
-)
 ;
 MOZ_LOG
 (
@@ -2127,10 +2122,6 @@ default
 mState
 =
 JPEG_ERROR
-;
-PostDataError
-(
-)
 ;
 MOZ_LOG
 (

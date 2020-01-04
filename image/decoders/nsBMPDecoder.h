@@ -1016,15 +1016,13 @@ aIterator
 )
 override
 ;
-virtual
-void
+nsresult
 BeforeFinishInternal
 (
 )
 override
 ;
-virtual
-void
+nsresult
 FinishInternal
 (
 )

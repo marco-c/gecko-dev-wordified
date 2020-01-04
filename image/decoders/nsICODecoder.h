@@ -394,15 +394,13 @@ aIterator
 )
 override
 ;
-virtual
-void
+nsresult
 FinishInternal
 (
 )
 override
 ;
-virtual
-void
+nsresult
 FinishWithErrorInternal
 (
 )
@@ -481,7 +479,7 @@ s
 visible
 externally
 .
-void
+nsresult
 GetFinalStateFromContainedDecoder
 (
 )

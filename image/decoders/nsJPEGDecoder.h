@@ -333,8 +333,7 @@ aIterator
 )
 override
 ;
-virtual
-void
+nsresult
 FinishInternal
 (
 )
