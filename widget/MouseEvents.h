@@ -3211,7 +3211,7 @@ mScrollType
 (
 SCROLL_DEFAULT
 )
-overflowDeltaX
+mOverflowDeltaX
 (
 0
 .
@@ -3322,7 +3322,7 @@ mScrollType
 (
 SCROLL_DEFAULT
 )
-overflowDeltaX
+mOverflowDeltaX
 (
 0
 .
@@ -3496,7 +3496,7 @@ mViewPortIsOverscrolled
 this
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 !
 =
 0
@@ -3979,7 +3979,7 @@ EventStateManager
 /
 /
 However
-overflowDeltaX
+mOverflowDeltaX
 and
 overflowDeltaY
 indicate
@@ -4024,7 +4024,7 @@ and
 mDeltaY
 .
 double
-overflowDeltaX
+mOverflowDeltaX
 ;
 double
 overflowDeltaY
@@ -4232,11 +4232,11 @@ aEvent
 .
 mScrollType
 ;
-overflowDeltaX
+mOverflowDeltaX
 =
 aEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 ;
 overflowDeltaY
 =

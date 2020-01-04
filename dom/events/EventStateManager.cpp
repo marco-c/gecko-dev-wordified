@@ -16210,7 +16210,7 @@ action
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 aEvent
 -
@@ -16229,7 +16229,7 @@ isDeltaModePixel
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 overflow
 .
@@ -16250,7 +16250,7 @@ else
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 static_cast
 <
@@ -16404,7 +16404,7 @@ COMPUTE_SCROLLABLE_ANCESTOR_ALONG_X_AXIS
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 aEvent
 -
@@ -16454,7 +16454,7 @@ NS_ASSERTION
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 =
 0
@@ -16464,7 +16464,7 @@ overflowDeltaX
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 >
 0
 )
@@ -16482,7 +16482,7 @@ mDeltaX
 The
 sign
 of
-overflowDeltaX
+mOverflowDeltaX
 is
 different
 from
@@ -20214,7 +20214,7 @@ true
 wheelEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 wheelEvent
 -
@@ -20622,7 +20622,7 @@ break
 wheelEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 wheelEvent
 -
@@ -34822,7 +34822,7 @@ index
 aEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 /
 =
 mMultiplierX
