@@ -3985,14 +3985,6 @@ nsHTTPIndex
 aRequestor
 )
 ;
-if
-(
-!
-result
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 nsresult
 rv
 =

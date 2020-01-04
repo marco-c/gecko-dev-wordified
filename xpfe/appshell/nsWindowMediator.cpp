@@ -543,14 +543,6 @@ inWindow
 mTimeStamp
 )
 ;
-if
-(
-!
-windowInfo
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 WindowTitleData
 winData
 =
