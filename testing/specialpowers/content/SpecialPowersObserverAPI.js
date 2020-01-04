@@ -4039,6 +4039,7 @@ Extension
 .
 generate
 (
+id
 ext
 )
 ;
