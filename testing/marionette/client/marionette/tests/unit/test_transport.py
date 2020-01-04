@@ -61,7 +61,9 @@ import
 MarionetteTestCase
 skip_unless_protocol
 from
-marionette_transport
+marionette_driver
+.
+transport
 import
 (
     

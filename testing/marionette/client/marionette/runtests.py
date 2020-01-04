@@ -66,12 +66,6 @@ __version__
 as
 driver_version
 from
-marionette_transport
-import
-__version__
-as
-transport_version
-from
 marionette
 .
 marionette_test
@@ -298,17 +292,6 @@ driver
 driver_version
 }
 "
-                    
-"
-marionette
--
-transport
-:
-{
-transport_version
-}
-)
-"
 .
 format
 (
@@ -320,10 +303,6 @@ __version__
 driver_version
 =
 driver_version
-                        
-transport_version
-=
-transport_version
                     
 )
 )
