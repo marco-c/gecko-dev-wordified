@@ -1216,9 +1216,9 @@ bind
 InstImm
 *
 inst
-uint64_t
+uintptr_t
 branch
-uint64_t
+uintptr_t
 target
 )
 ;
