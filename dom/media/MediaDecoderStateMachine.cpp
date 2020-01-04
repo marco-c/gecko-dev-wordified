@@ -13373,6 +13373,13 @@ Ref
 ;
 if
 (
+mInfo
+.
+isNothing
+(
+)
+|
+|
 !
 HasVideo
 (
