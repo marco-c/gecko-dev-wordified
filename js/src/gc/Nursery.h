@@ -437,6 +437,9 @@ uint32_t
 namespace
 gc
 {
+class
+AutoMaybeStartBackgroundAllocation
+;
 struct
 Cell
 ;
@@ -2629,6 +2632,12 @@ updateNumChunksLocked
 (
 unsigned
 newCount
+gc
+:
+:
+AutoMaybeStartBackgroundAllocation
+&
+maybeBgAlloc
 AutoLockGC
 &
 lock
