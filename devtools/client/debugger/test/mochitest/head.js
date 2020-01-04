@@ -5801,9 +5801,9 @@ true
 ;
 }
 }
-tooltip
+bubble
 .
-defaultShowDelay
+TOOLTIP_SHOW_DELAY
 +
 1000
 )
