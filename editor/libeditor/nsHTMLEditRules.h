@@ -238,6 +238,9 @@ struct
 StyleCache
 :
 public
+mozilla
+:
+:
 PropItem
 {
 bool
