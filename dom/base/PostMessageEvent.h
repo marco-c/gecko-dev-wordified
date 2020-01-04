@@ -165,9 +165,6 @@ class
 nsGlobalWindow
 ;
 class
-nsIDocument
-;
-class
 nsIPrincipal
 ;
 namespace
