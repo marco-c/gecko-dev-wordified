@@ -207,15 +207,6 @@ Clear
 {
 mNavigationType
 =
-mozilla
-:
-:
-dom
-:
-:
-PerformanceNavigation
-:
-:
 TYPE_RESERVED
 ;
 mNavigationStartHighRes
@@ -410,7 +401,7 @@ NotifyFetchStart
 nsIURI
 *
 aURI
-nsDOMPerformanceNavigationType
+Type
 aNavigationType
 )
 {
