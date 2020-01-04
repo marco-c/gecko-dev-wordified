@@ -370,7 +370,6 @@ LibcurlWrapper
 (
 )
 ;
-virtual
 ~
 LibcurlWrapper
 (
