@@ -667,10 +667,6 @@ registerListener
 progressListener
 )
 ;
-moveToAlertPosition
-(
-)
-;
 /
 /
 We

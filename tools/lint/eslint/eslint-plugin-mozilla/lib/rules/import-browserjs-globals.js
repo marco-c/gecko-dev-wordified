@@ -408,17 +408,6 @@ js
 "
 toolkit
 /
-obsolete
-/
-content
-/
-inlineSpellCheckUI
-.
-js
-"
-"
-toolkit
-/
 components
 /
 viewsource
