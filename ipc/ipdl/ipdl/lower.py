@@ -42656,10 +42656,27 @@ iterexpr
 )
 )
         
-ifbad
-.
-addifstmts
+if
+isinstance
 (
+paramtype
+list
+)
+:
+            
+errorcall
+=
+errfn
+(
+*
+paramtype
+)
+        
+else
+:
+            
+errorcall
+=
 errfn
 (
 '
@@ -42669,6 +42686,12 @@ deserializing
 +
 paramtype
 )
+        
+ifbad
+.
+addifstmts
+(
+errorcall
 )
         
 return
