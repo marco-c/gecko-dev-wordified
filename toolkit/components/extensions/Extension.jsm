@@ -7746,7 +7746,6 @@ addon
 .
 uninstall
 (
-true
 )
 ;
 return
