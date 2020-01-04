@@ -3625,7 +3625,7 @@ radialGradient
 "
 )
 ;
-nsSVGRadialGradientFrameBase
+nsSVGGradientFrame
 :
 :
 Init
@@ -4133,7 +4133,7 @@ thisElement
 ;
 }
 return
-nsSVGRadialGradientFrameBase
+nsSVGGradientFrame
 :
 :
 GetRadialGradientWithLength

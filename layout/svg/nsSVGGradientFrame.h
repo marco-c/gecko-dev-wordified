@@ -1201,15 +1201,11 @@ Gradients
 -
 -
 -
-typedef
-nsSVGGradientFrame
-nsSVGRadialGradientFrameBase
-;
 class
 nsSVGRadialGradientFrame
 :
 public
-nsSVGRadialGradientFrameBase
+nsSVGGradientFrame
 {
 friend
 nsIFrame
@@ -1234,7 +1230,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGRadialGradientFrameBase
+nsSVGGradientFrame
 (
 aContext
 )
