@@ -1915,12 +1915,6 @@ bool
 aIsRunning
 )
 ;
-bool
-CanThrottle
-(
-)
-const
-;
 /
 /
 Returns
@@ -2347,6 +2341,12 @@ private
 nsIFrame
 *
 GetAnimationFrame
+(
+)
+const
+;
+bool
+CanThrottle
 (
 )
 const
