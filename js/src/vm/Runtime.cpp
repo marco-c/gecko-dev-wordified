@@ -4203,6 +4203,14 @@ Realloc
 reallocPtr
 )
 ;
+MOZ_ASSERT
+(
+CurrentThreadCanAccessRuntime
+(
+this
+)
+)
+;
 if
 (
 isHeapBusy

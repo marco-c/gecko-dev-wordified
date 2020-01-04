@@ -1116,6 +1116,17 @@ reallocPtr
 nullptr
 )
 {
+if
+(
+!
+CurrentThreadCanAccessRuntime
+(
+runtime_
+)
+)
+return
+nullptr
+;
 return
 runtimeFromMainThread
 (
