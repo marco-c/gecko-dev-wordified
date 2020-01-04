@@ -2760,6 +2760,12 @@ pointerEventsNone
 passPointerEventsToChildren
 )
 ;
+#
+if
+defined
+(
+MOZ_SINGLE_PROCESS_APZ
+)
 if
 (
 !
@@ -2797,6 +2803,8 @@ GetResolution
 )
 ;
 }
+#
+endif
 }
 else
 {
