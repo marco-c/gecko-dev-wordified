@@ -2236,7 +2236,7 @@ important
 member
 function
 of
-nsIStyleContext
+nsStyleContext
 .
 It
 fills
@@ -2480,7 +2480,7 @@ PeekStyle
 *
 is
 like
-GetStyle
+Style
 *
 but
 doesn
