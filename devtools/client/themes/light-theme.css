@@ -1329,6 +1329,12 @@ theme
 /
 .
 CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 {
 /
 *
@@ -1360,6 +1366,12 @@ transparent
 }
 .
 CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 pre
 .
 cm
