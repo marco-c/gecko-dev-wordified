@@ -160,6 +160,15 @@ dom
 InputData
 :
 :
+~
+InputData
+(
+)
+{
+}
+InputData
+:
+:
 InputData
 (
 InputType

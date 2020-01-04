@@ -614,6 +614,12 @@ INPUTDATA_AS_CHILD_TYPE
 ScrollWheelInput
 SCROLLWHEEL_INPUT
 )
+virtual
+~
+InputData
+(
+)
+;
 explicit
 InputData
 (
