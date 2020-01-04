@@ -2145,7 +2145,7 @@ DOMString
 .
 *
 /
-MOZ_ALWAYS_INLINE
+inline
 bool
 NonVoidStringToJsval
 (
