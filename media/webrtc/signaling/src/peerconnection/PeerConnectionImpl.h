@@ -4464,6 +4464,9 @@ mTrickle
 bool
 mNegotiationNeeded
 ;
+bool
+mPrivateWindow
+;
 /
 /
 storage
