@@ -630,7 +630,7 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &

@@ -718,7 +718,7 @@ Now
 }
 mCurrentVsyncTask
 =
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -734,7 +734,7 @@ RefPtr
 mozilla
 :
 :
-Runnable
+CancelableRunnable
 >
 addrefedTask
 =
