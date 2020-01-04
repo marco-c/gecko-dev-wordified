@@ -941,6 +941,32 @@ sleep
 1
 )
             
+#
+Sometimes
+it
+takes
+more
+than
+60s
+to
+launch
+emulator
+so
+we
+            
+#
+increase
+timeout
+value
+to
+180s
+.
+Please
+see
+bug
+1143380
+.
+            
 if
 datetime
 .
@@ -958,7 +984,7 @@ timedelta
 (
 seconds
 =
-60
+180
 )
 :
                 
