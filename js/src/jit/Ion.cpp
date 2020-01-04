@@ -9584,10 +9584,16 @@ logger
 TraceLogger_FoldTests
 )
 ;
+if
+(
+!
 FoldTests
 (
 graph
 )
+)
+return
+false
 ;
 gs
 .

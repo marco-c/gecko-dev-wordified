@@ -2043,7 +2043,7 @@ existingPred
 ;
 }
 static
-void
+bool
 MaybeFoldConditionBlock
 (
 MIRGraph
@@ -2258,6 +2258,7 @@ isTest
 )
 )
 return
+true
 ;
 MTest
 *
@@ -2305,6 +2306,7 @@ numSuccessors
 1
 )
 return
+true
 ;
 MBasicBlock
 *
@@ -2341,6 +2343,7 @@ numSuccessors
 1
 )
 return
+true
 ;
 MBasicBlock
 *
@@ -2368,6 +2371,7 @@ getSuccessor
 )
 )
 return
+true
 ;
 if
 (
@@ -2382,6 +2386,7 @@ numPredecessors
 2
 )
 return
+true
 ;
 if
 (
@@ -2409,6 +2414,7 @@ isLoopBackedge
 )
 )
 return
+true
 ;
 MBasicBlock
 *
@@ -2439,6 +2445,7 @@ isLoopBackedge
 )
 )
 return
+true
 ;
 testBlock
 =
@@ -2463,6 +2470,7 @@ numPredecessors
 1
 )
 return
+true
 ;
 }
 /
@@ -2480,10 +2488,6 @@ outgoing
 loop
 backedges
 .
-{
-AutoEnterOOMUnsafeRegion
-oomUnsafe
-;
 if
 (
 !
@@ -2493,16 +2497,9 @@ graph
 testBlock
 )
 )
-oomUnsafe
-.
-crash
-(
-"
-MaybeFoldConditionBlock
-"
-)
+return
+false
 ;
-}
 MPhi
 *
 phi
@@ -2525,6 +2522,7 @@ finalTest
 )
 )
 return
+true
 ;
 MDefinition
 *
@@ -3112,8 +3110,11 @@ removeBlock
 testBlock
 )
 ;
+return
+true
+;
 }
-void
+bool
 jit
 :
 :
@@ -3149,12 +3150,23 @@ block
 +
 +
 )
+{
+if
+(
+!
 MaybeFoldConditionBlock
 (
 graph
 *
 block
 )
+)
+return
+false
+;
+}
+return
+true
 ;
 }
 static
