@@ -1641,14 +1641,6 @@ Shutdown
 calls
 .
 mTransport
--
->
-SetCallback
-(
-nullptr
-)
-;
-mTransport
 =
 nullptr
 ;
