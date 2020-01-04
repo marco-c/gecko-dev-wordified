@@ -1016,6 +1016,9 @@ mType
 nsString
 mFilters
 ;
+nsString
+mPath
+;
 }
 ;
 }
