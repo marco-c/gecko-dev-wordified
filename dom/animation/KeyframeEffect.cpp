@@ -13837,7 +13837,7 @@ bool
 KeyframeEffectReadOnly
 :
 :
-ShouldBlockCompositorAnimations
+ShouldBlockAsyncTransformAnimations
 (
 const
 nsIFrame
@@ -14003,7 +14003,7 @@ AnimationPerformanceWarning
 Type
 :
 :
-WithGeometricProperties
+TransformWithGeometricProperties
 ;
 return
 true

@@ -166,9 +166,9 @@ ContentTooLarge
 TransformBackfaceVisibilityHidden
 TransformPreserve3D
 TransformSVG
+TransformWithGeometricProperties
 TransformFrameInactive
 OpacityFrameInactive
-WithGeometricProperties
 }
 ;
 explicit
