@@ -1464,6 +1464,9 @@ if
 indice
 .
 sync
+|
+|
+mIsAudio
 )
 {
 haveSync
@@ -1529,6 +1532,9 @@ mSync
 indice
 .
 sync
+|
+|
+mIsAudio
 ;
 /
 /
