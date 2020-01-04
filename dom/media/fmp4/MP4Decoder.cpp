@@ -1052,13 +1052,6 @@ the
 whitelisted
 types
 .
-PDMFactory
-:
-:
-Init
-(
-)
-;
 RefPtr
 <
 PDMFactory
@@ -1700,13 +1693,6 @@ MOZ_ARRAY_LENGTH
 (
 sTestH264ExtraData
 )
-)
-;
-PDMFactory
-:
-:
-Init
-(
 )
 ;
 RefPtr
