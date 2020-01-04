@@ -262,7 +262,7 @@ vAlign_Top
 }
 virtual
 Halignment
-GetHAlign
+GetXULHAlign
 (
 )
 const

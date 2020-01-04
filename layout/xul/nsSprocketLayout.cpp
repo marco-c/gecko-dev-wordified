@@ -740,7 +740,7 @@ halign
 aBox
 -
 >
-GetHAlign
+GetXULHAlign
 (
 )
 ;
@@ -6172,7 +6172,7 @@ halign
 aBox
 -
 >
-GetHAlign
+GetXULHAlign
 (
 )
 ;
