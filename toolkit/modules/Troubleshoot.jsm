@@ -1607,9 +1607,9 @@ winEnumer
 =
 Services
 .
-ww
+wm
 .
-getWindowEnumerator
+getEnumerator
 (
 "
 navigator
