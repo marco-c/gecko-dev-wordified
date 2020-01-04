@@ -827,9 +827,10 @@ show
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 SocialSidebar
 .
 opened
@@ -1227,9 +1228,10 @@ show
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 w1
 .
 SocialSidebar

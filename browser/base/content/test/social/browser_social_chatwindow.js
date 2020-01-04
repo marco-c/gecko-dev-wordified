@@ -2308,9 +2308,10 @@ pinnedchats
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chats
 .
 children
@@ -2365,9 +2366,10 @@ logout
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chats
 .
 children
@@ -2629,9 +2631,10 @@ logout
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 document
 .
 getElementById

@@ -1537,9 +1537,10 @@ yet
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 btn
 .
 isMarked
@@ -1705,9 +1706,10 @@ close
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 btn
 .
@@ -2370,9 +2372,10 @@ logout
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 provider
 .
@@ -2592,9 +2595,10 @@ close
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 btn
 .

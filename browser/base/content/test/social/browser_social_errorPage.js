@@ -1169,9 +1169,10 @@ selectedChat
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chat
 .
 content
@@ -1384,9 +1385,10 @@ content
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chat
 .
 content
@@ -1473,9 +1475,10 @@ called
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chat
 .
 contentDocument

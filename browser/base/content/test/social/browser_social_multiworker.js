@@ -426,9 +426,10 @@ p
 }
 waitForCondition
 (
-function
 (
 )
+=
+>
 messageReceived
 =
 =
