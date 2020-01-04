@@ -16869,7 +16869,7 @@ focusEvent
 focusEvent
 -
 >
-isRefocus
+mIsRefocus
 )
 {
 nsAutoString

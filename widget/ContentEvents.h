@@ -1615,7 +1615,7 @@ mFromRaise
 (
 false
 )
-isRefocus
+mIsRefocus
 (
 false
 )
@@ -1701,7 +1701,7 @@ bool
 mFromRaise
 ;
 bool
-isRefocus
+mIsRefocus
 ;
 void
 AssignFocusEventData
@@ -1736,11 +1736,11 @@ aEvent
 .
 mFromRaise
 ;
-isRefocus
+mIsRefocus
 =
 aEvent
 .
-isRefocus
+mIsRefocus
 ;
 }
 }
