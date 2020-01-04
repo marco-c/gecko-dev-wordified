@@ -619,6 +619,9 @@ WebCryptoTask
 *
 CreateImportKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -692,6 +695,9 @@ WebCryptoTask
 *
 CreateDeriveKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -765,6 +771,9 @@ WebCryptoTask
 *
 CreateUnwrapKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx

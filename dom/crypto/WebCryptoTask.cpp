@@ -6667,6 +6667,9 @@ public
 void
 Init
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -6703,47 +6706,6 @@ false
 ;
 /
 /
-Get
-the
-current
-global
-object
-from
-the
-context
-nsIGlobalObject
-*
-global
-=
-xpc
-:
-:
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
-(
-aCx
-)
-)
-;
-if
-(
-!
-global
-)
-{
-mEarlyRv
-=
-NS_ERROR_DOM_UNKNOWN_ERR
-;
-return
-;
-}
-/
-/
 This
 stuff
 pretty
@@ -6762,7 +6724,7 @@ mKey
 new
 CryptoKey
 (
-global
+aGlobal
 )
 ;
 mKey
@@ -7356,6 +7318,9 @@ public
 :
 ImportSymmetricKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -7380,6 +7345,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -7390,6 +7356,9 @@ aKeyUsages
 }
 ImportSymmetricKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -7424,6 +7393,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -7478,6 +7448,9 @@ return
 void
 Init
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -7505,6 +7478,7 @@ ImportKeyTask
 :
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -8223,6 +8197,9 @@ public
 :
 ImportRsaKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -8247,6 +8224,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -8257,6 +8235,9 @@ aKeyUsages
 }
 ImportRsaKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -8290,6 +8271,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -8344,6 +8326,9 @@ return
 void
 Init
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -8371,6 +8356,7 @@ ImportKeyTask
 :
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -9129,6 +9115,9 @@ public
 :
 ImportEcKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -9153,6 +9142,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -9163,6 +9153,9 @@ aKeyUsages
 }
 ImportEcKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -9196,6 +9189,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -9229,6 +9223,9 @@ mEarlyRv
 void
 Init
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -9256,6 +9253,7 @@ ImportKeyTask
 :
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -9972,6 +9970,9 @@ public
 :
 ImportDhKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -9996,6 +9997,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -10006,6 +10008,9 @@ aKeyUsages
 }
 ImportDhKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -10039,6 +10044,7 @@ aKeyUsages
 {
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -10070,6 +10076,9 @@ mEarlyRv
 void
 Init
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -10097,6 +10106,7 @@ ImportKeyTask
 :
 Init
 (
+aGlobal
 aCx
 aFormat
 aAlgorithm
@@ -14579,6 +14589,9 @@ public
 :
 DeriveKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -14641,6 +14654,7 @@ mTask
 new
 ImportSymmetricKeyTask
 (
+aGlobal
 aCx
 format
 aDerivedKeyType
@@ -16813,6 +16827,9 @@ WebCryptoTask
 :
 CreateImportKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -17073,6 +17090,7 @@ return
 new
 ImportSymmetricKeyTask
 (
+aGlobal
 aCx
 aFormat
 aKeyData
@@ -17113,6 +17131,7 @@ return
 new
 ImportRsaKeyTask
 (
+aGlobal
 aCx
 aFormat
 aKeyData
@@ -17145,6 +17164,7 @@ return
 new
 ImportEcKeyTask
 (
+aGlobal
 aCx
 aFormat
 aKeyData
@@ -17169,6 +17189,7 @@ return
 new
 ImportDhKeyTask
 (
+aGlobal
 aCx
 aFormat
 aKeyData
@@ -17728,6 +17749,9 @@ WebCryptoTask
 :
 CreateDeriveKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -17873,6 +17897,7 @@ DeriveKeyTask
 DeriveHkdfBitsTask
 >
 (
+aGlobal
 aCx
 aAlgorithm
 aBaseKey
@@ -17899,6 +17924,7 @@ DeriveKeyTask
 DerivePbkdfBitsTask
 >
 (
+aGlobal
 aCx
 aAlgorithm
 aBaseKey
@@ -17925,6 +17951,7 @@ DeriveKeyTask
 DeriveEcdhBitsTask
 >
 (
+aGlobal
 aCx
 aAlgorithm
 aBaseKey
@@ -18411,6 +18438,9 @@ WebCryptoTask
 :
 CreateUnwrapKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -18603,6 +18633,7 @@ importTask
 new
 ImportSymmetricKeyTask
 (
+aGlobal
 aCx
 aFormat
 aUnwrappedKeyAlgorithm
@@ -18643,6 +18674,7 @@ importTask
 new
 ImportRsaKeyTask
 (
+aGlobal
 aCx
 aFormat
 aUnwrappedKeyAlgorithm
