@@ -1228,7 +1228,7 @@ JS
 Zone
 *
 zone
-uint32_t
+size_t
 nbytes
 )
 ;
@@ -1264,7 +1264,7 @@ allocateBuffer
 JSObject
 *
 obj
-uint32_t
+size_t
 nbytes
 )
 ;
@@ -1288,9 +1288,9 @@ obj
 void
 *
 oldBuffer
-uint32_t
+size_t
 oldBytes
-uint32_t
+size_t
 newBytes
 )
 ;
