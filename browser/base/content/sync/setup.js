@@ -383,6 +383,8 @@ get
 _remoteSites
 (
 )
+{
+return
 [
 Weave
 .
@@ -391,6 +393,8 @@ Service
 serverURL
 RECAPTCHA_DOMAIN
 ]
+;
+}
 get
 _usingMainServers
 (
@@ -624,9 +628,10 @@ addEventListener
 "
 unload
 "
-function
 (
 )
+=
+>
 addRem
 (
 false

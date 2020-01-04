@@ -402,11 +402,12 @@ defaults
 let
 def
 =
-function
 (
 aThreshold
 aLatched
 )
+=
+>
 (
 {
 threshold

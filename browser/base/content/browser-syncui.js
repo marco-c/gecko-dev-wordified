@@ -1939,9 +1939,10 @@ needsSetup
 {
 setTimeout
 (
-function
 (
 )
+=
+>
 Weave
 .
 Service

@@ -1359,10 +1359,9 @@ _initFrameCallbacks
 .
 forEach
 (
-function
-(
 cb
-)
+=
+>
 cb
 (
 )
