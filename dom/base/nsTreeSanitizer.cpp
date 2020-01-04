@@ -3891,6 +3891,11 @@ kURLAttributesSVG
 ]
 =
 {
+&
+nsGkAtoms
+:
+:
+href
 nullptr
 }
 ;
