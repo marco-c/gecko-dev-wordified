@@ -2832,6 +2832,7 @@ Runnable
 {
 public
 :
+explicit
 ShutdownRunnable
 (
 RefPtr
