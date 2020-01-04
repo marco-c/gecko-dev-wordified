@@ -9539,7 +9539,7 @@ internal
 selection
 state
 listener
-nsAutoInsertContainerSelNotify
+AutoInsertContainerSelNotify
 selNotify
 (
 mRangeUpdater
