@@ -470,10 +470,6 @@ false
 )
 {
 }
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsSVGGradientFrame
-)
 /
 /
 -

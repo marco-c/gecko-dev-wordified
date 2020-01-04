@@ -345,7 +345,10 @@ nsSplittableFrame
 {
 public
 :
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_ABSTRACT_FRAME
+(
+nsContainerFrame
+)
 NS_DECL_QUERYFRAME_TARGET
 (
 nsContainerFrame
