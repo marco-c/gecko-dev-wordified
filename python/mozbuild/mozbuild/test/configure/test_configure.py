@@ -3085,14 +3085,22 @@ self
 )
 :
         
-config
-=
+def
+get_config
+(
+*
+args
+)
+:
+            
+return
 self
 .
 get_config
 (
-[
-]
+                
+*
+args
 configure
 =
 '
@@ -3102,6 +3110,14 @@ simple
 .
 configure
 '
+)
+        
+config
+=
+get_config
+(
+[
+]
 )
         
 self
@@ -3115,8 +3131,6 @@ config
         
 config
 =
-self
-.
 get_config
 (
 [
@@ -3128,16 +3142,6 @@ enable
 foo
 '
 ]
-                                 
-configure
-=
-'
-imply_option
-/
-simple
-.
-configure
-'
 )
         
 self
@@ -3176,10 +3180,6 @@ as
 e
 :
             
-config
-=
-self
-.
 get_config
 (
 [
@@ -3198,16 +3198,6 @@ disable
 bar
 '
 ]
-                                     
-configure
-=
-'
-imply_option
-/
-simple
-.
-configure
-'
 )
         
 self
@@ -3265,15 +3255,22 @@ self
 )
 :
         
-config
-=
+def
+get_config
+(
+*
+args
+)
+:
+            
+return
 self
 .
 get_config
 (
-[
-]
-                                 
+                
+*
+args
 configure
 =
 '
@@ -3283,6 +3280,14 @@ negative
 .
 configure
 '
+)
+        
+config
+=
+get_config
+(
+[
+]
 )
         
 self
@@ -3296,8 +3301,6 @@ config
         
 config
 =
-self
-.
 get_config
 (
 [
@@ -3309,16 +3312,6 @@ enable
 foo
 '
 ]
-                                 
-configure
-=
-'
-imply_option
-/
-negative
-.
-configure
-'
 )
         
 self
@@ -3357,13 +3350,8 @@ as
 e
 :
             
-config
-=
-self
-.
 get_config
 (
-                
 [
 '
 -
@@ -3380,16 +3368,6 @@ enable
 bar
 '
 ]
-                
-configure
-=
-'
-imply_option
-/
-negative
-.
-configure
-'
 )
         
 self
@@ -3442,8 +3420,6 @@ line
         
 config
 =
-self
-.
 get_config
 (
 [
@@ -3455,16 +3431,6 @@ disable
 hoge
 '
 ]
-                                 
-configure
-=
-'
-imply_option
-/
-negative
-.
-configure
-'
 )
         
 self
@@ -3503,13 +3469,8 @@ as
 e
 :
             
-config
-=
-self
-.
 get_config
 (
-                
 [
 '
 -
@@ -3526,16 +3487,6 @@ enable
 bar
 '
 ]
-                
-configure
-=
-'
-imply_option
-/
-negative
-.
-configure
-'
 )
         
 self
@@ -3593,14 +3544,22 @@ self
 )
 :
         
-config
-=
+def
+get_config
+(
+*
+args
+)
+:
+            
+return
 self
 .
 get_config
 (
-[
-]
+                
+*
+args
 configure
 =
 '
@@ -3610,6 +3569,14 @@ values
 .
 configure
 '
+)
+        
+config
+=
+get_config
+(
+[
+]
 )
         
 self
@@ -3623,8 +3590,6 @@ config
         
 config
 =
-self
-.
 get_config
 (
 [
@@ -3638,16 +3603,6 @@ foo
 a
 '
 ]
-                                 
-configure
-=
-'
-imply_option
-/
-values
-.
-configure
-'
 )
         
 self
@@ -3682,8 +3637,6 @@ a
         
 config
 =
-self
-.
 get_config
 (
 [
@@ -3698,16 +3651,6 @@ a
 b
 '
 ]
-                                 
-configure
-=
-'
-imply_option
-/
-values
-.
-configure
-'
 )
         
 self
@@ -3754,10 +3697,6 @@ as
 e
 :
             
-config
-=
-self
-.
 get_config
 (
 [
@@ -3779,16 +3718,6 @@ disable
 bar
 '
 ]
-                                     
-configure
-=
-'
-imply_option
-/
-values
-.
-configure
-'
 )
         
 self
@@ -3849,14 +3778,22 @@ self
 )
 :
         
-config
-=
+def
+get_config
+(
+*
+args
+)
+:
+            
+return
 self
 .
 get_config
 (
-[
-]
+                
+*
+args
 configure
 =
 '
@@ -3866,6 +3803,23 @@ infer
 .
 configure
 '
+)
+        
+config
+=
+get_config
+(
+[
+]
+)
+        
+self
+.
+assertEquals
+(
+config
+{
+}
 )
         
 with
@@ -3879,10 +3833,6 @@ as
 e
 :
             
-config
-=
-self
-.
 get_config
 (
 [
@@ -3901,16 +3851,6 @@ disable
 bar
 '
 ]
-                                     
-configure
-=
-'
-imply_option
-/
-infer
-.
-configure
-'
 )
         
 self
