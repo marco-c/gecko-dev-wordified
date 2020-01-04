@@ -271,6 +271,16 @@ mPhase
 0
 .
 )
+mFinalFrequency
+(
+0
+.
+)
+mPhaseIncrement
+(
+0
+.
+)
 mRecomputeParameters
 (
 true
