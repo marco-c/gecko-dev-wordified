@@ -461,7 +461,7 @@ extensionPath
 {
 log
 .
-info
+debug
 (
 "
 init
