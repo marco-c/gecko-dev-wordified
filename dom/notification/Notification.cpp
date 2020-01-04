@@ -12654,12 +12654,6 @@ mWorkerPrivate
 >
 AddFeature
 (
-mWorkerPrivate
--
->
-GetJSContext
-(
-)
 mFeature
 .
 get
@@ -12712,12 +12706,6 @@ mWorkerPrivate
 >
 RemoveFeature
 (
-mWorkerPrivate
--
->
-GetJSContext
-(
-)
 mFeature
 .
 get
