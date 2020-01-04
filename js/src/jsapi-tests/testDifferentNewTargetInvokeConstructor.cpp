@@ -184,8 +184,8 @@ otherFunc
 JS
 :
 :
-RootedObject
-obj
+RootedValue
+rval
 (
 cx
 )
@@ -217,7 +217,7 @@ func
 newTarget
 args
 &
-obj
+rval
 )
 )
 ;
@@ -286,7 +286,7 @@ func
 newTarget
 args
 &
-obj
+rval
 )
 )
 ;
