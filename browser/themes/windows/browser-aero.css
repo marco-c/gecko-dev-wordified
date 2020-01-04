@@ -367,6 +367,13 @@ appcontent
 sidebar
 -
 splitter
+.
+chatbar
+-
+button
+chatbar
+>
+chatbox
 {
 border
 -
