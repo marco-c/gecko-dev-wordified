@@ -5681,6 +5681,13 @@ function
 )
 {
 }
+notifyDeviceIdentitiesChanged
+:
+function
+(
+)
+{
+}
 }
 ;
 function
