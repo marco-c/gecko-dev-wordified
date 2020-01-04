@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

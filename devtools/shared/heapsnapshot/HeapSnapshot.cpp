@@ -199,6 +199,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 devtools
 /
 AutoMemMap
