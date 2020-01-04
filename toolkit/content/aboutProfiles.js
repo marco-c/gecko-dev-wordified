@@ -961,7 +961,7 @@ win
 string
 =
 '
-winOpenDir
+winOpenDir2
 '
 ;
 }
