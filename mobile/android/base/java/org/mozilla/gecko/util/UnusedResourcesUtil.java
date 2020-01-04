@@ -367,6 +367,11 @@ R
 xml
 .
 preferences_privacy
+R
+.
+xml
+.
+preferences_privacy_clear_tablet
 }
 ;
 }
