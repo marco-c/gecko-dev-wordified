@@ -177,11 +177,17 @@ intent
 void
 onResume
 (
+final
+Context
+context
 )
 ;
 void
 onPause
 (
+final
+Context
+context
 )
 ;
 }
