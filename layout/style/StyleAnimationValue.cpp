@@ -24954,6 +24954,9 @@ mHead
 RuleNodeCacheConditions
 dontCare
 ;
+bool
+dontCareBool
+;
 nsStyleTransformMatrix
 :
 :
@@ -25000,6 +25003,8 @@ PresContext
 AppUnitsPerDevPixel
 (
 )
+&
+dontCareBool
 )
 ;
 Matrix

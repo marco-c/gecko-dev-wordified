@@ -1465,6 +1465,9 @@ PresContext
 RuleNodeCacheConditions
 dummy
 ;
+bool
+dummyBool
+;
 nsStyleTransformMatrix
 :
 :
@@ -1504,6 +1507,8 @@ presContext
 AppUnitsPerCSSPixel
 (
 )
+&
+dummyBool
 )
 ;
 Matrix
