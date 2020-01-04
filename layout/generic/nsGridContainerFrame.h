@@ -650,6 +650,16 @@ GridNamedArea
 GridNamedArea
 ;
 typedef
+mozilla
+:
+:
+layout
+:
+:
+AutoFrameListPtr
+AutoFrameListPtr
+;
+typedef
 nsLayoutUtils
 :
 :
