@@ -133,7 +133,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1900,7 +1902,10 @@ nsRootPresContext
 >
 mRootPresContextRegisteredWith
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 PluginFrameDidCompositeObserver
 >

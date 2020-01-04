@@ -99,7 +99,9 @@ MATHMLTEXTRUNFACTORY_H_
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -137,8 +139,10 @@ public
 :
 MathMLTextRunFactory
 (
+UniquePtr
+<
 nsTransformingTextRunFactory
-*
+>
 aInnerTransformingTextRunFactory
 uint32_t
 aFlags
@@ -150,7 +154,10 @@ aFontInflation
 :
 mInnerTransformingTextRunFactory
 (
+Move
+(
 aInnerTransformingTextRunFactory
+)
 )
 mFlags
 (
@@ -246,7 +253,7 @@ set
 ;
 protected
 :
-nsAutoPtr
+UniquePtr
 <
 nsTransformingTextRunFactory
 >
