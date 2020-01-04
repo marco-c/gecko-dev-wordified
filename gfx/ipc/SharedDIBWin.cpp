@@ -148,9 +148,12 @@ uint32_t
 kHeaderBytes
 =
 (
+uint32_t
+(
 sizeof
 (
 BITMAPV4HEADER
+)
 )
 +
 kByteAlign
