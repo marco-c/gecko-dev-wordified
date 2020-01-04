@@ -1052,14 +1052,9 @@ InitVorbisPacket
 aData
 aLength
 false
-aSample
+false
 -
->
-mEOS
-aSample
--
->
-mTimecode
+1
 mPacketCount
 +
 +
