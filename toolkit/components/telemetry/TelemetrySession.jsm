@@ -7284,6 +7284,16 @@ residentFast
 b
 (
 "
+MEMORY_UNIQUE
+"
+"
+residentUnique
+"
+)
+;
+b
+(
+"
 MEMORY_HEAP_ALLOCATED
 "
 "
