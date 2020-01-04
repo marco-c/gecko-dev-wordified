@@ -1102,7 +1102,7 @@ histogram
 linear
 and
 not
-loose
+lose
 the
 change
 in
