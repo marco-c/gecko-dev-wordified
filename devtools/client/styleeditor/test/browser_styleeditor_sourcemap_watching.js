@@ -498,8 +498,6 @@ file
 let
 styleApplied
 =
-promise
-.
 defer
 (
 )
@@ -660,8 +658,6 @@ editor
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -734,8 +730,6 @@ pauseForTimeChange
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1015,8 +1009,6 @@ file
 let
 deferred
 =
-promise
-.
 defer
 (
 )

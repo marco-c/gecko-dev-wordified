@@ -268,8 +268,6 @@ panelWindow
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -322,8 +322,6 @@ sheet
 let
 deferred
 =
-promise
-.
 defer
 (
 )

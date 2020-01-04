@@ -183,8 +183,6 @@ now
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -294,8 +292,6 @@ editor
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -560,8 +556,6 @@ panelWindow
 let
 deferred
 =
-promise
-.
 defer
 (
 )

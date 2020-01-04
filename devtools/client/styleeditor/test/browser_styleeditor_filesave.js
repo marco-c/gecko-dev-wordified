@@ -451,8 +451,6 @@ destFileName
 let
 deferred
 =
-promise
-.
 defer
 (
 )
