@@ -699,6 +699,10 @@ a
 normal
 zero
 .
+asMasm
+(
+)
+.
 branchTest32
 (
 NonZero
