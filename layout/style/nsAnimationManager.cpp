@@ -2197,7 +2197,7 @@ nsTArray
 Keyframe
 >
 &
-aNewFrames
+aNewKeyframes
 bool
 aNewIsStylePaused
 nsStyleContext
@@ -2280,11 +2280,11 @@ aNewTiming
 oldEffect
 -
 >
-SetFrames
+SetKeyframes
 (
 Move
 (
-aNewFrames
+aNewKeyframes
 )
 aStyleContext
 )
@@ -4161,7 +4161,7 @@ timing
 effect
 -
 >
-SetFrames
+SetKeyframes
 (
 Move
 (

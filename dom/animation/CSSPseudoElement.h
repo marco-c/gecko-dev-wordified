@@ -433,7 +433,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &

@@ -18963,7 +18963,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
@@ -18996,7 +18996,7 @@ Animate
 (
 target
 aContext
-aFrames
+aKeyframes
 aOptions
 aError
 )
@@ -19034,7 +19034,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
@@ -19192,7 +19192,7 @@ Failed
 /
 Wrap
 the
-aFrames
+aKeyframes
 object
 for
 the
@@ -19209,14 +19209,14 @@ Rooted
 JSObject
 *
 >
-frames
+keyframes
 (
 aContext
 )
 ;
-frames
+keyframes
 =
-aFrames
+aKeyframes
 ;
 Maybe
 <
@@ -19269,7 +19269,7 @@ JS_WrapObject
 (
 aContext
 &
-frames
+keyframes
 )
 )
 {
@@ -19291,7 +19291,7 @@ Constructor
 (
 global
 aTarget
-frames
+keyframes
 aOptions
 aError
 )

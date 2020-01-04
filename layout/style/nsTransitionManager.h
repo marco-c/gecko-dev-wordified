@@ -443,7 +443,7 @@ const
 {
 MOZ_ASSERT
 (
-mFrames
+mKeyframes
 .
 Length
 (
@@ -458,7 +458,7 @@ have
 exactly
 two
 animation
-frames
+keyframes
 .
 "
 "
@@ -477,7 +477,7 @@ transition
 ;
 MOZ_ASSERT
 (
-mFrames
+mKeyframes
 [
 0
 ]
@@ -507,7 +507,7 @@ frame
 )
 ;
 return
-mFrames
+mKeyframes
 [
 0
 ]

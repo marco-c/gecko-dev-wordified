@@ -521,9 +521,10 @@ objects
 returned
 via
 the
-getFrames
+getKeyframes
 (
 )
+*
 API
 .
 *
@@ -1376,7 +1377,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -1432,7 +1433,7 @@ result
 ;
 }
 void
-GetFrames
+GetKeyframes
 (
 JSContext
 *
@@ -1774,7 +1775,7 @@ mAnimation
 ;
 }
 void
-SetFrames
+SetKeyframes
 (
 JSContext
 *
@@ -1787,14 +1788,14 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 ErrorResult
 &
 aRv
 )
 ;
 void
-SetFrames
+SetKeyframes
 (
 nsTArray
 <
@@ -1802,7 +1803,7 @@ Keyframe
 >
 &
 &
-aFrames
+aKeyframes
 nsStyleContext
 *
 aStyleContext
@@ -1886,14 +1887,14 @@ by
 recalculating
 from
 |
-mFrames
+mKeyframes
 |
 using
+/
+/
 |
 aStyleContext
 |
-/
-/
 to
 resolve
 specified
@@ -2256,7 +2257,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 OptionsType
 &
@@ -2431,7 +2432,7 @@ nsTArray
 <
 Keyframe
 >
-mFrames
+mKeyframes
 ;
 /
 /
@@ -2446,7 +2447,7 @@ arrays
 derived
 from
 |
-mFrames
+mKeyframes
 |
 .
 nsTArray
@@ -2710,7 +2711,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -2773,7 +2774,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
