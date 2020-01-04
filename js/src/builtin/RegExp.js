@@ -354,6 +354,14 @@ pattern
 flags
 ;
 }
+_SetCanonicalName
+(
+RegExpToString
+"
+toString
+"
+)
+;
 /
 /
 ES6
@@ -1167,11 +1175,3 @@ true
 )
 ;
 }
-_SetCanonicalName
-(
-RegExpToString
-"
-toString
-"
-)
-;
