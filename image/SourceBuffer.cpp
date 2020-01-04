@@ -1737,6 +1737,11 @@ complete
 "
 )
 ;
+if
+(
+aConsumer
+)
+{
 mWaitingConsumers
 .
 AppendElement
@@ -1744,6 +1749,7 @@ AppendElement
 aConsumer
 )
 ;
+}
 }
 void
 SourceBuffer
