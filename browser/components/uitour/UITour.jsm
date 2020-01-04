@@ -14097,10 +14097,11 @@ defaultEngine
 =
 engine
 ;
-return
 resolve
 (
 )
+;
+return
 ;
 }
 }
@@ -14117,6 +14118,8 @@ given
 ID
 "
 )
+;
+return
 ;
 }
 )
