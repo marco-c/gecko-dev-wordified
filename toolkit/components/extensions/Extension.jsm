@@ -4839,11 +4839,6 @@ content_parent
 "
 &
 &
-(
-!
-restrictions
-|
-|
 !
 restrictions
 .
@@ -4852,7 +4847,6 @@ includes
 "
 content
 "
-)
 )
 )
 {
