@@ -5789,9 +5789,9 @@ hint
 -
 /
 /
-nsStyleBasicShape
+StyleBasicShape
 nsCSSKeyword
-nsStyleBasicShape
+StyleBasicShape
 :
 :
 GetShapeTypeName
@@ -6842,7 +6842,7 @@ nsStyleClipPath
 :
 SetBasicShape
 (
-nsStyleBasicShape
+StyleBasicShape
 *
 aBasicShape
 StyleClipShapeSizing

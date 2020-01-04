@@ -4289,7 +4289,7 @@ const
 mozilla
 :
 :
-nsStyleBasicShape
+StyleBasicShape
 *
 aStyleBasicShape
 mozilla
@@ -4319,7 +4319,7 @@ const
 mozilla
 :
 :
-nsStyleBasicShape
+StyleBasicShape
 *
 aStyleBasicShape
 )

@@ -24278,7 +24278,7 @@ box
 )
 ;
 const
-nsStyleBasicShape
+StyleBasicShape
 *
 shape
 =
