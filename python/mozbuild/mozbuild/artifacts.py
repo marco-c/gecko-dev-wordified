@@ -2943,6 +2943,9 @@ install_from_file
 self
 filename
 distdir
+install_callback
+=
+None
 )
 :
         
@@ -2992,9 +2995,7 @@ possible
         
 ensureParentDir
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3049,9 +3050,7 @@ continue
                 
 n
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3147,6 +3146,26 @@ filename
 }
 '
 )
+                
+if
+install_callback
+:
+                    
+install_callback
+(
+os
+.
+path
+.
+basename
+(
+info
+.
+filename
+)
+file_existed
+file_updated
+)
         
 return
 0
@@ -3157,6 +3176,9 @@ install_from_url
 self
 url
 distdir
+install_callback
+=
+None
 )
 :
         
@@ -3219,6 +3241,9 @@ install_from_file
 (
 filename
 distdir
+install_callback
+=
+install_callback
 )
     
 def
@@ -3227,6 +3252,9 @@ install_from_hg
 self
 revset
 distdir
+install_callback
+=
+None
 )
 :
         
@@ -3491,6 +3519,9 @@ install_from_url
 (
 url
 distdir
+install_callback
+=
+install_callback
 )
         
 self
@@ -3534,8 +3565,82 @@ install_from
 self
 source
 distdir
+install_callback
+=
+None
 )
 :
+        
+"
+"
+"
+Install
+artifacts
+from
+a
+source
+into
+the
+given
+distdir
+.
+        
+If
+callback
+is
+given
+it
+is
+called
+once
+with
+arguments
+(
+path
+        
+existed
+updated
+)
+where
+path
+is
+the
+file
+path
+written
+relative
+        
+to
+distdir
+;
+existed
+is
+a
+boolean
+indicating
+whether
+the
+file
+        
+existed
+;
+and
+updated
+is
+a
+boolean
+indicating
+whether
+the
+file
+was
+        
+updated
+.
+        
+"
+"
+"
         
 if
 source
@@ -3557,6 +3662,9 @@ install_from_file
 (
 source
 distdir
+install_callback
+=
+install_callback
 )
         
 elif
@@ -3579,6 +3687,9 @@ install_from_url
 (
 source
 distdir
+install_callback
+=
+install_callback
 )
         
 else
@@ -3591,6 +3702,9 @@ install_from_hg
 (
 source
 distdir
+install_callback
+=
+install_callback
 )
     
 def
