@@ -5343,9 +5343,9 @@ if
 mEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 {
 return
@@ -5397,9 +5397,9 @@ return
 mEvent
 -
 >
-mFlags
-.
-mDefaultPreventedByContent
+DefaultPreventedByContent
+(
+)
 |
 |
 IsChrome

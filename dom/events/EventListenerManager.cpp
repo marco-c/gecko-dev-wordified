@@ -7078,9 +7078,9 @@ if
 aEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 &
 &
 *
@@ -7861,9 +7861,9 @@ if
 aEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 {
 *

@@ -11179,9 +11179,9 @@ mFrameElement
 localEvent
 aEvent
 .
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 ;
 }

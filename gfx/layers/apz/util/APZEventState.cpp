@@ -2000,9 +2000,9 @@ defaultPrevented
 =
 aEvent
 .
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 |
 |
 aEvent

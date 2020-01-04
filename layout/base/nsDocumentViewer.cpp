@@ -6642,9 +6642,9 @@ WidgetEventPtr
 )
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 |
 |
 !

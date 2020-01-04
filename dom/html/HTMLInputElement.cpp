@@ -20603,9 +20603,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 {
 return
@@ -22047,9 +22047,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mDefaultPreventedByContent
+DefaultPreventedByContent
+(
+)
 &
 &
 IsMutable
