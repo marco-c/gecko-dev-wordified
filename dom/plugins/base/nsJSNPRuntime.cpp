@@ -3333,6 +3333,10 @@ else
 JS_ReportErrorASCII
 (
 cx
+"
+%
+s
+"
 message
 )
 ;

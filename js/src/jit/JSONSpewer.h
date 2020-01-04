@@ -226,6 +226,11 @@ format
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 void
 stringProperty
@@ -241,6 +246,11 @@ format
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+3
+4
 )
 ;
 void

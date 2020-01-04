@@ -1365,6 +1365,11 @@ message
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 void
 trackActionableAbort

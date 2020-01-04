@@ -725,6 +725,9 @@ s
 )
 "
 format
+(
+unsigned
+)
 result
 name
 )
@@ -742,6 +745,9 @@ s
 x
 "
 format
+(
+unsigned
+)
 result
 )
 ;
