@@ -526,10 +526,6 @@ enhancedContrast
 ;
 }
 ;
-extern
-bool
-gANGLESupportsD3D11
-;
 class
 gfxWindowsPlatform
 :
@@ -1377,12 +1373,6 @@ true
 }
 bool
 SupportsPluginDirectDXGIDrawing
-(
-)
-;
-virtual
-bool
-CanUseDirect3D11ANGLE
 (
 )
 ;
