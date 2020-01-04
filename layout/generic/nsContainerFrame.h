@@ -3725,11 +3725,7 @@ aIncrement
 bool
 aForCounting
 )
-{
-return
-false
 ;
-}
 #
 define
 NS_DECLARE_FRAME_PROPERTY_FRAMELIST
