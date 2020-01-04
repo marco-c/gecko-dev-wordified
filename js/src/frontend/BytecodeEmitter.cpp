@@ -8665,7 +8665,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 /
 *
@@ -11649,7 +11649,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 case
 Definition

@@ -2380,7 +2380,7 @@ frontend
 Definition
 :
 :
-CONST
+CONSTANT
 )
 ;
 }
@@ -3007,7 +3007,7 @@ frontend
 Definition
 :
 :
-CONST
+CONSTANT
 )
 ;
 return
