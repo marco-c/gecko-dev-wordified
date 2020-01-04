@@ -633,6 +633,12 @@ SAMSUNG_MANUFACTURER
 &
 &
 cursor
+!
+=
+null
+&
+&
+cursor
 .
 getCount
 (
