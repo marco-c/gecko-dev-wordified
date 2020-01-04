@@ -254,13 +254,6 @@ nsPrintfCString
 .
 h
 "
-#
-include
-"
-VideoFrameContainer
-.
-h
-"
 using
 namespace
 mozilla
