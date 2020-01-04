@@ -413,8 +413,6 @@ marionette
 content
 /
 frame
--
-manager
 .
 js
 "
