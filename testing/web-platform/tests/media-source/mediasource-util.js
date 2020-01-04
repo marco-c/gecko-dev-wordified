@@ -2834,6 +2834,17 @@ i
 +
 +
 ;
+if
+(
+i
+<
+segmentInfo
+.
+media
+.
+length
+)
+{
 MediaSourceUtil
 .
 append
@@ -2855,6 +2866,7 @@ i
 onAppendDone
 )
 ;
+}
 }
 ;
 MediaSourceUtil
