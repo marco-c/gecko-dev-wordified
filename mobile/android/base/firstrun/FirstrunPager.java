@@ -659,7 +659,7 @@ animateLoad
 }
 public
 void
-hide
+cleanup
 (
 )
 {
@@ -780,7 +780,7 @@ start
 )
 ;
 }
-private
+protected
 class
 ViewPagerAdapter
 extends
