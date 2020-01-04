@@ -113,7 +113,7 @@ class
 T
 >
 inline
-NS_METHOD
+nsresult
 StabilizedQueryInterface
 (
 T
@@ -153,7 +153,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 CreateMultiTableDecoder
 (
 int32_t
@@ -220,7 +220,7 @@ aResult
 )
 ;
 }
-NS_METHOD
+nsresult
 CreateMultiTableEncoder
 (
 int32_t
@@ -287,7 +287,7 @@ aResult
 )
 ;
 }
-NS_METHOD
+nsresult
 CreateMultiTableEncoder
 (
 int32_t
@@ -326,7 +326,7 @@ aResult
 )
 ;
 }
-NS_METHOD
+nsresult
 CreateTableEncoder
 (
 uScanClassID
@@ -387,7 +387,7 @@ aResult
 )
 ;
 }
-NS_METHOD
+nsresult
 CreateTableEncoder
 (
 uScanClassID
@@ -421,7 +421,7 @@ aResult
 )
 ;
 }
-NS_METHOD
+nsresult
 CreateOneByteDecoder
 (
 uMappingTable
