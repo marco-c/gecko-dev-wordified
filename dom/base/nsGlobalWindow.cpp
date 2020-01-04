@@ -3875,6 +3875,10 @@ mDesktopModeViewport
 (
 false
 )
+mIsRootOuterWindow
+(
+false
+)
 mInnerWindow
 (
 nullptr
@@ -18782,6 +18786,10 @@ AsOuter
 (
 )
 )
+;
+mIsRootOuterWindow
+=
+true
 ;
 }
 }
