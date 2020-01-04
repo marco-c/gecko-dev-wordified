@@ -4076,11 +4076,6 @@ WrapForJNI
 allowMultithread
 =
 true
-stubName
-=
-"
-updateZoomedView
-"
 )
 public
 static
