@@ -8187,6 +8187,7 @@ mWasMatched
 =
 true
 ;
+}
 mDeclaration
 -
 >
@@ -8194,7 +8195,6 @@ SetImmutable
 (
 )
 ;
-}
 }
 /
 *
