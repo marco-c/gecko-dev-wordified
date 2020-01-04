@@ -6651,7 +6651,7 @@ useShellExp
 NULL
 !
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_USE_SHEXP_IN_CERT_NAME

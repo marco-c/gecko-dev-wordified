@@ -11717,7 +11717,7 @@ initialized
 if
 (
 !
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_ALLOW_WEAK_SIGNATURE_ALG
@@ -11839,7 +11839,7 @@ NSS_USE_POLICY_IN_SSL
 ;
 envVal
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_HASH_ALG_SUPPORT

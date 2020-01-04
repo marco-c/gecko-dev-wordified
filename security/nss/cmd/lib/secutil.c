@@ -2206,7 +2206,7 @@ sslDir
 ;
 dir
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 SSL_DIR
@@ -2411,7 +2411,7 @@ base
 {
 home
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 HOME

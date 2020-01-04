@@ -67114,7 +67114,7 @@ if
 (
 testdir
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NISCC_TEST
@@ -67181,7 +67181,7 @@ if
 (
 startat
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 START_AT
@@ -67207,7 +67207,7 @@ if
 (
 stopat
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 STOP_AT

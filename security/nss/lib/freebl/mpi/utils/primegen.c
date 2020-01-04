@@ -308,7 +308,7 @@ if
 (
 out
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SEED

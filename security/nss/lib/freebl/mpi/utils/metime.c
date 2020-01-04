@@ -163,7 +163,7 @@ c
 ;
 if
 (
-getenv
+PR_GetEnvSecure
 (
 "
 SEED
@@ -179,7 +179,7 @@ abs
 (
 atoi
 (
-getenv
+PR_GetEnvSecure
 (
 "
 SEED

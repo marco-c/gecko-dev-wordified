@@ -1354,7 +1354,7 @@ attrs
 ;
 if
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_USE_DECODED_CKA_EC_POINT

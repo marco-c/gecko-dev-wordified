@@ -794,7 +794,7 @@ char
 *
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_TRACE_OCSP

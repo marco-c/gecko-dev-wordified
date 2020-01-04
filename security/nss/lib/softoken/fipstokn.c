@@ -2859,7 +2859,7 @@ if
 (
 envp
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_ENABLE_AUDIT

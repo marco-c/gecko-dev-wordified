@@ -2234,7 +2234,7 @@ _PR_UNIX_TicksPerSecond
 endif
 #
 ifdef
-HAVE_CLOCK_MONOTONIC
+_PR_HAVE_CLOCK_MONOTONIC
 extern
 PRIntervalTime
 _PR_UNIX_GetInterval2

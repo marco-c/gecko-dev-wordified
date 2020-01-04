@@ -10252,7 +10252,7 @@ envString
 {
 envString
 =
-getenv
+PR_GetEnvSecure
 (
 envVarName
 )
@@ -11762,7 +11762,7 @@ SID_LOCK_EXPIRATION_TIMEOUT
 ;
 timeoutString
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_SSL_SERVER_CACHE_MUTEX_TIMEOUT

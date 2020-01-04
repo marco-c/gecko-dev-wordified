@@ -395,7 +395,7 @@ ifdef
 DEBUG
 if
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_SHUTDOWN

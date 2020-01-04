@@ -167,6 +167,13 @@ prprf
 .
 h
 "
+#
+include
+"
+prenv
+.
+h
+"
 size_t
 RNG_FileUpdate
 (
@@ -4818,7 +4825,7 @@ rng
 /
 randfile
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSRANDFILE
@@ -4853,7 +4860,7 @@ char
 *
 randCountString
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSRANDCOUNT
@@ -5983,7 +5990,7 @@ NULL
 {
 dir
 =
-getenv
+PR_GetEnvSecure
 (
 "
 HOME

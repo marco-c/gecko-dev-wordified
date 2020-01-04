@@ -1521,11 +1521,15 @@ nextqp
 PRPollDesc
 *
 pollfds
+=
+NULL
 ;
 PRJob
 *
 *
 polljobs
+=
+NULL
 ;
 int
 poll_timeout

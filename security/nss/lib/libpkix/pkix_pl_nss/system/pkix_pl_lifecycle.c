@@ -711,7 +711,7 @@ PKIX_ALLOC_ERROR
 }
 if
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_SHUTDOWN
@@ -1299,7 +1299,7 @@ NULL
 ;
 if
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_SHUTDOWN

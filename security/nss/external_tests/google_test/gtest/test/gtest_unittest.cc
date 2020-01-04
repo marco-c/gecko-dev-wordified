@@ -3121,7 +3121,7 @@ GTEST_DISABLE_MSC_WARNINGS_PUSH_
 4996
 /
 *
-getenv
+PR_GetEnvSecure
 strdup
 :
 deprecated
@@ -3130,7 +3130,7 @@ deprecated
 )
 if
 (
-getenv
+PR_GetEnvSecure
 (
 "
 TZ
@@ -3141,7 +3141,7 @@ saved_tz_
 =
 strdup
 (
-getenv
+PR_GetEnvSecure
 (
 "
 TZ

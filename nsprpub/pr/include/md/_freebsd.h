@@ -236,6 +236,18 @@ powerpc
 elif
 defined
 (
+__aarch64__
+)
+#
+define
+_PR_SI_ARCHITECTURE
+"
+aarch64
+"
+#
+elif
+defined
+(
 __arm__
 )
 #
@@ -1249,7 +1261,7 @@ _MD_FINAL_INIT
 _PR_UnixInit
 #
 define
-_MD_INTERVAL_USE_GTOD
+_PR_HAVE_CLOCK_MONOTONIC
 /
 *
 *

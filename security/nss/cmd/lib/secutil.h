@@ -857,7 +857,7 @@ filename
 Returns
 result
 of
-getenv
+PR_GetEnvSecure
 (
 "
 SSL_DIR

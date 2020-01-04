@@ -6436,7 +6436,7 @@ argv
 ;
 tmp
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DEBUG_TIMEOUT
