@@ -2286,7 +2286,7 @@ typedef
 mozilla
 :
 :
-ipc
+dom
 :
 :
 OptionalFileDescriptorSet
