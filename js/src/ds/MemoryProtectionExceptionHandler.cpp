@@ -1198,6 +1198,8 @@ n
 MOZ_CRASH_ANNOTATE
 (
 "
+MOZ_CRASH
+(
 Tried
 to
 access
@@ -1205,6 +1207,7 @@ a
 protected
 region
 !
+)
 "
 )
 ;
@@ -1616,6 +1619,8 @@ n
 MOZ_CRASH_ANNOTATE
 (
 "
+MOZ_CRASH
+(
 Tried
 to
 access
@@ -1623,6 +1628,7 @@ a
 protected
 region
 !
+)
 "
 )
 ;
@@ -3677,6 +3683,8 @@ n
 MOZ_CRASH_ANNOTATE
 (
 "
+MOZ_CRASH
+(
 Tried
 to
 access
@@ -3684,6 +3692,7 @@ a
 protected
 region
 !
+)
 "
 )
 ;
