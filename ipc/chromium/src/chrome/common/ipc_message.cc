@@ -550,12 +550,15 @@ char
 data
 int
 data_len
+Ownership
+ownership
 )
 :
 Pickle
 (
 data
 data_len
+ownership
 )
 {
 MOZ_COUNT_CTOR

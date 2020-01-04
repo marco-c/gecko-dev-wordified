@@ -480,11 +480,11 @@ virtual
 void
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 msg
 )
@@ -692,11 +692,11 @@ virtual
 void
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 msg
 )

@@ -355,11 +355,11 @@ ChildThread
 :
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 msg
 )

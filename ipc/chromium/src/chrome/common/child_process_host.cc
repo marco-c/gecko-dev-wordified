@@ -944,11 +944,11 @@ ListenerHook
 :
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 msg
 )
@@ -974,7 +974,13 @@ host_
 >
 OnMessageReceived
 (
+mozilla
+:
+:
+Move
+(
 msg
+)
 )
 ;
 }

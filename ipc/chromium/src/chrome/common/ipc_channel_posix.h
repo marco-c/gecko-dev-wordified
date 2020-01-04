@@ -95,6 +95,15 @@ include
 "
 base
 /
+buffer
+.
+h
+"
+#
+include
+"
+base
+/
 message_loop
 .
 h
@@ -873,10 +882,7 @@ using
 this
 buffer
 .
-std
-:
-:
-string
+Buffer
 input_overflow_buf_
 ;
 std

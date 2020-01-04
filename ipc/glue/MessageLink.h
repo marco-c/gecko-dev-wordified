@@ -1124,8 +1124,8 @@ virtual
 void
 OnMessageReceived
 (
-const
 Message
+&
 &
 msg
 )
