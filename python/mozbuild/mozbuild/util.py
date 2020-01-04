@@ -578,6 +578,16 @@ self
 is
 other
 or
+(
+            
+hasattr
+(
+other
+'
+__dict__
+'
+)
+and
 self
 .
 __dict__
@@ -586,6 +596,7 @@ __dict__
 other
 .
 __dict__
+)
     
 def
 __repr__
