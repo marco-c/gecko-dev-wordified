@@ -750,11 +750,8 @@ false
 private
 :
 void
-GetManifestURLByType
+GetManifestURL
 (
-nsIAtom
-*
-aAppType
 nsAString
 &
 aOut

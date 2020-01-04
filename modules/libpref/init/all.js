@@ -11776,9 +11776,6 @@ permissions
 embed
 -
 apps
-embed
--
-widgets
 "
 )
 ;
