@@ -997,7 +997,7 @@ searchDrawable
 =
 DrawableUtil
 .
-tintDrawable
+tintDrawableWithColorRes
 (
 getContext
 (
@@ -1024,7 +1024,7 @@ searchDrawable
 =
 DrawableUtil
 .
-tintDrawable
+tintDrawableWithColorRes
 (
 getContext
 (
