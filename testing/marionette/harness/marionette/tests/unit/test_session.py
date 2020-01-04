@@ -201,16 +201,6 @@ self
 assertIn
 (
 "
-device
-"
-caps
-)
-        
-self
-.
-assertIn
-(
-"
 rotatable
 "
 caps
