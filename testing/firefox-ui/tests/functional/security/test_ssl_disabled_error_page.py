@@ -292,9 +292,11 @@ find_element
 (
 By
 .
-ID
+CLASS_NAME
 '
-errorTitleText
+title
+-
+text
 '
 )
             

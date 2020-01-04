@@ -263,7 +263,7 @@ By
 .
 ID
 '
-technicalContentText
+badCertTechnicalInfo
 '
 )
             
