@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsITCPSocketCallback
+.
+h
+"
+#
+include
+"
 TCPSocket
 .
 h
@@ -516,7 +523,7 @@ TCPSocketChild
 :
 SendOpen
 (
-TCPSocket
+nsITCPSocketCallback
 *
 aSocket
 bool
@@ -561,7 +568,7 @@ TCPSocketChild
 :
 SendWindowlessOpenBind
 (
-TCPSocket
+nsITCPSocketCallback
 *
 aSocket
 const
@@ -853,9 +860,8 @@ TArrayOfuint8_t
 mSocket
 -
 >
-FireDataEvent
+FireDataArrayEvent
 (
-cx
 aType
 data
 .
@@ -884,7 +890,7 @@ TnsCString
 mSocket
 -
 >
-FireDataEvent
+FireDataStringEvent
 (
 aType
 data
