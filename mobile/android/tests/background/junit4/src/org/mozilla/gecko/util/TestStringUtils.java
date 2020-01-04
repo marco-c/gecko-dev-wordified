@@ -99,13 +99,6 @@ gecko
 util
 ;
 import
-junit
-.
-framework
-.
-Assert
-;
-import
 org
 .
 junit
@@ -185,8 +178,6 @@ testIsHttpOrHttps
 /
 No
 value
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -197,8 +188,6 @@ null
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -213,8 +202,6 @@ isHttpOrHttps
 /
 /
 Garbage
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -361,8 +348,6 @@ products
 /
 Other
 protocols
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -383,8 +368,6 @@ org
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -403,8 +386,6 @@ com
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -425,8 +406,6 @@ tel
 /
 No
 scheme
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -441,8 +420,6 @@ com
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
