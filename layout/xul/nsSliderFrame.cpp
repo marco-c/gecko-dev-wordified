@@ -1757,7 +1757,7 @@ m
 nsRect
 crect
 ;
-GetClientRect
+GetXULClientRect
 (
 crect
 )
@@ -2187,7 +2187,7 @@ borders
 nsRect
 clientRect
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )
@@ -4269,7 +4269,7 @@ GetRect
 nsRect
 clientRect
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )
@@ -4727,7 +4727,7 @@ aMaySnap
 nsRect
 crect
 ;
-GetClientRect
+GetXULClientRect
 (
 crect
 )
@@ -7263,7 +7263,7 @@ MOZ_WIDGET_GTK
 nsRect
 clientRect
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )

@@ -1045,7 +1045,7 @@ nsresult
 nsIFrame
 :
 :
-GetClientRect
+GetXULClientRect
 (
 nsRect
 &

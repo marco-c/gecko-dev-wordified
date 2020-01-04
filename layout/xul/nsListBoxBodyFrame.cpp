@@ -5087,7 +5087,7 @@ rect
 nsRect
 clientRect
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )
