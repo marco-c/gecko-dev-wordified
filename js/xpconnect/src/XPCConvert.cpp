@@ -9730,6 +9730,9 @@ pErr
 )
 ;
 }
+bool
+isArray
+;
 if
 (
 !
@@ -9737,7 +9740,13 @@ JS_IsArrayObject
 (
 cx
 jsarray
+&
+isArray
 )
+|
+|
+!
+isArray
 )
 {
 if

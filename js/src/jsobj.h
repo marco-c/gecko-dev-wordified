@@ -4219,7 +4219,7 @@ see
 js
 :
 :
-ObjectClassIs
+GetBuiltinClass
 )
 .
 *
