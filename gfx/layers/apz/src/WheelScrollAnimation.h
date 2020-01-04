@@ -138,6 +138,9 @@ namespace
 layers
 {
 class
+AsyncPanZoomController
+;
+class
 WheelScrollAnimation
 :
 public

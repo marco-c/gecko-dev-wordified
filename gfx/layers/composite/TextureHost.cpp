@@ -111,6 +111,13 @@ CompositableHost
 #
 include
 "
+LayerScope
+.
+h
+"
+#
+include
+"
 LayersLogging
 .
 h
@@ -313,6 +320,13 @@ include
 opengl
 /
 CompositorOGL
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "

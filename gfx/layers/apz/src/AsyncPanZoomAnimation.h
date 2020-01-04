@@ -147,6 +147,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 FrameMetrics
 .
 h
