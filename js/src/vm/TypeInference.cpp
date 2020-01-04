@@ -16002,12 +16002,6 @@ script
 ;
 CancelOffThreadIonCompile
 (
-cx
--
->
-compartment
-(
-)
 script
 )
 ;
