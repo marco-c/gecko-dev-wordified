@@ -267,6 +267,12 @@ T
 ;
 WeakCache
 (
+)
+=
+delete
+;
+WeakCache
+(
 const
 WeakCache
 &
@@ -294,6 +300,11 @@ cache
 ;
 public
 :
+using
+Type
+=
+T
+;
 template
 <
 typename
