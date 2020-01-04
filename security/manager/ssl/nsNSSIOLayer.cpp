@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsArray
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h
