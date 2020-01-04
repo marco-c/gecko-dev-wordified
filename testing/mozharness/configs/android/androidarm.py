@@ -785,6 +785,18 @@ fonts
 "
 -
 -
+extra
+-
+profile
+-
+file
+=
+hyphenation
+"
+                
+"
+-
+-
 screenshot
 -
 on
@@ -1722,6 +1734,18 @@ profile
 file
 =
 fonts
+"
+                
+"
+-
+-
+extra
+-
+profile
+-
+file
+=
+hyphenation
 "
                 
 "
