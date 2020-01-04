@@ -16231,6 +16231,16 @@ return
 sSVGTransformBoxEnabled
 ;
 }
+static
+bool
+TextCombineUprightDigitsEnabled
+(
+)
+{
+return
+sTextCombineUprightDigitsEnabled
+;
+}
 /
 *
 *
@@ -18995,6 +19005,10 @@ sInterruptibleReflowEnabled
 static
 bool
 sSVGTransformBoxEnabled
+;
+static
+bool
+sTextCombineUprightDigitsEnabled
 ;
 /
 *
