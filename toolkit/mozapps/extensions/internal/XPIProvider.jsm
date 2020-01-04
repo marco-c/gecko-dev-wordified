@@ -25803,6 +25803,11 @@ addon
 wrapper
 )
 ;
+return
+addon
+.
+wrapper
+;
 }
 )
 /
