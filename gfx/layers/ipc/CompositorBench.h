@@ -170,7 +170,7 @@ const
 gfx
 :
 :
-Rect
+IntRect
 &
 aScreenRect
 )
@@ -189,7 +189,7 @@ const
 gfx
 :
 :
-Rect
+IntRect
 &
 aScreenRect
 )

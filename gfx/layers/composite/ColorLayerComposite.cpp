@@ -293,7 +293,7 @@ EffectChain
 &
 effectChain
 const
-Rect
+IntRect
 &
 clipRect
 )
@@ -330,10 +330,7 @@ DiagnosticFlags
 :
 COLOR
 rect
-Rect
-(
 aClipRect
-)
 transform
 )
 ;

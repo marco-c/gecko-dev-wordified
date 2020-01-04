@@ -2414,10 +2414,10 @@ FontWidth
 FontHeight
 )
 ;
-Rect
+IntRect
 clipRect
 =
-Rect
+IntRect
 (
 0
 0
