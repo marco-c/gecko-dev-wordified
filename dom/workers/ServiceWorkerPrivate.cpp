@@ -4477,10 +4477,10 @@ uri
 ;
 rv
 =
-channel
+mInterceptedChannel
 -
 >
-GetURI
+GetSecureUpgradedChannelURI
 (
 getter_AddRefs
 (
