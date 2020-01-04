@@ -2603,7 +2603,7 @@ actor
 "
 server1
 .
-conn7
+conn8
 .
 child1
 /
@@ -2792,7 +2792,7 @@ actor
 "
 server1
 .
-conn7
+conn8
 .
 child1
 /
@@ -3428,7 +3428,7 @@ functionName
 :
 \
 "
-bar
+testStacktraceFiltering
 \
 "
 \
@@ -3731,7 +3731,7 @@ functionName
 "
 :
 "
-bar
+testStacktraceFiltering
 "
 "
 language
@@ -4282,9 +4282,9 @@ messageText
 "
 bar
 :
-2
+3
 .
-96ms
+28ms
 "
 "
 parameters
@@ -4361,9 +4361,9 @@ messageText
 "
 bar
 :
-2
+3
 .
-96ms
+28ms
 \
 "
 \
@@ -4706,7 +4706,7 @@ styles
 timeStamp
 "
 :
-1472787300416
+1473960299850
 "
 timer
 "
@@ -4912,7 +4912,7 @@ styles
 timeStamp
 "
 :
-1472787301216
+1473960301470
 "
 timer
 "
@@ -5120,7 +5120,7 @@ styles
 timeStamp
 "
 :
-1472787301959
+1473960302855
 "
 timer
 "
@@ -5326,7 +5326,7 @@ styles
 timeStamp
 "
 :
-1472787302818
+1473960304360
 "
 timer
 "
@@ -5532,7 +5532,7 @@ styles
 timeStamp
 "
 :
-1472787303791
+1473960305590
 "
 timer
 "
@@ -5732,7 +5732,7 @@ styles
 timeStamp
 "
 :
-1473786764817
+1473960307139
 "
 timer
 "
@@ -5922,7 +5922,7 @@ false
 timeStamp
 "
 :
-1472787304607
+1473960309103
 "
 timer
 "
@@ -5974,7 +5974,7 @@ from
 "
 server1
 .
-conn6
+conn7
 .
 child1
 /
@@ -6137,7 +6137,7 @@ false
 timeStamp
 "
 :
-1472787305395
+1473960310581
 "
 timer
 "
@@ -6194,7 +6194,7 @@ from
 "
 server1
 .
-conn7
+conn8
 .
 child1
 /
@@ -6232,7 +6232,7 @@ actor
 "
 server1
 .
-conn7
+conn8
 .
 child1
 /
@@ -6454,7 +6454,7 @@ styles
 timeStamp
 "
 :
-1472787306558
+1473960312535
 "
 timer
 "
@@ -6568,7 +6568,7 @@ from
 "
 server1
 .
-conn8
+conn9
 .
 child1
 /
@@ -6648,7 +6648,7 @@ functionName
 "
 :
 "
-bar
+testStacktraceFiltering
 "
 "
 groupName
@@ -6715,7 +6715,7 @@ false
 timeStamp
 "
 :
-1472787307887
+1473960313762
 "
 timer
 "
@@ -6778,7 +6778,7 @@ functionName
 "
 :
 "
-bar
+testStacktraceFiltering
 "
 "
 language
@@ -6968,7 +6968,7 @@ from
 "
 server1
 .
-conn9
+conn10
 .
 child1
 /
@@ -7118,7 +7118,7 @@ false
 timeStamp
 "
 :
-1472787308764
+1473960315572
 "
 timer
 "
@@ -7135,9 +7135,9 @@ bar
 started
 "
 :
-726
+1649
 .
-395
+7450000000001
 }
 "
 workerType
@@ -7185,7 +7185,7 @@ from
 "
 server1
 .
-conn9
+conn10
 .
 child1
 /
@@ -7335,7 +7335,7 @@ false
 timeStamp
 "
 :
-1472787308767
+1473960315576
 "
 timer
 "
@@ -7345,9 +7345,9 @@ timer
 duration
 "
 :
-2
+3
 .
-9600000000000364
+2849999999998545
 "
 name
 "

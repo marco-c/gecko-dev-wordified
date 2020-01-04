@@ -1096,7 +1096,7 @@ text
 toBe
 (
 "
-bar
+testStacktraceFiltering
 "
 )
 ;
