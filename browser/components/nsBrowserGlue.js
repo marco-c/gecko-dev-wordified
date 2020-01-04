@@ -7520,6 +7520,8 @@ devicePixelRatio
 *
 100
 ;
+try
+{
 Services
 .
 telemetry
@@ -7534,6 +7536,13 @@ add
 scaling
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 }
 /
