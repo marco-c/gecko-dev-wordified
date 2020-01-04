@@ -93,6 +93,10 @@ Interpreter
 import
 mozilla
 .
+IonGraph
+import
+mozilla
+.
 JSObject
 import
 mozilla
