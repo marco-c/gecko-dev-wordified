@@ -570,6 +570,16 @@ ivf
 "
 VPX_CODEC_CORRUPT_FRAME
 }
+{
+"
+test_case_1224369
+.
+vp8
+.
+ivf
+"
+VPX_CODEC_CORRUPT_FRAME
+}
 }
 ;
 TEST
