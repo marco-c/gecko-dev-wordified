@@ -20516,7 +20516,7 @@ void
 NativeObject
 :
 :
-growSlotsStatic
+growSlotsDontReportOOM
 )
 )
 ;
