@@ -1250,6 +1250,12 @@ availTop
 }
 }
 ;
+yield
+awaitBrowserLoaded
+(
+browser
+)
+;
 /
 /
 Wait
