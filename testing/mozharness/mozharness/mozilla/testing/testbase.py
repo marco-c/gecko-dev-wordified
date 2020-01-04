@@ -3598,7 +3598,7 @@ _download_test_packages
 (
 self
 suite_categories
-target_unzip_dirs
+extract_dirs
 )
 :
         
@@ -3894,9 +3894,9 @@ target_dir
 =
 test_install_dir
                 
-unzip_dirs
+unpack_dirs
 =
-target_unzip_dirs
+extract_dirs
                 
 if
 "
@@ -3933,7 +3933,7 @@ file
 "
 )
                     
-unzip_dirs
+unpack_dirs
 =
 None
                     
@@ -3957,21 +3957,21 @@ file_name
                 
 self
 .
-download_unzip
+download_unpack
 (
 url
 target_dir
                                      
-target_unzip_dirs
+extract_dirs
 =
-unzip_dirs
+unpack_dirs
 )
     
 def
 _download_test_zip
 (
 self
-target_unzip_dirs
+extract_dirs
 =
 None
 )
@@ -4015,16 +4015,16 @@ tests
         
 self
 .
-download_unzip
+download_unpack
 (
 self
 .
 test_url
 test_install_dir
                              
-target_unzip_dirs
+extract_dirs
 =
-target_unzip_dirs
+extract_dirs
 )
     
 def
@@ -4412,7 +4412,7 @@ True
         
 self
 .
-download_unzip
+download_unpack
 (
 self
 .
@@ -4426,7 +4426,7 @@ def
 download_and_extract
 (
 self
-target_unzip_dirs
+extract_dirs
 =
 None
 suite_categories
@@ -4666,7 +4666,7 @@ self
 .
 _download_test_zip
 (
-target_unzip_dirs
+extract_dirs
 )
         
 else
@@ -4768,7 +4768,7 @@ self
 _download_test_packages
 (
 suite_categories
-target_unzip_dirs
+extract_dirs
 )
         
 self

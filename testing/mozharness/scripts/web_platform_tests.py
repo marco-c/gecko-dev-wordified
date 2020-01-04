@@ -1375,7 +1375,7 @@ self
 download_and_extract
 (
             
-target_unzip_dirs
+extract_dirs
 =
 [
 "
@@ -1383,25 +1383,25 @@ bin
 /
 *
 "
-                               
+                          
 "
 config
 /
 *
 "
-                               
+                          
 "
 mozbase
 /
 *
 "
-                               
+                          
 "
 marionette
 /
 *
 "
-                               
+                          
 "
 tools
 /
@@ -1409,7 +1409,7 @@ wptserve
 /
 *
 "
-                               
+                          
 "
 web
 -
