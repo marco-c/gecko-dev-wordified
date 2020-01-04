@@ -1825,10 +1825,7 @@ layer
 .
 *
 /
-gfx
-:
-:
-Matrix4x4
+LayerToParentLayerMatrix4x4
 mTransformToCompBounds
 ;
 /

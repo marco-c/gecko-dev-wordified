@@ -1136,7 +1136,13 @@ UntransformTo
 LayerPixel
 >
 (
+ViewAs
+<
+LayerToParentLayerMatrix4x4
+>
+(
 localTransform
+)
 .
 Inverse
 (

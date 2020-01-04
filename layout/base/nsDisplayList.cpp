@@ -8027,7 +8027,7 @@ IsForPainting
 return
 ;
 }
-Matrix4x4
+LayoutDeviceToLayoutDeviceMatrix4x4
 referenceFrameToRootReferenceFrame
 ;
 /
@@ -8111,6 +8111,11 @@ region
 .
 referenceFrameToRootReferenceFrame
 =
+ViewAs
+<
+LayoutDeviceToLayoutDeviceMatrix4x4
+>
+(
 nsLayoutUtils
 :
 :
@@ -8118,6 +8123,7 @@ GetTransformToAncestor
 (
 referenceFrame
 mReferenceFrame
+)
 )
 ;
 Matrix

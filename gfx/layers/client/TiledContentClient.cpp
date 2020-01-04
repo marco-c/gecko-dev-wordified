@@ -9363,7 +9363,7 @@ LayerMetricsWrapper
 &
 aScrollAncestor
 const
-Matrix4x4
+LayerToParentLayerMatrix4x4
 &
 aTransformToCompBounds
 const
@@ -9376,12 +9376,15 @@ LayerRect
 aClip
 )
 {
-Matrix4x4
+LayerToParentLayerMatrix4x4
 transform
 =
 aTransformToCompBounds
 *
-Matrix4x4
+ViewAs
+<
+ParentLayerToParentLayerMatrix4x4
+>
 (
 aAPZTransform
 )

@@ -2148,7 +2148,7 @@ InputData
 &
 aEvent
 const
-Matrix4x4
+ScreenToParentLayerMatrix4x4
 &
 aTransformToApzc
 )
@@ -2605,7 +2605,7 @@ lock
 .
 *
 /
-Matrix4x4
+ScreenToParentLayerMatrix4x4
 GetTransformToThis
 (
 )
