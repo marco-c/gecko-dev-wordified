@@ -326,7 +326,23 @@ opt
 '
 linux64
 -
+ccov
+-
+opt
+'
+    
+'
+linux64
+-
 debug
+'
+    
+'
+linux64
+-
+jsdcov
+-
+opt
 '
     
 '

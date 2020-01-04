@@ -87,7 +87,7 @@ stage_platform
 '
 linux64
 -
-cc
+ccov
 '
     
 '
