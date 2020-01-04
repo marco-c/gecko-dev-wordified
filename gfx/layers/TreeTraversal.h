@@ -117,12 +117,6 @@ mozilla_layers_TreeTraversal_h
 #
 define
 mozilla_layers_TreeTraversal_h
-namespace
-mozilla
-{
-namespace
-layers
-{
 #
 include
 <
@@ -133,6 +127,12 @@ include
 <
 stack
 >
+namespace
+mozilla
+{
+namespace
+layers
+{
 /
 *
 *
