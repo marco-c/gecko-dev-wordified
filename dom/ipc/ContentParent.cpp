@@ -30758,6 +30758,9 @@ nsIProfilerStartParams
 aParams
 )
 {
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 NS_WARN_IF
@@ -30841,6 +30844,8 @@ SendStartProfiler
 ipcParams
 )
 ;
+#
+endif
 }
 }
 /
