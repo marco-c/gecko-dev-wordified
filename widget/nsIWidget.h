@@ -7593,9 +7593,6 @@ type
 (
 currently
 only
-NS_THEME_MOZ_MAC_UNIFIED_TOOLBAR
-and
-*
 NS_THEME_TOOLBAR
 )
 within
@@ -7603,11 +7600,11 @@ the
 window
 except
 for
+*
 themed
 widgets
 which
 are
-*
 transformed
 or
 have
@@ -7615,6 +7612,7 @@ effects
 applied
 to
 them
+*
 (
 e
 .
@@ -7623,7 +7621,6 @@ g
 CSS
 opacity
 or
-*
 filters
 )
 .

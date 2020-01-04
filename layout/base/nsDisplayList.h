@@ -3873,8 +3873,6 @@ values
 (
 currently
 only
-*
-NS_THEME_MOZ_MAC_UNIFIED_TOOLBAR
 NS_THEME_TOOLBAR
 and
 *
