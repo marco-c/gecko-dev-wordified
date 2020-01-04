@@ -1551,7 +1551,8 @@ aDataType
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 ConstrainPosition
 (
 bool

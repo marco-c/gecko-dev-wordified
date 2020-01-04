@@ -485,7 +485,8 @@ return
 mVisible
 ;
 }
-NS_IMETHOD
+virtual
+void
 ConstrainPosition
 (
 bool
@@ -513,9 +514,6 @@ kMaxDimension
 aY
 =
 kMaxDimension
-;
-return
-NS_OK
 ;
 }
 /

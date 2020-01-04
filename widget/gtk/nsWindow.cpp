@@ -4842,7 +4842,7 @@ Clear
 #
 endif
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4868,7 +4868,6 @@ mIsTopLevel
 mShell
 )
 return
-NS_OK
 ;
 double
 dpiScale
@@ -5028,7 +5027,6 @@ if
 screen
 )
 return
-NS_OK
 ;
 nsIntRect
 screenRect
@@ -5305,9 +5303,6 @@ YMost
 logHeight
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow

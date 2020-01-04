@@ -662,7 +662,8 @@ IsVisible
 const
 override
 ;
-NS_IMETHOD
+virtual
+void
 ConstrainPosition
 (
 bool

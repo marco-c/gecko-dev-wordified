@@ -9849,7 +9849,7 @@ return
 mIsVisible
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -9928,9 +9928,6 @@ aY
 0
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsWindow

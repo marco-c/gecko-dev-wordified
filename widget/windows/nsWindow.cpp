@@ -13702,7 +13702,7 @@ s
 device
 pixels
 .
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -13734,7 +13734,6 @@ top
 level
 windows
 return
-NS_OK
 ;
 double
 dpiScale
@@ -13860,7 +13859,6 @@ screenmgr
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
 ;
 }
 nsCOMPtr
@@ -13938,7 +13936,6 @@ rv
 )
 {
 return
-rv
 ;
 }
 }
@@ -13981,7 +13978,6 @@ rv
 )
 {
 return
-rv
 ;
 }
 }
@@ -14190,9 +14186,6 @@ bottom
 logHeight
 ;
 }
-return
-NS_OK
-;
 }
 /
 *
