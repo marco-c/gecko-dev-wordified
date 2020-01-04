@@ -314,7 +314,7 @@ surfPat
 =
 new
 (
-mColor
+mSurface
 )
 SurfacePattern
 (
@@ -352,7 +352,7 @@ LINEAR_GRADIENT
 :
 new
 (
-mColor
+mLinear
 )
 LinearGradientPattern
 (
@@ -379,7 +379,7 @@ RADIAL_GRADIENT
 :
 new
 (
-mColor
+mRadial
 )
 RadialGradientPattern
 (
@@ -411,7 +411,7 @@ Pattern
 *
 >
 (
-mColor
+mPattern
 )
 -
 >
@@ -435,7 +435,7 @@ Pattern
 *
 >
 (
-mColor
+mPattern
 )
 ;
 }
@@ -456,7 +456,7 @@ Pattern
 *
 >
 (
-mColor
+mPattern
 )
 ;
 }
@@ -509,6 +509,15 @@ this
 }
 union
 {
+char
+mPattern
+[
+sizeof
+(
+Pattern
+)
+]
+;
 char
 mColor
 [
