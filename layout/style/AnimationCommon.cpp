@@ -406,9 +406,11 @@ if
 aCreateIfNeeded
 &
 &
-mElementCollections
-.
-isEmpty
+!
+aElement
+-
+>
+MayHaveAnimations
 (
 )
 )
