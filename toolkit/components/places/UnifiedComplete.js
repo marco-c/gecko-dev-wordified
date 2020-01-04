@@ -768,7 +768,7 @@ matches
 const
 MINIMUM_LOCAL_MATCHES
 =
-5
+6
 ;
 /
 /
