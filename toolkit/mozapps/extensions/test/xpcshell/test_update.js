@@ -1399,9 +1399,14 @@ do_check_true
 isExtensionInAddonsList
 (
 profileDir
-olda1
+"
+addon1
+tests
 .
-id
+mozilla
+.
+org
+"
 )
 )
 ;
