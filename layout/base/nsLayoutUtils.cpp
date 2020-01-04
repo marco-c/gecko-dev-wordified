@@ -3327,7 +3327,7 @@ bool
 nsLayoutUtils
 :
 :
-HasCurrentAnimationOfProperty
+HasActiveAnimationOfProperty
 (
 const
 nsIFrame
@@ -3355,6 +3355,13 @@ return
 aEffect
 .
 IsCurrent
+(
+)
+&
+&
+aEffect
+.
+IsInEffect
 (
 )
 &
