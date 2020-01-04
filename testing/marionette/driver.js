@@ -5491,6 +5491,8 @@ type
 0
 )
 ;
+break
+;
 }
 }
 else
@@ -17912,8 +17914,6 @@ id
 full
 highlights
 )
-;
-break
 ;
 }
 }
