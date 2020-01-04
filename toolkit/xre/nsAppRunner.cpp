@@ -1211,17 +1211,12 @@ command_line
 h
 "
 #
-ifdef
-MOZ_ENABLE_TESTS
-#
 include
 "
 GTestRunner
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_B2G_LOADER
