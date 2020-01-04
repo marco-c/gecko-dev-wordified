@@ -521,7 +521,6 @@ BreakLabel
 Id
 InterruptCheckHead
 InterruptCheckLoop
-DebugCheckPoint
 I32Min
 I32Max
 /
