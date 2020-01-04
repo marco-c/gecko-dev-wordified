@@ -626,11 +626,6 @@ resolve
 .
 .
 /
-.
-.
-/
-gre
-/
 modules
 /
 XPCOMUtils
@@ -642,7 +637,7 @@ resource
 :
 /
 /
-thing
+gre
 /
 utils
 /
@@ -676,11 +671,6 @@ resolve
 .
 .
 /
-.
-.
-/
-gre
-/
 modules
 /
 XPCOMUtils
@@ -692,7 +682,7 @@ chrome
 :
 /
 /
-thing
+gre
 /
 utils
 /

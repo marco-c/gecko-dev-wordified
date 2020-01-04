@@ -1882,6 +1882,13 @@ traceback
 )
 :
         
+if
+not
+self
+.
+closed
+:
+            
 self
 .
 close
