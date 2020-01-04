@@ -5715,17 +5715,6 @@ established
 JSCList
 onNewGlobalObjectWatchers
 ;
-/
-*
-Client
-opaque
-pointers
-*
-/
-void
-*
-data
-;
 #
 if
 defined

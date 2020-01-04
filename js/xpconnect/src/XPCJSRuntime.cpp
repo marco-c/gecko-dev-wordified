@@ -10630,9 +10630,9 @@ PerThreadAtomCache
 *
 >
 (
-JS_GetRuntimePrivate
+JS_GetContextPrivate
 (
-Runtime
+Context
 (
 )
 )
@@ -10641,9 +10641,9 @@ Runtime
 delete
 rtPrivate
 ;
-JS_SetRuntimePrivate
+JS_SetContextPrivate
 (
-Runtime
+Context
 (
 )
 nullptr
@@ -23521,7 +23521,7 @@ mStrIDs
 JSID_VOID
 ;
 auto
-rtPrivate
+cxPrivate
 =
 new
 PerThreadAtomCache
@@ -23530,7 +23530,7 @@ PerThreadAtomCache
 ;
 memset
 (
-rtPrivate
+cxPrivate
 0
 sizeof
 (
@@ -23538,10 +23538,10 @@ PerThreadAtomCache
 )
 )
 ;
-JS_SetRuntimePrivate
+JS_SetContextPrivate
 (
-runtime
-rtPrivate
+cx
+cxPrivate
 )
 ;
 /

@@ -158,15 +158,6 @@ JSContext
 aCx
 )
 {
-JSRuntime
-*
-rt
-=
-JS_GetRuntime
-(
-aCx
-)
-;
 auto
 atomCache
 =
@@ -176,9 +167,9 @@ PerThreadAtomCache
 *
 >
 (
-JS_GetRuntimePrivate
+JS_GetContextPrivate
 (
-rt
+aCx
 )
 )
 ;

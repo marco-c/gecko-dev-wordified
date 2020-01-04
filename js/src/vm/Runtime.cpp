@@ -1082,10 +1082,6 @@ allowRelazificationForTesting
 (
 false
 )
-data
-(
-nullptr
-)
 defaultFreeOp_
 (
 thisFromCtor
