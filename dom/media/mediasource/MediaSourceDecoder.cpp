@@ -985,7 +985,10 @@ return
 buffered
 ;
 }
-void
+RefPtr
+<
+ShutdownPromise
+>
 MediaSourceDecoder
 :
 :
@@ -1048,6 +1051,7 @@ mDemuxer
 =
 nullptr
 ;
+return
 MediaDecoder
 :
 :

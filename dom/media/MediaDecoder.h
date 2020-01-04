@@ -2516,7 +2516,10 @@ this
 object
 .
 virtual
-void
+RefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
@@ -5569,7 +5572,10 @@ false
 )
 ;
 }
-void
+RefPtr
+<
+ShutdownPromise
+>
 FinishShutdown
 (
 )
