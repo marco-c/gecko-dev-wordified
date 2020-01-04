@@ -77,8 +77,6 @@ devtools
 shared
 /
 protocol
-.
-js
 "
 )
 ;

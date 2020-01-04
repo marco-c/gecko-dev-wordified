@@ -75,8 +75,6 @@ devtools
 shared
 /
 protocol
-.
-js
 "
 )
 ;
@@ -115,8 +113,6 @@ shared
 specs
 /
 stylesheets
-.
-js
 "
 )
 ;
@@ -163,8 +159,6 @@ sdk
 event
 /
 core
-.
-js
 "
 )
 ;
