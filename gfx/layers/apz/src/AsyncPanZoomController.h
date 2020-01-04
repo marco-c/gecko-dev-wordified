@@ -2104,8 +2104,6 @@ const
 ParentLayerPoint
 &
 aVelocity
-double
-aEstimatedPaintDuration
 )
 ;
 nsEventStatus

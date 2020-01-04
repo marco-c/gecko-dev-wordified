@@ -777,8 +777,6 @@ const
 ParentLayerPoint
 &
 aVelocity
-double
-aEstimatedPaintDuration
 )
 {
 return
@@ -789,7 +787,6 @@ CalculatePendingDisplayPort
 (
 aFrameMetrics
 aVelocity
-aEstimatedPaintDuration
 )
 ;
 }

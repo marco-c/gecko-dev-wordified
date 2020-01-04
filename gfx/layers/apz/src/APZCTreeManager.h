@@ -2485,8 +2485,6 @@ const
 ParentLayerPoint
 &
 aVelocity
-double
-aEstimatedPaintDuration
 )
 ;
 /
