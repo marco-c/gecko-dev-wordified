@@ -1202,10 +1202,18 @@ if
 !
 defined
 (
+LIBYUV_DISABLE_AVX2
+)
+&
+&
+!
+defined
+(
 LIBYUV_DISABLE_X86
 )
 &
 &
+\
 (
 defined
 (
@@ -1213,7 +1221,6 @@ VISUALC_HAS_AVX2
 )
 |
 |
-\
 defined
 (
 CLANG_HAS_AVX2
