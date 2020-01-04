@@ -653,6 +653,11 @@ isContentWindowPrivate
 json
 .
 isContentWindowPrivate
+originPrincipal
+:
+json
+.
+originPrincipal
 }
 ;
 /

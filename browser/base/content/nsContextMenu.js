@@ -8486,6 +8486,11 @@ charset
 gContextMenuContentData
 .
 charSet
+originPrincipal
+:
+this
+.
+principal
 referrerURI
 :
 gContextMenuContentData
