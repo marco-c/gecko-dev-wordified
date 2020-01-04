@@ -10341,7 +10341,7 @@ offset
 in
 device
 space
-gfxSize
+Size
 t
 =
 aContext
@@ -10349,7 +10349,7 @@ aContext
 >
 UserToDevice
 (
-gfxSize
+Size
 (
 1
 .
