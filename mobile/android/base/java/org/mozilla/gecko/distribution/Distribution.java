@@ -1665,7 +1665,11 @@ distributionSet
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Distribution
@@ -1674,6 +1678,7 @@ Set
 "
 "
 "
+)
 )
 ;
 }
@@ -2241,7 +2246,11 @@ immediately
 .
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Distribution
@@ -2250,6 +2259,7 @@ Changed
 "
 "
 "
+)
 )
 ;
 }

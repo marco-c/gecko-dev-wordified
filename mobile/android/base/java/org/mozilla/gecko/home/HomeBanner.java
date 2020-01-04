@@ -730,7 +730,11 @@ JS
 .
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomeBanner
@@ -742,6 +746,7 @@ String
 )
 getTag
 (
+)
 )
 )
 ;
@@ -788,7 +793,11 @@ JS
 .
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomeBanner
@@ -800,6 +809,7 @@ String
 )
 getTag
 (
+)
 )
 )
 ;
@@ -1022,7 +1032,11 @@ update
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomeBanner
@@ -1030,6 +1044,7 @@ HomeBanner
 Get
 "
 null
+)
 )
 ;
 }
@@ -1272,7 +1287,11 @@ VISIBLE
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomeBanner
@@ -1280,6 +1299,7 @@ HomeBanner
 Shown
 "
 id
+)
 )
 ;
 /

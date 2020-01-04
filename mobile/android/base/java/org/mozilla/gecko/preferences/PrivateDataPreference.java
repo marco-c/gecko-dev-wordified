@@ -412,7 +412,11 @@ in
 gecko
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Sanitize
@@ -423,6 +427,7 @@ json
 .
 toString
 (
+)
 )
 )
 ;

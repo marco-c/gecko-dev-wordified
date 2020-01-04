@@ -594,7 +594,11 @@ isFont
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Fonts
@@ -603,6 +607,7 @@ Reload
 "
 "
 "
+)
 )
 ;
 }

@@ -1102,7 +1102,11 @@ default
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Memory
@@ -1110,6 +1114,7 @@ Memory
 Dump
 "
 label
+)
 )
 ;
 }

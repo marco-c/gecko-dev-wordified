@@ -604,7 +604,11 @@ e
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -615,6 +619,7 @@ json
 .
 toString
 (
+)
 )
 )
 ;
@@ -1158,7 +1163,11 @@ Data
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 ClosedTabs
@@ -1166,6 +1175,7 @@ ClosedTabs
 StartNotifications
 "
 null
+)
 )
 ;
 }
@@ -1238,7 +1248,11 @@ Data
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 ClosedTabs
@@ -1246,6 +1260,7 @@ ClosedTabs
 StopNotifications
 "
 null
+)
 )
 ;
 }

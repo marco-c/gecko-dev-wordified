@@ -641,7 +641,11 @@ return
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomePanels
@@ -652,6 +656,7 @@ message
 .
 toString
 (
+)
 )
 )
 ;

@@ -848,7 +848,11 @@ values
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Reader
@@ -856,6 +860,7 @@ Reader
 Added
 "
 url
+)
 )
 ;
 return
@@ -1133,7 +1138,11 @@ uri
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Reader
@@ -1141,6 +1150,7 @@ Reader
 Removed
 "
 uri
+)
 )
 ;
 }

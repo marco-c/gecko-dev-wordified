@@ -2604,10 +2604,15 @@ eventData
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 eventName
 eventData
+)
 )
 ;
 }

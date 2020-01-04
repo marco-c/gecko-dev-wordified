@@ -1582,7 +1582,11 @@ LOADER_ID_SUGGESTION
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 SearchEngines
@@ -1590,6 +1594,7 @@ SearchEngines
 GetVisible
 "
 null
+)
 )
 ;
 }
@@ -1672,7 +1677,11 @@ mLastLocale
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 SearchEngines
@@ -1680,6 +1689,7 @@ SearchEngines
 GetVisible
 "
 null
+)
 )
 ;
 }
@@ -2591,7 +2601,11 @@ likely
 target
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -2606,6 +2620,7 @@ http
 "
 +
 autocompletion
+)
 )
 ;
 mAutocompleteHandler
@@ -3220,7 +3235,11 @@ the
 highest
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -3228,6 +3247,7 @@ Session
 Prefetch
 "
 url
+)
 )
 ;
 }

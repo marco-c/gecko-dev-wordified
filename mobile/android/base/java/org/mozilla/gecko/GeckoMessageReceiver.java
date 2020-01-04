@@ -125,7 +125,11 @@ action
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Passwords
@@ -133,6 +137,7 @@ Passwords
 Init
 "
 null
+)
 )
 ;
 }

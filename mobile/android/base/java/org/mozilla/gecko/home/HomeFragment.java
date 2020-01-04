@@ -2720,7 +2720,11 @@ mUrl
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Reader
@@ -2728,6 +2732,7 @@ Reader
 Removed
 "
 mUrl
+)
 )
 ;
 break

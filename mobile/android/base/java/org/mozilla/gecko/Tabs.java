@@ -1816,7 +1816,11 @@ BrowserApp
 .
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -1831,6 +1835,7 @@ tab
 .
 getId
 (
+)
 )
 )
 )
@@ -2459,7 +2464,11 @@ in
 BrowserApp
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -2470,6 +2479,7 @@ args
 .
 toString
 (
+)
 )
 )
 ;
@@ -6124,7 +6134,11 @@ e
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -6135,6 +6149,7 @@ args
 .
 toString
 (
+)
 )
 )
 ;

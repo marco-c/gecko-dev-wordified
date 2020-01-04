@@ -1398,7 +1398,11 @@ Gecko
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 PushServiceAndroidGCM
@@ -1409,6 +1413,7 @@ data
 .
 toString
 (
+)
 )
 )
 ;
