@@ -3085,13 +3085,6 @@ return
 true
 ;
 }
-virtual
-void
-ForcePresent
-(
-)
-{
-}
 /
 /
 XXX
