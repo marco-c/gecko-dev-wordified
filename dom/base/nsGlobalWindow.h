@@ -5284,6 +5284,13 @@ GetScriptableParent
 )
 override
 ;
+nsPIDOMWindowOuter
+*
+GetScriptableParentOrNull
+(
+)
+override
+;
 mozilla
 :
 :

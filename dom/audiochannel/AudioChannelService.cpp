@@ -2146,15 +2146,13 @@ win
 window
 -
 >
-GetScriptableParent
+GetScriptableParentOrNull
 (
 )
 ;
 if
 (
-window
-=
-=
+!
 win
 )
 {
