@@ -878,6 +878,15 @@ gcCycleNumber
 \
 macro
 (
+GeneratorFunction
+GeneratorFunction
+"
+GeneratorFunction
+"
+)
+\
+macro
+(
 get
 get
 "
