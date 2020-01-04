@@ -1790,7 +1790,7 @@ nsIRunnable
 aRunnable
 )
 {
-AssertIsOnMainThread
+AssertIsOnParentThread
 (
 )
 ;
