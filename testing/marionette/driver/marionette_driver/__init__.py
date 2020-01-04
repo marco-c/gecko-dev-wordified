@@ -67,6 +67,8 @@ marionette_driver
 import
 (
     
+addons
+    
 by
     
 date_time_value
