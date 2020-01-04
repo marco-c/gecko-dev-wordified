@@ -3625,17 +3625,11 @@ Closing
 bool
 FreezeInternal
 (
-JSContext
-*
-aCx
 )
 ;
 bool
 ThawInternal
 (
-JSContext
-*
-aCx
 )
 ;
 void
