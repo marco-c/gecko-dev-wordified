@@ -173,7 +173,6 @@ FormControlsTypes
 NS_FORM_FIELDSET
 =
 1
-NS_FORM_LABEL
 NS_FORM_OUTPUT
 NS_FORM_SELECT
 NS_FORM_TEXTAREA
@@ -1561,12 +1560,6 @@ type
 =
 =
 NS_FORM_OBJECT
-|
-|
-type
-=
-=
-NS_FORM_LABEL
 |
 |
 type

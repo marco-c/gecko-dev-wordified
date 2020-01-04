@@ -13637,12 +13637,6 @@ return
 type
 !
 =
-NS_FORM_LABEL
-&
-&
-type
-!
-=
 NS_FORM_OBJECT
 &
 &

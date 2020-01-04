@@ -2283,13 +2283,13 @@ OBJECT
 case
 TreeBuilder
 .
-OUTPUT_OR_LABEL
+OUTPUT
 :
 /
 /
 return
 "
-OUTPUT_OR_LABEL
+OUTPUT
 "
 ;
 /
@@ -6359,7 +6359,7 @@ label
 "
 TreeBuilder
 .
-OUTPUT_OR_LABEL
+OTHER
 )
 ;
 public
@@ -7779,7 +7779,7 @@ output
 "
 TreeBuilder
 .
-OUTPUT_OR_LABEL
+OUTPUT
 )
 ;
 public

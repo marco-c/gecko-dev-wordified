@@ -7737,7 +7737,7 @@ starttagloop
 ;
 }
 case
-NS_HTML5TREE_BUILDER_OUTPUT_OR_LABEL
+NS_HTML5TREE_BUILDER_OUTPUT
 :
 {
 reconstructTheActiveFormattingElements

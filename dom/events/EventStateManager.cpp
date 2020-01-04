@@ -9326,6 +9326,10 @@ nsGkAtoms
 :
 :
 object
+nsGkAtoms
+:
+:
+label
 )
 )
 {

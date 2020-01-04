@@ -1008,7 +1008,7 @@ FIELDSET
 final
 static
 int
-OUTPUT_OR_LABEL
+OUTPUT
 =
 62
 ;
@@ -14302,7 +14302,7 @@ break
 starttagloop
 ;
 case
-OUTPUT_OR_LABEL
+OUTPUT
 :
 reconstructTheActiveFormattingElements
 (
