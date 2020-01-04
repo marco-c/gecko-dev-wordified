@@ -1819,9 +1819,6 @@ mErrorMsgName
 NS_ENSURE_TRUE_VOID
 (
 consoleService
-&
-&
-errorObject
 )
 ;
 nsresult
