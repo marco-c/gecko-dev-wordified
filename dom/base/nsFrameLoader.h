@@ -2094,6 +2094,11 @@ InitializeBrowserAPI
 (
 )
 ;
+void
+DestroyBrowserFrameScripts
+(
+)
+;
 nsresult
 GetNewTabContext
 (

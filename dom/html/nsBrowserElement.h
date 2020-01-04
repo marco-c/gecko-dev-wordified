@@ -799,6 +799,11 @@ InitBrowserElementAPI
 (
 )
 ;
+void
+DestroyBrowserElementFrameScripts
+(
+)
+;
 nsCOMPtr
 <
 nsIBrowserElementAPI
