@@ -11682,10 +11682,16 @@ logger
 TraceLogger_AddKeepAliveInstructions
 )
 ;
+if
+(
+!
 AddKeepAliveInstructions
 (
 graph
 )
+)
+return
+false
 ;
 gs
 .

@@ -368,7 +368,7 @@ MIRGraph
 graph
 )
 ;
-void
+bool
 AddKeepAliveInstructions
 (
 MIRGraph
