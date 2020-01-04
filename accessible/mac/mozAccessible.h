@@ -799,6 +799,12 @@ void
 )
 selectedTextDidChange
 ;
+-
+(
+void
+)
+documentLoadComplete
+;
 /
 /
 internal
