@@ -930,13 +930,6 @@ enabled
 true
 )
 ;
-/
-/
-Disable
-signature
-requirements
-where
-possible
 user_pref
 (
 "
