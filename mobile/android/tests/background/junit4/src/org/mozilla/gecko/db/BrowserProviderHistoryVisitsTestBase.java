@@ -377,12 +377,8 @@ insertHistoryItem
 (
 url
 guid
-System
-.
-currentTimeMillis
-(
-)
-null
+lastVisited
+visitCount
 null
 )
 ;
