@@ -10945,7 +10945,8 @@ is
 focused
 *
 /
-NS_IMETHOD
+virtual
+void
 SetPluginFocused
 (
 bool

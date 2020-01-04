@@ -1655,7 +1655,8 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetPluginFocused
 (
 bool
@@ -1664,9 +1665,6 @@ aFocused
 )
 override
 {
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
 virtual
 void
