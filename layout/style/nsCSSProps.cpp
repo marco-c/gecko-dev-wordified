@@ -11364,6 +11364,9 @@ aTable
 ]
 )
 {
+#
+ifdef
+DEBUG
 typedef
 decltype
 (
@@ -11393,6 +11396,8 @@ range
 "
 )
 ;
+#
+endif
 for
 (
 int32_t
@@ -11596,6 +11601,9 @@ range
 "
 )
 ;
+#
+ifdef
+DEBUG
 typedef
 decltype
 (
@@ -11623,6 +11631,8 @@ range
 "
 )
 ;
+#
+endif
 const
 KTableEntry
 *
