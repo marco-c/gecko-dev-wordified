@@ -6054,15 +6054,6 @@ bool
 inBounds
 =
 wrappedOffset
-<
-module
-.
-heapLength
-(
-)
-&
-&
-wrappedOffset
 +
 size
 <

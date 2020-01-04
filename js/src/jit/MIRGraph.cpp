@@ -844,14 +844,14 @@ to
 fold
 up
 to
-WasmImmediateSize
+WasmImmediateRange
 /
 /
 offsets
 instead
 of
 just
-WasmCheckedImmediateSize
+WasmCheckedImmediateRange
 .
 static_assert
 (

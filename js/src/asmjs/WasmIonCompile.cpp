@@ -12446,11 +12446,6 @@ Assume
 worst
 case
 .
-bool
-accessNeedsBoundsCheck
-=
-true
-;
 if
 (
 endOffset
@@ -12463,7 +12458,13 @@ mirGen
 .
 foldableOffsetRange
 (
-accessNeedsBoundsCheck
+/
+*
+bounds
+check
+*
+/
+true
 bool
 (
 atomic
