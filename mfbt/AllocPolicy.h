@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TemplateLib
 .
 h
