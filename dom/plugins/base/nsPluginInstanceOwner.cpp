@@ -5021,6 +5021,9 @@ mRangeType
 )
 {
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_RAWINPUT
 :
 type
@@ -5030,6 +5033,9 @@ ATTR_INPUT
 break
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_SELECTEDRAWTEXT
 :
 type
@@ -5039,6 +5045,9 @@ ATTR_TARGET_NOTCONVERTED
 break
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_CONVERTEDTEXT
 :
 type
@@ -5048,6 +5057,9 @@ ATTR_CONVERTED
 break
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
 :
 type

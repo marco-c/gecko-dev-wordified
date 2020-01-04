@@ -5268,7 +5268,7 @@ NS_TEXTRANGE_
 .
 *
 /
-uint32_t
+TextRangeType
 ConvertToTextRangeType
 (
 uint32_t
