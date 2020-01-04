@@ -8235,7 +8235,11 @@ DebuggerObject
 *
 >
 object
-MutableHandleObject
+MutableHandle
+<
+DebuggerObject
+*
+>
 result
 )
 ;
