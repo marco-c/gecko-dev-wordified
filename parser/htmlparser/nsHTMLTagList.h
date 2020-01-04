@@ -650,9 +650,10 @@ HTML_TAG
 link
 Link
 )
-HTML_HTMLELEMENT_TAG
+HTML_TAG
 (
 listing
+Pre
 )
 HTML_HTMLELEMENT_TAG
 (
@@ -949,9 +950,10 @@ HTML_HTMLELEMENT_TAG
 (
 wbr
 )
-HTML_HTMLELEMENT_TAG
+HTML_TAG
 (
 xmp
+Pre
 )
 /
 *
