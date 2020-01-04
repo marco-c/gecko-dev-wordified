@@ -330,7 +330,7 @@ if
 the
 experiment
 has
-aditional
+additional
 values
 .
 *
@@ -413,7 +413,7 @@ hasValues
 return
 SwitchBoard
 .
-getExperimentValueFromJson
+getExperimentValuesFromJson
 (
 context
 experimentName
