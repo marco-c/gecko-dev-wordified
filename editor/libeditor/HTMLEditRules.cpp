@@ -487,12 +487,12 @@ endif
 class
 nsISupports
 ;
-class
-nsRulesInfo
-;
 namespace
 mozilla
 {
+class
+RulesInfo
+;
 using
 namespace
 dom
@@ -3675,7 +3675,7 @@ WillDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 bool
@@ -4307,7 +4307,7 @@ DidDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult
@@ -23226,7 +23226,7 @@ DidMakeBasicBlock
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult

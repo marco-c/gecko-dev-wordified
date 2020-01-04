@@ -1324,7 +1324,7 @@ WillDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 bool
@@ -1612,7 +1612,7 @@ DidDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult

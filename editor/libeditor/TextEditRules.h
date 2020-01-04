@@ -116,14 +116,14 @@ h
 #
 include
 "
-nsEditRules
+nsEditor
 .
 h
 "
 #
 include
 "
-nsEditor
+nsIEditRules
 .
 h
 "
@@ -432,7 +432,7 @@ WillDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 bool
@@ -450,7 +450,7 @@ DidDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult
@@ -1476,7 +1476,7 @@ TextRulesInfo
 final
 :
 public
-nsRulesInfo
+RulesInfo
 {
 public
 :
@@ -1487,7 +1487,7 @@ EditAction
 aAction
 )
 :
-nsRulesInfo
+RulesInfo
 (
 aAction
 )

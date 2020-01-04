@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsEditRules
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -390,7 +383,7 @@ h
 #
 include
 "
-nsNameSpaceManager
+nsIEditRules
 .
 h
 "
@@ -433,6 +426,13 @@ h
 include
 "
 nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

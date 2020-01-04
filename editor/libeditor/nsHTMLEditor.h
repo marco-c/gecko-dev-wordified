@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsIEditRules
+.
+h
+"
+#
+include
+"
 nsIEditorStyleSheets
 .
 h
@@ -180,13 +187,6 @@ h
 include
 "
 nsICSSLoaderObserver
-.
-h
-"
-#
-include
-"
-nsEditRules
 .
 h
 "
