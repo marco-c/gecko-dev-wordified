@@ -1284,6 +1284,8 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 ;
 /
