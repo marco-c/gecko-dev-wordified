@@ -4506,6 +4506,13 @@ in
             
 (
 '
+BRANDING_FILES
+'
+BrandingFiles
+)
+            
+(
+'
 EXPORTS
 '
 Exports
@@ -5139,28 +5146,6 @@ basename
 c
 )
 )
-)
-        
-branding_files
-=
-context
-.
-get
-(
-'
-BRANDING_FILES
-'
-)
-        
-if
-branding_files
-:
-            
-yield
-BrandingFiles
-(
-context
-branding_files
 )
         
 for

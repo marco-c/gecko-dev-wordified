@@ -9098,7 +9098,10 @@ BRANDING_FILES
 '
 :
 (
-HierarchicalStringList
+ContextDerivedTypedHierarchicalStringList
+(
+Path
+)
 list
         
 "
