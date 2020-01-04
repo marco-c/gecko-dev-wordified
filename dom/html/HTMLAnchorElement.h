@@ -1353,6 +1353,12 @@ aResult
 )
 ;
 }
+static
+DOMTokenListSupportedToken
+sSupportedRelValues
+[
+]
+;
 protected
 :
 virtual
