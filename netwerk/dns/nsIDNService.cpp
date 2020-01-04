@@ -195,6 +195,8 @@ Currently
 we
 use
 the
+non
+-
 transitional
 processing
 option
@@ -220,8 +222,6 @@ tr46
 To
 switch
 to
-non
--
 transitional
 processing
 change
@@ -245,12 +245,11 @@ test_idna2008
 .
 js
 to
-false
+true
 /
 /
 (
-patch
-in
+revert
 bug
 1218179
 )
@@ -259,7 +258,7 @@ const
 bool
 kIDNA2008_TransitionalProcessing
 =
-true
+false
 ;
 #
 include
