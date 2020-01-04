@@ -2531,12 +2531,6 @@ MacroAssembler
 masm
 )
 {
-AutoWritableJitCode
-awjc
-(
-code
-)
-;
 fallbackLabel_
 .
 repoint
