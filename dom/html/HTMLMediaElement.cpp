@@ -12473,7 +12473,7 @@ class
 HTMLMediaElement
 :
 :
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 :
 public
 MediaStreamTrackSource
@@ -12485,11 +12485,11 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 MediaStreamTrackSource
 )
 explicit
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 (
 HTMLMediaElement
 *
@@ -12757,7 +12757,7 @@ protected
 :
 virtual
 ~
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 (
 )
 {
@@ -12775,7 +12775,7 @@ NS_IMPL_ADDREF_INHERITED
 HTMLMediaElement
 :
 :
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 MediaStreamTrackSource
 )
 NS_IMPL_RELEASE_INHERITED
@@ -12783,7 +12783,7 @@ NS_IMPL_RELEASE_INHERITED
 HTMLMediaElement
 :
 :
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 MediaStreamTrackSource
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
@@ -12791,7 +12791,7 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 HTMLMediaElement
 :
 :
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -12802,7 +12802,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 HTMLMediaElement
 :
 :
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 MediaStreamTrackSource
 mElement
 )
@@ -12936,7 +12936,7 @@ return
 do_AddRef
 (
 new
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 (
 mElement
 )

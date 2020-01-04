@@ -2044,7 +2044,7 @@ aObserver
 )
 ;
 class
-CaptureStreamTrackSource
+DecoderCaptureTrackSource
 ;
 class
 CaptureStreamTrackSourceGetter
