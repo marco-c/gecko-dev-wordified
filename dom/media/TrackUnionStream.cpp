@@ -1800,7 +1800,7 @@ i
 {
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 &
 bound
@@ -2883,7 +2883,7 @@ disabled
 ;
 for
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 listener
 :
@@ -3102,7 +3102,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 aListener
 TrackID
@@ -3111,7 +3111,7 @@ aTrackID
 {
 RefPtr
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 listener
 =
@@ -3247,7 +3247,7 @@ return
 }
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 *
 bound
@@ -3283,7 +3283,7 @@ TrackUnionStream
 :
 RemoveDirectTrackListenerImpl
 (
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 *
 aListener
 TrackID
@@ -3510,7 +3510,7 @@ i
 {
 TrackBound
 <
-MediaStreamTrackDirectListener
+DirectMediaStreamTrackListener
 >
 &
 bound

@@ -222,7 +222,7 @@ class
 MediaInputPort
 ;
 class
-MediaStreamDirectListener
+DirectMediaStreamListener
 ;
 class
 MediaStreamGraph
@@ -2852,7 +2852,7 @@ delivered
 bool
 AddDirectListener
 (
-MediaStreamDirectListener
+DirectMediaStreamListener
 *
 aListener
 )
@@ -2860,7 +2860,7 @@ aListener
 void
 RemoveDirectListener
 (
-MediaStreamDirectListener
+DirectMediaStreamListener
 *
 aListener
 )
