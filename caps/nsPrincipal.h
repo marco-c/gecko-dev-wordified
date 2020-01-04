@@ -583,6 +583,17 @@ override
 ;
 virtual
 bool
+AddonHasPermission
+(
+const
+nsAString
+&
+aPerm
+)
+override
+;
+virtual
+bool
 IsOnCSSUnprefixingWhitelist
 (
 )
