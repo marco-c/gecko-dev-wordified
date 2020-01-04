@@ -762,6 +762,13 @@ destroy
 (
 )
 ;
+yield
+toolbox
+.
+destroy
+(
+)
+;
 gDevTools
 .
 unregisterTool
