@@ -28259,9 +28259,9 @@ MutableHandleValue
 res
 )
 {
-bool
-status
-=
+if
+(
+!
 cx
 -
 >
@@ -28269,6 +28269,9 @@ getPendingException
 (
 res
 )
+)
+return
+false
 ;
 cx
 -
@@ -28276,14 +28279,6 @@ cx
 clearPendingException
 (
 )
-;
-if
-(
-!
-status
-)
-return
-false
 ;
 /
 /
