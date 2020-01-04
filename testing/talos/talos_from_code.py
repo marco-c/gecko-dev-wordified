@@ -276,12 +276,12 @@ if
 options
 .
 talos_json_url
-=
-=
+is
 None
 :
         
 print
+(
 "
 You
 need
@@ -296,6 +296,7 @@ json
 url
 .
 "
+)
         
 sys
 .
@@ -330,10 +331,12 @@ talos_json_url
     
 except
 Exception
+as
 e
 :
         
 print
+(
 "
 ERROR
 :
@@ -351,8 +354,10 @@ something
 failed
 .
 "
+)
         
 print
+(
 "
 ERROR
 :
@@ -363,6 +368,7 @@ s
 str
 (
 e
+)
 )
         
 sys
@@ -381,6 +387,7 @@ necessary
 files
     
 print
+(
 "
 INFO
 :
@@ -396,6 +403,7 @@ s
 options
 .
 talos_json_url
+)
     
 try
 :
@@ -450,6 +458,7 @@ talos
 zip
             
 print
+(
 "
 INFO
 :
@@ -461,6 +470,7 @@ as
 s
 "
 %
+                  
 (
 entity
 [
@@ -481,6 +491,7 @@ path
 "
 ]
 key
+)
 )
 )
             
@@ -505,6 +516,7 @@ else
 :
             
 print
+(
 "
 ERROR
 :
@@ -517,7 +529,6 @@ a
 file
 "
 +
-\
                   
 "
 from
@@ -533,7 +544,6 @@ url
 "
 ]
 +
-\
                   
 "
 which
@@ -559,8 +569,10 @@ mozilla
 org
 /
 "
+)
             
 print
+(
 "
 ERROR
 :
@@ -574,6 +586,7 @@ certain
 branches
 .
 "
+)
             
 sys
 .
@@ -584,10 +597,12 @@ exit
     
 except
 Exception
+as
 e
 :
         
 print
+(
 "
 ERROR
 :
@@ -598,6 +613,7 @@ s
 str
 (
 e
+)
 )
         
 sys
@@ -832,8 +848,7 @@ fileUrl
         
 if
 m
-=
-=
+is
 None
 :
             
@@ -918,6 +933,7 @@ else
 :
         
 print
+(
 "
 ERROR
 :
@@ -933,7 +949,6 @@ from
 s
 "
 +
-\
               
 "
 but
@@ -945,6 +960,7 @@ be
 incorrect
 .
 "
+)
         
 sys
 .
@@ -1032,6 +1048,7 @@ path
 )
             
 print
+(
 "
 INFO
 :
@@ -1042,13 +1059,16 @@ created
 "
 %
 path
+)
         
 except
 Exception
+as
 e
 :
             
 print
+(
 "
 ERROR
 :
@@ -1059,6 +1079,7 @@ s
 str
 (
 e
+)
 )
             
 sys

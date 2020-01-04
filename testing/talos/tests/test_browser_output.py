@@ -651,6 +651,7 @@ self
 compare_error_message
 (
 input
+                                   
 "
 End
 token
@@ -664,6 +665,7 @@ start
 token
 "
 %
+                                   
 self
 .
 end_report
@@ -952,14 +954,26 @@ bad_report
 ]
 found
 before
+"
++
+                                   
+"
 (
 '
 __startBeforeLaunchTimestamp
 '
+"
++
+                                   
+"
 '
 __endBeforeLaunchTimestamp
 '
 )
+"
++
+                                   
+"
 [
 character
 position
@@ -1149,15 +1163,6 @@ __startAfterTerminationTimestamp1333663596551__endAfterTerminationTimestamp
 "
 "
         
-b
-=
-BrowserLogResults
-(
-results_raw
-=
-good_report
-)
-        
 #
 but
 there
@@ -1193,6 +1198,7 @@ s
 s
 "
 %
+                                   
 (
 self
 .
@@ -1322,10 +1328,6 @@ message
 "
 "
         
-error
-=
-None
-        
 try
 :
             
@@ -1338,6 +1340,7 @@ browser_log
         
 except
 TalosError
+as
 e
 :
             
@@ -1353,7 +1356,7 @@ e
                 
 import
 pdb
-;
+                
 pdb
 .
 set_trace
