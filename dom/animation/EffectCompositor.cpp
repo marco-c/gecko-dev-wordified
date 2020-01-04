@@ -1012,7 +1012,10 @@ mElementsToRestyle
 aCascadeLevel
 ]
 ;
-PseudoElementHashKey
+PseudoElementHashEntry
+:
+:
+KeyType
 key
 =
 {
@@ -1476,7 +1479,10 @@ mElementsToRestyle
 aCascadeLevel
 ]
 ;
-PseudoElementHashKey
+PseudoElementHashEntry
+:
+:
+KeyType
 key
 =
 {
@@ -1802,7 +1808,10 @@ mElementsToRestyle
 aCascadeLevel
 ]
 ;
-PseudoElementHashKey
+PseudoElementHashEntry
+:
+:
+KeyType
 key
 =
 {
@@ -2283,7 +2292,10 @@ time
 .
 nsTArray
 <
-PseudoElementHashKey
+PseudoElementHashEntry
+:
+:
+KeyType
 >
 elementsToRestyle
 (
