@@ -766,9 +766,6 @@ aVal
 ;
 }
 \
-private
-:
-\
 static
 const
 char
@@ -804,6 +801,9 @@ return
 Default
 ;
 }
+\
+private
+:
 \
 PrefTemplate
 <
@@ -841,10 +841,6 @@ class
 gfxPrefs
 final
 {
-friend
-class
-gfxWindowsPlatform
-;
 private
 :
 /
