@@ -181,7 +181,7 @@ mType
 isn
 '
 t
-mCSSStyleRule
+eCSSDeclaration
 .
 /
 /
@@ -228,9 +228,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
-mCSSStyleRule
+mCSSDeclaration
 ;
 mozilla
 :
@@ -515,7 +515,7 @@ mType
 nsAttrValue
 :
 :
-eCSSStyleRule
+eCSSDeclaration
 ;
 }
 inline
@@ -825,12 +825,12 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 nsAttrValue
 :
 :
-GetCSSStyleRuleValue
+GetCSSDeclarationValue
 (
 )
 const
@@ -842,7 +842,7 @@ Type
 )
 =
 =
-eCSSStyleRule
+eCSSDeclaration
 "
 wrong
 type
@@ -857,7 +857,7 @@ GetMiscContainer
 >
 mValue
 .
-mCSSStyleRule
+mCSSDeclaration
 ;
 }
 inline
@@ -1094,7 +1094,7 @@ return
 t
 !
 =
-eCSSStyleRule
+eCSSDeclaration
 &
 &
 !

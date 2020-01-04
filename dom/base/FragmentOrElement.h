@@ -1545,7 +1545,7 @@ any
 SMIL
 override
 style
-rules
+declaration
 for
 this
 element
@@ -1560,9 +1560,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 >
-mSMILOverrideStyleRule
+mSMILOverrideStyleDeclaration
 ;
 /
 *

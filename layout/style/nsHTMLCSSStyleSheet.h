@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h

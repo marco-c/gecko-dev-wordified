@@ -973,10 +973,10 @@ found
 *
 *
 param
-aRule
+aDeclaration
 The
 style
-rule
+declaration
 to
 check
 *
@@ -1005,7 +1005,7 @@ otherwise
 *
 /
 bool
-SanitizeStyleRule
+SanitizeStyleDeclaration
 (
 mozilla
 :
@@ -1013,9 +1013,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
-aRule
+aDeclaration
 nsAutoString
 &
 aRuleText

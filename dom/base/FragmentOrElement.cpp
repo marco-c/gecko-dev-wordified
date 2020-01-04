@@ -3986,7 +3986,7 @@ mSMILOverrideStyle
 /
 /
 -
-mSMILOverrideStyleRule
+mSMILOverrideStyleDeclaration
 /
 /
 -

@@ -5710,7 +5710,7 @@ from
 Element
 :
 :
-GetSMILOverrideStyleRule
+GetSMILOverrideStyleDeclaration
 (
 via
 nsSMILCSSProperty

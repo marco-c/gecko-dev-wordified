@@ -265,7 +265,7 @@ namespace
 css
 {
 class
-StyleRule
+Declaration
 ;
 struct
 URLValue
@@ -682,7 +682,7 @@ misc
 /
 struct
 .
-eCSSStyleRule
+eCSSDeclaration
 =
 0x10
 eURL
@@ -781,7 +781,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 aValue
 const
@@ -976,7 +976,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 aValue
 const
@@ -1417,9 +1417,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
-GetCSSStyleRuleValue
+GetCSSDeclarationValue
 (
 )
 const
