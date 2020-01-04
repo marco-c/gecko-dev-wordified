@@ -31,6 +31,19 @@ Debugger
 (
 )
 ;
+if
+(
+typeof
+du
+.
+drainTraceLogger
+=
+=
+"
+function
+"
+)
+{
 var
 obj
 =
@@ -53,3 +66,4 @@ drainTraceLogger
 .
 length
 ;
+}
