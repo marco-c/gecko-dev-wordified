@@ -593,7 +593,7 @@ create
 crashD
 .
 DIRECTORY_TYPE
-0700
+0o700
 )
 ;
 }

@@ -383,7 +383,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 let
@@ -417,7 +417,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 add_fake_crashes
@@ -516,7 +516,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 let
@@ -552,7 +552,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 let
@@ -582,7 +582,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 let
@@ -612,7 +612,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 report4

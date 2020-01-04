@@ -2941,7 +2941,7 @@ aText
 const
 PERMS_FILE
 =
-0644
+0o644
 ;
 const
 MODE_WRONLY

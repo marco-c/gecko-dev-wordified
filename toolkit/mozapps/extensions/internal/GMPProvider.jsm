@@ -1610,11 +1610,11 @@ id
 ;
 if
 (
-time
 !
-=
-=
-NaN
+isNaN
+(
+time
+)
 &
 &
 this

@@ -47,7 +47,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 return
@@ -748,7 +748,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 file

@@ -893,7 +893,7 @@ do_check_eq
 file
 .
 permissions
-0666
+0o666
 )
 ;
 }
