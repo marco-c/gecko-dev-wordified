@@ -1119,6 +1119,10 @@ Implementation
 -
 specific
 finalization
+BeforeFinishInternal
+(
+)
+;
 if
 (
 !
@@ -2378,6 +2382,15 @@ Decoder
 :
 :
 InitInternal
+(
+)
+{
+}
+void
+Decoder
+:
+:
+BeforeFinishInternal
 (
 )
 {
