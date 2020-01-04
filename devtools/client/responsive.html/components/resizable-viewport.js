@@ -236,6 +236,13 @@ PropTypes
 func
 .
 isRequired
+onContentResize
+:
+PropTypes
+.
+func
+.
+isRequired
 onResizeViewport
 :
 PropTypes
@@ -602,6 +609,7 @@ screenshot
 viewport
 onBrowserMounted
 onChangeViewportDevice
+onContentResize
 onResizeViewport
 onRotateViewport
 }
@@ -726,6 +734,7 @@ Browser
 {
 location
 onBrowserMounted
+onContentResize
 }
 )
 )
