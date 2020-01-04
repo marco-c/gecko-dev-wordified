@@ -2222,6 +2222,11 @@ other
 stores
 .
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 this
