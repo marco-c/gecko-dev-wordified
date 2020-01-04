@@ -4085,7 +4085,7 @@ infoObject
 >
 SetKEAUsed
 (
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -4446,7 +4446,7 @@ static_cast
 int32_t
 >
 (
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -4590,7 +4590,7 @@ not
 .
 if
 (
-cipherInfo
+channelInfo
 .
 keaType
 !
@@ -4629,7 +4629,7 @@ static_cast
 int32_t
 >
 (
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -5721,7 +5721,7 @@ TLS
 PSK
 resumption
 case
-TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256
+TLS_AES_128_GCM_SHA256
 :
 value
 =
@@ -5730,7 +5730,7 @@ value
 break
 ;
 case
-TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+TLS_CHACHA20_POLY1305_SHA256
 :
 value
 =
@@ -5739,7 +5739,7 @@ value
 break
 ;
 case
-TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384
+TLS_AES_256_GCM_SHA384
 :
 value
 =
@@ -6114,7 +6114,7 @@ SECSuccess
 {
 usesFallbackCipher
 =
-cipherInfo
+channelInfo
 .
 keaType
 =
@@ -6160,7 +6160,7 @@ Telemetry
 :
 :
 SSL_KEY_EXCHANGE_ALGORITHM_RESUMED
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -6175,7 +6175,7 @@ GetKEAUsed
 )
 =
 =
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -6192,7 +6192,7 @@ IsFullHandshake
 {
 switch
 (
-cipherInfo
+channelInfo
 .
 keaType
 )
@@ -6267,9 +6267,9 @@ Telemetry
 :
 :
 SSL_AUTH_ALGORITHM_FULL
-cipherInfo
+channelInfo
 .
-authAlgorithm
+authType
 )
 ;
 /
@@ -6288,7 +6288,7 @@ auth
 .
 if
 (
-cipherInfo
+channelInfo
 .
 keaType
 !
@@ -6298,13 +6298,16 @@ ssl_kea_rsa
 {
 switch
 (
-cipherInfo
+channelInfo
 .
-authAlgorithm
+authType
 )
 {
 case
 ssl_auth_rsa
+:
+case
+ssl_auth_rsa_sign
 :
 AccumulateNonECCKeySize
 (
