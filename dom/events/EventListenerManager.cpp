@@ -2729,7 +2729,7 @@ node
 node
 -
 >
-SetMayHaveApzAwareListeners
+SetMayBeApzAware
 (
 )
 ;

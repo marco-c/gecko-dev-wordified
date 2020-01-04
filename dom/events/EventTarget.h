@@ -579,7 +579,7 @@ const
 ;
 virtual
 bool
-HasApzAwareListeners
+IsApzAware
 (
 )
 const

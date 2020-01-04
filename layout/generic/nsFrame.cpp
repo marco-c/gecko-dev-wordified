@@ -13319,7 +13319,7 @@ if
 content
 -
 >
-HasApzAwareListeners
+IsNodeApzAware
 (
 )
 )
