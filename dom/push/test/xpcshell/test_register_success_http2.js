@@ -112,9 +112,7 @@ env
 get
 (
 "
-MOZHTTP2
--
-PORT
+MOZHTTP2_PORT
 "
 )
 ;

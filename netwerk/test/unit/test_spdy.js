@@ -2930,9 +2930,7 @@ env
 get
 (
 "
-MOZSPDY
--
-PORT
+MOZSPDY_PORT
 "
 )
 ;
