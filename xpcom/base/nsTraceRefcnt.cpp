@@ -2705,6 +2705,9 @@ kMismatchedSizesMessage
 ;
 #
 endif
+/
+/
+DEBUG
 }
 }
 return
@@ -3673,6 +3676,9 @@ nullptr
 }
 #
 endif
+/
+/
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
 static
 void
 RecycleSerialNumberPtr
@@ -4385,6 +4391,9 @@ n
 }
 #
 endif
+/
+/
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
 if
 (
 classes
@@ -5156,6 +5165,9 @@ aPC
 }
 #
 endif
+/
+/
+MOZ_STACKWALKING
 }
 void
 nsTraceRefcnt
@@ -5800,6 +5812,9 @@ logFile
 }
 #
 endif
+/
+/
+MOZ_DMD
 namespace
 mozilla
 {
@@ -7318,6 +7333,9 @@ gCOMPtrLog
 }
 #
 endif
+/
+/
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
 }
 EXPORT_XPCOM_API
 (
@@ -7537,6 +7555,9 @@ gCOMPtrLog
 }
 #
 endif
+/
+/
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
 }
 void
 nsTraceRefcnt
