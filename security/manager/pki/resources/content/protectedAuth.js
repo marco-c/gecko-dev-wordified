@@ -96,7 +96,7 @@ return
 }
 try
 {
-var
+let
 tokenName
 =
 protectedAuthThread
@@ -105,7 +105,7 @@ getTokenName
 (
 )
 ;
-var
+let
 tag
 =
 document
@@ -134,7 +134,7 @@ wait
 "
 )
 ;
-var
+let
 obs
 =
 {
@@ -159,12 +159,14 @@ operation
 completed
 "
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 }
 ;
@@ -186,8 +188,6 @@ window
 close
 (
 )
-;
-return
 ;
 }
 }

@@ -152,12 +152,14 @@ keygen
 finished
 "
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 }
 ;

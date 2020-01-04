@@ -373,12 +373,12 @@ lines
 of
 64
 characters
-/
-/
 with
 CRLF
 line
 breaks
+/
+/
 (
 as
 specified
