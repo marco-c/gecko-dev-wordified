@@ -9006,7 +9006,7 @@ return
 ;
 }
 float
-opacity
+fillOpacity
 =
 MaybeOptimizeOpacity
 (
@@ -9091,7 +9091,7 @@ nsStyleSVG
 :
 :
 mFill
-opacity
+fillOpacity
 )
 ;
 if
@@ -9158,7 +9158,7 @@ aContextPaint
 GetFillPattern
 (
 dt
-opacity
+fillOpacity
 aContext
 -
 >
@@ -9180,7 +9180,7 @@ aContextPaint
 GetStrokePattern
 (
 dt
-opacity
+fillOpacity
 aContext
 -
 >
@@ -9298,7 +9298,7 @@ color
 a
 *
 =
-opacity
+fillOpacity
 ;
 aOutPattern
 -
@@ -9366,7 +9366,7 @@ return
 ;
 }
 float
-opacity
+strokeOpacity
 =
 MaybeOptimizeOpacity
 (
@@ -9451,7 +9451,7 @@ nsStyleSVG
 :
 :
 mStroke
-opacity
+strokeOpacity
 )
 ;
 if
@@ -9518,7 +9518,7 @@ aContextPaint
 GetFillPattern
 (
 dt
-opacity
+strokeOpacity
 aContext
 -
 >
@@ -9540,7 +9540,7 @@ aContextPaint
 GetStrokePattern
 (
 dt
-opacity
+strokeOpacity
 aContext
 -
 >
@@ -9658,7 +9658,7 @@ color
 a
 *
 =
-opacity
+strokeOpacity
 ;
 aOutPattern
 -
