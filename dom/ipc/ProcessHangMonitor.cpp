@@ -1674,15 +1674,6 @@ aaogc
 mContext
 )
 ;
-JS
-:
-:
-AutoAssertOnBarrier
-nobarrier
-(
-mContext
-)
-;
 tabChild
 -
 >
