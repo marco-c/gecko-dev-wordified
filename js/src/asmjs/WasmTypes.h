@@ -4429,6 +4429,10 @@ CeilD
 CeilF
 FloorD
 FloorF
+TruncD
+TruncF
+NearbyIntD
+NearbyIntF
 ExpD
 LogD
 PowD
