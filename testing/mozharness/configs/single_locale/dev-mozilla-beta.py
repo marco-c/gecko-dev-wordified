@@ -145,7 +145,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "
@@ -169,7 +169,7 @@ date
 "
         
 "
-revision
+branch
 "
 :
 "

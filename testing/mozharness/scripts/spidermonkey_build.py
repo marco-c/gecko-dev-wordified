@@ -2961,6 +2961,12 @@ vcs
 hg
 '
             
+branch
+=
+"
+default
+"
+            
 repo
 =
 self

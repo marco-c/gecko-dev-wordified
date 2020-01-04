@@ -137,7 +137,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "
@@ -161,7 +161,7 @@ jamun
 "
         
 "
-revision
+branch
 "
 :
 "

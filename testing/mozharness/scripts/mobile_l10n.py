@@ -3851,7 +3851,7 @@ revision
 vcs
 =
 '
-hgtool
+hg
 '
 )
         
@@ -4795,12 +4795,14 @@ vcs
 "
 hg
 "
-#
-May
-not
-have
-hgtool
-yet
+            
+'
+branch
+'
+:
+"
+default
+"
             
 '
 dest

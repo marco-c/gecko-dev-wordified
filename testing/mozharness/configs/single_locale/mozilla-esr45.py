@@ -183,7 +183,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "

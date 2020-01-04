@@ -228,7 +228,7 @@ vcs
 "
 :
 "
-hgtool
+hg
 "
         
 "
@@ -254,7 +254,7 @@ aurora
 "
         
 "
-revision
+branch
 "
 :
 "

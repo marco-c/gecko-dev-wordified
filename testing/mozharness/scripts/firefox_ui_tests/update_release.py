@@ -767,7 +767,7 @@ abs_tools_dir
 '
 ]
             
-revision
+branch
 =
 self
 .
@@ -776,7 +776,7 @@ tools_tag
 vcs
 =
 '
-hgtool
+hg
 '
         
 )
