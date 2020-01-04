@@ -810,6 +810,13 @@ mIndexInParent
 -
 1
 )
+mRoleMapEntryIndex
+(
+aria
+:
+:
+NO_ROLE_MAP_ENTRY_INDEX
+)
 mStateFlags
 (
 0
@@ -825,10 +832,6 @@ mType
 mGenericTypes
 (
 0
-)
-mRoleMapEntry
-(
-nullptr
 )
 {
 mBits
