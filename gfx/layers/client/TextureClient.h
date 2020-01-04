@@ -4179,6 +4179,7 @@ MOZ_ASSERT
 (
 mFwdTransactionId
 <
+=
 aTransactionId
 )
 ;
