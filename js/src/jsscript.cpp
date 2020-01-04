@@ -13345,6 +13345,11 @@ size_t
 sourceLength
 )
 {
+MOZ_ASSERT
+(
+raw
+)
+;
 auto
 &
 cache

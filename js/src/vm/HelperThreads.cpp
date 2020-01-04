@@ -9592,6 +9592,11 @@ result
 Success
 )
 {
+MOZ_ASSERT
+(
+compressed
+)
+;
 mozilla
 :
 :
