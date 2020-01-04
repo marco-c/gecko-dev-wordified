@@ -32920,11 +32920,6 @@ jumpNextStub
 masm
 )
 ;
-/
-/
-TODO
-:
-ICNameStub_TypeOfNoProperty
 return
 linkAndAttachStub
 (
@@ -32941,7 +32936,7 @@ JS
 TrackedOutcome
 :
 :
-ICNameStub_ReadSlot
+ICNameStub_TypeOfNoProperty
 )
 ;
 }

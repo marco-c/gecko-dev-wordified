@@ -754,6 +754,11 @@ _
 ICNameStub_CallGetter
 )
 \
+_
+(
+ICNameStub_TypeOfNoProperty
+)
+\
 \
 _
 (
