@@ -1767,12 +1767,14 @@ it
 .
 *
 /
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mAsyncExecutionThreadIsAlive
 ;
+#
+endif
 /
 *
 *
