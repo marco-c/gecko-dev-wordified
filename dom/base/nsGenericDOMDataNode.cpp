@@ -3329,7 +3329,7 @@ Element
 :
 :
 BindToTree
-SetInDocument
+SetIsInDocument
 (
 )
 ;
