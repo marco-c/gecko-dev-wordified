@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsCompatibility
-.
-h
-"
-#
-include
-"
 nsFrameManagerBase
 .
 h

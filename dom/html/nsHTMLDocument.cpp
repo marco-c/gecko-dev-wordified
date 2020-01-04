@@ -1677,7 +1677,6 @@ doCreateShell
 aContext
 aViewManager
 aStyleSet
-mCompatMode
 )
 ;
 }
