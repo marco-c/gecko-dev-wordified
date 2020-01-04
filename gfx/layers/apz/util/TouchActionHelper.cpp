@@ -472,6 +472,16 @@ nsLayoutUtils
 IGNORE_ROOT_SCROLL_FRAME
 )
 ;
+if
+(
+!
+target
+)
+{
+return
+behavior
+;
+}
 nsIScrollableFrame
 *
 nearestScrollableParent
