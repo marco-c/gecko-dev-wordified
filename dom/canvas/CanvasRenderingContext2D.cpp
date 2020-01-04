@@ -22428,6 +22428,12 @@ Style
 :
 STROKE
 ;
+AdjustedTarget
+target
+(
+mCtx
+)
+;
 RefPtr
 <
 gfxContext
@@ -22439,10 +22445,7 @@ gfxContext
 :
 CreatePreservingTransformOrNull
 (
-mCtx
--
->
-mTarget
+target
 )
 ;
 gfxTextRun
