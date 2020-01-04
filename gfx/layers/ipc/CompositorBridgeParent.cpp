@@ -5627,6 +5627,10 @@ mPaused
 =
 false
 ;
+Invalidate
+(
+)
+;
 mCompositorScheduler
 -
 >
