@@ -241,6 +241,7 @@ PresentationReceiver
 (
 )
 ;
+MOZ_IS_CLASS_INIT
 bool
 Init
 (
