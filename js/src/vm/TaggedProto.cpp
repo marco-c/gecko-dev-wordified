@@ -149,6 +149,17 @@ Zone
 .
 h
 "
+#
+include
+"
+vm
+/
+Runtime
+-
+inl
+.
+h
+"
 namespace
 js
 {
