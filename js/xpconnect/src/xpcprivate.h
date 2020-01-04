@@ -3236,6 +3236,7 @@ mStrings
 ;
 class
 XPCJSRuntime
+final
 :
 public
 mozilla
@@ -4709,6 +4710,7 @@ inlined
 class
 MOZ_STACK_CLASS
 XPCCallContext
+final
 :
 public
 nsAXPCNativeCallContext
@@ -5974,6 +5976,7 @@ nsXPCComponentsBase
 ;
 class
 XPCWrappedNativeScope
+final
 :
 public
 PRCList
@@ -7533,6 +7536,7 @@ done
 .
 class
 XPCNativeMember
+final
 {
 public
 :
@@ -8195,6 +8199,7 @@ methods
 .
 class
 XPCNativeInterface
+final
 {
 public
 :
@@ -8677,6 +8682,7 @@ NativeSetMap
 .
 class
 XPCNativeSetKey
+final
 {
 public
 :
@@ -9179,6 +9185,7 @@ pointers
 .
 class
 XPCNativeSet
+final
 {
 public
 :
@@ -9899,6 +9906,7 @@ is
 set
 class
 XPCNativeScriptableFlags
+final
 {
 private
 :
@@ -10418,6 +10426,7 @@ this
 .
 class
 XPCNativeScriptableShared
+final
 {
 public
 :
@@ -10714,6 +10723,7 @@ instance
 .
 class
 XPCNativeScriptableInfo
+final
 {
 public
 :
@@ -11071,6 +11081,7 @@ XPCNativeScriptableInfo
 class
 MOZ_STACK_CLASS
 XPCNativeScriptableCreateInfo
+final
 {
 public
 :
@@ -11271,6 +11282,7 @@ nsIClassInfo
 .
 class
 XPCWrappedNativeProto
+final
 {
 public
 :
@@ -11901,6 +11913,7 @@ XPCWrappedNative
 .
 class
 XPCWrappedNativeTearOff
+final
 {
 public
 :
@@ -15588,6 +15601,7 @@ root
 /
 class
 XPCJSObjectHolder
+final
 :
 public
 nsIXPConnectJSObjectHolder
