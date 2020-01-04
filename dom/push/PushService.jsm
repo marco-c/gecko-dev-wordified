@@ -8544,7 +8544,9 @@ type
 !
 =
 "
-push
+desktop
+-
+notification
 "
 )
 {
