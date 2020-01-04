@@ -1768,7 +1768,7 @@ CHECK
 &
 id1
 .
-getDeleter
+get_deleter
 (
 )
 =
@@ -1776,7 +1776,7 @@ getDeleter
 &
 id2
 .
-getDeleter
+get_deleter
 (
 )
 )

@@ -2360,7 +2360,7 @@ DeleterType
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -2523,7 +2523,7 @@ E
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -2561,7 +2561,7 @@ release
 )
 )
 ;
-getDeleter
+get_deleter
 (
 )
 =
@@ -2572,7 +2572,7 @@ DeleterType
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -2661,7 +2661,7 @@ release
 )
 )
 ;
-getDeleter
+get_deleter
 (
 )
 =
@@ -2672,7 +2672,7 @@ E
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -2776,7 +2776,7 @@ ptr
 }
 DeleterType
 &
-getDeleter
+get_deleter
 (
 )
 {
@@ -2789,7 +2789,7 @@ del
 const
 DeleterType
 &
-getDeleter
+get_deleter
 (
 )
 const
@@ -2855,7 +2855,7 @@ old
 nullptr
 )
 {
-getDeleter
+get_deleter
 (
 )
 (
@@ -3523,7 +3523,7 @@ DeleterType
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -3617,7 +3617,7 @@ release
 )
 )
 ;
-getDeleter
+get_deleter
 (
 )
 =
@@ -3628,7 +3628,7 @@ DeleterType
 (
 aOther
 .
-getDeleter
+get_deleter
 (
 )
 )
@@ -3716,7 +3716,7 @@ first
 }
 DeleterType
 &
-getDeleter
+get_deleter
 (
 )
 {
@@ -3731,7 +3731,7 @@ second
 const
 DeleterType
 &
-getDeleter
+get_deleter
 (
 )
 const
