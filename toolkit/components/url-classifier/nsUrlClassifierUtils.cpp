@@ -779,6 +779,11 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
+if
+(
+prefBranch
+)
+{
 nsPrintfCString
 prefName
 (
@@ -837,6 +842,14 @@ version
 :
 DEFAULT_PROTOCOL_VERSION
 ;
+}
+else
+{
+aVersion
+=
+DEFAULT_PROTOCOL_VERSION
+;
+}
 return
 NS_OK
 ;
