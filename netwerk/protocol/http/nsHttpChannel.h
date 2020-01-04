@@ -1177,6 +1177,16 @@ return
 NS_OK
 ;
 }
+uint32_t
+GetRequestTime
+(
+)
+const
+{
+return
+mRequestTime
+;
+}
 nsresult
 OpenCacheEntry
 (
