@@ -50,6 +50,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Verify
