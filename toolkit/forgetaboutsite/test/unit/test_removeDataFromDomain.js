@@ -2443,7 +2443,7 @@ false
 ;
 }
 function
-tets_login_manager_logins_not_cleared_with_uri_contains_domain
+test_login_manager_logins_not_cleared_with_uri_contains_domain
 (
 )
 {
@@ -4039,7 +4039,7 @@ test_login_manager_disabled_hosts_cleared_with_subdomain
 test_login_manager_disabled_hosts_not_cleared_with_uri_contains_domain
 test_login_manager_logins_cleared_with_direct_match
 test_login_manager_logins_cleared_with_subdomain
-tets_login_manager_logins_not_cleared_with_uri_contains_domain
+test_login_manager_logins_not_cleared_with_uri_contains_domain
 /
 /
 Permission
