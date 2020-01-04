@@ -5032,7 +5032,7 @@ autoconfig_url
 "
 proxy
 .
-pacUrl
+proxyAutoconfigUrl
 )
 ;
 break
