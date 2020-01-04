@@ -207,12 +207,6 @@ mMeetOrSlice
 =
 SVG_MEETORSLICE_MEET
 ;
-mBaseVal
-.
-mDefer
-=
-false
-;
 mAnimVal
 =
 mBaseVal
@@ -303,11 +297,6 @@ mBaseVal
 GetMeetOrSlice
 (
 )
-mBaseVal
-.
-GetDefer
-(
-)
 )
 aSVGElement
 )
@@ -357,11 +346,6 @@ SVGMeetOrSlice
 >
 (
 aMeetOrSlice
-)
-mBaseVal
-.
-GetDefer
-(
 )
 )
 aSVGElement
