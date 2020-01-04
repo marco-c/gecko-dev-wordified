@@ -2012,9 +2012,7 @@ hr
 )
 )
 {
-gfxDebug
-(
-)
+gfxCriticalNote
 <
 <
 "
