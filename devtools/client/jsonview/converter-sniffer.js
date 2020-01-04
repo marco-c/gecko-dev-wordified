@@ -377,7 +377,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 getMIMETypeFromContent
 :
 function

@@ -500,7 +500,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 /
 *
 *
