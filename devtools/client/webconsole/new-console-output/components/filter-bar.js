@@ -488,7 +488,7 @@ icon
 configFilterBarVisible
 ?
 "
-active
+checked
 "
 :
 "
@@ -518,9 +518,7 @@ className
 "
 devtools
 -
-plain
--
-input
+plaininput
 "
 type
 :
