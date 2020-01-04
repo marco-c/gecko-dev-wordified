@@ -41656,11 +41656,6 @@ InstanceClassHasProtoAtDepth
 SetDOMCallbacks
 (
 cx
--
->
-runtime
-(
-)
 &
 DOMcallbacks
 )

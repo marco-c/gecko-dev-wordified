@@ -345,11 +345,6 @@ js
 SetWindowProxyClass
 (
 cx
--
->
-runtime
-(
-)
 &
 OuterWrapperClass
 )

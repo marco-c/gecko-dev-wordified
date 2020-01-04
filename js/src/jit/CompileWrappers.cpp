@@ -736,12 +736,12 @@ DOMcallbacks
 )
 {
 return
-GetDOMCallbacks
-(
 runtime
 (
 )
-)
+-
+>
+DOMcallbacks
 ;
 }
 const
