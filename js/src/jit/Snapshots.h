@@ -508,7 +508,7 @@ value
 in
 memory
 .
-MODE_MASK
+MODE_BITS_MASK
 =
 0x17f
 INVALID
@@ -1430,7 +1430,7 @@ Mode
 (
 mode_
 &
-MODE_MASK
+MODE_BITS_MASK
 )
 ;
 }

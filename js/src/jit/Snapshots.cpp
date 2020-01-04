@@ -1835,7 +1835,7 @@ Mode
 (
 mode
 &
-MODE_MASK
+MODE_BITS_MASK
 )
 )
 ;
@@ -2034,16 +2034,6 @@ of
 the
 mode
 .
-if
-(
-!
-writer
-.
-oom
-(
-)
-)
-{
 MOZ_ASSERT
 (
 writer
@@ -2109,7 +2099,6 @@ p
 .
 type
 ;
-}
 break
 ;
 }
