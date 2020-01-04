@@ -608,7 +608,7 @@ times
 class
 Export
 {
-MallocSig
+Sig
 sig_
 ;
 struct
@@ -631,7 +631,7 @@ default
 explicit
 Export
 (
-MallocSig
+Sig
 &
 &
 sig
@@ -714,7 +714,7 @@ stubOffset_
 ;
 }
 const
-MallocSig
+Sig
 &
 sig
 (
@@ -780,7 +780,7 @@ it
 class
 Import
 {
-MallocSig
+Sig
 sig_
 ;
 struct
@@ -832,7 +832,7 @@ pod
 }
 Import
 (
-MallocSig
+Sig
 &
 &
 sig
@@ -912,7 +912,7 @@ off
 ;
 }
 const
-MallocSig
+Sig
 &
 sig
 (
