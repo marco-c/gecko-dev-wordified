@@ -17663,9 +17663,12 @@ c
 >
 debugScopes
 ;
-auto
+AutoInitGCManagedObject
+<
+DebugScopes
+>
 debugScopes
-=
+(
 cx
 -
 >
@@ -17675,6 +17678,7 @@ DebugScopes
 >
 (
 cx
+)
 )
 ;
 if
