@@ -1358,15 +1358,6 @@ Instruction
 inst
 )
 ;
-static
-int64_t
-ExtractCodeLabelOffset
-(
-uint8_t
-*
-code
-)
-;
 }
 ;
 /

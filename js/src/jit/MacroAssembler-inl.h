@@ -1869,12 +1869,9 @@ const
 return
 selfReferencePatch_
 .
-offset
+used
 (
 )
-!
-=
-0
 ;
 }
 /
