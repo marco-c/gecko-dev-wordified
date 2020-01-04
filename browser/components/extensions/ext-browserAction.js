@@ -213,12 +213,6 @@ WeakMap
 (
 )
 ;
-global
-.
-browserActionOf
-=
-browserActionOf
-;
 /
 /
 Responsible
