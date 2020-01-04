@@ -2255,7 +2255,7 @@ failed
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 int
