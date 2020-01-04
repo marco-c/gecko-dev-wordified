@@ -358,8 +358,10 @@ aType
 EventListener
 *
 aCallback
-bool
-aCapture
+const
+AddEventListenerOptionsOrBoolean
+&
+aOptions
 const
 Nullable
 <
@@ -384,8 +386,10 @@ aType
 EventListener
 *
 aCallback
-bool
-aCapture
+const
+EventListenerOptionsOrBoolean
+&
+aOptions
 ErrorResult
 &
 aRv

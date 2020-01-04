@@ -2580,8 +2580,10 @@ aType
 EventListener
 *
 aCallback
-bool
-aCapture
+const
+AddEventListenerOptionsOrBoolean
+&
+aOptions
 const
 dom
 :
@@ -2604,7 +2606,7 @@ AddEventListener
 (
 aType
 aCallback
-aCapture
+aOptions
 aWantsUntrusted
 aRv
 )
@@ -2639,8 +2641,10 @@ aType
 EventListener
 *
 aCallback
-bool
-aCapture
+const
+EventListenerOptionsOrBoolean
+&
+aOptions
 ErrorResult
 &
 aRv
@@ -2653,7 +2657,7 @@ RemoveEventListener
 (
 aType
 aCallback
-aCapture
+aOptions
 aRv
 )
 ;

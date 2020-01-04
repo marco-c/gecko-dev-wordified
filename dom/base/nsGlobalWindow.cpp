@@ -51991,8 +51991,10 @@ aType
 EventListener
 *
 aListener
-bool
-aUseCapture
+const
+AddEventListenerOptionsOrBoolean
+&
+aOptions
 const
 Nullable
 <
@@ -52101,7 +52103,7 @@ AddEventListener
 (
 aType
 aListener
-aUseCapture
+aOptions
 wantsUntrusted
 )
 ;
