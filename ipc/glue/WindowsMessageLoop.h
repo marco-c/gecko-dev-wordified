@@ -141,15 +141,6 @@ h
 #
 include
 "
-base
-/
-basictypes
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
