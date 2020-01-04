@@ -39,7 +39,7 @@ win
 return
 win
 .
-outerWidth
+innerWidth
 =
 =
 win
@@ -51,7 +51,7 @@ width
 &
 win
 .
-outerHeight
+innerHeight
 =
 =
 win
@@ -110,7 +110,7 @@ win
 return
 win
 .
-outerWidth
+innerWidth
 =
 =
 win
@@ -122,7 +122,7 @@ w
 &
 win
 .
-outerHeight
+innerHeight
 =
 =
 win
@@ -311,12 +311,12 @@ w
 :
 window
 .
-outerWidth
+innerWidth
 h
 :
 window
 .
-outerHeight
+innerHeight
 }
 ;
 }
