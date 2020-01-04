@@ -959,6 +959,7 @@ WasmAstKind
 :
 Block
 ;
+explicit
 WasmAstBlock
 (
 WasmAstExprVector
