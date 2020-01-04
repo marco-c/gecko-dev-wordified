@@ -9213,7 +9213,7 @@ GetRootPresContext
 dummyEvent
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 widgetBounds
 ;
 nsresult
@@ -9277,13 +9277,7 @@ widgetBounds
 .
 Contains
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 pt
-)
 )
 NS_ERROR_FAILURE
 )

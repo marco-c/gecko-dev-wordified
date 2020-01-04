@@ -5391,7 +5391,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

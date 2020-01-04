@@ -31913,7 +31913,7 @@ window
 has
 changed
 resolution
-nsIntRect
+LayoutDeviceIntRect
 r
 ;
 mParentWidget

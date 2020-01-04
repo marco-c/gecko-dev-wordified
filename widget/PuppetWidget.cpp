@@ -1350,7 +1350,7 @@ bounds
 w
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )
@@ -5606,7 +5606,7 @@ NS_METHOD
 PuppetWidget
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -5617,14 +5617,8 @@ aRect
 .
 MoveTo
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
+WidgetToScreenOffsetUntyped
 (
-WidgetToScreenOffset
-(
-)
 )
 )
 ;

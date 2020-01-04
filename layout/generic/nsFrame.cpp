@@ -33388,7 +33388,7 @@ if
 toplevel
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 screenBounds
 ;
 widget
@@ -33399,7 +33399,7 @@ GetClientBounds
 screenBounds
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 toplevelScreenBounds
 ;
 toplevel
@@ -33410,7 +33410,7 @@ GetClientBounds
 toplevelScreenBounds
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 translation
 =
 screenBounds

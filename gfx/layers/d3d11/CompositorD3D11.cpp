@@ -7559,7 +7559,7 @@ rect
 mWidget
 -
 >
-GetClientBounds
+GetClientBoundsUntyped
 (
 rect
 )

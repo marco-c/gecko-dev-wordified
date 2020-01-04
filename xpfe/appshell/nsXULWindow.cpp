@@ -4553,7 +4553,7 @@ int32_t
 cy
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 if
@@ -9475,7 +9475,7 @@ and
 mode
 to
 persist
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 bool

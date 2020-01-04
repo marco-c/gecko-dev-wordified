@@ -1279,7 +1279,7 @@ aRepaint
 override
 ;
 NS_IMETHOD
-GetBounds
+GetBoundsUntyped
 (
 nsIntRect
 &
@@ -1288,7 +1288,7 @@ aRect
 override
 ;
 NS_IMETHOD
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &
@@ -1297,7 +1297,7 @@ aRect
 override
 ;
 NS_IMETHOD
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -1306,7 +1306,7 @@ aRect
 override
 ;
 NS_IMETHOD
-GetRestoredBounds
+GetRestoredBoundsUntyped
 (
 nsIntRect
 &

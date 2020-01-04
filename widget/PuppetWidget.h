@@ -1240,7 +1240,7 @@ GetWindowPosition
 )
 ;
 NS_IMETHOD
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

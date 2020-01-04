@@ -13604,7 +13604,7 @@ NS_METHOD
 nsWindow
 :
 :
-GetBounds
+GetBoundsUntyped
 (
 nsIntRect
 &
@@ -14090,7 +14090,7 @@ NS_METHOD
 nsWindow
 :
 :
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &
@@ -14120,7 +14120,7 @@ r
 nsIntRect
 bounds
 ;
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )
@@ -14198,7 +14198,7 @@ NS_METHOD
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -14279,7 +14279,7 @@ NS_METHOD
 nsWindow
 :
 :
-GetRestoredBounds
+GetRestoredBoundsUntyped
 (
 nsIntRect
 &
@@ -14297,7 +14297,7 @@ nsSizeMode_Normal
 )
 {
 return
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 aRect
 )
@@ -18842,7 +18842,7 @@ childBounds
 child
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 childBounds
 )
@@ -18857,7 +18857,7 @@ childBounds
 ;
 }
 }
-nsIntRect
+LayoutDeviceIntRect
 clientBounds
 ;
 GetClientBounds
@@ -25127,7 +25127,7 @@ widgetRect
 nsresult
 rv
 =
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 widgetRect
 )
@@ -29205,7 +29205,7 @@ mWnd
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 GetBounds
@@ -29231,15 +29231,9 @@ rect
 .
 Contains
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 event
 .
 refPoint
-)
 )
 )
 {
@@ -43228,7 +43222,7 @@ bounds
 w
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )

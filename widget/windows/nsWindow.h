@@ -727,7 +727,7 @@ aRaise
 )
 ;
 NS_IMETHOD
-GetBounds
+GetBoundsUntyped
 (
 nsIntRect
 &
@@ -735,7 +735,7 @@ aRect
 )
 ;
 NS_IMETHOD
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -743,7 +743,7 @@ aRect
 )
 ;
 NS_IMETHOD
-GetRestoredBounds
+GetRestoredBoundsUntyped
 (
 nsIntRect
 &
@@ -752,7 +752,7 @@ aRect
 override
 ;
 NS_IMETHOD
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &

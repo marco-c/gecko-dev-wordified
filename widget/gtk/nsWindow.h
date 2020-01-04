@@ -730,7 +730,7 @@ false
 override
 ;
 NS_IMETHOD
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -739,7 +739,7 @@ aRect
 override
 ;
 NS_IMETHOD
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &

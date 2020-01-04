@@ -691,7 +691,7 @@ GetWidget
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 widget
@@ -706,16 +706,10 @@ CSSPoint
 cssPos
 =
 (
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 bounds
 .
 TopLeft
 (
-)
 )
 +
 nsMoveBy

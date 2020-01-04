@@ -1873,7 +1873,7 @@ curBounds
 widget
 -
 >
-GetClientBounds
+GetClientBoundsUntyped
 (
 curBounds
 )
@@ -4814,7 +4814,7 @@ rect
 mWindow
 -
 >
-GetClientBounds
+GetClientBoundsUntyped
 (
 rect
 )
@@ -4831,7 +4831,7 @@ p2a
 mWindow
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 rect
 )

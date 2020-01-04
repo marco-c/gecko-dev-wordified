@@ -4409,7 +4409,7 @@ nsIntRect
 nsWindow
 :
 :
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 {
@@ -4417,7 +4417,7 @@ return
 mScreen
 -
 >
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;

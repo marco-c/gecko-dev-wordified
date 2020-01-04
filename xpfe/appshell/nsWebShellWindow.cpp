@@ -1067,7 +1067,7 @@ data
 mWindow
 -
 >
-GetClientBounds
+GetClientBoundsUntyped
 (
 r
 )

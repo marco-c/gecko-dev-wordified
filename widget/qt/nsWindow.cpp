@@ -4882,7 +4882,7 @@ Generate
 XPFE
 resize
 event
-GetBounds
+GetBoundsUntyped
 (
 rect
 )
@@ -8220,7 +8220,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

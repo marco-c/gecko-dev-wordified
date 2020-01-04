@@ -2952,7 +2952,7 @@ screenBounds
 screen
 -
 >
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;

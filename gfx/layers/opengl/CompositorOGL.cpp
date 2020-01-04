@@ -9223,7 +9223,7 @@ DumpCompositorTextures
 )
 )
 {
-IntRect
+LayoutDeviceIntRect
 rect
 ;
 if
@@ -9233,7 +9233,7 @@ mUseExternalSurfaceSize
 {
 rect
 =
-IntRect
+LayoutDeviceIntRect
 (
 0
 0

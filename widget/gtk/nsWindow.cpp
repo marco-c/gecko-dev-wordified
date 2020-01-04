@@ -7697,7 +7697,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -7835,7 +7835,7 @@ LOG
 (
 (
 "
-GetScreenBounds
+GetScreenBoundsUntyped
 %
 d
 %
@@ -7897,7 +7897,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &
@@ -7944,7 +7944,7 @@ messed
 up
 )
 .
-GetBounds
+GetBoundsUntyped
 (
 aRect
 )
@@ -11465,7 +11465,7 @@ bounds
 kid
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )
@@ -12657,7 +12657,7 @@ height
 nsIntRect
 screenBounds
 ;
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 screenBounds
 )

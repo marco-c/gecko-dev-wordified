@@ -6994,7 +6994,7 @@ CreateCompositor
 (
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 GetBounds
@@ -9357,7 +9357,7 @@ ResizeClient
 "
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 clientBounds
 ;
 GetClientBounds
@@ -9521,7 +9521,7 @@ ResizeClient
 "
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 clientBounds
 ;
 GetClientBounds
@@ -9804,7 +9804,7 @@ NS_METHOD
 nsBaseWidget
 :
 :
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &
@@ -9812,7 +9812,7 @@ aRect
 )
 {
 return
-GetBounds
+GetBoundsUntyped
 (
 aRect
 )
@@ -9842,7 +9842,7 @@ NS_METHOD
 nsBaseWidget
 :
 :
-GetBounds
+GetBoundsUntyped
 (
 nsIntRect
 &
@@ -9888,7 +9888,7 @@ NS_METHOD
 nsBaseWidget
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -9896,7 +9896,7 @@ aRect
 )
 {
 return
-GetBounds
+GetBoundsUntyped
 (
 aRect
 )
@@ -9906,7 +9906,7 @@ NS_METHOD
 nsBaseWidget
 :
 :
-GetRestoredBounds
+GetRestoredBoundsUntyped
 (
 nsIntRect
 &
@@ -9928,7 +9928,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 aRect
 )
@@ -11695,7 +11695,7 @@ GetScaledScreenBounds
 nsIntRect
 bounds
 ;
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 bounds
 )
@@ -13045,7 +13045,7 @@ return
 nullptr
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 GetBounds

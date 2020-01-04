@@ -7585,7 +7585,7 @@ if
 mInternalWidget
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 NS_ENSURE_SUCCESS

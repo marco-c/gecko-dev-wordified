@@ -16289,7 +16289,7 @@ WidgetToScreenOffset
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 winRectInScreen
 ;
 aWindow
