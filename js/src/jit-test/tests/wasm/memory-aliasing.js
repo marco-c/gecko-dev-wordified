@@ -33,8 +33,9 @@ module
 (
 memory
 1
+)
 (
-segment
+data
 0
 "
 \
@@ -62,7 +63,6 @@ segment
 \
 08
 "
-)
 )
 (
 func
@@ -161,6 +161,8 @@ off2
 )
 )
 )
+.
+exports
 ;
 assertEq
 (

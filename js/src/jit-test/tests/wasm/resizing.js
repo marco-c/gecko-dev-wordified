@@ -89,7 +89,7 @@ call
 :
 assertEq
 (
-evalText
+wasmEvalText
 (
 (
 module
@@ -139,12 +139,15 @@ const
 )
 )
 (
+drop
+(
 grow_memory
 (
 i32
 .
 const
 99
+)
 )
 )
 (
@@ -235,7 +238,7 @@ call_import
 var
 exports
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -256,12 +259,15 @@ memory
 func
 grow
 (
+drop
+(
 grow_memory
 (
 i32
 .
 const
 99
+)
 )
 )
 )
@@ -496,7 +502,7 @@ anyfunc
 var
 exports1
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -533,12 +539,15 @@ const
 )
 )
 (
+drop
+(
 grow_memory
 (
 i32
 .
 const
 99
+)
 )
 )
 (
@@ -582,7 +591,7 @@ exports
 var
 exports2
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -776,7 +785,7 @@ mod
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module
@@ -797,6 +806,10 @@ func
 gm
 (
 param
+i32
+)
+(
+result
 i32
 )
 (
@@ -1209,7 +1222,7 @@ call_import
 var
 exports
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1263,6 +1276,7 @@ const
 )
 (
 block
+i32
 (
 call
 grow
@@ -1444,7 +1458,7 @@ call_indirect
 var
 exports1
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1512,7 +1526,7 @@ exports
 var
 exports2
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1583,6 +1597,7 @@ const
 )
 (
 block
+i32
 (
 call_indirect
 v2v
@@ -1703,7 +1718,7 @@ contents
 var
 src
 =
-evalText
+wasmEvalText
 (
 (
 module
@@ -1809,7 +1824,7 @@ mod
 new
 Module
 (
-textToBinary
+wasmTextToBinary
 (
 (
 module

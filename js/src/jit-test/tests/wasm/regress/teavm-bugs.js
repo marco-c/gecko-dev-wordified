@@ -47,6 +47,12 @@ let
 tests
 =
 '
+(
+i64
+.
+const
+0
+)
 '
 ;
 for
@@ -88,6 +94,7 @@ tests
 =
 (
 if
+i64
 (
 i64
 .
@@ -129,6 +136,10 @@ module
 (
 func
 i64
+(
+result
+i64
+)
 {
 params
 }
@@ -140,7 +151,7 @@ tests
 }
 )
 )
-evalText
+wasmEvalText
 (
 code
 )
@@ -153,7 +164,7 @@ elimination
 .
 assertEq
 (
-evalText
+wasmEvalText
 (
 (
 module
