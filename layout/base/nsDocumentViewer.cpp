@@ -3746,7 +3746,7 @@ nsCOMPtr
 <
 nsIPresShell
 >
-shellGrip
+shell
 =
 mPresShell
 ;
@@ -3754,7 +3754,7 @@ mPresShell
 /
 Initial
 reflow
-mPresShell
+shell
 -
 >
 Initialize
@@ -6029,12 +6029,12 @@ nsCOMPtr
 <
 nsIPresShell
 >
-shellDeathGrip
+shell
 (
 mPresShell
 )
 ;
-mPresShell
+shell
 -
 >
 UnsuppressPainting
@@ -10006,7 +10006,7 @@ nsCOMPtr
 <
 nsIPresShell
 >
-shellDeathGrip
+shell
 (
 mPresShell
 )
@@ -10015,7 +10015,7 @@ mPresShell
 /
 bug
 378682
-mPresShell
+shell
 -
 >
 UnsuppressPainting
@@ -12051,7 +12051,7 @@ nsCOMPtr
 <
 nsIPresShell
 >
-shellDeathGrip
+shell
 (
 mPresShell
 )
@@ -12060,7 +12060,7 @@ mPresShell
 /
 bug
 378682
-mPresShell
+shell
 -
 >
 UnsuppressPainting

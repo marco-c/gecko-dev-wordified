@@ -1023,17 +1023,6 @@ nsCSSFontFaceRule
 aRule
 )
 {
-nsCOMPtr
-<
-nsIGlobalObject
->
-globalObject
-=
-do_QueryInterface
-(
-aGlobal
-)
-;
 RefPtr
 <
 FontFace

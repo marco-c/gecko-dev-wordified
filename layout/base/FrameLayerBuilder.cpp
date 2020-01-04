@@ -35065,14 +35065,6 @@ mContainerLayerGeneration
 +
 mMaxContainerLayerGeneration
 ;
-RefPtr
-<
-RefCountedRegion
->
-paintedLayerInvalidRegion
-=
-nullptr
-;
 if
 (
 mRetainingManager

@@ -15074,17 +15074,6 @@ aStateFlags
 STATE_START
 )
 {
-nsCOMPtr
-<
-nsIChannel
->
-channel
-=
-do_QueryInterface
-(
-aRequest
-)
-;
 +
 +
 mLoadCounter

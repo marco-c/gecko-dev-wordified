@@ -11734,7 +11734,7 @@ RefPtr
 <
 nsViewManager
 >
-viewManagerDeathGrip
+viewManager
 =
 mViewManager
 ;
@@ -11991,7 +11991,7 @@ nsViewManager
 AutoDisableRefresh
 refreshBlocker
 (
-mViewManager
+viewManager
 )
 ;
 mDirtyRoots
@@ -24093,7 +24093,7 @@ RefPtr
 <
 nsViewManager
 >
-viewManagerDeathGrip
+viewManager
 =
 mViewManager
 ;
@@ -24112,7 +24112,7 @@ if
 isSafeToFlush
 &
 &
-mViewManager
+viewManager
 )
 {
 /
@@ -24347,7 +24347,7 @@ if
 mIsDestroying
 )
 {
-mViewManager
+viewManager
 -
 >
 FlushDelayedResize
@@ -24746,7 +24746,7 @@ RecalcQuotesAndCounters
 (
 )
 ;
-mViewManager
+viewManager
 -
 >
 FlushDelayedResize
@@ -24824,7 +24824,7 @@ if
 mIsDestroying
 )
 {
-mViewManager
+viewManager
 -
 >
 UpdateWidgetGeometry

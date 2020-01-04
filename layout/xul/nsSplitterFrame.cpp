@@ -1867,7 +1867,7 @@ RefPtr
 <
 nsSplitterFrameInner
 >
-kungFuDeathGrip
+inner
 (
 mInner
 )
@@ -1883,7 +1883,7 @@ mMessage
 case
 eMouseMove
 :
-mInner
+inner
 -
 >
 MouseDrag
@@ -1916,7 +1916,7 @@ WidgetMouseEvent
 eLeftButton
 )
 {
-mInner
+inner
 -
 >
 MouseUp

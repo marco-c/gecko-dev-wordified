@@ -5128,16 +5128,6 @@ if
 mediator
 )
 {
-nsCOMPtr
-<
-nsIContent
->
-content
-=
-GetContent
-(
-)
-;
 nscoord
 oldPos
 =
