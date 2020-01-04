@@ -3349,6 +3349,9 @@ __NR_quotactl
 case
 __NR_utimes
 :
+case
+__NR_unlink
+:
 #
 endif
 return
