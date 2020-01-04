@@ -4922,7 +4922,7 @@ nullptr
 ;
 event
 .
-orient
+mOrient
 =
 InternalScrollPortEvent
 :
@@ -4960,7 +4960,7 @@ nullptr
 ;
 event
 .
-orient
+mOrient
 =
 InternalScrollPortEvent
 :

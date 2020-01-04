@@ -373,7 +373,7 @@ aMessage
 aWidget
 eScrollPortEventClass
 )
-orient
+mOrient
 (
 eVertical
 )
@@ -452,7 +452,7 @@ result
 ;
 }
 OrientType
-orient
+mOrient
 ;
 void
 AssignScrollPortEventData
@@ -471,11 +471,11 @@ aEvent
 aCopyTargets
 )
 ;
-orient
+mOrient
 =
 aEvent
 .
-orient
+mOrient
 ;
 }
 }
