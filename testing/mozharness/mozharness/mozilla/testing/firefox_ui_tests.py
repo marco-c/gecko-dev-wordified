@@ -2060,6 +2060,7 @@ e
 message
 )
         
+return
 super
 (
 FirefoxUITests
