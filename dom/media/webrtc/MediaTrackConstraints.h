@@ -1872,6 +1872,7 @@ device
 GetBestFitnessDistance
 (
 sets
+false
 )
 !
 =
@@ -1930,6 +1931,8 @@ DeviceType
 >
 &
 aDevices
+bool
+aIsChrome
 )
 {
 auto
@@ -2063,6 +2066,7 @@ i
 GetBestFitnessDistance
 (
 aggregateConstraints
+aIsChrome
 )
 ;
 if
@@ -2258,6 +2262,7 @@ j
 GetBestFitnessDistance
 (
 aggregateConstraints
+aIsChrome
 )
 =
 =
