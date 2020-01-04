@@ -5703,7 +5703,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -5737,10 +5737,9 @@ rv
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 httpIndex
-aSource
 )
 ;
 }
@@ -7468,7 +7467,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -7540,10 +7539,9 @@ rv
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 listener
-nullptr
 )
 ;
 if
