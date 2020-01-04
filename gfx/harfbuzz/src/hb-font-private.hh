@@ -1331,7 +1331,7 @@ glyph
 *
 TODO
 use
-font_metrics
+font_metics
 .
 ascent
 *

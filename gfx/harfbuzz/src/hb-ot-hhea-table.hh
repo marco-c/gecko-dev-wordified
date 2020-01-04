@@ -324,7 +324,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
