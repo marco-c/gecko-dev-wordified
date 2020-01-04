@@ -297,6 +297,16 @@ nsAString
 aCodecs
 )
 ;
+static
+bool
+CanHandleMediaType
+(
+const
+nsAString
+&
+aContentType
+)
+;
 void
 GetMozDebugReaderData
 (
