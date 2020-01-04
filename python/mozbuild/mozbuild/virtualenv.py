@@ -603,6 +603,11 @@ def
 up_to_date
 (
 self
+python
+=
+sys
+.
+executable
 )
 :
         
@@ -716,6 +721,66 @@ return
 False
         
 #
+check
+interpreter
+.
+Assume
+that
+a
+different
+size
+is
+enough
+to
+        
+#
+know
+whether
+we
+'
+ve
+been
+given
+a
+different
+interpreter
+and
+thus
+        
+#
+should
+refresh
+the
+virtualenv
+.
+        
+if
+os
+.
+path
+.
+getsize
+(
+python
+)
+!
+=
+os
+.
+path
+.
+getsize
+(
+self
+.
+python_path
+)
+:
+            
+return
+False
+        
+#
 recursively
 check
 sub
@@ -803,6 +868,7 @@ submanager
 .
 up_to_date
 (
+python
 )
 :
                 
@@ -816,6 +882,11 @@ def
 ensure
 (
 self
+python
+=
+sys
+.
+executable
 )
 :
         
@@ -885,6 +956,7 @@ self
 .
 up_to_date
 (
+python
 )
 :
             
@@ -898,12 +970,18 @@ self
 .
 build
 (
+python
 )
     
 def
 create
 (
 self
+python
+=
+sys
+.
+executable
 )
 :
         
@@ -980,9 +1058,7 @@ None
 args
 =
 [
-sys
-.
-executable
+python
 self
 .
 virtualenv_script_path
@@ -2964,6 +3040,11 @@ def
 build
 (
 self
+python
+=
+sys
+.
+executable
 )
 :
         
@@ -2996,6 +3077,7 @@ self
 .
 create
 (
+python
 )
         
 #
