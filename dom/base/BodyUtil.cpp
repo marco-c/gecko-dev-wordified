@@ -3086,12 +3086,6 @@ MightThrowJSException
 (
 )
 ;
-AutoForceSetExceptionOnContext
-forceExn
-(
-aCx
-)
-;
 JS
 :
 :

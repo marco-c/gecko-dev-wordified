@@ -411,12 +411,6 @@ value
 "
 )
 ;
-AutoForceSetExceptionOnContext
-forceExn
-(
-aCx
-)
-;
 DebugOnly
 <
 bool
