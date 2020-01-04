@@ -328,6 +328,13 @@ override
 ;
 virtual
 void
+UIResolutionChanged
+(
+)
+override
+;
+virtual
+void
 FullscreenChanged
 (
 bool
