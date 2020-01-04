@@ -974,8 +974,8 @@ reason
 /
 /
 If
-a
-singleTextChild
+an
+inlineTextChild
 text
 node
 is
@@ -1011,7 +1011,7 @@ parentNode
 &
 parentNode
 .
-singleTextChild
+inlineTextChild
 =
 =
 =
