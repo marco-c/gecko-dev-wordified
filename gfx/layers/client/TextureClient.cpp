@@ -2521,6 +2521,10 @@ Lock
 )
 ;
 }
+mReadLock
+=
+nullptr
+;
 CancelWaitFenceHandleOnImageBridge
 (
 )
