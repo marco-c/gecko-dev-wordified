@@ -11196,7 +11196,7 @@ remote
 .
 block_potentially_unwanted
 "
-false
+true
 )
 ;
 pref
