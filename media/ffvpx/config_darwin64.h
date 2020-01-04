@@ -189,11 +189,6 @@ asm
 enable
 -
 yasm
--
--
-disable
--
-avx2
 "
 #
 define
@@ -464,7 +459,7 @@ HAVE_AVX
 #
 define
 HAVE_AVX2
-0
+1
 #
 define
 HAVE_FMA3
@@ -636,7 +631,7 @@ HAVE_AVX_EXTERNAL
 #
 define
 HAVE_AVX2_EXTERNAL
-0
+1
 #
 define
 HAVE_FMA3_EXTERNAL
@@ -808,7 +803,7 @@ HAVE_AVX_INLINE
 #
 define
 HAVE_AVX2_INLINE
-0
+1
 #
 define
 HAVE_FMA3_INLINE
