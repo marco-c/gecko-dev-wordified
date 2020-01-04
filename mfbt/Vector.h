@@ -1921,6 +1921,7 @@ detail
 :
 VectorTesting
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 growStorageBy
 (
@@ -1928,6 +1929,7 @@ size_t
 aIncr
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 convertToHeapStorage
 (
@@ -3247,6 +3249,7 @@ capacity
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 initCapacity
 (
@@ -3320,6 +3323,7 @@ space
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 reserve
 (
@@ -3415,6 +3419,7 @@ elements
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 growBy
 (
@@ -3440,6 +3445,7 @@ length
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 resize
 (
@@ -3476,6 +3482,7 @@ memory
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 growByUninitialized
 (
@@ -3490,6 +3497,7 @@ size_t
 aIncr
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 resizeUninitialized
 (
@@ -3675,6 +3683,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -3715,6 +3724,7 @@ typename
 .
 Args
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 emplaceBack
 (
@@ -3772,6 +3782,7 @@ O
 class
 BP
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 appendAll
 (
@@ -3786,6 +3797,7 @@ BP
 aU
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 appendN
 (
@@ -3802,6 +3814,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -3820,6 +3833,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -4128,6 +4142,7 @@ constructed
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 T
 *
 extractRawBuffer
@@ -4325,6 +4340,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 T
 *
 insert
