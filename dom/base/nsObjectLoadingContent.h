@@ -3276,6 +3276,11 @@ GetExistingFrame
 (
 )
 ;
+bool
+IsYoutubeEmbed
+(
+)
+;
 /
 /
 Helper
