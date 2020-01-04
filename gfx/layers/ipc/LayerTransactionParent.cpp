@@ -6238,6 +6238,9 @@ GetBackendType
 {
 gfxDevCrash
 (
+gfx
+:
+:
 LogReason
 :
 :
