@@ -13543,7 +13543,7 @@ aInheritPrivateBrowsingId
 *
 aInheritPrivateBrowsingId
 =
-mPrivateBrowsingId
+mInheritPrivateBrowsingId
 ;
 return
 NS_OK
