@@ -1831,7 +1831,7 @@ thread
 *
 /
 #
-undef
+define
 MALLOC_PROTECTED_REGIONS
 /
 *
