@@ -1300,16 +1300,6 @@ MediaSourceEnum
 Browser
 ;
 }
-void
-SetStopped
-(
-)
-{
-mStopped
-=
-true
-;
-}
 /
 /
 implement
