@@ -41525,7 +41525,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -41598,7 +41598,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -41636,6 +41636,8 @@ information
 about
 disappeared
 mouse
+/
+/
 pointers
 if
 (
@@ -43710,7 +43712,7 @@ mWidget
 ;
 event
 .
-isPrimary
+mIsPrimary
 =
 i
 =
@@ -43748,7 +43750,7 @@ mModifiers
 ;
 event
 .
-width
+mWidth
 =
 touch
 -
@@ -43759,7 +43761,7 @@ RadiusX
 ;
 event
 .
-height
+mHeight
 =
 touch
 -
