@@ -2178,7 +2178,7 @@ file
 .
 *
 /
-nsAutoCString
+nsCString
 mHash
 ;
 /

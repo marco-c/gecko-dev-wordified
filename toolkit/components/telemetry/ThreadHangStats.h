@@ -1118,7 +1118,7 @@ ThreadHangStats
 {
 private
 :
-nsAutoCString
+nsCString
 mName
 ;
 public

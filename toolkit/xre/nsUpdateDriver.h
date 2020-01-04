@@ -585,7 +585,7 @@ char
 *
 mArgv
 ;
-nsAutoCString
+nsCString
 mAppVersion
 ;
 bool
