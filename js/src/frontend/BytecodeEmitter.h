@@ -3322,6 +3322,14 @@ pn
 )
 ;
 bool
+emitHoistedFunctionsInList
+(
+ParseNode
+*
+pn
+)
+;
+bool
 emitPropertyList
 (
 ParseNode
