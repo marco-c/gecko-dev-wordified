@@ -4284,6 +4284,7 @@ name
 args
 )
 {
+return
 findPathInObject
 (
 schemaApi
@@ -4491,6 +4492,7 @@ listener
 args
 )
 {
+return
 findPathInObject
 (
 schemaApi
@@ -4520,6 +4522,7 @@ name
 listener
 )
 {
+return
 findPathInObject
 (
 schemaApi
