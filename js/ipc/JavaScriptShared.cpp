@@ -676,15 +676,8 @@ JavaScriptShared
 :
 JavaScriptShared
 (
-JSContext
-*
-cx
 )
 :
-cx_
-(
-cx
-)
 refcount_
 (
 1

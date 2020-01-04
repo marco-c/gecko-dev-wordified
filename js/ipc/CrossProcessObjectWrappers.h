@@ -386,9 +386,6 @@ PJavaScriptParent
 *
 NewJavaScriptParent
 (
-JSContext
-*
-cx
 )
 ;
 void
@@ -403,9 +400,6 @@ PJavaScriptChild
 *
 NewJavaScriptChild
 (
-JSContext
-*
-cx
 )
 ;
 void

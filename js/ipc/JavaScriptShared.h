@@ -826,12 +826,8 @@ CPOWManager
 {
 public
 :
-explicit
 JavaScriptShared
 (
-JSContext
-*
-cx
 )
 ;
 virtual
@@ -1228,10 +1224,6 @@ scopeForTargetObjects
 ;
 protected
 :
-JSContext
-*
-cx_
-;
 uintptr_t
 refcount_
 ;

@@ -309,15 +309,8 @@ WrapperOwner
 :
 WrapperOwner
 (
-JSContext
-*
-cx
 )
 :
-JavaScriptShared
-(
-cx
-)
 inactive_
 (
 false

@@ -147,14 +147,6 @@ PJavaScriptParent
 {
 public
 :
-explicit
-JavaScriptParent
-(
-JSContext
-*
-cx
-)
-;
 virtual
 ~
 JavaScriptParent
