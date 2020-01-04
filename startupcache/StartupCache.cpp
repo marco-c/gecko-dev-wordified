@@ -2141,9 +2141,8 @@ idStr
 )
 )
 {
-NS_ASSERTION
+NS_WARNING
 (
-false
 "
 Existing
 entry
