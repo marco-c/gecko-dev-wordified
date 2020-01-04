@@ -9930,7 +9930,7 @@ mScriptTextBuf
 =
 aString
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;

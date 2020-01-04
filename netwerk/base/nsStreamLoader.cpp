@@ -518,7 +518,7 @@ elems
 =
 mData
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;
