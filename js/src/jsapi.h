@@ -38534,7 +38534,7 @@ value
 extern
 JS_PUBLIC_API
 (
-int
+bool
 )
 JS_GetGlobalJitCompilerOption
 (
@@ -38543,6 +38543,9 @@ JSContext
 cx
 JSJitCompilerOption
 opt
+uint32_t
+*
+valueOut
 )
 ;
 /
