@@ -5973,6 +5973,13 @@ i
 i
 <
 lookupCount
+&
+&
+!
+buffer
+-
+>
+in_error
 ;
 i
 +
@@ -14090,6 +14097,8 @@ this
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 /

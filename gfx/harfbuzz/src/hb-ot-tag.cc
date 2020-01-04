@@ -17458,6 +17458,9 @@ buf
 ;
 }
 }
+#
+ifdef
+MAIN
 static
 inline
 void
@@ -17561,9 +17564,6 @@ abort
 }
 }
 }
-#
-ifdef
-MAIN
 int
 main
 (

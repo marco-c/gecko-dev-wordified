@@ -350,6 +350,8 @@ major
 public
 :
 FixedVersion
+<
+>
 version
 ;
 /

@@ -2361,6 +2361,8 @@ klass
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 /

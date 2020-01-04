@@ -363,6 +363,8 @@ magicNumber
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 /
@@ -386,6 +388,8 @@ version
 *
 /
 FixedVersion
+<
+>
 fontRevision
 ;
 /

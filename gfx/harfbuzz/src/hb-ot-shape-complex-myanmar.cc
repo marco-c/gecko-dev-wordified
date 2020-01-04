@@ -2717,6 +2717,13 @@ buffer
 -
 >
 len
+&
+&
+!
+buffer
+-
+>
+in_error
 )
 {
 unsigned
