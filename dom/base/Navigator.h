@@ -1973,15 +1973,12 @@ nsAString
 &
 aKeySystem
 const
-Optional
-<
 Sequence
 <
-MediaKeySystemOptions
->
+MediaKeySystemConfiguration
 >
 &
-aOptions
+aConfig
 ErrorResult
 &
 aRv
