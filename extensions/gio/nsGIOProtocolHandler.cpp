@@ -5288,6 +5288,16 @@ mount_op
 G_MOUNT_OPERATION_ABORTED
 )
 ;
+free
+(
+user
+)
+;
+free
+(
+pass
+)
+;
 return
 ;
 }
