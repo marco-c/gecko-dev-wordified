@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -197,6 +204,10 @@ gtest
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 Task
 final
