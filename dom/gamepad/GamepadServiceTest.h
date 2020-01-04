@@ -134,7 +134,7 @@ namespace
 dom
 {
 class
-GamepadService
+GamepadManager
 ;
 /
 /
@@ -199,7 +199,7 @@ tests
 .
 RefPtr
 <
-GamepadService
+GamepadManager
 >
 mService
 ;
