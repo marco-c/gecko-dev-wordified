@@ -152,8 +152,6 @@ ExternalStaticLibrary
     
 ExternalSharedLibrary
     
-HeaderFileSubstitution
-    
 HostDefines
     
 HostLibrary
@@ -3830,15 +3828,60 @@ CONFIGURE_DEFINE_FILES
 ]
 :
             
-yield
-self
+script
+=
+mozpath
 .
-_create_substitution
+join
 (
-HeaderFileSubstitution
+mozpath
+.
+dirname
+(
+mozpath
+.
+dirname
+(
+__file__
+)
+)
+                                  
+'
+action
+'
+'
+process_define_files
+.
+py
+'
+)
+            
+yield
+GeneratedFile
+(
 context
-                
+script
+'
+process_define_file
+'
 path
+                                
+[
+mozpath
+.
+join
+(
+context
+.
+srcdir
+path
++
+'
+.
+in
+'
+)
+]
 )
         
 for
