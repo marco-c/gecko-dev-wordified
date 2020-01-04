@@ -16638,6 +16638,9 @@ aGivenProto
 ;
 MOZ_ASSERT_IF
 (
+obj
+&
+&
 ChromeOnlyAccess
 (
 )

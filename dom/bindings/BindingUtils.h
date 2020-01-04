@@ -10058,6 +10058,10 @@ cache
 if
 (
 !
+parent
+|
+|
+!
 useXBLScope
 )
 {
