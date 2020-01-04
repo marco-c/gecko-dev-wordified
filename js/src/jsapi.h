@@ -9682,9 +9682,9 @@ bool
 )
 JS_AddExtraGCRootsTracer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSTraceDataOp
 traceOp
 void
@@ -9710,9 +9710,9 @@ void
 )
 JS_RemoveExtraGCRootsTracer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSTraceDataOp
 traceOp
 void

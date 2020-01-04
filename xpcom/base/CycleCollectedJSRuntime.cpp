@@ -3507,7 +3507,7 @@ if
 !
 JS_AddExtraGCRootsTracer
 (
-mJSRuntime
+mJSContext
 TraceBlackJS
 this
 )
