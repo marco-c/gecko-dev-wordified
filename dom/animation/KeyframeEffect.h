@@ -1314,9 +1314,6 @@ aGlobal
 Element
 *
 aTarget
-const
-Optional
-<
 JS
 :
 :
@@ -1325,8 +1322,6 @@ Handle
 JSObject
 *
 >
->
-&
 aFrames
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
@@ -2349,9 +2344,6 @@ aCx
 Element
 *
 aTarget
-const
-Optional
-<
 JS
 :
 :
@@ -2360,8 +2352,6 @@ Handle
 JSObject
 *
 >
->
-&
 aFrames
 InfallibleTArray
 <
