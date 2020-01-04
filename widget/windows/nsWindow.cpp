@@ -37579,7 +37579,7 @@ SetWinGestureSupport
 mWnd
 gestureNotifyEvent
 .
-panDirection
+mPanDirection
 )
 ;
 }
