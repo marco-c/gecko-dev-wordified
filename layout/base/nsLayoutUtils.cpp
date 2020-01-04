@@ -54929,11 +54929,17 @@ metrics
 .
 SetBackgroundColor
 (
+Color
+:
+:
+FromABGR
+(
 presShell
 -
 >
 GetCanvasBackground
 (
+)
 )
 )
 ;
@@ -54961,6 +54967,11 @@ metrics
 .
 SetBackgroundColor
 (
+Color
+:
+:
+FromABGR
+(
 backgroundStyle
 -
 >
@@ -54970,6 +54981,7 @@ StyleBackground
 -
 >
 mBackgroundColor
+)
 )
 ;
 }

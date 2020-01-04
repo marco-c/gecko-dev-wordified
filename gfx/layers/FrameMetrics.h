@@ -475,10 +475,6 @@ mExtraResolution
 )
 mBackgroundColor
 (
-0
-0
-0
-0
 )
 mLineScrollAmount
 (
@@ -2026,7 +2022,10 @@ mExtraResolution
 ;
 }
 const
-gfxRGBA
+gfx
+:
+:
+Color
 &
 GetBackgroundColor
 (
@@ -2041,7 +2040,10 @@ void
 SetBackgroundColor
 (
 const
-gfxRGBA
+gfx
+:
+:
+Color
 &
 aBackgroundColor
 )
@@ -3789,7 +3791,10 @@ use
 when
 overscrolling
 .
-gfxRGBA
+gfx
+:
+:
+Color
 mBackgroundColor
 ;
 /

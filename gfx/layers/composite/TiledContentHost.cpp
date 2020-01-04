@@ -2627,11 +2627,8 @@ just
 looks
 wrong
 .
-gfxRGBA
+Color
 backgroundColor
-(
-0
-)
 ;
 if
 (
@@ -3286,7 +3283,7 @@ TiledLayerBufferComposite
 &
 aLayerBuffer
 const
-gfxRGBA
+Color
 *
 aBackgroundColor
 EffectChain
@@ -3687,11 +3684,8 @@ mPrimaryEffect
 new
 EffectSolidColor
 (
-ToColor
-(
 *
 aBackgroundColor
-)
 )
 ;
 nsIntRegionRectIterator

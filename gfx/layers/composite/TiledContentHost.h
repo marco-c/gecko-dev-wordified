@@ -1673,7 +1673,10 @@ TiledLayerBufferComposite
 &
 aLayerBuffer
 const
-gfxRGBA
+gfx
+:
+:
+Color
 *
 aBackgroundColor
 EffectChain
