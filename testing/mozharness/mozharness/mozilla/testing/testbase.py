@@ -1456,6 +1456,9 @@ self
 _urlopen
 (
 symbols_url
+timeout
+=
+120
 )
                     
 self
@@ -1465,14 +1468,22 @@ symbols_url
 symbols_url
             
 except
+(
 urllib2
 .
 URLError
+socket
+.
+error
+socket
+.
+timeout
+)
 :
                 
 self
 .
-warning
+exception
 (
 "
 Can
@@ -1489,10 +1500,12 @@ s
 !
 "
 %
-                             
 self
 .
 installer_url
+level
+=
+WARNING
 )
         
 #
