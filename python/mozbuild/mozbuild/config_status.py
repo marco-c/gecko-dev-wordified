@@ -1788,11 +1788,14 @@ if
 env
 .
 substs
-[
+.
+get
+(
 '
 MOZ_ARTIFACT_BUILDS
 '
-]
+False
+)
 :
         
 #
