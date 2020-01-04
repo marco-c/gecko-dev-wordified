@@ -148,6 +148,7 @@ run_next_test
 add_task
 (
 function
+*
 validCacheMidPopulation
 (
 )
@@ -326,6 +327,7 @@ provider
 add_task
 (
 function
+*
 notifyLinkDelete
 (
 )
@@ -781,6 +783,7 @@ provider
 add_task
 (
 function
+*
 isTopSiteGivenProvider
 (
 )
@@ -1109,6 +1112,7 @@ provider
 add_task
 (
 function
+*
 multipleProviders
 (
 )
@@ -1320,6 +1324,7 @@ oddProvider
 add_task
 (
 function
+*
 changeLinks
 (
 )
@@ -1731,6 +1736,7 @@ provider
 add_task
 (
 function
+*
 oneProviderAlreadyCached
 (
 )
@@ -1896,6 +1902,7 @@ provider2
 add_task
 (
 function
+*
 newLowRankedLink
 (
 )
