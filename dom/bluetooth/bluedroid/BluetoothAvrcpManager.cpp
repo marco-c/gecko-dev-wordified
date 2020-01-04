@@ -4174,9 +4174,9 @@ BluetoothAvrcpManager
 :
 PassthroughCmdNotification
 (
-int
+uint8_t
 aId
-int
+uint8_t
 aKeyState
 )
 {

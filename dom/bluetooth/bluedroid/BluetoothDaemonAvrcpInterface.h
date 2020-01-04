@@ -945,8 +945,8 @@ NotificationHandlerWrapper
 void
 uint8_t
 uint8_t
-int
-int
+uint8_t
+uint8_t
 >
 PassthroughCmdNotification
 ;
