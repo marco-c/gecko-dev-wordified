@@ -86,6 +86,10 @@ run_test
 (
 )
 {
+allow_all_plugins
+(
+)
+;
 let
 tag
 =

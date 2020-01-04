@@ -82,6 +82,10 @@ run_test
 (
 )
 {
+allow_all_plugins
+(
+)
+;
 do_get_profile_startup
 (
 )
