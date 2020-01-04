@@ -58959,7 +58959,7 @@ outerWM
 #
 ifdef
 DEBUG_GROW
-DumpBox
+XULDumpBox
 (
 stdout
 )

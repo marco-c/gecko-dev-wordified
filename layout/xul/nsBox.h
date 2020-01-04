@@ -322,7 +322,7 @@ override
 ;
 virtual
 nsresult
-DumpBox
+XULDumpBox
 (
 FILE
 *
@@ -695,7 +695,7 @@ expr
 box
 -
 >
-DumpBox
+XULDumpBox
 (
 stdout
 )

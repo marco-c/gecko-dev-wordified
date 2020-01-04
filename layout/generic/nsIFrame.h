@@ -21597,7 +21597,7 @@ aDebug
 ;
 virtual
 nsresult
-DumpBox
+XULDumpBox
 (
 FILE
 *

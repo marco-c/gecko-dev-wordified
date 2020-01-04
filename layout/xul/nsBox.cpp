@@ -509,7 +509,7 @@ nsresult
 nsBox
 :
 :
-DumpBox
+XULDumpBox
 (
 FILE
 *
@@ -658,7 +658,7 @@ XULLayout
 "
 )
 ;
-DumpBox
+XULDumpBox
 (
 stdout
 )
