@@ -372,7 +372,7 @@ R
 .
 layout
 .
-menu_item_action_view
+menu_item_switcher_layout
 this
 )
 ;
