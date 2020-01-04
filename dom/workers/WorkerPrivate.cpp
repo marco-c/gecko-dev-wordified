@@ -2343,7 +2343,6 @@ aWorkerPrivate
 >
 ModifyBusyCount
 (
-aCx
 mIncrease
 )
 ;
@@ -4451,7 +4450,6 @@ aWorkerPrivate
 >
 ModifyBusyCount
 (
-aCx
 true
 )
 ;
@@ -4515,7 +4513,6 @@ aWorkerPrivate
 >
 ModifyBusyCount
 (
-aCx
 false
 )
 ;
@@ -4604,7 +4601,6 @@ aWorkerPrivate
 >
 ModifyBusyCount
 (
-aCx
 true
 )
 &
@@ -13551,13 +13547,6 @@ Derived
 :
 ModifyBusyCount
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 bool
 aIncrease
 )
