@@ -616,13 +616,6 @@ sync
 -
 button
 "
-"
-web
--
-apps
--
-button
-"
 ]
 ;
 let
