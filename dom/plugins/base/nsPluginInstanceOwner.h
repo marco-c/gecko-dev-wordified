@@ -1415,7 +1415,7 @@ ExitFullScreen
 /
 Called
 from
-AndroidJNI
+nsAppShell
 when
 we
 removed
