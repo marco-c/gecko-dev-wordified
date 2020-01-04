@@ -1500,7 +1500,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -52036,7 +52036,7 @@ IsPopup
 )
 &
 &
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

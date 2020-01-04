@@ -153,7 +153,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -1902,7 +1902,7 @@ device
 {
 device
 =
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -3641,7 +3641,7 @@ nullptr
 ;
 }
 return
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -4326,7 +4326,7 @@ nullptr
 ;
 }
 return
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -6140,7 +6140,7 @@ ID3D11Device
 >
 device
 =
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -6508,7 +6508,7 @@ ID3D11Device
 >
 dev
 =
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

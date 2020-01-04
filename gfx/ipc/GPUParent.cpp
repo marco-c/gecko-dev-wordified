@@ -261,7 +261,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -389,7 +389,7 @@ defined
 (
 XP_WIN
 )
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Init
@@ -645,7 +645,7 @@ D3D11_COMPOSITING
 )
 )
 {
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -1069,11 +1069,11 @@ XP_WIN
 )
 if
 (
-DeviceManagerD3D11
+DeviceManagerDx
 *
 dm
 =
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -1435,7 +1435,7 @@ defined
 (
 XP_WIN
 )
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Shutdown
