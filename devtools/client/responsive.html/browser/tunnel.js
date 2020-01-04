@@ -2556,6 +2556,17 @@ PermitUnload
 Messages
 sent
 to
+tabbrowser
+.
+xml
+"
+contextmenu
+"
+/
+/
+Messages
+sent
+to
 SelectParentHelper
 .
 jsm
