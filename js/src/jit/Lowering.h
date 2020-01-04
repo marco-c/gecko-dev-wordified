@@ -769,6 +769,14 @@ apply
 )
 ;
 void
+visitApplyArray
+(
+MApplyArray
+*
+apply
+)
+;
+void
 visitArraySplice
 (
 MArraySplice

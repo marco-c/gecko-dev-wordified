@@ -453,6 +453,11 @@ ApplyArgsGeneric
 \
 _
 (
+ApplyArrayGeneric
+)
+\
+_
+(
 Bail
 )
 \
