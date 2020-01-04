@@ -7637,10 +7637,6 @@ mMinimizePreroll
 (
 false
 )
-mDecodeThreadWaiting
-(
-false
-)
 mSentLoadedMetadataEvent
 (
 false
