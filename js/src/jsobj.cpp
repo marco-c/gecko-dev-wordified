@@ -26433,7 +26433,7 @@ getSlotRef
 i
 )
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 "

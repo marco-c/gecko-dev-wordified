@@ -1486,7 +1486,7 @@ PendingMetadata
 (
 )
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 "

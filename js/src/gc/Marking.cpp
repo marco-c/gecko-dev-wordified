@@ -3728,7 +3728,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -3940,7 +3940,7 @@ vec
 i
 ]
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -4333,7 +4333,7 @@ trc
 dst
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 name
@@ -14175,7 +14175,7 @@ clampedStart
 )
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 clampedEnd
@@ -15175,7 +15175,7 @@ getDenseElements
 )
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 ;
@@ -15266,13 +15266,13 @@ traceSlots
 fixedStart
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 fixedEnd
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -15286,13 +15286,13 @@ traceSlots
 dynStart
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 dynEnd
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -17190,7 +17190,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -17221,7 +17221,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -17275,7 +17275,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
@@ -17306,7 +17306,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 )
