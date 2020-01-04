@@ -1493,15 +1493,6 @@ mAddition
 (
 addition
 )
-mPosition
-(
-baseSet
--
->
-GetInterfaceCount
-(
-)
-)
 {
 MOZ_ASSERT
 (
