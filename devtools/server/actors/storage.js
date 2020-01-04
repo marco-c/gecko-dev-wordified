@@ -912,8 +912,6 @@ host
 *
 /
 getHostName
-:
-function
 (
 location
 )
@@ -930,8 +928,6 @@ href
 ;
 }
 initialize
-:
-function
 (
 storageActor
 )
@@ -1041,8 +1037,6 @@ onWindowDestroyed
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1113,8 +1107,6 @@ null
 ;
 }
 getNamesForHost
-:
-function
 (
 host
 )
@@ -1140,8 +1132,6 @@ keys
 ;
 }
 getValuesForHost
-:
-function
 (
 host
 name
@@ -1191,8 +1181,6 @@ values
 ;
 }
 getObjectsSize
-:
-function
 (
 host
 names
@@ -1379,8 +1367,6 @@ removed
 *
 /
 onWindowDestroyed
-:
-function
 (
 window
 )
@@ -1471,8 +1457,6 @@ data
 }
 }
 form
-:
-function
 (
 form
 detail
@@ -1554,8 +1538,6 @@ value
 *
 /
 populateStoresForHosts
-:
-function
 (
 )
 {
@@ -2573,8 +2555,6 @@ cookies
 }
 {
 initialize
-:
-function
 (
 storageActor
 )
@@ -2679,8 +2659,6 @@ onWindowDestroyed
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2818,8 +2796,6 @@ to
 *
 /
 getMatchingHosts
-:
-function
 (
 cookies
 )
@@ -2921,8 +2897,6 @@ host
 *
 /
 isCookieAtHost
-:
-function
 (
 cookie
 host
@@ -3016,8 +2990,6 @@ host
 ;
 }
 toStoreObject
-:
-function
 (
 cookie
 )
@@ -3138,8 +3110,6 @@ isHttpOnly
 ;
 }
 populateStoresForHost
-:
-function
 (
 host
 )
@@ -3307,8 +3277,6 @@ topic
 *
 /
 onCookieChanged
-:
-function
 (
 subject
 topic
@@ -3808,8 +3776,6 @@ domain
 }
 )
 maybeSetupChildProcess
-:
-function
 (
 )
 {
@@ -4179,8 +4145,6 @@ cookieHelpers
 =
 {
 getCookiesFromHost
-:
-function
 (
 host
 )
@@ -4447,8 +4411,6 @@ false
 *
 /
 editCookie
-:
-function
 (
 data
 )
@@ -4908,8 +4870,6 @@ expires
 ;
 }
 _removeCookies
-:
-function
 (
 host
 opts
@@ -5085,8 +5045,6 @@ originAttributes
 }
 }
 removeCookie
-:
-function
 (
 host
 name
@@ -5114,8 +5072,6 @@ name
 }
 }
 removeAllCookies
-:
-function
 (
 host
 domain
@@ -5133,8 +5089,6 @@ domain
 ;
 }
 addCookieObservers
-:
-function
 (
 )
 {
@@ -5158,8 +5112,6 @@ null
 ;
 }
 removeCookieObservers
-:
-function
 (
 )
 {
@@ -5183,8 +5135,6 @@ null
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -5320,8 +5270,6 @@ break
 }
 }
 handleParentRequest
-:
-function
 (
 msg
 )
@@ -5376,8 +5324,6 @@ break
 }
 }
 handleChildRequest
-:
-function
 (
 msg
 )
@@ -5995,8 +5941,6 @@ type
 return
 {
 getNamesForHost
-:
-function
 (
 host
 )
@@ -6023,8 +5967,6 @@ storage
 ;
 }
 getValuesForHost
-:
-function
 (
 host
 name
@@ -6099,8 +6041,6 @@ key
 ;
 }
 getHostName
-:
-function
 (
 location
 )
@@ -6135,8 +6075,6 @@ host
 ;
 }
 populateStoresForHost
-:
-function
 (
 host
 window
@@ -6180,8 +6118,6 @@ null
 ;
 }
 populateStoresForHosts
-:
-function
 (
 )
 {
@@ -6456,8 +6392,6 @@ clear
 }
 )
 observe
-:
-function
 (
 subject
 topic
@@ -6635,8 +6569,6 @@ part
 *
 /
 getSchemaAndHost
-:
-function
 (
 url
 )
@@ -6686,8 +6618,6 @@ hostPort
 ;
 }
 toStoreObject
-:
-function
 (
 item
 )
@@ -6999,8 +6929,6 @@ host
 }
 )
 form
-:
-function
 (
 form
 detail
@@ -7066,8 +6994,6 @@ hosts
 ;
 }
 getNamesForHost
-:
-function
 (
 host
 )
@@ -7331,8 +7257,6 @@ statusText
 }
 )
 getHostName
-:
-function
 (
 location
 )
@@ -7506,8 +7430,6 @@ asynchronously
 *
 /
 populateStoresForHosts
-:
-function
 (
 )
 {
@@ -7539,8 +7461,6 @@ part
 *
 /
 getSchemaAndHost
-:
-function
 (
 url
 )
@@ -7576,8 +7496,6 @@ hostPort
 ;
 }
 toStoreObject
-:
-function
 (
 item
 )
@@ -7693,8 +7611,6 @@ prototype
 =
 {
 toObject
-:
-function
 (
 )
 {
@@ -7912,8 +7828,6 @@ prototype
 =
 {
 toObject
-:
-function
 (
 )
 {
@@ -8152,8 +8066,6 @@ _objectStores
 ;
 }
 toObject
-:
-function
 (
 )
 {
@@ -8199,8 +8111,6 @@ indexedDB
 }
 {
 initialize
-:
-function
 (
 storageActor
 )
@@ -8306,8 +8216,6 @@ onWindowDestroyed
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -8446,8 +8354,6 @@ name
 }
 )
 getHostName
-:
-function
 (
 location
 )
@@ -8519,15 +8425,11 @@ asynchronously
 *
 /
 populateStoresForHosts
-:
-function
 (
 )
 {
 }
 getNamesForHost
-:
-function
 (
 host
 )
@@ -8780,8 +8682,6 @@ db
 *
 /
 getObjectsSize
-:
-function
 (
 host
 names
@@ -9303,8 +9203,6 @@ entity
 *
 /
 toStoreObject
-:
-function
 (
 item
 )
@@ -9431,8 +9329,6 @@ value
 ;
 }
 form
-:
-function
 (
 form
 detail
@@ -9562,8 +9458,6 @@ name
 ;
 }
 maybeSetupChildProcess
-:
-function
 (
 )
 {
@@ -9579,21 +9473,13 @@ this
 .
 backToChild
 =
-function
 (
-.
-.
-.
-args
+func
+rv
 )
-{
-return
-args
-[
-1
-]
-;
-}
+=
+>
+rv
 ;
 this
 .
@@ -9937,8 +9823,6 @@ indexedDBHelpers
 =
 {
 backToChild
-:
-function
 (
 .
 .
@@ -10252,8 +10136,6 @@ name
 *
 /
 openWithPrincipal
-:
-function
 (
 principal
 name
@@ -10839,8 +10721,6 @@ name
 *
 /
 getSanitizedHost
-:
-function
 (
 host
 )
@@ -11569,8 +11449,6 @@ fetched
 *
 /
 getObjectStoreData
-:
-function
 (
 host
 principal
@@ -12002,8 +11880,6 @@ Maps
 *
 /
 patchMetadataMapsAndProtos
-:
-function
 (
 metadata
 )
@@ -12162,8 +12038,6 @@ md
 ;
 }
 handleChildRequest
-:
-function
 (
 msg
 )
@@ -12562,8 +12436,6 @@ childWindowPool
 ;
 }
 initialize
-:
-function
 (
 conn
 tabActor
@@ -12785,8 +12657,6 @@ boundUpdate
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -13012,8 +12882,6 @@ extracted
 *
 /
 fetchChildWindows
-:
-function
 (
 item
 )
@@ -13151,8 +13019,6 @@ null
 ;
 }
 isIncludedInTopLevelWindow
-:
-function
 (
 window
 )
@@ -13168,8 +13034,6 @@ window
 ;
 }
 getWindowFromInnerWindowID
-:
-function
 (
 innerID
 )
@@ -13240,8 +13104,6 @@ null
 ;
 }
 getWindowFromHost
-:
-function
 (
 host
 )
@@ -13338,8 +13200,6 @@ removed
 *
 /
 observe
-:
-function
 (
 subject
 topic
@@ -13594,8 +13454,6 @@ event
 *
 /
 onPageChange
-:
-function
 (
 {
 target
@@ -14050,8 +13908,6 @@ reloaded
 *
 /
 update
-:
-function
 (
 action
 storeType
@@ -14784,8 +14640,6 @@ objects
 *
 /
 removeNamesFromUpdateList
-:
-function
 (
 action
 storeType
