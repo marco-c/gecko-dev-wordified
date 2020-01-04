@@ -625,6 +625,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+isShared
+;
 char
 *
 src
@@ -641,6 +644,8 @@ mArrayBuffer
 get
 (
 )
+&
+isShared
 nogc
 )
 +
@@ -648,6 +653,16 @@ mOffset
 +
 mPos
 ;
+MOZ_ASSERT
+(
+!
+isShared
+)
+;
+/
+/
+Because
+ArrayBuffer
 memcpy
 (
 buffer
