@@ -10651,10 +10651,6 @@ WasmActivation
 *
 prevWasm_
 ;
-WasmActivation
-*
-prevWasmForInstance_
-;
 void
 *
 entrySP_

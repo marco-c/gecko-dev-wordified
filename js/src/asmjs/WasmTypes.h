@@ -6599,7 +6599,7 @@ endif
 static
 const
 unsigned
-ActivationGlobalDataOffset
+ContextPtrGlobalDataOffset
 =
 0
 ;
@@ -6608,7 +6608,7 @@ const
 unsigned
 HeapGlobalDataOffset
 =
-ActivationGlobalDataOffset
+ContextPtrGlobalDataOffset
 +
 sizeof
 (
