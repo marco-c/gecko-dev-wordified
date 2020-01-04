@@ -1666,6 +1666,17 @@ emitTraceLoggerExit
 (
 )
 ;
+MOZ_MUST_USE
+bool
+emitTraceLoggerResume
+(
+Register
+script
+AllocatableGeneralRegisterSet
+&
+regs
+)
+;
 void
 emitProfilerEnterFrame
 (
