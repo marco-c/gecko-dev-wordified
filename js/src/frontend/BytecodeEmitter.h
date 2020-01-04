@@ -4190,6 +4190,10 @@ emitIteratorNext
 ParseNode
 *
 pn
+bool
+allowSelfHosted
+=
+false
 )
 ;
 /
@@ -4429,6 +4433,14 @@ pn
 ;
 bool
 emitSelfHostedForceInterpreter
+(
+ParseNode
+*
+pn
+)
+;
+bool
+emitSelfHostedAllowContentSpread
 (
 ParseNode
 *
@@ -4690,6 +4702,10 @@ INDEX
 bool
 emitSpread
 (
+bool
+allowSelfHosted
+=
+false
 )
 ;
 /
@@ -4776,6 +4792,10 @@ type
 ParseNode
 *
 pn
+bool
+allowSelfHosted
+=
+false
 )
 ;
 bool

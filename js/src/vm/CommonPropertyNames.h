@@ -155,6 +155,15 @@ add
 \
 macro
 (
+allowContentSpread
+allowContentSpread
+"
+allowContentSpread
+"
+)
+\
+macro
+(
 anonymous
 anonymous
 "
