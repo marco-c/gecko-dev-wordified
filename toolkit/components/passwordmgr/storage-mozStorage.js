@@ -961,13 +961,6 @@ initialize
 )
 ;
 }
-/
-*
-*
-initialize
-*
-*
-/
 initialize
 :
 function
@@ -1178,8 +1171,6 @@ failed
 /
 *
 *
-terminate
-*
 *
 Internal
 method
@@ -1219,13 +1210,6 @@ resolve
 )
 ;
 }
-/
-*
-*
-addLogin
-*
-*
-/
 addLogin
 :
 function
@@ -1674,13 +1658,6 @@ loginClone
 )
 ;
 }
-/
-*
-*
-removeLogin
-*
-*
-/
 removeLogin
 :
 function
@@ -1874,13 +1851,6 @@ storedLogin
 )
 ;
 }
-/
-*
-*
-modifyLogin
-*
-*
-/
 modifyLogin
 :
 function
@@ -2354,8 +2324,6 @@ newLogin
 }
 /
 *
-*
-getAllLogins
 *
 *
 Returns
@@ -3438,7 +3406,6 @@ ids
 }
 /
 *
-storeDeletedLogin
 *
 *
 Moves
@@ -3449,7 +3416,6 @@ the
 deleted
 logins
 table
-*
 *
 /
 storeDeletedLogin
@@ -3568,8 +3534,6 @@ reset
 }
 /
 *
-*
-removeAllLogins
 *
 *
 Removes
@@ -3762,13 +3726,6 @@ null
 )
 ;
 }
-/
-*
-*
-findLogins
-*
-*
-/
 findLogins
 :
 function
@@ -3905,13 +3862,6 @@ return
 logins
 ;
 }
-/
-*
-*
-countLogins
-*
-*
-/
 countLogins
 :
 function
@@ -4128,12 +4078,6 @@ return
 resultLogins
 ;
 }
-/
-*
-*
-uiBusy
-*
-/
 get
 uiBusy
 (
@@ -4147,12 +4091,6 @@ _crypto
 uiBusy
 ;
 }
-/
-*
-*
-isLoggedIn
-*
-/
 get
 isLoggedIn
 (
@@ -4168,8 +4106,6 @@ isLoggedIn
 }
 /
 *
-*
-_getIdForLogin
 *
 *
 Returns
@@ -4430,8 +4366,6 @@ foundLogin
 /
 *
 *
-_buildConditionsAndParams
-*
 *
 Adjusts
 the
@@ -4658,8 +4592,6 @@ params
 /
 *
 *
-_isGuidUnique
-*
 *
 Checks
 to
@@ -4796,8 +4728,6 @@ numLogins
 /
 *
 *
-_encryptLogin
-*
 *
 Returns
 the
@@ -4880,8 +4810,6 @@ encType
 }
 /
 *
-*
-_decryptLogins
 *
 *
 Decrypts
@@ -5175,8 +5103,6 @@ Access
 /
 *
 *
-_dbCreateStatement
-*
 *
 Creates
 a
@@ -5315,8 +5241,6 @@ wrappedStmt
 }
 /
 *
-*
-_dbInit
 *
 *
 Attempts
@@ -6102,8 +6026,6 @@ completed
 /
 *
 *
-_dbMigrateToVersion2
-*
 *
 Version
 2
@@ -6425,8 +6347,6 @@ reset
 }
 /
 *
-*
-_dbMigrateToVersion3
 *
 *
 Version
@@ -6808,8 +6728,6 @@ reset
 /
 *
 *
-_dbMigrateToVersion4
-*
 *
 Version
 4
@@ -7144,8 +7062,6 @@ reset
 /
 *
 *
-_dbMigrateToVersion5
-*
 *
 Version
 5
@@ -7198,8 +7114,6 @@ moz_deleted_logins
 }
 /
 *
-*
-_dbMigrateToVersion6
 *
 *
 Version
@@ -7391,8 +7305,6 @@ query
 }
 /
 *
-*
-_dbAreExpectedColumnsPresent
 *
 *
 Sanity
@@ -7630,8 +7542,6 @@ true
 /
 *
 *
-_dbColumnExists
-*
 *
 Checks
 to
@@ -7828,8 +7738,6 @@ null
 /
 *
 *
-_dbCleanup
-*
 *
 Called
 when
@@ -7879,6 +7787,7 @@ backup
 +
 backup
 )
+;
 /
 /
 Create
