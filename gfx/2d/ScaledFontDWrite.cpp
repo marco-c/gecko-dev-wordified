@@ -93,7 +93,7 @@ MPL
 #
 include
 "
-DrawTargetD2D1
+DrawTargetD2D
 .
 h
 "
@@ -667,7 +667,7 @@ IDWriteFactory
 *
 factory
 =
-DrawTargetD2D1
+DrawTargetD2D
 :
 :
 GetDWriteFactory

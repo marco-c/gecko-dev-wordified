@@ -648,15 +648,6 @@ NONE
 =
 0
 DIRECT2D
-/
-/
-Used
-for
-version
-independent
-D2D
-objects
-.
 COREGRAPHICS
 COREGRAPHICS_ACCELERATED
 CAIRO
