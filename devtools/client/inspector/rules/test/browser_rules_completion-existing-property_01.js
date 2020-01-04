@@ -77,11 +77,6 @@ the
 rule
 view
 .
-const
-MAX_ENTRIES
-=
-10
-;
 /
 /
 format
@@ -144,7 +139,7 @@ font
 size
 "
 4
-MAX_ENTRIES
+17
 ]
 [
 "
@@ -431,10 +426,12 @@ VK_PAGE_DOWN
 f
 "
 "
-filter
+font
+-
+size
 "
-3
-MAX_ENTRIES
+19
+32
 ]
 [
 "
