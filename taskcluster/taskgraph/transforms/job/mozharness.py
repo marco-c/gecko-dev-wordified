@@ -1264,6 +1264,26 @@ TOOLTOOL_REV
 master
 '
     
+#
+Retry
+if
+mozharness
+returns
+TBPL_RETRY
+    
+worker
+[
+'
+retry
+-
+exit
+-
+status
+'
+]
+=
+4
+    
 docker_worker_setup_secrets
 (
 config
