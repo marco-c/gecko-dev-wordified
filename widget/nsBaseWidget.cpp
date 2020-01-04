@@ -4602,7 +4602,7 @@ nsIWidget
 aChild
 )
 {
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 !
 aChild
@@ -4654,12 +4654,12 @@ append
 to
 the
 list
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 mLastChild
 )
 ;
-MOZ_RELEASE_ASSERT
+NS_ASSERTION
 (
 !
 mLastChild
