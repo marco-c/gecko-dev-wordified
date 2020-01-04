@@ -210,6 +210,13 @@ screenshot
 )
 .
 isRequired
+swapAfterMount
+:
+PropTypes
+.
+bool
+.
+isRequired
 viewport
 :
 PropTypes
@@ -647,6 +654,7 @@ let
 devices
 location
 screenshot
+swapAfterMount
 viewport
 onBrowserMounted
 onChangeViewportDevice
@@ -776,6 +784,7 @@ Browser
 (
 {
 location
+swapAfterMount
 onBrowserMounted
 onContentResize
 }

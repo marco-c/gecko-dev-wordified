@@ -258,7 +258,10 @@ viewports
 .
 map
 (
+(
 viewport
+i
+)
 =
 >
 {
@@ -274,6 +277,12 @@ id
 devices
 location
 screenshot
+swapAfterMount
+:
+i
+=
+=
+0
 viewport
 onBrowserMounted
 onChangeViewportDevice
