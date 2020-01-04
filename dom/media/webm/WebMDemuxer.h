@@ -1381,6 +1381,9 @@ TimeUnit
 >
 mNextKeyframeTime
 ;
+bool
+mNeedKeyframe
+;
 /
 /
 Queued
