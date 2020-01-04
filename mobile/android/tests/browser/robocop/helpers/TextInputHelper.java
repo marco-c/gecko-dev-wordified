@@ -176,7 +176,7 @@ return
 extract
 ;
 }
-private
+public
 static
 String
 getText
