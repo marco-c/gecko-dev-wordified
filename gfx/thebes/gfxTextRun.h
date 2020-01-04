@@ -4232,17 +4232,6 @@ uint32_t
 aDest
 )
 ;
-nsExpirationState
-*
-GetExpirationState
-(
-)
-{
-return
-&
-mExpirationState
-;
-}
 /
 /
 Tell
@@ -5354,9 +5343,6 @@ ReleaseFontGroup
 )
 gfxSkipChars
 mSkipChars
-;
-nsExpirationState
-mExpirationState
 ;
 bool
 mSkipDrawing

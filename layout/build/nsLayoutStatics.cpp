@@ -1237,13 +1237,6 @@ Init
 (
 )
 ;
-nsTextFrameTextRunCache
-:
-:
-Init
-(
-)
-;
 rv
 =
 nsHTMLDNSPrefetch
@@ -1906,13 +1899,6 @@ Shutdown
 )
 ;
 nsCSSRuleProcessor
-:
-:
-Shutdown
-(
-)
-;
-nsTextFrameTextRunCache
 :
 :
 Shutdown
