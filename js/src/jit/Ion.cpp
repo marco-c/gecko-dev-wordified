@@ -5007,10 +5007,15 @@ JitPoisonRange
 (
 pool_
 code_
+-
+headerSize_
+headerSize_
++
 bufferSize_
 )
 )
 )
+{
 pool_
 -
 >
@@ -5018,6 +5023,7 @@ addRef
 (
 )
 ;
+}
 code_
 =
 nullptr
