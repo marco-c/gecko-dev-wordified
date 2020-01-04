@@ -321,9 +321,9 @@ DoorHanger
 (
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
@@ -360,9 +360,9 @@ destroy
 (
 )
 {
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .

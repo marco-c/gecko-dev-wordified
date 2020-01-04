@@ -586,9 +586,9 @@ setFocusable
 false
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
@@ -618,9 +618,9 @@ destroy
 (
 )
 {
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .

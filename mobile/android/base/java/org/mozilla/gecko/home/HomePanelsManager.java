@@ -467,6 +467,10 @@ HomeConfig
 mHomeConfig
 ;
 private
+boolean
+mInitialized
+;
+private
 final
 Queue
 <
@@ -511,6 +515,14 @@ Context
 context
 )
 {
+if
+(
+mInitialized
+)
+{
+return
+;
+}
 mContext
 =
 context
@@ -538,6 +550,10 @@ EVENT_HOMEPANELS_UNINSTALL
 EVENT_HOMEPANELS_UPDATE
 EVENT_HOMEPANELS_REFRESH
 )
+;
+mInitialized
+=
+true
 ;
 }
 public

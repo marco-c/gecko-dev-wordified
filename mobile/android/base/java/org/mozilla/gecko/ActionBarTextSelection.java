@@ -457,9 +457,9 @@ null
 }
 else
 {
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
@@ -558,9 +558,9 @@ null
 }
 else
 {
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .

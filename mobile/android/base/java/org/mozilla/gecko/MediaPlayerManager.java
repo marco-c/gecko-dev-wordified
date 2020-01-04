@@ -493,9 +493,9 @@ onCreate
 savedInstanceState
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
@@ -559,9 +559,9 @@ onDestroy
 (
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .

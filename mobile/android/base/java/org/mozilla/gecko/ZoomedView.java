@@ -1668,9 +1668,9 @@ ZoomedViewTouchListener
 (
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
@@ -1752,9 +1752,9 @@ removeCallbacksFromUiThread
 requestRenderRunnable
 )
 ;
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .

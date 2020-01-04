@@ -688,6 +688,14 @@ init
 (
 )
 {
+if
+(
+mInitialized
+)
+{
+return
+;
+}
 mClearableNotifications
 =
 new

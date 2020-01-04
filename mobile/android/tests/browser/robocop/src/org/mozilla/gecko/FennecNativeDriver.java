@@ -1363,9 +1363,9 @@ setupScrollHandling
 (
 )
 {
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 .
