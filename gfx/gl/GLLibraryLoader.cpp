@@ -451,6 +451,7 @@ if
 (
 warnOnFailure
 )
+{
 printf_stderr
 (
 "
@@ -476,6 +477,7 @@ symNames
 ]
 )
 ;
+}
 failCount
 +
 +

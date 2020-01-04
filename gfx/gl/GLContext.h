@@ -1454,9 +1454,6 @@ bool
 mIsOffscreen
 ;
 bool
-mIsGlobalSharedContext
-;
-bool
 mContextLost
 ;
 /

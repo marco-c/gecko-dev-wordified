@@ -1437,6 +1437,16 @@ mContentType
 (
 aContentType
 )
+mTextureFormat
+(
+gfx
+:
+:
+SurfaceFormat
+:
+:
+UNKNOWN
+)
 mFilter
 (
 Filter
@@ -1669,6 +1679,10 @@ mCurrentImage
 0
 )
 mIterationCallback
+(
+nullptr
+)
+mIterationCallbackData
 (
 nullptr
 )
