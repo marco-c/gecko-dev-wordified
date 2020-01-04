@@ -5372,8 +5372,7 @@ Remove
 }
 if
 (
-!
-isCompartmentGC
+doSweep
 )
 {
 for
