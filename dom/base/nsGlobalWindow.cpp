@@ -78281,6 +78281,12 @@ global
 "
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JS
 :
 :
