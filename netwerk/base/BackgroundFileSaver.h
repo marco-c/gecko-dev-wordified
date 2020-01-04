@@ -1343,7 +1343,7 @@ thread
 .
 *
 /
-nsAutoCString
+nsCString
 mSha256
 ;
 /

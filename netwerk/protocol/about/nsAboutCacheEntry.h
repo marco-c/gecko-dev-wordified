@@ -289,7 +289,7 @@ aWriteCount
 ;
 private
 :
-nsAutoCString
+nsCString
 mStorageName
 mEnhanceId
 ;
