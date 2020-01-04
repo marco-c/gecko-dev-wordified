@@ -638,7 +638,7 @@ anywhere
 else
 !
 void
-SetWithCredentialsSecFlag
+SetIncludeCookiesSecFlag
 (
 )
 ;
