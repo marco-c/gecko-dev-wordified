@@ -15857,7 +15857,11 @@ lexicalScope
 )
 )
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 staticGlobalLexical
 (
 cx

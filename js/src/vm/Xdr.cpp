@@ -691,7 +691,11 @@ this
 return
 false
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 staticLexical
 (
 cx
@@ -770,7 +774,11 @@ this
 return
 false
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 staticLexical
 (
 cx

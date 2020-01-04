@@ -249,6 +249,9 @@ NativeIterator
 class
 ClonedBlockObject
 ;
+class
+StaticNonSyntacticScope
+;
 /
 *
 *
@@ -3438,7 +3441,14 @@ cx
 js
 :
 :
-HandleObject
+Handle
+<
+js
+:
+:
+StaticNonSyntacticScope
+*
+>
 enclosingStatic
 js
 :

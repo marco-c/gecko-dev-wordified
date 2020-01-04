@@ -505,7 +505,7 @@ function_
 ;
 }
 inline
-JSObject
+StaticScope
 *
 LazyScript
 :
@@ -530,7 +530,10 @@ enclosingScope
 namespace
 js
 inline
-JSObject
+js
+:
+:
+StaticScope
 *
 JSScript
 :

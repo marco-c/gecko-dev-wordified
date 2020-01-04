@@ -1724,7 +1724,7 @@ static
 scope
 .
 virtual
-JSObject
+StaticScope
 *
 staticScope
 (
@@ -1736,7 +1736,7 @@ const
 void
 computeAllowSyntax
 (
-JSObject
+StaticScope
 *
 staticScope
 )
@@ -1744,7 +1744,7 @@ staticScope
 void
 computeInWith
 (
-JSObject
+StaticScope
 *
 staticScope
 )
@@ -1752,7 +1752,7 @@ staticScope
 void
 computeThisBinding
 (
-JSObject
+StaticScope
 *
 staticScope
 )
@@ -2234,7 +2234,7 @@ staticScope
 )
 ;
 }
-JSObject
+StaticScope
 *
 staticScope
 (
@@ -2458,7 +2458,7 @@ generatorKind
 bool
 initStaticScope
 (
-JSObject
+StaticScope
 *
 enclosingStaticScope
 )
@@ -2494,7 +2494,7 @@ JSFunction
 )
 ;
 }
-JSObject
+StaticFunctionScope
 *
 staticScope
 (
@@ -2506,7 +2506,7 @@ return
 staticScope_
 ;
 }
-JSObject
+StaticScope
 *
 enclosingStaticScope
 (
@@ -3202,7 +3202,7 @@ ModuleObject
 )
 ;
 }
-JSObject
+StaticModuleScope
 *
 staticScope
 (
