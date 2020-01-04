@@ -2719,6 +2719,14 @@ table
 )
 ;
 }
+mProtocolParser
+-
+>
+SetRequestedTables
+(
+mUpdateTables
+)
+;
 return
 NS_OK
 ;
