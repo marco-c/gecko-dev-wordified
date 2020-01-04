@@ -2943,6 +2943,13 @@ out_failureId
 MOZ_RELEASE_ASSERT
 (
 gl
+"
+GFX
+:
+GL
+not
+initialized
+"
 )
 ;
 /

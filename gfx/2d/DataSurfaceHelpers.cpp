@@ -1818,6 +1818,8 @@ GetFormat
 (
 )
 "
+GFX
+:
 different
 surface
 formats
@@ -1844,6 +1846,8 @@ Contains
 aSrcRect
 )
 "
+GFX
+:
 source
 rect
 too
@@ -1882,6 +1886,8 @@ Size
 )
 )
 "
+GFX
+:
 dest
 surface
 too

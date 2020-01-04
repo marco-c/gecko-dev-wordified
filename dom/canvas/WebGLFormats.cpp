@@ -1351,6 +1351,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Missing
 UnsizedFormat
 case
@@ -3581,6 +3583,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 invalid
 PackingInfo
 "
@@ -8427,6 +8431,15 @@ format
 MOZ_RELEASE_ASSERT
 (
 formatInfo
+"
+GFX
+:
+no
+format
+info
+set
+.
+"
 )
 ;
 FormatUsageInfo

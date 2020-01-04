@@ -4588,6 +4588,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 target
 "
@@ -4657,6 +4659,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 target
 "
@@ -6864,6 +6868,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 We
 should
 have
@@ -9313,6 +9319,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 We
 should
 have
@@ -10276,6 +10284,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 We
 should
 have
@@ -10979,6 +10989,8 @@ break
 MOZ_CRASH
 (
 "
+GFX
+:
 Should
 be
 able
@@ -10996,6 +11008,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Should
 be
 able
@@ -11141,6 +11155,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 unsizedFormat
 .
@@ -11322,6 +11338,8 @@ LOCAL_GL_FRAMEBUFFER_COMPLETE
 MOZ_CRASH
 (
 "
+GFX
+:
 Temp
 framebuffer
 is
@@ -12564,6 +12582,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 We
 should
 have
@@ -13304,6 +13324,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 We
 should
 have

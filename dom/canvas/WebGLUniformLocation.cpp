@@ -575,6 +575,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 uniformType
 .
@@ -1677,6 +1679,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Invalid
 elemType
 .

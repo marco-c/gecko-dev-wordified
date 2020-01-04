@@ -692,6 +692,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 Non
 -
 recycleable

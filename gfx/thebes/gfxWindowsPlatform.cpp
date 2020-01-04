@@ -14865,6 +14865,8 @@ Start
 (
 )
 "
+GFX
+:
 Could
 not
 start
@@ -16217,6 +16219,15 @@ MOZ_RELEASE_ASSERT
 NS_IsMainThread
 (
 )
+"
+GFX
+:
+Not
+in
+main
+thread
+.
+"
 )
 ;
 if

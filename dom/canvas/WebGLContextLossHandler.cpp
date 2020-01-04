@@ -1183,6 +1183,15 @@ GetCurrentThreadWorkerPrivate
 MOZ_RELEASE_ASSERT
 (
 workerPrivate
+"
+GFX
+:
+No
+private
+worker
+created
+.
+"
 )
 ;
 workerPrivate

@@ -2442,6 +2442,14 @@ r
 IsEmpty
 (
 )
+"
+GFX
+:
+rect
+is
+empty
+.
+"
 )
 ;
 WriteParam

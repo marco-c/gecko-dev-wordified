@@ -222,6 +222,15 @@ mGL
 IsCurrent
 (
 )
+"
+GFX
+:
+GL
+context
+not
+current
+.
+"
 )
 ;
 while

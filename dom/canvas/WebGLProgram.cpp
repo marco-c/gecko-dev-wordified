@@ -1139,6 +1139,8 @@ gl_InstanceID
 MOZ_CRASH
 (
 "
+GFX
+:
 Active
 attrib
 has
@@ -1312,6 +1314,8 @@ arrayIndex
 MOZ_CRASH
 (
 "
+GFX
+:
 Failed
 to
 parse
@@ -1723,6 +1727,8 @@ arrayIndex
 MOZ_CRASH
 (
 "
+GFX
+:
 Failed
 to
 parse
@@ -2050,6 +2056,8 @@ arrayIndex
 MOZ_CRASH
 (
 "
+GFX
+:
 Failed
 to
 parse
@@ -6603,6 +6611,17 @@ gl
 MOZ_RELEASE_ASSERT
 (
 mMostRecentLinkInfo
+"
+GFX
+:
+most
+rent
+link
+info
+not
+set
+.
+"
 )
 ;
 }

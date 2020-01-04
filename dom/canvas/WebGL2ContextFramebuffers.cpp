@@ -1913,6 +1913,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -2260,6 +2262,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -2610,6 +2614,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
