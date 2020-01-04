@@ -3862,6 +3862,14 @@ Allow
 ;
 #
 endif
+case
+__NR_mlock
+:
+return
+Allow
+(
+)
+;
 #
 endif
 /
