@@ -9047,6 +9047,11 @@ WithParamInterface
 PresentedMatchesReference
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -9227,6 +9232,11 @@ WithParamInterface
 InputValidity
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -9449,6 +9459,11 @@ WithParamInterface
 InputValidity
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -9578,6 +9593,11 @@ IPAddressParams
 >
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -9735,6 +9755,11 @@ IPAddressParams
 >
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -10003,6 +10028,11 @@ WithParamInterface
 CheckCertHostnameParams
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 #
@@ -14987,6 +15017,7 @@ CheckCertHostname
 (
 certInput
 hostnameInput
+mNameMatchingPolicy
 )
 )
 ;
@@ -15217,6 +15248,7 @@ Input
 (
 a
 )
+mNameMatchingPolicy
 )
 )
 ;
@@ -15242,6 +15274,11 @@ WithParamInterface
 PresentedMatchesReference
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -15377,6 +15414,7 @@ CheckCertHostname
 (
 certInput
 hostnameInput
+mNameMatchingPolicy
 )
 )
 ;
@@ -15530,6 +15568,7 @@ CheckCertHostname
 (
 certInput
 hostnameInput
+mNameMatchingPolicy
 )
 )
 ;
@@ -15733,6 +15772,7 @@ CheckCertHostname
 (
 certInput
 UPPERCASE_I
+mNameMatchingPolicy
 )
 )
 ;
@@ -15743,6 +15783,7 @@ CheckCertHostname
 (
 certInput
 LOWERCASE_I
+mNameMatchingPolicy
 )
 )
 ;
@@ -15949,6 +15990,7 @@ CheckCertHostname
 (
 certInput
 UPPERCASE_I
+mNameMatchingPolicy
 )
 )
 ;
@@ -15959,6 +16001,7 @@ CheckCertHostname
 (
 certInput
 LOWERCASE_I
+mNameMatchingPolicy
 )
 )
 ;
@@ -15987,6 +16030,11 @@ IPAddressParams
 >
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P
@@ -16129,6 +16177,7 @@ CheckCertHostname
 (
 certInput
 hostnameInput
+mNameMatchingPolicy
 )
 )
 ;
@@ -16311,6 +16360,7 @@ CheckCertHostname
 (
 certInput
 hostnameInput
+mNameMatchingPolicy
 )
 )
 ;
@@ -23784,6 +23834,11 @@ WithParamInterface
 NameConstraintParams
 >
 {
+public
+:
+DefaultNameMatchingPolicy
+mNameMatchingPolicy
+;
 }
 ;
 TEST_P

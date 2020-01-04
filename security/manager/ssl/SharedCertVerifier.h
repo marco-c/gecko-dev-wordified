@@ -130,6 +130,11 @@ PinningMode
 pinningMode
 SHA1Mode
 sha1Mode
+BRNameMatchingPolicy
+:
+:
+Mode
+nameMatchingMode
 )
 :
 mozilla
@@ -146,6 +151,7 @@ ogc
 certShortLifetimeInDays
 pinningMode
 sha1Mode
+nameMatchingMode
 )
 {
 }
