@@ -5006,6 +5006,28 @@ self
 unzip
                 
 }
+                
+'
+application
+/
+x
+-
+zip
+-
+compressed
+'
+:
+{
+                    
+'
+function
+'
+:
+self
+.
+unzip
+                
+}
             
 }
             
