@@ -737,6 +737,7 @@ rv
 &
 exists
 )
+{
 array
 .
 AppendObject
@@ -750,6 +751,7 @@ return
 /
 all
 done
+}
 }
 }
 /
