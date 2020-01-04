@@ -1661,9 +1661,6 @@ PrependLocalTransformsTo
 gfxMatrix
 (
 )
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 )
