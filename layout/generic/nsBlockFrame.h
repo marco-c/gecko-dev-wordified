@@ -178,6 +178,7 @@ nsFloatManager
 h
 "
 enum
+class
 LineReflowStatus
 {
 /
@@ -209,7 +210,7 @@ line
 if
 possible
 .
-LINE_REFLOW_OK
+OK
 /
 /
 The
@@ -238,7 +239,7 @@ the
 next
 line
 .
-LINE_REFLOW_STOP
+Stop
 /
 /
 We
@@ -272,7 +273,7 @@ the
 next
 line
 .
-LINE_REFLOW_REDO_NO_PULL
+RedoNoPull
 /
 /
 We
@@ -309,7 +310,7 @@ to
 its
 top
 .
-LINE_REFLOW_REDO_MORE_FLOATS
+RedoMoreFloats
 /
 /
 We
@@ -339,7 +340,7 @@ different
 float
 configuration
 .
-LINE_REFLOW_REDO_NEXT_BAND
+RedoNextBand
 /
 /
 The
@@ -379,7 +380,7 @@ page
 /
 column
 .
-LINE_REFLOW_TRUNCATED
+Truncated
 }
 ;
 class
@@ -1171,7 +1172,7 @@ char
 *
 LineReflowStatusToString
 (
-uint8_t
+LineReflowStatus
 aLineReflowStatus
 )
 const
