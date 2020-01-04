@@ -31,6 +31,17 @@ details
 *
 /
 #
+ifndef
+NOMINMAX
+#
+define
+NOMINMAX
+#
+endif
+/
+/
+NOMINMAX
+#
 include
 <
 algorithm

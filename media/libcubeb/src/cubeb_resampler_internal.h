@@ -1526,7 +1526,7 @@ return
 (
 uint32_t
 )
-ceilf
+roundf
 (
 (
 output_frame_count
