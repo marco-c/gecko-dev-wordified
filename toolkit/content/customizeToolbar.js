@@ -4127,7 +4127,7 @@ dataTransfer
 .
 types
 .
-contains
+includes
 (
 "
 text
@@ -4891,7 +4891,7 @@ dataTransfer
 .
 types
 .
-contains
+includes
 (
 "
 text
