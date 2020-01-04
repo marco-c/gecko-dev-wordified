@@ -272,10 +272,7 @@ objectPassedToWrap
 {
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 return

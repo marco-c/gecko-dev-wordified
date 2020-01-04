@@ -1053,10 +1053,7 @@ cx
 {
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 /
@@ -1073,10 +1070,7 @@ end
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 }

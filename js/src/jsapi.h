@@ -9736,9 +9736,9 @@ void
 )
 JS_GC
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern

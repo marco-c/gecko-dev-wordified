@@ -6295,7 +6295,10 @@ rt
 {
 JS_GC
 (
+JS_GetContext
+(
 rt
+)
 )
 ;
 }

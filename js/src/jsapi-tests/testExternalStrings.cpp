@@ -350,7 +350,7 @@ arrlen
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 /

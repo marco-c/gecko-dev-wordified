@@ -13002,10 +13002,7 @@ JS
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 /

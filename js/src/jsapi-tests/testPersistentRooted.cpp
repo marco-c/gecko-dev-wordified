@@ -407,10 +407,7 @@ finalizeCount
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 return
@@ -521,10 +518,7 @@ barker
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -585,10 +579,7 @@ obj
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -735,10 +726,7 @@ barker
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -986,10 +974,7 @@ barker
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -1143,10 +1128,7 @@ barker
 .
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK

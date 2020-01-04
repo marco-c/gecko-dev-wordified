@@ -322,9 +322,6 @@ static
 void
 RunTest
 (
-JSRuntime
-*
-rt
 JSContext
 *
 cx
@@ -335,7 +332,7 @@ array
 {
 JS_GC
 (
-rt
+cx
 )
 ;
 ASSERT_TRUE
@@ -498,7 +495,7 @@ heap
 /
 JS_GC
 (
-rt
+cx
 )
 ;
 /
@@ -609,9 +606,6 @@ static
 void
 CreateGlobalAndRunTest
 (
-JSRuntime
-*
-rt
 JSContext
 *
 cx
@@ -737,7 +731,6 @@ InitialElements
 ;
 RunTest
 (
-rt
 cx
 array
 )
@@ -765,7 +758,6 @@ InitialElements
 ;
 RunTest
 (
-rt
 cx
 array
 )
@@ -784,7 +776,6 @@ array
 ;
 RunTest
 (
-rt
 cx
 &
 array
@@ -858,7 +849,6 @@ cx
 ;
 CreateGlobalAndRunTest
 (
-rt
 cx
 )
 ;

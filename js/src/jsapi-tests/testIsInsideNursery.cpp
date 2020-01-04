@@ -179,7 +179,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 JS
@@ -223,7 +223,7 @@ object
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 /

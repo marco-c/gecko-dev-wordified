@@ -193,7 +193,7 @@ script
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 /
