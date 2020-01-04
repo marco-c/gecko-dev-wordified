@@ -22044,6 +22044,15 @@ MOZ_ASSERT
 aData
 )
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+kungFuDeathGrip
+(
+aDocument
+)
+;
 aDocument
 -
 >
