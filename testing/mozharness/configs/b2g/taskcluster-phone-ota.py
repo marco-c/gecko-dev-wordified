@@ -496,9 +496,6 @@ update_types
 "
 ota
 "
-"
-fota
-"
 ]
     
 "
