@@ -4542,6 +4542,7 @@ UsageRequestParams
 aParams
 )
 ;
+MOZ_IS_CLASS_INIT
 bool
 Init
 (
@@ -4558,6 +4559,7 @@ GetUsageOp
 )
 {
 }
+MOZ_IS_CLASS_INIT
 virtual
 nsresult
 DoInitOnMainThread
