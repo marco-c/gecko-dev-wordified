@@ -557,8 +557,6 @@ js
 :
 :
 Thread
-0
-SystemAllocPolicy
 >
 v
 ;
