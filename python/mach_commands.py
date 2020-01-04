@@ -2162,11 +2162,6 @@ return
 #
 Install
 eslint
-1
-.
-10
-.
-3
 .
         
 #
@@ -2207,7 +2202,7 @@ install
 eslint
 2
 .
-8
+9
 .
 0
 "
