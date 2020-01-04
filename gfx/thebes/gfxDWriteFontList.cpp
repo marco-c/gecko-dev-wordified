@@ -9996,6 +9996,12 @@ aFactory
 fontDir
 )
 ;
+NS_ADDREF
+(
+*
+aFontFileEnumerator
+)
+;
 return
 S_OK
 ;
