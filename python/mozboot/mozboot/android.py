@@ -1934,7 +1934,7 @@ os_name
 ver
 =
 '
-r10e
+r11b
 '
 )
 :
@@ -1957,21 +1957,19 @@ com
 /
 android
 /
-ndk
+repository
 /
 android
 -
 ndk
 -
-r10e
+r11b
 -
 linux
 -
 x86_64
 .
-bin
-'
-.
+zip
     
 base_url
 =
@@ -1988,7 +1986,7 @@ com
 /
 android
 /
-ndk
+repository
 /
 android
 -
@@ -2035,7 +2033,7 @@ s
 %
 s
 .
-bin
+zip
 '
 %
 (
