@@ -414,7 +414,7 @@ bool
 aIsOnlyNode
 )
 ;
-void
+nsresult
 CreateAudioChannelAgent
 (
 )
@@ -526,13 +526,13 @@ nsIAudioChannelAgent
 >
 mAudioChannelAgent
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
 mCaptureStreamPort
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
