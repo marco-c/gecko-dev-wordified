@@ -10410,7 +10410,6 @@ StopControllingADocument
 ;
 if
 (
-!
 aRegistration
 -
 >
@@ -10419,6 +10418,9 @@ IsControllingDocuments
 )
 )
 {
+return
+;
+}
 if
 (
 aRegistration
@@ -10432,9 +10434,9 @@ RemoveRegistration
 aRegistration
 )
 ;
+return
+;
 }
-else
-{
 /
 /
 We
@@ -10496,8 +10498,6 @@ TryToActivateAsync
 (
 )
 ;
-}
-}
 }
 NS_IMETHODIMP
 ServiceWorkerManager
