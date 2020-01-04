@@ -184,7 +184,7 @@ isAsmJSModuleLoadedFromCache
 (
 m
 )
-true
+false
 )
 ;
 var
