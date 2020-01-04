@@ -1205,7 +1205,7 @@ tests
 )
 )
             
-requirements_file
+requirements
 =
 os
 .
@@ -1214,7 +1214,7 @@ path
 join
 (
 test_install_dir
-                                             
+                                        
 '
 config
 '
@@ -1225,17 +1225,6 @@ txt
 '
 )
             
-if
-os
-.
-path
-.
-isfile
-(
-requirements_file
-)
-:
-                
 self
 .
 register_virtualenv_module
@@ -1243,8 +1232,11 @@ register_virtualenv_module
 requirements
 =
 [
-requirements_file
+requirements
 ]
+two_pass
+=
+True
 )
         
 #
@@ -1274,6 +1266,21 @@ ui
 tests
 package
 separately
+        
+#
+TODO
+-
+Can
+be
+removed
+when
+the
+github
+repository
+is
+no
+longer
+needed
         
 else
 :
@@ -1306,7 +1313,7 @@ t
 break
 something
             
-requirements_file
+requirements
 =
 os
 .
@@ -1321,7 +1328,7 @@ get
 '
 abs_test_install_dir
 '
-                                                      
+                                                 
 os
 .
 path
@@ -1339,7 +1346,7 @@ tests
 '
 )
 )
-                                             
+                                        
 '
 requirements
 .
@@ -1347,17 +1354,6 @@ txt
 '
 )
             
-if
-os
-.
-path
-.
-isfile
-(
-requirements_file
-)
-:
-                
 self
 .
 register_virtualenv_module
@@ -1365,54 +1361,8 @@ register_virtualenv_module
 requirements
 =
 [
-requirements_file
+requirements
 ]
-)
-            
-#
-Optional
-packages
-to
-be
-installed
-e
-.
-g
-.
-for
-Jenkins
-            
-if
-self
-.
-config
-.
-get
-(
-'
-virtualenv_modules
-'
-)
-:
-                
-for
-module
-in
-self
-.
-config
-[
-'
-virtualenv_modules
-'
-]
-:
-                    
-self
-.
-register_virtualenv_module
-(
-module
 )
     
 def
