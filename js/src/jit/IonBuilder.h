@@ -5744,6 +5744,7 @@ target
 ;
 /
 /
+SIMD
 helpers
 static
 MIRType
@@ -5757,7 +5758,7 @@ type
 )
 ;
 bool
-checkInlineSimd
+canInlineSimd
 (
 CallInfo
 &
@@ -5839,7 +5840,7 @@ typename
 T
 >
 InliningStatus
-inlineBinarySimd
+inlineSimdBinary
 (
 CallInfo
 &
@@ -5860,7 +5861,7 @@ type
 )
 ;
 InliningStatus
-inlineCompSimd
+inlineSimdComp
 (
 CallInfo
 &
@@ -5880,7 +5881,7 @@ compType
 )
 ;
 InliningStatus
-inlineUnarySimd
+inlineSimdUnary
 (
 CallInfo
 &

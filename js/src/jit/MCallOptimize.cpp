@@ -20302,7 +20302,7 @@ OP
 )
 \
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdBinaryBitwise
 >
@@ -20383,7 +20383,7 @@ js
 simd_bool32x4_not
 )
 return
-inlineUnarySimd
+inlineSimdUnary
 (
 callInfo
 native
@@ -20517,7 +20517,7 @@ OP
 )
 \
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdBinaryArith
 >
@@ -20567,7 +20567,7 @@ OP
 )
 \
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdBinaryBitwise
 >
@@ -20606,7 +20606,7 @@ js
 simd_int32x4_shiftLeftByScalar
 )
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdShift
 >
@@ -20644,7 +20644,7 @@ simd_int32x4_shiftRightByScalar
 )
 {
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdShift
 >
@@ -20673,7 +20673,7 @@ js
 simd_int32x4_shiftRightLogicalByScalar
 )
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdShift
 >
@@ -20712,7 +20712,7 @@ OP
 )
 \
 return
-inlineCompSimd
+inlineSimdComp
 (
 callInfo
 native
@@ -20786,7 +20786,7 @@ js
 simd_int32x4_not
 )
 return
-inlineUnarySimd
+inlineSimdUnary
 (
 callInfo
 native
@@ -20811,7 +20811,7 @@ js
 simd_int32x4_neg
 )
 return
-inlineUnarySimd
+inlineSimdUnary
 (
 callInfo
 native
@@ -21218,7 +21218,7 @@ OP
 )
 \
 return
-inlineBinarySimd
+inlineSimdBinary
 <
 MSimdBinaryArith
 >
@@ -21272,7 +21272,7 @@ OP
 )
 \
 return
-inlineCompSimd
+inlineSimdComp
 (
 callInfo
 native
@@ -21357,7 +21357,7 @@ OP
 )
 \
 return
-inlineUnarySimd
+inlineSimdUnary
 (
 callInfo
 native
@@ -22502,7 +22502,7 @@ bool
 IonBuilder
 :
 :
-checkInlineSimd
+canInlineSimd
 (
 CallInfo
 &
@@ -22705,7 +22705,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineBinarySimd
+inlineSimdBinary
 (
 CallInfo
 &
@@ -22734,7 +22734,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -22868,7 +22868,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineCompSimd
+inlineSimdComp
 (
 CallInfo
 &
@@ -22896,7 +22896,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23033,7 +23033,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineUnarySimd
+inlineSimdUnary
 (
 CallInfo
 &
@@ -23061,7 +23061,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23079,7 +23079,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MIRType
 mirType
 =
@@ -23149,7 +23149,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23167,7 +23167,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MIRType
 mirType
 =
@@ -23273,7 +23273,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23360,7 +23360,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MIRType
 vecType
 =
@@ -23459,7 +23459,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23541,7 +23541,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MIRType
 mirType
 =
@@ -23664,7 +23664,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23682,7 +23682,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MInstruction
 *
 ins
@@ -23787,7 +23787,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23805,7 +23805,7 @@ InliningStatus_NotInlined
 See
 comment
 in
-inlineBinarySimd
+inlineSimdBinary
 MIRType
 mirType
 =
@@ -23886,7 +23886,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -23993,7 +23993,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -24145,7 +24145,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -24821,7 +24821,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
@@ -24959,7 +24959,7 @@ nullptr
 if
 (
 !
-checkInlineSimd
+canInlineSimd
 (
 callInfo
 native
