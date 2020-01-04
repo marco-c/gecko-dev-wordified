@@ -1883,6 +1883,12 @@ nsString
 aFontFamilyNames
 )
 ;
+nsILanguageAtomService
+*
+GetLangService
+(
+)
+;
 /
 /
 helper
