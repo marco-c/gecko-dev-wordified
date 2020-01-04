@@ -4679,6 +4679,14 @@ if
 script
 -
 >
+analyzedArgsUsage
+(
+)
+&
+&
+script
+-
+>
 argsObjAliasesFormals
 (
 )
@@ -4690,6 +4698,7 @@ hasArgsObj
 (
 )
 )
+{
 arg
 =
 iter
@@ -4703,7 +4712,9 @@ arg
 i
 )
 ;
+}
 else
+{
 arg
 =
 iter
@@ -4714,6 +4725,7 @@ i
 DONT_CHECK_ALIASING
 )
 ;
+}
 }
 else
 {
