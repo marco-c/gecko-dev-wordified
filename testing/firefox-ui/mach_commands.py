@@ -248,9 +248,6 @@ ui
 '
 tests
 '
-'
-firefox_ui_tests
-'
 )
     
 #

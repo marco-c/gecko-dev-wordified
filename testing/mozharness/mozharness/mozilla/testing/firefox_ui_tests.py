@@ -1661,7 +1661,7 @@ query_abs_dirs
 (
 )
         
-tests_dir
+abs_tests_install_dir
 =
 os
 .
@@ -1709,10 +1709,10 @@ reports
 abs_test_install_dir
 '
 :
-tests_dir
+abs_tests_install_dir
             
 '
-fxui_tests_dir
+abs_fxui_tests_dir
 '
 :
 os
@@ -1721,7 +1721,7 @@ path
 .
 join
 (
-tests_dir
+abs_tests_install_dir
 '
 firefox
 -
@@ -1729,9 +1729,6 @@ ui
 '
 '
 tests
-'
-'
-firefox_ui_tests
 '
 )
         
@@ -2448,7 +2445,7 @@ join
 dirs
 [
 '
-fxui_tests_dir
+abs_fxui_tests_dir
 '
 ]
 '
@@ -2718,7 +2715,7 @@ join
 dirs
 [
 '
-fxui_tests_dir
+abs_fxui_tests_dir
 '
 ]
 self
