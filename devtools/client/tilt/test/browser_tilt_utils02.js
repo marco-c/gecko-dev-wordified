@@ -156,7 +156,7 @@ was
 returned
 from
 a
-corect
+correct
 name
 in
 the

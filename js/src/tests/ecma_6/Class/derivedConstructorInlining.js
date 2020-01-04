@@ -23,7 +23,7 @@ Make
 sure
 we
 can
-corectly
+correctly
 invoke
 derived
 class

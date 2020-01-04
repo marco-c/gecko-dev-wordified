@@ -4359,7 +4359,7 @@ stroking
 *
 so
 the
-corect
+correct
 pen
 shape
 will

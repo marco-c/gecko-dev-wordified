@@ -3780,7 +3780,7 @@ ubik
 "
 error
 (
-corectly
+correctly
 )
 propagated
 "
