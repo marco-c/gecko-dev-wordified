@@ -13599,9 +13599,9 @@ const
 bool
 RenderColorGlyph
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 mozilla
 :
 :

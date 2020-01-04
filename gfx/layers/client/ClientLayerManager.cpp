@@ -1188,14 +1188,6 @@ txn
 "
 )
 ;
-RefPtr
-<
-gfxContext
->
-targetContext
-=
-aTarget
-;
 /
 /
 If
