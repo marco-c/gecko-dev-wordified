@@ -504,9 +504,9 @@ mTrustedEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 ;
 }
 break
@@ -646,9 +646,9 @@ mTrustedEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 ;
 DoMouseClick
 (

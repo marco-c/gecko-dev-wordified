@@ -9075,9 +9075,9 @@ focusEvent
 theEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 theEvent
 -
 >
@@ -11142,9 +11142,9 @@ ievent
 ievent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 &
 &
 ievent

@@ -814,9 +814,9 @@ compositionEvent
 aCompositionEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 aMessage
 aCompositionEvent
 -
@@ -1016,9 +1016,9 @@ MOZ_ASSERT
 aCompositionEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 "
 Shouldn
 '

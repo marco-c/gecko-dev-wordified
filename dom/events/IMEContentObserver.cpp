@@ -4224,9 +4224,9 @@ if
 aMouseEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 |
 |
 aMouseEvent

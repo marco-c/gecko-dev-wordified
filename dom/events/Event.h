@@ -1040,9 +1040,9 @@ return
 mEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 ;
 }
 bool

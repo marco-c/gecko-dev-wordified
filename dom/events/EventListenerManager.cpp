@@ -7305,9 +7305,9 @@ aEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 |
 |
 listener

@@ -1213,9 +1213,9 @@ aEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 :
 aTrustEvent
 nullptr

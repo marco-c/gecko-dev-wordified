@@ -1112,9 +1112,9 @@ if
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 {
 return

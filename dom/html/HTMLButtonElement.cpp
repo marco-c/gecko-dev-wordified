@@ -1643,9 +1643,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 aVisitor
 .
 mPresContext
@@ -1697,9 +1697,9 @@ if
 mouseEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 {
 EventStateManager
