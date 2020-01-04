@@ -1533,11 +1533,11 @@ see
 SetInfinite
 )
 .
-virtual
 bool
 IsInfinite
 (
 )
+const
 ;
 /
 /
@@ -1619,7 +1619,6 @@ main
 thread
 only
 .
-virtual
 bool
 IsSeeking
 (
@@ -1656,7 +1655,6 @@ main
 thread
 only
 .
-virtual
 bool
 IsEndedOrShutdown
 (
