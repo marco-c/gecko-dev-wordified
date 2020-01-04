@@ -737,6 +737,10 @@ mTimeMarchesOnDispatched
 (
 false
 )
+mUpdateCueDisplayDispatched
+(
+false
+)
 performedTrackSelection
 (
 false
