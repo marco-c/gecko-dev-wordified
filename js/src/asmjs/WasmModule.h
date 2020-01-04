@@ -284,6 +284,9 @@ outOfBoundsOffset
 uint32_t
 unalignedAccessOffset
 ;
+uint32_t
+badIndirectCallOffset
+;
 LinkDataCacheablePod
 (
 )
@@ -761,6 +764,9 @@ ElemSegment
 uint32_t
 tableIndex
 ;
+uint32_t
+offset
+;
 Uint32Vector
 elems
 ;
@@ -774,6 +780,8 @@ ElemSegment
 (
 uint32_t
 tableIndex
+uint32_t
+offset
 Uint32Vector
 &
 &
@@ -783,6 +791,10 @@ elems
 tableIndex
 (
 tableIndex
+)
+offset
+(
+offset
 )
 elems
 (

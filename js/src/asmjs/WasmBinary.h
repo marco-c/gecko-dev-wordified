@@ -298,6 +298,17 @@ code
 static
 const
 char
+ElemSectionId
+[
+]
+=
+"
+elem
+"
+;
+static
+const
+char
 DataSectionId
 [
 ]

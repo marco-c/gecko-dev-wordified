@@ -7892,11 +7892,10 @@ const
 badIndirectCall
 =
 /
+bad
 wasm
 indirect
 call
-signature
-mismatch
 /
 ;
 assertEq

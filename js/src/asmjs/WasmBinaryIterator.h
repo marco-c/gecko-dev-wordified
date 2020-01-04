@@ -416,11 +416,6 @@ align
 }
 }
 ;
-struct
-Nothing
-{
-}
-;
 template
 <
 typename
@@ -10239,12 +10234,6 @@ wasm
 :
 TypeAndValue
 <
-js
-:
-:
-wasm
-:
-:
 Nothing
 >
 >
@@ -10267,12 +10256,6 @@ wasm
 :
 ControlStackEntry
 <
-js
-:
-:
-wasm
-:
-:
 Nothing
 >
 >

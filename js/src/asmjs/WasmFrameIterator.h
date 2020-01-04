@@ -487,13 +487,6 @@ C
 Invoke
 (
 )
-Error
-/
-/
-call
-to
-error
-generation
 Native
 /
 /
