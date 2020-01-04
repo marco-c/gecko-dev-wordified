@@ -412,7 +412,7 @@ this
 ;
 r
 .
-deferGet
+get
 (
 )
 ;
