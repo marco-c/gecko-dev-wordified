@@ -2117,11 +2117,12 @@ dir
 let
 check
 =
-function
 (
 aDir
 aMsg
 )
+=
+>
 ok
 (
 cmd

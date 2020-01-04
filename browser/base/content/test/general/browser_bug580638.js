@@ -77,6 +77,8 @@ elemAttr
 id
 attr
 )
+{
+return
 document
 .
 getElementById
@@ -89,6 +91,7 @@ getAttribute
 attr
 )
 ;
+}
 if
 (
 aPinned

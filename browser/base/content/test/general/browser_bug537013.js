@@ -292,10 +292,9 @@ texts
 .
 forEach
 (
-function
-(
 aText
-)
+=
+>
 addTabWithText
 (
 aText

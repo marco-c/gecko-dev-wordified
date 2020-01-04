@@ -494,9 +494,10 @@ image
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 content
 .
 document
@@ -687,9 +688,10 @@ font
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 content
 .
 document
@@ -884,9 +886,10 @@ font
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 content
 .
 document

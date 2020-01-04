@@ -640,9 +640,10 @@ close
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 aCallback
 (
 )

@@ -523,9 +523,10 @@ disabled
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 content
 .
 document
@@ -987,9 +988,10 @@ disabled
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 content
 .
 document
