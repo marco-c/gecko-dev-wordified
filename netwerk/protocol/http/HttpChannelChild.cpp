@@ -15795,7 +15795,7 @@ aShouldUpgrade
 {
 rv
 =
-GetSecureUpgradedURI
+NS_GetSecureUpgradedURI
 (
 aURI
 getter_AddRefs
