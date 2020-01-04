@@ -553,6 +553,13 @@ AllDoubleMask
 static
 const
 SetType
+AllSingleMask
+=
+0
+;
+static
+const
+SetType
 VolatileMask
 =
 0

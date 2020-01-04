@@ -1692,6 +1692,15 @@ AllPhysMask
 *
 SpreadDouble
 ;
+static
+const
+SetType
+AllSingleMask
+=
+AllPhysMask
+*
+SpreadSingle
+;
 #
 if
 defined

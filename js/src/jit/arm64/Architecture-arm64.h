@@ -2493,6 +2493,13 @@ AllMask
 static
 const
 SetType
+AllSingleMask
+=
+AllMask
+;
+static
+const
+SetType
 WrapperMask
 =
 VolatileMask
