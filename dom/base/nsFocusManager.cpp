@@ -6756,7 +6756,7 @@ false
 }
 }
 }
-void
+bool
 ActivateOrDeactivateChild
 (
 TabParent
@@ -6788,6 +6788,9 @@ SendParentActivated
 (
 active
 )
+;
+return
+false
 ;
 }
 void

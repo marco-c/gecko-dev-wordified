@@ -954,6 +954,9 @@ return
 case
 eKeyPress
 :
+case
+eAccessKeyNotFound
+:
 return
 mEvent
 -

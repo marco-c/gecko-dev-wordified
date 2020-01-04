@@ -1218,6 +1218,13 @@ eAfterKeyUp
 EventNameType_None
 eBeforeAfterKeyboardEventClass
 )
+NON_IDL_EVENT
+(
+mozaccesskeynotfound
+eAccessKeyNotFound
+EventNameType_None
+eKeyboardEventClass
+)
 EVENT
 (
 loadeddata

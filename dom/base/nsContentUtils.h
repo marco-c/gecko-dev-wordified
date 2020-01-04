@@ -771,7 +771,7 @@ mEventClassID
 }
 ;
 typedef
-void
+bool
 (
 *
 CallOnRemoteChildFunction
@@ -15156,6 +15156,17 @@ level
 *
 window
 .
+Return
+true
+from
+the
+callback
+to
+stop
+calling
+further
+children
+.
 *
 /
 static
@@ -16457,7 +16468,7 @@ aInfo
 )
 ;
 static
-void
+bool
 CallOnAllRemoteChildren
 (
 nsIMessageBroadcaster
