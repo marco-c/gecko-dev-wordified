@@ -3508,6 +3508,7 @@ ReportOverRecursed
 OnOutOfBounds
 OnImpreciseConversion
 BadIndirectCall
+UnreachableTrap
 HandleExecutionInterrupt
 InvokeImport_Void
 InvokeImport_I32
@@ -3599,6 +3600,7 @@ StackOverflow
 OutOfBounds
 ConversionError
 BadIndirectCall
+UnreachableTrap
 Throw
 Limit
 }

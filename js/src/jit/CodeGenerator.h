@@ -3062,6 +3062,14 @@ lir
 )
 ;
 void
+visitAsmThrowUnreachable
+(
+LAsmThrowUnreachable
+*
+lir
+)
+;
+void
 visitRecompileCheck
 (
 LRecompileCheck
