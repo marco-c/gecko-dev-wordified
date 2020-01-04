@@ -2018,8 +2018,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 uint32_t
 aFlags
@@ -2177,8 +2175,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 {

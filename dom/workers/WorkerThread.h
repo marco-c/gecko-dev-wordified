@@ -384,8 +384,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 ;
@@ -400,8 +398,6 @@ already_AddRefed
 <
 WorkerRunnable
 >
-&
-&
 aWorkerRunnable
 )
 ;
@@ -453,8 +449,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aFlags
@@ -479,8 +473,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 override

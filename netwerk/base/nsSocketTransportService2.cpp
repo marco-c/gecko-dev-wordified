@@ -1097,8 +1097,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 event
 uint32_t
 flags
@@ -1222,8 +1220,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 {
