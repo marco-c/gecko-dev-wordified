@@ -15683,7 +15683,11 @@ existingCallback
 existingCallback
 !
 =
-SavedStacksMetadataBuilder
+&
+SavedStacks
+:
+:
+metadataBuilder
 ;
 }
 /
@@ -15861,7 +15865,11 @@ compartment
 >
 setAllocationMetadataBuilder
 (
-SavedStacksMetadataBuilder
+&
+SavedStacks
+:
+:
+metadataBuilder
 )
 ;
 debuggee

@@ -189,10 +189,14 @@ compartment
 >
 setAllocationMetadataBuilder
 (
+&
 js
 :
 :
-SavedStacksMetadataBuilder
+SavedStacks
+:
+:
+metadataBuilder
 )
 ;
 JS
