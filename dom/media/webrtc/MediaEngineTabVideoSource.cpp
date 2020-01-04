@@ -811,6 +811,11 @@ BaseAllocationHandle
 *
 *
 aOutHandle
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 /
@@ -874,6 +879,7 @@ nullptr
 aConstraints
 aPrefs
 aDeviceId
+aOutBadConstraint
 )
 ;
 }
@@ -904,6 +910,11 @@ const
 nsString
 &
 aDeviceId
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 MOZ_ASSERT

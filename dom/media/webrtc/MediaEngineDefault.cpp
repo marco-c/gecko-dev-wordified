@@ -485,6 +485,11 @@ BaseAllocationHandle
 *
 *
 aOutHandle
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 if
@@ -1197,6 +1202,11 @@ const
 nsString
 &
 aDeviceId
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 return
@@ -2206,6 +2216,11 @@ BaseAllocationHandle
 *
 *
 aOutHandle
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 if
@@ -2767,6 +2782,11 @@ const
 nsString
 &
 aDeviceId
+const
+char
+*
+*
+aOutBadConstraint
 )
 {
 return
