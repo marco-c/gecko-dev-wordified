@@ -2048,7 +2048,7 @@ it
 *
 /
 bool
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 {

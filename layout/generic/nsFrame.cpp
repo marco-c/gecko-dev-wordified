@@ -16249,7 +16249,7 @@ if
 aBuilder
 -
 >
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 )
@@ -16839,7 +16839,7 @@ if
 aBuilder
 -
 >
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 )

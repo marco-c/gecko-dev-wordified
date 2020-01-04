@@ -22125,7 +22125,7 @@ if
 (
 builder
 .
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 )
