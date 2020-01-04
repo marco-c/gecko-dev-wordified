@@ -5543,7 +5543,7 @@ unsigned
 static
 const
 unsigned
-NO_DATA
+DUMMY_INDEX
 =
 unsigned
 (
@@ -6204,7 +6204,7 @@ the
 caller
 .
 return
-NO_DATA
+DUMMY_INDEX
 ;
 }
 public
