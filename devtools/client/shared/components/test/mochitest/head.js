@@ -281,6 +281,9 @@ browserRequire
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -293,7 +296,10 @@ client
 shared
 /
 "
+window
+:
 this
+}
 )
 ;
 var

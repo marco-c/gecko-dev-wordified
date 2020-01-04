@@ -193,6 +193,9 @@ require
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -206,6 +209,7 @@ aboutdebugging
 /
 "
 window
+}
 )
 ;
 const

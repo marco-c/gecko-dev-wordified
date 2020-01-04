@@ -115,6 +115,9 @@ require
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -129,7 +132,10 @@ responsive
 html
 /
 "
+window
+:
 this
+}
 )
 ;
 const

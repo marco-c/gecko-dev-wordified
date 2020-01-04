@@ -118,6 +118,9 @@ require
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -130,7 +133,10 @@ client
 memory
 /
 "
+window
+:
 this
+}
 )
 ;
 var
