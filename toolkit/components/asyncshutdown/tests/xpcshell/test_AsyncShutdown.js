@@ -1231,11 +1231,6 @@ blocker
 Promise
 .
 resolve
-.
-bind
-(
-Promise
-)
 ;
 yield
 lock
