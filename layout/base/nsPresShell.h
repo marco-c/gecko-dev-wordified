@@ -752,6 +752,14 @@ nscoord
 aWidth
 nscoord
 aHeight
+nscoord
+aOldWidth
+=
+0
+nscoord
+aOldHeight
+=
+0
 )
 override
 ;
@@ -763,6 +771,10 @@ nscoord
 aWidth
 nscoord
 aHeight
+nscoord
+aOldWidth
+nscoord
+aOldHeight
 )
 override
 ;

@@ -2365,6 +2365,14 @@ nscoord
 aWidth
 nscoord
 aHeight
+nscoord
+aOldWidth
+=
+0
+nscoord
+aOldHeight
+=
+0
 )
 =
 0
@@ -2398,6 +2406,10 @@ nscoord
 aWidth
 nscoord
 aHeight
+nscoord
+aOldWidth
+nscoord
+aOldHeight
 )
 =
 0
