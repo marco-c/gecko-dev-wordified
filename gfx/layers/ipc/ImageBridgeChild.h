@@ -2273,6 +2273,12 @@ aWhy
 )
 override
 ;
+void
+DeallocPImageBridgeChild
+(
+)
+override
+;
 bool
 CanSend
 (
