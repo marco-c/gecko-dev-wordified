@@ -211,7 +211,7 @@ aSupportsTailDispatch
 =
 *
 /
-true
+false
 )
 )
 mMonitor
