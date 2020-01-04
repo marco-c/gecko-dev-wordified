@@ -3191,14 +3191,6 @@ activeAttribLocs
 )
 {
 const
-auto
-attrib
-=
-pair
-.
-first
-;
-const
 uint32_t
 attribLoc
 =
