@@ -1059,7 +1059,10 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 existingHolder
 (
@@ -2257,7 +2260,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 JS

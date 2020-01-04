@@ -997,7 +997,7 @@ jsid
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1048,7 +1048,7 @@ jsid
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 JS
@@ -1291,7 +1291,7 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 ownDesc
 (

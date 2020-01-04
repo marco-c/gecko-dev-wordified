@@ -5288,7 +5288,7 @@ implementation
 .
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
