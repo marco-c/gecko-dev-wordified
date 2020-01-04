@@ -43,7 +43,7 @@ h
 #
 include
 "
-SkJpegUtility_codec
+SkJpegUtility
 .
 h
 "

@@ -139,7 +139,7 @@ setKnownSingleComponent
 }
 static
 const
-GrIndexBuffer
+GrBuffer
 *
 GetIndexBuffer
 (

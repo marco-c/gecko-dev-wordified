@@ -2545,7 +2545,7 @@ getRoot
 ;
 fParser
 .
-free
+reset
 (
 )
 ;

@@ -479,7 +479,7 @@ const
 override
 ;
 bool
-onFilterImage
+onFilterImageDeprecated
 (
 Proxy
 *
@@ -500,7 +500,7 @@ loc
 const
 override
 ;
-void
+SkIRect
 onFilterNodeBounds
 (
 const
@@ -509,15 +509,13 @@ SkIRect
 const
 SkMatrix
 &
-SkIRect
-*
 MapDirection
 )
 const
 override
 ;
 bool
-canComputeFastBounds
+affectsTransparentBlack
 (
 )
 const

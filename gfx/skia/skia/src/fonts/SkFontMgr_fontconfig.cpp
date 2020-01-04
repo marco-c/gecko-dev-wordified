@@ -1822,7 +1822,7 @@ style
 isFixedWidth
 stream
 .
-detach
+release
 (
 )
 )
@@ -1875,7 +1875,7 @@ createFromStream
 (
 stream
 .
-detach
+release
 (
 )
 ttcIndex

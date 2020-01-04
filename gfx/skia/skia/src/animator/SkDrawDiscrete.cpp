@@ -145,10 +145,14 @@ return
 SkDiscretePathEffect
 :
 :
-Create
+Make
 (
 segLength
 deviation
+)
+.
+release
+(
 )
 ;
 }

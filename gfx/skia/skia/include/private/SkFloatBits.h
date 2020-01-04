@@ -216,10 +216,11 @@ needed
 x
 |
 =
+SkLeftShift
+(
 sign
-<
-<
 31
+)
 ;
 return
 x

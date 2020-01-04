@@ -1562,6 +1562,7 @@ result
 ;
 bool
 closable
+SK_INIT_TO_AVOID_WARNING
 ;
 if
 (

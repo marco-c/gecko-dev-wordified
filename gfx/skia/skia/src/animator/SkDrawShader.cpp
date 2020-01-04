@@ -379,7 +379,7 @@ return
 SkShader
 :
 :
-CreateBitmapShader
+MakeBitmapShader
 (
 image
 -
@@ -402,6 +402,10 @@ tileMode
 getMatrix
 (
 )
+)
+.
+release
+(
 )
 ;
 }

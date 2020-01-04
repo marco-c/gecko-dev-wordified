@@ -214,13 +214,6 @@ setKnownSingleComponent
 0xff
 )
 ;
-overrides
--
->
-fUsePLSDstRead
-=
-false
-;
 }
 SkSTArray
 <

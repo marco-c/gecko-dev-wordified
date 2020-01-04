@@ -3680,7 +3680,7 @@ SkASSERT
 (
 s
 .
-fFilterLevel
+fFilterQuality
 !
 =
 kNone_SkFilterQuality
@@ -4950,7 +4950,7 @@ SkASSERT
 (
 s
 .
-fFilterLevel
+fFilterQuality
 !
 =
 kNone_SkFilterQuality

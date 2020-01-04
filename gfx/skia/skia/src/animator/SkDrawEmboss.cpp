@@ -140,7 +140,7 @@ return
 SkBlurMaskFilter
 :
 :
-CreateEmboss
+MakeEmboss
 (
 fSigma
 fDirection
@@ -150,6 +150,10 @@ begin
 )
 fAmbient
 fSpecular
+)
+.
+release
+(
 )
 ;
 }

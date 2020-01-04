@@ -691,8 +691,8 @@ fail
 because
 of
 an
-unsupported
 *
+unsupported
 pixel
 config
 .

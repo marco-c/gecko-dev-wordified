@@ -507,8 +507,10 @@ fUsed
 ;
 }
 }
+sk_sp
+<
 SkData
-*
+>
 SkWriter32
 :
 :
@@ -521,7 +523,7 @@ return
 SkData
 :
 :
-NewWithCopy
+MakeWithCopy
 (
 fData
 fUsed

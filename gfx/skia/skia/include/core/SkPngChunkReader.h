@@ -87,8 +87,6 @@ decoded
 *
 Used
 by
-SkImageDecoder
-and
 SkCodec
 .
 *

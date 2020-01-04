@@ -117,7 +117,7 @@ fTail
 inline
 Entry
 *
-detach
+release
 (
 Entry
 *

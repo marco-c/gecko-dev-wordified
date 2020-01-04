@@ -131,7 +131,7 @@ kNone_SkFilterQuality
 =
 s
 .
-fFilterLevel
+fFilterQuality
 )
 ;
 const
@@ -3555,7 +3555,7 @@ justDx
 kNone_SkFilterQuality
 =
 =
-fFilterLevel
+fFilterQuality
 )
 {
 if

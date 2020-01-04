@@ -252,6 +252,7 @@ kLast_ColorMode
 ;
 GrColor
 color
+SK_INIT_TO_AVOID_WARNING
 ;
 switch
 (
@@ -419,6 +420,7 @@ kLast_CoverageMode
 ;
 uint8_t
 coverage
+SK_INIT_TO_AVOID_WARNING
 ;
 switch
 (

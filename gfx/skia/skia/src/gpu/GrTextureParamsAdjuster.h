@@ -1106,6 +1106,16 @@ GrTexture
 *
 fOriginal
 ;
+GrTexture
+*
+refCopy
+(
+const
+CopyParams
+&
+copyParams
+)
+;
 typedef
 GrTextureProducer
 INHERITED
@@ -1299,6 +1309,8 @@ GrTexture
 *
 refOriginalTexture
 (
+bool
+willBeMipped
 )
 =
 0
@@ -1381,6 +1393,8 @@ generateTextureForParams
 const
 CopyParams
 &
+bool
+willBeMipped
 )
 ;
 GrContext

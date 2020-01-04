@@ -1955,11 +1955,6 @@ info
 colorType
 (
 )
-info
-.
-alphaType
-(
-)
 )
 ;
 const

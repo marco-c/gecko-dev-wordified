@@ -53,11 +53,9 @@ h
 "
 #
 include
-"
-SkUniquePtr
-.
-h
-"
+<
+memory
+>
 template
 <
 typename
@@ -136,7 +134,7 @@ T
 typename
 Delete
 =
-skstd
+std
 :
 :
 default_delete
@@ -285,7 +283,7 @@ public
 SkOncePtr
 <
 T
-skstd
+std
 :
 :
 default_delete

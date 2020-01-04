@@ -184,7 +184,7 @@ kNone_SkFilterQuality
 =
 s
 .
-fFilterLevel
+fFilterQuality
 )
 ;
 SkDEBUGCODE
@@ -594,7 +594,7 @@ kNone_SkFilterQuality
 =
 s
 .
-fFilterLevel
+fFilterQuality
 )
 ;
 SkDEBUGCODE
@@ -1085,7 +1085,7 @@ SkASSERT
 (
 s
 .
-fFilterLevel
+fFilterQuality
 !
 =
 kNone_SkFilterQuality
@@ -1376,7 +1376,7 @@ SkASSERT
 (
 s
 .
-fFilterLevel
+fFilterQuality
 !
 =
 kNone_SkFilterQuality

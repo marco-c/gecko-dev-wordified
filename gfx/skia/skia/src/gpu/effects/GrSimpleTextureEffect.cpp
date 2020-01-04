@@ -80,15 +80,6 @@ GrGLSLFragmentProcessor
 {
 public
 :
-GrGLSimpleTextureEffect
-(
-const
-GrProcessor
-&
-)
-{
-}
-virtual
 void
 emitCode
 (
@@ -98,7 +89,7 @@ args
 )
 override
 {
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 =
@@ -112,8 +103,6 @@ fragBuilder
 codeAppendf
 (
 "
-\
-t
 %
 s
 =
@@ -166,8 +155,6 @@ codeAppend
 (
 "
 ;
-\
-n
 "
 )
 ;
@@ -321,10 +308,6 @@ const
 return
 new
 GrGLSimpleTextureEffect
-(
-*
-this
-)
 ;
 }
 /

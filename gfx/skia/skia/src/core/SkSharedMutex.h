@@ -72,11 +72,9 @@ h
 "
 #
 include
-"
-SkUniquePtr
-.
-h
-"
+<
+memory
+>
 #
 endif
 /
@@ -288,7 +286,7 @@ SK_DEBUG
 class
 ThreadIDSet
 ;
-skstd
+std
 :
 :
 unique_ptr
@@ -297,7 +295,7 @@ ThreadIDSet
 >
 fCurrentShared
 ;
-skstd
+std
 :
 :
 unique_ptr
@@ -306,7 +304,7 @@ ThreadIDSet
 >
 fWaitingExclusive
 ;
-skstd
+std
 :
 :
 unique_ptr

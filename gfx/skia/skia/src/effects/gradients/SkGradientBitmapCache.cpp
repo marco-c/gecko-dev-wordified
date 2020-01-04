@@ -237,7 +237,7 @@ Entry
 SkGradientBitmapCache
 :
 :
-detach
+release
 (
 Entry
 *
@@ -474,7 +474,7 @@ last
 this
 -
 >
-detach
+release
 (
 entry
 )
@@ -544,7 +544,7 @@ delete
 this
 -
 >
-detach
+release
 (
 fTail
 )

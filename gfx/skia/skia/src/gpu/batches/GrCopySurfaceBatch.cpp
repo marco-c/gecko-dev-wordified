@@ -60,9 +60,11 @@ false
 if
 not
 .
-static
 bool
-clip_srcrect_and_dstpoint
+GrCopySurfaceBatch
+:
+:
+ClipSrcRectAndDstPoint
 (
 const
 GrSurface
@@ -512,7 +514,7 @@ succeeded
 if
 (
 !
-clip_srcrect_and_dstpoint
+ClipSrcRectAndDstPoint
 (
 dst
 src

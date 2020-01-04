@@ -1082,9 +1082,6 @@ record
 -
 >
 mutate
-<
-bool
->
 (
 i
 *
@@ -1159,9 +1156,6 @@ record
 -
 >
 mutate
-<
-bool
->
 (
 i
 *

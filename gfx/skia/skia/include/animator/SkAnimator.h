@@ -3520,10 +3520,10 @@ be
 used
 by
 calling
-SkTime
+SkEvent
 :
 :
-GetMSecs
+GetMSecsSinceStartup
 instead
 .
 param

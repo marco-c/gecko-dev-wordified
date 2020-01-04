@@ -1124,7 +1124,7 @@ debugValidate
 const
 ;
 void
-detach
+release
 (
 const
 SkOpSpan
@@ -1800,7 +1800,7 @@ SkChunkAlloc
 allocator
 )
 ;
-void
+bool
 moveMultiples
 (
 )

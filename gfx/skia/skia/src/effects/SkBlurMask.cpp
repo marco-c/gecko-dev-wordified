@@ -3851,7 +3851,7 @@ void
 )
 autoCall
 .
-detach
+release
 (
 )
 ;
@@ -6899,7 +6899,7 @@ void
 )
 autoCall
 .
-detach
+release
 (
 )
 ;

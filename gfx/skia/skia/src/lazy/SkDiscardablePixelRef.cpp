@@ -880,7 +880,7 @@ SkDiscardablePixelRef
 prInfo
 autoGenerator
 .
-detach
+release
 (
 )
 dst

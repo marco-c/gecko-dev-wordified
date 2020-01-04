@@ -62,15 +62,6 @@ SkBitmap
 .
 h
 "
-/
-/
-#
-include
-"
-SkImageDecoder
-.
-h
-"
 #
 include
 "

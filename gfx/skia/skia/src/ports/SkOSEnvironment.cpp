@@ -42,6 +42,13 @@ h
 "
 #
 include
+"
+SkTypes
+.
+h
+"
+#
+include
 <
 stdlib
 .

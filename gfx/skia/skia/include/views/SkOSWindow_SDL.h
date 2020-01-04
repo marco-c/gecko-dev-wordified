@@ -122,7 +122,7 @@ SK_COMMAND_BUFFER
 }
 ;
 void
-detach
+release
 (
 )
 ;

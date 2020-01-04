@@ -8360,7 +8360,7 @@ do
 {
 /
 /
-SK_ALWAYSBREAK
+SkASSERT_RELEASE
 (
 next
 -
@@ -8401,7 +8401,7 @@ first
 break
 ;
 }
-SK_ALWAYSBREAK
+SkASSERT_RELEASE
 (
 !
 angles

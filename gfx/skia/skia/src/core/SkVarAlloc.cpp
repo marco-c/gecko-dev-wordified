@@ -244,7 +244,13 @@ bytes
 size_t
 alloc
 =
+static_cast
+<
+size_t
+>
+(
 1
+)
 <
 <
 fLgSize

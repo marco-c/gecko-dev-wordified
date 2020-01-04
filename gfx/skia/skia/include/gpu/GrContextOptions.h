@@ -73,7 +73,7 @@ fSuppressDualSourceBlending
 (
 false
 )
-fGeometryBufferMapThreshold
+fBufferMapThreshold
 (
 -
 1
@@ -95,6 +95,11 @@ fDrawBatchBounds
 false
 )
 fMaxBatchLookback
+(
+-
+1
+)
+fMaxBatchLookahead
 (
 -
 1
@@ -269,7 +274,7 @@ platform
 *
 /
 int
-fGeometryBufferMapThreshold
+fBufferMapThreshold
 ;
 /
 *
@@ -409,6 +414,10 @@ maximum
 look
 -
 back
+or
+look
+-
+ahead
 window
 for
 GrBatch
@@ -418,6 +427,9 @@ combining
 /
 int
 fMaxBatchLookback
+;
+int
+fMaxBatchLookahead
 ;
 /
 *

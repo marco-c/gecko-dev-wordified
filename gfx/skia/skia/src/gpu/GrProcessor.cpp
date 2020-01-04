@@ -285,7 +285,7 @@ const
 int
 kFPFactoryCount
 =
-38
+39
 ;
 static
 const
@@ -299,7 +299,7 @@ const
 int
 kXPFactoryCount
 =
-5
+6
 ;
 template
 <
@@ -510,10 +510,9 @@ threads
 .
 namespace
 {
-SK_DECLARE_STATIC_SPINLOCK
-(
+static
+SkSpinlock
 gProcessorSpinlock
-)
 ;
 class
 MemoryPoolAccessor

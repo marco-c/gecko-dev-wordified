@@ -278,7 +278,7 @@ fDisplay
 this
 -
 >
-detach
+release
 (
 )
 ;
@@ -2243,7 +2243,7 @@ void
 SkOSWindow
 :
 :
-detach
+release
 (
 )
 {

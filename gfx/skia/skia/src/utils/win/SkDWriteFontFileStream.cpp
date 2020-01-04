@@ -632,7 +632,7 @@ fPos
 return
 that
 .
-detach
+release
 (
 )
 ;
@@ -1255,7 +1255,7 @@ fragmentContext
 =
 streamData
 .
-detach
+release
 (
 )
 ;

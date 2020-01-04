@@ -185,6 +185,8 @@ transforms
 )
 ;
 }
+protected
+:
 /
 /
 A
@@ -255,8 +257,6 @@ transforms
 )
 ;
 }
-protected
-:
 /
 /
 Emit

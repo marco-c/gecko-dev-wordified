@@ -185,8 +185,10 @@ resetting
 this
 SkMiniRecorder
 .
+sk_sp
+<
 SkPicture
-*
+>
 detachAsPicture
 (
 const

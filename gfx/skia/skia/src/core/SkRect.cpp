@@ -508,13 +508,7 @@ Sk4s
 :
 Load
 (
-&
 pts
-[
-0
-]
-.
-fX
 )
 ;
 pts
@@ -573,11 +567,7 @@ Sk4s
 :
 Load
 (
-&
 pts
--
->
-fX
 )
 ;
 accum

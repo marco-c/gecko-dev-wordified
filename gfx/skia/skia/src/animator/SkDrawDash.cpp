@@ -138,7 +138,7 @@ return
 SkDashPathEffect
 :
 :
-Create
+Make
 (
 intervals
 .
@@ -147,6 +147,10 @@ begin
 )
 count
 phase
+)
+.
+release
+(
 )
 ;
 }

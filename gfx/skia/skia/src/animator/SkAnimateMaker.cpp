@@ -143,10 +143,10 @@ getMSecs
 const
 {
 return
-SkTime
+SkEvent
 :
 :
-GetMSecs
+GetMSecsSinceStartup
 (
 )
 ;

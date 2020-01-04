@@ -85,7 +85,7 @@ kNativeGL_BackEndType
 }
 ;
 void
-detach
+release
 (
 )
 ;

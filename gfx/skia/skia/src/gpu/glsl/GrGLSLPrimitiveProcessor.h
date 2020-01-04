@@ -83,7 +83,7 @@ class
 GrGLSLCaps
 ;
 class
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 ;
 class
 GrGLSLGPBuilder
@@ -158,7 +158,7 @@ EmitArgs
 GrGLSLVertexBuilder
 *
 vertBuilder
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 GrGLSLVaryingHandler
@@ -246,7 +246,7 @@ GrGLSLVertexBuilder
 *
 fVertBuilder
 ;
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fFragBuilder
 ;
@@ -472,7 +472,7 @@ protected
 void
 setupUniformColor
 (
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 GrGLSLUniformHandler

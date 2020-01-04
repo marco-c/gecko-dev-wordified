@@ -46,9 +46,6 @@ GrGeometryProcessor
 .
 h
 "
-class
-GrDrawState
-;
 /
 *
 *

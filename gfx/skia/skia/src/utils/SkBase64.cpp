@@ -202,12 +202,6 @@ nullptr
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 /
 /
 disable
@@ -687,12 +681,6 @@ kNoError
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 #
 pragma
 warning

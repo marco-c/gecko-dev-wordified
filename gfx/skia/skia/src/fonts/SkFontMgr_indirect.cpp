@@ -823,7 +823,7 @@ createFromStream
 (
 stream
 .
-detach
+release
 (
 )
 dataTypefaceIndex
@@ -888,7 +888,7 @@ createFromStream
 (
 stream
 .
-detach
+release
 (
 )
 id
@@ -968,7 +968,7 @@ entry
 return
 typeface
 .
-detach
+release
 (
 )
 ;
@@ -1356,7 +1356,7 @@ fontId
 return
 face
 .
-detach
+release
 (
 )
 ;

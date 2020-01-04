@@ -2158,7 +2158,7 @@ debugCoinLoopCheck
 const
 ;
 void
-detach
+release
 (
 SkOpPtT
 *

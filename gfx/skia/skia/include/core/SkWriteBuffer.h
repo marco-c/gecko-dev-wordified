@@ -49,6 +49,13 @@ h
 #
 include
 "
+SkImage
+.
+h
+"
+#
+include
+"
 SkPath
 .
 h
@@ -278,13 +285,6 @@ void
 writeBool
 (
 bool
-value
-)
-;
-void
-writeFixed
-(
-SkFixed
 value
 )
 ;

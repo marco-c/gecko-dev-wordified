@@ -294,6 +294,8 @@ GrTexture
 *
 refOriginalTexture
 (
+bool
+willBeMipped
 )
 override
 ;
@@ -453,6 +455,8 @@ GrTexture
 *
 refOriginalTexture
 (
+bool
+willBeMipped
 )
 override
 ;

@@ -40,6 +40,11 @@ SkRecord
 .
 h
 "
+#
+include
+<
+algorithm
+>
 SkRecord
 :
 :
@@ -76,9 +81,6 @@ this
 -
 >
 mutate
-<
-void
->
 (
 i
 destroyer

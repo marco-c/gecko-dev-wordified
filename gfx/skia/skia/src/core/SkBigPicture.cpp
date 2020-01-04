@@ -621,9 +621,6 @@ hasText
 record
 .
 visit
-<
-bool
->
 (
 i
 text
@@ -637,9 +634,6 @@ hasBitmap
 record
 .
 visit
-<
-bool
->
 (
 i
 bitmap
@@ -648,9 +642,6 @@ bitmap
 record
 .
 visit
-<
-void
->
 (
 i
 path

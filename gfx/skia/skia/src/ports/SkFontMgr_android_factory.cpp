@@ -223,6 +223,12 @@ kOnlyCustom
 gTestBasePath
 gTestFontsXml
 gTestFallbackFontsXml
+false
+/
+*
+fIsolated
+*
+/
 }
 ;
 return

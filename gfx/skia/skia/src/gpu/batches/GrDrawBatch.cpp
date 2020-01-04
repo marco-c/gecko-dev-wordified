@@ -189,6 +189,10 @@ return
 false
 ;
 }
+fPipelineInstalled
+=
+true
+;
 this
 -
 >
@@ -196,10 +200,6 @@ initBatchTracker
 (
 overrides
 )
-;
-fPipelineInstalled
-=
-true
 ;
 return
 true

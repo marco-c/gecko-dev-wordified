@@ -85,6 +85,14 @@ fAntiAlias
 (
 false
 )
+fDisableOutputConversionToSRGB
+(
+false
+)
+fAllowSRGBInputs
+(
+false
+)
 fColor
 (
 GrColor_WHITE

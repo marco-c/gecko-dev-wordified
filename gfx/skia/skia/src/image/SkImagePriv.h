@@ -71,9 +71,11 @@ in
 the
 image
 extern
+sk_sp
+<
 SkImage
-*
-SkNewImageFromPixelRef
+>
+SkMakeImageFromPixelRef
 (
 const
 SkImageInfo
@@ -258,9 +260,11 @@ immutable
 }
 ;
 extern
+sk_sp
+<
 SkImage
-*
-SkNewImageFromRasterBitmap
+>
+SkMakeImageFromRasterBitmap
 (
 const
 SkBitmap
@@ -459,8 +463,7 @@ GrDeepCopyTexture
 GrTexture
 *
 src
-bool
-isBudgeted
+SkBudgeted
 )
 ;
 #

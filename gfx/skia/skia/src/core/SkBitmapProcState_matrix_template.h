@@ -166,13 +166,10 @@ TileProc
 Y
 (
 s
-SkFractionalIntToFixed
-(
 mapper
 .
-y
+fixedY
 (
-)
 )
 maxY
 )
@@ -181,7 +178,7 @@ fx
 =
 mapper
 .
-x
+fractionalIntX
 (
 )
 ;
@@ -620,7 +617,7 @@ fx
 =
 mapper
 .
-x
+fractionalIntX
 (
 )
 ;
@@ -629,7 +626,7 @@ fy
 =
 mapper
 .
-y
+fractionalIntY
 (
 )
 ;

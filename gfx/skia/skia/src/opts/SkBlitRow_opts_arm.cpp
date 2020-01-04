@@ -56,7 +56,7 @@ SkBlitRow_opts_arm_neon
 .
 h
 "
-static
+extern
 const
 SkBlitRow
 :
@@ -77,7 +77,7 @@ nullptr
 nullptr
 }
 ;
-static
+extern
 const
 SkBlitRow
 :
@@ -92,7 +92,7 @@ nullptr
 nullptr
 }
 ;
-static
+extern
 const
 SkBlitRow
 :

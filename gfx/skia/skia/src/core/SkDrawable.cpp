@@ -556,7 +556,11 @@ bounds
 return
 recorder
 .
-endRecording
+finishRecordingAsPicture
+(
+)
+.
+release
 (
 )
 ;

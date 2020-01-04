@@ -95,14 +95,13 @@ bytesWritten
 (
 )
 ;
-SkData
-*
+auto
 data
 =
 SkData
 :
 :
-NewUninitialized
+MakeUninitialized
 (
 size
 )
@@ -121,6 +120,10 @@ writable_data
 ;
 return
 data
+.
+release
+(
+)
 ;
 }
 SkFlattenable

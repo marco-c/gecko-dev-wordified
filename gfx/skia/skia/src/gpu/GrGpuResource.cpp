@@ -711,7 +711,12 @@ key
 .
 if
 (
-!
+SkBudgeted
+:
+:
+kNo
+=
+=
 this
 -
 >
@@ -1039,7 +1044,7 @@ if
 this
 -
 >
-cacheAccess
+resourcePriv
 (
 )
 .

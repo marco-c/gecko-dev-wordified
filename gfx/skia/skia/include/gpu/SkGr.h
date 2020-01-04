@@ -82,6 +82,9 @@ SkImageInfo
 h
 "
 class
+GrCaps
+;
+class
 GrContext
 ;
 class
@@ -607,6 +610,9 @@ SkImageInfo2GrPixelConfig
 SkColorType
 SkAlphaType
 SkColorProfileType
+const
+GrCaps
+&
 )
 ;
 static
@@ -618,6 +624,10 @@ const
 SkImageInfo
 &
 info
+const
+GrCaps
+&
+caps
 )
 {
 return
@@ -638,6 +648,7 @@ info
 profileType
 (
 )
+caps
 )
 ;
 }

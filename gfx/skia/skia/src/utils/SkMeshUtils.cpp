@@ -607,7 +607,7 @@ setShader
 SkShader
 :
 :
-CreateBitmapShader
+MakeBitmapShader
 (
 bitmap
 SkShader
@@ -619,11 +619,6 @@ SkShader
 :
 kClamp_TileMode
 )
-)
--
->
-unref
-(
 )
 ;
 canvas

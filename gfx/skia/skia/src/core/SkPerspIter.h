@@ -44,6 +44,13 @@ SkPerspIter_DEFINED
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkMatrix
 .
 h

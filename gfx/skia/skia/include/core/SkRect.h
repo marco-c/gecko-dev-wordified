@@ -3351,17 +3351,8 @@ are
 infinite
 or
 NaN
-(
-or
-SK_FixedNaN
-when
-SkScalar
-is
-fixed
-)
 then
 this
-*
 returns
 false
 .

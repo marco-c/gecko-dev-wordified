@@ -321,6 +321,16 @@ fMiterLimit
 miterLimit
 ;
 }
+SkScalar
+getResScale
+(
+)
+const
+{
+return
+fResScale
+;
+}
 void
 setResScale
 (

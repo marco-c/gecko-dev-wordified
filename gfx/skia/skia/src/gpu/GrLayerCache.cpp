@@ -657,7 +657,7 @@ deleted
 .
 fAtlas
 .
-free
+reset
 (
 )
 ;
@@ -1724,7 +1724,10 @@ textureProvider
 createTexture
 (
 desc
-true
+SkBudgeted
+:
+:
+kYes
 )
 )
 ;

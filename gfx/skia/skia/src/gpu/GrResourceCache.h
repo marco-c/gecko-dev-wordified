@@ -1378,7 +1378,7 @@ if
 resource
 -
 >
-cacheAccess
+resourcePriv
 (
 )
 .
@@ -1432,7 +1432,12 @@ fAdopted
 }
 if
 (
-!
+SkBudgeted
+:
+:
+kNo
+=
+=
 resource
 -
 >

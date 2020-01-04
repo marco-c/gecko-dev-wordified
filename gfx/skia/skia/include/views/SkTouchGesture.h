@@ -42,6 +42,11 @@ SkTouchGesture_DEFINED
 #
 include
 "
+.
+.
+/
+private
+/
 SkTDArray
 .
 h
@@ -243,7 +248,7 @@ float
 fLastX
 fLastY
 ;
-SkMSec
+float
 fPrevT
 fLastT
 ;
@@ -265,8 +270,8 @@ fGlobalM
 SkFlingState
 fFlinger
 ;
-SkMSec
-fLastUpT
+double
+fLastUpMillis
 ;
 SkPoint
 fLastUpP

@@ -160,18 +160,18 @@ nameSpace
 uint64_t
 sharedID
 size_t
-length
+dataSize
 )
 {
 SkASSERT
 (
 SkAlign4
 (
-length
+dataSize
 )
 =
 =
-length
+dataSize
 )
 ;
 /
@@ -281,7 +281,7 @@ SkToS32
 kLocal32s
 +
 (
-length
+dataSize
 >
 >
 2
@@ -1669,7 +1669,7 @@ fTotalBytesUsed
 this
 -
 >
-detach
+release
 (
 rec
 )
@@ -2429,7 +2429,7 @@ void
 SkResourceCache
 :
 :
-detach
+release
 (
 Rec
 *
@@ -2559,7 +2559,7 @@ validate
 this
 -
 >
-detach
+release
 (
 rec
 )

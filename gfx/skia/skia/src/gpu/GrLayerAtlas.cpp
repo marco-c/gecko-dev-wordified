@@ -448,10 +448,10 @@ get_layer_atlas_key
 )
 ;
 return
-SkToBool
-(
 fTexture
-)
+!
+=
+nullptr
 ;
 }
 void
@@ -513,7 +513,10 @@ fTexProvider
 createTexture
 (
 desc
-true
+SkBudgeted
+:
+:
+kYes
 nullptr
 0
 )

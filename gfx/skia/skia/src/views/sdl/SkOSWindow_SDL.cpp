@@ -272,7 +272,7 @@ void
 SkOSWindow
 :
 :
-detach
+release
 (
 )
 {
@@ -416,7 +416,7 @@ current
 this
 -
 >
-detach
+release
 (
 )
 ;
@@ -1095,7 +1095,7 @@ destroyWindow
 this
 -
 >
-detach
+release
 (
 )
 ;

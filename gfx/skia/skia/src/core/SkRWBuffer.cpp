@@ -963,6 +963,11 @@ validate
 (
 )
 ;
+if
+(
+fHead
+)
+{
 fHead
 -
 >
@@ -970,6 +975,7 @@ unref
 (
 )
 ;
+}
 }
 void
 SkRWBuffer

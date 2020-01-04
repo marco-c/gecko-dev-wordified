@@ -140,12 +140,6 @@ readColor
 )
 override
 ;
-SkFixed
-readFixed
-(
-)
-override
-;
 int32_t
 readInt
 (
