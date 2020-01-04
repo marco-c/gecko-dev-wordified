@@ -2057,6 +2057,17 @@ override
 ;
 virtual
 bool
+RecvInitServiceWorkers
+(
+const
+ServiceWorkerConfiguration
+&
+aConfig
+)
+override
+;
+virtual
+bool
 RecvLastPrivateDocShellDestroyed
 (
 )
