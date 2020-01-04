@@ -1369,7 +1369,7 @@ CSSCompleter
 {
 cssProperties
 :
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 }

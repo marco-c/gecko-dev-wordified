@@ -140,7 +140,7 @@ flags
 ;
 const
 {
-getClientCssPropertiesForTests
+getClientCssProperties
 }
 =
 require
@@ -548,7 +548,7 @@ foldgutter
 ]
 cssProperties
 :
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 }

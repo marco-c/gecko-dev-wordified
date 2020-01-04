@@ -77,7 +77,7 @@ MAX_SUGGESTIONS
 ;
 const
 {
-getClientCssPropertiesForTests
+getClientCssProperties
 }
 =
 require
@@ -1523,7 +1523,7 @@ getCSSKeywords
 let
 cssProperties
 =
-getClientCssPropertiesForTests
+getClientCssProperties
 (
 )
 ;
