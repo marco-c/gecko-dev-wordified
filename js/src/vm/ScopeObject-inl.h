@@ -1633,6 +1633,7 @@ JSObject
 enclosingScope
 (
 )
+const
 {
 if
 (

@@ -3629,6 +3629,7 @@ JSObject
 enclosingScope
 (
 )
+const
 ;
 inline
 js
