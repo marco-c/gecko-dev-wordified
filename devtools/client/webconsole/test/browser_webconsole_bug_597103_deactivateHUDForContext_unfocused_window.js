@@ -537,14 +537,8 @@ finishTest
 )
 ;
 }
-waitForFocus
-(
 openConsoles
-tab2
-.
-linkedBrowser
-.
-contentWindow
+(
 )
 ;
 }
