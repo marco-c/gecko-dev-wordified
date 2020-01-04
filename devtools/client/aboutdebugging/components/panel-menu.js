@@ -166,7 +166,7 @@ panelId
 name
 icon
 selected
-selectTab
+selectPanel
 }
 )
 ;
