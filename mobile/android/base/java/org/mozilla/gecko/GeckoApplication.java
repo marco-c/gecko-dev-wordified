@@ -1119,6 +1119,13 @@ onCreate
 (
 )
 ;
+}
+public
+void
+onDelayedStartup
+(
+)
+{
 if
 (
 AppConstants
