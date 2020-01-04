@@ -3223,6 +3223,17 @@ preprocessed
         
 (
 '
+cache_hit_rate
+'
+'
+cache
+hit
+rate
+'
+)
+        
+(
+'
 cache_miss
 '
 '
@@ -3471,6 +3482,16 @@ error
 hashing
 extra
 file
+'
+)
+        
+(
+'
+num_cleanups
+'
+'
+cleanups
+performed
 '
 )
         
