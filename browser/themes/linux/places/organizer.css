@@ -486,10 +486,9 @@ placesMenu
 >
 menu
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :
@@ -631,10 +630,9 @@ padding
 #
 infoBoxExpanderLabel
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :

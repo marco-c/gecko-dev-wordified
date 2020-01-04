@@ -136,10 +136,9 @@ label
 -
 box
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -155,10 +154,9 @@ radio
 -
 icon
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :

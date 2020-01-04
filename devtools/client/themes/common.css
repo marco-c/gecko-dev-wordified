@@ -1540,10 +1540,9 @@ margin
 :
 6px
 ;
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -1645,10 +1644,9 @@ property
 .
 title
 {
--
-moz
--
 padding
+-
+inline
 -
 end
 :

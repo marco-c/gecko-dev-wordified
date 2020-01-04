@@ -188,10 +188,9 @@ window
 .
 *
 /
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -883,10 +882,9 @@ align
 :
 middle
 ;
--
-moz
--
 margin
+-
+inline
 -
 end
 :

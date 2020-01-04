@@ -150,10 +150,9 @@ height
 :
 64px
 ;
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -376,10 +375,9 @@ height
 .
 boxIndent
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :

@@ -589,10 +589,9 @@ toolbarbutton
 -
 icon
 {
--
-moz
--
 border
+-
+inline
 -
 start
 :
@@ -946,10 +945,9 @@ urlbar
 .
 *
 /
--
-moz
--
 margin
+-
+inline
 -
 start
 :

@@ -258,10 +258,9 @@ button
 -
 icon
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -276,10 +275,9 @@ groupbox
 -
 body
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :

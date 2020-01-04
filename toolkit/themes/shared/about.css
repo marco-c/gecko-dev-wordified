@@ -123,10 +123,9 @@ padding
 :
 3em
 ;
--
-moz
--
 padding
+-
+inline
 -
 start
 :
@@ -207,10 +206,9 @@ margin
 :
 0
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :

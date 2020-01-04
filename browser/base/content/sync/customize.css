@@ -74,10 +74,9 @@ customize
 -
 pane
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :
@@ -121,10 +120,9 @@ customize
 -
 title
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :

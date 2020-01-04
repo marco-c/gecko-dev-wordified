@@ -96,10 +96,9 @@ height
 :
 32px
 ;
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -155,10 +154,9 @@ toggle
 label
 input
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :

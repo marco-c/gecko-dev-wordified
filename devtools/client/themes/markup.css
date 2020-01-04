@@ -371,10 +371,9 @@ floating
 scrollbars
 *
 /
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -1920,10 +1919,9 @@ padding
 0px
 2px
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :

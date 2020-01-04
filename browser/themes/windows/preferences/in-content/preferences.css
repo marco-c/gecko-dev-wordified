@@ -460,10 +460,9 @@ menulist
 -
 icon
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -477,10 +476,9 @@ filefield
 +
 button
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
