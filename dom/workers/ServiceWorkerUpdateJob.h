@@ -202,10 +202,10 @@ starting
 steps
 .
 class
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 :
 public
-ServiceWorkerJob2
+ServiceWorkerJob
 {
 public
 :
@@ -222,7 +222,7 @@ only
 for
 updates
 .
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 nsIPrincipal
 *
@@ -265,7 +265,7 @@ another
 job
 type
 .
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 Type
 aType
@@ -287,7 +287,7 @@ aLoadGroup
 ;
 virtual
 ~
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 )
 ;
