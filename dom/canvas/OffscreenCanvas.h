@@ -672,9 +672,6 @@ mAttrDirty
 =
 true
 ;
-ErrorResult
-dummy
-;
 UpdateContext
 (
 nullptr
@@ -682,7 +679,6 @@ JS
 :
 :
 NullHandleValue
-dummy
 )
 ;
 }

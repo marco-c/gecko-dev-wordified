@@ -2341,9 +2341,6 @@ moz_opaque
 )
 )
 {
-ErrorResult
-dummy
-;
 rv
 =
 UpdateContext
@@ -2353,7 +2350,6 @@ JS
 :
 :
 NullHandleValue
-dummy
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2441,9 +2437,6 @@ moz_opaque
 )
 )
 {
-ErrorResult
-dummy
-;
 rv
 =
 UpdateContext
@@ -2453,7 +2446,6 @@ JS
 :
 :
 NullHandleValue
-dummy
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4687,9 +4679,6 @@ mCurrentContextType
 =
 contextType
 ;
-ErrorResult
-dummy
-;
 nsresult
 rv
 =
@@ -4700,7 +4689,6 @@ JS
 :
 :
 NullHandleValue
-dummy
 )
 ;
 NS_ENSURE_SUCCESS
