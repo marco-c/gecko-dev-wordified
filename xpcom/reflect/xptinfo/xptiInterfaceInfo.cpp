@@ -210,6 +210,16 @@ xptiInterfaceEntry
 namelen
 )
 ;
+if
+(
+!
+place
+)
+{
+return
+nullptr
+;
+}
 return
 new
 (
