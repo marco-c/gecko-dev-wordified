@@ -5437,6 +5437,18 @@ stdout
 subprocess
 .
 PIPE
+                                        
+stderr
+=
+open
+(
+os
+.
+devnull
+'
+wb
+'
+)
 )
                 
 module_line
