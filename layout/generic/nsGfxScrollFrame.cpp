@@ -1301,6 +1301,9 @@ showing
 .
 *
 /
+namespace
+mozilla
+{
 struct
 MOZ_STACK_CLASS
 ScrollReflowState
@@ -1458,6 +1461,11 @@ GetScrollbarStyles
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 /
 /
 XXXldb
