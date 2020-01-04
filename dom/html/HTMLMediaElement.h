@@ -3391,6 +3391,13 @@ MozDumpDebugInfo
 (
 )
 ;
+void
+SetVisible
+(
+bool
+aVisible
+)
+;
 already_AddRefed
 <
 DOMMediaStream
