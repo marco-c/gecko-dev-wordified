@@ -833,7 +833,7 @@ nsStyleContext
 aContext
 )
 :
-nsPluginFrameSuper
+nsFrame
 (
 aContext
 )
@@ -915,7 +915,7 @@ nsIObjectFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsPluginFrameSuper
+nsFrame
 )
 #
 ifdef
@@ -1015,7 +1015,7 @@ aContent
 )
 )
 ;
-nsPluginFrameSuper
+nsFrame
 :
 :
 Init
@@ -1183,7 +1183,7 @@ Destroy
 )
 ;
 }
-nsPluginFrameSuper
+nsFrame
 :
 :
 DestroyFrom
@@ -1261,7 +1261,7 @@ visibility
 ;
 }
 }
-nsPluginFrameSuper
+nsFrame
 :
 :
 DidSetStyleContext
@@ -4481,7 +4481,7 @@ aTabIndex
 1
 ;
 return
-nsPluginFrameSuper
+nsFrame
 :
 :
 IsFocusable
@@ -5213,7 +5213,7 @@ this
 )
 ;
 }
-nsPluginFrameSuper
+nsFrame
 :
 :
 DidReflow
@@ -10161,7 +10161,7 @@ ifdef
 XP_WIN
 rv
 =
-nsPluginFrameSuper
+nsFrame
 :
 :
 HandleEvent
@@ -10348,7 +10348,7 @@ CAPTURE_IGNOREALLOWED
 endif
 rv
 =
-nsPluginFrameSuper
+nsFrame
 :
 :
 HandleEvent
@@ -10374,7 +10374,7 @@ call
 to
 /
 /
-nsPluginFrameSuper
+nsFrame
 :
 :
 HandleEvent
@@ -10796,7 +10796,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsPluginFrameSuper
+nsFrame
 :
 :
 GetCursor
