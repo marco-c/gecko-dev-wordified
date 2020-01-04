@@ -434,6 +434,8 @@ AddStandardRequestHeaders
 (
 nsHttpHeaderArray
 *
+bool
+isSecure
 )
 ;
 nsresult
@@ -452,6 +454,8 @@ const
 char
 *
 encoding
+bool
+isSecure
 )
 ;
 const
@@ -2137,6 +2141,8 @@ SetAcceptEncodings
 const
 char
 *
+bool
+mIsSecure
 )
 ;
 nsresult
@@ -2424,7 +2430,10 @@ nsCString
 mAcceptLanguages
 ;
 nsCString
-mAcceptEncodings
+mHttpAcceptEncodings
+;
+nsCString
+mHttpsAcceptEncodings
 ;
 nsXPIDLCString
 mDefaultSocketType

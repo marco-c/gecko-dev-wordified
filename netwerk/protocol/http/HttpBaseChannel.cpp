@@ -800,7 +800,7 @@ port
 1
 ;
 bool
-usingSSL
+isHTTPS
 =
 false
 ;
@@ -816,7 +816,7 @@ SchemeIs
 https
 "
 &
-usingSSL
+isHTTPS
 )
 ;
 if
@@ -1042,6 +1042,7 @@ mRequestHead
 Headers
 (
 )
+isHTTPS
 )
 ;
 if
@@ -4622,6 +4623,23 @@ n
 break
 ;
 }
+bool
+isHTTPS
+=
+false
+;
+mURI
+-
+>
+SchemeIs
+(
+"
+https
+"
+&
+isHTTPS
+)
+;
 if
 (
 gHttpHandler
@@ -4630,6 +4648,7 @@ gHttpHandler
 IsAcceptableEncoding
 (
 val
+isHTTPS
 )
 )
 {
