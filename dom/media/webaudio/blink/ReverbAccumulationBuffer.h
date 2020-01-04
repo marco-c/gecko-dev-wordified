@@ -466,6 +466,7 @@ place
 int
 accumulate
 (
+const
 float
 *
 source

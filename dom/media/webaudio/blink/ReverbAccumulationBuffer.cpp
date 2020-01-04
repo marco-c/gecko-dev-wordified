@@ -563,6 +563,7 @@ ReverbAccumulationBuffer
 :
 accumulate
 (
+const
 float
 *
 source
