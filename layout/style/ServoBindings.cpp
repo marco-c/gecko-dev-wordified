@@ -830,7 +830,16 @@ uint8_t
 bytes
 uint32_t
 length
+mozilla
+:
+:
+css
+:
+:
+SheetParsingMode
+mode
 )
+;
 {
 MOZ_CRASH
 (
