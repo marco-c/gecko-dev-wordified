@@ -1339,8 +1339,6 @@ SELECTION_NORMAL
 return
 0
 ;
-break
-;
 case
 nsISelectionController
 :
@@ -1349,8 +1347,6 @@ SELECTION_SPELLCHECK
 :
 return
 1
-;
-break
 ;
 case
 nsISelectionController
@@ -1361,8 +1357,6 @@ SELECTION_IME_RAWINPUT
 return
 2
 ;
-break
-;
 case
 nsISelectionController
 :
@@ -1371,8 +1365,6 @@ SELECTION_IME_SELECTEDRAWTEXT
 :
 return
 3
-;
-break
 ;
 case
 nsISelectionController
@@ -1383,8 +1375,6 @@ SELECTION_IME_CONVERTEDTEXT
 return
 4
 ;
-break
-;
 case
 nsISelectionController
 :
@@ -1393,8 +1383,6 @@ SELECTION_IME_SELECTEDCONVERTEDTEXT
 :
 return
 5
-;
-break
 ;
 case
 nsISelectionController
@@ -1405,8 +1393,6 @@ SELECTION_ACCESSIBILITY
 return
 6
 ;
-break
-;
 case
 nsISelectionController
 :
@@ -1415,8 +1401,6 @@ SELECTION_FIND
 :
 return
 7
-;
-break
 ;
 case
 nsISelectionController
@@ -1427,8 +1411,6 @@ SELECTION_URLSECONDARY
 return
 8
 ;
-break
-;
 case
 nsISelectionController
 :
@@ -1438,15 +1420,11 @@ SELECTION_URLSTRIKEOUT
 return
 9
 ;
-break
-;
 default
 :
 return
 -
 1
-;
-break
 ;
 }
 /
@@ -1454,9 +1432,6 @@ break
 NOTREACHED
 *
 /
-return
-0
-;
 }
 static
 SelectionType
@@ -1480,8 +1455,6 @@ nsISelectionController
 :
 SELECTION_NORMAL
 ;
-break
-;
 case
 1
 :
@@ -1490,8 +1463,6 @@ nsISelectionController
 :
 :
 SELECTION_SPELLCHECK
-;
-break
 ;
 case
 2
@@ -1502,8 +1473,6 @@ nsISelectionController
 :
 SELECTION_IME_RAWINPUT
 ;
-break
-;
 case
 3
 :
@@ -1512,8 +1481,6 @@ nsISelectionController
 :
 :
 SELECTION_IME_SELECTEDRAWTEXT
-;
-break
 ;
 case
 4
@@ -1524,8 +1491,6 @@ nsISelectionController
 :
 SELECTION_IME_CONVERTEDTEXT
 ;
-break
-;
 case
 5
 :
@@ -1534,8 +1499,6 @@ nsISelectionController
 :
 :
 SELECTION_IME_SELECTEDCONVERTEDTEXT
-;
-break
 ;
 case
 6
@@ -1546,8 +1509,6 @@ nsISelectionController
 :
 SELECTION_ACCESSIBILITY
 ;
-break
-;
 case
 7
 :
@@ -1556,8 +1517,6 @@ nsISelectionController
 :
 :
 SELECTION_FIND
-;
-break
 ;
 case
 8
@@ -1568,8 +1527,6 @@ nsISelectionController
 :
 SELECTION_URLSECONDARY
 ;
-break
-;
 case
 9
 :
@@ -1579,8 +1536,6 @@ nsISelectionController
 :
 SELECTION_URLSTRIKEOUT
 ;
-break
-;
 default
 :
 return
@@ -1589,17 +1544,12 @@ nsISelectionController
 :
 SELECTION_NORMAL
 ;
-break
-;
 }
 /
 *
 NOTREACHED
 *
 /
-return
-0
-;
 }
 /
 *
@@ -31805,8 +31755,6 @@ GetSelectionEndPointGeometry
 aRegion
 aRect
 )
-;
-break
 ;
 case
 nsISelectionController

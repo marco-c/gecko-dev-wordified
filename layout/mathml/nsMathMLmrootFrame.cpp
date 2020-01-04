@@ -2555,8 +2555,6 @@ GetStyleContext
 (
 )
 ;
-break
-;
 default
 :
 return

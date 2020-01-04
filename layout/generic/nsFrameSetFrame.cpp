@@ -5072,8 +5072,6 @@ NS_STYLE_FRAME_1
 return
 eFrameborder_Yes
 ;
-break
-;
 case
 NS_STYLE_FRAME_NO
 :
@@ -5082,8 +5080,6 @@ NS_STYLE_FRAME_0
 :
 return
 eFrameborder_No
-;
-break
 ;
 }
 }
