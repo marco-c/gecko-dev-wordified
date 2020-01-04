@@ -4655,6 +4655,12 @@ Filter
 :
 :
 GOOD
+/
+*
+no
+SVGImageContext
+*
+/
 Nothing
 (
 )
