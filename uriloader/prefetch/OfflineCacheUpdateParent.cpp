@@ -278,8 +278,10 @@ log
 /
 /
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gOfflineCacheUpdateLog
 ;
 #
