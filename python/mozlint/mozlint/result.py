@@ -132,10 +132,6 @@ column
 containing
 the
 error
-(
-default
-1
-)
     
 :
 param
@@ -333,8 +329,6 @@ self
 column
 =
 column
-or
-1
         
 self
 .

@@ -227,7 +227,6 @@ c1
 {
 lineno
 }
-:
 {
 column
 }
@@ -404,6 +403,12 @@ lineno
 )
 )
         
+if
+err
+.
+column
+:
+            
 self
 .
 max_column
@@ -687,6 +692,11 @@ max_lineno
                     
 column
 =
+(
+"
+:
+"
++
 str
 (
 err
@@ -700,6 +710,14 @@ self
 .
 max_column
 )
+)
+if
+err
+.
+column
+else
+"
+"
                     
 level
 =
