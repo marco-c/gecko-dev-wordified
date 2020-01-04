@@ -5032,7 +5032,7 @@ cx
 templateObject
 -
 >
-getTaggedProto
+taggedProto
 (
 )
 )

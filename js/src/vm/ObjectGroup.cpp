@@ -1941,7 +1941,7 @@ type
 /
 if
 (
-getProto
+staticPrototype
 (
 )
 !
@@ -2415,7 +2415,7 @@ cx
 obj
 -
 >
-getTaggedProto
+taggedProto
 (
 )
 )
@@ -3865,7 +3865,7 @@ if
 (
 proto
 .
-isLazy
+isDynamic
 (
 )
 |
@@ -9084,7 +9084,7 @@ getClass
 obj
 -
 >
-getTaggedProto
+taggedProto
 (
 )
 )

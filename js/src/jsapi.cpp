@@ -6198,7 +6198,7 @@ maybeObj
 maybeObj
 -
 >
-getProto
+staticPrototype
 (
 )
 )

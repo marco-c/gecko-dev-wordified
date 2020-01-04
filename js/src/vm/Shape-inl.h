@@ -916,7 +916,7 @@ cx
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 )

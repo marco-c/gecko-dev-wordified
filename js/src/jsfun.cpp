@@ -13843,7 +13843,7 @@ if
 fun
 -
 >
-getProto
+staticPrototype
 (
 )
 =
@@ -13851,7 +13851,7 @@ getProto
 clone
 -
 >
-getProto
+staticPrototype
 (
 )
 )
@@ -14900,7 +14900,7 @@ toObject
 (
 )
 .
-getProto
+staticPrototype
 (
 )
 |
@@ -14911,7 +14911,7 @@ toObject
 (
 )
 .
-getProto
+staticPrototype
 (
 )
 -
