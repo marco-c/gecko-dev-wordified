@@ -462,6 +462,14 @@ eScroll
 )
 /
 /
+Application
+installation
+NS_EVENT_MESSAGE
+(
+eInstall
+)
+/
+/
 A
 plugin
 was

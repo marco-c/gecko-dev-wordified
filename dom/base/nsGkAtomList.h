@@ -3812,6 +3812,13 @@ insertbefore
 )
 GK_ATOM
 (
+install
+"
+install
+"
+)
+GK_ATOM
+(
 instanceOf
 "
 instanceOf
