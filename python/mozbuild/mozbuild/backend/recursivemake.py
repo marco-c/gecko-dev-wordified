@@ -5721,7 +5721,23 @@ items
 )
 :
                         
+#
+topobjdir
+is
+an
+exception
+it
+'
+s
+still
+skipped
+.
+                        
 if
+bf
+.
+relobjdir
+and
 bf
 .
 relobjdir
