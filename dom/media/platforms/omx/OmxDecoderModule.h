@@ -201,12 +201,6 @@ aDiagnostics
 )
 override
 ;
-static
-void
-Init
-(
-)
-;
 bool
 SupportsMimeType
 (
