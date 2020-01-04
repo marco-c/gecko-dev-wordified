@@ -290,9 +290,6 @@ COMBINED_HISTORY
 PanelType
 .
 RECENT_TABS
-PanelType
-.
-READING_LIST
 )
 ;
 /
