@@ -3376,6 +3376,11 @@ nsAString
 aString
 )
 ;
+void
+MozDumpDebugInfo
+(
+)
+;
 already_AddRefed
 <
 DOMMediaStream
