@@ -94,8 +94,6 @@ loaded
 ;
 var
 BrowserElementIsReady
-=
-false
 ;
 var
 {
@@ -341,8 +339,10 @@ if
 !
 BrowserElementIsReady
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -408,8 +408,10 @@ if
 !
 BrowserElementIsReady
 )
+{
 return
 ;
+}
 if
 (
 !
