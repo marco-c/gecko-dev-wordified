@@ -6509,6 +6509,10 @@ IsAsync
 )
 &
 &
+!
+mIsAudioPrerolling
+&
+&
 IsAudioDecoding
 (
 )
@@ -6527,6 +6531,11 @@ mPlaybackRate
 bool
 isLowOnDecodedVideo
 =
+!
+mIsVideoPrerolling
+&
+&
+(
 (
 GetClock
 (
@@ -6538,6 +6547,7 @@ mDecodedVideoEndTime
 mPlaybackRate
 >
 LOW_VIDEO_THRESHOLD_USECS
+)
 ;
 bool
 lowBuffered
