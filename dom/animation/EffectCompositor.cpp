@@ -246,7 +246,7 @@ GetPresShellForContent
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 "
@@ -494,7 +494,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsTArray
 <
@@ -2657,7 +2657,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2694,7 +2694,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2773,7 +2773,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -3556,7 +3556,7 @@ t
 change
 it
 .
-nsCSSPropertyIDSet
+nsCSSPropertySet
 properties
 ;
 for
@@ -3637,14 +3637,14 @@ aStyleContext
 EffectSet
 &
 aEffectSet
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aPropertiesOverridden
 )
 {
 AutoTArray
 <
-nsCSSPropertyID
+nsCSSProperty
 LayerAnimationInfo
 :
 :
@@ -3653,7 +3653,7 @@ kRecords
 propertiesToTrack
 ;
 {
-nsCSSPropertyIDSet
+nsCSSPropertySet
 propertiesToTrackAsSet
 ;
 for
@@ -3962,7 +3962,7 @@ usual
 cascade
 applies
 .
-nsCSSPropertyIDSet
+nsCSSPropertySet
 overriddenProperties
 ;
 if
@@ -3983,7 +3983,7 @@ changed
 =
 false
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 animatedProperties
 ;
 /
@@ -4468,7 +4468,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 AnimationPerformanceWarning

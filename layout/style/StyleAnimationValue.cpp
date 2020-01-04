@@ -481,7 +481,7 @@ StyleAnimationValue
 Unit
 GetCommonUnit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 :
@@ -608,7 +608,7 @@ static
 nsCSSUnit
 GetCommonUnit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsCSSUnit
 aFirstUnit
@@ -3318,7 +3318,7 @@ StyleAnimationValue
 :
 ComputeDistance
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -6820,7 +6820,7 @@ T
 T
 RestrictValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 T
 aValue
@@ -13181,7 +13181,7 @@ nsCSSValuePair
 >
 AddCSSValuePair
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 uint32_t
 aRestrictions
@@ -13472,7 +13472,7 @@ nsCSSValuePairList
 >
 AddCSSValuePairList
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 double
 aCoeff1
@@ -13790,7 +13790,7 @@ Array
 >
 AddShapeFunction
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 double
 aCoeff1
@@ -16361,7 +16361,7 @@ StyleAnimationValue
 :
 AddWeighted
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 double
 aCoeff1
@@ -19855,7 +19855,7 @@ StyleRule
 >
 BuildStyleRule
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 dom
 :
@@ -19951,7 +19951,7 @@ CSSLoader
 )
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 propertyToCheck
 =
 nsCSSProps
@@ -20093,7 +20093,7 @@ StyleRule
 >
 BuildStyleRule
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 dom
 :
@@ -20263,7 +20263,7 @@ static
 bool
 ComputeValuesFromStyleRule
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 CSSEnabledState
 aEnabledState
@@ -20865,7 +20865,7 @@ StyleAnimationValue
 :
 ComputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 dom
 :
@@ -21136,7 +21136,7 @@ T
 bool
 ComputeValuesFromSpecifiedValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 CSSEnabledState
 aEnabledState
@@ -21282,7 +21282,7 @@ StyleAnimationValue
 :
 ComputeValues
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 CSSEnabledState
 aEnabledState
@@ -21333,7 +21333,7 @@ StyleAnimationValue
 :
 ComputeValues
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 CSSEnabledState
 aEnabledState
@@ -21379,7 +21379,7 @@ StyleAnimationValue
 :
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -22042,7 +22042,7 @@ StyleAnimationValue
 :
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &
@@ -22183,7 +22183,7 @@ StyleAnimationValue
 :
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -25034,7 +25034,7 @@ StyleAnimationValue
 :
 ExtractComputedValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsStyleContext
 *

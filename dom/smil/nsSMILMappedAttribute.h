@@ -345,7 +345,7 @@ animated
 /
 nsSMILMappedAttribute
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 mozilla
 :

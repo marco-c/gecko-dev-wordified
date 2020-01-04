@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -762,7 +762,7 @@ void
 ParseProperty
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString
@@ -832,7 +832,7 @@ void
 ParseLonghandProperty
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString
@@ -1752,9 +1752,9 @@ respectively
 void
 ParsePropertyWithVariableReferences
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropertyID
-nsCSSPropertyID
+nsCSSProperty
 aShorthandPropertyID
 const
 nsAString
@@ -1870,7 +1870,7 @@ bool
 IsValueValidForProperty
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString

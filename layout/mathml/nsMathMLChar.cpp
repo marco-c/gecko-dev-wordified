@@ -14650,7 +14650,7 @@ color
 .
 .
 .
-nsCSSPropertyID
+nsCSSProperty
 colorProp
 =
 styleContext

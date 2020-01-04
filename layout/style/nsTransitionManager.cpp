@@ -203,7 +203,7 @@ h
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 "
@@ -1154,7 +1154,7 @@ effect
 "
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 mEffect
@@ -1450,7 +1450,7 @@ QueueEvents
 )
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 CSSTransition
 :
 :
@@ -3326,7 +3326,7 @@ startedAny
 =
 false
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 whichStarted
 ;
 for
@@ -3457,7 +3457,7 @@ the
 one
 below
 .
-nsCSSPropertyID
+nsCSSProperty
 property
 =
 t
@@ -3512,10 +3512,10 @@ eCSSPropertyExtra_all_properties
 {
 for
 (
-nsCSSPropertyID
+nsCSSProperty
 p
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 0
 )
@@ -3526,7 +3526,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 p
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 p
 +
@@ -3742,7 +3742,7 @@ GetProperty
 =
 eCSSPropertyExtra_all_properties
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 allTransitionProperties
 ;
 if
@@ -3810,7 +3810,7 @@ the
 one
 above
 .
-nsCSSPropertyID
+nsCSSProperty
 property
 =
 t
@@ -3865,10 +3865,10 @@ eCSSPropertyExtra_all_properties
 {
 for
 (
-nsCSSPropertyID
+nsCSSProperty
 p
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 0
 )
@@ -3879,7 +3879,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 p
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 p
 +
@@ -4207,7 +4207,7 @@ nsTransitionManager
 :
 ConsiderStartingTransition
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleTransition
@@ -4232,7 +4232,7 @@ aNewStyleContext
 bool
 *
 aStartedAny
-nsCSSPropertyIDSet
+nsCSSPropertySet
 *
 aWhichStarted
 )
@@ -6266,7 +6266,7 @@ AppendKeyframe
 (
 double
 aOffset
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &
@@ -6371,7 +6371,7 @@ GetTransitionKeyframes
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &

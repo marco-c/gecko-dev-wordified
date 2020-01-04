@@ -258,14 +258,14 @@ Promise
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
 /
 /
 for
-nsCSSPropertyID
+nsCSSProperty
 #
 include
 "
@@ -324,7 +324,7 @@ struct
 JSContext
 ;
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 ;
 class
 nsIDocument
@@ -2413,7 +2413,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aSetProperties
 )

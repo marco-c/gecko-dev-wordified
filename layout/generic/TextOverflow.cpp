@@ -1293,7 +1293,7 @@ nsRenderingContext
 aCtx
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 colorProp
 =
 mFrame

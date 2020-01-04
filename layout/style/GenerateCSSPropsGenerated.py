@@ -224,7 +224,7 @@ the
 order
 of
 the
-nsCSSPropertyID
+nsCSSProperty
 enum
 .
     
@@ -579,7 +579,7 @@ list
 '
 properties
 in
-nsCSSPropertyID
+nsCSSProperty
 order
 "
 )
@@ -706,7 +706,7 @@ ps
 Sort
 back
 to
-nsCSSPropertyID
+nsCSSProperty
 order
 .
     

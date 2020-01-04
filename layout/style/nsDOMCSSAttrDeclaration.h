@@ -249,7 +249,7 @@ NS_IMETHOD
 SetPropertyValue
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString

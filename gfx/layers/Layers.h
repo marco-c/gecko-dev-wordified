@@ -466,14 +466,14 @@ already_AddRefed
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
 /
 /
 for
-nsCSSPropertyID
+nsCSSProperty
 #
 include
 "

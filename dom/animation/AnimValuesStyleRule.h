@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 "
@@ -280,7 +280,7 @@ endif
 void
 AddValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -324,7 +324,7 @@ aProperty
 void
 AddValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &

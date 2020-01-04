@@ -4641,7 +4641,7 @@ context
 nscolor
 GetVisitedDependentColor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {

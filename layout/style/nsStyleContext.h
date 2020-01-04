@@ -1103,7 +1103,7 @@ text
 .
 *
 /
-nsCSSPropertyID
+nsCSSProperty
 GetTextFillColorProp
 (
 )
@@ -3045,7 +3045,7 @@ color
 nscolor
 GetVisitedDependentColor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;

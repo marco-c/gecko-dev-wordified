@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -674,7 +674,7 @@ virtual
 bool
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsCSSValue
 *

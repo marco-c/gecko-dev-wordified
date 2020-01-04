@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 "
@@ -431,7 +431,7 @@ nsCSSValue
 *
 ValueFor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -524,7 +524,7 @@ erased
 bool
 TryReplaceValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsCSSExpandedDataBlock
 &
@@ -679,13 +679,13 @@ public
 /
 Ideally
 |
-nsCSSPropertyID
+nsCSSProperty
 |
 would
 be
 |
 enum
-nsCSSPropertyID
+nsCSSProperty
 :
 int16_t
 |
@@ -714,7 +714,7 @@ So
 we
 manually
 squeeze
-nsCSSPropertyID
+nsCSSProperty
 into
 16
 bits
@@ -808,7 +808,7 @@ fields
 and
 /
 /
-nsCSSPropertyID
+nsCSSProperty
 elements
 are
 stored
@@ -936,7 +936,7 @@ Values
 i
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 PropertyAtIndex
 (
 uint32_t
@@ -958,11 +958,11 @@ range
 "
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 (
-nsCSSPropertyID
+nsCSSProperty
 )
 CompressedProperties
 (
@@ -1045,7 +1045,7 @@ SetPropertyAtIndex
 (
 uint32_t
 i
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -1210,7 +1210,7 @@ nsCSSCompressedDataBlock
 :
 MaxCompressedCSSProperty
 "
-nsCSSPropertyID
+nsCSSProperty
 doesn
 '
 t
@@ -1421,7 +1421,7 @@ is
 an
 array
 of
-nsCSSPropertyID
+nsCSSProperty
 values
 specifying
 the
@@ -1493,7 +1493,7 @@ shorthand
 void
 AddLonghandProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsCSSValue
@@ -1553,7 +1553,7 @@ properties
 void
 ClearProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 )
 ;
@@ -1578,7 +1578,7 @@ shorthands
 void
 ClearLonghandProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 )
 ;
@@ -1742,7 +1742,7 @@ TransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 mozilla
 :
@@ -1819,7 +1819,7 @@ property
 void
 MapRuleInfoInto
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 nsRuleData
 *
@@ -1911,7 +1911,7 @@ DoTransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 bool
 aIsImportant
@@ -1989,7 +1989,7 @@ block
 .
 *
 /
-nsCSSPropertyIDSet
+nsCSSPropertySet
 mPropertiesSet
 ;
 /
@@ -2007,7 +2007,7 @@ important
 .
 *
 /
-nsCSSPropertyIDSet
+nsCSSPropertySet
 mPropertiesImportant
 ;
 /
@@ -2038,7 +2038,7 @@ nsCSSValue
 *
 PropertyAt
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2074,7 +2074,7 @@ nsCSSValue
 *
 PropertyAt
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -2109,7 +2109,7 @@ aProperty
 void
 SetPropertyBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2124,7 +2124,7 @@ aProperty
 void
 ClearPropertyBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2139,7 +2139,7 @@ aProperty
 bool
 HasPropertyBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2155,7 +2155,7 @@ aProperty
 void
 SetImportantBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2170,7 +2170,7 @@ aProperty
 void
 ClearImportantBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -2185,7 +2185,7 @@ aProperty
 bool
 HasImportantBit
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {

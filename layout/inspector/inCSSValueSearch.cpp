@@ -321,7 +321,7 @@ AddRefTable
 mProperties
 =
 new
-nsCSSPropertyID
+nsCSSProperty
 [
 100
 ]
@@ -1078,7 +1078,7 @@ char16_t
 aPropName
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 nsCSSProps

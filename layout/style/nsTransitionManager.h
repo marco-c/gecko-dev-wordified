@@ -175,7 +175,7 @@ class
 nsPresContext
 ;
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 ;
 namespace
 mozilla
@@ -440,7 +440,7 @@ return
 this
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 TransitionProperty
 (
 )
@@ -1336,7 +1336,7 @@ Tick
 )
 override
 ;
-nsCSSPropertyID
+nsCSSProperty
 TransitionProperty
 (
 )
@@ -1930,7 +1930,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StickyTimeDuration
 aDuration
@@ -2658,7 +2658,7 @@ aNewStyleContext
 void
 ConsiderStartingTransition
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 mozilla
@@ -2689,7 +2689,7 @@ aNewStyleContext
 bool
 *
 aStartedAny
-nsCSSPropertyIDSet
+nsCSSPropertySet
 *
 aWhichStarted
 )
@@ -2706,7 +2706,7 @@ GetTransitionKeyframes
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 mozilla
 :

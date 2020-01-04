@@ -452,7 +452,7 @@ aDocument
 nsStyleContext
 *
 aContext
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 bool
 aForTokenStream
@@ -970,7 +970,7 @@ aDocument
 nsStyleContext
 *
 aContext
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 bool
 aForTokenStream
@@ -1092,7 +1092,7 @@ ShouldStartImageLoads
 nsRuleData
 *
 aRuleData
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -1208,7 +1208,7 @@ static
 void
 MapSinglePropertyInto
 (
-nsCSSPropertyID
+nsCSSProperty
 aTargetProp
 const
 nsCSSValue
@@ -1587,7 +1587,7 @@ inline
 void
 EnsurePhysicalProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 &
 aProperty
 nsRuleData
@@ -1897,7 +1897,7 @@ side
 ;
 }
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 props
 =
@@ -2408,7 +2408,7 @@ i
 ;
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 iProp
 =
 PropertyAtIndex
@@ -2623,7 +2623,7 @@ nsCSSCompressedDataBlock
 :
 ValueFor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -2769,7 +2769,7 @@ nsCSSCompressedDataBlock
 :
 TryReplaceValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsCSSExpandedDataBlock
 &
@@ -3446,7 +3446,7 @@ i
 +
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 iProp
 =
 aBlock
@@ -3703,7 +3703,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kChunkCount
@@ -3734,7 +3734,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kBitsInChunk
@@ -3760,10 +3760,10 @@ continue
 #
 ifdef
 DEBUG
-nsCSSPropertyID
+nsCSSProperty
 iProp
 =
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 CSSPropertyAt
@@ -3985,12 +3985,12 @@ i
 +
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 iProp
 =
 static_cast
 <
-nsCSSPropertyID
+nsCSSProperty
 >
 (
 aOrder
@@ -4247,7 +4247,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kChunkCount
@@ -4280,7 +4280,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kBitsInChunk
@@ -4364,7 +4364,7 @@ nsCSSExpandedDataBlock
 :
 AddLonghandProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsCSSValue
@@ -4434,7 +4434,7 @@ iHigh
 ;
 iHigh
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kChunkCount
@@ -4465,7 +4465,7 @@ iLow
 ;
 iLow
 <
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 kBitsInChunk
@@ -4488,10 +4488,10 @@ iLow
 )
 continue
 ;
-nsCSSPropertyID
+nsCSSProperty
 iProp
 =
-nsCSSPropertyIDSet
+nsCSSPropertySet
 :
 :
 CSSPropertyAt
@@ -4518,7 +4518,7 @@ nsCSSExpandedDataBlock
 :
 ClearProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 )
 {
@@ -4566,7 +4566,7 @@ nsCSSExpandedDataBlock
 :
 ClearLonghandProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 )
 {
@@ -4617,7 +4617,7 @@ TransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 CSSEnabledState
 aEnabledState
@@ -4772,7 +4772,7 @@ DoTransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 bool
 aIsImportant
@@ -5046,7 +5046,7 @@ nsCSSExpandedDataBlock
 :
 MapRuleInfoInto
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 nsRuleData
 *
@@ -5089,7 +5089,7 @@ GetUnit
 eCSSUnit_Null
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 physicalProp
 =
 aPropID
@@ -5227,10 +5227,10 @@ eCSSProperty_COUNT_no_shorthands
 i
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 i
 )

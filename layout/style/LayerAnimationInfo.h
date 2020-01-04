@@ -89,7 +89,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -154,7 +154,7 @@ hint
 struct
 Record
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 nsDisplayItem

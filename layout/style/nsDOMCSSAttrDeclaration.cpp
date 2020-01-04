@@ -1031,7 +1031,7 @@ nsDOMCSSAttributeDeclaration
 SetPropertyValue
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString

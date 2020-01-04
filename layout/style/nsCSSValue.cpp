@@ -5228,7 +5228,7 @@ CSSValueSerializeCalcOps
 {
 CSSValueSerializeCalcOps
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -5389,7 +5389,7 @@ mValueSerialization
 }
 private
 :
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 nsAString
@@ -5414,7 +5414,7 @@ nsCSSValue
 :
 AppendPolygonToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -5639,7 +5639,7 @@ const
 nsCSSValue
 &
 aValue
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -5708,7 +5708,7 @@ AppendCircleOrEllipseToString
 (
 nsCSSKeyword
 aFunctionId
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -6529,7 +6529,7 @@ nsCSSValue
 AppendSidesShorthandToString
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aProperties
 [
 ]
@@ -6800,7 +6800,7 @@ nsCSSValue
 AppendBasicShapeRadiusToString
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aProperties
 [
 ]
@@ -6968,7 +6968,7 @@ nsCSSValue
 :
 AppendInsetToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -7191,7 +7191,7 @@ eCSSUnit_Array
 )
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -7580,7 +7580,7 @@ nsCSSValue
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -8128,7 +8128,7 @@ true
 continue
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 (
@@ -11344,7 +11344,7 @@ eCSSUnit_TokenStream
 unit
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 shorthand
 =
 mValue
@@ -13493,7 +13493,7 @@ const
 nsCSSValueList
 *
 val
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -13580,7 +13580,7 @@ const
 nsCSSValueList
 *
 val
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -14209,7 +14209,7 @@ nsCSSValueList
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -14561,7 +14561,7 @@ nsCSSValueSharedList
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -14785,7 +14785,7 @@ nsCSSRect
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -15267,7 +15267,7 @@ nsCSSValuePair
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -15471,7 +15471,7 @@ nsCSSValueTriplet
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -15786,7 +15786,7 @@ nsCSSValuePairList
 :
 AppendToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &

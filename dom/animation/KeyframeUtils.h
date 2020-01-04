@@ -735,7 +735,7 @@ Keyframe
 aKeyframes
 SpacingMode
 aSpacingMode
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsTArray
 <
@@ -1002,7 +1002,7 @@ static
 bool
 IsAnimatableProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
