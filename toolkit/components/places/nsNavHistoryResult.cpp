@@ -18148,6 +18148,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsNavHistoryFolderResultNode
 nsNavHistoryContainerResultNode
 nsINavHistoryQueryResultNode
+mozIStorageStatementCallback
 )
 nsNavHistoryFolderResultNode
 :
@@ -23535,7 +23536,10 @@ aItemType
 itemURI
 aGUID
 aOldParentGUID
-aSource
+nsINavBookmarksService
+:
+:
+SOURCE_DEFAULT
 )
 ;
 }
@@ -23572,7 +23576,10 @@ value
 .
 aGUID
 aNewParentGUID
-aSource
+nsINavBookmarksService
+:
+:
+SOURCE_DEFAULT
 )
 ;
 }
