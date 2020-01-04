@@ -178,9 +178,13 @@ stream
 void
 *
 user
+const
 void
 *
-buffer
+inputbuffer
+void
+*
+outputbuffer
 long
 nframes
 )
@@ -219,7 +223,7 @@ b
 float
 *
 )
-buffer
+outputbuffer
 ;
 #
 else
@@ -231,7 +235,7 @@ b
 short
 *
 )
-buffer
+outputbuffer
 ;
 #
 endif
@@ -781,6 +785,10 @@ tone
 mono
 )
 "
+NULL
+NULL
+NULL
+&
 params
 250
 data_cb
