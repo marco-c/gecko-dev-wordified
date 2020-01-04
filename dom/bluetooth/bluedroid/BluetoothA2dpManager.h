@@ -282,6 +282,11 @@ BluetoothA2dpManager
 )
 ;
 void
+Uninit
+(
+)
+;
+void
 HandleShutdown
 (
 )

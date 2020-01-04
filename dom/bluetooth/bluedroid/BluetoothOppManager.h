@@ -420,8 +420,13 @@ BluetoothOppManager
 (
 )
 ;
-bool
+nsresult
 Init
+(
+)
+;
+void
+Uninit
 (
 )
 ;

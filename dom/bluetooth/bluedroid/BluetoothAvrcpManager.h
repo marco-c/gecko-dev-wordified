@@ -356,6 +356,11 @@ BluetoothAvrcpManager
 )
 ;
 void
+Uninit
+(
+)
+;
+void
 HandleShutdown
 (
 )

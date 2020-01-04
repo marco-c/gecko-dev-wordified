@@ -906,8 +906,13 @@ BluetoothPbapManager
 (
 )
 ;
-bool
+nsresult
 Init
+(
+)
+;
+void
+Uninit
 (
 )
 ;

@@ -819,8 +819,13 @@ BluetoothGattManager
 (
 )
 ;
-bool
+nsresult
 Init
+(
+)
+;
+void
+Uninit
 (
 )
 ;
