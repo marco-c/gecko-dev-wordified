@@ -4345,9 +4345,13 @@ this
 .
 webAccessibleResources
 =
+new
+MatchGlobs
+(
 data
 .
 webAccessibleResources
+)
 ;
 this
 .
