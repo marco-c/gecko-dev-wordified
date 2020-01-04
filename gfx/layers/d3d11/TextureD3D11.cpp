@@ -2270,9 +2270,7 @@ if
 mDrawTarget
 )
 {
-gfxWarning
-(
-)
+gfxCriticalNote
 <
 <
 "
@@ -2281,7 +2279,14 @@ draw
 target
 for
 borrowing
+D3D11
 "
+<
+<
+(
+int
+)
+mFormat
 ;
 }
 return
