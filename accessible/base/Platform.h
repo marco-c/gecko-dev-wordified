@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_a11y_Platform_h
+#
+define
+mozilla_a11y_Platform_h
+#
 include
 <
 stdint
@@ -487,3 +493,8 @@ a11y
 /
 namespace
 mozilla
+#
+endif
+/
+/
+mozilla_a11y_Platform_h
