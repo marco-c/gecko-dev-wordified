@@ -775,6 +775,9 @@ nsACString
 oString
 )
 {
+#
+if
+HAVE_LANGINFO_CODESET
 char
 *
 nl_langinfo_codeset
@@ -787,9 +790,6 @@ aCharset
 nsresult
 res
 ;
-#
-if
-HAVE_LANGINFO_CODESET
 nl_langinfo_codeset
 =
 nl_langinfo
