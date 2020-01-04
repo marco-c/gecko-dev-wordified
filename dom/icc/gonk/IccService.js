@@ -508,13 +508,6 @@ _emails
 [
 ]
 ;
-if
-(
-aContact
-.
-alphaId
-)
-{
 this
 .
 _names
@@ -526,14 +519,6 @@ aContact
 alphaId
 )
 ;
-}
-if
-(
-aContact
-.
-number
-)
-{
 this
 .
 _numbers
@@ -545,7 +530,6 @@ aContact
 number
 )
 ;
-}
 let
 anrLen
 =

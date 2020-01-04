@@ -55869,6 +55869,13 @@ written
 into
 Buf
 .
+"
+"
+if
+str
+is
+null
+.
 *
 /
 writeStringTo8BitUnpacked
@@ -56125,7 +56132,8 @@ substring
 i
 )
 :
-null
+"
+"
 ;
 }
 /
@@ -59077,7 +59085,8 @@ numOctets
 )
 {
 return
-null
+"
+"
 ;
 }
 /
@@ -59953,7 +59962,8 @@ writeHexOctet
 ;
 }
 return
-null
+"
+"
 ;
 }
 }
