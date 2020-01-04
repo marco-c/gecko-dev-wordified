@@ -129,9 +129,9 @@ jit_none_AtomicOperations_none_h
 #
 include
 "
-jit
+mozilla
 /
-AtomicOperations
+Assertions
 .
 h
 "
