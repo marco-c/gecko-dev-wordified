@@ -789,6 +789,10 @@ NeckoParent
 (
 )
 {
+gNeckoParent
+=
+nullptr
+;
 if
 (
 mObserver

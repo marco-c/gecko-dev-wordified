@@ -596,6 +596,17 @@ aURI
 )
 override
 ;
+virtual
+bool
+RecvSpeculativeConnectRequest
+(
+const
+nsCString
+&
+aNotificationData
+)
+override
+;
 }
 ;
 /
