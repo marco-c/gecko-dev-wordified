@@ -1393,7 +1393,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -1401,11 +1401,9 @@ jsm
 }
 )
 .
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 ;
 try
 {

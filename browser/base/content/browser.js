@@ -499,7 +499,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateChannel
+UpdateUtils
 "
 "
 resource
@@ -510,7 +510,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -20123,11 +20123,9 @@ gAppInfo
 name
 channel
 :
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 }
 let
 reportURL

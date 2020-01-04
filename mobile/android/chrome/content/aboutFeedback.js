@@ -311,7 +311,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -1215,11 +1215,9 @@ channel
 "
 ]
 =
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 ;
 /
 /
