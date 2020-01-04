@@ -10304,6 +10304,9 @@ profile
 false
 )
 ;
+var
+showInstallScreen
+;
 if
 (
 AppConstants
@@ -10606,7 +10609,6 @@ visibility
 =
 false
 ;
-const
 showInstallScreen
 =
 (
