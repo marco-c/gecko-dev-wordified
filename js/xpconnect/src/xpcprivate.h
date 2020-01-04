@@ -8745,6 +8745,12 @@ return
 mPosition
 ;
 }
+PLDHashNumber
+Hash
+(
+)
+const
+;
 /
 /
 Allow
