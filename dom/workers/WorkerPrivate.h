@@ -4829,6 +4829,8 @@ AddHolder
 WorkerHolder
 *
 aHolder
+Status
+aFailStatus
 )
 ;
 void

@@ -975,6 +975,10 @@ HoldWorker
 WorkerPrivate
 *
 aWorkerPrivate
+Status
+aFailStatus
+=
+Canceling
 )
 ;
 void
