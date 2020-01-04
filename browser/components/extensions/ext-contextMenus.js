@@ -2875,13 +2875,6 @@ Map
 )
 )
 ;
-gRootItems
-.
-delete
-(
-extension
-)
-;
 if
 (
 +
@@ -2928,6 +2921,13 @@ extension
 >
 {
 gContextMenuMap
+.
+delete
+(
+extension
+)
+;
+gRootItems
 .
 delete
 (
