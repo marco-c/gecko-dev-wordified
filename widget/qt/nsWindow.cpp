@@ -2663,7 +2663,13 @@ status
 ;
 DispatchResizeEvent
 (
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 status
 )
 ;
@@ -3039,7 +3045,13 @@ status
 ;
 DispatchResizeEvent
 (
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 status
 )
 ;
@@ -4881,7 +4893,7 @@ QResizeEvent
 aEvent
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 /
@@ -4890,7 +4902,7 @@ Generate
 XPFE
 resize
 event
-GetBoundsUntyped
+GetBounds
 (
 rect
 )
@@ -7575,7 +7587,7 @@ nsWindow
 :
 DispatchResizeEvent
 (
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsEventStatus
