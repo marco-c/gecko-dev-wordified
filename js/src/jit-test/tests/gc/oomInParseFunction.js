@@ -9,13 +9,7 @@ test
 -
 no
 -
-ggc
-;
-allow
--
-unhandlable
--
-oom
+threads
 load
 (
 libdir

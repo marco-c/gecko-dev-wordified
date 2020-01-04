@@ -9,7 +9,7 @@ test
 -
 no
 -
-ggc
+threads
 ;
 allow
 -
