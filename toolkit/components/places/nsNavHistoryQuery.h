@@ -307,15 +307,6 @@ return
 mDomain
 ;
 }
-bool
-UriIsPrefix
-(
-)
-{
-return
-mUriIsPrefix
-;
-}
 nsIURI
 *
 Uri
@@ -527,9 +518,6 @@ string
 is
 valid
 query
-bool
-mUriIsPrefix
-;
 nsCOMPtr
 <
 nsIURI
