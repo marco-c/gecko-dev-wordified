@@ -17372,9 +17372,11 @@ else
 {
 narr
 =
-NewDenseEmptyArray
+NewFullyAllocatedArrayTryReuseGroup
 (
 cx
+aobj
+0
 )
 ;
 if
