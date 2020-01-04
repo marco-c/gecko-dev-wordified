@@ -333,6 +333,14 @@ aCode
 )
 ;
 void
+GetInitDict
+(
+KeyboardEventInit
+&
+aParam
+)
+;
+void
 InitKeyEvent
 (
 const
