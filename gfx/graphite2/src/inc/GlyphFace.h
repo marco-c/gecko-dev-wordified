@@ -346,7 +346,7 @@ return
 m_attrs
 ;
 }
-int32
+uint16
 getMetric
 (
 uint8

@@ -762,10 +762,6 @@ bool
 rtl
 bool
 isFinal
-int
-depth
-=
-0
 )
 ;
 bool
@@ -1193,6 +1189,14 @@ Slot
 ap
 )
 ;
+bool
+removeSibling
+(
+Slot
+*
+ap
+)
+;
 int32
 clusterMetric
 (
@@ -1226,10 +1230,6 @@ floodShift
 (
 Position
 adj
-int
-depth
-=
-0
 )
 ;
 float
