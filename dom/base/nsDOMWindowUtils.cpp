@@ -9422,12 +9422,6 @@ nsQueryContentEventResult
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-result
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 result
 -
 >

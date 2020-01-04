@@ -1093,12 +1093,6 @@ nsFocusManager
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-fm
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 NS_ADDREF
 (
 fm

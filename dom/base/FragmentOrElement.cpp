@@ -3361,15 +3361,6 @@ nsNodeWeakReference
 mNode
 )
 ;
-NS_ENSURE_TRUE
-(
-slots
--
->
-mWeakReference
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 }
 NS_ADDREF
 (

@@ -1220,10 +1220,6 @@ aURI
 if
 (
 !
-uri
-|
-|
-!
 mURIArray
 .
 AppendElement
