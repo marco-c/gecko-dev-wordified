@@ -263,6 +263,11 @@ FaviconDecoder
 .
 decodeDataURI
 (
+request
+.
+getContext
+(
+)
 iconUrl
 )
 ;

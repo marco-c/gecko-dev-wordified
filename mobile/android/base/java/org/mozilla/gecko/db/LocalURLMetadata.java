@@ -196,7 +196,9 @@ gecko
 .
 favicons
 .
-Favicons
+decoders
+.
+LoadFaviconResult
 ;
 import
 org
@@ -776,7 +778,7 @@ final
 int
 bestSize
 =
-Favicons
+LoadFaviconResult
 .
 selectBestSizeFromList
 (

@@ -451,6 +451,7 @@ db
 getFaviconForUrl
 (
 context
+context
 .
 getContentResolver
 (

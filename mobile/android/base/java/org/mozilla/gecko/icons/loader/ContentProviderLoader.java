@@ -451,6 +451,11 @@ icon
 =
 decodeFromCursor
 (
+request
+.
+getContext
+(
+)
 cursor
 PartnerBookmarksProviderProxy
 .
@@ -481,6 +486,11 @@ icon
 =
 decodeFromCursor
 (
+request
+.
+getContext
+(
+)
 cursor
 PartnerBookmarksProviderProxy
 .
@@ -525,6 +535,8 @@ private
 Bitmap
 decodeFromCursor
 (
+Context
+context
 Cursor
 cursor
 String
@@ -591,6 +603,7 @@ FaviconDecoder
 .
 decodeFavicon
 (
+context
 data
 0
 data

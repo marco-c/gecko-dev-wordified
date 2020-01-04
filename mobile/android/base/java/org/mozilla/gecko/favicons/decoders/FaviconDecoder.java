@@ -70,6 +70,13 @@ decoders
 import
 android
 .
+content
+.
+Context
+;
+import
+android
+.
 graphics
 .
 Bitmap
@@ -652,6 +659,8 @@ static
 LoadFaviconResult
 decodeFavicon
 (
+Context
+context
 byte
 [
 ]
@@ -826,6 +835,7 @@ decoder
 new
 ICODecoder
 (
+context
 buffer
 offset
 length
@@ -860,6 +870,8 @@ static
 LoadFaviconResult
 decodeDataURI
 (
+Context
+context
 String
 uri
 )
@@ -1017,6 +1029,7 @@ DEFAULT
 return
 decodeFavicon
 (
+context
 raw
 )
 ;
@@ -1055,6 +1068,8 @@ static
 LoadFaviconResult
 decodeFavicon
 (
+Context
+context
 byte
 [
 ]
@@ -1064,6 +1079,7 @@ buffer
 return
 decodeFavicon
 (
+context
 buffer
 0
 buffer
