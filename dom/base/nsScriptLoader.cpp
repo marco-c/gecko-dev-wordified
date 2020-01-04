@@ -12296,10 +12296,9 @@ rv
 =
 EnsureModuleResolveHook
 (
-context
--
->
-GetNativeContext
+aes
+.
+cx
 (
 )
 )
