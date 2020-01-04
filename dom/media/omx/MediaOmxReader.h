@@ -690,6 +690,9 @@ SafeGetDecoder
 (
 )
 ;
+NotifyDataArrivedFilter
+mFilter
+;
 }
 ;
 }

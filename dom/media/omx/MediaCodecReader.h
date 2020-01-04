@@ -229,6 +229,13 @@ h
 >
 #
 endif
+#
+include
+"
+MP3FrameParser
+.
+h
+"
 namespace
 android
 {
@@ -2185,6 +2192,9 @@ nsTArray
 ReleaseItem
 >
 mPendingReleaseItems
+;
+NotifyDataArrivedFilter
+mFilter
 ;
 }
 ;
