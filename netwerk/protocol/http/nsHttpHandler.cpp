@@ -1185,7 +1185,7 @@ mNetworkChangedTimeout
 )
 mMaxRequestAttempts
 (
-10
+3
 )
 mMaxRequestDelay
 (
