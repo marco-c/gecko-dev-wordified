@@ -3443,7 +3443,7 @@ reflow
 *
 /
 bool
-RenumberLists
+RenumberList
 (
 )
 ;

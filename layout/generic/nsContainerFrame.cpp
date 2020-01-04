@@ -12313,7 +12313,7 @@ bool
 nsContainerFrame
 :
 :
-RenumberLists
+RenumberList
 (
 )
 {
@@ -13502,7 +13502,7 @@ necessary
 anymore
 if
 (
-RenumberLists
+RenumberList
 (
 )
 )
