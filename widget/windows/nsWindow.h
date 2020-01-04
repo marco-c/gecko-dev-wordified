@@ -1109,7 +1109,8 @@ aStatus
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 EnableDragDrop
 (
 bool
