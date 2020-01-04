@@ -19607,7 +19607,10 @@ IsSelectable
 bool
 *
 aIsSelectable
-uint8_t
+mozilla
+:
+:
+StyleUserSelect
 *
 aSelectStyle
 )
