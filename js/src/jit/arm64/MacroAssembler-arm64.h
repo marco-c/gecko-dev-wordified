@@ -2490,7 +2490,7 @@ return
 case
 4
 :
-storePtr
+store32
 (
 value
 .
