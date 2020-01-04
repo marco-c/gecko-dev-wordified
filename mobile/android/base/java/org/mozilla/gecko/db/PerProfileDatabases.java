@@ -366,12 +366,10 @@ provided
 .
 if
 (
-TextUtils
-.
-isEmpty
-(
 profile
-)
+=
+=
+null
 )
 {
 profile

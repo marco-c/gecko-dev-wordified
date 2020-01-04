@@ -469,6 +469,10 @@ testFilterOpenTab
 throws
 Exception
 {
+blockForGeckoReady
+(
+)
+;
 for
 (
 int
