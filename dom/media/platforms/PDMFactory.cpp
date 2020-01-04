@@ -614,6 +614,13 @@ Link
 ;
 #
 endif
+GMPDecoderModule
+:
+:
+Init
+(
+)
+;
 }
 PDMFactory
 :
