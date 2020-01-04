@@ -396,7 +396,7 @@ aID
 StreamTime
 aDesiredTime
 const
-PrincipalID
+PrincipalHandle
 &
 aPrincipalHandle
 )
@@ -739,7 +739,6 @@ aID
 (
 segment
 )
-aPrincipalHandle
 )
 ;
 }
@@ -1296,6 +1295,10 @@ SourceMediaStream
 aStream
 TrackID
 aID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 LOG
