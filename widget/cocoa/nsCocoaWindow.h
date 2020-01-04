@@ -2103,6 +2103,12 @@ DragEvent
 unsigned
 int
 aMessage
+mozilla
+:
+:
+gfx
+:
+:
 Point
 aMouseGlobal
 UInt16
