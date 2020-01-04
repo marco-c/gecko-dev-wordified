@@ -248,10 +248,9 @@ report
 let
 parentMap
 =
-createParentMap
-(
-report
-)
+census
+.
+parentMap
 ;
 const
 {
