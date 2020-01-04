@@ -2220,12 +2220,6 @@ grant_runtime_permissions
 grant_runtime_permissions
 (
 self
-kwargs
-[
-'
-app
-'
-]
 )
         
 #

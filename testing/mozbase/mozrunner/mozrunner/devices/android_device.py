@@ -2400,7 +2400,6 @@ def
 grant_runtime_permissions
 (
 build_obj
-app
 )
 :
     
@@ -2430,6 +2429,17 @@ USER
 "
 "
 "
+    
+app
+=
+build_obj
+.
+substs
+[
+'
+ANDROID_PACKAGE_NAME
+'
+]
     
 adb_path
 =
