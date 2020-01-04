@@ -933,6 +933,17 @@ assertOnUiThread
 ;
 if
 (
+mView
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
 mCompositorCreated
 )
 {
