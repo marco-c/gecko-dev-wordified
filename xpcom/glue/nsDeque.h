@@ -852,6 +852,7 @@ void
 Peek
 (
 )
+const
 ;
 /
 *
@@ -879,6 +880,7 @@ void
 PeekFront
 (
 )
+const
 ;
 /
 *
