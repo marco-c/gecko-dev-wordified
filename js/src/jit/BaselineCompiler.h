@@ -837,11 +837,6 @@ JSOP_GETINTRINSIC
 \
 _
 (
-JSOP_BINDVAR
-)
-\
-_
-(
 JSOP_DEFVAR
 )
 \

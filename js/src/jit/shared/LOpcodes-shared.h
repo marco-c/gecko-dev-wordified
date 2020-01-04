@@ -1468,11 +1468,6 @@ BindNameCache
 \
 _
 (
-CallBindVar
-)
-\
-_
-(
 CallGetProperty
 )
 \
