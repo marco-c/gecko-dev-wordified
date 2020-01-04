@@ -223,7 +223,7 @@ join
 "
 ;
 "
-varDecl
+letDecl
 (
 pattPatts
 [

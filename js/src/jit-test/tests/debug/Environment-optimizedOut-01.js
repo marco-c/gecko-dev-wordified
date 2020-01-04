@@ -231,6 +231,8 @@ funenv
 parent
 .
 parent
+.
+parent
 ;
 assertEq
 (
