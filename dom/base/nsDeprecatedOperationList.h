@@ -314,3 +314,7 @@ DEPRECATED_OPERATION
 (
 FileLastModifiedDate
 )
+DEPRECATED_OPERATION
+(
+ImageBitmapRenderingContext_TransferImageBitmap
+)

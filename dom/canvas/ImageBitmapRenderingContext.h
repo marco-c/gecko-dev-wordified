@@ -128,7 +128,7 @@ ImageBitmap
 .
 Simply
 call
-TransferImageBitmap
+TransferFromImageBitmap
 (
 )
 then
@@ -229,6 +229,14 @@ ImageBitmapRenderingContext
 )
 void
 TransferImageBitmap
+(
+ImageBitmap
+&
+aImageBitmap
+)
+;
+void
+TransferFromImageBitmap
 (
 ImageBitmap
 &
