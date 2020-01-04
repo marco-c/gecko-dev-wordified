@@ -615,6 +615,10 @@ bufLen
 MOZ_ASSERT
 (
 buf
+|
+|
+!
+bufLen
 )
 ;
 aMsg
