@@ -4674,6 +4674,16 @@ if
 topic
 =
 =
+"
+nsPref
+:
+changed
+"
+&
+&
+data
+=
+=
 TIMEOUT_DISABLED_PREF
 )
 {
