@@ -427,6 +427,15 @@ None
 mozconfig
 =
 None
+args
+=
+sys
+.
+argv
+[
+1
+:
+]
 )
 :
     
@@ -885,6 +894,7 @@ parser
 .
 parse_args
 (
+args
 )
     
 #
