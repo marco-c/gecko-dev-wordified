@@ -1166,7 +1166,7 @@ l10n
 lookup
 (
 "
-cmdSetdirManual2
+cmdSetdirManual3
 "
 )
 params

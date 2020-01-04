@@ -150,10 +150,9 @@ Value
 required
 for
 \
-'
-selector
+u2018selector
 \
-'
+u2019
 .
 '
 }
