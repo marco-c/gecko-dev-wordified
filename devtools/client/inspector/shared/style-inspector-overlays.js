@@ -1851,6 +1851,11 @@ new
 SwatchColorPickerTooltip
 (
 toolbox
+this
+.
+view
+.
+inspector
 )
 ;
 /
