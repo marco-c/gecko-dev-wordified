@@ -1033,7 +1033,7 @@ static
 T
 extractUnbarriered
 (
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >
