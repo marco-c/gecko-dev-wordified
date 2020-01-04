@@ -2088,6 +2088,9 @@ XMLHttpRequest
 fetch
 "
 ]
+originAttributes
+:
+attrs
 }
 )
 ;
