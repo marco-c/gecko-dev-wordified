@@ -394,8 +394,6 @@ AtomicsBinOp
 /
 SIMD
 opcodes
-I32X4SignMask
-F32X4SignMask
 I32X4ExtractLane
 /
 /
@@ -591,7 +589,6 @@ FromF32X4Bits
 Swizzle
 Shuffle
 Select
-BitSelect
 Splat
 Load
 Store
@@ -632,14 +629,12 @@ opcodes
 Ctor
 Unary
 Binary
-BinaryBitwise
 ReplaceLane
 FromI32X4
 FromI32X4Bits
 Swizzle
 Shuffle
 Select
-BitSelect
 Splat
 Load
 Store

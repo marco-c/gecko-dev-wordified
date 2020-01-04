@@ -2233,14 +2233,6 @@ ins
 )
 ;
 void
-visitSimdSignMask
-(
-MSimdSignMask
-*
-ins
-)
-;
-void
 visitSimdSwizzle
 (
 MSimdSwizzle

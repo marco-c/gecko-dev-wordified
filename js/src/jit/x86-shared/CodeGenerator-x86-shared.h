@@ -1892,14 +1892,6 @@ lir
 )
 ;
 void
-visitSimdSignMaskX4
-(
-LSimdSignMaskX4
-*
-ins
-)
-;
-void
 visitSimdSwizzleI
 (
 LSimdSwizzleI
