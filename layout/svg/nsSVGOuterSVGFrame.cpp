@@ -543,7 +543,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
@@ -868,7 +868,7 @@ NS_FRAME_IS_NONDISPLAY
 )
 ;
 }
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -1132,7 +1132,7 @@ nsISVGSVGFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 )
 /
 /
@@ -2160,7 +2160,7 @@ viewBoxHeight
 ;
 }
 return
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 GetIntrinsicRatio
@@ -4092,7 +4092,7 @@ nsDidReflowStatus
 aStatus
 )
 {
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 DidReflow
