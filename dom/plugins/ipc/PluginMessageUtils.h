@@ -594,12 +594,6 @@ defined
 (
 ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_QT
-)
 typedef
 intptr_t
 NativeWindowHandle
