@@ -5725,7 +5725,7 @@ importSpecSet
 )
 ;
 bool
-addExportName
+checkExportedName
 (
 JSAtom
 *
@@ -5733,7 +5733,7 @@ exportName
 )
 ;
 bool
-addExportNamesForDeclaration
+checkExportedNamesForDeclaration
 (
 Node
 node

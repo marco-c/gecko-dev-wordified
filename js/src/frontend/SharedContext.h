@@ -3126,13 +3126,6 @@ ModuleBuilder
 &
 builder
 ;
-TraceableVector
-<
-JSAtom
-*
->
-exportNames
-;
 template
 <
 typename
