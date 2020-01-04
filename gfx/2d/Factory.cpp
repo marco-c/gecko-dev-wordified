@@ -3600,6 +3600,8 @@ IDWriteFontFace
 aFontFace
 float
 aSize
+bool
+aUseEmbeddedBitmap
 )
 {
 return
@@ -3612,6 +3614,7 @@ aFont
 aFontFamily
 aFontFace
 aSize
+aUseEmbeddedBitmap
 )
 ;
 }

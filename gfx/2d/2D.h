@@ -9263,6 +9263,8 @@ IDWriteFontFace
 aFontFace
 Float
 aSize
+bool
+aUseEmbeddedBitmap
 )
 ;
 private
