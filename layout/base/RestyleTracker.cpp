@@ -815,6 +815,8 @@ to
 /
 stop
 animations
+and
+transitions
 on
 elements
 that
@@ -824,10 +826,10 @@ frame
 at
 the
 end
+/
+/
 of
 the
-/
-/
 restyling
 process
 .
