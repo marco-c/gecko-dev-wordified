@@ -422,7 +422,7 @@ String
 LOG_TAG
 =
 "
-GeckPasswordsProvider
+GeckoPasswordsProvider
 "
 ;
 private
