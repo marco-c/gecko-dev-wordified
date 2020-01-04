@@ -1694,13 +1694,6 @@ override
 ;
 virtual
 bool
-RecvUpdateServiceWorkerRegistrations
-(
-)
-override
-;
-virtual
-bool
 RecvNotifyVisited
 (
 const
