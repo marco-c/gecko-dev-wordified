@@ -2099,6 +2099,7 @@ JSRuntime
 runtimeFromMainThread
 (
 )
+const
 {
 MOZ_ASSERT
 (
