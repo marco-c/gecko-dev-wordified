@@ -3225,7 +3225,9 @@ svgStyle
 aPaint
 )
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_Server
@@ -6123,7 +6125,9 @@ svgStyle
 aPaint
 )
 .
-mType
+Type
+(
+)
 =
 =
 nsStyleSVGPaintType
@@ -6133,7 +6137,7 @@ eStyleSVGPaintType_Server
 )
 ;
 return
-ResolveFragmentOrURL
+ResolveURLUsingLocalRef
 (
 aFrame
 (
@@ -6144,9 +6148,9 @@ svgStyle
 aPaint
 )
 .
-mPaint
-.
-mPaintServer
+GetPaintServer
+(
+)
 )
 ;
 }

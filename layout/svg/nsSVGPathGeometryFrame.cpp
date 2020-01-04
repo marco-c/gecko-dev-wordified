@@ -3606,7 +3606,9 @@ StyleSVG
 >
 mFill
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_None

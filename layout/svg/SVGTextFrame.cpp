@@ -23322,7 +23322,9 @@ StyleSVG
 >
 mFill
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_None
@@ -23873,7 +23875,9 @@ StyleSVG
 >
 mFill
 .
-mType
+Type
+(
+)
 !
 =
 eStyleSVGPaintType_None
@@ -32988,7 +32992,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 =
 =
 eStyleSVGPaintType_None
@@ -33000,7 +33006,9 @@ style
 >
 mFill
 .
-mType
+Type
+(
+)
 =
 =
 eStyleSVGPaintType_Color
