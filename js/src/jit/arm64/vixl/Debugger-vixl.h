@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2013
+2014
 ARM
 Limited
 /
@@ -456,6 +456,11 @@ stream
 stdout
 )
 ;
+~
+Debugger
+(
+)
+;
 virtual
 void
 Run
@@ -516,7 +521,7 @@ given
 back
 control
 .
-int
+int64_t
 steps
 (
 )
@@ -529,7 +534,7 @@ steps_
 void
 set_steps
 (
-int
+int64_t
 value
 )
 {
@@ -681,7 +686,7 @@ debug_parameters_
 bool
 pending_request_
 ;
-int
+int64_t
 steps_
 ;
 DebugCommand
