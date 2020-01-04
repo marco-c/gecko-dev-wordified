@@ -168,7 +168,7 @@ h
 #
 include
 "
-gfxPrefs
+MediaPrefs
 .
 h
 "
@@ -381,7 +381,7 @@ false
 bool
 resampling
 =
-gfxPrefs
+MediaPrefs
 :
 :
 AudioSinkResampling
@@ -395,7 +395,7 @@ resampling
 {
 mOutputRate
 =
-gfxPrefs
+MediaPrefs
 :
 :
 AudioSinkResampleRate
@@ -531,7 +531,7 @@ be
 bool
 monoAudioEnabled
 =
-gfxPrefs
+MediaPrefs
 :
 :
 MonoAudio
@@ -545,7 +545,7 @@ monoAudioEnabled
 1
 :
 (
-gfxPrefs
+MediaPrefs
 :
 :
 AudioSinkForceStereo
