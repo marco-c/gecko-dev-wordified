@@ -38667,8 +38667,9 @@ WithSideEffects
 )
 )
 {
-fprintf
+PrintError
 (
+cx
 stderr
 "
 out
@@ -38676,9 +38677,9 @@ of
 memory
 initializing
 ErrorReport
-\
-n
 "
+nullptr
+reportWarnings
 )
 ;
 JS_ClearPendingException
