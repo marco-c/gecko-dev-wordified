@@ -670,7 +670,7 @@ block_uncommon
 "
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 ApplicationReputation
 :

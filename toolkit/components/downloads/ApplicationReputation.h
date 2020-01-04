@@ -231,7 +231,7 @@ gApplicationReputationService
 *
 *
 *
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 ApplicationReputation
 :

@@ -454,7 +454,7 @@ safebrowsing
 ;
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 UrlClassifierDbService
 :
