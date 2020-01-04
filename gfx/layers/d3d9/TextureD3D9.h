@@ -179,17 +179,6 @@ namespace
 mozilla
 {
 namespace
-gfxs
-{
-class
-DrawTarget
-;
-}
-}
-namespace
-mozilla
-{
-namespace
 layers
 {
 class
