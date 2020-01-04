@@ -123,14 +123,6 @@ DebuggerView
 .
 Sources
 ;
-gBreakpoints
-=
-gDebugger
-.
-DebuggerController
-.
-Breakpoints
-;
 gTarget
 =
 gDebugger
@@ -333,9 +325,6 @@ gDebugger
 yield
 oncePaused
 ;
-let
-updatedFrame
-=
 yield
 waitForDebuggerEvents
 (
@@ -344,7 +333,7 @@ gDebugger
 .
 EVENTS
 .
-FETCHED_SCOPES
+SOURCE_SHOWN
 )
 ;
 let
@@ -616,9 +605,6 @@ button
 yield
 oncePaused
 ;
-let
-updatedFrame
-=
 yield
 waitForDebuggerEvents
 (
@@ -627,7 +613,7 @@ gDebugger
 .
 EVENTS
 .
-FETCHED_SCOPES
+SOURCE_SHOWN
 )
 ;
 let

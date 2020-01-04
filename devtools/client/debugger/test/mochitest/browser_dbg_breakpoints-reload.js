@@ -96,6 +96,14 @@ initDebugger
 TAB_URL
 )
 ;
+const
+actions
+=
+bindActionCreators
+(
+panel
+)
+;
 yield
 ensureSourceIs
 (
@@ -122,7 +130,7 @@ DebuggerView
 Sources
 ;
 yield
-panel
+actions
 .
 addBreakpoint
 (

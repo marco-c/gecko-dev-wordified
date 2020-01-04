@@ -421,6 +421,9 @@ action
 }
 else
 {
+var
+result
+=
 next
 (
 action
@@ -430,6 +433,9 @@ checkPending
 (
 action
 )
+;
+return
+result
 ;
 }
 }
