@@ -2214,7 +2214,6 @@ SerializedLoadContext
 (
 this
 )
-mSerial
 )
 ;
 if

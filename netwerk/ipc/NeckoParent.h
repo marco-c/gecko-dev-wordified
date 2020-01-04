@@ -671,10 +671,6 @@ const
 SerializedLoadContext
 &
 aSerialized
-const
-uint32_t
-&
-aSerial
 )
 override
 ;
