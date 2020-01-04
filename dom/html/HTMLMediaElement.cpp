@@ -2632,9 +2632,6 @@ if
 channel
 &
 &
-element
-&
-&
 NS_SUCCEEDED
 (
 rv
@@ -2694,9 +2691,6 @@ rv
 &
 !
 mNextListener
-&
-&
-element
 )
 {
 /
