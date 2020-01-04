@@ -2677,7 +2677,7 @@ input
 .
 *
 /
-nsresult
+void
 CreateFloatManager
 (
 nsPresContext

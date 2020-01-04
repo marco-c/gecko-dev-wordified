@@ -3908,7 +3908,7 @@ mNew
 ;
 }
 }
-nsresult
+void
 nsAutoFloatManager
 :
 :
@@ -3968,14 +3968,6 @@ GetWritingMode
 (
 )
 )
-;
-if
-(
-!
-mNew
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 #
 ifdef
@@ -4037,8 +4029,5 @@ mReflowInput
 mFloatManager
 =
 mNew
-;
-return
-NS_OK
 ;
 }
