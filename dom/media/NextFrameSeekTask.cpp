@@ -1329,7 +1329,7 @@ void
 NextFrameSeekTask
 :
 :
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 {
@@ -1531,7 +1531,7 @@ mSeekedAudioData
 =
 aAudioSample
 ;
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1627,7 +1627,7 @@ state
 from
 MediaDecoderReader
 .
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1735,7 +1735,7 @@ mSeekedVideoData
 aVideoSample
 ;
 }
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1884,7 +1884,7 @@ resolve
 this
 task
 .
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -2006,7 +2006,7 @@ mIsVideoQueueFinished
 =
 true
 ;
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -2253,7 +2253,7 @@ to
 play
 audio
 .
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
