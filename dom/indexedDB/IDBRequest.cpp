@@ -2587,6 +2587,7 @@ workerHolder
 HoldWorker
 (
 workerPrivate
+Canceling
 )
 )
 )

@@ -4480,6 +4480,7 @@ mWorkerHolder
 HoldWorker
 (
 mWorkerPrivate
+Closing
 )
 )
 {

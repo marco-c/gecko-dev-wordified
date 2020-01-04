@@ -1275,6 +1275,7 @@ mWorkerHolderAdded
 HoldWorker
 (
 mWorkerPrivate
+Terminating
 )
 ;
 return
@@ -2807,6 +2808,7 @@ NS_WARN_IF
 HoldWorker
 (
 mWorkerPrivate
+Terminating
 )
 )
 )

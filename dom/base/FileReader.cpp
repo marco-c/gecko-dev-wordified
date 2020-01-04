@@ -3321,6 +3321,7 @@ mBusyCount
 HoldWorker
 (
 mWorkerPrivate
+Closing
 )
 )
 {
