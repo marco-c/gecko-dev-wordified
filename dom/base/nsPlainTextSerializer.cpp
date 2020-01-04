@@ -950,6 +950,11 @@ if
 MayWrap
 (
 )
+&
+&
+MayBreakLines
+(
+)
 )
 {
 mLineBreaker
