@@ -8713,3 +8713,9 @@ toLowerCase
 )
 ;
 }
+exports
+.
+getCssPropertyName
+=
+getCssPropertyName
+;
