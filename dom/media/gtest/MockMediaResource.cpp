@@ -95,6 +95,10 @@ char
 aFileName
 )
 :
+mFileHandle
+(
+nullptr
+)
 mFileName
 (
 aFileName
