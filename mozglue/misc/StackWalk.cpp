@@ -6623,7 +6623,7 @@ aStackEnd
 |
 |
 (
-long
+uintptr_t
 (
 next
 )
