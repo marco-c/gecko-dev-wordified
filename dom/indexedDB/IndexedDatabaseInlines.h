@@ -322,6 +322,8 @@ aCloneReadInfo
 data
 (
 )
+.
+data
 )
 )
 mDatabase
@@ -381,15 +383,6 @@ Move
 aCloneReadInfo
 .
 mData
-)
-;
-mCloneBuffer
-=
-Move
-(
-aCloneReadInfo
-.
-mCloneBuffer
 )
 ;
 mFiles

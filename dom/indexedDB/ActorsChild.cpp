@@ -2146,15 +2146,6 @@ aCloneInfo
 aResult
 )
 ;
-aCloneInfo
--
->
-mCloneBuffer
-.
-clear
-(
-)
-;
 if
 (
 NS_WARN_IF
