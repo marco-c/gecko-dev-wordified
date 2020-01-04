@@ -27379,9 +27379,9 @@ nsCSSRendering
 :
 DrawTableBorderSegment
 (
-nsRenderingContext
+DrawTarget
 &
-aContext
+aDrawTarget
 uint8_t
 aBorderStyle
 nscolor
@@ -27500,17 +27500,6 @@ aEndBevelOffset
 0
 ;
 }
-DrawTarget
-&
-drawTarget
-=
-*
-aContext
-.
-GetDrawTarget
-(
-)
-;
 switch
 (
 aBorderStyle
@@ -27688,7 +27677,7 @@ height
 ;
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -27722,7 +27711,7 @@ dashLength
 ;
 DrawDashedSegment
 (
-drawTarget
+aDrawTarget
 rect
 dashLength
 aBorderColor
@@ -27748,7 +27737,7 @@ endDashLength
 ;
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -27787,7 +27776,7 @@ startDashLength
 ;
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -27823,7 +27812,7 @@ dashLength
 ;
 DrawDashedSegment
 (
-drawTarget
+aDrawTarget
 rect
 dashLength
 aBorderColor
@@ -27849,7 +27838,7 @@ endDashLength
 ;
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -27920,7 +27909,7 @@ pixel
 border
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 aBorder
 aBorderColor
 aAppUnitsPerDevPixel
@@ -28121,7 +28110,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
@@ -28203,7 +28192,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
@@ -28335,7 +28324,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
@@ -28412,7 +28401,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rect
 bevelColor
 aAppUnitsPerDevPixel
@@ -28641,7 +28630,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 topRect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -28737,7 +28726,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 bottomRect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -28835,7 +28824,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 leftRect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -28923,7 +28912,7 @@ endBevel
 }
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 rightRect
 aBorderColor
 aAppUnitsPerDevPixel
@@ -28952,7 +28941,7 @@ NS_STYLE_BORDER_STYLE_SOLID
 :
 DrawSolidBorderSegment
 (
-drawTarget
+aDrawTarget
 aBorder
 aBorderColor
 aAppUnitsPerDevPixel
