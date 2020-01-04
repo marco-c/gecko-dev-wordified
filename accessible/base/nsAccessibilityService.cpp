@@ -9207,6 +9207,13 @@ PlatformInit
 (
 )
 ;
+statistics
+:
+:
+A11yInitialized
+(
+)
+;
 return
 true
 ;
