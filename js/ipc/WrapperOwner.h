@@ -765,17 +765,6 @@ return
 inactive_
 ;
 }
-virtual
-bool
-allowMessage
-(
-JSContext
-*
-cx
-)
-=
-0
-;
 void
 drop
 (
