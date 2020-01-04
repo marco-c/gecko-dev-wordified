@@ -1494,15 +1494,6 @@ CLIENTS
 uri
 )
 ;
-/
-/
-Delete
-from
-both
-TABLE_TABS
-and
-TABLE_CLIENTS
-.
 deleted
 =
 deleteValues
