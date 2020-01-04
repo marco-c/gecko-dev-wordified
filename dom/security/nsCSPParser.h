@@ -724,6 +724,10 @@ bool
 aDeliveredViaMetaTag
 )
 ;
+static
+bool
+sCSPExperimentalEnabled
+;
 ~
 nsCSPParser
 (
