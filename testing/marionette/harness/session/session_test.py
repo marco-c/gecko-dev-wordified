@@ -136,6 +136,10 @@ mozlog
 import
 get_default_logger
 from
+runner
+import
+PingServer
+from
 marionette
 .
 marionette_test
@@ -1538,6 +1542,22 @@ time
         
 self
 .
+pingServer
+=
+PingServer
+(
+)
+        
+self
+.
+pingServer
+.
+start
+(
+)
+        
+self
+.
 marionette
 =
 Marionette
@@ -1666,6 +1686,14 @@ self
 marionette
 .
 cleanup
+(
+)
+        
+self
+.
+pingServer
+.
+stop
 (
 )
     

@@ -108,4 +108,6 @@ SessionTest
 SessionTestResult
     
 SessionTextTestRunner
+    
+PingServer
 )
