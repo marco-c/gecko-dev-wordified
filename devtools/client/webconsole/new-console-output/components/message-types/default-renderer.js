@@ -171,8 +171,6 @@ yet
 module
 .
 exports
-.
-DefaultRenderer
 =
 DefaultRenderer
 ;

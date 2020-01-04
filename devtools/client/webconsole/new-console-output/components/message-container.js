@@ -186,8 +186,6 @@ api
 call
 "
 )
-.
-ConsoleApiCall
 ]
 [
 "
@@ -207,8 +205,6 @@ console
 command
 "
 )
-.
-ConsoleCommand
 ]
 [
 "
@@ -228,8 +224,6 @@ default
 renderer
 "
 )
-.
-DefaultRenderer
 ]
 [
 "
@@ -249,8 +243,6 @@ evaluation
 result
 "
 )
-.
-EvaluationResult
 ]
 [
 "
@@ -272,8 +264,6 @@ event
 message
 "
 )
-.
-NetworkEventMessage
 ]
 [
 "
@@ -293,8 +283,6 @@ page
 error
 "
 )
-.
-PageError
 ]
 ]
 )

@@ -33,9 +33,7 @@ strict
 "
 ;
 const
-{
 MessageRepeat
-}
 =
 require
 (

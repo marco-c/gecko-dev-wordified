@@ -119,8 +119,6 @@ evaluation
 result
 "
 )
-.
-EvaluationResult
 )
 ;
 /

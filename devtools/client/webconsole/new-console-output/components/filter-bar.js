@@ -279,8 +279,6 @@ filter
 button
 "
 )
-.
-FilterButton
 )
 ;
 const

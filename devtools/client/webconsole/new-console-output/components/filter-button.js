@@ -249,9 +249,9 @@ label
 }
 )
 ;
-exports
+module
 .
-FilterButton
+exports
 =
 FilterButton
 ;

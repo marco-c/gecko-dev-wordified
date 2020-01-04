@@ -66,9 +66,7 @@ under
 test
 .
 const
-{
 PageError
-}
 =
 require
 (

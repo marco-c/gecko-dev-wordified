@@ -57,9 +57,7 @@ constants
 )
 ;
 const
-{
 MessageIcon
-}
 =
 require
 (

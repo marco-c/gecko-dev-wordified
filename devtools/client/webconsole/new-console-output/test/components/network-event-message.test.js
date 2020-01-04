@@ -121,8 +121,6 @@ event
 message
 "
 )
-.
-NetworkEventMessage
 )
 ;
 /

@@ -193,6 +193,11 @@ ConsoleOutput
 createClass
 (
 {
+displayName
+:
+"
+ConsoleOutput
+"
 propTypes
 :
 {
@@ -244,11 +249,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-ConsoleOutput
-"
 componentWillUpdate
 (
 )

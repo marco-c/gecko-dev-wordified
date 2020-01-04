@@ -129,8 +129,6 @@ filter
 button
 "
 )
-.
-FilterButton
 )
 ;
 const

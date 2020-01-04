@@ -121,8 +121,6 @@ api
 call
 "
 )
-.
-ConsoleApiCall
 )
 ;
 /
