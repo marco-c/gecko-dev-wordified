@@ -726,8 +726,9 @@ if
 !
 thread
 )
-return
-nullptr
+MOZ_CRASH
+(
+)
 ;
 pthread_setspecific
 (
