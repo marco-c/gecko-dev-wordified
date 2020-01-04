@@ -1038,12 +1038,6 @@ CancelableRun
 ;
 private
 :
-RefPtr
-<
-DeviceStorageFile
->
-mFile
-;
 nsString
 mPath
 ;
@@ -1093,12 +1087,6 @@ CancelableRun
 ;
 private
 :
-RefPtr
-<
-DeviceStorageFile
->
-mFile
-;
 FileDescriptor
 mFileDescriptor
 ;
