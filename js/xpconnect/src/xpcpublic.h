@@ -3242,9 +3242,9 @@ DispatchScriptErrorEvent
 nsPIDOMWindowInner
 *
 win
-JSRuntime
+JSContext
 *
-rt
+cx
 xpc
 :
 :
@@ -3482,12 +3482,6 @@ JSContext
 nsCString
 &
 name
-)
-;
-JSRuntime
-*
-GetJSRuntime
-(
 )
 ;
 void

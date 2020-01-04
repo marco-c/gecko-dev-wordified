@@ -493,17 +493,11 @@ Module
 )
 obj
 (
-JS_GetRuntime
-(
 aCx
-)
 )
 thisObjectKey
 (
-JS_GetRuntime
-(
 aCx
-)
 )
 {
 mVersion

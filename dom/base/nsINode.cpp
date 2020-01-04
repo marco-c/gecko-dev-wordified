@@ -8612,15 +8612,6 @@ GetWrapper
 )
 )
 {
-JSRuntime
-*
-runtime
-=
-JS_GetObjectRuntime
-(
-existingObjUnrooted
-)
-;
 JS
 :
 :
@@ -8631,7 +8622,9 @@ JSObject
 >
 existingObj
 (
-runtime
+RootingCx
+(
+)
 existingObjUnrooted
 )
 ;

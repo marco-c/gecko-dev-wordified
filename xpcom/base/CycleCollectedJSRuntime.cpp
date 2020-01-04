@@ -1040,9 +1040,9 @@ CallbackTracer
 {
 NoteWeakMapChildrenTracer
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 nsCycleCollectionNoteRootCallback
 &
 aCb
@@ -1053,7 +1053,7 @@ JS
 :
 CallbackTracer
 (
-aRt
+aCx
 )
 mCb
 (
@@ -1217,9 +1217,9 @@ WeakMapTracer
 {
 NoteWeakMapsTracer
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 nsCycleCollectionNoteRootCallback
 &
 aCccb
@@ -1230,7 +1230,7 @@ js
 :
 WeakMapTracer
 (
-aRt
+aCx
 )
 mCb
 (
@@ -1238,7 +1238,7 @@ aCccb
 )
 mChildTracer
 (
-aRt
+aCx
 aCccb
 )
 {
@@ -1711,9 +1711,9 @@ WeakMapTracer
 explicit
 FixWeakMappingGrayBitsTracer
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 )
 :
 js
@@ -1721,7 +1721,7 @@ js
 :
 WeakMapTracer
 (
-aRt
+aCx
 )
 {
 }
@@ -2275,9 +2275,9 @@ CallbackTracer
 {
 TraversalTracer
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 nsCycleCollectionTraversalCallback
 &
 aCb
@@ -2288,7 +2288,7 @@ JS
 :
 CallbackTracer
 (
-aRt
+aCx
 DoNotTraceWeakMaps
 )
 mCb
@@ -3144,10 +3144,6 @@ mJSZoneCycleCollectorGlobal
 (
 sJSZoneCycleCollectorGlobal
 )
-mJSRuntime
-(
-nullptr
-)
 mJSContext
 (
 nullptr
@@ -3239,7 +3235,7 @@ are
 if
 (
 !
-mJSRuntime
+mJSContext
 )
 {
 return
@@ -3349,10 +3345,6 @@ JS_DestroyContext
 (
 mJSContext
 )
-;
-mJSRuntime
-=
-nullptr
 ;
 mJSContext
 =
@@ -3495,13 +3487,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-mJSRuntime
-=
-JS_GetRuntime
-(
-mJSContext
-)
-;
 if
 (
 !
@@ -3792,7 +3777,7 @@ mUncaughtRejections
 .
 init
 (
-mJSRuntime
+mJSContext
 JS
 :
 :
@@ -3820,7 +3805,7 @@ mConsumedRejections
 .
 init
 (
-mJSRuntime
+mJSContext
 JS
 :
 :
@@ -4304,13 +4289,13 @@ const
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 TraversalTracer
 trc
 (
-mJSRuntime
+mJSContext
 aCb
 )
 ;
@@ -4825,7 +4810,7 @@ aCb
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 /
@@ -5051,7 +5036,7 @@ bug
 TraversalTracer
 trc
 (
-mJSRuntime
+mJSContext
 aCb
 )
 ;
@@ -6040,16 +6025,13 @@ aData
 ;
 MOZ_ASSERT
 (
-JS_GetRuntime
-(
 aContext
-)
 =
 =
 self
 -
 >
-Runtime
+Context
 (
 )
 )
@@ -6307,16 +6289,13 @@ aData
 ;
 MOZ_ASSERT
 (
-JS_GetRuntime
-(
 aCx
-)
 =
 =
 self
 -
 >
-Runtime
+Context
 (
 )
 )
@@ -6435,16 +6414,13 @@ endif
 DEBUG
 MOZ_ASSERT
 (
-JS_GetRuntime
-(
 aCx
-)
 =
 =
 self
 -
 >
-Runtime
+Context
 (
 )
 )
@@ -6896,7 +6872,7 @@ aTracer
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 /
@@ -7010,7 +6986,7 @@ aTracer
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 mJSHolders
@@ -7274,7 +7250,7 @@ aHolder
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 nsScriptObjectTracer
@@ -7333,7 +7309,7 @@ aHolder
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7384,7 +7360,7 @@ aPossibleJSHolder
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 nsScriptObjectTracer
@@ -7434,7 +7410,7 @@ const
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 nsCOMPtr
@@ -7466,7 +7442,7 @@ aException
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 mPendingException
@@ -7494,7 +7470,7 @@ GetPromiseMicroTaskQueue
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7521,7 +7497,7 @@ GetDebuggerPromiseMicroTaskQueue
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7539,7 +7515,7 @@ GCThingParticipant
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7558,7 +7534,7 @@ ZoneParticipant
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7579,7 +7555,7 @@ aCb
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 TraverseNativeRoots
@@ -7590,7 +7566,7 @@ aCb
 NoteWeakMapsTracer
 trc
 (
-mJSRuntime
+mJSContext
 aCb
 )
 ;
@@ -7631,7 +7607,7 @@ const
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 MOZ_ASSERT
@@ -7660,7 +7636,7 @@ GC
 FixWeakMappingGrayBitsTracer
 fixer
 (
-mJSRuntime
+mJSContext
 )
 ;
 fixer
@@ -7707,7 +7683,7 @@ const
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 MOZ_ASSERT
@@ -7775,7 +7751,7 @@ JSObjectsTenured
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 for
@@ -7952,7 +7928,7 @@ aCache
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 MOZ_ASSERT
@@ -8008,7 +7984,7 @@ aWrapper
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 mPreservedNurseryObjects
@@ -8024,7 +8000,7 @@ JSObject
 *
 >
 (
-mJSRuntime
+mJSContext
 aWrapper
 )
 )
@@ -8047,7 +8023,7 @@ aThing
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 void
@@ -8105,7 +8081,7 @@ aSupports
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 typedef
@@ -8166,7 +8142,7 @@ ProcessStableStateQueue
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -8245,7 +8221,7 @@ aRecursionDepth
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -8404,7 +8380,7 @@ aRecursionDepth
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 /
@@ -8525,7 +8501,7 @@ AfterProcessMicrotask
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 AfterProcessMicrotask
@@ -8548,7 +8524,7 @@ aRecursionDepth
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 /
@@ -8609,7 +8585,7 @@ aRunnable
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 mStableStateEvents
@@ -8640,7 +8616,7 @@ aRunnable
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 RunInMetastableStateData
@@ -9315,7 +9291,7 @@ aType
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 /
@@ -9528,7 +9504,7 @@ aNewState
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 *
@@ -9616,7 +9592,7 @@ aStatus
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 switch
@@ -9743,7 +9719,7 @@ OnOutOfMemory
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 AnnotateAndSetOutOfMemory
@@ -9781,7 +9757,7 @@ OnLargeAllocationFailure
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 AnnotateAndSetOutOfMemory

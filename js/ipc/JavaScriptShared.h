@@ -829,9 +829,9 @@ public
 explicit
 JavaScriptShared
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 virtual
@@ -1228,9 +1228,9 @@ scopeForTargetObjects
 ;
 protected
 :
-JSRuntime
+JSContext
 *
-rt_
+cx_
 ;
 uintptr_t
 refcount_

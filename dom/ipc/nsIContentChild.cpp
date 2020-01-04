@@ -259,10 +259,10 @@ AllocPJavaScriptChild
 return
 NewJavaScriptChild
 (
-xpc
+danger
 :
 :
-GetJSRuntime
+GetJSContext
 (
 )
 )

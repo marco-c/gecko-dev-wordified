@@ -150,9 +150,9 @@ public
 explicit
 JavaScriptParent
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 virtual

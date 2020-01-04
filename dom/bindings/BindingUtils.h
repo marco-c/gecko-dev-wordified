@@ -3047,9 +3047,9 @@ ok
 explicit
 VerifyTraceProtoAndIfaceCacheCalledTracer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 :
 JS
@@ -3057,7 +3057,7 @@ JS
 :
 CallbackTracer
 (
-rt
+cx
 )
 ok
 (
@@ -19548,15 +19548,7 @@ JSObject
 >
 obj
 (
-CycleCollectedJSRuntime
-:
-:
-Get
-(
-)
--
->
-Runtime
+RootingCx
 (
 )
 wrappedObj

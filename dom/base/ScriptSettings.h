@@ -1254,9 +1254,12 @@ GetJSContext
 /
 namespace
 danger
-JSRuntime
+js
+:
+:
+RootingContext
 *
-GetJSRuntime
+RootingCx
 (
 )
 ;

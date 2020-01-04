@@ -10222,11 +10222,6 @@ ProfilingFrameIterator
 i
 (
 cx
--
->
-runtime
-(
-)
 state
 )
 ;

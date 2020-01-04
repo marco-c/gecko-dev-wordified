@@ -791,6 +791,17 @@ nullptr
 )
 {
 }
+CallbackTracer
+(
+JSContext
+*
+cx
+WeakMapTraceKind
+weakTraceKind
+=
+TraceWeakMapValues
+)
+;
 /
 /
 Override

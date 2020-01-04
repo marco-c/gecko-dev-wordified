@@ -425,10 +425,10 @@ AllocPJavaScriptParent
 return
 NewJavaScriptParent
 (
-xpc
+danger
 :
 :
-GetJSRuntime
+GetJSContext
 (
 )
 )

@@ -386,9 +386,9 @@ PJavaScriptParent
 *
 NewJavaScriptParent
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 void
@@ -403,9 +403,9 @@ PJavaScriptChild
 *
 NewJavaScriptChild
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 void

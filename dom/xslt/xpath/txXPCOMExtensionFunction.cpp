@@ -1859,7 +1859,7 @@ mozilla
 dom
 :
 :
-GetJSRuntime
+RootingCx
 (
 )
 )

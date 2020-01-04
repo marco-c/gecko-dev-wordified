@@ -188,9 +188,9 @@ int
 aThreadId
 double
 aSinceTime
-JSRuntime
+JSContext
 *
-rt
+cx
 UniqueStacks
 &
 aUniqueStacks

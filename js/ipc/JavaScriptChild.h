@@ -150,9 +150,9 @@ public
 explicit
 JavaScriptChild
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 virtual

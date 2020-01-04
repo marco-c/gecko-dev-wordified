@@ -220,10 +220,7 @@ JS
 :
 CallbackTracer
 (
-JS_GetRuntime
-(
 cx
-)
 )
 found
 (

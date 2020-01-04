@@ -672,9 +672,9 @@ aWriter
 void
 FlushOnJSShutdown
 (
-JSRuntime
+JSContext
 *
-aRuntime
+aContext
 )
 ;
 bool

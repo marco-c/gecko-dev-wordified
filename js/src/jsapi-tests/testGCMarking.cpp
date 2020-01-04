@@ -315,10 +315,7 @@ JS
 :
 CallbackTracer
 (
-JS_GetRuntime
-(
 cx
-)
 )
 okay
 (

@@ -825,7 +825,7 @@ mProcessId
 *
 The
 JS
-Runtime
+Context
 for
 the
 main
@@ -833,10 +833,10 @@ thread
 .
 *
 /
-JSRuntime
+JSContext
 *
 const
-mRuntime
+mContext
 ;
 /
 *
@@ -3780,10 +3780,10 @@ group
 *
 *
 param
-rt
+cx
 The
 container
-runtime
+context
 .
 Used
 to
@@ -3929,9 +3929,9 @@ nsPerformanceGroup
 *
 Make
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 nsPerformanceStatsService
 *
 service

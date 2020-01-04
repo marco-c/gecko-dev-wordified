@@ -800,14 +800,11 @@ JSContext
 *
 cx
 =
-JS_GetContext
-(
-xpc
+danger
 :
 :
-GetJSRuntime
+GetJSContext
 (
-)
 )
 ;
 JS
