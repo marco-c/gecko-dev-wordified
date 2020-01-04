@@ -280,6 +280,18 @@ pp
 '
 )
         
+m
+.
+add_content
+(
+'
+content
+'
+'
+content
+'
+)
+        
 self
 .
 assertEqual
@@ -288,7 +300,7 @@ len
 (
 m
 )
-7
+8
 )
         
 self
@@ -337,6 +349,16 @@ assertIn
 (
 '
 o_dest
+'
+m
+)
+        
+self
+.
+assertIn
+(
+'
+content
 '
 m
 )
@@ -497,6 +519,27 @@ pc
 pc_dest
 '
 )
+        
+with
+self
+.
+assertRaises
+(
+ValueError
+)
+:
+            
+m
+.
+add_content
+(
+'
+content
+'
+'
+content
+'
+)
     
 def
 _get_test_manifest
@@ -640,6 +683,24 @@ pc_dest
 '
 )
         
+m
+.
+add_content
+(
+'
+the
+content
+\
+non
+\
+nmultiple
+lines
+'
+'
+content
+'
+)
+        
 return
 m
     
@@ -725,7 +786,7 @@ count
 n
 '
 )
-8
+9
 )
         
 lines
@@ -744,7 +805,7 @@ len
 (
 lines
 )
-8
+9
 )
         
 self
@@ -756,7 +817,7 @@ lines
 0
 ]
 '
-4
+5
 '
 )
         
@@ -861,7 +922,7 @@ len
 (
 r
 )
-5
+6
 )
         
 self
@@ -878,11 +939,15 @@ paths
 c_dest
 '
 '
+content
+'
+'
 e_dest
 '
 '
 o_dest
 '
+                                     
 '
 p_dest
 '
@@ -1492,6 +1557,29 @@ o_dest
         
 self
 .
+assertTrue
+(
+os
+.
+path
+.
+exists
+(
+self
+.
+tmppath
+(
+'
+dest
+/
+content
+'
+)
+)
+)
+        
+self
+.
 assertFalse
 (
 os
@@ -1646,6 +1734,11 @@ c_dest
 dest
 /
 p_dest
+'
+'
+dest
+/
+content
 '
 )
 )
