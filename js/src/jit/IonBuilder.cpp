@@ -59837,7 +59837,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-TypedObjectNeutered
+TypedObjectHasDetachedBuffer
 )
 ;
 return
