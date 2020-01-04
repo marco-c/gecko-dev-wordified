@@ -7350,9 +7350,8 @@ _PSM_InvalidInt
 void
 )
 {
-PR_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 I
 /
@@ -7381,9 +7380,8 @@ _PSM_InvalidInt64
 void
 )
 {
-PR_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 I
 /
@@ -7412,9 +7410,8 @@ _PSM_InvalidStatus
 void
 )
 {
-PR_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 I
 /
@@ -7443,9 +7440,8 @@ _PSM_InvalidDesc
 void
 )
 {
-PR_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 I
 /
