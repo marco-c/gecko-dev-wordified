@@ -986,10 +986,7 @@ Value
 aSequence
 Sequence
 <
-JS
-:
-:
-Value
+nsString
 >
 &
 aStyles
