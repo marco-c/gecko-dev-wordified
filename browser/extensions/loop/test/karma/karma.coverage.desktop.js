@@ -98,7 +98,9 @@ concat
 "
 content
 /
-libs
+panels
+/
+vendor
 /
 l10n
 .
@@ -109,7 +111,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 react
 -
@@ -126,7 +128,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 classnames
 -
@@ -143,7 +145,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 lodash
 -
@@ -160,7 +162,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 backbone
 -
@@ -360,6 +362,8 @@ js
 "
 content
 /
+panels
+/
 js
 /
 feedbackViews
@@ -368,6 +372,8 @@ js
 "
 "
 content
+/
+panels
 /
 js
 /
@@ -378,6 +384,8 @@ js
 "
 content
 /
+panels
+/
 js
 /
 roomStore
@@ -387,6 +395,8 @@ js
 "
 content
 /
+panels
+/
 js
 /
 roomViews
@@ -395,6 +405,8 @@ js
 "
 "
 content
+/
+panels
 /
 js
 /
@@ -489,6 +501,8 @@ preprocessors
 {
 "
 content
+/
+panels
 /
 js
 /

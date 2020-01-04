@@ -5405,8 +5405,6 @@ props
 useDesktopPaths
 ?
 "
-loop
-/
 shared
 /
 img
