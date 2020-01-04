@@ -19465,6 +19465,12 @@ childWM
 wm
 )
 ;
+LogicalSize
+percentBasis
+(
+childCBSize
+)
+;
 /
 /
 XXX
@@ -19523,6 +19529,8 @@ aState
 mReflowState
 child
 childCBSize
+&
+percentBasis
 )
 ;
 /
@@ -19833,6 +19841,8 @@ aState
 mReflowState
 child
 childCBSize
+&
+percentBasis
 )
 ;
 if

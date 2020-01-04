@@ -21418,6 +21418,13 @@ IsFlexOrGridItem
 )
 const
 ;
+inline
+bool
+IsFlexOrGridContainer
+(
+)
+const
+;
 /
 *
 *
