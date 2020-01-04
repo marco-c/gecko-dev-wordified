@@ -211,6 +211,7 @@ i
 }
 }
 function
+*
 run_test
 (
 )
