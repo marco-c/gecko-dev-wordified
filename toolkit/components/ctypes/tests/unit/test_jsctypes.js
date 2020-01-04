@@ -19387,7 +19387,7 @@ void_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -19487,7 +19487,7 @@ int32_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -19753,7 +19753,7 @@ f_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 /
@@ -23676,7 +23676,7 @@ void_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 if
