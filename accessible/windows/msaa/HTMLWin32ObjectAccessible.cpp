@@ -324,6 +324,7 @@ if
 (
 mHwnd
 )
+{
 mNativeAccessible
 =
 new
@@ -333,6 +334,12 @@ mHwnd
 aDoc
 )
 ;
+AppendChild
+(
+mNativeAccessible
+)
+;
+}
 }
 /
 /
@@ -585,15 +592,6 @@ CacheChildren
 (
 )
 {
-if
-(
-mNativeAccessible
-)
-AppendChild
-(
-mNativeAccessible
-)
-;
 }
 /
 /
