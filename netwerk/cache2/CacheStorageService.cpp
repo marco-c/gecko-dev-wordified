@@ -2232,6 +2232,15 @@ while
 (
 !
 mCancel
+&
+&
+!
+CacheObserver
+:
+:
+ShuttingDown
+(
+)
 )
 {
 if
