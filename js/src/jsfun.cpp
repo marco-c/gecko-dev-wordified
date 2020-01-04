@@ -12532,6 +12532,13 @@ isAtom
 )
 ;
 }
+comp
+-
+>
+scheduleDelazificationForDebugger
+(
+)
+;
 }
 static
 bool
