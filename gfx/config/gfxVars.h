@@ -245,6 +245,13 @@ IntSize
 )
 )
 \
+_
+(
+UseXRender
+bool
+false
+)
+\
 /
 *
 Add

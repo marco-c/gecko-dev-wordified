@@ -636,14 +636,9 @@ UseImageOffscreenSurfaces
 |
 |
 !
-gfxPlatformGtk
+gfxVars
 :
 :
-GetPlatform
-(
-)
--
->
 UseXRender
 (
 )
