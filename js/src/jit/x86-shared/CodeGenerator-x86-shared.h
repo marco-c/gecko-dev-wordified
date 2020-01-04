@@ -2228,6 +2228,14 @@ lir
 )
 ;
 void
+visitSimdBinarySaturating
+(
+LSimdBinarySaturating
+*
+lir
+)
+;
+void
 visitSimdBinaryBitwise
 (
 LSimdBinaryBitwise

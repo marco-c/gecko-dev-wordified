@@ -318,6 +318,11 @@ SimdBinaryArithFx4
 \
 _
 (
+SimdBinarySaturating
+)
+\
+_
+(
 SimdBinaryBitwise
 )
 \

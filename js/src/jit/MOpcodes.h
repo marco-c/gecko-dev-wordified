@@ -209,6 +209,11 @@ SimdBinaryArith
 \
 _
 (
+SimdBinarySaturating
+)
+\
+_
+(
 SimdBinaryBitwise
 )
 \
