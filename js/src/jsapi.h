@@ -3122,14 +3122,12 @@ JS
 struct
 JSFreeOp
 {
-private
+protected
 :
 JSRuntime
 *
 runtime_
 ;
-protected
-:
 explicit
 JSFreeOp
 (
@@ -3153,6 +3151,11 @@ runtime
 )
 const
 {
+MOZ_ASSERT
+(
+runtime_
+)
+;
 return
 runtime_
 ;
