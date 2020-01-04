@@ -215,6 +215,17 @@ return
 force_enabled
 "
 ;
+case
+FeatureStatus
+:
+:
+CrashedOnStartup
+:
+return
+"
+crashed_on_startup
+"
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
