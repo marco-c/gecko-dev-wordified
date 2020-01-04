@@ -119,6 +119,21 @@ mozilla
 /
 layers
 /
+ISurfaceAllocator
+.
+h
+"
+/
+/
+For
+IsSurfaceDescriptorValid
+#
+include
+"
+mozilla
+/
+layers
+/
 FenceUtils
 .
 h
@@ -432,7 +447,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 override
@@ -441,7 +456,7 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 override
@@ -466,7 +481,7 @@ gfx
 :
 BackendType
 aMoz2dBackend
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -486,7 +501,7 @@ gfx
 :
 IntSize
 aCbCrSize
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -506,7 +521,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -530,7 +545,7 @@ BackendType
 aMoz2DBackend
 uint32_t
 aUsage
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -557,7 +572,7 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags

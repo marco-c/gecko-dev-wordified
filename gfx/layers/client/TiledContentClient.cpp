@@ -2740,7 +2740,7 @@ gfxShmSharedReadLock
 :
 gfxShmSharedReadLock
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )

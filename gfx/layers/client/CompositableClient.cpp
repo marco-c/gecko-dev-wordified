@@ -414,7 +414,7 @@ mTextureClient
 ;
 RefPtr
 <
-ClientIPCAllocator
+ISurfaceAllocator
 >
 allocator
 =

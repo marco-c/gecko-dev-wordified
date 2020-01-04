@@ -209,8 +209,9 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
+aAllocator
 )
 override
 {
@@ -223,8 +224,9 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
+aAllocator
 )
 override
 {
