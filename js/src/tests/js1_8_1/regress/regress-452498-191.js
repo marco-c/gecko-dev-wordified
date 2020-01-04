@@ -438,7 +438,7 @@ summary
 expect
 =
 '
-TypeError
+SyntaxError
 :
 redeclaration
 of

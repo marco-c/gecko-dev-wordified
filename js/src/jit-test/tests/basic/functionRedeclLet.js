@@ -7,7 +7,7 @@ test
 |
 error
 :
-TypeError
+SyntaxError
 {
 let
 x

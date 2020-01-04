@@ -2205,7 +2205,7 @@ constructor
 }
 }
 "
-TypeError
+SyntaxError
 )
 ;
 assertStmt
@@ -2289,7 +2289,7 @@ constructor
 }
 }
 "
-TypeError
+SyntaxError
 )
 ;
 assertStmt
@@ -2382,7 +2382,7 @@ constructor
 }
 }
 "
-TypeError
+SyntaxError
 )
 ;
 assertStmt

@@ -198,7 +198,7 @@ e
 if
 e
 instanceof
-TypeError
+SyntaxError
 )
 {
 }
