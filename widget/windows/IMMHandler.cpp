@@ -13125,13 +13125,13 @@ this
 of
 /
 /
-NOTIFY_IME_OF_COMPOSITION_UPDATE
+NOTIFY_IME_OF_COMPOSITION_EVENT_HANDLED
 then
+/
+/
 SetIMERelatedWindowsPos
 (
 )
-/
-/
 will
 be
 called
