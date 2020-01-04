@@ -570,6 +570,15 @@ this
 _onProfilerEvent
 )
 ;
+yield
+this
+.
+_front
+.
+destroy
+(
+)
+;
 }
 )
 /
