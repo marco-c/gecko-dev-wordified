@@ -716,6 +716,14 @@ MInt64ToFloatingPoint
 ins
 )
 ;
+void
+visitCopySign
+(
+MCopySign
+*
+ins
+)
+;
 }
 ;
 }
