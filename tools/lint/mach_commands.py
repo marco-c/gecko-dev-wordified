@@ -411,6 +411,10 @@ eslint
 (
 self
 paths
+extra_args
+=
+[
+]
 *
 *
 kwargs
@@ -442,6 +446,10 @@ eslint
 paths
 =
 paths
+                                             
+argv
+=
+extra_args
 *
 *
 kwargs
