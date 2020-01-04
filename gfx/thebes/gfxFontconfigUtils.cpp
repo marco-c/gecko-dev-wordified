@@ -3466,9 +3466,9 @@ pattern
 keeps
 the
 pointer
+/
+/
 to
-/
-/
 string
 for
 the
@@ -3479,9 +3479,9 @@ If
 adding
 the
 font
+/
+/
 failed
-/
-/
 then
 the
 entry
@@ -3506,7 +3506,7 @@ else
 {
 mFontsByFamily
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
