@@ -499,7 +499,6 @@ RealtimeFrameLimit
 8192
 +
 4096
-;
 /
 /
 ~
@@ -507,6 +506,9 @@ RealtimeFrameLimit
 44
 .
 1KHz
+-
+WEBAUDIO_BLOCK_SIZE
+;
 const
 size_t
 MinFFTSize
