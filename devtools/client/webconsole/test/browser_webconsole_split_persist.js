@@ -881,9 +881,7 @@ contentWindow
 =
 toolbox
 .
-frame
-.
-contentWindow
+win
 ;
 contentWindow
 .

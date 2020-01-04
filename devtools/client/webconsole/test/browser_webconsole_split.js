@@ -347,9 +347,7 @@ ESCAPE
 "
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 ;
 }

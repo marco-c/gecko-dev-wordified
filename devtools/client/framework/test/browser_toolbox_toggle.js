@@ -641,9 +641,7 @@ waitForFocus
 res
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 )
 ;
