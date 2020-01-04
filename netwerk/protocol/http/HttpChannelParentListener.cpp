@@ -2407,7 +2407,7 @@ class
 FinishSynthesizedResponse
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <

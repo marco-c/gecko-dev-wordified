@@ -1181,7 +1181,7 @@ class
 RegistrationUpdateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 nsMainThreadPtrHandle
 <
@@ -5967,7 +5967,7 @@ ResumeRequest
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsMainThreadPtrHandle
 <

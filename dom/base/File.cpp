@@ -4754,7 +4754,7 @@ GetTypeRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

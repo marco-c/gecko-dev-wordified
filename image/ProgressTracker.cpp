@@ -668,7 +668,7 @@ class
 AsyncNotifyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1121,7 +1121,7 @@ class
 AsyncNotifyCurrentStateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -5300,7 +5300,7 @@ class
 XULInContentErrorReporter
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -12256,7 +12256,7 @@ class
 SetDrawInTitleBarEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -12521,7 +12521,7 @@ class
 MarginSetter
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -16839,7 +16839,7 @@ class
 NotifyOffThreadScriptCompletedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 /
 /

@@ -2805,7 +2805,7 @@ class
 NotifyGMPShutdownTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -6155,7 +6155,7 @@ class
 RunCreateContentParentCallbacks
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

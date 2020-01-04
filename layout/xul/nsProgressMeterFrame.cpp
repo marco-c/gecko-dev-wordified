@@ -201,7 +201,10 @@ class
 nsReflowFrameRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

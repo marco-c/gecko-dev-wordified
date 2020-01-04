@@ -474,7 +474,7 @@ class
 nsMenuActivateEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -674,7 +674,7 @@ class
 nsMenuAttributeChangedEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -2551,7 +2551,7 @@ class
 RemoveElementRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

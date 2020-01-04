@@ -8864,7 +8864,7 @@ NrTcpSocketIpc
 TcpSocketReadyRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

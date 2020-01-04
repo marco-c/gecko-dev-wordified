@@ -32454,7 +32454,7 @@ class
 FullscreenTransitionTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -45177,7 +45177,7 @@ class
 nsCloseEvent
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -47496,7 +47496,7 @@ class
 nsPendingTimeoutRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -48032,7 +48032,7 @@ class
 WindowDestroyedEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -50333,7 +50333,7 @@ class
 ChildCommandDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -50463,7 +50463,7 @@ class
 CommandDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -54716,7 +54716,7 @@ class
 HashchangeCallback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -58026,7 +58026,7 @@ class
 NotifyIdleObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

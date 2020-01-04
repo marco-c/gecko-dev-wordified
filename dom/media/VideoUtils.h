@@ -527,7 +527,7 @@ class
 ShutdownThreadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -591,7 +591,7 @@ class
 DeleteObjectTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1815,7 +1815,10 @@ mDummyEvent
 mDummyEvent
 =
 new
-nsRunnable
+mozilla
+:
+:
+Runnable
 (
 )
 ;

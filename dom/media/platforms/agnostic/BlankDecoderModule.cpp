@@ -314,7 +314,7 @@ class
 OutputEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

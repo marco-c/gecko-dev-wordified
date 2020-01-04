@@ -241,7 +241,7 @@ DOMCameraControlListener
 DOMCallback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

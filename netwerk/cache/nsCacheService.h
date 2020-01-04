@@ -418,7 +418,10 @@ class
 nsNotifyDoomListener
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

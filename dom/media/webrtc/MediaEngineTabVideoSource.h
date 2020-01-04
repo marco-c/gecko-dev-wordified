@@ -360,7 +360,7 @@ class
 StartRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -395,7 +395,7 @@ class
 StopRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -430,7 +430,7 @@ class
 InitRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -8683,7 +8683,7 @@ ChannelGetterRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerPrivate
 *

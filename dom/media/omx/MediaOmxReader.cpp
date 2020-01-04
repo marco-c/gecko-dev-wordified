@@ -529,7 +529,7 @@ MediaOmxReader
 NotifyDataArrivedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

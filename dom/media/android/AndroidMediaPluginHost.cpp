@@ -336,7 +336,7 @@ class
 GetIntPrefEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

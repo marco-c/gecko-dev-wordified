@@ -837,7 +837,7 @@ class
 nsHtml5ExecutorFlusher
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -897,7 +897,7 @@ class
 nsHtml5LoadFlusher
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -6617,7 +6617,7 @@ class
 nsHtml5RequestStopper
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -7002,7 +7002,7 @@ class
 nsHtml5DataAvailable
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -8874,7 +8874,7 @@ class
 nsHtml5StreamParserContinuation
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -10027,7 +10027,7 @@ class
 nsHtml5TimerKungFu
 :
 public
-nsRunnable
+Runnable
 {
 private
 :

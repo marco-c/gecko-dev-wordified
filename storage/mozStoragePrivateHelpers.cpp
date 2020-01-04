@@ -1442,7 +1442,7 @@ class
 CallbackEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

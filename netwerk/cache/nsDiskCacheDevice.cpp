@@ -334,7 +334,7 @@ class
 nsDiskCacheDeviceDeactivateEntryEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -455,7 +455,7 @@ class
 nsEvictDiskCacheEntriesEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

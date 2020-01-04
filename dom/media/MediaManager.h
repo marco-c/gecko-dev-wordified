@@ -1892,7 +1892,7 @@ class
 GetUserMediaNotificationEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2072,7 +2072,7 @@ class
 ReleaseMediaOperationResource
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

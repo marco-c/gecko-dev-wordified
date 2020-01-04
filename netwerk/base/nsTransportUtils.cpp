@@ -313,7 +313,7 @@ class
 nsTransportStatusEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

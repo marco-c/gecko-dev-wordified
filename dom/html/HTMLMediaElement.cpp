@@ -1750,7 +1750,7 @@ class
 nsMediaEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

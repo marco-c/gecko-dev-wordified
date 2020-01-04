@@ -1059,7 +1059,7 @@ NotificationGetRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 const
 nsString
@@ -1452,7 +1452,7 @@ FocusWindowRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsMainThreadPtrHandle
 <
@@ -2439,7 +2439,7 @@ class
 NotificationTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -10896,7 +10896,7 @@ WorkerGetRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

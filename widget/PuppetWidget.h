@@ -1622,7 +1622,7 @@ class
 PaintTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

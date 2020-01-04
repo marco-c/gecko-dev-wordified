@@ -693,7 +693,7 @@ class
 AddConsolePrefWatchers
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -877,7 +877,7 @@ class
 LogMessageRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -389,7 +389,7 @@ class
 DumpMemoryInfoToTempDirRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -482,7 +482,7 @@ GCAndCCLogDumpRunnable
 final
 :
 public
-nsRunnable
+Runnable
 public
 nsIDumpGCAndCCLogsCallback
 {
@@ -612,7 +612,7 @@ mDumpChildProcesses
 NS_IMPL_ISUPPORTS_INHERITED
 (
 GCAndCCLogDumpRunnable
-nsRunnable
+Runnable
 nsIDumpGCAndCCLogsCallback
 )
 }

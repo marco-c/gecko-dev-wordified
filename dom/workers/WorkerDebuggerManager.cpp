@@ -152,7 +152,10 @@ RegisterDebuggerMainThreadRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 WorkerPrivate
 *
@@ -232,7 +235,10 @@ UnregisterDebuggerMainThreadRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 WorkerPrivate
 *

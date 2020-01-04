@@ -4546,7 +4546,7 @@ class
 StartTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

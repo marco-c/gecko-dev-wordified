@@ -1110,7 +1110,7 @@ class
 Runner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

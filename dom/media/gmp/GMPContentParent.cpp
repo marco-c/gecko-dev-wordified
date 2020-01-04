@@ -314,7 +314,7 @@ class
 ReleaseGMPContentParent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

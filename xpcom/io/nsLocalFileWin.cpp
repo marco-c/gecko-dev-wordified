@@ -486,7 +486,7 @@ class
 AsyncLocalFileWinDone
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -631,7 +631,7 @@ class
 AsyncLocalFileWinOperation
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

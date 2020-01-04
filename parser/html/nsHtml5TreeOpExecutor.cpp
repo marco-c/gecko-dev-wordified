@@ -352,7 +352,7 @@ class
 nsHtml5ExecutorReflusher
 :
 public
-nsRunnable
+Runnable
 {
 private
 :

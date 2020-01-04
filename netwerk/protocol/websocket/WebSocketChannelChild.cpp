@@ -646,7 +646,7 @@ class
 WrappedChannelEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2046,7 +2046,7 @@ class
 CloseEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2240,7 +2240,7 @@ class
 MsgEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2543,7 +2543,7 @@ class
 BinaryStreamEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

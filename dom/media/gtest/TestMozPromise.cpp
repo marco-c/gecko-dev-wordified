@@ -226,7 +226,7 @@ class
 DelayedResolveOrReject
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

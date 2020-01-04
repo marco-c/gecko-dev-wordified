@@ -376,7 +376,7 @@ class
 LoadModuleMainThreadRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

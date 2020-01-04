@@ -552,7 +552,7 @@ nsIRunnable
 runnable
 (
 new
-nsRunnable
+Runnable
 (
 )
 )

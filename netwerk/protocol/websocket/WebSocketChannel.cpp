@@ -14588,7 +14588,7 @@ class
 RemoveObserverRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -24468,7 +24468,7 @@ thread
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

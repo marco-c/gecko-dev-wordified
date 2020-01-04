@@ -556,7 +556,7 @@ class
 NotifyBatteryChangeRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1439,7 +1439,7 @@ class
 ExitFullScreenRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

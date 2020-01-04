@@ -912,7 +912,10 @@ class
 nsXULPopupShownEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 public
 nsIDOMEventListener
 {

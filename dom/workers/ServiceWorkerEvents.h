@@ -274,7 +274,7 @@ CancelChannelRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsMainThreadPtrHandle
 <

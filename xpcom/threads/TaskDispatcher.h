@@ -1163,7 +1163,7 @@ class
 TaskGroupRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

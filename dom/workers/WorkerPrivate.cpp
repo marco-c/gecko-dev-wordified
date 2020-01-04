@@ -1864,7 +1864,7 @@ MainThreadReleaseRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsTArray
 <
@@ -2176,7 +2176,7 @@ TopLevelWorkerFinishedRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerPrivate
 *
@@ -8520,12 +8520,12 @@ namespace
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 MainThreadReleaseRunnable
-nsRunnable
+Runnable
 )
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 TopLevelWorkerFinishedRunnable
-nsRunnable
+Runnable
 )
 TimerThreadEventTarget
 :
@@ -17897,7 +17897,7 @@ PostDebuggerMessageRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerDebugger
 *
@@ -17962,7 +17962,7 @@ ReportDebuggerErrorRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 WorkerDebugger
 *

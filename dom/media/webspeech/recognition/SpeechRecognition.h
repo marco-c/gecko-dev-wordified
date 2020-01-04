@@ -1392,7 +1392,7 @@ class
 SpeechEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

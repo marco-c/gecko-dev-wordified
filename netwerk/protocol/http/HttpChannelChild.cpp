@@ -8228,7 +8228,7 @@ class
 OverrideRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

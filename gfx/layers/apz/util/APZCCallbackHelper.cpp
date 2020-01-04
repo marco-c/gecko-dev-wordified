@@ -2457,7 +2457,7 @@ class
 AcknowledgeScrollUpdateEvent
 :
 public
-nsRunnable
+Runnable
 {
 typedef
 mozilla
@@ -2500,6 +2500,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

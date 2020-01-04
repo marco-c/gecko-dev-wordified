@@ -3423,7 +3423,10 @@ class
 nsGIOSetContentTypeEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

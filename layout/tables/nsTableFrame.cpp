@@ -32325,7 +32325,7 @@ class
 nsDelayedCalcBCBorders
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1707,7 +1707,7 @@ class
 FocusTextField
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -267,7 +267,7 @@ class
 DecodeToSurfaceRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

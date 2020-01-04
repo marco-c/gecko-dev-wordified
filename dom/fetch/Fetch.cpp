@@ -634,7 +634,7 @@ class
 MainThreadFetchRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -3604,7 +3604,7 @@ BeginConsumeBodyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 FetchBody
 <

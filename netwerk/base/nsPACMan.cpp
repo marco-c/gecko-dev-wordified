@@ -605,7 +605,7 @@ ExecuteCallback
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -820,7 +820,7 @@ ShutdownThread
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -893,7 +893,7 @@ WaitForThreadShutdown
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1089,7 +1089,7 @@ PACLoadComplete
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1277,7 +1277,7 @@ ExecutePACThreadAction
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

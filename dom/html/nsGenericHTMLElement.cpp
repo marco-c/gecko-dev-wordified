@@ -918,7 +918,7 @@ class
 nsAutoFocusEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

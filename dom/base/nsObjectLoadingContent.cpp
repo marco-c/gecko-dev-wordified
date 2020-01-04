@@ -949,7 +949,7 @@ class
 nsAsyncInstantiateEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1124,7 +1124,7 @@ class
 CheckPluginStopEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1620,7 +1620,7 @@ class
 nsSimplePluginEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1850,7 +1850,7 @@ class
 nsPluginCrashedEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2118,7 +2118,7 @@ class
 nsStopPluginRunnable
 :
 public
-nsRunnable
+Runnable
 public
 nsITimerCallback
 {
@@ -2167,7 +2167,7 @@ nsObjectLoadingContent
 }
 /
 /
-nsRunnable
+Runnable
 NS_IMETHOD
 Run
 (
@@ -2220,7 +2220,7 @@ mContent
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsStopPluginRunnable
-nsRunnable
+Runnable
 nsITimerCallback
 )
 NS_IMETHODIMP

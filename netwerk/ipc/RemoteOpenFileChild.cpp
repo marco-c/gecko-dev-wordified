@@ -449,7 +449,7 @@ class
 CallsListenerInNewEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -209,7 +209,7 @@ CallChannelOnPush
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

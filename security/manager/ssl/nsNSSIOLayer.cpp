@@ -9489,7 +9489,7 @@ FallbackPrefRemover
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9707,7 +9707,7 @@ return
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =

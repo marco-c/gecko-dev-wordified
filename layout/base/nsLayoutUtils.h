@@ -19795,7 +19795,10 @@ class
 nsSetAttrRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -19847,7 +19850,10 @@ class
 nsUnsetAttrRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

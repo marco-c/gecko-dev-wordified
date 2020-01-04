@@ -252,7 +252,7 @@ TransferBuffer
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

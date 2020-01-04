@@ -875,7 +875,7 @@ class
 ServeResourceEvent
 :
 public
-nsRunnable
+Runnable
 {
 private
 :

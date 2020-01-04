@@ -1875,7 +1875,10 @@ class
 RedirectRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

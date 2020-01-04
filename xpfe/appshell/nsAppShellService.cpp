@@ -1645,7 +1645,7 @@ BrowserDestroyer
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

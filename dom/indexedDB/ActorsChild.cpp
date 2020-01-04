@@ -4321,7 +4321,7 @@ WorkerPermissionChallenge
 final
 :
 public
-nsRunnable
+Runnable
 public
 WorkerFeature
 {

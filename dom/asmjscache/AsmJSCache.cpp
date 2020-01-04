@@ -1476,7 +1476,7 @@ class
 FileDescriptorHolder
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

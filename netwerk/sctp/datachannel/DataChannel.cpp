@@ -16187,7 +16187,7 @@ class
 ReadBlobRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -16453,7 +16453,7 @@ class
 DataChannelBlobSendRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

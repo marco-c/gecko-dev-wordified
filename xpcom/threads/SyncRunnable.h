@@ -285,7 +285,7 @@ class
 SyncRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

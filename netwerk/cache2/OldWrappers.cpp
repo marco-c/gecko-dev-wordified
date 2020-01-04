@@ -209,7 +209,7 @@ class
 DoomCallbackSynchronizer
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1495,7 +1495,7 @@ cb
 NS_IMPL_ISUPPORTS_INHERITED
 (
 _OldGetDiskConsumption
-nsRunnable
+Runnable
 nsICacheVisitor
 )
 _OldGetDiskConsumption
@@ -3129,7 +3129,7 @@ namespace
 NS_IMPL_ISUPPORTS_INHERITED
 (
 _OldCacheLoad
-nsRunnable
+Runnable
 nsICacheListener
 )
 _OldCacheLoad

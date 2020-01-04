@@ -636,7 +636,7 @@ class
 nsSocketEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -10941,7 +10941,7 @@ class
 ThunkPRClose
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

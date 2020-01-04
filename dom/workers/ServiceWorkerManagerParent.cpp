@@ -222,7 +222,7 @@ RegisterServiceWorkerCallback
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -347,7 +347,7 @@ UnregisterServiceWorkerCallback
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -488,7 +488,7 @@ CheckPrincipalWithCallbackRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -503,7 +503,7 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-nsRunnable
+Runnable
 *
 aCallback
 )
@@ -629,7 +629,7 @@ mPrincipalInfo
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 mCallback
 ;

@@ -166,7 +166,7 @@ class
 InputTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

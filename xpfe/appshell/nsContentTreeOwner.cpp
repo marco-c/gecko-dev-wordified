@@ -6870,7 +6870,7 @@ class
 nsContentTitleSettingEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

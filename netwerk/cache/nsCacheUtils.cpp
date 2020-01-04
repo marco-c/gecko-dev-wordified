@@ -141,7 +141,7 @@ class
 nsDestroyThreadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -266,14 +266,6 @@ ScrollbarActivity
 /
 namespace
 layout
-}
-/
-/
-namespace
-mozilla
-namespace
-mozilla
-{
 class
 ScrollFrameHelper
 :
@@ -865,7 +857,7 @@ class
 AsyncScrollPortEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -906,7 +898,7 @@ class
 ScrolledAreaEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

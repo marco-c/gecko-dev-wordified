@@ -261,7 +261,10 @@ nsPagePrintTimer
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 public
 nsITimerCallback
 {

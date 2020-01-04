@@ -7710,7 +7710,7 @@ SelectorCacheKeyDeleter
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -50923,7 +50923,7 @@ class
 nsUnblockOnloadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -55944,7 +55944,7 @@ class
 nsDelayedEventDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -62323,7 +62323,7 @@ class
 nsCallExitFullscreen
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -62692,7 +62692,7 @@ class
 ExitFullscreenScriptRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -64151,7 +64151,7 @@ class
 nsCallRequestFullScreen
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -65610,8 +65610,8 @@ running
 /
 /
 in
-an
-nsRunnable
+a
+Runnable
 so
 don
 '
@@ -65621,10 +65621,10 @@ GetMozFullScreenEnabled
 (
 )
 from
-an
+a
 /
 /
-nsRunnable
+Runnable
 !
 return
 nullptr
@@ -68763,7 +68763,7 @@ class
 nsPointerLockPermissionRequest
 :
 public
-nsRunnable
+Runnable
 public
 nsIContentPermissionRequest
 {
@@ -69146,7 +69146,7 @@ mRequester
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsPointerLockPermissionRequest
-nsRunnable
+Runnable
 nsIContentPermissionRequest
 )
 NS_IMETHODIMP

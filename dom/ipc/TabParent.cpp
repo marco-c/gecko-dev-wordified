@@ -900,7 +900,10 @@ class
 OpenFileAndSendFDRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 const
 nsString
@@ -14321,7 +14324,10 @@ LayerTreeUpdateRunnable
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 uint64_t
 mLayersId

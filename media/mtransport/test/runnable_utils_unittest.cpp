@@ -524,7 +524,7 @@ Test1Arg
 (
 )
 {
-nsRunnable
+Runnable
 *
 r
 =
@@ -559,7 +559,7 @@ Test2Args
 (
 )
 {
-nsRunnable
+Runnable
 *
 r
 =
@@ -664,7 +664,7 @@ Test1Arg
 (
 )
 {
-nsRunnable
+Runnable
 *
 r
 =
@@ -701,7 +701,7 @@ Test2Args
 (
 )
 {
-nsRunnable
+Runnable
 *
 r
 =

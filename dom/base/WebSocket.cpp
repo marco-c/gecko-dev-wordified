@@ -2030,7 +2030,7 @@ CancelWebSocketRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2171,7 +2171,7 @@ CloseConnectionRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2262,9 +2262,9 @@ IsTargetThread
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 runnable
 =
@@ -2280,6 +2280,10 @@ return
 Dispatch
 (
 runnable
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;

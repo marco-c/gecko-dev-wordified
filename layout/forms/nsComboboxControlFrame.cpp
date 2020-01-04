@@ -2697,7 +2697,7 @@ final
 public
 nsIReflowCallback
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3522,7 +3522,7 @@ class
 nsAsyncRollup
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3586,7 +3586,7 @@ class
 nsAsyncResize
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

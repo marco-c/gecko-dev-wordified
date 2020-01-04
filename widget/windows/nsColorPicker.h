@@ -139,7 +139,10 @@ class
 AsyncColorChooser
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

@@ -10382,7 +10382,7 @@ class
 AsyncResult
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -944,7 +944,7 @@ aFun
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

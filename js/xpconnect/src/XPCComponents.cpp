@@ -14500,7 +14500,7 @@ class
 PreciseGCRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

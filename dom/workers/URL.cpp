@@ -1458,7 +1458,7 @@ class
 TeardownURLRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

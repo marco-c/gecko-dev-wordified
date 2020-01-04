@@ -3442,7 +3442,10 @@ class
 UpdateSearchResultRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

@@ -736,7 +736,7 @@ class
 DeviceSensorTestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

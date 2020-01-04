@@ -142,7 +142,7 @@ ReportDecodeResultTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

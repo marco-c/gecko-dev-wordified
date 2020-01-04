@@ -8981,7 +8981,7 @@ class
 HttpConnectionForceIO
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

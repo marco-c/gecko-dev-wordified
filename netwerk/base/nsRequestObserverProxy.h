@@ -212,7 +212,10 @@ class
 nsARequestObserverEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

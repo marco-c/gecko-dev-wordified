@@ -12798,7 +12798,7 @@ class
 FocusBlurEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -22674,7 +22674,7 @@ class
 PointerUnlocker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

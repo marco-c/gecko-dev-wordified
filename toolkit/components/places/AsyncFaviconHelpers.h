@@ -554,7 +554,7 @@ class
 AsyncFaviconHelperBase
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

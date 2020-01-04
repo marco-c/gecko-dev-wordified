@@ -1656,7 +1656,10 @@ class
 PluginEventNotifier
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

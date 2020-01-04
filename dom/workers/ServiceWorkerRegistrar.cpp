@@ -2667,7 +2667,7 @@ ServiceWorkerRegistrarSaveDataRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2719,7 +2719,7 @@ SaveData
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -2817,7 +2817,7 @@ service
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -2992,7 +2992,7 @@ return
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =

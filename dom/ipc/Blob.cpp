@@ -6424,7 +6424,7 @@ OpenStreamRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 friend
 class
@@ -7325,7 +7325,7 @@ BlobParent
 :
 :
 OpenStreamRunnable
-nsRunnable
+Runnable
 )
 /
 *
@@ -7909,7 +7909,7 @@ CreateStreamHelper
 final
 :
 public
-nsRunnable
+Runnable
 {
 Monitor
 mMonitor
@@ -10621,7 +10621,7 @@ RemoteBlobImpl
 :
 :
 CreateStreamHelper
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 BlobChild

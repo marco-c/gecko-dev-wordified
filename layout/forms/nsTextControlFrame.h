@@ -1103,7 +1103,10 @@ class
 EditorInitializer
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -1162,7 +1165,10 @@ class
 ScrollOnFocusEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

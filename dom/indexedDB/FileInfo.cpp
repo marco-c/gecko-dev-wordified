@@ -288,7 +288,7 @@ CleanupFileRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -1060,7 +1060,7 @@ asynchronously
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 CleanupFileRunnable
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 CleanupFileRunnable

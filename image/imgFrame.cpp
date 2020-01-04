@@ -4554,7 +4554,7 @@ class
 UnlockImageDataRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

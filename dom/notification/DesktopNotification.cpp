@@ -267,7 +267,7 @@ DesktopNotificationRequest
 public
 nsIContentPermissionRequest
 public
-nsRunnable
+Runnable
 {
 virtual
 ~
@@ -2019,7 +2019,7 @@ DesktopNotificationRequest
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DesktopNotificationRequest
-nsRunnable
+Runnable
 nsIContentPermissionRequest
 )
 NS_IMETHODIMP

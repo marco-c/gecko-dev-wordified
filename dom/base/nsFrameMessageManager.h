@@ -1563,7 +1563,7 @@ MyAsyncMessage
 public
 nsSameProcessAsyncMessageBase
 public
-nsRunnable
+Runnable
 {
 NS_IMETHOD
 Run

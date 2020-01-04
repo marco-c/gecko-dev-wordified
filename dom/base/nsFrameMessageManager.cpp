@@ -10513,7 +10513,7 @@ nsAsyncMessageToSameProcessChild
 public
 nsSameProcessAsyncMessageBase
 public
-nsRunnable
+Runnable
 {
 public
 :

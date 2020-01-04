@@ -2138,7 +2138,7 @@ class
 SSLServerCertVerificationResult
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4977,7 +4977,7 @@ class
 CertErrorRunnableRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5086,7 +5086,7 @@ class
 SSLServerCertVerificationJob
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

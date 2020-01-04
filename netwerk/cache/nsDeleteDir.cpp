@@ -206,7 +206,7 @@ class
 nsBlockOnBackgroundThreadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

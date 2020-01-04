@@ -897,7 +897,7 @@ class
 CreateDXVAManagerEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

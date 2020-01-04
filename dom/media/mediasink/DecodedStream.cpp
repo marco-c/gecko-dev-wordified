@@ -1527,7 +1527,7 @@ class
 R
 :
 public
-nsRunnable
+Runnable
 {
 typedef
 MozPromiseHolder

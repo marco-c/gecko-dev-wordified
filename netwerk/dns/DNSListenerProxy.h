@@ -261,7 +261,7 @@ class
 OnLookupCompleteRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

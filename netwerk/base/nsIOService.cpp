@@ -8253,7 +8253,7 @@ class
 nsWakeupNotifier
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -11072,7 +11072,7 @@ class
 SetAppOfflineMainThread
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

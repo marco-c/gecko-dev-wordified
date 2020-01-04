@@ -591,7 +591,7 @@ class
 ImageLoadTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

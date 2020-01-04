@@ -599,7 +599,7 @@ NotifyTargetChangeRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -307,7 +307,10 @@ class
 nsWyciwygAsyncEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

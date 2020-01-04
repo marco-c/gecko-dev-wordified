@@ -234,7 +234,7 @@ class
 TicklerThreadDestructor
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -421,7 +421,7 @@ class
 CryptoTask
 :
 public
-nsRunnable
+Runnable
 public
 nsNSSShutDownObject
 {

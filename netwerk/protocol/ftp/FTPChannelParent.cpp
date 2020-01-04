@@ -4945,7 +4945,7 @@ class
 FTPFailDiversionEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

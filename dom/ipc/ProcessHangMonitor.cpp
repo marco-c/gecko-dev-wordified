@@ -2695,7 +2695,7 @@ HangObserverNotifier
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3106,7 +3106,7 @@ ClearHangNotifier
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

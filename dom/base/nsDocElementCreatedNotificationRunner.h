@@ -166,7 +166,10 @@ class
 nsDocElementCreatedNotificationRunner
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

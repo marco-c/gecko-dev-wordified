@@ -596,7 +596,7 @@ class
 SetSocketOptionRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4703,7 +4703,7 @@ thread
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =
@@ -5273,7 +5273,7 @@ class
 OnPacketReceivedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5335,7 +5335,7 @@ class
 OnStopListeningRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5651,7 +5651,7 @@ class
 OnPacketReceivedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -5713,7 +5713,7 @@ class
 OnStopListeningRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -6346,7 +6346,7 @@ class
 SendRequestRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

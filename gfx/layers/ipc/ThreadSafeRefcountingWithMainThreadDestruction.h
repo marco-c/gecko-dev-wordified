@@ -177,7 +177,7 @@ struct
 DeleteOnMainThreadTask
 :
 public
-nsRunnable
+Runnable
 {
 T
 *

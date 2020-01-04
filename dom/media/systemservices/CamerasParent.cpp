@@ -394,7 +394,7 @@ class
 FrameSizeChangeRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -642,7 +642,7 @@ class
 DeliverFrameRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1031,7 +1031,7 @@ CamerasParent
 :
 DispatchToVideoCaptureThread
 (
-nsRunnable
+Runnable
 *
 event
 )
@@ -1239,7 +1239,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -1442,7 +1442,7 @@ nullptr
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 threadShutdown
 =
@@ -3077,7 +3077,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -3313,7 +3313,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -3565,7 +3565,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -3837,7 +3837,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -4549,7 +4549,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 mainthread_runnable
 =
@@ -4744,7 +4744,7 @@ content
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -5047,7 +5047,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -5260,7 +5260,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -5806,7 +5806,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 webrtc_runnable
 =
@@ -6148,7 +6148,7 @@ this
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 threadStart
 =

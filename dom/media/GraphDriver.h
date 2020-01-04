@@ -3838,7 +3838,7 @@ class
 AsyncCubebTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

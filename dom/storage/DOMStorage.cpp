@@ -910,7 +910,7 @@ class
 StorageNotifierRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

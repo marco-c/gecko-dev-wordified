@@ -246,11 +246,11 @@ ifndef
 XPCOM_GLUE_AVOID_NSPR
 NS_IMPL_ISUPPORTS
 (
-nsRunnable
+Runnable
 nsIRunnable
 )
 NS_IMETHODIMP
-nsRunnable
+Runnable
 :
 :
 Run
@@ -268,7 +268,7 @@ NS_OK
 NS_IMPL_ISUPPORTS_INHERITED
 (
 CancelableRunnable
-nsRunnable
+Runnable
 nsICancelableRunnable
 )
 nsresult

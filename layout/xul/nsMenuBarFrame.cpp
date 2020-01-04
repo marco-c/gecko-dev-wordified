@@ -1560,7 +1560,7 @@ class
 nsMenuBarSwitchMenu
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

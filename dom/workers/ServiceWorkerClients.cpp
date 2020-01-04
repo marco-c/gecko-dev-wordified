@@ -395,7 +395,7 @@ GetRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 class
 ResolvePromiseWorkerRunnable
@@ -761,7 +761,7 @@ MatchAllRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 class
 ResolvePromiseWorkerRunnable
@@ -1233,7 +1233,7 @@ ClaimRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -2138,7 +2138,7 @@ OpenWindowRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

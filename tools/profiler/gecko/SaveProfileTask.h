@@ -209,7 +209,10 @@ class
 SaveProfileTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

@@ -1183,7 +1183,7 @@ class
 ConnEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

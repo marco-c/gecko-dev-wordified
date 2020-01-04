@@ -201,7 +201,10 @@ class
 nsAsyncVerifyRedirectCallbackEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

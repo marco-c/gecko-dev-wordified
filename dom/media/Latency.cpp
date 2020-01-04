@@ -270,7 +270,7 @@ class
 LogEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

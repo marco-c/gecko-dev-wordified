@@ -10060,7 +10060,7 @@ class
 nsFtpAsyncAlert
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -12450,7 +12450,7 @@ thread
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =

@@ -1194,7 +1194,7 @@ class
 PushBlobRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1337,7 +1337,7 @@ class
 EncoderErrorNotifierRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1465,7 +1465,7 @@ class
 DispatchStartEventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1612,7 +1612,7 @@ class
 ExtractRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2235,7 +2235,7 @@ class
 DestroyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

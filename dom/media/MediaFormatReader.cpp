@@ -1155,7 +1155,7 @@ class
 DispatchKeyNeededEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

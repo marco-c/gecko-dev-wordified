@@ -139,7 +139,7 @@ class
 AsyncEventRunner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

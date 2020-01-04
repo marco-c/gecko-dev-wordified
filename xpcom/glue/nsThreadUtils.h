@@ -1623,6 +1623,9 @@ endif
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
+namespace
+mozilla
+{
 /
 /
 This
@@ -1634,7 +1637,7 @@ be
 subclassed
 .
 class
-nsRunnable
+Runnable
 :
 public
 nsIRunnable
@@ -1643,7 +1646,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
-nsRunnable
+Runnable
 (
 )
 {
@@ -1652,7 +1655,7 @@ protected
 :
 virtual
 ~
-nsRunnable
+Runnable
 (
 )
 {
@@ -1673,7 +1676,7 @@ class
 CancelableRunnable
 :
 public
-nsRunnable
+Runnable
 public
 nsICancelableRunnable
 {
@@ -1706,6 +1709,11 @@ CancelableRunnable
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 /
 /
 An
@@ -1753,7 +1761,10 @@ class
 nsRunnableFunction
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -1902,7 +1913,10 @@ class
 nsRunnableMethod
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -5297,7 +5311,10 @@ class
 E
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 /
 /

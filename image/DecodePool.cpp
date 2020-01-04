@@ -392,7 +392,7 @@ class
 NotifyProgressWorker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -558,7 +558,7 @@ class
 NotifyDecodeCompleteWorker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -678,7 +678,7 @@ class
 RegisterDecodeIOThreadWithNuwaRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1495,7 +1495,7 @@ class
 DecodePoolWorker
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

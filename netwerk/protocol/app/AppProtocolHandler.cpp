@@ -263,7 +263,7 @@ DummyChannel
 :
 public
 nsIJARChannel
-nsRunnable
+Runnable
 {
 public
 :
@@ -327,7 +327,7 @@ mLoadInfo
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DummyChannel
-nsRunnable
+Runnable
 nsIRequest
 nsIChannel
 nsIJARChannel

@@ -1554,7 +1554,7 @@ TeardownRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2619,7 +2619,7 @@ PropagateSoftUpdateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2709,7 +2709,7 @@ PropagateUnregisterRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2837,7 +2837,7 @@ RemoveRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2910,7 +2910,7 @@ PropagateRemoveRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2983,7 +2983,7 @@ PropagateRemoveAllRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4198,7 +4198,7 @@ GetRegistrationsRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <
@@ -4810,7 +4810,7 @@ GetRegistrationRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <
@@ -5335,7 +5335,7 @@ GetReadyPromiseRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <
@@ -11430,7 +11430,7 @@ class
 ContinueDispatchFetchEventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <

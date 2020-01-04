@@ -540,7 +540,7 @@ class
 FileBlockCache
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

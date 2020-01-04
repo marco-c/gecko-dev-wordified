@@ -26662,7 +26662,7 @@ ConnectionPool
 ConnectionRunnable
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :
@@ -27109,7 +27109,7 @@ FinishCallbackWrapper
 final
 :
 public
-nsRunnable
+Runnable
 {
 RefPtr
 <
@@ -27404,7 +27404,7 @@ ThreadRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 /
 /
@@ -27833,7 +27833,7 @@ class
 DatabaseOperationBase
 :
 public
-nsRunnable
+Runnable
 public
 mozIStorageProgressHandler
 {
@@ -29110,7 +29110,7 @@ WaitForTransactionsHelper
 final
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <
@@ -36700,7 +36700,7 @@ GetFileReferencesHelper
 final
 :
 public
-nsRunnable
+Runnable
 {
 PersistenceType
 mPersistenceType
@@ -36852,7 +36852,7 @@ FlushPendingFileDeletionsRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 private
 :
@@ -38104,7 +38104,7 @@ Maintenance
 final
 :
 public
-nsRunnable
+Runnable
 public
 OpenDirectoryListener
 {
@@ -39124,7 +39124,7 @@ DatabaseMaintenance
 final
 :
 public
-nsRunnable
+Runnable
 {
 /
 /
@@ -52752,7 +52752,7 @@ nsIRunnable
 runnable
 =
 new
-nsRunnable
+Runnable
 (
 )
 ;
@@ -55996,7 +55996,7 @@ ConnectionPool
 :
 :
 FinishCallbackWrapper
-nsRunnable
+Runnable
 )
 nsresult
 ConnectionPool
@@ -56225,7 +56225,7 @@ ConnectionPool
 :
 :
 ThreadRunnable
-nsRunnable
+Runnable
 )
 nsresult
 ConnectionPool
@@ -59812,7 +59812,7 @@ Complete
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 WaitForTransactionsHelper
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 WaitForTransactionsHelper
@@ -81054,7 +81054,7 @@ Complete
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 Maintenance
-nsRunnable
+Runnable
 )
 NS_IMETHODIMP
 Maintenance
@@ -89157,7 +89157,7 @@ NS_OK
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DatabaseOperationBase
-nsRunnable
+Runnable
 mozIStorageProgressHandler
 )
 NS_IMETHODIMP

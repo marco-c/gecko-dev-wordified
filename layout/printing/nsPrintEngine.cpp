@@ -28354,7 +28354,7 @@ class
 nsPrintCompletionEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

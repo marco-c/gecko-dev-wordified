@@ -943,7 +943,7 @@ class
 IncrementalFinalizeRunnable
 :
 public
-nsRunnable
+Runnable
 {
 typedef
 AutoTArray
@@ -6026,7 +6026,7 @@ PromiseJobRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -201,7 +201,7 @@ class
 ExitAppShellRunnable
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <
@@ -245,7 +245,7 @@ class
 StableStateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -283,7 +283,7 @@ class
 CheckStableStateRunnable
 :
 public
-nsRunnable
+Runnable
 {
 bool
 mShouldHaveRun
@@ -459,7 +459,7 @@ class
 NextTestRunnable
 :
 public
-nsRunnable
+Runnable
 {
 nsCOMPtr
 <

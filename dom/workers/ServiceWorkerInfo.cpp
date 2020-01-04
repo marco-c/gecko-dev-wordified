@@ -395,7 +395,7 @@ ChangeStateUpdater
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

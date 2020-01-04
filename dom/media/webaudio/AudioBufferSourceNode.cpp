@@ -4658,7 +4658,7 @@ EndedEventDispatcher
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -2400,7 +2400,7 @@ class
 DataChannelOnMessageAvailable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

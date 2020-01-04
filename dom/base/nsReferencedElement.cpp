@@ -1254,7 +1254,10 @@ nsReferencedElement
 :
 :
 ChangeNotification
-nsRunnable
+mozilla
+:
+:
+Runnable
 )
 NS_IMPL_ISUPPORTS
 (

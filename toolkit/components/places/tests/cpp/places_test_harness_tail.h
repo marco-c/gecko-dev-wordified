@@ -197,7 +197,10 @@ class
 RunNextTest
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

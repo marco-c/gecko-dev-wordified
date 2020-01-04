@@ -54451,7 +54451,7 @@ class
 InternalLoadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -78824,7 +78824,7 @@ class
 OnLinkClickEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

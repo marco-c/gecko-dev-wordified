@@ -3553,7 +3553,7 @@ class
 NotifyVisitObservers
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3910,7 +3910,7 @@ class
 NotifyTitleObservers
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4103,7 +4103,7 @@ class
 NotifyPlaceInfoCallback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4469,7 +4469,7 @@ class
 NotifyCompletion
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4825,7 +4825,7 @@ InsertVisitedURIs
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -7604,7 +7604,7 @@ GetPlaceInfo
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -7922,7 +7922,7 @@ class
 SetPageTitle
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9014,7 +9014,7 @@ class
 NotifyRemoveVisits
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9651,7 +9651,7 @@ class
 RemoveVisits
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

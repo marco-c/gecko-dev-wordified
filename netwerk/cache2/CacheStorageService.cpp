@@ -946,7 +946,7 @@ class
 WalkCacheRunnable
 :
 public
-nsRunnable
+Runnable
 public
 CacheStorageService
 :
@@ -1849,7 +1849,7 @@ class
 OnCacheEntryInfoRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2642,7 +2642,7 @@ class
 CleaupCacheDirectoriesRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9084,7 +9084,7 @@ class
 Callback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9134,7 +9134,7 @@ aCallback
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 callback
 =
@@ -9848,7 +9848,7 @@ class
 Callback
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9898,7 +9898,7 @@ aCallback
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 callback
 =

@@ -221,7 +221,7 @@ class
 SetSessionIdTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -336,7 +336,7 @@ class
 LoadSessionTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -492,7 +492,7 @@ class
 RejectPromiseTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -621,7 +621,7 @@ class
 SessionMessageTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -772,7 +772,7 @@ class
 ExpirationChangeTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1010,7 +1010,7 @@ class
 SessionErrorTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

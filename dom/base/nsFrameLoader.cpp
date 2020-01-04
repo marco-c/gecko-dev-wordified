@@ -8638,7 +8638,7 @@ class
 nsFrameLoaderDestroyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 enum
 DestroyPhase
@@ -15215,7 +15215,7 @@ nsAsyncMessageToChild
 public
 nsSameProcessAsyncMessageBase
 public
-nsRunnable
+Runnable
 {
 public
 :

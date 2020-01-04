@@ -99,7 +99,7 @@ class
 DispatchCertVerificationResult
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1610,7 +1610,7 @@ class
 ConduitDeleteEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

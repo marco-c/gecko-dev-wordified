@@ -5305,7 +5305,7 @@ thread
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 event
 =
@@ -13092,7 +13092,7 @@ class
 DeleteHttpTransaction
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

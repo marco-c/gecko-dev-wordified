@@ -508,7 +508,7 @@ class
 RunOnThread
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

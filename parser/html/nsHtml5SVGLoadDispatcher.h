@@ -80,7 +80,10 @@ class
 nsHtml5SVGLoadDispatcher
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 private
 :

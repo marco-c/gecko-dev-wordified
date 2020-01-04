@@ -720,7 +720,7 @@ class
 nsRemoteAnonymousTemporaryFileRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

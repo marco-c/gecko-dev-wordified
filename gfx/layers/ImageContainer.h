@@ -581,7 +581,10 @@ class
 SurfaceReleaser
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -757,7 +760,10 @@ class
 SurfaceReleaser
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

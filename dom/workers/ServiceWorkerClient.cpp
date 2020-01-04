@@ -582,7 +582,7 @@ ServiceWorkerClientPostMessageRunnable
 final
 :
 public
-nsRunnable
+Runnable
 public
 StructuredCloneHolder
 {

@@ -655,7 +655,10 @@ class
 AudioRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

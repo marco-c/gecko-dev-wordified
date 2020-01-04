@@ -358,7 +358,7 @@ class
 nsFileCopyEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

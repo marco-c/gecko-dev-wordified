@@ -915,7 +915,7 @@ class
 R
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

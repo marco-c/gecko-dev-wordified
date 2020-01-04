@@ -701,7 +701,7 @@ aFunction
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

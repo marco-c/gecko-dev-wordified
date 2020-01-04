@@ -561,7 +561,7 @@ class
 DestroyWidgetRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1548,7 +1548,7 @@ class
 nsAsyncScriptLoad
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

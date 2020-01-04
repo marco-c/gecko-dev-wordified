@@ -120,7 +120,7 @@ class
 InjectCrashRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

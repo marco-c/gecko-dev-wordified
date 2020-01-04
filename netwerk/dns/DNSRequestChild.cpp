@@ -1250,7 +1250,7 @@ class
 CancelDNSRequestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

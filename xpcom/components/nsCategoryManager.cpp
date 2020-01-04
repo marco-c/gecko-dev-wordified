@@ -2125,7 +2125,7 @@ class
 CategoryNotificationRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

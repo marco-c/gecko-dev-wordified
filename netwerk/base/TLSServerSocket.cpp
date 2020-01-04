@@ -1812,7 +1812,7 @@ class
 OnHandshakeDoneRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1862,7 +1862,7 @@ final
 public
 BackgroundThreadObject
 public
-nsRunnable
+Runnable
 {
 nsTArray
 <
@@ -1997,7 +1997,7 @@ ShutdownRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 /
 /
@@ -2903,7 +2903,7 @@ CollectOriginsHelper
 final
 :
 public
-nsRunnable
+Runnable
 {
 uint64_t
 mMinSizeToBeFreed
@@ -3017,7 +3017,7 @@ OriginOperationBase
 public
 BackgroundThreadObject
 public
-nsRunnable
+Runnable
 {
 protected
 :
@@ -5252,7 +5252,7 @@ StorageDirectoryHelper
 final
 :
 public
-nsRunnable
+Runnable
 {
 struct
 OriginProps
@@ -23558,7 +23558,7 @@ AdvanceState
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 NormalOriginOperationBase
-nsRunnable
+Runnable
 )
 void
 NormalOriginOperationBase

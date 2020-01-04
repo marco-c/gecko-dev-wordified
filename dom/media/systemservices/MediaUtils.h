@@ -906,8 +906,8 @@ NewRunnableFrom
 )
 -
 Create
-an
-nsRunnable
+a
+Runnable
 from
 a
 lambda
@@ -941,7 +941,7 @@ function
 is
 clunky
 with
-nsRunnable
+Runnable
 :
 *
 *
@@ -956,7 +956,7 @@ class
 FooRunnable
 :
 public
-nsRunnable
+Runnable
 *
 {
 *
@@ -1156,7 +1156,7 @@ class
 LambdaRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1689,7 +1689,7 @@ class
 CreateServerSocketRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -11721,7 +11721,7 @@ class
 CookieNotifierRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

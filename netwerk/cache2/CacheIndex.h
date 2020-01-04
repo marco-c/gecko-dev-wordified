@@ -7239,7 +7239,7 @@ class
 DiskConsumptionObserver
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

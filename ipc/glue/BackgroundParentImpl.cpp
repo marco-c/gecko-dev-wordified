@@ -1715,7 +1715,7 @@ InitUDPSocketParentCallback
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2237,7 +2237,7 @@ CheckPrincipalRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2472,7 +2472,7 @@ CheckPermissionRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

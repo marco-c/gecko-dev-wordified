@@ -2201,7 +2201,10 @@ class
 nsTransformBlockerEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

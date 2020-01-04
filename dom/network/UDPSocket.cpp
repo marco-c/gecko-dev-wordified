@@ -2776,7 +2776,7 @@ OpenSocketRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

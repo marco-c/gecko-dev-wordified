@@ -2205,7 +2205,10 @@ class
 ReleaseDispatcher
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

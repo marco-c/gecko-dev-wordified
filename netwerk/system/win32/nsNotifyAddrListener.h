@@ -223,7 +223,10 @@ class
 ChangeEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

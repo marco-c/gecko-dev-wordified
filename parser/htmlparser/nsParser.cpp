@@ -981,7 +981,7 @@ class
 nsParserContinueEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

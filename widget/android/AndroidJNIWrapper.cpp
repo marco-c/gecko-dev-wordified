@@ -174,7 +174,10 @@ class
 GetGlobalClassRefRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

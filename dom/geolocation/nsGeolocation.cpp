@@ -1098,7 +1098,7 @@ class
 RequestPromptEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1167,7 +1167,7 @@ class
 RequestAllowEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1243,7 +1243,7 @@ class
 RequestSendLocationEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

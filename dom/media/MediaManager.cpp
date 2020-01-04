@@ -2390,7 +2390,7 @@ class
 ErrorCallbackRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2661,7 +2661,7 @@ class
 GetUserMediaListenerRemove
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4199,7 +4199,7 @@ class
 GetUserMediaStreamRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -7610,7 +7610,7 @@ class
 GetUserMediaRunnableWrapper
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -16532,7 +16532,7 @@ ShutdownTask
 MediaManager
 *
 aManager
-nsRunnable
+Runnable
 *
 aReply
 )
@@ -16717,7 +16717,7 @@ mManager
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 mReply
 ;

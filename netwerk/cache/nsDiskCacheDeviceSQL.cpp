@@ -1592,7 +1592,7 @@ class
 nsOfflineCacheDiscardCache
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4629,7 +4629,7 @@ class
 nsCloseDBEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -355,7 +355,7 @@ class
 nsHTTPDownloadEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -971,7 +971,7 @@ NS_OK
 struct
 nsCancelHTTPDownloadEvent
 :
-nsRunnable
+Runnable
 {
 RefPtr
 <

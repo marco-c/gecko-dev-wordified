@@ -797,7 +797,7 @@ class
 AsyncTimeEventRunner
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

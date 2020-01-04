@@ -1020,7 +1020,7 @@ class
 nsValueChangedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1100,7 +1100,7 @@ class
 nsDragStateChangedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -165,7 +165,10 @@ class
 ProfileResetCleanupResultTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -226,7 +229,10 @@ class
 ProfileResetCleanupAsyncTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

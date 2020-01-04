@@ -770,7 +770,10 @@ class
 NotifyNetworkActivity
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

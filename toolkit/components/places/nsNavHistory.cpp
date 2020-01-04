@@ -3199,7 +3199,7 @@ class
 FrecencyNotification
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -6318,7 +6318,7 @@ CSPReportSenderRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -1612,7 +1612,10 @@ class
 FireSuccessAsyncTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 FireSuccessAsyncTask
 (
@@ -1790,7 +1793,10 @@ class
 FireErrorAsyncTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

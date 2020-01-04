@@ -224,7 +224,7 @@ class
 NotifyCacheFileListenerEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -379,7 +379,7 @@ class
 NotifyChunkListenerEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

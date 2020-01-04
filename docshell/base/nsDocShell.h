@@ -4567,7 +4567,10 @@ class
 RestorePresentationEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

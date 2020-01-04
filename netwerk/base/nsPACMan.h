@@ -377,7 +377,10 @@ PendingPACQuery
 final
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 public
 mozilla
 :
@@ -456,7 +459,7 @@ void
 ;
 /
 *
-nsRunnable
+Runnable
 *
 /
 private
