@@ -11119,16 +11119,12 @@ GetZoom
 (
 )
 ;
-CSSPoint
+ParentLayerPoint
 focusChange
 =
-(
 mLastZoomFocus
 -
 focusPoint
-)
-/
-userZoom
 ;
 /
 /
@@ -11190,6 +11186,8 @@ y
 ScrollBy
 (
 focusChange
+/
+userZoom
 )
 ;
 /
