@@ -1675,17 +1675,8 @@ CompileError
 JSErrorReport
 report
 ;
-char
-*
-message
-;
 CompileError
 (
-)
-:
-message
-(
-nullptr
 )
 {
 }

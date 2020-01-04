@@ -3620,10 +3620,6 @@ userRef
 const
 unsigned
 errorNumber
-char
-*
-*
-message
 const
 char16_t
 *
@@ -3708,15 +3704,6 @@ true
 Returns
 false
 otherwise
-printing
-just
-the
-message
-if
-the
-report
-is
-nullptr
 .
 *
 /
@@ -3760,10 +3747,6 @@ CallWarningReporter
 JSContext
 *
 cx
-const
-char
-*
-message
 JSErrorReport
 *
 report

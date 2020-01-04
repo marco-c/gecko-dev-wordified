@@ -315,10 +315,6 @@ ErrorToException
 JSContext
 *
 cx
-const
-char
-*
-message
 JSErrorReport
 *
 reportp

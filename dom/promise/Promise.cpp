@@ -5908,6 +5908,10 @@ report
 message
 (
 )
+.
+c_str
+(
+)
 isChrome
 win
 ?
