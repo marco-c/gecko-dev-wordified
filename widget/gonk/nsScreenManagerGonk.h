@@ -1238,6 +1238,9 @@ ANDROID_VERSION
 >
 =
 19
+bool
+mDisplayEnabled
+;
 RefPtr
 <
 mozilla
