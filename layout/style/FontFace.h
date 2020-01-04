@@ -502,17 +502,6 @@ FontFaceSet
 aFontFaceSet
 )
 ;
-FontFaceSet
-*
-GetFontFaceSet
-(
-)
-const
-{
-return
-mFontFaceSet
-;
-}
 /
 *
 *
