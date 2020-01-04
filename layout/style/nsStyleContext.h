@@ -3753,6 +3753,11 @@ aSID
 )
 ;
 void
+SetStyleBits
+(
+)
+;
+void
 ApplyStyleFixups
 (
 bool
