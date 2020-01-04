@@ -2725,6 +2725,11 @@ group
 "
 sidebar
 "
+hidden
+=
+"
+true
+"
 sidebarurl
 =
 "
