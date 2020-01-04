@@ -827,6 +827,12 @@ DetachDebugger
 (
 )
 ;
+bool
+IsIdle
+(
+)
+const
+;
 private
 :
 enum
