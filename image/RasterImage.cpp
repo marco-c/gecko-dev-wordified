@@ -643,9 +643,12 @@ mFramesNotified
 endif
 mSourceBuffer
 (
+WrapNotNull
+(
 new
 SourceBuffer
 (
+)
 )
 )
 mFrameCount
@@ -8234,7 +8237,10 @@ DecoderFactory
 CreateAnimationDecoder
 (
 mDecoderType
+WrapNotNull
+(
 this
+)
 mSourceBuffer
 decoderFlags
 surfaceFlags
@@ -8251,7 +8257,10 @@ DecoderFactory
 CreateDecoder
 (
 mDecoderType
+WrapNotNull
+(
 this
+)
 mSourceBuffer
 targetSize
 decoderFlags
@@ -8447,7 +8456,10 @@ DecoderFactory
 CreateMetadataDecoder
 (
 mDecoderType
+WrapNotNull
+(
 this
+)
 mSourceBuffer
 mRequestedSampleSize
 )
