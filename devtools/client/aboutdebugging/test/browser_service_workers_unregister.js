@@ -526,7 +526,9 @@ querySelector
 (
 "
 .
-serviceworker
+service
+-
+worker
 -
 scope
 "
