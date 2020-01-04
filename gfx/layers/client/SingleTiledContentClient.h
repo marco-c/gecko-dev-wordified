@@ -566,10 +566,6 @@ MOZ_COUNT_DTOR
 SingleTiledContentClient
 )
 ;
-mDestroyed
-=
-true
-;
 mTiledBuffer
 -
 >
