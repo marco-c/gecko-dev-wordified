@@ -267,6 +267,8 @@ aContentType
 nsresult
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 override
 ;

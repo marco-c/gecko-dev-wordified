@@ -5454,6 +5454,7 @@ bool
 IsEmpty
 (
 )
+const
 {
 if
 (

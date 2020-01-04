@@ -251,6 +251,7 @@ SeekJob
 Exists
 (
 )
+const
 {
 MOZ_ASSERT
 (

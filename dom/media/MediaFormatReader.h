@@ -356,6 +356,8 @@ override
 nsresult
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 override
 ;
@@ -1720,7 +1722,7 @@ mNumSamplesSkippedTotalSinceTelemetry
 /
 These
 get
-overriden
+overridden
 in
 the
 templated

@@ -1367,12 +1367,15 @@ OggReader
 :
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 {
 return
 ResetDecode
 (
 false
+aQueues
 )
 ;
 }
@@ -1384,6 +1387,8 @@ ResetDecode
 (
 bool
 start
+TargetQueues
+aQueues
 )
 {
 MOZ_ASSERT
@@ -1407,6 +1412,7 @@ MediaDecoderReader
 :
 ResetDecode
 (
+aQueues
 )
 )
 )

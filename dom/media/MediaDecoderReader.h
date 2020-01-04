@@ -401,6 +401,13 @@ WAITING_FOR_DATA
 CANCELED
 }
 ;
+enum
+TargetQueues
+{
+VIDEO_ONLY
+AUDIO_VIDEO
+}
+;
 using
 MetadataPromise
 =
@@ -839,6 +846,10 @@ virtual
 nsresult
 ResetDecode
 (
+TargetQueues
+aQueues
+=
+AUDIO_VIDEO
 )
 ;
 /

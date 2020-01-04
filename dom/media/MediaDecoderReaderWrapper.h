@@ -277,6 +277,13 @@ MediaDecoderReader
 BufferedUpdatePromise
 BufferedUpdatePromise
 ;
+typedef
+MediaDecoderReader
+:
+:
+TargetQueues
+TargetQueues
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaDecoderReaderWrapper
@@ -1463,6 +1470,8 @@ SetIdle
 void
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 ;
 nsresult
