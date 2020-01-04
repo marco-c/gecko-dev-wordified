@@ -360,7 +360,7 @@ OwnerDoc
 )
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 )
