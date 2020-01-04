@@ -2597,6 +2597,7 @@ self
 context
 basename
 crate_name
+srcdir
 rlib_filename
 link_into
 )
@@ -2616,6 +2617,12 @@ self
 crate_name
 =
 crate_name
+        
+self
+.
+srcdir
+=
+srcdir
         
 self
 .
