@@ -181,7 +181,10 @@ if
 (
 !
 (
-mFilterFunc
+filters
+:
+:
+GetEmbeddedObject
 (
 child
 )
@@ -269,7 +272,10 @@ if
 (
 !
 (
-mFilterFunc
+filters
+:
+:
+GetEmbeddedObject
 (
 child
 )
@@ -367,7 +373,10 @@ mInt
 mIndexOfEmbeddedChild
 ;
 return
-mFilterFunc
+filters
+:
+:
+GetEmbeddedObject
 (
 aAccessible
 )
