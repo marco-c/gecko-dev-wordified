@@ -5102,13 +5102,11 @@ CompositorOGL
 *
 compOGL
 =
-static_cast
-<
-CompositorOGL
-*
->
-(
 comp
+-
+>
+AsCompositorOGL
+(
 )
 ;
 EffectChain
