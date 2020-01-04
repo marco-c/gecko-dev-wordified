@@ -260,6 +260,13 @@ h
 #
 include
 "
+nsIDOMWindowUtils
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h
@@ -3697,6 +3704,10 @@ aPoint
 .
 y
 aButton
+nsIDOMWindowUtils
+:
+:
+MOUSE_BUTTONS_NOT_SPECIFIED
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame

@@ -3211,6 +3211,8 @@ bool
 aIsDOMEventSynthesized
 bool
 aIsWidgetEventSynthesized
+int32_t
+aButtons
 uint8_t
 aOptionalArgCount
 bool
@@ -3248,6 +3250,14 @@ aOptionalArgCount
 aIsWidgetEventSynthesized
 :
 false
+aOptionalArgCount
+>
+=
+6
+?
+aButtons
+:
+MOUSE_BUTTONS_NOT_SPECIFIED
 )
 ;
 }
@@ -3282,6 +3292,8 @@ bool
 aIsDOMEventSynthesized
 bool
 aIsWidgetEventSynthesized
+int32_t
+aButtons
 uint8_t
 aOptionalArgCount
 )
@@ -3336,6 +3348,14 @@ aOptionalArgCount
 aIsWidgetEventSynthesized
 :
 false
+aOptionalArgCount
+>
+=
+6
+?
+aButtons
+:
+MOUSE_BUTTONS_NOT_SPECIFIED
 )
 ;
 }
@@ -3375,6 +3395,8 @@ bool
 aIsDOMEventSynthesized
 bool
 aIsWidgetEventSynthesized
+int32_t
+aButtons
 )
 {
 nsCOMPtr
@@ -3398,6 +3420,7 @@ aType
 aX
 aY
 aButton
+aButtons
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
