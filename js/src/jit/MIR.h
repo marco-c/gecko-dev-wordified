@@ -7663,6 +7663,7 @@ operands_
 ;
 protected
 :
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -12163,6 +12164,7 @@ type
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -15514,6 +15516,7 @@ length
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addSuccessor
 (
@@ -15727,6 +15730,7 @@ low
 1
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addDefault
 (
@@ -15767,6 +15771,7 @@ block
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addCase
 (
@@ -15808,6 +15813,7 @@ i
 ]
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addBlock
 (
@@ -20377,6 +20383,7 @@ MDefinition
 arr
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -65456,6 +65463,7 @@ inherit
 (
 )
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (

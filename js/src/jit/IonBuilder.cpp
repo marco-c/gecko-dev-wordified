@@ -39447,6 +39447,9 @@ current
 stack
 state
 .
+if
+(
+!
 returnBlock
 -
 >
@@ -39456,6 +39459,9 @@ alloc
 (
 )
 )
+)
+return
+false
 ;
 /
 /

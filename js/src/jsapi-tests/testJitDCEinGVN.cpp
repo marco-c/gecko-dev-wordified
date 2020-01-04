@@ -850,6 +850,8 @@ joinBlock
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 joinBlock
 -
 >
@@ -859,6 +861,7 @@ func
 .
 alloc
 thenBlock1
+)
 )
 ;
 /
@@ -1011,6 +1014,8 @@ joinBlock
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 joinBlock
 -
 >
@@ -1020,6 +1025,7 @@ func
 .
 alloc
 thenBlock2
+)
 )
 ;
 /
@@ -1106,6 +1112,8 @@ joinBlock
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 joinBlock
 -
 >
@@ -1115,6 +1123,7 @@ func
 .
 alloc
 elseBlock
+)
 )
 ;
 /
