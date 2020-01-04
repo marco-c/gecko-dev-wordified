@@ -4748,17 +4748,12 @@ IsOpusEnabled
 (
 )
 ;
-#
-ifdef
-MOZ_WAVE
 static
 bool
 IsWaveEnabled
 (
 )
 ;
-#
-endif
 static
 bool
 IsWebMEnabled

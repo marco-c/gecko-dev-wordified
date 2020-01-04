@@ -367,7 +367,7 @@ amount
 of
 instability
 we
-tolerate
+tollerate
 in
 calls
 to
@@ -8281,9 +8281,6 @@ enabled
 )
 ;
 }
-#
-ifdef
-MOZ_WAVE
 bool
 MediaDecoder
 :
@@ -8308,8 +8305,6 @@ enabled
 )
 ;
 }
-#
-endif
 bool
 MediaDecoder
 :
