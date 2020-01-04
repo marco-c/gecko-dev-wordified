@@ -963,6 +963,7 @@ readCallArg
 argType
 numArgs
 i
+nullptr
 )
 )
 return
@@ -1220,6 +1221,7 @@ iter
 .
 readCallIndirectCallee
 (
+nullptr
 )
 )
 return
@@ -1366,6 +1368,8 @@ readBrTable
 tableLength
 &
 type
+nullptr
+nullptr
 )
 )
 return
@@ -1538,6 +1542,7 @@ iter
 .
 readI32Const
 (
+nullptr
 )
 ;
 case
@@ -1562,6 +1567,7 @@ iter
 .
 readI64Const
 (
+nullptr
 )
 ;
 case
@@ -1579,6 +1585,7 @@ iter
 .
 readF32Const
 (
+nullptr
 )
 ;
 case
@@ -1596,6 +1603,7 @@ iter
 .
 readF64Const
 (
+nullptr
 )
 ;
 case
@@ -1618,6 +1626,7 @@ f
 locals
 (
 )
+nullptr
 )
 ;
 case
@@ -1640,6 +1649,8 @@ f
 locals
 (
 )
+nullptr
+nullptr
 )
 ;
 case
@@ -1657,6 +1668,10 @@ iter
 .
 readSelect
 (
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 case
@@ -1708,6 +1723,7 @@ iter
 .
 readIf
 (
+nullptr
 )
 ;
 case
@@ -1725,6 +1741,8 @@ iter
 .
 readElse
 (
+nullptr
+nullptr
 )
 ;
 case
@@ -1742,6 +1760,9 @@ iter
 .
 readEnd
 (
+nullptr
+nullptr
+nullptr
 )
 ;
 case
@@ -1775,6 +1796,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -1822,6 +1844,7 @@ ValType
 :
 :
 I64
+nullptr
 )
 ;
 case
@@ -1867,6 +1890,7 @@ ValType
 :
 :
 F32
+nullptr
 )
 ;
 case
@@ -1952,6 +1976,7 @@ ValType
 :
 :
 F64
+nullptr
 )
 ;
 case
@@ -2097,6 +2122,8 @@ ValType
 :
 :
 I32
+nullptr
+nullptr
 )
 ;
 case
@@ -2209,6 +2236,8 @@ ValType
 :
 :
 I64
+nullptr
+nullptr
 )
 ;
 case
@@ -2260,6 +2289,8 @@ ValType
 :
 :
 F32
+nullptr
+nullptr
 )
 ;
 case
@@ -2331,6 +2362,8 @@ ValType
 :
 :
 F64
+nullptr
+nullptr
 )
 ;
 case
@@ -2426,6 +2459,8 @@ ValType
 :
 :
 I32
+nullptr
+nullptr
 )
 ;
 case
@@ -2508,6 +2543,8 @@ ValType
 :
 :
 I64
+nullptr
+nullptr
 )
 ;
 case
@@ -2559,6 +2596,8 @@ ValType
 :
 :
 F32
+nullptr
+nullptr
 )
 ;
 case
@@ -2610,6 +2649,8 @@ ValType
 :
 :
 F64
+nullptr
+nullptr
 )
 ;
 case
@@ -2635,6 +2676,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -2667,6 +2709,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -2699,6 +2742,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -2736,6 +2780,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -2767,6 +2812,7 @@ ValType
 :
 :
 I32
+nullptr
 )
 ;
 case
@@ -2805,6 +2851,7 @@ ValType
 :
 :
 I64
+nullptr
 )
 ;
 case
@@ -2843,6 +2890,7 @@ ValType
 :
 :
 I64
+nullptr
 )
 ;
 case
@@ -2887,6 +2935,7 @@ ValType
 :
 :
 I64
+nullptr
 )
 ;
 case
@@ -2924,6 +2973,7 @@ ValType
 :
 :
 F32
+nullptr
 )
 ;
 case
@@ -2962,6 +3012,7 @@ ValType
 :
 :
 F32
+nullptr
 )
 ;
 case
@@ -2987,6 +3038,7 @@ ValType
 :
 :
 F32
+nullptr
 )
 ;
 case
@@ -3018,6 +3070,7 @@ ValType
 :
 :
 F64
+nullptr
 )
 ;
 case
@@ -3062,6 +3115,7 @@ ValType
 :
 :
 F64
+nullptr
 )
 ;
 case
@@ -3087,6 +3141,7 @@ ValType
 :
 :
 F64
+nullptr
 )
 ;
 case
@@ -3115,6 +3170,7 @@ ValType
 :
 I32
 1
+nullptr
 )
 ;
 case
@@ -3143,6 +3199,7 @@ ValType
 :
 I32
 2
+nullptr
 )
 ;
 case
@@ -3165,6 +3222,7 @@ ValType
 :
 I32
 4
+nullptr
 )
 ;
 case
@@ -3207,6 +3265,7 @@ ValType
 :
 I64
 1
+nullptr
 )
 ;
 case
@@ -3249,6 +3308,7 @@ ValType
 :
 I64
 2
+nullptr
 )
 ;
 case
@@ -3291,6 +3351,7 @@ ValType
 :
 I64
 4
+nullptr
 )
 ;
 case
@@ -3333,6 +3394,7 @@ ValType
 :
 F32
 4
+nullptr
 )
 ;
 case
@@ -3355,6 +3417,7 @@ ValType
 :
 F64
 8
+nullptr
 )
 ;
 case
@@ -3377,6 +3440,8 @@ ValType
 :
 I32
 1
+nullptr
+nullptr
 )
 ;
 case
@@ -3399,6 +3464,8 @@ ValType
 :
 I32
 2
+nullptr
+nullptr
 )
 ;
 case
@@ -3421,6 +3488,8 @@ ValType
 :
 I32
 4
+nullptr
+nullptr
 )
 ;
 case
@@ -3457,6 +3526,8 @@ ValType
 :
 I64
 1
+nullptr
+nullptr
 )
 ;
 case
@@ -3493,6 +3564,8 @@ ValType
 :
 I64
 2
+nullptr
+nullptr
 )
 ;
 case
@@ -3529,6 +3602,8 @@ ValType
 :
 I64
 4
+nullptr
+nullptr
 )
 ;
 case
@@ -3571,6 +3646,8 @@ ValType
 :
 F32
 4
+nullptr
+nullptr
 )
 ;
 case
@@ -3593,6 +3670,8 @@ ValType
 :
 F64
 8
+nullptr
+nullptr
 )
 ;
 case
@@ -3610,6 +3689,9 @@ iter
 .
 readBr
 (
+nullptr
+nullptr
+nullptr
 )
 ;
 case
@@ -3627,6 +3709,10 @@ iter
 .
 readBrIf
 (
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 case
@@ -3656,6 +3742,7 @@ iter
 .
 readReturn
 (
+nullptr
 )
 ;
 case
@@ -6684,6 +6771,7 @@ sig
 ret
 (
 )
+nullptr
 )
 )
 return
