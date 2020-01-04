@@ -392,6 +392,16 @@ ErrorResult
 aRv
 )
 ;
+bool
+Ended
+(
+)
+const
+{
+return
+mEnded
+;
+}
 /
 /
 Notifications
