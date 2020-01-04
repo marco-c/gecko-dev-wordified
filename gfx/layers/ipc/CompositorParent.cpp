@@ -4816,6 +4816,16 @@ RecvForcePresent
 (
 )
 {
+/
+/
+During
+the
+shutdown
+sequence
+mLayerManager
+may
+be
+null
 if
 (
 mLayerManager
