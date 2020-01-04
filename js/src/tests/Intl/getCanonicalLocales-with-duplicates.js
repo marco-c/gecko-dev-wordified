@@ -86,7 +86,7 @@ duplicate
 locales
 scenario
 .
-assertShallowArray
+assertEqArray
 (
 Intl
 .
@@ -151,7 +151,7 @@ US
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 locales
 [

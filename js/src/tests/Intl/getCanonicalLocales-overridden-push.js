@@ -130,7 +130,7 @@ US
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 arr
 [
