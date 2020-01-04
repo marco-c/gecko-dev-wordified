@@ -564,13 +564,13 @@ bool
 aRecursiveFlag
 )
 :
+GetFilesHelperBase
+(
+aRecursiveFlag
+)
 mGlobal
 (
 aGlobal
-)
-mRecursiveFlag
-(
-aRecursiveFlag
 )
 mListingCompleted
 (
@@ -1374,7 +1374,7 @@ return
 }
 }
 nsresult
-GetFilesHelper
+GetFilesHelperBase
 :
 :
 ExploreDirectory
