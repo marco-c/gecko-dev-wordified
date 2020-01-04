@@ -5542,6 +5542,8 @@ nsIScriptError
 errorFlag
 )
 ;
+continue
+;
 }
 /
 /
