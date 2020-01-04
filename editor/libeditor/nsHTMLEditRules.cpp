@@ -46918,7 +46918,7 @@ aNode
 ;
 offset
 =
-0
+aOffset
 ;
 newSelNode
 =
@@ -47019,6 +47019,8 @@ parent
 ;
 selOffset
 =
+offset
++
 1
 ;
 }
