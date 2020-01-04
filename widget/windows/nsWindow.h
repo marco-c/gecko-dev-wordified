@@ -3025,7 +3025,10 @@ applied
 to
 default
 frames
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 mNonClientOffset
 ;
 /
