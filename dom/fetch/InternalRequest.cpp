@@ -344,6 +344,13 @@ client
 copy
 -
 >
+mReferrerPolicy
+=
+mReferrerPolicy
+;
+copy
+-
+>
 mContentPolicyType
 =
 nsIContentPolicy
@@ -551,6 +558,12 @@ mReferrer
 aOther
 .
 mReferrer
+)
+mReferrerPolicy
+(
+aOther
+.
+mReferrerPolicy
 )
 mMode
 (

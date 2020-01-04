@@ -1209,6 +1209,13 @@ SetFetchReferrerURIWithPolicy
 principal
 parentDoc
 httpChannel
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 )
 ;
 if

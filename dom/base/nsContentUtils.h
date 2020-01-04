@@ -15987,6 +15987,14 @@ aDoc
 nsIHttpChannel
 *
 aChannel
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 )
 ;
 static

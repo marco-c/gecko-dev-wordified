@@ -13908,6 +13908,13 @@ SetFetchReferrerURIWithPolicy
 mPrincipal
 doc
 httpChannel
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 )
 ;
 }
