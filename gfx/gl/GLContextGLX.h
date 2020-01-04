@@ -183,13 +183,6 @@ gfxXlibSurface
 pixmap
 =
 nullptr
-ContextProfile
-profile
-=
-ContextProfile
-:
-:
-OpenGLCompatibility
 )
 ;
 ~
@@ -384,8 +377,6 @@ aDoubleBuffered
 gfxXlibSurface
 *
 aPixmap
-ContextProfile
-profile
 )
 ;
 GLXContext
