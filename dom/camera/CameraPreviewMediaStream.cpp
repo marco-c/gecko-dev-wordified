@@ -107,6 +107,13 @@ CameraCommon
 .
 h
 "
+#
+include
+"
+MediaStreamListener
+.
+h
+"
 /
 *
 *
@@ -469,7 +476,7 @@ listener
 NotifyEvent
 (
 mFakeMediaStreamGraph
-MediaStreamListener
+MediaStreamGraphEvent
 :
 :
 EVENT_REMOVED
@@ -547,7 +554,7 @@ NotifyQueuedTrackChanges
 mFakeMediaStreamGraph
 TRACK_VIDEO
 0
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_CREATED

@@ -554,9 +554,6 @@ NotifyEvent
 MediaStreamGraph
 *
 aGraph
-MediaStreamListener
-:
-:
 MediaStreamGraphEvent
 event
 )

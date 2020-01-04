@@ -149,6 +149,9 @@ h
 namespace
 mozilla
 {
+class
+SharedBuffer
+;
 namespace
 dom
 {

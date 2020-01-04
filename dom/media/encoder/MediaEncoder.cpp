@@ -397,7 +397,7 @@ TrackID
 aID
 StreamTime
 aTrackOffset
-uint32_t
+TrackEventCommand
 aTrackEvents
 const
 MediaSegment
@@ -433,7 +433,10 @@ if
 aTrackEvents
 !
 =
-0
+TrackEventCommand
+:
+:
+TRACK_EVENT_NONE
 )
 {
 /
@@ -687,9 +690,6 @@ NotifyEvent
 MediaStreamGraph
 *
 aGraph
-MediaStreamListener
-:
-:
 MediaStreamGraphEvent
 event
 )

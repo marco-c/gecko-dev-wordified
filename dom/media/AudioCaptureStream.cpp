@@ -103,6 +103,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MathAlgorithms
@@ -483,7 +490,7 @@ Graph
 )
 mTrackId
 0
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_CREATED

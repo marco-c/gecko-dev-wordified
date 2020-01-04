@@ -110,6 +110,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 AudioNodeEngine
 .
 h
@@ -3689,7 +3696,10 @@ segment
 GetDuration
 (
 )
-0
+TrackEventCommand
+:
+:
+TRACK_EVENT_NONE
 tmpSegment
 )
 ;
@@ -3774,7 +3784,7 @@ GetSegment
 GetDuration
 (
 )
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_ENDED

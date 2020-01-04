@@ -821,7 +821,16 @@ rtfm
 com
 )
 fix
+static_cast
+<
+mozilla
+:
+:
+TrackEventCommand
+>
+(
 0
+)
 /
 /
 ?
