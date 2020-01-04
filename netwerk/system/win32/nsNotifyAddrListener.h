@@ -424,6 +424,16 @@ mAllowChangedEvent
 ;
 /
 /
+Check
+for
+IPv6
+network
+changes
+bool
+mIPv6Changes
+;
+/
+/
 Flag
 set
 while
