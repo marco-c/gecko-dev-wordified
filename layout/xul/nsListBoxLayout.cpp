@@ -1438,7 +1438,7 @@ redrawStart
 aBox
 -
 >
-Redraw
+XULRedraw
 (
 aState
 )

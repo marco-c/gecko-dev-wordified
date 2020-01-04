@@ -4027,7 +4027,7 @@ PresContext
 this
 -
 >
-Redraw
+XULRedraw
 (
 state
 )

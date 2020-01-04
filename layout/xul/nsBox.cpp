@@ -2587,7 +2587,7 @@ GetStateBits
 &
 NS_FRAME_IS_DIRTY
 )
-Redraw
+XULRedraw
 (
 aState
 )
@@ -2843,7 +2843,7 @@ nsresult
 nsIFrame
 :
 :
-Redraw
+XULRedraw
 (
 nsBoxLayoutState
 &

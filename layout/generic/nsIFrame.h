@@ -21550,7 +21550,7 @@ NS_STATE_IS_DIRECTION_NORMAL
 ;
 }
 nsresult
-Redraw
+XULRedraw
 (
 nsBoxLayoutState
 &
