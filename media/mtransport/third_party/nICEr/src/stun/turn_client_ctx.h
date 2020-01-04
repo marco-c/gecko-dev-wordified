@@ -597,6 +597,14 @@ ctx
 )
 ;
 int
+nr_turn_client_failed
+(
+nr_turn_client_ctx
+*
+ctx
+)
+;
+int
 nr_turn_client_deallocate
 (
 nr_turn_client_ctx

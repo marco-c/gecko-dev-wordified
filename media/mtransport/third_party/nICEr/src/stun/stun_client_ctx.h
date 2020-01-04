@@ -901,5 +901,13 @@ nr_stun_client_ctx
 ctx
 )
 ;
+int
+nr_stun_client_failed
+(
+nr_stun_client_ctx
+*
+ctx
+)
+;
 #
 endif
