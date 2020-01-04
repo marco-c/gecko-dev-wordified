@@ -179,9 +179,6 @@ nsAutoPtr
 .
 h
 "
-class
-nsIThread
-;
 namespace
 mozilla
 {
@@ -1821,11 +1818,6 @@ Type
 type
 =
 TYPE_DEFAULT
-nsIThread
-*
-aThread
-=
-nullptr
 )
 ;
 ~

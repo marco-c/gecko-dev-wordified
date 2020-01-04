@@ -738,9 +738,6 @@ MessageLoop
 (
 Type
 type
-nsIThread
-*
-aThread
 )
 :
 type_
@@ -831,12 +828,6 @@ type_
 case
 TYPE_MOZILLA_PARENT
 :
-MOZ_RELEASE_ASSERT
-(
-!
-aThread
-)
-;
 pump_
 =
 new
@@ -848,7 +839,6 @@ ipc
 :
 MessagePump
 (
-aThread
 )
 ;
 return
@@ -856,12 +846,6 @@ return
 case
 TYPE_MOZILLA_CHILD
 :
-MOZ_RELEASE_ASSERT
-(
-!
-aThread
-)
-;
 pump_
 =
 new
@@ -946,7 +930,6 @@ ipc
 :
 MessagePumpForNonMainThreads
 (
-aThread
 )
 ;
 return
@@ -971,7 +954,6 @@ ipc
 :
 MessagePumpForNonMainUIThreads
 (
-aThread
 )
 ;
 return
