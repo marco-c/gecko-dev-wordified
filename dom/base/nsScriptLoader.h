@@ -720,12 +720,7 @@ void
 Cancel
 (
 )
-{
-mIsCanceled
-=
-true
 ;
-}
 bool
 IsCanceled
 (
@@ -826,6 +821,11 @@ mWasCompiledOMT
 )
 ;
 }
+void
+MaybeCancelOffThreadScript
+(
+)
+;
 using
 super
 :
