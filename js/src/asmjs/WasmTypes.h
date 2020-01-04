@@ -3636,7 +3636,6 @@ Runtime
 RuntimeInterruptUint32
 StackLimit
 ReportOverRecursed
-OnDetached
 OnOutOfBounds
 OnImpreciseConversion
 HandleExecutionInterrupt
