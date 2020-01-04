@@ -6697,6 +6697,13 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
++
+pcLocationMap
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
 ;
 }
 bool
