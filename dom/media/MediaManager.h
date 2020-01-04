@@ -1402,8 +1402,6 @@ MediaSourceEnum
 aAudioType
 bool
 aFake
-bool
-aFakeTracks
 )
 ;
 already_AddRefed
@@ -1426,10 +1424,6 @@ MediaSourceEnum
 aAudioSrcType
 bool
 aFake
-=
-false
-bool
-aFakeTracks
 =
 false
 )
