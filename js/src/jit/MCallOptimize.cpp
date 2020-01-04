@@ -16272,7 +16272,7 @@ store
 MStoreFixedSlot
 :
 :
-New
+NewBarriered
 (
 alloc
 (
