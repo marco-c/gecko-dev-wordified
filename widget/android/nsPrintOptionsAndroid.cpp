@@ -174,11 +174,11 @@ nsPrintOptionsAndroid
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsPrintOptionsAndroid
 :
 :
-CreatePrintSettings
+_CreatePrintSettings
 (
 nsIPrintSettings
 *
