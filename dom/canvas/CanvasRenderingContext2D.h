@@ -3763,6 +3763,11 @@ RenderingMode
 DefaultBackendMode
 )
 ;
+void
+RestoreClipsAndTransformToTarget
+(
+)
+;
 /
 *
 *
