@@ -102,6 +102,8 @@ util
 import
 (
     
+expand_variables
+    
 List
     
 memoize
@@ -1896,52 +1898,33 @@ actual
 value
 .
                         
-if
-f
-.
-startswith
-(
-'
-(
-'
-)
-and
-f
-.
-endswith
-(
-'
-)
-'
-)
-:
-                            
 f
 =
-config
-.
-substs
-.
-get
+expand_variables
 (
 f
-[
-2
-:
--
-1
-]
-)
-                        
-#
 config
 .
 substs
+)
+                        
+if
+not
+f
+:
+                            
+continue
+                        
+#
+the
+result
 may
-contain
-strings
+be
+a
+string
 or
-lists
+a
+list
 .
                         
 if
@@ -1964,8 +1947,7 @@ append
 f
 )
                         
-elif
-f
+else
 :
                             
 context
