@@ -574,7 +574,7 @@ LibAV
 produces
 rubbish
 float
-interlaved
+interleaved
 samples
 request
 16
@@ -590,12 +590,6 @@ major
 =
 =
 53
-&
-&
-minor
-<
-=
-34
 ?
 AV_SAMPLE_FMT_S16
 :
