@@ -1178,8 +1178,9 @@ AsyncPanZoomController
 >
 &
 aTarget
-uint64_t
-aInputBlockId
+CancelableBlockState
+*
+aBlock
 )
 ;
 void
