@@ -5472,6 +5472,10 @@ test_name
 None
             
 except
+(
+MarionetteException
+IOError
+)
 :
                 
 #
