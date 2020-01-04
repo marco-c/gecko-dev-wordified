@@ -12,15 +12,6 @@ also
 wasm
 -
 baseline
-/
-/
-TODO
-start
-opcode
-quit
-(
-)
-;
 var
 importedArgs
 =
