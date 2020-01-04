@@ -918,14 +918,6 @@ BASE
 +
 "
 /
-dummy_page
-.
-html
-"
-BASE
-+
-"
-/
 xhr_resource
 "
 ]
