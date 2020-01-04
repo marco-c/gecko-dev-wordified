@@ -408,7 +408,7 @@ callback
 "
 columnNumber
 :
-1
+3
 filename
 :
 TEST_URI
