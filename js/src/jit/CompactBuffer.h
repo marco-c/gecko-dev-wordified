@@ -1080,8 +1080,12 @@ at
 -
 byte
 boundary
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+oom
+(
+)
 length
 (
 )
