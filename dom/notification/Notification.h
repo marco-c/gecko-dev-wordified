@@ -1623,6 +1623,15 @@ nsIPrincipal
 aPrincipal
 )
 ;
+static
+nsresult
+OpenSettings
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 protected
 :
 Notification
