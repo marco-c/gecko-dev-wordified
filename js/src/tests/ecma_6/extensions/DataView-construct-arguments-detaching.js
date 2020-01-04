@@ -55,7 +55,7 @@ construct
 -
 arguments
 -
-neutering
+detaching
 .
 js
 "
