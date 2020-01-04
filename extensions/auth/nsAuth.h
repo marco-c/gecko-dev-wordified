@@ -125,10 +125,8 @@ log
 /
 /
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gNegotiateLog
 ;
 #

@@ -198,14 +198,10 @@ fmt
 private
 :
 static
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gChromiumPRLog
 ;
-/
-/
 static
 PRLogModuleInfo
 *

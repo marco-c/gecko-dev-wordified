@@ -182,10 +182,8 @@ mozilla
 namespace
 hal
 {
-mozilla
-:
-:
-LogModule
+extern
+PRLogModuleInfo
 *
 GetHalLog
 (
