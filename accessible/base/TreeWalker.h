@@ -227,6 +227,7 @@ children
 .
 *
 /
+explicit
 TreeWalker
 (
 Accessible
@@ -270,7 +271,7 @@ accessible
 context
 *
 param
-aNode
+aAnchorNode
 [
 in
 ]
