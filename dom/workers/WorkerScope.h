@@ -582,11 +582,7 @@ SetInterval
 (
 JSContext
 *
-/
-*
-unused
-*
-/
+aCx
 const
 nsAString
 &
