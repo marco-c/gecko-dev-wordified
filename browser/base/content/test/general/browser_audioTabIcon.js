@@ -757,7 +757,7 @@ mutedPromise
 ;
 }
 function
-get_tab_attributes
+get_tab_state
 (
 tab
 )
@@ -787,11 +787,7 @@ Ci
 nsISessionStore
 )
 ;
-let
-{
-attributes
-}
-=
+return
 JSON
 .
 parse
@@ -803,9 +799,6 @@ getTabState
 tab
 )
 )
-;
-return
-attributes
 ;
 }
 function
@@ -1197,7 +1190,7 @@ ok
 muted
 "
 in
-get_tab_attributes
+get_tab_state
 (
 tab
 )
@@ -1226,7 +1219,7 @@ ok
 muted
 "
 in
-get_tab_attributes
+get_tab_state
 (
 tab
 )
@@ -1266,7 +1259,7 @@ ok
 muted
 "
 in
-get_tab_attributes
+get_tab_state
 (
 tab
 )
