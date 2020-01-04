@@ -563,7 +563,7 @@ ui
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 Override
@@ -599,7 +599,7 @@ any
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 /
@@ -627,7 +627,7 @@ any
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 /
@@ -750,7 +750,7 @@ ui
 dispatchTo
 =
 "
-proxy
+current
 "
 )
 /

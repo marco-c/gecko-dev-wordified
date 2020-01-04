@@ -34340,7 +34340,7 @@ jni
 DispatchTarget
 :
 :
-PROXY
+GECKO
 ;
 }
 ;
@@ -34730,7 +34730,7 @@ jni
 DispatchTarget
 :
 :
-PROXY
+GECKO
 ;
 }
 ;
@@ -35028,7 +35028,7 @@ jni
 DispatchTarget
 :
 :
-PROXY
+GECKO
 ;
 }
 ;
@@ -35544,7 +35544,7 @@ jni
 DispatchTarget
 :
 :
-PROXY
+CURRENT
 ;
 }
 ;
