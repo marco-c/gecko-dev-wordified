@@ -579,7 +579,9 @@ n
 -
 enable
 -
-advanced
+imports
+-
+in
 -
 template
 \
@@ -587,7 +589,8 @@ n
 '
             
 '
-Advanced
+Imports
+in
 template
 \
 n
@@ -609,8 +612,8 @@ n
 -
 with
 -
-advanced
-Advanced
+imports
+Imports
 \
 n
 '
@@ -2050,7 +2053,7 @@ config
 )
     
 def
-test_advanced
+test_imports
 (
 self
 )
@@ -2068,7 +2071,7 @@ get_config
 -
 with
 -
-advanced
+imports
 '
 ]
 )
@@ -2078,7 +2081,7 @@ self
 assertIn
 (
 '
-ADVANCED
+IMPORTS
 '
 config
 )
@@ -2090,7 +2093,7 @@ assertEquals
 config
 [
 '
-ADVANCED
+IMPORTS
 '
 ]
 True
@@ -2115,7 +2118,7 @@ get_config
 -
 with
 -
-advanced
+imports
 =
 break
 '
@@ -2745,7 +2748,7 @@ get_config
 -
 with
 -
-advanced
+imports
 =
 %
 s
@@ -2790,7 +2793,7 @@ get_config
 -
 with
 -
-advanced
+imports
 =
 %
 s
@@ -2946,7 +2949,7 @@ TEMPLATE_VALUE_2
 )
     
 def
-test_template_advanced
+test_template_imports
 (
 self
 )
@@ -2964,7 +2967,9 @@ get_config
 -
 enable
 -
-advanced
+imports
+-
+in
 -
 template
 '
