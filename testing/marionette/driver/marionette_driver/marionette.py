@@ -5363,6 +5363,11 @@ runner
 .
 wait
 (
+timeout
+=
+self
+.
+DEFAULT_STARTUP_TIMEOUT
 )
                 
 raise
@@ -5374,7 +5379,7 @@ died
 with
 returncode
 %
-d
+s
 "
 %
 returncode
