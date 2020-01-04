@@ -202,6 +202,22 @@ return
 00
 '
     
+elif
+version
+=
+=
+'
+2015
+'
+:
+        
+return
+'
+14
+.
+00
+'
+    
 else
 :
         
@@ -238,6 +254,20 @@ version
 return
 '
 v120
+'
+    
+elif
+version
+=
+=
+'
+2015
+'
+:
+        
+return
+'
+v140
 '
     
 else
