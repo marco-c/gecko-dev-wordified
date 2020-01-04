@@ -196,6 +196,13 @@ nsIIPCSerializableURI
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 /
 *
 *
@@ -246,6 +253,8 @@ public
 nsIURIWithPrincipal
 public
 nsIURIWithBlobImpl
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -413,6 +422,11 @@ return
 url
 ;
 }
+void
+ForgetBlobImpl
+(
+)
+;
 nsCOMPtr
 <
 nsIPrincipal
