@@ -203,6 +203,7 @@ nsIInputStream
 *
 aStream
 )
+override
 ;
 static
 AndroidCaptureProvider
@@ -264,6 +265,7 @@ frame
 uint32_t
 length
 )
+override
 ;
 protected
 :
