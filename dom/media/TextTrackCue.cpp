@@ -270,7 +270,7 @@ mAlign
 AlignSetting
 :
 :
-Center
+Middle
 ;
 mLineAlign
 =
