@@ -1197,6 +1197,13 @@ update
 "
 )
 ;
+if
+(
+inspector
+.
+_updateProgress
+)
+{
 yield
 inspector
 .
@@ -1209,6 +1216,7 @@ updated
 "
 )
 ;
+}
 yield
 registerTestActor
 (
