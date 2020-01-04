@@ -5467,6 +5467,14 @@ no
 )
 )
 ;
+tuV4
+-
+>
+SetFullUpdate
+(
+isFullUpdate
+)
+;
 ProcessAdditionOrRemoval
 (
 *
