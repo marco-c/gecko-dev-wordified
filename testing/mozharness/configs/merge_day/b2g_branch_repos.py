@@ -155,6 +155,26 @@ android
 -
 development
 "
+        
+"
+device
+-
+hammerhead
+"
+        
+"
+device_lge_hammerhead
+-
+kernel
+"
+        
+"
+platform_bionic
+"
+        
+"
+platform_build
+"
     
 ]
     
