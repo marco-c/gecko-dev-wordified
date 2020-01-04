@@ -4915,6 +4915,12 @@ GetCurrentThreadJSContext
 (
 )
 ;
+JSObject
+*
+GetCurrentThreadWorkerGlobal
+(
+)
+;
 class
 AutoSyncLoopHolder
 {
