@@ -120,9 +120,6 @@ typically
 bicubic
 or
 better
-kLast_SkFilterQuality
-=
-kHigh_SkFilterQuality
 }
 ;
 #

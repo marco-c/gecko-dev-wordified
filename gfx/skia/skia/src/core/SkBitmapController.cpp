@@ -436,16 +436,12 @@ SkMatrix
 &
 inv
 SkFilterQuality
-SkSourceGammaTreatment
 )
 ;
 private
 :
 SkBitmap
 fResultBitmap
-;
-SkSourceGammaTreatment
-fSrcGammaTreatment
 ;
 SkAutoTUnref
 <
@@ -1274,7 +1270,6 @@ provider
 makeCacheDesc
 (
 )
-fSrcGammaTreatment
 )
 )
 ;
@@ -1319,7 +1314,6 @@ SkMipMapCache
 AddAndRef
 (
 orig
-fSrcGammaTreatment
 )
 )
 ;
@@ -1519,8 +1513,6 @@ SkMatrix
 inv
 SkFilterQuality
 qual
-SkSourceGammaTreatment
-treatment
 )
 {
 fInvMatrix
@@ -1530,10 +1522,6 @@ inv
 fQuality
 =
 qual
-;
-fSrcGammaTreatment
-=
-treatment
 ;
 if
 (
@@ -1699,7 +1687,6 @@ size
 bm
 inverse
 quality
-fSrcGammaTreatment
 )
 ;
 }

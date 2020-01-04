@@ -60,9 +60,6 @@ SkPathOpsQuad
 .
 h
 "
-struct
-SkConic
-;
 union
 SkReduceOrder
 {
@@ -109,9 +106,13 @@ Verb
 Conic
 (
 const
-SkConic
-&
-conic
+SkPoint
+pts
+[
+3
+]
+SkScalar
+weight
 SkPoint
 *
 reducePts

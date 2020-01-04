@@ -437,10 +437,7 @@ return
 false
 ;
 }
-sk_sp
-<
-SkData
->
+SkAutoDataUnref
 data
 (
 bitmap
@@ -496,10 +493,6 @@ encodePKM
 (
 stream
 data
-.
-get
-(
-)
 )
 ;
 }
@@ -520,12 +513,6 @@ SkKTXFile
 is_ktx
 (
 bytes
-data
--
->
-size
-(
-)
 )
 )
 {

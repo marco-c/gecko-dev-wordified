@@ -279,7 +279,7 @@ onEndPage
 ;
 }
 }
-void
+bool
 SkDocument
 :
 :
@@ -306,6 +306,9 @@ fState
 =
 kClosed_State
 ;
+bool
+success
+=
 this
 -
 >
@@ -356,6 +359,7 @@ fStream
 nullptr
 ;
 return
+success
 ;
 }
 case
@@ -374,6 +378,7 @@ case
 kClosed_State
 :
 return
+false
 ;
 }
 }

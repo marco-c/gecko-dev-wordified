@@ -711,7 +711,7 @@ id
 static
 inline
 bool
-is_length_nearly_zero
+isLengthNearlyZero
 (
 float
 dx
@@ -775,7 +775,7 @@ mag2
 ;
 if
 (
-is_length_nearly_zero
+isLengthNearlyZero
 (
 x
 y
@@ -1149,7 +1149,7 @@ mag2
 ;
 if
 (
-is_length_nearly_zero
+isLengthNearlyZero
 (
 x
 y
@@ -1410,7 +1410,7 @@ mag2
 ;
 if
 (
-is_length_nearly_zero
+isLengthNearlyZero
 (
 x
 y

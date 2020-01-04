@@ -316,11 +316,6 @@ void
 *
 GrGLeglImage
 ;
-typedef
-void
-*
-GrGLsync
-;
 struct
 GrGLDrawArraysIndirectCommand
 {

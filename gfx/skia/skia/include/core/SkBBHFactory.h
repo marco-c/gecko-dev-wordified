@@ -97,6 +97,7 @@ SkBBHFactory
 )
 {
 }
+;
 }
 ;
 class

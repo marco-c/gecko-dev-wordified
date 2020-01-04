@@ -144,6 +144,7 @@ DisableColorXP
 override
 {
 }
+;
 const
 char
 *
@@ -801,10 +802,9 @@ GR_DEFINE_XP_FACTORY_TEST
 GrDisableColorXPFactory
 )
 ;
-sk_sp
-<
+const
 GrXPFactory
->
+*
 GrDisableColorXPFactory
 :
 :
@@ -818,7 +818,7 @@ return
 GrDisableColorXPFactory
 :
 :
-Make
+Create
 (
 )
 ;

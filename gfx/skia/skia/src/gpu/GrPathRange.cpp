@@ -63,6 +63,7 @@ pathGenerator
 INHERITED
 (
 gpu
+kCached_LifeCycle
 )
 fPathGenerator
 (
@@ -148,6 +149,7 @@ numPaths
 INHERITED
 (
 gpu
+kCached_LifeCycle
 )
 fNumPaths
 (

@@ -61,7 +61,7 @@ include
 /
 private
 /
-SkOnce
+SkMutex
 .
 h
 "
@@ -209,10 +209,9 @@ override
 #
 if
 SK_SUPPORT_GPU
-sk_sp
-<
+const
 GrFragmentProcessor
->
+*
 asFragmentProcessor
 (
 GrContext
@@ -385,8 +384,11 @@ the
 caches
 once
 .
-SkOnce
-fLutsInitOnce
+SkMutex
+fLutsMutex
+;
+bool
+fLutsInited
 ;
 static
 void

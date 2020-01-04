@@ -315,10 +315,8 @@ getTextHeight
 )
 const
 ;
-sk_sp
-<
 SkTextBlob
->
+*
 snapshotTextBlob
 (
 SkScalar

@@ -73,10 +73,7 @@ fLocked
 exchange
 (
 true
-std
-:
-:
-memory_order_acquire
+sk_memory_order_acquire
 )
 )
 {

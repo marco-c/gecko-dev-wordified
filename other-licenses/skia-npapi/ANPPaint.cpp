@@ -252,6 +252,13 @@ SkANP
 .
 h
 "
+#
+include
+"
+SkTypeface
+.
+h
+"
 static
 ANPPaint
 *
@@ -864,10 +871,7 @@ paint
 >
 setTypeface
 (
-sk_ref_sp
-(
 tf
-)
 )
 ;
 }

@@ -52,7 +52,7 @@ SK_USE_CONDENSED_INFO
 /
 SkCondensed
 .
-inc
+cpp
 is
 auto
 -
@@ -77,7 +77,7 @@ include
 "
 SkCondensedDebug
 .
-inc
+cpp
 "
 #
 else
@@ -86,7 +86,7 @@ include
 "
 SkCondensedRelease
 .
-inc
+cpp
 "
 #
 endif

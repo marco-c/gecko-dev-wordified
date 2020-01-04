@@ -318,8 +318,6 @@ GrContext
 const
 GrTextureParams
 &
-SkSourceGammaTreatment
-gammaTreatment
 const
 SkImage
 *
@@ -553,7 +551,6 @@ SkImage
 CachingHint
 bool
 willBeMipped
-SkSourceGammaTreatment
 )
 ;
 #

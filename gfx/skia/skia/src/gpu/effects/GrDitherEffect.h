@@ -53,13 +53,6 @@ GrTypesPriv
 .
 h
 "
-#
-include
-"
-SkRefCnt
-.
-h
-"
 class
 GrFragmentProcessor
 ;
@@ -84,11 +77,9 @@ RGBA8
 framebuffer
 *
 /
-sk_sp
-<
 GrFragmentProcessor
->
-Make
+*
+Create
 (
 )
 ;

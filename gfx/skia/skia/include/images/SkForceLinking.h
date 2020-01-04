@@ -33,13 +33,6 @@ file
 .
 *
 /
-#
-include
-"
-SkTypes
-.
-h
-"
 /
 *
 *

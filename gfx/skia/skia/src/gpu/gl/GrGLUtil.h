@@ -58,7 +58,7 @@ h
 #
 include
 "
-GrStencilSettings
+GrStencil
 .
 h
 "
@@ -297,7 +297,6 @@ kImagination_GrGLVendor
 kIntel_GrGLVendor
 kQualcomm_GrGLVendor
 kNVIDIA_GrGLVendor
-kATI_GrGLVendor
 kOther_GrGLVendor
 }
 ;
@@ -310,8 +309,6 @@ kPowerVR54x_GrGLRenderer
 kPowerVRRogue_GrGLRenderer
 kAdreno3xx_GrGLRenderer
 kAdreno4xx_GrGLRenderer
-kAdreno5xx_GrGLRenderer
-kOSMesa_GrGLRenderer
 kOther_GrGLRenderer
 }
 ;
@@ -1405,8 +1402,8 @@ fGetError
 GrGLenum
 GrToGLStencilFunc
 (
-GrStencilTest
-test
+GrStencilFunc
+basicFunc
 )
 ;
 #

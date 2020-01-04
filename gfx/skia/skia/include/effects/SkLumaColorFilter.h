@@ -46,13 +46,6 @@ SkColorFilter
 .
 h
 "
-#
-include
-"
-SkRefCnt
-.
-h
-"
 /
 *
 *
@@ -201,10 +194,9 @@ override
 #
 if
 SK_SUPPORT_GPU
-sk_sp
-<
+const
 GrFragmentProcessor
->
+*
 asFragmentProcessor
 (
 GrContext

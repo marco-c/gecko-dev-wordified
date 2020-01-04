@@ -107,7 +107,6 @@ minAllocSize
 kPerAllocPad
 kAlignment
 )
-;
 fPreallocSize
 =
 GrSizeAlignUp

@@ -68,7 +68,10 @@ StencilSupport
 onGetStencilSupport
 (
 const
-GrShape
+SkPath
+&
+const
+GrStrokeInfo
 &
 )
 const

@@ -129,11 +129,9 @@ user
 specified
 kernel
 static
-sk_sp
-<
 GrFragmentProcessor
->
-Make
+*
+Create
 (
 GrTexture
 *
@@ -156,11 +154,6 @@ bounds
 )
 {
 return
-sk_sp
-<
-GrFragmentProcessor
->
-(
 new
 GrConvolutionEffect
 (
@@ -170,7 +163,6 @@ halfWidth
 kernel
 useBounds
 bounds
-)
 )
 ;
 }
@@ -183,11 +175,9 @@ a
 Gaussian
 kernel
 static
-sk_sp
-<
 GrFragmentProcessor
->
-MakeGaussian
+*
+CreateGaussian
 (
 GrTexture
 *
@@ -208,11 +198,6 @@ bounds
 )
 {
 return
-sk_sp
-<
-GrFragmentProcessor
->
-(
 new
 GrConvolutionEffect
 (
@@ -222,7 +207,6 @@ halfWidth
 gaussianSigma
 useBounds
 bounds
-)
 )
 ;
 }

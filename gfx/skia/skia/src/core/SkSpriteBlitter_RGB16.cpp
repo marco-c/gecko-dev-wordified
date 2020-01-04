@@ -2548,12 +2548,14 @@ nullptr
 }
 if
 (
-!
 paint
 .
-isSrcOver
+getXfermode
 (
 )
+!
+=
+nullptr
 )
 {
 /

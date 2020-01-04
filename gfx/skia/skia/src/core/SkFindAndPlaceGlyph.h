@@ -2774,6 +2774,7 @@ GlyphFindAndPlaceInterface
 )
 {
 }
+;
 /
 /
 findAndPositionGlyph
@@ -2935,6 +2936,7 @@ return
 }
 ;
 }
+;
 }
 ;
 /

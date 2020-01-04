@@ -67,6 +67,8 @@ GrCoordTransform
 :
 reset
 (
+GrCoordSet
+sourceCoords
 const
 SkMatrix
 &
@@ -92,6 +94,10 @@ SkASSERT
 !
 fInProcessor
 )
+;
+fSourceCoords
+=
+sourceCoords
 ;
 fMatrix
 =
@@ -427,6 +433,8 @@ GrCoordTransform
 :
 reset
 (
+GrCoordSet
+sourceCoords
 const
 SkMatrix
 &
@@ -440,6 +448,10 @@ SkASSERT
 !
 fInProcessor
 )
+;
+fSourceCoords
+=
+sourceCoords
 ;
 fMatrix
 =

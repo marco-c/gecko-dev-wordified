@@ -193,7 +193,7 @@ CFRelease
 >
 fImageSrc
 ;
-sk_sp
+SkAutoTUnref
 <
 SkData
 >

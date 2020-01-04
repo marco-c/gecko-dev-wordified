@@ -60,9 +60,6 @@ SkXfermode
 .
 h
 "
-#
-ifdef
-SK_SUPPORT_LEGACY_ARITHMETICMODE
 class
 SK_API
 SkArithmeticMode
@@ -229,7 +226,5 @@ be
 instantiated
 }
 ;
-#
-endif
 #
 endif

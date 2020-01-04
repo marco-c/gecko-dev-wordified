@@ -44,6 +44,13 @@ SkFlate_DEFINED
 #
 include
 "
+SkTypes
+.
+h
+"
+#
+include
+"
 SkStream
 .
 h

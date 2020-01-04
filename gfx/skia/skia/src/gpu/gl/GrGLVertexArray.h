@@ -72,7 +72,7 @@ SkTArray
 h
 "
 class
-GrBuffer
+GrGLBuffer
 ;
 class
 GrGLGpu
@@ -233,7 +233,7 @@ GrGLGpu
 int
 attribIndex
 const
-GrBuffer
+GrGLBuffer
 *
 vertexBuffer
 GrVertexAttribType
@@ -570,7 +570,7 @@ GrGLGpu
 *
 gpu
 const
-GrBuffer
+GrGLBuffer
 *
 indexBuffer
 )

@@ -96,8 +96,6 @@ SkBackEndTypes
 attachType
 int
 msaaSampleCount
-bool
-deepColor
 AttachmentInfo
 *
 )

@@ -227,10 +227,8 @@ NULL
 .
 *
 /
-sk_sp
-<
 GrTexture
->
+*
 refAsTexture
 (
 GrContext

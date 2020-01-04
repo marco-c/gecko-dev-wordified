@@ -1278,7 +1278,7 @@ animator
 /
 SkCondensedDebug
 .
-inc
+cpp
 "
 "
 w
@@ -1337,7 +1337,7 @@ animator
 /
 SkCondensedRelease
 .
-inc
+cpp
 "
 "
 w

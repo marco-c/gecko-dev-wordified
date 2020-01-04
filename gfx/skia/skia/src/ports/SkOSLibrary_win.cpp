@@ -55,11 +55,11 @@ h
 "
 #
 include
-"
-SkLeanWindows
+<
+windows
 .
 h
-"
+>
 void
 *
 DynamicLoadLibrary

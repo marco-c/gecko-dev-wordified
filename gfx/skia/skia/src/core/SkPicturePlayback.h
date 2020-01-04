@@ -79,7 +79,6 @@ canvas
 .
 class
 SkPicturePlayback
-final
 :
 SkNoncopyable
 {
@@ -103,6 +102,14 @@ fCurOffset
 )
 {
 }
+virtual
+~
+SkPicturePlayback
+(
+)
+{
+}
+virtual
 void
 draw
 (
@@ -114,9 +121,6 @@ SkPicture
 :
 AbortCallback
 *
-SkReadBuffer
-*
-buffer
 )
 ;
 /
@@ -201,7 +205,7 @@ fCurOffset
 void
 handleOp
 (
-SkReadBuffer
+SkReader32
 *
 reader
 DrawType
@@ -221,7 +225,7 @@ static
 DrawType
 ReadOpAndSize
 (
-SkReadBuffer
+SkReader32
 *
 reader
 uint32_t

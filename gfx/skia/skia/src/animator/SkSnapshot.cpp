@@ -148,6 +148,13 @@ fSeqVal
 0
 ;
 }
+#
+include
+"
+SkDevice
+.
+h
+"
 bool
 SkSnapshot
 :
