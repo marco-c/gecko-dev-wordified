@@ -1159,14 +1159,6 @@ app
 src
 /
 background
-/
-org
-/
-mozilla
-/
-gecko
-/
-background
 '
 '
 mobile
