@@ -263,6 +263,8 @@ nsIRunnable
 &
 &
 aEvent
+uint32_t
+aFlags
 )
 ;
 nsCOMArray
