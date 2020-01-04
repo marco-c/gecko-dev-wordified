@@ -1126,12 +1126,11 @@ bool
 HasLowerCompositeOrderThan
 (
 const
-Animation
+CSSTransition
 &
 aOther
 )
 const
-override
 ;
 EffectCompositor
 :

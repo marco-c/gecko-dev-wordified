@@ -2212,7 +2212,6 @@ aOther
 .
 *
 /
-virtual
 bool
 HasLowerCompositeOrderThan
 (
