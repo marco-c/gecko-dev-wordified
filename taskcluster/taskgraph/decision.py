@@ -166,6 +166,32 @@ target_tasks_method
 '
 try_option_syntax
 '
+        
+#
+for
+try
+if
+a
+task
+was
+specified
+as
+a
+target
+it
+should
+        
+#
+not
+be
+optimized
+away
+        
+'
+optimize_target_tasks
+'
+:
+False
     
 }
     
@@ -195,8 +221,14 @@ target_tasks_method
 '
 :
 '
-all_tasks
+all_builds_and_tests
 '
+        
+'
+optimize_target_tasks
+'
+:
+True
     
 }
 }
@@ -437,7 +469,17 @@ to
 describe
 what
 will
+actually
 happen
+    
+#
+and
+the
+map
+of
+labels
+to
+taskids
     
 write_artifact
 (
@@ -457,6 +499,22 @@ optimized_task_graph
 )
 )
     
+write_artifact
+(
+'
+label
+-
+to
+-
+taskid
+.
+json
+'
+tgg
+.
+label_to_taskid
+)
+    
 #
 actually
 create
@@ -468,6 +526,9 @@ create_tasks
 tgg
 .
 optimized_task_graph
+tgg
+.
+label_to_taskid
 )
 def
 get_decision_parameters
@@ -682,6 +743,14 @@ task
         
 return
 {
+            
+'
+label
+'
+:
+task
+.
+label
             
 '
 task
