@@ -139,8 +139,10 @@ import
 shutil
 import
 mozfile
+from
+mozlog
 import
-logging
+get_proxy_logger
 from
 talos
 .
@@ -166,6 +168,11 @@ talos
 cmanager
 import
 CounterManagement
+LOG
+=
+get_proxy_logger
+(
+)
 class
 TTest
 (
@@ -308,7 +315,7 @@ etc
 "
 "
         
-logging
+LOG
 .
 debug
 (
@@ -320,6 +327,7 @@ platform_type
 %
 s
 "
+%
 self
 .
 platform_type
@@ -701,7 +709,7 @@ cycles
 )
 :
             
-logging
+LOG
 .
 info
 (
@@ -721,7 +729,9 @@ test
 .
 .
 "
-                         
+                     
+%
+(
 i
 +
 1
@@ -737,6 +747,7 @@ test_config
 name
 '
 ]
+)
 )
             
 #
@@ -830,7 +841,7 @@ profile_dir
 keep
 )
                     
-logging
+LOG
 .
 debug
 (
@@ -844,9 +855,12 @@ of
 %
 s
 "
+                              
+%
+(
 origin
-                                  
 dest
+)
 )
                     
 shutil
@@ -1650,7 +1664,7 @@ items
 )
 :
                 
-logging
+LOG
 .
 debug
 (
@@ -1662,8 +1676,11 @@ r
 %
 s
 "
+%
+(
 key
 value
+)
 )
         
 #
