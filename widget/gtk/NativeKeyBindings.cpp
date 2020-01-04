@@ -1274,9 +1274,8 @@ case
 in
 release
 build
-MOZ_ASSERT
+MOZ_FALLTHROUGH_ASSERT
 (
-false
 "
 aType
 is
