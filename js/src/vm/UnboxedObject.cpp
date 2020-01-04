@@ -5333,6 +5333,15 @@ isJSContext
 &
 &
 !
+group
+-
+>
+unknownProperties
+(
+)
+&
+&
+!
 layout
 .
 constructorCode
