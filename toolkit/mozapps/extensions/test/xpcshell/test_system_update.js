@@ -1308,6 +1308,13 @@ addon
 foreignInstall
 )
 ;
+go_check_true
+(
+addon
+.
+hidden
+)
+;
 /
 /
 Verify
