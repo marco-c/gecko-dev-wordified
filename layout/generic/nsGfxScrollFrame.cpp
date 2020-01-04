@@ -1306,7 +1306,7 @@ mozilla
 {
 struct
 MOZ_STACK_CLASS
-ScrollReflowState
+ScrollReflowInput
 {
 const
 ReflowInput
@@ -1395,7 +1395,7 @@ scrollbar
 bool
 mShowVScrollbar
 ;
-ScrollReflowState
+ScrollReflowInput
 (
 nsIScrollableFrame
 *
@@ -1478,7 +1478,7 @@ static
 nsSize
 ComputeInsideBorderSize
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 const
@@ -1894,7 +1894,7 @@ computed
 fields
 of
 the
-ScrollReflowState
+ScrollReflowInput
 .
 *
 *
@@ -2055,7 +2055,7 @@ nsHTMLScrollFrame
 :
 TryLayout
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 nsHTMLReflowMetrics
@@ -2907,7 +2907,7 @@ nsHTMLScrollFrame
 :
 ScrolledContentDependsOnHeight
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 )
@@ -2993,7 +2993,7 @@ nsHTMLScrollFrame
 :
 ReflowScrolledFrame
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 bool
@@ -3987,7 +3987,7 @@ nsHTMLScrollFrame
 GuessHScrollbarNeeded
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 )
@@ -4031,7 +4031,7 @@ nsHTMLScrollFrame
 GuessVScrollbarNeeded
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 )
@@ -4475,7 +4475,7 @@ nsHTMLScrollFrame
 :
 ReflowContents
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 const
@@ -5115,7 +5115,7 @@ nsHTMLScrollFrame
 PlaceScrollArea
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 const
@@ -5873,7 +5873,7 @@ HandleScrollbarStyleSwitching
 (
 )
 ;
-ScrollReflowState
+ScrollReflowInput
 state
 (
 this

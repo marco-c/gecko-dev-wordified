@@ -242,7 +242,7 @@ namespace
 mozilla
 {
 struct
-ScrollReflowState
+ScrollReflowInput
 ;
 namespace
 layers
@@ -4091,8 +4091,8 @@ typedef
 mozilla
 :
 :
-ScrollReflowState
-ScrollReflowState
+ScrollReflowInput
+ScrollReflowInput
 ;
 friend
 nsHTMLScrollFrame
@@ -4180,7 +4180,7 @@ aLists
 bool
 TryLayout
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 nsHTMLReflowMetrics
@@ -4197,7 +4197,7 @@ aForce
 bool
 ScrolledContentDependsOnHeight
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 )
@@ -4205,7 +4205,7 @@ aState
 void
 ReflowScrolledFrame
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 bool
@@ -4222,7 +4222,7 @@ aFirstPass
 void
 ReflowContents
 (
-ScrollReflowState
+ScrollReflowInput
 *
 aState
 const
@@ -4235,7 +4235,7 @@ void
 PlaceScrollArea
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 const
@@ -6096,7 +6096,7 @@ bool
 GuessHScrollbarNeeded
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 )
@@ -6105,7 +6105,7 @@ bool
 GuessVScrollbarNeeded
 (
 const
-ScrollReflowState
+ScrollReflowInput
 &
 aState
 )
