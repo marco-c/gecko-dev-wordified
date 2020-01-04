@@ -628,12 +628,6 @@ events
 :
 none
 ;
-}
-#
-main
->
-p
-{
 margin
 :
 0
@@ -651,6 +645,12 @@ main
 p
 >
 span
+#
+main
+>
+p
+>
+input
 {
 vertical
 -
