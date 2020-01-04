@@ -159,9 +159,8 @@ image
 )
 )
             
-with
-open
-(
+p
+=
 os
 .
 path
@@ -181,9 +180,14 @@ image
 Dockerfile
 '
 )
-"
+            
+with
+open
+(
+p
+'
 w
-"
+'
 )
 as
 f
@@ -206,9 +210,16 @@ n
 "
 )
             
-with
-open
+os
+.
+chmod
 (
+p
+MODE_STANDARD
+)
+            
+p
+=
 os
 .
 path
@@ -230,9 +241,14 @@ a
 file
 '
 )
-"
+            
+with
+open
+(
+p
+'
 w
-"
+'
 )
 as
 f
@@ -247,6 +263,14 @@ data
 \
 n
 "
+)
+            
+os
+.
+chmod
+(
+p
+MODE_STANDARD
 )
             
 self
@@ -288,7 +312,7 @@ image
 )
                 
 '
-f13cde7fef96593671a41f81f9f0871c929a7dcba41d5a2dde1e8e1576b2bca0
+e61e675ce05e8c11424437db3f1004079374c1a5fe6ad6800346cebe137b0797
 '
             
 )
