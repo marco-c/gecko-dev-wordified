@@ -8199,7 +8199,7 @@ mParentFrame
 (
 aParentFrame
 )
-mSize
+mReflowOutput
 (
 aParentFrame
 -
@@ -8208,11 +8208,6 @@ GetWritingMode
 (
 )
 )
-/
-/
-?
-?
-?
 mX
 (
 0
@@ -8301,7 +8296,7 @@ correction
 mX
 +
 =
-mSize
+mReflowOutput
 .
 mBoundingMetrics
 .
@@ -8429,13 +8424,13 @@ mX
 const
 ReflowOutput
 &
-ReflowMetrics
+GetReflowOutput
 (
 )
 const
 {
 return
-mSize
+mReflowOutput
 ;
 }
 nscoord
@@ -8445,7 +8440,7 @@ Ascent
 const
 {
 return
-mSize
+mReflowOutput
 .
 BlockStartAscent
 (
@@ -8459,13 +8454,13 @@ Descent
 const
 {
 return
-mSize
+mReflowOutput
 .
 Height
 (
 )
 -
-mSize
+mReflowOutput
 .
 BlockStartAscent
 (
@@ -8481,7 +8476,7 @@ BoundingMetrics
 const
 {
 return
-mSize
+mReflowOutput
 .
 mBoundingMetrics
 ;
@@ -8498,7 +8493,7 @@ nsIFrame
 mChildFrame
 ;
 ReflowOutput
-mSize
+mReflowOutput
 ;
 nscoord
 mX
@@ -8526,8 +8521,8 @@ InitMetricsForChild
 GetReflowAndBoundingMetricsFor
 (
 mChildFrame
-mSize
-mSize
+mReflowOutput
+mReflowOutput
 .
 mBoundingMetrics
 &
@@ -8540,7 +8535,7 @@ rightCorrection
 ;
 GetItalicCorrection
 (
-mSize
+mReflowOutput
 .
 mBoundingMetrics
 leftCorrection
@@ -9030,7 +9025,7 @@ PresContext
 )
 child
 .
-ReflowMetrics
+GetReflowOutput
 (
 )
 nullptr
