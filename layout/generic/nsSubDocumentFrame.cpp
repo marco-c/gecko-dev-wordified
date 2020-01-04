@@ -2966,8 +2966,9 @@ appunits
 .
 nestedClipState
 .
-ClearForStackingContextContents
+EnterStackingContextContents
 (
+true
 )
 ;
 }
