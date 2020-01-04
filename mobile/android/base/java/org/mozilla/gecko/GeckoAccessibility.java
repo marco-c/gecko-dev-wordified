@@ -1619,7 +1619,6 @@ i
 )
 ;
 }
-}
 sVirtualCursorNode
 .
 setText
@@ -1631,6 +1630,7 @@ toString
 )
 )
 ;
+}
 sVirtualCursorNode
 .
 setContentDescription
