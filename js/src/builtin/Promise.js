@@ -867,6 +867,11 @@ PROMISE_REJECT_FUNCTION_SLOT
 null
 )
 ;
+_dbg_onPromiseSettled
+(
+promise
+)
+;
 /
 /
 Step
