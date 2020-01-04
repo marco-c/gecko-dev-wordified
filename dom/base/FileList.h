@@ -492,6 +492,12 @@ aRv
 )
 const
 ;
+bool
+ClonableToDifferentThreadOrProcess
+(
+)
+const
+;
 private
 :
 ~
