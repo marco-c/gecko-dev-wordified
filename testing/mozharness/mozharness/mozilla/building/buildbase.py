@@ -10352,6 +10352,22 @@ clone_with_purge
 =
 True
         
+vcs_checkout_kwargs
+[
+'
+clone_upstream_url
+'
+]
+=
+c
+.
+get
+(
+'
+clone_upstream_url
+'
+)
+        
 rev
 =
 self
