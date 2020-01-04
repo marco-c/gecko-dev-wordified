@@ -3747,7 +3747,7 @@ used
 by
 list
 parsing
-kBackgroundAttachmentKTable
+kImageLayerAttachmentKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3774,7 +3774,7 @@ used
 by
 list
 parsing
-kBackgroundOriginKTable
+kImageLayerOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3899,7 +3899,7 @@ used
 by
 list
 parsing
-kBackgroundOriginKTable
+kImageLayerOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3924,7 +3924,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -3951,7 +3951,7 @@ used
 by
 list
 parsing
-kBackgroundRepeatKTable
+kImageLayerRepeatKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3976,7 +3976,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-kBackgroundSizeKTable
+kImageLayerSizeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -8397,7 +8397,7 @@ position
 enabled
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 offsetof
 (
 nsStylePosition
@@ -9545,7 +9545,7 @@ snap
 enabled
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9575,7 +9575,7 @@ snap
 enabled
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -10266,7 +10266,7 @@ CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -10285,7 +10285,7 @@ CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
-kBackgroundPositionKTable
+kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )

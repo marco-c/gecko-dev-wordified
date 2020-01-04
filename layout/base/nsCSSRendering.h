@@ -1908,7 +1908,7 @@ properties
 .
 *
 See
-PrepareBackgroundLayer
+PrepareImageLayer
 .
 *
 /
@@ -2018,7 +2018,7 @@ aBGClipRect
 passed
 into
 *
-PrepareBackgroundLayer
+PrepareImageLayer
 .
 *
 /
@@ -2056,7 +2056,7 @@ aBGClipRect
 passed
 into
 *
-PrepareBackgroundLayer
+PrepareImageLayer
 .
 *
 /
@@ -2090,7 +2090,7 @@ aBGClipRect
 passed
 into
 *
-PrepareBackgroundLayer
+PrepareImageLayer
 .
 *
 /
@@ -3223,7 +3223,7 @@ aDrawBackgroundColor
 ;
 static
 nsRect
-ComputeBackgroundPositioningArea
+ComputeImageLayerPositioningArea
 (
 nsPresContext
 *
@@ -3250,7 +3250,7 @@ aAttachedToFrame
 ;
 static
 nsBackgroundLayerState
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 nsPresContext
 *
@@ -3278,7 +3278,7 @@ aLayer
 )
 ;
 struct
-BackgroundClipState
+ImageLayerClipState
 {
 nsRect
 mBGClipArea
@@ -3354,7 +3354,7 @@ mCustomClip
 ;
 static
 void
-GetBackgroundClip
+GetImageLayerClip
 (
 const
 nsStyleImageLayers
@@ -3387,7 +3387,7 @@ aAppUnitsPerPixel
 out
 *
 /
-BackgroundClipState
+ImageLayerClipState
 *
 aClipState
 )

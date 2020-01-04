@@ -15116,7 +15116,7 @@ state
 nsCSSRendering
 :
 :
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 presContext
 mFrame
@@ -15369,13 +15369,13 @@ GetSize
 nsCSSRendering
 :
 :
-BackgroundClipState
+ImageLayerClipState
 clip
 ;
 nsCSSRendering
 :
 :
-GetBackgroundClip
+GetImageLayerClip
 (
 aLayer
 aFrame
@@ -16595,7 +16595,7 @@ layer
 mAttachment
 !
 =
-NS_STYLE_BG_ATTACHMENT_FIXED
+NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 )
 return
 false
@@ -16606,7 +16606,7 @@ state
 nsCSSRendering
 :
 :
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 presContext
 mFrame
@@ -16700,7 +16700,7 @@ mLayer
 mAttachment
 =
 =
-NS_STYLE_BG_ATTACHMENT_FIXED
+NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 &
 &
 !
@@ -16895,7 +16895,7 @@ state
 nsCSSRendering
 :
 :
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 presContext
 mFrame
@@ -18348,7 +18348,7 @@ aClip
 )
 {
 case
-NS_STYLE_BG_CLIP_BORDER
+NS_STYLE_IMAGELAYER_CLIP_BORDER
 :
 clipRect
 =
@@ -18371,7 +18371,7 @@ GetSize
 break
 ;
 case
-NS_STYLE_BG_CLIP_PADDING
+NS_STYLE_IMAGELAYER_CLIP_PADDING
 :
 clipRect
 =
@@ -18399,7 +18399,7 @@ ToReferenceFrame
 break
 ;
 case
-NS_STYLE_BG_CLIP_CONTENT
+NS_STYLE_IMAGELAYER_CLIP_CONTENT
 :
 clipRect
 =
@@ -18710,7 +18710,7 @@ return
 nsCSSRendering
 :
 :
-ComputeBackgroundPositioningArea
+ComputeImageLayerPositioningArea
 (
 mFrame
 -
