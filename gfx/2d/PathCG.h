@@ -304,7 +304,7 @@ return
 BackendType
 :
 :
-COREGRAPHICS
+SKIA
 ;
 }
 private
@@ -423,7 +423,7 @@ return
 BackendType
 :
 :
-COREGRAPHICS
+SKIA
 ;
 }
 virtual
