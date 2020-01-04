@@ -3291,10 +3291,10 @@ this
 )
 |
 |
-EffectCompositor
+nsLayoutUtils
 :
 :
-HasAnimationsForCompositor
+HasCurrentAnimationOfProperty
 (
 this
 eCSSProperty_transform
