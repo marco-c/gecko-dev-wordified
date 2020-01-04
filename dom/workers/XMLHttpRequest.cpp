@@ -3688,6 +3688,9 @@ RunOnMainThread
 )
 override
 {
+ErrorResult
+aRv
+;
 mProxy
 -
 >
@@ -3697,10 +3700,15 @@ mXHR
 OverrideMimeType
 (
 mMimeType
+aRv
 )
 ;
 return
-NS_OK
+aRv
+.
+StealNSResult
+(
+)
 ;
 }
 }
