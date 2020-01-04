@@ -292,6 +292,7 @@ linkedBrowser
 "
 DOMContentLoaded
 "
+)
 .
 then
 (
