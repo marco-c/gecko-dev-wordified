@@ -133,7 +133,6 @@ GLLibraryLoader
 :
 LoadSymbols
 (
-const
 SymLoadStruct
 *
 firstStruct
@@ -282,7 +281,6 @@ LoadSymbols
 PRLibrary
 *
 lib
-const
 SymLoadStruct
 *
 firstStruct
@@ -309,7 +307,6 @@ failCount
 =
 0
 ;
-const
 SymLoadStruct
 *
 ss
