@@ -3060,7 +3060,7 @@ uint8_t
 lanes
 )
 [
-4
+16
 ]
 Value
 *
@@ -3079,7 +3079,7 @@ uint8_t
 lanes
 )
 [
-4
+16
 ]
 Value
 *
@@ -9234,7 +9234,7 @@ uint8_t
 lanes
 )
 [
-4
+16
 ]
 Value
 *
@@ -9405,7 +9405,7 @@ uint8_t
 lanes
 )
 [
-4
+16
 ]
 Value
 *

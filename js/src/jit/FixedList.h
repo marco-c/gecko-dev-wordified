@@ -508,6 +508,16 @@ index
 }
 T
 *
+data
+(
+)
+{
+return
+list_
+;
+}
+T
+*
 begin
 (
 )
