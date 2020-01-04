@@ -129,7 +129,7 @@ to
 IntolerantFallbackList
 .
 inc
-var
+const
 {
 '
 classes

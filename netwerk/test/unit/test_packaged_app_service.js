@@ -477,7 +477,7 @@ jsm
 "
 )
 ;
-var
+let
 gPrefs
 =
 Cc
@@ -5817,7 +5817,7 @@ is
 not
 important
 .
-var
+let
 dummyCacheListener
 =
 {

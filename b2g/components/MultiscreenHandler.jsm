@@ -128,7 +128,7 @@ n
 )
 ;
 }
-var
+let
 window
 =
 Services
@@ -174,7 +174,7 @@ display
 connected
 event
 .
-var
+let
 MultiscreenHandler
 =
 {

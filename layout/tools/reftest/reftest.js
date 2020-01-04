@@ -112,7 +112,7 @@ OnRefTestLoad
 ;
 #
 endif
-var
+const
 CC
 =
 Components

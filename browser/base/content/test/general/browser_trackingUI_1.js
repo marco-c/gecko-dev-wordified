@@ -76,7 +76,7 @@ Bugs
 1178985
 *
 /
-var
+const
 {
 classes
 :

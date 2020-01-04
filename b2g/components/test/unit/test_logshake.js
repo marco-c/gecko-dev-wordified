@@ -59,7 +59,7 @@ use
 strict
 "
 ;
-var
+const
 Cu
 =
 Components

@@ -69,7 +69,7 @@ LoginRec
 '
 ]
 ;
-var
+const
 {
 classes
 :

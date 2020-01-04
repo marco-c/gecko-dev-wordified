@@ -80,7 +80,7 @@ RotaryTracker
 "
 ]
 ;
-var
+const
 {
 utils
 :

@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 {
 classes
 :
@@ -167,7 +167,7 @@ host
 .
 *
 /
-var
+let
 gToolbox
 gTarget
 gFront

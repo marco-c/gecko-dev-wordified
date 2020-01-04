@@ -69,7 +69,7 @@ ClientsRec
 "
 ]
 ;
-var
+const
 {
 classes
 :

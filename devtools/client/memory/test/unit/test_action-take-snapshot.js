@@ -42,7 +42,7 @@ front
 )
 *
 /
-var
+let
 actions
 =
 require

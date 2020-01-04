@@ -58,7 +58,7 @@ use
 strict
 '
 ;
-var
+const
 {
 classes
 :

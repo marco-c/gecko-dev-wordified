@@ -64,7 +64,7 @@ env
 browser
 *
 /
-var
+const
 Cu
 =
 Components

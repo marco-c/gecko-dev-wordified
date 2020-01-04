@@ -12,7 +12,7 @@ Center
 .
 *
 /
-var
+const
 {
 classes
 :

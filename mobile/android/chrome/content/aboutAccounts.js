@@ -250,7 +250,7 @@ use
 strict
 "
 ;
-var
+const
 {
 classes
 :
@@ -1248,7 +1248,7 @@ resolve
 ;
 }
 ;
-var
+let
 wrapper
 =
 {
@@ -3076,7 +3076,7 @@ this
 browser
 >
 .
-var
+let
 mm
 =
 getBrowserMessageManager

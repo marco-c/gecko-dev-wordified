@@ -10999,7 +10999,7 @@ unload
 saveWindowGeometry
 )
 ;
-var
+let
 baseWindow
 =
 window

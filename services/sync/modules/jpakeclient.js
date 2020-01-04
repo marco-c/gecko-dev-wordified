@@ -69,7 +69,7 @@ SendCredentialsController
 "
 ]
 ;
-var
+const
 {
 classes
 :

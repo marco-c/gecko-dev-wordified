@@ -157,7 +157,7 @@ properties
 .
 *
 /
-var
+let
 GeoProp
 =
 {

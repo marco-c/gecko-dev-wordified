@@ -95,7 +95,7 @@ in
 the
 CubicBezierWidget
 module
-var
+const
 Cu
 =
 Components

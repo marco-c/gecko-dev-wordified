@@ -28,7 +28,7 @@ zero
 /
 *
 /
-var
+const
 {
 classes
 :

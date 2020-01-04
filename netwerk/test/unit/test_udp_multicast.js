@@ -6,7 +6,7 @@ Bug
 UDP
 multicast
 options
-var
+const
 {
 Constructor
 :

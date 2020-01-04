@@ -28,14 +28,14 @@ zero
 /
 *
 /
-var
+const
 AM_Cc
 =
 Components
 .
 classes
 ;
-var
+const
 AM_Ci
 =
 Components
@@ -574,7 +574,7 @@ to
 the
 data
 directory
-var
+let
 resHandler
 =
 Services
@@ -606,7 +606,7 @@ because
 of
 bug
 1207735
-var
+let
 dataURI
 =
 NetUtil

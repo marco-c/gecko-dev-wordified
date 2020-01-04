@@ -5,7 +5,7 @@ Unix
 domain
 sockets
 .
-var
+const
 CC
 =
 Components

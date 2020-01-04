@@ -41,7 +41,7 @@ et
 :
 *
 /
-var
+const
 {
 classes
 :

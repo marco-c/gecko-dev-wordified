@@ -94,7 +94,7 @@ DeclinedEngines
 "
 ]
 ;
-var
+const
 {
 utils
 :

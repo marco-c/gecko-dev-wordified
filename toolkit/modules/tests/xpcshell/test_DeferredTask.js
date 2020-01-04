@@ -126,7 +126,7 @@ module
 /
 /
 Globals
-var
+const
 {
 classes
 :

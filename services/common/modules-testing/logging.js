@@ -74,7 +74,7 @@ initTestLogging
 "
 ]
 ;
-var
+const
 {
 utils
 :

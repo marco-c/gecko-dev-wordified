@@ -31,7 +31,7 @@ Bugs
 .
 *
 /
-var
+const
 {
 classes
 :

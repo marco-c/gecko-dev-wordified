@@ -19,14 +19,14 @@ ExtractFile
 on
 directories
 .
-var
+const
 Cc
 =
 Components
 .
 classes
 ;
-var
+const
 Ci
 =
 Components

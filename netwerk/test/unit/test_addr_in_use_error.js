@@ -26,7 +26,7 @@ Windows
 /
 machines
 .
-var
+const
 CC
 =
 Components

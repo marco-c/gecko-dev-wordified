@@ -70,7 +70,7 @@ zero
 /
 *
 /
-var
+const
 Cu
 =
 Components

@@ -1,4 +1,4 @@
-var
+let
 gTestRoot
 =
 getRootDirectory
@@ -120,7 +120,7 @@ scale
 }
 ;
 }
-var
+let
 apzEnabled
 =
 Preferences
@@ -141,7 +141,7 @@ enabled
 false
 )
 ;
-var
+let
 pluginHideEnabled
 =
 Preferences

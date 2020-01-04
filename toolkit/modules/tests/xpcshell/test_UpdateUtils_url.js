@@ -81,7 +81,7 @@ MPL
 .
 *
 /
-var
+const
 {
 classes
 :

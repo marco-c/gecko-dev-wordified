@@ -73,7 +73,7 @@ directories
 in
 devtools
 .
-var
+const
 {
 classes
 :

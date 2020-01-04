@@ -159,7 +159,7 @@ callback
 it
 needs
 .
-var
+const
 Cu
 =
 Components

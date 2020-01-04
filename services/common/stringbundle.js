@@ -66,7 +66,7 @@ StringBundle
 "
 ]
 ;
-var
+const
 {
 classes
 :

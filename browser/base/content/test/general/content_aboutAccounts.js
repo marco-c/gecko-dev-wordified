@@ -76,7 +76,7 @@ use
 strict
 "
 ;
-var
+const
 {
 interfaces
 :

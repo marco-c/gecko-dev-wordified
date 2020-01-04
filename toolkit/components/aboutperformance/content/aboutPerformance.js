@@ -107,7 +107,7 @@ use
 strict
 "
 ;
-var
+const
 {
 classes
 :
@@ -2238,7 +2238,7 @@ with
 state
 *
 /
-var
+let
 State
 =
 {
@@ -3176,7 +3176,7 @@ result
 )
 }
 ;
-var
+let
 View
 =
 {
@@ -6065,7 +6065,7 @@ cachedElements
 }
 }
 ;
-var
+let
 Control
 =
 {
@@ -6617,7 +6617,7 @@ _displayMode
 MODE_GLOBAL
 }
 ;
-var
+let
 go
 =
 Task

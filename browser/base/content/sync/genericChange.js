@@ -56,14 +56,14 @@ MPL
 .
 *
 /
-var
+const
 Ci
 =
 Components
 .
 interfaces
 ;
-var
+const
 Cc
 =
 Components

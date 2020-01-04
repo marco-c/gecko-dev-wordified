@@ -42,7 +42,7 @@ t
 -
 *
 -
-var
+const
 {
 classes
 :

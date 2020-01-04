@@ -6,14 +6,14 @@ uncompressed
 files
 pass
 crc
-var
+const
 Cc
 =
 Components
 .
 classes
 ;
-var
+const
 Ci
 =
 Components

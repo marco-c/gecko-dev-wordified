@@ -71,7 +71,7 @@ BrowserIDManager
 "
 ]
 ;
-var
+const
 {
 classes
 :

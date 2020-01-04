@@ -80,7 +80,7 @@ EngineSynchronizer
 "
 ]
 ;
-var
+const
 {
 utils
 :

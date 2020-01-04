@@ -98,14 +98,14 @@ view
 .
 js
 .
-var
+const
 Cu
 =
 Components
 .
 utils
 ;
-var
+const
 Ci
 =
 Components

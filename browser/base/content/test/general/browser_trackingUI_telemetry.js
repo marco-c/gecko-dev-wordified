@@ -8,7 +8,7 @@ Tracking
 Protection
 *
 /
-var
+const
 {
 classes
 :

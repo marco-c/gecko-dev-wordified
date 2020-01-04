@@ -66,7 +66,7 @@ devtools
 inspector
 tests
 .
-var
+let
 {
 Cc
 Ci

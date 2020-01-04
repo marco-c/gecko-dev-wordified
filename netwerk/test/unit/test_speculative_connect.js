@@ -102,7 +102,7 @@ MPL
 .
 *
 /
-var
+const
 CC
 =
 Components

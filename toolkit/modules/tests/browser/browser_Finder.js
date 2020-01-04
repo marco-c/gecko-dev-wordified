@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-var
+const
 Ci
 =
 Components

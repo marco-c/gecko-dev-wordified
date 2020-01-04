@@ -28,7 +28,7 @@ zero
 /
 *
 /
-var
+const
 {
 classes
 :
@@ -214,7 +214,7 @@ jsm
 "
 )
 ;
-var
+let
 {
 computeHash
 }

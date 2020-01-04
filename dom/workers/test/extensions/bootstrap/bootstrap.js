@@ -30,14 +30,14 @@ zero
 /
 *
 /
-var
+const
 Ci
 =
 Components
 .
 interfaces
 ;
-var
+const
 Cu
 =
 Components

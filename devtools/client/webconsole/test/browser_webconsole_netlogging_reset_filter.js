@@ -141,10 +141,10 @@ file
 URI
 "
 ;
-var
+let
 hud
 ;
-var
+let
 test
 =
 asyncTest

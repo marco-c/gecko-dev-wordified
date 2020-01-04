@@ -87,7 +87,7 @@ purposes
 .
 *
 /
-var
+const
 {
 classes
 :

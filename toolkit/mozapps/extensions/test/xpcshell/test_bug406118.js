@@ -94,7 +94,7 @@ org
 "
 ]
 ;
-var
+const
 {
 classes
 :

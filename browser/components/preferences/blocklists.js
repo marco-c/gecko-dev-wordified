@@ -123,7 +123,7 @@ lists
 .
 "
 ;
-var
+let
 gBlocklistManager
 =
 {
