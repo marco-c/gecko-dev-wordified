@@ -53,6 +53,11 @@ rerecording
 .
 *
 /
+const
+TIMES_TO_UPDATE
+=
+2
+;
 function
 *
 spawnTest
@@ -459,7 +464,7 @@ waitUntil
 >
 updated
 >
-10
+TIMES_TO_UPDATE
 )
 )
 "
