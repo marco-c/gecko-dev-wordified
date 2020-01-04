@@ -12732,11 +12732,9 @@ pixels
 virtual
 const
 SizeConstraints
-&
 GetSizeConstraints
 (
 )
-const
 =
 0
 ;
