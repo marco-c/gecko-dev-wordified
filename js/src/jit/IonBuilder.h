@@ -4739,6 +4739,11 @@ name
 )
 ;
 bool
+jsop_bindvar
+(
+)
+;
+bool
 jsop_getelem
 (
 )
