@@ -7273,7 +7273,7 @@ mMediaKeys
 &
 &
 !
-IsMediaStreamURI
+IsMediaSourceURI
 (
 mLoadingSrc
 )
