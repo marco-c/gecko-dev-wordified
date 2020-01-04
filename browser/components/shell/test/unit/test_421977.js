@@ -142,10 +142,9 @@ b
 .
 map
 (
-function
-(
 aInt
-)
+=
+>
 aInt
 .
 toString

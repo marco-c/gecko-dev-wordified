@@ -763,10 +763,9 @@ aB
 .
 map
 (
-function
-(
 aInt
-)
+=
+>
 aInt
 .
 toString
