@@ -1164,10 +1164,6 @@ focused
 )
 cm
 .
-display
-.
-input
-.
 focus
 (
 )

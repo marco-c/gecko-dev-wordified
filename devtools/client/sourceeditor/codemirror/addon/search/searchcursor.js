@@ -1264,6 +1264,8 @@ return
 ;
 if
 (
+fold
+(
 doc
 .
 getLine
@@ -1280,6 +1282,7 @@ last
 ]
 .
 length
+)
 )
 !
 =
@@ -1594,6 +1597,7 @@ replace
 function
 (
 newText
+origin
 )
 {
 if
@@ -1632,6 +1636,7 @@ this
 pos
 .
 to
+origin
 )
 ;
 this
@@ -1878,7 +1883,6 @@ ranges
 =
 [
 ]
-next
 ;
 var
 cur
@@ -1901,8 +1905,6 @@ caseFold
 ;
 while
 (
-next
-=
 cur
 .
 findNext

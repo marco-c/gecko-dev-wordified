@@ -628,7 +628,7 @@ message
 expected
 failure
 but
-succeeded
+passed
 "
 )
 ;
