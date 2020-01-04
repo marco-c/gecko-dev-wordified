@@ -335,6 +335,13 @@ ByteReader
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -567,14 +574,22 @@ contents
 )
 ;
 const
-char
+uint8_t
 *
 data
 =
+reinterpret_cast
+<
+const
+uint8_t
+*
+>
+(
 contents
 .
 data
 (
+)
 )
 ;
 EXPECT_EQ
@@ -2693,10 +2708,9 @@ DW_EH_PE_omit
 {
 static
 const
-char
+uint8_t
 data
 [
-1
 ]
 =
 {
@@ -2747,7 +2761,7 @@ DW_EH_PE_absptr4
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -2804,7 +2818,7 @@ DW_EH_PE_absptr8
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -2869,7 +2883,7 @@ DW_EH_PE_uleb128
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -2925,7 +2939,7 @@ DW_EH_PE_udata2
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -2980,7 +2994,7 @@ DW_EH_PE_udata4
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3041,7 +3055,7 @@ DW_EH_PE_udata8Addr8
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3106,7 +3120,7 @@ DW_EH_PE_udata8Addr4
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3171,7 +3185,7 @@ DW_EH_PE_sleb128
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3233,7 +3247,7 @@ DW_EH_PE_sdata2
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3288,7 +3302,7 @@ DW_EH_PE_sdata4
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3349,7 +3363,7 @@ DW_EH_PE_sdata8
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3413,7 +3427,7 @@ DW_EH_PE_pcrel
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3501,7 +3515,7 @@ DW_EH_PE_textrel
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3590,7 +3604,7 @@ DW_EH_PE_datarel
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3675,7 +3689,7 @@ DW_EH_PE_funcrel
 {
 static
 const
-char
+uint8_t
 data
 [
 ]
@@ -3760,10 +3774,9 @@ CFI
 {
 static
 const
-char
+uint8_t
 data
 [
-1
 ]
 =
 {
@@ -4348,7 +4361,7 @@ SetAddressSize
 }
 static
 const
-char
+uint8_t
 data
 [
 10
@@ -4363,7 +4376,7 @@ pointer_size
 }
 ;
 const
-char
+uint8_t
 AlignedFixture
 :
 :
