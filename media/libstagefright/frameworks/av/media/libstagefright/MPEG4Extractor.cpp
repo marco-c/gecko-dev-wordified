@@ -379,7 +379,7 @@ DataSource
 >
 &
 dataSource
-int32_t
+uint32_t
 timeScale
 const
 sp
@@ -494,7 +494,7 @@ DataSource
 >
 mDataSource
 ;
-int32_t
+uint32_t
 mTimescale
 ;
 sp
@@ -16419,7 +16419,7 @@ DataSource
 >
 &
 dataSource
-int32_t
+uint32_t
 timeScale
 const
 sp
