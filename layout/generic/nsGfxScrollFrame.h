@@ -625,6 +625,12 @@ ScrollFrameHelper
 *
 mHelper
 ;
+RefPtr
+<
+nsRefreshDriver
+>
+mDriver
+;
 }
 ;
 class
