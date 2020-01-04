@@ -2685,6 +2685,15 @@ Updated
 (
 )
 {
+if
+(
+!
+mNewFront
+)
+{
+return
+;
+}
 auto
 forwarder
 =
