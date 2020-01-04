@@ -5295,6 +5295,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineArrayConcat
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineArraySlice
 (
 CallInfo
