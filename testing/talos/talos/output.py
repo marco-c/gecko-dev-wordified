@@ -1433,6 +1433,19 @@ the
 log
 file
         
+if
+'
+spsProfile
+'
+not
+in
+self
+.
+results
+.
+extra_options
+:
+            
 LOG
 .
 info

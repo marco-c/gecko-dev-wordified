@@ -3889,6 +3889,13 @@ tbpl_level
 else
 :
             
+if
+not
+self
+.
+sps_profile
+:
+                
 self
 .
 _validate_treeherder_data

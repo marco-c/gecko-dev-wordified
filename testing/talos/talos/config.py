@@ -2765,11 +2765,9 @@ tests
 value
 =
 config
-.
-pop
-(
+[
 key
-)
+]
         
 if
 value
@@ -2784,6 +2782,22 @@ key
 ]
 =
 value
+        
+if
+key
+!
+=
+'
+sps_profile
+'
+:
+            
+config
+.
+pop
+(
+key
+)
     
 #
 add
