@@ -243,12 +243,4 @@ PointF
 viewPoint
 )
 ;
-public
-void
-setScrollingRootContent
-(
-boolean
-isRootContent
-)
-;
 }
