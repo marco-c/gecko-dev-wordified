@@ -376,10 +376,6 @@ state
 .
 *
 /
-SeekJob
-&
-mSeekJob
-;
 SeekTarget
 &
 mTarget

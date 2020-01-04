@@ -422,8 +422,6 @@ HasAudio
 )
 |
 |
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -807,13 +805,6 @@ AudioData
 MOZ_ASSERT
 (
 audio
-&
-&
-mSeekJob
-.
-Exists
-(
-)
 &
 &
 mTarget
@@ -1482,15 +1473,6 @@ video
 -
 >
 GetEndTime
-(
-)
-)
-;
-MOZ_ASSERT
-(
-mSeekJob
-.
-Exists
 (
 )
 )
@@ -2201,8 +2183,6 @@ DropAudioUpToSeekTarget
 .
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -2396,8 +2376,6 @@ MediaData
 AUDIO_DATA
 &
 &
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -3014,8 +2992,6 @@ seek
 .
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
