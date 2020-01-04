@@ -2723,6 +2723,10 @@ start
 temp
 )
 ;
+asMasm
+(
+)
+.
 addPtr
 (
 ptr
