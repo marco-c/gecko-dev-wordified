@@ -2118,6 +2118,12 @@ earlyCheck
 ;
 ICEntry
 &
+warmupCountICEntry
+(
+)
+;
+ICEntry
+&
 icEntryFromReturnAddress
 (
 uint8_t

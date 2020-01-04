@@ -15934,6 +15934,9 @@ GetDOMProxyHandlerFamily
 )
 ;
 }
+struct
+IonOsrTempData
+;
 }
 /
 /
