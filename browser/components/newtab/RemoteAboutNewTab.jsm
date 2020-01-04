@@ -72,7 +72,7 @@ Task
 globals
 BackgroundPageThumbs
 PageThumbs
-RemoteDirectoryLinksProvider
+DirectoryLinksProvider
 *
 /
 /
@@ -294,7 +294,7 @@ defineLazyModuleGetter
 (
 this
 "
-RemoteDirectoryLinksProvider
+DirectoryLinksProvider
 "
 "
 resource
@@ -304,7 +304,7 @@ resource
 /
 modules
 /
-RemoteDirectoryLinksProvider
+DirectoryLinksProvider
 .
 jsm
 "
@@ -1281,7 +1281,7 @@ enhancedLinks
 .
 push
 (
-RemoteDirectoryLinksProvider
+DirectoryLinksProvider
 .
 getEnhancedLink
 (
