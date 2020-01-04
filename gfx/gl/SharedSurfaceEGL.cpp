@@ -388,6 +388,7 @@ KHR_gl_texture_2D_image
 )
 &
 &
+(
 gl
 -
 >
@@ -397,6 +398,19 @@ GLContext
 :
 :
 OES_EGL_image_external
+)
+|
+|
+gl
+-
+>
+IsExtensionSupported
+(
+GLContext
+:
+:
+OES_EGL_image
+)
 )
 ;
 }

@@ -1116,7 +1116,12 @@ const
 GLuint
 target
 =
-LOCAL_GL_TEXTURE_EXTERNAL
+mReadbackGL
+-
+>
+GetPreferredEGLImageTextureTarget
+(
+)
 ;
 ScopedBindTexture
 autoTex
