@@ -2919,7 +2919,13 @@ BackendType
 :
 CAIRO
 )
+;
+#
+ifdef
+USE_SKIA
+canvasMask
 |
+=
 BackendTypeBit
 (
 BackendType
@@ -2928,6 +2934,8 @@ BackendType
 SKIA
 )
 ;
+#
+endif
 uint32_t
 contentMask
 =
