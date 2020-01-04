@@ -1815,10 +1815,9 @@ searchTokens
 .
 some
 (
-function
-(
 tok
-)
+=
+>
 entry
 .
 textLowerCase
