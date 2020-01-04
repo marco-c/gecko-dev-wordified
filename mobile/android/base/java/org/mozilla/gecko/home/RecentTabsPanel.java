@@ -748,7 +748,7 @@ R
 .
 layout
 .
-home_recent_tabs_panel
+home_list_panel
 container
 false
 )
