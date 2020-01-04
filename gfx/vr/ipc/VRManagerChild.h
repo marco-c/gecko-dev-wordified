@@ -760,6 +760,17 @@ aDisplayID
 )
 override
 ;
+virtual
+bool
+RecvGamepadUpdate
+(
+const
+GamepadChangeEvent
+&
+aGamepadEvent
+)
+override
+;
 /
 /
 ShmemAllocator
