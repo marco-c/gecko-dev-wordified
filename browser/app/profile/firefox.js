@@ -7982,6 +7982,9 @@ captive
 portal
 detection
 .
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -7998,6 +8001,8 @@ enabled
 true
 )
 ;
+#
+endif
 /
 /
 If
