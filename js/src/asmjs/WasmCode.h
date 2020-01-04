@@ -1200,7 +1200,7 @@ struct
 CacheablePod
 {
 uint32_t
-exitGlobalDataOffset_
+tlsDataOffset_
 ;
 uint32_t
 interpExitCodeOffset_
@@ -1236,7 +1236,7 @@ Sig
 &
 sig
 uint32_t
-exitGlobalDataOffset
+tlsDataOffset
 )
 :
 sig_
@@ -1249,9 +1249,9 @@ sig
 {
 pod
 .
-exitGlobalDataOffset_
+tlsDataOffset_
 =
-exitGlobalDataOffset
+tlsDataOffset
 ;
 pod
 .
@@ -1323,7 +1323,7 @@ sig_
 ;
 }
 uint32_t
-exitGlobalDataOffset
+tlsDataOffset
 (
 )
 const
@@ -1331,7 +1331,7 @@ const
 return
 pod
 .
-exitGlobalDataOffset_
+tlsDataOffset_
 ;
 }
 uint32_t

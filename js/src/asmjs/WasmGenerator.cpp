@@ -955,7 +955,7 @@ globalDataLength
 =
 sizeof
 (
-FuncImportExit
+FuncImportTls
 )
 ;
 if
@@ -4594,7 +4594,7 @@ allocateGlobalBytes
 (
 sizeof
 (
-FuncImportExit
+FuncImportTls
 )
 sizeof
 (
