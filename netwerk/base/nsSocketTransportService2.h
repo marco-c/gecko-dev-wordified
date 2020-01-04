@@ -1354,6 +1354,11 @@ bool
 aGuardLocals
 )
 ;
+nsresult
+ShutdownThread
+(
+)
+;
 /
 /
 -
