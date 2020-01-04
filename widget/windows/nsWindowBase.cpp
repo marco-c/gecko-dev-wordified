@@ -545,9 +545,6 @@ ptPixelLocation
 .
 x
 =
-WinUtils
-:
-:
 LogToPhys
 (
 aPointerScreenPoint
@@ -563,9 +560,6 @@ ptPixelLocation
 .
 y
 =
-WinUtils
-:
-:
 LogToPhys
 (
 aPointerScreenPoint
