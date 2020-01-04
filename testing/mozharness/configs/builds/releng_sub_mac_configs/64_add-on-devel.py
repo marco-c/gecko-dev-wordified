@@ -199,11 +199,7 @@ MOZ_OBJDIR
 '
 obj
 -
-add
--
-on
--
-devel
+firefox
 '
         
 '
