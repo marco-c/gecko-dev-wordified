@@ -590,7 +590,6 @@ frame
 >
 GetName
 (
-cx
 funName
 )
 ;
