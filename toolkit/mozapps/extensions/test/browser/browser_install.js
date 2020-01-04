@@ -203,7 +203,7 @@ AddonManager
 getAddonByID
 (
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -326,7 +326,7 @@ AddonManager
 getAddonByID
 (
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -622,7 +622,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -751,7 +751,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -882,7 +882,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -937,7 +937,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -1069,7 +1069,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -1828,7 +1828,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
@@ -1956,7 +1956,7 @@ get_addon_element
 (
 gManagerWindow
 "
-addon1
+install1
 tests
 .
 mozilla
