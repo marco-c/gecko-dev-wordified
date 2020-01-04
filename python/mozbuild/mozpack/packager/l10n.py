@@ -203,8 +203,6 @@ self
 bases
 =
 [
-'
-'
 ]
         
 class

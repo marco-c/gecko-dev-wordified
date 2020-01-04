@@ -148,6 +148,11 @@ is_addon
 ?
         
 '
+'
+:
+False
+        
+'
 app
 '
 :
@@ -1714,6 +1719,14 @@ root
 '
 b
 )
+if
+b
+else
+'
+base
+/
+root
+'
 :
 a
         
@@ -1808,41 +1821,6 @@ iteritems
     
 }
 }
-#
-There
-is
-no
-base
-for
-the
-top
-directory
-in
-CONTENTS
-#
-and
-we
-want
-a
-specific
-base
-here
-.
-CONTENTS_WITH_BASE
-[
-'
-bases
-'
-]
-[
-'
-base
-/
-root
-'
-]
-=
-False
 EXTRA_CONTENTS
 =
 {
@@ -2714,6 +2692,14 @@ dummy
 '
             
 ]
+)
+            
+f
+.
+add_base
+(
+'
+'
 )
             
 f
