@@ -509,15 +509,9 @@ check
 {
 filter
 :
-url
-(
-images
-/
-filters
-.
-svg
-#
 invert
+(
+1
 )
 ;
 }
