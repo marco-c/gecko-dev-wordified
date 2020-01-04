@@ -208,12 +208,10 @@ jit
 MacroAssembler
 &
 masm
-uint32_t
-target
 const
-Sig
+Export
 &
-sig
+exp
 bool
 usesHeap
 )
