@@ -202,6 +202,15 @@ void
 info
 )
 ;
+void
+calculateNetworkId
+(
+void
+)
+;
+nsCString
+mNetworkId
+;
 }
 ;
 #
