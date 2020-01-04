@@ -18167,6 +18167,9 @@ SubtreeRoot
 ;
 if
 (
+orphanTree
+&
+&
 !
 mAlreadyMeasuredOrphanTrees
 .
