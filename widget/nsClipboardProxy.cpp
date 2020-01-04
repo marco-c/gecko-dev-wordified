@@ -637,6 +637,14 @@ EqualsLiteral
 (
 kNativeHTMLMime
 )
+|
+|
+flavor
+.
+EqualsLiteral
+(
+kRTFMime
+)
 )
 {
 nsCOMPtr
