@@ -337,7 +337,6 @@ the
 |
 SharedMemory
 {
-SysV
 Basic
 }
 :
@@ -1161,12 +1160,6 @@ T
 )
 ;
 }
-int
-GetSysVID
-(
-)
-const
-;
 /
 /
 These
