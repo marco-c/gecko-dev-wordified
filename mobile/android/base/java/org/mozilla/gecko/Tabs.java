@@ -246,6 +246,17 @@ mozilla
 .
 gecko
 .
+reader
+.
+ReaderModeUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 GeckoEventListener

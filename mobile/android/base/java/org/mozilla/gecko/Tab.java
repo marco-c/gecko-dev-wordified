@@ -269,6 +269,17 @@ mozilla
 .
 gecko
 .
+reader
+.
+ReaderModeUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 toolbar
 .
 BrowserToolbar
