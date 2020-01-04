@@ -28176,6 +28176,12 @@ IsAlwaysActive
 |
 |
 mShouldBuildScrollableLayer
+|
+|
+WillBuildScrollableLayer
+(
+aBuilder
+)
 ;
 }
 /
