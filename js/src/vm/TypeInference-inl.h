@@ -2019,11 +2019,6 @@ zone
 runtimeFromMainThread
 (
 )
--
->
-contextFromMainThread
-(
-)
 )
 oom
 (
