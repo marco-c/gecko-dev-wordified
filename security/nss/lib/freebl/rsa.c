@@ -4692,10 +4692,6 @@ wrong
 phi
 *
 /
-err
-=
-MP_OKAY
-;
 continue
 ;
 }
@@ -10178,6 +10174,11 @@ holdingLock
 =
 PR_TRUE
 ;
+(
+void
+)
+holdingLock
+;
 /
 *
 initialize
@@ -10344,6 +10345,11 @@ holdingLock
 =
 PR_FALSE
 ;
+(
+void
+)
+holdingLock
+;
 }
 while
 (
@@ -10464,10 +10470,6 @@ blindingParamsList
 .
 lock
 )
-;
-holdingLock
-=
-PR_FALSE
 ;
 }
 if

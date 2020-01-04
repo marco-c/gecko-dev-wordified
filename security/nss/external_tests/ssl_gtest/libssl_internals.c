@@ -1014,11 +1014,14 @@ offset
 if
 (
 !
+*
 keyPtr
 )
+{
 return
 PR_FALSE
 ;
+}
 PK11_FreeSymKey
 (
 *
@@ -1050,9 +1053,11 @@ if
 *
 keyPtr
 )
+{
 return
 PR_FALSE
 ;
+}
 return
 PR_TRUE
 ;

@@ -1068,6 +1068,7 @@ if
 (
 hashType
 <
+=
 HASH_AlgNULL
 |
 |

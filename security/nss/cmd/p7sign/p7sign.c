@@ -933,6 +933,13 @@ NULL
 pwdata
 )
 ;
+SECITEM_FreeItem
+(
+&
+data2sign
+PR_FALSE
+)
+;
 SEC_PKCS7DestroyContentInfo
 (
 cinfo
@@ -1335,6 +1342,11 @@ break
 ;
 }
 }
+PL_DestroyOptState
+(
+optstate
+)
+;
 if
 (
 !

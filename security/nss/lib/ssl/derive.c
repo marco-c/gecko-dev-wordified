@@ -2403,11 +2403,6 @@ len
 =
 effKeySize
 ;
-i
-+
-=
-effKeySize
-;
 keyblk
 .
 data
@@ -3702,6 +3697,8 @@ SECSuccess
 else
 SECStatus
 rv
+=
+SECFailure
 ;
 int
 i
@@ -3834,10 +3831,6 @@ SECFailure
 pcanbypass
 =
 PR_TRUE
-;
-rv
-=
-SECFailure
 ;
 /
 *
@@ -4158,10 +4151,6 @@ EXPORT_RSA_KEY_LENGTH
 pcanbypass
 =
 PR_FALSE
-;
-rv
-=
-SECSuccess
 ;
 break
 ;
@@ -4920,7 +4909,8 @@ rv
 =
 SECFailure
 ;
-break
+goto
+done
 ;
 }
 }
@@ -5020,7 +5010,8 @@ rv
 =
 SECFailure
 ;
-break
+goto
+done
 ;
 }
 /

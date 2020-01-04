@@ -1687,6 +1687,8 @@ useSocks
 =
 PR_FALSE
 ;
+rv
+=
 SECITEM_CopyItem
 (
 NULL
@@ -1706,6 +1708,18 @@ opt
 nextProtoNego
 )
 ;
+if
+(
+rv
+!
+=
+SECSuccess
+)
+{
+goto
+loser
+;
+}
 ss
 -
 >

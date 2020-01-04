@@ -1214,10 +1214,6 @@ carry
 =
 0
 ;
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 r0
@@ -1746,10 +1742,6 @@ carry
 =
 0
 ;
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 r1
@@ -1780,10 +1772,6 @@ carry
 r4
 =
 carry
-;
-carry
-=
-0
 ;
 carry
 =
@@ -1820,10 +1808,6 @@ r4
 +
 =
 carry
-;
-carry
-=
-0
 ;
 /
 *
@@ -1870,10 +1854,6 @@ carry
 =
 0
 ;
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 r1
@@ -1904,10 +1884,6 @@ r4
 +
 =
 carry
-;
-carry
-=
-0
 ;
 /
 *
@@ -1958,10 +1934,6 @@ r4
 +
 =
 carry
-;
-carry
-=
-0
 ;
 /
 *
@@ -2265,10 +2237,6 @@ r4_long
 <
 32
 )
-;
-carry
-=
-0
 ;
 carry
 =

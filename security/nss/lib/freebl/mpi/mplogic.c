@@ -2673,13 +2673,6 @@ NULL
 MP_BADARG
 )
 ;
-ix
-=
-MP_USED
-(
-a
-)
-;
 for
 (
 ix

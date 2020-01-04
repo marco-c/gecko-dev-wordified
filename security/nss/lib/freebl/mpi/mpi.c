@@ -3098,6 +3098,8 @@ qp
 ;
 mp_digit
 rem
+=
+0
 ;
 int
 pow
@@ -3273,11 +3275,13 @@ if
 (
 r
 )
+{
 *
 r
 =
 rem
 ;
+}
 if
 (
 q
@@ -20199,6 +20203,8 @@ q
 else
 mp_digit
 w
+=
+0
 q
 ;
 #
@@ -20675,6 +20681,7 @@ if
 (
 r
 )
+{
 *
 r
 =
@@ -20683,6 +20690,7 @@ mp_digit
 )
 w
 ;
+}
 s_mp_clamp
 (
 &
