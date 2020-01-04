@@ -4366,7 +4366,7 @@ pbmode
 .
 enabled
 "
-false
+true
 )
 ;
 #
