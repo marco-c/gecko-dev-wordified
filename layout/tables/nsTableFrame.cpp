@@ -8196,7 +8196,7 @@ hasBoxShadow
 aFrame
 -
 >
-StyleBorder
+StyleEffects
 (
 )
 -

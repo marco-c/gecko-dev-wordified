@@ -11666,7 +11666,7 @@ nsCSSShadowArray
 *
 shadows
 =
-StyleBorder
+StyleEffects
 (
 )
 -

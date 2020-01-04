@@ -18795,7 +18795,7 @@ DoGetBoxShadow
 return
 GetCSSShadowArray
 (
-StyleBorder
+StyleEffects
 (
 )
 -
