@@ -4057,17 +4057,6 @@ disabled
 )
 #
 subscribeToPageMenupopup
-#
-BMB_subscribeToPageMenuitem
-:
-not
-(
-[
-disabled
-]
-)
-#
-BMB_subscribeToPageMenupopup
 {
 list
 -
