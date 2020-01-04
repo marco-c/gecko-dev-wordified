@@ -284,7 +284,7 @@ class
 InterpreterFrame
 ;
 class
-StaticBlockObject
+StaticBlockScope
 ;
 class
 ClonedBlockObject
@@ -3950,7 +3950,7 @@ pushBlock
 JSContext
 *
 cx
-StaticBlockObject
+StaticBlockScope
 &
 block
 )

@@ -6171,7 +6171,7 @@ staticWith
 >
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -23166,7 +23166,7 @@ CASE
 JSOP_PUSHBLOCKSCOPE
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 =
@@ -23183,7 +23183,7 @@ pc
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -23247,7 +23247,7 @@ from
 scope
 chain
 .
-NestedStaticScopeObject
+NestedStaticScope
 *
 scope
 =
@@ -23271,13 +23271,13 @@ scope
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
 )
 ;
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 =
@@ -23286,7 +23286,7 @@ scope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -23393,7 +23393,7 @@ pc
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -23415,7 +23415,7 @@ pc
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -30368,7 +30368,7 @@ scope
 .
 Rooted
 <
-NestedStaticScopeObject
+NestedStaticScope
 *
 >
 scope
@@ -30393,7 +30393,7 @@ scope
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -30401,7 +30401,7 @@ StaticBlockObject
 ;
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 block
@@ -30413,7 +30413,7 @@ scope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -30443,7 +30443,7 @@ enclosingNestedScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )

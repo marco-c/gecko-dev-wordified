@@ -4991,7 +4991,7 @@ obj
 .
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -4999,7 +4999,7 @@ StaticBlockObject
 {
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 block
@@ -5010,7 +5010,7 @@ obj
 .
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -8197,7 +8197,7 @@ binding
 }
 for
 (
-NestedStaticScopeObject
+NestedStaticScope
 *
 chain
 =
@@ -8229,14 +8229,14 @@ chain
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
 )
 continue
 ;
-StaticBlockObject
+StaticBlockScope
 &
 block
 =
@@ -8245,7 +8245,7 @@ chain
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )

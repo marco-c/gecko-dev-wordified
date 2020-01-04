@@ -149,7 +149,7 @@ class
 ScriptSourceObject
 ;
 class
-StaticScopeObject
+StaticScope
 ;
 struct
 SourceCompressionTask
@@ -171,7 +171,7 @@ HandleObject
 scopeChain
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -255,7 +255,7 @@ e
 g
 .
 a
-StaticWithObject
+StaticWithScope
 )
 .
 *
@@ -297,7 +297,7 @@ SourceBufferHolder
 srcBuf
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope

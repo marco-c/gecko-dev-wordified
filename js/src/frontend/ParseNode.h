@@ -2250,7 +2250,7 @@ body
 ;
 pn_binary_obj
 :
-StaticWithObject
+StaticWithScope
 *
 PNK_VAR
 list

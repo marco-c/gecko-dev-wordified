@@ -19185,7 +19185,7 @@ MutableHandleObject
 dynamicScopeObj
 MutableHandle
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScopeObj
@@ -19257,7 +19257,7 @@ staticScopeObj
 .
 set
 (
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 :
 :
 create
@@ -19607,7 +19607,7 @@ scope
 >
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -19642,13 +19642,13 @@ scope
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 block
 =
@@ -19657,7 +19657,7 @@ scope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -19713,7 +19713,7 @@ enclosing
 >
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -19725,7 +19725,7 @@ enclosing
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -19778,7 +19778,7 @@ HandleObject
 dynamicScope
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -20201,7 +20201,7 @@ lexicalScope
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical
@@ -20255,7 +20255,7 @@ cx
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -22182,7 +22182,7 @@ cx
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -22216,7 +22216,7 @@ HasNonSyntacticScope
 {
 staticScope
 =
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 :
 :
 create
@@ -23799,7 +23799,7 @@ g
 .
 a
 *
-StaticWithObject
+StaticWithScope
 )
 .
 If
@@ -23865,7 +23865,7 @@ HandleObject
 enclosingDynamicScope
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -24171,7 +24171,7 @@ cx
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScopeObj
@@ -24720,7 +24720,7 @@ cx
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -25029,7 +25029,7 @@ compartment
 {
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical
@@ -25104,7 +25104,7 @@ HandleObject
 scope
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -25445,7 +25445,7 @@ cx
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -25539,7 +25539,7 @@ lexicalScope
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical
@@ -25680,7 +25680,7 @@ lexicalScope
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical
@@ -25849,7 +25849,7 @@ lexicalScope
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical

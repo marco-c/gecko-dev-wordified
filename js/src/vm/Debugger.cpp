@@ -45356,7 +45356,7 @@ pc
 Pass
 in
 a
-StaticEvalObject
+StaticEvalScope
 *
 not
 *
@@ -45403,7 +45403,7 @@ chain
 /
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -45485,7 +45485,7 @@ staticBlock
 ;
 enclosingStaticScope
 =
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 :
 :
 create
@@ -45591,7 +45591,7 @@ scope
 .
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -45606,7 +45606,7 @@ frame
 {
 staticScope
 =
-StaticEvalObject
+StaticEvalScope
 :
 :
 create
@@ -45797,7 +45797,7 @@ staticScope
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )

@@ -364,7 +364,7 @@ JSContext
 cx
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 block

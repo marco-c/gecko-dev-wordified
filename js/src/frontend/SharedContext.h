@@ -2121,7 +2121,7 @@ SharedContext
 {
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope_
@@ -2133,7 +2133,7 @@ GlobalSharedContext
 ExclusiveContext
 *
 cx
-StaticScopeObject
+StaticScope
 *
 staticScope
 Directives
@@ -3992,7 +3992,7 @@ scope
 .
 Rooted
 <
-NestedStaticScopeObject
+NestedStaticScope
 *
 >
 staticScope
@@ -4120,7 +4120,7 @@ StmtType
 CATCH
 ;
 }
-StaticBlockObject
+StaticBlockScope
 &
 staticBlock
 (
@@ -4143,7 +4143,7 @@ staticScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -4382,7 +4382,7 @@ StmtInfo
 stmt
 StmtType
 type
-NestedStaticScopeObject
+NestedStaticScope
 &
 staticScope
 )
@@ -4441,7 +4441,7 @@ linkAsInnermostScopeStmt
 StmtInfo
 *
 stmt
-NestedStaticScopeObject
+NestedStaticScope
 &
 staticScope
 )
@@ -4486,7 +4486,7 @@ staticScope
 void
 makeInnermostLexicalScope
 (
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 )

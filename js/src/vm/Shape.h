@@ -1044,7 +1044,7 @@ class
 Bindings
 ;
 class
-StaticBlockObject
+StaticBlockScope
 ;
 class
 TenuringTracer
@@ -3637,7 +3637,7 @@ PropertyTree
 ;
 friend
 class
-StaticBlockObject
+StaticBlockScope
 ;
 friend
 class

@@ -42264,7 +42264,7 @@ BlockScopeNote
 NoBlockScopeIndex
 )
 {
-StaticScopeObject
+StaticScope
 *
 scope
 =
@@ -42280,7 +42280,7 @@ scopeIndex
 >
 as
 <
-StaticScopeObject
+StaticScope
 >
 (
 )

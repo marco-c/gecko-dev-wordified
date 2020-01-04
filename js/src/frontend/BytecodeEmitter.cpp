@@ -3655,7 +3655,7 @@ stmt
 isBlockScope
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 =
@@ -4199,7 +4199,7 @@ static
 bool
 AllLocalsAliased
 (
-StaticBlockObject
+StaticBlockScope
 &
 obj
 )
@@ -4250,7 +4250,7 @@ computeAliasedSlots
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -4526,7 +4526,7 @@ computeLocalOffset
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -4572,7 +4572,7 @@ innermostScopeStmt
 {
 Rooted
 <
-NestedStaticScopeObject
+NestedStaticScope
 *
 >
 outer
@@ -4606,7 +4606,7 @@ outer
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -4619,7 +4619,7 @@ outer
 )
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 outerBlock
 =
@@ -4628,7 +4628,7 @@ outer
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -4971,7 +4971,7 @@ to
 a
 /
 /
-NestedStaticScopeObject
+NestedStaticScope
 in
 the
 object
@@ -5375,7 +5375,7 @@ stmtType
 {
 Rooted
 <
-NestedStaticScopeObject
+NestedStaticScope
 *
 >
 scopeObj
@@ -5390,7 +5390,7 @@ object
 >
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -5420,7 +5420,7 @@ BLOCK
 {
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -5432,7 +5432,7 @@ scopeObj
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -5502,7 +5502,7 @@ all
 bindings
 to
 the
-StaticBlockObject
+StaticBlockScope
 so
 we
 make
@@ -5543,7 +5543,7 @@ scopeObj
 >
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -5875,7 +5875,7 @@ find
 blockObjIndex
 )
 ;
-NestedStaticScopeObject
+NestedStaticScope
 *
 staticScope
 =
@@ -5888,7 +5888,7 @@ object
 >
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -5916,7 +5916,7 @@ staticScope
 >
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -5946,7 +5946,7 @@ staticScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -8311,7 +8311,7 @@ staticScope
 >
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -8352,7 +8352,7 @@ staticScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -19009,7 +19009,7 @@ initializeBlockScopedLocalsFromStack
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -19255,7 +19255,7 @@ staticScope
 >
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -19367,7 +19367,7 @@ undefined
 .
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -19382,7 +19382,7 @@ object
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -38556,7 +38556,7 @@ staticScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
