@@ -9826,8 +9826,10 @@ display
 list
 generation
 .
-SetupLineCursor
+AutoLineCursorSetup
+autoLineCursor
 (
+this
 )
 ;
 absoluteContainer
@@ -9848,10 +9850,6 @@ flags
 aMetrics
 .
 mOverflowAreas
-)
-;
-ClearLineCursor
-(
 )
 ;
 }
