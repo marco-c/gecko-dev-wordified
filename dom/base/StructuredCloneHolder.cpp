@@ -1412,6 +1412,11 @@ aTransfer
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 aRv
 .
 Throw
