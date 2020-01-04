@@ -150,17 +150,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-InputConnectionHandler
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 Clipboard
@@ -361,7 +350,7 @@ GeckoInputConnection
 extends
 BaseInputConnection
 implements
-InputConnectionHandler
+InputConnectionListener
 GeckoEditableListener
 {
 private
@@ -6438,7 +6427,7 @@ PROXY_INTERFACES
 InputConnection
 .
 class
-InputConnectionHandler
+InputConnectionListener
 .
 class
 GeckoEditableListener
