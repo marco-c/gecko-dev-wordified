@@ -990,6 +990,14 @@ buf
 =
 NULL
 ;
+assert
+(
+ctx
+!
+=
+NULL
+)
+;
 if
 (
 ctx

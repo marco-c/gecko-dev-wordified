@@ -1258,6 +1258,9 @@ NULL
 if
 (
 ctx
+&
+&
+ctx
 -
 >
 sz
