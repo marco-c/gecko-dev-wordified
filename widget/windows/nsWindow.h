@@ -1635,7 +1635,7 @@ dc
 )
 ;
 bool
-ComputeShouldAccelerate
+WidgetTypeSupportsAcceleration
 (
 )
 override
