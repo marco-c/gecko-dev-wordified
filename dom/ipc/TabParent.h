@@ -2647,7 +2647,7 @@ uint32_t
 &
 aAction
 const
-nsCString
+OptionalShmem
 &
 aVisualDnDData
 const
