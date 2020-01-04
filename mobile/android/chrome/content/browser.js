@@ -34122,6 +34122,13 @@ true
 )
 )
 ;
+if
+(
+AppConstants
+.
+NIGHTLY_BUILD
+)
+{
 InitLater
 (
 (
@@ -34144,6 +34151,7 @@ true
 )
 )
 ;
+}
 /
 /
 ReaderViews
