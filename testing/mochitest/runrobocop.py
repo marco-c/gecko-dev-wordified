@@ -156,12 +156,6 @@ __file__
 )
 )
 )
-#
-TODO
-inherit
-from
-MochitestBase
-instead
 class
 RobocopTestRunner
 (
