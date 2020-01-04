@@ -490,7 +490,7 @@ aRv
 *
 Reply
 to
-get
+set
 -
 message
 request
@@ -553,7 +553,7 @@ aRv
 *
 Reply
 to
-get
+send
 -
 message
 request
@@ -565,6 +565,15 @@ aMasId
 in
 ]
 MAS
+ID
+.
+*
+param
+aHandleId
+[
+in
+]
+Handle
 ID
 .
 *
@@ -603,6 +612,10 @@ ReplyToSendMessage
 (
 long
 aMasId
+const
+nsAString
+&
+aHandleId
 bool
 aStatus
 ErrorResult
