@@ -1993,9 +1993,9 @@ mir
 )
 ;
 void
-emitAsmJSCallBase
+emitWasmCallBase
 (
-LAsmJSCallBase
+LWasmCallBase
 *
 ins
 )

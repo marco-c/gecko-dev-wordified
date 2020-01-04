@@ -1504,7 +1504,7 @@ AsmJSPassStackArg
 \
 _
 (
-AsmJSCall
+WasmCall
 )
 \
 _

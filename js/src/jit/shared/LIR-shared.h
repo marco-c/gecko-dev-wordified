@@ -37145,7 +37145,7 @@ getInt64Operand
 }
 ;
 class
-LAsmJSCallBase
+LWasmCallBase
 :
 public
 LInstruction
@@ -37159,7 +37159,7 @@ numOperands_
 ;
 public
 :
-LAsmJSCallBase
+LWasmCallBase
 (
 LAllocation
 *
@@ -37178,7 +37178,7 @@ numOperands
 )
 {
 }
-MAsmJSCall
+MWasmCall
 *
 mir
 (
@@ -37189,7 +37189,7 @@ return
 mir_
 -
 >
-toAsmJSCall
+toWasmCall
 (
 )
 ;
@@ -37424,10 +37424,10 @@ successors
 }
 ;
 class
-LAsmJSCall
+LWasmCall
 :
 public
-LAsmJSCallBase
+LWasmCallBase
 {
 LDefinition
 def_
@@ -37436,10 +37436,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSCall
+WasmCall
 )
 ;
-LAsmJSCall
+LWasmCall
 (
 LAllocation
 *
@@ -37448,7 +37448,7 @@ uint32_t
 numOperands
 )
 :
-LAsmJSCallBase
+LWasmCallBase
 (
 operands
 numOperands
@@ -37544,10 +37544,10 @@ def
 }
 ;
 class
-LAsmJSCallI64
+LWasmCallI64
 :
 public
-LAsmJSCallBase
+LWasmCallBase
 {
 LDefinition
 defs_
@@ -37559,10 +37559,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSCallI64
+WasmCallI64
 )
 ;
-LAsmJSCallI64
+LWasmCallI64
 (
 LAllocation
 *
@@ -37571,7 +37571,7 @@ uint32_t
 numOperands
 )
 :
-LAsmJSCallBase
+LWasmCallBase
 (
 operands
 numOperands
