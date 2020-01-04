@@ -15968,10 +15968,11 @@ aObj
 ;
 static
 bool
-IsWorkerLoad
+IsNonSubresourceRequest
 (
-nsContentPolicyType
-aLoadType
+nsIChannel
+*
+aChannel
 )
 ;
 /
