@@ -1559,6 +1559,11 @@ hasFPU
 (
 )
 ;
+bool
+isLoongson
+(
+)
+;
 /
 /
 MIPS
