@@ -12341,16 +12341,6 @@ ImportantStyleData
 >
 importantRules
 ;
-PresContext
-(
-)
--
->
-StyleSet
-(
-)
--
->
 AppendPageRules
 (
 rules
