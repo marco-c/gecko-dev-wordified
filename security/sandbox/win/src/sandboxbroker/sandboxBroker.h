@@ -175,12 +175,6 @@ SandboxBroker
 (
 )
 ;
-static
-bool
-Initialize
-(
-)
-;
 bool
 LaunchApp
 (
