@@ -130,6 +130,13 @@ License
 #
 include
 "
+BigEndian
+.
+h
+"
+#
+include
+"
 ClearKeyDecryptionManager
 .
 h
@@ -176,13 +183,6 @@ api
 gmp
 -
 decryption
-.
-h
-"
-#
-include
-"
-Endian
 .
 h
 "
