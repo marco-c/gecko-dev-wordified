@@ -45,13 +45,6 @@ zero
 /
 *
 /
-var
-ScratchpadManager
-=
-Scratchpad
-.
-ScratchpadManager
-;
 /
 *
 Call

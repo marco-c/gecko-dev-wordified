@@ -883,8 +883,6 @@ closed
 "
 )
 ;
-privateWindow
-.
 HUDService
 .
 toggleBrowserConsole
@@ -1139,8 +1137,6 @@ console
 "
 )
 ;
-privateWindow
-.
 HUDService
 .
 toggleBrowserConsole
