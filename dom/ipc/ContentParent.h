@@ -3492,6 +3492,9 @@ aIsConnected
 bool
 *
 aIsLangRTL
+bool
+*
+aHaveBidiKeyboards
 InfallibleTArray
 <
 nsString

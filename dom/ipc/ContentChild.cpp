@@ -5543,6 +5543,7 @@ process
 bool
 isOffline
 isLangRTL
+haveBidiKeyboards
 ;
 bool
 isConnected
@@ -5564,6 +5565,8 @@ isOffline
 isConnected
 &
 isLangRTL
+&
+haveBidiKeyboards
 &
 mAvailableDictionaries
 &
@@ -5587,6 +5590,7 @@ isConnected
 RecvBidiKeyboardNotify
 (
 isLangRTL
+haveBidiKeyboards
 )
 ;
 /
@@ -8033,6 +8037,10 @@ const
 bool
 &
 aIsLangRTL
+const
+bool
+&
+aHaveBidiKeyboards
 )
 {
 /
@@ -8087,9 +8095,10 @@ bidi
 bidi
 -
 >
-SetIsLangRTL
+SetBidiKeyboardInfo
 (
 aIsLangRTL
+aHaveBidiKeyboards
 )
 ;
 }
