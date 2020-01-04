@@ -542,6 +542,10 @@ function
 )
 {
 return
+[
+.
+.
+.
 this
 .
 _getAllProfiles
@@ -551,6 +555,7 @@ _getAllProfiles
 keys
 (
 )
+]
 .
 map
 (
