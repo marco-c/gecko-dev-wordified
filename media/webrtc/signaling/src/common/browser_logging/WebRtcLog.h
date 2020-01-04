@@ -72,6 +72,16 @@ common_types
 h
 "
 void
+StartAecLog
+(
+)
+;
+void
+StopAecLog
+(
+)
+;
+void
 StartWebRtcLog
 (
 uint32_t
