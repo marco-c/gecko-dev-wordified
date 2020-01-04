@@ -325,13 +325,6 @@ ErrorResult
 aRv
 )
 ;
-WorkerPrivate
-*
-GetWorkerPrivate
-(
-)
-const
-;
 private
 :
 /
