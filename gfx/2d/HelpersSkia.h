@@ -861,7 +861,7 @@ mDashLength
 )
 ;
 }
-SkDashPathEffect
+SkPathEffect
 *
 dash
 =
