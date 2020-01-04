@@ -2362,7 +2362,9 @@ type
 if
 (
 !
-mRoleMapEntry
+ARIARoleMap
+(
+)
 &
 &
 type
