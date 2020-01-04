@@ -630,6 +630,11 @@ HighestStartTime
 (
 )
 ;
+double
+HighestEndTime
+(
+)
+;
 /
 /
 Runs

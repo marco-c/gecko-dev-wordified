@@ -537,6 +537,11 @@ HighestStartTime
 (
 )
 ;
+double
+HighestEndTime
+(
+)
+;
 private
 :
 ~
