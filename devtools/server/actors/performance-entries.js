@@ -103,7 +103,7 @@ entry
 const
 {
 Actor
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -152,7 +152,7 @@ core
 var
 PerformanceEntriesActor
 =
-ActorClass
+ActorClassWithSpec
 (
 performanceSpec
 {

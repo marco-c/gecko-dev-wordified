@@ -32,9 +32,9 @@ var
 method
 RetVal
 Actor
-ActorClass
+ActorClassWithSpec
 Front
-FrontClass
+FrontClassWithSpec
 generateActorSpec
 }
 =
@@ -97,7 +97,7 @@ exports
 .
 LazyActor
 =
-ActorClass
+ActorClassWithSpec
 (
 lazySpec
 {
@@ -172,7 +172,7 @@ exports
 .
 LazyFront
 =
-FrontClass
+FrontClassWithSpec
 (
 lazySpec
 {

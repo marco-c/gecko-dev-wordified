@@ -3290,7 +3290,7 @@ is
 *
 created
 with
-ActorClass
+ActorClassWithSpec
 rather
 than
 vanilla

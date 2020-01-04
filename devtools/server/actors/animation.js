@@ -264,7 +264,7 @@ protocol
 const
 {
 Actor
-ActorClass
+ActorClassWithSpec
 }
 =
 protocol
@@ -411,7 +411,7 @@ AnimationPlayerActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 animationPlayerSpec
 {
@@ -2941,7 +2941,7 @@ AnimationsActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 animationsSpec
 {

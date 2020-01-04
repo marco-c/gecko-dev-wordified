@@ -1326,7 +1326,7 @@ TestActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 testSpec
 {
@@ -4477,7 +4477,7 @@ TestActorFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 testSpec
 {

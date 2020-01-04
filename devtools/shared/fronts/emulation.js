@@ -113,7 +113,7 @@ EmulationActor
 const
 EmulationFront
 =
-FrontClass
+FrontClassWithSpec
 (
 emulationSpec
 {

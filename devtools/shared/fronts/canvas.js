@@ -128,7 +128,7 @@ FrameSnapshotFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 frameSnapshotSpec
 {
@@ -393,7 +393,7 @@ CanvasFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 canvasSpec
 {

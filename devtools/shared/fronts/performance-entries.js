@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 }
 =
 require
@@ -99,7 +99,7 @@ entries
 var
 PerformanceEntriesFront
 =
-FrontClass
+FrontClassWithSpec
 (
 performanceSpec
 {

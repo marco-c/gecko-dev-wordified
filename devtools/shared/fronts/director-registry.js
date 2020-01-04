@@ -114,7 +114,7 @@ DirectorRegistryFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 directorRegistrySpec
 {

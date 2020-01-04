@@ -194,7 +194,7 @@ PromisesActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 promisesSpec
 {

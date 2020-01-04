@@ -98,7 +98,7 @@ AddonsFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 addonsSpec
 {

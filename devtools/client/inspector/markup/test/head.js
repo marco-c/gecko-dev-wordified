@@ -3811,7 +3811,7 @@ actor
 -
 actorClass
 {
-ActorClass
+ActorClassWithSpec
 }
 :
 Constructor
@@ -3824,7 +3824,7 @@ actor
 -
 frontClass
 {
-FrontClass
+FrontClassWithSpec
 }
 :
 Constructor

@@ -98,7 +98,7 @@ PreferenceFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 preferenceSpec
 {

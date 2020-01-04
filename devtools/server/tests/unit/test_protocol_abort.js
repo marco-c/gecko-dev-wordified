@@ -146,7 +146,7 @@ RootActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 rootSpec
 {
@@ -230,7 +230,7 @@ RootFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 rootSpec
 {

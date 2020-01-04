@@ -82,7 +82,7 @@ string
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 }
 =
 require
@@ -173,7 +173,7 @@ StyleSheetActor
 const
 OldStyleSheetFront
 =
-FrontClass
+FrontClassWithSpec
 (
 oldStyleSheetSpec
 {
@@ -520,7 +520,7 @@ StyleEditorActor
 const
 StyleEditorFront
 =
-FrontClass
+FrontClassWithSpec
 (
 styleEditorSpec
 {

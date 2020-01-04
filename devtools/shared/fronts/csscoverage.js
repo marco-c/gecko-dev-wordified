@@ -293,7 +293,7 @@ CSSUsageFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 cssUsageSpec
 {

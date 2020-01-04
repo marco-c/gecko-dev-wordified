@@ -362,7 +362,7 @@ ReflowActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 reflowSpec
 {

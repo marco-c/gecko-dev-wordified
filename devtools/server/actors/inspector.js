@@ -1724,7 +1724,7 @@ NodeActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 nodeSpec
 {
@@ -4844,7 +4844,7 @@ NodeListActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 nodeListSpec
 {
@@ -5162,7 +5162,7 @@ WalkerActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 walkerSpec
 {
@@ -17040,7 +17040,7 @@ InspectorActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 inspectorSpec
 {

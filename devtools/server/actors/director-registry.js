@@ -839,7 +839,7 @@ DirectorRegistryActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 directorRegistrySpec
 {

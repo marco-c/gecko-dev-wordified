@@ -117,7 +117,7 @@ strict
 ;
 const
 {
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -237,7 +237,7 @@ environment
 let
 EnvironmentActor
 =
-ActorClass
+ActorClassWithSpec
 (
 environmentSpec
 {

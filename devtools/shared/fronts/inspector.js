@@ -108,7 +108,7 @@ string
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 custom
 preEvent
 types
@@ -568,7 +568,7 @@ children
 const
 NodeFront
 =
-FrontClass
+FrontClassWithSpec
 (
 nodeSpec
 {
@@ -2763,7 +2763,7 @@ querySelectorAll
 const
 NodeListFront
 =
-FrontClass
+FrontClassWithSpec
 (
 nodeListSpec
 {
@@ -2957,7 +2957,7 @@ walker
 const
 WalkerFront
 =
-FrontClass
+FrontClassWithSpec
 (
 walkerSpec
 {
@@ -6077,7 +6077,7 @@ walker
 var
 InspectorFront
 =
-FrontClass
+FrontClassWithSpec
 (
 inspectorSpec
 {

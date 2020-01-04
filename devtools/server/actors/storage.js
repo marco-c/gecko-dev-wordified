@@ -2643,7 +2643,7 @@ actor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 actorSpec
 actorObject
@@ -13561,7 +13561,7 @@ StorageActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 specs
 .

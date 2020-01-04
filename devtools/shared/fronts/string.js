@@ -125,7 +125,7 @@ LongStringFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 longStringSpec
 {

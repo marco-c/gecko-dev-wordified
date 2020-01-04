@@ -115,7 +115,7 @@ FunctionCallFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 functionCallSpec
 {
@@ -275,7 +275,7 @@ CallWatcherFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 callWatcherSpec
 {

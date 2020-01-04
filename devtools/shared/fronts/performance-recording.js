@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 }
 =
 require
@@ -217,7 +217,7 @@ server
 const
 PerformanceRecordingFront
 =
-FrontClass
+FrontClassWithSpec
 (
 performanceRecordingSpec
 merge

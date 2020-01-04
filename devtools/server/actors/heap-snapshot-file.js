@@ -246,7 +246,7 @@ HeapSnapshotFileActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 heapSnapshotFileSpec
 {
