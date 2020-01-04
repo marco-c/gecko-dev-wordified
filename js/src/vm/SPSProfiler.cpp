@@ -2499,7 +2499,9 @@ s
 s
 :
 %
-llu
+"
+PRIu64
+"
 )
 "
 atomStr
@@ -2527,8 +2529,8 @@ len
 s
 :
 %
-llu
 "
+PRIu64
 filename
 lineno
 )
