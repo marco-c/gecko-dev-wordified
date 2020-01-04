@@ -4962,9 +4962,10 @@ handler
 ;
 if
 (
-isVisible
-(
-)
+mAdapter
+!
+=
+null
 )
 {
 if
