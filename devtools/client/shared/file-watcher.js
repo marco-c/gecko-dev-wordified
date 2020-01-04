@@ -175,6 +175,8 @@ this
 .
 const
 {
+path
+:
 newPath
 }
 =
