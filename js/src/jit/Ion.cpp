@@ -15858,6 +15858,16 @@ cx
 )
 )
 {
+if
+(
+cx
+-
+>
+isThrowingOutOfMemory
+(
+)
+)
+{
 cx
 -
 >
@@ -15867,6 +15877,10 @@ recoverFromOutOfMemory
 ;
 return
 Method_Skipped
+;
+}
+return
+Method_Error
 ;
 }
 }

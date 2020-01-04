@@ -8626,6 +8626,8 @@ js
 HandleObject
 callee
 HandleObject
+newTarget
+HandleObject
 proto
 NewObjectKind
 newKind
@@ -8661,6 +8663,11 @@ js
 :
 HandleObject
 callee
+js
+:
+:
+HandleObject
+newTarget
 NewObjectKind
 newKind
 )

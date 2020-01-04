@@ -3619,6 +3619,8 @@ JSContext
 cx
 HandleObject
 callee
+HandleObject
+newTarget
 MutableHandleValue
 rval
 )
@@ -3750,6 +3752,7 @@ CreateThisForFunction
 (
 cx
 callee
+newTarget
 GenericObject
 )
 ;
