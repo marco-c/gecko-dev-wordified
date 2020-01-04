@@ -371,14 +371,6 @@ current_window_handle
 orig_win
 )
         
-now_available
-=
-self
-.
-marionette
-.
-window_handles
-        
 #
 assert
 we
@@ -403,7 +395,11 @@ _
 :
 len
 (
-now_available
+self
+.
+marionette
+.
+window_handles
 )
 =
 =
@@ -436,12 +432,19 @@ window
 is
 there
         
+now_available
+=
 self
 .
-assertTrue
+marionette
+.
+window_handles
+        
+self
+.
+assertIn
 (
 orig_win
-in
 now_available
 )
         
@@ -464,7 +467,7 @@ orig_win
                 
 new_win
 =
-orig_win
+win
         
 #
 switch
@@ -493,6 +496,18 @@ current_window_handle
 new_win
 )
         
+self
+.
+assertNotEqual
+(
+self
+.
+marionette
+.
+current_window_handle
+orig_win
+)
+        
 #
 switch
 back
@@ -508,8 +523,32 @@ orig_win
         
 self
 .
+assertEqual
+(
+self
+.
+marionette
+.
+current_window_handle
+orig_win
+)
+        
+self
+.
 close_new_window
 (
+)
+        
+self
+.
+assertNotIn
+(
+new_win
+self
+.
+marionette
+.
+window_handles
 )
         
 self
