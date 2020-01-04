@@ -1745,7 +1745,8 @@ osa
 endif
 if
 (
-XRE_IsContentProcess
+!
+XRE_IsParentProcess
 (
 )
 )
