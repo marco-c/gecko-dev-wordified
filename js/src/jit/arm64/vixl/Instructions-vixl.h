@@ -2064,6 +2064,13 @@ ImmPCRawOffset
 const
 ;
 void
+SetImmPCRawOffset
+(
+ptrdiff_t
+offset
+)
+;
+void
 SetBits32
 (
 int
