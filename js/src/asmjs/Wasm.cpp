@@ -7807,11 +7807,15 @@ version
 UniqueModuleGeneratorData
 init
 =
+js
+:
+:
 MakeUnique
 <
 ModuleGeneratorData
 >
 (
+cx
 )
 ;
 if

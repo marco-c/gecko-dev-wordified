@@ -494,10 +494,6 @@ JSRuntime
 const
 runtime_
 ;
-const
-CompileArgs
-args_
-;
 ModuleGeneratorThreadView
 &
 mg_
@@ -545,8 +541,6 @@ IonCompileTask
 JSRuntime
 *
 rt
-CompileArgs
-args
 ModuleGeneratorThreadView
 &
 mg
@@ -557,10 +551,6 @@ defaultChunkSize
 runtime_
 (
 rt
-)
-args_
-(
-args
 )
 mg_
 (
@@ -595,16 +585,6 @@ lifo
 {
 return
 lifo_
-;
-}
-CompileArgs
-args
-(
-)
-const
-{
-return
-args_
 ;
 }
 ModuleGeneratorThreadView
