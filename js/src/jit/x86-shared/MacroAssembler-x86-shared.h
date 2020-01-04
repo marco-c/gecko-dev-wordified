@@ -8266,7 +8266,7 @@ false
 ;
 }
 bool
-maybeInlineInt32x4
+maybeInlineSimd128Int
 (
 const
 SimdConstant
@@ -8346,7 +8346,7 @@ false
 ;
 }
 bool
-maybeInlineFloat32x4
+maybeInlineSimd128Float
 (
 const
 SimdConstant

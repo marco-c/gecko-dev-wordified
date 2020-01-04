@@ -1599,9 +1599,9 @@ NYI
 ;
 }
 void
-visitInt32x4
+visitSimd128Int
 (
-LInt32x4
+LSimd128Int
 *
 ins
 )
@@ -1615,9 +1615,9 @@ NYI
 ;
 }
 void
-visitFloat32x4
+visitSimd128Float
 (
-LFloat32x4
+LSimd128Float
 *
 ins
 )

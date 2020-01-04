@@ -18175,9 +18175,9 @@ void
 CodeGeneratorX86Shared
 :
 :
-visitInt32x4
+visitSimd128Int
 (
-LInt32x4
+LSimd128Int
 *
 ins
 )
@@ -18197,7 +18197,7 @@ getDef
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 ins
 -
@@ -18216,9 +18216,9 @@ void
 CodeGeneratorX86Shared
 :
 :
-visitFloat32x4
+visitSimd128Float
 (
-LFloat32x4
+LSimd128Float
 *
 ins
 )
@@ -18238,7 +18238,7 @@ getDef
 ;
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 ins
 -
@@ -18410,7 +18410,7 @@ masm
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 InvalidResult
 scratch
@@ -18576,7 +18576,7 @@ masm
 ;
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 Int32MinX4
 scratch
@@ -18627,7 +18627,7 @@ onConversionError
 ;
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 Int32MaxX4
 scratch
@@ -19181,7 +19181,7 @@ Adjust
 ;
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 Bias
 scratch
@@ -24291,7 +24291,7 @@ in
 .
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 allOnes
 scratch
@@ -24387,7 +24387,7 @@ scratch
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 allOnes
 lhs
@@ -24434,7 +24434,7 @@ here
 .
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 allOnes
 scratch
@@ -25402,7 +25402,7 @@ temp
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 SimdConstant
 :
@@ -25629,7 +25629,7 @@ scratch
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 SimdConstant
 :
@@ -25668,7 +25668,7 @@ temp
 ;
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 SimdConstant
 :
@@ -25976,7 +25976,7 @@ not_
 :
 masm
 .
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 allOnes
 out
@@ -26186,7 +26186,7 @@ abs
 :
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 signMasks
 out
@@ -26210,7 +26210,7 @@ neg
 :
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 minusZero
 out
@@ -26234,7 +26234,7 @@ not_
 :
 masm
 .
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 allOnes
 out

@@ -6229,7 +6229,7 @@ dest
 )
 ;
 void
-loadConstantInt32x4
+loadConstantSimd128Int
 (
 const
 SimdConstant
@@ -6240,7 +6240,7 @@ dest
 )
 ;
 void
-loadConstantFloat32x4
+loadConstantSimd128Float
 (
 const
 SimdConstant
