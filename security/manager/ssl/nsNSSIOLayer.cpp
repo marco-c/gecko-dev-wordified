@@ -7128,7 +7128,7 @@ gPIPNSSLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 socketInfo
 -
@@ -7259,7 +7259,7 @@ gPIPNSSLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 [
@@ -7733,7 +7733,7 @@ gPIPNSSLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 [
@@ -7889,7 +7889,7 @@ gPIPNSSLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 [
