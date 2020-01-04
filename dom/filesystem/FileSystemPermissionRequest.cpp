@@ -473,7 +473,7 @@ AsyncStartRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

@@ -6035,7 +6035,7 @@ NotifyObserversTask
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

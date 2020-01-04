@@ -12385,7 +12385,7 @@ but
 /
 inheriting
 from
-nsCancelableRunnable
+CancelableRunnable
 is
 easy
 .
@@ -12397,7 +12397,7 @@ DelayedActionRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 using
 ActionFunc

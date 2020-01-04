@@ -359,7 +359,7 @@ ContextLossWorkerRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :
