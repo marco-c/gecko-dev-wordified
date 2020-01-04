@@ -245,11 +245,7 @@ rgb
 '
 identity
 -
-mixed
--
-active
--
-blocked
+secure
 '
                 
 '
