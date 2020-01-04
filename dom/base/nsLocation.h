@@ -938,6 +938,10 @@ ErrorResult
 aError
 )
 {
+THROW_AND_RETURN_IF_CALLER_DOESNT_SUBSUME
+(
+)
+;
 aError
 =
 SetHash
