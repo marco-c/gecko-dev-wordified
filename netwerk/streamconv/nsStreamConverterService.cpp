@@ -655,7 +655,7 @@ using
 an
 nsObjectHashtable
 and
-nsISupportsArray
+nsCOMArray
 combination
 )
 .

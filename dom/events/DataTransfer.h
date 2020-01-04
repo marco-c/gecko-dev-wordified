@@ -212,9 +212,6 @@ class
 nsITransferable
 ;
 class
-nsISupportsArray
-;
-class
 nsILoadContext
 ;
 namespace
