@@ -146,10 +146,6 @@ nsSVGFilters
 .
 h
 "
-typedef
-nsContainerFrame
-SVGFEContainerFrameBase
-;
 /
 *
 *
@@ -177,7 +173,7 @@ class
 SVGFEContainerFrame
 :
 public
-SVGFEContainerFrameBase
+nsContainerFrame
 {
 friend
 nsIFrame
@@ -202,7 +198,7 @@ nsStyleContext
 aContext
 )
 :
-SVGFEContainerFrameBase
+nsContainerFrame
 (
 aContext
 )
@@ -229,7 +225,7 @@ const
 override
 {
 return
-SVGFEContainerFrameBase
+nsContainerFrame
 :
 :
 IsFrameOfType
@@ -451,7 +447,7 @@ interfaces
 "
 )
 ;
-SVGFEContainerFrameBase
+nsContainerFrame
 :
 :
 Init
@@ -570,7 +566,7 @@ GetParent
 ;
 }
 return
-SVGFEContainerFrameBase
+nsContainerFrame
 :
 :
 AttributeChanged
