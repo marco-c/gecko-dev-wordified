@@ -404,15 +404,6 @@ aOutMinCDMVersion
 )
 ;
 void
-LogToBrowserConsole
-(
-const
-nsAString
-&
-aMsg
-)
-;
-void
 ConstructKeySystem
 (
 const

@@ -2125,6 +2125,15 @@ mTimer
 ;
 }
 ;
+void
+LogToBrowserConsole
+(
+const
+nsAString
+&
+aMsg
+)
+;
 }
 /
 /
