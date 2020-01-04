@@ -9240,6 +9240,16 @@ Capture
 capturesVariable
 (
 )
+&
+&
+Capture
+.
+getCaptureKind
+(
+)
+!
+=
+LCK_ByRef
 )
 {
 QualType
