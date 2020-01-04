@@ -777,6 +777,9 @@ seen
 "
 dependencies
 "
+"
+hasEmbeddedWebExtension
+"
 ]
 ;
 /
@@ -14821,6 +14824,11 @@ dependencies
 currentAddon
 .
 dependencies
+hasEmbeddedWebExtension
+:
+currentAddon
+.
+hasEmbeddedWebExtension
 }
 ;
 }

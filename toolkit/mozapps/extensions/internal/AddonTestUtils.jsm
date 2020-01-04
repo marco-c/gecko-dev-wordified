@@ -4818,6 +4818,9 @@ strictCompatibility
 "
 multiprocessCompatible
 "
+"
+hasEmbeddedWebExtension
+"
 ]
 ;
 rdf
