@@ -27107,7 +27107,7 @@ state
 ItemState
 :
 :
-eFirstBaseline
+eAllBaselineBits
 ;
 }
 }
@@ -27233,7 +27233,7 @@ state
 ItemState
 :
 :
-eLastBaseline
+eAllBaselineBits
 ;
 }
 }
