@@ -18007,8 +18007,12 @@ as_nop
 )
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+oom
+(
+)
 nextOffset
 (
 )

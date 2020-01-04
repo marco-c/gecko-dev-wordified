@@ -3620,8 +3620,12 @@ Relocation
 JITCODE
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+oom
+(
+)
 size
 (
 )
