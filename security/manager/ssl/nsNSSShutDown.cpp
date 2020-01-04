@@ -75,8 +75,7 @@ namespace
 mozilla
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gPIPNSSLog
 ;
 struct

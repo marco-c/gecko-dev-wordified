@@ -187,11 +187,8 @@ mozilla
 :
 psm
 ;
-PRLogModuleInfo
-*
+LazyLogModule
 gPublicKeyPinningLog
-=
-PR_NewLogModule
 (
 "
 PublicKeyPinningService
