@@ -399,6 +399,10 @@ bool
 unicode
 bool
 ignore_case
+bool
+global
+bool
+sticky
 RegExpCompileData
 *
 data

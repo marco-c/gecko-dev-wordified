@@ -3393,6 +3393,12 @@ unicode
 ignoreCase
 (
 )
+global
+(
+)
+sticky
+(
+)
 &
 data
 )
