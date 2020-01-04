@@ -1619,6 +1619,13 @@ BODY_LEVEL_LEXICAL_LIMIT
 =
 UINT16_LIMIT
 ;
+static
+const
+uint32_t
+BLOCK_SCOPED_LIMIT
+=
+UINT16_LIMIT
+;
 Binding
 *
 bindingArray
