@@ -164,6 +164,13 @@ UnitTransforms
 h
 "
 #
+include
+"
+nsIDocument
+.
+h
+"
+#
 define
 MVM_LOG
 (

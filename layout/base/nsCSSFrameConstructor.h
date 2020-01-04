@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 ScrollbarStyles
 .
 h
@@ -222,6 +215,9 @@ nsFirstLineFrame
 ;
 class
 nsICSSAnonBoxPseudo
+;
+class
+nsIDocument
 ;
 class
 nsPageContentFrame
