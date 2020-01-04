@@ -2890,11 +2890,7 @@ marked_
 =
 true
 ;
-if
-(
-source
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -2933,13 +2929,7 @@ compilationArray
 i
 ]
 ;
-if
-(
-compilation
-.
-jitCode
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

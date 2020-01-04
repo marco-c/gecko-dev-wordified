@@ -5990,15 +5990,7 @@ i
 +
 +
 )
-{
-if
-(
-shapes_
-[
-i
-]
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -6019,7 +6011,6 @@ shape
 "
 )
 ;
-}
 }
 Shape
 *

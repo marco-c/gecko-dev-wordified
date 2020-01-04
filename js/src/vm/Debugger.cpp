@@ -18192,11 +18192,7 @@ JSTracer
 trc
 )
 {
-if
-(
-uncaughtExceptionHook
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

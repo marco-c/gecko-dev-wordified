@@ -2989,11 +2989,7 @@ method
 "
 )
 ;
-if
-(
-templateScope_
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

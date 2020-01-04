@@ -343,14 +343,7 @@ trace
 tracer
 )
 ;
-if
-(
-m
--
->
-memberOf
-)
-TraceEdge
+TraceNullableEdge
 (
 tracer
 &
