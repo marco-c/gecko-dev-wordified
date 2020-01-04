@@ -899,7 +899,7 @@ MOZ_ASSERT_IF
 urlData
 -
 >
-GetLocalURLFlag
+IsLocalRef
 (
 )
 urlData
@@ -915,7 +915,7 @@ mIsLocalRef
 urlData
 -
 >
-GetLocalURLFlag
+IsLocalRef
 (
 )
 ;

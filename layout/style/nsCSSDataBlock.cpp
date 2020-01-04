@@ -621,7 +621,7 @@ if
 urlValue
 -
 >
-GetLocalURLFlag
+IsLocalRef
 (
 )
 )

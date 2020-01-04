@@ -16655,7 +16655,7 @@ mURIResolved
 (
 true
 )
-mLocalURLFlag
+mIsLocalRef
 (
 IsLocalRefURL
 (
@@ -16745,7 +16745,7 @@ mURIResolved
 (
 false
 )
-mLocalURLFlag
+mIsLocalRef
 (
 IsLocalRefURL
 (
@@ -16983,12 +16983,12 @@ get
 )
 &
 &
-mLocalURLFlag
+mIsLocalRef
 =
 =
 aOther
 .
-mLocalURLFlag
+mIsLocalRef
 ;
 }
 bool

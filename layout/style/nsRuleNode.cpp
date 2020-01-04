@@ -8685,7 +8685,7 @@ GetURLStructValue
 )
 -
 >
-GetLocalURLFlag
+IsLocalRef
 (
 )
 ;

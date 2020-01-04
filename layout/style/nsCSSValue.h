@@ -860,7 +860,7 @@ value
 mString
 and
 the
-mLocalURLFlag
+mIsLocalRef
 that
 these
 /
@@ -948,13 +948,13 @@ GetURI
 const
 ;
 bool
-GetLocalURLFlag
+IsLocalRef
 (
 )
 const
 {
 return
-mLocalURLFlag
+mIsLocalRef
 ;
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1028,7 +1028,7 @@ mURIResolved
 ;
 /
 /
-mLocalURLFlag
+mIsLocalRef
 is
 set
 when
@@ -1040,8 +1040,6 @@ U
 +
 0023
 number
-/
-/
 sign
 (
 #
@@ -1049,7 +1047,7 @@ sign
 character
 .
 bool
-mLocalURLFlag
+mIsLocalRef
 ;
 protected
 :
