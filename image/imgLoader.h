@@ -1647,6 +1647,12 @@ use
 by
 the
 factory
+static
+void
+ShutdownMemoryReporter
+(
+)
+;
 nsresult
 ClearChromeImageCache
 (
