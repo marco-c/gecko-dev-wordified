@@ -12984,7 +12984,6 @@ MacroAssembler
 :
 asmMergeWith
 (
-const
 MacroAssembler
 &
 other
