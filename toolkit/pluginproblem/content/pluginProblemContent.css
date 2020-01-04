@@ -261,6 +261,9 @@ height
 200px
 ;
 }
+a
+.
+mainBox
 :
 -
 moz
@@ -343,6 +346,11 @@ focus
 normal
 ;
 }
+a
+.
+mainBox
+:
+focus
 :
 -
 moz
@@ -582,6 +590,9 @@ direction
 rtl
 ;
 }
+a
+.
+hoverBox
 :
 -
 moz
@@ -647,6 +658,12 @@ display
 none
 ;
 }
+a
+.
+msgClickToPlay
+a
+.
+msgTapToPlay
 :
 -
 moz

@@ -648,6 +648,9 @@ png
 )
 ;
 }
+a
+.
+icon
 :
 -
 moz
@@ -878,6 +881,9 @@ handler
 clicktoplay
 .
 msgTapToPlay
+a
+.
+msgTapToPlay
 {
 display
 :
@@ -902,6 +908,9 @@ moz
 handler
 -
 clicktoplay
+.
+msgClickToPlay
+a
 .
 msgClickToPlay
 {
