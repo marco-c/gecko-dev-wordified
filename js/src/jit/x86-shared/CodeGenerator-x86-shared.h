@@ -2059,6 +2059,15 @@ LCopySignF
 lir
 )
 ;
+virtual
+void
+visitRotateI64
+(
+LRotateI64
+*
+lir
+)
+;
 void
 visitOutOfLineLoadTypedArrayOutOfBounds
 (

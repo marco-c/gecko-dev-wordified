@@ -416,14 +416,6 @@ lir
 )
 ;
 void
-visitRotate64
-(
-LRotate64
-*
-lir
-)
-;
-void
 visitDivOrModI64
 (
 LDivOrModI64

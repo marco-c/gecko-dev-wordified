@@ -1919,6 +1919,13 @@ defineReuseInput
 "
 )
 ;
+count
+.
+value
+&
+=
+0x1f
+;
 if
 (
 count
@@ -2001,6 +2008,13 @@ dest
 defineReuseInput
 "
 )
+;
+count
+.
+value
+&
+=
+0x1f
 ;
 if
 (

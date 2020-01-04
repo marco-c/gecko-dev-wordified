@@ -1943,7 +1943,7 @@ Rotate
 \
 _
 (
-Rotate64
+RotateI64
 )
 \
 _

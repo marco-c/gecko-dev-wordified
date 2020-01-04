@@ -8774,7 +8774,7 @@ alloc
 (
 )
 )
-LRotate64
+LRotateI64
 (
 )
 ;
