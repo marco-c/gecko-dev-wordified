@@ -2614,7 +2614,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 aLayer
@@ -3793,7 +3793,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 Some
@@ -4451,7 +4451,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 Some
@@ -13745,6 +13745,10 @@ GetCurrentAsyncTransformWithOverscroll
 Inverse
 (
 )
+.
+ToUnknownMatrix
+(
+)
 ;
 /
 /
@@ -14033,6 +14037,10 @@ GetCurrentAsyncTransformWithOverscroll
 )
 .
 Inverse
+(
+)
+.
+ToUnknownMatrix
 (
 )
 ;

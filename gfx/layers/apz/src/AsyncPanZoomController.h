@@ -1410,7 +1410,7 @@ any
 .
 *
 /
-Matrix4x4
+AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
 )
@@ -1809,7 +1809,7 @@ scroll
 .
 *
 /
-Matrix4x4
+AsyncTransformComponentMatrix
 GetCurrentAsyncTransformWithOverscroll
 (
 )

@@ -720,10 +720,7 @@ EventRegions
 &
 aRegions
 const
-gfx
-:
-:
-Matrix4x4
+CSSTransformMatrix
 &
 aTransform
 const
@@ -1059,10 +1056,7 @@ transforms
 .
 *
 /
-gfx
-:
-:
-Matrix4x4
+CSSTransformMatrix
 mTransform
 ;
 /

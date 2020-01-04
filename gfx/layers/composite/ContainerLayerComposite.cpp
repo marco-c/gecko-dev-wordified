@@ -5094,6 +5094,10 @@ apzc
 GetCurrentAsyncTransformWithOverscroll
 (
 )
+.
+ToUnknownMatrix
+(
+)
 *
 asyncTransform
 ;
@@ -6121,7 +6125,7 @@ GetAsyncTransformAppliedToContent
 &
 &
 !
-Matrix4x4
+AsyncTransformComponentMatrix
 (
 apzc
 -
