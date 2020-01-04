@@ -1154,6 +1154,7 @@ promise
 ;
 }
 function
+*
 task_resetState
 (
 )
@@ -1426,6 +1427,7 @@ download
 }
 }
 function
+*
 task_openPanel
 (
 )
@@ -1453,6 +1455,7 @@ promise
 ;
 }
 function
+*
 setDownloadDir
 (
 )
