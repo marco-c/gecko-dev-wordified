@@ -179,6 +179,9 @@ ScreenPoint
 namespace
 mozilla
 {
+class
+InputData
+;
 namespace
 layers
 {
