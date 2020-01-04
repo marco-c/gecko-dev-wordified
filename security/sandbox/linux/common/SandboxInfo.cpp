@@ -2178,6 +2178,9 @@ kEnabledForMedia
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 void
 SandboxInfo
 :
@@ -2212,6 +2215,8 @@ flagsString
 )
 ;
 }
+#
+endif
 }
 /
 /
