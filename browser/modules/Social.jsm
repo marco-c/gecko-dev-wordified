@@ -1509,9 +1509,10 @@ place
 {
 handleError
 :
-function
 (
 )
+=
+>
 Cu
 .
 reportError
