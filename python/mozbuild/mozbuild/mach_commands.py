@@ -4433,6 +4433,11 @@ b
 -
 backend
 '
+nargs
+=
+'
++
+'
         
 choices
 =
@@ -4457,9 +4462,11 @@ FasterMake
         
 default
 =
+[
 '
 RecursiveMake
 '
+]
         
 help
 =
@@ -4580,13 +4587,10 @@ config_status
 -
 -
 backend
-=
-%
-s
 '
-%
-backend
 ]
++
+backend
         
 if
 diff

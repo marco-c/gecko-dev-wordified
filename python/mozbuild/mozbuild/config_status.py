@@ -112,9 +112,9 @@ sys
 import
 time
 from
-optparse
+argparse
 import
-OptionParser
+ArgumentParser
 from
 mach
 .
@@ -165,6 +165,10 @@ mozbuild
 mozinfo
 import
 write_mozinfo
+from
+itertools
+import
+chain
 log_manager
 =
 LoggingManager
@@ -690,13 +694,13 @@ topsrcdir
     
 parser
 =
-OptionParser
+ArgumentParser
 (
 )
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -713,7 +717,7 @@ action
 '
 store_true
 '
-                      
+                        
 help
 =
 '
@@ -732,7 +736,7 @@ conditions
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -753,7 +757,7 @@ action
 '
 store_true
 '
-                      
+                        
 help
 =
 '
@@ -765,7 +769,7 @@ output
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -781,7 +785,7 @@ action
 '
 store_true
 '
-                      
+                        
 help
 =
 '
@@ -799,7 +803,7 @@ directory
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -815,7 +819,7 @@ action
 '
 store_true
 '
-                      
+                        
 help
 =
 '
@@ -830,7 +834,7 @@ files
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -841,7 +845,12 @@ b
 -
 backend
 '
-                      
+nargs
+=
+'
++
+'
+                        
 choices
 =
 [
@@ -854,7 +863,7 @@ AndroidEclipse
 '
 CppEclipse
 '
-                               
+                                 
 '
 VisualStudio
 '
@@ -862,13 +871,15 @@ VisualStudio
 FasterMake
 '
 ]
-                      
+                        
 default
 =
+[
 '
 RecursiveMake
 '
-                      
+]
+                        
 help
 =
 '
@@ -886,7 +897,6 @@ RecursiveMake
 )
     
 options
-args
 =
 parser
 .
@@ -1014,13 +1024,20 @@ to
 RecursiveMakeBackend
 .
     
-backend_cls
+backends_cls
 =
-RecursiveMakeBackend
+[
+]
     
-if
+for
+backend
+in
 options
 .
+backend
+:
+        
+if
 backend
 =
 =
@@ -1028,7 +1045,7 @@ backend
 AndroidEclipse
 '
 :
-        
+            
 from
 mozbuild
 .
@@ -1037,7 +1054,7 @@ backend
 android_eclipse
 import
 AndroidEclipseBackend
-        
+            
 if
 not
 MachCommandConditions
@@ -1047,7 +1064,7 @@ is_android
 env
 )
 :
-            
+                
 raise
 Exception
 (
@@ -1065,14 +1082,15 @@ configuration
 .
 '
 )
-        
-backend_cls
-=
-AndroidEclipseBackend
-    
-elif
-options
+            
+backends_cls
 .
+append
+(
+AndroidEclipseBackend
+)
+        
+elif
 backend
 =
 =
@@ -1080,7 +1098,7 @@ backend
 CppEclipse
 '
 :
-        
+            
 from
 mozbuild
 .
@@ -1089,11 +1107,14 @@ backend
 cpp_eclipse
 import
 CppEclipseBackend
-        
-backend_cls
-=
+            
+backends_cls
+.
+append
+(
 CppEclipseBackend
-        
+)
+            
 if
 os
 .
@@ -1104,7 +1125,7 @@ name
 nt
 '
 :
-          
+              
 raise
 Exception
 (
@@ -1124,10 +1145,8 @@ instead
 .
 '
 )
-    
+        
 elif
-options
-.
 backend
 =
 =
@@ -1135,7 +1154,7 @@ backend
 VisualStudio
 '
 :
-        
+            
 from
 mozbuild
 .
@@ -1144,14 +1163,15 @@ backend
 visualstudio
 import
 VisualStudioBackend
-        
-backend_cls
-=
-VisualStudioBackend
-    
-elif
-options
+            
+backends_cls
 .
+append
+(
+VisualStudioBackend
+)
+        
+elif
 backend
 =
 =
@@ -1159,7 +1179,7 @@ backend
 FasterMake
 '
 :
-        
+            
 from
 mozbuild
 .
@@ -1168,10 +1188,23 @@ backend
 fastermake
 import
 FasterMakeBackend
-        
-backend_cls
-=
+            
+backends_cls
+.
+append
+(
 FasterMakeBackend
+)
+        
+else
+:
+            
+backends_cls
+.
+append
+(
+RecursiveMakeBackend
+)
     
 cpu_start
 =
@@ -1189,12 +1222,18 @@ time
 (
 )
     
-the_backend
+backends
 =
-backend_cls
+[
+cls
 (
 env
 )
+for
+cls
+in
+backends_cls
+]
     
 reader
 =
@@ -1363,6 +1402,28 @@ sys
 stderr
 )
     
+if
+len
+(
+backends
+)
+>
+1
+:
+        
+definitions
+=
+list
+(
+definitions
+)
+    
+for
+the_backend
+in
+backends
+:
+        
 the_backend
 .
 consume
@@ -1379,10 +1440,13 @@ execution_time
 for
 obj
 in
+chain
+(
 (
 reader
 emitter
-the_backend
+)
+backends
 )
 :
         
@@ -1518,6 +1582,12 @@ diff
 :
         
 for
+the_backend
+in
+backends
+:
+            
+for
 path
 diff
 in
@@ -1532,7 +1602,7 @@ items
 )
 )
 :
-            
+                
 print
 (
 '
@@ -1564,14 +1634,14 @@ name
 nt
 '
 and
+'
+VisualStudio
+'
+not
+in
 options
 .
 backend
-=
-=
-'
-RecursiveMake
-'
 :
         
 print
@@ -1598,14 +1668,14 @@ env
 :
         
 if
+'
+AndroidEclipse
+'
+not
+in
 options
 .
 backend
-=
-=
-'
-RecursiveMake
-'
 :
             
 print
