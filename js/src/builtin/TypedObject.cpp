@@ -6919,11 +6919,7 @@ getDenseInitializedLength
 )
 )
 ;
-JSObject
-&
-descr
-=
-*
+return
 MaybeForwarded
 (
 &
@@ -6938,10 +6934,8 @@ toObject
 (
 )
 )
-;
-return
-descr
-.
+-
+>
 as
 <
 TypeDescr
@@ -10776,6 +10770,11 @@ typed
 object
 itself
 .
+MakeAccessibleAfterMovingGC
+(
+owner
+)
+;
 MOZ_ASSERT_IF
 (
 owner

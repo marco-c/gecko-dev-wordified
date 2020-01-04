@@ -8727,6 +8727,11 @@ HandleNativeObject
 templateObject
 )
 ;
+void
+updateShapeAfterMovingGC
+(
+)
+;
 /
 *
 JIT
