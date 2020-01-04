@@ -1221,6 +1221,12 @@ base64
 %
 s
 '
+initDataType
+=
+'
+%
+s
+'
 "
 this
 NS_ConvertUTF16toUTF8
@@ -1233,6 +1239,14 @@ get
 )
 pid
 base64InitData
+.
+get
+(
+)
+NS_ConvertUTF16toUTF8
+(
+aInitDataType
+)
 .
 get
 (
