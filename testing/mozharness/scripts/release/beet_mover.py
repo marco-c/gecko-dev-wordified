@@ -1658,11 +1658,13 @@ locales
 self
 .
 config
-[
+.
+get
+(
 '
 locales
 '
-]
+)
             
 "
 version
