@@ -2354,7 +2354,7 @@ divisor
 =
 10
 ;
-nsRefPtr
+RefPtr
 <
 TexturedEffect
 >
@@ -2663,7 +2663,7 @@ bytesPerPixel
 =
 4
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

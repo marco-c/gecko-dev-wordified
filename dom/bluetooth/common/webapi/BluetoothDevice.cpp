@@ -537,7 +537,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothDevice
 >
@@ -1087,7 +1087,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1200,7 +1200,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothDevice
 >
@@ -1828,7 +1828,7 @@ mAttrs
 =
 aTypes
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothAttributeEvent
 >

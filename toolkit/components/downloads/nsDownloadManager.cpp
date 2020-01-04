@@ -873,7 +873,7 @@ to
 cancel
 the
 download
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -1052,7 +1052,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -1247,7 +1247,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -1485,7 +1485,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -4980,7 +4980,7 @@ hasResults
 hasResults
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -7223,7 +7223,7 @@ so
 lets
 create
 it
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -9516,7 +9516,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -10326,7 +10326,7 @@ FindDownload
 aID
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -10489,7 +10489,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -10521,7 +10521,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncResult
 >
@@ -10793,7 +10793,7 @@ variables
 when
 we
 remove
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -10847,7 +10847,7 @@ nsACString
 aGUID
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -10907,7 +10907,7 @@ enabled
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -11416,7 +11416,7 @@ nsACString
 aGUID
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -11531,7 +11531,7 @@ enabled
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -15884,7 +15884,7 @@ to
 our
 member
 variables
-nsRefPtr
+RefPtr
 <
 nsDownload
 >
@@ -18309,7 +18309,7 @@ to
 our
 member
 variables
-nsRefPtr
+RefPtr
 <
 nsDownload
 >

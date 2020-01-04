@@ -495,14 +495,14 @@ sDontDelayInputExhausted
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
 >
 mCurrentPDMs
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >

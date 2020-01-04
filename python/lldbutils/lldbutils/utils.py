@@ -443,7 +443,7 @@ a
 raw
 pointer
 nsCOMPtr
-nsRefPtr
+RefPtr
 nsAutoPtr
 already_AddRefed
 or
@@ -513,7 +513,7 @@ name
 startswith
 (
 "
-nsRefPtr
+RefPtr
 <
 "
 )

@@ -1034,7 +1034,7 @@ mozilla
 MediaByteRange
 mInitRange
 ;
-nsRefPtr
+RefPtr
 <
 Stream
 >

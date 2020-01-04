@@ -1360,7 +1360,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldGetDiskConsumption
 >
@@ -1813,7 +1813,7 @@ nsICacheEntryDoomCallback
 listener
 )
 {
-nsRefPtr
+RefPtr
 <
 DoomCallbackWrapper
 >
@@ -2428,7 +2428,7 @@ nsICacheEntryMetaDataVisitor
 cb
 )
 {
-nsRefPtr
+RefPtr
 <
 MetaDataVisitorWrapper
 >
@@ -4599,7 +4599,7 @@ OPEN_TRUNCATE
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 _OldCacheLoad
 >
@@ -4760,7 +4760,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 DoomCallbackWrapper
 >
@@ -5222,7 +5222,7 @@ if
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 DoomCallbackSynchronizer
 >
@@ -5377,7 +5377,7 @@ disk
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 _OldVisitCallbackWrapper
 >

@@ -582,7 +582,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 VisibilityChangeListener
 >
@@ -765,7 +765,7 @@ PermissionRequest
 >
 mPermissionRequests
 ;
-nsRefPtr
+RefPtr
 <
 nsContentPermissionRequesterProxy
 >
@@ -939,7 +939,7 @@ mWindow
 bool
 mIPCOpen
 ;
-nsRefPtr
+RefPtr
 <
 VisibilityChangeListener
 >

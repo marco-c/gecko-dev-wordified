@@ -98,7 +98,7 @@ Length
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStringBuffer
 >

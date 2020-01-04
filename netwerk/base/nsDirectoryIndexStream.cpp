@@ -1197,7 +1197,7 @@ nsIInputStream
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDirectoryIndexStream
 >

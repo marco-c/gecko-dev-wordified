@@ -373,7 +373,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -623,7 +623,7 @@ AwaitIdleLocked
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -699,7 +699,7 @@ mIsShutdown
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -796,7 +796,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

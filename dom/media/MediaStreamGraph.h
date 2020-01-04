@@ -4392,7 +4392,7 @@ mAudioOutputs
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VideoFrameContainer
 >
@@ -4427,7 +4427,7 @@ mLastPlayedVideoFrame
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaStreamListener
 >
@@ -5788,7 +5788,7 @@ mRunnable
 aRunnable
 ;
 }
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -6164,7 +6164,7 @@ mPendingTracks
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaStreamDirectListener
 >

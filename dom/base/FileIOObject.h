@@ -505,7 +505,7 @@ nsIAsyncInputStream
 >
 mAsyncStream
 ;
-nsRefPtr
+RefPtr
 <
 DOMError
 >

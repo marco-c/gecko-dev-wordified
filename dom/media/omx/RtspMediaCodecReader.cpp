@@ -260,7 +260,7 @@ mExtractor
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -437,7 +437,7 @@ false
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -464,7 +464,7 @@ RequestAudioData
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -497,7 +497,7 @@ aTimeThreshold
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -522,7 +522,7 @@ EnsureActive
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :

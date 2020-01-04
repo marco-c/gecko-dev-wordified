@@ -2744,7 +2744,7 @@ automatically
 nsString
 mData
 ;
-nsRefPtr
+RefPtr
 <
 TextRangeArray
 >

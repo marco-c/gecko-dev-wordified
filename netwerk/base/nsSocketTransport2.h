@@ -2457,7 +2457,7 @@ due
 to
 scoping
 .
-nsRefPtr
+RefPtr
 <
 nsSocketTransportService
 >

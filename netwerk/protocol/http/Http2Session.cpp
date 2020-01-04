@@ -10590,7 +10590,7 @@ transaction
 and
 push
 stream
-nsRefPtr
+RefPtr
 <
 Http2PushTransactionBuffer
 >
@@ -10997,7 +10997,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -13467,7 +13467,7 @@ mHeader
 nsCString
 mOrigin
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -14241,7 +14241,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -14628,7 +14628,7 @@ do_QueryInterface
 callbacks
 )
 ;
-nsRefPtr
+RefPtr
 <
 UpdateAltSvcEvent
 >
@@ -20163,7 +20163,7 @@ ConnectionInfo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -22339,7 +22339,7 @@ the
 correct
 security
 callbacks
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >
@@ -24865,7 +24865,7 @@ closure
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -24877,7 +24877,7 @@ static_cast
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -24930,7 +24930,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

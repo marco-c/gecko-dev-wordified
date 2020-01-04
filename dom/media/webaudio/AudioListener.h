@@ -619,7 +619,7 @@ friend
 class
 PannerNode
 ;
-nsRefPtr
+RefPtr
 <
 AudioContext
 >

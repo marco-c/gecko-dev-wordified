@@ -234,7 +234,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 dom
 :

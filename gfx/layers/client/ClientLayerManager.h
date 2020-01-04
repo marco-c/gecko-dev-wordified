@@ -385,7 +385,7 @@ LayerManager
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1976,13 +1976,13 @@ back
 to
 mShadowTarget
 .
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
 mShadowTarget
 ;
-nsRefPtr
+RefPtr
 <
 TransactionIdAllocator
 >
@@ -2110,7 +2110,7 @@ mPaintSequenceNumber
 APZTestData
 mApzTestData
 ;
-nsRefPtr
+RefPtr
 <
 ShadowLayerForwarder
 >
@@ -2118,7 +2118,7 @@ mForwarder
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 TextureClientPool
 >
@@ -2143,7 +2143,7 @@ mozilla
 TimeStamp
 mTransactionStart
 ;
-nsRefPtr
+RefPtr
 <
 MemoryPressureObserver
 >

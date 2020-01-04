@@ -1202,7 +1202,7 @@ mozIStorageBaseStatement
 stmt
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >
@@ -1275,7 +1275,7 @@ mozIStorageConnection
 db
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >

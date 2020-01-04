@@ -905,7 +905,7 @@ aServiceId
 ]
 )
 {
-nsRefPtr
+RefPtr
 <
 VoicemailIPCProvider
 >
@@ -980,7 +980,7 @@ aServiceId
 provider
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIVoicemailProvider
 >

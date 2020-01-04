@@ -1363,7 +1363,7 @@ SurfaceCaps
 mCaps
 ;
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1424,7 +1424,7 @@ SurfaceCaps
 &
 caps
 const
-nsRefPtr
+RefPtr
 <
 layers
 :

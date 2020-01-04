@@ -772,7 +772,7 @@ Parse
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -865,7 +865,7 @@ parser
 aKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >

@@ -677,13 +677,13 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
 mMediaList
 ;
-nsRefPtr
+RefPtr
 <
 MediaSource
 >

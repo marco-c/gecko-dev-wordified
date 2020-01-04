@@ -376,7 +376,7 @@ nsListenerStruct
 uses
 too
 .
-nsRefPtr
+RefPtr
 <
 nsIDOMEventListener
 >
@@ -483,7 +483,7 @@ mPendingListenerChanges
 nsDataHashtable
 <
 nsISupportsHashKey
-nsRefPtr
+RefPtr
 <
 EventListenerChange
 >

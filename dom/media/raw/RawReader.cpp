@@ -1304,7 +1304,7 @@ mSkip
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1378,7 +1378,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1505,7 +1505,7 @@ Reset
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 :
@@ -1523,7 +1523,7 @@ Private
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 RawReader
 >
@@ -1653,7 +1653,7 @@ GetSize
 2
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >

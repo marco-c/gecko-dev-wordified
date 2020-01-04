@@ -541,7 +541,7 @@ aSurfaceFlags
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 RasterImage
 >
@@ -670,7 +670,7 @@ aDecoder
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -931,7 +931,7 @@ SHUTDOWN
 }
 mType
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1194,7 +1194,7 @@ MOZ_ASSERT
 aDecoder
 )
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1405,7 +1405,7 @@ PopWorkFromQueue
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1477,7 +1477,7 @@ mMonitor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1486,7 +1486,7 @@ mMetadataDecodeQueue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1667,7 +1667,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DecodePoolImpl
 >

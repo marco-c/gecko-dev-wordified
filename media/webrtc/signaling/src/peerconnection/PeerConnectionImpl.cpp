@@ -1101,7 +1101,7 @@ std
 string
 &
 pcHandle
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -1174,7 +1174,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -1617,7 +1617,7 @@ ErrorCodeAsInt
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -2614,7 +2614,7 @@ AudioChannel
 Normal
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2819,7 +2819,7 @@ PeerConnectionImpl
 :
 CreateRemoteSourceStreamInfo
 (
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -2843,7 +2843,7 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2863,7 +2863,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -3364,7 +3364,7 @@ ParseAuthority
 on
 the
 rest
-nsRefPtr
+RefPtr
 <
 nsIURI
 >
@@ -5231,7 +5231,7 @@ nullptr
 }
 }
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -5260,7 +5260,7 @@ mCertificate
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -5298,7 +5298,7 @@ CreateDtlsIdentity
 ;
 #
 else
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -7693,7 +7693,7 @@ use
 the
 specified
 TransportFlow
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -7835,7 +7835,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-nsRefPtr
+RefPtr
 <
 nsDOMDataChannel
 >
@@ -7922,7 +7922,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -8099,7 +8099,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -8317,7 +8317,7 @@ return
 }
 /
 /
-nsRefPtr
+RefPtr
 <
 nsSupportsWeakReference
 >
@@ -8330,7 +8330,7 @@ tmp
 ;
 /
 /
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -8380,7 +8380,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSupportsWeakReference
 >
@@ -8391,7 +8391,7 @@ do_QueryObject
 tmp
 )
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -8446,12 +8446,12 @@ static
 void
 NotifyDataChannel_m
 (
-nsRefPtr
+RefPtr
 <
 nsIDOMDataChannel
 >
 aChannel
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -8468,7 +8468,7 @@ NS_IsMainThread
 JSErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMDataChannel
 >
@@ -8534,7 +8534,7 @@ can
 '
 t
 use
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -8654,7 +8654,7 @@ mHaveDataStream
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -8932,7 +8932,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -9222,7 +9222,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -9483,7 +9483,7 @@ NS_ERROR_FAILURE
 JSErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -9902,7 +9902,7 @@ NS_ERROR_FAILURE
 JSErrorResult
 jrv
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -10271,7 +10271,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10307,7 +10307,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10340,7 +10340,7 @@ end
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10432,7 +10432,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10445,7 +10445,7 @@ i
 >
 second
 ;
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -10650,7 +10650,7 @@ end
 j
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10866,7 +10866,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10905,7 +10905,7 @@ end
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -11380,7 +11380,7 @@ true
 JSErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -12822,7 +12822,7 @@ GetStreamId
 stream
 )
 ;
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -12983,7 +12983,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -14301,7 +14301,7 @@ mCancelable
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 PluginCrashedEvent
 >
@@ -15553,7 +15553,7 @@ CloseInt
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -16280,7 +16280,7 @@ string
 candidate
 )
 {
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -16941,7 +16941,7 @@ mIceConnectionState
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -17145,7 +17145,7 @@ mIceGatheringState
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -20181,7 +20181,7 @@ impl
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -20324,7 +20324,7 @@ mShouldSuppressNegotiationNeeded
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionObserver
 >
@@ -20542,7 +20542,7 @@ GetLocalStreams
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -20637,7 +20637,7 @@ GetRemoteStreams
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >

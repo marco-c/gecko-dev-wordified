@@ -934,13 +934,13 @@ sizes
 bool
 mUseSizeSensitiveSystemFont
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
 mSystemTextFontFamily
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >

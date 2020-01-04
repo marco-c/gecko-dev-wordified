@@ -1358,7 +1358,7 @@ mStart
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1490,7 +1490,7 @@ events
 when
 >
 0
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -417,7 +417,7 @@ bool
 aCancelable
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothGattAttributeEvent
 >
@@ -556,7 +556,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattAttributeEvent
 >

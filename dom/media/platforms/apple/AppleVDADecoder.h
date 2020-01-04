@@ -431,7 +431,7 @@ AppleVDADecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -564,13 +564,13 @@ CreateOutputConfiguration
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
 mExtraData
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -580,7 +580,7 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

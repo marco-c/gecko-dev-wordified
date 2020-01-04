@@ -1922,7 +1922,7 @@ cx
 compartment
 )
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >
@@ -2167,7 +2167,7 @@ cx
 compartment
 )
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >
@@ -2211,7 +2211,7 @@ used
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >

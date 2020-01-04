@@ -634,7 +634,7 @@ glyphPath
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >

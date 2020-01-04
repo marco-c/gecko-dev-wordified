@@ -954,7 +954,7 @@ remotely
 allocated
 GraphicBuffer
 .
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

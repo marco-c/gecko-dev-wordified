@@ -178,7 +178,7 @@ RelationType
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -422,7 +422,7 @@ mType
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Accessible
 >

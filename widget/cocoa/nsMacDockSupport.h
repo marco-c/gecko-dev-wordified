@@ -190,7 +190,7 @@ nsITimer
 >
 mProgressTimer
 ;
-nsRefPtr
+RefPtr
 <
 nsNativeThemeCocoa
 >

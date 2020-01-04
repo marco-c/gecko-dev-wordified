@@ -280,7 +280,7 @@ gDiskSpaceWatcher
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DiskSpaceWatcher
 >

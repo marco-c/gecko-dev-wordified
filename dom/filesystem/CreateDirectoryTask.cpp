@@ -393,7 +393,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -710,7 +710,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Directory
 >

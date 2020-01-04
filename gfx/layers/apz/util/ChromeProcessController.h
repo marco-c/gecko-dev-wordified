@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -432,13 +432,13 @@ nsIWidget
 >
 mWidget
 ;
-nsRefPtr
+RefPtr
 <
 APZEventState
 >
 mAPZEventState
 ;
-nsRefPtr
+RefPtr
 <
 APZCTreeManager
 >

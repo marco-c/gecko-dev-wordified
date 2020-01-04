@@ -406,7 +406,7 @@ ClientRect
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -448,7 +448,7 @@ nsIDOMClientRect
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >

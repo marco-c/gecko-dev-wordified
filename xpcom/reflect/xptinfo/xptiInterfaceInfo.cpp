@@ -2028,7 +2028,7 @@ interfaceIndex
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShimInterfaceInfo
 >
@@ -2092,7 +2092,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ShimInterfaceInfo
 >
@@ -2184,7 +2184,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ShimInterfaceInfo
 >
@@ -2266,7 +2266,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ShimInterfaceInfo
 >
@@ -3215,7 +3215,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 xptiInterfaceInfo
 >

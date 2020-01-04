@@ -119,7 +119,7 @@ nsApplicationCache
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheDevice
 >

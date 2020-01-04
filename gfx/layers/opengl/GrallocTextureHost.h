@@ -364,13 +364,13 @@ DestroyEGLImage
 NewSurfaceDescriptorGralloc
 mGrallocHandle
 ;
-nsRefPtr
+RefPtr
 <
 GLTextureSource
 >
 mGLTextureSource
 ;
-nsRefPtr
+RefPtr
 <
 CompositorOGL
 >

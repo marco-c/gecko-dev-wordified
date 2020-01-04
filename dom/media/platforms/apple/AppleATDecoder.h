@@ -196,7 +196,7 @@ AppleATDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -293,7 +293,7 @@ mFileStreamError
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -317,7 +317,7 @@ mStream
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

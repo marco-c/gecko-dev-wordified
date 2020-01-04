@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -463,7 +463,7 @@ char
 >
 mTxtRecord
 ;
-nsRefPtr
+RefPtr
 <
 ResolveOperator
 >

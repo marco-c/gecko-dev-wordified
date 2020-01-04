@@ -366,7 +366,7 @@ ErrorResult
 aRV
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -572,7 +572,7 @@ y
 h
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -945,7 +945,7 @@ QuadBounds
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >

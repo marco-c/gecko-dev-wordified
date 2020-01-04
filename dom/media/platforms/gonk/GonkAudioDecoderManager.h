@@ -127,7 +127,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -186,7 +186,7 @@ GonkAudioDecoderManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -200,7 +200,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >

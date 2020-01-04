@@ -467,7 +467,7 @@ GetForceGDIClassic
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFace
 >

@@ -1806,7 +1806,7 @@ aOptions
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQueryOptions
 >
@@ -6530,7 +6530,7 @@ NS_ENSURE_ARG_POINTER
 aTags
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -7609,7 +7609,7 @@ _retval
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQuery
 >
@@ -8263,7 +8263,7 @@ result
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQueryOptions
 >

@@ -215,7 +215,7 @@ GonkDecoderManager
 {
 }
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -445,7 +445,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -507,7 +507,7 @@ bool
 aEndOfStream
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -727,7 +727,7 @@ mTaskLooper
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -928,7 +928,7 @@ GonkMediaDataDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -966,7 +966,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

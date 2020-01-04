@@ -1262,7 +1262,7 @@ data
 size_t
 len
 const
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1844,7 +1844,7 @@ sent_
 size_t
 received_
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1873,7 +1873,7 @@ nsITimer
 >
 timer_
 ;
-nsRefPtr
+RefPtr
 <
 SendPeriodic
 >

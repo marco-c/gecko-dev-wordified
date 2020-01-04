@@ -1123,7 +1123,7 @@ document
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1154,7 +1154,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1240,7 +1240,7 @@ has
 somewhere
 to
 live
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1280,7 +1280,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1387,7 +1387,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1797,7 +1797,7 @@ nsAString
 aStylesheet
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1828,7 +1828,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1913,7 +1913,7 @@ nsAString
 aScript
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1944,7 +1944,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

@@ -800,7 +800,7 @@ aKeyUsages
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >

@@ -5951,7 +5951,7 @@ mSkip
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -9544,7 +9544,7 @@ SEEK_FUZZ_USECS
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -10199,7 +10199,7 @@ v
 mKeyframe
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >

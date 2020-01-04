@@ -1811,7 +1811,7 @@ nsIInputStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2055,7 +2055,7 @@ nsIInputStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2194,7 +2194,7 @@ final
 public
 PBlobStreamChild
 {
-nsRefPtr
+RefPtr
 <
 RemoteInputStream
 >
@@ -2688,7 +2688,7 @@ MOZ_ASSERT
 aLength
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2927,7 +2927,7 @@ aMetadata
 mHasRecursed
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3073,7 +3073,7 @@ gProcessType
 GeckoProcessType_Default
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3347,7 +3347,7 @@ gProcessType
 GeckoProcessType_Default
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3509,7 +3509,7 @@ aBlobDatas
 0
 ]
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3571,7 +3571,7 @@ forget
 }
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3603,7 +3603,7 @@ nullptr
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3664,7 +3664,7 @@ aBlobDatas
 index
 ]
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3725,7 +3725,7 @@ isMutable
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -4058,7 +4058,7 @@ dirState
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -4105,7 +4105,7 @@ aBlobImpl
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -5032,7 +5032,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -6067,7 +6067,7 @@ intptr_t
 mProcessID
 ;
 const
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -7754,7 +7754,7 @@ nsIEventTarget
 >
 mActorTarget
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -8120,13 +8120,13 @@ nsRunnable
 Monitor
 mMonitor
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
 mRemoteBlobImpl
 ;
-nsRefPtr
+RefPtr
 <
 RemoteInputStream
 >
@@ -8211,7 +8211,7 @@ final
 public
 RemoteBlobImpl
 {
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -8511,7 +8511,7 @@ nsIEventTarget
 >
 mActorTarget
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -8658,7 +8658,7 @@ virtual
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -9770,7 +9770,7 @@ aRv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RemoteBlobSliceImpl
 >
@@ -9866,7 +9866,7 @@ Failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobInputStreamTether
 >
@@ -9889,7 +9889,7 @@ aStream
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateStreamHelper
 >
@@ -10521,7 +10521,7 @@ MOZ_ASSERT
 mDone
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -10801,7 +10801,7 @@ GetActor
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 RemoteInputStream
 >
@@ -10951,7 +10951,7 @@ ActorEventTargetIsOnCurrentThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -12173,7 +12173,7 @@ aRv
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -13285,7 +13285,7 @@ mBackgroundManager
 aBlobImpl
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -13361,7 +13361,7 @@ Failed
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -13526,7 +13526,7 @@ AnyBlobConstructorParams
 TKnownBlobConstructorParams
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -13668,7 +13668,7 @@ addRefedBlobImpl
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -13947,7 +13947,7 @@ MOZ_COUNT_CTOR
 BlobChild
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -14411,7 +14411,7 @@ gProcessType
 GeckoProcessType_Default
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -15167,7 +15167,7 @@ MOZ_ASSERT
 mBlobImpl
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -16212,7 +16212,7 @@ MOZ_ASSERT
 isMutable
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteBlobImpl
 >
@@ -16531,7 +16531,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -16558,7 +16558,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -16740,7 +16740,7 @@ aManager
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -16976,7 +16976,7 @@ id
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -17187,7 +17187,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -17242,7 +17242,7 @@ id
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -17362,7 +17362,7 @@ MOZ_ASSERT
 actor
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -17383,7 +17383,7 @@ source
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -17452,7 +17452,7 @@ false
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -17520,7 +17520,7 @@ get_KnownBlobConstructorParams
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -17606,7 +17606,7 @@ get_SameProcessBlobConstructorParams
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -17651,7 +17651,7 @@ id
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >
@@ -17941,7 +17941,7 @@ MOZ_ASSERT
 mBlobImpl
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -18558,7 +18558,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -18977,7 +18977,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 OpenStreamRunnable
 >
@@ -20184,7 +20184,7 @@ AssertNotCurrentThreadOwns
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >

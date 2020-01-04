@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -477,7 +477,7 @@ protected
 /
 /
 data
-nsRefPtr
+RefPtr
 <
 gl
 :

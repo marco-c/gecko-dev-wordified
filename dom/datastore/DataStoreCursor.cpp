@@ -230,7 +230,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DataStoreCursor
 >

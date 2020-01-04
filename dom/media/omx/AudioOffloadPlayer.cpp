@@ -1902,7 +1902,7 @@ WakeLockRelease
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -1949,7 +1949,7 @@ mSeekTarget
 =
 aTarget
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -4110,7 +4110,7 @@ if
 mWakeLock
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :

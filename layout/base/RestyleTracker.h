@@ -1910,7 +1910,7 @@ root
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -2196,7 +2196,7 @@ AddRestyleRootsIfAwaitingRestyle
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -2389,7 +2389,7 @@ PendingRestyleTable
 typedef
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >

@@ -1124,7 +1124,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

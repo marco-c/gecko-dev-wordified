@@ -1695,7 +1695,7 @@ IsInnerWindow
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventSource
 >
@@ -4550,7 +4550,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -4787,7 +4787,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5535,7 +5535,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5666,7 +5666,7 @@ void
 aClosure
 )
 {
-nsRefPtr
+RefPtr
 <
 EventSource
 >
@@ -6367,7 +6367,7 @@ has
 no
 default
 action
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >

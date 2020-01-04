@@ -457,7 +457,7 @@ foundClass
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

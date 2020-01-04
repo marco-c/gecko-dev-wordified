@@ -256,13 +256,13 @@ break
 the
 cycle
 .
-nsRefPtr
+RefPtr
 <
 Icc
 >
 mIcc
 ;
-nsRefPtr
+RefPtr
 <
 IccManager
 >

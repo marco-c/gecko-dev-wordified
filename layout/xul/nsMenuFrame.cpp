@@ -630,7 +630,7 @@ DOMMenuItemInactive
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -685,7 +685,7 @@ nsIContent
 >
 mMenu
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

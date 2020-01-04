@@ -857,7 +857,7 @@ CanvasContextType
 aContextType
 )
 {
-nsRefPtr
+RefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -1055,7 +1055,7 @@ MOZ_ASSERT
 aData
 )
 ;
-nsRefPtr
+RefPtr
 <
 OffscreenCanvas
 >

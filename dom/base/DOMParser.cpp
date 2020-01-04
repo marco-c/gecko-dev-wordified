@@ -2164,7 +2164,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMParser
 >
@@ -2241,7 +2241,7 @@ ErrorResult
 rv
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMParser
 >

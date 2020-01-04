@@ -2285,7 +2285,7 @@ aOa
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -2304,7 +2304,7 @@ nsICacheStorage
 >
 storage
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -2815,7 +2815,7 @@ change
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -2857,7 +2857,7 @@ shutdown
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -2910,7 +2910,7 @@ exited
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -3028,7 +3028,7 @@ pressure
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >

@@ -175,7 +175,7 @@ FFmpegAudioDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >

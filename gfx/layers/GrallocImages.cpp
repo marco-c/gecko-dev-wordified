@@ -484,7 +484,7 @@ HAL_PIXEL_FORMAT_YV12
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >
@@ -2857,7 +2857,7 @@ GetGraphicBuffer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

@@ -3223,7 +3223,7 @@ mOpcode
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothHandsfreeResultHandler
 >

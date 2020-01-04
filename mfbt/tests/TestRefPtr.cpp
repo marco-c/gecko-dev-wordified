@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -216,7 +216,7 @@ NewFoo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -244,7 +244,7 @@ NewBar
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Bar
 >
@@ -304,7 +304,7 @@ AddRef
 void
 GetNewFoo
 (
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -350,7 +350,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -387,7 +387,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -397,7 +397,7 @@ NewFoo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -432,7 +432,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -466,7 +466,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -480,7 +480,7 @@ Foo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -489,7 +489,7 @@ f2
 f1
 )
 ;
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -534,7 +534,7 @@ sNumDestroyed
 ;
 {
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -545,7 +545,7 @@ Foo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -571,7 +571,7 @@ sNumDestroyed
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -614,7 +614,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -655,7 +655,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -679,7 +679,7 @@ sNumDestroyed
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Foo
 >

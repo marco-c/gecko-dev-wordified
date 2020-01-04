@@ -506,7 +506,7 @@ mExpr
 nsString
 mExpr
 ;
-nsRefPtr
+RefPtr
 <
 Function
 >
@@ -1568,7 +1568,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsJSScriptTimeoutHandler
 >
@@ -1629,7 +1629,7 @@ allowEval
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsJSScriptTimeoutHandler
 >

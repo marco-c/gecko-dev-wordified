@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -524,13 +524,13 @@ aType
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
 mInitData
 ;
-nsRefPtr
+RefPtr
 <
 SourceBufferResource
 >

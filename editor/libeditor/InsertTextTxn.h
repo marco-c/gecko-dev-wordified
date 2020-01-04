@@ -373,7 +373,7 @@ operate
 upon
 *
 /
-nsRefPtr
+RefPtr
 <
 Text
 >

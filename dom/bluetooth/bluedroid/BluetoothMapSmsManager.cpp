@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -3337,7 +3337,7 @@ int
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3350,7 +3350,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -3426,7 +3426,7 @@ long
 aMasId
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3439,7 +3439,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -6851,7 +6851,7 @@ mBodySegment
 =
 bodyPtr
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothMapBMessage
 >
@@ -6933,7 +6933,7 @@ subject
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VCard
 >

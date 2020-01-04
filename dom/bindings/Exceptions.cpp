@@ -812,7 +812,7 @@ false
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Exception
 >
@@ -1036,7 +1036,7 @@ use
 the
 default
 .
-nsRefPtr
+RefPtr
 <
 Exception
 >

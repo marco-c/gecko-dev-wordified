@@ -414,7 +414,7 @@ Close
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >
@@ -557,7 +557,7 @@ return
 GMPRecordInUse
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >
@@ -684,7 +684,7 @@ lock
 mMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >
@@ -1091,7 +1091,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >
@@ -1161,7 +1161,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >
@@ -1234,7 +1234,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPRecordImpl
 >

@@ -1785,7 +1785,7 @@ imgIContainer
 >
 mImageContainer
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleGradient
 >
@@ -6272,7 +6272,7 @@ true
 gfxAlphaBoxBlur
 mAlphaBoxBlur
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

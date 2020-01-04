@@ -594,7 +594,7 @@ float
 *
 mCurve
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >

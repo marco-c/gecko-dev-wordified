@@ -632,7 +632,7 @@ time
 of
 an
 entry
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -774,7 +774,7 @@ s
 pointer
 )
 .
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -912,7 +912,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -1025,7 +1025,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -1393,7 +1393,7 @@ nsICacheEntryDoomCallback
 >
 mDoomCallback
 ;
-nsRefPtr
+RefPtr
 <
 CacheFile
 >
@@ -2138,7 +2138,7 @@ CacheEntryHandle
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -2183,7 +2183,7 @@ aEntry
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >

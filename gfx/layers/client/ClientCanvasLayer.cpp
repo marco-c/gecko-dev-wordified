@@ -931,7 +931,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ClientCanvasLayer
 >

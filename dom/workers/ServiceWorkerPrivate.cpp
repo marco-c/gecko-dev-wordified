@@ -331,7 +331,7 @@ ReleaseToken
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerPrivate
 >
@@ -553,7 +553,7 @@ KeepAliveToken
 >
 mKeepAliveToken
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -701,7 +701,7 @@ MOZ_ASSERT
 mKeepAliveToken
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -1059,7 +1059,7 @@ SuppressException
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1121,7 +1121,7 @@ MOZ_ASSERT
 waitUntilPromise
 )
 ;
-nsRefPtr
+RefPtr
 <
 KeepAliveHandler
 >
@@ -1217,7 +1217,7 @@ ExtendableEventWorkerRunnable
 nsString
 mEventName
 ;
-nsRefPtr
+RefPtr
 <
 LifeCycleEventCallback
 >
@@ -1330,7 +1330,7 @@ final
 public
 PromiseNativeHandler
 {
-nsRefPtr
+RefPtr
 <
 LifeCycleEventCallback
 >
@@ -1597,7 +1597,7 @@ aCx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 xpc
 :
@@ -1645,7 +1645,7 @@ aWindowID
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncErrorReporter
 >
@@ -1700,13 +1700,13 @@ IsServiceWorker
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ExtendableEvent
 >
 event
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -1789,7 +1789,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1816,7 +1816,7 @@ if
 waitUntil
 )
 {
-nsRefPtr
+RefPtr
 <
 LifecycleEventPromiseHandler
 >
@@ -1906,7 +1906,7 @@ MOZ_ASSERT
 mKeepAliveToken
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -2151,7 +2151,7 @@ false
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 PushEvent
 >
@@ -2296,7 +2296,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -2424,7 +2424,7 @@ MOZ_ASSERT
 mKeepAliveToken
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -2515,7 +2515,7 @@ MOZ_ASSERT
 mKeepAliveToken
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -2717,7 +2717,7 @@ aWorkerPrivate
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 AllowWindowInteractionHandler
 >
@@ -2927,7 +2927,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ClearWindowAllowedRunnable
 >
@@ -2940,7 +2940,7 @@ aWorkerPrivate
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 TimerThreadEventTarget
 >
@@ -3442,7 +3442,7 @@ MOZ_ASSERT
 aWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -3461,7 +3461,7 @@ GlobalScope
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -3527,7 +3527,7 @@ mCancelable
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 NotificationEvent
 >
@@ -3573,7 +3573,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3624,7 +3624,7 @@ if
 waitUntil
 )
 {
-nsRefPtr
+RefPtr
 <
 AllowWindowInteractionHandler
 >
@@ -3733,7 +3733,7 @@ disable_open_click_delay
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -4748,7 +4748,7 @@ Construct
 mMethod
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -4841,7 +4841,7 @@ false
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Headers
 >
@@ -4910,7 +4910,7 @@ mRequestCredentials
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -4965,7 +4965,7 @@ a
 Fetch
 event
 .
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -5111,7 +5111,7 @@ Construct
 mIsReload
 )
 ;
-nsRefPtr
+RefPtr
 <
 FetchEvent
 >
@@ -5176,7 +5176,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -5276,7 +5276,7 @@ runnable
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5294,7 +5294,7 @@ if
 respondWithPromise
 )
 {
-nsRefPtr
+RefPtr
 <
 KeepAliveHandler
 >
@@ -5437,7 +5437,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 FetchEventRunnable
 >
@@ -6247,7 +6247,7 @@ MOZ_ASSERT
 aPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerPrivate
 >
@@ -6422,7 +6422,7 @@ MOZ_ASSERT
 aPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerPrivate
 >

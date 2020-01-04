@@ -447,7 +447,7 @@ HTMLTableElement
 *
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -1879,7 +1879,7 @@ CreateTHead
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1903,7 +1903,7 @@ new
 head
 rowgroup
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2040,7 +2040,7 @@ CreateTFoot
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -2063,7 +2063,7 @@ a
 new
 foot
 rowgroup
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2187,7 +2187,7 @@ CreateCaption
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -2210,7 +2210,7 @@ a
 new
 caption
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2334,7 +2334,7 @@ CreateTBody
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2375,7 +2375,7 @@ MOZ_ASSERT
 nodeInfo
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -2616,7 +2616,7 @@ uint32_t
 )
 aIndex
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -2712,7 +2712,7 @@ GetParentNode
 create
 the
 row
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2938,7 +2938,7 @@ to
 create
 a
 TBODY
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3010,7 +3010,7 @@ if
 rowGroup
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -5289,7 +5289,7 @@ GetAttributeStyleSheet
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsMappedAttributes
 >
@@ -5320,7 +5320,7 @@ if
 value
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMappedAttributes
 >

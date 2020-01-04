@@ -327,7 +327,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PresentationRequest
 >
@@ -564,7 +564,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -821,7 +821,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -888,7 +888,7 @@ mConnection
 =
 aConnection
 ;
-nsRefPtr
+RefPtr
 <
 PresentationConnectionAvailableEvent
 >
@@ -930,7 +930,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

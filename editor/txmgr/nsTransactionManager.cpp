@@ -528,7 +528,7 @@ we
 return
 NS_ERROR_FAILURE
 .
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -767,7 +767,7 @@ we
 return
 NS_ERROR_FAILURE
 .
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -1264,7 +1264,7 @@ batch
 !
 !
 !
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -1520,7 +1520,7 @@ return
 /
 NS_ERROR_FAILURE
 .
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -1844,7 +1844,7 @@ PeekUndoStack
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -1918,7 +1918,7 @@ PeekRedoStack
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -2085,13 +2085,13 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
 lastUndo
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -2236,7 +2236,7 @@ RemoveTopUndo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -3418,7 +3418,7 @@ recycles
 transaction
 items
 .
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -3522,7 +3522,7 @@ result
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -3756,7 +3756,7 @@ the
 do
 stack
 .
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -4046,7 +4046,7 @@ sz
 mMaxTransactionCount
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >

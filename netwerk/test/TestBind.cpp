@@ -634,7 +634,7 @@ return
 /
 Listening
 .
-nsRefPtr
+RefPtr
 <
 ServerListener
 >
@@ -936,7 +936,7 @@ connect
 to
 server
 .
-nsRefPtr
+RefPtr
 <
 ClientInputCallback
 >

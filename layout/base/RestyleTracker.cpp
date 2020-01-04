@@ -374,7 +374,7 @@ tracker
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -559,7 +559,7 @@ RestyleTracker
 :
 Hints
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1947,7 +1947,7 @@ later
 siblings
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -2314,7 +2314,7 @@ this
 /
 element
 .
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -3302,7 +3302,7 @@ AddRestyleRootsIfAwaitingRestyle
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >

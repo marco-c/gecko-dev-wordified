@@ -1266,7 +1266,7 @@ nsresult
 aError
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaSource
 >
@@ -1275,13 +1275,13 @@ mMediaSource
 uint32_t
 mEvictionThreshold
 ;
-nsRefPtr
+RefPtr
 <
 SourceBufferContentManager
 >
 mContentManager
 ;
-nsRefPtr
+RefPtr
 <
 SourceBufferAttributes
 >

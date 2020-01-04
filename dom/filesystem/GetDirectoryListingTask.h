@@ -283,7 +283,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -324,7 +324,7 @@ safe
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

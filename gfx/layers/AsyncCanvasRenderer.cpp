@@ -358,7 +358,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -366,7 +366,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -482,7 +482,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -490,7 +490,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -665,7 +665,7 @@ lock
 mMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BufferTextureClient
 >
@@ -1132,7 +1132,7 @@ format
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1268,7 +1268,7 @@ a
 new
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1443,7 +1443,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1472,7 +1472,7 @@ Handle
 y
 flip
 .
-nsRefPtr
+RefPtr
 <
 gfx
 :

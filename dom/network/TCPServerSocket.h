@@ -382,7 +382,7 @@ the
 content
 process
 .
-nsRefPtr
+RefPtr
 <
 TCPServerSocketChild
 >
@@ -398,7 +398,7 @@ the
 parent
 process
 .
-nsRefPtr
+RefPtr
 <
 TCPServerSocketParent
 >

@@ -284,7 +284,7 @@ EnsureFresh
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 HTMLPropertiesCollection
 >
@@ -653,7 +653,7 @@ this
 collection
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -668,7 +668,7 @@ attribute
 of
 the
 properties
-nsRefPtr
+RefPtr
 <
 PropertyStringList
 >
@@ -701,7 +701,7 @@ collection
 is
 rooted
 at
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -967,7 +967,7 @@ a
 named
 item
 of
-nsRefPtr
+RefPtr
 <
 HTMLPropertiesCollection
 >
@@ -999,7 +999,7 @@ this
 list
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

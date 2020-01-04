@@ -2064,7 +2064,7 @@ closed
 by
 mozStorage
 .
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -2585,7 +2585,7 @@ mState
 in
 field
 progress
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -2701,7 +2701,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -4036,7 +4036,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -4287,7 +4287,7 @@ to
 get
 it
 .
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -11807,7 +11807,7 @@ FinalizeStatements
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FinalizeStatementCacheProxy
 <

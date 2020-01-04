@@ -1438,7 +1438,7 @@ the
 last
 reference
 .
-nsRefPtr
+RefPtr
 <
 nsThread
 >
@@ -1663,7 +1663,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsThread
 >
@@ -3041,7 +3041,7 @@ it
 is
 fully
 setup
-nsRefPtr
+RefPtr
 <
 nsThreadStartupEvent
 >
@@ -3772,7 +3772,7 @@ has
 been
 processed
 .
-nsRefPtr
+RefPtr
 <
 nsThreadSyncDispatch
 >
@@ -6912,7 +6912,7 @@ nsChainedEventQueue
 >
 queue
 ;
-nsRefPtr
+RefPtr
 <
 nsNestedEventTarget
 >

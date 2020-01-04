@@ -193,13 +193,13 @@ class
 DrawTargetD2D1
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 ID2D1GradientStopCollection
 >
 mStopCollection
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >

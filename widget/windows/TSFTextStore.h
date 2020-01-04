@@ -1843,7 +1843,7 @@ our
 current
 win32
 widget
-nsRefPtr
+RefPtr
 <
 nsWindowBase
 >
@@ -1858,7 +1858,7 @@ the
 currently
 focused
 editor
-nsRefPtr
+RefPtr
 <
 ITfDocumentMgr
 >
@@ -1890,7 +1890,7 @@ mDocumentMgr
 s
 context
 stack
-nsRefPtr
+RefPtr
 <
 ITfContext
 >
@@ -1902,7 +1902,7 @@ Currently
 installed
 notification
 sink
-nsRefPtr
+RefPtr
 <
 ITextStoreACPSink
 >
@@ -1973,7 +1973,7 @@ otherwise
 the
 current
 composition
-nsRefPtr
+RefPtr
 <
 ITfCompositionView
 >
@@ -2981,7 +2981,7 @@ mData
 /
 For
 compositionupdate
-nsRefPtr
+RefPtr
 <
 TextRangeArray
 >
@@ -3522,7 +3522,7 @@ AutoPendingActionAndContentFlusher
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 TSFTextStore
 >
@@ -4358,7 +4358,7 @@ mStart
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ITfMouseSink
 >

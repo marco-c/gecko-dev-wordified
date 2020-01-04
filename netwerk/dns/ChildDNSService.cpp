@@ -918,7 +918,7 @@ target
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >
@@ -961,7 +961,7 @@ key
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >
@@ -997,7 +997,7 @@ hashEntry
 new
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >
@@ -1120,7 +1120,7 @@ mPendingRequestsLock
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >
@@ -1431,7 +1431,7 @@ key
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >

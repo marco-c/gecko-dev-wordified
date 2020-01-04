@@ -604,7 +604,7 @@ bool
 aIsAnimValList
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >
@@ -909,7 +909,7 @@ MaxListIndex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >
@@ -1683,7 +1683,7 @@ error
 bool
 found
 ;
-nsRefPtr
+RefPtr
 <
 nsISVGPoint
 >
@@ -2457,7 +2457,7 @@ it
 if
 necessary
 :
-nsRefPtr
+RefPtr
 <
 nsISVGPoint
 >
@@ -2586,7 +2586,7 @@ IsAnimValList
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsISVGPoint
 >
@@ -2821,7 +2821,7 @@ done
 with
 it
 .
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >

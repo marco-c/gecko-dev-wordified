@@ -3327,7 +3327,7 @@ nsIStyleRuleProcessor
 >
 mScopedDocSheetRuleProcessors
 ;
-nsRefPtr
+RefPtr
 <
 nsBindingManager
 >
@@ -3460,7 +3460,7 @@ the
 rule
 tree
 .
-nsRefPtr
+RefPtr
 <
 nsEmptyStyleRule
 >
@@ -3493,7 +3493,7 @@ are
 in
 use
 .
-nsRefPtr
+RefPtr
 <
 nsInitialStyleRule
 >
@@ -3531,7 +3531,7 @@ of
 text
 zooming
 .
-nsRefPtr
+RefPtr
 <
 nsDisableTextZoomStyleRule
 >
@@ -3591,7 +3591,7 @@ lookup
 object
 needs
 initialization
-nsRefPtr
+RefPtr
 <
 gfxFontFeatureValueSet
 >

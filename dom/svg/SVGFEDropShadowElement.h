@@ -280,7 +280,7 @@ bool
 aInputsAreTainted
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

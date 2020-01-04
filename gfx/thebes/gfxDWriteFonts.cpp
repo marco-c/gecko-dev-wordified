@@ -788,7 +788,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -3831,7 +3831,7 @@ mAzureScaledFontIsCairo
 wantCairo
 )
 {
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >
@@ -3910,7 +3910,7 @@ mAzureScaledFontIsCairo
 =
 wantCairo
 ;
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >

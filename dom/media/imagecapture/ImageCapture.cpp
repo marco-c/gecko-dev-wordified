@@ -382,7 +382,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageCapture
 >
@@ -531,7 +531,7 @@ aBlob
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -606,13 +606,13 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 ImageCapture
 >
@@ -623,7 +623,7 @@ mPrincipalChanged
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -652,7 +652,7 @@ if
 domLocalStream
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaEngineSource
 >
@@ -671,7 +671,7 @@ GetTrackID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngineSource
 :
@@ -874,7 +874,7 @@ MediaStreamGraph
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CaptureTask
 >
@@ -995,7 +995,7 @@ mData
 =
 aBlob
 ;
-nsRefPtr
+RefPtr
 <
 BlobEvent
 >
@@ -1095,7 +1095,7 @@ errorMsg
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ImageCaptureError
 >
@@ -1173,7 +1173,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >

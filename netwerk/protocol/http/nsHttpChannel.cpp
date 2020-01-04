@@ -17716,7 +17716,7 @@ the
 fallback
 entry
 .
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >
@@ -18680,7 +18680,7 @@ mURI
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -19220,7 +19220,7 @@ GetCallback
 controller
 )
 ;
-nsRefPtr
+RefPtr
 <
 InterceptedChannelChrome
 >
@@ -32963,7 +32963,7 @@ host
 port
 )
 ;
-nsRefPtr
+RefPtr
 <
 AltSvcMapping
 >
@@ -33635,7 +33635,7 @@ on
 local
 blocklists
 .
-nsRefPtr
+RefPtr
 <
 nsChannelClassifier
 >
@@ -38836,7 +38836,7 @@ finished
 .
 /
 /
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -38912,7 +38912,7 @@ conn
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -45893,7 +45893,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -46469,7 +46469,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHttpChannel
 >

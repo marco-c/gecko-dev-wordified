@@ -1194,7 +1194,7 @@ bool
 aLoadedAsData
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHTMLDocument
 >
@@ -7929,7 +7929,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -14514,7 +14514,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHTMLDocument
 >
@@ -14748,7 +14748,7 @@ if
 editor
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -20918,7 +20918,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLDocument
 >

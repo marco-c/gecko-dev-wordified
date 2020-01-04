@@ -281,7 +281,7 @@ SurfaceCaps
 &
 caps
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -428,7 +428,7 @@ typedef
 GrallocTextureClientOGL
 ptrT
 ;
-nsRefPtr
+RefPtr
 <
 ptrT
 >

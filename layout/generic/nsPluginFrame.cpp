@@ -1814,7 +1814,7 @@ ConfigureChildren
 configurations
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >
@@ -3546,7 +3546,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3683,7 +3683,7 @@ below
 if
 needed
 .
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -6870,7 +6870,7 @@ false
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -7576,7 +7576,7 @@ get
 our
 plugin
 instance
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -8593,7 +8593,7 @@ Round
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -8635,7 +8635,7 @@ TYPE_PLUGIN
 /
 Create
 image
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -8906,7 +8906,7 @@ VideoInfo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -9773,7 +9773,7 @@ PaintPlugin
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -10185,7 +10185,7 @@ defined
 (
 XP_WIN
 )
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -11700,7 +11700,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -11842,7 +11842,7 @@ if
 outFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

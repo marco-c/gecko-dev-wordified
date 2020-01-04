@@ -1651,7 +1651,7 @@ mTimer
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

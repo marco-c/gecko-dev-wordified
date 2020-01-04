@@ -678,7 +678,7 @@ Value
 aJSVal
 )
 {
-nsRefPtr
+RefPtr
 <
 XPCVariant
 >

@@ -1297,7 +1297,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1478,7 +1478,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 workers
 :
@@ -1584,7 +1584,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1708,7 +1708,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >

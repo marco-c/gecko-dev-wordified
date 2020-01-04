@@ -664,7 +664,7 @@ GetNextFrameStatus
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -1296,7 +1296,7 @@ lock
 is
 needed
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :

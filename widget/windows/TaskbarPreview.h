@@ -454,7 +454,7 @@ aEnable
 MSCOM
 Taskbar
 interface
-nsRefPtr
+RefPtr
 <
 ITaskbarList4
 >

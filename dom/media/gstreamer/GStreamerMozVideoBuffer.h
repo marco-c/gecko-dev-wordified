@@ -302,7 +302,7 @@ aData
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :

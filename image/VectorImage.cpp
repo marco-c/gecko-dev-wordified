@@ -187,7 +187,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -660,7 +660,7 @@ true
 Private
 data
 const
-nsRefPtr
+RefPtr
 <
 SVGDocumentWrapper
 >
@@ -853,7 +853,7 @@ complete
 our
 work
 .
-nsRefPtr
+RefPtr
 <
 SVGParseCompleteListener
 >
@@ -1137,7 +1137,7 @@ complete
 our
 work
 .
-nsRefPtr
+RefPtr
 <
 SVGLoadEventListener
 >
@@ -1402,7 +1402,7 @@ aTransform
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 SVGDocumentWrapper
 >
@@ -4641,7 +4641,7 @@ the
 restricted
 region
 )
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -4685,7 +4685,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -5416,7 +5416,7 @@ if
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5438,7 +5438,7 @@ if
 surface
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -5531,7 +5531,7 @@ FlushImageTransformInvalidation
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
@@ -5560,7 +5560,7 @@ aParams
 flags
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -5778,7 +5778,7 @@ scale
 here
 .
 )
-nsRefPtr
+RefPtr
 <
 imgFrame
 >
@@ -5910,7 +5910,7 @@ the
 operating
 system
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5973,7 +5973,7 @@ animationTime
 /
 Draw
 .
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >

@@ -12522,7 +12522,7 @@ prescontext
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -21603,7 +21603,7 @@ Now
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -23348,7 +23348,7 @@ nsRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -43767,7 +43767,7 @@ EnsureSizeUpToDate
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -44397,7 +44397,7 @@ if
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -44709,7 +44709,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -44759,7 +44759,7 @@ if
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -45083,7 +45083,7 @@ if
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -52693,7 +52693,7 @@ WritingMode
 aFrameWM
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

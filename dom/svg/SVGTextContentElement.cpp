@@ -763,7 +763,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SVGIRect
 >

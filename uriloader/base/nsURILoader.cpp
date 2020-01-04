@@ -1001,7 +1001,7 @@ nsIURIContentListeners
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsURILoader
 >
@@ -3979,7 +3979,7 @@ streams
 .
 /
 /
-nsRefPtr
+RefPtr
 <
 nsDocumentOpenInfo
 >
@@ -5668,7 +5668,7 @@ type
 .
 .
 .
-nsRefPtr
+RefPtr
 <
 nsDocumentOpenInfo
 >
@@ -5802,7 +5802,7 @@ if
 cookie
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >

@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -232,7 +232,7 @@ any
 error
 .
 virtual
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >

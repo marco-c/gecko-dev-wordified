@@ -208,7 +208,7 @@ aTags
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >

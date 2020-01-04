@@ -513,7 +513,7 @@ T
 nsCString
 mCategoryName
 ;
-nsRefPtr
+RefPtr
 <
 nsCategoryObserver
 >

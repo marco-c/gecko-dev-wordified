@@ -295,7 +295,7 @@ rather
 than
 uses
 )
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

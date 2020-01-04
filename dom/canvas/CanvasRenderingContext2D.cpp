@@ -2200,7 +2200,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2348,7 +2348,7 @@ mCtx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2361,7 +2361,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2379,7 +2379,7 @@ Style
 FILL
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2480,13 +2480,13 @@ mTarget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2833,7 +2833,7 @@ mCtx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2912,13 +2912,13 @@ TopLeft
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3831,7 +3831,7 @@ GetBounds
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5950,7 +5950,7 @@ GetPresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -6819,7 +6819,7 @@ height
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -8030,7 +8030,7 @@ OwnerDoc
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -8820,7 +8820,7 @@ to
 middle
 '
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -9341,7 +9341,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -9363,7 +9363,7 @@ snapshot
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -11108,7 +11108,7 @@ double
 y1
 )
 {
-nsRefPtr
+RefPtr
 <
 CanvasGradient
 >
@@ -11191,7 +11191,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasGradient
 >
@@ -11487,7 +11487,7 @@ an
 Azure
 canvas
 !
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -11500,7 +11500,7 @@ GetSurfaceSnapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasPattern
 >
@@ -11630,7 +11630,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -11678,7 +11678,7 @@ DoDrawImageSecurityCheck
 (
 )
 .
-nsRefPtr
+RefPtr
 <
 CanvasPattern
 >
@@ -11763,7 +11763,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasPattern
 >
@@ -11883,7 +11883,7 @@ ErrorResult
 error
 )
 {
-nsRefPtr
+RefPtr
 <
 StyleRule
 >
@@ -12154,7 +12154,7 @@ the
 canvas
 element
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -12210,7 +12210,7 @@ serif
 bool
 changed
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -12270,7 +12270,7 @@ AppendElement
 parentRule
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -12451,7 +12451,7 @@ fontParsedSuccessfully
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -12614,7 +12614,7 @@ bolder
 etc
 .
 )
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -12744,7 +12744,7 @@ StyleSet
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -12914,7 +12914,7 @@ filterChanged
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -13022,7 +13022,7 @@ AppendElement
 rule
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -13141,7 +13141,7 @@ false
 nsString
 usedFont
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -13175,7 +13175,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -13516,7 +13516,7 @@ GetTextPerfMetrics
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -14989,7 +14989,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -15253,7 +15253,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -15913,7 +15913,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -17096,7 +17096,7 @@ if
 mDSPathBuilder
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -17511,7 +17511,7 @@ false
 nsString
 usedFont
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -17757,7 +17757,7 @@ AppUnitsPerCSSPixel
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -18685,7 +18685,7 @@ ErrorResult
 error
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -18990,7 +18990,7 @@ options
 .
 mControl
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -19926,7 +19926,7 @@ GetCharacterGlyphs
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >
@@ -20212,7 +20212,7 @@ mat
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GlyphRenderingOptions
 >
@@ -21021,7 +21021,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -21085,7 +21085,7 @@ measure
 text
 and
 such
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -21443,7 +21443,7 @@ isRTL
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -23982,7 +23982,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -24178,7 +24178,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -24353,7 +24353,7 @@ roundedOutSourceRectInt
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -24370,7 +24370,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -24398,7 +24398,7 @@ if
 subrectDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -25133,7 +25133,7 @@ dh
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -27156,7 +27156,7 @@ autoRestoreTransform
 mTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -28189,7 +28189,7 @@ window
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -28487,13 +28487,13 @@ sh
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
 thebes
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -28692,7 +28692,7 @@ if
 drawDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -28705,7 +28705,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -28754,7 +28754,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -29115,7 +29115,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -29490,7 +29490,7 @@ NS_ERROR_DOM_SECURITY_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -29566,7 +29566,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -30152,7 +30152,7 @@ MOZ_ASSERT
 array
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageData
 >
@@ -30386,7 +30386,7 @@ Intersect
 destRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -30408,7 +30408,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -31006,7 +31006,7 @@ sErrorTarget
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -31700,7 +31700,7 @@ Height
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -32122,7 +32122,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -32415,7 +32415,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -33026,7 +33026,7 @@ data
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >
@@ -33043,7 +33043,7 @@ forget
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >
@@ -33647,7 +33647,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 CanvasPath
 >
@@ -33692,7 +33692,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -33722,7 +33722,7 @@ ScreenReferenceDrawTarget
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasPath
 >
@@ -33774,7 +33774,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -33805,7 +33805,7 @@ aRv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasPath
 >
@@ -34833,7 +34833,7 @@ SVGMatrix
 aMatrix
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -34928,7 +34928,7 @@ IsIdentity
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -35066,7 +35066,7 @@ fillRule
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -35124,7 +35124,7 @@ if
 mPath
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -35181,7 +35181,7 @@ GetBackendType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -35227,7 +35227,7 @@ GetFillRule
 fillRule
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -35251,7 +35251,7 @@ Finish
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :

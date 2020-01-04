@@ -9417,7 +9417,7 @@ a
 -
 based
 index
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -9837,7 +9837,7 @@ aWidget
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -10167,7 +10167,7 @@ is
 not
 visible
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -10763,7 +10763,7 @@ domSel
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -10988,7 +10988,7 @@ uint32_t
 aScrollType
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -11069,7 +11069,7 @@ aCoordinateType
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -13946,7 +13946,7 @@ nsIPersistentProperties
 aAttributes
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

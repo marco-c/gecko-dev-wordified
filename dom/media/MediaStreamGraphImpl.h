@@ -221,7 +221,7 @@ thread
 struct
 StreamUpdate
 {
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -3128,7 +3128,7 @@ down
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 GraphDriver
 >
@@ -4470,7 +4470,7 @@ Latency
 logger
 *
 /
-nsRefPtr
+RefPtr
 <
 AsyncLatencyLogger
 >
@@ -4482,7 +4482,7 @@ mMixer
 #
 ifdef
 MOZ_WEBRTC
-nsRefPtr
+RefPtr
 <
 AudioOutputObserver
 >
@@ -4614,7 +4614,7 @@ deletion
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 MediaStreamGraphImpl
 >
@@ -4647,7 +4647,7 @@ WindowAndStream
 uint64_t
 mWindowId
 ;
-nsRefPtr
+RefPtr
 <
 ProcessedMediaStream
 >

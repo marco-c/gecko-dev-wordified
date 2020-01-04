@@ -650,7 +650,7 @@ going
 to
 happen
 .
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -1379,7 +1379,7 @@ if
 aKeyCausesActivation
 )
 {
-nsRefPtr
+RefPtr
 <
 Element
 >

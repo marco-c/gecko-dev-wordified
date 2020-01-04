@@ -1171,7 +1171,7 @@ target
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamReadyEvent
 >
@@ -1224,7 +1224,7 @@ target
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOutputStreamReadyEvent
 >

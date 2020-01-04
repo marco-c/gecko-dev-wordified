@@ -1116,7 +1116,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsJARURI
 >

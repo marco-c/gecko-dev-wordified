@@ -416,7 +416,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLAudioElement
 >

@@ -1023,7 +1023,7 @@ alive
 during
 cleanup
 .
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >

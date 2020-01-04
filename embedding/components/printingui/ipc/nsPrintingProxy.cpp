@@ -306,7 +306,7 @@ sPrintingProxyInstance
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPrintingProxy
 >
@@ -627,7 +627,7 @@ returned
 to
 us
 .
-nsRefPtr
+RefPtr
 <
 PrintSettingsDialogChild
 >
@@ -898,7 +898,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PrintProgressDialogChild
 >

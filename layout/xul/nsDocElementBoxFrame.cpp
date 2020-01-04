@@ -612,7 +612,7 @@ node
 .
 shhhhh
 !
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >

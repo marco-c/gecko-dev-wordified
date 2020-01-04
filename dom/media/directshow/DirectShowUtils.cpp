@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -368,7 +368,7 @@ DWORD
 aRotRegister
 )
 {
-nsRefPtr
+RefPtr
 <
 IRunningObjectTable
 >
@@ -413,13 +413,13 @@ aOutRotRegister
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IMoniker
 >
 moniker
 ;
-nsRefPtr
+RefPtr
 <
 IRunningObjectTable
 >
@@ -1824,7 +1824,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1951,7 +1951,7 @@ the
 wrapper
 filter
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -2002,7 +2002,7 @@ Query
 for
 IDMOWrapperFilter
 .
-nsRefPtr
+RefPtr
 <
 IDMOWrapperFilter
 >
@@ -2170,7 +2170,7 @@ the
 wrapper
 filter
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -2261,7 +2261,7 @@ CanDecodeMP3UsingDirectShow
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -2423,7 +2423,7 @@ pin
 is
 unconnected
 .
-nsRefPtr
+RefPtr
 <
 IPin
 >
@@ -2533,7 +2533,7 @@ PIN_DIRECTION
 aPinDir
 )
 {
-nsRefPtr
+RefPtr
 <
 IEnumPins
 >
@@ -2580,7 +2580,7 @@ re
 looking
 for
 .
-nsRefPtr
+RefPtr
 <
 IPin
 >
@@ -2654,7 +2654,7 @@ IBaseFilter
 aInputFilter
 )
 {
-nsRefPtr
+RefPtr
 <
 IPin
 >
@@ -2672,7 +2672,7 @@ output
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 IPin
 >

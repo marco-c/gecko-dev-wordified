@@ -1991,7 +1991,7 @@ bool
 >
 readable
 ;
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >

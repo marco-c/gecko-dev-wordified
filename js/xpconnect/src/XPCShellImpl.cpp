@@ -8982,7 +8982,7 @@ translator
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 BackstagePass
 >

@@ -429,7 +429,7 @@ friend
 class
 WorkerFetchResponseRunnable
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -477,7 +477,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -502,7 +502,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerFetchResolver
 >
@@ -581,13 +581,13 @@ final
 public
 FetchDriverObserver
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
 mPromise
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -628,13 +628,13 @@ MainThreadFetchRunnable
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerFetchResolver
 >
 mResolver
 ;
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -676,7 +676,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -771,7 +771,7 @@ MOZ_ASSERT
 loadGroup
 )
 ;
-nsRefPtr
+RefPtr
 <
 FetchDriver
 >
@@ -884,7 +884,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -961,7 +961,7 @@ cx
 jsGlobal
 )
 ;
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -994,7 +994,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -1169,7 +1169,7 @@ FETCH_IS_MAINTHREAD
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 MainThreadFetchResolver
 >
@@ -1181,7 +1181,7 @@ MainThreadFetchResolver
 p
 )
 ;
-nsRefPtr
+RefPtr
 <
 FetchDriver
 >
@@ -1275,7 +1275,7 @@ SetSkipServiceWorker
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerFetchResolver
 >
@@ -1320,7 +1320,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MainThreadFetchRunnable
 >
@@ -1481,7 +1481,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerFetchResolver
 >
@@ -1500,7 +1500,7 @@ after
 being
 initialized
 .
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1560,7 +1560,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1592,7 +1592,7 @@ ResponseType
 Error
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIGlobalObject
 >
@@ -1605,7 +1605,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -1663,7 +1663,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerFetchResolver
 >
@@ -1772,7 +1772,7 @@ CleanedUp
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerFetchResponseRunnable
 >
@@ -1865,7 +1865,7 @@ CleanedUp
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerFetchResponseEndRunnable
 >
@@ -2056,7 +2056,7 @@ nsCString
 aContentType
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2706,7 +2706,7 @@ FormDataParser
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsFormData
 >
@@ -4089,7 +4089,7 @@ p
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -5451,7 +5451,7 @@ mBody
 mWorkerPrivate
 )
 {
-nsRefPtr
+RefPtr
 <
 FailConsumeBodyWorkerRunnable
 <
@@ -5645,7 +5645,7 @@ mFetchBody
 mWorkerPrivate
 )
 {
-nsRefPtr
+RefPtr
 <
 ContinueConsumeBodyRunnable
 <
@@ -6782,7 +6782,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ConsumeBodyDoneObserver
 <
@@ -7068,7 +7068,7 @@ MOZ_ASSERT
 mConsumePromise
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -7080,7 +7080,7 @@ forget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Derived
 >
@@ -7276,7 +7276,7 @@ the
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 CancelPumpRunnable
 <
@@ -7531,7 +7531,7 @@ case
 CONSUME_BLOB
 :
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -7631,7 +7631,7 @@ Reset
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFormData
 >
@@ -7976,7 +7976,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >

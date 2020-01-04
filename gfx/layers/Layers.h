@@ -259,7 +259,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -4676,7 +4676,7 @@ false
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -7374,7 +7374,7 @@ SetAncestorMaskLayers
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -12480,7 +12480,7 @@ void
 *
 mImplData
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -12488,7 +12488,7 @@ mMaskLayer
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -12634,7 +12634,7 @@ mInvalidRegion
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -15146,7 +15146,7 @@ mChildrenChanged
 EventRegionsOverride
 mEventRegionsOverride
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16413,7 +16413,7 @@ gfx
 Filter
 mFilter
 ;
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >

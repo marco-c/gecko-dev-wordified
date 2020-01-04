@@ -138,7 +138,7 @@ final
 public
 nsXHREventTarget
 {
-nsRefPtr
+RefPtr
 <
 XMLHttpRequest
 >

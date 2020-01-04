@@ -358,7 +358,7 @@ bool
 aCompileEventHandlers
 )
 {
-nsRefPtr
+RefPtr
 <
 ShadowRoot
 >
@@ -528,7 +528,7 @@ bool
 aNullParent
 )
 {
-nsRefPtr
+RefPtr
 <
 ShadowRoot
 >
@@ -1532,7 +1532,7 @@ GetDistributedNodes
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DistributedContentList
 >

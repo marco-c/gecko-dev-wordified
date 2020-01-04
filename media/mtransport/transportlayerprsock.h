@@ -568,7 +568,7 @@ PRFileDesc
 *
 fd_
 ;
-nsRefPtr
+RefPtr
 <
 SocketHandler
 >

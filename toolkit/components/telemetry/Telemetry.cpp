@@ -9599,7 +9599,7 @@ nsIFile
 >
 mFailedProfileLockFile
 ;
-nsRefPtr
+RefPtr
 <
 TelemetryImpl
 >

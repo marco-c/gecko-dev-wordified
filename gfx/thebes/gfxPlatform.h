@@ -184,7 +184,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -4303,7 +4303,7 @@ valid
 on
 parent
 process
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4315,7 +4315,7 @@ VsyncSource
 >
 mVsyncSource
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4467,7 +4467,7 @@ PopulateScreenInfo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -4598,7 +4598,7 @@ gfxPlatform
 >
 mApzSupportCollector
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4610,7 +4610,7 @@ DrawEventRecorder
 >
 mRecorder
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

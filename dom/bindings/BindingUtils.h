@@ -1277,7 +1277,7 @@ T
 *
 or
 an
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -9356,7 +9356,7 @@ JSContext
 *
 cx
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -9420,7 +9420,7 @@ JSContext
 *
 cx
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -17162,7 +17162,7 @@ T
 :
 :
 value
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -17209,7 +17209,7 @@ T
 :
 :
 value
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -17309,7 +17309,7 @@ AppendAndTake
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 U
 >
@@ -19552,7 +19552,7 @@ class
 S
 >
 inline
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -19670,7 +19670,7 @@ T
 :
 :
 value
-nsRefPtr
+RefPtr
 <
 T
 >

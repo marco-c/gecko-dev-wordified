@@ -272,13 +272,13 @@ MaybeNotifyListener
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFile
 >
 mFile
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >

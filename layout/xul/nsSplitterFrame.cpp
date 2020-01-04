@@ -1473,7 +1473,7 @@ GetParent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1863,7 +1863,7 @@ weakFrame
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSplitterFrameInner
 >

@@ -540,7 +540,7 @@ pseudo
 -
 style
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

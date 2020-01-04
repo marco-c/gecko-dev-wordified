@@ -2979,7 +2979,7 @@ monitoring
 that
 group
 .
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -3013,7 +3013,7 @@ monitoring
 that
 group
 .
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -3049,7 +3049,7 @@ monitoring
 that
 group
 .
-nsRefPtr
+RefPtr
 <
 js
 :

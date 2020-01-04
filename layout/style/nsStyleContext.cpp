@@ -2357,7 +2357,7 @@ whole
 thing
 up
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -4201,7 +4201,7 @@ if
 docElement
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -8712,7 +8712,7 @@ our
 rule
 node
 .
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -8806,7 +8806,7 @@ bool
 aSkipParentDisplayBasedStyleFixup
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

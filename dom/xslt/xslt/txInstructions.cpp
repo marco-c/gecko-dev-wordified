@@ -998,7 +998,7 @@ aEs
 mTemplateParams
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -2022,7 +2022,7 @@ txExecutionState
 aEs
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -2585,7 +2585,7 @@ txExecutionState
 aEs
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -3181,7 +3181,7 @@ txExecutionState
 aEs
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -3352,7 +3352,7 @@ rv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -3868,7 +3868,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -4016,7 +4016,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -4624,7 +4624,7 @@ txExecutionState
 aEs
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

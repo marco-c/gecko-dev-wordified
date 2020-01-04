@@ -470,7 +470,7 @@ mCallback
 ;
 Tuple
 <
-nsRefPtr
+RefPtr
 <
 Args
 >
@@ -875,7 +875,7 @@ aArg
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -967,7 +967,7 @@ Callback
 aMethod
 )
 {
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -1162,7 +1162,7 @@ tree
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DocAccessible
 >
@@ -1309,7 +1309,7 @@ insertion
 occurs
 within
 .
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -1368,7 +1368,7 @@ it
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ContentInsertion
 >
@@ -1576,7 +1576,7 @@ it
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Notification
 >

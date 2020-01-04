@@ -2100,7 +2100,7 @@ BindingManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -2743,7 +2743,7 @@ nullptr
 bool
 ready
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -3380,7 +3380,7 @@ Create
 the
 key
 handler
-nsRefPtr
+RefPtr
 <
 nsXBLWindowKeyHandler
 >
@@ -4492,7 +4492,7 @@ OwnerDoc
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -5070,7 +5070,7 @@ NS_ERROR_ILLEGAL_VALUE
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -5313,7 +5313,7 @@ NS_ERROR_XBL_BLOCKED
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >

@@ -1937,7 +1937,7 @@ GetLoadingSandboxed
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNullPrincipal
 >
@@ -7985,7 +7985,7 @@ our
 system
 principal
 singleton
-nsRefPtr
+RefPtr
 <
 nsSystemPrincipal
 >
@@ -8233,7 +8233,7 @@ InitStatics
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsScriptSecurityManager
 >

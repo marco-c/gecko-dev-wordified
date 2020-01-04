@@ -399,19 +399,19 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MozMtpDatabase
 >
 mMozMtpDatabase
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedMtpServer
 >
 mMtpServer
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -681,7 +681,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MozMtpDatabase
 >
@@ -694,7 +694,7 @@ GetMozMtpDatabase
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedMtpServer
 >
@@ -746,7 +746,7 @@ I
 O
 Thread
 .
-nsRefPtr
+RefPtr
 <
 MtpWatcherUpdateRunnable
 >
@@ -816,7 +816,7 @@ kMtpWatcherUpdate
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MozMtpServer
 >
@@ -890,7 +890,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MozMtpServer
 >
@@ -942,7 +942,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MozMtpServer
 >
@@ -982,7 +982,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 RefCountedMtpServer
 >
@@ -1085,7 +1085,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MozMtpServer
 >
@@ -1119,7 +1119,7 @@ GetMtpServer
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 RefCountedMtpServer
 >
@@ -1146,7 +1146,7 @@ GetMozMtpDatabase
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MozMtpDatabase
 >

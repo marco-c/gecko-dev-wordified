@@ -284,7 +284,7 @@ telephony
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCallGroup
 >
@@ -517,7 +517,7 @@ mMessage
 =
 aMessage
 ;
-nsRefPtr
+RefPtr
 <
 CallGroupErrorEvent
 >
@@ -1068,7 +1068,7 @@ mCall
 =
 aCall
 ;
-nsRefPtr
+RefPtr
 <
 CallEvent
 >
@@ -1135,7 +1135,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1387,7 +1387,7 @@ uint32_t
 aCallIndex
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1413,7 +1413,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1538,7 +1538,7 @@ Calls
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 CallsList
 >
@@ -1581,7 +1581,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1699,7 +1699,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1825,7 +1825,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1909,7 +1909,7 @@ CallIndex
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -2030,7 +2030,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2192,7 +2192,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2406,7 +2406,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

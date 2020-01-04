@@ -308,7 +308,7 @@ owns
 this
 WorkerDataStoreCursor
 .
-nsRefPtr
+RefPtr
 <
 WorkerDataStore
 >

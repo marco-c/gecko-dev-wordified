@@ -395,7 +395,7 @@ Height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1349,7 +1349,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -1396,7 +1396,7 @@ MOZ_ASSERT
 mMPS
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -1493,7 +1493,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -39351,7 +39351,7 @@ call
 to
 unlink
 .
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -39360,7 +39360,7 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :

@@ -788,7 +788,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 StatementRowHolder
 >
@@ -1026,7 +1026,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 StatementParamsHolder
 >

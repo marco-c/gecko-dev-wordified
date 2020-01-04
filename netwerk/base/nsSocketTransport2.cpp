@@ -688,7 +688,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsSocketTransport
 >
@@ -7594,7 +7594,7 @@ mNetAddr
 nsAutoCString
 ipaddr
 ;
-nsRefPtr
+RefPtr
 <
 nsNetAddr
 >

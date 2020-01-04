@@ -285,7 +285,7 @@ Init
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -335,7 +335,7 @@ aTags
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -437,7 +437,7 @@ guint
 aLength
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -461,7 +461,7 @@ GstBuffer
 *
 *
 aOutBuffer
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1023,7 +1023,7 @@ GstBuffer
 *
 *
 aBuf
-nsRefPtr
+RefPtr
 <
 layers
 :

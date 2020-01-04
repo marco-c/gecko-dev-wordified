@@ -10061,7 +10061,7 @@ NS_ENSURE_ARG_POINTER
 aEnumerator
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSHEnumerator
 >

@@ -226,7 +226,7 @@ nsCString
 aReason
 )
 ;
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -333,7 +333,7 @@ mWindow
 bool
 mAddedObservers
 ;
-nsRefPtr
+RefPtr
 <
 GMPVideoDecoderTrialCreator
 >

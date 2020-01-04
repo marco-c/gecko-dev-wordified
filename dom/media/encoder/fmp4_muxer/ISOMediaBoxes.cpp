@@ -506,7 +506,7 @@ l
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -676,7 +676,7 @@ rv
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -2373,7 +2373,7 @@ Video_Track
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -3435,7 +3435,7 @@ SampleDescriptionBox
 :
 CreateAudioSampleEntry
 (
-nsRefPtr
+RefPtr
 <
 SampleEntryBox
 >
@@ -3512,7 +3512,7 @@ SampleDescriptionBox
 :
 CreateVideoSampleEntry
 (
-nsRefPtr
+RefPtr
 <
 SampleEntryBox
 >
@@ -6704,7 +6704,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -6923,7 +6923,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >

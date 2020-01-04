@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -337,13 +337,13 @@ nsISupports
 >
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceObserverCallback
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceBase
 >
@@ -360,7 +360,7 @@ mConnected
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >

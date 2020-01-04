@@ -1000,7 +1000,7 @@ mSuppressDefensiveAuth
 :
 1
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpHandler
 >

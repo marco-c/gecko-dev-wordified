@@ -566,7 +566,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -659,7 +659,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -721,7 +721,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -2324,7 +2324,7 @@ IsFileHandleEnabled
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2426,7 +2426,7 @@ IsFileHandleEnabled
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBOpenDBRequest
 >

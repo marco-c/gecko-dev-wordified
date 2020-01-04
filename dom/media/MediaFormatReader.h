@@ -254,7 +254,7 @@ SizeOfAudioQueueInFrames
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 VideoDataPromise
 >
@@ -267,7 +267,7 @@ aTimeThreshold
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 AudioDataPromise
 >
@@ -300,7 +300,7 @@ mAudio
 mTrackDemuxer
 ;
 }
-nsRefPtr
+RefPtr
 <
 MetadataPromise
 >
@@ -318,7 +318,7 @@ aInfo
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -384,7 +384,7 @@ ResetDecode
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -421,7 +421,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 WaitForDataPromise
 >
@@ -829,7 +829,7 @@ TrackType
 aTrack
 )
 ;
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >
@@ -1090,7 +1090,7 @@ MediaData
 Type
 mType
 ;
-nsRefPtr
+RefPtr
 <
 MediaTrackDemuxer
 >
@@ -1102,7 +1102,7 @@ The
 platform
 decoder
 .
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1132,7 +1132,7 @@ decoder
 is
 created
 .
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -1212,7 +1212,7 @@ decoded
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1380,7 +1380,7 @@ request
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -1647,7 +1647,7 @@ media
 TimeIntervals
 mTimeRanges
 ;
-nsRefPtr
+RefPtr
 <
 SharedTrackInfo
 >
@@ -1827,7 +1827,7 @@ aReason
 Demuxer
 objects
 .
-nsRefPtr
+RefPtr
 <
 MediaDataDemuxer
 >
@@ -1875,7 +1875,7 @@ DoDemuxVideo
 void
 OnVideoDemuxCompleted
 (
-nsRefPtr
+RefPtr
 <
 MediaTrackDemuxer
 :
@@ -1910,7 +1910,7 @@ DoDemuxAudio
 void
 OnAudioDemuxCompleted
 (
-nsRefPtr
+RefPtr
 <
 MediaTrackDemuxer
 :
@@ -2268,7 +2268,7 @@ AllPromiseType
 >
 mDecodersInitRequest
 ;
-nsRefPtr
+RefPtr
 <
 VideoFrameContainer
 >
@@ -2286,7 +2286,7 @@ GetImageContainer
 #
 ifdef
 MOZ_EME
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >

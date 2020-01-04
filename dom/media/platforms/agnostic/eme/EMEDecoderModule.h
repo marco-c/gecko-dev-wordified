@@ -265,7 +265,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -282,7 +282,7 @@ has
 decoding
 capability
 .
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >
@@ -300,7 +300,7 @@ own
 task
 queue
 .
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >

@@ -719,7 +719,7 @@ aArgv
 ]
 )
 {
-nsRefPtr
+RefPtr
 <
 PluginAsyncSurrogate
 >
@@ -1636,7 +1636,7 @@ going
 to
 release
 it
-nsRefPtr
+RefPtr
 <
 PluginAsyncSurrogate
 >

@@ -984,7 +984,7 @@ EditorDidHandleCompositionChangeEvent
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 TextComposition
 >
@@ -1118,7 +1118,7 @@ nsINode
 >
 mNode
 ;
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -1156,7 +1156,7 @@ clauses
 or
 caret
 .
-nsRefPtr
+RefPtr
 <
 TextRangeArray
 >
@@ -2093,7 +2093,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TextComposition
 >
@@ -2341,7 +2341,7 @@ final
 public
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 TextComposition
 >

@@ -2044,7 +2044,7 @@ mSOCKSProxyRemoteDNS
 bool
 mProxyOverTLS
 ;
-nsRefPtr
+RefPtr
 <
 nsPACMan
 >

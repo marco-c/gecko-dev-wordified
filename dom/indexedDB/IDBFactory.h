@@ -364,7 +364,7 @@ child
 /
 process
 .
-nsRefPtr
+RefPtr
 <
 TabChild
 >

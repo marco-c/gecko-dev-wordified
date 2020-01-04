@@ -892,7 +892,7 @@ Hash
 *
 mHash
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -1131,7 +1131,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -1498,7 +1498,7 @@ return
 NS_ERROR_ALREADY_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -1635,7 +1635,7 @@ NS_IsMainThread
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -2191,7 +2191,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -2524,7 +2524,7 @@ aHash
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -3338,7 +3338,7 @@ aHash
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -4119,7 +4119,7 @@ aInBrowser
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -4699,7 +4699,7 @@ aHash
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -5454,7 +5454,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -5943,7 +5943,7 @@ RemoveAll
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -6494,7 +6494,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -6797,7 +6797,7 @@ GetEntryForEviction
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7091,7 +7091,7 @@ Hash
 aHash
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -7175,7 +7175,7 @@ GetCacheSize
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7276,7 +7276,7 @@ GetEntryFileCount
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7392,7 +7392,7 @@ aInfo
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7550,7 +7550,7 @@ AsyncGetDiskConsumption
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7589,7 +7589,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DiskConsumptionObserver
 >
@@ -7774,7 +7774,7 @@ aAddNew
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -7813,7 +7813,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheIndexIterator
 >
@@ -7920,7 +7920,7 @@ IsUpToDate
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -10289,7 +10289,7 @@ mBufSize
 int32_t
 mBufPos
 ;
-nsRefPtr
+RefPtr
 <
 CacheHash
 >
@@ -13764,7 +13764,7 @@ DelayedUpdate
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >
@@ -13912,7 +13912,7 @@ run
 with
 lower
 priority
-nsRefPtr
+RefPtr
 <
 CacheIOThread
 >
@@ -14968,7 +14968,7 @@ nullptr
 #
 ifdef
 DEBUG
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -15107,7 +15107,7 @@ MOZ_ASSERT
 handle
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileMetadata
 >
@@ -15762,7 +15762,7 @@ elapsed
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheIOThread
 >
@@ -16336,7 +16336,7 @@ nullptr
 #
 ifdef
 DEBUG
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -16645,7 +16645,7 @@ continue
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 CacheFileMetadata
 >

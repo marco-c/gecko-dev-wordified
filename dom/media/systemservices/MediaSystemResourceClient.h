@@ -170,7 +170,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -430,7 +430,7 @@ MediaSystemResourceClient
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaSystemResourceManager
 >

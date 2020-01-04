@@ -3156,7 +3156,7 @@ into
 the
 hash
 table
-nsRefPtr
+RefPtr
 <
 nsStringBundle
 >
@@ -3493,7 +3493,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsExtensibleStringBundle
 >

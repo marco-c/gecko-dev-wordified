@@ -441,7 +441,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsTransportEventSinkProxy
 >
@@ -496,7 +496,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsTransportStatusEvent
 >

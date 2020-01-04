@@ -402,7 +402,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldCacheLoad
 >
@@ -534,7 +534,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 _OldStorage
 >
@@ -770,7 +770,7 @@ else
 Discard
 the
 group
-nsRefPtr
+RefPtr
 <
 _OldStorage
 >
@@ -900,7 +900,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldVisitCallbackWrapper
 >

@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -273,7 +273,7 @@ nsIObserver
 >
 mObserver
 ;
-nsRefPtr
+RefPtr
 <
 nsClientAuthRememberService
 >

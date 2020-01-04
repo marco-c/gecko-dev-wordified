@@ -532,7 +532,7 @@ mRV
 uint32_t
 mChunkIdx
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -1539,7 +1539,7 @@ Offset
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotifyCacheFileListenerEvent
 >
@@ -1787,7 +1787,7 @@ be
 called
 again
 .
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -5288,7 +5288,7 @@ we
 unlock
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -5331,7 +5331,7 @@ CacheFile
 :
 ReleaseOutsideLock
 (
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -5537,7 +5537,7 @@ READER
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -6878,7 +6878,7 @@ i
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -7346,7 +7346,7 @@ by
 increasing
 the
 RefCnt
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -7532,7 +7532,7 @@ in
 the
 hash
 table
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -7995,7 +7995,7 @@ false
 ;
 ReleaseOutsideLock
 (
-nsRefPtr
+RefPtr
 <
 CacheFileChunkListener
 >
@@ -8883,7 +8883,7 @@ aChunk
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 NotifyChunkListenerEvent
 >
@@ -9932,7 +9932,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -10043,7 +10043,7 @@ constructor
 that
 took
 a
-nsRefPtr
+RefPtr
 <
 Derived
 >
@@ -10052,7 +10052,7 @@ file
 >
 ReleaseOutsideLock
 (
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -10125,7 +10125,7 @@ aIdx
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -10236,7 +10236,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -10318,7 +10318,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -10480,7 +10480,7 @@ aChunkIdx
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >

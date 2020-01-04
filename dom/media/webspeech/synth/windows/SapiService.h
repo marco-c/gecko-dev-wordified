@@ -255,14 +255,14 @@ mVoices
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SapiCallback
 >
 >
 mCallbacks
 ;
-nsRefPtr
+RefPtr
 <
 ISpVoice
 >

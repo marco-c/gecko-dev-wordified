@@ -114,7 +114,7 @@ mTimeStamp
 /
 in
 milliseconds
-nsRefPtr
+RefPtr
 <
 CacheIndexIterator
 >

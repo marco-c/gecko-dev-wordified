@@ -880,7 +880,7 @@ nsSVGElement
 aSVGElement
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMAnimatedNumber
 >

@@ -285,7 +285,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -339,7 +339,7 @@ the
 BlobImpl
 instead
 .
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

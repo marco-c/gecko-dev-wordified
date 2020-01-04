@@ -1935,7 +1935,7 @@ Derived
 struct
 nsTArray_SafeElementAtHelper
 <
-nsRefPtr
+RefPtr
 <
 E
 >

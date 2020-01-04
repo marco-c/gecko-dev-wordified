@@ -3110,7 +3110,7 @@ necessary
 struct
 GlyphRun
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -6977,7 +6977,7 @@ const
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -7103,7 +7103,7 @@ FamilyFace
 >
 mFonts
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -7118,7 +7118,7 @@ mUnderlineOffset
 gfxFloat
 mHyphenWidth
 ;
-nsRefPtr
+RefPtr
 <
 gfxUserFontSet
 >
@@ -7190,13 +7190,13 @@ general
 pref
 font
 lookup
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
 mLastPrefFamily
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >

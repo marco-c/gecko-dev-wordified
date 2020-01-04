@@ -253,7 +253,7 @@ XRE_IsParentProcess
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -465,7 +465,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -1421,7 +1421,7 @@ MOZ_ASSERT
 mainThread
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -1533,7 +1533,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -1693,7 +1693,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceChild
 >
@@ -1806,7 +1806,7 @@ ProcessId
 aOtherPid
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceChild
 >

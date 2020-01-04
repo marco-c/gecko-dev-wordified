@@ -220,7 +220,7 @@ txXPathObjectAdaptor
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

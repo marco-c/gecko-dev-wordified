@@ -883,7 +883,7 @@ which
 this
 timeout
 fires
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -4085,7 +4085,7 @@ GetGamepads
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4222,7 +4222,7 @@ GetVRDevices
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -8520,7 +8520,7 @@ nsIIdleService
 >
 mIdleService
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -10397,7 +10397,7 @@ nsAString
 &
 aType
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11391,7 +11391,7 @@ via
 showModalDialog
 |
 .
-nsRefPtr
+RefPtr
 <
 DialogValueHolder
 >
@@ -11405,13 +11405,13 @@ in
 the
 outer
 .
-nsRefPtr
+RefPtr
 <
 DialogValueHolder
 >
 mReturnValue
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11423,13 +11423,13 @@ Navigator
 >
 mNavigator
 ;
-nsRefPtr
+RefPtr
 <
 nsScreen
 >
 mScreen
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMWindowList
 >
@@ -11444,7 +11444,7 @@ inner
 window
 only
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11456,7 +11456,7 @@ BarProp
 >
 mMenubar
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11468,7 +11468,7 @@ BarProp
 >
 mToolbar
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11480,7 +11480,7 @@ BarProp
 >
 mLocationbar
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11492,7 +11492,7 @@ BarProp
 >
 mPersonalbar
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11504,7 +11504,7 @@ BarProp
 >
 mStatusbar
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11516,7 +11516,7 @@ BarProp
 >
 mScrollbars
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMWindowUtils
 >
@@ -11528,7 +11528,7 @@ mStatus
 nsString
 mDefaultStatus
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindowObserver
 >
@@ -11540,7 +11540,7 @@ Inner
 windows
 only
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11552,7 +11552,7 @@ Crypto
 >
 mCrypto
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11567,7 +11567,7 @@ CacheStorage
 >
 mCacheStorage
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11648,7 +11648,7 @@ nsISupports
 >
 mExternal
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11660,7 +11660,7 @@ MozSelfSupport
 >
 mMozSelfSupport
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11672,7 +11672,7 @@ DOMStorage
 >
 mLocalStorage
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11696,7 +11696,7 @@ on
 inner
 windows
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -11809,13 +11809,13 @@ mTimeoutPublicIdCounter
 uint32_t
 mTimeoutFiringDepth
 ;
-nsRefPtr
+RefPtr
 <
 nsLocation
 >
 mLocation
 ;
-nsRefPtr
+RefPtr
 <
 nsHistory
 >
@@ -11845,7 +11845,7 @@ mDocumentPrincipal
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12018,7 +12018,7 @@ nsIDocument
 >
 mSuspendedDoc
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12201,7 +12201,7 @@ on
 inner
 windows
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12254,7 +12254,7 @@ this
 window
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12274,7 +12274,7 @@ attached
 HMD
 when
 fullscreen
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12752,7 +12752,7 @@ bool
 aIsModalContentWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >

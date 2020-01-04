@@ -1672,7 +1672,7 @@ mDocument
 NodeInfoInner
 mInner
 ;
-nsRefPtr
+RefPtr
 <
 nsNodeInfoManager
 >

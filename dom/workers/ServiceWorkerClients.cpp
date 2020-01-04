@@ -292,7 +292,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -385,7 +385,7 @@ promise
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ServiceWorkerClient
 >
@@ -416,7 +416,7 @@ ret
 .
 AppendElement
 (
-nsRefPtr
+RefPtr
 <
 ServiceWorkerClient
 >
@@ -470,7 +470,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -542,7 +542,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -581,7 +581,7 @@ mScope
 result
 )
 ;
-nsRefPtr
+RefPtr
 <
 ResolvePromiseWorkerRunnable
 >
@@ -634,7 +634,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -700,7 +700,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -770,7 +770,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -902,7 +902,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -938,7 +938,7 @@ mScope
 mServiceWorkerID
 )
 ;
-nsRefPtr
+RefPtr
 <
 ResolveClaimRunnable
 >
@@ -1061,7 +1061,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1092,7 +1092,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1129,7 +1129,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MatchAllRunnable
 >
@@ -1182,7 +1182,7 @@ aUrl
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1256,7 +1256,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1287,7 +1287,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1335,7 +1335,7 @@ GetScope
 scope
 )
 ;
-nsRefPtr
+RefPtr
 <
 ClaimRunnable
 >

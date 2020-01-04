@@ -7319,7 +7319,7 @@ n
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoBase
 >
@@ -7504,7 +7504,7 @@ NS_LITERAL_CSTRING
 asciiMinorType
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoUnix
 >
@@ -8008,7 +8008,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoBase
 >
@@ -8290,7 +8290,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoUnix
 >
@@ -8464,7 +8464,7 @@ aFound
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoBase
 >
@@ -8506,7 +8506,7 @@ retval
 hasDefault
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoBase
 >

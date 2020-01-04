@@ -77,7 +77,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -438,7 +438,7 @@ nsIPKCS11Slot
 _retval
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPKCS11Slot
 >

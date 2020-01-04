@@ -1463,7 +1463,7 @@ connection
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -2544,7 +2544,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -4486,7 +4486,7 @@ to
 our
 pipeline
 .
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -4994,7 +4994,7 @@ mClosed
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >

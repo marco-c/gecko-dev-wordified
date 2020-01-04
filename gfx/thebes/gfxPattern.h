@@ -550,7 +550,7 @@ gfx
 GeneralPattern
 mGfxPattern
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -571,7 +571,7 @@ gfx
 Matrix
 mPatternToUserSpace
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -196,7 +196,7 @@ float
 aPitch
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechTaskParent
 >

@@ -283,7 +283,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -315,7 +315,7 @@ RegisterServiceWorker
 mData
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManagerService
 >
@@ -410,7 +410,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -596,7 +596,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -605,7 +605,7 @@ mContentParent
 PrincipalInfo
 mPrincipalInfo
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -759,7 +759,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 RegisterServiceWorkerCallback
 >
@@ -772,7 +772,7 @@ aData
 mID
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -822,7 +822,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 CheckPrincipalWithCallbackRunnable
 >
@@ -932,7 +932,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 UnregisterServiceWorkerCallback
 >
@@ -945,7 +945,7 @@ aPrincipalInfo
 aScope
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -995,7 +995,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 CheckPrincipalWithCallbackRunnable
 >

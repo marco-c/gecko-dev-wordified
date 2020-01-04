@@ -8389,7 +8389,7 @@ the
 lambda
 function
 .
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >
@@ -9590,7 +9590,7 @@ s
 -
 >
 mChildrenPending
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -12351,7 +12351,7 @@ nsIRunnable
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MinimizeMemoryUsageRunnable
 >
@@ -12683,7 +12683,7 @@ GET_MEMORY_REPORTER_MANAGER
 mgr
 )
 \
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >

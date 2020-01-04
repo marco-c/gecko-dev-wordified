@@ -248,7 +248,7 @@ Upload
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -503,7 +503,7 @@ xhr
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIDOMEventListener
 >

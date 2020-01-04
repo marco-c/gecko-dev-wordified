@@ -319,7 +319,7 @@ by
 this
 class
 .
-nsRefPtr
+RefPtr
 <
 DoWorkRunnable
 >

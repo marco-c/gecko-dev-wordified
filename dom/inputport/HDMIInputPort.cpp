@@ -195,7 +195,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 HDMIInputPort
 >

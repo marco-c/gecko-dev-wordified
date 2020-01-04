@@ -171,7 +171,7 @@ AppleVTDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >

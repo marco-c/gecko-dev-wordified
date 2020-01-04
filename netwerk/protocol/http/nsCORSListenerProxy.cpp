@@ -7747,7 +7747,7 @@ start
 the
 original
 channel
-nsRefPtr
+RefPtr
 <
 nsCORSPreflightListener
 >
@@ -7807,7 +7807,7 @@ preflightListener
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >

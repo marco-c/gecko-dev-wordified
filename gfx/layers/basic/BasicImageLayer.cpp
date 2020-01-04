@@ -480,7 +480,7 @@ mContainer
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageFactory
 >
@@ -550,7 +550,7 @@ originalIF
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -727,7 +727,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >

@@ -451,7 +451,7 @@ FilePickerParent
 aFPParent
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -755,7 +755,7 @@ SendFiles
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -906,7 +906,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1000,7 +1000,7 @@ do_QueryInterface
 supports
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1046,7 +1046,7 @@ if
 file
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

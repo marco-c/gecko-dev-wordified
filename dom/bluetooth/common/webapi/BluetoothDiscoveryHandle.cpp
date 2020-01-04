@@ -320,7 +320,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -377,7 +377,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -424,7 +424,7 @@ mDevice
 =
 aDevice
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothDeviceEvent
 >
@@ -695,7 +695,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothLeDeviceEvent
 >

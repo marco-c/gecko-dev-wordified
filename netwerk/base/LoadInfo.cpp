@@ -811,7 +811,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 LoadInfo
 >

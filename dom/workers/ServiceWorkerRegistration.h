@@ -813,7 +813,7 @@ at
 any
 time
 .
-nsRefPtr
+RefPtr
 <
 workers
 :
@@ -822,7 +822,7 @@ ServiceWorker
 >
 mInstallingWorker
 ;
-nsRefPtr
+RefPtr
 <
 workers
 :
@@ -831,7 +831,7 @@ ServiceWorker
 >
 mWaitingWorker
 ;
-nsRefPtr
+RefPtr
 <
 workers
 :
@@ -843,7 +843,7 @@ mActiveWorker
 #
 ifndef
 MOZ_SIMPLEPUSH
-nsRefPtr
+RefPtr
 <
 PushManager
 >
@@ -1083,7 +1083,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 WorkerListener
 >
@@ -1092,7 +1092,7 @@ mListener
 #
 ifndef
 MOZ_SIMPLEPUSH
-nsRefPtr
+RefPtr
 <
 WorkerPushManager
 >

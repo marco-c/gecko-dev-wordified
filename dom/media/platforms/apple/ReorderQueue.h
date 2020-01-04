@@ -153,7 +153,7 @@ mTime
 typedef
 nsTPriorityQueue
 <
-nsRefPtr
+RefPtr
 <
 VideoData
 >

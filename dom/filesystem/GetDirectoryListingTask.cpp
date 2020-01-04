@@ -439,7 +439,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >

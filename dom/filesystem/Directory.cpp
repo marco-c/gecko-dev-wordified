@@ -340,7 +340,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 GetFileOrDirectoryTask
 >
@@ -590,7 +590,7 @@ NS_OK
 nsAutoString
 realPath
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -806,7 +806,7 @@ error
 NS_ERROR_DOM_FILESYSTEM_INVALID_PATH_ERR
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateFileTask
 >
@@ -902,7 +902,7 @@ error
 NS_ERROR_DOM_FILESYSTEM_INVALID_PATH_ERR
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateDirectoryTask
 >
@@ -995,7 +995,7 @@ error
 NS_ERROR_DOM_FILESYSTEM_INVALID_PATH_ERR
 ;
 }
-nsRefPtr
+RefPtr
 <
 GetFileOrDirectoryTask
 >
@@ -1130,7 +1130,7 @@ NS_OK
 nsAutoString
 realPath
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1263,7 +1263,7 @@ NS_ERROR_DOM_FILESYSTEM_NO_MODIFICATION_ALLOWED_ERR
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 RemoveTask
 >
@@ -1410,7 +1410,7 @@ realPath
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 GetDirectoryListingTask
 >

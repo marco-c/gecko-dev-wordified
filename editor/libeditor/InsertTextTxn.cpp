@@ -347,7 +347,7 @@ GetShouldTxnSetSelection
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -501,7 +501,7 @@ changed
 then
 absorb
 it
-nsRefPtr
+RefPtr
 <
 InsertTextTxn
 >

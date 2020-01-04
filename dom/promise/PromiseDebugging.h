@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -282,7 +282,7 @@ Promise
 aPromise
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >

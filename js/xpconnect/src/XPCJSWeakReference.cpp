@@ -319,7 +319,7 @@ a
 wrapped
 JSObject
 .
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >

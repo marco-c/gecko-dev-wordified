@@ -12886,7 +12886,7 @@ frames
 in
 this
 span
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

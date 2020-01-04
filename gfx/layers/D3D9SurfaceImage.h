@@ -101,7 +101,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -223,7 +223,7 @@ aAllocFlags
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DDevice9
 >
@@ -333,7 +333,7 @@ aIsFirstFrame
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -345,7 +345,7 @@ gfx
 IntRect
 mRegion
 ;
-nsRefPtr
+RefPtr
 <
 D3D9RecycleAllocator
 >
@@ -492,13 +492,13 @@ gfx
 IntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
 mQuery
 ;
-nsRefPtr
+RefPtr
 <
 SharedTextureClientD3D9
 >

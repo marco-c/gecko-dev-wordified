@@ -367,7 +367,7 @@ aSample
 mKeyframe
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -924,7 +924,7 @@ numSps
 -
 -
 +
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1806,7 +1806,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

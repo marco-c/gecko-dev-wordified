@@ -270,7 +270,7 @@ aCtx
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 nsCookieService
 >

@@ -278,7 +278,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TestInterfaceIterableDouble
 >

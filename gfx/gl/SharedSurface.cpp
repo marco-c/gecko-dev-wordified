@@ -1757,7 +1757,7 @@ SurfaceCaps
 &
 caps
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1935,7 +1935,7 @@ empty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2020,7 +2020,7 @@ surf
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2198,7 +2198,7 @@ void
 rawFactory
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2324,7 +2324,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :

@@ -298,7 +298,7 @@ const
 void
 *
 aKey
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -360,7 +360,7 @@ const
 void
 *
 aKey
-nsRefPtr
+RefPtr
 <
 T
 >

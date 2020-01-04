@@ -609,7 +609,7 @@ mIntrinsicSize
 nsSize
 mImageSize
 ;
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >

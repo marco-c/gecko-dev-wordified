@@ -299,7 +299,7 @@ the
 surface
 copy
 it
-nsRefPtr
+RefPtr
 <
 gfxSharedImageSurface
 >
@@ -492,7 +492,7 @@ Shmem
 aShmem
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxSharedImageSurface
 >
@@ -506,7 +506,7 @@ Open
 aShmem
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxReusableSharedImageSurfaceWrapper
 >

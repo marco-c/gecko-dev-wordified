@@ -206,7 +206,7 @@ frames
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -255,7 +255,7 @@ mEncodedFrames
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >

@@ -1821,7 +1821,7 @@ const
 nsAString
 &
 aProfileDir
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheDevice
 >

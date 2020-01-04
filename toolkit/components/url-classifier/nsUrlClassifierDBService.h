@@ -555,13 +555,13 @@ nsCString
 tables
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
 mWorker
 ;
-nsRefPtr
+RefPtr
 <
 UrlClassifierDBServiceWorkerProxy
 >

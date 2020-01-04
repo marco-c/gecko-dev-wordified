@@ -768,7 +768,7 @@ we
 have
 a
 leak
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1474,7 +1474,7 @@ css
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2631,7 +2631,7 @@ NS_ERROR_NOT_INITIALIZED
 Get
 the
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -3444,7 +3444,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -4568,7 +4568,7 @@ nsAString
 aTitle
 )
 {
-nsRefPtr
+RefPtr
 <
 SetDocTitleTxn
 >
@@ -5923,7 +5923,7 @@ HTML
 base
 >
 tag
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -6472,7 +6472,7 @@ row
 .
 .
 .
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6771,7 +6771,7 @@ MOZ_ASSERT
 aNode
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6975,7 +6975,7 @@ nsIEditor
 eNone
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -7048,7 +7048,7 @@ doc
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -7229,7 +7229,7 @@ selection
 for
 context
 :
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -7252,7 +7252,7 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 err
 ;
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -7483,7 +7483,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -8348,7 +8348,7 @@ endclosebody
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -8371,7 +8371,7 @@ NS_ERROR_FAILURE
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -9013,7 +9013,7 @@ nsIEditor
 eNext
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -10099,7 +10099,7 @@ aElement
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -10249,7 +10249,7 @@ aElement
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -10424,7 +10424,7 @@ aMixed
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLEditRules
 >
@@ -10680,7 +10680,7 @@ transparent
 /
 get
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -11549,7 +11549,7 @@ aDL
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLEditRules
 >
@@ -11626,7 +11626,7 @@ aDD
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLEditRules
 >
@@ -11694,7 +11694,7 @@ aAlign
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLEditRules
 >
@@ -11757,7 +11757,7 @@ aCanOutdent
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLEditRules
 >
@@ -11865,7 +11865,7 @@ eNext
 pre
 -
 process
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12321,7 +12321,7 @@ eNext
 pre
 -
 process
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12504,7 +12504,7 @@ eNext
 pre
 -
 process
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12680,7 +12680,7 @@ eNext
 pre
 -
 process
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -13140,7 +13140,7 @@ eNext
 pre
 -
 process
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -13651,7 +13651,7 @@ selection
 is
 collapsed
 :
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -13786,7 +13786,7 @@ node
 of
 current
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -14441,7 +14441,7 @@ single
 element
 in
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -14530,7 +14530,7 @@ nsIDOMElement
 >
 selectedElement
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -15199,7 +15199,7 @@ it
 is
 collapsed
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -16094,7 +16094,7 @@ have
 a
 real
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -17257,7 +17257,7 @@ nsAString
 aURL
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -17287,7 +17287,7 @@ sheet
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoveStyleSheetTxn
 >
@@ -17483,7 +17483,7 @@ of
 course
 .
 .
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -17730,7 +17730,7 @@ nsAString
 aURL
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -17851,7 +17851,7 @@ bool
 aEnable
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -17945,7 +17945,7 @@ nsAString
 aURL
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -18712,7 +18712,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -19483,7 +19483,7 @@ if
 mInlineSpellChecker
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -19798,7 +19798,7 @@ MOZ_ASSERT
 aIsSelectionEditable
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -20089,7 +20089,7 @@ nsAString
 aOutputString
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -20454,7 +20454,7 @@ RemoveStyleSheet
 mLastStyleSheetURL
 )
 ;
-nsRefPtr
+RefPtr
 <
 AddStyleSheetTxn
 >
@@ -21127,7 +21127,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -21875,7 +21875,7 @@ of
 the
 found
 node
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -27609,7 +27609,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -27751,7 +27751,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -29646,7 +29646,7 @@ mUpdateCount
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -29686,7 +29686,7 @@ nsIDOMElement
 aReturn
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -29788,7 +29788,7 @@ rangeCount
 1
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -29976,7 +29976,7 @@ else
 int32_t
 i
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -30807,7 +30807,7 @@ HTML
 editor
 for
 contenteditable
-nsRefPtr
+RefPtr
 <
 Selection
 >

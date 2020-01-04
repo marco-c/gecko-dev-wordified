@@ -323,7 +323,7 @@ aServiceId
 ]
 )
 {
-nsRefPtr
+RefPtr
 <
 MobileConnectionChild
 >
@@ -385,7 +385,7 @@ aServiceId
 child
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIMobileConnection
 >

@@ -273,7 +273,7 @@ nsAString
 aSessionId
 )
 {
-nsRefPtr
+RefPtr
 <
 PresentationReceiver
 >
@@ -653,7 +653,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -823,7 +823,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -906,7 +906,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 PresentationConnection
 >
@@ -1021,7 +1021,7 @@ DispatchConnectionAvailableEvent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

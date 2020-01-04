@@ -253,7 +253,7 @@ mParent
 )
 ;
 \
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -285,7 +285,7 @@ nullptr
 \
 }
 \
-nsRefPtr
+RefPtr
 <
 WebCryptoTask
 >

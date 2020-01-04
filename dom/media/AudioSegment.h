@@ -1408,7 +1408,7 @@ frames
 within
 the
 buffer
-nsRefPtr
+RefPtr
 <
 ThreadSharedObject
 >

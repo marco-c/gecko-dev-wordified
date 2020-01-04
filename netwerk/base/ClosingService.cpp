@@ -174,7 +174,7 @@ mClosingService
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :

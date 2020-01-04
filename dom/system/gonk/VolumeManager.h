@@ -756,7 +756,7 @@ VolumeManager
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -1261,7 +1261,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 VolumeCommand
 >
@@ -1307,7 +1307,7 @@ MessageLoopForIO
 FileDescriptorWatcher
 mWriteWatcher
 ;
-nsRefPtr
+RefPtr
 <
 VolumeResponseCallback
 >

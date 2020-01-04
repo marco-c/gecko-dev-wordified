@@ -750,7 +750,7 @@ image
 nsIntRect
 dragRect
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -817,7 +817,7 @@ crColorKey
 =
 CLR_NONE
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -875,7 +875,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1600,7 +1600,7 @@ native
 IDataObject
 |
 .
-nsRefPtr
+RefPtr
 <
 IDataObject
 >
@@ -1701,7 +1701,7 @@ SetRequestingNode
 aDOMNode
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDataObject
 >
@@ -2062,7 +2062,7 @@ interface
 for
 OLE
 )
-nsRefPtr
+RefPtr
 <
 nsNativeDragSource
 >
@@ -2172,7 +2172,7 @@ OpenDragPopup
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IAsyncOperation
 >

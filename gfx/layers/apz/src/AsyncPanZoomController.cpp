@@ -3945,7 +3945,7 @@ AsyncPanZoomController
 &
 aApzc
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -5414,7 +5414,7 @@ AsyncPanZoomController
 &
 mApzc
 ;
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6952,7 +6952,7 @@ APZCTreeManager
 *
 aTreeManager
 const
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -7209,7 +7209,7 @@ lock
 mRefPtrMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -7243,7 +7243,7 @@ lock
 mRefPtrMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 GestureEventListener
 >
@@ -7260,7 +7260,7 @@ forget
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -7915,7 +7915,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 {
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -8336,7 +8336,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 GestureEventListener
 >
@@ -9197,7 +9197,7 @@ mTime
 ;
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -12250,7 +12250,7 @@ MouseScrollTestingEnabled
 {
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -12629,7 +12629,7 @@ aString
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -13829,7 +13829,7 @@ this
 mState
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -13995,7 +13995,7 @@ Modifiers
 aModifiers
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -14159,7 +14159,7 @@ OnTouchEndOrCancel
 {
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -14367,7 +14367,7 @@ this
 mState
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -15213,7 +15213,7 @@ lock
 mMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -15756,7 +15756,7 @@ IsInPanningState
 {
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -16596,7 +16596,7 @@ ScheduleComposite
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -16688,7 +16688,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -17076,7 +17076,7 @@ if
 flingWillOverscroll
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -17219,7 +17219,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -17275,7 +17275,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -19386,7 +19386,7 @@ GetLastTouchIdentifier
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GestureEventListener
 >
@@ -19805,7 +19805,7 @@ FrameMetrics
 aFrameMetrics
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -23108,7 +23108,7 @@ like
 content
 scripts
 .
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -24249,7 +24249,7 @@ Now
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 GestureEventListener
 >
@@ -24422,7 +24422,7 @@ return
 }
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -24769,7 +24769,7 @@ AssertOnControllerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -24803,7 +24803,7 @@ SendAsyncScrollEvent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
@@ -25529,7 +25529,7 @@ point
 .
 if
 (
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >

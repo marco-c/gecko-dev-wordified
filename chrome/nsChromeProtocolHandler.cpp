@@ -578,7 +578,7 @@ outer
 given
 to
 CreateInstance
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >

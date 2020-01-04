@@ -572,7 +572,7 @@ fake
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -1228,7 +1228,7 @@ GetGMPThread
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -1468,7 +1468,7 @@ T
 aDirIter
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -2171,7 +2171,7 @@ aSince
 1
 )
 {
-nsRefPtr
+RefPtr
 <
 ClearGMPStorageTask
 >
@@ -2294,7 +2294,7 @@ bool
 aInPBMode
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -2391,7 +2391,7 @@ IsGMPStorageIsEmpty
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -2468,7 +2468,7 @@ AssertIsOnGMPThread
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -3146,7 +3146,7 @@ NS_DISPATCH_NORMAL
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -3265,7 +3265,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -3345,7 +3345,7 @@ nsIRunnable
 aContinuation
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -3456,7 +3456,7 @@ IsGMPStorageIsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -4019,7 +4019,7 @@ NodeInfo
 aSiteInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -7364,7 +7364,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPShutdownObserver
 >
@@ -7899,7 +7899,7 @@ GeckoMediaPlugins
 GMPTestCodec
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPTestRunner
 >
@@ -7953,7 +7953,7 @@ GeckoMediaPlugins
 GMPCrossOrigin
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPTestRunner
 >
@@ -8019,7 +8019,7 @@ GeckoMediaPlugins
 GMPStorageGetNodeId
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8049,7 +8049,7 @@ GeckoMediaPlugins
 GMPStorageBasic
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8079,7 +8079,7 @@ GeckoMediaPlugins
 GMPStorageForgetThisSite
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8109,7 +8109,7 @@ GeckoMediaPlugins
 GMPStorageClearRecentHistory1
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8139,7 +8139,7 @@ GeckoMediaPlugins
 GMPStorageClearRecentHistory2
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8169,7 +8169,7 @@ GeckoMediaPlugins
 GMPStorageClearRecentHistory3
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8199,7 +8199,7 @@ GeckoMediaPlugins
 GMPStorageCrossOrigin
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8229,7 +8229,7 @@ GeckoMediaPlugins
 GMPStoragePrivateBrowsing
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8259,7 +8259,7 @@ GeckoMediaPlugins
 GMPStorageAsyncShutdownTimeout
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8289,7 +8289,7 @@ GeckoMediaPlugins
 GMPStorageAsyncShutdownStorage
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8319,7 +8319,7 @@ GeckoMediaPlugins
 GMPPluginVoucher
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8377,7 +8377,7 @@ IsVistaOrLater
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8409,7 +8409,7 @@ GeckoMediaPlugins
 GMPStorageGetRecordNamesInMemoryStorage
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8439,7 +8439,7 @@ GeckoMediaPlugins
 GMPStorageGetRecordNamesPersistentStorage
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8469,7 +8469,7 @@ GeckoMediaPlugins
 GMPStorageLongRecordNames
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPStorageTest
 >
@@ -8675,7 +8675,7 @@ mFinished
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -8707,7 +8707,7 @@ GeckoMediaPlugins
 GMPTrialCreateFail
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPTrialCreateTest
 >

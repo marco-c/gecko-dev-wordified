@@ -1525,7 +1525,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >
@@ -1538,7 +1538,7 @@ JSObject
 >
 mTargetObj
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1712,7 +1712,7 @@ JSContext
 *
 mCx
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2079,7 +2079,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2240,7 +2240,7 @@ javascript
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncScriptLoader
 >
@@ -3768,19 +3768,19 @@ mScriptBuf
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsIObserver
 >
 mObserver
 ;
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
 mPrincipal
 ;
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >
@@ -3852,7 +3852,7 @@ aToken
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 ScriptPrecompiler
 >
@@ -4309,7 +4309,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 NotifyPrecompilationCompleteRunnable
 >
@@ -4400,7 +4400,7 @@ void
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 NotifyPrecompilationCompleteRunnable
 >
@@ -4542,7 +4542,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 ScriptPrecompiler
 >

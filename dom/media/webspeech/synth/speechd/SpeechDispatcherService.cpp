@@ -777,7 +777,7 @@ before
 this
 runnable
 .
-nsRefPtr
+RefPtr
 <
 SpeechDispatcherService
 >
@@ -2104,7 +2104,7 @@ const
 nsAString
 &
 aUri
-nsRefPtr
+RefPtr
 <
 SpeechDispatcherVoice
 >
@@ -2312,7 +2312,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 SpeechDispatcherCallback
 >
@@ -2741,7 +2741,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechDispatcherService
 >

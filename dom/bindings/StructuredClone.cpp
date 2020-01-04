@@ -271,7 +271,7 @@ Construct
 the
 ImageData
 .
-nsRefPtr
+RefPtr
 <
 ImageData
 >

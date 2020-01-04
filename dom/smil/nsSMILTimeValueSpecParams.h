@@ -412,7 +412,7 @@ this
 is
 the
 eventbase
-nsRefPtr
+RefPtr
 <
 nsIAtom
 >
@@ -434,7 +434,7 @@ for
 EVENT
 types
 .
-nsRefPtr
+RefPtr
 <
 nsIAtom
 >

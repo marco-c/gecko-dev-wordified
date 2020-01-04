@@ -1521,7 +1521,7 @@ aElement
 nsStyleContext
 *
 aOldStyleContext
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2374,7 +2374,7 @@ starting
 right
 now
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -4926,7 +4926,7 @@ mFillMode
 =
 NS_STYLE_ANIMATION_FILL_MODE_BACKWARDS
 ;
-nsRefPtr
+RefPtr
 <
 ElementPropertyTransition
 >
@@ -5039,7 +5039,7 @@ Init
 tf
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSTransition
 >

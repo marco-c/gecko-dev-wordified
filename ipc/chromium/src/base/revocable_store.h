@@ -336,7 +336,7 @@ reference
 on
 destruction
 .
-nsRefPtr
+RefPtr
 <
 StoreRef
 >
@@ -454,7 +454,7 @@ the
 store
 hold
 .
-nsRefPtr
+RefPtr
 <
 StoreRef
 >

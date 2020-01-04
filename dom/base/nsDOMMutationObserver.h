@@ -300,7 +300,7 @@ public
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -622,13 +622,13 @@ mAttrNamespace
 nsString
 mPrevValue
 ;
-nsRefPtr
+RefPtr
 <
 nsSimpleContentList
 >
 mAddedNodes
 ;
-nsRefPtr
+RefPtr
 <
 nsSimpleContentList
 >
@@ -655,7 +655,7 @@ mRemovedAnimations
 AnimationArray
 mChangedAnimations
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -1532,7 +1532,7 @@ nsDOMMutationObserver
 *
 mObserver
 ;
-nsRefPtr
+RefPtr
 <
 nsMutationReceiverBase
 >
@@ -2421,7 +2421,7 @@ TakeRecords
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -2559,7 +2559,7 @@ nsDOMMutationRecord
 aRecord
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -2892,7 +2892,7 @@ of
 the
 microtask
 .
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -2905,7 +2905,7 @@ mLastPendingMutation
 uint32_t
 mPendingMutationCount
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2936,7 +2936,7 @@ sCount
 static
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -2959,7 +2959,7 @@ nsAutoTArray
 <
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -4218,7 +4218,7 @@ eState_Removed
 struct
 Entry
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

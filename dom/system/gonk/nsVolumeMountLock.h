@@ -239,7 +239,7 @@ nsIVolume
 aVolume
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

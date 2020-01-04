@@ -185,7 +185,7 @@ sSingleton
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 StreamingProtocolControllerService
 >
@@ -220,7 +220,7 @@ nsIStreamingProtocolController
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIStreamingProtocolController
 >

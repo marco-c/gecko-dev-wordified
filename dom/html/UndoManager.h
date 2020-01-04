@@ -277,7 +277,7 @@ Nullable
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMTransaction
 >

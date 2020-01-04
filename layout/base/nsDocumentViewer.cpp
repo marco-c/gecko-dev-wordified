@@ -1913,7 +1913,7 @@ me
 nsWeakPtr
 mTopContainerWhilePrinting
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >
@@ -1970,13 +1970,13 @@ mWindow
 may
 be
 null
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
 mViewManager
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1994,7 +1994,7 @@ nsISelectionListener
 >
 mSelectionListener
 ;
-nsRefPtr
+RefPtr
 <
 nsDocViewerFocusListener
 >
@@ -2215,7 +2215,7 @@ nsIWebProgressListener
 >
 mCachedPrintWebProgressListner
 ;
-nsRefPtr
+RefPtr
 <
 nsPrintEngine
 >
@@ -2590,7 +2590,7 @@ NS_NewContentViewer
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -3834,7 +3834,7 @@ mSelectionListener
 selectionListener
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3890,7 +3890,7 @@ we
 can
 unregister
 it
-nsRefPtr
+RefPtr
 <
 nsDocViewerFocusListener
 >
@@ -5177,7 +5177,7 @@ explanation
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -5628,7 +5628,7 @@ nsIDocument
 READYSTATE_COMPLETE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >
@@ -6389,7 +6389,7 @@ bug
 #
 331040
 )
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -7852,7 +7852,7 @@ aShell
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -8827,7 +8827,7 @@ nullptr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -12775,7 +12775,7 @@ nsIURI
 >
 uri
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -12878,7 +12878,7 @@ IsEmpty
 baseURI
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -15023,7 +15023,7 @@ GetSelectionForCopy
 (
 )
 ?
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -15109,7 +15109,7 @@ GetSelectionForCopy
 (
 )
 ?
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -19074,7 +19074,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -20150,7 +20150,7 @@ get
 the
 selection
 state
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -25083,7 +25083,7 @@ if
 mPrintEngine
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPrintEngine
 >
@@ -25475,7 +25475,7 @@ EndObservingDocument
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

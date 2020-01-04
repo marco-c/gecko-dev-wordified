@@ -653,7 +653,7 @@ our
 glyphs
 to
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -968,7 +968,7 @@ Unmap
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
@@ -1001,7 +1001,7 @@ failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 EffectRGB
 >

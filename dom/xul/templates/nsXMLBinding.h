@@ -450,7 +450,7 @@ protected
 the
 binding
 set
-nsRefPtr
+RefPtr
 <
 nsXMLBindingSet
 >
@@ -504,7 +504,7 @@ array
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

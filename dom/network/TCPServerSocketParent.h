@@ -280,7 +280,7 @@ PNeckoParent
 *
 mNeckoParent
 ;
-nsRefPtr
+RefPtr
 <
 TCPServerSocket
 >

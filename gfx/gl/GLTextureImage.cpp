@@ -959,7 +959,7 @@ GLXPixmap
 ?
 )
 .
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -975,7 +975,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2667,7 +2667,7 @@ forward
 the
 actual
 call
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2914,7 +2914,7 @@ GetTextureFormat
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2930,7 +2930,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -4082,7 +4082,7 @@ a
 new
 tile
 .
-nsRefPtr
+RefPtr
 <
 TextureImage
 >
@@ -4399,7 +4399,7 @@ LOCAL_GL_TEXTURE_WRAP_T
 aWrapMode
 )
 ;
-nsRefPtr
+RefPtr
 <
 BasicTextureImage
 >

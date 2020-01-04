@@ -218,7 +218,7 @@ ever
 want
 one
 ?
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

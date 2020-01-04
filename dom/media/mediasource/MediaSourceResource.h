@@ -603,7 +603,7 @@ GetCurrentPrincipal
 override
 {
 return
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -788,7 +788,7 @@ aMallocSizeOf
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >

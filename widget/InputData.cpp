@@ -189,7 +189,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >

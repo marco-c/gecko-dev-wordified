@@ -994,7 +994,7 @@ mReceivedDataBuffer
 int
 mCurrentBlobIndex
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -1060,13 +1060,13 @@ nsIVolumeMountLock
 >
 mMountLock
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
 mDsFile
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -1116,7 +1116,7 @@ vice
 versa
 )
 .
-nsRefPtr
+RefPtr
 <
 BluetoothSocket
 >
@@ -1158,7 +1158,7 @@ Listen
 is
 called
 .
-nsRefPtr
+RefPtr
 <
 BluetoothSocket
 >

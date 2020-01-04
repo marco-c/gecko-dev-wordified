@@ -823,7 +823,7 @@ to
 avoid
 circular
 ownership
-nsRefPtr
+RefPtr
 <
 nsBindingManager
 >

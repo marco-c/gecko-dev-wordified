@@ -896,7 +896,7 @@ if
 aLoaderPrincipal
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -1564,7 +1564,7 @@ isResource
 isResource
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSyncLoader
 >

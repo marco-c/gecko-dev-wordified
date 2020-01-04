@@ -1251,7 +1251,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -1277,7 +1277,7 @@ same
 process
 actor
 .
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -2124,7 +2124,7 @@ aCallback
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -3080,7 +3080,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -3137,7 +3137,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -3713,7 +3713,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -3820,13 +3820,13 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
 mActor
 ;
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -4562,7 +4562,7 @@ MOZ_ASSERT
 aBlob
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -5135,7 +5135,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ParentImpl
 :
@@ -5925,7 +5925,7 @@ sLiveActorCount
 +
 +
 ;
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -6105,7 +6105,7 @@ sPendingCallbacks
 new
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -6480,7 +6480,7 @@ IsEmpty
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -6515,7 +6515,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -7628,7 +7628,7 @@ IsEmpty
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -8092,7 +8092,7 @@ MOZ_ASSERT
 mCallback
 )
 ;
-nsRefPtr
+RefPtr
 <
 CreateCallback
 >
@@ -8105,7 +8105,7 @@ swap
 callback
 )
 ;
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -8724,7 +8724,7 @@ RemoveElementAt
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -9142,7 +9142,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateActorRunnable
 >
@@ -9844,7 +9844,7 @@ actor
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -9962,7 +9962,7 @@ threadLocalInfo
 mActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -10097,7 +10097,7 @@ actor
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -10110,7 +10110,7 @@ swap
 strongChildActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -10278,7 +10278,7 @@ threadLocalInfo
 mActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -10407,7 +10407,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ParentImpl
 >
@@ -10430,7 +10430,7 @@ MOZ_ASSERT
 mEventTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChildImpl
 >
@@ -10602,7 +10602,7 @@ XRE_IsParentProcess
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ParentImpl
 :

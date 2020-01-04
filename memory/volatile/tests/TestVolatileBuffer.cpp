@@ -157,7 +157,7 @@ VolatileBufferTest
 HeapVolatileBuffersWork
 )
 {
-nsRefPtr
+RefPtr
 <
 VolatileBuffer
 >
@@ -253,7 +253,7 @@ VolatileBufferTest
 RealVolatileBuffersWork
 )
 {
-nsRefPtr
+RefPtr
 <
 VolatileBuffer
 >

@@ -314,7 +314,7 @@ public
 ISO
 BMFF
 members
-nsRefPtr
+RefPtr
 <
 AVCConfigurationBox
 >

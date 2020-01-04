@@ -168,7 +168,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1257,7 +1257,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1266,7 +1266,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1832,7 +1832,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1841,7 +1841,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2015,13 +2015,13 @@ mIsNewBuffer
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
 mTextureClient
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2066,7 +2066,7 @@ painting
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2399,13 +2399,13 @@ mFrontClientOnWhite
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
 mFrontClient
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

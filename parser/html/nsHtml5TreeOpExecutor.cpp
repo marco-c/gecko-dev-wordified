@@ -331,7 +331,7 @@ nsRunnable
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1370,7 +1370,7 @@ void
 aClosure
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1722,7 +1722,7 @@ nsHtml5FlushLoopGuard
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -2335,7 +2335,7 @@ ParseUntilBlocked
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5StreamParser
 >
@@ -2939,7 +2939,7 @@ avoid
 crashing
 near
 EOF
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -2948,7 +2948,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsParserBase
 >

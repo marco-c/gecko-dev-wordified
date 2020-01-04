@@ -2336,7 +2336,7 @@ inst
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >

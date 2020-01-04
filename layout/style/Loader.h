@@ -824,7 +824,7 @@ FindReusableStyleSheet
 nsIURI
 *
 aURL
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -937,7 +937,7 @@ reused
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -3116,7 +3116,7 @@ aHasAlternateRel
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SheetLoadData
 >
@@ -3181,7 +3181,7 @@ RemoveEntriesWithURI
 URIPrincipalReferrerPolicyAndCORSModeHashKey
 *
 aKey
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

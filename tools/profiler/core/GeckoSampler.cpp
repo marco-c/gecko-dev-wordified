@@ -3470,7 +3470,7 @@ if
 os
 )
 {
-nsRefPtr
+RefPtr
 <
 ProfileSaveEvent
 >

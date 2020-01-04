@@ -10634,7 +10634,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -10933,7 +10933,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -11280,7 +11280,7 @@ win
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -11504,7 +11504,7 @@ support
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -11558,7 +11558,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

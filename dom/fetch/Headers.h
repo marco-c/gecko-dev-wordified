@@ -263,7 +263,7 @@ nsISupports
 >
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >

@@ -653,7 +653,7 @@ lazily
 when
 needed
 .
-nsRefPtr
+RefPtr
 <
 MediaStream
 >

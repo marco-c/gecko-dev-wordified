@@ -691,7 +691,7 @@ if
 propertyList
 )
 {
-nsRefPtr
+RefPtr
 <
 PropertyNodeList
 >

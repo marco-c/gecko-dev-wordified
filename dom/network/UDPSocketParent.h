@@ -455,7 +455,7 @@ nsIUDPSocketFilter
 >
 mFilter
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

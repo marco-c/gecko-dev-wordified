@@ -366,7 +366,7 @@ VorbisDecoder
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 WebMReader
 >
@@ -1411,7 +1411,7 @@ OpusDecoder
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 WebMReader
 >

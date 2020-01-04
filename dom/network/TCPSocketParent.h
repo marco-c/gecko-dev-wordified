@@ -247,13 +247,13 @@ TCPSocketParentBase
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TCPSocket
 >
 mSocket
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

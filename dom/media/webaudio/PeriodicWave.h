@@ -275,13 +275,13 @@ PeriodicWave
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
 mContext
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

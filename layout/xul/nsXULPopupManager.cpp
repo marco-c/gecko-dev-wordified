@@ -2071,7 +2071,7 @@ PresContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -5327,7 +5327,7 @@ presShell
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -9701,7 +9701,7 @@ popupFrame
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 TransitionEnder
 >
@@ -12222,7 +12222,7 @@ up
 in
 our
 document
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -17380,7 +17380,7 @@ PresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >

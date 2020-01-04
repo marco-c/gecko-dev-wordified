@@ -157,7 +157,7 @@ Deinit
 nsresult
 HandleRequest
 (
-nsRefPtr
+RefPtr
 <
 dom
 :

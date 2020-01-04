@@ -3092,7 +3092,7 @@ WebGLContext
 webgl
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -3209,7 +3209,7 @@ WebGLContext
 webgl
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -3389,7 +3389,7 @@ dummySize
 16
 )
 ;
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -6018,7 +6018,7 @@ applied
 bool
 premult
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -6066,7 +6066,7 @@ it
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6153,7 +6153,7 @@ applied
 bool
 premult
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -6202,7 +6202,7 @@ it
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6556,7 +6556,7 @@ UpdateLastUseIndex
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HTMLCanvasElement
 >
@@ -6615,7 +6615,7 @@ gWebGLLayerUserData
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -6634,7 +6634,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >
@@ -8678,7 +8678,7 @@ UpdateContextLossStatusTask
 public
 nsCancelableRunnable
 {
-nsRefPtr
+RefPtr
 <
 WebGLContext
 >
@@ -9190,7 +9190,7 @@ else
 /
 OffscreenCanvas
 case
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -9563,7 +9563,7 @@ true
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -9825,7 +9825,7 @@ SurfaceFormat
 :
 B8G8R8X8
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9952,7 +9952,7 @@ surf
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

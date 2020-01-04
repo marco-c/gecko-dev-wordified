@@ -736,7 +736,7 @@ MaxListIndex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGLengthList
 >
@@ -1308,7 +1308,7 @@ here
 if
 necessary
 .
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -1409,7 +1409,7 @@ error
 bool
 found
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -1578,7 +1578,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -1874,7 +1874,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -2343,7 +2343,7 @@ IsAnimValList
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -2537,7 +2537,7 @@ done
 with
 it
 .
-nsRefPtr
+RefPtr
 <
 DOMSVGLengthList
 >

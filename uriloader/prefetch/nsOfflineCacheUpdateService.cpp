@@ -938,7 +938,7 @@ nsOfflineCachePendingUpdate
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdateService
 >
@@ -2432,7 +2432,7 @@ Proceed
 with
 cache
 update
-nsRefPtr
+RefPtr
 <
 nsOfflineCachePendingUpdate
 >
@@ -2571,7 +2571,7 @@ re
 done
 notifying
 observers
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -3222,7 +3222,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdate
 >

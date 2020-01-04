@@ -395,7 +395,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ClipboardEvent
 >
@@ -420,7 +420,7 @@ Init
 t
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataTransfer
 >
@@ -710,7 +710,7 @@ InternalClipboardEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 ClipboardEvent
 >

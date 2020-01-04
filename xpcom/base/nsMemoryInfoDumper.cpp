@@ -944,7 +944,7 @@ runnable
 aRecvSig
 )
 ;
-nsRefPtr
+RefPtr
 <
 DumpMemoryInfoToTempDirRunnable
 >
@@ -1020,7 +1020,7 @@ main
 thread
 )
 .
-nsRefPtr
+RefPtr
 <
 GCAndCCLogDumpRunnable
 >
@@ -1127,7 +1127,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DumpMemoryInfoToTempDirRunnable
 >
@@ -1208,7 +1208,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GCAndCCLogDumpRunnable
 >
@@ -2432,7 +2432,7 @@ Finish
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsGZFileWriter
 >
@@ -3468,7 +3468,7 @@ nsAString
 aDMDIdentifier
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGZFileWriter
 >
@@ -3627,7 +3627,7 @@ reports
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 HandleReportAndFinishReportingCallbacks
 >
@@ -4175,7 +4175,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 TempDirFinishCallback
 >
@@ -4520,7 +4520,7 @@ FILE
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGZFileWriter
 >

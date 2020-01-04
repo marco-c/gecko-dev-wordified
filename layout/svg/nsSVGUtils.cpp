@@ -4034,7 +4034,7 @@ PopGroupToSource
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4093,7 +4093,7 @@ aTransform
 Matrix
 clippedMaskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -6121,7 +6121,7 @@ GetContent
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGAnimatedEnumeration
 >
@@ -8188,7 +8188,7 @@ if
 ps
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -8252,7 +8252,7 @@ if
 aContextPaint
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -8546,7 +8546,7 @@ if
 ps
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -8610,7 +8610,7 @@ if
 aContextPaint
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >

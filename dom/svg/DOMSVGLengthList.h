@@ -1097,7 +1097,7 @@ DOMSVGLength
 >
 mItems
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGAnimatedLengthList
 >

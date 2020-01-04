@@ -878,7 +878,7 @@ nullptr
 create
 the
 cell
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -906,7 +906,7 @@ nodeInfo
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

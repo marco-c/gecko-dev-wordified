@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -489,7 +489,7 @@ RemoveDocFromBFCache
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BroadcastChannelChild
 >
@@ -497,7 +497,7 @@ mActor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BroadcastChannelMessage
 >

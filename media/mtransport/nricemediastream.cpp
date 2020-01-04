@@ -1033,7 +1033,7 @@ forget
 /
 /
 NrIceMediaStream
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1056,7 +1056,7 @@ int
 components
 )
 {
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

@@ -3428,7 +3428,7 @@ nsString
 aFamily
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -4701,7 +4701,7 @@ weight
 values
 )
 .
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

@@ -271,7 +271,7 @@ nsIStreamListener
 aListener
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDocumentStreamListener
 >
@@ -587,7 +587,7 @@ NS_ERROR_FAILURE
 /
 make
 content
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -618,7 +618,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >

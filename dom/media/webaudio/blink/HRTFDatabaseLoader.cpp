@@ -364,7 +364,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 HRTFDatabaseLoader
 >
@@ -723,7 +723,7 @@ mainThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ProxyReleaseEvent
 >

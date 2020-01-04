@@ -1595,7 +1595,7 @@ NS_ENSURE_ARG_POINTER
 aUri
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJARChannel
 >
@@ -1912,7 +1912,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >
@@ -2022,7 +2022,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >

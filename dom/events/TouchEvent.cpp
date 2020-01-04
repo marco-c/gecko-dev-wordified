@@ -1602,7 +1602,7 @@ WidgetTouchEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 TouchEvent
 >

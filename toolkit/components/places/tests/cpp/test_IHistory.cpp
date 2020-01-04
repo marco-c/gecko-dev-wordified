@@ -792,7 +792,7 @@ stmt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >
@@ -883,7 +883,7 @@ nsIURI
 >
 testURI
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1118,7 +1118,7 @@ on
 the
 Link
 .
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1341,7 +1341,7 @@ next
 /
 test
 !
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1354,7 +1354,7 @@ expect_visit
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1488,7 +1488,7 @@ new_test_uri
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1674,7 +1674,7 @@ on
 the
 link
 .
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1798,7 +1798,7 @@ our
 test
 Link
 .
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -2328,7 +2328,7 @@ for
 each
 URI
 .
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -2341,7 +2341,7 @@ expect_visit
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -2349,7 +2349,7 @@ visitedLinkCopy
 =
 visitedLink
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -2581,7 +2581,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2679,7 +2679,7 @@ new_test_uri
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2856,7 +2856,7 @@ lastURI
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2947,7 +2947,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -3087,7 +3087,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -3188,7 +3188,7 @@ lastURI
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -3312,7 +3312,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -3584,7 +3584,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >

@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -206,7 +206,7 @@ OTMTMarkerReceiver
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsDocShell
 >

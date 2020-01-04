@@ -1247,7 +1247,7 @@ mMonitor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
@@ -1384,7 +1384,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -1403,7 +1403,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >

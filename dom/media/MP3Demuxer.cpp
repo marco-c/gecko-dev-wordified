@@ -334,7 +334,7 @@ Init
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MP3Demuxer
 :
@@ -492,7 +492,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 MP3TrackDemuxer
 >
@@ -664,7 +664,7 @@ other
 meta
 data
 .
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -877,7 +877,7 @@ PrevFrame
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -983,7 +983,7 @@ Clone
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MP3TrackDemuxer
 :
@@ -1400,7 +1400,7 @@ mFrameIndex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MP3TrackDemuxer
 :
@@ -1494,7 +1494,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SamplesHolder
 >
@@ -1512,7 +1512,7 @@ aNumSamples
 -
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1715,7 +1715,7 @@ Reset
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MP3TrackDemuxer
 :
@@ -2525,7 +2525,7 @@ contain
 VBR
 headers
 .
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -2660,7 +2660,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

@@ -6825,7 +6825,7 @@ CanPlayThrough
 #
 ifdef
 MOZ_EME
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -6862,7 +6862,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -6895,7 +6895,7 @@ AreCapsKnown
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -7345,7 +7345,7 @@ asynchronous
 memory
 report
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -7791,7 +7791,7 @@ mInfo
 >
 mAudio
 ;
-nsRefPtr
+RefPtr
 <
 AudioTrack
 >
@@ -7862,7 +7862,7 @@ mInfo
 >
 mVideo
 ;
-nsRefPtr
+RefPtr
 <
 VideoTrack
 >

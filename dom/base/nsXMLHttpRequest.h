@@ -1185,7 +1185,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >
@@ -3610,7 +3610,7 @@ set
 in
 OnStopRequest
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3654,7 +3654,7 @@ from
 a
 file
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3811,7 +3811,7 @@ mLoadGroup
 uint32_t
 mState
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequestUpload
 >
@@ -4364,7 +4364,7 @@ mXHR
 NS_DECL_NSIINTERFACEREQUESTOR
 private
 :
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >

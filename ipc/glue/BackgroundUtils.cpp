@@ -616,7 +616,7 @@ wlPrincipal
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsExpandedPrincipal
 >

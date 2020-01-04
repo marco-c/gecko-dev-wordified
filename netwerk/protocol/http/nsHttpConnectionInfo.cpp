@@ -1436,7 +1436,7 @@ Clone
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -1612,7 +1612,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >

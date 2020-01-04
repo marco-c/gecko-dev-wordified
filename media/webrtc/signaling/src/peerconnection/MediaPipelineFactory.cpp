@@ -762,12 +762,12 @@ static
 void
 FinalizeTransportFlow_s
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
 aPCMedia
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -942,7 +942,7 @@ const
 JsepTransport
 &
 aTransport
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -953,7 +953,7 @@ aFlowOutparam
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1110,7 +1110,7 @@ TransportLayerDtls
 SERVER
 )
 ;
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -1575,13 +1575,13 @@ aTrack
 size_t
 *
 aLevelOut
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 *
 aRtpOut
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -2083,13 +2083,13 @@ kRecv
 size_t
 level
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 rtpFlow
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -2358,7 +2358,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -2457,7 +2457,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -2742,12 +2742,12 @@ JsepTrack
 aTrack
 size_t
 aLevel
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 aRtpFlow
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -2758,7 +2758,7 @@ MediaPipelineFilter
 >
 aFilter
 const
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -2780,7 +2780,7 @@ isn
 t
 here
 .
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -2798,7 +2798,7 @@ GetStreamId
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaPipelineReceive
 >
@@ -3106,7 +3106,7 @@ aTrack
 GetTrackId
 (
 )
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -3177,12 +3177,12 @@ JsepTrack
 aTrack
 size_t
 aLevel
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 aRtpFlow
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -3193,7 +3193,7 @@ MediaPipelineFilter
 >
 aFilter
 const
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -3210,7 +3210,7 @@ This
 is
 checked
 earlier
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -3239,7 +3239,7 @@ pieces
 create
 the
 pipeline
-nsRefPtr
+RefPtr
 <
 MediaPipelineTransmit
 >
@@ -3444,7 +3444,7 @@ aTrack
 GetTrackId
 (
 )
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -3539,7 +3539,7 @@ const
 JsepTrack
 &
 aTrack
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -3588,7 +3588,7 @@ sdp
 :
 kRecv
 ;
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >
@@ -4151,7 +4151,7 @@ const
 JsepTrack
 &
 aTrack
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -4200,7 +4200,7 @@ sdp
 :
 kRecv
 ;
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -4820,7 +4820,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -4843,7 +4843,7 @@ GetStreamId
 get
 video
 track
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4894,7 +4894,7 @@ get
 video
 source
 type
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >

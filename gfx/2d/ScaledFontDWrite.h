@@ -272,7 +272,7 @@ nullptr
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 IDWriteFontFace
 >
@@ -329,7 +329,7 @@ friend
 class
 DrawTargetD2D1
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >

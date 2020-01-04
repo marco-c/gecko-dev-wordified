@@ -478,7 +478,7 @@ aNetworks
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MobileNetworkInfo
 >
@@ -501,7 +501,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 MobileNetworkInfo
 >

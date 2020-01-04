@@ -358,7 +358,7 @@ aCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -458,7 +458,7 @@ aGMP
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPAudioDecoder
 >

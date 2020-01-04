@@ -2545,7 +2545,7 @@ Init
 lf
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -2668,7 +2668,7 @@ lf
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

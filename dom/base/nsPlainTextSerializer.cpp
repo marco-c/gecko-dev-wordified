@@ -482,7 +482,7 @@ nsIContentSerializer
 aSerializer
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPlainTextSerializer
 >
@@ -11934,7 +11934,7 @@ Element
 aElement
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -12017,7 +12017,7 @@ Element
 aElement
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

@@ -460,7 +460,7 @@ position
 )
 )
 )
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -509,7 +509,7 @@ NODESET
 NS_ERROR_XSLT_NODESET_EXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -601,7 +601,7 @@ mItems
 i
 ]
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -629,7 +629,7 @@ next
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -695,7 +695,7 @@ rv
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -787,7 +787,7 @@ isEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -963,7 +963,7 @@ aNode
 aContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -1039,7 +1039,7 @@ res
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

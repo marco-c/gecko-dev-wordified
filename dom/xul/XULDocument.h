@@ -1763,7 +1763,7 @@ DoneWalking
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -2694,7 +2694,7 @@ mDocument
 [
 WEAK
 ]
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -3091,7 +3091,7 @@ model
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >
@@ -3122,7 +3122,7 @@ principals
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >
@@ -3153,7 +3153,7 @@ document
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >
@@ -3500,7 +3500,7 @@ nsIStreamListener
 {
 protected
 :
-nsRefPtr
+RefPtr
 <
 XULDocument
 >
@@ -3543,13 +3543,13 @@ nsIRequestObserver
 {
 protected
 :
-nsRefPtr
+RefPtr
 <
 XULDocument
 >
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >

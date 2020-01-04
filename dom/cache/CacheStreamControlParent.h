@@ -384,7 +384,7 @@ the
 weak
 ref
 .
-nsRefPtr
+RefPtr
 <
 StreamList
 >

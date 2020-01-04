@@ -171,7 +171,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -226,7 +226,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -286,7 +286,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -377,7 +377,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -424,7 +424,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >

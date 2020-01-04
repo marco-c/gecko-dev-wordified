@@ -534,7 +534,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

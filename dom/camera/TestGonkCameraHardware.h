@@ -376,7 +376,7 @@ PullParametersDelegate
 nsresult
 WaitWhileRunningOnMainThread
 (
-nsRefPtr
+RefPtr
 <
 ControlMessage
 >

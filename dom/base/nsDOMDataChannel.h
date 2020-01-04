@@ -656,7 +656,7 @@ aRv
 /
 Owning
 reference
-nsRefPtr
+RefPtr
 <
 mozilla
 :

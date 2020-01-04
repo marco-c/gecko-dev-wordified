@@ -2842,7 +2842,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >

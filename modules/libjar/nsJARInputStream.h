@@ -385,7 +385,7 @@ Close
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -439,7 +439,7 @@ directory
 reading
 *
 /
-nsRefPtr
+RefPtr
 <
 nsJAR
 >

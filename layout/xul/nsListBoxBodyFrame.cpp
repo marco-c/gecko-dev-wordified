@@ -1085,7 +1085,7 @@ GetContent
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -3556,7 +3556,7 @@ if
 firstRowContent
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -3800,7 +3800,7 @@ value
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -4253,7 +4253,7 @@ int32_t
 aDelta
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPositionChangedEvent
 >
@@ -4340,7 +4340,7 @@ changes
 first
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsPositionChangedEvent
 >
@@ -4449,7 +4449,7 @@ aDelta
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

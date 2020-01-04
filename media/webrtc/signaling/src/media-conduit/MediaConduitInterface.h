@@ -88,7 +88,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -355,7 +355,7 @@ image
 {
 }
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -374,7 +374,7 @@ mImage
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1117,7 +1117,7 @@ virtual
 MediaConduitErrorCode
 SetTransmitterTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >
@@ -1212,7 +1212,7 @@ virtual
 MediaConduitErrorCode
 SetReceiverTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >
@@ -1547,7 +1547,7 @@ failure
 *
 /
 static
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -1657,7 +1657,7 @@ virtual
 MediaConduitErrorCode
 AttachRenderer
 (
-nsRefPtr
+RefPtr
 <
 VideoRenderer
 >
@@ -2247,7 +2247,7 @@ failure
 *
 /
 static
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >

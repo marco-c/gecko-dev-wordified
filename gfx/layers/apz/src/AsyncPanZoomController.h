@@ -198,7 +198,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -775,7 +775,7 @@ APZCTreeManager
 *
 aTreeManager
 const
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -4313,7 +4313,7 @@ manager
 *
 /
 const
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -4550,13 +4550,13 @@ OverscrollAnimationEnding
 uint64_t
 mLayersId
 ;
-nsRefPtr
+RefPtr
 <
 CompositorParent
 >
 mCompositorParent
 ;
-nsRefPtr
+RefPtr
 <
 TaskThrottler
 >
@@ -4594,13 +4594,13 @@ thread
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 GeckoContentController
 >
 mGeckoContentController
 ;
-nsRefPtr
+RefPtr
 <
 GestureEventListener
 >
@@ -5349,7 +5349,7 @@ CancelableTask
 *
 mAsyncScrollTimeoutTask
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomAnimation
 >
@@ -6103,7 +6103,7 @@ CancelAnimationAndGestureState
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -6423,7 +6423,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6557,7 +6557,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6596,7 +6596,7 @@ ParentLayerPoint
 &
 aVelocity
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6902,7 +6902,7 @@ initialization
 order
 constraints
 .
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -7444,7 +7444,7 @@ as
 in
 *
 |
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -7503,7 +7503,7 @@ as
 *
 |
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -7522,7 +7522,7 @@ it
 into
 the
 |
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -7556,7 +7556,7 @@ it
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -8085,7 +8085,7 @@ const
 uint32_t
 mAPZCId
 ;
-nsRefPtr
+RefPtr
 <
 ipc
 :

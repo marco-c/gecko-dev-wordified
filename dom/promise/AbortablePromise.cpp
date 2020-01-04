@@ -295,7 +295,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 AbortablePromise
 >
@@ -443,7 +443,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AbortablePromise
 >

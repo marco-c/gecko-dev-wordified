@@ -278,7 +278,7 @@ MarkIndependent
 is
 running
 .
-nsRefPtr
+RefPtr
 <
 SourceSurfaceD2D1
 >
@@ -519,7 +519,7 @@ if
 mSnapshot
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -559,7 +559,7 @@ mSize
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -772,7 +772,7 @@ aSource
 .
 height
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1ImageBrush
 >
@@ -836,7 +836,7 @@ xScale
 yScale
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -882,7 +882,7 @@ surface
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -1282,7 +1282,7 @@ true
 Matrix
 mat
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -1371,7 +1371,7 @@ the
 shadow
 effect
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Effect
 >
@@ -1655,7 +1655,7 @@ Clear
 IntRect
 addClipRect
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -1667,7 +1667,7 @@ GetClippedGeometry
 addClipRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -1793,13 +1793,13 @@ MarkChanged
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
 bitmap
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -1964,7 +1964,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2060,7 +2060,7 @@ true
 Matrix
 mat
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -2139,7 +2139,7 @@ CopySurface
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -2175,7 +2175,7 @@ SurfaceFormat
 A8
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -2432,7 +2432,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2512,7 +2512,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2526,7 +2526,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2611,7 +2611,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2625,7 +2625,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2764,7 +2764,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2778,7 +2778,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2909,7 +2909,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -3289,7 +3289,7 @@ mTextRenderingParams
 params
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -3574,7 +3574,7 @@ DWRITE_MEASURING_MODE_NATURAL
 userRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -3593,7 +3593,7 @@ path
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -3844,7 +3844,7 @@ mCompositionOp
 aSource
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -3858,7 +3858,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -4022,7 +4022,7 @@ mCurrentClippedGeometry
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 PathD2D
 >
@@ -4231,7 +4231,7 @@ dd316860
 29
 .
 aspx
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -4296,7 +4296,7 @@ Close
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -4498,7 +4498,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap1
 >
@@ -4640,7 +4640,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D1
 >
@@ -4690,7 +4690,7 @@ aFillRule
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -4752,7 +4752,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -4957,7 +4957,7 @@ color
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -5167,7 +5167,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -6555,7 +6555,7 @@ PopAllClips
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -6616,7 +6616,7 @@ rect
 bool
 isAligned
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -6817,13 +6817,13 @@ if
 tmpBitmap
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1BitmapBrush
 >
 brush
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -6925,7 +6925,7 @@ return
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -7215,7 +7215,7 @@ PushAllClips
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Effect
 >
@@ -7726,7 +7726,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -7776,7 +7776,7 @@ represents
 the
 path
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -8089,7 +8089,7 @@ continue
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -8108,7 +8108,7 @@ newGeom
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -8158,7 +8158,7 @@ currentSink
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -8281,7 +8281,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -8312,7 +8312,7 @@ GetInverseClippedGeometry
 IntRect
 bounds
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -8324,13 +8324,13 @@ GetClippedGeometry
 bounds
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RectangleGeometry
 >
 rectGeom
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -8376,7 +8376,7 @@ inverseGeom
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -8696,7 +8696,7 @@ D2D_COLOR_F
 aColor
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -8843,7 +8843,7 @@ PatternType
 LINEAR_GRADIENT
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1LinearGradientBrush
 >
@@ -9090,7 +9090,7 @@ PatternType
 RADIAL_GRADIENT
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1RadialGradientBrush
 >
@@ -9353,7 +9353,7 @@ IsValid
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -9418,7 +9418,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -9445,7 +9445,7 @@ if
 bitmap
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1BitmapBrush
 >
@@ -9537,7 +9537,7 @@ forget
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1ImageBrush
 >
@@ -9814,7 +9814,7 @@ IntRect
 aSourceRect
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -9870,7 +9870,7 @@ break
 default
 :
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9960,7 +9960,7 @@ SurfaceType
 D2D1_1_IMAGE
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -9977,7 +9977,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9990,7 +9990,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap1
 >

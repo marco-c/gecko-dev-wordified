@@ -417,7 +417,7 @@ GetDescriptors
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -1526,7 +1526,7 @@ to
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -1548,7 +1548,7 @@ characteristic
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -1899,7 +1899,7 @@ comparison
 between
 *
 '
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -1927,7 +1927,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1958,7 +1958,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2039,7 +2039,7 @@ comparison
 between
 *
 '
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -2067,7 +2067,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2098,7 +2098,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2194,7 +2194,7 @@ comparison
 between
 *
 '
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -2222,7 +2222,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2253,7 +2253,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :

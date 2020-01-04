@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -180,7 +180,7 @@ handle
 multiple
 languages
 .
-nsRefPtr
+RefPtr
 <
 mozEnglishWordUtils
 >

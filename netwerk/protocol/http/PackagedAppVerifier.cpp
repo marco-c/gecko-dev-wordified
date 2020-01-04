@@ -495,7 +495,7 @@ with
 no
 warning
 .
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -2377,7 +2377,7 @@ needed
 .
 }
 }
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -2534,7 +2534,7 @@ mListener
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >

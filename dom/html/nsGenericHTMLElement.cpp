@@ -1163,7 +1163,7 @@ in
 nsGenericHTMLElement
 class
 .
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1233,7 +1233,7 @@ nsIDOMElementCSSInlineStyle
 )
 private
 :
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1452,7 +1452,7 @@ the
 Rule
 instead
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1476,7 +1476,7 @@ Clone
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1624,7 +1624,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsDOMStringMap
 >
@@ -5378,7 +5378,7 @@ errorHandler
 )
 {
 \
-nsRefPtr
+RefPtr
 <
 EventHandlerNonNull
 >
@@ -5411,7 +5411,7 @@ nullptr
 }
 \
 \
-nsRefPtr
+RefPtr
 <
 EventHandlerNonNull
 >
@@ -5523,7 +5523,7 @@ supports
 )
 ;
 \
-nsRefPtr
+RefPtr
 <
 OnErrorEventHandlerNonNull
 >
@@ -6530,7 +6530,7 @@ value
 aValue
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStringBuffer
 >
@@ -11154,7 +11154,7 @@ slots
 mUndoManager
 )
 {
-nsRefPtr
+RefPtr
 <
 UndoManager
 >
@@ -15575,7 +15575,7 @@ nsIPresShell
 >
 shell
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -18326,7 +18326,7 @@ nsGenericHTMLElement
 :
 GetWidthHeightForImage
 (
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >

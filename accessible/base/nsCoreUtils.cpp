@@ -801,7 +801,7 @@ GetNearestWidget
 offset
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1082,7 +1082,7 @@ it
 is
 synthesized
 .
-nsRefPtr
+RefPtr
 <
 dom
 :

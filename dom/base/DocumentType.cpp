@@ -347,7 +347,7 @@ DOCUMENT_TYPE_NODE
 aName
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -716,7 +716,7 @@ NodeInfo
 >
 ni
 =
-nsRefPtr
+RefPtr
 <
 mozilla
 :

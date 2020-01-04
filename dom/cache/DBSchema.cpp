@@ -8715,7 +8715,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -8853,7 +8853,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >

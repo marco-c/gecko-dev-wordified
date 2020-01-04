@@ -481,7 +481,7 @@ MOZ_ASSERT
 gServiceWorkerRegistrar
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerRegistrar
 >
@@ -1961,7 +1961,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ServiceWorkerRegistrar
 >
@@ -1986,7 +1986,7 @@ SaveData
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2084,7 +2084,7 @@ service
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2259,7 +2259,7 @@ mShuttingDown
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >

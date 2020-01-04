@@ -444,7 +444,7 @@ override
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

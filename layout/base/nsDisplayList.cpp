@@ -5755,7 +5755,7 @@ GetCaret
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -5977,7 +5977,7 @@ buildCaret
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -9952,7 +9952,7 @@ Category
 GRAPHICS
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -10378,7 +10378,7 @@ GetResolution
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -15743,7 +15743,7 @@ layerized
 for
 correctness
 .
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -16182,7 +16182,7 @@ flags
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -16579,7 +16579,7 @@ ContainerLayerParameters
 aParameters
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -16630,7 +16630,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -19936,7 +19936,7 @@ ContainerLayerParameters
 aParameters
 )
 {
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
@@ -24800,7 +24800,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -25916,7 +25916,7 @@ mDisableSubpixelAntialiasingInDescendants
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -26373,7 +26373,7 @@ mDisableSubpixelAntialiasingInDescendants
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -26641,7 +26641,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -26943,7 +26943,7 @@ mInLowPrecisionDisplayPort
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -27767,7 +27767,7 @@ nsIntPoint
 aContainerParameters
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -27911,7 +27911,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -34016,7 +34016,7 @@ FrameLayerBuilder
 :
 CONTAINER_ALLOW_PULL_BACKGROUND_COLOR
 ;
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -37477,7 +37477,7 @@ FrameLayerBuilder
 :
 CONTAINER_ALLOW_PULL_BACKGROUND_COLOR
 ;
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -37938,7 +37938,7 @@ mDisableSubpixelAntialiasingInDescendants
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >

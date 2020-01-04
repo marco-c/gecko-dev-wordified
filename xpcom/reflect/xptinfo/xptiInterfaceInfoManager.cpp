@@ -1147,7 +1147,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 xptiInterfaceInfo
 >

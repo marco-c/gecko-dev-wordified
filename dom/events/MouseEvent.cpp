@@ -804,7 +804,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MouseEvent
 >
@@ -2151,7 +2151,7 @@ WidgetMouseEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 MouseEvent
 >

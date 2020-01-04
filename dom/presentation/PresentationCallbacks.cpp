@@ -315,7 +315,7 @@ state
 as
 connected
 .
-nsRefPtr
+RefPtr
 <
 PresentationConnection
 >

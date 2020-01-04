@@ -206,7 +206,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -2638,7 +2638,7 @@ aDataTransfer
 void
 TakeDragVisualization
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2964,7 +2964,7 @@ false
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 nsIContentParent
 >
@@ -3240,7 +3240,7 @@ mFlavor
 nsString
 mStringData
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3273,7 +3273,7 @@ DataTransferItem
 >
 mInitialDataTransferItems
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -3372,7 +3372,7 @@ during
 this
 time
 .
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -3904,7 +3904,7 @@ region
 bool
 mTabSetsCursor
 ;
-nsRefPtr
+RefPtr
 <
 nsIPresShell
 >

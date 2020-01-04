@@ -230,7 +230,7 @@ nsISupports
 public
 nsWrapperCache
 {
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >

@@ -7472,7 +7472,7 @@ CCGraphBuilder
 >
 mBuilder
 ;
-nsRefPtr
+RefPtr
 <
 nsCycleCollectorLogger
 >
@@ -7506,7 +7506,7 @@ mUnmergedNeeded
 uint32_t
 mMergedInARow
 ;
-nsRefPtr
+RefPtr
 <
 JSPurpleBuffer
 >
@@ -8117,7 +8117,7 @@ struct
 struct
 CollectorData
 {
-nsRefPtr
+RefPtr
 <
 nsCycleCollector
 >
@@ -11182,7 +11182,7 @@ aRetVal
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 nsCycleCollectorLogger
 >
@@ -11586,7 +11586,7 @@ mJSZoneParticipant
 nsCString
 mNextEdgeName
 ;
-nsRefPtr
+RefPtr
 <
 nsCycleCollectorLogger
 >
@@ -14194,7 +14194,7 @@ public
 explicit
 JSPurpleBuffer
 (
-nsRefPtr
+RefPtr
 <
 JSPurpleBuffer
 >
@@ -14266,7 +14266,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 JSPurpleBuffer
 )
-nsRefPtr
+RefPtr
 <
 JSPurpleBuffer
 >
@@ -15107,7 +15107,7 @@ const
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsCycleCollector
 >
@@ -16648,7 +16648,7 @@ CCGraph
 &
 mGraph
 ;
-nsRefPtr
+RefPtr
 <
 nsCycleCollectorLogger
 >
@@ -22459,7 +22459,7 @@ and
 calls
 Release
 .
-nsRefPtr
+RefPtr
 <
 JSPurpleBuffer
 >

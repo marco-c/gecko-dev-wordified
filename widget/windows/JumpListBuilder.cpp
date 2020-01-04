@@ -1466,7 +1466,7 @@ items
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IObjectCollection
 >
@@ -1561,7 +1561,7 @@ item
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IShellLinkW
 >
@@ -1605,7 +1605,7 @@ should
 all
 be
 ShellLinks
-nsRefPtr
+RefPtr
 <
 IShellLinkW
 >
@@ -1649,7 +1649,7 @@ need
 IObjectArray
 to
 submit
-nsRefPtr
+RefPtr
 <
 IObjectArray
 >
@@ -1800,7 +1800,7 @@ NS_ERROR_INVALID_ARG
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IObjectCollection
 >
@@ -1908,7 +1908,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_SEPARATOR
 :
 {
-nsRefPtr
+RefPtr
 <
 IShellLinkW
 >
@@ -1952,7 +1952,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_LINK
 :
 {
-nsRefPtr
+RefPtr
 <
 IShellItem2
 >
@@ -1997,7 +1997,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_SHORTCUT
 :
 {
-nsRefPtr
+RefPtr
 <
 IShellLinkW
 >
@@ -2045,7 +2045,7 @@ need
 IObjectArray
 to
 submit
-nsRefPtr
+RefPtr
 <
 IObjectArray
 >

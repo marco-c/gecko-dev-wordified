@@ -324,7 +324,7 @@ nsISupports
 >
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 TVChannel
 >

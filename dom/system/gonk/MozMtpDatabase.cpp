@@ -664,7 +664,7 @@ dummy
 entry
 there
 .
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -895,7 +895,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1046,7 +1046,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1104,7 +1104,7 @@ lock
 mMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1170,7 +1170,7 @@ aHandle
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1303,7 +1303,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1436,7 +1436,7 @@ lock
 mMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -1643,7 +1643,7 @@ path
 mPath
 )
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -1837,7 +1837,7 @@ deleted
 or
 modified
 .
-nsRefPtr
+RefPtr
 <
 StorageEntry
 >
@@ -1952,7 +1952,7 @@ Length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MtpWatcherNotifyRunnable
 >
@@ -2790,7 +2790,7 @@ t
 exist
 create
 them
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -3193,7 +3193,7 @@ get
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -3446,7 +3446,7 @@ storageIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 StorageEntry
 >
@@ -3554,7 +3554,7 @@ storageIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 StorageEntry
 >
@@ -3800,7 +3800,7 @@ aPath
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 StorageEntry
 >
@@ -3960,7 +3960,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -4121,7 +4121,7 @@ aParent
 MTP_PARENT_ROOT
 ;
 }
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -4913,7 +4913,7 @@ if
 aSucceeded
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -5225,7 +5225,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -5434,7 +5434,7 @@ entryIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -5809,7 +5809,7 @@ MtpDataPacket
 aPacket
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -6288,7 +6288,7 @@ return
 MTP_RESPONSE_GENERAL_ERROR
 ;
 }
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -6604,7 +6604,7 @@ ProtectedDbArray
 index_type
 entryIdx
 ;
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -7383,7 +7383,7 @@ entryIdx
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -7816,7 +7816,7 @@ MtpObjectInfo
 aInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -8187,7 +8187,7 @@ MtpObjectFormat
 aOutFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >
@@ -8289,7 +8289,7 @@ MtpObjectHandle
 aHandle
 )
 {
-nsRefPtr
+RefPtr
 <
 DbEntry
 >

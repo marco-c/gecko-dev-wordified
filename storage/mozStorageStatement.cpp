@@ -1357,7 +1357,7 @@ length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 BindingParams
 >
@@ -2130,7 +2130,7 @@ mozIStorageStatement
 _statement
 )
 {
-nsRefPtr
+RefPtr
 <
 Statement
 >

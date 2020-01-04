@@ -628,7 +628,7 @@ protected
 /
 /
 members
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >

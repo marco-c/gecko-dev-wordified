@@ -160,7 +160,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1027,7 +1027,7 @@ inline
 nsresult
 CallQueryInterface
 (
-nsRefPtr
+RefPtr
 <
 SourceType
 >

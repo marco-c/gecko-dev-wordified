@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -999,7 +999,7 @@ The
 MPEG
 demuxer
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1036,7 +1036,7 @@ Platform
 MP3
 decoder
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1593,7 +1593,7 @@ end
 of
 stream
 .
-nsRefPtr
+RefPtr
 <
 IMediaEventSink
 >
@@ -1950,7 +1950,7 @@ is
 shutdown
 )
 .
-nsRefPtr
+RefPtr
 <
 IMediaSample
 >
@@ -2198,7 +2198,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -2434,7 +2434,7 @@ interval
 intervals
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

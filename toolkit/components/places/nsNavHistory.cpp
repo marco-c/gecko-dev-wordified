@@ -6291,7 +6291,7 @@ Append
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InvalidateAllFrecenciesCallback
 >
@@ -6958,7 +6958,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQuery
 >
@@ -7021,7 +7021,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQueryOptions
 >
@@ -7390,7 +7390,7 @@ the
 root
 node
 .
-nsRefPtr
+RefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -7454,7 +7454,7 @@ bookmarks
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -7601,7 +7601,7 @@ status
 into
 it
 .
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResult
 >
@@ -18520,7 +18520,7 @@ NS_ENSURE_ARG_POINTER
 _DBConnection
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozIStorageConnection
 >
@@ -18561,7 +18561,7 @@ NS_ENSURE_ARG_POINTER
 _shutdownClient
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIAsyncShutdownClient
 >
@@ -19966,7 +19966,7 @@ mozIStoragePendingStatement
 >
 ps
 ;
-nsRefPtr
+RefPtr
 <
 DecayFrecencyCallback
 >
@@ -22905,7 +22905,7 @@ hasMore
 hasMore
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -24768,7 +24768,7 @@ rv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -24970,7 +24970,7 @@ nsNavHistoryQueryOptions
 RESULTS_AS_TAG_CONTENTS
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -25175,7 +25175,7 @@ nsNavHistoryQueryOptions
 RESULTS_AS_VISIT
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -25386,7 +25386,7 @@ options
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -28284,7 +28284,7 @@ get
 )
 }
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementCallbackNotifier
 >
@@ -28467,7 +28467,7 @@ NS_ENSURE_STATE
 stmt
 )
 ;
-nsRefPtr
+RefPtr
 <
 FixInvalidFrecenciesCallback
 >
@@ -28717,7 +28717,7 @@ care
 about
 failures
 .
-nsRefPtr
+RefPtr
 <
 AsyncStatementCallbackNotifier
 >

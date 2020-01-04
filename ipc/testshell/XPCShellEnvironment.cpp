@@ -2835,7 +2835,7 @@ principals
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BackstagePass
 >

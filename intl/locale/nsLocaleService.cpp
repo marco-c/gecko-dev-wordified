@@ -518,7 +518,7 @@ defined
 (
 XP_MACOSX
 )
-nsRefPtr
+RefPtr
 <
 nsLocale
 >
@@ -1068,7 +1068,7 @@ _retval
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsLocale
 >

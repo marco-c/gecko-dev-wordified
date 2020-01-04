@@ -712,7 +712,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -894,7 +894,7 @@ rangeIdx
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -2391,7 +2391,7 @@ node
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -5148,7 +5148,7 @@ first
 process
 the
 children
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -7094,7 +7094,7 @@ first
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -7120,7 +7120,7 @@ Collapsed
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -8341,7 +8341,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -8590,7 +8590,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -9331,7 +9331,7 @@ ForceCompositionEnd
 Get
 the
 selection
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -9611,7 +9611,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >

@@ -1094,7 +1094,7 @@ this
 compositor
 *
 /
-nsRefPtr
+RefPtr
 <
 DeviceManagerD3D9
 >
@@ -1110,7 +1110,7 @@ this
 compositor
 *
 /
-nsRefPtr
+RefPtr
 <
 SwapChainD3D9
 >
@@ -1130,13 +1130,13 @@ nsIWidget
 *
 mWidget
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetD3D9
 >
 mDefaultRT
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetD3D9
 >

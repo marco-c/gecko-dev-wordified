@@ -226,7 +226,7 @@ NetworkError
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -983,7 +983,7 @@ const
 nsCString
 mStatusText
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1050,7 +1050,7 @@ by
 wrapping
 it
 .
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >

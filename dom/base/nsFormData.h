@@ -281,7 +281,7 @@ name
 nsString
 stringValue
 ;
-nsRefPtr
+RefPtr
 <
 File
 >

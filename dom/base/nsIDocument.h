@@ -4081,7 +4081,7 @@ aError
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12852,7 +12852,7 @@ aHandle
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -16441,7 +16441,7 @@ nsNodeInfoManager
 *
 mNodeInfoManager
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -16453,7 +16453,7 @@ Loader
 >
 mCSSLoader
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -16465,19 +16465,19 @@ ImageLoader
 >
 mStyleImageLoader
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLStyleSheet
 >
 mAttrStyleSheet
 ;
-nsRefPtr
+RefPtr
 <
 nsHTMLCSSStyleSheet
 >
 mStyleAttrStyleSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -16629,7 +16629,7 @@ lazily
 initialized
 in
 GetAnimationController
-nsRefPtr
+RefPtr
 <
 nsSMILAnimationController
 >
@@ -16684,7 +16684,7 @@ SVG
 etc
 .
 )
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -18259,7 +18259,7 @@ mStateObjectCached
 uint32_t
 mInSyncOperationCount
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -18273,7 +18273,7 @@ mXPathEvaluator
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

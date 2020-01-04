@@ -237,7 +237,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -531,7 +531,7 @@ gfxUtils
 sDumpCompositorTextures
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :

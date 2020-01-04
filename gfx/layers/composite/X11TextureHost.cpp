@@ -191,7 +191,7 @@ TextureHost
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >
@@ -480,7 +480,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -514,7 +514,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

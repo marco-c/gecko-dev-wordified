@@ -536,7 +536,7 @@ protected
 /
 /
 members
-nsRefPtr
+RefPtr
 <
 ContentBridgeParent
 >

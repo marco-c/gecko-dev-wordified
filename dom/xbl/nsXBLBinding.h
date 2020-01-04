@@ -1066,7 +1066,7 @@ around
 with
 us
 .
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -1197,7 +1197,7 @@ their
 contents
 directly
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1211,7 +1211,7 @@ mDefaultInsertionPoint
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1224,7 +1224,7 @@ XBLChildrenElement
 >
 mInsertionPoints
 ;
-nsRefPtr
+RefPtr
 <
 nsAnonymousContentList
 >

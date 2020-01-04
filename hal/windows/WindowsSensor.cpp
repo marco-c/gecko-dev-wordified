@@ -108,7 +108,7 @@ namespace
 hal_impl
 {
 static
-nsRefPtr
+RefPtr
 <
 ISensor
 >
@@ -536,7 +536,7 @@ sAccelerometer
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ISensorManager
 >
@@ -567,7 +567,7 @@ return
 /
 accelerometer
 event
-nsRefPtr
+RefPtr
 <
 ISensorCollection
 >
@@ -617,7 +617,7 @@ count
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ISensor
 >
@@ -662,7 +662,7 @@ depends
 on
 drivers
 .
-nsRefPtr
+RefPtr
 <
 IPortableDeviceValues
 >
@@ -701,7 +701,7 @@ DEFAULT_SENSOR_POLL
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IPortableDeviceValues
 >
@@ -721,7 +721,7 @@ returns
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 SensorEvent
 >
@@ -732,7 +732,7 @@ SensorEvent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ISensorEvents
 >

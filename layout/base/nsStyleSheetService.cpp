@@ -1143,7 +1143,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -1160,7 +1160,7 @@ Loader
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1379,7 +1379,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -1396,7 +1396,7 @@ Loader
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

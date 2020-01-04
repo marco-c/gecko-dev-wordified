@@ -217,7 +217,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1085,7 +1085,7 @@ SWITCH_STATE_HEADPHONE
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SwitchHandler
 >
@@ -1532,7 +1532,7 @@ Init
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SwitchHandlerHeadphone
 >
@@ -1871,7 +1871,7 @@ SWITCH_DEVICE_UNKNOWN
 }
 ;
 static
-nsRefPtr
+RefPtr
 <
 SwitchEventObserver
 >
@@ -2213,7 +2213,7 @@ in
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 SwitchEventObserver
 >

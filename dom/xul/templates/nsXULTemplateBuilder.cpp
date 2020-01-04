@@ -6644,7 +6644,7 @@ aChild
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXULTemplateBuilder
 >
@@ -6828,7 +6828,7 @@ hold
 another
 reference
 .
-nsRefPtr
+RefPtr
 <
 nsXULTemplateBuilder
 >

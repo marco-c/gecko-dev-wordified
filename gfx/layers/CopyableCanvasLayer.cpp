@@ -927,7 +927,7 @@ destFormat
 format
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -989,7 +989,7 @@ destData
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

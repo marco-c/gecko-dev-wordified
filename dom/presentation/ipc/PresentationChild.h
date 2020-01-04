@@ -266,7 +266,7 @@ PresentationChild
 bool
 mActorDestroyed
 ;
-nsRefPtr
+RefPtr
 <
 PresentationIPCService
 >

@@ -343,7 +343,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -650,7 +650,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -677,7 +677,7 @@ toClose
 =
 this
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceChild
 >

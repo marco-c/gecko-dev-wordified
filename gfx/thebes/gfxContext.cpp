@@ -551,7 +551,7 @@ GetTransform
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -1134,7 +1134,7 @@ EnsurePath
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -4307,7 +4307,7 @@ GetPattern
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -4541,7 +4541,7 @@ surface
 s
 data
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5121,7 +5121,7 @@ oldDT
 =
 mDT
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5486,7 +5486,7 @@ PopGroup
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5540,7 +5540,7 @@ y
 device
 offset
 translation
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -5575,7 +5575,7 @@ Matrix
 aTransform
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5650,7 +5650,7 @@ PopGroupToSource
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -6227,7 +6227,7 @@ mPathTransform
 *
 invTransform
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -7594,7 +7594,7 @@ Optimal2DFormatForContent
 content
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

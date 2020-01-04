@@ -270,7 +270,7 @@ nsIPresentationRespondingListener
 >
 mRespondingListeners
 ;
-nsRefPtr
+RefPtr
 <
 PresentationResponderLoadingCallback
 >

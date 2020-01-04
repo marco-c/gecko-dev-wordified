@@ -373,7 +373,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -419,7 +419,7 @@ moveToRoot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -538,7 +538,7 @@ i
 val
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1896,7 +1896,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

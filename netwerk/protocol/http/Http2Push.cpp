@@ -253,7 +253,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpChannel
 >
@@ -1969,7 +1969,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

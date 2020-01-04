@@ -664,7 +664,7 @@ c
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsVariant
 >

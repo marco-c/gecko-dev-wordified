@@ -348,7 +348,7 @@ size_t
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 Zip
 >
@@ -1567,7 +1567,7 @@ path
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Zip
 >

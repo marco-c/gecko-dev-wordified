@@ -500,7 +500,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1263,7 +1263,7 @@ Bug
 1193437
 .
 static
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -1355,7 +1355,7 @@ Create
 a
 media
 stream
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1382,7 +1382,7 @@ NrIceMediaStream
 stream
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -2124,7 +2124,7 @@ stream
 ptr
 .
 Gross
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -2180,7 +2180,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

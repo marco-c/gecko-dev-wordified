@@ -284,7 +284,7 @@ the
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 MediaOmxCommonDecoder
 >

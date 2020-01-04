@@ -3547,7 +3547,7 @@ true
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 RefcountedObject
 >

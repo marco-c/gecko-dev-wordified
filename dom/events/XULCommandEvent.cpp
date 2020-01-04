@@ -575,7 +575,7 @@ WidgetInputEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 XULCommandEvent
 >

@@ -1777,7 +1777,7 @@ DataLength
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2112,7 +2112,7 @@ MOZ_ASSERT
 blob
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3132,7 +3132,7 @@ Count
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -5637,7 +5637,7 @@ Clear
 bool
 mWasHandlingMessage
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -7098,7 +7098,7 @@ continue
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -7146,7 +7146,7 @@ AppendObject
 aManager
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -7154,7 +7154,7 @@ kungfuDeathGrip
 =
 this
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -7313,7 +7313,7 @@ LoadPendingScripts
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -8361,7 +8361,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -8794,7 +8794,7 @@ if
 globalmm
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -8964,7 +8964,7 @@ XRE_IsParentProcess
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -9059,7 +9059,7 @@ nsMessageManagerScriptHolder
 *
 >
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptCacheCleaner
 >
@@ -9152,7 +9152,7 @@ sCachedScripts
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptCacheCleaner
 >
@@ -10464,7 +10464,7 @@ aPrincipal
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 nsAsyncMessageToSameProcessChild
 >
@@ -11216,7 +11216,7 @@ aCx
 aCpows
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -11300,7 +11300,7 @@ Get
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsAsyncMessageToSameProcessParent
 >
@@ -11388,7 +11388,7 @@ sParentProcessManager
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -11661,7 +11661,7 @@ SetChildProcessManager
 mm
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProcessGlobal
 >
@@ -11963,7 +11963,7 @@ mRuntime
 mCpows
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >

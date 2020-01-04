@@ -205,7 +205,7 @@ ANDROID_VERSION
 >
 =
 17
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :
@@ -513,7 +513,7 @@ GetAndResetFdObj
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FdObj
 >
@@ -550,7 +550,7 @@ GetDupFdObj
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FdObj
 >

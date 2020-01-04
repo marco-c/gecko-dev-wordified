@@ -526,7 +526,7 @@ gfxRect
 aBBox
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1179,7 +1179,7 @@ ExtractDescriptionAndAdditionalImages
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1494,7 +1494,7 @@ BuildSourceImage
 /
 BuildSourcePaint
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2335,7 +2335,7 @@ mPaintTransform
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

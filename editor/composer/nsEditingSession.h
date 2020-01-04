@@ -613,7 +613,7 @@ EDITOR
 PER
 EDITING
 SESSION
-nsRefPtr
+RefPtr
 <
 nsComposerCommandsUpdater
 >

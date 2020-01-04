@@ -487,7 +487,7 @@ GetButtons
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GamepadButton
 >
@@ -580,7 +580,7 @@ axes
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GamepadButton
 >

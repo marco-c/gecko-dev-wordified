@@ -628,7 +628,7 @@ event
 for
 removal
 .
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -668,7 +668,7 @@ event
 for
 insertion
 .
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -966,7 +966,7 @@ difference
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1066,7 +1066,7 @@ uint32_t
 aEntries
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

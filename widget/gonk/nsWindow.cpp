@@ -534,7 +534,7 @@ mMappedBuffer
 nullptr
 )
 {
-nsRefPtr
+RefPtr
 <
 nsScreenManagerGonk
 >
@@ -703,7 +703,7 @@ true
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsScreenGonk
 >
@@ -2027,7 +2027,7 @@ aInitData
 >
 mScreenId
 ;
-nsRefPtr
+RefPtr
 <
 nsScreenManagerGonk
 >
@@ -3569,7 +3569,7 @@ GetFormat
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3625,7 +3625,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

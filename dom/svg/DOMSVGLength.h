@@ -1549,7 +1549,7 @@ IndexIsValid
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 DOMSVGLengthList
 >
@@ -1682,7 +1682,7 @@ it
 belongs
 to
 mSVGElement
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

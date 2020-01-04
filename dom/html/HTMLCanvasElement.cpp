@@ -505,7 +505,7 @@ DataSourceSurface
 CopySurface
 (
 const
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -513,7 +513,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -563,7 +563,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -782,7 +782,7 @@ IsFrameCaptureRequested
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -805,7 +805,7 @@ snapshot
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -966,7 +966,7 @@ HTMLCanvasElement
 const
 mOwningElement
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >
@@ -1216,7 +1216,7 @@ InvalidateCanvas
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -2015,7 +2015,7 @@ CanvasContextType
 aContextType
 )
 {
-nsRefPtr
+RefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -2654,7 +2654,7 @@ mCurrentContext
 aCallback
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -2857,7 +2857,7 @@ cxt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasRenderingContext2D
 >
@@ -3431,7 +3431,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasCaptureMediaStream
 >
@@ -3463,7 +3463,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -3985,7 +3985,7 @@ GetWidthHeight
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -4129,7 +4129,7 @@ do_QueryInterface
 file
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -4635,7 +4635,7 @@ a
 context
 yet
 .
-nsRefPtr
+RefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -5343,7 +5343,7 @@ sOffscreenCanvasLayerUserDataDummy
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >
@@ -5359,7 +5359,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >
@@ -5771,7 +5771,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5802,7 +5802,7 @@ mSourceSurface
 =
 surface
 ;
-nsRefPtr
+RefPtr
 <
 CairoImage
 >
@@ -5895,7 +5895,7 @@ i
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -6159,7 +6159,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -6167,7 +6167,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -6306,7 +6306,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -6314,7 +6314,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -519,7 +519,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

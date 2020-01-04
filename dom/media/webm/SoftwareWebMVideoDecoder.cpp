@@ -475,7 +475,7 @@ GetDecoder
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -669,7 +669,7 @@ next_tstamp
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -1519,7 +1519,7 @@ GetMediaInfo
 .
 mVideo
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >

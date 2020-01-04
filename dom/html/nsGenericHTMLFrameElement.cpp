@@ -948,7 +948,7 @@ GetFrameLoader
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -1828,7 +1828,7 @@ ScrollOrientation_Y
 val
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

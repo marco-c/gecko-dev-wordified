@@ -317,7 +317,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -346,7 +346,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLIFrameElement
 >
@@ -706,7 +706,7 @@ GetShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -727,7 +727,7 @@ GetPresContext
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CustomEvent
 >
@@ -1321,7 +1321,7 @@ BrowserElementParent
 OPEN_WINDOW_IGNORED
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLIFrameElement
 >
@@ -1752,7 +1752,7 @@ BrowserElementParent
 OPEN_WINDOW_IGNORED
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLIFrameElement
 >
@@ -1968,7 +1968,7 @@ Run
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -2290,7 +2290,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 DispatchAsyncScrollEventRunnable
 >

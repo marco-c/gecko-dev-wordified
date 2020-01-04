@@ -221,7 +221,7 @@ Animation
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -264,7 +264,7 @@ nsAutoTArray
 <
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -3181,7 +3181,7 @@ sScheduledMutationObservers
 new
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -3983,7 +3983,7 @@ TakeRecords
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -4005,7 +4005,7 @@ SetCapacity
 mPendingMutationCount
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -4034,7 +4034,7 @@ mPendingMutationCount
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -4492,7 +4492,7 @@ GetExtantDoc
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -4783,7 +4783,7 @@ any
 extra
 copying
 .
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -4812,7 +4812,7 @@ mPendingMutationCount
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -4964,7 +4964,7 @@ return
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5058,7 +5058,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5075,7 +5075,7 @@ sScheduledMutationObservers
 {
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5160,7 +5160,7 @@ suppressedObservers
 new
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5321,7 +5321,7 @@ last
 ]
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -5515,7 +5515,7 @@ sMutationLevel
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5660,7 +5660,7 @@ nsAutoTArray
 <
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5861,7 +5861,7 @@ i
 .
 mWantsChildList
 ;
-nsRefPtr
+RefPtr
 <
 nsSimpleContentList
 >
@@ -6188,7 +6188,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSimpleContentList
 >
@@ -6232,7 +6232,7 @@ i
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >
@@ -6449,7 +6449,7 @@ match
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMMutationRecord
 >

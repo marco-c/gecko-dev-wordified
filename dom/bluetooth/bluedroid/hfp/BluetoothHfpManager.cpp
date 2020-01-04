@@ -1411,7 +1411,7 @@ rv
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetVolumeTask
 >
@@ -1575,7 +1575,7 @@ BluetoothHandsfreeInterface
 *
 mInterface
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1665,7 +1665,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1715,7 +1715,7 @@ initalized
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1796,7 +1796,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1877,7 +1877,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1958,7 +1958,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2284,7 +2284,7 @@ Deinit
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -2374,7 +2374,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -2426,7 +2426,7 @@ initialized
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2507,7 +2507,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2588,7 +2588,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >

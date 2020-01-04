@@ -357,7 +357,7 @@ MOZ_ASSERT
 mVerifier
 )
 ;
-nsRefPtr
+RefPtr
 <
 Manager
 >

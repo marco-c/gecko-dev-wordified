@@ -447,7 +447,7 @@ global
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -683,7 +683,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Telephony
 >
@@ -894,7 +894,7 @@ aGetIfActiveCall
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1032,7 +1032,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1247,7 +1247,7 @@ uint16_t
 aNamePresentation
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -1330,7 +1330,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1465,7 +1465,7 @@ uint32_t
 aCallIndex
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1491,7 +1491,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1558,7 +1558,7 @@ uint32_t
 aCallIndex
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1702,7 +1702,7 @@ ConvertToTelephonyCallState
 callState
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -1728,7 +1728,7 @@ if
 call
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -1844,7 +1844,7 @@ GetNumber
 number
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -2009,7 +2009,7 @@ fireEvent
 Group
 changed
 .
-nsRefPtr
+RefPtr
 <
 TelephonyCallGroup
 >
@@ -2262,7 +2262,7 @@ GetServiceId
 aServiceId
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2317,7 +2317,7 @@ GetServiceId
 aServiceId
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2405,7 +2405,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3366,7 +3366,7 @@ Calls
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 CallsList
 >
@@ -3394,7 +3394,7 @@ ConferenceGroup
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallGroup
 >
@@ -3442,7 +3442,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3549,7 +3549,7 @@ GetOwner
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4108,7 +4108,7 @@ uint16_t
 aNotification
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -4244,7 +4244,7 @@ Length
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -4271,7 +4271,7 @@ ServiceId
 aServiceId
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -4408,7 +4408,7 @@ mCall
 =
 aCall
 ;
-nsRefPtr
+RefPtr
 <
 CallEvent
 >

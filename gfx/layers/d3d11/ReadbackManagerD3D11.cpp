@@ -226,7 +226,7 @@ the
 paintedlayer
 to
 .
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -246,7 +246,7 @@ read
 back
 to
 .
-nsRefPtr
+RefPtr
 <
 TextureReadbackSink
 >
@@ -404,7 +404,7 @@ NS_OK
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

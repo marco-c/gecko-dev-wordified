@@ -772,7 +772,7 @@ that
 created
 this
 runnable
-nsRefPtr
+RefPtr
 <
 nsInputStreamTee
 >

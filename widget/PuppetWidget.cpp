@@ -4467,7 +4467,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4504,7 +4504,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4807,7 +4807,7 @@ NotifyPainted
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

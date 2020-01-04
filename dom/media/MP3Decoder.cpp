@@ -200,7 +200,7 @@ CreateStateMachine
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -251,7 +251,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >

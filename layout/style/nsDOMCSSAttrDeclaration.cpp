@@ -504,7 +504,7 @@ rule
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -885,7 +885,7 @@ InitializeEmpty
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :

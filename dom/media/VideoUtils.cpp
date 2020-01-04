@@ -3034,7 +3034,7 @@ CreateMediaDecodeTaskQueue
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -3068,7 +3068,7 @@ CreateFlushableMediaDecodeTaskQueue
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -3179,7 +3179,7 @@ nsITimer
 timer
 )
 {
-nsRefPtr
+RefPtr
 <
 SimpleTimer
 >
@@ -3432,7 +3432,7 @@ nsIThread
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SimpleTimer
 >

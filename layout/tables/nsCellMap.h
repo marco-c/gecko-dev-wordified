@@ -3102,7 +3102,7 @@ deallocate
 and
 allocate
 celldata
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

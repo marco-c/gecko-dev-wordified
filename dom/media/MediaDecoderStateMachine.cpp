@@ -2898,7 +2898,7 @@ CreateAudioSink
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -3365,7 +3365,7 @@ mTime
 clockTime
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -4396,7 +4396,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -5203,7 +5203,7 @@ MediaDecoderStateMachine
 OnAudioPopped
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -5256,7 +5256,7 @@ MediaDecoderStateMachine
 OnVideoPopped
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -5493,7 +5493,7 @@ WaitForData
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -5997,7 +5997,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -8441,7 +8441,7 @@ out
 of
 dormant
 ?
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -8509,7 +8509,7 @@ out
 of
 dormant
 ?
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -9707,7 +9707,7 @@ end
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -9969,7 +9969,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -10724,7 +10724,7 @@ Do
 the
 seek
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -12657,7 +12657,7 @@ forget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -13800,7 +13800,7 @@ Setup
 timestamp
 state
 .
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -14500,13 +14500,13 @@ DecoderDisposer
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -14999,7 +14999,7 @@ queue
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecoderDisposer
 >
@@ -16614,7 +16614,7 @@ GetVideoFrameContainer
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -17200,7 +17200,7 @@ GetSize
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -17631,7 +17631,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -17853,7 +17853,7 @@ the
 new
 timestamp
 .
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -17943,7 +17943,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -18508,7 +18508,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -19351,7 +19351,7 @@ ToMilliseconds
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -19752,7 +19752,7 @@ MediaDecoderStateMachine
 :
 OnCDMProxyReady
 (
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >

@@ -449,7 +449,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1085,7 +1085,7 @@ if
 mIsDirectory
 )
 {
-nsRefPtr
+RefPtr
 <
 Directory
 >
@@ -1113,7 +1113,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Blob
 >

@@ -129,7 +129,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -737,7 +737,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 RenderTargetSet
 )
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -751,7 +751,7 @@ size
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1386,7 +1386,7 @@ GetAllHMDs
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VRHMDInfo
 >
@@ -1423,7 +1423,7 @@ protected
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VRHMDManager
 >
@@ -1478,7 +1478,7 @@ GetHMDs
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VRHMDInfo
 >

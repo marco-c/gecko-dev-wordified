@@ -573,7 +573,7 @@ do_GetAtom
 aID
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >

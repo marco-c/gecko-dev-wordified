@@ -1665,7 +1665,7 @@ private
 nsAutoString
 mString
 ;
-nsRefPtr
+RefPtr
 <
 TextRangeArray
 >

@@ -314,7 +314,7 @@ Value
 aValue
 )
 {
-nsRefPtr
+RefPtr
 <
 Exception
 >

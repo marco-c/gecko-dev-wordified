@@ -1113,7 +1113,7 @@ const
 nsAString
 &
 aFont
-nsRefPtr
+RefPtr
 <
 FontFamilyListRefCnt
 >
@@ -1562,7 +1562,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 FontFamilyListRefCnt
 >
@@ -1681,7 +1681,7 @@ GetFontlist
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1891,7 +1891,7 @@ FlushUserFontSet
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1935,7 +1935,7 @@ f
 faces
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2020,7 +2020,7 @@ aCx
 jsGlobal
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2801,7 +2801,7 @@ Entries
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FontFaceSetIterator
 >
@@ -2833,7 +2833,7 @@ Values
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FontFaceSetIterator
 >
@@ -3103,7 +3103,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontFaceLoader
 >
@@ -3521,7 +3521,7 @@ nullptr
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -3694,7 +3694,7 @@ const
 nsAString
 &
 aKey
-nsRefPtr
+RefPtr
 <
 gfxUserFontFamily
 >
@@ -3724,7 +3724,7 @@ const
 nsAString
 &
 aKey
-nsRefPtr
+RefPtr
 <
 gfxUserFontFamily
 >
@@ -4221,7 +4221,7 @@ i
 .
 mRule
 ;
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -4572,7 +4572,7 @@ count
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -4956,7 +4956,7 @@ like
 InsertRuleFontFace
 does
 ?
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -5402,7 +5402,7 @@ a
 new
 rule
 :
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -7146,7 +7146,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -8985,7 +8985,7 @@ PrefEnabled
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -9818,7 +9818,7 @@ i
 ]
 ;
 }
-nsRefPtr
+RefPtr
 <
 FontFaceSetLoadEvent
 >
@@ -10424,7 +10424,7 @@ gfxSparseBitSet
 aUnicodeRanges
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >

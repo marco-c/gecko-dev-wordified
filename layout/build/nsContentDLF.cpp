@@ -1149,7 +1149,7 @@ aDocViewer
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1432,7 +1432,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -267,7 +267,7 @@ that
 created
 this
 transaction
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -368,7 +368,7 @@ that
 created
 this
 transaction
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -303,7 +303,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CustomEvent
 >
@@ -655,7 +655,7 @@ WidgetEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 CustomEvent
 >

@@ -318,7 +318,7 @@ aVisual
 unsigned
 int
 aDepth
-nsRefPtr
+RefPtr
 <
 nsShmImage
 >
@@ -478,7 +478,7 @@ NULLHandle
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SharedMemorySysV
 >

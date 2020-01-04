@@ -749,13 +749,13 @@ AllocImpl
 and
 DeallocImpl
 )
-nsRefPtr
+RefPtr
 <
 ICameraControl
 >
 mCameraControl
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -788,7 +788,7 @@ parent
 class
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PhotoCallback
 >
@@ -824,7 +824,7 @@ when
 screen
 rotates
 .
-nsRefPtr
+RefPtr
 <
 layers
 :

@@ -411,7 +411,7 @@ respectively
 After
 a
 *
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -586,7 +586,7 @@ U
 RefPtr
 (
 const
-nsRefPtr
+RefPtr
 <
 U
 >
@@ -706,7 +706,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 U
 >
@@ -1096,14 +1096,14 @@ T
 *
 friend
 class
-nsRefPtr
+RefPtr
 <
 T
 >
 ;
 typedef
 typename
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1123,7 +1123,7 @@ t
 :
 ptr
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1185,7 +1185,7 @@ TemporaryRef
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >

@@ -428,7 +428,7 @@ aIndex
 create
 the
 row
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -456,7 +456,7 @@ nodeInfo
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

@@ -259,13 +259,13 @@ uint32_t
 aChromeMask
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsWebShellWindow
 >
 mHiddenWindow
 ;
-nsRefPtr
+RefPtr
 <
 nsWebShellWindow
 >

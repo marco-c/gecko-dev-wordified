@@ -5007,7 +5007,7 @@ of
 the
 contiguous
 selection
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -7546,7 +7546,7 @@ non
 disabled
 item
 .
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -8530,7 +8530,7 @@ bool
 aClearAll
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -8634,7 +8634,7 @@ int32_t
 aIndex
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -8660,7 +8660,7 @@ option
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -10075,7 +10075,7 @@ bool
 aIsDisabled
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -10350,7 +10350,7 @@ rowBSize
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -11491,7 +11491,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -12671,7 +12671,7 @@ INSTANT
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -13916,7 +13916,7 @@ are
 wasting
 our
 time
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -15530,7 +15530,7 @@ are
 wasting
 our
 time
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -15592,7 +15592,7 @@ startIndex
 %
 numOptions
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

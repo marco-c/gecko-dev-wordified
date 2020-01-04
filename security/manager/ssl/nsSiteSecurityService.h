@@ -779,7 +779,7 @@ mPreloadListTimeOffset
 bool
 mProcessPKPHeadersFromNonBuiltInRoots
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

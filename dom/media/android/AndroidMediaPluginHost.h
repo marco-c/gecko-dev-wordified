@@ -156,7 +156,7 @@ mozilla
 class
 AndroidMediaPluginHost
 {
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >

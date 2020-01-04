@@ -112,7 +112,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -470,7 +470,7 @@ bool
 aIsRedecode
 )
 {
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -684,7 +684,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -932,7 +932,7 @@ DecoderType
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1084,7 +1084,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1220,7 +1220,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1480,7 +1480,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Decoder
 >

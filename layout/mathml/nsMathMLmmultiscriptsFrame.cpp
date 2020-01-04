@@ -1272,7 +1272,7 @@ StyleFont
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

@@ -1743,7 +1743,7 @@ nsIContent
 GetContainingShadow
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :

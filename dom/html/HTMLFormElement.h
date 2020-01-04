@@ -2534,7 +2534,7 @@ Run
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 FormPasswordEventDispatcher
 >
@@ -2588,7 +2588,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HTMLFormElement
 >
@@ -3234,7 +3234,7 @@ elements
 )
 *
 /
-nsRefPtr
+RefPtr
 <
 HTMLFormControlsCollection
 >

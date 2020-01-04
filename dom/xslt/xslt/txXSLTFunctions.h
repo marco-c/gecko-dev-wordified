@@ -232,7 +232,7 @@ aMappings
 TX_DECL_FUNCTION
 private
 :
-nsRefPtr
+RefPtr
 <
 txNamespaceMap
 >
@@ -317,7 +317,7 @@ txStylesheet
 *
 mStylesheet
 ;
-nsRefPtr
+RefPtr
 <
 txNamespaceMap
 >
@@ -575,7 +575,7 @@ private
 eType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 txNamespaceMap
 >

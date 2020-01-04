@@ -368,7 +368,7 @@ nsIDocument
 >
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -380,7 +380,7 @@ nsIPresShell
 >
 mPresShell
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >

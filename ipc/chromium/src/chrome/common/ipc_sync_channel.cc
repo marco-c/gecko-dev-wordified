@@ -738,7 +738,7 @@ Message
 *
 message
 ;
-nsRefPtr
+RefPtr
 <
 SyncChannel
 :
@@ -1139,7 +1139,7 @@ Message
 *
 message
 ;
-nsRefPtr
+RefPtr
 <
 SyncChannel
 :
@@ -2419,7 +2419,7 @@ deleted
 in
 WaitForReply
 .
-nsRefPtr
+RefPtr
 <
 SyncContext
 >

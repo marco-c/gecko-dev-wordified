@@ -7329,7 +7329,7 @@ const
 nsAString
 &
 aProfileDir
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheDevice
 >
@@ -7952,7 +7952,7 @@ nsICacheSession
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCacheSession
 >
@@ -8125,7 +8125,7 @@ nsCacheStoragePolicy
 storagePolicy
 )
 {
-nsRefPtr
+RefPtr
 <
 EvictionNotifierRunnable
 >
@@ -11339,7 +11339,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheDevice
 >
@@ -17389,7 +17389,7 @@ CloseAllStreams
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 :
@@ -17401,7 +17401,7 @@ inputs
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 :
@@ -17603,7 +17603,7 @@ i
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >

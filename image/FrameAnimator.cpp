@@ -2878,7 +2878,7 @@ if
 mCompositingFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 imgFrame
 >
@@ -3841,7 +3841,7 @@ if
 mCompositingPrevFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 imgFrame
 >

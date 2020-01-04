@@ -781,7 +781,7 @@ global
 ;
 /
 /
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -830,7 +830,7 @@ aCx
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -942,7 +942,7 @@ aCx
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 MozNDEFRecord
 >
@@ -1327,7 +1327,7 @@ mFunctions
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

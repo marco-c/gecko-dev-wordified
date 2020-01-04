@@ -693,13 +693,13 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
 mPromise
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -1673,7 +1673,7 @@ StealNSResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1689,7 +1689,7 @@ JSObject
 >
 mThenable
 ;
-nsRefPtr
+RefPtr
 <
 PromiseInit
 >
@@ -1859,19 +1859,19 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
 mResolveCallback
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
 mRejectCallback
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2313,7 +2313,7 @@ JSObject
 aDesiredProto
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2585,7 +2585,7 @@ Promise
 MaybeReject
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -3663,7 +3663,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4130,7 +4130,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4179,7 +4179,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4257,7 +4257,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4365,7 +4365,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4443,7 +4443,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4508,7 +4508,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4555,7 +4555,7 @@ aCx
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -4575,7 +4575,7 @@ PromiseCallback
 Resolve
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -4629,7 +4629,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 AnyCallback
 >
@@ -5022,7 +5022,7 @@ result
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5279,7 +5279,7 @@ AllResolveElementFunction
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 CountdownHolder
 >
@@ -5357,7 +5357,7 @@ Context
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5405,7 +5405,7 @@ i
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5475,7 +5475,7 @@ aGlobal
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5637,7 +5637,7 @@ aRv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5662,7 +5662,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CountdownHolder
 >
@@ -5717,7 +5717,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -5750,7 +5750,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 PromiseNativeHandler
 >
@@ -5763,7 +5763,7 @@ holder
 i
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -5934,7 +5934,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5959,7 +5959,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -5972,7 +5972,7 @@ promise
 obj
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -6026,7 +6026,7 @@ i
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -6140,7 +6140,7 @@ PromiseNativeHandler
 aRunnable
 )
 {
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -6153,7 +6153,7 @@ aRunnable
 Resolved
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -6789,7 +6789,7 @@ cx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 xpc
 :
@@ -6911,7 +6911,7 @@ it
 is
 essential
 to
-nsRefPtr
+RefPtr
 <
 >
 the
@@ -7000,7 +7000,7 @@ if
 mainThread
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncErrorReporter
 >
@@ -7562,7 +7562,7 @@ GlobalJSObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -7575,7 +7575,7 @@ this
 glob
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -7588,7 +7588,7 @@ this
 glob
 )
 ;
-nsRefPtr
+RefPtr
 <
 FastPromiseResolveThenableJob
 >
@@ -7610,7 +7610,7 @@ task
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseInit
 >
@@ -7632,7 +7632,7 @@ GetIncumbentGlobal
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseResolveThenableJob
 >
@@ -8265,7 +8265,7 @@ TriggerPromiseReactions
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -8318,7 +8318,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 PromiseReactionJob
 >
@@ -8522,7 +8522,7 @@ GetDependentPromises
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8847,7 +8847,7 @@ MOZ_ASSERT
 mPromiseWorkerProxy
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8961,7 +8961,7 @@ PromiseWorkerProxyRunnable
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9054,7 +9054,7 @@ aCb
 Read
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9672,7 +9672,7 @@ StructuredCloneAlgorithm
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxyRunnable
 >
@@ -10081,7 +10081,7 @@ Promise
 MaybeRejectBrokenly
 (
 const
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -10110,7 +10110,7 @@ Promise
 MaybeRejectBrokenly
 (
 const
-nsRefPtr
+RefPtr
 <
 DOMException
 >

@@ -641,13 +641,13 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GlobalQueueItem
 )
-nsRefPtr
+RefPtr
 <
 VoiceData
 >
 mVoice
 ;
-nsRefPtr
+RefPtr
 <
 nsSpeechTask
 >
@@ -970,7 +970,7 @@ GetInstanceForService
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSynthVoiceRegistry
 >
@@ -1079,7 +1079,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 VoiceData
 >
@@ -2403,7 +2403,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 VoiceData
 >
@@ -3172,7 +3172,7 @@ uri
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSpeechTask
 >
@@ -3457,7 +3457,7 @@ aPitch
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GlobalQueueItem
 >
@@ -3609,7 +3609,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 GlobalQueueItem
 >
@@ -3742,7 +3742,7 @@ IsEmpty
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GlobalQueueItem
 >

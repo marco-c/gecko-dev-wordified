@@ -838,7 +838,7 @@ charMaxAdvance
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -2178,7 +2178,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozPlaceholder
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -3160,7 +3160,7 @@ inflation
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -3884,7 +3884,7 @@ GetPresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -4026,7 +4026,7 @@ FLAG_BYMOUSE
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ScrollOnFocusEvent
 >
@@ -4477,7 +4477,7 @@ avoid
 possible
 errors
 .
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -7497,7 +7497,7 @@ textnode
 with
 our
 value
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

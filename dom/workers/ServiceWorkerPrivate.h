@@ -997,7 +997,7 @@ no
 -
 op
 .
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -1077,7 +1077,7 @@ after
 each
 event
 .
-nsRefPtr
+RefPtr
 <
 KeepAliveToken
 >

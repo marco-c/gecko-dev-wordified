@@ -1785,7 +1785,7 @@ finish
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >

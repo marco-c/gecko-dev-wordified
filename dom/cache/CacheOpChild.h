@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -389,7 +389,7 @@ nsISupports
 >
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

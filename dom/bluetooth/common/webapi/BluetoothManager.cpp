@@ -606,7 +606,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothManager
 >
@@ -672,7 +672,7 @@ NS_ENSURE_TRUE_VOID
 bs
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -820,7 +820,7 @@ get_ArrayOfBluetoothNamedValue
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >
@@ -890,7 +890,7 @@ GetAdapters
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >
@@ -933,7 +933,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothManager
 >
@@ -1245,7 +1245,7 @@ BluetoothAdapterEventInit
 aInit
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothAdapterEvent
 >
@@ -1315,7 +1315,7 @@ mAttrs
 =
 types
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothAttributeEvent
 >

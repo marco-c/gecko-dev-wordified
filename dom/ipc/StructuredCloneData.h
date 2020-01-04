@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -239,7 +239,7 @@ aData
 aDataLength
 )
 ;
-nsRefPtr
+RefPtr
 <
 SharedJSAllocatedData
 >
@@ -429,7 +429,7 @@ delete
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -446,7 +446,7 @@ mBlobImplArray
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -644,7 +644,7 @@ mExternalData
 size_t
 mExternalDataLength
 ;
-nsRefPtr
+RefPtr
 <
 SharedJSAllocatedData
 >

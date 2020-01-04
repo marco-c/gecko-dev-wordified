@@ -1428,7 +1428,7 @@ MessageManagerCallback
 >
 mOwnedCallback
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -1579,7 +1579,7 @@ NS_OK
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsSameProcessAsyncMessageBase
 >

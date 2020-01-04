@@ -440,7 +440,7 @@ Create
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNullPrincipalURI
 >
@@ -1223,7 +1223,7 @@ _equals
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsNullPrincipalURI
 >

@@ -224,7 +224,7 @@ MultipartBlobImpl
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -272,7 +272,7 @@ MultipartBlobImpl
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -500,7 +500,7 @@ virtual
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -598,7 +598,7 @@ SetLengthAndModifiedDate
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

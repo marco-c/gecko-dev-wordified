@@ -707,7 +707,7 @@ mOpcode
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothA2dpResultHandler
 >

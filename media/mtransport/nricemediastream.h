@@ -426,7 +426,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -721,7 +721,7 @@ NrIceMediaStream
 public
 :
 static
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

@@ -806,7 +806,7 @@ re
 iterating
 over
 .
-nsRefPtr
+RefPtr
 <
 T
 >

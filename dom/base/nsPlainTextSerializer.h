@@ -1308,7 +1308,7 @@ etc
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :

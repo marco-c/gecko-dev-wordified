@@ -1551,7 +1551,7 @@ mOperation
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -3865,7 +3865,7 @@ aRebuildOnSuccess
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -3919,7 +3919,7 @@ nsISupports
 Help
 breaking
 cycles
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -4062,7 +4062,7 @@ aManager
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -4151,7 +4151,7 @@ aReason
 Help
 breaking
 cycles
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -10058,7 +10058,7 @@ adding
 a
 new
 one
-nsRefPtr
+RefPtr
 <
 PermissionKey
 >
@@ -13311,7 +13311,7 @@ entry
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 PermissionKey
 >

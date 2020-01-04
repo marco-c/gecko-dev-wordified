@@ -387,7 +387,7 @@ NS_ENSURE_TRUE_VOID
 aAccessible
 )
 ;
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

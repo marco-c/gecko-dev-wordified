@@ -3988,7 +3988,7 @@ if
 testFontSize
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

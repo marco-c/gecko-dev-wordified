@@ -283,7 +283,7 @@ gfxRect
 aBBox
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1895,7 +1895,7 @@ aSource
 >
 mNeededBounds
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1963,7 +1963,7 @@ IsSingular
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -2219,7 +2219,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2447,7 +2447,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -2587,7 +2587,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

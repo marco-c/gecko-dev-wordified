@@ -228,7 +228,7 @@ mGroup
 nsCString
 mOrigin
 ;
-nsRefPtr
+RefPtr
 <
 QuotaObject
 >

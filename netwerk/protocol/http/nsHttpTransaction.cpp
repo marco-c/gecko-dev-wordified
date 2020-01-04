@@ -2908,7 +2908,7 @@ lock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -3113,7 +3113,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -3375,7 +3375,7 @@ if
 gSocketTransportService
 )
 {
-nsRefPtr
+RefPtr
 <
 UpdateSecurityCallbacks
 >
@@ -5375,7 +5375,7 @@ the
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -7818,7 +7818,7 @@ GetLock
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >

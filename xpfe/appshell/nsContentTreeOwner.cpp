@@ -2267,7 +2267,7 @@ xulWindow
 and
 search
 them
-nsRefPtr
+RefPtr
 <
 nsXULWindow
 >

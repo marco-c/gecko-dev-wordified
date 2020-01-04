@@ -4866,7 +4866,7 @@ PendingBinding
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -10166,7 +10166,7 @@ const
 nsString
 &
 aString
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -10177,7 +10177,7 @@ nsGenConInitializer
 aInitializer
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -10380,7 +10380,7 @@ handle
 .
 .
 .
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -11320,7 +11320,7 @@ the
 pseudo
 -
 element
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -11393,7 +11393,7 @@ property
 for
 us
 .
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -12858,7 +12858,7 @@ of
 the
 inner
 SC
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -14240,7 +14240,7 @@ the
 body
 cell
 frame
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -15033,7 +15033,7 @@ nsStyleContext
 :
 ApplyStyleFixups
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -15362,7 +15362,7 @@ an
 element
 .
 )
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -15448,7 +15448,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -16134,7 +16134,7 @@ nsStyleContext
 >
 extraRef
 =
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -16415,7 +16415,7 @@ nsStyleContext
 >
 extraRef
 =
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -16968,7 +16968,7 @@ VIEWPORT
 -
 -
 -
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -17919,7 +17919,7 @@ newFrame
 =
 rootFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18130,7 +18130,7 @@ context
 for
 the
 scrollframe
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18572,7 +18572,7 @@ StyleSet
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18638,7 +18638,7 @@ aParentFrame
 aPrevPageFrame
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18776,7 +18776,7 @@ MarkAsAbsoluteContainingBlock
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18889,7 +18889,7 @@ nsFrameState
 aTypeBit
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -19454,7 +19454,7 @@ for
 the
 dropdown
 list
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -20219,7 +20219,7 @@ and
 initialize
 the
 frame
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -23662,7 +23662,7 @@ bits
 FCDATA_CREATE_BLOCK_WRAPPER_FOR_ALL_KIDS
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -27109,7 +27109,7 @@ aNewFrame
 nsFrameItems
 anonymousItems
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -27326,7 +27326,7 @@ StyleSet
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -27679,7 +27679,7 @@ nsContainerFrame
 aNewFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -28870,7 +28870,7 @@ newFrame
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -29700,7 +29700,7 @@ FlushPendingLinkUpdates
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -30000,7 +30000,7 @@ StyleSet
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -30642,7 +30642,7 @@ of
 the
 SC
 :
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -32811,7 +32811,7 @@ user
 modify
 .
 )
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -33401,7 +33401,7 @@ parentFrame
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -33682,7 +33682,7 @@ StyleDisplay
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -35034,7 +35034,7 @@ AsElement
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -40038,7 +40038,7 @@ non
 -
 optional
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -58297,7 +58297,7 @@ Element
 aElement
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -58355,7 +58355,7 @@ a
 new
 context
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -67458,7 +67458,7 @@ content
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -68953,7 +68953,7 @@ params
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -69472,7 +69472,7 @@ StyleContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -70329,7 +70329,7 @@ StyleContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -71472,7 +71472,7 @@ that
 set
 )
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -71633,7 +71633,7 @@ if
 parentStyleContext
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -71949,7 +71949,7 @@ first
 letter
 style
 rule
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -71966,7 +71966,7 @@ if
 sc
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -73190,7 +73190,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -73619,7 +73619,7 @@ textContent
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -74389,7 +74389,7 @@ the
 right
 parent
 !
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -74761,7 +74761,7 @@ parent
 =
 aParentFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -76177,7 +76177,7 @@ the
 inline
 box
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -77200,7 +77200,7 @@ ELEMENT_ALL_RESTYLE_FLAGS
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

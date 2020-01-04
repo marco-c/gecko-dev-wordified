@@ -245,7 +245,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 NotificationEvent
 >
@@ -377,7 +377,7 @@ Notification_
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -395,7 +395,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Notification
 >

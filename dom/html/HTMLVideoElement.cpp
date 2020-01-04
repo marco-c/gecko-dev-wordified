@@ -1300,7 +1300,7 @@ corruptedFrames
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 VideoPlaybackQuality
 >
@@ -1441,7 +1441,7 @@ HasVideo
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 power
 :

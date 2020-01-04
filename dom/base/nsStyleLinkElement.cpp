@@ -1498,7 +1498,7 @@ nsIStyleSheet
 aSheet
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

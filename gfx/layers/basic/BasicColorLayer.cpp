@@ -526,7 +526,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >

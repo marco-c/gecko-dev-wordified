@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1115,7 +1115,7 @@ mState
 COMPLETE
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceBuffer
 >
@@ -2978,7 +2978,7 @@ available
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IResumable
 >

@@ -312,7 +312,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMCameraControl
 >
@@ -888,7 +888,7 @@ aDOMCameraControl
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 nsDOMCameraControl
 :
@@ -1793,7 +1793,7 @@ mBlobImpl
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

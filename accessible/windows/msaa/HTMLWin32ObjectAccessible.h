@@ -278,7 +278,7 @@ void
 *
 mHwnd
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >

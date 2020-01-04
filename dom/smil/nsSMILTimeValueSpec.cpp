@@ -804,7 +804,7 @@ referenced
 /
 element
 .
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -1085,7 +1085,7 @@ it
 with
 the
 interval
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -2329,7 +2329,7 @@ ignoring
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

@@ -427,7 +427,7 @@ aAttrs
 postData
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebBrowserPersistRemoteDocument
 >
@@ -560,7 +560,7 @@ into
 an
 nsRefPtr
 .
-nsRefPtr
+RefPtr
 <
 WebBrowserPersistResourcesParent
 >

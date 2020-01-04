@@ -447,7 +447,7 @@ friend
 class
 PathRecording
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -747,7 +747,7 @@ friend
 class
 RecordedPathCreation
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

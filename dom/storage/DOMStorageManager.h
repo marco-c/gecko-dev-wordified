@@ -476,7 +476,7 @@ it
 alive
 forever
 .
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >
@@ -655,7 +655,7 @@ touched
 nsDataHashtable
 <
 nsCStringHashKey
-nsRefPtr
+RefPtr
 <
 DOMStorageUsage
 >

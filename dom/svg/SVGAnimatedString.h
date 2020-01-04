@@ -225,7 +225,7 @@ aResult
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

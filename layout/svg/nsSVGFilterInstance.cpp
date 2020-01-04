@@ -2372,7 +2372,7 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2448,7 +2448,7 @@ elements
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsSVGFE
 >
@@ -2483,7 +2483,7 @@ GetNextSibling
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSVGFE
 >

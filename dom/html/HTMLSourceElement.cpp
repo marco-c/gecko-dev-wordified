@@ -439,7 +439,7 @@ nullptr
 nsCSSParser
 cssParser
 ;
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >

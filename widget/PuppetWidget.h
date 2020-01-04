@@ -186,7 +186,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1760,7 +1760,7 @@ an
 event
 handler
 .
-nsRefPtr
+RefPtr
 <
 PuppetWidget
 >
@@ -1775,7 +1775,7 @@ PaintTask
 >
 mPaintTask
 ;
-nsRefPtr
+RefPtr
 <
 MemoryPressureObserver
 >
@@ -1804,7 +1804,7 @@ content
 -
 only
 transactions
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

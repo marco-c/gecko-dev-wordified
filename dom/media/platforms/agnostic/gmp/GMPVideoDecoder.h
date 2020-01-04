@@ -294,7 +294,7 @@ mLastStreamOffset
 VideoInfo
 mVideoInfo
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -438,7 +438,7 @@ false
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -554,7 +554,7 @@ aHost
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPVideoDecoder
 >

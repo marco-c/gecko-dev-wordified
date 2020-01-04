@@ -6265,7 +6265,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsGIOInputStream
 >

@@ -1165,7 +1165,7 @@ map
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RunAddNewIPCProcess
 >

@@ -166,7 +166,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -380,7 +380,7 @@ Surface
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -434,7 +434,7 @@ BAD_IMAGE
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -640,7 +640,7 @@ mDrawResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ClippedImage
 >
@@ -809,7 +809,7 @@ int32_t
 width
 height
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1307,7 +1307,7 @@ aFlags
 DrawResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1410,7 +1410,7 @@ aFlags
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1445,7 +1445,7 @@ ShouldClip
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1532,7 +1532,7 @@ to
 draw
 into
 .
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1587,7 +1587,7 @@ DrawResult
 :
 :
 TEMPORARY_ERROR
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1596,7 +1596,7 @@ SourceSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -1614,7 +1614,7 @@ Create
 our
 callback
 .
-nsRefPtr
+RefPtr
 <
 DrawSingleTileCallback
 >
@@ -1630,7 +1630,7 @@ aWhichFrame
 aFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -1729,7 +1729,7 @@ now
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2131,7 +2131,7 @@ internally
 DrawResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2181,7 +2181,7 @@ from
 that
 surface
 .
-nsRefPtr
+RefPtr
 <
 gfxSurfaceDrawable
 >

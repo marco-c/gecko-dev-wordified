@@ -1737,7 +1737,7 @@ head
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1858,7 +1858,7 @@ requestUrl
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1876,7 +1876,7 @@ headers
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -3715,7 +3715,7 @@ SetStreamControl
 mStreamControl
 )
 ;
-nsRefPtr
+RefPtr
 <
 ReadStream
 >

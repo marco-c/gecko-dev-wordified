@@ -1053,7 +1053,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >
@@ -1343,7 +1343,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >
@@ -1354,7 +1354,7 @@ PDMFactory
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1405,7 +1405,7 @@ aFailureReason
 VideoInfo
 config
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

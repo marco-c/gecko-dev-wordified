@@ -2380,7 +2380,7 @@ into
 this
 queue
 .
-nsRefPtr
+RefPtr
 <
 base
 :

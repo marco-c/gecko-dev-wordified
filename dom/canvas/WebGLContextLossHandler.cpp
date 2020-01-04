@@ -469,7 +469,7 @@ eventRef
 aEvent
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContextLossWorkerRunnable
 >

@@ -526,7 +526,7 @@ CacheStorage
 Entry
 final
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -560,7 +560,7 @@ separately
 for
 now
 .
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -1167,7 +1167,7 @@ disabled
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1286,7 +1286,7 @@ origins
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1306,7 +1306,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1393,7 +1393,7 @@ allowed
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1436,7 +1436,7 @@ browsing
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1456,7 +1456,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Feature
 >
@@ -1738,7 +1738,7 @@ origins
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1758,7 +1758,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1888,7 +1888,7 @@ principal
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -2229,7 +2229,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -2258,7 +2258,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2402,7 +2402,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2530,7 +2530,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2658,7 +2658,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2782,7 +2782,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >

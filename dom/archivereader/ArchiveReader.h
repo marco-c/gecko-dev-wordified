@@ -371,7 +371,7 @@ Ready
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -419,7 +419,7 @@ archive
 blob
 /
 file
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -542,7 +542,7 @@ be
 processed
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ArchiveRequest
 >
@@ -564,7 +564,7 @@ struct
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >

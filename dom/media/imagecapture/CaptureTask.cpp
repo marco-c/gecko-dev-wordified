@@ -212,7 +212,7 @@ DetachStream
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -381,7 +381,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -397,7 +397,7 @@ GetVideoStreamTrack
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -418,7 +418,7 @@ AddPrincipalChangeObserver
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -455,7 +455,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -471,7 +471,7 @@ GetVideoStreamTrack
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -492,7 +492,7 @@ RemovePrincipalChangeObserver
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -640,7 +640,7 @@ aBlob
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -675,7 +675,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CaptureTask
 >
@@ -774,7 +774,7 @@ IsNull
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1023,7 +1023,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CaptureTask
 >

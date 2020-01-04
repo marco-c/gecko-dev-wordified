@@ -1046,7 +1046,7 @@ BluetoothRilListener
 >
 mListener
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
