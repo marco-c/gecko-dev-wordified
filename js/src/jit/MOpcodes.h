@@ -679,6 +679,11 @@ ExtendInt32ToInt64
 \
 _
 (
+Int64ToFloatingPoint
+)
+\
+_
+(
 ToString
 )
 \

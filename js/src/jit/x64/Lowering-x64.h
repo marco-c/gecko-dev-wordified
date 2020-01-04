@@ -465,6 +465,14 @@ MTruncateToInt64
 ins
 )
 ;
+void
+visitInt64ToFloatingPoint
+(
+MInt64ToFloatingPoint
+*
+ins
+)
+;
 }
 ;
 typedef

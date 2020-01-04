@@ -443,6 +443,14 @@ lir
 )
 ;
 void
+visitInt64ToFloatingPoint
+(
+LInt64ToFloatingPoint
+*
+lir
+)
+;
+void
 visitLoadTypedArrayElementStatic
 (
 LLoadTypedArrayElementStatic

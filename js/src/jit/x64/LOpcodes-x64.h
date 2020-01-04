@@ -156,6 +156,11 @@ TruncateToInt64
 \
 _
 (
+Int64ToFloatingPoint
+)
+\
+_
+(
 SimdValueInt32x4
 )
 \
