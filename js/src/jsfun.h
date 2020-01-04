@@ -3042,7 +3042,6 @@ s
 script_
 ;
 }
-inline
 bool
 getLength
 (
