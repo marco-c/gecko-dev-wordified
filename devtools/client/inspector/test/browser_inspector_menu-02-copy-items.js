@@ -373,7 +373,7 @@ item
 )
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
