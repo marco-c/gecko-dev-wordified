@@ -203,13 +203,12 @@ clear
 overscroll
 *
 /
-RequestSnap
+ScrollSnap
 =
 0x2
 /
 *
-Request
-snapping
+Snap
 to
 snap
 points
