@@ -4843,6 +4843,10 @@ ScriptFrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -9291,6 +9295,10 @@ FrameIter
 frameIter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 if
@@ -9661,6 +9669,10 @@ FrameIter
 frameIter
 (
 cx
+FrameIter
+:
+:
+STOP_AT_SAVED
 )
 ;
 MOZ_ASSERT
