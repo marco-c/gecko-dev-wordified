@@ -2829,6 +2829,12 @@ UpdateBuffered
 ;
 virtual
 void
+VisibilityChanged
+(
+)
+;
+virtual
+void
 NotifyDataArrivedInternal
 (
 )

@@ -435,7 +435,7 @@ notifications
 in
 order
 to
-udpate
+update
 buffer
 ranges
 .
