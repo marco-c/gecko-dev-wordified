@@ -966,8 +966,12 @@ this
 .
 scriptTimeout
 =
-null
+30000
 ;
+/
+/
+30
+seconds
 this
 .
 searchTimeout
@@ -978,8 +982,12 @@ this
 .
 pageTimeout
 =
-null
+300000
 ;
+/
+/
+five
+minutes
 this
 .
 timer
