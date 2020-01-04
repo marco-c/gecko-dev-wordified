@@ -360,7 +360,7 @@ eSkipPlaceholderContent
 )
 mFlags
 (
-aFlags
+0
 )
 {
 mChildFilter
