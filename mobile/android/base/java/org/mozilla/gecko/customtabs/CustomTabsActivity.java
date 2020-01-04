@@ -397,6 +397,13 @@ doBack
 return
 ;
 }
+tabs
+.
+closeTab
+(
+tab
+)
+;
 finish
 (
 )
