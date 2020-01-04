@@ -367,14 +367,6 @@ final
 override
 ;
 virtual
-void
-OnReadMetadataCompleted
-(
-)
-final
-override
-;
-virtual
 MediaDecoderOwner
 *
 GetOwner
