@@ -490,7 +490,7 @@ shown
 *
 /
 public
-Menu
+GeckoMenu
 getMenu
 (
 )
