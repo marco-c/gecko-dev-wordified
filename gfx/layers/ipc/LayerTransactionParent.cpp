@@ -4760,7 +4760,7 @@ AsLayerComposite
 )
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 ;

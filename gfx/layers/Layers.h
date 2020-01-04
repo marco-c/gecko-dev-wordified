@@ -9567,7 +9567,7 @@ or
 for
 shadow
 layers
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 in

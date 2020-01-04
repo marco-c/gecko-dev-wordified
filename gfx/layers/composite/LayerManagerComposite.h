@@ -2757,7 +2757,7 @@ gfx
 :
 Matrix4x4
 &
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 {
