@@ -1127,8 +1127,6 @@ OutputParser
 (
 document
 cssProperties
-.
-supportsType
 )
 ;
 /
