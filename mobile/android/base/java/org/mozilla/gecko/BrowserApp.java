@@ -2480,7 +2480,7 @@ ContentNotificationsDelegate
 NonNull
 private
 SearchEngineManager
-searchEngineManager
+mSearchEngineManager
 ;
 /
 /
@@ -5021,7 +5021,7 @@ getName
 )
 )
 ;
-searchEngineManager
+mSearchEngineManager
 =
 new
 SearchEngineManager
@@ -7395,7 +7395,7 @@ onStart
 /
 onStop
 .
-searchEngineManager
+mSearchEngineManager
 .
 getEngine
 (
@@ -8995,7 +8995,7 @@ destroy
 )
 ;
 }
-searchEngineManager
+mSearchEngineManager
 .
 unregisterListeners
 (
