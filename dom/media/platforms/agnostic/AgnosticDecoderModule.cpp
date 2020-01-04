@@ -396,7 +396,6 @@ aConfig
 GetAsAudioInfo
 (
 )
-aAudioTaskQueue
 aCallback
 )
 ;
