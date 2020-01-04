@@ -809,6 +809,11 @@ RegExpTester
 \
 _
 (
+RegExpPrototypeOptimizable
+)
+\
+_
+(
 RegExpReplace
 )
 \
