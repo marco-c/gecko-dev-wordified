@@ -3714,7 +3714,7 @@ savedInstanceState
 if
 (
 !
-isSupportedSDK
+isSupportedSystem
 (
 )
 )
@@ -8010,7 +8010,7 @@ onDestroy
 if
 (
 !
-isSupportedSDK
+isSupportedSystem
 (
 )
 )
