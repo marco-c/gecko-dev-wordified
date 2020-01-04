@@ -336,16 +336,6 @@ mozilla
 :
 CSSStyleSheet
 *
-FullScreenOverrideSheet
-(
-)
-;
-static
-mozilla
-:
-:
-CSSStyleSheet
-*
 SVGSheet
 (
 )
@@ -494,7 +484,7 @@ const
 char
 *
 aURL
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -514,7 +504,7 @@ LoadSheetFile
 nsIFile
 *
 aFile
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -532,7 +522,7 @@ LoadSheet
 nsIURI
 *
 aURI
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -549,7 +539,7 @@ static
 void
 InvalidateSheet
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -576,7 +566,7 @@ aData
 void
 BuildPreferenceSheet
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -645,7 +635,7 @@ Loader
 *
 gCSSLoader
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -654,7 +644,7 @@ CSSStyleSheet
 >
 mChromePreferenceSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -663,7 +653,7 @@ CSSStyleSheet
 >
 mContentEditableSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -672,7 +662,7 @@ CSSStyleSheet
 >
 mContentPreferenceSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -681,7 +671,7 @@ CSSStyleSheet
 >
 mCounterStylesSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -690,7 +680,7 @@ CSSStyleSheet
 >
 mDesignModeSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -699,16 +689,7 @@ CSSStyleSheet
 >
 mFormsSheet
 ;
-RefPtr
-<
-mozilla
-:
-:
-CSSStyleSheet
->
-mFullScreenOverrideSheet
-;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -717,7 +698,7 @@ CSSStyleSheet
 >
 mHTMLSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -726,7 +707,7 @@ CSSStyleSheet
 >
 mMathMLSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -735,7 +716,7 @@ CSSStyleSheet
 >
 mMinimalXULSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -744,7 +725,7 @@ CSSStyleSheet
 >
 mNoFramesSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -753,7 +734,7 @@ CSSStyleSheet
 >
 mNoScriptSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -762,7 +743,7 @@ CSSStyleSheet
 >
 mNumberControlSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -771,7 +752,7 @@ CSSStyleSheet
 >
 mQuirkSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -780,7 +761,7 @@ CSSStyleSheet
 >
 mSVGSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -789,7 +770,7 @@ CSSStyleSheet
 >
 mScrollbarsSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -798,7 +779,7 @@ CSSStyleSheet
 >
 mUASheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -807,7 +788,7 @@ CSSStyleSheet
 >
 mUserChromeSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -816,7 +797,7 @@ CSSStyleSheet
 >
 mUserContentSheet
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
