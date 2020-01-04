@@ -607,16 +607,6 @@ merge_locales
 True
     
 "
-make_dirs
-"
-:
-[
-'
-config
-'
-]
-    
-"
 mozilla_dir
 "
 :
