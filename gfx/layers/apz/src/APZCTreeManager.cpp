@@ -5564,6 +5564,9 @@ if
 (
 !
 apzc
+&
+&
+mRootNode
 )
 {
 apzc
