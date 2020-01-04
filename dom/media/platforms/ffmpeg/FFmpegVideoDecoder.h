@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegH264Decoder_h__
+__FFmpegVideoDecoder_h__
 #
 define
-__FFmpegH264Decoder_h__
+__FFmpegVideoDecoder_h__
 #
 include
 "
@@ -150,7 +150,7 @@ int
 V
 >
 class
-FFmpegH264Decoder
+FFmpegVideoDecoder
 :
 public
 FFmpegDataDecoder
@@ -164,7 +164,7 @@ template
 <
 >
 class
-FFmpegH264Decoder
+FFmpegVideoDecoder
 <
 LIBAV_VER
 >
@@ -205,7 +205,7 @@ DECODE_ERROR
 ;
 public
 :
-FFmpegH264Decoder
+FFmpegVideoDecoder
 (
 FlushableTaskQueue
 *
@@ -224,7 +224,7 @@ aImageContainer
 ;
 virtual
 ~
-FFmpegH264Decoder
+FFmpegVideoDecoder
 (
 )
 ;
@@ -687,4 +687,4 @@ mozilla
 endif
 /
 /
-__FFmpegH264Decoder_h__
+__FFmpegVideoDecoder_h__
