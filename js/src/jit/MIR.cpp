@@ -40854,6 +40854,16 @@ TemporaryTypeSet
 (
 )
 ;
+if
+(
+!
+types
+)
+{
+return
+false
+;
+}
 types
 -
 >
