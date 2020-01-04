@@ -1290,13 +1290,13 @@ orientation
 )
 ;
 }
-IntRect
+LayoutDeviceIntRect
 targetBounds
 =
 mWidget
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
 (
 )
 ;
@@ -1316,6 +1316,10 @@ mForwarder
 BeginTransaction
 (
 targetBounds
+.
+ToUnknownRect
+(
+)
 mTargetRotation
 orientation
 )
