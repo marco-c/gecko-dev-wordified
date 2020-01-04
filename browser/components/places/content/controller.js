@@ -11063,6 +11063,8 @@ TYPE_X_MOZ_URL
 }
 else
 throw
+new
+Error
 (
 "
 bogus
@@ -11074,6 +11076,7 @@ a
 tab
 "
 )
+;
 let
 index
 =

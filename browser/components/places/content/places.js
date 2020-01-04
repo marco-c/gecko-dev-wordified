@@ -8811,6 +8811,8 @@ columnId
 )
 )
 throw
+new
+Error
 (
 "
 Invalid
