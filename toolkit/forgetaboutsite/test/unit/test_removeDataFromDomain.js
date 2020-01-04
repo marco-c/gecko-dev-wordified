@@ -732,8 +732,6 @@ false
 false
 false
 COOKIE_EXPIRY
-{
-}
 )
 ;
 check_cookie_exists

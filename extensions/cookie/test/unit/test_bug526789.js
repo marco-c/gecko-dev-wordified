@@ -165,8 +165,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -435,8 +433,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -647,8 +643,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -767,8 +761,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -865,8 +857,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -1230,8 +1220,6 @@ getCookiesFromHost
 (
 "
 "
-{
-}
 )
 ;
 do_check_false
@@ -1256,8 +1244,6 @@ getCookiesFromHost
 "
 .
 "
-{
-}
 )
 ;
 }
@@ -1280,8 +1266,6 @@ getCookiesFromHost
 .
 .
 "
-{
-}
 )
 ;
 }
@@ -1301,8 +1285,6 @@ baz
 .
 com
 "
-{
-}
 )
 ;
 do_check_true
@@ -1352,8 +1334,6 @@ getCookiesFromHost
 (
 "
 "
-{
-}
 )
 ;
 do_check_false
@@ -1378,8 +1358,6 @@ getCookiesFromHost
 "
 .
 "
-{
-}
 )
 ;
 }
@@ -1402,8 +1380,6 @@ getCookiesFromHost
 .
 .
 "
-{
-}
 )
 ;
 }
@@ -1678,8 +1654,6 @@ baz
 .
 com
 "
-{
-}
 )
 ;
 do_check_false
@@ -1699,8 +1673,6 @@ getCookiesFromHost
 (
 "
 "
-{
-}
 )
 ;
 do_check_true
@@ -1755,8 +1727,6 @@ getCookiesFromHost
 "
 .
 "
-{
-}
 )
 ;
 }
@@ -1818,8 +1788,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 do_check_eq
@@ -1856,8 +1824,6 @@ false
 false
 true
 expiry
-{
-}
 )
 ;
 }
@@ -2308,8 +2274,6 @@ cm
 getCookiesFromHost
 (
 domain
-{
-}
 )
 ;
 do_check_true
@@ -2373,8 +2337,6 @@ cm
 getCookiesFromHost
 (
 domain
-{
-}
 )
 ;
 do_check_true

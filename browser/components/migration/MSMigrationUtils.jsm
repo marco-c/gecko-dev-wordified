@@ -4373,8 +4373,6 @@ false
 /
 session
 expireTime
-{
-}
 )
 ;
 }

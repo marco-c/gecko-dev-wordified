@@ -1231,8 +1231,6 @@ isSession
 cookie
 .
 expiry
-{
-}
 )
 ;
 /
@@ -1487,8 +1485,6 @@ getCookiesFromHost
 cookie
 .
 host
-{
-}
 )
 ;
 do_check_true
