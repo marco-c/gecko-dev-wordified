@@ -1122,7 +1122,7 @@ param
 {
 string
 }
-bin
+command
 *
 The
 name
