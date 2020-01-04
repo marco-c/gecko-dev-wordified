@@ -455,12 +455,8 @@ GetPlatform
 )
 -
 >
-GetContentBackendFor
+GetContentBackend
 (
-LayersBackend
-:
-:
-LAYERS_BASIC
 )
 )
 ;
