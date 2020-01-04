@@ -5969,6 +5969,15 @@ Shmem
 aShmem
 )
 {
+if
+(
+!
+mCanSend
+)
+{
+return
+;
+}
 PCompositorBridgeChild
 :
 :
