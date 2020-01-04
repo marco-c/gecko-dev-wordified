@@ -1056,7 +1056,7 @@ sampleRate
 /
 2
 ;
-nsAutoTArray
+AutoTArray
 <
 AudioDataValue
 2
@@ -1280,7 +1280,7 @@ resampler
 #
 ifdef
 MOZ_SAMPLE_TYPE_S16
-nsAutoTArray
+AutoTArray
 <
 float
 2

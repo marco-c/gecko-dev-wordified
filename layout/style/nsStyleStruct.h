@@ -4118,7 +4118,7 @@ are
 /
 present
 .
-nsAutoTArray
+AutoTArray
 <
 Layer
 1
@@ -15075,7 +15075,7 @@ a
 stacking
 context
 .
-nsAutoTArray
+AutoTArray
 <
 nsString
 1
@@ -15289,7 +15289,7 @@ reset
 percent
 coord
 calc
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :
@@ -15334,7 +15334,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :
@@ -18035,14 +18035,6 @@ mIMEMode
 reset
 ]
 uint8_t
-mWindowDragging
-;
-/
-/
-[
-reset
-]
-uint8_t
 mWindowShadow
 ;
 /
@@ -18383,6 +18375,14 @@ auto
 -
 select
 )
+uint8_t
+mWindowDragging
+;
+/
+/
+[
+inherited
+]
 uint8_t
 mCursor
 ;

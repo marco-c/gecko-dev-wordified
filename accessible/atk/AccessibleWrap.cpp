@@ -3818,7 +3818,7 @@ proxy
 return
 nullptr
 ;
-nsAutoTArray
+AutoTArray
 <
 Attribute
 10
@@ -5271,7 +5271,7 @@ Length
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 AtkObject
 *
@@ -8764,7 +8764,7 @@ return
 nullptr
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -8930,7 +8930,7 @@ return
 nullptr
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

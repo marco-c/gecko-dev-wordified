@@ -5405,7 +5405,7 @@ ErrorResult
 aRv
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

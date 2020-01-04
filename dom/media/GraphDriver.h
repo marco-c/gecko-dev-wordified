@@ -3706,7 +3706,7 @@ held
 .
 *
 /
-nsAutoTArray
+AutoTArray
 <
 StreamAndPromiseForOperation
 1

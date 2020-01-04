@@ -5191,7 +5191,7 @@ one
 -
 glyphrun
 case
-nsAutoTArray
+AutoTArray
 <
 GlyphRun
 1

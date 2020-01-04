@@ -369,7 +369,7 @@ this
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Attribute
 10

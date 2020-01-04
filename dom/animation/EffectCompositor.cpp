@@ -3426,7 +3426,7 @@ nsCSSPropertySet
 aPropertiesOverridden
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCSSProperty
 LayerAnimationInfo

@@ -939,7 +939,7 @@ nsITimer
 >
 mAnimatedContentTimer
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

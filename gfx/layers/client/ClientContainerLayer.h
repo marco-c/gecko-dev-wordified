@@ -188,7 +188,7 @@ h
 /
 /
 for
-nsAutoTArray
+AutoTArray
 #
 include
 "
@@ -299,7 +299,7 @@ DefaultComputeSupportsComponentAlphaChildren
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 Layer
 *

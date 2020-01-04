@@ -659,7 +659,7 @@ Auto
 part
 of
 our
-nsAutoTArray
+AutoTArray
 won
 '
 t
@@ -812,7 +812,7 @@ EXPIRE_NEVER
 }
 private
 :
-nsAutoTArray
+AutoTArray
 <
 PermissionEntry
 1

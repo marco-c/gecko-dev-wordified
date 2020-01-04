@@ -695,7 +695,7 @@ Truncate
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCounterNode
 *

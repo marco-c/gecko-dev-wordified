@@ -9057,7 +9057,7 @@ mVTableIndex
 HandleId
 mIdxValueId
 ;
-nsAutoTArray
+AutoTArray
 <
 nsXPTCVariant
 8

@@ -1194,7 +1194,7 @@ for
 two
 rows
 .
-nsAutoTArray
+AutoTArray
 <
 int
 nsAutoString
@@ -1204,7 +1204,7 @@ kDefaultStorageSize
 >
 row1
 ;
-nsAutoTArray
+AutoTArray
 <
 int
 nsAutoString

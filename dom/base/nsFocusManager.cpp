@@ -8718,7 +8718,7 @@ dsti2
 nullptr
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIDocShellTreeItem
 *

@@ -765,7 +765,7 @@ array
 ;
 }
 {
-nsAutoTArray
+AutoTArray
 <
 ElementT
 InitialElements

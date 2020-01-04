@@ -220,7 +220,7 @@ size_t
 N
 >
 class
-nsAutoTArray
+AutoTArray
 ;
 template
 <
@@ -239,6 +239,6 @@ nsTArray
 #
 define
 AutoInfallibleTArray
-nsAutoTArray
+AutoTArray
 #
 endif

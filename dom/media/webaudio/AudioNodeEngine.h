@@ -775,7 +775,7 @@ aMallocSizeOf
 }
 private
 :
-nsAutoTArray
+AutoTArray
 <
 Storage
 2
@@ -1415,7 +1415,7 @@ AudioNodeStream
 OutputChunks
 .
 typedef
-nsAutoTArray
+AutoTArray
 <
 AudioBlock
 1

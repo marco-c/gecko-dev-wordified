@@ -848,14 +848,14 @@ aFilter
 ;
 private
 :
-nsAutoTArray
+AutoTArray
 <
 COMDLG_FILTERSPEC
 1
 >
 mSpecList
 ;
-nsAutoTArray
+AutoTArray
 <
 nsString
 2

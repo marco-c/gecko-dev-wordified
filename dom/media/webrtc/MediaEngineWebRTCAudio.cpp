@@ -3606,7 +3606,7 @@ AudioSegment
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 sample

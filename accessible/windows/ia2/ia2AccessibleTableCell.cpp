@@ -537,7 +537,7 @@ mTableCell
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -816,7 +816,7 @@ mTableCell
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

@@ -975,7 +975,7 @@ RemoveElementAt
 }
 private
 :
-nsAutoTArray
+AutoTArray
 <
 Chunk
 7
@@ -1908,7 +1908,7 @@ format
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 1024
@@ -3789,7 +3789,7 @@ if
 downmixing
 fails
 .
-nsAutoTArray
+AutoTArray
 <
 AudioDataValue
 1000

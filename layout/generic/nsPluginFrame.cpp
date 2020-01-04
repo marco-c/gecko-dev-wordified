@@ -1728,7 +1728,7 @@ a
 reasonable
 guess
 .
-nsAutoTArray
+AutoTArray
 <
 nsIWidget
 :

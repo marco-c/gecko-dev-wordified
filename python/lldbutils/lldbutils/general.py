@@ -1014,7 +1014,7 @@ add
 x
 \
 "
-nsAutoTArray
+AutoTArray
 <
 \
 "

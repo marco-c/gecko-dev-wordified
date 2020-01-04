@@ -2135,7 +2135,7 @@ to
 get
 it
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -2876,7 +2876,7 @@ nullptr
 ogg_page
 page
 ;
-nsAutoTArray
+AutoTArray
 <
 OggCodecState
 *
@@ -8592,7 +8592,7 @@ it
 to
 seek
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -10086,7 +10086,7 @@ cached
 data
 first
 .
-nsAutoTArray
+AutoTArray
 <
 SeekRange
 16

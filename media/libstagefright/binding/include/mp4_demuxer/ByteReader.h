@@ -190,7 +190,7 @@ explicit
 ByteReader
 (
 const
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 S

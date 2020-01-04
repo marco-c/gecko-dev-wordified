@@ -9793,7 +9793,7 @@ Length
 int32_t
 index
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCSSProperty
 16

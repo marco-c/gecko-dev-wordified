@@ -4792,7 +4792,7 @@ aStream
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 bool
 2
@@ -6063,7 +6063,7 @@ in
 this
 iteration
 .
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :
@@ -6561,7 +6561,7 @@ GetImage
 )
 return
 ;
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :
@@ -6622,7 +6622,7 @@ still
 be
 valid
 .
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :

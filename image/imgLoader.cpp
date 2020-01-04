@@ -7716,7 +7716,7 @@ MOZ_ASSERT
 aDoc
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

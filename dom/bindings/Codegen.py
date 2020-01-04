@@ -34261,7 +34261,7 @@ case
 resizing
 the
 outermost
-nsAutoTarray
+AutoTArray
 to
 the
 right
@@ -34273,7 +34273,7 @@ memmove
 its
 elements
 but
-nsAutoTArrays
+AutoTArrays
 are
 not
 memmovable
@@ -66385,7 +66385,7 @@ dedent
 "
 "
             
-nsAutoTArray
+AutoTArray
 <
 nsString
 8
@@ -82979,7 +82979,7 @@ dedent
 "
 "
             
-nsAutoTArray
+AutoTArray
 <
 nsString
 8

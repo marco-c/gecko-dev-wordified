@@ -304,7 +304,7 @@ h
 /
 /
 for
-nsAutoTArray
+AutoTArray
 nsTArray_Impl
 #
 include
@@ -2502,7 +2502,7 @@ list
 of
 children
 :
-nsAutoTArray
+AutoTArray
 <
 UniquePtr
 <

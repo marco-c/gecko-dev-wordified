@@ -2083,7 +2083,7 @@ metrics
 :
 use
 DetailedGlyph
-nsAutoTArray
+AutoTArray
 <
 gfxShapedText
 :

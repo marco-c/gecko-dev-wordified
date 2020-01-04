@@ -1167,7 +1167,7 @@ all
 the
 later
 siblings
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -2043,7 +2043,7 @@ heap
 -
 allocation
 .
-nsAutoTArray
+AutoTArray
 <
 RestyleEnumerateData
 RESTYLE_ARRAY_STACKSIZE

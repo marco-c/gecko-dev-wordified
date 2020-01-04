@@ -610,7 +610,7 @@ scale
 =
 1
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 float
@@ -654,7 +654,7 @@ i
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 float
 1024

@@ -1019,7 +1019,7 @@ nsGenericHTMLElement
 >
 mHead
 ;
-nsAutoTArray
+AutoTArray
 <
 SinkContext
 *

@@ -2639,7 +2639,7 @@ BringSelfUpToDate
 true
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIAtom
 *

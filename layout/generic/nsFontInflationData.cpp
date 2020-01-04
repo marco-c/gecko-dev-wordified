@@ -638,7 +638,7 @@ FirstInFlow
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -1580,7 +1580,7 @@ FIXME
 :
 aDirection
 !
-nsAutoTArray
+AutoTArray
 <
 FrameChildList
 4

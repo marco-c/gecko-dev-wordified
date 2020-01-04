@@ -582,7 +582,7 @@ AcquisitionState
 #
 else
 typedef
-nsAutoTArray
+AutoTArray
 <
 void
 *

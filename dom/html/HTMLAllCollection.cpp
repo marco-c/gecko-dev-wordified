@@ -858,7 +858,7 @@ the
 name
 case
 .
-nsAutoTArray
+AutoTArray
 <
 nsIAtom
 *

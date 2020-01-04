@@ -292,7 +292,7 @@ avoid
 the
 memory
 allocations
-nsAutoTArray
+AutoTArray
 <
 ScreenListItem
 8

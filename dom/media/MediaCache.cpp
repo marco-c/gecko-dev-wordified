@@ -5396,7 +5396,7 @@ the
 linked
 lists
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 8
@@ -7167,7 +7167,7 @@ and
 element
 code
 .
-nsAutoTArray
+AutoTArray
 <
 StreamAction
 10

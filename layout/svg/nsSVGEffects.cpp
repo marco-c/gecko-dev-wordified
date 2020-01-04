@@ -3864,7 +3864,7 @@ Count
 )
 return
 ;
-nsAutoTArray
+AutoTArray
 <
 nsSVGRenderingObserver
 *
@@ -3973,7 +3973,7 @@ Count
 )
 return
 ;
-nsAutoTArray
+AutoTArray
 <
 nsSVGRenderingObserver
 *
@@ -4086,7 +4086,7 @@ RemoveAll
 (
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsSVGRenderingObserver
 *

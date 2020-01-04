@@ -2269,7 +2269,7 @@ we
 could
 use
 an
-nsAutoTArray
+AutoTArray
 <
 >
 to
@@ -2310,7 +2310,7 @@ often
 if
 this
 happens
-nsAutoTArray
+AutoTArray
 <
 >
 /
@@ -2569,7 +2569,7 @@ nullptr
 nullptr
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxShapedText
 :

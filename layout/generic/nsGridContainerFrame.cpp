@@ -6580,7 +6580,7 @@ n
 }
 #
 endif
-nsAutoTArray
+AutoTArray
 <
 TrackSize
 32
@@ -18096,7 +18096,7 @@ up
 FindUsedFlexFraction
 later
 .
-nsAutoTArray
+AutoTArray
 <
 TrackSize
 :

@@ -1489,7 +1489,7 @@ T
 ElemType
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 ElemType
 4

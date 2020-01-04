@@ -14517,7 +14517,7 @@ stdout
 }
 #
 endif
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -14870,7 +14870,7 @@ why
 it
 differs
 .
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -25606,7 +25606,7 @@ ReconstructStyleDataInternal
 (
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -35260,7 +35260,7 @@ false
 nsDisplayList
 list
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -40722,7 +40722,7 @@ an
 after
 event
 .
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -40914,7 +40914,7 @@ a
 before
 event
 .
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

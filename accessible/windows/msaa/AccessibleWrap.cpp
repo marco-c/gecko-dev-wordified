@@ -4520,7 +4520,7 @@ IsSelect
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

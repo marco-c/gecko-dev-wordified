@@ -3142,7 +3142,7 @@ in
 the
 resulting
 string
-nsAutoTArray
+AutoTArray
 <
 const
 nsCSSSelector

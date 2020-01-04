@@ -52030,7 +52030,7 @@ we
 would
 have
 built
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -52125,7 +52125,7 @@ true
 ;
 }
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *

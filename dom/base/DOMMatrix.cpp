@@ -1706,7 +1706,7 @@ aRv
 )
 const
 {
-nsAutoTArray
+AutoTArray
 <
 float
 16
@@ -1810,7 +1810,7 @@ aRv
 )
 const
 {
-nsAutoTArray
+AutoTArray
 <
 double
 16

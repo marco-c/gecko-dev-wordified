@@ -11694,7 +11694,7 @@ URI
 are
 rare
 .
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

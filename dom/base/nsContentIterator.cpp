@@ -1123,7 +1123,7 @@ nsContentIterator
 to
 cache
 indices
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
@@ -6799,7 +6799,7 @@ or
 common
 parent
 !
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -6807,7 +6807,7 @@ nsINode
 >
 oldParentStack
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
@@ -8056,7 +8056,7 @@ used
 and
 have
 elements
-nsAutoTArray
+AutoTArray
 <
 nsIContent
 *
@@ -8064,7 +8064,7 @@ nsIContent
 >
 mEndNodes
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
