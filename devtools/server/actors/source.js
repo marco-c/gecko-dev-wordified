@@ -4323,9 +4323,14 @@ paused
 )
 {
 throw
-new
-Error
-(
+{
+error
+:
+"
+wrongState
+"
+message
+:
 "
 Cannot
 set
@@ -4336,7 +4341,7 @@ is
 running
 .
 "
-)
+}
 ;
 }
 let
