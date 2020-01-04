@@ -1927,6 +1927,10 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
+=
+MiniDumpNormal
 )
 ;
 /
@@ -2007,6 +2011,10 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
+=
+MiniDumpNormal
 )
 ;
 /
