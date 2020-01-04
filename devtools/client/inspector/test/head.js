@@ -3823,9 +3823,6 @@ finalize
 )
 ;
 }
-testActor
-:
-testActor
 }
 ;
 }
