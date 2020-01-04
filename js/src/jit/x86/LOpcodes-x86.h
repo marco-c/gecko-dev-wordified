@@ -178,6 +178,11 @@ _
 (
 WasmTruncateToInt64
 )
+\
+_
+(
+Int64ToFloatingPoint
+)
 #
 endif
 /
