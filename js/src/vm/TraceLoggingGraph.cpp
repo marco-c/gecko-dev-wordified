@@ -188,6 +188,15 @@ h
 #
 include
 "
+threading
+/
+Thread
+.
+h
+"
+#
+include
+"
 vm
 /
 TraceLogging
@@ -1066,6 +1075,9 @@ threadName
 16
 ]
 ;
+js
+:
+:
 ThisThread
 :
 :
