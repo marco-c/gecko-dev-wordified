@@ -14022,7 +14022,7 @@ IsTopLevelWidget
 )
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 clientOffset
 =
 pWidget
@@ -14135,7 +14135,7 @@ TopLeft
 (
 )
 +
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 )
@@ -14480,7 +14480,7 @@ nsIntPoint
 nsWindow
 :
 :
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 {

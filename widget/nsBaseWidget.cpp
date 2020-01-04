@@ -9217,7 +9217,7 @@ double
 aY
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 clientOffset
 (
 GetClientOffset
@@ -9586,7 +9586,7 @@ height
 scale
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 clientOffset
 (
 GetClientOffset
@@ -9938,7 +9938,7 @@ nsIntPoint
 nsBaseWidget
 :
 :
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 {

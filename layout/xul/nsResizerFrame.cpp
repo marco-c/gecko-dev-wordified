@@ -1749,7 +1749,7 @@ into
 outer
 window
 coordinates
-nsIntPoint
+LayoutDeviceIntPoint
 clientOffset
 =
 widget
