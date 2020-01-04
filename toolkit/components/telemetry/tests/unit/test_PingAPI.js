@@ -610,8 +610,11 @@ archivedPings
 }
 )
 ;
+add_task
+(
 function
-run_test
+*
+test_setup
 (
 )
 {
@@ -636,6 +639,7 @@ to
 pref
 changes
 .
+yield
 setEmptyPrefWatchlist
 (
 )
@@ -650,11 +654,9 @@ PREF_TELEMETRY_ENABLED
 true
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 function

@@ -506,8 +506,11 @@ aNewPolicyVersion
 )
 ;
 }
+add_task
+(
 function
-run_test
+*
+test_setup
 (
 )
 {
@@ -565,6 +568,7 @@ to
 pref
 changes
 .
+yield
 setEmptyPrefWatchlist
 (
 )
@@ -612,11 +616,9 @@ setup
 (
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 function

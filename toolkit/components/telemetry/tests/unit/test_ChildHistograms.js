@@ -678,6 +678,7 @@ to
 pref
 changes
 .
+yield
 setEmptyPrefWatchlist
 (
 )
