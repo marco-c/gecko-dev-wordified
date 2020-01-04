@@ -246,7 +246,7 @@ void
 SharedSurface_IOSurface
 :
 :
-Fence
+ProducerReleaseImpl
 (
 )
 {
