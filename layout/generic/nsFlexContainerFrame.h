@@ -643,10 +643,13 @@ for
 space
 -
 between
-and
 space
 -
 around
+and
+space
+-
+evenly
 .
 *
 *
