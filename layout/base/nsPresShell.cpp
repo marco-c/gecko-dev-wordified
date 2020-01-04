@@ -36410,7 +36410,6 @@ print
 print
 preview
 chrome
-xul
 and
 /
 /
@@ -36467,14 +36466,6 @@ mDocument
 -
 >
 IsResourceDoc
-(
-)
-|
-|
-mDocument
--
->
-IsXULDocument
 (
 )
 )
