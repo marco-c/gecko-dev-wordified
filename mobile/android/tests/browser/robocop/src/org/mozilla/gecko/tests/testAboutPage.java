@@ -151,7 +151,7 @@ loadAndPaint
 url
 )
 ;
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 url
 )
@@ -200,7 +200,7 @@ have
 been
 set
 .
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 url
 )
@@ -308,7 +308,7 @@ page
 was
 loaded
 .
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 mStringHelper
 .

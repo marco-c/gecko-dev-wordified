@@ -194,7 +194,7 @@ loadAndPaint
 PICTURE_PAGE_URL
 )
 ;
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 PICTURE_PAGE_URL
 )
