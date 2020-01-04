@@ -205,7 +205,7 @@ override
 {
 RefPtr
 <
-DOMLocalMediaStream
+DOMMediaStream
 >
 stream
 =
