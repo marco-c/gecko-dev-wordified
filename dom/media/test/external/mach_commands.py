@@ -264,7 +264,10 @@ FirefoxMediaHarness
                     
 args
 =
+vars
+(
 args
+)
 )
     
 if

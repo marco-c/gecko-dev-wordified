@@ -364,7 +364,10 @@ logger
 logger
         
 return
+vars
+(
 args
+)
     
 def
 process_args
@@ -378,7 +381,12 @@ self
 .
 args
 .
+get
+(
+'
 pydebugger
+'
+)
 :
             
 MarionetteTestCase
@@ -390,8 +398,11 @@ __import__
 self
 .
 args
-.
+[
+'
 pydebugger
+'
+]
 )
     
 def
@@ -410,18 +421,11 @@ process_args
 (
 )
             
-args_dict
+tests
 =
-vars
-(
 self
 .
 args
-)
-            
-tests
-=
-args_dict
 .
 pop
 (
@@ -438,7 +442,9 @@ _runner_class
 (
 *
 *
-args_dict
+self
+.
+args
 )
             
 runner
@@ -457,10 +463,23 @@ except
 Exception
 :
             
+logger
+=
 self
 .
 args
 .
+get
+(
+'
+logger
+'
+)
+            
+if
+logger
+:
+                
 logger
 .
 error
@@ -472,7 +491,7 @@ test
 execution
 .
 '
-                                   
+                                       
 exc_info
 =
 True
