@@ -16975,12 +16975,7 @@ arr
 ensureDenseElements
 (
 cx
-arr
--
->
-length
-(
-)
+len
 itemCount
 -
 actualDeleteCount
