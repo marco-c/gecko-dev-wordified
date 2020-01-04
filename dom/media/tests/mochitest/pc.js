@@ -2090,7 +2090,7 @@ this
 originalAnswer
 =
 new
-mozRTCSessionDescription
+RTCSessionDescription
 (
 JSON
 .
@@ -2196,7 +2196,7 @@ this
 originalOffer
 =
 new
-mozRTCSessionDescription
+RTCSessionDescription
 (
 JSON
 .
@@ -2260,7 +2260,7 @@ on
 *
 param
 {
-mozRTCSessionDescription
+RTCSessionDescription
 }
 desc
 *
@@ -2687,7 +2687,7 @@ on
 *
 param
 {
-mozRTCSessionDescription
+RTCSessionDescription
 }
 desc
 *
@@ -4714,7 +4714,7 @@ this
 _pc
 =
 new
-mozRTCPeerConnection
+RTCPeerConnection
 (
 this
 .
@@ -6307,7 +6307,7 @@ object
 }
 desc
 *
-mozRTCSessionDescription
+RTCSessionDescription
 for
 the
 local
@@ -6398,7 +6398,7 @@ object
 }
 desc
 *
-mozRTCSessionDescription
+RTCSessionDescription
 for
 the
 local
@@ -6500,7 +6500,7 @@ object
 }
 desc
 *
-mozRTCSessionDescription
+RTCSessionDescription
 for
 the
 remote
@@ -6629,7 +6629,7 @@ object
 }
 desc
 *
-mozRTCSessionDescription
+RTCSessionDescription
 for
 the
 remote
@@ -7414,7 +7414,7 @@ object
 candidate
 *
 The
-mozRTCIceCandidate
+RTCIceCandidate
 to
 be
 added

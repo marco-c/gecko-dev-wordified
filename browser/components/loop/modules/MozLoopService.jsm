@@ -7078,7 +7078,7 @@ pc_static
 new
 window
 .
-mozRTCPeerConnectionStatic
+RTCPeerConnectionStatic
 (
 )
 ;
