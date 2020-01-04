@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsITCPPresentationServer
+nsIPresentationControlService
 .
 h
 "
@@ -262,7 +262,7 @@ nsIObserver
 public
 nsIPresentationDeviceProvider
 public
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 public
 SupportsWeakPtr
 <
@@ -500,7 +500,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIPRESENTATIONDEVICEPROVIDER
-NS_DECL_NSITCPPRESENTATIONSERVERLISTENER
+NS_DECL_NSIPRESENTATIONCONTROLSERVERLISTENER
 /
 /
 For
@@ -622,9 +622,9 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITCPPresentationServer
+nsIPresentationControlService
 >
-mPresentationServer
+mPresentationService
 ;
 /
 /

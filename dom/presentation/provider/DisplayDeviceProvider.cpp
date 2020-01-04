@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsITCPPresentationServer
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h
@@ -304,12 +297,12 @@ DisplayDeviceProviderWrappedListener
 final
 :
 public
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_FORWARD_SAFE_NSITCPPRESENTATIONSERVERLISTENER
+NS_FORWARD_SAFE_NSIPRESENTATIONCONTROLSERVERLISTENER
 (
 mListener
 )
@@ -357,7 +350,7 @@ nullptr
 NS_IMPL_ISUPPORTS
 (
 DisplayDeviceProviderWrappedListener
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 )
 NS_IMPL_ISUPPORTS
 (
@@ -858,7 +851,7 @@ NS_IMPL_ISUPPORTS
 DisplayDeviceProvider
 nsIObserver
 nsIPresentationDeviceProvider
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 )
 DisplayDeviceProvider
 :
@@ -973,11 +966,11 @@ return
 rv
 ;
 }
-mPresentationServer
+mPresentationService
 =
 do_CreateInstance
 (
-TCP_PRESENTATION_SERVER_CONTACT_ID
+PRESENTATION_CONTROL_SERVICE_CONTACT_ID
 &
 rv
 )
@@ -1136,7 +1129,7 @@ rv
 ;
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 SetId
@@ -1169,7 +1162,7 @@ servicePort
 ;
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 GetPort
@@ -1229,7 +1222,7 @@ servicePort
 {
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 SetListener
@@ -1254,10 +1247,10 @@ rv
 }
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
-StartService
+StartServer
 (
 0
 )
@@ -1279,7 +1272,7 @@ rv
 }
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 GetPort
@@ -1605,7 +1598,7 @@ NS_OK
 }
 /
 /
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 NS_IMETHODIMP
 DisplayDeviceProvider
 :
@@ -1919,7 +1912,7 @@ aDevice
 ;
 MOZ_ASSERT
 (
-mPresentationServer
+mPresentationService
 )
 ;
 NS_ENSURE_ARG_POINTER
@@ -1957,7 +1950,7 @@ mPort
 )
 ;
 return
-mPresentationServer
+mPresentationService
 -
 >
 RequestSession

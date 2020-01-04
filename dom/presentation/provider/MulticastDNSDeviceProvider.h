@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsITCPPresentationServer
+nsIPresentationControlService
 .
 h
 "
@@ -213,7 +213,7 @@ nsIDNSRegistrationListener
 public
 nsIDNSServiceResolveListener
 public
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 public
 nsIObserver
 {
@@ -224,7 +224,7 @@ NS_DECL_NSIPRESENTATIONDEVICEPROVIDER
 NS_DECL_NSIDNSSERVICEDISCOVERYLISTENER
 NS_DECL_NSIDNSREGISTRATIONLISTENER
 NS_DECL_NSIDNSSERVICERESOLVELISTENER
-NS_DECL_NSITCPPRESENTATIONSERVERLISTENER
+NS_DECL_NSIPRESENTATIONCONTROLSERVERLISTENER
 NS_DECL_NSIOBSERVER
 explicit
 MulticastDNSDeviceProvider
@@ -722,9 +722,9 @@ mDeviceListener
 ;
 nsCOMPtr
 <
-nsITCPPresentationServer
+nsIPresentationControlService
 >
-mPresentationServer
+mPresentationService
 ;
 nsCOMPtr
 <

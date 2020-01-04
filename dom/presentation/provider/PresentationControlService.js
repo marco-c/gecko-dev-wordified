@@ -168,7 +168,7 @@ dump
 -
 *
 -
-TCPPresentationServer
+PresentationControlService
 .
 js
 :
@@ -211,7 +211,7 @@ aId
 ;
 }
 function
-TCPPresentationServer
+PresentationControlService
 (
 )
 {
@@ -234,7 +234,7 @@ _serverSocket
 null
 ;
 }
-TCPPresentationServer
+PresentationControlService
 .
 prototype
 =
@@ -290,7 +290,7 @@ _controlChannels
 :
 [
 ]
-startService
+startServer
 :
 function
 (
@@ -312,7 +312,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 server
 socket
@@ -419,7 +419,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 create
 server
@@ -473,7 +473,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 init
 server
@@ -507,7 +507,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 service
 start
@@ -673,7 +673,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 Id
 has
@@ -695,7 +695,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 requestSession
 to
@@ -779,7 +779,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 createTransport
 throws
@@ -845,7 +845,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 should
 never
@@ -873,7 +873,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 responseSession
 to
@@ -930,7 +930,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 onSessionRequest
 :
@@ -993,7 +993,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 onSocketAccepted
 :
@@ -1120,7 +1120,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 onStopListening
 :
@@ -1142,7 +1142,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 close
 "
@@ -1163,7 +1163,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 close
 server
@@ -1245,7 +1245,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 observe
 :
@@ -1334,7 +1334,7 @@ offline
 {
 this
 .
-_restartService
+_restartServer
 (
 )
 ;
@@ -1380,7 +1380,7 @@ return
 }
 this
 .
-_restartService
+_restartServer
 (
 )
 ;
@@ -1389,7 +1389,7 @@ break
 }
 }
 }
-_restartService
+_restartServer
 :
 function
 (
@@ -1401,7 +1401,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 restart
 service
@@ -1439,7 +1439,7 @@ try
 {
 this
 .
-startService
+startServer
 (
 )
 ;
@@ -1483,7 +1483,7 @@ DEBUG
 log
 (
 "
-TCPPresentationServer
+PresentationControlService
 -
 restart
 service
@@ -1529,7 +1529,7 @@ Ci
 nsIServerSocketListener
 Ci
 .
-nsITCPPresentationServer
+nsIPresentationControlService
 Ci
 .
 nsIObserver
@@ -1908,7 +1908,7 @@ json
 function
 TCPControlChannel
 (
-presentationServer
+presentationService
 transport
 deviceInfo
 presentationId
@@ -1970,9 +1970,9 @@ url
 ;
 this
 .
-_presentationServer
+_presentationService
 =
-presentationServer
+presentationService
 ;
 let
 currentThread
@@ -2276,7 +2276,7 @@ id
 :
 this
 .
-_presentationServer
+_presentationService
 .
 id
 }
@@ -3250,7 +3250,7 @@ presentationId
 ;
 this
 .
-_presentationServer
+_presentationService
 .
 onSessionRequest
 (
@@ -4096,7 +4096,7 @@ close
 ;
 this
 .
-_presentationServer
+_presentationService
 .
 releaseControlChannel
 (
@@ -4157,7 +4157,7 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-TCPPresentationServer
+PresentationControlService
 ]
 )
 ;
