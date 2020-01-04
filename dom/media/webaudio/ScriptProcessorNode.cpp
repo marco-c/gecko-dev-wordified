@@ -1985,6 +1985,11 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+if
+(
+mInputBuffer
+)
+{
 amount
 +
 =
@@ -1996,6 +2001,7 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 return
 amount
 ;
