@@ -235,7 +235,12 @@ aDesc
 )
 ;
 NS_DECL_NSIRUNNABLE
-NS_DECL_NSICANCELABLERUNNABLE
+nsresult
+Cancel
+(
+)
+override
+;
 }
 ;
 }

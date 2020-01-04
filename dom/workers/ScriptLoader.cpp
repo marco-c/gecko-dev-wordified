@@ -1685,7 +1685,12 @@ aRunResult
 )
 override
 ;
-NS_DECL_NSICANCELABLERUNNABLE
+nsresult
+Cancel
+(
+)
+override
+;
 void
 ShutdownScriptLoader
 (
@@ -10032,7 +10037,7 @@ mutedError
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 ScriptExecutorRunnable
 :
 :

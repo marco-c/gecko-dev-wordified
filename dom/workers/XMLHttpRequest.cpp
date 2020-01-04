@@ -2389,7 +2389,7 @@ return
 true
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )

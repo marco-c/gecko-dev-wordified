@@ -3677,7 +3677,6 @@ any
 thread
 !
 }
-NS_DECL_ISUPPORTS_INHERITED
 protected
 :
 virtual
@@ -3688,7 +3687,12 @@ AlreadyCreatedCallbackRunnable
 {
 }
 NS_DECL_NSIRUNNABLE
-NS_DECL_NSICANCELABLERUNNABLE
+nsresult
+Cancel
+(
+)
+override
+;
 }
 ;
 class
@@ -9497,14 +9501,6 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ChildImpl
-:
-:
-AlreadyCreatedCallbackRunnable
-nsCancelableRunnable
-)
 NS_IMETHODIMP
 ChildImpl
 :
@@ -9671,7 +9667,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 ChildImpl
 :
 :
