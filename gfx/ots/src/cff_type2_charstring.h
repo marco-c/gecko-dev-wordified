@@ -333,9 +333,9 @@ subroutines
 bool
 ValidateType2CharStringIndex
 (
-Font
+OpenTypeFile
 *
-font
+file
 const
 CFFIndex
 &
