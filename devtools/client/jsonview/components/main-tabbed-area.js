@@ -335,6 +335,11 @@ onTabChanged
 TabPanel
 (
 {
+className
+:
+"
+json
+"
 title
 :
 Locale
@@ -380,6 +385,11 @@ searchFilter
 TabPanel
 (
 {
+className
+:
+"
+rawdata
+"
 title
 :
 Locale
@@ -418,6 +428,11 @@ actions
 TabPanel
 (
 {
+className
+:
+"
+headers
+"
 title
 :
 Locale

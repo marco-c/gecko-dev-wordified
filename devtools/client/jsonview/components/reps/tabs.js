@@ -762,6 +762,15 @@ props
 title
 ;
 var
+tabClassName
+=
+panel
+.
+props
+.
+className
+;
+var
 classes
 =
 [
@@ -772,6 +781,7 @@ menu
 -
 item
 "
+tabClassName
 this
 .
 state
