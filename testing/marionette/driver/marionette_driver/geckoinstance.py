@@ -1803,16 +1803,6 @@ False
 '
 extensions
 .
-logging
-.
-enabled
-'
-:
-True
-        
-'
-extensions
-.
 showMismatchUI
 '
 :
