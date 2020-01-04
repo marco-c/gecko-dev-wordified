@@ -952,6 +952,14 @@ if
 mCurrentTask
 &
 &
+!
+mSpeechQueue
+.
+IsEmpty
+(
+)
+&
+&
 mSpeechQueue
 .
 ElementAt
