@@ -343,6 +343,9 @@ public
 :
 GenerateRTCCertificateTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
@@ -361,6 +364,7 @@ aKeyUsages
 :
 GenerateAsymmetricKeyTask
 (
+aGlobal
 aCx
 aAlgorithm
 true
@@ -1569,6 +1573,7 @@ task
 new
 GenerateRTCCertificateTask
 (
+global
 aGlobal
 .
 Context
