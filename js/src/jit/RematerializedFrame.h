@@ -912,6 +912,11 @@ isFunctionFrame
 )
 )
 ;
+MOZ_ASSERT
+(
+callee_
+)
+;
 return
 callee_
 ;
