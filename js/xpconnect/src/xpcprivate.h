@@ -3287,9 +3287,6 @@ XPCJSRuntime
 *
 newXPCJSRuntime
 (
-nsXPConnect
-*
-aXPConnect
 )
 ;
 static
@@ -4261,15 +4258,10 @@ private
 XPCJSRuntime
 (
 )
-=
-delete
 ;
-explicit
-XPCJSRuntime
+nsresult
+Initialize
 (
-nsXPConnect
-*
-aXPConnect
 )
 ;
 void
