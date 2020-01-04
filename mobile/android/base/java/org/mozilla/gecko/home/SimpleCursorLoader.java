@@ -337,6 +337,7 @@ once
 *
 /
 Deprecated
+public
 abstract
 class
 SimpleCursorLoader
