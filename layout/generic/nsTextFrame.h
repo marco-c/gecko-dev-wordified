@@ -2479,6 +2479,12 @@ DrawPathCallbacks
 aCallbacks
 =
 nullptr
+float
+aOpacity
+=
+1
+.
+0f
 )
 ;
 /
