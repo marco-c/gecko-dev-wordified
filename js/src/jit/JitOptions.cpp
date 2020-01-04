@@ -1075,7 +1075,7 @@ function
 SET_DEFAULT
 (
 smallFunctionMaxBytecodeLength_
-100
+120
 )
 ;
 /
