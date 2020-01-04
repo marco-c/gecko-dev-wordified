@@ -210,15 +210,6 @@ h
 #
 include
 "
-vm
-/
-ScopeObject
-.
-h
-"
-#
-include
-"
 jit
 /
 JitFrameIterator
