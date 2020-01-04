@@ -9783,6 +9783,29 @@ or
 debugparams
 :
             
+if
+'
+INSIDE_EMACS
+'
+in
+os
+.
+environ
+:
+                
+self
+.
+log_manager
+.
+terminal_handler
+.
+setLevel
+(
+logging
+.
+WARNING
+)
+            
 import
 mozdebug
             
