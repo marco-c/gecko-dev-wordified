@@ -441,10 +441,7 @@ class
 TakePhotoCallback
 :
 public
-MediaEngineSource
-:
-:
-PhotoCallback
+MediaEnginePhotoCallback
 public
 DOMMediaStream
 :
@@ -659,10 +656,7 @@ GetTrackID
 ;
 RefPtr
 <
-MediaEngineSource
-:
-:
-PhotoCallback
+MediaEnginePhotoCallback
 >
 callback
 =

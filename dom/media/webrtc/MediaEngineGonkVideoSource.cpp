@@ -3036,7 +3036,9 @@ code
 to
 all
 queued
-PhotoCallbacks
+/
+/
+MediaEnginePhotoCallbacks
 .
 class
 TakePhotoError
@@ -3052,7 +3054,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 &
@@ -3118,7 +3120,7 @@ mRv
 }
 /
 /
-PhotoCallback
+MediaEnginePhotoCallback
 needs
 to
 dereference
@@ -3142,7 +3144,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 mCallbacks
@@ -3253,7 +3255,7 @@ current
 queued
 /
 /
-PhotoCallbacks
+MediaEnginePhotoCallbacks
 .
 class
 GenerateBlobRunnable
@@ -3269,7 +3271,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 &
@@ -3403,7 +3405,7 @@ forget
 }
 /
 /
-PhotoCallback
+MediaEnginePhotoCallback
 needs
 to
 dereference
@@ -3425,7 +3427,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 mCallbacks
@@ -3469,7 +3471,7 @@ the
 queued
 /
 /
-PhotoCallbacks
+MediaEnginePhotoCallbacks
 in
 this
 runnable
@@ -3509,7 +3511,7 @@ MediaEngineGonkVideoSource
 :
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )

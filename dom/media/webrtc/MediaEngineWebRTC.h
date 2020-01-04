@@ -753,7 +753,7 @@ false
 nsresult
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )
@@ -2529,7 +2529,7 @@ Microphone
 nsresult
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )
