@@ -198,6 +198,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsExpirationTracker
 .
 h

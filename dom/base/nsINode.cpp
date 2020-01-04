@@ -240,6 +240,17 @@ include
 "
 mozilla
 /
+css
+/
+StyleRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
