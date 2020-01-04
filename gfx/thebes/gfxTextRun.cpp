@@ -1328,9 +1328,6 @@ aLength
 uint8_t
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 {
 NS_ASSERTION
