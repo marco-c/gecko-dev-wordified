@@ -1193,7 +1193,7 @@ promiseObserverNotification
 '
 push
 -
-message
+notification
 '
 (
 subject
@@ -1211,16 +1211,14 @@ QueryInterface
 (
 Ci
 .
-nsIPushMessage
+nsIPushObserverNotification
 )
 ;
 equal
 (
 notification
 .
-text
-(
-)
+data
 testData
 .
 receive
