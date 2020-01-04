@@ -1202,9 +1202,11 @@ query_moz_sign_cmd
 (
 formats
 =
+[
 '
 jar
 '
+]
 )
 )
         
