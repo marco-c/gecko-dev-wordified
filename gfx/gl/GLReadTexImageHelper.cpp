@@ -1905,10 +1905,10 @@ needsTempSurf
 {
 if
 (
-gl
--
->
-DebugMode
+GLContext
+:
+:
+ShouldSpew
 (
 )
 )

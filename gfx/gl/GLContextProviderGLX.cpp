@@ -4186,12 +4186,9 @@ LOCAL_GLX_BAD_ATTRIBUTE
 err
 )
 {
-#
-ifdef
-DEBUG
 if
 (
-DebugMode
+ShouldSpew
 (
 )
 )
@@ -4222,8 +4219,6 @@ not
 )
 ;
 }
-#
-endif
 }
 GLXContext
 context
