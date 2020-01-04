@@ -6000,6 +6000,15 @@ gfxPrefs
 LayersTilesEnabled
 (
 )
+&
+&
+!
+APZCCallbackHelper
+:
+:
+IsDisplayportSuppressed
+(
+)
 )
 {
 alignment
