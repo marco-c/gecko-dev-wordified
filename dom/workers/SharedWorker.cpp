@@ -687,6 +687,10 @@ Close
 (
 )
 ;
+mMessagePort
+=
+nullptr
+;
 }
 }
 void
