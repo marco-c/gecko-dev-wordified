@@ -799,7 +799,7 @@ fast
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 SET_DEFAULT
 (
