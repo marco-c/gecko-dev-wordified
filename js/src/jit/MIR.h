@@ -32848,7 +32848,7 @@ MIRType
 type
 )
 {
-MAbs
+auto
 *
 ins
 =
@@ -35180,7 +35180,7 @@ MIRType
 type
 )
 {
-MAdd
+auto
 *
 add
 =
@@ -35392,7 +35392,7 @@ mustPreserveNaN
 false
 )
 {
-MSub
+auto
 *
 sub
 =
@@ -36284,7 +36284,7 @@ mustPreserveNaN
 false
 )
 {
-MDiv
+auto
 *
 div
 =
@@ -36974,7 +36974,7 @@ trapOnError
 false
 )
 {
-MMod
+auto
 *
 mod
 =
@@ -45068,7 +45068,7 @@ MIRType
 Int64
 )
 ;
-MNot
+auto
 *
 ins
 =
@@ -58859,7 +58859,7 @@ MDefinition
 globalGuard
 )
 {
-MGetDOMProperty
+auto
 *
 res
 =
@@ -59265,7 +59265,7 @@ MDefinition
 globalGuard
 )
 {
-MGetDOMMember
+auto
 *
 res
 =

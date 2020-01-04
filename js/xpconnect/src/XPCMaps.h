@@ -313,7 +313,7 @@ int
 length
 )
 {
-JSObject2WrappedJSMap
+auto
 *
 map
 =
@@ -3585,7 +3585,7 @@ int
 length
 )
 {
-JSObject2JSObjectMap
+auto
 *
 map
 =
