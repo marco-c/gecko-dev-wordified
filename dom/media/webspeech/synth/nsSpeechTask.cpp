@@ -217,6 +217,10 @@ GetSpeechSynthLog
 type
 msg
 )
+#
+define
+AUDIO_TRACK
+1
 namespace
 mozilla
 {
@@ -912,7 +916,7 @@ mStream
 >
 AddAudioTrack
 (
-1
+AUDIO_TRACK
 aRate
 0
 segment
