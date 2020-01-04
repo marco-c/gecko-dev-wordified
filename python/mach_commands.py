@@ -1409,6 +1409,8 @@ js
 jsm
 .
 jsx
+.
+xml
 ]
 '
         
@@ -1429,6 +1431,8 @@ js
 jsm
 .
 jsx
+.
+xml
 ]
 "
 .
