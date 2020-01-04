@@ -831,10 +831,10 @@ mKey
 .
 mAttributeName
 )
-CSSEnabledState
+nsCSSProps
 :
 :
-eForAllContent
+eEnabledForAllContent
 )
 ;
 if

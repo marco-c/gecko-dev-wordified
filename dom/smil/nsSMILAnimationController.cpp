@@ -5525,10 +5525,10 @@ nsDependentAtomString
 (
 attributeName
 )
-CSSEnabledState
+nsCSSProps
 :
 :
-eForAllContent
+eEnabledForAllContent
 )
 ;
 isCSS

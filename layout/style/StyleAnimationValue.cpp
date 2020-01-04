@@ -20287,7 +20287,10 @@ ComputeValuesFromStyleRule
 (
 nsCSSProperty
 aProperty
-CSSEnabledState
+nsCSSProps
+:
+:
+EnabledState
 aEnabledState
 dom
 :
@@ -21091,7 +21094,7 @@ ok
 ComputeValuesFromStyleRule
 (
 aProperty
-CSSEnabledState
+nsCSSProps
 :
 :
 eIgnoreEnabledState
@@ -21160,7 +21163,10 @@ ComputeValuesFromSpecifiedValue
 (
 nsCSSProperty
 aProperty
-CSSEnabledState
+nsCSSProps
+:
+:
+EnabledState
 aEnabledState
 dom
 :
@@ -21306,7 +21312,10 @@ ComputeValues
 (
 nsCSSProperty
 aProperty
-CSSEnabledState
+nsCSSProps
+:
+:
+EnabledState
 aEnabledState
 dom
 :
@@ -21357,7 +21366,10 @@ ComputeValues
 (
 nsCSSProperty
 aProperty
-CSSEnabledState
+nsCSSProps
+:
+:
+EnabledState
 aEnabledState
 dom
 :
