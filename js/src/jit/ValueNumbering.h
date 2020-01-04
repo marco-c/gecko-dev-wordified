@@ -666,6 +666,11 @@ visitGraph
 )
 ;
 bool
+insertOSRFixups
+(
+)
+;
+bool
 cleanupOSRFixups
 (
 )
