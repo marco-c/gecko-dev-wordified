@@ -3060,10 +3060,6 @@ jsbytecode
 pc
 JSProtoKey
 key
-HandleObject
-proto
-=
-nullptr
 )
 ;
 /
@@ -3094,10 +3090,6 @@ JSContext
 cx
 JSProtoKey
 key
-HandleObject
-proto
-=
-nullptr
 )
 ;
 /
