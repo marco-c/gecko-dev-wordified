@@ -7333,6 +7333,12 @@ GetCompositorBridgeChild
 >
 GetTexturePool
 (
+mManager
+-
+>
+GetCompositorBackendType
+(
+)
 gfxPlatform
 :
 :
