@@ -1064,6 +1064,8 @@ v1
 desktop
 -
 test
+-
+large
 '
         
 '
@@ -1100,6 +1102,22 @@ desktop
 test
 -
 xlarge
+'
+        
+'
+legacy
+'
+:
+'
+aws
+-
+provisioner
+-
+v1
+/
+desktop
+-
+test
 '
     
 }
