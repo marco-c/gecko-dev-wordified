@@ -1416,6 +1416,12 @@ defined
 (
 MOZ_WIDGET_GONK
 )
+|
+|
+defined
+(
+MOZ_WIDGET_UIKIT
+)
 if
 (
 mWidget
