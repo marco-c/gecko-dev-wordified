@@ -1157,9 +1157,6 @@ GetHref
 nsAString
 &
 aHref
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1316,9 +1313,6 @@ GetOrigin
 nsAString
 &
 aOrigin
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1341,9 +1335,6 @@ GetProtocol
 nsAString
 &
 aProtocol
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1400,9 +1391,6 @@ const
 nsAString
 &
 aProtocol
-ErrorResult
-&
-aRv
 )
 {
 nsAString
@@ -1676,9 +1664,6 @@ GetUsername
 nsAString
 &
 aUsername
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1699,9 +1684,6 @@ const
 nsAString
 &
 aUsername
-ErrorResult
-&
-aRv
 )
 {
 mURI
@@ -1725,9 +1707,6 @@ GetPassword
 nsAString
 &
 aPassword
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1748,9 +1727,6 @@ const
 nsAString
 &
 aPassword
-ErrorResult
-&
-aRv
 )
 {
 mURI
@@ -1774,9 +1750,6 @@ GetHost
 nsAString
 &
 aHost
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1797,9 +1770,6 @@ const
 nsAString
 &
 aHost
-ErrorResult
-&
-aRv
 )
 {
 mURI
@@ -1946,9 +1916,6 @@ GetHostname
 nsAString
 &
 aHostname
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -1978,9 +1945,6 @@ const
 nsAString
 &
 aHostname
-ErrorResult
-&
-aRv
 )
 {
 /
@@ -2021,9 +1985,6 @@ GetPort
 nsAString
 &
 aPort
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2093,9 +2054,6 @@ const
 nsAString
 &
 aPort
-ErrorResult
-&
-aRv
 )
 {
 nsresult
@@ -2173,9 +2131,6 @@ GetPathname
 nsAString
 &
 aPathname
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2299,9 +2254,6 @@ const
 nsAString
 &
 aPathname
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
@@ -2356,9 +2308,6 @@ GetSearch
 nsAString
 &
 aSearch
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2466,9 +2415,6 @@ const
 nsAString
 &
 aSearch
-ErrorResult
-&
-aRv
 )
 {
 SetSearchInternal
@@ -2562,9 +2508,6 @@ GetHash
 nsAString
 &
 aHash
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2662,9 +2605,6 @@ const
 nsAString
 &
 aHash
-ErrorResult
-&
-aRv
 )
 {
 mURI
