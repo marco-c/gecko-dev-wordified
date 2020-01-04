@@ -748,6 +748,9 @@ FormRec
 applyIncomingBatchSize
 :
 FORMS_STORE_BATCH_SIZE
+allowSkippedRecord
+:
+true
 syncPriority
 :
 6

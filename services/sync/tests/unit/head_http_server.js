@@ -2474,6 +2474,7 @@ self
 get
 (
 options
+request
 )
 ;
 /
@@ -2577,6 +2578,7 @@ request
 .
 bodyInputStream
 )
+request
 )
 ;
 body
@@ -2626,6 +2628,7 @@ self
 delete
 (
 options
+request
 )
 ;
 let
