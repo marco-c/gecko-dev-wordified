@@ -417,7 +417,6 @@ node
 -
 constants
 "
-true
 )
 ;
 loader
