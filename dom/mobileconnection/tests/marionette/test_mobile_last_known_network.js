@@ -73,7 +73,7 @@ lastKnownNetwork
 "
 310
 -
-260
+410
 "
 )
 ;
@@ -102,7 +102,7 @@ lastKnownHomeNetwork
 "
 310
 -
-260
+410
 -
 Android
 "

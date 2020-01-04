@@ -63,13 +63,13 @@ hard
 coded
 IMSI
 :
-310260000000000
+310410000000000
 [
 "
 imsi
 "
 "
-3102600
+3104100
 "
 true
 true
@@ -89,7 +89,7 @@ comparison
 imsi
 "
 "
-31026xx0
+31041xx0
 "
 true
 true
@@ -99,7 +99,7 @@ true
 imsi
 "
 "
-310260x0x
+310410x0x
 "
 true
 true
@@ -109,7 +109,7 @@ true
 imsi
 "
 "
-310260X00
+310410X00
 "
 true
 true
@@ -119,7 +119,7 @@ true
 imsi
 "
 "
-310260XX1
+310410XX1
 "
 true
 false
@@ -129,7 +129,7 @@ false
 imsi
 "
 "
-31026012
+31041012
 "
 true
 false
@@ -139,7 +139,7 @@ false
 imsi
 "
 "
-310260000000000
+310410000000000
 "
 true
 true
@@ -149,7 +149,7 @@ true
 imsi
 "
 "
-310260000000000123
+310410000000000123
 "
 true
 false
