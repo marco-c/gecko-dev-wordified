@@ -1048,6 +1048,7 @@ error
 reporting
 class
 AsyncErrorReporter
+final
 :
 public
 nsRunnable
@@ -1070,11 +1071,9 @@ associated
 with
 a
 window
+explicit
 AsyncErrorReporter
 (
-JSRuntime
-*
-aRuntime
 xpc
 :
 :
