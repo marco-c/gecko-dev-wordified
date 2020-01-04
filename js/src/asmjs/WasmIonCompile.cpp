@@ -6160,6 +6160,7 @@ alloc
 (
 )
 expr
+tlsPointer_
 )
 ;
 curBlock_
@@ -6200,6 +6201,7 @@ New
 alloc
 (
 )
+tlsPointer_
 )
 ;
 curBlock_
