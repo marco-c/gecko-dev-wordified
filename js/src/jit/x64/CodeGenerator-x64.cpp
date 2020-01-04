@@ -3918,7 +3918,7 @@ lifoAlloc
 )
 -
 >
-new_
+newInfallible
 <
 Label
 >
