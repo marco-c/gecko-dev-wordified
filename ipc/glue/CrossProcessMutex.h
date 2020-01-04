@@ -124,7 +124,7 @@ OS_LINUX
 |
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include

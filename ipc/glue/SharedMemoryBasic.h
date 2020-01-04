@@ -128,7 +128,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
