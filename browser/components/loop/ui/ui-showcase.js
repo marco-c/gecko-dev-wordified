@@ -8852,6 +8852,10 @@ height
 summary
 :
 "
+Desktop
+Room
+Failure
+View
 "
 width
 :
