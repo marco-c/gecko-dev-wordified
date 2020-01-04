@@ -5776,9 +5776,6 @@ OwnerThread
 Dispatch
 (
 NewRunnableMethod
-<
-State
->
 (
 this
 &
@@ -5786,11 +5783,6 @@ MediaDecoderStateMachine
 :
 :
 EnterState
-mState
-.
-Ref
-(
-)
 )
 )
 ;
@@ -6848,7 +6840,6 @@ aState
 ;
 ExitState
 (
-mState
 )
 ;
 mState
@@ -6857,7 +6848,6 @@ aState
 ;
 EnterState
 (
-mState
 )
 ;
 }
@@ -6867,8 +6857,6 @@ MediaDecoderStateMachine
 :
 ExitState
 (
-State
-aState
 )
 {
 MOZ_ASSERT
@@ -6880,7 +6868,7 @@ OnTaskQueue
 ;
 switch
 (
-aState
+mState
 )
 {
 case
@@ -6904,8 +6892,6 @@ MediaDecoderStateMachine
 :
 EnterState
 (
-State
-aState
 )
 {
 MOZ_ASSERT
@@ -6917,7 +6903,7 @@ OnTaskQueue
 ;
 switch
 (
-aState
+mState
 )
 {
 case
