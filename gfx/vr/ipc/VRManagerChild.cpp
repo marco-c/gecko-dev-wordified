@@ -521,7 +521,6 @@ aEndpoint
 Bind
 (
 child
-nullptr
 )
 )
 {
@@ -675,7 +674,6 @@ aEndpoint
 Bind
 (
 sVRManagerChildSingleton
-nullptr
 )
 )
 {

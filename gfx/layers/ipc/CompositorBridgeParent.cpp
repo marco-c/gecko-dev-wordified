@@ -4127,7 +4127,6 @@ aEndpoint
 Bind
 (
 this
-nullptr
 )
 )
 {
@@ -11288,7 +11287,6 @@ aEndpoint
 Bind
 (
 this
-nullptr
 )
 )
 {

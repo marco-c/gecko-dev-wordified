@@ -271,7 +271,6 @@ aEndpoint
 Bind
 (
 this
-nullptr
 )
 )
 {

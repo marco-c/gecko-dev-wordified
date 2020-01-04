@@ -1244,7 +1244,6 @@ aEndpoint
 Bind
 (
 child
-nullptr
 )
 )
 {
@@ -1449,7 +1448,6 @@ aEndpoint
 Bind
 (
 child
-nullptr
 )
 )
 {
