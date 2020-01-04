@@ -562,6 +562,10 @@ mResponseCouldBeSynthesized
 (
 false
 )
+mAllowStaleCacheContent
+(
+false
+)
 mSuspendCount
 (
 0
