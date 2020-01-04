@@ -487,6 +487,7 @@ tests
 =
 [
 function
+*
 testMigration
 (
 )

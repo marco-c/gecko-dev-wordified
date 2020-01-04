@@ -72,6 +72,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -97,6 +98,7 @@ true
 ;
 }
 function
+*
 isomorphicDomains
 (
 )
@@ -171,6 +173,7 @@ com
 ;
 }
 function
+*
 names
 (
 )
@@ -424,6 +427,7 @@ true
 ;
 }
 function
+*
 subdomains
 (
 )
@@ -522,6 +526,7 @@ com
 ;
 }
 function
+*
 populateViaGet
 (
 )
@@ -620,6 +625,7 @@ undefined
 ;
 }
 function
+*
 populateViaGetSubdomains
 (
 )
@@ -669,6 +675,7 @@ undefined
 ;
 }
 function
+*
 populateViaRemove
 (
 )
@@ -1216,6 +1223,7 @@ undefined
 ;
 }
 function
+*
 populateViaRemoveByDomain
 (
 )
@@ -1529,6 +1537,7 @@ undefined
 ;
 }
 function
+*
 populateViaRemoveAllDomains
 (
 )
@@ -1698,6 +1707,7 @@ undefined
 ;
 }
 function
+*
 populateViaRemoveByName
 (
 )
@@ -1918,6 +1928,7 @@ undefined
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -2211,6 +2222,7 @@ com
 ;
 }
 function
+*
 erroneous
 (
 )

@@ -541,6 +541,7 @@ test
 )
 {
 function
+*
 gen
 (
 )
@@ -1262,6 +1263,7 @@ value
 ;
 }
 function
+*
 getOK
 (
 args
@@ -1334,6 +1336,7 @@ strict
 ;
 }
 function
+*
 getSubdomainsOK
 (
 args
@@ -1402,6 +1405,7 @@ expectedPrefs
 ;
 }
 function
+*
 getGlobalOK
 (
 args
@@ -1465,6 +1469,7 @@ expectedPrefs
 ;
 }
 function
+*
 getOKEx
 (
 methodName

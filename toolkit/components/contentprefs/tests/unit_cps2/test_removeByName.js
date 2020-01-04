@@ -72,6 +72,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -167,6 +168,7 @@ foo
 ;
 }
 function
+*
 names
 (
 )
@@ -383,6 +385,7 @@ bar
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -740,6 +743,7 @@ undefined
 ;
 }
 function
+*
 erroneous
 (
 )
@@ -800,6 +804,7 @@ true
 ;
 }
 function
+*
 invalidateCache
 (
 )

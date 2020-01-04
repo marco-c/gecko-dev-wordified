@@ -72,6 +72,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -108,6 +109,7 @@ true
 ;
 }
 function
+*
 isomorphicDomains
 (
 )
@@ -171,6 +173,7 @@ com
 ;
 }
 function
+*
 names
 (
 )
@@ -368,6 +371,7 @@ true
 ;
 }
 function
+*
 subdomains
 (
 )
@@ -438,6 +442,7 @@ true
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -683,6 +688,7 @@ true
 ;
 }
 function
+*
 erroneous
 (
 )
@@ -801,6 +807,7 @@ true
 ;
 }
 function
+*
 casts
 (
 )

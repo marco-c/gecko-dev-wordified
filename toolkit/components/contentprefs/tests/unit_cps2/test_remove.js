@@ -72,6 +72,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -378,6 +379,7 @@ foo
 ;
 }
 function
+*
 isomorphicDomains
 (
 )
@@ -502,6 +504,7 @@ undefined
 ;
 }
 function
+*
 names
 (
 )
@@ -914,6 +917,7 @@ undefined
 ;
 }
 function
+*
 subdomains
 (
 )
@@ -1333,6 +1337,7 @@ foo
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -1759,6 +1764,7 @@ bar
 ;
 }
 function
+*
 erroneous
 (
 )
@@ -1943,6 +1949,7 @@ true
 ;
 }
 function
+*
 removeByDomainAndName_invalidateCache
 (
 )
@@ -2014,6 +2021,7 @@ yield
 ;
 }
 function
+*
 removeBySubdomainAndName_invalidateCache
 (
 )
@@ -2120,6 +2128,7 @@ yield
 ;
 }
 function
+*
 removeGlobal_invalidateCache
 (
 )
