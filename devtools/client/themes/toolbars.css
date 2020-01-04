@@ -3759,7 +3759,11 @@ top
 .
 5px
 ;
-right
+offset
+-
+inline
+-
+end
 :
 7px
 ;
