@@ -16412,8 +16412,8 @@ values
 initial
 uninitialized
 lexical
-*
 magic
+*
 values
 and
 optimized
@@ -16424,8 +16424,10 @@ as
 appearing
 in
 CallObjects
+module
 *
-and
+environments
+or
 the
 global
 lexical
@@ -16447,7 +16449,7 @@ obj
 >
 is
 <
-CallObject
+LexicalScopeBase
 >
 (
 )
