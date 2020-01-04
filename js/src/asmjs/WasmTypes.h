@@ -5590,7 +5590,6 @@ Non
 -
 traps
 StackOverflow
-Throw
 Limit
 }
 ;
