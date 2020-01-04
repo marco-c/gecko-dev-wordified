@@ -4419,6 +4419,7 @@ AudioStreamTrack
 (
 this
 aTrackID
+aTrackID
 aLabel
 aSource
 )
@@ -4437,6 +4438,7 @@ new
 VideoStreamTrack
 (
 this
+aTrackID
 aTrackID
 aLabel
 aSource
@@ -4683,9 +4685,6 @@ aInputStream
 mOwnedStream
 &
 &
-aInputTrackID
-=
-=
 info
 -
 >
@@ -4694,9 +4693,12 @@ GetTrack
 )
 -
 >
-GetTrackID
+GetInputTrackID
 (
 )
+=
+=
+aInputTrackID
 )
 {
 /

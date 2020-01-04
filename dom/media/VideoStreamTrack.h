@@ -134,6 +134,8 @@ DOMMediaStream
 aStream
 TrackID
 aTrackID
+TrackID
+aInputTrackID
 const
 nsString
 &
@@ -147,6 +149,7 @@ MediaStreamTrack
 (
 aStream
 aTrackID
+aInputTrackID
 aLabel
 aSource
 )

@@ -2924,6 +2924,7 @@ VideoStreamTrack
 (
 this
 aTrackID
+aTrackID
 nsString
 (
 )
