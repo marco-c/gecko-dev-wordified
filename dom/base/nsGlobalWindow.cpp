@@ -8870,7 +8870,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMEventTargetHelper
 >
@@ -14647,7 +14647,7 @@ OnNavigation
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -17652,7 +17652,7 @@ owned
 .
 for
 (
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -18081,7 +18081,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -21619,7 +21619,7 @@ NS_ERROR_UNEXPECTED
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsScreen
 >
@@ -21784,7 +21784,7 @@ mDoc
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDOMNavigationTiming
 >
@@ -22160,7 +22160,7 @@ RefreshMediaElements
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -22225,7 +22225,7 @@ mAudioCaptured
 =
 aCapture
 ;
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -25291,7 +25291,7 @@ manifestURI
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMOfflineResourceList
 >
@@ -27084,7 +27084,7 @@ assume
 1
 :
 1
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27143,7 +27143,7 @@ assume
 1
 :
 1
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27202,7 +27202,7 @@ assume
 1
 :
 1
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27275,7 +27275,7 @@ assume
 1
 :
 1
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27351,7 +27351,7 @@ NS_ENSURE_STATE
 mDocShell
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27368,7 +27368,7 @@ presContext
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIPresShell
 >
@@ -27480,7 +27480,7 @@ GetScrollPositionClampingScrollPortSize
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -27707,7 +27707,7 @@ aInnerWidth
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIPresShell
 >
@@ -27738,7 +27738,7 @@ height
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -28110,7 +28110,7 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIPresShell
 >
@@ -28136,7 +28136,7 @@ GetIsViewportOverridden
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -29803,7 +29803,7 @@ return
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -30193,7 +30193,7 @@ toObject
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FrameRequestCallback
 >
@@ -30466,7 +30466,7 @@ NS_ERROR_UNEXPECTED
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 MediaQueryList
 >
@@ -31344,7 +31344,7 @@ IsOuterWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -32844,7 +32844,7 @@ IsOuterWindow
 ErrorResult
 res
 ;
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -33890,7 +33890,7 @@ Observer
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 FullscreenTransitionTask
 >
@@ -33915,7 +33915,7 @@ char
 const
 kPaintedTopic
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -35920,7 +35920,7 @@ mWakeLock
 mFullScreen
 )
 {
-RefPtr
+nsRefPtr
 <
 power
 :
@@ -39289,31 +39289,6 @@ return
 }
 if
 (
-nsCOMPtr
-<
-nsITabChild
->
-child
-=
-do_GetInterface
-(
-mDocShell
-)
-)
-{
-child
--
->
-SendRequestFocus
-(
-canFocus
-)
-;
-return
-;
-}
-if
-(
 canFocus
 )
 {
@@ -39340,6 +39315,30 @@ if
 canFocus
 is
 true
+.
+If
+this
+is
+a
+child
+process
+the
+raise
+/
+/
+window
+request
+will
+get
+forwarded
+to
+the
+parent
+by
+the
+puppet
+widget
+.
 aError
 =
 fm
@@ -43854,7 +43853,7 @@ mPopupWindowFeatures
 =
 aPopupWindowFeatures
 ;
-RefPtr
+nsRefPtr
 <
 PopupBlockedEvent
 >
@@ -45252,7 +45251,7 @@ GetFramesOuter
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -45724,7 +45723,7 @@ caller
 '
 s
 window
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -46346,7 +46345,7 @@ creation
 and
 dispatch
 .
-RefPtr
+nsRefPtr
 <
 PostMessageEvent
 >
@@ -46759,7 +46758,7 @@ nsCloseEvent
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -48575,7 +48574,7 @@ if
 activeShell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -49090,7 +49089,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -49298,7 +49297,7 @@ mModalStateDepth
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -51490,7 +51489,7 @@ DOM_WINDOW_SHOWMODALDIALOG_USED
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 DialogValueHolder
 >
@@ -52255,7 +52254,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -53596,7 +53595,7 @@ aUseCapture
 {
 if
 (
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -53716,7 +53715,7 @@ GetShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -55435,7 +55434,7 @@ mHasGamepad
 #
 ifdef
 MOZ_GAMEPAD
-RefPtr
+nsRefPtr
 <
 GamepadService
 >
@@ -55490,7 +55489,7 @@ mHasGamepad
 #
 ifdef
 MOZ_GAMEPAD
-RefPtr
+nsRefPtr
 <
 GamepadService
 >
@@ -56720,7 +56719,7 @@ mOldURL
 nsString
 mNewURL
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -56953,7 +56952,7 @@ GetShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -57001,7 +57000,7 @@ mOldURL
 =
 aOldURL
 ;
-RefPtr
+nsRefPtr
 <
 HashChangeEvent
 >
@@ -57223,7 +57222,7 @@ GetShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -57370,7 +57369,7 @@ mState
 =
 stateJSValue
 ;
-RefPtr
+nsRefPtr
 <
 PopStateEvent
 >
@@ -58230,7 +58229,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >
@@ -59850,7 +59849,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheStorage
 >
@@ -60158,7 +60157,7 @@ mIdleObserver
 uint32_t
 mTimeInS
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -60353,7 +60352,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -60401,7 +60400,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -61207,7 +61206,7 @@ ProcessHangMonitor
 SlowScriptAction
 action
 ;
-RefPtr
+nsRefPtr
 <
 ProcessHangMonitor
 >
@@ -61310,7 +61309,7 @@ the
 /
 script
 .
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -63586,7 +63585,7 @@ principal
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 StorageEvent
 >
@@ -63611,7 +63610,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStorage
 >
@@ -63962,7 +63961,7 @@ event
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 StorageEvent
 >
@@ -64254,7 +64253,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -64491,7 +64490,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -64579,7 +64578,7 @@ nsAString
 &
 aType
 const
-RefPtr
+nsRefPtr
 <
 StorageEvent
 >
@@ -64662,7 +64661,7 @@ dict
 mUrl
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorage
 >
@@ -64680,7 +64679,7 @@ MOZ_ASSERT
 storageArea
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorage
 >
@@ -64775,7 +64774,7 @@ mStorageArea
 =
 storage
 ;
-RefPtr
+nsRefPtr
 <
 StorageEvent
 >
@@ -65333,7 +65332,7 @@ AutoUnblockScriptClosing
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -67701,7 +67700,7 @@ interval
 maxTimeoutMs
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -68085,7 +68084,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -68678,7 +68677,7 @@ its
 /
 doc
 .
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -68867,7 +68866,7 @@ timeout
 mScriptHandler
 )
 ;
-RefPtr
+nsRefPtr
 <
 Function
 >
@@ -70569,7 +70568,7 @@ running
 a
 timeout
 .
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -70602,7 +70601,7 @@ setNext
 dummy_timeout
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -72479,7 +72478,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -72525,7 +72524,7 @@ size_t
 aLen
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTimeout
 >
@@ -74176,7 +74175,7 @@ i
 ErrorResult
 dummy
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -74572,7 +74571,7 @@ i
 ErrorResult
 dummy
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -75954,7 +75953,7 @@ IsInnerWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -76035,7 +76034,7 @@ aUserArg
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -76047,7 +76046,7 @@ static_cast
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -76100,7 +76099,7 @@ GetGamepads
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -76181,7 +76180,7 @@ IsInnerWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -76275,7 +76274,7 @@ void
 aUserArg
 )
 {
-RefPtr
+nsRefPtr
 <
 GamepadService
 >
@@ -76345,7 +76344,7 @@ GetVRDevices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -76566,7 +76565,7 @@ nsGlobalWindow
 aOuterWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalChromeWindow
 >
@@ -77587,7 +77586,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -78847,7 +78846,7 @@ nsGlobalWindow
 aOuterWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalModalWindow
 >
@@ -78955,7 +78954,7 @@ nsGlobalWindow
 aOuterWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -79464,7 +79463,7 @@ NS_ERROR_FAILURE
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Console
 >
@@ -79679,7 +79678,7 @@ this
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 External
 >
@@ -79792,7 +79791,7 @@ forget
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 External
 >
