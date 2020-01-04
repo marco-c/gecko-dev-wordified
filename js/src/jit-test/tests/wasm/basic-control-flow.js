@@ -2131,7 +2131,7 @@ b1
 block
 b2
 (
-tableswitch
+br_table
 (
 get_local
 0
@@ -2174,7 +2174,7 @@ i32
 block
 b1
 (
-tableswitch
+br_table
 (
 get_local
 0
