@@ -1078,15 +1078,6 @@ if
 (
 !
 aClient
-|
-|
-!
-aClient
--
->
-IsAllocated
-(
-)
 )
 {
 return
