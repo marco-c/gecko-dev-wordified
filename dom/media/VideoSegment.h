@@ -704,15 +704,6 @@ bool
 aForceBlack
 =
 false
-TimeStamp
-aTimeStamp
-=
-TimeStamp
-:
-:
-Now
-(
-)
 )
 ;
 const
