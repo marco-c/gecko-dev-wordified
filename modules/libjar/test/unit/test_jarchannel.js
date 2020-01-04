@@ -1823,7 +1823,10 @@ function
 run_test
 (
 )
+{
+return
 run_next_test
 (
 )
 ;
+}
