@@ -874,7 +874,6 @@ mMessageLoopToPostDestructionTo
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &

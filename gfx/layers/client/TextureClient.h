@@ -3978,7 +3978,7 @@ class
 TextureClientReleaseTask
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -3996,8 +3996,7 @@ aClient
 )
 {
 }
-virtual
-void
+NS_IMETHOD
 Run
 (
 )
@@ -4006,6 +4005,9 @@ override
 mTextureClient
 =
 nullptr
+;
+return
+NS_OK
 ;
 }
 private

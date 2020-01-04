@@ -383,7 +383,6 @@ mMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -549,7 +548,6 @@ sMainLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 r
@@ -1101,7 +1099,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 r

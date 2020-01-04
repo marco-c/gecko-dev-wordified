@@ -330,8 +330,10 @@ mDeferredTasks
 /
 nsTArray
 <
-Task
-*
+RefPtr
+<
+Runnable
+>
 >
 TakeDeferredTasks
 (
@@ -443,8 +445,10 @@ them
 /
 nsTArray
 <
-Task
-*
+RefPtr
+<
+Runnable
+>
 >
 mDeferredTasks
 ;

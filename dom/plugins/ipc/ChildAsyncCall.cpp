@@ -153,7 +153,7 @@ aUserData
 )
 {
 }
-void
+nsresult
 ChildAsyncCall
 :
 :
@@ -172,6 +172,9 @@ nullptr
 mData
 =
 nullptr
+;
+return
+NS_OK
 ;
 }
 void
@@ -208,7 +211,7 @@ this
 ;
 }
 }
-void
+NS_IMETHODIMP
 ChildAsyncCall
 :
 :
@@ -228,6 +231,9 @@ mFunc
 (
 mData
 )
+;
+return
+NS_OK
 ;
 }
 }

@@ -1168,8 +1168,10 @@ AsyncCall
 void
 PostChildAsyncCall
 (
+already_AddRefed
+<
 ChildAsyncCall
-*
+>
 aTask
 )
 ;
@@ -1706,7 +1708,7 @@ isWindowed
 )
 {
 }
-void
+NS_IMETHOD
 Run
 (
 )
@@ -1998,7 +2000,7 @@ mozilla
 Mutex
 mAsyncInvalidateMutex
 ;
-CancelableTask
+CancelableRunnable
 *
 mAsyncInvalidateTask
 ;
@@ -3038,8 +3040,10 @@ Cancel
 it
 on
 Destroy
-CancelableTask
-*
+RefPtr
+<
+CancelableRunnable
+>
 mCurrentInvalidateTask
 ;
 /
@@ -3056,8 +3060,10 @@ Cancel
 it
 on
 Destroy
-CancelableTask
-*
+RefPtr
+<
+CancelableRunnable
+>
 mCurrentAsyncSetWindowTask
 ;
 /

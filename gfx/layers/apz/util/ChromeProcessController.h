@@ -253,8 +253,10 @@ virtual
 void
 PostDelayedTask
 (
-Task
-*
+already_AddRefed
+<
+Runnable
+>
 aTask
 int
 aDelayMs

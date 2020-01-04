@@ -999,7 +999,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1058,7 +1057,6 @@ current
 >
 PostIdleTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1138,7 +1136,11 @@ running
 return
 ;
 }
-mPreallocateAppProcessTask
+RefPtr
+<
+CancelableTask
+>
+task
 =
 NewRunnableMethod
 (
@@ -1150,6 +1152,10 @@ PreallocatedProcessManagerImpl
 DelayedNuwaFork
 )
 ;
+mPreallocateAppProcessTask
+=
+task
+;
 MessageLoop
 :
 :
@@ -1160,8 +1166,11 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
-mPreallocateAppProcessTask
+task
+.
+forget
+(
+)
 Preferences
 :
 :

@@ -1261,7 +1261,6 @@ ioLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1465,7 +1464,6 @@ mMainMsgLoop
 >
 PostTask
 (
-FROM_HERE
 mTaskFactory
 .
 NewRunnableMethod
@@ -1509,7 +1507,6 @@ mMainMsgLoop
 >
 PostTask
 (
-FROM_HERE
 mTaskFactory
 .
 NewRunnableMethod

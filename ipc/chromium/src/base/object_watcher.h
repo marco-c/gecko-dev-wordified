@@ -583,11 +583,13 @@ WillDestroyCurrentMessageLoop
 Internal
 state
 .
-struct
+class
 Watch
 ;
+RefPtr
+<
 Watch
-*
+>
 watch_
 ;
 DISALLOW_COPY_AND_ASSIGN

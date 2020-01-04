@@ -4846,7 +4846,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -12548,7 +12547,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 cp
@@ -13074,7 +13072,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -20925,7 +20922,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &

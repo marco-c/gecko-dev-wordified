@@ -576,7 +576,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this

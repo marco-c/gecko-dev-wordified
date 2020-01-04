@@ -635,8 +635,10 @@ AndroidContentController
 :
 PostDelayedTask
 (
-Task
-*
+already_AddRefed
+<
+Runnable
+>
 aTask
 int
 aDelayMs
@@ -652,7 +654,10 @@ Bridge
 >
 PostTaskToUiThread
 (
+Move
+(
 aTask
+)
 aDelayMs
 )
 ;

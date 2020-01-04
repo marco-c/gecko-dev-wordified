@@ -2227,8 +2227,10 @@ gfxASurface
 >
 mScrollCapture
 ;
-CancelableTask
-*
+RefPtr
+<
+CancelableRunnable
+>
 mCaptureRefreshTask
 ;
 bool

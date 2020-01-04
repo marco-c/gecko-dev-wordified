@@ -228,7 +228,7 @@ class
 LaunchCompleteTask
 :
 public
-Task
+Runnable
 {
 public
 :
