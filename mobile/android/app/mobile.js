@@ -10790,15 +10790,6 @@ https
 :
 /
 /
-hello
-.
-firefox
-.
-com
-https
-:
-/
-/
 input
 .
 mozilla
