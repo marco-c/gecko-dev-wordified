@@ -2878,7 +2878,7 @@ NS_OK
 -
 -
 -
-nsresult
+void
 NS_NewWindowsRegKey
 (
 nsIWindowsRegKey
@@ -2904,9 +2904,6 @@ forget
 (
 aResult
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -3019,9 +3016,6 @@ nsIWindowsRegKey
 >
 key
 ;
-nsresult
-rv
-=
 NS_NewWindowsRegKey
 (
 getter_AddRefs
@@ -3030,16 +3024,7 @@ key
 )
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
-rv
-=
+return
 key
 -
 >
@@ -3048,9 +3033,5 @@ QueryInterface
 aIID
 aResult
 )
-;
-}
-return
-rv
 ;
 }
