@@ -185,7 +185,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 container
 "
@@ -248,7 +248,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 container
 "
