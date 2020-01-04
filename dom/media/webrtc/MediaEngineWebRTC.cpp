@@ -319,6 +319,14 @@ mDevices
 =
 nullptr
 ;
+bool
+AudioInputCubeb
+:
+:
+mAnyInUse
+=
+false
+;
 MediaEngineWebRTC
 :
 :
