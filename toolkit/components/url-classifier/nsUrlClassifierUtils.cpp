@@ -591,12 +591,9 @@ WINDOWS_PLATFORM
 ;
 #
 else
-#
-error
-Unrecognized
-platform
-type
-.
+return
+PLATFORM_TYPE_UNSPECIFIED
+;
 #
 endif
 }
