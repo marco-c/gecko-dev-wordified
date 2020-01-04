@@ -1791,6 +1791,10 @@ const
 nsString
 &
 aHTMLInputType
+const
+nsString
+&
+aHTMLInputInputmode
 )
 ;
 /
