@@ -107,6 +107,18 @@ chrome
 )
 ;
 const
+registrar
+=
+Cm
+.
+QueryInterface
+(
+Ci
+.
+nsIComponentRegistrar
+)
+;
+const
 Services
 =
 require
@@ -342,7 +354,7 @@ function
 {
 if
 (
-Cm
+registrar
 .
 isCIDRegistered
 (
@@ -381,7 +393,7 @@ once
 }
 else
 {
-Cm
+registrar
 .
 registerFactory
 (
@@ -415,7 +427,7 @@ function
 {
 if
 (
-Cm
+registrar
 .
 isCIDRegistered
 (
@@ -427,7 +439,7 @@ classID
 )
 )
 {
-Cm
+registrar
 .
 unregisterFactory
 (
