@@ -679,9 +679,9 @@ public
 :
 RtspMediaResource
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
+aCallback
 nsIChannel
 *
 aChannel
@@ -1339,9 +1339,8 @@ MediaResource
 >
 CloneData
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
 )
 override
 {
