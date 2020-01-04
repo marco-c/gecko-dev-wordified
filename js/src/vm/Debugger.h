@@ -2959,7 +2959,7 @@ HashMap
 AbstractFramePtr
 HeapPtr
 <
-NativeObject
+DebuggerFrame
 *
 >
 DefaultHasher
@@ -4695,7 +4695,7 @@ DebuggerFrameVector
 =
 GCVector
 <
-NativeObject
+DebuggerFrame
 *
 >
 ;
