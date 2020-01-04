@@ -371,6 +371,7 @@ let
 toolbox
 inspector
 view
+testActor
 }
 =
 yield
@@ -413,6 +414,7 @@ yield
 reloadPage
 (
 inspector
+testActor
 )
 ;
 yield
@@ -679,16 +681,10 @@ yield
 onSuggest
 ;
 yield
-wait
+waitForTick
 (
-1
 )
 ;
-/
-/
-Equivalent
-of
-executeSoon
 info
 (
 "
