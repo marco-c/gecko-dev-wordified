@@ -18969,16 +18969,6 @@ tls
 .
 version
 .
-min
-"
-"
-security
-.
-tls
-.
-version
-.
-max
 "
 "
 security
@@ -48184,8 +48174,6 @@ preferences
 privatebrowsing
 |
 rights
-|
-searchreset
 |
 sessionrestore
 |
