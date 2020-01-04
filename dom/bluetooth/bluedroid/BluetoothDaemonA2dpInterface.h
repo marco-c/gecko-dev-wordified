@@ -266,7 +266,7 @@ nsresult
 ConnectCmd
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -278,7 +278,7 @@ nsresult
 DisconnectCmd
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -422,10 +422,10 @@ DaemonNotificationRunnable2
 NotificationHandlerWrapper
 void
 BluetoothA2dpConnectionState
-BluetoothAddress
+nsString
 BluetoothA2dpConnectionState
 const
-BluetoothAddress
+nsAString
 &
 >
 ConnectionStateNotification
@@ -442,10 +442,10 @@ DaemonNotificationRunnable2
 NotificationHandlerWrapper
 void
 BluetoothA2dpAudioState
-BluetoothAddress
+nsString
 BluetoothA2dpAudioState
 const
-BluetoothAddress
+nsAString
 &
 >
 AudioStateNotification
@@ -461,11 +461,11 @@ DaemonNotificationRunnable3
 <
 NotificationHandlerWrapper
 void
-BluetoothAddress
+nsString
 uint32_t
 uint8_t
 const
-BluetoothAddress
+nsAString
 &
 uint32_t
 uint8_t
@@ -598,7 +598,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -611,7 +611,7 @@ void
 Disconnect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler

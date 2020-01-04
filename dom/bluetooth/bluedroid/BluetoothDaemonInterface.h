@@ -326,7 +326,7 @@ void
 GetRemoteDeviceProperties
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -339,7 +339,7 @@ void
 GetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -356,7 +356,7 @@ void
 SetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -379,7 +379,7 @@ void
 GetRemoteServiceRecord
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -396,7 +396,7 @@ void
 GetRemoteServices
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -437,7 +437,7 @@ void
 CreateBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothTransport
@@ -452,7 +452,7 @@ void
 RemoveBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -465,7 +465,7 @@ void
 CancelBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -483,7 +483,7 @@ void
 GetConnectionState
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -501,7 +501,7 @@ void
 PinReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -520,7 +520,7 @@ void
 SspReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSspVariant

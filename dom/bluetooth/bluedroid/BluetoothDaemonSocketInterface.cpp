@@ -307,7 +307,7 @@ BluetoothDaemonSocketModule
 ConnectCmd
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSocketType
@@ -354,7 +354,14 @@ rv
 =
 PackPDU
 (
+PackConversion
+<
+nsAString
+BluetoothAddress
+>
+(
 aBdAddr
+)
 aType
 aServiceUuid
 PackConversion
@@ -591,7 +598,7 @@ aStatus
 STATUS_SUCCESS
 )
 {
-AcceptResultRunnable
+IntStringIntResultRunnable
 :
 :
 Dispatch
@@ -607,7 +614,7 @@ Accept
 ConstantInitOp3
 <
 int
-BluetoothAddress
+nsString
 int
 >
 (
@@ -1111,7 +1118,7 @@ BluetoothSocketResultHandler
 aRes
 )
 {
-ListenResultRunnable
+IntResultRunnable
 :
 :
 Dispatch
@@ -1205,7 +1212,7 @@ aStatus
 STATUS_SUCCESS
 )
 {
-ConnectResultRunnable
+IntStringIntResultRunnable
 :
 :
 Dispatch
@@ -1221,7 +1228,7 @@ Connect
 ConstantInitOp3
 <
 int
-BluetoothAddress
+nsString
 int
 >
 (
@@ -1509,7 +1516,7 @@ BluetoothDaemonSocketInterface
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSocketType

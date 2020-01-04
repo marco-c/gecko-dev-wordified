@@ -256,7 +256,7 @@ Connect
 int
 aSockFd
 const
-BluetoothAddress
+nsAString
 &
 aBdAddress
 int
@@ -270,7 +270,7 @@ Accept
 int
 aSockFd
 const
-BluetoothAddress
+nsAString
 &
 aBdAddress
 int
@@ -334,7 +334,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSocketType
@@ -410,7 +410,7 @@ ConnectionStateNotification
 BluetoothHandsfreeConnectionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -422,7 +422,7 @@ AudioStateNotification
 BluetoothHandsfreeAudioState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -434,7 +434,7 @@ VoiceRecognitionNotification
 BluetoothHandsfreeVoiceRecognitionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -444,7 +444,7 @@ void
 AnswerCallNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -454,7 +454,7 @@ void
 HangupCallNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -468,7 +468,7 @@ aType
 int
 aVolume
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -482,7 +482,7 @@ nsAString
 &
 aNumber
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -494,7 +494,7 @@ DtmfNotification
 char
 aDtmf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -506,7 +506,7 @@ NRECNotification
 BluetoothHandsfreeNRECState
 aNrec
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -518,7 +518,7 @@ WbsNotification
 BluetoothHandsfreeWbsConfig
 aWbs
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -530,7 +530,7 @@ CallHoldNotification
 BluetoothHandsfreeCallHoldType
 aChld
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -540,7 +540,7 @@ void
 CnumNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -550,7 +550,7 @@ void
 CindNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -560,7 +560,7 @@ void
 CopsNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -570,7 +570,7 @@ void
 ClccNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -584,7 +584,7 @@ nsACString
 &
 aAtString
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -594,7 +594,7 @@ void
 KeyPressedNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -792,7 +792,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -807,7 +807,7 @@ void
 Disconnect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -822,7 +822,7 @@ void
 ConnectAudio
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -837,7 +837,7 @@ void
 DisconnectAudio
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -858,7 +858,7 @@ void
 StartVoiceRecognition
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -873,7 +873,7 @@ void
 StopVoiceRecognition
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -897,7 +897,7 @@ aType
 int
 aVolume
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -946,7 +946,7 @@ char
 *
 aCops
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -975,7 +975,7 @@ aRoam
 int
 aBattChg
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -994,7 +994,7 @@ char
 *
 aRsp
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -1013,7 +1013,7 @@ aResponseCode
 int
 aErrorCode
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -1044,7 +1044,7 @@ aNumber
 BluetoothHandsfreeCallAddressType
 aType
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeResultHandler
@@ -1095,7 +1095,7 @@ void
 ConfigureWbs
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothHandsfreeWbsConfig
@@ -1143,7 +1143,7 @@ ConnectionStateNotification
 BluetoothA2dpConnectionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1155,7 +1155,7 @@ AudioStateNotification
 BluetoothA2dpAudioState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1165,7 +1165,7 @@ void
 AudioConfigNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 uint32_t
@@ -1280,7 +1280,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -1295,7 +1295,7 @@ void
 Disconnect
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -1428,7 +1428,7 @@ void
 RemoteFeatureNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 unsigned
@@ -1870,7 +1870,7 @@ void
 ScanResultNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -1892,7 +1892,7 @@ aStatus
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1908,7 +1908,7 @@ aStatus
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -2102,7 +2102,7 @@ ReadRemoteRssiNotification
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -2146,7 +2146,7 @@ aServerIf
 bool
 aConnected
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -2282,7 +2282,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -2304,7 +2304,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -2334,7 +2334,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -2769,7 +2769,7 @@ Connect
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -2796,7 +2796,7 @@ Disconnect
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -2855,7 +2855,7 @@ Refresh
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3132,7 +3132,7 @@ RegisterNotification
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -3157,7 +3157,7 @@ DeregisterNotification
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -3182,7 +3182,7 @@ ReadRemoteRssi
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3197,7 +3197,7 @@ void
 GetDeviceType
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3324,7 +3324,7 @@ ConnectPeripheral
 int
 aServerIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -3351,7 +3351,7 @@ DisconnectPeripheral
 int
 aServerIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -3666,7 +3666,7 @@ RemoteDevicePropertiesNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -3702,7 +3702,7 @@ void
 PinRequestNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 const
@@ -3718,7 +3718,7 @@ void
 SspRequestNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 const
@@ -3740,7 +3740,7 @@ BondStateChangedNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 BluetoothBondState
@@ -3754,7 +3754,7 @@ AclStateChangedNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 bool
@@ -4112,7 +4112,7 @@ void
 GetRemoteDeviceProperties
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -4127,7 +4127,7 @@ void
 GetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -4146,7 +4146,7 @@ void
 SetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -4171,7 +4171,7 @@ void
 GetRemoteServiceRecord
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -4190,7 +4190,7 @@ void
 GetRemoteServices
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -4237,7 +4237,7 @@ void
 CreateBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothTransport
@@ -4254,7 +4254,7 @@ void
 RemoveBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -4269,7 +4269,7 @@ void
 CancelBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -4289,7 +4289,7 @@ void
 GetConnectionState
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -4309,7 +4309,7 @@ void
 PinReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -4330,7 +4330,7 @@ void
 SspReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSspVariant

@@ -454,7 +454,7 @@ void
 RemoteFeatureNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 unsigned
