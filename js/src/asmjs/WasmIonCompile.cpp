@@ -4346,7 +4346,7 @@ auto
 *
 load
 =
-MWasmLoadGlobalVar
+MAsmJSLoadGlobalVar
 :
 :
 New
@@ -4394,7 +4394,7 @@ curBlock_
 >
 add
 (
-MWasmStoreGlobalVar
+MAsmJSStoreGlobalVar
 :
 :
 New

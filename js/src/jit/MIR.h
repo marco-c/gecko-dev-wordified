@@ -65805,12 +65805,12 @@ AsmJSHeap
 }
 ;
 class
-MWasmLoadGlobalVar
+MAsmJSLoadGlobalVar
 :
 public
 MNullaryInstruction
 {
-MWasmLoadGlobalVar
+MAsmJSLoadGlobalVar
 (
 MIRType
 type
@@ -65863,7 +65863,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmLoadGlobalVar
+AsmJSLoadGlobalVar
 )
 TRIVIAL_NEW_WRAPPERS
 unsigned
@@ -65947,7 +65947,7 @@ override
 }
 ;
 class
-MWasmStoreGlobalVar
+MAsmJSStoreGlobalVar
 :
 public
 MUnaryInstruction
@@ -65957,7 +65957,7 @@ NoTypePolicy
 :
 Data
 {
-MWasmStoreGlobalVar
+MAsmJSStoreGlobalVar
 (
 unsigned
 globalDataOffset
@@ -65983,7 +65983,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmStoreGlobalVar
+AsmJSStoreGlobalVar
 )
 TRIVIAL_NEW_WRAPPERS
 unsigned

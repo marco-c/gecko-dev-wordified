@@ -4381,7 +4381,7 @@ masm
 .
 append
 (
-GlobalAccess
+AsmJSGlobalAccess
 (
 masm
 .
@@ -4403,7 +4403,7 @@ masm
 .
 append
 (
-GlobalAccess
+AsmJSGlobalAccess
 (
 masm
 .
