@@ -1018,6 +1018,9 @@ nsIWebProgress
 NOTIFY_STATE_WINDOW
 )
 ;
+let
+webNavigation
+=
 docShell
 .
 QueryInterface
@@ -1026,6 +1029,16 @@ Ci
 .
 nsIWebNavigation
 )
+;
+if
+(
+!
+webNavigation
+.
+sessionHistory
+)
+{
+webNavigation
 .
 sessionHistory
 =
@@ -1051,6 +1064,7 @@ Ci
 nsISHistory
 )
 ;
+}
 /
 /
 This
