@@ -169,7 +169,7 @@ PropTypes
 func
 .
 isRequired
-onUpdateTouchSimulationEnabled
+onUpdateTouchSimulation
 :
 PropTypes
 .
@@ -194,7 +194,7 @@ screenshot
 touchSimulation
 onExit
 onScreenshot
-onUpdateTouchSimulationEnabled
+onUpdateTouchSimulation
 }
 =
 this
@@ -288,7 +288,17 @@ className
 touchButtonClass
 onClick
 :
-onUpdateTouchSimulationEnabled
+(
+)
+=
+>
+onUpdateTouchSimulation
+(
+!
+touchSimulation
+.
+enabled
+)
 }
 )
 dom
