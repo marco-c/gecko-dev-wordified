@@ -11473,6 +11473,7 @@ gfxFont
 :
 DrawGlyphs
 (
+const
 gfxShapedText
 *
 aShapedText
@@ -12208,6 +12209,7 @@ gfxFont
 :
 DrawEmphasisMarks
 (
+const
 gfxTextRun
 *
 aShapedText
@@ -12516,6 +12518,7 @@ gfxFont
 :
 Draw
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -14212,6 +14215,7 @@ NeedsGlyphExtents
 gfxFont
 *
 aFont
+const
 gfxTextRun
 *
 aTextRun
@@ -14255,6 +14259,7 @@ IsSpaceGlyphInvisible
 DrawTarget
 *
 aRefDrawTarget
+const
 gfxTextRun
 *
 aTextRun
@@ -14346,6 +14351,7 @@ gfxFont
 :
 Measure
 (
+const
 gfxTextRun
 *
 aTextRun

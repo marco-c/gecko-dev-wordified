@@ -883,6 +883,7 @@ gfxMacFont
 :
 Measure
 (
+const
 gfxTextRun
 *
 aTextRun

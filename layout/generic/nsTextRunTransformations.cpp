@@ -832,6 +832,7 @@ NextRun
 )
 )
 {
+const
 gfxTextRun
 :
 :

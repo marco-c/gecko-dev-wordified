@@ -284,6 +284,7 @@ virtual
 RunMetrics
 Measure
 (
+const
 gfxTextRun
 *
 aTextRun

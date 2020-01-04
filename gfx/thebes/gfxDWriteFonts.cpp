@@ -3229,6 +3229,7 @@ gfxDWriteFont
 :
 Measure
 (
+const
 gfxTextRun
 *
 aTextRun
