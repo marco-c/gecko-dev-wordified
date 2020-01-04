@@ -1662,6 +1662,7 @@ if
 (
 gid
 >
+=
 glyphs
 (
 )
