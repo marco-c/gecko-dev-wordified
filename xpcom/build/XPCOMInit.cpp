@@ -1372,8 +1372,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 QueryInterface
 (
 aIID
@@ -2877,8 +2876,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 Init
 (
 )
@@ -4177,8 +4175,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 Init
 (
 )
@@ -4926,8 +4923,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 Shutdown
 (
 )

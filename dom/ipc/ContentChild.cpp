@@ -3184,8 +3184,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 Init
 (
 )

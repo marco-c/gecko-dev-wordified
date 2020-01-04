@@ -410,16 +410,6 @@ aKey
 /
 )
 {
-MOZ_ASSERT
-(
-nsThreadManager
-:
-:
-get
-(
-)
-)
-;
 RefPtr
 <
 WorkerThread

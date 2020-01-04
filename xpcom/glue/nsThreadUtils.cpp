@@ -403,8 +403,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 nsThreadManager
 :
 :
@@ -551,8 +550,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 nsThreadManager
 :
 :
@@ -625,8 +623,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 nsThreadManager
 :
 :
@@ -1735,8 +1732,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetCurrentThread
 (
 )

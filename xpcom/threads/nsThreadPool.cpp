@@ -714,8 +714,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 NewThread
 (
 0
@@ -1129,8 +1128,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetCurrentThread
 (
 getter_AddRefs
@@ -1684,8 +1682,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetCurrentThread
 (
 getter_AddRefs
