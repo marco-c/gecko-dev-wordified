@@ -15115,15 +15115,6 @@ js
 Mutex
 lock_
 ;
-#
-ifdef
-DEBUG
-PRThread
-*
-lockOwner_
-;
-#
-endif
 Redirection
 *
 redirection_
