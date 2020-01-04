@@ -1603,7 +1603,7 @@ ismap
 retval
 |
 =
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 else
@@ -1641,7 +1641,7 @@ REMOVAL
 retval
 |
 =
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
