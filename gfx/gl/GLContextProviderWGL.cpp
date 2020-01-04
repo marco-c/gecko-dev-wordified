@@ -638,11 +638,11 @@ mOGLLibrary
 =
 PR_LoadLibrary
 (
-&
 libGLFilename
-[
-0
-]
+.
+c_str
+(
+)
 )
 ;
 if
