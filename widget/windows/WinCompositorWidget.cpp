@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-WinCompositorWidgetProxy
+WinCompositorWidget
 .
 h
 "
@@ -138,10 +138,10 @@ mozilla
 :
 gfx
 ;
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
-WinCompositorWidgetProxy
+WinCompositorWidget
 (
 HWND
 aWnd
@@ -198,7 +198,7 @@ mWnd
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 OnDestroyWindow
@@ -215,7 +215,7 @@ nullptr
 ;
 }
 bool
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 PreRender
@@ -276,7 +276,7 @@ true
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 PostRender
@@ -298,7 +298,7 @@ Leave
 }
 nsIWidget
 *
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 RealWidget
@@ -315,7 +315,7 @@ mWindow
 ;
 }
 LayoutDeviceIntSize
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 GetClientSize
@@ -371,7 +371,7 @@ gfx
 :
 DrawTarget
 >
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 StartRemoteDrawing
@@ -549,7 +549,7 @@ size
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 EndRemoteDrawing
@@ -603,7 +603,7 @@ gfx
 :
 DrawTarget
 >
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 GetBackBufferDrawTarget
@@ -639,7 +639,7 @@ DrawTarget
 >
 target
 =
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 GetBackBufferDrawTarget
@@ -769,7 +769,7 @@ gfx
 :
 SourceSurface
 >
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 EndBackBufferDrawing
@@ -800,7 +800,7 @@ nullptr
 ;
 }
 return
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 EndBackBufferDrawing
@@ -812,7 +812,7 @@ already_AddRefed
 <
 CompositorVsyncDispatcher
 >
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 GetCompositorVsyncDispatcher
@@ -841,7 +841,7 @@ forget
 ;
 }
 uintptr_t
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 GetWidgetKey
@@ -853,7 +853,7 @@ mWidgetKey
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 EnterPresentLock
@@ -868,7 +868,7 @@ Enter
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 LeavePresentLock
@@ -886,7 +886,7 @@ RefPtr
 <
 gfxASurface
 >
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 EnsureTransparentSurface
@@ -942,7 +942,7 @@ forget
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 CreateTransparentSurface
@@ -998,7 +998,7 @@ GetDC
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 UpdateTransparency
@@ -1045,7 +1045,7 @@ EnsureTransparentSurface
 }
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 ClearTransparentWindow
@@ -1115,7 +1115,7 @@ RedrawTransparentWindow
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 ResizeTransparentWindow
@@ -1180,7 +1180,7 @@ aNewHeight
 ;
 }
 bool
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 RedrawTransparentWindow
@@ -1296,7 +1296,7 @@ ULW_ALPHA
 ;
 }
 HDC
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 GetWindowSurface
@@ -1320,7 +1320,7 @@ mWnd
 ;
 }
 void
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 :
 FreeWindowSurface

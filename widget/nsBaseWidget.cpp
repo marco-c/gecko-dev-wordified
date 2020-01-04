@@ -1807,7 +1807,7 @@ has
 acknowledged
 shutdown
 .
-mCompositorWidgetProxy
+mCompositorWidget
 =
 nullptr
 ;
@@ -9547,12 +9547,12 @@ CreateCompositorVsyncDispatcher
 if
 (
 !
-mCompositorWidgetProxy
+mCompositorWidget
 )
 {
-mCompositorWidgetProxy
+mCompositorWidget
 =
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 ;
@@ -9593,7 +9593,7 @@ gpu
 >
 CreateTopLevelCompositor
 (
-mCompositorWidgetProxy
+mCompositorWidget
 lm
 GetDefaultScale
 (
@@ -10088,12 +10088,12 @@ mozilla
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 nsBaseWidget
 :
 :
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 {
@@ -10105,7 +10105,7 @@ mozilla
 widget
 :
 :
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 (
 this
 )

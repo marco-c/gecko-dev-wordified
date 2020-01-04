@@ -2366,7 +2366,7 @@ GetLayerManager
 .
 aDC
 =
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -
@@ -2784,7 +2784,7 @@ mTransparencyMode
 {
 targetSurface
 =
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -
@@ -3197,7 +3197,7 @@ on
 the
 screen
 .
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -
