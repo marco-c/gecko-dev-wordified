@@ -3178,13 +3178,7 @@ on
 the
 decoder
 .
-RefPtr
-<
-MediaDecoder
-:
-:
-SeekPromise
->
+void
 InitiateSeek
 (
 SeekJob
