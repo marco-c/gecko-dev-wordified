@@ -810,7 +810,6 @@ getInstance
 .
 start
 (
-applicationContext
 )
 ;
 mInBackground
