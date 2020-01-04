@@ -2567,11 +2567,8 @@ ensure_menu_popup_widget
 ;
 gMenuItemWidget
 =
-gtk_menu_item_new_with_label
+gtk_menu_item_new
 (
-"
-M
-"
 )
 ;
 gtk_menu_shell_append
@@ -2693,11 +2690,8 @@ ensure_menu_popup_widget
 ;
 gCheckMenuItemWidget
 =
-gtk_check_menu_item_new_with_label
+gtk_check_menu_item_new
 (
-"
-M
-"
 )
 ;
 gtk_menu_shell_append
