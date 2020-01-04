@@ -462,6 +462,12 @@ kHasSeccompBPF
 )
 ;
 }
+static
+void
+SubmitTelemetry
+(
+)
+;
 /
 /
 For
