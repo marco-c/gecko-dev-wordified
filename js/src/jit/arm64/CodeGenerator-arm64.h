@@ -1199,6 +1199,15 @@ LClzI
 lir
 )
 ;
+virtual
+void
+visitCtzI
+(
+LCtzI
+*
+lir
+)
+;
 /
 /
 Out

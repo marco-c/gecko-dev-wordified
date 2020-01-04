@@ -991,6 +991,14 @@ ins
 )
 ;
 void
+visitCtz
+(
+MCtz
+*
+ins
+)
+;
+void
 visitSqrt
 (
 MSqrt

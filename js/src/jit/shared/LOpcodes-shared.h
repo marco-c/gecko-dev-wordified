@@ -793,6 +793,11 @@ ClzI
 \
 _
 (
+CtzI
+)
+\
+_
+(
 PopcntI
 )
 \
