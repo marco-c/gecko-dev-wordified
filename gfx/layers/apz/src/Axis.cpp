@@ -3071,6 +3071,10 @@ AssertOnControllerThread
 (
 )
 ;
+mAxisLocked
+=
+false
+;
 mVelocity
 =
 0
