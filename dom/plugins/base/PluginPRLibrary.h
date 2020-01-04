@@ -735,9 +735,6 @@ EndUpdateBackground
 (
 NPP
 instance
-gfxContext
-*
-aCtx
 const
 nsIntRect
 &

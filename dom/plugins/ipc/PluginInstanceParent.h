@@ -1464,9 +1464,6 @@ aCtx
 nsresult
 EndUpdateBackground
 (
-gfxContext
-*
-aCtx
 const
 nsIntRect
 &

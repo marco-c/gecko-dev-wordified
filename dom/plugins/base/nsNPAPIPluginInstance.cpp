@@ -6478,9 +6478,6 @@ nsNPAPIPluginInstance
 :
 EndUpdateBackground
 (
-gfxContext
-*
-aContext
 nsIntRect
 *
 aRect
@@ -6518,7 +6515,6 @@ EndUpdateBackground
 (
 &
 mNPP
-aContext
 *
 aRect
 )
