@@ -232,6 +232,9 @@ number
 of
 sources
 .
+(
+1
+)
 "
 )
 ;
@@ -251,6 +254,9 @@ url
 is
 incorrect
 .
+(
+1
+)
 "
 )
 ;
@@ -272,6 +278,9 @@ url
 is
 incorrect
 .
+(
+1
+)
 "
 )
 ;
@@ -298,6 +307,9 @@ label
 is
 incorrect
 .
+(
+1
+)
 "
 )
 ;
@@ -324,6 +336,9 @@ label
 is
 incorrect
 .
+(
+1
+)
 "
 )
 ;
@@ -344,6 +359,9 @@ the
 sources
 pane
 .
+(
+1
+)
 "
 )
 ;
@@ -369,6 +387,9 @@ pane
 is
 incorrect
 .
+(
+1
+)
 "
 )
 ;
@@ -396,6 +417,9 @@ is
 not
 displayed
 .
+(
+1
+)
 "
 )
 ;
@@ -421,6 +445,9 @@ source
 is
 displayed
 .
+(
+1
+)
 "
 )
 ;
@@ -438,6 +465,9 @@ location
 is
 correct
 .
+(
+1
+)
 "
 )
 ;
@@ -456,6 +486,9 @@ location
 is
 correct
 .
+(
+1
+)
 "
 )
 ;
@@ -480,6 +513,9 @@ is
 highlighted
 appropriately
 .
+(
+1
+)
 "
 )
 ;
@@ -553,6 +589,9 @@ the
 sources
 pane
 .
+(
+2
+)
 "
 )
 ;
@@ -576,6 +615,9 @@ pane
 is
 incorrect
 .
+(
+2
+)
 "
 )
 ;
@@ -601,6 +643,9 @@ source
 is
 displayed
 .
+(
+2
+)
 "
 )
 ;
@@ -628,6 +673,9 @@ is
 not
 displayed
 .
+(
+2
+)
 "
 )
 ;
@@ -659,6 +707,9 @@ location
 is
 correct
 .
+(
+2
+)
 "
 )
 ;
@@ -677,6 +728,9 @@ location
 is
 correct
 .
+(
+2
+)
 "
 )
 ;
@@ -702,6 +756,9 @@ highlight
 was
 removed
 .
+(
+2
+)
 "
 )
 ;
@@ -775,6 +832,9 @@ the
 sources
 pane
 .
+(
+3
+)
 "
 )
 ;
@@ -800,6 +860,9 @@ pane
 is
 incorrect
 .
+(
+3
+)
 "
 )
 ;
@@ -827,6 +890,9 @@ is
 not
 displayed
 .
+(
+3
+)
 "
 )
 ;
@@ -852,6 +918,9 @@ source
 is
 displayed
 .
+(
+3
+)
 "
 )
 ;
@@ -874,7 +943,7 @@ ok
 isCaretPos
 (
 gPanel
-1
+6
 )
 "
 Editor
@@ -883,6 +952,9 @@ location
 is
 correct
 .
+(
+3
+)
 "
 )
 ;
@@ -901,6 +973,9 @@ location
 is
 correct
 .
+(
+3
+)
 "
 )
 ;
@@ -925,6 +1000,9 @@ is
 highlighted
 appropriately
 .
+(
+3
+)
 "
 )
 ;
@@ -1023,6 +1101,9 @@ the
 sources
 pane
 .
+(
+4
+)
 "
 )
 ;
@@ -1046,6 +1127,9 @@ pane
 is
 incorrect
 .
+(
+4
+)
 "
 )
 ;
@@ -1071,6 +1155,9 @@ source
 is
 displayed
 .
+(
+4
+)
 "
 )
 ;
@@ -1098,6 +1185,9 @@ is
 not
 displayed
 .
+(
+4
+)
 "
 )
 ;
@@ -1129,6 +1219,9 @@ location
 is
 correct
 .
+(
+4
+)
 "
 )
 ;
@@ -1147,6 +1240,9 @@ location
 is
 correct
 .
+(
+4
+)
 "
 )
 ;
@@ -1171,6 +1267,9 @@ is
 highlighted
 appropriately
 .
+(
+4
+)
 "
 )
 ;

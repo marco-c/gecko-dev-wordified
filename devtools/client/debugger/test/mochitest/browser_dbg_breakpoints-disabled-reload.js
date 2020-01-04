@@ -618,7 +618,7 @@ gPanel
 .
 js
 "
-1
+6
 )
 ;
 yield
@@ -729,7 +729,7 @@ gPanel
 .
 js
 "
-1
+6
 )
 ;
 yield

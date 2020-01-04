@@ -1393,7 +1393,8 @@ js
 ensureCaretAt
 (
 gPanel
-1
+2
+9
 )
 verifyContents
 (

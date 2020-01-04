@@ -348,7 +348,7 @@ gPanel
 .
 js
 "
-1
+5
 )
 .
 then
@@ -483,7 +483,7 @@ gPanel
 .
 js
 "
-1
+6
 )
 .
 then
