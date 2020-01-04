@@ -2008,6 +2008,11 @@ WasmLoad
 \
 _
 (
+WasmLoadI64
+)
+\
+_
+(
 WasmStore
 )
 \
