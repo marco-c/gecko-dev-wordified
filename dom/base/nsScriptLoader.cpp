@@ -11417,11 +11417,14 @@ expected
 "
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 .
 resizeUninitialized
 (
 haveRead
+)
 )
 ;
 return
