@@ -5102,7 +5102,7 @@ needsAcquire
 surf
 -
 >
-ProducerAcquire
+ProducerReadAcquire
 (
 )
 ;
@@ -5127,7 +5127,7 @@ needsAcquire
 surf
 -
 >
-ProducerRelease
+ProducerReadRelease
 (
 )
 ;
