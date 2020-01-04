@@ -6666,8 +6666,8 @@ BACKOFF
 /
 /
 Allowing
-1
-second
+3
+seconds
 worth
 of
 of
@@ -6694,7 +6694,7 @@ minimumExpectedDelay
 (
 BACKOFF
 -
-1
+3
 )
 *
 1000
@@ -7166,8 +7166,8 @@ BACKOFF
 /
 /
 Allowing
-1
-second
+3
+seconds
 worth
 of
 of
@@ -7194,7 +7194,7 @@ minimumExpectedDelay
 (
 BACKOFF
 -
-1
+3
 )
 *
 1000
