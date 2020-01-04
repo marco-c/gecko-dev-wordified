@@ -278,6 +278,17 @@ MediaFormatReader
 "
 )
 ;
+mozilla
+:
+:
+LazyLogModule
+gMediaDemuxerLog
+(
+"
+MediaDemuxer
+"
+)
+;
 #
 define
 LOG

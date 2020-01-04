@@ -138,6 +138,13 @@ include
 <
 algorithm
 >
+extern
+mozilla
+:
+:
+LazyLogModule
+gMediaDemuxerLog
+;
 #
 define
 WEBM_DEBUG
@@ -149,7 +156,7 @@ arg
 )
 MOZ_LOG
 (
-gWebMDemuxerLog
+gMediaDemuxerLog
 mozilla
 :
 :
@@ -181,10 +188,6 @@ __VA_ARGS__
 namespace
 mozilla
 {
-extern
-LazyLogModule
-gWebMDemuxerLog
-;
 static
 uint32_t
 VIntLength

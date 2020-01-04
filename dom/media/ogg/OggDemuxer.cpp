@@ -209,6 +209,13 @@ include
 <
 algorithm
 >
+extern
+mozilla
+:
+:
+LazyLogModule
+gMediaDemuxerLog
+;
 #
 define
 OGG_DEBUG
@@ -220,7 +227,7 @@ arg
 )
 MOZ_LOG
 (
-gMediaDecoderLog
+gMediaDemuxerLog
 mozilla
 :
 :
@@ -278,7 +285,7 @@ msg
 )
 MOZ_LOG
 (
-gMediaDecoderLog
+gMediaDemuxerLog
 type
 msg
 )
@@ -446,10 +453,6 @@ OGG_SEEK_OPUS_PREROLL
 80
 *
 USECS_PER_MS
-;
-extern
-LazyLogModule
-gMediaDecoderLog
 ;
 class
 OggHeaders

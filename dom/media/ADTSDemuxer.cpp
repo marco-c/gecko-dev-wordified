@@ -159,16 +159,12 @@ h
 #
 ifdef
 PR_LOGGING
+extern
 mozilla
 :
 :
 LazyLogModule
-gADTSDemuxerLog
-(
-"
-ADTSDemuxer
-"
-)
+gMediaDemuxerLog
 ;
 #
 define
@@ -182,7 +178,7 @@ msg
 \
 MOZ_LOG
 (
-gADTSDemuxerLog
+gMediaDemuxerLog
 LogLevel
 :
 :
@@ -209,7 +205,7 @@ msg
 \
 MOZ_LOG
 (
-gADTSDemuxerLog
+gMediaDemuxerLog
 LogLevel
 :
 :
