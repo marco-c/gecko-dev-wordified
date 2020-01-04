@@ -2136,15 +2136,6 @@ nsDNSRecord
 hostRecord
 )
 ;
-if
-(
-!
-rec
-)
-status
-=
-NS_ERROR_OUT_OF_MEMORY
-;
 }
 mListener
 -
