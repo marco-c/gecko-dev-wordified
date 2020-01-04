@@ -832,7 +832,7 @@ mAllowedDirections
 (
 0
 )
-direction
+mDirection
 (
 0
 )
@@ -877,11 +877,11 @@ aOther
 .
 mAllowedDirections
 )
-direction
+mDirection
 (
 aOther
 .
-direction
+mDirection
 )
 clickCount
 (
@@ -983,7 +983,7 @@ nsIDOMSimpleGestureEvent
 for
 values
 uint32_t
-direction
+mDirection
 ;
 /
 /
@@ -1041,11 +1041,11 @@ isn
 '
 t
 copied
-direction
+mDirection
 =
 aEvent
 .
-direction
+mDirection
 ;
 delta
 =

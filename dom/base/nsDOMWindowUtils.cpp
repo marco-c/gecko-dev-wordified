@@ -6196,7 +6196,7 @@ aModifiers
 ;
 event
 .
-direction
+mDirection
 =
 aDirection
 ;

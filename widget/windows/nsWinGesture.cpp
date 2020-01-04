@@ -2042,7 +2042,7 @@ mRotateIntermediate
 }
 evt
 .
-direction
+mDirection
 =
 0
 ;
@@ -2068,7 +2068,7 @@ delta
 )
 evt
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :
@@ -2086,7 +2086,7 @@ delta
 )
 evt
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :
