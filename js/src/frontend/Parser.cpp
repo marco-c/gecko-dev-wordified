@@ -22194,7 +22194,7 @@ begin
 Node
 next
 =
-statement
+statementListItem
 (
 yieldHandling
 canHaveDirectives
@@ -33306,7 +33306,7 @@ begin
 Node
 stmt
 =
-statement
+statementListItem
 (
 yieldHandling
 )
