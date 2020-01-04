@@ -32996,7 +32996,10 @@ const
 nsStyleBasicShape
 *
 aStyleBasicShape
-uint8_t
+mozilla
+:
+:
+StyleClipShapeSizing
 aSizingBox
 )
 {
@@ -33033,7 +33036,10 @@ if
 aSizingBox
 =
 =
-NS_STYLE_CLIP_SHAPE_SIZING_NOBOX
+StyleClipShapeSizing
+:
+:
+NoBox
 )
 {
 return
@@ -33054,7 +33060,10 @@ nsCSSProps
 :
 ValueToKeyword
 (
+uint8_t
+(
 aSizingBox
+)
 nsCSSProps
 :
 :

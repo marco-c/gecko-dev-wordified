@@ -525,7 +525,10 @@ GetSizingBox
 )
 {
 case
-NS_STYLE_CLIP_SHAPE_SIZING_CONTENT
+StyleClipShapeSizing
+:
+:
+Content
 :
 r
 =
@@ -539,7 +542,10 @@ GetContentRectRelativeToSelf
 break
 ;
 case
-NS_STYLE_CLIP_SHAPE_SIZING_PADDING
+StyleClipShapeSizing
+:
+:
+Padding
 :
 r
 =
@@ -553,7 +559,10 @@ GetPaddingRectRelativeToSelf
 break
 ;
 case
-NS_STYLE_CLIP_SHAPE_SIZING_MARGIN
+StyleClipShapeSizing
+:
+:
+Margin
 :
 r
 =
