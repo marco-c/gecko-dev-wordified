@@ -199,11 +199,10 @@ tabFound
 false
 ;
 for
-each
 (
 let
 t
-in
+of
 tabs
 )
 {
