@@ -1582,14 +1582,9 @@ HasMaskLayers
 aLayer
 -
 >
-GetLocalOpacity
+IsOpaqueForVisibility
 (
 )
-=
-=
-1
-.
-0f
 )
 {
 if

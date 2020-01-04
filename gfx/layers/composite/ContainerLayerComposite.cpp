@@ -4354,6 +4354,14 @@ CONTENT_OPAQUE
 )
 &
 &
+layer
+-
+>
+IsOpaqueForVisibility
+(
+)
+&
+&
 LayerHasCheckerboardingAPZC
 (
 layer
