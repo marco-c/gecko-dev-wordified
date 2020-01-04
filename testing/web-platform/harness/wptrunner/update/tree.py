@@ -1867,6 +1867,12 @@ checkout
 "
 "
         
+assert
+rev
+is
+not
+None
+        
 args
 =
 [

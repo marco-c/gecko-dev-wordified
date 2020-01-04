@@ -290,7 +290,25 @@ host
 "
 :
 "
-localhost
+127
+.
+0
+.
+0
+.
+1
+"
+            
+"
+external_host
+"
+:
+"
+web
+-
+platform
+.
+test
 "
             
 "
