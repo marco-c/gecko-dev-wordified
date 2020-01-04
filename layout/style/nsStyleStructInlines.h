@@ -883,6 +883,13 @@ HasPerspectiveStyle
 )
 |
 |
+(
+mWillChangeBitField
+&
+NS_STYLE_WILL_CHANGE_FIXPOS_CB
+)
+|
+|
 aContextFrame
 -
 >
