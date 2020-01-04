@@ -462,7 +462,7 @@ mNpp
 }
 ;
 namespace
-js
+JS
 {
 template
 <
@@ -520,7 +520,7 @@ trc
 /
 /
 namespace
-js
+JS
 class
 NPObjWrapperHashEntry
 :
@@ -661,7 +661,7 @@ NPObject
 )
 .
 typedef
-js
+JS
 :
 :
 GCHashMap

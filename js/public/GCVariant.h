@@ -151,7 +151,7 @@ TracingAPI
 h
 "
 namespace
-js
+JS
 {
 /
 /
@@ -962,6 +962,14 @@ name
 }
 }
 ;
+}
+/
+/
+namespace
+JS
+namespace
+js
+{
 template
 <
 typename
@@ -978,6 +986,9 @@ GCVariantOperations
 using
 Impl
 =
+JS
+:
+:
 detail
 :
 :
@@ -1168,6 +1179,9 @@ Ts
 using
 Impl
 =
+JS
+:
+:
 detail
 :
 :

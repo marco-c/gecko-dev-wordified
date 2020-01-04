@@ -160,7 +160,7 @@ Vector
 h
 "
 namespace
-js
+JS
 {
 /
 /
@@ -349,6 +349,9 @@ MinInlineCapacity
 typename
 AllocPolicy
 =
+js
+:
+:
 TempAllocPolicy
 >
 class
@@ -1073,6 +1076,14 @@ element
 }
 }
 ;
+}
+/
+/
+namespace
+JS
+namespace
+js
+{
 template
 <
 typename
@@ -1090,6 +1101,9 @@ GCVectorOperations
 using
 Vec
 =
+JS
+:
+:
 GCVector
 <
 T
@@ -1314,6 +1328,9 @@ AllocPolicy
 using
 Vec
 =
+JS
+:
+:
 GCVector
 <
 T
@@ -2190,6 +2207,9 @@ AP
 class
 RootedBase
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2206,6 +2226,9 @@ JS
 :
 Rooted
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2232,6 +2255,9 @@ AP
 class
 MutableHandleBase
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2248,6 +2274,9 @@ JS
 :
 MutableHandle
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2274,6 +2303,9 @@ AP
 class
 HandleBase
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2290,6 +2322,9 @@ JS
 :
 Handle
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2316,6 +2351,9 @@ AP
 class
 PersistentRootedBase
 <
+JS
+:
+:
 GCVector
 <
 T
@@ -2332,6 +2370,9 @@ JS
 :
 PersistentRooted
 <
+JS
+:
+:
 GCVector
 <
 T

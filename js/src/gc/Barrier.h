@@ -3246,6 +3246,9 @@ WriteBarrieredBase
 T
 >
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -3567,6 +3570,9 @@ WriteBarrieredBase
 T
 >
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -3599,6 +3605,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -3637,6 +3646,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -3719,6 +3731,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4147,6 +4162,9 @@ WriteBarrieredBase
 T
 >
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4191,6 +4209,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4288,6 +4309,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4325,6 +4349,9 @@ this
 -
 >
 value
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4356,6 +4383,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4826,6 +4856,9 @@ ReadBarrieredBase
 T
 >
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4870,6 +4903,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4922,6 +4958,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4997,6 +5036,9 @@ this
 >
 post
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -5026,6 +5068,9 @@ this
 -
 >
 value
+JS
+:
+:
 GCPolicy
 <
 T
@@ -5107,6 +5152,9 @@ value
 )
 )
 return
+JS
+:
+:
 GCPolicy
 <
 T

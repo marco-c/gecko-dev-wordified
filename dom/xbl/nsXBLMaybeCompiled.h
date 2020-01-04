@@ -532,7 +532,7 @@ nsXBLMaybeCompiled
 *
 /
 namespace
-js
+JS
 {
 template
 <
@@ -568,6 +568,14 @@ UncompiledT
 }
 }
 ;
+}
+/
+/
+namespace
+JS
+namespace
+js
+{
 template
 <
 class

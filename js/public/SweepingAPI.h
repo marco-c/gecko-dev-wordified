@@ -337,9 +337,6 @@ initial
 {
 sweeper
 =
-js
-:
-:
 GCPolicy
 <
 T

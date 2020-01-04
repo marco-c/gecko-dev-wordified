@@ -526,7 +526,7 @@ Symbol
 ;
 }
 namespace
-js
+JS
 {
 /
 /
@@ -1030,9 +1030,6 @@ char
 name
 )
 {
-JS
-:
-:
 TraceEdge
 (
 trc
@@ -1057,6 +1054,9 @@ thingp
 )
 {
 return
+js
+:
+:
 gc
 :
 :
@@ -1215,7 +1215,7 @@ get
 /
 /
 namespace
-js
+JS
 #
 endif
 /

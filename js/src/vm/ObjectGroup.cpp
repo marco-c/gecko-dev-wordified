@@ -12585,6 +12585,9 @@ if
 (
 !
 (
+JS
+:
+:
 GCPolicy
 <
 PlainObjectKey

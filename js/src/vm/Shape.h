@@ -3608,7 +3608,7 @@ lookup
 using
 BaseShapeSet
 =
-js
+JS
 :
 :
 GCHashSet
@@ -7454,7 +7454,7 @@ protoObj
 using
 InitialShapeSet
 =
-js
+JS
 :
 :
 GCHashSet

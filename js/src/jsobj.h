@@ -289,6 +289,9 @@ js
 using
 PropertyDescriptorVector
 =
+JS
+:
+:
 GCVector
 <
 PropertyDescriptor

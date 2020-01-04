@@ -7640,7 +7640,7 @@ name
 using
 PropertyNameVector
 =
-js
+JS
 :
 :
 GCVector
