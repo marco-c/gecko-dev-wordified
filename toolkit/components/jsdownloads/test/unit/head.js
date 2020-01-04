@@ -3003,13 +3003,6 @@ sourceURI
 loadUsingSystemPrincipal
 :
 true
-securityFlags
-:
-Ci
-.
-nsILoadInfo
-.
-SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 }
 )
 ;
@@ -3023,7 +3016,7 @@ process
 .
 channel
 .
-asyncOpen2
+asyncOpen
 (
 {
 contentListener
@@ -3123,6 +3116,7 @@ aCount
 ;
 }
 }
+null
 )
 ;
 }
