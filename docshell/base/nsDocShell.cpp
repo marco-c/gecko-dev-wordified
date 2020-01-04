@@ -3773,7 +3773,7 @@ SetLoadGroup
 loadGroup
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPingListener
 >
@@ -10772,7 +10772,7 @@ GetPresShell
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -10829,7 +10829,7 @@ aPresShell
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -13745,7 +13745,7 @@ fullscreen
 as
 allowed
 .
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -14038,7 +14038,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShellEnumerator
 >
@@ -15202,7 +15202,7 @@ bool
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -15304,7 +15304,7 @@ top
 level
 windows
 .
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -15565,7 +15565,7 @@ nsIDOMStorage
 aStorage
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMStorage
 >
@@ -16563,7 +16563,7 @@ mItemType
 =
 typeContent
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -16717,7 +16717,7 @@ old
 =
 mCanExecuteScripts
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -17691,7 +17691,7 @@ NS_ENSURE_ARG_POINTER
 aRootTreeItem
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -17699,7 +17699,7 @@ root
 =
 this
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -20163,7 +20163,7 @@ GetPresShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -20894,7 +20894,7 @@ NS_ENSURE_ARG_POINTER
 aChild
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDocLoader
 >
@@ -21598,7 +21598,7 @@ NS_ENSURE_ARG_POINTER
 aChild
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDocLoader
 >
@@ -23535,7 +23535,7 @@ mDeviceSizeIsPageSize
 =
 aValue
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -32317,7 +32317,7 @@ this
 test
 meaningless
 .
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -32325,7 +32325,7 @@ docShell
 =
 this
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -46390,7 +46390,7 @@ Revoke
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 RestorePresentationEvent
 >
@@ -46540,7 +46540,7 @@ RestorePresentationEvent
 &
 mRestorePresentationEvent
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 :
@@ -47014,7 +47014,7 @@ after
 STATE_START
 completes
 .
-RefPtr
+nsRefPtr
 <
 RestorePresentationEvent
 >
@@ -48431,7 +48431,7 @@ if
 document
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -53739,7 +53739,7 @@ mTypeHint
 nsString
 mSrcdoc
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -54340,7 +54340,7 @@ GetFrameElementInternal
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -57801,7 +57801,7 @@ aURI
 mInPrivateBrowsing
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -62953,17 +62953,6 @@ nsIChannel
 LOAD_CLASSIFY_URI
 ;
 }
-(
-void
-)
-aChannel
--
->
-SetLoadFlags
-(
-loadFlags
-)
-;
 /
 /
 If
@@ -63003,31 +62992,26 @@ mLoadType
 )
 )
 {
-nsCOMPtr
-<
-nsIHttpChannelInternal
->
-internal
+loadFlags
+|
 =
-do_QueryInterface
-(
-aChannel
-)
+nsIChannel
+:
+:
+LOAD_BYPASS_SERVICE_WORKER
 ;
-if
+}
 (
-internal
+void
 )
-{
-internal
+aChannel
 -
 >
-ForceNoIntercept
+SetLoadFlags
 (
+loadFlags
 )
 ;
-}
-}
 uint32_t
 openFlags
 =
@@ -76126,7 +76110,7 @@ bool
 aIsOfType
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -76973,7 +76957,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -79654,7 +79638,7 @@ GetOriginAttributes
 OriginAttributes
 attrs
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -79952,7 +79936,7 @@ HasUnloadedParent
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -80496,7 +80480,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -80877,7 +80861,7 @@ Dispatch
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -80961,7 +80945,7 @@ nsIFetchEventDispatcher
 aFetchDispatcher
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -81144,7 +81128,7 @@ MOZ_ASSERT
 runnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 FetchEventDispatcher
 >
@@ -81294,7 +81278,7 @@ InFrameSwap
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
