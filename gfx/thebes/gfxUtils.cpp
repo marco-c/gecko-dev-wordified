@@ -3565,6 +3565,8 @@ SurfaceFormat
 aFormat
 gfxFloat
 aOpacity
+ExtendMode
+aExtendMode
 )
 {
 gfxSize
@@ -3952,10 +3954,7 @@ Draw
 (
 tmpCtx
 gfxImageRect
-ExtendMode
-:
-:
-REPEAT
+aExtendMode
 aFilter
 1
 .
@@ -4071,10 +4070,7 @@ SurfacePattern
 scaledImagePattern
 (
 scaledImage
-ExtendMode
-:
-:
-REPEAT
+aExtendMode
 Matrix
 (
 )
@@ -4379,6 +4375,7 @@ imageRect
 aFilter
 aFormat
 aOpacity
+extendMode
 )
 )
 {
