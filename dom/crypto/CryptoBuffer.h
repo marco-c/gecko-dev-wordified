@@ -390,10 +390,10 @@ ToNewUnsignedBuffer
 uint8_t
 *
 *
-buf
+aBuf
 uint32_t
 *
-bufLen
+aBufLen
 )
 const
 ;
