@@ -5521,7 +5521,7 @@ c
 }
 /
 /
-Severse
+Reverse
 subtract
 .
 void
@@ -7419,8 +7419,9 @@ cond
 }
 /
 /
-Miscelanous
+Miscellaneous
 instructions
+.
 void
 MacroAssemblerARM
 :
