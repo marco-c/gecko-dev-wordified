@@ -954,7 +954,9 @@ event
 .
 target
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
 pageActionFor
 (
