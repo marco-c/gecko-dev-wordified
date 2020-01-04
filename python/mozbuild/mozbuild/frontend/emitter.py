@@ -170,6 +170,10 @@ Linkable
     
 LocalInclude
     
+ObjdirFiles
+    
+ObjdirPreprocessedFiles
+    
 PerSourceFlag
     
 PreprocessedTestWebIDLFile
@@ -6175,6 +6179,20 @@ FinalTargetPreprocessedFiles
             
 (
 '
+OBJDIR_FILES
+'
+ObjdirFiles
+)
+            
+(
+'
+OBJDIR_PP_FILES
+'
+ObjdirPreprocessedFiles
+)
+            
+(
+'
 SDK_FILES
 '
 SdkFiles
@@ -6348,12 +6366,22 @@ files
                     
 if
 (
+(
 var
 =
 =
 '
 FINAL_TARGET_PP_FILES
 '
+or
+                         
+var
+=
+=
+'
+OBJDIR_PP_FILES
+'
+)
 and
                         
 not
@@ -6379,9 +6407,10 @@ allowed
 in
 '
 +
-                                
+                                 
 '
-FINAL_TARGET_PP_FILES
+%
+s
 :
 %
 s
@@ -6390,6 +6419,7 @@ s
                                 
 %
 (
+var
 f
 )
 context
