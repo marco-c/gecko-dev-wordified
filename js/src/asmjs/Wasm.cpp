@@ -8850,7 +8850,7 @@ compartment
 )
 -
 >
-debuggerObservesAsmJS
+isDebuggee
 (
 )
 )
