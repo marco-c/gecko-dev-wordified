@@ -2107,7 +2107,7 @@ message
 was
 created
 uint64_t
-time
+mTime
 ;
 /
 /
@@ -2152,7 +2152,7 @@ WidgetEventTime
 (
 )
 :
-time
+mTime
 (
 0
 )
@@ -2175,7 +2175,7 @@ TimeStamp
 aTimeStamp
 )
 :
-time
+mTime
 (
 aTime
 )
@@ -2194,11 +2194,11 @@ WidgetEventTime
 aOther
 )
 {
-time
+mTime
 =
 aOther
 .
-time
+mTime
 ;
 timeStamp
 =

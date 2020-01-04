@@ -237,7 +237,7 @@ true
 mEvent
 -
 >
-time
+mTime
 =
 PR_Now
 (

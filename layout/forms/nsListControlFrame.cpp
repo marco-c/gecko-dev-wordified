@@ -15191,7 +15191,7 @@ if
 keyEvent
 -
 >
-time
+mTime
 -
 gLastKeyTime
 >
@@ -15293,7 +15293,7 @@ gLastKeyTime
 keyEvent
 -
 >
-time
+mTime
 ;
 /
 /

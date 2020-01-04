@@ -826,12 +826,12 @@ widget
 ;
 compositionEvent
 .
-time
+mTime
 =
 aCompositionEvent
 -
 >
-time
+mTime
 ;
 compositionEvent
 .

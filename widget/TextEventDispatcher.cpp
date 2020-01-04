@@ -873,7 +873,7 @@ const
 {
 aEvent
 .
-time
+mTime
 =
 PR_IntervalNow
 (

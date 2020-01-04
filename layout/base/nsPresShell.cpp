@@ -33445,7 +33445,7 @@ viewAPD
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -41677,12 +41677,12 @@ tiltY
 ;
 event
 .
-time
+mTime
 =
 touchEvent
 -
 >
-time
+mTime
 ;
 event
 .

@@ -13263,7 +13263,7 @@ aEvent
 {
 aEvent
 .
-time
+mTime
 =
 PR_Now
 (

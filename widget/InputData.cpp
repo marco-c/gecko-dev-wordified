@@ -245,7 +245,7 @@ InputData
 MOUSE_INPUT
 aMouseEvent
 .
-time
+mTime
 aMouseEvent
 .
 timeStamp
@@ -735,7 +735,7 @@ modifiers
 ;
 event
 .
-time
+mTime
 =
 mTime
 ;
@@ -802,7 +802,7 @@ InputData
 MULTITOUCH_INPUT
 aTouchEvent
 .
-time
+mTime
 aTouchEvent
 .
 timeStamp
@@ -1152,7 +1152,7 @@ modifiers
 ;
 event
 .
-time
+mTime
 =
 this
 -
@@ -1370,7 +1370,7 @@ y
 ;
 event
 .
-time
+mTime
 =
 mTime
 ;
@@ -1578,7 +1578,7 @@ InputData
 MULTITOUCH_INPUT
 aMouseEvent
 .
-time
+mTime
 aMouseEvent
 .
 timeStamp
@@ -1908,7 +1908,7 @@ modifiers
 ;
 wheelEvent
 .
-time
+mTime
 =
 mTime
 ;
@@ -2242,7 +2242,7 @@ InputData
 SCROLLWHEEL_INPUT
 aWheelEvent
 .
-time
+mTime
 aWheelEvent
 .
 timeStamp
@@ -2381,7 +2381,7 @@ modifiers
 ;
 wheelEvent
 .
-time
+mTime
 =
 mTime
 ;

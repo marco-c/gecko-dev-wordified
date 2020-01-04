@@ -664,7 +664,7 @@ eVoidEvent
 mEvent
 -
 >
-time
+mTime
 =
 PR_Now
 (
@@ -2368,7 +2368,7 @@ aTimeStamp
 mEvent
 -
 >
-time
+mTime
 ;
 return
 NS_OK
@@ -5432,7 +5432,7 @@ double
 mEvent
 -
 >
-time
+mTime
 )
 ;
 }

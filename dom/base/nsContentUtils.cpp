@@ -42902,7 +42902,7 @@ y
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -43306,7 +43306,7 @@ aClickCount
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (

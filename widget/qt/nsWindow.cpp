@@ -5948,7 +5948,7 @@ isAutoRepeat
 ;
 aEvent
 .
-time
+mTime
 =
 0
 ;
@@ -7281,7 +7281,7 @@ MetaModifier
 ;
 wheelEvent
 .
-time
+mTime
 =
 0
 ;

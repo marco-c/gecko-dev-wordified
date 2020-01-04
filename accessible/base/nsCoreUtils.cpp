@@ -1046,7 +1046,7 @@ eLeftButton
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -1131,7 +1131,7 @@ aRootWidget
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
