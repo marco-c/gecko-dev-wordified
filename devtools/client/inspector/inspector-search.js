@@ -824,6 +824,9 @@ this
 .
 _onSearch
 (
+event
+.
+shiftKey
 )
 ;
 }
