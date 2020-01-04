@@ -392,17 +392,6 @@ Rule
 aRule
 )
 ;
-nsresult
-ReplaceStyleRule
-(
-Rule
-*
-aOld
-Rule
-*
-aNew
-)
-;
 virtual
 bool
 UseForPresentation
