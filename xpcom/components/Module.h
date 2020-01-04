@@ -800,7 +800,7 @@ kPStaticModules
 visibility
 (
 "
-protected
+default
 "
 )
 )
