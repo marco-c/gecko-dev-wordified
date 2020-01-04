@@ -375,6 +375,16 @@ mozilla
 gfx
 :
 :
+Color
+Color
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 RectCornerRadii
 RectCornerRadii
 ;
@@ -959,7 +969,7 @@ gfxPoint
 &
 aBlurStdDev
 const
-gfxRGBA
+Color
 &
 aShadowColor
 const
