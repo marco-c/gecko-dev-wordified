@@ -1617,6 +1617,10 @@ mPreGapLength
 (
 0
 )
+mPixelRowSize
+(
+0
+)
 mCurrentRow
 (
 0
