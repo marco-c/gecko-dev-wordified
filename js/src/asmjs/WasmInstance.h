@@ -634,11 +634,7 @@ const
 ExportMap
 &
 exports
-MutableHandle
-<
-WasmInstanceObject
-*
->
+HandleWasmInstanceObject
 instanceObj
 )
 ;

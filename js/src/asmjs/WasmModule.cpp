@@ -1703,7 +1703,7 @@ ArrayBufferObjectMaybeShared
 *
 >
 asmJSHeap
-MutableHandleWasmInstanceObject
+HandleWasmInstanceObject
 instanceObj
 )
 const

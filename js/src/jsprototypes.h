@@ -1123,6 +1123,17 @@ Wasm
 )
 )
 \
+real
+(
+WebAssembly
+48
+InitWebAssemblyClass
+CLASP
+(
+WebAssembly
+)
+)
+\
 IF_PROMISE
 (
 real
@@ -1130,7 +1141,7 @@ imaginary
 )
 (
 Promise
-48
+49
 InitViaClassSpec
 OCLASP
 (
