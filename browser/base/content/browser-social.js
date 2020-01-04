@@ -10593,13 +10593,6 @@ this
 is
 ok
 .
-let
-tbh
-=
-this
-.
-_toolbarHelper
-;
 return
 Social
 .
@@ -10619,7 +10612,9 @@ document
 .
 getElementById
 (
-tbh
+this
+.
+_toolbarHelper
 .
 idFromOrigin
 (
