@@ -416,7 +416,7 @@ height
 0x7FFF
 )
 ;
-static_assert
+assert
 (
 std
 :
@@ -436,13 +436,6 @@ max
 >
 =
 0xFFFFFFFF
-"
-size_t
-max
-too
-small
-!
-"
 )
 ;
 /
