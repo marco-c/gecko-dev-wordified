@@ -6084,9 +6084,10 @@ wc
 .
 lpfnWndProc
 =
+WinUtils
 :
 :
-DefWindowProcW
+NonClientDpiScalingDefWindowProcW
 ;
 wc
 .
