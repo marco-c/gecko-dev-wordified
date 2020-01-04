@@ -318,7 +318,7 @@ head_channels
 js
 channel
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -326,7 +326,6 @@ ChannelListener
 checkResponse
 channel
 )
-null
 )
 ;
 if
