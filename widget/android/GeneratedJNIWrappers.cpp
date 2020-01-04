@@ -1066,17 +1066,6 @@ String
 :
 Param
 a1
-mozilla
-:
-:
-jni
-:
-:
-String
-:
-:
-Param
-a2
 )
 -
 >
@@ -1101,7 +1090,6 @@ nullptr
 nullptr
 a0
 a1
-a2
 )
 ;
 }
