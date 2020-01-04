@@ -23697,7 +23697,7 @@ on
 Windows
 so
 use
-900k
+980k
 .
 /
 /
@@ -23719,7 +23719,7 @@ const
 size_t
 kStackQuota
 =
-900
+980
 *
 1024
 ;
