@@ -558,6 +558,16 @@ aSize
 0
 ;
 virtual
+void
+DidComposite
+(
+NPP
+instance
+)
+=
+0
+;
+virtual
 bool
 IsOOP
 (

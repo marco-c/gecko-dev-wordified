@@ -16374,3 +16374,15 @@ desc
 ;
 }
 }
+bool
+gfxWindowsPlatform
+:
+:
+SupportsPluginDirectDXGIDrawing
+(
+)
+{
+return
+false
+;
+}

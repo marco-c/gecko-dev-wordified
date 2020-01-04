@@ -1441,6 +1441,15 @@ aSize
 override
 ;
 virtual
+void
+DidComposite
+(
+NPP
+aInstance
+)
+override
+;
+virtual
 bool
 IsOOP
 (

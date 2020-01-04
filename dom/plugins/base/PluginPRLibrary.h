@@ -746,6 +746,16 @@ override
 ;
 virtual
 void
+DidComposite
+(
+NPP
+aInstance
+)
+override
+{
+}
+virtual
+void
 GetLibraryPath
 (
 nsACString
