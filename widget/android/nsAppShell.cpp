@@ -513,15 +513,6 @@ gLocationCallback
 =
 nullptr
 ;
-nsAutoPtr
-<
-mozilla
-:
-:
-AndroidGeckoEvent
->
-gLastSizeChange
-;
 nsAppShell
 *
 nsAppShell
