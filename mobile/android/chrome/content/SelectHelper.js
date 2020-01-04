@@ -421,7 +421,9 @@ window
 :
 element
 .
-contentDocument
+ownerDocument
+.
+defaultView
 }
 )
 ;
