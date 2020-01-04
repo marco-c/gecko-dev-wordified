@@ -1218,7 +1218,7 @@ strchr
 (
 munged_ifname
 '
-+
+.
 '
 )
 ;
