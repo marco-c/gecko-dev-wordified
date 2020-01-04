@@ -9772,7 +9772,10 @@ JS_PUBLIC_API
 (
 bool
 )
-JS_DefaultValue
+JS
+:
+:
+ToPrimitive
 (
 JSContext
 *

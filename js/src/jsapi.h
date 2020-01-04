@@ -11663,6 +11663,9 @@ Value
 vp
 )
 ;
+namespace
+JS
+{
 /
 *
 *
@@ -11728,7 +11731,7 @@ JS_PUBLIC_API
 (
 bool
 )
-JS_DefaultValue
+ToPrimitive
 (
 JSContext
 *
@@ -11747,9 +11750,6 @@ MutableHandleValue
 vp
 )
 ;
-namespace
-JS
-{
 /
 *
 *
