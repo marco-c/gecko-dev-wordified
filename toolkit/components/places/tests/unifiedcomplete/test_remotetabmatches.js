@@ -416,6 +416,9 @@ style
 "
 action
 "
+"
+remotetab
+"
 ]
 icon
 :
