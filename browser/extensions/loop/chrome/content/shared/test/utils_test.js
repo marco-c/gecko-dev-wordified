@@ -2378,6 +2378,13 @@ return
 footer
 "
 ;
+default
+:
+return
+"
+unknown
+"
+;
 }
 }
 )

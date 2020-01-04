@@ -63,9 +63,12 @@ GetAppVersionInfo
 result
 =
 >
+{
 appVersionInfo
 =
 result
+;
+}
 )
 ;
 Assert

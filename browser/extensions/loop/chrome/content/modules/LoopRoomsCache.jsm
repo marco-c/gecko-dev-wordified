@@ -1193,6 +1193,13 @@ cache
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 }

@@ -70,9 +70,12 @@ GetAllConstants
 constants
 =
 >
+{
 gConstants
 =
 constants
+;
+}
 )
 ;
 function
