@@ -611,6 +611,7 @@ mNewState
 }
 ;
 enum
+class
 AudioContextOperation
 {
 Suspend
