@@ -4316,7 +4316,7 @@ self
 .
 config
         
-extract_dirs
+target_unzip_dirs
 =
 None
         
@@ -4329,7 +4329,7 @@ specific_tests_zip_dirs
 ]
 :
             
-extract_dirs
+target_unzip_dirs
 =
 list
 (
@@ -4385,7 +4385,7 @@ self
 actions
 :
                     
-extract_dirs
+target_unzip_dirs
 .
 extend
 (
@@ -4447,9 +4447,9 @@ self
 .
 download_and_extract
 (
-extract_dirs
+target_unzip_dirs
 =
-extract_dirs
+target_unzip_dirs
                                                           
 suite_categories
 =
