@@ -223,13 +223,6 @@ GetCPUCount
 (
 )
 ;
-enum
-ThreadType
-{
-MainThread
-BackgroundThread
-}
-;
 namespace
 gcstats
 {

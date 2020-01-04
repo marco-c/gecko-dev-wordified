@@ -1750,6 +1750,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 if
 (
 ForOfPIC
@@ -1880,7 +1890,7 @@ ForOfPIC
 "
 JSCLASS_HAS_PRIVATE
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 ForOfPICClassOps
 }

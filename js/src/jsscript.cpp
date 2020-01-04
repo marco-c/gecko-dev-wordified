@@ -8345,6 +8345,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+onMainThread
+(
+)
+)
+;
 ScriptSourceObject
 *
 sso

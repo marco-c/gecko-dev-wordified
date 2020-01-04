@@ -525,7 +525,7 @@ RESERVED_SLOTS
 )
 |
 \
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 \
 &
 ErrorObjectClassOps
@@ -1458,6 +1458,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 if
 (
 JSErrorReport

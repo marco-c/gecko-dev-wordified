@@ -1591,6 +1591,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 if
 (
 ObjectValueMap
@@ -2571,7 +2581,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_WeakMap
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 WeakMapObjectClassOps
 }
