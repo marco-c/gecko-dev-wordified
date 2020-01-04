@@ -3661,14 +3661,6 @@ head
 IsConnect
 (
 )
-|
-|
-head
--
->
-IsOptions
-(
-)
 )
 {
 /
