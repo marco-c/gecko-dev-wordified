@@ -519,10 +519,11 @@ click
 "
 )
 ;
-bezier
-.
-hide
+yield
+hideTooltipAndWaitForRuleviewChanged
 (
+bezier
+view
 )
 ;
 }
