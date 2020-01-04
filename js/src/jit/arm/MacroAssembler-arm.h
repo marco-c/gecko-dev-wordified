@@ -2276,6 +2276,15 @@ cond
 Always
 )
 ;
+void
+ma_ctz
+(
+Register
+src
+Register
+dest
+)
+;
 /
 /
 Memory
