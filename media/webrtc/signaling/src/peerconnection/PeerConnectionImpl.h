@@ -4115,7 +4115,7 @@ setting
 has
 been
 set
-nsAutoPtr
+RefPtr
 <
 PeerIdentity
 >

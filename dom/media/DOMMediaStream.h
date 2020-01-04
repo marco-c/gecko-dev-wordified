@@ -4488,7 +4488,7 @@ to
 be
 sent
 to
-nsAutoPtr
+RefPtr
 <
 PeerIdentity
 >
