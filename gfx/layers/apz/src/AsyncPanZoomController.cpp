@@ -8277,7 +8277,7 @@ GetGuid
 APZStateChange
 :
 :
-StartTouch
+eStartTouch
 CurrentTouchBlock
 (
 )
@@ -14833,7 +14833,7 @@ GetGuid
 APZStateChange
 :
 :
-EndTouch
+eEndTouch
 CurrentTouchBlock
 (
 )
@@ -16363,7 +16363,7 @@ GetGuid
 APZStateChange
 :
 :
-StartPanning
+eStartPanning
 )
 ;
 }
@@ -26281,7 +26281,7 @@ GetGuid
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 )
 ;
 #
@@ -26358,7 +26358,7 @@ GetGuid
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 )
 ;
 #

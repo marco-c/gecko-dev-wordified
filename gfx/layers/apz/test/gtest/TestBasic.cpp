@@ -1731,7 +1731,7 @@ GeckoContentController
 APZStateChange
 :
 :
-StartTouch
+eStartTouch
 _
 )
 )
@@ -1754,7 +1754,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 _
 )
 )
@@ -1777,7 +1777,7 @@ GeckoContentController
 APZStateChange
 :
 :
-StartPanning
+eStartPanning
 _
 )
 )
@@ -1800,7 +1800,7 @@ GeckoContentController
 APZStateChange
 :
 :
-EndTouch
+eEndTouch
 _
 )
 )
@@ -1823,7 +1823,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 _
 )
 )
@@ -1858,7 +1858,7 @@ GeckoContentController
 APZStateChange
 :
 :
-StartTouch
+eStartTouch
 _
 )
 )
@@ -1881,7 +1881,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 _
 )
 )
@@ -1904,7 +1904,7 @@ GeckoContentController
 APZStateChange
 :
 :
-StartPanning
+eStartPanning
 _
 )
 )
@@ -1927,7 +1927,7 @@ GeckoContentController
 APZStateChange
 :
 :
-EndTouch
+eEndTouch
 _
 )
 )
@@ -1950,7 +1950,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 _
 )
 )

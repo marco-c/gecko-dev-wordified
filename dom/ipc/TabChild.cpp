@@ -9823,7 +9823,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 )
 {
 /
