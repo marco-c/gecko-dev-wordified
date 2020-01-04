@@ -180,7 +180,7 @@ function
 )
 -
 >
-atom
+name
 (
 )
 :

@@ -4221,7 +4221,7 @@ if
 (
 JSAtom
 *
-atom
+name
 =
 FunctionObject
 (
@@ -4229,12 +4229,12 @@ fn
 )
 -
 >
-atom
+name
 (
 )
 )
 return
-atom
+name
 -
 >
 asPropertyName
@@ -49416,7 +49416,7 @@ args
 AsmJSModule
 &
 module
-HandlePropertyName
+HandleAtom
 name
 )
 {
@@ -50279,7 +50279,7 @@ Invoke
 Very
 slow
 .
-RootedPropertyName
+RootedAtom
 name
 (
 cx
@@ -50336,7 +50336,7 @@ HandleObject
 moduleObj
 )
 {
-RootedPropertyName
+RootedAtom
 name
 (
 cx
@@ -55676,7 +55676,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 &
@@ -55689,7 +55689,7 @@ append
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -56225,7 +56225,7 @@ MOZ_ASSERT
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -56240,7 +56240,7 @@ append
 fun
 -
 >
-atom
+name
 (
 )
 )

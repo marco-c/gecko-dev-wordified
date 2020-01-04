@@ -29799,10 +29799,7 @@ functionNonDelazifying
 {
 if
 (
-js
-:
-:
-PropertyName
+JSAtom
 *
 name
 =

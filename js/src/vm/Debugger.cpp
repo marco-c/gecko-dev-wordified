@@ -51778,7 +51778,7 @@ JSFunction
 (
 )
 .
-atom
+name
 (
 )
 ;
