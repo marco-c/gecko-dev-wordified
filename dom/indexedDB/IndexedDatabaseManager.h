@@ -211,6 +211,9 @@ namespace
 indexedDB
 {
 class
+BackgroundUtilsChild
+;
+class
 FileManager
 ;
 class
@@ -418,6 +421,11 @@ ExperimentalFeaturesEnabled
 static
 bool
 IsFileHandleEnabled
+(
+)
+;
+void
+ClearBackgroundActor
 (
 )
 ;
@@ -785,6 +793,10 @@ mLocale
 ;
 #
 endif
+BackgroundUtilsChild
+*
+mBackgroundActor
+;
 static
 bool
 sIsMainProcess
