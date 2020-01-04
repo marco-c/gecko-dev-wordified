@@ -1085,7 +1085,6 @@ Function
 Entry
 ImportJitExit
 ImportInterpExit
-Interrupt
 Inline
 }
 ;

@@ -1322,14 +1322,7 @@ offsets
 )
 ;
 bool
-defineSyncInterruptStub
-(
-ProfilingOffsets
-offsets
-)
-;
-bool
-defineAsyncInterruptStub
+defineInterruptStub
 (
 Offsets
 offsets

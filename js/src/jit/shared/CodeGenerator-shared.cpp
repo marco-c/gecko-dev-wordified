@@ -10067,9 +10067,6 @@ AsmJSStackAlignment
 0
 )
 ;
-#
-ifdef
-DEBUG
 static_assert
 (
 AsmJSStackAlignment
@@ -10101,6 +10098,9 @@ alignment
 "
 )
 ;
+#
+ifdef
+DEBUG
 Label
 ok
 ;
