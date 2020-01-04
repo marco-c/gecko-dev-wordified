@@ -2018,6 +2018,7 @@ Rule
 GetOwningRule
 (
 )
+const
 {
 if
 (
@@ -2095,6 +2096,7 @@ nsHTMLCSSStyleSheet
 GetHTMLCSSStyleSheet
 (
 )
+const
 {
 if
 (
