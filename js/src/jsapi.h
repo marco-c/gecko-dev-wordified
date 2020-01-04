@@ -39450,13 +39450,13 @@ frames
 struct
 MaxFrames
 {
-unsigned
+uint32_t
 maxFrames
 ;
 explicit
 MaxFrames
 (
-unsigned
+uint32_t
 max
 )
 :

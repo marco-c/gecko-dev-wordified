@@ -405,7 +405,7 @@ stack
 *
 /
 const
-unsigned
+uint32_t
 ASYNC_STACK_MAX_FRAME_COUNT
 =
 60
@@ -6842,7 +6842,7 @@ HandleString
 asyncCause
 MutableHandleSavedFrame
 adoptedStack
-unsigned
+uint32_t
 maxFrameCount
 )
 {
@@ -8265,7 +8265,7 @@ FirstSubsumedFrame
 )
 )
 {
-unsigned
+uint32_t
 maxAsyncFrames
 =
 capture
@@ -8493,7 +8493,7 @@ HandleString
 asyncCause
 MutableHandleSavedFrame
 adoptedStack
-unsigned
+uint32_t
 maxFrameCount
 )
 {
@@ -8577,7 +8577,7 @@ requested
 more
 frames
 .
-unsigned
+uint32_t
 maxFrames
 =
 maxFrameCount
@@ -8624,7 +8624,7 @@ nullptr
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0

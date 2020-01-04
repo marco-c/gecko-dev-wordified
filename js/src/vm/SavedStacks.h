@@ -2016,7 +2016,7 @@ HandleString
 asyncCause
 MutableHandleSavedFrame
 adoptedStack
-unsigned
+uint32_t
 maxFrameCount
 =
 0
@@ -2325,7 +2325,7 @@ HandleString
 asyncCause
 MutableHandleSavedFrame
 adoptedStack
-unsigned
+uint32_t
 maxFrameCount
 )
 ;
