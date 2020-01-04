@@ -4207,11 +4207,11 @@ newKind
 =
 GenericObject
 ;
+ScopedJSFreePtr
+<
 void
-*
+>
 buf
-=
-nullptr
 ;
 if
 (
@@ -4280,6 +4280,10 @@ initTypedArraySlots
 obj
 len
 buf
+.
+forget
+(
+)
 allocKind
 )
 ;
