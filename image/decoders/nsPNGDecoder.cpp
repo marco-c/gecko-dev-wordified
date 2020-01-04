@@ -5282,7 +5282,10 @@ decode
 }
 MOZ_ASSERT
 (
+WriteState
+(
 result
+)
 !
 =
 WriteState
