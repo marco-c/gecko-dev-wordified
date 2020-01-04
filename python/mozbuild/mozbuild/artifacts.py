@@ -7699,6 +7699,11 @@ HEAD
 '
         
 ]
+cwd
+=
+self
+.
+_topsrcdir
 )
         
 hg_hash_list
@@ -7726,6 +7731,11 @@ rev_list
 splitlines
 (
 )
+cwd
+=
+self
+.
+_topsrcdir
 )
         
 zeroes
@@ -9003,6 +9013,11 @@ r
 '
 revset
 ]
+cwd
+=
+self
+.
+_topsrcdir
 )
 .
 strip
@@ -9063,6 +9078,11 @@ parse
 '
 revset
 ]
+cwd
+=
+self
+.
+_topsrcdir
 )
 .
 strip
@@ -9087,6 +9107,11 @@ git2hg
 '
 revision
 ]
+cwd
+=
+self
+.
+_topsrcdir
 )
 .
 strip
