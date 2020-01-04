@@ -335,6 +335,17 @@ i
 mStatus
 =
 =
+kGMPOutputRestricted
+|
+|
+keys
+[
+i
+]
+.
+mStatus
+=
+=
 kGMPOutputDownscaled
 )
 {
