@@ -4447,6 +4447,16 @@ nsIFrame
 aFrame
 )
 {
+if
+(
+aFrame
+-
+>
+FrameMaintainsOverflow
+(
+)
+)
+{
 mOverflowChangedTracker
 .
 AddFrame
@@ -4458,6 +4468,7 @@ OverflowChangedTracker
 CHILDREN_CHANGED
 )
 ;
+}
 nsIFrame
 :
 :
