@@ -67,7 +67,7 @@ then
 an
 /
 /
-AddFeature
+HoldWorker
 (
 )
 is
@@ -79,9 +79,9 @@ used
 to
 result
 in
+/
+/
 multiple
-/
-/
 calls
 to
 the
@@ -95,6 +95,8 @@ worker
 s
 context
 had
+/
+/
 been
 GCed
 .

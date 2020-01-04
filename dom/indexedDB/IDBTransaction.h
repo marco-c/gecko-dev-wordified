@@ -271,11 +271,11 @@ indexedDB
 BackgroundRequestChild
 ;
 class
-WorkerFeature
+WorkerHolder
 ;
 friend
 class
-WorkerFeature
+WorkerHolder
 ;
 public
 :
@@ -358,9 +358,9 @@ mDeletedObjectStores
 ;
 nsAutoPtr
 <
-WorkerFeature
+WorkerHolder
 >
-mWorkerFeature
+mWorkerHolder
 ;
 /
 /

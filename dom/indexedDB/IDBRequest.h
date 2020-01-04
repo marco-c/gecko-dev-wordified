@@ -810,7 +810,7 @@ public
 IDBRequest
 {
 class
-WorkerFeature
+WorkerHolder
 ;
 /
 /
@@ -829,9 +829,9 @@ mFactory
 ;
 nsAutoPtr
 <
-WorkerFeature
+WorkerHolder
 >
-mWorkerFeature
+mWorkerHolder
 ;
 const
 bool
