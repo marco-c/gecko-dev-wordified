@@ -6631,7 +6631,7 @@ cp
 )
 {
 int
-val
+maxUses
 =
 atoi
 (
@@ -6642,7 +6642,7 @@ cp
 ;
 if
 (
-val
+maxUses
 >
 0
 )
@@ -6658,7 +6658,7 @@ static_cast
 uint32_t
 >
 (
-val
+maxUses
 )
 ;
 }

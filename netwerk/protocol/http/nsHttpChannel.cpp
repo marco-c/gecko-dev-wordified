@@ -4672,7 +4672,7 @@ any
 .
 .
 int32_t
-ref
+ref1
 =
 requestURI
 -
@@ -4686,7 +4686,7 @@ FindChar
 ;
 if
 (
-ref
+ref1
 !
 =
 kNotFound
@@ -4697,7 +4697,7 @@ requestURI
 >
 SetLength
 (
-ref
+ref1
 )
 ;
 }
@@ -4945,7 +4945,7 @@ any
 .
 .
 int32_t
-ref
+ref2
 =
 requestURI
 -
@@ -4959,7 +4959,7 @@ FindChar
 ;
 if
 (
-ref
+ref2
 !
 =
 kNotFound
@@ -4970,7 +4970,7 @@ requestURI
 >
 SetLength
 (
-ref
+ref2
 )
 ;
 }
@@ -28448,7 +28448,7 @@ request
 ;
 char
 *
-val
+bufData
 =
 buf
 .
@@ -28471,10 +28471,10 @@ nsCRT
 :
 strtok
 (
-val
+bufData
 NS_HTTP_HEADER_SEPS
 &
-val
+bufData
 )
 ;
 while
@@ -28789,10 +28789,10 @@ nsCRT
 :
 strtok
 (
-val
+bufData
 NS_HTTP_HEADER_SEPS
 &
-val
+bufData
 )
 ;
 }
@@ -39567,7 +39567,6 @@ AsyncDoom
 nullptr
 )
 ;
-nsresult
 rv
 =
 StartRedirectChannelToURI

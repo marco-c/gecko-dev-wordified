@@ -8284,7 +8284,7 @@ ent
 "
 /
 /
-beacuse
+because
 we
 have
 already
@@ -8383,7 +8383,7 @@ nsAutoPtr
 nsConnectionEntry
 >
 &
-ent
+entry
 =
 iter
 .
@@ -8394,7 +8394,7 @@ Data
 if
 (
 !
-ent
+entry
 -
 >
 mIdleConns
@@ -8419,7 +8419,7 @@ nsHttpConnection
 >
 conn
 (
-ent
+entry
 -
 >
 mIdleConns
@@ -8428,7 +8428,7 @@ mIdleConns
 ]
 )
 ;
-ent
+entry
 -
 >
 mIdleConns
@@ -8542,7 +8542,7 @@ nsAutoPtr
 nsConnectionEntry
 >
 &
-ent
+entry
 =
 iter
 .
@@ -8553,7 +8553,7 @@ Data
 if
 (
 !
-ent
+entry
 -
 >
 mUsingSpdy
@@ -8571,7 +8571,7 @@ index
 ;
 index
 <
-ent
+entry
 -
 >
 mActiveConns
@@ -8589,7 +8589,7 @@ nsHttpConnection
 *
 conn
 =
-ent
+entry
 -
 >
 mActiveConns
@@ -15628,7 +15628,7 @@ ent
 )
 {
 int32_t
-index
+transIndex
 =
 ent
 -
@@ -15642,7 +15642,7 @@ trans
 ;
 if
 (
-index
+transIndex
 >
 =
 0
@@ -15682,7 +15682,7 @@ mPendingQ
 .
 RemoveElementAt
 (
-index
+transIndex
 )
 ;
 }
@@ -19448,7 +19448,7 @@ active
 connection
 .
 PRIntervalTime
-now
+tickTime
 =
 PR_IntervalNow
 (
@@ -19491,7 +19491,7 @@ index
 >
 ReadTimeoutTick
 (
-now
+tickTime
 )
 ;
 mTimeoutTickNext
@@ -19530,7 +19530,7 @@ Length
 )
 {
 TimeStamp
-now
+currentTime
 =
 TimeStamp
 :
@@ -19593,7 +19593,7 @@ half
 >
 Duration
 (
-now
+currentTime
 )
 ;
 /

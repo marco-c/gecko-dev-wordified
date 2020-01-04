@@ -11519,7 +11519,6 @@ mozIDOMWindowProxy
 >
 win
 ;
-nsresult
 rv
 =
 util
@@ -11567,8 +11566,10 @@ mTopWindowURI
 nsCString
 spec
 ;
-rv
-=
+if
+(
+NS_SUCCEEDED
+(
 mTopWindowURI
 -
 >
@@ -11576,7 +11577,9 @@ GetSpec
 (
 spec
 )
-;
+)
+)
+{
 LOG
 (
 (
@@ -11608,6 +11611,7 @@ this
 )
 )
 ;
+}
 }
 #
 endif
