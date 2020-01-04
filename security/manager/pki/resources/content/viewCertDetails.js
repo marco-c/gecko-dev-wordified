@@ -1109,11 +1109,15 @@ this
 ;
 }
 throw
+new
+Error
+(
 Components
 .
 results
 .
 NS_ERROR_NO_INTERFACE
+)
 ;
 }
 ;

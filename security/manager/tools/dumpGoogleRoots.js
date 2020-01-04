@@ -289,6 +289,9 @@ e
 )
 {
 throw
+new
+Error
+(
 "
 ERROR
 :
@@ -301,6 +304,7 @@ PEMs
 "
 +
 e
+)
 ;
 }
 if
@@ -314,6 +318,9 @@ status
 )
 {
 throw
+new
+Error
+(
 "
 ERROR
 :
@@ -330,6 +337,7 @@ Status
 req
 .
 status
+)
 ;
 }
 let

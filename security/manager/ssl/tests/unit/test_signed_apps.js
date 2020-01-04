@@ -592,6 +592,9 @@ name
 )
 {
 throw
+new
+Error
+(
 "
 input
 file
@@ -603,6 +606,7 @@ entries
 "
 +
 name
+)
 ;
 }
 }
@@ -748,6 +752,9 @@ available
 )
 {
 throw
+new
+Error
+(
 "
 Truncating
 already
@@ -758,10 +765,14 @@ entry
 will
 result
 in
+"
++
+"
 identical
 entry
 .
 "
+)
 ;
 }
 var
