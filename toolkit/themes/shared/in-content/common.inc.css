@@ -929,6 +929,12 @@ menu
 -
 text
 )
+:
+not
+(
+.
+indent
+)
 xul
 |
 groupbox
