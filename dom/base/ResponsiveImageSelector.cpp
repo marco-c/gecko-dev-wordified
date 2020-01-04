@@ -2626,14 +2626,6 @@ i
 )
 ;
 }
-MOZ_ASSERT
-(
-effectiveWidth
->
-=
-0
-)
-;
 *
 aWidth
 =
