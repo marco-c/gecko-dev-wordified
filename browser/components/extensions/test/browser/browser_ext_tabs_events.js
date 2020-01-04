@@ -1692,7 +1692,7 @@ tab
 {
 if
 (
-tab
+changeInfo
 .
 status
 =
