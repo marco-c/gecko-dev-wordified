@@ -1306,13 +1306,13 @@ else
 :
                     
 #
-use
+Encode
 base64
 to
 avoid
 that
 some
-browser
+browsers
 (
 such
 as
@@ -1332,14 +1332,17 @@ of
 another
 link
 if
+it
+is
+contained
+in
 the
 data
 URL
-contains
 .
                     
 #
-use
+Use
 '
 charset
 =
@@ -1355,6 +1358,25 @@ like
 Chinese
 .
                     
+utf_encoded
+=
+unicode
+(
+content
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
+'
+xmlcharrefreplace
+'
+)
+                    
 href
 =
 '
@@ -1362,7 +1384,7 @@ data
 :
 text
 /
-plain
+html
 ;
 charset
 =
@@ -1379,19 +1401,7 @@ base64
 .
 b64encode
 (
-str
-(
-content
-)
-.
-encode
-(
-'
-utf
--
-8
-'
-)
+utf_encoded
 )
                 
 links_html
