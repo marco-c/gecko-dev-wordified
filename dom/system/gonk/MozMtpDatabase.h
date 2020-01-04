@@ -548,7 +548,7 @@ aStorageID
 )
 ;
 void
-FileWatcherUpdate
+MtpWatcherUpdate
 (
 RefCountedMtpServer
 *
@@ -1197,7 +1197,7 @@ aRemainder
 )
 ;
 void
-FileWatcherNotify
+MtpWatcherNotify
 (
 DbEntry
 *
