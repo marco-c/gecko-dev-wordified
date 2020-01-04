@@ -8936,12 +8936,17 @@ patchAt
 )
 )
 ;
+masm
+.
+propagateOOM
+(
 ool
 -
 >
 addCodeLabel
 (
 cl
+)
 )
 ;
 }
