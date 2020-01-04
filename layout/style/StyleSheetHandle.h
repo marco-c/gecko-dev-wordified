@@ -641,6 +641,13 @@ these
 methods
 .
 inline
+bool
+IsInline
+(
+)
+const
+;
+inline
 nsIURI
 *
 GetSheetURI
