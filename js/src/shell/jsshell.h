@@ -167,7 +167,6 @@ unsigned
 errorNumber
 )
 ;
-static
 void
 my_ErrorReporter
 (
