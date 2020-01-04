@@ -145,6 +145,11 @@ limits
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 cert
 .
@@ -617,7 +622,10 @@ aValue
 ;
 \
 typedef
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 Type
 name
