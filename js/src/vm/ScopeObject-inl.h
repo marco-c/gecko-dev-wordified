@@ -217,7 +217,7 @@ MOZ_ASSERT
 (
 is
 <
-CallObject
+LexicalScopeBase
 >
 (
 )
@@ -357,7 +357,7 @@ v
 }
 inline
 void
-CallObject
+LexicalScopeBase
 :
 :
 setAliasedVar
@@ -419,7 +419,7 @@ v
 }
 inline
 void
-CallObject
+LexicalScopeBase
 :
 :
 setAliasedVarFromArguments
@@ -468,7 +468,7 @@ v
 }
 inline
 void
-CallObject
+LexicalScopeBase
 :
 :
 initRemainingSlotsToUninitializedLexicals
@@ -511,7 +511,7 @@ JS_UNINITIALIZED_LEXICAL
 }
 inline
 void
-CallObject
+LexicalScopeBase
 :
 :
 initAliasedLexicalsToThrowOnTouch

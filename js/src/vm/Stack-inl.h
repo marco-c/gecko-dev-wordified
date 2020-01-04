@@ -271,7 +271,6 @@ obj
 bool
 cacheable
 =
-(
 obj
 -
 >
@@ -280,19 +279,6 @@ is
 CallObject
 >
 (
-)
-&
-&
-!
-obj
--
->
-is
-<
-ModuleEnvironmentObject
->
-(
-)
 )
 |
 |
