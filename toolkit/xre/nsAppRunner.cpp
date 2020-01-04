@@ -6037,6 +6037,14 @@ return
 NS_OK
 ;
 }
+/
+/
+This
+method
+is
+from
+nsIFInishDumpingCallback
+.
 NS_IMETHODIMP
 nsXULAppInfo
 :
