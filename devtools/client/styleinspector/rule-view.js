@@ -5068,6 +5068,13 @@ name
 return
 ;
 }
+let
+oldName
+=
+property
+.
+name
+;
 property
 .
 name
@@ -5101,9 +5108,7 @@ modifications
 renameProperty
 (
 index
-property
-.
-name
+oldName
 name
 )
 ;
