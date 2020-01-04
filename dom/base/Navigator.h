@@ -2213,6 +2213,9 @@ uint32_t
 >
 mRequestedVibrationPattern
 ;
+bool
+mBatteryTelemetryReported
+;
 }
 ;
 }
