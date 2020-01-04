@@ -3114,6 +3114,10 @@ DebuggerNeedsDelazification
 unsigned
 debugModeBits
 ;
+friend
+class
+AutoRestoreCompartmentDebugMode
+;
 static
 const
 unsigned
