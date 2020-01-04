@@ -61428,6 +61428,7 @@ height
 =
 aHeight
 )
+{
 reflowState
 .
 SetVResize
@@ -61435,6 +61436,7 @@ SetVResize
 true
 )
 ;
+}
 #
 ifdef
 DEBUG_REFLOW
