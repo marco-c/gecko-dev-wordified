@@ -1552,17 +1552,6 @@ producerID
 t
 -
 >
-mInputFrameID
-=
-timedTexture
-.
-inputFrameID
-(
-)
-;
-t
--
->
 mTexture
 -
 >

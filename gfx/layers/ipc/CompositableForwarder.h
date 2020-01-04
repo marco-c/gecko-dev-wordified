@@ -868,10 +868,6 @@ mProducerID
 (
 0
 )
-mInputFrameID
-(
-0
-)
 {
 }
 TextureClient
@@ -889,9 +885,6 @@ mFrameID
 ;
 int32_t
 mProducerID
-;
-int32_t
-mInputFrameID
 ;
 }
 ;

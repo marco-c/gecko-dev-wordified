@@ -721,15 +721,6 @@ mDocument
 ;
 public
 :
-RefPtr
-<
-gfx
-:
-:
-VRDeviceProxy
->
-mVRHMDDevice
-;
 /
 /
 This
