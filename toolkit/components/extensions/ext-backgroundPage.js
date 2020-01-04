@@ -771,6 +771,14 @@ null
 this
 .
 chromeWebNav
+.
+close
+(
+)
+;
+this
+.
+chromeWebNav
 =
 null
 ;
