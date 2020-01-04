@@ -252,6 +252,9 @@ MediaData
 >
 &
 aVideoQueue
+OutputStreamManager
+*
+aOutputStreamManager
 )
 ;
 /

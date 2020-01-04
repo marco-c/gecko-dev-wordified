@@ -1106,6 +1106,9 @@ MediaData
 >
 &
 aVideoQueue
+OutputStreamManager
+*
+aOutputStreamManager
 )
 :
 mOwnerThread
@@ -1114,10 +1117,7 @@ aOwnerThread
 )
 mOutputStreamManager
 (
-new
-OutputStreamManager
-(
-)
+aOutputStreamManager
 )
 mPlaying
 (
