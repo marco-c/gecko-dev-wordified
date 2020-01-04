@@ -1060,6 +1060,11 @@ redo
 import
 retry
         
+from
+httplib
+import
+HTTPException
+        
 #
 suppress
 boto
@@ -1273,6 +1278,7 @@ S3CopyError
 S3ResponseError
                                            
 IOError
+HTTPException
 )
 )
         
