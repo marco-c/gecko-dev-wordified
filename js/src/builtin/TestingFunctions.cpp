@@ -10218,8 +10218,7 @@ ShellObjectMetadataCallback
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 )
 {
 AutoEnterOOMUnsafeRegion

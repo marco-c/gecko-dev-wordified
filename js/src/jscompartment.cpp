@@ -5851,8 +5851,7 @@ setNewObjectMetadata
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -7815,10 +7814,10 @@ hasObjectPendingMetadata
 )
 )
 {
-JSObject
-*
+RootedObject
 obj
-=
+(
+cx_
 cx_
 -
 >
@@ -7834,6 +7833,7 @@ as
 PendingMetadata
 >
 (
+)
 )
 ;
 /
@@ -7891,6 +7891,8 @@ objectMetadataState
 =
 prevState_
 ;
+obj
+=
 SetNewObjectMetadata
 (
 cx_
