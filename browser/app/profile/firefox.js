@@ -19543,7 +19543,7 @@ pref
 "
 print
 .
-user_simplify_page
+use_simplify_page
 "
 true
 )
@@ -19563,7 +19563,7 @@ pref
 "
 print
 .
-user_simplify_page
+use_simplify_page
 "
 true
 )
