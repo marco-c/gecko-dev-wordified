@@ -1395,10 +1395,7 @@ JSWhyMagic
 ;
 #
 if
-defined
-(
-IS_LITTLE_ENDIAN
-)
+MOZ_LITTLE_ENDIAN
 #
 if
 defined
@@ -1597,10 +1594,7 @@ JS_PUNBOX64
 else
 /
 *
-defined
-(
-IS_LITTLE_ENDIAN
-)
+MOZ_LITTLE_ENDIAN
 *
 /
 #
@@ -1782,10 +1776,7 @@ JS_PUNBOX64
 endif
 /
 *
-defined
-(
-IS_LITTLE_ENDIAN
-)
+MOZ_LITTLE_ENDIAN
 *
 /
 JS_STATIC_ASSERT
