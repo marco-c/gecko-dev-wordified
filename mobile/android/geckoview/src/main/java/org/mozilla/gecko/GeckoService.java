@@ -606,16 +606,7 @@ ensureCrashHandling
 ;
 GeckoAppShell
 .
-setApplicationContext
-(
-getApplicationContext
-(
-)
-)
-;
-GeckoAppShell
-.
-setNotificationClient
+setNotificationListener
 (
 new
 ServiceNotificationClient

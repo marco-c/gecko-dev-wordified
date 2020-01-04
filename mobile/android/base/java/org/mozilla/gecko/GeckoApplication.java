@@ -957,6 +957,13 @@ getApplicationContext
 (
 )
 ;
+GeckoAppShell
+.
+setApplicationContext
+(
+context
+)
+;
 HardwareUtils
 .
 init
