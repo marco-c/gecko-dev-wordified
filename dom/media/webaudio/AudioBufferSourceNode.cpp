@@ -439,9 +439,6 @@ override
 {
 MOZ_ASSERT
 (
-mSource
-&
-&
 mDestination
 )
 ;
@@ -451,7 +448,6 @@ WebAudioUtils
 ConvertAudioTimelineEventToTicks
 (
 aEvent
-mSource
 mDestination
 )
 ;
