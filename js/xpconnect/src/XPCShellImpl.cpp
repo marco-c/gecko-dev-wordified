@@ -6008,6 +6008,10 @@ toggleIon
 toggleAsmJS
 (
 )
+.
+toggleWasm
+(
+)
 ;
 break
 ;

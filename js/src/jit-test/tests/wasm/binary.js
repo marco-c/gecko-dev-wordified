@@ -324,6 +324,13 @@ rest
 ]
 ;
 }
+const
+wasmEval
+=
+Wasm
+.
+instantiateModule
+;
 assertErrorMessage
 (
 (

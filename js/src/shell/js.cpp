@@ -41542,6 +41542,11 @@ setAsmJS
 enableAsmJS
 )
 .
+setWasm
+(
+true
+)
+.
 setNativeRegExp
 (
 enableNativeRegExp
@@ -43685,6 +43690,11 @@ enableIon
 setAsmJS
 (
 enableAsmJS
+)
+.
+setWasm
+(
+true
 )
 .
 setNativeRegExp
