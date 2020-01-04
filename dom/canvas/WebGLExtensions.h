@@ -233,6 +233,13 @@ WebGLExtensionBase
 (
 )
 ;
+virtual
+void
+OnMarkLost
+(
+)
+{
+}
 bool
 mIsLost
 ;
@@ -1294,6 +1301,13 @@ WebGLContext
 DECL_WEBGL_EXTENSION_GOOP
 private
 :
+virtual
+void
+OnMarkLost
+(
+)
+override
+;
 /
 *
 *
