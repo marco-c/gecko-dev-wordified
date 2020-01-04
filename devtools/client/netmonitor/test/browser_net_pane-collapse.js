@@ -120,7 +120,9 @@ ok
 (
 detailsPane
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -132,7 +134,9 @@ collapsed
 &
 detailsPaneToggleButton
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -275,7 +279,9 @@ ok
 !
 detailsPane
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -288,7 +294,9 @@ collapsed
 !
 detailsPaneToggleButton
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -434,7 +442,9 @@ ok
 (
 detailsPane
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -446,7 +456,9 @@ collapsed
 &
 detailsPaneToggleButton
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -584,7 +596,9 @@ ok
 !
 detailsPane
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -597,7 +611,9 @@ collapsed
 !
 detailsPaneToggleButton
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
