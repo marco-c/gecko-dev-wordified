@@ -81,15 +81,6 @@ text
 css
 '
 >
-div
-{
-background
--
-color
-:
-seagreen
-;
-}
 <
 /
 style
