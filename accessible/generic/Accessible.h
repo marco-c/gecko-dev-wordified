@@ -304,9 +304,9 @@ const
 char
 *
 aMsgText
-DocAccessible
+Accessible
 *
-aDoc
+aRoot
 GetTreePrefix
 aPrefixFunc
 void
@@ -7259,9 +7259,9 @@ const
 char
 *
 aMsgText
-DocAccessible
+Accessible
 *
-aDoc
+aRoot
 logging
 :
 :
