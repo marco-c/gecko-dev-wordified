@@ -1032,9 +1032,7 @@ var
 (
 -
 -
-panel
--
-arrowcontent
+arrowpanel
 -
 background
 )
@@ -3429,10 +3427,6 @@ rgb
 41
 29
 )
-;
-opacity
-:
-1
 ;
 animation
 :
