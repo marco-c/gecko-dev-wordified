@@ -154,8 +154,6 @@ NSSUTIL_VERSION
 3
 .
 20
-.
-1
 "
 #
 define
@@ -168,7 +166,7 @@ NSSUTIL_VMINOR
 #
 define
 NSSUTIL_VPATCH
-1
+0
 #
 define
 NSSUTIL_VBUILD
