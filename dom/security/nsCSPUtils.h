@@ -268,7 +268,7 @@ const
 char
 *
 aCategory
-uint32_t
+uint64_t
 aInnerWindowID
 )
 ;
@@ -326,7 +326,7 @@ const
 char
 *
 aCategory
-uint32_t
+uint64_t
 aInnerWindowID
 )
 ;
