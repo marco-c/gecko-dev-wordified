@@ -439,7 +439,7 @@ jsm
 ;
 const
 {
-loadDeviceList
+loadPreferredDevices
 }
 =
 require
