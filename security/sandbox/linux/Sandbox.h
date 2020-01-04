@@ -300,7 +300,7 @@ filesystem
 access
 .
 MOZ_SANDBOX_EXPORT
-void
+bool
 SetContentProcessSandbox
 (
 int

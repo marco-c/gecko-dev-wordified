@@ -163,13 +163,6 @@ endif
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

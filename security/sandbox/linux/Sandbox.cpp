@@ -4688,7 +4688,7 @@ failure
 .
 *
 /
-void
+bool
 SetContentProcessSandbox
 (
 int
@@ -4729,6 +4729,7 @@ aBrokerFd
 ;
 }
 return
+false
 ;
 }
 /
@@ -4777,6 +4778,9 @@ nullptr
 )
 )
 )
+;
+return
+true
 ;
 }
 #
