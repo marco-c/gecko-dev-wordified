@@ -352,7 +352,7 @@ PostRestyleEventForLazyConstruction
 (
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -379,7 +379,7 @@ nsRestyleHint
 aRestyleHint
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -999,7 +999,7 @@ eRestyle_LaterSiblings
 )
 )
 {
-NS_ERROR
+NS_WARNING
 (
 nsPrintfCString
 (
@@ -1366,7 +1366,7 @@ nsIContent
 aChild
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -1395,7 +1395,7 @@ nsIContent
 aFirstNewContent
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -1427,7 +1427,7 @@ nsIContent
 aFollowingSibling
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -1797,7 +1797,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
