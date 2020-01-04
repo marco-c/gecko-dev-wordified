@@ -4940,15 +4940,6 @@ GLuint
 index
 )
 ;
-GLenum
-GetCurrentBinding
-(
-WebGLBuffer
-*
-buffer
-)
-const
-;
 /
 /
 -
