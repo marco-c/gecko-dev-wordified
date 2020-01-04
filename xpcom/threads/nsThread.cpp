@@ -2961,6 +2961,10 @@ mEvents
 &
 mEventsRoot
 )
+mEventsRoot
+(
+mLock
+)
 mPriority
 (
 PRIORITY_NORMAL
@@ -6670,6 +6674,7 @@ queue
 new
 nsChainedEventQueue
 (
+mLock
 )
 ;
 queue
