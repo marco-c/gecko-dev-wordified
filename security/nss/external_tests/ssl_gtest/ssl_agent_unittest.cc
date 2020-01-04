@@ -175,9 +175,6 @@ h
 namespace
 nss_test
 {
-#
-ifdef
-NSS_ENABLE_TLS_1_3
 /
 /
 This
@@ -332,7 +329,7 @@ kCannedTls13ClientHello
 0x00
 0x02
 0x00
-0x0d
+0x0e
 0x00
 0x28
 0x01
@@ -845,8 +842,6 @@ k0RttData
 ABCDEF
 "
 ;
-#
-endif
 TEST_P
 (
 TlsAgentTest
@@ -903,9 +898,6 @@ SSL_ERROR_RX_UNEXPECTED_CERT_VERIFY
 )
 ;
 }
-#
-ifdef
-NSS_ENABLE_TLS_1_3
 TEST_P
 (
 TlsAgentTestClient
@@ -1750,8 +1742,6 @@ SSL_ERROR_BAD_MAC_READ
 )
 ;
 }
-#
-endif
 INSTANTIATE_TEST_CASE_P
 (
 AgentTests
@@ -1774,9 +1764,6 @@ kTlsModesStream
 )
 )
 ;
-#
-ifdef
-NSS_ENABLE_TLS_1_3
 INSTANTIATE_TEST_CASE_P
 (
 ClientTests
@@ -1787,8 +1774,6 @@ TlsConnectTestBase
 kTlsModesAll
 )
 ;
-#
-endif
 }
 /
 /

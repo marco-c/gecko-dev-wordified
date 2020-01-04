@@ -141,13 +141,13 @@ h
 include
 <
 string
+.
+h
 >
 #
 include
 <
 string
-.
-h
 >
 namespace
 nss_test

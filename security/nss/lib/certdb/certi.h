@@ -257,6 +257,7 @@ state
 will
 be
 set
+\
 if
 we
 have
@@ -271,6 +272,7 @@ signature
 .
 Can
 be
+\
 cleared
 if
 the
@@ -294,6 +296,7 @@ state
 will
 be
 set
+\
 if
 the
 last
@@ -308,6 +311,7 @@ be
 cleared
 if
 a
+\
 new
 fetch
 succeeds
@@ -324,6 +328,7 @@ state
 will
 be
 set
+\
 if
 we
 don

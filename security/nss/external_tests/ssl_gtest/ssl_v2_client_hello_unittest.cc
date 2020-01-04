@@ -121,6 +121,13 @@ h
 #
 include
 "
+pk11pub
+.
+h
+"
+#
+include
+"
 sslerr
 .
 h
@@ -129,13 +136,6 @@ h
 include
 "
 sslproto
-.
-h
-"
-#
-include
-"
-pk11pub
 .
 h
 "
@@ -167,7 +167,7 @@ h
 #
 include
 "
-tls_filter
+gtest_utils
 .
 h
 "
@@ -181,7 +181,7 @@ h
 #
 include
 "
-gtest_utils
+tls_filter
 .
 h
 "
@@ -1215,9 +1215,6 @@ TLS
 .
 3
 .
-#
-ifdef
-NSS_ENABLE_TLS_1_3
 TEST_F
 (
 SSLv2ClientHelloTestF
@@ -1281,8 +1278,6 @@ error_code
 )
 ;
 }
-#
-endif
 /
 /
 Test

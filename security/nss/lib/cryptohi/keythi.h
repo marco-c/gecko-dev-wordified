@@ -1026,7 +1026,6 @@ SECKEY_Attributes_Cached
 )
 )
 ?
-\
 (
 0
 !
@@ -1044,7 +1043,6 @@ attribute
 )
 )
 :
-\
 PK11_HasAttributeSet
 (
 key
@@ -1081,7 +1079,6 @@ SECKEY_Attributes_Cached
 )
 )
 ?
-\
 (
 0
 !
@@ -1099,7 +1096,6 @@ attribute
 )
 )
 :
-\
 PK11_HasAttributeSet
 (
 key

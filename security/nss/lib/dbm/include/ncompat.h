@@ -820,7 +820,6 @@ how
 SIG_BLOCK
 )
 ?
-\
 sigblock
 (
 0
@@ -831,7 +830,6 @@ sigblock
 set
 )
 :
-\
 (
 (
 (
@@ -842,7 +840,6 @@ how
 SIG_UNBLOCK
 )
 ?
-\
 sigblock
 (
 0
@@ -856,7 +853,6 @@ set
 )
 )
 :
-\
 (
 (
 how
@@ -865,7 +861,6 @@ how
 =
 SIG_SETMASK
 ?
-\
 *
 (
 set
@@ -901,7 +896,6 @@ __sigtemp
 )
 )
 :
-\
 sigsetmask
 (
 __sigtemp

@@ -904,7 +904,7 @@ sec
 .
 isServer
 =
-0
+PR_FALSE
 ;
 ssl_ChooseSessionIDProcs
 (
@@ -1482,7 +1482,7 @@ sec
 .
 isServer
 =
-1
+PR_TRUE
 ;
 ssl_ChooseSessionIDProcs
 (

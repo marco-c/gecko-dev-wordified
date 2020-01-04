@@ -10385,6 +10385,7 @@ SFTKSessionContext
 *
 context
 )
+\
 {
 \
 mmm
@@ -14430,6 +14431,7 @@ crv
 =
 CKR_OK
 )
+\
 break
 ;
 \
@@ -14460,12 +14462,15 @@ info
 NULL
 )
 {
+\
 crv
 =
 CKR_HOST_MEMORY
 ;
+\
 break
 ;
+\
 }
 \
 info
@@ -18261,6 +18266,7 @@ crv
 =
 CKR_OK
 )
+\
 break
 ;
 \
@@ -18291,12 +18297,15 @@ info
 NULL
 )
 {
+\
 crv
 =
 CKR_HOST_MEMORY
 ;
+\
 break
 ;
+\
 }
 \
 info
@@ -43171,7 +43180,6 @@ len
 )
 )
 ?
-\
 (
 (
 stateSize

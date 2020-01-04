@@ -1167,11 +1167,13 @@ SKIP_AFTER_FORK
 (
 x
 )
+\
 if
 (
 !
 parentForkedAfterC_Initialize
 )
+\
 x
 #
 define

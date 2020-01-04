@@ -113,6 +113,11 @@ MPL
 /
 #
 include
+<
+memory
+>
+#
+include
 "
 nss
 .
@@ -125,11 +130,6 @@ pk11pub
 .
 h
 "
-#
-include
-<
-memory
->
 #
 include
 "
