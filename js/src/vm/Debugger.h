@@ -4309,6 +4309,8 @@ slowPathCheckNoExecute
 JSContext
 *
 cx
+HandleScript
+script
 )
 ;
 static
@@ -5203,6 +5205,8 @@ checkNoExecute
 JSContext
 *
 cx
+HandleScript
+script
 )
 ;
 /

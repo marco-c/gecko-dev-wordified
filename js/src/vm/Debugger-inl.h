@@ -358,6 +358,8 @@ checkNoExecute
 JSContext
 *
 cx
+HandleScript
+script
 )
 {
 if
@@ -394,6 +396,7 @@ return
 slowPathCheckNoExecute
 (
 cx
+script
 )
 ;
 }
