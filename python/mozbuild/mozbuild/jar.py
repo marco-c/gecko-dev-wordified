@@ -127,6 +127,8 @@ util
 import
 (
     
+ensureParentDir
+    
 lock_file
     
 PushbackIter
@@ -1749,6 +1751,11 @@ file
 '
 '
 '
+        
+ensureParentDir
+(
+manifestPath
+)
         
 lock
 =
