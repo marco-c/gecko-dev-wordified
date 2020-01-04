@@ -1278,7 +1278,7 @@ nsScriptableBase64Encoder
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsVariant
+nsVariantCC
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
