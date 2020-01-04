@@ -1838,11 +1838,6 @@ GetFlattenedTreeParent
 (
 )
 ;
-bool
-foundRightElement
-=
-false
-;
 while
 (
 parent
