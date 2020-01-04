@@ -4268,13 +4268,6 @@ cx
 setPendingException
 (
 exn
-JS
-:
-:
-ExceptionStackBehavior
-:
-:
-DoNotCapture
 )
 ;
 CallErrorReporter
