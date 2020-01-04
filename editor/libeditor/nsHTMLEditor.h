@@ -3033,8 +3033,6 @@ bool
 outHandled
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -3042,7 +3040,7 @@ dom
 :
 :
 Element
->
+*
 CreateBR
 (
 nsINode
