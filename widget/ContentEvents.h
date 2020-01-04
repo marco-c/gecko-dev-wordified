@@ -348,7 +348,7 @@ this
 ;
 }
 enum
-orientType
+OrientType
 {
 vertical
 =
@@ -457,7 +457,7 @@ return
 result
 ;
 }
-orientType
+OrientType
 orient
 ;
 void

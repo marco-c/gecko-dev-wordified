@@ -26618,7 +26618,7 @@ newHorizontalOverflow
 InternalScrollPortEvent
 :
 :
-orientType
+OrientType
 orient
 ;
 if
