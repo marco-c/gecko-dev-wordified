@@ -1428,6 +1428,8 @@ mozilla
 Vector
 <
 Phase
+0
+SystemAllocPolicy
 >
 dagDescendants
 [
@@ -1455,6 +1457,8 @@ mozilla
 Vector
 <
 Phase
+0
+SystemAllocPolicy
 >
 :
 :
@@ -5978,6 +5982,8 @@ mozilla
 Vector
 <
 Phase
+0
+SystemAllocPolicy
 >
 stack
 ;
