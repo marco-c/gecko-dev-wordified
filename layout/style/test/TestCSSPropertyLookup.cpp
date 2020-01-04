@@ -135,6 +135,10 @@ nsXPCOM
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 char
@@ -326,7 +330,7 @@ nsCString
 (
 tagName
 )
-nsCSSProps
+CSSEnabledState
 :
 :
 eIgnoreEnabledState
@@ -470,7 +474,7 @@ NS_ConvertASCIItoUTF16
 (
 tagName
 )
-nsCSSProps
+CSSEnabledState
 :
 :
 eIgnoreEnabledState
@@ -617,7 +621,7 @@ nsAutoCString
 (
 tag
 )
-nsCSSProps
+CSSEnabledState
 :
 :
 eIgnoreEnabledState

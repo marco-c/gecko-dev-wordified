@@ -15649,10 +15649,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyString
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 =
 =
