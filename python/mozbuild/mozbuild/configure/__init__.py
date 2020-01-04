@@ -134,6 +134,8 @@ util
 import
 (
     
+exec_
+    
 memoize
     
 ReadOnlyDict
@@ -1400,7 +1402,7 @@ exec
 '
 )
         
-exec
+exec_
 (
 code
 self
@@ -4465,52 +4467,13 @@ s
 %
 _as
             
-#
-Some
-versions
-of
-python
-fail
-with
-"
-SyntaxError
-:
-unqualified
-exec
-            
-#
-is
-not
-allowed
-in
-function
-'
-_apply_imports
-'
-it
-contains
-a
-nested
-            
-#
-function
-with
-free
-variable
-"
-when
-using
-the
-exec
-function
-.
-            
-exec
+exec_
+(
 import_line
-in
 {
 }
 glob
+)
     
 def
 _resolve_and_set
