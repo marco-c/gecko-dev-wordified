@@ -261,6 +261,9 @@ const
 nsACString
 &
 aContentType
+ErrorResult
+&
+aRv
 )
 ;
 protected

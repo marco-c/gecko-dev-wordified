@@ -3052,6 +3052,9 @@ aCx
 void
 CreatePartialBlob
 (
+ErrorResult
+&
+aRv
 )
 ;
 bool
