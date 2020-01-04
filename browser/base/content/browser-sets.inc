@@ -258,7 +258,7 @@ cmd_newNavigatorTab
 oncommand
 =
 "
-BrowserOpenNewTabOrWindow
+BrowserOpenTab
 (
 event
 )
