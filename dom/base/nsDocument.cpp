@@ -17198,7 +17198,7 @@ IsEmpty
 {
 mIdentifierMap
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
