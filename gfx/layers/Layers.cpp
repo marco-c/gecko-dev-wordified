@@ -6809,8 +6809,7 @@ IsTranslation
 )
 )
 {
-return
-false
+continue
 ;
 }
 /
