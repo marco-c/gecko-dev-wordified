@@ -645,7 +645,8 @@ aNewParent
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetModal
 (
 bool

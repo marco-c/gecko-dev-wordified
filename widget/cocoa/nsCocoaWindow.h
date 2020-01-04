@@ -1480,7 +1480,8 @@ IsEnabled
 const
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetModal
 (
 bool
@@ -1488,7 +1489,8 @@ aState
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetFakeModal
 (
 bool
