@@ -599,10 +599,7 @@ nsContentPermissionRequester
 (
 )
 ;
-nsCOMPtr
-<
-nsPIDOMWindow
->
+nsWeakPtr
 mWindow
 ;
 RefPtr
