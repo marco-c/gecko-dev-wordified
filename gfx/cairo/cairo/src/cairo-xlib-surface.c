@@ -19043,6 +19043,9 @@ cairo_xlib_surface_t
 )
 abstract_surface
 ;
+cairo_status_t
+status
+;
 if
 (
 unlikely
@@ -19066,6 +19069,8 @@ finished
 )
 )
 {
+status
+=
 _cairo_surface_set_error
 (
 abstract_surface
@@ -19087,6 +19092,8 @@ abstract_surface
 )
 )
 {
+status
+=
 _cairo_surface_set_error
 (
 abstract_surface
@@ -19111,6 +19118,8 @@ height
 XLIB_COORD_MAX
 )
 {
+status
+=
 _cairo_surface_set_error
 (
 abstract_surface

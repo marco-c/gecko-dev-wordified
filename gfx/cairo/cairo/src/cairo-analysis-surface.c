@@ -1602,6 +1602,9 @@ cairo_rectangle_int_t
 *
 clip_extents
 ;
+cairo_bool_t
+is_empty
+;
 clip_extents
 =
 NULL
@@ -1627,6 +1630,8 @@ clip_extents
 =
 NULL
 )
+is_empty
+=
 _cairo_rectangle_intersect
 (
 extents
@@ -1655,6 +1660,11 @@ cairo_rectangle_int_t
 extents
 )
 {
+cairo_bool_t
+is_empty
+;
+is_empty
+=
 _cairo_surface_get_extents
 (
 &
@@ -1683,6 +1693,8 @@ source
 source_extents
 )
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 extents
@@ -1853,6 +1865,9 @@ backend_status
 ;
 cairo_rectangle_int_t
 extents
+;
+cairo_bool_t
+is_empty
 ;
 if
 (
@@ -2073,6 +2088,8 @@ mask
 mask_extents
 )
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -2140,6 +2157,9 @@ backend_status
 ;
 cairo_rectangle_int_t
 extents
+;
+cairo_bool_t
+is_empty
 ;
 if
 (
@@ -2352,6 +2372,8 @@ return
 status
 ;
 }
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -2409,6 +2431,9 @@ backend_status
 ;
 cairo_rectangle_int_t
 extents
+;
+cairo_bool_t
+is_empty
 ;
 if
 (
@@ -2566,6 +2591,8 @@ mask_extents
 )
 ;
 }
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -2627,6 +2654,9 @@ backend_status
 cairo_rectangle_int_t
 extents
 glyph_extents
+;
+cairo_bool_t
+is_empty
 ;
 /
 *
@@ -2810,6 +2840,8 @@ status
 return
 status
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
@@ -2907,6 +2939,9 @@ backend_status
 cairo_rectangle_int_t
 extents
 glyph_extents
+;
+cairo_bool_t
+is_empty
 ;
 /
 *
@@ -3120,6 +3155,8 @@ status
 return
 status
 ;
+is_empty
+=
 _cairo_rectangle_intersect
 (
 &
