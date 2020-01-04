@@ -665,7 +665,7 @@ processes
 bool
 ok
 =
-false
+true
 ;
 nsTArray
 <
@@ -892,7 +892,7 @@ enabled
 bool
 ok
 =
-false
+true
 ;
 nsTArray
 <
