@@ -267,6 +267,7 @@ arh___init
 (
 aId
 aOptions
+aReturnValue
 )
 {
 this
@@ -280,6 +281,12 @@ this
 _options
 =
 aOptions
+;
+this
+.
+_returnValue
+=
+aReturnValue
 ;
 }
 get
@@ -352,6 +359,13 @@ arh_postResult
 aResult
 )
 {
+if
+(
+this
+.
+_returnValue
+)
+{
 cpmm
 .
 sendAsyncMessage
@@ -394,6 +408,7 @@ this
 _id
 )
 ;
+}
 }
 postError
 :
