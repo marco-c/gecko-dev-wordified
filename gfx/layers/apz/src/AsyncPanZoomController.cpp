@@ -10629,7 +10629,7 @@ if
 (
 aEvent
 .
-mFocusPoint
+mLocalFocusPoint
 .
 x
 !
@@ -10640,7 +10640,7 @@ x
 &
 aEvent
 .
-mFocusPoint
+mLocalFocusPoint
 .
 y
 !
