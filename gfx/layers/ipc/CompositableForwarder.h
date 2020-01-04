@@ -996,7 +996,6 @@ GetCompositorBackendType
 (
 )
 const
-override
 {
 return
 mTextureFactoryIdentifier

@@ -157,7 +157,7 @@ public
 explicit
 D3D9RecycleAllocator
 (
-ISurfaceAllocator
+CompositableForwarder
 *
 aAllocator
 IDirect3DDevice9

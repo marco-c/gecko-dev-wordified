@@ -204,7 +204,7 @@ uint32_t
 aMaxTextureClients
 uint32_t
 aShrinkTimeoutMsec
-ISurfaceAllocator
+CompositableForwarder
 *
 aAllocator
 )

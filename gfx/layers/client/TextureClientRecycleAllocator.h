@@ -237,7 +237,7 @@ TextureClientRecycleAllocator
 explicit
 TextureClientRecycleAllocator
 (
-ISurfaceAllocator
+CompositableForwarder
 *
 aAllocator
 )
@@ -312,7 +312,7 @@ aAllocFlags
 ;
 RefPtr
 <
-ISurfaceAllocator
+CompositableForwarder
 >
 mSurfaceAllocator
 ;
