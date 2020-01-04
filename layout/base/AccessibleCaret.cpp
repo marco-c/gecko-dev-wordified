@@ -1743,6 +1743,12 @@ it
 s
 invisible
 .
+mImaginaryCaretRect
+=
+nsRect
+(
+)
+;
 return
 PositionChangedResult
 :
