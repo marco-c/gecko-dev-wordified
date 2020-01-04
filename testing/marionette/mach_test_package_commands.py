@@ -118,22 +118,17 @@ Namespace
 kwargs
 )
     
-if
-not
-args
-.
-binary
-:
-        
 args
 .
 binary
 =
+args
+.
+binary
+or
 context
 .
-find_firefox
-(
-)
+firefox_bin
     
 test_root
 =
