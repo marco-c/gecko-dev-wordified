@@ -4176,14 +4176,9 @@ asyncStackForNewActivations
 .
 *
 /
-JS
-:
-:
-PersistentRooted
-<
-JSString
+const
+char
 *
->
 asyncCauseForNewActivations
 ;
 /

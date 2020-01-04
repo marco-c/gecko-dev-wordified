@@ -8507,10 +8507,11 @@ cx
 )
 )
 ;
-RootedString
+const
+char
+*
 asyncCause
-(
-cx
+=
 cx
 -
 >
@@ -8520,7 +8521,6 @@ runtime
 -
 >
 asyncCauseForNewActivations
-)
 ;
 if
 (
@@ -8647,10 +8647,11 @@ cx
 )
 )
 ;
-RootedString
+const
+char
+*
 asyncCause
-(
-cx
+=
 cx
 -
 >
@@ -8660,7 +8661,6 @@ runtime
 -
 >
 asyncCauseForNewActivations
-)
 ;
 if
 (
