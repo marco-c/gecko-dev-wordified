@@ -478,6 +478,12 @@ closeCaptionButton
 png
 )
 ;
+background
+-
+position
+:
+4px
+;
 }
 .
 closedCaptionButton
@@ -874,9 +880,6 @@ fullscreen
 -
 unavailable
 ]
->
-.
-volumeStack
 {
 /
 *
@@ -894,7 +897,7 @@ function
 .
 *
 /
-margin
+padding
 -
 inline
 -
@@ -2608,7 +2611,7 @@ size
 ;
 }
 .
-closeCaptionButton
+closedCaptionButton
 {
 background
 -
@@ -2631,6 +2634,12 @@ closeCaptionButton
 .
 png
 )
+;
+background
+-
+position
+:
+4px
 ;
 background
 -
