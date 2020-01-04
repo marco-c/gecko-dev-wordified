@@ -403,6 +403,16 @@ mousedown
 toggleButton
 )
 ;
+yield
+monitor
+.
+panelWin
+.
+once
+(
+TAB_UPDATED
+)
+;
 is
 (
 toggleButton
