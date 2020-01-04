@@ -624,7 +624,6 @@ Shutdown
 {
 ResetDecode
 (
-AUDIO_VIDEO
 )
 ;
 if
@@ -675,8 +674,8 @@ AndroidMediaReader
 :
 ResetDecode
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 {
 if
@@ -709,7 +708,7 @@ MediaDecoderReader
 :
 ResetDecode
 (
-aQueues
+aTracks
 )
 ;
 }

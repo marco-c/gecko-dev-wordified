@@ -281,8 +281,8 @@ typedef
 MediaDecoderReader
 :
 :
-TargetQueues
-TargetQueues
+TrackSet
+TrackSet
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -2012,8 +2012,8 @@ SetIdle
 void
 ResetDecode
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 ;
 nsresult

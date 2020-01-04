@@ -220,8 +220,8 @@ RawReader
 :
 ResetDecode
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 {
 mCurrentFrame
@@ -234,7 +234,7 @@ MediaDecoderReader
 :
 ResetDecode
 (
-aQueues
+aTracks
 )
 ;
 }
