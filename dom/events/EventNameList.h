@@ -1044,6 +1044,13 @@ eContextMenu
 EventNameType_HTMLXUL
 eMouseEventClass
 )
+NON_IDL_EVENT
+(
+mouselongtap
+eMouseLongTap
+EventNameType_HTMLXUL
+eMouseEventClass
+)
 /
 /
 Not
