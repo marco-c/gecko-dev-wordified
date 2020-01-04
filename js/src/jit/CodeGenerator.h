@@ -3024,9 +3024,8 @@ Register
 objReg
 Register
 tempReg
-PropertyName
-*
-name
+ConstantOrRegister
+id
 ConstantOrRegister
 value
 bool
