@@ -226,6 +226,10 @@ mHasRobustness
 (
 false
 )
+mHasCreateContextAttribs
+(
+false
+)
 mIsATI
 (
 false
@@ -578,6 +582,15 @@ HasRobustness
 {
 return
 mHasRobustness
+;
+}
+bool
+HasCreateContextAttribs
+(
+)
+{
+return
+mHasCreateContextAttribs
 ;
 }
 bool
@@ -1051,6 +1064,9 @@ mDebug
 ;
 bool
 mHasRobustness
+;
+bool
+mHasCreateContextAttribs
 ;
 bool
 mIsATI
