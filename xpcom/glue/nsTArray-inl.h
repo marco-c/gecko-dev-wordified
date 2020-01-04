@@ -1470,7 +1470,7 @@ FailureResult
 Copy
 :
 :
-CopyHeaderAndElements
+CopyNonOverlappingRegionWithHeader
 (
 header
 mHdr
@@ -1759,7 +1759,7 @@ length
 Copy
 :
 :
-CopyElements
+CopyNonOverlappingRegion
 (
 header
 +
@@ -2053,7 +2053,7 @@ aStart
 Copy
 :
 :
-MoveElements
+CopyOverlappingRegion
 (
 baseAddr
 +
@@ -3216,7 +3216,7 @@ FailureResult
 Copy
 :
 :
-CopyElements
+CopyNonOverlappingRegion
 (
 temp
 .
@@ -3231,7 +3231,7 @@ aElemSize
 Copy
 :
 :
-CopyElements
+CopyNonOverlappingRegion
 (
 smallerElements
 largerElements
@@ -3242,7 +3242,7 @@ aElemSize
 Copy
 :
 :
-CopyElements
+CopyNonOverlappingRegion
 (
 largerElements
 temp
@@ -3557,7 +3557,7 @@ false
 Copy
 :
 :
-CopyHeaderAndElements
+CopyNonOverlappingRegionWithHeader
 (
 header
 mHdr
