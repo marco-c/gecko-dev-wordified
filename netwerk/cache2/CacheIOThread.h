@@ -515,9 +515,10 @@ PRThread
 *
 mThread
 ;
-nsCOMPtr
+Atomic
 <
 nsIThread
+*
 >
 mXPCOMThread
 ;
