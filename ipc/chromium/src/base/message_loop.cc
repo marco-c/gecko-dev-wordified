@@ -826,7 +826,7 @@ type_
 )
 {
 case
-TYPE_MOZILLA_UI
+TYPE_MOZILLA_PARENT
 :
 pump_
 =

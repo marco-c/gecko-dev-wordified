@@ -2700,7 +2700,7 @@ MessageLoopForUI
 MessageLoop
 :
 :
-TYPE_MOZILLA_UI
+TYPE_MOZILLA_PARENT
 )
 ;
 sMessageLoop
