@@ -2213,7 +2213,7 @@ inspector
 .
 computedview
 .
-view
+computedView
 }
 ;
 }
@@ -2345,7 +2345,7 @@ inspector
 .
 computedview
 .
-view
+computedView
 ;
 }
 /

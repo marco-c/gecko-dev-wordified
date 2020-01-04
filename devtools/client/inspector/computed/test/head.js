@@ -928,6 +928,8 @@ styleDocument
 querySelectorAll
 (
 "
+#
+propertyContainer
 .
 expandable
 "

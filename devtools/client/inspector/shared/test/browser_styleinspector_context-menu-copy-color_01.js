@@ -230,6 +230,14 @@ viewId
 ]
 .
 view
+|
+|
+inspector
+[
+viewId
+]
+.
+computedView
 ;
 yield
 selectNode
