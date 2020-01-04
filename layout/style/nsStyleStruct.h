@@ -8917,6 +8917,8 @@ NS_CombineHint
 NS_STYLE_HINT_REFLOW
 nsChangeHint
 (
+nsChangeHint_NeutralChange
+|
 nsChangeHint_RecomputePosition
 |
 nsChangeHint_UpdateParentOverflow
