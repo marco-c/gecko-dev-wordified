@@ -459,6 +459,7 @@ snapshots
 {
 id
 report
+parentMap
 breakdown
 inverted
 filter
@@ -470,6 +471,7 @@ census
 =
 {
 report
+parentMap
 expanded
 :
 new

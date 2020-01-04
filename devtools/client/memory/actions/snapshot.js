@@ -938,6 +938,7 @@ state
 ;
 let
 report
+parentMap
 ;
 let
 inverted
