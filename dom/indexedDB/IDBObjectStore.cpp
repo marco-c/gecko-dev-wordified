@@ -10791,15 +10791,9 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-!
 aCx
-aRange
-.
-isUndefined
-(
-)
 )
 ;
 if
