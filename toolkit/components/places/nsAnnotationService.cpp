@@ -1056,6 +1056,8 @@ int64_t
 case
 otherwise
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -1127,6 +1129,8 @@ double
 case
 otherwise
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -1476,6 +1480,8 @@ int64_t
 case
 otherwise
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -1547,6 +1553,8 @@ double
 case
 otherwise
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
