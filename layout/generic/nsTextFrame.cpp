@@ -5702,6 +5702,10 @@ mLineContainer
 (
 aLineContainer
 )
+mCommonAncestorWithLastFrame
+(
+nullptr
+)
 mMissingFonts
 (
 aPresContext
