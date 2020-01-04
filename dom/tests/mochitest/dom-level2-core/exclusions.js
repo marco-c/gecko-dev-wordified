@@ -169,9 +169,6 @@ importNode12
 importNode13
 "
 "
-internalSubset01
-"
-"
 localName02
 "
 "
