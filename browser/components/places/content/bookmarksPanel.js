@@ -179,9 +179,10 @@ addEventListener
 "
 SidebarFocused
 "
-function
 (
 )
+=
+>
 document
 .
 getElementById
