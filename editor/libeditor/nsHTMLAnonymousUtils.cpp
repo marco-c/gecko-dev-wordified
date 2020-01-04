@@ -1835,7 +1835,7 @@ if
 focusElementNode
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

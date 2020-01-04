@@ -4107,7 +4107,7 @@ return
 if
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -2419,7 +2419,7 @@ if
 mContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

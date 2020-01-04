@@ -2462,7 +2462,7 @@ TabIndex
 ;
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

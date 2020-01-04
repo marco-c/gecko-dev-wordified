@@ -4096,7 +4096,7 @@ FragmentOrElement
 NS_PRECONDITION
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -11393,7 +11393,7 @@ if
 tmp
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &

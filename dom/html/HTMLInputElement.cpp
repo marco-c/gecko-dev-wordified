@@ -34219,7 +34219,7 @@ mForm
 &
 &
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -6253,7 +6253,7 @@ mCanvasElement
 mCanvasElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -9223,7 +9223,7 @@ mCanvasElement
 mCanvasElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -12518,7 +12518,7 @@ aElement
 aElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -22085,7 +22085,7 @@ mCanvasElement
 mCanvasElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

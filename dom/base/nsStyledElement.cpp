@@ -594,7 +594,7 @@ if
 aNotify
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

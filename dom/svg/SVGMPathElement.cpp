@@ -816,7 +816,7 @@ nsGkAtoms
 href
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

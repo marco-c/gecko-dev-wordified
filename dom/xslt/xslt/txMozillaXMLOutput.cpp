@@ -3780,7 +3780,7 @@ NS_ASSERTION
 aElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

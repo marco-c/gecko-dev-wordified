@@ -21971,7 +21971,7 @@ if
 aNode
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -22715,7 +22715,7 @@ n
 n
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &
@@ -36580,7 +36580,7 @@ aContent
 aContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -9442,7 +9442,7 @@ bug
 if
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

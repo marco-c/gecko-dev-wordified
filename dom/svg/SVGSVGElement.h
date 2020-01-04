@@ -1939,7 +1939,7 @@ const
 NS_ASSERTION
 (
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &
@@ -1985,7 +1985,7 @@ root
 )
 ;
 return
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &

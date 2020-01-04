@@ -2718,7 +2718,7 @@ if
 mContentStyleRule
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

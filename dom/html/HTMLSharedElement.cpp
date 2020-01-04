@@ -1273,7 +1273,7 @@ aNameSpaceID
 kNameSpaceID_None
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -1430,7 +1430,7 @@ aNameSpaceID
 kNameSpaceID_None
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -1675,7 +1675,7 @@ node
 ;
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -14396,7 +14396,7 @@ OwnerDoc
 )
 |
 |
-IsInDoc
+IsInUncomposedDoc
 (
 )
 !
@@ -14404,7 +14404,7 @@ IsInDoc
 aOther
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 |
@@ -14495,7 +14495,7 @@ subtree
 .
 /
 /
-IsInDoc
+IsInUncomposedDoc
 (
 )
 check
@@ -15211,7 +15211,7 @@ MOZ_ASSERT
 aRoot
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -15293,7 +15293,7 @@ can
 '
 t
 be
-IsInDoc
+IsInUncomposedDoc
 (
 )
 so
@@ -15716,7 +15716,7 @@ eDOCUMENT
 aRoot
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -15759,7 +15759,7 @@ if
 aRoot
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &
@@ -16401,7 +16401,7 @@ call
 ;
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
