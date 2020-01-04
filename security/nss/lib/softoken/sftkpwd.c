@@ -1553,6 +1553,7 @@ nsspkcs5_NewParam
 cipherValue
 .
 alg
+HASH_AlgSHA1
 &
 cipherValue
 .
@@ -2474,6 +2475,7 @@ nsspkcs5_NewParam
 signValue
 .
 alg
+HASH_AlgSHA1
 &
 signValue
 .

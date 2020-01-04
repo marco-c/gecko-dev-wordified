@@ -1702,6 +1702,8 @@ x
 a
 *
 /
+MP_CHECKOK
+(
 s_mp_pad
 (
 &
@@ -1709,6 +1711,7 @@ x
 USED
 (
 a
+)
 )
 )
 ;

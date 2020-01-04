@@ -404,6 +404,7 @@ tmp
 =
 NULL
 ;
+const
 char
 *
 index
@@ -636,6 +637,7 @@ sftk_parameters
 parsed
 )
 {
+const
 char
 *
 tokenIndex
@@ -932,6 +934,7 @@ tmp
 =
 NULL
 ;
+const
 char
 *
 index

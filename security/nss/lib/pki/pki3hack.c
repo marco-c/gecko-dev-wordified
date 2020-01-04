@@ -4645,6 +4645,12 @@ cc
 )
 ;
 }
+}
+if
+(
+instance
+)
+{
 nssCryptokiObject_Destroy
 (
 instance

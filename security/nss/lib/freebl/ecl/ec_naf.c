@@ -381,6 +381,8 @@ i
 0
 )
 {
+MP_CHECKOK
+(
 mp_sub_d
 (
 &
@@ -392,10 +394,13 @@ i
 &
 k
 )
+)
 ;
 }
 else
 {
+MP_CHECKOK
+(
 mp_add_d
 (
 &
@@ -410,6 +415,7 @@ i
 &
 k
 )
+)
 ;
 }
 }
@@ -423,12 +429,15 @@ i
 0
 ;
 }
+MP_CHECKOK
+(
 mp_div_2
 (
 &
 k
 &
 k
+)
 )
 ;
 i

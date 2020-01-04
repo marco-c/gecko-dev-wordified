@@ -441,11 +441,13 @@ nsspkcs5_NewParam
 (
 SECOidTag
 alg
+HASH_HashType
+hashType
 SECItem
 *
 salt
 int
-iterator
+iterationCount
 )
 ;
 /

@@ -9633,6 +9633,7 @@ str
 )
 \
 {
+\
 siBuffer
 (
 unsigned
@@ -9646,6 +9647,7 @@ str
 )
 -
 1
+\
 }
 #
 define
@@ -9688,6 +9690,14 @@ Information
 (
 ANSSI
 )
+*
+/
+/
+*
+clang
+-
+format
+off
 *
 /
 #
@@ -10169,7 +10179,14 @@ x03
 .
 tf
 "
-\
+/
+*
+clang
+-
+format
+on
+*
+/
 static
 const
 SECItem

@@ -174,6 +174,14 @@ SEC_ASN1_DS
 SEC_ASN1_HIGH_TAG_NUMBER
 /
 *
+clang
+-
+format
+off
+*
+/
+/
+*
 Add
 new
 entries
@@ -1736,6 +1744,14 @@ c
 )
 /
 *
+clang
+-
+format
+on
+*
+/
+/
+*
 RFC
 2253
 says
@@ -1802,7 +1818,6 @@ NEEDS_ESCAPE
 (
 c
 )
-\
 (
 c
 =
@@ -1821,7 +1836,6 @@ NEEDS_HEX_ESCAPE
 (
 c
 )
-\
 (
 (
 PRUint8
@@ -5455,9 +5469,9 @@ if
 !
 n
 )
+\
 goto
 unsupported
-\
 /
 *
 fall

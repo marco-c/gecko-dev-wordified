@@ -555,6 +555,7 @@ PRBool
 convert
 PRBool
 isFIPS
+const
 char
 *
 moduleSpec

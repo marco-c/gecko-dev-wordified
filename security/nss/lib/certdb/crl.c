@@ -9135,7 +9135,6 @@ if
 (
 readlocked
 )
-\
 {
 \
 NSSRWLock_UnlockRead
@@ -9171,7 +9170,6 @@ if
 (
 readlocked
 )
-\
 {
 \
 NSSRWLock_LockRead
@@ -16120,6 +16118,7 @@ it
 from
 the
 hash
+*
 table
 *
 /
@@ -16363,6 +16362,7 @@ it
 from
 the
 hash
+*
 table
 *
 /

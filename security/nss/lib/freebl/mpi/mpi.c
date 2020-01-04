@@ -7706,6 +7706,8 @@ output
 parameter
 *
 /
+MP_CHECKOK
+(
 mp_sub_d
 (
 &
@@ -7713,6 +7715,7 @@ x
 1
 &
 x
+)
 )
 ;
 s_mp_exch
@@ -18101,9 +18104,13 @@ top
 word
 *
 /
+if
+(
+bshift
+)
+{
 mask
 =
-(
 (
 mp_digit
 )
@@ -18115,7 +18122,6 @@ mp_digit
 MP_DIGIT_BIT
 -
 bshift
-)
 )
 ;
 mask
@@ -18132,6 +18138,14 @@ mp
 1
 )
 ;
+}
+else
+{
+mask
+=
+0
+;
+}
 if
 (
 MP_OKAY

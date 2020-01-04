@@ -25925,6 +25925,17 @@ data
 )
 ;
 }
+if
+(
+email
+)
+{
+PL_strfree
+(
+email
+)
+;
+}
 /
 *
 Open

@@ -94,6 +94,14 @@ endif
 NSSBASET_H
 *
 /
+/
+*
+clang
+-
+format
+off
+*
+/
 const
 NSSError
 NSS_ERROR_NO_ERROR
@@ -328,3 +336,11 @@ NSS_ERROR_PKCS11
 =
 38
 ;
+/
+*
+clang
+-
+format
+on
+*
+/
