@@ -1054,6 +1054,15 @@ ins
 ;
 virtual
 void
+visitPopcntI64
+(
+LPopcntI64
+*
+lir
+)
+;
+virtual
+void
 visitTestIAndBranch
 (
 LTestIAndBranch
