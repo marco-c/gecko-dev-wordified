@@ -5497,7 +5497,7 @@ Surface
 )
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -5993,7 +5993,7 @@ surface
 frame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;

@@ -3358,7 +3358,7 @@ SourceSurface
 >
 surf
 =
-GetSurfaceInternal
+GetSourceSurfaceInternal
 (
 )
 ;
@@ -4548,7 +4548,7 @@ SourceSurface
 imgFrame
 :
 :
-GetSurface
+GetSourceSurface
 (
 )
 {
@@ -4559,7 +4559,7 @@ mMonitor
 )
 ;
 return
-GetSurfaceInternal
+GetSourceSurfaceInternal
 (
 )
 ;
@@ -4571,7 +4571,7 @@ SourceSurface
 imgFrame
 :
 :
-GetSurfaceInternal
+GetSourceSurfaceInternal
 (
 )
 {

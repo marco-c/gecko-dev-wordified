@@ -873,7 +873,7 @@ surface
 frame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;

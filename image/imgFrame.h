@@ -2087,7 +2087,7 @@ already_AddRefed
 <
 SourceSurface
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -2185,7 +2185,7 @@ already_AddRefed
 <
 SourceSurface
 >
-GetSurfaceInternal
+GetSourceSurfaceInternal
 (
 )
 ;
@@ -3000,7 +3000,7 @@ Draw
 (
 )
 and
-GetSurface
+GetSourceSurface
 (
 )
 are
