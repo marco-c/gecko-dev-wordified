@@ -161,7 +161,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -3861,7 +3861,7 @@ mDevice
 gfx
 :
 :
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get

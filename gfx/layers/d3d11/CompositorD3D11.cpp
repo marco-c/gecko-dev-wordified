@@ -146,7 +146,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -1177,7 +1177,7 @@ hr
 ;
 mDevice
 =
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
@@ -7777,7 +7777,7 @@ presentInterval
 bool
 isWARP
 =
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
@@ -9431,7 +9431,7 @@ WARP
 .
 if
 (
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
@@ -10700,7 +10700,7 @@ if
 mDevice
 &
 &
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get

@@ -244,7 +244,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -7374,7 +7374,7 @@ DIRECT2D1_1
 &
 &
 !
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get

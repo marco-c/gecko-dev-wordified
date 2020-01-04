@@ -3184,16 +3184,6 @@ Invalidate
 (
 )
 ;
-bool
-IsPendingComposite
-(
-)
-;
-void
-FinishPendingComposite
-(
-)
-;
 RefPtr
 <
 Compositor

@@ -125,7 +125,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -185,7 +185,7 @@ size
 :
 mDevice11
 (
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
@@ -242,7 +242,7 @@ recreated
 .
 if
 (
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
