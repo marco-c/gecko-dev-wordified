@@ -1263,6 +1263,12 @@ aLoadInfo
 GetInitialSecurityCheckDone
 (
 )
+aLoadInfo
+-
+>
+GetOriginAttributes
+(
+)
 redirectChain
 )
 ;
@@ -1475,6 +1481,11 @@ enforceSecurity
 loadInfoArgs
 .
 initialSecurityCheckDone
+(
+)
+loadInfoArgs
+.
+originAttributes
 (
 )
 redirectChain

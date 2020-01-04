@@ -166,6 +166,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+BasePrincipal
+.
+h
+"
 class
 nsINode
 ;
@@ -426,6 +435,10 @@ bool
 aEnforceSecurity
 bool
 aInitialSecurityCheckDone
+const
+OriginAttributes
+&
+aOriginAttributes
 nsTArray
 <
 nsCOMPtr
@@ -566,6 +579,9 @@ mEnforceSecurity
 ;
 bool
 mInitialSecurityCheckDone
+;
+OriginAttributes
+mOriginAttributes
 ;
 nsTArray
 <
