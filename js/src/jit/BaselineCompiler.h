@@ -1249,6 +1249,11 @@ _
 (
 JSOP_DEBUGCHECKSELFHOSTED
 )
+\
+_
+(
+JSOP_JUMPTARGET
+)
 class
 BaselineCompiler
 :
