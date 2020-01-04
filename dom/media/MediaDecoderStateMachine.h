@@ -4990,11 +4990,6 @@ mPlaybackRate
 1
 ;
 }
-void
-MaybeStopPrerolling
-(
-)
-;
 /
 /
 When
