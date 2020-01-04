@@ -3305,9 +3305,6 @@ Duplicate
 "
 )
 ;
-return
-nullptr
-;
 }
 void
 InitForQueryTextContent

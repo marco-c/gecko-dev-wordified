@@ -1808,7 +1808,7 @@ return
 false
 ;
 #
-endif
+else
 nsCOMPtr
 <
 nsIAppShellService
@@ -2076,6 +2076,8 @@ false
 return
 true
 ;
+#
+endif
 }
 void
 Test4

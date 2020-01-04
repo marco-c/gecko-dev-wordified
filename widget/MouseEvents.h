@@ -884,9 +884,6 @@ subclass
 "
 )
 ;
-return
-nullptr
-;
 }
 /
 /
