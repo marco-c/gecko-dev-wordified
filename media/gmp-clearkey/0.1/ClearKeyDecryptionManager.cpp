@@ -743,7 +743,7 @@ ReleaseKeyId
 ;
 assert
 (
-HasKeyForKeyId
+HasSeenKeyId
 (
 aKeyId
 )

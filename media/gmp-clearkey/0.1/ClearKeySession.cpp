@@ -310,7 +310,7 @@ Get
 )
 -
 >
-HasKeyForKeyId
+HasSeenKeyId
 (
 *
 it
