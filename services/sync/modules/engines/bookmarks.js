@@ -5470,11 +5470,9 @@ Async
 .
 promiseSpinningly
 (
-PlacesSyncUtils
+PlacesUtils
 .
-bookmarks
-.
-ensureGuidForId
+promiseItemGuid
 (
 id
 )
