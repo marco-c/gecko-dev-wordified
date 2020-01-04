@@ -8064,6 +8064,16 @@ GetResponseHead
 bool
 result
 =
+false
+;
+if
+(
+!
+mIPCClosed
+)
+{
+result
+=
 SendRedirect1Begin
 (
 registrarId
@@ -8081,6 +8091,7 @@ secInfoSerialization
 channelId
 )
 ;
+}
 if
 (
 !
