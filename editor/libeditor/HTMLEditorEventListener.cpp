@@ -315,7 +315,7 @@ class
 )
 ;
 return
-nsEditorEventListener
+EditorEventListener
 :
 :
 Connect
@@ -456,7 +456,7 @@ element
 )
 ;
 return
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseUp
@@ -582,7 +582,7 @@ the
 composition
 .
 return
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseDown
@@ -1336,7 +1336,7 @@ AsEvent
 ;
 }
 return
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseDown
@@ -1415,7 +1415,7 @@ element
 )
 ;
 return
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseClick

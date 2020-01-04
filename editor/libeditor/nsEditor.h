@@ -4620,7 +4620,7 @@ to
 be
 called
 by
-nsEditorEventListener
+EditorEventListener
 :
 :
 Focus
