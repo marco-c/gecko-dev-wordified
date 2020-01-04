@@ -876,7 +876,7 @@ TextRangeType
 :
 RawTextRangeType
 {
-NS_TEXTRANGE_UNDEFINED
+eUninitialized
 =
 0x00
 NS_TEXTRANGE_CARETPOSITION
@@ -958,7 +958,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_UNDEFINED
+eUninitialized
 )
 {
 }
