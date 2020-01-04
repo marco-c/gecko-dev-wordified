@@ -748,9 +748,6 @@ JSRuntime
 :
 JSRuntime
 (
-JSContext
-*
-cx
 JSRuntime
 *
 parentRuntime
@@ -922,10 +919,6 @@ ownerThreadNative_
 tempLifoAlloc
 (
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
-)
-context_
-(
-cx
 )
 jitRuntime_
 (
@@ -2747,7 +2740,9 @@ object
 =
 mallocSizeOf
 (
-context_
+unsafeContextFromAnyThread
+(
+)
 )
 ;
 rtSizes
@@ -2815,7 +2810,9 @@ rtSizes
 contexts
 +
 =
-context_
+unsafeContextFromAnyThread
+(
+)
 -
 >
 sizeOfExcludingThis
