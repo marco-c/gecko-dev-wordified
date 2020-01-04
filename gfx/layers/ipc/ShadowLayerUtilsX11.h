@@ -319,6 +319,7 @@ a
 PictFormat
 or
 VisualID
+MOZ_INIT_OUTSIDE_CTOR
 gfx
 :
 :
