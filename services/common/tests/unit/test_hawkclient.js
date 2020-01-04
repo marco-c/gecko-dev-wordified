@@ -333,6 +333,7 @@ SECOND_MS
 add_task
 (
 function
+*
 test_authenticated_get_request
 (
 )
@@ -485,6 +486,7 @@ server
 )
 ;
 function
+*
 check_authenticated_request
 (
 method
@@ -688,6 +690,7 @@ PATCH
 add_task
 (
 function
+*
 test_credentials_optional
 (
 )
@@ -861,6 +864,7 @@ server
 add_task
 (
 function
+*
 test_server_error
 (
 )
@@ -1005,6 +1009,7 @@ server
 add_task
 (
 function
+*
 test_server_error_json
 (
 )
@@ -1155,6 +1160,7 @@ server
 add_task
 (
 function
+*
 test_offset_after_request
 (
 )
@@ -1317,6 +1323,7 @@ server
 add_task
 (
 function
+*
 test_offset_in_hawk_header
 (
 )
@@ -1659,6 +1666,7 @@ server
 add_task
 (
 function
+*
 test_2xx_success
 (
 )
@@ -1802,6 +1810,7 @@ server
 add_task
 (
 function
+*
 test_retry_request_on_fail
 (
 )
@@ -2155,6 +2164,7 @@ server
 add_task
 (
 function
+*
 test_multiple_401_retry_once
 (
 )
@@ -2440,6 +2450,7 @@ server
 add_task
 (
 function
+*
 test_500_no_retry
 (
 )
@@ -2680,6 +2691,7 @@ server
 add_task
 (
 function
+*
 test_401_then_500
 (
 )
@@ -3079,6 +3091,7 @@ server
 add_task
 (
 function
+*
 throw_if_not_json_body
 (
 )
