@@ -13587,7 +13587,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -13648,7 +13648,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -13742,7 +13742,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -13780,7 +13780,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17358,7 +17358,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17390,7 +17390,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17446,7 +17446,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17500,7 +17500,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17532,7 +17532,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17586,7 +17586,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17618,7 +17618,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17680,7 +17680,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17712,7 +17712,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17768,7 +17768,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17822,7 +17822,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17854,7 +17854,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17908,7 +17908,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
@@ -17940,7 +17940,7 @@ masm
 .
 append
 (
-AsmJSGlobalAccess
+GlobalAccess
 (
 label
 globalDataOffset
