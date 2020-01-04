@@ -74,6 +74,12 @@ addons
 "
 )
 ;
+yield
+waitForInitialAddonList
+(
+document
+)
+;
 /
 /
 Install
@@ -167,6 +173,12 @@ openAboutDebugging
 "
 addons
 "
+)
+;
+yield
+waitForInitialAddonList
+(
+document
 )
 ;
 /
