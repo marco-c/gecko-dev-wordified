@@ -18618,8 +18618,7 @@ the
 above
 friends
 .
-JSContext
-*
+void
 Pop
 (
 )

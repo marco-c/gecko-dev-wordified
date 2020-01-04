@@ -288,8 +288,7 @@ nullptr
 ;
 }
 }
-JSContext
-*
+void
 XPCJSContextStack
 :
 :
@@ -326,15 +325,6 @@ we
 '
 re
 popping
-JSContext
-*
-cx
-=
-mStack
-[
-idx
-]
-;
 mStack
 .
 RemoveElementAt
@@ -404,9 +394,6 @@ Runtime
 )
 newTop
 )
-;
-return
-cx
 ;
 }
 void
