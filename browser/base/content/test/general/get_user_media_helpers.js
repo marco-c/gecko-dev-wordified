@@ -1031,6 +1031,7 @@ promiseRequestDevice
 aRequestAudio
 aRequestVideo
 aFrameId
+aType
 )
 {
 info
@@ -1053,6 +1054,7 @@ selectedBrowser
 aRequestAudio
 aRequestVideo
 aFrameId
+aType
 }
 function
 *
@@ -1098,6 +1100,9 @@ aRequestAudio
 args
 .
 aRequestVideo
+args
+.
+aType
 )
 ;
 }
