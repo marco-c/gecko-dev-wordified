@@ -146,7 +146,6 @@ nsRubyContentFrameSuper
 {
 public
 :
-NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
