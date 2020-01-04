@@ -231,6 +231,7 @@ This
 value
 MUST
 be
+second
 last
 !
 SelectorMatches
@@ -238,6 +239,7 @@ depends
 on
 it
 .
+MAX
 }
 ;
 }
