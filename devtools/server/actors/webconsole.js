@@ -1844,12 +1844,13 @@ console
 ;
 isNative
 =
+new
+XPCNativeWrapper
+(
 console
-instanceof
-aWindow
+)
 .
-Console
-;
+IS_NATIVE_CONSOLE
 }
 catch
 (
