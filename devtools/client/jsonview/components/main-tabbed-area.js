@@ -229,9 +229,15 @@ createFactories
 require
 (
 "
-.
+devtools
 /
-reps
+client
+/
+shared
+/
+components
+/
+tabs
 /
 tabs
 "

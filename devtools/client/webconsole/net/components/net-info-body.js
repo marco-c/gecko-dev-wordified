@@ -118,11 +118,11 @@ devtools
 /
 client
 /
-jsonview
+shared
 /
 components
 /
-reps
+tabs
 /
 tabs
 "
