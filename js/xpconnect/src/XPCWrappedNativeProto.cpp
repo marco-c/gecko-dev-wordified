@@ -234,11 +234,9 @@ mScope
 #
 ifdef
 DEBUG
-PR_ATOMIC_INCREMENT
-(
-&
 gDEBUG_LiveProtoCount
-)
++
++
 ;
 #
 endif
@@ -270,11 +268,9 @@ XPCWrappedNativeProto
 #
 ifdef
 DEBUG
-PR_ATOMIC_DECREMENT
-(
-&
 gDEBUG_LiveProtoCount
-)
+-
+-
 ;
 #
 endif
