@@ -3677,11 +3677,7 @@ width
 var
 cx
 =
-React
-.
-addons
-.
-classSet
+classNames
 ;
 return
 (
