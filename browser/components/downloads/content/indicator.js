@@ -424,6 +424,8 @@ get
 kIndicatorOverlay
 (
 )
+{
+return
 "
 chrome
 :
@@ -439,6 +441,8 @@ indicatorOverlay
 .
 xul
 "
+;
+}
 /
 *
 *

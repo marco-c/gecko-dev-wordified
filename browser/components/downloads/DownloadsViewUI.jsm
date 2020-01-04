@@ -1185,9 +1185,13 @@ get
 statusTextAndTip
 (
 )
+{
+return
 this
 .
 rawStatusTextAndTip
+;
+}
 /
 *
 *
