@@ -415,13 +415,13 @@ PR_FALSE
 enableOCSPStapling
 *
 /
-PR_TRUE
+PR_FALSE
 /
 *
 enableNPN
 *
 /
-PR_FALSE
+PR_TRUE
 /
 *
 enableALPN

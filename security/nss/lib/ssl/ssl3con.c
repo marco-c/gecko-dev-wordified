@@ -64195,18 +64195,6 @@ return
 SECSuccess
 ;
 }
-static
-SECStatus
-ssl3_PickSignatureHashAlgorithm
-(
-sslSocket
-*
-ss
-SSLSignatureAndHashAlg
-*
-out
-)
-;
 SECStatus
 ssl_CreateDHEKeyPair
 (
@@ -65236,7 +65224,6 @@ combinations
 .
 *
 /
-static
 SECStatus
 ssl3_PickSignatureHashAlgorithm
 (
