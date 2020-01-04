@@ -112777,6 +112777,13 @@ member
 isAttr
 (
 )
+and
+not
+member
+.
+isMaplikeOrSetlikeAttr
+(
+)
 :
                 
 builder
@@ -112799,6 +112806,15 @@ isMethod
 (
 )
                 
+if
+not
+member
+.
+isMaplikeOrSetlikeOrIterableMethod
+(
+)
+:
+                    
 for
 sig
 in
@@ -112808,7 +112824,7 @@ signatures
 (
 )
 :
-                    
+                        
 builder
 .
 forwardDeclareForType
@@ -112819,7 +112835,7 @@ sig
 ]
 config
 )
-                    
+                        
 for
 arg
 in
@@ -112828,7 +112844,7 @@ sig
 1
 ]
 :
-                        
+                            
 builder
 .
 forwardDeclareForType
