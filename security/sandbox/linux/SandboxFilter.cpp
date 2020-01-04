@@ -3203,6 +3203,9 @@ SEMCTL
 case
 SEMOP
 :
+case
+MSGGET
+:
 return
 Some
 (
