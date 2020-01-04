@@ -82,6 +82,13 @@ h
 #
 include
 "
+HTMLEditorObjectResizerUtils
+.
+h
+"
+#
+include
+"
 HTMLEditRules
 .
 h
@@ -193,13 +200,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLObjectResizer
 .
 h
 "
