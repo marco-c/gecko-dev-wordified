@@ -5533,12 +5533,6 @@ Length
 (
 )
 ;
-nsCOMPtr
-<
-nsIWebProgress
->
-webProgress
-;
 for
 (
 uint32_t

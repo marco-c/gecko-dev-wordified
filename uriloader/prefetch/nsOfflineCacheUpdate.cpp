@@ -11469,12 +11469,6 @@ checking
 the
 manifest
 .
-nsCOMPtr
-<
-nsIURI
->
-uri
-;
 mManifestItem
 =
 new

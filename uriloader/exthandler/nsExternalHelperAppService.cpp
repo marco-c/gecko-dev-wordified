@@ -15657,7 +15657,7 @@ mDialog
 ;
 rv
 =
-mDialog
+dlg
 -
 >
 PromptForSaveToFileAsync
@@ -19673,12 +19673,6 @@ aFile
 ;
 nsresult
 rv
-;
-nsCOMPtr
-<
-nsIMIMEInfo
->
-info
 ;
 /
 /
