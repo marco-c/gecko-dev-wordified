@@ -3085,6 +3085,12 @@ patternTransformChanged
 (
 false
 )
+mBlendOpacity
+(
+0
+.
+0f
+)
 {
 }
 mozilla
