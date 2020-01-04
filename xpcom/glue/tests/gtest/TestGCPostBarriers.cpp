@@ -246,10 +246,7 @@ Length
 +
 i
 )
-JS
-:
-:
-TraceEdge
+JS_CallObjectTracer
 (
 trc
 &

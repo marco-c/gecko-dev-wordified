@@ -2039,10 +2039,7 @@ referenced
 "
 )
 ;
-JS
-:
-:
-TraceEdge
+JS_CallObjectTracer
 (
 trc
 &
