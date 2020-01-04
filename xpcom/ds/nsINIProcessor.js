@@ -498,7 +498,7 @@ for
 (
 let
 section
-in
+of
 XPCOMUtils
 .
 IterStringEnumerator
@@ -525,7 +525,7 @@ for
 (
 let
 key
-in
+of
 XPCOMUtils
 .
 IterStringEnumerator
