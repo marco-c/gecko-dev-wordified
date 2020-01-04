@@ -1281,11 +1281,10 @@ const
 QuotaInfo
 &
 aQuotaInfo
-nsMainThreadPtrHandle
+already_AddRefed
 <
 DirectoryLock
 >
-&
 aDirectoryLock
 )
 ;
@@ -1440,7 +1439,7 @@ ThreadsafeHandle
 >
 mThreadsafeHandle
 ;
-nsMainThreadPtrHandle
+RefPtr
 <
 DirectoryLock
 >

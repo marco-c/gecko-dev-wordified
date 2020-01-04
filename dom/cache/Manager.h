@@ -965,9 +965,6 @@ aManagerId
 /
 Synchronously
 shutdown
-from
-main
-thread
 .
 This
 spins
@@ -977,7 +974,7 @@ loop
 .
 static
 void
-ShutdownAllOnMainThread
+ShutdownAll
 (
 )
 ;
@@ -999,7 +996,7 @@ null
 .
 static
 void
-AbortOnMainThread
+Abort
 (
 const
 nsACString
