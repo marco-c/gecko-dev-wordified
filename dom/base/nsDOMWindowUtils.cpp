@@ -15602,7 +15602,7 @@ if
 doc
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )

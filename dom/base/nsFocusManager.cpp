@@ -7622,7 +7622,7 @@ OwnerDoc
 )
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 &

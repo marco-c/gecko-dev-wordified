@@ -6695,13 +6695,6 @@ IsFullscreenLeaf
 override
 ;
 virtual
-bool
-IsFullScreenDoc
-(
-)
-override
-;
-virtual
 nsresult
 RemoteFrameFullscreenChanged
 (

@@ -51484,7 +51484,7 @@ this
 ;
 if
 (
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -61412,7 +61412,7 @@ if
 aDoc
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -61497,7 +61497,7 @@ subdocuments
 if
 (
 !
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -61533,7 +61533,7 @@ if
 aDocument
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -61579,7 +61579,7 @@ NS_ASSERTION
 aDocument
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 "
@@ -61896,7 +61896,7 @@ root
 root
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -62198,7 +62198,7 @@ NS_ASSERTION
 root
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 "
@@ -62305,7 +62305,7 @@ if
 aDoc
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -62429,7 +62429,7 @@ if
 root
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
@@ -62460,7 +62460,7 @@ RestorePreviousFullScreenState
 NS_ASSERTION
 (
 !
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 |
@@ -62489,7 +62489,7 @@ fullscreen
 if
 (
 !
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 |
@@ -63129,23 +63129,6 @@ true
 )
 ;
 }
-}
-bool
-nsDocument
-:
-:
-IsFullScreenDoc
-(
-)
-{
-return
-GetFullscreenElement
-(
-)
-!
-=
-nullptr
-;
 }
 class
 nsCallRequestFullScreen
@@ -65859,6 +65842,8 @@ the
 chrome
 .
 return
+!
+!
 nsContentUtils
 :
 :
@@ -65868,7 +65853,7 @@ aDoc
 )
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 ;
@@ -67954,7 +67939,7 @@ if
 doc
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 |
