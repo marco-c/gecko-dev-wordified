@@ -4946,13 +4946,6 @@ none
 Ruby
 *
 /
-supports
-(
-display
-:
-ruby
-)
-{
 ruby
 {
 display
@@ -5206,5 +5199,4 @@ moz
 -
 isolate
 ;
-}
 }

@@ -569,13 +569,6 @@ inherit
 Ruby
 *
 /
-supports
-(
-display
-:
-ruby
-)
-{
 *
 |
 *
@@ -719,7 +712,6 @@ moz
 -
 isolate
 ;
-}
 }
 /
 *

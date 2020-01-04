@@ -9398,13 +9398,6 @@ ruby_align
 RubyAlign
 CSS_PROPERTY_PARSE_VALUE
 "
-layout
-.
-css
-.
-ruby
-.
-enabled
 "
 VARIANT_HK
 kRubyAlignKTable
@@ -9424,13 +9417,6 @@ ruby_position
 RubyPosition
 CSS_PROPERTY_PARSE_VALUE
 "
-layout
-.
-css
-.
-ruby
-.
-enabled
 "
 VARIANT_HK
 kRubyPositionKTable
