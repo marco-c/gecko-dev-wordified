@@ -12776,7 +12776,7 @@ TS_E_NOSELECTION
 }
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -12784,7 +12784,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -12832,7 +12832,7 @@ E_FAIL
 *
 pSelection
 =
-currentSel
+selectionForTSF
 .
 ACP
 (
@@ -13045,7 +13045,7 @@ mContentForTSF
 }
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -13053,7 +13053,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -14917,7 +14917,7 @@ aNewRange
 {
 Selection
 &
-currentSelection
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -15008,7 +15008,7 @@ d
 }
 "
 "
-currentSelection
+selectionForTSF
 =
 {
 IsDirty
@@ -15048,18 +15048,18 @@ Length
 )
 GetBoolName
 (
-currentSelection
+selectionForTSF
 .
 IsDirty
 (
 )
 )
-currentSelection
+selectionForTSF
 .
 StartOffset
 (
 )
-currentSelection
+selectionForTSF
 .
 Length
 (
@@ -15069,7 +15069,7 @@ Length
 ;
 if
 (
-currentSelection
+selectionForTSF
 .
 IsDirty
 (
@@ -15305,7 +15305,7 @@ mComposition
 Selection
 oldSelection
 =
-currentSelection
+selectionForTSF
 ;
 /
 /
@@ -15642,7 +15642,7 @@ keepComposingLength
 )
 )
 ;
-currentSelection
+selectionForTSF
 =
 oldSelection
 ;
@@ -15687,7 +15687,7 @@ d
 }
 "
 "
-currentSelection
+selectionForTSF
 =
 {
 IsDirty
@@ -15723,18 +15723,18 @@ Length
 )
 GetBoolName
 (
-currentSelection
+selectionForTSF
 .
 IsDirty
 (
 )
 )
-currentSelection
+selectionForTSF
 .
 StartOffset
 (
 )
-currentSelection
+selectionForTSF
 .
 Length
 (
@@ -16410,7 +16410,7 @@ here
 .
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -16418,7 +16418,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -17267,7 +17267,7 @@ undefined
 if
 (
 !
-currentSel
+selectionForTSF
 .
 IsCollapsed
 (
@@ -17306,7 +17306,7 @@ ElementAt
 LONG
 start
 =
-currentSel
+selectionForTSF
 .
 MinOffset
 (
@@ -17315,7 +17315,7 @@ MinOffset
 LONG
 end
 =
-currentSel
+selectionForTSF
 .
 MaxOffset
 (
@@ -17411,7 +17411,7 @@ static_cast
 uint32_t
 >
 (
-currentSel
+selectionForTSF
 .
 MaxOffset
 (
@@ -17724,7 +17724,7 @@ IsReadWriteLocked
 ;
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -17732,7 +17732,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -17814,7 +17814,7 @@ edit
 .
 if
 (
-currentSel
+selectionForTSF
 .
 EqualsExceptDirection
 (
@@ -17862,7 +17862,7 @@ this
 )
 )
 ;
-currentSel
+selectionForTSF
 .
 SetSelection
 (
@@ -18014,7 +18014,7 @@ Emulate
 selection
 during
 compositions
-currentSel
+selectionForTSF
 .
 SetSelection
 (
@@ -18476,7 +18476,7 @@ for
 updating
 mSelectionForTSF
 .
-currentSel
+selectionForTSF
 .
 SetSelection
 (
@@ -21907,7 +21907,7 @@ eTextVerticalWriting
 {
 Selection
 &
-currentSelection
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -21933,7 +21933,7 @@ varValue
 .
 boolVal
 =
-currentSelection
+selectionForTSF
 .
 GetWritingMode
 (
@@ -21956,7 +21956,7 @@ eTextOrientation
 {
 Selection
 &
-currentSelection
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -21982,7 +21982,7 @@ varValue
 .
 lVal
 =
-currentSelection
+selectionForTSF
 .
 GetWritingMode
 (
@@ -24015,7 +24015,7 @@ acpEnd
 const
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -24394,14 +24394,14 @@ acpStart
 acpEnd
 &
 &
-currentSel
+selectionForTSF
 .
 IsCollapsed
 (
 )
 &
 &
-currentSel
+selectionForTSF
 .
 EndOffset
 (
@@ -26804,7 +26804,7 @@ selection
 first
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -26812,7 +26812,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -26865,7 +26865,7 @@ insertion
 *
 pacpStart
 =
-currentSel
+selectionForTSF
 .
 StartOffset
 (
@@ -26874,7 +26874,7 @@ StartOffset
 *
 pacpEnd
 =
-currentSel
+selectionForTSF
 .
 EndOffset
 (
@@ -26890,7 +26890,7 @@ pChange
 >
 acpStart
 =
-currentSel
+selectionForTSF
 .
 StartOffset
 (
@@ -26901,7 +26901,7 @@ pChange
 >
 acpOldEnd
 =
-currentSel
+selectionForTSF
 .
 EndOffset
 (
@@ -26912,7 +26912,7 @@ pChange
 >
 acpNewEnd
 =
-currentSel
+selectionForTSF
 .
 StartOffset
 (
@@ -28409,7 +28409,7 @@ aLength
 ;
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -28417,7 +28417,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -28469,7 +28469,7 @@ true
 else
 if
 (
-currentSel
+selectionForTSF
 .
 MinOffset
 (
@@ -28479,7 +28479,7 @@ MinOffset
 aStart
 |
 |
-currentSel
+selectionForTSF
 .
 MaxOffset
 (
@@ -29843,7 +29843,7 @@ Info
 {
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -29851,7 +29851,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -29973,19 +29973,19 @@ mString
 get
 (
 )
-currentSel
+selectionForTSF
 .
 StartOffset
 (
 )
-currentSel
+selectionForTSF
 .
 EndOffset
 (
 )
 GetActiveSelEndName
 (
-currentSel
+selectionForTSF
 .
 ActiveSelEnd
 (
@@ -35123,7 +35123,7 @@ IsComposing
 ;
 Selection
 &
-currentSel
+selectionForTSF
 =
 SelectionForTSFRef
 (
@@ -35131,7 +35131,7 @@ SelectionForTSFRef
 ;
 if
 (
-currentSel
+selectionForTSF
 .
 IsDirty
 (
@@ -35222,7 +35222,7 @@ OK
 int64_t
 caretOffset
 =
-currentSel
+selectionForTSF
 .
 MaxOffset
 (
