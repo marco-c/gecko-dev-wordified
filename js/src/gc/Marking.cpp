@@ -7971,15 +7971,15 @@ sourceObject
 ;
 if
 (
-enclosingScope_
+staticScope_
 )
 TraceEdge
 (
 trc
 &
-enclosingScope_
+staticScope_
 "
-enclosingScope
+staticScope
 "
 )
 ;
@@ -8166,7 +8166,7 @@ if
 thing
 -
 >
-enclosingScope_
+staticScope_
 )
 traverseEdge
 (
@@ -8180,7 +8180,7 @@ JSObject
 thing
 -
 >
-enclosingScope_
+staticScope_
 )
 )
 ;

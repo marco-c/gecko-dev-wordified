@@ -2451,6 +2451,16 @@ NoGC
 i
 (
 curr
+-
+>
+nonLazyScript
+(
+)
+-
+>
+staticScope
+(
+)
 )
 ;
 !
@@ -2488,6 +2498,10 @@ curr
 i
 .
 fun
+(
+)
+.
+function
 (
 )
 ;
