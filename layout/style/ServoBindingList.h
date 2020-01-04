@@ -220,8 +220,7 @@ SERVO_BINDING_FUNC
 (
 Servo_Node_ClearNodeData
 void
-RawGeckoNode
-*
+RawGeckoNodeBorrowed
 node
 )
 /
@@ -584,8 +583,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputeRestyleHint
 nsRestyleHint
-RawGeckoElement
-*
+RawGeckoElementBorrowed
 element
 ServoElementSnapshot
 *
@@ -644,7 +642,7 @@ nsStyle
 name
 *
 \
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 computed_values
 )
 #
