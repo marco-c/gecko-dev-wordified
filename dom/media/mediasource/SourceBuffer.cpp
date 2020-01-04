@@ -2033,10 +2033,6 @@ mUpdateID
 (
 0
 )
-mReportedOffset
-(
-0
-)
 mType
 (
 aType
