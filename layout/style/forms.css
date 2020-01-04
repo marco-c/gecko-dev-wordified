@@ -4653,6 +4653,9 @@ active
 :
 hover
 {
+%
+ifndef
+XP_MACOSX
 padding
 -
 block
@@ -4687,6 +4690,8 @@ start
 :
 7px
 ;
+%
+endif
 border
 -
 style
