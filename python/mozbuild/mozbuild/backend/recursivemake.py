@@ -10097,10 +10097,8 @@ write
 STATIC_LIBS
 +
 =
-librul
-.
 (
-LIB_SUFFIX
+RS_STATICLIB_CRATE_OBJ
 )
 \
 n
