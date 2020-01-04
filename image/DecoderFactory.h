@@ -160,6 +160,9 @@ class
 Decoder
 ;
 class
+IDecodingTask
+;
+class
 RasterImage
 ;
 class
@@ -430,7 +433,7 @@ none
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateDecoder
 (
@@ -565,7 +568,7 @@ produce
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateAnimationDecoder
 (
@@ -716,7 +719,7 @@ none
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateMetadataDecoder
 (
