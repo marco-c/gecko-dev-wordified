@@ -18862,7 +18862,7 @@ this
 frame
 all
 its
-descendant
+descendent
 frames
 this
 *
@@ -18871,7 +18871,7 @@ frame
 s
 outline
 and
-descendant
+descentant
 frames
 '
 outline
