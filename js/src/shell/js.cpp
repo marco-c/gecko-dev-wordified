@@ -7549,7 +7549,7 @@ JS
 :
 PrepareForFullGC
 (
-rt
+cx
 )
 ;
 AutoKeepAtoms

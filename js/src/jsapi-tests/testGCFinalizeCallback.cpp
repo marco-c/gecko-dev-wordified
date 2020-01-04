@@ -176,7 +176,7 @@ JS
 :
 PrepareForFullGC
 (
-rt
+cx
 )
 ;
 JS
@@ -213,7 +213,7 @@ JS
 :
 PrepareForFullGC
 (
-rt
+cx
 )
 ;
 JS
@@ -365,7 +365,7 @@ JS
 :
 GCForReason
 (
-rt
+cx
 GC_NORMAL
 JS
 :
@@ -471,7 +471,7 @@ JS
 :
 GCForReason
 (
-rt
+cx
 GC_NORMAL
 JS
 :
@@ -872,7 +872,7 @@ JS
 :
 PrepareForFullGC
 (
-rt
+cx
 )
 ;
 js

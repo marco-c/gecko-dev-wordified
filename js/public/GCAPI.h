@@ -922,9 +922,9 @@ void
 )
 PrepareForFullGC
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /
@@ -973,9 +973,9 @@ void
 )
 PrepareForIncrementalGC
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /
@@ -1017,9 +1017,9 @@ bool
 )
 IsGCScheduled
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /
@@ -1165,9 +1165,9 @@ void
 )
 GCForReason
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSGCInvocationKind
 gckind
 gcreason

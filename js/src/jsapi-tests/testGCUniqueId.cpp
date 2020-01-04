@@ -981,7 +981,7 @@ JS
 :
 PrepareForFullGC
 (
-rt
+cx
 )
 ;
 JS
@@ -989,7 +989,7 @@ JS
 :
 GCForReason
 (
-rt
+cx
 GC_SHRINK
 JS
 :
