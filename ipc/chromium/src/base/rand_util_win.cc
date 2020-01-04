@@ -134,7 +134,7 @@ SystemFunction036
 #
 include
 <
-NTSecAPI
+ntsecapi
 .
 h
 >
