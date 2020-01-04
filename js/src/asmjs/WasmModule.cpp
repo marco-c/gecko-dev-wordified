@@ -234,6 +234,15 @@ include
 "
 asmjs
 /
+WasmBinaryToExperimentalText
+.
+h
+"
+#
+include
+"
+asmjs
+/
 WasmBinaryToText
 .
 h
@@ -11222,7 +11231,7 @@ nullptr
 if
 (
 !
-BinaryToText
+BinaryToExperimentalText
 (
 cx
 source_
@@ -11236,6 +11245,9 @@ length
 (
 )
 buffer
+ExperimentalTextFormatting
+(
+)
 )
 )
 return
