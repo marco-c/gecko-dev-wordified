@@ -6663,8 +6663,6 @@ eIgnoreEnabledState
 /
 Ignore
 :
-moz
--
 any
 -
 link
@@ -6686,6 +6684,15 @@ style
 state
 if
 (
+type
+=
+=
+CSSPseudoClassType
+:
+:
+anyLink
+|
+|
 type
 =
 =

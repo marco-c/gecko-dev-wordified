@@ -732,9 +732,6 @@ indexOf
 (
 "
 :
--
-moz
--
 any
 -
 link
@@ -755,9 +752,6 @@ a
 rule
 for
 :
--
-moz
--
 any
 -
 link
