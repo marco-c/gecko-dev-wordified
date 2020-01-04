@@ -85,10 +85,6 @@ run_test
 (
 )
 {
-do_test_pending
-(
-)
-;
 run_next_test
 (
 )
@@ -1521,6 +1517,7 @@ directories
 add_task
 (
 function
+*
 test_dirs
 (
 )
@@ -1671,10 +1668,5 @@ path
 ;
 }
 }
-)
-;
-add_task
-(
-do_test_finished
 )
 ;
