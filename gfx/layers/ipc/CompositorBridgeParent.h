@@ -1311,17 +1311,6 @@ override
 ;
 virtual
 bool
-RecvMakeWidgetSnapshot
-(
-const
-SurfaceDescriptor
-&
-aInSnapshot
-)
-override
-;
-virtual
-bool
 RecvFlushRendering
 (
 )
