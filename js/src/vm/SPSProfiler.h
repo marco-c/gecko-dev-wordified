@@ -1636,7 +1636,7 @@ size_
 1
 ]
 .
-script
+rawScript
 (
 )
 =
