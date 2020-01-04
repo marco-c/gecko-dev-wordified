@@ -9692,6 +9692,12 @@ promiseLifetime
 )
 const
 ;
+double
+promiseTimeToResolution
+(
+)
+const
+;
 #
 endif
 /
