@@ -79,7 +79,11 @@ from
 types
 import
 TaskGraph
-Task
+from
+.
+util
+import
+TestTask
 from
 mozunit
 import
@@ -124,7 +128,7 @@ tp
 return
 (
 n
-Task
+TestTask
 (
 '
 test
@@ -158,7 +162,7 @@ tp
 return
 (
 n
-Task
+TestTask
 (
 '
 test
@@ -2643,9 +2647,7 @@ self
 "
 -
 -
-trigger
--
-tests
+rebuild
 10
 sets
 trigger_tests
@@ -2660,9 +2662,7 @@ try
 :
 -
 -
-trigger
--
-tests
+rebuild
 10
 '
 empty_graph
