@@ -238,6 +238,8 @@ manager
 (
 loader
 )
+{
+return
 loader
 .
 sandbox
@@ -253,6 +255,7 @@ storage
 .
 manager
 ;
+}
 exports
 .
 testSetGet
