@@ -1263,7 +1263,7 @@ const
 ;
 extern
 OptimizationInfos
-js_IonOptimizations
+IonOptimizations
 ;
 }
 /

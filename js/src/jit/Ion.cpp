@@ -13323,7 +13323,7 @@ OptimizationInfo
 *
 optimizationInfo
 =
-js_IonOptimizations
+IonOptimizations
 .
 get
 (
@@ -14546,7 +14546,7 @@ pc
 )
 {
 return
-js_IonOptimizations
+IonOptimizations
 .
 levelForScript
 (
