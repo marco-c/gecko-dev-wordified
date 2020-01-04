@@ -2680,6 +2680,9 @@ nonSyntacticLexicalScopes
 size_t
 *
 jitCompartment
+size_t
+*
+privateData
 )
 ;
 /

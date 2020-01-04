@@ -885,6 +885,10 @@ destroyCompartmentCallback
 (
 nullptr
 )
+sizeOfIncludingThisCompartmentCallback
+(
+nullptr
+)
 destroyZoneCallback
 (
 nullptr

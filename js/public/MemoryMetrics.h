@@ -4030,6 +4030,13 @@ Other
 MallocHeap
 jitCompartment
 )
+\
+macro
+(
+Other
+MallocHeap
+privateData
+)
 CompartmentStats
 (
 )
