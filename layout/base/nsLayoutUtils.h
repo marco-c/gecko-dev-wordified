@@ -15902,9 +15902,6 @@ text
 align
 (
 and
--
-moz
--
 text
 -
 align
