@@ -355,6 +355,8 @@ GrTexture
 texture
 SkColorType
 dstCT
+SkAlphaType
+dstAT
 SkColorProfileType
 dstPT
 const
@@ -544,7 +546,7 @@ fConfig
 SkImageInfo2GrPixelConfig
 (
 dstCT
-kPremul_SkAlphaType
+dstAT
 dstPT
 )
 ;
@@ -674,7 +676,7 @@ desc
 .
 fHeight
 dstCT
-kPremul_SkAlphaType
+dstAT
 dstPT
 )
 ;
@@ -1112,6 +1114,16 @@ asTexture
 (
 )
 dstCT
+this
+-
+>
+info
+(
+)
+.
+alphaType
+(
+)
 dstPT
 subset
 )
