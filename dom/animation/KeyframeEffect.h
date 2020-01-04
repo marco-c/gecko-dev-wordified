@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsChangeHint
+.
+h
+"
+#
+include
+"
 nsCSSProperty
 .
 h
@@ -767,6 +774,9 @@ Maybe
 ComputedTimingFunction
 >
 mTimingFunction
+;
+nsChangeHint
+mChangeHint
 ;
 bool
 operator
