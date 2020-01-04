@@ -6055,15 +6055,9 @@ on
 PR_Poll
 uint32_t
 pollInterval
-=
-0
 ;
 int32_t
 n
-=
-0
-;
-pollDuration
 =
 0
 ;
