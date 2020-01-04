@@ -240,7 +240,9 @@ notif
 =
 notifBox
 .
-currentNotification
+getCurrentNotification
+(
+)
 ;
 ok
 (
