@@ -443,6 +443,13 @@ Shutdown
 =
 0
 ;
+virtual
+void
+SetFakeDeviceChangeEvents
+(
+)
+{
+}
 protected
 :
 virtual
@@ -534,6 +541,10 @@ mDelayAgnostic
 (
 false
 )
+mFakeDeviceChangeEventOn
+(
+false
+)
 {
 }
 int32_t
@@ -590,6 +601,9 @@ mExtendedFilter
 ;
 bool
 mDelayAgnostic
+;
+bool
+mFakeDeviceChangeEventOn
 ;
 /
 /

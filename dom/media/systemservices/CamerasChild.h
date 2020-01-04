@@ -1213,6 +1213,11 @@ RecvDeviceChange
 )
 override
 ;
+int
+SetFakeDeviceChangeEvents
+(
+)
+;
 /
 /
 these
