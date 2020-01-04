@@ -27901,7 +27901,7 @@ needsArgsObj
 /
 for
 (
-AllFramesIter
+AllScriptFramesIter
 i
 (
 cx
