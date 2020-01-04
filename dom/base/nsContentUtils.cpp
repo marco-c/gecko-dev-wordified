@@ -35767,7 +35767,7 @@ JSObject
 re
 (
 cx
-JS_NewUCRegExpObjectNoStatics
+JS_NewUCRegExpObject
 (
 cx
 static_cast
