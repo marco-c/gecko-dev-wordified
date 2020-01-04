@@ -338,7 +338,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 (
 aContext
 )
@@ -443,7 +443,7 @@ nsISVGChildFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 )
 void
 nsSVGForeignObjectFrame
@@ -485,7 +485,7 @@ foreignObject
 "
 )
 ;
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 :
 :
 Init
@@ -588,7 +588,7 @@ this
 )
 ;
 }
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 :
 :
 DestroyFrom
