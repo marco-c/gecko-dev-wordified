@@ -245,6 +245,11 @@ goog
 unwanted
 -
 proto
+test
+-
+unwanted
+-
+proto
 "
 )
 ;
