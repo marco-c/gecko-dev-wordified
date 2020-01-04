@@ -11818,9 +11818,6 @@ mState
 >
 =
 DECODER_STATE_DECODING
-&
-&
-mSentFirstFrameLoadedEvent
 "
 Must
 have
