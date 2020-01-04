@@ -261,6 +261,9 @@ GenericFlingAnimation
 AsyncPanZoomController
 &
 aApzc
+PlatformSpecificStateBase
+*
+aPlatformSpecificState
 const
 RefPtr
 <
