@@ -232,8 +232,7 @@ private
 nsKeyObjectFactory
 (
 )
-{
-}
+;
 /
 /
 Disallow
