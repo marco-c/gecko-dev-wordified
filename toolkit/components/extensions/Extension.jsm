@@ -7799,15 +7799,6 @@ createPrincipal
 ;
 this
 .
-views
-=
-new
-Set
-(
-)
-;
-this
-.
 onStartup
 =
 null
