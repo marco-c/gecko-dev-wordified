@@ -2315,9 +2315,7 @@ ionLazyLinkListSize_
 ;
 MOZ_ASSERT
 (
-ionLazyLinkList
-(
-)
+ionLazyLinkList_
 .
 isEmpty
 (
