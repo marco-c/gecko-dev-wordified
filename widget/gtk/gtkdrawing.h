@@ -878,6 +878,17 @@ MOZ_GTK_FRAME
 /
 *
 Paints
+the
+border
+of
+a
+GtkFrame
+*
+/
+MOZ_GTK_FRAME_BORDER
+/
+*
+Paints
 a
 resize
 grip
