@@ -367,14 +367,6 @@ mAppServerKey
 =
 appServerKey
 ;
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mAppServerKey
-)
-;
 }
 aKey
 .

@@ -11614,14 +11614,6 @@ setNull
 return
 ;
 }
-JS
-:
-:
-ExposeValueToActiveJS
-(
-mData
-)
-;
 aRetval
 .
 set

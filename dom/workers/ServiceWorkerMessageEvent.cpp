@@ -357,14 +357,6 @@ aRv
 )
 const
 {
-JS
-:
-:
-ExposeValueToActiveJS
-(
-mData
-)
-;
 aData
 .
 set

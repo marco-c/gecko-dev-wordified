@@ -10890,14 +10890,6 @@ GetJSProtoObject
 )
 const
 {
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mJSProtoObject
-)
-;
 return
 mJSProtoObject
 ;
