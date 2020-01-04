@@ -75,6 +75,15 @@ h
 #
 include
 "
+base
+/
+task
+.
+h
+"
+#
+include
+"
 nsIPowerManagerService
 .
 h
