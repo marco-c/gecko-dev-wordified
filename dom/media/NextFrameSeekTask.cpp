@@ -459,7 +459,7 @@ HasVideo
 Configure
 MediaDecoderReaderWrapper
 .
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 ;
@@ -555,7 +555,7 @@ __func__
 Disconnect
 MediaDecoderReader
 .
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 ;
@@ -2410,7 +2410,7 @@ void
 NextFrameSeekTask
 :
 :
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 {
@@ -2700,7 +2700,7 @@ void
 NextFrameSeekTask
 :
 :
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 {
