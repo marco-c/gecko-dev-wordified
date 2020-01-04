@@ -130,13 +130,13 @@ ContextWrapped
     
 Defines
     
-DistFiles
-    
 DirectoryTraversal
     
 Exports
     
 FinalTargetFiles
+    
+FinalTargetPreprocessedFiles
     
 GeneratedEventWebIDLFile
     
@@ -4816,9 +4816,9 @@ FinalTargetFiles
             
 (
 '
-DIST_FILES
+FINAL_TARGET_PP_FILES
 '
-DistFiles
+FinalTargetPreprocessedFiles
 )
         
 )

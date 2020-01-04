@@ -5015,7 +5015,7 @@ target
 =
 target
 class
-DistFiles
+FinalTargetPreprocessedFiles
 (
 ContextDerived
 )
@@ -5028,10 +5028,11 @@ Sandbox
 container
 object
 for
-DIST_FILES
+FINAL_TARGET_PP_FILES
 which
 is
 a
+    
 HierarchicalStringList
 .
     
@@ -5070,7 +5071,8 @@ is
 created
 when
 parsing
-DIST_FILES
+    
+FINAL_TARGET_PP_FILES
 .
     
 "
