@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 prenv
 .
 h
