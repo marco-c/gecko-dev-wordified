@@ -4707,6 +4707,10 @@ VisibleRegionsContainer
 >
 mVisibleRegions
 ;
+friend
+struct
+AutoUpdateVisibility
+;
 /
 /
 /
