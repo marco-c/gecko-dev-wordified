@@ -597,6 +597,14 @@ bool
 useI386ByteRegisters
 )
 ;
+void
+visitCopySign
+(
+MCopySign
+*
+ins
+)
+;
 }
 ;
 }

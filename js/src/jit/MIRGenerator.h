@@ -952,7 +952,7 @@ bool
 usesSimd_
 ;
 bool
-usesSimdCached_
+cachedUsesSimd_
 ;
 /
 /

@@ -878,6 +878,16 @@ SqrtF
 \
 _
 (
+CopySignD
+)
+\
+_
+(
+CopySignF
+)
+\
+_
+(
 Atan2D
 )
 \
