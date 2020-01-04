@@ -466,6 +466,16 @@ Reset
 (
 )
 ;
+int64_t
+LastDts
+(
+)
+const
+{
+return
+mLastDts
+;
+}
 private
 :
 int64_t
@@ -537,7 +547,7 @@ DurationElement
 /
 /
 Insert
-Dts
+Key
 and
 Duration
 pair
@@ -552,7 +562,7 @@ void
 Insert
 (
 int64_t
-aDts
+aKey
 int64_t
 aDuration
 )
@@ -563,7 +573,7 @@ AppendElement
 (
 MakePair
 (
-aDts
+aKey
 aDuration
 )
 )
@@ -574,7 +584,7 @@ aDuration
 Sets
 aDuration
 matching
-aDts
+aKey
 and
 remove
 it
@@ -608,7 +618,7 @@ bool
 Find
 (
 int64_t
-aDts
+aKey
 int64_t
 &
 aDuration
@@ -652,7 +662,7 @@ first
 )
 =
 =
-aDts
+aKey
 )
 {
 aDuration
