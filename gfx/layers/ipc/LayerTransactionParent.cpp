@@ -2131,6 +2131,11 @@ fixedPositionAnchor
 )
 common
 .
+fixedPositionSides
+(
+)
+common
+.
 isClipFixed
 (
 )
