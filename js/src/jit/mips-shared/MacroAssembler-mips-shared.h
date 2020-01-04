@@ -553,6 +553,15 @@ Imm32
 imm
 )
 ;
+void
+ma_ctz
+(
+Register
+rd
+Register
+rs
+)
+;
 /
 /
 load
