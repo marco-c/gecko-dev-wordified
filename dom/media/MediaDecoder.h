@@ -4919,6 +4919,7 @@ GetFrameStatistics
 )
 {
 return
+*
 mFrameStats
 ;
 }
@@ -5939,7 +5940,11 @@ presentation
 of
 frames
 .
+const
+RefPtr
+<
 FrameStatistics
+>
 mFrameStats
 ;
 const
