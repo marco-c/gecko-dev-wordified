@@ -149,6 +149,13 @@ h
 #
 include
 "
+WSRunObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -666,13 +673,6 @@ h
 include
 "
 nsTreeSanitizer
-.
-h
-"
-#
-include
-"
-nsWSRunObject
 .
 h
 "
@@ -2438,7 +2438,7 @@ invisible
 br
 visible
 .
-nsWSRunObject
+WSRunObject
 wsObj
 (
 this
@@ -4086,7 +4086,7 @@ an
 invisible
 break
 node
-nsWSRunObject
+WSRunObject
 wsRunObj
 (
 this
@@ -4195,7 +4195,7 @@ it
 out
 of
 the
-nsWSRunObject
+WSRunObject
 '
 s
 state
@@ -4261,7 +4261,7 @@ style
 prior
 to
 break
-nsWSRunObject
+WSRunObject
 wsRunObj
 (
 this

@@ -413,7 +413,7 @@ h
 #
 include
 "
-nsWSRunObject
+WSRunObject
 .
 h
 "
@@ -2840,7 +2840,7 @@ while
 done
 )
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 this
@@ -2978,7 +2978,7 @@ otherBlock
 By
 definition
 of
-nsWSRunObject
+WSRunObject
 a
 block
 element
@@ -5844,7 +5844,7 @@ selOffset
 +
 +
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 this
@@ -8824,7 +8824,7 @@ firstNodeToInsert
 )
 return
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 this
@@ -25837,7 +25837,7 @@ TextIsOnlyWhitespace
 )
 )
 {
-nsWSRunObject
+WSRunObject
 wsRunObj
 (
 this
