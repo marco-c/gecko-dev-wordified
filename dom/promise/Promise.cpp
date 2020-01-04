@@ -17390,7 +17390,6 @@ mPromiseWorkerProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
@@ -18224,7 +18223,6 @@ Canceling
 {
 CleanUp
 (
-aCx
 )
 ;
 }
@@ -18238,9 +18236,6 @@ PromiseWorkerProxy
 :
 CleanUp
 (
-JSContext
-*
-aCx
 )
 {
 /
@@ -18322,19 +18317,6 @@ mWorkerPrivate
 >
 AssertIsOnWorkerThread
 (
-)
-;
-MOZ_ASSERT
-(
-mWorkerPrivate
--
->
-GetJSContext
-(
-)
-=
-=
-aCx
 )
 ;
 /

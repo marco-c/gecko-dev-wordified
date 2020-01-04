@@ -922,7 +922,6 @@ mProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 /
@@ -1233,9 +1232,6 @@ crash
 void
 CleanUp
 (
-JSContext
-*
-aCx
 )
 ;
 Mutex
