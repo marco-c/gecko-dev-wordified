@@ -114,13 +114,6 @@ MPL
 /
 #
 include
-<
-ctype
-.
-h
->
-#
-include
 "
 mozilla
 /
