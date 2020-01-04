@@ -486,6 +486,7 @@ promise
 add_task
 (
 function
+*
 test_connectionReady_open
 (
 )
@@ -581,6 +582,7 @@ connectionReady
 add_task
 (
 function
+*
 test_connectionReady_closed
 (
 )
@@ -640,6 +642,7 @@ fail
 add_task
 (
 function
+*
 test_databaseFile
 (
 )
@@ -671,6 +674,7 @@ databaseFile
 add_task
 (
 function
+*
 test_tableExists_not_created
 (
 )
@@ -700,6 +704,7 @@ foo
 add_task
 (
 function
+*
 test_indexExists_not_created
 (
 )
@@ -729,6 +734,7 @@ foo
 add_task
 (
 function
+*
 test_temp_tableExists_and_indexExists
 (
 )
@@ -829,6 +835,7 @@ test_temp
 add_task
 (
 function
+*
 test_createTable_not_created
 (
 )
@@ -875,6 +882,7 @@ test
 add_task
 (
 function
+*
 test_indexExists_created
 (
 )
@@ -920,6 +928,7 @@ name_ind
 add_task
 (
 function
+*
 test_createTable_already_created
 (
 )
@@ -998,6 +1007,7 @@ result
 add_task
 (
 function
+*
 test_attach_createTable_tableExists_indexExists
 (
 )
@@ -1136,11 +1146,14 @@ here
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
-=
+!
 =
 Components
 .
@@ -1149,6 +1162,10 @@ results
 NS_ERROR_FAILURE
 )
 {
+throw
+e
+;
+}
 /
 /
 we
@@ -1248,6 +1265,7 @@ e
 add_task
 (
 function
+*
 test_lastInsertRowID
 (
 )
@@ -1293,6 +1311,7 @@ lastInsertRowID
 add_task
 (
 function
+*
 test_transactionInProgress_no
 (
 )
@@ -1317,6 +1336,7 @@ transactionInProgress
 add_task
 (
 function
+*
 test_transactionInProgress_yes
 (
 )
@@ -1386,6 +1406,7 @@ transactionInProgress
 add_task
 (
 function
+*
 test_commitTransaction_no_transaction
 (
 )
@@ -1447,6 +1468,7 @@ result
 add_task
 (
 function
+*
 test_rollbackTransaction_no_transaction
 (
 )
@@ -1508,6 +1530,7 @@ result
 add_task
 (
 function
+*
 test_get_schemaVersion_not_set
 (
 )
@@ -1528,6 +1551,7 @@ schemaVersion
 add_task
 (
 function
+*
 test_set_schemaVersion
 (
 )
@@ -1564,6 +1588,7 @@ schemaVersion
 add_task
 (
 function
+*
 test_set_schemaVersion_same
 (
 )
@@ -1606,6 +1631,7 @@ schemaVersion
 add_task
 (
 function
+*
 test_set_schemaVersion_negative
 (
 )
@@ -1643,6 +1669,7 @@ schemaVersion
 add_task
 (
 function
+*
 test_createTable
 (
 )
@@ -1764,6 +1791,7 @@ close
 add_task
 (
 function
+*
 test_defaultSynchronousAtNormal
 (
 )
@@ -1836,6 +1864,7 @@ tests
 add_task
 (
 function
+*
 test_close_does_not_spin_event_loop
 (
 )
@@ -2013,6 +2042,7 @@ null
 add_task
 (
 function
+*
 test_asyncClose_succeeds_with_finalized_async_statement
 (
 )
@@ -2153,6 +2183,7 @@ null
 add_task
 (
 function
+*
 test_close_then_release_statement
 (
 )
@@ -2262,6 +2293,7 @@ null
 add_task
 (
 function
+*
 test_asyncClose_then_release_statement
 (
 )
@@ -2372,6 +2404,7 @@ null
 add_task
 (
 function
+*
 test_close_fails_with_async_statement_ran
 (
 )
@@ -2508,6 +2541,7 @@ promise
 add_task
 (
 function
+*
 test_clone_optional_param
 (
 )
@@ -2678,6 +2712,7 @@ close
 )
 ;
 function
+*
 standardAsyncTest
 (
 promisedDB
@@ -2988,6 +3023,7 @@ complete
 add_task
 (
 function
+*
 test_open_async
 (
 )
@@ -3248,6 +3284,7 @@ raised
 add_task
 (
 function
+*
 test_async_open_with_shared_cache
 (
 )
@@ -3473,6 +3510,7 @@ adb
 add_task
 (
 function
+*
 test_clone_trivial_async
 (
 )
@@ -3562,6 +3600,7 @@ adb2
 add_task
 (
 function
+*
 test_clone_no_optional_param_async
 (
 )
@@ -3890,6 +3929,7 @@ closed
 add_task
 (
 function
+*
 test_clone_readonly
 (
 )
@@ -4044,6 +4084,7 @@ close
 add_task
 (
 function
+*
 test_clone_shared_readonly
 (
 )
@@ -4248,6 +4289,7 @@ close
 add_task
 (
 function
+*
 test_close_clone_fails
 (
 )
@@ -4319,6 +4361,7 @@ clone
 add_task
 (
 function
+*
 test_memory_clone_fails
 (
 )
@@ -4365,6 +4408,7 @@ clone
 add_task
 (
 function
+*
 test_clone_copies_functions
 (
 )
@@ -4576,6 +4620,7 @@ close
 add_task
 (
 function
+*
 test_clone_copies_overridden_functions
 (
 )
@@ -4831,6 +4876,7 @@ close
 add_task
 (
 function
+*
 test_clone_copies_pragmas
 (
 )
@@ -5175,6 +5221,7 @@ close
 add_task
 (
 function
+*
 test_readonly_clone_copies_pragmas
 (
 )
@@ -5520,6 +5567,7 @@ close
 add_task
 (
 function
+*
 test_getInterface
 (
 )
