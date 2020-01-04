@@ -2414,6 +2414,9 @@ Exception
 :
 GetStack
 (
+JSContext
+*
+aCx
 nsAString
 &
 aStack
@@ -2435,6 +2438,7 @@ mLocation
 >
 GetFormattedStack
 (
+aCx
 aStack
 )
 ;
