@@ -2065,13 +2065,6 @@ GdkRectangle
 rect
 )
 ;
-virtual
-bool
-WidgetTypeSupportsAcceleration
-(
-)
-override
-;
 protected
 :
 virtual
