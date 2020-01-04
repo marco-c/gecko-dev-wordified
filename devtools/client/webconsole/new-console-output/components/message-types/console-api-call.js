@@ -294,6 +294,7 @@ onViewSourceInDebugger
 open
 hudProxyClient
 tableData
+emitNewMessage
 }
 =
 props
@@ -541,6 +542,7 @@ stacktrace
 attachment
 onViewSourceInDebugger
 sourceMapService
+emitNewMessage
 dispatch
 }
 )

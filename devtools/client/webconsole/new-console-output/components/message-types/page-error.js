@@ -209,6 +209,7 @@ message
 open
 sourceMapService
 onViewSourceInDebugger
+emitNewMessage
 }
 =
 props
@@ -250,6 +251,7 @@ frame
 stacktrace
 onViewSourceInDebugger
 sourceMapService
+emitNewMessage
 }
 ;
 return

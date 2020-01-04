@@ -274,6 +274,13 @@ PropTypes
 func
 .
 isRequired
+emitNewMessage
+:
+PropTypes
+.
+func
+.
+isRequired
 autoscroll
 :
 PropTypes
@@ -407,6 +414,7 @@ sourceMapService
 onViewSourceInDebugger
 openNetworkPanel
 openLink
+emitNewMessage
 }
 =
 this
@@ -443,6 +451,7 @@ sourceMapService
 onViewSourceInDebugger
 openNetworkPanel
 openLink
+emitNewMessage
 open
 :
 messagesUi

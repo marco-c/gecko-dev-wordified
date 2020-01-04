@@ -2482,15 +2482,6 @@ callback
 &
 callback
 (
-this
-.
-hud
-.
-newConsoleOutput
-.
-getLastMessage
-(
-)
 )
 ;
 return
