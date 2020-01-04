@@ -351,14 +351,7 @@ OwningUnrestrictedDoubleOrString
 aRetVal
 )
 const
-{
-aRetVal
-=
-mTiming
-.
-mDuration
 ;
-}
 PlaybackDirection
 Direction
 (
