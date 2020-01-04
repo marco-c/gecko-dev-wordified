@@ -2347,6 +2347,17 @@ height
 )
 GK_ATOM
 (
+devicePixelRatio
+"
+device
+-
+pixel
+-
+ratio
+"
+)
+GK_ATOM
+(
 deviceWidth
 "
 device
