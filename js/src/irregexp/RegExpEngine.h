@@ -590,6 +590,9 @@ length
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 ;
 template
@@ -618,6 +621,9 @@ length
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 ;
 #

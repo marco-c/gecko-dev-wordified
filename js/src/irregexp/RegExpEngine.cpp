@@ -12967,6 +12967,9 @@ length
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 {
 typedef
@@ -12989,6 +12992,7 @@ chars
 length
 start
 matches
+endIndex
 )
 ;
 RegExpCodeSignature
@@ -13058,6 +13062,9 @@ length
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 ;
 template
@@ -13087,6 +13094,9 @@ length
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 ;
 /

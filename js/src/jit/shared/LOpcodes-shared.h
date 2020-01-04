@@ -1043,12 +1043,12 @@ RegExp
 \
 _
 (
-RegExpExec
+RegExpMatcher
 )
 \
 _
 (
-RegExpTest
+RegExpTester
 )
 \
 _
