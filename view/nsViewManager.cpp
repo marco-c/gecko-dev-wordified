@@ -2720,8 +2720,10 @@ handle
 .
 for
 (
+RefPtr
+<
 nsViewManager
-*
+>
 vm
 =
 this
