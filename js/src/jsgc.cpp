@@ -43125,9 +43125,8 @@ break
 ;
 default
 :
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 Background
 finalization
