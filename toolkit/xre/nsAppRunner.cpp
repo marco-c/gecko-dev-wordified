@@ -27303,6 +27303,7 @@ users
 (
 <
 =
+Mountain
 Lion
 )
 as
@@ -27328,7 +27329,7 @@ if
 nsCocoaFeatures
 :
 :
-OnMountainLionOrLater
+OnMavericksOrLater
 (
 )
 )
