@@ -23135,7 +23135,10 @@ IsInlineOutside
 const
 ;
 inline
-uint8_t
+mozilla
+:
+:
+StyleDisplay
 GetDisplay
 (
 )

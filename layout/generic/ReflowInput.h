@@ -4241,7 +4241,10 @@ IsFloating
 )
 const
 ;
-uint8_t
+mozilla
+:
+:
+StyleDisplay
 GetDisplay
 (
 )

@@ -5462,7 +5462,10 @@ StyleDisplay
 mDisplay
 !
 =
-NS_STYLE_DISPLAY_INLINE
+StyleDisplay
+:
+:
+Inline
 |
 |
 styledFrame

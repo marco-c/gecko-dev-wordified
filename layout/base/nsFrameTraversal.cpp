@@ -2449,7 +2449,10 @@ StyleDisplay
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_POPUP
+StyleDisplay
+:
+:
+Popup
 )
 ;
 }

@@ -2291,7 +2291,10 @@ display
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_NONE
+StyleDisplay
+:
+:
+None_
 |
 |
 content

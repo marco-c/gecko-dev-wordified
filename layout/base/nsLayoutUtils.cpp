@@ -9213,7 +9213,10 @@ MOZ_XUL
 else
 if
 (
-NS_STYLE_DISPLAY_POPUP
+StyleDisplay
+:
+:
+Popup
 =
 =
 disp
@@ -60228,7 +60231,10 @@ disp
 mDisplay
 !
 =
-NS_STYLE_DISPLAY_TABLE_CELL
+StyleDisplay
+:
+:
+TableCell
 &
 &
 disp
@@ -60237,7 +60243,10 @@ disp
 mDisplay
 !
 =
-NS_STYLE_DISPLAY_TABLE_CAPTION
+StyleDisplay
+:
+:
+TableCaption
 ;
 if
 (

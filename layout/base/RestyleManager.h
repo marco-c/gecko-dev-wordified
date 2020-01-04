@@ -4780,7 +4780,7 @@ nsStyleContext
 *
 aParentStyleContext
 const
-uint8_t
+StyleDisplay
 aDisplay
 )
 ;
@@ -4997,7 +4997,7 @@ nsIContent
 *
 aUndisplayedParent
 const
-uint8_t
+StyleDisplay
 aDisplay
 Element
 *
