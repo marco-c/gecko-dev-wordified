@@ -370,6 +370,14 @@ nsIPresentationTerminateRequest
 aRequest
 )
 ;
+nsresult
+HandleReconnectRequest
+(
+nsIPresentationSessionRequest
+*
+aRequest
+)
+;
 void
 NotifyAvailableChange
 (

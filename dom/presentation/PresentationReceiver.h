@@ -294,6 +294,9 @@ nsPIDOMWindowInner
 >
 mOwner
 ;
+nsString
+mUrl
+;
 RefPtr
 <
 Promise
