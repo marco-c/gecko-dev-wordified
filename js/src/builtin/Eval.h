@@ -221,6 +221,7 @@ indirect
 eval
 .
 extern
+MOZ_MUST_USE
 bool
 IndirectEval
 (
@@ -280,6 +281,7 @@ script
 frame
 .
 extern
+MOZ_MUST_USE
 bool
 DirectEval
 (
@@ -304,6 +306,7 @@ Ion
 code
 .
 extern
+MOZ_MUST_USE
 bool
 DirectEvalStringFromIon
 (

@@ -144,6 +144,7 @@ namespace
 js
 {
 extern
+MOZ_MUST_USE
 bool
 Reflect_getPrototypeOf
 (
@@ -158,6 +159,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 Reflect_isExtensible
 (

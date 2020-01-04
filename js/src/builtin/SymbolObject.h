@@ -285,6 +285,7 @@ symbol
 ;
 }
 static
+MOZ_MUST_USE
 bool
 construct
 (
@@ -304,6 +305,7 @@ Static
 methods
 .
 static
+MOZ_MUST_USE
 bool
 for_
 (
@@ -318,6 +320,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 keyFor
 (
@@ -341,6 +344,7 @@ Symbol
 prototype
 .
 static
+MOZ_MUST_USE
 bool
 toString_impl
 (
@@ -354,6 +358,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 toString
 (
@@ -368,6 +373,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 valueOf_impl
 (
@@ -381,6 +387,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 valueOf
 (
@@ -395,6 +402,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 toPrimitive
 (

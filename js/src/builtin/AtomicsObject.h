@@ -161,6 +161,7 @@ global
 )
 ;
 static
+MOZ_MUST_USE
 bool
 toString
 (
@@ -177,6 +178,7 @@ vp
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 atomics_compareExchange
 (
@@ -190,6 +192,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_exchange
 (
@@ -203,6 +206,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_load
 (
@@ -216,6 +220,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_store
 (
@@ -229,6 +234,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_add
 (
@@ -242,6 +248,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_sub
 (
@@ -255,6 +262,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_and
 (
@@ -268,6 +276,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_or
 (
@@ -281,6 +290,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_xor
 (
@@ -294,6 +304,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_isLockFree
 (
@@ -307,6 +318,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_wait
 (
@@ -320,6 +332,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 atomics_wake
 (
@@ -426,6 +439,7 @@ FutexRuntime
 public
 :
 static
+MOZ_MUST_USE
 bool
 initialize
 (
@@ -453,6 +467,7 @@ FutexRuntime
 (
 )
 ;
+MOZ_MUST_USE
 bool
 initInstance
 (
@@ -601,6 +616,7 @@ false
 on
 error
 .
+MOZ_MUST_USE
 bool
 wait
 (

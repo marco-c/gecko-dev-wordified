@@ -320,6 +320,7 @@ UndefinedValue
 )
 {
 }
+MOZ_MUST_USE
 bool
 setValue
 (
@@ -403,6 +404,7 @@ HashableValue
 {
 public
 :
+MOZ_MUST_USE
 bool
 setValue
 (
@@ -637,6 +639,7 @@ Class
 class_
 ;
 static
+MOZ_MUST_USE
 bool
 getKeysAndValuesInterleaved
 (
@@ -662,6 +665,7 @@ entries
 )
 ;
 static
+MOZ_MUST_USE
 bool
 entries
 (
@@ -676,6 +680,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has
 (
@@ -735,6 +740,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 get
 (
@@ -750,6 +756,7 @@ rval
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has
 (
@@ -766,6 +773,7 @@ rval
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_
 (
@@ -824,6 +832,7 @@ interface
 object
 .
 static
+MOZ_MUST_USE
 bool
 set
 (
@@ -839,6 +848,7 @@ val
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear
 (
@@ -850,6 +860,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 iterator
 (
@@ -954,6 +965,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 construct
 (
@@ -984,6 +996,7 @@ o
 )
 ;
 static
+MOZ_MUST_USE
 bool
 iterator_impl
 (
@@ -999,6 +1012,7 @@ kind
 )
 ;
 static
+MOZ_MUST_USE
 bool
 size_impl
 (
@@ -1012,6 +1026,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 size
 (
@@ -1026,6 +1041,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 get_impl
 (
@@ -1039,6 +1055,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 get
 (
@@ -1053,6 +1070,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has_impl
 (
@@ -1066,6 +1084,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 set_impl
 (
@@ -1079,6 +1098,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 set
 (
@@ -1093,6 +1113,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_impl
 (
@@ -1106,6 +1127,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_
 (
@@ -1120,6 +1142,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 keys_impl
 (
@@ -1133,6 +1156,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 keys
 (
@@ -1147,6 +1171,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 values_impl
 (
@@ -1160,6 +1185,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 values
 (
@@ -1174,6 +1200,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 entries_impl
 (
@@ -1187,6 +1214,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear_impl
 (
@@ -1200,6 +1228,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear
 (
@@ -1343,6 +1372,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 next
 (
@@ -1417,6 +1447,7 @@ Class
 class_
 ;
 static
+MOZ_MUST_USE
 bool
 keys
 (
@@ -1442,6 +1473,7 @@ keys
 )
 ;
 static
+MOZ_MUST_USE
 bool
 values
 (
@@ -1456,6 +1488,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 add
 (
@@ -1469,6 +1502,7 @@ key
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has
 (
@@ -1528,6 +1562,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has
 (
@@ -1544,6 +1579,7 @@ rval
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear
 (
@@ -1555,6 +1591,7 @@ obj
 )
 ;
 static
+MOZ_MUST_USE
 bool
 iterator
 (
@@ -1570,6 +1607,7 @@ iter
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_
 (
@@ -1705,6 +1743,7 @@ o
 )
 ;
 static
+MOZ_MUST_USE
 bool
 iterator_impl
 (
@@ -1720,6 +1759,7 @@ kind
 )
 ;
 static
+MOZ_MUST_USE
 bool
 size_impl
 (
@@ -1733,6 +1773,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 size
 (
@@ -1747,6 +1788,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 has_impl
 (
@@ -1760,6 +1802,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 add_impl
 (
@@ -1773,6 +1816,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 add
 (
@@ -1787,6 +1831,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_impl
 (
@@ -1800,6 +1845,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 delete_
 (
@@ -1814,6 +1860,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 values_impl
 (
@@ -1827,6 +1874,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 entries_impl
 (
@@ -1840,6 +1888,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 entries
 (
@@ -1854,6 +1903,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear_impl
 (
@@ -1867,6 +1917,7 @@ args
 )
 ;
 static
+MOZ_MUST_USE
 bool
 clear
 (
@@ -1988,6 +2039,7 @@ kind
 const
 ;
 static
+MOZ_MUST_USE
 bool
 next_impl
 (

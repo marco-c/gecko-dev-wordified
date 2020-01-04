@@ -320,6 +320,7 @@ options
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_Collator
 (
@@ -388,6 +389,7 @@ intl_Collator_availableLocales
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_Collator_availableLocales
 (
@@ -458,6 +460,7 @@ locale
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_availableCollations
 (
@@ -560,6 +563,7 @@ y
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_CompareStrings
 (
@@ -680,6 +684,7 @@ options
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_NumberFormat
 (
@@ -749,6 +754,7 @@ intl_NumberFormat_availableLocales
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_NumberFormat_availableLocales
 (
@@ -807,6 +813,7 @@ locale
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_numberingSystem
 (
@@ -874,6 +881,7 @@ x
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_FormatNumber
 (
@@ -994,6 +1002,7 @@ options
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_DateTimeFormat
 (
@@ -1065,6 +1074,7 @@ intl_DateTimeFormat_availableLocales
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_DateTimeFormat_availableLocales
 (
@@ -1132,6 +1142,7 @@ locale
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_availableCalendars
 (
@@ -1205,6 +1216,7 @@ skeleton
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_patternForSkeleton
 (
@@ -1280,6 +1292,7 @@ x
 *
 /
 extern
+MOZ_MUST_USE
 bool
 intl_FormatDateTime
 (

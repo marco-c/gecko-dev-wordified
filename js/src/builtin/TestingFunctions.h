@@ -124,6 +124,7 @@ h
 namespace
 js
 {
+MOZ_MUST_USE
 bool
 DefineTestingFunctions
 (
@@ -138,6 +139,7 @@ bool
 disableOOMFunctions
 )
 ;
+MOZ_MUST_USE
 bool
 testingFunc_assertFloat32
 (
@@ -151,6 +153,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 testingFunc_assertRecoveredOnBailout
 (

@@ -306,6 +306,7 @@ PROMISE_RESULT_SLOT
 )
 ;
 }
+MOZ_MUST_USE
 bool
 resolve
 (
@@ -316,6 +317,7 @@ HandleValue
 resolutionValue
 )
 ;
+MOZ_MUST_USE
 bool
 reject
 (
@@ -463,6 +465,7 @@ allocationTime
 )
 ;
 }
+MOZ_MUST_USE
 bool
 dependentPromises
 (
