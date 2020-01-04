@@ -245,6 +245,7 @@ MARK
 SWEEP
 FINALIZE
 COMPACT
+DECOMMIT
 NUM_STATES
 }
 ;
@@ -6063,6 +6064,12 @@ is
 actively
 running
 .
+bool
+isRunningWithLockHeld
+(
+)
+const
+;
 bool
 isRunning
 (
