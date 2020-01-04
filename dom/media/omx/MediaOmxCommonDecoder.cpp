@@ -1295,6 +1295,14 @@ NS_IsMainThread
 )
 )
 ;
+MediaDecoder
+:
+:
+SetElementVisibility
+(
+aIsVisible
+)
+;
 if
 (
 mAudioOffloadPlayer
