@@ -363,7 +363,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 namespace
 mozilla
@@ -3282,7 +3282,7 @@ MOZ_ASSERT
 tabChild
 )
 ;
-unused
+Unused
 <
 <
 tabChild
@@ -3344,7 +3344,7 @@ aTabChild
 )
 )
 ;
-unused
+Unused
 <
 <
 SendRequestNotifyAfterRemotePaint

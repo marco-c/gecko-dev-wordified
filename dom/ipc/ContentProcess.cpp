@@ -448,7 +448,7 @@ not
 already
 set
 .
-unused
+Unused
 <
 <
 nsDirectoryService

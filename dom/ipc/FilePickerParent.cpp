@@ -233,7 +233,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 namespace
@@ -853,7 +853,7 @@ SwapElements
 blobs
 )
 ;
-unused
+Unused
 <
 <
 Send__delete__
@@ -889,7 +889,7 @@ nsIFilePicker
 returnOK
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -1105,7 +1105,7 @@ Dispatch
 )
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -1280,7 +1280,7 @@ CreateFilePicker
 )
 )
 {
-unused
+Unused
 <
 <
 Send__delete__

@@ -1040,7 +1040,7 @@ GetType
 eStyleImageType_Null
 )
 ;
-unused
+Unused
 <
 <
 nsCSSRendering

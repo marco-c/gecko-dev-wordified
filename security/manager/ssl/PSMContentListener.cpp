@@ -1259,7 +1259,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__
@@ -1309,7 +1309,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__
@@ -1373,7 +1373,7 @@ this
 mozilla
 :
 :
-unused
+Unused
 <
 <
 p
@@ -1584,7 +1584,7 @@ NS_ERROR_FAILURE
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendOnStartRequest
@@ -1645,7 +1645,7 @@ rv
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendOnDataAvailable
@@ -1678,7 +1678,7 @@ aStatus
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendOnStopRequest

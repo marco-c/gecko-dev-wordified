@@ -5925,7 +5925,7 @@ Length
 )
 )
 {
-unused
+Unused
 <
 <
 SendHideAllPlugins
@@ -7357,7 +7357,7 @@ GetFillRatio
 (
 )
 ;
-unused
+Unused
 <
 <
 SendOverfill
@@ -9998,7 +9998,7 @@ if
 mPendingTransaction
 )
 {
-unused
+Unused
 <
 <
 SendDidComposite
@@ -10044,7 +10044,7 @@ IsEmpty
 )
 )
 {
-unused
+Unused
 <
 <
 ImageBridgeParent
@@ -11123,7 +11123,7 @@ if
 mNotifyAfterRemotePaint
 )
 {
-unused
+Unused
 <
 <
 SendRemotePaintIsReady
@@ -11659,7 +11659,7 @@ GetWidget
 (
 )
 ;
-unused
+Unused
 <
 <
 lts
@@ -11837,7 +11837,7 @@ mPluginsLayerVisibleRegion
 =
 visibleRegion
 ;
-unused
+Unused
 <
 <
 lts
@@ -11998,7 +11998,7 @@ GetPendingTransactionId
 )
 )
 {
-unused
+Unused
 <
 <
 SendDidComposite

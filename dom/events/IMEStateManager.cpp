@@ -2498,7 +2498,7 @@ focus
 )
 )
 ;
-unused
+Unused
 <
 <
 sActiveTabParent
@@ -2717,7 +2717,7 @@ handled
 by
 IME
 .
-unused
+Unused
 <
 <
 newTabParent

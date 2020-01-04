@@ -1039,7 +1039,7 @@ IsEmpty
 )
 )
 {
-unused
+Unused
 <
 <
 SendBuffer
@@ -1304,7 +1304,7 @@ from
 the
 parent
 side
-unused
+Unused
 <
 <
 SendClose

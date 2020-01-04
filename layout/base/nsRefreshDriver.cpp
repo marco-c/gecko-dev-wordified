@@ -2354,7 +2354,7 @@ up
 this
 actor
 .
-unused
+Unused
 <
 <
 mVsyncChild
@@ -2450,7 +2450,7 @@ mVsyncObserver
 }
 else
 {
-unused
+Unused
 <
 <
 mVsyncChild
@@ -2487,7 +2487,7 @@ nullptr
 }
 else
 {
-unused
+Unused
 <
 <
 mVsyncChild

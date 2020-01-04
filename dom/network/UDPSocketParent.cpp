@@ -622,7 +622,7 @@ Principal
 checking
 for
 mtransport
-unused
+Unused
 <
 <
 mBackgroundManager
@@ -1165,7 +1165,7 @@ port
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackOpened
@@ -2186,7 +2186,7 @@ nullptr
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -2212,7 +2212,7 @@ RecvRequestDelete
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__
@@ -2548,7 +2548,7 @@ callback
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackReceivedData
@@ -2598,7 +2598,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackClosed
@@ -2632,7 +2632,7 @@ return
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackError

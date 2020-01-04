@@ -89,7 +89,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 namespace
 mozilla
@@ -183,7 +183,7 @@ contact
 us
 further
 .
-unused
+Unused
 <
 <
 Send__delete__
@@ -278,7 +278,7 @@ nsresult
 aStatus
 )
 {
-unused
+Unused
 <
 <
 SendStateChange
@@ -313,7 +313,7 @@ int32_t
 aMaxTotalProgress
 )
 {
-unused
+Unused
 <
 <
 SendProgressChange
@@ -443,7 +443,7 @@ mDocTitle
 =
 aDocTitle
 ;
-unused
+Unused
 <
 <
 SendDocTitleChange
@@ -503,7 +503,7 @@ mDocURL
 =
 aDocURL
 ;
-unused
+Unused
 <
 <
 SendDocURLChange

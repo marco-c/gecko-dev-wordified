@@ -476,7 +476,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendCreateSession
@@ -584,7 +584,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendLoadSession
@@ -718,7 +718,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendUpdateSession
@@ -824,7 +824,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendCloseSession
@@ -929,7 +929,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendRemoveSession
@@ -1026,7 +1026,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 SendSetServerCertificate
@@ -1150,7 +1150,7 @@ aCrypto
 mSessionIds
 )
 ;
-unused
+Unused
 <
 <
 SendDecrypt
@@ -2488,7 +2488,7 @@ if
 mActorDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendDecryptingComplete

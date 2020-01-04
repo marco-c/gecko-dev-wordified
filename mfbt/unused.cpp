@@ -128,7 +128,7 @@ mozilla
 {
 const
 unused_t
-unused
+Unused
 =
 unused_t
 (

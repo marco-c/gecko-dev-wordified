@@ -497,7 +497,7 @@ it
 '
 s
 added
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -555,7 +555,7 @@ it
 '
 s
 added
-unused
+Unused
 <
 <
 NS_WARN_IF

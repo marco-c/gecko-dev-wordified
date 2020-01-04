@@ -2337,7 +2337,7 @@ mRuntime
 mozilla
 :
 :
-unused
+Unused
 <
 <
 js
@@ -2352,7 +2352,7 @@ false
 mozilla
 :
 :
-unused
+Unused
 <
 <
 js
@@ -2367,7 +2367,7 @@ false
 mozilla
 :
 :
-unused
+Unused
 <
 <
 js
@@ -2383,7 +2383,7 @@ nullptr
 mozilla
 :
 :
-unused
+Unused
 <
 <
 js
@@ -2399,7 +2399,7 @@ nullptr
 mozilla
 :
 :
-unused
+Unused
 <
 <
 js
@@ -3772,7 +3772,7 @@ mProcessUpdateCounter
 mozilla
 :
 :
-unused
+Unused
 <
 <
 UpdateTelemetry
@@ -5732,7 +5732,7 @@ scope
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mService

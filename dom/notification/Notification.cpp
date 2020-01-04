@@ -927,7 +927,7 @@ SetStoredState
 true
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -1145,7 +1145,7 @@ case
 of
 failure
 ?
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -9018,7 +9018,7 @@ SetStoredState
 true
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

@@ -441,7 +441,7 @@ Length
 i
 )
 {
-unused
+Unused
 <
 <
 fdSet
@@ -777,7 +777,7 @@ NotifyClose
 aId
 )
 ;
-unused
+Unused
 <
 <
 SendClose
@@ -803,7 +803,7 @@ NotifyCloseAll
 (
 )
 ;
-unused
+Unused
 <
 <
 SendCloseAll

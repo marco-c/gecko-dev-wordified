@@ -1226,7 +1226,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-unused
+Unused
 <
 <
 Run
@@ -18189,7 +18189,7 @@ mRemoteBlobImpl
 =
 nullptr
 ;
-unused
+Unused
 <
 <
 PBlobParent

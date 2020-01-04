@@ -1023,7 +1023,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 NS_WARNING
 (
@@ -1042,7 +1042,7 @@ members
 "
 )
 ;
-unused
+Unused
 <
 <
 mURI
@@ -1051,7 +1051,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mAppURI
@@ -1060,7 +1060,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mListener
@@ -1069,7 +1069,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mTabChild

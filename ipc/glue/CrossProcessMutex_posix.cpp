@@ -648,7 +648,7 @@ ignore
 return
 code
 .
-unused
+Unused
 <
 <
 pthread_mutex_destroy

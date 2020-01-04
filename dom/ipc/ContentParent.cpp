@@ -3185,7 +3185,7 @@ RecvCloseGCLog
 )
 override
 {
-unused
+Unused
 <
 <
 mSink
@@ -3206,7 +3206,7 @@ RecvCloseCCLog
 )
 override
 {
-unused
+Unused
 <
 <
 mSink
@@ -3272,7 +3272,7 @@ ccLog
 )
 )
 ;
-unused
+Unused
 <
 <
 mCallback
@@ -8689,7 +8689,7 @@ IsAccessibilityActive
 )
 )
 {
-unused
+Unused
 <
 <
 SendActivateA11y
@@ -8762,7 +8762,7 @@ GetVolumesForIPC
 volumeInfo
 )
 ;
-unused
+Unused
 <
 <
 SendVolumes
@@ -12872,7 +12872,7 @@ PermissionChoice
 >
 emptyChoices
 ;
-unused
+Unused
 <
 <
 PContentPermissionRequestParent
@@ -14458,7 +14458,7 @@ to
 content
 process
 .
-unused
+Unused
 <
 <
 SendAppInfo
@@ -14775,7 +14775,7 @@ to
 content
 process
 .
-unused
+Unused
 <
 <
 SendAppInit
@@ -14874,7 +14874,7 @@ GetSheetURI
 uri
 )
 ;
-unused
+Unused
 <
 <
 SendLoadAndRegisterSheet
@@ -14939,7 +14939,7 @@ GetSheetURI
 uri
 )
 ;
-unused
+Unused
 <
 <
 SendLoadAndRegisterSheet
@@ -15004,7 +15004,7 @@ GetSheetURI
 uri
 )
 ;
-unused
+Unused
 <
 <
 SendLoadAndRegisterSheet
@@ -17668,7 +17668,7 @@ i
 mozilla
 :
 :
-unused
+Unused
 <
 <
 content
@@ -17735,7 +17735,7 @@ initialData
 mozilla
 :
 :
-unused
+Unused
 <
 <
 content
@@ -17749,7 +17749,7 @@ isOffline
 mozilla
 :
 :
-unused
+Unused
 <
 <
 content
@@ -18216,7 +18216,7 @@ forward
 )
 )
 {
-unused
+Unused
 <
 <
 SendFlushMemory
@@ -18564,7 +18564,7 @@ request
 )
 )
 {
-unused
+Unused
 <
 <
 SendGarbageCollect
@@ -18589,7 +18589,7 @@ request
 )
 )
 {
-unused
+Unused
 <
 <
 SendCycleCollect
@@ -18614,7 +18614,7 @@ request
 )
 )
 {
-unused
+Unused
 <
 <
 SendMinimizeMemoryUsage
@@ -18641,7 +18641,7 @@ exited
 )
 )
 {
-unused
+Unused
 <
 <
 SendLastPrivateDocShellDestroyed
@@ -18688,7 +18688,7 @@ DeviceStorageFile
 aSubject
 )
 ;
-unused
+Unused
 <
 <
 SendFilePathUpdate
@@ -18874,7 +18874,7 @@ GetIsHotSwappable
 isHotSwappable
 )
 ;
-unused
+Unused
 <
 <
 SendFileSystemUpdate
@@ -18916,7 +18916,7 @@ state
 aData
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyPhoneStateChange
@@ -18942,7 +18942,7 @@ volName
 aData
 )
 ;
-unused
+Unused
 <
 <
 SendVolumeRemoved
@@ -19009,7 +19009,7 @@ shutdown
 )
 )
 {
-unused
+Unused
 <
 <
 SendActivateA11y
@@ -19036,7 +19036,7 @@ changed
 )
 )
 {
-unused
+Unused
 <
 <
 SendOnAppThemeChanged
@@ -19128,7 +19128,7 @@ GetThreadFilterNames
 (
 )
 ;
-unused
+Unused
 <
 <
 SendStartProfiler
@@ -19155,7 +19155,7 @@ stopped
 )
 )
 {
-unused
+Unused
 <
 <
 SendStopProfiler
@@ -19178,7 +19178,7 @@ paused
 )
 )
 {
-unused
+Unused
 <
 <
 SendPauseProfiler
@@ -19202,7 +19202,7 @@ resumed
 )
 )
 {
-unused
+Unused
 <
 <
 SendPauseProfiler
@@ -19246,7 +19246,7 @@ WillGatherOOPProfile
 (
 )
 ;
-unused
+Unused
 <
 <
 SendGatherProfile
@@ -19333,7 +19333,7 @@ changed
 )
 )
 {
-unused
+Unused
 <
 <
 SendNotifyGMPsChanged
@@ -23312,7 +23312,7 @@ GetTotalSystemMemoryLevel
 ;
 #
 endif
-unused
+Unused
 <
 <
 SendSystemMemoryAvailable
@@ -23814,7 +23814,7 @@ aPrincipal
 )
 )
 {
-unused
+Unused
 <
 <
 Notification
@@ -23853,7 +23853,7 @@ aPrincipal
 )
 )
 {
-unused
+Unused
 <
 <
 Notification
@@ -24651,7 +24651,7 @@ nsIDOMGeoPosition
 postion
 )
 {
-unused
+Unused
 <
 <
 SendGeolocationUpdate
@@ -24700,7 +24700,7 @@ rv
 rv
 )
 ;
-unused
+Unused
 <
 <
 SendGeolocationError
@@ -27527,7 +27527,7 @@ Length
 i
 )
 {
-unused
+Unused
 <
 <
 processes
@@ -28129,7 +28129,7 @@ child
 of
 failure
 .
-unused
+Unused
 <
 <
 update
@@ -28546,7 +28546,7 @@ action
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendInvokeDragSession
@@ -30952,7 +30952,7 @@ aData
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent

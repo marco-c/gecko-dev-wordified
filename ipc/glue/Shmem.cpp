@@ -2010,12 +2010,12 @@ for
 these
 variables
 :
-unused
+Unused
 <
 <
 checkMappingFront
 ;
-unused
+Unused
 <
 <
 checkMappingBack

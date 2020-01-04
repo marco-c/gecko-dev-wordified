@@ -501,7 +501,7 @@ mCanSendData
 =
 false
 ;
-unused
+Unused
 <
 <
 SendStopSendingDataConfirmed
@@ -557,7 +557,7 @@ MOZ_ASSERT
 mEntangled
 )
 ;
-unused
+Unused
 <
 <
 Send__delete__
@@ -676,7 +676,7 @@ Close
 (
 )
 ;
-unused
+Unused
 <
 <
 Send__delete__

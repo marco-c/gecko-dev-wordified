@@ -419,7 +419,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 /
 /
@@ -6294,7 +6294,7 @@ aRequest
 )
 )
 ;
-unused
+Unused
 <
 <
 requestWasKnown

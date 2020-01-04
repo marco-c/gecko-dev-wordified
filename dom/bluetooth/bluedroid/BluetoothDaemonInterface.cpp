@@ -2346,7 +2346,7 @@ it
 /
 here
 .
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -4933,7 +4933,7 @@ and
 close
 listen
 socket
-unused
+Unused
 <
 <
 NS_WARN_IF

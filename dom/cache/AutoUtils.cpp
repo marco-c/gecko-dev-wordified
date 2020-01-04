@@ -302,7 +302,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 mozilla
@@ -456,7 +456,7 @@ aAction
 Delete
 )
 {
-unused
+Unused
 <
 <
 fdSetActor
@@ -735,7 +735,7 @@ aAction
 Delete
 )
 {
-unused
+Unused
 <
 <
 fdSetActor
@@ -2985,7 +2985,7 @@ nullptr
 break
 ;
 }
-unused
+Unused
 <
 <
 PCacheParent
@@ -3026,7 +3026,7 @@ Delete
 mStreamControl
 )
 {
-unused
+Unused
 <
 <
 PCacheStreamControlParent

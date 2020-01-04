@@ -690,7 +690,7 @@ str
 mozilla
 :
 :
-unused
+Unused
 <
 <
 write
@@ -706,7 +706,7 @@ str
 mozilla
 :
 :
-unused
+Unused
 <
 <
 write
@@ -795,7 +795,7 @@ minor_code
 mozilla
 :
 :
-unused
+Unused
 <
 <
 write
@@ -2039,7 +2039,7 @@ pipe
 mozilla
 :
 :
-unused
+Unused
 <
 <
 write

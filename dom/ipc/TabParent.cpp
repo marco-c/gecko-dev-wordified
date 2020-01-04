@@ -1232,7 +1232,7 @@ IsDestroyed
 mozilla
 :
 :
-unused
+Unused
 <
 <
 tabParent
@@ -1484,7 +1484,7 @@ thread
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mTabParent
@@ -3139,7 +3139,7 @@ __delete__
 (
 )
 .
-unused
+Unused
 <
 <
 SendDestroy
@@ -4324,7 +4324,7 @@ child
 process
 as
 well
-unused
+Unused
 <
 <
 SendAppOfflineStatus
@@ -4369,7 +4369,7 @@ configuration
 return
 ;
 }
-unused
+Unused
 <
 <
 SendLoadURL
@@ -4643,7 +4643,7 @@ cachedFd
 )
 )
 ;
-unused
+Unused
 <
 <
 SendCacheFileDescriptor
@@ -4820,7 +4820,7 @@ layersId
 this
 )
 ;
-unused
+Unused
 <
 <
 SendPRenderFrameConstructor
@@ -4830,7 +4830,7 @@ renderFrame
 ;
 }
 }
-unused
+Unused
 <
 <
 SendShow
@@ -5351,7 +5351,7 @@ devicePixelSize
 /
 widgetScale
 ;
-unused
+Unused
 <
 <
 SendUpdateDimensions
@@ -5388,7 +5388,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendUpdateFrame
@@ -5502,7 +5502,7 @@ in
 that
 case
 .
-unused
+Unused
 <
 <
 SendUIResolutionChanged
@@ -5614,7 +5614,7 @@ per
 content
 process
 .
-unused
+Unused
 <
 <
 SendThemeChanged
@@ -5657,7 +5657,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendHandleAccessKey
@@ -5697,7 +5697,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendRequestFlingSnap
@@ -5730,7 +5730,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendAcknowledgeScrollUpdate
@@ -5765,7 +5765,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendHandleDoubleTap
@@ -5801,7 +5801,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendHandleSingleTap
@@ -5839,7 +5839,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendHandleLongTap
@@ -5872,7 +5872,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendNotifyAPZStateChange
@@ -5906,7 +5906,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendMouseScrollTestEvent
@@ -5931,7 +5931,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendNotifyFlushComplete
@@ -5954,7 +5954,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendActivate
@@ -5977,7 +5977,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendDeactivate
@@ -6845,7 +6845,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 PBrowserParent
@@ -6893,7 +6893,7 @@ if
 mIsDestroyed
 )
 {
-unused
+Unused
 <
 <
 PBrowserParent
@@ -14829,7 +14829,7 @@ mDocShellIsActive
 =
 isActive
 ;
-unused
+Unused
 <
 <
 SendSetDocShellIsActive
@@ -14907,7 +14907,7 @@ mActiveSupressDisplayportCount
 0
 )
 ;
-unused
+Unused
 <
 <
 SendSuppressDisplayport
@@ -14988,7 +14988,7 @@ bool
 aForDocumentNavigation
 )
 {
-unused
+Unused
 <
 <
 SendNavigateByKey
@@ -16497,7 +16497,7 @@ IsContentParent
 )
 )
 {
-unused
+Unused
 <
 <
 Manager

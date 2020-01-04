@@ -5961,7 +5961,7 @@ mInSwap
 =
 false
 ;
-unused
+Unused
 <
 <
 mRemoteBrowser
@@ -5971,7 +5971,7 @@ SendSwappedWithOtherRemoteLoader
 (
 )
 ;
-unused
+Unused
 <
 <
 aOther
@@ -13694,7 +13694,7 @@ eCaseMatters
 )
 )
 {
-unused
+Unused
 <
 <
 mRemoteBrowser
@@ -13835,7 +13835,7 @@ if
 mRemoteBrowser
 )
 {
-unused
+Unused
 <
 <
 mRemoteBrowser
@@ -13861,7 +13861,7 @@ if
 mRemoteBrowser
 )
 {
-unused
+Unused
 <
 <
 mRemoteBrowser
@@ -16369,7 +16369,7 @@ if
 mRemoteBrowser
 )
 {
-unused
+Unused
 <
 <
 mRemoteBrowser

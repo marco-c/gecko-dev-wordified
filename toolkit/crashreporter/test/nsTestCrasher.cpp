@@ -289,7 +289,7 @@ CRASH_OOM
 mozilla
 :
 :
-unused
+Unused
 <
 <
 moz_xmalloc
@@ -304,7 +304,7 @@ size_t
 mozilla
 :
 :
-unused
+Unused
 <
 <
 moz_xmalloc
@@ -319,7 +319,7 @@ size_t
 mozilla
 :
 :
-unused
+Unused
 <
 <
 moz_xmalloc

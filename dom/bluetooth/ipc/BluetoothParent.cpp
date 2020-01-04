@@ -187,7 +187,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 USING_BLUETOOTH_NAMESPACE
 /
@@ -791,7 +791,7 @@ mShutdownState
 Running
 )
 {
-unused
+Unused
 <
 <
 SendBeginShutdown
@@ -2414,7 +2414,7 @@ BluetoothSignal
 aSignal
 )
 {
-unused
+Unused
 <
 <
 SendNotify

@@ -325,7 +325,7 @@ mNumChildActors
 =
 1
 ;
-unused
+Unused
 <
 <
 SendPCacheOpConstructor
@@ -593,7 +593,7 @@ destruction
 from
 parent
 process
-unused
+Unused
 <
 <
 SendTeardown

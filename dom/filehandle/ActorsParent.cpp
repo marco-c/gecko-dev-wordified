@@ -4110,7 +4110,7 @@ completeCallback
 mCallback
 )
 ;
-unused
+Unused
 <
 <
 completeCallback
@@ -7120,7 +7120,7 @@ IsActorDestroyed
 )
 )
 {
-unused
+Unused
 <
 <
 SendComplete
@@ -9708,7 +9708,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-unused
+Unused
 <
 <
 mCopyFileHandleOp

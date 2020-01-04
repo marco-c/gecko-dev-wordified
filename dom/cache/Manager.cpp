@@ -1117,7 +1117,7 @@ dbDir
 mDeletedBodyIdList
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -5826,7 +5826,7 @@ Commit
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

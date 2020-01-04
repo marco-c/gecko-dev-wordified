@@ -5205,7 +5205,7 @@ leak
 than
 crash
 .
-unused
+Unused
 <
 <
 mRequest
@@ -5214,7 +5214,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mLoader
@@ -5557,7 +5557,7 @@ nsScriptLoadRequest
 :
 Progress_Compiling
 ;
-unused
+Unused
 <
 <
 runnable

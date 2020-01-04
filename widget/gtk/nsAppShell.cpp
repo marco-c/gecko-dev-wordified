@@ -226,7 +226,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 #
 define
@@ -370,7 +370,7 @@ unsigned
 char
 c
 ;
-unused
+Unused
 <
 <
 read
@@ -1066,7 +1066,7 @@ buf
 NOTIFY_TOKEN
 }
 ;
-unused
+Unused
 <
 <
 write

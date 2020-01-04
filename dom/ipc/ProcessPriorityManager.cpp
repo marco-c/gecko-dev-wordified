@@ -6164,7 +6164,7 @@ this
 oldPriority
 )
 ;
-unused
+Unused
 <
 <
 mContentParent
@@ -6183,7 +6183,7 @@ aPriority
 PROCESS_PRIORITY_FOREGROUND
 )
 {
-unused
+Unused
 <
 <
 mContentParent
@@ -7297,7 +7297,7 @@ buffer
 int
 exp
 ;
-unused
+Unused
 <
 <
 frexp

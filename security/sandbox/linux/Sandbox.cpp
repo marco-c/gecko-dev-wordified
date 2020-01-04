@@ -1279,7 +1279,7 @@ handler
 is
 installed
 .
-unused
+Unused
 <
 <
 sandbox
@@ -3197,7 +3197,7 @@ MOZ_CRASH
 )
 ;
 }
-unused
+Unused
 <
 <
 closedir

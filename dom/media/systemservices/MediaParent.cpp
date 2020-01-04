@@ -2523,7 +2523,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 sIPCServingParent

@@ -247,7 +247,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 std
@@ -414,7 +414,7 @@ Tuple
 >
 a
 ;
-unused
+Unused
 <
 <
 a
@@ -425,7 +425,7 @@ int
 >
 b
 ;
-unused
+Unused
 <
 <
 b

@@ -618,7 +618,7 @@ failure
 nsAutoCString
 credentials
 ;
-unused
+Unused
 <
 <
 resolvedURI
@@ -833,7 +833,7 @@ failure
 nsAutoCString
 credentials
 ;
-unused
+Unused
 <
 <
 uri

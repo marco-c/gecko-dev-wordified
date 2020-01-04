@@ -1268,12 +1268,12 @@ SwitchState
 aState
 )
 {
-unused
+Unused
 <
 <
 aDevice
 ;
-unused
+Unused
 <
 <
 aState
@@ -2292,7 +2292,7 @@ aBatteryInfo
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifyBatteryChange
@@ -2385,7 +2385,7 @@ aNetworkInfo
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifyNetworkChange
@@ -2586,7 +2586,7 @@ aScreenConfiguration
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifyScreenConfigurationChange
@@ -3219,7 +3219,7 @@ aSensorData
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifySensorChange
@@ -3371,7 +3371,7 @@ aWakeLockInfo
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifyWakeLockChange
@@ -3451,7 +3451,7 @@ aSwitchEvent
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifySwitchChange
@@ -3515,7 +3515,7 @@ aClockDeltaMS
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifySystemClockChange
@@ -3534,7 +3534,7 @@ aSystemTimezoneChangeInfo
 )
 override
 {
-unused
+Unused
 <
 <
 SendNotifySystemTimezoneChange

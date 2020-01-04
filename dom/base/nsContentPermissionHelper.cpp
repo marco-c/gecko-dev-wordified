@@ -348,7 +348,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 /
 /
@@ -2316,7 +2316,7 @@ mWaitGettingResult
 =
 true
 ;
-unused
+Unused
 <
 <
 mParent
@@ -2828,7 +2828,7 @@ PermissionChoice
 >
 emptyChoices
 ;
-unused
+Unused
 <
 <
 ContentPermissionRequestParent
@@ -3277,7 +3277,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-unused
+Unused
 <
 <
 ContentPermissionRequestParent
@@ -3834,7 +3834,7 @@ GetIsActive
 isActive
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyVisibility
@@ -3866,7 +3866,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyVisibility

@@ -4297,7 +4297,7 @@ False
 ;
 #
 endif
-unused
+Unused
 <
 <
 SendUpdateBackground
@@ -4556,7 +4556,7 @@ old
 background
 surface
 .
-unused
+Unused
 <
 <
 SendPPluginBackgroundDestroyerConstructor
@@ -5966,7 +5966,7 @@ PStreamNotifyParent
 notifyData
 )
 ;
-unused
+Unused
 <
 <
 streamNotify
@@ -7347,7 +7347,7 @@ NPERR_NO_ERROR
 err
 )
 {
-unused
+Unused
 <
 <
 PBrowserStreamParent
@@ -7981,7 +7981,7 @@ PStreamNotifyParent
 notifyData
 )
 ;
-unused
+Unused
 <
 <
 PStreamNotifyParent
@@ -9366,7 +9366,7 @@ should
 take
 focus
 .
-unused
+Unused
 <
 <
 self

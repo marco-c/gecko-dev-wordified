@@ -177,7 +177,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 namespace
@@ -215,7 +215,7 @@ if
 mColorPickerParent
 )
 {
-unused
+Unused
 <
 <
 mColorPickerParent
@@ -254,7 +254,7 @@ if
 mColorPickerParent
 )
 {
-unused
+Unused
 <
 <
 mColorPickerParent
@@ -414,7 +414,7 @@ CreateColorPicker
 )
 )
 {
-unused
+Unused
 <
 <
 Send__delete__

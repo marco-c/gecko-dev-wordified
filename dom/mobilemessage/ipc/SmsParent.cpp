@@ -1535,7 +1535,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyReceivedMessage
@@ -1594,7 +1594,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyRetrievingMessage
@@ -1653,7 +1653,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifySendingMessage
@@ -1712,7 +1712,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifySentMessage
@@ -1771,7 +1771,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyFailedMessage
@@ -1830,7 +1830,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyDeliverySuccessMessage
@@ -1891,7 +1891,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyDeliveryErrorMessage
@@ -1985,7 +1985,7 @@ GetData
 (
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyReceivedSilentMessage
@@ -2046,7 +2046,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyReadSuccessMessage
@@ -2107,7 +2107,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyReadErrorMessage
@@ -2169,7 +2169,7 @@ return
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendNotifyDeletedMessageInfo

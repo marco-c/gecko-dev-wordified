@@ -337,7 +337,7 @@ Rate
 (
 )
 ;
-unused
+Unused
 <
 <
 SendDecoded
@@ -379,7 +379,7 @@ current
 )
 )
 ;
-unused
+Unused
 <
 <
 SendInputDataExhausted
@@ -413,7 +413,7 @@ current
 )
 )
 ;
-unused
+Unused
 <
 <
 SendDrainComplete
@@ -447,7 +447,7 @@ current
 )
 )
 ;
-unused
+Unused
 <
 <
 SendResetComplete
@@ -483,7 +483,7 @@ current
 )
 )
 ;
-unused
+Unused
 <
 <
 SendError
@@ -829,7 +829,7 @@ mPlugin
 =
 nullptr
 ;
-unused
+Unused
 <
 <
 Send__delete__

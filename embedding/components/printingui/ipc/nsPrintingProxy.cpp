@@ -337,7 +337,7 @@ Init
 mozilla
 :
 :
-unused
+Unused
 <
 <
 ContentChild
@@ -646,7 +646,7 @@ dialog
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendShowPrintDialog
@@ -918,7 +918,7 @@ dialogChild
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendShowProgress
@@ -1077,7 +1077,7 @@ rv
 rv
 )
 ;
-unused
+Unused
 <
 <
 SendSavePrintSettings

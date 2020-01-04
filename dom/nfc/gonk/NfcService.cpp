@@ -663,7 +663,7 @@ it
 /
 here
 .
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -3253,7 +3253,7 @@ care
 of
 these
 pointers
-unused
+Unused
 <
 <
 mNfcConsumer
@@ -3262,7 +3262,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mThread

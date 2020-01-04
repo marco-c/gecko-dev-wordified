@@ -3011,7 +3011,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 fdSetActor
@@ -7896,7 +7896,7 @@ if
 !
 mIPCClosed
 )
-unused
+Unused
 <
 <
 SendNotifyTrackingProtectionDisabled
@@ -7920,7 +7920,7 @@ if
 !
 mIPCClosed
 )
-unused
+Unused
 <
 <
 SendDeleteSelf
@@ -8328,7 +8328,7 @@ child
 dead
 if
 failed
-unused
+Unused
 <
 <
 SendRedirect3Complete
@@ -9611,7 +9611,7 @@ if
 mIPCClosed
 )
 {
-unused
+Unused
 <
 <
 SendDeleteSelf
@@ -10010,7 +10010,7 @@ bool
 aAsError
 )
 {
-unused
+Unused
 <
 <
 SendIssueDeprecationWarning

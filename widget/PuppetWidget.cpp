@@ -1831,7 +1831,7 @@ mClass
 case
 eMouseEventClass
 :
-unused
+Unused
 <
 <
 mTabChild
@@ -1853,7 +1853,7 @@ break
 case
 eKeyboardEventClass
 :
-unused
+Unused
 <
 <
 mTabChild
@@ -1943,7 +1943,7 @@ mClass
 case
 eWheelEventClass
 :
-unused
+Unused
 <
 <
 mTabChild

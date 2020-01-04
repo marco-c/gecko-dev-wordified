@@ -4033,7 +4033,7 @@ mProtectCount
 0
 )
 {
-unused
+Unused
 <
 <
 PluginScriptableObjectParent
@@ -4161,7 +4161,7 @@ mObject
 =
 nullptr
 ;
-unused
+Unused
 <
 <
 SendUnprotect

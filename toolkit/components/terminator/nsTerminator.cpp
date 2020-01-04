@@ -1557,7 +1557,7 @@ from
 a
 previous
 run
-unused
+Unused
 <
 <
 PR_Delete
@@ -1569,7 +1569,7 @@ get
 )
 )
 ;
-unused
+Unused
 <
 <
 PR_Delete
@@ -3352,7 +3352,7 @@ report
 aTopic
 )
 ;
-unused
+Unused
 <
 <
 CrashReporter

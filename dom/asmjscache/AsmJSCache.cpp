@@ -566,7 +566,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 mozilla
@@ -2463,7 +2463,7 @@ if
 mActorDestroyed
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -5019,7 +5019,7 @@ mMetadata
 )
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -5180,7 +5180,7 @@ handle
 )
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -7048,7 +7048,7 @@ if
 mActorDestroyed
 )
 {
-unused
+Unused
 <
 <
 Send__delete__

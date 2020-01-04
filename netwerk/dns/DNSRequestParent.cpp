@@ -312,7 +312,7 @@ mIPCClosed
 =
 true
 ;
-unused
+Unused
 <
 <
 SendLookupCompleted
@@ -915,7 +915,7 @@ addr
 )
 ;
 }
-unused
+Unused
 <
 <
 SendLookupCompleted
@@ -933,7 +933,7 @@ array
 }
 else
 {
-unused
+Unused
 <
 <
 SendLookupCompleted

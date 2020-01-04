@@ -320,7 +320,7 @@ aLineNo
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aActor
@@ -770,7 +770,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 PTCPSocketParent
@@ -1856,7 +1856,7 @@ aReadyState
 mozilla
 :
 :
-unused
+Unused
 <
 <
 PTCPSocketParent
@@ -2026,7 +2026,7 @@ RecvRequestDelete
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__

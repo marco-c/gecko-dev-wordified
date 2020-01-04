@@ -814,7 +814,7 @@ constructed
 mozilla
 :
 :
-unused
+Unused
 <
 <
 actor
@@ -1392,7 +1392,7 @@ void
 mozilla
 :
 :
-unused
+Unused
 <
 <
 self

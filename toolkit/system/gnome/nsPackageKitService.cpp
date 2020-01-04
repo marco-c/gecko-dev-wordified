@@ -896,7 +896,7 @@ g_object_unref
 proxy
 )
 ;
-unused
+Unused
 <
 <
 observer

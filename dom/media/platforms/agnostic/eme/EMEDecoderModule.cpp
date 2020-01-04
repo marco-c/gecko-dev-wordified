@@ -623,7 +623,7 @@ aDecrypted
 mSample
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -720,7 +720,7 @@ Flush
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -826,7 +826,7 @@ Drain
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -877,7 +877,7 @@ Shutdown
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

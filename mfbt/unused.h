@@ -149,7 +149,7 @@ values
 with
 /
 /
-unused
+Unused
 <
 <
 SomeFuncDeclaredWarnUnusedReturnValue
@@ -190,7 +190,7 @@ extern
 MFBT_DATA
 const
 unused_t
-unused
+Unused
 ;
 }
 /
@@ -210,7 +210,7 @@ to
 mozilla
 :
 :
-unused
+Unused
 for
 use
 in
