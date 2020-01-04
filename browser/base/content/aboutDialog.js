@@ -110,17 +110,6 @@ jsm
 "
 )
 ;
-const
-PREF_EM_HOTFIX_ID
-=
-"
-extensions
-.
-hotfix
-.
-id
-"
-;
 function
 init
 (
