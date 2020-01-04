@@ -450,7 +450,6 @@ moz_places
 nsresult
 InsertPlace
 (
-const
 VisitData
 &
 aVisitData
