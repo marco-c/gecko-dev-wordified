@@ -13325,7 +13325,7 @@ length
 )
 =
 =
-2
+3
 )
 ;
 MOZ_ASSERT
@@ -13349,9 +13349,20 @@ JSFunction
 ;
 MOZ_ASSERT
 (
+IsConstructor
+(
 args
 [
 1
+]
+)
+)
+;
+MOZ_ASSERT
+(
+args
+[
+2
 ]
 .
 toObject
@@ -13373,7 +13384,7 @@ cx
 &
 args
 [
-1
+2
 ]
 .
 toObject
@@ -13467,7 +13478,7 @@ args
 constructArgs
 args
 [
-0
+1
 ]
 &
 res
