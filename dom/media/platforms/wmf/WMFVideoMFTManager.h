@@ -272,16 +272,6 @@ TrackInfo
 kVideoTrack
 ;
 }
-void
-ConfigurationChanged
-(
-const
-TrackInfo
-&
-aConfig
-)
-override
-;
 const
 char
 *
