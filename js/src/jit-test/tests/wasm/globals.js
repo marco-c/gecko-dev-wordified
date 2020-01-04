@@ -43,7 +43,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -64,7 +64,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -86,7 +86,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -114,7 +114,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -145,7 +145,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -176,7 +176,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -218,7 +218,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -246,7 +246,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -304,7 +304,7 @@ assertEq
 var
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -527,7 +527,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -570,7 +570,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -688,7 +688,7 @@ get_local
 var
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1077,7 +1077,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1125,7 +1125,7 @@ mismatch
 ;
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1218,7 +1218,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1259,7 +1259,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1307,7 +1307,7 @@ semantics
 .
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1401,7 +1401,7 @@ space
 .
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1493,7 +1493,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1537,7 +1537,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1580,7 +1580,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1621,7 +1621,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1671,7 +1671,7 @@ assertEq
 var
 module
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1957,7 +1957,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -1997,7 +1997,7 @@ assertErrorMessage
 )
 =
 >
-wasmEvalText
+evalText
 (
 (
 module
@@ -2079,7 +2079,7 @@ assertEqI64
 ;
 module
 =
-wasmEvalText
+evalText
 (
 (
 module

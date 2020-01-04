@@ -52,6 +52,11 @@ wasmTextToBinary
 module
 )
 '
+'
+new
+-
+format
+'
 )
 "
 )
@@ -70,6 +75,11 @@ wasmTextToBinary
 (
 module
 )
+'
+'
+new
+-
+format
 '
 )
 .

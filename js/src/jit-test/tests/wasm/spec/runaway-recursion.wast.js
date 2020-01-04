@@ -17,7 +17,9 @@ importedArgs
 =
 [
 '
-call
+runaway
+-
+recursion
 .
 wast
 '

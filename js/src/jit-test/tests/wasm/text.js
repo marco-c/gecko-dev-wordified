@@ -426,7 +426,7 @@ abc
 )
 SyntaxError
 /
-function
+import
 label
 '
 \
@@ -508,13 +508,13 @@ func
 call_indirect
 c
 (
-i32
-.
-const
+get_local
 0
 )
 (
-get_local
+i32
+.
+const
 0
 )
 )

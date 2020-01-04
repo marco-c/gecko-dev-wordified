@@ -46,6 +46,17 @@ js
 '
 )
 ;
+load
+(
+libdir
++
+'
+asserts
+.
+js
+'
+)
+;
 const
 Module
 =
@@ -195,7 +206,7 @@ resetFinalizeCount
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -512,7 +523,7 @@ resetFinalizeCount
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -708,7 +719,7 @@ resetFinalizeCount
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -856,7 +867,7 @@ resetFinalizeCount
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -999,7 +1010,7 @@ resetFinalizeCount
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1277,7 +1288,7 @@ resetFinalizeCount
 var
 i1
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1308,7 +1319,7 @@ f1
 var
 i2
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1620,7 +1631,7 @@ return
 var
 i
 =
-wasmEvalText
+evalText
 (
 (
 module
@@ -1699,7 +1710,7 @@ m
 new
 Module
 (
-wasmTextToBinary
+textToBinary
 (
 (
 module

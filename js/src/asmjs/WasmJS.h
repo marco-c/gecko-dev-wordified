@@ -640,9 +640,9 @@ Wasm
 and
 its
 one
-field
+function
 '
-experimentalVersion
+instantiateModule
 '
 are
 transitional
