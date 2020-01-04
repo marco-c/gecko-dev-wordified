@@ -278,7 +278,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -1575,7 +1575,7 @@ isAllowed
 getActivity
 (
 )
-Restriction
+Restrictable
 .
 DISALLOW_CLEAR_HISTORY
 )
@@ -1927,7 +1927,7 @@ isAllowed
 getActivity
 (
 )
-Restriction
+Restrictable
 .
 DISALLOW_CLEAR_HISTORY
 )
@@ -2189,7 +2189,7 @@ isAllowed
 getActivity
 (
 )
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )

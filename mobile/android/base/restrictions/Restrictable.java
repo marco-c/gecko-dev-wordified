@@ -181,7 +181,7 @@ idl
 /
 public
 enum
-Restriction
+Restrictable
 {
 DISALLOW_DOWNLOADS
 (
@@ -386,7 +386,7 @@ final
 int
 title
 ;
-Restriction
+Restrictable
 (
 final
 int

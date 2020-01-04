@@ -138,8 +138,8 @@ action
 boolean
 isAllowed
 (
-Restriction
-restriction
+Restrictable
+restrictable
 )
 ;
 /

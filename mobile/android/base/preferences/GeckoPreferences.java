@@ -346,7 +346,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -3661,7 +3661,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_ADVANCED_SETTINGS
 )
@@ -4926,7 +4926,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_ADVANCED_SETTINGS
 )
@@ -5040,7 +5040,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )
@@ -5301,7 +5301,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_LOCATION_SERVICE
 )
@@ -5341,7 +5341,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_REMOTE_DEBUGGING
 )
@@ -5381,7 +5381,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_REMOTE_DEBUGGING
 )
@@ -5481,7 +5481,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_REMOTE_DEBUGGING
 )
@@ -5627,7 +5627,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_MODIFY_ACCOUNTS
 )
@@ -5939,7 +5939,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )
@@ -5979,7 +5979,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )
@@ -6019,7 +6019,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_MASTER_PASSWORD
 )
@@ -6101,7 +6101,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_CLEAR_HISTORY
 )

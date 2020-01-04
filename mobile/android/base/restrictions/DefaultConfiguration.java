@@ -133,8 +133,8 @@ public
 boolean
 isAllowed
 (
-Restriction
-restriction
+Restrictable
+restrictable
 )
 {
 return

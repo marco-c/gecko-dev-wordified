@@ -99,7 +99,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -146,10 +146,10 @@ normal
 profile
 for
 (
-Restriction
-restriction
+Restrictable
+restrictable
 :
-Restriction
+Restrictable
 .
 values
 (
@@ -170,7 +170,7 @@ is
 not
 enforced
 "
-restriction
+restrictable
 .
 name
 )
@@ -181,7 +181,7 @@ isAllowed
 getActivity
 (
 )
-restriction
+restrictable
 )
 )
 ;
