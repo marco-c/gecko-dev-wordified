@@ -1,8 +1,6 @@
 /
 *
 *
-_
-*
 *
 Returns
 the
@@ -203,8 +201,6 @@ element
 }
 /
 *
-*
-checkForm
 *
 *
 Check
@@ -539,8 +535,6 @@ formNum
 /
 *
 *
-checkUnmodifiedForm
-*
 *
 Check
 a
@@ -701,7 +695,9 @@ formNum
 }
 }
 /
-/
+*
+*
+*
 Mochitest
 gives
 us
@@ -719,8 +715,7 @@ a
 specific
 element
 .
-/
-/
+*
 This
 basically
 sends
@@ -734,6 +729,8 @@ whatever
 s
 focused
 .
+*
+/
 function
 doKey
 (
@@ -858,14 +855,15 @@ modifier
 ;
 }
 /
-/
+*
+*
+*
 Init
 with
 a
 common
 login
-/
-/
+*
 If
 selfFilling
 is
@@ -882,8 +880,7 @@ the
 page
 so
 that
-/
-/
+*
 the
 test
 can
@@ -898,8 +895,7 @@ Tests
 that
 check
 observer
-/
-/
+*
 notifications
 might
 be
@@ -907,6 +903,8 @@ confused
 by
 this
 .
+*
+/
 function
 commonInit
 (
@@ -1768,6 +1766,7 @@ label
 login
 )
 {
+var
 loginText
 =
 "
