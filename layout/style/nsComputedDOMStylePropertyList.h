@@ -1104,6 +1104,11 @@ JustifyContent
 )
 COMPUTED_STYLE_PROP
 (
+justify_items
+JustifyItems
+)
+COMPUTED_STYLE_PROP
+(
 left
 Left
 )

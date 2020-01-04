@@ -5018,6 +5018,17 @@ Serialization
 aValueSerialization
 )
 ;
+static
+void
+AppendAlignJustifyValueToString
+(
+int32_t
+aValue
+nsAString
+&
+aResult
+)
+;
 private
 :
 static
