@@ -581,9 +581,9 @@ firefox
 firefox
         
 #
-plugin
+firefox
 -
-container
+webcontent
         
 #
         
@@ -746,9 +746,9 @@ Terminal
 firefox
         
 #
-plugin
+firefox
 -
-container
+webcontent
         
 #
 <
@@ -887,9 +887,9 @@ firefox
 '
 and
 '
-plugin
+firefox
 -
-container
+webcontent
 '
 are
 for
@@ -1036,9 +1036,15 @@ Name
 |
 firefox
 |
+firefox
+-
 plugin
 -
 container
+|
+firefox
+-
+webcontent
 |
 Safari
 \

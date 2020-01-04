@@ -511,6 +511,16 @@ counters
 childProcess
 =
 "
+firefox
+-
+webcontent
+"
+                 
+pluginProcess
+=
+"
+firefox
+-
 plugin
 -
 container
@@ -530,6 +540,12 @@ self
 childProcess
 =
 childProcess
+        
+self
+.
+pluginProcess
+=
+pluginProcess
         
 self
 .
@@ -1255,6 +1271,20 @@ self
 .
 childProcess
 counter
+)
+        
+expandedPaths
+.
+append
+(
+_getExpandedCounterPaths
+(
+self
+.
+pluginProcess
+                                                      
+counter
+)
 )
         
 if
