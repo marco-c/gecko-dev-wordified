@@ -576,9 +576,6 @@ PopAllClips
 (
 )
 ;
-mDC
--
->
 Flush
 (
 )
