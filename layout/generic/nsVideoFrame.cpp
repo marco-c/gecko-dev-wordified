@@ -322,7 +322,7 @@ nsStyleContext
 aContext
 )
 :
-nsVideoFrameBase
+nsContainerFrame
 (
 aContext
 )
@@ -355,7 +355,7 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsVideoFrameBase
+nsContainerFrame
 )
 nsresult
 nsVideoFrame
@@ -897,7 +897,7 @@ DestroyAnonymousContent
 mPosterImage
 )
 ;
-nsVideoFrameBase
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -3743,7 +3743,7 @@ true
 ;
 }
 return
-nsVideoFrameBase
+nsContainerFrame
 :
 :
 AttributeChanged
@@ -3786,7 +3786,7 @@ if
 imageLoader
 )
 {
-nsVideoFrameBase
+nsContainerFrame
 :
 :
 OnVisibilityChange
@@ -3807,7 +3807,7 @@ aNewVisibility
 aNonvisibleAction
 )
 ;
-nsVideoFrameBase
+nsContainerFrame
 :
 :
 OnVisibilityChange
