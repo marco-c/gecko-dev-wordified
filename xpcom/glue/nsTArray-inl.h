@@ -279,7 +279,7 @@ autoBuf
 reinterpret_cast
 <
 const
-nsAutoArrayBase
+AutoTArray
 <
 nsTArray
 <
@@ -842,7 +842,7 @@ bytes
 or
 less
 in
-nsAutoArrayBase
+AutoTArray
 .
 static_assert
 (
@@ -3171,7 +3171,7 @@ the
 heap
 .
 )
-nsAutoArrayBase
+AutoTArray
 <
 nsTArray_Impl
 <
