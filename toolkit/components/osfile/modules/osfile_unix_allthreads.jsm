@@ -261,9 +261,7 @@ else
 if
 (
 typeof
-"
 module
-"
 !
 =
 "
@@ -272,9 +270,7 @@ undefined
 &
 &
 typeof
-"
 require
-"
 !
 =
 "
