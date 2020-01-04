@@ -21797,7 +21797,7 @@ mGlyphs
 current
 text
 run
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >

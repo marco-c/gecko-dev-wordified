@@ -1212,7 +1212,10 @@ drawing
 methods
 below
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxTextRun
 >

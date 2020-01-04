@@ -416,7 +416,7 @@ nullptr
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >

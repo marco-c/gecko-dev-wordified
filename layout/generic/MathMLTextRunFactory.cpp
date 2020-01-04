@@ -3944,13 +3944,13 @@ flags
 aRefDrawTarget
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 nsTransformedTextRun
 >
 transformedChild
 ;
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >
