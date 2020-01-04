@@ -9847,13 +9847,13 @@ Dest
 load32
 (
 Source
-SecondScratchReg
+ScratchRegister
 )
 ;
 storeValue
 (
 JSVAL_TYPE_INT32
-SecondScratchReg
+ScratchRegister
 Dest
 )
 ;
