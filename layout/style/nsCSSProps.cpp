@@ -7089,8 +7089,8 @@ eCSSKeyword_safe
 NS_STYLE_ALIGN_SAFE
 }
 {
-eCSSKeyword_true
-NS_STYLE_ALIGN_TRUE
+eCSSKeyword_unsafe
+NS_STYLE_ALIGN_UNSAFE
 }
 {
 eCSSKeyword_UNKNOWN
@@ -7110,8 +7110,8 @@ kAlignOverflowPosition
 =
 {
 {
-eCSSKeyword_true
-NS_STYLE_ALIGN_TRUE
+eCSSKeyword_unsafe
+NS_STYLE_ALIGN_UNSAFE
 }
 {
 eCSSKeyword_safe
