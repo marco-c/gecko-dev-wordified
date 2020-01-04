@@ -50,6 +50,8 @@ foo
 (
 v
 )
+{
+return
 bar
 (
 v
@@ -57,6 +59,7 @@ v
 1
 )
 ;
+}
 /
 /
 line
@@ -66,6 +69,8 @@ bar
 (
 v
 )
+{
+return
 baz
 (
 v
@@ -73,6 +78,7 @@ v
 1
 )
 ;
+}
 /
 /
 line
