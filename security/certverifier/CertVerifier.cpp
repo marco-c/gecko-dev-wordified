@@ -2915,7 +2915,7 @@ mSHA1Mode
 SHA1Mode
 :
 :
-ImportedRoot
+Allowed
 )
 {
 *
