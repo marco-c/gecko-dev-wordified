@@ -430,17 +430,6 @@ segment
 static
 const
 char
-InitialLabel
-[
-]
-=
-"
-initial
-"
-;
-static
-const
-char
 EndLabel
 [
 ]
