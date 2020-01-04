@@ -637,7 +637,7 @@ DefinitionKind
 kind_
 ;
 uint32_t
-funcExportIndex_
+funcIndex_
 ;
 }
 pod
@@ -656,7 +656,7 @@ Export
 UniqueChars
 fieldName
 uint32_t
-funcExportIndex
+funcIndex
 )
 ;
 explicit
@@ -697,7 +697,7 @@ kind_
 ;
 }
 uint32_t
-funcExportIndex
+funcIndex
 (
 )
 const

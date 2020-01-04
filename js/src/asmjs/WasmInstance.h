@@ -629,7 +629,7 @@ JSContext
 *
 cx
 uint32_t
-funcExportIndex
+funcIndex
 CallArgs
 args
 )
