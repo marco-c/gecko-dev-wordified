@@ -82586,6 +82586,7 @@ operator
 const
 %
 s
+&
 )
 =
 delete
@@ -109757,10 +109758,12 @@ insert
 Argument
 (
 "
+const
 JS
 :
 :
 Value
+&
 "
 "
 aThisVal
