@@ -1981,12 +1981,6 @@ bin
 /
 gcc
 '
-        
-language
-=
-'
-C
-'
     
 )
     
@@ -2037,14 +2031,6 @@ g
 +
 +
 '
-        
-language
-=
-'
-C
-+
-+
-'
     
 )
     
@@ -2091,12 +2077,6 @@ bin
 gcc
 -
 5
-'
-        
-language
-=
-'
-C
 '
     
 )
@@ -2150,14 +2130,6 @@ g
 -
 5
 '
-        
-language
-=
-'
-C
-+
-+
-'
     
 )
     
@@ -2200,12 +2172,6 @@ clang
 3
 .
 3
-'
-        
-language
-=
-'
-C
 '
     
 )
@@ -2269,12 +2235,6 @@ bin
 /
 clang
 '
-        
-language
-=
-'
-C
-'
     
 )
     
@@ -2322,14 +2282,6 @@ usr
 bin
 /
 clang
-+
-+
-'
-        
-language
-=
-'
-C
 +
 +
 '
@@ -5873,59 +5825,6 @@ bin
 /
 cl
 '
-        
-language
-=
-'
-C
-'
-    
-)
-    
-VSXX_2015u2_RESULT
-=
-CompilerResult
-(
-        
-flags
-=
-[
-]
-        
-version
-=
-'
-19
-.
-00
-.
-23918
-'
-        
-type
-=
-'
-msvc
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-cl
-'
-        
-language
-=
-'
-C
-+
-+
-'
     
 )
     
@@ -5998,12 +5897,6 @@ clang
 -
 cl
 '
-        
-language
-=
-'
-C
-'
     
 )
     
@@ -6064,14 +5957,6 @@ bin
 clang
 -
 cl
-'
-        
-language
-=
-'
-C
-+
-+
 '
     
 )
@@ -6168,7 +6053,7 @@ cxx_compiler
 :
 self
 .
-VSXX_2015u2_RESULT
+VS_2015u2_RESULT
         
 }
 )
