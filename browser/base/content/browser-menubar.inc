@@ -2787,7 +2787,7 @@ label
 =
 "
 &
-syncTabsMenu2
+syncTabsMenu3
 .
 label
 ;
@@ -2800,7 +2800,7 @@ BrowserOpenSyncTabs
 )
 ;
 "
-disabled
+hidden
 =
 "
 true
