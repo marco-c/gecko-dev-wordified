@@ -4002,7 +4002,7 @@ GetQuotePairs
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -4016,7 +4016,7 @@ mListStylePosition
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -4340,7 +4340,7 @@ mBoxOrdinal
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 return
@@ -4638,7 +4638,7 @@ XXX
 not
 ideal
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -10032,7 +10032,7 @@ mLayoutStrategy
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 return
@@ -10243,7 +10243,7 @@ mBorderCollapse
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -19859,7 +19859,7 @@ mResetCount
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 uint32_t
@@ -19928,7 +19928,7 @@ in
 the
 CSSFrameConstructor
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -19988,7 +19988,7 @@ mCounter
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -20048,7 +20048,7 @@ mCounter
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -21060,7 +21060,7 @@ suppressed
 text
 frames
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -22127,7 +22127,7 @@ mUserInput
 hint
 |
 =
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 else
@@ -22395,7 +22395,7 @@ mForceBrokenImageIcon
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
