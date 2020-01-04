@@ -2472,7 +2472,7 @@ CustomElementHashKey
 aKey
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -4239,7 +4239,7 @@ button
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -5116,7 +5116,7 @@ resource
 mDocument
 ;
 }
-RefPtr
+nsRefPtr
 <
 PendingLoad
 >
@@ -5872,7 +5872,7 @@ neither
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 PendingLoad
 >
@@ -8014,7 +8014,7 @@ a
 FrameRequestCallbackList
 operator
 const
-RefPtr
+nsRefPtr
 <
 FrameRequestCallback
 >
@@ -8076,7 +8076,7 @@ mHandle
 aHandle
 ;
 }
-RefPtr
+nsRefPtr
 <
 FrameRequestCallback
 >
@@ -18008,7 +18008,7 @@ rootElement
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoManager
 >
@@ -18613,7 +18613,7 @@ get
 the
 BODY
 .
-RefPtr
+nsRefPtr
 <
 nsHTMLDocument
 >
@@ -21185,7 +21185,7 @@ FillStyleSet
 aStyleSet
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresShell
 >
@@ -23180,7 +23180,7 @@ argName
 do
 {
 \
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -23241,7 +23241,7 @@ argName
 ;
 \
 \
-RefPtr
+nsRefPtr
 <
 className
 >
@@ -23280,7 +23280,7 @@ this
 )
 ;
 \
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -24348,7 +24348,7 @@ the
 sheet
 sync
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -24371,7 +24371,7 @@ Loader
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -25034,7 +25034,7 @@ bool
 aContainsMSE
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaSource
 >
@@ -28336,7 +28336,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -29077,7 +29077,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 AnonymousContent
 >
@@ -30197,7 +30197,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -30353,7 +30353,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -30467,7 +30467,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -30634,7 +30634,7 @@ aData
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -30719,7 +30719,7 @@ CreateDocumentFragment
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -30808,7 +30808,7 @@ aData
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -30968,7 +30968,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDATASection
 >
@@ -31139,7 +31139,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProcessingInstruction
 >
@@ -31301,7 +31301,7 @@ name
 aName
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -31352,7 +31352,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -31456,7 +31456,7 @@ WarnOnceAbout
 eCreateAttributeNS
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -31501,7 +31501,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -32180,7 +32180,7 @@ NS_OK
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -32212,7 +32212,7 @@ unresolved
 new
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -32243,7 +32243,7 @@ unresolved
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -33182,7 +33182,7 @@ IsSafeToRunScript
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CustomElementData
 >
@@ -33403,7 +33403,7 @@ Maybe
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -34646,7 +34646,7 @@ nsAutoPtr
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -35201,7 +35201,7 @@ nsIDOMNodeList
 aReturn
 )
 {
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -35264,7 +35264,7 @@ BlockedTrackingNodes
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleContentList
 >
@@ -35504,7 +35504,7 @@ aReturn
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -37473,7 +37473,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -37700,7 +37700,7 @@ root
 &
 aRoot
 ;
-RefPtr
+nsRefPtr
 <
 NodeIterator
 >
@@ -37886,7 +37886,7 @@ root
 &
 aRoot
 ;
-RefPtr
+nsRefPtr
 <
 TreeWalker
 >
@@ -38273,7 +38273,7 @@ mMayHaveTitleElement
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -38629,7 +38629,7 @@ return
 NS_OK
 ;
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -38785,7 +38785,7 @@ IsPending
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -39480,7 +39480,7 @@ nsAString
 aMediaQueryList
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaQueryList
 >
@@ -39903,7 +39903,7 @@ Length
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -41443,7 +41443,7 @@ Remove
 from
 ownerElement
 .
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -41490,7 +41490,7 @@ if
 ownerElement
 )
 {
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -44407,7 +44407,7 @@ even
 without
 presContext
 .
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -45979,7 +45979,7 @@ the
 selected
 one
 .
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -46051,7 +46051,7 @@ Count
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -47185,7 +47185,7 @@ caller
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -47394,7 +47394,7 @@ autocomplete
 off
 elements
 .
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -47465,7 +47465,7 @@ list
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -49523,7 +49523,7 @@ bug
 837315
 .
 )
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -49593,7 +49593,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsDocument
 >
@@ -50034,7 +50034,7 @@ mPersisted
 =
 aPersisted
 ;
-RefPtr
+nsRefPtr
 <
 PageTransitionEvent
 >
@@ -50180,7 +50180,7 @@ elements
 are
 attached
 .
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -50511,7 +50511,7 @@ bool
 aOnlyChromeDispatch
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -50712,7 +50712,7 @@ aPersisted
 root
 )
 {
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -52714,7 +52714,7 @@ Now
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -53830,7 +53830,7 @@ cache
 -
 trigger
 preload
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -55993,7 +55993,7 @@ container
 during
 cloning
 .
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -56044,7 +56044,7 @@ SetContainer
 originalShell
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDocument
 >
@@ -56147,7 +56147,7 @@ sheetsCount
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -56176,7 +56176,7 @@ IsApplicable
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -56262,7 +56262,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -56294,7 +56294,7 @@ IsApplicable
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -58607,7 +58607,7 @@ float
 aForce
 )
 {
-RefPtr
+nsRefPtr
 <
 Touch
 >
@@ -58649,7 +58649,7 @@ CreateTouchList
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 TouchList
 >
@@ -58696,7 +58696,7 @@ Touch
 aTouches
 )
 {
-RefPtr
+nsRefPtr
 <
 TouchList
 >
@@ -58785,7 +58785,7 @@ Touch
 aTouches
 )
 {
-RefPtr
+nsRefPtr
 <
 TouchList
 >
@@ -59263,7 +59263,7 @@ offset
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsDOMCaretPosition
 >
@@ -62505,7 +62505,7 @@ aLogFailure
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -63244,6 +63244,83 @@ doc
 ;
 return
 element
+;
+}
+/
+*
+virtual
+*
+/
+nsTArray
+<
+Element
+*
+>
+nsDocument
+:
+:
+GetFullscreenStack
+(
+)
+const
+{
+nsTArray
+<
+Element
+*
+>
+elements
+;
+for
+(
+const
+nsWeakPtr
+&
+ptr
+:
+mFullScreenStack
+)
+{
+if
+(
+nsCOMPtr
+<
+Element
+>
+elem
+=
+do_QueryReferent
+(
+ptr
+)
+)
+{
+MOZ_ASSERT
+(
+elem
+-
+>
+State
+(
+)
+.
+HasState
+(
+NS_EVENT_STATE_FULL_SCREEN
+)
+)
+;
+elements
+.
+AppendElement
+(
+elem
+)
+;
+}
+}
+return
+elements
 ;
 }
 /
@@ -65537,7 +65614,7 @@ aRequest
 mVRHMDDevice
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -66835,7 +66912,7 @@ aTarget
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -66881,7 +66958,7 @@ aTarget
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -68185,7 +68262,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -68964,7 +69041,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -69198,7 +69275,7 @@ for
 future
 mouse
 events
-RefPtr
+nsRefPtr
 <
 EventStateManager
 >
@@ -72729,7 +72806,7 @@ nsIAtom
 aTag
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :

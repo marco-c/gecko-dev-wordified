@@ -698,13 +698,13 @@ mDocument
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Element
 >
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 nsDocument
 >
@@ -712,7 +712,7 @@ mDocument
 ;
 public
 :
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1636,7 +1636,7 @@ Element
 >
 mIdContentList
 ;
-RefPtr
+nsRefPtr
 <
 nsBaseContentList
 >
@@ -1651,7 +1651,7 @@ ChangeCallbackEntry
 >
 mChangeCallbacks
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1990,7 +1990,7 @@ of
 the
 callback
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2002,7 +2002,7 @@ Element
 >
 mThisObject
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2569,7 +2569,7 @@ dom
 CustomElementHashKey
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3188,7 +3188,7 @@ aLoadGroup
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsDocument
 >
@@ -6631,6 +6631,18 @@ GetFullScreenElement
 override
 ;
 virtual
+nsTArray
+<
+Element
+*
+>
+GetFullscreenStack
+(
+)
+const
+override
+;
+virtual
 void
 AsyncRequestFullScreen
 (
@@ -8888,7 +8900,7 @@ GetOrCreatePendingAnimationTracker
 is
 called
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9112,7 +9124,7 @@ Maybe
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9229,7 +9241,7 @@ web
 components
 spec
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9241,7 +9253,7 @@ Registry
 >
 mRegistry
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9250,7 +9262,7 @@ EventListenerManager
 >
 mListenerManager
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9262,13 +9274,13 @@ StyleSheetList
 >
 mDOMStyleSheets
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMStyleSheetSetList
 >
 mStyleSheetSetList
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -9612,7 +9624,7 @@ screen
 -
 orientation
 /
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9960,7 +9972,7 @@ mozilla
 EventStates
 mGotDocumentState
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMNavigationTiming
 >
@@ -10493,7 +10505,7 @@ mLastStyleSheetSet
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -10509,7 +10521,7 @@ nsIRunnable
 >
 mFrameLoaderFinalizers
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -10667,7 +10679,7 @@ picture
 nsString
 mPreloadPictureFoundSource
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10679,7 +10691,7 @@ DOMImplementation
 >
 mDOMImplementation
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -10735,7 +10747,7 @@ nsIObjectLoadingContent
 >
 mPlugins
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10747,7 +10759,7 @@ UndoManager
 >
 mUndoManager
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10852,7 +10864,7 @@ nsIDocument
 >
 mMasterDocument
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
