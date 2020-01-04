@@ -312,6 +312,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 ;
 virtual
@@ -374,6 +376,9 @@ mNeedsClearWhite
 ;
 bool
 mHasSynchronization
+;
+bool
+mIsForOutOfBandContent
 ;
 }
 ;
@@ -548,6 +553,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 ;
 virtual
@@ -751,6 +758,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 ;
 virtual

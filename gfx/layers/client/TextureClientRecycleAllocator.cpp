@@ -393,7 +393,7 @@ class
 does
 not
 handle
-ConteClient
+ContentClient
 '
 s
 TextureClient
@@ -417,6 +417,15 @@ TextureAllocationFlags
 :
 :
 ALLOC_DISALLOW_BUFFERTEXTURECLIENT
+|
+|
+aAllocFlags
+=
+=
+TextureAllocationFlags
+:
+:
+ALLOC_FOR_OUT_OF_BAND_CONTENT
 )
 ;
 MOZ_ASSERT
