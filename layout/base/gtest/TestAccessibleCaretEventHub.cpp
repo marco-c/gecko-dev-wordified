@@ -505,6 +505,12 @@ using
 AccessibleCaretEventHub
 :
 :
+LongTapState
+;
+using
+AccessibleCaretEventHub
+:
+:
 FireScrollEnd
 ;
 explicit
@@ -2341,7 +2347,7 @@ CreateLongTapEvent
 MockAccessibleCaretEventHub
 :
 :
-NoActionState
+LongTapState
 (
 )
 nsEventStatus_eConsumeNoDefault
@@ -2486,7 +2492,7 @@ CreateLongTapEvent
 MockAccessibleCaretEventHub
 :
 :
-NoActionState
+LongTapState
 (
 )
 nsEventStatus_eIgnore
