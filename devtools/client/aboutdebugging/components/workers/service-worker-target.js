@@ -655,6 +655,11 @@ target
 -
 name
 "
+title
+:
+target
+.
+name
 }
 target
 .
@@ -719,6 +724,11 @@ push
 -
 url
 "
+title
+:
+pushSubscription
+.
+endpoint
 }
 pushSubscription
 .
@@ -769,6 +779,11 @@ worker
 -
 scope
 "
+title
+:
+target
+.
+scope
 }
 target
 .
