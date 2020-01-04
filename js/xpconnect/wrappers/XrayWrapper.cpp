@@ -542,6 +542,9 @@ JSProto_SavedFrame
 case
 JSProto_RegExp
 :
+case
+JSProto_Promise
+:
 return
 true
 ;

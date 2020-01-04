@@ -6066,6 +6066,7 @@ ESClass_SharedArrayBuffer
 ESClass_Date
 ESClass_Set
 ESClass_Map
+ESClass_Promise
 /
 *
 *
