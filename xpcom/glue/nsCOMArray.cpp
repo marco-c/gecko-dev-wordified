@@ -133,15 +133,6 @@ h
 #
 include
 "
-mozilla
-/
-OperatorNewExtensions
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -205,10 +196,6 @@ aE
 {
 new
 (
-mozilla
-:
-:
-KnownNotNull
 static_cast
 <
 void
@@ -254,10 +241,6 @@ aArg
 {
 new
 (
-mozilla
-:
-:
-KnownNotNull
 static_cast
 <
 void
