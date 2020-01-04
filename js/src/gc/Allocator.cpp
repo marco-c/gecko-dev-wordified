@@ -2355,7 +2355,7 @@ while
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )

@@ -741,6 +741,10 @@ front
 key
 (
 )
+.
+unbarrieredGet
+(
+)
 ;
 JS_UpdateWeakPointerAfterGCUnbarriered
 (
