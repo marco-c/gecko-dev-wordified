@@ -4810,6 +4810,12 @@ spoofProfileReset
 (
 )
 ;
+TelemetryEnvironment
+.
+delayedInit
+(
+)
+;
 }
 )
 ;
