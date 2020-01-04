@@ -249,16 +249,6 @@ NORMAL_DEP
     
 (
 "
-Quotes
-"
-"
-nullptr
-"
-NORMAL_DEP
-)
-    
-(
-"
 UserInterface
 "
 "

@@ -8304,7 +8304,7 @@ auto
 &
 quotePairs
 =
-StyleQuotes
+StyleList
 (
 )
 -

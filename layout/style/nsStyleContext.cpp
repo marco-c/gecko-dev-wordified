@@ -7183,11 +7183,6 @@ List
 ;
 DO_STRUCT_DIFFERENCE
 (
-Quotes
-)
-;
-DO_STRUCT_DIFFERENCE
-(
 SVGReset
 )
 ;
