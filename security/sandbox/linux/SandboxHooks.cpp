@@ -280,6 +280,12 @@ unnecessary
 work
 if
 (
+aSet
+=
+=
+NULL
+|
+|
 aHow
 =
 =
