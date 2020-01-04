@@ -1629,7 +1629,7 @@ int
 ReferrerPolicy
 :
 :
-Origin_only
+Origin
 )
 =
 =

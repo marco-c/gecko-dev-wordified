@@ -5571,7 +5571,7 @@ mReferrerPolicy
 ReferrerPolicy
 :
 :
-Origin_only
+Origin
 ;
 break
 ;
