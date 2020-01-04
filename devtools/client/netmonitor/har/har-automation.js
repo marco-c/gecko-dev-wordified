@@ -65,7 +65,6 @@ const
 {
 Cu
 Ci
-Cc
 }
 =
 require
@@ -93,7 +92,6 @@ heritage
 ;
 const
 {
-defer
 resolve
 }
 =
@@ -249,6 +247,7 @@ args
 {
 }
 }
+;
 /
 *
 *
@@ -545,7 +544,7 @@ pageLoadBegin
 :
 function
 (
-aResponse
+response
 )
 {
 this
@@ -716,7 +715,7 @@ pageLoadDone
 :
 function
 (
-aResponse
+response
 )
 {
 trace
@@ -729,7 +728,7 @@ HarAutomation
 pageLoadDone
 ;
 "
-aResponse
+response
 )
 ;
 if
@@ -842,6 +841,7 @@ defaultFileName
 "
 )
 }
+;
 return
 this
 .
@@ -1030,6 +1030,7 @@ items
 :
 items
 }
+;
 options
 .
 defaultFileName
@@ -1202,7 +1203,7 @@ getString
 :
 function
 (
-aStringGrip
+stringGrip
 )
 {
 return
@@ -1212,7 +1213,7 @@ webConsoleClient
 .
 getString
 (
-aStringGrip
+stringGrip
 )
 ;
 }
@@ -1252,7 +1253,7 @@ request
 *
 param
 object
-aHeaders
+headers
 *
 The
 "
@@ -1262,7 +1263,7 @@ requestHeaders
 *
 param
 object
-aUploadHeaders
+uploadHeaders
 *
 The
 "
@@ -1272,7 +1273,7 @@ requestHeadersFromUploadStream
 *
 param
 object
-aPostData
+postData
 *
 The
 "
@@ -1305,9 +1306,9 @@ async
 function
 *
 (
-aHeaders
-aUploadHeaders
-aPostData
+headers
+uploadHeaders
+postData
 )
 {
 let
@@ -1323,7 +1324,7 @@ headers
 requestHeaders
 }
 =
-aHeaders
+headers
 ;
 let
 {
@@ -1332,7 +1333,7 @@ headers
 payloadHeaders
 }
 =
-aUploadHeaders
+uploadHeaders
 ;
 let
 allHeaders
@@ -1358,6 +1359,8 @@ find
 e
 =
 >
+{
+return
 e
 .
 name
@@ -1372,6 +1375,8 @@ content
 -
 type
 "
+;
+}
 )
 ;
 let
@@ -1418,14 +1423,14 @@ urlencoded
 let
 postDataLongString
 =
-aPostData
+postData
 .
 postData
 .
 text
 ;
 let
-postData
+data
 =
 yield
 this
@@ -1440,7 +1445,7 @@ for
 let
 section
 of
-postData
+data
 .
 split
 (
@@ -1698,13 +1703,13 @@ onTabNavigated
 :
 function
 (
-aType
-aPacket
+type
+packet
 )
 {
 switch
 (
-aType
+type
 )
 {
 case
@@ -1721,7 +1726,7 @@ listener
 .
 pageLoadBegin
 (
-aPacket
+packet
 )
 ;
 break
@@ -1739,7 +1744,7 @@ listener
 .
 pageLoadDone
 (
-aPacket
+packet
 )
 ;
 break

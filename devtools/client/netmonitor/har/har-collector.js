@@ -64,8 +64,6 @@ strict
 const
 {
 Cu
-Ci
-Cc
 }
 =
 require
@@ -161,6 +159,7 @@ args
 {
 }
 }
+;
 /
 *
 *
@@ -510,6 +509,13 @@ be
 yet
 another
 timeout
+e
+.
+g
+.
+:
+/
+/
 '
 devtools
 .
@@ -827,6 +833,7 @@ waitForResponses
 ;
 }
 )
+;
 }
 )
 ;
@@ -1789,6 +1796,11 @@ method
 )
 ;
 return
+deferred
+.
+resolve
+(
+)
 ;
 }
 let
@@ -2126,6 +2138,7 @@ value
 ;
 }
 )
+;
 }
 }
 /
@@ -2361,6 +2374,7 @@ value
 ;
 }
 )
+;
 }
 }
 /
