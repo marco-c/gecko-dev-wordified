@@ -5701,8 +5701,12 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 VARIANT_HCK
 kBorderColorKTable
-CSS_PROP_NO_OFFSET
-eStyleAnimType_Custom
+offsetof
+(
+nsStyleColumn
+mColumnRuleColor
+)
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_COLUMN
 (
