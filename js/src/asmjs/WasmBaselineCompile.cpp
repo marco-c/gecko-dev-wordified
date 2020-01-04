@@ -16089,6 +16089,8 @@ reg
 srcDest
 .
 reg
+.
+reg
 )
 ;
 #
@@ -16128,6 +16130,8 @@ srcDest
 .
 reg
 srcDest
+.
+reg
 .
 reg
 )

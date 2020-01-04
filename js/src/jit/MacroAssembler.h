@@ -7335,11 +7335,12 @@ clz64
 (
 Register64
 src
-Register64
+Register
 dest
 )
 DEFINED_ON
 (
+x86
 x64
 )
 ;
@@ -7349,11 +7350,12 @@ ctz64
 (
 Register64
 src
-Register64
+Register
 dest
 )
 DEFINED_ON
 (
+x86
 x64
 )
 ;
