@@ -3440,7 +3440,9 @@ window
 .
 attention
 =
-false
+DownloadsCommon
+.
+ATTENTION_NONE
 ;
 /
 /
