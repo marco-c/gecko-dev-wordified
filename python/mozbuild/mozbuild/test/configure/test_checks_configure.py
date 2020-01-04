@@ -386,7 +386,7 @@ configure
         
 sandbox
 .
-exec_file
+include_file
 (
 os
 .
@@ -1239,7 +1239,7 @@ configure
         
 sandbox
 .
-exec_file
+include_file
 (
 os
 .
@@ -1258,7 +1258,7 @@ configure
         
 sandbox
 .
-exec_file
+include_file
 (
 os
 .
