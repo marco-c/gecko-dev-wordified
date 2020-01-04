@@ -2264,7 +2264,7 @@ bool
 &
 aSizeSpecified
 const
-nsString
+nsCString
 &
 aURI
 const
@@ -2276,7 +2276,7 @@ nsCString
 &
 aFeatures
 const
-nsString
+nsCString
 &
 aBaseURI
 nsresult
