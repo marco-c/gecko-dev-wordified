@@ -373,7 +373,7 @@ AutoResolving
 namespace
 frontend
 {
-struct
+class
 CompileError
 ;
 }
