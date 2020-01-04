@@ -235,6 +235,13 @@ uint32_t
 aCh
 )
 ;
+uint8_t
+GetLineBreakClass
+(
+uint32_t
+aCh
+)
+;
 Script
 GetScriptCode
 (
