@@ -425,6 +425,12 @@ markuploaded
 "
 )
 ;
+yield
+waitForMultipleChildrenUpdates
+(
+inspector
+)
+;
 ok
 (
 inspector
