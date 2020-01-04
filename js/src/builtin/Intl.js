@@ -744,7 +744,7 @@ left
 =
 callFunction
 (
-std_String_replace
+String_replace
 left
 extensions
 [

@@ -32456,6 +32456,11 @@ match
 \
 macro
 (
+replace
+)
+\
+macro
+(
 search
 )
 \
