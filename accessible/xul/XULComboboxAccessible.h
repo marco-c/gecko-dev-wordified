@@ -195,13 +195,6 @@ NativeState
 )
 override
 ;
-virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
 /
 /
 ActionAccessible

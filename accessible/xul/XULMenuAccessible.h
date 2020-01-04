@@ -209,13 +209,6 @@ GetLevelInternal
 )
 override
 ;
-virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
 /
 /
 ActionAccessible

@@ -698,13 +698,6 @@ NativeInteractiveState
 const
 override
 ;
-virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
 /
 /
 Actions
