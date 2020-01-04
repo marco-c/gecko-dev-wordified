@@ -65,6 +65,13 @@ DOM_CAMERA_CAMERAPREVIEWMEDIASTREAM_H
 #
 include
 "
+VideoFrameContainer
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h
@@ -81,9 +88,6 @@ h
 namespace
 mozilla
 {
-class
-MediaStreamVideoSink
-;
 class
 FakeMediaStreamGraph
 :
@@ -231,9 +235,9 @@ virtual
 void
 AddVideoOutput
 (
-MediaStreamVideoSink
+VideoFrameContainer
 *
-aSink
+aContainer
 )
 override
 ;
@@ -241,9 +245,9 @@ virtual
 void
 RemoveVideoOutput
 (
-MediaStreamVideoSink
+VideoFrameContainer
 *
-aSink
+aContainer
 )
 override
 ;
