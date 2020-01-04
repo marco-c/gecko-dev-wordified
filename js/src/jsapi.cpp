@@ -37491,6 +37491,11 @@ encoder
 (
 cx
 buffer
+buffer
+.
+length
+(
+)
 )
 ;
 RootedScript
@@ -37574,6 +37579,11 @@ encoder
 (
 cx
 buffer
+buffer
+.
+length
+(
+)
 )
 ;
 RootedFunction
