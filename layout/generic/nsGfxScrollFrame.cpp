@@ -13332,6 +13332,11 @@ AsyncPanZoomEnabled
 (
 mOuter
 )
+&
+&
+WantAsyncScroll
+(
+)
 )
 {
 if
