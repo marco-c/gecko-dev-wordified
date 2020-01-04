@@ -1470,7 +1470,7 @@ FailureResult
 Copy
 :
 :
-CopyNonOverlappingRegionWithHeader
+MoveNonOverlappingRegionWithHeader
 (
 header
 mHdr
@@ -3557,7 +3557,7 @@ false
 Copy
 :
 :
-CopyNonOverlappingRegionWithHeader
+MoveNonOverlappingRegionWithHeader
 (
 header
 mHdr
