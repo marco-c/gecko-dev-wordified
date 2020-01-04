@@ -914,12 +914,13 @@ typed
 object
 views
 have
+ever
 been
-neutered
+detached
 .
 *
 /
-OBJECT_FLAG_TYPED_OBJECT_NEUTERED
+OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 =
 0x00400000
 /
