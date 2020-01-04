@@ -3125,17 +3125,6 @@ isNative
 )
 )
 {
-MOZ_ASSERT
-(
-!
-target
--
->
-isClassConstructor
-(
-)
-)
-;
 Register
 cxReg
 numReg
