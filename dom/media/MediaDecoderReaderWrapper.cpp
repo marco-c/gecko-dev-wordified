@@ -220,20 +220,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 StartTimeRendezvous
 )
 ;
-typedef
-MediaDecoderReader
-:
-:
-AudioDataPromise
-AudioDataPromise
-;
-typedef
-MediaDecoderReader
-:
-:
-VideoDataPromise
-VideoDataPromise
-;
 public
 :
 StartTimeRendezvous
@@ -1086,7 +1072,7 @@ RefPtr
 MediaDecoderReaderWrapper
 :
 :
-AudioDataPromise
+MediaDataPromise
 >
 MediaDecoderReaderWrapper
 :
@@ -1166,7 +1152,7 @@ StartTimeRendezvous
 :
 ProcessFirstSample
 <
-AudioDataPromise
+MediaDataPromise
 MediaData
 :
 :
@@ -1223,7 +1209,7 @@ RefPtr
 MediaDecoderReaderWrapper
 :
 :
-VideoDataPromise
+MediaDataPromise
 >
 MediaDecoderReaderWrapper
 :
@@ -1343,7 +1329,7 @@ StartTimeRendezvous
 :
 ProcessFirstSample
 <
-VideoDataPromise
+MediaDataPromise
 MediaData
 :
 :

@@ -701,7 +701,7 @@ MozPromiseRequestHolder
 MediaDecoderReader
 :
 :
-AudioDataPromise
+MediaDataPromise
 >
 mAudioDataRequest
 ;
@@ -710,7 +710,7 @@ MozPromiseRequestHolder
 MediaDecoderReader
 :
 :
-VideoDataPromise
+MediaDataPromise
 >
 mVideoDataRequest
 ;
