@@ -241,8 +241,6 @@ performance
 /
 modules
 /
-widgets
-/
 waterfall
 -
 ticks
