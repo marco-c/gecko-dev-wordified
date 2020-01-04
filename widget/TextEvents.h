@@ -4164,7 +4164,7 @@ called
 "
 )
 ;
-refPoint
+mRefPoint
 =
 aPoint
 ;
@@ -4417,7 +4417,7 @@ user
 clicked
 at
 the
-refPoint
+mRefPoint
 .
 uint32_t
 mTentativeCaretOffset

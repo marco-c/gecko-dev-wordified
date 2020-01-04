@@ -4661,7 +4661,7 @@ GetDefaultScale
 ;
 event
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (

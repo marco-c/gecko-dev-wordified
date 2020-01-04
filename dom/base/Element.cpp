@@ -12007,12 +12007,12 @@ eReal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 aSourceEvent
 -
 >
-refPoint
+mRefPoint
 ;
 uint32_t
 clickCount

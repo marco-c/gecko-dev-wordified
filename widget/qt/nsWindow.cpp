@@ -5032,7 +5032,7 @@ aClickCount
 {
 aMouseEvent
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -5052,7 +5052,7 @@ x
 ;
 aMouseEvent
 .
-refPoint
+mRefPoint
 .
 y
 =
@@ -7188,7 +7188,7 @@ break
 }
 wheelEvent
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -7208,7 +7208,7 @@ x
 ;
 wheelEvent
 .
-refPoint
+mRefPoint
 .
 y
 =
@@ -10601,7 +10601,7 @@ eReal
 ;
 event
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -10618,7 +10618,7 @@ x
 ;
 event
 .
-refPoint
+mRefPoint
 .
 y
 =

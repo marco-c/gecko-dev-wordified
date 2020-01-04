@@ -1450,7 +1450,7 @@ by
 Event
 :
 :
-refPoint
+mRefPoint
 .
 NS_EVENT_MESSAGE
 (
@@ -1467,7 +1467,7 @@ under
 Event
 :
 :
-refPoint
+mRefPoint
 belongs
 to
 our

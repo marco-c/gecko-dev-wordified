@@ -452,7 +452,7 @@ WriteParam
 aMsg
 aParam
 .
-refPoint
+mRefPoint
 )
 ;
 WriteParam
@@ -537,7 +537,7 @@ aIter
 aResult
 -
 >
-refPoint
+mRefPoint
 )
 &
 &

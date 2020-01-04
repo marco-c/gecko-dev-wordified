@@ -8186,7 +8186,7 @@ mFirstDragPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 /
 /
@@ -8345,7 +8345,7 @@ DevPixelsToAppUnits
 aEvent
 -
 >
-refPoint
+mRefPoint
 .
 x
 -
@@ -8548,7 +8548,7 @@ DevPixelsToAppUnits
 aEvent
 -
 >
-refPoint
+mRefPoint
 .
 y
 -

@@ -4537,7 +4537,7 @@ aLParam
 "
 wheelEvent
 {
-refPoint
+mRefPoint
 :
 {
 x
@@ -4606,12 +4606,12 @@ aWParam
 aLParam
 wheelEvent
 .
-refPoint
+mRefPoint
 .
 x
 wheelEvent
 .
-refPoint
+mRefPoint
 .
 y
 wheelEvent
@@ -5978,7 +5978,7 @@ p
 "
 aWheelEvent
 {
-refPoint
+mRefPoint
 :
 {
 x
@@ -6043,12 +6043,12 @@ d
 aWidget
 aWheelEvent
 .
-refPoint
+mRefPoint
 .
 x
 aWheelEvent
 .
-refPoint
+mRefPoint
 .
 y
 aWheelEvent

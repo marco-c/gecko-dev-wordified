@@ -2401,7 +2401,7 @@ mMessage
 (
 aMessage
 )
-refPoint
+mRefPoint
 (
 0
 0
@@ -2481,7 +2481,7 @@ mMessage
 (
 aMessage
 )
-refPoint
+mRefPoint
 (
 0
 0
@@ -2653,13 +2653,13 @@ layout
 code
 .
 LayoutDeviceIntPoint
-refPoint
+mRefPoint
 ;
 /
 /
 The
 previous
-refPoint
+mRefPoint
 if
 known
 used
@@ -2779,11 +2779,11 @@ with
 the
 constructor
 .
-refPoint
+mRefPoint
 =
 aEvent
 .
-refPoint
+mRefPoint
 ;
 /
 /

@@ -771,7 +771,7 @@ DevPixelsToCSSPixels
 mEvent
 -
 >
-refPoint
+mRefPoint
 mPresContext
 )
 ;
@@ -1002,7 +1002,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1067,7 +1067,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1741,7 +1741,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 ;
@@ -1769,7 +1769,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 ;
@@ -1780,7 +1780,7 @@ converts
 mEvent
 -
 >
-refPoint
+mRefPoint
 to
 right
 coordinates
@@ -1798,7 +1798,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 )
 ;
 nsresult
@@ -1839,7 +1839,7 @@ CSSToLayoutDeviceScale
 mEvent
 -
 >
-refPoint
+mRefPoint
 =
 RoundedToInt
 (

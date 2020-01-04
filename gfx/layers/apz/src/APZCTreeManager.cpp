@@ -7607,7 +7607,7 @@ ScreenPixel
 (
 aEvent
 .
-refPoint
+mRefPoint
 PixelCastJustification
 :
 :
@@ -7718,7 +7718,7 @@ aEvent
 /
 Transform
 the
-refPoint
+mRefPoint
 .
 /
 /
@@ -7759,7 +7759,7 @@ ScreenPixel
 (
 aEvent
 .
-refPoint
+mRefPoint
 LDIsScreen
 )
 ;
@@ -7845,7 +7845,7 @@ untransformedRefPoint
 {
 aEvent
 .
-refPoint
+mRefPoint
 =
 ViewAs
 <
@@ -7919,12 +7919,12 @@ ScreenPoint
 (
 aEvent
 .
-refPoint
+mRefPoint
 .
 x
 aEvent
 .
-refPoint
+mRefPoint
 .
 y
 )
@@ -7941,7 +7941,7 @@ aOutInputBlockId
 ;
 aEvent
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -7953,7 +7953,7 @@ x
 ;
 aEvent
 .
-refPoint
+mRefPoint
 .
 y
 =
@@ -8098,12 +8098,12 @@ origin
 (
 aEvent
 .
-refPoint
+mRefPoint
 .
 x
 aEvent
 .
-refPoint
+mRefPoint
 .
 y
 )
@@ -8248,7 +8248,7 @@ aOutInputBlockId
 ;
 aEvent
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -8260,7 +8260,7 @@ x
 ;
 aEvent
 .
-refPoint
+mRefPoint
 .
 y
 =

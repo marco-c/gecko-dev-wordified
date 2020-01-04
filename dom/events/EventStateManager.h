@@ -5120,7 +5120,7 @@ mLastFrameConsumedSetCursor
 Last
 mouse
 event
-refPoint
+mRefPoint
 (
 the
 offset
@@ -5157,7 +5157,7 @@ mPreLockPoint
 /
 Stores
 the
-refPoint
+mRefPoint
 of
 the
 last
@@ -5250,7 +5250,7 @@ sLastDragOverFrame
 /
 Stores
 the
-refPoint
+mRefPoint
 (
 the
 offset

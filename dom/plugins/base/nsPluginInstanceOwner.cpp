@@ -14514,11 +14514,12 @@ if
 (
 widget
 )
+{
 rootPoint
 =
 anEvent
 .
-refPoint
+mRefPoint
 +
 widget
 -
@@ -14527,6 +14528,7 @@ WidgetToScreenOffset
 (
 )
 ;
+}
 #
 ifdef
 MOZ_WIDGET_GTK

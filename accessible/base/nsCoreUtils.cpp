@@ -1021,7 +1021,7 @@ eNormal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (

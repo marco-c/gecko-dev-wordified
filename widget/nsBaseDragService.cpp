@@ -2893,7 +2893,7 @@ eDragEnd
 {
 event
 .
-refPoint
+mRefPoint
 =
 mEndDragPoint
 ;

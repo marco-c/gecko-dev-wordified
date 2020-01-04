@@ -534,7 +534,7 @@ is
 mEvent
 -
 >
-refPoint
+mRefPoint
 .
 nsIntPoint
 mLayerPoint

@@ -439,7 +439,7 @@ ScreenPixel
 (
 aMouseEvent
 .
-refPoint
+mRefPoint
 PixelCastJustification
 :
 :
@@ -747,7 +747,7 @@ mTimeStamp
 ;
 event
 .
-refPoint
+mRefPoint
 =
 RoundedToInt
 (
@@ -1346,7 +1346,7 @@ mTouches
 ;
 event
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -1358,7 +1358,7 @@ x
 ;
 event
 .
-refPoint
+mRefPoint
 .
 y
 =
@@ -1740,7 +1740,7 @@ ScreenPixel
 (
 aMouseEvent
 .
-refPoint
+mRefPoint
 PixelCastJustification
 :
 :
@@ -1920,7 +1920,7 @@ mTimeStamp
 ;
 wheelEvent
 .
-refPoint
+mRefPoint
 =
 RoundedToInt
 (
@@ -2341,7 +2341,7 @@ ScreenPixel
 (
 aWheelEvent
 .
-refPoint
+mRefPoint
 PixelCastJustification
 :
 :
@@ -2393,7 +2393,7 @@ mTimeStamp
 ;
 wheelEvent
 .
-refPoint
+mRefPoint
 =
 RoundedToInt
 (
