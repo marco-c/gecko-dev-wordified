@@ -28465,16 +28465,6 @@ icEntry
 )
 )
 ;
-MOZ_ASSERT
-(
-info
-.
-outerScript
-(
-cx
-)
-)
-;
 HandleScript
 script
 =
