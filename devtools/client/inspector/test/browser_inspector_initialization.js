@@ -934,7 +934,7 @@ button
 getAttribute
 (
 "
-tooltiptext
+title
 "
 )
 expectedText

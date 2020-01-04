@@ -5229,6 +5229,14 @@ are
 visible
 too
 .
+if
+(
+!
+this
+.
+isDestroyed
+)
+{
 let
 element
 =
@@ -5261,6 +5269,7 @@ smooth
 }
 )
 ;
+}
 }
 /
 *
