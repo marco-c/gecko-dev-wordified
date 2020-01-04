@@ -325,6 +325,17 @@ OSFileSystem
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Promise
+.
+h
+"
 namespace
 mozilla
 {
