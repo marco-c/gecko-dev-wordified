@@ -900,7 +900,14 @@ relative
 to
 our
 document
+'
+s
+/
+/
+fallback
+base
 URI
+.
 nsAutoString
 href
 ;
@@ -937,7 +944,7 @@ aDocument
 aDocument
 -
 >
-GetDocumentURI
+GetFallbackBaseURI
 (
 )
 )
