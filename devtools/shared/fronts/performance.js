@@ -102,9 +102,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 performance
 -
