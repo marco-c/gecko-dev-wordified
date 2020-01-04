@@ -1706,17 +1706,6 @@ NS_IsMainThread
 )
 )
 ;
-StaticMutexAutoLock
-lock
-(
-sMutex
-)
-;
-/
-/
-for
-mMarkersStores
-.
 if
 (
 !
