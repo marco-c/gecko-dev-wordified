@@ -113,15 +113,12 @@ final
 {
 public
 :
-virtual
 ~
 EmbeddedObjCollector
 (
 )
 {
 }
-public
-:
 /
 *
 *
