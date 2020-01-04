@@ -5782,6 +5782,14 @@ void
 data
 )
 ;
+void
+callGCCallback
+(
+JSGCStatus
+status
+)
+const
+;
 bool
 addFinalizeCallback
 (
