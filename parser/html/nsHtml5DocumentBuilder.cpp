@@ -433,7 +433,7 @@ mPendingSheetCount
 mScriptLoader
 -
 >
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;

@@ -2687,7 +2687,7 @@ mDocument
 (
 aDocument
 )
-mBlockerCount
+mParserBlockingBlockerCount
 (
 0
 )
@@ -2962,7 +2962,7 @@ j
 ]
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -8876,7 +8876,7 @@ IsReadyToRun
 )
 &
 &
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -9359,7 +9359,7 @@ FROM_PARSER_XSLT
 &
 (
 !
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 |
@@ -9484,7 +9484,7 @@ FROM_PARSER_NETWORK
 &
 &
 !
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -9894,7 +9894,7 @@ mParserBlockingRequest
 if
 (
 !
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -12541,7 +12541,7 @@ IsReadyToRun
 )
 &
 &
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -12588,7 +12588,7 @@ request
 }
 while
 (
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 &
@@ -12838,7 +12838,7 @@ IsEmpty
 )
 &
 &
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -12864,7 +12864,7 @@ RemoveElementAt
 child
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -13011,7 +13011,7 @@ bool
 nsScriptLoader
 :
 :
-ReadyToExecuteScripts
+ReadyToExecuteParserBlockingScripts
 (
 )
 {
@@ -13020,14 +13020,14 @@ ReadyToExecuteScripts
 Make
 sure
 the
-SelfReadyToExecuteScripts
+SelfReadyToExecuteParserBlockingScripts
 check
 is
 first
 so
+/
+/
 that
-/
-/
 we
 don
 '
@@ -13041,7 +13041,7 @@ ancestor
 if
 (
 !
-SelfReadyToExecuteScripts
+SelfReadyToExecuteParserBlockingScripts
 (
 )
 )
@@ -13087,7 +13087,7 @@ if
 ancestor
 -
 >
-SelfReadyToExecuteScripts
+SelfReadyToExecuteParserBlockingScripts
 (
 )
 &
@@ -13101,7 +13101,7 @@ this
 )
 )
 {
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -13339,10 +13339,6 @@ IsBlocking
 doc
 |
 |
-(
-doc
-&
-&
 !
 doc
 -
@@ -13352,9 +13348,8 @@ ScriptLoader
 )
 -
 >
-SelfReadyToExecuteScripts
+SelfReadyToExecuteParserBlockingScripts
 (
-)
 )
 )
 {

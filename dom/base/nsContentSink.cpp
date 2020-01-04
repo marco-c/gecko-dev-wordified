@@ -1472,7 +1472,7 @@ ScrollToRef
 mScriptLoader
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -4437,7 +4437,7 @@ mPendingSheetCount
 mScriptLoader
 -
 >
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
