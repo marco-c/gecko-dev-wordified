@@ -461,12 +461,6 @@ base
 :
 ProcessId
 aOtherProcess
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aSubprocess
 )
 ;
 /

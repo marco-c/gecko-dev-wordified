@@ -249,9 +249,6 @@ ipc
 class
 Shmem
 ;
-class
-GeckoChildProcessHost
-;
 }
 /
 /
@@ -379,12 +376,6 @@ Transport
 aTransport
 ProcessId
 aChildProcessId
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aProcessHost
 )
 ;
 /
@@ -890,13 +881,6 @@ mSetChildThreadPriority
 ;
 bool
 mClosed
-;
-ipc
-:
-:
-GeckoChildProcessHost
-*
-mSubprocess
 ;
 /
 *
