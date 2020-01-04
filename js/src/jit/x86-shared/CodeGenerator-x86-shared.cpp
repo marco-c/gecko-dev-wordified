@@ -3203,7 +3203,7 @@ CodeGeneratorX86Shared
 emitAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 const
@@ -3540,7 +3540,7 @@ CodeGeneratorX86Shared
 maybeEmitThrowingAsmJSBoundsCheck
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 const
@@ -3834,7 +3834,7 @@ CodeGeneratorX86Shared
 cleanupAfterAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 Register

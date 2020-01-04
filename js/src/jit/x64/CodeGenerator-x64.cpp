@@ -6496,7 +6496,7 @@ MaybeAddAtomicsBoundsCheck
 MacroAssemblerX64
 &
 masm
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 mir
 Register

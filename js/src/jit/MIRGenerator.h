@@ -1088,7 +1088,7 @@ bool
 needsAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 )
@@ -1098,7 +1098,7 @@ size_t
 foldableOffsetRange
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 )

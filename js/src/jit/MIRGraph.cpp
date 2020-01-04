@@ -664,7 +664,7 @@ MIRGenerator
 needsAsmJSBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 )
@@ -794,7 +794,7 @@ MIRGenerator
 foldableOffsetRange
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 *
 access
 )

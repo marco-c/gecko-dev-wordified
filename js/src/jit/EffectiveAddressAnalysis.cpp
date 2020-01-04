@@ -746,7 +746,7 @@ eaddr
 template
 <
 typename
-MAsmJSHeapAccessType
+MWasmMemoryAccessType
 >
 bool
 EffectiveAddressAnalysis
@@ -754,7 +754,7 @@ EffectiveAddressAnalysis
 :
 tryAddDisplacement
 (
-MAsmJSHeapAccessType
+MWasmMemoryAccessType
 *
 ins
 int32_t
@@ -931,7 +931,7 @@ true
 template
 <
 typename
-MAsmJSHeapAccessType
+MWasmMemoryAccessType
 >
 void
 EffectiveAddressAnalysis
@@ -939,7 +939,7 @@ EffectiveAddressAnalysis
 :
 analyzeAsmHeapAccess
 (
-MAsmJSHeapAccessType
+MWasmMemoryAccessType
 *
 ins
 )

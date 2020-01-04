@@ -17706,7 +17706,7 @@ bool
 needsBoundsCheckBranch
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 )
@@ -17914,7 +17914,7 @@ void
 loadHeap
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 RegI32
@@ -18228,7 +18228,7 @@ void
 storeHeap
 (
 const
-MAsmJSHeapAccess
+MWasmMemoryAccess
 &
 access
 RegI32
@@ -29754,7 +29754,7 @@ minimum
 heap
 length
 .
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -30006,7 +30006,7 @@ minimum
 heap
 length
 .
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
@@ -31737,7 +31737,7 @@ minimum
 heap
 length
 .
-MAsmJSHeapAccess
+MWasmMemoryAccess
 access
 (
 viewType
