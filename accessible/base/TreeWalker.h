@@ -309,7 +309,7 @@ aAnchorNode
 uint32_t
 aFlags
 =
-0
+eWalkCache
 )
 ;
 ~
