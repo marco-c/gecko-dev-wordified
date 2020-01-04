@@ -351,6 +351,14 @@ LExtendInt32ToInt64
 lir
 )
 ;
+void
+visitWrapInt64ToInt32
+(
+LWrapInt64ToInt32
+*
+lir
+)
+;
 /
 /
 Out
