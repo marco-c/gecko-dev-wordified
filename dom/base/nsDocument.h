@@ -4627,7 +4627,7 @@ mozilla
 :
 :
 StyleSheetHandle
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 override

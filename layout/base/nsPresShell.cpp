@@ -9160,9 +9160,9 @@ be
 stronger
 than
 the
+/
+/
 ones
-/
-/
 added
 with
 the
@@ -9174,7 +9174,7 @@ firstAuthorSheet
 mDocument
 -
 >
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 ;

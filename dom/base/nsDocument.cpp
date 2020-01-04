@@ -25096,7 +25096,7 @@ StyleSheetHandle
 nsDocument
 :
 :
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 {

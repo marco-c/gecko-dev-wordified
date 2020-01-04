@@ -5662,7 +5662,7 @@ mozilla
 :
 :
 StyleSheetHandle
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 =
