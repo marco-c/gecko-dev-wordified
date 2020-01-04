@@ -3308,7 +3308,7 @@ strstr
 (
 report
 .
-message
+toStringResult
 (
 )
 .
