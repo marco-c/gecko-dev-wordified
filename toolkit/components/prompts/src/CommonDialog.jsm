@@ -977,6 +977,21 @@ display
 the
 main
 text
+let
+croppedMessage
+=
+"
+"
+;
+if
+(
+this
+.
+args
+.
+text
+)
+{
 /
 /
 Bug
@@ -989,7 +1004,6 @@ as
 a
 workaround
 .
-let
 croppedMessage
 =
 this
@@ -1004,6 +1018,7 @@ substr
 10000
 )
 ;
+}
 let
 infoBody
 =
