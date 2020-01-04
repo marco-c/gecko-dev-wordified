@@ -355,6 +355,10 @@ override
 void
 Redraw
 (
+const
+VideoInfo
+&
+aInfo
 )
 override
 ;

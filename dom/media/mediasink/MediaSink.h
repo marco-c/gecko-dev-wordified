@@ -808,6 +808,10 @@ virtual
 void
 Redraw
 (
+const
+VideoInfo
+&
+aInfo
 )
 {
 }
