@@ -2952,7 +2952,7 @@ function
 )
 ;
 return
-true
+false
 ;
 }
 JSFunction
