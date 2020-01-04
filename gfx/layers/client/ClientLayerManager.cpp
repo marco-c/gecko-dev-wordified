@@ -3619,11 +3619,15 @@ TabChild
 window
 =
 mWidget
+?
+mWidget
 -
 >
 GetOwningTabChild
 (
 )
+:
+nullptr
 ;
 if
 (

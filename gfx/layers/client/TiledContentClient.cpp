@@ -2327,6 +2327,14 @@ mManager
 (
 aManager
 )
+mCallback
+(
+nullptr
+)
+mCallbackData
+(
+nullptr
+)
 mSharedFrameMetricsHelper
 (
 aHelper
