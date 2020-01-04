@@ -66,7 +66,7 @@ run_test
 (
 )
 {
-removeCache
+removeCacheFile
 (
 )
 ;
@@ -407,7 +407,7 @@ do_check_true
 found
 )
 ;
-removeCache
+removeCacheFile
 (
 )
 ;

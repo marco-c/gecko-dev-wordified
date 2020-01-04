@@ -218,7 +218,7 @@ async_init
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 yield
@@ -661,7 +661,7 @@ url
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
