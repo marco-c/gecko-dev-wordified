@@ -454,7 +454,11 @@ rect
 width
 +
 5
-0
+rect
+.
+height
+/
+2
 {
 }
 view
