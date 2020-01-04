@@ -6297,7 +6297,7 @@ Array
 *
 Operands
 :
-uint24_t
+uint32_t
 length
 *
 Stack
@@ -6316,10 +6316,10 @@ JSOP_NEWARRAY
 newarray
 "
 NULL
-4
+5
 0
 1
-JOF_UINT24
+JOF_UINT32
 )
 \
 /
@@ -6872,7 +6872,7 @@ Array
 *
 Operands
 :
-uint24_t
+uint32_t
 index
 *
 Stack
@@ -6893,10 +6893,10 @@ JSOP_INITELEM_ARRAY
 initelem_array
 "
 NULL
-4
+5
 2
 1
-JOF_UINT24
+JOF_UINT32
 |
 JOF_ELEM
 |
@@ -9639,7 +9639,6 @@ more
 complex
 .
 *
-*
 Category
 :
 Literals
@@ -9650,7 +9649,7 @@ Array
 *
 Operands
 :
-uint24_t
+uint32_t
 length
 *
 Stack
@@ -9669,10 +9668,10 @@ JSOP_SPREADCALLARRAY
 spreadcallarray
 "
 NULL
-4
+5
 0
 1
-JOF_UINT24
+JOF_UINT32
 )
 \
 \

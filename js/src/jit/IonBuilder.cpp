@@ -12077,7 +12077,7 @@ JSOP_NEWARRAY
 return
 jsop_newarray
 (
-GET_UINT24
+GET_UINT32
 (
 pc
 )
@@ -48377,6 +48377,14 @@ true
 }
 }
 }
+uint32_t
+index
+=
+GET_UINT32
+(
+pc
+)
+;
 if
 (
 needStub
@@ -48395,10 +48403,7 @@ alloc
 (
 )
 obj
-GET_UINT24
-(
-pc
-)
+index
 value
 )
 ;
@@ -48421,10 +48426,7 @@ return
 initializeArrayElement
 (
 obj
-GET_UINT24
-(
-pc
-)
+index
 value
 unboxedType
 /
