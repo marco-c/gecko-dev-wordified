@@ -25575,10 +25575,6 @@ OwningCompileOptions
 public
 ReadOnlyCompileOptions
 {
-JSRuntime
-*
-runtime
-;
 PersistentRootedObject
 elementRoot
 ;

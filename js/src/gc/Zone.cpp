@@ -1919,6 +1919,11 @@ RootedGlobalObject
 global
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 comps
 -
 >

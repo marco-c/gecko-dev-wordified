@@ -14667,6 +14667,11 @@ iter
 calleeTemplate_
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 )
 calleeRVA_
 (
@@ -14674,6 +14679,11 @@ calleeRVA_
 script_
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 )
 {
 resetOn
