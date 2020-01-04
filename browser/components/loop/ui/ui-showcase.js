@@ -8671,6 +8671,11 @@ createElement
 (
 FramedExample
 {
+cssClass
+:
+"
+standalone
+"
 dashed
 :
 true
@@ -8734,6 +8739,11 @@ createElement
 (
 FramedExample
 {
+cssClass
+:
+"
+standalone
+"
 dashed
 :
 true
