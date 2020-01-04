@@ -1292,6 +1292,10 @@ const
 nsString
 &
 aTooltip
+const
+nsString
+&
+aDirection
 )
 override
 ;

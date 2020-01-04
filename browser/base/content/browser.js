@@ -28622,6 +28622,7 @@ function
 x
 y
 tooltip
+direction
 )
 {
 if
@@ -28695,6 +28696,14 @@ elt
 label
 =
 tooltip
+;
+elt
+.
+style
+.
+direction
+=
+direction
 ;
 let
 anchor
