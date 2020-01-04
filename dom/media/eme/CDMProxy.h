@@ -223,6 +223,10 @@ mSample
 ;
 }
 ;
+typedef
+int64_t
+UnixTime
+;
 /
 /
 Proxies
@@ -937,7 +941,7 @@ const
 nsAString
 &
 aSessionId
-int64_t
+UnixTime
 aExpiryTime
 )
 =
