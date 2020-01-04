@@ -187,7 +187,7 @@ kwargs
 :
         
 raise
-RuntimeError
+ConfigureError
 (
 '
 The
@@ -199,7 +199,7 @@ not
 be
 called
 '
-                           
+                             
 %
 self
 .
@@ -666,6 +666,14 @@ _paths
 =
 [
 ]
+        
+self
+.
+_all_paths
+=
+set
+(
+)
         
 self
 .
@@ -1228,6 +1236,15 @@ _paths
 path
 )
             
+path
+=
+mozpath
+.
+normpath
+(
+path
+)
+            
 if
 not
 mozpath
@@ -1313,7 +1330,7 @@ path
 in
 self
 .
-_paths
+_all_paths
 :
             
 raise
@@ -1341,6 +1358,15 @@ self
 _paths
 .
 append
+(
+path
+)
+        
+self
+.
+_all_paths
+.
+add
 (
 path
 )
@@ -1497,9 +1523,8 @@ s
 line
 %
 d
-was
-not
-handled
+is
+unknown
 .
 '
                     
@@ -2066,16 +2091,8 @@ s
 already
 defined
 '
-                                 
 %
-self
-.
-_options
-[
 option
-.
-name
-]
 .
 option
 )
@@ -2100,18 +2117,10 @@ s
 already
 defined
 '
-                                 
 %
-self
-.
-_options
-[
 option
 .
 env
-]
-.
-option
 )
         
 if
@@ -2691,6 +2700,8 @@ type
 (
 arg
 )
+.
+__name__
 )
             
 resolved_args
@@ -3012,6 +3023,8 @@ type
 (
 what
 )
+.
+__name__
 )
             
 self
@@ -3572,13 +3585,13 @@ types
 StringTypes
 )
 and
-not
 (
                     
 required
 or
 value
 is
+not
 None
 )
 :
@@ -3600,6 +3613,8 @@ type
 (
 value
 )
+.
+__name__
 )
             
 if
@@ -3649,7 +3664,7 @@ func
 in
 self
 .
-_prepared_functions
+_templates
 :
                 
 raise
@@ -3661,8 +3676,28 @@ imports
 must
 appear
 after
-other
-decorators
+template
+'
+)
+            
+if
+func
+in
+self
+.
+_depends
+:
+                
+raise
+ConfigureError
+(
+                    
+'
+imports
+must
+appear
+after
+depends
 '
 )
             
@@ -4066,6 +4101,8 @@ type
 (
 name
 )
+.
+__name__
 )
         
 if
@@ -4941,13 +4978,6 @@ option
 if
 not
 reason
-or
-not
-isinstance
-(
-value
-DependsFunction
-)
 :
             
 raise
@@ -5095,6 +5125,8 @@ type
 (
 value
 )
+.
+__name__
 )
             
 option
@@ -5194,6 +5226,8 @@ type
 (
 func
 )
+.
+__name__
 )
         
 if
