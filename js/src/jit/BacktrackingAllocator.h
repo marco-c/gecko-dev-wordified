@@ -4008,6 +4008,9 @@ MOZ_MUST_USE
 bool
 processBundle
 (
+MIRGenerator
+*
+mir
 LiveBundle
 *
 bundle
