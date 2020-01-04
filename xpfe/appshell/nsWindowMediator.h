@@ -278,7 +278,7 @@ char16_t
 *
 inType
 bool
-aSkipPrivateBrowsing
+aSkipPrivateBrowsingOrClosed
 =
 false
 )
