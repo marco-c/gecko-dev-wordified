@@ -443,10 +443,10 @@ TakePhotoCallback
 public
 MediaEnginePhotoCallback
 public
-DOMMediaStream
-:
-:
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 {
 public
 :
