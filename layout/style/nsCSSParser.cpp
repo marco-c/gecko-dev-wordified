@@ -88798,7 +88798,7 @@ if
 nsLayoutUtils
 :
 :
-IsTextAlignTrueValueEnabled
+IsTextAlignUnsafeValueEnabled
 (
 )
 )
