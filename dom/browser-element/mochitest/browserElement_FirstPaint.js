@@ -168,6 +168,8 @@ if
 e
 .
 detail
+.
+url
 =
 =
 browserElementTestHelpers
@@ -205,6 +207,8 @@ if
 e
 .
 detail
+.
+url
 .
 endsWith
 (

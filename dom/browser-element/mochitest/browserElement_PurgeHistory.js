@@ -410,6 +410,8 @@ is
 e
 .
 detail
+.
+url
 browserElementTestHelpers
 .
 emptyPage3

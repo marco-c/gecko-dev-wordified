@@ -162,6 +162,8 @@ test
 e
 .
 detail
+.
+url
 )
 )
 {

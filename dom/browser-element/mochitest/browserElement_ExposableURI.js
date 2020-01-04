@@ -101,6 +101,8 @@ uri
 e
 .
 detail
+.
+url
 ;
 is
 (
@@ -263,6 +265,8 @@ uri
 e
 .
 detail
+.
+url
 ;
 is
 (

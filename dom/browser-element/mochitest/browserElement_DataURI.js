@@ -286,6 +286,8 @@ is
 e
 .
 detail
+.
+url
 '
 data
 :

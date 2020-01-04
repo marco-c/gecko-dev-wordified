@@ -217,6 +217,8 @@ if
 e
 .
 detail
+.
+url
 =
 =
 "
@@ -274,6 +276,8 @@ to
 e
 .
 detail
+.
+url
 )
 ;
 }
