@@ -11569,6 +11569,11 @@ contentSize
 aContent
 .
 size
+encoding
+:
+aContent
+.
+encoding
 transferredSize
 :
 aContent
