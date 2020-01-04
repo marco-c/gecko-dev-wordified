@@ -3034,7 +3034,7 @@ os
 chmod
 (
 p
-0400
+0o400
 )
         
 os
@@ -3044,7 +3044,7 @@ chmod
 self
 .
 tmpdir
-0400
+0o400
 )
         
 copier
