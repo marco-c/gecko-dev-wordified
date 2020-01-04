@@ -4913,6 +4913,7 @@ IsCallable
 hasInstance
 )
 )
+return
 ReportIsNotFunction
 (
 cx
@@ -4989,14 +4990,12 @@ obj
 )
 )
 ;
+return
 ReportIsNotFunction
 (
 cx
 val
 )
-;
-return
-false
 ;
 }
 /
