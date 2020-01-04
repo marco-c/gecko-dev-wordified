@@ -3117,6 +3117,12 @@ mResumeCompositionMonitor
 ResumeCompositionMonitor
 "
 )
+mRootLayerTreeID
+(
+AllocateLayerTreeId
+(
+)
+)
 mOverrideComposeReadiness
 (
 false
@@ -3275,12 +3281,6 @@ NewRunnableFunction
 (
 SetThreadPriority
 )
-)
-;
-mRootLayerTreeID
-=
-AllocateLayerTreeId
-(
 )
 ;
 {
