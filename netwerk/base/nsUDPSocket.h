@@ -389,6 +389,11 @@ bool
 aEnforce
 )
 ;
+void
+CloseSocket
+(
+)
+;
 /
 /
 lock
