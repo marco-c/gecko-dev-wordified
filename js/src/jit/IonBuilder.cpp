@@ -5379,7 +5379,7 @@ false
 ;
 #
 ifdef
-JS_JITSPEW
+DEBUG
 if
 (
 info

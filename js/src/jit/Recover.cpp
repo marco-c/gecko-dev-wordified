@@ -895,7 +895,7 @@ SNAPSHOT_MAX_NARGS
 ;
 #
 ifdef
-JS_JITSPEW
+DEBUG
 uint32_t
 implicit
 =

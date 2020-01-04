@@ -110,7 +110,7 @@ MPL
 /
 #
 ifdef
-JS_JITSPEW
+DEBUG
 #
 include
 "
@@ -1776,6 +1776,6 @@ n
 endif
 /
 *
-JS_JITSPEW
+DEBUG
 *
 /

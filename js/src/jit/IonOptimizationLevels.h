@@ -163,7 +163,7 @@ Optimization_Count
 ;
 #
 ifdef
-JS_JITSPEW
+DEBUG
 inline
 const
 char

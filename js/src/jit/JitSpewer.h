@@ -710,7 +710,7 @@ NULL_ID
 ;
 #
 ifdef
-JS_JITSPEW
+DEBUG
 /
 /
 Class
@@ -1441,7 +1441,7 @@ EnableIonDebugAsyncLogging
 endif
 /
 *
-JS_JITSPEW
+DEBUG
 *
 /
 template
@@ -1488,7 +1488,7 @@ AutoDisableSpew
 {
 #
 ifdef
-JS_JITSPEW
+DEBUG
 if
 (
 enabled_
