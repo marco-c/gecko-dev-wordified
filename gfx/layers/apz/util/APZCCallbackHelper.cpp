@@ -3750,6 +3750,11 @@ nsLayoutUtils
 :
 :
 SCROLLABLE_ONLY_ASYNC_SCROLLABLE
+|
+nsLayoutUtils
+:
+:
+SCROLLABLE_FIXEDPOS_FINDS_ROOT
 ;
 return
 nsLayoutUtils
