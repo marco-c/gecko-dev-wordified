@@ -1442,9 +1442,6 @@ connect_to_running_emulator
 =
 False
                  
-package_name
-=
-None
 *
 args
 *
@@ -1482,7 +1479,7 @@ self
 .
 _package_name
 =
-package_name
+None
         
 self
 .
