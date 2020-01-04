@@ -160,8 +160,6 @@ webconsole
 /
 "
 window
-:
-this
 }
 )
 ;

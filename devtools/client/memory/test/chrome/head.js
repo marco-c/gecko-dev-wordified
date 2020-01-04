@@ -103,8 +103,6 @@ memory
 /
 "
 window
-:
-this
 }
 )
 ;

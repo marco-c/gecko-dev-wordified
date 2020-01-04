@@ -143,8 +143,6 @@ baseURI
 :
 rootUrl
 window
-:
-this
 }
 )
 .

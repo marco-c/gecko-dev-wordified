@@ -134,8 +134,6 @@ memory
 /
 "
 window
-:
-this
 }
 )
 ;

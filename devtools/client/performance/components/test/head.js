@@ -46,6 +46,7 @@ strict
 /
 *
 global
+window
 document
 SimpleTest
 requestAnimationFrame
@@ -283,8 +284,6 @@ performance
 /
 "
 window
-:
-this
 }
 )
 ;

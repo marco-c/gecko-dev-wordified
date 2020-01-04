@@ -64,6 +64,7 @@ strict
 /
 *
 globals
+window
 document
 PerformanceView
 ToolbarView
@@ -155,8 +156,6 @@ performance
 /
 "
 window
-:
-this
 }
 )
 ;

@@ -131,8 +131,6 @@ shared
 /
 "
 window
-:
-this
 }
 )
 ;

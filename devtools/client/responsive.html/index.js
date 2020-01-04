@@ -133,8 +133,6 @@ html
 /
 "
 window
-:
-this
 }
 )
 ;

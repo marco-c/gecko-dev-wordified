@@ -197,8 +197,6 @@ dom
 /
 "
 window
-:
-this
 }
 )
 .

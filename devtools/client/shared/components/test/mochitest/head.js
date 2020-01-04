@@ -348,8 +348,6 @@ shared
 /
 "
 window
-:
-this
 }
 )
 ;
