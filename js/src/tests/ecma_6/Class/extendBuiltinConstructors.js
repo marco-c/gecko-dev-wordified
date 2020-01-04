@@ -544,6 +544,17 @@ elements
 ;
 if
 (
+this
+.
+SharedArrayBuffer
+)
+testBuiltin
+(
+SharedArrayBuffer
+)
+;
+if
+(
 typeof
 reportCompare
 =
