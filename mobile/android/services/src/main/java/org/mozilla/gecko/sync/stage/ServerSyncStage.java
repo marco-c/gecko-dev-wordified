@@ -1219,6 +1219,11 @@ session
 config
 .
 infoCollections
+session
+.
+config
+.
+infoConfiguration
 )
 ;
 }

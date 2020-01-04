@@ -109,6 +109,17 @@ gecko
 .
 sync
 .
+InfoConfiguration
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 InfoCounts
 ;
 import
@@ -320,6 +331,8 @@ AuthHeaderProvider
 authHeaderProvider
 InfoCollections
 infoCollections
+InfoConfiguration
+infoConfiguration
 long
 limit
 String
@@ -336,6 +349,7 @@ collection
 storageURL
 authHeaderProvider
 infoCollections
+infoConfiguration
 limit
 sort
 )

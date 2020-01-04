@@ -384,6 +384,11 @@ session
 config
 .
 infoCollections
+session
+.
+config
+.
+infoConfiguration
 BOOKMARKS_REQUEST_LIMIT
 BOOKMARKS_SORT
 countsFetcher
