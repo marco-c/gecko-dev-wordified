@@ -572,6 +572,9 @@ manifestURI
 aDocument
 .
 documentURIObject
+aDocument
+.
+nodePrincipal
 window
 )
 ;
