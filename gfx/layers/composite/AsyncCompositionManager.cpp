@@ -6034,12 +6034,12 @@ mPaintSyncId
 fixedLayerMargins
 )
 ;
-}
-mIsFirstPaint
+mLayersUpdated
 =
 false
 ;
-mLayersUpdated
+}
+mIsFirstPaint
 =
 false
 ;
