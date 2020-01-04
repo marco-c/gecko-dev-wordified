@@ -103,6 +103,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+AudioContext
+.
+h
+"
+#
+include
+"
 CubebUtils
 .
 h
