@@ -1656,6 +1656,12 @@ defined
 (
 JS_CODEGEN_MIPS32
 )
+|
+|
+defined
+(
+JS_CODEGEN_MIPS64
+)
 allRegisters_
 .
 take
