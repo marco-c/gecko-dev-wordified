@@ -128,7 +128,7 @@ include
 functional
 >
 #
-ifdef
+if
 MOZ_SKIA_AVOID_CXX11
 #
 include
