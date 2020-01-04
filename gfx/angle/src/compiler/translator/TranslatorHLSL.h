@@ -154,6 +154,12 @@ compileOptions
 )
 override
 ;
+bool
+shouldFlattenPragmaStdglInvariantAll
+(
+)
+override
+;
 /
 /
 collectVariables

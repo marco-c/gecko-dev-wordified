@@ -328,6 +328,8 @@ out
 const
 ShShaderOutput
 outputType
+bool
+getDimensionsIgnoresBaseLevel
 )
 ;
 private

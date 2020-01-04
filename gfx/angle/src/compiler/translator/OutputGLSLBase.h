@@ -221,10 +221,6 @@ const
 TType
 &
 type
-const
-char
-*
-constructorBaseType
 )
 ;
 TString

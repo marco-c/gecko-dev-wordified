@@ -285,13 +285,6 @@ generateConfigs
 override
 ;
 bool
-isDeviceLost
-(
-)
-const
-override
-;
-bool
 testDeviceLost
 (
 )

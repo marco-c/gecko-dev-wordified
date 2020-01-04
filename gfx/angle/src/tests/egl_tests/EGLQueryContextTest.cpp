@@ -159,7 +159,14 @@ mDisplay
 eglGetPlatformDisplayEXT
 (
 EGL_PLATFORM_ANGLE_ANGLE
+reinterpret_cast
+<
+void
+*
+>
+(
 EGL_DEFAULT_DISPLAY
+)
 dispattrs
 )
 ;

@@ -90,6 +90,13 @@ public
 :
 TransformFeedbackVk
 (
+const
+gl
+:
+:
+TransformFeedbackState
+&
+state
 )
 ;
 ~

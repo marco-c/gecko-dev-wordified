@@ -106,6 +106,12 @@ compileOptions
 )
 override
 ;
+bool
+shouldFlattenPragmaStdglInvariantAll
+(
+)
+override
+;
 private
 :
 void
