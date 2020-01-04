@@ -161,6 +161,15 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+base
+/
+task
+.
+h
+"
 using
 namespace
 mozilla

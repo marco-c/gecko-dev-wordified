@@ -193,6 +193,15 @@ InputStreamUtils
 .
 h
 "
+#
+include
+"
+base
+/
+task
+.
+h
+"
 using
 namespace
 mozilla

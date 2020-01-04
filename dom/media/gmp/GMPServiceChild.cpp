@@ -169,6 +169,15 @@ runnable_utils
 .
 h
 "
+#
+include
+"
+base
+/
+task
+.
+h
+"
 namespace
 mozilla
 {

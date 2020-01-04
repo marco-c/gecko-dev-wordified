@@ -87,6 +87,15 @@ h
 #
 include
 "
+base
+/
+task
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
