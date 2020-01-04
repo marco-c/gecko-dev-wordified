@@ -16102,6 +16102,8 @@ ParseImport
 WasmParseContext
 &
 c
+bool
+newFormat
 AstModule
 *
 module
@@ -16195,6 +16197,9 @@ openParen
 {
 if
 (
+newFormat
+&
+&
 c
 .
 ts
@@ -16658,6 +16663,8 @@ const
 char16_t
 *
 text
+bool
+newFormat
 LifoAlloc
 &
 lifo
@@ -16946,6 +16953,7 @@ imp
 ParseImport
 (
 c
+newFormat
 module
 )
 ;
@@ -24424,6 +24432,7 @@ module
 ParseModule
 (
 text
+newFormat
 lifo
 error
 )
