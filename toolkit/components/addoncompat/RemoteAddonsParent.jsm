@@ -6166,6 +6166,13 @@ remoteChromeGlobal
 .
 docShell
 .
+QueryInterface
+(
+Ci
+.
+nsIWebNavigation
+)
+.
 sessionHistory
 ;
 }
