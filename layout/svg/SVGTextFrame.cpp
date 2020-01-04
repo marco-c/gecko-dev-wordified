@@ -21249,7 +21249,7 @@ Delete
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsTextPathProperty
 (
 )
 )
@@ -30733,12 +30733,6 @@ nsSVGTextPathProperty
 *
 property
 =
-static_cast
-<
-nsSVGTextPathProperty
-*
->
-(
 aTextPathFrame
 -
 >
@@ -30751,9 +30745,8 @@ Get
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsTextPathProperty
 (
-)
 )
 )
 ;
@@ -30883,7 +30876,7 @@ aTextPathFrame
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsTextPathProperty
 (
 )
 )

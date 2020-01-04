@@ -2166,12 +2166,6 @@ nsIFrame
 *
 block
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 aFrame
 -
 >
@@ -2186,7 +2180,6 @@ nsIFrame
 :
 IBSplitPrevSibling
 (
-)
 )
 )
 ;
@@ -2227,12 +2220,6 @@ IBSplitPrevSibling
 ;
 prevCont
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 block
 -
 >
@@ -2247,7 +2234,6 @@ nsIFrame
 :
 IBSplitPrevSibling
 (
-)
 )
 )
 ;
@@ -2333,12 +2319,6 @@ nsIFrame
 *
 block
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 aFrame
 -
 >
@@ -2355,7 +2335,6 @@ IBSplitSibling
 (
 )
 )
-)
 ;
 if
 (
@@ -2364,12 +2343,6 @@ block
 {
 nextCont
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 block
 -
 >
@@ -2384,7 +2357,6 @@ nsIFrame
 :
 IBSplitSibling
 (
-)
 )
 )
 ;
@@ -5673,12 +5645,6 @@ nsRect
 *
 savedOutlineInnerRect
 =
-static_cast
-<
-nsRect
-*
->
-(
 aFrame
 -
 >
@@ -5693,7 +5659,6 @@ nsIFrame
 :
 OutlineInnerRectProperty
 (
-)
 )
 )
 ;
