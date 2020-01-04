@@ -535,9 +535,6 @@ this
 .
 props
 {
-key
-:
-i
 object
 :
 value
@@ -577,9 +574,6 @@ exc
 delim
 :
 delim
-key
-:
-i
 }
 )
 )
@@ -657,11 +651,6 @@ push
 Caption
 (
 {
-key
-:
-"
-more
-"
 object
 :
 objectLink
@@ -795,6 +784,7 @@ objectLength
 ;
 items
 =
+[
 span
 (
 {
@@ -811,6 +801,7 @@ isEmpty
 :
 objectLength
 )
+]
 ;
 brackets
 =
@@ -913,6 +904,9 @@ brackets
 .
 left
 )
+.
+.
+.
 items
 objectLink
 (

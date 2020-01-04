@@ -652,11 +652,6 @@ push
 Caption
 (
 {
-key
-:
-"
-more
-"
 object
 :
 objectLink
@@ -854,9 +849,6 @@ push
 PropRep
 (
 {
-key
-:
-name
 mode
 :
 mode
@@ -1026,6 +1018,9 @@ object
 {
 "
 )
+.
+.
+.
 props
 objectLink
 (
