@@ -1191,7 +1191,7 @@ previous
 run
 *
 /
-playMediaWithStreamStop
+playMediaWithDeprecatedStreamStop
 :
 {
 value
@@ -1217,7 +1217,7 @@ then
 >
 this
 .
-stopStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 (
 )
 )
@@ -1279,7 +1279,7 @@ played
 *
 *
 /
-stopStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 :
 {
 value
