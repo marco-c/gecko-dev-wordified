@@ -16817,6 +16817,7 @@ mozIStorageConnection
 struct
 Migration
 {
+MOZ_CONSTEXPR
 Migration
 (
 int32_t
