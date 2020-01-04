@@ -3774,6 +3774,9 @@ mReconnectCallback
 >
 NotifySuccess
 (
+GetUrl
+(
+)
 )
 ;
 }

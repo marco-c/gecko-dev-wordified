@@ -375,6 +375,17 @@ aResult
 )
 override
 ;
+virtual
+bool
+RecvNotifyRequestUrlSelected
+(
+const
+nsString
+&
+aUrl
+)
+override
+;
 private
 :
 virtual

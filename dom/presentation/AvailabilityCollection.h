@@ -198,9 +198,12 @@ const
 uint64_t
 aWindowId
 const
-nsAString
+nsTArray
+<
+nsString
+>
 &
-aUrl
+aUrls
 )
 ;
 private

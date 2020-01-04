@@ -201,10 +201,6 @@ aRequest
 const
 nsAString
 &
-aUrl
-const
-nsAString
-&
 aSessionId
 Promise
 *
@@ -224,9 +220,6 @@ RefPtr
 PresentationRequest
 >
 mRequest
-;
-nsString
-mUrl
 ;
 nsString
 mSessionId
@@ -255,10 +248,6 @@ PresentationReconnectCallback
 PresentationRequest
 *
 aRequest
-const
-nsAString
-&
-aUrl
 const
 nsAString
 &
