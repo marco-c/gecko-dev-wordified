@@ -2437,7 +2437,9 @@ static
 bool
 isMarkable
 (
+const
 Value
+&
 v
 )
 {
@@ -2453,7 +2455,9 @@ static
 bool
 isMarkableTaggedPointer
 (
+const
 Value
+&
 v
 )
 {
@@ -2468,7 +2472,9 @@ static
 void
 preBarrier
 (
+const
 Value
+&
 v
 )
 {
@@ -2907,7 +2913,9 @@ instantiable
 explicit
 BarrieredBase
 (
+const
 T
+&
 v
 )
 :
@@ -3085,7 +3093,9 @@ instantiable
 explicit
 WriteBarrieredBase
 (
+const
 T
+&
 v
 )
 :
@@ -3173,7 +3183,9 @@ needed
 void
 unsafeSet
 (
+const
 T
+&
 v
 )
 {
@@ -3245,9 +3257,13 @@ value
 void
 post
 (
+const
 T
+&
 prev
+const
 T
+&
 next
 )
 {
@@ -3392,7 +3408,9 @@ markKeys
 MOZ_IMPLICIT
 PreBarriered
 (
+const
 T
+&
 v
 )
 :
@@ -3444,7 +3462,9 @@ pre
 void
 init
 (
+const
 T
+&
 v
 )
 {
@@ -3668,7 +3688,9 @@ initial
 explicit
 GCPtr
 (
+const
 T
+&
 v
 )
 :
@@ -3814,7 +3836,9 @@ endif
 void
 init
 (
+const
 T
+&
 v
 )
 {
@@ -4466,7 +4490,9 @@ initial
 void
 init
 (
+const
 T
+&
 v
 )
 {
@@ -4667,7 +4693,9 @@ instantiable
 explicit
 ReadBarrieredBase
 (
+const
 T
+&
 v
 )
 :
@@ -4706,9 +4734,13 @@ value
 void
 post
 (
+const
 T
+&
 prev
+const
 T
+&
 next
 )
 {

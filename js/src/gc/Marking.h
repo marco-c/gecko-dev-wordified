@@ -1097,7 +1097,9 @@ traverseEdge
 (
 S
 source
+const
 T
+&
 target
 )
 ;
