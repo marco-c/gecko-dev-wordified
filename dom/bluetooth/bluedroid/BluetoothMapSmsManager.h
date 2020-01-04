@@ -1247,15 +1247,6 @@ aHeader
 )
 ;
 void
-HandleEventReport
-(
-const
-ObexHeaderSet
-&
-aHeader
-)
-;
-void
 HandleSetMessageStatus
 (
 const

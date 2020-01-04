@@ -1840,9 +1840,9 @@ mapsetmessagestatusreq
 "
 #
 define
-MAP_PUSH_MESSAGE_REQ_ID
+MAP_SEND_MESSAGE_REQ_ID
 "
-mappushmessagereq
+mapsendmessagereq
 "
 #
 define

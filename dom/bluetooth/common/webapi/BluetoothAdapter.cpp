@@ -3477,7 +3477,7 @@ name
 .
 EqualsLiteral
 (
-MAP_PUSH_MESSAGE_REQ_ID
+MAP_SEND_MESSAGE_REQ_ID
 )
 )
 {
@@ -9974,10 +9974,13 @@ init
 .
 mRecipient
 =
+NS_ConvertUTF8toUTF16
+(
 value
 .
-get_nsString
+get_nsCString
 (
+)
 )
 ;
 }
@@ -9998,10 +10001,13 @@ init
 .
 mMessageBody
 =
+NS_ConvertUTF8toUTF16
+(
 value
 .
-get_nsString
+get_nsCString
 (
+)
 )
 ;
 }
@@ -10058,7 +10064,7 @@ Constructor
 this
 NS_LITERAL_STRING
 (
-MAP_PUSH_MESSAGE_REQ_ID
+MAP_SEND_MESSAGE_REQ_ID
 )
 init
 )
