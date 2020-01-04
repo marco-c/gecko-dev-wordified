@@ -171,7 +171,7 @@ JPAKEAfterRound2
 }
 round
 ;
-ScopedPK11SymKey
+UniquePK11SymKey
 key
 ;
 }
