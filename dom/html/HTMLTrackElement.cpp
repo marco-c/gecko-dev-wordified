@@ -928,6 +928,10 @@ mLoadResourceDispatched
 (
 false
 )
+mWindowDestroyObserver
+(
+nullptr
+)
 {
 nsISupports
 *
@@ -958,6 +962,11 @@ do_QueryInterface
 parentObject
 )
 ;
+if
+(
+window
+)
+{
 mWindowDestroyObserver
 =
 new
@@ -972,6 +981,7 @@ WindowID
 )
 )
 ;
+}
 }
 HTMLTrackElement
 :
