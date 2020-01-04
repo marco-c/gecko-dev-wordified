@@ -2513,6 +2513,12 @@ sheetType
 aType
 )
 {
+NS_ENSURE_FALSE
+(
+mInShutdown
+NS_ERROR_FAILURE
+)
+;
 /
 /
 We
