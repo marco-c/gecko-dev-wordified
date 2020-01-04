@@ -1211,6 +1211,9 @@ frameRect
 Size
 (
 )
+Nothing
+(
+)
 mImageData
 hasAlpha
 )

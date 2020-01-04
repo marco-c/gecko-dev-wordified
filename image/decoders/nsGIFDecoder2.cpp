@@ -2069,6 +2069,9 @@ frameRect
 Size
 (
 )
+Nothing
+(
+)
 mImageData
 mGIFStruct
 .

@@ -2225,6 +2225,9 @@ BeginFrame
 GetSize
 (
 )
+Nothing
+(
+)
 mImageData
 /
 *
