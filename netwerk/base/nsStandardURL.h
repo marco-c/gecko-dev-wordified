@@ -1137,6 +1137,13 @@ mPort
 ;
 }
 void
+ReplacePortInSpec
+(
+int32_t
+aNewPort
+)
+;
+void
 Clear
 (
 )
