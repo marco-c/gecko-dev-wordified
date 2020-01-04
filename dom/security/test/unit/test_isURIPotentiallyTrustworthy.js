@@ -230,6 +230,16 @@ true
 ]
 [
 "
+resource
+:
+/
+/
+/
+"
+true
+]
+[
+"
 about
 :
 config
