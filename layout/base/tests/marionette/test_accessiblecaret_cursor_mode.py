@@ -138,6 +138,11 @@ short
 '
 '
     
+#
+Element
+IDs
+.
+    
 _input_id
 =
 '
@@ -154,6 +159,20 @@ _contenteditable_id
 =
 '
 contenteditable
+'
+    
+#
+Test
+html
+files
+.
+    
+_cursor_html
+=
+'
+test_carets_cursor
+.
+html
 '
     
 def
@@ -254,23 +273,9 @@ def
 open_test_html
 (
 self
+test_html
 )
 :
-        
-test_html
-=
-self
-.
-marionette
-.
-absolute_url
-(
-'
-test_carets_cursor
-.
-html
-'
-)
         
 self
 .
@@ -278,7 +283,14 @@ marionette
 .
 navigate
 (
+self
+.
+marionette
+.
+absolute_url
+(
 test_html
+)
 )
     
 parameterized
@@ -317,6 +329,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
@@ -539,6 +554,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
@@ -739,6 +757,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
@@ -988,6 +1009,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
@@ -1250,6 +1274,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
@@ -1452,6 +1479,9 @@ self
 .
 open_test_html
 (
+self
+.
+_cursor_html
 )
         
 el
