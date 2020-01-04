@@ -581,6 +581,14 @@ nsIPresentationControlChannel
 aRetVal
 )
 ;
+bool
+IsCompatibleServer
+(
+nsIDNSServiceInfo
+*
+aServiceInfo
+)
+;
 /
 /
 device
