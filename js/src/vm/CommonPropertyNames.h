@@ -1766,6 +1766,15 @@ module
 \
 macro
 (
+Module
+Module
+"
+Module
+"
+)
+\
+macro
+(
 ModuleDeclarationInstantiation
 ModuleDeclarationInstantiation
 "
