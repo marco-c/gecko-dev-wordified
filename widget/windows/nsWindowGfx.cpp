@@ -2366,9 +2366,7 @@ GetLayerManager
 .
 aDC
 =
-GetCompositorWidget
-(
-)
+mCompositorWidgetDelegate
 -
 >
 GetTransparentDC
@@ -2784,9 +2782,7 @@ mTransparencyMode
 {
 targetSurface
 =
-GetCompositorWidget
-(
-)
+mBasicLayersSurface
 -
 >
 EnsureTransparentSurface
@@ -3197,9 +3193,7 @@ on
 the
 screen
 .
-GetCompositorWidget
-(
-)
+mBasicLayersSurface
 -
 >
 RedrawTransparentWindow
