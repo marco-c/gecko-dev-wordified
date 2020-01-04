@@ -3250,6 +3250,9 @@ emitted
 MDefinition
 *
 obj
+TemporaryTypeSet
+*
+types
 )
 ;
 /
