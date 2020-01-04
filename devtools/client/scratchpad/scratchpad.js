@@ -11042,6 +11042,7 @@ paste
 this
 .
 _onPaste
+true
 )
 ;
 editorElement
@@ -11496,6 +11497,7 @@ paste
 this
 .
 _onPaste
+true
 )
 ;
 editorElement
