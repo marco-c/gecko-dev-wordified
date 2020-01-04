@@ -1245,7 +1245,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-AndroidBridge
+GeneratedJNIWrappers
 .
 h
 "
@@ -8540,10 +8540,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell
@@ -9190,10 +9187,7 @@ button
 #
 ifdef
 MOZ_WIDGET_ANDROID
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell
@@ -9335,10 +9329,7 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell

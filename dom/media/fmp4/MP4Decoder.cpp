@@ -218,13 +218,6 @@ nsIGfxInfo
 h
 "
 #
-include
-"
-AndroidBridge
-.
-h
-"
-#
 endif
 #
 include

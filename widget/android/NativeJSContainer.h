@@ -120,6 +120,9 @@ mozilla
 namespace
 widget
 {
+java
+:
+:
 NativeJSContainer
 :
 :

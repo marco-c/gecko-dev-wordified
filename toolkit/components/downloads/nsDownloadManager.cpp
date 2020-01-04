@@ -418,7 +418,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-AndroidBridge
+GeneratedJNIWrappers
 .
 h
 "
@@ -16681,10 +16681,7 @@ GetMIMEType
 contentType
 )
 ;
-mozilla
-:
-:
-widget
+java
 :
 :
 DownloadsIntegration

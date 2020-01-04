@@ -210,14 +210,14 @@ namespace
 mozilla
 :
 :
-widget
+java
 ;
 using
 namespace
 mozilla
 :
 :
-widget
+java
 :
 :
 sdk
