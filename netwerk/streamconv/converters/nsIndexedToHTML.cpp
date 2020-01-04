@@ -6290,6 +6290,9 @@ it
 like
 one
 .
+nsAutoCString
+scheme
+;
 if
 (
 mExpectAbsLoc
@@ -6300,9 +6303,7 @@ NS_SUCCEEDED
 net_ExtractURLScheme
 (
 loc
-nullptr
-nullptr
-nullptr
+scheme
 )
 )
 )

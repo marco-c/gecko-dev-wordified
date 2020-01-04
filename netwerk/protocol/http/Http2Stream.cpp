@@ -2142,9 +2142,6 @@ rv
 net_ExtractURLScheme
 (
 origin
-nullptr
-nullptr
-&
 scheme
 )
 ;
