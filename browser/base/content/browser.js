@@ -20426,7 +20426,7 @@ getString
 "
 safebrowsing
 .
-reportedWebForgery
+deceptiveSite
 "
 )
 ;
@@ -20445,7 +20445,7 @@ getString
 "
 safebrowsing
 .
-notAForgeryButton
+notADeceptiveSiteButton
 .
 label
 "
@@ -20459,7 +20459,7 @@ getString
 "
 safebrowsing
 .
-notAForgeryButton
+notADeceptiveSiteButton
 .
 accessKey
 "
