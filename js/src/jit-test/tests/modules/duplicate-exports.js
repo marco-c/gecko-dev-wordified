@@ -17,6 +17,17 @@ js
 "
 )
 ;
+load
+(
+libdir
++
+"
+class
+.
+js
+"
+)
+;
 function
 testSyntaxError
 (
