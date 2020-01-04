@@ -964,6 +964,12 @@ entry
 table
 .
 search
+<
+MaybeAdding
+:
+:
+NotAdding
+>
 (
 shape
 -
@@ -971,7 +977,6 @@ shape
 propid
 (
 )
-false
 )
 ;
 MOZ_ASSERT
@@ -1191,6 +1196,12 @@ entry
 table
 .
 search
+<
+MaybeAdding
+:
+:
+NotAdding
+>
 (
 r
 .
@@ -1201,7 +1212,6 @@ front
 propid
 (
 )
-false
 )
 ;
 MOZ_ASSERT

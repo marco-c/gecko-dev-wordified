@@ -6919,6 +6919,12 @@ Shape
 :
 :
 search
+<
+MaybeAdding
+:
+:
+Adding
+>
 (
 cx
 block
@@ -6930,7 +6936,6 @@ lastProperty
 id
 &
 entry
-true
 )
 )
 {
