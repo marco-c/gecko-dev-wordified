@@ -494,7 +494,7 @@ testing
 /
 marionette
 /
-client
+harness
 '
     
 '
@@ -502,7 +502,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /
@@ -522,7 +522,7 @@ testing
 /
 marionette
 /
-driver
+client
 '
     
 '
