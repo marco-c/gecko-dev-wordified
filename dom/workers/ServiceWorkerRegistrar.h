@@ -393,6 +393,16 @@ MaybeScheduleShutdownCompleted
 (
 )
 ;
+bool
+IsSupportedVersion
+(
+const
+nsACString
+&
+aVersion
+)
+const
+;
 mozilla
 :
 :
