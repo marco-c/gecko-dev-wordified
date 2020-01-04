@@ -210,8 +210,6 @@ FakeSSLStatus
 certFromFile
 (
 '
-cn
--
 a
 .
 pinning2
@@ -306,8 +304,6 @@ FakeSSLStatus
 certFromFile
 (
 '
-cn
--
 a
 .
 pinning2
