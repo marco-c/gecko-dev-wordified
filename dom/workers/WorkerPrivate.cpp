@@ -3198,6 +3198,13 @@ aWorkerPrivate
 WorkerThreadUnchangedBusyCount
 )
 {
+aWorkerPrivate
+-
+>
+CloseHandlerStarted
+(
+)
+;
 }
 private
 :
@@ -3270,13 +3277,6 @@ aWorkerPrivate
 )
 override
 {
-aWorkerPrivate
--
->
-CloseHandlerStarted
-(
-)
-;
 WorkerGlobalScope
 *
 globalScope
