@@ -27598,6 +27598,8 @@ tab
 {
 userContextId
 :
+parseInt
+(
 event
 .
 target
@@ -27607,6 +27609,7 @@ getAttribute
 '
 usercontextid
 '
+)
 )
 }
 )

@@ -8616,6 +8616,8 @@ allowMixedContent
 persistAllowMixedContentInChildTab
 userContextId
 :
+parseInt
+(
 event
 .
 target
@@ -8625,6 +8627,7 @@ getAttribute
 '
 usercontextid
 '
+)
 )
 }
 )
