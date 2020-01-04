@@ -4440,6 +4440,13 @@ if
 mRegistration
 )
 {
+mRegistration
+-
+>
+mPendingUninstall
+=
+false
+;
 RefPtr
 <
 ServiceWorkerInfo
@@ -4482,13 +4489,6 @@ mScriptSpec
 )
 )
 {
-mRegistration
--
->
-mPendingUninstall
-=
-false
-;
 swm
 -
 >
