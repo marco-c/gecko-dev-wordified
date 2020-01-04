@@ -96,17 +96,6 @@ gecko
 R
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-ColorUtils
-;
-import
 java
 .
 util
@@ -630,7 +619,7 @@ DrawableCompat
 setTint
 (
 icon
-ColorUtils
+ContextCompat
 .
 getColor
 (
