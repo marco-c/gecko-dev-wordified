@@ -2017,6 +2017,7 @@ state
 ;
 if
 (
+(
 state
 .
 context
@@ -2030,6 +2031,16 @@ tagName
 =
 =
 tagName
+)
+|
+|
+config
+.
+matchClosing
+=
+=
+=
+false
 )
 {
 setStyle

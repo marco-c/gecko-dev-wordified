@@ -429,6 +429,12 @@ if
 inp
 )
 {
+inp
+.
+focus
+(
+)
+;
 if
 (
 options
@@ -653,12 +659,6 @@ inp
 blur
 "
 close
-)
-;
-inp
-.
-focus
-(
 )
 ;
 }
