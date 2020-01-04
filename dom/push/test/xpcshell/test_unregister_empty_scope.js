@@ -152,17 +152,12 @@ d1fd6987aef7
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 unregister
 (
-{
-scope
-:
 '
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -180,7 +175,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected

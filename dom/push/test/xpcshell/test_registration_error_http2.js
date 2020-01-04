@@ -156,13 +156,10 @@ error
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 registration
 (
-{
-scope
-:
 '
 https
 :
@@ -174,8 +171,6 @@ net
 /
 1
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -193,7 +188,6 @@ inBrowser
 false
 }
 )
-}
 )
 function
 (

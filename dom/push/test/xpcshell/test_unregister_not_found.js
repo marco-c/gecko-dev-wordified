@@ -153,13 +153,10 @@ let
 result
 =
 yield
-PushService
+PushNotificationService
 .
 unregister
 (
-{
-scope
-:
 '
 https
 :
@@ -171,8 +168,6 @@ net
 /
 nonexistent
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -190,7 +185,6 @@ inBrowser
 false
 }
 )
-}
 )
 ;
 ok

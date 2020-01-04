@@ -468,13 +468,10 @@ let
 newRecord
 =
 yield
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -488,8 +485,6 @@ page
 /
 3
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -507,7 +502,6 @@ inBrowser
 false
 }
 )
-}
 )
 ;
 ok

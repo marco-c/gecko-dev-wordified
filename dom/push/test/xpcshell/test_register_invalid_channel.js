@@ -266,13 +266,10 @@ ID
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -286,8 +283,6 @@ invalid
 -
 channel
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -305,7 +300,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected

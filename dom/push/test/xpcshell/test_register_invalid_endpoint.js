@@ -282,13 +282,10 @@ pushEndpoint
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -304,8 +301,6 @@ invalid
 -
 endpoint
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -323,7 +318,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected

@@ -148,7 +148,7 @@ close
 )
 PushService
 .
-notificationForOriginClosed
+_notificationForOriginClosed
 (
 "
 https
@@ -195,7 +195,7 @@ want
 .
 PushService
 .
-notificationForOriginShown
+_notificationForOriginShown
 (
 "
 https
@@ -380,9 +380,12 @@ data
 =
 >
 {
+dump
+(
 updates
 +
 +
+)
 ;
 return
 updates

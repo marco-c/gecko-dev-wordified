@@ -353,13 +353,10 @@ unregisterDone
 )
 ;
 yield
-PushService
+PushNotificationService
 .
 unregister
 (
-{
-scope
-:
 '
 https
 :
@@ -373,11 +370,8 @@ page
 /
 failure
 '
-originAttributes
-:
 '
 '
-}
 )
 ;
 let
