@@ -1921,7 +1921,6 @@ NS_RGB
 0x00
 )
 ;
-;
 break
 ;
 case

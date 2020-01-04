@@ -2872,7 +2872,6 @@ notificationInfo
 NextEntryOffset
 ;
 }
-;
 /
 /
 We

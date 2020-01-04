@@ -1493,7 +1493,6 @@ break
 ;
 }
 }
-;
 return
 S_OK
 ;

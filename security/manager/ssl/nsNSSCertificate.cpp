@@ -6229,7 +6229,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-;
 ScopedNSSCMSMessage
 cmsg
 (

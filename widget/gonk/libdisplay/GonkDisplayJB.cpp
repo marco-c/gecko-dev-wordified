@@ -2538,7 +2538,6 @@ MOZ_ASSERT
 mHwc
 )
 ;
-;
 #
 if
 ANDROID_VERSION

@@ -1720,7 +1720,6 @@ tableChild
 nextChild
 ;
 }
-;
 /
 /
 If
@@ -2236,7 +2235,6 @@ rowChild
 previousChild
 ;
 }
-;
 if
 (
 rowChild

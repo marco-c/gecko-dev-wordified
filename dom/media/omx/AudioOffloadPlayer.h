@@ -615,7 +615,6 @@ aIsVisible
 )
 override
 ;
-;
 /
 /
 Update

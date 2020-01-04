@@ -8824,7 +8824,6 @@ StealNSResult
 )
 ;
 }
-;
 }
 if
 (

@@ -1583,7 +1583,6 @@ rect
 .
 height
 ;
-;
 return
 NS_OK
 ;

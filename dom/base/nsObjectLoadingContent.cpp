@@ -8147,7 +8147,6 @@ NS_EVENT_STATE_VULNERABLE_NO_UPDATE
 ;
 }
 }
-;
 NS_NOTREACHED
 (
 "
@@ -15303,7 +15302,6 @@ warnings
 break
 ;
 }
-;
 /
 /
 /

@@ -60861,7 +60861,6 @@ MozLocalStorageChanged
 )
 ;
 }
-;
 break
 ;
 }

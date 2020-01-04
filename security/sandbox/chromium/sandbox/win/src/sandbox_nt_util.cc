@@ -376,7 +376,6 @@ base
 0x100000
 ;
 }
-;
 if
 (
 attempts

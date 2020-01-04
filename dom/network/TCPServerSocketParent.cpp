@@ -411,7 +411,6 @@ UNKNOWN_APP_ID
 ;
 }
 }
-;
 bool
 TCPServerSocketParent
 :
@@ -624,7 +623,6 @@ failed
 )
 ;
 }
-;
 }
 else
 {

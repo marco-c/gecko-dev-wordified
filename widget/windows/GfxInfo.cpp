@@ -4657,7 +4657,6 @@ return
 DRIVER_OS_UNKNOWN
 ;
 }
-;
 }
 const
 nsTArray

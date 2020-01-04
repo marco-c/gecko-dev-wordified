@@ -470,7 +470,6 @@ PopBottom
 )
 ;
 }
-;
 }
 void
 nsTransactionStack

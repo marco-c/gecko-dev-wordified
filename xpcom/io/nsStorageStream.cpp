@@ -1271,7 +1271,6 @@ count
 )
 ;
 }
-;
 out
 :
 *
@@ -2555,7 +2554,6 @@ mLogicalCursor
 bytesConsumed
 ;
 }
-;
 out
 :
 *

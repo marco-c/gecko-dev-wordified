@@ -3322,7 +3322,6 @@ role
 )
 ;
 }
-;
 #
 undef
 ROLE

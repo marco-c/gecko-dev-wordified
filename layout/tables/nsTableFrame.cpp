@@ -50615,7 +50615,6 @@ InvalidateFrameWithRect
 aOrigRect
 )
 ;
-;
 parent
 -
 >
