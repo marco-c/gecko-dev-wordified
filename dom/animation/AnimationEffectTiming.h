@@ -165,6 +165,9 @@ public
 :
 AnimationEffectTiming
 (
+nsISupports
+*
+aParent
 const
 TimingParams
 &
@@ -176,6 +179,7 @@ aEffect
 :
 AnimationEffectTimingReadOnly
 (
+aParent
 aTiming
 )
 mEffect
