@@ -179,7 +179,7 @@ class
 nsWindowMediator
 :
 public
-nsIWindowMediator_44
+nsIWindowMediator
 public
 nsIObserver
 public
@@ -234,7 +234,6 @@ Init
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWINDOWMEDIATOR
-NS_DECL_NSIWINDOWMEDIATOR_44
 NS_DECL_NSIOBSERVER
 static
 nsresult
@@ -277,10 +276,6 @@ const
 char16_t
 *
 inType
-bool
-aSkipPrivateBrowsing
-=
-false
 )
 ;
 nsresult
