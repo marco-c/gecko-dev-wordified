@@ -361,6 +361,15 @@ mPresShell
 aPresShell
 )
 {
+#
+ifdef
+DEBUG
+mMoveGuardOnStack
+=
+false
+;
+#
+endif
 /
 /
 Schedule
