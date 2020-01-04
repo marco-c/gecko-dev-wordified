@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -546,7 +555,7 @@ public
 :
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ControlMessage
 >
@@ -931,8 +940,10 @@ thread
 void
 AppendMessage
 (
+UniquePtr
+<
 ControlMessage
-*
+>
 aMessage
 )
 ;
@@ -1786,7 +1797,7 @@ thread
 void
 RunMessageAfterProcessing
 (
-nsAutoPtr
+UniquePtr
 <
 ControlMessage
 >
@@ -4655,7 +4666,7 @@ batch
 /
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ControlMessage
 >

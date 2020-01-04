@@ -5431,8 +5431,10 @@ graph
 >
 AppendMessage
 (
-new
+MakeUnique
+<
 Message
+>
 (
 this
 )
@@ -9124,8 +9126,10 @@ GraphImpl
 >
 AppendMessage
 (
-new
+MakeUnique
+<
 Message
+>
 (
 source
 track_id
