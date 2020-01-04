@@ -350,7 +350,7 @@ Unreachable
 /
 /
 Calls
-CallInternal
+Call
 CallIndirect
 CallImport
 /
