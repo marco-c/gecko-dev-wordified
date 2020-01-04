@@ -30296,6 +30296,14 @@ SetURI
 newUri
 )
 ;
+shEntry
+-
+>
+SetOriginalURI
+(
+nullptr
+)
+;
 }
 rv
 =
