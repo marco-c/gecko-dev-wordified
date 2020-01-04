@@ -1298,6 +1298,10 @@ gl
 fFramebufferRenderbuffer
 (
 target
+.
+get
+(
+)
 LOCAL_GL_DEPTH_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
 mPrimaryRB
@@ -1309,6 +1313,10 @@ gl
 fFramebufferRenderbuffer
 (
 target
+.
+get
+(
+)
 LOCAL_GL_STENCIL_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
 stencilRB
@@ -1323,6 +1331,10 @@ gl
 fFramebufferRenderbuffer
 (
 target
+.
+get
+(
+)
 attachment
 LOCAL_GL_RENDERBUFFER
 mPrimaryRB
