@@ -8833,13 +8833,6 @@ i
 .
 mProperty
 ;
-animationProperty
--
->
-mWinsInCascade
-=
-true
-;
 lastProperty
 =
 aEntries
@@ -10245,13 +10238,6 @@ animationProperty
 mProperty
 =
 p
-;
-animationProperty
--
->
-mWinsInCascade
-=
-true
 ;
 properties
 .
