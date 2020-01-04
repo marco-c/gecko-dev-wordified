@@ -21896,6 +21896,16 @@ href
 =
 aLink
 .
+getAttribute
+(
+"
+href
+"
+)
+|
+|
+aLink
+.
 getAttributeNS
 (
 kXLinkNamespace

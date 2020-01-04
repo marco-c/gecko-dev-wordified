@@ -37335,6 +37335,16 @@ href
 =
 node
 .
+getAttribute
+(
+"
+href
+"
+)
+|
+|
+node
+.
 getAttributeNS
 (
 "
