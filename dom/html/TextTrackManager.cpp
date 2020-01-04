@@ -3431,6 +3431,9 @@ t
 have
 any
 TextTracks
+or
+shutting
+down
 .
 if
 (
@@ -3447,6 +3450,9 @@ Length
 =
 =
 0
+|
+|
+mShutdown
 )
 {
 return
