@@ -664,9 +664,10 @@ button
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -1634,9 +1635,10 @@ button
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -2160,9 +2162,10 @@ button
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
