@@ -1162,7 +1162,7 @@ cmd
 tar
 '
 '
-zvxf
+zxf
 '
 abspath
 ]
@@ -1188,7 +1188,7 @@ cmd
 tar
 '
 '
-jvxf
+jxf
 '
 abspath
 ]
@@ -1210,6 +1210,10 @@ cmd
 [
 '
 unzip
+'
+'
+-
+q
 '
 abspath
 ]
