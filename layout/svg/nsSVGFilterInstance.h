@@ -1676,8 +1676,12 @@ in
 a
 chain
 .
+Initialized
+in
+BuildPrimitives
 *
 /
+MOZ_INIT_OUTSIDE_CTOR
 int32_t
 mSourceGraphicIndex
 ;
@@ -1716,8 +1720,12 @@ in
 a
 chain
 .
+Initialized
+in
+BuildPrimitives
 *
 /
+MOZ_INIT_OUTSIDE_CTOR
 int32_t
 mSourceAlphaIndex
 ;
