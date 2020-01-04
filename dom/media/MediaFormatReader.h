@@ -390,6 +390,7 @@ bool
 IsWaitForDataSupported
 (
 )
+const
 override
 {
 return
@@ -491,6 +492,7 @@ bool
 UseBufferingHeuristics
 (
 )
+const
 override
 {
 return
