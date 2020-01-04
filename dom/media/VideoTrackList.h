@@ -218,12 +218,6 @@ EmptyTracks
 )
 override
 ;
-VideoTrack
-*
-GetSelectedTrack
-(
-)
-;
 /
 /
 WebIDL
