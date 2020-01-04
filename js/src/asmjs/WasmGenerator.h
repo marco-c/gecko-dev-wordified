@@ -1050,6 +1050,12 @@ HeapUsage
 heapUsage
 )
 ;
+bool
+usesHeap
+(
+)
+const
+;
 /
 /
 Signatures
@@ -1219,6 +1225,13 @@ uint32_t
 index
 Offsets
 offsets
+)
+;
+bool
+addMemoryExport
+(
+UniqueChars
+fieldName
 )
 ;
 /
