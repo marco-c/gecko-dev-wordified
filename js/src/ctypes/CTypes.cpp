@@ -55891,10 +55891,10 @@ isObject
 )
 )
 ;
-JSObject
-*
+RootedObject
 objCTypes
-=
+(
+cx
 CType
 :
 :
@@ -55906,6 +55906,7 @@ valType
 .
 toObject
 (
+)
 )
 )
 ;
