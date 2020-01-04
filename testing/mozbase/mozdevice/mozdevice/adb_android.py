@@ -3162,8 +3162,13 @@ launch_application
 (
 app_name
 "
+org
 .
-App
+mozilla
+.
+gecko
+.
+BrowserApp
 "
 intent
 url
