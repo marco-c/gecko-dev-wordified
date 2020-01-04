@@ -4813,7 +4813,7 @@ its
 dimension
 .
 typedef
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -5097,7 +5097,7 @@ its
 dimension
 :
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position

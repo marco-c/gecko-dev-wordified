@@ -15093,7 +15093,7 @@ GetSize
 )
 ;
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -15103,6 +15103,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -15340,7 +15342,7 @@ nsPoint
 &
 aToReferenceFrame
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -16089,10 +16091,13 @@ i
 =
 0
 .
-NS_FOR_VISIBLE_BACKGROUND_LAYERS_BACK_TO_FRONT
+NS_FOR_VISIBLE_IMAGE_LAYERS_BACK_TO_FRONT
 (
 i
 bg
+-
+>
+mLayers
 )
 {
 if
@@ -16100,6 +16105,8 @@ if
 bg
 -
 >
+mLayers
+.
 mLayers
 [
 i
@@ -16120,6 +16127,8 @@ if
 bg
 -
 >
+mLayers
+.
 mLayers
 [
 i
@@ -16157,7 +16166,7 @@ IsForEventDelivery
 )
 {
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -16167,6 +16176,8 @@ layer
 bg
 -
 >
+mLayers
+.
 mLayers
 [
 i
@@ -16510,6 +16521,8 @@ mBackgroundStyle
 >
 mLayers
 .
+mLayers
+.
 Length
 (
 )
@@ -16558,7 +16571,7 @@ GetSize
 )
 ;
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -16568,6 +16581,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -16676,6 +16691,8 @@ mBackgroundStyle
 -
 >
 mLayers
+.
+mLayers
 [
 mLayer
 ]
@@ -16690,6 +16707,8 @@ NS_STYLE_BG_ATTACHMENT_FIXED
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -16853,7 +16872,7 @@ GetSize
 )
 ;
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -16863,6 +16882,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -17029,7 +17050,7 @@ mSize
 mWidthType
 =
 =
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -17045,7 +17066,7 @@ mSize
 mWidthType
 =
 =
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -17336,7 +17357,7 @@ mBackgroundStyle
 )
 {
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -17346,6 +17367,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -18567,7 +18590,7 @@ GetNextContinuation
 )
 {
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -18577,6 +18600,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -18710,6 +18735,8 @@ mBackgroundStyle
 -
 >
 mLayers
+.
+mLayers
 [
 mLayer
 ]
@@ -18782,7 +18809,7 @@ true
 ;
 }
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -18792,6 +18819,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -19277,6 +19306,8 @@ mBackgroundStyle
 -
 >
 mLayers
+.
+mLayers
 [
 mLayer
 ]
@@ -19616,7 +19647,7 @@ mFrame
 }
 }
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -19626,6 +19657,8 @@ layer
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
@@ -20954,7 +20987,7 @@ aSnap
 true
 ;
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer

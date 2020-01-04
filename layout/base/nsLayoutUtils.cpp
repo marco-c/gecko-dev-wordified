@@ -25595,7 +25595,7 @@ coord
 .
 )
 typedef
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -25679,7 +25679,7 @@ aStylePos
 )
 {
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position

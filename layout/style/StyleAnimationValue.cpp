@@ -20304,7 +20304,7 @@ void
 SetPositionValue
 (
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -22511,6 +22511,8 @@ MOZ_ASSERT
 bg
 -
 >
+mLayers
+.
 mPositionCount
 >
 0
@@ -22531,6 +22533,8 @@ i_end
 bg
 -
 >
+mLayers
+.
 mPositionCount
 ;
 i
@@ -22568,6 +22572,8 @@ SetPositionValue
 bg
 -
 >
+mLayers
+.
 mLayers
 [
 i
@@ -22636,6 +22642,8 @@ MOZ_ASSERT
 bg
 -
 >
+mLayers
+.
 mSizeCount
 >
 0
@@ -22656,6 +22664,8 @@ i_end
 bg
 -
 >
+mLayers
+.
 mSizeCount
 ;
 i
@@ -22689,7 +22699,7 @@ item
 mNext
 ;
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22699,6 +22709,8 @@ size
 bg
 -
 >
+mLayers
+.
 mLayers
 [
 i
@@ -22714,7 +22726,7 @@ mWidthType
 )
 {
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22723,7 +22735,7 @@ Size
 eContain
 :
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22747,7 +22759,7 @@ eCSSUnit_Enumerated
 break
 ;
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22767,7 +22779,7 @@ SetAutoValue
 break
 ;
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22946,7 +22958,7 @@ mHeightType
 )
 {
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22955,7 +22967,7 @@ Size
 eContain
 :
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22971,7 +22983,7 @@ null
 break
 ;
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
@@ -22991,7 +23003,7 @@ SetAutoValue
 break
 ;
 case
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Size
