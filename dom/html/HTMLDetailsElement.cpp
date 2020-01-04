@@ -225,6 +225,11 @@ mozilla
 namespace
 dom
 {
+/
+*
+static
+*
+/
 bool
 HTMLDetailsElement
 :

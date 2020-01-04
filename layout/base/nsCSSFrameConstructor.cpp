@@ -35070,6 +35070,14 @@ if
 details
 &
 &
+details
+-
+>
+IsDetailsEnabled
+(
+)
+&
+&
 !
 details
 -
