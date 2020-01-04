@@ -2442,6 +2442,12 @@ Failed
 )
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 return
 nullptr
 ;
