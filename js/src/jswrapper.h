@@ -2511,13 +2511,6 @@ Restrictive
 typedef
 SecurityWrapper
 <
-Wrapper
->
-SameCompartmentSecurityWrapper
-;
-typedef
-SecurityWrapper
-<
 CrossCompartmentWrapper
 >
 CrossCompartmentSecurityWrapper
