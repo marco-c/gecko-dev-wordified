@@ -2394,23 +2394,7 @@ read_all
 True
     
 #
-Forbid
-running
-several
-variants
-of
-the
-same
-asmjs
-test
-when
-debugging
-.
-    
-#
-But
-also
-no
+No
 point
 in
 adding
@@ -2489,10 +2473,6 @@ can_test_also_wasm_baseline
 True
     
 if
-options
-.
-debugger
-or
 all
 (
 [
@@ -3295,6 +3275,11 @@ display_job
 job
 )
 :
+                
+flags
+=
+"
+"
                 
 if
 len
