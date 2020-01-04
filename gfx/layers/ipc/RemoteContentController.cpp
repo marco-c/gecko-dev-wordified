@@ -886,6 +886,11 @@ aIsRootContent
 return
 ;
 }
+if
+(
+mCanSend
+)
+{
 Unused
 <
 <
@@ -897,6 +902,7 @@ aIsRootContent
 )
 ;
 }
+}
 void
 RemoteContentController
 :
@@ -951,6 +957,11 @@ aIsRootContent
 return
 ;
 }
+if
+(
+mCanSend
+)
+{
 Unused
 <
 <
@@ -962,6 +973,7 @@ aIsRootContent
 )
 ;
 }
+}
 void
 RemoteContentController
 :
@@ -1008,6 +1020,11 @@ aIsRootContent
 return
 ;
 }
+if
+(
+mCanSend
+)
+{
 Unused
 <
 <
@@ -1016,6 +1033,7 @@ SendSetScrollingRootContent
 aIsRootContent
 )
 ;
+}
 }
 void
 RemoteContentController
@@ -1214,6 +1232,10 @@ if
 mCanSend
 )
 {
+mCanSend
+=
+false
+;
 Unused
 <
 <
