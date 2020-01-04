@@ -895,6 +895,8 @@ string
 /
 /
 The
+Immutable
+.
 Set
 <
 CensusTreeNode
@@ -908,6 +910,8 @@ ids
 in
 the
 report
+/
+/
 tree
 .
 expanded
