@@ -254,6 +254,14 @@ file
 "
 "
 "
+class
+ConditionError
+(
+Exception
+)
+:
+    
+pass
 Result
 =
 namedtuple
@@ -1524,6 +1532,14 @@ None
 )
 :
                     
+if
+"
+expected
+"
+in
+self
+:
+                        
 self
 .
 remove_value
@@ -1777,10 +1793,11 @@ expected
 else
 :
                 
-for
-conditional_node
-status
-in
+try
+:
+                    
+conditionals
+=
 group_conditionals
 (
                         
@@ -1804,6 +1821,36 @@ root
 .
 boolean_properties
 )
+                
+except
+ConditionError
+:
+                    
+print
+"
+Conflicting
+test
+results
+for
+%
+s
+cannot
+update
+"
+%
+self
+.
+root
+.
+test_path
+                    
+return
+                
+for
+conditional_node
+status
+in
+conditionals
 :
                     
 if
@@ -2609,6 +2656,14 @@ by_property
 [
 key
 ]
+        
+if
+not
+by_property
+:
+            
+raise
+ConditionError
     
 properties
 =
