@@ -115,12 +115,12 @@ ok
 (
 aMessage
 instanceof
-MozSmsMessage
+SmsMessage
 "
 Message
 is
 instanceof
-MozSmsMessage
+SmsMessage
 "
 )
 ;

@@ -234,7 +234,7 @@ sms
 instanceof
 Ci
 .
-nsIDOMMozSmsMessage
+nsISmsMessage
 )
 ;
 do_check_eq
@@ -399,7 +399,7 @@ sms
 instanceof
 Ci
 .
-nsIDOMMozSmsMessage
+nsISmsMessage
 )
 ;
 do_check_eq

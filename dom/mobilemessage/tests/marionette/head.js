@@ -1394,7 +1394,7 @@ id
 Fulfill
 params
 :
-MozSmsMessage
+SmsMessage
 *
 Reject
 params
@@ -2608,7 +2608,7 @@ event
 Fulfill
 params
 :
-MozSmsMessage
+SmsMessage
 *
 Reject
 params
