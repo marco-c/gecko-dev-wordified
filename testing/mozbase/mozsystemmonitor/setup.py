@@ -216,9 +216,9 @@ install_requires
 psutil
 >
 =
-0
+3
 .
-7
+1
 .
 1
 '
