@@ -1050,8 +1050,12 @@ EXPECT_CALL
 (
 *
 mcc
-HandleLongTap
+HandleTap
 (
+TapType
+:
+:
+eLongTap
 _
 _
 _
