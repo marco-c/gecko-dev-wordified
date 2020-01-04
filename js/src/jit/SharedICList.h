@@ -257,11 +257,6 @@ GetProp_StringLength
 \
 _
 (
-GetProp_Unboxed
-)
-\
-_
-(
 GetProp_TypedObject
 )
 \
