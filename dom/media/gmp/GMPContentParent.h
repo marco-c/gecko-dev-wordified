@@ -124,13 +124,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-GMPUtils
-.
-h
-"
 namespace
 mozilla
 {
@@ -309,13 +302,6 @@ return
 mPluginId
 ;
 }
-void
-CrashPluginNow
-(
-GMPCrashReason
-aReason
-)
-;
 private
 :
 ~

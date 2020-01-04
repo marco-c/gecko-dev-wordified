@@ -215,13 +215,6 @@ ThreadSafeRefcountingWithMainThreadDestruction
 .
 h
 "
-#
-include
-"
-GMPUtils
-.
-h
-"
 class
 nsIThread
 ;
@@ -367,8 +360,6 @@ aOther
 void
 Crash
 (
-GMPCrashReason
-aReason
 )
 ;
 nsresult

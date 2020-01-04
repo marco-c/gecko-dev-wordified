@@ -778,8 +778,6 @@ GMPParent
 :
 Crash
 (
-GMPCrashReason
-aReason
 )
 {
 if
@@ -795,7 +793,6 @@ unused
 <
 SendCrashPluginNow
 (
-aReason
 )
 ;
 }
