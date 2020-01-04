@@ -105,15 +105,9 @@ video_puppeteer
 import
 (
     
-playback_done
-    
-playback_started
-    
 VideoException
     
 VideoPuppeteer
-as
-VP
 )
 class
 MediaTestCase
@@ -403,6 +397,7 @@ def
 log_video_debug_lines
 (
 self
+video
 )
 :
         
@@ -441,15 +436,10 @@ CONTEXT_CHROME
             
 debug_lines
 =
-self
+video
 .
-marionette
-.
-execute_script
+get_debug_lines
 (
-VP
-.
-_debug_script
 )
             
 if
@@ -582,6 +572,8 @@ stall_wait_time
 )
                               
 video
+VideoPuppeteer
+.
 playback_done
 )
             
@@ -685,6 +677,8 @@ timeout
 )
                               
 video
+VideoPuppeteer
+.
 playback_started
 )
             
@@ -1000,7 +994,7 @@ video_urls
                 
 video
 =
-VP
+VideoPuppeteer
 (
 self
 .
@@ -1160,7 +1154,7 @@ try
                     
 video
 =
-VP
+VideoPuppeteer
 (
 self
 .
@@ -1266,7 +1260,7 @@ video_urls
                 
 video
 =
-VP
+VideoPuppeteer
 (
 self
 .

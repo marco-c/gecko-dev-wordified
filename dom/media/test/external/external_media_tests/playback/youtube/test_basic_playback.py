@@ -98,9 +98,9 @@ import
     
 YouTubePuppeteer
     
-playback_done
-    
 wait_for_almost_done
+    
+playback_done
 )
 class
 TestBasicYouTubePlayback
@@ -186,6 +186,9 @@ y
 :
 y
 .
+_last_seen_video_state
+.
+                              
 video_src
 .
 startswith
