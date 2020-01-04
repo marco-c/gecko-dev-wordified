@@ -659,6 +659,17 @@ item
 {
 if
 (
+!
+item
+.
+visible
+)
+{
+return
+;
+}
+if
+(
 item
 .
 submenu
