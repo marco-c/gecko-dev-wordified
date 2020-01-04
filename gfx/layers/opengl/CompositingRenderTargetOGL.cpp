@@ -153,6 +153,9 @@ CompositingRenderTargetOGL
 if
 (
 mGL
+&
+&
+mGL
 -
 >
 MakeCurrent
