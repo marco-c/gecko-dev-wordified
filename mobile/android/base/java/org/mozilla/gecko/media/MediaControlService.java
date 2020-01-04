@@ -1531,7 +1531,7 @@ R
 .
 string
 .
-media_pause
+media_play
 :
 R
 .
