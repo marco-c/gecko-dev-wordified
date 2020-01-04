@@ -21,9 +21,6 @@ newContext
 :
 new
 Set
-saveFrameChain
-:
-true
 }
 )
 ;
@@ -41,9 +38,6 @@ evaluate
 )
 "
 {
-saveFrameChain
-:
-true
 }
 )
 ;
