@@ -406,6 +406,7 @@ AsmJSSimdType
 {
 AsmJSSimdType_int32x4
 AsmJSSimdType_float32x4
+AsmJSSimdType_bool32x4
 }
 ;
 /
@@ -5097,6 +5098,15 @@ ValType
 :
 :
 F32x4
+:
+case
+wasm
+:
+:
+ValType
+:
+:
+B32x4
 :
 width
 =

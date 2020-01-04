@@ -2174,7 +2174,7 @@ arr
 index
 simdCtor
 .
-not
+neg
 (
 v
 )
@@ -2234,7 +2234,7 @@ arr
 index
 simdCtor
 .
-not
+neg
 (
 v3
 )
@@ -2294,7 +2294,7 @@ arr
 index
 simdCtor
 .
-not
+neg
 (
 v2
 )
@@ -2354,7 +2354,7 @@ arr
 index
 simdCtor
 .
-not
+neg
 (
 v1
 )
