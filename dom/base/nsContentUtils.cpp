@@ -43222,7 +43222,7 @@ PresShell
 )
 -
 >
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 )

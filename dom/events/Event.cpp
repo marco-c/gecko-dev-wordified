@@ -4714,7 +4714,7 @@ PresShell
 )
 -
 >
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 )

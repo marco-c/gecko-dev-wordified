@@ -12914,7 +12914,7 @@ PresShell
 )
 -
 >
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 )
@@ -13172,7 +13172,7 @@ RemoveResolution
 shell
 -
 >
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 )
@@ -17940,7 +17940,7 @@ PresShell
 )
 -
 >
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 )
