@@ -35,9 +35,6 @@ iterator
 match
 "
 "
-search
-"
-"
 species
 "
 "

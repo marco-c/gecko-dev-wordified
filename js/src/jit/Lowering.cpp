@@ -14156,6 +14156,17 @@ native
 =
 =
 str_replace
+|
+|
+target
+-
+>
+native
+(
+)
+=
+=
+str_search
 )
 )
 {
