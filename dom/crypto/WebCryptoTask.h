@@ -373,7 +373,7 @@ class
 WebCryptoTask
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 public
 nsNSSShutDownObject
 {

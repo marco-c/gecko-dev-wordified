@@ -8539,7 +8539,7 @@ class
 UpdateContextLossStatusTask
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 RefPtr
 <
@@ -8567,7 +8567,6 @@ NS_IMETHOD
 Run
 (
 )
-override
 {
 if
 (
@@ -8584,11 +8583,10 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )
-override
 {
 mWebGL
 =

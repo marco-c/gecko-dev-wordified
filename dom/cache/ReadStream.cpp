@@ -810,7 +810,7 @@ NoteClosedRunnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -882,7 +882,7 @@ stream
 is
 closed
 .
-nsresult
+NS_IMETHOD
 Cancel
 (
 )
@@ -1070,7 +1070,7 @@ ForgetRunnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -1135,7 +1135,7 @@ on
 the
 actor
 .
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

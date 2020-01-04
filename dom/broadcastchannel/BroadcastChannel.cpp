@@ -710,8 +710,6 @@ BCPostMessageRunnable
 final
 :
 public
-nsIRunnable
-public
 nsICancelableRunnable
 {
 public
@@ -930,7 +928,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 Cancel
 (
 )
@@ -977,8 +975,6 @@ CloseRunnable
 final
 :
 public
-nsIRunnable
-public
 nsICancelableRunnable
 {
 public
@@ -1020,7 +1016,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 Cancel
 (
 )
@@ -1060,8 +1056,6 @@ class
 TeardownRunnable
 final
 :
-public
-nsIRunnable
 public
 nsICancelableRunnable
 {
@@ -1121,7 +1115,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 Cancel
 (
 )

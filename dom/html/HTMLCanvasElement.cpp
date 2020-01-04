@@ -6209,7 +6209,7 @@ Runnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -6356,7 +6356,7 @@ Runnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :

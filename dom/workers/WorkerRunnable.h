@@ -223,8 +223,6 @@ class
 WorkerRunnable
 :
 public
-nsIRunnable
-public
 nsICancelableRunnable
 {
 public
@@ -511,12 +509,7 @@ out
 /
 appropriately
 .
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 /
 /
 The
@@ -1766,12 +1759,7 @@ loop
 spinning
 forever
 .
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 protected
 :
 virtual
@@ -2124,7 +2112,7 @@ WorkerControlRunnable
 )
 {
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

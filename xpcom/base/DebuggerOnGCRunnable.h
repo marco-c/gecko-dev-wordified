@@ -175,7 +175,7 @@ class
 DebuggerOnGCRunnable
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 JS
 :
@@ -235,12 +235,7 @@ aDesc
 )
 ;
 NS_DECL_NSIRUNNABLE
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 }
 ;
 }

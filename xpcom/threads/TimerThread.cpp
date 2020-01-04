@@ -769,7 +769,7 @@ class
 nsTimerEvent
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -779,7 +779,7 @@ Run
 )
 override
 ;
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

@@ -8659,7 +8659,7 @@ class
 LogStringMessageAsync
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :

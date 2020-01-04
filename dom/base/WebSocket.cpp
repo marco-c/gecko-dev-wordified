@@ -1308,7 +1308,7 @@ CallDispatchConnectionCloseEvents
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :

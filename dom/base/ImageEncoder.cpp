@@ -598,7 +598,7 @@ class
 EncodingCompleteEvent
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 virtual
 ~

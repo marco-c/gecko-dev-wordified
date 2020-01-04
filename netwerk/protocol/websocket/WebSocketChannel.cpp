@@ -4883,7 +4883,7 @@ CallAcknowledge
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
