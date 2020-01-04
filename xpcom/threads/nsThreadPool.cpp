@@ -1765,6 +1765,12 @@ aFlags
 =
 =
 NS_DISPATCH_NORMAL
+|
+|
+aFlags
+=
+=
+NS_DISPATCH_TAIL
 "
 unexpected
 dispatch
