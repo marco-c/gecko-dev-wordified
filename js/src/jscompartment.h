@@ -3685,7 +3685,7 @@ GCHashSet
 js
 :
 :
-HeapPtr
+ReadBarriered
 <
 js
 :
@@ -3701,7 +3701,7 @@ MovableCellHasher
 js
 :
 :
-HeapPtr
+ReadBarriered
 <
 js
 :
