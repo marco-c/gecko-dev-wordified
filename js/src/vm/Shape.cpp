@@ -4103,6 +4103,14 @@ getObjectFlags
 )
 )
 ;
+if
+(
+!
+newShape
+)
+return
+nullptr
+;
 for
 (
 unsigned
