@@ -2108,6 +2108,16 @@ GetBufferedAmount
 (
 )
 {
+if
+(
+!
+mConnection
+)
+{
+return
+0
+;
+}
 MutexAutoLock
 lock
 (
