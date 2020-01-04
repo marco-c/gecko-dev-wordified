@@ -2872,6 +2872,16 @@ splitlines
 [
 0
 ]
+.
+encode
+(
+'
+ascii
+'
+'
+ignore
+'
+)
 )
 )
                 
