@@ -2631,7 +2631,7 @@ result
 elif
 defined
 (
-XP_LINUX
+__GLIBC__
 )
 return
 sched_getcpu
@@ -2656,7 +2656,7 @@ XP_WIN
 |
 defined
 (
-XP_LINUX
+__GLIBC__
 )
 }
 bool
@@ -2713,7 +2713,7 @@ number_
 elif
 defined
 (
-XP_LINUX
+__GLIBC__
 )
 return
 a
