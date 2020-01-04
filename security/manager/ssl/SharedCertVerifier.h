@@ -58,17 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm__SharedCertVerifier_h
+SharedCertVerifier_h
 #
 define
-mozilla_psm__SharedCertVerifier_h
-#
-include
-"
-certt
-.
-h
-"
+SharedCertVerifier_h
 #
 include
 "
@@ -135,6 +128,8 @@ BRNameMatchingPolicy
 :
 Mode
 nameMatchingMode
+NetscapeStepUpPolicy
+netscapeStepUpPolicy
 )
 :
 mozilla
@@ -152,6 +147,7 @@ certShortLifetimeInDays
 pinningMode
 sha1Mode
 nameMatchingMode
+netscapeStepUpPolicy
 )
 {
 }
@@ -170,4 +166,4 @@ psm
 endif
 /
 /
-mozilla_psm__SharedCertVerifier_h
+SharedCertVerifier_h

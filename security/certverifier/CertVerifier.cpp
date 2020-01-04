@@ -319,6 +319,8 @@ BRNameMatchingPolicy
 :
 Mode
 nameMatchingMode
+NetscapeStepUpPolicy
+netscapeStepUpPolicy
 )
 :
 mOCSPDownloadConfig
@@ -354,6 +356,10 @@ sha1Mode
 mNameMatchingMode
 (
 nameMatchingMode
+)
+mNetscapeStepUpPolicy
+(
+netscapeStepUpPolicy
 )
 {
 }
@@ -1598,6 +1604,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -2029,6 +2039,7 @@ sha1ModeConfigurations
 [
 i
 ]
+mNetscapeStepUpPolicy
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2596,6 +2607,7 @@ sha1ModeConfigurations
 [
 j
 ]
+mNetscapeStepUpPolicy
 builtChain
 pinningTelemetryInfo
 hostname
@@ -2967,6 +2979,7 @@ ValidityCheckingMode
 :
 CheckingOff
 mSHA1Mode
+mNetscapeStepUpPolicy
 builtChain
 nullptr
 nullptr
@@ -3024,6 +3037,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -3162,6 +3179,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -3265,6 +3286,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -3444,6 +3469,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -3496,6 +3525,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
@@ -3548,6 +3581,10 @@ SHA1Mode
 :
 :
 Allowed
+NetscapeStepUpPolicy
+:
+:
+NeverMatch
 builtChain
 nullptr
 nullptr
