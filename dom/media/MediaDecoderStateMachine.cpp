@@ -11227,9 +11227,6 @@ DECODER_STATE_SEEKING
 bool
 skipToNextKeyFrame
 =
-mSentFirstFrameLoadedEvent
-&
-&
 NeedToSkipToNextKeyframe
 (
 )
