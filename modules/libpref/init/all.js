@@ -18019,7 +18019,7 @@ http
 .
 keep_empty_response_headers_as_empty_string
 "
-false
+true
 )
 ;
 /
