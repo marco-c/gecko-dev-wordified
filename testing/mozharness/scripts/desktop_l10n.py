@@ -2585,28 +2585,6 @@ query_abs_dirs
 (
 )
         
-if
-config
-.
-get
-(
-'
-en_us_binary_url
-'
-)
-and
-\
-           
-config
-.
-get
-(
-'
-release_config_file
-'
-)
-:
-            
 replace_dict
 [
 '
@@ -2615,11 +2593,13 @@ en_us_binary_url
 ]
 =
 config
-[
+.
+get
+(
 '
 en_us_binary_url
 '
-]
+)
         
 #
 Override
