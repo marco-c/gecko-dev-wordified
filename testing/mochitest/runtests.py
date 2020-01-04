@@ -9262,7 +9262,6 @@ jscovDirPrefix
 options
 .
 jscov_dir_prefix
-;
         
 if
 not
