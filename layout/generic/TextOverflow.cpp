@@ -1320,7 +1320,16 @@ ThebesContext
 >
 SetColor
 (
+gfx
+:
+:
+Color
+:
+:
+FromABGR
+(
 foregroundColor
+)
 )
 ;
 PaintTextToContext

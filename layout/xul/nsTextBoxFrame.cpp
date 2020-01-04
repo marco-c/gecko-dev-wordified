@@ -2634,7 +2634,13 @@ ThebesContext
 >
 SetColor
 (
+Color
+:
+:
+FromABGR
+(
 c
+)
 )
 ;
 nsresult
