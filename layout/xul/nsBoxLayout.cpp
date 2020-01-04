@@ -251,7 +251,7 @@ nsSize
 nsBoxLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *

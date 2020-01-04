@@ -3401,14 +3401,14 @@ aRenderingContext
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
 ;
 /
 /
-GetMinSize
+GetXULMinSize
 returns
 border
 -
@@ -3444,7 +3444,7 @@ want
 to
 subtract
 what
-GetMinSize
+GetXULMinSize
 added
 which
 is
@@ -3979,7 +3979,7 @@ state
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -4598,7 +4598,7 @@ aBoxLayoutState
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 aBoxLayoutState
 )
@@ -4699,7 +4699,7 @@ nsSize
 nsBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -4812,7 +4812,7 @@ layoutSize
 mLayoutManager
 -
 >
-GetMinSize
+GetXULMinSize
 (
 this
 aBoxLayoutState
@@ -4852,7 +4852,7 @@ size
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aBoxLayoutState
 )
@@ -10688,7 +10688,7 @@ minSize
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 state
 )

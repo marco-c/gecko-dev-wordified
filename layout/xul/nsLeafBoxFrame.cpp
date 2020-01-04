@@ -690,7 +690,7 @@ LogicalSize
 minSize
 (
 wm
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -698,7 +698,7 @@ state
 ;
 /
 /
-GetMinSize
+GetXULMinSize
 returns
 border
 -
@@ -736,7 +736,7 @@ want
 to
 subtract
 what
-GetMinSize
+GetXULMinSize
 added
 which
 is
@@ -1414,7 +1414,7 @@ ComputedHeight
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -1486,7 +1486,7 @@ state
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 state
 )
@@ -2069,7 +2069,7 @@ nsSize
 nsLeafBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -2080,7 +2080,7 @@ return
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aState
 )

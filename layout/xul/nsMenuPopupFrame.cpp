@@ -2998,7 +2998,7 @@ aState
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 aState
 )

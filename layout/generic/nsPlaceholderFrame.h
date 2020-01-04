@@ -622,7 +622,7 @@ We
 need
 to
 override
-GetMinSize
+GetXULMinSize
 and
 GetPrefSize
 because
@@ -663,7 +663,7 @@ override
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

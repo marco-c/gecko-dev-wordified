@@ -21119,7 +21119,7 @@ size
 /
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

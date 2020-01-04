@@ -2057,7 +2057,7 @@ heightSet
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -2083,7 +2083,7 @@ nsSize
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -2966,7 +2966,7 @@ requires
 /
 GetPrefSize
 /
-GetMinSize
+GetXULMinSize
 methods
 that
 don
@@ -3813,7 +3813,7 @@ requires
 /
 GetPrefSize
 /
-GetMinSize
+GetXULMinSize
 methods
 that
 don
@@ -4286,7 +4286,7 @@ requires
 /
 GetPrefSize
 /
-GetMinSize
+GetXULMinSize
 methods
 that
 don

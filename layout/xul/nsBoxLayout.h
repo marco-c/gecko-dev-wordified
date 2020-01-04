@@ -207,7 +207,7 @@ aBoxLayoutState
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *

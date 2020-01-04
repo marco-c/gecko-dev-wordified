@@ -569,7 +569,7 @@ override
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *

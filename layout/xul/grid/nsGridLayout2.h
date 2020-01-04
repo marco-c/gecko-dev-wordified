@@ -285,7 +285,7 @@ nullptr
 }
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *

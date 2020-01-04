@@ -254,7 +254,7 @@ nsSize
 nsPlaceholderFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

@@ -4342,7 +4342,7 @@ nsSize
 nsMenuFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -4355,7 +4355,7 @@ size
 nsBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aBoxLayoutState
 )
@@ -8186,7 +8186,7 @@ minSize
 nsBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aState
 )

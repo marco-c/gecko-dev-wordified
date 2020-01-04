@@ -3194,7 +3194,7 @@ expected
 nsSize
 minSize
 =
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -3571,7 +3571,7 @@ nsSize
 nsImageBoxFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

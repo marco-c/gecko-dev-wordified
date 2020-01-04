@@ -1721,7 +1721,7 @@ aMin
 aBox
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -9186,7 +9186,7 @@ nsSize
 nsXULScrollFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -9246,7 +9246,7 @@ mHelper
 mVScrollbarBox
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -9310,7 +9310,7 @@ mHelper
 mHScrollbarBox
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -29809,7 +29809,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -34426,7 +34426,7 @@ resizerMinSize
 mResizerBox
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )

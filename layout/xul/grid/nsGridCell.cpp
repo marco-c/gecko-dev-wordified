@@ -331,7 +331,7 @@ nsSize
 nsGridCell
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -394,7 +394,7 @@ min
 mBoxInColumn
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -438,7 +438,7 @@ min
 mBoxInRow
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )

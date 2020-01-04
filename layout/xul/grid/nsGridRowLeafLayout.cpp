@@ -340,7 +340,7 @@ nsSize
 nsGridRowLeafLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsIFrame
 *
@@ -383,7 +383,7 @@ return
 nsGridRowLayout
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aBox
 aState

@@ -371,7 +371,7 @@ override
 ;
 virtual
 nsSize
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &

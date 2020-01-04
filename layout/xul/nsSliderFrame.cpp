@@ -7510,7 +7510,7 @@ nsSize
 nsSliderFrame
 :
 :
-GetMinSize
+GetXULMinSize
 (
 nsBoxLayoutState
 &
@@ -7536,7 +7536,7 @@ return
 nsBox
 :
 :
-GetMinSize
+GetXULMinSize
 (
 aState
 )

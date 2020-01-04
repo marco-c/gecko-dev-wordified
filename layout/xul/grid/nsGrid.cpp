@@ -5179,7 +5179,7 @@ childSize
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
@@ -5547,7 +5547,7 @@ min
 child
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )

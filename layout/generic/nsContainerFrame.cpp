@@ -4887,7 +4887,7 @@ minSize
 rootFrame
 -
 >
-GetMinSize
+GetXULMinSize
 (
 aState
 )
