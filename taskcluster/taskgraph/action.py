@@ -253,12 +253,6 @@ TaskGraph
 from_json
 (
 full_task_json
-options
-[
-'
-root
-'
-]
 )
     
 target_tasks
