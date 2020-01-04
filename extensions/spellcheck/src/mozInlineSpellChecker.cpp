@@ -5733,7 +5733,7 @@ res
 res
 )
 ;
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 phb
 (
 editor

@@ -6154,7 +6154,7 @@ ETypingAction
 aAction
 )
 {
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 batch
 (
 this
