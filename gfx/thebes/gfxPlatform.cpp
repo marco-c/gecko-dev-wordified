@@ -12489,10 +12489,6 @@ UsesOffMainThreadCompositing
 (
 )
 {
-InitLayersAccelerationPrefs
-(
-)
-;
 static
 bool
 firstTime
@@ -12510,6 +12506,10 @@ if
 firstTime
 )
 {
+InitLayersAccelerationPrefs
+(
+)
+;
 result
 =
 sPrefBrowserTabsRemoteAutostart
