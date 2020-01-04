@@ -10293,7 +10293,7 @@ eRestyle_Subtree
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -10310,6 +10310,11 @@ medium
 "
 changes
 yet
+.
+See
+bug
+1290228
+.
 "
 )
 ;
