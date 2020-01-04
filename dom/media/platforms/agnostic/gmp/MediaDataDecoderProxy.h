@@ -367,8 +367,6 @@ aData
 void
 Error
 (
-MediaDataDecoderError
-aError
 )
 override
 ;

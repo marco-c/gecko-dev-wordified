@@ -255,14 +255,6 @@ aMimeType
 ;
 private
 :
-enum
-DecodeError
-{
-DECODE_SUCCESS
-DECODE_ERROR
-FATAL_ERROR
-}
-;
 nsresult
 DecodeHeader
 (
@@ -283,7 +275,7 @@ MediaRawData
 aSample
 )
 ;
-DecodeError
+int
 DoDecode
 (
 MediaRawData

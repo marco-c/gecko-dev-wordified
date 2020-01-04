@@ -2065,10 +2065,6 @@ mDecoder
 INVOKE_CALLBACK
 (
 Error
-MediaDataDecoderError
-:
-:
-FATAL_ERROR
 )
 ;
 return
@@ -2238,10 +2234,6 @@ kDecoding
 INVOKE_CALLBACK
 (
 Error
-MediaDataDecoderError
-:
-:
-FATAL_ERROR
 )
 ;
 \
@@ -3509,10 +3501,6 @@ decoder
 INVOKE_CALLBACK
 (
 Error
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 /
