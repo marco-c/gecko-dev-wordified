@@ -1279,6 +1279,12 @@ case
 eKeyUp
 :
 case
+eKeyDownOnPlugin
+:
+case
+eKeyUpOnPlugin
+:
+case
 eBeforeKeyDown
 :
 case
