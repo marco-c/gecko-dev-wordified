@@ -928,24 +928,6 @@ path
         
 rev
 =
-os
-.
-environ
-.
-get
-(
-'
-MOZ_SOURCE_CHANGESET
-'
-)
-        
-if
-not
-rev
-:
-            
-rev
-=
 read_output
 (
 '
@@ -956,7 +938,7 @@ hg
 R
 '
 path
-                              
+                          
 '
 parent
 '
@@ -982,7 +964,7 @@ hg
 path
 .
 If
-MOZ_SOURCE_REPO
+SRVSRV_ROOT
 is
 set
 we
@@ -1004,9 +986,9 @@ environ
 .
 get
 (
-'
-MOZ_SOURCE_REPO
-'
+"
+SRCSRV_ROOT
+"
 )
         
 if
@@ -1165,7 +1147,7 @@ you
 have
 not
 specified
-MOZ_SOURCE_REPO
+SRCSRV_ROOT
 or
 the
 clone
@@ -1514,7 +1496,7 @@ you
 have
 not
 specified
-MOZ_SOURCE_REPO
+SRCSRV_ROOT
 or
 the
 clone
@@ -5293,9 +5275,9 @@ environ
 .
 get
 (
-'
-MOZ_SOURCE_REPO
-'
+"
+SRCSRV_ROOT
+"
 )
         
 for
