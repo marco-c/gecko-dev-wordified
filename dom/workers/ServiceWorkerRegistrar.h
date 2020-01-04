@@ -356,6 +356,15 @@ DeleteData
 (
 )
 ;
+void
+RegisterServiceWorkerInternal
+(
+const
+ServiceWorkerRegistrationData
+&
+aData
+)
+;
 ServiceWorkerRegistrar
 (
 )
