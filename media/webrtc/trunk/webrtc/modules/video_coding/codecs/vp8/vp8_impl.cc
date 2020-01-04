@@ -4977,6 +4977,15 @@ i
 ]
 )
 VP8E_SET_STATIC_THRESHOLD
+codec_
+.
+mode
+=
+=
+kScreensharing
+?
+300
+:
 1
 )
 ;
