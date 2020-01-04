@@ -158,10 +158,7 @@ aReader
 )
 ;
 virtual
-RefPtr
-<
-InitPromise
->
+nsresult
 Init
 (
 unsigned
@@ -222,7 +219,7 @@ int
 aHeight
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebMReader
 >
