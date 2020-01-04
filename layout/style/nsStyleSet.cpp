@@ -204,6 +204,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleSheetHandleInlines
+.
+h
+"
+#
+include
+"
 nsIDocumentInlines
 .
 h
