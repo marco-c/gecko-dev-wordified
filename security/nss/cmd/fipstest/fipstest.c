@@ -16835,11 +16835,10 @@ SECITEM_AllocItem
 NULL
 &
 pubkey
-2
-*
-len
-+
-1
+ecparams
+-
+>
+pointSize
 )
 ;
 if

@@ -11483,6 +11483,17 @@ if
 start
 )
 {
+if
+(
+Path
+)
+{
+PR_Free
+(
+Path
+)
+;
+}
 return
 0
 ;
