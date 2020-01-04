@@ -339,15 +339,6 @@ mVideoInfo
 uint32_t
 mVideoStride
 ;
-uint32_t
-mVideoWidth
-;
-uint32_t
-mVideoHeight
-;
-nsIntRect
-mPictureRegion
-;
 RefPtr
 <
 layers

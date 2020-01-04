@@ -267,6 +267,8 @@ IMFMediaType
 *
 aType
 uint32_t
+aWidth
+uint32_t
 *
 aOutStride
 )
