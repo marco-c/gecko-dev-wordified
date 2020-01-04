@@ -3527,6 +3527,22 @@ JARManifest
 )
 :
             
+self
+.
+_no_skip
+[
+'
+libs
+'
+]
+.
+add
+(
+backend_file
+.
+relobjdir
+)
+            
 backend_file
 .
 write

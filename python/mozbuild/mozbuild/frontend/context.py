@@ -10390,9 +10390,7 @@ jar_manifests
 "
 "
 "
-'
-libs
-'
+None
 )
     
 #
