@@ -1240,6 +1240,13 @@ with
 current
 }
 }
+outMetadata
+-
+>
+mIntegrityString
+=
+aMetadataList
+;
 if
 (
 MOZ_LOG_TEST
