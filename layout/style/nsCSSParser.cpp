@@ -61943,7 +61943,6 @@ starting
 and
 ending
 point
-point
 .
 However
 our
