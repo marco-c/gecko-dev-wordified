@@ -2472,6 +2472,16 @@ rt
 trc
 )
 ;
+rt
+-
+>
+spsProfiler
+.
+trace
+(
+trc
+)
+;
 if
 (
 !

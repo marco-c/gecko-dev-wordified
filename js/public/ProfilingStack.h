@@ -149,6 +149,9 @@ h
 struct
 JSRuntime
 ;
+class
+JSTracer
+;
 namespace
 js
 {
@@ -1123,6 +1126,14 @@ jsbytecode
 pc
 )
 volatile
+;
+void
+trace
+(
+JSTracer
+*
+trc
+)
 ;
 /
 /

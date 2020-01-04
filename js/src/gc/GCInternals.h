@@ -739,6 +739,16 @@ stringp
 override
 ;
 void
+onScriptEdge
+(
+JSScript
+*
+*
+scriptp
+)
+override
+;
+void
 onChild
 (
 const

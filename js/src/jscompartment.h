@@ -2871,6 +2871,11 @@ checkBaseShapeTableAfterMovingGC
 (
 )
 ;
+void
+checkScriptMapsAfterMovingGC
+(
+)
+;
 #
 endif
 /
@@ -3883,6 +3888,11 @@ fixupAfterMovingGC
 ;
 void
 fixupGlobal
+(
+)
+;
+void
+fixupScriptMapsAfterMovingGC
 (
 )
 ;
