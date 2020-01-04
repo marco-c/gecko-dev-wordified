@@ -311,12 +311,12 @@ gSources
 values
 .
 length
-1
+2
 "
 Should
 have
-1
-source
+2
+sources
 "
 )
 ;
