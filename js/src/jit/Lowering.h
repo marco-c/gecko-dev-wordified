@@ -587,9 +587,9 @@ ins
 )
 ;
 void
-visitNewRunOnceCallObject
+visitNewSingletonCallObject
 (
-MNewRunOnceCallObject
+MNewSingletonCallObject
 *
 ins
 )

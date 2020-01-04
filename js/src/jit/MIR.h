@@ -60984,6 +60984,17 @@ MNewCallObjectBase
 templateObj
 )
 {
+MOZ_ASSERT
+(
+!
+templateObj
+-
+>
+isSingleton
+(
+)
+)
+;
 }
 static
 MNewCallObject
@@ -61012,7 +61023,7 @@ templateObj
 }
 ;
 class
-MNewRunOnceCallObject
+MNewSingletonCallObject
 :
 public
 MNewCallObjectBase
@@ -61021,10 +61032,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-NewRunOnceCallObject
+NewSingletonCallObject
 )
 explicit
-MNewRunOnceCallObject
+MNewSingletonCallObject
 (
 CallObject
 *
@@ -61038,7 +61049,7 @@ templateObj
 {
 }
 static
-MNewRunOnceCallObject
+MNewSingletonCallObject
 *
 New
 (
@@ -61055,7 +61066,7 @@ new
 (
 alloc
 )
-MNewRunOnceCallObject
+MNewSingletonCallObject
 (
 templateObj
 )
