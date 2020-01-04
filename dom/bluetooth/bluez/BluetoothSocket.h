@@ -152,7 +152,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -280,7 +282,7 @@ socket
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

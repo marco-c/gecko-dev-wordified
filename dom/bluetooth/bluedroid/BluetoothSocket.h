@@ -333,7 +333,7 @@ socket
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

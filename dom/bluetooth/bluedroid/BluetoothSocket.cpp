@@ -998,7 +998,7 @@ received
 data
 *
 /
-nsAutoPtr
+UniquePtr
 <
 UnixSocketRawData
 >
@@ -2376,8 +2376,10 @@ mBuffer
 {
 mBuffer
 =
-new
+MakeUnique
+<
 UnixSocketRawData
+>
 (
 MAX_READ_SIZE
 )
@@ -2563,7 +2565,7 @@ mBuffer
 }
 private
 :
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -2593,7 +2595,7 @@ ReceiveTask
 this
 mBuffer
 .
-forget
+release
 (
 )
 )
@@ -3424,7 +3426,7 @@ BluetoothSocket
 :
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

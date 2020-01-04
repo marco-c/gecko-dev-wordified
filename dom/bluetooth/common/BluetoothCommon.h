@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

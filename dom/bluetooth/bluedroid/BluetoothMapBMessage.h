@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h

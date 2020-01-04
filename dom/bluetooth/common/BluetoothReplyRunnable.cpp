@@ -240,8 +240,11 @@ aReply
 )
 {
 mReply
-=
+.
+reset
+(
 aReply
+)
 ;
 }
 void
