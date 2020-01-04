@@ -328,14 +328,6 @@ mGlobalObjectRef
 ;
 }
 virtual
-JSContext
-*
-GetNativeContext
-(
-)
-override
-;
-virtual
 nsresult
 InitContext
 (
