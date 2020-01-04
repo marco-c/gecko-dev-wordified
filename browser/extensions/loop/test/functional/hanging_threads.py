@@ -114,8 +114,6 @@ sleep
 .
 )
         
-_
-=
 sys
 .
 _current_frames
@@ -152,6 +150,3 @@ start
     
 return
 thread
-start_monitoring
-(
-)
