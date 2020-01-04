@@ -31980,6 +31980,17 @@ StmtType
 :
 CATCH
 ;
+stmt
+-
+>
+staticBlock
+(
+)
+.
+setIsForCatchParameters
+(
+)
+;
 /
 *
 Go
