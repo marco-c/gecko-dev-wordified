@@ -108,6 +108,9 @@ help
 home
 "
 "
+loop
+"
+"
 devtools
 "
 .
@@ -265,6 +268,9 @@ customize
 "
 "
 help
+"
+"
+loop
 "
 "
 devtools
@@ -481,6 +487,9 @@ help
 "
 "
 home
+"
+"
+loop
 "
 "
 devtools
