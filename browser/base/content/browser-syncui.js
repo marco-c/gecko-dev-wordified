@@ -1506,7 +1506,7 @@ _stringBundle
 GetStringFromName
 (
 "
-syncing
+syncing2
 .
 label
 "
