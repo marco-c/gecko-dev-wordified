@@ -1343,6 +1343,15 @@ LWasmTruncateToInt64
 ins
 )
 ;
+virtual
+void
+visitInt64ToFloatingPointCall
+(
+LInt64ToFloatingPointCall
+*
+lir
+)
+;
 /
 /
 Out

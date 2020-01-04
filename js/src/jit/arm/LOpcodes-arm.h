@@ -198,6 +198,11 @@ _
 (
 WasmTruncateToInt64
 )
+\
+_
+(
+Int64ToFloatingPointCall
+)
 #
 endif
 /
