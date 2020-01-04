@@ -2039,7 +2039,6 @@ if
 winsInCascade
 &
 &
-!
 effect
 -
 >
@@ -2048,9 +2047,15 @@ GetAnimation
 )
 -
 >
-AppliesToTransitionsLevel
+CascadeLevel
 (
 )
+=
+=
+CascadeLevel
+:
+:
+Animations
 &
 &
 overriddenProperties
