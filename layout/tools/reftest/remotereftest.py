@@ -2733,6 +2733,19 @@ accelerated
 =
 False
         
+prefs
+[
+"
+media
+.
+autoplay
+.
+enabled
+"
+]
+=
+True
+        
 #
 Debug
 reftests
