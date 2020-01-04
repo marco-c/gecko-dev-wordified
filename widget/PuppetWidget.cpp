@@ -6664,10 +6664,10 @@ PuppetWidget
 :
 SetCandidateWindowForPlugin
 (
-int32_t
-aX
-int32_t
-aY
+const
+CandidateWindowPosition
+&
+aPosition
 )
 {
 if
@@ -6684,8 +6684,7 @@ mTabChild
 >
 SendSetCandidateWindowForPlugin
 (
-aX
-aY
+aPosition
 )
 ;
 }
