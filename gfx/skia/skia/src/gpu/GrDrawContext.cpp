@@ -5072,6 +5072,11 @@ rects
 )
 )
 ;
+if
+(
+batch
+)
+{
 GrPipelineBuilder
 pipelineBuilder
 (
@@ -5094,6 +5099,7 @@ pipelineBuilder
 batch
 )
 ;
+}
 return
 ;
 }
