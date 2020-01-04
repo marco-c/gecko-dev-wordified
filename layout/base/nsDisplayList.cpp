@@ -43316,9 +43316,11 @@ mOpacity
 !
 mOpacityItemCreated
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 firstFrame

@@ -15818,6 +15818,17 @@ SetDirtyRect
 dirtyRectOutsideSVGEffects
 )
 ;
+if
+(
+nsSVGIntegrationUtils
+:
+:
+UsingMaskOrClipPathForFrame
+(
+this
+)
+)
+{
 /
 *
 List
@@ -15852,6 +15863,7 @@ useOpacity
 )
 )
 ;
+}
 /
 /
 Also
