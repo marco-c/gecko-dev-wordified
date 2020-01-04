@@ -1439,8 +1439,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 )
 {
 if
@@ -1468,7 +1468,7 @@ LookupLocalFont
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 )
 ;
 }
@@ -1481,7 +1481,7 @@ NewFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 )
 ;
 }
@@ -1500,8 +1500,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 uint8_t
 *
@@ -1535,7 +1535,7 @@ MakePlatformFont
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 aFontData
 aLength
 )
@@ -1563,7 +1563,7 @@ NewFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 aFontData
 aLength
 )

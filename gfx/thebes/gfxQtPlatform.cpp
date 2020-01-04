@@ -688,8 +688,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 )
 {
 return
@@ -701,7 +701,7 @@ NewFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 )
 ;
 }
@@ -720,8 +720,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 uint8_t
 *
@@ -752,7 +752,7 @@ NewFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 aFontData
 aLength
 )
