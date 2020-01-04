@@ -501,7 +501,7 @@ Release
 }
 friend
 class
-CompositorChild
+CompositorBridgeChild
 ;
 friend
 class

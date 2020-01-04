@@ -456,7 +456,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -468,17 +468,6 @@ mozilla
 layers
 /
 ImageBridgeChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
-PCompositorBridgeChild
 .
 h
 "
@@ -6726,7 +6715,7 @@ aOtherProcess
 )
 {
 return
-CompositorChild
+CompositorBridgeChild
 :
 :
 Create

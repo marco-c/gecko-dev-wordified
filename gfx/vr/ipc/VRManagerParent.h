@@ -117,7 +117,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "

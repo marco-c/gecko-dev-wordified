@@ -96,7 +96,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -1499,7 +1499,7 @@ perform
 this
 for
 LayerManagerComposite
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetShadowProperties

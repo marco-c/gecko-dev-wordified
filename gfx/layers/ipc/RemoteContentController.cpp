@@ -191,7 +191,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -1966,7 +1966,7 @@ static
 getter
 knows
 which
-CompositorParent
+CompositorBridgeParent
 is
 /
 /
@@ -2010,7 +2010,7 @@ mApzcTreeManager
 {
 mApzcTreeManager
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetAPZCTreeManager

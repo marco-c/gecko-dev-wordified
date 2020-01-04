@@ -179,17 +179,6 @@ mozilla
 /
 layers
 /
-PCompositorBridgeParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayerManagerComposite
 .
 h
@@ -215,7 +204,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -237,7 +226,7 @@ CompositorD3D9
 :
 CompositorD3D9
 (
-CompositorParent
+CompositorBridgeParent
 *
 aParent
 nsIWidget

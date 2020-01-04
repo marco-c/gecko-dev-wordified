@@ -327,7 +327,7 @@ struct
 ScrollableLayerGuid
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 GestureEventListener
@@ -1577,11 +1577,11 @@ composites
 *
 /
 void
-SetCompositorParent
+SetCompositorBridgeParent
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 )
 ;
 /
@@ -3684,7 +3684,7 @@ thread
 Wrapper
 for
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleRenderOnCompositorThread
@@ -4596,9 +4596,9 @@ mLayersId
 ;
 RefPtr
 <
-CompositorParent
+CompositorBridgeParent
 >
-mCompositorParent
+mCompositorBridgeParent
 ;
 /
 *

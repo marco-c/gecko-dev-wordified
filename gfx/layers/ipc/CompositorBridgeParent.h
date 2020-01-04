@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_layers_CompositorParent_h
+mozilla_layers_CompositorBridgeParent_h
 #
 define
-mozilla_layers_CompositorParent_h
+mozilla_layers_CompositorBridgeParent_h
 /
 /
 Enable
@@ -498,7 +498,7 @@ class
 Compositor
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 LayerManagerComposite
@@ -510,7 +510,7 @@ class
 PAPZParent
 ;
 class
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 ;
 struct
 ScopedLayerTreeRegistration
@@ -609,7 +609,7 @@ aCompositorThread
 ;
 friend
 class
-CompositorParent
+CompositorBridgeParent
 ;
 }
 ;
@@ -661,9 +661,9 @@ public
 explicit
 CompositorVsyncScheduler
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 nsIWidget
 *
 aWidget
@@ -1037,9 +1037,9 @@ mOwner
 ;
 }
 ;
-CompositorParent
+CompositorBridgeParent
 *
-mCompositorParent
+mCompositorBridgeParent
 ;
 TimeStamp
 mLastCompose
@@ -1161,7 +1161,7 @@ CompositorUpdateObserver
 }
 ;
 class
-CompositorParent
+CompositorBridgeParent
 final
 :
 public
@@ -1171,7 +1171,7 @@ ShadowLayersManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
-CompositorParent
+CompositorBridgeParent
 )
 friend
 class
@@ -1180,7 +1180,7 @@ CompositorVsyncScheduler
 public
 :
 explicit
-CompositorParent
+CompositorBridgeParent
 (
 nsIWidget
 *
@@ -1416,7 +1416,7 @@ does
 /
 /
 see
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 RecvRequestNotifyAfterRemotePaint
@@ -2075,7 +2075,7 @@ ID
 *
 /
 static
-CompositorParent
+CompositorBridgeParent
 *
 GetCompositor
 (
@@ -2104,7 +2104,7 @@ loop
 is
 used
 by
-CompositorParent
+CompositorBridgeParent
 ImageBridgeParent
 *
 and
@@ -2150,7 +2150,7 @@ all
 [
 CrossProcess
 ]
-CompositorParent
+CompositorBridgeParent
 '
 s
 to
@@ -2412,7 +2412,7 @@ GeckoContentController
 >
 mController
 ;
-CompositorParent
+CompositorBridgeParent
 *
 mParent
 ;
@@ -2425,7 +2425,7 @@ mLayerManager
 Pointer
 to
 the
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 .
 Used
 by
@@ -2447,7 +2447,7 @@ holds
 /
 the
 PCompositorBridgeChild
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 mCrossProcessParent
 ;
@@ -2872,7 +2872,7 @@ Release
 :
 virtual
 ~
-CompositorParent
+CompositorBridgeParent
 (
 )
 ;
@@ -3067,7 +3067,7 @@ static
 void
 AddCompositor
 (
-CompositorParent
+CompositorBridgeParent
 *
 compositor
 uint64_t
@@ -3091,7 +3091,7 @@ map
 *
 /
 static
-CompositorParent
+CompositorBridgeParent
 *
 RemoveCompositor
 (
@@ -3402,7 +3402,7 @@ mPluginWindowsHidden
 endif
 DISALLOW_EVIL_CONSTRUCTORS
 (
-CompositorParent
+CompositorBridgeParent
 )
 ;
 }
@@ -3421,4 +3421,4 @@ mozilla
 endif
 /
 /
-mozilla_layers_CompositorParent_h
+mozilla_layers_CompositorBridgeParent_h

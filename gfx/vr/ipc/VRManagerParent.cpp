@@ -168,7 +168,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -198,7 +198,7 @@ layers
 /
 defined
 in
-CompositorParent
+CompositorBridgeParent
 .
 cpp
 CompositorThreadHolder
@@ -463,7 +463,7 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -566,7 +566,7 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

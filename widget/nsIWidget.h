@@ -350,7 +350,7 @@ class
 Compositor
 ;
 class
-CompositorChild
+CompositorBridgeChild
 ;
 class
 LayerManager
@@ -1579,8 +1579,8 @@ mozilla
 layers
 :
 :
-CompositorChild
-CompositorChild
+CompositorBridgeChild
+CompositorBridgeChild
 ;
 typedef
 mozilla
@@ -12630,7 +12630,7 @@ behalf
 *
 /
 virtual
-CompositorChild
+CompositorBridgeChild
 *
 GetRemoteRenderer
 (

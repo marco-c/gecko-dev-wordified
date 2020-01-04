@@ -253,7 +253,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -937,7 +937,7 @@ aGLContext
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -973,7 +973,7 @@ if
 mGLContext
 )
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -1970,7 +1970,7 @@ StartRemoteDrawing
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2205,7 +2205,7 @@ EndRemoteDrawing
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2642,7 +2642,7 @@ aBuffer
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2658,11 +2658,11 @@ aBuffer
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 *
 compositorParent
 =
-mCompositorParent
+mCompositorBridgeParent
 ;
 if
 (
@@ -2923,14 +2923,14 @@ void
 nsScreenGonk
 :
 :
-SetCompositorParent
+SetCompositorBridgeParent
 (
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 )
 {
 MOZ_ASSERT
@@ -2940,9 +2940,9 @@ NS_IsMainThread
 )
 )
 ;
-mCompositorParent
+mCompositorBridgeParent
 =
-aCompositorParent
+aCompositorBridgeParent
 ;
 }
 #
@@ -3040,7 +3040,7 @@ aGLContext
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3071,7 +3071,7 @@ GetEGLDisplay
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3093,7 +3093,7 @@ GetEGLSurface
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3124,7 +3124,7 @@ GetGLContext
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3172,7 +3172,7 @@ aWindow
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3345,7 +3345,7 @@ false
 )
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -3473,7 +3473,7 @@ false
 )
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -3600,7 +3600,7 @@ aWindow
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3658,7 +3658,7 @@ GetMirroringWidget
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -5127,7 +5127,7 @@ there
 is
 only
 1
-CompositorParent
+CompositorBridgeParent
 MOZ_ASSERT
 (
 mCompositorVsyncScheduler

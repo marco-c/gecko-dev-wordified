@@ -5474,7 +5474,7 @@ RemoveTextureFromCompositableAsync
 (
 )
 expects
-CompositorChild
+CompositorBridgeChild
 '
 s
 presence

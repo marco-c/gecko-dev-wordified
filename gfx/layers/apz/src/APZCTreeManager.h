@@ -429,7 +429,7 @@ class
 AsyncPanZoomController
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 OverscrollHandoffChain
@@ -700,7 +700,7 @@ class
 owned
 by
 each
-CompositorParent
+CompositorBridgeParent
 and
 it
 contains
@@ -1224,7 +1224,7 @@ numbers
 void
 UpdateHitTestingTree
 (
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 Layer

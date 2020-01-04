@@ -195,7 +195,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -1624,7 +1624,7 @@ FrameMetrics
 aParentMetrics
 )
 {
-CompositorChild
+CompositorBridgeChild
 *
 compositor
 =
@@ -1659,7 +1659,7 @@ AsClientLayerManager
 )
 -
 >
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 ;

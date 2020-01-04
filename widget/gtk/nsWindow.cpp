@@ -808,7 +808,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -11148,7 +11148,7 @@ if
 clientLayers
 &
 &
-mCompositorParent
+mCompositorBridgeParent
 )
 {
 /
@@ -11301,7 +11301,7 @@ if
 clientLayers
 &
 &
-mCompositorParent
+mCompositorBridgeParent
 &
 &
 clientLayers
@@ -11312,7 +11312,7 @@ NeedsComposite
 )
 )
 {
-mCompositorParent
+mCompositorBridgeParent
 -
 >
 ScheduleRenderOnCompositorThread

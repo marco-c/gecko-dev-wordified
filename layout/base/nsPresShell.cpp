@@ -1172,7 +1172,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -34534,7 +34534,7 @@ GetPresShellId
 /
 Retrieve
 the
-CompositorChild
+CompositorBridgeChild
 .
 LayerManager
 *
@@ -34576,14 +34576,14 @@ clientLayerManager
 return
 ;
 }
-CompositorChild
+CompositorBridgeChild
 *
 compositorChild
 =
 clientLayerManager
 -
 >
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 ;

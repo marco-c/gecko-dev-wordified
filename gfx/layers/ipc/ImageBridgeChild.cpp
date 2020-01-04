@@ -382,14 +382,14 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
 /
 /
 for
-CompositorParent
+CompositorBridgeParent
 #
 include
 "
@@ -4453,7 +4453,7 @@ sImageBridgeParentSingleton
 new
 ImageBridgeParent
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

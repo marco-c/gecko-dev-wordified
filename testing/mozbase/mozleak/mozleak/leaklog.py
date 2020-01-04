@@ -345,7 +345,7 @@ nsThread
 Bug
 1215265
 -
-CompositorChild
+CompositorBridgeChild
 is
 not
 shut
@@ -357,7 +357,7 @@ appendExpectedLeakCounts
 {
         
 '
-CompositorChild
+CompositorBridgeChild
 '
 :
 1
@@ -384,7 +384,7 @@ Mutex
 1
         
 '
-PCompositorChild
+PCompositorBridgeChild
 '
 :
 1
@@ -448,7 +448,7 @@ related
 to
     
 #
-CompositorChild
+CompositorBridgeChild
 and
 /
 or

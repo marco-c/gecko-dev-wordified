@@ -310,7 +310,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -688,7 +688,7 @@ there
 is
 only
 1
-CompositorParent
+CompositorBridgeParent
 MOZ_ASSERT
 (
 mCompositorVsyncScheduler

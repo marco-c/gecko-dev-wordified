@@ -301,14 +301,14 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
 /
 /
 for
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -7242,7 +7242,7 @@ UsesOffMainThreadCompositing
 )
 |
 |
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread

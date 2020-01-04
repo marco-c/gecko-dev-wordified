@@ -148,14 +148,14 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
 /
 /
 for
-CompositorParent
+CompositorBridgeParent
 #
 include
 "
@@ -479,7 +479,7 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

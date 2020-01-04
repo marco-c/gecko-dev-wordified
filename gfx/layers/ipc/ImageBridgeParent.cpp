@@ -317,14 +317,14 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
 /
 /
 for
-CompositorParent
+CompositorBridgeParent
 #
 include
 "
@@ -585,7 +585,7 @@ nullptr
 /
 defined
 in
-CompositorParent
+CompositorBridgeParent
 .
 cpp
 CompositorThreadHolder
@@ -1241,7 +1241,7 @@ MessageLoop
 *
 loop
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

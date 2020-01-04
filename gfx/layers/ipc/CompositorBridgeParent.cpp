@@ -118,7 +118,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -968,7 +968,7 @@ base
 :
 Thread
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -1000,7 +1000,7 @@ false
 )
 {
 }
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -1029,7 +1029,7 @@ typedef
 map
 <
 uint64_t
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -1097,7 +1097,7 @@ Lambda
 >
 inline
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForEachIndirectLayerTree
@@ -1215,7 +1215,7 @@ typedef
 map
 <
 uint64_t
-CompositorParent
+CompositorBridgeParent
 *
 >
 CompositorMap
@@ -1953,17 +1953,17 @@ CompositorVsyncScheduler
 :
 CompositorVsyncScheduler
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 nsIWidget
 *
 aWidget
 )
 :
-mCompositorParent
+mCompositorBridgeParent
 (
-aCompositorParent
+aCompositorBridgeParent
 )
 mLastCompose
 (
@@ -2193,7 +2193,7 @@ which
 stops
 vsync
 listeners
-mCompositorParent
+mCompositorBridgeParent
 =
 nullptr
 ;
@@ -2247,7 +2247,7 @@ needs
 if
 (
 !
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2344,7 +2344,7 @@ CancelSetDisplayTask
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2424,7 +2424,7 @@ Destroy
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2539,7 +2539,7 @@ ScheduleComposition
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2711,7 +2711,7 @@ CancelCurrentSetNeedsCompositeTask
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2819,7 +2819,7 @@ SetNeedsComposite
 if
 (
 !
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2937,7 +2937,7 @@ thread
 MOZ_ASSERT
 (
 !
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -2972,7 +2972,7 @@ CancelCurrentCompositeTask
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3021,7 +3021,7 @@ aVsyncTimestamp
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3311,7 +3311,7 @@ enabled
 /
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3344,7 +3344,7 @@ aRect
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3382,7 +3382,7 @@ NeedsComposite
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3404,7 +3404,7 @@ ObserveVsync
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3435,7 +3435,7 @@ UnobserveVsync
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3497,7 +3497,7 @@ aVsyncTimestamp
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3526,7 +3526,7 @@ aVsyncTimestamp
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 StartUp
@@ -3574,7 +3574,7 @@ CompositorThreadHolder
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ShutDown
@@ -3669,7 +3669,7 @@ true
 }
 MessageLoop
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -3708,7 +3708,7 @@ aTime
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -3724,7 +3724,7 @@ aTime
 0
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -3750,7 +3750,7 @@ ResumeComposition
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3793,7 +3793,7 @@ aRect
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -3803,10 +3803,10 @@ IsInCompositorThread
 ;
 MOZ_ASSERT
 (
-mCompositorParent
+mCompositorBridgeParent
 )
 ;
-mCompositorParent
+mCompositorBridgeParent
 -
 >
 CompositeToTarget
@@ -3816,10 +3816,10 @@ aRect
 )
 ;
 }
-CompositorParent
+CompositorBridgeParent
 :
 :
-CompositorParent
+CompositorBridgeParent
 (
 nsIWidget
 *
@@ -3950,14 +3950,14 @@ Initialized
 before
 instanciating
 a
-CompositorParent
+CompositorBridgeParent
 .
 "
 )
 ;
 MOZ_COUNT_CTOR
 (
-CompositorParent
+CompositorBridgeParent
 )
 ;
 mCompositorID
@@ -4158,7 +4158,7 @@ scale
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -4190,7 +4190,7 @@ CurrentId
 ;
 }
 uint64_t
-CompositorParent
+CompositorBridgeParent
 :
 :
 RootLayerTreeId
@@ -4201,11 +4201,11 @@ return
 mRootLayerTreeID
 ;
 }
-CompositorParent
+CompositorBridgeParent
 :
 :
 ~
-CompositorParent
+CompositorBridgeParent
 (
 )
 {
@@ -4218,12 +4218,12 @@ NS_IsMainThread
 ;
 MOZ_COUNT_DTOR
 (
-CompositorParent
+CompositorBridgeParent
 )
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 Destroy
@@ -4243,7 +4243,7 @@ Count
 =
 0
 "
-CompositorParent
+CompositorBridgeParent
 destroyed
 before
 managed
@@ -4347,7 +4347,7 @@ Destroy
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForceIsFirstPaint
@@ -4363,7 +4363,7 @@ ForceIsFirstPaint
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvWillStop
@@ -4389,7 +4389,7 @@ manager
 is
 destroyed
 before
-CompositorChild
+CompositorBridgeChild
 .
 if
 (
@@ -4467,7 +4467,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -4497,7 +4497,7 @@ Release
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -4597,7 +4597,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -4609,7 +4609,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvPause
@@ -4625,7 +4625,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvResume
@@ -4641,7 +4641,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvMakeSnapshot
@@ -4752,7 +4752,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvMakeWidgetSnapshot
@@ -4833,7 +4833,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvFlushRendering
@@ -4865,7 +4865,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvForcePresent
@@ -4900,7 +4900,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvGetTileSize
@@ -4948,7 +4948,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvNotifyRegionInvalidated
@@ -4978,7 +4978,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 Invalidate
@@ -5027,7 +5027,7 @@ GetBounds
 }
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStartFrameTimeRecording
@@ -5071,7 +5071,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStopFrameTimeRecording
@@ -5109,7 +5109,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvClearApproximatelyVisibleRegions
@@ -5138,7 +5138,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ClearApproximatelyVisibleRegions
@@ -5188,7 +5188,7 @@ ScheduleComposition
 }
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvNotifyApproximatelyVisibleRegion
@@ -5238,7 +5238,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ActorDestroy
@@ -5326,7 +5326,7 @@ nullptr
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleRenderOnCompositorThread
@@ -5341,7 +5341,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleComposition
@@ -5367,7 +5367,7 @@ renderTask
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 InvalidateOnCompositorThread
@@ -5382,7 +5382,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 Invalidate
@@ -5408,7 +5408,7 @@ renderTask
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 PauseComposition
@@ -5500,7 +5500,7 @@ NotifyAll
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResumeComposition
@@ -5579,7 +5579,7 @@ __android_log_print
 (
 ANDROID_LOG_INFO
 "
-CompositorParent
+CompositorBridgeParent
 "
 "
 Unable
@@ -5642,7 +5642,7 @@ NotifyAll
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForceComposition
@@ -5669,7 +5669,7 @@ ScheduleRenderOnCompositorThread
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 CancelCurrentCompositeTask
@@ -5685,7 +5685,7 @@ CancelCurrentCompositeTask
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetEGLSurfaceSize
@@ -5743,7 +5743,7 @@ height
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResumeCompositionAndResize
@@ -5789,7 +5789,7 @@ paused
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SchedulePauseOnCompositorThread
@@ -5810,7 +5810,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 PauseComposition
@@ -5856,7 +5856,7 @@ Wait
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleResumeOnCompositorThread
@@ -5877,7 +5877,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResumeComposition
@@ -5927,7 +5927,7 @@ mPaused
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleResumeOnCompositorThread
@@ -5952,7 +5952,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResumeCompositionAndResize
@@ -6004,7 +6004,7 @@ mPaused
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleTask
@@ -6059,7 +6059,7 @@ time
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 NotifyShadowTreeTransaction
@@ -6139,7 +6139,7 @@ ScheduleComposition
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleComposition
@@ -6195,7 +6195,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetShadowProperties
@@ -6396,7 +6396,7 @@ child
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositeToTarget
@@ -6427,7 +6427,7 @@ TRACING_INTERVAL_START
 PROFILER_LABEL
 (
 "
-CompositorParent
+CompositorBridgeParent
 "
 "
 Composite
@@ -6678,7 +6678,7 @@ plugin
 windows
 for
 this
-CompositorParent
+CompositorBridgeParent
 (
 window
 )
@@ -7450,7 +7450,7 @@ TRACING_INTERVAL_END
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvRemotePluginsReady
@@ -7485,7 +7485,7 @@ else
 NS_NOTREACHED
 (
 "
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvRemotePluginsReady
@@ -7507,7 +7507,7 @@ false
 endif
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForceComposeToTarget
@@ -7527,7 +7527,7 @@ aRect
 PROFILER_LABEL
 (
 "
-CompositorParent
+CompositorBridgeParent
 "
 "
 ForceComposeToTarget
@@ -7568,7 +7568,7 @@ aRect
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 CanComposite
@@ -7592,7 +7592,7 @@ mPaused
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleRotationOnCompositorThread
@@ -7662,7 +7662,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForceComposition
@@ -7682,7 +7682,7 @@ OrientationSyncMillis
 }
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ShadowLayersUpdated
@@ -7975,7 +7975,7 @@ NotifyShadowTreeTransaction
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ForceComposite
@@ -7991,7 +7991,7 @@ ScheduleComposition
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetTestSampleTime
@@ -8120,7 +8120,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 LeaveTestMode
@@ -8136,7 +8136,7 @@ false
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ApplyAsyncProperties
@@ -8291,7 +8291,7 @@ now
 }
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvGetFrameUniformity
@@ -8314,7 +8314,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvRequestOverfill
@@ -8344,7 +8344,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 FlushApzRepaints
@@ -8421,7 +8421,7 @@ layersId
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetAPZTestData
@@ -8535,7 +8535,7 @@ mTargets
 }
 ;
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetConfirmedTargetAPZC
@@ -8582,7 +8582,7 @@ aTargets
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 InitializeLayerManager
@@ -8663,7 +8663,7 @@ RefPtr
 <
 Compositor
 >
-CompositorParent
+CompositorBridgeParent
 :
 :
 NewCompositor
@@ -8875,7 +8875,7 @@ nullptr
 }
 PLayerTransactionParent
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 AllocPLayerTransactionParent
@@ -9003,7 +9003,7 @@ p
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeallocPLayerTransactionParent
@@ -9031,9 +9031,9 @@ return
 true
 ;
 }
-CompositorParent
+CompositorBridgeParent
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetCompositor
@@ -9076,12 +9076,12 @@ nullptr
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 AddCompositor
 (
-CompositorParent
+CompositorBridgeParent
 *
 compositor
 uint64_t
@@ -9115,9 +9115,9 @@ outID
 sNextID
 ;
 }
-CompositorParent
+CompositorBridgeParent
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 RemoveCompositor
@@ -9157,7 +9157,7 @@ return
 nullptr
 ;
 }
-CompositorParent
+CompositorBridgeParent
 *
 retval
 =
@@ -9179,7 +9179,7 @@ retval
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvNotifyChildCreated
@@ -9207,7 +9207,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 NotifyChildCreated
@@ -9248,7 +9248,7 @@ static
 *
 /
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 UpdateRemoteContentController
@@ -9394,7 +9394,7 @@ true
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvAdoptChild
@@ -9544,7 +9544,7 @@ static
 *
 /
 uint64_t
-CompositorParent
+CompositorBridgeParent
 :
 :
 AllocateLayerTreeId
@@ -9614,7 +9614,7 @@ end
 )
 )
 {
-CompositorParent
+CompositorBridgeParent
 *
 parent
 =
@@ -9657,7 +9657,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeallocateLayerTreeId
@@ -9760,7 +9760,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SwapLayerTreeObservers
@@ -9975,7 +9975,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetControllerForLayerTree
@@ -10030,7 +10030,7 @@ static
 /
 APZCTreeManager
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetAPZCTreeManager
@@ -10113,7 +10113,7 @@ nullptr
 ;
 }
 float
-CompositorParent
+CompositorBridgeParent
 :
 :
 ComputeRenderIntegrity
@@ -10153,7 +10153,7 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -10188,7 +10188,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 PostInsertVsyncProfilerMarker
@@ -10237,7 +10237,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 RequestNotifyLayerTreeReady
@@ -10276,7 +10276,7 @@ static
 *
 /
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 RequestNotifyLayerTreeCleared
@@ -10335,7 +10335,7 @@ s
 associated
 with
 a
-CompositorParent
+CompositorBridgeParent
 on
 the
 *
@@ -10371,7 +10371,7 @@ off
 work
 to
 the
-CompositorParent
+CompositorBridgeParent
 it
 '
 s
@@ -10381,7 +10381,7 @@ with
 *
 /
 class
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 final
 :
 public
@@ -10391,16 +10391,16 @@ ShadowLayersManager
 {
 friend
 class
-CompositorParent
+CompositorBridgeParent
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 )
 public
 :
 explicit
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 (
 Transport
 *
@@ -10722,7 +10722,7 @@ aPresShellId
 )
 override
 {
-CompositorParent
+CompositorBridgeParent
 *
 parent
 ;
@@ -10785,7 +10785,7 @@ aRegion
 )
 override
 {
-CompositorParent
+CompositorBridgeParent
 *
 parent
 ;
@@ -10929,7 +10929,7 @@ true
 *
 Tells
 this
-CompositorParent
+CompositorBridgeParent
 to
 send
 a
@@ -11195,7 +11195,7 @@ Release
 :
 virtual
 ~
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 (
 )
 ;
@@ -11253,7 +11253,7 @@ ActorDestroy
 .
 RefPtr
 <
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 >
 mSelfRef
 ;
@@ -11292,7 +11292,7 @@ mNotifyAfterRemotePaint
 ;
 PCompositorBridgeParent
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -11308,7 +11308,7 @@ mCrossProcessParent
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 DidComposite
@@ -11412,7 +11412,7 @@ lts
 mCrossProcessParent
 )
 {
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 cpcp
 =
@@ -11437,7 +11437,7 @@ aCompositeEnd
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 InvalidateRemoteLayers
@@ -11502,7 +11502,7 @@ lts
 mCrossProcessParent
 )
 {
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 cpcp
 =
@@ -11528,7 +11528,7 @@ aLayersId
 ;
 }
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResetCompositor
@@ -11570,7 +11570,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResetCompositorTask
@@ -11631,7 +11631,7 @@ given
 monitor
 .
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResetCompositorTask
@@ -11802,7 +11802,7 @@ void
 {
 if
 (
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 cpcp
 =
@@ -11837,7 +11837,7 @@ Maybe
 <
 TextureFactoryIdentifier
 >
-CompositorParent
+CompositorBridgeParent
 :
 :
 ResetCompositorImpl
@@ -11966,7 +11966,7 @@ static
 void
 OpenCompositor
 (
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 aCompositor
 Transport
@@ -12008,7 +12008,7 @@ static
 /
 PCompositorBridgeParent
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 Create
@@ -12029,12 +12029,12 @@ InitLayersIPC
 ;
 RefPtr
 <
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 >
 cpcp
 =
 new
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 (
 aTransport
 )
@@ -12147,12 +12147,12 @@ aTargetConfig
 static
 *
 /
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -12206,7 +12206,7 @@ second
 ;
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 RecvNotifyHidden
@@ -12244,7 +12244,7 @@ true
 ;
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 RecvNotifyVisible
@@ -12282,7 +12282,7 @@ true
 ;
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 RecvRequestNotifyAfterRemotePaint
@@ -12298,7 +12298,7 @@ true
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 ActorDestroy
@@ -12343,7 +12343,7 @@ NewRunnableMethod
 (
 this
 &
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -12353,7 +12353,7 @@ DeferredDestroy
 }
 PLayerTransactionParent
 *
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 AllocPLayerTransactionParent
@@ -12391,7 +12391,7 @@ lock
 sIndirectLayerTreesLock
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -12591,7 +12591,7 @@ p
 ;
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 DeallocPLayerTransactionParent
@@ -12643,7 +12643,7 @@ true
 ;
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 RecvNotifyChildCreated
@@ -12689,7 +12689,7 @@ it
 +
 )
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -12740,7 +12740,7 @@ false
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 ShadowLayersUpdated
@@ -12799,14 +12799,14 @@ id
 0
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -12859,7 +12859,7 @@ if
 shadowRoot
 )
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetShadowProperties
@@ -13058,7 +13058,7 @@ PLUGINS_LOG
 .
 )
 bool
-CompositorParent
+CompositorBridgeParent
 :
 :
 UpdatePluginWindowState
@@ -13074,7 +13074,7 @@ lock
 sIndirectLayerTreesLock
 )
 ;
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
@@ -13624,7 +13624,7 @@ hosts
 /
 the
 plugins
-CompositorChild
+CompositorBridgeChild
 needs
 these
 in
@@ -13859,7 +13859,7 @@ true
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleShowAllPluginWindows
@@ -13874,7 +13874,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 ShowAllPluginWindows
@@ -13900,7 +13900,7 @@ pluginTask
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ShowAllPluginWindows
@@ -13925,7 +13925,7 @@ ScheduleComposition
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 ScheduleHideAllPluginWindows
@@ -13940,7 +13940,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorParent
+CompositorBridgeParent
 :
 :
 HideAllPluginWindows
@@ -13966,7 +13966,7 @@ pluginTask
 ;
 }
 void
-CompositorParent
+CompositorBridgeParent
 :
 :
 HideAllPluginWindows
@@ -14062,7 +14062,7 @@ defined
 MOZ_WIDGET_GTK
 )
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 DidComposite
@@ -14125,7 +14125,7 @@ SetPendingTransactionId
 }
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 ForceComposite
@@ -14153,7 +14153,7 @@ id
 0
 )
 ;
-CompositorParent
+CompositorBridgeParent
 *
 parent
 ;
@@ -14195,7 +14195,7 @@ aLayerTree
 }
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 NotifyClearCachedResources
@@ -14277,7 +14277,7 @@ false
 }
 }
 bool
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 SetTestSampleTime
@@ -14310,14 +14310,14 @@ id
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14358,7 +14358,7 @@ aTime
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 LeaveTestMode
@@ -14387,14 +14387,14 @@ id
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14432,7 +14432,7 @@ aLayerTree
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 ApplyAsyncProperties
@@ -14461,14 +14461,14 @@ id
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14506,7 +14506,7 @@ aLayerTree
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 FlushApzRepaints
@@ -14536,14 +14536,14 @@ id
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14581,7 +14581,7 @@ aLayerTree
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 GetAPZTestData
@@ -14632,7 +14632,7 @@ mApzTestData
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 SetConfirmedTargetAPZC
@@ -14673,14 +14673,14 @@ id
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14720,7 +14720,7 @@ aTargets
 }
 AsyncCompositionManager
 *
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 GetCompositionManager
@@ -14741,14 +14741,14 @@ GetId
 )
 ;
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -14788,7 +14788,7 @@ aLayerTree
 ;
 }
 void
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -14809,11 +14809,11 @@ mSelfRef
 nullptr
 ;
 }
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 ~
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 (
 )
 {
@@ -14852,7 +14852,7 @@ mTransport
 }
 IToplevelProtocol
 *
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 :
 :
 CloneToplevel
@@ -14951,7 +14951,7 @@ PCompositorBridgeParent
 *
 compositor
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 Create

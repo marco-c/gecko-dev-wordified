@@ -305,14 +305,14 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
 /
 /
 for
-CompositorChild
+CompositorBridgeChild
 #
 include
 "

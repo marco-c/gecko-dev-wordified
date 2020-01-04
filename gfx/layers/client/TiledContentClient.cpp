@@ -273,14 +273,14 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
 /
 /
 for
-CompositorChild
+CompositorBridgeChild
 #
 include
 "
@@ -1164,7 +1164,7 @@ MOZ_ASSERT
 aLayer
 )
 ;
-CompositorChild
+CompositorBridgeChild
 *
 compositor
 =
@@ -1205,7 +1205,7 @@ AsClientLayerManager
 )
 -
 >
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 ;

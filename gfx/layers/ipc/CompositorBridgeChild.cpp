@@ -118,7 +118,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -129,7 +129,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -376,9 +376,9 @@ layers
 static
 *
 /
-CompositorChild
+CompositorBridgeChild
 *
-CompositorChild
+CompositorBridgeChild
 :
 :
 sCompositor
@@ -395,10 +395,10 @@ sSerialCounter
 0
 )
 ;
-CompositorChild
+CompositorBridgeChild
 :
 :
-CompositorChild
+CompositorBridgeChild
 (
 ClientLayerManager
 *
@@ -415,11 +415,11 @@ false
 )
 {
 }
-CompositorChild
+CompositorBridgeChild
 :
 :
 ~
-CompositorChild
+CompositorBridgeChild
 (
 )
 {
@@ -454,7 +454,7 @@ gfxCriticalError
 <
 <
 "
-CompositorChild
+CompositorBridgeChild
 was
 not
 deinitialized
@@ -468,14 +468,14 @@ DeferredDestroyCompositor
 (
 RefPtr
 <
-CompositorParent
+CompositorBridgeParent
 >
-aCompositorParent
+aCompositorBridgeParent
 RefPtr
 <
-CompositorChild
+CompositorBridgeChild
 >
-aCompositorChild
+aCompositorBridgeChild
 )
 {
 /
@@ -497,7 +497,7 @@ channel
 properly
 /
 /
-aCompositorChild
+aCompositorBridgeChild
 -
 >
 Close
@@ -506,7 +506,7 @@ Close
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 Destroy
@@ -583,7 +583,7 @@ happens
 .
 RefPtr
 <
-CompositorChild
+CompositorBridgeChild
 >
 selfRef
 =
@@ -609,10 +609,10 @@ from
 the
 /
 /
-CompositorParent
+CompositorBridgeParent
 to
 the
-CompositorChild
+CompositorBridgeChild
 (
 e
 .
@@ -640,7 +640,7 @@ by
 the
 /
 /
-CompositorChild
+CompositorBridgeChild
 before
 it
 gets
@@ -664,7 +664,7 @@ before
 the
 /
 /
-CompositorChild
+CompositorBridgeChild
 is
 destroyed
 so
@@ -812,14 +812,14 @@ FROM_HERE
 NewRunnableFunction
 (
 DeferredDestroyCompositor
-mCompositorParent
+mCompositorBridgeParent
 selfRef
 )
 )
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 LookupCompositorFrameMetrics
@@ -875,7 +875,7 @@ static
 /
 PCompositorBridgeChild
 *
-CompositorChild
+CompositorBridgeChild
 :
 :
 Create
@@ -907,12 +907,12 @@ sCompositor
 ;
 RefPtr
 <
-CompositorChild
+CompositorBridgeChild
 >
 child
 (
 new
-CompositorChild
+CompositorBridgeChild
 (
 nullptr
 )
@@ -1034,12 +1034,12 @@ sCompositor
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 OpenSameProcess
 (
-CompositorParent
+CompositorBridgeParent
 *
 aParent
 )
@@ -1049,7 +1049,7 @@ MOZ_ASSERT
 aParent
 )
 ;
-mCompositorParent
+mCompositorBridgeParent
 =
 aParent
 ;
@@ -1057,13 +1057,13 @@ mCanSend
 =
 Open
 (
-mCompositorParent
+mCompositorBridgeParent
 -
 >
 GetIPCChannel
 (
 )
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -1084,9 +1084,9 @@ mCanSend
 static
 *
 /
-CompositorChild
+CompositorBridgeChild
 *
-CompositorChild
+CompositorBridgeChild
 :
 :
 Get
@@ -1120,7 +1120,7 @@ sCompositor
 }
 PLayerTransactionChild
 *
-CompositorChild
+CompositorBridgeChild
 :
 :
 AllocPLayerTransactionChild
@@ -1169,7 +1169,7 @@ c
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 DeallocPLayerTransactionChild
@@ -1274,7 +1274,7 @@ true
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvInvalidateLayers
@@ -1351,7 +1351,7 @@ true
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvCompositorUpdated
@@ -1691,7 +1691,7 @@ rect
 #
 endif
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvUpdatePluginConfigurations
@@ -1730,7 +1730,7 @@ MOZ_WIDGET_GTK
 NS_NOTREACHED
 (
 "
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvUpdatePluginConfigurations
@@ -2380,7 +2380,7 @@ MOZ_WIDGET_GTK
 )
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvHideAllPlugins
@@ -2408,7 +2408,7 @@ MOZ_WIDGET_GTK
 NS_NOTREACHED
 (
 "
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvHideAllPlugins
@@ -2489,7 +2489,7 @@ MOZ_WIDGET_GTK
 )
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvDidComposite
@@ -2585,7 +2585,7 @@ true
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvOverfill
@@ -2639,7 +2639,7 @@ true
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 AddOverfillObserver
@@ -2663,7 +2663,7 @@ aLayerManager
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvClearCachedResources
@@ -2710,7 +2710,7 @@ true
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 ActorDestroy
@@ -2802,7 +2802,7 @@ IPC
 channel
 failure
 at
-CompositorChild
+CompositorBridgeChild
 "
 )
 ;
@@ -2878,7 +2878,7 @@ NewRunnableMethod
 (
 this
 &
-CompositorChild
+CompositorBridgeChild
 :
 :
 Release
@@ -2887,7 +2887,7 @@ Release
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvSharedCompositorFrameMetrics
@@ -2950,7 +2950,7 @@ true
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvReleaseSharedCompositorFrameMetrics
@@ -3037,7 +3037,7 @@ return
 true
 ;
 }
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3123,7 +3123,7 @@ SharedFrameMetricsData
 )
 ;
 }
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3166,7 +3166,7 @@ SharedFrameMetricsData
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3227,7 +3227,7 @@ FrameMetrics
 :
 :
 ViewID
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3290,7 +3290,7 @@ GetScrollId
 ;
 }
 uint64_t
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3306,7 +3306,7 @@ mLayersId
 ;
 }
 uint32_t
-CompositorChild
+CompositorBridgeChild
 :
 :
 SharedFrameMetricsData
@@ -3321,7 +3321,7 @@ mAPZCId
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 RecvRemotePaintIsReady
@@ -3386,7 +3386,7 @@ MOZ_LAYERS_LOG
 [
 RemoteGfx
 ]
-CompositorChild
+CompositorBridgeChild
 received
 RemotePaintIsReady
 "
@@ -3498,7 +3498,7 @@ true
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 RequestNotifyAfterRemotePaint
@@ -3517,7 +3517,7 @@ TabChild
 not
 allowed
 in
-CompositorChild
+CompositorBridgeChild
 :
 :
 RequestNotifyAfterRemotePaint
@@ -3550,7 +3550,7 @@ SendRequestNotifyAfterRemotePaint
 ;
 }
 void
-CompositorChild
+CompositorBridgeChild
 :
 :
 CancelNotifyAfterRemotePaint
@@ -3626,7 +3626,7 @@ nullptr
 }
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendWillStop
@@ -3643,7 +3643,7 @@ SendWillStop
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendPause
@@ -3675,7 +3675,7 @@ SendPause
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendResume
@@ -3707,7 +3707,7 @@ SendResume
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendNotifyHidden
@@ -3744,7 +3744,7 @@ id
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendNotifyVisible
@@ -3781,7 +3781,7 @@ id
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendNotifyChildCreated
@@ -3818,7 +3818,7 @@ id
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendAdoptChild
@@ -3855,7 +3855,7 @@ id
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendMakeSnapshot
@@ -3900,7 +3900,7 @@ dirtyRect
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendFlushRendering
@@ -3932,7 +3932,7 @@ SendFlushRendering
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendGetTileSize
@@ -3972,7 +3972,7 @@ tileHeight
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendStartFrameTimeRecording
@@ -4013,7 +4013,7 @@ startIndex
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendStopFrameTimeRecording
@@ -4057,7 +4057,7 @@ intervals
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendNotifyRegionInvalidated
@@ -4094,7 +4094,7 @@ region
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendRequestNotifyAfterRemotePaint
@@ -4126,7 +4126,7 @@ SendRequestNotifyAfterRemotePaint
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendClearApproximatelyVisibleRegions
@@ -4164,7 +4164,7 @@ aPresShellId
 ;
 }
 bool
-CompositorChild
+CompositorBridgeChild
 :
 :
 SendNotifyApproximatelyVisibleRegion

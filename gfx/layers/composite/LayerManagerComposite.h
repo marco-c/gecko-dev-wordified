@@ -1534,7 +1534,7 @@ mCompositor
 /
 Called
 by
-CompositorParent
+CompositorBridgeParent
 when
 a
 new

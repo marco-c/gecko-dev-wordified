@@ -4597,7 +4597,7 @@ transform
 in
 /
 /
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetShadowProperties

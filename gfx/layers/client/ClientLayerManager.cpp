@@ -211,14 +211,14 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
 /
 /
 for
-CompositorChild
+CompositorBridgeChild
 #
 include
 "
@@ -826,7 +826,7 @@ triggered
 by
 /
 /
-CompositorChild
+CompositorBridgeChild
 :
 :
 Destroy
@@ -2199,7 +2199,7 @@ return
 true
 ;
 }
-CompositorChild
+CompositorBridgeChild
 *
 ClientLayerManager
 :
@@ -2227,12 +2227,12 @@ GetRemoteRenderer
 )
 ;
 }
-CompositorChild
+CompositorBridgeChild
 *
 ClientLayerManager
 :
 :
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 {
@@ -2245,7 +2245,7 @@ XRE_IsParentProcess
 )
 {
 return
-CompositorChild
+CompositorBridgeChild
 :
 :
 Get
@@ -2621,7 +2621,7 @@ HasShadowManager
 )
 )
 {
-CompositorChild
+CompositorBridgeChild
 *
 child
 =
@@ -2699,7 +2699,7 @@ HasShadowManager
 )
 )
 {
-CompositorChild
+CompositorBridgeChild
 *
 child
 =
@@ -2714,7 +2714,7 @@ child
 Could
 not
 get
-CompositorChild
+CompositorBridgeChild
 "
 )
 ;
@@ -2823,7 +2823,7 @@ mWidget
 {
 if
 (
-CompositorChild
+CompositorBridgeChild
 *
 remoteRenderer
 =
@@ -3107,7 +3107,7 @@ mWidget
 {
 if
 (
-CompositorChild
+CompositorBridgeChild
 *
 remoteRenderer
 =
@@ -3169,7 +3169,7 @@ mWidget
 {
 if
 (
-CompositorChild
+CompositorBridgeChild
 *
 remoteRenderer
 =
@@ -3202,7 +3202,7 @@ int32_t
 aBufferSize
 )
 {
-CompositorChild
+CompositorBridgeChild
 *
 renderer
 =
@@ -3253,7 +3253,7 @@ float
 aFrameIntervals
 )
 {
-CompositorChild
+CompositorBridgeChild
 *
 renderer
 =
@@ -4388,7 +4388,7 @@ layers
 /
 ipc
 /
-CompositorParent
+CompositorBridgeParent
 .
 cpp
 :

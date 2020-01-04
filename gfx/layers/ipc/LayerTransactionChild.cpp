@@ -277,7 +277,7 @@ function
 is
 called
 from
-CompositorChild
+CompositorBridgeChild
 :
 :
 Destroy
