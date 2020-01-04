@@ -72,12 +72,6 @@ distutils
 version
 import
 LooseVersion
-from
-distutils
-.
-version
-import
-StrictVersion
 NO_MERCURIAL
 =
 '
@@ -575,7 +569,7 @@ py
 .
 MODERN_MERCURIAL_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 3
@@ -2067,7 +2061,7 @@ None
         
 our
 =
-StrictVersion
+LooseVersion
 (
 match
 .
