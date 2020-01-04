@@ -13953,6 +13953,15 @@ GetGlobalJSObject
 )
 ;
 }
+xpc
+:
+:
+InitGlobalObjectOptions
+(
+options
+aPrincipal
+)
+;
 /
 /
 Determine
