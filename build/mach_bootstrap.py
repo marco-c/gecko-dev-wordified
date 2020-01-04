@@ -383,12 +383,6 @@ build
 '
     
 '
-build
-/
-pymake
-'
-    
-'
 config
 '
     
