@@ -6085,7 +6085,7 @@ dimensions
 width
 :
 "
-410
+500
 "
 height
 :
