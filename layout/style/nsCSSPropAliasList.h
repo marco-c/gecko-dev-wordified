@@ -1365,16 +1365,6 @@ CSS_PROP_ALIAS
 -
 webkit
 -
-appearance
-appearance
-WebkitAppearance
-WEBKIT_PREFIX_PREF
-)
-CSS_PROP_ALIAS
-(
--
-webkit
--
 background
 -
 clip
