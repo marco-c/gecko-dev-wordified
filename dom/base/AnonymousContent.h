@@ -190,10 +190,8 @@ Element
 aContentNode
 )
 ;
-nsCOMPtr
-<
 Element
->
+*
 GetContentNode
 (
 )

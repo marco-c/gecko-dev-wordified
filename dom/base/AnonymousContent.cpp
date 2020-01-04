@@ -231,10 +231,8 @@ AnonymousContent
 )
 {
 }
-nsCOMPtr
-<
 Element
->
+*
 AnonymousContent
 :
 :
