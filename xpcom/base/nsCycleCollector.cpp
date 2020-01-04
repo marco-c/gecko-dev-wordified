@@ -7421,8 +7421,12 @@ nsCycleCollector
 public
 nsIMemoryReporter
 {
+public
+:
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
+private
+:
 bool
 mActivelyCollecting
 ;
