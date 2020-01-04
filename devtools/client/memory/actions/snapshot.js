@@ -2626,6 +2626,7 @@ ids
 }
 )
 ;
+yield
 Promise
 .
 all
@@ -2634,15 +2635,16 @@ snapshots
 .
 map
 (
-s
+snapshot
 =
 >
 {
+return
 heapWorker
 .
 deleteHeapSnapshot
 (
-s
+snapshot
 .
 path
 )
@@ -2671,7 +2673,7 @@ actions
 SNAPSHOT_ERROR
 id
 :
-s
+snapshot
 .
 id
 error
