@@ -496,6 +496,7 @@ mdnLinkClick
 =
 function
 (
+event
 )
 {
 ok
