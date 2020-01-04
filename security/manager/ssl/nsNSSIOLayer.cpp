@@ -4605,13 +4605,6 @@ proofOfLock
 /
 )
 {
-nsNSSShutDownList
-:
-:
-trackSSLSocketClose
-(
-)
-;
 PRFileDesc
 *
 popped
@@ -14833,13 +14826,6 @@ goto
 loser
 ;
 }
-nsNSSShutDownList
-:
-:
-trackSSLSocketCreate
-(
-)
-;
 MOZ_LOG
 (
 gPIPNSSLog
