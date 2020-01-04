@@ -2132,6 +2132,13 @@ aEntries
 if
 (
 aDatalistResult
+&
+&
+aDatalistResult
+.
+matchCount
+>
+0
 )
 {
 result
