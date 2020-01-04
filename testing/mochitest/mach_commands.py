@@ -4659,15 +4659,22 @@ self
 .
 topobjdir
 '
-build
-'
-'
 mobile
+'
+'
+android
 '
                                                 
 '
+tests
+'
+'
+browser
+'
+'
 robocop
 '
+                                                
 '
 robocop
 -
