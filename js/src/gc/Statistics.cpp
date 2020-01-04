@@ -6718,8 +6718,13 @@ testing
 fails
 if
 we
-CrashAtUnhandlableOOM
+crash
 here
+so
+set
+a
+flag
+instead
 .
 aborted
 =

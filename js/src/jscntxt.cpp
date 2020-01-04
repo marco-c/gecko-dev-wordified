@@ -7348,10 +7348,10 @@ scopeChain
 #
 endif
 void
-js
+AutoEnterOOMUnsafeRegion
 :
 :
-CrashAtUnhandlableOOM
+crash
 (
 const
 char
