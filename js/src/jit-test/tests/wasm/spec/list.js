@@ -128,7 +128,9 @@ wast
 /
 TODO
 i64
-ops
+loads
+/
+stores
 /
 /
 specTests
@@ -361,8 +363,6 @@ wast
 "
 )
 ;
-/
-/
 specTests
 .
 push
@@ -374,11 +374,6 @@ wast
 "
 )
 ;
-/
-/
-TODO
-i64
-ops
 specTests
 .
 push
@@ -453,7 +448,9 @@ wast
 /
 TODO
 i64
-ops
+loads
+/
+stores
 specTests
 .
 push
@@ -615,7 +612,9 @@ wast
 /
 TODO
 i64
-ops
+loads
+/
+stores
 /
 /
 specTests

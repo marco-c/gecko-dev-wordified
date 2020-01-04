@@ -2085,7 +2085,7 @@ aValue
 *
 Analogous
 to
-CoutPopulation32
+CountPopulation32
 but
 for
 64
