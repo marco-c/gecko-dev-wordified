@@ -250,7 +250,7 @@ std
 string
 formattedMessage
 ;
-UNUSED_VARIABLE
+UNUSED_TRACE_VARIABLE
 (
 formattedMessage
 )

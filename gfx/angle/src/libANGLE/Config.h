@@ -525,15 +525,6 @@ transparentBlueValue
 Transparent
 blue
 value
-EGLint
-optimalOrientation
-;
-/
-/
-Optimal
-window
-surface
-orientation
 }
 ;
 class

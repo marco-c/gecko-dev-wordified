@@ -195,8 +195,6 @@ const
 Limitations
 &
 limitations
-bool
-skipValidation
 )
 :
 mData
@@ -216,14 +214,6 @@ extensions
 resourceManager
 limitations
 )
-mSkipValidation
-(
-skipValidation
-)
 {
 }
 }
-/
-/
-namespace
-gl

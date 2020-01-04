@@ -133,8 +133,6 @@ GLenum
 backBufferFormat
 GLenum
 depthBufferFormat
-EGLint
-orientation
 )
 ;
 virtual
@@ -268,10 +266,10 @@ Renderer9
 mRenderer
 ;
 EGLint
-mWidth
+mHeight
 ;
 EGLint
-mHeight
+mWidth
 ;
 EGLint
 mSwapInterval

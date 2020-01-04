@@ -375,9 +375,6 @@ Data
 &
 programData
 const
-bool
-useViewScale
-const
 std
 :
 :

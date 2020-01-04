@@ -1212,7 +1212,8 @@ getVertexAttributes
 ;
 for
 (
-auto
+unsigned
+int
 idx
 :
 angle
@@ -1629,7 +1630,8 @@ getVertexAttributes
 ;
 for
 (
-auto
+unsigned
+int
 idx
 :
 angle
@@ -1890,13 +1892,7 @@ mFunctions
 >
 vertexAttribIPointer
 (
-static_cast
-<
-GLuint
->
-(
 idx
-)
 attrib
 .
 size
@@ -1929,13 +1925,7 @@ mFunctions
 >
 vertexAttribPointer
 (
-static_cast
-<
-GLuint
->
-(
 idx
-)
 attrib
 .
 size

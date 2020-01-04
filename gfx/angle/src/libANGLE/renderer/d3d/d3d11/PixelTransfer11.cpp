@@ -1759,16 +1759,6 @@ mBufferToTextureGS
 NULL
 )
 ;
-auto
-stateManager
-=
-mRenderer
--
->
-getStateManager
-(
-)
-;
 deviceContext
 -
 >
@@ -1799,7 +1789,7 @@ NULL
 0
 )
 ;
-stateManager
+mRenderer
 -
 >
 setShaderResource
@@ -2024,7 +2014,7 @@ targets
 and
 vertex
 buffer
-stateManager
+mRenderer
 -
 >
 setShaderResource

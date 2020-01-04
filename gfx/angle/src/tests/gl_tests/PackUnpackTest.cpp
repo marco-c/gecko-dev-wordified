@@ -1180,9 +1180,6 @@ ES3_OPENGL
 4
 5
 )
-ES3_OPENGLES
-(
-)
 )
 ;
 }

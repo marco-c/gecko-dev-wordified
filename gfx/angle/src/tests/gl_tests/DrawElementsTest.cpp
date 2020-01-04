@@ -1364,9 +1364,6 @@ DrawElementsTest
 ES3_OPENGL
 (
 )
-ES3_OPENGLES
-(
-)
 )
 ;
 }
