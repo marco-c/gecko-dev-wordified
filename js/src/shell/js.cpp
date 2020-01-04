@@ -40504,6 +40504,8 @@ JSPROP_SHARED
 JSPROP_ENUMERATE
 {
 {
+{
+{
 dom_genericGetter
 &
 dom_x_getterinfo
@@ -40514,6 +40516,8 @@ dom_x_getterinfo
 dom_genericSetter
 &
 dom_x_setterinfo
+}
+}
 }
 }
 }
