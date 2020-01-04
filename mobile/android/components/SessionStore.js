@@ -6152,6 +6152,8 @@ saveState
 ;
 }
 }
+else
+{
 log
 (
 "
@@ -6167,6 +6169,7 @@ action
 "
 )
 ;
+}
 }
 saveState
 :
