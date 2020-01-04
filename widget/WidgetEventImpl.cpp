@@ -3227,8 +3227,10 @@ NS_DEFINE_KEYNAME
 aCPPName
 aDOMKeyName
 )
-MOZ_UTF16
 (
+u
+"
+"
 aDOMKeyName
 )
 const
@@ -3265,8 +3267,10 @@ aCPPName
 aDOMCodeName
 )
 \
-MOZ_UTF16
 (
+u
+"
+"
 aDOMCodeName
 )
 const

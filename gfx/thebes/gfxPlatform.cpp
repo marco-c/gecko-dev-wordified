@@ -2545,8 +2545,10 @@ NS_ASSERTION
 NS_strcmp
 (
 someData
-MOZ_UTF16
 (
+u
+"
+"
 GFX_PREF_CMS_FORCE_SRGB
 )
 )

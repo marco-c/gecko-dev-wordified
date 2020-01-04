@@ -6515,10 +6515,10 @@ nsString
 (
 NS_MULTILINE_LITERAL_STRING
 (
-MOZ_UTF16
-(
+u
+"
+"
 s
-)
 )
 )
 #
@@ -6532,8 +6532,10 @@ s
 NS_MULTILINE_LITERAL_STRING_INIT
 (
 n
-MOZ_UTF16
 (
+u
+"
+"
 s
 )
 )
@@ -6548,8 +6550,10 @@ s
 NS_NAMED_MULTILINE_LITERAL_STRING
 (
 n
-MOZ_UTF16
 (
+u
+"
+"
 s
 )
 )

@@ -181,8 +181,10 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
 (
+u
+"
+"
 str_data
 )
 }
