@@ -1639,6 +1639,10 @@ Destroy
 (
 )
 ;
+mCompositorBridgeChild
+=
+nullptr
+;
 }
 /
 /
@@ -1670,6 +1674,10 @@ mCompositorVsyncDispatcher
 Shutdown
 (
 )
+;
+mCompositorVsyncDispatcher
+=
+nullptr
 ;
 }
 }
