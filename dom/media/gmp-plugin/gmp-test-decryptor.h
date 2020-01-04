@@ -155,8 +155,6 @@ Init
 GMPDecryptorCallback
 *
 aCallback
-bool
-bool
 )
 override
 {

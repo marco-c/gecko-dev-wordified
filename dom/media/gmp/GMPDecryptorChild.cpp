@@ -1060,14 +1060,6 @@ GMPDecryptorChild
 :
 RecvInit
 (
-const
-bool
-&
-aDistinctiveIdentifierRequired
-const
-bool
-&
-aPersistentStateRequired
 )
 {
 if
@@ -1086,8 +1078,6 @@ mSession
 Init
 (
 this
-aDistinctiveIdentifierRequired
-aPersistentStateRequired
 )
 ;
 return
