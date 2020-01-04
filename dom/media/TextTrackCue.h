@@ -1367,6 +1367,11 @@ aCue
 }
 }
 void
+NotifyDisplayStatesChanged
+(
+)
+;
+void
 SetDefaultCueSettings
 (
 )
