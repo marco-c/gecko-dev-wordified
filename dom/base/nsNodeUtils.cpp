@@ -2592,9 +2592,6 @@ children
 nsAutoScriptBlocker
 scriptBlocker
 ;
-AutoJSContext
-cx
-;
 nsresult
 rv
 ;
@@ -3534,6 +3531,9 @@ if
 aReparentScope
 )
 {
+AutoJSContext
+cx
+;
 JS
 :
 :
