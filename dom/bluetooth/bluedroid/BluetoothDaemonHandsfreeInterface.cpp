@@ -168,8 +168,6 @@ BluetoothAddress
 :
 :
 ANY
-(
-)
 )
 ;
 #
@@ -3472,8 +3470,6 @@ BluetoothAddress
 :
 :
 ANY
-(
-)
 ;
 }
 #

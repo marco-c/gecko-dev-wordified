@@ -2025,8 +2025,6 @@ BluetoothUuid
 :
 :
 BASE
-(
-)
 ;
 if
 (
