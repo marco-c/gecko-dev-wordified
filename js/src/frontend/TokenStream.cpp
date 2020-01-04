@@ -5613,12 +5613,18 @@ ungetChar
 break
 ;
 }
+if
+(
+!
 tokenbuf
 .
 append
 (
 c
 )
+)
+return
+false
 ;
 }
 if
@@ -5629,6 +5635,7 @@ empty
 (
 )
 )
+{
 /
 /
 The
@@ -5659,6 +5666,7 @@ for
 return
 true
 ;
+}
 size_t
 length
 =
