@@ -8144,6 +8144,15 @@ this
 ;
 GeckoAppShell
 .
+setApplicationContext
+(
+getApplicationContext
+(
+)
+)
+;
+GeckoAppShell
+.
 setGeckoInterface
 (
 this
