@@ -6369,7 +6369,10 @@ Label
 *
 label
 )
-PER_SHARED_ARCH
+DEFINED_ON
+(
+x86_shared
+)
 ;
 inline
 void
@@ -6387,7 +6390,10 @@ Label
 *
 label
 )
-PER_SHARED_ARCH
+DEFINED_ON
+(
+x86_shared
+)
 ;
 inline
 void
