@@ -3189,7 +3189,7 @@ cubeb_stream_params
 input
 ;
 uint32_t
-latency_frames
+latency
 ;
 bool
 firstStream
@@ -3348,7 +3348,7 @@ GetCubebContext
 )
 output
 &
-latency_frames
+latency
 )
 !
 =
@@ -3630,7 +3630,7 @@ mOutputWanted
 output
 :
 nullptr
-latency_frames
+latency
 DataCallback_s
 StateCallback_s
 this
