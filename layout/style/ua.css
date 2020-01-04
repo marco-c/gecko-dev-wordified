@@ -3957,6 +3957,7 @@ container
 in
 the
 CanvasFrame
+fixed
 positioned
 on
 top
@@ -4005,7 +4006,7 @@ top
 ;
 position
 :
-absolute
+fixed
 ;
 top
 :
