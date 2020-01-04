@@ -1781,7 +1781,9 @@ displaySize
 {
 mMetadataPromise
 .
-RejectNS_ERROR_DOM_MEDIA_METADATA_ERR
+Reject
+(
+NS_ERROR_DOM_MEDIA_METADATA_ERR
 __func__
 )
 ;
