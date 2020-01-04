@@ -770,8 +770,6 @@ class_
 "
 WasmModuleObject
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_DELAY_METADATA_BUILDER
 |
 JSCLASS_HAS_RESERVED_SLOTS
@@ -855,6 +853,7 @@ cx
 )
 ;
 auto
+*
 obj
 =
 NewObjectWithGivenProto
@@ -1023,8 +1022,6 @@ class_
 "
 WasmInstanceObject
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_DELAY_METADATA_BUILDER
 |
 JSCLASS_HAS_RESERVED_SLOTS
