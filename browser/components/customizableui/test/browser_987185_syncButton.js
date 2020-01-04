@@ -328,9 +328,10 @@ gSyncUI
 .
 _needsSetup
 =
-function
 (
 )
+=
+>
 Promise
 .
 resolve

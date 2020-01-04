@@ -156,9 +156,10 @@ selectedTab
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 gBrowser
 .
 currentURI
