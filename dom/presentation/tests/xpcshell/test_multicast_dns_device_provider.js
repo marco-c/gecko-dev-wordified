@@ -3567,7 +3567,7 @@ ok
 (
 true
 "
-recieve
+receive
 onSessionRequest
 event
 "
@@ -4001,7 +4001,7 @@ ok
 (
 true
 "
-recieve
+receive
 onSessionRequest
 event
 "
