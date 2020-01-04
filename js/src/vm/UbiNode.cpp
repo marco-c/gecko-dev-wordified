@@ -3157,6 +3157,12 @@ concreteTypeName
 MOZ_UTF16
 (
 "
+JS
+:
+:
+ubi
+:
+:
 RootList
 "
 )
