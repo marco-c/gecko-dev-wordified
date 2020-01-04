@@ -1982,12 +1982,15 @@ isConstant
 int32_t
 shift
 =
-ToInt32
+int32_t
+(
+ToInt64
 (
 rhs
 )
 &
 0x3F
+)
 ;
 switch
 (
