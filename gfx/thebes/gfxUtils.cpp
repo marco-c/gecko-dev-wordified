@@ -3175,7 +3175,7 @@ currentMatrix
 mContext
 -
 >
-PushGroup
+PushGroupForBlendBack
 (
 gfxContentType
 :
@@ -3212,14 +3212,7 @@ mPushedGroup
 mContext
 -
 >
-PopGroupToSource
-(
-)
-;
-mContext
--
->
-Paint
+PopGroupAndBlend
 (
 )
 ;
