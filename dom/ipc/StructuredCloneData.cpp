@@ -145,6 +145,15 @@ h
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -511,6 +520,9 @@ StructuredCloneData
 :
 WriteIPCParams
 (
+IPC
+:
+:
 Message
 *
 aMsg

@@ -1614,6 +1614,15 @@ DispatchNotificationClickEvent
 (
 )
 ;
+static
+nsresult
+RemovePermission
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 protected
 :
 Notification

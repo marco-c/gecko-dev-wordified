@@ -261,6 +261,13 @@ h
 #
 include
 "
+nsIWebBrowserChrome
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
