@@ -9743,10 +9743,10 @@ JSOP_DEFFUN
 deffun
 "
 NULL
-5
+1
+1
 0
-0
-JOF_OBJECT
+JOF_BYTE
 )
 \
 /
