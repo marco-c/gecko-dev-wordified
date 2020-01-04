@@ -1205,10 +1205,7 @@ drawing
 methods
 below
 .
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >

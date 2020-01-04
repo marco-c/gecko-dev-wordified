@@ -3824,8 +3824,10 @@ nsTextFrame
 (
 )
 ;
+RefPtr
+<
 gfxTextRun
-*
+>
 mTextRun
 ;
 nsIFrame

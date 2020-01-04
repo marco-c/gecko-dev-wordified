@@ -22345,7 +22345,7 @@ params
 current
 text
 run
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
