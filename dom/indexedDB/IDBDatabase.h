@@ -462,6 +462,9 @@ mClosed
 bool
 mInvalidated
 ;
+bool
+mQuotaExceeded
+;
 public
 :
 static
@@ -632,6 +635,16 @@ AssertIsOnOwningThread
 ;
 return
 mInvalidated
+;
+}
+void
+SetQuotaExceeded
+(
+)
+{
+mQuotaExceeded
+=
+true
 ;
 }
 void
