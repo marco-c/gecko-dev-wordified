@@ -7901,7 +7901,6 @@ backends
 direct2d1
 .
 1
-direct2d
 skia
 cairo
 "
@@ -7922,7 +7921,6 @@ backends
 direct2d1
 .
 1
-direct2d
 cairo
 "
 )
@@ -52517,18 +52515,6 @@ direct2d
 disabled
 "
 false
-)
-;
-pref
-(
-"
-gfx
-.
-direct2d
-.
-use1_1
-"
-true
 )
 ;
 /
