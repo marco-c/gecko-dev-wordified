@@ -2237,18 +2237,19 @@ messages
 =
 [
 '
-%
-s
+{
+}
 -
 test
 url
 :
-%
-s
-:
 {
+}
+:
 '
-%
+                    
+.
+format
 (
 type
 (
@@ -2256,12 +2257,18 @@ self
 )
 .
 __name__
-                                              
 self
 .
 test_url
 )
 ]
+        
+messages
++
+=
+'
+{
+'
         
 if
 self
@@ -2340,6 +2347,21 @@ format
 self
 .
 played
+)
+                
+'
+\
+tinterval
+:
+{
+}
+'
+.
+format
+(
+self
+.
+interval
 )
                 
 '
@@ -2581,6 +2603,8 @@ self
 :
         
 return
+(
+            
 '
 TimeRanges
 :
@@ -2593,8 +2617,7 @@ ranges
 {
 }
 '
-\
-               
+            
 .
 format
 (
@@ -2604,6 +2627,8 @@ length
 self
 .
 ranges
+)
+        
 )
     
 def
@@ -2699,14 +2724,15 @@ video
 played
         
 return
+(
+            
 played_ranges
 .
 length
 >
 0
 and
-\
-               
+            
 played_ranges
 .
 start
@@ -2721,8 +2747,7 @@ end
 0
 )
 and
-\
-               
+            
 played_ranges
 .
 end
@@ -2733,6 +2758,8 @@ end
 0
 .
 0
+        
+)
     
 except
 Exception
@@ -2915,21 +2942,22 @@ VideoException
 (
 '
 Video
-%
-s
+{
+}
 stalled
 .
 \
 n
-%
-s
+{
+}
 '
-%
+                             
+.
+format
 (
 video
 .
 video_url
-                                                        
 video
 )
 )

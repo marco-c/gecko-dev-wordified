@@ -95,9 +95,11 @@ media_utils
 youtube_puppeteer
 import
 (
+    
 YouTubePuppeteer
+    
 playback_done
-                                           
+    
 wait_for_almost_done
 )
 class
@@ -279,14 +281,17 @@ info
 Expected
 duration
 :
-%
-s
+{
+}
 '
-%
                                  
+.
+format
+(
 youtube
 .
 expected_duration
+)
 )
                 
 youtube
@@ -354,17 +359,18 @@ info
 Almost
 done
 :
-%
-s
+{
+}
 -
-%
-s
+{
+}
 seconds
 left
 .
 '
-%
                                      
+.
+format
 (
 youtube
 .
@@ -394,11 +400,15 @@ than
 '
 final_piece
 -
-%
-s
+{
+}
 '
-%
+                                            
+.
+format
+(
 time_left
+)
                                             
 level
 =
@@ -428,11 +438,15 @@ close
 to
 0
 -
-%
-s
+{
+}
 '
-%
+                                        
+.
+format
+(
 youtube
+)
                                         
 level
 =
