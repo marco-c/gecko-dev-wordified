@@ -458,20 +458,20 @@ getDictionaryDisplayName
 "
 en
 -
-QZ
+WO
 "
 )
 "
 English
 (
-QZ
+WO
 )
 "
 "
 '
 en
 -
-QZ
+WO
 '
 should
 display
@@ -479,7 +479,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 '
 "
@@ -494,7 +494,7 @@ getDictionaryDisplayName
 "
 en
 -
-QZ
+WO
 -
 fonipa
 "
@@ -502,7 +502,7 @@ fonipa
 "
 English
 (
-QZ
+WO
 )
 (
 fonipa
@@ -512,7 +512,7 @@ fonipa
 '
 en
 -
-QZ
+WO
 -
 fonipa
 '
@@ -522,7 +522,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 (
 fonipa
@@ -540,7 +540,7 @@ getDictionaryDisplayName
 "
 en
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -548,7 +548,7 @@ qxqaaaaz
 "
 English
 (
-QZ
+WO
 )
 (
 qxqaaaaz
@@ -558,7 +558,7 @@ qxqaaaaz
 '
 en
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -568,7 +568,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 (
 qxqaaaaz
@@ -879,13 +879,13 @@ en
 -
 Cyrl
 -
-QZ
+WO
 "
 )
 "
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -896,7 +896,7 @@ en
 -
 Cyrl
 -
-QZ
+WO
 '
 should
 display
@@ -904,7 +904,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -923,7 +923,7 @@ en
 -
 Cyrl
 -
-QZ
+WO
 -
 fonipa
 "
@@ -931,7 +931,7 @@ fonipa
 "
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -945,7 +945,7 @@ en
 -
 Cyrl
 -
-QZ
+WO
 -
 fonipa
 '
@@ -955,7 +955,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -977,7 +977,7 @@ en
 -
 Cyrl
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -985,7 +985,7 @@ qxqaaaaz
 "
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -999,7 +999,7 @@ en
 -
 Cyrl
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -1009,7 +1009,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -1326,13 +1326,13 @@ en
 -
 Qaaz
 -
-QZ
+WO
 "
 )
 "
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1343,7 +1343,7 @@ en
 -
 Qaaz
 -
-QZ
+WO
 '
 should
 display
@@ -1351,7 +1351,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1370,7 +1370,7 @@ en
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 "
@@ -1378,7 +1378,7 @@ fonipa
 "
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1392,7 +1392,7 @@ en
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 '
@@ -1402,7 +1402,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1424,7 +1424,7 @@ en
 -
 Qaaz
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -1432,7 +1432,7 @@ qxqaaaaz
 "
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1446,7 +1446,7 @@ en
 -
 Qaaz
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -1456,7 +1456,7 @@ as
 '
 English
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -1753,20 +1753,20 @@ getDictionaryDisplayName
 "
 qaz
 -
-QZ
+WO
 "
 )
 "
 qaz
 (
-QZ
+WO
 )
 "
 "
 '
 qaz
 -
-QZ
+WO
 '
 should
 display
@@ -1774,7 +1774,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 '
 "
@@ -1789,7 +1789,7 @@ getDictionaryDisplayName
 "
 qaz
 -
-QZ
+WO
 -
 fonipa
 "
@@ -1797,7 +1797,7 @@ fonipa
 "
 qaz
 (
-QZ
+WO
 )
 (
 fonipa
@@ -1807,7 +1807,7 @@ fonipa
 '
 qaz
 -
-QZ
+WO
 -
 fonipa
 '
@@ -1817,7 +1817,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 (
 fonipa
@@ -1835,7 +1835,7 @@ getDictionaryDisplayName
 "
 qaz
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -1843,7 +1843,7 @@ qxqaaaaz
 "
 qaz
 (
-QZ
+WO
 )
 (
 qxqaaaaz
@@ -1853,7 +1853,7 @@ qxqaaaaz
 '
 qaz
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -1863,7 +1863,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 (
 qxqaaaaz
@@ -2178,13 +2178,13 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 "
 )
 "
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2195,7 +2195,7 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 '
 should
 display
@@ -2203,7 +2203,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2222,7 +2222,7 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 -
 fonipa
 "
@@ -2230,7 +2230,7 @@ fonipa
 "
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2244,7 +2244,7 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 -
 fonipa
 '
@@ -2254,7 +2254,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2276,7 +2276,7 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -2284,7 +2284,7 @@ qxqaaaaz
 "
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2298,7 +2298,7 @@ qaz
 -
 Cyrl
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -2308,7 +2308,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Cyrillic
@@ -2629,13 +2629,13 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 "
 )
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2646,7 +2646,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 '
 should
 display
@@ -2654,7 +2654,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2673,7 +2673,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 "
@@ -2681,7 +2681,7 @@ fonipa
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2695,7 +2695,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 '
@@ -2705,7 +2705,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2727,7 +2727,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 qxqaaaaz
 "
@@ -2735,7 +2735,7 @@ qxqaaaaz
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2749,7 +2749,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 qxqaaaaz
 '
@@ -2759,7 +2759,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -2988,7 +2988,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -2998,7 +2998,7 @@ fonxsamp
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -3014,7 +3014,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -3026,7 +3026,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -3050,7 +3050,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -3060,7 +3060,7 @@ qxqaaaaz
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -3076,7 +3076,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -3088,7 +3088,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -3112,7 +3112,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -3124,7 +3124,7 @@ qxqaaaaz
 "
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
@@ -3142,7 +3142,7 @@ qaz
 -
 Qaaz
 -
-QZ
+WO
 -
 fonipa
 -
@@ -3156,7 +3156,7 @@ as
 '
 qaz
 (
-QZ
+WO
 )
 /
 Qaaz
