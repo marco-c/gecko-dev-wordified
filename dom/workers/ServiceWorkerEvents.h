@@ -711,6 +711,9 @@ mIsReload
 void
 RespondWith
 (
+JSContext
+*
+aCx
 Promise
 &
 aArg
