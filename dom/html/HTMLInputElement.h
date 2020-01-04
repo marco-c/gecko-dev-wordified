@@ -7644,12 +7644,6 @@ FileList
 >
 mFileList
 ;
-RefPtr
-<
-Promise
->
-mFilesAndDirectoriesPromise
-;
 nsString
 mStaticDocFileList
 ;
