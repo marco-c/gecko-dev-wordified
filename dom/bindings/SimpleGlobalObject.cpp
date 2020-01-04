@@ -451,16 +451,6 @@ Create
 (
 )
 ;
-if
-(
-!
-principal
-)
-{
-return
-nullptr
-;
-}
 }
 JS
 :

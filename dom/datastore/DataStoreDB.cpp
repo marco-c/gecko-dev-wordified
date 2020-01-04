@@ -608,16 +608,6 @@ Create
 (
 )
 ;
-if
-(
-!
-principal
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
 nsIXPConnect
 *
 xpc

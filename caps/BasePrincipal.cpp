@@ -2786,6 +2786,7 @@ nsNullPrincipal
 :
 Create
 (
+aAttrs
 )
 ;
 }
@@ -2849,6 +2850,7 @@ nsNullPrincipal
 :
 Create
 (
+aAttrs
 )
 ;
 }

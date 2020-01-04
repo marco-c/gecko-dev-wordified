@@ -1993,12 +1993,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-mPrincipal
-NS_ERROR_FAILURE
-)
-;
 if
 (
 !
@@ -2731,12 +2725,6 @@ nsNullPrincipal
 :
 Create
 (
-)
-;
-NS_ENSURE_TRUE
-(
-prin
-NS_ERROR_FAILURE
 )
 ;
 rv

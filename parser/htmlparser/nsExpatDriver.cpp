@@ -4427,12 +4427,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-loadingPrincipal
-NS_ERROR_FAILURE
-)
-;
 }
 rv
 =
