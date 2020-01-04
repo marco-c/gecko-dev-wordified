@@ -1807,6 +1807,11 @@ nsPluginInstanceOwner
 nsPluginInstanceOwner
 (
 )
+:
+mPluginWindow
+(
+nullptr
+)
 {
 /
 /
@@ -1866,11 +1871,6 @@ NewPluginNativeWindow
 &
 mPluginWindow
 )
-;
-else
-mPluginWindow
-=
-nullptr
 ;
 mPluginFrame
 =
