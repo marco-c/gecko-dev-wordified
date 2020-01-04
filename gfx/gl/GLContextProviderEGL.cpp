@@ -2323,6 +2323,7 @@ sEGLLibrary
 EnsureInitialized
 (
 false
+&
 discardFailureId
 )
 )
@@ -2486,8 +2487,9 @@ config
 EGLSurface
 surface
 nsACString
-&
-aFailureId
+*
+const
+out_failureId
 )
 {
 if
@@ -2503,7 +2505,8 @@ LOCAL_EGL_OPENGL_ES_API
 LOCAL_EGL_FALSE
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -2693,7 +2696,8 @@ if
 context
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -2745,7 +2749,8 @@ Init
 )
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -3808,6 +3813,7 @@ sEGLLibrary
 EnsureInitialized
 (
 false
+&
 discardFailureId
 )
 )
@@ -3933,6 +3939,7 @@ sEGLLibrary
 EnsureInitialized
 (
 false
+&
 discardFailureId
 )
 )
@@ -4066,6 +4073,7 @@ nullptr
 false
 config
 surface
+&
 discardFailureId
 )
 ;
@@ -4286,6 +4294,7 @@ sEGLLibrary
 EnsureInitialized
 (
 false
+&
 discardFailureId
 )
 )
@@ -4945,8 +4954,9 @@ SurfaceCaps
 &
 minCaps
 nsACString
-&
-aFailureId
+*
+const
+out_failureId
 )
 {
 bool
@@ -4970,7 +4980,7 @@ sEGLLibrary
 EnsureInitialized
 (
 forceEnableHardware
-aFailureId
+out_failureId
 )
 )
 {
@@ -5002,7 +5012,8 @@ config
 EGL_NO_CONFIG
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -5077,7 +5088,8 @@ if
 surface
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -5120,7 +5132,7 @@ nullptr
 true
 config
 surface
-aFailureId
+out_failureId
 )
 ;
 if
@@ -5182,8 +5194,9 @@ CreateHeadless
 CreateContextFlags
 flags
 nsACString
-&
-aFailureId
+*
+const
+out_failureId
 )
 {
 mozilla
@@ -5226,7 +5239,7 @@ CreateEGLPBufferOffscreenContext
 flags
 dummySize
 dummyCaps
-aFailureId
+out_failureId
 )
 ;
 }
@@ -5284,8 +5297,9 @@ minCaps
 CreateContextFlags
 flags
 nsACString
-&
-aFailureId
+*
+const
+out_failureId
 )
 {
 bool
@@ -5309,7 +5323,7 @@ sEGLLibrary
 EnsureInitialized
 (
 forceEnableHardware
-aFailureId
+out_failureId
 )
 )
 {
@@ -5321,7 +5335,8 @@ IsANGLE
 (
 )
 .
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
@@ -5382,7 +5397,7 @@ gl
 CreateHeadless
 (
 flags
-aFailureId
+out_failureId
 )
 ;
 if
@@ -5439,7 +5454,7 @@ CreateEGLPBufferOffscreenContext
 flags
 size
 minBackbufferCaps
-aFailureId
+out_failureId
 )
 ;
 if
@@ -5570,7 +5585,8 @@ minOffscreenCaps
 )
 )
 {
-aFailureId
+*
+out_failureId
 =
 NS_LITERAL_CSTRING
 (
