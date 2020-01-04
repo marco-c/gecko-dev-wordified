@@ -261,6 +261,15 @@ MaxExports
 static
 const
 unsigned
+MaxTableElems
+=
+128
+*
+1024
+;
+static
+const
+unsigned
 MaxArgsPerFunc
 =
 4
