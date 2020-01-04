@@ -320,10 +320,7 @@ mDormantSupported
 aSupported
 ;
 }
-RefPtr
-<
-ShutdownPromise
->
+void
 Shutdown
 (
 )
