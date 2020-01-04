@@ -21088,17 +21088,9 @@ sn
 Skip
 the
 NOP
-or
-POP
 .
 MOZ_ASSERT
 (
-op
-=
-=
-JSOP_POP
-|
-|
 op
 =
 =
