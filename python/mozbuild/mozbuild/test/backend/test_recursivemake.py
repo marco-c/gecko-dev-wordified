@@ -5829,7 +5829,7 @@ LOCAL_INCLUDES
 -
 I
 (
-topsrcdir
+srcdir
 )
 /
 bar
