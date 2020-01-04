@@ -487,15 +487,6 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-/
-/
-Telemetry
-Peer
-conection
-counter
-int
-mConnectionCounter
-;
 nsCOMPtr
 <
 nsITimer
