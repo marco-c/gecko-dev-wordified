@@ -208,6 +208,17 @@ gfxCrashReporterUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+CompositorParent
+.
+h
+"
 namespace
 mozilla
 {
@@ -226,7 +237,7 @@ CompositorD3D9
 :
 CompositorD3D9
 (
-PCompositorParent
+CompositorParent
 *
 aParent
 nsIWidget
@@ -3460,7 +3471,7 @@ call
 mParent
 -
 >
-SendInvalidateAll
+InvalidateRemoteLayers
 (
 )
 |
@@ -3804,7 +3815,7 @@ nullptr
 mParent
 -
 >
-SendInvalidateAll
+InvalidateRemoteLayers
 (
 )
 ;
@@ -3880,7 +3891,7 @@ nullptr
 mParent
 -
 >
-SendInvalidateAll
+InvalidateRemoteLayers
 (
 )
 ;
@@ -3912,7 +3923,7 @@ GetDeviceResetCount
 mParent
 -
 >
-SendInvalidateAll
+InvalidateRemoteLayers
 (
 )
 ;
@@ -4045,7 +4056,7 @@ FailedToResetDevice
 mParent
 -
 >
-SendInvalidateAll
+InvalidateRemoteLayers
 (
 )
 ;

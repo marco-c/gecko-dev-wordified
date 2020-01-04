@@ -998,7 +998,7 @@ class
 CompositingRenderTarget
 ;
 class
-PCompositorParent
+CompositorParent
 ;
 class
 LayerManagerComposite
@@ -1321,7 +1321,7 @@ Compositor
 explicit
 Compositor
 (
-PCompositorParent
+CompositorParent
 *
 aParent
 =
@@ -3626,7 +3626,7 @@ mCompositorID
 DiagnosticTypes
 mDiagnosticTypes
 ;
-PCompositorParent
+CompositorParent
 *
 mParent
 ;

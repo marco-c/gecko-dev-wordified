@@ -173,7 +173,7 @@ public
 :
 CompositorD3D9
 (
-PCompositorParent
+CompositorParent
 *
 aParent
 nsIWidget
