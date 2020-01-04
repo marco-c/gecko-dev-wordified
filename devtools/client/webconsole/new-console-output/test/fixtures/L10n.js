@@ -60,7 +60,7 @@ str
 {
 case
 "
-severity
+level
 .
 error
 "
