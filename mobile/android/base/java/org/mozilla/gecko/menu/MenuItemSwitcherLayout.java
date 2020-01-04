@@ -924,7 +924,7 @@ R
 .
 attr
 .
-menuItemShareActionButtonStyle
+menuItemSecondaryActionBarStyle
 )
 ;
 button
