@@ -1486,13 +1486,6 @@ aSessionId
 override
 ;
 virtual
-bool
-RecvNotifyGMPsChanged
-(
-)
-override
-;
-virtual
 PSpeechSynthesisChild
 *
 AllocPSpeechSynthesisChild
