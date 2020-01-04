@@ -2759,13 +2759,13 @@ the
 current
 inner
 .
-JSContext
+JS
+:
+:
+RootingContext
 *
 rootingCx
 =
-nsContentUtils
-:
-:
 RootingCx
 (
 )

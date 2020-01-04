@@ -13598,13 +13598,13 @@ body
 /
 ArrayBuffer
 ?
-JSContext
+JS
+:
+:
+RootingContext
 *
 rootingCx
 =
-nsContentUtils
-:
-:
 RootingCx
 (
 )

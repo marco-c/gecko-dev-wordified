@@ -5034,9 +5034,6 @@ NotificationOptions
 >
 options
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

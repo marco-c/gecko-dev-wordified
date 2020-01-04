@@ -2628,9 +2628,6 @@ SpeechRecognitionEventInit
 >
 init
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

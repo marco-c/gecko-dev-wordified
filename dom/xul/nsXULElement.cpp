@@ -16926,9 +16926,6 @@ JSScript
 >
 script
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

@@ -13394,9 +13394,6 @@ aWindow
 )
 mInnerWindowReflector
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -21389,9 +21386,6 @@ JSObject
 >
 obj
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -49975,9 +49969,6 @@ JSObject
 >
 handler
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

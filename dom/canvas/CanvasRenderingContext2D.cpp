@@ -32173,9 +32173,6 @@ Uint8ClampedArray
 >
 arr
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -32273,9 +32270,6 @@ Uint8ClampedArray
 >
 arr
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

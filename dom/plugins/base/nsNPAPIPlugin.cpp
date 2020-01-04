@@ -5249,7 +5249,7 @@ JSObject
 >
 global
 (
-nsContentUtils
+dom
 :
 :
 RootingCx

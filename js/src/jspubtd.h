@@ -268,6 +268,9 @@ JS_PUBLIC_API
 CompartmentOptions
 )
 ;
+struct
+RootingContext
+;
 class
 Value
 ;
@@ -284,9 +287,6 @@ JS
 namespace
 js
 {
-struct
-ContextFriendFields
-;
 class
 RootLists
 ;
@@ -947,10 +947,10 @@ tag
 ;
 AutoGCRooter
 (
-js
+JS
 :
 :
-ContextFriendFields
+RootingContext
 *
 cx
 ptrdiff_t
