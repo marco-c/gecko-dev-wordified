@@ -1409,6 +1409,14 @@ both
 )
 ;
 }
+if
+(
+!
+panel
+.
+viewFrame
+)
+{
 panel
 .
 viewFrame
@@ -1474,6 +1482,7 @@ createAboutBlankContentViewer
 principal
 )
 ;
+}
 /
 /
 Resize
