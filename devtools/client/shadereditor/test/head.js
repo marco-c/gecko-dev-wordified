@@ -1000,6 +1000,7 @@ generator
 =
 isWebGLSupported
 (
+document
 )
 ?
 ifWebGLSupported
