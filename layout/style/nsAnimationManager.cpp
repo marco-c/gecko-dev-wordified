@@ -2677,12 +2677,6 @@ aStyleContext
 GetPseudoType
 (
 )
-false
-/
-*
-aCreateIfNeeded
-*
-/
 )
 ;
 if
@@ -2849,7 +2843,7 @@ collection
 CSSAnimationCollection
 :
 :
-GetAnimationCollection
+GetOrCreateAnimationCollection
 (
 aElement
 aStyleContext
@@ -2858,12 +2852,6 @@ aStyleContext
 GetPseudoType
 (
 )
-true
-/
-*
-aCreateIfNeeded
-*
-/
 &
 createdCollection
 )
@@ -3105,12 +3093,6 @@ GetAnimationCollection
 (
 aElement
 aPseudoType
-false
-/
-*
-aCreateIfNeeded
-*
-/
 )
 ;
 if

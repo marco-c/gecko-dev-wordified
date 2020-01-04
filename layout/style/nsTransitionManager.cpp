@@ -2114,12 +2114,6 @@ GetAnimationCollection
 (
 aElement
 pseudoType
-false
-/
-*
-aCreateIfNeeded
-*
-/
 )
 ;
 if
@@ -5295,7 +5289,7 @@ aElementTransitions
 CSSTransitionCollection
 :
 :
-GetAnimationCollection
+GetOrCreateAnimationCollection
 (
 aElement
 aNewStyleContext
@@ -5304,12 +5298,6 @@ aNewStyleContext
 GetPseudoType
 (
 )
-true
-/
-*
-aCreateIfNeeded
-*
-/
 &
 createdCollection
 )
@@ -5589,12 +5577,6 @@ GetAnimationCollection
 (
 aElement
 aPseudoType
-false
-/
-*
-aCreateIfNeeded
-*
-/
 )
 ;
 if
