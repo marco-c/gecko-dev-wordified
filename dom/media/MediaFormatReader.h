@@ -564,6 +564,7 @@ bool
 HasVideo
 (
 )
+const
 {
 return
 mVideo
@@ -575,6 +576,7 @@ bool
 HasAudio
 (
 )
+const
 {
 return
 mAudio
@@ -2872,13 +2874,7 @@ bool
 IsEncrypted
 (
 )
-{
-return
-mIsEncrypted
-;
-}
-bool
-mIsEncrypted
+const
 ;
 /
 /
