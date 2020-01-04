@@ -13710,6 +13710,7 @@ namedGroups
 ssl_grp_ec_curve25519
 ssl_grp_ec_secp256r1
 ssl_grp_ec_secp384r1
+ssl_grp_ec_secp521r1
 ssl_grp_ffdhe_2048
 ssl_grp_ffdhe_3072
 }
