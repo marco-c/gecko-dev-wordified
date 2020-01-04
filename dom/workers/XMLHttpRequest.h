@@ -288,6 +288,14 @@ NS_OK
 )
 {
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 }
 ;
 private
