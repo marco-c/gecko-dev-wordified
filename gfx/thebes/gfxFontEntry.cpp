@@ -1853,7 +1853,7 @@ fontMatrix
 ;
 cairo_get_font_matrix
 (
-gfxContext
+gfxFont
 :
 :
 RefCairo
