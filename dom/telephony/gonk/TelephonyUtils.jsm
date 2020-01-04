@@ -565,13 +565,6 @@ resolve
 ;
 }
 }
-conferenceCallStateChanged
-:
-function
-(
-)
-{
-}
 supplementaryServiceNotification
 :
 function

@@ -293,13 +293,6 @@ listener
 ;
 }
 }
-conferenceCallStateChanged
-:
-function
-(
-)
-{
-}
 supplementaryServiceNotification
 :
 function

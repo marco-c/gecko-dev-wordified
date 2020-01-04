@@ -264,17 +264,6 @@ override
 ;
 virtual
 bool
-RecvNotifyConferenceCallStateChanged
-(
-const
-uint16_t
-&
-aCallState
-)
-override
-;
-virtual
-bool
 RecvNotifyConferenceError
 (
 const
