@@ -10326,6 +10326,16 @@ n
 rlib
 .
 basename
+.
+replace
+(
+'
+-
+'
+'
+_
+'
+)
 rlib_relpath
 rlib
 .
