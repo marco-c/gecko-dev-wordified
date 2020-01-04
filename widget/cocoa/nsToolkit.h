@@ -107,13 +107,6 @@ nscore
 h
 "
 #
-include
-"
-nsCocoaFeatures
-.
-h
-"
-#
 import
 <
 Carbon
