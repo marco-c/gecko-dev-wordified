@@ -539,6 +539,8 @@ jsx
 xml
 .
 html
+.
+xhtml
 ]
 '
                      
@@ -551,6 +553,10 @@ to
 lint
 default
 :
+'
++
+                     
+'
 "
 [
 .
@@ -563,6 +569,8 @@ jsx
 xml
 .
 html
+.
+xhtml
 ]
 "
 .
