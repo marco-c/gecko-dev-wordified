@@ -1840,6 +1840,25 @@ get_json_routes
 image_parameters
 )
     
+image_task
+[
+'
+attributes
+'
+]
+=
+{
+        
+'
+kind
+'
+:
+'
+legacy
+'
+    
+}
+    
 graph
 [
 '
