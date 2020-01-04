@@ -3122,6 +3122,12 @@ dpiY
 sGetDpiForMonitor
 (
 aMonitor
+?
+aMonitor
+:
+GetPrimaryMonitor
+(
+)
 MDT_EFFECTIVE_DPI
 &
 dpiX
