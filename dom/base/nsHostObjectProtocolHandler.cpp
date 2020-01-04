@@ -826,6 +826,9 @@ actor
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -903,6 +906,9 @@ GetSingleton
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !

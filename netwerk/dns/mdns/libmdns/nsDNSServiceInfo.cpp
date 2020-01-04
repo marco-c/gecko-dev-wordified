@@ -128,6 +128,15 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -181,6 +190,9 @@ str
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -207,6 +219,9 @@ str
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -234,6 +249,9 @@ value
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -260,6 +278,9 @@ str
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -286,6 +307,9 @@ str
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -312,6 +336,9 @@ str
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -418,6 +445,9 @@ nsISupports
 >
 element
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -460,6 +490,9 @@ nsIVariant
 >
 value
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -474,6 +507,9 @@ name
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -494,6 +530,9 @@ value
 nsAutoCString
 valueStr
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -508,6 +547,9 @@ valueStr
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -524,6 +566,9 @@ valueStr
 )
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

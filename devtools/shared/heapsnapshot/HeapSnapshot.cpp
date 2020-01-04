@@ -345,6 +345,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -9658,6 +9667,9 @@ ptr
 )
 const
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !

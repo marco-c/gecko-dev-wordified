@@ -193,6 +193,15 @@ UniquePtrExtensions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 /
 /
 /
@@ -2069,6 +2078,9 @@ fe_time
 nsAutoCString
 escaped
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !

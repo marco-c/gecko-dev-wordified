@@ -129,6 +129,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -424,6 +433,9 @@ NS_IsMainThread
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

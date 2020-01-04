@@ -1820,6 +1820,9 @@ to
 fire
 immediately
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1856,6 +1859,9 @@ in
 5
 seconds
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2157,6 +2163,9 @@ discovery
 again
 immediately
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2391,6 +2400,9 @@ mNumConsecutiveStartDiscoveryFailures
 3
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2479,6 +2491,9 @@ if
 mDiscoveryActive
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

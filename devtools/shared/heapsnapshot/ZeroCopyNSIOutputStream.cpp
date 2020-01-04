@@ -114,6 +114,15 @@ DebugOnly
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -195,6 +204,9 @@ failed
 (
 )
 )
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

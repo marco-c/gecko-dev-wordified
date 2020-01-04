@@ -3410,7 +3410,7 @@ than
 .
 0
 .
-NS_WARN_IF
+NS_WARNING_ASSERTION
 (
 mTimeStretcher
 -
@@ -3418,8 +3418,13 @@ mTimeStretcher
 numUnprocessedSamples
 (
 )
->
+=
+=
 0
+"
+no
+samples
+"
 )
 ;
 }

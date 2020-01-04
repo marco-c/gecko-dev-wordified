@@ -2649,6 +2649,9 @@ DeviceState
 eUnknown
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2698,6 +2701,9 @@ i
 -
 i
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

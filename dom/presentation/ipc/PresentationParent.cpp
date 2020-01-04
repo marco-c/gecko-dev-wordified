@@ -318,6 +318,9 @@ i
 +
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -366,6 +369,9 @@ i
 +
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -414,6 +420,9 @@ i
 +
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -802,6 +811,9 @@ MOZ_ASSERT
 mService
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -833,6 +845,9 @@ MOZ_ASSERT
 mService
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -966,6 +981,9 @@ aSessionId
 )
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1041,6 +1059,9 @@ aSessionId
 )
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1089,6 +1110,9 @@ AppendElement
 aWindowId
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1137,6 +1161,9 @@ RemoveElement
 aWindowId
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1188,6 +1215,9 @@ PresentationBuilderParent
 this
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1451,6 +1481,9 @@ nsIPresentationService
 ROLE_RECEIVER
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1496,6 +1529,9 @@ MOZ_ASSERT
 mService
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2445,6 +2481,9 @@ Manager
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !

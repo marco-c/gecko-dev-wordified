@@ -404,6 +404,9 @@ rv
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -446,6 +449,9 @@ environment
 variable
 directly
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -562,6 +568,9 @@ rv
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 setenv

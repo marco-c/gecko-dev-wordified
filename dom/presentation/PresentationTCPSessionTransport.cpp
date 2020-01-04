@@ -1613,6 +1613,9 @@ channel
 is
 ready
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1698,6 +1701,9 @@ CopierCallbacks
 this
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2133,6 +2139,9 @@ channel
 is
 ready
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2185,6 +2194,9 @@ been
 shut
 down
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

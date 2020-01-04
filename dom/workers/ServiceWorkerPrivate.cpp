@@ -8115,6 +8115,9 @@ the
 IndexedDatabaseManager
 is
 initialized
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -8628,6 +8631,9 @@ nullptr
 ;
 }
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !

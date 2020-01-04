@@ -128,6 +128,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -151,6 +160,9 @@ if
 addr
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 PR_MemUnmap
@@ -175,6 +187,9 @@ if
 fileMap
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 PR_CloseFileMap
@@ -196,6 +211,9 @@ if
 fd
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 PR_Close

@@ -3210,6 +3210,9 @@ GetNext
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -4655,6 +4658,9 @@ of
 availability
 object
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -5016,6 +5022,9 @@ kept
 for
 reconnection
 .
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
