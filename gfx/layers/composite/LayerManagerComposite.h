@@ -3062,6 +3062,7 @@ region
 .
 *
 /
+virtual
 nsIntRegion
 GetFullyRenderedRegion
 (
