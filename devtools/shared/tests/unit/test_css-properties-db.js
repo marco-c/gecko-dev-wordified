@@ -60,7 +60,7 @@ are
 not
 then
 mach
-generate
+devtools
 -
 css
 -
@@ -278,7 +278,7 @@ this
 assertion
 run
 mach
-generate
+devtools
 -
 css
 -
