@@ -2671,6 +2671,10 @@ soname
 '
 variant
 '
+        
+'
+symbols_file
+'
     
 )
     
@@ -2705,6 +2709,9 @@ None
 variant
 =
 None
+symbols_file
+=
+False
 )
 :
         
@@ -2886,6 +2893,34 @@ soname
 self
 .
 lib_name
+        
+if
+symbols_file
+:
+            
+self
+.
+symbols_file
+=
+'
+%
+s
+.
+symbols
+'
+%
+self
+.
+lib_name
+        
+else
+:
+            
+self
+.
+symbols_file
+=
+None
 class
 ExternalLibrary
 (
