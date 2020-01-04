@@ -37329,6 +37329,7 @@ toInt32
 ;
 if
 (
+!
 TypedArrayObject
 :
 :
@@ -37341,9 +37342,14 @@ res
 )
 )
 return
-!
-!
+false
+;
+if
+(
 res
+)
+return
+true
 ;
 }
 if
