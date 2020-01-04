@@ -124,7 +124,7 @@ chrome
 /
 common
 /
-ipc_sync_message
+ipc_message
 .
 h
 "
