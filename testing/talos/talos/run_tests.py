@@ -1608,13 +1608,6 @@ json
 ]
 )
     
-talos_results
-.
-check_output_formats
-(
-results_urls
-)
-    
 httpd
 =
 setup_webserver
