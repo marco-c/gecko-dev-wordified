@@ -12519,7 +12519,7 @@ Get
 gpu
 -
 >
-LaunchGPUProcess
+EnableGPUProcess
 (
 )
 ;
