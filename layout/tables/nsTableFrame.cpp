@@ -18341,7 +18341,7 @@ moz
 -
 table
 -
-outer
+wrapper
 rule
 in
 ua

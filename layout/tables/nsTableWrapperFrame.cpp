@@ -1370,7 +1370,7 @@ moz
 -
 table
 -
-outer
+wrapper
 pseudo
 -
 element
