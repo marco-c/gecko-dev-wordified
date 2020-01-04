@@ -639,7 +639,7 @@ performance
 .
 ui
 .
-enable
+show
 -
 jit
 -
@@ -817,7 +817,7 @@ performance
 .
 ui
 .
-enable
+show
 -
 jit
 -

@@ -284,14 +284,6 @@ withAllocations
 |
 |
 false
-withJITOptimizations
-:
-options
-.
-withJITOptimizations
-|
-|
-false
 allocationsSampleProbability
 :
 options

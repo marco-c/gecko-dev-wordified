@@ -454,9 +454,6 @@ true
 withAllocations
 :
 true
-withJITOptimizations
-:
-true
 }
 }
 /

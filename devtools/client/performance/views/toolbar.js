@@ -820,7 +820,7 @@ enable
 #
 option
 -
-enable
+show
 -
 jit
 -

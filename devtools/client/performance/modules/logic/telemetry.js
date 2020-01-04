@@ -149,9 +149,6 @@ withMemory
 "
 withAllocations
 "
-"
-withJITOptimizations
-"
 ]
 ;
 const
