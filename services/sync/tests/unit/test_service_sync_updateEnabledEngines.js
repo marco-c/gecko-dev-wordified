@@ -657,6 +657,10 @@ Level
 .
 Trace
 ;
+validate_all_future_pings
+(
+)
+;
 run_next_test
 (
 )

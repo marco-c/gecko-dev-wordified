@@ -352,6 +352,10 @@ initTestLogging
 (
 )
 ;
+validate_all_future_pings
+(
+)
+;
 ensureLegacyIdentityManager
 (
 )

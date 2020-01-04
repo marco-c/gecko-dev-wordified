@@ -1065,9 +1065,14 @@ sessionToken
 '
 uid
 :
-'
-user_uid
-'
+"
+a
+"
+.
+repeat
+(
+32
+)
 verified
 :
 true
