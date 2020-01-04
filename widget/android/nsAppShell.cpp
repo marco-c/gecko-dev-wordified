@@ -4378,12 +4378,6 @@ AndroidGeckoEvent
 :
 VIEWPORT
 :
-case
-AndroidGeckoEvent
-:
-:
-BROADCAST
-:
 {
 if
 (
