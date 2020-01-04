@@ -267,7 +267,7 @@ json
 [
 "
 [
-app
+profile
 ]
 /
 test
