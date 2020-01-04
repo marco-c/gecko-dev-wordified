@@ -283,7 +283,7 @@ urls
 ]
 text
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -360,7 +360,7 @@ SEC_ERROR_EXPIRED_CERTIFICATE
 '
 text
 .
-get_attribute
+get_property
 (
 '
 textContent
