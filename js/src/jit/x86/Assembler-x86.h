@@ -6882,7 +6882,7 @@ currentOffset
 ;
 }
 void
-loadAsmJSActivation
+loadWasmActivation
 (
 Register
 dest

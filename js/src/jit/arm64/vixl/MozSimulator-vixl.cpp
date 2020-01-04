@@ -1277,7 +1277,7 @@ rpc
 JSRuntime
 :
 :
-innermostAsmJSActivation
+innermostWasmActivation
 (
 )
 -

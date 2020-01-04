@@ -22243,7 +22243,7 @@ kCheckStackPointer
 endif
 }
 void
-loadAsmJSActivation
+loadWasmActivation
 (
 Register
 dest

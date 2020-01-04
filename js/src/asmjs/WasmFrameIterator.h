@@ -199,7 +199,7 @@ namespace
 js
 {
 class
-AsmJSActivation
+WasmActivation
 ;
 namespace
 jit
@@ -238,7 +238,7 @@ frames
 of
 a
 single
-AsmJSActivation
+WasmActivation
 called
 synchronously
 /
@@ -337,7 +337,7 @@ explicit
 FrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -486,7 +486,7 @@ frames
 of
 a
 single
-AsmJSActivation
+WasmActivation
 given
 an
 /
@@ -549,7 +549,7 @@ void
 initFromFP
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -564,7 +564,7 @@ explicit
 ProfilingFrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -572,7 +572,7 @@ activation
 ProfilingFrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 const

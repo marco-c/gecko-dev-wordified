@@ -930,8 +930,15 @@ Module
 :
 SharedBool
 sharedHeap
-UniqueChars
+Module
+:
+:
+MutedBool
+mutedErrors
+CacheableChars
 filename
+CacheableTwoByteChars
+displayURL
 UniqueStaticLinkData
 *
 staticLinkData

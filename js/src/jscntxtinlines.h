@@ -2955,7 +2955,7 @@ if
 act
 -
 >
-isAsmJS
+isWasm
 (
 )
 )

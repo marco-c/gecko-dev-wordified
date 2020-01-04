@@ -5235,8 +5235,8 @@ false
 /
 /
 Push
-an
-AsmJSActivation
+a
+WasmActivation
 to
 describe
 the
@@ -5309,11 +5309,11 @@ skip
 over
 it
 .
-AsmJSActivation
+WasmActivation
 activation
 (
 cx
-asmJSModule
+module
 )
 ;
 JitActivation

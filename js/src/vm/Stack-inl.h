@@ -2740,7 +2740,7 @@ case
 DONE
 :
 case
-ASMJS
+WASM
 :
 break
 ;
@@ -5563,13 +5563,13 @@ isProfiling
 ;
 MOZ_ASSERT
 (
-isAsmJS
+isWasm
 (
 )
 )
 ;
 return
-asAsmJS
+asWasm
 (
 )
 -
@@ -6120,7 +6120,7 @@ const
 {
 if
 (
-isAsmJS
+isWasm
 (
 )
 )
@@ -6229,7 +6229,7 @@ setHasCachedSavedFrame
 MOZ_ASSERT
 (
 !
-isAsmJS
+isWasm
 (
 )
 )

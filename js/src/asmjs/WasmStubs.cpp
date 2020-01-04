@@ -1252,7 +1252,7 @@ return
 Since
 /
 /
-loadAsmJSActivation
+loadWasmActivation
 uses
 GlobalReg
 we
@@ -1279,7 +1279,7 @@ FramePushedForEntrySP
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -1291,7 +1291,7 @@ storeStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP
@@ -1908,7 +1908,7 @@ alignment
 .
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -1920,7 +1920,7 @@ loadStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP
@@ -4715,7 +4715,7 @@ offsetOfProfilingActivation
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 reg0
 )
@@ -4727,7 +4727,7 @@ loadPtr
 Address
 (
 reg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfContext
@@ -6571,7 +6571,7 @@ non
 -
 profiling
 prologue
-AsmJSActivation
+WasmActivation
 :
 :
 fp
@@ -6669,7 +6669,7 @@ NonArgReturnReg0
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 activation
 )
@@ -6686,7 +6686,7 @@ getStackPointer
 Address
 (
 activation
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -7518,7 +7518,7 @@ aborted
 is
 stored
 in
-AsmJSActivation
+WasmActivation
 :
 :
 resumePC_
@@ -7754,7 +7754,7 @@ space
 .
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -7766,7 +7766,7 @@ loadPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -8131,7 +8131,7 @@ space
 .
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 IntArgReg0
 )
@@ -8143,7 +8143,7 @@ loadPtr
 Address
 (
 IntArgReg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -8460,7 +8460,7 @@ slot
 .
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 IntArgReg0
 )
@@ -8472,7 +8472,7 @@ loadPtr
 Address
 (
 IntArgReg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -8971,7 +8971,7 @@ all
 frames
 in
 this
-AsmJSActivation
+WasmActivation
 .
 Set
 fp
@@ -9007,7 +9007,7 @@ NonArgReturnReg0
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -9023,7 +9023,7 @@ ImmWord
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -9046,7 +9046,7 @@ loadStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP

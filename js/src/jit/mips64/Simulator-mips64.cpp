@@ -23549,7 +23549,7 @@ get_pc
 (
 )
 ;
-AsmJSActivation
+WasmActivation
 *
 activation
 =
@@ -23565,7 +23565,7 @@ runtimeFromMainThread
 )
 -
 >
-asmJSActivationStack
+wasmActivationStack
 (
 )
 ;
