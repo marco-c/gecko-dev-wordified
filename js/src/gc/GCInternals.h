@@ -722,9 +722,6 @@ CheckHeapAfterMovingGC
 JSRuntime
 *
 rt
-AutoLockForExclusiveAccess
-&
-lock
 )
 ;
 #
