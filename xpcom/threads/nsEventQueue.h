@@ -646,7 +646,7 @@ nsEventQueueBase
 mozilla
 :
 :
-ReentrantMonitor
+Monitor
 >
 {
 private
@@ -657,7 +657,7 @@ nsEventQueueBase
 mozilla
 :
 :
-ReentrantMonitor
+Monitor
 >
 Base
 ;
@@ -686,7 +686,7 @@ nsEventQueueBase
 mozilla
 :
 :
-ReentrantMonitor
+Monitor
 >
 ;
 typedef
