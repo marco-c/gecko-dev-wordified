@@ -644,11 +644,6 @@ DeferredDestroy
 (
 )
 {
-MOZ_ASSERT
-(
-mCompositorThreadHolder
-)
-;
 mCompositorThreadHolder
 =
 nullptr
