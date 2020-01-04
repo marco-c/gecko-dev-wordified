@@ -8653,6 +8653,9 @@ if
 (
 !
 shouldLCDRenderText
+&
+&
+aaEnabled
 )
 {
 /
