@@ -5805,10 +5805,15 @@ dst_filename
 return
 self
 .
-_retry_download_file
+download_file
 (
+url
+=
 binary_file
+file_name
+=
 dst_filename
+                                      
 error_level
 =
 FATAL
