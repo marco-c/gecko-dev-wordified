@@ -239,6 +239,7 @@ ptr
 .
 value
 =
+new
 Int8Array
 (
 [
