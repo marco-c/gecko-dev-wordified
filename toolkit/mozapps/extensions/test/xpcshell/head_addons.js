@@ -8021,7 +8021,12 @@ nextBatch
 catch
 (
 ex
+)
+{
 if
+(
+!
+(
 ex
 instanceof
 OS
@@ -8030,7 +8035,10 @@ File
 .
 Error
 )
-{
+)
+throw
+ex
+;
 return
 ;
 }
