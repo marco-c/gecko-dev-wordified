@@ -4806,6 +4806,9 @@ DumpPC
 JSContext
 *
 cx
+FILE
+*
+fp
 )
 {
 gc
@@ -4852,7 +4855,7 @@ done
 {
 fprintf
 (
-stdout
+fp
 "
 Empty
 stack
@@ -4897,7 +4900,7 @@ sprinter
 ;
 fprintf
 (
-stdout
+fp
 "
 %
 s
@@ -4928,6 +4931,9 @@ cx
 JSScript
 *
 scriptArg
+FILE
+*
+fp
 )
 {
 gc
@@ -4978,7 +4984,7 @@ sprinter
 ;
 fprintf
 (
-stdout
+fp
 "
 %
 s

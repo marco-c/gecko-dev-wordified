@@ -4456,7 +4456,17 @@ DEBUG
 void
 dump
 (
+FILE
+*
+fp
 )
+const
+;
+void
+dump
+(
+)
+const
 ;
 #
 endif

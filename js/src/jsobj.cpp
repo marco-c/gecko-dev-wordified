@@ -22664,6 +22664,9 @@ const
 Value
 &
 v
+FILE
+*
+fp
 )
 {
 if
@@ -22676,7 +22679,7 @@ isNull
 )
 fprintf
 (
-stderr
+fp
 "
 null
 "
@@ -22693,7 +22696,7 @@ isUndefined
 )
 fprintf
 (
-stderr
+fp
 "
 undefined
 "
@@ -22710,7 +22713,7 @@ isInt32
 )
 fprintf
 (
-stderr
+fp
 "
 %
 d
@@ -22733,7 +22736,7 @@ isDouble
 )
 fprintf
 (
-stderr
+fp
 "
 %
 g
@@ -22763,6 +22766,7 @@ toString
 >
 dump
 (
+fp
 )
 ;
 else
@@ -22783,6 +22787,7 @@ toSymbol
 >
 dump
 (
+fp
 )
 ;
 else
@@ -22843,12 +22848,12 @@ fputs
 <
 function
 "
-stderr
+fp
 )
 ;
 FileEscapedString
 (
-stderr
+fp
 fun
 -
 >
@@ -22868,7 +22873,7 @@ fputs
 unnamed
 function
 "
-stderr
+fp
 )
 ;
 }
@@ -22895,7 +22900,7 @@ nonLazyScript
 ;
 fprintf
 (
-stderr
+fp
 "
 (
 %
@@ -22934,7 +22939,7 @@ lineno
 }
 fprintf
 (
-stderr
+fp
 "
 at
 %
@@ -22984,7 +22989,7 @@ getClass
 ;
 fprintf
 (
-stderr
+fp
 "
 <
 %
@@ -23045,7 +23050,7 @@ toBoolean
 )
 fprintf
 (
-stderr
+fp
 "
 true
 "
@@ -23054,7 +23059,7 @@ true
 else
 fprintf
 (
-stderr
+fp
 "
 false
 "
@@ -23073,7 +23078,7 @@ isMagic
 {
 fprintf
 (
-stderr
+fp
 "
 <
 invalid
@@ -23097,7 +23102,7 @@ JS_ELEMENTS_HOLE
 :
 fprintf
 (
-stderr
+fp
 "
 elements
 hole
@@ -23111,7 +23116,7 @@ JS_NO_ITER_VALUE
 :
 fprintf
 (
-stderr
+fp
 "
 no
 iter
@@ -23126,7 +23131,7 @@ JS_GENERATOR_CLOSING
 :
 fprintf
 (
-stderr
+fp
 "
 generator
 closing
@@ -23140,7 +23145,7 @@ JS_OPTIMIZED_OUT
 :
 fprintf
 (
-stderr
+fp
 "
 optimized
 out
@@ -23153,7 +23158,7 @@ default
 :
 fprintf
 (
-stderr
+fp
 "
 ?
 !
@@ -23167,7 +23172,7 @@ break
 endif
 fprintf
 (
-stderr
+fp
 "
 >
 "
@@ -23178,7 +23183,7 @@ else
 {
 fprintf
 (
-stderr
+fp
 "
 unexpected
 value
@@ -23200,11 +23205,15 @@ const
 Value
 &
 val
+FILE
+*
+fp
 )
 {
 dumpValue
 (
 val
+fp
 )
 ;
 fputc
@@ -23213,7 +23222,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -23228,11 +23237,14 @@ DumpId
 (
 jsid
 id
+FILE
+*
+fp
 )
 {
 fprintf
 (
-stderr
+fp
 "
 jsid
 %
@@ -23255,6 +23267,7 @@ IdToValue
 (
 id
 )
+fp
 )
 ;
 fputc
@@ -23263,7 +23276,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -23271,12 +23284,16 @@ static
 void
 DumpProperty
 (
+const
 NativeObject
 *
 obj
 Shape
 &
 shape
+FILE
+*
+fp
 )
 {
 jsid
@@ -23299,7 +23316,7 @@ attributes
 ;
 fprintf
 (
-stderr
+fp
 "
 (
 (
@@ -23329,7 +23346,7 @@ JSPROP_ENUMERATE
 )
 fprintf
 (
-stderr
+fp
 "
 enumerate
 "
@@ -23343,7 +23360,7 @@ JSPROP_READONLY
 )
 fprintf
 (
-stderr
+fp
 "
 readonly
 "
@@ -23357,7 +23374,7 @@ JSPROP_PERMANENT
 )
 fprintf
 (
-stderr
+fp
 "
 permanent
 "
@@ -23371,7 +23388,7 @@ JSPROP_SHARED
 )
 fprintf
 (
-stderr
+fp
 "
 shared
 "
@@ -23387,7 +23404,7 @@ hasGetterValue
 )
 fprintf
 (
-stderr
+fp
 "
 getterValue
 =
@@ -23417,7 +23434,7 @@ hasDefaultGetter
 )
 fprintf
 (
-stderr
+fp
 "
 getterOp
 =
@@ -23446,7 +23463,7 @@ hasSetterValue
 )
 fprintf
 (
-stderr
+fp
 "
 setterValue
 =
@@ -23476,7 +23493,7 @@ hasDefaultSetter
 )
 fprintf
 (
-stderr
+fp
 "
 setterOp
 =
@@ -23523,12 +23540,13 @@ IdToValue
 (
 id
 )
+fp
 )
 ;
 else
 fprintf
 (
-stderr
+fp
 "
 unknown
 jsid
@@ -23564,7 +23582,7 @@ SHAPE_INVALID_SLOT
 ;
 fprintf
 (
-stderr
+fp
 "
 :
 slot
@@ -23585,7 +23603,7 @@ hasSlot
 {
 fprintf
 (
-stderr
+fp
 "
 =
 "
@@ -23600,6 +23618,7 @@ getSlot
 (
 slot
 )
+fp
 )
 ;
 }
@@ -23614,7 +23633,7 @@ SHAPE_INVALID_SLOT
 {
 fprintf
 (
-stderr
+fp
 "
 (
 INVALID
@@ -23626,7 +23645,7 @@ INVALID
 }
 fprintf
 (
-stderr
+fp
 "
 \
 n
@@ -23658,8 +23677,13 @@ JSObject
 :
 dump
 (
+FILE
+*
+fp
 )
+const
 {
+const
 JSObject
 *
 obj
@@ -23677,7 +23701,7 @@ global
 ;
 fprintf
 (
-stderr
+fp
 "
 object
 %
@@ -23728,7 +23752,7 @@ getClass
 ;
 fprintf
 (
-stderr
+fp
 "
 class
 %
@@ -23752,7 +23776,7 @@ name
 ;
 fprintf
 (
-stderr
+fp
 "
 flags
 :
@@ -23770,7 +23794,7 @@ isDelegate
 )
 fprintf
 (
-stderr
+fp
 "
 delegate
 "
@@ -23800,7 +23824,7 @@ nonProxyIsExtensible
 )
 fprintf
 (
-stderr
+fp
 "
 not_extensible
 "
@@ -23817,7 +23841,7 @@ isIndexed
 )
 fprintf
 (
-stderr
+fp
 "
 indexed
 "
@@ -23834,7 +23858,7 @@ isBoundFunction
 )
 fprintf
 (
-stderr
+fp
 "
 bound_function
 "
@@ -23851,7 +23875,7 @@ isQualifiedVarObj
 )
 fprintf
 (
-stderr
+fp
 "
 varobj
 "
@@ -23868,7 +23892,7 @@ isUnqualifiedVarObj
 )
 fprintf
 (
-stderr
+fp
 "
 unqualified_varobj
 "
@@ -23885,7 +23909,7 @@ watched
 )
 fprintf
 (
-stderr
+fp
 "
 watched
 "
@@ -23902,7 +23926,7 @@ isIteratedSingleton
 )
 fprintf
 (
-stderr
+fp
 "
 iterated_singleton
 "
@@ -23919,7 +23943,7 @@ isNewGroupUnknown
 )
 fprintf
 (
-stderr
+fp
 "
 new_type_unknown
 "
@@ -23936,7 +23960,7 @@ hasUncacheableProto
 )
 fprintf
 (
-stderr
+fp
 "
 has_uncacheable_proto
 "
@@ -23953,7 +23977,7 @@ hadElementsAccess
 )
 fprintf
 (
-stderr
+fp
 "
 had_elements_access
 "
@@ -23970,7 +23994,7 @@ wasNewScriptCleared
 )
 fprintf
 (
-stderr
+fp
 "
 new_script_cleared
 "
@@ -23995,7 +24019,7 @@ staticPrototypeIsImmutable
 )
 fprintf
 (
-stderr
+fp
 "
 immutable_prototype
 "
@@ -24011,6 +24035,7 @@ isNative
 )
 )
 {
+const
 NativeObject
 *
 nobj
@@ -24037,7 +24062,7 @@ inDictionaryMode
 )
 fprintf
 (
-stderr
+fp
 "
 inDictionaryMode
 "
@@ -24054,7 +24079,7 @@ hasShapeTable
 )
 fprintf
 (
-stderr
+fp
 "
 hasShapeTable
 "
@@ -24063,7 +24088,7 @@ hasShapeTable
 }
 fprintf
 (
-stderr
+fp
 "
 \
 n
@@ -24080,6 +24105,7 @@ isNative
 )
 )
 {
+const
 NativeObject
 *
 nobj
@@ -24112,7 +24138,7 @@ slots
 {
 fprintf
 (
-stderr
+fp
 "
 elements
 \
@@ -24138,7 +24164,7 @@ i
 {
 fprintf
 (
-stderr
+fp
 "
 %
 3d
@@ -24156,11 +24182,12 @@ getDenseElement
 (
 i
 )
+fp
 )
 ;
 fprintf
 (
-stderr
+fp
 "
 \
 n
@@ -24169,7 +24196,7 @@ n
 ;
 fflush
 (
-stderr
+fp
 )
 ;
 }
@@ -24177,7 +24204,7 @@ stderr
 }
 fprintf
 (
-stderr
+fp
 "
 proto
 "
@@ -24203,7 +24230,7 @@ isDynamic
 )
 fprintf
 (
-stderr
+fp
 "
 <
 dynamic
@@ -24222,6 +24249,7 @@ toObjectOrNull
 (
 )
 )
+fp
 )
 ;
 fputc
@@ -24230,7 +24258,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 if
@@ -24244,7 +24272,7 @@ JSCLASS_HAS_PRIVATE
 )
 fprintf
 (
-stderr
+fp
 "
 private
 %
@@ -24279,7 +24307,7 @@ isNative
 )
 fprintf
 (
-stderr
+fp
 "
 not
 native
@@ -24344,7 +24372,7 @@ stop
 )
 fprintf
 (
-stderr
+fp
 obj
 -
 >
@@ -24386,7 +24414,7 @@ i
 {
 fprintf
 (
-stderr
+fp
 "
 %
 3d
@@ -24402,7 +24430,7 @@ reservedEnd
 )
 fprintf
 (
-stderr
+fp
 "
 (
 reserved
@@ -24412,7 +24440,7 @@ reserved
 ;
 fprintf
 (
-stderr
+fp
 "
 =
 "
@@ -24434,6 +24462,7 @@ getSlot
 (
 i
 )
+fp
 )
 ;
 fputc
@@ -24442,7 +24471,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -24458,7 +24487,7 @@ isNative
 {
 fprintf
 (
-stderr
+fp
 "
 properties
 :
@@ -24534,7 +24563,7 @@ front
 {
 fprintf
 (
-stderr
+fp
 "
 (
 OOM
@@ -24587,6 +24616,7 @@ props
 [
 i
 ]
+fp
 )
 ;
 }
@@ -24596,6 +24626,26 @@ fputc
 \
 n
 '
+fp
+)
+;
+}
+/
+/
+For
+debuggers
+.
+void
+JSObject
+:
+:
+dump
+(
+)
+const
+{
+dump
+(
 stderr
 )
 ;
@@ -24611,6 +24661,9 @@ name
 JSObject
 *
 obj
+FILE
+*
+fp
 )
 {
 if
@@ -24620,7 +24673,7 @@ obj
 {
 fprintf
 (
-stderr
+fp
 "
 %
 s
@@ -24636,6 +24689,7 @@ ObjectValue
 *
 obj
 )
+fp
 )
 ;
 fputc
@@ -24644,7 +24698,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -24661,6 +24715,9 @@ const
 Value
 &
 v
+FILE
+*
+fp
 )
 {
 if
@@ -24675,7 +24732,7 @@ isNull
 {
 fprintf
 (
-stderr
+fp
 "
 %
 s
@@ -24687,6 +24744,7 @@ name
 dumpValue
 (
 v
+fp
 )
 ;
 fputc
@@ -24695,7 +24753,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -24712,6 +24770,9 @@ DumpInterpreterFrame
 JSContext
 *
 cx
+FILE
+*
+fp
 InterpreterFrame
 *
 start
@@ -24752,7 +24813,7 @@ done
 {
 fprintf
 (
-stderr
+fp
 "
 no
 stack
@@ -24819,7 +24880,7 @@ done
 {
 fprintf
 (
-stderr
+fp
 "
 fp
 =
@@ -24876,7 +24937,7 @@ isJit
 )
 fprintf
 (
-stderr
+fp
 "
 JIT
 frame
@@ -24888,7 +24949,7 @@ n
 else
 fprintf
 (
-stderr
+fp
 "
 InterpreterFrame
 at
@@ -24919,7 +24980,7 @@ isFunctionFrame
 {
 fprintf
 (
-stderr
+fp
 "
 callee
 fun
@@ -24955,6 +25016,7 @@ fun
 dumpValue
 (
 v
+fp
 )
 ;
 }
@@ -24962,7 +25024,7 @@ else
 {
 fprintf
 (
-stderr
+fp
 "
 global
 or
@@ -24980,12 +25042,12 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 fprintf
 (
-stderr
+fp
 "
 file
 %
@@ -25035,7 +25097,7 @@ pc
 {
 fprintf
 (
-stderr
+fp
 "
 pc
 =
@@ -25049,7 +25111,7 @@ pc
 ;
 fprintf
 (
-stderr
+fp
 "
 current
 op
@@ -25082,6 +25144,7 @@ getStaticBlockScope
 (
 pc
 )
+fp
 )
 ;
 }
@@ -25104,6 +25167,7 @@ thisArgument
 (
 cx
 )
+fp
 )
 ;
 if
@@ -25118,7 +25182,7 @@ isJit
 {
 fprintf
 (
-stderr
+fp
 "
 rval
 :
@@ -25137,6 +25201,7 @@ interpFrame
 returnValue
 (
 )
+fp
 )
 ;
 fputc
@@ -25145,13 +25210,13 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
 fprintf
 (
-stderr
+fp
 "
 flags
 :
@@ -25168,7 +25233,7 @@ isConstructing
 )
 fprintf
 (
-stderr
+fp
 "
 constructing
 "
@@ -25197,7 +25262,7 @@ isDebuggerEvalFrame
 )
 fprintf
 (
-stderr
+fp
 "
 debugger
 eval
@@ -25214,7 +25279,7 @@ isEvalFrame
 )
 fprintf
 (
-stderr
+fp
 "
 eval
 "
@@ -25226,12 +25291,12 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 fprintf
 (
-stderr
+fp
 "
 scopeChain
 :
@@ -25262,7 +25327,7 @@ fputc
 \
 n
 '
-stderr
+fp
 )
 ;
 }
@@ -25286,6 +25351,9 @@ DumpBacktrace
 JSContext
 *
 cx
+FILE
+*
+fp
 )
 {
 Sprinter
@@ -25307,7 +25375,7 @@ init
 {
 fprintf
 (
-stdout
+fp
 "
 js
 :
@@ -25491,7 +25559,7 @@ pc
 }
 fprintf
 (
-stdout
+fp
 "
 %
 s
@@ -25523,6 +25591,27 @@ string
 ;
 #
 endif
+}
+JS_FRIEND_API
+(
+void
+)
+js
+:
+:
+DumpBacktrace
+(
+JSContext
+*
+cx
+)
+{
+DumpBacktrace
+(
+cx
+stdout
+)
+;
 }
 /
 *

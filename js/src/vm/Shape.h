@@ -6318,9 +6318,6 @@ DEBUG
 void
 dump
 (
-JSContext
-*
-cx
 FILE
 *
 fp
@@ -6330,9 +6327,6 @@ const
 void
 dumpSubtree
 (
-JSContext
-*
-cx
 int
 level
 FILE
