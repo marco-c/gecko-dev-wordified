@@ -4518,6 +4518,7 @@ error
 =
 CKR_OK
 ;
+unsigned
 int
 i
 ;
@@ -5289,6 +5290,7 @@ retry
 =
 0
 ;
+unsigned
 int
 i
 ;
@@ -5519,6 +5521,7 @@ sqlerr
 SQLITE_ROW
 )
 {
+unsigned
 int
 blobSize
 ;
@@ -5940,6 +5943,7 @@ error
 =
 CKR_OK
 ;
+unsigned
 int
 i
 ;
@@ -6759,6 +6763,7 @@ retry
 =
 0
 ;
+unsigned
 int
 i
 ;

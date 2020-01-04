@@ -1900,12 +1900,6 @@ void
 plContext
 )
 {
-PKIX_PL_LdapRequest
-*
-ldapRq
-=
-NULL
-;
 PKIX_ENTER
 (
 LDAPREQUEST
@@ -1929,14 +1923,6 @@ plContext
 )
 PKIX_OBJECTNOTLDAPREQUEST
 )
-;
-ldapRq
-=
-(
-PKIX_PL_LdapRequest
-*
-)
-object
 ;
 /
 *

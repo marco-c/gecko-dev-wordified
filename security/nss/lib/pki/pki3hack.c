@@ -1210,6 +1210,12 @@ secrv
 SECSuccess
 )
 {
+PORT_FreeArena
+(
+arena
+PR_FALSE
+)
+;
 return
 NULL
 ;
@@ -7185,6 +7191,7 @@ by
 devices
 *
 /
+unsigned
 int
 index
 ;
@@ -7509,6 +7516,7 @@ c
 >
 object
 ;
+unsigned
 int
 i
 ;

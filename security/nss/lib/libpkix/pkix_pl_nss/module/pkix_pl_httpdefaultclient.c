@@ -1729,6 +1729,9 @@ maxResponseLen
 &
 contentLength
 >
+(
+PKIX_Int32
+)
 client
 -
 >
@@ -1822,6 +1825,9 @@ maxResponseLen
 0
 &
 &
+(
+PKIX_Int32
+)
 client
 -
 >
@@ -1865,6 +1871,9 @@ more
 /
 if
 (
+(
+PKIX_Int32
+)
 client
 -
 >
@@ -5359,6 +5368,7 @@ by
 4K
 *
 /
+unsigned
 int
 newLength
 =
@@ -7844,12 +7854,6 @@ void
 plContext
 )
 {
-PKIX_PL_HttpDefaultClient
-*
-client
-=
-NULL
-;
 PKIX_ENTER
 (
 HTTPDEFAULTCLIENT
@@ -7877,14 +7881,6 @@ plContext
 )
 PKIX_REQUESTNOTANHTTPDEFAULTCLIENT
 )
-;
-client
-=
-(
-PKIX_PL_HttpDefaultClient
-*
-)
-request
 ;
 /
 *

@@ -10580,6 +10580,12 @@ case
 rsaKey
 :
 case
+rsaPssKey
+:
+case
+rsaOaepKey
+:
+case
 nullKey
 :
 PORT_SetError

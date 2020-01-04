@@ -2647,7 +2647,7 @@ zero
 .
 *
 /
-mp_err
+mp_size
 mpl_significant_bits
 (
 const
@@ -2656,7 +2656,7 @@ mp_int
 a
 )
 {
-mp_err
+mp_size
 bits
 =
 0

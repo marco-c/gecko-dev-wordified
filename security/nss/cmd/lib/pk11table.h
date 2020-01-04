@@ -463,6 +463,7 @@ consts
 ;
 extern
 const
+unsigned
 int
 constCount
 ;
@@ -511,6 +512,7 @@ type
 )
 ;
 extern
+unsigned
 int
 totalKnownType
 (

@@ -2010,7 +2010,6 @@ lwhence
 =
 SEEK_SET
 ;
-;
 STUB_SAFE_CALL3
 (
 PR_Seek
@@ -2048,6 +2047,11 @@ lwhence
 =
 SEEK_END
 ;
+break
+;
+case
+PR_SEEK_SET
+:
 break
 ;
 }

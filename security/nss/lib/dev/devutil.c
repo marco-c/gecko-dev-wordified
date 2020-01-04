@@ -2791,6 +2791,11 @@ status
 PR_SUCCESS
 )
 {
+nss_ZFreeIf
+(
+objects
+)
+;
 return
 status
 ;

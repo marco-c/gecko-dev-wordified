@@ -1082,6 +1082,8 @@ test_group
 unsigned
 int
 num_tests
+=
+0
 ;
 PRBool
 is_encrypt
@@ -1105,6 +1107,8 @@ bits
 unsigned
 int
 keysize
+=
+16
 ;
 unsigned
 char
@@ -1126,6 +1130,8 @@ blocks
 unsigned
 int
 ivsize
+=
+12
 ;
 unsigned
 char
@@ -1193,6 +1199,8 @@ blocks
 unsigned
 int
 ciphertextlen
+=
+0
 ;
 unsigned
 char
@@ -1204,6 +1212,8 @@ tag
 unsigned
 int
 tagsize
+=
+16
 ;
 unsigned
 char
@@ -1225,6 +1235,8 @@ blocks
 unsigned
 int
 outputlen
+=
+0
 ;
 unsigned
 int

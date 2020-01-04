@@ -509,12 +509,15 @@ sum
 1
 *
 /
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r3
 a11
 r3
-0
 carry
 )
 ;
@@ -524,7 +527,6 @@ r4
 a12
 r4
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -532,7 +534,6 @@ MP_ADD_CARRY
 r5
 a13
 r5
-carry
 carry
 )
 ;
@@ -542,7 +543,6 @@ r6
 a14
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -550,7 +550,6 @@ MP_ADD_CARRY
 r7
 a15
 r7
-carry
 carry
 )
 ;
@@ -558,12 +557,15 @@ r8
 =
 carry
 ;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r3
 a11
 r3
-0
 carry
 )
 ;
@@ -573,7 +575,6 @@ r4
 a12
 r4
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -581,7 +582,6 @@ MP_ADD_CARRY
 r5
 a13
 r5
-carry
 carry
 )
 ;
@@ -591,7 +591,6 @@ r6
 a14
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -599,7 +598,6 @@ MP_ADD_CARRY
 r7
 a15
 r7
-carry
 carry
 )
 ;
@@ -607,6 +605,10 @@ r8
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -619,7 +621,6 @@ MP_ADD_CARRY
 r3
 a12
 r3
-0
 carry
 )
 ;
@@ -629,7 +630,6 @@ r4
 a13
 r4
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -637,7 +637,6 @@ MP_ADD_CARRY
 r5
 a14
 r5
-carry
 carry
 )
 ;
@@ -647,7 +646,6 @@ r6
 a15
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -656,13 +654,16 @@ r7
 0
 r7
 carry
-carry
 )
 ;
 r8
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -683,7 +684,6 @@ MP_ADD_CARRY
 r0
 a8
 r0
-0
 carry
 )
 ;
@@ -693,7 +693,6 @@ r1
 a9
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -701,7 +700,6 @@ MP_ADD_CARRY
 r2
 a10
 r2
-carry
 carry
 )
 ;
@@ -711,7 +709,6 @@ r3
 a12
 r3
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -719,7 +716,6 @@ MP_ADD_CARRY
 r4
 a13
 r4
-carry
 carry
 )
 ;
@@ -729,7 +725,6 @@ r5
 a14
 r5
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -738,7 +733,6 @@ r6
 a15
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -746,7 +740,6 @@ MP_ADD_CARRY
 r7
 a15
 r7
-carry
 carry
 )
 ;
@@ -761,6 +754,10 @@ r8
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -778,7 +775,6 @@ MP_ADD_CARRY
 r6
 a14
 r6
-0
 carry
 )
 ;
@@ -788,13 +784,16 @@ r7
 0
 r7
 carry
-carry
 )
 ;
 r8
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -812,7 +811,6 @@ MP_ADD_CARRY
 r0
 a9
 r0
-0
 carry
 )
 ;
@@ -822,7 +820,6 @@ r1
 a10
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -831,7 +828,6 @@ r2
 a11
 r2
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -839,7 +835,6 @@ MP_ADD_CARRY
 r3
 a13
 r3
-carry
 carry
 )
 ;
@@ -849,7 +844,6 @@ r4
 a14
 r4
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -857,7 +851,6 @@ MP_ADD_CARRY
 r5
 a15
 r5
-carry
 carry
 )
 ;
@@ -867,7 +860,6 @@ r6
 a13
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -876,13 +868,16 @@ r7
 a8
 r7
 carry
-carry
 )
 ;
 r8
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -895,7 +890,6 @@ MP_SUB_BORROW
 r0
 a11
 r0
-0
 carry
 )
 ;
@@ -905,7 +899,6 @@ r1
 a12
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -914,7 +907,6 @@ r2
 a13
 r2
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -922,7 +914,6 @@ MP_SUB_BORROW
 r3
 0
 r3
-carry
 carry
 )
 ;
@@ -932,7 +923,6 @@ r4
 0
 r4
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -940,7 +930,6 @@ MP_SUB_BORROW
 r5
 0
 r5
-carry
 carry
 )
 ;
@@ -950,7 +939,6 @@ r6
 a8
 r6
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -959,13 +947,16 @@ r7
 a10
 r7
 carry
-carry
 )
 ;
 r8
 -
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -978,7 +969,6 @@ MP_SUB_BORROW
 r0
 a12
 r0
-0
 carry
 )
 ;
@@ -988,7 +978,6 @@ r1
 a13
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -996,7 +985,6 @@ MP_SUB_BORROW
 r2
 a14
 r2
-carry
 carry
 )
 ;
@@ -1006,7 +994,6 @@ r3
 a15
 r3
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1015,7 +1002,6 @@ r4
 0
 r4
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1023,7 +1009,6 @@ MP_SUB_BORROW
 r5
 0
 r5
-carry
 carry
 )
 ;
@@ -1033,7 +1018,6 @@ r6
 a9
 r6
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1042,13 +1026,16 @@ r7
 a11
 r7
 carry
-carry
 )
 ;
 r8
 -
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -1061,7 +1048,6 @@ MP_SUB_BORROW
 r0
 a13
 r0
-0
 carry
 )
 ;
@@ -1071,7 +1057,6 @@ r1
 a14
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1079,7 +1064,6 @@ MP_SUB_BORROW
 r2
 a15
 r2
-carry
 carry
 )
 ;
@@ -1089,7 +1073,6 @@ r3
 a8
 r3
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1097,7 +1080,6 @@ MP_SUB_BORROW
 r4
 a9
 r4
-carry
 carry
 )
 ;
@@ -1107,7 +1089,6 @@ r5
 a10
 r5
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1115,7 +1096,6 @@ MP_SUB_BORROW
 r6
 0
 r6
-carry
 carry
 )
 ;
@@ -1125,13 +1105,16 @@ r7
 a12
 r7
 carry
-carry
 )
 ;
 r8
 -
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -1144,7 +1127,6 @@ MP_SUB_BORROW
 r0
 a14
 r0
-0
 carry
 )
 ;
@@ -1154,7 +1136,6 @@ r1
 a15
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1162,7 +1143,6 @@ MP_SUB_BORROW
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -1172,7 +1152,6 @@ r3
 a9
 r3
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1180,7 +1159,6 @@ MP_SUB_BORROW
 r4
 a10
 r4
-carry
 carry
 )
 ;
@@ -1190,7 +1168,6 @@ r5
 a11
 r5
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1199,7 +1176,6 @@ r6
 0
 r6
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1207,7 +1183,6 @@ MP_SUB_BORROW
 r7
 a13
 r7
-carry
 carry
 )
 ;
@@ -1235,12 +1210,19 @@ r8_d
 =
 r8
 ;
+carry
+=
+0
+;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r0
 r8_d
 r0
-0
 carry
 )
 ;
@@ -1250,7 +1232,6 @@ r1
 0
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1258,7 +1239,6 @@ MP_ADD_CARRY
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -1270,7 +1250,6 @@ r3
 r8_d
 r3
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1279,7 +1258,6 @@ r4
 MP_DIGIT_MAX
 r4
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1287,7 +1265,6 @@ MP_ADD_CARRY
 r5
 MP_DIGIT_MAX
 r5
-carry
 carry
 )
 ;
@@ -1303,7 +1280,6 @@ r8_d
 )
 r6
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1315,7 +1291,6 @@ r8_d
 1
 )
 r7
-carry
 carry
 )
 ;
@@ -1344,12 +1319,15 @@ r8_d
 -
 r8
 ;
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
 r8_d
 r0
-0
 carry
 )
 ;
@@ -1359,7 +1337,6 @@ r1
 0
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1367,7 +1344,6 @@ MP_SUB_BORROW
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -1379,7 +1355,6 @@ r3
 r8_d
 r3
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1388,7 +1363,6 @@ r4
 MP_DIGIT_MAX
 r4
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1396,7 +1370,6 @@ MP_SUB_BORROW
 r5
 MP_DIGIT_MAX
 r5
-carry
 carry
 )
 ;
@@ -1412,7 +1385,6 @@ r8_d
 )
 r6
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -1424,7 +1396,6 @@ r8_d
 1
 )
 r7
-carry
 carry
 )
 ;
@@ -1771,6 +1742,14 @@ sum
 1
 *
 /
+carry
+=
+0
+;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r1
@@ -1779,7 +1758,6 @@ a5h
 <
 32
 r1
-0
 carry
 )
 ;
@@ -1789,7 +1767,6 @@ r2
 a6
 r2
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1797,7 +1774,6 @@ MP_ADD_CARRY
 r3
 a7
 r3
-carry
 carry
 )
 ;
@@ -1805,6 +1781,14 @@ r4
 =
 carry
 ;
+carry
+=
+0
+;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r1
@@ -1813,7 +1797,6 @@ a5h
 <
 32
 r1
-0
 carry
 )
 ;
@@ -1823,7 +1806,6 @@ r2
 a6
 r2
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1831,7 +1813,6 @@ MP_ADD_CARRY
 r3
 a7
 r3
-carry
 carry
 )
 ;
@@ -1839,6 +1820,10 @@ r4
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -1846,12 +1831,15 @@ sum
 2
 *
 /
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r1
 a6l
 r1
-0
 carry
 )
 ;
@@ -1863,7 +1851,6 @@ a6h
 a7l
 r2
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1872,7 +1859,6 @@ r3
 a7h
 r3
 carry
-carry
 )
 ;
 r4
@@ -1880,12 +1866,19 @@ r4
 =
 carry
 ;
+carry
+=
+0
+;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r1
 a6l
 r1
-0
 carry
 )
 ;
@@ -1897,7 +1890,6 @@ a6h
 a7l
 r2
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1906,13 +1898,16 @@ r3
 a7h
 r3
 carry
-carry
 )
 ;
 r4
 +
 =
 carry
+;
+carry
+=
+0
 ;
 /
 *
@@ -1920,12 +1915,15 @@ sum
 3
 *
 /
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r0
 a4
 r0
-0
 carry
 )
 ;
@@ -1938,7 +1936,6 @@ a5l
 32
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -1946,7 +1943,6 @@ MP_ADD_CARRY
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -1956,7 +1952,6 @@ r3
 a7
 r3
 carry
-carry
 )
 ;
 r4
@@ -1964,12 +1959,20 @@ r4
 =
 carry
 ;
+carry
+=
+0
+;
 /
 *
 sum
 4
 *
 /
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r0
@@ -1977,7 +1980,6 @@ a4h
 |
 a5l
 r0
-0
 carry
 )
 ;
@@ -1994,7 +1996,6 @@ a6h
 )
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -2002,7 +2003,6 @@ MP_ADD_CARRY
 r2
 a7
 r2
-carry
 carry
 )
 ;
@@ -2013,7 +2013,6 @@ a6h
 |
 a4l
 r3
-carry
 carry
 )
 ;
@@ -2028,6 +2027,10 @@ diff
 5
 *
 /
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
@@ -2035,7 +2038,6 @@ a5h
 |
 a6l
 r0
-0
 carry
 )
 ;
@@ -2045,7 +2047,6 @@ r1
 a6h
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2053,7 +2054,6 @@ MP_SUB_BORROW
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -2069,7 +2069,6 @@ a4l
 |
 a5l
 r3
-carry
 carry
 )
 ;
@@ -2084,12 +2083,15 @@ diff
 6
 *
 /
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
 a6
 r0
-0
 carry
 )
 ;
@@ -2099,7 +2101,6 @@ r1
 a7
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2107,7 +2108,6 @@ MP_SUB_BORROW
 r2
 0
 r2
-carry
 carry
 )
 ;
@@ -2124,7 +2124,6 @@ a5h
 )
 r3
 carry
-carry
 )
 ;
 r4
@@ -2138,6 +2137,10 @@ diff
 7
 *
 /
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
@@ -2145,7 +2148,6 @@ a6h
 |
 a7l
 r0
-0
 carry
 )
 ;
@@ -2157,7 +2159,6 @@ a7h
 a4l
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2168,7 +2169,6 @@ a4h
 a5l
 r2
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2176,7 +2176,6 @@ MP_SUB_BORROW
 r3
 a6l
 r3
-carry
 carry
 )
 ;
@@ -2191,12 +2190,15 @@ diff
 8
 *
 /
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
 a7
 r0
-0
 carry
 )
 ;
@@ -2209,7 +2211,6 @@ a4h
 32
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2217,7 +2218,6 @@ MP_SUB_BORROW
 r2
 a5
 r2
-carry
 carry
 )
 ;
@@ -2229,7 +2229,6 @@ a6h
 <
 32
 r3
-carry
 carry
 )
 ;
@@ -2267,12 +2266,19 @@ r4_long
 32
 )
 ;
+carry
+=
+0
+;
+carry
+=
+0
+;
 MP_ADD_CARRY
 (
 r0
 r4_long
 r0
-0
 carry
 )
 ;
@@ -2284,7 +2290,6 @@ r1
 r4l
 r1
 carry
-carry
 )
 ;
 MP_ADD_CARRY
@@ -2292,7 +2297,6 @@ MP_ADD_CARRY
 r2
 MP_DIGIT_MAX
 r2
-carry
 carry
 )
 ;
@@ -2305,7 +2309,6 @@ r4_long
 -
 1
 r3
-carry
 carry
 )
 ;
@@ -2344,12 +2347,15 @@ r4_long
 32
 )
 ;
+carry
+=
+0
+;
 MP_SUB_BORROW
 (
 r0
 r4_long
 r0
-0
 carry
 )
 ;
@@ -2361,7 +2367,6 @@ r1
 r4l
 r1
 carry
-carry
 )
 ;
 MP_SUB_BORROW
@@ -2369,7 +2374,6 @@ MP_SUB_BORROW
 r2
 MP_DIGIT_MAX
 r2
-carry
 carry
 )
 ;
@@ -2382,7 +2386,6 @@ r4_long
 -
 1
 r3
-carry
 carry
 )
 ;

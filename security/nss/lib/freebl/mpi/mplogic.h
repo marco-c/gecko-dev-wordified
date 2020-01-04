@@ -388,7 +388,7 @@ mp_size
 numBits
 )
 ;
-mp_err
+mp_size
 mpl_significant_bits
 (
 const

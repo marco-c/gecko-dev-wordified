@@ -674,6 +674,11 @@ pError
 CKR_GENERAL_ERROR
 ;
 }
+nss_ZFreeIf
+(
+fwObject
+)
+;
 return
 (
 NSSCKFWObject

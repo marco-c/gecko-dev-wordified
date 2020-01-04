@@ -389,6 +389,7 @@ SECItem
 *
 buffer
 ;
+unsigned
 long
 allocatedLen
 ;

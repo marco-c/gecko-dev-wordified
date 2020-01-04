@@ -10673,6 +10673,12 @@ nickname
 +
 1
 ;
+tempNick
+.
+type
+=
+siAsciiString
+;
 /
 *
 do
@@ -14884,6 +14890,7 @@ i
 =
 0
 ;
+(
 safeBag
 =
 p12dcx
@@ -14893,6 +14900,7 @@ safeBags
 [
 i
 ]
+)
 ;
 i
 +

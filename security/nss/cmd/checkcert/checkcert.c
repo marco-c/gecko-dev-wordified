@@ -772,9 +772,6 @@ sigAlgOid
 oiddata
 ;
 SECOidTag
-sigAlgTag
-;
-SECOidTag
 hashAlgTag
 ;
 int
@@ -824,13 +821,6 @@ sigAlgOid
 )
 return
 SECFailure
-;
-sigAlgTag
-=
-sigAlgOid
--
->
-offset
 ;
 if
 (
@@ -2138,6 +2128,9 @@ derCert
 Certificate
 "
 0
+(
+SECU_PPFunc
+)
 SECU_PrintCertificate
 )
 ;

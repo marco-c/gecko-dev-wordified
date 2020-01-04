@@ -713,6 +713,7 @@ sftk_HMACConstantTime_Update
 void
 *
 pctx
+const
 void
 *
 data
@@ -731,9 +732,8 @@ sftk_MACConstantTimeCtx
 )
 pctx
 ;
-SECStatus
-rv
-=
+PORT_CheckSuccess
+(
 HMAC_ConstantTime
 (
 ctx
@@ -775,13 +775,6 @@ ctx
 >
 totalLength
 )
-;
-PORT_Assert
-(
-rv
-=
-=
-SECSuccess
 )
 ;
 }
@@ -791,6 +784,7 @@ sftk_SSLv3MACConstantTime_Update
 void
 *
 pctx
+const
 void
 *
 data
@@ -809,9 +803,8 @@ sftk_MACConstantTimeCtx
 )
 pctx
 ;
-SECStatus
-rv
-=
+PORT_CheckSuccess
+(
 SSLv3_MAC_ConstantTime
 (
 ctx
@@ -853,13 +846,6 @@ ctx
 >
 totalLength
 )
-;
-PORT_Assert
-(
-rv
-=
-=
-SECSuccess
 )
 ;
 }

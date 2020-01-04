@@ -4881,6 +4881,8 @@ SECSuccess
 ;
 int
 error
+=
+SEC_ERROR_LIBRARY_FAILURE
 ;
 sourceCert
 =
@@ -8092,6 +8094,10 @@ SECSuccess
 ;
 int
 error
+=
+SEC_ERROR_LIBRARY_FAILURE
+;
+int
 i
 ;
 for
@@ -8446,6 +8452,10 @@ SECSuccess
 ;
 int
 error
+=
+SEC_ERROR_LIBRARY_FAILURE
+;
+int
 count
 =
 0
