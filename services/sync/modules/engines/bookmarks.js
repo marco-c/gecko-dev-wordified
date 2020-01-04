@@ -3672,12 +3672,12 @@ Math
 .
 min
 (
-startIndex
-+
 SQLITE_MAX_VARIABLE_NUMBER
 modifiedGUIDs
 .
 length
+-
+startIndex
 )
 ;
 let
