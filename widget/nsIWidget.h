@@ -4779,7 +4779,8 @@ placing
 it
 *
 /
-NS_IMETHOD
+virtual
+void
 PlaceBehind
 (
 nsTopLevelWidgetZPlacement

@@ -13101,7 +13101,7 @@ behind
 the
 given
 window
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -13271,9 +13271,6 @@ behind
 0
 flags
 )
-;
-return
-NS_OK
 ;
 }
 static
