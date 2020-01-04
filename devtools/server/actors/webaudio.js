@@ -5183,10 +5183,15 @@ obj
 )
 {
 return
-obj
+Object
+.
+prototype
 .
 toString
+.
+call
 (
+obj
 )
 .
 match

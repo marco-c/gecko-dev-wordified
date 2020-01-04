@@ -948,10 +948,15 @@ Assert
 .
 equal
 (
-result
+Object
+.
+prototype
 .
 toString
+.
+call
 (
+result
 )
 "
 [
