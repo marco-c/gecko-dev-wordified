@@ -127,7 +127,7 @@ filters
 import
 chunk_by_slice
 import
-devicemanager
+mozdevice
 import
 mozinfo
 SCRIPT_DIR
@@ -2238,7 +2238,7 @@ remoteProfileCopy
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -2367,7 +2367,7 @@ timeout
 )
             
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -3081,7 +3081,7 @@ deviceRoot
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -4965,7 +4965,7 @@ cleanup
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :

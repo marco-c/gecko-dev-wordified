@@ -81,7 +81,7 @@ os
 import
 tempfile
 from
-droid
+mozdevice
 import
 DroidADB
 DroidSUT
