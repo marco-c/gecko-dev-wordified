@@ -563,6 +563,22 @@ jitflags
 =
 all
 "
+                
+"
+-
+-
+timeout
+=
+970
+"
+#
+Keep
+in
+sync
+with
+run_timeout
+below
+.
             
 ]
             
@@ -589,6 +605,22 @@ jit
 -
 test
 "
+            
+"
+run_timeout
+"
+:
+1000
+#
+Keep
+in
+sync
+with
+-
+-
+timeout
+above
+.
         
 }
         
