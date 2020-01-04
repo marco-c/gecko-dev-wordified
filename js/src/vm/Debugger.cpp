@@ -40129,6 +40129,10 @@ instance
 (
 )
 .
+code
+(
+)
+.
 getLineOffsets
 (
 lineno_
@@ -44640,6 +44644,10 @@ wasmInstance
 -
 >
 instance
+(
+)
+.
+code
 (
 )
 .

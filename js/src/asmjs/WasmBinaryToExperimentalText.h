@@ -536,6 +536,13 @@ val
 }
 }
 ;
+typedef
+UniquePtr
+<
+GeneratedSourceMap
+>
+UniqueGeneratedSourceMap
+;
 /
 /
 Translate
