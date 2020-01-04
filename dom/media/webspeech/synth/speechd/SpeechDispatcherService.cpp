@@ -2161,8 +2161,10 @@ RegisterVoices
 (
 )
 {
+RefPtr
+<
 nsSynthVoiceRegistry
-*
+>
 registry
 =
 nsSynthVoiceRegistry
@@ -2313,6 +2315,13 @@ nullptr
 mInitialized
 =
 true
+;
+registry
+-
+>
+NotifyVoicesChanged
+(
+)
 ;
 }
 /

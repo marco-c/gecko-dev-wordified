@@ -171,6 +171,12 @@ aIsSpeaking
 )
 override
 ;
+bool
+RecvNotifyVoicesChanged
+(
+)
+override
+;
 protected
 :
 SpeechSynthesisChild

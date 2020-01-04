@@ -1611,6 +1611,13 @@ voiceToken
 )
 ;
 }
+registry
+-
+>
+NotifyVoicesChanged
+(
+)
+;
 return
 true
 ;
