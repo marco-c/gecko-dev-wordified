@@ -38,19 +38,6 @@ suffix
 "
 }
         
-#
-TODO
-:
-add
-the
-following
-line
-when
-ESR
-is
-45
-        
-#
 {
 "
 file
@@ -142,7 +129,7 @@ releases
 /
 mozilla
 -
-esr38
+esr45
 "
     
 "
