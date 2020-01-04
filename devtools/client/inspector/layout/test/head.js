@@ -210,7 +210,9 @@ devtools
 /
 client
 /
-layoutview
+inspector
+/
+layout
 /
 test
 /
@@ -1172,6 +1174,7 @@ resolve
 )
 ;
 }
+;
 highlighter
 .
 hideBoxModel
@@ -1188,6 +1191,7 @@ resolve
 )
 ;
 }
+;
 }
 /
 /
@@ -1833,6 +1837,7 @@ func
 )
 ]
 )
+;
 }
 var
 runTests

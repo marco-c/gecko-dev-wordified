@@ -2689,9 +2689,11 @@ devtools
 /
 content
 /
-layoutview
+inspector
 /
-view
+layout
+/
+layout
 .
 xhtml
 "
