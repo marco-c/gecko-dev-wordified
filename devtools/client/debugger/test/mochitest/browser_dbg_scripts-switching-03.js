@@ -219,15 +219,7 @@ getFormatStr
 errorLoadingText2
 "
 "
-No
-such
-actor
-for
-ID
-:
-fake
-.
-actor
+noSuchActor
 "
 )
 )

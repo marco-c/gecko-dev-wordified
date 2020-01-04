@@ -3127,6 +3127,13 @@ error
 )
 {
 let
+url
+=
+textInfo
+.
+error
+;
+let
 msg
 =
 L10N
@@ -3136,9 +3143,7 @@ getFormatStr
 "
 errorLoadingText2
 "
-textInfo
-.
-error
+url
 )
 ;
 this

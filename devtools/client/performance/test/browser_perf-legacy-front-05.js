@@ -235,7 +235,6 @@ void
 }
 )
 ;
-return
 request
 .
 call

@@ -171,6 +171,13 @@ tab
 )
 ;
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 client
 .
 attachTab
@@ -178,6 +185,10 @@ attachTab
 form
 .
 actor
+resolve
+)
+;
+}
 )
 ;
 let
