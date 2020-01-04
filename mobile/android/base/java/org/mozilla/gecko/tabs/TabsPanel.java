@@ -2153,15 +2153,6 @@ VISIBLE
 ;
 mMenuButton
 .
-setVisibility
-(
-View
-.
-VISIBLE
-)
-;
-mMenuButton
-.
 setEnabled
 (
 true
