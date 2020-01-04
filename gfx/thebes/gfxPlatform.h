@@ -3584,6 +3584,12 @@ return
 false
 ;
 }
+bool
+SupportsApzDragInput
+(
+)
+const
+;
 virtual
 void
 FlushContentDrawing

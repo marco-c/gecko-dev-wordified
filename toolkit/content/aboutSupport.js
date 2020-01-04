@@ -1695,6 +1695,9 @@ Wheel
 '
 Touch
 '
+'
+Drag
+'
 ]
 )
 {
