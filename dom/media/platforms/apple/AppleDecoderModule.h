@@ -250,6 +250,10 @@ sInitialized
 ;
 static
 bool
+sIsCoreMediaAvailable
+;
+static
+bool
 sIsVTAvailable
 ;
 static
