@@ -810,6 +810,17 @@ aAllowScrollSpeedOverride
 protected
 :
 static
+const
+uint32_t
+kScrollSeriesTimeout
+=
+80
+;
+/
+/
+in
+milliseconds
+static
 void
 BeginTransaction
 (
