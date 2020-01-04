@@ -2392,6 +2392,12 @@ aHeight
 )
 ;
 bool
+ShouldDelayResize
+(
+)
+const
+;
+bool
 IsPainting
 (
 )
