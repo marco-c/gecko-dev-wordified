@@ -4845,7 +4845,8 @@ id
 printable
 )
 )
-JS_ReportErrorNumber
+{
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -4858,6 +4859,7 @@ ptr
 )
 )
 ;
+}
 return
 false
 ;
@@ -5126,7 +5128,7 @@ bytes
 return
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

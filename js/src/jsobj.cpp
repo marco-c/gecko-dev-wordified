@@ -641,7 +641,7 @@ if
 (
 bytes
 )
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -1301,7 +1301,7 @@ bytes
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -1470,7 +1470,7 @@ bytes
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

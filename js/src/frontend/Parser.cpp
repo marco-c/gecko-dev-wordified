@@ -12566,7 +12566,7 @@ null
 (
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 context
 -

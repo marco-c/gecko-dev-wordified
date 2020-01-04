@@ -31525,7 +31525,7 @@ id
 printable
 )
 )
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -31778,7 +31778,7 @@ printable
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -32084,7 +32084,7 @@ ptr
 )
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -32107,7 +32107,7 @@ isArrow
 )
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

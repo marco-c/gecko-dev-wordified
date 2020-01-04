@@ -7046,7 +7046,7 @@ arrStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7188,7 +7188,7 @@ posStr
 "
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7288,7 +7288,7 @@ funStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7347,7 +7347,7 @@ funStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7405,7 +7405,7 @@ funStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7436,7 +7436,7 @@ MOZ_ASSERT
 funObj
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7601,7 +7601,7 @@ argIndex
 1
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7637,7 +7637,7 @@ char
 s
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7774,7 +7774,7 @@ arrStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -7912,7 +7912,7 @@ arrStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8060,7 +8060,7 @@ nameStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8169,7 +8169,7 @@ posStr
 "
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8363,7 +8363,7 @@ posStr
 "
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8439,7 +8439,7 @@ PRIuSIZE
 length
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8497,7 +8497,7 @@ propStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8592,7 +8592,7 @@ propStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8647,7 +8647,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8731,7 +8731,7 @@ propStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8825,7 +8825,7 @@ nameStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -8919,7 +8919,7 @@ funStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9076,7 +9076,7 @@ more
 "
 "
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9157,7 +9157,7 @@ index
 1
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9217,7 +9217,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9280,7 +9280,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9311,7 +9311,7 @@ char
 actualType
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9363,7 +9363,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9454,7 +9454,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9503,7 +9503,7 @@ indexStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9660,7 +9660,7 @@ typeStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9707,7 +9707,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9769,7 +9769,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9913,7 +9913,7 @@ posStr
 "
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -9997,7 +9997,7 @@ src
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -10049,7 +10049,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -10108,7 +10108,7 @@ targetTypeStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -10238,7 +10238,7 @@ PRIuSIZE
 targetSize
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -10303,7 +10303,7 @@ valStr
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -10371,7 +10371,7 @@ index
 1
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

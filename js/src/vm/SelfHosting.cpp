@@ -2387,7 +2387,7 @@ i
 return
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -12492,7 +12492,7 @@ IsTypedArrayEnsuringArrayBuffer
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

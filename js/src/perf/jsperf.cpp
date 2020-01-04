@@ -1201,7 +1201,7 @@ bytes
 return
 nullptr
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
