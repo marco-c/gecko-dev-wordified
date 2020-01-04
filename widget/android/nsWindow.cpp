@@ -1230,10 +1230,7 @@ Get
 )
 )
 ;
-jni
-:
-:
-HandleUncaughtException
+MOZ_CATCH_JNI_EXCEPTION
 (
 env
 )

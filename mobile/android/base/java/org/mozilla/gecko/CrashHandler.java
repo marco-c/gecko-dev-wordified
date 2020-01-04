@@ -902,7 +902,8 @@ An
 exception
 *
 /
-protected
+public
+static
 void
 logException
 (
