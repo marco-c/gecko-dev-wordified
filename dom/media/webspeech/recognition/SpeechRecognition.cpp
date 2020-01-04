@@ -910,9 +910,9 @@ aGlobal
 )
 {
 bool
-inCertifiedApp
+inPrivilegedApp
 =
-IsInCertifiedApp
+IsInPrivilegedApp
 (
 aCx
 aGlobal
@@ -953,7 +953,7 @@ TEST_PREFERENCE_RECOGNITION_FORCE_ENABLE
 ;
 return
 (
-inCertifiedApp
+inPrivilegedApp
 |
 |
 enableRecognitionForceEnable
