@@ -389,6 +389,15 @@ JSFunction
 fun
 )
 ;
+extern
+bool
+IsAsmJSStrictModeModuleOrFunction
+(
+JSFunction
+*
+fun
+)
+;
 /
 /
 asm
