@@ -1903,6 +1903,10 @@ eDeviceOrientation
 )
 NS_EVENT_MESSAGE
 (
+eAbsoluteDeviceOrientation
+)
+NS_EVENT_MESSAGE
+(
 eDeviceMotion
 )
 NS_EVENT_MESSAGE
