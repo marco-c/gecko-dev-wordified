@@ -1499,6 +1499,7 @@ ServoRestyleManager
 :
 FrameForPseudoElement
 (
+const
 nsIContent
 *
 aContent

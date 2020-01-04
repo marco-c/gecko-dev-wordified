@@ -21422,6 +21422,7 @@ frame
 bool
 IsPseudoFrame
 (
+const
 nsIContent
 *
 aParentContent

@@ -9754,6 +9754,7 @@ GetBeforeFrameForContent
 nsIFrame
 *
 aFrame
+const
 nsIContent
 *
 aContent
@@ -10057,6 +10058,7 @@ GetAfterFrameForContent
 nsIFrame
 *
 aFrame
+const
 nsIContent
 *
 aContent

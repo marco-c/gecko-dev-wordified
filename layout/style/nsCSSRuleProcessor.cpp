@@ -7489,6 +7489,7 @@ nsCSSRuleProcessor
 :
 IsLink
 (
+const
 Element
 *
 aElement
