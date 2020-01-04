@@ -6428,6 +6428,16 @@ GlobalObject
 bool
 )
 ;
+static
+void
+Assert
+(
+const
+GlobalObject
+&
+bool
+)
+;
 /
 /
 Deprecated
