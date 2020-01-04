@@ -1580,6 +1580,9 @@ Exception
 :
 GetLineNumber
 (
+JSContext
+*
+aCx
 uint32_t
 *
 aLineNumber
@@ -1612,6 +1615,7 @@ mLocation
 >
 GetLineNumber
 (
+aCx
 &
 lineno
 )
@@ -2293,6 +2297,9 @@ Exception
 :
 LineNumber
 (
+JSContext
+*
+aCx
 )
 const
 {
@@ -2313,6 +2320,7 @@ mLocation
 >
 GetLineNumber
 (
+aCx
 &
 lineno
 )

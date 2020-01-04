@@ -10000,6 +10000,7 @@ frame
 >
 GetLineNumber
 (
+cx
 &
 lineNumber
 )

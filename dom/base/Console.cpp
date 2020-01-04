@@ -5401,6 +5401,7 @@ aStackFrame
 >
 GetLineNumber
 (
+aCx
 &
 lineNumber
 )
@@ -5427,6 +5428,7 @@ aStackFrame
 >
 GetColumnNumber
 (
+aCx
 &
 columnNumber
 )
