@@ -4635,6 +4635,10 @@ eStyleStruct_Display
 )
 )
 ;
+disp
+=
+mutable_display
+;
 /
 /
 If
@@ -5264,6 +5268,10 @@ eStyleStruct_Display
 )
 )
 ;
+disp
+=
+mutable_display
+;
 mutable_display
 -
 >
@@ -5333,6 +5341,10 @@ GetUniqueStyleData
 eStyleStruct_Display
 )
 )
+;
+disp
+=
+mutable_display
 ;
 mutable_display
 -
@@ -5729,6 +5741,10 @@ GetUniqueStyleData
 eStyleStruct_Display
 )
 )
+;
+disp
+=
+mutable_display
 ;
 mutable_display
 -
