@@ -535,10 +535,10 @@ aFilename
 -
 -
 class
-nsFSURLEncoded
+FSURLEncoded
 :
 public
-nsEncodingFormSubmission
+EncodingFormSubmission
 {
 public
 :
@@ -574,7 +574,7 @@ NS_FORM_METHOD_POST
 .
 *
 /
-nsFSURLEncoded
+FSURLEncoded
 (
 const
 nsACString
@@ -590,7 +590,7 @@ nsIContent
 aOriginatingElement
 )
 :
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 aCharset
 aOriginatingElement
@@ -831,7 +831,7 @@ mWarnedFileControl
 }
 ;
 nsresult
-nsFSURLEncoded
+FSURLEncoded
 :
 :
 AddNameValuePair
@@ -948,7 +948,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSURLEncoded
+FSURLEncoded
 :
 :
 AddIsindex
@@ -1026,7 +1026,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSURLEncoded
+FSURLEncoded
 :
 :
 AddNameBlobOrNullPair
@@ -1482,7 +1482,7 @@ subjectStrEscaped
 }
 }
 nsresult
-nsFSURLEncoded
+FSURLEncoded
 :
 :
 GetEncodedSubmission
@@ -2088,7 +2088,7 @@ i18n
 helper
 routines
 nsresult
-nsFSURLEncoded
+FSURLEncoded
 :
 :
 URLEncode
@@ -2283,10 +2283,10 @@ namespace
 -
 -
 -
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
-nsFSMultipartFormData
+FSMultipartFormData
 (
 const
 nsACString
@@ -2297,7 +2297,7 @@ nsIContent
 aOriginatingElement
 )
 :
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 aCharset
 aOriginatingElement
@@ -2391,11 +2391,11 @@ rand
 )
 ;
 }
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 ~
-nsFSMultipartFormData
+FSMultipartFormData
 (
 )
 {
@@ -2416,7 +2416,7 @@ data
 }
 nsIInputStream
 *
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 GetSubmissionBody
@@ -2473,7 +2473,7 @@ mPostDataStream
 ;
 }
 nsresult
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 AddNameValuePair
@@ -2659,7 +2659,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 AddNameBlobOrNullPair
@@ -3252,7 +3252,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 GetEncodedSubmission
@@ -3366,7 +3366,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSMultipartFormData
+FSMultipartFormData
 :
 :
 AddPostDataStream
@@ -3522,14 +3522,14 @@ rv
 namespace
 {
 class
-nsFSTextPlain
+FSTextPlain
 :
 public
-nsEncodingFormSubmission
+EncodingFormSubmission
 {
 public
 :
-nsFSTextPlain
+FSTextPlain
 (
 const
 nsACString
@@ -3540,7 +3540,7 @@ nsIContent
 aOriginatingElement
 )
 :
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 aCharset
 aOriginatingElement
@@ -3598,7 +3598,7 @@ mBody
 }
 ;
 nsresult
-nsFSTextPlain
+FSTextPlain
 :
 :
 AddNameValuePair
@@ -3698,7 +3698,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSTextPlain
+FSTextPlain
 :
 :
 AddNameBlobOrNullPair
@@ -3732,7 +3732,7 @@ NS_OK
 ;
 }
 nsresult
-nsFSTextPlain
+FSTextPlain
 :
 :
 GetEncodedSubmission
@@ -4223,10 +4223,10 @@ namespace
 -
 -
 -
-nsEncodingFormSubmission
+EncodingFormSubmission
 :
 :
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 const
 nsACString
@@ -4313,11 +4313,11 @@ charsetPtr
 ;
 }
 }
-nsEncodingFormSubmission
+EncodingFormSubmission
 :
 :
 ~
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 )
 {
@@ -4328,7 +4328,7 @@ i18n
 helper
 routines
 nsresult
-nsEncodingFormSubmission
+EncodingFormSubmission
 :
 :
 EncodeVal
@@ -5064,7 +5064,7 @@ NS_FORM_ENCTYPE_MULTIPART
 aFormSubmission
 =
 new
-nsFSMultipartFormData
+FSMultipartFormData
 (
 charset
 aOriginatingElement
@@ -5090,7 +5090,7 @@ NS_FORM_ENCTYPE_TEXTPLAIN
 aFormSubmission
 =
 new
-nsFSTextPlain
+FSTextPlain
 (
 charset
 aOriginatingElement
@@ -5202,7 +5202,7 @@ enctypeStrPtr
 aFormSubmission
 =
 new
-nsFSURLEncoded
+FSURLEncoded
 (
 charset
 method

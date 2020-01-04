@@ -2220,7 +2220,7 @@ nsACString
 aCharset
 )
 {
-nsFSMultipartFormData
+FSMultipartFormData
 fs
 (
 NS_LITERAL_CSTRING

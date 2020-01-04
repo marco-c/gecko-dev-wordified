@@ -701,14 +701,14 @@ mOriginatingElement
 }
 ;
 class
-nsEncodingFormSubmission
+EncodingFormSubmission
 :
 public
 HTMLFormSubmission
 {
 public
 :
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 const
 nsACString
@@ -721,7 +721,7 @@ aOriginatingElement
 ;
 virtual
 ~
-nsEncodingFormSubmission
+EncodingFormSubmission
 (
 )
 ;
@@ -853,10 +853,10 @@ POST
 *
 /
 class
-nsFSMultipartFormData
+FSMultipartFormData
 :
 public
-nsEncodingFormSubmission
+EncodingFormSubmission
 {
 public
 :
@@ -876,7 +876,7 @@ a
 string
 *
 /
-nsFSMultipartFormData
+FSMultipartFormData
 (
 const
 nsACString
@@ -888,7 +888,7 @@ aOriginatingElement
 )
 ;
 ~
-nsFSMultipartFormData
+FSMultipartFormData
 (
 )
 ;
