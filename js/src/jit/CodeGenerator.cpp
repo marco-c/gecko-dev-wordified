@@ -28869,7 +28869,7 @@ continue
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 const
 char
 *
@@ -28980,6 +28980,9 @@ columnNumber
 }
 else
 {
+#
+ifdef
+DEBUG
 lineNumber
 =
 current
@@ -29008,6 +29011,8 @@ columnIndex
 (
 )
 ;
+#
+endif
 }
 JitSpew
 (
@@ -29175,7 +29180,7 @@ iter
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpewStart
 (
 JitSpew_Codegen

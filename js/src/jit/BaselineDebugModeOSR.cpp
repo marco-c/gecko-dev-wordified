@@ -1745,7 +1745,7 @@ true
 }
 #
 ifdef
-DEBUG
+JS_JITSPEW
 static
 const
 char
@@ -1878,7 +1878,7 @@ kind
 endif
 /
 /
-DEBUG
+JS_JITSPEW
 static
 void
 SpewPatchBaselineFrame

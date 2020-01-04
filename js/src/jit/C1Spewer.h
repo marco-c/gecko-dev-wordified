@@ -116,7 +116,7 @@ define
 jit_C1Spewer_h
 #
 ifdef
-DEBUG
+JS_JITSPEW
 #
 include
 "
@@ -285,7 +285,7 @@ js
 endif
 /
 *
-DEBUG
+JS_JITSPEW
 *
 /
 #
