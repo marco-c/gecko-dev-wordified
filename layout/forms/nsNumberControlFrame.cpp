@@ -4106,7 +4106,7 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_SPINNER_UP_BUTTON
+NS_THEME_SPINNER_UPBUTTON
 &
 &
 !
@@ -4136,7 +4136,7 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_SPINNER_DOWN_BUTTON
+NS_THEME_SPINNER_DOWNBUTTON
 &
 &
 !

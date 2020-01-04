@@ -1817,7 +1817,7 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_PROGRESSBAR_CHUNK
+NS_THEME_PROGRESSCHUNK
 &
 &
 !

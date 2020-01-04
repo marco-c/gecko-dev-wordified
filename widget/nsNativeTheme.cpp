@@ -1451,7 +1451,7 @@ eventState
 GetContentState
 (
 aFrame
-NS_THEME_TOOLBAR_BUTTON
+NS_THEME_TOOLBARBUTTON
 )
 ;
 if
@@ -1847,7 +1847,7 @@ if
 aWidgetType
 =
 =
-NS_THEME_PROGRESSBAR_CHUNK
+NS_THEME_PROGRESSCHUNK
 |
 |
 aWidgetType
@@ -1865,7 +1865,7 @@ do_QueryFrame
 aWidgetType
 =
 =
-NS_THEME_PROGRESSBAR_CHUNK
+NS_THEME_PROGRESSCHUNK
 ?
 aFrame
 -
@@ -1933,7 +1933,7 @@ if
 aWidgetType
 =
 =
-NS_THEME_METERBAR_CHUNK
+NS_THEME_METERCHUNK
 |
 |
 aWidgetType
@@ -1951,7 +1951,7 @@ do_QueryFrame
 aWidgetType
 =
 =
-NS_THEME_METERBAR_CHUNK
+NS_THEME_METERCHUNK
 ?
 aFrame
 -
@@ -2081,13 +2081,13 @@ if
 aWidgetType
 =
 =
-NS_THEME_SPINNER_UP_BUTTON
+NS_THEME_SPINNER_UPBUTTON
 |
 |
 aWidgetType
 =
 =
-NS_THEME_SPINNER_DOWN_BUTTON
+NS_THEME_SPINNER_DOWNBUTTON
 )
 {
 nsNumberControlFrame
@@ -2153,7 +2153,7 @@ NS_THEME_LISTBOX
 aWidgetType
 =
 =
-NS_THEME_DROPDOWN
+NS_THEME_MENULIST
 )
 &
 &
