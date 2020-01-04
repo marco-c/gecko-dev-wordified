@@ -70,8 +70,6 @@ mozpack
 path
 as
 mozpath
-import
-mozwebidlcodegen
 from
 mozbuild
 .
@@ -3026,6 +3024,9 @@ indent
 =
 2
 )
+        
+import
+mozwebidlcodegen
         
 manager
 =
