@@ -218,7 +218,7 @@ previous
 two
 bytes
 we
-calcualte
+calculate
 the
 context
 as
