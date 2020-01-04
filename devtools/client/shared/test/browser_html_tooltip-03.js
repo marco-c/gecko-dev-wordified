@@ -1231,7 +1231,6 @@ input
 >
 '
 ;
-yield
 tooltip
 .
 setContent

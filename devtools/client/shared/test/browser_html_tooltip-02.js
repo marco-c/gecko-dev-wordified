@@ -437,7 +437,6 @@ doc
 }
 )
 ;
-yield
 tooltip
 .
 setContent
@@ -568,7 +567,6 @@ false
 }
 )
 ;
-yield
 tooltip
 .
 setContent
@@ -735,7 +733,6 @@ true
 }
 )
 ;
-yield
 tooltip
 .
 setContent
@@ -870,7 +867,6 @@ doc
 }
 )
 ;
-yield
 tooltip
 .
 setContent
@@ -1020,7 +1016,6 @@ height
 50px
 "
 ;
-yield
 tooltip
 .
 setContent

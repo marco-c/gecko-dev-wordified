@@ -430,7 +430,6 @@ height
 %
 "
 ;
-yield
 tooltip
 .
 setContent
