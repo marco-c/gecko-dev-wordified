@@ -656,6 +656,12 @@ DispatchChangeEvent
 (
 )
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+;
 LockPermission
 GetLockOrientationPermission
 (
