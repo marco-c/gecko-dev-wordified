@@ -2252,9 +2252,11 @@ Close
 (
 )
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 char
+[
+]
 >
 buf
 ;
@@ -2266,10 +2268,8 @@ rv
 NewBufferFromStorageStream
 (
 storageStream
-getter_Transfers
-(
+&
 buf
-)
 &
 len
 )
@@ -2328,6 +2328,10 @@ get
 (
 )
 buf
+.
+get
+(
+)
 len
 )
 ;

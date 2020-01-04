@@ -1836,9 +1836,11 @@ rv
 uint32_t
 len
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 char
+[
+]
 >
 buf
 ;
@@ -1847,10 +1849,8 @@ rv
 NewBufferFromStorageStream
 (
 storageStream
-getter_Transfers
-(
+&
 buf
-)
 &
 len
 )
@@ -1873,6 +1873,10 @@ get
 (
 )
 buf
+.
+get
+(
+)
 len
 )
 ;
