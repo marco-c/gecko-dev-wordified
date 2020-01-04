@@ -1455,7 +1455,7 @@ message
 .
 target
 .
-sendAsyncMessge
+sendAsyncMessage
 (
 "
 SetCrashReportAvailable
