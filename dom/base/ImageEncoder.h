@@ -180,9 +180,6 @@ namespace
 layers
 {
 class
-AsyncCanvasRenderer
-;
-class
 Image
 ;
 }
@@ -311,12 +308,6 @@ aSize
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-AsyncCanvasRenderer
-*
-aRenderer
 nsIInputStream
 *
 *
@@ -653,9 +644,7 @@ When
 called
 asynchronously
 aContext
-and
-aRenderer
-are
+is
 null
 .
 static
@@ -687,12 +676,6 @@ aImage
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-AsyncCanvasRenderer
-*
-aRenderer
 nsIInputStream
 *
 *

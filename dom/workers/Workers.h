@@ -956,14 +956,6 @@ dom
 requestcontext
 .
 enabled
-WORKERPREF_OFFSCREENCANVAS
-/
-/
-gfx
-.
-offscreencanvas
-.
-enabled
 WORKERPREF_COUNT
 }
 ;

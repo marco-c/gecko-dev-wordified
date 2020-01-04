@@ -1021,13 +1021,6 @@ mActor
 =
 nullptr
 ;
-mTextureClient
--
->
-mAllocator
-=
-nullptr
-;
 }
 mWaitForRecycle
 =
