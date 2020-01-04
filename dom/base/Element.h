@@ -3692,6 +3692,17 @@ mAttributeMap
 ;
 }
 void
+GetAttributeNames
+(
+nsTArray
+<
+nsString
+>
+&
+aResult
+)
+;
+void
 GetAttribute
 (
 const
