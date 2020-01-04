@@ -841,10 +841,6 @@ class
 gfxPrefs
 final
 {
-friend
-class
-gfxWindowsPlatform
-;
 private
 :
 /
@@ -3866,7 +3862,7 @@ acceleration
 .
 disabled
 "
-LayersAccelerationDisabledDoNotUseDirectly
+LayersAccelerationDisabled
 bool
 false
 )
@@ -3944,7 +3940,7 @@ force
 -
 enabled
 "
-LayersAccelerationForceEnabledDoNotUseDirectly
+LayersAccelerationForceEnabled
 bool
 false
 )
