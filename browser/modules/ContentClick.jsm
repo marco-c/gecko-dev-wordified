@@ -639,6 +639,8 @@ PlacesUIUtils
 .
 markPageAsFollowedLink
 (
+json
+.
 href
 )
 ;
