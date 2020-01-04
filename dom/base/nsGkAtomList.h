@@ -2441,6 +2441,13 @@ disabled
 )
 GK_ATOM
 (
+disableglobalhistory
+"
+disableglobalhistory
+"
+)
+GK_ATOM
+(
 disablehistory
 "
 disablehistory

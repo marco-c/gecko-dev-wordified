@@ -2814,6 +2814,17 @@ aMuted
 )
 override
 ;
+virtual
+bool
+RecvSetUseGlobalHistory
+(
+const
+bool
+&
+aUse
+)
+override
+;
 /
 *
 *
