@@ -661,6 +661,16 @@ The
 desired
 passwordNotificationType
 *
+param
+{
+Object
+}
+[
+popupNotifications
+=
+PopupNotifications
+]
+*
 return
 the
 found
@@ -674,6 +684,9 @@ function
 getCaptureDoorhanger
 (
 aKind
+popupNotifications
+=
+PopupNotifications
 )
 {
 ok
@@ -695,7 +708,7 @@ notification
 let
 notification
 =
-PopupNotifications
+popupNotifications
 .
 getNotification
 (
