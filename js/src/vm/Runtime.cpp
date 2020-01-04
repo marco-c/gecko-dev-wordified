@@ -1154,6 +1154,10 @@ ctypesActivityCallback
 (
 nullptr
 )
+windowProxyClass_
+(
+nullptr
+)
 offthreadIonCompilationEnabled_
 (
 true

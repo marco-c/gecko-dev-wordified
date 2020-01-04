@@ -23899,6 +23899,16 @@ runtime
 InterruptCallback
 )
 ;
+js
+:
+:
+SetWindowProxyClass
+(
+runtime
+&
+OuterWindowProxyClass
+)
+;
 /
 /
 The

@@ -6048,7 +6048,7 @@ aGlobal
 js
 :
 :
-IsOuterObject
+IsWindowProxy
 (
 aGlobal
 )
