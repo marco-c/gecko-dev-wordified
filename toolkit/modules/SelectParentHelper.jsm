@@ -185,6 +185,15 @@ hide
 function
 (
 menulist
+browser
+)
+{
+if
+(
+currentBrowser
+=
+=
+browser
 )
 {
 menulist
@@ -195,6 +204,7 @@ hidePopup
 (
 )
 ;
+}
 }
 handleEvent
 :
