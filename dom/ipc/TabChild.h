@@ -2685,6 +2685,15 @@ InvalidateLayers
 (
 )
 ;
+void
+CompositorUpdated
+(
+const
+TextureFactoryIdentifier
+&
+aNewIdentifier
+)
+;
 static
 inline
 TabChild
