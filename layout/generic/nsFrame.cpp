@@ -5192,7 +5192,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 :
 nullptr
 ;
@@ -5207,7 +5207,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 AddAndRemoveImageAssociations
 (
@@ -5229,7 +5229,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 :
 nullptr
 ;
@@ -5241,7 +5241,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 ;
 AddAndRemoveImageAssociations
 (

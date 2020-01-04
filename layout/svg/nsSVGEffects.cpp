@@ -3079,7 +3079,7 @@ MOZ_ASSERT
 style
 -
 >
-mLayers
+mMask
 .
 mImageCount
 >
@@ -3095,7 +3095,7 @@ uri
 style
 -
 >
-mLayers
+mMask
 .
 mLayers
 [

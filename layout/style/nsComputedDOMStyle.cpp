@@ -10043,7 +10043,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 nsCSSProps
 :
 :
@@ -10083,7 +10083,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 nsCSSProps
 :
 :
@@ -12898,7 +12898,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 return
 DoGetImageLayerImage
@@ -12939,7 +12939,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 nsCSSProps
 :
 :
@@ -12979,7 +12979,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 nsCSSProps
 :
 :
@@ -13178,7 +13178,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 return
 DoGetImageLayerPosition
@@ -13208,7 +13208,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 return
 DoGetImageLayerRepeat
@@ -13238,7 +13238,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 return
 DoGetImageLayerSize
@@ -33107,7 +33107,7 @@ firstLayer
 svg
 -
 >
-mLayers
+mMask
 .
 mLayers
 [
@@ -33156,7 +33156,7 @@ if
 svg
 -
 >
-mLayers
+mMask
 .
 mImageCount
 >
@@ -33334,7 +33334,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 nsCSSProps
 :
 :
@@ -33374,7 +33374,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 nsCSSProps
 :
 :
@@ -33403,7 +33403,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 ;
 return
 DoGetImageLayerImage
@@ -33444,7 +33444,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 nsCSSProps
 :
 :
@@ -33484,7 +33484,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 nsCSSProps
 :
 :
@@ -33513,7 +33513,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 ;
 return
 DoGetImageLayerPosition
@@ -33543,7 +33543,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 ;
 return
 DoGetImageLayerRepeat
@@ -33573,7 +33573,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 ;
 return
 DoGetImageLayerSize

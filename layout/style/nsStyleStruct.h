@@ -4580,7 +4580,7 @@ BottomLayer
 const
 {
 return
-mLayers
+mImage
 .
 BottomLayer
 (
@@ -4588,7 +4588,7 @@ BottomLayer
 ;
 }
 nsStyleImageLayers
-mLayers
+mImage
 ;
 nscolor
 mBackgroundColor
@@ -20792,7 +20792,7 @@ NS_STYLE_VECTOR_EFFECT_NON_SCALING_STROKE
 ;
 }
 nsStyleImageLayers
-mLayers
+mMask
 ;
 nsStyleClipPath
 mClipPath
