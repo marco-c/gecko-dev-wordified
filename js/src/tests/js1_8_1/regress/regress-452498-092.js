@@ -390,7 +390,7 @@ Ruderman
 expect
 =
 '
-TypeError
+SyntaxError
 :
 redeclaration
 of
@@ -444,7 +444,7 @@ Without
 patch
 :
 "
-TypeError
+SyntaxError
 :
 redeclaration
 of
@@ -462,7 +462,7 @@ With
 patch
 :
 "
-TypeError
+SyntaxError
 :
 redeclaration
 of
