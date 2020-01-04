@@ -811,6 +811,13 @@ mStarted
 (
 false
 )
+mSampleFrequency
+(
+MediaEngine
+:
+:
+DEFAULT_SAMPLE_RATE
+)
 mEchoOn
 (
 false
@@ -1279,6 +1286,9 @@ mDeviceName
 ;
 nsCString
 mDeviceUUID
+;
+uint32_t
+mSampleFrequency
 ;
 bool
 mEchoOn

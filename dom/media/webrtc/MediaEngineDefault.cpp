@@ -178,7 +178,13 @@ endif
 #
 define
 AUDIO_RATE
-16000
+mozilla
+:
+:
+MediaEngine
+:
+:
+DEFAULT_SAMPLE_RATE
 #
 define
 AUDIO_FRAME_LENGTH
