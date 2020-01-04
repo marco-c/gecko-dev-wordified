@@ -528,9 +528,6 @@ mPaperName
 int16_t
 mPaperData
 ;
-int16_t
-mPaperSizeType
-;
 double
 mPaperWidth
 ;
