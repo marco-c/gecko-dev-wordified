@@ -2970,6 +2970,10 @@ bool
 sync
 )
 {
+FinalizeOnIPDLThread
+(
+)
+;
 if
 (
 mValid

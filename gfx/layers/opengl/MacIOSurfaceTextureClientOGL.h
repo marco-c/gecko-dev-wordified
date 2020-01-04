@@ -307,6 +307,13 @@ nullptr
 }
 protected
 :
+virtual
+void
+FinalizeOnIPDLThread
+(
+)
+override
+;
 RefPtr
 <
 MacIOSurface
