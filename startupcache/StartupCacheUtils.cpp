@@ -1716,9 +1716,6 @@ else
 /
 Very
 unlikely
-nsAutoCString
-spec
-;
 rv
 =
 uri
