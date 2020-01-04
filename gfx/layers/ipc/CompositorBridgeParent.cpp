@@ -5083,6 +5083,7 @@ mLayerManager
 =
 nullptr
 ;
+}
 {
 /
 /
@@ -5102,7 +5103,6 @@ erase
 mRootLayerTreeID
 )
 ;
-}
 }
 if
 (

@@ -539,6 +539,16 @@ const
 {
 if
 (
+!
+mWidget
+)
+{
+return
+nullptr
+;
+}
+if
+(
 nsView
 *
 view
