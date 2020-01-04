@@ -8192,16 +8192,6 @@ label
 )
 ;
 }
-inline
-void
-rshift64
-(
-Imm32
-imm
-Register64
-dest
-)
-;
 void
 lshiftPtr
 (

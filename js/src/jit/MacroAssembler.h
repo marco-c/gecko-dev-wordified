@@ -5166,6 +5166,17 @@ dest
 )
 PER_ARCH
 ;
+inline
+void
+rshift64
+(
+Imm32
+imm
+Register64
+dest
+)
+PER_ARCH
+;
 /
 /
 }
