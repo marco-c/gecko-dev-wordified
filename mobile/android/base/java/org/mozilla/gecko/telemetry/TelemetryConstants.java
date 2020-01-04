@@ -313,6 +313,16 @@ public
 static
 final
 String
+EXPERIMENTS
+=
+"
+experiments
+"
+;
+public
+static
+final
+String
 LOCALE
 =
 "

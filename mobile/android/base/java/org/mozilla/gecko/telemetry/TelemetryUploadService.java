@@ -1162,6 +1162,7 @@ TelemetryPingGenerator
 .
 createCorePing
 (
+this
 docId
 clientId
 serverURLSchemeHostPort
