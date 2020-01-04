@@ -5382,9 +5382,6 @@ reflow
 bool
 RenumberLists
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
