@@ -3756,6 +3756,13 @@ symbols_file
 .
 full_path
 ]
+lib
+.
+defines
+.
+get_defines
+(
+)
 )
             
 if
