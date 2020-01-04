@@ -1625,7 +1625,7 @@ metaState
 ;
 event
 .
-location
+mLocation
 =
 mDOMKeyLocation
 ;

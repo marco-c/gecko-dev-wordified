@@ -3881,7 +3881,7 @@ NS_WARN_IF
 (
 aKeyboardEvent
 .
-location
+mLocation
 )
 )
 {
@@ -3896,7 +3896,7 @@ if
 !
 aKeyboardEvent
 .
-location
+mLocation
 )
 {
 /
@@ -3904,7 +3904,7 @@ location
 If
 KeyboardEvent
 .
-location
+mLocation
 is
 0
 it
@@ -3920,7 +3920,7 @@ we
 should
 compute
 proper
-location
+mLocation
 value
 from
 its
@@ -3930,7 +3930,7 @@ value
 .
 aKeyboardEvent
 .
-location
+mLocation
 =
 WidgetKeyboardEvent
 :

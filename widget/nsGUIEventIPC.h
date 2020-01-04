@@ -2748,7 +2748,7 @@ WriteParam
 aMsg
 aParam
 .
-location
+mLocation
 )
 ;
 WriteParam
@@ -3061,7 +3061,7 @@ aIter
 aResult
 -
 >
-location
+mLocation
 )
 &
 &

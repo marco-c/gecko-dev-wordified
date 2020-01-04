@@ -3162,7 +3162,7 @@ MOZ_ASSERT
 (
 keyEvent
 .
-location
+mLocation
 =
 =
 static_cast
@@ -3174,7 +3174,7 @@ WidgetKeyboardEvent
 original
 )
 .
-location
+mLocation
 )
 ;
 MOZ_ASSERT

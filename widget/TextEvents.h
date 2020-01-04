@@ -1125,7 +1125,7 @@ mPseudoCharCode
 (
 0
 )
-location
+mLocation
 (
 nsIDOMKeyEvent
 :
@@ -1242,7 +1242,7 @@ mPseudoCharCode
 (
 0
 )
-location
+mLocation
 (
 nsIDOMKeyEvent
 :
@@ -1655,7 +1655,7 @@ nsIDOMKeyEvent
 DOM_KEY_LOCATION_
 *
 uint32_t
-location
+mLocation
 ;
 /
 /
@@ -2432,7 +2432,7 @@ returns
 one
 of
 .
-location
+mLocation
 value
 *
 (
@@ -2680,11 +2680,11 @@ aEvent
 .
 mPseudoCharCode
 ;
-location
+mLocation
 =
 aEvent
 .
-location
+mLocation
 ;
 mAlternativeCharCodes
 =

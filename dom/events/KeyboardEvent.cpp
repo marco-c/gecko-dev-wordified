@@ -1266,7 +1266,7 @@ AsKeyboardEvent
 )
 -
 >
-location
+mLocation
 ;
 }
 /
@@ -1440,7 +1440,7 @@ AsKeyboardEvent
 internalEvent
 -
 >
-location
+mLocation
 =
 aParam
 .

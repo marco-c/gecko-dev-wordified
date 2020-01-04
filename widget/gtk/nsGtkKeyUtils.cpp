@@ -5745,7 +5745,7 @@ GDK_Meta_L
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5774,7 +5774,7 @@ GDK_Meta_R
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5900,7 +5900,7 @@ GDK_KP_Divide
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5913,7 +5913,7 @@ default
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
