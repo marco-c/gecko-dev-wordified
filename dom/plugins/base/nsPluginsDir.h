@@ -231,6 +231,9 @@ char
 *
 fVersion
 ;
+bool
+fSupportsAsyncRender
+;
 }
 ;
 /
