@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -248,7 +248,7 @@ override
 bool
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -280,7 +280,7 @@ endif
 void
 AddValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -324,7 +324,7 @@ aProperty
 void
 AddValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &

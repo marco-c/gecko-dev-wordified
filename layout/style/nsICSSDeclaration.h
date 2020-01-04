@@ -141,7 +141,7 @@ that
 these
 use
 *
-nsCSSProperty
+nsCSSPropertyID
 enums
 for
 the
@@ -195,7 +195,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -323,7 +323,7 @@ NS_IMETHOD
 GetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsAString
 &
@@ -386,7 +386,7 @@ NS_IMETHOD
 SetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -1021,7 +1021,7 @@ NS_IMETHOD
 GetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 \
 nsAString
@@ -1050,7 +1050,7 @@ NS_IMETHOD
 SetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 \
 const

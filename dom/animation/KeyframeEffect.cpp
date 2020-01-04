@@ -3146,7 +3146,7 @@ KeyframeEffectReadOnly
 :
 GetAnimationOfProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -4572,7 +4572,7 @@ KeyframeEffectReadOnly
 :
 SetIsRunningOnCompositor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 bool
 aIsRunning
@@ -5958,7 +5958,7 @@ static
 void
 CreatePropertyValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 float
 aOffset
@@ -6801,7 +6801,7 @@ as
 the
 property
 .
-nsCSSProperty
+nsCSSPropertyID
 propertyForSerializing
 =
 nsCSSProps
@@ -8131,7 +8131,7 @@ KeyframeEffectReadOnly
 IsGeometricProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -8622,7 +8622,7 @@ KeyframeEffectReadOnly
 :
 SetPerformanceWarning
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 AnimationPerformanceWarning
@@ -8732,7 +8732,7 @@ nsStyleContext
 >
 CreateStyleContextForAnimationValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 aValue

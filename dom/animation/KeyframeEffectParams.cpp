@@ -684,7 +684,7 @@ aSpacing
 SpacingMode
 &
 aSpacingMode
-nsCSSProperty
+nsCSSPropertyID
 &
 aPacedProperty
 nsAString

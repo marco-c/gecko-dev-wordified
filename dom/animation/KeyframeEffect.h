@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -412,7 +412,7 @@ keyframe
 struct
 PropertyValuePair
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 /
@@ -852,7 +852,7 @@ aOther
 struct
 AnimationProperty
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 =
 eCSSProperty_UNKNOWN
@@ -1819,7 +1819,7 @@ AnimationProperty
 *
 GetAnimationOfProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -1827,7 +1827,7 @@ const
 bool
 HasAnimationOfProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -1983,7 +1983,7 @@ const
 void
 SetIsRunningOnCompositor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 bool
 aIsRunning
@@ -2196,7 +2196,7 @@ devtools
 void
 SetPerformanceWarning
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 AnimationPerformanceWarning
@@ -2856,7 +2856,7 @@ bool
 IsGeometricProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;

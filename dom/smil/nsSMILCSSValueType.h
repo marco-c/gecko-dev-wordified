@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -607,7 +607,7 @@ static
 void
 ValueFromString
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 Element
 *
@@ -769,7 +769,7 @@ examine
 *
 return
 The
-nsCSSProperty
+nsCSSPropertyID
 enum
 value
 of
@@ -798,7 +798,7 @@ nsSMILCSSValueType
 *
 /
 static
-nsCSSProperty
+nsCSSPropertyID
 PropertyFromValue
 (
 const

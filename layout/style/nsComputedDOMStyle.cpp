@@ -587,7 +587,7 @@ ComputeMethod
 (
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 ComputeMethod
@@ -760,7 +760,7 @@ properties
 .
 *
 /
-nsCSSProperty
+nsCSSPropertyID
 PropertyAt
 (
 uint32_t
@@ -824,7 +824,7 @@ Entry
 *
 FindEntryForProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -1650,7 +1650,7 @@ nsComputedDOMStyle
 GetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsAString
 &
@@ -1716,7 +1716,7 @@ nsComputedDOMStyle
 SetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -4261,7 +4261,7 @@ ErrorResult
 aRv
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 nsCSSProps
@@ -4382,7 +4382,7 @@ CSS_PROPERTY_IS_ALIAS
 )
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -34914,7 +34914,7 @@ property
 new
 nsROCSSPrimitiveValue
 ;
-nsCSSProperty
+nsCSSPropertyID
 cssprop
 =
 transition

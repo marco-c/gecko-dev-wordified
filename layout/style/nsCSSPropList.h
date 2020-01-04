@@ -305,7 +305,7 @@ enum
 values
 of
 the
-nsCSSProperty
+nsCSSPropertyID
 enumeration
 defined
 in

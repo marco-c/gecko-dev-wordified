@@ -1858,7 +1858,7 @@ nsStyleUtil
 :
 AppendBitmaskCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 int32_t
 aMaskedValue

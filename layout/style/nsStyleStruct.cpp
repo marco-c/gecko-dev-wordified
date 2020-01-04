@@ -12872,7 +12872,7 @@ nsStyleImageLayers
 /
 /
 const
-nsCSSProperty
+nsCSSPropertyID
 nsStyleImageLayers
 :
 :
@@ -12935,7 +12935,7 @@ composite
 ifdef
 MOZ_ENABLE_MASK_AS_SHORTHAND
 const
-nsCSSProperty
+nsCSSPropertyID
 nsStyleImageLayers
 :
 :
@@ -16325,7 +16325,7 @@ StyleTransition
 :
 SetUnknownProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString

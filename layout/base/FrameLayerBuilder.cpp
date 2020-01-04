@@ -1690,7 +1690,7 @@ frame
 mFrameList
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 mDisplayItemKey

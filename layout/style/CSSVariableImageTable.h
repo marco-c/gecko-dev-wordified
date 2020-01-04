@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -161,7 +161,7 @@ mapping
 *
 (
 nsStyleContext
-nsCSSProperty
+nsCSSPropertyID
 )
 -
 >
@@ -414,7 +414,7 @@ nsClassHashtable
 <
 nsGenericHashKey
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 ImageValueArray
 >
@@ -492,7 +492,7 @@ a
 *
 (
 nsStyleContext
-nsCSSProperty
+nsCSSPropertyID
 )
 pair
 .
@@ -574,7 +574,7 @@ ReplaceAll
 nsStyleContext
 *
 aContext
-nsCSSProperty
+nsCSSPropertyID
 aProp
 Lambda
 aFunc
@@ -917,7 +917,7 @@ Add
 nsStyleContext
 *
 aContext
-nsCSSProperty
+nsCSSPropertyID
 aProp
 css
 :

@@ -4729,7 +4729,7 @@ strokeWidth
 f
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 colorProp
 =
 mFrame

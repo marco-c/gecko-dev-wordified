@@ -4663,7 +4663,7 @@ aItem
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;

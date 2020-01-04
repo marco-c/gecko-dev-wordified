@@ -5095,7 +5095,7 @@ aComputeData
 void
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -5870,7 +5870,7 @@ ComputePropertiesOverridingAnimation
 const
 nsTArray
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 &
 aProperties

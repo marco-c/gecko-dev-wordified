@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -385,7 +385,7 @@ static
 void
 AppendBitmaskCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 int32_t
 aMaskedValue
