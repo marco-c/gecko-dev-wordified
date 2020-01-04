@@ -21139,13 +21139,14 @@ mFrameMetrics
 sampleTimeDelta
 )
 ;
+*
+aOutDeferredTasks
+=
 mAnimation
 -
 >
 TakeDeferredTasks
 (
-*
-aOutDeferredTasks
 )
 ;
 if
