@@ -623,8 +623,6 @@ new_process
 args
 '
 :
-args
-}
 '
 '
 .
@@ -632,6 +630,12 @@ join
 (
 args
 )
+}
+'
+{
+args
+}
+'
 )
         
 def
@@ -1124,12 +1128,17 @@ non
 0
 exit
 code
+%
+d
 :
 %
 s
 '
 %
+(
+status
 args
+)
 )
         
 return
