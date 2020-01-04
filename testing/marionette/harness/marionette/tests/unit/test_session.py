@@ -247,8 +247,6 @@ self
 Sends
 newSession
         
-caps
-=
 self
 .
 marionette
@@ -297,8 +295,6 @@ self
 Sends
 newSession
         
-caps
-=
 self
 .
 marionette
