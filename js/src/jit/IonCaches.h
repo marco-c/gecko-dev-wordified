@@ -2595,6 +2595,14 @@ return
 pc_
 ;
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 }
 ;
 /
