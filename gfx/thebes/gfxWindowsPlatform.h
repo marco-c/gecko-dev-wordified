@@ -1604,6 +1604,16 @@ aOut
 override
 ;
 bool
+SupportsPluginDirectBitmapDrawing
+(
+)
+override
+{
+return
+true
+;
+}
+bool
 SupportsPluginDirectDXGIDrawing
 (
 )

@@ -676,6 +676,16 @@ MaxGenericSubstitions
 (
 )
 ;
+bool
+SupportsPluginDirectBitmapDrawing
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 static
