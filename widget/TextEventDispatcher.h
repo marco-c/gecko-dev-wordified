@@ -1662,7 +1662,7 @@ Clear
 ;
 private
 :
-nsAutoString
+nsString
 mString
 ;
 RefPtr

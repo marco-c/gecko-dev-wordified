@@ -7051,7 +7051,7 @@ GetApplicationVersion
 )
 {
 static
-nsAutoCString
+nsCString
 version
 ;
 static

@@ -343,7 +343,7 @@ uint32_t
 aInhibitRequest
 )
 ;
-nsAutoCString
+nsCString
 mTopic
 ;
 DBusConnection
