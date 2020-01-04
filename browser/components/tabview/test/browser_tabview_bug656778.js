@@ -256,7 +256,7 @@ banner
 )
 .
 length
-1
+2
 "
 notification
 banner
@@ -299,7 +299,7 @@ banner
 )
 .
 length
-0
+1
 "
 notification
 banner
