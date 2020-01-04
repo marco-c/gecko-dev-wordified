@@ -243,6 +243,9 @@ severity
 "
 log
 "
+stacktrace
+:
+null
 }
 )
 ;

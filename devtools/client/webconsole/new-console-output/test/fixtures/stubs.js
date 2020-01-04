@@ -156,6 +156,9 @@ CATEGORY_WEBDEV
 severity
 :
 SEVERITY_LOG
+stacktrace
+:
+undefined
 }
 )
 ]
