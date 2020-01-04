@@ -2153,15 +2153,6 @@ size_t
 lirIndex
 )
 {
-/
-/
-oh
-god
-what
-is
-this
-code
-?
 MDefinition
 *
 operand
