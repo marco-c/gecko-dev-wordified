@@ -60,18 +60,6 @@ jsm
 )
 ;
 /
-*
-exported
-loader
-either
-click
-dblclick
-mousedown
-rightMousedown
-key
-*
-/
-/
 /
 All
 tests
@@ -432,7 +420,7 @@ scope
 >
 {
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -441,7 +429,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -465,7 +453,7 @@ prefs
 "
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -622,7 +610,7 @@ up
 "
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =

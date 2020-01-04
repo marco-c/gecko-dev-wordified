@@ -114,7 +114,7 @@ reducers
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -123,7 +123,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -166,7 +166,7 @@ the
 store
 if
 (
-DevToolsUtils
+flags
 .
 testing
 )

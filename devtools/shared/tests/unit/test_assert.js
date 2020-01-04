@@ -72,7 +72,7 @@ run_test
 Enable
 assertions
 .
-DevToolsUtils
+flags
 .
 testing
 =

@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -71,7 +71,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -142,7 +142,7 @@ getState
 if
 (
 !
-DevToolsUtils
+flags
 .
 testing
 )

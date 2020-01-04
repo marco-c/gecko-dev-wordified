@@ -162,7 +162,7 @@ require
 "
 devtools
 /
-client
+shared
 /
 webconsole
 /
@@ -395,7 +395,7 @@ utm_campaign
 default
 "
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -2042,7 +2042,7 @@ function
 (
 )
 {
-DevToolsUtils
+flags
 .
 testing
 =

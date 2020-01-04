@@ -258,6 +258,20 @@ dumpv
 DevToolsUtils
 ;
 const
+flags
+=
+require
+(
+"
+devtools
+/
+shared
+/
+flags
+"
+)
+;
+const
 StreamUtils
 =
 require
@@ -3165,7 +3179,7 @@ amountToRead
 ;
 if
 (
-dumpv
+flags
 .
 wantVerbose
 )
@@ -3200,7 +3214,7 @@ endsWith
 {
 if
 (
-dumpv
+flags
 .
 wantVerbose
 )
@@ -3305,7 +3319,7 @@ return
 }
 if
 (
-dumpn
+flags
 .
 wantLogging
 )
@@ -3887,7 +3901,7 @@ count
 ;
 if
 (
-dumpn
+flags
 .
 wantLogging
 )
@@ -4017,7 +4031,7 @@ disabled
 .
 if
 (
-dumpn
+flags
 .
 wantLogging
 )

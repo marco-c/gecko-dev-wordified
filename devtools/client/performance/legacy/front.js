@@ -63,6 +63,18 @@ strict
 ;
 const
 {
+Cu
+}
+=
+require
+(
+"
+chrome
+"
+)
+;
+const
+{
 Task
 }
 =
@@ -192,7 +204,7 @@ utils
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -201,7 +213,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -662,13 +674,6 @@ _connecting
 resolve
 (
 )
-;
-return
-this
-.
-_connecting
-.
-promise
 ;
 }
 )
@@ -1431,6 +1436,9 @@ return
 let
 {
 profileLabel
+currentTime
+:
+endTime
 }
 =
 data
@@ -1532,8 +1540,6 @@ profileLabel
 )
 ;
 }
-else
-{
 /
 /
 If
@@ -1548,6 +1554,8 @@ recent
 pending
 console
 recording
+else
+{
 model
 =
 pending
@@ -1870,7 +1878,6 @@ and
 withAllocations
 probability
 and
-*
 maxLogLength
 .
 *
@@ -2115,7 +2122,6 @@ belongs
 to
 the
 recording
-*
 session
 wished
 to
@@ -2185,7 +2191,6 @@ model
 )
 {
 return
-undefined
 ;
 }
 /
@@ -2538,6 +2543,15 @@ config
 )
 ;
 }
+let
+systemDeferred
+=
+promise
+.
+defer
+(
+)
+;
 let
 form
 =
@@ -3051,7 +3065,7 @@ args
 if
 (
 !
-DevToolsUtils
+flags
 .
 testing
 )
@@ -3190,7 +3204,6 @@ of
 preferences
 for
 a
-*
 LegacyPerformanceRecording
 .
 *

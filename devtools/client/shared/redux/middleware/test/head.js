@@ -101,7 +101,7 @@ jsm
 )
 ;
 var
-DevToolsUtils
+flags
 =
 require
 (
@@ -110,7 +110,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -138,7 +138,7 @@ defer
 "
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =

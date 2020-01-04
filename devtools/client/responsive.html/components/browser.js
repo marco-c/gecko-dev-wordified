@@ -86,7 +86,7 @@ task
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -95,7 +95,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -766,7 +766,7 @@ size
 changes
 notifyOnResize
 :
-DevToolsUtils
+flags
 .
 testing
 }

@@ -427,7 +427,7 @@ js
 this
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -440,7 +440,7 @@ registerCleanupFunction
 =
 >
 {
-DevToolsUtils
+flags
 .
 testing
 =

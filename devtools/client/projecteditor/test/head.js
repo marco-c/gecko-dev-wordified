@@ -228,6 +228,20 @@ DevToolsUtils
 )
 ;
 const
+flags
+=
+require
+(
+"
+devtools
+/
+shared
+/
+flags
+"
+)
+;
+const
 TEST_URL_ROOT
 =
 "
@@ -335,8 +349,6 @@ Set
 the
 testing
 flag
-on
-DevToolsUtils
 and
 reset
 it
@@ -344,7 +356,7 @@ when
 the
 test
 ends
-DevToolsUtils
+flags
 .
 testing
 =
@@ -356,7 +368,7 @@ registerCleanupFunction
 )
 =
 >
-DevToolsUtils
+flags
 .
 testing
 =

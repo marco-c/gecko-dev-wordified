@@ -257,7 +257,7 @@ when
 the
 test
 ends
-DevToolsUtils
+flags
 .
 testing
 =
@@ -270,7 +270,7 @@ registerCleanupFunction
 =
 >
 {
-DevToolsUtils
+flags
 .
 testing
 =
