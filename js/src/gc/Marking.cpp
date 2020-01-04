@@ -4045,7 +4045,7 @@ ptr
 thingp
 -
 >
-getPtr
+unbarrieredGetPtr
 (
 )
 )

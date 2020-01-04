@@ -15096,8 +15096,12 @@ override
 {
 AppendJSObjectToPurpleBuffer
 (
-*
 aObject
+-
+>
+unbarrieredGetPtr
+(
+)
 )
 ;
 }

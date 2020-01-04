@@ -490,12 +490,8 @@ const
 {
 if
 (
+*
 aPtr
--
->
-getPtr
-(
-)
 )
 {
 mCallback
@@ -508,7 +504,7 @@ GCCellPtr
 aPtr
 -
 >
-getPtr
+unbarrieredGetPtr
 (
 )
 )
