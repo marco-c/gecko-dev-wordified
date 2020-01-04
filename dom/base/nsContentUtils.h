@@ -13207,7 +13207,7 @@ static
 bool
 IsInPointerLockContext
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWin
 )

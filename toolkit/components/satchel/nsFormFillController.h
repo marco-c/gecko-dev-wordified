@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h
@@ -231,6 +224,9 @@ nsFormHistory
 ;
 class
 nsINode
+;
+class
+nsPIDOMWindow
 ;
 class
 nsFormFillController
@@ -302,7 +298,7 @@ nsFormFillController
 void
 AddWindowListeners
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -310,7 +306,7 @@ aWindow
 void
 RemoveWindowListeners
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -421,7 +417,7 @@ aInput
 )
 ;
 inline
-nsIDOMWindow
+nsPIDOMWindow
 *
 GetWindowForDocShell
 (

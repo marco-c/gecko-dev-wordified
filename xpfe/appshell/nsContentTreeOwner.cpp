@@ -7853,9 +7853,11 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 domWindow
+=
+do_QueryInterface
 (
 docshell
 -

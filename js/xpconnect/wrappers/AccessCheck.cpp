@@ -737,16 +737,12 @@ nsCOMPtr
 nsIDOMWindowCollection
 >
 col
-;
+=
 win
 -
 >
 GetFrames
 (
-getter_AddRefs
-(
-col
-)
 )
 ;
 if
