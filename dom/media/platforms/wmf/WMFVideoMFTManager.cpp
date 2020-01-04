@@ -4751,7 +4751,7 @@ v
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mVideoInfo
 mImageContainer
@@ -4847,7 +4847,6 @@ VideoData
 CreateFromImage
 (
 mVideoInfo
-mImageContainer
 aStreamOffset
 pts
 .
@@ -4960,7 +4959,6 @@ CopyToImage
 (
 aSample
 pictureRegion
-mImageContainer
 getter_AddRefs
 (
 image
@@ -5036,7 +5034,6 @@ VideoData
 CreateFromImage
 (
 mVideoInfo
-mImageContainer
 aStreamOffset
 pts
 .

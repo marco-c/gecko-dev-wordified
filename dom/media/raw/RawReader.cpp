@@ -1327,7 +1327,7 @@ v
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mInfo
 .

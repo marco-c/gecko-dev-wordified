@@ -1113,11 +1113,10 @@ return
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mInfo
 mImageContainer
-nullptr
 aOffsetInStream
 aDTS
 .

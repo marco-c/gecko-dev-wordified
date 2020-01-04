@@ -793,9 +793,6 @@ const
 nsIntRect
 &
 aRegion
-ImageContainer
-*
-aContainer
 Image
 *
 *
@@ -2822,9 +2819,6 @@ const
 nsIntRect
 &
 aRegion
-ImageContainer
-*
-aImageContainer
 Image
 *
 *
@@ -3306,9 +3300,6 @@ const
 nsIntRect
 &
 aRegion
-ImageContainer
-*
-aContainer
 Image
 *
 *
@@ -4843,9 +4834,6 @@ const
 nsIntRect
 &
 aRegion
-ImageContainer
-*
-aContainer
 Image
 *
 *
@@ -4855,12 +4843,6 @@ aOutImage
 NS_ENSURE_TRUE
 (
 aVideoSample
-E_POINTER
-)
-;
-NS_ENSURE_TRUE
-(
-aContainer
 E_POINTER
 )
 ;

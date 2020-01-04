@@ -1867,15 +1867,9 @@ data
 VideoData
 :
 :
-Create
+CreateAndCopyIntoTextureClient
 (
 info
-mGonkPlatformLayer
--
->
-GetImageContainer
-(
-)
 0
 mBuffer
 -
