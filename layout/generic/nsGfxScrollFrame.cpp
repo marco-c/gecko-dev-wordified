@@ -16809,6 +16809,14 @@ nsGkAtoms
 :
 :
 apz
+&
+&
+gfxPrefs
+:
+:
+APZPaintSkipping
+(
+)
 )
 {
 /
