@@ -8727,6 +8727,9 @@ kGenA8FromLCD_Flag
 break
 ;
 }
+#
+ifdef
+XP_WIN
 case
 FontType
 :
@@ -8764,6 +8767,8 @@ UseEmbeddedBitmaps
 break
 ;
 }
+#
+endif
 default
 :
 break
