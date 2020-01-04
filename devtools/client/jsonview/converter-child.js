@@ -1558,15 +1558,7 @@ css
 href
 =
 "
-chrome
-:
-/
-/
-devtools
-/
-skin
-/
-themes
+css
 /
 '
 +
