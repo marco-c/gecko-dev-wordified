@@ -343,6 +343,16 @@ LoopUnrolling
 \
 _
 (
+Sink
+)
+\
+_
+(
+RemoveUnnecessaryBitops
+)
+\
+_
+(
 EffectiveAddressAnalysis
 )
 \
