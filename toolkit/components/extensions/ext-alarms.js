@@ -543,8 +543,11 @@ listeners
 /
 extensions
 .
-registerAPI
+registerPrivilegedAPI
 (
+"
+alarms
+"
 (
 extension
 context
