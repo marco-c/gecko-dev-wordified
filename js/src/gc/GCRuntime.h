@@ -1103,6 +1103,9 @@ dynamicMarkSliceEnabled_
 unsigned
 minEmptyChunkCount
 (
+const
+AutoLockGC
+&
 )
 const
 {
@@ -1127,6 +1130,10 @@ JSGCParamKey
 key
 uint32_t
 value
+const
+AutoLockGC
+&
+lock
 )
 ;
 }
@@ -4757,6 +4764,9 @@ setMarkStackLimit
 (
 size_t
 limit
+AutoLockGC
+&
+lock
 )
 ;
 void
@@ -4766,6 +4776,9 @@ JSGCParamKey
 key
 uint32_t
 value
+AutoLockGC
+&
+lock
 )
 ;
 uint32_t
