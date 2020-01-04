@@ -346,6 +346,9 @@ mStateData
 bool
 mIsSrcdocEntry
 ;
+bool
+mScrollRestorationIsManual
+;
 nsString
 mSrcdocData
 ;
