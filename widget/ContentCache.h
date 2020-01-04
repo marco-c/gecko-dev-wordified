@@ -1380,6 +1380,9 @@ const
 ContentCache
 &
 aOther
+nsIWidget
+*
+aWidget
 const
 IMENotification
 *
