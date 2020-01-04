@@ -1428,7 +1428,7 @@ Addon
 "
 }
 profileDir
-null
+undefined
 "
 options
 .
@@ -1774,7 +1774,7 @@ Addon
 "
 }
 profileDir
-null
+undefined
 "
 options
 .
@@ -1837,7 +1837,7 @@ Addon
 "
 }
 profileDir
-null
+undefined
 "
 options
 .
@@ -1967,7 +1967,7 @@ Addon
 "
 }
 profileDir
-null
+undefined
 "
 options
 .
