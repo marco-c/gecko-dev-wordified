@@ -1663,12 +1663,10 @@ stackRootPtr
 :
 stackRoots_
 )
-{
 stackRootPtr
 =
 nullptr
 ;
-}
 }
 ~
 RootLists

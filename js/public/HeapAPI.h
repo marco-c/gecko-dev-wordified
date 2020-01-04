@@ -830,12 +830,10 @@ stackRootPtr
 :
 stackRoots_
 )
-{
 stackRootPtr
 =
 nullptr
 ;
-}
 }
 bool
 needsIncrementalBarrier

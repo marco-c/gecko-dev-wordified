@@ -523,7 +523,6 @@ thread
 :
 threads
 )
-{
 CHECK
 (
 PR_JoinThread
@@ -535,7 +534,6 @@ thread
 PR_SUCCESS
 )
 ;
-}
 return
 true
 ;

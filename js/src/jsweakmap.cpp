@@ -573,7 +573,6 @@ zone
 >
 gcWeakMapList
 )
-{
 MOZ_ASSERT
 (
 m
@@ -590,7 +589,6 @@ m
 marked
 )
 ;
-}
 #
 endif
 }

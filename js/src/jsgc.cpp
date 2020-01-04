@@ -8811,7 +8811,6 @@ p
 :
 finalizeCallbacks
 )
-{
 p
 .
 op
@@ -8825,7 +8824,6 @@ p
 data
 )
 ;
-}
 }
 bool
 GCRuntime
@@ -8916,7 +8914,6 @@ p
 :
 updateWeakPointerZoneGroupCallbacks
 )
-{
 p
 .
 op
@@ -8932,7 +8929,6 @@ p
 data
 )
 ;
-}
 }
 bool
 GCRuntime
@@ -9026,7 +9022,6 @@ p
 :
 updateWeakPointerCompartmentCallbacks
 )
-{
 p
 .
 op
@@ -9043,7 +9038,6 @@ p
 data
 )
 ;
-}
 }
 JS
 :
@@ -12462,7 +12456,6 @@ kind
 :
 AllocKindsToRelocate
 )
-{
 toRelocate
 [
 kind
@@ -12479,7 +12472,6 @@ arenaCount
 relocCount
 )
 ;
-}
 if
 (
 !
@@ -16872,16 +16864,6 @@ ObjectAllocKinds
 (
 )
 )
-{
-/
-/
-Braces
-needed
-to
-appease
-MSVC
-2013
-.
 MOZ_ASSERT
 (
 savedObjectArenas
@@ -16894,7 +16876,6 @@ isEmpty
 )
 )
 ;
-}
 MOZ_ASSERT
 (
 savedEmptyObjectArenas
@@ -22709,16 +22690,6 @@ AllAllocKinds
 (
 )
 )
-{
-/
-/
-Braces
-needed
-to
-appease
-MSVC
-2013
-.
 MOZ_ASSERT
 (
 !
@@ -22733,7 +22704,6 @@ i
 ]
 )
 ;
-}
 #
 endif
 /
