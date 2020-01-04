@@ -223,8 +223,11 @@ frame
 ;
 public
 :
+explicit
 VP8TrackEncoder
 (
+TrackRate
+aTrackRate
 )
 ;
 virtual
@@ -266,8 +269,6 @@ int32_t
 aDisplayWidth
 int32_t
 aDisplayHeight
-TrackRate
-aTrackRate
 )
 final
 override

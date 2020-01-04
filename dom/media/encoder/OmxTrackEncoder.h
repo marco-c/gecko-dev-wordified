@@ -192,8 +192,11 @@ VideoTrackEncoder
 {
 public
 :
+explicit
 OmxVideoTrackEncoder
 (
+TrackRate
+aTrackRate
 )
 ;
 ~
@@ -232,8 +235,6 @@ int
 aDisplayWidth
 int
 aDisplayHeight
-TrackRate
-aTrackRate
 )
 override
 ;
