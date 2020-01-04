@@ -109,8 +109,6 @@ strict
 ;
 const
 {
-Cc
-Ci
 Cu
 }
 =
@@ -280,7 +278,6 @@ it
 focusInput
 :
 function
-WCP_focusInput
 (
 )
 {
@@ -328,7 +325,6 @@ opening
 open
 :
 function
-WCP_open
 (
 )
 {
@@ -554,7 +550,7 @@ promiseTarget
 then
 (
 (
-aTarget
+target
 )
 =
 >
@@ -565,7 +561,7 @@ _frameWindow
 .
 _remoteTarget
 =
-aTarget
+target
 ;
 let
 webConsoleUIWindow
@@ -603,7 +599,7 @@ chromeWindow
 then
 (
 (
-aWebConsole
+webConsole
 )
 =
 >
@@ -612,7 +608,7 @@ this
 .
 hud
 =
-aWebConsole
+webConsole
 ;
 this
 .
@@ -634,7 +630,7 @@ this
 ;
 }
 (
-aReason
+reason
 )
 =
 >
@@ -649,7 +645,7 @@ failed
 .
 "
 +
-aReason
+reason
 .
 error
 +
@@ -657,7 +653,7 @@ error
 :
 "
 +
-aReason
+reason
 .
 message
 ;
@@ -712,7 +708,6 @@ _isReady
 destroy
 :
 function
-WCP_destroy
 (
 )
 {
