@@ -251,13 +251,9 @@ rt
 >
 gc
 .
-markRuntime
+traceRuntime
 (
 trc
-GCRuntime
-:
-:
-TraceRuntime
 prep
 .
 session
