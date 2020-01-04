@@ -578,7 +578,10 @@ aws
 credentials
         
 if
+all
+(
 aws_creds
+)
 :
             
 self
