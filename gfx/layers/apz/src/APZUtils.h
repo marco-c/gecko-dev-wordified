@@ -176,6 +176,7 @@ HitLayer
 HitLayerTouchActionNone
 HitLayerTouchActionPanX
 HitLayerTouchActionPanY
+HitLayerTouchActionPanXY
 HitDispatchToContentRegion
 }
 ;
