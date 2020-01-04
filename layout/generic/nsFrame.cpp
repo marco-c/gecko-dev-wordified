@@ -15774,8 +15774,7 @@ hoistedScrollInfoItemsStorage
 }
 /
 *
-Else
-if
+If
 the
 list
 is
@@ -15802,7 +15801,6 @@ item
 .
 *
 /
-else
 if
 (
 useOpacity
