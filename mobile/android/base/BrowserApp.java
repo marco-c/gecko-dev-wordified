@@ -6554,9 +6554,9 @@ processTabQueue
 {
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized
@@ -23624,9 +23624,9 @@ tabs
 .
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized
@@ -23913,9 +23913,9 @@ external
 url
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized

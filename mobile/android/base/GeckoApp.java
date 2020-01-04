@@ -10713,9 +10713,9 @@ run
 {
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 TabQueueHelper
