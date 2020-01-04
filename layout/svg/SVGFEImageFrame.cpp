@@ -175,15 +175,11 @@ mozilla
 :
 dom
 ;
-typedef
-nsFrame
-SVGFEImageFrameBase
-;
 class
 SVGFEImageFrame
 :
 public
-SVGFEImageFrameBase
+nsFrame
 {
 friend
 nsIFrame
@@ -208,7 +204,7 @@ nsStyleContext
 aContext
 )
 :
-SVGFEImageFrameBase
+nsFrame
 (
 aContext
 )
@@ -312,7 +308,7 @@ const
 override
 {
 return
-SVGFEImageFrameBase
+nsFrame
 :
 :
 IsFrameOfType
@@ -498,7 +494,7 @@ imageLoader
 =
 do_QueryInterface
 (
-SVGFEImageFrameBase
+nsFrame
 :
 :
 mContent
@@ -518,7 +514,7 @@ this
 )
 ;
 }
-SVGFEImageFrameBase
+nsFrame
 :
 :
 DestroyFrom
@@ -579,7 +575,7 @@ interfaces
 "
 )
 ;
-SVGFEImageFrameBase
+nsFrame
 :
 :
 Init
@@ -613,7 +609,7 @@ imageLoader
 =
 do_QueryInterface
 (
-SVGFEImageFrameBase
+nsFrame
 :
 :
 mContent
@@ -792,7 +788,7 @@ true
 }
 }
 return
-SVGFEImageFrameBase
+nsFrame
 :
 :
 AttributeChanged
@@ -826,7 +822,7 @@ imageLoader
 =
 do_QueryInterface
 (
-SVGFEImageFrameBase
+nsFrame
 :
 :
 mContent
@@ -848,7 +844,7 @@ nsIImageLoadingContent
 "
 )
 ;
-SVGFEImageFrameBase
+nsFrame
 :
 :
 OnVisibilityChange
@@ -869,7 +865,7 @@ aNewVisibility
 aNonvisibleAction
 )
 ;
-SVGFEImageFrameBase
+nsFrame
 :
 :
 OnVisibilityChange
