@@ -11811,6 +11811,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mD3D11Device
 )
 {
 /
@@ -12192,6 +12196,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mD3D11ContentDevice
 )
 {
 return
@@ -12454,6 +12462,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mD3D11ImageBridgeDevice
 )
 {
 return
@@ -14290,6 +14302,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+device
 |
 |
 !
