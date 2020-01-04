@@ -787,6 +787,8 @@ LayoutDevicePoint
 aPoint
 Modifiers
 aModifiers
+int32_t
+aClickCount
 nsITimer
 *
 aTimer
@@ -803,6 +805,10 @@ aPoint
 mModifiers
 (
 aModifiers
+)
+mClickCount
+(
+aClickCount
 )
 /
 /
@@ -851,6 +857,7 @@ FireSingleTapEvent
 (
 mPoint
 mModifiers
+mClickCount
 widget
 )
 ;
@@ -890,6 +897,9 @@ mPoint
 Modifiers
 mModifiers
 ;
+int32_t
+mClickCount
+;
 nsCOMPtr
 <
 nsITimer
@@ -923,6 +933,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+int32_t
+aClickCount
 )
 {
 APZES_LOG
@@ -1053,6 +1065,7 @@ FireSingleTapEvent
 (
 ldPoint
 aModifiers
+aClickCount
 widget
 )
 ;
@@ -1099,6 +1112,7 @@ DelayedFireSingleTapEvent
 mWidget
 ldPoint
 aModifiers
+aClickCount
 timer
 )
 ;
@@ -1367,6 +1381,12 @@ eMouseLongTap
 time
 ldPoint
 aModifiers
+/
+*
+clickCount
+*
+/
+1
 aWidget
 )
 ;

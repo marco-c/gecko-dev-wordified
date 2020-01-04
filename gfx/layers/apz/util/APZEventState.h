@@ -325,6 +325,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+int32_t
+aClickCount
 )
 ;
 void

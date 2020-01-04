@@ -881,6 +881,8 @@ LayoutDevicePoint
 aRefPoint
 Modifiers
 aModifiers
+int32_t
+aClickCount
 nsIWidget
 *
 aWidget
@@ -980,6 +982,8 @@ LayoutDevicePoint
 aPoint
 Modifiers
 aModifiers
+int32_t
+aClickCount
 nsIWidget
 *
 aWidget
