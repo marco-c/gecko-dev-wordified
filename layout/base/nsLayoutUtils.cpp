@@ -21034,6 +21034,8 @@ nsRegion
 aDirtyRegion
 nscolor
 aBackstop
+nsDisplayListBuilderMode
+aBuilderMode
 uint32_t
 aFlags
 )
@@ -21225,10 +21227,7 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-nsDisplayListBuilderMode
-:
-:
-PAINTING
+aBuilderMode
 !
 (
 aFlags

@@ -5276,6 +5276,10 @@ NS_RGBA
 0
 0
 )
+nsDisplayListBuilderMode
+:
+:
+PAINTING
 nsLayoutUtils
 :
 :

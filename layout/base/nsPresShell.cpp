@@ -27927,6 +27927,10 @@ nsRegion
 aRect
 )
 aBackgroundColor
+nsDisplayListBuilderMode
+:
+:
+PAINTING
 flags
 )
 ;
@@ -38507,6 +38511,10 @@ nullptr
 frame
 aDirtyRegion
 bgcolor
+nsDisplayListBuilderMode
+:
+:
+PAINTING
 flags
 )
 ;
