@@ -3312,6 +3312,14 @@ cx
 ;
 if
 (
+!
+iter
+.
+done
+(
+)
+&
+&
 iter
 .
 script
