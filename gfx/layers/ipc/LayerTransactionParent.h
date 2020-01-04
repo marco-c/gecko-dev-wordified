@@ -232,7 +232,7 @@ class
 CompositableParent
 ;
 class
-ShadowLayersManager
+CompositorBridgeParentBase
 ;
 class
 LayerTransactionParent
@@ -290,9 +290,9 @@ LayerTransactionParent
 LayerManagerComposite
 *
 aManager
-ShadowLayersManager
+CompositorBridgeParentBase
 *
-aLayersManager
+aBridge
 uint64_t
 aId
 )
@@ -746,7 +746,7 @@ override
 ;
 virtual
 bool
-RecvGetAnimationOpacity
+RecvGetOpacity
 (
 PLayerParent
 *
@@ -754,9 +754,6 @@ aParent
 float
 *
 aOpacity
-bool
-*
-aHasAnimationOpacity
 )
 override
 ;
@@ -991,9 +988,9 @@ LayerManagerComposite
 >
 mLayerManager
 ;
-ShadowLayersManager
+CompositorBridgeParentBase
 *
-mShadowLayersManager
+mCompositorBridge
 ;
 /
 /
