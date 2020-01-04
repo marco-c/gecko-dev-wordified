@@ -5152,7 +5152,7 @@ RootedListHeads
 &
 rootLists
 (
-js
+JS
 :
 :
 RootingContext
@@ -7477,7 +7477,7 @@ RootLists
 &
 rootLists
 (
-js
+JS
 :
 :
 RootingContext

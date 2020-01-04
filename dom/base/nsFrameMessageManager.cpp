@@ -9454,7 +9454,7 @@ sCachedScripts
 return
 ;
 }
-js
+JS
 :
 :
 RootingContext

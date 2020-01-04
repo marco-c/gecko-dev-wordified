@@ -1254,7 +1254,7 @@ GetJSContext
 /
 namespace
 danger
-js
+JS
 :
 :
 RootingContext

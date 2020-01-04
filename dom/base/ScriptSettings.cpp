@@ -1700,7 +1700,7 @@ Context
 /
 namespace
 danger
-js
+JS
 :
 :
 RootingContext
