@@ -2916,6 +2916,9 @@ IDBDatabase
 :
 Transaction
 (
+JSContext
+*
+aCx
 const
 StringOrStringSequence
 &
@@ -3049,6 +3052,7 @@ aRv
 =
 Transaction
 (
+aCx
 aStoreNames
 aMode
 getter_AddRefs
@@ -3087,6 +3091,9 @@ IDBDatabase
 :
 Transaction
 (
+JSContext
+*
+aCx
 const
 StringOrStringSequence
 &
@@ -3581,6 +3588,7 @@ IDBTransaction
 :
 Create
 (
+aCx
 this
 sortedStoreNames
 mode
@@ -3775,6 +3783,9 @@ IDBDatabase
 :
 CreateMutableFile
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -3881,6 +3892,7 @@ IDBRequest
 :
 Create
 (
+aCx
 this
 nullptr
 )

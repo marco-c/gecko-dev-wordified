@@ -502,6 +502,9 @@ IDBTransaction
 >
 Create
 (
+JSContext
+*
+aCx
 IDBDatabase
 *
 aDatabase

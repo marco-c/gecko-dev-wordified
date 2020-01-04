@@ -879,6 +879,9 @@ IDBTransaction
 >
 Transaction
 (
+JSContext
+*
+aCx
 const
 StringOrStringSequence
 &
@@ -908,6 +911,9 @@ exception
 nsresult
 Transaction
 (
+JSContext
+*
+aCx
 const
 StringOrStringSequence
 &
@@ -944,6 +950,9 @@ IDBRequest
 >
 CreateMutableFile
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -966,6 +975,9 @@ IDBRequest
 >
 MozCreateFileHandle
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -985,6 +997,7 @@ aRv
 return
 CreateMutableFile
 (
+aCx
 aName
 aType
 aRv

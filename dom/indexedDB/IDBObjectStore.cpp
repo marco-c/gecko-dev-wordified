@@ -1079,6 +1079,9 @@ IDBRequest
 >
 GenerateRequest
 (
+JSContext
+*
+aCx
 IDBObjectStore
 *
 aObjectStore
@@ -1118,6 +1121,7 @@ IDBRequest
 :
 Create
 (
+aCx
 aObjectStore
 transaction
 -
@@ -6972,6 +6976,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -7438,6 +7443,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -7709,6 +7715,9 @@ IDBObjectStore
 :
 Clear
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv
@@ -7799,6 +7808,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -8731,6 +8741,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -9058,6 +9069,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -10611,6 +10623,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -11015,6 +11028,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
