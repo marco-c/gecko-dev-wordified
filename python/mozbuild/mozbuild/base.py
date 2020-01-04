@@ -1849,7 +1849,7 @@ config_status
 :
             
 raise
-Exception
+BuildEnvironmentNotFoundException
 (
 '
 config
