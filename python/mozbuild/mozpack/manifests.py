@@ -2031,6 +2031,10 @@ populate_registry
 (
 self
 registry
+defines_override
+=
+{
+}
 )
 :
         
@@ -2080,6 +2084,22 @@ data
 from
 this
 manifest
+.
+        
+Defines
+can
+be
+given
+to
+override
+the
+ones
+in
+the
+manifest
+for
+        
+preprocessing
 .
         
 "
@@ -2323,6 +2343,29 @@ self
 PREPROCESS
 :
                 
+defines
+=
+self
+.
+_decode_field_entry
+(
+entry
+[
+4
+]
+)
+                
+if
+defines_override
+:
+                    
+defines
+.
+update
+(
+defines_override
+)
+                
 registry
 .
 add
@@ -2351,15 +2394,7 @@ entry
                     
 defines
 =
-self
-.
-_decode_field_entry
-(
-entry
-[
-4
-]
-)
+defines
                     
 extra_depends
 =
