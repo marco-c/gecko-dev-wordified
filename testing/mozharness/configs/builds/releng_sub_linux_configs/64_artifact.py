@@ -401,12 +401,6 @@ publish_nightly_en_US_routes
 False
     
 '
-use_platform_in_symbols_extra_buildid
-'
-:
-True
-    
-'
 env
 '
 :

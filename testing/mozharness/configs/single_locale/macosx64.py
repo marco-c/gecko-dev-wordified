@@ -121,14 +121,6 @@ s
 "
         
 "
-MOZ_SYMBOLS_EXTRA_BUILDID
-"
-:
-"
-macosx64
-"
-        
-"
 MOZ_PKG_PLATFORM
 "
 :
