@@ -363,10 +363,6 @@ StartClone
 (
 RefHandlingEnum
 refHandlingMode
-const
-nsACString
-&
-newRef
 )
 override
 ;

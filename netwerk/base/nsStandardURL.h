@@ -964,7 +964,6 @@ RefHandlingEnum
 {
 eIgnoreRef
 eHonorRef
-eReplaceRef
 }
 ;
 /
@@ -1032,10 +1031,6 @@ CloneInternal
 (
 RefHandlingEnum
 aRefHandlingMode
-const
-nsACString
-&
-newRef
 nsIURI
 *
 *
@@ -1075,10 +1070,6 @@ nsStandardURL
 source
 RefHandlingEnum
 mode
-const
-nsACString
-&
-newRef
 bool
 copyCached
 =
