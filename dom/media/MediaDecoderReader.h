@@ -282,7 +282,6 @@ ReadMetadataFailureReason
 :
 int8_t
 {
-WAITING_FOR_RESOURCES
 METADATA_ERROR
 }
 ;
