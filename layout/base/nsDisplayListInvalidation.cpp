@@ -588,11 +588,6 @@ nsDisplayItemGeometry
 aItem
 aBuilder
 )
-nsImageGeometryMixin
-(
-aItem
-aBuilder
-)
 mBBox
 (
 aItem
