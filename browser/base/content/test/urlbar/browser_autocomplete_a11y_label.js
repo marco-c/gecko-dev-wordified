@@ -29,17 +29,6 @@ zero
 *
 /
 const
-UNIFIEDCOMPLETE_PREF
-=
-"
-browser
-.
-urlbar
-.
-unifiedcomplete
-"
-;
-const
 SUGGEST_ALL_PREF
 =
 "
