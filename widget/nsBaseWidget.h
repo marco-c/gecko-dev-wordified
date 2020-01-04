@@ -2324,10 +2324,6 @@ BaseCreate
 nsIWidget
 *
 aParent
-const
-LayoutDeviceIntRect
-&
-aRect
 nsWidgetInitData
 *
 aInitData

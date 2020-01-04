@@ -373,7 +373,6 @@ rv
 BaseCreate
 (
 aParent
-aRect
 aInitData
 )
 ;
