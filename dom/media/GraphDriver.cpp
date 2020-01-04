@@ -3635,7 +3635,10 @@ own
 stream
 )
 ;
+DebugOnly
+<
 int
+>
 rv
 =
 cubeb_stream_set_volume
