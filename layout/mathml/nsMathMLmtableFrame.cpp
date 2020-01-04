@@ -882,6 +882,8 @@ int8_t
 static
 const
 FramePropertyDescriptor
+<
+>
 *
 AttributeToProperty
 (
@@ -1034,6 +1036,8 @@ nsIFrame
 aCellFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aFrameProperty
 )

@@ -879,13 +879,6 @@ typedef
 mozilla
 :
 :
-FramePropertyDescriptor
-FramePropertyDescriptor
-;
-typedef
-mozilla
-:
-:
 gfx
 :
 :
