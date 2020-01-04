@@ -1998,6 +1998,10 @@ if
 (
 !
 mGL
+|
+|
+!
+mGL
 -
 >
 MakeCurrent
