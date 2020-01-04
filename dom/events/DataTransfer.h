@@ -976,6 +976,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 MozClearDataAt
