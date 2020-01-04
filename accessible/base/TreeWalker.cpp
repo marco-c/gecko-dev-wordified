@@ -952,7 +952,7 @@ if
 accessible
 -
 >
-IsRepositioned
+IsRelocated
 (
 )
 )
