@@ -771,9 +771,6 @@ ComputedTimingFunction
 >
 mTimingFunction
 ;
-nsChangeHint
-mChangeHint
-;
 bool
 operator
 =
@@ -2248,6 +2245,9 @@ only
 void
 CalculateCumulativeChangeHint
 (
+nsStyleContext
+*
+aStyleContext
 )
 ;
 /
