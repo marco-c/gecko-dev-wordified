@@ -164,7 +164,7 @@ class
 CompositableForwarder
 ;
 class
-gfxSharedReadLock
+TextureReadLock
 ;
 class
 TextureClientAllocator
@@ -225,7 +225,7 @@ ReturnTextureClientDeferred
 TextureClient
 *
 aClient
-gfxSharedReadLock
+TextureReadLock
 *
 aLock
 )
@@ -435,7 +435,7 @@ ReturnTextureClientDeferred
 TextureClient
 *
 aClient
-gfxSharedReadLock
+TextureReadLock
 *
 aLock
 )
@@ -839,7 +839,7 @@ mTextureClient
 ;
 RefPtr
 <
-gfxSharedReadLock
+TextureReadLock
 >
 mLock
 ;
@@ -848,7 +848,7 @@ TextureClientHolder
 TextureClient
 *
 aTextureClient
-gfxSharedReadLock
+TextureReadLock
 *
 aLock
 )

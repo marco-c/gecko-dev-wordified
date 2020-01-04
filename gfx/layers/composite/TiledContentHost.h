@@ -472,13 +472,13 @@ a
 TileHost
 from
 a
-gfxSharedReadLock
+TextureReadLock
 and
 TextureHost
 .
 TileHost
 (
-gfxSharedReadLock
+TextureReadLock
 *
 aSharedLock
 TextureHost
@@ -867,7 +867,7 @@ aOpacity
 ;
 RefPtr
 <
-gfxSharedReadLock
+TextureReadLock
 >
 mSharedLock
 ;
@@ -1040,7 +1040,7 @@ nsTArray
 <
 RefPtr
 <
-gfxSharedReadLock
+TextureReadLock
 >
 >
 mDelayedUnlocks

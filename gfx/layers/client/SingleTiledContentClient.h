@@ -221,7 +221,7 @@ ReturnTextureClientDeferred
 TextureClient
 *
 aClient
-gfxSharedReadLock
+TextureReadLock
 *
 aLock
 )
