@@ -2294,7 +2294,7 @@ open
 (
 manifest_path
 "
-w
+wb
 "
 )
 as
