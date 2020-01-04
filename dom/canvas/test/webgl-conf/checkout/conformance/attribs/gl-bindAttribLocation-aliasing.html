@@ -295,7 +295,7 @@ src
 .
 .
 /
-resources
+js
 /
 js
 -
@@ -318,7 +318,10 @@ src
 .
 .
 /
-resources
+.
+.
+/
+js
 /
 webgl
 -
@@ -533,9 +536,15 @@ glFragmentShader
 =
 wtu
 .
-setupSimpleColorFragmentShader
+loadShader
 (
 gl
+wtu
+.
+simpleColorFragmentShader
+gl
+.
+FRAGMENT_SHADER
 )
 ;
 var
@@ -938,7 +947,7 @@ src
 .
 .
 /
-resources
+js
 /
 js
 -
