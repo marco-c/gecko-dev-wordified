@@ -9076,7 +9076,7 @@ param
 {
 boolean
 }
-state
+show
 -
 whether
 to
@@ -25533,12 +25533,6 @@ string
 }
 fingerprint
 *
-param
-{
-IPDFLinkService
-}
-linkService
-*
 /
 initialize
 :
@@ -34739,9 +34733,9 @@ this
 *
 param
 {
-PDFPageView
+PDFThumbnailView
 }
-pageView
+thumbView
 *
 returns
 {
