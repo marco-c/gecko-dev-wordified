@@ -271,7 +271,7 @@ sjs
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "
@@ -389,8 +389,6 @@ browser
 "
 +
 RELATIVE_DIR
-{
-}
 false
 )
 ;

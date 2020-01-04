@@ -114,7 +114,7 @@ stringify
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

@@ -200,7 +200,7 @@ xpipath
 chromeroot
 +
 "
-unsigned
+amosigned
 .
 xpi
 "
@@ -215,13 +215,7 @@ convertChromeURL
 (
 makeURI
 (
-chromeroot
-+
-"
-unsigned
-.
-xpi
-"
+xpipath
 )
 )
 .

@@ -174,7 +174,7 @@ makeURI
 chromeroot
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

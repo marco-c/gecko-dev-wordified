@@ -188,7 +188,7 @@ foobar
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

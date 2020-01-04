@@ -208,7 +208,7 @@ loadURI
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

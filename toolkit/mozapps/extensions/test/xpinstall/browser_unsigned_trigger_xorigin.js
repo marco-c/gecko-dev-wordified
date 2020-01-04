@@ -193,7 +193,7 @@ URL
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

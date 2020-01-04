@@ -201,7 +201,7 @@ foobar
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "
@@ -230,7 +230,7 @@ Hash
 "
 sha1
 :
-3d0dc22e1f394e159b08aaf5f0f97de4d5c65f4f
+36ffb0acfd9c6e9682473aaebaab394d38b473c9
 "
 toString
 :
