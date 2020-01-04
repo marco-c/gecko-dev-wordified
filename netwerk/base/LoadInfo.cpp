@@ -892,6 +892,13 @@ mOriginAttributes
 (
 aOriginAttributes
 )
+mTainting
+(
+LoadTainting
+:
+:
+Basic
+)
 {
 MOZ_ASSERT
 (
