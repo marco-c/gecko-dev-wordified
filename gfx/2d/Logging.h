@@ -969,6 +969,7 @@ CannotDraw3D
 /
 /
 20
+IncompatibleBasicTexturedEffect
 /
 /
 End
