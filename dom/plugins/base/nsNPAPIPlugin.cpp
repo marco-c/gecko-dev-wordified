@@ -11957,6 +11957,16 @@ NotifyStartedPlaying
 (
 &
 config
+dom
+:
+:
+AudioChannelService
+:
+:
+AudibleState
+:
+:
+eAudible
 )
 ;
 if
