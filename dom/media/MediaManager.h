@@ -573,6 +573,9 @@ mID
 nsString
 mRawID
 ;
+bool
+mScary
+;
 dom
 :
 :

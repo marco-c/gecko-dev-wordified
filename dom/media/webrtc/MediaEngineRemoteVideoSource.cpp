@@ -266,6 +266,8 @@ dom
 :
 MediaSourceEnum
 aMediaSource
+bool
+aScary
 const
 char
 *
@@ -284,6 +286,10 @@ aMediaSource
 mCapEngine
 (
 aCapEngine
+)
+mScary
+(
+aScary
 )
 {
 MOZ_ASSERT
