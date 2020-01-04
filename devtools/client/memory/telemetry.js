@@ -143,6 +143,7 @@ DevToolsUtils
 const
 {
 dominatorTreeDisplays
+treeMapDisplays
 censusDisplays
 }
 =
