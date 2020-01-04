@@ -3311,7 +3311,6 @@ short
 !
 '
 BAD_PADDING
-padSize
 )
 ;
 }
@@ -3366,7 +3365,6 @@ wrong
 !
 '
 BAD_PADDING
-padSize
 )
 ;
 }
@@ -3423,7 +3421,6 @@ wrong
 !
 '
 BAD_PADDING
-padSize
 )
 ;
 }
