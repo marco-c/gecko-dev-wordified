@@ -1304,7 +1304,7 @@ deregistered
 .
 *
 /
-void
+nsresult
 RegisterFrameCaptureListener
 (
 FrameCaptureListener
