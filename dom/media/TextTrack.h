@@ -316,12 +316,7 @@ nsAString
 aLabel
 )
 const
-{
-aLabel
-=
-mLabel
 ;
-}
 void
 GetLanguage
 (
@@ -330,12 +325,7 @@ nsAString
 aLanguage
 )
 const
-{
-aLanguage
-=
-mLanguage
 ;
-}
 void
 GetInBandMetadataTrackDispatchType
 (

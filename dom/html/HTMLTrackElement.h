@@ -343,7 +343,7 @@ aSrclang
 void
 GetSrclang
 (
-nsString
+nsAString
 &
 aSrclang
 )
@@ -404,7 +404,7 @@ aLabel
 void
 GetLabel
 (
-nsString
+nsAString
 &
 aLabel
 )
