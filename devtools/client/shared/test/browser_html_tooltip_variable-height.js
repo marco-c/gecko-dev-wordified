@@ -822,4 +822,10 @@ defaultView
 yield
 onHidden
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }

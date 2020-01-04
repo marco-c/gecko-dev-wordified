@@ -1019,6 +1019,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }
 )
 ;

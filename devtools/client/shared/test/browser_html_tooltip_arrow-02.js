@@ -972,4 +972,10 @@ tooltip
 )
 ;
 }
+tooltip
+.
+destroy
+(
+)
+;
 }

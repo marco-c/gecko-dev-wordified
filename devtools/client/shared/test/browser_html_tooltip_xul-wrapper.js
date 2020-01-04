@@ -679,6 +679,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 info
 (
 "

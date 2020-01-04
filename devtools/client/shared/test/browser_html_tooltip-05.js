@@ -1026,6 +1026,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }
 )
 ;

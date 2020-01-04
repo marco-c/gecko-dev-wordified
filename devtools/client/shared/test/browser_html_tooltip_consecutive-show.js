@@ -632,6 +632,12 @@ hideTooltip
 tooltip
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }
 )
 ;
