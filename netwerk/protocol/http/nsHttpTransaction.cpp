@@ -1071,6 +1071,10 @@ mContentRead
 (
 0
 )
+mTransferSize
+(
+0
+)
 mInvalidResponseBytesRead
 (
 0
@@ -4793,6 +4797,15 @@ trans
 mReceivedData
 =
 true
+;
+trans
+-
+>
+mTransferSize
++
+=
+*
+countWritten
 ;
 /
 /

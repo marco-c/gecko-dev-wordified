@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsICompressConvStats
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -338,6 +345,8 @@ nsHTTPCompressConv
 :
 public
 nsIStreamConverter
+public
+nsICompressConvStats
 {
 public
 :
@@ -348,6 +357,7 @@ methods
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSICOMPRESSCONVSTATS
 /
 /
 nsIStreamConverter
@@ -498,6 +508,9 @@ nsresult
 *
 rv
 )
+;
+uint32_t
+mDecodedDataLength
 ;
 }
 ;
