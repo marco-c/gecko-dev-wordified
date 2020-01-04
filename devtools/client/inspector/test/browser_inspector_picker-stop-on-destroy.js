@@ -256,7 +256,6 @@ so
 picker
 is
 closed
-.
 "
 )
 ;

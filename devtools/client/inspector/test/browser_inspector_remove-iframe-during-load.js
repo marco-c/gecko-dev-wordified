@@ -103,7 +103,6 @@ function
 let
 {
 inspector
-toolbox
 testActor
 }
 =
@@ -160,7 +159,6 @@ to
 be
 done
 loading
-.
 yield
 testActor
 .
@@ -314,7 +312,7 @@ function
 (
 )
 {
-var
+let
 iframe
 =
 document

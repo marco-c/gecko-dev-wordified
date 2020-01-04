@@ -122,7 +122,6 @@ function
 {
 let
 {
-toolbox
 inspector
 testActor
 }
@@ -210,6 +209,9 @@ waiting
 for
 the
 highlighter
+"
++
+"
 to
 update
 "

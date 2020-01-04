@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Checks
@@ -419,8 +424,6 @@ root
 yield
 navigateToAndWaitForNewRoot
 (
-toolbox
-testActor
 url
 )
 ;
@@ -511,8 +514,6 @@ navigation
 function
 navigateToAndWaitForNewRoot
 (
-toolbox
-testActor
 url
 )
 {
@@ -599,8 +600,6 @@ reload
 )
 ;
 }
-else
-{
 info
 (
 "
@@ -617,7 +616,6 @@ toolbox
 url
 )
 ;
-}
 return
 newRoot
 ;

@@ -75,12 +75,12 @@ buttons
 in
 the
 inspector
+/
+/
 shows
 the
 highlighter
 over
-/
-/
 those
 nodes
 add_task
@@ -170,11 +170,8 @@ bcButtons
 inspector
 .
 breadcrumbs
-[
-"
+.
 container
-"
-]
 ;
 let
 onNodeHighlighted

@@ -208,7 +208,6 @@ function
 {
 let
 {
-toolbox
 inspector
 testActor
 }
@@ -264,7 +263,6 @@ id1
 yield
 assertHighlighterShownOn
 (
-testActor
 "
 #
 id1
@@ -297,7 +295,6 @@ hoverComment
 yield
 assertHighlighterHidden
 (
-testActor
 )
 ;
 info
@@ -330,7 +327,6 @@ id1
 yield
 assertHighlighterShownOn
 (
-testActor
 "
 #
 id1
@@ -366,7 +362,6 @@ id2
 yield
 assertHighlighterShownOn
 (
-testActor
 "
 #
 id2
@@ -403,7 +398,6 @@ script
 yield
 assertHighlighterHidden
 (
-testActor
 )
 ;
 info
@@ -435,7 +429,6 @@ id3
 yield
 assertHighlighterShownOn
 (
-testActor
 "
 #
 id3
@@ -473,7 +466,6 @@ id4
 yield
 assertHighlighterHidden
 (
-testActor
 )
 ;
 function
@@ -621,12 +613,14 @@ container
 ;
 }
 }
+return
+null
+;
 }
 function
 *
 assertHighlighterShownOn
 (
-testActor
 selector
 )
 {
@@ -660,7 +654,6 @@ function
 *
 assertHighlighterHidden
 (
-testActor
 )
 {
 let

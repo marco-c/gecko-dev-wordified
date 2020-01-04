@@ -1609,8 +1609,6 @@ inspector
 )
 ;
 }
-else
-{
 info
 (
 "
@@ -1647,7 +1645,6 @@ nodes
 0
 ]
 ;
-}
 }
 /
 *
@@ -1782,10 +1779,6 @@ button
 =
 2
 ;
-/
-/
-right
-click
 evt
 .
 initMouseEvent

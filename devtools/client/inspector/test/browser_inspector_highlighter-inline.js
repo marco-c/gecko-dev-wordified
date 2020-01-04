@@ -169,7 +169,6 @@ inspector
 ;
 let
 {
-toolbox
 inspector
 testActor
 }
@@ -245,6 +244,9 @@ verify
 that
 the
 highlighter
+"
++
+"
 is
 correct
 "
@@ -329,6 +331,9 @@ rectangle
 that
 contains
 all
+"
++
+"
 content
 boxes
 "

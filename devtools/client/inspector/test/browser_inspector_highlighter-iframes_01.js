@@ -263,13 +263,6 @@ TEST_URI
 )
 ;
 let
-outerFrame
-=
-"
-iframe
-"
-;
-let
 outerFrameDiv
 =
 [
@@ -278,18 +271,6 @@ iframe
 "
 "
 div
-"
-]
-;
-let
-innerFrame
-=
-[
-"
-iframe
-"
-"
-iframe
 "
 ]
 ;
@@ -342,7 +323,6 @@ outerFrameDiv
 yield
 moveMouseOver
 (
-testActor
 outerFrameDiv
 )
 ;
@@ -378,7 +358,6 @@ innerFrameDiv
 yield
 moveMouseOver
 (
-testActor
 innerFrameDiv
 )
 ;
@@ -516,7 +495,6 @@ stopPicker
 function
 moveMouseOver
 (
-testActor
 selector
 )
 {
