@@ -1470,6 +1470,12 @@ ThemeChanged
 void
 )
 ;
+void
+OnDPIChanged
+(
+void
+)
+;
 #
 ifdef
 MOZ_X11
