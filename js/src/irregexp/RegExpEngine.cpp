@@ -8847,7 +8847,7 @@ that
 JS_CHECK_RECURSION
 (
 cx
-fail
+failASCII
 (
 "
 Stack
@@ -12837,7 +12837,7 @@ has_failed
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 analysis

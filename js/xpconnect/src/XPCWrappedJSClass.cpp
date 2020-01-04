@@ -6714,7 +6714,7 @@ for
 good
 measure
 .
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 str

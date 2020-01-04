@@ -3190,7 +3190,7 @@ true
 }
 static
 void
-ThrowJSException
+ThrowJSExceptionASCII
 (
 JSContext
 *
@@ -3328,7 +3328,7 @@ else
 {
 :
 :
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 message
@@ -3364,7 +3364,7 @@ return
 true
 ;
 }
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 nullptr
@@ -3802,7 +3802,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -4023,7 +4023,7 @@ npobj
 result
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -4476,7 +4476,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -4717,7 +4717,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -4917,7 +4917,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -5138,7 +5138,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -5459,7 +5459,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -5591,7 +5591,7 @@ if
 idarray
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -6699,7 +6699,7 @@ _class
 hasMethod
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -6830,7 +6830,7 @@ if
 hasMethod
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -6928,7 +6928,7 @@ _class
 removeProperty
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7199,7 +7199,7 @@ _class
 setProperty
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7261,7 +7261,7 @@ if
 npp
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7333,7 +7333,7 @@ if
 hasProperty
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7369,7 +7369,7 @@ npv
 )
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7431,7 +7431,7 @@ if
 ok
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7546,7 +7546,7 @@ _class
 getProperty
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -7758,7 +7758,7 @@ if
 npp
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -8201,7 +8201,7 @@ npobj
 _class
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -8263,7 +8263,7 @@ if
 npp
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -8357,7 +8357,7 @@ if
 npargs
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -8412,7 +8412,7 @@ i
 )
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -8873,7 +8873,7 @@ ReportExceptionIfPending
 cx
 )
 )
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 msg
@@ -9046,7 +9046,7 @@ npobj
 _class
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -9157,7 +9157,7 @@ throw
 our
 own
 .
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -9342,7 +9342,7 @@ _class
 hasMethod
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -11719,7 +11719,7 @@ _class
 invoke
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -12292,7 +12292,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -12387,7 +12387,7 @@ if
 npargs
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -12447,7 +12447,7 @@ i
 )
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -12596,7 +12596,7 @@ ReportExceptionIfPending
 cx
 )
 )
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "
@@ -13086,7 +13086,7 @@ if
 npobj
 )
 {
-ThrowJSException
+ThrowJSExceptionASCII
 (
 cx
 "

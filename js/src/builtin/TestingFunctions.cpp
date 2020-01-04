@@ -2356,7 +2356,7 @@ paramMap
 )
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -2458,7 +2458,7 @@ info
 writable
 )
 {
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -3136,7 +3136,7 @@ isString
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -3204,7 +3204,7 @@ isString
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -4241,7 +4241,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -4334,7 +4334,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -4510,7 +4510,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -4934,7 +4934,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5040,7 +5040,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5116,7 +5116,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5233,7 +5233,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5337,7 +5337,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5596,7 +5596,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5773,7 +5773,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5864,7 +5864,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -5962,7 +5962,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -10528,7 +10528,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 arg
@@ -11843,7 +11843,7 @@ length
 2
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -11873,7 +11873,7 @@ isString
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -11905,7 +11905,7 @@ isInt32
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -12001,7 +12001,7 @@ opt
 JSJITCOMPILER_NOT_AN_OPTION
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -14328,7 +14328,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -14369,7 +14369,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -14518,7 +14518,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -14559,7 +14559,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -14850,7 +14850,7 @@ callee
 )
 )
 ;
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee

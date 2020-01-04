@@ -9083,7 +9083,7 @@ error_message_
 ;
 }
 void
-fail
+failASCII
 (
 const
 char

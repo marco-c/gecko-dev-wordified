@@ -27771,7 +27771,7 @@ length
 2
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -27848,7 +27848,7 @@ JSFunction
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -30740,7 +30740,7 @@ length
 1
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -30787,7 +30787,7 @@ JSFunction
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -31729,7 +31729,7 @@ length
 1
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -31795,7 +31795,7 @@ ModuleObject
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -31877,7 +31877,7 @@ isInterpreted
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -33401,7 +33401,7 @@ length
 2
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -33430,7 +33430,7 @@ isString
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee
@@ -33484,7 +33484,7 @@ isObject
 )
 )
 {
-ReportUsageError
+ReportUsageErrorASCII
 (
 cx
 callee

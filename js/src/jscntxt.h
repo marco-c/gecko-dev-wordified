@@ -3653,7 +3653,7 @@ JS_DefineFunctionsWithHelp
 /
 extern
 void
-ReportUsageError
+ReportUsageErrorASCII
 (
 JSContext
 *

@@ -1829,7 +1829,7 @@ NO_ACCESS
 ;
 static
 void
-EnterAndThrow
+EnterAndThrowASCII
 (
 JSContext
 *
@@ -1850,7 +1850,7 @@ cx
 wrapper
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 msg
@@ -2292,7 +2292,7 @@ hasGetterOrSetter
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2342,7 +2342,7 @@ isObject
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2393,7 +2393,7 @@ wrappedObject
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2466,7 +2466,7 @@ isString
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2562,7 +2562,7 @@ access
 READ
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2603,7 +2603,7 @@ access
 WRITE
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2634,7 +2634,7 @@ break
 ;
 default
 :
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2664,7 +2664,7 @@ access
 NO_ACCESS
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2773,7 +2773,7 @@ hasGetterOrSetter
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
@@ -2858,7 +2858,7 @@ maybeCallable
 )
 )
 {
-EnterAndThrow
+EnterAndThrowASCII
 (
 cx
 wrapper
