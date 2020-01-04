@@ -301,7 +301,7 @@ GetWindowClipRegion
 (
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 *
 aRects

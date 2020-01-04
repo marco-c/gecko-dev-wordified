@@ -800,7 +800,7 @@ GetWindowClipRegion
 (
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 *
 aRects
@@ -1121,7 +1121,7 @@ SetWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -2361,13 +2361,13 @@ aApzResponse
 )
 ;
 const
-nsIntRegion
+LayoutDeviceIntRegion
 RegionFromArray
 (
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -2377,12 +2377,12 @@ void
 ArrayFromRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -2637,7 +2637,7 @@ IsWindowClipRegionEqual
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -2660,7 +2660,7 @@ StoreWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -3085,7 +3085,7 @@ mozilla
 :
 UniquePtr
 <
-nsIntRect
+LayoutDeviceIntRect
 [
 ]
 >
