@@ -2138,6 +2138,9 @@ bits
 *
 /
 uint32_t
+mLastPushedID
+;
+uint32_t
 mConcurrentHighWater
 ;
 /
