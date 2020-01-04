@@ -149,6 +149,9 @@ class
 MediaStream
 ;
 class
+MediaStreamGraph
+;
+class
 ProcessedMediaStream
 ;
 namespace
@@ -971,6 +974,12 @@ mEnded
 true
 ;
 }
+MediaStreamGraph
+*
+Graph
+(
+)
+;
 MediaStreamTrackSource
 &
 GetSource
