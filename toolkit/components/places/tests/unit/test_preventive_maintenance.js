@@ -3535,7 +3535,7 @@ PlacesUtils
 getString
 (
 "
-UnsortedBookmarksFolderTitle
+OtherBookmarksFolderTitle
 "
 )
 )

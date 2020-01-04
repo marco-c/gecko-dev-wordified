@@ -3613,7 +3613,7 @@ label
 =
 "
 &
-unsortedBookmarksCmd
+otherBookmarksCmd
 .
 label
 ;
