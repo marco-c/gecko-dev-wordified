@@ -2923,7 +2923,7 @@ context
 =
 this
 .
-extensionWindows
+extensionPageWindows
 .
 get
 (
