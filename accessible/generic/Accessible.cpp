@@ -5748,6 +5748,12 @@ ipcDoc
 SendHideEvent
 (
 id
+aEvent
+-
+>
+IsFromUserInput
+(
+)
 )
 ;
 break
