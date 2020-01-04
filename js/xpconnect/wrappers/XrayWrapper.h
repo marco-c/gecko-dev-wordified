@@ -390,6 +390,7 @@ XrayTraits
 {
 public
 :
+MOZ_CONSTEXPR
 XrayTraits
 (
 )
@@ -1136,6 +1137,13 @@ XrayTraits
 {
 public
 :
+MOZ_CONSTEXPR
+DOMXrayTraits
+(
+)
+=
+default
+;
 enum
 {
 HasPrototype
