@@ -852,6 +852,9 @@ Observer
 >
 mObserver
 ;
+uint64_t
+mNextLayerTreeId
+;
 GPUProcessHost
 *
 mProcess

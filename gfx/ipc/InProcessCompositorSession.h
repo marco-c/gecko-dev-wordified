@@ -192,6 +192,10 @@ aWidget
 ClientLayerManager
 *
 aLayerManager
+const
+uint64_t
+&
+aRootLayerTreeId
 CSSToLayoutDeviceScale
 aScale
 bool
@@ -222,13 +226,6 @@ GeckoContentController
 *
 aController
 )
-override
-;
-uint64_t
-RootLayerTreeId
-(
-)
-const
 override
 ;
 already_AddRefed

@@ -469,6 +469,10 @@ widget
 CompositorWidget
 *
 aWidget
+const
+uint64_t
+&
+aLayerTreeId
 CSSToLayoutDeviceScale
 aScale
 bool
