@@ -535,7 +535,8 @@ if
 (
 (
 busyFlags
-&
+=
+=
 nsIDocShell
 :
 :
