@@ -586,7 +586,7 @@ played
         
 '
 var
-timeRanges
+playedRanges
 =
 [
 ]
@@ -615,7 +615,7 @@ i
 '
         
 '
-timeRanges
+playedRanges
 .
 push
 (
@@ -2367,7 +2367,7 @@ keys
 current_time
         
 duration
-raw_time_ranges
+raw_played_ranges
 total_frames
 dropped_frames
 and
@@ -2377,7 +2377,7 @@ corrupted_frames
         
 Aside
 from
-raw_time_ranges
+raw_played_ranges
 see
 _video_state_named_tuple
 for
@@ -2392,7 +2392,7 @@ and
 values
 .
 For
-raw_time_ranges
+raw_played_ranges
 a
         
 list
@@ -2434,12 +2434,12 @@ puppeteer
 "
 "
         
-raw_time_ranges
+raw_played_ranges
 =
 video_state_info_kwargs
 [
 '
-raw_time_ranges
+raw_played_ranges
 '
 ]
         
@@ -2475,7 +2475,7 @@ del
 video_state_info_kwargs
 [
 '
-raw_time_ranges
+raw_played_ranges
 '
 ]
         
@@ -2495,11 +2495,11 @@ played
             
 TimeRanges
 (
-raw_time_ranges
+raw_played_ranges
 [
 0
 ]
-raw_time_ranges
+raw_played_ranges
 [
 1
 ]
@@ -2754,7 +2754,7 @@ duration
 played
 .
 length
-timeRanges
+playedRanges
 ]
 '
                 
@@ -2870,7 +2870,7 @@ current_time
 duration
 '
 '
-raw_time_ranges
+raw_played_ranges
 '
 '
 total_frames
