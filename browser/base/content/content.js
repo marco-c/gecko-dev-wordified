@@ -1011,7 +1011,7 @@ target
 getAttribute
 (
 "
-referrer
+referrerpolicy
 "
 )
 )
@@ -2704,7 +2704,7 @@ node
 getAttribute
 (
 "
-referrer
+referrerpolicy
 "
 )
 )

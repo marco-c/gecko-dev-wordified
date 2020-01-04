@@ -37296,7 +37296,7 @@ linkNode
 getAttribute
 (
 "
-referrer
+referrerpolicy
 "
 )
 )
