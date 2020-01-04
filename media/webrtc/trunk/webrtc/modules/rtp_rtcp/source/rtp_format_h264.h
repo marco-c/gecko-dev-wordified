@@ -394,6 +394,15 @@ GeneratePackets
 )
 ;
 void
+PacketizeMode0
+(
+size_t
+fragment_offset
+size_t
+fragment_length
+)
+;
+void
 PacketizeFuA
 (
 size_t
