@@ -59397,6 +59397,9 @@ Message
 &
 aMsg
 )
+-
+>
+bool
 {
 void
 *
@@ -59430,12 +59433,16 @@ false
 )
 ;
 return
+true
 ;
 }
 UpdateDisplayPortMarginsForPendingMetrics
 (
 frame
 )
+;
+return
+true
 ;
 }
 )

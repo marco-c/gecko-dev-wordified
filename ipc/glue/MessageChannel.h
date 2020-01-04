@@ -593,6 +593,10 @@ message
 of
 type
 aId
+until
+it
+returns
+false
 .
 /
 /
@@ -636,7 +640,7 @@ mozilla
 :
 function
 <
-void
+bool
 (
 const
 Message

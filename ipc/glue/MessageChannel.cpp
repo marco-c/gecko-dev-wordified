@@ -6010,7 +6010,7 @@ mozilla
 :
 function
 <
-void
+bool
 (
 const
 Message
@@ -6073,12 +6073,16 @@ type
 =
 =
 aMsgId
-)
-{
+&
+&
+!
 aInvoke
 (
 msg
 )
+)
+{
+break
 ;
 }
 }
