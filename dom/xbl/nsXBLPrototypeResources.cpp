@@ -881,7 +881,10 @@ mRuleProcessor
 new
 nsCSSRuleProcessor
 (
+Move
+(
 sheets
+)
 SheetType
 :
 :

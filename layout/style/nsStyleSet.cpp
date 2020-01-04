@@ -3297,7 +3297,10 @@ AppendElement
 new
 nsCSSRuleProcessor
 (
+Move
+(
 sheetsForScope
+)
 aType
 scope
 oldRP
