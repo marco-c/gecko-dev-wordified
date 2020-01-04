@@ -157,7 +157,7 @@ class
 nsIPrincipal
 ;
 class
-nsITimeoutHandler
+nsIScriptTimeoutHandler
 ;
 class
 nsITimer
@@ -188,7 +188,7 @@ strong
 reference
 to
 an
-nsITimeoutHandler
+nsIScriptTimeoutHandler
 which
 *
 abstracts
@@ -469,7 +469,7 @@ callback
 .
 nsCOMPtr
 <
-nsITimeoutHandler
+nsIScriptTimeoutHandler
 >
 mScriptHandler
 ;

@@ -611,9 +611,6 @@ class
 nsIScriptTimeoutHandler
 ;
 class
-nsITimeoutHandler
-;
-class
 nsIWebBrowserChrome
 ;
 class
@@ -9818,7 +9815,7 @@ milliseconds
 nsresult
 SetTimeoutOrInterval
 (
-nsITimeoutHandler
+nsIScriptTimeoutHandler
 *
 aHandler
 int32_t
