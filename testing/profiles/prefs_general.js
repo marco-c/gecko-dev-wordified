@@ -4436,3 +4436,13 @@ mutedByDefault
 false
 )
 ;
+user_pref
+(
+"
+webextensions
+.
+tests
+"
+true
+)
+;
