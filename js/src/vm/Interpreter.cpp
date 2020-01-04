@@ -11368,6 +11368,9 @@ collectCoverage
 )
 )
 {
+if
+(
+!
 script
 -
 >
@@ -11375,6 +11378,9 @@ initScriptCounts
 (
 cx
 )
+)
+goto
+error
 ;
 moreInterrupts
 =
