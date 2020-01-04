@@ -4066,7 +4066,7 @@ eTree
 logging
 :
 :
-eVerbose
+aExtraFlags
 )
 )
 {
