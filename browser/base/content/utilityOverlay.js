@@ -5187,6 +5187,11 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 ;
 let
 fixedUpURL
+expectedURLSpec
+;
+try
+{
+fixedUpURL
 =
 Services
 .
@@ -5198,11 +5203,6 @@ urlWithoutProtocol
 flags
 )
 ;
-let
-expectedURLSpec
-;
-try
-{
 expectedURLSpec
 =
 makeURI
