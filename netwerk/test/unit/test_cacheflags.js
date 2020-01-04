@@ -191,6 +191,10 @@ LoadContext
 prototype
 =
 {
+originAttributes
+:
+{
+}
 usePrivateBrowsing
 :
 false

@@ -1161,6 +1161,16 @@ aAppId
 isInBrowserElement
 :
 aIsBrowser
+originAttributes
+:
+{
+appId
+:
+aAppId
+inBrowser
+:
+aIsBrowser
+}
 usePrivateBrowsing
 :
 false

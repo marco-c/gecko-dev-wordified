@@ -143,6 +143,10 @@ LoadContext
 prototype
 =
 {
+originAttributes
+:
+{
+}
 QueryInterface
 :
 XPCOMUtils

@@ -838,6 +838,10 @@ usePrivateBrowsing
 loadContext
 .
 usePrivateBrowsing
+originAttributes
+:
+{
+}
 }
 ;
 }
