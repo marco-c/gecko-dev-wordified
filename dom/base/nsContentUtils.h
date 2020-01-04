@@ -12360,11 +12360,6 @@ const
 nsIDocument
 *
 aDoc
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 ;
 /
@@ -12523,11 +12518,6 @@ PersistentLayerManagerForDocument
 nsIDocument
 *
 aDoc
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 ;
 /

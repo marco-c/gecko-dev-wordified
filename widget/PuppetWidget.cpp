@@ -2812,9 +2812,6 @@ LayersBackend
 aBackendHint
 LayerManagerPersistence
 aPersistence
-bool
-*
-aAllowRetaining
 )
 {
 if
@@ -2864,17 +2861,6 @@ SetShadowManager
 (
 aShadowManager
 )
-;
-}
-if
-(
-aAllowRetaining
-)
-{
-*
-aAllowRetaining
-=
-true
 ;
 }
 return
