@@ -90,9 +90,7 @@ supported
 by
 the
 make
-and
-Android
-generators
+generator
 .
 test
 =
@@ -105,9 +103,6 @@ formats
 [
 '
 make
-'
-'
-android
 '
 ]
 )

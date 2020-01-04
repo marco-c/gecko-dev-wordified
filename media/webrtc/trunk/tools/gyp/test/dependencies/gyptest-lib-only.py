@@ -147,11 +147,7 @@ dependencies
 into
 the
 generated
-sln
-/
-_main
-.
-scons
+project
 since
 not
 doing
@@ -222,6 +218,11 @@ in
 make
 '
 '
+ninja
+'
+'
+xcode
+-
 ninja
 '
 )

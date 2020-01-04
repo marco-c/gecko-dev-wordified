@@ -104,6 +104,8 @@ test
 run_gyp
 (
 '
+no
+-
 default
 -
 libs
@@ -120,6 +122,8 @@ test
 build
 (
 '
+no
+-
 default
 -
 libs
@@ -132,6 +136,9 @@ ALL
 chdir
 =
 CHDIR
+status
+=
+1
 )
   
 test

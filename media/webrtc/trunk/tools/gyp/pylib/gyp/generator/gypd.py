@@ -385,6 +385,10 @@ _generator_identity_variables
 [
   
 '
+CONFIGURATION_NAME
+'
+  
+'
 EXECUTABLE_PREFIX
 '
   
@@ -394,6 +398,10 @@ EXECUTABLE_SUFFIX
   
 '
 INTERMEDIATE_DIR
+'
+  
+'
+LIB_DIR
 '
   
 '
@@ -422,6 +430,26 @@ RULE_INPUT_PATH
   
 '
 SHARED_INTERMEDIATE_DIR
+'
+  
+'
+SHARED_LIB_DIR
+'
+  
+'
+SHARED_LIB_PREFIX
+'
+  
+'
+SHARED_LIB_SUFFIX
+'
+  
+'
+STATIC_LIB_PREFIX
+'
+  
+'
+STATIC_LIB_SUFFIX
 '
 ]
 #

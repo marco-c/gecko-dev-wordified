@@ -45,8 +45,6 @@ Visual
 Studio
 project
 generation
-for
-SCons
 .
 "
 "
@@ -1654,6 +1652,9 @@ msbuild_toolset
 -
 class
 MSVSSolution
+(
+object
+)
 :
   
 "
@@ -3021,13 +3022,7 @@ Folder
 mappings
     
 #
-TODO
-(
-rspangler
-)
-:
-Should
-omit
+Omit
 this
 section
 if
@@ -3036,6 +3031,27 @@ are
 no
 folders
     
+if
+any
+(
+[
+e
+.
+entries
+for
+e
+in
+all_entries
+if
+isinstance
+(
+e
+MSVSFolder
+)
+]
+)
+:
+      
 f
 .
 write
@@ -3054,13 +3070,13 @@ r
 n
 '
 )
-    
+      
 for
 e
 in
 all_entries
 :
-      
+        
 if
 not
 isinstance
@@ -3069,7 +3085,7 @@ e
 MSVSFolder
 )
 :
-        
+          
 continue
 #
 Does
@@ -3079,7 +3095,7 @@ to
 projects
 only
 folders
-      
+        
 for
 subentry
 in
@@ -3087,7 +3103,7 @@ e
 .
 entries
 :
-        
+          
 f
 .
 write
@@ -3121,7 +3137,7 @@ get_guid
 )
 )
 )
-    
+      
 f
 .
 write

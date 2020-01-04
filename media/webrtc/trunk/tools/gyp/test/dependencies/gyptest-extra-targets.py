@@ -81,6 +81,17 @@ extra_targets
 .
 gyp
 '
+             
+'
+-
+G
+'
+'
+xcode_ninja_target_pattern
+=
+^
+a
+'
 )
 #
 This

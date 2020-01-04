@@ -257,8 +257,10 @@ current
 directory
 .
 #
-Android
-does
+Ninja
+and
+CMake
+do
 not
 support
 setting
@@ -285,7 +287,7 @@ ninja
 '
 '
 !
-android
+cmake
 '
 ]
 )

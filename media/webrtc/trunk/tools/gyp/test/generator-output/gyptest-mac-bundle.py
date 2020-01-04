@@ -76,18 +76,32 @@ darwin
 '
 :
   
-#
-Ninja
-doesn
-'
-t
-support
--
--
-generator
--
-output
+print
+"
+This
+test
+is
+currently
+disabled
+:
+https
+:
+/
+/
+crbug
 .
+com
+/
+483696
+.
+"
+  
+sys
+.
+exit
+(
+0
+)
   
 test
 =
@@ -98,10 +112,6 @@ TestGyp
 formats
 =
 [
-'
-!
-ninja
-'
 ]
 )
   

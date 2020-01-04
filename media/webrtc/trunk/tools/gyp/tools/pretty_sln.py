@@ -241,7 +241,7 @@ re
 .
 compile
 (
-(
+r
 '
 ^
 Project
@@ -259,7 +259,8 @@ Project
 -
 00A0C91BC942
 '
-                              
+                             
+r
 '
 }
 "
@@ -285,7 +286,6 @@ Project
 )
 "
 '
-)
 )
   
 #
@@ -326,6 +326,8 @@ re
 .
 compile
 (
+      
+r
 '
 ProjectSection
 \

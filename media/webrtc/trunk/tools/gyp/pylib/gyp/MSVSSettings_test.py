@@ -868,6 +868,14 @@ file2
 '
              
 '
+AdditionalDependencies_excluded
+'
+:
+'
+file3
+'
+             
+'
 AdditionalLibraryDirectories
 '
 :
@@ -2205,7 +2213,7 @@ expected
 range
 [
 0
-3
+4
 )
 '
         
@@ -2454,7 +2462,7 @@ CompileAsManaged
 '
 :
 '
-Pure
+true
 '
             
 '
