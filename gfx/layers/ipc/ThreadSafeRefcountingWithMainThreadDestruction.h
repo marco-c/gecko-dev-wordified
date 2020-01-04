@@ -65,6 +65,15 @@ THREADSAFEREFCOUNTINGWITHMAINTHREADDESTRUCTION_H_
 #
 include
 "
+base
+/
+message_loop
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
