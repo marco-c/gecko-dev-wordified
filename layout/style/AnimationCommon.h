@@ -1646,6 +1646,10 @@ whole
 bool
 CanPerformOnCompositorThread
 (
+const
+nsIFrame
+*
+aFrame
 )
 const
 ;
