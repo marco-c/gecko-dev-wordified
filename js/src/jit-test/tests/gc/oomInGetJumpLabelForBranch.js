@@ -5,6 +5,16 @@ jit
 -
 test
 |
+allow
+-
+oom
+;
+allow
+-
+unhandlable
+-
+oom
+;
 -
 -
 no
