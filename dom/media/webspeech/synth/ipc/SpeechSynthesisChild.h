@@ -280,6 +280,10 @@ const
 uint32_t
 &
 aCharIndex
+const
+uint32_t
+&
+aError
 )
 override
 ;
