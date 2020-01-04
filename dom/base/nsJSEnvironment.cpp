@@ -12865,7 +12865,10 @@ JS
 :
 SetAsmJSCacheOps
 (
+JS_GetContext
+(
 sRuntime
+)
 &
 asmJSCacheOps
 )

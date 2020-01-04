@@ -204,11 +204,6 @@ JS
 SetBuildIdOp
 (
 cx
--
->
-runtime
-(
-)
 GetBuildId
 )
 ;

@@ -48913,7 +48913,7 @@ JS
 :
 SetBuildIdOp
 (
-rt
+cx
 ShellBuildId
 )
 ;
@@ -48922,7 +48922,7 @@ JS
 :
 SetAsmJSCacheOps
 (
-rt
+cx
 &
 asmJSCacheOps
 )

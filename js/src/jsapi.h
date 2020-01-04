@@ -38747,9 +38747,9 @@ void
 )
 SetAsmJSCacheOps
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 AsmJSCacheOps
 *
@@ -38763,9 +38763,9 @@ void
 )
 SetBuildIdOp
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 BuildIdOp
 buildIdOp
 )
