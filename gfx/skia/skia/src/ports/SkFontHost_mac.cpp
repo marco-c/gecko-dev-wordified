@@ -2960,6 +2960,17 @@ const
 bool
 fHasColorGlyphs
 ;
+bool
+hasColorGlyphs
+(
+)
+const
+override
+{
+return
+fHasColorGlyphs
+;
+}
 protected
 :
 int
