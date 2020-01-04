@@ -3332,6 +3332,7 @@ CreateChromeWindow2
 aParent
 aChromeFlags
 0
+0
 nullptr
 &
 cancel
@@ -3404,6 +3405,9 @@ uint32_t
 aChromeFlags
 uint32_t
 aContextFlags
+nsIURI
+*
+aURI
 nsITabParent
 *
 aOpeningTab
