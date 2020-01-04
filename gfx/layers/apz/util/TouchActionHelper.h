@@ -115,6 +115,9 @@ h
 for
 TouchBehaviorFlags
 class
+nsIFrame
+;
+class
 nsIWidget
 ;
 namespace
@@ -237,6 +240,9 @@ GetAllowedTouchBehavior
 nsIWidget
 *
 aWidget
+nsIFrame
+*
+aRootFrame
 const
 LayoutDeviceIntPoint
 &

@@ -1096,6 +1096,9 @@ SendSetAllowedTouchBehaviorNotification
 nsIWidget
 *
 aWidget
+nsIDocument
+*
+aDocument
 const
 WidgetTouchEvent
 &

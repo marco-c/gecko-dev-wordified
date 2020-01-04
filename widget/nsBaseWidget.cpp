@@ -8654,6 +8654,9 @@ APZCCallbackHelper
 SendSetAllowedTouchBehaviorNotification
 (
 this
+GetDocument
+(
+)
 *
 (
 original
