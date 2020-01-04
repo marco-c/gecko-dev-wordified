@@ -3626,8 +3626,6 @@ d
 d
 %
 d
-%
-d
 "
 gfxPrefs
 :
@@ -3645,12 +3643,6 @@ gfxPrefs
 :
 :
 LayersAccelerationForceEnabledDoNotUseDirectly
-(
-)
-gfxPrefs
-:
-:
-LayersD3D11DisableWARP
 (
 )
 gfxPrefs
