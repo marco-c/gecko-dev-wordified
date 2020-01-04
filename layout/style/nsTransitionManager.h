@@ -96,15 +96,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ContentEvents
 .
 h
@@ -156,6 +147,10 @@ KeyframeEffect
 .
 h
 "
+/
+/
+For
+KeyframeEffectReadOnly
 #
 include
 "
