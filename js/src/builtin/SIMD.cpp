@@ -1387,6 +1387,17 @@ SimdToString
 JS_SELF_HOSTED_FN
 (
 "
+valueOf
+"
+"
+SimdValueOf
+"
+0
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 toSource
 "
 "
