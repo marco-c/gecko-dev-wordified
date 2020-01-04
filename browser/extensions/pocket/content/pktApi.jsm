@@ -4152,7 +4152,7 @@ setting
 |
 setting
 .
-contains
+includes
 (
 '
 hero

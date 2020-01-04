@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 This
@@ -1288,7 +1293,7 @@ message
 .
 text
 .
-contains
+includes
 (
 BAD_CERT
 )
@@ -1305,7 +1310,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 Certificate
@@ -1327,7 +1332,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 HTTP
@@ -1352,7 +1357,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 HTTP
@@ -1387,7 +1392,7 @@ message
 .
 text
 .
-contains
+includes
 (
 certChain
 )
@@ -1881,7 +1886,7 @@ message
 .
 text
 .
-contains
+includes
 (
 badStsUri
 .
@@ -1900,7 +1905,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 requested
@@ -1930,7 +1935,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 HTTP
@@ -1955,7 +1960,7 @@ message
 .
 text
 .
-contains
+includes
 (
 "
 HTTP
@@ -1990,7 +1995,7 @@ message
 .
 text
 .
-contains
+includes
 (
 certChain
 )
