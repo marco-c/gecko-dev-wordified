@@ -17756,7 +17756,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 offset
 )
@@ -23644,7 +23644,7 @@ encoder
 (
 )
 .
-writePatchableU8
+writePatchableFixedU8
 (
 &
 flagsAt
@@ -23699,7 +23699,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 prepareAt
@@ -23763,7 +23763,7 @@ encoder
 (
 )
 .
-patchVarU8
+patchFixedU8
 (
 flagsAt
 CeilingLog2
@@ -23817,7 +23817,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 prepareAt
 Expr
@@ -23841,7 +23841,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 prepareAt
 Expr
@@ -23887,7 +23887,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -23935,7 +23935,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -23958,7 +23958,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -23981,7 +23981,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24004,7 +24004,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24033,7 +24033,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24056,7 +24056,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24079,7 +24079,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24231,7 +24231,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -24498,7 +24498,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24527,7 +24527,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24556,7 +24556,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24587,7 +24587,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24603,7 +24603,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24634,7 +24634,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -24650,7 +24650,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25544,7 +25544,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -25585,7 +25585,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25621,7 +25621,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25657,7 +25657,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25771,7 +25771,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -25812,7 +25812,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25848,7 +25848,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -25957,7 +25957,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -26151,7 +26151,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -26566,7 +26566,7 @@ encoder
 (
 )
 .
-writePatchableU8
+writePatchableFixedU8
 (
 viewTypeAt
 )
@@ -26680,7 +26680,7 @@ encoder
 (
 )
 .
-patchU8
+patchFixedU8
 (
 viewTypeAt
 uint8_t
@@ -26867,7 +26867,7 @@ encoder
 (
 )
 .
-patchU8
+patchFixedU8
 (
 viewTypeAt
 uint8_t
@@ -26986,7 +26986,7 @@ encoder
 (
 )
 .
-writeU8
+writeFixedU8
 (
 uint8_t
 (
@@ -27073,7 +27073,7 @@ encoder
 (
 )
 .
-patchU8
+patchFixedU8
 (
 viewTypeAt
 uint8_t
@@ -27429,7 +27429,7 @@ encoder
 (
 )
 .
-patchU8
+patchFixedU8
 (
 viewTypeAt
 uint8_t
@@ -27616,7 +27616,7 @@ encoder
 (
 )
 .
-patchU8
+patchFixedU8
 (
 viewTypeAt
 uint8_t
@@ -29502,7 +29502,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -29530,7 +29530,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -29558,7 +29558,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -29586,7 +29586,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -29702,7 +29702,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -29800,7 +29800,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -30515,7 +30515,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 f64
@@ -30528,7 +30528,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 f32
@@ -30923,7 +30923,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 patchAt
@@ -31299,7 +31299,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -31332,7 +31332,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -31625,7 +31625,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -31966,7 +31966,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -32055,7 +32055,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -32926,7 +32926,7 @@ encoder
 (
 )
 .
-writeU8
+writeFixedU8
 (
 uint8_t
 (
@@ -33157,7 +33157,7 @@ encoder
 (
 )
 .
-writeU8
+writeFixedU8
 (
 uint8_t
 (
@@ -34775,7 +34775,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -34830,7 +34830,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -34883,7 +34883,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -34907,7 +34907,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -34931,7 +34931,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -34955,7 +34955,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -35051,7 +35051,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 patchAt
 Expr
@@ -35109,7 +35109,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -35193,7 +35193,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -35320,7 +35320,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -35429,7 +35429,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 coerceOp
@@ -35845,7 +35845,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -36049,7 +36049,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -36090,7 +36090,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -36126,7 +36126,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -36162,7 +36162,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -36259,7 +36259,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -36326,7 +36326,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 opcode
@@ -36387,7 +36387,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -37206,7 +37206,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -37326,7 +37326,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -37369,7 +37369,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -37412,7 +37412,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -37554,7 +37554,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -37773,7 +37773,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -37827,7 +37827,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -37881,7 +37881,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -38015,7 +38015,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -38096,7 +38096,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -38162,7 +38162,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -38221,7 +38221,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -38277,7 +38277,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 expr
@@ -38441,7 +38441,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -39066,7 +39066,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 stmt
@@ -41496,7 +41496,7 @@ encoder
 (
 )
 .
-writePatchableExpr
+writePatchableOneByteExpr
 (
 &
 opcodeAt
@@ -41616,7 +41616,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr
@@ -41634,7 +41634,7 @@ encoder
 (
 )
 .
-patchExpr
+patchOneByteExpr
 (
 opcodeAt
 Expr

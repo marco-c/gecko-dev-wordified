@@ -24155,7 +24155,7 @@ if
 !
 e
 .
-writeU8
+writeFixedU8
 (
 exported
 )

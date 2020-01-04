@@ -1642,7 +1642,7 @@ ret
 )
 TypeError
 /
-expression
+bad
 type
 /
 )
@@ -1678,7 +1678,7 @@ VoidCode
 )
 TypeError
 /
-value
+bad
 type
 /
 )
