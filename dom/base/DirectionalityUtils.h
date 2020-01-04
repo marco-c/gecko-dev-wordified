@@ -634,7 +634,7 @@ node
 void
 TextNodeChangedDirection
 (
-nsIContent
+nsTextNode
 *
 aTextNode
 Directionality
@@ -678,7 +678,7 @@ node
 void
 SetDirectionFromNewTextNode
 (
-nsIContent
+nsTextNode
 *
 aTextNode
 )
