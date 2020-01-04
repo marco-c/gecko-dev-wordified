@@ -640,7 +640,7 @@ zip
 is
 reading
 from
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

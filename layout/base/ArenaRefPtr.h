@@ -144,7 +144,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -766,7 +766,7 @@ I
 aSmartPtr
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -798,7 +798,7 @@ I
 aSmartPtr
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -949,7 +949,7 @@ this
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 T
 >

@@ -3049,7 +3049,7 @@ FontSizeInflationFor
 aFrame
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -5677,7 +5677,7 @@ of
 reference
 here
 ?
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

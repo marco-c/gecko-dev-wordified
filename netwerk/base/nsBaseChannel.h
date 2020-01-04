@@ -1931,7 +1931,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsBaseChannel
 >
@@ -1949,7 +1949,7 @@ friend
 class
 RedirectRunnable
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >

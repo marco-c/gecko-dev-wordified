@@ -5148,13 +5148,13 @@ called
 bool
 mOnActivatedCalled
 ;
-nsRefPtr
+RefPtr
 <
 ITfThreadMgr
 >
 mThreadMgr
 ;
-nsRefPtr
+RefPtr
 <
 ITfInputProcessorProfiles
 >
@@ -5304,7 +5304,7 @@ mInputProcessorProfiles
 =
 aInputProcessorProfiles
 ;
-nsRefPtr
+RefPtr
 <
 ITfSource
 >
@@ -5688,7 +5688,7 @@ mIPProfileCookie
 TF_INVALID_COOKIE
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfSource
 >
@@ -5824,7 +5824,7 @@ mLangProfileCookie
 TF_INVALID_COOKIE
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfSource
 >
@@ -6519,7 +6519,7 @@ IsVistaOrLater
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfInputProcessorProfileMgr
 >
@@ -6873,7 +6873,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IEnumTfLanguageProfiles
 >
@@ -7301,7 +7301,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IEnumTfLanguageProfiles
 >
@@ -9077,7 +9077,7 @@ both
 sides
 for
 comparison
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -9326,7 +9326,7 @@ both
 sides
 for
 comparison
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -9828,7 +9828,7 @@ during
 this
 call
 .
-nsRefPtr
+RefPtr
 <
 TSFTextStore
 >
@@ -10778,7 +10778,7 @@ false
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsWindowBase
 >
@@ -14019,7 +14019,7 @@ LONG
 aLength
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfRangeACP
 >
@@ -14469,7 +14469,7 @@ sDisplayAttrMgr
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 ITfDisplayAttributeInfo
 >
@@ -14758,7 +14758,7 @@ E_FAIL
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ITfCompositionView
 >
@@ -14769,7 +14769,7 @@ mComposition
 mView
 )
 ;
-nsRefPtr
+RefPtr
 <
 ITfRange
 >
@@ -16383,7 +16383,7 @@ be
 sent
 in
 eCompositionChange
-nsRefPtr
+RefPtr
 <
 ITfProperty
 >
@@ -16464,7 +16464,7 @@ hr
 E_FAIL
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfRange
 >
@@ -16536,7 +16536,7 @@ return
 hr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IEnumTfRanges
 >
@@ -16808,7 +16808,7 @@ AppendElement
 newRange
 )
 ;
-nsRefPtr
+RefPtr
 <
 ITfRange
 >
@@ -21561,7 +21561,7 @@ vt
 =
 VT_UNKNOWN
 ;
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -22580,7 +22580,7 @@ change
 or
 something
 .
-nsRefPtr
+RefPtr
 <
 TSFTextStore
 >
@@ -28489,7 +28489,7 @@ return
 S_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfRange
 >
@@ -30352,7 +30352,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfDocumentMgr
 >
@@ -30868,7 +30868,7 @@ sEnabledTextStore
 mContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 ITfContext
 >
@@ -30993,7 +30993,7 @@ from
 our
 documentMgr
 .
-nsRefPtr
+RefPtr
 <
 ITfDocumentMgr
 >
@@ -31173,7 +31173,7 @@ sEnabledTextStore
 mDocumentMgr
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfDocumentMgr
 >
@@ -32732,7 +32732,7 @@ aFlush
 mContext
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfContextOwnerServices
 >
@@ -34105,7 +34105,7 @@ as
 the
 base
 context
-nsRefPtr
+RefPtr
 <
 ITfContext
 >
@@ -34120,7 +34120,7 @@ if
 context
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfContextOwnerCompositionServices
 >
@@ -34257,7 +34257,7 @@ pUnk
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 ITfCompartmentMgr
 >
@@ -34348,7 +34348,7 @@ aState
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ITfCompartment
 >
@@ -34472,7 +34472,7 @@ GetIMEOpenState
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ITfCompartment
 >
@@ -34803,7 +34803,7 @@ lVal
 =
 1
 ;
-nsRefPtr
+RefPtr
 <
 ITfCompartment
 >
@@ -34933,7 +34933,7 @@ lVal
 =
 1
 ;
-nsRefPtr
+RefPtr
 <
 ITfCompartment
 >
@@ -35228,7 +35228,7 @@ ITfInputProcessorProfiles
 /
 instance
 .
-nsRefPtr
+RefPtr
 <
 ITfInputProcessorProfiles
 >
@@ -35301,7 +35301,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfThreadMgr
 >
@@ -35373,7 +35373,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfMessagePump
 >
@@ -35446,7 +35446,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfKeystrokeMgr
 >
@@ -35571,7 +35571,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfDisplayAttributeMgr
 >
@@ -35645,7 +35645,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfCategoryMgr
 >
@@ -35718,7 +35718,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfDocumentMgr
 >
@@ -35790,7 +35790,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfContext
 >
@@ -39381,7 +39381,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ITfInputProcessorProfileMgr
 >

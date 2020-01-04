@@ -1066,7 +1066,7 @@ contains
 the
 shared
 FrameMetrics
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1102,7 +1102,7 @@ mAPZCId
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 ClientLayerManager
 >
@@ -1138,7 +1138,7 @@ multi
 -
 process
 .
-nsRefPtr
+RefPtr
 <
 CompositorParent
 >

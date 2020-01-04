@@ -4082,7 +4082,7 @@ RelevantLinkVisited
 )
 )
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

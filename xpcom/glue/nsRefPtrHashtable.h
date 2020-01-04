@@ -211,7 +211,7 @@ public
 nsBaseHashtable
 <
 KeyClass
-nsRefPtr
+RefPtr
 <
 PtrType
 >
@@ -238,7 +238,7 @@ typedef
 nsBaseHashtable
 <
 KeyClass
-nsRefPtr
+RefPtr
 <
 PtrType
 >
@@ -262,7 +262,7 @@ aInitLength
 nsBaseHashtable
 <
 KeyClass
-nsRefPtr
+RefPtr
 <
 PtrType
 >

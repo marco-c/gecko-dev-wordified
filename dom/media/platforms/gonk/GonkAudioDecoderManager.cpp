@@ -408,7 +408,7 @@ GonkAudioDecoderManager
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -823,7 +823,7 @@ mon
 mMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -877,7 +877,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1270,7 +1270,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -1366,7 +1366,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -1402,7 +1402,7 @@ case
 OK
 :
 {
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -1660,7 +1660,7 @@ frame
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >

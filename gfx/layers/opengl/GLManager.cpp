@@ -150,7 +150,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -386,7 +386,7 @@ aTextureRect
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CompositorOGL
 >

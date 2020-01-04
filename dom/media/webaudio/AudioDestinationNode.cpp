@@ -880,7 +880,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 OfflineAudioCompletionEvent
 >
@@ -916,13 +916,13 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
 mAudioContext
 ;
-nsRefPtr
+RefPtr
 <
 AudioBuffer
 >
@@ -1032,7 +1032,7 @@ buffer
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 AudioBuffer
 >
@@ -1076,7 +1076,7 @@ ResolvePromise
 renderedBuffer
 )
 ;
-nsRefPtr
+RefPtr
 <
 OnCompleteTask
 >
@@ -1207,7 +1207,7 @@ to
 dispatch
 OfflineAudioCompletionEvent
 .
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -1297,7 +1297,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1320,7 +1320,7 @@ if
 node
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioDestinationNode
 >
@@ -1354,7 +1354,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioNodeStream
 >
@@ -1478,7 +1478,7 @@ mLastInputMuted
 =
 newInputMuted
 ;
-nsRefPtr
+RefPtr
 <
 InputMutedRunnable
 >

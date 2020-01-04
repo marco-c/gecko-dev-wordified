@@ -1250,7 +1250,7 @@ JSContext
 *
 aCx
 const
-nsRefPtr
+RefPtr
 <
 T
 >

@@ -251,7 +251,7 @@ mNewValue
 nsString
 mUrl
 ;
-nsRefPtr
+RefPtr
 <
 DOMStorage
 >

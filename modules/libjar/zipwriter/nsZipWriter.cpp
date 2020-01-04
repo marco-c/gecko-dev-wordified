@@ -2447,7 +2447,7 @@ nullptr
 return
 NS_ERROR_FILE_ALREADY_EXISTS
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHeader
 >
@@ -2506,7 +2506,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipDataStream
 >
@@ -4442,7 +4442,7 @@ uint32_t
 aPermissions
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHeader
 >
@@ -5136,7 +5136,7 @@ aItem
 mChannel
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHeader
 >
@@ -5187,7 +5187,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipDataStream
 >

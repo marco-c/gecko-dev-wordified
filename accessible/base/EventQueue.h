@@ -430,7 +430,7 @@ it
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

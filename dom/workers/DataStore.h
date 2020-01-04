@@ -499,7 +499,7 @@ DataStore
 >
 mBackingStore
 ;
-nsRefPtr
+RefPtr
 <
 DataStoreChangeEventProxy
 >
@@ -575,7 +575,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDataStore
 >

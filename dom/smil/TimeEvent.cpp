@@ -434,7 +434,7 @@ InternalSMILTimeEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 TimeEvent
 >

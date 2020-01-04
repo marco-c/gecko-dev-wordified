@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_nsRefPtr_h
+mozilla_RefPtr_h
 #
 define
-mozilla_nsRefPtr_h
+mozilla_RefPtr_h
 #
 include
 "
@@ -234,7 +234,7 @@ class
 T
 >
 class
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 ;
 class
 nsCOMPtr_helper
@@ -261,7 +261,7 @@ class
 T
 >
 class
-nsRefPtr
+RefPtr
 {
 private
 :
@@ -346,7 +346,7 @@ T
 element_type
 ;
 ~
-nsRefPtr
+RefPtr
 (
 )
 {
@@ -371,7 +371,7 @@ mRawPtr
 /
 /
 Constructors
-nsRefPtr
+RefPtr
 (
 )
 :
@@ -385,10 +385,10 @@ default
 constructor
 {
 }
-nsRefPtr
+RefPtr
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -426,9 +426,9 @@ mRawPtr
 ;
 }
 }
-nsRefPtr
+RefPtr
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -465,7 +465,7 @@ right
 type
 )
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 T
 *
@@ -501,7 +501,7 @@ typename
 I
 >
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 already_AddRefed
 <
@@ -534,7 +534,7 @@ typename
 I
 >
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 already_AddRefed
 <
@@ -572,10 +572,10 @@ typename
 I
 >
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 const
-nsRefPtr
+RefPtr
 <
 I
 >
@@ -630,9 +630,9 @@ typename
 I
 >
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
-nsRefPtr
+RefPtr
 <
 I
 >
@@ -660,7 +660,7 @@ from
 |
 Move
 (
-nsRefPtr
+RefPtr
 <
 SomeSubclassOfT
 >
@@ -670,7 +670,7 @@ SomeSubclassOfT
 {
 }
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 const
 nsCOMPtr_helper
@@ -691,7 +691,7 @@ class
 U
 >
 MOZ_IMPLICIT
-nsRefPtr
+RefPtr
 (
 const
 mozilla
@@ -709,7 +709,7 @@ aOther
 /
 Assignment
 operators
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -718,7 +718,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -748,7 +748,7 @@ template
 typename
 I
 >
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -757,7 +757,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 I
 >
@@ -769,7 +769,7 @@ aRhs
 assign
 from
 an
-nsRefPtr
+RefPtr
 of
 a
 related
@@ -790,7 +790,7 @@ return
 this
 ;
 }
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -831,7 +831,7 @@ template
 typename
 I
 >
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -873,7 +873,7 @@ template
 typename
 I
 >
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -915,7 +915,7 @@ return
 this
 ;
 }
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -929,7 +929,7 @@ nsCOMPtr_helper
 aHelper
 )
 ;
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -937,7 +937,7 @@ T
 operator
 =
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -976,7 +976,7 @@ template
 class
 U
 >
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1004,7 +1004,7 @@ operators
 void
 swap
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1311,7 +1311,7 @@ endif
 makes
 an
 |
-nsRefPtr
+RefPtr
 |
 act
 like
@@ -1342,7 +1342,7 @@ that
 makes
 an
 |
-nsRefPtr
+RefPtr
 |
 substitutable
 for
@@ -1393,7 +1393,7 @@ implicit
 conversion
 of
 temporary
-nsRefPtr
+RefPtr
 to
 raw
 pointer
@@ -1522,7 +1522,7 @@ t
 dereference
 a
 NULL
-nsRefPtr
+RefPtr
 with
 operator
 -
@@ -1701,7 +1701,7 @@ t
 dereference
 a
 NULL
-nsRefPtr
+RefPtr
 with
 operator
 -
@@ -1730,7 +1730,7 @@ aFptr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1764,7 +1764,7 @@ this
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1822,7 +1822,7 @@ t
 dereference
 a
 NULL
-nsRefPtr
+RefPtr
 with
 operator
 *
@@ -1873,7 +1873,7 @@ helper
 class
 makes
 |
-nsRefPtr
+RefPtr
 <
 const
 T
@@ -1958,7 +1958,7 @@ sound
 because
 while
 |
-nsRefPtr
+RefPtr
 <
 const
 T
@@ -2276,7 +2276,7 @@ inline
 void
 ImplCycleCollectionUnlink
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2301,7 +2301,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2336,14 +2336,14 @@ class
 T
 >
 inline
-nsRefPtr
+RefPtr
 <
 T
 >
 *
 address_of
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2366,7 +2366,7 @@ T
 >
 inline
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2374,7 +2374,7 @@ T
 address_of
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2396,7 +2396,7 @@ class
 T
 >
 class
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 /
 *
 .
@@ -2428,7 +2428,7 @@ e
 .
 g
 .
-nsRefPtr
+RefPtr
 <
 IFoo
 >
@@ -2469,7 +2469,7 @@ initialized
 with
 a
 |
-nsRefPtr
+RefPtr
 |
 as
 in
@@ -2524,7 +2524,7 @@ nested
 class
 inside
 |
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2536,9 +2536,9 @@ T
 public
 :
 explicit
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2617,7 +2617,7 @@ StartAssignment
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2632,13 +2632,13 @@ class
 T
 >
 inline
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 <
 T
 >
 getter_AddRefs
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2651,7 +2651,7 @@ Used
 around
 a
 |
-nsRefPtr
+RefPtr
 |
 when
 .
@@ -2661,7 +2661,7 @@ makes
 the
 class
 |
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 <
 T
 >
@@ -2672,7 +2672,7 @@ invisible
 /
 {
 return
-nsRefPtrGetterAddRefs
+RefPtrGetterAddRefs
 <
 T
 >
@@ -2686,7 +2686,7 @@ aSmartPtr
 Comparing
 two
 |
-nsRefPtr
+RefPtr
 |
 s
 template
@@ -2703,14 +2703,14 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
 &
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 U
 >
@@ -2763,14 +2763,14 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
 &
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 U
 >
@@ -2814,7 +2814,7 @@ get
 Comparing
 an
 |
-nsRefPtr
+RefPtr
 |
 to
 a
@@ -2834,7 +2834,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2891,7 +2891,7 @@ U
 *
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2940,7 +2940,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -2997,7 +2997,7 @@ U
 *
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3046,7 +3046,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3101,7 +3101,7 @@ U
 *
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3150,7 +3150,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3205,7 +3205,7 @@ U
 *
 aLhs
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3245,7 +3245,7 @@ get
 Comparing
 an
 |
-nsRefPtr
+RefPtr
 |
 to
 |
@@ -3263,7 +3263,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3302,7 +3302,7 @@ decltype
 nullptr
 )
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3333,7 +3333,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3372,7 +3372,7 @@ decltype
 nullptr
 )
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3489,7 +3489,7 @@ T
 aObj
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3580,7 +3580,7 @@ Args
 aArgs
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -3619,6 +3619,6 @@ mozilla
 endif
 /
 *
-mozilla_nsRefPtr_h
+mozilla_RefPtr_h
 *
 /

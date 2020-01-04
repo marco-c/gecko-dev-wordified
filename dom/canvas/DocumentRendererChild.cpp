@@ -106,7 +106,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -306,7 +306,7 @@ FlushLayoutForTree
 window
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -435,7 +435,7 @@ height
 4
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -510,7 +510,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

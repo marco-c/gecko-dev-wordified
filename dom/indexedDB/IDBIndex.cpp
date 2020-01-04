@@ -289,7 +289,7 @@ Transaction
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -453,7 +453,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >
@@ -1206,7 +1206,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -1337,7 +1337,7 @@ serializedKeyRange
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -1705,7 +1705,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -1844,7 +1844,7 @@ limit
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -2219,7 +2219,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -2425,7 +2425,7 @@ openParams
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -2815,7 +2815,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -2913,7 +2913,7 @@ void_t
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >

@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -598,7 +598,7 @@ nsChildView
 &
 mWidget
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >

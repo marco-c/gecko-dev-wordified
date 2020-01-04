@@ -1210,7 +1210,7 @@ custom
 overriden
 load
 group
-nsRefPtr
+RefPtr
 <
 InterfaceRequestor
 >

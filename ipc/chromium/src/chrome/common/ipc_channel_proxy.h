@@ -1713,7 +1713,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 MessageFilter
 >
@@ -1813,7 +1813,7 @@ involves
 this
 data
 .
-nsRefPtr
+RefPtr
 <
 Context
 >

@@ -1160,7 +1160,7 @@ to
 aTarget
 asynchronously
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -1327,7 +1327,7 @@ DispatchMinimizePrerollUntilPlaybackStarts
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -1444,7 +1444,7 @@ int64_t
 aEndTime
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -1499,7 +1499,7 @@ bool
 aAudioOffloading
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -1791,7 +1791,7 @@ bool
 aCaptured
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 :
@@ -2562,7 +2562,7 @@ void
 OnAudioPopped
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -2574,7 +2574,7 @@ void
 OnVideoPopped
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -4739,7 +4739,7 @@ and
 main
 threads
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -4755,7 +4755,7 @@ the
 state
 machine
 .
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -5064,7 +5064,7 @@ MediaDecoderStateMachine
 *
 mSelf
 ;
-nsRefPtr
+RefPtr
 <
 MediaTimer
 >
@@ -5278,7 +5278,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 HaveStartTimePromise
 >
@@ -5344,7 +5344,7 @@ MediaData
 Type
 SampleType
 >
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -5402,7 +5402,7 @@ aData
 mTime
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromisePrivate
 >
@@ -5414,7 +5414,7 @@ PromisePrivate
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataType
 >
@@ -5422,7 +5422,7 @@ data
 =
 aData
 ;
-nsRefPtr
+RefPtr
 <
 StartTimeRendezvous
 >
@@ -5811,7 +5811,7 @@ HaveStartTimePromise
 >
 mHaveStartTimePromise
 ;
-nsRefPtr
+RefPtr
 <
 AbstractThread
 >
@@ -5831,7 +5831,7 @@ mVideoStartTime
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 StartTimeRendezvous
 >
@@ -6557,7 +6557,7 @@ state
 machine
 thread
 .
-nsRefPtr
+RefPtr
 <
 media
 :
@@ -6595,7 +6595,7 @@ machine
 s
 constructor
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -7463,7 +7463,7 @@ in
 the
 media
 .
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -8732,7 +8732,7 @@ holding
 the
 monitor
 .
-nsRefPtr
+RefPtr
 <
 DecodedStream
 >
@@ -8747,7 +8747,7 @@ from
 the
 decoder
 .
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -8793,7 +8793,7 @@ MOZ_EME
 void
 OnCDMProxyReady
 (
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -8805,7 +8805,7 @@ OnCDMProxyNotReady
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >

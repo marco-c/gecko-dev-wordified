@@ -3337,7 +3337,7 @@ mStateBitWasOn
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DocAccessible
 >
@@ -3357,7 +3357,7 @@ document
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsAccessiblePivot
 >
@@ -3635,7 +3635,7 @@ return
 this
 ;
 }
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -3671,7 +3671,7 @@ events
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 NotificationController
 >

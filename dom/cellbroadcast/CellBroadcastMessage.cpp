@@ -549,7 +549,7 @@ GetEtws
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 CellBroadcastEtwsInfo
 >

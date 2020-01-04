@@ -330,7 +330,7 @@ it
 wraps
 uses
 .
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -414,7 +414,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >

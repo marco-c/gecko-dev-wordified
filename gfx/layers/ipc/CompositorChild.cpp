@@ -446,12 +446,12 @@ static
 void
 DeferredDestroyCompositor
 (
-nsRefPtr
+RefPtr
 <
 CompositorParent
 >
 aCompositorParent
-nsRefPtr
+RefPtr
 <
 CompositorChild
 >
@@ -561,7 +561,7 @@ whatever
 /
 happens
 .
-nsRefPtr
+RefPtr
 <
 CompositorChild
 >
@@ -744,7 +744,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >
@@ -902,7 +902,7 @@ MOZ_ASSERT
 sCompositor
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositorChild
 >
@@ -3189,7 +3189,7 @@ RemotePaintIsReady
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -3356,7 +3356,7 @@ TabChild
 aTabChild
 )
 {
-nsRefPtr
+RefPtr
 <
 nsISupports
 >

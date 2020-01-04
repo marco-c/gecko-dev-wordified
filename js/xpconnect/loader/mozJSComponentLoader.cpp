@@ -2861,7 +2861,7 @@ if
 mLoaderGlobal
 )
 {
-nsRefPtr
+RefPtr
 <
 BackstagePass
 >

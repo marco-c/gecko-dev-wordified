@@ -1148,7 +1148,7 @@ GetDescriptors
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >

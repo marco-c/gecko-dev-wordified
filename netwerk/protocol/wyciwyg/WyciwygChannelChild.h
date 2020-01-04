@@ -438,7 +438,7 @@ mIPCOpen
 bool
 mSentAppData
 ;
-nsRefPtr
+RefPtr
 <
 ChannelEventQueue
 >

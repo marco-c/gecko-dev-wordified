@@ -937,7 +937,7 @@ StartSession
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Probe
 >
@@ -1044,7 +1044,7 @@ manager
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Probe
 >

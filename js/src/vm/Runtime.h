@@ -10625,7 +10625,7 @@ mozilla
 :
 Vector
 <
-nsRefPtr
+RefPtr
 <
 js
 :

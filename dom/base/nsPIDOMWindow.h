@@ -4281,7 +4281,7 @@ on
 inner
 windows
 .
-nsRefPtr
+RefPtr
 <
 nsPerformance
 >

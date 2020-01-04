@@ -611,7 +611,7 @@ GetAdapters
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >
@@ -1294,7 +1294,7 @@ array
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >

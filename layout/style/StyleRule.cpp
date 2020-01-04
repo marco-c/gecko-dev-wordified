@@ -7202,7 +7202,7 @@ UPDATE_STYLE
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -8372,7 +8372,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -8526,7 +8526,7 @@ bool
 aHandleContainer
 )
 {
-nsRefPtr
+RefPtr
 <
 StyleRule
 >

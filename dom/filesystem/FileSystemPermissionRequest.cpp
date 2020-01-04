@@ -221,7 +221,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemPermissionRequest
 >
@@ -282,7 +282,7 @@ GetPermissionAccessType
 mPermissionAccess
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >
@@ -569,7 +569,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >

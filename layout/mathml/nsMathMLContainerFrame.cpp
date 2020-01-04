@@ -426,7 +426,7 @@ NS_MATHML_ERROR
 /
 Set
 font
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -661,7 +661,7 @@ font
 .
 .
 .
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

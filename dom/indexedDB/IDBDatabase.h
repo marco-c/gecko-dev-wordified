@@ -362,7 +362,7 @@ world
 will
 explode
 .
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -417,7 +417,7 @@ nsISupportsHashKey
 >
 mReceivedBlobs
 ;
-nsRefPtr
+RefPtr
 <
 Observer
 >

@@ -4659,7 +4659,7 @@ obj
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 XPCJSObjectHolder
 >
@@ -5364,7 +5364,7 @@ iface
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -5586,7 +5586,7 @@ flat
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 XPCJSObjectHolder
 >
@@ -6097,7 +6097,7 @@ dest
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >
@@ -6642,7 +6642,7 @@ ifaceName
 methodName
 )
 ;
-nsRefPtr
+RefPtr
 <
 Exception
 >
@@ -7878,7 +7878,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptError
 >

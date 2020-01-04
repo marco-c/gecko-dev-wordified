@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -4300,7 +4300,7 @@ uint16_t
 aPhonebookSize
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -4313,7 +4313,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -4464,7 +4464,7 @@ uint16_t
 aPhonebookSize
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -4477,7 +4477,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -4625,7 +4625,7 @@ BlobParent
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -4638,7 +4638,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >

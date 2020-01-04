@@ -257,7 +257,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -325,7 +325,7 @@ public
 ISO
 BMFF
 members
-nsRefPtr
+RefPtr
 <
 ES_Descriptor
 >
@@ -402,7 +402,7 @@ public
 ISO
 BMFF
 members
-nsRefPtr
+RefPtr
 <
 ESDBox
 >

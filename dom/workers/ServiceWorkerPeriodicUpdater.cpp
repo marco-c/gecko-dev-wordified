@@ -252,7 +252,7 @@ sInstance
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerPeriodicUpdater
 >

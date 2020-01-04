@@ -1084,7 +1084,7 @@ DOMSVGNumber
 >
 mItems
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGAnimatedNumberList
 >

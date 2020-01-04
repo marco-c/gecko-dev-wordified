@@ -292,7 +292,7 @@ void
 RemoveTrack
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaTrack
 >
@@ -494,14 +494,14 @@ mMediaElement
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaTrack
 >
 >
 mTracks
 ;
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >

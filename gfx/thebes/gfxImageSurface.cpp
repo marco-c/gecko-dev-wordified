@@ -1370,7 +1370,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1544,7 +1544,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1656,7 +1656,7 @@ CopyToB8G8R8A8DataSourceSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1831,7 +1831,7 @@ gfxImageFormat
 RGB24
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxSubimageSurface
 >
@@ -1921,7 +1921,7 @@ GetAsImageSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >

@@ -381,7 +381,7 @@ GetBaseValKey
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >
@@ -426,7 +426,7 @@ GetAnimValKey
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >

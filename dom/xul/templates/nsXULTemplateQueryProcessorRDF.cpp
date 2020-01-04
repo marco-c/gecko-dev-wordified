@@ -1920,7 +1920,7 @@ nsISupports
 _retval
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRDFQuery
 >
@@ -3020,7 +3020,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 RDFBindingSet
 >
@@ -3131,7 +3131,7 @@ uri
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXULTemplateResultRDF
 >

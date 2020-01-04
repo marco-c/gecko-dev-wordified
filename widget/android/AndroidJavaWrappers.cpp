@@ -4969,7 +4969,7 @@ scale
 scale
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >

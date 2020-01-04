@@ -2538,7 +2538,7 @@ InWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >

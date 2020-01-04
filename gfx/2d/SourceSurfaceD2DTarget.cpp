@@ -297,7 +297,7 @@ GetDataSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurfaceD2DTarget
 >
@@ -553,7 +553,7 @@ DrawTargetWillChange
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -768,7 +768,7 @@ desc
 Height
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -949,7 +949,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -1020,7 +1020,7 @@ bitmap
 !
 Terrible
 !
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >

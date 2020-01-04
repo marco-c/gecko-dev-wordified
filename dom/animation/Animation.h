@@ -2229,7 +2229,7 @@ sample
 void
 ComposeStyle
 (
-nsRefPtr
+RefPtr
 <
 AnimValuesStyleRule
 >
@@ -2711,13 +2711,13 @@ GetCollection
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 AnimationTimeline
 >
 mTimeline
 ;
-nsRefPtr
+RefPtr
 <
 KeyframeEffectReadOnly
 >
@@ -2834,7 +2834,7 @@ current
 ready
 -
 promise
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2917,7 +2917,7 @@ current
 finished
 -
 promise
-nsRefPtr
+RefPtr
 <
 Promise
 >

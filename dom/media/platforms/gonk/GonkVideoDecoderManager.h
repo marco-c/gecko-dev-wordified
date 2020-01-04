@@ -146,7 +146,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -300,7 +300,7 @@ GonkVideoDecoderManager
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -326,7 +326,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -689,7 +689,7 @@ mPicture
 nsIntSize
 mInitialFrame
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -906,7 +906,7 @@ dispatch
 to
 it
 .
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -956,7 +956,7 @@ EOS
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

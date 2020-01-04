@@ -4489,7 +4489,7 @@ SetNeedsWindowPropertiesSync
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

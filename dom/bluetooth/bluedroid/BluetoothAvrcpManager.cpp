@@ -800,7 +800,7 @@ Init
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -864,7 +864,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -948,7 +948,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1028,7 +1028,7 @@ profile
 result
 handler
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1379,7 +1379,7 @@ Deinit
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1436,7 +1436,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1511,7 +1511,7 @@ AVRCP
 was
 initialized
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1881,7 +1881,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
@@ -1960,7 +1960,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >

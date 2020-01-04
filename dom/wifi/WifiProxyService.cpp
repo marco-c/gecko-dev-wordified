@@ -808,7 +808,7 @@ gWpaSupplicant
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WifiProxyService
 >

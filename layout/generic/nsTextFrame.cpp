@@ -2222,7 +2222,7 @@ mSelectionTextColor
 nscolor
 mSelectionBGColor
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSShadowArray
 >
@@ -11985,7 +11985,7 @@ aOutFontMetrics
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -12158,7 +12158,7 @@ nsTextFrame
 aTextFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -14434,7 +14434,7 @@ fontInflation
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsTransformedCharStyle
 >
@@ -14493,7 +14493,7 @@ sc
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsTransformedCharStyle
 >
@@ -17785,7 +17785,7 @@ textRun
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -20272,7 +20272,7 @@ gfxFontGroup
 *
 mFontGroup
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -24872,7 +24872,7 @@ nsISelectionController
 SELECTION_ON
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -43679,7 +43679,7 @@ givenRect
 =
 aRect
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

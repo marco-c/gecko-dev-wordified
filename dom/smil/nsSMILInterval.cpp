@@ -843,7 +843,7 @@ nsSMILInstanceTime
 aTime
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

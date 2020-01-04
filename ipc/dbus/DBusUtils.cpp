@@ -359,7 +359,7 @@ MOZ_ASSERT
 aData
 )
 ;
-nsRefPtr
+RefPtr
 <
 DBusReplyHandler
 >

@@ -2233,7 +2233,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -3075,7 +3075,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -4537,7 +4537,7 @@ i
 count
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXBLKeyEventHandler
 >
@@ -6859,7 +6859,7 @@ do_GetAtom
 tag
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -6948,7 +6948,7 @@ GetDocumentURI
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeElement
 >
@@ -7141,7 +7141,7 @@ do_GetAtom
 prefix
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >

@@ -1629,7 +1629,7 @@ find
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

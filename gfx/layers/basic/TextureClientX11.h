@@ -359,13 +359,13 @@ gfx
 IntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >
 mSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

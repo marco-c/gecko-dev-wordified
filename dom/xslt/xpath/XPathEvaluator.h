@@ -395,7 +395,7 @@ aRv
 nsWeakPtr
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 txResultRecycler
 >

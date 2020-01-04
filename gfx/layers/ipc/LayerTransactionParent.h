@@ -963,7 +963,7 @@ RenderFrameParent
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -995,7 +995,7 @@ real
 "
 layer
 tree
-nsRefPtr
+RefPtr
 <
 Layer
 >

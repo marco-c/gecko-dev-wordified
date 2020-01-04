@@ -996,7 +996,7 @@ NS_OK
 }
 TX_ENSURE_CURRENTNODE
 ;
-nsRefPtr
+RefPtr
 <
 Comment
 >
@@ -2627,7 +2627,7 @@ false
 Create
 the
 element
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -2961,7 +2961,7 @@ rv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -4904,7 +4904,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >

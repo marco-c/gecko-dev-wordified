@@ -616,7 +616,7 @@ nsWebBrowserPersist
 :
 URIFixupData
 {
-nsRefPtr
+RefPtr
 <
 FlatURIMap
 >
@@ -872,7 +872,7 @@ NS_DECL_NSIWEBBROWSERPERSISTRESOURCEVISITOR
 NS_DECL_ISUPPORTS
 private
 :
-nsRefPtr
+RefPtr
 <
 nsWebBrowserPersist
 >
@@ -950,7 +950,7 @@ NS_DECL_NSIWEBBROWSERPERSISTWRITECOMPLETION
 NS_DECL_ISUPPORTS
 private
 :
-nsRefPtr
+RefPtr
 <
 nsWebBrowserPersist
 >
@@ -3677,7 +3677,7 @@ each
 serialized
 document
 .
-nsRefPtr
+RefPtr
 <
 FlatURIMap
 >
@@ -3892,7 +3892,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 OnWrite
 >

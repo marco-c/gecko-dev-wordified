@@ -630,7 +630,7 @@ return
 mDelay
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsDocShell
 >
@@ -4507,7 +4507,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsDocShell
 >
@@ -4690,7 +4690,7 @@ nsISupportsArray
 >
 mSavedRefreshURIList
 ;
-nsRefPtr
+RefPtr
 <
 nsDSURIContentListener
 >
@@ -4735,7 +4735,7 @@ mReferrerURI
 uint32_t
 mReferrerPolicy
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -5861,7 +5861,7 @@ nsIURIFixup
 *
 sURIFixup
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >

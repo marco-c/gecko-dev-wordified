@@ -2329,13 +2329,13 @@ nsICancelable
 >
 mProxyRequest
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >
 mTransactionPump
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpTransaction
 >
@@ -2372,7 +2372,7 @@ nsIInputStream
 >
 mCacheInputStream
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >
@@ -2938,7 +2938,7 @@ for
 accurate
 DNS
 timing
-nsRefPtr
+RefPtr
 <
 nsDNSPrefetch
 >

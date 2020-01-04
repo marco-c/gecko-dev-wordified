@@ -3541,7 +3541,7 @@ Next
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >

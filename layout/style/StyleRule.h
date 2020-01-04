@@ -2454,7 +2454,7 @@ Declaration
 *
 mDeclaration
 ;
-nsRefPtr
+RefPtr
 <
 ImportantRule
 >
@@ -2465,7 +2465,7 @@ mImportantRule
 initialized
 by
 RuleMatched
-nsRefPtr
+RefPtr
 <
 DOMCSSStyleRule
 >

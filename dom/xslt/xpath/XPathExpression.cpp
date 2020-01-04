@@ -285,7 +285,7 @@ mContextSize
 nsresult
 mLastError
 ;
-nsRefPtr
+RefPtr
 <
 txResultRecycler
 >
@@ -770,7 +770,7 @@ aContextSize
 mRecycler
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -913,7 +913,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 XPathResult
 >

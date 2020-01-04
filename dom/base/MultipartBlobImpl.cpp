@@ -449,7 +449,7 @@ empty
 blob
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -568,7 +568,7 @@ skipStart
 length
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -729,7 +729,7 @@ length
 l
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -804,7 +804,7 @@ create
 our
 blob
 now
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -914,7 +914,7 @@ IsBlob
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -1187,7 +1187,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1958,7 +1958,7 @@ mName
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 File
 >

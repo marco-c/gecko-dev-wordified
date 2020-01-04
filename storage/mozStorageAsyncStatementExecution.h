@@ -990,7 +990,7 @@ statementsNeedTransaction
 StatementDataArray
 mStatements
 ;
-nsRefPtr
+RefPtr
 <
 Connection
 >
@@ -1013,7 +1013,7 @@ nsIThread
 >
 mCallingThread
 ;
-nsRefPtr
+RefPtr
 <
 ResultSet
 >

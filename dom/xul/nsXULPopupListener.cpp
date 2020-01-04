@@ -1595,7 +1595,7 @@ local
 at
 all
 !
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

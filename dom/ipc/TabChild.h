@@ -799,7 +799,7 @@ nsIContentFrameMessageManager
 >
 mMessageManager
 ;
-nsRefPtr
+RefPtr
 <
 TabChildBase
 >
@@ -1184,7 +1184,7 @@ aFrameMetrics
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 TabChildGlobal
 >
@@ -3315,7 +3315,7 @@ nsIWebNavigation
 >
 mWebNav
 ;
-nsRefPtr
+RefPtr
 <
 PuppetWidget
 >
@@ -3331,7 +3331,7 @@ RenderFrameChild
 *
 mRemoteFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsIContentChild
 >
@@ -3499,7 +3499,7 @@ mUpdateHitRegion
 bool
 mIgnoreKeyPressEvent
 ;
-nsRefPtr
+RefPtr
 <
 APZEventState
 >

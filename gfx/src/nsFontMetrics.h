@@ -1471,7 +1471,7 @@ const
 nsFont
 mFont
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >

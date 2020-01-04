@@ -560,7 +560,7 @@ is
 the
 last
 reference
-nsRefPtr
+RefPtr
 <
 GMPVideoEncoderParent
 >

@@ -157,7 +157,7 @@ final
 public
 DOMEventTargetHelper
 {
-nsRefPtr
+RefPtr
 <
 Telephony
 >
@@ -165,14 +165,14 @@ mTelephony
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
 >
 mCalls
 ;
-nsRefPtr
+RefPtr
 <
 CallsList
 >
@@ -400,7 +400,7 @@ aCallIndex
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >

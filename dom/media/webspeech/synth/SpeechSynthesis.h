@@ -287,7 +287,7 @@ GetVoices
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SpeechSynthesisVoice
 >
@@ -322,14 +322,14 @@ mParent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SpeechSynthesisUtterance
 >
 >
 mSpeechQueue
 ;
-nsRefPtr
+RefPtr
 <
 nsSpeechTask
 >

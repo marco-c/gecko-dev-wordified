@@ -328,7 +328,7 @@ commit_hook
 commit
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >

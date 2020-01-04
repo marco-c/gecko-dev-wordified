@@ -1700,7 +1700,7 @@ DOMSVGPathSeg
 items
 too
 .
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

@@ -1899,7 +1899,7 @@ Selection
 aSelection
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1933,7 +1933,7 @@ GetNodesForOperation
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -2661,7 +2661,7 @@ nsHTMLEditor
 *
 mHTMLEditor
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -2682,7 +2682,7 @@ mDidRangedDelete
 bool
 mRestoreContentEditableCount
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -2711,7 +2711,7 @@ nsIDOMNode
 >
 mNewBlock
 ;
-nsRefPtr
+RefPtr
 <
 nsRangeStore
 >

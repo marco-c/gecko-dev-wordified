@@ -365,7 +365,7 @@ mCheckedNext
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsXULTemplateResultRDF
 >

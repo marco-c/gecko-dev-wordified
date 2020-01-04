@@ -171,7 +171,7 @@ aSource
 VideoSegment
 segment
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

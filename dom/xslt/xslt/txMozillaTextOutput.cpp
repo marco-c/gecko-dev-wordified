@@ -398,7 +398,7 @@ mTextParent
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

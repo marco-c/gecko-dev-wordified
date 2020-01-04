@@ -843,7 +843,7 @@ deserializers_
 Lock
 deserializers_lock_
 ;
-nsRefPtr
+RefPtr
 <
 ReceivedSyncMsgQueue
 >

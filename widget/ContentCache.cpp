@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -2149,7 +2149,7 @@ if
 there
 is
 .
-nsRefPtr
+RefPtr
 <
 TextComposition
 >

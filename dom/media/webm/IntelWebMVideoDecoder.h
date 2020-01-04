@@ -188,7 +188,7 @@ std
 :
 deque
 <
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >
@@ -216,7 +216,7 @@ aReader
 )
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -335,7 +335,7 @@ Decode
 bool
 Demux
 (
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >
@@ -373,19 +373,19 @@ PopSample
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebMReader
 >
 mReader
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
 mPlatform
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -415,7 +415,7 @@ decoder
 is
 created
 .
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -451,7 +451,7 @@ mDecoderConfig
 VP8SampleQueue
 mSampleQueue
 ;
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >

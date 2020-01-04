@@ -392,7 +392,7 @@ mRateLimit
 bool
 mTrackCreated
 ;
-nsRefPtr
+RefPtr
 <
 FakeMediaStreamGraph
 >

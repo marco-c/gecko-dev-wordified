@@ -212,7 +212,7 @@ FFmpegH264Decoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -384,7 +384,7 @@ AVPacket
 packet
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >

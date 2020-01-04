@@ -455,7 +455,7 @@ getPrivateContext
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -511,7 +511,7 @@ return
 NS_ERROR_XPATH_BAD_ARGUMENT_COUNT
 ;
 }
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -578,7 +578,7 @@ in
 the
 resulting
 nodeset
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

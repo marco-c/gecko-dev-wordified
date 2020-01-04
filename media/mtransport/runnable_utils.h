@@ -156,7 +156,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1694,7 +1694,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 T
 >

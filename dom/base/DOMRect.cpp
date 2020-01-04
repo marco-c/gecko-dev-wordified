@@ -431,7 +431,7 @@ ErrorResult
 aRV
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -493,7 +493,7 @@ ErrorResult
 aRV
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >

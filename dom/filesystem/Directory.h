@@ -623,7 +623,7 @@ ErrorResult
 aRv
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >

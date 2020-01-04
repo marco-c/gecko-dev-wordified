@@ -432,7 +432,7 @@ deleted
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsXULPrototypePI
 >
@@ -719,7 +719,7 @@ nsIURI
 >
 mURI
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeElement
 >
@@ -727,7 +727,7 @@ mRoot
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsXULPrototypePI
 >
@@ -745,7 +745,7 @@ mLoaded
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -758,7 +758,7 @@ XULDocument
 >
 mPrototypeWaiters
 ;
-nsRefPtr
+RefPtr
 <
 nsNodeInfoManager
 >

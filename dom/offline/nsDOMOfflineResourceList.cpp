@@ -990,7 +990,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >
@@ -1160,7 +1160,7 @@ aItems
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >
@@ -2592,7 +2592,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >

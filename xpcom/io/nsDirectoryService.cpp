@@ -683,7 +683,7 @@ NS_OK
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsLocalFile
 >
@@ -1621,7 +1621,7 @@ twice
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDirectoryService
 >

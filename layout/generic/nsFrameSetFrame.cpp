@@ -2399,7 +2399,7 @@ frame
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2610,7 +2610,7 @@ blankX
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -6155,7 +6155,7 @@ firstTime
 create
 horizontal
 border
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -6352,7 +6352,7 @@ firstTime
 create
 vertical
 border
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

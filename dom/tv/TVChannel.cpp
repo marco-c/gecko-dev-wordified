@@ -294,7 +294,7 @@ nsITVChannelData
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 TVChannel
 >
@@ -549,7 +549,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -580,7 +580,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -792,7 +792,7 @@ Source
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -913,7 +913,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -941,7 +941,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TVTuner
 >

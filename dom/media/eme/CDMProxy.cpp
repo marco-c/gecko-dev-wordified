@@ -794,7 +794,7 @@ mData
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -873,7 +873,7 @@ mData
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -2856,7 +2856,7 @@ IsNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3048,7 +3048,7 @@ IsNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3116,7 +3116,7 @@ IsNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3215,7 +3215,7 @@ IsNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3357,7 +3357,7 @@ IsNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3454,7 +3454,7 @@ return
 mCapabilites
 ;
 }
-nsRefPtr
+RefPtr
 <
 CDMProxy
 :
@@ -3471,7 +3471,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 DecryptJob
 >
@@ -3484,7 +3484,7 @@ aSample
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecryptPromise
 >
@@ -3506,7 +3506,7 @@ task
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 DecryptJob
 >
@@ -3541,7 +3541,7 @@ CDMProxy
 :
 gmp_Decrypt
 (
-nsRefPtr
+RefPtr
 <
 DecryptJob
 >

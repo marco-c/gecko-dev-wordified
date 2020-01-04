@@ -473,7 +473,7 @@ aFontName
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteLocalizedStrings
 >
@@ -692,7 +692,7 @@ hr
 BOOL
 exists
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteLocalizedStrings
 >
@@ -967,7 +967,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDWriteFont
 >
@@ -1678,7 +1678,7 @@ us
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteLocalizedStrings
 >
@@ -2401,7 +2401,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteFontFace
 >
@@ -2627,7 +2627,7 @@ mContext
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 IDWriteFontFace
 >
@@ -2847,7 +2847,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -4468,7 +4468,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteFontFile
 >
@@ -4958,7 +4958,7 @@ class
 /
 interop
 initialization
-nsRefPtr
+RefPtr
 <
 IDWriteFactory
 >
@@ -5363,7 +5363,7 @@ FindStyleVariations
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -6233,7 +6233,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDWriteFontFamily
 >
@@ -6251,7 +6251,7 @@ family
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteLocalizedStrings
 >
@@ -6450,7 +6450,7 @@ BuildKeyNameFromFontName
 name
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -7515,7 +7515,7 @@ aFamilyName
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFamily
 >
@@ -7558,7 +7558,7 @@ return
 hr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteLocalizedStrings
 >
@@ -7840,7 +7840,7 @@ hr
 =
 S_OK
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFont
 >
@@ -8011,7 +8011,7 @@ aMatchedFamily
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFactory
 >
@@ -8214,7 +8214,7 @@ strLen
 set
 up
 layout
-nsRefPtr
+RefPtr
 <
 IDWriteTextLayout
 >
@@ -8484,7 +8484,7 @@ aFamilyName
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 IDWriteFontCollection
 >
@@ -8493,7 +8493,7 @@ mSystemFonts
 #
 ifdef
 MOZ_BUNDLED_FONTS
-nsRefPtr
+RefPtr
 <
 IDWriteFontCollection
 >
@@ -8591,7 +8591,7 @@ false
 uint32_t
 index
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFamily
 >
@@ -8757,7 +8757,7 @@ i
 get
 the
 font
-nsRefPtr
+RefPtr
 <
 IDWriteFont
 >
@@ -8916,7 +8916,7 @@ haveData
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFace
 >
@@ -9309,7 +9309,7 @@ symbolFont
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -9451,7 +9451,7 @@ UseCmapsDuringSystemFallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DirectWriteFontInfo
 >
@@ -9658,7 +9658,7 @@ BundledFontFileEnumerator
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 IDWriteFactory
 >
@@ -10076,7 +10076,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BundledFontLoader
 >
@@ -10116,7 +10116,7 @@ get
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontCollection
 >

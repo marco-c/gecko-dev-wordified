@@ -1884,7 +1884,7 @@ AutoDisableRefresh
 aOther
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -2548,7 +2548,7 @@ PostPendingUpdate
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >

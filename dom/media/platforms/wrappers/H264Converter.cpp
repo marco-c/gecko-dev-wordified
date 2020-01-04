@@ -257,7 +257,7 @@ H264Converter
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -755,7 +755,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -825,7 +825,7 @@ AppendElement
 aSample
 )
 ;
-nsRefPtr
+RefPtr
 <
 H264Converter
 >
@@ -986,7 +986,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

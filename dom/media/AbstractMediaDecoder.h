@@ -1049,7 +1049,7 @@ aEventVisibility
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 AbstractMediaDecoder
 >

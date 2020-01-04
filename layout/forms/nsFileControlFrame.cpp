@@ -480,7 +480,7 @@ nsAString
 aAccessKey
 )
 {
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -602,7 +602,7 @@ are
 not
 notifying
 .
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -679,7 +679,7 @@ file
 picking
 button
 .
-nsRefPtr
+RefPtr
 <
 HTMLButtonElement
 >
@@ -844,7 +844,7 @@ nsGkAtoms
 directory
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -1066,7 +1066,7 @@ the
 selected
 files
 .
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1744,7 +1744,7 @@ a
 file
 upload
 control
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >

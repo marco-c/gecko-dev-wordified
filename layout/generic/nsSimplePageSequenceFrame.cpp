@@ -3474,7 +3474,7 @@ nsIFrame
 aFrame
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 HTMLCanvasElement
 >
@@ -4335,7 +4335,7 @@ mCalledBeginPage
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -4354,7 +4354,7 @@ renderingContext
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -4415,7 +4415,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -5234,7 +5234,7 @@ mPageNum
 CreateRenderingContext
 can
 fail
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

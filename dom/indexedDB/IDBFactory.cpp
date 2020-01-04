@@ -434,7 +434,7 @@ final
 public
 nsIIPCBackgroundChildCreateCallback
 {
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -490,7 +490,7 @@ IDBFactory
 :
 PendingRequestInfo
 {
-nsRefPtr
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -904,7 +904,7 @@ do_QueryInterface
 webNav
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -1638,7 +1638,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -3466,7 +3466,7 @@ id
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BackgroundCreateCallback
 >
@@ -3565,7 +3565,7 @@ forget
 AutoJSAPI
 autoJS
 ;
-nsRefPtr
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -4545,7 +4545,7 @@ MOZ_ASSERT
 mFactory
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -4584,7 +4584,7 @@ MOZ_ASSERT
 mFactory
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >

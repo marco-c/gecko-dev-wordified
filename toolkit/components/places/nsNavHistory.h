@@ -2469,7 +2469,7 @@ protected
 Database
 handle
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :

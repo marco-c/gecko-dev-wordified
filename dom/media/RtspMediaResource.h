@@ -1490,7 +1490,7 @@ Revoke
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 RtspMediaResource
 >
@@ -1560,7 +1560,7 @@ nsresult
 aReason
 )
 ;
-nsRefPtr
+RefPtr
 <
 Listener
 >

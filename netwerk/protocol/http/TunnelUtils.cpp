@@ -2642,7 +2642,7 @@ before
 on
 (
 )
-nsRefPtr
+RefPtr
 <
 NudgeTunnelCallback
 >
@@ -3378,7 +3378,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -3999,7 +3999,7 @@ nsIAsyncInputStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 TLSFilterTransaction
 >
@@ -4376,7 +4376,7 @@ nsIAsyncOutputStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 TLSFilterTransaction
 >
@@ -5253,7 +5253,7 @@ to
 the
 tunneled
 conn
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -6529,7 +6529,7 @@ mCallback
 =
 callback
 ;
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -6602,7 +6602,7 @@ nsresult
 reason
 )
 {
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -6689,7 +6689,7 @@ Flush
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -6852,7 +6852,7 @@ return
 mStatus
 ;
 }
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -7185,7 +7185,7 @@ nsresult
 reason
 )
 {
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -7275,7 +7275,7 @@ uint64_t
 _retval
 )
 {
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >
@@ -7378,7 +7378,7 @@ return
 mStatus
 ;
 }
-nsRefPtr
+RefPtr
 <
 NullHttpTransaction
 >

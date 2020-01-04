@@ -353,7 +353,7 @@ mOriginPrincipal
 principal
 if
 url
-nsRefPtr
+RefPtr
 <
 gfxFontFaceBufferSource
 >
@@ -928,7 +928,7 @@ while
 removing
 existing
 entry
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -3847,7 +3847,7 @@ mFontDataLoadingState
 bool
 mUnsupportedFormat
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >

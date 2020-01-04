@@ -800,7 +800,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextTrack
 >
@@ -1135,7 +1135,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextTrackCue
 >

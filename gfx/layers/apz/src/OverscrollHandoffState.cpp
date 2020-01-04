@@ -189,14 +189,14 @@ operator
 )
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
 &
 a
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -322,7 +322,7 @@ CompareByScrollPriority
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -905,7 +905,7 @@ IsFlingingFast
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

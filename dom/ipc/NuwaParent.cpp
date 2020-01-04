@@ -208,7 +208,7 @@ Alloc
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >
@@ -299,7 +299,7 @@ PNuwaParent
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >
@@ -541,7 +541,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >
@@ -673,7 +673,7 @@ Wait
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >
@@ -888,7 +888,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >
@@ -935,7 +935,7 @@ the
 ref
 cycle
 .
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -1364,7 +1364,7 @@ Move
 aFds
 )
 ;
-nsRefPtr
+RefPtr
 <
 NuwaParent
 >

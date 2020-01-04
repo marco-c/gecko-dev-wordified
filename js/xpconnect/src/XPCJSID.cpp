@@ -979,7 +979,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsJSID
 >
@@ -1028,7 +1028,7 @@ nsID
 id
 )
 {
-nsRefPtr
+RefPtr
 <
 nsJSID
 >
@@ -2098,7 +2098,7 @@ canScript
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsJSIID
 >
@@ -3447,7 +3447,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsJSCID
 >

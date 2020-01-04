@@ -277,13 +277,13 @@ friend
 class
 DualPattern
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
 mA
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

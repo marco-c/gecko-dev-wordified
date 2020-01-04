@@ -261,7 +261,7 @@ static
 void
 EvictTouchPoint
 (
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -513,7 +513,7 @@ const
 uint32_t
 &
 aKey
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -996,7 +996,7 @@ aEvent
 >
 mMessage
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1437,7 +1437,7 @@ Identifier
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

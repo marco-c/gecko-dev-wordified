@@ -466,7 +466,7 @@ thread
 -
 only
 .
-nsRefPtr
+RefPtr
 <
 HWNDGetter
 >

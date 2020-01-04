@@ -142,7 +142,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -243,7 +243,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1417,7 +1417,7 @@ mTargetConfig
 CSSRect
 mContentRect
 ;
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >

@@ -4406,7 +4406,7 @@ HandleResults
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBService
 >
@@ -7278,7 +7278,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierClassifyCallback
 >

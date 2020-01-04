@@ -194,7 +194,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 PermissionStatus
 >
@@ -594,7 +594,7 @@ mState
 oldState
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

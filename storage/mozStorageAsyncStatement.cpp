@@ -1183,7 +1183,7 @@ length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncBindingParams
 >

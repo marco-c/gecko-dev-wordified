@@ -4840,7 +4840,7 @@ are
 in
 flux
 .
-nsRefPtr
+RefPtr
 <
 nsResizeDropdownAtFinalPosition
 >
@@ -5851,7 +5851,7 @@ aPresContext
 aReflowState
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsResizeDropdownAtFinalPosition
 >
@@ -7019,7 +7019,7 @@ ourselves
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 RedisplayTextEvent
 >
@@ -9218,7 +9218,7 @@ frame
 and
 text
 frame
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -9242,7 +9242,7 @@ nsStyleSet
 eSkipParentDisplayBasedStyleFixup
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

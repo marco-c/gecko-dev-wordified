@@ -1056,7 +1056,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1203,7 +1203,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1666,7 +1666,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1706,7 +1706,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1767,7 +1767,7 @@ aFailureReason
 VideoInfo
 config
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1858,7 +1858,7 @@ result
 VideoInfo
 config
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1933,7 +1933,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1975,7 +1975,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -2199,7 +2199,7 @@ sTestAACExtraData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

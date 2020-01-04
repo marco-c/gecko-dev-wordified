@@ -942,7 +942,7 @@ force
 =
 1
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1281,7 +1281,7 @@ aReleaseEventCreator
 /
 Member
 variables
-nsRefPtr
+RefPtr
 <
 MockAccessibleCaretEventHub
 >

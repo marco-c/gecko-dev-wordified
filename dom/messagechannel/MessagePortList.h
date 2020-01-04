@@ -215,7 +215,7 @@ aOwner
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -344,7 +344,7 @@ mOwner
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >

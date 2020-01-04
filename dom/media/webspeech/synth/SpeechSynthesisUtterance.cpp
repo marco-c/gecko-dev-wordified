@@ -390,7 +390,7 @@ IsInnerWindow
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechSynthesisUtterance
 >
@@ -669,7 +669,7 @@ mName
 =
 aName
 ;
-nsRefPtr
+RefPtr
 <
 SpeechSynthesisEvent
 >

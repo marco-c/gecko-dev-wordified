@@ -1629,7 +1629,7 @@ InternalHeaders
 aHeaders
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1742,7 +1742,7 @@ InternalHeaders
 aHeaders
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >

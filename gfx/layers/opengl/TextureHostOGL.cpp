@@ -380,7 +380,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >

@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -668,7 +668,7 @@ return
 mImageClientTypeContainer
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageClient
 >
@@ -894,7 +894,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ClientImageLayer
 >

@@ -250,7 +250,7 @@ RilWorker
 >
 sRilWorkers
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

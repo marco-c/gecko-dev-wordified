@@ -81,7 +81,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -255,7 +255,7 @@ const
 aVolume
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsVolumeService
 >

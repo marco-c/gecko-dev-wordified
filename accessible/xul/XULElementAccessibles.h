@@ -223,7 +223,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 XULLabelTextLeafAccessible
 >

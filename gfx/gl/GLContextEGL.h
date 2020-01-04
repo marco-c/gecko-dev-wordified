@@ -553,7 +553,7 @@ protected
 EGLSurface
 mSurfaceOverride
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

@@ -1822,7 +1822,7 @@ GetComposedDoc
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -1924,7 +1924,7 @@ with
 the
 anonymous
 child
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2459,7 +2459,7 @@ the
 text
 field
 .
-nsRefPtr
+RefPtr
 <
 FocusTextField
 >

@@ -6205,7 +6205,7 @@ nsIAuthInformation
 :
 NEED_DOMAIN
 ;
-nsRefPtr
+RefPtr
 <
 nsHTTPAuthInformation
 >

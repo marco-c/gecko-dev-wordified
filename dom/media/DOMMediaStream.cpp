@@ -737,13 +737,13 @@ aTrackId
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
 mInputPort
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -1033,7 +1033,7 @@ mStream
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -1389,7 +1389,7 @@ aInputStream
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -1465,7 +1465,7 @@ NotifyTrackRemoved
 track
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -2296,7 +2296,7 @@ GetAudioTracks
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AudioStreamTrack
 >
@@ -2308,7 +2308,7 @@ aTracks
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -2357,7 +2357,7 @@ GetVideoTracks
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VideoStreamTrack
 >
@@ -2369,7 +2369,7 @@ aTracks
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -2418,7 +2418,7 @@ GetTracks
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -2430,7 +2430,7 @@ aTracks
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -2465,7 +2465,7 @@ MediaStreamTrack
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 ProcessedMediaStream
 >
@@ -2568,7 +2568,7 @@ aTrack
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2585,7 +2585,7 @@ MOZ_RELEASE_ASSERT
 addedDOMStream
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -2624,7 +2624,7 @@ underlying
 playback
 stream
 .
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
@@ -2645,7 +2645,7 @@ GetTrackID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -2759,7 +2759,7 @@ GetTrackID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -3292,7 +3292,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -3337,7 +3337,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -3382,7 +3382,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -3795,7 +3795,7 @@ aTrackID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -3826,7 +3826,7 @@ forget
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -3896,7 +3896,7 @@ nullptr
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -3956,7 +3956,7 @@ const
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -4122,7 +4122,7 @@ const
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 TrackPort
 >
@@ -4443,7 +4443,7 @@ DOMMediaStream
 NotifyTrackAdded
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -4482,7 +4482,7 @@ i
 )
 {
 const
-nsRefPtr
+RefPtr
 <
 TrackListener
 >
@@ -4511,7 +4511,7 @@ DOMMediaStream
 NotifyTrackRemoved
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -4550,7 +4550,7 @@ i
 )
 {
 const
-nsRefPtr
+RefPtr
 <
 TrackListener
 >
@@ -4808,7 +4808,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMLocalMediaStream
 >
@@ -4853,7 +4853,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMLocalMediaStream
 >
@@ -4898,7 +4898,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMLocalMediaStream
 >
@@ -4971,7 +4971,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMAudioNodeMediaStream
 >
@@ -5023,7 +5023,7 @@ ImageContainer
 ASYNCHRONOUS_OVERLAY
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -5115,7 +5115,7 @@ nsIDOMWindow
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMHwMediaStream
 >
@@ -5271,7 +5271,7 @@ SetData
 mImageData
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -5568,7 +5568,7 @@ delta
 =
 STREAM_TIME_MAX
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >

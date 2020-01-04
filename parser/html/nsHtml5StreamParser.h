@@ -2083,7 +2083,7 @@ buffer
 queue
 *
 /
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -2233,7 +2233,7 @@ parser
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsHtml5Parser
 >

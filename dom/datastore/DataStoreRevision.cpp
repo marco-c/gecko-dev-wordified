@@ -257,7 +257,7 @@ MOZ_ASSERT
 aCallback
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataStoreService
 >

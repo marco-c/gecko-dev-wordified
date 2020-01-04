@@ -370,7 +370,7 @@ IsNull
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >
@@ -499,7 +499,7 @@ return
 result
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >
@@ -956,7 +956,7 @@ const
 TimeStamp
 result
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >

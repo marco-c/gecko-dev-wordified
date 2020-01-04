@@ -2066,7 +2066,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -2100,7 +2100,7 @@ it
 to
 the
 option
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

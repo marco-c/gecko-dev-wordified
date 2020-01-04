@@ -877,7 +877,7 @@ aOutOffset
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -2642,7 +2642,7 @@ GetSelection
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -2765,7 +2765,7 @@ other
 /
 PresShell
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -3238,7 +3238,7 @@ aState
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -3337,7 +3337,7 @@ drag
 caret
 freely
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -3411,7 +3411,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -3431,7 +3431,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -3491,7 +3491,7 @@ rangeCount
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsINode
 >
@@ -3513,7 +3513,7 @@ GetStartParent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsINode
 >
@@ -3601,7 +3601,7 @@ startFrame
 ErrorResult
 err
 ;
-nsRefPtr
+RefPtr
 <
 TreeWalker
 >
@@ -3787,7 +3787,7 @@ rangeCount
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -3915,7 +3915,7 @@ do_QueryInterface
 node
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -4263,7 +4263,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -5110,7 +5110,7 @@ GetAncestorLimiter
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -5350,7 +5350,7 @@ init
 mSelectedTextContent
 )
 ;
-nsRefPtr
+RefPtr
 <
 CaretStateChangedEvent
 >

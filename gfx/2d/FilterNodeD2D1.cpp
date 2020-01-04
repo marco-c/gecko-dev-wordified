@@ -2383,7 +2383,7 @@ aDC
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Effect
 >
@@ -2446,7 +2446,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 FilterNodeD2D1
 >
@@ -3165,7 +3165,7 @@ InputEffect
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -3209,7 +3209,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 FilterNodeD2D1
 >
@@ -4784,7 +4784,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Effect
 >

@@ -589,7 +589,7 @@ mTotal
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 ProgressEvent
 >

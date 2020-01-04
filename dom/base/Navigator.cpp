@@ -1664,7 +1664,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5202,7 +5202,7 @@ i
 -
 i
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5323,7 +5323,7 @@ aType
 name
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5408,7 +5408,7 @@ nsAString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5478,7 +5478,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5542,7 +5542,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5647,7 +5647,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -6859,7 +6859,7 @@ SetLoadGroup
 loadGroup
 )
 ;
-nsRefPtr
+RefPtr
 <
 BeaconStreamListener
 >
@@ -7877,7 +7877,7 @@ do_QueryInterface
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8077,7 +8077,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataStoreService
 >
@@ -8129,7 +8129,7 @@ promise
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8217,7 +8217,7 @@ do_QueryInterface
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8362,7 +8362,7 @@ GetSingleton
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8631,7 +8631,7 @@ do_QueryInterface
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -9470,7 +9470,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 power
 :
@@ -9775,7 +9775,7 @@ MozTCPSocket
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 LegacyMozTCPSocket
 >
@@ -9969,7 +9969,7 @@ promise
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -10229,7 +10229,7 @@ GetGamepads
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Gamepad
 >
@@ -10354,7 +10354,7 @@ do_QueryInterface
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -10401,7 +10401,7 @@ get
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VRDevice
 >
@@ -11375,7 +11375,7 @@ mWindow
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerContainer
 >
@@ -13567,7 +13567,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 HasDataStoreSupportRunnable
 >
@@ -15277,7 +15277,7 @@ do_QueryInterface
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >

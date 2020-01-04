@@ -83,7 +83,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -327,7 +327,7 @@ aType
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 CanvasRenderingContext2D
 >
@@ -345,7 +345,7 @@ GradientStop
 >
 mRawStops
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

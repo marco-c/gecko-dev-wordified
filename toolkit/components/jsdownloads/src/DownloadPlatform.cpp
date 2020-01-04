@@ -883,7 +883,7 @@ aZone
 #
 ifdef
 XP_WIN
-nsRefPtr
+RefPtr
 <
 IInternetSecurityManager
 >

@@ -599,7 +599,7 @@ editor
 NS_ERROR_INVALID_ARG
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -859,7 +859,7 @@ rv
 get
 pres
 context
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

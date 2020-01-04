@@ -10390,7 +10390,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -11112,7 +11112,7 @@ bug
 )
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -12195,7 +12195,7 @@ does
 uint8_t
 matchType
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -12520,7 +12520,7 @@ mHyphenWidth
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -14827,7 +14827,7 @@ eShapingState_Aborted
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -15871,7 +15871,7 @@ kASCIIPeriodsChar
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -16063,7 +16063,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16207,7 +16207,7 @@ IsBadUnderlineFamily
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16403,7 +16403,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16496,7 +16496,7 @@ wasJoinCauser
 isVarSelector
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16590,7 +16590,7 @@ IsUserFont
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16707,7 +16707,7 @@ aCh
 HB_UNICODE_GENERAL_CATEGORY_CONTROL
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16765,7 +16765,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16827,7 +16827,7 @@ if
 aPrevMatchedFont
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -16936,7 +16936,7 @@ and
 check
 for
 character
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -17350,7 +17350,7 @@ fontListLength
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -17446,7 +17446,7 @@ nullptr
 search
 pref
 fonts
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -17524,7 +17524,7 @@ gfxTextRange
 :
 kSystemFallback
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -18104,7 +18104,7 @@ font
 for
 this
 char
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -19155,7 +19155,7 @@ PrefFontCallbackData
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -19172,7 +19172,7 @@ aFamiliesArray
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -19285,7 +19285,7 @@ uint32_t
 aCh
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -19476,7 +19476,7 @@ currentLang
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -19697,7 +19697,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -19816,7 +19816,7 @@ ComputeWeight
 =
 6
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >

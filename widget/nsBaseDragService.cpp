@@ -3085,7 +3085,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3278,7 +3278,7 @@ if
 flo
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -4217,7 +4217,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4430,7 +4430,7 @@ if
 aImageLoader
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -4461,7 +4461,7 @@ dt
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

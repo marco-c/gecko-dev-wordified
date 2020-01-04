@@ -1000,7 +1000,7 @@ aCodecSettings
 >
 height
 ;
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -1024,7 +1024,7 @@ WebrtcGmpVideoEncoder
 :
 :
 InitEncode_g
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -1115,7 +1115,7 @@ WebrtcGmpVideoEncoder
 InitEncode_g
 (
 const
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -1130,7 +1130,7 @@ aNumberOfCores
 uint32_t
 aMaxPayloadSize
 const
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -1745,7 +1745,7 @@ aWidth
 uint32_t
 aHeight
 const
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -2042,7 +2042,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -2534,7 +2534,7 @@ WebrtcGmpVideoEncoder
 :
 ReleaseGmp_g
 (
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -2586,7 +2586,7 @@ WebrtcGmpVideoEncoder
 :
 :
 ReleaseGmp_g
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -2655,7 +2655,7 @@ WebrtcGmpVideoEncoder
 :
 :
 SetRates_g
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -2683,7 +2683,7 @@ WebrtcGmpVideoEncoder
 :
 SetRates_g
 (
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoEncoder
 >
@@ -3831,7 +3831,7 @@ WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -3856,7 +3856,7 @@ WebrtcGmpVideoDecoder
 :
 :
 InitDecode_g
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoDecoder
 >
@@ -3886,7 +3886,7 @@ WebrtcGmpVideoDecoder
 InitDecode_g
 (
 const
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoDecoder
 >
@@ -3902,7 +3902,7 @@ aCodecSettings
 int32_t
 aNumberOfCores
 const
-nsRefPtr
+RefPtr
 <
 GmpInitDoneRunnable
 >
@@ -4952,7 +4952,7 @@ WebrtcGmpVideoDecoder
 :
 ReleaseGmp_g
 (
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoDecoder
 >
@@ -5004,7 +5004,7 @@ WebrtcGmpVideoDecoder
 :
 :
 ReleaseGmp_g
-nsRefPtr
+RefPtr
 <
 WebrtcGmpVideoDecoder
 >

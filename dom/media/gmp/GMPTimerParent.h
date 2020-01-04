@@ -268,7 +268,7 @@ nsITimer
 >
 mTimer
 ;
-nsRefPtr
+RefPtr
 <
 GMPTimerParent
 >

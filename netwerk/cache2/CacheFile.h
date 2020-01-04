@@ -656,7 +656,7 @@ const
 void
 ReleaseOutsideLock
 (
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -867,7 +867,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -911,7 +911,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -930,7 +930,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -1008,13 +1008,13 @@ mDataSize
 nsCString
 mKey
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
 mHandle
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileMetadata
 >
@@ -1066,7 +1066,7 @@ mOutput
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -1169,7 +1169,7 @@ false
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CacheFile
 >

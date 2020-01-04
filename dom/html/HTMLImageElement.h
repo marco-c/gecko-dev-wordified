@@ -2267,7 +2267,7 @@ tracking
 responsive
 image
 state
-nsRefPtr
+RefPtr
 <
 ResponsiveImageSelector
 >

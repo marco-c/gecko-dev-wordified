@@ -1355,7 +1355,7 @@ CreateQuotaClient
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheQuotaClient
 >

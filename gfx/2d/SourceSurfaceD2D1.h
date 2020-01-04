@@ -341,7 +341,7 @@ MarkIndependent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -376,13 +376,13 @@ to
 realize
 ourselves
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap1
 >
 mRealizedBitmap
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1DeviceContext
 >
@@ -405,7 +405,7 @@ in
 the
 future
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Device
 >
@@ -535,7 +535,7 @@ EnsureMapped
 )
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap1
 >

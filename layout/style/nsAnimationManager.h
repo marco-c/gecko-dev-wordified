@@ -187,7 +187,7 @@ dom
 struct
 AnimationEventInfo
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -196,7 +196,7 @@ Element
 >
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

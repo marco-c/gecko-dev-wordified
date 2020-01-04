@@ -1239,7 +1239,7 @@ database
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :

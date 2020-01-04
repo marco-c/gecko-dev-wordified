@@ -335,7 +335,7 @@ thread
 .
 *
 *
-nsRefPtr
+RefPtr
 <
 media
 :
@@ -936,7 +936,7 @@ mBar
 private
 :
 *
-nsRefPtr
+RefPtr
 <
 Bar
 >
@@ -947,7 +947,7 @@ mBar
 ;
 *
 *
-nsRefPtr
+RefPtr
 <
 Bar
 >
@@ -997,7 +997,7 @@ Foo
 *
 {
 *
-nsRefPtr
+RefPtr
 <
 Bar
 >
@@ -1415,7 +1415,7 @@ DoFoo
 *
 {
 *
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -1460,7 +1460,7 @@ requestId
 *
 {
 *
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -1545,7 +1545,7 @@ GetFooAsynchronously
 *
 {
 *
-nsRefPtr
+RefPtr
 <
 Pledge
 <
@@ -1608,7 +1608,7 @@ fooResult
 *
 {
 *
-nsRefPtr
+RefPtr
 <
 Foo
 >
@@ -1702,7 +1702,7 @@ std
 pair
 <
 uint32_t
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1731,7 +1731,7 @@ AppendElement
 Element
 (
 id
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1775,7 +1775,7 @@ first
 aId
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >

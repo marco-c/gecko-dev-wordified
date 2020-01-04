@@ -1458,7 +1458,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -2009,7 +2009,7 @@ if
 shell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -2121,7 +2121,7 @@ if
 shell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -2197,7 +2197,7 @@ if
 shell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -5475,7 +5475,7 @@ NS_ERROR_FAILURE
 /
 Create
 selection
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -5553,7 +5553,7 @@ a
 selection
 listener
 .
-nsRefPtr
+RefPtr
 <
 nsISelection
 >
@@ -5595,7 +5595,7 @@ domSelection
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -8496,7 +8496,7 @@ if
 mTextListener
 )
 {
-nsRefPtr
+RefPtr
 <
 nsISelection
 >
@@ -8893,7 +8893,7 @@ content
 child
 list
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -9413,7 +9413,7 @@ anonymous
 content
 child
 list
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -9480,7 +9480,7 @@ before
 doing
 anything
 else
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

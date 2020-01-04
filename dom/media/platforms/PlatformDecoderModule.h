@@ -168,7 +168,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1761,7 +1761,7 @@ Shutdown
 )
 !
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >

@@ -254,7 +254,7 @@ it
 belongs
 to
 content
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

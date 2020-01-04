@@ -413,7 +413,7 @@ aUseCapture
 {
 if
 (
-nsRefPtr
+RefPtr
 <
 EventListenerManager
 >
@@ -2023,7 +2023,7 @@ mWeakBrowsers
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TabParent
 >

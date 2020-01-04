@@ -240,7 +240,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -492,7 +492,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -503,7 +503,7 @@ const
 int
 mRequestId
 ;
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -521,7 +521,7 @@ empty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -1009,7 +1009,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -1031,7 +1031,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -1072,7 +1072,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >
@@ -1091,7 +1091,7 @@ Alloc
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 WebrtcGlobalParent
 >

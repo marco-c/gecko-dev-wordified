@@ -2841,7 +2841,7 @@ gfxImageFormat
 format
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -3697,7 +3697,7 @@ mSize
 =
 size
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3754,7 +3754,7 @@ height
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -3793,7 +3793,7 @@ tempXlibSurface
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -3862,7 +3862,7 @@ TopLeft
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -3969,7 +3969,7 @@ mSize
 =
 size
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

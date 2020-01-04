@@ -603,7 +603,7 @@ PopFront
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -663,7 +663,7 @@ std
 :
 deque
 <
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >

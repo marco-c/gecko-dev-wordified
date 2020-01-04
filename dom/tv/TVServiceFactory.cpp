@@ -195,7 +195,7 @@ CreateFakeTVService
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FakeTVService
 >

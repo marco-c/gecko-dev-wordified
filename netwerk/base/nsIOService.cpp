@@ -9760,13 +9760,13 @@ aIOService
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsIInterfaceRequestor
 >
 mCallbacks
 ;
-nsRefPtr
+RefPtr
 <
 nsIOService
 >
@@ -10292,7 +10292,7 @@ nsICancelable
 >
 cancelable
 ;
-nsRefPtr
+RefPtr
 <
 IOServiceProxyCallback
 >
@@ -10462,7 +10462,7 @@ if
 observerService
 )
 {
-nsRefPtr
+RefPtr
 <
 nsAppOfflineInfo
 >

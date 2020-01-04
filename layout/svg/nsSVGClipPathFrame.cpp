@@ -413,7 +413,7 @@ autoRestore
 aContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -986,7 +986,7 @@ aMatrix
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1064,7 +1064,7 @@ aMatrix
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

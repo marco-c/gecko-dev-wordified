@@ -187,13 +187,13 @@ MobileMessageCallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
 mDOMRequest
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

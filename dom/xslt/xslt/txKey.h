@@ -290,7 +290,7 @@ true
 txKeyValueHashKey
 mKey
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -954,7 +954,7 @@ no
 key
 is
 found
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

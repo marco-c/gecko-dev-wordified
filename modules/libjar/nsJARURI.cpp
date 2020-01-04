@@ -1498,7 +1498,7 @@ aBaseURL
 return
 NS_ERROR_MALFORMED_URI
 ;
-nsRefPtr
+RefPtr
 <
 nsJARURI
 >
@@ -2373,7 +2373,7 @@ NS_OK
 /
 not
 equal
-nsRefPtr
+RefPtr
 <
 nsJARURI
 >

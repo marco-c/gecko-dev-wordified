@@ -785,7 +785,7 @@ friend
 class
 ProgressTracker
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -793,7 +793,7 @@ mTracker
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -834,7 +834,7 @@ Debug
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -857,7 +857,7 @@ GetURI
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageURL
 >
@@ -1168,13 +1168,13 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
 mProgressTracker
 ;
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -1213,7 +1213,7 @@ the
 event
 queue
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1253,7 +1253,7 @@ Debug
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1476,7 +1476,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -2261,7 +2261,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -2422,7 +2422,7 @@ threadsafe
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -2492,7 +2492,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -2577,7 +2577,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IProgressObserver
 >
@@ -3090,7 +3090,7 @@ uri
 conent
 observers
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3127,7 +3127,7 @@ nsIURI
 uri
 ;
 {
-nsRefPtr
+RefPtr
 <
 ImageURL
 >

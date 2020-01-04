@@ -1521,7 +1521,7 @@ buffer
 queue
 *
 /
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -1578,7 +1578,7 @@ operation
 executor
 *
 /
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1676,7 +1676,7 @@ parser
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsHtml5StreamListener
 >

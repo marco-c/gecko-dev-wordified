@@ -532,7 +532,7 @@ return
 GMPGenericErr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Runnable
 >
@@ -596,7 +596,7 @@ return
 GMPGenericErr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SyncRunnable
 >
@@ -1080,7 +1080,7 @@ return
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Runnable
 >

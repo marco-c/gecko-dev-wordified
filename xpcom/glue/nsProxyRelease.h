@@ -297,7 +297,7 @@ NS_ProxyRelease
 nsIEventTarget
 *
 aTarget
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -555,7 +555,7 @@ nsresult
 )
 NS_ReleaseOnMainThread
 (
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1040,7 +1040,7 @@ this
 The
 semantics
 of
-nsRefPtr
+RefPtr
 <
 nsMainThreadPtrHolder
 <
@@ -1596,7 +1596,7 @@ T
 class
 nsMainThreadPtrHandle
 {
-nsRefPtr
+RefPtr
 <
 nsMainThreadPtrHolder
 <

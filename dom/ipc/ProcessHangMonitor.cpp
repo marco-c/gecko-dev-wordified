@@ -758,7 +758,7 @@ HangMonitorChild
 sInstance
 ;
 const
-nsRefPtr
+RefPtr
 <
 ProcessHangMonitor
 >
@@ -1166,7 +1166,7 @@ ShutdownOnThread
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 ProcessHangMonitor
 >
@@ -1213,7 +1213,7 @@ with
 mMonitor
 held
 .
-nsRefPtr
+RefPtr
 <
 HangMonitoredProcess
 >
@@ -1851,7 +1851,7 @@ if
 aTabChild
 )
 {
-nsRefPtr
+RefPtr
 <
 TabChild
 >
@@ -2639,7 +2639,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HangMonitoredProcess
 >
@@ -3524,7 +3524,7 @@ pluginId
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >

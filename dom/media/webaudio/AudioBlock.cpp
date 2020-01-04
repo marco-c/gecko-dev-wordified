@@ -362,7 +362,7 @@ value
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioBlockBuffer
 >
@@ -1028,7 +1028,7 @@ are
 byte
 aligned
 .
-nsRefPtr
+RefPtr
 <
 AudioBlockBuffer
 >

@@ -508,7 +508,7 @@ AutoPendingCompositionResetter
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TextInputProcessor
 >
@@ -822,7 +822,7 @@ nsITextInputProcessorCallback
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 ModifierKeyDataArray
 >

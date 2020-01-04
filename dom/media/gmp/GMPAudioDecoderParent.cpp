@@ -955,7 +955,7 @@ is
 the
 last
 reference
-nsRefPtr
+RefPtr
 <
 GMPAudioDecoderParent
 >

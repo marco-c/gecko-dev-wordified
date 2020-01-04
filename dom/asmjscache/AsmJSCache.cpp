@@ -1828,7 +1828,7 @@ mQuotaObject
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 QuotaObject
 >
@@ -1858,7 +1858,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 DirectoryLock
 >
@@ -2931,7 +2931,7 @@ mGroup
 nsCString
 mOrigin
 ;
-nsRefPtr
+RefPtr
 <
 DirectoryLock
 >
@@ -4683,7 +4683,7 @@ if
 mDirectoryLock
 )
 {
-nsRefPtr
+RefPtr
 <
 UnlockDirectoryRunnable
 >
@@ -5749,7 +5749,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ParentRunnable
 >
@@ -5812,7 +5812,7 @@ back
 from
 IPDL
 .
-nsRefPtr
+RefPtr
 <
 ParentRunnable
 >
@@ -7540,7 +7540,7 @@ I
 /
 O
 .
-nsRefPtr
+RefPtr
 <
 ChildRunnable
 >

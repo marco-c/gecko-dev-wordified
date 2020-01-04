@@ -541,7 +541,7 @@ MozNDEFRecord
 =
 delete
 ;
-nsRefPtr
+RefPtr
 <
 nsISupports
 >

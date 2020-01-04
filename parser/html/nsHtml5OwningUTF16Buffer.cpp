@@ -155,7 +155,7 @@ next
 bug
 706932
 .
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -182,7 +182,7 @@ mRefCnt
 1
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -249,7 +249,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

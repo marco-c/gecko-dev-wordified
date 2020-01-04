@@ -225,7 +225,7 @@ return
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -384,7 +384,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >

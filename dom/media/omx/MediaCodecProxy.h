@@ -177,7 +177,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1046,7 +1046,7 @@ mListener
 Media
 Resource
 Management
-nsRefPtr
+RefPtr
 <
 mozilla
 :

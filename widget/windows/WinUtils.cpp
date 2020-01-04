@@ -197,7 +197,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -5948,7 +5948,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5980,7 +5980,7 @@ surface
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6072,7 +6072,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6600,7 +6600,7 @@ GetPlatform
 ScreenReferenceDrawTarget
 (
 )
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

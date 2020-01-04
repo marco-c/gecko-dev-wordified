@@ -480,7 +480,7 @@ dom
 MediaSourceEnum
 mMediaSource
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngineSource
 >
@@ -1819,7 +1819,7 @@ on
 the
 MediaManager
 thread
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -1829,7 +1829,7 @@ mAudioDevice
 /
 threadsafe
 refcnt
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -1839,7 +1839,7 @@ mVideoDevice
 /
 threadsafe
 refcnt
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
@@ -1977,7 +1977,7 @@ override
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -1986,7 +1986,7 @@ mListener
 /
 /
 threadsafe
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2013,7 +2013,7 @@ mIsVideo
 uint64_t
 mWindowID
 ;
-nsRefPtr
+RefPtr
 <
 nsIDOMGetUserMediaErrorCallback
 >
@@ -2082,7 +2082,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2102,7 +2102,7 @@ mOnTracksAvailableCallback
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -2469,7 +2469,7 @@ mPrefs
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaDevice
 >
@@ -2819,7 +2819,7 @@ protected
 with
 mMutex
 :
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -2865,7 +2865,7 @@ defined
 (
 MOZ_WIDGET_GONK
 )
-nsRefPtr
+RefPtr
 <
 nsDOMCameraManager
 >

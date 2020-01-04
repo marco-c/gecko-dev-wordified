@@ -695,7 +695,7 @@ on
 owning
 thread
 .
-nsRefPtr
+RefPtr
 <
 Context
 >
@@ -1221,7 +1221,7 @@ nsIEventTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 Action
 >
@@ -1310,7 +1310,7 @@ DoomTargetData
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Manager
 >
@@ -1322,7 +1322,7 @@ nsIThread
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 Data
 >
@@ -1337,13 +1337,13 @@ mOrphanedData
 QuotaInfo
 mQuotaInfo
 ;
-nsRefPtr
+RefPtr
 <
 QuotaInitRunnable
 >
 mInitRunnable
 ;
-nsRefPtr
+RefPtr
 <
 Action
 >
@@ -1434,7 +1434,7 @@ AllowToClose
 is
 called
 .
-nsRefPtr
+RefPtr
 <
 ThreadsafeHandle
 >
@@ -1446,7 +1446,7 @@ DirectoryLock
 >
 mDirectoryLock
 ;
-nsRefPtr
+RefPtr
 <
 Context
 >

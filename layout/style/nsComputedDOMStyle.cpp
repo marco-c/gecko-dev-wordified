@@ -472,7 +472,7 @@ StyleType
 aStyleType
 )
 {
-nsRefPtr
+RefPtr
 <
 nsComputedDOMStyle
 >
@@ -1889,7 +1889,7 @@ Truncate
 ErrorResult
 error
 ;
-nsRefPtr
+RefPtr
 <
 CSSValue
 >
@@ -2432,7 +2432,7 @@ an
 addrefed
 style
 context
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2479,7 +2479,7 @@ the
 style
 ourselves
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2569,7 +2569,7 @@ StyleSet
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -3240,7 +3240,7 @@ nsComputedDOMStyle
 :
 SetResolvedStyleContext
 (
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -3917,7 +3917,7 @@ resolve
 a
 style
 context
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -4479,7 +4479,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CSSValue
 >
@@ -9628,7 +9628,7 @@ nsROCSSPrimitiveValue
 aValue
 )
 {
-nsRefPtr
+RefPtr
 <
 nsROCSSPrimitiveValue
 >
@@ -10197,7 +10197,7 @@ false
 nsAutoString
 tokenString
 ;
-nsRefPtr
+RefPtr
 <
 nsROCSSPrimitiveValue
 >
@@ -10938,7 +10938,7 @@ nsString
 aString
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMCSSValueList
 >
@@ -27757,7 +27757,7 @@ i
 nsAutoString
 radius
 ;
-nsRefPtr
+RefPtr
 <
 nsROCSSPrimitiveValue
 >
@@ -27819,7 +27819,7 @@ at
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMCSSValueList
 >
@@ -28183,7 +28183,7 @@ nsStyleCoord
 aCoord
 )
 {
-nsRefPtr
+RefPtr
 <
 nsROCSSPrimitiveValue
 >
@@ -28332,7 +28332,7 @@ drop
 shadow
 (
 )
-nsRefPtr
+RefPtr
 <
 CSSValue
 >

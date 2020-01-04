@@ -1609,7 +1609,7 @@ Runnable
 arrays
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1618,7 +1618,7 @@ mChangeAdapterStateRunnables
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1627,7 +1627,7 @@ mSetAdapterPropertyRunnables
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1636,7 +1636,7 @@ mChangeDiscoveryRunnables
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1645,7 +1645,7 @@ mFetchUuidsRunnables
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1654,7 +1654,7 @@ mCreateBondRunnables
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >

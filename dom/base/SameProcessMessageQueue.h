@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -234,7 +234,7 @@ CancelableRunnable
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Runnable
 >

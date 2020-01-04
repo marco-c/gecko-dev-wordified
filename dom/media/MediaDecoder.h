@@ -4242,7 +4242,7 @@ DispatchPlaybackStarted
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -4325,7 +4325,7 @@ DispatchPlaybackStopped
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -4989,7 +4989,7 @@ MOZ_EME
 typedef
 MozPromise
 <
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -5035,7 +5035,7 @@ to
 shut
 down
 .
-nsRefPtr
+RefPtr
 <
 CDMProxyPromise
 >
@@ -5749,7 +5749,7 @@ Media
 data
 resource
 .
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -5836,7 +5836,7 @@ access
 via
 accessors
 .
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -5899,7 +5899,7 @@ CDMProxyPromise
 >
 mCDMProxyPromiseHolder
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxyPromise
 >
@@ -6125,7 +6125,7 @@ frames
 FrameStatistics
 mFrameStats
 ;
-nsRefPtr
+RefPtr
 <
 VideoFrameContainer
 >
@@ -6174,7 +6174,7 @@ video
 frame
 )
 .
-nsRefPtr
+RefPtr
 <
 MediaChannelStatistics
 >

@@ -7433,7 +7433,7 @@ StyleContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

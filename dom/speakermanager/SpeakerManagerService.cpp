@@ -301,7 +301,7 @@ new
 instance
 register
 return
-nsRefPtr
+RefPtr
 <
 SpeakerManagerService
 >
@@ -1031,7 +1031,7 @@ past
 that
 point
 .
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -1196,7 +1196,7 @@ false
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >

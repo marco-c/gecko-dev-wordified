@@ -1321,7 +1321,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DNSRequestChild
 >
@@ -1847,7 +1847,7 @@ the
 hash
 table
 .
-nsRefPtr
+RefPtr
 <
 ChildDNSService
 >

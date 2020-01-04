@@ -618,7 +618,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsRefPtr
+RefPtr
 <
 Feature
 >

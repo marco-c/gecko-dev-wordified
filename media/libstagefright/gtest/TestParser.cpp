@@ -446,7 +446,7 @@ stagefright_MP4Metadata
 EmptyStream
 )
 {
-nsRefPtr
+RefPtr
 <
 Stream
 >
@@ -470,7 +470,7 @@ stream
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -686,7 +686,7 @@ stagefright_MoofParser
 EmptyStream
 )
 {
-nsRefPtr
+RefPtr
 <
 Stream
 >
@@ -821,7 +821,7 @@ HasMetadata
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -1212,7 +1212,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Stream
 >
@@ -1244,7 +1244,7 @@ stream
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -1745,7 +1745,7 @@ size
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 TestStream
 >
@@ -1772,7 +1772,7 @@ HasCompleteMetadata
 stream
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -1941,7 +1941,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Stream
 >
@@ -2084,7 +2084,7 @@ HasMetadata
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -2288,7 +2288,7 @@ size
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 TestStream
 >
@@ -2357,7 +2357,7 @@ HasMetadata
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -3245,7 +3245,7 @@ stagefright_MP4Metadata
 EmptyCTTS
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -3266,7 +3266,7 @@ media_libstagefright_gtest_video_init_mp4
 media_libstagefright_gtest_video_init_mp4_len
 )
 ;
-nsRefPtr
+RefPtr
 <
 BufferStream
 >
@@ -3289,7 +3289,7 @@ stream
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

@@ -2009,7 +2009,7 @@ aSetProperties
 void
 ComposeStyle
 (
-nsRefPtr
+RefPtr
 <
 AnimValuesStyleRule
 >

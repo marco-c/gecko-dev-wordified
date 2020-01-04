@@ -546,7 +546,7 @@ NodeInfo
 >
 ni
 =
-nsRefPtr
+RefPtr
 <
 mozilla
 :

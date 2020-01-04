@@ -389,7 +389,7 @@ MOZ_ASSERT
 aJob
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -1154,7 +1154,7 @@ to
 prevent
 that
 !
-nsRefPtr
+RefPtr
 <
 SyncObject
 >

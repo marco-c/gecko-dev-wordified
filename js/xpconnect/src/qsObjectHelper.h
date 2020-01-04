@@ -270,7 +270,7 @@ T
 inline
 qsObjectHelper
 (
-nsRefPtr
+RefPtr
 <
 T
 >

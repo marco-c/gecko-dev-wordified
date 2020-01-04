@@ -612,7 +612,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageLoopTimerCallback
 >

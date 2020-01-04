@@ -205,7 +205,7 @@ aByteRanges
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Stream
 >

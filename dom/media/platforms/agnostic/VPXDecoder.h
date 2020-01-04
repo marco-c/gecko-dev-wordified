@@ -203,7 +203,7 @@ VPXDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -294,13 +294,13 @@ OutputDelayedFrames
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
 mImageContainer
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

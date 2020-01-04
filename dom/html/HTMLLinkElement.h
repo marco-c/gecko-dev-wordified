@@ -871,7 +871,7 @@ GetImportLoader
 )
 {
 return
-nsRefPtr
+RefPtr
 <
 ImportLoader
 >
@@ -964,7 +964,7 @@ text
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMTokenList
 >
@@ -972,7 +972,7 @@ mRelList
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 ImportLoader
 >

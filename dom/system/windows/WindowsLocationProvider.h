@@ -220,13 +220,13 @@ WindowsLocationProvider
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ILocation
 >
 mLocation
 ;
-nsRefPtr
+RefPtr
 <
 MLSFallback
 >

@@ -388,7 +388,7 @@ Height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1318,7 +1318,7 @@ gmpopenh264
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -1375,7 +1375,7 @@ NS_GetCurrentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPInitDoneRunnable
 >
@@ -1473,7 +1473,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

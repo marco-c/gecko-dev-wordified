@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -763,7 +763,7 @@ each
 with
 mFrames
 frames
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -1261,7 +1261,7 @@ aTime
 int64_t
 aDuration
 const
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1609,7 +1609,7 @@ frame
 s
 image
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -2186,13 +2186,13 @@ CryptoSample
 &
 mCrypto
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
 mExtraData
 ;
-nsRefPtr
+RefPtr
 <
 SharedTrackInfo
 >

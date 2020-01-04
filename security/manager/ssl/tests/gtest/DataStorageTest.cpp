@@ -253,7 +253,7 @@ dataWillPersist
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataStorage
 >

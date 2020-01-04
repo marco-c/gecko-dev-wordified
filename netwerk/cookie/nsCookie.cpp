@@ -895,7 +895,7 @@ first
 invalid
 octet
 .
-nsRefPtr
+RefPtr
 <
 nsUTF8ConverterService
 >

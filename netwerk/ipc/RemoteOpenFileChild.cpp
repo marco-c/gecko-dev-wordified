@@ -1423,7 +1423,7 @@ asked
 for
 NSPR
 handle
-nsRefPtr
+RefPtr
 <
 CallsListenerInNewEvent
 >
@@ -1815,7 +1815,7 @@ IsValid
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CloseFileRunnable
 >
@@ -1844,7 +1844,7 @@ MOZ_ASSERT
 mNSPRFileDesc
 )
 ;
-nsRefPtr
+RefPtr
 <
 TabChild
 >
@@ -2044,7 +2044,7 @@ release
 ref
 to
 listener
-nsRefPtr
+RefPtr
 <
 nsJARProtocolHandler
 >

@@ -560,7 +560,7 @@ aDestinationNode
 nsresult
 res
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1350,7 +1350,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1603,7 +1603,7 @@ j
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >

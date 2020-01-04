@@ -381,7 +381,7 @@ index
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -561,7 +561,7 @@ bool
 aFireEvents
 )
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -927,7 +927,7 @@ mCall
 =
 aCall
 ;
-nsRefPtr
+RefPtr
 <
 CallEvent
 >
@@ -994,7 +994,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1323,7 +1323,7 @@ Id
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -1351,7 +1351,7 @@ GetSecondId
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallId
 >
@@ -1379,7 +1379,7 @@ GetError
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -1407,7 +1407,7 @@ GetGroup
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCallGroup
 >
@@ -1437,7 +1437,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1578,7 +1578,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1741,7 +1741,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1828,7 +1828,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >

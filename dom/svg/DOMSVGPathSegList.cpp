@@ -524,7 +524,7 @@ bool
 aIsAnimValList
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSegList
 >
@@ -1203,7 +1203,7 @@ array
 uint32_t
 newSegType
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSegList
 >
@@ -2299,7 +2299,7 @@ here
 if
 necessary
 .
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -2377,7 +2377,7 @@ error
 bool
 found
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -2576,7 +2576,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -2916,7 +2916,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -3356,7 +3356,7 @@ it
 if
 necessary
 :
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -3634,7 +3634,7 @@ IsAnimValList
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSeg
 >
@@ -3881,7 +3881,7 @@ done
 with
 it
 .
-nsRefPtr
+RefPtr
 <
 DOMSVGPathSegList
 >

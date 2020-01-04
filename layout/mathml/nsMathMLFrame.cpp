@@ -641,7 +641,7 @@ ePseudo_mozMathAnonymous
 /
 /
 savings
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1427,7 +1427,7 @@ SetUsesExChUnits
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

@@ -139,13 +139,13 @@ EnsureInitialized
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IUrlHistoryStg2
 >
 mIEHistory
 ;
-nsRefPtr
+RefPtr
 <
 IEnumSTATURL
 >

@@ -388,7 +388,7 @@ GetServices
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -1788,7 +1788,7 @@ server
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >

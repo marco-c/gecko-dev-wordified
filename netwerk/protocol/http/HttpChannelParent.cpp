@@ -1422,7 +1422,7 @@ nsIInterceptedChannel
 >
 mChannel
 ;
-nsRefPtr
+RefPtr
 <
 HttpChannelParent
 >
@@ -1470,7 +1470,7 @@ nsIFetchEventDispatcher
 aDispatcher
 )
 {
-nsRefPtr
+RefPtr
 <
 ResponseSynthesizer
 >
@@ -9216,7 +9216,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HttpChannelParent
 >

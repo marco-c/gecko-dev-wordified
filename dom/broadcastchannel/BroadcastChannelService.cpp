@@ -279,7 +279,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BroadcastChannelService
 >
@@ -450,7 +450,7 @@ operation
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -513,7 +513,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

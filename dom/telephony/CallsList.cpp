@@ -287,7 +287,7 @@ aIndex
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >
@@ -381,7 +381,7 @@ aFound
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TelephonyCall
 >

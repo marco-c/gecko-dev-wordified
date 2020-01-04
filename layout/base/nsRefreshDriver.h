@@ -2257,7 +2257,7 @@ and
 unset
 in
 Disconnect
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >

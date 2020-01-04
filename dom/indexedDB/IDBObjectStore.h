@@ -274,7 +274,7 @@ const
 JSClass
 sDummyPropJSClass
 ;
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -356,7 +356,7 @@ mDeletedSpec
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >

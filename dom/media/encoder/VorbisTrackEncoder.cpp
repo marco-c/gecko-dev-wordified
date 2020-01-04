@@ -658,7 +658,7 @@ codecid
 index
 .
 html
-nsRefPtr
+RefPtr
 <
 VorbisMetadata
 >

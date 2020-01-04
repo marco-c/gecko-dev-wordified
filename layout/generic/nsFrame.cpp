@@ -17464,7 +17464,7 @@ if
 target
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -19767,7 +19767,7 @@ IsControl
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -21406,7 +21406,7 @@ Keep
 frameSelection
 alive
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -21613,7 +21613,7 @@ PresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -22316,7 +22316,7 @@ nsISelectionController
 SELECTION_OFF
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -22522,7 +22522,7 @@ deleted
 bug
 336592
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -39464,7 +39464,7 @@ GetFrameSelection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

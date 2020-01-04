@@ -2455,7 +2455,7 @@ mWeight
 int16_t
 mStretch
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -3933,7 +3933,7 @@ metric
 indicating
 closest
 match
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -3944,7 +3944,7 @@ mBestMatch
 current
 best
 match
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -4061,7 +4061,7 @@ HasOtherFamilyNames
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -4078,7 +4078,7 @@ mAvailableFonts
 void
 AddFontEntry
 (
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -4932,7 +4932,7 @@ mName
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >

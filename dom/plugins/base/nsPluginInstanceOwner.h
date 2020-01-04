@@ -1596,7 +1596,7 @@ nsPluginNativeWindow
 *
 mPluginWindow
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -1627,7 +1627,7 @@ nsIWidget
 >
 mWidget
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1642,13 +1642,13 @@ mCGPluginPortCopy
 int32_t
 mInCGPaintLevel
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
 mIOSurface
 ;
-nsRefPtr
+RefPtr
 <
 nsCARenderer
 >
@@ -1880,7 +1880,7 @@ to
 wrapper
 for
 nsIDOMContextMenuListener
-nsRefPtr
+RefPtr
 <
 nsPluginDOMContextMenuListener
 >

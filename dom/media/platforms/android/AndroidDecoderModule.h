@@ -113,7 +113,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -253,7 +253,7 @@ MediaCodecDataDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :

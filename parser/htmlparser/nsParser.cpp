@@ -985,7 +985,7 @@ nsRunnable
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 nsParser
 >

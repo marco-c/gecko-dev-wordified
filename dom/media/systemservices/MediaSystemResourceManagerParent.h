@@ -267,7 +267,7 @@ mResourceType
 bool
 mDestroyed
 ;
-nsRefPtr
+RefPtr
 <
 MediaSystemResourceService
 >

@@ -854,7 +854,7 @@ class
 MOZ_STACK_CLASS
 AutoNotifyAudioChannelAgent
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1874,7 +1874,7 @@ GetCurrentLoadID
 mLoadID
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -2190,7 +2190,7 @@ back
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -2398,7 +2398,7 @@ is
 cleared
 here
 .
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -3437,7 +3437,7 @@ GetMozMediaSourceObject
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 MediaSource
 >
@@ -3488,7 +3488,7 @@ properly
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -3588,7 +3588,7 @@ properly
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -7358,7 +7358,7 @@ mLoadingSrc
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -7437,7 +7437,7 @@ if
 mMediaSource
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaSourceDecoder
 >
@@ -7517,7 +7517,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -7793,7 +7793,7 @@ shut
 down
 first
 .
-nsRefPtr
+RefPtr
 <
 MediaLoadListener
 >
@@ -8937,7 +8937,7 @@ the
 seekable
 ranges
 .
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -9768,7 +9768,7 @@ Seekable
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -9825,7 +9825,7 @@ nsIDOMTimeRanges
 aSeekable
 )
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -9879,7 +9879,7 @@ Played
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -10026,7 +10026,7 @@ nsIDOMTimeRanges
 aPlayed
 )
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -10891,7 +10891,7 @@ window
 aGraph
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -11044,7 +11044,7 @@ VIDEO
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -11080,7 +11080,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -11134,7 +11134,7 @@ MediaStreamGraph
 aGraph
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -13627,7 +13627,7 @@ if
 mWakeLock
 )
 {
-nsRefPtr
+RefPtr
 <
 power
 :
@@ -13980,7 +13980,7 @@ if
 mSrcStream
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -15083,7 +15083,7 @@ stalled
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -15666,7 +15666,7 @@ originalResource
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -15771,7 +15771,7 @@ IsMediaSeekable
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -15907,7 +15907,7 @@ Type
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -16011,7 +16011,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -16685,7 +16685,7 @@ if
 mElement
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -16834,7 +16834,7 @@ mElement
 mHaveCurrentData
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -16866,7 +16866,7 @@ if
 mElement
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -17296,7 +17296,7 @@ size
 mInitialSize
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -17630,7 +17630,7 @@ void
 NotifyTrackAdded
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -17652,7 +17652,7 @@ void
 NotifyTrackRemoved
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -18129,7 +18129,7 @@ window
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -18427,7 +18427,7 @@ ConstructMediaTracks
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -18451,7 +18451,7 @@ firstEnabledVideo
 for
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -18488,7 +18488,7 @@ AsAudioStreamTrack
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioTrack
 >
@@ -18525,7 +18525,7 @@ AsVideoStreamTrack
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoTrack
 >
@@ -18671,7 +18671,7 @@ HTMLMediaElement
 NotifyMediaStreamTrackAdded
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -18743,7 +18743,7 @@ AsAudioStreamTrack
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioTrack
 >
@@ -18780,7 +18780,7 @@ AsVideoStreamTrack
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoTrack
 >
@@ -18810,7 +18810,7 @@ HTMLMediaElement
 NotifyMediaStreamTrackRemoved
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamTrack
 >
@@ -20888,7 +20888,7 @@ IsCORSSameOrigin
 bool
 subsumes
 ;
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -23538,7 +23538,7 @@ if
 mSrcStream
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -23571,7 +23571,7 @@ NotifyDecoderPrincipalChanged
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -25670,7 +25670,7 @@ Buffered
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -25749,7 +25749,7 @@ nsIDOMTimeRanges
 aBuffered
 )
 {
-nsRefPtr
+RefPtr
 <
 TimeRanges
 >
@@ -27431,7 +27431,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -27861,7 +27861,7 @@ aInitData
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaEncryptedEvent
 >
@@ -27900,7 +27900,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -27962,7 +27962,7 @@ GetTopLevelPrincipal
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIPrincipal
 >
@@ -28211,7 +28211,7 @@ GetSrcMediaStream
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >

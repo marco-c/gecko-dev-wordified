@@ -307,7 +307,7 @@ FileMode
 Readwrite
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBFileHandle
 >
@@ -518,7 +518,7 @@ aParameters
 .
 mLastModified
 ;
-nsRefPtr
+RefPtr
 <
 FileRequestBase
 >

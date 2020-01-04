@@ -1065,14 +1065,14 @@ mTextureFactoryIdentifier
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
 >
 mTexturesToRemove
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >

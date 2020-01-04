@@ -1330,7 +1330,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1481,7 +1481,7 @@ static
 void
 CreateImageClientSync
 (
-nsRefPtr
+RefPtr
 <
 ImageClient
 >
@@ -2548,7 +2548,7 @@ ImageContainer
 )
 ImageClient
 *
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -2867,7 +2867,7 @@ thread
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -3862,7 +3862,7 @@ done
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 ImageClient
 >
@@ -3973,7 +3973,7 @@ GetPImageContainerChild
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageClient
 >
@@ -4179,7 +4179,7 @@ here
 struct
 AllocShmemParams
 {
-nsRefPtr
+RefPtr
 <
 ISurfaceAllocator
 >
@@ -4840,7 +4840,7 @@ textureChild
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

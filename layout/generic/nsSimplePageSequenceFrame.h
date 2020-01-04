@@ -955,7 +955,7 @@ mPageRanges
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

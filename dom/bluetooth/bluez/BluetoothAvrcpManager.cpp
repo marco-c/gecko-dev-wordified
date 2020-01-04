@@ -715,7 +715,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
@@ -794,7 +794,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >

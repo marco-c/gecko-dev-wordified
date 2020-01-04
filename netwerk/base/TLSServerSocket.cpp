@@ -536,7 +536,7 @@ gSocketThread
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsSocketTransport
 >
@@ -561,7 +561,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TLSServerConnectionInfo
 >
@@ -1751,7 +1751,7 @@ nsITLSClientStatus
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 OnHandshakeDoneRunnable
 >
@@ -2204,7 +2204,7 @@ void
 aArg
 )
 {
-nsRefPtr
+RefPtr
 <
 TLSServerConnectionInfo
 >

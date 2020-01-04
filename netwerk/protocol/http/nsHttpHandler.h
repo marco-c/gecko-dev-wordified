@@ -3028,7 +3028,7 @@ MakeNewRequestTokenBucket
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTokenBucket
 >
@@ -3092,7 +3092,7 @@ aTokenBucket
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Tickler
 >

@@ -285,7 +285,7 @@ StorageEventInit
 aEventInitDict
 )
 {
-nsRefPtr
+RefPtr
 <
 StorageEvent
 >
@@ -545,7 +545,7 @@ EventTarget
 aOwner
 )
 {
-nsRefPtr
+RefPtr
 <
 StorageEvent
 >

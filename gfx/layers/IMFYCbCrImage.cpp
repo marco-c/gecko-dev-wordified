@@ -333,7 +333,7 @@ texture
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -357,7 +357,7 @@ IntSize
 aSize
 _D3DFORMAT
 aFormat
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -381,7 +381,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -430,7 +430,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -582,7 +582,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -650,7 +650,7 @@ UploadData
 IDirect3DDevice9
 *
 aDevice
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -673,7 +673,7 @@ int32_t
 aSrcStride
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -824,7 +824,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -859,7 +859,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -894,7 +894,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -929,7 +929,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
@@ -1172,7 +1172,7 @@ return
 mTextureClient
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >
@@ -1213,7 +1213,7 @@ MiscFlags
 =
 D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -1265,7 +1265,7 @@ mCbCrSize
 .
 height
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -1296,7 +1296,7 @@ hr
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >

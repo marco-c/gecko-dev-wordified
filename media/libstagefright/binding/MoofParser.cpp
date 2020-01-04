@@ -791,7 +791,7 @@ size
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Stream
 >
@@ -849,7 +849,7 @@ length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mp4_demuxer
 :
@@ -1005,7 +1005,7 @@ length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mp4_demuxer
 :
@@ -1196,7 +1196,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -1237,7 +1237,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 mp4_demuxer
 :

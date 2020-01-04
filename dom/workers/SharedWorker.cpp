@@ -381,7 +381,7 @@ Value
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >

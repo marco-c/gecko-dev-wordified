@@ -595,7 +595,7 @@ AssertNotOnAudioThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -663,7 +663,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >
@@ -674,7 +674,7 @@ Init
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >
@@ -889,7 +889,7 @@ Cancel
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -1034,7 +1034,7 @@ AssertNotOnAudioThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -1126,7 +1126,7 @@ AudioStream
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -1198,7 +1198,7 @@ AssertNotOnAudioThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -1270,7 +1270,7 @@ AssertNotOnAudioThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedAudioDataSink
 >
@@ -1469,7 +1469,7 @@ while
 /
 initializing
 .
-nsRefPtr
+RefPtr
 <
 AudioStream
 >
@@ -2640,7 +2640,7 @@ paused
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >

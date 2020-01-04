@@ -855,7 +855,7 @@ away
 the
 presentation
 .
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -1049,7 +1049,7 @@ EnsureInnerView
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -1540,7 +1540,7 @@ GetStateBits
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -5434,7 +5434,7 @@ GetMarginAttributes
 Notify
 the
 frameloader
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -5474,7 +5474,7 @@ nsGkAtoms
 mozpasspointerevents
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -5805,7 +5805,7 @@ nsIContent
 >
 mFrameElement
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -6978,7 +6978,7 @@ while
 cv
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

@@ -476,7 +476,7 @@ void
 aArray
 )
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -569,7 +569,7 @@ aIndex
 IncrementalClearCOMRuleArray
 mRules
 ;
-nsRefPtr
+RefPtr
 <
 GroupRuleRuleList
 >

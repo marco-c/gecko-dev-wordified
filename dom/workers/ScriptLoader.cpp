@@ -1345,7 +1345,7 @@ after
 /
 resolution
 .
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1813,13 +1813,13 @@ nsresult
 aRv
 )
 ;
-nsRefPtr
+RefPtr
 <
 Cache
 >
 mCache
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -1833,7 +1833,7 @@ mSandboxGlobalObject
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheScriptLoader
 >
@@ -2002,7 +2002,7 @@ mLoadInfo
 uint32_t
 mIndex
 ;
-nsRefPtr
+RefPtr
 <
 ScriptLoaderRunnable
 >
@@ -2147,7 +2147,7 @@ AssertIsOnMainThread
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ScriptLoaderRunnable
 >
@@ -2207,7 +2207,7 @@ ScriptLoadInfo
 >
 mLoadInfos
 ;
-nsRefPtr
+RefPtr
 <
 CacheCreator
 >
@@ -2725,7 +2725,7 @@ exposed
 to
 content
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2943,7 +2943,7 @@ principalInfo
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3021,7 +3021,7 @@ Length
 ErrorResult
 error
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3076,7 +3076,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 CachePromiseHandler
 >
@@ -3642,7 +3642,7 @@ len
 index
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheScriptLoader
 >
@@ -6292,7 +6292,7 @@ lastIndex
 UINT32_MAX
 )
 {
-nsRefPtr
+RefPtr
 <
 ScriptExecutorRunnable
 >
@@ -6895,7 +6895,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -6984,7 +6984,7 @@ hold
 a
 ref
 .
-nsRefPtr
+RefPtr
 <
 CacheCreator
 >
@@ -7251,7 +7251,7 @@ are
 /
 running
 .
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -7618,7 +7618,7 @@ params
 ErrorResult
 error
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8468,7 +8468,7 @@ mChannel
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MainThreadStopSyncLoopRunnable
 >
@@ -9403,7 +9403,7 @@ syncLoop
 aWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 ScriptLoaderRunnable
 >
@@ -9623,7 +9623,7 @@ syncLoop
 aParent
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChannelGetterRunnable
 >

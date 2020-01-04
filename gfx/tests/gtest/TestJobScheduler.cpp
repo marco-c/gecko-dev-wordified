@@ -684,7 +684,7 @@ check
 aNumCmdBuffers
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -696,7 +696,7 @@ SyncObject
 aNumCmdBuffers
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -707,7 +707,7 @@ SyncObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -861,7 +861,7 @@ FreezePrerequisites
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventObject
 >
@@ -995,7 +995,7 @@ check
 aNumCmdBuffers
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -1033,7 +1033,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -1262,7 +1262,7 @@ FreezePrerequisites
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventObject
 >

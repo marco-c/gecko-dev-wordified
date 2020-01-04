@@ -386,7 +386,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1541,7 +1541,7 @@ IsContextLost
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 WebGLProgram
 >
@@ -1611,7 +1611,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebGLShader
 >
@@ -2924,7 +2924,7 @@ Nullable
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WebGLShader
 >
@@ -4506,7 +4506,7 @@ fGenTextures
 tex
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebGLTexture
 >
@@ -9245,7 +9245,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 &
 res
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9274,7 +9274,7 @@ mSourceSurface
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -11514,7 +11514,7 @@ fGenFramebuffers
 fbo
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebGLFramebuffer
 >
@@ -11555,7 +11555,7 @@ IsContextLost
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 WebGLRenderbuffer
 >
@@ -11979,7 +11979,7 @@ precision
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebGLShaderPrecisionFormat
 >

@@ -2053,7 +2053,7 @@ mCancelable
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 PluginCrashedEvent
 >
@@ -2201,7 +2201,7 @@ nsITimer
 >
 mTimer
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3176,7 +3176,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -3317,7 +3317,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -3363,7 +3363,7 @@ listener
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -4452,7 +4452,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -4548,7 +4548,7 @@ SuspendNative
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -4688,7 +4688,7 @@ if
 newOwner
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -4748,7 +4748,7 @@ if
 mInstanceOwner
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -4919,7 +4919,7 @@ NotifyContentObjectWrapper
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -7211,7 +7211,7 @@ GetFrameLoader
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -7640,7 +7640,7 @@ nsIInterfaceRequestor
 NS_DECL_NSIINTERFACEREQUESTOR
 /
 /
-nsRefPtr
+RefPtr
 <
 nsObjectLoadingContent
 >
@@ -9480,7 +9480,7 @@ java
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -15837,7 +15837,7 @@ nsIChannel
 >
 chan
 ;
-nsRefPtr
+RefPtr
 <
 ObjectInterfaceRequestorShim
 >
@@ -17096,7 +17096,7 @@ return
 eType_Document
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -18818,7 +18818,7 @@ mIsStopping
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -18827,7 +18827,7 @@ kungFuDeathGrip
 aInstanceOwner
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -18877,7 +18877,7 @@ HidePluginWindow
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -19205,7 +19205,7 @@ bug
 420886
 426852
 .
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -19281,7 +19281,7 @@ true
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -19886,7 +19886,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -21142,7 +21142,7 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -21367,7 +21367,7 @@ IsSafeToRunScript
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SetupProtoChainRunner
 >
@@ -21448,7 +21448,7 @@ aCx
 aObject
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -22621,7 +22621,7 @@ resolves
 see
 bug
 967694
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -22756,7 +22756,7 @@ resolves
 see
 bug
 967694
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

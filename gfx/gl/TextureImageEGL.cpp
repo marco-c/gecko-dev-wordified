@@ -984,7 +984,7 @@ to
 upload
 data
 .
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -995,7 +995,7 @@ updateSurface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1702,7 +1702,7 @@ ImageFormat
 aImageFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureImage
 >
@@ -1782,7 +1782,7 @@ fGenTextures
 texture
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureImageEGL
 >

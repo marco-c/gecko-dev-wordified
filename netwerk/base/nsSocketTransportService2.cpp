@@ -4088,7 +4088,7 @@ port
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSocketTransport
 >
@@ -4217,7 +4217,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsSocketTransport
 >

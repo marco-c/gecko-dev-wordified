@@ -549,7 +549,7 @@ whatever
 they
 need
 {
-nsRefPtr
+RefPtr
 <
 nsFoo
 >
@@ -560,7 +560,7 @@ nsFoo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsBar
 >
@@ -596,7 +596,7 @@ the
 runnable
 method
 !
-nsRefPtr
+RefPtr
 <
 nsFoo
 >
@@ -665,7 +665,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 nsFoo
 >
@@ -685,7 +685,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 nsFoo
 >
@@ -770,7 +770,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 nsFoo
 >
@@ -790,7 +790,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 nsFoo
 >

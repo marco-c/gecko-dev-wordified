@@ -1165,7 +1165,7 @@ nsACString
 aKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >

@@ -246,7 +246,7 @@ Clone
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -414,7 +414,7 @@ response
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -491,7 +491,7 @@ response
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -740,7 +740,7 @@ response
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -847,7 +847,7 @@ response
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -893,7 +893,7 @@ CreateIncompleteCopy
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >

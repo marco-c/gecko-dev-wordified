@@ -3763,7 +3763,7 @@ nsIStreamListener
 >
 listener
 ;
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -5290,7 +5290,7 @@ Do
 the
 load
 .
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -6323,7 +6323,7 @@ we
 were
 given
 .
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -6799,7 +6799,7 @@ this
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -6825,7 +6825,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -7250,7 +7250,7 @@ keepFlags
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -7346,7 +7346,7 @@ return
 mCurrentRequest
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >

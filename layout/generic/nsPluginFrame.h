@@ -1746,7 +1746,7 @@ geometry
 /
 updates
 .
-nsRefPtr
+RefPtr
 <
 nsRootPresContext
 >

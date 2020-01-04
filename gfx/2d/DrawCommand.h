@@ -640,7 +640,7 @@ mOptions
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -739,7 +739,7 @@ mOptions
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 FilterNode
 >
@@ -947,7 +947,7 @@ y
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1432,7 +1432,7 @@ true
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -1773,7 +1773,7 @@ true
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -1944,7 +1944,7 @@ mRenderingOptions
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >
@@ -1965,7 +1965,7 @@ mPattern
 DrawOptions
 mOptions
 ;
-nsRefPtr
+RefPtr
 <
 GlyphRenderingOptions
 >
@@ -2145,7 +2145,7 @@ private
 StoredPattern
 mSource
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2220,7 +2220,7 @@ mPath
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Path
 >

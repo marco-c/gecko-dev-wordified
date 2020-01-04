@@ -365,7 +365,7 @@ DynamicImage
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >

@@ -292,7 +292,7 @@ NS_OK
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 XMLHttpRequestUpload
 >
@@ -302,7 +302,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 Proxy
 >

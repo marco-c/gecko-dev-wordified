@@ -3472,7 +3472,7 @@ GetFontEntry
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -5021,7 +5021,7 @@ rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsRefPtr
+RefPtr
 <
 nsGlyphTableList
 >
@@ -7145,7 +7145,7 @@ aDefaultFamilyList
 nsFont
 &
 aFont
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -7231,7 +7231,7 @@ StyleFont
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -7624,7 +7624,7 @@ TryVariants
 nsGlyphTable
 *
 aGlyphTable
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -7642,7 +7642,7 @@ TryParts
 nsGlyphTable
 *
 aGlyphTable
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -7774,7 +7774,7 @@ TryVariants
 nsGlyphTable
 *
 aGlyphTable
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -8787,7 +8787,7 @@ TryParts
 nsGlyphTable
 *
 aGlyphTable
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -10165,7 +10165,7 @@ context
 mFontSizeInflation
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -10834,7 +10834,7 @@ StyleFont
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -14550,7 +14550,7 @@ styleContext
 parentContext
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

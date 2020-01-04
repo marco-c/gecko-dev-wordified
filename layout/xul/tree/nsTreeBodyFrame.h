@@ -414,7 +414,7 @@ Columns
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsTreeColumns
 >
@@ -3363,7 +3363,7 @@ ScrollEvent
 >
 mScrollEvent
 ;
-nsRefPtr
+RefPtr
 <
 ScrollbarActivity
 >
@@ -3389,7 +3389,7 @@ Cached
 column
 information
 .
-nsRefPtr
+RefPtr
 <
 nsTreeColumns
 >

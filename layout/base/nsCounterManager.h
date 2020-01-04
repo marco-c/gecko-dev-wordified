@@ -667,7 +667,7 @@ the
 CSS
 spec
 .
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -680,7 +680,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -889,7 +889,7 @@ us
 /
 /
 prematurely
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -958,7 +958,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1010,7 +1010,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1120,7 +1120,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioParam
 >
@@ -1993,7 +1993,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -2173,7 +2173,7 @@ different
 output
 ports
 .
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -2207,7 +2207,7 @@ if
 mStream
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

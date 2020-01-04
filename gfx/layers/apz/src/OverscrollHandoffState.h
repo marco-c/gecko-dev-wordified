@@ -312,7 +312,7 @@ class
 by
 /
 /
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -401,7 +401,7 @@ size
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -657,7 +657,7 @@ HasFastFlungApzc
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -677,7 +677,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

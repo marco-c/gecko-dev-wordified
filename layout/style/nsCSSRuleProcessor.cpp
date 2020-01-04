@@ -3091,7 +3091,7 @@ GetLineNumber
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

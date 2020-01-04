@@ -1322,7 +1322,7 @@ const
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -1343,7 +1343,7 @@ SetFiles
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -7579,7 +7579,7 @@ member
 /
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -7617,13 +7617,13 @@ mFirstFilePath
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 FileList
 >
 mFileList
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8400,7 +8400,7 @@ nsIFilePicker
 >
 mFilePicker
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >

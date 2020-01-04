@@ -913,7 +913,7 @@ nsISelection
 >
 mSelection
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >

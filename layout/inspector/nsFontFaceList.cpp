@@ -664,7 +664,7 @@ haven
 t
 seen
 before
-nsRefPtr
+RefPtr
 <
 nsFontFace
 >

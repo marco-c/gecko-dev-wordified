@@ -821,7 +821,7 @@ backgroundManager
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -952,13 +952,13 @@ BCPostMessageRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 BroadcastChannelChild
 >
 mActor
 ;
-nsRefPtr
+RefPtr
 <
 BroadcastChannelMessage
 >
@@ -1040,7 +1040,7 @@ CloseRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 BroadcastChannel
 >
@@ -1139,7 +1139,7 @@ TeardownRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 BroadcastChannelChild
 >
@@ -1671,7 +1671,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitializeRunnable
 >
@@ -1709,7 +1709,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BroadcastChannel
 >
@@ -2013,7 +2013,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 BroadcastChannelMessage
 >
@@ -2071,7 +2071,7 @@ if
 mActor
 )
 {
-nsRefPtr
+RefPtr
 <
 BCPostMessageRunnable
 >
@@ -2190,7 +2190,7 @@ mState
 =
 StateClosed
 ;
-nsRefPtr
+RefPtr
 <
 CloseRunnable
 >
@@ -2444,7 +2444,7 @@ SetParent
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 TeardownRunnable
 >

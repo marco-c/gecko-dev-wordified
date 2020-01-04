@@ -15667,7 +15667,7 @@ true
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -16935,7 +16935,7 @@ imgIContainer
 >
 mImage
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -23913,7 +23913,7 @@ nsIFrame
 *
 mFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValueSharedList
 >
@@ -25220,7 +25220,7 @@ override
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :

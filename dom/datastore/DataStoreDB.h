@@ -298,7 +298,7 @@ RemoveEventListeners
 nsString
 mDatabaseName
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :
@@ -307,7 +307,7 @@ IDBFactory
 >
 mFactory
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :
@@ -316,7 +316,7 @@ IDBOpenDBRequest
 >
 mRequest
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :
@@ -325,7 +325,7 @@ IDBDatabase
 >
 mDatabase
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :
@@ -334,7 +334,7 @@ IDBTransaction
 >
 mTransaction
 ;
-nsRefPtr
+RefPtr
 <
 DataStoreDBCallback
 >

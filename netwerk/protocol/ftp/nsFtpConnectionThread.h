@@ -1011,7 +1011,7 @@ transport
 /
 stream
 vars
-nsRefPtr
+RefPtr
 <
 nsFtpControlConnection
 >
@@ -1068,7 +1068,7 @@ mModTime
 *
 consumer
 vars
-nsRefPtr
+RefPtr
 <
 nsFtpChannel
 >

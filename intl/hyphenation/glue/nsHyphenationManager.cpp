@@ -499,7 +499,7 @@ nsIAtom
 aLocale
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHyphenator
 >
@@ -1088,7 +1088,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

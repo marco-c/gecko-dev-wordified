@@ -13976,7 +13976,7 @@ on
 error
 *
 /
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

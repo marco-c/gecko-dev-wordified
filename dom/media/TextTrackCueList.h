@@ -359,7 +359,7 @@ GetArray
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextTrackCue
 >
@@ -415,7 +415,7 @@ first
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextTrackCue
 >

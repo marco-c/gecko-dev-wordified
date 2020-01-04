@@ -1509,7 +1509,7 @@ nsIDOMNode
 aNode
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHTMLURIRefObject
 >

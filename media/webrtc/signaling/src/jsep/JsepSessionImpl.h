@@ -287,7 +287,7 @@ nsresult
 AddTrack
 (
 const
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -493,7 +493,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -510,7 +510,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -527,7 +527,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -544,7 +544,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -771,7 +771,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -837,7 +837,7 @@ mValue
 struct
 JsepSendingTrack
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -854,7 +854,7 @@ mAssignedMLine
 struct
 JsepReceivingTrack
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1114,7 +1114,7 @@ const
 SdpMediaSection
 &
 msection
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1442,7 +1442,7 @@ SdpMediaSection
 &
 local
 const
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -1481,7 +1481,7 @@ SdpAttributeList
 &
 answer
 const
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -1564,7 +1564,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -1582,7 +1582,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >

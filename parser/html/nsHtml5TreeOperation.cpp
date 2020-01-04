@@ -886,7 +886,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -1984,7 +1984,7 @@ Element
 >
 newElement
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -2208,7 +2208,7 @@ theAttribute
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -2263,7 +2263,7 @@ Element
 >
 optionElt
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -2288,7 +2288,7 @@ forget
 aFromParser
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -2786,7 +2786,7 @@ if
 domImageElement
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3063,7 +3063,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -3181,7 +3181,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3254,7 +3254,7 @@ nsHtml5DocumentBuilder
 aBuilder
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3444,7 +3444,7 @@ HTMLTemplateElement
 aNode
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

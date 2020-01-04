@@ -1087,7 +1087,7 @@ AssertIsOnMainThread
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompareManager
 >
@@ -1445,7 +1445,7 @@ Value
 aValue
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompareManager
 >
@@ -2144,7 +2144,7 @@ to
 be
 safe
 .
-nsRefPtr
+RefPtr
 <
 Cache
 >
@@ -2657,7 +2657,7 @@ StealNSResult
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2799,7 +2799,7 @@ StealNSResult
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -2850,7 +2850,7 @@ mPrincipalInfo
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -2932,7 +2932,7 @@ being
 written
 to
 .
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2996,7 +2996,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompareCallback
 >
@@ -3012,19 +3012,19 @@ JSObject
 >
 mSandbox
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
 mCacheStorage
 ;
-nsRefPtr
+RefPtr
 <
 CompareNetwork
 >
 mCN
 ;
-nsRefPtr
+RefPtr
 <
 CompareCache
 >
@@ -3887,7 +3887,7 @@ aURL
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4291,7 +4291,7 @@ error
 CacheQueryOptions
 params
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4779,7 +4779,7 @@ cx
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -4831,7 +4831,7 @@ for
 the
 cacheStorage
 .
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -5035,7 +5035,7 @@ MOZ_ASSERT
 aCallback
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompareManager
 >

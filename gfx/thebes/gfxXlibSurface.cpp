@@ -1211,7 +1211,7 @@ drawable
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >
@@ -1312,7 +1312,7 @@ drawable
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >
@@ -1570,7 +1570,7 @@ CairoSurface
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >

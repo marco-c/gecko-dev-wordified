@@ -949,7 +949,7 @@ src
 attribute
 is
 absolute
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -2556,7 +2556,7 @@ rewrite
 to
 use
 Moz2D
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -2648,7 +2648,7 @@ get_IOSurfaceDescriptor
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
@@ -3068,7 +3068,7 @@ GetImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3497,7 +3497,7 @@ if
 ioSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -4056,7 +4056,7 @@ area
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -4090,7 +4090,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

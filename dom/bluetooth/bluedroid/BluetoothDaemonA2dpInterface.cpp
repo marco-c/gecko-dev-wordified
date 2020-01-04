@@ -716,7 +716,7 @@ mOpcode
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothA2dpResultHandler
 >
@@ -1169,7 +1169,7 @@ Init
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothA2dpResultHandler
 >
@@ -1438,7 +1438,7 @@ BluetoothDaemonA2dpModule
 *
 mModule
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothA2dpResultHandler
 >

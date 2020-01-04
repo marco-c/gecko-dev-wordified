@@ -996,7 +996,7 @@ is
 audio
 node
 .
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -1018,7 +1018,7 @@ a
 media
 stream
 .
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1058,7 +1058,7 @@ destination
 /
 node
 .
-nsRefPtr
+RefPtr
 <
 AudioNodeStream
 >
@@ -1074,7 +1074,7 @@ the
 pipe
 stream
 .
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
@@ -1115,7 +1115,7 @@ running
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Session
 >

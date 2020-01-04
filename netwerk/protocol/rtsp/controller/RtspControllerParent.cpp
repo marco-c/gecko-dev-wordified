@@ -371,7 +371,7 @@ NS_ENSURE_TRUE_VOID
 mainThread
 )
 ;
-nsRefPtr
+RefPtr
 <
 RtspControllerParent
 >

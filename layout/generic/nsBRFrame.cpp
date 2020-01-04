@@ -911,7 +911,7 @@ less
 than
 1
 .
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

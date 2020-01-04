@@ -261,7 +261,7 @@ the
 same
 document
 .
-nsRefPtr
+RefPtr
 <
 nsSHEntryShared
 >

@@ -279,7 +279,7 @@ SetInputPorts
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 InputPort
 >
@@ -290,7 +290,7 @@ aPorts
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -299,7 +299,7 @@ mPendingGetInputPortsPromises
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 InputPort
 >

@@ -906,7 +906,7 @@ IsRequest
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -1122,7 +1122,7 @@ referrer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1438,7 +1438,7 @@ GetUnfilteredStatusText
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -1589,7 +1589,7 @@ MSG_FETCH_BODY_CONSUMED_ERROR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1813,7 +1813,7 @@ ResponseType
 Error
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1826,7 +1826,7 @@ NetworkError
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -1849,7 +1849,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1882,7 +1882,7 @@ url
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -2168,7 +2168,7 @@ MOZ_ASSERT
 ir
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -2206,7 +2206,7 @@ CacheRequest
 aIn
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -2330,7 +2330,7 @@ requestRedirect
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -2455,7 +2455,7 @@ CacheRequest
 aIn
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -2466,7 +2466,7 @@ ToInternalRequest
 aIn
 )
 ;
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -2581,7 +2581,7 @@ value
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -3166,7 +3166,7 @@ Failed
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -3258,7 +3258,7 @@ if
 we
 can
 .
-nsRefPtr
+RefPtr
 <
 ReadStream
 >

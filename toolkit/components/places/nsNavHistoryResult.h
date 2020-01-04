@@ -875,7 +875,7 @@ nsNavHistoryQueryOptions
 aOptions
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -1014,7 +1014,7 @@ mIsAllBookmarksObserver
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQueryResultNode
 >
@@ -1030,7 +1030,7 @@ mAllBookmarksObservers
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsNavHistoryFolderResultNode
 >
@@ -1058,7 +1058,7 @@ aCreate
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -2192,7 +2192,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -2842,7 +2842,7 @@ to
 the
 result
 .
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResult
 >

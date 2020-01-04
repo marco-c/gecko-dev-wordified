@@ -760,7 +760,7 @@ aDoc
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

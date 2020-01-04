@@ -585,7 +585,7 @@ aParent
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >

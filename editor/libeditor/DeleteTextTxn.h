@@ -325,7 +325,7 @@ operate
 upon
 *
 /
-nsRefPtr
+RefPtr
 <
 nsGenericDOMDataNode
 >

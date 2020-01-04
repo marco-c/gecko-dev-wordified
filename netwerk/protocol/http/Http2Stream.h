@@ -806,7 +806,7 @@ const
 nsACString
 &
 origin
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -826,7 +826,7 @@ const
 nsACString
 &
 origin
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -1183,7 +1183,7 @@ the
 ctor
 )
 .
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

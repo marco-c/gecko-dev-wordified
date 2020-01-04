@@ -255,7 +255,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >
@@ -806,7 +806,7 @@ nsPIDOMWindow
 >
 mFrameWindow
 ;
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -870,7 +870,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -1478,7 +1478,7 @@ DOMRequest
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -1613,7 +1613,7 @@ DOMRequest
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -1641,7 +1641,7 @@ mAudioChannel
 aVolume
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -1773,7 +1773,7 @@ DOMRequest
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -1908,7 +1908,7 @@ DOMRequest
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -1936,7 +1936,7 @@ mAudioChannel
 aMuted
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -2016,7 +2016,7 @@ mState
 eStateUnknown
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -2124,7 +2124,7 @@ DOMRequest
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >

@@ -7248,7 +7248,7 @@ re
 the
 root
 element
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -7842,7 +7842,7 @@ StopAnimationsWithoutFrame
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -11181,7 +11181,7 @@ will
 outlive
 the
 presshell
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -14188,7 +14188,7 @@ aContent
 nsStyleContext
 *
 aOldStyleContext
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -14242,7 +14242,7 @@ new
 style
 context
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -15931,7 +15931,7 @@ StyleContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -17027,7 +17027,7 @@ contextIndex
 contextIndex
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -17270,7 +17270,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -18023,7 +18023,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -21535,7 +21535,7 @@ DoProcessRestyles
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -21924,7 +21924,7 @@ eRestyle_ForceDescendants
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -25567,7 +25567,7 @@ assumeDifferenceHint
 =
 NS_STYLE_HINT_NONE
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -26009,7 +26009,7 @@ parentContext
 do
 primary
 context
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -28550,7 +28550,7 @@ LOG_RESTYLE_INDENT
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -29835,7 +29835,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -30937,7 +30937,7 @@ mRestyleHint
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -33044,7 +33044,7 @@ Restyle
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -33277,7 +33277,7 @@ Restyle
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

@@ -1284,7 +1284,7 @@ if
 node
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1307,7 +1307,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1528,7 +1528,7 @@ nameAtom
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1689,7 +1689,7 @@ GetTextNodeInfo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1772,7 +1772,7 @@ GetCommentNodeInfo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1849,7 +1849,7 @@ GetDocumentNodeInfo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >

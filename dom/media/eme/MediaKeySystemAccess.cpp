@@ -485,7 +485,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeys
 >

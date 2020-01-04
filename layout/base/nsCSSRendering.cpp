@@ -9431,7 +9431,7 @@ outside
 that
 area
 .
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -9475,7 +9475,7 @@ frameGfxRect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -10933,7 +10933,7 @@ if
 hasBorderRadius
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -12847,7 +12847,7 @@ EnsureSaved
 aCtx
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -13208,7 +13208,7 @@ Clip
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -18508,7 +18508,7 @@ the
 gradient
 pattern
 .
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -19563,7 +19563,7 @@ stopOrigin
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -26962,7 +26962,7 @@ y
 endBevelOffset
 ;
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -27026,7 +27026,7 @@ Close
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -30697,7 +30697,7 @@ skipCycles
 cycleLength
 ;
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -30709,7 +30709,7 @@ CreatePathBuilder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -34815,7 +34815,7 @@ case
 eStyleImageType_Element
 :
 {
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -35165,7 +35165,7 @@ roundedOut
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -35223,7 +35223,7 @@ ready
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -36112,7 +36112,7 @@ element
 is
 rare
 .
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -37199,7 +37199,7 @@ if
 aCornerRadii
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >

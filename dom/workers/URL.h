@@ -757,13 +757,13 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
 mURLProxy
 ;
-nsRefPtr
+RefPtr
 <
 URLSearchParams
 >

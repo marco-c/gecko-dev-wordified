@@ -6656,7 +6656,7 @@ a
 fake
 one
 .
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >

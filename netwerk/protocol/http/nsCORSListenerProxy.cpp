@@ -7771,7 +7771,7 @@ preflightListener
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >

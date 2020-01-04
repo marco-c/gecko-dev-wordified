@@ -253,7 +253,7 @@ txNodeSet
 aLeft
 )
 ;
-nsRefPtr
+RefPtr
 <
 StringResult
 >
@@ -416,7 +416,7 @@ txNodeSet
 aRight
 )
 ;
-nsRefPtr
+RefPtr
 <
 StringResult
 >
@@ -944,7 +944,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -971,7 +971,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

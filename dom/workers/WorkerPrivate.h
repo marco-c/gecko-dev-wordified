@@ -482,7 +482,7 @@ RefCountedMutex
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedMutex
 >
@@ -658,7 +658,7 @@ Protected
 by
 mMutex
 .
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -666,7 +666,7 @@ mEventTarget
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -797,7 +797,7 @@ level
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -879,7 +879,7 @@ count
 is
 zero
 .
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -2691,7 +2691,7 @@ GetAllSharedWorkers
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -3012,7 +3012,7 @@ IdleTimer
 NoTimer
 }
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDebugger
 >
@@ -3048,7 +3048,7 @@ JSContext
 *
 mJSContext
 ;
-nsRefPtr
+RefPtr
 <
 WorkerCrossThreadDispatcher
 >
@@ -3063,7 +3063,7 @@ nsIRunnable
 >
 mUndispatchedRunnablesForSyncLoop
 ;
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -3082,13 +3082,13 @@ worker
 thread
 only
 .
-nsRefPtr
+RefPtr
 <
 WorkerGlobalScope
 >
 mScope
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDebuggerGlobalScope
 >
@@ -3131,7 +3131,7 @@ EventTarget
 aEventTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -3226,7 +3226,7 @@ nsIEventTarget
 >
 mIdleGCTimerTarget
 ;
-nsRefPtr
+RefPtr
 <
 MemoryReporter
 >
@@ -5130,7 +5130,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >

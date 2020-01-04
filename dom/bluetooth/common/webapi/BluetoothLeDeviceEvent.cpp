@@ -399,7 +399,7 @@ uint8_t
 aScanRecord
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothLeDeviceEvent
 >
@@ -516,7 +516,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothLeDeviceEvent
 >

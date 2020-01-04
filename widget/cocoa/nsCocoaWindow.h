@@ -2556,7 +2556,7 @@ msgs
 [
 STRONG
 ]
-nsRefPtr
+RefPtr
 <
 nsMenuBarX
 >

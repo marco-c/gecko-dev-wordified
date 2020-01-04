@@ -313,7 +313,7 @@ the
 datalist
 element
 .
-nsRefPtr
+RefPtr
 <
 nsContentList
 >

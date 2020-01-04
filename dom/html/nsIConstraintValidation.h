@@ -521,7 +521,7 @@ object
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -1309,7 +1309,7 @@ to
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -1627,7 +1627,7 @@ comparison
 between
 *
 '
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -1655,7 +1655,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1686,7 +1686,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1782,7 +1782,7 @@ comparison
 between
 *
 '
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -1810,7 +1810,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1841,7 +1841,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :

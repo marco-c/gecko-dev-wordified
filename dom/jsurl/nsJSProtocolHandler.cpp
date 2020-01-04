@@ -2140,7 +2140,7 @@ mActualLoadFlags
 /
 See
 AsyncOpen
-nsRefPtr
+RefPtr
 <
 nsJSThunk
 >
@@ -2287,7 +2287,7 @@ nsIURI
 aURI
 )
 {
-nsRefPtr
+RefPtr
 <
 nsJSURI
 >
@@ -6389,7 +6389,7 @@ NS_ENSURE_ARG_POINTER
 uri
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJSChannel
 >
@@ -7235,7 +7235,7 @@ outparam
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJSURI
 >

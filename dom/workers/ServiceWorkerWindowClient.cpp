@@ -264,7 +264,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -341,7 +341,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -364,7 +364,7 @@ if
 mClientInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 ServiceWorkerWindowClient
 >
@@ -437,7 +437,7 @@ nsRunnable
 uint64_t
 mWindowId
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -609,7 +609,7 @@ CleanedUp
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResolveOrRejectPromiseRunnable
 >
@@ -712,7 +712,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -758,7 +758,7 @@ WindowInteractionAllowed
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -778,7 +778,7 @@ if
 promiseProxy
 )
 {
-nsRefPtr
+RefPtr
 <
 ClientFocusRunnable
 >

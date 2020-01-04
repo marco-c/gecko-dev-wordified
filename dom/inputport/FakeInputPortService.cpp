@@ -811,7 +811,7 @@ connection
 change
 event
 .
-nsRefPtr
+RefPtr
 <
 PortConnectionChangedCallback
 >

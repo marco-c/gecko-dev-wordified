@@ -460,7 +460,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1076,7 +1076,7 @@ HasError
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -1114,7 +1114,7 @@ if
 mIsDirectory
 )
 {
-nsRefPtr
+RefPtr
 <
 Directory
 >
@@ -1142,7 +1142,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Blob
 >

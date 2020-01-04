@@ -935,7 +935,7 @@ return
 hr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1ResourceTexture
 >
@@ -2251,7 +2251,7 @@ a
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1ResourceTexture
 >

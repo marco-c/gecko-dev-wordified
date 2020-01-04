@@ -677,7 +677,7 @@ frame
 typedef
 Pair
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -694,7 +694,7 @@ MediaDataAndInputExhausted
 >
 mDelayedOutput
 ;
-nsRefPtr
+RefPtr
 <
 MediaTimer
 >
@@ -749,7 +749,7 @@ sequencing
 of
 callbacks
 .
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -823,7 +823,7 @@ private
 MediaDataDecoder
 implementation
 .
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -879,13 +879,13 @@ aConfig
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 DecoderCallbackFuzzingWrapper
 >

@@ -732,7 +732,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -769,7 +769,7 @@ nr_socket
 sockp
 )
 {
-nsRefPtr
+RefPtr
 <
 NrSocketBase
 >
@@ -1198,7 +1198,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1350,7 +1350,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1574,7 +1574,7 @@ nat_
 mapping_type_
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -2420,7 +2420,7 @@ addr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -3949,7 +3949,7 @@ nr_transport_addr
 &
 remote_address
 const
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -4014,7 +4014,7 @@ nr_transport_addr
 &
 remote_address
 const
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -4375,7 +4375,7 @@ send_queue_
 .
 push_back
 (
-nsRefPtr
+RefPtr
 <
 UdpPacket
 >

@@ -95,7 +95,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -4295,7 +4295,7 @@ to
 /
 sErrorTarget
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4307,7 +4307,7 @@ DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4499,7 +4499,7 @@ ThebesSurface
 initialization
 overhead
 .
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -4752,7 +4752,7 @@ space
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4764,7 +4764,7 @@ Path
 >
 mPath
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4776,7 +4776,7 @@ PathBuilder
 >
 mDSPathBuilder
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4849,7 +4849,7 @@ fallback
 element
 for
 a11y
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -4873,7 +4873,7 @@ not
 user
 space
 )
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -5759,7 +5759,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -5772,7 +5772,7 @@ Path
 >
 clipsPushed
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -5794,7 +5794,7 @@ Style
 :
 :
 MAX
-nsRefPtr
+RefPtr
 <
 CanvasGradient
 >
@@ -5808,7 +5808,7 @@ Style
 :
 :
 MAX
-nsRefPtr
+RefPtr
 <
 CanvasPattern
 >
@@ -5958,7 +5958,7 @@ nsStyleFilter
 >
 filterChain
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGFilterChainObserver
 >
@@ -5975,7 +5975,7 @@ filter
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

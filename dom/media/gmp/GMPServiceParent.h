@@ -525,7 +525,7 @@ void
 ReAddOnGMPThread
 (
 const
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -537,7 +537,7 @@ void
 PluginTerminated
 (
 const
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -657,7 +657,7 @@ aDefer
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -686,7 +686,7 @@ class
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -698,7 +698,7 @@ mShuttingDown
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -1123,7 +1123,7 @@ aOtherPid
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >

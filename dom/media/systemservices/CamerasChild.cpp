@@ -1242,7 +1242,7 @@ message
 to
 the
 parent
-nsRefPtr
+RefPtr
 <
 InitializeIPCThread
 >
@@ -1253,7 +1253,7 @@ InitializeIPCThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncRunnable
 >
@@ -3384,7 +3384,7 @@ public
 :
 ShutdownRunnable
 (
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3460,7 +3460,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3537,7 +3537,7 @@ the
 parent
 actor
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3641,7 +3641,7 @@ BackgroundChild
 is
 closed
 .
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3658,7 +3658,7 @@ Thread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownRunnable
 >

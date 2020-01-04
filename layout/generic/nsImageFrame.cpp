@@ -7369,7 +7369,7 @@ mColor
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -9265,7 +9265,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -9293,7 +9293,7 @@ Size
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -10587,7 +10587,7 @@ imgIContainer
 :
 FLAG_NONE
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -10612,7 +10612,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -13434,7 +13434,7 @@ from
 the
 image
 .
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -13999,7 +13999,7 @@ realURI
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgLoader
 >

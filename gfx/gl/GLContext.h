@@ -243,7 +243,7 @@ include
 /
 mfbt
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -16628,7 +16628,7 @@ endif
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -17283,7 +17283,7 @@ IsDrawingToDefaultFramebuffer
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 TextureGarbageBin
 >

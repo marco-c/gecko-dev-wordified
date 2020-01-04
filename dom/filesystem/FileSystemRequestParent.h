@@ -238,7 +238,7 @@ FileSystemRequestParent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >

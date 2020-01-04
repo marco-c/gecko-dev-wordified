@@ -342,7 +342,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 RtspMediaResource
 >

@@ -919,7 +919,7 @@ NodeInfo
 >
 ni
 =
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -937,7 +937,7 @@ forget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLMenuItemElement
 >

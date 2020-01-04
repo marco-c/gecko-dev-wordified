@@ -940,7 +940,7 @@ this
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 Inner
 >

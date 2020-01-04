@@ -1122,7 +1122,7 @@ nsISupports
 aSupports
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >
@@ -1179,7 +1179,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >
@@ -4045,7 +4045,7 @@ the
 docloader
 tree
 .
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >

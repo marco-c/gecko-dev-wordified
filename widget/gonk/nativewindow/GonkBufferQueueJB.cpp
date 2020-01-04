@@ -831,7 +831,7 @@ buffer
 handle
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2617,7 +2617,7 @@ IGraphicBufferProducer
 BUFFER_NEEDS_REALLOCATION
 )
 {
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >

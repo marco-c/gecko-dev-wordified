@@ -2237,7 +2237,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -2850,7 +2850,7 @@ avoid
 possible
 hinting
 artifacts
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -7906,7 +7906,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >

@@ -245,7 +245,7 @@ mFullName
 nsString
 mPostscriptName
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -519,7 +519,7 @@ faceData
 .
 mSymbolFont
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -1307,7 +1307,7 @@ data
 is
 stored
 here
-nsRefPtr
+RefPtr
 <
 FontInfoData
 >

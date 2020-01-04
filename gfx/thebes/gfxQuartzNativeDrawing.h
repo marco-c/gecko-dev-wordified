@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -441,13 +441,13 @@ delete
 Final
 destination
 context
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mDrawTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

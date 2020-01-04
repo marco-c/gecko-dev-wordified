@@ -558,7 +558,7 @@ true
 #
 endif
 }
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -723,7 +723,7 @@ Declared
 in
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 template
@@ -736,13 +736,13 @@ template
 class
 U
 >
-nsRefPtr
+RefPtr
 <
 T
 >
 :
 :
-nsRefPtr
+RefPtr
 (
 const
 mozilla
@@ -756,7 +756,7 @@ U
 aOther
 )
 :
-nsRefPtr
+RefPtr
 (
 aOther
 .
@@ -776,12 +776,12 @@ template
 class
 U
 >
-nsRefPtr
+RefPtr
 <
 T
 >
 &
-nsRefPtr
+RefPtr
 <
 T
 >

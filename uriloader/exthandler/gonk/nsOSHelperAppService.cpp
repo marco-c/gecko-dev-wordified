@@ -293,7 +293,7 @@ by
 the
 caller
 .
-nsRefPtr
+RefPtr
 <
 nsGonkMIMEInfo
 >

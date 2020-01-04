@@ -951,7 +951,7 @@ IndexIsValid
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 DOMSVGPointList
 >

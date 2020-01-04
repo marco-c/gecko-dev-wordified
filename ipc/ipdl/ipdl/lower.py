@@ -2458,7 +2458,7 @@ return
 Type
 (
 '
-nsRefPtr
+RefPtr
 '
 T
 =
@@ -29722,7 +29722,7 @@ aId
 :
             
 #
-nsRefPtr
+RefPtr
 <
 SharedMemory
 >

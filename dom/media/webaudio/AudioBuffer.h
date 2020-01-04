@@ -651,7 +651,7 @@ mJSChannels
 are
 neutered
 .
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

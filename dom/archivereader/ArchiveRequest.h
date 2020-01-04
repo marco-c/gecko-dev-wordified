@@ -297,7 +297,7 @@ ReaderReady
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -349,7 +349,7 @@ Value
 aValue
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -377,7 +377,7 @@ Value
 aValue
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -405,7 +405,7 @@ Value
 aValue
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -421,7 +421,7 @@ protected
 The
 reader
 :
-nsRefPtr
+RefPtr
 <
 ArchiveReader
 >

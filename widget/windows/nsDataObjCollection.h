@@ -431,7 +431,7 @@ mDataObjects
 SafeElementAt
 (
 aItem
-nsRefPtr
+RefPtr
 <
 nsDataObj
 >
@@ -652,7 +652,7 @@ reference
 count
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDataObj
 >

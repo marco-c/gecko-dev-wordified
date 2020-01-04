@@ -511,7 +511,7 @@ IsNfcServiceThread
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 NfcService
 >
@@ -523,7 +523,7 @@ nsIThread
 >
 mThread
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -535,7 +535,7 @@ ListenSocket
 >
 mListenSocket
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2121,7 +2121,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 NfcService
 >
@@ -2541,7 +2541,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 NfcService
 >
@@ -2687,7 +2687,7 @@ gNfcService
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NfcService
 >

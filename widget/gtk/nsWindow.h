@@ -2211,7 +2211,7 @@ re
 using
 xshm
 rendering
-nsRefPtr
+RefPtr
 <
 nsShmImage
 >
@@ -2222,7 +2222,7 @@ endif
 #
 ifdef
 ACCESSIBILITY
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2744,7 +2744,7 @@ time
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 mozilla
 :

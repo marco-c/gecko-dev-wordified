@@ -1351,7 +1351,7 @@ GetFillRule
 protected
 :
 mutable
-nsRefPtr
+RefPtr
 <
 Path
 >

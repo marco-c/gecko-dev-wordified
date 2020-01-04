@@ -755,7 +755,7 @@ rv
 #
 ifdef
 DEBUG
-nsRefPtr
+RefPtr
 <
 nsHostObjectURI
 >
@@ -862,7 +862,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHostObjectURI
 >

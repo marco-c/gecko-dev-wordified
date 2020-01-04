@@ -1336,7 +1336,7 @@ nr_transport_addr
 &
 remote_address
 const
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1396,7 +1396,7 @@ PortMapping
 PRIntervalTime
 last_used_
 ;
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1471,7 +1471,7 @@ std
 :
 list
 <
-nsRefPtr
+RefPtr
 <
 UdpPacket
 >
@@ -1610,7 +1610,7 @@ nr_transport_addr
 &
 remote_addr
 const
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1619,7 +1619,7 @@ external_socket
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
@@ -1632,13 +1632,13 @@ remote_addr
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 NrSocket
 >
 readable_socket_
 ;
-nsRefPtr
+RefPtr
 <
 TestNat
 >
@@ -1705,7 +1705,7 @@ std
 :
 list
 <
-nsRefPtr
+RefPtr
 <
 PortMapping
 >

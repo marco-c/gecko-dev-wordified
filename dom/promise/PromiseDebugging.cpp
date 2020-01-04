@@ -846,7 +846,7 @@ Promise
 aPromise
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1524,7 +1524,7 @@ j
 ErrorResult
 err
 ;
-nsRefPtr
+RefPtr
 <
 UncaughtRejectionObserver
 >
@@ -1669,7 +1669,7 @@ j
 ErrorResult
 err
 ;
-nsRefPtr
+RefPtr
 <
 UncaughtRejectionObserver
 >

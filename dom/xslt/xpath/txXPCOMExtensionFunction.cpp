@@ -2021,7 +2021,7 @@ case
 eNODESET
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2240,7 +2240,7 @@ case
 eOBJECT
 :
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

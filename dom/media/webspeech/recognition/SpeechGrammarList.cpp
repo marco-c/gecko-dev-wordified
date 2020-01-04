@@ -233,7 +233,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechGrammarList
 >
@@ -337,7 +337,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechGrammar
 >

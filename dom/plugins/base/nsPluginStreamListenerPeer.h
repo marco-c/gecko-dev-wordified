@@ -801,7 +801,7 @@ hands
 out
 char
 *
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -933,7 +933,7 @@ bug
 90558
 got
 fixed
-nsRefPtr
+RefPtr
 <
 CachedFileHolder
 >
@@ -971,7 +971,7 @@ mSeekable
 uint32_t
 mModified
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

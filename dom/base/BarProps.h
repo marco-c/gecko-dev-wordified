@@ -342,7 +342,7 @@ GetBrowserChrome
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >

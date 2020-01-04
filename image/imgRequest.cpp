@@ -1086,7 +1086,7 @@ mImage
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1259,7 +1259,7 @@ have
 /
 proxies
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1446,7 +1446,7 @@ at
 this
 point
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1977,7 +1977,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2073,7 +2073,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -2205,7 +2205,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2690,7 +2690,7 @@ HasConsumers
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -2732,7 +2732,7 @@ lock
 mMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3006,7 +3006,7 @@ mCacheEntry
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3739,7 +3739,7 @@ OnStartRequest
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -4111,7 +4111,7 @@ replace
 .
 .
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -4378,7 +4378,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -4884,7 +4884,7 @@ false
 status
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -5042,7 +5042,7 @@ mContentType
 nsAutoCString
 mContentDisposition
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -5358,7 +5358,7 @@ for
 this
 part
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -5369,7 +5369,7 @@ ProgressTracker
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -5693,7 +5693,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -5756,7 +5756,7 @@ have
 an
 image
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -5868,13 +5868,13 @@ request
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
 image
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >

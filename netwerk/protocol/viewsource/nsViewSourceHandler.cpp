@@ -568,7 +568,7 @@ swap
 )
 from
 an
-nsRefPtr
+RefPtr
 <
 nsSimpleNestedURI
 >

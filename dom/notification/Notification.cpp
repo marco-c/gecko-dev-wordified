@@ -791,7 +791,7 @@ result
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -819,7 +819,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -971,7 +971,7 @@ nsIGlobalObject
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1238,7 +1238,7 @@ mWindow
 NotificationPermission
 mPermission
 ;
-nsRefPtr
+RefPtr
 <
 NotificationPermissionCallback
 >
@@ -2218,7 +2218,7 @@ release
 the
 reference
 .
-nsRefPtr
+RefPtr
 <
 ReleaseNotificationRunnable
 >
@@ -2255,7 +2255,7 @@ cx
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ReleaseNotificationControlRunnable
 >
@@ -3784,7 +3784,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -3991,7 +3991,7 @@ mIcon
 =
 aIcon
 ;
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -4391,7 +4391,7 @@ id
 convertedID
 ;
 }
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -4820,7 +4820,7 @@ this
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -4833,7 +4833,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotificationEvent
 >
@@ -4954,7 +4954,7 @@ AssertIsOnTargetThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5162,7 +5162,7 @@ if
 doDefaultAction
 )
 {
-nsRefPtr
+RefPtr
 <
 FocusWindowRunnable
 >
@@ -5789,7 +5789,7 @@ notification
 mWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -6640,7 +6640,7 @@ if
 mWorkerPrivate
 )
 {
-nsRefPtr
+RefPtr
 <
 NotificationEventWorkerRunnable
 >
@@ -7743,7 +7743,7 @@ MOZ_ASSERT
 worker
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetPermissionRunnable
 >
@@ -8606,7 +8606,7 @@ do_QueryInterface
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8648,7 +8648,7 @@ aScope
 promise
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotificationGetRunnable
 >
@@ -8771,7 +8771,7 @@ final
 public
 NotificationWorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -8833,7 +8833,7 @@ aWorkerPrivate
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -8851,7 +8851,7 @@ result
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -8879,7 +8879,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -9035,7 +9035,7 @@ final
 public
 ScopeCheckingGetCallback
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9101,7 +9101,7 @@ twice
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9138,7 +9138,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerGetResultRunnable
 >
@@ -9194,7 +9194,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9485,7 +9485,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -9521,7 +9521,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -9553,7 +9553,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerGetRunnable
 >
@@ -10087,7 +10087,7 @@ IsEmpty
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsStructuredCloneContainer
 >
@@ -10279,7 +10279,7 @@ isNull
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStructuredCloneContainer
 >
@@ -10375,7 +10375,7 @@ is
 valid
 base64
 .
-nsRefPtr
+RefPtr
 <
 nsStructuredCloneContainer
 >
@@ -10895,7 +10895,7 @@ runnable
 invalidating
 mNotification
 .
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -10915,7 +10915,7 @@ closing
 the
 Notification
 .
-nsRefPtr
+RefPtr
 <
 CloseNotificationRunnable
 >
@@ -11270,7 +11270,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -11283,7 +11283,7 @@ GetInstance
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -11606,7 +11606,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CheckLoadRunnable
 >
@@ -11712,7 +11712,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -11893,7 +11893,7 @@ JS
 UndefinedHandleValue
 )
 ;
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -11991,7 +11991,7 @@ cx
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Notification
 >

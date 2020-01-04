@@ -173,7 +173,7 @@ OpusDataDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -267,7 +267,7 @@ AudioInfo
 &
 mInfo
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

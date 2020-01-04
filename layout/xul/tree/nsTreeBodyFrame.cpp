@@ -3180,7 +3180,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -3430,7 +3430,7 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -3675,7 +3675,7 @@ mPageLength
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -3929,7 +3929,7 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -4828,7 +4828,7 @@ weakFrame
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -7172,7 +7172,7 @@ nsCSSAnonBoxes
 moztreecelltext
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -9396,7 +9396,7 @@ textContext
 textRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -10171,7 +10171,7 @@ textContext
 bp
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -10259,7 +10259,7 @@ desiredSize
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -12282,7 +12282,7 @@ aCol
 imageSrc
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -12676,7 +12676,7 @@ imgNotificationObserver
 =
 listener
 ;
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -22640,7 +22640,7 @@ our
 text
 size
 .
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -25030,7 +25030,7 @@ nsITreeColumn
 aCol
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -25368,7 +25368,7 @@ nsITreeColumn
 aCol
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTreeColumn
 >
@@ -28099,7 +28099,7 @@ IsPending
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 ScrollEvent
 >
@@ -28473,7 +28473,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -28878,7 +28878,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -29105,7 +29105,7 @@ bug
 /
 905909
 .
-nsRefPtr
+RefPtr
 <
 nsOverflowChecker
 >

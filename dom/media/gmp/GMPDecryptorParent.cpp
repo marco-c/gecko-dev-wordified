@@ -2374,7 +2374,7 @@ is
 the
 last
 reference
-nsRefPtr
+RefPtr
 <
 GMPDecryptorParent
 >

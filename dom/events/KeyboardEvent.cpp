@@ -1048,7 +1048,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 KeyboardEvent
 >
@@ -1404,7 +1404,7 @@ WidgetKeyboardEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 KeyboardEvent
 >

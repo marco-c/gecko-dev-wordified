@@ -2722,7 +2722,7 @@ length
 BLOCK_SIZE
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

@@ -4220,7 +4220,7 @@ GetSurfaceFormat
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -4491,7 +4491,7 @@ readbacks
 struct
 SourceSurfaceUserData
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4527,7 +4527,7 @@ kThebesSurface
 struct
 DependentSourceSurfaceUserData
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -4711,7 +4711,7 @@ GetBackendType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5071,7 +5071,7 @@ surf
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5116,7 +5116,7 @@ it
 for
 aTarget
 :
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5468,7 +5468,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5741,7 +5741,7 @@ gfxASurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -5764,7 +5764,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6742,7 +6742,7 @@ thread
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -7061,7 +7061,7 @@ BackendType
 CAIRO
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -7150,7 +7150,7 @@ backend
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -7334,7 +7334,7 @@ BackendType
 CAIRO
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -11496,7 +11496,7 @@ timers
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

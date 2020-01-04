@@ -730,7 +730,7 @@ mFilename
 '
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -2835,7 +2835,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -6106,7 +6106,7 @@ ttf
 "
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -7012,7 +7012,7 @@ nsStringHashKey
 :
 KeyType
 aKey
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -7303,7 +7303,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -7366,7 +7366,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -8040,7 +8040,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -8103,7 +8103,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -8897,7 +8897,7 @@ nsStringHashKey
 :
 KeyType
 aKey
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -9375,7 +9375,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -9544,7 +9544,7 @@ is
 the
 family
 name
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -9632,7 +9632,7 @@ nsCaseInsensitiveStringComparator
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -10053,7 +10053,7 @@ GetFontFamilyList
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -10087,7 +10087,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -10133,7 +10133,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >

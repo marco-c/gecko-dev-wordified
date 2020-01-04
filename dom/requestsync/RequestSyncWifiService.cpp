@@ -194,7 +194,7 @@ Init
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 RequestSyncWifiService
 >
@@ -267,7 +267,7 @@ sService
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RequestSyncWifiService
 >

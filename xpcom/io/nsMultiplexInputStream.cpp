@@ -3473,7 +3473,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsMultiplexInputStream
 >
@@ -3984,7 +3984,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsMultiplexInputStream
 >

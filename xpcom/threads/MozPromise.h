@@ -1488,7 +1488,7 @@ typename
 ResolveValueType_
 >
 static
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -1504,7 +1504,7 @@ char
 aResolveSite
 )
 {
-nsRefPtr
+RefPtr
 <
 typename
 MozPromise
@@ -1552,7 +1552,7 @@ typename
 RejectValueType_
 >
 static
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -1568,7 +1568,7 @@ char
 aRejectSite
 )
 {
-nsRefPtr
+RefPtr
 <
 typename
 MozPromise
@@ -1846,7 +1846,7 @@ ResolveValueType
 >
 mResolveValues
 ;
-nsRefPtr
+RefPtr
 <
 typename
 AllPromiseType
@@ -1864,7 +1864,7 @@ mOutstandingPromises
 public
 :
 static
-nsRefPtr
+RefPtr
 <
 AllPromiseType
 >
@@ -1875,7 +1875,7 @@ AbstractThread
 aProcessingThread
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -1884,7 +1884,7 @@ MozPromise
 aPromises
 )
 {
-nsRefPtr
+RefPtr
 <
 AllPromiseHolder
 >
@@ -2263,13 +2263,13 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ThenValueBase
 >
 mThenValue
 ;
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -2380,7 +2380,7 @@ IsPending
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2700,7 +2700,7 @@ or
 reject
 method
 .
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -2775,7 +2775,7 @@ the
 declaration
 below
 .
-nsRefPtr
+RefPtr
 <
 MozPromise
 :
@@ -2862,7 +2862,7 @@ method
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 AbstractThread
 >
@@ -2880,7 +2880,7 @@ thread
 /
 /
 Declaring
-nsRefPtr
+RefPtr
 <
 MozPromise
 :
@@ -2939,7 +2939,7 @@ being
 too
 old
 .
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -2998,7 +2998,7 @@ EnableIf
 ReturnTypeIs
 <
 MethodType
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -3151,7 +3151,7 @@ EnableIf
 ReturnTypeIs
 <
 MethodType
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -3412,7 +3412,7 @@ aValue
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -3529,7 +3529,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ThisType
 >
@@ -3799,7 +3799,7 @@ just
 capturing
 something
 .
-nsRefPtr
+RefPtr
 <
 MozPromise
 >
@@ -4090,7 +4090,7 @@ ResolveMethodType
 typename
 RejectMethodType
 >
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -4112,7 +4112,7 @@ RejectMethodType
 aRejectMethod
 )
 {
-nsRefPtr
+RefPtr
 <
 ThenValueBase
 >
@@ -4157,7 +4157,7 @@ already_AddRefed
 ThenValueBase
 >
 to
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -4170,7 +4170,7 @@ ResolveFunction
 typename
 RejectFunction
 >
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -4193,7 +4193,7 @@ RejectFunction
 aRejectFunction
 )
 {
-nsRefPtr
+RefPtr
 <
 ThenValueBase
 >
@@ -4242,7 +4242,7 @@ already_AddRefed
 ThenValueBase
 >
 to
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -4282,7 +4282,7 @@ mHaveRequest
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Private
 >
@@ -4639,7 +4639,7 @@ mValue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ThenValueBase
 >
@@ -4648,7 +4648,7 @@ mThenValues
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Private
 >
@@ -5104,7 +5104,7 @@ aMethodName
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -5200,7 +5200,7 @@ AssertCurrentThreadOwns
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -5386,7 +5386,7 @@ Monitor
 *
 mMonitor
 ;
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -5458,7 +5458,7 @@ mRequest
 void
 Begin
 (
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -5605,7 +5605,7 @@ mRequest
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -5874,7 +5874,7 @@ MethodCallBase
 public
 :
 typedef
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -5929,7 +5929,7 @@ aArgs
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -5968,7 +5968,7 @@ private
 MethodType
 mMethod
 ;
-nsRefPtr
+RefPtr
 <
 ThisType
 >
@@ -6042,7 +6042,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -6083,7 +6083,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -6132,7 +6132,7 @@ typename
 ActualArgTypes
 >
 static
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -6148,7 +6148,7 @@ const
 char
 *
 aCallerName
-nsRefPtr
+RefPtr
 <
 PromiseType
 >
@@ -6225,7 +6225,7 @@ aArgs
 .
 )
 ;
-nsRefPtr
+RefPtr
 <
 typename
 PromiseType
@@ -6247,7 +6247,7 @@ Private
 aCallerName
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProxyRunnableType
 >

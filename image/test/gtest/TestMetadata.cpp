@@ -167,7 +167,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -395,7 +395,7 @@ into
 a
 SourceBuffer
 .
-nsRefPtr
+RefPtr
 <
 SourceBuffer
 >
@@ -461,7 +461,7 @@ aTestCase
 mMimeType
 )
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -1335,7 +1335,7 @@ Create
 an
 image
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1491,7 +1491,7 @@ rv
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1527,7 +1527,7 @@ of
 the
 image
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

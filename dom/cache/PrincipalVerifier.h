@@ -399,7 +399,7 @@ released
 on
 main
 thread
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -424,7 +424,7 @@ mInitiatingThread
 nsresult
 mResult
 ;
-nsRefPtr
+RefPtr
 <
 ManagerId
 >

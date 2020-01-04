@@ -420,7 +420,7 @@ nsIGeolocationUpdate
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 WindowsLocationProvider
 >
@@ -775,7 +775,7 @@ return
 S_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 ILatLongReport
 >
@@ -883,7 +883,7 @@ GetAltitudeError
 verror
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGeoPosition
 >
@@ -962,7 +962,7 @@ Startup
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ILocation
 >
@@ -1060,7 +1060,7 @@ if
 mLocation
 )
 {
-nsRefPtr
+RefPtr
 <
 LocationEvent
 >

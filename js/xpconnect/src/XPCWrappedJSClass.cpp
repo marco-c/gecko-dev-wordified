@@ -703,7 +703,7 @@ GetWrappedJSClassMap
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJSClass
 >
@@ -4027,7 +4027,7 @@ used
 )
 nsXPCWrappedJS
 .
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >

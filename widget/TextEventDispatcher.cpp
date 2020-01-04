@@ -862,7 +862,7 @@ DispatchInputEvent
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextEventDispatcher
 >
@@ -924,7 +924,7 @@ DispatchTo
 aDispatchTo
 )
 {
-nsRefPtr
+RefPtr
 <
 TextEventDispatcher
 >
@@ -3137,7 +3137,7 @@ mCaret
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextEventDispatcher
 >

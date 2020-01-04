@@ -3333,7 +3333,7 @@ unambiguously
 refcount
 that
 .
-nsRefPtr
+RefPtr
 <
 nsIObjectLoadingContent
 >
@@ -3443,7 +3443,7 @@ documents
 we
 load
 .
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -3950,7 +3950,7 @@ mScriptRequested
 nsWeakFrame
 mPrintFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >

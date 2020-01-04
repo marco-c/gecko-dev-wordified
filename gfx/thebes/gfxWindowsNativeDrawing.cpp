@@ -223,7 +223,7 @@ mRenderState
 RENDER_STATE_INIT
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1309,7 +1309,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1656,7 +1656,7 @@ mRenderState
 RENDER_STATE_ALPHA_RECOVERY_WHITE_DONE
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1669,7 +1669,7 @@ GetAsImageSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1707,7 +1707,7 @@ failure
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1802,7 +1802,7 @@ Size
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >

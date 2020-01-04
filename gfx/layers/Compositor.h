@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -3494,7 +3494,7 @@ const
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

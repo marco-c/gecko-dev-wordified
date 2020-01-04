@@ -403,7 +403,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >

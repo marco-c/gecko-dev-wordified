@@ -2074,7 +2074,7 @@ fGenBuffers
 buf
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebGLBuffer
 >

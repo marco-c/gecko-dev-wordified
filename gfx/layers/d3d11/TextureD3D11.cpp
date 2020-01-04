@@ -420,7 +420,7 @@ mSRV
 mTexture
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -662,7 +662,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -782,7 +782,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -859,7 +859,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1252,7 +1252,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClientD3D11
 >
@@ -1319,7 +1319,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClientD3D11
 >
@@ -1374,7 +1374,7 @@ aAllocFlags
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1972,7 +1972,7 @@ MiscFlags
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -2302,7 +2302,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2467,7 +2467,7 @@ if
 mTexture
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -2484,7 +2484,7 @@ device
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >
@@ -2573,7 +2573,7 @@ mStride
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID3D10Device
 >
@@ -3439,7 +3439,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGIResource
 >
@@ -3580,7 +3580,7 @@ public
 :
 YCbCrKeepAliveD3D11
 (
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -3623,7 +3623,7 @@ aTextures
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -3841,7 +3841,7 @@ IUnknown
 D3DSPD_IUNKNOWN
 )
 ;
-nsRefPtr
+RefPtr
 <
 DXGIYCbCrTextureClient
 >
@@ -4064,7 +4064,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DXGIYCbCrTextureClient
 >
@@ -4077,7 +4077,7 @@ aAllocator
 aFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIResource
 >
@@ -4865,7 +4865,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -6316,7 +6316,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -6594,7 +6594,7 @@ mTexture
 =
 aTexture
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -6912,7 +6912,7 @@ MOZ_CRASH
 /
 test
 QI
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7091,7 +7091,7 @@ MOZ_CRASH
 /
 test
 QI
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7161,7 +7161,7 @@ size
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7357,7 +7357,7 @@ size
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7515,7 +7515,7 @@ MOZ_CRASH
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >

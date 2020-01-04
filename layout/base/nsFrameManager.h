@@ -375,7 +375,7 @@ nsIContent
 >
 mContent
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

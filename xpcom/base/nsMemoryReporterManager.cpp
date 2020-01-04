@@ -7975,7 +7975,7 @@ mChildrenPending
 new
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -9464,7 +9464,7 @@ s
 -
 >
 mChildrenPending
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -11320,7 +11320,7 @@ it
 was
 worth
 .
-nsRefPtr
+RefPtr
 <
 ExplicitCallback
 >
@@ -11331,7 +11331,7 @@ ExplicitCallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Int64Wrapper
 >
@@ -12516,7 +12516,7 @@ nsIRunnable
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MinimizeMemoryUsageRunnable
 >
@@ -13083,7 +13083,7 @@ GET_MEMORY_REPORTER_MANAGER
 mgr
 )
 \
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >
@@ -13457,7 +13457,7 @@ manager
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DoNothingCallback
 >

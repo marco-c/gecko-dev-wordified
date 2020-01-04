@@ -155,13 +155,13 @@ nsISupports
 public
 nsWrapperCache
 {
-nsRefPtr
+RefPtr
 <
 Telephony
 >
 mTelephony
 ;
-nsRefPtr
+RefPtr
 <
 TelephonyCallGroup
 >

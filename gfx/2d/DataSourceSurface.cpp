@@ -121,7 +121,7 @@ GetDataSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

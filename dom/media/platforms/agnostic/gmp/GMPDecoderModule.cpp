@@ -253,7 +253,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >
@@ -328,7 +328,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >
@@ -412,7 +412,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >

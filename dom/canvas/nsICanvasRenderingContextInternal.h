@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1146,7 +1146,7 @@ isIPC
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1158,7 +1158,7 @@ HTMLCanvasElement
 >
 mCanvasElement
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >

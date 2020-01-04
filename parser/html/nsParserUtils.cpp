@@ -765,7 +765,7 @@ autoBlocker
 /
 stop
 scripts
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >

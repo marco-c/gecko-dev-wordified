@@ -496,7 +496,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1040,7 +1040,7 @@ if
 mListener
 )
 {
-nsRefPtr
+RefPtr
 <
 nsImageBoxListener
 >

@@ -312,7 +312,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -3365,7 +3365,7 @@ mSize
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3449,7 +3449,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3569,7 +3569,7 @@ OP_SOURCE
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3820,7 +3820,7 @@ forget
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3864,7 +3864,7 @@ DrawResult
 :
 :
 BAD_ARGS
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3887,7 +3887,7 @@ DrawResult
 :
 :
 BAD_ARGS
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3908,7 +3908,7 @@ DrawResult
 :
 :
 BAD_IMAGE
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4000,7 +4000,7 @@ DrawResult
 :
 :
 TEMPORARY_ERROR
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4028,7 +4028,7 @@ existing
 /
 surface
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4188,7 +4188,7 @@ frameSurf
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4223,7 +4223,7 @@ aContainer
 DrawResult
 drawResult
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4289,7 +4289,7 @@ return
 MakePair
 (
 drawResult
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4333,7 +4333,7 @@ mSourceSurface
 =
 surface
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4551,7 +4551,7 @@ OnUnlockedDraw
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4637,7 +4637,7 @@ CreateImageContainer
 DrawResult
 drawResult
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4754,7 +4754,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4781,7 +4781,7 @@ return
 DrawResult
 drawResult
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4974,7 +4974,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 RasterImage
 >
@@ -8099,7 +8099,7 @@ Create
 a
 decoder
 .
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -8428,7 +8428,7 @@ Create
 a
 decoder
 .
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -10367,7 +10367,7 @@ RasterImage
 aImage
 )
 {
-nsRefPtr
+RefPtr
 <
 HandleErrorWorker
 >
@@ -10547,7 +10547,7 @@ to
 finish
 notifying
 .
-nsRefPtr
+RefPtr
 <
 RasterImage
 >

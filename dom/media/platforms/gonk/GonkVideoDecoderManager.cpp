@@ -563,7 +563,7 @@ GonkVideoDecoderManager
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -923,7 +923,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -1022,7 +1022,7 @@ mon
 mMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1077,7 +1077,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1243,7 +1243,7 @@ v
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1571,7 +1571,7 @@ mInitialFrame
 height
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2626,7 +2626,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -2684,7 +2684,7 @@ case
 OK
 :
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2889,7 +2889,7 @@ frame
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -3556,7 +3556,7 @@ if
 mManager
 )
 {
-nsRefPtr
+RefPtr
 <
 CodecListenerHolder
 >
@@ -4049,7 +4049,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :

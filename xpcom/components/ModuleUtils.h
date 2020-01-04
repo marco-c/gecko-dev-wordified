@@ -146,7 +146,7 @@ aResult
 \
 {
 \
-nsRefPtr
+RefPtr
 <
 _InstanceClass
 >
@@ -231,7 +231,7 @@ rv
 ;
 \
 \
-nsRefPtr
+RefPtr
 <
 _InstanceClass
 >
@@ -372,7 +372,7 @@ aResult
 \
 {
 \
-nsRefPtr
+RefPtr
 <
 _InstanceClass
 >

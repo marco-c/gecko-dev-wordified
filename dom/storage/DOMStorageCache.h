@@ -1266,7 +1266,7 @@ the
 hard
 ref
 .
-nsRefPtr
+RefPtr
 <
 DOMStorageManager
 >
@@ -1303,7 +1303,7 @@ Init
 method
 )
 .
-nsRefPtr
+RefPtr
 <
 DOMStorageUsage
 >

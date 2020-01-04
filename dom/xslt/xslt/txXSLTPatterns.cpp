@@ -1902,7 +1902,7 @@ contextDoc
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2331,7 +2331,7 @@ for
 evaluating
 the
 predicates
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2439,7 +2439,7 @@ mPredicates
 0
 ]
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2528,7 +2528,7 @@ next
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -2736,7 +2736,7 @@ aNode
 nodes
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

@@ -3801,7 +3801,7 @@ aCx
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 LogViolationDetailsRunnable
 >
@@ -5532,7 +5532,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -5549,7 +5549,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -5653,7 +5653,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerTask
 >
@@ -6318,7 +6318,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerTaskRunnable
 >
@@ -6528,7 +6528,7 @@ RuntimeService
 :
 IdleThreadInfo
 {
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -8430,7 +8430,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -8753,7 +8753,7 @@ nextExpiration
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -8824,7 +8824,7 @@ mExpirationTime
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -9049,7 +9049,7 @@ GetForCurrentThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 BackgroundChildCallback
 >
@@ -10464,7 +10464,7 @@ IsEmpty
 {
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -12296,7 +12296,7 @@ aLoadInfo
 mResolvedScriptURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -12576,7 +12576,7 @@ its
 connected
 ports
 .
-nsRefPtr
+RefPtr
 <
 MessageChannel
 >
@@ -12611,7 +12611,7 @@ StealNSResult
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -13846,7 +13846,7 @@ EmptyString
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MainThreadStopSyncLoopRunnable
 >
@@ -14402,7 +14402,7 @@ MOZ_ASSERT
 mainThread
 )
 ;
-nsRefPtr
+RefPtr
 <
 FinishedRunnable
 >
@@ -14580,7 +14580,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >

@@ -1879,7 +1879,7 @@ mLocked
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 Variant_base
 >
@@ -2381,7 +2381,7 @@ for
 later
 use
 .
-nsRefPtr
+RefPtr
 <
 Variant_base
 >
@@ -2500,7 +2500,7 @@ validity
 of
 aIndex
 .
-nsRefPtr
+RefPtr
 <
 Variant_base
 >

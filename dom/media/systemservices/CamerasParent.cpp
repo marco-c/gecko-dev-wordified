@@ -464,7 +464,7 @@ mResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -524,7 +524,7 @@ h
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FrameSizeChangeRunnable
 >
@@ -851,7 +851,7 @@ mResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -1356,7 +1356,7 @@ buffer
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DeliverFrameRunnable
 >
@@ -2290,7 +2290,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2299,7 +2299,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2366,7 +2366,7 @@ NumberOfCaptureDevices
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2582,7 +2582,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2591,7 +2591,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2668,7 +2668,7 @@ kMaxUniqueIdLength
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2889,7 +2889,7 @@ num
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2898,7 +2898,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2984,7 +2984,7 @@ webrtcCaps
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3225,7 +3225,7 @@ RecvGetCaptureDevice
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3234,7 +3234,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3358,7 +3358,7 @@ deviceUniqueId
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3565,7 +3565,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3574,7 +3574,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3658,7 +3658,7 @@ numdev
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3841,7 +3841,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3850,7 +3850,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3933,7 +3933,7 @@ numdev
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -4151,7 +4151,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -4160,7 +4160,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -4465,7 +4465,7 @@ true
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -4633,7 +4633,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -4642,7 +4642,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -5390,7 +5390,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >

@@ -770,7 +770,7 @@ non
 encrypted
 tracks
 .
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -790,7 +790,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -846,7 +846,7 @@ the
 decode
 thread
 .
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -908,7 +908,7 @@ if
 sGMPDecoderEnabled
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -939,7 +939,7 @@ sAndroidMCDecoderPreferred
 sAndroidMCDecoderEnabled
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -975,7 +975,7 @@ CreateBlankDecoderModule
 #
 ifdef
 XP_WIN
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -999,7 +999,7 @@ endif
 #
 ifdef
 MOZ_FFMPEG
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1030,7 +1030,7 @@ endif
 #
 ifdef
 MOZ_APPLEMEDIA
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1059,7 +1059,7 @@ if
 sGonkDecoderEnabled
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1089,7 +1089,7 @@ if
 sAndroidMCDecoderEnabled
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1147,7 +1147,7 @@ ImageContainer
 aImageContainer
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1284,7 +1284,7 @@ callback
 =
 aCallback
 ;
-nsRefPtr
+RefPtr
 <
 DecoderCallbackFuzzingWrapper
 >
@@ -1345,7 +1345,7 @@ aConfig
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 H264Converter
 >

@@ -1166,7 +1166,7 @@ DeleteCycleCollectable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNodeInfoManager
 >

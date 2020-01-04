@@ -515,7 +515,7 @@ DataStore
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataStoreImpl
 >

@@ -1002,7 +1002,7 @@ IsEmpty
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1117,7 +1117,7 @@ created
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -1160,7 +1160,7 @@ mPortIdentifiers
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1553,7 +1553,7 @@ algorithm
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1617,7 +1617,7 @@ occur
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1681,7 +1681,7 @@ array
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >

@@ -1100,7 +1100,7 @@ thingy
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 nsIdleServiceDaily
 >

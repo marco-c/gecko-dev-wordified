@@ -1202,7 +1202,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -4707,7 +4707,7 @@ false
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -4789,7 +4789,7 @@ location
 in
 media
 .
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -4846,7 +4846,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -7731,7 +7731,7 @@ interval
 intervals
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -8660,7 +8660,7 @@ aFrame
 1
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -8674,7 +8674,7 @@ GstBuffer
 aBuffer
 )
 {
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -8781,7 +8781,7 @@ GstBuffer
 *
 *
 aOutBuffer
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >

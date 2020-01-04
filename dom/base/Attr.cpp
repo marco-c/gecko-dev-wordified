@@ -900,7 +900,7 @@ DeleteAllPropertiesFor
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1393,7 +1393,7 @@ GetValue
 value
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

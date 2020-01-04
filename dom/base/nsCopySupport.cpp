@@ -2007,7 +2007,7 @@ node
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -4066,7 +4066,7 @@ doDefault
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 DataTransfer
 >

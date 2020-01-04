@@ -2471,7 +2471,7 @@ GetAllowedAudioChannels
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >
@@ -2841,7 +2841,7 @@ nsAString
 aManifestURL
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >
@@ -2944,14 +2944,14 @@ allowed
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >
 >
 channels
 ;
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >
@@ -3102,7 +3102,7 @@ if
 allowed
 )
 {
-nsRefPtr
+RefPtr
 <
 BrowserElementAudioChannel
 >

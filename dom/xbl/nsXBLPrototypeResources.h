@@ -458,7 +458,7 @@ then
 it
 dies
 .
-nsRefPtr
+RefPtr
 <
 nsXBLResourceLoader
 >
@@ -477,7 +477,7 @@ binding
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -499,7 +499,7 @@ a
 rule
 processor
 .
-nsRefPtr
+RefPtr
 <
 nsCSSRuleProcessor
 >

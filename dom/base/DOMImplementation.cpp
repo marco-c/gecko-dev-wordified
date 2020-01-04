@@ -436,7 +436,7 @@ an
 empty
 one
 )
-nsRefPtr
+RefPtr
 <
 DocumentType
 >
@@ -1229,7 +1229,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

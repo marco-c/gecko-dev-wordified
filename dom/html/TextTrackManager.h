@@ -667,7 +667,7 @@ the
 TextTracks
 of
 .
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
@@ -689,7 +689,7 @@ HTMLMediaElement
 s
 TextTracks
 .
-nsRefPtr
+RefPtr
 <
 TextTrackList
 >
@@ -705,7 +705,7 @@ objects
 awaiting
 loading
 .
-nsRefPtr
+RefPtr
 <
 TextTrackList
 >
@@ -721,7 +721,7 @@ Text
 Track
 cues
 .
-nsRefPtr
+RefPtr
 <
 TextTrackCueList
 >

@@ -396,7 +396,7 @@ PTCPSocketChild
 psocket
 )
 {
-nsRefPtr
+RefPtr
 <
 TCPSocketChild
 >

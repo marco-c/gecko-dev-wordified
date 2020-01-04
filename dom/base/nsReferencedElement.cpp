@@ -691,7 +691,7 @@ rv
 isEqualExceptRef
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIDocument
 :

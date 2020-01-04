@@ -327,7 +327,7 @@ mImage
 =
 aImage
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -368,7 +368,7 @@ image
 finishes
 decoding
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -564,7 +564,7 @@ owner
 right
 away
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -666,7 +666,7 @@ MOZ_ASSERT
 mImage
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -703,7 +703,7 @@ MultipartImage
 *
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -939,7 +939,7 @@ the
 first
 part
 .
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1189,7 +1189,7 @@ here
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1245,7 +1245,7 @@ ResetForNewRequest
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1288,7 +1288,7 @@ current
 part
 .
 {
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1466,7 +1466,7 @@ MOZ_ASSERT
 mTracker
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1575,7 +1575,7 @@ keep
 it
 alive
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1685,7 +1685,7 @@ keep
 it
 alive
 .
-nsRefPtr
+RefPtr
 <
 Image
 >

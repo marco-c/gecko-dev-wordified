@@ -1067,7 +1067,7 @@ this
 avoids
 reopening
 it
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -1197,7 +1197,7 @@ Assign
 aZipEntry
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -1293,7 +1293,7 @@ mOpened
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -1399,7 +1399,7 @@ mTotalItemsInManifest
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -1422,7 +1422,7 @@ Omnijar
 GRE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -2321,7 +2321,7 @@ extensions
 /
 XPIs
 .
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -2344,7 +2344,7 @@ Omnijar
 GRE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -2670,7 +2670,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -7650,7 +7650,7 @@ file
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -7876,7 +7876,7 @@ Append
 entry
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -8078,7 +8078,7 @@ lock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -8143,7 +8143,7 @@ unlock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -8787,7 +8787,7 @@ trigger
 a
 deadlock
 .
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -8849,7 +8849,7 @@ const
 nsACString
 &
 aKey
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -9055,7 +9055,7 @@ lock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >

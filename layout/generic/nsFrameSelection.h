@@ -4579,7 +4579,7 @@ say
 collapsed
 etc
 ?
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4871,7 +4871,7 @@ mSelectedCellIndex
 /
 maintain
 selection
-nsRefPtr
+RefPtr
 <
 nsRange
 >

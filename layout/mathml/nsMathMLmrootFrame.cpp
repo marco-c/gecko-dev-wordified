@@ -1244,7 +1244,7 @@ and
 the
 overline
 bar
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -2416,7 +2416,7 @@ fontSizeInflation
 nscoord
 dxSqr
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

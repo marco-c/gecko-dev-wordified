@@ -4853,7 +4853,7 @@ mProgram
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GLContext
 >

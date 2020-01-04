@@ -272,7 +272,7 @@ aMallocSizeOf
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

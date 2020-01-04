@@ -1433,7 +1433,7 @@ g
 "
 keypress
 "
-nsRefPtr
+RefPtr
 <
 nsXBLEventHandler
 >

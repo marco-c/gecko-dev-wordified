@@ -927,7 +927,7 @@ FromParser
 aFromParser
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

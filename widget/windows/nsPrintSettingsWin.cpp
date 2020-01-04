@@ -781,7 +781,7 @@ nsIPrintSettings
 _retval
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPrintSettingsWin
 >

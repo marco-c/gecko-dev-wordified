@@ -417,7 +417,7 @@ creating
 nsMenuItemX
 object
 .
-nsRefPtr
+RefPtr
 <
 nsMenuItemIconX
 >

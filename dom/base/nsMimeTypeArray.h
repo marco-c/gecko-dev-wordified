@@ -333,7 +333,7 @@ PreferredApplicationHandler
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -529,7 +529,7 @@ this
 /
 cycle
 .
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >

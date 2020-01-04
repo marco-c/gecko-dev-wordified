@@ -2184,7 +2184,7 @@ const
 char
 *
 aURL
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -2252,7 +2252,7 @@ LoadSheetFile
 nsIFile
 *
 aFile
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -2374,7 +2374,7 @@ LoadSheet
 nsIURI
 *
 aURI
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -2504,7 +2504,7 @@ nsLayoutStylesheetCache
 :
 InvalidateSheet
 (
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -2799,7 +2799,7 @@ nsLayoutStylesheetCache
 :
 BuildPreferenceSheet
 (
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

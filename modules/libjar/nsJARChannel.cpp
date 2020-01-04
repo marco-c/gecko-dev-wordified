@@ -1908,7 +1908,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsJARInputThunk
 >
@@ -2253,7 +2253,7 @@ remoteopenfile
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 RemoteOpenFileChild
 >
@@ -2702,7 +2702,7 @@ mIsUnsafe
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsJARInputThunk
 >
@@ -4639,7 +4639,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsJARInputThunk
 >
@@ -5297,7 +5297,7 @@ mLoadFlags
 &
 LOAD_DOCUMENT_URI
 ;
-nsRefPtr
+RefPtr
 <
 InterceptedJARChannel
 >
@@ -6827,7 +6827,7 @@ Move
 aData
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJARInputThunk
 >

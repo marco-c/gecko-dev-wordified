@@ -1023,7 +1023,7 @@ IsInnerWindow
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechRecognition
 >
@@ -2601,7 +2601,7 @@ mEmma
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 SpeechRecognitionEvent
 >
@@ -3303,7 +3303,7 @@ Grammars
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SpeechGrammarList
 >
@@ -3688,7 +3688,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SpeechEvent
 >
@@ -3988,7 +3988,7 @@ grammarListLength
 count
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechGrammar
 >
@@ -4059,7 +4059,7 @@ Stop
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechEvent
 >
@@ -4098,7 +4098,7 @@ mAborted
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 SpeechEvent
 >
@@ -4160,7 +4160,7 @@ type
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechRecognitionError
 >
@@ -4195,7 +4195,7 @@ aMessage
 err
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechEvent
 >
@@ -4395,7 +4395,7 @@ uint32_t
 aSampleCount
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4419,7 +4419,7 @@ mAudioSamplesPerChunk
 aSampleCount
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4487,7 +4487,7 @@ CreateAudioSegment
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4525,7 +4525,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4704,7 +4704,7 @@ ensure
 aSamples
 is
 deleted
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4738,7 +4738,7 @@ Data
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -4883,7 +4883,7 @@ CreateAudioSegment
 chunksToSend
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechEvent
 >
@@ -5124,7 +5124,7 @@ nsISupports
 aStream
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -5179,7 +5179,7 @@ nsISupports
 aError
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >

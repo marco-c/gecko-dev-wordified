@@ -828,7 +828,7 @@ MOZ_ASSERT
 aAllocator
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxSharedReadLock
 >
@@ -3056,7 +3056,7 @@ mTextureSourceOnWhite
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TexturedEffect
 >

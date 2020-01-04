@@ -930,7 +930,7 @@ from
 the
 URL
 .
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -1339,7 +1339,7 @@ url_end
 url_start
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -1475,7 +1475,7 @@ MediaResource
 for
 it
 .
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -2821,7 +2821,7 @@ MediaResource
 on
 requests
 .
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -3162,7 +3162,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -3576,7 +3576,7 @@ end
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >

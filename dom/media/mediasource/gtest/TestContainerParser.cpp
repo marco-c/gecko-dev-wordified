@@ -253,7 +253,7 @@ test
 0xfc
 }
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -345,7 +345,7 @@ a
 valid
 header
 .
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

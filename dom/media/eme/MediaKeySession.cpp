@@ -859,7 +859,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1199,7 +1199,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1402,7 +1402,7 @@ awaiting
 a
 sessionId
 .
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -1537,7 +1537,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1868,7 +1868,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -2141,7 +2141,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -2506,7 +2506,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaKeyMessageEvent
 >
@@ -2523,7 +2523,7 @@ aMessage
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -2587,7 +2587,7 @@ get
 aSystemCode
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaKeyError
 >
@@ -2601,7 +2601,7 @@ aSystemCode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -2644,7 +2644,7 @@ UpdateKeyStatusMap
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

@@ -1794,7 +1794,7 @@ of
 their
 items
 .
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

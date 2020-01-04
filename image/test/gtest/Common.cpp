@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -692,7 +692,7 @@ bool
 aFuzzy
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

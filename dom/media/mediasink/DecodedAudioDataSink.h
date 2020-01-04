@@ -148,7 +148,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -265,7 +265,7 @@ if
 any
 error
 .
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >
@@ -929,7 +929,7 @@ non
 -
 null
 .
-nsRefPtr
+RefPtr
 <
 AudioStream
 >

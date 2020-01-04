@@ -2310,7 +2310,7 @@ IntSize
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedSurfaceTextureClient
 >
@@ -2673,7 +2673,7 @@ IntSize
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedSurfaceTextureClient
 >

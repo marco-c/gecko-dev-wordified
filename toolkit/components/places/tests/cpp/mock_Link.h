@@ -408,7 +408,7 @@ nsLinkState
 bool
 mRunNextTest
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >

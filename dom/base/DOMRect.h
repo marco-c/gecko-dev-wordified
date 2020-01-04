@@ -986,7 +986,7 @@ protected
 :
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMRect
 >

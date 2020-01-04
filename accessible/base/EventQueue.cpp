@@ -681,7 +681,7 @@ nameFlag
 eNameFromSubtree
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -3630,7 +3630,7 @@ events
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

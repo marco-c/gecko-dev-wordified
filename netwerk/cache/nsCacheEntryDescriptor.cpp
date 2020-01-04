@@ -512,7 +512,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -2786,7 +2786,7 @@ Close
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsOutputStreamWrapper
 >
@@ -2794,7 +2794,7 @@ outputWrapper
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsInputStreamWrapper
 >
@@ -3491,7 +3491,7 @@ is
 no
 descriptor
 .
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -4575,7 +4575,7 @@ is
 no
 descriptor
 .
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -5670,7 +5670,7 @@ is
 no
 descriptor
 .
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -6889,7 +6889,7 @@ is
 no
 descriptor
 .
-nsRefPtr
+RefPtr
 <
 nsCacheEntryDescriptor
 >

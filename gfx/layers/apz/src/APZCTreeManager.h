@@ -3546,7 +3546,7 @@ aApzc
 ParentLayerPoint
 &
 aVelocity
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -3579,7 +3579,7 @@ aInitialTarget
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -3587,7 +3587,7 @@ OverscrollHandoffChain
 BuildOverscrollHandoffChain
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3729,7 +3729,7 @@ code
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -4356,7 +4356,7 @@ it
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 InputQueue
 >
@@ -4477,7 +4477,7 @@ mozilla
 Monitor
 mTreeLock
 ;
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -4559,7 +4559,7 @@ std
 map
 <
 uint64_t
-nsRefPtr
+RefPtr
 <
 TaskThrottler
 >
@@ -4632,7 +4632,7 @@ locking
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

@@ -786,7 +786,7 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

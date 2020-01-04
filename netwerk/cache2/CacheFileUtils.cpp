@@ -938,7 +938,7 @@ Parse
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -1073,7 +1073,7 @@ caret
 end
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >

@@ -908,7 +908,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXULAlertObserver
 >

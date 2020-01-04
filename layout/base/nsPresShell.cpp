@@ -1507,7 +1507,7 @@ buffers
 struct
 RangePaintInfo
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -3458,7 +3458,7 @@ into
 system
 group
 .
-nsRefPtr
+RefPtr
 <
 EventStateManager
 >
@@ -3596,7 +3596,7 @@ mEventStatus
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 PresShell
 >
@@ -4408,7 +4408,7 @@ FrameSelection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -8611,7 +8611,7 @@ styling
 information
 .
 )
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -10773,7 +10773,7 @@ void
 aPresShell
 )
 {
-nsRefPtr
+RefPtr
 <
 PresShell
 >
@@ -11142,7 +11142,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -11471,7 +11471,7 @@ TYPE_ONE_SHOT
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -12030,7 +12030,7 @@ GetCaret
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -12061,7 +12061,7 @@ GetTouchCaret
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TouchCaret
 >
@@ -12089,7 +12089,7 @@ GetSelectionCarets
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SelectionCarets
 >
@@ -12117,7 +12117,7 @@ GetAccessibleCaretEventHub
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 AccessibleCaretEventHub
 >
@@ -14096,7 +14096,7 @@ MaybeReleaseCapturingContent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -16847,7 +16847,7 @@ DeviceContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -17064,7 +17064,7 @@ tears
 us
 down
 .
-nsRefPtr
+RefPtr
 <
 EventStateManager
 >
@@ -17764,7 +17764,7 @@ new
 /
 /
 location
-nsRefPtr
+RefPtr
 <
 nsIDOMRange
 >
@@ -21502,7 +21502,7 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
-nsRefPtr
+RefPtr
 <
 PaintTimerCallBack
 >
@@ -23497,7 +23497,7 @@ manager
 stays
 alive
 .
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -26116,7 +26116,7 @@ ReconstructStyleDataInternal
 {
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -26407,7 +26407,7 @@ mStylesHaveChanged
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -29780,7 +29780,7 @@ pixelArea
 .
 height
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -29821,7 +29821,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -30028,7 +30028,7 @@ s
 /
 selection
 .
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -30187,7 +30187,7 @@ visible
 aArea
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -30355,7 +30355,7 @@ IsInDoc
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -32266,7 +32266,7 @@ IsPending
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSynthMouseMoveEvent
 >
@@ -35438,7 +35438,7 @@ IsPending
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -36947,7 +36947,7 @@ flags
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
@@ -37479,7 +37479,7 @@ mReleaseContent
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 AsyncCheckPointerCaptureStateCaller
 >
@@ -39696,7 +39696,7 @@ const
 uint32_t
 &
 aKey
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -42411,7 +42411,7 @@ touch
 caret
 failed
 .
-nsRefPtr
+RefPtr
 <
 TouchCaret
 >
@@ -42487,7 +42487,7 @@ NS_OK
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 SelectionCarets
 >
@@ -42642,7 +42642,7 @@ GetShell
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 AccessibleCaretEventHub
 >
@@ -44772,7 +44772,7 @@ Identifier
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -45590,7 +45590,7 @@ touch
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -47571,7 +47571,7 @@ nsEventStatus
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 EventStateManager
 >
@@ -48655,7 +48655,7 @@ mIsPrimary
 =
 aIsPrimary
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -49275,7 +49275,7 @@ target
 =
 targetPtr
 ;
-nsRefPtr
+RefPtr
 <
 PresShell
 >
@@ -50563,7 +50563,7 @@ rv
 check
 caret
 visibility
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -54042,7 +54042,7 @@ void
 aPresShell
 )
 {
-nsRefPtr
+RefPtr
 <
 PresShell
 >
@@ -60338,7 +60338,7 @@ the
 new
 frame
 tree
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -60447,7 +60447,7 @@ new
 view
 manager
 .
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -64213,7 +64213,7 @@ CSSPixelsToAppUnits
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

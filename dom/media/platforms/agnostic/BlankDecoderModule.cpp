@@ -138,7 +138,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -261,7 +261,7 @@ aType
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -332,7 +332,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -389,7 +389,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -450,7 +450,7 @@ it
 s
 run
 .
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -523,7 +523,7 @@ BlankMediaDataCreator
 >
 mCreator
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -994,7 +994,7 @@ mFrameWidth
 uint32_t
 mFrameHeight
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1352,7 +1352,7 @@ height
 aImageContainer
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1420,7 +1420,7 @@ aConfig
 mRate
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1548,7 +1548,7 @@ CreateBlankDecoderModule
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1575,7 +1575,7 @@ CreateAgnosticDecoderModule
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >

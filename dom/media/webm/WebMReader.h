@@ -265,7 +265,7 @@ WebMVideoDecoder
 public
 :
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -345,7 +345,7 @@ WebMAudioDecoder
 public
 :
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -461,7 +461,7 @@ WebMReader
 public
 :
 virtual
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -543,7 +543,7 @@ mHasVideo
 ;
 }
 virtual
-nsRefPtr
+RefPtr
 <
 MetadataPromise
 >
@@ -553,7 +553,7 @@ AsyncReadMetadata
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -658,7 +658,7 @@ want
 to
 read
 .
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -1007,7 +1007,7 @@ t
 get
 lost
 .
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -1053,7 +1053,7 @@ mVideoDecoder
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -1234,7 +1234,7 @@ Main
 thread
 only
 .
-nsRefPtr
+RefPtr
 <
 WebMBufferedState
 >
@@ -1317,7 +1317,7 @@ hardware
 video
 decoding
 .
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

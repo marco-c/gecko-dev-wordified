@@ -862,7 +862,7 @@ Terminate
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocShell
 >
@@ -993,7 +993,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -2014,7 +2014,7 @@ to
 CSS
 pixels
 .
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -2302,7 +2302,7 @@ weakScrollable
 =
 scrollable
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -2509,7 +2509,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -3084,7 +3084,7 @@ void
 aTouchCaret
 )
 {
-nsRefPtr
+RefPtr
 <
 TouchCaret
 >
@@ -3250,7 +3250,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -3887,7 +3887,7 @@ void
 aTouchCaret
 )
 {
-nsRefPtr
+RefPtr
 <
 TouchCaret
 >
@@ -4045,7 +4045,7 @@ caretFocusFrame
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -5863,7 +5863,7 @@ presShell
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -5976,7 +5976,7 @@ GetSelectionBoundingRect
 sel
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -6059,7 +6059,7 @@ mStates
 =
 state
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

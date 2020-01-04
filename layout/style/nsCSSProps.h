@@ -2356,7 +2356,7 @@ values
 eStyleAnimType_PaintServer
 /
 /
-nsRefPtr
+RefPtr
 <
 nsCSSShadowArray
 >

@@ -1028,7 +1028,7 @@ if
 mGroupRule
 )
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -1255,7 +1255,7 @@ aCopy
 mChildSheet
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1523,7 +1523,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -3769,7 +3769,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -4092,7 +4092,7 @@ if
 mMedia
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -4754,7 +4754,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -5936,7 +5936,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Rule
 >
@@ -7812,7 +7812,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -8695,7 +8695,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10220,7 +10220,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -11324,7 +11324,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -11947,7 +11947,7 @@ filename
 and
 line
 number
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframeRule
 >
@@ -12884,7 +12884,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -13727,7 +13727,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -14315,7 +14315,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 css
 :

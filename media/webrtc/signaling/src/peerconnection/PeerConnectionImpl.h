@@ -99,7 +99,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1199,7 +1199,7 @@ internalStats
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1209,7 +1209,7 @@ MediaPipeline
 >
 pipelines
 ;
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -1527,7 +1527,7 @@ MakeMediaStream
 nsresult
 CreateRemoteSourceStreamInfo
 (
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -1591,7 +1591,7 @@ the
 media
 object
 const
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -1978,7 +1978,7 @@ aCertificate
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2007,7 +2007,7 @@ support
 external
 linkage
 .
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -2883,7 +2883,7 @@ ErrorResult
 rv
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2908,7 +2908,7 @@ ErrorResult
 rv
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -3946,7 +3946,7 @@ we
 are
 using
 .
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3960,7 +3960,7 @@ mCertificate
 ;
 #
 else
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -4135,7 +4135,7 @@ get
 all
 the
 DataChannels
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4152,7 +4152,7 @@ mAllowIceLoopback
 bool
 mAllowIceLinkLocal
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -4397,7 +4397,7 @@ impl_
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 PeerConnectionImpl
 >

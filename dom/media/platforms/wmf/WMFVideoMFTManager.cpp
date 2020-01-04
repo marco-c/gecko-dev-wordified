@@ -985,7 +985,7 @@ the
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 CreateDXVAManagerEvent
 >
@@ -1172,7 +1172,7 @@ InitializeDXVA
 aForceD3D9
 )
 ;
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >
@@ -1206,7 +1206,7 @@ hr
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMFAttributes
 >
@@ -1536,7 +1536,7 @@ output
 media
 types
 .
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >
@@ -1627,7 +1627,7 @@ hr
 hr
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >
@@ -2035,7 +2035,7 @@ ConfigureVideoFrameGeometry
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >
@@ -2600,7 +2600,7 @@ nullptr
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaBuffer
 >
@@ -2689,7 +2689,7 @@ stride
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 IMF2DBuffer
 >
@@ -3209,7 +3209,7 @@ IsValid
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -3237,7 +3237,7 @@ mPictureRegion
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -3332,7 +3332,7 @@ nullptr
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3411,7 +3411,7 @@ IsValid
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -3483,7 +3483,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -3491,7 +3491,7 @@ MediaData
 aOutData
 )
 {
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -3714,7 +3714,7 @@ return
 hr
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoData
 >

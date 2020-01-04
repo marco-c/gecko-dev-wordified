@@ -530,7 +530,7 @@ to
 draw
 into
 .
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -577,7 +577,7 @@ Create
 our
 drawable
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -600,7 +600,7 @@ innerSurface
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -617,7 +617,7 @@ size
 /
 Draw
 .
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

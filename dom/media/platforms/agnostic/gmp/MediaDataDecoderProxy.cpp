@@ -161,7 +161,7 @@ FlushComplete
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -190,7 +190,7 @@ Init
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :

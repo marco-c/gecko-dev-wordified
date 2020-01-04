@@ -440,7 +440,7 @@ local
 -
 storage
 index
-nsRefPtr
+RefPtr
 <
 nsThread
 >

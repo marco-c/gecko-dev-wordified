@@ -1266,7 +1266,7 @@ aOptions
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySystemAccess
 >

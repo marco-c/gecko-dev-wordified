@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -240,7 +240,7 @@ PostMessageEvent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -249,7 +249,7 @@ mSource
 nsString
 mCallerOrigin
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >

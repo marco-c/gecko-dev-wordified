@@ -1729,7 +1729,7 @@ present
 in
 the
 dataTransfer
-nsRefPtr
+RefPtr
 <
 FileList
 >

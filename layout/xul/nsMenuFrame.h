@@ -1688,7 +1688,7 @@ wraps
 this
 frame
 .
-nsRefPtr
+RefPtr
 <
 nsMenuTimerMediator
 >
@@ -1721,7 +1721,7 @@ off
 2
 :
 on
-nsRefPtr
+RefPtr
 <
 nsXULMenuCommandEvent
 >

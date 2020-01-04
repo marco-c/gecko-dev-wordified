@@ -252,7 +252,7 @@ DOMEventTargetHelper
 public
 MutableFileBase
 {
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >

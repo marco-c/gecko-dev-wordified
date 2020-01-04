@@ -129,7 +129,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1308,7 +1308,7 @@ surface
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

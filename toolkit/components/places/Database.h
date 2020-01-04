@@ -1721,7 +1721,7 @@ Shutdown
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 DatabaseShutdown
 >

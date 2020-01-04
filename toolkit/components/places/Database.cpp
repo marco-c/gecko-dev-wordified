@@ -2057,7 +2057,7 @@ closed
 by
 mozStorage
 .
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4059,7 +4059,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -4310,7 +4310,7 @@ to
 get
 it
 .
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -11830,7 +11830,7 @@ FinalizeStatements
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FinalizeStatementCacheProxy
 <

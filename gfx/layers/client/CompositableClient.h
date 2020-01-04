@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -415,7 +415,7 @@ ReleaseTextureClient
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1448,7 +1448,7 @@ mTextureFlags
 bool
 mDestroyed
 ;
-nsRefPtr
+RefPtr
 <
 TextureClientRecycleAllocator
 >
@@ -1508,7 +1508,7 @@ AutoRemoveTexture
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

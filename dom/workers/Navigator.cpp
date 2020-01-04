@@ -289,7 +289,7 @@ GetNavigatorProperties
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerNavigator
 >
@@ -671,7 +671,7 @@ nullptr
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 WorkerDataStore
 >
@@ -711,7 +711,7 @@ prepare
 a
 DataStoreChangeEventProxy
 .
-nsRefPtr
+RefPtr
 <
 DataStoreChangeEventProxy
 >
@@ -738,7 +738,7 @@ the
 main
 thread
 .
-nsRefPtr
+RefPtr
 <
 DataStoreAddEventListenerRunnable
 >
@@ -1105,7 +1105,7 @@ final
 public
 WorkerMainThreadRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1367,7 +1367,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1444,7 +1444,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1477,7 +1477,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 NavigatorGetDataStoresRunnable
 >
@@ -1940,7 +1940,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetUserAgentRunnable
 >

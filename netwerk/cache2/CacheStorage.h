@@ -271,7 +271,7 @@ nsIApplicationCache
 aCache
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >

@@ -324,7 +324,7 @@ nsIFrame
 aFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -1576,7 +1576,7 @@ nullptr
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -4785,7 +4785,7 @@ owns
 the
 caret
 .
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -5247,7 +5247,7 @@ CreateReferenceRenderingContext
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

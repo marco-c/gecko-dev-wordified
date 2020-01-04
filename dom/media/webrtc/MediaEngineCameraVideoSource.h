@@ -581,7 +581,7 @@ frames
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
@@ -598,7 +598,7 @@ we
 shut
 down
 HW
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -607,7 +607,7 @@ Image
 >
 mImage
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

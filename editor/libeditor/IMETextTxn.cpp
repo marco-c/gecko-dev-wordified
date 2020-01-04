@@ -495,7 +495,7 @@ can
 t
 get
 it
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -655,7 +655,7 @@ IMETextTxn
 then
 absorb
 it
-nsRefPtr
+RefPtr
 <
 IMETextTxn
 >
@@ -912,7 +912,7 @@ TextRangeArray
 aRanges
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1417,7 +1417,7 @@ empty
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRange
 >

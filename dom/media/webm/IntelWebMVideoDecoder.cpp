@@ -560,7 +560,7 @@ aMimeType
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -801,7 +801,7 @@ IntelWebMVideoDecoder
 :
 Demux
 (
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >
@@ -812,7 +812,7 @@ bool
 aEOS
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -1006,7 +1006,7 @@ next_tstamp
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -1316,7 +1316,7 @@ Unlock
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >
@@ -1614,7 +1614,7 @@ while
 true
 )
 {
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >
@@ -1894,7 +1894,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 VP8Sample
 >

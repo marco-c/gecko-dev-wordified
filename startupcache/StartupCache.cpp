@@ -1893,7 +1893,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

@@ -524,7 +524,7 @@ GetFirstFragment
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -970,7 +970,7 @@ ISOControl
 :
 GetAudioMetadata
 (
-nsRefPtr
+RefPtr
 <
 AudioTrackMetadata
 >
@@ -1067,7 +1067,7 @@ ISOControl
 :
 GetVideoMetadata
 (
-nsRefPtr
+RefPtr
 <
 VideoTrackMetadata
 >
@@ -1149,7 +1149,7 @@ HasAudioTrack
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioTrackMetadata
 >
@@ -1172,7 +1172,7 @@ HasVideoTrack
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoTrackMetadata
 >
@@ -2027,7 +2027,7 @@ offset
 info
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >

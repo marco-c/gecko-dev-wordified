@@ -916,7 +916,7 @@ GetPresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -4570,7 +4570,7 @@ AsKeyboardEvent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextComposition
 >
@@ -7891,7 +7891,7 @@ loaderOwner
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -8305,7 +8305,7 @@ void
 aESM
 )
 {
-nsRefPtr
+RefPtr
 <
 EventStateManager
 >
@@ -9081,7 +9081,7 @@ if
 mCurrentTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -9882,7 +9882,7 @@ if
 mCurrentTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -10154,7 +10154,7 @@ window
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 DataTransfer
 >
@@ -11844,7 +11844,7 @@ InvokeDragSession
 /
 methods
 .
-nsRefPtr
+RefPtr
 <
 DragEvent
 >
@@ -15064,7 +15064,7 @@ nsSize
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -17477,7 +17477,7 @@ it
 after
 event
 dispatch
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -19257,7 +19257,7 @@ if
 shell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -24075,7 +24075,7 @@ if
 docshell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -24318,7 +24318,7 @@ for
 capturing
 element
 .
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -26195,7 +26195,7 @@ return
 mMouseEnterLeaveHelper
 ;
 }
-nsRefPtr
+RefPtr
 <
 OverOutElementsWrapper
 >
@@ -26816,7 +26816,7 @@ lastContent
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -30095,7 +30095,7 @@ const
 uint32_t
 &
 aIdx
-nsRefPtr
+RefPtr
 <
 OverOutElementsWrapper
 >

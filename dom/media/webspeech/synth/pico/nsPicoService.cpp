@@ -1450,7 +1450,7 @@ before
 this
 runnable
 .
-nsRefPtr
+RefPtr
 <
 nsPicoService
 >
@@ -1670,7 +1670,7 @@ buffer_offset
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -2145,7 +2145,7 @@ mBufferSize
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -2157,7 +2157,7 @@ mBufferSize
 bool
 mFirstData
 ;
-nsRefPtr
+RefPtr
 <
 PicoCallbackRunnable
 >
@@ -2612,7 +2612,7 @@ mCurrentTask
 =
 aTask
 ;
-nsRefPtr
+RefPtr
 <
 PicoCallbackRunnable
 >
@@ -3207,7 +3207,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PicoVoice
 >
@@ -3976,7 +3976,7 @@ GetInstanceForService
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPicoService
 >

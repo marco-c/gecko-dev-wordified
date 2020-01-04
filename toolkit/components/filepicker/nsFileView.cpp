@@ -1106,7 +1106,7 @@ NS_ENSURE_ARG_POINTER
 aListener
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFileResult
 >

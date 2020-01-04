@@ -299,7 +299,7 @@ NS_ENSURE_ARG_POINTER
 aResult
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLContentSink
 >
@@ -2207,7 +2207,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -5071,7 +5071,7 @@ aAppendContent
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeElement
 >
@@ -5336,7 +5336,7 @@ localName
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >

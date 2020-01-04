@@ -2333,7 +2333,7 @@ sdcard
 storageName
 )
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -4947,7 +4947,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_CANTHANDLE
 ;
-nsRefPtr
+RefPtr
 <
 nsExternalAppHandler
 >
@@ -15534,7 +15534,7 @@ crash
 See
 Bug
 249143
-nsRefPtr
+RefPtr
 <
 nsExternalAppHandler
 >
@@ -19037,7 +19037,7 @@ NS_OK
 Try
 the
 plugins
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >

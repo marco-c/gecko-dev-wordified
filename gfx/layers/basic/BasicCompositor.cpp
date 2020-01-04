@@ -401,7 +401,7 @@ SetUpdateSerial
 }
 public
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -698,7 +698,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -730,7 +730,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BasicCompositingRenderTarget
 >
@@ -803,7 +803,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
@@ -1871,7 +1871,7 @@ Rect
 aVisibleRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1912,7 +1912,7 @@ a
 temporary
 surface
 .
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2179,7 +2179,7 @@ SetTransform
 newTransform
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2486,7 +2486,7 @@ maskTransform
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2529,7 +2529,7 @@ a
 cache
 eventually
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2624,7 +2624,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BasicCompositingRenderTarget
 >
@@ -2646,7 +2646,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2750,7 +2750,7 @@ Flush
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2763,7 +2763,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2776,7 +2776,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3180,7 +3180,7 @@ in
 EndFrame
 (
 )
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3497,7 +3497,7 @@ to
 mDrawTarget
 directly
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3513,7 +3513,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

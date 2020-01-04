@@ -1168,7 +1168,7 @@ SurfaceFormat
 aFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 PersistentBufferProviderBasic
 >
@@ -1283,7 +1283,7 @@ Mode
 flag
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -1804,7 +1804,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -10511,7 +10511,7 @@ DrawTarget
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -10524,7 +10524,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

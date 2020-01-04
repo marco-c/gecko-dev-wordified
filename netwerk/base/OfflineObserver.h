@@ -142,7 +142,7 @@ class
 and
 have
 a
-nsRefPtr
+RefPtr
 <
 OfflineObserver
 >

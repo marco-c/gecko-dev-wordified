@@ -2017,13 +2017,13 @@ const
 MOZ_NON_OWNING_REF
 mTextCtrlElement
 ;
-nsRefPtr
+RefPtr
 <
 nsTextInputSelectionImpl
 >
 mSelCon
 ;
-nsRefPtr
+RefPtr
 <
 RestoreSelectionState
 >
@@ -2063,7 +2063,7 @@ nsTextControlFrame
 *
 mBoundFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsTextInputListener
 >
@@ -2075,7 +2075,7 @@ nsCString
 >
 mValue
 ;
-nsRefPtr
+RefPtr
 <
 nsAnonDivObserver
 >

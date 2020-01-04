@@ -2669,7 +2669,7 @@ false
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3485,7 +3485,7 @@ for
 this
 container
 .
-nsRefPtr
+RefPtr
 <
 ImageFactory
 >
@@ -3497,7 +3497,7 @@ gfx
 IntSize
 mScaleHint
 ;
-nsRefPtr
+RefPtr
 <
 BufferRecycleBin
 >
@@ -4835,7 +4835,7 @@ nsMainThreadSourceSurfaceRef
 >
 mSourceSurface
 ;
-nsRefPtr
+RefPtr
 <
 BufferRecycleBin
 >
@@ -4908,7 +4908,7 @@ gfx
 IntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -5004,7 +5004,7 @@ GetAsSourceSurface
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -5073,7 +5073,7 @@ mSourceSurface
 nsDataHashtable
 <
 nsUint32HashKey
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

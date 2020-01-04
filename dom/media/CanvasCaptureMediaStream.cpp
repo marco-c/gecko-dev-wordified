@@ -257,7 +257,7 @@ void
 SetImage
 (
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -330,7 +330,7 @@ MOZ_ASSERT
 mSourceStream
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -414,7 +414,7 @@ bool
 mEnded
 ;
 const
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
@@ -437,7 +437,7 @@ protected
 by
 mMutex
 .
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -604,7 +604,7 @@ OutputStreamDriver
 SetImage
 (
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -839,7 +839,7 @@ aImage
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1067,7 +1067,7 @@ after
 something
 changed
 .
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1431,7 +1431,7 @@ HTMLCanvasElement
 aCanvas
 )
 {
-nsRefPtr
+RefPtr
 <
 CanvasCaptureMediaStream
 >

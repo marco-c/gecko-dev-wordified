@@ -344,7 +344,7 @@ the
 element
 does
 .
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

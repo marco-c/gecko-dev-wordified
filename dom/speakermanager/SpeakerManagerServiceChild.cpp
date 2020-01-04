@@ -260,7 +260,7 @@ new
 instance
 register
 return
-nsRefPtr
+RefPtr
 <
 SpeakerManagerServiceChild
 >
@@ -527,7 +527,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -568,7 +568,7 @@ SpeakerManagerServiceChild
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >

@@ -1392,7 +1392,7 @@ nsAString
 aEventName
 )
 {
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -1483,7 +1483,7 @@ Value
 aValue
 )
 {
-nsRefPtr
+RefPtr
 <
 EventHandlerNonNull
 >

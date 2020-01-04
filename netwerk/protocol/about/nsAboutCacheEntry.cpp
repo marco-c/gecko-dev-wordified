@@ -3407,7 +3407,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >

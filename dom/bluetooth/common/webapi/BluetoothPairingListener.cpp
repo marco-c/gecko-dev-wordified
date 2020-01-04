@@ -263,7 +263,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothPairingListener
 >
@@ -351,7 +351,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothPairingHandle
 >
@@ -385,7 +385,7 @@ mHandle
 =
 handle
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothPairingEvent
 >

@@ -2284,7 +2284,7 @@ nsConnectionEntry
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -3411,7 +3411,7 @@ nsConnectionEntry
 *
 mEnt
 ;
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

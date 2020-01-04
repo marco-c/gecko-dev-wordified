@@ -420,7 +420,7 @@ main
 thread
 only
 .
-nsRefPtr
+RefPtr
 <
 UnlinkHostObjectURIsRunnable
 >

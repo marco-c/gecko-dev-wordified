@@ -197,7 +197,7 @@ order
 in
 tests
 .
-nsRefPtr
+RefPtr
 <
 GamepadService
 >

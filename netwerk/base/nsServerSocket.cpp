@@ -1150,7 +1150,7 @@ NetAddr
 aClientAddr
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSocketTransport
 >
@@ -3063,7 +3063,7 @@ nsISocketTransport
 aTransport
 )
 {
-nsRefPtr
+RefPtr
 <
 OnSocketAcceptedRunnable
 >
@@ -3101,7 +3101,7 @@ nsresult
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 OnStopListeningRunnable
 >

@@ -6862,7 +6862,7 @@ GetCurrentHttpChannel
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHeaderVisitor
 >
@@ -7552,7 +7552,7 @@ nsIDOMEvent
 aDOMEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -7764,7 +7764,7 @@ aTotal
 :
 aTotal
 ;
-nsRefPtr
+RefPtr
 <
 ProgressEvent
 >
@@ -15746,7 +15746,7 @@ could
 be
 redirected
 .
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -18424,7 +18424,7 @@ AsyncVerifyRedirectCallbackForwarder
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >
@@ -18667,7 +18667,7 @@ if
 mChannelEventSink
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncVerifyRedirectCallbackForwarder
 >
@@ -20067,7 +20067,7 @@ if
 showPrompt
 )
 {
-nsRefPtr
+RefPtr
 <
 XMLHttpRequestAuthPrompt
 >
@@ -20411,7 +20411,7 @@ nsIXMLHttpRequestUpload
 aUpload
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequestUpload
 >
@@ -20721,7 +20721,7 @@ this
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequestXPCOMifier
 >
@@ -21630,7 +21630,7 @@ of
 target
 file
 .
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

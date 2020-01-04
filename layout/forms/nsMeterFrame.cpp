@@ -470,7 +470,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozMeterBar
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1340,7 +1340,7 @@ bool
 aShrinkWrap
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -1470,7 +1470,7 @@ nsRenderingContext
 aRenderingContext
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

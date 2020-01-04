@@ -300,7 +300,7 @@ nsIIccListener
 >
 mListeners
 ;
-nsRefPtr
+RefPtr
 <
 IccInfo
 >

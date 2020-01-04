@@ -1719,7 +1719,7 @@ useExistingCacheFile
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1746,7 +1746,7 @@ URI
 .
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -2557,7 +2557,7 @@ ShouldProcess
 with
 content
 policy
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3440,7 +3440,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3998,7 +3998,7 @@ Start
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -5639,7 +5639,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -6674,7 +6674,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >

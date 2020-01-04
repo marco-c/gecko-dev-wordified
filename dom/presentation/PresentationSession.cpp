@@ -292,7 +292,7 @@ PresentationSessionState
 aState
 )
 {
-nsRefPtr
+RefPtr
 <
 PresentationSession
 >
@@ -1171,7 +1171,7 @@ DispatchStateChangeEvent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -1285,7 +1285,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -1344,7 +1344,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

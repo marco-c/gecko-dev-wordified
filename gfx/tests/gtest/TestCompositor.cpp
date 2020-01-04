@@ -92,7 +92,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -330,7 +330,7 @@ bpp16
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -679,19 +679,19 @@ nsBaseWidget
 struct
 LayerManagerData
 {
-nsRefPtr
+RefPtr
 <
 MockWidget
 >
 mWidget
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
 mCompositor
 ;
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -747,7 +747,7 @@ GetSingleton
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -992,7 +992,7 @@ aBackends
 i
 ]
 ;
-nsRefPtr
+RefPtr
 <
 MockWidget
 >
@@ -1003,7 +1003,7 @@ MockWidget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -1015,7 +1015,7 @@ backend
 widget
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -1180,7 +1180,7 @@ static
 bool
 CompositeAndCompare
 (
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -1190,7 +1190,7 @@ DrawTarget
 refDT
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1228,7 +1228,7 @@ Now
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1241,7 +1241,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1265,7 +1265,7 @@ GetData
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1278,7 +1278,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1538,7 +1538,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -1551,7 +1551,7 @@ i
 .
 mLayerManager
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -1565,7 +1565,7 @@ get
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1620,7 +1620,7 @@ IntRect
 )
 }
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1808,7 +1808,7 @@ GetBounds
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
