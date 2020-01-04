@@ -402,6 +402,9 @@ gl
 OriginPos
 mOriginPos
 ;
+bool
+mIsMirror
+;
 RefPtr
 <
 gfx
