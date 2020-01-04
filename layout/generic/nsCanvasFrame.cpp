@@ -2969,11 +2969,10 @@ BorderBackground
 >
 AppendNewToTop
 (
-new
-(
-aBuilder
-)
 nsDisplayBlendContainer
+:
+:
+CreateForBackgroundBlendMode
 (
 aBuilder
 this
