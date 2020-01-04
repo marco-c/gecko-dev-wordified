@@ -1552,6 +1552,7 @@ bits_
 ;
 public
 :
+explicit
 AutoRestoreCompartmentDebugMode
 (
 JSCompartment
