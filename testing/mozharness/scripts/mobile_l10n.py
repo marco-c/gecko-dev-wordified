@@ -1587,7 +1587,7 @@ query_moz_sign_cmd
 if
 self
 .
-query_is_release
+query_is_release_or_beta
 (
 )
 :
@@ -5219,7 +5219,7 @@ apks
 )
     
 def
-query_is_release
+query_is_release_or_beta
 (
 self
 )
@@ -5235,7 +5235,7 @@ config
 get
 (
 "
-is_release
+is_release_or_beta
 "
 )
 )
@@ -5258,7 +5258,7 @@ and
 not
 self
 .
-query_is_release
+query_is_release_or_beta
 (
 )
 :

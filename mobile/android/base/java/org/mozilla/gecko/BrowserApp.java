@@ -5670,7 +5670,7 @@ service
 is
 enabled
 for
-RELEASE_BUILD
+RELEASE_OR_BETA
 which
 includes
 the
@@ -5715,7 +5715,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 &
 &
 UpdateServiceHelper
@@ -26986,7 +26986,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 Intent

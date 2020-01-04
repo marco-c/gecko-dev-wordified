@@ -698,7 +698,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 &
 &
 listeners
@@ -778,7 +778,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 /
@@ -964,7 +964,7 @@ listener
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 throw
@@ -2247,7 +2247,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 &
 &
 jsMessage

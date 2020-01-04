@@ -3824,7 +3824,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Chromecast
@@ -10262,7 +10262,7 @@ builds
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -10289,7 +10289,7 @@ true
 endif
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Enable

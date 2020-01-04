@@ -369,7 +369,7 @@ ANDROID
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 #
 define

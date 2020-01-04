@@ -701,7 +701,7 @@ NIGHTLY_BUILD
 d
 [
 '
-release_build
+release_or_beta
 '
 ]
 =
@@ -710,7 +710,7 @@ substs
 get
 (
 '
-RELEASE_BUILD
+RELEASE_OR_BETA
 '
 )
 =

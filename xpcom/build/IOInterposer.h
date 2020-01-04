@@ -1813,7 +1813,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 IOInterposer
 :
@@ -1835,7 +1835,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 IOInterposer
 :

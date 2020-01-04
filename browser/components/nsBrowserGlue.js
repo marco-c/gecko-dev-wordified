@@ -5892,7 +5892,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 let
@@ -9064,7 +9064,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 promptCount
@@ -9347,7 +9347,7 @@ if
 !
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 if

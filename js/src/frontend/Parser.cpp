@@ -55936,7 +55936,7 @@ warnOnceAboutExprClosure
 {
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 JSContext
 *
 cx

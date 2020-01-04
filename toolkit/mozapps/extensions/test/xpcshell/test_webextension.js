@@ -1884,7 +1884,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 /
 /
@@ -2045,7 +2045,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 /
 /

@@ -2326,7 +2326,7 @@ aReason
 {
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Non

@@ -1090,7 +1090,7 @@ mFontGroup
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 gfxTextPerfMetrics
 *
 tp
@@ -1259,7 +1259,7 @@ mReleasedFontGroup
 {
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 gfxTextPerfMetrics
 *
 tp
@@ -19039,7 +19039,7 @@ matchType
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 if
 (
 MOZ_UNLIKELY
@@ -19407,7 +19407,7 @@ aLength
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 LogModule
 *
 log

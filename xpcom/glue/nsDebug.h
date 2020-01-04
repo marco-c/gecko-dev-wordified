@@ -3512,7 +3512,7 @@ ANDROID
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 /
 /
@@ -3592,7 +3592,7 @@ CODE
 This
 is
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 to
 catch
 uses

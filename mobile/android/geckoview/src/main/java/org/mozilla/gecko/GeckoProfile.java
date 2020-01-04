@@ -480,7 +480,7 @@ this
 to
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 once
 we
 fix
@@ -2027,7 +2027,7 @@ if
 (
 AppConstants
 .
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 {
 Log

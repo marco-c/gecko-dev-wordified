@@ -1683,7 +1683,7 @@ events
 .
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -5252,7 +5252,7 @@ resumeOnWakeDelay
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -16271,7 +16271,7 @@ backend
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -16349,7 +16349,7 @@ ifdef
 XP_MACOSX
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -16409,7 +16409,7 @@ ifdef
 MOZ_GPSD
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -18184,7 +18184,7 @@ false
 endif
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 At
@@ -18384,7 +18384,7 @@ release
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -19626,7 +19626,7 @@ reports
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "

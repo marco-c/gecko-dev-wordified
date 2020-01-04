@@ -264,7 +264,7 @@ mReportedVideoTrackTelemetry
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 mutable
 bool
 mRustTestMode

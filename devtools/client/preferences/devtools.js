@@ -3929,7 +3929,7 @@ Edition
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "

@@ -194,7 +194,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 |
 |

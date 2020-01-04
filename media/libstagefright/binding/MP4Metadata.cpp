@@ -928,7 +928,7 @@ false
 )
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 mRustTestMode
 (
 MediaPrefs
@@ -1570,7 +1570,7 @@ aTrackNumber
 ;
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 if
 (
 mRustTestMode

@@ -1956,7 +1956,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -3143,7 +3143,7 @@ message
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -6741,7 +6741,7 @@ true
 endif
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -10549,7 +10549,7 @@ build
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -14111,7 +14111,7 @@ XP_WIN
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 |
 |
@@ -14124,7 +14124,7 @@ MOZ_WIDGET_GTK
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -14314,7 +14314,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 &
 &
@@ -17653,7 +17653,7 @@ milliseconds
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -19126,7 +19126,7 @@ prevented
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Keep
@@ -29545,7 +29545,7 @@ enabled
 ?
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -29592,7 +29592,7 @@ enabled
 ?
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -29703,7 +29703,7 @@ MOZ_B2G
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -30516,7 +30516,7 @@ enabled
 ?
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -31062,7 +31062,7 @@ visibly
 ?
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -31579,7 +31579,7 @@ details
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -33073,7 +33073,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -33108,7 +33108,7 @@ true
 endif
 /
 /
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Default
@@ -54637,7 +54637,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Keep
@@ -56684,7 +56684,7 @@ false
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -59135,7 +59135,7 @@ and
 aurora
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -60026,7 +60026,7 @@ maxRetryCount
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -63018,7 +63018,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 |
 |
@@ -65220,7 +65220,7 @@ builds
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -65297,7 +65297,7 @@ channels
 .
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 pref
 (
 "
@@ -65366,7 +65366,7 @@ if
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 pref
 (
@@ -65517,7 +65517,7 @@ true
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 /
 Don

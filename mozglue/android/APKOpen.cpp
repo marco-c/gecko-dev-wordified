@@ -332,7 +332,7 @@ RUSAGE_THREAD
 endif
 #
 ifndef
-RELEASE_BUILD
+RELEASE_OR_BETA
 /
 *
 Official

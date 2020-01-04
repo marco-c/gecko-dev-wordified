@@ -448,7 +448,7 @@ h
 "
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 #
 define
 THREADSAFETY_ASSERT
@@ -2216,7 +2216,7 @@ DEBUG
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 nsIThread
 *
@@ -2261,7 +2261,7 @@ mBoundThread
 ;
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 DebugOnly
 <
 bool
@@ -2331,7 +2331,7 @@ DEBUG
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 :
 mBoundThread
@@ -2642,7 +2642,7 @@ DEBUG
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 mBoundThread
 =

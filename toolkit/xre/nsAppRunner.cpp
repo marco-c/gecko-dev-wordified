@@ -5095,7 +5095,7 @@ aResult
 {
 #
 ifdef
-RELEASE_BUILD
+RELEASE_OR_BETA
 *
 aResult
 =
@@ -27712,7 +27712,7 @@ MOZ_WIDGET_GTK
 !
 defined
 (
-RELEASE_BUILD
+RELEASE_OR_BETA
 )
 doAccessibilityCheck
 =
