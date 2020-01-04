@@ -197,6 +197,7 @@ constants
 ;
 var
 {
+breakdowns
 diffingState
 dominatorTreeBreakdowns
 dominatorTreeState
