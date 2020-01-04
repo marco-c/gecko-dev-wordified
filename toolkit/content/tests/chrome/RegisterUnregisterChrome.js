@@ -245,6 +245,7 @@ tmpf
 ;
 }
 function
+*
 dirIter
 (
 directory
@@ -516,12 +517,10 @@ hidden
 var
 files
 =
-[
-file
-for
+Array
+.
+from
 (
-file
-in
 dirIter
 (
 '
@@ -534,7 +533,6 @@ file
 rootDir
 )
 )
-]
 ;
 for
 (

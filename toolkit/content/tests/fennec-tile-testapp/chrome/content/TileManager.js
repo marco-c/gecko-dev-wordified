@@ -6518,6 +6518,7 @@ prototype
 __iterator__
 :
 function
+*
 (
 )
 {
