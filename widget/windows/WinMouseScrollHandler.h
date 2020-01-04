@@ -351,6 +351,12 @@ bool
 mIsWaitingInternalMessage
 ;
 static
+void
+MaybeLogKeyState
+(
+)
+;
+static
 MouseScrollHandler
 *
 sInstance
