@@ -606,12 +606,6 @@ aOther
 .
 mSameOriginDataURL
 )
-mSandboxedStorageAreaURLs
-(
-aOther
-.
-mSandboxedStorageAreaURLs
-)
 mSkipServiceWorker
 (
 aOther

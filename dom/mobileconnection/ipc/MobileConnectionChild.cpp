@@ -191,6 +191,14 @@ mLive
 (
 true
 )
+mRadioState
+(
+0
+)
+mNetworkSelectionMode
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (

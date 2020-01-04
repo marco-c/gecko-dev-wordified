@@ -695,6 +695,14 @@ mRemotePort
 (
 aRemotePort
 )
+mAddressReuse
+(
+false
+)
+mLoopback
+(
+false
+)
 mReadyState
 (
 SocketReadyState
