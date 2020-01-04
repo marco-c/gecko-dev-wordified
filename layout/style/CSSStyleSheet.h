@@ -1097,12 +1097,6 @@ Rule
 aNew
 )
 ;
-int32_t
-StyleSheetCount
-(
-)
-const
-;
 /
 *
 *
