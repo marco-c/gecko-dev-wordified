@@ -9017,6 +9017,15 @@ transform
 )
 GK_ATOM
 (
+transform_3d
+"
+transform
+-
+3d
+"
+)
+GK_ATOM
+(
 transformiix
 "
 transformiix
