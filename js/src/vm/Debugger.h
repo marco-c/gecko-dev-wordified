@@ -2535,8 +2535,11 @@ addAllocationsTracking
 JSContext
 *
 cx
+Handle
+<
 GlobalObject
-&
+*
+>
 debuggee
 )
 ;
