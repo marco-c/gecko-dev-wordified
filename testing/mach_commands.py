@@ -3785,23 +3785,6 @@ autotry_parser
 )
 :
     
-print
-(
-"
-mach
-try
-is
-under
-development
-please
-file
-bugs
-blocking
-1149670
-.
-"
-)
-    
 from
 autotry
 import
@@ -4922,6 +4905,23 @@ from
 autotry
 import
 AutoTry
+        
+print
+(
+"
+mach
+try
+is
+under
+development
+please
+file
+bugs
+blocking
+1149670
+.
+"
+)
         
 resolver_func
 =
