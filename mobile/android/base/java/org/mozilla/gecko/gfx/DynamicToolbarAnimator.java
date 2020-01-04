@@ -168,16 +168,16 @@ android
 .
 view
 .
-animation
-.
-DecelerateInterpolator
+MotionEvent
 ;
 import
 android
 .
 view
 .
-MotionEvent
+animation
+.
+LinearInterpolator
 ;
 import
 java
@@ -293,7 +293,7 @@ final
 long
 ANIMATION_DURATION
 =
-250000000
+150000000
 ;
 private
 final
@@ -509,7 +509,7 @@ animation
 *
 /
 private
-DecelerateInterpolator
+LinearInterpolator
 mInterpolator
 ;
 /
@@ -823,7 +823,7 @@ DynamicToolbarListener
 mInterpolator
 =
 new
-DecelerateInterpolator
+LinearInterpolator
 (
 )
 ;
