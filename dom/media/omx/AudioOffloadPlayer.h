@@ -1304,7 +1304,7 @@ mOnPlayerTearDown
 ;
 MediaEventProducer
 <
-MediaDecoderEventVisibility
+void
 >
 mOnSeekingStarted
 ;
