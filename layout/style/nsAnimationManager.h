@@ -292,7 +292,7 @@ ToSeconds
 ;
 mEvent
 .
-pseudoElement
+mPseudoElement
 =
 AnimationCollection
 <

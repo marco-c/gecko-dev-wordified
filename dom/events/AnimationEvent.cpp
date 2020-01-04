@@ -346,7 +346,7 @@ mElapsedTime
 internalEvent
 -
 >
-pseudoElement
+mPseudoElement
 =
 aParam
 .
@@ -458,7 +458,7 @@ AsAnimationEvent
 )
 -
 >
-pseudoElement
+mPseudoElement
 ;
 return
 NS_OK
