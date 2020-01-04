@@ -2102,6 +2102,15 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+JS_IsExceptionPending
+(
+mCx
+)
+)
+;
 mCx
 =
 aCx
