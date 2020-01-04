@@ -2102,7 +2102,11 @@ grandKid
 kid
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

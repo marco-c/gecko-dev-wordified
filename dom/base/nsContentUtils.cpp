@@ -38557,7 +38557,11 @@ firstChild
 aOffsetFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -38677,7 +38681,11 @@ GetParent
 )
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 -

@@ -4284,7 +4284,11 @@ child
 aCurrFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

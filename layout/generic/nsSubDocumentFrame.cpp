@@ -7708,7 +7708,11 @@ subDocRoot
 scrolled
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

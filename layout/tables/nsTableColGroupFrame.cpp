@@ -431,7 +431,11 @@ colFrame
 colGroupFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

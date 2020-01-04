@@ -1922,7 +1922,11 @@ rv
 {
 DidReflowChildren
 (
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )

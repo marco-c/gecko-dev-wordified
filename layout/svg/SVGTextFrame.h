@@ -1537,7 +1537,11 @@ GetContentInsertionFrame
 override
 {
 return
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 -

@@ -17625,7 +17625,11 @@ inlineKid
 inlineKid
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )
@@ -51893,7 +51897,11 @@ DoCollectFloats
 aFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 aList

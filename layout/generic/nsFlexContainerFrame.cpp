@@ -7126,7 +7126,11 @@ aFrame
 aFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -15911,7 +15915,11 @@ firstWrappedChild
 child
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

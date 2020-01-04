@@ -663,7 +663,11 @@ nsIFrame
 *
 barChild
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

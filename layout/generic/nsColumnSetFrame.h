@@ -310,7 +310,11 @@ nsIFrame
 *
 frame
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

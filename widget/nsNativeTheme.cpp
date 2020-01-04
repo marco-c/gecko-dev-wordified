@@ -2893,7 +2893,11 @@ GetParent
 )
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -3054,7 +3058,11 @@ GetParent
 )
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

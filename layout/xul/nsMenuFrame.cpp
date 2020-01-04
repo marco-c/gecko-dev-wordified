@@ -8011,7 +8011,11 @@ do_QueryFrame
 popupFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )
@@ -8411,7 +8415,11 @@ childFrame
 popupFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

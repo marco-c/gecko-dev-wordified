@@ -4254,7 +4254,11 @@ innerFrame
 kidFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

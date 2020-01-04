@@ -1251,7 +1251,11 @@ childFrame
 start
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

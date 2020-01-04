@@ -7454,7 +7454,11 @@ mFrameToScan
 aFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

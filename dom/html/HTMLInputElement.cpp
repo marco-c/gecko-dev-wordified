@@ -15650,7 +15650,11 @@ childFrame
 frame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

@@ -2731,7 +2731,11 @@ for
 (
 kid
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

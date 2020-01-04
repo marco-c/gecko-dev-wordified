@@ -19150,7 +19150,11 @@ if
 next
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )

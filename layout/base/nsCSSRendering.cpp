@@ -22326,7 +22326,11 @@ geometryFrame
 aForFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

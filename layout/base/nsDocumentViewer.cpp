@@ -21769,7 +21769,11 @@ pageFrame
 seqFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

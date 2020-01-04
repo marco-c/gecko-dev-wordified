@@ -1850,7 +1850,11 @@ option
 aContainer
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
