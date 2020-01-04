@@ -1842,11 +1842,6 @@ true
 WidgetEvent
 (
 )
-:
-time
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -4703,11 +4698,6 @@ modifiers
 }
 WidgetInputEvent
 (
-)
-:
-modifiers
-(
-0
 )
 {
 }

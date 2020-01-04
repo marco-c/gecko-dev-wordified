@@ -266,10 +266,6 @@ mStatement
 (
 aStatement
 )
-mParamCount
-(
-0
-)
 {
 NS_ASSERTION
 (

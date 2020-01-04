@@ -2211,11 +2211,6 @@ aFormat
 .
 .
 )
-:
-mHandle
-(
-nullptr
-)
 {
 if
 (
