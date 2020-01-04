@@ -102,7 +102,6 @@ MPL
 /
 *
 globals
-_Iterator
 StopIteration
 *
 /
