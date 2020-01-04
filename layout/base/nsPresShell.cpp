@@ -43103,7 +43103,7 @@ GetRootPresShell
 )
 -
 >
-GetDOcument
+GetDocument
 (
 )
 nullptr
