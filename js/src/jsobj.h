@@ -785,6 +785,9 @@ JS
 ObjectOpResult
 &
 result
+js
+:
+:
 IntegrityLevel
 level
 )
