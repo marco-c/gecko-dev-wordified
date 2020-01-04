@@ -1813,7 +1813,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 /

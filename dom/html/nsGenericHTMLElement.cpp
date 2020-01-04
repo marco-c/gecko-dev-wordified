@@ -1430,7 +1430,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 /
@@ -1493,7 +1493,7 @@ Declaration
 value
 -
 >
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 )

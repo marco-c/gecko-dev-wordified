@@ -682,7 +682,7 @@ misc
 /
 struct
 .
-eCSSDeclaration
+eGeckoCSSDeclaration
 =
 0x10
 eURL
@@ -1385,7 +1385,7 @@ css
 :
 Declaration
 *
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 const

@@ -181,7 +181,7 @@ mType
 isn
 '
 t
-eCSSDeclaration
+eGeckoCSSDeclaration
 .
 /
 /
@@ -230,7 +230,7 @@ css
 :
 Declaration
 *
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 mozilla
 :
@@ -515,7 +515,7 @@ mType
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 ;
 }
 inline
@@ -830,7 +830,7 @@ Declaration
 nsAttrValue
 :
 :
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 const
@@ -842,7 +842,7 @@ Type
 )
 =
 =
-eCSSDeclaration
+eGeckoCSSDeclaration
 "
 wrong
 type
@@ -857,7 +857,7 @@ GetMiscContainer
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 }
 inline
@@ -1094,7 +1094,7 @@ return
 t
 !
 =
-eCSSDeclaration
+eGeckoCSSDeclaration
 &
 &
 !

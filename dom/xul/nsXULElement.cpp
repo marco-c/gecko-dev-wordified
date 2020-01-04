@@ -2483,7 +2483,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 RefPtr
@@ -2505,7 +2505,7 @@ Declaration
 originalValue
 -
 >
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 )
@@ -11820,7 +11820,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 RefPtr
@@ -11844,7 +11844,7 @@ protoattr
 >
 mValue
 .
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 )

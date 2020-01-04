@@ -469,7 +469,7 @@ mType
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 ;
 MOZ_ASSERT
@@ -505,7 +505,7 @@ declaration
 =
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 nsHTMLCSSStyleSheet
 *
@@ -609,7 +609,7 @@ mType
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 ;
 MOZ_ASSERT
@@ -649,7 +649,7 @@ declaration
 =
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 nsHTMLCSSStyleSheet
 *
@@ -1399,7 +1399,7 @@ break
 ;
 }
 case
-eCSSDeclaration
+eGeckoCSSDeclaration
 :
 {
 MOZ_CRASH
@@ -1948,7 +1948,7 @@ cont
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 =
 aValue
 )
@@ -1958,7 +1958,7 @@ cont
 >
 mType
 =
-eCSSDeclaration
+eGeckoCSSDeclaration
 ;
 NS_ADDREF
 (
@@ -3012,7 +3012,7 @@ break
 ;
 }
 case
-eCSSDeclaration
+eGeckoCSSDeclaration
 :
 {
 aResult
@@ -3041,7 +3041,7 @@ container
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 if
 (
@@ -4100,7 +4100,7 @@ mColor
 ;
 }
 case
-eCSSDeclaration
+eGeckoCSSDeclaration
 :
 {
 return
@@ -4111,7 +4111,7 @@ cont
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 )
 ;
 }
@@ -4592,7 +4592,7 @@ break
 ;
 }
 case
-eCSSDeclaration
+eGeckoCSSDeclaration
 :
 {
 return
@@ -4601,7 +4601,7 @@ thisCont
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 =
 =
 otherCont
@@ -4609,7 +4609,7 @@ otherCont
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 }
 case
@@ -8478,16 +8478,16 @@ We
 '
 re
 allowing
-eCSSDeclaration
+eGeckoCSSDeclaration
 attributes
 to
 store
 empty
+/
+/
 strings
 as
 it
-/
-/
 can
 be
 beneficial
@@ -8497,6 +8497,8 @@ an
 empty
 style
 attribute
+/
+/
 as
 a
 parsed
@@ -8554,7 +8556,7 @@ Type
 )
 =
 =
-eCSSDeclaration
+eGeckoCSSDeclaration
 |
 |
 Type
@@ -8981,7 +8983,7 @@ mType
 )
 {
 case
-eCSSDeclaration
+eGeckoCSSDeclaration
 :
 {
 MOZ_ASSERT
@@ -9018,7 +9020,7 @@ cont
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 )
 ;
 break
@@ -9649,7 +9651,7 @@ Type
 )
 =
 =
-eCSSDeclaration
+eGeckoCSSDeclaration
 &
 &
 container
@@ -9657,14 +9659,14 @@ container
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 )
 {
 /
 /
 TODO
 :
-mCSSDeclaration
+mGeckoCSSDeclaration
 might
 be
 owned
@@ -9672,9 +9674,9 @@ by
 another
 object
 which
+/
+/
 would
-/
-/
 make
 us
 count
@@ -9691,7 +9693,7 @@ n
 container
 -
 >
-mCSSDeclaration
+mGeckoCSSDeclaration
 -
 >
 SizeOfIncludingThis
