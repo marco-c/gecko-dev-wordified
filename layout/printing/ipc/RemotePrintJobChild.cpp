@@ -121,6 +121,15 @@ RemotePrintJobChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -205,6 +214,9 @@ Shmem
 aStoredPage
 )
 {
+Unused
+<
+<
 SendProcessPage
 (
 aStoredPage
