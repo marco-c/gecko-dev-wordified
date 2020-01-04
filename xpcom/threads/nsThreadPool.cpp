@@ -172,13 +172,6 @@ Logging
 .
 h
 "
-#
-include
-"
-nsThreadSyncDispatch
-.
-h
-"
 using
 namespace
 mozilla
