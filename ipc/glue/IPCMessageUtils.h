@@ -151,6 +151,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -478,6 +487,7 @@ true
 }
 ;
 struct
+MOZ_STACK_CLASS
 SerializedStructuredCloneBuffer
 {
 SerializedStructuredCloneBuffer
