@@ -227,6 +227,12 @@ callback
 override
 ;
 void
+Stop
+(
+)
+override
+;
+void
 Capture
 (
 const
