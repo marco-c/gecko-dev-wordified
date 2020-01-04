@@ -643,6 +643,16 @@ CompareAndBranch
 \
 _
 (
+Compare64
+)
+\
+_
+(
+Compare64AndBranch
+)
+\
+_
+(
 CompareD
 )
 \
