@@ -7274,7 +7274,7 @@ vsizeMaxContiguous
 b
 (
 "
-MEMORY_RESIDENT
+MEMORY_RESIDENT_FAST
 "
 "
 residentFast
