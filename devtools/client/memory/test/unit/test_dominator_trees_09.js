@@ -405,7 +405,7 @@ breakdown
 Switch
 to
 the
-internalType
+allocationStack
 breakdown
 while
 we
@@ -425,7 +425,7 @@ setDominatorTreeBreakdownAndRefresh
 heapWorker
 dominatorTreeBreakdowns
 .
-internalType
+allocationStack
 .
 breakdown
 )
@@ -484,7 +484,7 @@ dominatorTree
 breakdown
 dominatorTreeBreakdowns
 .
-internalType
+allocationStack
 .
 breakdown
 "
@@ -496,7 +496,7 @@ tree
 s
 breakdown
 is
-internalType
+allocationStack
 "
 )
 ;
@@ -509,7 +509,7 @@ getState
 dominatorTreeBreakdown
 dominatorTreeBreakdowns
 .
-internalType
+allocationStack
 .
 breakdown
 "
