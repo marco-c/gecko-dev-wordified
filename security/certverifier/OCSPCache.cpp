@@ -508,7 +508,7 @@ CertID
 certID
 )
 {
-ScopedPK11Context
+UniquePK11Context
 context
 (
 PK11_CreateDigestContext

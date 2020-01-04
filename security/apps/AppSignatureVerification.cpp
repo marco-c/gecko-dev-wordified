@@ -1322,7 +1322,7 @@ return
 NS_ERROR_SIGNED_JAR_ENTRY_TOO_LARGE
 ;
 }
-ScopedPK11Context
+UniquePK11Context
 digestContext
 (
 PK11_CreateDigestContext
@@ -1359,6 +1359,10 @@ MapSECStatus
 PK11_DigestBegin
 (
 digestContext
+.
+get
+(
+)
 )
 )
 ;
@@ -1446,6 +1450,10 @@ MapSECStatus
 PK11_DigestOp
 (
 digestContext
+.
+get
+(
+)
 buf
 .
 data

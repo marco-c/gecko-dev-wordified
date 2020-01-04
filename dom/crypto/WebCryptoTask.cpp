@@ -4937,7 +4937,7 @@ nullptr
 0
 }
 ;
-ScopedPK11Context
+UniquePK11Context
 ctx
 (
 PK11_CreateContextBySymKey
