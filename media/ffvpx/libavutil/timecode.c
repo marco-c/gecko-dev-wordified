@@ -1183,6 +1183,9 @@ supported_fps
 48
 50
 60
+100
+120
+150
 }
 ;
 for
@@ -1234,6 +1237,9 @@ tc
 {
 if
 (
+(
+int
+)
 tc
 -
 >
@@ -1343,9 +1349,12 @@ fps
 av_log
 (
 log_ctx
-AV_LOG_ERROR
+AV_LOG_WARNING
 "
-Timecode
+Using
+non
+-
+standard
 frame
 rate
 %
@@ -1353,8 +1362,6 @@ d
 /
 %
 d
-not
-supported
 \
 n
 "
@@ -1371,9 +1378,6 @@ rate
 .
 den
 )
-;
-return
-AVERROR_PATCHWELCOME
 ;
 }
 return

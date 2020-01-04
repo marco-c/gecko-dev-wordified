@@ -957,7 +957,7 @@ postfix
 multiplies
 the
 value
-for
+by
 *
 8
 and

@@ -232,6 +232,7 @@ num
 type
 cmp
 )
+do
 {
 \
 void
@@ -786,6 +787,10 @@ break
 }
 \
 }
+while
+(
+0
+)
 /
 *
 *
@@ -855,6 +860,7 @@ num
 type
 cmp
 )
+do
 {
 \
 unsigned
@@ -1070,3 +1076,7 @@ tmp
 }
 \
 }
+while
+(
+0
+)

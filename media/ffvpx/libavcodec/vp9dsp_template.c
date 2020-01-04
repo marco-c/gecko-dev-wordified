@@ -11504,6 +11504,9 @@ t
 (
 (
 (
+(
+dctint
+)
 block
 [
 0
@@ -12047,7 +12050,7 @@ int
 pass
 )
 {
-int
+dctint
 t0
 t1
 t2

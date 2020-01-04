@@ -314,9 +314,6 @@ autoselect
 a
 good
 one
-(
-default
-)
 "
 0
 AV_OPT_TYPE_CONST
@@ -518,9 +515,6 @@ autoselect
 a
 good
 one
-(
-default
-)
 "
 0
 AV_OPT_TYPE_CONST

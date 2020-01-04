@@ -186,6 +186,7 @@ mem
 .
 h
 "
+av_warn_unused_result
 static
 inline
 int

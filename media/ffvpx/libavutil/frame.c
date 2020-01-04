@@ -354,6 +354,9 @@ metadata
 ;
 }
 ;
+#
+if
+FF_API_FRAME_QP
 int
 av_frame_set_qp_table
 (
@@ -385,6 +388,7 @@ qp_table_buf
 =
 buf
 ;
+FF_DISABLE_DEPRECATION_WARNINGS
 f
 -
 >
@@ -409,6 +413,7 @@ qscale_type
 =
 qp_type
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
 return
 0
 ;
@@ -428,6 +433,7 @@ int
 type
 )
 {
+FF_DISABLE_DEPRECATION_WARNINGS
 *
 stride
 =
@@ -444,6 +450,7 @@ f
 >
 qscale_type
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
 if
 (
 !
@@ -465,6 +472,8 @@ qp_table_buf
 data
 ;
 }
+#
+endif
 const
 char
 *
@@ -1257,7 +1266,7 @@ buf
 =
 av_buffer_alloc
 (
-1024
+AVPALETTE_SIZE
 )
 ;
 if
@@ -1932,23 +1941,6 @@ src
 >
 opaque
 ;
-#
-if
-FF_API_AVFRAME_LAVC
-FF_DISABLE_DEPRECATION_WARNINGS
-dst
--
->
-type
-=
-src
--
->
-type
-;
-FF_ENABLE_DEPRECATION_WARNINGS
-#
-endif
 dst
 -
 >
@@ -2133,6 +2125,10 @@ metadata
 0
 )
 ;
+#
+if
+FF_API_ERROR_FRAME
+FF_DISABLE_DEPRECATION_WARNINGS
 memcpy
 (
 dst
@@ -2152,6 +2148,9 @@ error
 )
 )
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
+#
+endif
 for
 (
 i
@@ -2388,6 +2387,10 @@ metadata
 )
 ;
 }
+#
+if
+FF_API_FRAME_QP
+FF_DISABLE_DEPRECATION_WARNINGS
 dst
 -
 >
@@ -2473,6 +2476,9 @@ qscale_type
 ;
 }
 }
+FF_ENABLE_DEPRECATION_WARNINGS
+#
+endif
 return
 0
 ;
@@ -3167,6 +3173,9 @@ frame
 metadata
 )
 ;
+#
+if
+FF_API_FRAME_QP
 av_buffer_unref
 (
 &
@@ -3176,6 +3185,8 @@ frame
 qp_table_buf
 )
 ;
+#
+endif
 get_frame_defaults
 (
 frame

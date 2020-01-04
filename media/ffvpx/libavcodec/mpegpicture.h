@@ -533,7 +533,7 @@ int
 shared
 ;
 uint64_t
-error
+encoding_error
 [
 AV_NUM_DATA_POINTERS
 ]

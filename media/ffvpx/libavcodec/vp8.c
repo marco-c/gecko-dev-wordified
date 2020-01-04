@@ -21620,6 +21620,9 @@ IS_VP8
 #
 if
 CONFIG_VP8_DECODER
+#
+if
+HAVE_THREADS
 static
 av_cold
 int
@@ -22019,6 +22022,13 @@ return
 0
 ;
 }
+#
+endif
+/
+*
+HAVE_THREADS
+*
+/
 #
 endif
 /
