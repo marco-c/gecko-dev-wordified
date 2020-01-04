@@ -3203,7 +3203,15 @@ hostnameInput
 .
 Init
 (
-uint8_t_ptr_cast
+BitwiseCast
+<
+const
+uint8_t
+*
+const
+char
+*
+>
 (
 hostName
 )
