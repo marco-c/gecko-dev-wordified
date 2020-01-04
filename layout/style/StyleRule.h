@@ -1990,7 +1990,7 @@ class
 StyleRule
 ;
 class
-ImportantRule
+ImportantStyleData
 final
 :
 public
@@ -1999,7 +1999,7 @@ nsIStyleRule
 public
 :
 explicit
-ImportantRule
+ImportantStyleData
 (
 Declaration
 *
@@ -2047,7 +2047,7 @@ protected
 :
 virtual
 ~
-ImportantRule
+ImportantStyleData
 (
 )
 ;
@@ -2435,7 +2435,7 @@ mDeclaration
 ;
 RefPtr
 <
-ImportantRule
+ImportantStyleData
 >
 mImportantRule
 ;

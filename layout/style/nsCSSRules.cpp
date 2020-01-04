@@ -13212,7 +13212,7 @@ GetCSSRule
 css
 :
 :
-ImportantRule
+ImportantStyleData
 *
 nsCSSPageRule
 :
@@ -13248,7 +13248,7 @@ new
 css
 :
 :
-ImportantRule
+ImportantStyleData
 (
 mDeclaration
 )

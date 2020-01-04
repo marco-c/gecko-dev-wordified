@@ -2621,7 +2621,7 @@ mozilla
 css
 :
 :
-ImportantRule
+ImportantStyleData
 *
 GetImportantRule
 (
@@ -2675,7 +2675,7 @@ mozilla
 css
 :
 :
-ImportantRule
+ImportantStyleData
 >
 mImportantRule
 ;

@@ -12656,7 +12656,7 @@ nsTArray
 css
 :
 :
-ImportantRule
+ImportantStyleData
 *
 >
 importantRules
@@ -12713,7 +12713,7 @@ i
 css
 :
 :
-ImportantRule
+ImportantStyleData
 *
 importantRule
 =
