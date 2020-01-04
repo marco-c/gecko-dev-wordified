@@ -528,11 +528,6 @@ ComputeThis
 \
 _
 (
-LoadArrowThis
-)
-\
-_
-(
 BitNotI
 )
 \

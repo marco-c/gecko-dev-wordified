@@ -1365,9 +1365,6 @@ case
 PNK_NULL
 :
 case
-PNK_THIS
-:
-case
 PNK_ELISION
 :
 case
@@ -1523,6 +1520,9 @@ PNK_MUTATEPROTO
 case
 PNK_EXPORT
 :
+case
+PNK_SUPERBASE
+:
 return
 PushUnaryNodeChild
 (
@@ -1539,6 +1539,9 @@ single
 nullable
 child
 .
+case
+PNK_THIS
+:
 case
 PNK_SEMI
 :
@@ -1681,6 +1684,9 @@ PNK_CLASSMETHOD
 :
 case
 PNK_NEWTARGET
+:
+case
+PNK_SETTHIS
 :
 case
 PNK_FOR

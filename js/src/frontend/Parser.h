@@ -5248,6 +5248,16 @@ checkFunctionArguments
 )
 ;
 bool
+defineFunctionThis
+(
+)
+;
+Node
+newThisName
+(
+)
+;
+bool
 makeDefIntoUse
 (
 Definition

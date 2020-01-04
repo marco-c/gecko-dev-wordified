@@ -384,11 +384,6 @@ ComputeThis
 \
 _
 (
-LoadArrowThis
-)
-\
-_
-(
 Call
 )
 \

@@ -2714,9 +2714,6 @@ case
 PNK_NULL
 :
 case
-PNK_THIS
-:
-case
 PNK_ELISION
 :
 case
@@ -2758,6 +2755,9 @@ break
 ;
 case
 PNK_TYPEOFNAME
+:
+case
+PNK_SUPERBASE
 :
 MOZ_ASSERT
 (
@@ -2958,6 +2958,9 @@ child
 case
 PNK_SEMI
 :
+case
+PNK_THIS
+:
 MOZ_ASSERT
 (
 cur
@@ -3069,6 +3072,9 @@ PNK_FOR
 :
 case
 PNK_CLASSMETHOD
+:
+case
+PNK_SETTHIS
 :
 MOZ_ASSERT
 (
