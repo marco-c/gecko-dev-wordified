@@ -1460,7 +1460,7 @@ hadDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 aContent
 )
@@ -1958,7 +1958,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 content
 )
@@ -4367,10 +4367,9 @@ guidIsValid
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 dpElement
-nullptr
 )
 )
 {
