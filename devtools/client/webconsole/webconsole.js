@@ -3277,6 +3277,16 @@ owner
 _browserConsole
 &
 &
+!
+this
+.
+owner
+.
+target
+.
+chrome
+&
+&
 Services
 .
 prefs
