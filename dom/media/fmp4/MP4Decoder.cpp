@@ -1178,8 +1178,6 @@ GetBool
 "
 media
 .
-fragmented
--
 mp4
 .
 enabled

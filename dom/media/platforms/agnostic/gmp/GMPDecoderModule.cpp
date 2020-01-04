@@ -568,11 +568,9 @@ sPreferredAacGmp
 "
 media
 .
-fragmented
--
-mp4
-.
 gmp
+.
+decoder
 .
 aac
 "
@@ -589,11 +587,9 @@ sPreferredH264Gmp
 "
 media
 .
-fragmented
--
-mp4
-.
 gmp
+.
+decoder
 .
 h264
 "

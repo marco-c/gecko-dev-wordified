@@ -22435,11 +22435,9 @@ pref
 "
 media
 .
-fragmented
--
-mp4
-.
 gmp
+.
+decoder
 .
 aac
 "
@@ -22451,11 +22449,9 @@ pref
 "
 media
 .
-fragmented
--
-mp4
-.
 gmp
+.
+decoder
 .
 h264
 "

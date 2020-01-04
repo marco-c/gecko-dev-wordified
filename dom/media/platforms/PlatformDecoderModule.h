@@ -345,10 +345,6 @@ pref
 "
 media
 .
-fragmented
--
-mp4
-.
 use
 -
 blank
