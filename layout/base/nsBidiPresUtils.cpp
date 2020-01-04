@@ -1266,6 +1266,7 @@ BufferLength
 (
 )
 mParaLevel
+nullptr
 )
 ;
 }
@@ -12539,6 +12540,7 @@ SetPara
 aText
 aLength
 aBaseLevel
+nullptr
 )
 ;
 if
