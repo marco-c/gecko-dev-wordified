@@ -100,7 +100,7 @@ ANRReporter_h__
 #
 include
 "
-GeneratedJNINatives
+FennecJNINatives
 .
 h
 "

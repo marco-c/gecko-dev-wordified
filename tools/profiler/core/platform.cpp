@@ -261,7 +261,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "
@@ -283,7 +283,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-GeneratedJNINatives
+FennecJNINatives
 .
 h
 "
