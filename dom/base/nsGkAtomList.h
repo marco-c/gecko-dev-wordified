@@ -5979,6 +5979,13 @@ onhfpstatuschanged
 )
 GK_ATOM
 (
+onhidstatuschanged
+"
+onhidstatuschanged
+"
+)
+GK_ATOM
+(
 onholding
 "
 onholding

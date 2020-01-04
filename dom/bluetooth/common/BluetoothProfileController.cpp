@@ -996,6 +996,16 @@ Get
 register
 after
 A2DP
+AddProfile
+(
+BluetoothHidManager
+:
+:
+Get
+(
+)
+)
+;
 return
 ;
 }

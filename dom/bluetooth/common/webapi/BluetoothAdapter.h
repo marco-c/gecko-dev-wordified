@@ -682,6 +682,8 @@ HFP
 A2DP
 /
 AVRCP
+/
+HID
 IMPL_EVENT_HANDLER
 (
 a2dpstatuschanged
@@ -690,6 +692,11 @@ a2dpstatuschanged
 IMPL_EVENT_HANDLER
 (
 hfpstatuschanged
+)
+;
+IMPL_EVENT_HANDLER
+(
+hidstatuschanged
 )
 ;
 IMPL_EVENT_HANDLER
