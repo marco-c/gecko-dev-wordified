@@ -227,7 +227,7 @@ box
 -
 model
 -
-infobar
+nodeinfobar
 -
 container
 "
@@ -539,7 +539,7 @@ box
 -
 model
 -
-infobar
+nodeinfobar
 -
 container
 "
@@ -555,7 +555,7 @@ hidden
 true
 "
 "
-infobar
+nodeinfobar
 has
 been
 hidden
