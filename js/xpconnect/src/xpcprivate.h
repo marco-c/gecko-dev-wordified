@@ -14521,12 +14521,10 @@ during
 init
 though
 .
-if
-(
-mFlatJSObject
-)
-{
-JS_CallTenuredObjectTracer
+JS
+:
+:
+TraceNullableEdge
 (
 trc
 &
@@ -14539,7 +14537,6 @@ mFlatJSObject
 "
 )
 ;
-}
 }
 static
 void

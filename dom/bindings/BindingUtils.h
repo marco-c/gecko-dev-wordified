@@ -12906,7 +12906,10 @@ end
 objp
 )
 {
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 objp
@@ -12992,7 +12995,10 @@ end
 valp
 )
 {
-JS_CallUnbarrieredValueTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 valp
