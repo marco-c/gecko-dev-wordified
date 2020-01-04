@@ -3016,7 +3016,7 @@ appunits
 .
 nestedClipState
 .
-Clear
+ClearForStackingContextContents
 (
 )
 ;
