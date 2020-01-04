@@ -228,6 +228,8 @@ IntSize
 aCbCrSize
 StereoMode
 aStereoMode
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )
@@ -278,6 +280,8 @@ KnowsCompositor
 aAllocator
 int32_t
 aSize
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )
@@ -410,6 +414,15 @@ gfx
 IntSize
 >
 GetCbCrSize
+(
+)
+const
+;
+Maybe
+<
+YUVColorSpace
+>
+GetYUVColorSpace
 (
 )
 const

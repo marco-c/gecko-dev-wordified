@@ -4287,6 +4287,9 @@ mPicSize
 StereoMode
 mStereoMode
 ;
+YUVColorSpace
+mYUVColorSpace
+;
 gfx
 :
 :
@@ -4378,6 +4381,13 @@ StereoMode
 :
 :
 MONO
+)
+mYUVColorSpace
+(
+YUVColorSpace
+:
+:
+BT601
 )
 {
 }

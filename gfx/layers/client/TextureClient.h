@@ -2272,6 +2272,8 @@ IntSize
 aCbCrSize
 StereoMode
 aStereoMode
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )
@@ -2383,6 +2385,8 @@ KnowsCompositor
 aAllocator
 size_t
 aSize
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )

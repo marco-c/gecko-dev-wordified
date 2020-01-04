@@ -1403,6 +1403,14 @@ aInfo
 .
 mStereoMode
 ;
+data
+.
+mYUVColorSpace
+=
+aBuffer
+.
+mYUVColorSpace
+;
 aVideoImage
 -
 >
