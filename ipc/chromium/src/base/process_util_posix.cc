@@ -339,6 +339,9 @@ pid
 ProcessHandle
 *
 handle
+int64_t
+*
+error
 )
 {
 /
@@ -363,6 +366,17 @@ a
 handle
 "
 .
+if
+(
+error
+)
+{
+*
+error
+=
+0
+;
+}
 return
 OpenProcessHandle
 (
