@@ -198,9 +198,6 @@ nsXPCOM
 h
 "
 #
-ifndef
-XPCOM_GLUE
-#
 include
 "
 mozilla
@@ -209,8 +206,6 @@ Atomics
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2078,9 +2073,6 @@ mValue
 ;
 }
 ;
-#
-ifndef
-XPCOM_GLUE
 namespace
 mozilla
 {
@@ -2276,8 +2268,6 @@ mValue
 /
 namespace
 mozilla
-#
-endif
 /
 /
 /
