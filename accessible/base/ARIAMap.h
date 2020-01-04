@@ -1748,6 +1748,7 @@ if
 none
 *
 /
+const
 nsRoleMapEntry
 *
 GetRoleMap

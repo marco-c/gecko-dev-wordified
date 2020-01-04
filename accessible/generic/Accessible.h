@@ -1234,6 +1234,7 @@ any
 .
 *
 /
+const
 nsRoleMapEntry
 *
 ARIARoleMap
@@ -2004,6 +2005,7 @@ accessible
 void
 SetRoleMapEntry
 (
+const
 nsRoleMapEntry
 *
 aRoleMapEntry
@@ -7431,6 +7433,7 @@ as
 well
 *
 /
+const
 nsRoleMapEntry
 *
 mRoleMapEntry
