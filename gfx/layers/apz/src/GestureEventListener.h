@@ -1094,6 +1094,8 @@ HandleInputTimeoutLongTap
 void
 HandleInputTimeoutMaxTap
 (
+bool
+aDuringFastFling
 )
 ;
 void
