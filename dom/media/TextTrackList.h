@@ -365,6 +365,11 @@ CreateAndDispatchChangeEvent
 (
 )
 ;
+void
+SetCuesInactive
+(
+)
+;
 IMPL_EVENT_HANDLER
 (
 change
