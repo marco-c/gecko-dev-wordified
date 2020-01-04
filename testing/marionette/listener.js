@@ -8793,17 +8793,9 @@ interaction
 clickElement
 (
 el
-!
-!
 capabilities
 .
 raisesAccessibilityExceptions
-capabilities
-.
-specificationLevel
->
-=
-1
 )
 ;
 }
