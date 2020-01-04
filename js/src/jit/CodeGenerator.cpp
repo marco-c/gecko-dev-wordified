@@ -18016,6 +18016,16 @@ resolve
 )
 )
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+;
 MoveEmitter
 emitter
 (
