@@ -300,9 +300,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 gcli
 "
@@ -3265,7 +3265,7 @@ target
 yield
 front
 .
-_testOnly_addItemsByModule
+_testOnlyAddItemsByModule
 (
 MOCK_COMMANDS_URI
 )
@@ -3390,7 +3390,7 @@ once
 yield
 front
 .
-_testOnly_removeItemsByModule
+_testOnlyRemoveItemsByModule
 (
 MOCK_COMMANDS_URI
 )
