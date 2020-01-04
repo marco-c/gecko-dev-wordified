@@ -540,6 +540,12 @@ IsAlive
 )
 const
 ;
+bool
+IsShuttingDown
+(
+)
+const
+;
 static
 void
 AppendProcessId
@@ -3120,6 +3126,9 @@ nsIDHashKey
 GetFilesHelperChild
 >
 mGetFilesPendingRequests
+;
+bool
+mShuttingDown
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
