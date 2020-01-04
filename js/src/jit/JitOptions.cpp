@@ -782,7 +782,7 @@ Ionmonkey
 SET_DEFAULT
 (
 disableSharedStubs
-true
+false
 )
 ;
 /
