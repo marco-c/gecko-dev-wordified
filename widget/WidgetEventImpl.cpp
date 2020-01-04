@@ -2938,6 +2938,7 @@ aDOMKeyName
 const
 char16_t
 *
+const
 WidgetKeyboardEvent
 :
 :
@@ -2975,6 +2976,7 @@ aDOMCodeName
 const
 char16_t
 *
+const
 WidgetKeyboardEvent
 :
 :
