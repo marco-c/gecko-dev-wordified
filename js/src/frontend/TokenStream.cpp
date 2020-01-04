@@ -4016,7 +4016,7 @@ err
 .
 message
 nullptr
-ArgumentsAreASCII
+ArgumentsAreLatin1
 &
 err
 .
