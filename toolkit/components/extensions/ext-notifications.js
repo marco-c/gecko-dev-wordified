@@ -704,10 +704,11 @@ extension
 ;
 notifications
 =
-notifications
+Array
 .
-map
+from
 (
+notifications
 notification
 =
 >
