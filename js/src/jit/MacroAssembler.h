@@ -3098,7 +3098,7 @@ reg
 )
 DEFINED_ON
 (
-mips32
+mips_shared
 x86_shared
 )
 ;
@@ -3111,7 +3111,7 @@ label
 )
 DEFINED_ON
 (
-mips32
+mips_shared
 x86_shared
 )
 ;
