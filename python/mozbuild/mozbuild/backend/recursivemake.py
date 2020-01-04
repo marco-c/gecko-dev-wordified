@@ -3427,6 +3427,8 @@ n
 obj
 .
 path
+.
+full_path
 )
         
 elif
