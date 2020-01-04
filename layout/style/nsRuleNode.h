@@ -5092,6 +5092,16 @@ bool
 aComputeData
 )
 ;
+void
+GetDiscretelyAnimatedCSSValue
+(
+nsCSSProperty
+aProperty
+nsCSSValue
+*
+aValue
+)
+;
 /
 /
 See

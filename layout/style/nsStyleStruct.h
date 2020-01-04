@@ -16008,7 +16008,10 @@ type
 )
 mFillRule
 (
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 )
 {
 mPosition
@@ -16037,7 +16040,7 @@ GetShapeTypeName
 )
 const
 ;
-int32_t
+StyleFillRule
 GetFillRule
 (
 )
@@ -16050,7 +16053,7 @@ mFillRule
 void
 SetFillRule
 (
-int32_t
+StyleFillRule
 aFillRule
 )
 {
@@ -16401,7 +16404,7 @@ StyleBasicShape
 StyleBasicShapeType
 mType
 ;
-int32_t
+StyleFillRule
 mFillRule
 ;
 /
@@ -21918,7 +21921,10 @@ mStrokeOpacity
 [
 inherited
 ]
-uint8_t
+mozilla
+:
+:
+StyleFillRule
 mClipRule
 ;
 /
@@ -21950,7 +21956,10 @@ see
 nsStyleConsts
 .
 h
-uint8_t
+mozilla
+:
+:
+StyleFillRule
 mFillRule
 ;
 /
