@@ -788,6 +788,7 @@ mock_runner
 (
 runner
 mock_marionette
+monkeypatch
 )
 :
     
@@ -808,6 +809,15 @@ marionette
 and
 other
 properties
+    
+to
+enable
+testing
+runner
+.
+run_tests
+(
+)
 .
     
 "
@@ -820,20 +830,55 @@ driverclass
 =
 mock_marionette
     
-runner
-.
+for
+attr
+in
+[
+'
 _set_baseurl
-=
+'
+'
+run_test_set
+'
+'
+_capabilities
+'
+]
+:
+        
+setattr
+(
+runner
+attr
 Mock
 (
+)
 )
     
 runner
 .
-run_test_set
+_appName
 =
+'
+fake_app
+'
+    
+monkeypatch
+.
+setattr
+(
+'
+marionette
+.
+runner
+.
+base
+.
+mozversion
+'
 Mock
 (
+)
 )
     
 return
@@ -2547,17 +2592,9 @@ tests
 def
 test_add_test_manifest
 (
-runner
+mock_runner
 )
 :
-    
-runner
-.
-_appName
-=
-'
-fake_app
-'
     
 manifest
 =
@@ -2728,7 +2765,7 @@ as
 err
 :
                 
-runner
+mock_runner
 .
 add_test
 (
@@ -2792,14 +2829,14 @@ app
 ]
 =
 =
-runner
+mock_runner
 .
 _appName
             
-runner
+mock_runner
 .
 tests
-runner
+mock_runner
 .
 manifest_skipped_tests
 =
@@ -2830,7 +2867,7 @@ True
 )
 :
                 
-runner
+mock_runner
 .
 add_test
 (
@@ -2863,7 +2900,7 @@ call_count
 assert
 len
 (
-runner
+mock_runner
 .
 tests
 )
@@ -2874,7 +2911,7 @@ tests
 assert
 len
 (
-runner
+mock_runner
 .
 manifest_skipped_tests
 )
@@ -2885,7 +2922,7 @@ manifest_skipped_tests
 for
 test
 in
-runner
+mock_runner
 .
 tests
 :
@@ -2967,14 +3004,6 @@ mock_runner
 )
 :
     
-mock_runner
-.
-_appName
-=
-'
-fake_app
-'
-    
 with
 patch
 .
@@ -3041,23 +3070,6 @@ runner
 .
 base
 .
-mozversion
-.
-get_version
-'
-)
-:
-            
-with
-patch
-(
-'
-marionette
-.
-runner
-.
-base
-.
 os
 .
 path
@@ -3069,7 +3081,7 @@ return_value
 True
 )
 :
-                
+            
 mock_runner
 .
 run_tests
@@ -3102,14 +3114,6 @@ test_cleanup_empty_manifest
 mock_runner
 )
 :
-    
-mock_runner
-.
-_appName
-=
-'
-fake_app
-'
     
 with
 patch
@@ -3150,23 +3154,6 @@ return_value
 ]
         
 with
-patch
-(
-'
-marionette
-.
-runner
-.
-base
-.
-mozversion
-.
-get_version
-'
-)
-:
-            
-with
 pytest
 .
 raises
@@ -3176,7 +3163,7 @@ Exception
 as
 exc
 :
-                
+            
 mock_runner
 .
 run_tests
@@ -3220,7 +3207,7 @@ None
 def
 test_reset_test_stats
 (
-runner
+mock_runner
 )
 :
     
@@ -3289,22 +3276,22 @@ stats
 assert
 reset_successful
 (
-runner
+mock_runner
 )
     
-runner
+mock_runner
 .
 passed
 =
 1
     
-runner
+mock_runner
 .
 failed
 =
 1
     
-runner
+mock_runner
 .
 failures
 .
@@ -3325,19 +3312,10 @@ assert
 not
 reset_successful
 (
-runner
+mock_runner
 )
     
-with
-pytest
-.
-raises
-(
-Exception
-)
-:
-        
-runner
+mock_runner
 .
 run_tests
 (
@@ -3354,7 +3332,7 @@ py
 assert
 reset_successful
 (
-runner
+mock_runner
 )
 def
 test_initialize_test_run
@@ -3382,23 +3360,6 @@ Mock
 (
 )
     
-with
-patch
-(
-'
-marionette
-.
-runner
-.
-base
-.
-mozversion
-.
-get_version
-'
-)
-:
-        
 mock_runner
 .
 run_tests
@@ -3544,23 +3505,6 @@ abc
 "
 ]
     
-with
-patch
-(
-'
-marionette
-.
-runner
-.
-base
-.
-mozversion
-.
-get_version
-'
-)
-:
-        
 mock_runner
 .
 run_tests
