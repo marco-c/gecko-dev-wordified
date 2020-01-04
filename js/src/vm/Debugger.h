@@ -5011,7 +5011,7 @@ MutableHandleValue
 vp
 )
 ;
-JSObject
+NativeObject
 *
 newVariantWrapper
 (
@@ -5033,7 +5033,7 @@ referent
 )
 ;
 }
-JSObject
+NativeObject
 *
 newVariantWrapper
 (
@@ -5181,7 +5181,7 @@ referent
 .
 *
 /
-JSObject
+NativeObject
 *
 newDebuggerScript
 (
@@ -5216,7 +5216,7 @@ referent
 .
 *
 /
-JSObject
+NativeObject
 *
 newDebuggerSource
 (
