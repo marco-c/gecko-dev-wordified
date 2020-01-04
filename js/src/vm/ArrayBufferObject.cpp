@@ -2202,6 +2202,15 @@ correct
 pointer
 )
 .
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+(
+cx
+)
+;
 uint8_t
 *
 viewDataPointer
@@ -2211,6 +2220,7 @@ view
 >
 dataPointerUnshared
 (
+nogc
 )
 ;
 if
@@ -9394,7 +9404,7 @@ InlineTypedObject
 (
 )
 .
-inlineTypedMem
+inlineTypedMemForGC
 (
 )
 +
@@ -9723,6 +9733,13 @@ ArrayBufferViewObject
 :
 dataPointerUnshared
 (
+const
+JS
+:
+:
+AutoAssertOnGC
+&
+nogc
 )
 {
 if
@@ -9808,6 +9825,7 @@ TypedObject
 .
 typedMem
 (
+nogc
 )
 ;
 }
