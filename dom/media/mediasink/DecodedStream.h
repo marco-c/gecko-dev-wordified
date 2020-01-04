@@ -801,12 +801,6 @@ aSameOrigin
 )
 ;
 bool
-IsFinished
-(
-)
-const
-;
-bool
 HasConsumers
 (
 )
