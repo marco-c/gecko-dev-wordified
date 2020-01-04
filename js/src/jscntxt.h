@@ -1882,6 +1882,16 @@ addPendingOutOfMemory
 ;
 }
 ;
+void
+ReportOverRecursed
+(
+JSContext
+*
+cx
+unsigned
+errorNumber
+)
+;
 }
 /
 *
@@ -2010,6 +2020,8 @@ ReportOverRecursed
 (
 JSContext
 *
+unsigned
+errorNumber
 )
 ;
 private
