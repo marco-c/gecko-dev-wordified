@@ -781,15 +781,6 @@ char
 result
 )
 ;
-nsresult
-GetJSContext
-(
-JSContext
-*
-*
-outContext
-)
-;
 #
 if
 defined
