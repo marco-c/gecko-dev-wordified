@@ -825,7 +825,7 @@ MOZ_COLLECT_REPORT
 "
 explicit
 /
-xpcom
+network
 /
 effective
 -
