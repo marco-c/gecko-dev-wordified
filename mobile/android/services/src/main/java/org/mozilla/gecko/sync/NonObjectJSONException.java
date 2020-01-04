@@ -92,4 +92,17 @@ detailMessage
 )
 ;
 }
+public
+NonObjectJSONException
+(
+Throwable
+throwable
+)
+{
+super
+(
+throwable
+)
+;
+}
 }

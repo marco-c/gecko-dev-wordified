@@ -2148,7 +2148,7 @@ calledError
 ;
 assertEquals
 (
-ParseException
+NonObjectJSONException
 .
 class
 callback

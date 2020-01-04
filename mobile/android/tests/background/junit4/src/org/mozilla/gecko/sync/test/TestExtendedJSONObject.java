@@ -967,7 +967,7 @@ fail
 }
 catch
 (
-ParseException
+NonArrayJSONException
 e
 )
 {
@@ -1112,7 +1112,7 @@ fail
 }
 catch
 (
-ParseException
+NonObjectJSONException
 e
 )
 {
@@ -1149,7 +1149,7 @@ fail
 }
 catch
 (
-ParseException
+NonObjectJSONException
 e
 )
 {
