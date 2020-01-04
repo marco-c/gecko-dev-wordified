@@ -1680,6 +1680,13 @@ TextOffsetType
 :
 :
 OFFSETS_IN_CONTENT_TEXT
+TrailingWhitespace
+aTrimTrailingWhitespace
+=
+TrailingWhitespace
+:
+:
+TRIM_TRAILING_WHITESPACE
 )
 override
 ;
