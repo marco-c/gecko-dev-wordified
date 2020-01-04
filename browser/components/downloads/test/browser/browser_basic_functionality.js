@@ -389,7 +389,7 @@ download
 =
 DownloadsView
 .
-controllerForElement
+itemForElement
 (
 element
 )
