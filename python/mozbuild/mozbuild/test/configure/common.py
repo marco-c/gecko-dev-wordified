@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+copy
+import
 errno
 import
 os
@@ -523,6 +525,17 @@ CONFIG_SHELL
 ]
 )
         
+self
+.
+_environ
+=
+copy
+.
+copy
+(
+environ
+)
+        
 vfs
 =
 ConfigureTestVFS
@@ -708,6 +721,22 @@ self
 Popen
             
 )
+        
+if
+what
+=
+=
+'
+os
+.
+environ
+'
+:
+            
+return
+self
+.
+_environ
         
 return
 super
