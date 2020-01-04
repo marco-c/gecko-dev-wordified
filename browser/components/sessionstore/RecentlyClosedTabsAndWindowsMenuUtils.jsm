@@ -1574,15 +1574,9 @@ aElement
 let
 iconURL
 =
-PlacesUtils
-.
-getImageURLForResolution
-(
-aWindow
 aItem
 .
 image
-)
 ;
 /
 /
