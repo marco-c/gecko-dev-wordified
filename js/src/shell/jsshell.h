@@ -237,10 +237,11 @@ FileAsString
 JSContext
 *
 cx
-const
-char
-*
-pathname
+JS
+:
+:
+HandleString
+pathnameStr
 )
 ;
 class
