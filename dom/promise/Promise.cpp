@@ -17489,6 +17489,7 @@ mWorkerHolder
 HoldWorker
 (
 worker
+Closing
 )
 )
 )
@@ -18802,6 +18803,7 @@ mWorkerHolder
 HoldWorker
 (
 mWorkerPrivate
+Canceling
 )
 )
 )
