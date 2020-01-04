@@ -8282,6 +8282,11 @@ warnOnceAboutExprClosure
 (
 )
 ;
+bool
+warnOnceAboutForEach
+(
+)
+;
 }
 ;
 }

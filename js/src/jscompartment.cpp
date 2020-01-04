@@ -423,6 +423,10 @@ warnedAboutExprClosure
 (
 false
 )
+warnedAboutForEach
+(
+false
+)
 #
 ifdef
 DEBUG

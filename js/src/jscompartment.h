@@ -2628,6 +2628,9 @@ marked
 bool
 warnedAboutExprClosure
 ;
+bool
+warnedAboutForEach
+;
 #
 ifdef
 DEBUG
