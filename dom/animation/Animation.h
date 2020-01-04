@@ -670,6 +670,7 @@ next
 patch
 .
 }
+virtual
 void
 SetEffect
 (
