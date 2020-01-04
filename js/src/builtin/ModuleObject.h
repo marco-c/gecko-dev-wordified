@@ -131,15 +131,6 @@ h
 #
 include
 "
-gc
-/
-Zone
-.
-h
-"
-#
-include
-"
 js
 /
 TraceableVector
@@ -406,13 +397,6 @@ IndirectBindingMap
 {
 public
 :
-IndirectBindingMap
-(
-Zone
-*
-zone
-)
-;
 bool
 init
 (
@@ -571,7 +555,7 @@ HashMap
 jsid
 Binding
 JsidHasher
-ZoneAllocPolicy
+SystemAllocPolicy
 >
 Map
 ;
@@ -952,8 +936,6 @@ FunctionDeclarationVector
 TraceableVector
 <
 FunctionDeclaration
-0
-ZoneAllocPolicy
 >
 ;
 class
