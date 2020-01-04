@@ -190,6 +190,10 @@ const
 nsAString
 &
 aTargetPath
+const
+nsAString
+&
+aFilters
 ErrorResult
 &
 aRv
@@ -291,6 +295,9 @@ mPromise
 ;
 nsString
 mTargetRealPath
+;
+nsString
+mFilters
 ;
 /
 /
