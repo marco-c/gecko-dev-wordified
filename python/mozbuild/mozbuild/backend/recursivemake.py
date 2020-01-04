@@ -10331,6 +10331,22 @@ if
 have_objdir_files
 :
                 
+self
+.
+_no_skip
+[
+'
+export
+'
+]
+.
+add
+(
+backend_file
+.
+relobjdir
+)
+                
 backend_file
 .
 write
