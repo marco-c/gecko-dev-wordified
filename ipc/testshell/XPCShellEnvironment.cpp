@@ -2772,12 +2772,6 @@ rt
 AutoSafeJSContext
 cx
 ;
-JS_SetContextPrivate
-(
-cx
-this
-)
-;
 nsCOMPtr
 <
 nsIXPConnect
