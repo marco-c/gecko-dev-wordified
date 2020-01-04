@@ -2598,6 +2598,13 @@ SkipAccessPointPromise
 mSkipRequest
 ;
 void
+VideoSkipReset
+(
+uint32_t
+aSkipped
+)
+;
+void
 OnVideoSkipCompleted
 (
 uint32_t
