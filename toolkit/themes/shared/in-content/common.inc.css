@@ -4099,9 +4099,13 @@ checkbox
 "
 ]
 {
-visibility
+opacity
 :
-hidden
+0
+;
+width
+:
+0
 ;
 position
 :
