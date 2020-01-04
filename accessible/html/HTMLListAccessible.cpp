@@ -636,6 +636,11 @@ mBullet
 nullptr
 )
 ;
+AppendChild
+(
+mBullet
+)
+;
 }
 }
 NS_IMPL_ISUPPORTS_INHERITED0
