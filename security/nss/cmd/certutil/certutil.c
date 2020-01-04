@@ -2481,6 +2481,10 @@ rv
 SECFailure
 ;
 }
+rv
+=
+SECSuccess
+;
 break
 ;
 }

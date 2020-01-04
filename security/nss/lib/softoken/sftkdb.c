@@ -14979,17 +14979,6 @@ flags
 SDB_CREATE
 ;
 }
-if
-(
-isFIPS
-)
-{
-flags
-|
-=
-SDB_FIPS
-;
-}
 *
 certDB
 =
@@ -15051,6 +15040,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15080,6 +15070,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15173,11 +15164,7 @@ CKR_OK
 if
 (
 (
-(
 flags
-&
-SDB_RDONLY
-)
 =
 =
 SDB_RDONLY
@@ -15231,6 +15218,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
@@ -15671,6 +15659,7 @@ keyPrefix
 8
 3
 flags
+isFIPS
 noCertDB
 ?
 NULL
