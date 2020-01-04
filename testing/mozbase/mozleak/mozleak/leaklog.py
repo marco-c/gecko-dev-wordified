@@ -1119,13 +1119,6 @@ and
 recordLeakedObjects
 :
                 
-leakedObjectNames
-.
-append
-(
-name
-)
-                
 currExpectedLeak
 =
 expectedLeaks
@@ -1145,6 +1138,18 @@ numLeaked
 =
 currExpectedLeak
 :
+                    
+if
+not
+expectedLeaks
+:
+                        
+leakedObjectNames
+.
+append
+(
+name
+)
                     
 leakedObjectAnalysis
 .
@@ -1177,16 +1182,19 @@ name
 else
 :
                     
+leakedObjectNames
+.
+append
+(
+name
+)
+                    
 leakedObjectAnalysis
 .
 append
 (
 "
-TEST
--
-UNEXPECTED
--
-FAIL
+WARNING
 |
 leakcheck
 |
@@ -1434,21 +1442,16 @@ processString
         
 return
     
-#
-totalBytesLeaked
-was
-seen
-and
-is
-non
--
-zero
-.
-    
 if
 totalBytesLeaked
 >
 leakThreshold
+or
+(
+expectedLeaks
+and
+leakedObjectNames
+)
 :
         
 logAsWarning
@@ -1572,6 +1575,27 @@ leakedObjectSummary
 .
 .
 '
+    
+#
+totalBytesLeaked
+will
+include
+any
+expected
+leaks
+so
+it
+can
+be
+off
+    
+#
+by
+a
+few
+thousand
+bytes
+.
     
 if
 logAsWarning
