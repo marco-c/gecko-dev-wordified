@@ -6709,6 +6709,13 @@ non
 remote
 page
 .
+Cu
+.
+reportError
+(
+e
+)
+;
 gBrowser
 .
 updateBrowserRemotenessByURL
