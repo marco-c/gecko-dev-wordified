@@ -1152,6 +1152,9 @@ parentStyleOrNull
 nsIAtom
 *
 pseudoTag
+RawServoStyleSet
+*
+set
 )
 {
 MOZ_CRASH

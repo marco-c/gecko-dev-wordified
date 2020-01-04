@@ -633,6 +633,11 @@ Servo_GetComputedValuesForAnonymousBox
 (
 parentStyle
 aPseudoTag
+mRawSet
+.
+get
+(
+)
 )
 )
 ;
