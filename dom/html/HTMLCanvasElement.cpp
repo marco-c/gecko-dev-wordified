@@ -3144,11 +3144,10 @@ nsGkAtoms
 height
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 NS_STYLE_HINT_REFLOW
-)
 ;
 }
 else
@@ -3163,11 +3162,10 @@ nsGkAtoms
 moz_opaque
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 NS_STYLE_HINT_VISUAL
-)
 ;
 }
 return

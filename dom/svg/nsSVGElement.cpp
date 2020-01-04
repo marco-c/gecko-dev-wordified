@@ -5652,11 +5652,10 @@ t
 /
 know
 that
-NS_UpdateHint
-(
 retval
+|
+=
 nsChangeHint_ReconstructFrame
-)
 ;
 }
 return

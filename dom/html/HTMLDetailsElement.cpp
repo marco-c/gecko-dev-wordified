@@ -406,11 +406,10 @@ nsGkAtoms
 open
 )
 {
-NS_UpdateHint
-(
 hint
+|
+=
 nsChangeHint_ReconstructFrame
-)
 ;
 }
 return
