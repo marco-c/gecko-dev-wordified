@@ -5079,7 +5079,7 @@ i
 Telemetry
 :
 :
-RecordWebRtcIceCandidates
+RecordWebrtcIceCandidates
 (
 i
 -
