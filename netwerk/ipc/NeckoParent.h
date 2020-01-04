@@ -765,9 +765,9 @@ uint16_t
 &
 aBacklog
 const
-nsString
+bool
 &
-aBinaryType
+aUseArrayBuffers
 )
 override
 ;
@@ -786,9 +786,9 @@ uint16_t
 &
 aBacklog
 const
-nsString
+bool
 &
-aBinaryType
+aUseArrayBuffers
 )
 override
 ;

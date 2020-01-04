@@ -1145,13 +1145,6 @@ p
 new
 TCPSocketChild
 (
-)
-;
-p
--
->
-Init
-(
 host
 port
 )
@@ -1218,9 +1211,9 @@ uint16_t
 &
 aBacklog
 const
-nsString
+bool
 &
-aBinaryType
+aUseArrayBuffers
 )
 {
 NS_NOTREACHED
