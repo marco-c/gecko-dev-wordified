@@ -983,7 +983,6 @@ buffer
 )
 ;
 }
-static
 JSObject
 *
 FileAsTypedArray
