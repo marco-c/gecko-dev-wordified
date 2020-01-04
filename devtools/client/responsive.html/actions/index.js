@@ -158,6 +158,15 @@ ADD_VIEWPORT
 "
 /
 /
+Resize
+the
+viewport
+.
+"
+RESIZE_VIEWPORT
+"
+/
+/
 Rotate
 the
 viewport
