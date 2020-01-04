@@ -1335,7 +1335,7 @@ setData
 ycbcr_image
 -
 >
-SetData
+CopyData
 (
 data
 )

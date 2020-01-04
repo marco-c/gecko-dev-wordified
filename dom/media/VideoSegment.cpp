@@ -616,8 +616,7 @@ MONO
 ;
 /
 /
-SetData
-copies
+Copies
 data
 so
 we
@@ -631,7 +630,7 @@ if
 image
 -
 >
-SetData
+CopyData
 (
 data
 )

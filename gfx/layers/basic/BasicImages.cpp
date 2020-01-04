@@ -429,7 +429,7 @@ mStride
 }
 virtual
 bool
-SetData
+CopyData
 (
 const
 Data
@@ -605,7 +605,7 @@ bool
 BasicPlanarYCbCrImage
 :
 :
-SetData
+CopyData
 (
 const
 Data
@@ -616,7 +616,7 @@ aData
 RecyclingPlanarYCbCrImage
 :
 :
-SetData
+CopyData
 (
 aData
 )

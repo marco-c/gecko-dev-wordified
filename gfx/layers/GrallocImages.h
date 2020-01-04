@@ -410,6 +410,12 @@ Data
 aData
 )
 ;
+using
+RecyclingPlanarYCbCrImage
+:
+:
+AdoptData
+;
 /
 *
 *
@@ -436,7 +442,7 @@ managers
 *
 /
 void
-SetData
+AdoptData
 (
 TextureClient
 *

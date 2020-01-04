@@ -559,7 +559,7 @@ bool
 SharedPlanarYCbCrImage
 :
 :
-SetData
+CopyData
 (
 const
 PlanarYCbCrData
@@ -899,7 +899,7 @@ bool
 SharedPlanarYCbCrImage
 :
 :
-SetDataNoCopy
+AdoptData
 (
 const
 Data
@@ -909,7 +909,7 @@ aData
 {
 /
 /
-SetDataNoCopy
+AdoptData
 is
 used
 to

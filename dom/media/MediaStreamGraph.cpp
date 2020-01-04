@@ -6911,7 +6911,7 @@ IntSize
 aImage
 -
 >
-SetData
+CopyData
 (
 data
 )

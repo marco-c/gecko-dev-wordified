@@ -3594,7 +3594,7 @@ Test
 for
 data
 allowing
-SetDataNoCopy
+AdoptData
 (
 )
 on
