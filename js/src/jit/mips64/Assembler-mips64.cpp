@@ -1849,7 +1849,7 @@ skip
 trailing
 nops
 can
-imporve
+improve
 performance
 /
 /
