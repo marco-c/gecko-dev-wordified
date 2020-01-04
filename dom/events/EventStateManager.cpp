@@ -13476,7 +13476,7 @@ scrollDeltaX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ?
 0
 :
@@ -13484,7 +13484,7 @@ lineOrPageDeltaX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 >
 0
 ?
@@ -13569,7 +13569,7 @@ scrollDeltaX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 scrollDeltaY
 =
@@ -13619,7 +13619,7 @@ scrollDeltaX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 scrollDeltaY
 =
@@ -33044,7 +33044,7 @@ delta
 values
 and
 init
-lineOrPageDeltaX
+mLineOrPageDeltaX
 and
 /
 /
@@ -33194,7 +33194,7 @@ height
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 RoundDown
 (
@@ -33225,7 +33225,7 @@ mX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 *
 scrollAmountInCSSPixels
 .
@@ -33249,7 +33249,7 @@ else
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 RoundDown
 (
@@ -33272,7 +33272,7 @@ mX
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 mY
 -
@@ -34623,7 +34623,7 @@ aEvent
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 *
 =
 static_cast
@@ -34660,7 +34660,7 @@ else
 aEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 0
 ;

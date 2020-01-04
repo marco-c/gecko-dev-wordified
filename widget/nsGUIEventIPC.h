@@ -1116,7 +1116,7 @@ WriteParam
 aMsg
 aParam
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 ;
 WriteParam
@@ -1329,7 +1329,7 @@ aIter
 aResult
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 &
 &

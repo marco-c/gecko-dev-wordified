@@ -1975,7 +1975,7 @@ IsMomentum
 ;
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 mLineOrPageDeltaX
 ;
@@ -2287,7 +2287,7 @@ mLineOrPageDeltaX
 (
 aWheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 mLineOrPageDeltaY
 (
@@ -2451,7 +2451,7 @@ mDeltaY
 ;
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 mLineOrPageDeltaX
 ;

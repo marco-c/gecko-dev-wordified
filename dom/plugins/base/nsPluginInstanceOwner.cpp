@@ -12017,7 +12017,7 @@ deltaX
 wheelEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 cocoaEvent
 .
@@ -13525,7 +13525,7 @@ if
 wheelEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 {
 switch
@@ -13556,7 +13556,7 @@ WHEEL_DELTA
 wheelEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 break
 ;
@@ -13640,11 +13640,14 @@ delta
 WHEEL_DELTA
 /
 charsPerWheelDelta
+;
+delta
 *
+=
 wheelEvent
 -
 >
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 break
 ;

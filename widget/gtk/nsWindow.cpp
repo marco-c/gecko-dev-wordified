@@ -17915,7 +17915,7 @@ mDeltaX
 =
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 -
 1
@@ -17931,7 +17931,7 @@ mDeltaX
 =
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 1
 ;
