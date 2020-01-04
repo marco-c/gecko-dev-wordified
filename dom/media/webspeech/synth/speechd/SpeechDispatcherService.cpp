@@ -1326,7 +1326,7 @@ service
 {
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 uint32_t
 SPDNotificationType
@@ -1515,7 +1515,7 @@ mInitThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -2131,7 +2131,7 @@ lang
 }
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -2822,7 +2822,7 @@ event
 .
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 SPDNotificationType
 >
@@ -2839,7 +2839,7 @@ SPD_EVENT_BEGIN
 ;
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 SPDNotificationType
 >

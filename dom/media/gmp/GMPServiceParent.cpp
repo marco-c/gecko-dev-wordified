@@ -2693,7 +2693,7 @@ gmpThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -3267,7 +3267,7 @@ IsEmpty
 return
 GMPDispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -3324,7 +3324,7 @@ rv
 return
 GMPDispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 PRTime
 >
@@ -3981,7 +3981,7 @@ nsIRunnable
 >
 task
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -4846,7 +4846,7 @@ nsIRunnable
 >
 task
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -11285,7 +11285,7 @@ NS_IsMainThread
 return
 GMPDispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >

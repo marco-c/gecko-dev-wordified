@@ -466,7 +466,7 @@ nsIRunnable
 >
 vsyncControl
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 bool
 >
@@ -852,9 +852,13 @@ NS_IsMainThread
 )
 )
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+vsyncControl
+=
+NS_NewRunnableMethod
 (
 this
 &
@@ -863,6 +867,10 @@ RefreshTimerVsyncDispatcher
 :
 UpdateVsyncStatus
 )
+;
+NS_DispatchToMainThread
+(
+vsyncControl
 )
 ;
 return

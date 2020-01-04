@@ -1745,10 +1745,7 @@ nsIRunnable
 >
 event
 =
-mozilla
-:
-:
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

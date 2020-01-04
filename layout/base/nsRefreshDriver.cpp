@@ -2661,7 +2661,7 @@ nsIRunnable
 >
 vsyncEvent
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 TimeStamp
 >
@@ -11631,7 +11631,7 @@ DoRefresh
 .
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

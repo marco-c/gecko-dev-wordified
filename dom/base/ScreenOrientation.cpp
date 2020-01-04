@@ -2642,7 +2642,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -3070,7 +3070,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 orientation
 &

@@ -274,10 +274,6 @@ Bridge
 PostTaskToUiThread
 (
 NewRunnableMethod
-<
-uint64_t
-bool
->
 (
 aManager
 &

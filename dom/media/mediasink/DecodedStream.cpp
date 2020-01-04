@@ -377,7 +377,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -558,7 +558,7 @@ aBlocking
 {
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 aStream
 &
@@ -573,7 +573,7 @@ else
 {
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 aStream
 &

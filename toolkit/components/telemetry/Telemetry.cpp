@@ -10315,7 +10315,7 @@ nsIRunnable
 >
 e
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

@@ -1983,9 +1983,13 @@ ProcessComplete
 }
 else
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+event
+=
+NS_NewRunnableMethod
 (
 process
 &
@@ -1994,6 +1998,10 @@ nsProcess
 :
 ProcessComplete
 )
+;
+NS_DispatchToMainThread
+(
+event
 )
 ;
 }

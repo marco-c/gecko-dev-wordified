@@ -8568,7 +8568,7 @@ nsIRunnable
 >
 ev
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

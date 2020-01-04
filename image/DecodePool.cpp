@@ -1083,9 +1083,13 @@ it
 for
 us
 .
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+runnable
+=
+NS_NewRunnableMethod
 (
 aThisThread
 &
@@ -1094,6 +1098,10 @@ nsIThread
 :
 Shutdown
 )
+;
+NS_DispatchToMainThread
+(
+runnable
 )
 ;
 }

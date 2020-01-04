@@ -572,7 +572,7 @@ mFunc
 ;
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -2581,7 +2581,7 @@ directly
 .
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -2688,7 +2688,7 @@ address
 .
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -2725,7 +2725,7 @@ platforms
 .
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >

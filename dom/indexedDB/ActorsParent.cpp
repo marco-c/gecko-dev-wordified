@@ -52200,7 +52200,7 @@ nsIRunnable
 >
 shutdownRunnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 thread
 &
@@ -61305,7 +61305,7 @@ nsIRunnable
 >
 callback
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -98956,7 +98956,7 @@ nsIRunnable
 >
 callback
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

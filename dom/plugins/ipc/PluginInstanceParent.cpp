@@ -6226,7 +6226,7 @@ requested
 ;
 mCaptureRefreshTask
 =
-NewNonOwningCancelableRunnableMethod
+NS_NewNonOwningRunnableMethod
 (
 this
 &

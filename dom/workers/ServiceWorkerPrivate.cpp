@@ -2889,7 +2889,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 uint16_t
 >
@@ -6990,7 +6990,7 @@ nsIRunnable
 >
 failRunnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 aChannel
 &

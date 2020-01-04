@@ -7814,7 +7814,7 @@ to
 pass
 them
 using
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 .
 UniquePtr
 <
@@ -7860,7 +7860,7 @@ mIOThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 PathRunnablesParametersWrapper
 *
@@ -8185,7 +8185,7 @@ to
 pass
 them
 using
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 .
 UniquePtr
 <
@@ -8231,7 +8231,7 @@ mIOThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 PathRunnablesParametersWrapper
 *
@@ -8552,7 +8552,7 @@ ioThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 static_cast
 <

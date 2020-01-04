@@ -1142,7 +1142,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 TrackID
 MediaSegment
@@ -1197,7 +1197,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 MediaStream
 *
@@ -1647,7 +1647,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 StorensRefPtrPassByPtr
 <
@@ -1695,7 +1695,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

@@ -367,7 +367,7 @@ nsIRunnable
 >
 destroyRunnable
 =
-NewNonOwningRunnableMethod
+NS_NewNonOwningRunnableMethod
 (
 this
 &

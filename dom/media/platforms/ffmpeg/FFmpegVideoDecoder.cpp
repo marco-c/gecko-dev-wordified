@@ -2236,7 +2236,7 @@ nsIRunnable
 >
 runnable
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 RefPtr
 <

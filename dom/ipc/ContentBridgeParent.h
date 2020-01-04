@@ -381,7 +381,7 @@ Close
 /
 /
 Trick
-NewRunnableMethod
+NS_NewRunnableMethod
 PContentBridgeParent
 :
 :

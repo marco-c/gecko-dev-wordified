@@ -337,7 +337,7 @@ nsIRunnable
 >
 vsyncEvent
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 TimeStamp
 >

@@ -123,12 +123,6 @@ mozilla
 :
 safebrowsing
 ;
-using
-mozilla
-:
-:
-NewRunnableMethod
-;
 static
 nsresult
 DispatchToWorkerThread
@@ -509,7 +503,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &
@@ -671,7 +665,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &
@@ -702,7 +696,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &
@@ -733,7 +727,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &
@@ -764,7 +758,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &
@@ -795,7 +789,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mTarget
 &

@@ -5202,7 +5202,7 @@ rv
 =
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -7301,7 +7301,7 @@ gSocketTransportService
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -7594,7 +7594,7 @@ nsIRunnable
 >
 ev
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

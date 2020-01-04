@@ -8358,7 +8358,7 @@ mTargetThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -8454,7 +8454,7 @@ mSocketThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -8955,7 +8955,7 @@ lock
 .
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -17902,7 +17902,7 @@ mTargetThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -18000,7 +18000,7 @@ mSocketThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 nsresult
 >
@@ -18029,7 +18029,7 @@ mSocketThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

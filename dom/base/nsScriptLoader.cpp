@@ -3046,7 +3046,7 @@ URI
 object
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 aElement
 &
@@ -3518,7 +3518,7 @@ load
 failure
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 aElement
 &
@@ -7275,9 +7275,13 @@ IsEmpty
 )
 )
 {
-NS_DispatchToCurrentThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+ev
+=
+NS_NewRunnableMethod
 (
 this
 &
@@ -7286,6 +7290,10 @@ nsScriptLoader
 :
 ProcessPendingRequests
 )
+;
+NS_DispatchToCurrentThread
+(
+ev
 )
 ;
 }
