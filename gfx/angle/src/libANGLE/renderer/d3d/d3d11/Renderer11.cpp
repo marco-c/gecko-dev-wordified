@@ -14882,6 +14882,16 @@ isLost
 =
 false
 ;
+if
+(
+!
+mDevice
+)
+{
+return
+true
+;
+}
 /
 /
 GetRemovedReason
