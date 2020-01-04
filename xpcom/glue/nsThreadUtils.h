@@ -4626,6 +4626,7 @@ Ts
 >
 struct
 RunnableMethodArguments
+final
 {
 Tuple
 <
@@ -4866,6 +4867,7 @@ Storages
 >
 class
 RunnableMethodImpl
+final
 :
 public
 :
