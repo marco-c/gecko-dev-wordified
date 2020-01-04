@@ -1857,9 +1857,7 @@ sha256WithRSAEncryption
 )
 serialNumber
 issuerDER
-oneDayBeforeNow
--
-ONE_DAY_IN_SECONDS_AS_TIME_T
+twoDaysBeforeNow
 oneDayBeforeNow
 subjectDER
 *
