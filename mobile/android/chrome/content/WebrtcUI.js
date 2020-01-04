@@ -1242,7 +1242,7 @@ add
 (
 aUri
 "
-camera
+MediaManagerVideo
 "
 perms
 .
