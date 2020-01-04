@@ -164,6 +164,8 @@ many
 '
 xpcom
 -
+will
+-
 shutdown
 '
 notification
@@ -173,8 +175,8 @@ short
 -
 lived
 objects
-which
 *
+which
 would
 have
 an

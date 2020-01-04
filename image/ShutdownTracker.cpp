@@ -502,6 +502,8 @@ aTopic
 "
 xpcom
 -
+will
+-
 shutdown
 "
 )
@@ -540,6 +542,8 @@ RemoveObserver
 this
 "
 xpcom
+-
+will
 -
 shutdown
 "
@@ -772,6 +776,8 @@ new
 ShutdownObserver
 "
 xpcom
+-
+will
 -
 shutdown
 "
