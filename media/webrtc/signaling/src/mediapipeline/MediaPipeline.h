@@ -2729,6 +2729,11 @@ const
 MediaSegment
 &
 queued_media
+MediaStream
+*
+input_stream
+TrackID
+input_tid
 )
 override
 ;
@@ -3471,6 +3476,11 @@ const
 MediaSegment
 &
 queued_media
+MediaStream
+*
+input_stream
+TrackID
+input_tid
 )
 override
 {
@@ -3969,6 +3979,11 @@ const
 MediaSegment
 &
 queued_media
+MediaStream
+*
+input_stream
+TrackID
+input_tid
 )
 override
 {
