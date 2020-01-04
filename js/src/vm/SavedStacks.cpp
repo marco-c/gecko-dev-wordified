@@ -1545,6 +1545,11 @@ Lookup
 lookup
 )
 {
+MOZ_ASSERT
+(
+existing
+)
+;
 if
 (
 existing
