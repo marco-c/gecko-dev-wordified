@@ -23937,7 +23937,7 @@ opcodeAt
 Expr
 :
 :
-I32LoadMem8S
+I32Load8S
 )
 ;
 break
@@ -23960,7 +23960,7 @@ opcodeAt
 Expr
 :
 :
-I32LoadMem8U
+I32Load8U
 )
 ;
 break
@@ -23983,7 +23983,7 @@ opcodeAt
 Expr
 :
 :
-I32LoadMem16S
+I32Load16S
 )
 ;
 break
@@ -24006,7 +24006,7 @@ opcodeAt
 Expr
 :
 :
-I32LoadMem16U
+I32Load16U
 )
 ;
 break
@@ -24035,7 +24035,7 @@ opcodeAt
 Expr
 :
 :
-I32LoadMem
+I32Load
 )
 ;
 break
@@ -24058,7 +24058,7 @@ opcodeAt
 Expr
 :
 :
-F32LoadMem
+F32Load
 )
 ;
 break
@@ -24081,7 +24081,7 @@ opcodeAt
 Expr
 :
 :
-F64LoadMem
+F64Load
 )
 ;
 break
@@ -24500,7 +24500,7 @@ opcodeAt
 Expr
 :
 :
-I32StoreMem8
+I32Store8
 )
 ;
 break
@@ -24529,7 +24529,7 @@ opcodeAt
 Expr
 :
 :
-I32StoreMem16
+I32Store16
 )
 ;
 break
@@ -24558,7 +24558,7 @@ opcodeAt
 Expr
 :
 :
-I32StoreMem
+I32Store
 )
 ;
 break
@@ -24589,7 +24589,7 @@ opcodeAt
 Expr
 :
 :
-F32StoreMem
+F32Store
 )
 ;
 else
@@ -24605,7 +24605,7 @@ opcodeAt
 Expr
 :
 :
-F64StoreMemF32
+F64StoreF32
 )
 ;
 break
@@ -24636,7 +24636,7 @@ opcodeAt
 Expr
 :
 :
-F32StoreMemF64
+F32StoreF64
 )
 ;
 else
@@ -24652,7 +24652,7 @@ opcodeAt
 Expr
 :
 :
-F64StoreMem
+F64Store
 )
 ;
 break
