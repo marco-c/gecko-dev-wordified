@@ -247,6 +247,8 @@ and
 sandbox
 pref
 level
+>
+=
 1
 .
 if
@@ -272,8 +274,7 @@ content
 level
 "
 )
-!
-=
+<
 1
 )
 {
