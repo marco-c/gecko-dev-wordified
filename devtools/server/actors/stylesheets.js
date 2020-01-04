@@ -321,8 +321,6 @@ devtools
 /
 shared
 /
-shared
-/
 indentation
 "
 )
