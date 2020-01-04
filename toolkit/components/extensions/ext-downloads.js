@@ -1717,6 +1717,10 @@ normalizeTime
 (
 arg
 )
+.
+getTime
+(
+)
 ;
 }
 }

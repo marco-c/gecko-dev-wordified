@@ -357,8 +357,7 @@ newFilter
 {
 beginDate
 :
-new
-Date
+normalizeTime
 (
 filter
 .
@@ -366,8 +365,7 @@ startTime
 )
 endDate
 :
-new
-Date
+normalizeTime
 (
 filter
 .
