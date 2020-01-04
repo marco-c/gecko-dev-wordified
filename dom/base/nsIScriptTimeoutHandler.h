@@ -263,12 +263,11 @@ compiled
 object
 .
 virtual
-void
+const
+char16_t
+*
 GetHandlerText
 (
-nsAString
-&
-aString
 )
 =
 0
