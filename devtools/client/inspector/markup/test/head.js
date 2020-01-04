@@ -1393,7 +1393,7 @@ let
 container
 =
 yield
-getContainerForSelector
+focusNode
 (
 selector
 inspector

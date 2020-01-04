@@ -111,15 +111,6 @@ expandAll
 (
 )
 ;
-yield
-selectNode
-(
-"
-div
-"
-inspector
-)
-;
 info
 (
 "
@@ -138,7 +129,7 @@ let
 container
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 div

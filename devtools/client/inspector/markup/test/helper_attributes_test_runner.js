@@ -1273,7 +1273,7 @@ let
 container
 =
 yield
-getContainerForSelector
+focusNode
 (
 test
 .

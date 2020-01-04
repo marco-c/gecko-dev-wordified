@@ -151,7 +151,7 @@ node
 )
 ;
 yield
-selectNode
+focusNode
 (
 "
 #

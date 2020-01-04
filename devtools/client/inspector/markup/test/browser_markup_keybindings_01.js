@@ -134,7 +134,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 div

@@ -302,7 +302,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 #
@@ -597,7 +597,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 #
@@ -886,7 +886,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 #

@@ -199,7 +199,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 svg
@@ -413,7 +413,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 "
 svg
