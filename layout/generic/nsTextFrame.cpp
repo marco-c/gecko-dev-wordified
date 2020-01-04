@@ -1192,10 +1192,10 @@ NS_DECLARE_FRAME_PROPERTY_DELETABLE
 TabWidthProperty
 TabWidthStore
 )
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 (
 OffsetToFrameProperty
-nullptr
+nsTextFrame
 )
 /
 /
@@ -1208,10 +1208,10 @@ the
 text
 run
 cache
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 (
 UninflatedTextRunProperty
-nullptr
+gfxTextRun
 )
 NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
@@ -29632,12 +29632,6 @@ GetUninflatedTextRun
 )
 {
 return
-static_cast
-<
-gfxTextRun
-*
->
-(
 Properties
 (
 )
@@ -29646,7 +29640,6 @@ Get
 (
 UninflatedTextRunProperty
 (
-)
 )
 )
 ;
@@ -47004,12 +46997,6 @@ nsTextFrame
 *
 cachedFrame
 =
-static_cast
-<
-nsTextFrame
-*
->
-(
 Properties
 (
 )
@@ -47018,7 +47005,6 @@ Get
 (
 OffsetToFrameProperty
 (
-)
 )
 )
 ;

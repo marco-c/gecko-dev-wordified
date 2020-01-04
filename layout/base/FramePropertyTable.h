@@ -450,8 +450,6 @@ template
 <
 typename
 T
-=
-void
 >
 struct
 FramePropertyDescriptor
