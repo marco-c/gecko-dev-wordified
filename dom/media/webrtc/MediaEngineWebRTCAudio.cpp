@@ -1215,10 +1215,7 @@ const
 nsTArray
 <
 const
-dom
-:
-:
-MediaTrackConstraintSet
+NormalizedConstraintSet
 *
 >
 &
@@ -1237,7 +1234,7 @@ distance
 for
 (
 const
-MediaTrackConstraintSet
+auto
 *
 cs
 :
@@ -1250,7 +1247,6 @@ GetMinimumFitnessDistance
 (
 *
 cs
-false
 aDeviceId
 )
 ;
@@ -4763,10 +4759,7 @@ const
 nsTArray
 <
 const
-dom
-:
-:
-MediaTrackConstraintSet
+NormalizedConstraintSet
 *
 >
 &
