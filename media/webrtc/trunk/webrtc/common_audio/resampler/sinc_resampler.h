@@ -127,11 +127,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-aligned_malloc
+scoped_ptr
 .
 h
 "
@@ -144,7 +142,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+aligned_malloc
 .
 h
 "
@@ -870,6 +868,12 @@ defined
 (
 WEBRTC_ARCH_ARM_V7
 )
+|
+|
+defined
+(
+WEBRTC_ARCH_ARM64_NEON
+)
 static
 float
 Convolve_NEON
@@ -1062,6 +1066,9 @@ to
 0
 sample
 .
+rtc
+:
+:
 scoped_ptr
 <
 float
@@ -1071,6 +1078,9 @@ AlignedFreeDeleter
 >
 kernel_storage_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 float
@@ -1080,6 +1090,9 @@ AlignedFreeDeleter
 >
 kernel_pre_sinc_storage_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 float
@@ -1105,6 +1118,9 @@ each
 processing
 pass
 .
+rtc
+:
+:
 scoped_ptr
 <
 float

@@ -283,6 +283,11 @@ double
 min_sample_count_percent
 )
 ;
+~
+BandwidthSmoother
+(
+)
+;
 /
 /
 Samples

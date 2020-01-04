@@ -123,6 +123,11 @@ h
 >
 #
 include
+<
+algorithm
+>
+#
+include
 "
 webrtc
 /
@@ -344,7 +349,10 @@ entry
 >
 streams
 =
-_max
+std
+:
+:
+max
 (
 entry
 -

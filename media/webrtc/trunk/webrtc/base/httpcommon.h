@@ -2141,13 +2141,7 @@ document
 HttpData
 (
 )
-:
-version
-(
-HVER_1_1
-)
-{
-}
+;
 enum
 HeaderCombine
 {
@@ -2746,8 +2740,7 @@ virtual
 HttpData
 (
 )
-{
-}
+;
 void
 clear
 (
@@ -2812,7 +2805,6 @@ HttpRequestData
 src
 )
 ;
-virtual
 size_t
 formatLeader
 (
@@ -2823,8 +2815,8 @@ size_t
 size
 )
 const
+override
 ;
-virtual
 HttpError
 parseLeader
 (
@@ -2835,6 +2827,7 @@ line
 size_t
 len
 )
+override
 ;
 bool
 getAbsoluteUri
@@ -2964,7 +2957,6 @@ uint32
 scode
 )
 ;
-virtual
 size_t
 formatLeader
 (
@@ -2975,8 +2967,8 @@ size_t
 size
 )
 const
+override
 ;
-virtual
 HttpError
 parseLeader
 (
@@ -2987,6 +2979,7 @@ line
 size_t
 len
 )
+override
 ;
 }
 ;

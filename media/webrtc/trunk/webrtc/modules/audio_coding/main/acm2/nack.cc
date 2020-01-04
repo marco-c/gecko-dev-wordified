@@ -1180,7 +1180,7 @@ limit
 )
 ;
 }
-int
+int64_t
 Nack
 :
 :
@@ -1238,7 +1238,7 @@ Nack
 :
 GetNackList
 (
-int
+int64_t
 round_trip_time_ms
 )
 const

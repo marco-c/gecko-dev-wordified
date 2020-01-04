@@ -114,6 +114,17 @@ webrtc
 /
 common_audio
 /
+ring_buffer
+.
+h
+"
+#
+include
+"
+webrtc
+/
+common_audio
+/
 signal_processing
 /
 include
@@ -134,21 +145,6 @@ audio_processing
 aecm
 /
 aecm_defines
-.
-h
-"
-#
-include
-"
-webrtc
-/
-modules
-/
-audio_processing
-/
-utility
-/
-ring_buffer
 .
 h
 "
@@ -217,7 +213,7 @@ int16_t
 imag
 ;
 }
-complex16_t
+ComplexInt16
 ;
 typedef
 struct
@@ -631,7 +627,7 @@ outFile
 #
 endif
 }
-AecmCore_t
+AecmCore
 ;
 /
 /
@@ -799,7 +795,7 @@ Error
 int
 WebRtcAecm_CreateCore
 (
-AecmCore_t
+AecmCore
 *
 *
 aecm
@@ -968,7 +964,7 @@ Error
 int
 WebRtcAecm_InitCore
 (
-AecmCore_t
+AecmCore
 *
 const
 aecm
@@ -1120,7 +1116,7 @@ Error
 int
 WebRtcAecm_FreeCore
 (
-AecmCore_t
+AecmCore
 *
 aecm
 )
@@ -1128,7 +1124,7 @@ aecm
 int
 WebRtcAecm_Control
 (
-AecmCore_t
+AecmCore
 *
 aecm
 int
@@ -1290,7 +1286,7 @@ instance
 void
 WebRtcAecm_InitEchoPathCore
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -1500,7 +1496,7 @@ signal
 int
 WebRtcAecm_ProcessFrame
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -1728,7 +1724,7 @@ signal
 int
 WebRtcAecm_ProcessBlock
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -1888,7 +1884,7 @@ frame
 void
 WebRtcAecm_BufferFarFrame
 (
-AecmCore_t
+AecmCore
 *
 const
 aecm
@@ -2049,7 +2045,7 @@ delay
 void
 WebRtcAecm_FetchFarFrame
 (
-AecmCore_t
+AecmCore
 *
 const
 aecm
@@ -2233,7 +2229,7 @@ spectrum
 void
 WebRtcAecm_UpdateFarHistory
 (
-AecmCore_t
+AecmCore
 *
 self
 uint16_t
@@ -2480,7 +2476,7 @@ uint16_t
 *
 WebRtcAecm_AlignedFarend
 (
-AecmCore_t
+AecmCore
 *
 self
 int
@@ -2643,7 +2639,7 @@ Q14
 int16_t
 WebRtcAecm_CalcSuppressionGain
 (
-AecmCore_t
+AecmCore
 *
 const
 aecm
@@ -2858,7 +2854,7 @@ RESOLUTION_CHANNEL16
 void
 WebRtcAecm_CalcEnergies
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3021,7 +3017,7 @@ shifts
 int16_t
 WebRtcAecm_CalcStepSize
 (
-AecmCore_t
+AecmCore
 *
 const
 aecm
@@ -3235,7 +3231,7 @@ RESOLUTION_CHANNEL16
 void
 WebRtcAecm_UpdateChannel
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3379,7 +3375,7 @@ void
 CalcLinearEnergies
 )
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3411,7 +3407,7 @@ void
 StoreAdaptiveChannel
 )
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3434,7 +3430,7 @@ void
 ResetAdaptiveChannel
 )
 (
-AecmCore_t
+AecmCore
 *
 aecm
 )
@@ -3484,7 +3480,7 @@ in
 file
 aecm_core_neon
 .
-s
+c
 .
 #
 if
@@ -3498,10 +3494,17 @@ defined
 (
 WEBRTC_ARCH_ARM_NEON
 )
+|
+|
+\
+defined
+(
+WEBRTC_ARCH_ARM64_NEON
+)
 void
 WebRtcAecm_CalcLinearEnergiesNeon
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3525,7 +3528,7 @@ echo_energy_stored
 void
 WebRtcAecm_StoreAdaptiveChannelNeon
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3540,7 +3543,7 @@ echo_est
 void
 WebRtcAecm_ResetAdaptiveChannelNeon
 (
-AecmCore_t
+AecmCore
 *
 aecm
 )
@@ -3556,7 +3559,7 @@ MIPS32_LE
 void
 WebRtcAecm_CalcLinearEnergies_mips
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3586,7 +3589,7 @@ MIPS_DSP_R1_LE
 void
 WebRtcAecm_StoreAdaptiveChannel_mips
 (
-AecmCore_t
+AecmCore
 *
 aecm
 const
@@ -3601,7 +3604,7 @@ echo_est
 void
 WebRtcAecm_ResetAdaptiveChannel_mips
 (
-AecmCore_t
+AecmCore
 *
 aecm
 )

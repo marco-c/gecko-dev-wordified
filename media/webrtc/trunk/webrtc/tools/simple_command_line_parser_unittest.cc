@@ -130,11 +130,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 parser_
 =
@@ -232,11 +232,11 @@ flag_size
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 for
 (

@@ -160,7 +160,7 @@ public
 TimeScheduler
 (
 const
-uint32_t
+int64_t
 periodicityInMs
 )
 ;
@@ -214,7 +214,7 @@ negative
 int32_t
 TimeToNextUpdate
 (
-int32_t
+int64_t
 &
 updateTimeInMS
 )
@@ -232,7 +232,7 @@ _isStarted
 TickTime
 _lastPeriodMark
 ;
-uint32_t
+int64_t
 _periodicityInMs
 ;
 int64_t

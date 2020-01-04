@@ -118,9 +118,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -185,6 +183,9 @@ integer
 .
 "
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int16_t
@@ -225,7 +226,7 @@ ResetIfNeeded
 (
 file_rate_hz_
 output_rate_hz
-kResamplerSynchronous
+1
 )
 ;
 int

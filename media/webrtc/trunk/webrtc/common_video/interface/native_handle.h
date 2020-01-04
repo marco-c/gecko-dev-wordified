@@ -139,7 +139,7 @@ handle
 in
 /
 /
-TextureVideoFrame
+TextureBuffer
 .
 This
 object

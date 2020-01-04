@@ -186,7 +186,7 @@ decodable
 struct
 FrameData
 {
-int
+int64_t
 rtt_ms
 ;
 float
@@ -365,13 +365,13 @@ MakeDecodable
 for
 VP8
 .
-int
+size_t
 BuildVP8FragmentationHeader
 (
 uint8_t
 *
 frame_buffer
-int
+size_t
 frame_buffer_length
 RTPFragmentationHeader
 *
@@ -432,7 +432,7 @@ from
 the
 session
 .
-int
+size_t
 MakeDecodable
 (
 )
@@ -491,7 +491,7 @@ SetNotDecodableIfIncomplete
 (
 )
 ;
-int
+size_t
 SessionLength
 (
 )
@@ -793,7 +793,7 @@ PacketIterator
 prev_it
 )
 ;
-int
+size_t
 InsertBuffer
 (
 uint8_t
@@ -868,7 +868,7 @@ the
 actual
 packets
 .
-int
+size_t
 DeletePacketData
 (
 PacketIterator

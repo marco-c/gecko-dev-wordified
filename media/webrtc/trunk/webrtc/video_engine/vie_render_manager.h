@@ -106,9 +106,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -286,6 +284,9 @@ render_id
 )
 const
 ;
+rtc
+:
+:
 scoped_ptr
 <
 CriticalSectionWrapper

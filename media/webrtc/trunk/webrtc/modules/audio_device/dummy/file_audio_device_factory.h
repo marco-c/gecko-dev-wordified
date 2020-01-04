@@ -230,6 +230,10 @@ MAX_FILENAME_LEN
 256
 ;
 static
+bool
+_isConfigured
+;
+static
 char
 _inputAudioFilename
 [

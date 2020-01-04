@@ -184,7 +184,7 @@ property
 webrtc
 :
 :
-VideoCaptureRotation
+VideoRotation
 frameRotation
 ;
 /

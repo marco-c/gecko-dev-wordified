@@ -93,6 +93,11 @@ define
 WEBRTC_MODULES_VIDEO_CODING_UTILITY_INCLUDE_FRAME_DROPPER_H_
 #
 include
+<
+cstddef
+>
+#
+include
 "
 webrtc
 /
@@ -366,7 +371,7 @@ virtual
 void
 Fill
 (
-uint32_t
+size_t
 frameSizeBytes
 bool
 deltaFrame

@@ -132,11 +132,11 @@ TracePosix
 (
 )
 ;
-virtual
 ~
 TracePosix
 (
 )
+override
 ;
 /
 /
@@ -157,7 +157,6 @@ the
 creating
 thread
 .
-virtual
 int32_t
 AddTime
 (
@@ -169,9 +168,8 @@ TraceLevel
 level
 )
 const
-OVERRIDE
+override
 ;
-virtual
 int32_t
 AddDateTimeInfo
 (
@@ -180,7 +178,7 @@ char
 trace_message
 )
 const
-OVERRIDE
+override
 ;
 private
 :

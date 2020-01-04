@@ -149,7 +149,7 @@ and
 header
 extension
 .
-int
+size_t
 payload_length
 ;
 bool

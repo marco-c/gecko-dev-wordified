@@ -96,9 +96,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -185,7 +183,7 @@ Reset
 void
 Update
 (
-uint32_t
+size_t
 count
 int64_t
 now_ms
@@ -230,9 +228,12 @@ const
 int
 num_buckets_
 ;
+rtc
+:
+:
 scoped_ptr
 <
-uint32_t
+size_t
 [
 ]
 >
@@ -246,7 +247,7 @@ recorded
 in
 buckets
 .
-uint32_t
+size_t
 accumulated_count_
 ;
 /

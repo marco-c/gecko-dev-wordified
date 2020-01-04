@@ -348,11 +348,9 @@ i
 errs
 +
 =
-WEBRTC_SPL_MUL_16_16
-(
 err
+*
 err
-)
 ;
 /
 *

@@ -416,6 +416,7 @@ static
 T
 ReadBigEndian
 (
+const
 uint8_t
 *
 data
@@ -455,6 +456,7 @@ static
 T
 ReadLittleEndian
 (
+const
 uint8_t
 *
 data
@@ -496,6 +498,7 @@ static
 T
 InternalReadBigEndian
 (
+const
 uint8_t
 *
 data
@@ -560,6 +563,7 @@ static
 T
 InternalReadLittleEndian
 (
+const
 uint8_t
 *
 data
@@ -688,6 +692,7 @@ static
 T
 SignExtend
 (
+const
 T
 val
 )
@@ -1014,6 +1019,7 @@ static
 T
 ReadBigEndian
 (
+const
 uint8_t
 *
 data
@@ -1040,6 +1046,7 @@ static
 T
 ReadLittleEndian
 (
+const
 uint8_t
 *
 data
@@ -1167,6 +1174,7 @@ static
 T
 ReadBigEndian
 (
+const
 uint8_t
 *
 data
@@ -1213,6 +1221,7 @@ static
 T
 ReadLittleEndian
 (
+const
 uint8_t
 *
 data
@@ -1408,6 +1417,7 @@ static
 T
 ReadBigEndian
 (
+const
 uint8_t
 *
 data
@@ -1502,6 +1512,7 @@ static
 T
 ReadLittleEndian
 (
+const
 uint8_t
 *
 data
@@ -1599,6 +1610,7 @@ static
 T
 Get
 (
+const
 uint8_t
 *
 data

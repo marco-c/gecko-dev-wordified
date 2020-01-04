@@ -120,9 +120,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -863,6 +861,9 @@ size_t
 n
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int16_t

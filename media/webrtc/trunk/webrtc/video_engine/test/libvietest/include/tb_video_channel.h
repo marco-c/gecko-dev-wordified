@@ -96,9 +96,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -250,7 +248,7 @@ TbInterfaces
 &
 ViE
 ;
-webrtc
+rtc
 :
 :
 scoped_ptr

@@ -151,19 +151,6 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-compile_assert
-.
-h
-"
-#
-include
-"
-webrtc
-/
 typedefs
 .
 h
@@ -192,7 +179,6 @@ false
 )
 {
 }
-virtual
 bool
 WriteArray
 (
@@ -203,7 +189,7 @@ audio
 size_t
 num_samples
 )
-OVERRIDE
+override
 {
 if
 (

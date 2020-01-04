@@ -539,7 +539,7 @@ int
 out_bits
 ;
 }
-g722_encode_state_t
+G722EncoderState
 ;
 typedef
 struct
@@ -723,7 +723,7 @@ int
 out_bits
 ;
 }
-g722_decode_state_t
+G722DecoderState
 ;
 #
 ifdef
@@ -735,11 +735,11 @@ C
 {
 #
 endif
-g722_encode_state_t
+G722EncoderState
 *
 WebRtc_g722_encode_init
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 int
@@ -751,7 +751,7 @@ options
 int
 WebRtc_g722_encode_release
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 )
@@ -759,7 +759,7 @@ s
 int
 WebRtc_g722_encode
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 uint8_t
@@ -775,11 +775,11 @@ int
 len
 )
 ;
-g722_decode_state_t
+G722DecoderState
 *
 WebRtc_g722_decode_init
 (
-g722_decode_state_t
+G722DecoderState
 *
 s
 int
@@ -791,7 +791,7 @@ options
 int
 WebRtc_g722_decode_release
 (
-g722_decode_state_t
+G722DecoderState
 *
 s
 )
@@ -799,7 +799,7 @@ s
 int
 WebRtc_g722_decode
 (
-g722_decode_state_t
+G722DecoderState
 *
 s
 int16_t

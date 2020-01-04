@@ -190,7 +190,7 @@ NtpToMs
 seconds
 fractions
 )
-5
+100
 )
 ;
 }

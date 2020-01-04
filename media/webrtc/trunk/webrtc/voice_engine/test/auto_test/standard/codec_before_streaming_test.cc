@@ -308,6 +308,12 @@ ISAC
 ;
 codec_instance_
 .
+rate
+=
+32000
+;
+codec_instance_
+.
 pltype
 =
 123

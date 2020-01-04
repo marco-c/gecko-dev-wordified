@@ -1275,6 +1275,10 @@ no
 break
 here
 .
+FALLTHROUGH
+(
+)
+;
 case
 kTemporalUpdateGolden
 :
@@ -1315,6 +1319,10 @@ no
 break
 here
 .
+FALLTHROUGH
+(
+)
+;
 case
 kTemporalUpdateAltref
 :
@@ -1345,6 +1353,10 @@ no
 break
 here
 .
+FALLTHROUGH
+(
+)
+;
 case
 kTemporalUpdateNone
 :

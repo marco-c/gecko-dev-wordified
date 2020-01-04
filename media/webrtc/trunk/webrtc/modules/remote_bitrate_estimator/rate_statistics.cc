@@ -140,7 +140,7 @@ buckets
 buckets_
 (
 new
-uint32_t
+size_t
 [
 num_buckets_
 ]
@@ -231,7 +231,7 @@ RateStatistics
 :
 Update
 (
-uint32_t
+size_t
 count
 int64_t
 now_ms
@@ -383,7 +383,7 @@ oldest_time_
 new_oldest_time
 )
 {
-uint32_t
+size_t
 count_in_oldest_bucket
 =
 buckets_

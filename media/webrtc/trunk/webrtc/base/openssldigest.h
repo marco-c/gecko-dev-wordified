@@ -161,6 +161,7 @@ algorithm
 OpenSSLDigest
 (
 )
+override
 ;
 /
 /
@@ -180,12 +181,12 @@ for
 MD5
 )
 .
-virtual
 size_t
 Size
 (
 )
 const
+override
 ;
 /
 /
@@ -202,7 +203,6 @@ from
 buf
 |
 .
-virtual
 void
 Update
 (
@@ -213,6 +213,7 @@ buf
 size_t
 len
 )
+override
 ;
 /
 /
@@ -230,7 +231,6 @@ length
 len
 |
 .
-virtual
 size_t
 Finish
 (
@@ -240,6 +240,7 @@ buf
 size_t
 len
 )
+override
 ;
 /
 /

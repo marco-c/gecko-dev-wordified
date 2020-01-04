@@ -265,12 +265,11 @@ and
 1
 .
 0
-virtual
 double
 RandomUniform
 (
 )
-OVERRIDE
+override
 ;
 private
 :

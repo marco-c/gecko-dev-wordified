@@ -193,7 +193,7 @@ Vad
 (
 )
 ;
-enum
+virtual
 Activity
 VoiceActivity
 (

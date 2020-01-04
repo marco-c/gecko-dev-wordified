@@ -601,8 +601,6 @@ scaleTmp
 ;
 gainW32
 =
-WEBRTC_SPL_MUL_16_16_RSFT
-(
 (
 (
 int16_t
@@ -613,10 +611,12 @@ cDotNew
 -
 tmp16
 )
-)
+*
 invEnergyNew
-scaleTmp
 )
+>
+>
+scaleTmp
 ;
 /
 *

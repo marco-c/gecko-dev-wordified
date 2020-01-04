@@ -534,11 +534,11 @@ Thread
 thread
 )
 ;
-virtual
 ~
 CpuMonitor
 (
 )
+override
 ;
 void
 set_thread
@@ -598,7 +598,6 @@ of
 parent
 MessageHandler
 .
-virtual
 void
 OnMessage
 (
@@ -609,6 +608,7 @@ Message
 *
 msg
 )
+override
 ;
 /
 /

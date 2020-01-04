@@ -656,6 +656,16 @@ HE_NONE
 )
 {
 }
+HttpRequest
+:
+:
+~
+HttpRequest
+(
+)
+=
+default
+;
 void
 HttpRequest
 :

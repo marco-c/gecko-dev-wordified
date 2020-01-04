@@ -291,11 +291,11 @@ StopWork
 (
 )
 .
-virtual
 ~
 Worker
 (
 )
+override
 ;
 /
 /
@@ -478,7 +478,6 @@ Inherited
 from
 MessageHandler
 .
-virtual
 void
 OnMessage
 (
@@ -486,6 +485,7 @@ Message
 *
 msg
 )
+override
 ;
 /
 /

@@ -179,13 +179,7 @@ packet
 length
 (
 )
-static_cast
-<
-int
->
-(
 kRtpHeaderSize
-)
 )
 ;
 EXPECT_TRUE
@@ -310,7 +304,13 @@ parsed_timestamp
 ;
 EXPECT_EQ
 (
+static_cast
+<
+uint8_t
+>
+(
 fec_pltype
+)
 data
 [
 kRtpHeaderSize

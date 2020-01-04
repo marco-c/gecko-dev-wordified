@@ -182,7 +182,7 @@ enum
 {
 kDecoderFrameMemoryLength
 =
-30
+10
 }
 ;
 struct
@@ -197,6 +197,9 @@ decodeStartTimeMs
 void
 *
 userData
+;
+VideoRotation
+rotation
 ;
 }
 ;

@@ -166,9 +166,9 @@ modules
 /
 audio_coding
 /
-neteq
+codecs
 /
-decoder_database
+audio_decoder
 .
 h
 "
@@ -183,9 +183,7 @@ audio_coding
 /
 neteq
 /
-interface
-/
-audio_decoder
+decoder_database
 .
 h
 "

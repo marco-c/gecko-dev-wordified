@@ -189,7 +189,7 @@ webrtc
 {
 static
 const
-int
+int64_t
 kTestRtt
 =
 10
@@ -347,7 +347,7 @@ ntp_fractions
 void
 UpdateRtcpTimestamp
 (
-uint16_t
+int64_t
 rtt
 uint32_t
 ntp_secs
@@ -377,7 +377,7 @@ rtp_timestamp
 void
 ReceiveRtcpSr
 (
-uint16_t
+int64_t
 rtt
 uint32_t
 rtcp_timestamp

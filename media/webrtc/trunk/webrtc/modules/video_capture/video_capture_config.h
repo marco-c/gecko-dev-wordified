@@ -177,13 +177,6 @@ values
 .
 enum
 {
-kProcessInterval
-=
-300
-}
-;
-enum
-{
 kFrameRateCallbackInterval
 =
 1000

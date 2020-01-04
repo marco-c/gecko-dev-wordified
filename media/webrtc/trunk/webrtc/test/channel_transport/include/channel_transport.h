@@ -154,7 +154,6 @@ implementation
 of
 UdpTransportData
 .
-virtual
 void
 IncomingRTPPacket
 (
@@ -163,7 +162,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -181,9 +180,8 @@ from_port
 *
 /
 )
-OVERRIDE
+override
 ;
-virtual
 void
 IncomingRTCPPacket
 (
@@ -192,7 +190,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -210,7 +208,7 @@ from_port
 *
 /
 )
-OVERRIDE
+override
 ;
 /
 /
@@ -315,7 +313,6 @@ implementation
 of
 UdpTransportData
 .
-virtual
 void
 IncomingRTPPacket
 (
@@ -324,7 +321,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -342,9 +339,8 @@ from_port
 *
 /
 )
-OVERRIDE
+override
 ;
-virtual
 void
 IncomingRTCPPacket
 (
@@ -353,7 +349,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -371,7 +367,7 @@ from_port
 *
 /
 )
-OVERRIDE
+override
 ;
 /
 /

@@ -337,14 +337,6 @@ wstring
 device_key
 )
 {
-assert
-(
-IsGUIThread
-(
-false
-)
-)
-;
 if
 (
 screen

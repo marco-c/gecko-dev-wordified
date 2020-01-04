@@ -736,7 +736,7 @@ LPCCoef_hi
 Bitstr
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )
@@ -753,7 +753,7 @@ LPCCoef_hi
 Bitstr
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )
@@ -1505,7 +1505,7 @@ PitchGains_Q12
 Bitstr
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )
@@ -1522,7 +1522,7 @@ PitchGain_Q12
 Bitstr
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )

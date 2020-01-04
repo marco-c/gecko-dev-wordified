@@ -2042,6 +2042,7 @@ uint32_t
 streamId
 *
 /
+const
 I420VideoFrame
 &
 videoFrame
@@ -2069,12 +2070,8 @@ Enter
 )
 ;
 _bufferToRender
-.
-SwapFrame
-(
-&
+=
 videoFrame
-)
 ;
 _renderCritSect
 .

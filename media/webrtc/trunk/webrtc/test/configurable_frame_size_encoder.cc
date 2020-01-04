@@ -159,7 +159,7 @@ ConfigurableFrameSizeEncoder
 :
 ConfigurableFrameSizeEncoder
 (
-uint32_t
+size_t
 max_frame_size
 )
 :
@@ -217,7 +217,7 @@ VideoCodec
 codec_settings
 int32_t
 number_of_cores
-uint32_t
+size_t
 max_payload_size
 )
 {
@@ -389,7 +389,7 @@ SetChannelParameters
 (
 uint32_t
 packet_loss
-int
+int64_t
 rtt
 )
 {
@@ -450,7 +450,7 @@ ConfigurableFrameSizeEncoder
 :
 SetFrameSize
 (
-uint32_t
+size_t
 size
 )
 {

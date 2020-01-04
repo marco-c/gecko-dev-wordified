@@ -224,6 +224,14 @@ SChannelAdapter
 )
 ;
 virtual
+void
+SetMode
+(
+SSLMode
+mode
+)
+;
+virtual
 int
 StartSSL
 (
@@ -415,6 +423,9 @@ private
 :
 SSLState
 state_
+;
+SSLMode
+mode_
 ;
 std
 :

@@ -372,7 +372,7 @@ Release
 (
 )
 ;
-uint16_t
+size_t
 length
 ;
 /
@@ -1609,7 +1609,7 @@ in
 bytes
 .
 static
-uint16_t
+size_t
 PacketOverhead
 (
 )

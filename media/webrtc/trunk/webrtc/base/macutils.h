@@ -394,9 +394,6 @@ string
 version
 )
 ;
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 /
 /
 Runs
@@ -429,8 +426,6 @@ string
 script
 )
 ;
-#
-endif
 #
 endif
 /

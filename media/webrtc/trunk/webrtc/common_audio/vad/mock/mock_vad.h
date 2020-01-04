@@ -139,6 +139,11 @@ enum
 Aggressiveness
 mode
 )
+:
+Vad
+(
+mode
+)
 {
 }
 virtual

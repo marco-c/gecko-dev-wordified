@@ -119,6 +119,9 @@ include
 <
 sstream
 >
+namespace
+rtc
+{
 bool
 GetStringFromJson
 (
@@ -2000,3 +2003,8 @@ trim
 trailing
 newline
 }
+}
+/
+/
+namespace
+rtc

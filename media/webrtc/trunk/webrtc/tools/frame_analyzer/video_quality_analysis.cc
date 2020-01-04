@@ -2337,6 +2337,7 @@ output
 %
 f
 ]
+score
 \
 n
 "

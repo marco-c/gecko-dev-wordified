@@ -472,7 +472,7 @@ int8_t
 *
 incomingRtpPacket
 const
-int32_t
+size_t
 rtpPacketLength
 const
 char
@@ -494,7 +494,7 @@ int8_t
 *
 incomingRtcpPacket
 const
-int32_t
+size_t
 rtcpPacketLength
 const
 char
@@ -1789,7 +1789,7 @@ const
 int8_t
 *
 data
-uint32_t
+size_t
 length
 int32_t
 isRTCP
@@ -1830,7 +1830,7 @@ const
 int8_t
 *
 data
-uint32_t
+size_t
 length
 const
 SocketAddress
@@ -1863,7 +1863,7 @@ const
 int8_t
 *
 data
-uint32_t
+size_t
 length
 const
 SocketAddress
@@ -1910,7 +1910,7 @@ const
 int8_t
 *
 data
-uint32_t
+size_t
 length
 uint16_t
 rtpPort
@@ -1955,7 +1955,7 @@ const
 int8_t
 *
 data
-uint32_t
+size_t
 length
 uint16_t
 rtcpPort

@@ -96,11 +96,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-aligned_malloc
+scoped_ptr
 .
 h
 "
@@ -113,7 +111,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+aligned_malloc
 .
 h
 "
@@ -485,6 +483,9 @@ int
 new_size
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t

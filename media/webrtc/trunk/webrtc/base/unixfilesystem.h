@@ -123,11 +123,11 @@ UnixFilesystem
 (
 )
 ;
-virtual
 ~
 UnixFilesystem
 (
 )
+override
 ;
 #
 if
@@ -308,7 +308,6 @@ Otherwise
 returns
 NULL
 .
-virtual
 FileStream
 *
 OpenFile
@@ -325,6 +324,7 @@ string
 &
 mode
 )
+override
 ;
 /
 /
@@ -354,7 +354,6 @@ path
 otherwise
 fails
 .
-virtual
 bool
 CreatePrivateFile
 (
@@ -363,6 +362,7 @@ Pathname
 &
 filename
 )
+override
 ;
 /
 /
@@ -397,7 +397,6 @@ or
 a
 directory
 .
-virtual
 bool
 DeleteFile
 (
@@ -406,6 +405,7 @@ Pathname
 &
 filename
 )
+override
 ;
 /
 /
@@ -444,7 +444,6 @@ a
 plain
 file
 .
-virtual
 bool
 DeleteEmptyFolder
 (
@@ -453,6 +452,7 @@ Pathname
 &
 folder
 )
+override
 ;
 /
 /
@@ -521,7 +521,6 @@ mode
 =
 0755
 .
-virtual
 bool
 CreateFolder
 (
@@ -530,6 +529,7 @@ Pathname
 &
 pathname
 )
+override
 ;
 /
 /
@@ -568,7 +568,6 @@ if
 function
 succeeds
 .
-virtual
 bool
 MoveFile
 (
@@ -581,8 +580,8 @@ Pathname
 &
 new_path
 )
+override
 ;
-virtual
 bool
 MoveFolder
 (
@@ -595,6 +594,7 @@ Pathname
 &
 new_path
 )
+override
 ;
 /
 /
@@ -632,7 +632,6 @@ true
 if
 function
 succeeds
-virtual
 bool
 CopyFile
 (
@@ -645,6 +644,7 @@ Pathname
 &
 new_path
 )
+override
 ;
 /
 /
@@ -656,7 +656,6 @@ pathname
 is
 a
 directory
-virtual
 bool
 IsFolder
 (
@@ -665,6 +664,7 @@ Pathname
 &
 pathname
 )
+override
 ;
 /
 /
@@ -680,7 +680,6 @@ on
 the
 system
 .
-virtual
 bool
 IsTemporaryPath
 (
@@ -689,6 +688,7 @@ Pathname
 &
 pathname
 )
+override
 ;
 /
 /
@@ -700,7 +700,6 @@ represents
 an
 existing
 file
-virtual
 bool
 IsFile
 (
@@ -709,6 +708,7 @@ Pathname
 &
 pathname
 )
+override
 ;
 /
 /
@@ -733,7 +733,6 @@ is
 also
 absent
 .
-virtual
 bool
 IsAbsent
 (
@@ -742,8 +741,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 std
 :
 :
@@ -762,6 +761,7 @@ string
 &
 prefix
 )
+override
 ;
 /
 /
@@ -784,7 +784,6 @@ the
 program
 exists
 )
-virtual
 bool
 GetTemporaryFolder
 (
@@ -801,8 +800,8 @@ string
 *
 append
 )
+override
 ;
-virtual
 bool
 GetFileSize
 (
@@ -814,8 +813,8 @@ size_t
 *
 size
 )
+override
 ;
-virtual
 bool
 GetFileTime
 (
@@ -829,6 +828,7 @@ time_t
 *
 time
 )
+override
 ;
 /
 /
@@ -840,7 +840,6 @@ the
 running
 application
 .
-virtual
 bool
 GetAppPathname
 (
@@ -848,8 +847,8 @@ Pathname
 *
 path
 )
+override
 ;
-virtual
 bool
 GetAppDataFolder
 (
@@ -859,6 +858,7 @@ path
 bool
 per_user
 )
+override
 ;
 /
 /
@@ -876,7 +876,6 @@ user
 and
 application
 .
-virtual
 bool
 GetAppTempFolder
 (
@@ -884,8 +883,8 @@ Pathname
 *
 path
 )
+override
 ;
-virtual
 bool
 GetDiskFreeSpace
 (
@@ -897,6 +896,7 @@ int64
 *
 freebytes
 )
+override
 ;
 /
 /
@@ -909,11 +909,11 @@ the
 current
 directory
 .
-virtual
 Pathname
 GetCurrentDirectory
 (
 )
+override
 ;
 private
 :

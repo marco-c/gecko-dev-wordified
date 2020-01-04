@@ -84,6 +84,11 @@ tree
 /
 #
 include
+<
+algorithm
+>
+#
+include
 "
 webrtc
 /
@@ -1580,7 +1585,10 @@ buffer
 size_t
 amt_to_read
 =
-_min
+std
+:
+:
+min
 (
 expected_length
 -

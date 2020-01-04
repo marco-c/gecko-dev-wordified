@@ -194,17 +194,6 @@ SurfaceHolder
 .
 Callback
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WebRTCJNITarget
-;
 public
 class
 ViESurfaceRenderer
@@ -306,7 +295,6 @@ dstRightScale
 =
 1
 ;
-WebRTCJNITarget
 public
 ViESurfaceRenderer
 (
@@ -893,7 +881,6 @@ return
 bitmap
 ;
 }
-WebRTCJNITarget
 public
 ByteBuffer
 CreateByteBuffer
@@ -956,7 +943,6 @@ return
 byteBuffer
 ;
 }
-WebRTCJNITarget
 public
 void
 SetCoordinates
@@ -1033,7 +1019,6 @@ for
 debug
 only
 .
-WebRTCJNITarget
 private
 void
 saveBitmapToJPEG
@@ -1134,7 +1119,6 @@ e
 {
 }
 }
-WebRTCJNITarget
 public
 void
 DrawByteBuffer

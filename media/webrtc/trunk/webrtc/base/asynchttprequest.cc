@@ -703,6 +703,9 @@ Current
 >
 ProcessMessages
 (
+Thread
+:
+:
 kForever
 )
 ;

@@ -2905,7 +2905,7 @@ const
 void
 *
 packet
-int
+size_t
 packet_len
 )
 ;

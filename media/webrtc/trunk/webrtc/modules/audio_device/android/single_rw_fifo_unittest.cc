@@ -125,9 +125,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -587,6 +585,9 @@ de
 -
 allocation
 .
+rtc
+:
+:
 scoped_ptr
 <
 int8_t

@@ -158,6 +158,11 @@ endif
 #
 include
 <
+algorithm
+>
+#
+include
+<
 map
 >
 #
@@ -1796,7 +1801,10 @@ SR_BLOCK
 size_t
 count
 =
-_min
+std
+:
+:
+min
 (
 buffer_len
 readable_data_

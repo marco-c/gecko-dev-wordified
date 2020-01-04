@@ -146,12 +146,11 @@ AudioDeviceUtilityLinux
 (
 )
 ;
-virtual
 int32_t
 Init
 (
 )
-OVERRIDE
+override
 ;
 private
 :

@@ -685,9 +685,6 @@ vector
 Return
 value
 :
->
-0
--
 Length
 (
 in
@@ -697,11 +694,6 @@ of
 coded
 data
 *
--
-1
--
-Error
-*
 /
 int16_t
 WebRtcG722_Encode
@@ -709,12 +701,13 @@ WebRtcG722_Encode
 G722EncInst
 *
 G722enc_inst
+const
 int16_t
 *
 speechIn
 int16_t
 len
-int16_t
+uint8_t
 *
 encoded
 )
@@ -1332,7 +1325,8 @@ WebRtcG722_Decode
 G722DecInst
 *
 G722dec_inst
-int16_t
+const
+uint8_t
 *
 encoded
 int16_t

@@ -139,9 +139,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -322,6 +320,9 @@ ViEEncoder
 >
 SsrcEncoderMap
 ;
+rtc
+:
+:
 scoped_ptr
 <
 CriticalSectionWrapper
@@ -340,6 +341,9 @@ new
 key
 frames
 .
+rtc
+:
+:
 scoped_ptr
 <
 EncoderStateFeedbackObserver

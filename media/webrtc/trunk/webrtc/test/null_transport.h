@@ -120,7 +120,6 @@ Transport
 {
 public
 :
-virtual
 bool
 SendRtp
 (
@@ -131,9 +130,8 @@ packet
 size_t
 length
 )
-OVERRIDE
+override
 ;
-virtual
 bool
 SendRtcp
 (
@@ -144,7 +142,7 @@ packet
 size_t
 length
 )
-OVERRIDE
+override
 ;
 }
 ;

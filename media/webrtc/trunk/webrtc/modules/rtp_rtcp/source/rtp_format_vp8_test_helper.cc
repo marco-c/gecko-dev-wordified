@@ -203,10 +203,10 @@ RtpFormatVp8TestHelper
 Init
 (
 const
-int
+size_t
 *
 partition_sizes
-int
+size_t
 num_partitions
 )
 {
@@ -243,7 +243,7 @@ size
 .
 for
 (
-int
+size_t
 p
 =
 0
@@ -296,7 +296,7 @@ uint8_t
 buffer_size_
 ]
 ;
-int
+size_t
 j
 =
 0
@@ -311,7 +311,7 @@ again
 .
 for
 (
-int
+size_t
 p
 =
 0
@@ -350,7 +350,7 @@ j
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -418,7 +418,7 @@ RtpPacketizerVp8
 *
 packetizer
 const
-int
+size_t
 *
 expected_sizes
 const
@@ -429,7 +429,7 @@ const
 bool
 *
 expected_frag_start
-int
+size_t
 expected_num_packets
 )
 {
@@ -450,7 +450,7 @@ false
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1671,13 +1671,13 @@ RtpFormatVp8TestHelper
 :
 CheckPayload
 (
-int
+size_t
 payload_end
 )
 {
 for
 (
-int
+size_t
 i
 =
 payload_start_
@@ -1808,9 +1808,9 @@ RtpFormatVp8TestHelper
 :
 CheckPacket
 (
-int
+size_t
 send_bytes
-int
+size_t
 expect_bytes
 bool
 last

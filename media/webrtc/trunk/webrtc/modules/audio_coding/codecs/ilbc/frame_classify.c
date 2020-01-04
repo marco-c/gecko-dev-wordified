@@ -403,7 +403,7 @@ sub
 frame
 *
 /
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 /
@@ -547,9 +547,12 @@ scale
 =
 WebRtcSpl_GetSizeInBits
 (
-WEBRTC_SPL_MUL_16_16
+(
+uint32_t
+)
 (
 max
+*
 max
 )
 )

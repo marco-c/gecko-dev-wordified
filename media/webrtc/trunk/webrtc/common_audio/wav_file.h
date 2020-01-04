@@ -477,6 +477,9 @@ in
 the
 file
 .
+uint32_t
+num_samples_remaining_
+;
 FILE
 *
 file_handle_

@@ -333,6 +333,9 @@ ScreenCapturerWinMagnifier
 :
 ScreenCapturerWinMagnifier
 (
+rtc
+:
+:
 scoped_ptr
 <
 ScreenCapturer
@@ -619,6 +622,9 @@ current
 /
 one
 .
+rtc
+:
+:
 scoped_ptr
 <
 Desktop
@@ -2858,6 +2864,9 @@ CreateSharedMemory
 buffer_size
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 DesktopFrame

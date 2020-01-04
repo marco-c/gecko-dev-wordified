@@ -147,7 +147,7 @@ sample
 void
 Update
 (
-uint32_t
+int64_t
 rttMs
 )
 ;
@@ -164,7 +164,7 @@ level
 in
 ms
 .
-uint32_t
+int64_t
 RttMs
 (
 )
@@ -248,7 +248,7 @@ otherwise
 bool
 JumpDetection
 (
-uint32_t
+int64_t
 rttMs
 )
 ;
@@ -292,7 +292,7 @@ otherwise
 bool
 DriftDetection
 (
-uint32_t
+int64_t
 rttMs
 )
 ;
@@ -313,7 +313,7 @@ buf
 void
 ShortRttFilter
 (
-uint32_t
+int64_t
 *
 buf
 uint32_t
@@ -329,7 +329,7 @@ _avgRtt
 double
 _varRtt
 ;
-uint32_t
+int64_t
 _maxRtt
 ;
 uint32_t
@@ -357,13 +357,13 @@ const
 int32_t
 _detectThreshold
 ;
-uint32_t
+int64_t
 _jumpBuf
 [
 kMaxDriftJumpCount
 ]
 ;
-uint32_t
+int64_t
 _driftBuf
 [
 kMaxDriftJumpCount

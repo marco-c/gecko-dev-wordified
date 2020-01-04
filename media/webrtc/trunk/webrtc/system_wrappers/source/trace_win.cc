@@ -147,10 +147,6 @@ TraceWindows
 (
 )
 {
-StopThread
-(
-)
-;
 }
 int32_t
 TraceWindows

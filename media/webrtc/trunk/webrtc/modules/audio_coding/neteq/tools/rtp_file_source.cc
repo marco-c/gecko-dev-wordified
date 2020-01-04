@@ -294,10 +294,7 @@ while
 true
 )
 {
-RtpFileReader
-:
-:
-Packet
+RtpPacket
 temp_packet
 ;
 if
@@ -345,6 +342,9 @@ one
 continue
 ;
 }
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -377,6 +377,9 @@ temp_packet
 length
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 Packet

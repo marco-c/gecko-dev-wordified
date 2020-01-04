@@ -776,6 +776,9 @@ ref_frame
 I420VideoFrame
 test_frame
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -791,6 +794,9 @@ frame_length
 ]
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -912,7 +918,7 @@ get
 width
 height
 0
-kRotateNone
+kVideoRotation_0
 &
 ref_frame
 )
@@ -930,7 +936,7 @@ get
 width
 height
 0
-kRotateNone
+kVideoRotation_0
 &
 test_frame
 )

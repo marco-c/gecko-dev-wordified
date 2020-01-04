@@ -277,7 +277,7 @@ SetChannelParameters
 (
 uint32_t
 packetLoss
-int
+int64_t
 rtt
 )
 {
@@ -310,7 +310,7 @@ int32_t
 numberOfCores
 *
 /
-uint32_t
+size_t
 /
 *
 maxPayloadSize
@@ -580,8 +580,7 @@ width
 (
 )
 ;
-unsigned
-int
+size_t
 reqSize
 =
 webrtc
@@ -713,6 +712,8 @@ _encodedCompleteCallback
 Encoded
 (
 _encodedImage
+NULL
+NULL
 )
 ;
 return
@@ -1125,17 +1126,6 @@ frames
 .
 if
 (
-static_cast
-<
-int
->
-(
-inputImage
-.
-_length
-)
-!
-=
 webrtc
 :
 :
@@ -1148,6 +1138,11 @@ kI420
 _width
 _height
 )
+!
+=
+inputImage
+.
+_length
 )
 {
 return
@@ -1174,7 +1169,7 @@ _height
 webrtc
 :
 :
-kRotateNone
+kVideoRotation_0
 &
 _decodedImage
 )

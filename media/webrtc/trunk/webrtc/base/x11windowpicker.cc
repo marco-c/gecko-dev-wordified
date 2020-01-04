@@ -3149,10 +3149,10 @@ src_height
 double
 scale
 =
-rtc
+std
 :
 :
-_min
+min
 (
 scale_y
 scale_x

@@ -426,7 +426,7 @@ static
 void
 block4
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 int
@@ -1676,11 +1676,11 @@ function
 -
 *
 /
-g722_encode_state_t
+G722EncoderState
 *
 WebRtc_g722_encode_init
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 int
@@ -1703,7 +1703,7 @@ if
 s
 =
 (
-g722_encode_state_t
+G722EncoderState
 *
 )
 malloc
@@ -1913,7 +1913,7 @@ function
 int
 WebRtc_g722_encode_release
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 )
@@ -2078,7 +2078,7 @@ endif
 int
 WebRtc_g722_encode
 (
-g722_encode_state_t
+G722EncoderState
 *
 s
 uint8_t

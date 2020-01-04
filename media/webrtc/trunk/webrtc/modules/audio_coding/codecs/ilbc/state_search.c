@@ -392,7 +392,7 @@ state
 void
 WebRtcIlbcfix_StateSearch
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 /

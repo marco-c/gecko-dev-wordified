@@ -132,7 +132,7 @@ shared_count_is_zero_
 .
 Wait
 (
-rtc
+Event
 :
 :
 kForever

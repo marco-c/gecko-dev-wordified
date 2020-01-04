@@ -143,7 +143,7 @@ cstdlib
 if
 defined
 (
-__GLIBC__
+__GLIBCXX__
 )
 &
 &
@@ -380,7 +380,7 @@ DumpBacktrace
 if
 defined
 (
-__GLIBC__
+__GLIBCXX__
 )
 &
 &

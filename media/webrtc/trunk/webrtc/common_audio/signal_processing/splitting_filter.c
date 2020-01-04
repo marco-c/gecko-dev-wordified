@@ -140,13 +140,13 @@ enum
 {
 kMaxBandFrameLength
 =
-240
+320
 /
 /
 10
 ms
 at
-48
+64
 kHz
 .
 }

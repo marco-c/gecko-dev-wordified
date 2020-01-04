@@ -132,6 +132,15 @@ webrtc_libyuv
 h
 "
 namespace
+{
+const
+size_t
+kI420HeaderSize
+=
+4
+;
+}
+namespace
 webrtc
 {
 I420Encoder
@@ -253,7 +262,7 @@ int
 numberOfCores
 *
 /
-uint32_t
+size_t
 /
 *
 maxPayloadSize
@@ -332,7 +341,7 @@ _size
 ;
 }
 const
-uint32_t
+size_t
 newSize
 =
 CalcBufferSize
@@ -557,7 +566,7 @@ return
 WEBRTC_VIDEO_CODEC_ERR_SIZE
 ;
 }
-int
+size_t
 req_length
 =
 CalcBufferSize
@@ -583,14 +592,7 @@ _encodedImage
 .
 _size
 >
-static_cast
-<
-unsigned
-int
->
-(
 req_length
-)
 )
 {
 /
@@ -674,6 +676,8 @@ _encodedCompleteCallback
 Encoded
 (
 _encodedImage
+NULL
+NULL
 )
 ;
 return
@@ -1068,7 +1072,7 @@ length
 is
 sufficient
 :
-uint32_t
+size_t
 req_length
 =
 CalcBufferSize
@@ -1143,7 +1147,7 @@ buffer
 _width
 _height
 0
-kRotateNone
+kVideoRotation_0
 &
 _decodedImage
 )

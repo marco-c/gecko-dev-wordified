@@ -570,6 +570,9 @@ private
 Atomic32
 _ref_count
 ;
+rtc
+:
+:
 scoped_ptr
 <
 const

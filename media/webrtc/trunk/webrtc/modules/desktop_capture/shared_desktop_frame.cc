@@ -103,11 +103,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-atomic32
+scoped_ptr
 .
 h
 "
@@ -120,7 +118,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+atomic32
 .
 h
 "
@@ -231,6 +229,9 @@ Core
 Atomic32
 ref_count_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 DesktopFrame

@@ -239,7 +239,7 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_CB_SEARCH_H_
 void
 WebRtcIlbcfix_CbSearch
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 /

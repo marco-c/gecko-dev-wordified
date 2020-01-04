@@ -367,7 +367,7 @@ ms
 void
 UpdateRtt
 (
-uint32_t
+int64_t
 rttMs
 )
 ;

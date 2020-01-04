@@ -112,7 +112,9 @@ include
 "
 webrtc
 /
-common_types
+base
+/
+scoped_ptr
 .
 h
 "
@@ -121,11 +123,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-scoped_ptr
+common_types
 .
 h
 "
@@ -725,6 +723,9 @@ const
 RTPHeader
 header_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t

@@ -586,9 +586,9 @@ k
 (
 int16_t
 )
-WEBRTC_SPL_MUL_16_16
 (
 2
+*
 (
 index
 -

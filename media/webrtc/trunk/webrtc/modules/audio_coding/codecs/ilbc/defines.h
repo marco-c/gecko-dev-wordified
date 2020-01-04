@@ -803,7 +803,7 @@ instance
 /
 typedef
 struct
-iLBC_Enc_Inst_t_
+IlbcEncoder_
 {
 /
 *
@@ -960,7 +960,7 @@ diff
 #
 endif
 }
-iLBC_Enc_Inst_t
+IlbcEncoder
 ;
 /
 *
@@ -972,7 +972,7 @@ instance
 /
 typedef
 struct
-iLBC_Dec_Inst_t_
+IlbcDecoder_
 {
 /
 *
@@ -1162,7 +1162,7 @@ ENH_NBLOCKS_TOT
 ]
 ;
 }
-iLBC_Dec_Inst_t
+IlbcDecoder
 ;
 #
 endif

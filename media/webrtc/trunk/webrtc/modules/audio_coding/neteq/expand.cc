@@ -4721,12 +4721,6 @@ kUnvoicedLpcOrder
 ;
 WebRtcSpl_FilterMAFastQ12
 (
-const_cast
-<
-int16_t
-*
->
-(
 &
 audio_history
 [
@@ -4734,7 +4728,6 @@ signal_length
 -
 128
 ]
-)
 unvoiced_vector
 parameters
 .

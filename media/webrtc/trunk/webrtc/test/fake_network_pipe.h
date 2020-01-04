@@ -112,11 +112,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-event_wrapper
+scoped_ptr
 .
 h
 "
@@ -129,7 +127,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+event_wrapper
 .
 h
 "
@@ -410,7 +408,7 @@ Process
 (
 )
 ;
-int
+int64_t
 TimeUntilNextProcess
 (
 )
@@ -450,6 +448,9 @@ sent_packets_
 ;
 }
 private
+:
+rtc
+:
 :
 scoped_ptr
 <

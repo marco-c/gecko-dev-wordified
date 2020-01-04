@@ -134,15 +134,13 @@ public
 AsyncResolverInterface
 (
 )
-{
-}
+;
 virtual
 ~
 AsyncResolverInterface
 (
 )
-{
-}
+;
 /
 /
 Start

@@ -96,9 +96,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -432,6 +430,9 @@ yet
 asked
 for
 .
+rtc
+:
+:
 scoped_ptr
 <
 int8_t

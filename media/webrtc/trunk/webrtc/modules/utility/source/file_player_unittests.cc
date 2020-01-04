@@ -248,12 +248,11 @@ NULL
 )
 {
 }
-virtual
 void
 SetUp
 (
 )
-OVERRIDE
+override
 {
 if
 (
@@ -306,12 +305,11 @@ NULL
 ;
 }
 }
-virtual
 void
 TearDown
 (
 )
-OVERRIDE
+override
 {
 if
 (

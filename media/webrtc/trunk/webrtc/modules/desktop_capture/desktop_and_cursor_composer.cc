@@ -495,6 +495,9 @@ DesktopFrameWithCursor
 ;
 private
 :
+rtc
+:
+:
 scoped_ptr
 <
 DesktopFrame
@@ -504,6 +507,9 @@ original_frame_
 DesktopVector
 restore_position_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 DesktopFrame

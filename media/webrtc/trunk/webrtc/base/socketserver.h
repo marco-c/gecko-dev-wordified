@@ -176,6 +176,14 @@ SocketFactory
 {
 public
 :
+static
+const
+int
+kForever
+=
+-
+1
+;
 /
 /
 When

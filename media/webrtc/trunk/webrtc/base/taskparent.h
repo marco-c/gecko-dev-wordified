@@ -152,8 +152,7 @@ virtual
 TaskParent
 (
 )
-{
-}
+;
 TaskParent
 *
 GetParent

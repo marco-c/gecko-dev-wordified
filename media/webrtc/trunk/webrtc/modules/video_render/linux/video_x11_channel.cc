@@ -295,6 +295,7 @@ RenderFrame
 const
 uint32_t
 streamId
+const
 I420VideoFrame
 &
 videoFrame

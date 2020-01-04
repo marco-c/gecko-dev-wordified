@@ -125,7 +125,7 @@ public
 explicit
 RedPacket
 (
-int
+size_t
 length
 )
 ;
@@ -141,7 +141,7 @@ const
 uint8_t
 *
 rtp_header
-int
+size_t
 header_length
 int
 red_pl_type
@@ -163,7 +163,7 @@ const
 uint8_t
 *
 payload
-int
+size_t
 length
 )
 ;
@@ -179,7 +179,7 @@ data
 )
 const
 ;
-int
+size_t
 length
 (
 )
@@ -191,10 +191,10 @@ uint8_t
 *
 data_
 ;
-int
+size_t
 length_
 ;
-int
+size_t
 header_length_
 ;
 }
@@ -236,9 +236,9 @@ const
 uint8_t
 *
 data_buffer
-int
+size_t
 payload_length
-int
+size_t
 rtp_header_length
 int
 red_pl_type
@@ -251,9 +251,9 @@ const
 uint8_t
 *
 data_buffer
-int
+size_t
 payload_length
-int
+size_t
 rtp_header_length
 )
 ;
@@ -283,7 +283,7 @@ int
 fec_pl_type
 uint16_t
 seq_num
-int
+size_t
 rtp_header_length
 )
 ;

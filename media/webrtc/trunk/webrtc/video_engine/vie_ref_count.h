@@ -113,9 +113,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -182,6 +180,9 @@ volatile
 int
 count_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 CriticalSectionWrapper

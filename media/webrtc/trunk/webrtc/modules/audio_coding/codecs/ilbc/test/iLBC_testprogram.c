@@ -487,7 +487,7 @@ bytes
 encoded
 *
 /
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 /
@@ -710,7 +710,7 @@ decoded
 samples
 *
 /
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 /
@@ -1081,10 +1081,10 @@ noOfLostBlocks
 short
 mode
 ;
-iLBC_Enc_Inst_t
+IlbcEncoder
 Enc_Inst
 ;
-iLBC_Dec_Inst_t
+IlbcDecoder
 Dec_Inst
 ;
 short

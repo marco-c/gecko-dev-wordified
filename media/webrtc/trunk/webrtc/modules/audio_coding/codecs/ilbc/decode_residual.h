@@ -389,7 +389,7 @@ iLBC_decode
 void
 WebRtcIlbcfix_DecodeResidual
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 /

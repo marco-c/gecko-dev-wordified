@@ -397,7 +397,7 @@ decoded
 samples
 *
 /
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 /

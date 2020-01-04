@@ -1098,7 +1098,10 @@ size
 size_t
 len
 =
-_min
+std
+:
+:
+min
 (
 end_
 -
@@ -1145,7 +1148,10 @@ buffer
 .
 size_
 =
-_max
+std
+:
+:
+max
 (
 size
 3

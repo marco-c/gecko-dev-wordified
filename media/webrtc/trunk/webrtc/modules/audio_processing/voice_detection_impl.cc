@@ -324,7 +324,7 @@ assert
 audio
 -
 >
-samples_per_split_channel
+num_frames_per_band
 (
 )
 <

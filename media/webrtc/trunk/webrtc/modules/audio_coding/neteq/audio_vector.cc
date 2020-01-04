@@ -1200,6 +1200,9 @@ capacity_
 n
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 int16_t

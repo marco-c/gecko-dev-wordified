@@ -91,6 +91,11 @@ WEBRTC_BASE_ROLLINGACCUMULATOR_H_
 #
 include
 <
+algorithm
+>
+#
+include
+<
 vector
 >
 #
@@ -517,7 +522,10 @@ i
 {
 max_
 =
-_max
+std
+:
+:
+max
 (
 max_
 samples_
@@ -605,7 +613,10 @@ i
 {
 min_
 =
-_min
+std
+:
+:
+min
 (
 min_
 samples_

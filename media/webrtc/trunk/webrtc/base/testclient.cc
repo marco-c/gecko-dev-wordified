@@ -291,7 +291,7 @@ end
 =
 TimeAfter
 (
-kTimeout
+kTimeoutMs
 )
 ;
 while
@@ -420,6 +420,8 @@ TestClient
 :
 NextPacket
 (
+int
+timeout_ms
 )
 {
 /
@@ -443,8 +445,7 @@ for
 /
 at
 most
-1
-second
+timeout_ms
 .
 If
 during
@@ -456,9 +457,9 @@ arrives
 then
 we
 can
+/
+/
 stop
-/
-/
 early
 and
 return
@@ -542,7 +543,7 @@ end
 =
 TimeAfter
 (
-kTimeout
+timeout_ms
 )
 ;
 while
@@ -685,6 +686,7 @@ packet
 =
 NextPacket
 (
+kTimeoutMs
 )
 ;
 if
@@ -755,6 +757,7 @@ packet
 =
 NextPacket
 (
+kNoPacketTimeoutMs
 )
 ;
 res

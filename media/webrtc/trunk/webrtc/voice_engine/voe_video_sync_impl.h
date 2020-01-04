@@ -147,16 +147,6 @@ delayMs
 ;
 virtual
 int
-SetCurrentSyncOffset
-(
-int
-channel
-int
-offsetMs
-)
-;
-virtual
-int
 SetInitialPlayoutDelay
 (
 int
@@ -177,9 +167,6 @@ jitter_buffer_delay_ms
 int
 *
 playout_buffer_delay_ms
-int
-*
-avsync_offset_ms
 )
 ;
 virtual

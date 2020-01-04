@@ -253,6 +253,9 @@ packet
 loss
 rate
 .
+rtc
+:
+:
 scoped_ptr
 <
 rtc

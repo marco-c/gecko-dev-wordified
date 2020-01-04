@@ -114,9 +114,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -279,6 +277,9 @@ calling
 thread
 by
 Set
+rtc
+:
+:
 scoped_ptr
 <
 Desktop
@@ -298,6 +299,9 @@ thread
 at
 creation
 .
+rtc
+:
+:
 scoped_ptr
 <
 Desktop

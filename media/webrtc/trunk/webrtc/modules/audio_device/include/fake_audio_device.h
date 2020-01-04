@@ -304,7 +304,7 @@ return
 ;
 }
 virtual
-int32_t
+int64_t
 TimeUntilNextProcess
 (
 )
@@ -1195,6 +1195,17 @@ const
 {
 return
 0
+;
+}
+virtual
+bool
+BuiltInAECIsAvailable
+(
+)
+const
+{
+return
+false
 ;
 }
 virtual

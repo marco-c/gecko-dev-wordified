@@ -176,7 +176,7 @@ any
 int
 packets_dropped
 ;
-int
+size_t
 total_packets
 ;
 /
@@ -208,7 +208,7 @@ bit_rate_in_kbps
 Copied
 from
 EncodedImage
-int
+size_t
 encoded_frame_length_in_bytes
 ;
 webrtc

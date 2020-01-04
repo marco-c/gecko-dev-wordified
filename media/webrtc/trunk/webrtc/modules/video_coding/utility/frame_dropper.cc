@@ -454,7 +454,7 @@ FrameDropper
 :
 Fill
 (
-uint32_t
+size_t
 frameSizeBytes
 bool
 deltaFrame

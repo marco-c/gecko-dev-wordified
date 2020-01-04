@@ -226,7 +226,7 @@ _moduleProcessThreadPtr
 ProcessThread
 :
 :
-CreateProcessThread
+Create
 (
 )
 )
@@ -345,12 +345,11 @@ Release
 delete
 _apiCritPtr
 ;
-ProcessThread
-:
-:
-DestroyProcessThread
-(
 _moduleProcessThreadPtr
+-
+>
+Stop
+(
 )
 ;
 Trace

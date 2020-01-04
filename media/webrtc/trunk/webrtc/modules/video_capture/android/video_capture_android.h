@@ -195,7 +195,7 @@ virtual
 int32_t
 SetCaptureRotation
 (
-VideoCaptureRotation
+VideoRotation
 rotation
 )
 ;
@@ -205,7 +205,7 @@ OnIncomingFrame
 uint8_t
 *
 videoFrame
-int32_t
+size_t
 videoFrameLength
 int32_t
 degrees
@@ -241,7 +241,7 @@ object
 VideoCaptureCapability
 _captureCapability
 ;
-VideoCaptureRotation
+VideoRotation
 _rotation
 ;
 bool

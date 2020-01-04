@@ -526,7 +526,7 @@ equate
 FILTERORDER
 *
 /
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 /

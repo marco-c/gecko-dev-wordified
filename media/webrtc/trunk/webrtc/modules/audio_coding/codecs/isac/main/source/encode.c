@@ -7741,7 +7741,7 @@ int
 WebRtcIsac_EncodeStoredDataLb
 (
 const
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 ISACSavedEnc_obj
 Bitstr

@@ -216,11 +216,11 @@ bool
 override_time
 )
 ;
-virtual
 ~
 TraceToStderr
 (
 )
+override
 ;
 /
 /
@@ -312,7 +312,6 @@ time
 Implements
 TraceCallback
 .
-virtual
 void
 Print
 (
@@ -325,7 +324,7 @@ msg_array
 int
 length
 )
-OVERRIDE
+override
 ;
 private
 :

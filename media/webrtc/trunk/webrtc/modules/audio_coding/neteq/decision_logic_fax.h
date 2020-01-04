@@ -358,7 +358,6 @@ the
 call
 )
 .
-virtual
 Operations
 GetDecisionSpecialized
 (
@@ -384,7 +383,7 @@ bool
 *
 reset_decoder
 )
-OVERRIDE
+override
 ;
 private
 :

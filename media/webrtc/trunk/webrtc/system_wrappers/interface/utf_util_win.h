@@ -139,9 +139,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -186,6 +184,9 @@ NULL
 0
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 wchar_t
@@ -308,6 +309,9 @@ NULL
 NULL
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 char

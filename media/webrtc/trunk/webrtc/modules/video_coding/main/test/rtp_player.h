@@ -532,7 +532,7 @@ PayloadTypes
 payload_types
 float
 lossRate
-uint32_t
+int64_t
 rttMs
 bool
 reordering

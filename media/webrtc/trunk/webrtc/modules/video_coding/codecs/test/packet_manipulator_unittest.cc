@@ -337,7 +337,7 @@ int
 expected_nbr_packets_dropped
 int
 actual_nbr_packets_dropped
-int
+size_t
 expected_packet_data_length
 uint8_t
 *
@@ -356,15 +356,9 @@ actual_nbr_packets_dropped
 EXPECT_EQ
 (
 expected_packet_data_length
-static_cast
-<
-int
->
-(
 image_
 .
 _length
-)
 )
 ;
 EXPECT_EQ
@@ -441,7 +435,7 @@ PacketManipulatorTest
 UniformDropNoneSmallFrame
 )
 {
-int
+size_t
 data_length
 =
 400
@@ -713,7 +707,7 @@ kNbrPackets
 10
 ;
 const
-int
+size_t
 kDataLength
 =
 kPacketSizeInBytes

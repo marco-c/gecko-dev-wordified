@@ -358,7 +358,6 @@ no
 active
 speech
 .
-virtual
 void
 SetParametersForPassiveSpeech
 (
@@ -372,7 +371,7 @@ int
 peak_index
 )
 const
-OVERRIDE
+override
 ;
 /
 /
@@ -397,7 +396,6 @@ time
 -
 stretching
 .
-virtual
 ReturnCodes
 CheckCriteriaAndStretch
 (
@@ -418,7 +416,7 @@ AudioMultiVector
 output
 )
 const
-OVERRIDE
+override
 ;
 private
 :

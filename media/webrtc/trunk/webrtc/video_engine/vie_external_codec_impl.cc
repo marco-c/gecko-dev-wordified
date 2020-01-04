@@ -613,7 +613,7 @@ int
 video_channel
 const
 unsigned
-int
+char
 pl_type
 VideoDecoder
 *
@@ -632,7 +632,7 @@ LS_INFO
 <
 "
 Register
-exrernal
+external
 decoder
 for
 channel
@@ -647,7 +647,13 @@ pl_type
 "
 <
 <
+static_cast
+<
+int
+>
+(
 pl_type
+)
 <
 <
 "
@@ -787,7 +793,13 @@ pl_type
 "
 <
 <
+static_cast
+<
+int
+>
+(
 pl_type
+)
 ;
 ViEChannelManagerScoped
 cs

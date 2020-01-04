@@ -199,8 +199,6 @@ in
 /
 system_wrappers
 /
-source
-/
 system_wrappers
 .
 gyp

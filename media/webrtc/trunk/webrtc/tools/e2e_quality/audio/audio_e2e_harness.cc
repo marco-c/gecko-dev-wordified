@@ -147,9 +147,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -431,6 +429,9 @@ ASSERT_NE
 channel
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 VoiceChannelTransport

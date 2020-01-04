@@ -143,9 +143,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -429,7 +427,7 @@ channels
 *
 kFrameSizeSamples
 ;
-webrtc
+rtc
 :
 :
 scoped_ptr

@@ -294,7 +294,7 @@ Default
 1500
 bytes
 .
-int
+size_t
 packet_size_in_bytes
 ;
 /
@@ -318,7 +318,7 @@ Default
 1440
 bytes
 .
-int
+size_t
 max_payload_size_in_bytes
 ;
 /
@@ -673,7 +673,6 @@ PacketManipulatorImpl
 (
 )
 ;
-virtual
 int
 ManipulatePackets
 (
@@ -684,7 +683,7 @@ EncodedImage
 *
 encoded_image
 )
-OVERRIDE
+override
 ;
 virtual
 void

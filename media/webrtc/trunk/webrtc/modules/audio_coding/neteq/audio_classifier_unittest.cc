@@ -272,6 +272,9 @@ channels
 AudioClassifier
 classifier
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int16_t

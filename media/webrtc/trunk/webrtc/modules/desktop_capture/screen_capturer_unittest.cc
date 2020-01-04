@@ -240,12 +240,11 @@ size_t
 size
 )
 ;
-virtual
 void
 SetUp
 (
 )
-OVERRIDE
+override
 {
 capturer_
 .
@@ -267,6 +266,9 @@ CreateDefault
 ;
 }
 protected
+:
+rtc
+:
 :
 scoped_ptr
 <

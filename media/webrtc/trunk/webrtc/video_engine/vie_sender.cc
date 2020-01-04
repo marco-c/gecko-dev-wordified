@@ -490,7 +490,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {
@@ -549,13 +549,7 @@ uint8_t
 (
 data
 )
-static_cast
-<
-uint16_t
->
-(
 len
-)
 )
 ;
 }
@@ -583,7 +577,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {
@@ -638,13 +632,7 @@ uint8_t
 (
 data
 )
-static_cast
-<
-uint16_t
->
-(
 len
-)
 )
 ;
 }

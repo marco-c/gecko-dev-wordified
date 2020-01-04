@@ -715,11 +715,11 @@ transaction
 NULL
 )
 ;
-virtual
 ~
 HttpClient
 (
 )
+override
 ;
 void
 set_pool
@@ -1538,7 +1538,6 @@ resolver
 /
 IHttpNotify
 Interface
-virtual
 HttpError
 onHttpHeaderComplete
 (
@@ -1548,8 +1547,8 @@ size_t
 &
 data_size
 )
+override
 ;
-virtual
 void
 onHttpComplete
 (
@@ -1558,14 +1557,15 @@ mode
 HttpError
 err
 )
+override
 ;
-virtual
 void
 onHttpClosed
 (
 HttpError
 err
 )
+override
 ;
 private
 :
