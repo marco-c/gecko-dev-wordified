@@ -2515,6 +2515,11 @@ sourceFile
 nsAutoCString
 sourceFile
 ;
+if
+(
+mSelfURI
+)
+{
 mSelfURI
 -
 >
@@ -2523,6 +2528,7 @@ GetSpec
 sourceFile
 )
 ;
+}
 nsAutoString
 codeSample
 (
