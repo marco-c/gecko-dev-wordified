@@ -9843,8 +9843,10 @@ parent
 return
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 viablePreviousSibling
 =
 FindViablePreviousSibling
@@ -9948,8 +9950,10 @@ parent
 return
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 viableNextSibling
 =
 FindViableNextSibling
@@ -10035,8 +10039,10 @@ parent
 return
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 viableNextSibling
 =
 FindViableNextSibling
