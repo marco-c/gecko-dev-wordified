@@ -662,6 +662,8 @@ doesn
 t
 exist
 )
+rv
+=
 logFile
 -
 >
@@ -673,6 +675,15 @@ nsIFile
 NORMAL_FILE_TYPE
 0644
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
 ;
 PRFileDesc
 *
