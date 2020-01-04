@@ -210,6 +210,15 @@ try
 {
 var
 loc
+;
+if
+(
+child
+.
+contentDocument
+)
+{
+loc
 =
 child
 .
@@ -217,6 +226,7 @@ contentDocument
 .
 location
 ;
+}
 }
 catch
 (
