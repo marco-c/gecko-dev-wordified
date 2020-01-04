@@ -1039,6 +1039,15 @@ ins
 ;
 virtual
 void
+visitCtzI
+(
+LCtzI
+*
+ins
+)
+;
+virtual
+void
 visitTestIAndBranch
 (
 LTestIAndBranch
