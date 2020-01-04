@@ -8996,8 +8996,10 @@ nameID
 =
 aNameID
 )
+{
 continue
 ;
+}
 /
 /
 skip
@@ -9028,8 +9030,10 @@ uint32_t
 aPlatformID
 )
 )
+{
 continue
 ;
+}
 /
 /
 skip
@@ -9058,8 +9062,10 @@ uint32_t
 aLangID
 )
 )
+{
 continue
 ;
+}
 /
 /
 add
