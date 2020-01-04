@@ -35536,6 +35536,16 @@ signals
 enable
 "
 )
+\
+Register
+(
+JUMP_THRESHOLD
+"
+jump
+-
+threshold
+"
+)
 typedef
 enum
 JSJitCompilerOption

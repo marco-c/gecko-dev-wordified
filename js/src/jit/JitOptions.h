@@ -389,6 +389,9 @@ osrPcMismatchesBeforeRecompile
 uint32_t
 smallFunctionMaxBytecodeLength_
 ;
+uint32_t
+jumpThreshold
+;
 mozilla
 :
 :
