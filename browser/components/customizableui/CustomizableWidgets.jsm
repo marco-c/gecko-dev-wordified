@@ -4669,7 +4669,7 @@ observes
 "
 Social
 :
-PageShareOrMark
+PageShareable
 "
 )
 ;
