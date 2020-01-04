@@ -351,9 +351,6 @@ get
 )
 )
 )
-namespace
-media
-{
 /
 *
 static
@@ -4540,11 +4537,6 @@ CheckIfSeekComplete
 ;
 }
 }
-}
-/
-/
-namespace
-media
 }
 /
 /

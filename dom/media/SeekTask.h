@@ -155,9 +155,6 @@ MediaData
 class
 MediaDecoderReaderWrapper
 ;
-namespace
-media
-{
 struct
 SeekTaskResolveValue
 {
@@ -789,11 +786,6 @@ mNeedToStopPrerollingVideo
 ;
 }
 ;
-}
-/
-/
-namespace
-media
 }
 /
 /
