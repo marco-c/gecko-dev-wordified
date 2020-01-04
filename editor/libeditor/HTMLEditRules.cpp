@@ -1922,17 +1922,10 @@ turn
 off
 rules
 sniffing
-nsAutoLockRulesSniffing
+AutoLockRulesSniffing
 lockIt
 (
-static_cast
-<
-TextEditRules
-*
->
-(
 this
-)
 )
 ;
 if
@@ -2090,7 +2083,7 @@ kungFuDeathGrip
 mHTMLEditor
 )
 ;
-nsAutoLockRulesSniffing
+AutoLockRulesSniffing
 lockIt
 (
 this
@@ -2585,7 +2578,7 @@ kungFuDeathGrip
 mHTMLEditor
 )
 ;
-nsAutoLockRulesSniffing
+AutoLockRulesSniffing
 lockIt
 (
 this
