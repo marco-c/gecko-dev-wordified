@@ -9759,12 +9759,6 @@ hasAnyIonScript
 &
 &
 !
-hasScriptCounts
-(
-)
-&
-&
-!
 doNotRelazify_
 ;
 }

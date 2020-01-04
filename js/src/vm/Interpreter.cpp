@@ -11133,8 +11133,11 @@ script
 hasScriptCounts
 (
 )
-&
-&
+)
+{
+\
+if
+(
 cx
 -
 >
@@ -11143,7 +11146,7 @@ compartment
 )
 -
 >
-collectCoverage
+collectCoverageForDebug
 (
 )
 )
@@ -11164,6 +11167,8 @@ cx
 goto
 error
 ;
+\
+}
 \
 }
 \
@@ -11843,7 +11848,7 @@ compartment
 )
 -
 >
-collectCoverage
+collectCoverageForDebug
 (
 )
 )
@@ -11861,10 +11866,6 @@ cx
 )
 goto
 error
-;
-moreInterrupts
-=
-true
 ;
 }
 if
