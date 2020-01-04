@@ -1548,7 +1548,6 @@ PrivacyFilter
 filterSessionStorageData
 (
 value
-isPinned
 )
 ;
 }
@@ -1571,7 +1570,6 @@ PrivacyFilter
 filterFormData
 (
 value
-isPinned
 )
 ;
 }
