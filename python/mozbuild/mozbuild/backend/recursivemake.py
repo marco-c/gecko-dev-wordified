@@ -3977,6 +3977,11 @@ AndroidResDirs
 )
 :
             
+#
+Order
+matters
+.
+            
 for
 p
 in
@@ -4011,6 +4016,11 @@ obj
 AndroidAssetsDirs
 )
 :
+            
+#
+Order
+matters
+.
             
 for
 p
@@ -4047,12 +4057,31 @@ AndroidExtraResDirs
 )
 :
             
+#
+Order
+does
+not
+matter
+.
+            
+for
+p
+in
+sorted
+(
+set
+(
+p
+.
+full_path
 for
 p
 in
 obj
 .
 paths
+)
+)
 :
                 
 backend_file
@@ -4070,8 +4099,6 @@ n
 '
 %
 p
-.
-full_path
 )
         
 elif
@@ -4082,12 +4109,25 @@ AndroidExtraPackages
 )
 :
             
+#
+Order
+does
+not
+matter
+.
+            
 for
 p
 in
+sorted
+(
+set
+(
 obj
 .
 packages
+)
+)
 :
                 
 backend_file
@@ -10029,9 +10069,15 @@ target
 .
 join
 (
+sorted
+(
+set
+(
 jar
 .
 extra_jars
+)
+)
 )
 )
 )
