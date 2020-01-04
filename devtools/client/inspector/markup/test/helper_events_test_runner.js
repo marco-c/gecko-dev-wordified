@@ -868,7 +868,9 @@ editor
 =
 tooltip
 .
-eventEditors
+eventTooltip
+.
+_eventEditors
 .
 get
 (
