@@ -3241,8 +3241,6 @@ uint8_t
 >
 aData
 uint32_t
-aDataLen
-uint32_t
 aStride
 uint32_t
 aWidth
@@ -3271,12 +3269,6 @@ uint8_t
 ]
 >
 mBuffer
-;
-HMODULE
-sDwmDLL
-;
-uint32_t
-mBufferLength
 ;
 uint32_t
 mStride
