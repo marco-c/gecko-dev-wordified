@@ -5610,7 +5610,6 @@ aPopupFrame
 ShowPopup
 (
 aIsContextMenu
-aSelectFirstItem
 )
 ;
 ENSURE_TRUE

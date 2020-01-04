@@ -2010,8 +2010,6 @@ ShowPopup
 (
 bool
 aIsContextMenu
-bool
-aSelectFirstItem
 )
 ;
 /
