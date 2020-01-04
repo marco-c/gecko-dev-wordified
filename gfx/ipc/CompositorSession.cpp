@@ -214,10 +214,8 @@ RootLayerTreeId
 const
 override
 ;
-already_AddRefed
-<
 APZCTreeManager
->
+*
 GetAPZCTreeManager
 (
 )
@@ -247,7 +245,7 @@ CompositorSession
 CompositorSession
 :
 :
-CreateInProcess
+CreateTopLevel
 (
 widget
 :
@@ -450,10 +448,8 @@ RootLayerTreeId
 )
 ;
 }
-already_AddRefed
-<
 APZCTreeManager
->
+*
 InProcessCompositorSession
 :
 :
