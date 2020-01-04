@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsCSSParser
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h
@@ -20142,7 +20149,12 @@ NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
 ;
 mControlCharacterVisibility
 =
-NS_STYLE_CONTROL_CHARACTER_VISIBILITY_VISIBLE
+nsCSSParser
+:
+:
+ControlCharVisibilityDefault
+(
+)
 ;
 mLetterSpacing
 .
