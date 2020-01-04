@@ -7081,6 +7081,9 @@ VS
 CarrySet
 =
 CS
+CarryClear
+=
+CC
 Signed
 =
 MI

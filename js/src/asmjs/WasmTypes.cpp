@@ -1830,6 +1830,12 @@ SystemPageSize
 =
 =
 0
+&
+&
+!
+JitOptions
+.
+wasmExplicitBoundsChecks
 )
 #
 else

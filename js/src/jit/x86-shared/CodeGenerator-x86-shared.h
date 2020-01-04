@@ -570,6 +570,10 @@ MWasmMemoryAccess
 mir
 Register
 ptr
+bool
+redundant
+=
+false
 )
 ;
 public
