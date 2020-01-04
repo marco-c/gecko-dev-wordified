@@ -585,7 +585,6 @@ Value
 *
 /
 else
-{
 QIndex
 =
 pc
@@ -639,7 +638,6 @@ valid
 range
 *
 /
-}
 }
 else
 QIndex
