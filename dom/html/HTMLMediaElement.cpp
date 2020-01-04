@@ -13093,12 +13093,7 @@ false
 &
 &
 !
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
+aCallerIsChrome
 &
 &
 OwnerDoc
