@@ -2294,12 +2294,12 @@ this
 determines
 if
 any
-stream
+track
 is
 peerIdentity
 constrained
 bool
-AnyLocalStreamHasPeerIdentity
+AnyLocalTrackHasPeerIdentity
 (
 )
 const
