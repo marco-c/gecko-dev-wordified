@@ -259,7 +259,7 @@ any
 thread
 .
 static
-nsAutoPtr
+UniquePtr
 <
 WpaSupplicant
 >
@@ -796,8 +796,10 @@ gWifiProxyService
 ;
 gWpaSupplicant
 =
-new
+MakeUnique
+<
 WpaSupplicant
+>
 (
 )
 ;
