@@ -3635,7 +3635,7 @@ be
 interpreted
 as
 an
-Int32x4
+Simd128
 a
 Double
 /
@@ -3647,7 +3647,7 @@ adding
 xmm0
 as
 an
-Int32x4
+Simd128
 does
 not
 make
@@ -3675,7 +3675,7 @@ add
 (
 xmm0
 .
-asInt32x4
+asSimd128
 (
 )
 )
