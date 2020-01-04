@@ -61529,12 +61529,12 @@ SetUncacheable
 svg
 -
 >
-SetStrokeDashoffsetFromObject
+SetStrokeDasharrayFromObject
 (
 parentSVG
 -
 >
-StrokeDashoffsetFromObject
+StrokeDasharrayFromObject
 (
 )
 )
@@ -61578,7 +61578,7 @@ dasharray
 svg
 -
 >
-SetStrokeDashoffsetFromObject
+SetStrokeDasharrayFromObject
 (
 true
 )
@@ -61603,7 +61603,7 @@ eCSSUnit_None
 svg
 -
 >
-SetStrokeDashoffsetFromObject
+SetStrokeDasharrayFromObject
 (
 false
 )
@@ -61629,7 +61629,7 @@ eCSSUnit_ListDep
 svg
 -
 >
-SetStrokeDashoffsetFromObject
+SetStrokeDasharrayFromObject
 (
 false
 )
