@@ -8589,6 +8589,10 @@ nsCSSProps
 IsEnabled
 (
 property
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 )
 {
