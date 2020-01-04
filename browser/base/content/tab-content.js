@@ -1157,6 +1157,15 @@ sendAsyncMessage
 "
 AboutHome
 :
+MaybeShowAutoMigrationUndoNotification
+"
+)
+;
+sendAsyncMessage
+(
+"
+AboutHome
+:
 RequestUpdate
 "
 )
