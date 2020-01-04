@@ -258,9 +258,6 @@ nsPIWindowRoot
 class
 nsXBLPrototypeHandler
 ;
-struct
-nsTimeout
-;
 typedef
 uint32_t
 SuspendTypes
@@ -282,6 +279,9 @@ Performance
 ;
 class
 ServiceWorkerRegistration
+;
+class
+Timeout
 ;
 class
 CustomElementRegistry
@@ -3738,7 +3738,13 @@ on
 inner
 windows
 .
-nsTimeout
+mozilla
+:
+:
+dom
+:
+:
+Timeout
 *
 mRunningTimeout
 ;
