@@ -32,6 +32,23 @@ use
 strict
 "
 ;
+/
+*
+exported
+Cr
+LoopRoomsInternal
+timerHandlers
+kMockWebSocketChannelName
+kWebSocketChannelContractID
+kServerPushUrl
+kLoopServerUrl
+setupFakeLoopServer
+setupFakeFxAUserProfile
+waitForCondition
+getLoopString
+extend
+*
+/
 var
 {
 classes
@@ -1169,7 +1186,6 @@ unregister
 :
 function
 (
-channelID
 )
 {
 return
@@ -1275,7 +1291,6 @@ defaultMsgHandler
 :
 function
 (
-msg
 )
 {
 /
@@ -1528,7 +1543,6 @@ close
 function
 (
 aCode
-aReason
 )
 {
 this

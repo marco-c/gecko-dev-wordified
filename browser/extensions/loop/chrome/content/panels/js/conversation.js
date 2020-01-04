@@ -69,7 +69,6 @@ loop
 .
 conversation
 =
-(
 function
 (
 mozL10n
@@ -266,7 +265,6 @@ conversation_has_ended
 )
 ;
 return
-(
 React
 .
 createElement
@@ -279,7 +277,6 @@ this
 .
 closeWindow
 }
-)
 )
 ;
 }
@@ -447,7 +444,6 @@ room
 :
 {
 return
-(
 React
 .
 createElement
@@ -482,7 +478,6 @@ props
 roomStore
 }
 )
-)
 ;
 }
 case
@@ -492,7 +487,6 @@ failed
 :
 {
 return
-(
 React
 .
 createElement
@@ -512,7 +506,6 @@ FAILURE_DETAILS
 .
 UNKNOWN
 }
-)
 )
 ;
 }
@@ -1242,9 +1235,9 @@ lang
 "
 mozL10n
 .
-getLanguage
-(
-)
+language
+.
+code
 )
 ;
 document
@@ -1258,9 +1251,9 @@ dir
 "
 mozL10n
 .
-getDirection
-(
-)
+language
+.
+direction
 )
 ;
 document
@@ -1353,7 +1346,6 @@ null
 }
 ;
 }
-)
 (
 document
 .

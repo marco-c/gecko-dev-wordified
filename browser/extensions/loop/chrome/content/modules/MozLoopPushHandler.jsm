@@ -168,6 +168,12 @@ MozLoopService
 .
 log
 ;
+/
+*
+exported
+MozLoopPushHandler
+*
+/
 this
 .
 EXPORTED_SYMBOLS
@@ -3630,7 +3636,6 @@ _onClose
 function
 (
 aCode
-aReason
 )
 {
 this

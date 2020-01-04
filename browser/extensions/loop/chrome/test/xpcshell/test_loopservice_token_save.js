@@ -34,6 +34,12 @@ strict
 ;
 /
 *
+exported
+run_test
+*
+/
+/
+*
 *
 *
 Test

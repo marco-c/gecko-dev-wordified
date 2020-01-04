@@ -43,6 +43,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 Cu
 .
 import

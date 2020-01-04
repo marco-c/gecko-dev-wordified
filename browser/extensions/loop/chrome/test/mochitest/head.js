@@ -32,6 +32,25 @@ use
 strict
 "
 ;
+/
+*
+exported
+HAWK_TOKEN_LENGTH
+LoopRooms
+promiseWaitForCondition
+loadLoopPanel
+promiseOAuthParamsSetup
+resetFxA
+checkLoggedOutState
+promiseDeletedOAuthParams
+promiseOAuthGetRegistration
+getLoopString
+mockPushHandler
+channelID
+mockDb
+LoopAPI
+*
+/
 const
 HAWK_TOKEN_LENGTH
 =
@@ -185,7 +204,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -393,7 +411,6 @@ load
 function
 panelOnLoad
 (
-e
 )
 {
 iframe
@@ -657,7 +674,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -1344,7 +1360,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -1772,7 +1787,6 @@ unregister
 :
 function
 (
-channelID
 )
 {
 return

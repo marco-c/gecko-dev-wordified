@@ -32,6 +32,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 const
 LOOP_HAWK_PREF
 =

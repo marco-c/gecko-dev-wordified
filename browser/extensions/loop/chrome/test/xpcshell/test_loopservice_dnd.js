@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 XPCOMUtils
 .
 defineLazyModuleGetter

@@ -32,6 +32,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 const
 FAKE_FXA_TOKEN_DATA
 =

@@ -67,6 +67,17 @@ set_server_prefix
 (
 "
 .
+.
+/
+.
+.
+/
+.
+.
+/
+.
+.
+/
 "
 )
     
@@ -82,6 +93,14 @@ self
 check_page
 (
 "
+chrome
+/
+content
+/
+shared
+/
+test
+/
 index
 .
 html
