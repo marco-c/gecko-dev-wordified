@@ -2536,6 +2536,8 @@ encoding
 base64
 "
 ;
+try
+{
 response
 .
 text
@@ -2547,6 +2549,13 @@ response
 text
 )
 ;
+}
+catch
+(
+err
+)
+{
+}
 }
 if
 (
