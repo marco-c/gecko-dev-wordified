@@ -273,6 +273,11 @@ const
 MediaSegment
 &
 aQueuedMedia
+MediaStream
+*
+aInputStream
+TrackID
+aInputTrackID
 )
 {
 /

@@ -320,6 +320,9 @@ Fake_VideoSink
 }
 ;
 class
+Fake_MediaStream
+;
+class
 Fake_SourceMediaStream
 ;
 class
@@ -365,6 +368,14 @@ mozilla
 MediaSegment
 &
 aQueuedMedia
+Fake_MediaStream
+*
+aInputStream
+mozilla
+:
+:
+TrackID
+aInputTrackID
 )
 =
 0
