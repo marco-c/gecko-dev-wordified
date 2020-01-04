@@ -810,6 +810,12 @@ _keep_if_debug
 self
 .
 THROW
+        
+self
+.
+_queue_is_active
+=
+False
     
 staticmethod
     
@@ -1199,6 +1205,22 @@ self
 )
 :
         
+if
+self
+.
+_queue_is_active
+:
+            
+yield
+            
+return
+        
+self
+.
+_queue_is_active
+=
+True
+        
 self
 .
 _keep_if_debug
@@ -1244,6 +1266,15 @@ stack
 .
             
 raise
+        
+finally
+:
+            
+self
+.
+_queue_is_active
+=
+False
         
 self
 .
