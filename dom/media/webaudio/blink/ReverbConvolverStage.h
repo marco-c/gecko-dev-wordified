@@ -499,11 +499,6 @@ size_t
 framesToProcess
 )
 ;
-void
-reset
-(
-)
-;
 /
 /
 Useful
