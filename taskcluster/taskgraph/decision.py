@@ -442,7 +442,9 @@ input
 write_artifact
 (
 '
-target_tasks
+target
+-
+tasks
 .
 json
 '
