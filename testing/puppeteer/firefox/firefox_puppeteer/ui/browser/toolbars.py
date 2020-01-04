@@ -700,6 +700,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -716,6 +717,20 @@ value
 =
 =
 '
+'
+            
+message
+=
+'
+Contents
+of
+location
+bar
+could
+not
+be
+cleared
+.
 '
 )
     
@@ -1165,12 +1180,25 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
 self
 .
 focused
+            
+message
+=
+'
+Location
+bar
+has
+not
+be
+focused
+.
+'
 )
     
 def
@@ -1744,6 +1772,18 @@ self
 )
 :
         
+"
+"
+"
+Open
+the
+identity
+popup
+.
+"
+"
+"
+        
 self
 .
 identity_box
@@ -1761,6 +1801,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -1769,6 +1810,18 @@ self
 identity_popup
 .
 is_open
+            
+message
+=
+'
+Identity
+popup
+has
+not
+been
+opened
+.
+'
 )
     
 property
@@ -2355,6 +2408,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -2362,6 +2416,18 @@ not
 self
 .
 is_open
+            
+message
+=
+'
+Autocomplete
+popup
+has
+not
+been
+closed
+.
+'
 )
     
 def
@@ -3335,6 +3401,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -3342,6 +3409,18 @@ not
 self
 .
 is_open
+            
+message
+=
+'
+Identity
+popup
+has
+not
+been
+closed
+.
+'
 )
     
 property

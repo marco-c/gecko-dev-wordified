@@ -112,12 +112,26 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
 self
 .
 selected_panel
+            
+message
+=
+'
+No
+panel
+has
+been
+selected
+by
+default
+.
+'
 )
     
 def
