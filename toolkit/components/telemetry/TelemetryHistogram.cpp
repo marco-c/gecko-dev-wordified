@@ -13917,6 +13917,17 @@ locker
 gTelemetryHistogramMutex
 )
 ;
+if
+(
+!
+internal_CanRecordBase
+(
+)
+)
+{
+return
+;
+}
 internal_HistogramAddCategorical
 (
 aId
