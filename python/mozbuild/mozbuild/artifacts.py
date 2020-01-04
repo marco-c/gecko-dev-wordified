@@ -1697,25 +1697,6 @@ firefox
 .
 so
 '
-        
-mozpath
-.
-join
-(
-'
-firefox
-'
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
-)
     
 }
     
@@ -2694,17 +2675,6 @@ libfakeopenh264
 .
 dylib
 '
-                
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
             
 ]
 )
@@ -3062,25 +3032,6 @@ firefox
 .
 exe
 '
-        
-mozpath
-.
-join
-(
-'
-firefox
-'
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
-)
     
 }
     
