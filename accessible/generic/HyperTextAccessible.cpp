@@ -9523,7 +9523,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -10474,7 +10474,7 @@ GetSelectionDOMRanges
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 &
 ranges
 )
@@ -10523,7 +10523,7 @@ GetSelectionDOMRanges
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 &
 ranges
 )

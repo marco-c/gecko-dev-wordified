@@ -52804,7 +52804,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 )
 ;

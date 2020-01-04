@@ -4159,7 +4159,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 aSelection
 )
 ;
@@ -14930,7 +14930,7 @@ selectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 NS_ENSURE_TRUE
@@ -15541,7 +15541,7 @@ Type
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 /
@@ -15894,7 +15894,7 @@ selectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 NS_ENSURE_TRUE
@@ -16579,7 +16579,7 @@ Type
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 /

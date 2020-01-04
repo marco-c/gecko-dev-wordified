@@ -389,7 +389,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 normalSel
@@ -570,7 +570,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 normalSel
@@ -669,7 +669,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 normalSel
@@ -769,7 +769,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 normalSel
@@ -1439,7 +1439,7 @@ GetType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 RefPtr

@@ -8869,7 +8869,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -15592,7 +15592,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 }
@@ -15609,7 +15609,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 /
@@ -18933,7 +18933,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 RefPtr
@@ -18950,7 +18950,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 NS_ENSURE_STATE
