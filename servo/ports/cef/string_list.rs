@@ -96,7 +96,7 @@ cef_string_t
 }
 ;
 fn
-string_map_to_vec
+string_list_to_vec
 (
 lt
 :
@@ -221,7 +221,7 @@ return
 let
 v
 =
-string_map_to_vec
+string_list_to_vec
 (
 lt
 )
@@ -282,7 +282,7 @@ return
 let
 v
 =
-string_map_to_vec
+string_list_to_vec
 (
 lt
 )
@@ -386,7 +386,7 @@ return
 let
 v
 =
-string_map_to_vec
+string_list_to_vec
 (
 lt
 )
@@ -488,7 +488,7 @@ return
 let
 v
 =
-string_map_to_vec
+string_list_to_vec
 (
 lt
 )
@@ -667,7 +667,7 @@ cef_string_list_t
 let
 v
 =
-string_map_to_vec
+string_list_to_vec
 (
 lt
 )
