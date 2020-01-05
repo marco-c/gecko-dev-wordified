@@ -17142,6 +17142,8 @@ ToMilliseconds
 void
 AccumulateChild
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
@@ -17156,6 +17158,7 @@ TelemetryHistogram
 :
 AccumulateChild
 (
+aProcessType
 aAccumulations
 )
 ;
@@ -17163,6 +17166,8 @@ aAccumulations
 void
 AccumulateChildKeyed
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
@@ -17177,6 +17182,7 @@ TelemetryHistogram
 :
 AccumulateChildKeyed
 (
+aProcessType
 aAccumulations
 )
 ;

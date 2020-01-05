@@ -118,6 +118,13 @@ TelemetryComms
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 /
 /
 This
@@ -347,6 +354,8 @@ aLabel
 void
 AccumulateChild
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
@@ -365,6 +374,8 @@ aAccumulations
 void
 AccumulateChildKeyed
 (
+GeckoProcessType
+aProcessType
 const
 nsTArray
 <
