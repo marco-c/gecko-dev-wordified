@@ -2863,15 +2863,6 @@ PATH
 ]
 )
         
-if
-"
-CARGO_HOME
-"
-not
-in
-env
-:
-            
 env
 [
 "
