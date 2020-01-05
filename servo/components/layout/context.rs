@@ -66,10 +66,14 @@ the
 layout
 thread
 .
+/
+/
+for
+thread_local
 #
 !
 [
-deny
+allow
 (
 unsafe_code
 )

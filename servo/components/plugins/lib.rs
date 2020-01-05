@@ -253,6 +253,10 @@ syntax
 ;
 extern
 crate
+syntax_ext
+;
+extern
+crate
 tenacious
 ;
 extern
