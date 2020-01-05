@@ -6092,7 +6092,7 @@ get_text
 .
 text_overflow
 .
-first
+second
 fragment
 .
 style
