@@ -503,7 +503,7 @@ gBrowser
 .
 tabContainer
 .
-_positionPinnedTabs
+themeLayoutChanged
 (
 )
 ;
