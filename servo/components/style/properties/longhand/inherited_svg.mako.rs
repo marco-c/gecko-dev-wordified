@@ -279,6 +279,11 @@ rule
 nonzero
 evenodd
 "
+gecko_enum_prefix
+=
+"
+StyleFillRule
+"
 products
 =
 "
@@ -452,10 +457,10 @@ products
 "
 gecko
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_FILL_RULE
+StyleFillRule
 "
 animatable
 =
