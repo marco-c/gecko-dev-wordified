@@ -10963,7 +10963,7 @@ svgContext
 SVGImageContext
 :
 :
-MaybeInitAndStoreContextPaint
+MaybeStoreContextPaint
 (
 svgContext
 this

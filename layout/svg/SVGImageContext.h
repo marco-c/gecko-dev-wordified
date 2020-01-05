@@ -455,7 +455,7 @@ aPreserveAspectRatio
 }
 static
 void
-MaybeInitAndStoreContextPaint
+MaybeStoreContextPaint
 (
 Maybe
 <
