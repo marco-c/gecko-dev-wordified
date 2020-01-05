@@ -389,6 +389,10 @@ AssertBasicGraphCoherency
 MIRGraph
 &
 graph
+bool
+force
+=
+false
 )
 ;
 void
@@ -397,6 +401,10 @@ AssertGraphCoherency
 MIRGraph
 &
 graph
+bool
+force
+=
+false
 )
 ;
 void
@@ -407,6 +415,10 @@ MIRGraph
 graph
 bool
 underValueNumberer
+=
+false
+bool
+force
 =
 false
 )
