@@ -2236,7 +2236,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms
@@ -2462,7 +2462,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms
@@ -2609,7 +2609,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms
@@ -3138,7 +3138,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms
@@ -3364,7 +3364,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms
@@ -3436,7 +3436,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms

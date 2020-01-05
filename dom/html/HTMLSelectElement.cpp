@@ -4023,7 +4023,7 @@ nodeInfo
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mNodeInfo
 nsGkAtoms

@@ -19072,7 +19072,7 @@ nsresult
 nsContentUtils
 :
 :
-NameChanged
+QNameChanged
 (
 mozilla
 :
@@ -19118,12 +19118,7 @@ niMgr
 GetNodeInfo
 (
 aName
-aNodeInfo
--
->
-GetPrefixAtom
-(
-)
+nullptr
 aNodeInfo
 -
 >
