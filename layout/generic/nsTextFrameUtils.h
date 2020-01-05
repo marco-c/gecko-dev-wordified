@@ -172,6 +172,10 @@ textframe
 textruns
 .
 enum
+class
+Flags
+:
+uint16_t
 {
 /
 /
@@ -832,7 +836,10 @@ aIncomingFlags
 gfxSkipChars
 *
 aSkipChars
-uint16_t
+nsTextFrameUtils
+:
+:
+Flags
 *
 aAnalysisFlags
 )
@@ -979,6 +986,13 @@ aStyleText
 ;
 }
 ;
+MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
+(
+nsTextFrameUtils
+:
+:
+Flags
+)
 class
 nsSkipCharsRunIterator
 {

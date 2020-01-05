@@ -8772,7 +8772,10 @@ GetFlags
 (
 )
 &
-gfxTextRunFactory
+gfx
+:
+:
+ShapedTextFlags
 :
 :
 TEXT_USE_MATH_SCRIPT

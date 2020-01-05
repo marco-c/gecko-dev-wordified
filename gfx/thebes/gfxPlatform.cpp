@@ -11688,7 +11688,10 @@ GetFlags
 (
 )
 &
-gfxTextRunFactory
+gfx
+:
+:
+ShapedTextFlags
 :
 :
 TEXT_IS_8BIT
