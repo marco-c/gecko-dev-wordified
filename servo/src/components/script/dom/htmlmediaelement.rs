@@ -118,8 +118,7 @@ type_id
 ElementTypeId
 tag_name
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument

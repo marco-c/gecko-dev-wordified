@@ -139,8 +139,7 @@ new_inherited
 (
 localName
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument
@@ -170,8 +169,7 @@ new
 (
 localName
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument

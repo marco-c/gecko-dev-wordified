@@ -148,8 +148,7 @@ new_inherited
 (
 text
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument
@@ -179,8 +178,7 @@ new
 (
 text
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument

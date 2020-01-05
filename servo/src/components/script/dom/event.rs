@@ -771,8 +771,7 @@ AbstractEventTarget
 >
 type_
 :
-~
-str
+DOMString
 phase
 :
 EventPhase

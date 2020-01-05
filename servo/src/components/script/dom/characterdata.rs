@@ -125,8 +125,7 @@ node
 Node
 data
 :
-~
-str
+DOMString
 }
 impl
 CharacterData
@@ -140,8 +139,7 @@ id
 NodeTypeId
 data
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument
