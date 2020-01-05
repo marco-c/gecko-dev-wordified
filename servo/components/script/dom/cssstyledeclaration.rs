@@ -172,16 +172,8 @@ element
 {
 ElementHelpers
 StylePriority
+Element
 }
-;
-use
-dom
-:
-:
-htmlelement
-:
-:
-HTMLElement
 ;
 use
 dom
@@ -326,7 +318,7 @@ owner
 :
 JS
 <
-HTMLElement
+Element
 >
 readonly
 :
@@ -488,7 +480,7 @@ new_inherited
 owner
 :
 &
-HTMLElement
+Element
 pseudo
 :
 Option
@@ -547,7 +539,7 @@ Window
 owner
 :
 &
-HTMLElement
+Element
 pseudo
 :
 Option
@@ -638,7 +630,7 @@ PropertyDeclaration
 impl
 PrivateCSSStyleDeclarationHelpers
 for
-HTMLElement
+Element
 {
 fn
 get_declaration

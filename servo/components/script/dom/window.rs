@@ -366,15 +366,6 @@ use
 dom
 :
 :
-htmlelement
-:
-:
-HTMLElement
-;
-use
-dom
-:
-:
 location
 :
 :
@@ -4743,7 +4734,7 @@ self
 element
 :
 &
-HTMLElement
+Element
 pseudo
 :
 Option

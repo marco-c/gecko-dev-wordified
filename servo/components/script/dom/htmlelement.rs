@@ -1175,7 +1175,13 @@ global
 r
 (
 )
+ElementCast
+:
+:
+from_ref
+(
 self
+)
 None
 CSSModificationAccess
 :
