@@ -1466,6 +1466,4 @@ open
 fpCallback
 )
 ;
-return
-;
 }

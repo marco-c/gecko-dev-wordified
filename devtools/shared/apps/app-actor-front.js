@@ -4369,10 +4369,6 @@ app
 ;
 break
 ;
-default
-:
-return
-;
 }
 }
 )

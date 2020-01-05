@@ -2362,7 +2362,7 @@ authResult
 )
 )
 ;
-return
+break
 ;
 }
 }
