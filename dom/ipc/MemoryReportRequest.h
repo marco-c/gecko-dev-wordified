@@ -269,6 +269,10 @@ const
 MaybeFileDesc
 &
 aDMDFile
+const
+nsACString
+&
+aProcessString
 )
 ;
 NS_IMETHOD
@@ -290,6 +294,9 @@ mAnonymize
 ;
 FileDescriptor
 mDMDFile
+;
+nsCString
+mProcessString
 ;
 }
 ;
