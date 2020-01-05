@@ -714,6 +714,8 @@ PartialEq
 Copy
 Debug
 HeapSizeOf
+Hash
+Eq
 Deserialize
 Serialize
 )
@@ -742,6 +744,10 @@ for
 debugging
 purposes
 .
+#
+[
+inline
+]
 pub
 fn
 id
