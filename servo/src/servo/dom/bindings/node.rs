@@ -608,8 +608,6 @@ AbstractNode
 let
 raw
 =
-unsafe
-{
 utils
 :
 :
@@ -624,7 +622,6 @@ Node
 (
 obj
 )
-}
 ;
 AbstractNode
 :

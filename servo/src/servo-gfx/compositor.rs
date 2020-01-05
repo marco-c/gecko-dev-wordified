@@ -156,8 +156,8 @@ LayerBuffer
 ]
 }
 /
-*
-*
+/
+/
 The
 interface
 used
@@ -166,7 +166,7 @@ by
 the
 renderer
 to
-aquire
+acquire
 draw
 targets
 for
@@ -174,6 +174,9 @@ each
 rendered
 frame
 and
+/
+/
+/
 submit
 them
 to
@@ -182,8 +185,7 @@ drawn
 to
 the
 display
-*
-/
+.
 pub
 trait
 Compositor

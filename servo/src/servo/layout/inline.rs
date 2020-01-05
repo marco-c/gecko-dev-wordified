@@ -199,15 +199,6 @@ use
 gfx
 :
 :
-image
-:
-:
-holder
-;
-use
-gfx
-:
-:
 text
 :
 :
@@ -5631,7 +5622,7 @@ width
 }
 TextRenderBoxClass
 (
-text_box
+_
 )
 =
 >
