@@ -462,7 +462,17 @@ getPlatformInfo
 "
 runtime
 .
+onConnectExternal
+"
+"
+runtime
+.
 onInstalled
+"
+"
+runtime
+.
+onMessageExternal
 "
 "
 runtime
