@@ -4938,16 +4938,8 @@ constellation_msg
 KeyModifiers
 :
 :
-from_bits
+empty
 (
-0
-)
-.
-expect
-(
-"
-infallible
-"
 )
 ;
 if
