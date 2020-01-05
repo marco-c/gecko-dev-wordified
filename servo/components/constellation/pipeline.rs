@@ -131,6 +131,12 @@ use
 ipc_channel
 :
 :
+SerializeError
+;
+use
+ipc_channel
+:
+:
 ipc
 :
 :
@@ -315,17 +321,6 @@ ffi
 :
 :
 OsStr
-;
-use
-std
-:
-:
-io
-:
-:
-Error
-as
-IOError
 ;
 use
 std
@@ -1360,7 +1355,7 @@ InitialPipelineState
 Result
 <
 Pipeline
-IOError
+SerializeError
 >
 where
 LTF
@@ -3714,7 +3709,7 @@ Result
 <
 (
 )
-IOError
+SerializeError
 >
 {
 use
@@ -4127,7 +4122,7 @@ Result
 <
 (
 )
-IOError
+SerializeError
 >
 {
 error
