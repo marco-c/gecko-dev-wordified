@@ -643,8 +643,6 @@ hb_buffer_t
 >
 ShapedGlyphData
 {
-unsafe
-{
 let
 glyph_count
 =
@@ -724,7 +722,6 @@ glyph_infos
 pos_infos
 :
 pos_infos
-}
 }
 }
 #
@@ -1201,8 +1198,6 @@ Font
 >
 Shaper
 {
-unsafe
-{
 let
 font_ptr
 :
@@ -1404,7 +1399,6 @@ hb_font
 hb_funcs
 :
 hb_funcs
-}
 }
 }
 fn

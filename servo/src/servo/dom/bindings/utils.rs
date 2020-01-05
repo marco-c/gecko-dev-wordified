@@ -2500,8 +2500,6 @@ str
 *
 JSObject
 {
-unsafe
-{
 let
 mut
 proto
@@ -2651,7 +2649,6 @@ else
 interface
 }
 }
-}
 fn
 CreateInterfaceObject
 (
@@ -2701,8 +2698,6 @@ c_char
 >
 *
 JSObject
-{
-unsafe
 {
 let
 constructor
@@ -3076,7 +3071,6 @@ return
 constructor
 ;
 }
-}
 fn
 DefineConstants
 (
@@ -3196,8 +3190,6 @@ JSFunctionSpec
 >
 bool
 {
-unsafe
-{
 JS_DefineFunctions
 (
 cx
@@ -3207,7 +3199,6 @@ methods
 !
 =
 0
-}
 }
 fn
 DefineProperties
@@ -3229,8 +3220,6 @@ JSPropertySpec
 >
 bool
 {
-unsafe
-{
 JS_DefineProperties
 (
 cx
@@ -3240,7 +3229,6 @@ properties
 !
 =
 0
-}
 }
 fn
 CreateInterfacePrototypeObject
@@ -3613,15 +3601,12 @@ wrapper
 JSObject
 )
 {
-unsafe
-{
 self
 .
 wrapper
 =
 wrapper
 ;
-}
 }
 fn
 new

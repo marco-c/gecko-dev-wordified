@@ -906,8 +906,6 @@ JSContext
 mut
 Content
 {
-unsafe
-{
 JS_GetContextPrivate
 (
 cx
@@ -916,7 +914,6 @@ as
 *
 mut
 Content
-}
 }
 #
 [

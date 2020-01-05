@@ -1753,8 +1753,6 @@ obj
 ptr
 )
 ;
-unsafe
-{
 let
 raw_ptr
 =
@@ -1786,7 +1784,6 @@ raw_ptr
 )
 )
 ;
-}
 return
 obj
 ;

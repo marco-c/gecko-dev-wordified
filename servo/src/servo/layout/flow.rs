@@ -2297,8 +2297,6 @@ pure
 const
 version
 ?
-unsafe
-{
 for
 FlowTree
 .
@@ -2318,7 +2316,6 @@ indent
 +
 1u
 )
-}
 }
 }
 fn
