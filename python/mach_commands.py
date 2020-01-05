@@ -846,9 +846,26 @@ python
 '
 )
         
+mp
+=
+TestManifest
+(
+)
+        
+mp
+.
+tests
+.
+extend
+(
+test_objects
+)
+        
 if
 not
-test_objects
+mp
+.
+tests
 :
             
 message
@@ -895,21 +912,6 @@ message
             
 return
 1
-        
-mp
-=
-TestManifest
-(
-)
-        
-mp
-.
-tests
-.
-extend
-(
-test_objects
-)
         
 filters
 =
