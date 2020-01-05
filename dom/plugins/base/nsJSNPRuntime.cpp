@@ -9646,6 +9646,12 @@ JSObject
 obj
 )
 {
+JS
+:
+:
+AutoAssertGCCallback
+inCallback
+;
 NPObject
 *
 npobj
