@@ -392,7 +392,7 @@ colorUtils
 colorToRGBA
 (
 test
-true
+false
 )
 ;
 let
@@ -459,7 +459,7 @@ colorUtils
 colorToRGBA
 (
 test
-true
+false
 )
 ;
 let
@@ -470,7 +470,7 @@ colorUtils
 colorToRGBA
 (
 test
-false
+true
 )
 ;
 let
