@@ -4558,9 +4558,7 @@ close
 }
 catch
 (
-IOException
-|
-XmlPullParserException
+Exception
 e
 )
 {
