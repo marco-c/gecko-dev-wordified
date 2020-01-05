@@ -878,13 +878,6 @@ children
 (
 )
 {
-if
-kid
-.
-is_element
-(
-)
-{
 kid
 .
 cascade_subtree
@@ -896,7 +889,6 @@ self
 )
 )
 ;
-}
 }
 }
 }
