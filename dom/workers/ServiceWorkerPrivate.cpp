@@ -7694,7 +7694,7 @@ GetRegistration
 mInfo
 -
 >
-GetPrincipal
+Principal
 (
 )
 mInfo
@@ -8474,7 +8474,7 @@ rv
 mInfo
 -
 >
-GetPrincipal
+Principal
 (
 )
 -

@@ -5729,7 +5729,7 @@ GetRegistration
 serviceWorker
 -
 >
-GetPrincipal
+Principal
 (
 )
 aScope
@@ -7316,7 +7316,7 @@ GetRegistration
 aWorker
 -
 >
-GetPrincipal
+Principal
 (
 )
 aWorker

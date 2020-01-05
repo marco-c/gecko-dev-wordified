@@ -395,7 +395,7 @@ mServiceWorkerPrivate
 }
 nsIPrincipal
 *
-GetPrincipal
+Principal
 (
 )
 const
