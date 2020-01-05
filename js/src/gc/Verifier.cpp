@@ -1692,11 +1692,6 @@ usedByHelperThread
 )
 )
 ;
-PurgeJITCaches
-(
-zone
-)
-;
 zone
 -
 >
@@ -2338,11 +2333,6 @@ Zone
 :
 :
 UpdateJit
-)
-;
-PurgeJITCaches
-(
-zone
 )
 ;
 }

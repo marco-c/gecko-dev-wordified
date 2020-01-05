@@ -8479,17 +8479,6 @@ cx
 ;
 }
 ;
-void
-PurgeJITCaches
-(
-JS
-:
-:
-Zone
-*
-zone
-)
-;
 /
 /
 This
