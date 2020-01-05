@@ -4684,17 +4684,10 @@ stderr
 subprocess
 .
 STDOUT
-)
-            
-output
+                                             
+universal_newlines
 =
-output
-.
-decode
-(
-'
-utf8
-'
+True
 )
     
 except
@@ -4715,13 +4708,6 @@ n
 e
 .
 output
-.
-decode
-(
-'
-utf8
-'
-)
 )
         
 return
