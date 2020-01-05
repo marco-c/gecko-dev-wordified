@@ -2567,9 +2567,6 @@ IsDoc
 )
 )
 {
-#
-ifdef
-DEBUG
 return
 IPC_FAIL
 (
@@ -2589,15 +2586,6 @@ outerDoc
 "
 )
 ;
-#
-else
-return
-IPC_OK
-(
-)
-;
-#
-endif
 }
 aChildDoc
 -
