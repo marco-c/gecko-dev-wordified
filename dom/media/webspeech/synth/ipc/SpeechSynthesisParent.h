@@ -451,6 +451,10 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
+uint32_t
+aCharLength
+uint8_t
+argc
 )
 ;
 nsresult

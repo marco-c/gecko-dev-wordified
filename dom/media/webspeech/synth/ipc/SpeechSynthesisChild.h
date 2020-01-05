@@ -386,6 +386,14 @@ const
 uint32_t
 &
 aCharIndex
+const
+uint32_t
+&
+aCharLength
+const
+uint8_t
+&
+argc
 )
 override
 ;

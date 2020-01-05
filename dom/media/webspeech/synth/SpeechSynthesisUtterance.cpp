@@ -691,6 +691,11 @@ nsAString
 aEventType
 uint32_t
 aCharIndex
+Nullable
+<
+uint32_t
+>
+aCharLength
 float
 aElapsedTime
 const
@@ -725,6 +730,12 @@ init
 mCharIndex
 =
 aCharIndex
+;
+init
+.
+mCharLength
+=
+aCharLength
 ;
 init
 .
