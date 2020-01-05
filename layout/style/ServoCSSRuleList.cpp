@@ -490,7 +490,7 @@ corresponding
 rules
 default
 :
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
