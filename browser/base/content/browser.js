@@ -33365,6 +33365,8 @@ LOCATION_CHANGE_SAME_DOCUMENT
 {
 if
 (
+window
+.
 content
 .
 document
@@ -33377,6 +33379,8 @@ interactive
 "
 |
 |
+window
+.
 content
 .
 document
@@ -33392,6 +33396,8 @@ disableFindCommands
 (
 shouldDisableFind
 (
+window
+.
 content
 .
 document
@@ -33400,6 +33406,8 @@ document
 ;
 else
 {
+window
+.
 content
 .
 document
@@ -36672,6 +36680,8 @@ illegal
 value
 newWindow
 =
+window
+.
 content
 ;
 if
