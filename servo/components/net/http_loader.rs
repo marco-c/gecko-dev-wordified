@@ -2419,7 +2419,7 @@ FromChrome
 ChromeToDevtoolsControlMsg
 :
 :
-NetworkEventMessage
+NetworkEvent
 (
 request_id
 .
@@ -3420,7 +3420,7 @@ FromChrome
 ChromeToDevtoolsControlMsg
 :
 :
-NetworkEventMessage
+NetworkEvent
 (
 request_id
 net_event_response

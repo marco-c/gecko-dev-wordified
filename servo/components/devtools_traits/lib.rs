@@ -374,7 +374,7 @@ String
 f64
 )
 ServerExitMsg
-NetworkEventMessage
+NetworkEvent
 (
 String
 NetworkEvent
