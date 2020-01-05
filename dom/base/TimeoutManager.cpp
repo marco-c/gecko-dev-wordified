@@ -3289,6 +3289,11 @@ last_expired_tracking_timeout
 timeout
 ;
 }
+numTimersToRun
++
+=
+1
+;
 /
 /
 Note
@@ -3458,11 +3463,6 @@ IsChromeWindow
 break
 ;
 }
-numTimersToRun
-+
-=
-1
-;
 }
 expiredIter
 .
