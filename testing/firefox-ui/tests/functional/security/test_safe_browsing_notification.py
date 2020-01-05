@@ -166,31 +166,39 @@ info
             
 {
                 
+#
+First
+two
+properties
+are
+not
+needed
+because
+only
+url
+which
+                
+#
+matches
+google
+'
+s
+list
+could
+be
+reported
+                
 '
 button_property
 '
 :
-'
-safebrowsing
-.
-notADeceptiveSiteButton
-.
-label
-'
+None
                 
 '
 report_page
 '
 :
-'
-google
-.
-com
-/
-safebrowsing
-/
-report_error
-'
+None
                 
 '
 unsafe_page
@@ -227,27 +235,39 @@ object
             
 {
                 
+#
+First
+two
+properties
+are
+not
+needed
+because
+only
+url
+which
+                
+#
+matches
+google
+'
+s
+list
+could
+be
+reported
+                
 '
 button_property
 '
 :
-'
-safebrowsing
-.
-notAnAttackButton
-.
-label
-'
+None
                 
 '
 report_page
 '
 :
-'
-stopbadware
-.
-org
-'
+None
                 
 '
 unsafe_page
