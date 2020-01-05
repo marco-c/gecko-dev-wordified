@@ -536,9 +536,15 @@ aContent
 nsresult
 ClearBinding
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 )
 ;
 nsresult
