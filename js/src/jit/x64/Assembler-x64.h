@@ -1397,6 +1397,13 @@ ecx
 static
 constexpr
 Register
+WasmIonExitTlsReg
+=
+r14
+;
+static
+constexpr
+Register
 WasmIonExitRegD0
 =
 rax

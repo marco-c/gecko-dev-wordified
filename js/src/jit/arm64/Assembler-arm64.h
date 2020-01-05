@@ -1087,6 +1087,13 @@ r3
 static
 constexpr
 Register
+WasmIonExitTlsReg
+=
+r17
+;
+static
+constexpr
+Register
 WasmIonExitRegD0
 =
 r0

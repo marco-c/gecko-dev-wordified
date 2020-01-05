@@ -548,6 +548,13 @@ JSReturnReg_Type
 ;
 static
 constexpr
+Register
+WasmIonExitTlsReg
+=
+s5
+;
+static
+constexpr
 FloatRegister
 f0
 =
