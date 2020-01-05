@@ -1823,7 +1823,7 @@ include
 "
 mozilla
 /
-SizePrintfMacros
+ScopeExit
 .
 h
 "
@@ -1832,7 +1832,7 @@ include
 "
 mozilla
 /
-ScopeExit
+SizePrintfMacros
 .
 h
 "
