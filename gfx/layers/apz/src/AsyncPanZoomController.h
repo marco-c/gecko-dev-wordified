@@ -2065,6 +2065,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+CSSCoord
+aInitialThumbPos
 )
 ;
 /
