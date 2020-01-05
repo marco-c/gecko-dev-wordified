@@ -3366,6 +3366,9 @@ NavigationDirection
 :
 :
 Back
+(
+1
+)
 )
 )
 .
@@ -3410,6 +3413,9 @@ NavigationDirection
 :
 :
 Forward
+(
+1
+)
 )
 )
 .

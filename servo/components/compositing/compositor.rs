@@ -11725,6 +11725,9 @@ NavigationDirection
 :
 :
 Forward
+(
+1
+)
 windowing
 :
 :
@@ -11738,6 +11741,9 @@ NavigationDirection
 :
 :
 Back
+(
+1
+)
 }
 ;
 let
