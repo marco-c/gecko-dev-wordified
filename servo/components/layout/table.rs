@@ -2109,6 +2109,19 @@ border_padding
 inline_start
 ;
 let
+inline_end_content_edge
+=
+self
+.
+block_flow
+.
+fragment
+.
+border_padding
+.
+inline_end
+;
+let
 padding_and_borders
 =
 self
@@ -2454,6 +2467,7 @@ propagate_assigned_inline_size_to_children
 (
 layout_context
 inline_start_content_edge
+inline_end_content_edge
 content_inline_size
 Some
 (
