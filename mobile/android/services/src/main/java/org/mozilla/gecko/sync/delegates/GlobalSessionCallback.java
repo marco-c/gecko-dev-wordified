@@ -270,6 +270,11 @@ GlobalSession
 globalSession
 )
 ;
+void
+handleFullSyncNecessary
+(
+)
+;
 /
 *
 *

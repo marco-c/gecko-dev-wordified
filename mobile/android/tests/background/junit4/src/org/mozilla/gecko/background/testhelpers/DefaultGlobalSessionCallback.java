@@ -192,6 +192,14 @@ globalSession
 }
 Override
 public
+void
+handleFullSyncNecessary
+(
+)
+{
+}
+Override
+public
 boolean
 shouldBackOffStorage
 (
