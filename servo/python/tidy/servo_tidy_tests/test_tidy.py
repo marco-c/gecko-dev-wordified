@@ -655,7 +655,7 @@ errors
 )
     
 def
-test_licence
+test_license
 (
 self
 )
