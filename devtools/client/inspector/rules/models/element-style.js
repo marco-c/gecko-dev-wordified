@@ -115,9 +115,7 @@ promise
 )
 ;
 const
-{
 Rule
-}
 =
 require
 (
@@ -2692,9 +2690,9 @@ clear
 }
 }
 ;
-exports
+module
 .
-ElementStyle
+exports
 =
 ElementStyle
 ;

@@ -523,7 +523,6 @@ key
 -
 shortcuts
 "
-true
 )
 ;
 loader

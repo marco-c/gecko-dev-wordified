@@ -107,9 +107,7 @@ to
 work
 .
 const
-{
 OutputParser
-}
 =
 require
 (

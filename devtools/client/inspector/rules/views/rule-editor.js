@@ -100,9 +100,7 @@ styles
 )
 ;
 const
-{
 Rule
-}
 =
 require
 (
@@ -4479,9 +4477,9 @@ click
 }
 }
 ;
-exports
+module
 .
-RuleEditor
+exports
 =
 RuleEditor
 ;

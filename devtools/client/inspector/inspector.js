@@ -181,9 +181,7 @@ DevToolsUtils
 )
 ;
 var
-{
 KeyShortcuts
-}
 =
 require
 (
@@ -4028,9 +4026,7 @@ enabled
 )
 {
 const
-{
 LayoutView
-}
 =
 this
 .

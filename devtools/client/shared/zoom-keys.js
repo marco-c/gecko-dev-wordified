@@ -84,9 +84,7 @@ Services
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

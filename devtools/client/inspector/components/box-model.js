@@ -5838,9 +5838,9 @@ force
 }
 }
 ;
-exports
+module
 .
-BoxModelView
+exports
 =
 BoxModelView
 ;

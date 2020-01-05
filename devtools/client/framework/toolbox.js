@@ -657,7 +657,6 @@ key
 -
 shortcuts
 "
-true
 )
 ;
 loader

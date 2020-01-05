@@ -122,9 +122,7 @@ emitter
 )
 ;
 const
-{
 AutocompletePopup
-}
 =
 require
 (

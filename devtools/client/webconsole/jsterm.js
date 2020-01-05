@@ -237,7 +237,6 @@ autocomplete
 -
 popup
 "
-true
 )
 ;
 loader
