@@ -475,13 +475,15 @@ WebGLExtensionDebugShaders
 void
 GetTranslatedShaderSource
 (
+const
 WebGLShader
-*
+&
 shader
 nsAString
 &
 retval
 )
+const
 ;
 DECL_WEBGL_EXTENSION_GOOP
 }
@@ -1213,7 +1215,7 @@ BeginQueryEXT
 GLenum
 target
 WebGLQuery
-*
+&
 query
 )
 const
@@ -1230,7 +1232,7 @@ void
 QueryCounterEXT
 (
 WebGLQuery
-*
+&
 query
 GLenum
 target
@@ -1263,7 +1265,7 @@ JSContext
 cx
 const
 WebGLQuery
-*
+&
 query
 GLenum
 pname

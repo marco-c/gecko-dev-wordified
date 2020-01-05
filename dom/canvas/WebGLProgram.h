@@ -704,6 +704,7 @@ name
 void
 DetachShader
 (
+const
 WebGLShader
 *
 shader

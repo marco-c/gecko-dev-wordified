@@ -580,7 +580,7 @@ BeginQuery
 GLenum
 target
 WebGLQuery
-*
+&
 query
 const
 char
@@ -615,6 +615,7 @@ if
 ValidateObjectAllowDeleted
 (
 funcName
+&
 query
 )
 )
@@ -623,8 +624,7 @@ return
 if
 (
 query
--
->
+.
 IsDeleted
 (
 )
@@ -690,8 +690,7 @@ funcName
 /
 /
 query
--
->
+.
 BeginQuery
 (
 target
@@ -1115,7 +1114,7 @@ JSContext
 *
 const
 WebGLQuery
-*
+&
 query
 GLenum
 pname
@@ -1163,6 +1162,7 @@ if
 ValidateObjectAllowDeleted
 (
 funcName
+&
 query
 )
 )
@@ -1171,8 +1171,7 @@ return
 if
 (
 query
--
->
+.
 IsDeleted
 (
 )
@@ -1195,8 +1194,7 @@ funcName
 )
 ;
 query
--
->
+.
 GetQueryParameter
 (
 pname

@@ -696,7 +696,7 @@ WebGL2Context
 TransformFeedbackVaryings
 (
 WebGLProgram
-*
+&
 program
 const
 dom
@@ -723,7 +723,7 @@ return
 if
 (
 !
-ValidateObject
+ValidateObjectRef
 (
 "
 transformFeedbackVaryings
@@ -736,8 +736,7 @@ program
 return
 ;
 program
--
->
+.
 TransformFeedbackVaryings
 (
 varyings
@@ -754,8 +753,9 @@ WebGL2Context
 :
 GetTransformFeedbackVarying
 (
+const
 WebGLProgram
-*
+&
 program
 GLuint
 index
@@ -773,7 +773,7 @@ nullptr
 if
 (
 !
-ValidateObject
+ValidateObjectRef
 (
 "
 getTransformFeedbackVarying
@@ -788,8 +788,7 @@ nullptr
 ;
 return
 program
--
->
+.
 GetTransformFeedbackVarying
 (
 index

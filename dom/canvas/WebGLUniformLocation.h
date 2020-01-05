@@ -294,6 +294,7 @@ arrayIndex
 bool
 ValidateForProgram
 (
+const
 WebGLProgram
 *
 prog

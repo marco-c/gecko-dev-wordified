@@ -355,7 +355,7 @@ BeginQueryEXT
 GLenum
 target
 WebGLQuery
-*
+&
 query
 )
 const
@@ -431,7 +431,7 @@ WebGLExtensionDisjointTimerQuery
 QueryCounterEXT
 (
 WebGLQuery
-*
+&
 query
 GLenum
 target
@@ -460,7 +460,7 @@ if
 mContext
 -
 >
-ValidateObject
+ValidateObjectRef
 (
 funcName
 query
@@ -469,8 +469,7 @@ query
 return
 ;
 query
--
->
+.
 QueryCounter
 (
 funcName
@@ -545,7 +544,7 @@ JSContext
 cx
 const
 WebGLQuery
-*
+&
 query
 GLenum
 pname
