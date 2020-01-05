@@ -1151,10 +1151,6 @@ mResizeEventListenerP
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mObjectResizeEventListeners
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
 mAbsolutelyPositionedObject
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
