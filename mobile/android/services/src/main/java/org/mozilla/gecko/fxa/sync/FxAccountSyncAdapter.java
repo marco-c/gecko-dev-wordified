@@ -235,6 +235,8 @@ gecko
 .
 fxa
 .
+devices
+.
 FxAccountDeviceRegistrator
 ;
 import
@@ -379,17 +381,6 @@ gecko
 sync
 .
 GlobalSession
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
-MetaGlobal
 ;
 import
 org

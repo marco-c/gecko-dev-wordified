@@ -268,6 +268,8 @@ gecko
 .
 fxa
 .
+devices
+.
 FxAccountDeviceRegistrator
 ;
 import
