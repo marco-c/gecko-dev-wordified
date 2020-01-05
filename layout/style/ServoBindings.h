@@ -1341,6 +1341,16 @@ aParentComputedValues
 )
 ;
 bool
+Gecko_ElementHasAnimations
+(
+RawGeckoElementBorrowed
+aElement
+nsIAtom
+*
+aPseudoTagOrNull
+)
+;
+bool
 Gecko_ElementHasCSSAnimations
 (
 RawGeckoElementBorrowed
