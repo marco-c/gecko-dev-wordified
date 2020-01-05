@@ -91,6 +91,16 @@ nightly
 :
 true
 }
+{
+name
+:
+"
+connection
+"
+nightly
+:
+true
+}
 ]
 ;
 self
