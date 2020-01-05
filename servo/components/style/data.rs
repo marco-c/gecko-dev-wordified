@@ -1336,6 +1336,14 @@ contains
 (
 RESTYLE_SELF
 )
+|
+|
+hint
+.
+contains
+(
+RESTYLE_STYLE_ATTRIBUTE
+)
 descendants
 :
 if
