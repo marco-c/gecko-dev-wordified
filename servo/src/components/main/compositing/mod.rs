@@ -1049,6 +1049,11 @@ id
 SetIds
 (
 SendableFrameTree
+Chan
+<
+(
+)
+>
 )
 }
 /
@@ -2456,6 +2461,7 @@ render_state
 SetIds
 (
 frame_tree
+response_chan
 )
 =
 >
@@ -2467,6 +2473,14 @@ Some
 frame_tree
 .
 pipeline
+)
+;
+response_chan
+.
+send
+(
+(
+)
 )
 ;
 }
