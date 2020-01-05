@@ -3860,12 +3860,12 @@ p
 =
 challenge
 +
-7
+6
 ;
 /
 /
 first
-7
+6
 characters
 are
 "
