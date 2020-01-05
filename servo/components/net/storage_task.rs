@@ -1082,7 +1082,7 @@ get_mut
 origin
 )
 .
-map
+and_then
 (
 |
 entry
@@ -1096,10 +1096,6 @@ remove
 name
 )
 }
-)
-.
-unwrap
-(
 )
 ;
 sender
