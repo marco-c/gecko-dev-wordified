@@ -947,11 +947,7 @@ serialized
 =
 prelude
 .
-iter
-(
-)
-.
-to_css
+to_css_string
 (
 )
 ;
