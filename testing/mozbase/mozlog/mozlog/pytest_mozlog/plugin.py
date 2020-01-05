@@ -795,6 +795,9 @@ else
 ERROR
 '
             
+try
+:
+                
 crash
 =
 report
@@ -808,7 +811,7 @@ longrepr
 is
 a
 ReprExceptionInfo
-            
+                
 message
 =
 "
@@ -832,7 +835,7 @@ crash
 .
 lineno
 )
-            
+                
 stack
 =
 report
@@ -840,6 +843,31 @@ report
 longrepr
 .
 reprtraceback
+            
+except
+AttributeError
+:
+                
+#
+When
+using
+pytest
+-
+xdist
+longrepr
+is
+serialised
+as
+a
+str
+                
+message
+=
+stack
+=
+report
+.
+longrepr
         
 elif
 report
