@@ -570,6 +570,7 @@ UpdateImage
 )
 {
 return
+false
 ;
 }
 return

@@ -990,6 +990,11 @@ DiscardImages
 (
 )
 ;
+void
+DiscardLocalImages
+(
+)
+;
 /
 /
 Before

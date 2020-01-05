@@ -591,6 +591,11 @@ RemoveExpiredFontKeys
 (
 )
 ;
+void
+ClearReadLocks
+(
+)
+;
 private
 :
 friend
