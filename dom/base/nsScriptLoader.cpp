@@ -9473,15 +9473,6 @@ aElement
 GetParserCreated
 (
 )
-&
-&
-!
-request
--
->
-IsModuleRequest
-(
-)
 )
 {
 /
