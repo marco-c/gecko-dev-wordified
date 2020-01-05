@@ -9160,7 +9160,7 @@ DumpWindows
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

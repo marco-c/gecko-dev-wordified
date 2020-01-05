@@ -1670,7 +1670,8 @@ nullptr
 override
 final
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreenWithNativeTransition
 (
 bool

@@ -2727,7 +2727,8 @@ HasPendingInputEvent
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 ActivateNativeMenuItemAt
 (
 const
@@ -2737,7 +2738,8 @@ indexString
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 ForceUpdateNativeMenuAt
 (
 const
