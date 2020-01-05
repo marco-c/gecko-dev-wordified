@@ -181,7 +181,6 @@ context
 :
 {
 QuirksMode
-ReflowGoal
 SharedStyleContext
 StyleContext
 }
@@ -1503,15 +1502,6 @@ Au
 0
 )
 )
-screen_size_changed
-:
-false
-goal
-:
-ReflowGoal
-:
-:
-ForScriptQuery
 stylist
 :
 per_doc_data
