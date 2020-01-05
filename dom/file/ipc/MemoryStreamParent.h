@@ -163,6 +163,7 @@ PMemoryStreamParent
 {
 public
 :
+explicit
 MemoryStreamParent
 (
 uint64_t
