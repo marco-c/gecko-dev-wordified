@@ -8387,7 +8387,7 @@ baseURI
 aElement
 -
 >
-GetBaseURI
+GetBaseURIForStyleAttr
 (
 )
 ;
