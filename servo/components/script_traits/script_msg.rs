@@ -69,6 +69,9 @@ use
 IFrameLoadInfo
 ;
 use
+LoadData
+;
+use
 MozBrowserEvent
 ;
 use
@@ -130,7 +133,6 @@ constellation_msg
 Key
 KeyModifiers
 KeyState
-LoadData
 }
 ;
 use

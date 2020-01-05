@@ -533,7 +533,6 @@ constellation_msg
 {
 FrameType
 FrameId
-LoadData
 PipelineId
 TraversalDirection
 }
@@ -562,6 +561,7 @@ script_traits
 :
 {
 IFrameLoadInfo
+LoadData
 MozBrowserEvent
 ScriptMsg
 as

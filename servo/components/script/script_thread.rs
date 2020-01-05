@@ -916,7 +916,6 @@ constellation_msg
 :
 {
 FrameType
-LoadData
 PipelineId
 PipelineNamespace
 }
@@ -1065,6 +1064,7 @@ script_traits
 :
 {
 InitialScriptState
+LoadData
 MouseButton
 MouseEventType
 MozBrowserEvent

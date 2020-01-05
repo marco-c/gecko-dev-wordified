@@ -107,14 +107,6 @@ heapsize
 ;
 extern
 crate
-hyper
-;
-extern
-crate
-hyper_serde
-;
-extern
-crate
 ipc_channel
 ;
 extern
@@ -128,10 +120,6 @@ macro_use
 extern
 crate
 serde_derive
-;
-extern
-crate
-url
 ;
 extern
 crate

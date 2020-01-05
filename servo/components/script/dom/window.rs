@@ -641,7 +641,6 @@ constellation_msg
 :
 {
 FrameType
-LoadData
 PipelineId
 ReferrerPolicy
 WindowSizeType
@@ -814,6 +813,7 @@ script_traits
 :
 {
 ConstellationControlMsg
+LoadData
 MozBrowserEvent
 UntrustedNodeAddress
 }
