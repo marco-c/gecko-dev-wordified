@@ -1757,17 +1757,6 @@ SpliceableJSONWriter
 aWriter
 )
 ;
-size_t
-SizeOfIncludingThis
-(
-mozilla
-:
-:
-MallocSizeOf
-aMallocSizeOf
-)
-const
-;
 private
 :
 void

@@ -454,6 +454,17 @@ worthwhile
 /
 /
 -
+memory
+pointed
+to
+by
+the
+elements
+within
+mEntries
+/
+/
+-
 mStoredMarkers
 return
 n
