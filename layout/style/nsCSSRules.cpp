@@ -1441,7 +1441,7 @@ mChildSheet
 {
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 sheet
 =
@@ -1460,7 +1460,18 @@ nullptr
 ;
 SetSheet
 (
+static_cast
+<
+CSSStyleSheet
+*
+>
+(
 sheet
+.
+get
+(
+)
+)
 )
 ;
 /
