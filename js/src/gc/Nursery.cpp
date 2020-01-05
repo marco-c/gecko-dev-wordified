@@ -4432,7 +4432,10 @@ stats
 gcstats
 :
 :
-PHASE_MARK_ROOTS
+PhaseKind
+:
+:
+MARK_ROOTS
 )
 ;
 Debugger

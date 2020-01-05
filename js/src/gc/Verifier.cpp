@@ -1341,7 +1341,10 @@ stats
 gcstats
 :
 :
-PHASE_TRACE_HEAP
+PhaseKind
+:
+:
+TRACE_HEAP
 )
 ;
 const
@@ -4111,7 +4114,10 @@ stats
 gcstats
 :
 :
-PHASE_TRACE_HEAP
+PhaseKind
+:
+:
+TRACE_HEAP
 )
 ;
 AutoTraceSession
