@@ -840,7 +840,7 @@ send
 ScriptToDevtoolsControlMsg
 :
 :
-SendConsoleMessage
+ConsoleAPI
 (
 pipelineId
 console_message
