@@ -130,9 +130,9 @@ constellation_msg
 :
 :
 {
-Key
-KeyModifiers
-KeyState
+FrameId
+PipelineId
+TraversalDirection
 }
 ;
 use
@@ -143,8 +143,9 @@ constellation_msg
 :
 :
 {
-PipelineId
-TraversalDirection
+Key
+KeyModifiers
+KeyState
 }
 ;
 use
@@ -1179,7 +1180,10 @@ log
 entry
 with
 the
-pipeline
+top
+-
+level
+frame
 id
 and
 thread
@@ -1188,7 +1192,7 @@ LogEntry
 (
 Option
 <
-PipelineId
+FrameId
 >
 Option
 <
