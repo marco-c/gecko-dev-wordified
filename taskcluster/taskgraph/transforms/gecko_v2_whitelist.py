@@ -270,6 +270,16 @@ opt
 '
     
 '
+android
+-
+x86
+-
+nightly
+-
+opt
+'
+    
+'
 aries
 -
 debug
@@ -364,6 +374,14 @@ opt
 '
 linux64
 -
+nightly
+-
+opt
+'
+    
+'
+linux64
+-
 opt
 '
     
@@ -415,6 +433,14 @@ debug
     
 '
 linux
+-
+opt
+'
+    
+'
+linux32
+-
+nightly
 -
 opt
 '
