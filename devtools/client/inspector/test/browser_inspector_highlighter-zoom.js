@@ -149,13 +149,11 @@ check
 for
 on
 the
+root
 highlighter
-'
-s
-elements
 /
 /
-node
+element
 for
 the
 values
@@ -383,7 +381,7 @@ let
 style
 =
 yield
-getElementsNodeStyle
+getRootNodeStyle
 (
 testActor
 )
@@ -525,7 +523,7 @@ onHighlight
 }
 function
 *
-getElementsNodeStyle
+getRootNodeStyle
 (
 testActor
 )
@@ -543,7 +541,7 @@ box
 -
 model
 -
-elements
+root
 "
 "
 style
