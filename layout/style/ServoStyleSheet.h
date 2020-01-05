@@ -417,6 +417,17 @@ DidDirty
 )
 {
 }
+bool
+IsModified
+(
+)
+const
+final
+{
+return
+false
+;
+}
 protected
 :
 virtual

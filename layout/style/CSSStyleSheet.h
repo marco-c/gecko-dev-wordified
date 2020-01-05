@@ -831,6 +831,7 @@ IsModified
 (
 )
 const
+final
 {
 return
 mDirty

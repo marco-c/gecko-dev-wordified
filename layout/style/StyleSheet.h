@@ -658,6 +658,15 @@ HasRules
 )
 const
 ;
+virtual
+bool
+IsModified
+(
+)
+const
+=
+0
+;
 /
 /
 style
