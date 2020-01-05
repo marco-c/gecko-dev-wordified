@@ -2462,11 +2462,6 @@ js
 ExpandoAndGeneration
 mExpandoAndGeneration
 ;
-void
-RequestAutocomplete
-(
-)
-;
 protected
 :
 virtual
