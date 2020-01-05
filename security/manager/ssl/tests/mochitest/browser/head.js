@@ -132,9 +132,7 @@ cert
 )
 ;
 /
-*
-*
-*
+/
 This
 function
 serves
@@ -150,8 +148,6 @@ head_psm
 .
 js
 .
-*
-/
 function
 pemToBase64
 (

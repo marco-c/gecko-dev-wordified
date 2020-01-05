@@ -1857,6 +1857,10 @@ tok_status
 ;
 break
 ;
+default
+:
+return
+;
 }
 AddInfoRow
 (
