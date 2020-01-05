@@ -3820,9 +3820,13 @@ protected
 bool
 ReadPixels_SharedPrecheck
 (
+dom
+:
+:
+CallerType
+aCallerType
 ErrorResult
-*
-const
+&
 out_error
 )
 ;
@@ -3909,6 +3913,11 @@ ArrayBufferView
 >
 &
 maybeView
+dom
+:
+:
+CallerType
+aCallerType
 ErrorResult
 &
 rv
@@ -3966,6 +3975,7 @@ Value
 (
 )
 0
+aCallerType
 rv
 )
 ;
@@ -3987,6 +3997,10 @@ GLenum
 type
 WebGLsizeiptr
 offset
+dom
+:
+:
+CallerType
 ErrorResult
 &
 out_error
@@ -4016,6 +4030,10 @@ ArrayBufferView
 dstData
 GLuint
 dstOffset
+dom
+:
+:
+CallerType
 ErrorResult
 &
 out_error
