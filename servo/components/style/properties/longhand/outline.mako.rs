@@ -458,11 +458,11 @@ the
 same
 values
 as
+/
+/
 border
 -
 style
-/
-/
 except
 that
 '
@@ -473,6 +473,8 @@ not
 a
 legal
 outline
+/
+/
 style
 .
 Err

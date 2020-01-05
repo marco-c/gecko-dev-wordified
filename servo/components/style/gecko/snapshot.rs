@@ -984,8 +984,6 @@ self
 )
 .
 mState
-as
-u32
 }
 )
 )
