@@ -47902,7 +47902,7 @@ stats
 (
 )
 .
-renderJsonMessage
+formatJsonMessage
 (
 timestamp
 )
@@ -48192,7 +48192,7 @@ stats
 (
 )
 .
-renderJsonSlice
+formatJsonSlice
 (
 slices
 -
@@ -48233,7 +48233,7 @@ stats
 (
 )
 .
-renderJsonMessage
+formatJsonMessage
 (
 0
 false
