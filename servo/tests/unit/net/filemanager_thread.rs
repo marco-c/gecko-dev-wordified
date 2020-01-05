@@ -555,6 +555,7 @@ id
 clone
 (
 )
+false
 origin
 .
 clone
@@ -585,7 +586,7 @@ channel
 )
 ;
 let
-vec
+blob_buf
 =
 msg
 .
@@ -605,7 +606,9 @@ assert_eq
 !
 (
 test_file_content
-vec
+blob_buf
+.
+bytes
 "
 Read
 content
@@ -749,6 +752,7 @@ id
 clone
 (
 )
+false
 origin
 .
 clone
