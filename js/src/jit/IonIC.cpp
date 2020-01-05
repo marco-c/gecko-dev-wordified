@@ -2670,12 +2670,16 @@ script
 )
 )
 ;
-HasOwnIRGenerator
+HasPropIRGenerator
 gen
 (
 cx
 script
 pc
+CacheKind
+:
+:
+HasOwn
 ic
 -
 >
