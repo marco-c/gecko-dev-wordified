@@ -1272,7 +1272,6 @@ LayerComposite
 aLayer
 RenderTargetIntRect
 aClipRect
-const
 Maybe
 <
 gfx
@@ -1280,6 +1279,7 @@ gfx
 :
 Polygon
 >
+&
 &
 aGeometry
 )
@@ -1294,7 +1294,10 @@ aClipRect
 )
 mGeometry
 (
+Move
+(
 aGeometry
+)
 )
 {
 }
@@ -1436,7 +1439,6 @@ SortMode
 :
 WITHOUT_GEOMETRY
 ;
-const
 nsTArray
 <
 LayerPolygon
@@ -1453,7 +1455,6 @@ sortMode
 ;
 for
 (
-const
 LayerPolygon
 &
 layer
@@ -1683,9 +1684,12 @@ PreparedLayer
 (
 layerToRender
 clipRect
+Move
+(
 layer
 .
 geometry
+)
 )
 )
 ;
