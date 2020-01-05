@@ -1813,9 +1813,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 ;
 }
@@ -4037,9 +4035,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 !
 =
 aFrame
@@ -4050,9 +4046,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 |
 |
 (

@@ -9294,9 +9294,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 {
 nsTableCellFrame

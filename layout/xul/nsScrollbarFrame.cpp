@@ -1560,9 +1560,7 @@ if
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 {
 nsITheme
@@ -1591,9 +1589,7 @@ this
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 {
@@ -1619,9 +1615,7 @@ this
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 nsGkAtoms
 :
 :

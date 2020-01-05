@@ -1753,9 +1753,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_PROGRESSBAR
@@ -1787,9 +1785,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_PROGRESSCHUNK

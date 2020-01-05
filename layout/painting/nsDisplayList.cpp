@@ -19190,9 +19190,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 {
 return
@@ -20121,9 +20119,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 &
 &
@@ -23439,9 +23435,7 @@ mAppearance
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 ;
 mFrame
 -
@@ -23489,9 +23483,7 @@ mFrame
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 ;
 if
@@ -23518,9 +23510,7 @@ if
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_WIN_BORDERLESS_GLASS
@@ -23529,9 +23519,7 @@ NS_THEME_WIN_BORDERLESS_GLASS
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_WIN_GLASS
@@ -24228,9 +24216,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 &
 r
 )
