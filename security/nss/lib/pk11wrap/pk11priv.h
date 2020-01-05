@@ -1781,7 +1781,7 @@ o_class
 )
 ;
 CK_BBOOL
-PK11_HasAttributeSet
+pk11_HasAttributeSet_Lock
 (
 PK11SlotInfo
 *
