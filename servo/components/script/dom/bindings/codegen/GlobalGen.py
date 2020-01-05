@@ -277,6 +277,40 @@ tables
 "
 )
     
+o
+.
+add_option
+(
+"
+-
+-
+only
+-
+html
+"
+dest
+=
+'
+only_html
+'
+action
+=
+"
+store_true
+"
+                 
+help
+=
+"
+Only
+generate
+HTML
+from
+WebIDL
+inputs
+"
+)
+    
 (
 options
 args
@@ -417,6 +451,13 @@ finish
 (
 )
     
+if
+not
+options
+.
+only_html
+:
+        
 #
 Write
 the
@@ -427,7 +468,7 @@ to
 a
 pickle
 .
-    
+        
 resultsPath
 =
 os
@@ -443,7 +484,7 @@ ParserResults
 pkl
 '
 )
-    
+        
 with
 open
 (
@@ -455,7 +496,7 @@ wb
 as
 resultsFile
 :
-        
+            
 cPickle
 .
 dump
@@ -486,6 +527,30 @@ to_generate
         
 (
 '
+SupportedDomApis
+'
+'
+apis
+.
+html
+'
+)
+    
+]
+    
+if
+not
+options
+.
+only_html
+:
+        
+to_generate
+=
+[
+            
+(
+'
 PrototypeList
 '
 '
@@ -494,7 +559,7 @@ PrototypeList
 rs
 '
 )
-        
+            
 (
 '
 RegisterBindings
@@ -505,7 +570,7 @@ RegisterBindings
 rs
 '
 )
-        
+            
 (
 '
 InterfaceObjectMap
@@ -516,7 +581,7 @@ InterfaceObjectMap
 rs
 '
 )
-        
+            
 (
 '
 InterfaceTypes
@@ -527,7 +592,7 @@ InterfaceTypes
 rs
 '
 )
-        
+            
 (
 '
 InheritTypes
@@ -538,7 +603,7 @@ InheritTypes
 rs
 '
 )
-        
+            
 (
 '
 Bindings
@@ -559,7 +624,7 @@ rs
 '
 )
 )
-        
+            
 (
 '
 UnionTypes
@@ -570,7 +635,7 @@ UnionTypes
 rs
 '
 )
-    
+        
 ]
     
 for
