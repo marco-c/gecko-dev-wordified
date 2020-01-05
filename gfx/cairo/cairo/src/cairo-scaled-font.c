@@ -9022,6 +9022,14 @@ status
 )
 )
 {
+if
+(
+status
+!
+=
+CAIRO_INT_STATUS_UNSUPPORTED
+)
+{
 status
 =
 _cairo_scaled_font_set_error
@@ -9030,6 +9038,7 @@ scaled_font
 status
 )
 ;
+}
 goto
 UNLOCK
 ;
