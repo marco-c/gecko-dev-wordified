@@ -397,9 +397,6 @@ dom
 namespace
 mozilla
 class
-AutoNotifyAudioChannelAgent
-;
-class
 nsIChannel
 ;
 class
@@ -474,9 +471,6 @@ SupportsWeakPtr
 HTMLMediaElement
 >
 {
-friend
-AutoNotifyAudioChannelAgent
-;
 public
 :
 typedef
