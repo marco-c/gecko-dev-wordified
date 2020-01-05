@@ -343,6 +343,7 @@ IsHTTPS
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 PrepareForAuthentication
 (
@@ -350,6 +351,7 @@ bool
 proxyAuth
 )
 ;
+MOZ_MUST_USE
 nsresult
 GenCredsAndSetEntry
 (
@@ -395,6 +397,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetAuthenticator
 (
@@ -475,6 +478,7 @@ error
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 GetCredentials
 (
@@ -489,6 +493,7 @@ nsAFlatCString
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetCredentialsForChallenge
 (
@@ -510,6 +515,7 @@ nsAFlatCString
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 PromptForIdentity
 (
@@ -568,6 +574,7 @@ nsHttpAuthIdentity
 ident
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetCurrentPath
 (
@@ -612,6 +619,7 @@ proxy
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 GetAuthorizationMembers
 (
@@ -679,6 +687,7 @@ synchronously
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 ContinueOnAuthAvailable
 (
@@ -688,6 +697,7 @@ nsCSubstring
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoRedirectChannelToHttps
 (
@@ -747,6 +757,7 @@ ProcessResponse
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 ProcessSTSHeader
 (
@@ -819,6 +830,7 @@ aFlags
 are
 set
 .
+MOZ_MUST_USE
 nsresult
 UpdateCache
 (

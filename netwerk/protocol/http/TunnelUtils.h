@@ -961,6 +961,7 @@ get
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 CommitToSegmentSize
 (
@@ -971,6 +972,7 @@ forceCommitment
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 GetTransactionSecurityInfo
 (
@@ -980,6 +982,7 @@ nsISupports
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 NudgeTunnel
 (
@@ -988,6 +991,7 @@ NudgeTunnelCallback
 callback
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetProxiedTransaction
 (
@@ -1048,6 +1052,7 @@ override
 ;
 private
 :
+MOZ_MUST_USE
 nsresult
 StartTimerCallback
 (
@@ -1369,6 +1374,7 @@ nsHttpConnectionInfo
 aConnInfo
 )
 ;
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -1384,6 +1390,7 @@ countRead
 override
 final
 ;
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -1459,6 +1466,7 @@ friend
 class
 OutputStreamShim
 ;
+MOZ_MUST_USE
 nsresult
 Flush
 (

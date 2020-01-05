@@ -249,6 +249,7 @@ bool
 attemptingEarlyData
 )
 ;
+MOZ_MUST_USE
 bool
 AddStream
 (
@@ -1463,6 +1464,7 @@ overload
 of
 nsAHttpSegementReader
 virtual
+MOZ_MUST_USE
 nsresult
 CommitToSegmentSize
 (
@@ -1473,6 +1475,7 @@ forceCommitment
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 BufferOutput
 (
@@ -1509,6 +1512,7 @@ return
 mServerInitialStreamWindow
 ;
 }
+MOZ_MUST_USE
 bool
 TryToActivate
 (
@@ -1533,12 +1537,14 @@ Http2Stream
 stream
 )
 ;
+MOZ_MUST_USE
 nsresult
 ConfirmTLSProfile
 (
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ALPNCallback
 (
@@ -1648,6 +1654,7 @@ SendPing
 )
 override
 ;
+MOZ_MUST_USE
 bool
 MaybeReTunnel
 (
@@ -1670,6 +1677,7 @@ mUseH2Deps
 overload
 of
 nsAHttpTransaction
+MOZ_MUST_USE
 nsresult
 ReadSegmentsAgain
 (
@@ -1684,6 +1692,7 @@ bool
 override
 final
 ;
+MOZ_MUST_USE
 nsresult
 WriteSegmentsAgain
 (
@@ -1698,6 +1707,7 @@ bool
 override
 final
 ;
+MOZ_MUST_USE
 bool
 Do0RTT
 (
@@ -1709,6 +1719,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 nsresult
 Finish0RTT
 (
@@ -1762,6 +1773,7 @@ kMagicHello
 24
 ]
 ;
+MOZ_MUST_USE
 nsresult
 ResponseHeadersComplete
 (
@@ -1784,6 +1796,7 @@ ResetDownstreamState
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ReadyToProcessDataFrame
 (
@@ -1791,6 +1804,7 @@ enum
 internalStateType
 )
 ;
+MOZ_MUST_USE
 nsresult
 UncompressAndDiscard
 (
@@ -1865,6 +1879,7 @@ Http2Stream
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParsePadding
 (
@@ -1889,6 +1904,7 @@ ProcessPending
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessConnectedPush
 (
@@ -1901,6 +1917,7 @@ uint32_t
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessSlowConsumer
 (
@@ -1913,6 +1930,7 @@ uint32_t
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetInputFrameDataStream
 (
@@ -2025,6 +2043,7 @@ O
 for
 timeout
 purposes
+MOZ_MUST_USE
 nsresult
 NetworkRead
 (

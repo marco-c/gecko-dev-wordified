@@ -359,6 +359,7 @@ from
 network
 use
 SetHeaderFromNet
+MOZ_MUST_USE
 nsresult
 SetHeader
 (
@@ -385,6 +386,7 @@ set
 an
 empty
 header
+MOZ_MUST_USE
 nsresult
 SetEmptyHeader
 (
@@ -432,6 +434,7 @@ headers
 as
 well
 .
+MOZ_MUST_USE
 nsresult
 SetHeaderFromNet
 (
@@ -445,6 +448,7 @@ bool
 response
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetResponseHeaderFromCache
 (
@@ -458,6 +462,7 @@ HeaderVariety
 variety
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetHeader
 (
@@ -469,6 +474,7 @@ value
 )
 const
 ;
+MOZ_MUST_USE
 nsresult
 GetOriginalHeader
 (
@@ -581,6 +587,7 @@ eFilterResponse
 eFilterResponseOriginal
 }
 ;
+MOZ_MUST_USE
 nsresult
 VisitHeaders
 (
@@ -627,6 +634,7 @@ free
 )
 .
 static
+MOZ_MUST_USE
 nsresult
 ParseHeaderLine
 (
@@ -843,6 +851,7 @@ nsEntry
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 MergeHeader
 (
@@ -859,6 +868,7 @@ HeaderVariety
 variety
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetHeader_internal
 (
@@ -1518,6 +1528,7 @@ Access_Control_Allow_Origin
 ;
 }
 inline
+MOZ_MUST_USE
 nsresult
 nsHttpHeaderArray
 :

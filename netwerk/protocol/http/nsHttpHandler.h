@@ -436,11 +436,13 @@ nsHttpHandler
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddStandardRequestHeaders
 (
@@ -450,6 +452,7 @@ bool
 isSecure
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddConnectionHeader
 (
@@ -1304,6 +1307,7 @@ from
 any
 thread
 .
+MOZ_MUST_USE
 nsresult
 InitiateTransaction
 (
@@ -1344,6 +1348,7 @@ already
 been
 initiated
 .
+MOZ_MUST_USE
 nsresult
 RescheduleTransaction
 (
@@ -1390,6 +1395,7 @@ from
 any
 thread
 .
+MOZ_MUST_USE
 nsresult
 CancelTransaction
 (
@@ -1430,6 +1436,7 @@ from
 any
 thread
 .
+MOZ_MUST_USE
 nsresult
 ReclaimConnection
 (
@@ -1448,6 +1455,7 @@ conn
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
@@ -1466,6 +1474,7 @@ cinfo
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
@@ -1480,6 +1489,7 @@ ProcessPendingQ
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 GetSocketThreadTarget
 (
@@ -1499,6 +1509,7 @@ target
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 SpeculativeConnect
 (
@@ -1639,6 +1650,7 @@ services
 :
 /
 /
+MOZ_MUST_USE
 nsresult
 GetStreamConverterService
 (
@@ -1647,6 +1659,7 @@ nsIStreamConverterService
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetIOService
 (
@@ -1844,6 +1857,7 @@ global
 redirect
 observers
 .
+MOZ_MUST_USE
 nsresult
 AsyncOnChannelRedirect
 (
@@ -1927,6 +1941,7 @@ literals
 correctly
 .
 static
+MOZ_MUST_USE
 nsresult
 GenerateHostPort
 (
@@ -2131,6 +2146,7 @@ char
 pref
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAccept
 (
@@ -2139,6 +2155,7 @@ char
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAcceptLanguages
 (
@@ -2147,6 +2164,7 @@ char
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAcceptEncodings
 (
@@ -2157,6 +2175,7 @@ bool
 mIsSecure
 )
 ;
+MOZ_MUST_USE
 nsresult
 InitConnectionMgr
 (
@@ -3081,6 +3100,7 @@ public
 Socket
 thread
 only
+MOZ_MUST_USE
 nsresult
 SubmitPacedRequest
 (
@@ -3203,6 +3223,7 @@ cb
 ;
 private
 :
+MOZ_MUST_USE
 nsresult
 SpeculativeConnectInternal
 (
@@ -3233,6 +3254,7 @@ mUUIDGen
 ;
 public
 :
+MOZ_MUST_USE
 nsresult
 NewChannelId
 (
@@ -3504,6 +3526,7 @@ nsHttpsHandler
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 Init
 (

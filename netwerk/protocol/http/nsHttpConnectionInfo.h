@@ -764,6 +764,7 @@ nsHttpConnectionInfo
 outParam
 )
 ;
+MOZ_MUST_USE
 nsresult
 CreateWildCard
 (

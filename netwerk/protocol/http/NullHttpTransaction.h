@@ -240,6 +240,7 @@ uint32_t
 caps
 )
 ;
+MOZ_MUST_USE
 bool
 Claim
 (

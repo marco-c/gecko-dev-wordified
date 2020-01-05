@@ -284,6 +284,7 @@ DoNotifyController
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoSynthesizeStatus
 (
@@ -295,6 +296,7 @@ nsACString
 aReason
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoSynthesizeHeader
 (

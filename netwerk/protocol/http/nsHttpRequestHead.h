@@ -461,6 +461,7 @@ under
 one
 lock
 .
+MOZ_MUST_USE
 nsresult
 VisitHeaders
 (
@@ -543,6 +544,7 @@ nsACString
 aOrigin
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetHeader
 (
@@ -558,6 +560,7 @@ m
 false
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetHeader
 (
@@ -576,6 +579,7 @@ HeaderVariety
 variety
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetEmptyHeader
 (
@@ -583,6 +587,7 @@ nsHttpAtom
 h
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetHeader
 (
@@ -593,6 +598,7 @@ nsACString
 v
 )
 ;
+MOZ_MUST_USE
 nsresult
 ClearHeader
 (
@@ -662,6 +668,7 @@ t
 allow
 duplicate
 values
+MOZ_MUST_USE
 nsresult
 SetHeaderOnce
 (

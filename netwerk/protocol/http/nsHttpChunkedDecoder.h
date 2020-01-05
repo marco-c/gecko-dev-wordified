@@ -182,6 +182,7 @@ handle
 chunked
 content
 .
+MOZ_MUST_USE
 nsresult
 HandleChunkedContent
 (
@@ -239,6 +240,7 @@ mChunkRemaining
 }
 private
 :
+MOZ_MUST_USE
 nsresult
 ParseChunkRemaining
 (

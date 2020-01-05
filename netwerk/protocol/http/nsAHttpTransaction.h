@@ -580,6 +580,7 @@ the
 transaction
 .
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -607,6 +608,7 @@ the
 transaction
 .
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -673,6 +675,7 @@ otherwise
 leave
 untouched
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegmentsAgain
 (
@@ -699,6 +702,7 @@ countRead
 ;
 }
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegmentsAgain
 (
@@ -892,6 +896,7 @@ moved
 /
 /
 virtual
+MOZ_MUST_USE
 nsresult
 TakeSubTransactions
 (
@@ -1280,6 +1285,7 @@ considered
 authoritative
 .
 virtual
+MOZ_MUST_USE
 nsresult
 GetTransactionSecurityInfo
 (
@@ -1319,6 +1325,7 @@ is
 possible
 .
 virtual
+MOZ_MUST_USE
 bool
 Do0RTT
 (
@@ -1476,6 +1483,7 @@ transaction
 restart
 .
 virtual
+MOZ_MUST_USE
 nsresult
 Finish0RTT
 (
@@ -1578,6 +1586,7 @@ override
 ;
 \
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -1591,6 +1600,7 @@ override
 ;
 \
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -1644,6 +1654,7 @@ Http1xTransactionCount
 override
 ;
 \
+MOZ_MUST_USE
 nsresult
 TakeSubTransactions
 (
@@ -1835,6 +1846,7 @@ stops
 segment
 iteration
 virtual
+MOZ_MUST_USE
 nsresult
 OnReadSegment
 (
@@ -1968,6 +1980,7 @@ are
 atomic
 .
 virtual
+MOZ_MUST_USE
 nsresult
 CommitToSegmentSize
 (
@@ -1987,6 +2000,7 @@ NS_ERROR_FAILURE
 define
 NS_DECL_NSAHTTPSEGMENTREADER
 \
+MOZ_MUST_USE
 nsresult
 OnReadSegment
 (
@@ -2175,6 +2189,7 @@ stops
 segment
 iteration
 virtual
+MOZ_MUST_USE
 nsresult
 OnWriteSegment
 (
@@ -2196,6 +2211,7 @@ countWritten
 define
 NS_DECL_NSAHTTPSEGMENTWRITER
 \
+MOZ_MUST_USE
 nsresult
 OnWriteSegment
 (

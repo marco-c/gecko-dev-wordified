@@ -576,6 +576,7 @@ TotalEntitySize
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetHeader
 (
@@ -591,6 +592,7 @@ m
 false
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetHeader
 (
@@ -787,6 +789,7 @@ be
 null
 terminated
 .
+MOZ_MUST_USE
 nsresult
 ParseCachedHead
 (
@@ -796,6 +799,7 @@ char
 block
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseCachedOriginalHeaders
 (
@@ -827,6 +831,7 @@ a
 header
 line
 .
+MOZ_MUST_USE
 nsresult
 ParseHeaderLine
 (
@@ -842,6 +847,7 @@ cache
 validation
 support
 methods
+MOZ_MUST_USE
 nsresult
 ComputeFreshnessLifetime
 (
@@ -849,6 +855,7 @@ uint32_t
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 ComputeCurrentAge
 (
@@ -927,6 +934,7 @@ headers
 .
 .
 .
+MOZ_MUST_USE
 nsresult
 UpdateHeaders
 (
@@ -952,6 +960,7 @@ Reset
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetAgeValue
 (
@@ -960,6 +969,7 @@ uint32_t
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetMaxAgeValue
 (
@@ -968,6 +978,7 @@ uint32_t
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetDateValue
 (
@@ -976,6 +987,7 @@ uint32_t
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetExpiresValue
 (
@@ -984,6 +996,7 @@ uint32_t
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetLastModifiedValue
 (
@@ -1024,6 +1037,7 @@ under
 one
 lock
 .
+MOZ_MUST_USE
 nsresult
 VisitHeaders
 (
@@ -1037,6 +1051,7 @@ VisitorFilter
 filter
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetOriginalHeader
 (
@@ -1059,6 +1074,7 @@ HasContentCharset
 ;
 private
 :
+MOZ_MUST_USE
 nsresult
 SetHeader_locked
 (
@@ -1112,6 +1128,7 @@ nsACString
 line
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseHeaderLine_locked
 (
@@ -1135,6 +1152,7 @@ does
 not
 exist
 .
+MOZ_MUST_USE
 nsresult
 ParseDateHeader
 (
@@ -1152,6 +1170,7 @@ ExpiresInPast_locked
 )
 const
 ;
+MOZ_MUST_USE
 nsresult
 GetAgeValue_locked
 (
@@ -1161,6 +1180,7 @@ result
 )
 const
 ;
+MOZ_MUST_USE
 nsresult
 GetExpiresValue_locked
 (
@@ -1170,6 +1190,7 @@ result
 )
 const
 ;
+MOZ_MUST_USE
 nsresult
 GetMaxAgeValue_locked
 (
@@ -1179,6 +1200,7 @@ result
 )
 const
 ;
+MOZ_MUST_USE
 nsresult
 GetDateValue_locked
 (
@@ -1199,6 +1221,7 @@ result
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 GetLastModifiedValue_locked
 (

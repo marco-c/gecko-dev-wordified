@@ -371,6 +371,7 @@ PBOverrideStatus
 aStatus
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -394,18 +395,21 @@ aListener
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 SuspendForDiversion
 (
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 SuspendMessageDiversion
 (
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 ResumeMessageDiversion
 (
@@ -510,6 +514,7 @@ aApplyConversion
 ;
 }
 }
+MOZ_MUST_USE
 nsresult
 OpenAlternativeOutputStream
 (
@@ -570,6 +575,7 @@ Used
 during
 redirects
 .
+MOZ_MUST_USE
 bool
 ConnectChannel
 (
@@ -583,6 +589,7 @@ bool
 shouldIntercept
 )
 ;
+MOZ_MUST_USE
 bool
 DoAsyncOpen
 (
@@ -1036,6 +1043,7 @@ function
 for
 ADivertableParentChannel
 .
+MOZ_MUST_USE
 nsresult
 ResumeForDiversion
 (
@@ -1074,6 +1082,7 @@ TabParent
 >
 mTabParent
 ;
+MOZ_MUST_USE
 nsresult
 ReportSecurityMessage
 (
@@ -1112,6 +1121,7 @@ that
 .
 Bug
 1274886
+MOZ_MUST_USE
 bool
 DoSendDeleteSelf
 (

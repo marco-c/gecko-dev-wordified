@@ -196,6 +196,7 @@ nsHttpChannel
 :
 :
 Init
+MOZ_MUST_USE
 nsresult
 Init
 (

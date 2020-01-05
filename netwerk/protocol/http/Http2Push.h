@@ -283,6 +283,7 @@ Http2Stream
 aStream
 )
 ;
+MOZ_MUST_USE
 bool
 GetHashKey
 (
@@ -296,6 +297,7 @@ key
 override
 of
 Http2Stream
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -307,6 +309,7 @@ uint32_t
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -344,12 +347,14 @@ Http2Stream
 consumer
 )
 ;
+MOZ_MUST_USE
 bool
 TryOnPush
 (
 )
 ;
 static
+MOZ_MUST_USE
 bool
 TestOnPush
 (
@@ -400,6 +405,7 @@ mOnPushFailed
 true
 ;
 }
+MOZ_MUST_USE
 nsresult
 GetBufferedData
 (
@@ -613,6 +619,7 @@ Http2PushTransactionBuffer
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetBufferedData
 (

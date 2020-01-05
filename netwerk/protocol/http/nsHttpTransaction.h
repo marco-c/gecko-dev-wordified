@@ -674,6 +674,7 @@ status
 .
 /
 /
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -1286,12 +1287,14 @@ return
 mTransferSize
 ;
 }
+MOZ_MUST_USE
 bool
 Do0RTT
 (
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 Finish0RTT
 (
@@ -1319,6 +1322,7 @@ nsHttpTransaction
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Restart
 (
@@ -1337,6 +1341,7 @@ bool
 aAllowPartialMatch
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseLine
 (
@@ -1345,6 +1350,7 @@ nsACString
 line
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseLineSegment
 (
@@ -1355,6 +1361,7 @@ uint32_t
 len
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseHead
 (
@@ -1367,11 +1374,13 @@ uint32_t
 countRead
 )
 ;
+MOZ_MUST_USE
 nsresult
 HandleContentStart
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 HandleContent
 (
@@ -1387,6 +1396,7 @@ uint32_t
 contentRemaining
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessData
 (
@@ -1408,6 +1418,7 @@ ReleaseBlockingTransaction
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 ReadRequestSegment
 (
@@ -1425,6 +1436,7 @@ uint32_t
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 WritePipeSegment
 (
