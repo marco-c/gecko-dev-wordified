@@ -135,6 +135,9 @@ startup
 shutdown
 "
 "
+addonIsActive
+"
+"
 registerProvider
 "
 "
