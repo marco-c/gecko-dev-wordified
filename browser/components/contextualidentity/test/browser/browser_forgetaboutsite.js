@@ -1091,6 +1091,7 @@ Forget
 the
 site
 .
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1391,6 +1392,7 @@ Forget
 the
 site
 .
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1679,6 +1681,7 @@ Forget
 the
 site
 .
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -2185,6 +2188,7 @@ Forget
 the
 site
 .
+yield
 ForgetAboutSite
 .
 removeDataFromDomain

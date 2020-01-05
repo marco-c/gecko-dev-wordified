@@ -319,6 +319,7 @@ prop
 /
 Cleanup
 .
+yield
 ForgetAboutSite
 .
 removeDataFromDomain
