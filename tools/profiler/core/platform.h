@@ -2542,6 +2542,7 @@ PlatformData
 #
 endif
 static
+const
 std
 :
 :
@@ -2550,6 +2551,7 @@ vector
 ThreadInfo
 *
 >
+&
 GetRegisteredThreads
 (
 )
