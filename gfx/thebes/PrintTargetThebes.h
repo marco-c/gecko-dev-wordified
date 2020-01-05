@@ -270,6 +270,16 @@ nullptr
 )
 override
 ;
+virtual
+already_AddRefed
+<
+DrawTarget
+>
+GetReferenceDrawTarget
+(
+)
+final
+;
 private
 :
 /
