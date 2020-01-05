@@ -4301,7 +4301,7 @@ SingleSpecifiedValue
 fn
 parse
 (
-context
+_context
 :
 &
 ParserContext
@@ -4369,9 +4369,8 @@ input
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 input
 )
 )
