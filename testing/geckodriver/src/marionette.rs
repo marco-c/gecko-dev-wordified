@@ -4132,7 +4132,7 @@ field
 "
 )
 .
-as_u64
+as_i64
 (
 )
 ErrorStatus
@@ -4181,7 +4181,7 @@ field
 "
 )
 .
-as_u64
+as_i64
 (
 )
 ErrorStatus
