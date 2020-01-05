@@ -2339,6 +2339,17 @@ is
 "
 )
 ;
+if
+(
+mShutdown
+)
+{
+return
+IPC_OK
+(
+)
+;
+}
 MOZ_ASSERT
 (
 CheckDocTree
