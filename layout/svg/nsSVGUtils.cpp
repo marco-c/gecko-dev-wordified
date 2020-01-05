@@ -5292,6 +5292,8 @@ tmpDirtyRegion
 SVGPaintCallback
 paintCallback
 ;
+result
+=
 nsFilterInstance
 :
 :

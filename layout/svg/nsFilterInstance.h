@@ -448,6 +448,16 @@ dom
 UserSpaceMetrics
 UserSpaceMetrics
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 /
@@ -668,7 +678,7 @@ box
 *
 /
 static
-nsresult
+DrawResult
 PaintFilteredFrame
 (
 nsIFrame
@@ -1277,7 +1287,7 @@ constructor
 .
 *
 /
-nsresult
+DrawResult
 Render
 (
 DrawTarget
@@ -1656,7 +1666,7 @@ graph
 nodes
 *
 /
-nsresult
+DrawResult
 BuildSourcePaint
 (
 SourceInfo
@@ -1702,7 +1712,7 @@ respectively
 .
 *
 /
-nsresult
+DrawResult
 BuildSourcePaints
 (
 DrawTarget
@@ -1736,7 +1746,7 @@ mSourceSurface
 .
 *
 /
-nsresult
+DrawResult
 BuildSourceImage
 (
 DrawTarget

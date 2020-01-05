@@ -7591,6 +7591,9 @@ GetCSSPxToDevPxMatrix
 frame
 )
 ;
+DrawResult
+result
+=
 nsFilterInstance
 :
 :
@@ -7627,10 +7630,7 @@ PopGroupAndBlend
 ;
 }
 return
-DrawResult
-:
-:
-SUCCESS
+result
 ;
 }
 gfxMatrix
