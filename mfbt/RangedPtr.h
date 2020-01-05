@@ -1741,15 +1741,6 @@ RangedPtr
 =
 delete
 ;
-T
-*
-operator
-&
-(
-)
-=
-delete
-;
 }
 ;
 }
