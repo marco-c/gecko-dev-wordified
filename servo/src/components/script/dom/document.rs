@@ -1898,7 +1898,7 @@ children
 {
 child
 .
-remove_child
+RemoveChild
 (
 title_child
 )

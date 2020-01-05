@@ -1179,6 +1179,14 @@ None
 {
 }
 }
+self
+.
+node
+.
+wait_until_safe_to_modify_dom
+(
+)
+;
 /
 /
 FIXME
