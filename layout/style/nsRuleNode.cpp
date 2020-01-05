@@ -1623,6 +1623,12 @@ StyleDisplay
 :
 Grid
 :
+case
+StyleDisplay
+:
+:
+FlowRoot
+:
 /
 /
 do
@@ -1866,6 +1872,12 @@ StyleDisplay
 :
 :
 Block
+:
+case
+StyleDisplay
+:
+:
+FlowRoot
 :
 display
 =

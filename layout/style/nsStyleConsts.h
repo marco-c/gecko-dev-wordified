@@ -2358,6 +2358,7 @@ None
 =
 0
 Block
+FlowRoot
 Inline
 InlineBlock
 ListItem
