@@ -10128,6 +10128,10 @@ FinishAndStoreOverflow
 (
 &
 aMetrics
+reflowInput
+-
+>
+mStyleDisplay
 )
 ;
 aStatus

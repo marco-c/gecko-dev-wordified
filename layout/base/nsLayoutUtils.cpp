@@ -47099,6 +47099,18 @@ for
 ;
 )
 {
+const
+nsStyleDisplay
+*
+disp
+=
+f
+-
+>
+StyleDisplay
+(
+)
+;
 if
 (
 f
@@ -47106,6 +47118,7 @@ f
 >
 IsTransformed
 (
+disp
 )
 |
 |
@@ -47114,6 +47127,7 @@ f
 >
 IsPreserve3DLeaf
 (
+disp
 )
 |
 |
