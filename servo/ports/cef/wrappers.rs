@@ -1361,7 +1361,7 @@ u64
 ptr
 :
 :
-copy_memory
+copy
 (
 ptr
 mem

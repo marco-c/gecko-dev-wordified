@@ -190,7 +190,7 @@ atomic
 :
 :
 {
-AtomicInt
+AtomicIsize
 Ordering
 }
 ;
@@ -201,9 +201,9 @@ pub
 static
 ID_COUNTER
 :
-AtomicInt
+AtomicIsize
 =
-AtomicInt
+AtomicIsize
 :
 :
 new

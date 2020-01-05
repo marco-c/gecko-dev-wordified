@@ -630,7 +630,7 @@ return
 ptr
 :
 :
-copy_memory
+copy
 (
 (
 *
@@ -1297,7 +1297,7 @@ return
 ptr
 :
 :
-copy_memory
+copy
 (
 (
 *
@@ -1791,7 +1791,7 @@ return
 ptr
 :
 :
-copy_memory
+copy
 (
 (
 *
