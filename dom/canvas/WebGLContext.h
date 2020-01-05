@@ -1478,6 +1478,10 @@ WebGLContextUserData
 ;
 friend
 class
+WebGLExtensionCompressedTextureASTC
+;
+friend
+class
 WebGLExtensionCompressedTextureATC
 ;
 friend
