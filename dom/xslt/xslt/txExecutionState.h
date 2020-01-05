@@ -460,6 +460,11 @@ popEvalContext
 (
 )
 ;
+void
+popAndDeleteEvalContext
+(
+)
+;
 /
 *
 *

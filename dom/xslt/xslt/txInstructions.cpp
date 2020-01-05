@@ -2475,10 +2475,9 @@ hasNext
 )
 )
 {
-delete
 aEs
 .
-popEvalContext
+popAndDeleteEvalContext
 (
 )
 ;
