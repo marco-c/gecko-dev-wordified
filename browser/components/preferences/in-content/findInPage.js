@@ -1657,7 +1657,7 @@ getFormattedString
 "
 searchResults
 .
-sorryMessage
+sorryMessage2
 "
 [
 query
