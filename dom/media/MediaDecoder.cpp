@@ -5279,6 +5279,12 @@ mPlayState
 =
 =
 PLAY_STATE_LOADING
+|
+|
+mPlayState
+=
+=
+PLAY_STATE_ENDED
 )
 {
 LOG
