@@ -101,14 +101,6 @@ custom_derive
 [
 feature
 (
-hasher_write
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]

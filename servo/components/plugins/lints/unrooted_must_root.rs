@@ -474,6 +474,8 @@ tcx
 has_attr
 (
 did
+.
+did
 "
 must_root
 "
@@ -494,6 +496,8 @@ tcx
 has_attr
 (
 did
+.
+did
 "
 allow_unrooted_interior
 "
@@ -506,6 +510,8 @@ if
 match_def_path
 (
 cx
+did
+.
 did
 &
 [
@@ -525,6 +531,8 @@ Ref
 match_def_path
 (
 cx
+did
+.
 did
 &
 [
