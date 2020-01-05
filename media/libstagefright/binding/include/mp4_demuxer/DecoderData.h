@@ -131,9 +131,6 @@ class
 MetaData
 ;
 }
-#
-ifdef
-MOZ_RUST_MP4PARSE
 extern
 "
 C
@@ -155,8 +152,6 @@ mp4parse_track_video_info
 mp4parse_track_video_info
 ;
 }
-#
-endif
 namespace
 mp4_demuxer
 {
@@ -353,9 +348,6 @@ char
 aMimeType
 )
 ;
-#
-ifdef
-MOZ_RUST_MP4PARSE
 void
 Update
 (
@@ -369,8 +361,6 @@ mp4parse_track_audio_info
 audio
 )
 ;
-#
-endif
 virtual
 bool
 IsValid
@@ -414,9 +404,6 @@ char
 aMimeType
 )
 ;
-#
-ifdef
-MOZ_RUST_MP4PARSE
 void
 Update
 (
@@ -430,8 +417,6 @@ mp4parse_track_video_info
 video
 )
 ;
-#
-endif
 virtual
 bool
 IsValid

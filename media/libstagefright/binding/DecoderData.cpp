@@ -156,9 +156,6 @@ ESDS
 .
 h
 "
-#
-ifdef
-MOZ_RUST_MP4PARSE
 /
 /
 OpusDecoder
@@ -185,8 +182,6 @@ mp4parse
 .
 h
 "
-#
-endif
 using
 namespace
 stagefright
@@ -1196,9 +1191,6 @@ size
 }
 }
 }
-#
-ifdef
-MOZ_RUST_MP4PARSE
 static
 void
 UpdateTrackProtectedInfo
@@ -1758,8 +1750,6 @@ length
 ;
 }
 }
-#
-endif
 bool
 MP4VideoInfo
 :

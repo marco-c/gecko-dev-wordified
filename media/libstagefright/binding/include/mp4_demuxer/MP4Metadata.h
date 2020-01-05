@@ -232,9 +232,6 @@ MP4MetadataStagefright
 >
 mStagefright
 ;
-#
-ifdef
-MOZ_RUST_MP4PARSE
 UniquePtr
 <
 MP4MetadataRust
@@ -268,8 +265,6 @@ ShouldPreferRust
 )
 const
 ;
-#
-endif
 }
 ;
 }

@@ -1478,12 +1478,6 @@ true
 ;
 #
 if
-defined
-(
-MOZ_RUST_MP4PARSE
-)
-&
-&
 !
 defined
 (
