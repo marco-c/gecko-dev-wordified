@@ -86,12 +86,6 @@ HashMap
 use
 time
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test

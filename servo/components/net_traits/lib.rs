@@ -150,10 +150,6 @@ num_traits
 ;
 extern
 crate
-parse_hosts
-;
-extern
-crate
 serde
 ;
 #
@@ -328,10 +324,6 @@ blob_url_store
 pub
 mod
 filemanager_thread
-;
-pub
-mod
-hosts
 ;
 pub
 mod
