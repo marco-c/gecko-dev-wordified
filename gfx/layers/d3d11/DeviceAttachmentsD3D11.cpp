@@ -100,13 +100,6 @@ h
 #
 include
 "
-CompositorD3D11Shaders
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Telemetry
@@ -121,6 +114,13 @@ mozilla
 layers
 /
 Compositor
+.
+h
+"
+#
+include
+"
+CompositorD3D11Shaders
 .
 h
 "

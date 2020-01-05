@@ -492,6 +492,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+DeviceAttachmentsD3D11
+.
+h
+"
+#
+include
+"
 D3D11Checks
 .
 h
