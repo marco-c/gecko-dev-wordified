@@ -435,7 +435,10 @@ use
 gfx_traits
 :
 :
+{
 LayerId
+LayerType
+}
 ;
 use
 incremental
@@ -463,15 +466,6 @@ CollapsibleMargins
 IntrinsicISizes
 MarginCollapseInfo
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-LayerType
 ;
 use
 multicol
