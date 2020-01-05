@@ -5898,7 +5898,7 @@ a
 CPOW
 around
 the
-dochell
+docshell
 .
 var
 RemoteBrowserElementInterposition
