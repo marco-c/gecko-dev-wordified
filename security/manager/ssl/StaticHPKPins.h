@@ -261,7 +261,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kAddTrust_External_RootFingerprint
 [
@@ -285,7 +285,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kAddTrust_Low_Value_Services_RootFingerprint
 [
@@ -305,7 +305,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kAddTrust_Public_Services_RootFingerprint
 [
@@ -327,7 +327,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kAddTrust_Qualified_Certificates_RootFingerprint
 [
@@ -347,7 +347,7 @@ Commercial
 *
 /
 static
-constexpr
+const
 char
 kAffirmTrust_CommercialFingerprint
 [
@@ -367,7 +367,7 @@ Networking
 *
 /
 static
-constexpr
+const
 char
 kAffirmTrust_NetworkingFingerprint
 [
@@ -387,7 +387,7 @@ Premium
 *
 /
 static
-constexpr
+const
 char
 kAffirmTrust_PremiumFingerprint
 [
@@ -408,7 +408,7 @@ ECC
 *
 /
 static
-constexpr
+const
 char
 kAffirmTrust_Premium_ECCFingerprint
 [
@@ -435,7 +435,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kBaltimore_CyberTrust_RootFingerprint
 [
@@ -456,7 +456,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kCOMODO_Certification_AuthorityFingerprint
 [
@@ -476,7 +476,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kCOMODO_ECC_Certification_AuthorityFingerprint
 [
@@ -498,7 +498,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kCOMODO_RSA_Certification_AuthorityFingerprint
 [
@@ -518,7 +518,7 @@ root
 *
 /
 static
-constexpr
+const
 char
 kComodo_AAA_Services_rootFingerprint
 [
@@ -542,7 +542,7 @@ root
 *
 /
 static
-constexpr
+const
 char
 kComodo_Secure_Services_rootFingerprint
 [
@@ -564,7 +564,7 @@ root
 *
 /
 static
-constexpr
+const
 char
 kComodo_Trusted_Services_rootFingerprint
 [
@@ -585,7 +585,7 @@ Root
 *
 /
 static
-constexpr
+const
 char
 kCybertrust_Global_RootFingerprint
 [
@@ -605,7 +605,7 @@ X3
 *
 /
 static
-constexpr
+const
 char
 kDST_Root_CA_X3Fingerprint
 [
@@ -630,7 +630,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_CAFingerprint
 [
@@ -657,7 +657,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_G2Fingerprint
 [
@@ -680,7 +680,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Assured_ID_Root_G3Fingerprint
 [
@@ -706,7 +706,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_CAFingerprint
 [
@@ -734,7 +734,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_G2Fingerprint
 [
@@ -758,7 +758,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Global_Root_G3Fingerprint
 [
@@ -782,7 +782,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_High_Assurance_EV_Root_CAFingerprint
 [
@@ -802,7 +802,7 @@ G4
 *
 /
 static
-constexpr
+const
 char
 kDigiCert_Trusted_Root_G4Fingerprint
 [
@@ -824,7 +824,7 @@ Cert
 *
 /
 static
-constexpr
+const
 char
 kEnd_Entity_Test_CertFingerprint
 [
@@ -844,7 +844,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_AuthorityFingerprint
 [
@@ -870,7 +870,7 @@ EC1
 *
 /
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_Authority___EC1Fingerprint
 [
@@ -893,7 +893,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kEntrust_Root_Certification_Authority___G2Fingerprint
 [
@@ -919,7 +919,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kEntrust_net_Premium_2048_Secure_Server_CAFingerprint
 [
@@ -936,7 +936,7 @@ FacebookBackup
 *
 /
 static
-constexpr
+const
 char
 kFacebookBackupFingerprint
 [
@@ -957,7 +957,7 @@ GOOGLE_PIN_COMODORSADomainValidationSecureServerCA
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_COMODORSADomainValidationSecureServerCAFingerprint
 [
@@ -976,7 +976,7 @@ GOOGLE_PIN_DigiCertECCSecureServerCA
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_DigiCertECCSecureServerCAFingerprint
 [
@@ -995,7 +995,7 @@ GOOGLE_PIN_Entrust_SSL
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_Entrust_SSLFingerprint
 [
@@ -1014,7 +1014,7 @@ GOOGLE_PIN_GTECyberTrustGlobalRoot
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GTECyberTrustGlobalRootFingerprint
 [
@@ -1036,7 +1036,7 @@ GOOGLE_PIN_GoDaddySecure
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GoDaddySecureFingerprint
 [
@@ -1055,7 +1055,7 @@ GOOGLE_PIN_GoogleG2
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_GoogleG2Fingerprint
 [
@@ -1072,7 +1072,7 @@ GOOGLE_PIN_RapidSSL
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_RapidSSLFingerprint
 [
@@ -1091,7 +1091,7 @@ GOOGLE_PIN_SymantecClass3EVG3
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_SymantecClass3EVG3Fingerprint
 [
@@ -1112,7 +1112,7 @@ GOOGLE_PIN_ThawtePremiumServer
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_ThawtePremiumServerFingerprint
 [
@@ -1131,7 +1131,7 @@ GOOGLE_PIN_UTNDATACorpSGC
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_UTNDATACorpSGCFingerprint
 [
@@ -1148,7 +1148,7 @@ GOOGLE_PIN_VeriSignClass1
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass1Fingerprint
 [
@@ -1169,7 +1169,7 @@ GOOGLE_PIN_VeriSignClass2_G2
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass2_G2Fingerprint
 [
@@ -1190,7 +1190,7 @@ GOOGLE_PIN_VeriSignClass3_G2
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass3_G2Fingerprint
 [
@@ -1209,7 +1209,7 @@ GOOGLE_PIN_VeriSignClass4_G3
 *
 /
 static
-constexpr
+const
 char
 kGOOGLE_PIN_VeriSignClass4_G3Fingerprint
 [
@@ -1228,7 +1228,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Global_CAFingerprint
 [
@@ -1250,7 +1250,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Global_CA_2Fingerprint
 [
@@ -1272,7 +1272,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_AuthorityFingerprint
 [
@@ -1296,7 +1296,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 [
@@ -1318,7 +1318,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Primary_Certification_Authority___G3Fingerprint
 [
@@ -1337,7 +1337,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Universal_CAFingerprint
 [
@@ -1359,7 +1359,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGeoTrust_Universal_CA_2Fingerprint
 [
@@ -1386,7 +1386,7 @@ R4
 *
 /
 static
-constexpr
+const
 char
 kGlobalSign_ECC_Root_CA___R4Fingerprint
 [
@@ -1410,7 +1410,7 @@ R5
 *
 /
 static
-constexpr
+const
 char
 kGlobalSign_ECC_Root_CA___R5Fingerprint
 [
@@ -1429,7 +1429,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGlobalSign_Root_CAFingerprint
 [
@@ -1452,7 +1452,7 @@ R2
 *
 /
 static
-constexpr
+const
 char
 kGlobalSign_Root_CA___R2Fingerprint
 [
@@ -1478,7 +1478,7 @@ R3
 *
 /
 static
-constexpr
+const
 char
 kGlobalSign_Root_CA___R3Fingerprint
 [
@@ -1501,7 +1501,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kGo_Daddy_Class_2_CAFingerprint
 [
@@ -1528,7 +1528,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kGo_Daddy_Root_Certificate_Authority___G2Fingerprint
 [
@@ -1545,7 +1545,7 @@ GoogleBackup2048
 *
 /
 static
-constexpr
+const
 char
 kGoogleBackup2048Fingerprint
 [
@@ -1571,7 +1571,7 @@ X3
 *
 /
 static
-constexpr
+const
 char
 kLet_s_Encrypt_Authority_X3Fingerprint
 [
@@ -1595,7 +1595,7 @@ X4
 *
 /
 static
-constexpr
+const
 char
 kLet_s_Encrypt_Authority_X4Fingerprint
 [
@@ -1616,7 +1616,7 @@ SpiderOak2
 *
 /
 static
-constexpr
+const
 char
 kSpiderOak2Fingerprint
 [
@@ -1633,7 +1633,7 @@ SpiderOak3
 *
 /
 static
-constexpr
+const
 char
 kSpiderOak3Fingerprint
 [
@@ -1655,7 +1655,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kStarfield_Class_2_CAFingerprint
 [
@@ -1679,7 +1679,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kStarfield_Root_Certificate_Authority___G2Fingerprint
 [
@@ -1703,7 +1703,7 @@ Swehack
 *
 /
 static
-constexpr
+const
 char
 kSwehackFingerprint
 [
@@ -1722,7 +1722,7 @@ SwehackBackup
 *
 /
 static
-constexpr
+const
 char
 kSwehackBackupFingerprint
 [
@@ -1739,7 +1739,7 @@ TestSPKI
 *
 /
 static
-constexpr
+const
 char
 kTestSPKIFingerprint
 [
@@ -1756,7 +1756,7 @@ Tor1
 *
 /
 static
-constexpr
+const
 char
 kTor1Fingerprint
 [
@@ -1775,7 +1775,7 @@ Tor2
 *
 /
 static
-constexpr
+const
 char
 kTor2Fingerprint
 [
@@ -1792,7 +1792,7 @@ Tor3
 *
 /
 static
-constexpr
+const
 char
 kTor3Fingerprint
 [
@@ -1811,7 +1811,7 @@ Twitter1
 *
 /
 static
-constexpr
+const
 char
 kTwitter1Fingerprint
 [
@@ -1833,7 +1833,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kUSERTrust_ECC_Certification_AuthorityFingerprint
 [
@@ -1855,7 +1855,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kUSERTrust_RSA_Certification_AuthorityFingerprint
 [
@@ -1882,7 +1882,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kUTN_USERFirst_Email_Root_CAFingerprint
 [
@@ -1905,7 +1905,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kUTN_USERFirst_Hardware_Root_CAFingerprint
 [
@@ -1932,7 +1932,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kUTN_USERFirst_Object_Root_CAFingerprint
 [
@@ -1959,7 +1959,7 @@ G4
 *
 /
 static
-constexpr
+const
 char
 kVeriSign_Class_3_Public_Primary_Certification_Authority___G4Fingerprint
 [
@@ -1986,7 +1986,7 @@ G5
 *
 /
 static
-constexpr
+const
 char
 kVeriSign_Class_3_Public_Primary_Certification_Authority___G5Fingerprint
 [
@@ -2007,7 +2007,7 @@ Authority
 *
 /
 static
-constexpr
+const
 char
 kVeriSign_Universal_Root_Certification_AuthorityFingerprint
 [
@@ -2038,7 +2038,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kVerisign_Class_1_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -2068,7 +2068,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kVerisign_Class_2_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -2093,7 +2093,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kVerisign_Class_3_Public_Primary_Certification_Authority___G3Fingerprint
 [
@@ -2112,7 +2112,7 @@ YahooBackup1
 *
 /
 static
-constexpr
+const
 char
 kYahooBackup1Fingerprint
 [
@@ -2133,7 +2133,7 @@ YahooBackup2
 *
 /
 static
-constexpr
+const
 char
 kYahooBackup2Fingerprint
 [
@@ -2157,7 +2157,7 @@ CA
 *
 /
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CAFingerprint
 [
@@ -2181,7 +2181,7 @@ G2
 *
 /
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CA___G2Fingerprint
 [
@@ -2207,7 +2207,7 @@ G3
 *
 /
 static
-constexpr
+const
 char
 kthawte_Primary_Root_CA___G3Fingerprint
 [
@@ -2262,10 +2262,10 @@ pinsets
 *
 /
 static
-constexpr
 const
 char
 *
+const
 kPinset_google_root_pems_Data
 [
 ]
@@ -2328,7 +2328,7 @@ kAddTrust_Qualified_Certificates_RootFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_google_root_pems
 =
@@ -2348,10 +2348,10 @@ kPinset_google_root_pems_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_mozilla_services_Data
 [
 ]
@@ -2364,7 +2364,7 @@ kLet_s_Encrypt_Authority_X4Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_mozilla_services
 =
@@ -2384,10 +2384,10 @@ kPinset_mozilla_services_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_mozilla_test_Data
 [
 ]
@@ -2397,7 +2397,7 @@ kEnd_Entity_Test_CertFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_mozilla_test
 =
@@ -2424,10 +2424,10 @@ pinsets
 *
 /
 static
-constexpr
 const
 char
 *
+const
 kPinset_test_Data
 [
 ]
@@ -2437,7 +2437,7 @@ kTestSPKIFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_test
 =
@@ -2457,10 +2457,10 @@ kPinset_test_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_google_Data
 [
 ]
@@ -2473,7 +2473,7 @@ kGlobalSign_Root_CA___R2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_google
 =
@@ -2493,10 +2493,10 @@ kPinset_google_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_tor_Data
 [
 ]
@@ -2512,7 +2512,7 @@ kTor2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_tor
 =
@@ -2532,10 +2532,10 @@ kPinset_tor_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_twitterCom_Data
 [
 ]
@@ -2565,7 +2565,7 @@ kTwitter1Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_twitterCom
 =
@@ -2585,10 +2585,10 @@ kPinset_twitterCom_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_twitterCDN_Data
 [
 ]
@@ -2639,7 +2639,7 @@ kAddTrust_Qualified_Certificates_RootFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_twitterCDN
 =
@@ -2659,10 +2659,10 @@ kPinset_twitterCDN_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_dropbox_Data
 [
 ]
@@ -2689,7 +2689,7 @@ kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_dropbox
 =
@@ -2709,10 +2709,10 @@ kPinset_dropbox_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_facebook_Data
 [
 ]
@@ -2725,7 +2725,7 @@ kFacebookBackupFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_facebook
 =
@@ -2745,10 +2745,10 @@ kPinset_facebook_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_spideroak_Data
 [
 ]
@@ -2761,7 +2761,7 @@ kGeoTrust_Global_CAFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_spideroak
 =
@@ -2781,10 +2781,10 @@ kPinset_spideroak_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_yahoo_Data
 [
 ]
@@ -2808,7 +2808,7 @@ kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_yahoo
 =
@@ -2828,10 +2828,10 @@ kPinset_yahoo_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_swehackCom_Data
 [
 ]
@@ -2846,7 +2846,7 @@ kSwehackBackupFingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_swehackCom
 =
@@ -2866,10 +2866,10 @@ kPinset_swehackCom_Data
 }
 ;
 static
-constexpr
 const
 char
 *
+const
 kPinset_nightx_Data
 [
 ]
@@ -2888,7 +2888,7 @@ kLet_s_Encrypt_Authority_X4Fingerprint
 }
 ;
 static
-constexpr
+const
 StaticFingerprints
 kPinset_nightx
 =
@@ -2954,7 +2954,7 @@ search
 *
 /
 static
-constexpr
+const
 TransportSecurityPreload
 kPublicKeyPinningPreloadList
 [
@@ -10497,7 +10497,7 @@ Length
 477
 ;
 static
-constexpr
+const
 int32_t
 kUnknownId
 =
@@ -10505,12 +10505,12 @@ kUnknownId
 1
 ;
 static
-constexpr
+const
 PRTime
 kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1494432863955000
+1494342699463000
 )
 ;
