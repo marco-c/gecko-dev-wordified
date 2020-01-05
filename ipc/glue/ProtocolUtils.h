@@ -1358,6 +1358,16 @@ aId
 ;
 }
 void
+ResetManager
+(
+)
+{
+mManager
+=
+nullptr
+;
+}
+void
 SetManager
 (
 IProtocol
