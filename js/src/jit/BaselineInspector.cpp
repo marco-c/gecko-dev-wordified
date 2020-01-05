@@ -6130,12 +6130,6 @@ ICStub
 :
 GetElem_TypedArray
 :
-case
-ICStub
-:
-:
-GetElem_UnboxedArray
-:
 stubType
 =
 MIRType

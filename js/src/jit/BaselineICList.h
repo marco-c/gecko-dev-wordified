@@ -300,11 +300,6 @@ GetElem_Fallback
 \
 _
 (
-GetElem_UnboxedArray
-)
-\
-_
-(
 GetElem_TypedArray
 )
 \
