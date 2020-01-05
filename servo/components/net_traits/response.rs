@@ -274,6 +274,7 @@ bodies
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -347,6 +348,7 @@ state
 derive
 (
 Clone
+Debug
 )
 ]
 pub
