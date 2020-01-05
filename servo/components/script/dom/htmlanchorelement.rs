@@ -265,7 +265,10 @@ dom
 htmlelement
 :
 :
+{
 HTMLElement
+HTMLElementTypeId
+}
 ;
 use
 dom
@@ -367,7 +370,13 @@ Element
 ElementTypeId
 :
 :
+HTMLElement
+(
+HTMLElementTypeId
+:
+:
 HTMLAnchorElement
+)
 )
 )
 }
@@ -407,7 +416,7 @@ HTMLElement
 :
 new_inherited
 (
-ElementTypeId
+HTMLElementTypeId
 :
 :
 HTMLAnchorElement

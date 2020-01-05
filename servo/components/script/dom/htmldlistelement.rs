@@ -138,7 +138,10 @@ dom
 htmlelement
 :
 :
+{
 HTMLElement
+HTMLElementTypeId
+}
 ;
 use
 dom
@@ -209,7 +212,13 @@ Element
 ElementTypeId
 :
 :
+HTMLElement
+(
+HTMLElementTypeId
+:
+:
 HTMLDListElement
+)
 )
 )
 }
@@ -249,7 +258,7 @@ HTMLElement
 :
 new_inherited
 (
-ElementTypeId
+HTMLElementTypeId
 :
 :
 HTMLDListElement
