@@ -3963,7 +3963,6 @@ __func__
 [
 &
 status
-this
 ]
 (
 nsString
@@ -4005,7 +4004,6 @@ WaitGroupDone
 [
 &
 status
-this
 ]
 (
 ErrorCode
@@ -5040,7 +5038,6 @@ __func__
 [
 &
 status
-this
 ]
 (
 nsString
@@ -5082,7 +5079,6 @@ WaitGroupDone
 [
 &
 status
-this
 ]
 (
 ErrorCode
