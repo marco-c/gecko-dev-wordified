@@ -166,7 +166,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLSelectElementTypeId
 localName

@@ -413,7 +413,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLIframeElementTypeId
 localName

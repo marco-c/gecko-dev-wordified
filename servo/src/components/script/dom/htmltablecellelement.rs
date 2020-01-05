@@ -135,7 +135,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 type_id
 tag_name

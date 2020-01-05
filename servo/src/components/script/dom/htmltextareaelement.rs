@@ -158,7 +158,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLTextAreaElementTypeId
 localName

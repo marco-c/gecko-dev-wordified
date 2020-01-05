@@ -171,7 +171,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLHeadingElementTypeId
 localName

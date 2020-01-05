@@ -157,7 +157,7 @@ htmlelement
 HTMLElement
 :
 :
-new
+new_inherited
 (
 HTMLProgressElementTypeId
 localName
