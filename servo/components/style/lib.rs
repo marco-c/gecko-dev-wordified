@@ -77,6 +77,14 @@ box_syntax
 [
 feature
 (
+box_patterns
+)
+]
+#
+!
+[
+feature
+(
 core_intrinsics
 )
 ]
