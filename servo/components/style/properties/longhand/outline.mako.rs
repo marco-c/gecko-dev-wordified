@@ -147,6 +147,12 @@ CurrentColor
 animatable
 =
 True
+complex_color
+=
+True
+need_clone
+=
+True
 )
 }
 <
