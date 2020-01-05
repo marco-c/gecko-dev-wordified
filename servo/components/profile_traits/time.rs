@@ -95,6 +95,7 @@ Clone
 PartialOrd
 Eq
 Ord
+Debug
 Deserialize
 Serialize
 )
@@ -242,6 +243,7 @@ derive
 (
 PartialEq
 Clone
+Copy
 PartialOrd
 Eq
 Ord
@@ -304,6 +306,7 @@ PartialEq
 Eq
 PartialOrd
 Ord
+Debug
 Deserialize
 Serialize
 )
@@ -324,6 +327,7 @@ PartialEq
 Eq
 PartialOrd
 Ord
+Debug
 Deserialize
 Serialize
 )
