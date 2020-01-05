@@ -157,6 +157,9 @@ crate
 test
 ;
 mod
+animated_properties
+;
+mod
 atomic_refcell
 ;
 mod
