@@ -2773,6 +2773,7 @@ oom_
 ;
 public
 :
+explicit
 XDRIncrementalEncoder
 (
 JSContext
