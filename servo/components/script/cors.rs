@@ -769,11 +769,12 @@ iter
 (
 )
 .
-all
+any
 (
 |
 h
 |
+!
 is_simple_header
 (
 &
