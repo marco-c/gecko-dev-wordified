@@ -353,6 +353,8 @@ double
 aIntensity
 double
 aDuration
+uint32_t
+aPromiseID
 )
 ;
 protected

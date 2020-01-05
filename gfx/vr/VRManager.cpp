@@ -2477,6 +2477,8 @@ double
 aIntensity
 double
 aDuration
+uint32_t
+aPromiseID
 )
 {
 for
@@ -2511,6 +2513,7 @@ aControllerIdx
 aHapticIndex
 aIntensity
 aDuration
+aPromiseID
 )
 ;
 }
