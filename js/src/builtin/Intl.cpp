@@ -16443,7 +16443,7 @@ JSContext
 cx
 HandleString
 timeZone
-MutableHandleString
+MutableHandleAtom
 result
 )
 {
@@ -16983,7 +16983,7 @@ toString
 )
 )
 ;
-RootedString
+RootedAtom
 validatedTimeZone
 (
 cx

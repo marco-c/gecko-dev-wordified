@@ -14007,6 +14007,10 @@ return
 false
 ;
 }
+if
+(
+ctorName
+)
 cx
 -
 >
@@ -66084,6 +66088,10 @@ explicitName
 (
 )
 ;
+if
+(
+atom
+)
 cx
 -
 >
@@ -66136,6 +66144,10 @@ displayAtom
 (
 )
 ;
+if
+(
+atom
+)
 cx
 -
 >
@@ -66410,6 +66422,10 @@ name
 (
 )
 ;
+if
+(
+atom
+)
 cx
 -
 >
