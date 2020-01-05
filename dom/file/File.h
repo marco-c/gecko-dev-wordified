@@ -1212,7 +1212,7 @@ aGlobal
 const
 nsAString
 &
-aData
+aFilePath
 const
 ChromeFilePropertyBag
 &
@@ -1238,7 +1238,7 @@ GlobalObject
 aGlobal
 nsIFile
 *
-aData
+aFile
 const
 ChromeFilePropertyBag
 &
