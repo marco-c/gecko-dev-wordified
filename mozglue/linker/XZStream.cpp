@@ -133,7 +133,10 @@ std
 :
 min
 (
-9u
+size_t
+(
+9
+)
 aBufSize
 )
 ;
