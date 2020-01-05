@@ -53,19 +53,19 @@ MPL
 0
 /
 .
-#
-Listed
-all
-packages
-for
-different
-platforms
-in
-one
-file
 WINDOWS_GNU
 =
+set
+(
 [
+    
+"
+diffutils
+"
+    
+"
+make
+"
     
 "
 mingw
@@ -140,14 +140,6 @@ cmake
 "
     
 "
-tar
-"
-    
-"
-diffutils
-"
-    
-"
 patch
 "
     
@@ -156,22 +148,25 @@ patchutils
 "
     
 "
-make
-"
-    
-"
 python2
 -
 setuptools
 "
+    
+"
+tar
+"
 ]
+)
 WINDOWS_MSVC
 =
-[
+{
     
 "
 cmake
--
+"
+:
+"
 3
 .
 6
@@ -180,8 +175,24 @@ cmake
 "
     
 "
-ninja
+moztools
+"
+:
+"
+0
+.
+0
+.
+1
 -
+5
+"
+    
+"
+ninja
+"
+:
+"
 1
 .
 7
@@ -191,7 +202,9 @@ ninja
     
 "
 openssl
--
+"
+:
+"
 1
 .
 0
@@ -200,16 +213,4 @@ openssl
 -
 vs2015
 "
-    
-"
-moztools
--
-0
-.
-0
-.
-1
--
-5
-"
-]
+}

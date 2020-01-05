@@ -1020,6 +1020,7 @@ process
 =
 Popen
 (
+            
 [
 virtualenv
 "
@@ -1027,14 +1028,26 @@ virtualenv
 p
 "
 python
+"
+-
+-
+system
+-
+site
+-
+packages
+"
 virtualenv_path
 ]
+            
 stdout
 =
 PIPE
+            
 stderr
 =
 PIPE
+        
 )
         
 process
@@ -1412,6 +1425,10 @@ q
 "
 "
 -
+I
+"
+"
+-
 U
 "
 "
@@ -1608,6 +1625,10 @@ install
 "
 -
 q
+"
+"
+-
+I
 "
 "
 -
