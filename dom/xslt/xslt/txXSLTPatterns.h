@@ -171,7 +171,7 @@ node
 *
 /
 virtual
-nsresult
+bool
 matches
 (
 const
@@ -181,9 +181,6 @@ aNode
 txIMatchContext
 *
 aContext
-bool
-&
-aMatched
 )
 =
 0
@@ -491,7 +488,7 @@ endif
 define
 TX_DECL_PATTERN_BASE
 \
-nsresult
+bool
 matches
 (
 const
@@ -501,10 +498,6 @@ aNode
 txIMatchContext
 *
 aContext
-\
-bool
-&
-aMatched
 )
 override
 ;

@@ -195,16 +195,13 @@ aResult
 )
 ;
 }
-nsresult
+bool
 isStripSpaceAllowed
 (
 const
 txXPathNode
 &
 aNode
-bool
-&
-aAllowed
 )
 override
 {
@@ -228,7 +225,6 @@ mInner
 isStripSpaceAllowed
 (
 aNode
-aAllowed
 )
 ;
 }
