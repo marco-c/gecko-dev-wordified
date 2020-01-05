@@ -797,6 +797,13 @@ PropTypes
 func
 .
 isRequired
+onFocus
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 shouldComponentUpdate
 (

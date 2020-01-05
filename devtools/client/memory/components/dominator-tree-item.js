@@ -228,6 +228,13 @@ arrow
 PropTypes
 .
 object
+expanded
+:
+PropTypes
+.
+bool
+.
+isRequired
 focused
 :
 PropTypes

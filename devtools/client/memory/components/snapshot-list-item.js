@@ -125,6 +125,9 @@ const
 snapshot
 :
 snapshotModel
+app
+:
+appModel
 }
 =
 require
@@ -185,6 +188,11 @@ PropTypes
 number
 .
 isRequired
+diffing
+:
+appModel
+.
+diffing
 }
 render
 (
