@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 nsIPrivateBrowsingChannel
 .
 h

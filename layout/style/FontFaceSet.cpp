@@ -329,6 +329,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 nsINetworkPredictor
 .
 h

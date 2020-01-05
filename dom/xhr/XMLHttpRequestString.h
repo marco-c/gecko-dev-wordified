@@ -123,6 +123,15 @@ mozilla_dom_XMLHttpRequestString_h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -130,9 +139,6 @@ h
 namespace
 mozilla
 {
-class
-Mutex
-;
 namespace
 dom
 {
