@@ -64,7 +64,7 @@ properties
 AppendableValue
 DeclaredValue
 PropertyDeclaration
-Shorthand
+ShorthandId
 }
 ;
 use
@@ -625,7 +625,7 @@ appendable_value
 {
 if
 let
-Shorthand
+ShorthandId
 :
 :
 Overflow

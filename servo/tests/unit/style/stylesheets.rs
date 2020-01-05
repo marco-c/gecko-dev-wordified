@@ -188,12 +188,7 @@ style
 properties
 :
 :
-{
-PropertyDeclaration
-PropertyDeclarationBlock
-DeclaredValue
-longhands
-}
+Importance
 ;
 use
 style
@@ -202,7 +197,12 @@ style
 properties
 :
 :
-Importance
+{
+PropertyDeclaration
+PropertyDeclarationBlock
+DeclaredValue
+longhands
+}
 ;
 use
 style

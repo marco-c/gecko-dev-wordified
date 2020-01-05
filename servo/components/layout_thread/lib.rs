@@ -3322,7 +3322,12 @@ None
 )
 resolved_style_response
 :
-None
+String
+:
+:
+new
+(
+)
 offset_parent_response
 :
 OffsetParentResponse
@@ -7174,7 +7179,12 @@ rw_data
 .
 resolved_style_response
 =
-None
+String
+:
+:
+new
+(
+)
 ;
 }
 ReflowQueryType

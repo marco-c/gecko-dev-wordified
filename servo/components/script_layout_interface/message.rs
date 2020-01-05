@@ -159,12 +159,6 @@ WindowSizeData
 }
 ;
 use
-servo_atoms
-:
-:
-Atom
-;
-use
 servo_url
 :
 :
@@ -202,6 +196,15 @@ context
 :
 :
 ReflowGoal
+;
+use
+style
+:
+:
+properties
+:
+:
+PropertyId
 ;
 use
 style
@@ -732,7 +735,7 @@ Option
 <
 PseudoElement
 >
-Atom
+PropertyId
 )
 OffsetParentQuery
 (
