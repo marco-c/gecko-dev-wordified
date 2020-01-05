@@ -1393,8 +1393,6 @@ codemap
 )
 &
 sess
-.
-span_diagnostic
 &
 krate
 src_name

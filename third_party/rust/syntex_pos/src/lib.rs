@@ -252,16 +252,9 @@ nightly
 #
 !
 [
-cfg_attr
-(
-not
-(
-stage0
-)
 deny
 (
 warnings
-)
 )
 ]
 use

@@ -3787,7 +3787,7 @@ TokenTree
 :
 Delimited
 (
-_
+sp
 ref
 delimed
 )
@@ -3827,6 +3827,7 @@ delimed
 .
 open_tt
 (
+sp
 )
 matcher
 )
@@ -3851,6 +3852,7 @@ delimed
 .
 close_tt
 (
+sp
 )
 matcher
 )

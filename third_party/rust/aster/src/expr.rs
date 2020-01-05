@@ -8100,6 +8100,18 @@ span
 is_shorthand
 :
 false
+attrs
+:
+Vec
+:
+:
+new
+(
+)
+.
+into
+(
+)
 }
 ;
 self
@@ -15011,7 +15023,7 @@ ast
 ExprKind
 :
 :
-Vec
+Array
 (
 self
 .

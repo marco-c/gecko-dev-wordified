@@ -2050,11 +2050,6 @@ token
 :
 :
 Bracket
-open_span
-:
-self
-.
-span
 tts
 :
 self
@@ -2065,11 +2060,6 @@ to_tokens
 (
 cx
 )
-close_span
-:
-self
-.
-span
 }
 )
 )
@@ -2186,18 +2176,12 @@ token
 :
 :
 Paren
-open_span
-:
-DUMMY_SP
 tts
 :
 vec
 !
 [
 ]
-close_span
-:
-DUMMY_SP
 }
 )
 )
@@ -3229,7 +3213,7 @@ panictry
 (
 parser
 .
-parse_ty
+parse_ty_no_plus
 (
 )
 )
@@ -6390,7 +6374,7 @@ TokenTree
 :
 Delimited
 (
-_
+span
 ref
 delimed
 )
@@ -6405,6 +6389,7 @@ delimed
 .
 open_tt
 (
+span
 )
 matcher
 )
@@ -6447,6 +6432,7 @@ delimed
 .
 close_tt
 (
+span
 )
 matcher
 )
