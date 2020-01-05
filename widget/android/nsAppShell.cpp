@@ -449,13 +449,6 @@ h
 #
 include
 "
-AndroidUiThread
-.
-h
-"
-#
-include
-"
 ANRReporter
 .
 h
@@ -2394,10 +2387,6 @@ JNI_READY
 )
 )
 ;
-CreateAndroidUiThread
-(
-)
-;
 }
 sPowerManagerService
 =
@@ -2446,10 +2435,6 @@ nsAppShell
 (
 )
 {
-DestroyAndroidUiThread
-(
-)
-;
 {
 MutexAutoLock
 lock
