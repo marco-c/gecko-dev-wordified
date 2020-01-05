@@ -145,6 +145,15 @@ include
 "
 mozilla
 /
+ServoComputedValuesWithParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h

@@ -458,6 +458,15 @@ include
 "
 mozilla
 /
+ServoComputedValuesWithParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element

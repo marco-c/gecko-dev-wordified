@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+ServoComputedValuesWithParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleSet
 .
 h

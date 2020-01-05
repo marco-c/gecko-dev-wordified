@@ -195,6 +195,9 @@ struct
 Keyframe
 ;
 struct
+ServoComputedValuesWithParent
+;
+struct
 StyleTransition
 ;
 }

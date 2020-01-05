@@ -197,9 +197,7 @@ include
 "
 mozilla
 /
-dom
-/
-KeyframeEffectReadOnly
+ServoComputedValuesWithParent
 .
 h
 "
