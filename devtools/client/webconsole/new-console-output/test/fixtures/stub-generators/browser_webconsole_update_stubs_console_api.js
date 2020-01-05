@@ -83,6 +83,7 @@ requestLongerTimeout
 (
 2
 )
+;
 Cu
 .
 import
@@ -100,6 +101,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -206,7 +209,7 @@ function
 {
 for
 (
-var
+let
 [
 key
 {
@@ -403,10 +406,10 @@ selectedBrowser
 key
 function
 (
-key
+subKey
 )
 {
-var
+let
 script
 =
 content
@@ -437,7 +440,7 @@ key
 +
 encodeURIComponent
 (
-key
+subKey
 )
 ;
 script
@@ -457,6 +460,7 @@ triggerPacket
 )
 ;
 }
+;
 content
 .
 document
@@ -511,6 +515,9 @@ filePath
 formatFile
 (
 stubs
+"
+ConsoleMessage
+"
 )
 )
 ;

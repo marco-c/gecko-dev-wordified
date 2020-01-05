@@ -556,6 +556,9 @@ ObjectClient
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;

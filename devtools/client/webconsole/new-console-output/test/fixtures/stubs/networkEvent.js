@@ -27,6 +27,16 @@ zero
 /
 *
 /
+/
+*
+eslint
+-
+disable
+max
+-
+len
+*
+/
 "
 use
 strict
@@ -58,7 +68,6 @@ UPDATE
 /
 const
 {
-ConsoleMessage
 NetworkEventMessage
 }
 =
@@ -1543,3 +1552,4 @@ exports
 stubPreparedMessages
 stubPackets
 }
+;

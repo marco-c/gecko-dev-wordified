@@ -96,6 +96,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -226,7 +228,7 @@ fail
 ;
 for
 (
-var
+let
 [
 key
 code
@@ -384,10 +386,10 @@ selectedBrowser
 key
 function
 (
-key
+subKey
 )
 {
-var
+let
 script
 =
 content
@@ -418,7 +420,7 @@ key
 +
 encodeURIComponent
 (
-key
+subKey
 )
 ;
 content
@@ -470,6 +472,9 @@ filePath
 formatFile
 (
 stubs
+"
+ConsoleMessage
+"
 )
 )
 ;

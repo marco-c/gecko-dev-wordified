@@ -50,6 +50,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -443,6 +445,9 @@ filePath
 formatFile
 (
 stubs
+"
+ConsoleMessage
+"
 )
 )
 ;
