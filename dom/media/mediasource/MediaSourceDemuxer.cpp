@@ -1097,6 +1097,13 @@ i
 ;
 }
 }
+{
+MonitorAutoLock
+mon
+(
+mMonitor
+)
+;
 if
 (
 aSourceBuffer
@@ -1122,6 +1129,7 @@ mVideoTrack
 =
 nullptr
 ;
+}
 }
 ScanSourceBuffersForContent
 (
