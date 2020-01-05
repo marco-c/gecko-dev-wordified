@@ -337,6 +337,13 @@ h
 "
 #
 include
+"
+nsIHttpAuthenticator
+.
+h
+"
+#
+include
 <
 algorithm
 >
