@@ -38267,6 +38267,11 @@ bind
 trueValue
 )
 ;
+freeI32
+(
+tmp
+)
+;
 freeI64
 (
 r1
