@@ -633,7 +633,7 @@ eRenderStroke
 2
 }
 ;
-void
+DrawResult
 Render
 (
 gfxContext
