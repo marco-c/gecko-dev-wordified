@@ -154,6 +154,7 @@ StylesheetProvenance
 UrlProvenance
 (
 Url
+ResourceTask
 )
 InlineProvenance
 (
@@ -188,23 +189,6 @@ str
 >
 Stylesheet
 {
-let
-resource_task
-=
-ResourceTask
-(
-)
-;
-/
-/
-Resource
-task
-is
-not
-used
-for
-inline
-parsing
 parse_css
 (
 InlineProvenance
@@ -212,7 +196,6 @@ InlineProvenance
 url
 data
 )
-resource_task
 )
 }
 fn
@@ -221,9 +204,6 @@ parse_css
 provenance
 :
 StylesheetProvenance
-resource_task
-:
-ResourceTask
 )
 -
 >
@@ -271,6 +251,7 @@ provenance
 UrlProvenance
 (
 url
+resource_task
 )
 =
 >
@@ -438,9 +419,6 @@ spawn_css_parser
 provenance
 :
 StylesheetProvenance
-resource_task
-:
-ResourceTask
 )
 -
 >
@@ -475,7 +453,6 @@ send
 parse_css
 (
 provenance
-resource_task
 )
 )
 ;

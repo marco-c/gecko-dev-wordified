@@ -762,11 +762,6 @@ push
 spawn_css_parser
 (
 provenance
-resource_task
-.
-clone
-(
-)
 )
 )
 ;
@@ -2930,6 +2925,11 @@ CSSTaskNewFile
 UrlProvenance
 (
 url
+resource_task
+.
+clone
+(
+)
 )
 )
 )
