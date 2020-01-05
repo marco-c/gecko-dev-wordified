@@ -2404,11 +2404,16 @@ mode
 .
 if
 (
+mHaveControllerListener
+&
+&
+(
 mIsContentChild
 |
 |
 IsSameProcess
 (
+)
 )
 )
 {

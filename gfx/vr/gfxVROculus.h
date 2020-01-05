@@ -585,6 +585,13 @@ aHMDResult
 override
 ;
 virtual
+bool
+GetIsPresenting
+(
+)
+override
+;
+virtual
 void
 HandleInput
 (

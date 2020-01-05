@@ -1526,6 +1526,14 @@ aHMDResult
 0
 ;
 virtual
+bool
+GetIsPresenting
+(
+)
+=
+0
+;
+virtual
 void
 HandleInput
 (
