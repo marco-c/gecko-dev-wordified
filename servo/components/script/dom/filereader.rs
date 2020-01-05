@@ -597,9 +597,6 @@ EventTarget
 new_inherited
 (
 )
-/
-/
-?
 ready_state
 :
 Cell
