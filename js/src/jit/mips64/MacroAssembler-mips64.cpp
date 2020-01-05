@@ -2930,17 +2930,6 @@ imm
 .
 value
 )
-&
-&
-Imm16
-:
-:
-IsInUnsignedRange
-(
-imm
-.
-value
-)
 )
 {
 as_daddiu
