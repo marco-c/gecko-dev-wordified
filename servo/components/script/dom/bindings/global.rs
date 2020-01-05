@@ -1205,7 +1205,7 @@ window
 >
 window
 .
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 )
 GlobalRef
@@ -1279,7 +1279,7 @@ window
 >
 window
 .
-user_interaction_thread_source
+user_interaction_task_source
 (
 )
 GlobalRef
@@ -1353,7 +1353,7 @@ window
 >
 window
 .
-networking_thread_source
+networking_task_source
 (
 )
 GlobalRef
@@ -1427,7 +1427,7 @@ window
 >
 window
 .
-history_traversal_thread_source
+history_traversal_task_source
 (
 )
 GlobalRef
@@ -1501,7 +1501,7 @@ window
 >
 window
 .
-file_reading_thread_source
+file_reading_task_source
 (
 )
 GlobalRef
