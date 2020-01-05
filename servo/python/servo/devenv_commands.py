@@ -851,10 +851,6 @@ params
 -
 features
 =
-script
-/
-plugins
-/
 clippy
 "
 ]
