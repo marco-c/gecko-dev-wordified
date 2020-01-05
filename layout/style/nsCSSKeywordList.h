@@ -334,16 +334,6 @@ CSS_KEY
 -
 moz
 -
-anchor
--
-decoration
-_moz_anchor_decoration
-)
-CSS_KEY
-(
--
-moz
--
 available
 _moz_available
 )

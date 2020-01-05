@@ -10717,10 +10717,6 @@ eCSSKeyword_blink
 NS_STYLE_TEXT_DECORATION_LINE_BLINK
 }
 {
-eCSSKeyword__moz_anchor_decoration
-NS_STYLE_TEXT_DECORATION_LINE_PREF_ANCHORS
-}
-{
 eCSSKeyword_UNKNOWN
 -
 1
