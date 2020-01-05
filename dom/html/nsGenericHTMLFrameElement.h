@@ -272,6 +272,10 @@ mFrameLoaderCreationDisallowed
 (
 false
 )
+mReallyIsBrowser
+(
+false
+)
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -737,6 +741,9 @@ mBrowserFrameListenersRegistered
 ;
 bool
 mFrameLoaderCreationDisallowed
+;
+bool
+mReallyIsBrowser
 ;
 /
 /
