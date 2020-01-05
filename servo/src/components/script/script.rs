@@ -722,6 +722,14 @@ processinginstruction
 ;
 pub
 mod
+performance
+;
+pub
+mod
+performancetiming
+;
+pub
+mod
 uievent
 ;
 pub
