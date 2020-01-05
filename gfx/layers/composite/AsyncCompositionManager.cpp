@@ -6747,6 +6747,11 @@ false
 }
 #
 else
+*
+aOutFoundRoot
+=
+false
+;
 /
 /
 Non
