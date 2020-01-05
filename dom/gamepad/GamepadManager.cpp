@@ -1389,6 +1389,8 @@ uint32_t
 aButton
 bool
 aPressed
+bool
+aTouched
 double
 aValue
 )
@@ -1437,6 +1439,7 @@ SetButton
 (
 aButton
 aPressed
+aTouched
 aValue
 )
 ;
@@ -1605,6 +1608,7 @@ SetButton
 (
 aButton
 aPressed
+aTouched
 aValue
 )
 ;
@@ -3469,6 +3473,11 @@ button
 a
 .
 pressed
+(
+)
+a
+.
+touched
 (
 )
 a

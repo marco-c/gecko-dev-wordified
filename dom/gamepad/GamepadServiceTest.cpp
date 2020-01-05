@@ -847,6 +847,8 @@ aIndex
 uint32_t
 aButton
 bool
+aTouched
+bool
 aPressed
 )
 {
@@ -868,13 +870,14 @@ GamepadServiceType
 Standard
 aButton
 aPressed
-aPressed
 ?
 1
 .
 0
 :
 0
+aPressed
+aTouched
 )
 ;
 GamepadChangeEvent
@@ -935,6 +938,8 @@ uint32_t
 aButton
 bool
 aPressed
+bool
+aTouched
 double
 aValue
 )
@@ -956,8 +961,9 @@ GamepadServiceType
 :
 Standard
 aButton
-aPressed
 aValue
+aPressed
+aTouched
 )
 ;
 GamepadChangeEvent
