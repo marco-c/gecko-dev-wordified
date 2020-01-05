@@ -70,6 +70,7 @@ marionette_harness
 import
 MarionetteTestCase
 skip
+skip_if_mobile
 class
 TestClickScrolling
 (
@@ -868,6 +869,28 @@ scrollX
 ;
 "
 )
+)
+    
+skip_if_mobile
+(
+"
+Bug
+1293855
+-
+Lists
+differ
+:
+[
+70
+70
+]
+!
+=
+[
+70
+120
+]
+"
 )
     
 def
