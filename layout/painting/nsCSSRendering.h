@@ -3599,10 +3599,10 @@ affected
 by
 mClippedRadii
 nsRect
-mDirtyRect
+mDirtyRectInAppUnits
 ;
 gfxRect
-mDirtyRectGfx
+mDirtyRectInDevPx
 ;
 nscoord
 mRadii

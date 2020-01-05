@@ -48785,7 +48785,7 @@ currentMaskSurfaceRect
 =
 clipState
 .
-mDirtyRectGfx
+mDirtyRectInDevPx
 ;
 }
 maskInUserSpace
