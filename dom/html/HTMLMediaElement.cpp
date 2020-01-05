@@ -4182,6 +4182,17 @@ nsISuspendedTypes
 NONE_SUSPENDED
 )
 ;
+NotifyAudioPlaybackChanged
+(
+AudioChannelService
+:
+:
+AudibleChangedReasons
+:
+:
+ePauseStateChanged
+)
+;
 }
 UpdateAudioChannelPlayingState
 (
