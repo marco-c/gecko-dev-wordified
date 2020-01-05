@@ -42689,6 +42689,16 @@ XXXrecrack
 dom
 :
 :
+htmlcanvaselement
+:
+:
+HTMLCanvasElement
+'
+                          
+'
+dom
+:
+:
 htmlelement
 :
 :
