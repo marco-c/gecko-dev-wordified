@@ -1787,7 +1787,7 @@ x_height
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -1862,7 +1862,7 @@ value
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -1945,7 +1945,7 @@ LPA_Auto
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

@@ -861,7 +861,7 @@ impl
 <
 T
 >
-Eq
+PartialEq
 for
 Temporary
 <
@@ -1176,7 +1176,7 @@ impl
 <
 T
 >
-Eq
+PartialEq
 for
 JS
 <
@@ -4169,7 +4169,7 @@ impl
 a
 T
 >
-Eq
+PartialEq
 for
 JSRef
 <

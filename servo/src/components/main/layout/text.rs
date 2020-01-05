@@ -1871,7 +1871,7 @@ borrow_mut
 )
 run_str
 .
-into_owned
+to_string
 (
 )
 decoration

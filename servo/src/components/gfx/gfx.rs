@@ -126,7 +126,7 @@ phase
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
@@ -170,7 +170,7 @@ png
 [
 phase
 (
-syntax
+plugin
 )
 ]
 extern
@@ -193,7 +193,7 @@ net
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]

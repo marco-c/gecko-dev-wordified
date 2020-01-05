@@ -1458,7 +1458,7 @@ impl
 '
 a
 >
-Eq
+PartialEq
 for
 LayoutNode
 <
@@ -3203,7 +3203,7 @@ to_string
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

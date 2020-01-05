@@ -98,8 +98,8 @@ deriving
 (
 Encodable
 Clone
-TotalEq
 Eq
+PartialEq
 )
 ]
 pub
@@ -556,7 +556,7 @@ rule
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 enum

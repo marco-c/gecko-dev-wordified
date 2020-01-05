@@ -279,6 +279,13 @@ vec
 (
 )
 ;
+let
+depth
+=
+iterator
+.
+depth
+;
 for
 node
 in
@@ -292,8 +299,6 @@ len
 (
 )
 >
-iterator
-.
 depth
 {
 html

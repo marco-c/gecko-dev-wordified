@@ -129,7 +129,7 @@ used
 in
 tests
 impl
-Eq
+PartialEq
 for
 Arc
 <
@@ -167,7 +167,7 @@ other
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -198,7 +198,7 @@ u32
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -219,7 +219,7 @@ FirstLetter
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -261,7 +261,7 @@ c
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -290,7 +290,7 @@ LaterSibling
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -475,7 +475,7 @@ OnlyOfType
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -500,7 +500,7 @@ NamespaceConstraint
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]

@@ -3261,7 +3261,7 @@ AbsDescendants
 [
 deriving
 (
-Eq
+PartialEq
 Show
 )
 ]

@@ -760,10 +760,10 @@ the
 [
 deriving
 (
+PartialEq
+PartialOrd
 Eq
 Ord
-TotalEq
-TotalOrd
 Encodable
 )
 ]
@@ -960,7 +960,7 @@ reflow
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

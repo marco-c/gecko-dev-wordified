@@ -69,7 +69,7 @@ CharIndex
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -544,7 +544,7 @@ return
 (
 out_str
 .
-into_owned
+into_string
 (
 )
 out_whitespace

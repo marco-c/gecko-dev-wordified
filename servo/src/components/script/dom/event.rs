@@ -286,7 +286,7 @@ BUBBLING_PHASE
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]

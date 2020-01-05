@@ -226,7 +226,7 @@ ReplacedAttr
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 Encodable
 )

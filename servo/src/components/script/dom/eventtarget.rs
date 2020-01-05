@@ -268,6 +268,9 @@ url
 Url
 ;
 use
+std
+:
+:
 collections
 :
 :
@@ -280,7 +283,7 @@ HashMap
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -295,7 +298,7 @@ Bubbling
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -317,7 +320,7 @@ XMLHttpRequestId
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -370,7 +373,7 @@ listener
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -1995,7 +1998,7 @@ Option
 '
 a
 VirtualMethods
-:
++
 >
 {
 None

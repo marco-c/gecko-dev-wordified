@@ -66,6 +66,9 @@ ast
 *
 ;
 use
+std
+:
+:
 collections
 :
 :
@@ -265,7 +268,7 @@ Some
 (
 value
 .
-into_owned
+into_string
 (
 )
 )

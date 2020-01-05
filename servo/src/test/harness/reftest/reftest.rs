@@ -165,6 +165,7 @@ test
 :
 :
 {
+AutoColor
 DynTestName
 DynTestFn
 TestDesc
@@ -381,6 +382,9 @@ None
 nocapture
 :
 false
+color
+:
+AutoColor
 }
 ;
 match
@@ -440,7 +444,7 @@ _
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 enum

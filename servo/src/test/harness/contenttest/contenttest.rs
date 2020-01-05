@@ -128,6 +128,7 @@ test
 :
 :
 {
+AutoColor
 TestOpts
 run_tests_console
 TestDesc
@@ -510,6 +511,9 @@ None
 nocapture
 :
 false
+color
+:
+AutoColor
 }
 }
 fn

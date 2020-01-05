@@ -131,10 +131,7 @@ raw
 Slice
 ;
 use
-std
-:
-:
-rt
+rustrt
 :
 :
 local_heap

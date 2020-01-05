@@ -6290,7 +6290,7 @@ self
 Box
 <
 ImageResponder
-:
++
 Send
 >
 {
@@ -6365,7 +6365,7 @@ as
 Box
 <
 ImageResponder
-:
++
 Send
 >
 }

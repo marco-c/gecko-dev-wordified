@@ -201,7 +201,7 @@ chan
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -442,7 +442,7 @@ navigated
 deriving
 (
 Clone
-Eq
+PartialEq
 Hash
 )
 ]
@@ -473,7 +473,7 @@ buttons
 deriving
 (
 Clone
-Eq
+PartialEq
 Hash
 )
 ]
@@ -489,8 +489,8 @@ Back
 deriving
 (
 Clone
+PartialEq
 Eq
-TotalEq
 Hash
 Encodable
 )
@@ -508,8 +508,8 @@ uint
 deriving
 (
 Clone
+PartialEq
 Eq
-TotalEq
 Hash
 Encodable
 )

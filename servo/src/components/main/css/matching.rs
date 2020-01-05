@@ -442,7 +442,7 @@ entry_declarations
 }
 }
 impl
-Eq
+PartialEq
 for
 ApplicableDeclarationsCacheEntry
 {
@@ -1054,7 +1054,7 @@ DOMString
 >
 }
 impl
-Eq
+PartialEq
 for
 StyleSharingCandidate
 {

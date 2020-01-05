@@ -244,11 +244,11 @@ u32
 [
 deriving
 (
-Eq
+PartialEq
 Clone
+PartialOrd
+Eq
 Ord
-TotalEq
-TotalOrd
 )
 ]
 pub

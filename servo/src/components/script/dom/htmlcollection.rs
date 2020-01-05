@@ -1103,9 +1103,10 @@ traverse_preorder
 (
 )
 .
-count
+filter
 (
 |
+&
 child
 |
 {
@@ -1149,6 +1150,10 @@ root
 )
 )
 }
+)
+.
+count
+(
 )
 as
 u32

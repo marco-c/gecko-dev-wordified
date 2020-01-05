@@ -102,8 +102,8 @@ cmp
 :
 :
 {
-Ord
-Eq
+PartialOrd
+PartialEq
 }
 ;
 use
@@ -614,7 +614,7 @@ flags
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -1744,9 +1744,9 @@ offset
 [
 deriving
 (
-Eq
+PartialEq
 Clone
-TotalEq
+Eq
 )
 ]
 struct
@@ -1779,7 +1779,7 @@ detail_offset
 int
 }
 impl
-Ord
+PartialOrd
 for
 DetailedGlyphRecord
 {
@@ -1807,7 +1807,7 @@ entry_offset
 }
 }
 impl
-TotalOrd
+Ord
 for
 DetailedGlyphRecord
 {

@@ -124,7 +124,7 @@ phase
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]
@@ -163,6 +163,10 @@ native
 extern
 crate
 rand
+;
+extern
+crate
+rustrt
 ;
 extern
 crate

@@ -60,7 +60,7 @@ MPL
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 Encodable
 )

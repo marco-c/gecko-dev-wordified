@@ -139,7 +139,7 @@ png
 [
 phase
 (
-syntax
+plugin
 link
 )
 ]

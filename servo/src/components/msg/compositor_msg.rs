@@ -384,7 +384,7 @@ renderer
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -399,7 +399,7 @@ RenderingRenderState
 [
 deriving
 (
-Eq
+PartialEq
 Clone
 )
 ]
@@ -500,7 +500,7 @@ conditions
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub
@@ -547,7 +547,7 @@ u
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -665,7 +665,7 @@ layer
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

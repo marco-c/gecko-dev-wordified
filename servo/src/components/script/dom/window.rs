@@ -326,6 +326,9 @@ jsval
 JSVal
 ;
 use
+std
+:
+:
 collections
 :
 :
@@ -428,9 +431,9 @@ Url
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
-TotalEq
+Eq
 )
 ]
 pub

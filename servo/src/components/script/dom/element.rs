@@ -588,7 +588,7 @@ reflector
 [
 deriving
 (
-Eq
+PartialEq
 Encodable
 )
 ]
@@ -6084,7 +6084,7 @@ Option
 '
 a
 VirtualMethods
-:
++
 >
 {
 let
@@ -6110,7 +6110,7 @@ node
 as
 &
 VirtualMethods
-:
++
 )
 }
 fn

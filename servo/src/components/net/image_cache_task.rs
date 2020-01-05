@@ -419,7 +419,7 @@ ImageNotReady
 ImageFailed
 }
 impl
-Eq
+PartialEq
 for
 ImageResponseMsg
 {

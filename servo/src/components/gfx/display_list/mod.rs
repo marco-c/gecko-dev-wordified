@@ -261,10 +261,10 @@ text
 TextRun
 ;
 use
+std
+:
+:
 collections
-:
-:
-deque
 :
 :
 Deque
@@ -471,7 +471,7 @@ invariant
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub
@@ -543,7 +543,7 @@ E
 deriving
 (
 Clone
-Eq
+PartialEq
 )
 ]
 pub

@@ -534,7 +534,7 @@ requests
 [
 deriving
 (
-Eq
+PartialEq
 )
 ]
 pub

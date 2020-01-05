@@ -57,7 +57,13 @@ MPL
 *
 /
 use
+std
+:
+:
 collections
+:
+:
+hashmap
 :
 :
 HashMap
