@@ -8940,6 +8940,7 @@ nsAString
 aResult
 )
 const
+override
 {
 return
 MakeFrameName
