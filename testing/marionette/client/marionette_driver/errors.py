@@ -56,14 +56,6 @@ MPL
 import
 traceback
 class
-InstallGeckoError
-(
-Exception
-)
-:
-    
-pass
-class
 MarionetteException
 (
 Exception
