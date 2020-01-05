@@ -235,6 +235,17 @@ GetOriginQuotaUsage
 const
 override
 ;
+bool
+IsForkOf
+(
+const
+Storage
+*
+aStorage
+)
+const
+override
+;
 /
 /
 WebIDL
