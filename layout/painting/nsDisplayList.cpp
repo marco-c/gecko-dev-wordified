@@ -21812,6 +21812,7 @@ LayersAllowBackgroundImage
 &
 CanBuildWebRenderDisplayItems
 (
+aManager
 )
 )
 {
@@ -22233,6 +22234,9 @@ nsDisplayBackgroundImage
 :
 CanBuildWebRenderDisplayItems
 (
+LayerManager
+*
+aManager
 )
 {
 return
@@ -22260,6 +22264,7 @@ nsCSSRendering
 :
 CanBuildWebRenderDisplayItemsForStyleImageLayer
 (
+aManager
 *
 mFrame
 -
