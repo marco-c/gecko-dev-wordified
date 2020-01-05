@@ -128,6 +128,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 typedef
 int
 (
