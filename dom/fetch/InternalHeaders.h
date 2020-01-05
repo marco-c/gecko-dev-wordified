@@ -622,6 +622,14 @@ ErrorResult
 aRv
 )
 ;
+void
+FillResponseHeaders
+(
+nsIRequest
+*
+aRequest
+)
+;
 bool
 HasOnlySimpleHeaders
 (
