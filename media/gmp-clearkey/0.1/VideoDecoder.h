@@ -326,11 +326,13 @@ IMFSample
 *
 aSample
 int32_t
-aWidth
+aPictureWidth
 int32_t
-aHeight
+aPictureHeight
 int32_t
 aStride
+int32_t
+aFrameHeight
 cdm
 :
 :
