@@ -3090,7 +3090,7 @@ true
 ;
 try
 {
-containerEnabled
+containersEnabled
 =
 Services
 .
