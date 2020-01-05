@@ -3085,6 +3085,7 @@ data
 .
 *
 /
+public
 void
 setSiteIdentity
 (
