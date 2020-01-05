@@ -1180,6 +1180,7 @@ kidWritingMode
 =
 GetWritingMode
 (
+wm
 kid
 )
 ;
