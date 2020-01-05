@@ -225,7 +225,7 @@ static
 const
 char
 *
-GetValidatedAppInfo
+GetValidatedOriginAttributes
 (
 const
 SerializedLoadContext
