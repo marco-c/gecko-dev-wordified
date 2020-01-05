@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIAppsService
-.
-h
-"
-#
-include
-"
 nsIInputStreamChannel
 .
 h

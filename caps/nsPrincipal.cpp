@@ -284,13 +284,6 @@ HashFunctions
 .
 h
 "
-#
-include
-"
-nsIAppsService
-.
-h
-"
 using
 namespace
 mozilla
