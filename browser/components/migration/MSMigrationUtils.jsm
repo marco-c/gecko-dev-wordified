@@ -3553,7 +3553,7 @@ aFile
 .
 then
 (
-aFile
+file
 =
 >
 {
@@ -3689,7 +3689,7 @@ fileReader
 .
 readAsText
 (
-aFile
+file
 )
 ;
 }
