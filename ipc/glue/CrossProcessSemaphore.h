@@ -322,8 +322,10 @@ unused
 *
 *
 /
-explicit
+static
 CrossProcessSemaphore
+*
+Create
 (
 const
 char
@@ -357,8 +359,10 @@ opened
 .
 *
 /
-explicit
+static
 CrossProcessSemaphore
+*
+Create
 (
 CrossProcessSemaphoreHandle
 aHandle
@@ -551,6 +555,13 @@ defined
 (
 OS_WIN
 )
+explicit
+CrossProcessSemaphore
+(
+HANDLE
+aSemaphore
+)
+;
 HANDLE
 mSemaphore
 ;
