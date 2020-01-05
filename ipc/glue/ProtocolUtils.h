@@ -433,6 +433,11 @@ message
 .
 enum
 {
+BUILD_ID_MESSAGE_TYPE
+=
+kuint16max
+-
+7
 CHANNEL_OPENED_MESSAGE_TYPE
 =
 kuint16max
