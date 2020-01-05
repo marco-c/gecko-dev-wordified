@@ -97,16 +97,6 @@ enabled
 "
 true
 ]
-[
-"
-browser
-.
-reader
-.
-detectedFirstArticle
-"
-false
-]
 ]
 ;
 const

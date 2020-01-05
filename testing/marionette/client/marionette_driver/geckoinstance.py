@@ -3373,25 +3373,6 @@ capturing_disabled
 True
         
 #
-Avoid
-performing
-Reader
-Mode
-intros
-during
-tests
-        
-"
-browser
-.
-reader
-.
-detectedFirstArticle
-"
-:
-True
-        
-#
 Disable
 safebrowsing
 components
