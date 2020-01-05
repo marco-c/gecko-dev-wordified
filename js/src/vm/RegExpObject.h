@@ -829,6 +829,9 @@ by
 JIT
 code
 .
+using
+JitCodeTables
+=
 Vector
 <
 uint8_t
@@ -836,6 +839,8 @@ uint8_t
 0
 SystemAllocPolicy
 >
+;
+JitCodeTables
 tables
 ;
 /
@@ -957,6 +962,8 @@ public
 RegExpShared
 (
 )
+=
+delete
 ;
 /
 /
@@ -1241,6 +1248,14 @@ trc
 void
 discardJitCode
 (
+)
+;
+void
+finalize
+(
+FreeOp
+*
+fop
 )
 ;
 static
