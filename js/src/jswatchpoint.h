@@ -514,13 +514,6 @@ JSObject
 obj
 jsid
 id
-JSWatchPointHandler
-*
-handlerp
-JSObject
-*
-*
-closurep
 )
 ;
 void
