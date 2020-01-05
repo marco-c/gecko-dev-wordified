@@ -1028,7 +1028,7 @@ SupportsAzureContentForDrawTarget
 .
 *
 /
-virtual
+static
 already_AddRefed
 <
 DrawTarget

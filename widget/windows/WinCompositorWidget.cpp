@@ -1357,11 +1357,6 @@ drawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mTransparentSurface

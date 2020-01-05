@@ -5666,6 +5666,11 @@ endif
 #
 endif
 }
+/
+*
+static
+*
+/
 already_AddRefed
 <
 DrawTarget
