@@ -26387,9 +26387,8 @@ group
 group
 -
 >
-setNewScript
+detachNewScript
 (
-nullptr
 )
 ;
 initialGroup
