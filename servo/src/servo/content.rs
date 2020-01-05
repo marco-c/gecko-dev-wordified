@@ -56,6 +56,8 @@ comm
 :
 :
 {
+Port
+Chan
 port
 chan
 listen
@@ -509,7 +511,7 @@ sink
 S
 from_master
 :
-port
+Port
 <
 ControlMsg
 >
@@ -1366,7 +1368,7 @@ ResourceTask
 )
 -
 >
-chan
+Chan
 <
 ControlMsg
 >
