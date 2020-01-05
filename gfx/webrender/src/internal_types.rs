@@ -502,6 +502,7 @@ RenderTasks
 Geometry
 ResourceRects
 Gradients
+SplitGeometry
 Dither
 }
 impl

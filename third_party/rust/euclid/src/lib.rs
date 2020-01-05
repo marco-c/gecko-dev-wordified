@@ -162,7 +162,6 @@ are
 generic
 over
 the
-the
 scalar
 type
 of
@@ -870,6 +869,7 @@ pub
 mod
 size
 ;
+pub
 mod
 trig
 ;
