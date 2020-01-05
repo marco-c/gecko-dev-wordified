@@ -162,7 +162,7 @@ the
 callback
 process
 .
-runUpdateUsingUpdater
+runUpdate
 (
 STATE_FAILED_MAR_CHANNEL_MISMATCH_ERROR
 false
@@ -173,6 +173,7 @@ USE_EXECV
 :
 1
 )
+false
 )
 ;
 }

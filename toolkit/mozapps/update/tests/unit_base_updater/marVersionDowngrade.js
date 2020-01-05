@@ -161,7 +161,7 @@ the
 callback
 process
 .
-runUpdateUsingUpdater
+runUpdate
 (
 STATE_FAILED_VERSION_DOWNGRADE_ERROR
 false
@@ -172,6 +172,7 @@ USE_EXECV
 :
 1
 )
+false
 )
 ;
 }

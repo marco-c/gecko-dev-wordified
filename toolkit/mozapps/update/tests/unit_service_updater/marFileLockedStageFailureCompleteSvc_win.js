@@ -131,6 +131,7 @@ waitForHelperSleepFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }

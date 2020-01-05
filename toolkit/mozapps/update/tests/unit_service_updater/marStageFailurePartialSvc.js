@@ -147,6 +147,7 @@ setupUpdaterTestFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }

@@ -151,6 +151,7 @@ waitForHelperSleepFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }
@@ -186,7 +187,7 @@ true
 ;
 checkUpdateLogContents
 (
-LOG_PARTIAL_SUCCESS_STAGE
+LOG_PARTIAL_SUCCESS
 true
 )
 ;
@@ -205,10 +206,10 @@ updated
 .
 runUpdate
 (
-STATE_PENDING
+STATE_AFTER_RUNUPDATE
 true
 1
-false
+true
 )
 ;
 }
