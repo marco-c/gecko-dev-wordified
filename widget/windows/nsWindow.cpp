@@ -34674,6 +34674,12 @@ break
 case
 MOZ_WM_STARTA11Y
 :
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 (
 void
 *
@@ -34686,6 +34692,14 @@ result
 =
 true
 ;
+#
+else
+result
+=
+false
+;
+#
+endif
 break
 ;
 case
