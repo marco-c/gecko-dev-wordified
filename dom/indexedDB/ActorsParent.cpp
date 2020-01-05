@@ -7189,7 +7189,7 @@ rv
 stmt
 -
 >
-BindStringParameter
+BindStringByIndex
 (
 0
 name
@@ -7215,7 +7215,7 @@ rv
 stmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 intVersion
@@ -7241,7 +7241,7 @@ rv
 stmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 2
 dataVersion
