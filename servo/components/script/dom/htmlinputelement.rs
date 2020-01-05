@@ -3451,6 +3451,7 @@ elem
 .
 get_attribute
 (
+&
 ns
 !
 (

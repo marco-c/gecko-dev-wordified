@@ -1649,6 +1649,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -1676,6 +1677,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -1829,6 +1831,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -1928,6 +1931,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -3127,6 +3131,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -3262,6 +3267,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
