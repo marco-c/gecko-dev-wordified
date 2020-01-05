@@ -556,6 +556,8 @@ getActivityStreamTopSites
 Context
 context
 int
+suggestedRangeLimit
+int
 limit
 )
 ;
