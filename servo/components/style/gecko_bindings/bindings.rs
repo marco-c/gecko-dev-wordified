@@ -1558,6 +1558,15 @@ structs
 :
 LengthParsingMode
 ;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
+InheritTarget
+;
 pub
 type
 nsTArrayBorrowed_uintptr_t
@@ -11790,6 +11799,9 @@ RawServoStyleSetBorrowed
 parent_style
 :
 ServoComputedValuesBorrowedOrNull
+target
+:
+InheritTarget
 )
 -
 >
