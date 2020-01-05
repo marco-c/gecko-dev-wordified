@@ -191,7 +191,7 @@ findElement
 (
 dbg
 "
-sourceFooter
+editorFooter
 "
 )
 "
@@ -220,7 +220,7 @@ findElement
 (
 dbg
 "
-sourceFooter
+editorFooter
 "
 )
 "
