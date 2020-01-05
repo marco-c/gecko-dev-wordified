@@ -1934,6 +1934,11 @@ void
 aClosure
 )
 ;
+void
+Unlink
+(
+)
+;
 nsCOMPtr
 <
 nsIXPConnectJSObjectHolder
