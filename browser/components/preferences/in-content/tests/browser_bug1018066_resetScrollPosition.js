@@ -103,6 +103,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneApplications
 "
+undefined
 {
 leaveOpen
 :
