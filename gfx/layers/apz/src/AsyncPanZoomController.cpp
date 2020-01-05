@@ -6730,10 +6730,7 @@ Units
 >
 GetAxisStart
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 PointTyped
@@ -6749,7 +6746,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -6782,10 +6779,7 @@ Units
 >
 GetAxisStart
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 RectTyped
@@ -6801,7 +6795,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -6834,10 +6828,7 @@ Units
 >
 GetAxisStart
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 IntRectTyped
@@ -6853,7 +6844,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -6886,10 +6877,7 @@ Units
 >
 GetAxisEnd
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 RectTyped
@@ -6905,7 +6893,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -6946,10 +6934,7 @@ Units
 >
 GetAxisLength
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 RectTyped
@@ -6965,7 +6950,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -6997,10 +6982,7 @@ static
 float
 GetAxisScale
 (
-AsyncDragMetrics
-:
-:
-DragDirection
+ScrollDirection
 aDir
 const
 ScaleFactors2D
@@ -7017,7 +6999,7 @@ if
 aDir
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -7317,7 +7299,7 @@ aDragMetrics
 mDirection
 =
 =
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
