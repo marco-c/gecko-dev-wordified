@@ -3200,10 +3200,7 @@ context
 pub
 clip
 :
-Rect
-<
-Au
->
+ClippingRegion
 /
 /
 /
