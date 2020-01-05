@@ -2506,7 +2506,6 @@ Page
 document
 :
 &
-mut
 JSRef
 <
 Document
@@ -4112,7 +4111,6 @@ Both
 required
 .
 let
-mut
 tmp_borrow
 =
 doc_cell
@@ -4125,7 +4123,6 @@ let
 tmp
 =
 &
-mut
 *
 tmp_borrow
 ;
@@ -4168,7 +4165,6 @@ Both
 required
 .
 let
-mut
 tmp_borrow
 =
 doc_cell
@@ -4181,7 +4177,6 @@ let
 tmp
 =
 &
-mut
 *
 tmp_borrow
 ;

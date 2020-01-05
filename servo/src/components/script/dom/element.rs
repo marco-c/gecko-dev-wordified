@@ -6231,7 +6231,6 @@ attr
 >
 {
 let
-mut
 doc
 =
 document_from_node
@@ -6244,6 +6243,10 @@ root
 )
 ;
 doc
+.
+deref
+(
+)
 .
 register_named_element
 (
@@ -6322,7 +6325,6 @@ attr
 >
 {
 let
-mut
 doc
 =
 document_from_node
@@ -6335,6 +6337,10 @@ root
 )
 ;
 doc
+.
+deref
+(
+)
 .
 unregister_named_element
 (

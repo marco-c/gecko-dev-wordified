@@ -381,7 +381,6 @@ fn
 SetOnunload
 (
 &
-mut
 self
 listener
 :
@@ -445,7 +444,6 @@ fn
 SetOnunload
 (
 &
-mut
 self
 listener
 :
@@ -456,7 +454,6 @@ EventHandlerNonNull
 )
 {
 let
-mut
 win
 =
 window_from_node
@@ -469,6 +466,10 @@ root
 )
 ;
 win
+.
+deref
+(
+)
 .
 SetOnunload
 (

@@ -10437,7 +10437,6 @@ fn
 SetNodeValue
 (
 &
-mut
 self
 val
 :
@@ -10467,7 +10466,6 @@ fn
 SetTextContent
 (
 &
-mut
 self
 value
 :
@@ -11796,7 +11794,6 @@ fn
 SetNodeValue
 (
 &
-mut
 self
 val
 :
@@ -12046,7 +12043,6 @@ fn
 SetTextContent
 (
 &
-mut
 self
 value
 :

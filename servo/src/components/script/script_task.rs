@@ -7339,7 +7339,6 @@ root
 )
 ;
 let
-mut
 document
 =
 Document
@@ -7473,7 +7472,6 @@ parse_html
 *
 page
 &
-mut
 *
 document
 url
@@ -7689,6 +7687,10 @@ the
 page
 .
 document
+.
+deref
+(
+)
 .
 content_changed
 (
