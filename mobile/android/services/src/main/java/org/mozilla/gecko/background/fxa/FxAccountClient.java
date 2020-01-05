@@ -136,6 +136,8 @@ gecko
 .
 fxa
 .
+devices
+.
 FxAccountDevice
 ;
 import
