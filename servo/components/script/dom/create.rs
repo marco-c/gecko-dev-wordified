@@ -198,6 +198,15 @@ use
 dom
 :
 :
+htmldetailselement
+:
+:
+HTMLDetailsElement
+;
+use
+dom
+:
+:
 htmldialogelement
 :
 :
@@ -1463,7 +1472,7 @@ details
 make
 !
 (
-HTMLElement
+HTMLDetailsElement
 )
 atom
 !

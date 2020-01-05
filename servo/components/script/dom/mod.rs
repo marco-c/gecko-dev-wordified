@@ -2693,6 +2693,10 @@ htmldatalistelement
 ;
 pub
 mod
+htmldetailselement
+;
+pub
+mod
 htmldialogelement
 ;
 pub
