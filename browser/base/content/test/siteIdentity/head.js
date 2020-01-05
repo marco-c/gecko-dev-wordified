@@ -1485,8 +1485,6 @@ active
 loaded
 .
 svg
-#
-icon
 \
 "
 )
@@ -1582,8 +1580,6 @@ passive
 loaded
 .
 svg
-#
-icon
 \
 "
 )
@@ -1630,8 +1626,6 @@ passive
 loaded
 .
 svg
-#
-icon
 \
 "
 )

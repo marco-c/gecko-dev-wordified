@@ -477,8 +477,6 @@ active
 loaded
 .
 svg
-#
-icon
 \
 "
 )
