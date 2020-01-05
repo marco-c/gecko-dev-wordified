@@ -121,6 +121,13 @@ PartialSHistory
 .
 h
 "
+#
+include
+"
+nsIWebNavigation
+.
+h
+"
 namespace
 mozilla
 {
