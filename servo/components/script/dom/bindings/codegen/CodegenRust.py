@@ -4467,10 +4467,6 @@ None
 declType
 =
 None
-                 
-needsRooting
-=
-False
 )
 :
         
@@ -4572,21 +4568,6 @@ as
 is
 .
         
-needsRooting
-:
-A
-boolean
-indicating
-whether
-the
-caller
-has
-to
-root
-                      
-the
-result
-        
 "
 "
 "
@@ -4626,12 +4607,6 @@ self
 declType
 =
 declType
-        
-self
-.
-needsRooting
-=
-needsRooting
 def
 getJSToNativeConversionInfo
 (
@@ -5256,14 +5231,6 @@ failOrPropagate
 =
 failureCode
     
-needsRooting
-=
-typeNeedsRooting
-(
-type
-descriptorProvider
-)
-    
 def
 handleOptional
 (
@@ -5293,9 +5260,6 @@ JSToNativeConversionInfo
 template
 default
 declType
-needsRooting
-=
-needsRooting
 )
     
 #
@@ -8365,9 +8329,6 @@ JSToNativeConversionInfo
 template
 default
 finalDeclType
-needsRooting
-=
-needsRooting
 )
     
 if
@@ -8940,9 +8901,6 @@ JSToNativeConversionInfo
 "
 None
 None
-needsRooting
-=
-False
 )
     
 if
