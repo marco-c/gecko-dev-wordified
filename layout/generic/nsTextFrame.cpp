@@ -65324,9 +65324,10 @@ false
 )
 ;
 aStatus
-|
-=
-NS_INLINE_BREAK_FIRST_LETTER_COMPLETE
+.
+SetFirstLetterComplete
+(
+)
 ;
 }
 /

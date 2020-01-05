@@ -31491,10 +31491,10 @@ if
 (
 (
 !
-(
 frameReflowStatus
-&
-NS_INLINE_BREAK_FIRST_LETTER_COMPLETE
+.
+FirstLetterComplete
+(
 )
 &
 &
