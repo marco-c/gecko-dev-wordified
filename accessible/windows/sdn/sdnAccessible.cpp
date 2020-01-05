@@ -123,7 +123,7 @@ h
 #
 include
 "
-ISimpleDOMNode_i
+ISimpleDOM_i
 .
 c
 "

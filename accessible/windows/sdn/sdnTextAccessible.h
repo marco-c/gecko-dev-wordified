@@ -120,7 +120,7 @@ mozilla_a11y_sdnTextAccessible_h_
 #
 include
 "
-ISimpleDOMText
+ISimpleDOM
 .
 h
 "
