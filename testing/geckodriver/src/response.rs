@@ -40,6 +40,9 @@ GoBack
 GoForward
 Refresh
 GetTitle
+GetWindowHandle
+GetWindowHandles
+Close
 }
 ;
 use
@@ -334,6 +337,8 @@ GoBack
 GoForward
 |
 Refresh
+|
+Close
 =
 >
 {
@@ -380,6 +385,10 @@ property
 GetCurrentUrl
 |
 GetTitle
+|
+GetWindowHandle
+|
+GetWindowHandles
 =
 >
 {
