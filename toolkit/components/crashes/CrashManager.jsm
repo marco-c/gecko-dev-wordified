@@ -2932,7 +2932,9 @@ telemetry
 ping
 for
 each
-content
+non
+-
+main
 process
 crash
 if
@@ -2944,6 +2946,15 @@ processType
 this
 .
 PROCESS_TYPE_CONTENT
+|
+|
+processType
+=
+=
+=
+this
+.
+PROCESS_TYPE_GPU
 )
 {
 this

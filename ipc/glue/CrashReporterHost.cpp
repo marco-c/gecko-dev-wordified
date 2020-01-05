@@ -834,6 +834,15 @@ nsICrashService
 :
 :
 PROCESS_TYPE_CONTENT
+|
+|
+mProcessType
+=
+=
+nsICrashService
+:
+:
+PROCESS_TYPE_GPU
 )
 {
 CrashReporter
