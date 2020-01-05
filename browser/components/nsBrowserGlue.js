@@ -290,6 +290,9 @@ false
 DirectoryLinksProvider
 :
 false
+ExtensionsUI
+:
+false
 Feeds
 :
 false
