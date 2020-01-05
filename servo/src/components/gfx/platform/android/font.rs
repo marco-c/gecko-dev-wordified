@@ -1218,6 +1218,7 @@ is_not_null
 )
 ;
 let
+mut
 delta
 =
 struct_FT_Vector_
@@ -1241,6 +1242,7 @@ first_glyph
 second_glyph
 FT_KERNING_DEFAULT
 &
+mut
 delta
 )
 ;
