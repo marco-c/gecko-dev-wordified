@@ -2201,6 +2201,7 @@ media
 NewRunnableFrom
 (
 [
+this
 that
 aPrefs
 ]
@@ -2208,9 +2209,6 @@ aPrefs
 )
 mutable
 {
-that
--
->
 mSettings
 .
 mEchoCancellation
@@ -2223,9 +2221,6 @@ aPrefs
 .
 mAecOn
 ;
-that
--
->
 mSettings
 .
 mMozAutoGainControl
@@ -2238,9 +2233,6 @@ aPrefs
 .
 mAgcOn
 ;
-that
--
->
 mSettings
 .
 mMozNoiseSuppression
