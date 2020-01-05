@@ -400,8 +400,8 @@ Shutdown
 )
 override
 ;
-void
-DumpDebugInfo
+nsCString
+GetDebugInfo
 (
 )
 override

@@ -243,9 +243,6 @@ DecodedStream
 AbstractThread
 *
 aOwnerThread
-AbstractThread
-*
-aMainThread
 MediaQueue
 <
 MediaData
@@ -411,8 +408,8 @@ IsPlaying
 const
 override
 ;
-void
-DumpDebugInfo
+nsCString
+GetDebugInfo
 (
 )
 override
@@ -511,13 +508,6 @@ RefPtr
 AbstractThread
 >
 mOwnerThread
-;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
 ;
 /
 *
