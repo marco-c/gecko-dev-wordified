@@ -1457,6 +1457,12 @@ IsPresenting
 const
 ;
 bool
+IsAnyPresenting
+(
+)
+const
+;
+bool
 IsConnected
 (
 )

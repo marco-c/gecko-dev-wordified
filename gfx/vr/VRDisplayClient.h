@@ -268,6 +268,9 @@ VRDisplayInfo
 mDisplayInfo
 ;
 bool
+bLastEventWasMounted
+;
+bool
 bLastEventWasPresenting
 ;
 TimeStamp

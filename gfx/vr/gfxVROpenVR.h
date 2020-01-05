@@ -375,6 +375,11 @@ UpdateStageParameters
 (
 )
 ;
+void
+PollEvents
+(
+)
+;
 }
 ;
 class
