@@ -4625,6 +4625,8 @@ overlay_share_send_other
 ;
 resolveInfo
 .
+activityInfo
+.
 icon
 =
 R
