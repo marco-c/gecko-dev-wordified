@@ -3904,7 +3904,10 @@ up
 with
 rendering
 .
-int64_t
+media
+:
+:
+TimeUnit
 mLowAudioThresholdUsecs
 ;
 /
