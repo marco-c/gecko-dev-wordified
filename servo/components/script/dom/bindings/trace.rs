@@ -647,10 +647,7 @@ use
 layout_interface
 :
 :
-{
-LayoutChan
 LayoutRPC
-}
 ;
 use
 libc
@@ -2362,12 +2359,6 @@ no_jsmanaged_fields
 (
 Headers
 Method
-)
-;
-no_jsmanaged_fields
-!
-(
-LayoutChan
 )
 ;
 no_jsmanaged_fields

@@ -1082,7 +1082,6 @@ layout_interface
 :
 :
 {
-LayoutChan
 Msg
 ReflowQueryType
 }
@@ -3755,14 +3754,6 @@ mode
 =
 Quirks
 {
-let
-LayoutChan
-(
-ref
-layout_chan
-)
-=
-*
 self
 .
 window
@@ -3770,8 +3761,6 @@ window
 layout_chan
 (
 )
-;
-layout_chan
 .
 send
 (
