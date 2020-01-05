@@ -16648,6 +16648,7 @@ str
 :
 :
 {
+ByteString
 DOMString
 USVString
 }
@@ -30557,6 +30558,26 @@ name
 "
 *
 /
+"
+    
+elif
+type
+.
+isByteString
+(
+)
+:
+        
+name
+=
+type
+.
+name
+        
+typeName
+=
+"
+ByteString
 "
     
 elif
