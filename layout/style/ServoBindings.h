@@ -1303,6 +1303,13 @@ CascadeLevel
 aCascadeLevel
 )
 ;
+bool
+Gecko_StyleAnimationsEquals
+(
+RawGeckoStyleAnimationListBorrowed
+RawGeckoStyleAnimationListBorrowed
+)
+;
 /
 /
 Atoms
