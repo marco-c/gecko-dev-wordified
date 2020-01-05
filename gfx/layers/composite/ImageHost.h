@@ -430,6 +430,9 @@ virtual
 void
 Composite
 (
+Compositor
+*
+aCompositor
 LayerComposite
 *
 aLayer

@@ -1358,6 +1358,9 @@ virtual
 void
 Composite
 (
+Compositor
+*
+aCompositor
 LayerComposite
 *
 aLayer
@@ -1527,6 +1530,9 @@ RenderLayerBuffer
 TiledLayerBufferComposite
 &
 aLayerBuffer
+Compositor
+*
+aCompositor
 const
 gfx
 :
@@ -1585,6 +1591,9 @@ RenderTile
 TileHost
 &
 aTile
+Compositor
+*
+aCompositor
 EffectChain
 &
 aEffectChain
