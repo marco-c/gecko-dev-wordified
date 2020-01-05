@@ -17545,6 +17545,7 @@ length
 whitespace_start
 ;
 let
+mut
 whitespace_range
 =
 Range
@@ -17554,6 +17555,19 @@ new
 (
 whitespace_start
 whitespace_len
+)
+;
+whitespace_range
+.
+shift_by
+(
+scanned_text_fragment_info
+.
+range
+.
+begin
+(
+)
 )
 ;
 let
