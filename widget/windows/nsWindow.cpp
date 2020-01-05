@@ -41861,6 +41861,10 @@ DispatchFocusToTopLevelWindow
 true
 )
 ;
+mLastSizeMode
+=
+mSizeMode
+;
 /
 /
 Skip
