@@ -322,8 +322,6 @@ rgba
 25
 )
 ;
-%
-endif
 -
 -
 toolbarbutton
@@ -379,6 +377,8 @@ rgba
 )
 inset
 ;
+%
+endif
 -
 -
 toolbarbutton

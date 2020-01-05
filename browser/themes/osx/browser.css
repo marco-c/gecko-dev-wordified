@@ -406,8 +406,6 @@ repeat
 -
 x
 ;
-%
-endif
 -
 -
 toolbarbutton
@@ -532,6 +530,8 @@ hsla
 )
 inset
 ;
+%
+endif
 -
 -
 toolbarbutton
