@@ -1417,6 +1417,9 @@ scheme
 Equals
 (
 aScheme
+nsCaseInsensitiveCStringComparator
+(
+)
 )
 )
 {
