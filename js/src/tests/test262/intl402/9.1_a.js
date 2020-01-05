@@ -93,7 +93,9 @@ defaultLocale
 ]
 )
 ;
-if
+assert
+.
+notSameValue
 (
 supportedLocales
 .
@@ -101,15 +103,8 @@ indexOf
 (
 defaultLocale
 )
-=
-=
-=
 -
 1
-)
-{
-ERROR
-(
 "
 Default
 locale
@@ -122,7 +117,6 @@ available
 "
 )
 ;
-}
 }
 )
 ;

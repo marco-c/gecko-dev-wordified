@@ -131,17 +131,12 @@ resolvedOptions
 .
 locale
 ;
-if
+assert
 (
-!
 isCanonicalizedStructurallyValidLanguageTag
 (
 locale
 )
-)
-{
-ERROR
-(
 "
 DateTimeFormat
 returns
@@ -156,7 +151,6 @@ locale
 "
 )
 ;
-}
 reportCompare
 (
 0

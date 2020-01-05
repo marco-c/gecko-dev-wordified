@@ -93,7 +93,9 @@ an
 Intl
 .
 DateTimeFormat
-if
+assert
+.
+sameValue
 (
 typeof
 Intl
@@ -106,16 +108,9 @@ format
 (
 0
 )
-!
-=
-=
 "
 string
 "
-)
-{
-ERROR
-(
 "
 Intl
 .
@@ -130,9 +125,6 @@ object
 that
 has
 been
-"
-+
-"
 initialized
 as
 an
@@ -142,7 +134,6 @@ DateTimeFormat
 "
 )
 ;
-}
 reportCompare
 (
 0

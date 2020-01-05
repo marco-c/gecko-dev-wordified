@@ -124,17 +124,12 @@ resolvedOptions
 .
 locale
 ;
-if
+assert
 (
-!
 isCanonicalizedStructurallyValidLanguageTag
 (
 locale
 )
-)
-{
-ERROR
-(
 "
 Constructor
 returns
@@ -149,7 +144,6 @@ locale
 "
 )
 ;
-}
 return
 true
 ;

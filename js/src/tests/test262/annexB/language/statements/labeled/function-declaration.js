@@ -75,6 +75,16 @@ g
 )
 {
 }
+label1
+:
+label2
+:
+function
+f
+(
+)
+{
+}
 reportCompare
 (
 0

@@ -89,7 +89,9 @@ an
 Intl
 .
 Collator
-if
+assert
+.
+sameValue
 (
 Intl
 .
@@ -106,14 +108,7 @@ a
 a
 "
 )
-!
-=
-=
 0
-)
-{
-ERROR
-(
 "
 Intl
 .
@@ -127,9 +122,6 @@ object
 that
 has
 been
-"
-+
-"
 initialized
 as
 an
@@ -140,7 +132,6 @@ Collator
 "
 )
 ;
-}
 reportCompare
 (
 0

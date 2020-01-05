@@ -56,7 +56,9 @@ Lindenberg
 -
 *
 /
-if
+assert
+.
+sameValue
 (
 Object
 .
@@ -64,16 +66,9 @@ getPrototypeOf
 (
 Intl
 )
-!
-=
-=
 Object
 .
 prototype
-)
-{
-ERROR
-(
 "
 Intl
 doesn
@@ -90,7 +85,6 @@ prototype
 "
 )
 ;
-}
 reportCompare
 (
 0
