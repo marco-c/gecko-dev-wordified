@@ -456,6 +456,13 @@ WebRenderCommand
 &
 &
 aCommands
+InfallibleTArray
+<
+OpDestroy
+>
+&
+&
+aToDestroy
 const
 uint64_t
 &
@@ -479,6 +486,13 @@ WebRenderCommand
 &
 &
 aCommands
+InfallibleTArray
+<
+OpDestroy
+>
+&
+&
+aToDestroy
 const
 uint64_t
 &
