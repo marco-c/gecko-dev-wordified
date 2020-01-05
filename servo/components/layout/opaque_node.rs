@@ -86,13 +86,7 @@ use
 script
 :
 :
-dom
-:
-:
-bindings
-:
-:
-js
+layout_interface
 :
 :
 LayoutJS
@@ -101,10 +95,7 @@ use
 script
 :
 :
-dom
-:
-:
-node
+layout_interface
 :
 :
 Node

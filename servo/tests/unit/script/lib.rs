@@ -133,12 +133,6 @@ mod
 dom
 {
 mod
-bindings
-;
-mod
 blob
-;
-mod
-xmlhttprequest
 ;
 }

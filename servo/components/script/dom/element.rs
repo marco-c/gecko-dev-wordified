@@ -99,15 +99,6 @@ dom
 attr
 :
 :
-AttrValue
-;
-use
-dom
-:
-:
-attr
-:
-:
 {
 Attr
 AttrHelpersForLayout
@@ -1008,7 +999,10 @@ style
 attr
 :
 :
+{
+AttrValue
 LengthOrPercentageOrAuto
+}
 ;
 use
 style

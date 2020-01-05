@@ -66,15 +66,6 @@ use
 dom
 :
 :
-attr
-:
-:
-AttrValue
-;
-use
-dom
-:
-:
 bindings
 :
 :
@@ -213,7 +204,10 @@ style
 attr
 :
 :
+{
+AttrValue
 LengthOrPercentageOrAuto
+}
 ;
 const
 DEFAULT_COLSPAN
