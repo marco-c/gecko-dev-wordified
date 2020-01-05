@@ -75,9 +75,11 @@ from
 marionette_harness
 import
 MarionetteTestCase
+WindowManagerMixin
 class
 TestElementsChrome
 (
+WindowManagerMixin
 MarionetteTestCase
 )
 :
@@ -89,11 +91,14 @@ self
 )
 :
         
-MarionetteTestCase
+super
+(
+TestElementsChrome
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -107,16 +112,12 @@ chrome
 "
 )
         
-self
-.
-win
-=
-self
-.
-marionette
-.
-current_window_handle
-        
+def
+open_window_with_js
+(
+)
+:
+            
 self
 .
 marionette
@@ -124,6 +125,9 @@ marionette
 execute_script
 (
 "
+"
+"
+              
 window
 .
 open
@@ -141,6 +145,7 @@ test
 .
 xul
 '
+                          
 '
 foo
 '
@@ -150,7 +155,19 @@ centerscreen
 '
 )
 ;
+            
 "
+"
+"
+)
+        
+win
+=
+self
+.
+open_window
+(
+open_window_with_js
 )
         
 self
@@ -159,23 +176,7 @@ marionette
 .
 switch_to_window
 (
-'
-foo
-'
-)
-        
-self
-.
-assertNotEqual
-(
-self
-.
 win
-self
-.
-marionette
-.
-current_window_handle
 )
     
 def
@@ -187,50 +188,18 @@ self
         
 self
 .
-assertNotEqual
+close_all_windows
 (
-self
-.
-win
-self
-.
-marionette
-.
-current_window_handle
 )
         
-self
-.
-marionette
-.
-execute_script
+super
 (
-"
-window
-.
-close
-(
-)
-;
-"
-)
-        
+TestElementsChrome
 self
-.
-marionette
-.
-switch_to_window
-(
-self
-.
-win
 )
-        
-MarionetteTestCase
 .
 tearDown
 (
-self
 )
     
 def
@@ -525,6 +494,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -606,6 +576,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -753,6 +724,7 @@ self
 assertRaises
 (
 NoSuchElementException
+                          
 self
 .
 marionette
@@ -787,6 +759,7 @@ self
 assertRaises
 (
 NoSuchElementException
+                          
 self
 .
 marionette
@@ -848,6 +821,9 @@ marionette
 execute_script
 (
 "
+"
+"
+            
 window
 .
 setTimeout
@@ -856,6 +832,7 @@ function
 (
 )
 {
+              
 var
 b
 =
@@ -870,6 +847,7 @@ button
 '
 )
 ;
+              
 b
 .
 id
@@ -878,6 +856,7 @@ id
 myid
 '
 ;
+              
 document
 .
 getElementById
@@ -892,9 +871,13 @@ appendChild
 b
 )
 ;
+            
 }
 1000
 )
+;
+"
+"
 "
 )
         
@@ -928,6 +911,12 @@ marionette
 execute_script
 (
 "
+"
+"
+            
+var
+elem
+=
 window
 .
 document
@@ -938,6 +927,9 @@ getElementById
 things
 '
 )
+;
+            
+elem
 .
 removeChild
 (
@@ -953,5 +945,7 @@ myid
 )
 )
 ;
+"
+"
 "
 )
