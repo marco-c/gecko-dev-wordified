@@ -285,6 +285,10 @@ nsIPrincipal
 >
 &
 aWhiteList
+const
+OriginAttributes
+&
+aAttrs
 )
 :
 BasePrincipal
@@ -350,6 +354,10 @@ c
 )
 ;
 }
+mOriginAttributes
+=
+aAttrs
+;
 }
 ExpandedPrincipal
 :
@@ -394,6 +402,7 @@ new
 ExpandedPrincipal
 (
 aWhiteList
+aAttrs
 )
 ;
 ep
@@ -401,7 +410,6 @@ ep
 >
 FinishInit
 (
-aAttrs
 )
 ;
 return

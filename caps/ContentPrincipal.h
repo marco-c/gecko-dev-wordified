@@ -365,6 +365,9 @@ mCodebaseImmutable
 bool
 mDomainImmutable
 ;
+bool
+mInitialized
+;
 protected
 :
 virtual

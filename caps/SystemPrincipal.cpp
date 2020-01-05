@@ -256,9 +256,6 @@ sp
 >
 FinishInit
 (
-OriginAttributes
-(
-)
 )
 ;
 return
