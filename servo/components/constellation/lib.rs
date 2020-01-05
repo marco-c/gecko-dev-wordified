@@ -176,6 +176,10 @@ ipc_channel
 ;
 extern
 crate
+layers
+;
+extern
+crate
 layout_traits
 ;
 #
@@ -216,6 +220,10 @@ script_traits
 ;
 extern
 crate
+serde
+;
+extern
+crate
 style_traits
 ;
 extern
@@ -238,6 +246,9 @@ mod
 constellation
 ;
 mod
+pipeline
+;
+mod
 timer_scheduler
 ;
 pub
@@ -249,4 +260,11 @@ constellation
 Constellation
 InitialConstellationState
 }
+;
+pub
+use
+pipeline
+:
+:
+UnprivilegedPipelineContent
 ;
