@@ -645,11 +645,11 @@ count
 )
 ;
 if
-len
->
 offset
 as
 usize
+>
+len
 {
 /
 /
