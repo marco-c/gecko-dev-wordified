@@ -212,13 +212,6 @@ E2
 80
 %
 93Vo_hash_function
-#
-[
-allow
-(
-missing_copy_implementations
-)
-]
 pub
 struct
 FnvHasher

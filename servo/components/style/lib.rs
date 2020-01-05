@@ -115,14 +115,6 @@ rustc_private
 #
 !
 [
-allow
-(
-missing_copy_implementations
-)
-]
-#
-!
-[
 plugin
 (
 string_cache_plugin
