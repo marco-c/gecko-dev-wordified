@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsXPCOMGlue
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
