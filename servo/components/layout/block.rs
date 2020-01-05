@@ -215,6 +215,7 @@ fragment
 {
 Fragment
 ImageFragment
+InlineBlockFragment
 ScannedTextFragment
 }
 ;
@@ -4710,6 +4711,11 @@ _
 )
 |
 ImageFragment
+(
+_
+)
+|
+InlineBlockFragment
 (
 _
 )
