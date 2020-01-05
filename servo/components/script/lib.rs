@@ -334,10 +334,6 @@ num
 ;
 extern
 crate
-png
-;
-extern
-crate
 rustc_serialize
 ;
 extern
