@@ -4692,6 +4692,7 @@ aNameSpaceID
 nsIAtom
 *
 aName
+const
 nsAttrValueOrString
 *
 aValue
