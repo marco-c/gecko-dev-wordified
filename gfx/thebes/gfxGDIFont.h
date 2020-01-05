@@ -287,9 +287,13 @@ padding
 "
 *
 /
-virtual
+mozilla
+:
+:
+UniquePtr
+<
 gfxFont
-*
+>
 CopyWithAntialiasOption
 (
 AntialiasOption

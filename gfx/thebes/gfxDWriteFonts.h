@@ -213,9 +213,13 @@ UpdateClearTypeUsage
 (
 )
 ;
-virtual
+mozilla
+:
+:
+UniquePtr
+<
 gfxFont
-*
+>
 CopyWithAntialiasOption
 (
 AntialiasOption
