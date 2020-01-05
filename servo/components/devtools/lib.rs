@@ -321,15 +321,6 @@ use
 actors
 :
 :
-object
-:
-:
-ObjectActor
-;
-use
-actors
-:
-:
 root
 :
 :
