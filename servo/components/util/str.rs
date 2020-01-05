@@ -319,9 +319,6 @@ microsyntaxes
 .
 html
 #
-/
-/
-/
 space
 -
 character
