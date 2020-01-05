@@ -190,6 +190,12 @@ this
 void
 RenderLayer
 (
+wr
+:
+:
+DisplayListBuilder
+&
+aBuilder
 )
 override
 ;
@@ -282,6 +288,12 @@ this
 void
 RenderLayer
 (
+wr
+:
+:
+DisplayListBuilder
+&
+aBuilder
 )
 override
 ;
