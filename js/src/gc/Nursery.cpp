@@ -326,8 +326,7 @@ mozilla
 :
 TimeStamp
 ;
-static
-const
+constexpr
 uintptr_t
 CanaryMagicValue
 =
