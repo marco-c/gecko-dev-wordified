@@ -74728,12 +74728,6 @@ aCursor
 ;
 if
 (
-eCSSKeyword_UNKNOWN
-=
-=
-keyword
-|
-|
 !
 nsCSSProps
 :

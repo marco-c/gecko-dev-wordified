@@ -3593,12 +3593,6 @@ alternate
 ;
 if
 (
-key
-=
-=
-eCSSKeyword_UNKNOWN
-|
-|
 !
 nsCSSProps
 :
