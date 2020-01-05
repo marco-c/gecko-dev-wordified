@@ -195,12 +195,6 @@ GetSensorState
 )
 ;
 virtual
-VRHMDSensorState
-GetImmediateSensorState
-(
-)
-;
-virtual
 void
 ZeroSensor
 (

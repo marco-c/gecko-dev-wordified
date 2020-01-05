@@ -204,13 +204,6 @@ GetSensorState
 )
 override
 ;
-virtual
-VRHMDSensorState
-GetImmediateSensorState
-(
-)
-override
-;
 void
 ZeroSensor
 (
