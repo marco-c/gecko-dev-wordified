@@ -189,7 +189,7 @@ elt
 .
 children
 [
-1
+2
 ]
 .
 firstChild
@@ -326,7 +326,7 @@ elt
 .
 children
 [
-1
+2
 ]
 .
 firstChild
