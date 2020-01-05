@@ -2,6 +2,8 @@ import
 os
 import
 shutil
+import
+time
 from
 marionette_harness
 import
@@ -2857,26 +2859,6 @@ profiles
 .
 ini
             
-profileLeafName
-=
-os
-.
-path
-.
-basename
-(
-os
-.
-path
-.
-normpath
-(
-self
-.
-reset_profile_path
-)
-)
-            
 self
 .
 runCode
@@ -2886,22 +2868,12 @@ runCode
 "
               
 let
-[
-salt
 name
-]
 =
 arguments
 [
 0
 ]
-.
-split
-(
-"
-.
-"
-)
 ;
               
 let
@@ -2939,7 +2911,9 @@ flush
 script_args
 =
 [
-profileLeafName
+self
+.
+profileNameToRemove
 ]
 )
             
@@ -2972,6 +2946,37 @@ doReset
 self
 )
 :
+        
+profileName
+=
+"
+marionette
+-
+test
+-
+profile
+-
+"
++
+str
+(
+int
+(
+time
+.
+time
+(
+)
+*
+1000
+)
+)
+        
+self
+.
+profileNameToRemove
+=
+profileName
         
 self
 .
@@ -3018,20 +3023,10 @@ nsIFile
 let
 profileName
 =
-"
-marionette
--
-test
--
-profile
--
-"
-+
-Date
-.
-now
-(
-)
+arguments
+[
+1
+]
 ;
           
 let
@@ -3237,6 +3232,7 @@ instance
 profile
 .
 profile
+profileName
 ]
 )
         
