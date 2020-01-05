@@ -931,6 +931,11 @@ onViewSourceInScratchpad
 serviceContainer
 .
 onViewSourceInScratchpad
+sourceMapService
+:
+serviceContainer
+.
+sourceMapService
 }
 )
 )

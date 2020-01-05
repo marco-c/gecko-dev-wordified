@@ -247,6 +247,21 @@ onViewSourceInScratchpad
 PropTypes
 .
 func
+/
+/
+Service
+to
+enable
+the
+source
+map
+feature
+.
+sourceMapService
+:
+PropTypes
+.
+object
 }
 render
 (
@@ -257,6 +272,7 @@ let
 stacktrace
 onViewSourceInDebugger
 onViewSourceInScratchpad
+sourceMapService
 }
 =
 this
@@ -407,6 +423,7 @@ source
 onViewSourceInScratchpad
 :
 onViewSourceInDebugger
+sourceMapService
 }
 )
 "
