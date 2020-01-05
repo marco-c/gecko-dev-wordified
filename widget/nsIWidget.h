@@ -7930,7 +7930,7 @@ Create
 *
 *
 param
-anIconSpec
+aIconSpec
 string
 specifying
 the
@@ -7941,8 +7941,8 @@ use
 convention
 is
 to
-pass
 *
+pass
 a
 resource
 :
@@ -7953,8 +7953,8 @@ a
 platform
 -
 dependent
-resource
 *
+resource
 file
 name
 will
@@ -7962,13 +7962,14 @@ be
 constructed
 *
 /
-NS_IMETHOD
+virtual
+void
 SetIcon
 (
 const
 nsAString
 &
-anIconSpec
+aIconSpec
 )
 =
 0

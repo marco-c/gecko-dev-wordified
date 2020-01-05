@@ -24318,7 +24318,7 @@ icon
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -24373,18 +24373,7 @@ if
 iconFile
 )
 return
-NS_OK
 ;
-/
-/
-not
-an
-error
-if
-icon
-is
-not
-found
 nsAutoString
 iconPath
 ;
@@ -24682,9 +24671,6 @@ GetLastError
 }
 #
 endif
-return
-NS_OK
-;
 }
 /
 *

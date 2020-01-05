@@ -1070,7 +1070,8 @@ aTitle
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetIcon
 (
 const
