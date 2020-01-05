@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-/
+!
 Liberally
 derived
 from
@@ -68,6 +68,9 @@ Firefox
 JS
 implementation
 ]
+/
+/
+!
 (
 http
 :
@@ -100,7 +103,7 @@ js
 .
 /
 /
-/
+!
 Connection
 point
 for
@@ -119,7 +122,7 @@ contents
 .
 /
 /
-/
+!
 Supports
 dynamic
 attaching

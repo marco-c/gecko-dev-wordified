@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-/
+!
 Liberally
 derived
 from
@@ -68,6 +68,9 @@ Firefox
 JS
 implementation
 ]
+/
+/
+!
 (
 http
 :
@@ -2190,6 +2193,8 @@ specified
 in
 getLayout
 in
+/
+/
 http
 :
 /
@@ -2254,6 +2259,8 @@ values
 like
 processMargins
 in
+/
+/
 http
 :
 /

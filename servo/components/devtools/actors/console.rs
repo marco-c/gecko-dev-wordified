@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-/
+!
 Liberally
 derived
 from
@@ -68,6 +68,9 @@ Firefox
 JS
 implementation
 ]
+/
+/
+!
 (
 http
 :
@@ -100,7 +103,7 @@ js
 .
 /
 /
-/
+!
 Mediates
 interaction
 between
@@ -115,7 +118,7 @@ functionality
 object
 /
 /
-/
+!
 inspection
 JS
 evaluation
