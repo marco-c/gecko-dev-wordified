@@ -241,12 +241,6 @@ use
 std
 :
 :
-boxed
-;
-use
-std
-:
-:
 ffi
 :
 :
@@ -2894,7 +2888,7 @@ JSCLASS_DOM_GLOBAL
 let
 box_
 =
-boxed
+Box
 :
 :
 into_raw

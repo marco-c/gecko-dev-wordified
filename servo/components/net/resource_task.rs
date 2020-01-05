@@ -197,10 +197,7 @@ std
 boxed
 :
 :
-{
-self
 FnBox
-}
 ;
 use
 std
@@ -398,12 +395,10 @@ _
 return
 }
 ;
-unsafe
-{
 let
 host_table
 =
-boxed
+Box
 :
 :
 into_raw
@@ -415,6 +410,8 @@ lines
 )
 )
 ;
+unsafe
+{
 HOST_TABLE
 =
 Some
