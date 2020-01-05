@@ -3932,6 +3932,7 @@ i
 ;
 for
 (
+var
 end
 =
 testpathparts
