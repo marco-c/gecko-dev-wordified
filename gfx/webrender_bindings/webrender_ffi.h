@@ -445,6 +445,11 @@ is_in_compositor_thread
 )
 ;
 bool
+is_in_main_thread
+(
+)
+;
+bool
 is_in_render_thread
 (
 )
