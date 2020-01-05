@@ -1252,10 +1252,6 @@ IpcSender
 (
 )
 >
-Sender
-<
-ConstellationMsg
->
 )
 /
 /
