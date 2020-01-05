@@ -1006,7 +1006,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-bool
+nsresult
 EvalContextImpl
 :
 :
@@ -1016,10 +1016,17 @@ const
 txXPathNode
 &
 aNode
+bool
+&
+aAllowed
 )
 {
-return
+aAllowed
+=
 false
+;
+return
+NS_OK
 ;
 }
 void
