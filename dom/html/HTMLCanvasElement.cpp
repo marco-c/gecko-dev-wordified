@@ -4067,7 +4067,7 @@ ToBlob
 JSContext
 *
 aCx
-FileCallback
+BlobCallback
 &
 aCallback
 const
