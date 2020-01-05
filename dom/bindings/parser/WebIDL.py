@@ -11431,20 +11431,9 @@ ChromeOnly
 "
 Func
 "
-"
-AvailableIn
-"
                                     
 "
 SecureContext
-"
-                                    
-"
-CheckAnyPermissions
-"
-                                    
-"
-CheckAllPermissions
 "
 ]
     
