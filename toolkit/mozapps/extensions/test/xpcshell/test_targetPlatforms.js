@@ -470,6 +470,7 @@ Set
 up
 the
 profile
+async
 function
 run_test
 (
@@ -509,7 +510,8 @@ addon5
 profileDir
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

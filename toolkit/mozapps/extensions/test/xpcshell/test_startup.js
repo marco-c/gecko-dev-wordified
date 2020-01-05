@@ -827,7 +827,7 @@ exists
 ;
 do_check_false
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -1003,6 +1003,7 @@ items
 into
 the
 profile
+async
 function
 run_test_1
 (
@@ -1105,7 +1106,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1190,14 +1192,14 @@ Checking
 for
 "
 +
-gExtensionsINI
+gAddonStartup
 .
 path
 )
 ;
 do_check_true
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -2005,6 +2007,7 @@ locations
 /
 are
 ignored
+async
 function
 run_test_2
 (
@@ -2111,7 +2114,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -2183,7 +2187,7 @@ gCachePurged
 ;
 do_check_true
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -2573,6 +2577,7 @@ their
 hidden
 versions
 .
+async
 function
 run_test_3
 (
@@ -2661,7 +2666,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3119,6 +3125,7 @@ an
 install
 location
 works
+async
 function
 run_test_4
 (
@@ -3144,7 +3151,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3436,6 +3444,7 @@ Switching
 disabled
 locations
 works
+async
 function
 run_test_5
 (
@@ -3461,7 +3470,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3819,6 +3829,7 @@ makes
 everything
 visible
 again
+async
 function
 run_test_6
 (
@@ -3841,7 +3852,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -4187,6 +4199,7 @@ the
 others
 again
 .
+async
 function
 run_test_7
 (
@@ -4245,7 +4258,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -4670,6 +4684,7 @@ leaves
 the
 profile
 working
+async
 function
 run_test_8
 (
@@ -4693,7 +4708,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -4982,6 +4998,7 @@ More
 hiding
 and
 revealing
+async
 function
 run_test_9
 (
@@ -5085,7 +5102,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -5495,6 +5513,7 @@ same
 item
 is
 handled
+async
 function
 run_test_10
 (
@@ -5553,7 +5572,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -5948,6 +5968,7 @@ remove
 any
 remaining
 items
+async
 function
 run_test_11
 (
@@ -6022,7 +6043,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

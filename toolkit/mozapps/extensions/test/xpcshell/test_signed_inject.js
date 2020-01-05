@@ -1720,7 +1720,8 @@ now
 60000
 )
 ;
-startupManager
+yield
+promiseStartupManager
 (
 )
 ;
@@ -1787,7 +1788,8 @@ breakAddon
 file
 )
 ;
-startupManager
+yield
+promiseStartupManager
 (
 )
 ;

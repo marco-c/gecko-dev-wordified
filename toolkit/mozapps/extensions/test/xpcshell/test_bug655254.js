@@ -385,6 +385,7 @@ do_test_finished
 )
 ;
 }
+async
 function
 run_test_1
 (
@@ -433,7 +434,8 @@ org
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -551,11 +553,13 @@ a1
 findUpdates
 (
 {
+async
 onUpdateFinished
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -573,6 +577,7 @@ org
 "
 callback_soon
 (
+async
 function
 (
 a1_2
@@ -677,7 +682,8 @@ exists
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -839,6 +845,7 @@ org
 "
 callback_soon
 (
+async
 function
 (
 a2
@@ -966,7 +973,8 @@ exists
 )
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
