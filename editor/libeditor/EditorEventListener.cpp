@@ -4036,7 +4036,7 @@ presContext
 GetFocusedRootContent
 (
 )
-aMouseEvent
+clickEvent
 )
 ;
 if
