@@ -16182,14 +16182,6 @@ loop
 "
 ;
 case
-JSTRY_ITERCLOSE
-:
-return
-"
-iterclose
-"
-;
-case
 JSTRY_DESTRUCTURING_ITERCLOSE
 :
 return
