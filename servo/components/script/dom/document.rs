@@ -599,16 +599,8 @@ Event
 EventBubbles
 EventCancelable
 EventDefault
-}
-;
-use
-dom
-:
-:
-eventdispatcher
-:
-:
 EventStatus
+}
 ;
 use
 dom
