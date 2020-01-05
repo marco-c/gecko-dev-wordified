@@ -1009,6 +1009,7 @@ to_owned
 )
 Some
 (
+mut
 str
 )
 =
@@ -1023,9 +1024,11 @@ str
 {
 str
 .
-to_ascii_lowercase
+make_ascii_lowercase
 (
 )
+;
+str
 }
 else
 {

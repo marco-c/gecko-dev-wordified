@@ -2717,11 +2717,7 @@ name
 name
 value
 :
-input
-.
-Value
-(
-)
+value
 }
 )
 }

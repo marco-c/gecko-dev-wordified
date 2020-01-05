@@ -1003,6 +1003,7 @@ GetPropertyValue
 (
 &
 self
+mut
 property
 :
 DOMString
@@ -1026,6 +1027,12 @@ root
 /
 Step
 1
+property
+.
+make_ascii_lowercase
+(
+)
+;
 let
 property
 =
@@ -1036,10 +1043,6 @@ from_slice
 (
 &
 property
-.
-to_ascii_lowercase
-(
-)
 )
 ;
 if
@@ -1301,6 +1304,7 @@ GetPropertyPriority
 (
 &
 self
+mut
 property
 :
 DOMString
@@ -1313,6 +1317,12 @@ DOMString
 /
 Step
 1
+property
+.
+make_ascii_lowercase
+(
+)
+;
 let
 property
 =
@@ -1323,10 +1333,6 @@ from_slice
 (
 &
 property
-.
-to_ascii_lowercase
-(
-)
 )
 ;
 /
@@ -1517,6 +1523,7 @@ SetProperty
 (
 &
 self
+mut
 property
 :
 DOMString
@@ -1554,12 +1561,9 @@ NoModificationAllowed
 /
 Step
 2
-let
-property
-=
 property
 .
-to_ascii_lowercase
+make_ascii_lowercase
 (
 )
 ;
@@ -2137,6 +2141,7 @@ RemoveProperty
 (
 &
 self
+mut
 property
 :
 DOMString
@@ -2171,12 +2176,9 @@ NoModificationAllowed
 /
 Step
 2
-let
-property
-=
 property
 .
-to_ascii_lowercase
+make_ascii_lowercase
 (
 )
 ;
