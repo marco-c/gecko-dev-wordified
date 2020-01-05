@@ -6412,9 +6412,6 @@ nativeStack
 ;
 if
 (
-aSample
-&
-&
 gPS
 -
 >
