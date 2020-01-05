@@ -8799,7 +8799,6 @@ GetIsNullPrincipal
 }
 if
 (
-!
 isNullPrincipal
 )
 {
