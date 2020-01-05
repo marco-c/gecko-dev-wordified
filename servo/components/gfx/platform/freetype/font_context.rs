@@ -249,7 +249,7 @@ FT_ALIGNMENT
 :
 usize
 =
-0
+1
 ;
 extern
 fn
