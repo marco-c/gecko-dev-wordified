@@ -234,6 +234,7 @@ preorder
 tree
 traversal
 function
+pub
 fn
 apply_style
 (

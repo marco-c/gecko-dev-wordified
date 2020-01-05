@@ -55,10 +55,7 @@ use
 css
 :
 :
-resolve
-:
-:
-apply
+styles
 :
 :
 apply_style
