@@ -38388,7 +38388,7 @@ mOutlineOffset
 :
 nscoord
 pub
-mCachedOutlineWidth
+mActualOutlineWidth
 :
 nscoord
 pub
