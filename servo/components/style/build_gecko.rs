@@ -5039,6 +5039,9 @@ servo_borrow_types
 nsCSSValue
 "
 "
+nsTimingFunction
+"
+"
 RawGeckoAnimationValueList
 "
 "
