@@ -4554,7 +4554,7 @@ in
 out
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 /
 /
 in
@@ -4815,7 +4815,7 @@ nsFlowAreaRect
 aFloatAvailableSpace
 nscoord
 &
-aAvailableSpaceHeight
+aAvailableSpaceBSize
 nsFloatManager
 :
 :
