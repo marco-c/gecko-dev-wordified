@@ -14,6 +14,11 @@ isolation
 .
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 let
 Cu
 =
