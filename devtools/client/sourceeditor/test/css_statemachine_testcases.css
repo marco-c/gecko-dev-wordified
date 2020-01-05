@@ -68,6 +68,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 padding
 :
 4px
@@ -110,6 +114,10 @@ menu
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
@@ -553,6 +561,10 @@ button
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
