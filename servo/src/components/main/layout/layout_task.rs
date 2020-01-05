@@ -957,7 +957,6 @@ flow
 :
 base
 (
-*
 child
 )
 .
@@ -1140,7 +1139,6 @@ flow
 :
 mut_base
 (
-*
 kid_ctx
 )
 .

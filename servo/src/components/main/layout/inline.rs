@@ -5267,7 +5267,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
@@ -5619,7 +5618,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
