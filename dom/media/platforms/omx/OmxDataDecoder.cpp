@@ -3732,7 +3732,7 @@ GetAsVideoInfo
 )
 -
 >
-mCodecSpecificConfig
+mExtraData
 ;
 }
 MOZ_RELEASE_ASSERT
