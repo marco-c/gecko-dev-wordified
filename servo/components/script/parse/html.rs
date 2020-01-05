@@ -1821,6 +1821,7 @@ url
 clone
 (
 )
+input_chan
 )
 ;
 msg_load_data
@@ -1865,7 +1866,6 @@ send
 Load
 (
 load_data
-input_chan
 )
 )
 ;

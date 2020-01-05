@@ -64,9 +64,10 @@ resource_task
 Metadata
 Payload
 Done
-LoadResponse
+TargetedLoadResponse
 LoadData
 start_sending_opt
+ResponseSenders
 }
 ;
 use
@@ -137,7 +138,7 @@ start_chan
 :
 Sender
 <
-LoadResponse
+TargetedLoadResponse
 >
 )
 {
@@ -165,12 +166,9 @@ Url
 err
 :
 String
-start_chan
+senders
 :
-Sender
-<
-LoadResponse
->
+ResponseSenders
 )
 {
 let
@@ -194,7 +192,7 @@ None
 match
 start_sending_opt
 (
-start_chan
+senders
 metadata
 )
 {
@@ -234,7 +232,7 @@ start_chan
 :
 Sender
 <
-LoadResponse
+TargetedLoadResponse
 >
 )
 {
@@ -318,6 +316,21 @@ new
 (
 )
 ;
+let
+senders
+=
+ResponseSenders
+{
+immediate_consumer
+:
+start_chan
+eventual_consumer
+:
+load_data
+.
+consumer
+}
+;
 /
 /
 Loop
@@ -350,7 +363,7 @@ redirects
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -376,7 +389,7 @@ loop
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -447,7 +460,7 @@ send_error
 (
 url
 s
-start_chan
+senders
 )
 ;
 return
@@ -530,7 +543,7 @@ desc
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -688,7 +701,7 @@ desc
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -745,7 +758,7 @@ desc
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -937,7 +950,7 @@ fetch
 to_string
 (
 )
-start_chan
+senders
 )
 ;
 return
@@ -1069,7 +1082,7 @@ progress_chan
 match
 start_sending_opt
 (
-start_chan
+senders
 metadata
 )
 {
