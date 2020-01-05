@@ -8196,14 +8196,7 @@ webkit
 animatable
 =
 "
-{
-product
-=
-=
-'
-servo
-'
-}
+True
 "
 spec
 =
