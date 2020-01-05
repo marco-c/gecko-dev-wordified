@@ -418,6 +418,10 @@ domparser
 ;
 pub
 mod
+domtokenlist
+;
+pub
+mod
 element
 ;
 pub

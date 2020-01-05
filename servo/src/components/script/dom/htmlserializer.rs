@@ -1618,9 +1618,7 @@ deref
 (
 )
 .
-value
-.
-as_slice
+value_ref
 (
 )
 true
