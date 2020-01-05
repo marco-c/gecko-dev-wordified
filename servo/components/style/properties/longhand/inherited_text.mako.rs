@@ -4992,10 +4992,10 @@ pre
 -
 space
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_WHITESPACE
+StyleWhiteSpace
 "
 needs_conversion
 =
