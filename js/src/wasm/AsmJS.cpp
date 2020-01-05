@@ -3706,7 +3706,7 @@ fn
 )
 -
 >
-name
+explicitName
 (
 )
 )
@@ -52596,7 +52596,7 @@ JSFunction
 (
 )
 .
-name
+explicitName
 (
 )
 )
@@ -53248,7 +53248,7 @@ cx
 origFun
 -
 >
-name
+explicitName
 (
 )
 )
@@ -58082,7 +58082,7 @@ if
 fun
 -
 >
-name
+explicitName
 (
 )
 &
@@ -58095,7 +58095,7 @@ append
 fun
 -
 >
-name
+explicitName
 (
 )
 )
@@ -58411,7 +58411,7 @@ MOZ_ASSERT
 fun
 -
 >
-name
+explicitName
 (
 )
 )
@@ -58426,7 +58426,7 @@ append
 fun
 -
 >
-name
+explicitName
 (
 )
 )

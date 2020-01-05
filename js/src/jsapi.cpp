@@ -11586,9 +11586,10 @@ IdToFunctionName
 (
 cx
 id
-"
-get
-"
+FunctionPrefixKind
+:
+:
+Get
 )
 )
 ;
@@ -11699,9 +11700,10 @@ IdToFunctionName
 (
 cx
 id
-"
-set
-"
+FunctionPrefixKind
+:
+:
+Set
 )
 )
 ;
@@ -20391,7 +20393,7 @@ return
 fun
 -
 >
-name
+explicitName
 (
 )
 ;
