@@ -2384,6 +2384,10 @@ mScissorTestEnabled
 =
 false
 ;
+mGenerateMipmapHint
+=
+LOCAL_GL_DONT_CARE
+;
 /
 /
 Bindings

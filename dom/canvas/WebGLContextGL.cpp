@@ -4440,6 +4440,10 @@ target
 case
 LOCAL_GL_GENERATE_MIPMAP_HINT
 :
+mGenerateMipmapHint
+=
+mode
+;
 /
 /
 Deprecated

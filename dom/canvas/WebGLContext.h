@@ -6135,6 +6135,9 @@ mDepthTestEnabled
 realGLboolean
 mStencilTestEnabled
 ;
+GLenum
+mGenerateMipmapHint
+;
 bool
 ValidateCapabilityEnum
 (
