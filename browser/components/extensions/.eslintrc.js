@@ -69,6 +69,11 @@ EventEmitter
 :
 true
 "
+getBrowserInfo
+"
+:
+true
+"
 getCookieStoreIdForTab
 "
 :
