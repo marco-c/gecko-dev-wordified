@@ -2643,6 +2643,15 @@ nsACString
 aCSPReportOnlyHeaderValue
 )
 ;
+void
+SetReferrerPolicyFromHeaderValue
+(
+const
+nsACString
+&
+aReferrerPolicyHeaderValue
+)
+;
 net
 :
 :
