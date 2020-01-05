@@ -210,10 +210,6 @@ final
 public
 SVGPathElementBase
 {
-friend
-class
-nsSVGPathFrame
-;
 typedef
 mozilla
 :
