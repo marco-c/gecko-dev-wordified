@@ -3872,9 +3872,7 @@ mHasDriverVersionMismatch
 =
 true
 ;
-gfxWarningOnce
-(
-)
+gfxCriticalNoteOnce
 <
 <
 "
