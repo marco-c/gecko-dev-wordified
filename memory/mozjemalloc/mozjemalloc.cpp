@@ -2289,7 +2289,7 @@ endif
 #
 include
 "
-jemalloc_types
+mozjemalloc_types
 .
 h
 "
