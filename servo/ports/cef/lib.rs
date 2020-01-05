@@ -136,6 +136,10 @@ azure
 ;
 extern
 crate
+compositing
+;
+extern
+crate
 geom
 ;
 extern
