@@ -373,12 +373,7 @@ summary
 expect
 =
 '
-function
-x
-(
-)
-{
-}
+1
 '
 ;
 function
