@@ -240,6 +240,11 @@ addDictType
 cookieobject
 "
 {
+uniqueKey
+:
+"
+string
+"
 name
 :
 "
@@ -815,6 +820,11 @@ addDictType
 idbobject
 "
 {
+uniqueKey
+:
+"
+string
+"
 name
 :
 "
@@ -849,6 +859,13 @@ version
 nullable
 :
 number
+"
+storage
+:
+"
+nullable
+:
+string
 "
 objectStores
 :
