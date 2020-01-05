@@ -398,7 +398,7 @@ mozilla
 /
 dom
 /
-Dispatcher
+DispatcherTrait
 .
 h
 "

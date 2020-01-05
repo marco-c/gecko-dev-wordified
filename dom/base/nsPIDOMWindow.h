@@ -155,7 +155,7 @@ mozilla
 /
 dom
 /
-Dispatcher
+EventTarget
 .
 h
 "
@@ -164,9 +164,7 @@ include
 "
 mozilla
 /
-dom
-/
-EventTarget
+TaskCategory
 .
 h
 "
@@ -244,6 +242,9 @@ nsIDocShellLoadInfo
 ;
 class
 nsIDocument
+;
+class
+nsIEventTarget
 ;
 class
 nsIIdleObserver
