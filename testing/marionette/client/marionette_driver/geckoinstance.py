@@ -575,6 +575,11 @@ showInConsole
 :
 True
         
+#
+Enable
+Marionette
+component
+        
 "
 marionette
 .
@@ -582,6 +587,24 @@ enabled
 "
 :
 True
+        
+#
+Disable
+recommended
+automation
+prefs
+in
+CI
+        
+"
+marionette
+.
+prefs
+.
+recommended
+"
+:
+False
         
 "
 media
