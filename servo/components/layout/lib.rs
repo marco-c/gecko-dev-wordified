@@ -85,14 +85,6 @@ custom_derive
 [
 feature
 (
-drain
-)
-]
-#
-!
-[
-feature
-(
 hashmap_hasher
 )
 ]
