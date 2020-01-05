@@ -326,6 +326,17 @@ ImageValue
 ;
 }
 ;
+namespace
+dom
+{
+enum
+class
+IterationCompositeOperation
+:
+uint8_t
+;
+}
+;
 enum
 class
 UpdateAnimationsTasks
