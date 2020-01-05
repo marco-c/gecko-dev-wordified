@@ -172,6 +172,10 @@ extern
 crate
 png
 ;
+#
+[
+macro_use
+]
 extern
 crate
 profile_traits
