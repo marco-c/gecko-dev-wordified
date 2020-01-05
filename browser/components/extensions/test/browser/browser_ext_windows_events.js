@@ -697,6 +697,12 @@ win2Id
 }
 )
 ;
+win2
+.
+focus
+(
+)
+;
 winId
 =
 yield
