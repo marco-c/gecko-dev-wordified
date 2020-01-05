@@ -2407,12 +2407,6 @@ type
 text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 ;
 relocatedScript
