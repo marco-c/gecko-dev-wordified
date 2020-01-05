@@ -8,6 +8,8 @@ TODO
 :
 RGB
 565
+others
+?
 }
 type
 surface
