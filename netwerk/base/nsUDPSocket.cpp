@@ -276,6 +276,13 @@ nsICancelable
 h
 "
 #
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GONK
 #

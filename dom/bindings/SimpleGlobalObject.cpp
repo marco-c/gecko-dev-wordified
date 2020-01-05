@@ -276,6 +276,14 @@ obj
 )
 )
 ;
+globalObject
+-
+>
+ClearWrapper
+(
+obj
+)
+;
 NS_RELEASE
 (
 globalObject

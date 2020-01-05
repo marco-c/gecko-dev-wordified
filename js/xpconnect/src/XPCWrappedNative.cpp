@@ -6035,6 +6035,11 @@ cache
 >
 ClearWrapper
 (
+mFlatJSObject
+.
+unbarrieredGetPtr
+(
+)
 )
 ;
 mFlatJSObject

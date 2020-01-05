@@ -12453,6 +12453,7 @@ finalizeHook
 descriptor
 hookName
 freeOp
+obj
 )
 :
     
@@ -12475,11 +12476,15 @@ ClearWrapper
 (
 self
 self
+%
+s
 )
 ;
 \
 n
 "
+%
+obj
     
 if
 descriptor
@@ -12541,14 +12546,18 @@ CastToJSFreeOp
 %
 s
 )
-obj
+%
+s
 )
 ;
 \
 n
 "
 %
+(
 freeOp
+obj
+)
     
 finalize
 +
@@ -12678,11 +12687,20 @@ descriptor
 self
 .
 name
+                            
 self
 .
 args
 [
 0
+]
+.
+name
+self
+.
+args
+[
+1
 ]
 .
 name
@@ -96293,11 +96311,20 @@ self
 .
 descriptor
 FINALIZE_HOOK_NAME
+                             
 self
 .
 args
 [
 0
+]
+.
+name
+self
+.
+args
+[
+1
 ]
 .
 name

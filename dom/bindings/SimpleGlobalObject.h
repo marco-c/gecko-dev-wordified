@@ -636,8 +636,12 @@ SimpleGlobalObject
 (
 )
 {
-ClearWrapper
+MOZ_ASSERT
 (
+!
+GetWrapperMaybeDead
+(
+)
 )
 ;
 }
