@@ -10121,11 +10121,10 @@ hasBaselineScript
 )
 &
 &
-*
+IsSetElemPC
+(
 pc
-=
-=
-JSOP_SETELEM
+)
 )
 script
 -
