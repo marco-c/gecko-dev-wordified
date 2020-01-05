@@ -216,7 +216,10 @@ self
 align
 :
 :
+{
 AlignJustifyContent
+AlignJustifySelf
+}
 ;
 pub
 use
