@@ -187,7 +187,7 @@ RecvEntangled
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 &
@@ -228,7 +228,7 @@ RecvReceiveData
 (
 nsTArray
 <
-MessagePortMessage
+ClonedMessageData
 >
 &
 &
