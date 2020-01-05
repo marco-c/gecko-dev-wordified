@@ -1191,7 +1191,9 @@ SeekPromise
 >
 InvokeSeek
 (
+const
 SeekTarget
+&
 aTarget
 )
 ;
@@ -1842,7 +1844,9 @@ SeekPromise
 >
 Seek
 (
+const
 SeekTarget
+&
 aTarget
 )
 ;
