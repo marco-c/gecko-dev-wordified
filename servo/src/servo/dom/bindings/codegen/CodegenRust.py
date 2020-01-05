@@ -5002,7 +5002,7 @@ arrays
 "
 const
 %
-s_specs
+s
 :
 [
 %
@@ -11297,6 +11297,8 @@ Xrays
 .
         
 if
+False
+and
 not
 self
 .
@@ -11304,6 +11306,14 @@ descriptor
 .
 workers
 :
+#
+XXXjdm
+punt
+on
+the
+interned
+string
+optimization
             
 for
 var
@@ -11887,7 +11897,7 @@ domClass
 &
 Class
 .
-mClass
+dom_class
 "
         
 else
@@ -11910,16 +11920,13 @@ call
 "
 "
 return
-dom
-:
-:
-CreateInterfaceObjects
+CreateInterfaceObjects2
 (
 aCx
 aGlobal
 aReceiver
 parentProto
-                                   
+                               
 %
 s
 %
@@ -11928,23 +11935,33 @@ s
 s
 %
 d
-                                   
+                               
 %
 s
-                                   
+                               
 %
 %
 (
 methods
 )
 s
+ptr
+:
+:
+to_unsafe_ptr
+(
+&
 %
 %
 (
 attrs
 )
 s
-                                   
+[
+0
+]
+)
+                               
 %
 %
 (
@@ -11957,7 +11974,7 @@ s
 staticMethods
 )
 s
-                                   
+                               
 %
 s
 )
@@ -12192,6 +12209,7 @@ n
 "
 )
         
+#
 return
 CGIndenter
 (
@@ -12218,6 +12236,16 @@ null
 )
 "
 )
+)
+.
+define
+(
+)
+        
+return
+CGIndenter
+(
+functionBody
 )
 .
 define
@@ -15946,7 +15974,7 @@ id
 %
 s
 as
-uint
+u32
 "
 %
 self
