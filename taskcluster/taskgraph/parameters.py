@@ -385,14 +385,37 @@ option
 import
 urllib
     
-from
-taskgraph
-.
-util
+url_prefix
+=
+"
+https
+:
+/
+/
+queue
 .
 taskcluster
-import
-get_artifact_url
+.
+net
+/
+v1
+/
+task
+/
+"
+    
+url_postfix
+=
+"
+/
+artifacts
+/
+public
+/
+parameters
+.
+yml
+"
     
 filename
 =
@@ -482,17 +505,11 @@ split
             
 filename
 =
-get_artifact_url
-(
+url_prefix
++
 task_id
-'
-public
-/
-parameters
-.
-yml
-'
-)
++
+url_postfix
         
 f
 =
