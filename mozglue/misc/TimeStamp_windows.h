@@ -215,6 +215,7 @@ struct
 _SomethingVeryRandomHere
 ;
 constexpr
+MOZ_IMPLICIT
 TimeStampValue
 (
 _SomethingVeryRandomHere

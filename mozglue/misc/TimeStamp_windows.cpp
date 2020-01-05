@@ -198,6 +198,7 @@ AutoCriticalSection
 {
 public
 :
+explicit
 AutoCriticalSection
 (
 LPCRITICAL_SECTION
