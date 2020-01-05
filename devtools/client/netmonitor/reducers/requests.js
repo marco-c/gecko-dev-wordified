@@ -1226,5 +1226,7 @@ module
 .
 exports
 =
+{
+Requests
 requestsReducer
-;
+}
