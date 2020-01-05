@@ -3704,9 +3704,6 @@ d
 ModuleGeneratorData
 *
 init
-Uint32Vector
-*
-oldElems
 )
 {
 uint32_t
@@ -5547,10 +5544,6 @@ DecodeElemSection
 Decoder
 &
 d
-Uint32Vector
-&
-&
-oldElems
 ModuleGenerator
 &
 mg
@@ -6458,9 +6451,6 @@ get
 return
 nullptr
 ;
-Uint32Vector
-oldElems
-;
 if
 (
 !
@@ -6472,8 +6462,6 @@ init
 get
 (
 )
-&
-oldElems
 )
 )
 return
@@ -6569,10 +6557,6 @@ if
 DecodeElemSection
 (
 d
-Move
-(
-oldElems
-)
 mg
 )
 )
