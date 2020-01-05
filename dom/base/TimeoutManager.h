@@ -364,8 +364,6 @@ const
 TimeStamp
 &
 now
-bool
-aRunningPendingTimeouts
 )
 ;
 void
