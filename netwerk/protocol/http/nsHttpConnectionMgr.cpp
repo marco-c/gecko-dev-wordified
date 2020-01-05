@@ -742,7 +742,7 @@ nsHttpConnectionMgr
 mReentrantMonitor
 "
 )
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 (
 0
 )
@@ -940,7 +940,7 @@ nsHttpConnectionMgr
 Init
 (
 uint16_t
-maxUrgentStartQ
+maxUrgentExcessiveConns
 uint16_t
 maxConns
 uint16_t
@@ -972,9 +972,9 @@ mon
 mReentrantMonitor
 )
 ;
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 =
-maxUrgentStartQ
+maxUrgentExcessiveConns
 ;
 mMaxConns
 =
@@ -7661,7 +7661,7 @@ static_cast
 uint32_t
 >
 (
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 )
 )
 {
@@ -19118,7 +19118,7 @@ break
 case
 MAX_URGENT_START_Q
 :
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 =
 value
 ;

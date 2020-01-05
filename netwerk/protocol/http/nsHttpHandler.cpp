@@ -1430,9 +1430,9 @@ mH2MandatorySuiteEnabled
 (
 false
 )
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 (
-10
+3
 )
 mMaxConnections
 (
@@ -3227,7 +3227,7 @@ mConnMgr
 >
 Init
 (
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 mMaxConnections
 mMaxPersistentConnectionsPerServer
 mMaxPersistentConnectionsPerProxy
@@ -7453,7 +7453,7 @@ rv
 )
 )
 {
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 =
 (
 uint8_t
@@ -7481,7 +7481,7 @@ nsHttpConnectionMgr
 :
 :
 MAX_URGENT_START_Q
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 )
 ;
 if

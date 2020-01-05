@@ -545,7 +545,7 @@ nsresult
 Init
 (
 uint16_t
-maxUrgentStartQ
+maxUrgentExcessiveConns
 uint16_t
 maxConnections
 uint16_t
@@ -3338,7 +3338,7 @@ mSocketThreadTarget
 connection
 limits
 uint16_t
-mMaxUrgentStartQ
+mMaxUrgentExcessiveConns
 ;
 uint16_t
 mMaxConns
