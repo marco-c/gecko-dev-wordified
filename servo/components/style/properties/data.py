@@ -572,15 +572,15 @@ gecko_strip_moz_prefix
 else
 value
         
-parts
+mapped
 =
-moz_stripped
+self
 .
-split
+consts_map
+.
+get
 (
-'
--
-'
+value
 )
         
 if
@@ -591,6 +591,21 @@ gecko_enum_prefix
             
 parts
 =
+moz_stripped
+.
+split
+(
+'
+-
+'
+)
+            
+parts
+=
+mapped
+if
+mapped
+else
 [
 p
 .
@@ -623,17 +638,6 @@ parts
         
 else
 :
-            
-mapped
-=
-self
-.
-consts_map
-.
-get
-(
-value
-)
             
 suffix
 =
