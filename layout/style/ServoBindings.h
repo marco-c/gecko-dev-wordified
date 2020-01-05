@@ -1893,6 +1893,16 @@ size_t
 len
 )
 ;
+void
+Gecko_EnsureStyleTransitionArrayLength
+(
+void
+*
+array
+size_t
+len
+)
+;
 mozilla
 :
 :
