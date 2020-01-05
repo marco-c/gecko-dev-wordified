@@ -211,6 +211,14 @@ std_url
 url
 "
 ;
+extern
+crate
+string_cache
+;
+pub
+mod
+atom
+;
 pub
 mod
 cache
