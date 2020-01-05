@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+global
+gBrowser
+:
+false
+*
+/
 function
 test
 (

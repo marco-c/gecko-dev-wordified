@@ -73,6 +73,12 @@ services
 -
 common
 .
+/
+*
+global
+pref
+*
+/
 pref
 (
 "
