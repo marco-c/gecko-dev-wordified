@@ -1746,6 +1746,8 @@ deriving
 (
 Eq
 Clone
+TotalEq
+TotalOrd
 )
 ]
 struct
