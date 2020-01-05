@@ -345,6 +345,7 @@ constellation_msg
 {
 ConstellationChan
 PipelineId
+WorkerId
 }
 ;
 use
@@ -1018,6 +1019,12 @@ TrustedWorkerAddress
 ScriptMsg
 )
 >
+worker_id
+:
+Option
+<
+WorkerId
+>
 )
 -
 >
@@ -1044,6 +1051,7 @@ devtools_chan
 devtools_sender
 devtools_port
 constellation_chan
+worker_id
 )
 id
 :
@@ -1146,6 +1154,12 @@ TrustedWorkerAddress
 ScriptMsg
 )
 >
+worker_id
+:
+Option
+<
+WorkerId
+>
 )
 -
 >
@@ -1179,6 +1193,7 @@ constellation_chan
 parent_sender
 own_sender
 receiver
+worker_id
 )
 ;
 DedicatedWorkerGlobalScopeBinding
@@ -1279,6 +1294,12 @@ Receiver
 TrustedWorkerAddress
 ScriptMsg
 )
+>
+worker_id
+:
+Option
+<
+WorkerId
 >
 )
 {
@@ -1510,6 +1531,7 @@ constellation_chan
 parent_sender
 own_sender
 receiver
+worker_id
 )
 ;
 /

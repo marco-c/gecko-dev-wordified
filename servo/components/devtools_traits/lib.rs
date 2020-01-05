@@ -444,6 +444,10 @@ SendConsoleMessage
 (
 PipelineId
 ConsoleMessage
+Option
+<
+WorkerId
+>
 )
 }
 /
