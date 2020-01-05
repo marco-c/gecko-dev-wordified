@@ -111,10 +111,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -139,6 +136,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -532,9 +530,6 @@ DataSlice
 typeString
 :
 String
-global
-:
-GlobalField
 isClosed_
 :
 Cell
@@ -621,9 +616,6 @@ pub
 fn
 new_inherited
 (
-global
-:
-GlobalRef
 bytes
 :
 Arc
@@ -682,16 +674,6 @@ typeString
 to_owned
 (
 )
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
-)
 isClosed_
 :
 Cell
@@ -737,7 +719,6 @@ Blob
 :
 new_inherited
 (
-global
 Arc
 :
 :
@@ -808,7 +789,6 @@ Blob
 :
 new_inherited
 (
-global
 bytes
 bytes_start
 bytes_end
@@ -1224,8 +1204,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;

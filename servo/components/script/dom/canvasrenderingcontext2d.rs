@@ -286,10 +286,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -342,6 +339,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -645,9 +643,6 @@ CanvasRenderingContext2D
 reflector_
 :
 Reflector
-global
-:
-GlobalField
 renderer_id
 :
 usize
@@ -1005,16 +1000,6 @@ Reflector
 :
 new
 (
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
 )
 renderer_id
 :
@@ -8436,8 +8421,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -8504,8 +8487,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -8974,8 +8955,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -9169,8 +9148,6 @@ get_data_array
 self
 .
 global
-.
-root
 (
 )
 .
@@ -9356,8 +9333,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -9502,8 +9477,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .
@@ -9807,8 +9780,6 @@ new
 self
 .
 global
-.
-root
 (
 )
 .

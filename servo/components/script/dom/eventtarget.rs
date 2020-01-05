@@ -215,10 +215,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-global_root_from_reflector
-}
 ;
 use
 dom
@@ -978,9 +975,10 @@ ErrorEvent
 let
 global
 =
-global_root_from_reflector
-(
 object
+.
+global
+(
 )
 ;
 let

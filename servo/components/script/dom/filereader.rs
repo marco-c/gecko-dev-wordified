@@ -152,10 +152,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -539,9 +536,6 @@ FileReader
 eventtarget
 :
 EventTarget
-global
-:
-GlobalField
 ready_state
 :
 Cell
@@ -580,9 +574,6 @@ pub
 fn
 new_inherited
 (
-global
-:
-GlobalRef
 )
 -
 >
@@ -601,16 +592,6 @@ new_inherited
 /
 /
 ?
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
-)
 ready_state
 :
 Cell
@@ -678,7 +659,6 @@ FileReader
 :
 new_inherited
 (
-global
 )
 global
 FileReaderBinding
@@ -822,9 +802,11 @@ global
 =
 fr
 .
-global
+r
+(
+)
 .
-root
+global
 (
 )
 ;
@@ -2068,8 +2050,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -2300,8 +2280,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -2427,8 +2405,6 @@ root
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -2487,8 +2463,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;

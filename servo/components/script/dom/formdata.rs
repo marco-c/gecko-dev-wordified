@@ -147,10 +147,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -190,6 +187,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -334,9 +332,6 @@ FormDatum
 >
 >
 >
-global
-:
-GlobalField
 form
 :
 Option
@@ -360,9 +355,6 @@ Option
 &
 HTMLFormElement
 >
-global
-:
-GlobalRef
 )
 -
 >
@@ -391,16 +383,6 @@ HashMap
 new
 (
 )
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-&
-global
 )
 form
 :
@@ -452,7 +434,6 @@ FormData
 new_inherited
 (
 form
-global
 )
 global
 FormDataBinding
@@ -1291,8 +1272,6 @@ global
 self
 .
 global
-.
-root
 (
 )
 ;

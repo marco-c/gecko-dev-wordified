@@ -114,10 +114,7 @@ bindings
 global
 :
 :
-{
-GlobalField
 GlobalRef
-}
 ;
 use
 dom
@@ -169,6 +166,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -277,9 +275,6 @@ Storage
 reflector_
 :
 Reflector
-global
-:
-GlobalField
 storage_type
 :
 StorageType
@@ -290,10 +285,6 @@ Storage
 fn
 new_inherited
 (
-global
-:
-&
-GlobalRef
 storage_type
 :
 StorageType
@@ -311,15 +302,6 @@ Reflector
 :
 new
 (
-)
-global
-:
-GlobalField
-:
-:
-from_rooted
-(
-global
 )
 storage_type
 :
@@ -353,7 +335,6 @@ Storage
 :
 new_inherited
 (
-global
 storage_type
 )
 *
@@ -380,8 +361,6 @@ global_root
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -416,8 +395,6 @@ global_root
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -1448,8 +1425,6 @@ global_root
 self
 .
 global
-.
-root
 (
 )
 ;
@@ -1658,8 +1633,6 @@ global_root
 storage
 .
 global
-.
-root
 (
 )
 ;

@@ -173,9 +173,6 @@ File
 fn
 new_inherited
 (
-global
-:
-GlobalRef
 _file_bits
 :
 &
@@ -215,7 +212,6 @@ Blob
 :
 new_inherited
 (
-global
 Arc
 :
 :
@@ -289,7 +285,6 @@ File
 :
 new_inherited
 (
-global
 file_bits
 name
 )

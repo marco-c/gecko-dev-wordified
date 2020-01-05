@@ -226,10 +226,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-global_root_from_reflector
-}
 ;
 use
 dom
@@ -6829,9 +6826,10 @@ MutableHandleValue
 let
 global
 =
-global_root_from_reflector
-(
 self
+.
+global
+(
 )
 ;
 let

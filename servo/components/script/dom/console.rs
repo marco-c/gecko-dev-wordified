@@ -109,10 +109,7 @@ bindings
 global
 :
 :
-{
 GlobalRef
-global_root_from_reflector
-}
 ;
 use
 dom
@@ -137,6 +134,7 @@ reflector
 :
 :
 {
+Reflectable
 Reflector
 reflect_dom_object
 }
@@ -255,9 +253,10 @@ DOMString
 let
 global
 =
-global_root_from_reflector
-(
 self
+.
+global
+(
 )
 ;
 let
