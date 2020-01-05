@@ -1260,8 +1260,7 @@ samples
 endif
 }
 static
-ogg_packet
-*
+OggPacketPtr
 Clone
 (
 ogg_packet
@@ -1320,7 +1319,10 @@ bytes
 )
 ;
 return
+OggPacketPtr
+(
 p
+)
 ;
 }
 void
@@ -1775,6 +1777,10 @@ Clone
 &
 packet
 )
+.
+release
+(
+)
 )
 ;
 }
@@ -1884,8 +1890,7 @@ r
 1
 )
 {
-ogg_packet
-*
+OggPacketPtr
 clone
 =
 Clone
@@ -1919,6 +1924,10 @@ mPackets
 Append
 (
 clone
+.
+release
+(
+)
 )
 ;
 }
@@ -1962,6 +1971,10 @@ mUnstamped
 AppendElement
 (
 clone
+.
+release
+(
+)
 )
 ;
 aFoundGranulepos

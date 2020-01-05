@@ -293,6 +293,15 @@ aPacket
 }
 }
 ;
+using
+OggPacketPtr
+=
+UniquePtr
+<
+ogg_packet
+OggPacketDeletePolicy
+>
+;
 /
 /
 Deallocates
