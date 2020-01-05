@@ -389,10 +389,12 @@ Bootstrap
 :
 UniquePtr
 bootstrap
-;
-XRE_GetBootstrap
+=
+mozilla
+:
+:
+GetBootstrap
 (
-bootstrap
 )
 ;
 if
