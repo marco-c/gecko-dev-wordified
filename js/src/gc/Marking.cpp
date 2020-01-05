@@ -18577,14 +18577,9 @@ continue
 if
 (
 (
-source
--
->
-is
-<
-ProxyObject
->
+IsCrossCompartmentWrapper
 (
+source
 )
 &
 &
