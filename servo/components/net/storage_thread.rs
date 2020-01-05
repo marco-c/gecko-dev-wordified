@@ -301,7 +301,7 @@ let
 Some
 (
 ref
-profile_dir
+config_dir
 )
 =
 opts
@@ -311,7 +311,7 @@ get
 (
 )
 .
-profile_dir
+config_dir
 {
 resource_thread
 :
@@ -321,7 +321,7 @@ read_json_from_file
 &
 mut
 local_data
-profile_dir
+config_dir
 "
 local_data
 .
@@ -544,7 +544,7 @@ let
 Some
 (
 ref
-profile_dir
+config_dir
 )
 =
 opts
@@ -554,7 +554,7 @@ get
 (
 )
 .
-profile_dir
+config_dir
 {
 resource_thread
 :
@@ -565,7 +565,7 @@ write_json_to_file
 self
 .
 local_data
-profile_dir
+config_dir
 "
 local_data
 .

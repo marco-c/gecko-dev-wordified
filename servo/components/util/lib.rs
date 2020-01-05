@@ -236,6 +236,10 @@ extern
 crate
 url
 ;
+extern
+crate
+xdg
+;
 use
 std
 :
@@ -244,6 +248,10 @@ sync
 :
 :
 Arc
+;
+pub
+mod
+basedir
 ;
 pub
 mod
