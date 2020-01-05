@@ -109,6 +109,16 @@ browser
 "
                  
 "
+browser
+/
+extensions
+/
+webcompat
+-
+reporter
+"
+                 
+"
 extensions
 /
 spellcheck
