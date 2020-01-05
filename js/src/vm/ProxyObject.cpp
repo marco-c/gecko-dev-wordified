@@ -905,6 +905,12 @@ Value
 priv
 )
 {
+CheckEdgeIsNotBlackToGray
+(
+this
+priv
+)
+;
 *
 slotOfPrivate
 (
@@ -934,6 +940,12 @@ compartment
 (
 )
 )
+)
+;
+CheckEdgeIsNotBlackToGray
+(
+this
+priv
 )
 ;
 *
