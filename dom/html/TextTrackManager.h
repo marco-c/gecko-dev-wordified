@@ -682,6 +682,11 @@ NotifyReset
 (
 )
 ;
+bool
+IsLoaded
+(
+)
+;
 private
 :
 /

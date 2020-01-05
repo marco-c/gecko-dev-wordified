@@ -370,6 +370,11 @@ SetCuesInactive
 (
 )
 ;
+bool
+AreTextTracksLoaded
+(
+)
+;
 IMPL_EVENT_HANDLER
 (
 change
