@@ -236,6 +236,8 @@ VRManagerParent
 (
 ProcessId
 aChildProcessId
+bool
+aIsContentChild
 )
 ;
 static
@@ -393,6 +395,15 @@ AsyncParentMessageData
 aMessage
 )
 override
+;
+bool
+SendGamepadUpdate
+(
+const
+GamepadChangeEvent
+&
+aGamepadEvent
+)
 ;
 protected
 :
@@ -766,6 +777,9 @@ mVRManagerHolder
 ;
 bool
 mHaveEventListener
+;
+bool
+mIsContentChild
 ;
 }
 ;
