@@ -394,6 +394,10 @@ nsIntRect
 aDirtyRect
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 override
 ;
@@ -2064,6 +2068,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 if
@@ -2484,14 +2490,6 @@ TopLeft
 )
 ;
 }
-uint32_t
-drawFlags
-=
-imgIContainer
-:
-:
-FLAG_SYNC_DECODE_IF_FAST
-;
 if
 (
 mImageContainer
@@ -2772,7 +2770,7 @@ dirtyRect
 :
 destRect
 context
-drawFlags
+aFlags
 )
 ;
 }
@@ -2819,7 +2817,7 @@ aDirtyRect
 dirtyRect
 :
 nullptr
-drawFlags
+aFlags
 )
 ;
 }

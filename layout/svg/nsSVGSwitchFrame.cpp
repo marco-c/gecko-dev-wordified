@@ -315,6 +315,10 @@ nsIntRect
 aDirtyRect
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 override
 ;
@@ -597,6 +601,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 NS_ASSERTION

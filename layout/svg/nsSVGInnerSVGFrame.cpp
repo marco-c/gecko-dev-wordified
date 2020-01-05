@@ -489,6 +489,8 @@ const
 nsIntRect
 *
 aDirtyRect
+uint32_t
+aFlags
 )
 {
 NS_ASSERTION
@@ -636,6 +638,7 @@ PaintSVG
 aContext
 aTransform
 aDirtyRect
+aFlags
 )
 ;
 }
