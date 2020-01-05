@@ -596,7 +596,7 @@ FileTimeToSystemTime
 "
 ctypes
 .
-default_abi
+winapi_abi
 wintypes
 .
 BOOL
