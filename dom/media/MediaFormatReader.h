@@ -332,13 +332,6 @@ override
 ;
 public
 :
-bool
-ForceZeroStartTime
-(
-)
-const
-override
-;
 /
 /
 For
