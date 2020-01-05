@@ -317,6 +317,9 @@ HttpServer
 :
 HttpServer
 (
+AbstractThread
+*
+aMainThread
 )
 :
 mPort
@@ -324,6 +327,10 @@ mPort
 )
 mHttps
 (
+)
+mAbstractMainThread
+(
+aMainThread
 )
 {
 }
@@ -6734,12 +6741,10 @@ mOutputCopy
 >
 Then
 (
-AbstractThread
-:
-:
-MainThread
-(
-)
+mServer
+-
+>
+mAbstractMainThread
 __func__
 [
 self
