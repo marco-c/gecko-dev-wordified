@@ -114,6 +114,7 @@ libclang
 -
 path
 =
+"
 {
 state_dir
 }
@@ -121,6 +122,7 @@ state_dir
 clang
 /
 bin
+"
 ac_add_options
 -
 -
@@ -130,6 +132,7 @@ clang
 -
 path
 =
+"
 {
 state_dir
 }
@@ -141,6 +144,7 @@ bin
 clang
 .
 exe
+"
 >
 >
 >
