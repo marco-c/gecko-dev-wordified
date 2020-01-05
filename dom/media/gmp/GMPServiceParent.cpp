@@ -3936,11 +3936,6 @@ this
 ;
 return
 InvokeAsync
-<
-nsString
-&
-&
->
 (
 thread
 this

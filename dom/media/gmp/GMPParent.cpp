@@ -4243,11 +4243,6 @@ thread
 .
 return
 InvokeAsync
-<
-nsString
-&
-&
->
 (
 mMainThread
 this
