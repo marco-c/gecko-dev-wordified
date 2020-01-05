@@ -670,6 +670,13 @@ parsercontext
 ParserContext
 )
 {
+let
+servo_url
+=
+parsercontext
+.
+base_url
+;
 parsercontext
 .
 error_reporter
@@ -679,6 +686,7 @@ report_error
 input
 position
 message
+servo_url
 )
 ;
 }
