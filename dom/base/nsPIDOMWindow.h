@@ -5609,6 +5609,16 @@ aVolume
 )
 ;
 void
+NotifyCreatedNewMediaComponent
+(
+)
+;
+void
+MaybeActiveMediaComponents
+(
+)
+;
+void
 SetServiceWorkersTestingEnabled
 (
 bool

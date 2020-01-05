@@ -988,6 +988,14 @@ bool
 aAnyChannel
 )
 ;
+void
+NotifyCreatedNewAgent
+(
+AudioChannelAgent
+*
+aAgent
+)
+;
 private
 :
 AudioChannelService
