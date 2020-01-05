@@ -1568,6 +1568,14 @@ ShadowableLayer
 aRef
 )
 ;
+void
+CreatedTextLayer
+(
+ShadowableLayer
+*
+aRef
+)
+;
 /
 *
 *

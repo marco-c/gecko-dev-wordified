@@ -856,6 +856,16 @@ override
 virtual
 already_AddRefed
 <
+TextLayer
+>
+CreateTextLayer
+(
+)
+override
+;
+virtual
+already_AddRefed
+<
 ReadbackLayer
 >
 CreateReadbackLayer

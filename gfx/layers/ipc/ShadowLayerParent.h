@@ -168,6 +168,9 @@ class
 ColorLayer
 ;
 class
+TextLayer
+;
+class
 ContainerLayer
 ;
 class
@@ -238,6 +241,13 @@ const
 ColorLayer
 *
 AsColorLayer
+(
+)
+const
+;
+TextLayer
+*
+AsTextLayer
 (
 )
 const
