@@ -388,8 +388,12 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 GMPParent
 )
+explicit
 GMPParent
 (
+AbstractThread
+*
+aMainThread
 )
 ;
 RefPtr
@@ -1398,6 +1402,13 @@ mCrashReporter
 ;
 #
 endif
+const
+RefPtr
+<
+AbstractThread
+>
+mMainThread
+;
 }
 ;
 }
