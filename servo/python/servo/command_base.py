@@ -270,6 +270,13 @@ androideabi
     
 elif
 os_type
+=
+=
+"
+windows
+"
+or
+os_type
 .
 startswith
 (
