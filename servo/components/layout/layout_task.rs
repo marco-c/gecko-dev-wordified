@@ -233,10 +233,7 @@ use
 geom
 :
 :
-matrix2d
-:
-:
-Matrix2D
+matrix
 ;
 use
 geom
@@ -6117,7 +6114,7 @@ origin
 origin
 0
 &
-Matrix2D
+matrix
 :
 :
 identity
