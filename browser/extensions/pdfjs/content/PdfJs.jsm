@@ -607,6 +607,13 @@ enhanceTextSelection
 :
 false
 "
+renderer
+"
+:
+"
+canvas
+"
+"
 renderInteractiveForms
 "
 :
