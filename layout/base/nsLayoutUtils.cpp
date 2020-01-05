@@ -9189,7 +9189,7 @@ if
 StyleDisplay
 :
 :
-Popup
+MozPopup
 =
 =
 disp

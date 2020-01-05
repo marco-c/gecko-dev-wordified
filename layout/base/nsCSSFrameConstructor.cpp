@@ -27416,7 +27416,7 @@ mDisplay
 StyleDisplay
 :
 :
-InlineBox
+MozInlineBox
 |
 |
 #
@@ -27431,7 +27431,7 @@ mDisplay
 StyleDisplay
 :
 :
-InlineXulGrid
+MozInlineGrid
 |
 |
 aDisplay
@@ -27443,7 +27443,7 @@ mDisplay
 StyleDisplay
 :
 :
-InlineStack
+MozInlineStack
 |
 |
 #
@@ -27457,7 +27457,7 @@ mDisplay
 StyleDisplay
 :
 :
-Box
+MozBox
 #
 ifdef
 MOZ_XUL
@@ -27472,7 +27472,7 @@ mDisplay
 StyleDisplay
 :
 :
-XulGrid
+MozGrid
 |
 |
 aDisplay
@@ -27484,7 +27484,7 @@ mDisplay
 StyleDisplay
 :
 :
-Stack
+MozStack
 |
 |
 aDisplay
@@ -27496,7 +27496,7 @@ mDisplay
 StyleDisplay
 :
 :
-XulGridGroup
+MozGridGroup
 |
 |
 aDisplay
@@ -27508,7 +27508,7 @@ mDisplay
 StyleDisplay
 :
 :
-XulGridLine
+MozGridLine
 |
 |
 aDisplay
@@ -27520,7 +27520,7 @@ mDisplay
 StyleDisplay
 :
 :
-Deck
+MozDeck
 |
 |
 aDisplay
@@ -27532,7 +27532,7 @@ mDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 |
 |
 aDisplay
@@ -27544,7 +27544,7 @@ mDisplay
 StyleDisplay
 :
 :
-Groupbox
+MozGroupbox
 #
 endif
 )
@@ -28480,7 +28480,7 @@ mDisplay
 StyleDisplay
 :
 :
-XulGridGroup
+MozGridGroup
 )
 {
 return
@@ -28542,7 +28542,7 @@ mDisplay
 StyleDisplay
 :
 :
-XulGridLine
+MozGridLine
 )
 {
 return
@@ -28612,7 +28612,7 @@ SCROLLABLE_ABSPOS_CONTAINER_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-Box
+MozBox
 NS_NewBoxFrame
 )
 SCROLLABLE_ABSPOS_CONTAINER_XUL_DISPLAY_CREATE
@@ -28620,7 +28620,7 @@ SCROLLABLE_ABSPOS_CONTAINER_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-InlineBox
+MozInlineBox
 NS_NewBoxFrame
 )
 #
@@ -28631,7 +28631,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-XulGrid
+MozGrid
 NS_NewGridBoxFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28639,7 +28639,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-InlineXulGrid
+MozInlineGrid
 NS_NewGridBoxFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28647,7 +28647,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-XulGridGroup
+MozGridGroup
 NS_NewGridRowGroupFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28655,7 +28655,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-XulGridLine
+MozGridLine
 NS_NewGridRowLeafFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28663,7 +28663,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-Stack
+MozStack
 NS_NewStackFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28671,7 +28671,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-InlineStack
+MozInlineStack
 NS_NewStackFrame
 )
 SIMPLE_XUL_DISPLAY_CREATE
@@ -28679,7 +28679,7 @@ SIMPLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-Deck
+MozDeck
 NS_NewDeckFrame
 )
 SCROLLABLE_XUL_DISPLAY_CREATE
@@ -28687,7 +28687,7 @@ SCROLLABLE_XUL_DISPLAY_CREATE
 StyleDisplay
 :
 :
-Groupbox
+MozGroupbox
 NS_NewGroupBoxFrame
 )
 FCDATA_FOR_DISPLAY
@@ -28695,7 +28695,7 @@ FCDATA_FOR_DISPLAY
 StyleDisplay
 :
 :
-Popup
+MozPopup
 FCDATA_DECL
 (
 FCDATA_DISALLOW_OUT_OF_FLOW
@@ -28725,7 +28725,7 @@ mDisplay
 StyleDisplay
 :
 :
-Box
+MozBox
 )
 {
 return
@@ -28743,7 +28743,7 @@ mDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 "
 Someone
 added
@@ -28775,7 +28775,7 @@ size_t
 StyleDisplay
 :
 :
-Box
+MozBox
 )
 ]
 ;
@@ -28938,7 +28938,7 @@ mDisplay
 StyleDisplay
 :
 :
-Stack
+MozStack
 |
 |
 displayStyle
@@ -28950,7 +28950,7 @@ mDisplay
 StyleDisplay
 :
 :
-InlineStack
+MozInlineStack
 )
 ;
 }
@@ -42653,7 +42653,7 @@ return
 StyleDisplay
 :
 :
-Popup
+MozPopup
 =
 =
 aDisplay
@@ -42664,7 +42664,7 @@ aDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 =
 =
 siblingDisplay
@@ -72833,7 +72833,7 @@ mDisplay
 StyleDisplay
 :
 :
-InlineBox
+MozInlineBox
 )
 ?
 "

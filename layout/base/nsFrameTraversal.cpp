@@ -2442,7 +2442,7 @@ mDisplay
 StyleDisplay
 :
 :
-Popup
+MozPopup
 )
 ;
 }
