@@ -529,6 +529,13 @@ aResult
 const
 override
 ;
+virtual
+void
+NodeInfoChanged
+(
+)
+override
+;
 nsresult
 CopyInnerTo
 (
