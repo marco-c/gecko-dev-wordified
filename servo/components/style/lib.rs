@@ -190,6 +190,16 @@ encoding
 ;
 extern
 crate
+"
+rustc
+-
+serialize
+"
+as
+rustc_serialize
+;
+extern
+crate
 string_cache
 ;
 extern
