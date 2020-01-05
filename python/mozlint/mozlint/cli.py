@@ -831,6 +831,11 @@ print
 formatter
 (
 results
+failed
+=
+lint
+.
+failed
 )
 .
 encode
@@ -847,9 +852,15 @@ replace
 )
     
 return
+1
+if
+results
+or
 lint
 .
-return_code
+failed
+else
+0
 if
 __name__
 =
