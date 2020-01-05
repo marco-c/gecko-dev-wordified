@@ -390,6 +390,10 @@ hyper
 ;
 extern
 crate
+image
+;
+extern
+crate
 ipc_channel
 ;
 extern
