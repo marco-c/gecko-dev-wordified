@@ -12359,15 +12359,6 @@ ObjectType
 object
 )
 {
-MOZ_ASSERT
-(
-bool
-(
-&
-object
-)
-)
-;
 return
 ValidateObjectAssumeNonNull
 (
