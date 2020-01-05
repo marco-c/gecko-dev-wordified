@@ -95,16 +95,40 @@ from
 mozunit
 import
 main
+#
+an
+empty
+graph
+for
+things
+that
+don
+'
+t
+look
+at
+it
+empty_graph
+=
+TaskGraph
+(
+{
+}
+Graph
+(
+set
+(
+)
+set
+(
+)
+)
+)
 def
 unittest_task
 (
 n
 tp
-bt
-=
-'
-opt
-'
 )
 :
     
@@ -130,22 +154,6 @@ test_platform
 '
 :
 tp
-.
-split
-(
-'
-/
-'
-)
-[
-0
-]
-        
-'
-build_type
-'
-:
-bt
     
 }
 {
@@ -157,11 +165,6 @@ talos_task
 (
 n
 tp
-bt
-=
-'
-opt
-'
 )
 :
     
@@ -187,22 +190,6 @@ test_platform
 '
 :
 tp
-.
-split
-(
-'
-/
-'
-)
-[
-0
-]
-        
-'
-build_type
-'
-:
-bt
     
 }
 {
@@ -278,29 +265,6 @@ linux
 unittest_task
 (
 '
-extra1
-'
-'
-linux
-'
-'
-debug
-'
-)
-    
-unittest_task
-(
-'
-extra2
-'
-'
-win32
-'
-)
-    
-unittest_task
-(
-'
 crashtest
 -
 e10s
@@ -320,20 +284,6 @@ linux64
 '
 )
     
-unittest_task
-(
-'
-l10n
--
-thing
-'
-'
-linux
--
-l10n
-'
-)
-    
 talos_task
 (
 '
@@ -343,134 +293,8 @@ dromaeojs
 linux64
 '
 )
-    
-unittest_task
-(
-'
-extra3
-'
-'
-linux
-/
-opt
-'
-)
-    
-unittest_task
-(
-'
-extra4
-'
-'
-linux64
-/
-debug
-'
-)
-    
-unittest_task
-(
-'
-extra5
-'
-'
-linux
-/
-this
-'
-)
-    
-unittest_task
-(
-'
-extra6
-'
-'
-linux
-/
-that
-'
-)
-    
-unittest_task
-(
-'
-extra7
-'
-'
-linux
-/
-other
-'
-)
-    
-unittest_task
-(
-'
-extra8
-'
-'
-linux64
-/
-asan
-'
-)
-    
-talos_task
-(
-'
-extra9
-'
-'
-linux64
-/
-psan
-'
-)
 ]
 }
-for
-r
-in
-RIDEALONG_BUILDS
-.
-values
-(
-)
-:
-    
-tasks
-.
-update
-(
-{
-k
-:
-v
-for
-k
-v
-in
-[
-        
-unittest_task
-(
-n
-+
-'
--
-test
-'
-n
-)
-for
-n
-in
-r
-    
-]
-}
-)
 unittest_tasks
 =
 {
@@ -572,7 +396,7 @@ TryOptionSyntax
 (
 '
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -722,7 +546,7 @@ frobnicte
 the
 foo
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -866,7 +690,7 @@ doubledash
 z
 extra
 '
-graph_with_jobs
+empty_graph
 )
         
 #
@@ -928,7 +752,7 @@ try
 b
 do
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -984,7 +808,7 @@ try
 b
 d
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1037,7 +861,7 @@ try
 b
 o
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1092,7 +916,7 @@ try
 build
 o
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1149,7 +973,7 @@ try
 b
 dx
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1201,7 +1025,7 @@ try
 j
 somejob
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1258,7 +1082,7 @@ j
 job1
 job2
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1309,7 +1133,7 @@ try
 j
 all
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1357,7 +1181,7 @@ job1
 j
 job2
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1411,7 +1235,7 @@ try
 p
 all
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1461,7 +1285,7 @@ try
 p
 linux
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1525,7 +1349,7 @@ p
 linux
 win32
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -1582,7 +1406,7 @@ p
 linux
 linux64
 '
-graph_with_jobs
+empty_graph
 )
         
 platforms
@@ -2405,30 +2229,6 @@ linux
 graph_with_jobs
 )
         
-all_platforms
-=
-set
-(
-[
-x
-.
-attributes
-[
-'
-test_platform
-'
-]
-for
-x
-in
-unittest_tasks
-.
-values
-(
-)
-]
-)
-        
 self
 .
 assertEqual
@@ -2438,33 +2238,31 @@ sorted
 tos
 .
 unittests
-[
-0
-]
-[
-'
-platforms
-'
-]
 )
 sorted
 (
-            
 [
-x
-for
-x
-in
-all_platforms
-if
-x
-!
-=
+            
+{
 '
-linux
+test
+'
+:
+'
+gtest
+'
+'
+platforms
+'
+:
+[
+'
+linux64
 '
 ]
+}
         
+]
 )
 )
     
@@ -2871,7 +2669,7 @@ try
 rebuild
 10
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -2916,7 +2714,7 @@ rebuild
 talos
 10
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -2955,7 +2753,7 @@ try
 -
 interactive
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -2998,7 +2796,7 @@ all
 -
 emails
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3043,7 +2841,7 @@ failure
 -
 emails
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3084,7 +2882,7 @@ TryOptionSyntax
 try
 :
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3140,7 +2938,7 @@ VAR2
 =
 value2
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3192,7 +2990,7 @@ try
 -
 geckoProfile
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3235,7 +3033,7 @@ try
 tag
 tagName
 '
-graph_with_jobs
+empty_graph
 )
         
 self
@@ -3282,7 +3080,7 @@ no
 -
 retry
 '
-graph_with_jobs
+empty_graph
 )
         
 self
