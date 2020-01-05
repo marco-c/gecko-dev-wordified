@@ -268,6 +268,7 @@ Serialize
 PartialEq
 )
 ]
+pub
 struct
 GlyphEntry
 {
@@ -761,6 +762,7 @@ GLYPH_ADVANCE_SHIFT
 unsigned_au
 }
 }
+pub
 type
 DetailedGlyphCount
 =
