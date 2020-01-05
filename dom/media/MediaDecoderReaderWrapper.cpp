@@ -254,7 +254,7 @@ AsyncReadMetadata
 )
 -
 >
-ThenPromise
+Then
 (
 mOwnerThread
 __func__

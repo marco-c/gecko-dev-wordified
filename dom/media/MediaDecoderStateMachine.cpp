@@ -10141,7 +10141,7 @@ Shutdown
 )
 -
 >
-ThenPromise
+Then
 (
 OwnerThread
 (
