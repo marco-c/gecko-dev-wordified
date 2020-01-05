@@ -1059,8 +1059,6 @@ LinuxSandboxStarter
 )
 ;
 }
-else
-{
 /
 /
 Sandboxing
@@ -1089,10 +1087,6 @@ it
 Bug
 1074561
 )
-return
-nullptr
-;
-}
 return
 nullptr
 ;
