@@ -1223,6 +1223,13 @@ self
 .
 returnType
 =
+desc
+.
+get
+(
+'
+returnType
+'
 "
 Temporary
 <
@@ -1232,6 +1239,7 @@ s
 "
 %
 ifaceName
+)
         
 self
 .
