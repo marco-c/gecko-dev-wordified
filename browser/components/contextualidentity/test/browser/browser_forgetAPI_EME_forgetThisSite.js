@@ -1217,16 +1217,6 @@ true
 "
 media
 .
-eme
-.
-apiVisible
-"
-true
-]
-[
-"
-media
-.
 mediasource
 .
 webm
