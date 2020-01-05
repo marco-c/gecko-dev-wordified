@@ -175,6 +175,10 @@ encoding
 ;
 extern
 crate
+http
+;
+extern
+crate
 js
 ;
 extern

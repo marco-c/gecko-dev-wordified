@@ -308,6 +308,8 @@ metadata
 progress_port
 :
 progress_port
+.
+.
 }
 =
 input_port
