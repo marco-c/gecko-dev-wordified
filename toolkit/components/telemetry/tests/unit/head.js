@@ -348,6 +348,17 @@ MILLISECONDS_PER_DAY
 MILLISECONDS_PER_HOUR
 ;
 const
+PREF_TELEMETRY_ENABLED
+=
+"
+toolkit
+.
+telemetry
+.
+enabled
+"
+;
+const
 UUID_REGEX
 =
 /
