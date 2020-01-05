@@ -2056,7 +2056,7 @@ pipeline
 .
 script_chan
 .
-send
+try_send
 (
 SendEventMsg
 (
@@ -2102,7 +2102,7 @@ pipeline
 .
 script_chan
 .
-send
+try_send
 (
 SendEventMsg
 (
@@ -2341,7 +2341,7 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
@@ -3077,7 +3077,7 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
@@ -3746,7 +3746,7 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
@@ -4824,7 +4824,7 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
@@ -4966,7 +4966,7 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
@@ -5711,13 +5711,14 @@ pipeline
 .
 render_chan
 .
-send
+try_send
 (
 UnusedBufferMsg
 (
 tiles
 )
 )
+;
 }
 }
 }

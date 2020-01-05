@@ -2351,9 +2351,6 @@ f32
 world_zoom
 )
 ;
-assert
-!
-(
 layer
 .
 resize
@@ -2362,7 +2359,6 @@ id
 new_size
 page_window
 epoch
-)
 )
 ;
 let
