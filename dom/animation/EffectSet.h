@@ -1062,6 +1062,16 @@ return
 mPropertiesForAnimationsLevel
 ;
 }
+nsCSSPropertyIDSet
+PropertiesForAnimationsLevel
+(
+)
+const
+{
+return
+mPropertiesForAnimationsLevel
+;
+}
 private
 :
 static
