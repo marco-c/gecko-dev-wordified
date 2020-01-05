@@ -2649,10 +2649,15 @@ mParent
 (
 nullptr
 )
+#
+ifndef
+BOOL_FLAGS_ON_WRAPPER_CACHE
 mBoolFlags
 (
 0
 )
+#
+endif
 mNextSibling
 (
 nullptr
@@ -13537,6 +13542,9 @@ mParent
 ;
 private
 :
+#
+ifndef
+BOOL_FLAGS_ON_WRAPPER_CACHE
 /
 /
 Boolean
@@ -13545,6 +13553,8 @@ flags
 uint32_t
 mBoolFlags
 ;
+#
+endif
 protected
 :
 /
