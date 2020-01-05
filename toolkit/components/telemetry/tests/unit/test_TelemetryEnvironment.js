@@ -4675,6 +4675,11 @@ isWebExtension
 "
 boolean
 "
+multiprocessCompatible
+:
+"
+boolean
+"
 }
 ;
 for
@@ -7824,6 +7829,9 @@ false
 isWebExtension
 :
 false
+multiprocessCompatible
+:
+false
 }
 ;
 const
@@ -7921,6 +7929,9 @@ true
 isWebExtension
 :
 false
+multiprocessCompatible
+:
+true
 }
 ;
 const
@@ -8027,6 +8038,9 @@ isSystem
 :
 false
 isWebExtension
+:
+true
+multiprocessCompatible
 :
 true
 }
