@@ -3099,6 +3099,14 @@ _addons
 id
 ]
 ;
+record
+.
+isSyncable
+=
+addon
+.
+isSyncable
+;
 if
 (
 !
