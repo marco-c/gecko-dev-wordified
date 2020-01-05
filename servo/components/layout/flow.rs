@@ -3948,7 +3948,7 @@ flow
 .
 pub
 fn
-imm_child_iter
+child_iter
 <
 '
 a
@@ -4080,7 +4080,7 @@ flow
 .
 pub
 fn
-child_iter
+child_iter_mut
 <
 '
 a
@@ -9419,7 +9419,7 @@ self
 }
 pub
 fn
-child_iter
+child_iter_mut
 (
 &
 mut
@@ -10983,7 +10983,7 @@ print_tree
 for
 kid
 in
-imm_child_iter
+child_iter
 (
 self
 )
@@ -11131,7 +11131,7 @@ self
 for
 kid
 in
-child_iter
+child_iter_mut
 (
 self
 )
@@ -11172,7 +11172,7 @@ T
 for
 kid
 in
-child_iter
+child_iter_mut
 (
 self
 )

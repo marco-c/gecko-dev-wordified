@@ -861,7 +861,7 @@ block_flow
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -1150,7 +1150,7 @@ block_flow
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -1807,7 +1807,7 @@ block_flow
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 .

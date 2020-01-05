@@ -5011,7 +5011,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -5927,7 +5927,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 .
@@ -7258,7 +7258,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -7639,7 +7639,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -10186,7 +10186,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 .
@@ -11412,7 +11412,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -14832,7 +14832,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {

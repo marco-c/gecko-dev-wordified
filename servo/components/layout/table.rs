@@ -1664,7 +1664,7 @@ block_flow
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 .
@@ -4736,7 +4736,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -5177,7 +5177,7 @@ self
 .
 base
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -5387,7 +5387,7 @@ kids
 :
 base
 .
-child_iter
+child_iter_mut
 (
 )
 grandkids
@@ -5547,7 +5547,7 @@ mut_base
 kid
 )
 .
-child_iter
+child_iter_mut
 (
 )
 )

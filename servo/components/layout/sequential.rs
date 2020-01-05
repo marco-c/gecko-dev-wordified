@@ -393,7 +393,7 @@ in
 flow
 :
 :
-child_iter
+child_iter_mut
 (
 flow
 )
@@ -699,7 +699,7 @@ mut_base
 flow
 )
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -866,7 +866,7 @@ mut_base
 flow
 )
 .
-child_iter
+child_iter_mut
 (
 )
 {
@@ -1016,7 +1016,7 @@ mut_base
 flow
 )
 .
-child_iter
+child_iter_mut
 (
 )
 {
