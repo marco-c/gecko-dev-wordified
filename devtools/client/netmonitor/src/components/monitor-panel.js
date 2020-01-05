@@ -368,6 +368,21 @@ request
 PropTypes
 .
 object
+/
+/
+Service
+to
+enable
+the
+source
+map
+feature
+.
+sourceMapService
+:
+PropTypes
+.
+object
 updateRequest
 :
 PropTypes
@@ -609,6 +624,7 @@ let
 {
 isEmpty
 networkDetailsOpen
+sourceMapService
 }
 =
 this
@@ -740,6 +756,7 @@ ref
 "
 endPanel
 "
+sourceMapService
 }
 )
 endPanelCollapsed

@@ -200,6 +200,7 @@ activeTabId
 cloneSelectedRequest
 request
 selectTab
+sourceMapService
 }
 )
 {
@@ -239,6 +240,7 @@ TabboxPanel
 activeTabId
 request
 selectTab
+sourceMapService
 }
 )
 :
@@ -295,6 +297,21 @@ PropTypes
 func
 .
 isRequired
+/
+/
+Service
+to
+enable
+the
+source
+map
+feature
+.
+sourceMapService
+:
+PropTypes
+.
+object
 }
 ;
 module

@@ -138,6 +138,7 @@ StackTracePanel
 (
 {
 request
+sourceMapService
 }
 )
 {
@@ -182,6 +183,7 @@ viewSourceInDebugger
 url
 line
 )
+sourceMapService
 }
 )
 )
@@ -208,6 +210,21 @@ PropTypes
 object
 .
 isRequired
+/
+/
+Service
+to
+enable
+the
+source
+map
+feature
+.
+sourceMapService
+:
+PropTypes
+.
+object
 }
 ;
 module
