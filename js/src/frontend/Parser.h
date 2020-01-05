@@ -8856,6 +8856,17 @@ hasValidSimpleStrictParameterNames
 )
 ;
 void
+reportMissingClosing
+(
+unsigned
+errorNumber
+unsigned
+noteNumber
+uint32_t
+openedPos
+)
+;
+void
 reportRedeclaration
 (
 HandlePropertyName
