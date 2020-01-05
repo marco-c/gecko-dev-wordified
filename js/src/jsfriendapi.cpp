@@ -3667,9 +3667,7 @@ return
 cx
 -
 >
-gc
-.
-areGrayBitsValid
+areGCGrayBitsValid
 (
 )
 ;
