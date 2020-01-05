@@ -1257,8 +1257,10 @@ debug
 (
 "
 tracing
-%
+{
+:
 s
+}
 "
 name
 )
@@ -1371,8 +1373,10 @@ debug
 (
 "
 tracing
-%
+{
+:
 p
+}
 ?
 :
 "

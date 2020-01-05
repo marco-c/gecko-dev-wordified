@@ -378,8 +378,10 @@ FontFamily
 for
 family
 :
-%
+{
+:
 s
+}
 "
 family_name
 )
@@ -440,8 +442,8 @@ debug
 getting
 variations
 for
-%
-?
+{
+}
 "
 family
 )
@@ -621,8 +623,8 @@ debug
 (
 "
 found
-%
-?
+{
+}
 variations
 "
 (
@@ -795,8 +797,8 @@ debug
 variation
 file
 :
-%
-?
+{
+}
 "
 file
 )
@@ -808,8 +810,8 @@ debug
 variation
 index
 :
-%
-?
+{
+}
 "
 index
 )
@@ -848,8 +850,10 @@ FontEntry
 for
 face
 :
-%
+{
+:
 s
+}
 "
 font_handle
 .

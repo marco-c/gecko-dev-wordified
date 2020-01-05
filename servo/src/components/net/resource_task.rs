@@ -1122,8 +1122,10 @@ resource_task
 loading
 url
 :
-%
+{
+:
 s
+}
 "
 url
 .
@@ -1153,8 +1155,10 @@ no
 loader
 for
 scheme
-%
+{
+:
 s
+}
 "
 url
 .

@@ -768,8 +768,10 @@ family
 )
 searching
 for
-%
+{
+:
 s
+}
 "
 family
 )
@@ -911,8 +913,10 @@ group
 transformed
 family
 is
-%
+{
+:
 s
+}
 "
 transformed_family_name
 )
@@ -1045,8 +1049,10 @@ didn
 '
 t
 find
-%
+{
+:
 s
+}
 "
 transformed_family_name
 )

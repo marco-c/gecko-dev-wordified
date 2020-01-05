@@ -264,8 +264,10 @@ FontFamily
 for
 family
 :
-%
+{
+:
 s
+}
 "
 family_name
 )
@@ -315,8 +317,10 @@ faces
 of
 family
 :
-%
+{
+:
 s
+}
 "
 family
 .
@@ -415,8 +419,10 @@ FontEntry
 for
 face
 :
-%
+{
+:
 s
+}
 "
 handle
 .

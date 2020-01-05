@@ -299,8 +299,10 @@ Creating
 font
 handle
 for
-%
+{
+:
 s
+}
 "
 name
 )
@@ -323,8 +325,10 @@ debug
 Opening
 font
 face
-%
+{
+:
 s
+}
 "
 file_name
 )

@@ -758,7 +758,7 @@ log_css_error
 rule
 .
 location
-fmt
+format
 !
 (
 "
@@ -767,8 +767,10 @@ at
 -
 rule
 :
-%
+{
+:
 s
+}
 "
 lower_name
 )

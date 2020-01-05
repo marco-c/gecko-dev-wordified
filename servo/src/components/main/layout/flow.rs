@@ -3412,8 +3412,8 @@ display
 list
 for
 f
-%
-?
+{
+}
 "
 base
 (
@@ -3488,8 +3488,10 @@ build_display_list_recurse
 of
 flow
 :
-%
+{
+:
 ?
+}
 "
 self
 )
