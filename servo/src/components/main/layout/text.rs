@@ -465,7 +465,6 @@ boxes
 :
 &
 [
-~
 Box
 ]
 left_i
@@ -524,6 +523,7 @@ left_i
 .
 can_merge_with_box
 (
+&
 boxes
 [
 right_i
@@ -700,7 +700,6 @@ out_boxes
 mut
 ~
 [
-~
 Box
 ]
 )
@@ -1209,7 +1208,6 @@ range
 let
 new_box
 =
-~
 old_box
 .
 transform
@@ -1895,7 +1893,6 @@ range
 let
 new_box
 =
-~
 in_boxes
 [
 i

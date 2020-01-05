@@ -348,7 +348,6 @@ box
 :
 Option
 <
-~
 Box
 >
 /
@@ -421,7 +420,6 @@ base
 FlowData
 box
 :
-~
 Box
 )
 -
@@ -459,7 +457,6 @@ float_type
 FloatType
 box
 :
-~
 Box
 )
 -
@@ -5002,7 +4999,6 @@ self
 .
 compute_float_margins
 (
-*
 box
 remaining_width
 )
@@ -5013,7 +5009,6 @@ self
 .
 compute_block_margins
 (
-*
 box
 remaining_width
 available_width
