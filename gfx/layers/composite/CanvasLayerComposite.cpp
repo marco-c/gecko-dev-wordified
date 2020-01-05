@@ -486,6 +486,16 @@ const
 IntRect
 &
 aClipRect
+const
+Maybe
+<
+gfx
+:
+:
+Polygon
+>
+&
+aGeometry
 )
 {
 if

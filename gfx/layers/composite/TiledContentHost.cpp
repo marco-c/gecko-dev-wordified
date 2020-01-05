@@ -2479,6 +2479,16 @@ aVisibleRegion
 nullptr
 *
 /
+const
+Maybe
+<
+gfx
+:
+:
+Polygon
+>
+&
+aGeometry
 )
 {
 MOZ_ASSERT
@@ -2866,6 +2876,7 @@ aClipRect
 *
 renderRegion
 aTransform
+aGeometry
 )
 ;
 RenderLayerBuffer
@@ -2879,6 +2890,7 @@ aClipRect
 *
 renderRegion
 aTransform
+aGeometry
 )
 ;
 }
@@ -2935,6 +2947,16 @@ gfx
 Rect
 &
 aVisibleRect
+const
+Maybe
+<
+gfx
+:
+:
+Polygon
+>
+&
+aGeometry
 )
 {
 MOZ_ASSERT
@@ -3204,7 +3226,7 @@ height
 mCompositor
 -
 >
-DrawQuad
+DrawGeometry
 (
 graphicsRect
 aClipRect
@@ -3212,6 +3234,7 @@ aEffectChain
 opacity
 aTransform
 aVisibleRect
+aGeometry
 )
 ;
 }
@@ -3295,6 +3318,13 @@ gfx
 :
 Matrix4x4
 aTransform
+const
+Maybe
+<
+Polygon
+>
+&
+aGeometry
 )
 {
 if
@@ -3727,7 +3757,7 @@ height
 mCompositor
 -
 >
-DrawQuad
+DrawGeometry
 (
 graphicsRect
 aClipRect
@@ -3736,6 +3766,7 @@ effect
 .
 0
 aTransform
+aGeometry
 )
 ;
 }
@@ -3920,6 +3951,7 @@ visibleRect
 .
 height
 )
+aGeometry
 )
 ;
 if
