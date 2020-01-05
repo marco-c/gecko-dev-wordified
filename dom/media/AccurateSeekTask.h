@@ -206,13 +206,6 @@ aDuration
 )
 override
 ;
-bool
-NeedToResetMDSM
-(
-)
-const
-override
-;
 int64_t
 CalculateNewCurrentTime
 (
