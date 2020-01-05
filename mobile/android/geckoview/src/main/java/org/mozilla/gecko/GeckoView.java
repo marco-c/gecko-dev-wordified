@@ -1011,7 +1011,7 @@ null
 {
 mContentListener
 .
-onTitleChanged
+onTitleChange
 (
 GeckoView
 .
@@ -1239,7 +1239,7 @@ null
 {
 mProgressListener
 .
-onSecurityChanged
+onSecurityChange
 (
 GeckoView
 .
@@ -3272,7 +3272,6 @@ requests
 .
 *
 /
-public
 void
 onAlert
 (
@@ -3343,7 +3342,6 @@ requests
 .
 *
 /
-public
 void
 onConfirm
 (
@@ -3426,7 +3424,6 @@ requests
 .
 *
 /
-public
 void
 onPrompt
 (
@@ -3490,7 +3487,6 @@ requests
 .
 *
 /
-public
 void
 onDebugRequest
 (
@@ -3562,7 +3558,6 @@ loaded
 .
 *
 /
-public
 void
 onPageStart
 (
@@ -3611,7 +3606,6 @@ occurred
 .
 *
 /
-public
 void
 onPageStop
 (
@@ -3652,9 +3646,8 @@ status
 .
 *
 /
-public
 void
-onSecurityChanged
+onSecurityChange
 (
 GeckoView
 view
@@ -3709,9 +3702,8 @@ content
 .
 *
 /
-public
 void
-onTitleChanged
+onTitleChange
 (
 GeckoView
 view
@@ -3758,7 +3750,6 @@ loaded
 .
 *
 /
-public
 void
 onLocationChange
 (
@@ -3805,7 +3796,6 @@ ability
 .
 *
 /
-public
 void
 onCanGoBack
 (
@@ -3852,7 +3842,6 @@ ability
 .
 *
 /
-public
 void
 onCanGoForward
 (

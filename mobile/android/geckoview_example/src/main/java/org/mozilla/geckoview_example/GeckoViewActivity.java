@@ -643,7 +643,7 @@ ContentListener
 Override
 public
 void
-onTitleChanged
+onTitleChange
 (
 GeckoView
 view
@@ -743,7 +743,7 @@ unsuccessfully
 Override
 public
 void
-onSecurityChanged
+onSecurityChange
 (
 GeckoView
 view
