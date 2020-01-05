@@ -3160,8 +3160,6 @@ _actorPool
 removeActor
 (
 actor
-.
-actorID
 )
 ;
 }
