@@ -2521,17 +2521,6 @@ date
 "
 number
 "
-|
-|
-!
-Number
-.
-isInteger
-(
-visit
-.
-date
-)
 )
 {
 this

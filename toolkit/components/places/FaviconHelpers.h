@@ -534,9 +534,6 @@ rootIcon
 nsCString
 spec
 ;
-nsCString
-host
-;
 PRTime
 expiration
 ;
@@ -638,10 +635,10 @@ nsCString
 spec
 ;
 nsCString
-host
-;
-nsCString
 bookmarkedSpec
+;
+nsString
+revHost
 ;
 bool
 canAddToHistory

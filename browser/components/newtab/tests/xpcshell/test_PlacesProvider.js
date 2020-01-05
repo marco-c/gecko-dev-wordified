@@ -211,8 +211,14 @@ execution
 const
 TIME_NOW
 =
+(
 new
 Date
+(
+)
+)
+.
+getTime
 (
 )
 ;
@@ -231,9 +237,6 @@ numDays
 )
 {
 return
-new
-Date
-(
 TIME_NOW
 -
 (
@@ -246,7 +249,6 @@ numDays
 60
 *
 1000
-)
 )
 ;
 }
