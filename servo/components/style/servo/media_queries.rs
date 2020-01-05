@@ -802,6 +802,7 @@ Expression
 match_ignore_ascii_case
 !
 {
+&
 name
 "
 min

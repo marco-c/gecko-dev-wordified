@@ -2507,6 +2507,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 auto
@@ -2596,6 +2597,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 normal
@@ -2674,6 +2676,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 normal
@@ -2741,6 +2744,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 stretch
@@ -3000,6 +3004,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 start
@@ -3116,6 +3121,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 safe
@@ -3357,6 +3363,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 start
@@ -3522,6 +3529,7 @@ legacy
 match_ignore_ascii_case
 !
 {
+&
 b
 "
 left
@@ -3580,6 +3588,7 @@ legacy
 match_ignore_ascii_case
 !
 {
+&
 a
 "
 left

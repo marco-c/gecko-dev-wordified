@@ -214,13 +214,10 @@ Cursor
 match_ignore_ascii_case
 !
 {
+&
 keyword
 (
-concat
-!
-(
 css
-)
 =
 >
 Ok

@@ -215,8 +215,8 @@ interpolation
 "
 "
 auto
-sRGB
-linearRGB
+srgb
+linearrgb
 "
 products
 =
@@ -265,8 +265,8 @@ filters
 "
 "
 auto
-sRGB
-linearRGB
+srgb
+linearrgb
 "
 products
 =
@@ -487,9 +487,9 @@ rendering
 "
 "
 auto
-optimizeSpeed
-crispEdges
-geometricPrecision
+optimizespeed
+crispedges
+geometricprecision
 "
 products
 =
@@ -1701,6 +1701,7 @@ i
 match_ignore_ascii_case
 !
 {
+&
 i
 .
 expect_ident

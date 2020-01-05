@@ -4127,6 +4127,7 @@ value
 match_ignore_ascii_case
 !
 {
+&
 value
 "
 center

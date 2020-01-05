@@ -1248,6 +1248,7 @@ Ok
 match_ignore_ascii_case
 !
 {
+&
 unit
 "
 dpi
