@@ -421,7 +421,7 @@ toggle
 button
 should
 be
-collapsed
+collapse
 "
 )
 ;
