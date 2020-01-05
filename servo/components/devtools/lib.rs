@@ -221,6 +221,14 @@ non_snake_case
 )
 ]
 #
+!
+[
+deny
+(
+unsafe_code
+)
+]
+#
 [
 macro_use
 ]

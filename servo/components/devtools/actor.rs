@@ -385,6 +385,13 @@ t
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 downcast_ref
@@ -495,6 +502,13 @@ t
 #
 [
 inline
+]
+#
+[
+allow
+(
+unsafe_code
+)
 ]
 pub
 fn

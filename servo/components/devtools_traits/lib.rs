@@ -131,6 +131,14 @@ non_snake_case
 #
 !
 [
+deny
+(
+unsafe_code
+)
+]
+#
+!
+[
 feature
 (
 custom_derive
