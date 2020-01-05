@@ -726,6 +726,14 @@ TOOLS_DISABLE
 '
 true
 '
+        
+'
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
     
 }
 )
@@ -1327,6 +1335,14 @@ params
 level
 '
 ]
+        
+'
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
     
 }
 )

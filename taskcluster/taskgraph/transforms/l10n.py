@@ -2753,16 +2753,6 @@ worker
 {
                 
 '
-implementation
-'
-:
-'
-docker
--
-worker
-'
-                
-'
 docker
 -
 image

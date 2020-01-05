@@ -886,6 +886,14 @@ worker
 '
                 
 '
+os
+'
+:
+'
+linux
+'
+                
+'
 docker
 -
 image

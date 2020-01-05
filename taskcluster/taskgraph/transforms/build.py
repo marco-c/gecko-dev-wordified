@@ -88,6 +88,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+workertypes
+import
+worker_type_implementation
 transforms
 =
 TransformSequence
@@ -170,39 +178,42 @@ sccache
 True
 )
         
-if
+_
+worker_os
+=
+worker_type_implementation
+(
 job
 [
 '
 worker
+-
+type
 '
 ]
-[
-'
-implementation
-'
-]
-in
-(
-'
-docker
--
-worker
-'
-'
-docker
--
-engine
-'
 )
+        
+if
+worker_os
+=
+=
+"
+linux
+"
 :
             
+worker
+=
 job
-[
+.
+setdefault
+(
 '
 worker
 '
-]
+)
+            
+worker
 .
 setdefault
 (
@@ -226,12 +237,7 @@ build
 }
 )
             
-job
-[
-'
 worker
-'
-]
 [
 '
 chain
@@ -244,6 +250,8 @@ trust
 =
 True
             
+extra
+=
 job
 .
 setdefault
@@ -255,12 +263,7 @@ extra
 }
 )
             
-job
-[
-'
 extra
-'
-]
 .
 setdefault
 (
@@ -271,12 +274,7 @@ chainOfTrust
 }
 )
             
-job
-[
-'
 extra
-'
-]
 [
 '
 chainOfTrust
@@ -292,12 +290,7 @@ inputs
 }
 )
             
-job
-[
-'
 extra
-'
-]
 [
 '
 chainOfTrust
@@ -334,6 +327,22 @@ image
             
 }
         
+elif
+worker_os
+in
+set
+(
+[
+"
+macosx
+"
+"
+windows
+"
+]
+)
+:
+            
 job
 [
 '
