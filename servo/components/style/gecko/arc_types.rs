@@ -122,6 +122,7 @@ bindings
 :
 {
 RawServoStyleSheet
+RawServoStyleRule
 RawServoImportRule
 }
 ;
@@ -147,18 +148,7 @@ structs
 {
 RawServoAnimationValue
 RawServoAnimationValueMap
-}
-;
-use
-gecko_bindings
-:
-:
-structs
-:
-:
-{
 RawServoDeclarationBlock
-RawServoStyleRule
 }
 ;
 use
