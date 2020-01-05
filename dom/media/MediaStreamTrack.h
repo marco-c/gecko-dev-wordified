@@ -2140,6 +2140,7 @@ track
 .
 *
 /
+virtual
 void
 AddListener
 (
@@ -2226,6 +2227,7 @@ tracks
 .
 *
 /
+virtual
 void
 AddDirectListener
 (

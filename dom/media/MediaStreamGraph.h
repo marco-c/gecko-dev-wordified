@@ -5260,6 +5260,7 @@ finished
 .
 *
 /
+virtual
 bool
 AppendToTrack
 (
