@@ -87286,6 +87286,9 @@ IsEmpty
 int64_t
 dummyTimeStamp
 ;
+bool
+dummyPersisted
+;
 nsCString
 dummySuffix
 ;
@@ -87303,6 +87306,8 @@ GetDirectoryMetadata2
 originDir
 &
 dummyTimeStamp
+&
+dummyPersisted
 dummySuffix
 group
 origin
