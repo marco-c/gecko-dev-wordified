@@ -1657,7 +1657,6 @@ RegisterCallback
 (
 PrefChanged
 kHangMonitorPrefName
-nullptr
 )
 ;
 PrefChanged
@@ -1676,7 +1675,6 @@ RegisterCallback
 (
 PrefChanged
 kTelemetryPrefName
-nullptr
 )
 ;
 winMainThreadHandle

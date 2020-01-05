@@ -1928,7 +1928,7 @@ callbacks
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -1944,7 +1944,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -2047,7 +2047,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -2080,7 +2080,7 @@ this
 Preferences
 :
 :
-UnregisterCallback
+UnregisterPrefixCallback
 (
 nsPresContext
 :
@@ -5079,7 +5079,7 @@ change
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -5095,7 +5095,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -5198,7 +5198,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
@@ -5231,7 +5231,7 @@ this
 Preferences
 :
 :
-RegisterCallback
+RegisterPrefixCallback
 (
 nsPresContext
 :
