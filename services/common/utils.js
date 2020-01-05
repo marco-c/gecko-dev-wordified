@@ -1038,6 +1038,10 @@ delay
 wait
 ;
 return
+thisObj
+[
+name
+]
 ;
 }
 /

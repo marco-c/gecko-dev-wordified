@@ -581,6 +581,9 @@ initialized
 "
 )
 ;
+return
+true
+;
 }
 /
 *
@@ -820,7 +823,6 @@ Ci
 nsIPushMessage
 )
 ;
-return
 this
 .
 _onPushMessage
@@ -847,7 +849,6 @@ data
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 )
 {
-return
 this
 .
 _onPushSubscriptionChange
@@ -873,7 +874,6 @@ polling
 the
 Push
 Server
-return
 this
 .
 unsubscribe
@@ -1047,7 +1047,6 @@ status
 "
 )
 ;
-return
 this
 .
 fxAccounts
@@ -1055,6 +1054,8 @@ fxAccounts
 checkVerificationStatus
 (
 )
+;
+return
 ;
 }
 let
@@ -1114,7 +1115,6 @@ break
 case
 ON_DEVICE_DISCONNECTED_NOTIFICATION
 :
-return
 this
 .
 fxAccounts
@@ -1128,18 +1128,21 @@ data
 id
 )
 ;
+return
+;
 case
 ON_PASSWORD_CHANGED_NOTIFICATION
 :
 case
 ON_PASSWORD_RESET_NOTIFICATION
 :
-return
 this
 .
 _onPasswordChanged
 (
 )
+;
+return
 ;
 case
 ON_COLLECTION_CHANGED_NOTIFICATION

@@ -1385,8 +1385,10 @@ error
 )
 ;
 }
-function
+let
 onSyncFinished
+=
+function
 (
 )
 {

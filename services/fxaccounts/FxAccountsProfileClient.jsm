@@ -1197,7 +1197,6 @@ if
 error
 )
 {
-return
 reject
 (
 new
@@ -1221,6 +1220,8 @@ toString
 )
 )
 ;
+return
+;
 }
 let
 body
@@ -1241,11 +1242,12 @@ status
 304
 )
 {
-return
 resolve
 (
 null
 )
+;
+return
 ;
 }
 body
@@ -1267,7 +1269,6 @@ catch
 e
 )
 {
-return
 reject
 (
 new
@@ -1298,6 +1299,8 @@ body
 )
 )
 ;
+return
+;
 }
 /
 /
@@ -1320,7 +1323,6 @@ response
 success
 )
 {
-return
 resolve
 (
 {
@@ -1340,8 +1342,9 @@ etag
 }
 )
 ;
-}
 return
+;
+}
 reject
 (
 new
@@ -1410,7 +1413,6 @@ else
 method
 not
 supported
-return
 reject
 (
 new

@@ -1164,11 +1164,12 @@ configURL
 error
 )
 ;
-return
 reject
 (
 error
 )
+;
+return
 ;
 }
 if
@@ -1233,7 +1234,6 @@ body
 )
 ;
 }
-return
 reject
 (
 request
@@ -1242,6 +1242,8 @@ response
 .
 status
 )
+;
+return
 ;
 }
 resolve

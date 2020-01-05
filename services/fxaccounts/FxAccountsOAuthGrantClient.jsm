@@ -873,7 +873,6 @@ if
 error
 )
 {
-return
 reject
 (
 new
@@ -896,6 +895,8 @@ toString
 }
 )
 )
+;
+return
 ;
 }
 let
@@ -924,7 +925,6 @@ catch
 e
 )
 {
-return
 reject
 (
 new
@@ -955,6 +955,8 @@ body
 )
 )
 ;
+return
+;
 }
 /
 /
@@ -977,11 +979,12 @@ response
 success
 )
 {
-return
 resolve
 (
 body
 )
+;
+return
 ;
 }
 if
@@ -1035,7 +1038,6 @@ errno
 ERRNO_UNKNOWN_ERROR
 ;
 }
-return
 reject
 (
 new
@@ -1073,7 +1075,6 @@ else
 method
 not
 supported
-return
 reject
 (
 new

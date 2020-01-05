@@ -2561,6 +2561,7 @@ break
 default
 :
 return
+undefined
 ;
 }
 /
@@ -3676,6 +3677,7 @@ one
 )
 ;
 return
+null
 ;
 }
 let

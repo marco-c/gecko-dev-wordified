@@ -8400,7 +8400,6 @@ login
 )
 ;
 }
-return
 this
 .
 _lockedSync

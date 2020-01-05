@@ -3716,7 +3716,6 @@ engineObject
 )
 )
 {
-return
 engineObject
 .
 map
@@ -3726,6 +3725,8 @@ this
 register
 this
 )
+;
+return
 ;
 }
 try

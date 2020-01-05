@@ -1951,7 +1951,6 @@ on
 error
 responses
 .
-return
 deferred
 .
 reject
@@ -1964,6 +1963,8 @@ restResponse
 error
 )
 )
+;
+return
 ;
 }
 self
@@ -2052,7 +2053,6 @@ retrying
 "
 )
 ;
-return
 deferred
 .
 resolve
@@ -2069,6 +2069,8 @@ extraHeaders
 false
 )
 )
+;
+return
 ;
 }
 /
@@ -2188,7 +2190,6 @@ jsonResponse
 error
 )
 {
-return
 deferred
 .
 reject
@@ -2197,7 +2198,8 @@ jsonResponse
 )
 ;
 }
-return
+else
+{
 deferred
 .
 reject
@@ -2213,6 +2215,9 @@ failed
 "
 )
 )
+;
+}
+return
 ;
 }
 /
