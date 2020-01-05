@@ -33588,6 +33588,7 @@ a
 "
     
 assert
+(
 defaultValue
 .
 type
@@ -33596,12 +33597,23 @@ isDOMString
 (
 )
 or
+            
+defaultValue
+.
+type
+.
+isUSVString
+(
+)
+or
+            
 defaultValue
 .
 type
 .
 isByteString
 (
+)
 )
     
 return
