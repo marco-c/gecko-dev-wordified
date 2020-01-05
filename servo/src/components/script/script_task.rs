@@ -277,6 +277,12 @@ ReflowMsg
 ;
 use
 layout_interface
+:
+:
+ContentChangedDocumentDamage
+;
+use
+layout_interface
 ;
 use
 dom
@@ -2305,7 +2311,7 @@ self
 .
 damage
 (
-MatchSelectorsDocumentDamage
+ContentChangedDocumentDamage
 )
 ;
 }
