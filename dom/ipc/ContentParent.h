@@ -2699,7 +2699,10 @@ const
 nsCString
 &
 aTables
+nsTArray
+<
 nsCString
+>
 *
 aResults
 )

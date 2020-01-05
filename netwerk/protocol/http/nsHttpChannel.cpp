@@ -38484,7 +38484,10 @@ trackingTable
 tables
 )
 ;
-nsAutoCString
+nsTArray
+<
+nsCString
+>
 results
 ;
 rv

@@ -4058,7 +4058,10 @@ in
 the
 entity
 whitelist
-nsAutoCString
+nsTArray
+<
+nsCString
+>
 results
 ;
 rv
