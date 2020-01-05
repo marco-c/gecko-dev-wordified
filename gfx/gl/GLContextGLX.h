@@ -240,6 +240,8 @@ int
 *
 const
 out_visid
+bool
+aWebRender
 )
 ;
 ~
@@ -349,18 +351,6 @@ bool
 SwapBuffers
 (
 )
-override
-;
-virtual
-void
-GetWSIInfo
-(
-nsCString
-*
-const
-out
-)
-const
 override
 ;
 /
