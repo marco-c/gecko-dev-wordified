@@ -823,6 +823,20 @@ VideoDecoderManagerParent
 :
 AllocPVideoDecoderParent
 (
+const
+VideoInfo
+&
+aVideoInfo
+const
+layers
+:
+:
+TextureFactoryIdentifier
+&
+aIdentifier
+bool
+*
+aSuccess
 )
 {
 return
@@ -830,6 +844,8 @@ new
 VideoDecoderParent
 (
 this
+aVideoInfo
+aIdentifier
 sManagerTaskQueue
 new
 TaskQueue
@@ -848,6 +864,7 @@ VideoDecoderParent
 4
 )
 )
+aSuccess
 )
 ;
 }

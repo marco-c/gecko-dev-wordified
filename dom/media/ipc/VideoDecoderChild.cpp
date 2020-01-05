@@ -747,7 +747,7 @@ mCanSend
 false
 ;
 }
-void
+bool
 VideoDecoderChild
 :
 :
@@ -884,6 +884,7 @@ CanSend
 )
 {
 return
+true
 ;
 }
 mIPDLSelfRef
@@ -894,13 +895,10 @@ mCallback
 =
 aCallback
 ;
-mVideoInfo
+bool
+success
 =
-aVideoInfo
-;
-mIdentifier
-=
-aIdentifier
+false
 ;
 if
 (
@@ -910,6 +908,10 @@ manager
 SendPVideoDecoderConstructor
 (
 this
+aVideoInfo
+aIdentifier
+&
+success
 )
 )
 {
@@ -918,6 +920,9 @@ mCanSend
 true
 ;
 }
+return
+success
+;
 }
 void
 VideoDecoderChild
@@ -1028,8 +1033,6 @@ mCanSend
 {
 SendInit
 (
-mVideoInfo
-mIdentifier
 )
 ;
 }

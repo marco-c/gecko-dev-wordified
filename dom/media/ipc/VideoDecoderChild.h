@@ -346,7 +346,7 @@ aTime
 )
 ;
 MOZ_IS_CLASS_INIT
-void
+bool
 InitIPDL
 (
 MediaDataDecoderCallback
@@ -428,15 +428,6 @@ MediaDataDecoder
 InitPromise
 >
 mInitPromise
-;
-VideoInfo
-mVideoInfo
-;
-layers
-:
-:
-TextureFactoryIdentifier
-mIdentifier
 ;
 nsCString
 mHardwareAcceleratedReason
