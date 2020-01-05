@@ -1047,6 +1047,10 @@ deref
 .
 attrs
 .
+borrow
+(
+)
+.
 iter
 (
 )

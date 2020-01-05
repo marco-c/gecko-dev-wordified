@@ -1033,8 +1033,11 @@ PhaseNone
 event
 .
 current_target
-=
+.
+set
+(
 None
+)
 ;
 !
 event

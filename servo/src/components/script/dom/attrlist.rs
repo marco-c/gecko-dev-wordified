@@ -349,6 +349,10 @@ root
 .
 attrs
 .
+borrow
+(
+)
+.
 len
 (
 )
@@ -383,6 +387,10 @@ root
 )
 .
 attrs
+.
+borrow
+(
+)
 .
 as_slice
 (

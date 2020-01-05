@@ -656,10 +656,6 @@ self
 .
 view
 .
-clone
-(
-)
-.
 map
 (
 |
