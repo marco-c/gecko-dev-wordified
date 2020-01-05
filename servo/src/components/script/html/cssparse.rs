@@ -115,6 +115,7 @@ resource_task
 :
 {
 Load
+LoadData
 LoadResponse
 ProgressMsg
 Payload
@@ -294,7 +295,13 @@ send
 (
 Load
 (
+LoadData
+:
+:
+new
+(
 url
+)
 input_chan
 )
 )

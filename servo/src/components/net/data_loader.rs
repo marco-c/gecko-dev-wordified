@@ -64,6 +64,7 @@ resource_task
 Done
 Payload
 Metadata
+LoadData
 LoadResponse
 LoaderTask
 start_sending
@@ -77,12 +78,6 @@ base64
 :
 :
 FromBase64
-;
-use
-url
-:
-:
-Url
 ;
 use
 http
@@ -174,9 +169,9 @@ start_chan
 fn
 load
 (
-url
+load_data
 :
-Url
+LoadData
 start_chan
 :
 Sender
@@ -185,6 +180,13 @@ LoadResponse
 >
 )
 {
+let
+url
+=
+load_data
+.
+url
+;
 assert
 !
 (
@@ -693,6 +695,11 @@ channel
 ;
 load
 (
+LoadData
+:
+:
+new
+(
 FromStr
 :
 :
@@ -703,6 +710,7 @@ url
 .
 unwrap
 (
+)
 )
 start_chan
 )

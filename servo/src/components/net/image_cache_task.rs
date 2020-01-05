@@ -75,7 +75,10 @@ use
 resource_task
 :
 :
+{
+LoadData
 ResourceTask
+}
 ;
 use
 servo_util
@@ -2877,7 +2880,13 @@ resource_task
 :
 Load
 (
+LoadData
+:
+:
+new
+(
 url
+)
 response_chan
 )
 )
