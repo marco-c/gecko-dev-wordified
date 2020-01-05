@@ -3132,10 +3132,7 @@ avoid
 compile
 errors
 .
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 nsComputedDOMStyle
 :
@@ -3166,10 +3163,7 @@ nsComputedDOMStyle
 :
 SetCSSDeclaration
 (
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 )
 {
