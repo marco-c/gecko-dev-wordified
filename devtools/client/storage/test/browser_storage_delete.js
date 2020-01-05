@@ -195,6 +195,9 @@ org
 "
 "
 idb1
+(
+default
+)
 "
 "
 obj1

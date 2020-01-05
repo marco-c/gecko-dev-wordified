@@ -592,6 +592,9 @@ org
 [
 "
 idb1
+(
+default
+)
 "
 "
 obj1
@@ -600,6 +603,9 @@ obj1
 [
 "
 idb1
+(
+default
+)
 "
 "
 obj2
@@ -608,6 +614,9 @@ obj2
 [
 "
 idb2
+(
+default
+)
 "
 "
 obj3
@@ -646,6 +655,9 @@ org
 idb
 -
 s1
+(
+default
+)
 "
 "
 obj
@@ -658,6 +670,9 @@ s1
 idb
 -
 s2
+(
+default
+)
 "
 "
 obj
@@ -688,6 +703,9 @@ db
 :
 "
 idb1
+(
+default
+)
 "
 origin
 :
@@ -714,6 +732,9 @@ db
 :
 "
 idb2
+(
+default
+)
 "
 origin
 :
@@ -770,6 +791,9 @@ db
 idb
 -
 s1
+(
+default
+)
 "
 origin
 :
@@ -798,6 +822,9 @@ db
 idb
 -
 s2
+(
+default
+)
 "
 origin
 :
@@ -837,7 +864,12 @@ org
 "
 :
 {
+"
 idb1
+(
+default
+)
+"
 :
 [
 {
@@ -919,7 +951,12 @@ indexes
 ]
 }
 ]
+"
 idb2
+(
+default
+)
+"
 :
 [
 {
@@ -994,6 +1031,9 @@ org
 idb
 -
 s1
+(
+default
+)
 "
 :
 [
@@ -1023,6 +1063,9 @@ indexes
 idb
 -
 s2
+(
+default
+)
 "
 :
 [
@@ -1088,6 +1131,9 @@ org
 {
 "
 idb1
+(
+default
+)
 #
 obj1
 "
@@ -1171,6 +1217,9 @@ com
 ]
 "
 idb1
+(
+default
+)
 #
 obj2
 "
@@ -1209,6 +1258,9 @@ baz
 ]
 "
 idb2
+(
+default
+)
 #
 obj3
 "
@@ -1247,6 +1299,9 @@ org
 idb
 -
 s1
+(
+default
+)
 #
 obj
 -
@@ -1309,6 +1364,9 @@ com
 idb
 -
 s2
+(
+default
+)
 #
 obj
 -
