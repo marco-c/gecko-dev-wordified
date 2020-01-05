@@ -316,12 +316,12 @@ use
 collections
 :
 :
-dlist
+linked_list
 :
 :
 {
 self
-DList
+LinkedList
 }
 ;
 use
@@ -400,9 +400,10 @@ use
 util
 :
 :
-dlist
-as
-servo_dlist
+linked_list
+:
+:
+prepend_from
 ;
 use
 util
@@ -844,7 +845,7 @@ and
 pub
 background_and_borders
 :
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -866,7 +867,7 @@ step
 pub
 block_backgrounds_and_borders
 :
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -890,7 +891,7 @@ contexts
 pub
 floats
 :
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -904,7 +905,7 @@ content
 pub
 content
 :
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -919,7 +920,7 @@ step
 pub
 outlines
 :
-DList
+LinkedList
 <
 DisplayItem
 >
@@ -933,7 +934,7 @@ contexts
 pub
 children
 :
-DList
+LinkedList
 <
 Arc
 <
@@ -971,7 +972,7 @@ DisplayList
 {
 background_and_borders
 :
-DList
+LinkedList
 :
 :
 new
@@ -979,7 +980,7 @@ new
 )
 block_backgrounds_and_borders
 :
-DList
+LinkedList
 :
 :
 new
@@ -987,7 +988,7 @@ new
 )
 floats
 :
-DList
+LinkedList
 :
 :
 new
@@ -995,7 +996,7 @@ new
 )
 content
 :
-DList
+LinkedList
 :
 :
 new
@@ -1003,7 +1004,7 @@ new
 )
 outlines
 :
-DList
+LinkedList
 :
 :
 new
@@ -1011,7 +1012,7 @@ new
 )
 children
 :
-DList
+LinkedList
 :
 :
 new
@@ -1173,9 +1174,6 @@ mut
 self
 )
 {
-servo_dlist
-:
-:
 prepend_from
 (
 &
@@ -1190,9 +1188,6 @@ self
 outlines
 )
 ;
-servo_dlist
-:
-:
 prepend_from
 (
 &
@@ -1207,9 +1202,6 @@ self
 content
 )
 ;
-servo_dlist
-:
-:
 prepend_from
 (
 &
@@ -1224,9 +1216,6 @@ self
 block_backgrounds_and_borders
 )
 ;
-servo_dlist
-:
-:
 prepend_from
 (
 &
@@ -7040,7 +7029,7 @@ a
 Empty
 Parent
 (
-dlist
+linked_list
 :
 :
 Iter

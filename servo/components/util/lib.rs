@@ -390,7 +390,7 @@ deque
 ;
 pub
 mod
-dlist
+linked_list
 ;
 pub
 mod
