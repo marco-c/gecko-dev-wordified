@@ -858,15 +858,6 @@ aAttrs
 0
 ;
 virtual
-uint16_t
-ErrorCode
-(
-)
-const
-=
-0
-;
-virtual
 bool
 MozAnon
 (
