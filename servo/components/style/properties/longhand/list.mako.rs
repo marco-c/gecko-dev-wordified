@@ -229,12 +229,6 @@ none
 circle
 square
 decimal
-lower
--
-alpha
-upper
--
-alpha
 disclosure
 -
 open
@@ -292,6 +286,12 @@ katakana
 katakana
 -
 iroha
+lower
+-
+alpha
+upper
+-
+alpha
 "
 "
 "
