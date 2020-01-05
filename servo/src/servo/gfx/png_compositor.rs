@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+*
+!
 A
 graphics
 compositor
@@ -35,9 +33,8 @@ in
 PNG
 format
 .
-"
-]
-;
+*
+/
 use
 libc
 :

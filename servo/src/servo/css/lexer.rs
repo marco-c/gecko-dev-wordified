@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+/
+!
 Code
 to
 lex
@@ -10,9 +8,6 @@ and
 tokenize
 css
 files
-.
-"
-]
 use
 option
 :

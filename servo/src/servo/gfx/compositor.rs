@@ -16,11 +16,9 @@ azure_hl
 :
 DrawTarget
 ;
-#
-[
-doc
-=
-"
+/
+*
+*
 The
 interface
 used
@@ -45,8 +43,8 @@ drawn
 to
 the
 display
-"
-]
+*
+/
 trait
 Compositor
 {

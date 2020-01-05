@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+/
+!
 Helper
 functions
 to
@@ -11,9 +9,6 @@ values
 of
 specific
 attributes
-.
-"
-]
 use
 css
 :

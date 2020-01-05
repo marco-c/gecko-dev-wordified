@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+*
+!
 A
 collection
 of
@@ -16,9 +14,8 @@ css
 and
 html
 parsing
-.
-"
-]
+*
+/
 use
 option
 :
