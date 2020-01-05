@@ -142,10 +142,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-workers
-;
 namespace
 dom
 {
