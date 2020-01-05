@@ -1023,6 +1023,10 @@ aContext
 nsBoxFrame
 (
 aContext
+FrameType
+:
+:
+Menu
 )
 mIsMenu
 (
@@ -1438,15 +1442,9 @@ FirstChild
 )
 -
 >
-GetType
+IsMenuPopupFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-menuPopupFrame
 "
 popup
 list

@@ -134,6 +134,7 @@ aContext
 ;
 class
 nsPopupSetFrame
+final
 :
 public
 nsBoxFrame
@@ -152,6 +153,13 @@ aContext
 nsBoxFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+PopupSet
 )
 {
 }
@@ -280,15 +288,6 @@ nsIFrame
 *
 aDestructRoot
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #

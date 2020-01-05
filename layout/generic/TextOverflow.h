@@ -1223,9 +1223,10 @@ AnalyzeMarkerEdges
 nsIFrame
 *
 aFrame
-const
-nsIAtom
-*
+mozilla
+:
+:
+FrameType
 aFrameType
 const
 LogicalRect

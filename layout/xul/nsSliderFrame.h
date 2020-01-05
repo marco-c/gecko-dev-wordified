@@ -231,6 +231,7 @@ nsSliderMediator
 ;
 class
 nsSliderFrame
+final
 :
 public
 nsBoxFrame
@@ -426,15 +427,6 @@ nsEventStatus
 *
 aEventStatus
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 /

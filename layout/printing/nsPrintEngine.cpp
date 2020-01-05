@@ -16477,15 +16477,9 @@ frame
 frame
 -
 >
-GetType
+IsSubDocumentFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-subDocumentFrame
 )
 {
 nsView

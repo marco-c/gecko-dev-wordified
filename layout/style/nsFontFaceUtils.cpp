@@ -939,15 +939,9 @@ if
 f
 -
 >
-GetType
+IsPlaceholderFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-placeholderFrame
 )
 {
 nsIFrame

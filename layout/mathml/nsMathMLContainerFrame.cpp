@@ -969,15 +969,9 @@ eMathML
 aFrame
 -
 >
-GetType
+IsBlockFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-blockFrame
 ;
 }
 NS_DECLARE_FRAME_PROPERTY_DELETABLE

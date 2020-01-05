@@ -159,6 +159,7 @@ matrix
 /
 class
 nsMathMLmtableWrapperFrame
+final
 :
 public
 nsTableWrapperFrame
@@ -365,6 +366,7 @@ nsMathMLmtableWrapperFrame
 -
 class
 nsMathMLmtableFrame
+final
 :
 public
 nsTableFrame
@@ -859,6 +861,7 @@ nsMathMLmtableFrame
 -
 class
 nsMathMLmtrFrame
+final
 :
 public
 nsTableRowFrame
@@ -1309,6 +1312,7 @@ nsMathMLmtdFrame
 -
 class
 nsMathMLmtdInnerFrame
+final
 :
 public
 nsBlockFrame

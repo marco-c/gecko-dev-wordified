@@ -159,6 +159,7 @@ nsDisplayRangeFocusRing
 ;
 class
 nsRangeFrame
+final
 :
 public
 nsContainerFrame
@@ -461,15 +462,6 @@ nsRenderingContext
 *
 aRenderingContext
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 virtual

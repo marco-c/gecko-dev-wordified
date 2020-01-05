@@ -301,10 +301,10 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-nsGkAtoms
+FrameType
 :
 :
-svgTextFrame
+SVGText
 )
 ;
 return
@@ -349,10 +349,10 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-nsGkAtoms
+FrameType
 :
 :
-svgTextFrame
+SVGText
 )
 ;
 return

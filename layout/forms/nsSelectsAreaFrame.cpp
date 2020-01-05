@@ -669,15 +669,9 @@ if
 frame
 -
 >
-GetType
+IsListControlFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-listControlFrame
 )
 return
 static_cast

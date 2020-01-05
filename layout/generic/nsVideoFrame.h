@@ -477,14 +477,6 @@ override
 ;
 #
 endif
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 bool
 IsFrameOfType
 (

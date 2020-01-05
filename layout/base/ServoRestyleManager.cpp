@@ -975,15 +975,9 @@ styleFrame
 styleFrame
 -
 >
-GetType
+IsImageFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-imageFrame
 )
 ;
 styleFrame

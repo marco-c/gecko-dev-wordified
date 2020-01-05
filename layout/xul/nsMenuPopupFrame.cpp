@@ -698,6 +698,10 @@ aContext
 nsBoxFrame
 (
 aContext
+FrameType
+:
+:
+MenuPopup
 )
 mCurrentMenu
 (

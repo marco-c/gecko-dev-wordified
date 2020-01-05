@@ -294,6 +294,7 @@ nsSubDocumentFrame
 /
 class
 nsSubDocumentFrame
+final
 :
 public
 nsAtomicContainerFrame
@@ -354,14 +355,6 @@ override
 #
 endif
 NS_DECL_QUERYFRAME
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 bool
 IsFrameOfType
 (

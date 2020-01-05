@@ -318,15 +318,9 @@ if
 frame
 -
 >
-GetType
+IsTableWrapperFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-tableWrapperFrame
 )
 return
 frame

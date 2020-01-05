@@ -200,14 +200,6 @@ DetailsFrame
 (
 )
 ;
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

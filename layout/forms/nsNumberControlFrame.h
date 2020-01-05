@@ -441,15 +441,6 @@ aResult
 #
 endif
 virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
-virtual
 bool
 IsFrameOfType
 (

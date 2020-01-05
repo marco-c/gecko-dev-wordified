@@ -276,6 +276,7 @@ PluginFrameDidCompositeObserver
 ;
 class
 nsPluginFrame
+final
 :
 public
 nsFrame
@@ -477,15 +478,6 @@ nsEventStatus
 *
 aEventStatus
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 virtual

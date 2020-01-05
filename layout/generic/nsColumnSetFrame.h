@@ -428,15 +428,6 @@ aLists
 )
 override
 ;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 /
 *
 *

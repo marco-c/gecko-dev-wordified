@@ -6973,10 +6973,10 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 anchorFrame
-nsGkAtoms
+FrameType
 :
 :
-scrollFrame
+Scroll
 )
 ;
 AutoWeakFrame

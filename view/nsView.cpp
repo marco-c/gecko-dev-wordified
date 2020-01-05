@@ -6431,15 +6431,9 @@ aWidget
 mFrame
 -
 >
-GetType
+IsMenuPopupFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-menuPopupFrame
 )
 {
 nsXULPopupManager

@@ -340,8 +340,13 @@ aState
 ;
 #
 endif
+explicit
 nsBox
 (
+mozilla
+:
+:
+FrameType
 )
 ;
 virtual

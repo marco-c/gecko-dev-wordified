@@ -879,15 +879,6 @@ NSISTATEFULFRAME
 OVERLOAD
 of
 nsIFrame
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 /
 *
 *

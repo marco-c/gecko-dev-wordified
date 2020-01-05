@@ -145,6 +145,7 @@ namespace
 mozilla
 class
 nsProgressFrame
+final
 :
 public
 nsContainerFrame
@@ -236,15 +237,6 @@ nsReflowStatus
 &
 aStatus
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #

@@ -2086,15 +2086,9 @@ GetParent
 )
 -
 >
-GetType
+IsTableColGroupFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-tableColGroupFrame
 "
 expected
 a
