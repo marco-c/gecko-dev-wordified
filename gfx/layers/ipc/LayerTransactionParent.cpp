@@ -1970,10 +1970,6 @@ common
 transform
 (
 )
-.
-value
-(
-)
 )
 ;
 layer
