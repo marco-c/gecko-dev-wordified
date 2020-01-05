@@ -271,7 +271,7 @@ font
 QuartzFontHandle
 :
 :
-new
+new_from_buffer
 (
 fctx
 buf
