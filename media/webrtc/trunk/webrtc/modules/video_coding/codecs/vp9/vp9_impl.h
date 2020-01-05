@@ -134,9 +134,6 @@ vp9_frame_buffer_pool
 h
 "
 #
-ifdef
-LIBVPX_SVC
-#
 include
 "
 vpx
@@ -145,8 +142,6 @@ svc_context
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -510,9 +505,6 @@ SetSvcRates
 (
 )
 ;
-#
-ifdef
-LIBVPX_SVC
 /
 /
 Used
@@ -580,8 +572,6 @@ SuperFrameRefSettings
 settings
 )
 ;
-#
-endif
 virtual
 int
 GetEncodedLayerFrame
@@ -702,14 +692,9 @@ vpx_image_t
 *
 raw_
 ;
-#
-ifdef
-LIBVPX_SVC
 SvcInternal_t
 svc_internal_
 ;
-#
-endif
 const
 VideoFrame
 *
