@@ -303,10 +303,9 @@ Namespace
 :
 from_str
 (
-value
-.
-as_slice
+Some
 (
+value
 )
 )
 )

@@ -463,10 +463,7 @@ servo_util
 str
 :
 :
-{
 DOMString
-null_str_as_empty_ref
-}
 ;
 use
 std
@@ -4699,11 +4696,7 @@ Namespace
 :
 from_str
 (
-null_str_as_empty_ref
-(
-&
 namespace
-)
 )
 ;
 self
@@ -5024,11 +5017,7 @@ Namespace
 :
 from_str
 (
-null_str_as_empty_ref
-(
-&
 namespace_url
-)
 )
 ;
 let
@@ -5507,11 +5496,7 @@ Namespace
 :
 from_str
 (
-null_str_as_empty_ref
-(
-&
 namespace
-)
 )
 ;
 self
