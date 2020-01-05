@@ -535,7 +535,7 @@ starts_inline_flow
 do
 child_ctx
 .
-with_imm_node
+with_base
 |
 child_node
 |
@@ -904,7 +904,7 @@ starts_inline_flow
 do
 kid
 .
-with_mut_node
+with_mut_base
 |
 child_node
 |
@@ -967,7 +967,7 @@ kid
 do
 kid
 .
-with_mut_node
+with_mut_base
 |
 child_node
 |

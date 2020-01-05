@@ -2298,7 +2298,7 @@ child_flow
 do
 child_flow
 .
-with_imm_node
+with_base
 |
 child_node
 |
@@ -2616,7 +2616,7 @@ last_child
 do
 parent_flow
 .
-with_imm_node
+with_base
 |
 parent_node
 |

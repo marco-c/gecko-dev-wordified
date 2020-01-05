@@ -1403,12 +1403,12 @@ window
 do
 root
 .
-with_mut_node
+with_mut_base
 |
-node
+base
 |
 {
-node
+base
 .
 add_to_doc
 (

@@ -601,7 +601,7 @@ for
 FlowContext
 {
 fn
-with_imm_node
+with_base
 <
 R
 >
@@ -701,7 +701,7 @@ info
 }
 }
 fn
-with_mut_node
+with_mut_base
 <
 R
 >
@@ -1257,7 +1257,7 @@ Au
 do
 self
 .
-with_imm_node
+with_base
 |
 common_info
 |
@@ -1315,7 +1315,7 @@ int
 do
 self
 .
-with_imm_node
+with_base
 |
 info
 |
@@ -1744,7 +1744,7 @@ DisplayList
 do
 self
 .
-with_imm_node
+with_base
 |
 info
 |
@@ -2503,9 +2503,9 @@ flow
 do
 self
 .
-with_imm_node
+with_base
 |
-this_node
+base
 |
 {
 fmt
@@ -2518,7 +2518,7 @@ f
 %
 ?
 "
-this_node
+base
 .
 id
 repr

@@ -109,7 +109,7 @@ as
 immutable
 .
 fn
-with_imm_node
+with_base
 <
 R
 >
@@ -142,7 +142,7 @@ as
 mutable
 .
 fn
-with_mut_node
+with_mut_base
 <
 R
 >
@@ -699,7 +699,7 @@ bool
 do
 self
 .
-with_imm_node
+with_base
 |
 this_node
 |
@@ -728,7 +728,7 @@ NR
 do
 self
 .
-with_mut_node
+with_mut_base
 |
 this_node
 |
@@ -736,7 +736,7 @@ this_node
 do
 new_child
 .
-with_mut_node
+with_mut_base
 |
 new_child_node
 |
@@ -816,7 +816,7 @@ last_child
 do
 last_child
 .
-with_mut_node
+with_mut_base
 |
 last_child_node
 |
@@ -913,7 +913,7 @@ NR
 do
 self
 .
-with_mut_node
+with_mut_base
 |
 this_node
 |
@@ -921,7 +921,7 @@ this_node
 do
 child
 .
-with_mut_node
+with_mut_base
 |
 child_node
 |
@@ -970,7 +970,7 @@ prev_sibling
 do
 prev_sibling
 .
-with_mut_node
+with_mut_base
 |
 prev_sibling_node
 |
@@ -1019,7 +1019,7 @@ next_sibling
 do
 next_sibling
 .
-with_mut_node
+with_mut_base
 |
 next_sibling_node
 |
@@ -1085,7 +1085,7 @@ maybe_current
 =
 self
 .
-with_imm_node
+with_base
 (
 |
 n
@@ -1136,7 +1136,7 @@ maybe_current
 =
 current
 .
-with_imm_node
+with_base
 (
 |
 n
