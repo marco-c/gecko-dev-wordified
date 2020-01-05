@@ -5,6 +5,8 @@ os
 import
 path
 import
+contextlib
+import
 subprocess
 import
 sys
@@ -16,8 +18,14 @@ mach
 registrar
 import
 Registrar
-class
+contextlib
+.
+contextmanager
+def
 cd
+(
+new_path
+)
 :
     
 "
@@ -35,63 +43,34 @@ directory
 "
 "
     
-def
-__init__
-(
-self
-newPath
-)
-:
-        
-self
-.
-newPath
-=
-newPath
-    
-def
-__enter__
-(
-self
-)
-:
-        
-self
-.
-savedPath
+previous_path
 =
 os
 .
 getcwd
 (
 )
-        
-os
-.
-chdir
-(
-self
-.
-newPath
-)
     
-def
-__exit__
-(
-self
-etype
-value
-traceback
-)
+try
 :
         
 os
 .
 chdir
 (
-self
+new_path
+)
+        
+yield
+    
+finally
+:
+        
+os
 .
-savedPath
+chdir
+(
+previous_path
 )
 class
 CommandBase
@@ -349,6 +328,7 @@ path
 .
 join
 (
+                
 context
 .
 topdir
@@ -396,6 +376,7 @@ path
 .
 join
 (
+                
 context
 .
 topdir
@@ -461,6 +442,8 @@ system
 rust
 "
 ]
+\
+                
 or
 self
 .
@@ -554,6 +537,8 @@ system
 cargo
 "
 ]
+\
+                
 or
 self
 .
@@ -576,6 +561,7 @@ extra_path
 +
 =
 [
+                
 path
 .
 join
@@ -622,6 +608,7 @@ s
 "
 %
 (
+                
 os
 .
 pathsep
@@ -764,6 +751,7 @@ context
 .
 bootstrapped
 :
+            
 return
         
 submodules
@@ -871,6 +859,7 @@ init
 -
 recursive
 "
+                                       
 "
 -
 -
@@ -908,6 +897,7 @@ path
 .
 join
 (
+                
 self
 .
 context
@@ -971,6 +961,7 @@ path
 .
 join
 (
+                
 self
 .
 context
