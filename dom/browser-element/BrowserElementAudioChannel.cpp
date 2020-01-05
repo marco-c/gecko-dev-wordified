@@ -979,7 +979,6 @@ aAudioChannel
 }
 protected
 :
-virtual
 void
 DoWork
 (
@@ -1088,7 +1087,6 @@ aAudioChannel
 }
 protected
 :
-virtual
 void
 DoWork
 (
@@ -1245,7 +1243,6 @@ false
 }
 protected
 :
-virtual
 void
 DoWork
 (
@@ -1360,7 +1357,6 @@ aAudioChannel
 }
 protected
 :
-virtual
 void
 DoWork
 (

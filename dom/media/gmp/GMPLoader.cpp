@@ -203,11 +203,11 @@ nullptr
 )
 {
 }
-virtual
 ~
 GMPLoaderImpl
 (
 )
+override
 =
 default
 ;
@@ -330,6 +330,7 @@ public
 PassThroughGMPAdapter
 (
 )
+override
 {
 /
 /

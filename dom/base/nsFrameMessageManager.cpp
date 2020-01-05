@@ -10744,11 +10744,11 @@ SameParentProcessMessageManagerCallback
 )
 ;
 }
-virtual
 ~
 SameParentProcessMessageManagerCallback
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -10756,7 +10756,6 @@ SameParentProcessMessageManagerCallback
 )
 ;
 }
-virtual
 bool
 DoLoadMessageManagerScript
 (
@@ -10798,7 +10797,6 @@ return
 true
 ;
 }
-virtual
 nsresult
 DoSendAsyncMessage
 (
@@ -10993,7 +10991,6 @@ return
 true
 ;
 }
-virtual
 bool
 CheckAppHasStatus
 (
@@ -11055,11 +11052,11 @@ ChildProcessMessageManagerCallback
 )
 ;
 }
-virtual
 ~
 ChildProcessMessageManagerCallback
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -11067,7 +11064,6 @@ ChildProcessMessageManagerCallback
 )
 ;
 }
-virtual
 bool
 DoSendBlockingMessage
 (
@@ -11245,7 +11241,6 @@ aRetVal
 )
 ;
 }
-virtual
 nsresult
 DoSendAsyncMessage
 (
@@ -11437,7 +11432,6 @@ aCpows
 )
 {
 }
-virtual
 nsresult
 HandleMessage
 (
@@ -11511,11 +11505,11 @@ SameChildProcessMessageManagerCallback
 )
 ;
 }
-virtual
 ~
 SameChildProcessMessageManagerCallback
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -11523,7 +11517,6 @@ SameChildProcessMessageManagerCallback
 )
 ;
 }
-virtual
 bool
 DoSendBlockingMessage
 (
@@ -11646,7 +11639,6 @@ return
 true
 ;
 }
-virtual
 nsresult
 DoSendAsyncMessage
 (

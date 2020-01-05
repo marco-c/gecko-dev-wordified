@@ -1622,11 +1622,11 @@ override
 ;
 private
 :
-virtual
 ~
 MemoryReportRequestChild
 (
 )
+override
 ;
 bool
 mAnonymize
@@ -1961,6 +1961,7 @@ private
 CycleCollectWithLogsChild
 (
 )
+override
 {
 if
 (
@@ -2596,7 +2597,6 @@ BackgroundChildPrimer
 =
 default
 ;
-virtual
 void
 ActorCreated
 (
@@ -2621,7 +2621,6 @@ actor
 )
 ;
 }
-virtual
 void
 ActorFailed
 (

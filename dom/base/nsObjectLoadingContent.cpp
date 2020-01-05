@@ -1047,6 +1047,7 @@ aContent
 nsAsyncInstantiateEvent
 (
 )
+override
 =
 default
 ;
@@ -1054,6 +1055,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 ;
 private
 :
@@ -1223,6 +1225,7 @@ aContent
 CheckPluginStopEvent
 (
 )
+override
 =
 default
 ;
@@ -1230,6 +1233,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 ;
 private
 :
@@ -1810,6 +1814,7 @@ aDocument
 nsSimplePluginEvent
 (
 )
+override
 =
 default
 ;
@@ -1817,6 +1822,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 ;
 private
 :
@@ -2009,6 +2015,7 @@ submittedCrashReport
 nsPluginCrashedEvent
 (
 )
+override
 =
 default
 ;
@@ -2016,6 +2023,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 ;
 }
 ;
@@ -2268,11 +2276,11 @@ override
 ;
 protected
 :
-virtual
 ~
 nsStopPluginRunnable
 (
 )
+override
 =
 default
 ;

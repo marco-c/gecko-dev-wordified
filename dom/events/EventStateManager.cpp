@@ -23274,7 +23274,6 @@ aTarget
 )
 {
 }
-virtual
 void
 HandleEvent
 (
@@ -23282,6 +23281,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
+override
 {
 if
 (
