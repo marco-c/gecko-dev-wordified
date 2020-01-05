@@ -2054,6 +2054,7 @@ kid
 aContext
 m
 aDirtyRect
+aFlags
 )
 ;
 if
