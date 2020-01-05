@@ -1454,7 +1454,7 @@ case
 AnimationPhase
 :
 :
-Null
+Idle
 :
 case
 AnimationPhase

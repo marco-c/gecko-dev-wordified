@@ -560,7 +560,7 @@ enum
 class
 AnimationPhase
 {
-Null
+Idle
 /
 /
 Not
@@ -613,7 +613,7 @@ mPhase
 AnimationPhase
 :
 :
-Null
+Idle
 ;
 ComputedTimingFunction
 :

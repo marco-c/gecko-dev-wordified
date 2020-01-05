@@ -436,7 +436,7 @@ ComputedTiming
 AnimationPhase
 :
 :
-Null
+Idle
 )
 mPreviousIteration
 (
