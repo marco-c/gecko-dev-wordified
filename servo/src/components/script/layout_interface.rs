@@ -149,7 +149,7 @@ geom
 size
 :
 :
-Size2D
+TypedSize2D
 ;
 use
 libc
@@ -172,7 +172,10 @@ servo_util
 geometry
 :
 :
+{
 Au
+PagePx
+}
 ;
 use
 std
@@ -1121,9 +1124,10 @@ size
 pub
 window_size
 :
-Size2D
+TypedSize2D
 <
-uint
+PagePx
+f32
 >
 /
 /

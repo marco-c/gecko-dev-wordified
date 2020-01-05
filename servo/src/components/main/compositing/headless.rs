@@ -69,7 +69,7 @@ geom
 size
 :
 :
-Size2D
+TypedSize2D
 ;
 use
 servo_msg
@@ -249,10 +249,10 @@ send
 (
 ResizedWindowMsg
 (
-Size2D
+TypedSize2D
 (
-640u
-480u
+640_f32
+480_f32
 )
 )
 )

@@ -78,7 +78,7 @@ geom
 size
 :
 :
-Size2D
+TypedSize2D
 ;
 use
 gfx
@@ -173,6 +173,15 @@ resource_task
 :
 :
 ResourceTask
+;
+use
+servo_util
+:
+:
+geometry
+:
+:
+PagePx
 ;
 use
 servo_util
@@ -626,9 +635,10 @@ profiler_chan
 ProfilerChan
 window_size
 :
-Size2D
+TypedSize2D
 <
-uint
+PagePx
+f32
 >
 opts
 :
