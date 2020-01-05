@@ -3910,6 +3910,14 @@ ExitMsg
 )
 ;
 }
+self
+.
+compositor
+.
+close
+(
+)
+;
 }
 /
 /
