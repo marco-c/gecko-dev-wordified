@@ -869,7 +869,7 @@ it
 Selector
 Matching
 .
-uint8_t
+uint16_t
 Gecko_ElementState
 (
 RawGeckoElementBorrowed
