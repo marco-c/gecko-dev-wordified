@@ -17731,7 +17731,7 @@ see
 nsStyleConsts
 .
 h
-SyleDisplay
+StyleDisplay
 mozilla
 :
 :
