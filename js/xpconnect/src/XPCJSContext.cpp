@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIMemoryInfoDumper
 .
 h
@@ -7400,7 +7393,7 @@ Watchdog
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 JS

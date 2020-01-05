@@ -516,15 +516,15 @@ prtime
 h
 >
 #
+ifdef
+MOZ_WIDGET_GONK
+#
 include
 "
 nsThreadUtils
 .
 h
 "
-#
-ifdef
-MOZ_WIDGET_GONK
 #
 include
 "
@@ -785,7 +785,7 @@ Tracer
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 Event

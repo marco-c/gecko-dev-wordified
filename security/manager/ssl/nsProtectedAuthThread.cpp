@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 pk11func
 .
 h
@@ -180,7 +173,7 @@ Auth
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 Protected

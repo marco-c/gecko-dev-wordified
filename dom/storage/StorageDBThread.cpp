@@ -2120,7 +2120,7 @@ DB
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 localStorage

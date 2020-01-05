@@ -2820,7 +2820,7 @@ IsEmpty
 )
 )
 {
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 initData
 -
