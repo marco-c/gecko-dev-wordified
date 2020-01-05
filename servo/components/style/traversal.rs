@@ -68,14 +68,6 @@ the
 bloom
 filter
 .
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 atomic_refcell
 :
