@@ -1729,7 +1729,7 @@ NotifyObservers
 dispatchTo
 =
 "
-gecko
+proxy
 "
 )
 private
