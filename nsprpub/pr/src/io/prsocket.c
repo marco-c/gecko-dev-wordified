@@ -1956,7 +1956,7 @@ PR_FALSE
 ;
 }
 /
-/
+*
 TCP
 Fast
 Open
@@ -1968,14 +1968,12 @@ ConnectEx
 which
 uses
 overlapped
-/
-/
+*
 input
 /
 output
 .
-/
-/
+*
 To
 get
 result
@@ -1985,6 +1983,8 @@ to
 use
 GetOverlappedResult
 .
+*
+/
 if
 (
 fd
@@ -2058,7 +2058,7 @@ n
 )
 ;
 /
-/
+*
 When
 ConnectEx
 is
@@ -2069,8 +2069,7 @@ set
 socket
 options
 and
-/
-/
+*
 property
 are
 not
@@ -2079,8 +2078,7 @@ and
 to
 enable
 them
-/
-/
+*
 SO_UPDATE_CONNECT_CONTEXT
 option
 need
@@ -2088,6 +2086,8 @@ to
 be
 set
 .
+*
+/
 if
 (
 setsockopt
@@ -6784,7 +6784,7 @@ WIN95
 )
 SocketTCPSendTo
 /
-/
+*
 This
 is
 for
@@ -6796,6 +6796,8 @@ imitate
 Linux
 interface
 .
+*
+/
 #
 else
 (

@@ -1953,7 +1953,7 @@ return
 ;
 }
 /
-/
+*
 ConnectEx
 requires
 the
@@ -1967,6 +1967,9 @@ We
 will
 use
 INADDR_ANY
+.
+*
+/
 PRNetAddr
 bindAddr
 ;
@@ -2142,7 +2145,7 @@ ol
 )
 ;
 /
-/
+*
 ConnectEx
 return
 TRUE
@@ -2155,6 +2158,8 @@ on
 an
 error
 .
+*
+/
 if
 (
 _pr_win_connectex
@@ -2189,7 +2194,7 @@ TRUE
 )
 {
 /
-/
+*
 When
 ConnectEx
 is
@@ -2200,8 +2205,7 @@ set
 socket
 options
 and
-/
-/
+*
 property
 are
 not
@@ -2210,8 +2214,7 @@ and
 to
 enable
 them
-/
-/
+*
 SO_UPDATE_CONNECT_CONTEXT
 option
 need
@@ -2219,6 +2222,8 @@ to
 be
 set
 .
+*
+/
 rv
 =
 setsockopt
@@ -2277,7 +2282,7 @@ return
 ;
 }
 /
-/
+*
 We
 imitate
 Linux
@@ -2291,8 +2296,7 @@ of
 bytes
 send
 but
-/
-/
+*
 it
 can
 not
@@ -2306,8 +2310,7 @@ time
 so
 we
 return
-/
-/
+*
 number
 of
 bytes
@@ -2322,10 +2325,11 @@ be
 return
 on
 the
-/
-/
+*
 connectcontinue
 .
+*
+/
 fd
 -
 >
@@ -2398,7 +2402,7 @@ nonblocking
 )
 {
 /
-/
+*
 Remember
 that
 overlapped
@@ -2411,8 +2415,7 @@ will
 neede
 to
 get
-/
-/
+*
 the
 final
 result
@@ -2420,6 +2423,8 @@ of
 ConnectEx
 call
 .
+*
+/
 fd
 -
 >
@@ -2436,7 +2441,7 @@ WSAEWOULDBLOCK
 )
 ;
 /
-/
+*
 ConnectEx
 will
 copy
@@ -2448,8 +2453,7 @@ internal
 buffer
 and
 send
-/
-/
+*
 them
 during
 Fast
@@ -2462,13 +2466,14 @@ Therefore
 we
 can
 assumed
-/
-/
+*
 this
 data
 already
 send
 .
+*
+/
 return
 amount
 ;
