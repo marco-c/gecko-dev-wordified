@@ -3360,6 +3360,7 @@ callerFP
 #
 ifdef
 DEBUG
+const
 Code
 *
 code
@@ -6868,6 +6869,7 @@ is
 a
 fault
 .
+const
 Code
 *
 code

@@ -2371,7 +2371,7 @@ WasmInstanceObject
 *
 >
 object
-MutableCode
+SharedCode
 code
 UniqueDebugState
 debug

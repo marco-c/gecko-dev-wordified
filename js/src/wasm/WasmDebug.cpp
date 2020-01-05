@@ -607,7 +607,7 @@ DebugState
 :
 DebugState
 (
-MutableCode
+SharedCode
 code
 const
 Metadata

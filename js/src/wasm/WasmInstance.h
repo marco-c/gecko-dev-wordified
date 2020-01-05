@@ -491,7 +491,7 @@ ReadBarrieredWasmInstanceObject
 object_
 ;
 const
-MutableCode
+SharedCode
 code_
 ;
 const
@@ -603,7 +603,7 @@ JSContext
 cx
 HandleWasmInstanceObject
 object
-MutableCode
+SharedCode
 code
 UniqueDebugState
 debug
@@ -672,17 +672,6 @@ const
 {
 return
 compartment_
-;
-}
-Code
-&
-code
-(
-)
-{
-return
-*
-code_
 ;
 }
 const

@@ -524,6 +524,7 @@ in
 the
 compartment
 .
+const
 Code
 *
 lookupCode

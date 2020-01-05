@@ -704,6 +704,7 @@ codeBase
 }
 }
 ;
+const
 Code
 *
 Compartment
