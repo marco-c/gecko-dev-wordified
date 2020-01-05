@@ -295,16 +295,6 @@ GMPTimestamp
 aOutTime
 )
 ;
-GMPErr
-GMPCreateRecordIterator
-(
-RecvGMPRecordIteratorPtr
-aRecvIteratorFunc
-void
-*
-aUserArg
-)
-;
 }
 /
 /

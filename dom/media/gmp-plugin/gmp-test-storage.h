@@ -322,16 +322,6 @@ OpenContinuation
 aContinuation
 )
 ;
-GMPErr
-GMPEnumRecordNames
-(
-RecvGMPRecordIteratorPtr
-aRecvIteratorFunc
-void
-*
-aUserArg
-)
-;
 #
 endif
 /
