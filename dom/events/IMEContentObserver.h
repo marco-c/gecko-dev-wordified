@@ -413,6 +413,12 @@ Destroy
 (
 )
 ;
+bool
+Destroyed
+(
+)
+const
+;
 /
 *
 *

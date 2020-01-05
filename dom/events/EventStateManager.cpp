@@ -5474,7 +5474,15 @@ if
 mIMEContentObserver
 )
 {
+RefPtr
+<
+IMEContentObserver
+>
+contentObserver
+=
 mIMEContentObserver
+;
+contentObserver
 -
 >
 HandleQueryContentEvent
