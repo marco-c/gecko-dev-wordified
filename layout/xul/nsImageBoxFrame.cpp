@@ -1618,6 +1618,10 @@ mImageRequest
 >
 StartDecoding
 (
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 mImageRequest

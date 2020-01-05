@@ -872,6 +872,8 @@ ImageWrapper
 :
 StartDecoding
 (
+uint32_t
+aFlags
 )
 {
 return
@@ -880,6 +882,7 @@ mInnerImage
 >
 StartDecoding
 (
+aFlags
 )
 ;
 }
