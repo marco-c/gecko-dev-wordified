@@ -660,6 +660,17 @@ override
 void
 StartLayout
 (
+bool
+*
+aInterrupted
+)
+;
+void
+PauseDocUpdate
+(
+bool
+*
+aInterrupted
 )
 ;
 void
