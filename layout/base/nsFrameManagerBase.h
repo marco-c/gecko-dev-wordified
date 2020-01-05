@@ -345,9 +345,6 @@ nsIFrame
 *
 mRootFrame
 ;
-PLDHashTable
-mPlaceholderMap
-;
 UndisplayedMap
 *
 mUndisplayedMap
