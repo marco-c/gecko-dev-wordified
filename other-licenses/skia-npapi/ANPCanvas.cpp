@@ -624,7 +624,7 @@ canvas
 skcanvas
 -
 >
-getLocalClipBounds
+getClipBounds
 (
 &
 bounds
@@ -671,7 +671,7 @@ canvas
 skcanvas
 -
 >
-getDeviceClipBounds
+getClipDeviceBounds
 (
 &
 bounds
