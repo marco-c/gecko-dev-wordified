@@ -692,6 +692,14 @@ removed
 RemoveIFrame
 (
 PipelineId
+Option
+<
+IpcSender
+<
+(
+)
+>
+>
 )
 /
 /

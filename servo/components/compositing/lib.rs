@@ -414,9 +414,6 @@ constellation
 mod
 delayed_composition
 ;
-mod
-headless
-;
 pub
 mod
 pipeline
