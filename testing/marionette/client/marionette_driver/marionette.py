@@ -4253,7 +4253,7 @@ body
 =
 {
 "
-value
+text
 "
 :
 Marionette
