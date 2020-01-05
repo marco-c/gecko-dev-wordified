@@ -254,6 +254,11 @@ const
 Shmem
 &
 aShmem
+CrashReporter
+:
+:
+ThreadId
+aThreadId
 )
 ;
 #
@@ -437,6 +442,12 @@ mProcessType
 ;
 Shmem
 mShmem
+;
+CrashReporter
+:
+:
+ThreadId
+mThreadId
 ;
 time_t
 mStartTime

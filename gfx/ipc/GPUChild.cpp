@@ -830,6 +830,10 @@ Shmem
 &
 &
 aShmem
+const
+NativeThreadId
+&
+aThreadId
 )
 {
 #
@@ -847,6 +851,7 @@ CrashReporterHost
 (
 GeckoProcessType_GPU
 aShmem
+aThreadId
 )
 ;
 #

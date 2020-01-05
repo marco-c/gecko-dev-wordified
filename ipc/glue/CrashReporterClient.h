@@ -158,6 +158,9 @@ Shmem
 .
 h
 "
+#
+ifdef
+MOZ_CRASHREPORTER
 namespace
 mozilla
 {
@@ -356,6 +359,12 @@ aToplevelProtocol
 SendInitCrashReporter
 (
 shmem
+CrashReporter
+:
+:
+CurrentThreadId
+(
+)
 )
 ;
 return
@@ -458,6 +467,11 @@ ipc
 /
 namespace
 mozilla
+#
+endif
+/
+/
+MOZ_CRASHREPORTER
 #
 endif
 /
