@@ -2049,6 +2049,8 @@ mozilla
 LogicalSize
 &
 aPadding
+ComputeSizeFlags
+aFlags
 )
 ;
 /

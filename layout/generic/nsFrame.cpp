@@ -32639,6 +32639,8 @@ const
 LogicalSize
 &
 aPadding
+ComputeSizeFlags
+aFlags
 )
 {
 const
