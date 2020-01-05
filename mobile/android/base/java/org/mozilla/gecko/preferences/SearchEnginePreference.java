@@ -896,6 +896,12 @@ string
 if
 (
 mIdentifier
+=
+=
+null
+|
+|
+mIdentifier
 .
 equals
 (
