@@ -134,6 +134,13 @@ CSSValue
 CSSBackgroundColor
 >
 mut
+background_image
+:
+CSSValue
+<
+CSSBackgroundImage
+>
+mut
 display_type
 :
 CSSValue
@@ -468,6 +475,10 @@ default_display_type
 {
 mut
 background_color
+:
+Initial
+mut
+background_image
 :
 Initial
 mut

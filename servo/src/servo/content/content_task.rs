@@ -151,6 +151,15 @@ BuildMsg
 }
 ;
 use
+resource
+:
+:
+image_cache_task
+:
+:
+ImageCacheTask
+;
+use
 css
 :
 :
@@ -388,6 +397,9 @@ S
 resource_task
 :
 ResourceTask
+img_cache_task
+:
+ImageCacheTask
 )
 -
 >
@@ -419,6 +431,7 @@ layout_task
 compositor
 from_master
 resource_task
+img_cache_task
 )
 .
 start
@@ -515,6 +528,9 @@ C
 layout_task
 :
 LayoutTask
+image_cache_task
+:
+ImageCacheTask
 from_master
 :
 comm
@@ -596,6 +612,9 @@ ControlMsg
 resource_task
 :
 ResourceTask
+img_cache_task
+:
+ImageCacheTask
 )
 -
 >
@@ -686,6 +705,9 @@ Content
 layout_task
 :
 layout_task
+image_cache_task
+:
+img_cache_task
 compositor
 :
 compositor
@@ -886,6 +908,9 @@ url
 self
 .
 resource_task
+self
+.
+image_cache_task
 )
 ;
 let
