@@ -15788,10 +15788,10 @@ THIS
 IN
 SYNC
 WITH
-nsContainerFrame
+nsFrame
 :
 :
-CreateViewForFrame
+CreateView
 *
 as
 much

@@ -847,7 +847,7 @@ HasView
 )
 )
 {
-nsContainerFrame
+nsFrame
 :
 :
 CreateViewForFrame

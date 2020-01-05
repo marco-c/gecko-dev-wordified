@@ -21055,7 +21055,7 @@ if
 aBuildCombobox
 )
 {
-nsContainerFrame
+nsFrame
 :
 :
 CreateViewForFrame
@@ -25116,7 +25116,7 @@ to
 create
 a
 view
-nsContainerFrame
+nsFrame
 :
 :
 CreateViewForFrame
