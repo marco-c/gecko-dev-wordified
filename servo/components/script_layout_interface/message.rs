@@ -1020,10 +1020,13 @@ ImageCacheThread
 pub
 content_process_shutdown_chan
 :
+Option
+<
 IpcSender
 <
 (
 )
+>
 >
 pub
 layout_threads

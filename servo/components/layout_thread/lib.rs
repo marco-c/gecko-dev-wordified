@@ -1839,10 +1839,13 @@ mem
 ProfilerChan
 content_process_shutdown_chan
 :
+Option
+<
 IpcSender
 <
 (
 )
+>
 >
 webrender_api_sender
 :
@@ -1994,6 +1997,15 @@ CollectReports
 )
 ;
 }
+if
+let
+Some
+(
+content_process_shutdown_chan
+)
+=
+content_process_shutdown_chan
+{
 let
 _
 =
@@ -2005,6 +2017,7 @@ send
 )
 )
 ;
+}
 }
 )
 ;
