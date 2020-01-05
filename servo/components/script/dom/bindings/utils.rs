@@ -466,6 +466,15 @@ util
 :
 prefs
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 /
 /
 /
@@ -1467,7 +1476,10 @@ and
 /
 Ok
 (
+(
 None
+value
+)
 )
 if
 there
@@ -1503,10 +1515,13 @@ str
 >
 Result
 <
+(
 Option
 <
 usize
 >
+DOMString
+)
 (
 )
 >
@@ -1546,6 +1561,7 @@ jsstr
 ;
 Ok
 (
+(
 values
 .
 iter
@@ -1562,6 +1578,8 @@ search
 =
 *
 value
+)
+search
 )
 )
 }
