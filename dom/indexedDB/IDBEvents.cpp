@@ -368,10 +368,12 @@ nsAString
 aType
 uint64_t
 aOldVersion
+const
 Nullable
 <
 uint64_t
 >
+&
 aNewVersion
 )
 {

@@ -3717,10 +3717,13 @@ aRv
 void
 SetValueAsDate
 (
+const
 Nullable
 <
 Date
 >
+&
+aDate
 ErrorResult
 &
 aRv

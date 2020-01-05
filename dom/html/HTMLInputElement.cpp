@@ -12853,10 +12853,12 @@ HTMLInputElement
 :
 SetValueAsDate
 (
+const
 Nullable
 <
 Date
 >
+&
 aDate
 ErrorResult
 &
