@@ -360,6 +360,10 @@ fill
 none
 ;
 stroke
+:
+currentColor
+;
+stroke
 -
 width
 :
@@ -390,6 +394,10 @@ pointer
 events
 :
 all
+;
+stroke
+:
+currentColor
 ;
 stroke
 -
@@ -425,6 +433,10 @@ opacity
 0
 .
 45
+;
+fill
+:
+currentColor
 ;
 }
 .
