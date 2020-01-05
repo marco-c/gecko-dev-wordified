@@ -3544,6 +3544,9 @@ simple
 .
 *
 /
+if
+(
+!
 ss
 -
 >
@@ -3553,6 +3556,9 @@ cx
 *
 options
 )
+)
+return
+false
 ;
 sourceObject
 =
