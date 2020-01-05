@@ -2923,7 +2923,9 @@ rule
 in
 rules
 {
-if
+let
+changed
+=
 rule
 .
 with_nested_rules_and_mq
@@ -2970,6 +2972,9 @@ after
 )
 }
 )
+;
+if
+changed
 {
 return
 true

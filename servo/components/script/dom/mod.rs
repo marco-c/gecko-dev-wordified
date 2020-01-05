@@ -2590,6 +2590,10 @@ css
 ;
 pub
 mod
+cssconditionrule
+;
+pub
+mod
 cssfontfacerule
 ;
 pub
@@ -2635,6 +2639,10 @@ cssstylerule
 pub
 mod
 cssstylesheet
+;
+pub
+mod
+csssupportsrule
 ;
 pub
 mod
