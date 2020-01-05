@@ -294,12 +294,6 @@ scene
 Scene
 ;
 use
-layout_traits
-:
-:
-ConvertPipelineIdToWebRender
-;
-use
 msg
 :
 :

@@ -192,12 +192,6 @@ gfx_traits
 ScrollPolicy
 ;
 use
-layout_traits
-:
-:
-ConvertPipelineIdToWebRender
-;
-use
 style
 :
 :

@@ -148,10 +148,6 @@ extern
 crate
 layers
 ;
-extern
-crate
-layout_traits
-;
 #
 [
 macro_use
