@@ -149,6 +149,10 @@ AutoRestore
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSMILTimeContainer
 :
 :
