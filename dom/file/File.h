@@ -1214,6 +1214,8 @@ const
 ChromeFilePropertyBag
 &
 aBag
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -1240,6 +1242,8 @@ const
 ChromeFilePropertyBag
 &
 aBag
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -1331,6 +1335,8 @@ GetMozFullPath
 nsAString
 &
 aFilename
+SystemCallerGuarantee
+aGuarantee
 ErrorResult
 &
 aRv
@@ -1523,6 +1529,12 @@ GetMozFullPath
 nsAString
 &
 aName
+SystemCallerGuarantee
+/
+*
+unused
+*
+/
 ErrorResult
 &
 aRv
@@ -2210,6 +2222,12 @@ GetMozFullPath
 nsAString
 &
 aName
+SystemCallerGuarantee
+/
+*
+unused
+*
+/
 ErrorResult
 &
 aRv
