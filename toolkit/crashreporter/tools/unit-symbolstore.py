@@ -5544,12 +5544,14 @@ symlines
         
 self
 .
-assertEqual
+assertTrue
 (
 len
 (
 file_lines
 )
+>
+=
 1
                          
 '
