@@ -10552,7 +10552,7 @@ ChildCount
 ;
 if
 (
-childcount
+childCount
 )
 {
 while
