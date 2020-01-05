@@ -718,6 +718,10 @@ mMouseTransparent
 (
 false
 )
+mHasRemoteContent
+(
+false
+)
 {
 }
 nsWindowType
@@ -887,6 +891,9 @@ eWindowType_popup
 widgets
 bool
 mMouseTransparent
+;
+bool
+mHasRemoteContent
 ;
 }
 ;
