@@ -1008,10 +1008,10 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
-isDisplayed
+displayed
 "
 MatchType
 :
@@ -1031,10 +1031,10 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
-isSelected
+selected
 "
 MatchType
 :
@@ -1054,7 +1054,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 attribute
@@ -1081,7 +1081,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 css
@@ -1108,7 +1108,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 text
@@ -1131,7 +1131,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 name
@@ -1154,7 +1154,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 rect
@@ -1177,7 +1177,7 @@ sessionId
 element
 /
 {
-element
+elementId
 }
 /
 enabled
