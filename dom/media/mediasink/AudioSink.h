@@ -242,10 +242,6 @@ MediaSink
 :
 PlaybackParams
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AudioSink
-)
 public
 :
 AudioSink
@@ -270,6 +266,11 @@ dom
 :
 AudioChannel
 aChannel
+)
+;
+~
+AudioSink
+(
 )
 ;
 /
@@ -424,12 +425,6 @@ mAudibleEvent
 }
 private
 :
-virtual
-~
-AudioSink
-(
-)
-;
 /
 /
 Allocate
