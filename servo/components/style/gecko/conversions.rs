@@ -631,9 +631,6 @@ self
 image
 :
 Image
-with_url
-:
-bool
 cacheable
 :
 &
@@ -669,8 +666,6 @@ Url
 ref
 url
 )
-if
-with_url
 =
 >
 {
@@ -783,8 +778,6 @@ ImageRect
 ref
 image_rect
 )
-if
-with_url
 =
 >
 {
@@ -1001,11 +994,6 @@ as_ptr
 ;
 }
 }
-_
-=
->
-(
-)
 }
 }
 fn
