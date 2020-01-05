@@ -40827,18 +40827,6 @@ Math
 "
 )
 ;
-/
-/
-We
-have
-special
-support
-for
-Monotype
-Symbol
-on
-Windows
-.
 pref
 (
 "
@@ -40895,7 +40883,6 @@ DejaVu
 Serif
 DejaVu
 Sans
-Symbol
 Times
 New
 Roman
