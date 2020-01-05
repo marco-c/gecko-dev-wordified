@@ -672,6 +672,10 @@ line
 )
 :
     
+max_length
+=
+120
+    
 if
 len
 (
@@ -679,7 +683,7 @@ line
 )
 >
 =
-120
+max_length
 :
         
 yield
@@ -688,12 +692,16 @@ idx
 +
 1
 "
-(
-much
-)
-overlong
-line
+Line
+is
+longer
+than
+%
+d
+characters
 "
+%
+max_length
 )
 def
 check_whatwg_url
