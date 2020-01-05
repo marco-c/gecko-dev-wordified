@@ -115,6 +115,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 comm
 ;
 #
@@ -314,6 +323,10 @@ spawn_named
 "
 CanvasTask
 "
+.
+to_owned
+(
+)
 proc
 (
 )

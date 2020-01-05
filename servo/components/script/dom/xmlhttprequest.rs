@@ -1903,6 +1903,10 @@ XHR
 :
 Cors
 "
+.
+to_owned
+(
+)
 proc
 (
 )
@@ -5008,6 +5012,10 @@ spawn_named
 "
 XHRTask
 "
+.
+to_owned
+(
+)
 proc
 (
 )
@@ -7468,6 +7476,10 @@ XHR
 :
 Timer
 "
+.
+to_owned
+(
+)
 proc
 (
 )

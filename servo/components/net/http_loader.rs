@@ -192,6 +192,10 @@ spawn_named
 "
 http_loader
 "
+.
+to_owned
+(
+)
 proc
 (
 )

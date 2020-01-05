@@ -85,6 +85,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 io
 ;
 use
@@ -320,6 +329,10 @@ spawn_named
 "
 file_loader
 "
+.
+to_owned
+(
+)
 proc
 (
 )

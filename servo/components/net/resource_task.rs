@@ -1188,6 +1188,10 @@ spawn_named
 "
 ResourceManager
 "
+.
+to_owned
+(
+)
 proc
 (
 )
