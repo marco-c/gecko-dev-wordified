@@ -484,6 +484,7 @@ Let
 Const
 Import
 BodyLevelFunction
+ModuleBodyLevelFunction
 LexicalFunction
 VarForAnnexBLexicalFunction
 SimpleCatchParameter
@@ -539,6 +540,12 @@ DeclarationKind
 :
 :
 BodyLevelFunction
+:
+case
+DeclarationKind
+:
+:
+ModuleBodyLevelFunction
 :
 case
 DeclarationKind
