@@ -192,7 +192,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -592,7 +592,9 @@ PREF_ADDON_UPDATE_INTERVAL
 86400
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

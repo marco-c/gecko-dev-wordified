@@ -175,7 +175,7 @@ gecko
 .
 util
 .
-NativeEventListener
+BundleEventListener
 ;
 import
 org
@@ -186,7 +186,7 @@ gecko
 .
 util
 .
-NativeJSObject
+GeckoBundle
 ;
 import
 org
@@ -308,12 +308,12 @@ static
 class
 EventListener
 implements
-NativeEventListener
+BundleEventListener
 {
 Override
 /
 /
-NativeEventListener
+BundleEventListener
 public
 void
 handleMessage
@@ -322,7 +322,7 @@ final
 String
 event
 final
-NativeJSObject
+GeckoBundle
 message
 final
 EventCallback
