@@ -11505,6 +11505,15 @@ TabChild
 aTabChild
 )
 ;
+static
+already_AddRefed
+<
+nsIWidget
+>
+CreateHeadlessWidget
+(
+)
+;
 /
 *
 *

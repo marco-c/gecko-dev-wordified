@@ -926,6 +926,12 @@ InitMoz2DLogging
 (
 )
 ;
+static
+bool
+IsHeadless
+(
+)
+;
 /
 *
 *
