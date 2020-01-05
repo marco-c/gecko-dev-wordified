@@ -1803,8 +1803,6 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-TimeStamp
-aRefreshTime
 )
 ;
 static
