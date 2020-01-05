@@ -314,6 +314,13 @@ bool
 false
 )
 \
+_
+(
+UseWebRender
+bool
+false
+)
+\
 /
 *
 Add
