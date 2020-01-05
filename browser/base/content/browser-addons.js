@@ -1280,7 +1280,7 @@ getString
 "
 addonInstall
 .
-acceptButton
+acceptButton2
 .
 label
 "
@@ -1294,7 +1294,7 @@ getString
 "
 addonInstall
 .
-acceptButton
+acceptButton2
 .
 accesskey
 "
@@ -2305,7 +2305,7 @@ getString
 "
 addonInstall
 .
-acceptButton
+acceptButton2
 .
 label
 "
@@ -2319,7 +2319,7 @@ getString
 "
 addonInstall
 .
-acceptButton
+acceptButton2
 .
 accesskey
 "
