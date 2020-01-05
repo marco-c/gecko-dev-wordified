@@ -2777,14 +2777,6 @@ GLLibraryEGL
 :
 KHR_create_context
 )
-&
-&
-!
-sEGLLibrary
-.
-IsANGLE
-(
-)
 )
 {
 rbab_attribs
