@@ -189,14 +189,14 @@ shared
 impl
 <
 '
-ln
+le
 >
 DomTraversal
 <
-GeckoNode
+GeckoElement
 <
 '
-ln
+le
 >
 >
 for
@@ -210,7 +210,7 @@ ThreadLocalStyleContext
 GeckoElement
 <
 '
-ln
+le
 >
 >
 ;
@@ -237,7 +237,7 @@ node
 GeckoNode
 <
 '
-ln
+le
 >
 )
 {
@@ -328,7 +328,7 @@ _
 GeckoNode
 <
 '
-ln
+le
 >
 )
 {
@@ -380,7 +380,7 @@ a
 GeckoElement
 <
 '
-ln
+le
 >
 )
 -
@@ -415,7 +415,7 @@ a
 GeckoElement
 <
 '
-ln
+le
 >
 )
 {

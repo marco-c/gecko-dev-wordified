@@ -2433,12 +2433,6 @@ ServoElementSnapshot
 mozilla
 :
 :
-ConsumeStyleBehavior
-"
-"
-mozilla
-:
-:
 CSSPseudoClassType
 "
 "
@@ -2511,9 +2505,6 @@ AudioContext
 "
 "
 CapturingContentInfo
-"
-"
-ConsumeStyleBehavior
 "
 "
 DefaultDelete
@@ -3605,9 +3596,6 @@ ThreadSafeURIHolder
 "
 "
 ThreadSafePrincipalHolder
-"
-"
-ConsumeStyleBehavior
 "
 "
 CSSPseudoClassType

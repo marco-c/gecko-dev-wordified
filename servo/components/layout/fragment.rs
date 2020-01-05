@@ -532,6 +532,12 @@ text
 :
 TextRunScanner
 ;
+use
+wrapper
+:
+:
+ThreadSafeLayoutNodeHelpers
+;
 /
 /
 From

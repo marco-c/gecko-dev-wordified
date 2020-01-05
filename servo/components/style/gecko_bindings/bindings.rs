@@ -89,15 +89,6 @@ gecko_bindings
 structs
 :
 :
-ConsumeStyleBehavior
-;
-use
-gecko_bindings
-:
-:
-structs
-:
-:
 CSSPseudoClassType
 ;
 use
@@ -7516,7 +7507,7 @@ C
 {
 pub
 fn
-Servo_CheckChangeHint
+Servo_TakeChangeHint
 (
 element
 :
@@ -7542,9 +7533,6 @@ RawGeckoElementBorrowed
 set
 :
 RawServoStyleSetBorrowed
-consume
-:
-ConsumeStyleBehavior
 )
 -
 >
@@ -7597,9 +7585,6 @@ pseudo_tag
 *
 mut
 nsIAtom
-consume
-:
-ConsumeStyleBehavior
 set
 :
 RawServoStyleSetBorrowed
