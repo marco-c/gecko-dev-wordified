@@ -209,6 +209,15 @@ assert
 expr
 )
 )
+#
+define
+NS_RUNTIMEABORT
+(
+msg
+)
+__coverity_panic__
+(
+)
 int
 GET_JUMP_OFFSET
 (
