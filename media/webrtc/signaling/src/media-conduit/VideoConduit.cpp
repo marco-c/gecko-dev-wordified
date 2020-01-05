@@ -3025,6 +3025,16 @@ ClearStreams
 (
 )
 ;
+mSendStreamConfig
+.
+rtp
+.
+rids
+.
+clear
+(
+)
+;
 unsigned
 short
 width
