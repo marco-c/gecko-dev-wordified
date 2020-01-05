@@ -920,8 +920,6 @@ v
 let
 retval
 =
-Some
-(
 ~
 "
 function
@@ -943,12 +941,11 @@ code
 n
 }
 "
-)
 ;
 *
 vp
 =
-domstring_to_jsval
+str_to_jsval
 (
 cx
 retval
@@ -1451,8 +1448,7 @@ JSString
 )
 -
 >
-~
-str
+DOMString
 {
 unsafe
 {
@@ -1513,8 +1509,7 @@ jsid
 )
 -
 >
-~
-str
+DOMString
 {
 unsafe
 {
@@ -1573,8 +1568,7 @@ StringificationBehavior
 >
 Result
 <
-~
-str
+DOMString
 (
 )
 >
