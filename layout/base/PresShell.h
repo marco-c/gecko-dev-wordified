@@ -5347,6 +5347,12 @@ static
 bool
 sDisableNonTestMouseEvents
 ;
+mozilla
+:
+:
+TimeStamp
+mLastOSWake
+;
 }
 ;
 }
