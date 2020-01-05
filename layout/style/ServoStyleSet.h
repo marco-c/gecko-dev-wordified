@@ -1214,15 +1214,6 @@ the
 given
 aParentContext
 .
-aFlags
-is
-an
-nsStyleSet
-/
-/
-flags
-bitfield
-.
 already_AddRefed
 <
 nsStyleContext
@@ -1235,10 +1226,6 @@ aPseudoTag
 nsStyleContext
 *
 aParentContext
-uint32_t
-aFlags
-=
-0
 )
 ;
 /
