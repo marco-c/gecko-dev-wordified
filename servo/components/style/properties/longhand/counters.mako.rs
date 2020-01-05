@@ -591,7 +591,7 @@ dest
 write_str
 (
 "
-counter
+counters
 (
 "
 )
