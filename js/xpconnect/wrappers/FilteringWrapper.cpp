@@ -1317,8 +1317,10 @@ Policy
 :
 deny
 (
+cx
 act
 id
+mayThrow
 )
 ;
 return
