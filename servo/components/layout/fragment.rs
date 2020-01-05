@@ -7120,6 +7120,9 @@ layout_context
 :
 &
 LayoutContext
+text_overflow_string
+:
+String
 )
 -
 >
@@ -7160,12 +7163,7 @@ UnscannedTextFragmentInfo
 :
 new
 (
-"
-"
-.
-to_owned
-(
-)
+text_overflow_string
 None
 )
 )
