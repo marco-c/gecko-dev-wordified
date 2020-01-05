@@ -758,7 +758,6 @@ WebRender
 compositor
 .
 "
-}
       
 }
 ]
