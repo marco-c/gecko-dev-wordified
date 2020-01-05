@@ -4313,6 +4313,16 @@ InitStatics
 mozilla
 :
 :
+Telemetry
+:
+:
+Init
+(
+)
+;
+mozilla
+:
+:
 HangMonitor
 :
 :
