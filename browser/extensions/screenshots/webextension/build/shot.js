@@ -3011,8 +3011,6 @@ url
 "
 ;
 }
-else
-{
 let
 txt
 =
@@ -3039,7 +3037,6 @@ replace
 return
 txt
 ;
-}
 }
 get
 viewUrl
@@ -5593,6 +5590,9 @@ data
 )
 ;
 }
+return
+false
+;
 }
 get
 sortOrder

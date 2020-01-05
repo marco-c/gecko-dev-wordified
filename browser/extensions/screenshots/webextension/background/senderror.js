@@ -31,6 +31,17 @@ exports
 {
 }
 ;
+let
+manifest
+=
+browser
+.
+runtime
+.
+getManifest
+(
+)
+;
 /
 /
 Do
@@ -670,7 +681,7 @@ tags
 {
 version
 :
-e
+manifest
 .
 version
 category
