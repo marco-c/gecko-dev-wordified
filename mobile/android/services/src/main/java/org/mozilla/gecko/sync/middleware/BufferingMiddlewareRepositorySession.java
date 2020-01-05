@@ -297,16 +297,6 @@ final
 long
 syncDeadlineMillis
 ;
-private
-ExecutorService
-storeDelegateExecutor
-=
-Executors
-.
-newSingleThreadExecutor
-(
-)
-;
 /
 *
 package
@@ -774,7 +764,7 @@ storeDelegate
 .
 deferredStoreDelegate
 (
-storeDelegateExecutor
+storeWorkQueue
 )
 .
 onStoreFailed
