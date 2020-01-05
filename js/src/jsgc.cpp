@@ -29591,7 +29591,7 @@ unsigned
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 JSObject
 *
@@ -29628,13 +29628,13 @@ IsGrayListObject
 (
 obj
 )
-GetProxyExtra
+GetProxyReservedSlot
 (
 obj
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 obj
 )
@@ -29822,7 +29822,7 @@ slot
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 prev
 )
@@ -29831,7 +29831,7 @@ JSObject
 *
 next
 =
-GetProxyExtra
+GetProxyReservedSlot
 (
 prev
 slot
@@ -29854,7 +29854,7 @@ if
 (
 unlink
 )
-SetProxyExtra
+SetProxyReservedSlot
 (
 prev
 slot
@@ -29901,7 +29901,7 @@ slot
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 src
 )
@@ -29928,7 +29928,7 @@ compartment
 ;
 if
 (
-GetProxyExtra
+GetProxyReservedSlot
 (
 src
 slot
@@ -29939,7 +29939,7 @@ isUndefined
 )
 )
 {
-SetProxyExtra
+SetProxyReservedSlot
 (
 src
 slot
@@ -29964,7 +29964,7 @@ else
 {
 MOZ_ASSERT
 (
-GetProxyExtra
+GetProxyReservedSlot
 (
 src
 slot
@@ -30405,14 +30405,14 @@ slot
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 wrapper
 )
 ;
 if
 (
-GetProxyExtra
+GetProxyReservedSlot
 (
 wrapper
 slot
@@ -30438,7 +30438,7 @@ JSObject
 *
 tail
 =
-GetProxyExtra
+GetProxyReservedSlot
 (
 wrapper
 slot
@@ -30448,7 +30448,7 @@ toObjectOrNull
 (
 )
 ;
-SetProxyExtra
+SetProxyReservedSlot
 (
 wrapper
 slot
@@ -30510,7 +30510,7 @@ slot
 ProxyObject
 :
 :
-grayLinkExtraSlot
+grayLinkReservedSlot
 (
 obj
 )
@@ -30519,7 +30519,7 @@ JSObject
 *
 next
 =
-GetProxyExtra
+GetProxyReservedSlot
 (
 obj
 slot
@@ -30537,7 +30537,7 @@ next
 wrapper
 )
 {
-SetProxyExtra
+SetProxyReservedSlot
 (
 obj
 slot

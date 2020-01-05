@@ -5858,7 +5858,7 @@ EnvironmentObject
 static
 const
 unsigned
-ENCLOSING_EXTRA
+ENCLOSING_SLOT
 =
 0
 ;
@@ -5889,7 +5889,7 @@ popped
 static
 const
 unsigned
-SNAPSHOT_EXTRA
+SNAPSHOT_SLOT
 =
 1
 ;

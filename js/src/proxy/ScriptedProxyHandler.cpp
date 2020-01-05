@@ -1017,7 +1017,7 @@ ProxyObject
 (
 )
 .
-extra
+reservedSlot
 (
 ScriptedProxyHandler
 :
@@ -7417,7 +7417,7 @@ ProxyObject
 (
 )
 .
-extra
+reservedSlot
 (
 IS_CALLCONSTRUCT_EXTRA
 )
@@ -7485,7 +7485,7 @@ ProxyObject
 (
 )
 .
-extra
+reservedSlot
 (
 IS_CALLCONSTRUCT_EXTRA
 )
@@ -7814,7 +7814,7 @@ ProxyObject
 proxy
 -
 >
-setExtra
+setReservedSlot
 (
 ScriptedProxyHandler
 :
@@ -7869,7 +7869,7 @@ IS_CONSTRUCTOR
 proxy
 -
 >
-setExtra
+setReservedSlot
 (
 ScriptedProxyHandler
 :
@@ -8076,7 +8076,7 @@ ProxyObject
 (
 )
 .
-setExtra
+setReservedSlot
 (
 ScriptedProxyHandler
 :
