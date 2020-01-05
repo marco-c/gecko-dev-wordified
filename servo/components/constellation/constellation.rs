@@ -906,7 +906,7 @@ use
 ipc_channel
 :
 :
-SerializeError
+Error
 ;
 use
 ipc_channel
@@ -9945,7 +9945,7 @@ pipeline_id
 PipelineId
 err
 :
-SerializeError
+Error
 )
 {
 /

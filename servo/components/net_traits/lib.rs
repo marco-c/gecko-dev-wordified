@@ -248,7 +248,7 @@ use
 ipc_channel
 :
 :
-SerializeError
+Error
 ;
 use
 ipc_channel
@@ -1670,7 +1670,7 @@ Result
 <
 (
 )
-SerializeError
+Error
 >
 ;
 /

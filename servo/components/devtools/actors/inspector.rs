@@ -179,6 +179,7 @@ serde_json
 :
 {
 self
+Map
 Value
 }
 ;
@@ -190,15 +191,6 @@ cell
 :
 :
 RefCell
-;
-use
-std
-:
-:
-collections
-:
-:
-BTreeMap
 ;
 use
 std
@@ -386,7 +378,7 @@ str
 _msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
@@ -541,7 +533,7 @@ str
 msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
@@ -1273,7 +1265,7 @@ str
 msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
@@ -2206,7 +2198,7 @@ str
 msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
@@ -2580,7 +2572,7 @@ let
 mut
 m
 =
-BTreeMap
+Map
 :
 :
 new
@@ -2877,7 +2869,7 @@ str
 _msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value

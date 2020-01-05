@@ -74,7 +74,10 @@ use
 serde_json
 :
 :
+{
+Map
 Value
+}
 ;
 use
 std
@@ -104,10 +107,7 @@ std
 collections
 :
 :
-{
-BTreeMap
 HashMap
-}
 ;
 use
 std
@@ -218,7 +218,7 @@ str
 msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
@@ -1198,7 +1198,7 @@ self
 msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value

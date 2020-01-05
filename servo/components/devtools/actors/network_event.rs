@@ -218,7 +218,10 @@ use
 serde_json
 :
 :
+{
+Map
 Value
+}
 ;
 use
 std
@@ -228,15 +231,6 @@ borrow
 :
 :
 Cow
-;
-use
-std
-:
-:
-collections
-:
-:
-BTreeMap
 ;
 use
 std
@@ -791,7 +785,7 @@ str
 _msg
 :
 &
-BTreeMap
+Map
 <
 String
 Value
