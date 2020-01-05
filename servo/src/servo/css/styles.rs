@@ -457,6 +457,7 @@ empty_style_for_node_kind
 (
 kind
 :
+&
 NodeKind
 )
 -
@@ -553,6 +554,7 @@ ctx
 LayoutContext
 styles
 :
+&
 ARC
 <
 Stylesheet
@@ -652,6 +654,7 @@ style
 ~
 empty_style_for_node_kind
 (
+&
 node_kind
 )
 mut
@@ -914,6 +917,7 @@ ctx
 LayoutContext
 styles
 :
+&
 ARC
 <
 Stylesheet
@@ -956,21 +960,12 @@ i
 +
 1u
 ;
-let
-new_styles
-=
-clone
-(
-&
-styles
-)
-;
 kid
 .
 recompute_style_for_subtree
 (
 ctx
-new_styles
+styles
 )
 ;
 }
@@ -978,10 +973,8 @@ self
 .
 match_css_style
 (
-*
 get
 (
-&
 styles
 )
 )

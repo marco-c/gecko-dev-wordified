@@ -67,9 +67,11 @@ attrs_match
 (
 attr
 :
+&
 Attr
 elmt
 :
+&
 ElementData
 )
 -
@@ -77,6 +79,7 @@ ElementData
 bool
 {
 match
+*
 attr
 {
 Exists
@@ -337,7 +340,7 @@ matches_element
 (
 sel
 :
-~
+&
 Selector
 )
 -
@@ -349,7 +352,7 @@ matches_selector
 (
 sel
 :
-~
+&
 Selector
 )
 -
@@ -394,7 +397,7 @@ matches_element
 (
 sel
 :
-~
+&
 Selector
 )
 -
@@ -508,10 +511,12 @@ if
 !
 attrs_match
 (
+&
 attrs
 [
 i
 ]
+&
 elmt
 )
 {
@@ -586,7 +591,7 @@ matches_selector
 (
 sel
 :
-~
+&
 Selector
 )
 -
@@ -1151,6 +1156,7 @@ match_css_style
 (
 styles
 :
+&
 Stylesheet
 )
 ;
@@ -1191,6 +1197,7 @@ match_css_style
 (
 styles
 :
+&
 Stylesheet
 )
 {
@@ -1395,12 +1402,12 @@ new_node_from_attr
 scope
 :
 NodeScope
--
++
 name
 :
 ~
 str
--
++
 val
 :
 ~
