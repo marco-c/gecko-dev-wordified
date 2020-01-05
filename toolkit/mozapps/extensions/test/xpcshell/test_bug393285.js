@@ -434,7 +434,6 @@ blocklist
 -
 closed
 "
-null
 )
 ;
 }

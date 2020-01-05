@@ -371,7 +371,6 @@ begin
 -
 vacuum
 "
-null
 )
 ;
 return

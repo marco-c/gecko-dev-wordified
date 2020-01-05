@@ -2924,7 +2924,6 @@ content
 -
 contextmenu
 "
-null
 )
 ;
 let

@@ -445,7 +445,6 @@ startupcache
 -
 invalidate
 "
-null
 )
 ;
 }

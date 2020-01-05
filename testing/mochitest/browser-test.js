@@ -5313,7 +5313,6 @@ before
 -
 check
 "
-null
 )
 ;
 barrier

@@ -360,8 +360,6 @@ windows
 -
 restored
 "
-"
-"
 )
 ;
 }

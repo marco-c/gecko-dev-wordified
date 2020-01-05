@@ -99,7 +99,6 @@ request
 -
 globals
 "
-null
 )
 ;
 for
@@ -155,7 +154,6 @@ seen
 -
 globals
 "
-null
 )
 ;
 }

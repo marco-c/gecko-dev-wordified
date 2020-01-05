@@ -339,8 +339,6 @@ test
 -
 ping
 "
-"
-"
 )
 ;
 let

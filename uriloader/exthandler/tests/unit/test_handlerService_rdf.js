@@ -304,7 +304,6 @@ rdf
 -
 replace
 "
-null
 )
 ;
 yield

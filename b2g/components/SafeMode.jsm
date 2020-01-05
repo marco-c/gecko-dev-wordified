@@ -994,8 +994,6 @@ startup
 -
 complete
 "
-"
-"
 )
 ;
 content

@@ -370,7 +370,6 @@ blocklist
 -
 closed
 "
-null
 )
 ;
 }

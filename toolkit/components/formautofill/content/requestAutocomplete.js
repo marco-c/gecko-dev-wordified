@@ -247,8 +247,6 @@ window
 -
 initialized
 "
-"
-"
 )
 ;
 }

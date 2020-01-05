@@ -588,8 +588,6 @@ storage
 -
 cache
 "
-"
-"
 )
 ;
 extension

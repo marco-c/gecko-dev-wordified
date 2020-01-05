@@ -300,7 +300,6 @@ blocklist
 -
 closed
 "
-null
 )
 ;
 do_execute_soon

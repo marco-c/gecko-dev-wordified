@@ -875,8 +875,6 @@ manual
 -
 restore
 "
-"
-"
 )
 ;
 document

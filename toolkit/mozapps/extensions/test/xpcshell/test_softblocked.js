@@ -272,7 +272,6 @@ blocklist
 -
 closed
 "
-null
 )
 ;
 }

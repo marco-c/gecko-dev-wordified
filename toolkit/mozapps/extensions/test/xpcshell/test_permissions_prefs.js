@@ -572,8 +572,6 @@ pending
 -
 permissions
 "
-"
-"
 )
 ;
 do_check_permission_prefs

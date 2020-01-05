@@ -1438,7 +1438,6 @@ ui
 .
 prompt
 topic
-null
 )
 ;
 }

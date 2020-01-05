@@ -1163,7 +1163,6 @@ notifyObservers
 (
 null
 ON_PROFILE_CHANGE_NOTIFICATION
-null
 )
 ;
 return
@@ -1313,7 +1312,6 @@ notifyObservers
 (
 null
 ON_ACCOUNT_STATE_CHANGE_NOTIFICATION
-null
 )
 ;
 }

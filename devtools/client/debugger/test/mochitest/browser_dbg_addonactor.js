@@ -478,7 +478,6 @@ null
 "
 debuggerAttached
 "
-null
 )
 ;
 return

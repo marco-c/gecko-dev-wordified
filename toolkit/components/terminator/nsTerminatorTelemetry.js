@@ -704,8 +704,6 @@ telemetry
 -
 updated
 "
-"
-"
 )
 ;
 }

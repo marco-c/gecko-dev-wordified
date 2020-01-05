@@ -1851,8 +1851,6 @@ fullZoom
 :
 zoomReset
 "
-"
-"
 )
 ;
 }
@@ -2351,8 +2349,6 @@ fullZoom
 :
 zoomChange
 "
-"
-"
 )
 ;
 if
@@ -2477,8 +2473,6 @@ browser
 fullZoom
 :
 zoomReset
-"
-"
 "
 )
 ;
@@ -3482,8 +3476,6 @@ fullZoom
 location
 -
 change
-"
-"
 "
 )
 ;

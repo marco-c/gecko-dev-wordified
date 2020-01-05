@@ -15238,7 +15238,6 @@ null
 "
 wake_notification
 "
-null
 )
 ;
 dailyPing

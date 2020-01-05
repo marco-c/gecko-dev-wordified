@@ -3360,7 +3360,6 @@ notifyObservers
 (
 null
 DISTRIBUTION_CUSTOMIZATION_COMPLETE_TOPIC
-null
 )
 ;
 }
