@@ -687,6 +687,16 @@ true
 name
 :
 "
+scheme
+"
+canFilter
+:
+true
+}
+{
+name
+:
+"
 domain
 "
 canFilter

@@ -293,6 +293,11 @@ remoteip
 "
 \
 "
+scheme
+\
+"
+\
+"
 setCookies
 \
 "

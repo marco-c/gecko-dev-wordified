@@ -1612,6 +1612,11 @@ remoteip
 "
 \
 "
+scheme
+\
+"
+\
+"
 setCookies
 \
 "

@@ -123,6 +123,9 @@ true
 protocol
 :
 false
+scheme
+:
+false
 domain
 :
 true
