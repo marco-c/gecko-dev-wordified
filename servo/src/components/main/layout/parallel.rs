@@ -379,7 +379,6 @@ PaddedUnsafeFlow
 (
 uint
 uint
-uint
 )
 ;
 trait
@@ -427,7 +426,6 @@ let
 (
 vtable
 ptr
-_padding
 )
 =
 *
@@ -462,7 +460,6 @@ flow
 (
 vtable
 ptr
-0
 )
 }
 }
