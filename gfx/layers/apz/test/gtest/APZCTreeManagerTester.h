@@ -240,6 +240,13 @@ ClearTree
 (
 )
 ;
+manager
+-
+>
+ClearContentController
+(
+)
+;
 }
 /
 *
