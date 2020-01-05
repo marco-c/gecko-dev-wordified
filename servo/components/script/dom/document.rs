@@ -17244,6 +17244,10 @@ events
 "
 event
 "
+|
+"
+svgevents
+"
 =
 >
 Ok
