@@ -566,6 +566,19 @@ headless
 ]
         
 if
+android
+:
+            
+features
++
+=
+[
+"
+android_glue
+"
+]
+        
+if
 features
 :
             

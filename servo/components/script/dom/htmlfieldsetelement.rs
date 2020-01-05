@@ -699,6 +699,7 @@ make_bool_getter
 (
 Disabled
 )
+;
 /
 /
 http
@@ -727,6 +728,7 @@ SetDisabled
 disabled
 "
 )
+;
 }
 impl
 <

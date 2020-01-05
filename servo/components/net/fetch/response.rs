@@ -93,7 +93,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 Receiver
@@ -127,7 +130,7 @@ type
 )
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -176,7 +179,7 @@ reason
 )
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -238,7 +241,7 @@ be
 ]
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -383,7 +386,7 @@ Fetch
 spec
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -761,7 +764,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -837,7 +840,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .

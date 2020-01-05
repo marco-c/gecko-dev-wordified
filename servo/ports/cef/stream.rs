@@ -100,7 +100,6 @@ cef_string_t
 *
 mut
 cef_stream_reader_t
-;
 fn
 cef_stream_reader_create_for_data
 (
@@ -122,7 +121,6 @@ size_t
 *
 mut
 cef_stream_reader_t
-;
 fn
 cef_stream_reader_create_for_handler
 (
@@ -137,7 +135,6 @@ cef_read_handler_t
 *
 mut
 cef_stream_reader_t
-;
 fn
 cef_stream_writer_create_for_file
 (
@@ -152,7 +149,6 @@ cef_string_t
 *
 mut
 cef_stream_writer_t
-;
 fn
 cef_stream_writer_create_for_handler
 (
@@ -167,5 +163,4 @@ cef_write_handler_t
 *
 mut
 cef_stream_writer_t
-;
 }

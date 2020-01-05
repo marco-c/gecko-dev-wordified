@@ -227,10 +227,16 @@ use
 std
 :
 :
-comm
+sync
 :
 :
+mpsc
+:
+:
+{
 Sender
+Receiver
+}
 ;
 /
 /

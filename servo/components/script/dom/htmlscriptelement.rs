@@ -2241,7 +2241,7 @@ contains
 &
 s
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -2249,7 +2249,7 @@ as_slice
 (
 )
 .
-trim_chars
+trim_matches
 (
 HTML_SPACE_CHARACTERS
 )
@@ -2377,7 +2377,7 @@ text
 s
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -2850,6 +2850,7 @@ make_url_getter
 (
 Src
 )
+;
 make_setter
 !
 (
@@ -2858,6 +2859,7 @@ SetSrc
 src
 "
 )
+;
 /
 /
 http

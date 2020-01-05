@@ -867,6 +867,7 @@ make_getter
 (
 Type
 )
+;
 /
 /
 https
@@ -902,6 +903,7 @@ SetType
 type
 "
 )
+;
 }
 impl
 <

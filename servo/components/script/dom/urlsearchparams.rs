@@ -242,6 +242,9 @@ collections
 hash_map
 :
 :
+Entry
+:
+:
 {
 Occupied
 Vacant
@@ -620,7 +623,7 @@ entry
 {
 entry
 .
-set
+insert
 (
 vec
 !
@@ -1055,7 +1058,7 @@ a
 )
 )
 .
-into_ascii_upper
+into_ascii_uppercase
 (
 )
 ;

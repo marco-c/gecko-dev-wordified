@@ -113,7 +113,7 @@ specified
 ;
 #
 [
-deriving
+derive
 (
 Show
 PartialEq
@@ -132,7 +132,7 @@ MediaQuery
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -263,7 +263,7 @@ width
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -285,7 +285,7 @@ Au
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -302,7 +302,7 @@ Not
 }
 #
 [
-deriving
+derive
 (
 Show
 PartialEq
@@ -371,7 +371,7 @@ expressions
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -395,7 +395,7 @@ MediaType
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -420,7 +420,7 @@ missing_copy_implementations
 ]
 #
 [
-deriving
+derive
 (
 Show
 )
@@ -643,7 +643,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 "
 min
 -
@@ -850,7 +849,6 @@ match_ignore_ascii_case
 !
 {
 ident
-:
 "
 screen
 "
@@ -1453,6 +1451,9 @@ ToOwned
 ;
 fn
 test_media_rule
+<
+F
+>
 (
 css
 :
@@ -1460,12 +1461,17 @@ css
 str
 callback
 :
-|
+F
+)
+where
+F
+:
+Fn
+(
 &
 MediaQueryList
 &
 str
-|
 )
 {
 let

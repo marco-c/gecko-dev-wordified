@@ -3843,6 +3843,8 @@ char
 code
 for
 {
+:
+?
 }
 "
 key

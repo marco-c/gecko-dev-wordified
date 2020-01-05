@@ -64,11 +64,6 @@ allow
 non_camel_case_types
 )
 ]
-#
-!
-[
-macro_escape
-]
 macro_rules
 !
 define_css_keyword_enum
@@ -106,6 +101,7 @@ variant
 )
 +
 )
+;
 }
 ;
 (
@@ -137,7 +133,7 @@ non_camel_case_types
 ]
 #
 [
-deriving
+derive
 (
 Clone
 Eq
@@ -194,7 +190,6 @@ expect_ident
 (
 )
 )
-:
 (
 css
 =
@@ -452,7 +447,7 @@ computed
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -687,7 +682,7 @@ dest
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -821,7 +816,7 @@ dest
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -949,7 +944,7 @@ none
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -1499,7 +1494,6 @@ match_ignore_ascii_case
 !
 {
 unit
-:
 "
 px
 "
@@ -1726,7 +1720,7 @@ i32
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -2136,7 +2130,7 @@ false
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -2583,7 +2577,7 @@ false
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -3062,7 +3056,7 @@ background
 position
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -3254,7 +3248,6 @@ match_ignore_ascii_case
 !
 {
 value
-:
 "
 center
 "
@@ -3444,7 +3437,7 @@ Percentage
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -3673,7 +3666,6 @@ match_ignore_ascii_case
 !
 {
 unit
-:
 "
 deg
 "
@@ -3799,7 +3791,7 @@ IMAGES
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -4065,7 +4057,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 "
 linear
 -
@@ -4206,7 +4197,7 @@ gradient
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -4419,7 +4410,7 @@ gradient
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -4614,7 +4605,7 @@ gradient
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -4822,6 +4813,7 @@ right
 >
 Right
 )
+;
 define_css_keyword_enum
 !
 (
@@ -4840,6 +4832,7 @@ bottom
 >
 Bottom
 )
+;
 fn
 parse_one_color_stop
 (
@@ -5338,7 +5331,6 @@ expect_ident
 (
 )
 )
-:
 "
 thin
 "
@@ -6039,7 +6031,7 @@ max_advance
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -6107,6 +6099,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 length
@@ -6213,7 +6207,7 @@ value
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -6282,6 +6276,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 length
@@ -6416,7 +6412,7 @@ Auto
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -6485,6 +6481,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 length
@@ -6633,7 +6631,7 @@ IMAGES
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -6733,6 +6731,8 @@ linear
 gradient
 (
 {
+:
+?
 }
 )
 "
@@ -6754,7 +6754,7 @@ gradient
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -6832,6 +6832,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 self
@@ -6859,6 +6861,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 stop
@@ -6888,7 +6892,7 @@ gradient
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -6998,6 +7002,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 self
@@ -7024,6 +7030,8 @@ write
 f
 "
 {
+:
+?
 }
 "
 pos

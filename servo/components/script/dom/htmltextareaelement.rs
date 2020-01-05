@@ -877,6 +877,7 @@ make_uint_getter
 (
 Cols
 )
+;
 /
 /
 https
@@ -910,6 +911,7 @@ SetCols
 cols
 "
 )
+;
 /
 /
 http
@@ -935,6 +937,7 @@ make_bool_getter
 (
 Disabled
 )
+;
 /
 /
 http
@@ -963,6 +966,7 @@ SetDisabled
 disabled
 "
 )
+;
 /
 /
 https
@@ -993,6 +997,7 @@ make_getter
 (
 Name
 )
+;
 /
 /
 https
@@ -1026,6 +1031,7 @@ SetName
 name
 "
 )
+;
 /
 /
 https
@@ -1056,6 +1062,7 @@ make_getter
 (
 Placeholder
 )
+;
 /
 /
 https
@@ -1089,6 +1096,7 @@ SetPlaceholder
 placeholder
 "
 )
+;
 /
 /
 https
@@ -1119,6 +1127,7 @@ make_bool_getter
 (
 ReadOnly
 )
+;
 /
 /
 https
@@ -1152,6 +1161,7 @@ SetReadOnly
 readonly
 "
 )
+;
 /
 /
 https
@@ -1182,6 +1192,7 @@ make_bool_getter
 (
 Required
 )
+;
 /
 /
 https
@@ -1215,6 +1226,7 @@ SetRequired
 required
 "
 )
+;
 /
 /
 https
@@ -1245,6 +1257,7 @@ make_uint_getter
 (
 Rows
 )
+;
 /
 /
 https
@@ -1278,6 +1291,7 @@ SetRows
 rows
 "
 )
+;
 /
 /
 https
@@ -1308,6 +1322,7 @@ make_getter
 (
 Wrap
 )
+;
 /
 /
 https
@@ -1341,6 +1356,7 @@ SetWrap
 wrap
 "
 )
+;
 /
 /
 https

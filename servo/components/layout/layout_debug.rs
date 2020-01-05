@@ -146,7 +146,7 @@ atomic
 {
 AtomicUint
 Ordering
-INIT_ATOMIC_UINT
+ATOMIC_UINT_INIT
 }
 ;
 thread_local
@@ -171,13 +171,14 @@ new
 None
 )
 )
+;
 static
 mut
 DEBUG_ID_COUNTER
 :
 AtomicUint
 =
-INIT_ATOMIC_UINT
+ATOMIC_UINT_INIT
 ;
 pub
 struct
@@ -239,11 +240,12 @@ Scope
 }
 )
 )
+;
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 struct
@@ -391,6 +393,7 @@ borrow_mut
 )
 {
 &
+mut
 Some
 (
 ref
@@ -450,6 +453,7 @@ data
 ;
 }
 &
+mut
 None
 =
 >
@@ -505,6 +509,7 @@ borrow_mut
 )
 {
 &
+mut
 Some
 (
 ref
@@ -579,6 +584,7 @@ current_scope
 ;
 }
 &
+mut
 None
 =
 >

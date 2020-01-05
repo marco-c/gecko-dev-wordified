@@ -710,7 +710,10 @@ style
 ast
 :
 :
-UnsafeFn
+Unsafety
+:
+:
+Unsafe
 =
 >
 true
@@ -767,7 +770,10 @@ style
 ast
 :
 :
-UnsafeFn
+Unsafety
+:
+:
+Unsafe
 =
 >
 true

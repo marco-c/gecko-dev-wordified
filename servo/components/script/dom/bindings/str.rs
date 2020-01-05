@@ -89,7 +89,7 @@ hash
 :
 {
 Hash
-sip
+SipHasher
 }
 ;
 use
@@ -118,7 +118,7 @@ type
 .
 #
 [
-deriving
+derive
 (
 Clone
 Eq
@@ -235,6 +235,10 @@ vec
 as_slice
 (
 )
+)
+.
+ok
+(
 )
 }
 /
@@ -739,7 +743,7 @@ HT
 rule
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -1122,6 +1126,9 @@ rule
 }
 impl
 Hash
+<
+SipHasher
+>
 for
 ByteString
 {
@@ -1134,10 +1141,7 @@ state
 :
 &
 mut
-sip
-:
-:
-SipState
+SipHasher
 )
 {
 let

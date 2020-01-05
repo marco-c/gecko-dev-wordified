@@ -515,6 +515,15 @@ use
 std
 :
 :
+ffi
+:
+:
+CString
+;
+use
+std
+:
+:
 rc
 :
 :
@@ -2289,6 +2298,7 @@ global_event_handlers
 !
 (
 )
+;
 event_handler
 !
 (
@@ -2296,6 +2306,7 @@ unload
 GetOnunload
 SetOnunload
 )
+;
 error_event_handler
 !
 (
@@ -2303,6 +2314,7 @@ error
 GetOnerror
 SetOnerror
 )
+;
 fn
 Screen
 (
@@ -2680,10 +2692,16 @@ UndefinedValue
 let
 filename
 =
+CString
+:
+:
+from_slice
+(
 filename
 .
-to_c_str
+as_bytes
 (
+)
 )
 ;
 with_compartment

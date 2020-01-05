@@ -180,9 +180,9 @@ context
 .
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -1139,6 +1139,8 @@ f
 TableRowGroupFlow
 :
 {
+:
+?
 }
 "
 self

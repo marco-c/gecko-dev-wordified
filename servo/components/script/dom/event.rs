@@ -213,7 +213,7 @@ jstraceable
 ]
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -257,7 +257,7 @@ int
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -281,7 +281,7 @@ ErrorEvent
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -295,7 +295,7 @@ DoesNotBubble
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 )

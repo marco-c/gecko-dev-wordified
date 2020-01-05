@@ -294,9 +294,9 @@ CSS
 .
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -2697,6 +2697,8 @@ f
 TableFlow
 :
 {
+:
+?
 }
 "
 self
@@ -3103,10 +3105,10 @@ pick
 .
 #
 [
-deriving
+derive
 (
 Clone
-Encodable
+RustcEncodable
 Show
 Copy
 )
@@ -3424,9 +3426,9 @@ eventually
 .
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 Copy
 )
 ]

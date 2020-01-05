@@ -67,7 +67,7 @@ CharIndex
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq

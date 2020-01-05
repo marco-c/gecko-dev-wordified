@@ -181,7 +181,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 {
@@ -234,7 +237,7 @@ or
 method
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -349,7 +352,7 @@ CORS
 cache
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -824,7 +827,7 @@ CORS
 Cache
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -1822,7 +1825,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -1863,7 +1866,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -1917,7 +1920,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -1979,7 +1982,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -2032,7 +2035,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -2089,7 +2092,7 @@ tx
 ;
 rx
 .
-recv_opt
+recv
 (
 )
 .
@@ -2138,7 +2141,7 @@ _
 =
 rx
 .
-recv_opt
+recv
 (
 )
 ;
@@ -2224,9 +2227,9 @@ builder
 .
 spawn
 (
-proc
-(
-)
+move
+|
+|
 {
 task
 .
@@ -2404,6 +2407,10 @@ self
 receiver
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 {

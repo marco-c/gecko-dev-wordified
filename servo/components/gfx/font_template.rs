@@ -168,7 +168,7 @@ parameters
 .
 #
 [
-deriving
+derive
 (
 Clone
 Copy

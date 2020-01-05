@@ -198,7 +198,7 @@ hyper
 header
 :
 :
-common
+shared
 :
 :
 util
@@ -274,7 +274,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -403,7 +403,7 @@ XHR
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 Copy
@@ -1191,7 +1191,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 )
@@ -2001,7 +2001,7 @@ agent
 .
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2039,7 +2039,7 @@ or
 method
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -2153,7 +2153,7 @@ CORS
 cache
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3014,7 +3014,7 @@ name
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -3180,7 +3180,7 @@ Hyper
 ?
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3308,7 +3308,7 @@ f
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3445,7 +3445,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3582,7 +3582,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3719,7 +3719,7 @@ as_slice
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -3809,6 +3809,10 @@ raw
 as_slice
 (
 )
+)
+.
+ok
+(
 )
 .
 and_then
@@ -3935,7 +3939,7 @@ f
 }
 #
 [
-deriving
+derive
 (
 Clone
 )

@@ -99,5 +99,4 @@ cef_string_t
 *
 mut
 cef_xml_reader_t
-;
 }

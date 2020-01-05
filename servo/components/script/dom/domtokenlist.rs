@@ -1149,7 +1149,7 @@ atom
 token
 )
 .
-and_then
+map
 (
 |
 index

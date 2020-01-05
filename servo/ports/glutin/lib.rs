@@ -80,7 +80,8 @@ in
 [
 feature
 (
-macro_rules
+box_syntax
+int_uint
 )
 ]
 #
@@ -295,6 +296,14 @@ foreground
 size
 .
 as_uint
+(
+)
+.
+cast
+(
+)
+.
+unwrap
 (
 )
 )

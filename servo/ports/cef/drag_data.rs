@@ -76,5 +76,4 @@ cef_drag_data_create
 *
 mut
 cef_drag_data_t
-;
 }

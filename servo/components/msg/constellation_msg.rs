@@ -163,7 +163,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 {
@@ -180,7 +183,7 @@ Url
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -235,7 +238,7 @@ chan
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -269,7 +272,7 @@ struct
 .
 #
 [
-deriving
+derive
 (
 Clone
 Copy
@@ -293,7 +296,7 @@ SubpageId
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -405,7 +408,7 @@ f32
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -436,7 +439,7 @@ glfw
 rs
 #
 [
-deriving
+derive
 (
 Show
 PartialEq
@@ -573,13 +576,6 @@ Menu
 bitflags
 !
 {
-#
-[
-deriving
-(
-Copy
-)
-]
 flags
 KeyModifiers
 :
@@ -755,7 +751,7 @@ or
 headers
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -844,7 +840,7 @@ be
 navigated
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -878,7 +874,7 @@ buttons
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -897,7 +893,7 @@ Back
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -917,7 +913,7 @@ uint
 ;
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -963,7 +959,7 @@ termination
 .
 #
 [
-deriving
+derive
 (
 Copy
 )

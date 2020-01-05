@@ -526,6 +526,7 @@ new
 None
 )
 )
+;
 /
 /
 /
@@ -800,9 +801,7 @@ tid
 )
 old_node
 .
-val0
-(
-)
+0
 )
 ;
 bloom_filter
@@ -1144,7 +1143,7 @@ node
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1667,9 +1666,7 @@ tid
 )
 unsafe_layout_node
 .
-val0
-(
-)
+0
 )
 ;
 node
@@ -1725,7 +1722,7 @@ nodes
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -2085,9 +2082,7 @@ tid
 )
 unsafe_layout_node
 .
-val0
-(
-)
+0
 )
 ;
 /
@@ -2448,7 +2443,7 @@ Reflow
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -2614,7 +2609,7 @@ FinishAndStoreOverflow
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -2787,7 +2782,7 @@ REFLOW
 }
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -2851,7 +2846,7 @@ compute_absolute_position
 }
 #
 [
-deriving
+derive
 (
 Copy
 )

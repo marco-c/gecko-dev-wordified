@@ -59,6 +59,14 @@ MPL
 #
 !
 [
+feature
+(
+int_uint
+)
+]
+#
+!
+[
 deny
 (
 unused_imports

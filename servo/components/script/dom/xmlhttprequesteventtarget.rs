@@ -149,7 +149,7 @@ EventTargetTypeId
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -303,6 +303,7 @@ loadstart
 GetOnloadstart
 SetOnloadstart
 )
+;
 event_handler
 !
 (
@@ -310,6 +311,7 @@ progress
 GetOnprogress
 SetOnprogress
 )
+;
 event_handler
 !
 (
@@ -317,6 +319,7 @@ abort
 GetOnabort
 SetOnabort
 )
+;
 event_handler
 !
 (
@@ -324,6 +327,7 @@ error
 GetOnerror
 SetOnerror
 )
+;
 event_handler
 !
 (
@@ -331,6 +335,7 @@ load
 GetOnload
 SetOnload
 )
+;
 event_handler
 !
 (
@@ -338,6 +343,7 @@ timeout
 GetOntimeout
 SetOntimeout
 )
+;
 event_handler
 !
 (
@@ -345,4 +351,5 @@ loadend
 GetOnloadend
 SetOnloadend
 )
+;
 }

@@ -200,7 +200,7 @@ Rc
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -239,7 +239,7 @@ f32
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -265,7 +265,7 @@ Servo
 .
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -438,7 +438,7 @@ Resize
 TypedSize2D
 <
 DevicePixel
-uint
+u32
 >
 )
 /
@@ -905,7 +905,7 @@ self
 TypedSize2D
 <
 DevicePixel
-uint
+u32
 >
 ;
 /

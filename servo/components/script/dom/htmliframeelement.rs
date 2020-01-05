@@ -1697,7 +1697,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .

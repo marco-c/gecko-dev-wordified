@@ -221,7 +221,7 @@ item
 .
 #
 [
-deriving
+derive
 (
 Show
 )

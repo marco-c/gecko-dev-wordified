@@ -212,9 +212,9 @@ table
 .
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 )
 ]
 pub
@@ -285,9 +285,9 @@ cell
 .
 #
 [
-deriving
+derive
 (
-Encodable
+RustcEncodable
 Copy
 )
 ]
@@ -2340,6 +2340,8 @@ f
 TableRowFlow
 :
 {
+:
+?
 }
 "
 self

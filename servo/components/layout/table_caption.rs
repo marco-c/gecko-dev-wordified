@@ -580,6 +580,8 @@ f
 TableCaptionFlow
 :
 {
+:
+?
 }
 "
 self

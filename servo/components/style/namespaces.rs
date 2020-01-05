@@ -88,7 +88,7 @@ ParserContext
 ;
 #
 [
-deriving
+derive
 (
 Clone
 )

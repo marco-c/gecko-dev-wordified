@@ -260,7 +260,10 @@ use
 std
 :
 :
-comm
+sync
+:
+:
+mpsc
 :
 :
 {
@@ -426,9 +429,6 @@ port
 pub
 trait
 CompositorReceiver
-for
-Sized
-?
 :
 '
 static
@@ -571,6 +571,10 @@ self
 recv
 (
 )
+.
+unwrap
+(
+)
 }
 }
 /
@@ -702,6 +706,10 @@ port
 recv
 (
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -824,7 +832,7 @@ keeps
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -1018,6 +1026,10 @@ chan
 port
 .
 recv
+(
+)
+.
+unwrap
 (
 )
 }

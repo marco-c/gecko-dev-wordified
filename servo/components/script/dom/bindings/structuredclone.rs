@@ -441,3 +441,10 @@ null_mut
 message
 }
 }
+unsafe
+impl
+Send
+for
+StructuredCloneData
+{
+}

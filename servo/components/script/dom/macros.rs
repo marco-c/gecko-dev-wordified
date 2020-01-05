@@ -155,7 +155,7 @@ from_slice
 (
 htmlname
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -185,7 +185,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -193,8 +193,10 @@ as_slice
 (
 )
 )
+;
 }
 )
+;
 #
 [
 macro_export
@@ -331,7 +333,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -339,8 +341,10 @@ as_slice
 (
 )
 )
+;
 }
 )
+;
 #
 [
 macro_export
@@ -477,7 +481,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -485,8 +489,10 @@ as_slice
 (
 )
 )
+;
 }
 )
+;
 #
 [
 macro_export
@@ -638,7 +644,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -646,8 +652,10 @@ as_slice
 (
 )
 )
+;
 }
 )
+;
 #
 [
 macro_export
@@ -816,7 +824,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -824,8 +832,10 @@ as_slice
 (
 )
 )
+;
 }
 )
+;
 #
 [
 macro_export
@@ -845,9 +855,11 @@ default
 :
 expr
 (
+(
 choices
 :
 pat
+)
 )
 |
 +
@@ -949,7 +961,7 @@ htmlname
 )
 )
 .
-into_ascii_lower
+into_ascii_lowercase
 (
 )
 ;
@@ -1013,9 +1025,11 @@ default
 :
 expr
 (
+(
 choices
 :
 pat
+)
 )
 |
 +
@@ -1033,7 +1047,7 @@ stringify
 attr
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -1042,13 +1056,17 @@ as_slice
 )
 default
 (
+(
 choices
+)
 )
 |
 +
 )
+;
 }
 )
+;
 /
 /
 concat_idents
@@ -1182,6 +1200,7 @@ value
 )
 ;
 )
+;
 #
 [
 macro_export
@@ -1287,6 +1306,7 @@ value
 )
 ;
 )
+;
 #
 [
 macro_export
@@ -1392,6 +1412,7 @@ value
 )
 ;
 )
+;
 /
 /
 /
@@ -1519,6 +1540,7 @@ nothing
 )
 ;
 )
+;
 /
 /
 /
@@ -1638,6 +1660,7 @@ listener
 }
 )
 )
+;
 macro_rules
 !
 event_handler
@@ -1664,8 +1687,10 @@ event_type
 getter
 setter
 )
+;
 )
 )
+;
 macro_rules
 !
 error_event_handler
@@ -1692,8 +1717,10 @@ event_type
 getter
 setter
 )
+;
 )
 )
+;
 /
 /
 https
@@ -1751,11 +1778,13 @@ load
 GetOnload
 SetOnload
 )
+;
 global_event_handlers
 !
 (
 NoOnload
 )
+;
 )
 ;
 (
@@ -1771,6 +1800,7 @@ click
 GetOnclick
 SetOnclick
 )
+;
 event_handler
 !
 (
@@ -1778,6 +1808,7 @@ input
 GetOninput
 SetOninput
 )
+;
 event_handler
 !
 (
@@ -1785,5 +1816,7 @@ change
 GetOnchange
 SetOnchange
 )
+;
 )
 )
+;

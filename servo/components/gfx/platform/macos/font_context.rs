@@ -58,7 +58,7 @@ MPL
 /
 #
 [
-deriving
+derive
 (
 Clone
 )

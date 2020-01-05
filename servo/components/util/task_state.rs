@@ -129,10 +129,9 @@ bitflags
 {
 #
 [
-deriving
+derive
 (
 Show
-Copy
 )
 ]
 flags
@@ -240,6 +239,7 @@ flag
 ;
 )
 )
+;
 task_types
 !
 {
@@ -309,6 +309,7 @@ new
 None
 )
 )
+;
 pub
 fn
 initialize
@@ -351,6 +352,8 @@ already
 initialized
 as
 {
+:
+?
 }
 "
 s

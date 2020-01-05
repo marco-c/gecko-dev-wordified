@@ -462,9 +462,6 @@ s
 pub
 trait
 ToJSValConvertible
-for
-Sized
-?
 {
 /
 /
@@ -1788,7 +1785,7 @@ s
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -3581,6 +3578,10 @@ NullValue
 }
 }
 }
+#
+[
+old_impl_check
+]
 impl
 <
 X

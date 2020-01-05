@@ -155,7 +155,7 @@ context
 )
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -234,7 +234,7 @@ type
 )
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -316,7 +316,7 @@ mode
 )
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -362,7 +362,7 @@ mode
 )
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -406,7 +406,7 @@ tainting
 )
 #
 [
-deriving
+derive
 (
 Copy
 )

@@ -119,7 +119,7 @@ std
 num
 :
 :
-FloatMath
+Float
 ;
 use
 style

@@ -258,7 +258,7 @@ object
 .
 #
 [
-deriving
+derive
 (
 Copy
 )

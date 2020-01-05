@@ -149,7 +149,7 @@ painter
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -166,7 +166,7 @@ Painting
 }
 #
 [
-deriving
+derive
 (
 Eq
 Ord
@@ -272,7 +272,7 @@ conditions
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 Eq
@@ -321,7 +321,7 @@ u
 }
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -442,7 +442,7 @@ layer
 .
 #
 [
-deriving
+derive
 (
 Clone
 PartialEq
@@ -518,7 +518,7 @@ itself
 .
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -636,9 +636,6 @@ display
 pub
 trait
 PaintListener
-for
-Sized
-?
 {
 fn
 get_graphics_metadata

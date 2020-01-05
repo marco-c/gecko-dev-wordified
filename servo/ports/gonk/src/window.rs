@@ -960,7 +960,7 @@ C
 ]
 #
 [
-deriving
+derive
 (
 Copy
 )

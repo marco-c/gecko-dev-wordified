@@ -269,7 +269,7 @@ c_void
 }
 #
 [
-deriving
+derive
 (
 Clone
 )
@@ -285,7 +285,7 @@ FT_Library
 }
 #
 [
-deriving
+derive
 (
 Clone
 )

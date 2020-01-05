@@ -192,7 +192,7 @@ HTML5
 .
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -236,7 +236,7 @@ HTML5
 .
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -283,7 +283,7 @@ HTML5
 .
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -334,7 +334,7 @@ HTML5
 .
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq

@@ -600,6 +600,15 @@ use
 std
 :
 :
+cmp
+:
+:
+Ordering
+;
+use
+std
+:
+:
 rand
 ;
 use
@@ -631,7 +640,7 @@ rng
 rand
 :
 :
-task_rng
+thread_rng
 (
 )
 ;

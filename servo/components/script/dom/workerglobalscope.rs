@@ -341,7 +341,7 @@ UrlParser
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq

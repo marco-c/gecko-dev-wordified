@@ -160,7 +160,7 @@ SignedInt
 ;
 #
 [
-deriving
+derive
 (
 Copy
 PartialEq
@@ -178,7 +178,7 @@ jstraceable
 ]
 #
 [
-deriving
+derive
 (
 Copy
 )
@@ -370,7 +370,7 @@ lines
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 )
@@ -396,7 +396,7 @@ character
 .
 #
 [
-deriving
+derive
 (
 PartialEq
 )

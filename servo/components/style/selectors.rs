@@ -87,7 +87,7 @@ use
 std
 :
 :
-str
+string
 :
 :
 CowString
@@ -137,7 +137,7 @@ Origin
 ;
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -169,7 +169,7 @@ u32
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -193,7 +193,7 @@ After
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -236,7 +236,7 @@ c
 }
 #
 [
-deriving
+derive
 (
 PartialEq
 Clone
@@ -267,7 +267,7 @@ LaterSibling
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -452,7 +452,7 @@ ServoNonzeroBorder
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -484,7 +484,7 @@ CaseInsensitive
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -508,7 +508,7 @@ Atom
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -536,7 +536,7 @@ NamespaceConstraint
 }
 #
 [
-deriving
+derive
 (
 Eq
 PartialEq
@@ -1851,7 +1851,7 @@ into_owned
 (
 )
 .
-into_ascii_lower
+into_ascii_lowercase
 (
 )
 .
@@ -1881,7 +1881,7 @@ simple_selectors
 }
 #
 [
-deriving
+derive
 (
 Show
 )
@@ -2013,6 +2013,7 @@ let
 default_namespace
 =
 |
+:
 local_name
 |
 {
@@ -2069,6 +2070,8 @@ let
 explicit_namespace
 =
 |
+&
+:
 input
 :
 &
@@ -2544,7 +2547,7 @@ as_slice
 (
 )
 .
-to_ascii_lower
+to_ascii_lowercase
 (
 )
 .
@@ -2774,6 +2777,8 @@ format
 (
 "
 {
+:
+?
 }
 -
 "
@@ -3439,7 +3444,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 "
 nth
 -
@@ -3544,6 +3548,9 @@ Err
 }
 fn
 parse_nth_pseudo_class
+<
+F
+>
 (
 input
 :
@@ -3552,13 +3559,7 @@ mut
 Parser
 selector
 :
-|
-i32
-i32
-|
--
->
-SimpleSelector
+F
 )
 -
 >
@@ -3568,6 +3569,17 @@ SimpleSelector
 (
 )
 >
+where
+F
+:
+FnOnce
+(
+i32
+i32
+)
+-
+>
+SimpleSelector
 {
 let
 (
@@ -3940,7 +3952,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 /
 /
 Supported
@@ -4240,7 +4251,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 "
 any
 -
@@ -4507,7 +4517,6 @@ match_ignore_ascii_case
 !
 {
 name
-:
 "
 before
 "
@@ -4758,6 +4767,7 @@ Err
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -4840,6 +4850,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -4907,6 +4918,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -4974,6 +4986,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -5090,6 +5103,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -5227,6 +5241,7 @@ specificity
 )
 )
 )
+;
 /
 /
 Default
@@ -5368,6 +5383,7 @@ specificity
 )
 )
 )
+;
 /
 /
 Default
@@ -5511,6 +5527,7 @@ specificity
 )
 )
 )
+;
 /
 /
 Default
@@ -5614,6 +5631,7 @@ specificity
 )
 )
 )
+;
 /
 /
 https
@@ -5690,6 +5708,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
@@ -5797,6 +5816,7 @@ specificity
 )
 )
 )
+;
 assert_eq
 !
 (
