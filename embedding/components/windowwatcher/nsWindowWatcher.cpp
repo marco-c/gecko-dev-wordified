@@ -6791,13 +6791,7 @@ attrs
 .
 InheritFromDocToChildDocShell
 (
-BasePrincipal
-:
-:
-Cast
-(
 subjectPrincipal
-)
 -
 >
 OriginAttributesRef

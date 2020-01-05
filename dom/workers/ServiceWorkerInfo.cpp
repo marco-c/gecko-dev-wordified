@@ -1158,13 +1158,7 @@ main
 thread
 mOriginAttributes
 =
-BasePrincipal
-:
-:
-Cast
-(
 mPrincipal
-)
 -
 >
 OriginAttributesRef

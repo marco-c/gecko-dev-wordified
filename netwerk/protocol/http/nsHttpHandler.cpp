@@ -15932,13 +15932,7 @@ neckoOriginAttributes
 .
 InheritFromDocToNecko
 (
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

@@ -2531,13 +2531,7 @@ IsCallerChrome
 nsCString
 suffix
 ;
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

@@ -2034,13 +2034,7 @@ new
 nsExpandedPrincipal
 (
 principalAsArray
-BasePrincipal
-:
-:
-Cast
-(
 principal
-)
 -
 >
 OriginAttributesRef

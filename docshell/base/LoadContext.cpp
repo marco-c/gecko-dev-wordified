@@ -437,13 +437,7 @@ endif
 PrincipalOriginAttributes
 poa
 =
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

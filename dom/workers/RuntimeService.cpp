@@ -12344,16 +12344,10 @@ GenerateSharedWorkerKey
 (
 scriptSpec
 aName
-BasePrincipal
-:
-:
-Cast
-(
 aLoadInfo
 -
 >
 mPrincipal
-)
 -
 >
 OriginAttributesRef

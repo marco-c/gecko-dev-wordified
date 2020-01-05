@@ -14529,17 +14529,11 @@ OwnerIsMozBrowserFrame
 PrincipalOriginAttributes
 poa
 =
-BasePrincipal
-:
-:
-Cast
-(
 doc
 -
 >
 NodePrincipal
 (
-)
 )
 -
 >

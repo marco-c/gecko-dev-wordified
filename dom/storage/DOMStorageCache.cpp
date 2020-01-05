@@ -699,13 +699,7 @@ mPrincipal
 =
 aPrincipal
 ;
-BasePrincipal
-:
-:
-Cast
-(
 aPrincipal
-)
 -
 >
 OriginAttributesRef

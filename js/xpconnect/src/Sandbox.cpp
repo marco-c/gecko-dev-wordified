@@ -9106,13 +9106,7 @@ const
 PrincipalOriginAttributes
 prinAttrs
 =
-BasePrincipal
-:
-:
-Cast
-(
 principal
-)
 -
 >
 OriginAttributesRef
