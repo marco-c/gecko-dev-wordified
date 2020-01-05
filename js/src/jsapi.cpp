@@ -24232,6 +24232,7 @@ frontend
 :
 :
 FullParseHandler
+char16_t
 >
 parser
 (

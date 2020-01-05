@@ -3040,6 +3040,7 @@ pnp
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -3061,6 +3062,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -3283,6 +3285,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -3549,6 +3552,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -3682,6 +3686,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -3886,6 +3891,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -4006,6 +4012,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -4235,6 +4242,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -4480,6 +4488,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -4556,6 +4565,7 @@ target
 Parser
 <
 FullParseHandler
+char16_t
 >
 :
 :
@@ -4588,6 +4598,7 @@ target
 Parser
 <
 FullParseHandler
+char16_t
 >
 :
 :
@@ -4613,6 +4624,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -5212,6 +5224,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -5690,6 +5703,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -6427,6 +6441,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -6827,6 +6842,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -6893,6 +6909,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -7417,6 +7434,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -7768,6 +7786,7 @@ list
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -7877,6 +7896,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -7952,6 +7972,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -8081,6 +8102,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -8210,6 +8232,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -8332,6 +8355,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -8976,6 +9000,7 @@ nodePtr
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -9951,6 +9976,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -10256,6 +10282,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -10343,6 +10370,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -10499,6 +10527,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -10630,6 +10659,7 @@ node
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -10697,6 +10727,7 @@ pnp
 Parser
 <
 FullParseHandler
+char16_t
 >
 &
 parser
@@ -12094,6 +12125,11 @@ return
 false
 ;
 }
+template
+<
+typename
+CharT
+>
 bool
 frontend
 :
@@ -12110,6 +12146,7 @@ pnp
 Parser
 <
 FullParseHandler
+CharT
 >
 *
 parser
@@ -12186,3 +12223,26 @@ false
 )
 ;
 }
+template
+bool
+frontend
+:
+:
+FoldConstants
+(
+JSContext
+*
+cx
+ParseNode
+*
+*
+pnp
+Parser
+<
+FullParseHandler
+char16_t
+>
+*
+parser
+)
+;

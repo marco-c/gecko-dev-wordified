@@ -9150,6 +9150,7 @@ cx
 Parser
 <
 FullParseHandler
+char16_t
 >
 *
 parser
@@ -9837,6 +9838,7 @@ setParser
 Parser
 <
 FullParseHandler
+char16_t
 >
 *
 p
@@ -21165,6 +21167,7 @@ false
 Parser
 <
 FullParseHandler
+char16_t
 >
 parser
 (

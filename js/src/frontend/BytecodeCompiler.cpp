@@ -569,6 +569,7 @@ Maybe
 Parser
 <
 SyntaxParseHandler
+char16_t
 >
 >
 syntaxParser
@@ -578,6 +579,7 @@ Maybe
 Parser
 <
 FullParseHandler
+char16_t
 >
 >
 parser
@@ -1407,18 +1409,7 @@ foldConstants
 false
 *
 usedNames
-(
-Parser
-<
-SyntaxParseHandler
->
-*
-)
 nullptr
-(
-LazyScript
-*
-)
 nullptr
 )
 ;
@@ -4170,6 +4161,7 @@ false
 Parser
 <
 FullParseHandler
+char16_t
 >
 parser
 (
