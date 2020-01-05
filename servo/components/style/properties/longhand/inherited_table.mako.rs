@@ -187,11 +187,6 @@ border
 -
 spacing
 "
-products
-=
-"
-servo
-"
 animatable
 =
 "
