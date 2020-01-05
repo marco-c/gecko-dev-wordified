@@ -145,15 +145,6 @@ include
 "
 mozilla
 /
-ServoComputedValuesWithParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StyleAnimationValue
 .
 h
@@ -3931,9 +3922,9 @@ Element
 *
 aElement
 const
-ServoComputedValuesWithParent
-&
-aServoValues
+ServoComputedValues
+*
+aComputedValues
 )
 {
 MOZ_ASSERT
@@ -3986,7 +3977,7 @@ GetComputedKeyframeValuesFor
 (
 aKeyframes
 aElement
-aServoValues
+aComputedValues
 )
 ;
 }

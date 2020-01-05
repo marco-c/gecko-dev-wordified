@@ -278,9 +278,6 @@ ServoStyleSheet
 struct
 Keyframe
 ;
-struct
-ServoComputedValuesWithParent
-;
 class
 ServoElementSnapshotTable
 ;
@@ -2349,10 +2346,8 @@ dom
 Element
 *
 aElement
-const
-ServoComputedValuesWithParent
-&
-aServoValues
+ServoComputedValuesBorrowed
+aComputedValues
 )
 ;
 bool
