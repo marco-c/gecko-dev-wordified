@@ -1132,9 +1132,6 @@ aInnerBezier
 mozilla
 :
 :
-css
-:
-:
 Corner
 aCorner
 Float
@@ -1328,9 +1325,6 @@ Bezier
 mCenterBezier
 ;
 mozilla
-:
-:
-css
 :
 :
 Corner

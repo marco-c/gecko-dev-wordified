@@ -391,9 +391,6 @@ AtCorner
 mozilla
 :
 :
-css
-:
-:
 Corner
 corner
 )
