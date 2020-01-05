@@ -1224,9 +1224,9 @@ SourceSurface
 >
 GetSurfaceSnapshot
 (
-bool
+gfxAlphaType
 *
-aPremultAlpha
+aOutAlphaType
 =
 nullptr
 )
