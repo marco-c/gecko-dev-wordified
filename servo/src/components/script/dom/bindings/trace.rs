@@ -705,7 +705,7 @@ if
 !
 val
 .
-is_gcthing
+is_markable
 (
 )
 {
