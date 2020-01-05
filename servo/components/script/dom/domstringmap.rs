@@ -227,7 +227,6 @@ new
 (
 global
 :
-&
 GlobalRef
 )
 -

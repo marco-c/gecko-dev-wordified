@@ -291,7 +291,6 @@ new_inherited
 window
 rects
 )
-&
 global
 :
 :

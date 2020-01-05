@@ -322,6 +322,7 @@ global
 canvas
 size
 )
+*
 global
 CanvasRenderingContext2DBinding
 :

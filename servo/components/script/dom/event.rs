@@ -540,7 +540,6 @@ new_uninitialized
 (
 global
 :
-&
 GlobalRef
 )
 -
@@ -573,7 +572,6 @@ new
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -697,6 +695,7 @@ Event
 :
 new
 (
+*
 global
 type_
 bubbles

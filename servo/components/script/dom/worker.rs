@@ -464,6 +464,7 @@ new_inherited
 global
 sender
 )
+*
 global
 WorkerBinding
 :
@@ -774,7 +775,6 @@ MessageEvent
 dispatch_jsval
 (
 target
-&
 global
 .
 root_ref

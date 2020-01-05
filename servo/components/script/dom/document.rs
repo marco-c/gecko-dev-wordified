@@ -2645,7 +2645,6 @@ Event
 :
 new
 (
-&
 global
 :
 :
@@ -3480,7 +3479,6 @@ doctype
 content_type
 source
 )
-&
 global
 :
 :
@@ -5864,7 +5862,6 @@ CustomEvent
 :
 new_uninitialized
 (
-&
 global
 :
 :
@@ -5896,7 +5893,6 @@ Event
 :
 new_uninitialized
 (
-&
 global
 :
 :

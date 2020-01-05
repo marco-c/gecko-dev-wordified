@@ -757,7 +757,6 @@ namespace
 prefix
 owner
 )
-&
 global
 :
 :

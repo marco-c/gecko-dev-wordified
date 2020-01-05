@@ -285,7 +285,6 @@ bottom
 left
 right
 )
-&
 global
 :
 :

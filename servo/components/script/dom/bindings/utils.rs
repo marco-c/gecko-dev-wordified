@@ -3256,7 +3256,6 @@ T
 >
 global
 :
-&
 GlobalRef
 wrap_fn
 :
@@ -3297,6 +3296,7 @@ global
 get_cx
 (
 )
+&
 global
 obj
 )

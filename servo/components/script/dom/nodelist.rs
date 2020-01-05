@@ -256,7 +256,6 @@ new_inherited
 (
 list_type
 )
-&
 global
 :
 :

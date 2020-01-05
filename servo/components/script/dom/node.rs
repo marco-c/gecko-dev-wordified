@@ -7854,7 +7854,6 @@ root
 reflect_dom_object
 (
 node
-&
 global
 :
 :

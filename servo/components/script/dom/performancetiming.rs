@@ -240,7 +240,6 @@ reflect_dom_object
 (
 box
 timing
-&
 global
 :
 :

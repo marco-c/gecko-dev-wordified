@@ -1408,7 +1408,6 @@ Event
 :
 new
 (
-&
 Window
 (
 *

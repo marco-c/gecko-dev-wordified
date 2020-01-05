@@ -316,7 +316,6 @@ clone
 (
 )
 )
-&
 Window
 (
 *

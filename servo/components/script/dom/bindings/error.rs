@@ -338,6 +338,7 @@ DOMException
 :
 new_from_error
 (
+*
 global
 result
 )

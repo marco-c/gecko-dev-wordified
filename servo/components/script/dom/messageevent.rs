@@ -326,7 +326,6 @@ new
 (
 global
 :
-&
 GlobalRef
 type_
 :
@@ -452,6 +451,7 @@ MessageEvent
 :
 new
 (
+*
 global
 type_
 init
@@ -504,7 +504,6 @@ EventTarget
 >
 scope
 :
-&
 GlobalRef
 message
 :

@@ -997,7 +997,6 @@ Console
 :
 new
 (
-&
 global
 :
 :

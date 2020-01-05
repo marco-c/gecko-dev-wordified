@@ -542,7 +542,6 @@ new
 (
 global
 :
-&
 GlobalRef
 code
 :
@@ -578,7 +577,6 @@ new_from_error
 (
 global
 :
-&
 GlobalRef
 code
 :

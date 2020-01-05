@@ -6836,7 +6836,6 @@ Event
 :
 new
 (
-&
 global
 :
 :
@@ -6968,7 +6967,6 @@ Event
 :
 new
 (
-&
 global
 :
 :
@@ -8863,7 +8861,6 @@ Event
 :
 new
 (
-&
 global
 :
 :

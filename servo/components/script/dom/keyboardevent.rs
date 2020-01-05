@@ -522,7 +522,6 @@ KeyboardEvent
 new_inherited
 (
 )
-&
 global
 :
 :

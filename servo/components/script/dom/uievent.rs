@@ -364,7 +364,6 @@ new_inherited
 (
 UIEventTypeId
 )
-&
 global
 :
 :
