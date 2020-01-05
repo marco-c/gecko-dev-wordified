@@ -161,8 +161,11 @@ loader
 .
 *
 /
-function
+this
+.
 requireRawId
+=
+function
 (
 id
 require
@@ -437,6 +440,7 @@ return
 data
 ;
 }
+;
 this
 .
 EXPORTED_SYMBOLS
