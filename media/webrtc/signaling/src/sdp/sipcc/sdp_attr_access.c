@@ -17079,6 +17079,13 @@ Returns
 :
 mode
 value
+or
+zero
+if
+mode
+attribute
+not
+found
 *
 /
 uint32_t
