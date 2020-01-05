@@ -9131,7 +9131,7 @@ build_element_from_tag
 (
 element
 .
-tag_name
+local_name
 .
 clone
 (
@@ -11257,7 +11257,7 @@ get
 (
 )
 .
-tag_name
+local_name
 =
 =
 other_element
@@ -11266,7 +11266,7 @@ get
 (
 )
 .
-tag_name
+local_name
 )
 &
 &

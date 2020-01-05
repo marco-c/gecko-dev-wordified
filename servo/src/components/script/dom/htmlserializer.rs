@@ -678,7 +678,7 @@ get
 (
 )
 .
-tag_name
+local_name
 .
 as_slice
 (
@@ -905,7 +905,7 @@ get
 (
 )
 .
-tag_name
+local_name
 ;
 for
 attr
@@ -950,7 +950,7 @@ get
 (
 )
 .
-tag_name
+local_name
 .
 as_slice
 (
@@ -1108,7 +1108,7 @@ get
 (
 )
 .
-tag_name
+local_name
 .
 clone
 (

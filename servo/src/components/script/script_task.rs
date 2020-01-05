@@ -8194,7 +8194,7 @@ get
 (
 )
 .
-tag_name
+local_name
 {
 self
 .
