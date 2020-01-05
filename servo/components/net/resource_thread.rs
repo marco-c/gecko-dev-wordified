@@ -130,7 +130,10 @@ use
 filemanager_thread
 :
 :
+{
 FileManagerThreadFactory
+TFDProvider
+}
 ;
 use
 hsts
@@ -451,6 +454,17 @@ spawn_named
 ;
 use
 websocket_loader
+;
+const
+TFD_PROVIDER
+:
+&
+'
+static
+TFDProvider
+=
+&
+TFDProvider
 ;
 pub
 enum
@@ -1359,6 +1373,7 @@ FileManagerThreadFactory
 :
 new
 (
+TFD_PROVIDER
 )
 )
 }
