@@ -492,6 +492,15 @@ aContentBackend
 )
 override
 ;
+NS_IMETHOD
+GetUsingGPUProcess
+(
+bool
+*
+aOutValue
+)
+override
+;
 /
 /
 Initialization
