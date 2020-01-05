@@ -164,6 +164,9 @@ Proxy
 class
 SendRunnable
 ;
+class
+DOMString
+;
 namespace
 workers
 {
@@ -1033,7 +1036,7 @@ virtual
 void
 GetResponseText
 (
-nsAString
+DOMString
 &
 aResponseText
 ErrorResult

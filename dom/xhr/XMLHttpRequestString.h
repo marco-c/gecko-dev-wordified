@@ -137,6 +137,9 @@ namespace
 dom
 {
 class
+DOMString
+;
+class
 XMLHttpRequestStringBuffer
 ;
 class
@@ -594,7 +597,7 @@ MOZ_MUST_USE
 bool
 GetAsString
 (
-nsAString
+DOMString
 &
 aString
 )

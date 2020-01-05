@@ -441,6 +441,9 @@ class
 BlobSet
 ;
 class
+DOMString
+;
+class
 FormData
 ;
 class
@@ -2242,7 +2245,7 @@ virtual
 void
 GetResponseText
 (
-nsAString
+DOMString
 &
 aResponseText
 ErrorResult
