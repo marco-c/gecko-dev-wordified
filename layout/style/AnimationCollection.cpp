@@ -334,6 +334,7 @@ AnimationType
 :
 GetAnimationCollection
 (
+const
 dom
 :
 :
