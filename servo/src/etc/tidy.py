@@ -246,42 +246,56 @@ src
 /
 cairo
 "
+#
+Upstream
     
 "
 src
 /
 libcss
 "
+#
+Upstream
     
 "
 src
 /
 libhubbub
 "
+#
+Upstream
     
 "
 src
 /
 libparserutils
 "
+#
+Upstream
     
 "
 src
 /
 libwapcaplet
 "
+#
+Upstream
     
 "
 src
 /
 mozjs
 "
+#
+Upstream
     
 "
 src
 /
 pixman
 "
+#
+Upstream
     
 "
 src
@@ -289,6 +303,8 @@ src
 rust
 /
 "
+#
+Upstream
     
 "
 src
@@ -299,6 +315,8 @@ azure
 /
 src
 "
+#
+Upstream
     
 "
 src
@@ -309,6 +327,8 @@ azure
 /
 include
 "
+#
+Upstream
     
 "
 src
@@ -319,12 +339,16 @@ harfbuzz
 /
 harfbuzz
 "
+#
+Upstream
     
 "
 src
 /
 skia
 "
+#
+Upstream
     
 "
 src
@@ -337,6 +361,19 @@ bindings
 /
 codegen
 "
+#
+Generated
+and
+upstream
+code
+combined
+with
+our
+own
+.
+Could
+use
+cleanup
     
 "
 src
@@ -360,40 +397,6 @@ rust
 stb
 -
 image
-"
-#
-"
-    
-"
-src
-/
-servo
-"
-#
-"
-    
-"
-src
-/
-servo
--
-gfx
-"
-#
-"
-    
-"
-src
-/
-reftest
-"
-#
-"
-    
-"
-src
-/
-contenttest
 "
 #
 "
