@@ -571,9 +571,11 @@ _target
 =
 connection
 .
-tabConnection
+client
 .
-tabTarget
+getTabTarget
+(
+)
 ;
 this
 .
@@ -1608,6 +1610,8 @@ finishes
 *
 /
 inspectRequest
+:
+function
 (
 requestId
 )
@@ -1656,10 +1660,9 @@ null
 let
 inspector
 =
+function
 (
 )
-=
->
 {
 request
 =
