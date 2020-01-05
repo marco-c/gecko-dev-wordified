@@ -610,9 +610,6 @@ forget
 aParams
 .
 mTaskQueue
-aParams
-.
-mCallback
 )
 ;
 return
@@ -687,9 +684,6 @@ forget
 aParams
 .
 mTaskQueue
-aParams
-.
-mCallback
 )
 ;
 return

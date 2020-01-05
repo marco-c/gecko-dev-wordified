@@ -310,9 +310,6 @@ aParams
 mTaskQueue
 aParams
 .
-mCallback
-aParams
-.
 VideoConfig
 (
 )
@@ -358,9 +355,6 @@ mLib
 aParams
 .
 mTaskQueue
-aParams
-.
-mCallback
 aParams
 .
 AudioConfig
