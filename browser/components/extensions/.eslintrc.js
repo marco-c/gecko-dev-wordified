@@ -84,11 +84,6 @@ browserActionFor
 :
 true
 "
-getBrowserInfo
-"
-:
-true
-"
 getCookieStoreIdForTab
 "
 :
