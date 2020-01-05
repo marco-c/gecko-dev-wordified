@@ -346,8 +346,6 @@ args
 .
 displayName
 "
-o
-.
 m
 "
 )

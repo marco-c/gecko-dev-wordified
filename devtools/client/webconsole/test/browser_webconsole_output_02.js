@@ -273,11 +273,7 @@ true
 anonymous
 function
 but
-spidermonkey
-gives
-us
-an
-inferred
+gets
 name
 .
 {
@@ -292,8 +288,6 @@ output
 :
 "
 function
-testobj1
-.
 testfn2
 (
 )

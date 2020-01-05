@@ -450,11 +450,6 @@ messages
 text
 :
 "
-function
-_pfactory
-/
-<
-.
 getName
 (
 )

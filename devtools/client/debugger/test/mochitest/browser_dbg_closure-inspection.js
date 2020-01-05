@@ -521,10 +521,6 @@ value
 "
 )
 "
-_pfactory
-/
-<
-.
 getName
 (
 )
@@ -619,10 +615,6 @@ value
 "
 )
 "
-_pfactory
-/
-<
-.
 getFoo
 (
 )
