@@ -69,6 +69,14 @@ box_syntax
 [
 feature
 (
+collections
+)
+]
+#
+!
+[
+feature
+(
 core
 )
 ]
