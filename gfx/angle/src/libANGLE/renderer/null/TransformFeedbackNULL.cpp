@@ -122,10 +122,6 @@ GLenum
 primitiveMode
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackNULL
@@ -135,10 +131,6 @@ end
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackNULL
@@ -148,10 +140,6 @@ pause
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackNULL
@@ -161,10 +149,6 @@ resume
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackNULL
@@ -184,10 +168,6 @@ Buffer
 binding
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackNULL
@@ -209,10 +189,6 @@ Buffer
 binding
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 }
 /

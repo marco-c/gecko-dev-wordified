@@ -8889,11 +8889,11 @@ CompressedCopyTextureCHROMIUM
 ;
 /
 /
-GL_ANGLE_webgl_compatibility
+GL_ANGLE_request_extension
 INSERT_PROC_ADDRESS
 (
 gl
-EnableExtensionANGLE
+RequestExtensionANGLE
 )
 ;
 /

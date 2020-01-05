@@ -4966,7 +4966,7 @@ symbolTable
 insertBuiltIn
 (
 ESSL3_1_BUILTINS
-int3
+int2
 "
 imageSize
 "

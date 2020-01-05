@@ -544,12 +544,6 @@ getStateManager
 >
 pauseTransformFeedback
 (
-context
--
->
-getContextState
-(
-)
 )
 ;
 SurfaceGL

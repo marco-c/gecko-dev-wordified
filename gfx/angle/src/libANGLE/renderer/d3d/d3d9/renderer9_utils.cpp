@@ -3484,6 +3484,13 @@ extensions
 >
 fence
 ;
+extensions
+-
+>
+copyTexture
+=
+true
+;
 /
 /
 D3D9

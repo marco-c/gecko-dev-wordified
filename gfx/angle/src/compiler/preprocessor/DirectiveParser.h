@@ -117,6 +117,8 @@ diagnostics
 DirectiveHandler
 *
 directiveHandler
+int
+maxMacroExpansionDepth
 )
 ;
 void
@@ -383,6 +385,9 @@ mDirectiveHandler
 ;
 int
 mShaderVersion
+;
+int
+mMaxMacroExpansionDepth
 ;
 }
 ;

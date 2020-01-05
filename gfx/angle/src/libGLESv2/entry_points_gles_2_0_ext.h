@@ -1486,11 +1486,11 @@ destId
 ;
 /
 /
-GL_ANGLE_webgl_compatibility
+GL_ANGLE_request_extension
 GL_APICALL
-GLboolean
+void
 GL_APIENTRY
-EnableExtensionANGLE
+RequestExtensionANGLE
 (
 const
 GLchar

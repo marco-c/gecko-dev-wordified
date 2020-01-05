@@ -66,7 +66,7 @@ class
 PragmaTest
 :
 public
-PreprocessorTest
+SimplePreprocessorTest
 {
 }
 ;

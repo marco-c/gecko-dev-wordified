@@ -1126,6 +1126,8 @@ diagnostics
 DirectiveHandler
 *
 directiveHandler
+int
+maxMacroExpansionDepth
 )
 :
 mPastFirstStatement
@@ -1155,6 +1157,10 @@ directiveHandler
 mShaderVersion
 (
 100
+)
+mMaxMacroExpansionDepth
+(
+maxMacroExpansionDepth
 )
 {
 }
@@ -4503,6 +4509,7 @@ macroExpander
 mTokenizer
 mMacroSet
 mDiagnostics
+mMaxMacroExpansionDepth
 )
 ;
 /
@@ -5110,6 +5117,7 @@ macroExpander
 definedParser
 mMacroSet
 mDiagnostics
+mMaxMacroExpansionDepth
 )
 ;
 ExpressionParser

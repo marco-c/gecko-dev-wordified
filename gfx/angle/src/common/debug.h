@@ -1071,8 +1071,6 @@ d
 :
 %
 s
-\
-n
 "
 __FUNCTION__
 __LINE__
@@ -1183,8 +1181,6 @@ s
 %
 d
 )
-\
-n
 "
 __FUNCTION__
 __LINE__
@@ -1238,8 +1234,6 @@ s
 %
 d
 )
-\
-n
 "
 __FUNCTION__
 __LINE__

@@ -110,6 +110,8 @@ macroSet
 Diagnostics
 *
 diagnostics
+int
+allowedMacroExpansionDepth
 )
 ;
 ~
@@ -334,6 +336,9 @@ mContextStack
 ;
 size_t
 mTotalTokensInContexts
+;
+int
+mAllowedMacroExpansionDepth
 ;
 bool
 mDeferReenablingMacros

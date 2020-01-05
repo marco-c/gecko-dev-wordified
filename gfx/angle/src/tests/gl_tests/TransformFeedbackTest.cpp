@@ -57,13 +57,6 @@ random_utils
 .
 h
 "
-#
-include
-"
-Vector
-.
-h
-"
 using
 namespace
 angle
@@ -2733,6 +2726,11 @@ IsNVIDIA
 IsAMD
 (
 )
+|
+|
+IsIntel
+(
+)
 )
 &
 &
@@ -2757,8 +2755,9 @@ Test
 skipped
 on
 NVidia
-and
 AMD
+and
+Intel
 OpenGL
 on
 OSX

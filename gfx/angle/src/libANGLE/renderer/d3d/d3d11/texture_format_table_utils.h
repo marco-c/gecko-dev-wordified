@@ -179,6 +179,8 @@ deviceCaps
 .
 featureLevel
 )
+.
+major
 >
 2
 )

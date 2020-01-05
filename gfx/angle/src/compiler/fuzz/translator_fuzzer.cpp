@@ -789,6 +789,12 @@ ARM_shader_framebuffer_fetch
 =
 1
 ;
+resources
+.
+MaxDualSourceDrawBuffers
+=
+1
+;
 if
 (
 !
