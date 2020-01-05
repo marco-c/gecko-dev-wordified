@@ -2400,6 +2400,16 @@ mLockCount
 |
 |
 (
+!
+gfxPrefs
+:
+:
+ImageMemAnimatedDiscardable
+(
+)
+&
+&
+(
 mAnimationState
 &
 &
@@ -2407,6 +2417,7 @@ mAnimationConsumers
 =
 =
 0
+)
 )
 )
 ;
