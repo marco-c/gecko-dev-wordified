@@ -391,6 +391,13 @@ GamepadPoseState
 aPose
 )
 ;
+void
+SetHand
+(
+GamepadHand
+aHand
+)
+;
 /
 /
 Make
