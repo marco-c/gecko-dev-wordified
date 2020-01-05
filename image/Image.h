@@ -1952,6 +1952,13 @@ StopAnimation
 =
 0
 ;
+void
+SendOnUnlockedDraw
+(
+uint32_t
+aFlags
+)
+;
 /
 /
 Member
