@@ -112,6 +112,11 @@ products
 "
 gecko
 "
+disable_when_testing
+=
+"
+True
+"
 >
 use
 cssparser

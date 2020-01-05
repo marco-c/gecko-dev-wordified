@@ -239,6 +239,11 @@ animatable
 "
 False
 "
+disable_when_testing
+=
+"
+True
+"
 >
 use
 cssparser

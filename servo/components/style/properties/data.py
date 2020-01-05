@@ -1583,6 +1583,9 @@ products
 gecko
 servo
 "
+disable_when_testing
+=
+False
 *
 *
 kwargs
@@ -1606,9 +1609,14 @@ in
 products
 and
 not
+(
 self
 .
 testing
+and
+not
+disable_when_testing
+)
 :
             
 return
@@ -1694,6 +1702,10 @@ products
 gecko
 servo
 "
+                          
+disable_when_testing
+=
+False
 *
 args
 *
@@ -1719,9 +1731,14 @@ in
 products
 and
 not
+(
 self
 .
 testing
+and
+not
+disable_when_testing
+)
 :
             
 return
