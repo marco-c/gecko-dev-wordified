@@ -7818,9 +7818,6 @@ extra_data
 =
 ExtraStyleData
 {
-author_style_disabled
-:
-None
 marker
 :
 PhantomData
@@ -7860,6 +7857,13 @@ ua_stylesheets
 data
 .
 stylesheets_changed
+/
+*
+author_styles_disabled
+=
+*
+/
+false
 &
 mut
 extra_data
