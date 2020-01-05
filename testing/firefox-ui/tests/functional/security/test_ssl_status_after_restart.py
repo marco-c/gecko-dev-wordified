@@ -357,6 +357,12 @@ tearDown
 )
     
 skip_if_e10s
+(
+"
+Bug
+1325047
+"
+)
     
 def
 test_ssl_status_after_restart
