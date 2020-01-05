@@ -537,7 +537,7 @@ AsyncCompositionManager
 explicit
 AsyncCompositionManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )
@@ -1571,7 +1571,7 @@ mContentRect
 ;
 RefPtr
 <
-LayerManagerComposite
+HostLayerManager
 >
 mLayerManager
 ;

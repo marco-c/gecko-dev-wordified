@@ -400,7 +400,7 @@ CanvasLayerComposite
 :
 SetLayerManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )

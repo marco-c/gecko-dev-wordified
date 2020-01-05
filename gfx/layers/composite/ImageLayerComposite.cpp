@@ -535,7 +535,7 @@ ImageLayerComposite
 :
 SetLayerManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )

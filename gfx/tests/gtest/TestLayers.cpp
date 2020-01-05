@@ -1481,7 +1481,7 @@ if
 rootLayer
 -
 >
-AsLayerComposite
+AsHostLayer
 (
 )
 )

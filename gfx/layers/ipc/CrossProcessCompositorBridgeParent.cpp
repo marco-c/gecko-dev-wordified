@@ -676,7 +676,7 @@ mCrossProcessParent
 =
 this
 ;
-LayerManagerComposite
+HostLayerManager
 *
 lm
 =

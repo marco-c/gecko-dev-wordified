@@ -245,7 +245,7 @@ virtual
 void
 SetLayerManager
 (
-LayerManagerComposite
+HostLayerManager
 *
 aManager
 )
@@ -321,9 +321,9 @@ nullptr
 ;
 }
 virtual
-LayerComposite
+HostLayer
 *
-AsLayerComposite
+AsHostLayer
 (
 )
 override

@@ -520,7 +520,7 @@ class
 CompositorVsyncScheduler
 ;
 class
-LayerManagerComposite
+HostLayerManager
 ;
 class
 LayerTransactionParent
@@ -2438,7 +2438,7 @@ CompositorBridgeParent
 >
 mParent
 ;
-LayerManagerComposite
+HostLayerManager
 *
 mLayerManager
 ;
@@ -3500,7 +3500,7 @@ aCallback
 ;
 RefPtr
 <
-LayerManagerComposite
+HostLayerManager
 >
 mLayerManager
 ;
