@@ -5411,12 +5411,6 @@ TimeIntervals
 >
 mBuffered
 ;
-Mirror
-<
-bool
->
-mIsReaderSuspended
-;
 /
 /
 The
