@@ -2780,7 +2780,7 @@ mNumActiveTFOs
 )
 mNextLink_TransformFeedbackBufferMode
 (
-LOCAL_GL_SEPARATE_ATTRIBS
+LOCAL_GL_INTERLEAVED_ATTRIBS
 )
 {
 mContext
