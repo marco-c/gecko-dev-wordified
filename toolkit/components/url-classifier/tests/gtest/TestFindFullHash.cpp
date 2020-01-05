@@ -953,6 +953,7 @@ EXPECTED_NEG_CACHE_DURATION
 static
 const
 struct
+ExpectedMatch
 {
 nsCString
 mCompleteHash
