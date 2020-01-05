@@ -140,6 +140,9 @@ TokenReader
 {
 stream
 :
+pipes
+:
+:
 port
 <
 Token
@@ -211,11 +214,12 @@ tok
 }
 none
 {
-recv
-(
 self
 .
 stream
+.
+recv
+(
 )
 }
 }
@@ -1265,7 +1269,11 @@ desc_list
 fn
 build_stylesheet
 (
++
 stream
+:
+pipes
+:
 :
 port
 <
