@@ -1603,7 +1603,7 @@ u16
 =
 resource_url
 .
-port_or_default
+port_or_known_default
 (
 )
 .
@@ -2662,7 +2662,7 @@ self
 .
 url
 .
-serialize
+as_str
 (
 )
 )

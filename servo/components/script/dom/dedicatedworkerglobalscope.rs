@@ -1584,7 +1584,7 @@ serialized_worker_url
 =
 worker_url
 .
-serialize
+to_string
 (
 )
 ;

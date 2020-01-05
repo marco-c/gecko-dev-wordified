@@ -1927,10 +1927,6 @@ html
 self
 .
 url
-.
-serialize
-(
-)
 )
 ;
 parser
@@ -2524,10 +2520,6 @@ error
 self
 .
 url
-.
-serialize
-(
-)
 err
 )
 ;

@@ -4508,11 +4508,6 @@ Step
 3
 &
 4
-String
-:
-:
-from_utf8
-(
 percent_decode
 (
 fragid
@@ -4521,6 +4516,9 @@ as_bytes
 (
 )
 )
+.
+decode_utf8
+(
 )
 .
 ok
@@ -12522,11 +12520,11 @@ Url
 bool
 {
 match
-&
-*
 url
 .
 scheme
+(
+)
 {
 "
 ftp
@@ -14644,7 +14642,7 @@ url
 (
 )
 .
-serialize
+as_str
 (
 )
 )
@@ -14941,7 +14939,7 @@ from
 (
 host
 .
-serialize
+to_string
 (
 )
 )

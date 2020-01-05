@@ -3450,11 +3450,9 @@ evaluate_script_on_global_with_result
 &
 *
 source
-&
-*
 url
 .
-serialize
+as_str
 (
 )
 rval

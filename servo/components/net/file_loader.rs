@@ -529,13 +529,13 @@ CancellationListener
 assert
 !
 (
-&
-*
 load_data
 .
 url
 .
 scheme
+(
+)
 =
 =
 "

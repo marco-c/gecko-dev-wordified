@@ -2906,13 +2906,13 @@ let
 loader
 =
 match
-&
-*
 load_data
 .
 url
 .
 scheme
+(
+)
 {
 "
 chrome
@@ -3063,6 +3063,8 @@ load_data
 url
 .
 scheme
+(
+)
 )
 ;
 send_error
@@ -3108,10 +3110,6 @@ url
 load_data
 .
 url
-.
-serialize
-(
-)
 )
 ;
 loader

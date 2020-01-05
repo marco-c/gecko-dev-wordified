@@ -751,7 +751,7 @@ get_url
 (
 )
 .
-serialize
+into_string
 (
 )
 )
