@@ -2105,6 +2105,11 @@ aFmt
 va_list
 aArgs
 )
+MOZ_FORMAT_PRINTF
+(
+4
+0
+)
 {
 const
 size_t

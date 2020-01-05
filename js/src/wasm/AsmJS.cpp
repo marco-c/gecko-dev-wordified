@@ -13488,6 +13488,11 @@ fmt
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+3
+0
+)
 {
 MOZ_ASSERT
 (

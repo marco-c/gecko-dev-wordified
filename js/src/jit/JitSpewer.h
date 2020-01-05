@@ -1112,6 +1112,11 @@ fmt
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 void
 JitSpewStartVA
@@ -1125,6 +1130,11 @@ fmt
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 void
 JitSpewContVA
@@ -1137,6 +1147,11 @@ char
 fmt
 va_list
 ap
+)
+MOZ_FORMAT_PRINTF
+(
+2
+0
 )
 ;
 void
@@ -1505,6 +1520,11 @@ false
 }
 static
 inline
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 void
 JitSpewVA
 (

@@ -177,6 +177,11 @@ template
 size_t
 N
 >
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 int
 VsprintfLiteral
 (

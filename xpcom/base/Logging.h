@@ -948,6 +948,11 @@ va_list
 aArgs
 )
 const
+MOZ_FORMAT_PRINTF
+(
+3
+0
+)
 ;
 /
 *

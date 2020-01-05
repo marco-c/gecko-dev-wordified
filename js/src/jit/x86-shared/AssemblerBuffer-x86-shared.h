@@ -1495,6 +1495,11 @@ fmt
 va_list
 va
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 #
 endif
