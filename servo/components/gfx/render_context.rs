@@ -83,9 +83,8 @@ B8G8R8A8
 A8
 Color
 ColorPattern
+ColorPatternRef
 DrawOptions
-DrawSurfaceOptions
-DrawTarget
 }
 ;
 use
@@ -96,6 +95,8 @@ azure_hl
 :
 :
 {
+DrawSurfaceOptions
+DrawTarget
 Linear
 SourceOp
 StrokeOptions
@@ -363,6 +364,8 @@ bounds
 to_azure_rect
 (
 )
+ColorPatternRef
+(
 &
 ColorPattern
 :
@@ -370,6 +373,7 @@ ColorPattern
 new
 (
 color
+)
 )
 None
 )
@@ -1068,8 +1072,11 @@ fill_rect
 (
 &
 rect
+ColorPatternRef
+(
 &
 pattern
+)
 Some
 (
 &
