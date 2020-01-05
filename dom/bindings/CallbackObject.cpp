@@ -2620,6 +2620,16 @@ CallbackOrNull
 )
 )
 ;
+if
+(
+!
+callback
+)
+{
+return
+nullptr
+;
+}
 JSAutoCompartment
 ac
 (

@@ -3153,6 +3153,11 @@ XPCOMCallbackT
 )
 )
 ;
+if
+(
+supp
+)
+{
 /
 /
 ToXPCOMCallback
@@ -3177,6 +3182,10 @@ XPCOMCallbackT
 >
 (
 )
+;
+}
+return
+nullptr
 ;
 }
 /
