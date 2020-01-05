@@ -1696,7 +1696,16 @@ aConfig
 .
 mDuration
 =
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 40000
+)
 ;
 aConfig
 .

@@ -806,10 +806,6 @@ mDuration
 Duration
 (
 )
-.
-ToMicroseconds
-(
-)
 ;
 MP3LOG
 (
@@ -854,6 +850,10 @@ mInfo
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 return

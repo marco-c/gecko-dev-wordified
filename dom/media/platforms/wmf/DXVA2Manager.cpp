@@ -3219,6 +3219,10 @@ framerate
 aVideoInfo
 .
 mDuration
+.
+ToMicroseconds
+(
+)
 ;
 if
 (
@@ -6603,6 +6607,10 @@ framerate
 aVideoInfo
 .
 mDuration
+.
+ToMicroseconds
+(
+)
 ;
 if
 (

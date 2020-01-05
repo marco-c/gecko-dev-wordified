@@ -3995,9 +3995,8 @@ mDuration
 mInfo
 .
 mMetadataDuration
--
->
-ToMicroseconds
+.
+ref
 (
 )
 ;
@@ -4018,9 +4017,8 @@ mDuration
 mInfo
 .
 mMetadataDuration
--
->
-ToMicroseconds
+.
+ref
 (
 )
 ;

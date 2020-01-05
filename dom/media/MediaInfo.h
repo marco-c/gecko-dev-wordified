@@ -331,10 +331,6 @@ mTrackId
 (
 aTrackId
 )
-mDuration
-(
-0
-)
 mMediaTime
 (
 0
@@ -442,7 +438,10 @@ mTrackId
 nsCString
 mMimeType
 ;
-int64_t
+media
+:
+:
+TimeUnit
 mDuration
 ;
 int64_t
