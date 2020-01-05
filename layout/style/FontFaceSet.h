@@ -867,6 +867,17 @@ GetPresContext
 nullptr
 ;
 }
+nsIDocument
+*
+Document
+(
+)
+const
+{
+return
+mDocument
+;
+}
 /
 /
 -
