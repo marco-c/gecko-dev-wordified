@@ -151,7 +151,6 @@ DOM2
 handler
 :
 "
-function
 es6Method
 (
 foo
