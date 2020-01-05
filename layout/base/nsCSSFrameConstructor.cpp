@@ -33034,6 +33034,14 @@ aParentFrame
 newFrame
 )
 ;
+newFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 /
 /
 Create
