@@ -219,6 +219,13 @@ PropTypes
 func
 .
 isRequired
+onToggleShowGridLineNumbers
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleShowInfiniteLines
 :
 PropTypes
