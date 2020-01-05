@@ -5559,6 +5559,13 @@ dagSlot
 phase
 ]
 ;
+if
+(
+ownTime
+>
+0
+)
+{
 SprintfLiteral
 (
 buffer
@@ -5611,6 +5618,7 @@ UniqueChars
 nullptr
 )
 ;
+}
 }
 return
 Join
