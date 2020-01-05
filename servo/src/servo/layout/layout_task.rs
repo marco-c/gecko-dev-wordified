@@ -516,6 +516,7 @@ FontContext
 :
 new
 (
+true
 )
 ;
 Layout
