@@ -829,10 +829,6 @@ messageText
 message
 .
 messageText
-!
-=
-=
-null
 &
 &
 message
@@ -873,10 +869,6 @@ grips
 message
 .
 parameters
-!
-=
-=
-null
 &
 &
 message
@@ -964,10 +956,6 @@ messageBody
 note
 .
 messageBody
-!
-=
-=
-null
 &
 &
 note
