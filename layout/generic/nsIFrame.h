@@ -5523,7 +5523,6 @@ name_
 (
 )
 const
-MOZ_NONNULL_RETURN
 {
 \
 NS_ASSERTION
@@ -5577,8 +5576,6 @@ name_
 aStyleStruct
 )
 const
-\
-MOZ_NONNULL_RETURN
 {
 \
 if
@@ -12098,9 +12095,7 @@ if
 aDisp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 return
 false
@@ -12141,9 +12136,7 @@ mutable_this
 aDisp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 return
@@ -12166,9 +12159,7 @@ mutable_this
 aDisp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 ;
 }

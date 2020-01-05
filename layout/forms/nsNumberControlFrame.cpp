@@ -2408,9 +2408,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_TEXTFIELD
@@ -3745,9 +3743,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_SPINNER_UPBUTTON
@@ -3777,9 +3773,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_SPINNER_DOWNBUTTON
