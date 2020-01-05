@@ -7003,12 +7003,12 @@ ErrorResult
 aError
 )
 ;
-double
+int32_t
 GetScrollXOuter
 (
 )
 ;
-double
+int32_t
 GetScrollX
 (
 mozilla
@@ -7019,7 +7019,7 @@ ErrorResult
 aError
 )
 ;
-double
+int32_t
 GetPageXOffset
 (
 mozilla
@@ -7037,12 +7037,12 @@ aError
 )
 ;
 }
-double
+int32_t
 GetScrollYOuter
 (
 )
 ;
-double
+int32_t
 GetScrollY
 (
 mozilla
@@ -7053,7 +7053,7 @@ ErrorResult
 aError
 )
 ;
-double
+int32_t
 GetPageYOffset
 (
 mozilla
@@ -10912,7 +10912,7 @@ only
 mozilla
 :
 :
-CSSPoint
+CSSIntPoint
 GetScrollXY
 (
 bool
