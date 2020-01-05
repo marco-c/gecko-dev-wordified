@@ -5302,7 +5302,7 @@ transforms
 .
 add
 def
-set_mochitest_test_type
+set_test_type
 (
 config
 tests
@@ -5315,10 +5315,35 @@ in
 tests
 :
         
-if
+for
+test_type
+in
+[
 '
 mochitest
 '
+'
+reftest
+'
+]
+:
+            
+if
+test_type
+in
+test
+[
+'
+suite
+'
+]
+and
+'
+web
+-
+platform
+'
+not
 in
 test
 [
@@ -5327,7 +5352,7 @@ suite
 '
 ]
 :
-            
+                
 test
 .
 setdefault
@@ -5346,9 +5371,7 @@ type
 '
 ]
 =
-'
-mochitest
-'
+test_type
         
 yield
 test
