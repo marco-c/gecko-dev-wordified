@@ -244,7 +244,7 @@ MozPromiseRequestHolder
 MediaDecoderReader
 :
 :
-MediaDataPromise
+VideoDataPromise
 >
 mSeekRequest
 ;

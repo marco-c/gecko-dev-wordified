@@ -244,8 +244,15 @@ typedef
 MediaDecoderReader
 :
 :
-MediaDataPromise
-MediaDataPromise
+AudioDataPromise
+AudioDataPromise
+;
+typedef
+MediaDecoderReader
+:
+:
+VideoDataPromise
+VideoDataPromise
 ;
 typedef
 MediaDecoderReader
@@ -304,7 +311,7 @@ ReadMetadata
 ;
 RefPtr
 <
-MediaDataPromise
+AudioDataPromise
 >
 RequestAudioData
 (
@@ -312,7 +319,7 @@ RequestAudioData
 ;
 RefPtr
 <
-MediaDataPromise
+VideoDataPromise
 >
 RequestVideoData
 (

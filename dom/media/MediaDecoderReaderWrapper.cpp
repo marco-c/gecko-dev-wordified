@@ -307,7 +307,7 @@ RefPtr
 MediaDecoderReaderWrapper
 :
 :
-MediaDataPromise
+AudioDataPromise
 >
 MediaDecoderReaderWrapper
 :
@@ -374,7 +374,7 @@ __func__
 startTime
 ]
 (
-MediaData
+AudioData
 *
 aAudio
 )
@@ -406,7 +406,7 @@ RefPtr
 MediaDecoderReaderWrapper
 :
 :
-MediaDataPromise
+VideoDataPromise
 >
 MediaDecoderReaderWrapper
 :
@@ -505,7 +505,7 @@ __func__
 startTime
 ]
 (
-MediaData
+VideoData
 *
 aVideo
 )
