@@ -15471,6 +15471,8 @@ structs
 :
 :
 NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+as
+f32
 }
 pub
 fn
