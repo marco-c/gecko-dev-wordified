@@ -163,15 +163,6 @@ include
 "
 mozilla
 /
-AppProcessChecker
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ContentParent

@@ -626,15 +626,6 @@ content
 process
 .
 *
-Used
-for
-AppProcessChecker
-to
-cehck
-app
-status
-.
-*
 /
 nsTArray
 <

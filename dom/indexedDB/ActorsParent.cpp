@@ -221,15 +221,6 @@ include
 "
 mozilla
 /
-AppProcessChecker
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AutoRestore
 .
 h

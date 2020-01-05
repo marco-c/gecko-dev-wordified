@@ -2809,10 +2809,6 @@ nsISupports
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIProcessChecker
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
 nsIFrameScriptLoader
 )
 DOM_CLASSINFO_MAP_ENTRY
