@@ -19191,14 +19191,14 @@ debugView
 :
 __BindgenUnionField
 <
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 >
 pub
 s
 :
 __BindgenUnionField
 <
-jsval_layout__bindgen_ty_bindgen_id_59701
+jsval_layout__bindgen_ty_bindgen_id_60471
 >
 pub
 asDouble
@@ -19263,7 +19263,7 @@ Copy
 ]
 pub
 struct
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 {
 pub
 _bitfield_1
@@ -19275,7 +19275,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_59694
+bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_60464
 (
 )
 {
@@ -19294,7 +19294,7 @@ size_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 >
 (
 )
@@ -19316,7 +19316,7 @@ align_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 >
 (
 )
@@ -19327,7 +19327,7 @@ jsval_layout__bindgen_ty_bindgen_id_59694
 impl
 Clone
 for
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 {
 fn
 clone
@@ -19344,7 +19344,7 @@ self
 }
 }
 impl
-jsval_layout__bindgen_ty_bindgen_id_59694
+jsval_layout__bindgen_ty_bindgen_id_60464
 {
 #
 [
@@ -19566,12 +19566,12 @@ Copy
 ]
 pub
 struct
-jsval_layout__bindgen_ty_bindgen_id_59701
+jsval_layout__bindgen_ty_bindgen_id_60471
 {
 pub
 payload
 :
-jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 }
 #
 [
@@ -19590,7 +19590,7 @@ Copy
 ]
 pub
 struct
-jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 {
 pub
 i32
@@ -19623,7 +19623,7 @@ u32
 test
 ]
 fn
-bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 (
 )
 {
@@ -19642,7 +19642,7 @@ size_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 >
 (
 )
@@ -19664,7 +19664,7 @@ align_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 >
 (
 )
@@ -19675,7 +19675,7 @@ jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
 impl
 Clone
 for
-jsval_layout__bindgen_ty_bindgen_id_59701__bindgen_ty_bindgen_id_59702
+jsval_layout__bindgen_ty_bindgen_id_60471__bindgen_ty_bindgen_id_60472
 {
 fn
 clone
@@ -19696,7 +19696,7 @@ self
 test
 ]
 fn
-bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_59701
+bindgen_test_layout_jsval_layout__bindgen_ty_bindgen_id_60471
 (
 )
 {
@@ -19715,7 +19715,7 @@ size_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59701
+jsval_layout__bindgen_ty_bindgen_id_60471
 >
 (
 )
@@ -19737,7 +19737,7 @@ align_of
 :
 :
 <
-jsval_layout__bindgen_ty_bindgen_id_59701
+jsval_layout__bindgen_ty_bindgen_id_60471
 >
 (
 )
@@ -19748,7 +19748,7 @@ jsval_layout__bindgen_ty_bindgen_id_59701
 impl
 Clone
 for
-jsval_layout__bindgen_ty_bindgen_id_59701
+jsval_layout__bindgen_ty_bindgen_id_60471
 {
 fn
 clone
@@ -19949,7 +19949,7 @@ Hash
 ]
 pub
 enum
-nsAString_internal__bindgen_ty_bindgen_id_61571
+nsAString_internal__bindgen_ty_bindgen_id_62341
 {
 F_NONE
 =
@@ -20373,7 +20373,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_62181
+bindgen_vtable__bindgen_id_62951
 {
 }
 #
@@ -20400,7 +20400,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_62181
+bindgen_vtable__bindgen_id_62951
 }
 pub
 type
@@ -20680,7 +20680,7 @@ Hash
 ]
 pub
 enum
-nsACString_internal__bindgen_ty_bindgen_id_63411
+nsACString_internal__bindgen_ty_bindgen_id_64181
 {
 F_NONE
 =
@@ -21126,7 +21126,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_63963
+bindgen_vtable__bindgen_id_64733
 {
 }
 #
@@ -21153,7 +21153,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_63963
+bindgen_vtable__bindgen_id_64733
 }
 pub
 type
@@ -21254,7 +21254,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_64007
+bindgen_vtable__bindgen_id_64777
 {
 }
 /
@@ -21329,7 +21329,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_64007
+bindgen_vtable__bindgen_id_64777
 }
 #
 [
@@ -21472,7 +21472,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_64290
+bindgen_vtable__bindgen_id_65061
 {
 }
 /
@@ -21508,7 +21508,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_64290
+bindgen_vtable__bindgen_id_65061
 pub
 mMightSkip
 :
@@ -24157,7 +24157,7 @@ nsresult
 pub
 __bindgen_anon_1
 :
-TErrorResult__bindgen_ty_bindgen_id_68916
+TErrorResult__bindgen_ty_bindgen_id_69694
 <
 CleanupPolicy
 >
@@ -24281,7 +24281,7 @@ Clone
 ]
 pub
 struct
-TErrorResult__bindgen_ty_bindgen_id_68916
+TErrorResult__bindgen_ty_bindgen_id_69694
 <
 CleanupPolicy
 >
@@ -25332,7 +25332,7 @@ Hash
 ]
 pub
 enum
-nsIPrincipal__bindgen_ty_bindgen_id_69939
+nsIPrincipal__bindgen_ty_bindgen_id_70717
 {
 APP_STATUS_NOT_INSTALLED
 =
@@ -25585,7 +25585,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_70107
+bindgen_vtable__bindgen_id_70885
 {
 }
 /
@@ -25987,7 +25987,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_70107
+bindgen_vtable__bindgen_id_70885
 pub
 mWrapper
 :
@@ -26185,7 +26185,7 @@ Hash
 ]
 pub
 enum
-nsWrapperCache__bindgen_ty_bindgen_id_70303
+nsWrapperCache__bindgen_ty_bindgen_id_71081
 {
 WRAPPER_BIT_PRESERVED
 =
@@ -26237,7 +26237,7 @@ Hash
 ]
 pub
 enum
-nsWrapperCache__bindgen_ty_bindgen_id_70306
+nsWrapperCache__bindgen_ty_bindgen_id_71084
 {
 WRAPPER_IS_NOT_DOM_BINDING
 =
@@ -26264,7 +26264,7 @@ Hash
 ]
 pub
 enum
-nsWrapperCache__bindgen_ty_bindgen_id_70309
+nsWrapperCache__bindgen_ty_bindgen_id_71087
 {
 kWrapperFlagsMask
 =
@@ -26999,7 +26999,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_89978
+bindgen_vtable__bindgen_id_90772
 {
 }
 /
@@ -27146,7 +27146,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_89978
+bindgen_vtable__bindgen_id_90772
 }
 #
 [
@@ -29123,7 +29123,7 @@ Hash
 ]
 pub
 enum
-nsIDocument__bindgen_ty_bindgen_id_103523
+nsIDocument__bindgen_ty_bindgen_id_104317
 {
 REQUEST_DISCARD
 =
@@ -34064,7 +34064,7 @@ nsIContent
 pub
 __bindgen_anon_1
 :
-nsINode__bindgen_ty_bindgen_id_100426
+nsINode__bindgen_ty_bindgen_id_101220
 pub
 mSlots
 :
@@ -34236,7 +34236,7 @@ Hash
 ]
 pub
 enum
-nsINode__bindgen_ty_bindgen_id_96564
+nsINode__bindgen_ty_bindgen_id_97358
 {
 eCONTENT
 =
@@ -34284,7 +34284,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_97333
+bindgen_vtable__bindgen_id_98127
 {
 }
 #
@@ -34310,7 +34310,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_97333
+bindgen_vtable__bindgen_id_98127
 /
 *
 *
@@ -34620,7 +34620,7 @@ Copy
 ]
 pub
 struct
-nsINode__bindgen_ty_bindgen_id_100426
+nsINode__bindgen_ty_bindgen_id_101220
 {
 pub
 mPrimaryFrame
@@ -34650,7 +34650,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsINode__bindgen_ty_bindgen_id_100426
+bindgen_test_layout_nsINode__bindgen_ty_bindgen_id_101220
 (
 )
 {
@@ -34669,7 +34669,7 @@ size_of
 :
 :
 <
-nsINode__bindgen_ty_bindgen_id_100426
+nsINode__bindgen_ty_bindgen_id_101220
 >
 (
 )
@@ -34691,7 +34691,7 @@ align_of
 :
 :
 <
-nsINode__bindgen_ty_bindgen_id_100426
+nsINode__bindgen_ty_bindgen_id_101220
 >
 (
 )
@@ -34702,7 +34702,7 @@ nsINode__bindgen_ty_bindgen_id_100426
 impl
 Clone
 for
-nsINode__bindgen_ty_bindgen_id_100426
+nsINode__bindgen_ty_bindgen_id_101220
 {
 fn
 clone
@@ -36913,7 +36913,7 @@ Hash
 ]
 pub
 enum
-nsIDOMNode__bindgen_ty_bindgen_id_108507
+nsIDOMNode__bindgen_ty_bindgen_id_109303
 {
 ELEMENT_NODE
 =
@@ -36973,7 +36973,7 @@ Hash
 ]
 pub
 enum
-nsIDOMNode__bindgen_ty_bindgen_id_108726
+nsIDOMNode__bindgen_ty_bindgen_id_109522
 {
 DOCUMENT_POSITION_DISCONNECTED
 =
@@ -45534,7 +45534,7 @@ Hash
 ]
 pub
 enum
-nsPtrHashKey__bindgen_ty_bindgen_id_113088
+nsPtrHashKey__bindgen_ty_bindgen_id_113884
 {
 ALLOW_MEMMOVE
 =
@@ -45677,7 +45677,7 @@ Hash
 ]
 pub
 enum
-nsIContent__bindgen_ty_bindgen_id_114428
+nsIContent__bindgen_ty_bindgen_id_115224
 {
 eAllChildren
 =
@@ -45710,7 +45710,7 @@ Hash
 ]
 pub
 enum
-nsIContent__bindgen_ty_bindgen_id_114664
+nsIContent__bindgen_ty_bindgen_id_115460
 {
 ATTR_MISSING
 =
@@ -47067,7 +47067,7 @@ nsDOMAttributeMap
 pub
 __bindgen_anon_1
 :
-FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 /
 *
 *
@@ -47269,7 +47269,7 @@ Copy
 ]
 pub
 struct
-FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 {
 /
 *
@@ -47336,7 +47336,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+bindgen_test_layout_FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 (
 )
 {
@@ -47355,7 +47355,7 @@ size_of
 :
 :
 <
-FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 >
 (
 )
@@ -47377,7 +47377,7 @@ align_of
 :
 :
 <
-FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 >
 (
 )
@@ -47388,7 +47388,7 @@ FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
 impl
 Clone
 for
-FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_115761
+FragmentOrElement_nsDOMSlots__bindgen_ty_bindgen_id_116557
 {
 fn
 clone
@@ -47963,7 +47963,7 @@ Hash
 ]
 pub
 enum
-nsIChannel__bindgen_ty_bindgen_id_132951
+nsIChannel__bindgen_ty_bindgen_id_133735
 {
 LOAD_DOCUMENT_URI
 =
@@ -48017,7 +48017,7 @@ Hash
 ]
 pub
 enum
-nsIChannel__bindgen_ty_bindgen_id_132971
+nsIChannel__bindgen_ty_bindgen_id_133755
 {
 DISPOSITION_INLINE
 =
@@ -48203,7 +48203,7 @@ Hash
 ]
 pub
 enum
-nsIRequest__bindgen_ty_bindgen_id_132789
+nsIRequest__bindgen_ty_bindgen_id_133573
 {
 LOAD_REQUESTMASK
 =
@@ -51965,9 +51965,9 @@ pub
 const
 SCROLL_LEFT
 :
-nsIPresShell__bindgen_ty_bindgen_id_151191
+nsIPresShell__bindgen_ty_bindgen_id_152004
 =
-nsIPresShell__bindgen_ty_bindgen_id_151191
+nsIPresShell__bindgen_ty_bindgen_id_152004
 :
 :
 SCROLL_TOP
@@ -51976,9 +51976,9 @@ pub
 const
 SCROLL_RIGHT
 :
-nsIPresShell__bindgen_ty_bindgen_id_151191
+nsIPresShell__bindgen_ty_bindgen_id_152004
 =
-nsIPresShell__bindgen_ty_bindgen_id_151191
+nsIPresShell__bindgen_ty_bindgen_id_152004
 :
 :
 SCROLL_BOTTOM
@@ -52004,7 +52004,7 @@ Hash
 ]
 pub
 enum
-nsIPresShell__bindgen_ty_bindgen_id_151191
+nsIPresShell__bindgen_ty_bindgen_id_152004
 {
 SCROLL_TOP
 =
@@ -52171,7 +52171,7 @@ Hash
 ]
 pub
 enum
-nsIPresShell__bindgen_ty_bindgen_id_151222
+nsIPresShell__bindgen_ty_bindgen_id_152035
 {
 SCROLL_FIRST_ANCESTOR_ONLY
 =
@@ -52615,7 +52615,7 @@ Hash
 ]
 pub
 enum
-nsIPresShell__bindgen_ty_bindgen_id_151646
+nsIPresShell__bindgen_ty_bindgen_id_152459
 {
 RENDER_IS_UNTRUSTED
 =
@@ -52660,7 +52660,7 @@ Hash
 ]
 pub
 enum
-nsIPresShell__bindgen_ty_bindgen_id_151664
+nsIPresShell__bindgen_ty_bindgen_id_152477
 {
 RENDER_IS_IMAGE
 =
@@ -52763,7 +52763,7 @@ Hash
 ]
 pub
 enum
-nsIPresShell__bindgen_ty_bindgen_id_151780
+nsIPresShell__bindgen_ty_bindgen_id_152593
 {
 FORCE_DRAW
 =
@@ -55521,9 +55521,9 @@ pub
 const
 NODE_HAS_LISTENERMANAGER
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_LISTENERMANAGER
@@ -55532,9 +55532,9 @@ pub
 const
 NODE_HAS_PROPERTIES
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_PROPERTIES
@@ -55543,9 +55543,9 @@ pub
 const
 NODE_IS_ANONYMOUS_ROOT
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_ANONYMOUS_ROOT
@@ -55554,9 +55554,9 @@ pub
 const
 NODE_IS_IN_NATIVE_ANONYMOUS_SUBTREE
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_IN_NATIVE_ANONYMOUS_SUBTREE
@@ -55565,9 +55565,9 @@ pub
 const
 NODE_IS_NATIVE_ANONYMOUS_ROOT
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_NATIVE_ANONYMOUS_ROOT
@@ -55576,9 +55576,9 @@ pub
 const
 NODE_FORCE_XBL_BINDINGS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_FORCE_XBL_BINDINGS
@@ -55587,9 +55587,9 @@ pub
 const
 NODE_MAY_BE_IN_BINDING_MNGR
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_MAY_BE_IN_BINDING_MNGR
@@ -55598,9 +55598,9 @@ pub
 const
 NODE_IS_EDITABLE
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_EDITABLE
@@ -55609,9 +55609,9 @@ pub
 const
 NODE_MAY_HAVE_CLASS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_MAY_HAVE_CLASS
@@ -55620,9 +55620,9 @@ pub
 const
 NODE_IS_IN_SHADOW_TREE
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_IN_SHADOW_TREE
@@ -55631,9 +55631,9 @@ pub
 const
 NODE_HAS_EMPTY_SELECTOR
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_EMPTY_SELECTOR
@@ -55642,9 +55642,9 @@ pub
 const
 NODE_HAS_SLOW_SELECTOR
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_SLOW_SELECTOR
@@ -55653,9 +55653,9 @@ pub
 const
 NODE_HAS_EDGE_CHILD_SELECTOR
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_EDGE_CHILD_SELECTOR
@@ -55664,9 +55664,9 @@ pub
 const
 NODE_HAS_SLOW_SELECTOR_LATER_SIBLINGS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_SLOW_SELECTOR_LATER_SIBLINGS
@@ -55675,9 +55675,9 @@ pub
 const
 NODE_ALL_SELECTOR_FLAGS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_ALL_SELECTOR_FLAGS
@@ -55686,9 +55686,9 @@ pub
 const
 NODE_NEEDS_FRAME
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_NEEDS_FRAME
@@ -55697,9 +55697,9 @@ pub
 const
 NODE_DESCENDANTS_NEED_FRAMES
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_DESCENDANTS_NEED_FRAMES
@@ -55708,9 +55708,9 @@ pub
 const
 NODE_HAS_ACCESSKEY
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_ACCESSKEY
@@ -55719,9 +55719,9 @@ pub
 const
 NODE_HAS_DIRECTION_RTL
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_DIRECTION_RTL
@@ -55730,9 +55730,9 @@ pub
 const
 NODE_HAS_DIRECTION_LTR
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_HAS_DIRECTION_LTR
@@ -55741,9 +55741,9 @@ pub
 const
 NODE_ALL_DIRECTION_FLAGS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_ALL_DIRECTION_FLAGS
@@ -55752,9 +55752,9 @@ pub
 const
 NODE_CHROME_ONLY_ACCESS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_CHROME_ONLY_ACCESS
@@ -55763,9 +55763,9 @@ pub
 const
 NODE_IS_ROOT_OF_CHROME_ONLY_ACCESS
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_IS_ROOT_OF_CHROME_ONLY_ACCESS
@@ -55774,9 +55774,9 @@ pub
 const
 NODE_SHARED_RESTYLE_BIT_1
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_SHARED_RESTYLE_BIT_1
@@ -55785,9 +55785,9 @@ pub
 const
 NODE_SHARED_RESTYLE_BIT_2
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_SHARED_RESTYLE_BIT_2
@@ -55796,9 +55796,9 @@ pub
 const
 NODE_IS_DIRTY_FOR_SERVO
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_SHARED_RESTYLE_BIT_1
@@ -55807,9 +55807,9 @@ pub
 const
 NODE_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_SHARED_RESTYLE_BIT_2
@@ -55818,9 +55818,9 @@ pub
 const
 NODE_TYPE_SPECIFIC_BITS_OFFSET
 :
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 =
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 :
 :
 NODE_TYPE_SPECIFIC_BITS_OFFSET
@@ -55846,7 +55846,7 @@ Hash
 ]
 pub
 enum
-_bindgen_ty_bindgen_id_153175
+_bindgen_ty_bindgen_id_153980
 {
 NODE_HAS_LISTENERMANAGER
 =
@@ -56130,7 +56130,7 @@ Hash
 ]
 pub
 enum
-nsITimer__bindgen_ty_bindgen_id_169936
+nsITimer__bindgen_ty_bindgen_id_170629
 {
 TYPE_ONE_SHOT
 =
@@ -56304,7 +56304,7 @@ Hash
 ]
 pub
 enum
-nsExpirationState__bindgen_ty_bindgen_id_170412
+nsExpirationState__bindgen_ty_bindgen_id_171105
 {
 NOT_TRACKED
 =
@@ -56838,7 +56838,7 @@ Hash
 ]
 pub
 enum
-imgIRequest__bindgen_ty_bindgen_id_170996
+imgIRequest__bindgen_ty_bindgen_id_171689
 {
 STATUS_NONE
 =
@@ -56886,7 +56886,7 @@ Hash
 ]
 pub
 enum
-imgIRequest__bindgen_ty_bindgen_id_171076
+imgIRequest__bindgen_ty_bindgen_id_171769
 {
 CORS_NONE
 =
@@ -59997,7 +59997,7 @@ Hash
 ]
 pub
 enum
-nsPresArena_FreeList__bindgen_ty_bindgen_id_191458
+nsPresArena_FreeList__bindgen_ty_bindgen_id_192151
 {
 ALLOW_MEMMOVE
 =
@@ -60215,7 +60215,7 @@ Hash
 ]
 pub
 enum
-imgINotificationObserver__bindgen_ty_bindgen_id_191605
+imgINotificationObserver__bindgen_ty_bindgen_id_192298
 {
 SIZE_AVAILABLE
 =
@@ -61767,7 +61767,7 @@ Hash
 ]
 pub
 enum
-gfxFontFeatureValueSet_FeatureValueHashEntry__bindgen_ty_bindgen_id_192843
+gfxFontFeatureValueSet_FeatureValueHashEntry__bindgen_ty_bindgen_id_193536
 {
 ALLOW_MEMMOVE
 =
@@ -64334,7 +64334,7 @@ Copy
 ]
 pub
 struct
-_bindgen_ty_bindgen_id_193590
+_bindgen_ty_bindgen_id_194268
 {
 pub
 mInt
@@ -64380,7 +64380,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout__bindgen_ty_bindgen_id_193590
+bindgen_test_layout__bindgen_ty_bindgen_id_194268
 (
 )
 {
@@ -64399,7 +64399,7 @@ size_of
 :
 :
 <
-_bindgen_ty_bindgen_id_193590
+_bindgen_ty_bindgen_id_194268
 >
 (
 )
@@ -64421,7 +64421,7 @@ align_of
 :
 :
 <
-_bindgen_ty_bindgen_id_193590
+_bindgen_ty_bindgen_id_194268
 >
 (
 )
@@ -64432,7 +64432,7 @@ _bindgen_ty_bindgen_id_193590
 impl
 Clone
 for
-_bindgen_ty_bindgen_id_193590
+_bindgen_ty_bindgen_id_194268
 {
 fn
 clone
@@ -64452,7 +64452,7 @@ pub
 type
 nsStyleUnion
 =
-_bindgen_ty_bindgen_id_193590
+_bindgen_ty_bindgen_id_194268
 ;
 /
 *
@@ -69841,7 +69841,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_202634
+bindgen_vtable__bindgen_id_203312
 {
 }
 /
@@ -69962,7 +69962,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_202634
+bindgen_vtable__bindgen_id_203312
 pub
 _base
 :
@@ -70126,7 +70126,7 @@ Hash
 ]
 pub
 enum
-nsISupportsPriority__bindgen_ty_bindgen_id_202710
+nsISupportsPriority__bindgen_ty_bindgen_id_203388
 {
 PRIORITY_HIGHEST
 =
@@ -72822,7 +72822,7 @@ nsCSSUnit
 pub
 mValue
 :
-nsCSSValue__bindgen_ty_bindgen_id_205705
+nsCSSValue__bindgen_ty_bindgen_id_206383
 }
 #
 [
@@ -72930,7 +72930,7 @@ Copy
 ]
 pub
 struct
-nsCSSValue__bindgen_ty_bindgen_id_205705
+nsCSSValue__bindgen_ty_bindgen_id_206383
 {
 pub
 mInt
@@ -73125,7 +73125,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsCSSValue__bindgen_ty_bindgen_id_205705
+bindgen_test_layout_nsCSSValue__bindgen_ty_bindgen_id_206383
 (
 )
 {
@@ -73144,7 +73144,7 @@ size_of
 :
 :
 <
-nsCSSValue__bindgen_ty_bindgen_id_205705
+nsCSSValue__bindgen_ty_bindgen_id_206383
 >
 (
 )
@@ -73166,7 +73166,7 @@ align_of
 :
 :
 <
-nsCSSValue__bindgen_ty_bindgen_id_205705
+nsCSSValue__bindgen_ty_bindgen_id_206383
 >
 (
 )
@@ -73177,7 +73177,7 @@ nsCSSValue__bindgen_ty_bindgen_id_205705
 impl
 Clone
 for
-nsCSSValue__bindgen_ty_bindgen_id_205705
+nsCSSValue__bindgen_ty_bindgen_id_206383
 {
 fn
 clone
@@ -73341,7 +73341,7 @@ C
 ]
 pub
 struct
-bindgen_vtable__bindgen_id_205913
+bindgen_vtable__bindgen_id_206591
 {
 }
 #
@@ -73368,7 +73368,7 @@ vtable_
 :
 *
 const
-bindgen_vtable__bindgen_id_205913
+bindgen_vtable__bindgen_id_206591
 pub
 mStyle
 :
@@ -74683,7 +74683,7 @@ nsStyleImageType
 pub
 __bindgen_anon_1
 :
-nsStyleImage__bindgen_ty_bindgen_id_207881
+nsStyleImage__bindgen_ty_bindgen_id_208559
 pub
 mCropRect
 :
@@ -74713,7 +74713,7 @@ Copy
 ]
 pub
 struct
-nsStyleImage__bindgen_ty_bindgen_id_207881
+nsStyleImage__bindgen_ty_bindgen_id_208559
 {
 pub
 mImage
@@ -74752,7 +74752,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsStyleImage__bindgen_ty_bindgen_id_207881
+bindgen_test_layout_nsStyleImage__bindgen_ty_bindgen_id_208559
 (
 )
 {
@@ -74771,7 +74771,7 @@ size_of
 :
 :
 <
-nsStyleImage__bindgen_ty_bindgen_id_207881
+nsStyleImage__bindgen_ty_bindgen_id_208559
 >
 (
 )
@@ -74793,7 +74793,7 @@ align_of
 :
 :
 <
-nsStyleImage__bindgen_ty_bindgen_id_207881
+nsStyleImage__bindgen_ty_bindgen_id_208559
 >
 (
 )
@@ -74804,7 +74804,7 @@ nsStyleImage__bindgen_ty_bindgen_id_207881
 impl
 Clone
 for
-nsStyleImage__bindgen_ty_bindgen_id_207881
+nsStyleImage__bindgen_ty_bindgen_id_208559
 {
 fn
 clone
@@ -75133,7 +75133,7 @@ Hash
 ]
 pub
 enum
-nsStyleImageLayers__bindgen_ty_bindgen_id_207934
+nsStyleImageLayers__bindgen_ty_bindgen_id_208612
 {
 shorthand
 =
@@ -76356,7 +76356,7 @@ u8
 pub
 __bindgen_anon_1
 :
-nsStyleBorder__bindgen_ty_bindgen_id_208608
+nsStyleBorder__bindgen_ty_bindgen_id_209286
 pub
 mComputedBorder
 :
@@ -76387,14 +76387,14 @@ Copy
 ]
 pub
 struct
-nsStyleBorder__bindgen_ty_bindgen_id_208608
+nsStyleBorder__bindgen_ty_bindgen_id_209286
 {
 pub
 __bindgen_anon_1
 :
 __BindgenUnionField
 <
-nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 >
 pub
 mBorderColor
@@ -76433,7 +76433,7 @@ Copy
 ]
 pub
 struct
-nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 {
 pub
 mBorderTopColor
@@ -76457,7 +76457,7 @@ StyleComplexColor
 test
 ]
 fn
-bindgen_test_layout_nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+bindgen_test_layout_nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 (
 )
 {
@@ -76476,7 +76476,7 @@ size_of
 :
 :
 <
-nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 >
 (
 )
@@ -76498,7 +76498,7 @@ align_of
 :
 :
 <
-nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 >
 (
 )
@@ -76509,7 +76509,7 @@ nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
 impl
 Clone
 for
-nsStyleBorder__bindgen_ty_bindgen_id_208608__bindgen_ty_bindgen_id_208609
+nsStyleBorder__bindgen_ty_bindgen_id_209286__bindgen_ty_bindgen_id_209287
 {
 fn
 clone
@@ -76530,7 +76530,7 @@ self
 test
 ]
 fn
-bindgen_test_layout_nsStyleBorder__bindgen_ty_bindgen_id_208608
+bindgen_test_layout_nsStyleBorder__bindgen_ty_bindgen_id_209286
 (
 )
 {
@@ -76549,7 +76549,7 @@ size_of
 :
 :
 <
-nsStyleBorder__bindgen_ty_bindgen_id_208608
+nsStyleBorder__bindgen_ty_bindgen_id_209286
 >
 (
 )
@@ -76571,7 +76571,7 @@ align_of
 :
 :
 <
-nsStyleBorder__bindgen_ty_bindgen_id_208608
+nsStyleBorder__bindgen_ty_bindgen_id_209286
 >
 (
 )
@@ -76582,7 +76582,7 @@ nsStyleBorder__bindgen_ty_bindgen_id_208608
 impl
 Clone
 for
-nsStyleBorder__bindgen_ty_bindgen_id_208608
+nsStyleBorder__bindgen_ty_bindgen_id_209286
 {
 fn
 clone
@@ -78572,7 +78572,7 @@ nsTimingFunction_Type
 pub
 __bindgen_anon_1
 :
-nsTimingFunction__bindgen_ty_bindgen_id_209586
+nsTimingFunction__bindgen_ty_bindgen_id_210246
 }
 #
 [
@@ -78669,21 +78669,21 @@ Copy
 ]
 pub
 struct
-nsTimingFunction__bindgen_ty_bindgen_id_209586
+nsTimingFunction__bindgen_ty_bindgen_id_210246
 {
 pub
 mFunc
 :
 __BindgenUnionField
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 >
 pub
 __bindgen_anon_1
 :
 __BindgenUnionField
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 >
 pub
 bindgen_union_field
@@ -78711,7 +78711,7 @@ Copy
 ]
 pub
 struct
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 {
 pub
 mX1
@@ -78735,7 +78735,7 @@ f32
 test
 ]
 fn
-bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 (
 )
 {
@@ -78754,7 +78754,7 @@ size_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 >
 (
 )
@@ -78776,7 +78776,7 @@ align_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 >
 (
 )
@@ -78787,7 +78787,7 @@ nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
 impl
 Clone
 for
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209587
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210247
 {
 fn
 clone
@@ -78820,7 +78820,7 @@ Copy
 ]
 pub
 struct
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 {
 pub
 mSteps
@@ -78832,7 +78832,7 @@ u32
 test
 ]
 fn
-bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 (
 )
 {
@@ -78851,7 +78851,7 @@ size_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 >
 (
 )
@@ -78873,7 +78873,7 @@ align_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 >
 (
 )
@@ -78884,7 +78884,7 @@ nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
 impl
 Clone
 for
-nsTimingFunction__bindgen_ty_bindgen_id_209586__bindgen_ty_bindgen_id_209598
+nsTimingFunction__bindgen_ty_bindgen_id_210246__bindgen_ty_bindgen_id_210258
 {
 fn
 clone
@@ -78905,7 +78905,7 @@ self
 test
 ]
 fn
-bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_209586
+bindgen_test_layout_nsTimingFunction__bindgen_ty_bindgen_id_210246
 (
 )
 {
@@ -78924,7 +78924,7 @@ size_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586
+nsTimingFunction__bindgen_ty_bindgen_id_210246
 >
 (
 )
@@ -78946,7 +78946,7 @@ align_of
 :
 :
 <
-nsTimingFunction__bindgen_ty_bindgen_id_209586
+nsTimingFunction__bindgen_ty_bindgen_id_210246
 >
 (
 )
@@ -78957,7 +78957,7 @@ nsTimingFunction__bindgen_ty_bindgen_id_209586
 impl
 Clone
 for
-nsTimingFunction__bindgen_ty_bindgen_id_209586
+nsTimingFunction__bindgen_ty_bindgen_id_210246
 {
 fn
 clone
@@ -79377,7 +79377,7 @@ ReferenceBox
 pub
 __bindgen_anon_1
 :
-StyleShapeSource__bindgen_ty_bindgen_id_209969
+StyleShapeSource__bindgen_ty_bindgen_id_210629
 <
 ReferenceBox
 >
@@ -79408,7 +79408,7 @@ Clone
 ]
 pub
 struct
-StyleShapeSource__bindgen_ty_bindgen_id_209969
+StyleShapeSource__bindgen_ty_bindgen_id_210629
 <
 ReferenceBox
 >
@@ -79725,7 +79725,7 @@ nsStyleContentType
 pub
 mContent
 :
-nsStyleContentData__bindgen_ty_bindgen_id_210053
+nsStyleContentData__bindgen_ty_bindgen_id_210713
 }
 #
 [
@@ -79744,7 +79744,7 @@ Copy
 ]
 pub
 struct
-nsStyleContentData__bindgen_ty_bindgen_id_210053
+nsStyleContentData__bindgen_ty_bindgen_id_210713
 {
 pub
 mString
@@ -79783,7 +79783,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsStyleContentData__bindgen_ty_bindgen_id_210053
+bindgen_test_layout_nsStyleContentData__bindgen_ty_bindgen_id_210713
 (
 )
 {
@@ -79802,7 +79802,7 @@ size_of
 :
 :
 <
-nsStyleContentData__bindgen_ty_bindgen_id_210053
+nsStyleContentData__bindgen_ty_bindgen_id_210713
 >
 (
 )
@@ -79824,7 +79824,7 @@ align_of
 :
 :
 <
-nsStyleContentData__bindgen_ty_bindgen_id_210053
+nsStyleContentData__bindgen_ty_bindgen_id_210713
 >
 (
 )
@@ -79835,7 +79835,7 @@ nsStyleContentData__bindgen_ty_bindgen_id_210053
 impl
 Clone
 for
-nsStyleContentData__bindgen_ty_bindgen_id_210053
+nsStyleContentData__bindgen_ty_bindgen_id_210713
 {
 fn
 clone
@@ -80655,7 +80655,7 @@ nsStyleSVGPaint
 pub
 mPaint
 :
-nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 pub
 mType
 :
@@ -80682,7 +80682,7 @@ Copy
 ]
 pub
 struct
-nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 {
 pub
 mColor
@@ -80710,7 +80710,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+bindgen_test_layout_nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 (
 )
 {
@@ -80729,7 +80729,7 @@ size_of
 :
 :
 <
-nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 >
 (
 )
@@ -80751,7 +80751,7 @@ align_of
 :
 :
 <
-nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 >
 (
 )
@@ -80762,7 +80762,7 @@ nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
 impl
 Clone
 for
-nsStyleSVGPaint__bindgen_ty_bindgen_id_210438
+nsStyleSVGPaint__bindgen_ty_bindgen_id_211098
 {
 fn
 clone
@@ -80959,7 +80959,7 @@ Hash
 ]
 pub
 enum
-nsStyleSVG__bindgen_ty_bindgen_id_210615
+nsStyleSVG__bindgen_ty_bindgen_id_211275
 {
 FILL_OPACITY_SOURCE_MASK
 =
@@ -81066,7 +81066,7 @@ nsStyleCoord
 pub
 __bindgen_anon_1
 :
-nsStyleFilter__bindgen_ty_bindgen_id_210681
+nsStyleFilter__bindgen_ty_bindgen_id_211341
 }
 #
 [
@@ -81085,7 +81085,7 @@ Copy
 ]
 pub
 struct
-nsStyleFilter__bindgen_ty_bindgen_id_210681
+nsStyleFilter__bindgen_ty_bindgen_id_211341
 {
 pub
 mURL
@@ -81115,7 +81115,7 @@ u64
 test
 ]
 fn
-bindgen_test_layout_nsStyleFilter__bindgen_ty_bindgen_id_210681
+bindgen_test_layout_nsStyleFilter__bindgen_ty_bindgen_id_211341
 (
 )
 {
@@ -81134,7 +81134,7 @@ size_of
 :
 :
 <
-nsStyleFilter__bindgen_ty_bindgen_id_210681
+nsStyleFilter__bindgen_ty_bindgen_id_211341
 >
 (
 )
@@ -81156,7 +81156,7 @@ align_of
 :
 :
 <
-nsStyleFilter__bindgen_ty_bindgen_id_210681
+nsStyleFilter__bindgen_ty_bindgen_id_211341
 >
 (
 )
@@ -81167,7 +81167,7 @@ nsStyleFilter__bindgen_ty_bindgen_id_210681
 impl
 Clone
 for
-nsStyleFilter__bindgen_ty_bindgen_id_210681
+nsStyleFilter__bindgen_ty_bindgen_id_211341
 {
 fn
 clone
