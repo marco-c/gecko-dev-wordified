@@ -145,8 +145,8 @@ harfbuzz
 :
 :
 {
-hb_blob_create
-hb_face_create_for_tables
+RUST_hb_blob_create
+RUST_hb_face_create_for_tables
 }
 ;
 use
@@ -170,7 +170,7 @@ harfbuzz
 :
 :
 {
-hb_buffer_add_utf8
+RUST_hb_buffer_add_utf8
 }
 ;
 use
@@ -178,7 +178,7 @@ harfbuzz
 :
 :
 {
-hb_buffer_destroy
+RUST_hb_buffer_destroy
 }
 ;
 use
@@ -186,7 +186,7 @@ harfbuzz
 :
 :
 {
-hb_buffer_get_glyph_positions
+RUST_hb_buffer_get_glyph_positions
 }
 ;
 use
@@ -194,7 +194,7 @@ harfbuzz
 :
 :
 {
-hb_buffer_get_length
+RUST_hb_buffer_get_length
 }
 ;
 use
@@ -202,7 +202,7 @@ harfbuzz
 :
 :
 {
-hb_buffer_set_direction
+RUST_hb_buffer_set_direction
 }
 ;
 use
@@ -210,7 +210,7 @@ harfbuzz
 :
 :
 {
-hb_face_destroy
+RUST_hb_face_destroy
 }
 ;
 use
@@ -235,7 +235,7 @@ harfbuzz
 :
 :
 {
-hb_font_create
+RUST_hb_font_create
 }
 ;
 use
@@ -243,8 +243,8 @@ harfbuzz
 :
 :
 {
-hb_font_destroy
-hb_buffer_create
+RUST_hb_font_destroy
+RUST_hb_buffer_create
 }
 ;
 use
@@ -252,7 +252,7 @@ harfbuzz
 :
 :
 {
-hb_font_funcs_create
+RUST_hb_font_funcs_create
 }
 ;
 use
@@ -260,7 +260,7 @@ harfbuzz
 :
 :
 {
-hb_font_funcs_destroy
+RUST_hb_font_funcs_destroy
 }
 ;
 use
@@ -268,7 +268,7 @@ harfbuzz
 :
 :
 {
-hb_font_funcs_set_glyph_func
+RUST_hb_font_funcs_set_glyph_func
 }
 ;
 use
@@ -276,7 +276,7 @@ harfbuzz
 :
 :
 {
-hb_font_funcs_set_glyph_h_advance_func
+RUST_hb_font_funcs_set_glyph_h_advance_func
 }
 ;
 use
@@ -284,7 +284,7 @@ harfbuzz
 :
 :
 {
-hb_font_funcs_set_glyph_h_kerning_func
+RUST_hb_font_funcs_set_glyph_h_kerning_func
 }
 ;
 use
@@ -302,7 +302,7 @@ harfbuzz
 :
 :
 {
-hb_font_set_funcs
+RUST_hb_font_set_funcs
 }
 ;
 use
@@ -310,7 +310,7 @@ harfbuzz
 :
 :
 {
-hb_font_set_ppem
+RUST_hb_font_set_ppem
 }
 ;
 use
@@ -318,7 +318,7 @@ harfbuzz
 :
 :
 {
-hb_font_set_scale
+RUST_hb_font_set_scale
 }
 ;
 use
@@ -351,8 +351,8 @@ harfbuzz
 :
 :
 {
-hb_shape
-hb_buffer_get_glyph_infos
+RUST_hb_shape
+RUST_hb_buffer_get_glyph_infos
 }
 ;
 use
@@ -602,7 +602,7 @@ glyph_count
 let
 glyph_infos
 =
-hb_buffer_get_glyph_infos
+RUST_hb_buffer_get_glyph_infos
 (
 buffer
 &
@@ -636,7 +636,7 @@ pos_count
 let
 pos_infos
 =
-hb_buffer_get_glyph_positions
+RUST_hb_buffer_get_glyph_positions
 (
 buffer
 &
@@ -1098,7 +1098,7 @@ is_not_null
 )
 )
 ;
-hb_face_destroy
+RUST_hb_face_destroy
 (
 self
 .
@@ -1117,7 +1117,7 @@ is_not_null
 )
 )
 ;
-hb_font_destroy
+RUST_hb_font_destroy
 (
 self
 .
@@ -1136,7 +1136,7 @@ is_not_null
 )
 )
 ;
-hb_font_funcs_destroy
+RUST_hb_font_funcs_destroy
 (
 self
 .
@@ -1192,7 +1192,7 @@ hb_face
 mut
 hb_face_t
 =
-hb_face_create_for_tables
+RUST_hb_face_create_for_tables
 (
 get_font_table_func
 (
@@ -1219,7 +1219,7 @@ hb_font
 mut
 hb_font_t
 =
-hb_font_create
+RUST_hb_font_create
 (
 hb_face
 )
@@ -1253,7 +1253,7 @@ to_subpx
 (
 )
 ;
-hb_font_set_ppem
+RUST_hb_font_set_ppem
 (
 hb_font
 pt_size
@@ -1279,7 +1279,7 @@ takes
 fixed
 point
 .
-hb_font_set_scale
+RUST_hb_font_set_scale
 (
 hb_font
 Shaper
@@ -1332,11 +1332,11 @@ hb_funcs
 mut
 hb_font_funcs_t
 =
-hb_font_funcs_create
+RUST_hb_font_funcs_create
 (
 )
 ;
-hb_font_funcs_set_glyph_func
+RUST_hb_font_funcs_set_glyph_func
 (
 hb_funcs
 glyph_func
@@ -1349,7 +1349,7 @@ null_mut
 None
 )
 ;
-hb_font_funcs_set_glyph_h_advance_func
+RUST_hb_font_funcs_set_glyph_h_advance_func
 (
 hb_funcs
 glyph_h_advance_func
@@ -1362,7 +1362,7 @@ null_mut
 None
 )
 ;
-hb_font_funcs_set_glyph_h_kerning_func
+RUST_hb_font_funcs_set_glyph_h_kerning_func
 (
 hb_funcs
 glyph_h_kerning_func
@@ -1380,7 +1380,7 @@ null_mut
 )
 )
 ;
-hb_font_set_funcs
+RUST_hb_font_set_funcs
 (
 hb_font
 hb_funcs
@@ -1526,17 +1526,17 @@ hb_buffer
 mut
 hb_buffer_t
 =
-hb_buffer_create
+RUST_hb_buffer_create
 (
 )
 ;
-hb_buffer_set_direction
+RUST_hb_buffer_set_direction
 (
 hb_buffer
 HB_DIRECTION_LTR
 )
 ;
-hb_buffer_add_utf8
+RUST_hb_buffer_add_utf8
 (
 hb_buffer
 text
@@ -1603,7 +1603,7 @@ _start
 0
 _end
 :
-hb_buffer_get_length
+RUST_hb_buffer_get_length
 (
 hb_buffer
 )
@@ -1637,14 +1637,14 @@ _start
 0
 _end
 :
-hb_buffer_get_length
+RUST_hb_buffer_get_length
 (
 hb_buffer
 )
 }
 )
 }
-hb_shape
+RUST_hb_shape
 (
 self
 .
@@ -1674,7 +1674,7 @@ glyphs
 hb_buffer
 )
 ;
-hb_buffer_destroy
+RUST_hb_buffer_destroy
 (
 hb_buffer
 )
@@ -4358,7 +4358,7 @@ needed
 .
 blob
 =
-hb_blob_create
+RUST_hb_blob_create
 (
 buf
 as
