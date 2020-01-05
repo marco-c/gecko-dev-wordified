@@ -255,8 +255,10 @@ thread
 only
 .
 static
+UniquePtr
+<
 RendererOGL
-*
+>
 Create
 (
 already_AddRefed

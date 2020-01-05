@@ -295,6 +295,8 @@ gfx
 WindowId
 aWindow
 )
+=
+0
 ;
 }
 ;
