@@ -134,6 +134,7 @@ computed_values
 :
 :
 {
+font_stretch
 font_variant
 font_weight
 }
@@ -382,6 +383,19 @@ self
 -
 >
 font_weight
+:
+:
+T
+;
+fn
+stretchiness
+(
+&
+self
+)
+-
+>
+font_stretch
 :
 :
 T
