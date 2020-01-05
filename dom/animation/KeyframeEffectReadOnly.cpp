@@ -2562,7 +2562,7 @@ if
 (
 segment
 .
-HasReplacableValues
+HasReplaceableValues
 (
 )
 )
@@ -9418,7 +9418,7 @@ if
 !
 segment
 .
-HasReplacableValues
+HasReplaceableValues
 (
 )
 )
