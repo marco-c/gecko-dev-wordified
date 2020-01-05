@@ -609,6 +609,12 @@ GetFirstRow
 (
 )
 ;
+nsTableRowFrame
+*
+GetLastRow
+(
+)
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
