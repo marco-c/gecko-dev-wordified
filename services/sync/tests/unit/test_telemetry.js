@@ -570,9 +570,8 @@ addons
 "
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_basic
@@ -3741,9 +3740,8 @@ engine
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_discarding
