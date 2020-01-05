@@ -1592,9 +1592,10 @@ end
 .
 MOZ_ASSERT
 (
-NS_INLINE_IS_BREAK_AFTER
-(
 aStatus
+.
+IsInlineBreakAfter
+(
 )
 )
 ;

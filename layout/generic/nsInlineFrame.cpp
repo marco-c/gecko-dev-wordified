@@ -5795,9 +5795,10 @@ aFrame
 }
 if
 (
-NS_INLINE_IS_BREAK_AFTER
-(
 aStatus
+.
+IsInlineBreakAfter
+(
 )
 )
 {

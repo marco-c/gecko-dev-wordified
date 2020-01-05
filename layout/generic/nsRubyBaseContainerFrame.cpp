@@ -3555,9 +3555,10 @@ AtEnd
 )
 &
 &
-NS_INLINE_IS_BREAK_AFTER
-(
 reflowStatus
+.
+IsInlineBreakAfter
+(
 )
 )
 {
@@ -3972,9 +3973,10 @@ GetPrevSibling
 else
 if
 (
-NS_INLINE_IS_BREAK_AFTER
-(
 reflowStatus
+.
+IsInlineBreakAfter
+(
 )
 )
 {
