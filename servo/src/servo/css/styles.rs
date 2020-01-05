@@ -657,10 +657,7 @@ LayoutContext
 styles
 :
 &
-ARC
-<
 Stylesheet
->
 )
 ;
 }
@@ -1021,10 +1018,7 @@ LayoutContext
 styles
 :
 &
-ARC
-<
 Stylesheet
->
 )
 {
 let
@@ -1076,10 +1070,7 @@ self
 .
 match_css_style
 (
-get
-(
 styles
-)
 )
 ;
 }
