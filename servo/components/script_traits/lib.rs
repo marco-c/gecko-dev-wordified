@@ -280,7 +280,10 @@ use
 profile_traits
 :
 :
+{
 mem
+time
+}
 ;
 use
 std
@@ -1498,6 +1501,12 @@ StorageTask
 image_cache_task
 :
 ImageCacheTask
+time_profiler_chan
+:
+time
+:
+:
+ProfilerChan
 mem_profiler_chan
 :
 mem

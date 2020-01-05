@@ -2161,6 +2161,13 @@ clone
 )
 self
 .
+time_profiler_chan
+.
+clone
+(
+)
+self
+.
 mem_profiler_chan
 .
 clone
