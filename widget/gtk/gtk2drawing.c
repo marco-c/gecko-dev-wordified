@@ -9477,7 +9477,6 @@ arrow_rect
 real_arrow_rect
 ;
 gint
-arrow_size
 separator_width
 ;
 gboolean
