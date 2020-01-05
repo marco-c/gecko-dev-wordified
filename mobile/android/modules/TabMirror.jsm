@@ -988,7 +988,9 @@ msg
 )
 }
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

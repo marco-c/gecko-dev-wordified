@@ -250,7 +250,9 @@ i
 ]
 ;
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
