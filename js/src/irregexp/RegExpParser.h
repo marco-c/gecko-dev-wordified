@@ -1312,7 +1312,7 @@ ParseHexEscape
 (
 int
 length
-widechar
+size_t
 *
 value
 )
@@ -1320,7 +1320,7 @@ value
 bool
 ParseBracedHexEscape
 (
-widechar
+size_t
 *
 value
 )
@@ -1328,7 +1328,7 @@ value
 bool
 ParseTrailSurrogate
 (
-widechar
+size_t
 *
 value
 )
@@ -1344,7 +1344,7 @@ char16_t
 trail
 )
 ;
-widechar
+size_t
 ParseOctalLiteral
 (
 )
