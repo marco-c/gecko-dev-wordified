@@ -163,6 +163,11 @@ GuardIsObject
 \
 _
 (
+GuardIsObjectOrNull
+)
+\
+_
+(
 GuardIsString
 )
 \
