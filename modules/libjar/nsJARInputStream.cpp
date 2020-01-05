@@ -1296,7 +1296,11 @@ MODE_INFLATE
 :
 if
 (
-mFd
+mZs
+.
+total_out
+<
+mOutSize
 )
 {
 rv
