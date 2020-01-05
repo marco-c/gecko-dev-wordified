@@ -336,6 +336,12 @@ script_thread
 Runnable
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -367,12 +373,6 @@ task_source
 :
 :
 TaskSource
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -415,7 +415,7 @@ parsed_url
 :
 Option
 <
-Url
+ServoUrl
 >
 source_url
 :
@@ -485,7 +485,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 self
@@ -884,7 +884,7 @@ Option
 <
 (
 DOMString
-Url
+ServoUrl
 )
 >
 )
@@ -1159,6 +1159,10 @@ image_cache
 request_image_and_metadata
 (
 img_url
+.
+into
+(
+)
 window
 .
 image_cache_chan
@@ -1776,7 +1780,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 fn
@@ -1871,7 +1875,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 (

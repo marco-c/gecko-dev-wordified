@@ -69,6 +69,12 @@ media_queries
 CSSErrorReporterTest
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -136,12 +142,6 @@ style_traits
 :
 :
 ToCss
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -506,7 +506,7 @@ font_feature_settings_should_throw_on_bad_input
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

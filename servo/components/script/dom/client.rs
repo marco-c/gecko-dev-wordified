@@ -168,10 +168,10 @@ window
 Window
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 use
 uuid
@@ -227,7 +227,7 @@ new_inherited
 (
 url
 :
-Url
+ServoUrl
 )
 -
 >

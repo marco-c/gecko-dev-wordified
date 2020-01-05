@@ -188,6 +188,12 @@ resource_thread
 CancellationListener
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -204,12 +210,6 @@ sync
 :
 :
 Arc
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -1096,7 +1096,7 @@ UIProvider
 (
 url
 :
-Url
+ServoUrl
 filemanager
 :
 FileManager

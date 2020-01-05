@@ -373,6 +373,12 @@ script_thread
 ScriptThread
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -389,12 +395,6 @@ collections
 :
 :
 VecDeque
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -579,7 +579,7 @@ input
 DOMString
 url
 :
-Url
+ServoUrl
 owner
 :
 Option
@@ -950,7 +950,7 @@ input
 DOMString
 url
 :
-Url
+ServoUrl
 owner
 :
 Option
@@ -1855,7 +1855,7 @@ Sink
 pub
 base_url
 :
-Url
+ServoUrl
 pub
 document
 :
@@ -2177,7 +2177,7 @@ document
 .
 url
 :
-Url
+ServoUrl
 }
 impl
 ParserContext
@@ -2191,7 +2191,7 @@ id
 PipelineId
 url
 :
-Url
+ServoUrl
 )
 -
 >

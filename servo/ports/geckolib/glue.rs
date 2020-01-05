@@ -84,6 +84,12 @@ parking_lot
 RwLock
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -577,12 +583,6 @@ style_traits
 :
 :
 ToCss
-;
-use
-url
-:
-:
-Url
 ;
 /
 *
@@ -1451,7 +1451,7 @@ RawServoStyleSheetStrong
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1677,7 +1677,7 @@ as_str_unchecked
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -3323,7 +3323,7 @@ as_str_unchecked
 let
 base_url
 =
-Url
+ServoUrl
 :
 :
 parse

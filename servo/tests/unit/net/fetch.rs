@@ -322,6 +322,12 @@ ResponseType
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -409,12 +415,9 @@ use
 url
 :
 :
-{
 Origin
 as
 UrlOrigin
-Url
-}
 ;
 use
 util
@@ -797,7 +800,7 @@ test_fetch_aboutblank
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1009,7 +1012,7 @@ to_vec
 let
 origin
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1107,7 +1110,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1355,7 +1358,7 @@ css
 let
 url
 =
-Url
+ServoUrl
 :
 :
 from_file_path
@@ -4496,7 +4499,7 @@ do_fetch
 |
 url
 :
-Url
+ServoUrl
 |
 {
 let
@@ -4568,7 +4571,7 @@ None
 let
 local_url
 =
-Url
+ServoUrl
 :
 :
 parse

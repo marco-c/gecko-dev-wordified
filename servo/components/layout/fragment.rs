@@ -309,6 +309,12 @@ Serializer
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -535,12 +541,6 @@ text
 :
 :
 TextRunScanner
-;
-use
-url
-:
-:
-Url
 ;
 /
 /
@@ -3119,7 +3119,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 shared_layout_context
 :

@@ -104,6 +104,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -226,12 +232,6 @@ specified
 LengthOrPercentageOrAuto
 Percentage
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -425,7 +425,7 @@ state
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -2240,7 +2240,7 @@ true
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

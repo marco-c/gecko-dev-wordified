@@ -66,10 +66,10 @@ origin
 Origin
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -89,7 +89,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -123,7 +123,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -190,7 +190,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -246,7 +246,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -280,7 +280,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -337,7 +337,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -371,7 +371,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -471,7 +471,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -505,7 +505,7 @@ Origin
 new
 (
 &
-Url
+ServoUrl
 :
 :
 parse

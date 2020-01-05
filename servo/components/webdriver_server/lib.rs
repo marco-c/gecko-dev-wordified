@@ -150,7 +150,7 @@ script_traits
 ;
 extern
 crate
-url
+servo_url
 ;
 extern
 crate
@@ -311,6 +311,12 @@ WebDriverScriptCommand
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -366,12 +372,6 @@ time
 :
 :
 Duration
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -2562,7 +2562,7 @@ let
 url
 =
 match
-Url
+ServoUrl
 :
 :
 parse

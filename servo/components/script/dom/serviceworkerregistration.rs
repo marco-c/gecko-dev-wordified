@@ -189,10 +189,10 @@ ScopeThings
 }
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -248,7 +248,7 @@ active_sw
 ServiceWorker
 scope
 :
-Url
+ServoUrl
 )
 -
 >
@@ -312,10 +312,10 @@ global
 GlobalScope
 script_url
 :
-Url
+ServoUrl
 scope
 :
-Url
+ServoUrl
 container
 :
 &
@@ -424,7 +424,7 @@ global
 GlobalScope
 script_url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -511,11 +511,11 @@ longest_prefix_match
 stored_scope
 :
 &
-Url
+ServoUrl
 potential_match
 :
 &
-Url
+ServoUrl
 )
 -
 >

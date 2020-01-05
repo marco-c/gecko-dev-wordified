@@ -385,6 +385,12 @@ use
 new_fetch_context
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -463,12 +469,6 @@ std
 :
 thread
 ;
-use
-url
-:
-:
-Url
-;
 const
 DEFAULT_USER_AGENT
 :
@@ -501,7 +501,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 None
@@ -583,12 +583,12 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 Some
 (
-Url
+ServoUrl
 :
 :
 parse
@@ -1569,7 +1569,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -1816,7 +1816,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -1908,7 +1908,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1993,7 +1993,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -5676,7 +5676,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -5760,7 +5760,7 @@ headers
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -6423,7 +6423,7 @@ test_load_sends_secure_cookie_if_http_changed_to_https_due_to_entry_in_hsts_stor
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -6446,7 +6446,7 @@ unwrap
 let
 secured_url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -7634,7 +7634,7 @@ test_when_cookie_set_marked_httpsonly_secure_isnt_sent_on_http_request
 let
 sec_url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -7657,7 +7657,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -9000,7 +9000,7 @@ None
 :
 :
 <
-Url
+ServoUrl
 >
 )
 )
@@ -9337,7 +9337,7 @@ None
 :
 :
 <
-Url
+ServoUrl
 >
 )
 )
@@ -9752,7 +9752,7 @@ create
 self
 url
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -9889,7 +9889,7 @@ url
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10055,7 +10055,7 @@ create
 self
 url
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -10113,7 +10113,7 @@ test_load_errors_when_scheme_is_not_http_or_https
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10261,7 +10261,7 @@ test_load_errors_when_viewing_source_and_inner_url_scheme_is_not_http_or_https
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10451,7 +10451,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -10611,7 +10611,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10741,7 +10741,7 @@ test_redirect_from_x_to_y_provides_y_cookies_from_y
 let
 url_x
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10764,7 +10764,7 @@ unwrap
 let
 url_y
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -10804,7 +10804,7 @@ create
 self
 url
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -11324,7 +11324,7 @@ test_redirect_from_x_to_x_provides_x_with_cookie_from_first_response
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -11367,7 +11367,7 @@ create
 self
 url
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -11729,7 +11729,7 @@ test_if_auth_creds_not_in_url_but_in_cache_it_sets_it
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -11957,7 +11957,7 @@ test_auth_ui_sets_header_on_401
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -12187,7 +12187,7 @@ test_auth_ui_needs_www_auth
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -12281,7 +12281,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -12447,7 +12447,7 @@ str
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -12595,7 +12595,7 @@ str
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -15010,7 +15010,7 @@ create
 self
 _
 :
-Url
+ServoUrl
 _
 :
 Method
@@ -15074,7 +15074,7 @@ expected_body
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -15402,7 +15402,7 @@ create
 self
 _url
 :
-Url
+ServoUrl
 _method
 :
 Method
@@ -15456,7 +15456,7 @@ as_bytes
 let
 blocked_url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -15479,7 +15479,7 @@ unwrap
 let
 url_without_cookies
 =
-Url
+ServoUrl
 :
 :
 parse

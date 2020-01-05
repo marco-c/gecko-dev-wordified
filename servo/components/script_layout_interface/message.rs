@@ -165,6 +165,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -214,12 +220,6 @@ stylesheets
 :
 :
 Stylesheet
-;
-use
-url
-:
-:
-Url
 ;
 /
 /
@@ -639,7 +639,7 @@ Url
 .
 SetFinalUrl
 (
-Url
+ServoUrl
 )
 /
 /
@@ -973,7 +973,7 @@ PipelineId
 pub
 url
 :
-Url
+ServoUrl
 pub
 is_parent
 :

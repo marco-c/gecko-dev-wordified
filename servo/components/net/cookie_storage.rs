@@ -98,6 +98,12 @@ net_traits
 CookieSource
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -105,12 +111,6 @@ cmp
 :
 :
 Ordering
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -676,7 +676,7 @@ self
 url
 :
 &
-Url
+ServoUrl
 source
 :
 CookieSource
@@ -984,7 +984,7 @@ url
 &
 '
 a
-Url
+ServoUrl
 source
 :
 CookieSource

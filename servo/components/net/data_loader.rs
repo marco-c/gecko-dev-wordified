@@ -125,6 +125,12 @@ base64
 FromBase64
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -137,10 +143,7 @@ use
 url
 :
 :
-{
 Position
-Url
-}
 ;
 use
 url
@@ -263,7 +266,7 @@ decode
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >
@@ -273,7 +276,7 @@ DecodeData
 DecodeError
 >
 {
-assert
+assert_eq
 !
 (
 url
@@ -281,8 +284,6 @@ url
 scheme
 (
 )
-=
-=
 "
 data
 "
@@ -307,6 +308,14 @@ str
 >
 =
 url
+.
+as_url
+(
+)
+.
+unwrap
+(
+)
 [
 Position
 :
@@ -608,10 +617,9 @@ b
 b
 !
 =
+b
 '
 '
-as
-u8
 )
 .
 collect

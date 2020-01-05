@@ -66,10 +66,10 @@ test
 resolve_chrome_url
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 fn
 c
@@ -83,7 +83,7 @@ str
 >
 Result
 <
-Url
+ServoUrl
 (
 )
 >
@@ -91,7 +91,7 @@ Url
 resolve_chrome_url
 (
 &
-Url
+ServoUrl
 :
 :
 parse

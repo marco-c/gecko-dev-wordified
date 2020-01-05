@@ -124,6 +124,12 @@ start_sending_sniffed_opt
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -178,12 +184,6 @@ sync
 Arc
 ;
 use
-url
-:
-:
-Url
-;
-use
 util
 :
 :
@@ -235,7 +235,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 None
@@ -755,7 +755,7 @@ found
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

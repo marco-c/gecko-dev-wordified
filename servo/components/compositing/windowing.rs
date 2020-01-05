@@ -160,6 +160,12 @@ TouchpadPressurePhase
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -180,12 +186,6 @@ cursor
 :
 :
 Cursor
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -1267,7 +1267,7 @@ set_page_url
 self
 url
 :
-Url
+ServoUrl
 )
 ;
 /
@@ -1660,7 +1660,7 @@ set_favicon
 self
 url
 :
-Url
+ServoUrl
 )
 ;
 }

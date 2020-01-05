@@ -256,6 +256,12 @@ as
 ConstellationMsg
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -266,12 +272,6 @@ AttrValue
 ;
 use
 time
-;
-use
-url
-:
-:
-Url
 ;
 /
 /
@@ -781,7 +781,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 }
@@ -950,7 +950,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 unsafe

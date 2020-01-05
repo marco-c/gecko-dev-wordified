@@ -1226,6 +1226,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -1408,12 +1414,6 @@ Stylesheet
 ;
 use
 time
-;
-use
-url
-:
-:
-Url
 ;
 use
 url
@@ -1735,7 +1735,7 @@ is_html_document
 bool
 url
 :
-Url
+ServoUrl
 quirks_mode
 :
 Cell
@@ -3646,7 +3646,7 @@ self
 -
 >
 &
-Url
+ServoUrl
 {
 &
 self
@@ -3684,7 +3684,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 /
 /
@@ -3758,7 +3758,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 match
 self
@@ -13767,7 +13767,7 @@ url_has_network_scheme
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >
@@ -13822,7 +13822,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 is_html_document
 :
@@ -13871,7 +13871,7 @@ unwrap_or_else
 (
 |
 |
-Url
+ServoUrl
 :
 :
 parse
@@ -14826,7 +14826,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 doctype
 :

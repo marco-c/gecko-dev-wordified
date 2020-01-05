@@ -66,10 +66,10 @@ ipc
 IpcSender
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -138,7 +138,7 @@ IpcSender
 <
 usize
 >
-Url
+ServoUrl
 StorageType
 )
 /
@@ -168,7 +168,7 @@ Option
 String
 >
 >
-Url
+ServoUrl
 StorageType
 u32
 )
@@ -193,7 +193,7 @@ Vec
 String
 >
 >
-Url
+ServoUrl
 StorageType
 )
 /
@@ -221,7 +221,7 @@ Option
 String
 >
 >
-Url
+ServoUrl
 StorageType
 String
 )
@@ -257,7 +257,7 @@ String
 )
 >
 >
-Url
+ServoUrl
 StorageType
 String
 String
@@ -289,7 +289,7 @@ Option
 String
 >
 >
-Url
+ServoUrl
 StorageType
 String
 )
@@ -315,7 +315,7 @@ IpcSender
 <
 bool
 >
-Url
+ServoUrl
 StorageType
 )
 /

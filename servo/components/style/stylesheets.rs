@@ -186,6 +186,12 @@ parse_selector_list
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -214,12 +220,6 @@ style_traits
 :
 :
 ToCss
-;
-use
-url
-:
-:
-Url
 ;
 use
 viewport
@@ -1302,7 +1302,7 @@ input
 I
 base_url
 :
-Url
+ServoUrl
 protocol_encoding_label
 :
 Option
@@ -1394,7 +1394,7 @@ u8
 ]
 base_url
 :
-Url
+ServoUrl
 protocol_encoding_label
 :
 Option
@@ -1477,7 +1477,7 @@ css
 str
 base_url
 :
-Url
+ServoUrl
 origin
 :
 Origin

@@ -69,6 +69,12 @@ media_queries
 CSSErrorReporterTest
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -129,12 +135,6 @@ stylesheets
 :
 Origin
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test
@@ -147,7 +147,7 @@ border_image_shorhand_should_parse_when_all_properties_specified
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -365,7 +365,7 @@ border_image_shorhand_should_parse_without_width
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -577,7 +577,7 @@ border_image_shorhand_should_parse_without_outset
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -788,7 +788,7 @@ border_image_shorhand_should_parse_without_width_or_outset
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -993,7 +993,7 @@ border_image_shorhand_should_parse_with_just_source
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

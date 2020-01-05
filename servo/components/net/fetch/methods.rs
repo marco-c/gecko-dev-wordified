@@ -352,6 +352,12 @@ resource_thread
 CancellationListener
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -462,7 +468,6 @@ url
 Origin
 as
 UrlOrigin
-Url
 }
 ;
 use
@@ -9905,7 +9910,7 @@ has_credentials
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >

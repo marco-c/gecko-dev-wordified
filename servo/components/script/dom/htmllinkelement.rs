@@ -418,6 +418,12 @@ ConstellationMsg
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -521,12 +527,6 @@ stylesheets
 Stylesheet
 Origin
 }
-;
-use
-url
-:
-:
-Url
 ;
 no_jsmanaged_fields
 !
@@ -2529,7 +2529,7 @@ requested
 .
 url
 :
-Url
+ServoUrl
 }
 impl
 PreInvoke

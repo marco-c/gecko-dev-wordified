@@ -878,6 +878,12 @@ parser
 parse_author_origin_selector_list_from_str
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -978,12 +984,6 @@ style
 :
 :
 thread_state
-;
-use
-url
-:
-:
-Url
 ;
 use
 uuid
@@ -7552,7 +7552,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 fn
@@ -8498,7 +8498,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 unsafe

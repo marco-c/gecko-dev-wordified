@@ -85,6 +85,12 @@ use
 resource_thread
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -119,12 +125,6 @@ path
 :
 :
 PathBuf
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -729,7 +729,7 @@ usize
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -807,7 +807,7 @@ String
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -903,7 +903,7 @@ String
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -1063,7 +1063,7 @@ String
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -1438,7 +1438,7 @@ String
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -1551,7 +1551,7 @@ String
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -1679,7 +1679,7 @@ bool
 >
 url
 :
-Url
+ServoUrl
 storage_type
 :
 StorageType
@@ -1774,7 +1774,7 @@ origin_as_string
 self
 url
 :
-Url
+ServoUrl
 )
 -
 >

@@ -106,11 +106,11 @@ parking_lot
 ;
 extern
 crate
-style_traits
+servo_url
 ;
 extern
 crate
-url
+style_traits
 ;
 #
 [

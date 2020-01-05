@@ -168,10 +168,10 @@ window
 Window
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -268,7 +268,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 self
 .
@@ -292,7 +292,7 @@ fn
 (
 &
 mut
-Url
+ServoUrl
 USVString
 )
 )

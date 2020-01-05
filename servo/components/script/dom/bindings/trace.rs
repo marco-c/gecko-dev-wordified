@@ -902,6 +902,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 smallvec
 :
 :
@@ -1112,12 +1118,6 @@ url
 Origin
 as
 UrlOrigin
-;
-use
-url
-:
-:
-Url
 ;
 use
 uuid
@@ -2387,7 +2387,7 @@ bool
 f32
 f64
 String
-Url
+ServoUrl
 AtomicBool
 AtomicUsize
 UrlOrigin

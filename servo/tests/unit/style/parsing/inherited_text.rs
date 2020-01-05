@@ -86,12 +86,6 @@ stylesheets
 :
 Origin
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test

@@ -459,10 +459,10 @@ webdriver_msg
 WebDriverCookieError
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 fn
 find_node_by_unique_id
@@ -3129,7 +3129,7 @@ reply
 :
 IpcSender
 <
-Url
+ServoUrl
 >
 )
 {
@@ -3178,7 +3178,7 @@ unwrap_or_else
 (
 |
 |
-Url
+ServoUrl
 :
 :
 parse

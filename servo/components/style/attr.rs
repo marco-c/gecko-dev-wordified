@@ -136,6 +136,12 @@ num_traits
 ToPrimitive
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -192,12 +198,6 @@ str
 :
 :
 str_join
-;
-use
-url
-:
-:
-Url
 ;
 use
 values
@@ -351,7 +351,7 @@ Url
 String
 Option
 <
-Url
+ServoUrl
 >
 )
 }
@@ -1747,7 +1747,7 @@ from_url
 base
 :
 &
-Url
+ServoUrl
 url
 :
 String
@@ -2327,7 +2327,7 @@ self
 Option
 <
 &
-Url
+ServoUrl
 >
 {
 match

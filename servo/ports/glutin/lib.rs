@@ -178,11 +178,11 @@ script_traits
 ;
 extern
 crate
-style_traits
+servo_url
 ;
 extern
 crate
-url
+style_traits
 ;
 extern
 crate

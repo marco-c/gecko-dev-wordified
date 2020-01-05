@@ -669,6 +669,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -747,10 +753,7 @@ use
 url
 :
 :
-{
 Position
-Url
-}
 ;
 use
 util
@@ -1197,7 +1200,7 @@ DOMRefCell
 <
 Option
 <
-Url
+ServoUrl
 >
 >
 #
@@ -1277,7 +1280,7 @@ referrer_url
 :
 Option
 <
-Url
+ServoUrl
 >
 referrer_policy
 :
@@ -1441,10 +1444,8 @@ new
 String
 :
 :
-from
+new
 (
-"
-"
 )
 )
 status
@@ -2205,7 +2206,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 return
@@ -6948,6 +6949,14 @@ borrow_mut
 metadata
 .
 final_url
+.
+as_url
+(
+)
+.
+unwrap
+(
+)
 [
 .
 .

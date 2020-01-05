@@ -227,6 +227,12 @@ jsapi
 JSTracer
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -240,12 +246,6 @@ super
 :
 :
 Sink
-;
-use
-url
-:
-:
-Url
 ;
 use
 xml5ever
@@ -349,7 +349,7 @@ document
 Document
 url
 :
-Url
+ServoUrl
 )
 -
 >

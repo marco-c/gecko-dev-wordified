@@ -340,6 +340,12 @@ WorkerScriptLoadOrigin
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -384,12 +390,6 @@ self
 IN_WORKER
 SCRIPT
 }
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -653,7 +653,7 @@ ServiceWorkerMsg
 >
 scope_url
 :
-Url
+ServoUrl
 }
 impl
 ServiceWorkerGlobalScope
@@ -666,7 +666,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 from_devtools_receiver
 :
 Receiver
@@ -709,7 +709,7 @@ ServiceWorkerMsg
 >
 scope_url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -764,7 +764,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 from_devtools_receiver
 :
 Receiver
@@ -807,7 +807,7 @@ ServiceWorkerMsg
 >
 scope_url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -898,7 +898,7 @@ ServiceWorkerMsg
 >
 scope_url
 :
-Url
+ServoUrl
 )
 {
 let

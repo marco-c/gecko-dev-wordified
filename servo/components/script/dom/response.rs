@@ -318,6 +318,12 @@ NetTraitsResponseBody
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -355,12 +361,6 @@ url
 :
 :
 Position
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -455,7 +455,7 @@ DOMRefCell
 <
 Option
 <
-Url
+ServoUrl
 >
 >
 url_list
@@ -464,7 +464,7 @@ DOMRefCell
 <
 Vec
 <
-Url
+ServoUrl
 >
 >
 /
@@ -1453,7 +1453,7 @@ Error
 Type
 (
 "
-Url
+ServoUrl
 could
 not
 be
@@ -3191,7 +3191,7 @@ serialize_without_fragment
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >
@@ -3200,6 +3200,14 @@ str
 {
 &
 url
+.
+as_url
+(
+)
+.
+unwrap
+(
+)
 [
 .
 .
@@ -3327,7 +3335,7 @@ set_final_url
 self
 final_url
 :
-Url
+ServoUrl
 )
 {
 *

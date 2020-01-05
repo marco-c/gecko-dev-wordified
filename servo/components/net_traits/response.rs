@@ -145,6 +145,12 @@ hyper_serde
 Serde
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -176,12 +182,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-url
-:
-:
-Url
 ;
 /
 /
@@ -577,7 +577,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 pub
 url_list
@@ -586,7 +586,7 @@ RefCell
 <
 Vec
 <
-Url
+ServoUrl
 >
 >
 /
@@ -679,7 +679,7 @@ referrer
 :
 Option
 <
-Url
+ServoUrl
 >
 /
 /
@@ -763,7 +763,7 @@ new
 (
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -994,7 +994,7 @@ self
 Option
 <
 &
-Url
+ServoUrl
 >
 {
 self
@@ -1737,7 +1737,7 @@ Response
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >

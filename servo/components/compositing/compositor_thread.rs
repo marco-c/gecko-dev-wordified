@@ -150,6 +150,12 @@ EventResult
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -194,12 +200,6 @@ viewport
 :
 :
 ViewportConstraints
-;
-use
-url
-:
-:
-Url
 ;
 use
 webrender
@@ -664,7 +664,7 @@ URL
 ChangePageUrl
 (
 PipelineId
-Url
+ServoUrl
 )
 /
 /
@@ -928,7 +928,7 @@ was
 detected
 NewFavicon
 (
-Url
+ServoUrl
 )
 /
 /

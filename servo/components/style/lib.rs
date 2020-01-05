@@ -753,6 +753,10 @@ servo_atoms
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 smallvec
 ;
 #
@@ -777,10 +781,6 @@ unused_extern_crates
 extern
 crate
 unicode_segmentation
-;
-extern
-crate
-url
 ;
 extern
 crate

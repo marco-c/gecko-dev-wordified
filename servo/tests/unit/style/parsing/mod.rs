@@ -339,7 +339,12 @@ expr
 let
 url
 =
-Url
+:
+:
+servo_url
+:
+:
+ServoUrl
 :
 :
 parse
@@ -522,7 +527,12 @@ expr
 let
 url
 =
-Url
+:
+:
+servo_url
+:
+:
+ServoUrl
 :
 :
 parse

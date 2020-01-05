@@ -238,6 +238,10 @@ serde_derive
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 url
 ;
 #

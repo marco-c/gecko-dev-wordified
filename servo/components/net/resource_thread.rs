@@ -329,6 +329,12 @@ rustc_serialize
 json
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -460,12 +466,6 @@ storage_thread
 :
 :
 StorageThreadFactory
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -626,7 +626,7 @@ send_error
 (
 url
 :
-Url
+ServoUrl
 err
 :
 NetworkError
@@ -3490,7 +3490,7 @@ mut
 self
 request
 :
-Url
+ServoUrl
 cookie_list
 :
 String
@@ -3595,7 +3595,7 @@ mut
 self
 request
 :
-Url
+ServoUrl
 cookie
 :
 cookie_rs

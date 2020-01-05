@@ -81,6 +81,12 @@ size
 TypedSize2D
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -143,12 +149,6 @@ values
 :
 :
 specified
-;
-use
-url
-:
-:
-Url
 ;
 pub
 struct
@@ -233,7 +233,7 @@ str
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -410,7 +410,7 @@ usize
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

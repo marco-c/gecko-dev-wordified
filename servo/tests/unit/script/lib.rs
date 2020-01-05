@@ -82,7 +82,7 @@ script
 ;
 extern
 crate
-url
+servo_url
 ;
 #
 [

@@ -93,6 +93,12 @@ log_css_error
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -135,12 +141,6 @@ super
 :
 :
 *
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -3034,7 +3034,7 @@ str
 base_url
 :
 &
-Url
+ServoUrl
 error_reporter
 :
 StdBox
@@ -3098,7 +3098,7 @@ str
 base_url
 :
 &
-Url
+ServoUrl
 error_reporter
 :
 StdBox

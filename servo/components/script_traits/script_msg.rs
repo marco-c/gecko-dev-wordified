@@ -172,6 +172,12 @@ GLLimits
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style_traits
 :
 :
@@ -188,12 +194,6 @@ viewport
 :
 :
 ViewportConstraints
-;
-use
-url
-:
-:
-Url
 ;
 /
 /
@@ -464,7 +464,7 @@ BroadcastStorageEvent
 (
 PipelineId
 StorageType
-Url
+ServoUrl
 Option
 <
 String
@@ -833,7 +833,7 @@ Favicon
 detected
 NewFavicon
 (
-Url
+ServoUrl
 )
 /
 /
@@ -999,7 +999,7 @@ redirections
 SetFinalUrl
 (
 PipelineId
-Url
+ServoUrl
 )
 /
 /
@@ -1236,7 +1236,7 @@ manager
 ForwardDOMMessage
 (
 DOMMessage
-Url
+ServoUrl
 )
 /
 /
@@ -1257,7 +1257,7 @@ scope
 RegisterServiceWorker
 (
 ScopeThings
-Url
+ServoUrl
 )
 /
 /
@@ -1302,7 +1302,7 @@ url
 pub
 script_url
 :
-Url
+ServoUrl
 /
 /
 /
@@ -1482,7 +1482,7 @@ worker
 RegisterServiceWorker
 (
 ScopeThings
-Url
+ServoUrl
 )
 /
 /
@@ -1496,7 +1496,7 @@ service
 workers
 Timeout
 (
-Url
+ServoUrl
 )
 /
 /
@@ -1515,7 +1515,7 @@ worker
 ForwardDOMMessage
 (
 DOMMessage
-Url
+ServoUrl
 )
 /
 /

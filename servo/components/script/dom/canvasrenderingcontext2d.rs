@@ -546,6 +546,12 @@ as
 ConstellationMsg
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -577,12 +583,6 @@ unpremultiplytable
 :
 :
 UNPREMULTIPLY_TABLE
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -3368,7 +3368,7 @@ request_image_from_cache
 self
 url
 :
-Url
+ServoUrl
 )
 -
 >
