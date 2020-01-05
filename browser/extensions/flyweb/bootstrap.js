@@ -991,7 +991,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
