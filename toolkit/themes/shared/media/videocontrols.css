@@ -177,6 +177,17 @@ none
 ;
 }
 .
+controlsSpacer
+[
+hideCursor
+]
+{
+cursor
+:
+none
+;
+}
+.
 controlsContainer
 .
 progressContainer
