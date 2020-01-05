@@ -1798,12 +1798,11 @@ the
 addonId
 on
 the
-originAttributes
 for
 the
-/
-/
 nsIPrincipal
+/
+/
 attached
 to
 the
@@ -1868,7 +1867,8 @@ the
 principal
 '
 s
-originAttributes
+addonId
+attribute
 .
 This
 value
@@ -1910,8 +1910,6 @@ getObjectPrincipal
 (
 window
 )
-.
-originAttributes
 .
 addonId
 ;

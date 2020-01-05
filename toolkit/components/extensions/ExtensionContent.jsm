@@ -2516,7 +2516,7 @@ this
 innerWindowID
 addonId
 :
-attrs
+extensionPrincipal
 .
 addonId
 }

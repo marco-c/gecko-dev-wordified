@@ -2156,8 +2156,6 @@ document
 .
 nodePrincipal
 .
-originAttributes
-.
 addonId
 =
 =
