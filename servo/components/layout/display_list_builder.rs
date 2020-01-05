@@ -308,7 +308,6 @@ gfx_traits
 :
 :
 {
-ScrollPolicy
 ScrollRootId
 StackingContextId
 }
@@ -627,6 +626,7 @@ webrender_traits
 {
 ColorF
 GradientStop
+ScrollPolicy
 }
 ;
 trait
@@ -13343,7 +13343,7 @@ is_fixed
 ScrollPolicy
 :
 :
-FixedPosition
+Fixed
 }
 else
 {
