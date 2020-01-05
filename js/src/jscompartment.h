@@ -5401,15 +5401,6 @@ ZoneComponentFinder
 finder
 )
 ;
-MOZ_MUST_USE
-bool
-findDeadProxyZoneEdges
-(
-bool
-*
-foundAny
-)
-;
 js
 :
 :
