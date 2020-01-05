@@ -10364,16 +10364,7 @@ can
 modify
 mEditorObservers
 .
-nsTArray
-<
-mozilla
-:
-:
-OwningNonNull
-<
-nsIEditorObserver
->
->
+AutoEditorObserverArray
 observers
 (
 mEditorObservers
