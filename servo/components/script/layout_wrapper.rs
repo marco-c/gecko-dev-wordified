@@ -5709,7 +5709,7 @@ borrow
 ;
 parent_data
 .
-current_styles
+styles
 (
 )
 .

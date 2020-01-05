@@ -581,15 +581,6 @@ use
 style
 :
 :
-dom
-:
-:
-TRestyleDamage
-;
-use
-style
-:
-:
 logical_geometry
 :
 :

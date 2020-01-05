@@ -2430,7 +2430,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -2498,7 +2498,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -2814,7 +2814,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -2903,7 +2903,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -2949,7 +2949,7 @@ Some
 &
 data
 .
-current_styles
+styles
 (
 )
 .
@@ -2962,7 +2962,7 @@ false
 ;
 data
 .
-current_styles_mut
+styles_mut
 (
 )
 .
@@ -3007,7 +3007,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -3052,7 +3052,7 @@ style_pseudo
 &
 data
 .
-current_styles
+styles
 (
 )
 .
@@ -3063,7 +3063,7 @@ values
 ;
 data
 .
-current_styles_mut
+styles_mut
 (
 )
 .
@@ -3100,7 +3100,7 @@ borrow
 (
 )
 .
-current_styles
+styles
 (
 )
 .
@@ -3160,7 +3160,7 @@ borrow
 ;
 data
 .
-current_styles
+styles
 (
 )
 .
@@ -3188,7 +3188,7 @@ unwrap_or
 &
 data
 .
-current_styles
+styles
 (
 )
 .
@@ -3326,7 +3326,7 @@ Normal
 >
 data
 .
-current_styles
+styles
 (
 )
 .
@@ -3342,7 +3342,7 @@ other
 >
 data
 .
-current_styles
+styles
 (
 )
 .
