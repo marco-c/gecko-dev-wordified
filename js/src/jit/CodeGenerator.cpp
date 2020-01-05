@@ -59267,6 +59267,7 @@ ThrowReadOnlyFn
 (
 JSContext
 *
+HandleObject
 int32_t
 )
 ;
@@ -59369,6 +59370,19 @@ isFrozen
 }
 else
 {
+Register
+object
+=
+ToRegister
+(
+lir
+-
+>
+object
+(
+)
+)
+;
 const
 LAllocation
 *
@@ -59394,6 +59408,7 @@ isConstant
 (
 )
 )
+{
 ool
 =
 oolCallVM
@@ -59402,6 +59417,7 @@ ThrowReadOnlyInfo
 lir
 ArgList
 (
+object
 Imm32
 (
 ToInt32
@@ -59415,7 +59431,9 @@ StoreNothing
 )
 )
 ;
+}
 else
+{
 ool
 =
 oolCallVM
@@ -59424,6 +59442,7 @@ ThrowReadOnlyInfo
 lir
 ArgList
 (
+object
 ToRegister
 (
 index
@@ -59434,6 +59453,7 @@ StoreNothing
 )
 )
 ;
+}
 masm
 .
 branchTest32
@@ -59607,6 +59627,19 @@ isFrozen
 }
 else
 {
+Register
+object
+=
+ToRegister
+(
+lir
+-
+>
+object
+(
+)
+)
+;
 const
 LAllocation
 *
@@ -59632,6 +59665,7 @@ isConstant
 (
 )
 )
+{
 ool
 =
 oolCallVM
@@ -59640,6 +59674,7 @@ ThrowReadOnlyInfo
 lir
 ArgList
 (
+object
 Imm32
 (
 ToInt32
@@ -59653,7 +59688,9 @@ StoreNothing
 )
 )
 ;
+}
 else
+{
 ool
 =
 oolCallVM
@@ -59662,6 +59699,7 @@ ThrowReadOnlyInfo
 lir
 ArgList
 (
+object
 ToRegister
 (
 index
@@ -59672,6 +59710,7 @@ StoreNothing
 )
 )
 ;
+}
 masm
 .
 branchTest32
