@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-RestyleManager
+GeckoRestyleManager
 .
 h
 "
