@@ -247,6 +247,9 @@ class
 WebRenderCompositableHolder
 ;
 class
+WebRenderImageHost
+;
+class
 WebRenderBridgeParent
 final
 :
@@ -1369,7 +1372,7 @@ nsDataHashtable
 nsUint64HashKey
 RefPtr
 <
-CompositableHost
+WebRenderImageHost
 >
 >
 mExternalImageIds
