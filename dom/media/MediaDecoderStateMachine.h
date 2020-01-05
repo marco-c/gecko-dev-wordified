@@ -1545,6 +1545,9 @@ class
 NextFrameSeekingState
 ;
 class
+NextFrameSeekingFromDormantState
+;
+class
 BufferingState
 ;
 class

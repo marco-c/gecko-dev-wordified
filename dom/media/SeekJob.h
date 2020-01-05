@@ -227,6 +227,11 @@ SeekPromise
 >
 mPromise
 ;
+bool
+mTransition
+=
+true
+;
 }
 ;
 }
