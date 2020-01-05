@@ -903,6 +903,15 @@ get
 uuid
 )
 ;
+if
+(
+!
+extension
+)
+{
+return
+;
+}
 this
 .
 uuidMap
