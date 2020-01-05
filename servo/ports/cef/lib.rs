@@ -234,6 +234,10 @@ style
 ;
 extern
 crate
+style_traits
+;
+extern
+crate
 stb_image
 ;
 extern
