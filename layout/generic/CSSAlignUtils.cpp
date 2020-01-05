@@ -111,6 +111,13 @@ CSSAlignUtils
 .
 h
 "
+#
+include
+"
+ReflowInput
+.
+h
+"
 namespace
 mozilla
 {
