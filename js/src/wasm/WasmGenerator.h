@@ -1244,6 +1244,9 @@ lastPatchedCallsite_
 uint32_t
 startOfUnpatchedCallsites_
 ;
+Uint32Vector
+debugTrapFarJumps_
+;
 /
 /
 Parallel
@@ -1341,6 +1344,10 @@ const
 TrapExitOffsetArray
 &
 trapExits
+const
+Offsets
+&
+debugTrapStub
 )
 ;
 MOZ_MUST_USE
