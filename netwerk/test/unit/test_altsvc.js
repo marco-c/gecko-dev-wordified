@@ -1470,7 +1470,6 @@ addCert
 (
 der
 trustString
-null
 )
 ;
 }

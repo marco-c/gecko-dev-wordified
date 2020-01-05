@@ -8435,7 +8435,6 @@ addCert
 (
 der
 trustString
-null
 )
 ;
 }

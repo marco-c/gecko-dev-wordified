@@ -408,7 +408,6 @@ addCertFromBase64
 base64
 "
 "
-null
 )
 ;
 }
@@ -721,7 +720,6 @@ addCertFromBase64
 base64
 "
 "
-null
 )
 ;
 }
