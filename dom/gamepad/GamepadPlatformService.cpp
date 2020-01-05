@@ -581,7 +581,13 @@ aID
 )
 )
 index
+static_cast
+<
+uint32_t
+>
+(
 aMapping
+)
 GamepadServiceType
 :
 :

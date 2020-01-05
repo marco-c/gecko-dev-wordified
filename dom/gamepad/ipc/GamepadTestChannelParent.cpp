@@ -185,10 +185,16 @@ gamepadID
 get
 (
 )
+static_cast
+<
+GamepadMappingType
+>
+(
 a
 .
 mapping
 (
+)
 )
 a
 .
