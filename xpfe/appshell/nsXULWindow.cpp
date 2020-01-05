@@ -13373,6 +13373,8 @@ more
 ;
 while
 (
+NS_SUCCEEDED
+(
 windowEnumerator
 -
 >
@@ -13381,6 +13383,9 @@ HasMoreElements
 &
 more
 )
+)
+&
+&
 more
 )
 {
