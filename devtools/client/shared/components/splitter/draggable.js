@@ -230,7 +230,7 @@ preventDefault
 /
 /
 Use
-screen
+viewport
 coordinates
 so
 moving
@@ -256,10 +256,10 @@ onMove
 (
 ev
 .
-screenX
+clientX
 ev
 .
-screenY
+clientY
 )
 ;
 }
