@@ -180,6 +180,9 @@ FileSystemBase
 class
 FileSystemParams
 ;
+class
+PBlobParent
+;
 /
 *
 *
