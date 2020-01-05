@@ -491,6 +491,7 @@ origBuf
 PRBool
 tls13_ClientAllow0Rtt
 (
+const
 sslSocket
 *
 ss

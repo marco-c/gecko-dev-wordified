@@ -1034,6 +1034,11 @@ SSLNamedGroup
 groups
 )
 ;
+void
+DisableECDHEServerKeyReuse
+(
+)
+;
 const
 std
 :

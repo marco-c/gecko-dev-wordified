@@ -1037,6 +1037,11 @@ of
 the
 old
 .
+if
+(
+old_value
+)
+{
 Write
 (
 0
@@ -1051,6 +1056,7 @@ index
 )
 )
 ;
+}
 /
 /
 Maybe
