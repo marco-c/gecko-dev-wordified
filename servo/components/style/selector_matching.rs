@@ -2695,6 +2695,12 @@ mq_eval_changed
 stylesheet
 .
 rules
+.
+0
+.
+read
+(
+)
 &
 self
 .
