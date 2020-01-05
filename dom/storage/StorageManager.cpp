@@ -519,7 +519,7 @@ StorageManagerBase
 :
 StorageManagerBase
 (
-Storage
+LocalStorage
 :
 :
 StorageType
@@ -1258,7 +1258,7 @@ if
 mType
 =
 =
-LocalStorage
+eLocalStorage
 )
 {
 StorageDBBridge
@@ -1376,7 +1376,7 @@ mType
 )
 {
 case
-SessionStorage
+eSessionStorage
 :
 /
 /
@@ -1410,7 +1410,7 @@ quotaOrigin
 break
 ;
 case
-LocalStorage
+eLocalStorage
 :
 /
 /
@@ -1779,7 +1779,7 @@ if
 mType
 =
 =
-SessionStorage
+eSessionStorage
 )
 {
 if
@@ -1825,7 +1825,7 @@ nsIDOMStorage
 storage
 =
 new
-Storage
+LocalStorage
 (
 inner
 this
@@ -1971,7 +1971,7 @@ if
 mType
 !
 =
-SessionStorage
+eSessionStorage
 )
 {
 /
@@ -1988,13 +1988,13 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 RefPtr
 <
-Storage
+LocalStorage
 >
 storage
 =
 static_cast
 <
-Storage
+LocalStorage
 *
 >
 (
@@ -2142,13 +2142,13 @@ rv
 ;
 RefPtr
 <
-Storage
+LocalStorage
 >
 storage
 =
 static_cast
 <
-Storage
+LocalStorage
 *
 >
 (
@@ -2301,7 +2301,7 @@ if
 mType
 !
 =
-LocalStorage
+eLocalStorage
 )
 {
 return
@@ -2768,7 +2768,7 @@ if
 mType
 =
 =
-SessionStorage
+eSessionStorage
 )
 {
 return
@@ -2860,7 +2860,7 @@ if
 mType
 =
 =
-LocalStorage
+eLocalStorage
 )
 {
 mLowDiskSpace
@@ -2895,7 +2895,7 @@ if
 mType
 =
 =
-LocalStorage
+eLocalStorage
 )
 {
 mLowDiskSpace
@@ -2929,7 +2929,7 @@ if
 mType
 !
 =
-LocalStorage
+eLocalStorage
 )
 {
 return
@@ -3055,7 +3055,7 @@ DOMLocalStorageManager
 :
 StorageManagerBase
 (
-LocalStorage
+eLocalStorage
 )
 {
 NS_ASSERTION
@@ -3232,7 +3232,7 @@ DOMSessionStorageManager
 :
 StorageManagerBase
 (
-SessionStorage
+eSessionStorage
 )
 {
 if

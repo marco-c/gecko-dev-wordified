@@ -189,7 +189,7 @@ namespace
 dom
 {
 class
-Storage
+LocalStorage
 ;
 class
 StorageUsage
@@ -637,7 +637,7 @@ to
 this
 cache
 via
-Storage
+LocalStorage
 :
 :
 ApplyEvent
@@ -842,7 +842,7 @@ int64_t
 GetOriginQuotaUsage
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -889,7 +889,7 @@ We
 are
 passing
 the
-Storage
+LocalStorage
 object
 just
 to
@@ -925,7 +925,7 @@ nsresult
 GetLength
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 uint32_t
@@ -937,7 +937,7 @@ nsresult
 GetKey
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 uint32_t
@@ -951,7 +951,7 @@ nsresult
 GetItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -967,7 +967,7 @@ nsresult
 SetItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -992,7 +992,7 @@ nsresult
 RemoveItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -1013,7 +1013,7 @@ nsresult
 Clear
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -1027,7 +1027,7 @@ void
 GetKeys
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 nsTArray
@@ -1422,7 +1422,7 @@ Data
 DataSet
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -1441,7 +1441,7 @@ bool
 Persist
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -1625,7 +1625,7 @@ bool
 ProcessUsageDelta
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
