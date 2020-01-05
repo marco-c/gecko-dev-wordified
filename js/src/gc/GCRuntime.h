@@ -5637,7 +5637,7 @@ isInsideUnsafeRegion
 )
 "
 [
-AutoAssertOnGC
+AutoAssertNoGC
 ]
 possible
 GC

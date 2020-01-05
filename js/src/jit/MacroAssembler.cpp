@@ -9036,7 +9036,7 @@ InlineTypedObject
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 /

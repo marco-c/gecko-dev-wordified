@@ -17713,7 +17713,7 @@ Maybe
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 >
 nogc
 ;
@@ -18719,7 +18719,7 @@ Maybe
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 >
 nogc
 ;

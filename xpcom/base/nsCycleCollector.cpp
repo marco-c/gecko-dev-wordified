@@ -15728,7 +15728,7 @@ aBudget
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 TimeLog
@@ -18181,7 +18181,7 @@ aFullySynchGraphBuild
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 AutoRestore
@@ -18894,7 +18894,7 @@ numWhiteJSZones
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 bool
@@ -19292,7 +19292,7 @@ Unlink
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 for
@@ -22248,7 +22248,7 @@ graph
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 JS

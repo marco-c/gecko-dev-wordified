@@ -783,7 +783,7 @@ call
 the
 /
 /
-AutoAssertOnGC
+AutoAssertNoGC
 destructor
 before
 we
@@ -799,7 +799,7 @@ Maybe
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 >
 nogc
 ;

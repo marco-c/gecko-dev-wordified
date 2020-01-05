@@ -278,7 +278,7 @@ testGCSuppressions
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 JS
@@ -296,7 +296,7 @@ noanalysis
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogcCx
 (
 cx
