@@ -37360,6 +37360,7 @@ result
 ;
 if
 (
+!
 wasmInstance
 -
 >
