@@ -2247,9 +2247,9 @@ ins
 )
 ;
 void
-visitIn
+visitInCache
 (
-MIn
+MInCache
 *
 ins
 )

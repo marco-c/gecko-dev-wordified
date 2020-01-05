@@ -2798,9 +2798,9 @@ prototypeObject
 )
 ;
 void
-visitIn
+visitInCache
 (
-LIn
+LInCache
 *
 ins
 )
