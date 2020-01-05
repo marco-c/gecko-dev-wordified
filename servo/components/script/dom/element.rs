@@ -73,6 +73,7 @@ attr
 Attr
 ReplacedAttr
 FirstSetAttr
+AttrHelpers
 AttrHelpersForLayout
 }
 ;
@@ -1052,7 +1053,7 @@ name
 attr
 )
 .
-local_name
+local_name_atom_forever
 (
 )
 .
@@ -1202,7 +1203,7 @@ name
 attr
 )
 .
-local_name
+local_name_atom_forever
 (
 )
 .

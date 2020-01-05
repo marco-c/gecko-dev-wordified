@@ -60,6 +60,15 @@ use
 dom
 :
 :
+attr
+:
+:
+AttrHelpers
+;
+use
+dom
+:
+:
 bindings
 :
 :

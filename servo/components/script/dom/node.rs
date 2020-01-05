@@ -84,7 +84,10 @@ dom
 attr
 :
 :
+{
 Attr
+AttrHelpers
+}
 ;
 use
 dom
