@@ -121,13 +121,6 @@ MediaMIMETypes_h_
 #
 include
 "
-VideoUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -138,6 +131,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+VideoUtils
 .
 h
 "
