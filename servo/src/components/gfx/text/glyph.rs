@@ -81,6 +81,7 @@ range
 {
 Range
 RangeIndex
+IntRangeIndex
 EachIndex
 }
 ;
@@ -3587,7 +3588,7 @@ is_whitespace
 :
 bool
 }
-range_index
+int_range_index
 !
 {
 #
