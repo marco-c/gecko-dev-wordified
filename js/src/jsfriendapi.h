@@ -7367,10 +7367,9 @@ const
 CompartmentFilter
 &
 sourceFilter
-const
-CompartmentFilter
-&
-targetFilter
+JSCompartment
+*
+target
 NukeReferencesToWindow
 nukeReferencesToWindow
 NukeReferencesFromTarget
