@@ -43874,6 +43874,7 @@ self
 >
 bool
 {
+        
 let
 base
 :
@@ -43904,7 +43905,6 @@ fname
     
 }
 }
-\
 "
 "
 "
@@ -43996,12 +43996,17 @@ Template
 "
 \
 pub
-trait
+struct
 {
-castTraitName
+name
 }
-:
-Sized
+Cast
+;
+impl
+{
+name
+}
+Cast
 {
     
 #
@@ -44012,6 +44017,7 @@ always
 )
 ]
     
+pub
 fn
 to_ref
 <
@@ -44043,7 +44049,9 @@ JSRef
 <
 '
 a
-Self
+{
+name
+}
 >
 >
 {
@@ -44090,6 +44098,7 @@ always
 )
 ]
     
+pub
 fn
 to_borrowed_ref
 <
@@ -44129,7 +44138,9 @@ JSRef
 <
 '
 b
-Self
+{
+name
+}
 >
 >
 {
@@ -44184,6 +44195,7 @@ unrooted_must_root
 )
 ]
     
+pub
 fn
 to_layout_js
 <
@@ -44210,7 +44222,9 @@ Option
 <
 LayoutJS
 <
-Self
+{
+name
+}
 >
 >
 {
@@ -44266,6 +44280,7 @@ always
 )
 ]
     
+pub
 fn
 from_ref
 <
@@ -44295,7 +44310,9 @@ JSRef
 <
 '
 a
-Self
+{
+name
+}
 >
 {
         
@@ -44318,6 +44335,7 @@ always
 )
 ]
     
+pub
 fn
 from_borrowed_ref
 <
@@ -44355,7 +44373,9 @@ JSRef
 <
 '
 b
-Self
+{
+name
+}
 >
 {
         
@@ -44378,6 +44398,7 @@ always
 )
 ]
     
+pub
 fn
 from_temporary
 <
@@ -44401,7 +44422,9 @@ T
 >
 Temporary
 <
-Self
+{
+name
+}
 >
 {
         
@@ -44424,6 +44447,7 @@ always
 )
 ]
     
+pub
 fn
 from_actual
 <
@@ -44448,7 +44472,9 @@ T
 &
 '
 a
-Self
+{
+name
+}
 {
         
 unsafe
@@ -44487,14 +44513,10 @@ lower
 )
                  
 '
-castTraitName
+name
 '
 :
 name
-+
-'
-Cast
-'
                  
 '
 fromBound
@@ -44516,33 +44538,6 @@ name
 Derived
 '
 }
-)
-)
-                    
-CGGeneric
-(
-"
-impl
-%
-s
-for
-%
-s
-{
-}
-\
-n
-\
-n
-"
-%
-(
-name
-+
-'
-Cast
-'
-name
 )
 )
 ]
