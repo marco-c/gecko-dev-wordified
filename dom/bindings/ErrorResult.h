@@ -1820,6 +1820,7 @@ to
 the
 JSContext
 .
+MOZ_MUST_USE
 bool
 MaybeSetPendingException
 (
