@@ -77,7 +77,7 @@ TEST_URL
 .
 replace
 (
-'
+"
 http
 :
 /
@@ -85,8 +85,8 @@ http
 example
 .
 com
-'
-'
+"
+"
 https
 :
 /
@@ -94,7 +94,7 @@ https
 example
 .
 com
-'
+"
 )
 ;
 function
