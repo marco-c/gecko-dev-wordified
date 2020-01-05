@@ -196,7 +196,7 @@ address
 )
 )
 /
-CellSize
+CellBytesPerMarkBit
 ;
 return
 arena

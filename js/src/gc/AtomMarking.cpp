@@ -547,7 +547,7 @@ getThingSize
 (
 )
 %
-CellSize
+CellAlignBytes
 =
 =
 0

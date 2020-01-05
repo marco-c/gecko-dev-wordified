@@ -3112,7 +3112,7 @@ position
 .
 BitArray
 <
-ArenaCellCount
+MaxArenaCellIndex
 >
 bits
 ;

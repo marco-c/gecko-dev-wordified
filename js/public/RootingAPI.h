@@ -5496,7 +5496,7 @@ alignas
 gc
 :
 :
-CellSize
+CellAlignBytes
 )
 T
 storage

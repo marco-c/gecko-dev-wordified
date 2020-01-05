@@ -323,7 +323,7 @@ JSObject_Slots0
 )
 >
 =
-CellSize
+MinCellSize
 "
 All
 allocations
@@ -1060,7 +1060,7 @@ T
 )
 >
 =
-CellSize
+MinCellSize
 "
 All
 allocations

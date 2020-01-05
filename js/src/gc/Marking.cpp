@@ -15061,7 +15061,7 @@ uintptr_t
 ptr
 )
 &
-CellMask
+CellAlignMask
 )
 =
 =
@@ -19523,7 +19523,7 @@ i
 ;
 i
 <
-ArenaCellCount
+MaxArenaCellIndex
 ;
 i
 +
@@ -19555,7 +19555,7 @@ uintptr_t
 arena
 )
 +
-CellSize
+ArenaCellIndexBytes
 *
 i
 )
