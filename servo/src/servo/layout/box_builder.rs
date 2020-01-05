@@ -40,7 +40,7 @@ empty_style_for_node_kind
 }
 ;
 use
-css
+newcss
 :
 :
 values
@@ -55,7 +55,7 @@ DisplayNone
 }
 ;
 use
-css
+newcss
 :
 :
 values

@@ -36,7 +36,7 @@ not
 as
 expected
 use
-css
+newcss
 :
 :
 values
@@ -56,7 +56,7 @@ tokens
 use
 css
 =
-css
+newcss
 :
 :
 values
@@ -100,6 +100,9 @@ parser_util
 *
 ;
 use
+newcss
+:
+:
 color
 :
 :

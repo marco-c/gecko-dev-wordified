@@ -10,7 +10,7 @@ of
 specific
 attributes
 use
-css
+newcss
 :
 :
 values
@@ -987,7 +987,7 @@ parser
 build_stylesheet
 ;
 use
-css
+newcss
 :
 :
 values

@@ -9,7 +9,7 @@ algorithms
 *
 /
 use
-css
+newcss
 :
 :
 color
@@ -79,7 +79,7 @@ styles
 SpecifiedStyle
 ;
 use
-css
+newcss
 :
 :
 values
@@ -96,7 +96,7 @@ BgColorTransparent
 }
 ;
 use
-css
+newcss
 :
 :
 values
@@ -108,7 +108,7 @@ PosAbsolute
 }
 ;
 use
-css
+newcss
 :
 :
 color
