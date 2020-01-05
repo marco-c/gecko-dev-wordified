@@ -329,14 +329,6 @@ self
 browser
 ]
 )
-            
-self
-.
-browser
-.
-switch_to
-(
-)
         
 finally
 :
@@ -849,26 +841,15 @@ self
 browser
 ]
 )
-            
-self
-.
-browser
-.
-switch_to
-(
-)
         
 finally
 :
             
-super
-(
-TestBaseWindow
-self
-)
+BaseWindowTestCase
 .
 tearDown
 (
+self
 )
     
 def
@@ -1149,20 +1130,19 @@ chrome_window_handles
 1
 )
         
-with
 self
 .
-assertRaises
+assertEquals
 (
-NoSuchWindowException
-)
-:
-            
+win2
+.
+handle
 self
 .
 marionette
 .
 current_chrome_window_handle
+)
         
 Wait
 (
@@ -1640,26 +1620,15 @@ self
 browser
 ]
 )
-            
-self
-.
-browser
-.
-switch_to
-(
-)
         
 finally
 :
             
-super
-(
-TestBrowserWindow
-self
-)
+BaseWindowTestCase
 .
 tearDown
 (
+self
 )
     
 def
