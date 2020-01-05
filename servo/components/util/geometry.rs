@@ -767,6 +767,7 @@ type
 deriving
 (
 Clone
+Hash
 PartialEq
 PartialOrd
 Eq
