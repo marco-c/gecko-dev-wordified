@@ -1274,14 +1274,14 @@ final
 public
 ScopedGLWrapper
 <
-ScopedPackState
+ScopedBindPBO
 >
 {
 friend
 struct
 ScopedGLWrapper
 <
-ScopedPackState
+ScopedBindPBO
 >
 ;
 protected
