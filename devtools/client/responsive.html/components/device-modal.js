@@ -972,6 +972,7 @@ removeDeviceButton
 ;
 }
 )
+)
 DeviceAdder
 (
 {
@@ -981,7 +982,6 @@ viewportTemplate
 deviceAdderViewportTemplate
 onAddCustomDevice
 }
-)
 )
 dom
 .
