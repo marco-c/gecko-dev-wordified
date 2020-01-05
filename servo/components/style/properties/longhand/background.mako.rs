@@ -149,6 +149,9 @@ transparent
 animatable
 =
 True
+complex_color
+=
+True
 )
 }
 <
