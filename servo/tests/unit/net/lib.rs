@@ -150,6 +150,16 @@ test
 )
 ]
 mod
+cookie_http_state
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 data_loader
 ;
 #
