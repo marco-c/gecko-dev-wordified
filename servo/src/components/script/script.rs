@@ -302,10 +302,6 @@ codegen
 {
 pub
 mod
-EventHandlerBinding
-;
-pub
-mod
 InterfaceTypes
 ;
 pub
