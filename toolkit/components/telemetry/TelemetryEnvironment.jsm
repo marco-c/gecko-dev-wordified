@@ -2240,9 +2240,7 @@ Ci
 mozIOSPreferences
 )
 .
-getSystemLocale
-(
-)
+systemLocale
 ;
 }
 catch
