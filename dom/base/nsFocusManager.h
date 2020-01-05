@@ -3253,6 +3253,9 @@ NotifyFocusStateChange
 nsIContent
 *
 aContent
+nsIContent
+*
+aContentToFocus
 bool
 aWindowShouldShowFocusRing
 bool
