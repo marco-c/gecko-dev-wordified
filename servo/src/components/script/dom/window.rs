@@ -79,9 +79,8 @@ utils
 :
 :
 {
+Reflectable
 Reflector
-DOMString
-Traceable
 }
 ;
 use
@@ -95,9 +94,9 @@ utils
 :
 :
 {
-Reflectable
-BindingObject
+DOMString
 null_str_as_empty
+Traceable
 }
 ;
 use
@@ -894,12 +893,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-Window
-{
 fn
 GetParentObject
 (

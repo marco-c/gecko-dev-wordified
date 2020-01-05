@@ -67,9 +67,8 @@ utils
 :
 :
 {
-Reflector
-BindingObject
 Reflectable
+Reflector
 }
 ;
 use
@@ -224,12 +223,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-Blob
-{
 fn
 GetParentObject
 (

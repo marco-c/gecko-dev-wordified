@@ -79,7 +79,6 @@ utils
 :
 :
 {
-BindingObject
 Reflectable
 Reflector
 }
@@ -190,12 +189,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-DOMParser
-{
 fn
 GetParentObject
 (

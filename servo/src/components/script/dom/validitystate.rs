@@ -67,9 +67,8 @@ utils
 :
 :
 {
-Reflector
-BindingObject
 Reflectable
+Reflector
 }
 ;
 use
@@ -341,12 +340,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-ValidityState
-{
 fn
 GetParentObject
 (

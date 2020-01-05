@@ -68,7 +68,7 @@ utils
 :
 {
 Reflectable
-BindingObject
+Reflector
 }
 ;
 use
@@ -82,7 +82,6 @@ utils
 :
 :
 {
-Reflector
 DOMString
 null_str_as_empty
 }
@@ -418,12 +417,6 @@ scope
 self
 )
 }
-}
-impl
-BindingObject
-for
-FormData
-{
 fn
 GetParentObject
 (
