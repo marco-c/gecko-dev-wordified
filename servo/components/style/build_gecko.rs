@@ -3275,6 +3275,9 @@ nsFont
 nsIAtom
 "
 "
+nsIURI
+"
+"
 nsMainThreadPtrHandle
 "
 "
@@ -4764,6 +4767,9 @@ nsFont
 "
 "
 nsIAtom
+"
+"
+nsIURI
 "
 "
 nsMediaFeature

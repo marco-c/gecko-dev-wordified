@@ -241,10 +241,7 @@ specified
 url
 :
 :
-{
 SpecifiedUrl
-UrlExtraData
-}
 ;
 pub
 use
