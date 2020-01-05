@@ -608,6 +608,7 @@ strings
 *
 /
 function
+*
 test_parser
 (
 testlist
