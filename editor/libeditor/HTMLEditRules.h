@@ -1708,6 +1708,12 @@ nsINode
 aNode
 )
 ;
+nsIAtom
+&
+DefaultParagraphSeparator
+(
+)
+;
 nsresult
 ReturnInHeader
 (
