@@ -154,6 +154,13 @@ IUnknown
 aUnknown
 )
 ;
+bool
+IsValidGUID
+(
+REFGUID
+aCheckGuid
+)
+;
 #
 ifdef
 ACCESSIBILITY
