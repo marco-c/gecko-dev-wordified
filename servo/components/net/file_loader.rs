@@ -168,7 +168,7 @@ std
 path
 :
 :
-PathBuf
+Path
 ;
 use
 std
@@ -486,7 +486,8 @@ load_data
 LoadData
 file_path
 :
-PathBuf
+&
+Path
 senders
 :
 LoadConsumer
@@ -532,10 +533,6 @@ mime_type
 guess_mime_type
 (
 file_path
-.
-as_path
-(
-)
 )
 ;
 metadata
@@ -827,6 +824,7 @@ progress_chan
 get_progress_chan
 (
 load_data
+&
 file_path
 senders
 classifier
@@ -883,6 +881,7 @@ progress_chan
 get_progress_chan
 (
 load_data
+&
 file_path
 senders
 classifier
@@ -989,6 +988,7 @@ chan
 get_progress_chan
 (
 load_data
+&
 file_path
 senders
 classifier
