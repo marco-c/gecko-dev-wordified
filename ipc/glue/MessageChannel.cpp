@@ -3630,6 +3630,12 @@ WillDestroyCurrentMessageLoop
 (
 )
 {
+#
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
 CrashReporter
 :
 :
@@ -3647,6 +3653,8 @@ mName
 )
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "
@@ -3775,6 +3783,12 @@ Unsound_IsClosed
 )
 )
 {
+#
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
 CrashReporter
 :
 :
@@ -3792,6 +3806,8 @@ mName
 )
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "
