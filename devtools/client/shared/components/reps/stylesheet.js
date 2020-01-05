@@ -215,6 +215,13 @@ PropTypes
 object
 .
 isRequired
+objectLink
+:
+React
+.
+PropTypes
+.
+func
 }
 getTitle
 :

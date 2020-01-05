@@ -154,7 +154,7 @@ displayName
 "
 AsyncFrame
 "
-PropTypes
+propTypes
 :
 {
 asyncCause
@@ -225,7 +225,7 @@ displayName
 "
 StackTrace
 "
-PropTypes
+propTypes
 :
 {
 stacktrace
@@ -247,8 +247,6 @@ onViewSourceInScratchpad
 PropTypes
 .
 func
-.
-isRequired
 }
 render
 (

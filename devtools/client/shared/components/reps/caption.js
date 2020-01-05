@@ -216,6 +216,17 @@ displayName
 "
 Caption
 "
+propTypes
+:
+{
+object
+:
+React
+.
+PropTypes
+.
+object
+}
 render
 :
 wrapRender
