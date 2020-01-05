@@ -321,13 +321,6 @@ PropTypes
 object
 .
 isRequired
-autoscroll
-:
-PropTypes
-.
-bool
-.
-isRequired
 indent
 :
 PropTypes
