@@ -733,6 +733,7 @@ Window
 *
 window
 )
+self
 Size2D
 (
 w
