@@ -270,6 +270,11 @@ return
 mExternalImageId
 ;
 }
+int32_t
+GetRGBStride
+(
+)
+;
 protected
 :
 RefPtr
