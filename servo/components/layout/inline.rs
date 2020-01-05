@@ -12194,6 +12194,12 @@ FontMetrics
 block_height
 :
 Au
+block_start_margin
+:
+Au
+block_end_margin
+:
+Au
 )
 -
 >
@@ -12203,6 +12209,10 @@ let
 leading
 =
 block_height
++
+block_start_margin
++
+block_end_margin
 -
 (
 font_metrics
@@ -12258,6 +12268,8 @@ scale_by
 .
 5
 )
+-
+block_start_margin
 }
 }
 pub
