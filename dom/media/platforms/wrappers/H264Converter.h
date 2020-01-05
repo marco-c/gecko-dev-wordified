@@ -663,6 +663,12 @@ CreateDecoderParams
 OptionSet
 mDecoderOptions
 ;
+Maybe
+<
+bool
+>
+mCanRecycleDecoder
+;
 }
 ;
 }
