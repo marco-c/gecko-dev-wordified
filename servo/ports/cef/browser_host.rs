@@ -124,6 +124,12 @@ cef_window_handle_t
 }
 ;
 use
+webrender_traits
+:
+:
+ScrollLocation
+;
+use
 wrappers
 :
 :
@@ -4921,7 +4927,13 @@ WindowEvent
 :
 Scroll
 (
+ScrollLocation
+:
+:
+Delta
+(
 delta
+)
 origin
 TouchEventType
 :

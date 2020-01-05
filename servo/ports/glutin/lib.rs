@@ -188,6 +188,10 @@ extern
 crate
 style_traits
 ;
+extern
+crate
+webrender_traits
+;
 #
 [
 cfg
