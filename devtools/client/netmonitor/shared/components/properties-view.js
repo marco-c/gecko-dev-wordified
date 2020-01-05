@@ -711,6 +711,11 @@ object
 member
 .
 value
+&
+&
+member
+.
+value
 .
 value
 )
