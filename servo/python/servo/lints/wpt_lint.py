@@ -341,10 +341,15 @@ lint
 lint
 (
 file_dir
+list
+(
 files
-output_json
+)
+output_format
 =
-False
+"
+json
+"
 css_mode
 =
 False
