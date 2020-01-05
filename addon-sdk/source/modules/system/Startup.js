@@ -430,7 +430,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 (
 )
@@ -441,6 +443,11 @@ gOnceInitializedDeferred
 resolve
 (
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

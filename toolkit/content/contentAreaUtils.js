@@ -5203,7 +5203,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 function
 (
@@ -5217,6 +5219,13 @@ null
 )
 ;
 }
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

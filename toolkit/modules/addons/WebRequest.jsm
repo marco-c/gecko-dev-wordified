@@ -485,9 +485,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 job
+Ci
+.
+nsIEventTarget
+.
+DISPATCH_NORMAL
 )
 ;
 }

@@ -1162,7 +1162,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 done
 .
@@ -1171,6 +1173,11 @@ bind
 null
 snapshot
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

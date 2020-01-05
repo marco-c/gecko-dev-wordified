@@ -820,9 +820,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 callback
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

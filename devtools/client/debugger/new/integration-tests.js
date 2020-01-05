@@ -80407,7 +80407,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 (
 )
@@ -80439,6 +80441,7 @@ e
 ;
 }
 }
+0
 )
 ;
 return

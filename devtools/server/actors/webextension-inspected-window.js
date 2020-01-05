@@ -1875,9 +1875,12 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 delayedReload
+0
 )
 ;
 return

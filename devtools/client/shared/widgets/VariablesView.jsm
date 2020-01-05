@@ -9424,7 +9424,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 {
 run
@@ -9433,6 +9435,7 @@ this
 .
 _openNonEnum
 }
+0
 )
 ;
 }

@@ -13862,7 +13862,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 function
@@ -13921,6 +13923,11 @@ null
 ;
 }
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 break

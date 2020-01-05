@@ -2483,9 +2483,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 callback
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

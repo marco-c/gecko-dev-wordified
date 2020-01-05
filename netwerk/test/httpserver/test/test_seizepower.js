@@ -292,7 +292,9 @@ fun
 {
 gThreadManager
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 {
 run
@@ -307,6 +309,11 @@ fun
 ;
 }
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

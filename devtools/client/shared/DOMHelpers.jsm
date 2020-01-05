@@ -930,9 +930,12 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 callback
+0
 )
 ;
 }
@@ -980,9 +983,12 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 callback
+0
 )
 ;
 }

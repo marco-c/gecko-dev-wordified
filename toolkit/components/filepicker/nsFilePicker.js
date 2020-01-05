@@ -1449,7 +1449,9 @@ nsIThreadManager
 ;
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -1721,6 +1723,13 @@ result
 )
 ;
 }
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

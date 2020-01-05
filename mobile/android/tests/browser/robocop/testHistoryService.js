@@ -659,9 +659,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 run_next_test
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

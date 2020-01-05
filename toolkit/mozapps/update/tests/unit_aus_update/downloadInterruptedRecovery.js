@@ -618,7 +618,9 @@ themselves
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 function
 (
@@ -793,7 +795,9 @@ nsIThreadManager
 ;
 tm2
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 function
 (
@@ -821,6 +825,11 @@ online
 )
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 break
@@ -845,6 +854,11 @@ bind
 (
 this
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

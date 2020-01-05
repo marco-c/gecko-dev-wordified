@@ -1876,9 +1876,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 resolve
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }
