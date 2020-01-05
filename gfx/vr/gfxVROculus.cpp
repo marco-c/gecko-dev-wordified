@@ -7599,12 +7599,6 @@ AngularAcceleration
 .
 z
 ;
-poseState
-.
-isOrientationValid
-=
-true
-;
 }
 if
 (
@@ -7780,12 +7774,6 @@ position
 -
 =
 eyeHeight
-;
-poseState
-.
-isPositionValid
-=
-true
 ;
 }
 HandlePoseTracking
