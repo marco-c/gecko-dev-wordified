@@ -468,15 +468,4 @@ xul
 "
 ;
 }
-Override
-public
-boolean
-isForegrounded
-(
-)
-{
-return
-false
-;
-}
 }
