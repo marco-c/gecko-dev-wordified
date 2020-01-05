@@ -262,6 +262,7 @@ docShell
 tabData
 )
 {
+return
 SessionHistoryInternal
 .
 restore
@@ -1846,6 +1847,18 @@ history
 entries
 .
 *
+return
+A
+reference
+to
+the
+docShell
+'
+s
+nsISHistoryInternal
+interface
+.
+*
 /
 restore
 (
@@ -2037,6 +2050,9 @@ true
 )
 ;
 }
+return
+history
+;
 }
 /
 *
