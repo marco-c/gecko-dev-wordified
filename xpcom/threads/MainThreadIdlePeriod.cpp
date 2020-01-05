@@ -147,6 +147,13 @@ nsRefreshDriver
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 define
 DEFAULT_LONG_IDLE_PERIOD
 50
@@ -219,6 +226,13 @@ GetIdleDeadlineHint
 currentGuess
 )
 ;
+currentGuess
+=
+NS_GetTimerDeadlineHintOnCurrentThread
+(
+currentGuess
+)
+;
 /
 /
 If
@@ -283,6 +297,10 @@ minIdlePeriod
 )
 |
 |
+currentGuess
+<
+mLastIdleDeadline
+;
 if
 (
 !
@@ -291,6 +309,8 @@ busySoon
 {
 *
 aIdleDeadline
+=
+mLastIdleDeadline
 =
 currentGuess
 ;
