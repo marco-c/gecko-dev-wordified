@@ -2,8 +2,6 @@ import
 argparse
 import
 os
-import
-sys
 from
 collections
 import
@@ -12,6 +10,8 @@ from
 urlparse
 import
 urlparse
+import
+mozinfo
 import
 mozlog
 here
@@ -230,6 +230,9 @@ directory
 containing
 breakpad
 symbols
+"
+                               
+"
 or
 the
 URL
@@ -507,6 +510,9 @@ number
 of
 seconds
 .
+"
+                               
+"
 [
 default
 %
@@ -866,6 +872,9 @@ which
 may
 cause
 spurious
+"
+                               
+"
 failures
 and
 passes
@@ -1944,6 +1953,9 @@ to
 a
 manifest
 file
+"
+                       
+"
 test
 directory
 or
@@ -2866,6 +2878,9 @@ device
 root
 using
 only
+"
+                               
+"
 forward
 slashes
 .
@@ -2876,6 +2891,9 @@ app
 must
 be
 specified
+"
+                               
+"
 but
 not
 both
@@ -3096,6 +3114,9 @@ either
 fennec
 or
 firefox
+"
+                               
+"
 defaults
 to
 fennec
@@ -3280,6 +3301,9 @@ to
 device
 root
 .
+"
+                               
+"
 PLEASE
 USE
 ONLY
@@ -3376,6 +3400,9 @@ communicate
 with
 device
 :
+"
+                               
+"
 [
 adb
 |
@@ -3424,6 +3451,9 @@ use
 as
 test
 root
+"
+                               
+"
 (
 eg
 .
@@ -3660,6 +3690,9 @@ cannot
 be
 detected
 .
+"
+                       
+"
 Please
 provide
 the
@@ -4228,6 +4261,9 @@ resolution
 sx
 %
 s
+"
+                           
+"
 please
 adjust
 to
@@ -4237,7 +4273,7 @@ higher
 "
 %
 (
-                    
+                            
 width
 height
 )
