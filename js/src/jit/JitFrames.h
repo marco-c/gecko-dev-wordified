@@ -2460,7 +2460,7 @@ RectifierFrameLayout
 }
 ;
 class
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 public
 CommonFrameLayout
@@ -2505,7 +2505,7 @@ Size
 return
 sizeof
 (
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 )
 ;
 }

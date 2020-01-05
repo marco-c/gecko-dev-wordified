@@ -7210,7 +7210,7 @@ framePushed
 /
 /
 Construct
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 .
 uint32_t
 descriptor
@@ -7223,7 +7223,7 @@ framePushed
 (
 )
 JitFrame_IonJS
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size
@@ -7420,7 +7420,7 @@ MakeFrameDescriptor
 argSize
 +
 padding
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 JitFrameLayout
 :
 :
@@ -19051,7 +19051,7 @@ framePushed
 /
 /
 Construct
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 .
 uint32_t
 descriptor
@@ -19064,7 +19064,7 @@ framePushed
 (
 )
 JitFrame_IonJS
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size
@@ -19280,7 +19280,7 @@ MakeFrameDescriptor
 argSize
 +
 padding
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 JitFrameLayout
 :
 :

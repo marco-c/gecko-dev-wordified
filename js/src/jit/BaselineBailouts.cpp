@@ -2381,7 +2381,7 @@ prevType
 /
 For
 IonJS
-IonAccessorIC
+IonICCall
 and
 Entry
 frames
@@ -2439,7 +2439,7 @@ JitFrame_Entry
 type
 =
 =
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 )
 return
 nullptr
@@ -12518,7 +12518,7 @@ JitFrame_Rectifier
 prevFrameType
 =
 =
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 )
 ;
 #

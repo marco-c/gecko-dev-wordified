@@ -19431,7 +19431,7 @@ fp
 break
 ;
 case
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 :
 JitSpew
 (
@@ -19444,9 +19444,7 @@ PRIuSIZE
 "
 ion
 IC
-getter
-/
-setter
+call
 frame
 %
 p

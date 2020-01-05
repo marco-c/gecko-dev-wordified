@@ -312,8 +312,11 @@ scripted
 getter
 /
 setter
+or
+a
+VMFunction
 .
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 /
 /
 An
@@ -850,7 +853,7 @@ JitFrame_IonStub
 ;
 }
 bool
-isIonAccessorIC
+isIonICCall
 (
 )
 const
@@ -859,7 +862,7 @@ return
 type_
 =
 =
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 ;
 }
 bool

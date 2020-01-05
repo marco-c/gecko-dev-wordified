@@ -8128,7 +8128,7 @@ Label
 handle_Rectifier
 ;
 Label
-handle_IonAccessorIC
+handle_IonICCall
 ;
 Label
 handle_Entry
@@ -8215,10 +8215,10 @@ Equal
 scratch2
 Imm32
 (
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 )
 &
-handle_IonAccessorIC
+handle_IonICCall
 )
 ;
 masm
@@ -9478,7 +9478,7 @@ ret
 }
 /
 /
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 /
 /
 /
@@ -9516,7 +9516,7 @@ data
 .
 |
 -
-AccFrame
+CallFrame
 -
 Descriptor
 .
@@ -9527,12 +9527,12 @@ StubCode
 |
 /
 /
-AccFrame
+ICCallFrame
 -
 Descriptor
 |
 -
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size
@@ -9540,7 +9540,7 @@ Size
 )
 /
 /
-AccFrame
+ICCallFrame
 -
 ReturnAddr
 |
@@ -9549,7 +9549,7 @@ ReturnAddr
 .
 .
 .
-accessor
+call
 frame
 data
 &
@@ -9597,7 +9597,7 @@ masm
 bind
 (
 &
-handle_IonAccessorIC
+handle_IonICCall
 )
 ;
 {
@@ -9642,7 +9642,7 @@ scratch2
 scratch3
 :
 =
-AccFrame
+ICCallFrame
 -
 Descriptor
 .
@@ -9654,7 +9654,7 @@ loadPtr
 Address
 (
 scratch2
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 offsetOfDescriptor
@@ -9729,7 +9729,7 @@ masm
 assumeUnreachable
 (
 "
-IonAccessorIC
+IonICCall
 frame
 must
 be
@@ -9767,7 +9767,7 @@ scratch3
 lastProfilingCallSite
 :
 =
-AccFrame
+ICCallFrame
 -
 ReturnAddr
 masm
@@ -9777,7 +9777,7 @@ loadPtr
 Address
 (
 scratch2
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 offsetOfReturnAddress
@@ -9800,9 +9800,9 @@ lastProfilingCallSite
 lastProfilingFrame
 :
 =
-AccessorFrame
+ICCallFrame
 +
-AccFrame
+ICCallFrame
 -
 Descriptor
 .
@@ -9810,7 +9810,7 @@ Size
 +
 /
 /
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size
@@ -9825,7 +9825,7 @@ Operand
 scratch2
 scratch3
 TimesOne
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size
