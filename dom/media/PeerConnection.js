@@ -4468,10 +4468,12 @@ turns
 {
 if
 (
-!
 server
 .
 username
+=
+=
+undefined
 )
 {
 throw
@@ -4500,10 +4502,12 @@ InvalidAccessError
 }
 if
 (
-!
 server
 .
 credential
+=
+=
+undefined
 )
 {
 throw
