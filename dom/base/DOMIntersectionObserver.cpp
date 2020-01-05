@@ -2558,6 +2558,11 @@ intersectionRect
 forget
 (
 )
+aIntersectionRect
+.
+isSome
+(
+)
 aTarget
 aIntersectionRatio
 )

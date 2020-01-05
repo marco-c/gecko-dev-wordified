@@ -211,6 +211,8 @@ RefPtr
 DOMRect
 >
 aIntersectionRect
+bool
+aIsIntersecting
 Element
 *
 aTarget
@@ -237,6 +239,10 @@ aBoundingClientRect
 mIntersectionRect
 (
 aIntersectionRect
+)
+mIsIntersecting
+(
+aIsIntersecting
 )
 mTarget
 (
@@ -341,6 +347,15 @@ return
 mIntersectionRect
 ;
 }
+bool
+IsIntersecting
+(
+)
+{
+return
+mIsIntersecting
+;
+}
 double
 IntersectionRatio
 (
@@ -388,6 +403,9 @@ RefPtr
 DOMRect
 >
 mIntersectionRect
+;
+bool
+mIsIntersecting
 ;
 RefPtr
 <
