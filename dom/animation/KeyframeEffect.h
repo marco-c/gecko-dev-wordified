@@ -516,6 +516,15 @@ CallerType
 aCallerType
 )
 ;
+void
+SetComposite
+(
+const
+CompositeOperation
+&
+aComposite
+)
+;
 }
 ;
 }
