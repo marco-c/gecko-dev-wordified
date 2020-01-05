@@ -183,6 +183,7 @@ new_inherited
 (
 window
 HTML
+None
 )
 }
 }
