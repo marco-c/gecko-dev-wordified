@@ -350,12 +350,6 @@ test_subframe_navigation
 )
 {
 yield
-new
-Promise
-(
-resolve
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -378,8 +372,6 @@ false
 ]
 ]
 }
-resolve
-)
 )
 ;
 /
