@@ -3015,6 +3015,12 @@ if
 httpChan
 )
 {
+DebugOnly
+<
+nsresult
+>
+rv
+=
 httpChan
 -
 >
@@ -3022,6 +3028,14 @@ GetLastModifiedTime
 (
 &
 lastModified
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }

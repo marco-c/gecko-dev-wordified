@@ -1204,6 +1204,12 @@ val
 )
 )
 {
+DebugOnly
+<
+nsresult
+>
+rv
+=
 mHeaders
 .
 SetHeaderFromNet
@@ -1211,6 +1217,14 @@ SetHeaderFromNet
 hdr
 val
 false
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }

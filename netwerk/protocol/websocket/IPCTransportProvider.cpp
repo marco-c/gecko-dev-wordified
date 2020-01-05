@@ -310,6 +310,12 @@ mTransport
 return
 ;
 }
+DebugOnly
+<
+nsresult
+>
+rv
+=
 mListener
 -
 >
@@ -318,6 +324,14 @@ OnTransportAvailable
 mTransport
 mSocketIn
 mSocketOut
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }
