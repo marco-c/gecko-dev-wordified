@@ -714,6 +714,9 @@ struct
 TextRange
 ;
 class
+EditCommands
+;
+class
 TextRangeArray
 ;
 /
