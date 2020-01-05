@@ -6733,7 +6733,7 @@ between
 OutputToString
 and
 OutputToStream
-NS_IMETHODIMP
+nsresult
 TextEditor
 :
 :
