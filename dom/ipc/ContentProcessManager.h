@@ -182,6 +182,9 @@ ContentParent
 struct
 RemoteFrameInfo
 {
+ContentParentId
+mOpenerCpId
+;
 TabId
 mOpenerTabId
 ;
@@ -526,6 +529,10 @@ TabId
 &
 aTabId
 const
+ContentParentId
+&
+aOpenerCpId
+const
 TabId
 &
 aOpenerTabId
@@ -683,6 +690,14 @@ const
 TabId
 &
 aChildTabId
+/
+*
+out
+*
+/
+ContentParentId
+*
+aOpenerCpId
 /
 *
 out
