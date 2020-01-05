@@ -16733,7 +16733,7 @@ Don
 t
 attach
 a
-setter
+proxy
 stub
 for
 ops
@@ -16880,7 +16880,7 @@ Don
 t
 attach
 a
-setter
+proxy
 stub
 for
 ops
