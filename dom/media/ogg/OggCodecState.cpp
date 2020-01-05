@@ -8782,6 +8782,16 @@ PacketOutAsMediaRawData
 ;
 if
 (
+!
+data
+)
+{
+return
+nullptr
+;
+}
+if
+(
 data
 -
 >
