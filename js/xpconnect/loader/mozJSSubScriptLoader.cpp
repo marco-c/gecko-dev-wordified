@@ -997,8 +997,6 @@ script
 )
 ;
 }
-else
-{
 AutoObjectVector
 envChain
 (
@@ -1044,9 +1042,6 @@ function
 )
 ;
 }
-}
-else
-{
 /
 /
 We
@@ -1123,8 +1118,6 @@ script
 )
 ;
 }
-else
-{
 AutoObjectVector
 envChain
 (
@@ -1170,8 +1163,6 @@ len
 function
 )
 ;
-}
-}
 }
 bool
 EvalScript

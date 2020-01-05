@@ -1841,15 +1841,12 @@ return
 true
 ;
 }
-else
-{
 return
 errno
 !
 =
 ENOSYS
 ;
-}
 }
 }
 /
