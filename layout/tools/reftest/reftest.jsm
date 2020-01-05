@@ -5103,6 +5103,10 @@ enabled
 "
 false
 )
+&
+&
+!
+gCompareStyloToGecko
 ;
 sandbox
 .
