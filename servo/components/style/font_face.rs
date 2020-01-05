@@ -131,6 +131,7 @@ parser
 {
 ParserContext
 log_css_error
+Parse
 }
 ;
 use
