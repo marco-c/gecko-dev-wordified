@@ -3526,7 +3526,7 @@ length
 )
 =
 =
-metadata
+metadataTier
 (
 )
 .
@@ -3559,7 +3559,7 @@ i
 ;
 i
 <
-metadata
+metadataTier
 (
 )
 .
@@ -3644,7 +3644,7 @@ sig
 )
 !
 =
-metadata
+metadataTier
 (
 )
 .
