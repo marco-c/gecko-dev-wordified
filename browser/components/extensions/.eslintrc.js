@@ -94,6 +94,11 @@ getDevToolsTargetForContext
 :
 true
 "
+getTargetTabIdForToolbox
+"
+:
+true
+"
 makeWidgetId
 "
 :
