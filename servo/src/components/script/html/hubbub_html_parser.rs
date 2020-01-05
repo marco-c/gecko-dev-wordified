@@ -3296,6 +3296,17 @@ mode
 "
 )
 ;
+document
+.
+mut_document
+(
+)
+.
+set_quirks_mode
+(
+_mode
+)
+;
 }
 encoding_change
 :
