@@ -807,7 +807,7 @@ use
 mem
 :
 :
-heap_size_of_eventtarget
+heap_size_of_self_and_children
 ;
 use
 msg
@@ -9569,7 +9569,7 @@ child
 dom_tree_size
 +
 =
-heap_size_of_eventtarget
+heap_size_of_self_and_children
 (
 target
 )
@@ -9600,7 +9600,7 @@ window
 dom_tree_size
 +
 =
-heap_size_of_eventtarget
+heap_size_of_self_and_children
 (
 target
 )
