@@ -500,6 +500,8 @@ values
 enum
 class
 ParsingMode
+:
+uint8_t
 {
 /
 /
@@ -543,6 +545,8 @@ values
 #
 lengths
 Default
+=
+0
 /
 /
 In
@@ -600,8 +604,17 @@ html
 #
 Units
 AllowUnitlessLength
+=
+1
+<
+<
+0
 }
 ;
+MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
+(
+ParsingMode
+)
 /
 /
 The
