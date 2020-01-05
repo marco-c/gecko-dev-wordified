@@ -125,6 +125,11 @@ extern
 C
 "
 {
+bool
+is_in_compositor_thread
+(
+)
+;
 enum
 WRImageFormat
 {
