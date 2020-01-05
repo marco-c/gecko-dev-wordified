@@ -2768,9 +2768,10 @@ _readyPromise
 =
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -3166,11 +3167,6 @@ _isReady
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

@@ -369,9 +369,10 @@ aCallback
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 dict
@@ -482,11 +483,6 @@ collection
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

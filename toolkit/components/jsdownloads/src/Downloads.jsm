@@ -1254,9 +1254,10 @@ _promiseListsInitialized
 =
 (
 async
-function
 (
 )
+=
+>
 {
 let
 publicList
@@ -1423,11 +1424,6 @@ ALL
 combinedList
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

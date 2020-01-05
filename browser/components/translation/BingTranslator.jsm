@@ -492,9 +492,10 @@ translate
 return
 (
 async
-function
 (
 )
+=
+>
 {
 let
 currentIndex
@@ -714,11 +715,6 @@ _onFinishedDeferred
 promise
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -1949,9 +1945,10 @@ fireRequest
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -2385,11 +2382,6 @@ deferred
 promise
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

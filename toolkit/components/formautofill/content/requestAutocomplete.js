@@ -169,9 +169,10 @@ onLoad
 {
 (
 async
-function
 (
 )
+=
+>
 {
 let
 args
@@ -224,11 +225,6 @@ initialized
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

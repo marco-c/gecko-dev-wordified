@@ -2115,9 +2115,10 @@ resolve
 (
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -2290,11 +2291,6 @@ _runningPromise
 null
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

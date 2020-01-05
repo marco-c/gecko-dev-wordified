@@ -2533,10 +2533,10 @@ deferredTask
 new
 DeferredTask
 (
-function
-deferredInputProcessing
 (
 )
+=
+>
 {
 /
 /
@@ -2620,11 +2620,6 @@ window
 )
 ;
 }
-.
-bind
-(
-this
-)
 PASSWORD_INPUT_ADDED_COALESCING_THRESHOLD_MS
 )
 ;

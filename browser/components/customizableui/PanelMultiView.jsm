@@ -2344,9 +2344,10 @@ this
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -4223,11 +4224,6 @@ true
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

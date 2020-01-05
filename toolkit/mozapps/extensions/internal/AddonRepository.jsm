@@ -9506,9 +9506,10 @@ connectionPromise
 =
 (
 async
-function
 (
 )
+=
+>
 {
 this
 .
@@ -9879,11 +9880,6 @@ this
 DB
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

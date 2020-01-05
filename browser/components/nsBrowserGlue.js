@@ -11847,9 +11847,10 @@ defaultPath
 }
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -12840,11 +12841,6 @@ _bookmarksBackupIdleTime
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

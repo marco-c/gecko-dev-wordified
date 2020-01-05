@@ -22198,9 +22198,10 @@ false
 ;
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -22525,11 +22526,6 @@ complete
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -33043,9 +33039,10 @@ down
 >
 (
 async
-function
 (
 )
+=
+>
 {
 if
 (
@@ -33169,11 +33166,6 @@ ex
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

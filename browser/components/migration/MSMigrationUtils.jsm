@@ -2230,9 +2230,10 @@ aCallback
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -2285,11 +2286,6 @@ folderGuid
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

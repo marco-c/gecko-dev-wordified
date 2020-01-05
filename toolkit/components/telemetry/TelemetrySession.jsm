@@ -11342,9 +11342,10 @@ delayedTask
 new
 DeferredTask
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -11379,11 +11380,6 @@ init
 ;
 }
 }
-.
-bind
-(
-this
-)
 testing
 ?
 TELEMETRY_TEST_DELAY

@@ -2254,9 +2254,10 @@ _lastDownloadMS
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -2337,11 +2338,6 @@ _fetchAndCacheLinksIfNecessary
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

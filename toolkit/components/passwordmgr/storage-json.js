@@ -423,9 +423,10 @@ jsonPath
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -706,11 +707,6 @@ true
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

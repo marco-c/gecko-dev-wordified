@@ -6607,9 +6607,10 @@ aLimit
 {
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -6792,11 +6793,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

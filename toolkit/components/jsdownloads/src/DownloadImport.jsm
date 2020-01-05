@@ -480,10 +480,10 @@ import
 return
 (
 async
-function
-task_DI_import
 (
 )
+=
+>
 {
 let
 connection
@@ -1151,11 +1151,6 @@ close
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

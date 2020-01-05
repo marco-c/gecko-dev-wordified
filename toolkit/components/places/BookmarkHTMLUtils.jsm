@@ -7039,9 +7039,10 @@ aFilePath
 return
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -7265,11 +7266,6 @@ close
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

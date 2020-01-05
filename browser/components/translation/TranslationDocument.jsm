@@ -1423,9 +1423,10 @@ target
 {
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -1495,11 +1496,6 @@ laterTickResolvingPromise
 }
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

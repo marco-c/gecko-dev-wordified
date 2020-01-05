@@ -2440,9 +2440,10 @@ _currentEventPromise
 =
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -2493,11 +2494,6 @@ _processEventQueue
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )

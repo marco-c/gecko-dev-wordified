@@ -13009,9 +13009,10 @@ aCallbackID
 {
 (
 async
-function
 (
 )
+=
+>
 {
 let
 window
@@ -13173,11 +13174,6 @@ data
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )
