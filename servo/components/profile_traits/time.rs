@@ -307,6 +307,7 @@ ScriptStylesheetLoad
 ScriptUpdateReplacedElement
 ScriptWebSocketEvent
 ScriptWorkerEvent
+ScriptServiceWorkerEvent
 ApplicationHeartbeat
 }
 #

@@ -594,6 +594,14 @@ the
 replacement
 character
 .
+#
+[
+derive
+(
+Clone
+HeapSizeOf
+)
+]
 pub
 struct
 USVString

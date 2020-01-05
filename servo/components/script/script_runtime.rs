@@ -539,6 +539,7 @@ TimerEvent
 UpdateReplacedElement
 WebSocketEvent
 WorkerEvent
+ServiceWorkerEvent
 }
 /
 /
