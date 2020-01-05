@@ -2780,6 +2780,14 @@ self
 .
 id
 ;
+base_item
+.
+scroll_root_id
+=
+self
+.
+parent_scroll_id
+;
 let
 pop_item
 =
