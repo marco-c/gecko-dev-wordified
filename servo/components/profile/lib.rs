@@ -61,6 +61,14 @@ MPL
 [
 feature
 (
+alloc_jemalloc
+)
+]
+#
+!
+[
+feature
+(
 box_syntax
 )
 ]
@@ -111,6 +119,10 @@ macro_use
 extern
 crate
 profile_traits
+;
+extern
+crate
+alloc_jemalloc
 ;
 extern
 crate
