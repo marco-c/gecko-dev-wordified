@@ -798,9 +798,6 @@ browserhtml_path
 =
 get_browserhtml_path
 (
-'
-browserhtml
-'
 args
 [
 0
@@ -920,9 +917,6 @@ path
 join
 (
 browserhtml_path
-'
-out
-'
 '
 index
 .
