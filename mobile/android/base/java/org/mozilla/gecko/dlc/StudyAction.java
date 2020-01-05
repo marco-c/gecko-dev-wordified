@@ -266,14 +266,7 @@ if
 (
 content
 .
-isAssetArchive
-(
-)
-&
-&
-content
-.
-isFont
+isKnownContent
 (
 )
 )
