@@ -804,15 +804,7 @@ node
 .
 #
 [
-jstraceable
-]
-#
-[
-must_root
-]
-#
-[
-privatize
+dom_struct
 ]
 pub
 struct

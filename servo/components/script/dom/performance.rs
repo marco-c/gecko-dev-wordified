@@ -162,15 +162,7 @@ f64
 ;
 #
 [
-jstraceable
-]
-#
-[
-must_root
-]
-#
-[
-privatize
+dom_struct
 ]
 pub
 struct
