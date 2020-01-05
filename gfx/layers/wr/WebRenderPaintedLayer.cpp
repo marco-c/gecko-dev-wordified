@@ -658,6 +658,10 @@ clip
 Nothing
 (
 )
+WRTextureFilter
+:
+:
+Linear
 key
 )
 )
