@@ -334,6 +334,9 @@ false
 tile_size
 :
 512
+device_pixels_per_px
+:
+None
 profiler_period
 :
 None
