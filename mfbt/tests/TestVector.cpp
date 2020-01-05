@@ -2574,7 +2574,7 @@ length
 7
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 vec
 .
@@ -2689,6 +2689,7 @@ i
 <
 4
 )
+{
 MOZ_RELEASE_ASSERT
 (
 s
@@ -2710,6 +2711,7 @@ i
 i
 )
 ;
+}
 else
 if
 (
@@ -2718,6 +2720,7 @@ i
 =
 4
 )
+{
 MOZ_RELEASE_ASSERT
 (
 s
@@ -2737,7 +2740,9 @@ k
 43
 )
 ;
+}
 else
+{
 MOZ_RELEASE_ASSERT
 (
 s
@@ -2770,6 +2775,7 @@ i
 )
 ;
 }
+}
 MOZ_RELEASE_ASSERT
 (
 vec
@@ -2782,7 +2788,7 @@ length
 8
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 vec
 .
