@@ -9197,6 +9197,8 @@ rect
 ;
 layout_context
 .
+shared
+.
 constellation_chan
 .
 send

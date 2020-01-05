@@ -2326,6 +2326,7 @@ f
 }
 }
 )
+;
 }
 }
 None
@@ -2586,7 +2587,6 @@ unsafe_access
 |
 waiters
 |
-{
 waiters
 .
 push
@@ -2601,10 +2601,7 @@ unwrap
 (
 )
 )
-;
-}
 )
-;
 }
 }
 else

@@ -318,6 +318,7 @@ LayoutAuxInitCategory
 LayoutSelectorMatchCategory
 LayoutTreeBuilderCategory
 LayoutMainCategory
+LayoutParallelWarmupCategory
 LayoutShapingCategory
 LayoutDispListBuildCategory
 GfxRegenAvailableFontsCategory
@@ -474,6 +475,16 @@ buckets
 .
 insert
 (
+LayoutParallelWarmupCategory
+~
+[
+]
+)
+;
+buckets
+.
+insert
+(
 LayoutShapingCategory
 ~
 [
@@ -577,6 +588,8 @@ LayoutMainCategory
 LayoutDispListBuildCategory
 |
 LayoutShapingCategory
+|
+LayoutParallelWarmupCategory
 =
 >
 "
