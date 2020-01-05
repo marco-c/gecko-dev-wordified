@@ -1991,7 +1991,7 @@ exists
 state_dir
 )
         
-checkout_type
+r
 =
 current_firefox_checkout
 (
@@ -2002,7 +2002,7 @@ self
 instance
 .
 check_output
-                                                 
+                                     
 hg
 =
 self
@@ -2016,6 +2016,13 @@ hg
 '
 )
 )
+        
+(
+checkout_type
+checkout_root
+)
+=
+r
         
 #
 Possibly
@@ -2207,6 +2214,10 @@ hg
 )
 dest
 )
+                
+checkout_root
+=
+dest
         
 if
 not
@@ -3597,9 +3608,12 @@ HG_ROOT_REVISIONS
 :
                     
 return
+(
 '
 hg
 '
+path
+)
                 
 #
 Else
@@ -3672,9 +3686,12 @@ git_dir
 :
             
 return
+(
 '
 git
 '
+path
+)
         
 path
 child
@@ -3699,4 +3716,7 @@ child
 break
     
 return
+(
 None
+None
+)
