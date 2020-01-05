@@ -1426,7 +1426,7 @@ new
 color
 :
 :
-transparent_black
+transparent
 (
 )
 )

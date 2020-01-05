@@ -274,7 +274,7 @@ inline
 ]
 pub
 fn
-transparent_black
+transparent
 (
 )
 -

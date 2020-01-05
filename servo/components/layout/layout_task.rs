@@ -8675,7 +8675,7 @@ return
 color
 :
 :
-transparent_black
+transparent
 (
 )
 }
@@ -8713,7 +8713,7 @@ return
 color
 :
 :
-transparent_black
+transparent
 (
 )
 Some
@@ -8737,7 +8737,7 @@ return
 color
 :
 :
-transparent_black
+transparent
 (
 )
 }
