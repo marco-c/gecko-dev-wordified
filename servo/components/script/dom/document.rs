@@ -490,7 +490,6 @@ element
 {
 Element
 ElementCreator
-EventState
 }
 ;
 use
@@ -1010,6 +1009,15 @@ script_traits
 MouseButton
 UntrustedNodeAddress
 }
+;
+use
+selectors
+:
+:
+states
+:
+:
+*
 ;
 use
 std
@@ -1928,7 +1936,7 @@ Document
 The
 collection
 of
-EventStates
+ElementStates
 that
 have
 been
@@ -1938,7 +1946,7 @@ the
 last
 restyle
 .
-event_state_changes
+element_state_changes
 :
 DOMRefCell
 <
@@ -1948,7 +1956,7 @@ JS
 <
 Element
 >
-EventState
+ElementState
 >
 >
 }
@@ -2789,7 +2797,7 @@ get_has_dirty_descendants
 !
 self
 .
-event_state_changes
+element_state_changes
 .
 borrow
 (
@@ -9637,7 +9645,7 @@ bool
 ;
 unsafe
 fn
-drain_event_state_changes
+drain_element_state_changes
 (
 &
 self
@@ -9651,7 +9659,7 @@ LayoutJS
 <
 Element
 >
-EventState
+ElementState
 )
 >
 ;
@@ -9710,7 +9718,7 @@ unrooted_must_root
 ]
 unsafe
 fn
-drain_event_state_changes
+drain_element_state_changes
 (
 &
 self
@@ -9724,7 +9732,7 @@ LayoutJS
 <
 Element
 >
-EventState
+ElementState
 )
 >
 {
@@ -9741,7 +9749,7 @@ unsafe_get
 )
 )
 .
-event_state_changes
+element_state_changes
 .
 borrow_mut_for_layout
 (
@@ -10337,7 +10345,7 @@ Default
 default
 (
 )
-event_state_changes
+element_state_changes
 :
 DOMRefCell
 :
@@ -10876,7 +10884,7 @@ root
 }
 pub
 fn
-record_event_state_change
+record_element_state_change
 (
 &
 self
@@ -10886,7 +10894,7 @@ el
 Element
 which
 :
-EventState
+ElementState
 )
 {
 let
@@ -10895,7 +10903,7 @@ map
 =
 self
 .
-event_state_changes
+element_state_changes
 .
 borrow_mut
 (
@@ -10923,7 +10931,7 @@ el
 .
 or_insert
 (
-EventState
+ElementState
 :
 :
 empty

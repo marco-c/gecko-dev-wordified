@@ -271,6 +271,15 @@ SimpleSelector
 }
 ;
 use
+selectors
+:
+:
+states
+:
+:
+ElementState
+;
+use
 std
 :
 :
@@ -3158,8 +3167,9 @@ known_heap_size
 !
 (
 0
-PseudoElement
+ElementState
 Combinator
+PseudoElement
 str
 )
 ;

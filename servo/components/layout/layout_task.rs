@@ -8628,11 +8628,11 @@ flow
 }
 }
 let
-event_state_changes
+state_changes
 =
 document
 .
-drain_event_state_changes
+drain_element_state_changes
 (
 )
 ;
@@ -8647,7 +8647,7 @@ el
 state
 )
 in
-event_state_changes
+state_changes
 .
 iter
 (
@@ -8666,7 +8666,7 @@ is_empty
 ;
 el
 .
-note_event_state_change
+note_state_change
 (
 )
 ;
