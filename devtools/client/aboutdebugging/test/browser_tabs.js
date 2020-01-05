@@ -365,14 +365,9 @@ foo
 )
 {
 yield
-waitForMutation
+waitForContentMutation
 (
 newTabTarget
-{
-childList
-:
-true
-}
 )
 ;
 }
