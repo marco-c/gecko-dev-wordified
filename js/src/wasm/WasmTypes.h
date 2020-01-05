@@ -584,6 +584,14 @@ Bytes
 UniqueBytes
 ;
 typedef
+UniquePtr
+<
+const
+Bytes
+>
+UniqueConstBytes
+;
+typedef
 Vector
 <
 char
