@@ -2339,6 +2339,8 @@ contains
 /
 internal
 strings
+or
+undefined
 and
 an
 array
@@ -2348,6 +2350,8 @@ no
 user
 -
 controlled
+/
+/
 expressions
 .
 element
@@ -2451,6 +2455,15 @@ next
 isKind
 (
 PNK_TEMPLATE_STRING
+)
+|
+|
+next
+-
+>
+isKind
+(
+PNK_RAW_UNDEFINED
 )
 )
 ;
@@ -2797,6 +2810,9 @@ PNK_FALSE
 :
 case
 PNK_NULL
+:
+case
+PNK_RAW_UNDEFINED
 :
 case
 PNK_ELISION
