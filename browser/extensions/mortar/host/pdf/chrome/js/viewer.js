@@ -89,6 +89,15 @@ Toolbar
 viewport
 )
 ;
+let
+passwordPrompt
+=
+new
+PasswordPrompt
+(
+viewport
+)
+;
 /
 /
 Expose
