@@ -248,9 +248,9 @@ extern
 void
 InterruptRunningJitCode
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 namespace
@@ -294,9 +294,9 @@ MOZ_MUST_USE
 bool
 EnsureSignalHandlers
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /
@@ -397,9 +397,7 @@ the
 first
 use
 of
-asm
-.
-js
+wasm
 in
 the
 JSContext
@@ -483,9 +481,9 @@ installed_
 bool
 install
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 }
