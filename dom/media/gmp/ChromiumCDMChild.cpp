@@ -3795,8 +3795,9 @@ DecryptedBuffer
 :
 nullptr
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+buffer
 buffer
 -
 >
