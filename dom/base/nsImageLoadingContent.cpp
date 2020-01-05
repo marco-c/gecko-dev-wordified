@@ -7036,6 +7036,14 @@ mPendingRequestFlags
 =
 0
 ;
+mCurrentRequestRegistered
+=
+mPendingRequestRegistered
+;
+mPendingRequestRegistered
+=
+false
+;
 ResetAnimationIfNeeded
 (
 )
