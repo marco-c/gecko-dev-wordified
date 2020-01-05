@@ -2631,6 +2631,15 @@ mDeltaZ
 0
 ;
 }
+case
+eTouchEventClass
+:
+return
+mMessage
+!
+=
+eTouchPointerCancel
+;
 /
 /
 Following

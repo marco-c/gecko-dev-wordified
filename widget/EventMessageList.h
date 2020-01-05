@@ -2219,6 +2219,10 @@ NS_EVENT_MESSAGE
 (
 eTouchCancel
 )
+NS_EVENT_MESSAGE
+(
+eTouchPointerCancel
+)
 /
 /
 Pointerlock
