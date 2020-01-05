@@ -4788,6 +4788,11 @@ for
 committing
 composition
 .
+if
+(
+mEditorBase
+)
+{
 mEditorBase
 -
 >
@@ -4795,6 +4800,7 @@ ForceCompositionEnd
 (
 )
 ;
+}
 return
 NS_OK
 ;
