@@ -1494,6 +1494,14 @@ id
 )
 )
 ;
+self
+.
+compositor
+.
+rerendermsg_discarded
+(
+)
+;
 continue
 ;
 }

@@ -736,6 +736,13 @@ LayerBufferSet
 )
 ;
 fn
+rerendermsg_discarded
+(
+&
+self
+)
+;
+fn
 set_render_state
 (
 &
