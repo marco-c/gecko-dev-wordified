@@ -2459,6 +2459,11 @@ aContent
 nsFrameConstructorState
 *
 aState
+Element
+*
+aOriginatingElementOrNull
+=
+nullptr
 )
 ;
 /

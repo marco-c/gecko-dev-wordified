@@ -15860,6 +15860,16 @@ paintRequestTime
 PaintRequestTime
 "
 )
+GK_ATOM
+(
+pseudoProperty
+"
+PseudoProperty
+"
+)
+/
+/
+CSSPseudoElementType
 /
 /
 Languages
