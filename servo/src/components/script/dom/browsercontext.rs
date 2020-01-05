@@ -182,6 +182,7 @@ window_proxy
 Traceable
 <
 *
+mut
 JSObject
 >
 }
@@ -236,7 +237,7 @@ new
 ptr
 :
 :
-null
+mut_null
 (
 )
 )
@@ -352,6 +353,7 @@ self
 -
 >
 *
+mut
 JSObject
 {
 assert
@@ -385,6 +387,7 @@ self
 -
 >
 *
+mut
 JSObject
 {
 let

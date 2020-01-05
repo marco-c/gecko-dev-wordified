@@ -89,7 +89,6 @@ jsapi
 {
 JS_ReportErrorNumber
 JSErrorFormatString
-struct_JSErrorFormatString
 JSEXN_TYPEERR
 }
 ;
@@ -169,6 +168,7 @@ T
 cx
 :
 *
+mut
 JSContext
 result
 :
@@ -270,6 +270,7 @@ throw_not_in_union
 cx
 :
 *
+mut
 JSContext
 names
 :
@@ -394,7 +395,7 @@ ERROR_FORMAT_STRING
 :
 JSErrorFormatString
 =
-struct_JSErrorFormatString
+JSErrorFormatString
 {
 format
 :
@@ -467,6 +468,7 @@ throw_type_error
 cx
 :
 *
+mut
 JSContext
 error
 :
@@ -495,11 +497,14 @@ unsafe
 JS_ReportErrorNumber
 (
 cx
+Some
+(
 get_error_message
+)
 ptr
 :
 :
-null
+mut_null
 (
 )
 0

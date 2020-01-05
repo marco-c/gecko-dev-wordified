@@ -4921,6 +4921,7 @@ let
 ptr
 :
 *
+mut
 JSRuntime
 =
 (
@@ -4997,13 +4998,11 @@ js_runtime
 )
 .
 ptr
-ptr
-:
-:
-null
+None
+Some
 (
-)
 wrap_for_same_compartment
+)
 None
 )
 ;
@@ -5016,7 +5015,10 @@ js_runtime
 .
 ptr
 callback
+Some
+(
 wrap_for_same_compartment
+)
 Some
 (
 pre_wrap
@@ -5041,6 +5043,7 @@ let
 ptr
 :
 *
+mut
 JSContext
 =
 (
@@ -5100,6 +5103,7 @@ self
 -
 >
 *
+mut
 JSContext
 {
 (
@@ -6292,6 +6296,7 @@ this_value
 |
 {
 let
+mut
 rval
 =
 NullValue
@@ -6314,10 +6319,11 @@ funval
 ptr
 :
 :
-null
+mut_null
 (
 )
 &
+mut
 rval
 )
 ;
@@ -9621,6 +9627,7 @@ Page
 rt
 :
 *
+mut
 JSRuntime
 )
 {

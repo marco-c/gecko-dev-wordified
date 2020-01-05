@@ -913,7 +913,7 @@ self
 .
 inner
 .
-reflector
+mut_reflector
 (
 )
 .
@@ -955,6 +955,7 @@ pub
 fn
 new
 (
+mut
 inner
 :
 JS
@@ -985,7 +986,7 @@ JS_AddObjectRoot
 cx
 inner
 .
-reflector
+mut_reflector
 (
 )
 .
@@ -3313,6 +3314,7 @@ RefCell
 Vec
 <
 *
+mut
 JSObject
 >
 >
@@ -3773,6 +3775,7 @@ scanner
 js_ptr
 :
 *
+mut
 JSObject
 }
 impl

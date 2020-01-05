@@ -629,6 +629,7 @@ self
 -
 >
 *
+mut
 JSContext
 {
 let
@@ -1013,6 +1014,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 _url
 :
@@ -1037,6 +1039,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 callback
 :
@@ -1069,6 +1072,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 callback
 :
@@ -1652,6 +1656,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 _url
 :
@@ -1680,6 +1685,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 callback
 :
@@ -1774,6 +1780,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 callback
 :
@@ -2802,6 +2809,7 @@ new
 cx
 :
 *
+mut
 JSContext
 page
 :

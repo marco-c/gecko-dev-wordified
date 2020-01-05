@@ -1486,6 +1486,7 @@ Rust
 fn
 (
 *
+mut
 JSContext
 &
 JSRef

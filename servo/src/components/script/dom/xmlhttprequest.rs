@@ -1613,6 +1613,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -2582,6 +2583,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -3002,7 +3004,7 @@ get_cx
 )
 self
 .
-reflector
+mut_reflector
 (
 )
 .
@@ -3062,7 +3064,7 @@ get_cx
 )
 self
 .
-reflector
+mut_reflector
 (
 )
 .
