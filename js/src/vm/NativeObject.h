@@ -3223,6 +3223,7 @@ new
 slot
 span
 .
+MOZ_ALWAYS_INLINE
 bool
 setLastProperty
 (
@@ -6052,7 +6053,7 @@ MAX_FIXED_SLOTS
 ;
 protected
 :
-inline
+MOZ_ALWAYS_INLINE
 bool
 updateSlotsForSpan
 (
