@@ -1727,10 +1727,6 @@ uint32_t
 aAccessCount
 PRTime
 aTime
-const
-nsACString
-&
-aIconURI
 )
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -2327,9 +2323,6 @@ mAccessCount
 int64_t
 mTime
 ;
-nsCString
-mFaviconURI
-;
 int32_t
 mBookmarkIndex
 ;
@@ -2762,10 +2755,6 @@ const
 nsACString
 &
 aTitle
-const
-nsACString
-&
-aIconURI
 uint32_t
 aContainerType
 nsNavHistoryQueryOptions
@@ -2785,10 +2774,6 @@ nsACString
 aTitle
 PRTime
 aTime
-const
-nsACString
-&
-aIconURI
 uint32_t
 aContainerType
 nsNavHistoryQueryOptions
@@ -3723,10 +3708,6 @@ aTitle
 const
 nsACString
 &
-aIconURI
-const
-nsACString
-&
 aQueryURI
 )
 ;
@@ -3736,10 +3717,6 @@ const
 nsACString
 &
 aTitle
-const
-nsACString
-&
-aIconURI
 const
 nsCOMArray
 <
@@ -3758,10 +3735,6 @@ const
 nsACString
 &
 aTitle
-const
-nsACString
-&
-aIconURI
 PRTime
 aTime
 const

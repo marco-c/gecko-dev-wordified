@@ -570,7 +570,7 @@ bytes
 /
 optimized
 :
-no
+yes
 checkFaviconDataConversion
 (
 "
@@ -588,7 +588,7 @@ x
 icon
 "
 1406
-false
+true
 false
 run_next_test
 )

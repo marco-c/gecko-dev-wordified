@@ -358,9 +358,9 @@ createAsyncStatement
 (
 "
 SELECT
-url
+icon_url
 FROM
-moz_favicons
+moz_icons
 "
 )
 ;
@@ -441,7 +441,7 @@ info
 Previous
 records
 in
-moz_favicons
+moz_icons
 :
 "
 +
@@ -1170,9 +1170,9 @@ createAsyncStatement
 (
 "
 SELECT
-url
+icon_url
 FROM
-moz_favicons
+moz_icons
 "
 )
 ;
@@ -1193,7 +1193,7 @@ aResultSet
 /
 If
 the
-moz_favicons
+moz_icons
 DB
 had
 been

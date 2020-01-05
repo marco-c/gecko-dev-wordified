@@ -287,6 +287,8 @@ const
 nsACString
 &
 aMimeType
+uint16_t
+aWidth
 )
 override
 {
@@ -598,6 +600,7 @@ GetFaviconDataForPage
 (
 uri
 callback
+0
 )
 ;
 }
@@ -609,6 +612,7 @@ GetFaviconURLForPage
 (
 uri
 callback
+0
 )
 ;
 #

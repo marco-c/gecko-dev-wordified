@@ -1527,10 +1527,6 @@ uint32_t
 aAccessCount
 PRTime
 aTime
-const
-nsACString
-&
-aFavicon
 nsNavHistoryResultNode
 *
 *

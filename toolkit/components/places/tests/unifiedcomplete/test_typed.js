@@ -171,7 +171,7 @@ link
 )
 ;
 yield
-setFaviconForHref
+setFaviconForPage
 (
 "
 http
@@ -299,7 +299,7 @@ link
 )
 ;
 yield
-setFaviconForHref
+setFaviconForPage
 (
 "
 http

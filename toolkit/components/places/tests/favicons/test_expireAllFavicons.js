@@ -100,7 +100,7 @@ test
 page
 .
 yield
-promiseSetIconForPage
+setFaviconForPage
 (
 TEST_PAGE_URI
 SMALLPNG_DATA_URI
@@ -152,7 +152,7 @@ our
 bookmark
 .
 yield
-promiseSetIconForPage
+setFaviconForPage
 (
 BOOKMARKED_PAGE_URI
 SMALLPNG_DATA_URI
