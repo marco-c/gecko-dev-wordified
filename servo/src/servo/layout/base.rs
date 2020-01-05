@@ -98,11 +98,10 @@ use
 dom
 :
 :
-base
+element
 :
 :
 {
-Element
 ElementKind
 HTMLDivElement
 HTMLImageElement
@@ -116,6 +115,7 @@ base
 :
 :
 {
+Element
 Node
 NodeData
 NodeKind
