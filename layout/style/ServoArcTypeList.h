@@ -186,3 +186,8 @@ SERVO_ARC_TYPE
 NamespaceRule
 RawServoNamespaceRule
 )
+SERVO_ARC_TYPE
+(
+PageRule
+RawServoPageRule
+)

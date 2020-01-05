@@ -168,6 +168,15 @@ ServoNamespaceRule
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ServoPageRule
+.
+h
+"
 namespace
 mozilla
 {
@@ -623,6 +632,11 @@ CASE_RULE
 (
 NAMESPACE
 Namespace
+)
+CASE_RULE
+(
+PAGE
+Page
 )
 #
 undef
