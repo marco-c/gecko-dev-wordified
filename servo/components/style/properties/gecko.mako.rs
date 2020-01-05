@@ -15824,6 +15824,7 @@ mOrigin
 mPositionX
 mPositionY
 mImage
+mSize
 "
 if
 shorthand
@@ -15838,6 +15839,7 @@ fill_fields
 =
 "
 mAttachment
+mBlendMode
 "
 else
 :

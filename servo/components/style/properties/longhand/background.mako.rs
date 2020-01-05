@@ -3108,9 +3108,7 @@ luminosity
 "
 vector
 =
-"
-true
-"
+True
 products
 =
 "
