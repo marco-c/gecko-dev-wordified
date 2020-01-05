@@ -1212,6 +1212,17 @@ mon
 mMonitor
 )
 ;
+if
+(
+mState
+!
+=
+kStarted
+)
+{
+return
+;
+}
 /
 /
 Note
