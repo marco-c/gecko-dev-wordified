@@ -4269,15 +4269,7 @@ ELEMENT_NODE
 !
 node
 .
-ownerDocument
-|
-|
-!
-node
-.
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 {
 return
@@ -4300,9 +4292,7 @@ node
 return
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
