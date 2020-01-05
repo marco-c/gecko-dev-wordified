@@ -2191,6 +2191,7 @@ t
 )
 }
 }
+pub
 fn
 expect_devtools_http_request
 (
@@ -2277,6 +2278,7 @@ Received
 )
 }
 }
+pub
 fn
 expect_devtools_http_response
 (
@@ -3741,6 +3743,9 @@ send_time
 devhttprequest
 .
 send_time
+is_xhr
+:
+false
 }
 ;
 let

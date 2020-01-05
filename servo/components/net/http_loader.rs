@@ -4397,6 +4397,9 @@ u64
 send_time
 :
 u64
+is_xhr
+:
+bool
 )
 -
 >
@@ -4440,6 +4443,9 @@ connect_time
 send_time
 :
 send_time
+is_xhr
+:
+is_xhr
 }
 ;
 let
@@ -4462,6 +4468,7 @@ request_id
 net_event
 )
 }
+pub
 fn
 send_request_to_devtools
 (
@@ -4495,6 +4502,7 @@ unwrap
 )
 ;
 }
+pub
 fn
 send_response_to_devtools
 (
@@ -5384,6 +5392,9 @@ request_id
 :
 &
 str
+is_xhr
+:
+bool
 )
 -
 >
@@ -5860,6 +5871,7 @@ connect_start
 send_end
 -
 send_start
+is_xhr
 )
 )
 }
@@ -7233,6 +7245,7 @@ iters
 devtools_chan
 &
 request_id
+false
 )
 )
 ;
@@ -8046,6 +8059,7 @@ devtools_chan
 {
 send_response_to_devtools
 (
+&
 chan
 request_id
 metadata

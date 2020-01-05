@@ -4217,8 +4217,6 @@ debug
 !
 (
 "
-resource_thread
-:
 loading
 url
 :
@@ -4316,6 +4314,17 @@ ua
 self
 .
 user_agent
+.
+clone
+(
+)
+;
+let
+dc
+=
+self
+.
+devtools_chan
 .
 clone
 (
@@ -4427,6 +4436,9 @@ http_state
 user_agent
 :
 ua
+devtools_chan
+:
+dc
 }
 ;
 fetch
