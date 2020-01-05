@@ -100,6 +100,16 @@ mimetype
 )
 ;
 }
+test_settings
+[
+which
+]
+.
+priming
+=
+{
+}
+;
 /
 /
 run
