@@ -172,7 +172,6 @@ let
 {
 tab
 document
-window
 }
 =
 yield
@@ -257,7 +256,7 @@ MockFilePicker
 .
 init
 (
-window
+null
 )
 ;
 let
@@ -278,14 +277,13 @@ json
 ;
 MockFilePicker
 .
-setFiles
-(
+returnFiles
+=
 [
 file
 .
 file
 ]
-)
 ;
 /
 /
