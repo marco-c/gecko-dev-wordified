@@ -684,6 +684,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
+const
 {
 /
 /
