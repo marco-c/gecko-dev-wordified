@@ -6908,10 +6908,6 @@ const
 nsAString
 &
 aPseudoClass
-bool
-aEnabled
-uint8_t
-aArgc
 )
 {
 EventStates
@@ -6963,13 +6959,6 @@ element
 LockStyleStates
 (
 state
-aArgc
->
-0
-?
-aEnabled
-:
-true
 )
 ;
 return
@@ -7121,8 +7110,6 @@ element
 LockedStyleStates
 (
 )
-.
-mLocks
 ;
 *
 _retval
