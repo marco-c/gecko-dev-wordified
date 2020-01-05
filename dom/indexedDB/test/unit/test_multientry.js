@@ -706,9 +706,6 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
-let
-e
-=
 yield
 undefined
 ;
@@ -746,8 +743,6 @@ length
 j
 )
 {
-e
-=
 yield
 undefined
 ;
@@ -819,8 +814,6 @@ continue
 )
 ;
 }
-e
-=
 yield
 undefined
 ;
@@ -893,8 +886,6 @@ length
 j
 )
 {
-e
-=
 yield
 undefined
 ;
@@ -968,8 +959,6 @@ continue
 )
 ;
 }
-e
-=
 yield
 undefined
 ;
@@ -1468,9 +1457,6 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
-let
-e
-=
 yield
 undefined
 ;
@@ -1538,9 +1524,6 @@ stopPropagation
 )
 ;
 }
-let
-e
-;
 req
 =
 index
@@ -1573,8 +1556,6 @@ length
 j
 )
 {
-e
-=
 yield
 undefined
 ;
@@ -1642,8 +1623,6 @@ continue
 )
 ;
 }
-e
-=
 yield
 undefined
 ;
@@ -1717,8 +1696,6 @@ length
 j
 )
 {
-e
-=
 yield
 undefined
 ;
@@ -1788,8 +1765,6 @@ continue
 )
 ;
 }
-e
-=
 yield
 undefined
 ;

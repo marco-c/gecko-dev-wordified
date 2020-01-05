@@ -130,9 +130,6 @@ foo
 yield
 undefined
 ;
-let
-transaction1
-=
 db
 .
 transaction

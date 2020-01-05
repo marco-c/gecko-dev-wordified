@@ -241,15 +241,6 @@ target
 .
 result
 ;
-let
-txn
-=
-event
-.
-target
-.
-transaction
-;
 is
 (
 db

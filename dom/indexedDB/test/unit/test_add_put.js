@@ -105,15 +105,6 @@ target
 .
 result
 ;
-let
-trans
-=
-event
-.
-target
-.
-transaction
-;
 for
 (
 let

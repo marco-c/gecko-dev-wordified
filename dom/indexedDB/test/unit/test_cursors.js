@@ -1820,11 +1820,6 @@ gotRemoveEvent
 =
 false
 ;
-let
-retval
-=
-false
-;
 request
 =
 objectStore
