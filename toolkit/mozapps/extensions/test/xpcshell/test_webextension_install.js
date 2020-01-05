@@ -2909,7 +2909,7 @@ perminfo
 ;
 install
 .
-_permHandler
+promptHandler
 =
 info
 =
@@ -3183,7 +3183,7 @@ perminfo
 ;
 install
 .
-_permHandler
+promptHandler
 =
 info
 =
