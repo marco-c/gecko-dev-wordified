@@ -609,7 +609,8 @@ mask
 =
 BuildWrMaskLayer
 (
-true
+&
+sc
 )
 ;
 aBuilder

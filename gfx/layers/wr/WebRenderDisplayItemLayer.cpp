@@ -290,7 +290,7 @@ mask
 =
 BuildWrMaskLayer
 (
-false
+nullptr
 )
 ;
 WrImageMask
