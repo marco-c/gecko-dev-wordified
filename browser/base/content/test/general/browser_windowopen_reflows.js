@@ -107,8 +107,6 @@ js
 "
 +
 "
-gBrowserInit
-.
 _delayedStartup
 chrome
 :
@@ -168,8 +166,6 @@ js
 "
 +
 "
-gBrowserInit
-.
 _delayedStartup
 chrome
 :
@@ -195,8 +191,6 @@ a
 reflow
 .
 "
-gBrowserInit
-.
 _delayedStartup
 chrome
 :
@@ -337,10 +331,6 @@ EXPECTED_REFLOWS
 push
 (
 "
-TabsInTitlebar
-.
-_update
-/
 rect
 chrome
 :
@@ -359,8 +349,6 @@ js
 "
 +
 "
-TabsInTitlebar
-.
 _update
 chrome
 :
@@ -442,10 +430,6 @@ EXPECTED_REFLOWS
 push
 (
 "
-OverflowableToolbar
-.
-prototype
-.
 _onOverflow
 resource
 :
@@ -461,10 +445,6 @@ jsm
 "
 +
 "
-OverflowableToolbar
-.
-prototype
-.
 init
 resource
 :
@@ -480,10 +460,6 @@ jsm
 "
 +
 "
-OverflowableToolbar
-.
-prototype
-.
 observe
 resource
 :
@@ -499,8 +475,6 @@ jsm
 "
 +
 "
-gBrowserInit
-.
 _delayedStartup
 chrome
 :
@@ -589,8 +563,6 @@ jsm
 "
 +
 "
-gBrowserInit
-.
 _delayedStartup
 chrome
 :
