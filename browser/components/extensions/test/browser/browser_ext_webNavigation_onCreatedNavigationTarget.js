@@ -1566,6 +1566,8 @@ clickContextMenuItem
 (
 {
 pageElementSelector
+:
+function
 (
 )
 {
@@ -1729,6 +1731,8 @@ clickContextMenuItem
 (
 {
 pageElementSelector
+:
+function
 (
 )
 {
