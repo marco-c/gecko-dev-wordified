@@ -2022,6 +2022,7 @@ aCurrentTime
 nsIURI
 *
 aSource
+const
 mozilla
 :
 :
@@ -2029,6 +2030,7 @@ Maybe
 <
 bool
 >
+&
 aIsSecure
 nsListIter
 &
