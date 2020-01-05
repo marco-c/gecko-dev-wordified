@@ -3150,6 +3150,10 @@ every
 60
 seconds
                 
+hasOutput
+=
+False
+                
 if
 (
 not
@@ -3266,6 +3270,11 @@ status
                     
 break
                 
+if
+not
+hasOutput
+:
+                    
 top
 =
 self
