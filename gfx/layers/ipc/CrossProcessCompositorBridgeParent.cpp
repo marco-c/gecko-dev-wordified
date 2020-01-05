@@ -337,6 +337,17 @@ include
 "
 mozilla
 /
+layers
+/
+WebRenderCompositableHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
