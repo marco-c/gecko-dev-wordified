@@ -432,6 +432,14 @@ Option
 <
 DOMString
 >
+#
+[
+ignore_heap_size_of
+=
+"
+Arc
+"
+]
 image
 :
 Option

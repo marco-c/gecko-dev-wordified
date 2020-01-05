@@ -303,6 +303,14 @@ HTMLMetaElement
 htmlelement
 :
 HTMLElement
+#
+[
+ignore_heap_size_of
+=
+"
+Arc
+"
+]
 stylesheet
 :
 DOMRefCell

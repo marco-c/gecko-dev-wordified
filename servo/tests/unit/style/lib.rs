@@ -94,6 +94,10 @@ euclid
 ;
 extern
 crate
+parking_lot
+;
+extern
+crate
 rustc_serialize
 ;
 extern
