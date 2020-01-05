@@ -81,7 +81,17 @@ Components
 :
 false
 "
+DOMRequest
+"
+:
+false
+"
 DedicatedWorkerGlobalScope
+"
+:
+false
+"
+IDBFileRequest
 "
 :
 false
