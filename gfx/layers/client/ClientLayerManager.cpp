@@ -3717,6 +3717,17 @@ bool
 aScheduleComposite
 )
 {
+GeckoProfilerTracingRAII
+tracer
+(
+"
+Paint
+"
+"
+ForwardTransaction
+"
+)
+;
 TimeStamp
 start
 =
