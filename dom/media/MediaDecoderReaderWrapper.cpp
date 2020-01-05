@@ -146,15 +146,6 @@ MediaDecoderReader
 aReader
 )
 :
-mForceZeroStartTime
-(
-aReader
--
->
-ForceZeroStartTime
-(
-)
-)
 mOwnerThread
 (
 aOwnerThread

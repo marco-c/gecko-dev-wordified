@@ -855,10 +855,6 @@ aType
 )
 ;
 const
-bool
-mForceZeroStartTime
-;
-const
 RefPtr
 <
 AbstractThread
