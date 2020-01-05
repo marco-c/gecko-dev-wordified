@@ -1157,6 +1157,17 @@ HTML
 ProfilerCategory
 :
 :
+ScriptParseXML
+=
+>
+"
+Script
+Parse
+XML
+"
+ProfilerCategory
+:
+:
 ScriptPlannedNavigation
 =
 >
