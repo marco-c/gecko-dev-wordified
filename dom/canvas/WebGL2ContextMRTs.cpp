@@ -137,15 +137,9 @@ elemCount
 {
 size_t
 requiredElements
-=
--
-1
 ;
 GLint
 maxDrawbuffer
-=
--
-1
 ;
 switch
 (
