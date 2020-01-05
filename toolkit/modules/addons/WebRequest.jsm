@@ -4929,7 +4929,6 @@ resume
 the
 channel
 if
-either
 it
 was
 suspended
