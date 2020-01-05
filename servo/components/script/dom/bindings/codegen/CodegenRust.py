@@ -19796,7 +19796,7 @@ handler
 RegisterBindings
 :
 :
-proxy_handlers
+PROXY_HANDLERS
 [
 PrototypeList
 :
@@ -50136,7 +50136,7 @@ CGList
 CGGeneric
 (
 "
-proxy_handlers
+PROXY_HANDLERS
 [
 Proxies
 :
@@ -50247,7 +50247,7 @@ CGGeneric
 pub
 static
 mut
-proxy_handlers
+PROXY_HANDLERS
 :
 [
 *
