@@ -812,7 +812,6 @@ of
 this
 node
 .
-pub
 parent_node
 :
 Cell
@@ -835,7 +834,6 @@ of
 this
 node
 .
-pub
 first_child
 :
 Cell
@@ -858,7 +856,6 @@ of
 this
 node
 .
-pub
 last_child
 :
 Cell
@@ -881,7 +878,6 @@ of
 this
 node
 .
-pub
 next_sibling
 :
 Cell
@@ -904,7 +900,6 @@ of
 this
 node
 .
-pub
 prev_sibling
 :
 Cell
@@ -953,7 +948,6 @@ by
 .
 childNodes
 .
-pub
 child_list
 :
 Cell
