@@ -3381,10 +3381,11 @@ aMallocSizeOf
 const
 {
 return
-nsStringHashKey
-:
-:
-SizeOfExcludingThis
+mKey
+.
+mString
+.
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
@@ -16330,10 +16331,7 @@ mIdentifierMap
 .
 PutEntry
 (
-nsDependentAtomString
-(
 aName
-)
 )
 ;
 /
@@ -16429,10 +16427,7 @@ mIdentifierMap
 .
 GetEntry
 (
-nsDependentAtomString
-(
 aName
-)
 )
 ;
 if
@@ -16513,10 +16508,7 @@ mIdentifierMap
 .
 PutEntry
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 if
@@ -16630,10 +16622,7 @@ mIdentifierMap
 .
 GetEntry
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 if
@@ -28813,7 +28802,7 @@ mIdentifierMap
 .
 PutEntry
 (
-id
+aID
 )
 ;
 NS_ENSURE_TRUE
@@ -28892,7 +28881,7 @@ mIdentifierMap
 .
 GetEntry
 (
-id
+aID
 )
 ;
 if
