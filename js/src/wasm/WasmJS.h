@@ -1186,6 +1186,14 @@ wasm
 Code
 >
 code
+UniquePtr
+<
+wasm
+:
+:
+GlobalSegment
+>
+globals
 HandleWasmMemoryObject
 memory
 Vector

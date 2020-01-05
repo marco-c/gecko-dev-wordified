@@ -5076,6 +5076,7 @@ alloc
 type
 globalDataOffset
 isConst
+tlsPointer_
 )
 ;
 curBlock_
@@ -5123,6 +5124,7 @@ alloc
 )
 globalDataOffset
 v
+tlsPointer_
 )
 )
 ;
