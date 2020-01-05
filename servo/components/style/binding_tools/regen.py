@@ -150,15 +150,6 @@ unstable
 -
 rust
 "
-"
--
--
-no
--
-type
--
-renaming
-"
         
 ]
         
