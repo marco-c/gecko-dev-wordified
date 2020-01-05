@@ -1084,11 +1084,6 @@ in
 some
 way
 .
-bool
-loopDetected
-=
-false
-;
 for
 (
 const
@@ -1100,14 +1095,7 @@ potentialIssuer
 .
 childCert
 ;
-!
-loopDetected
-&
-&
 prev
-!
-=
-nullptr
 ;
 prev
 =
