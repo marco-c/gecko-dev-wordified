@@ -1323,6 +1323,7 @@ __init__
 self
 inipath
 basepath
+redirects
 )
 :
         
@@ -1346,6 +1347,21 @@ via
 branchnames
 .
         
+redirects
+is
+used
+in
+unified
+repository
+mapping
+upstream
+        
+repos
+to
+local
+clones
+.
+        
 '
 '
 '
@@ -1363,6 +1379,12 @@ self
 basepath
 =
 basepath
+        
+self
+.
+redirects
+=
+redirects
         
 self
 .
@@ -1557,6 +1579,18 @@ mozilla
 '
 )
             
+branch
+=
+self
+.
+redirects
+.
+get
+(
+branch
+branch
+)
+            
 inipath
 =
 orig_cp
@@ -1610,6 +1644,10 @@ path
 self
 .
 basepath
+self
+.
+redirects
+                                    
 *
 *
 self
@@ -2943,6 +2981,8 @@ self
 inipath
 basepath
 l10nbase
+redirects
+                 
 locales
 =
 None
@@ -2954,6 +2994,12 @@ self
 basepath
 =
 basepath
+        
+self
+.
+redirects
+=
+redirects
         
 EnumerateApp
 .
@@ -2983,6 +3029,10 @@ inipath
 self
 .
 basepath
+                                             
+self
+.
+redirects
 )
         
 self
