@@ -408,6 +408,17 @@ dom
 minidom
 import
 Node
+try
+:
+    
+import
+cairocffi
+as
+cairo
+except
+ImportError
+:
+    
 import
 cairo
 try
