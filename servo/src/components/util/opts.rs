@@ -229,6 +229,7 @@ rendering
 is
 sequential
 .
+pub
 n_render_threads
 :
 uint

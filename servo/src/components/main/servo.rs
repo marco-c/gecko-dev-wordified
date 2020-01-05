@@ -974,6 +974,7 @@ test
 )
 )
 ]
+pub
 fn
 run
 (
