@@ -15341,6 +15341,10 @@ engine
 isTemporarilyUnoptimizable
 val
 idVal
+CanAttachGetter
+:
+:
+Yes
 )
 ;
 if

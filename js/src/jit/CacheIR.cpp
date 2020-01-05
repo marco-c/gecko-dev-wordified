@@ -234,6 +234,8 @@ HandleValue
 val
 HandleValue
 idVal
+CanAttachGetter
+canAttachGetter
 )
 :
 IRGenerator
@@ -257,6 +259,10 @@ engine
 isTemporarilyUnoptimizable_
 (
 isTemporarilyUnoptimizable
+)
+canAttachGetter_
+(
+canAttachGetter
 )
 preliminaryObjectAction_
 (
@@ -1246,6 +1252,8 @@ jsbytecode
 pc
 ICStubEngine
 engine
+CanAttachGetter
+canAttachGetter
 bool
 *
 isTemporarilyUnoptimizable
@@ -1441,6 +1449,19 @@ pc
 )
 return
 CanAttachReadSlot
+;
+if
+(
+canAttachGetter
+=
+=
+CanAttachGetter
+:
+:
+No
+)
+return
+CanAttachNone
 ;
 if
 (
@@ -2608,6 +2629,7 @@ holder
 shape
 pc_
 engine_
+canAttachGetter_
 isTemporarilyUnoptimizable_
 )
 ;
@@ -2943,6 +2965,7 @@ holder
 shape
 pc_
 engine_
+canAttachGetter_
 isTemporarilyUnoptimizable_
 )
 ;
@@ -3675,6 +3698,7 @@ holder
 shape
 pc_
 engine_
+canAttachGetter_
 isTemporarilyUnoptimizable_
 )
 ;

@@ -4556,6 +4556,14 @@ cacheKind_
 }
 }
 ;
+enum
+class
+CanAttachGetter
+{
+Yes
+No
+}
+;
 /
 /
 GetPropIRGenerator
@@ -4585,6 +4593,9 @@ engine_
 bool
 *
 isTemporarilyUnoptimizable_
+;
+CanAttachGetter
+canAttachGetter_
 ;
 enum
 class
@@ -4935,6 +4946,8 @@ HandleValue
 val
 HandleValue
 idVal
+CanAttachGetter
+canAttachGetter
 )
 ;
 bool
