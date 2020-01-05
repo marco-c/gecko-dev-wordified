@@ -523,10 +523,6 @@ IntRect
 aOutputRect
 WriteFunc
 aWriteFunc
-bool
-aPartial
-=
-false
 )
 {
 /
@@ -572,8 +568,6 @@ CheckGeneratedImage
 (
 aDecoder
 aOutputRect
-0
-aPartial
 )
 ;
 }
@@ -1278,13 +1272,6 @@ zero
 -
 initialied
 .
-aSink
--
->
-ZeroOutRestOfSurface
-(
-)
-;
 CheckGeneratedImage
 (
 aDecoder
@@ -1744,8 +1731,6 @@ IntRect
 50
 1
 )
-0
-true
 )
 ;
 if
@@ -1902,8 +1887,6 @@ IntRect
 100
 1
 )
-0
-true
 )
 ;
 return
@@ -2355,8 +2338,6 @@ row
 +
 1
 )
-0
-true
 )
 ;
 }
@@ -2777,8 +2758,6 @@ IntRect
 50
 1
 )
-0
-true
 )
 ;
 if
@@ -2909,8 +2888,6 @@ IntRect
 100
 1
 )
-0
-true
 )
 ;
 return
@@ -4233,13 +4210,6 @@ to
 the
 surface
 .
-aSink
--
->
-ZeroOutRestOfSurface
-(
-)
-;
 CheckGeneratedImage
 (
 aDecoder
@@ -4975,7 +4945,6 @@ uint32_t
 )
 ;
 }
-true
 )
 ;
 }

@@ -781,12 +781,6 @@ error
 "
 )
 ;
-mPipe
-.
-ZeroOutRestOfSurface
-(
-)
-;
 /
 /
 If
@@ -1825,12 +1819,6 @@ EndImageFrame
 (
 )
 {
-mPipe
-.
-ZeroOutRestOfSurface
-(
-)
-;
 Opacity
 opacity
 =
