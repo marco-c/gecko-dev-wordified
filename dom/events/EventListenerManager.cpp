@@ -4747,7 +4747,7 @@ the
 script
 sample
 in
-aCOntent
+aContent
 .
 nsAutoString
 scriptSample
@@ -4867,10 +4867,17 @@ EmptyString
 /
 /
 aNonce
-false
+true
 /
 /
 aParserCreated
+(
+true
+because
+attribute
+event
+handler
+)
 scriptSample
 0
 /
