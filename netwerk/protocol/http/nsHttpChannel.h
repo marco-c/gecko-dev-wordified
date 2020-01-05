@@ -700,6 +700,12 @@ CloseStickyConnection
 )
 override
 ;
+NS_IMETHOD
+ForceNoSpdy
+(
+)
+override
+;
 /
 /
 Functions
