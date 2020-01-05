@@ -247,7 +247,7 @@ Init
 (
 )
 ;
-void
+bool
 EnsureGPUReady
 (
 )
