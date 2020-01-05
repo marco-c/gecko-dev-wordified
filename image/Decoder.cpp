@@ -458,7 +458,7 @@ the
 decode
 thread
 .
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 mImage
 .
