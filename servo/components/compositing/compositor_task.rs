@@ -165,6 +165,7 @@ compositor_msg
 Epoch
 LayerId
 LayerMetadata
+FrameTreeId
 ReadyState
 }
 ;
@@ -1040,6 +1041,9 @@ LayerBufferSet
 >
 )
 >
+frame_tree_id
+:
+FrameTreeId
 )
 {
 self
@@ -1054,6 +1058,7 @@ AssignPaintedBuffers
 pipeline_id
 epoch
 replies
+frame_tree_id
 )
 )
 ;
@@ -1551,6 +1556,7 @@ LayerBufferSet
 >
 )
 >
+FrameTreeId
 )
 /
 /
