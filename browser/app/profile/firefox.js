@@ -19699,7 +19699,7 @@ reports
 .
 #
 ifdef
-RELEASE_OR_BETA
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -19711,7 +19711,7 @@ unsubmittedCheck
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -19727,7 +19727,7 @@ unsubmittedCheck
 .
 enabled
 "
-true
+false
 )
 ;
 #
