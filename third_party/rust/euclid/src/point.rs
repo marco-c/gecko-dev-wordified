@@ -2432,7 +2432,7 @@ behavior
 .
 pub
 fn
-to_uint
+to_usize
 (
 &
 self
@@ -4775,7 +4775,7 @@ behavior
 .
 pub
 fn
-to_uint
+to_usize
 (
 &
 self
@@ -7032,7 +7032,7 @@ behavior
 .
 pub
 fn
-to_uint
+to_usize
 (
 &
 self

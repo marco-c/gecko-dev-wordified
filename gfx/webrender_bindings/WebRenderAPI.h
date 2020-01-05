@@ -1068,6 +1068,11 @@ ImageKey
 aImageChannel2
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aFilter
 )
 ;
 void
@@ -1092,6 +1097,11 @@ ImageKey
 aImageChannel1
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aFilter
 )
 ;
 void
@@ -1111,6 +1121,11 @@ ImageKey
 aImageChannel0
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aFilter
 )
 ;
 void

@@ -3469,6 +3469,9 @@ YuvData
 color_space
 :
 YuvColorSpace
+image_rendering
+:
+ImageRendering
 )
 {
 let
@@ -3487,6 +3490,9 @@ yuv_data
 color_space
 :
 color_space
+image_rendering
+:
+image_rendering
 }
 )
 ;
