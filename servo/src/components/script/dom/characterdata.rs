@@ -137,7 +137,7 @@ CharacterData
 {
 pub
 fn
-new
+new_inherited
 (
 id
 :
@@ -161,7 +161,7 @@ node
 Node
 :
 :
-new
+new_inherited
 (
 id
 document

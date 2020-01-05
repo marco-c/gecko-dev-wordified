@@ -166,7 +166,7 @@ element
 CharacterData
 :
 :
-new
+new_inherited
 (
 TextNodeTypeId
 text

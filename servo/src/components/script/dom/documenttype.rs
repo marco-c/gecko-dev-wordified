@@ -176,7 +176,7 @@ node
 Node
 :
 :
-new
+new_inherited
 (
 DoctypeNodeTypeId
 document

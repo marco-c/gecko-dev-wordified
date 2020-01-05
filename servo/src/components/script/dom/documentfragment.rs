@@ -163,7 +163,7 @@ node
 Node
 :
 :
-new
+new_inherited
 (
 DocumentFragmentNodeTypeId
 document
