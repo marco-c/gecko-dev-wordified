@@ -4007,6 +4007,12 @@ handle_key
 self
 _
 :
+Option
+<
+char
+>
+_
+:
 Key
 _
 :

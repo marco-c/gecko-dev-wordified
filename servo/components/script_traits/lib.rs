@@ -2177,6 +2177,10 @@ pressed
 .
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers
@@ -4734,6 +4738,10 @@ event
 .
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers

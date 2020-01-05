@@ -14815,6 +14815,7 @@ phase
 }
 KeyEvent
 (
+ch
 key
 state
 modifiers
@@ -14873,6 +14874,7 @@ document
 .
 dispatch_key_event
 (
+ch
 key
 state
 modifiers

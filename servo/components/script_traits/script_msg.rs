@@ -937,6 +937,10 @@ key
 event
 SendKeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers

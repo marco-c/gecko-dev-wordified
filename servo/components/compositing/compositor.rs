@@ -4359,6 +4359,7 @@ Msg
 :
 KeyEvent
 (
+ch
 key
 state
 modified
@@ -4386,6 +4387,7 @@ window
 .
 handle_key
 (
+ch
 key
 modified
 )
@@ -8348,6 +8350,7 @@ WindowEvent
 :
 KeyEvent
 (
+ch
 key
 state
 modifiers
@@ -8359,6 +8362,7 @@ self
 .
 on_key_event
 (
+ch
 key
 state
 modifiers
@@ -12274,6 +12278,12 @@ on_key_event
 (
 &
 self
+ch
+:
+Option
+<
+char
+>
 key
 :
 Key
@@ -12293,6 +12303,7 @@ ConstellationMsg
 :
 KeyEvent
 (
+ch
 key
 state
 modifiers

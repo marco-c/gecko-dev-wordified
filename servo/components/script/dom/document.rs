@@ -8454,6 +8454,12 @@ dispatch_key_event
 (
 &
 self
+ch
+:
+Option
+<
+char
+>
 key
 :
 Key
@@ -8656,6 +8662,7 @@ KeyboardEvent
 :
 key_properties
 (
+ch
 key
 modifiers
 )
@@ -8683,6 +8690,7 @@ self
 window
 )
 0
+ch
 Some
 (
 key
@@ -8695,6 +8703,10 @@ from
 props
 .
 key_string
+.
+clone
+(
+)
 )
 DOMString
 :
@@ -8842,6 +8854,7 @@ self
 window
 )
 0
+ch
 Some
 (
 key
@@ -8935,6 +8948,7 @@ ConstellationMsg
 :
 SendKeyEvent
 (
+ch
 key
 state
 modifiers

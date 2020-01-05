@@ -3000,6 +3000,12 @@ textinput
 .
 handle_keydown_aux
 (
+Some
+(
+'
+v
+'
+)
 Key
 :
 :

@@ -1352,6 +1352,10 @@ compositor
 .
 KeyEvent
 (
+Option
+<
+char
+>
 Key
 KeyState
 KeyModifiers
