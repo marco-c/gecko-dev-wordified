@@ -2394,11 +2394,11 @@ NS_TIMER_CONTRACTID
 )
 ;
 }
-virtual
 ~
 SimpleTimerBasedRefreshDriverTimer
 (
 )
+override
 {
 StopTimer
 (
@@ -2447,7 +2447,6 @@ return
 mRateMilliseconds
 ;
 }
-virtual
 TimeDuration
 GetTimerRate
 (
@@ -2460,7 +2459,6 @@ mRateDuration
 }
 protected
 :
-virtual
 void
 StartTimer
 (
@@ -2527,7 +2525,6 @@ TYPE_ONE_SHOT
 )
 ;
 }
-virtual
 void
 StopTimer
 (
@@ -2755,7 +2752,6 @@ GetVsyncRate
 )
 ;
 }
-virtual
 TimeDuration
 GetTimerRate
 (
@@ -2965,7 +2961,6 @@ NS_IsMainThread
 )
 ;
 }
-virtual
 bool
 NotifyVsync
 (
@@ -3144,7 +3139,6 @@ Now
 }
 private
 :
-virtual
 ~
 RefreshDriverVsyncObserver
 (
@@ -3624,11 +3618,11 @@ mProcessedVsync
 /
 /
 RefreshDriverVsyncObserver
-virtual
 ~
 VsyncRefreshDriverTimer
 (
 )
+override
 {
 if
 (
@@ -3766,7 +3760,6 @@ mVsyncObserver
 nullptr
 ;
 }
-virtual
 void
 StartTimer
 (
@@ -3843,7 +3836,6 @@ OnTimerStart
 sActiveVsyncTimers
 ;
 }
-virtual
 void
 StopTimer
 (
@@ -3905,7 +3897,6 @@ sActiveVsyncTimers
 sActiveVsyncTimers
 ;
 }
-virtual
 void
 ScheduleNextTick
 (
@@ -4132,13 +4123,13 @@ aRate
 }
 protected
 :
-virtual
 void
 ScheduleNextTick
 (
 TimeStamp
 aNowTime
 )
+override
 {
 /
 /
@@ -4426,7 +4417,6 @@ mNextDriverIndex
 )
 {
 }
-virtual
 void
 AddRefreshDriver
 (
@@ -4540,7 +4530,6 @@ StartTimer
 )
 ;
 }
-virtual
 TimeDuration
 GetTimerRate
 (
@@ -4578,7 +4567,6 @@ Length
 )
 ;
 }
-virtual
 void
 StartTimer
 (
@@ -4632,7 +4620,6 @@ TYPE_ONE_SHOT
 )
 ;
 }
-virtual
 void
 StopTimer
 (
@@ -4647,7 +4634,6 @@ Cancel
 )
 ;
 }
-virtual
 void
 ScheduleNextTick
 (
@@ -5122,7 +5108,6 @@ VsyncChildCreateCallback
 )
 {
 }
-virtual
 void
 ActorCreated
 (
@@ -5150,7 +5135,6 @@ aPBackgroundChild
 )
 ;
 }
-virtual
 void
 ActorFailed
 (

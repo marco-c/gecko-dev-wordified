@@ -661,6 +661,7 @@ aFrame
 PluginBackgroundSink
 (
 )
+override
 {
 if
 (
@@ -676,13 +677,13 @@ nullptr
 ;
 }
 }
-virtual
 void
 SetUnknown
 (
 uint64_t
 aSequenceNumber
 )
+override
 {
 if
 (
@@ -705,7 +706,6 @@ SetBackgroundUnknown
 )
 ;
 }
-virtual
 already_AddRefed
 <
 DrawTarget
@@ -719,6 +719,7 @@ aRect
 uint64_t
 aSequenceNumber
 )
+override
 {
 if
 (
@@ -744,7 +745,6 @@ aRect
 )
 ;
 }
-virtual
 void
 EndUpdate
 (
@@ -753,6 +753,7 @@ nsIntRect
 &
 aRect
 )
+override
 {
 return
 mFrame
@@ -5559,11 +5560,11 @@ nsDisplayPluginReadback
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-virtual
 ~
 nsDisplayPluginReadback
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -5573,7 +5574,6 @@ nsDisplayPluginReadback
 }
 #
 endif
-virtual
 nsRect
 GetBounds
 (
@@ -5593,7 +5593,6 @@ PluginReadback
 "
 TYPE_PLUGIN_READBACK
 )
-virtual
 already_AddRefed
 <
 Layer
@@ -5633,7 +5632,6 @@ aContainerParameters
 )
 ;
 }
-virtual
 LayerState
 GetLayerState
 (
