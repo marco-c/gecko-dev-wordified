@@ -5194,14 +5194,6 @@ clip
 blitter
 )
 ;
-blitter
-=
-wrapper
-.
-getBlitter
-(
-)
-;
 AntiFillXRect
 (
 xr

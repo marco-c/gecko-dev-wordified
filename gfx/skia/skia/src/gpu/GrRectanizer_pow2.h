@@ -56,6 +56,13 @@ h
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 SkPoint
 .
 h
@@ -160,11 +167,11 @@ reset
 )
 ;
 }
-virtual
 ~
 GrRectanizerPow2
 (
 )
+override
 {
 }
 void

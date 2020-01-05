@@ -66,6 +66,7 @@ page
 "
 The
 array
+'
 s
 elements
 have

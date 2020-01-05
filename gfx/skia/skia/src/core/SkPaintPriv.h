@@ -42,7 +42,7 @@ SkPaintPriv_DEFINED
 #
 include
 "
-SkTypes
+SkPaint
 .
 h
 "
@@ -51,9 +51,6 @@ SkBitmap
 ;
 class
 SkImage
-;
-class
-SkPaint
 ;
 class
 SkPaintPriv
@@ -255,6 +252,18 @@ const
 SkPaint
 *
 paint
+)
+;
+static
+void
+ScaleFontMetrics
+(
+SkPaint
+:
+:
+FontMetrics
+*
+SkScalar
 )
 ;
 }

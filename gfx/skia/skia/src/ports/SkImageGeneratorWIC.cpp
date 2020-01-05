@@ -753,7 +753,7 @@ info
 SkImageInfo
 :
 :
-MakeN32
+MakeS32
 (
 width
 height
@@ -827,7 +827,9 @@ SkImageGeneratorWIC
 :
 onRefEncodedData
 (
-SK_REFENCODEDDATA_CTXPARAM
+GrContext
+*
+ctx
 )
 {
 return

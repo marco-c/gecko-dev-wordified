@@ -45,6 +45,13 @@ h
 #
 include
 "
+SkArenaAlloc
+.
+h
+"
+#
+include
+"
 SkBlitRow
 .
 h
@@ -80,7 +87,7 @@ h
 #
 include
 "
-SkXfermode
+SkXfermodePriv
 .
 h
 "
@@ -620,11 +627,11 @@ getAlpha
 )
 ;
 }
-virtual
 ~
 Sprite_D32_XferFilter
 (
 )
+override
 {
 delete
 [
@@ -1915,7 +1922,7 @@ const
 SkPaint
 &
 paint
-SkTBlitterAllocator
+SkArenaAlloc
 *
 allocator
 )
@@ -2023,7 +2030,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 Sprite_D32_S4444_XferFilter
 >
@@ -2048,7 +2055,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 Sprite_D32_S4444_Opaque
 >
@@ -2064,7 +2071,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 Sprite_D32_S4444
 >
@@ -2111,7 +2118,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 Sprite_D32_S32A_XferFilter
 >
@@ -2140,7 +2147,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 Sprite_D32_S32
 >

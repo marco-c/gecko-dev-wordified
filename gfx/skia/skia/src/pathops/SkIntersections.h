@@ -601,9 +601,10 @@ ifdef
 SK_DEBUG
 SkOpGlobalState
 *
-debugGlobalState
+globalState
 (
 )
+const
 {
 return
 fDebugGlobalState
@@ -2057,7 +2058,7 @@ used
 SkDPoint
 fPt
 [
-12
+13
 ]
 ;
 /
@@ -2096,7 +2097,7 @@ fT
 2
 ]
 [
-12
+13
 ]
 ;
 uint16_t

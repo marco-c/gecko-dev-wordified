@@ -200,10 +200,7 @@ const
 SkPath
 &
 path
-SkCanvas
-:
-:
-ClipOp
+SkClipOp
 op
 bool
 doAntiAlias

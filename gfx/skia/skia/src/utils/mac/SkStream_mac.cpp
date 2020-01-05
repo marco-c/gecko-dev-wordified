@@ -62,6 +62,13 @@ h
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 SkStream
 .
 h

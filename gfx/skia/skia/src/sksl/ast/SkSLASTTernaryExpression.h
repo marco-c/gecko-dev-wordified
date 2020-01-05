@@ -140,10 +140,7 @@ ifFalse
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

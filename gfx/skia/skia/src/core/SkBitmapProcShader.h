@@ -101,9 +101,9 @@ SkBitmapProvider
 const
 ContextRec
 &
-void
+SkArenaAlloc
 *
-storage
+alloc
 )
 ;
 typedef

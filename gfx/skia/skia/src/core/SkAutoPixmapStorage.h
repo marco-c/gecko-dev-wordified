@@ -42,6 +42,13 @@ SkAutoPixmapStorage_DEFINED
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 SkPixmap
 .
 h

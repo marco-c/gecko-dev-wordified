@@ -115,10 +115,7 @@ column
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

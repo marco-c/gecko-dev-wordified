@@ -183,7 +183,7 @@ i
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -400,7 +400,7 @@ kInt_GrSLType
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -501,7 +501,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -632,7 +632,7 @@ kFloat_GrSLType
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -744,7 +744,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -877,7 +877,7 @@ kVec2f_GrSLType
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1001,7 +1001,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1140,7 +1140,7 @@ kVec3f_GrSLType
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1265,7 +1265,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1406,7 +1406,7 @@ kVec4f_GrSLType
 ;
 SkASSERT
 (
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1532,7 +1532,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray
@@ -1854,7 +1854,7 @@ fArrayCount
 arrayCount
 &
 &
-GrGLSLShaderVar
+GrShaderVar
 :
 :
 kNonArray

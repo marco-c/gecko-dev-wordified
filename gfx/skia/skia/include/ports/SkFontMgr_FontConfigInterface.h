@@ -73,8 +73,10 @@ SkFontConfigInterface
 *
 /
 SK_API
+sk_sp
+<
 SkFontMgr
-*
+>
 SkFontMgr_New_FCI
 (
 sk_sp

@@ -72,6 +72,9 @@ class
 GrPrimitiveProcessor
 ;
 class
+GrStencilSettings
+;
+class
 GrVkCommandBuffer
 ;
 class
@@ -100,6 +103,9 @@ const
 GrPipeline
 &
 pipeline
+const
+GrStencilSettings
+&
 const
 GrPrimitiveProcessor
 &

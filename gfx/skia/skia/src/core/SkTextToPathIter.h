@@ -416,10 +416,6 @@ text
 SkScalar
 width
 =
-SkScalarMul
-(
-SkFloatToScalar
-(
 (
 &
 glyph
@@ -429,9 +425,8 @@ fAdvanceX
 [
 0
 ]
-)
+*
 fScale
-)
 ;
 if
 (

@@ -116,10 +116,7 @@ statement
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )
