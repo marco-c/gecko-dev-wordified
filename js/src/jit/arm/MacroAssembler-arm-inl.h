@@ -3947,6 +3947,12 @@ value
 32
 )
 ;
+if
+(
+imm
+.
+value
+)
 ma_lsr
 (
 imm
