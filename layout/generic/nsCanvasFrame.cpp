@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
