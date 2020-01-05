@@ -3360,7 +3360,8 @@ nsCSSRendering
 PaintGradient
 (
 aPresContext
-aRenderingContext
+*
+ctx
 mGradientData
 aDirtyRect
 aDest
