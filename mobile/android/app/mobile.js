@@ -7696,6 +7696,9 @@ visible
 true
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Enable
@@ -7717,6 +7720,8 @@ enabled
 true
 )
 ;
+#
+endif
 /
 /
 optimize
