@@ -434,7 +434,7 @@ group
 .
 private
 :
-UnprotectedData
+ActiveThreadOrGCTaskData
 <
 ZoneVector
 >
@@ -478,7 +478,7 @@ maxNurseryBytes
 ;
 private
 :
-UnprotectedData
+ZoneGroupData
 <
 Nursery
 >
@@ -545,7 +545,7 @@ after
 minor
 GC
 .
-UnprotectedData
+ActiveThreadData
 <
 LifoAlloc
 >
