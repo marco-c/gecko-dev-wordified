@@ -4295,6 +4295,7 @@ shouldLoadURI
 aDocShell
 aURI
 aReferrer
+aHasPostData
 aTriggeringPrincipal
 )
 {
@@ -4308,6 +4309,7 @@ shouldLoadURI
 aDocShell
 aURI
 aReferrer
+aHasPostData
 )
 )
 {
