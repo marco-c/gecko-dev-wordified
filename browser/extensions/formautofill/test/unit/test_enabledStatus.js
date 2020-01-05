@@ -526,12 +526,16 @@ sinon
 stub
 (
 profileStorage
+.
+addresses
 "
 getAll
 "
 )
 ;
 profileStorage
+.
+addresses
 .
 getAll
 .
@@ -618,6 +622,8 @@ false
 )
 ;
 profileStorage
+.
+addresses
 .
 getAll
 .
