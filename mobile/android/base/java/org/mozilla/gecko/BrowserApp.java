@@ -13370,6 +13370,19 @@ Video
 Play
 "
 :
+if
+(
+SwitchBoard
+.
+isInExperiment
+(
+this
+Experiments
+.
+HLS_VIDEO_PLAYBACK
+)
+)
+{
 final
 String
 uri
@@ -13447,6 +13460,7 @@ playhls
 }
 )
 ;
+}
 break
 ;
 case
