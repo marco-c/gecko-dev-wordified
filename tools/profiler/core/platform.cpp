@@ -462,6 +462,7 @@ PseudoStack
 )
 tlsPseudoStack
 ;
+static
 Sampler
 *
 gSampler

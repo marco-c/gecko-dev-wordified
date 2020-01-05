@@ -2679,11 +2679,6 @@ PseudoStack
 tlsPseudoStack
 ;
 extern
-Sampler
-*
-gSampler
-;
-extern
 bool
 stack_key_initialized
 ;
