@@ -161,7 +161,7 @@ right
 derive
 (
 Clone
-RustcEncodable
+Serialize
 Debug
 Copy
 )

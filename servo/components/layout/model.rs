@@ -2029,7 +2029,7 @@ preferred
 [
 derive
 (
-RustcEncodable
+Serialize
 Copy
 Clone
 )

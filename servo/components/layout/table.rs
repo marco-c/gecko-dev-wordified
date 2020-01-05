@@ -366,7 +366,7 @@ CSS
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -3836,7 +3836,7 @@ pick
 derive
 (
 Clone
-RustcEncodable
+Serialize
 Debug
 Copy
 )
@@ -4068,7 +4068,7 @@ eventually
 [
 derive
 (
-RustcEncodable
+Serialize
 Clone
 Copy
 Debug

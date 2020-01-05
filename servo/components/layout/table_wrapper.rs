@@ -362,7 +362,7 @@ derive
 (
 Copy
 Clone
-RustcEncodable
+Serialize
 Debug
 )
 ]
@@ -391,7 +391,7 @@ context
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub

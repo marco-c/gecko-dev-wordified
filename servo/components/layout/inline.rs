@@ -700,7 +700,7 @@ itself
 [
 derive
 (
-RustcEncodable
+Serialize
 Debug
 Clone
 )
@@ -2122,7 +2122,7 @@ int_range_index
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 #
@@ -6769,7 +6769,7 @@ ranges
 [
 derive
 (
-RustcEncodable
+Serialize
 Clone
 )
 ]
@@ -6993,7 +6993,7 @@ layout
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -13933,7 +13933,7 @@ derive
 Clone
 Copy
 Debug
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -14273,7 +14273,7 @@ derive
 Copy
 Clone
 Debug
-RustcEncodable
+Serialize
 )
 ]
 pub
