@@ -146,7 +146,7 @@ const
 {
 ProgressGraphHelper
 appendPathElement
-DEFAULT_MIN_PROGRESS_THRESHOLD
+getPreferredKeyframesProgressThreshold
 }
 =
 require
@@ -514,7 +514,10 @@ renderPropertyGraph
 graphEl
 totalDuration
 minSegmentDuration
-DEFAULT_MIN_PROGRESS_THRESHOLD
+getPreferredKeyframesProgressThreshold
+(
+keyframes
+)
 graphHelper
 )
 ;

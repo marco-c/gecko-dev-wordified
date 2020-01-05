@@ -177,6 +177,12 @@ controller
 PLAYERS_UPDATED_EVENT
 )
 ;
+yield
+waitForAnimationTimelineRendering
+(
+panel
+)
+;
 }
 yield
 waitForAllAnimationTargets
