@@ -10039,9 +10039,6 @@ gpu
 IsLayerTreeIdMapped
 (
 aId
-this
--
->
 OtherPid
 (
 )
@@ -10075,9 +10072,12 @@ DeallocateLayerTreeId
 gpu
 -
 >
-DeallocateLayerTreeId
+UnmapLayerTreeId
 (
 aId
+OtherPid
+(
+)
 )
 ;
 return

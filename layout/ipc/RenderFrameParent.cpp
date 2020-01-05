@@ -1606,9 +1606,12 @@ Get
 )
 -
 >
-DeallocateLayerTreeId
+UnmapLayerTreeId
 (
 mLayersId
+OtherPid
+(
+)
 )
 ;
 }
