@@ -79,6 +79,13 @@ with
 a
 node
 .
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 PersistentLayoutData
