@@ -995,7 +995,7 @@ LayoutParams
 WRAP_CONTENT
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 )
 ;
 params
