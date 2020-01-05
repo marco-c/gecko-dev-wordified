@@ -3108,10 +3108,6 @@ ndefs
 2
 )
 ;
-if
-(
-offsetStack
-)
 offsetStack
 [
 stackDepth
@@ -3137,11 +3133,6 @@ ndefs
 4
 )
 ;
-if
-(
-offsetStack
-)
-{
 offsetStack
 [
 stackDepth
@@ -3168,7 +3159,6 @@ stackDepth
 1
 ]
 ;
-}
 break
 ;
 case
@@ -3210,10 +3200,6 @@ n
 stackDepth
 )
 ;
-if
-(
-offsetStack
-)
 offsetStack
 [
 stackDepth
@@ -3234,6 +3220,7 @@ break
 case
 JSOP_SWAP
 :
+{
 MOZ_ASSERT
 (
 ndefs
@@ -3242,11 +3229,6 @@ ndefs
 2
 )
 ;
-if
-(
-offsetStack
-)
-{
 uint32_t
 tmp
 =
@@ -3276,9 +3258,9 @@ stackDepth
 =
 tmp
 ;
-}
 break
 ;
+}
 case
 JSOP_PICK
 :
@@ -3313,11 +3295,6 @@ n
 1
 )
 ;
-if
-(
-offsetStack
-)
-{
 uint32_t
 top
 =
@@ -3367,7 +3344,6 @@ top
 =
 tmp
 ;
-}
 break
 ;
 }
@@ -3405,11 +3381,6 @@ n
 1
 )
 ;
-if
-(
-offsetStack
-)
-{
 uint32_t
 top
 =
@@ -3459,7 +3430,6 @@ stackDepth
 =
 tmp
 ;
-}
 break
 ;
 }
