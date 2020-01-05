@@ -3591,6 +3591,13 @@ glyph
 .
 "
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 struct
 CharIndex
 (
