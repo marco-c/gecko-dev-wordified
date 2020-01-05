@@ -3708,12 +3708,12 @@ only
 void
 MetadataLoaded
 (
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
 aInfo
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
