@@ -2432,8 +2432,10 @@ APZCTreeManagerParent
 *
 mApzcTreeManagerParent
 ;
+RefPtr
+<
 CompositorBridgeParent
-*
+>
 mParent
 ;
 LayerManagerComposite
