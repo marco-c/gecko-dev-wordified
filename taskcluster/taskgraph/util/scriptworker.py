@@ -1649,7 +1649,7 @@ release
 '
 :
 '
-production
+rollout
 '
     
 '
@@ -1738,7 +1738,7 @@ False
 release
 '
 :
-True
+False
     
 '
 default
@@ -1749,6 +1749,28 @@ True
 PUSH_APK_ROLLOUT_PERCENTAGE
 =
 {
+    
+#
+XXX
+Please
+make
+sure
+to
+change
+PUSH_APK_GOOGLE_PLAY_TRACT
+to
+'
+rollout
+'
+if
+you
+add
+a
+new
+    
+#
+supported
+project
     
 '
 release
