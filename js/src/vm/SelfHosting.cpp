@@ -16067,6 +16067,16 @@ StringFromCharCode
 JS_INLINABLE_FN
 (
 "
+std_String_fromCodePoint
+"
+str_fromCodePoint
+1
+0
+StringFromCodePoint
+)
+JS_INLINABLE_FN
+(
+"
 std_String_charCodeAt
 "
 str_charCodeAt
