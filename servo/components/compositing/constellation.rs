@@ -3149,10 +3149,6 @@ been
 sent
 .
 LoadCompleteMsg
-(
-pipeline_id
-url
-)
 =
 >
 {
@@ -3175,10 +3171,6 @@ compositor_proxy
 send
 (
 LoadComplete
-(
-pipeline_id
-url
-)
 )
 ;
 }

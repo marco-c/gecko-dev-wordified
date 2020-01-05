@@ -634,10 +634,6 @@ ScrollFragmentPoint
 )
 |
 LoadComplete
-(
-.
-.
-)
 |
 RenderMsgDiscarded
 (
