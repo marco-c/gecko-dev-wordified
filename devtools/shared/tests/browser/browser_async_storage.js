@@ -347,7 +347,7 @@ function
 (
 )
 {
-var
+let
 object
 =
 {

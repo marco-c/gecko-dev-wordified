@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -170,6 +175,8 @@ loading
 any
 module
 before
+/
+/
 lazyRequireGetter
 is
 available

@@ -52,6 +52,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
