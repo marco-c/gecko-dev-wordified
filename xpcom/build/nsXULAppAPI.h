@@ -1344,7 +1344,7 @@ set
 *
 *
 param
-aAppData
+aConfig
 Information
 about
 the
@@ -1394,6 +1394,13 @@ method
 .
 *
 /
+namespace
+mozilla
+{
+struct
+BootstrapConfig
+;
+}
 XRE_API
 (
 int
@@ -1410,9 +1417,9 @@ const
 mozilla
 :
 :
-XREAppData
+BootstrapConfig
 &
-aAppData
+aConfig
 )
 )
 /
