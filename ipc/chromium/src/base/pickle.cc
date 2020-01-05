@@ -3156,6 +3156,11 @@ Done
 ;
 if
 (
+NS_IsMainThread
+(
+)
+&
+&
 ipcMsgType
 !
 =
@@ -3210,7 +3215,7 @@ mozilla
 Telemetry
 :
 :
-IPC_READ_LATENCY_MS
+IPC_READ_MAIN_THREAD_LATENCY_MS
 nsDependentCString
 (
 mozilla
