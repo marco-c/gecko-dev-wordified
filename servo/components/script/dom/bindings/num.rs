@@ -67,7 +67,7 @@ T
 struct
 .
 use
-num
+num_traits
 :
 :
 Float

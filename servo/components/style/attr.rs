@@ -82,7 +82,7 @@ num
 Zero
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive

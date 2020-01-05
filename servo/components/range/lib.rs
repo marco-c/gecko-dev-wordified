@@ -118,9 +118,7 @@ heapsize
 ;
 extern
 crate
-num
-as
-num_lib
+num_traits
 ;
 extern
 crate
@@ -321,7 +319,7 @@ Option
 isize
 >
 {
-num_lib
+num_traits
 :
 :
 NumCast

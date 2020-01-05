@@ -190,7 +190,7 @@ Encoding
 }
 ;
 use
-num
+num_traits
 :
 :
 ToPrimitive

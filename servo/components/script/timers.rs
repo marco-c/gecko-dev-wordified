@@ -205,10 +205,7 @@ UndefinedValue
 }
 ;
 use
-num
-:
-:
-traits
+num_traits
 :
 :
 Saturating

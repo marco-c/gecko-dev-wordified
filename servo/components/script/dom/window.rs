@@ -601,10 +601,7 @@ StorageType
 }
 ;
 use
-num
-:
-:
-traits
+num_traits
 :
 :
 ToPrimitive
