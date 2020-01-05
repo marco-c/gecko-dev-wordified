@@ -2510,13 +2510,6 @@ replaced_image_fragment_info
 :
 ReplacedImageFragmentInfo
 pub
-renderer_id
-:
-Option
-<
-usize
->
-pub
 ipc_renderer
 :
 Option
@@ -2576,11 +2569,6 @@ new
 (
 node
 )
-renderer_id
-:
-data
-.
-renderer_id
 ipc_renderer
 :
 data

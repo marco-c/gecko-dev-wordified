@@ -348,13 +348,10 @@ i32
 >
 IpcSender
 <
-(
 IpcSender
 <
 CanvasMsg
 >
-usize
-)
 >
 )
 /
@@ -411,13 +408,10 @@ IpcSender
 <
 Result
 <
-(
 IpcSender
 <
 CanvasMsg
 >
-usize
-)
 String
 >
 >
