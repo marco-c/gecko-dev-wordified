@@ -737,11 +737,6 @@ unsafe
 fn
 new_rt_and_cx
 (
-parent_rt
-:
-*
-mut
-JSRuntime
 )
 -
 >
@@ -762,7 +757,6 @@ Runtime
 :
 new
 (
-parent_rt
 )
 ;
 JS_AddExtraGCRootsTracer
