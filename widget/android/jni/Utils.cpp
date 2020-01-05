@@ -2199,7 +2199,7 @@ nullptr
 ;
 }
 void
-DispatchToGeckoPriorityQueue
+DispatchToGeckoThread
 (
 UniquePtr
 <

@@ -1456,7 +1456,7 @@ ui
 dispatchTo
 =
 "
-gecko_priority
+gecko
 "
 )
 Override
