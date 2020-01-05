@@ -160,7 +160,9 @@ h
 #
 include
 "
-prclist
+mozilla
+/
+LinkedList
 .
 h
 "
@@ -219,7 +221,13 @@ final
 public
 DOMEventTargetHelper
 public
-PRCList
+mozilla
+:
+:
+LinkedListElement
+<
+MediaQueryList
+>
 {
 public
 :
