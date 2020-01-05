@@ -835,6 +835,17 @@ start
 this
 )
 ;
+GeckoFontScaleListener
+.
+getInstance
+(
+)
+.
+initialize
+(
+this
+)
+;
 GeckoNetworkManager
 .
 getInstance
