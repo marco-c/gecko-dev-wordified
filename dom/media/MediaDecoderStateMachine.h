@@ -1993,13 +1993,14 @@ ReaderSuspendedChanged
 /
 /
 Inserts
-MediaData
-*
-samples
+a
+sample
 into
-their
-respective
-MediaQueues
+the
+Audio
+/
+Video
+queue
 .
 /
 /
@@ -2012,7 +2013,7 @@ null
 void
 PushAudio
 (
-MediaData
+AudioData
 *
 aSample
 )
@@ -2020,7 +2021,7 @@ aSample
 void
 PushVideo
 (
-MediaData
+VideoData
 *
 aSample
 )
@@ -2031,7 +2032,7 @@ OnAudioPopped
 const
 RefPtr
 <
-MediaData
+AudioData
 >
 &
 aSample
@@ -2043,7 +2044,7 @@ OnVideoPopped
 const
 RefPtr
 <
-MediaData
+VideoData
 >
 &
 aSample
@@ -2075,7 +2076,7 @@ PreservesPitchChanged
 ;
 MediaQueue
 <
-MediaData
+AudioData
 >
 &
 AudioQueue
@@ -2088,7 +2089,7 @@ mAudioQueue
 }
 MediaQueue
 <
-MediaData
+VideoData
 >
 &
 VideoQueue
@@ -3287,7 +3288,7 @@ threads
 .
 MediaQueue
 <
-MediaData
+AudioData
 >
 mAudioQueue
 ;
@@ -3318,7 +3319,7 @@ threads
 .
 MediaQueue
 <
-MediaData
+VideoData
 >
 mVideoQueue
 ;

@@ -246,7 +246,7 @@ MediaSink
 aAudioSink
 MediaQueue
 <
-MediaData
+VideoData
 >
 &
 aVideoQueue
@@ -425,7 +425,7 @@ OnVideoQueuePushed
 (
 RefPtr
 <
-MediaData
+VideoData
 >
 &
 &
@@ -660,7 +660,7 @@ IsCurrentThreadIn
 }
 MediaQueue
 <
-MediaData
+VideoData
 >
 &
 VideoQueue
@@ -687,7 +687,7 @@ mAudioSink
 ;
 MediaQueue
 <
-MediaData
+VideoData
 >
 &
 mVideoQueue
