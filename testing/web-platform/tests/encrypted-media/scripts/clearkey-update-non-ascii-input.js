@@ -339,7 +339,7 @@ error
 .
 name
 '
-InvalidAccessError
+TypeError
 '
 )
 ;
