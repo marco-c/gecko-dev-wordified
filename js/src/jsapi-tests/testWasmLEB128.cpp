@@ -79,7 +79,7 @@ include
 "
 wasm
 /
-WasmBinaryFormat
+WasmValidate
 .
 h
 "

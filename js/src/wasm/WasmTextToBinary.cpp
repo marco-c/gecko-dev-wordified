@@ -282,7 +282,7 @@ include
 "
 wasm
 /
-WasmBinaryFormat
+WasmTypes
 .
 h
 "
@@ -291,7 +291,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmValidate
 .
 h
 "

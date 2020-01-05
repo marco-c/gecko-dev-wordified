@@ -225,7 +225,7 @@ include
 "
 wasm
 /
-WasmBinaryFormat
+WasmBinaryIterator
 .
 h
 "
@@ -234,7 +234,7 @@ include
 "
 wasm
 /
-WasmBinaryIterator
+WasmValidate
 .
 h
 "
