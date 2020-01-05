@@ -59812,7 +59812,7 @@ update
 ;
 mCounterManager
 .
-SetAllCounterStylesDirty
+SetAllDirty
 (
 )
 ;
