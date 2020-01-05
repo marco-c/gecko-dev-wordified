@@ -9656,6 +9656,9 @@ animation_value_type
 "
 none
 "
+need_clone
+=
+True
 spec
 =
 "

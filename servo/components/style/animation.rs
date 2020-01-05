@@ -3439,6 +3439,13 @@ is_root
 *
 /
 false
+/
+*
+pseudo
+=
+*
+/
+None
 iter
 previous_style
 previous_style
