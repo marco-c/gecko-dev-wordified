@@ -523,15 +523,11 @@ os
 import
 re
 import
-subprocess
-import
 sys
-import
-traceback
 from
-check_utils
+mozversioncontrol
 import
-get_all_toplevel_filenames
+get_repository_from_env
 #
 We
 don
@@ -2457,6 +2453,12 @@ filename
 inclname
 )
     
+repo
+=
+get_repository_from_env
+(
+)
+    
 #
 Select
 the
@@ -2467,7 +2469,9 @@ files
 for
 filename
 in
-get_all_toplevel_filenames
+repo
+.
+get_files_in_working_directory
 (
 )
 :
@@ -2860,13 +2864,9 @@ path
 .
 join
 (
-'
+repo
 .
-.
-/
-.
-.
-'
+path
 filename
 )
 )
