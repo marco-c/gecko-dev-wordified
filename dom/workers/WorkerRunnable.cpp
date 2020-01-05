@@ -190,15 +190,6 @@ include
 "
 mozilla
 /
-TaskQueue
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h

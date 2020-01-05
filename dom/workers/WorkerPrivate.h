@@ -389,7 +389,7 @@ namespace
 mozilla
 {
 class
-TaskQueue
+ThrottledEventQueue
 ;
 namespace
 dom
@@ -3419,9 +3419,9 @@ mDebuggerEventLoopLevel
 ;
 RefPtr
 <
-TaskQueue
+ThrottledEventQueue
 >
-mMainThreadTaskQueue
+mMainThreadThrottledEventQueue
 ;
 nsCOMPtr
 <
@@ -4833,9 +4833,7 @@ or
 /
 /
 a
-TaskQueue
-throttling
-runnables
+ThrottledEventQueue
 to
 the
 main
