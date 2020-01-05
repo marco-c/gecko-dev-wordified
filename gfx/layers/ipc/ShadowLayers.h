@@ -1576,6 +1576,14 @@ ShadowableLayer
 aRef
 )
 ;
+void
+CreatedBorderLayer
+(
+ShadowableLayer
+*
+aRef
+)
+;
 /
 *
 *
