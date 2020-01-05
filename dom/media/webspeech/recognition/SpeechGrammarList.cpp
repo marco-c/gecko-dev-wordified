@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 SpeechRecognition
 .
 h

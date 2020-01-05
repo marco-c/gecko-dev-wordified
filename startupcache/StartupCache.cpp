@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 mozilla
 /
 IOInterposer

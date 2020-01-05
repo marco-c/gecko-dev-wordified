@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

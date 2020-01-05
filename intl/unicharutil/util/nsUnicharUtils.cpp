@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nsUTF8Utils
 .
 h

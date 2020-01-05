@@ -289,13 +289,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

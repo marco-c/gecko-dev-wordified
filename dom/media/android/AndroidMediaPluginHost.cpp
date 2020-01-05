@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nsISeekableStream
 .
 h

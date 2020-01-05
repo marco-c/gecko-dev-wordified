@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsXPCOMStrings
-.
-h
-"
-#
-include
-"
 nssb64
 .
 h
