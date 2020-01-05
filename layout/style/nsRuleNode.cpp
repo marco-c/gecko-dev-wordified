@@ -4278,6 +4278,9 @@ nsFontMetrics
 >
 fm
 =
+nsRuleNode
+:
+:
 GetMetricsFor
 (
 aPresContext
@@ -4327,6 +4330,9 @@ nsFontMetrics
 >
 fm
 =
+nsRuleNode
+:
+:
 GetMetricsFor
 (
 aPresContext
