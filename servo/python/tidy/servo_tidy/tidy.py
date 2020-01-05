@@ -6230,7 +6230,11 @@ lint
 .
 lint
 (
+wpt_working_dir
 files
+output_json
+=
+False
 )
         
 if
