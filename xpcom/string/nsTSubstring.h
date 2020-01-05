@@ -3632,6 +3632,7 @@ const
 char_type
 aChar
 )
+const
 ;
 /
 *
