@@ -3875,6 +3875,25 @@ opt
 AndroidArtifactJob
 (
 '
+(
+public
+/
+build
+/
+fennec
+-
+(
+.
+*
+)
+\
+.
+android
+-
+arm
+.
+apk
+|
 public
 /
 build
@@ -3882,6 +3901,7 @@ build
 target
 .
 apk
+)
 '
                                                 
 None
