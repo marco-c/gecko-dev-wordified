@@ -1678,8 +1678,6 @@ mSamplesPerFrame
 =
 %
 d
-"
-"
 mSamplesPerSecond
 =
 %
@@ -2637,6 +2635,8 @@ successiveFrames
 %
 d
 last
+"
+"
 Length
 (
 )
@@ -5201,11 +5201,11 @@ the
 end
 of
 the
+/
+/
 buffer
 therefore
 we
-/
-/
 return
 immediately
 and
@@ -5213,6 +5213,8 @@ let
 the
 calling
 function
+/
+/
 handle
 skipping
 the
@@ -5311,6 +5313,8 @@ search
 for
 a
 MPEG
+/
+/
 frame
 header
 .
@@ -6904,8 +6908,6 @@ valueOr
 )
 >
 0
-&
-&
 /
 /
 We
@@ -6923,6 +6925,8 @@ here
 .
 /
 /
+&
+&
 mScale
 <
 101
@@ -7569,9 +7573,9 @@ the
 beginning
 of
 a
+/
+/
 frame
-/
-/
 therefore
 as
 a
@@ -7585,6 +7589,8 @@ presence
 of
 a
 frame
+/
+/
 sync
 at
 that
