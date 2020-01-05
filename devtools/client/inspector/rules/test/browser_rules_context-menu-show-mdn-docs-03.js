@@ -271,7 +271,6 @@ initial
 true
 )
 {
-yield
 setBooleanPref
 (
 PREF_ENABLE_MDN_DOCS_TOOLTIP
@@ -447,7 +446,6 @@ eventual
 initial
 )
 {
-yield
 setBooleanPref
 (
 PREF_ENABLE_MDN_DOCS_TOOLTIP
