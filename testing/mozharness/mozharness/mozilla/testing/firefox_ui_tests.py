@@ -1717,6 +1717,20 @@ report
 xml
 '
 )
+            
+#
+Enable
+tracing
+output
+to
+log
+transmission
+protocol
+            
+'
+-
+vv
+'
         
 ]
         
