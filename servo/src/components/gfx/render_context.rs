@@ -959,7 +959,7 @@ self
 .
 canvas
 .
-rect
+screen_pos
 .
 size
 .
@@ -970,7 +970,7 @@ self
 .
 canvas
 .
-rect
+screen_pos
 .
 size
 .
