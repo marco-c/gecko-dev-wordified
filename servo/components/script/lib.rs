@@ -424,6 +424,10 @@ extern
 crate
 smallvec
 ;
+#
+[
+macro_use
+]
 extern
 crate
 util

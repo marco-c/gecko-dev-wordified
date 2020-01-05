@@ -226,6 +226,13 @@ repr
 u16
 )
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 enum
 EventPhase
@@ -261,6 +268,7 @@ derive
 (
 JSTraceable
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -283,6 +291,7 @@ CloseEvent
 derive
 (
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -297,6 +306,7 @@ DoesNotBubble
 derive
 (
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -309,6 +319,13 @@ NotCancelable
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

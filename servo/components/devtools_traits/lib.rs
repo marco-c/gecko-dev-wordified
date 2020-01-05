@@ -151,6 +151,7 @@ plugin
 plugin
 (
 serde_macros
+plugins
 )
 ]
 #

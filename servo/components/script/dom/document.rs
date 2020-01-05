@@ -1255,6 +1255,7 @@ derive
 (
 JSTraceable
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -1803,6 +1804,7 @@ Document
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -1843,6 +1845,7 @@ is_htmlimageelement
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -1883,6 +1886,7 @@ is_htmlembedelement
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -1947,6 +1951,7 @@ href
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -1987,6 +1992,7 @@ is_htmlformelement
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -2027,6 +2033,7 @@ is_htmlscriptelement
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -2082,6 +2089,7 @@ href
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -8848,6 +8856,13 @@ subpage_id
 )
 }
 }
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 enum
 MouseEventType
@@ -8861,6 +8876,7 @@ MouseUp
 derive
 (
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -15539,6 +15555,7 @@ JSObject
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct
@@ -16258,6 +16275,13 @@ is_some
 (
 )
 }
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 enum
 DocumentProgressTask

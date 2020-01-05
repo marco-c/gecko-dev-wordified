@@ -95,6 +95,13 @@ fmt
 :
 Write
 ;
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 UrlHelper

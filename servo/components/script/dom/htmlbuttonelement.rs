@@ -341,6 +341,13 @@ allow
 dead_code
 )
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 enum
 ButtonType
 {
@@ -352,6 +359,13 @@ ButtonMenu
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

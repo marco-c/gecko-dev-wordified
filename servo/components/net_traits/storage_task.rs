@@ -88,6 +88,7 @@ Copy
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

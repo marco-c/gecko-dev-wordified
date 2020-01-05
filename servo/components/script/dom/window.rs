@@ -930,6 +930,7 @@ reflowing
 derive
 (
 Debug
+HeapSizeOf
 )
 ]
 pub

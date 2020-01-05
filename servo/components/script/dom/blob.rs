@@ -231,6 +231,7 @@ Cell
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 pub
@@ -263,6 +264,13 @@ blob
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct

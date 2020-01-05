@@ -274,6 +274,13 @@ StaticStringVec
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 HTMLFieldSetElement
@@ -481,6 +488,7 @@ HTMLCollection
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 struct

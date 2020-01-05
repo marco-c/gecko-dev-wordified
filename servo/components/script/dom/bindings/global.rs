@@ -280,6 +280,15 @@ url
 :
 Url
 ;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
 /
 /
 /
@@ -435,6 +444,7 @@ structures
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #

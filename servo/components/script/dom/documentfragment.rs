@@ -285,6 +285,13 @@ documentfragment
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 DocumentFragment

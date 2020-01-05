@@ -308,6 +308,13 @@ interface
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 CSSStyleDeclaration
@@ -336,6 +343,7 @@ PseudoElement
 derive
 (
 PartialEq
+HeapSizeOf
 )
 ]
 pub

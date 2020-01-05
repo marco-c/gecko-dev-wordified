@@ -114,6 +114,15 @@ str
 :
 FromStr
 ;
+use
+util
+:
+:
+mem
+:
+:
+HeapSizeOf
+;
 /
 /
 /
@@ -131,6 +140,7 @@ JSTraceable
 Clone
 Eq
 PartialEq
+HeapSizeOf
 )
 ]
 pub

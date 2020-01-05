@@ -292,6 +292,13 @@ ToOwned
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 HTMLSelectElement

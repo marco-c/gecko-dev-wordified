@@ -1840,6 +1840,7 @@ derive
 (
 Copy
 Clone
+HeapSizeOf
 )
 ]
 enum
@@ -10198,6 +10199,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -19290,6 +19292,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub

@@ -280,6 +280,13 @@ u8
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 HTMLTableCellElement

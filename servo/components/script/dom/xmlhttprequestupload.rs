@@ -156,6 +156,13 @@ XMLHttpRequestEventTargetTypeId
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 XMLHttpRequestUpload

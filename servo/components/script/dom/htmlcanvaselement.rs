@@ -411,6 +411,7 @@ derive
 JSTraceable
 Clone
 Copy
+HeapSizeOf
 )
 ]
 pub
@@ -441,6 +442,13 @@ CanvasContext
 #
 [
 dom_struct
+]
+#
+[
+derive
+(
+HeapSizeOf
+)
 ]
 pub
 struct
