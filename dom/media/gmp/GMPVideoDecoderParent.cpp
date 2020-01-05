@@ -187,6 +187,13 @@ GMPTypes
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 namespace
 mozilla
 {
