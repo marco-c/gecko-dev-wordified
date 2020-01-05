@@ -1188,6 +1188,9 @@ TitlebarAndBackgroundColor
 *
 mColor
 ;
+/
+/
+strong
 CGFloat
 mUnifiedToolbarHeight
 ;
@@ -1195,6 +1198,9 @@ NSColor
 *
 mBackgroundColor
 ;
+/
+/
+strong
 NSView
 *
 mTitlebarView
