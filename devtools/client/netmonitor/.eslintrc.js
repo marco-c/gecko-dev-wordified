@@ -66,6 +66,17 @@ module
 exports
 =
 {
+"
+env
+"
+:
+{
+"
+browser
+"
+:
+true
+}
 /
 /
 Extend

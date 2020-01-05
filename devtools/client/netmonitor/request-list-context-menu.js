@@ -174,7 +174,6 @@ require
 (
 "
 .
-.
 /
 l10n
 "
@@ -192,7 +191,6 @@ require
 (
 "
 .
-.
 /
 request
 -
@@ -209,7 +207,6 @@ getSortedRequests
 require
 (
 "
-.
 .
 /
 selectors

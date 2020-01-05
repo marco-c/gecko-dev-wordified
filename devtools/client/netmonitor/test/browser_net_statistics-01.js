@@ -131,9 +131,13 @@ selectedPanel
 .
 id
 "
-inspector
+react
+-
+monitor
 -
 panel
+-
+hook
 "
 "
 The

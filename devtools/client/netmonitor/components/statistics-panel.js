@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-document
-*
-/
 "
 use
 strict
@@ -1595,7 +1589,7 @@ back
 button
 devtools
 -
-toolbarbutton
+button
 "
 "
 data

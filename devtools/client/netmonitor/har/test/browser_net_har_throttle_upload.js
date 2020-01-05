@@ -156,8 +156,6 @@ client
 /
 netmonitor
 /
-components
-/
 request
 -
 list

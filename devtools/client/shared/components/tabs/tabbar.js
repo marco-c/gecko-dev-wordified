@@ -227,7 +227,7 @@ children
 :
 PropTypes
 .
-object
+array
 onSelect
 :
 PropTypes

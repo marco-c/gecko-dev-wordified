@@ -116,7 +116,6 @@ require
 (
 "
 .
-.
 /
 l10n
 "
@@ -130,7 +129,6 @@ formDataURI
 require
 (
 "
-.
 .
 /
 request

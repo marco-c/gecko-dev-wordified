@@ -656,14 +656,14 @@ contentSize
 totalBytes
 .
 contentSize
+millis
+:
+totalMillis
 transferredSize
 :
 totalBytes
 .
 transferredSize
-millis
-:
-totalMillis
 }
 ;
 }
