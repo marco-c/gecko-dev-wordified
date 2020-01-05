@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -237,13 +242,13 @@ listTabs
 .
 then
 (
-aResponse
+response
 =
 >
 {
 gActorId
 =
-aResponse
+response
 .
 test
 ;
@@ -1242,9 +1247,6 @@ with
 callback
 API
 )
-let
-request
-=
 gClient
 .
 request

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -244,9 +249,6 @@ enterEventLoop
 0
 )
 ;
-let
-r
-=
 Object
 .
 create

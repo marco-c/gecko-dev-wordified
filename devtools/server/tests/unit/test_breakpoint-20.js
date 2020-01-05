@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -68,12 +73,6 @@ gDebuggee
 ;
 var
 gClient
-;
-var
-gTraceClient
-;
-var
-gThreadClient
 ;
 function
 run_test
@@ -218,7 +217,6 @@ js
 const
 [
 response
-bpClient
 ]
 =
 yield

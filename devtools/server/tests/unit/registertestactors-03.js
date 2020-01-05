@@ -27,9 +27,13 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 var
 {
-method
 RetVal
 Actor
 ActorClassWithSpec

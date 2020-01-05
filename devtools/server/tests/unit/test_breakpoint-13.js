@@ -29,6 +29,21 @@ zero
 /
 /
 *
+eslint
+-
+disable
+no
+-
+shadow
+*
+/
+"
+use
+strict
+"
+;
+/
+*
 *
 *
 Check
@@ -95,17 +110,17 @@ do_test_pending
 function
 run_test_with_server
 (
-aServer
-aCallback
+server
+callback
 )
 {
 gCallback
 =
-aCallback
+callback
 ;
 initTestDebuggerServer
 (
-aServer
+server
 )
 ;
 gDebuggee
@@ -117,7 +132,7 @@ test
 -
 stack
 "
-aServer
+server
 )
 ;
 gClient
@@ -125,7 +140,7 @@ gClient
 new
 DebuggerClient
 (
-aServer
+server
 .
 connectPipe
 (
@@ -154,14 +169,14 @@ stack
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 gThreadClient
 =
-aThreadClient
+threadClient
 ;
 test_simple_breakpoint
 (
@@ -188,8 +203,8 @@ paused
 "
 function
 (
-aEvent
-aPacket
+event
+packet
 )
 {
 let
@@ -199,7 +214,7 @@ gThreadClient
 .
 source
 (
-aPacket
+packet
 .
 frame
 .
@@ -233,7 +248,7 @@ async
 function
 *
 (
-aResponse
+response
 bpClient
 )
 {
@@ -243,7 +258,7 @@ testCallbacks
 [
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -256,7 +271,7 @@ worked
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -272,7 +287,7 @@ line0
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -285,7 +300,7 @@ resumeLimit
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -299,7 +314,7 @@ frame
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -313,7 +328,7 @@ line
 ;
 do_check_neq
 (
-aPacket
+packet
 .
 why
 .
@@ -325,7 +340,7 @@ breakpoint
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -338,7 +353,7 @@ resumeLimit
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -355,7 +370,7 @@ frame
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -371,7 +386,7 @@ line0
 ;
 do_check_neq
 (
-aPacket
+packet
 .
 why
 .
@@ -383,7 +398,7 @@ breakpoint
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -396,7 +411,7 @@ resumeLimit
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -429,7 +444,7 @@ stepping
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -445,7 +460,7 @@ line0
 ;
 do_check_neq
 (
-aPacket
+packet
 .
 why
 .
@@ -457,7 +472,7 @@ breakpoint
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -469,7 +484,7 @@ resumeLimit
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -486,7 +501,7 @@ undefined
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -521,7 +536,7 @@ undefined
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -537,7 +552,7 @@ line0
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -549,7 +564,7 @@ resumeLimit
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 poppedFrames
 .
@@ -560,7 +575,7 @@ length
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -581,7 +596,7 @@ pause
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -597,7 +612,7 @@ line0
 ;
 do_check_neq
 (
-aPacket
+packet
 .
 why
 .
@@ -609,7 +624,7 @@ debuggerStatement
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -622,7 +637,7 @@ resumeLimit
 }
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -643,7 +658,7 @@ pause
 .
 do_check_eq
 (
-aPacket
+packet
 .
 frame
 .
@@ -659,7 +674,7 @@ line0
 ;
 do_check_neq
 (
-aPacket
+packet
 .
 why
 .
@@ -671,7 +686,7 @@ debuggerStatement
 ;
 do_check_eq
 (
-aPacket
+packet
 .
 why
 .
@@ -779,6 +794,13 @@ gCallback
 }
 )
 ;
+/
+*
+eslint
+-
+disable
+*
+/
 Cu
 .
 evalInSandbox
@@ -902,4 +924,11 @@ line0
 gDebuggee
 )
 ;
+/
+*
+eslint
+-
+enable
+*
+/
 }

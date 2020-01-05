@@ -28,6 +28,14 @@ zero
 0
 /
 /
+*
+eslint
+-
+disable
+strict
+*
+/
+/
 /
 Test
 Debugger
@@ -165,7 +173,7 @@ getProperty
 =
 function
 (
-aName
+name
 )
 {
 let
@@ -175,7 +183,7 @@ this
 .
 getOwnPropertyDescriptor
 (
-aName
+name
 )
 ;
 if
@@ -183,9 +191,11 @@ if
 !
 desc
 )
+{
 return
 undefined
 ;
+}
 if
 (
 !
@@ -216,7 +226,7 @@ property
 :
 "
 +
-aName
+name
 )
 ;
 }
@@ -323,7 +333,7 @@ and
 property
 names
 .
-var
+let
 mainObj
 =
 {
@@ -403,7 +413,7 @@ mainObj
 =
 mainObj
 ;
-var
+let
 contentObj
 =
 chromeBox
@@ -414,7 +424,7 @@ contentBox
 .
 contentObj
 ;
-var
+let
 chromeObj
 =
 contentBox
@@ -881,6 +891,8 @@ dbg
 =
 new
 Debugger
+(
+)
 ;
 /
 /

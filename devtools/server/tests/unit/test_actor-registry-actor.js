@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -244,9 +249,11 @@ then
 actorFront
 =
 >
+(
 gActorFront
 =
 actorFront
+)
 )
 .
 then

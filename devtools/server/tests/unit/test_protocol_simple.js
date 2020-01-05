@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -870,6 +875,9 @@ function
 )
 }
 )
+;
+void
+badActor
 ;
 }
 )

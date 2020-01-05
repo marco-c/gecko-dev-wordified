@@ -52,6 +52,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -88,9 +93,6 @@ initTestDebuggerServer
 (
 )
 ;
-let
-gDebuggee
-=
 addTestGlobal
 (
 "
@@ -134,9 +136,9 @@ nesting
 "
 function
 (
-aResponse
-aTabClient
-aThreadClient
+response
+tabClient
+threadClient
 )
 {
 /
@@ -159,7 +161,7 @@ actor
 .
 gThreadActor
 =
-aThreadClient
+threadClient
 .
 _transport
 .
@@ -167,7 +169,7 @@ _serverConnection
 .
 getActor
 (
-aThreadClient
+threadClient
 .
 _actor
 )
@@ -200,7 +202,6 @@ gThreadActor
 const
 {
 resolve
-reject
 promise
 :
 p

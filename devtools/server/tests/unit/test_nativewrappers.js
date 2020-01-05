@@ -1,3 +1,11 @@
+/
+*
+eslint
+-
+disable
+strict
+*
+/
 function
 run_test
 (
@@ -29,7 +37,7 @@ addDebuggerToGlobal
 this
 )
 ;
-var
+let
 g
 =
 testGlobal
@@ -39,7 +47,7 @@ test1
 "
 )
 ;
-var
+let
 dbg
 =
 new
@@ -60,13 +68,13 @@ onDebuggerStatement
 =
 function
 (
-aFrame
+frame
 )
 {
 let
 args
 =
-aFrame
+frame
 .
 arguments
 ;

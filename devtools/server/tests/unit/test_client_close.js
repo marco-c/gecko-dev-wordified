@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 var
 gClient
 ;
@@ -87,8 +92,8 @@ then
 (
 function
 (
-aType
-aTraits
+type
+traits
 )
 {
 attachTestTab
@@ -101,8 +106,8 @@ test
 "
 function
 (
-aReply
-aTabClient
+reply
+tabClient
 )
 {
 test_close
@@ -124,7 +129,7 @@ do_test_pending
 function
 test_close
 (
-aTransport
+transport
 )
 {
 /
@@ -242,7 +247,7 @@ closed
 onClosed
 )
 ;
-aTransport
+transport
 .
 close
 (
