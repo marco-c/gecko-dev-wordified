@@ -443,7 +443,7 @@ enum
 [
 derive
 (
-Show
+Debug
 PartialEq
 Eq
 Copy
@@ -849,7 +849,7 @@ PartialEq
 Eq
 Copy
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -883,7 +883,7 @@ PartialEq
 Eq
 Copy
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -902,7 +902,7 @@ PartialEq
 Eq
 Copy
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -922,7 +922,7 @@ PartialEq
 Eq
 Copy
 Hash
-Show
+Debug
 )
 ]
 pub

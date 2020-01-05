@@ -2658,7 +2658,6 @@ DisplayItemMetadata
 topmost_only
 :
 bool
-mut
 iterator
 :
 I

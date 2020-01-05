@@ -134,6 +134,12 @@ use
 std
 :
 :
+env
+;
+use
+std
+:
+:
 old_io
 as
 io
@@ -143,12 +149,6 @@ std
 :
 :
 mem
-;
-use
-std
-:
-:
-os
 ;
 use
 std
@@ -1246,7 +1246,7 @@ unwrap
 (
 )
 ;
-os
+env
 :
 :
 set_exit_status

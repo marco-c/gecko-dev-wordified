@@ -67,8 +67,8 @@ atomic
 :
 :
 {
-AtomicUint
-ATOMIC_UINT_INIT
+AtomicUsize
+ATOMIC_USIZE_INIT
 Ordering
 }
 ;
@@ -94,9 +94,9 @@ static
 mut
 next_tid
 :
-AtomicUint
+AtomicUsize
 =
-ATOMIC_UINT_INIT
+ATOMIC_USIZE_INIT
 ;
 thread_local
 !
