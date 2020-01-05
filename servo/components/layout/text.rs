@@ -3460,6 +3460,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :

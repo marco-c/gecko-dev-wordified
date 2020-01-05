@@ -1396,10 +1396,7 @@ GeneratedContentInfo
 )
 Iframe
 (
-Box
-<
 IframeFragmentInfo
->
 )
 Image
 (
@@ -1511,7 +1508,10 @@ Multicol
 MulticolColumn
 UnscannedText
 (
+Box
+<
 UnscannedTextFragmentInfo
+>
 )
 }
 impl
@@ -6146,6 +6146,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :

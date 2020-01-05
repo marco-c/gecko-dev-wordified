@@ -2171,7 +2171,6 @@ SpecificFragmentInfo
 :
 Iframe
 (
-box
 IframeFragmentInfo
 :
 :
@@ -4086,6 +4085,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :
@@ -5045,6 +5045,7 @@ string
 let
 info
 =
+box
 UnscannedTextFragmentInfo
 :
 :
@@ -5142,6 +5143,7 @@ string
 let
 info
 =
+box
 UnscannedTextFragmentInfo
 :
 :
@@ -5953,6 +5955,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :
@@ -8878,6 +8881,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :
@@ -13877,6 +13881,7 @@ SpecificFragmentInfo
 :
 UnscannedText
 (
+box
 UnscannedTextFragmentInfo
 :
 :
