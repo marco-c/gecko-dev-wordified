@@ -1721,7 +1721,7 @@ firefoxes
             
 self
 .
-prefs
+marionette
 .
 set_pref
 (
@@ -1768,7 +1768,7 @@ CONTEXT_CHROME
 if
 self
 .
-prefs
+marionette
 .
 get_pref
 (
@@ -1788,7 +1788,7 @@ version
                     
 self
 .
-prefs
+marionette
 .
 reset_pref
 (
@@ -1808,7 +1808,7 @@ version
 if
 self
 .
-prefs
+marionette
 .
 get_pref
 (
@@ -1826,7 +1826,7 @@ version
                     
 self
 .
-prefs
+marionette
 .
 reset_pref
 (
@@ -1982,7 +1982,7 @@ pref_value
 =
 self
 .
-prefs
+marionette
 .
 get_pref
 (
@@ -2109,7 +2109,7 @@ pref_value
 =
 self
 .
-prefs
+marionette
 .
 get_pref
 (
@@ -2346,7 +2346,7 @@ pref_value
 =
 self
 .
-prefs
+marionette
 .
 get_pref
 (
