@@ -2394,7 +2394,7 @@ nsCString
 &
 aContentTypeHint
 const
-nsCString
+uint64_t
 &
 aChannelId
 const
@@ -9184,7 +9184,7 @@ activity
 in
 devtools
 .
-nsAutoCString
+uint64_t
 channelId
 ;
 nsCOMPtr
@@ -9211,6 +9211,7 @@ httpChannel
 >
 GetChannelId
 (
+&
 channelId
 )
 ;

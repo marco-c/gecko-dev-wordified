@@ -250,7 +250,7 @@ mTimer
 typedef
 nsInterfaceHashtable
 <
-nsIDHashKey
+nsUint64HashKey
 nsIHttpChannel
 >
 ChannelHash

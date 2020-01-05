@@ -2070,9 +2070,7 @@ proxyResolveFlags
 nsIURI
 *
 proxyURI
-const
-nsID
-&
+uint64_t
 channelId
 )
 {

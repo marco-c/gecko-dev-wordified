@@ -466,8 +466,8 @@ NullHttpChannel
 :
 GetChannelId
 (
-nsACString
-&
+uint64_t
+*
 aChannelId
 )
 {
@@ -481,9 +481,7 @@ NullHttpChannel
 :
 SetChannelId
 (
-const
-nsACString
-&
+uint64_t
 aChannelId
 )
 {

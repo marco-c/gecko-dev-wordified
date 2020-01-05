@@ -802,9 +802,7 @@ aProxyResolveFlags
 nsIURI
 *
 aProxyURI
-const
-nsID
-&
+uint64_t
 aChannelId
 )
 override
