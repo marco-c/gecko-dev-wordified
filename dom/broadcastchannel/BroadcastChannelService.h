@@ -159,7 +159,7 @@ class
 BroadcastChannelParent
 ;
 class
-BroadcastChannelParentMessage
+ClonedMessageData
 ;
 class
 BroadcastChannelService
@@ -210,9 +210,10 @@ PostMessage
 BroadcastChannelParent
 *
 aParent
-BroadcastChannelParentMessage
-*
-aMessage
+const
+ClonedMessageData
+&
+aData
 const
 nsAString
 &
