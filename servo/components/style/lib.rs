@@ -985,9 +985,6 @@ pub
 mod
 thread_state
 ;
-mod
-tid
-;
 pub
 mod
 timer

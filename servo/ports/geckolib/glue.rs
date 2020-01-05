@@ -1031,13 +1031,6 @@ Au
 screen_size_changed
 :
 false
-generation
-:
-per_doc_data
-.
-next_generation
-(
-)
 goal
 :
 ReflowGoal
