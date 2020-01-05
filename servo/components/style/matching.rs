@@ -7038,11 +7038,7 @@ context
 .
 shared
 .
-traversal_flags
-.
-for_animation_only
-(
-)
+animation_only_restyle
 )
 ;
 let
