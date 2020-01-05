@@ -342,7 +342,7 @@ True
 enable_talos_sendchange
 '
 :
-True
+False
     
 '
 perfherder_extra_options
