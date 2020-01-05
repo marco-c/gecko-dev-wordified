@@ -1230,6 +1230,14 @@ registerRunTests
 (
 )
 {
+return
+new
+Promise
+(
+resolve
+=
+>
+{
 /
 /
 We
@@ -1474,6 +1482,10 @@ dispatchEvent
 runTestEvent
 )
 ;
+resolve
+(
+)
+;
 }
 )
 ;
@@ -1502,6 +1514,9 @@ body
 appendChild
 (
 form
+)
+;
+}
 )
 ;
 }
