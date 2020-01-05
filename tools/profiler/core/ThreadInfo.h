@@ -260,6 +260,10 @@ const
 {
 return
 mPlatformData
+.
+get
+(
+)
 ;
 }
 void
@@ -357,8 +361,10 @@ PseudoStack
 *
 mPseudoStack
 ;
-PlatformData
-*
+Sampler
+:
+:
+UniquePlatformData
 mPlatformData
 ;
 mozilla

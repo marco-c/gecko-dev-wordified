@@ -256,14 +256,6 @@ MOZ_COUNT_DTOR
 ThreadInfo
 )
 ;
-Sampler
-:
-:
-FreePlatformData
-(
-mPlatformData
-)
-;
 }
 void
 ThreadInfo
