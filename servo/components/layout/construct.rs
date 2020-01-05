@@ -5116,15 +5116,6 @@ is_empty
 return
 }
 let
-selection
-=
-node
-.
-selection
-(
-)
-;
-let
 mut
 style
 =
@@ -5184,7 +5175,11 @@ UnscannedTextFragmentInfo
 new
 (
 string
+node
+.
 selection
+(
+)
 )
 ;
 let
