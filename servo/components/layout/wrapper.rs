@@ -953,7 +953,6 @@ LayoutNode
 ln
 >
 {
-pub
 fn
 from_layout_js
 (
@@ -2674,7 +2673,6 @@ LayoutDocument
 le
 >
 {
-pub
 fn
 from_layout_js
 (
@@ -2891,7 +2889,6 @@ LayoutElement
 le
 >
 {
-pub
 fn
 from_layout_js
 (
