@@ -222,7 +222,7 @@ Create
 nsIWidget
 *
 aWidget
-ClientLayerManager
+LayerManager
 *
 aLayerManager
 const
