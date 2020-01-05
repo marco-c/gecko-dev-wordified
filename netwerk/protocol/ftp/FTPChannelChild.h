@@ -214,6 +214,9 @@ h
 namespace
 mozilla
 {
+class
+Dispatcher
+;
 namespace
 net
 {
@@ -845,6 +848,17 @@ parent
 .
 bool
 mSuspendSent
+;
+RefPtr
+<
+Dispatcher
+>
+mDispatcher
+;
+void
+EnsureDispatcher
+(
+)
 ;
 }
 ;
