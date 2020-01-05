@@ -2900,17 +2900,11 @@ silence
 }
 mLastEndTime
 =
-TimeUnit
-:
-:
-FromMicroseconds
-(
 data
 -
 >
 GetEndTime
 (
-)
 )
 ;
 mFramesParsed

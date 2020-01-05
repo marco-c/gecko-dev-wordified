@@ -1898,10 +1898,6 @@ GetEndTime
 )
 <
 aTimeThreshold
-.
-ToMicroseconds
-(
-)
 )
 {
 mLastVideoFrame

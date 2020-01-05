@@ -331,6 +331,10 @@ aItem
 GetEndTime
 (
 )
+.
+ToMicroseconds
+(
+)
 >
 =
 aItem
@@ -714,6 +718,10 @@ last
 GetEndTime
 (
 )
+.
+ToMicroseconds
+(
+)
 -
 first
 -
@@ -843,6 +851,10 @@ v
 -
 >
 GetEndTime
+(
+)
+.
+ToMicroseconds
 (
 )
 <
