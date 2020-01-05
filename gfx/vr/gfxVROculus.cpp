@@ -2589,12 +2589,6 @@ timeOffset
 VRHMDSensorState
 result
 ;
-result
-.
-Clear
-(
-)
-;
 ovrTrackingState
 state
 =

@@ -1470,12 +1470,6 @@ nullptr
 VRHMDSensorState
 result
 ;
-result
-.
-Clear
-(
-)
-;
 :
 :
 vr

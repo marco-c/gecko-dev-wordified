@@ -1201,6 +1201,15 @@ other
 struct
 VRHMDSensorState
 {
+VRHMDSensorState
+(
+)
+{
+Clear
+(
+)
+;
+}
 double
 timestamp
 ;

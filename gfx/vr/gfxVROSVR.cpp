@@ -1832,12 +1832,6 @@ result
 OSVR_TimeValue
 timestamp
 ;
-result
-.
-Clear
-(
-)
-;
 OSVR_OrientationState
 orientation
 ;
