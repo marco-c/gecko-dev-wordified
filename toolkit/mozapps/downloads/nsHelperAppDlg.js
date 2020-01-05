@@ -1944,6 +1944,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
