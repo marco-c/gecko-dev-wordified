@@ -757,6 +757,12 @@ str
 :
 DOMString
 ;
+use
+string_cache
+:
+:
+Atom
+;
 /
 /
 /
@@ -988,7 +994,7 @@ self
 name
 :
 &
-str
+Atom
 value
 :
 DOMString
