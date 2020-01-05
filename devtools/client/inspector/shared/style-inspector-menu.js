@@ -183,7 +183,13 @@ item
 )
 ;
 const
-overlays
+{
+VIEW_NODE_SELECTOR_TYPE
+VIEW_NODE_PROPERTY_TYPE
+VIEW_NODE_VALUE_TYPE
+VIEW_NODE_IMAGE_URL_TYPE
+VIEW_NODE_LOCATION_TYPE
+}
 =
 require
 (
@@ -196,11 +202,9 @@ inspector
 /
 shared
 /
-style
+node
 -
-inspector
--
-overlays
+types
 "
 )
 ;
@@ -1226,8 +1230,6 @@ type
 )
 {
 case
-overlays
-.
 VIEW_NODE_PROPERTY_TYPE
 :
 menuitemCopyPropertyDeclaration
@@ -1245,8 +1247,6 @@ true
 break
 ;
 case
-overlays
-.
 VIEW_NODE_VALUE_TYPE
 :
 menuitemCopyPropertyDeclaration
@@ -1264,8 +1264,6 @@ true
 break
 ;
 case
-overlays
-.
 VIEW_NODE_SELECTOR_TYPE
 :
 menuitemCopySelector
@@ -1277,8 +1275,6 @@ true
 break
 ;
 case
-overlays
-.
 VIEW_NODE_LOCATION_TYPE
 :
 menuitemCopyLocation
@@ -2064,8 +2060,6 @@ nodeInfo
 type
 =
 =
-overlays
-.
 VIEW_NODE_PROPERTY_TYPE
 ;
 }
@@ -2133,8 +2127,6 @@ nodeInfo
 type
 =
 =
-overlays
-.
 VIEW_NODE_IMAGE_URL_TYPE
 ;
 }
