@@ -268,7 +268,6 @@ VARIANT
 aCurrentValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -359,7 +358,6 @@ currentValue
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleValue
@@ -371,7 +369,6 @@ VARIANT
 aValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 aValue
@@ -435,7 +432,6 @@ S_OK
 :
 E_FAIL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleValue
@@ -448,7 +444,6 @@ VARIANT
 aMaximumValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -539,7 +534,6 @@ maximumValue
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleValue
@@ -552,7 +546,6 @@ VARIANT
 aMinimumValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -643,5 +636,4 @@ minimumValue
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

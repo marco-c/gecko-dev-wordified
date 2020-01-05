@@ -578,7 +578,6 @@ __RPC_FAR
 aValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -764,7 +763,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 /
 /

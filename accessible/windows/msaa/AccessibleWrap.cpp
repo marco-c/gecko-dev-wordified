@@ -883,7 +883,6 @@ void
 ppv
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1286,7 +1285,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 /
 /
@@ -1416,7 +1414,6 @@ __RPC_FAR
 ppdispParent
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1577,7 +1574,6 @@ xpParentAcc
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -1591,7 +1587,6 @@ __RPC_FAR
 pcountChildren
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1637,7 +1632,6 @@ ChildCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -1672,7 +1666,6 @@ __RPC_FAR
 ppdispChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1807,7 +1800,6 @@ ppdispChild
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 /
 *
@@ -2125,7 +2117,6 @@ __RPC_FAR
 pszName
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2292,7 +2283,6 @@ E_OUTOFMEMORY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -2328,7 +2318,6 @@ __RPC_FAR
 pszValue
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2478,7 +2467,6 @@ E_OUTOFMEMORY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -2494,7 +2482,6 @@ __RPC_FAR
 pszDescription
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2589,7 +2576,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -2625,7 +2611,6 @@ __RPC_FAR
 pvarRole
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3130,7 +3115,6 @@ S_OK
 return
 E_FAIL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -3166,7 +3150,6 @@ __RPC_FAR
 pvarState
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3338,7 +3321,6 @@ msaaState
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -3374,7 +3356,6 @@ __RPC_FAR
 pszHelp
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3391,7 +3372,6 @@ nullptr
 return
 S_FALSE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -3438,7 +3418,6 @@ __RPC_FAR
 pidTopic
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3464,7 +3443,6 @@ pidTopic
 return
 S_FALSE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -3500,7 +3478,6 @@ __RPC_FAR
 pszKeyboardShortcut
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3618,7 +3595,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -3642,7 +3618,6 @@ __RPC_FAR
 pvarChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3840,7 +3815,6 @@ child
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 /
 *
@@ -4005,7 +3979,6 @@ void
 ppvObject
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 iid
@@ -4070,7 +4043,6 @@ nullptr
 return
 E_NOINTERFACE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleEnumerator
@@ -4092,7 +4064,6 @@ FAR
 pceltFetched
 )
 {
-A11Y_TRYBLOCK_BEGIN
 uint32_t
 length
 =
@@ -4211,7 +4182,6 @@ celt
 return
 hr
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleEnumerator
@@ -4227,7 +4197,6 @@ FAR
 ppenum
 )
 {
-A11Y_TRYBLOCK_BEGIN
 *
 ppenum
 =
@@ -4256,7 +4225,6 @@ ppenum
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleEnumerator
@@ -4269,7 +4237,6 @@ long
 celt
 )
 {
-A11Y_TRYBLOCK_BEGIN
 uint32_t
 length
 =
@@ -4316,7 +4283,6 @@ celt
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 /
 *
@@ -4482,7 +4448,6 @@ __RPC_FAR
 pvarChildren
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -4584,7 +4549,6 @@ pEnum
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -4620,7 +4584,6 @@ __RPC_FAR
 pszDefaultAction
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -4716,7 +4679,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -4747,7 +4709,6 @@ VARIANT
 varChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 RefPtr
 <
 IAccessible
@@ -4948,7 +4909,6 @@ S_OK
 return
 E_FAIL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -5014,7 +4974,6 @@ VARIANT
 varChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -5142,7 +5101,6 @@ height
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -5187,7 +5145,6 @@ __RPC_FAR
 pvarEndUpAt
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -5565,7 +5522,6 @@ VT_DISPATCH
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -5607,7 +5563,6 @@ __RPC_FAR
 pvarChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -5737,7 +5692,6 @@ S_FALSE
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap
@@ -5759,7 +5713,6 @@ VARIANT
 varChild
 )
 {
-A11Y_TRYBLOCK_BEGIN
 RefPtr
 <
 IAccessible
@@ -5815,7 +5768,6 @@ S_OK
 :
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 AccessibleWrap

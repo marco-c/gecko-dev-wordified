@@ -258,7 +258,6 @@ BSTR
 aDescription
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -346,7 +345,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleImage
@@ -365,7 +363,6 @@ long
 aY
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -461,7 +458,6 @@ y
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleImage
@@ -477,7 +473,6 @@ long
 aWidth
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -552,5 +547,4 @@ height
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

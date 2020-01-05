@@ -182,7 +182,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -244,7 +243,6 @@ aEndOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText
@@ -258,7 +256,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -320,7 +317,6 @@ aEndOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText
@@ -335,7 +331,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 uint32_t
 length
 =
@@ -415,7 +410,6 @@ aOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText
@@ -429,7 +423,6 @@ long
 aEndOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -491,7 +484,6 @@ aEndOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText
@@ -503,7 +495,6 @@ long
 aOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 MOZ_ASSERT
 (
 !
@@ -563,7 +554,6 @@ aOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText
@@ -580,7 +570,6 @@ BSTR
 aText
 )
 {
-A11Y_TRYBLOCK_BEGIN
 HyperTextAccessible
 *
 textAcc
@@ -661,7 +650,6 @@ aStartOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleEditableText

@@ -644,7 +644,6 @@ long
 aNRelations
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -762,7 +761,6 @@ aNRelations
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -778,7 +776,6 @@ IAccessibleRelation
 aRelation
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -944,7 +941,6 @@ relIdx
 return
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -963,7 +959,6 @@ long
 aNRelations
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1131,7 +1126,6 @@ aNRelations
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -1144,7 +1138,6 @@ long
 aRole
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1348,7 +1341,6 @@ ROLE_SYSTEM_OUTLINEITEM
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -1361,7 +1353,6 @@ IA2ScrollType
 aScrollType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 AccessibleWrap
 *
 acc
@@ -1426,7 +1417,6 @@ aScrollType
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -1443,7 +1433,6 @@ long
 aY
 )
 {
-A11Y_TRYBLOCK_BEGIN
 AccessibleWrap
 *
 acc
@@ -1513,7 +1502,6 @@ aY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -1532,7 +1520,6 @@ long
 aPositionInGroup
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1676,7 +1663,6 @@ posInSet
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -1689,7 +1675,6 @@ AccessibleStates
 aStates
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2069,7 +2054,6 @@ IA2_STATE_PINNED
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2082,7 +2066,6 @@ BSTR
 aExtendedRole
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2099,7 +2082,6 @@ nullptr
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2112,7 +2094,6 @@ BSTR
 aLocalizedExtendedRole
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2129,7 +2110,6 @@ nullptr
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2142,7 +2122,6 @@ long
 aNExtendedStates
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2159,7 +2138,6 @@ aNExtendedStates
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2178,7 +2156,6 @@ long
 aNExtendedStates
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2204,7 +2181,6 @@ aNExtendedStates
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2223,7 +2199,6 @@ long
 aNLocalizedExtendedStates
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2249,7 +2224,6 @@ aNLocalizedExtendedStates
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2262,7 +2236,6 @@ long
 aUniqueID
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2298,7 +2271,6 @@ acc
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2311,7 +2283,6 @@ HWND
 aWindowHandle
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2364,7 +2335,6 @@ acc
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2377,7 +2347,6 @@ long
 aIndexInParent
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2453,7 +2422,6 @@ S_FALSE
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2466,7 +2434,6 @@ IA2Locale
 aLocale
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2826,7 +2793,6 @@ get
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -2839,7 +2805,6 @@ BSTR
 aAttributes
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2952,7 +2917,6 @@ IsProxy
 return
 E_UNEXPECTED
 ;
-A11Y_TRYBLOCK_END
 }
 /
 /
@@ -3050,7 +3014,6 @@ VARIANT
 aAttribute
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3062,7 +3025,6 @@ E_INVALIDARG
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -3079,7 +3041,6 @@ long
 aCaretOffset
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3247,7 +3208,6 @@ caretOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -3269,7 +3229,6 @@ long
 aNTargets
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3566,7 +3525,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2Accessible
@@ -3583,7 +3541,6 @@ long
 aNRanges
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -3893,7 +3850,6 @@ EndOffset
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 /
 /

@@ -244,7 +244,6 @@ void
 aInstancePtr
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -369,7 +368,6 @@ S_OK
 return
 E_NOINTERFACE
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -406,7 +404,6 @@ __RPC_FAR
 aNodeType
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -712,7 +709,6 @@ GetChildCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -742,7 +738,6 @@ __RPC_FAR
 aNumAttribs
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -962,7 +957,6 @@ get
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -987,7 +981,6 @@ __RPC_FAR
 aAttribValues
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1194,7 +1187,6 @@ get
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1222,7 +1214,6 @@ __RPC_FAR
 aNumStyleProperties
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1454,7 +1445,6 @@ realIndex
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1477,7 +1467,6 @@ __RPC_FAR
 aStyleValues
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1610,7 +1599,6 @@ get
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1622,7 +1610,6 @@ boolean
 aScrollTopLeft
 )
 {
-A11Y_TRYBLOCK_BEGIN
 DocAccessible
 *
 document
@@ -1697,7 +1684,6 @@ scrollType
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1713,7 +1699,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1782,7 +1767,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1798,7 +1782,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1867,7 +1850,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1883,7 +1865,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -1952,7 +1933,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -1968,7 +1948,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2037,7 +2016,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -2053,7 +2031,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2122,7 +2099,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -2140,7 +2116,6 @@ __RPC_FAR
 aNode
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2210,7 +2185,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -2224,7 +2198,6 @@ __RPC_FAR
 aInnerHTML
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2318,7 +2291,6 @@ E_OUTOFMEMORY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -2334,7 +2306,6 @@ __RPC_FAR
 aLocalInterface
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2369,7 +2340,6 @@ AddRef
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 sdnAccessible
@@ -2383,7 +2353,6 @@ __RPC_FAR
 aLanguage
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -2512,5 +2481,4 @@ E_OUTOFMEMORY
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }

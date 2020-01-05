@@ -249,7 +249,6 @@ long
 aActionCount
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -301,7 +300,6 @@ ActionCount
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleAction
@@ -313,7 +311,6 @@ long
 aActionIndex
 )
 {
-A11Y_TRYBLOCK_BEGIN
 AccessibleWrap
 *
 acc
@@ -363,7 +360,6 @@ S_OK
 :
 E_INVALIDARG
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleAction
@@ -378,7 +374,6 @@ BSTR
 aDescription
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -478,7 +473,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleAction
@@ -499,7 +493,6 @@ long
 aNumBinding
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -719,7 +712,6 @@ aNumBinding
 return
 S_OK
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleAction
@@ -734,7 +726,6 @@ BSTR
 aName
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -834,7 +825,6 @@ S_OK
 :
 E_OUTOFMEMORY
 ;
-A11Y_TRYBLOCK_END
 }
 STDMETHODIMP
 ia2AccessibleAction
@@ -849,7 +839,6 @@ BSTR
 aLocalizedName
 )
 {
-A11Y_TRYBLOCK_BEGIN
 if
 (
 !
@@ -866,5 +855,4 @@ nullptr
 return
 E_NOTIMPL
 ;
-A11Y_TRYBLOCK_END
 }
