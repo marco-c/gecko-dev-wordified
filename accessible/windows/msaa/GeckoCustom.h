@@ -209,6 +209,15 @@ long
 aCount
 )
 ;
+virtual
+STDMETHODIMP
+get_ID
+(
+uint64_t
+*
+aID
+)
+;
 private
 :
 GeckoCustom
