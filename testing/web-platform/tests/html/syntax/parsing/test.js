@@ -2342,7 +2342,7 @@ iframe
 .
 id
 ;
-step_timeout
+setTimeout
 (
 function
 (

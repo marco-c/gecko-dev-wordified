@@ -22,17 +22,8 @@ import
 traceback
 import
 types
-from
-six
-.
-moves
-.
-urllib
-.
-parse
 import
-urlsplit
-urlunsplit
+urlparse
 from
 .
 import
@@ -569,6 +560,8 @@ request
         
 split_url
 =
+urlparse
+.
 urlsplit
 (
 request_handler
@@ -654,6 +647,8 @@ destination
                 
 new_url
 =
+urlparse
+.
 urlunsplit
 (
 new_url
@@ -3182,6 +3177,8 @@ return
 None
         
 return
+urlparse
+.
 urlunsplit
 (
 (
@@ -3197,7 +3194,7 @@ else
 "
 https
 "
-                           
+                                    
 "
 %
 s
@@ -3214,7 +3211,7 @@ self
 .
 port
 )
-                           
+                                    
 path
 query
 fragment
