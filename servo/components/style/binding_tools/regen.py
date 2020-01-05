@@ -1498,6 +1498,12 @@ h
 "
             
 "
+ServoTypes
+.
+h
+"
+            
+"
 nsStyleStructList
 .
 h
@@ -1551,6 +1557,18 @@ ThreadSafe
 .
 *
 Holder
+"
+            
+"
+ConsumeStyleBehavior
+"
+            
+"
+LazyComputeBehavior
+"
+            
+"
+SkipRootBehavior
 "
         
 ]
@@ -1872,13 +1890,57 @@ servo_owned_types
 :
 [
             
+{
+                
+"
+name
+"
+:
 "
 RawServoStyleSet
 "
+                
+"
+opaque
+"
+:
+True
             
+}
+{
+                
+"
+name
+"
+:
 "
 StyleChildrenIterator
 "
+                
+"
+opaque
+"
+:
+True
+            
+}
+{
+                
+"
+name
+"
+:
+"
+ServoElementSnapshot
+"
+                
+"
+opaque
+"
+:
+False
+            
+}
         
 ]
         
@@ -2640,6 +2702,11 @@ features
 "
 "
 llvm_stable
+"
+"
+-
+-
+release
 "
 "
 -
@@ -4383,7 +4450,7 @@ current_target
 :
         
 for
-ty
+entry
 in
 current_target
 [
@@ -4393,6 +4460,15 @@ servo_owned_types
 ]
 :
             
+ty
+=
+entry
+[
+"
+name
+"
+]
+            
 flags
 .
 append
@@ -4855,6 +4931,15 @@ ty
 )
 )
             
+if
+entry
+[
+"
+opaque
+"
+]
+:
+                
 zero_size_type
 (
 ty

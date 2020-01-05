@@ -680,6 +680,7 @@ reflow
 [
 derive
 (
+Debug
 PartialEq
 )
 ]

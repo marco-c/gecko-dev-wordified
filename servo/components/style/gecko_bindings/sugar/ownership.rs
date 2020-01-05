@@ -1779,6 +1779,13 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+Debug
+)
+]
 /
 /
 /
