@@ -62,7 +62,7 @@ MPL
 A
 generic
 safe
-mechnanism
+mechanism
 by
 which
 DOM
