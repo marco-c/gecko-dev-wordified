@@ -767,6 +767,17 @@ i
 device_id
 )
 ;
+j
+=
+mDeviceIndexes
+-
+>
+Length
+(
+)
+-
+1
+;
 }
 if
 (
