@@ -90,8 +90,6 @@ int
 aPid
 ProcessPriority
 aPriority
-uint32_t
-aLRU
 )
 {
 HAL_LOG
@@ -105,8 +103,6 @@ SetProcessPriority
 d
 %
 s
-%
-u
 )
 \
 n
@@ -116,7 +112,6 @@ ProcessPriorityToString
 (
 aPriority
 )
-aLRU
 )
 ;
 }

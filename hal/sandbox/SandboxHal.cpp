@@ -1391,8 +1391,6 @@ int
 aPid
 ProcessPriority
 aPriority
-uint32_t
-aLRU
 )
 {
 NS_RUNTIMEABORT

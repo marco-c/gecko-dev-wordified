@@ -3632,8 +3632,6 @@ int
 aPid
 ProcessPriority
 aPriority
-uint32_t
-aLRU
 )
 {
 /
@@ -3663,7 +3661,6 @@ SetProcessPriority
 (
 aPid
 aPriority
-aLRU
 )
 )
 ;
