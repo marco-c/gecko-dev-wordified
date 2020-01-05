@@ -278,6 +278,7 @@ KeyboardEvent
 MessageEvent
 MouseEvent
 ProgressEvent
+StorageEvent
 UIEvent
 ErrorEvent
 }
