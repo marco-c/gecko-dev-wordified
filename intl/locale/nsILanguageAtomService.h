@@ -229,11 +229,6 @@ nsIAtom
 *
 GetLocaleLanguage
 (
-nsresult
-*
-aError
-=
-nullptr
 )
 =
 0
