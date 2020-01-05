@@ -188,6 +188,7 @@ false
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -289,6 +290,7 @@ aResult
 }
 protected
 :
+MOZ_MUST_USE
 nsresult
 GetSubstitutionInternal
 (
@@ -310,6 +312,7 @@ nsResProtocolHandler
 )
 {
 }
+MOZ_MUST_USE
 bool
 ResolveSpecialCases
 (

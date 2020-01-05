@@ -276,6 +276,7 @@ nullptr
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 CollectSubstitutions
 (
@@ -301,6 +302,7 @@ ConstructInternal
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 SendSubstitution
 (
@@ -331,6 +333,7 @@ checking
 mSubstitutions
 .
 virtual
+MOZ_MUST_USE
 nsresult
 GetSubstitutionInternal
 (
@@ -375,6 +378,7 @@ checking
 substitutions
 .
 virtual
+MOZ_MUST_USE
 bool
 ResolveSpecialCases
 (
@@ -418,6 +422,7 @@ opening
 channels
 .
 virtual
+MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (
@@ -655,6 +660,7 @@ StartClone
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 EnsureFile
 (

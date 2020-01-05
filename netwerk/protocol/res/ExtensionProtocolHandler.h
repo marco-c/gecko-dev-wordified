@@ -170,6 +170,7 @@ ExtensionProtocolHandler
 )
 {
 }
+MOZ_MUST_USE
 bool
 ResolveSpecialCases
 (
@@ -192,6 +193,7 @@ aResult
 override
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (
