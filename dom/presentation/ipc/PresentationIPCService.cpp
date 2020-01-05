@@ -284,6 +284,14 @@ NS_WARN_IF
 (
 !
 contentChild
+|
+|
+contentChild
+-
+>
+IsShuttingDown
+(
+)
 )
 )
 {
