@@ -231,9 +231,7 @@ entries
 )
 {
 let
-{
-attachment
-}
+item
 =
 RequestsMenu
 .
@@ -244,7 +242,7 @@ i
 ;
 is
 (
-attachment
+item
 .
 method
 method
@@ -261,7 +259,7 @@ method
 ;
 is
 (
-attachment
+item
 .
 url
 requestUrl
@@ -494,8 +492,6 @@ getItemAtIndex
 (
 index
 )
-.
-attachment
 ;
 is
 (
