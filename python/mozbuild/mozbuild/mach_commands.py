@@ -1786,6 +1786,71 @@ handler
 release
 (
 )
+class
+StoreDebugParamsAndWarnAction
+(
+argparse
+.
+Action
+)
+:
+    
+def
+__call__
+(
+self
+parser
+namespace
+values
+option_string
+=
+None
+)
+:
+        
+sys
+.
+stderr
+.
+write
+(
+'
+The
+-
+-
+debugparams
+argument
+is
+deprecated
+.
+Please
+'
++
+                         
+'
+use
+-
+-
+debugger
+-
+args
+instead
+.
+\
+n
+\
+n
+'
+)
+        
+setattr
+(
+namespace
+self
+.
+dest
+values
+)
 CommandProvider
 class
 Build
@@ -9171,7 +9236,9 @@ CommandArgument
 '
 -
 -
-debugparams
+debugger
+-
+args
 '
 default
 =
@@ -9213,6 +9280,41 @@ shell
 would
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+debugparams
+'
+action
+=
+StoreDebugParamsAndWarnAction
+        
+default
+=
+None
+type
+=
+str
+dest
+=
+'
+debugger_args
+'
+group
+=
+'
+debugging
+'
+        
+help
+=
+argparse
+.
+SUPPRESS
 )
     
 CommandArgumentGroup
@@ -9399,7 +9501,7 @@ disable_e10s
 enable_crash_reporter
 debug
 debugger
-debugparams
+debugger_args
         
 dmd
 mode
@@ -9464,7 +9566,7 @@ debug
 or
 debugger
 or
-debugparams
+debugger_args
 )
 :
                 
@@ -9762,7 +9864,7 @@ debug
 or
 debugger
 or
-debugparams
+debugger_args
 :
             
 if
@@ -9841,7 +9943,7 @@ mozdebug
 get_debugger_info
 (
 debugger
-debugparams
+debugger_args
 )
                 
 if
@@ -9890,7 +9992,7 @@ use
 .
             
 if
-debugparams
+debugger_args
 :
                 
 from
@@ -9901,13 +10003,13 @@ shellutil
 try
 :
                     
-debugparams
+debugger_args
 =
 shellutil
 .
 split
 (
-debugparams
+debugger_args
 )
                 
 except
@@ -9924,7 +10026,9 @@ print
 The
 -
 -
-debugparams
+debugger
+-
+args
 you
 passed
 require
