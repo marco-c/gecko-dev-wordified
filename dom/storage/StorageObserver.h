@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIDOMStorageObserver_h__
+mozilla_dom_StorageObserver_h
 #
 define
-nsIDOMStorageObserver_h__
+mozilla_dom_StorageObserver_h
 #
 include
 "
@@ -162,15 +162,15 @@ namespace
 dom
 {
 class
-DOMStorageObserver
+StorageObserver
 ;
 /
 /
 Implementers
 are
-DOMStorageManager
+StorageManager
 and
-DOMStorageDBParent
+StorageDBParent
 to
 forward
 to
@@ -180,13 +180,13 @@ child
 processes
 .
 class
-DOMStorageObserverSink
+StorageObserverSink
 {
 public
 :
 virtual
 ~
-DOMStorageObserverSink
+StorageObserverSink
 (
 )
 {
@@ -195,7 +195,7 @@ private
 :
 friend
 class
-DOMStorageObserver
+StorageObserver
 ;
 virtual
 nsresult
@@ -223,7 +223,7 @@ aOriginScope
 /
 Statically
 (
-though
+through
 layout
 statics
 )
@@ -231,9 +231,9 @@ initialized
 observer
 receiving
 and
+/
+/
 processing
-/
-/
 chrome
 clearing
 notifications
@@ -244,7 +244,7 @@ deletion
 etc
 .
 class
-DOMStorageObserver
+StorageObserver
 :
 public
 nsIObserver
@@ -268,7 +268,7 @@ Shutdown
 )
 ;
 static
-DOMStorageObserver
+StorageObserver
 *
 Self
 (
@@ -281,7 +281,7 @@ sSelf
 void
 AddSink
 (
-DOMStorageObserverSink
+StorageObserverSink
 *
 aObs
 )
@@ -289,7 +289,7 @@ aObs
 void
 RemoveSink
 (
-DOMStorageObserverSink
+StorageObserverSink
 *
 aObs
 )
@@ -323,7 +323,7 @@ private
 :
 virtual
 ~
-DOMStorageObserver
+StorageObserver
 (
 )
 {
@@ -342,7 +342,7 @@ aClosure
 )
 ;
 static
-DOMStorageObserver
+StorageObserver
 *
 sSelf
 ;
@@ -352,7 +352,7 @@ Weak
 references
 nsTArray
 <
-DOMStorageObserverSink
+StorageObserverSink
 *
 >
 mSinks
@@ -377,3 +377,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_dom_StorageObserver_h

@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-DOMStorageManager
+StorageManager
 .
 h
 "
@@ -687,6 +687,8 @@ forms
 when
 we
 are
+/
+/
 here
 )
 :
@@ -1095,7 +1097,7 @@ NS_OK
 /
 namespace
 namespace
-DOMStorageDBUpdater
+StorageDBUpdater
 {
 nsresult
 CreateSchema1Tables
@@ -1514,9 +1516,9 @@ Just
 create
 the
 schema
+/
+/
 table
-/
-/
 and
 break
 to
@@ -1532,6 +1534,8 @@ e
 .
 bypass
 update
+/
+/
 from
 the
 old
@@ -1993,11 +1997,11 @@ split
 to
 oa
 suffix
+/
+/
 and
 origin
 key
-/
-/
 First
 rename
 the
@@ -2009,11 +2013,11 @@ to
 remove
 some
 columns
+/
+/
 no
 longer
 needed
-/
-/
 but
 even
 before
@@ -2025,6 +2029,8 @@ from
 it
 (
 CREATE
+/
+/
 IF
 NOT
 EXISTS
@@ -2032,8 +2038,6 @@ for
 index
 on
 the
-/
-/
 new
 table
 would
@@ -2448,10 +2452,10 @@ of
 the
 database
 significantly
+/
+/
 smaller
 .
-/
-/
 VACUUM
 cannot
 be
@@ -2490,7 +2494,7 @@ NS_OK
 /
 /
 namespace
-DOMStorageDBUpdater
+StorageDBUpdater
 }
 /
 /

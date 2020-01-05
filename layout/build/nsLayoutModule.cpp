@@ -576,7 +576,7 @@ h
 #
 include
 "
-DOMStorageManager
+StorageManager
 .
 h
 "

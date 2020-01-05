@@ -518,7 +518,7 @@ mozilla
 /
 dom
 /
-DOMStorage
+Storage
 .
 h
 "

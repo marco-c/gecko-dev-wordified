@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DOMStorageDBUpdater_h___
+mozilla_dom_StorageDBUpdater_h
 #
 define
-DOMStorageDBUpdater_h___
+mozilla_dom_StorageDBUpdater_h
 namespace
 mozilla
 {
@@ -127,7 +127,7 @@ namespace
 dom
 {
 namespace
-DOMStorageDBUpdater
+StorageDBUpdater
 {
 nsresult
 Update
@@ -140,7 +140,7 @@ aWorkerConnection
 }
 /
 /
-DOMStorageDBUpdater
+StorageDBUpdater
 }
 /
 /
@@ -151,3 +151,6 @@ dom
 mozilla
 #
 endif
+/
+/
+mozilla_dom_StorageDBUpdater_h

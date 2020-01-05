@@ -466,7 +466,7 @@ h
 #
 include
 "
-DOMStorageObserver
+StorageObserver
 .
 h
 "
@@ -1326,7 +1326,7 @@ rv
 }
 rv
 =
-DOMStorageObserver
+StorageObserver
 :
 :
 Init
@@ -1347,7 +1347,7 @@ NS_ERROR
 Could
 not
 initialize
-DOMStorageObserver
+StorageObserver
 "
 )
 ;
@@ -1842,7 +1842,7 @@ Shutdown
 ;
 #
 endif
-DOMStorageObserver
+StorageObserver
 :
 :
 Shutdown

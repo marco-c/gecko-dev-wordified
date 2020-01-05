@@ -188,7 +188,7 @@ mozilla
 /
 dom
 /
-DOMStorage
+Storage
 .
 h
 "
@@ -58613,7 +58613,7 @@ nullptr
 )
 ;
 }
-DOMStorage
+Storage
 *
 nsGlobalWindow
 :
@@ -58948,7 +58948,7 @@ mSessionStorage
 =
 static_cast
 <
-DOMStorage
+Storage
 *
 >
 (
@@ -59054,7 +59054,7 @@ return
 mSessionStorage
 ;
 }
-DOMStorage
+Storage
 *
 nsGlobalWindow
 :
@@ -59315,7 +59315,7 @@ mLocalStorage
 =
 static_cast
 <
-DOMStorage
+Storage
 *
 >
 (
@@ -64075,7 +64075,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-DOMStorage
+Storage
 >
 changingStorage
 =
@@ -64203,7 +64203,7 @@ GetType
 )
 {
 case
-DOMStorage
+Storage
 :
 :
 SessionStorage
@@ -64368,7 +64368,7 @@ break
 ;
 }
 case
-DOMStorage
+Storage
 :
 :
 LocalStorage
@@ -65172,7 +65172,7 @@ mUrl
 ;
 RefPtr
 <
-DOMStorage
+Storage
 >
 storageArea
 =
@@ -65190,7 +65190,7 @@ storageArea
 ;
 RefPtr
 <
-DOMStorage
+Storage
 >
 storage
 ;
@@ -65204,7 +65204,7 @@ GetType
 )
 =
 =
-DOMStorage
+Storage
 :
 :
 LocalStorage
@@ -65230,7 +65230,7 @@ GetType
 )
 =
 =
-DOMStorage
+Storage
 :
 :
 SessionStorage
