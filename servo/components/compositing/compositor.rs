@@ -3344,9 +3344,6 @@ Msg
 :
 :
 Exit
-(
-channel
-)
 _
 )
 =
@@ -3356,17 +3353,6 @@ self
 .
 start_shutting_down
 (
-)
-;
-let
-_
-=
-channel
-.
-send
-(
-(
-)
 )
 ;
 }
