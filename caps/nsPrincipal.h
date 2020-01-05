@@ -334,16 +334,6 @@ InitializeStatics
 (
 )
 ;
-PrincipalKind
-Kind
-(
-)
-override
-{
-return
-eCodebasePrincipal
-;
-}
 nsCOMPtr
 <
 nsIURI

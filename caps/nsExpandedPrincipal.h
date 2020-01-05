@@ -307,16 +307,6 @@ aOrigin
 )
 override
 ;
-PrincipalKind
-Kind
-(
-)
-override
-{
-return
-eExpandedPrincipal
-;
-}
 protected
 :
 virtual

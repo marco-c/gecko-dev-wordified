@@ -290,6 +290,11 @@ OriginAttributes
 &
 aAttrs
 )
+:
+BasePrincipal
+(
+eExpandedPrincipal
+)
 {
 /
 /
