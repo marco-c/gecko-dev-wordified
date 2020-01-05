@@ -185,10 +185,6 @@ pub
 fn
 new_inherited
 (
-global
-:
-&
-GlobalRef
 _file_bits
 :
 &
@@ -213,7 +209,6 @@ Blob
 :
 new_inherited
 (
-global
 )
 name
 :
@@ -278,7 +273,6 @@ File
 :
 new_inherited
 (
-global
 file_bits
 name
 )
