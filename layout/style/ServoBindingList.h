@@ -343,6 +343,13 @@ sheet
 RawServoStyleSheetBorrowed
 reference
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSet_NoteStyleSheetsChanged
+void
+RawServoStyleSetBorrowed
+set
+)
 /
 /
 CSSRuleList
