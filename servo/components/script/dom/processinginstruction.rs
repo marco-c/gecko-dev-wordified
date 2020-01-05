@@ -259,7 +259,6 @@ data
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -299,7 +298,6 @@ data
 DOMString
 document
 :
-&
 JSRef
 <
 Document

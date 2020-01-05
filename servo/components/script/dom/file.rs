@@ -191,7 +191,6 @@ new_inherited
 (
 _file_bits
 :
-&
 JSRef
 <
 Blob
@@ -253,7 +252,6 @@ global
 GlobalRef
 file_bits
 :
-&
 JSRef
 <
 Blob

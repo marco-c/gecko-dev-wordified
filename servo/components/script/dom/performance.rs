@@ -196,7 +196,6 @@ new_inherited
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -223,7 +222,6 @@ JS
 :
 from_rooted
 (
-&
 PerformanceTiming
 :
 :
@@ -240,7 +238,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -266,7 +263,6 @@ window
 &
 Window
 (
-*
 window
 )
 PerformanceBinding

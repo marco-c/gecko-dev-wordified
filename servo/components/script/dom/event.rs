@@ -714,7 +714,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 event
 )

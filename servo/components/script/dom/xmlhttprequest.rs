@@ -1183,7 +1183,6 @@ JS
 :
 from_rooted
 (
-&
 XMLHttpRequestUpload
 :
 :
@@ -2145,7 +2144,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2156,6 +2154,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2184,7 +2183,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2195,6 +2193,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -3981,7 +3980,6 @@ Step
 let
 upload_target
 =
-&
 *
 self
 .
@@ -3994,7 +3992,6 @@ root
 let
 event_target
 :
-&
 JSRef
 <
 EventTarget
@@ -6437,7 +6434,6 @@ root
 let
 target
 :
-&
 JSRef
 <
 EventTarget
@@ -6448,6 +6444,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6456,7 +6453,6 @@ target
 dispatch_event_with_target
 (
 None
-&
 *
 event
 )
@@ -7486,7 +7482,6 @@ root
 let
 upload_target
 =
-&
 *
 self
 .
@@ -7534,7 +7529,6 @@ root
 let
 target
 :
-&
 JSRef
 <
 EventTarget
@@ -7558,6 +7552,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 }
@@ -7565,7 +7560,6 @@ self
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -7576,7 +7570,6 @@ EventCast
 :
 from_ref
 (
-&
 *
 progressevent
 )

@@ -369,7 +369,6 @@ tag_name
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -415,7 +414,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -497,7 +495,6 @@ bool
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -508,6 +505,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -555,7 +553,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -566,6 +563,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -594,7 +592,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -605,6 +602,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -643,6 +641,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -690,6 +689,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -758,7 +758,7 @@ Element
 ElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -835,6 +835,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -874,7 +875,6 @@ get_jsobject
 let
 evtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -885,6 +885,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;

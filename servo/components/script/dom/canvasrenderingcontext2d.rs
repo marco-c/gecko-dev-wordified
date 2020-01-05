@@ -251,7 +251,6 @@ global
 GlobalRef
 canvas
 :
-&
 JSRef
 <
 HTMLCanvasElement
@@ -322,7 +321,6 @@ global
 GlobalRef
 canvas
 :
-&
 JSRef
 <
 HTMLCanvasElement

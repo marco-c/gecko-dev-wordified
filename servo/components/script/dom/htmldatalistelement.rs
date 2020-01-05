@@ -289,7 +289,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -330,7 +329,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -412,14 +410,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -439,7 +435,6 @@ is_htmloptionelement
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -450,6 +445,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -476,7 +472,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 node

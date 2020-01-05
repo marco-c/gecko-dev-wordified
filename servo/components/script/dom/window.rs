@@ -1876,6 +1876,7 @@ Location
 :
 new
 (
+*
 self
 page
 )
@@ -2029,6 +2030,7 @@ Navigator
 :
 new
 (
+*
 self
 )
 ;
@@ -2238,6 +2240,7 @@ Temporary
 :
 from_rooted
 (
+*
 self
 )
 }
@@ -2366,6 +2369,7 @@ Performance
 :
 new
 (
+*
 self
 )
 ;
@@ -2420,7 +2424,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2431,6 +2434,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2459,7 +2463,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2470,6 +2473,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2499,7 +2503,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2510,6 +2513,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2538,7 +2542,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2549,6 +2552,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2578,7 +2582,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2589,6 +2592,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2617,7 +2621,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2628,6 +2631,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2657,7 +2661,6 @@ OnErrorEventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2668,6 +2671,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2696,7 +2700,6 @@ OnErrorEventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -2707,6 +2710,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2754,6 +2758,7 @@ Screen
 :
 new
 (
+*
 self
 )
 ;
@@ -2952,7 +2957,6 @@ init_browser_context
 self
 doc
 :
-&
 JSRef
 <
 Document
@@ -3295,7 +3299,6 @@ init_browser_context
 self
 doc
 :
-&
 JSRef
 <
 Document

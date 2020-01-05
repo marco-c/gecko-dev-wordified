@@ -239,7 +239,6 @@ tag_name
 DOMString
 document
 :
-&
 JSRef
 <
 Document

@@ -274,7 +274,6 @@ text
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -308,7 +307,6 @@ text
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -389,6 +387,7 @@ Comment
 new
 (
 data
+*
 &
 *
 document

@@ -373,7 +373,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -414,7 +413,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -464,7 +462,6 @@ handle_event_impl
 self
 event
 :
-&
 JSRef
 <
 Event
@@ -493,7 +490,6 @@ handle_event_impl
 self
 event
 :
-&
 JSRef
 <
 Event
@@ -527,7 +523,6 @@ DefaultPrevented
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -538,6 +533,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -597,7 +593,6 @@ value
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -608,6 +603,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -689,7 +685,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -750,7 +746,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -761,6 +756,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -837,7 +833,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -848,6 +843,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -883,7 +879,6 @@ handle_event
 self
 event
 :
-&
 JSRef
 <
 Event
@@ -987,7 +982,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -998,6 +992,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1024,7 +1019,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1035,6 +1029,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

@@ -702,7 +702,6 @@ EventTarget
 >
 event
 :
-&
 JSRef
 <
 Event
@@ -865,7 +864,6 @@ EventTarget
 >
 event
 :
-&
 JSRef
 <
 Event
@@ -924,6 +922,7 @@ Ok
 (
 dispatch_event
 (
+*
 self
 target
 event
@@ -1901,7 +1900,6 @@ DispatchEvent
 self
 event
 :
-&
 JSRef
 <
 Event

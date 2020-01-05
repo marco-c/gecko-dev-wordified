@@ -399,7 +399,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -485,7 +484,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -570,7 +568,6 @@ u32
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -581,6 +578,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -625,7 +623,6 @@ u32
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -636,6 +633,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -702,6 +700,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -750,6 +749,7 @@ Window
 *
 window
 )
+*
 self
 Size2D
 (
@@ -842,7 +842,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )

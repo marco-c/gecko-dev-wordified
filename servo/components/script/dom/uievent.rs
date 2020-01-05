@@ -360,7 +360,6 @@ new_uninitialized
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -386,7 +385,6 @@ UIEventTypeId
 &
 Window
 (
-*
 window
 )
 UIEventBinding
@@ -401,7 +399,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -470,7 +467,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 ev
 )
@@ -651,7 +647,6 @@ i32
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -662,6 +657,7 @@ EventCast
 :
 from_ref
 (
+*
 self
 )
 ;

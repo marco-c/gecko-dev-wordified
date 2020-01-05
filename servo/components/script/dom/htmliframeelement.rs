@@ -590,7 +590,6 @@ Url
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -601,6 +600,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -657,6 +657,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -779,6 +780,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -883,7 +885,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -954,7 +955,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -1021,7 +1021,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1032,6 +1031,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1057,7 +1057,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1068,6 +1067,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1094,7 +1094,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1105,6 +1104,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1130,7 +1130,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1141,6 +1140,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1194,6 +1194,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -1353,7 +1354,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -1559,7 +1560,6 @@ as_slice
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1570,6 +1570,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

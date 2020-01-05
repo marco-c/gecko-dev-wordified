@@ -235,7 +235,6 @@ new
 (
 global
 :
-&
 JSRef
 <
 WorkerGlobalScope
@@ -264,7 +263,6 @@ url
 &
 Worker
 (
-*
 global
 )
 WorkerLocationBinding

@@ -842,7 +842,6 @@ delayed_release_worker
 let
 scope
 :
-&
 JSRef
 <
 WorkerGlobalScope
@@ -853,7 +852,6 @@ WorkerGlobalScopeCast
 :
 from_ref
 (
-&
 *
 global
 )
@@ -861,7 +859,6 @@ global
 let
 target
 :
-&
 JSRef
 <
 EventTarget
@@ -872,7 +869,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 global
 )
@@ -955,7 +951,6 @@ target
 &
 Worker
 (
-*
 scope
 )
 message
@@ -1180,7 +1175,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -1191,6 +1185,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1219,7 +1214,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -1230,6 +1224,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;

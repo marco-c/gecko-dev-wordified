@@ -265,7 +265,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -306,7 +305,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -378,6 +376,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -390,7 +389,6 @@ ValidityState
 :
 new
 (
-&
 *
 window
 )

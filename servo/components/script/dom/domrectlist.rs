@@ -194,7 +194,6 @@ new_inherited
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -232,6 +231,7 @@ JS
 :
 from_rooted
 (
+*
 rect
 )
 )
@@ -270,7 +270,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -306,7 +305,6 @@ rects
 &
 Window
 (
-*
 window
 )
 DOMRectListBinding

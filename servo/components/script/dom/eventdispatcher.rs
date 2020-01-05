@@ -210,7 +210,6 @@ b
 (
 target
 :
-&
 JSRef
 <
 '
@@ -230,7 +229,6 @@ EventTarget
 >
 event
 :
-&
 JSRef
 <
 Event
@@ -351,7 +349,6 @@ is_node
 let
 target_node
 :
-&
 JSRef
 <
 Node
@@ -384,7 +381,6 @@ ancestor
 let
 ancestor_target
 :
-&
 JSRef
 <
 EventTarget
@@ -395,7 +391,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 ancestor
 )
 ;
@@ -546,7 +541,6 @@ listener
 .
 HandleEvent_
 (
-&
 *
 *
 cur_target
@@ -881,7 +875,6 @@ listener
 .
 HandleEvent_
 (
-&
 *
 *
 cur_target
@@ -974,7 +967,6 @@ node
 :
 Option
 <
-&
 JSRef
 <
 Node
@@ -986,7 +978,6 @@ NodeCast
 :
 to_ref
 (
-&
 *
 target
 )
@@ -1006,6 +997,7 @@ vtable
 =
 vtable_for
 (
+&
 node
 )
 ;

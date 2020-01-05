@@ -259,7 +259,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -300,7 +299,6 @@ right
 &
 Window
 (
-*
 window
 )
 DOMRectBinding

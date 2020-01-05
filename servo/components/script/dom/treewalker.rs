@@ -375,7 +375,6 @@ new_inherited
 (
 root_node
 :
-&
 JSRef
 <
 Node
@@ -439,14 +438,12 @@ new_with_filter
 (
 document
 :
-&
 JSRef
 <
 Document
 >
 root_node
 :
-&
 JSRef
 <
 Node
@@ -506,14 +503,12 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document
 >
 root_node
 :
-&
 JSRef
 <
 Node
@@ -708,7 +703,6 @@ SetCurrentNode
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -970,7 +964,6 @@ b
 |
 node
 :
-&
 JSRef
 <
 '
@@ -1081,7 +1074,6 @@ is_root_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -1100,7 +1092,6 @@ is_current_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -1119,7 +1110,6 @@ first_following_node_not_following_root
 self
 node
 :
-&
 JSRef
 <
 '
@@ -1144,7 +1134,6 @@ accept_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -1333,7 +1322,6 @@ Node
 =
 next_child
 (
-&
 *
 cur
 )
@@ -1409,7 +1397,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 {
@@ -1468,7 +1455,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -1483,7 +1469,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -1547,7 +1532,6 @@ last
 match
 next_child
 (
-&
 node
 )
 {
@@ -1674,7 +1658,6 @@ previous
 match
 next_sibling
 (
-&
 node
 )
 {
@@ -1811,7 +1794,6 @@ self
 .
 is_root_node
 (
-&
 parent
 )
 |
@@ -1820,7 +1802,6 @@ self
 .
 is_current_node
 (
-&
 parent
 )
 =
@@ -2008,7 +1989,6 @@ self
 .
 is_root_node
 (
-&
 node
 )
 {
@@ -2067,7 +2047,6 @@ sibling_op
 =
 next_sibling
 (
-&
 node
 )
 ;
@@ -2143,7 +2122,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 ;
@@ -2205,7 +2183,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -2220,7 +2197,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -2267,7 +2243,6 @@ sibling_op
 =
 next_child
 (
-&
 node
 )
 ;
@@ -2340,7 +2315,6 @@ sibling_op
 =
 next_sibling
 (
-&
 node
 )
 _
@@ -2418,7 +2392,6 @@ self
 .
 is_root_node
 (
-&
 n
 )
 =
@@ -2463,7 +2436,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 {
@@ -2540,7 +2512,6 @@ first_following_node_not_following_root
 self
 node
 :
-&
 JSRef
 <
 '
@@ -2605,7 +2576,6 @@ let
 mut
 candidate
 =
-*
 node
 ;
 while
@@ -2614,7 +2584,6 @@ self
 .
 is_root_node
 (
-&
 candidate
 )
 &
@@ -2691,7 +2660,6 @@ self
 .
 is_root_node
 (
-&
 candidate
 )
 {
@@ -2739,7 +2707,6 @@ accept_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -2949,6 +2916,7 @@ callback
 .
 AcceptNode_
 (
+*
 self
 node
 RethrowExceptions
@@ -2962,7 +2930,6 @@ is_root_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -2994,7 +2961,6 @@ is_current_node
 self
 node
 :
-&
 JSRef
 <
 '
@@ -3284,7 +3250,6 @@ self
 .
 is_root_node
 (
-&
 node
 )
 {
@@ -3361,7 +3326,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 {
@@ -3397,7 +3361,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -3412,7 +3375,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -3849,7 +3811,6 @@ self
 .
 is_root_node
 (
-&
 node
 )
 {
@@ -4011,7 +3972,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 {
@@ -4089,7 +4049,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4104,7 +4063,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4164,7 +4122,6 @@ self
 .
 is_root_node
 (
-&
 node
 )
 |
@@ -4288,7 +4245,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 {
@@ -4324,7 +4280,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4339,7 +4294,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4582,7 +4536,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 ;
@@ -4644,7 +4597,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4659,7 +4611,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4714,7 +4665,6 @@ self
 .
 first_following_node_not_following_root
 (
-&
 node
 )
 {
@@ -4767,7 +4717,6 @@ self
 .
 accept_node
 (
-&
 node
 )
 ;
@@ -4829,7 +4778,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -4844,7 +4792,6 @@ Temporary
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -5025,7 +4972,6 @@ fn
 (
 node
 :
-&
 JSRef
 <
 Node

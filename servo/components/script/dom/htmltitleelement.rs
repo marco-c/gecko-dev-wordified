@@ -287,7 +287,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -328,7 +327,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -415,7 +413,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -426,6 +423,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -454,7 +452,6 @@ text
 :
 Option
 <
-&
 JSRef
 <
 Text
@@ -466,7 +463,6 @@ TextCast
 :
 to_ref
 (
-&
 child
 )
 ;
@@ -539,7 +535,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -550,6 +545,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

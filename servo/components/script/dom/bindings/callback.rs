@@ -782,7 +782,6 @@ mut
 JSContext
 p
 :
-&
 JSRef
 <
 T
@@ -950,7 +949,6 @@ CallbackContainer
 (
 callback
 :
-&
 T
 handling
 :

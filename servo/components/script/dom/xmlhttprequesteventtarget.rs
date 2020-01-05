@@ -320,7 +320,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -331,6 +330,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -359,7 +359,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -370,6 +369,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -399,7 +399,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -410,6 +409,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -438,7 +438,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -449,6 +448,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -478,7 +478,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -489,6 +488,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -517,7 +517,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -528,6 +527,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -557,7 +557,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -568,6 +567,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -596,7 +596,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -607,6 +606,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -636,7 +636,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -647,6 +646,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -675,7 +675,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -686,6 +685,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -715,7 +715,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -726,6 +725,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -754,7 +754,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -765,6 +764,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -794,7 +794,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -805,6 +804,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -833,7 +833,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -844,6 +843,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;

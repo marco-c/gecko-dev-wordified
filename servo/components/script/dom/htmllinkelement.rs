@@ -326,7 +326,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -367,7 +366,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -455,7 +453,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -516,7 +514,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -527,6 +524,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -603,7 +601,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -614,6 +611,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -684,7 +682,6 @@ tree_in_doc
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -695,6 +692,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -953,6 +951,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .

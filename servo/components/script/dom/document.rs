@@ -1051,14 +1051,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1090,14 +1088,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1129,14 +1125,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1187,14 +1181,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1226,14 +1218,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1265,14 +1255,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1314,14 +1302,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 _root
 :
-&
 JSRef
 <
 Node
@@ -1432,7 +1418,6 @@ unregister_named_element
 self
 to_unregister
 :
-&
 JSRef
 <
 Element
@@ -1449,7 +1434,6 @@ register_named_element
 self
 element
 :
-&
 JSRef
 <
 Element
@@ -1694,7 +1678,6 @@ unregister_named_element
 self
 to_unregister
 :
-&
 JSRef
 <
 Element
@@ -1769,7 +1752,6 @@ position
 |
 element
 |
-&
 *
 element
 =
@@ -1840,7 +1822,6 @@ register_named_element
 self
 element
 :
-&
 JSRef
 <
 Element
@@ -1857,7 +1838,6 @@ assert
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1987,7 +1967,6 @@ elements
 let
 new_node
 :
-&
 JSRef
 <
 Node
@@ -2012,7 +1991,6 @@ uint
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -2023,7 +2001,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -2042,7 +2019,6 @@ elem
 :
 Option
 <
-&
 JSRef
 <
 Element
@@ -2054,7 +2030,6 @@ ElementCast
 :
 to_ref
 (
-&
 node
 )
 ;
@@ -2069,7 +2044,6 @@ elem
 >
 {
 if
-&
 *
 (
 *
@@ -2097,7 +2071,6 @@ if
 new_node
 =
 =
-&
 node
 |
 |
@@ -2126,6 +2099,7 @@ elements
 insert_unrooted
 (
 head
+&
 element
 )
 ;
@@ -2151,6 +2125,7 @@ elements
 .
 push_unrooted
 (
+&
 element
 )
 ;
@@ -2202,7 +2177,6 @@ new_inherited
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -2634,7 +2608,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -2681,7 +2654,6 @@ content_type
 &
 Window
 (
-*
 window
 )
 DocumentBinding
@@ -2697,7 +2669,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -2708,7 +2679,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 document
 )
@@ -2717,6 +2687,7 @@ node
 .
 set_owner_doc
 (
+*
 &
 *
 document
@@ -2727,6 +2698,7 @@ Temporary
 :
 from_rooted
 (
+*
 &
 *
 document
@@ -2779,7 +2751,6 @@ callback
 |
 node
 :
-&
 JSRef
 <
 Node
@@ -2837,7 +2808,6 @@ callback
 |
 node
 :
-&
 JSRef
 <
 Node
@@ -2885,7 +2855,6 @@ NodeList
 :
 new_simple_list
 (
-&
 *
 window
 vec
@@ -2913,7 +2882,6 @@ vec
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -2924,7 +2892,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -2941,7 +2908,6 @@ traverse_preorder
 if
 callback
 (
-&
 child
 )
 {
@@ -2959,7 +2925,6 @@ NodeList
 :
 new_simple_list
 (
-&
 *
 window
 nodes
@@ -3002,7 +2967,6 @@ root
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -3013,7 +2977,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 *
 root
@@ -3049,7 +3012,6 @@ HTMLHtmlElementCast
 :
 to_ref
 (
-&
 *
 elem
 )
@@ -3135,6 +3097,7 @@ DOMImplementation
 :
 new
 (
+*
 self
 )
 )
@@ -3433,7 +3396,6 @@ DocumentType
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -3444,6 +3406,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -3476,7 +3439,6 @@ node
 let
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -3487,7 +3449,6 @@ DocumentTypeCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -3544,7 +3505,6 @@ Element
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -3555,6 +3515,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -3578,7 +3539,6 @@ Temporary
 :
 from_rooted
 (
-&
 elem
 )
 )
@@ -3635,7 +3595,6 @@ HTMLCollection
 :
 by_tag_name
 (
-&
 *
 window
 NodeCast
@@ -3643,6 +3602,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 tag_name
@@ -3706,7 +3666,6 @@ HTMLCollection
 :
 by_tag_name_ns
 (
-&
 *
 window
 NodeCast
@@ -3714,6 +3673,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 tag_name
@@ -3772,7 +3732,6 @@ HTMLCollection
 :
 by_class_name
 (
-&
 *
 window
 NodeCast
@@ -3780,6 +3739,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 classes
@@ -3969,6 +3929,7 @@ namespace
 :
 :
 HTML
+*
 self
 )
 )
@@ -4384,6 +4345,7 @@ to_string
 (
 )
 ns
+*
 self
 )
 )
@@ -4416,6 +4378,7 @@ to_string
 (
 )
 )
+*
 self
 )
 )
@@ -4459,6 +4422,7 @@ DocumentFragment
 :
 new
 (
+*
 self
 )
 }
@@ -4504,6 +4468,7 @@ Text
 new
 (
 data
+*
 self
 )
 }
@@ -4549,6 +4514,7 @@ Comment
 new
 (
 data
+*
 self
 )
 }
@@ -4660,6 +4626,7 @@ new
 (
 target
 data
+*
 self
 )
 )
@@ -4691,7 +4658,6 @@ ImportNode
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -4760,6 +4726,7 @@ clone
 node
 Some
 (
+*
 self
 )
 clone_children
@@ -4793,7 +4760,6 @@ AdoptNode
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -4839,6 +4805,7 @@ Node
 adopt
 (
 node
+*
 self
 )
 ;
@@ -4944,7 +4911,6 @@ UIEvent
 :
 new_uninitialized
 (
-&
 *
 window
 )
@@ -4971,7 +4937,6 @@ MouseEvent
 :
 new_uninitialized
 (
-&
 *
 window
 )
@@ -5163,6 +5128,7 @@ Range
 :
 new
 (
+*
 self
 )
 }
@@ -5193,7 +5159,6 @@ CreateTreeWalker
 self
 root
 :
-&
 JSRef
 <
 Node
@@ -5220,6 +5185,7 @@ TreeWalker
 :
 new
 (
+*
 self
 root
 whatToShow
@@ -5292,7 +5258,6 @@ root
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -5303,7 +5268,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -5357,7 +5321,6 @@ is_text
 let
 text
 :
-&
 JSRef
 <
 Text
@@ -5368,7 +5331,6 @@ TextCast
 :
 to_ref
 (
-&
 child
 )
 .
@@ -5499,7 +5461,6 @@ root
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -5510,7 +5471,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -5608,7 +5568,6 @@ title_node
 .
 RemoveChild
 (
-&
 title_child
 )
 .
@@ -5656,7 +5615,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 new_text
 )
@@ -5688,6 +5646,7 @@ title
 to_string
 (
 )
+*
 self
 )
 .
@@ -5698,7 +5657,6 @@ root
 let
 new_title
 :
-&
 JSRef
 <
 Node
@@ -5709,7 +5667,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 new_title
 )
@@ -5752,7 +5709,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 new_text
 )
@@ -5861,7 +5817,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -5872,7 +5827,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -5919,7 +5873,6 @@ HTMLHeadElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -6000,7 +5953,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6011,7 +5963,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -6071,7 +6022,6 @@ HTMLElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -6150,7 +6100,6 @@ htmlelem
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6161,6 +6110,7 @@ NodeCast
 :
 from_ref
 (
+*
 htmlelem
 )
 ;
@@ -6326,7 +6276,6 @@ unwrap
 let
 new_body
 :
-&
 JSRef
 <
 Node
@@ -6337,14 +6286,12 @@ NodeCast
 :
 from_ref
 (
-&
 new_body_unwrapped
 )
 ;
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -6355,7 +6302,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 *
 root
@@ -6375,7 +6321,6 @@ child
 let
 child
 :
-&
 JSRef
 <
 Node
@@ -6386,7 +6331,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 *
 child
@@ -6502,7 +6446,6 @@ false
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -6607,6 +6550,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6629,7 +6573,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -6706,6 +6649,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6728,7 +6672,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -6824,6 +6767,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6846,7 +6790,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -6923,6 +6866,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6945,7 +6889,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -7022,6 +6965,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7044,7 +6988,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -7121,6 +7064,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7143,7 +7087,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -7233,6 +7176,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7255,7 +7199,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 root
@@ -7366,7 +7309,6 @@ HTMLCollection
 :
 children
 (
-&
 *
 window
 NodeCast
@@ -7374,6 +7316,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 )
@@ -7423,7 +7366,6 @@ Element
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -7434,6 +7376,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7486,7 +7429,6 @@ NodeList
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -7497,6 +7439,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7523,7 +7466,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -7534,6 +7476,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7562,7 +7505,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -7573,6 +7515,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7602,7 +7545,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -7613,6 +7555,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7641,7 +7584,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -7652,6 +7594,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;

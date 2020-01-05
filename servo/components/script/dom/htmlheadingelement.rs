@@ -259,7 +259,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -306,7 +305,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document

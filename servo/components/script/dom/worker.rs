@@ -634,7 +634,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 worker
 )
@@ -742,7 +741,6 @@ mut_null
 let
 target
 :
-&
 JSRef
 <
 EventTarget
@@ -753,7 +751,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 worker
 )
@@ -1129,7 +1126,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -1140,6 +1136,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1168,7 +1165,6 @@ EventHandlerNonNull
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -1179,6 +1175,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 ;

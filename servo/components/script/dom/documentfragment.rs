@@ -313,7 +313,6 @@ new_inherited
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -343,7 +342,6 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -424,12 +422,8 @@ DocumentFragment
 :
 new
 (
-&
+*
 document
-.
-root_ref
-(
-)
 )
 )
 }
@@ -486,6 +480,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -498,17 +493,14 @@ HTMLCollection
 :
 children
 (
-&
+*
 window
-.
-root_ref
-(
-)
 NodeCast
 :
 :
 from_ref
 (
+*
 self
 )
 )
@@ -558,7 +550,6 @@ Element
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -569,6 +560,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -621,7 +613,6 @@ NodeList
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -632,6 +623,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

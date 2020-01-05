@@ -246,7 +246,6 @@ new_inherited
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -283,7 +282,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -309,7 +307,6 @@ window
 &
 Window
 (
-*
 window
 )
 DOMParserBinding
@@ -417,12 +414,8 @@ Document
 :
 new
 (
-&
+*
 window
-.
-root_ref
-(
-)
 None
 HTMLDocument
 Some
@@ -451,12 +444,8 @@ Document
 :
 new
 (
-&
+*
 window
-.
-root_ref
-(
-)
 None
 NonHTMLDocument
 Some

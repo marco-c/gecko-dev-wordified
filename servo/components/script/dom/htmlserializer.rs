@@ -377,7 +377,6 @@ ElementNodeTypeId
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -388,7 +387,6 @@ ElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -414,7 +412,6 @@ CommentNodeTypeId
 let
 comment
 :
-&
 JSRef
 <
 Comment
@@ -425,7 +422,6 @@ CommentCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -448,7 +444,6 @@ TextNodeTypeId
 let
 text
 :
-&
 JSRef
 <
 Text
@@ -459,7 +454,6 @@ TextCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -482,7 +476,6 @@ DoctypeNodeTypeId
 let
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -493,7 +486,6 @@ DocumentTypeCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -516,7 +508,6 @@ ProcessingInstructionNodeTypeId
 let
 processing_instruction
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -527,7 +518,6 @@ ProcessingInstructionCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -627,7 +617,6 @@ serialize_comment
 (
 comment
 :
-&
 JSRef
 <
 Comment
@@ -695,7 +684,6 @@ serialize_text
 (
 text
 :
-&
 JSRef
 <
 Text
@@ -710,7 +698,6 @@ String
 let
 text_node
 :
-&
 JSRef
 <
 Node
@@ -760,7 +747,6 @@ is_element
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -771,7 +757,6 @@ ElementCast
 :
 to_ref
 (
-&
 *
 *
 parent
@@ -934,7 +919,6 @@ serialize_processing_instruction
 (
 processing_instruction
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -1024,7 +1008,6 @@ serialize_doctype
 (
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -1079,7 +1062,6 @@ serialize_elem
 (
 elem
 :
-&
 JSRef
 <
 Element
@@ -1155,7 +1137,6 @@ root
 ;
 serialize_attr
 (
-&
 *
 attr
 html
@@ -1216,7 +1197,6 @@ HTML
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1266,7 +1246,6 @@ is_text
 let
 text
 :
-&
 JSRef
 <
 CharacterData
@@ -1277,7 +1256,6 @@ CharacterDataCast
 :
 to_ref
 (
-&
 *
 *
 child
@@ -1407,7 +1385,6 @@ serialize_attr
 (
 attr
 :
-&
 JSRef
 <
 Attr
