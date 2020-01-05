@@ -117,6 +117,7 @@ dom
 :
 :
 {
+NodeInfo
 TElement
 TNode
 TRestyleDamage

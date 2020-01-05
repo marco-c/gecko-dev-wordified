@@ -357,6 +357,7 @@ dom
 :
 :
 {
+NodeInfo
 TDocument
 TElement
 TNode
