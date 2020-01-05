@@ -824,12 +824,6 @@ LayerBuffers
 buffer_map
 :
 BufferMap
-<
-Box
-<
-LayerBuffer
->
->
 }
 /
 /
@@ -2491,6 +2485,12 @@ mark_wont_leak
 )
 ;
 buffer
+.
+painted_with_cpu
+=
+true
+;
+buffer
 }
 None
 =
@@ -2598,6 +2598,9 @@ width
 )
 as
 uint
+painted_with_cpu
+:
+true
 }
 }
 }
@@ -2763,6 +2766,9 @@ width
 )
 as
 uint
+painted_with_cpu
+:
+false
 }
 }
 }
