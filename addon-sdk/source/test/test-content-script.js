@@ -3407,7 +3407,7 @@ tags
 return
 typeof
 '
-function
+object
 '
 let
 flash
@@ -3428,7 +3428,7 @@ flash
 =
 =
 "
-function
+object
 "
 "
 <
