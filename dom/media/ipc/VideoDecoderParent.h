@@ -380,6 +380,11 @@ override
 ;
 private
 :
+bool
+OnManagerThread
+(
+)
+;
 ~
 VideoDecoderParent
 (
