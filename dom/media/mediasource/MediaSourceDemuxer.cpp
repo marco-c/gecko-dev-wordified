@@ -208,7 +208,6 @@ MediaThreadType
 :
 PLAYBACK
 )
-aAbstractMainThread
 /
 *
 aSupportsTailDispatch
