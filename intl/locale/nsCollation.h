@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsCollationMacUC_h_
+nsCollation_h_
 #
 define
-nsCollationMacUC_h_
+nsCollation_h_
 #
 include
 "
@@ -139,7 +139,7 @@ ucol
 h
 "
 class
-nsCollationMacUC
+nsCollation
 final
 :
 public
@@ -147,7 +147,7 @@ nsICollation
 {
 public
 :
-nsCollationMacUC
+nsCollation
 (
 )
 ;
@@ -164,7 +164,7 @@ NS_DECL_NSICOLLATION
 protected
 :
 ~
-nsCollationMacUC
+nsCollation
 (
 )
 ;
@@ -220,6 +220,6 @@ mCollatorICU
 endif
 /
 *
-nsCollationMacUC_h_
+nsCollation_h_
 *
 /
