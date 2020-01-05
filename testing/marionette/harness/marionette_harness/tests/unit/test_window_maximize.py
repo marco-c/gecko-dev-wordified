@@ -676,10 +676,6 @@ self
 )
 :
         
-maximized
-=
-False
-        
 for
 i
 in
