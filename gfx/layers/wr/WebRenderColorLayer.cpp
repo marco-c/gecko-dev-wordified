@@ -304,6 +304,16 @@ relBounds
 height
 )
 ;
+Maybe
+<
+WRImageMask
+>
+mask
+=
+buildMaskLayer
+(
+)
+;
 WRBridge
 (
 )
@@ -321,9 +331,7 @@ ToWRRect
 (
 overflow
 )
-Nothing
-(
-)
+mask
 transform
 FrameMetrics
 :

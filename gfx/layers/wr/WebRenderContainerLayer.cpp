@@ -253,6 +253,16 @@ c_str
 )
 )
 ;
+Maybe
+<
+WRImageMask
+>
+mask
+=
+buildMaskLayer
+(
+)
+;
 WRBridge
 (
 )
@@ -270,9 +280,7 @@ ToWRRect
 (
 overflow
 )
-Nothing
-(
-)
+mask
 transform
 FrameMetrics
 :

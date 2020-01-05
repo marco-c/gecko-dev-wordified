@@ -534,6 +534,16 @@ clip
 rect
 ;
 }
+Maybe
+<
+WRImageMask
+>
+mask
+=
+buildMaskLayer
+(
+)
+;
 if
 (
 gfxPrefs
@@ -627,9 +637,7 @@ ToWRRect
 (
 overflow
 )
-Nothing
-(
-)
+mask
 transform
 FrameMetrics
 :
