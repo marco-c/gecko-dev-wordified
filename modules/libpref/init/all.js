@@ -56089,6 +56089,15 @@ d3d9
 false
 )
 ;
+/
+/
+Disable
+for
+now
+due
+to
+bug
+1304360
 pref
 (
 "
@@ -56100,7 +56109,7 @@ d3d9
 -
 fallback
 "
-true
+false
 )
 ;
 #
