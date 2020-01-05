@@ -6987,16 +6987,6 @@ Node
 forInOrOfExpression
 )
 ;
-bool
-validateForInOrOfLHSExpression
-(
-Node
-target
-PossibleError
-*
-possibleError
-)
-;
 Node
 expressionAfterForInOrOf
 (
@@ -8275,7 +8265,6 @@ CompoundAssignment
 KeyedDestructuringAssignment
 IncrementAssignment
 DecrementAssignment
-ForInOrOfTarget
 }
 ;
 bool
