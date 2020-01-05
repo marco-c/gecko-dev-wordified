@@ -104,6 +104,16 @@ JavaScript
 .
 *
 /
+/
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
 const
 FILE_SIMPLE_MAR
 =
