@@ -101,6 +101,7 @@ pub
 enum
 Error
 {
+IndexSize
 FailureUnknown
 NotFound
 HierarchyRequest
