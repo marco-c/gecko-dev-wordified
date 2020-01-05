@@ -484,6 +484,9 @@ chunk_hooks
 bool
 chunk_register
 (
+tsdn_t
+*
+tsdn
 const
 void
 *
@@ -492,9 +495,6 @@ const
 extent_node_t
 *
 node
-bool
-*
-gdump
 )
 ;
 void
