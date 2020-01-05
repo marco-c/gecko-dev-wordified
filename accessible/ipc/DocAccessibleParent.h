@@ -650,9 +650,10 @@ this
 )
 ;
 }
-mParent
-=
+SetParent
+(
 nullptr
+)
 ;
 }
 virtual
