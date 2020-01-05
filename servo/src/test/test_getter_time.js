@@ -10,9 +10,11 @@ firstChild
 var
 start
 =
+(
 new
 Date
 (
+)
 )
 .
 getTime
@@ -28,7 +30,7 @@ i
 ;
 i
 <
-10000
+100000
 ;
 i
 +
@@ -39,15 +41,17 @@ a
 =
 elem
 .
-width
+nodeType
 ;
 window
 .
 alert
 (
+(
 new
 Date
 (
+)
 )
 .
 getTime
@@ -57,6 +61,8 @@ getTime
 start
 )
 ;
+/
+*
 start
 =
 new
@@ -104,3 +110,5 @@ getTime
 start
 )
 ;
+*
+/
