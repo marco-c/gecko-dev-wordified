@@ -2377,13 +2377,10 @@ aBounds
 aOverflow
 aMask
 aOpacity
-&
+ToWrMatrix
+(
 aTransform
-.
-components
-[
-0
-]
+)
 aMixBlendMode
 )
 ;
