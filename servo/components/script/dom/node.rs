@@ -494,6 +494,7 @@ Document
 DocumentHelpers
 HTMLDocument
 NonHTMLDocument
+NotFromParser
 }
 ;
 use
@@ -10461,6 +10462,7 @@ clone
 )
 is_html_doc
 None
+NotFromParser
 )
 ;
 NodeCast
