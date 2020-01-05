@@ -1377,6 +1377,9 @@ define
 FRAME_ID
 (
 classname
+.
+.
+.
 )
 \
 case
@@ -1404,6 +1407,14 @@ classname
 break
 ;
 #
+define
+ABSTRACT_FRAME_ID
+(
+.
+.
+.
+)
+#
 include
 "
 nsFrameIdList
@@ -1413,6 +1424,9 @@ h
 #
 undef
 FRAME_ID
+#
+undef
+ABSTRACT_FRAME_ID
 case
 eArenaObjectID_nsLineBox
 :
