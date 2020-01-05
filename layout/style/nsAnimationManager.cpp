@@ -2800,6 +2800,11 @@ nsTimingFunction
 aTimingFunction
 )
 ;
+template
+<
+class
+BuilderType
+>
 static
 void
 UpdateOldAnimationPropertiesWithNew
@@ -2819,7 +2824,7 @@ Keyframe
 aNewKeyframes
 bool
 aNewIsStylePaused
-CSSAnimationBuilder
+BuilderType
 &
 aBuilder
 )
@@ -3193,6 +3198,11 @@ the
 new
 StyleAnimation
 .
+template
+<
+class
+BuilderType
+>
 static
 already_AddRefed
 <
@@ -3211,7 +3221,7 @@ const
 StyleAnimation
 &
 aSrc
-CSSAnimationBuilder
+BuilderType
 &
 aBuilder
 nsAnimationManager
@@ -6258,6 +6268,11 @@ return
 result
 ;
 }
+template
+<
+class
+BuilderType
+>
 static
 nsAnimationManager
 :
@@ -6281,7 +6296,7 @@ StyleAnimation
 aStyleAnimations
 uint32_t
 aStyleAnimationNameCount
-CSSAnimationBuilder
+BuilderType
 &
 aBuilder
 nsAnimationManager
@@ -6590,6 +6605,11 @@ builder
 )
 ;
 }
+template
+<
+class
+BuilderType
+>
 void
 nsAnimationManager
 :
@@ -6604,7 +6624,7 @@ const
 nsStyleDisplay
 &
 aStyleDisplay
-CSSAnimationBuilder
+BuilderType
 &
 aBuilder
 )
