@@ -4444,7 +4444,7 @@ SIMD_ALIGNED
 uint16
 temp
 [
-32
+64
 *
 2
 ]
@@ -4456,6 +4456,11 @@ memset
 temp
 0
 64
+*
+sizeof
+(
+uint16
+)
 )
 ;
 /
