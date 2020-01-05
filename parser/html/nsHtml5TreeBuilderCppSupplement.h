@@ -1056,7 +1056,10 @@ integrity
 mode
 =
 =
-NS_HTML5TREE_BUILDER_IN_HEAD
+nsHtml5TreeBuilder
+:
+:
+IN_HEAD
 )
 ;
 mCurrentHtmlScriptIsAsyncOrDefer
@@ -1789,7 +1792,10 @@ integrity
 mode
 =
 =
-NS_HTML5TREE_BUILDER_IN_HEAD
+nsHtml5TreeBuilder
+:
+:
+IN_HEAD
 )
 ;
 }

@@ -1764,6 +1764,7 @@ argument
 data
 *
 /
+Inline
 static
 AttributeName
 nameByBuffer
@@ -1841,9 +1842,7 @@ attributeName
 .
 getLocal
 (
-AttributeName
-.
-HTML
+0
 )
 ;
 if
@@ -2538,6 +2537,7 @@ CPPONLY
 /
 CPPONLY
 :
+Inline
 public
 boolean
 isInterned
@@ -2565,6 +2565,7 @@ CPPONLY
 /
 CPPONLY
 :
+Inline
 public
 void
 setNameForNonInterned
