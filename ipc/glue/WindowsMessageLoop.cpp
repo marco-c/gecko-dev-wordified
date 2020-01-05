@@ -2652,7 +2652,6 @@ lParam
 ;
 if
 (
-(
 objId
 =
 =
@@ -2663,7 +2662,6 @@ objId
 =
 =
 MOZOBJID_UIAROOT
-)
 )
 {
 WNDPROC
@@ -6024,11 +6022,9 @@ ACCESSIBILITY
 )
 if
 (
-(
 mFlags
 &
 REQUIRE_A11Y_REENTRY
-)
 )
 {
 MOZ_ASSERT
