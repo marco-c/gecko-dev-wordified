@@ -593,7 +593,7 @@ it
 .
 *
 /
-NS_EXPORT
+APKOPEN_EXPORT
 __attribute__
 (
 (
@@ -651,7 +651,7 @@ lib_mapping
 MAX_MAPPING_INFO
 ]
 ;
-NS_EXPORT
+APKOPEN_EXPORT
 const
 struct
 mapping_info
@@ -1063,7 +1063,7 @@ nullptr
 )
 ;
 }
-NS_EXPORT
+APKOPEN_EXPORT
 pthread_t
 getJavaUiThread
 (
@@ -1077,7 +1077,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoThread_registerUiThread
@@ -2005,7 +2005,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_extractGeckoLibsNative
@@ -2164,7 +2164,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadGeckoLibsNative
@@ -2284,7 +2284,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadSQLiteLibsNative
@@ -2425,7 +2425,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadNSSLibsNative
@@ -2809,7 +2809,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_nativeRun
@@ -3014,7 +3014,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 mozglueresult
 ChildProcessInit
 (
