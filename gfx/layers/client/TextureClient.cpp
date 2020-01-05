@@ -3503,7 +3503,7 @@ mAllocator
 ;
 }
 }
-void
+bool
 TextureClient
 :
 :
@@ -3577,6 +3577,9 @@ mUpdated
 =
 false
 ;
+return
+true
+;
 }
 else
 {
@@ -3585,6 +3588,9 @@ aDescriptor
 null_t
 (
 )
+;
+return
+false
 ;
 }
 }

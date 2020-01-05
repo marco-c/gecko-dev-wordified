@@ -760,6 +760,12 @@ InForwarderThread
 )
 ;
 }
+static
+uint32_t
+GetMaxFileDescriptorsPerMessage
+(
+)
+;
 protected
 :
 nsTArray
