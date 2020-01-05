@@ -182,7 +182,6 @@ model
 :
 :
 {
-Direction
 IntrinsicISizes
 MaybeAuto
 MinMaxConstraint
@@ -270,7 +269,10 @@ style
 logical_geometry
 :
 :
+{
+Direction
 LogicalSize
+}
 ;
 use
 style

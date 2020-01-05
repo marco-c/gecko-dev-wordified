@@ -227,7 +227,6 @@ model
 :
 {
 self
-Direction
 IntrinsicISizes
 IntrinsicISizesContribution
 MaybeAuto
@@ -446,6 +445,7 @@ logical_geometry
 :
 :
 {
+Direction
 LogicalMargin
 LogicalRect
 LogicalSize
