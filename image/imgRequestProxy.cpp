@@ -309,7 +309,6 @@ false
 )
 {
 }
-virtual
 already_AddRefed
 <
 mozilla
@@ -326,7 +325,6 @@ GetImage
 const
 override
 ;
-virtual
 bool
 HasImage
 (
@@ -334,7 +332,6 @@ HasImage
 const
 override
 ;
-virtual
 already_AddRefed
 <
 ProgressTracker
@@ -345,7 +342,6 @@ GetProgressTracker
 const
 override
 ;
-virtual
 imgRequest
 *
 GetOwner
@@ -358,7 +354,6 @@ return
 mOwner
 ;
 }
-virtual
 void
 SetOwner
 (
@@ -5405,7 +5400,6 @@ aImage
 )
 {
 }
-virtual
 already_AddRefed
 <
 mozilla
@@ -5444,7 +5438,6 @@ forget
 )
 ;
 }
-virtual
 bool
 HasImage
 (
@@ -5456,7 +5449,6 @@ return
 mImage
 ;
 }
-virtual
 already_AddRefed
 <
 ProgressTracker
@@ -5476,7 +5468,6 @@ GetProgressTracker
 )
 ;
 }
-virtual
 imgRequest
 *
 GetOwner
@@ -5489,7 +5480,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 SetOwner
 (
