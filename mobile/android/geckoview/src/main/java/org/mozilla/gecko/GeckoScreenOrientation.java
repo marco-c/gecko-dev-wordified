@@ -453,6 +453,16 @@ return
 sInstance
 ;
 }
+private
+GeckoScreenOrientation
+(
+)
+{
+update
+(
+)
+;
+}
 /
 *
 *
