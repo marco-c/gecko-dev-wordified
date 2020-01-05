@@ -207,6 +207,13 @@ char
 procname
 )
 ;
+}
+/
+/
+extern
+"
+C
+"
 /
 /
 Some
@@ -355,13 +362,6 @@ WR_FUNC
 #
 undef
 WR_DESTRUCTOR_SAFE_FUNC
-}
-/
-/
-extern
-"
-C
-"
 struct
 WrGlyphArray
 {
