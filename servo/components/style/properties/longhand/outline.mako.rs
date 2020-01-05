@@ -941,6 +941,9 @@ products
 "
 gecko
 "
+boxed
+=
+True
 animatable
 =
 False
