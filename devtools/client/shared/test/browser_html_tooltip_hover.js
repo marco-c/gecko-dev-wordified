@@ -132,13 +132,15 @@ stylesheet
 href
 =
 "
-chrome
+resource
 :
 /
 /
 devtools
 /
-skin
+client
+/
+themes
 /
 variables
 .
