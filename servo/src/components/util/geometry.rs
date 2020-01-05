@@ -167,6 +167,7 @@ pub
 struct
 Au
 (
+pub
 i32
 )
 ;

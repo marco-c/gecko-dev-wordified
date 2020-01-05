@@ -144,6 +144,7 @@ greatest
 positive
 margin
 .
+pub
 most_positive
 :
 Au
@@ -186,6 +187,7 @@ zero
 or
 negative
 .
+pub
 most_negative
 :
 Au
@@ -495,12 +497,15 @@ pub
 struct
 MarginCollapseInfo
 {
+pub
 state
 :
 MarginCollapseState
+pub
 top_margin
 :
 AdjoiningMargins
+pub
 margin_in
 :
 AdjoiningMargins
@@ -599,7 +604,7 @@ fragment
 .
 margin
 .
-get
+borrow
 (
 )
 .
@@ -797,7 +802,7 @@ fragment
 .
 margin
 .
-get
+borrow
 (
 )
 .
@@ -1521,6 +1526,7 @@ of
 the
 content
 .
+pub
 minimum_width
 :
 Au
@@ -1536,6 +1542,7 @@ of
 the
 content
 .
+pub
 preferred_width
 :
 Au
@@ -1564,6 +1571,7 @@ computing
 intrinsic
 widths
 .
+pub
 surround_width
 :
 Au

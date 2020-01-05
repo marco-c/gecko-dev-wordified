@@ -166,6 +166,7 @@ pub
 struct
 HTMLTableDataCellElement
 {
+pub
 htmltablecellelement
 :
 HTMLTableCellElement

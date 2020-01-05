@@ -196,6 +196,7 @@ pub
 struct
 HTMLOutputElement
 {
+pub
 htmlelement
 :
 HTMLElement

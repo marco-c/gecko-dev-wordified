@@ -178,6 +178,7 @@ pub
 struct
 HTMLParagraphElement
 {
+pub
 htmlelement
 :
 HTMLElement

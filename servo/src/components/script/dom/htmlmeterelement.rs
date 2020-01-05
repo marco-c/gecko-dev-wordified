@@ -178,6 +178,7 @@ pub
 struct
 HTMLMeterElement
 {
+pub
 htmlelement
 :
 HTMLElement

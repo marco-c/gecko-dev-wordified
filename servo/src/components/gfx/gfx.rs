@@ -57,6 +57,7 @@ MPL
 *
 /
 #
+!
 [
 crate_id
 =
@@ -76,8 +77,8 @@ gfx
 1
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -85,8 +86,8 @@ crate_type
 lib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -94,8 +95,8 @@ crate_type
 dylib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -103,8 +104,8 @@ crate_type
 rlib
 "
 ]
-;
 #
+!
 [
 feature
 (
@@ -113,15 +114,14 @@ macro_rules
 phase
 )
 ]
-;
 #
+!
 [
 feature
 (
 phase
 )
 ]
-;
 #
 [
 phase
@@ -149,6 +149,10 @@ geom
 extern
 crate
 layers
+;
+extern
+crate
+libc
 ;
 extern
 crate

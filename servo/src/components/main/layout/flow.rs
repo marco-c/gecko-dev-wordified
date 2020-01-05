@@ -3730,6 +3730,7 @@ pub
 struct
 FlowFlagsInfo
 {
+pub
 flags
 :
 FlowFlags
@@ -3740,6 +3741,7 @@ text
 -
 decoration
 colors
+pub
 rare_flow_flags
 :
 Option
@@ -3759,12 +3761,15 @@ pub
 struct
 RareFlowFlags
 {
+pub
 underline_color
 :
 Color
+pub
 overline_color
 :
 Color
+pub
 line_through_color
 :
 Color
@@ -3793,6 +3798,7 @@ pub
 struct
 FlowFlags
 (
+pub
 u8
 )
 ;
@@ -5180,6 +5186,7 @@ to
 every
 Descendant
 .
+pub
 descendant_links
 :
 SmallVec0
@@ -5203,6 +5210,7 @@ this
 flow
 box
 .
+pub
 static_y_offsets
 :
 SmallVec0
@@ -5519,6 +5527,7 @@ pub
 struct
 BaseFlow
 {
+pub
 restyle_damage
 :
 RestyleDamage
@@ -5531,12 +5540,15 @@ of
 this
 flow
 .
+pub
 children
 :
 FlowList
+pub
 next_sibling
 :
 Link
+pub
 prev_sibling
 :
 Rawlink
@@ -5575,6 +5587,7 @@ to
 save
 space
 .
+pub
 intrinsic_widths
 :
 IntrinsicWidths
@@ -5685,6 +5698,7 @@ margin
 box
 *
 .
+pub
 position
 :
 Rect
@@ -5725,6 +5739,7 @@ for
 correct
 invalidation
 .
+pub
 overflow
 :
 Rect
@@ -5760,6 +5775,7 @@ to
 save
 space
 .
+pub
 parallel
 :
 FlowParallelInfo
@@ -5773,6 +5789,7 @@ to
 this
 flow
 .
+pub
 floats
 :
 Floats
@@ -5791,6 +5808,7 @@ property
 if
 any
 .
+pub
 clear
 :
 clear
@@ -5864,6 +5882,7 @@ traversal
 for
 assign_height
 .
+pub
 num_floats
 :
 uint
@@ -5879,6 +5898,7 @@ flow
 if
 any
 .
+pub
 collapsible_margins
 :
 CollapsibleMargins
@@ -5899,6 +5919,7 @@ display
 list
 construction
 .
+pub
 abs_position
 :
 Point2D
@@ -5943,6 +5964,7 @@ any
 direct
 children
 .
+pub
 abs_descendants
 :
 AbsDescendants
@@ -5969,6 +5991,7 @@ absolutely
 positioned
 elements
 .
+pub
 absolute_static_x_offset
 :
 Au
@@ -5982,6 +6005,7 @@ Initial
 Containing
 Block
 .
+pub
 fixed_static_x_offset
 :
 Au
@@ -6000,6 +6024,7 @@ is
 absolutely
 positioned
 .
+pub
 absolute_cb
 :
 Rawlink
@@ -6048,7 +6073,6 @@ memory
 safety
 implications
 .
-priv
 destroyed
 :
 bool
@@ -6062,10 +6086,15 @@ flows
 and
 some
 info
+pub
 flags_info
 :
 FlowFlagsInfo
 }
+#
+[
+unsafe_destructor
+]
 impl
 Drop
 for
@@ -6287,11 +6316,10 @@ FlowFlagsInfo
 :
 new
 (
+&
+*
+*
 style
-.
-get
-(
-)
 )
 }
 }

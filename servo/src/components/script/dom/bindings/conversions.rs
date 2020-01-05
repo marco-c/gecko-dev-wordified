@@ -231,6 +231,9 @@ glue
 RUST_JS_NumberValue
 ;
 use
+libc
+;
+use
 std
 :
 :
@@ -238,12 +241,6 @@ default
 :
 :
 Default
-;
-use
-std
-:
-:
-libc
 ;
 use
 dom

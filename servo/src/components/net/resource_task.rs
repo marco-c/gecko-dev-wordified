@@ -187,6 +187,7 @@ URL
 after
 redirects
 .
+pub
 final_url
 :
 Url
@@ -198,6 +199,7 @@ type
 /
 subtype
 .
+pub
 content_type
 :
 Option
@@ -215,6 +217,7 @@ str
 Character
 set
 .
+pub
 charset
 :
 Option
@@ -451,6 +454,7 @@ from
 HTTP
 headers
 .
+pub
 metadata
 :
 Metadata
@@ -462,6 +466,7 @@ for
 reading
 data
 .
+pub
 progress_port
 :
 Receiver

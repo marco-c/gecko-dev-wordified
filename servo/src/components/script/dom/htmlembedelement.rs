@@ -178,6 +178,7 @@ pub
 struct
 HTMLEmbedElement
 {
+pub
 htmlelement
 :
 HTMLElement

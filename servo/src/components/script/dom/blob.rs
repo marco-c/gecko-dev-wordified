@@ -137,9 +137,11 @@ pub
 struct
 Blob
 {
+pub
 reflector_
 :
 Reflector
+pub
 window
 :
 JS

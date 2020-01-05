@@ -131,6 +131,7 @@ pub
 struct
 ConstellationChan
 (
+pub
 Sender
 <
 Msg
@@ -217,9 +218,11 @@ pub
 struct
 Failure
 {
+pub
 pipeline_id
 :
 PipelineId
+pub
 subpage_id
 :
 Option
@@ -372,6 +375,7 @@ pub
 struct
 PipelineId
 (
+pub
 uint
 )
 ;
@@ -390,6 +394,7 @@ pub
 struct
 SubpageId
 (
+pub
 uint
 )
 ;

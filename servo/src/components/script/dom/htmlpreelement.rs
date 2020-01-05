@@ -178,6 +178,7 @@ pub
 struct
 HTMLPreElement
 {
+pub
 htmlelement
 :
 HTMLElement

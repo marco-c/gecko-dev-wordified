@@ -166,6 +166,7 @@ pub
 struct
 HTMLMainElement
 {
+pub
 htmlelement
 :
 HTMLElement

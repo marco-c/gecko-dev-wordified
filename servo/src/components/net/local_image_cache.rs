@@ -169,6 +169,8 @@ proc
 (
 ImageResponseMsg
 )
+:
+Send
 ;
 }
 pub
@@ -205,15 +207,12 @@ pub
 struct
 LocalImageCache
 {
-priv
 image_cache_task
 :
 ImageCacheTask
-priv
 round_number
 :
 uint
-priv
 on_image_available
 :
 Option
@@ -223,7 +222,6 @@ ImageResponder
 :
 Send
 >
-priv
 state_map
 :
 UrlMap
@@ -757,6 +755,13 @@ is_some
 ;
 let
 on_image_available
+:
+proc
+(
+ImageResponseMsg
+)
+:
+Send
 =
 self
 .

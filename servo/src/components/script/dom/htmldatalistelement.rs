@@ -185,6 +185,7 @@ pub
 struct
 HTMLDataListElement
 {
+pub
 htmlelement
 :
 HTMLElement

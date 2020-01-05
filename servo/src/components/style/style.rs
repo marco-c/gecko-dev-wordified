@@ -57,6 +57,7 @@ MPL
 *
 /
 #
+!
 [
 crate_id
 =
@@ -76,8 +77,8 @@ style
 1
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -85,8 +86,8 @@ crate_type
 lib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -94,8 +95,8 @@ crate_type
 dylib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -103,8 +104,8 @@ crate_type
 rlib
 "
 ]
-;
 #
+!
 [
 comment
 =
@@ -116,8 +117,8 @@ Browser
 Project
 "
 ]
-;
 #
+!
 [
 license
 =
@@ -125,8 +126,8 @@ license
 MPL
 "
 ]
-;
 #
+!
 [
 feature
 (
@@ -134,15 +135,14 @@ globs
 macro_rules
 )
 ]
-;
 #
+!
 [
 feature
 (
 phase
 )
 ]
-;
 #
 [
 phase

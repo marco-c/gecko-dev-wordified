@@ -167,6 +167,7 @@ pub
 struct
 HTMLMediaElement
 {
+pub
 htmlelement
 :
 HTMLElement

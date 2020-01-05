@@ -193,6 +193,7 @@ pub
 struct
 HTMLFormElement
 {
+pub
 htmlelement
 :
 HTMLElement

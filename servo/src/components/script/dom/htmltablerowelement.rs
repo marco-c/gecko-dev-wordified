@@ -178,6 +178,7 @@ pub
 struct
 HTMLTableRowElement
 {
+pub
 htmlelement
 :
 HTMLElement

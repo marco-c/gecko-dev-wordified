@@ -281,9 +281,11 @@ pub
 struct
 DOMException
 {
+pub
 code
 :
 DOMErrorName
+pub
 reflector_
 :
 Reflector

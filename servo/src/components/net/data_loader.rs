@@ -243,7 +243,7 @@ splitn
 1
 )
 .
-to_owned_vec
+collect
 (
 )
 ;

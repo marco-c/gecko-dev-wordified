@@ -191,6 +191,7 @@ we
 re
 using
 .
+pub
 backend
 :
 BackendType
@@ -204,6 +205,7 @@ a
 font
 list
 .
+pub
 needs_font_list
 :
 bool
@@ -217,6 +219,7 @@ to
 the
 profiler
 .
+pub
 profiler_chan
 :
 ProfilerChan
@@ -248,6 +251,7 @@ pub
 struct
 FontContext
 {
+pub
 instance_cache
 :
 LRUCache
@@ -261,6 +265,7 @@ Font
 >
 >
 >
+pub
 font_list
 :
 Option
@@ -273,6 +278,7 @@ only
 needed
 by
 layout
+pub
 group_cache
 :
 LRUCache
@@ -286,12 +292,15 @@ FontGroup
 >
 >
 >
+pub
 handle
 :
 FontContextHandle
+pub
 backend
 :
 BackendType
+pub
 generic_fonts
 :
 HashMap
@@ -301,6 +310,7 @@ str
 ~
 str
 >
+pub
 profiler_chan
 :
 ProfilerChan

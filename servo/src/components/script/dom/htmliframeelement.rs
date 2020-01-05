@@ -276,6 +276,7 @@ pub
 struct
 HTMLIFrameElement
 {
+pub
 htmlelement
 :
 HTMLElement
@@ -288,12 +289,14 @@ Option
 Url
 >
 >
+pub
 size
 :
 Option
 <
 IFrameSize
 >
+pub
 sandbox
 :
 Option
@@ -349,9 +352,11 @@ pub
 struct
 IFrameSize
 {
+pub
 pipeline_id
 :
 PipelineId
+pub
 subpage_id
 :
 SubpageId

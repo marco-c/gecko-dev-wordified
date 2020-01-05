@@ -178,6 +178,7 @@ pub
 struct
 HTMLHRElement
 {
+pub
 htmlelement
 :
 HTMLElement

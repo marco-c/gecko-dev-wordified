@@ -196,6 +196,7 @@ pub
 struct
 HTMLButtonElement
 {
+pub
 htmlelement
 :
 HTMLElement

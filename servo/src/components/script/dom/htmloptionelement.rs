@@ -187,6 +187,7 @@ pub
 struct
 HTMLOptionElement
 {
+pub
 htmlelement
 :
 HTMLElement

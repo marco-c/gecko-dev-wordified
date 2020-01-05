@@ -167,6 +167,7 @@ for
 cascading
 order
 )
+pub
 rules
 :
 ~
@@ -200,6 +201,7 @@ pub
 struct
 StyleRule
 {
+pub
 selectors
 :
 ~
@@ -209,6 +211,7 @@ selectors
 :
 Selector
 ]
+pub
 declarations
 :
 properties

@@ -93,12 +93,14 @@ pub
 struct
 NamespaceMap
 {
+pub
 default
 :
 Option
 <
 Namespace
 >
+pub
 prefix_map
 :
 HashMap

@@ -166,6 +166,7 @@ pub
 struct
 HTMLSpanElement
 {
+pub
 htmlelement
 :
 HTMLElement

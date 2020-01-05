@@ -181,6 +181,7 @@ pub
 struct
 HTMLInputElement
 {
+pub
 htmlelement
 :
 HTMLElement

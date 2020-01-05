@@ -178,6 +178,7 @@ pub
 struct
 HTMLDataElement
 {
+pub
 htmlelement
 :
 HTMLElement

@@ -138,6 +138,7 @@ DisplayListBuilder
 a
 >
 {
+pub
 ctx
 :
 &
@@ -163,6 +164,7 @@ layer
 not
 included
 .
+pub
 layers
 :
 SmallVec0
@@ -176,6 +178,7 @@ The
 dirty
 rect
 .
+pub
 dirty
 :
 Rect
@@ -217,6 +220,7 @@ relatively
 positioned
 descendants
 .
+pub
 relative_containing_block_size
 :
 Size2D
@@ -236,6 +240,7 @@ absolute
 containing
 block
 .
+pub
 absolute_containing_block_position
 :
 Point2D
@@ -257,6 +262,7 @@ to
 be
 layerized
 .
+pub
 layers_needed_for_positioned_flows
 :
 bool

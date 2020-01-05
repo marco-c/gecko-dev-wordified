@@ -178,6 +178,7 @@ pub
 struct
 HTMLFontElement
 {
+pub
 htmlelement
 :
 HTMLElement

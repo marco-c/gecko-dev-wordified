@@ -178,6 +178,7 @@ pub
 struct
 HTMLLinkElement
 {
+pub
 htmlelement
 :
 HTMLElement

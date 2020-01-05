@@ -187,6 +187,7 @@ pub
 struct
 HTMLFrameElement
 {
+pub
 htmlelement
 :
 HTMLElement

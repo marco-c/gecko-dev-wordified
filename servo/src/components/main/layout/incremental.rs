@@ -240,7 +240,6 @@ pub
 struct
 RestyleDamage
 {
-priv
 bits
 :
 int

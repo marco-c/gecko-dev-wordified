@@ -149,6 +149,7 @@ to
 all
 flows
 .
+pub
 base
 :
 BaseFlow
@@ -159,6 +160,7 @@ The
 associated
 box
 .
+pub
 box_
 :
 Option
@@ -172,6 +174,7 @@ The
 table
 column
 boxes
+pub
 cols
 :
 ~
@@ -187,6 +190,7 @@ widths
 of
 table
 columns
+pub
 widths
 :
 ~

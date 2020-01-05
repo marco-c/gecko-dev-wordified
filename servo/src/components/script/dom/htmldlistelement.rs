@@ -178,6 +178,7 @@ pub
 struct
 HTMLDListElement
 {
+pub
 htmlelement
 :
 HTMLElement

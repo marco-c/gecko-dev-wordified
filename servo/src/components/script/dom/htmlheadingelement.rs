@@ -184,9 +184,11 @@ pub
 struct
 HTMLHeadingElement
 {
+pub
 htmlelement
 :
 HTMLElement
+pub
 level
 :
 HeadingLevel

@@ -360,6 +360,7 @@ stable
 across
 reflows
 .
+pub
 id
 :
 LayerId
@@ -376,6 +377,7 @@ of
 this
 layer
 .
+pub
 display_list
 :
 Arc
@@ -393,6 +395,7 @@ layer
 in
 pixels
 .
+pub
 position
 :
 Rect
@@ -416,6 +419,7 @@ for
 unrendered
 content
 .
+pub
 background_color
 :
 Color
@@ -429,6 +433,7 @@ of
 this
 layer
 .
+pub
 scroll_policy
 :
 ScrollPolicy
@@ -597,6 +602,7 @@ pub
 struct
 RenderChan
 {
+pub
 chan
 :
 Sender
@@ -888,7 +894,6 @@ to
 store
 unused
 LayerBuffers
-priv
 buffer_map
 :
 BufferMap
@@ -2227,10 +2232,6 @@ clone
 render_layer
 .
 display_list
-.
-get
-(
-)
 .
 draw_into_context
 (

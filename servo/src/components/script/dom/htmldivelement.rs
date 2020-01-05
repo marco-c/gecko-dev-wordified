@@ -178,6 +178,7 @@ pub
 struct
 HTMLDivElement
 {
+pub
 htmlelement
 :
 HTMLElement

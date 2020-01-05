@@ -194,6 +194,7 @@ pub
 struct
 FormData
 {
+pub
 data
 :
 HashMap
@@ -201,15 +202,18 @@ HashMap
 DOMString
 FormDatum
 >
+pub
 reflector_
 :
 Reflector
+pub
 window
 :
 JS
 <
 Window
 >
+pub
 form
 :
 Option

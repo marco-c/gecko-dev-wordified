@@ -226,6 +226,7 @@ pub
 struct
 HTMLSelectElement
 {
+pub
 htmlelement
 :
 HTMLElement

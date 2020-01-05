@@ -57,6 +57,7 @@ MPL
 *
 /
 #
+!
 [
 crate_id
 =
@@ -76,8 +77,8 @@ msg
 1
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -85,8 +86,8 @@ crate_type
 lib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -94,8 +95,8 @@ crate_type
 dylib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -103,7 +104,6 @@ crate_type
 rlib
 "
 ]
-;
 extern
 crate
 azure

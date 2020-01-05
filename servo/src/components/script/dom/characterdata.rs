@@ -178,9 +178,11 @@ pub
 struct
 CharacterData
 {
+pub
 node
 :
 Node
+pub
 data
 :
 DOMString

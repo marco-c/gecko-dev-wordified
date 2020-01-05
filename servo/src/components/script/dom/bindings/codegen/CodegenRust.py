@@ -11785,6 +11785,7 @@ statements
 [
 '
 #
+!
 [
 allow
 (
@@ -11792,7 +11793,6 @@ allow
 s
 )
 ]
-;
 '
 %
 '
@@ -34957,6 +34957,7 @@ parent
 inheritance
 =
 "
+pub
 parent
 :
 %
@@ -35001,6 +35002,7 @@ memberDecls
 =
 [
 "
+pub
 %
 s
 :
@@ -37556,6 +37558,10 @@ getPropertyDescriptor
 '
             
 '
+libc
+'
+            
+'
 servo_util
 :
 :
@@ -37587,13 +37593,6 @@ std
 :
 :
 cmp
-'
-            
-'
-std
-:
-:
-libc
 '
             
 '
@@ -45546,13 +45545,13 @@ CGGeneric
 (
 "
 #
+!
 [
 allow
 (
 unused_imports
 )
 ]
-;
 \
 n
 "

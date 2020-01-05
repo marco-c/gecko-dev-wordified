@@ -178,6 +178,7 @@ pub
 struct
 HTMLLegendElement
 {
+pub
 htmlelement
 :
 HTMLElement

@@ -136,6 +136,7 @@ pub
 struct
 FreeTypeLibraryHandle
 {
+pub
 ctx
 :
 FT_Library
@@ -151,6 +152,7 @@ pub
 struct
 FontContextHandle
 {
+pub
 ctx
 :
 Rc

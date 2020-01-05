@@ -163,6 +163,7 @@ pub
 struct
 Location
 {
+pub
 reflector_
 :
 Reflector
@@ -178,6 +179,7 @@ Location
 -
 >
 window
+pub
 page
 :
 Rc

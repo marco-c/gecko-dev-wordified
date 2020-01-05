@@ -264,6 +264,7 @@ pub
 struct
 HTMLImageElement
 {
+pub
 htmlelement
 :
 HTMLElement

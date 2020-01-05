@@ -269,7 +269,6 @@ secret
 key
 value
 .
-priv
 k0
 :
 u64
@@ -281,7 +280,6 @@ second
 key
 value
 .
-priv
 k1
 :
 u64
@@ -297,7 +295,6 @@ this
 hash
 table
 .
-priv
 size
 :
 AtomicUint
@@ -308,7 +305,6 @@ The
 striped
 locks
 .
-priv
 locks
 :
 ~
@@ -321,7 +317,6 @@ StaticNativeMutex
 The
 buckets
 .
-priv
 buckets
 :
 ~
@@ -2517,7 +2512,6 @@ K
 V
 >
 {
-priv
 map
 :
 &
@@ -2528,11 +2522,9 @@ ConcurrentHashMap
 K
 V
 >
-priv
 bucket_index
 :
 int
-priv
 current_bucket
 :
 *
@@ -2850,6 +2842,8 @@ map
 locks
 [
 lock_index
+as
+uint
 ]
 .
 unlock_noguard
@@ -2875,9 +2869,13 @@ map
 .
 locks
 [
+(
 lock_index
 +
 1
+)
+as
+uint
 ]
 .
 lock_noguard
@@ -2930,6 +2928,8 @@ buckets
 self
 .
 bucket_index
+as
+uint
 ]
 {
 None
@@ -3144,10 +3144,6 @@ i
 {
 m
 .
-get
-(
-)
-.
 insert
 (
 j
@@ -3199,10 +3195,6 @@ v
 )
 in
 m
-.
-get
-(
-)
 .
 iter
 (

@@ -263,6 +263,12 @@ Size2D
 }
 ;
 use
+libc
+:
+:
+uintptr_t
+;
+use
 servo_net
 :
 :
@@ -304,15 +310,6 @@ SmallVec
 SmallVec0
 SmallVecIterator
 }
-;
-use
-std
-:
-:
-libc
-:
-:
-uintptr_t
 ;
 use
 std
@@ -451,6 +448,7 @@ pub
 struct
 OpaqueNode
 (
+pub
 uintptr_t
 )
 ;
@@ -563,6 +561,7 @@ steps
 and
 2
 .
+pub
 background_and_borders
 :
 DisplayList
@@ -581,6 +580,7 @@ descendants
 step
 4
 .
+pub
 block_backgrounds_and_borders
 :
 DisplayList
@@ -601,6 +601,7 @@ pseudo
 stacking
 contexts
 .
+pub
 floats
 :
 DisplayList
@@ -611,6 +612,7 @@ All
 other
 content
 .
+pub
 content
 :
 DisplayList
@@ -682,6 +684,7 @@ flattened
 display
 list
 .
+pub
 positioned_descendants
 :
 SmallVec0
@@ -1111,6 +1114,7 @@ pub
 struct
 DisplayList
 {
+pub
 list
 :
 SmallVec0
@@ -1538,6 +1542,7 @@ should
 this
 use
 ?
+pub
 bounds
 :
 Rect
@@ -1552,6 +1557,7 @@ originating
 DOM
 node
 .
+pub
 node
 :
 OpaqueNode
@@ -1568,9 +1574,11 @@ pub
 struct
 SolidColorDisplayItem
 {
+pub
 base
 :
 BaseDisplayItem
+pub
 color
 :
 Color
@@ -1595,6 +1603,7 @@ all
 display
 items
 .
+pub
 base
 :
 BaseDisplayItem
@@ -1605,6 +1614,7 @@ The
 text
 run
 .
+pub
 text_run
 :
 Arc
@@ -1624,6 +1634,7 @@ the
 text
 run
 .
+pub
 range
 :
 Range
@@ -1636,6 +1647,7 @@ of
 the
 text
 .
+pub
 text_color
 :
 Color
@@ -1651,6 +1663,7 @@ text
 display
 items
 .
+pub
 flags
 :
 TextDisplayItemFlags
@@ -1663,12 +1676,15 @@ of
 text
 -
 decorations
+pub
 underline_color
 :
 Color
+pub
 overline_color
 :
 Color
+pub
 line_through_color
 :
 Color
@@ -1686,6 +1702,7 @@ pub
 struct
 TextDisplayItemFlags
 (
+pub
 u8
 )
 ;
@@ -1768,9 +1785,11 @@ pub
 struct
 ImageDisplayItem
 {
+pub
 base
 :
 BaseDisplayItem
+pub
 image
 :
 Arc
@@ -1826,6 +1845,7 @@ the
 entire
 bounds
 .
+pub
 stretch_size
 :
 Size2D
@@ -1844,6 +1864,7 @@ pub
 struct
 BorderDisplayItem
 {
+pub
 base
 :
 BaseDisplayItem
@@ -1853,6 +1874,7 @@ BaseDisplayItem
 The
 border
 widths
+pub
 border
 :
 SideOffsets2D
@@ -1866,6 +1888,7 @@ The
 border
 colors
 .
+pub
 color
 :
 SideOffsets2D
@@ -1879,6 +1902,7 @@ The
 border
 styles
 .
+pub
 style
 :
 SideOffsets2D
@@ -1901,6 +1925,7 @@ pub
 struct
 LineDisplayItem
 {
+pub
 base
 :
 BaseDisplayItem
@@ -1912,6 +1937,7 @@ line
 segment
 color
 .
+pub
 color
 :
 Color
@@ -1923,6 +1949,7 @@ line
 segment
 style
 .
+pub
 style
 :
 border_style
@@ -1934,15 +1961,18 @@ pub
 struct
 ClipDisplayItem
 {
+pub
 base
 :
 BaseDisplayItem
+pub
 child_list
 :
 SmallVec0
 <
 DisplayItem
 >
+pub
 need_clip
 :
 bool
@@ -2192,7 +2222,7 @@ text
 .
 text_run
 .
-get
+clone
 (
 )
 ;
@@ -2270,13 +2300,11 @@ borrow_mut
 draw_text_into_context
 (
 render_context
+&
+*
 text
 .
 text_run
-.
-get
-(
-)
 &
 text
 .

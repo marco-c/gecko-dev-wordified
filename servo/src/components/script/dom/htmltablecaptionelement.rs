@@ -178,6 +178,7 @@ pub
 struct
 HTMLTableCaptionElement
 {
+pub
 htmlelement
 :
 HTMLElement

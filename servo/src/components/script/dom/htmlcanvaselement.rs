@@ -180,6 +180,7 @@ pub
 struct
 HTMLCanvasElement
 {
+pub
 htmlelement
 :
 HTMLElement

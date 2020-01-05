@@ -178,6 +178,7 @@ pub
 struct
 HTMLBaseElement
 {
+pub
 htmlelement
 :
 HTMLElement

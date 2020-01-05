@@ -178,6 +178,7 @@ pub
 struct
 HTMLTableColElement
 {
+pub
 htmlelement
 :
 HTMLElement

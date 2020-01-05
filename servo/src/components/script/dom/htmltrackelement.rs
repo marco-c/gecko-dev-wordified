@@ -178,6 +178,7 @@ pub
 struct
 HTMLTrackElement
 {
+pub
 htmlelement
 :
 HTMLElement

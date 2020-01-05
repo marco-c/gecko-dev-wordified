@@ -219,6 +219,7 @@ pub
 struct
 HTMLFieldSetElement
 {
+pub
 htmlelement
 :
 HTMLElement

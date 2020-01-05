@@ -178,6 +178,7 @@ pub
 struct
 HTMLAppletElement
 {
+pub
 htmlelement
 :
 HTMLElement

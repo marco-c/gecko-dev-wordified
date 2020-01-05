@@ -172,6 +172,7 @@ pub
 struct
 DocumentFragment
 {
+pub
 node
 :
 Node

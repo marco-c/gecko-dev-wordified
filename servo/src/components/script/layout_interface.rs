@@ -152,6 +152,12 @@ size
 Size2D
 ;
 use
+libc
+:
+:
+c_void
+;
+use
 script_task
 :
 :
@@ -186,15 +192,6 @@ channel
 Receiver
 Sender
 }
-;
-use
-std
-:
-:
-libc
-:
-:
-c_void
 ;
 use
 style
@@ -586,6 +583,7 @@ pub
 struct
 TrustedNodeAddress
 (
+pub
 *
 c_void
 )
@@ -595,10 +593,15 @@ impl
 S
 :
 Encoder
+<
+E
+>
+E
 >
 Encodable
 <
 S
+E
 >
 for
 TrustedNodeAddress
@@ -614,6 +617,14 @@ s
 mut
 S
 )
+-
+>
+Result
+<
+(
+)
+E
+>
 {
 let
 TrustedNodeAddress
@@ -651,6 +662,12 @@ encode
 s
 )
 }
+;
+Ok
+(
+(
+)
+)
 }
 }
 /
@@ -699,6 +716,7 @@ pub
 struct
 ContentBoxResponse
 (
+pub
 Rect
 <
 Au
@@ -709,6 +727,7 @@ pub
 struct
 ContentBoxesResponse
 (
+pub
 ~
 [
 Rect
@@ -722,6 +741,7 @@ pub
 struct
 HitTestResponse
 (
+pub
 UntrustedNodeAddress
 )
 ;
@@ -729,6 +749,7 @@ pub
 struct
 MouseOverResponse
 (
+pub
 ~
 [
 UntrustedNodeAddress
@@ -914,6 +935,7 @@ that
 has
 changed
 .
+pub
 root
 :
 TrustedNodeAddress
@@ -927,6 +949,7 @@ damage
 that
 occurred
 .
+pub
 level
 :
 DocumentDamageLevel
@@ -1015,6 +1038,7 @@ The
 document
 node
 .
+pub
 document_root
 :
 TrustedNodeAddress
@@ -1030,6 +1054,7 @@ to
 be
 done
 .
+pub
 damage
 :
 DocumentDamage
@@ -1055,6 +1080,7 @@ info
 for
 script
 .
+pub
 goal
 :
 ReflowGoal
@@ -1067,6 +1093,7 @@ of
 the
 page
 .
+pub
 url
 :
 Url
@@ -1087,6 +1114,7 @@ the
 script
 task
 .
+pub
 script_chan
 :
 ScriptChan
@@ -1098,6 +1126,7 @@ current
 window
 size
 .
+pub
 window_size
 :
 Size2D
@@ -1116,6 +1145,7 @@ a
 notification
 to
 .
+pub
 script_join_chan
 :
 Sender
@@ -1128,6 +1158,7 @@ Sender
 /
 Unique
 identifier
+pub
 id
 :
 uint
@@ -1154,6 +1185,7 @@ pub
 struct
 LayoutChan
 (
+pub
 Sender
 <
 Msg

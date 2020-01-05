@@ -154,6 +154,7 @@ URLs
 to
 load
 .
+pub
 urls
 :
 Vec
@@ -174,6 +175,7 @@ use
 r
 )
 .
+pub
 render_backend
 :
 BackendType
@@ -253,6 +255,7 @@ on
 the
 GPU
 .
+pub
 cpu_painting
 :
 bool
@@ -272,6 +275,7 @@ pixels
 s
 )
 .
+pub
 tile_size
 :
 uint
@@ -310,6 +314,7 @@ interval
 p
 )
 .
+pub
 profiler_period
 :
 Option
@@ -346,6 +351,7 @@ recursive
 sequential
 algorithm
 .
+pub
 layout_threads
 :
 uint
@@ -364,9 +370,11 @@ load
 x
 )
 .
+pub
 exit_after_load
 :
 bool
+pub
 output_file
 :
 Option
@@ -374,9 +382,11 @@ Option
 ~
 str
 >
+pub
 headless
 :
 bool
+pub
 hard_fail
 :
 bool
@@ -443,6 +453,7 @@ other
 browser
 engines
 .
+pub
 bubble_widths_separately
 :
 bool

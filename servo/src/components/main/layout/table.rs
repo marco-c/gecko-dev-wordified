@@ -272,6 +272,7 @@ pub
 struct
 TableFlow
 {
+pub
 block_flow
 :
 BlockFlow
@@ -280,6 +281,7 @@ BlockFlow
 /
 Column
 widths
+pub
 col_widths
 :
 ~
@@ -293,6 +295,7 @@ Column
 min
 widths
 .
+pub
 col_min_widths
 :
 ~
@@ -306,6 +309,7 @@ Column
 pref
 widths
 .
+pub
 col_pref_widths
 :
 ~
@@ -319,6 +323,7 @@ Table
 -
 layout
 property
+pub
 table_layout
 :
 TableLayout
@@ -1930,7 +1935,7 @@ box_
 .
 padding
 .
-get
+borrow
 (
 )
 .
@@ -1944,7 +1949,7 @@ box_
 .
 border
 .
-get
+borrow
 (
 )
 .
@@ -1961,7 +1966,7 @@ box_
 .
 padding
 .
-get
+borrow
 (
 )
 .
@@ -1975,7 +1980,7 @@ box_
 .
 padding
 .
-get
+borrow
 (
 )
 .
@@ -1989,7 +1994,7 @@ box_
 .
 border
 .
-get
+borrow
 (
 )
 .
@@ -2003,7 +2008,7 @@ box_
 .
 border
 .
-get
+borrow
 (
 )
 .
@@ -2020,7 +2025,7 @@ box_
 .
 border_box
 .
-get
+borrow
 (
 )
 .

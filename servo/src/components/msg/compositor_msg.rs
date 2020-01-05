@@ -199,6 +199,7 @@ is
 an
 EGLImageKHR
 .
+pub
 native_surface
 :
 NativeSurface
@@ -215,6 +216,7 @@ that
 this
 represents
 .
+pub
 rect
 :
 Rect
@@ -236,6 +238,7 @@ to
 the
 screen
 .
+pub
 screen_pos
 :
 Rect
@@ -253,6 +256,7 @@ this
 tile
 is
 rendered
+pub
 resolution
 :
 f32
@@ -269,6 +273,7 @@ like
 OpenGL
 GL_UNPACK_ROW_LENGTH
 .
+pub
 stride
 :
 uint
@@ -304,6 +309,7 @@ pub
 struct
 LayerBufferSet
 {
+pub
 buffers
 :
 ~
@@ -499,6 +505,7 @@ pub
 struct
 Epoch
 (
+pub
 uint
 )
 ;
@@ -545,7 +552,9 @@ pub
 struct
 LayerId
 (
+pub
 uint
+pub
 uint
 )
 ;
@@ -758,6 +767,7 @@ box
 within
 it
 .
+pub
 id
 :
 LayerId
@@ -774,6 +784,7 @@ layer
 in
 pixels
 .
+pub
 position
 :
 Rect
@@ -790,6 +801,7 @@ of
 the
 layer
 .
+pub
 background_color
 :
 Color
@@ -803,6 +815,7 @@ of
 this
 layer
 .
+pub
 scroll_policy
 :
 ScrollPolicy
@@ -1067,13 +1080,18 @@ ScriptListener
 }
 impl
 <
+E
 S
 :
 Encoder
+<
+E
+>
 >
 Encodable
 <
 S
+E
 >
 for
 ~
@@ -1090,7 +1108,20 @@ _s
 mut
 S
 )
+-
+>
+Result
+<
+(
+)
+E
+>
 {
+Ok
+(
+(
+)
+)
 }
 }
 /

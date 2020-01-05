@@ -121,7 +121,6 @@ CowArc
 T
 >
 {
-priv
 ptr
 :
 *

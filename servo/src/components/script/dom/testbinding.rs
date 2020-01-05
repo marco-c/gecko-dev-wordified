@@ -175,9 +175,11 @@ pub
 struct
 TestBinding
 {
+pub
 reflector
 :
 Reflector
+pub
 window
 :
 JS

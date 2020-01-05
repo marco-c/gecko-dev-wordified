@@ -524,7 +524,7 @@ f
 {
 f
 .
-read_to_end
+read_to_str
 (
 )
 }
@@ -536,13 +536,7 @@ s
 )
 =
 >
-str
-:
-:
-from_utf8_owned
-(
 s
-)
 _
 =
 >
@@ -562,10 +556,6 @@ for
 line
 in
 contents
-.
-unwrap
-(
-)
 .
 lines
 (

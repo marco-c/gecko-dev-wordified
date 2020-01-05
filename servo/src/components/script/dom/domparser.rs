@@ -174,6 +174,7 @@ pub
 struct
 DOMParser
 {
+pub
 owner
 :
 JS
@@ -186,6 +187,7 @@ XXXjdm
 Document
 instead
 ?
+pub
 reflector_
 :
 Reflector

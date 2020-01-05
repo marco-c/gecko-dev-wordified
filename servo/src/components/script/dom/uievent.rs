@@ -183,9 +183,11 @@ pub
 struct
 UIEvent
 {
+pub
 event
 :
 Event
+pub
 view
 :
 Option
@@ -195,6 +197,7 @@ JS
 Window
 >
 >
+pub
 detail
 :
 i32

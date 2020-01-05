@@ -280,6 +280,7 @@ to
 the
 compositor
 .
+pub
 chan
 :
 Sender
@@ -1398,6 +1399,7 @@ pub
 struct
 CompositorTask
 {
+pub
 mode
 :
 CompositorMode

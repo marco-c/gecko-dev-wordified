@@ -389,12 +389,15 @@ created
 using
 FT_Memory_Face
 .
+pub
 source
 :
 FontSource
+pub
 face
 :
 FT_Face
+pub
 handle
 :
 FontContextHandle
