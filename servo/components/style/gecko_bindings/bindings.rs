@@ -10200,6 +10200,9 @@ RawGeckoElementBorrowed
 set
 :
 RawServoStyleSetBorrowed
+allow_stale
+:
+bool
 )
 -
 >
