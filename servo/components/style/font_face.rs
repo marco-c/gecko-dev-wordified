@@ -633,7 +633,7 @@ Parser
 >
 Result
 <
-FontFaceRule
+FontFaceData
 (
 )
 >
@@ -642,7 +642,7 @@ let
 mut
 rule
 =
-FontFaceRule
+FontFaceData
 :
 :
 initial
@@ -836,7 +836,7 @@ Source
 )
 ;
 impl
-FontFaceRule
+FontFaceData
 {
 /
 /
@@ -1098,7 +1098,7 @@ rule
 '
 a
 mut
-FontFaceRule
+FontFaceData
 missing
 :
 MissingDescriptors
@@ -1396,7 +1396,9 @@ expr
 /
 /
 /
-A
+Data
+inside
+a
 font
 -
 face
@@ -1439,7 +1441,7 @@ Eq
 ]
 pub
 struct
-FontFaceRule
+FontFaceData
 {
 (
 #
@@ -1516,7 +1518,7 @@ m_ident
 }
 }
 impl
-FontFaceRule
+FontFaceData
 {
 fn
 initial
@@ -1526,7 +1528,7 @@ initial
 >
 Self
 {
-FontFaceRule
+FontFaceData
 {
 (
 m_ident
@@ -1546,7 +1548,7 @@ o_initial
 impl
 ToCssWithGuard
 for
-FontFaceRule
+FontFaceData
 {
 /
 /

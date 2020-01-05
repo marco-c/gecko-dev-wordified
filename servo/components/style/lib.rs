@@ -606,6 +606,10 @@ gecko
 "
 )
 ]
+#
+[
+macro_use
+]
 extern
 crate
 nsstring_vendor
