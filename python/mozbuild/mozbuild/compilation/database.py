@@ -363,16 +363,6 @@ tests
 '
                 
 '
-security
-/
-sandbox
-/
-win
-/
-wow_helper
-'
-                
-'
 toolkit
 /
 crashreporter
