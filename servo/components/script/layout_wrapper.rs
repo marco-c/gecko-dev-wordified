@@ -707,7 +707,7 @@ style
 selector_matching
 :
 :
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 use
 style
@@ -3107,7 +3107,7 @@ V
 :
 Push
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 {
 unsafe
@@ -7309,7 +7309,7 @@ V
 :
 Push
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 {
 }

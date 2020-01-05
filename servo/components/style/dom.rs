@@ -139,7 +139,7 @@ use
 selector_matching
 :
 :
-DeclarationBlock
+ApplicableDeclarationBlock
 ;
 use
 sink
@@ -1516,7 +1516,7 @@ V
 :
 Push
 <
-DeclarationBlock
+ApplicableDeclarationBlock
 >
 ;
 }

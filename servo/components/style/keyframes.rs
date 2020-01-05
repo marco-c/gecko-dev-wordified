@@ -645,7 +645,7 @@ compute_style_for_animation_step
 to
 create
 a
-DeclarationBlock
+ApplicableDeclarationBlock
 /
 /
 /
