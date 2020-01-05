@@ -202,13 +202,10 @@ CSSViewportRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 viewportrule
 :
 Arc
@@ -232,7 +229,7 @@ CSSRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 )
 viewportrule
 :
@@ -254,13 +251,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 viewportrule
 :
 Arc
@@ -286,7 +280,7 @@ CSSViewportRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 viewportrule
 )
 window

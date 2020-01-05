@@ -202,13 +202,10 @@ CSSKeyframeRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 keyframerule
 :
 Arc
@@ -232,7 +229,7 @@ CSSRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 )
 keyframerule
 :
@@ -254,13 +251,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 keyframerule
 :
 Arc
@@ -286,7 +280,7 @@ CSSKeyframeRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 keyframerule
 )
 window

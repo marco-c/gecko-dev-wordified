@@ -208,13 +208,10 @@ CSSMediaRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 mediarule
 :
 Arc
@@ -253,7 +250,7 @@ CSSGroupingRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 list
 )
 mediarule
@@ -276,13 +273,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 mediarule
 :
 Arc
@@ -308,7 +302,7 @@ CSSMediaRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 mediarule
 )
 window

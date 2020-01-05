@@ -202,13 +202,10 @@ CSSStyleRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 stylerule
 :
 Arc
@@ -232,7 +229,7 @@ CSSRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 )
 stylerule
 :
@@ -254,13 +251,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 stylerule
 :
 Arc
@@ -286,7 +280,7 @@ CSSStyleRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 stylerule
 )
 window

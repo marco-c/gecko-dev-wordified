@@ -220,13 +220,10 @@ CSSNamespaceRule
 fn
 new_inherited
 (
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 namespacerule
 :
 Arc
@@ -250,7 +247,7 @@ CSSRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 )
 namespacerule
 :
@@ -272,13 +269,10 @@ window
 :
 &
 Window
-parent
+parent_stylesheet
 :
-Option
-<
 &
 CSSStyleSheet
->
 namespacerule
 :
 Arc
@@ -304,7 +298,7 @@ CSSNamespaceRule
 :
 new_inherited
 (
-parent
+parent_stylesheet
 namespacerule
 )
 window
