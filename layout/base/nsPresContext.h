@@ -6820,12 +6820,6 @@ HasCachedStyleData
 (
 )
 ;
-bool
-IsChromeSlow
-(
-)
-const
-;
 /
 /
 Creates
