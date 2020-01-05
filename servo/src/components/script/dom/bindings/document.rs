@@ -249,9 +249,6 @@ JS_SET_RVAL
 }
 ;
 use
-scripting
-:
-:
 script_task
 :
 :

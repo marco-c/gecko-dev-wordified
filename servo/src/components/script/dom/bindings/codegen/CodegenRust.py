@@ -37731,9 +37731,6 @@ eventtarget
 XXXjdm
                           
 '
-scripting
-:
-:
 script_task
 :
 :
