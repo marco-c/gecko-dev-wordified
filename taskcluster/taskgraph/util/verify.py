@@ -223,6 +223,11 @@ expression_list
 =
 [
                 
+'
+\
+n
+'
++
 identifier
 +
 "
