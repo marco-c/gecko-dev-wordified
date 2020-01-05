@@ -1365,6 +1365,11 @@ GetFixedLayerMarginsBottom
 (
 )
 ;
+void
+NotifyControllerSnapshotFailed
+(
+)
+;
 /
 /
 Read
