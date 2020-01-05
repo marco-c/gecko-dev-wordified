@@ -8206,6 +8206,9 @@ InsertBefore
 (
 &
 self
+abstract_self
+:
+AbstractNode
 node
 :
 AbstractNode
@@ -8229,7 +8232,7 @@ Node
 pre_insert
 (
 node
-node
+abstract_self
 child
 )
 }
