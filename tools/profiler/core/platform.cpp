@@ -12900,7 +12900,6 @@ mozilla
 :
 ProfileGatherer
 (
-gSampler
 )
 ;
 MOZ_ASSERT
