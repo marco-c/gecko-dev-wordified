@@ -2848,6 +2848,11 @@ y
 +
 aAscent
 )
+nullptr
+DrawStringFlags
+:
+:
+eForceHorizontal
 )
 ;
 gfx
