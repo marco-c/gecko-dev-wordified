@@ -9501,9 +9501,6 @@ false
 ;
 if
 (
-fd
-&
-&
 mFastOpenCallback
 &
 &
