@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TemplateLib
 .
 h
@@ -865,6 +874,7 @@ result
 :
 new
 (
+KnownNotNull
 data
 (
 )
