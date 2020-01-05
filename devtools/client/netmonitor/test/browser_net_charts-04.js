@@ -185,6 +185,18 @@ value
 2
 )
 }
+header
+:
+{
+label1
+:
+"
+"
+label2
+:
+"
+"
+}
 }
 )
 ;
@@ -366,7 +378,7 @@ is
 rows
 .
 length
-1
+2
 "
 There
 should
@@ -375,6 +387,10 @@ be
 table
 chart
 row
+and
+a
+1
+header
 created
 .
 "
@@ -384,7 +400,7 @@ ok
 (
 rows
 [
-0
+1
 ]
 .
 querySelector
@@ -423,7 +439,7 @@ is
 (
 rows
 [
-0
+1
 ]
 .
 querySelectorAll
@@ -462,7 +478,7 @@ is
 (
 rows
 [
-0
+1
 ]
 .
 querySelectorAll
@@ -501,7 +517,7 @@ is
 (
 rows
 [
-0
+1
 ]
 .
 querySelectorAll
@@ -537,7 +553,7 @@ is
 (
 rows
 [
-0
+1
 ]
 .
 querySelectorAll
