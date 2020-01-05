@@ -3050,6 +3050,11 @@ printing
 *
 /
 void
+maybeClearProfileDurations
+(
+)
+;
+void
 startProfile
 (
 ProfileKey
