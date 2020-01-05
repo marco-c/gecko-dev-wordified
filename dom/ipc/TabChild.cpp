@@ -10973,6 +10973,14 @@ mWidget
 =
 mPuppetWidget
 ;
+localEvent
+.
+mUniqueId
+=
+aEvent
+.
+mUniqueId
+;
 nsEventStatus
 status
 =
