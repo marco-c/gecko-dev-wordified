@@ -275,6 +275,7 @@ LayoutDamagePropagate
 LayoutGeneratedContent
 LayoutDisplayListSorting
 LayoutMain
+LayoutStoreOverflow
 LayoutParallelWarmup
 LayoutDispListBuild
 PaintingPerTile
