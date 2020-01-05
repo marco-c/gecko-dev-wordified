@@ -29157,18 +29157,6 @@ true
 }
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
-AppConstants
-.
-MOZ_ANDROID_ACTIVITY_STREAM
-)
-{
-if
-(
 !
 docURI
 .
@@ -29192,7 +29180,6 @@ browser
 contentDocument
 )
 ;
-}
 }
 break
 ;
