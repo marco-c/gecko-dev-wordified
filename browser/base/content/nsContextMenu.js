@@ -3050,9 +3050,9 @@ isFrameImage
 .
 removeAttribute
 (
-'
+"
 hidden
-'
+"
 )
 ;
 else
@@ -3062,12 +3062,12 @@ isFrameImage
 .
 setAttribute
 (
-'
+"
 hidden
-'
-'
+"
+"
 true
-'
+"
 )
 ;
 }
@@ -3350,8 +3350,6 @@ blob
 ;
 }
 initSpellingItems
-:
-function
 (
 )
 {
@@ -3565,6 +3563,7 @@ numsug
 ;
 }
 else
+{
 this
 .
 showItem
@@ -3579,6 +3578,7 @@ suggestions
 false
 )
 ;
+}
 /
 /
 dictionary
@@ -3749,6 +3749,7 @@ showDictionaries
 ;
 }
 else
+{
 this
 .
 showItem
@@ -3766,9 +3767,8 @@ false
 )
 ;
 }
+}
 initClipboardItems
-:
-function
 (
 )
 {
@@ -4315,8 +4315,6 @@ onAudio
 ;
 }
 initMediaPlayerItems
-:
-function
 (
 )
 {
@@ -5124,8 +5122,6 @@ onMedia
 ;
 }
 initClickToPlayItems
-:
-function
 (
 )
 {
@@ -5179,8 +5175,6 @@ onCTPPlugin
 ;
 }
 initPasswordManagerItems
-:
-function
 (
 )
 {
@@ -5556,8 +5550,6 @@ insertBeforeElement
 ;
 }
 initSyncItems
-:
-function
 (
 )
 {
@@ -5570,8 +5562,6 @@ this
 ;
 }
 openPasswordManager
-:
-function
 (
 )
 {
@@ -5589,8 +5579,6 @@ host
 ;
 }
 inspectNode
-:
-function
 (
 )
 {
@@ -5681,8 +5669,6 @@ the
 world
 .
 setTarget
-:
-function
 (
 aNode
 aRangeParent
@@ -7145,27 +7131,6 @@ background
 image
 etc
 .
-const
-XMLNS
-=
-"
-http
-:
-/
-/
-www
-.
-w3
-.
-org
-/
-XML
-/
-1998
-/
-namespace
-"
-;
 var
 elem
 =
@@ -7959,11 +7924,11 @@ classList
 .
 contains
 (
-'
+"
 text
 -
 link
-'
+"
 )
 &
 &
@@ -7986,8 +7951,6 @@ given
 element
 .
 getComputedStyle
-:
-function
 (
 aElem
 aProp
@@ -8030,8 +7993,6 @@ url
 stripped
 .
 getComputedURL
-:
-function
 (
 aElem
 aProp
@@ -8122,8 +8083,6 @@ be
 saved
 .
 isLinkSaveable
-:
-function
 (
 aLink
 )
@@ -8203,8 +8162,6 @@ snews
 ;
 }
 _isSpellCheckEnabled
-:
-function
 (
 aNode
 )
@@ -8309,8 +8266,6 @@ spellcheck
 ;
 }
 _isProprietaryDRM
-:
-function
 (
 )
 {
@@ -8348,8 +8303,6 @@ clearkey
 ;
 }
 _openLinkInParameters
-:
-function
 (
 extra
 )
@@ -8510,8 +8463,6 @@ new
 window
 .
 openLink
-:
-function
 (
 )
 {
@@ -8555,8 +8506,6 @@ private
 window
 .
 openLinkInPrivateWindow
-:
-function
 (
 )
 {
@@ -8604,8 +8553,6 @@ new
 tab
 .
 openLinkInTab
-:
-function
 (
 event
 )
@@ -8737,11 +8684,11 @@ target
 .
 getAttribute
 (
-'
+"
 data
 -
 usercontextid
-'
+"
 )
 )
 }
@@ -8771,8 +8718,6 @@ in
 current
 tab
 openLinkInCurrent
-:
-function
 (
 )
 {
@@ -8812,8 +8757,6 @@ new
 tab
 .
 openFrameInTab
-:
-function
 (
 )
 {
@@ -8861,8 +8804,6 @@ in
 frame
 .
 reloadFrame
-:
-function
 (
 )
 {
@@ -8903,8 +8844,6 @@ own
 window
 .
 openFrame
-:
-function
 (
 )
 {
@@ -8956,8 +8895,6 @@ same
 window
 .
 showOnlyThisFrame
-:
-function
 (
 )
 {
@@ -9012,8 +8949,6 @@ null
 ;
 }
 reload
-:
-function
 (
 event
 )
@@ -9030,8 +8965,6 @@ View
 Partial
 Source
 viewPartialSource
-:
-function
 (
 aContext
 )
@@ -9208,8 +9141,6 @@ s
 URL
 .
 viewFrameSource
-:
-function
 (
 )
 {
@@ -9236,8 +9167,6 @@ frameOuterWindowID
 ;
 }
 viewInfo
-:
-function
 (
 )
 {
@@ -9256,8 +9185,6 @@ browser
 ;
 }
 viewImageInfo
-:
-function
 (
 )
 {
@@ -9280,8 +9207,6 @@ browser
 ;
 }
 viewImageDesc
-:
-function
 (
 e
 )
@@ -9323,8 +9248,6 @@ documentURIObject
 ;
 }
 viewFrameInfo
-:
-function
 (
 )
 {
@@ -9345,8 +9268,6 @@ browser
 ;
 }
 reloadImage
-:
-function
 (
 )
 {
@@ -9392,8 +9313,6 @@ target
 ;
 }
 _canvasToBlobURL
-:
-function
 (
 target
 )
@@ -9506,8 +9425,6 @@ or
 audio
 .
 viewMedia
-:
-function
 (
 e
 )
@@ -9562,8 +9479,6 @@ disallowInheritPrincipal
 :
 true
 referrerURI
-:
-referrerURI
 originPrincipal
 :
 systemPrincipal
@@ -9607,16 +9522,12 @@ disallowInheritPrincipal
 :
 true
 referrerURI
-:
-referrerURI
 }
 )
 ;
 }
 }
 saveVideoFrameAsImage
-:
-function
 (
 )
 {
@@ -9807,8 +9718,6 @@ onMessage
 ;
 }
 leaveDOMFullScreen
-:
-function
 (
 )
 {
@@ -9833,8 +9742,6 @@ background
 image
 .
 viewBGImage
-:
-function
 (
 e
 )
@@ -9876,8 +9783,6 @@ documentURIObject
 ;
 }
 setDesktopBackground
-:
-function
 (
 )
 {
@@ -9949,7 +9854,7 @@ document
 .
 createElementNS
 (
-'
+"
 http
 :
 /
@@ -9963,10 +9868,10 @@ org
 1999
 /
 xhtml
-'
-'
+"
+"
 img
-'
+"
 )
 ;
 image
@@ -10194,8 +10099,6 @@ on
 frame
 .
 saveFrame
-:
-function
 (
 )
 {
@@ -10235,8 +10138,6 @@ a
 file
 picker
 saveHelper
-:
-function
 (
 linkURL
 linkText
@@ -10923,8 +10824,6 @@ cancel
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 ;
-return
-;
 }
 }
 /
@@ -11241,8 +11140,6 @@ on
 link
 .
 saveLink
-:
-function
 (
 )
 {
@@ -11290,8 +11187,6 @@ Backwards
 compatibility
 wrapper
 saveImage
-:
-function
 (
 )
 {
@@ -11327,8 +11222,6 @@ or
 audio
 .
 saveMedia
-:
-function
 (
 )
 {
@@ -11528,8 +11421,6 @@ Backwards
 compatibility
 wrapper
 sendImage
-:
-function
 (
 )
 {
@@ -11552,8 +11443,6 @@ sendMedia
 ;
 }
 sendMedia
-:
-function
 (
 )
 {
@@ -11570,8 +11459,6 @@ mediaURL
 ;
 }
 castVideo
-:
-function
 (
 )
 {
@@ -11587,8 +11474,6 @@ window
 ;
 }
 populateCastVideoMenu
-:
-function
 (
 popup
 )
@@ -11689,8 +11574,6 @@ item
 ;
 }
 playPlugin
-:
-function
 (
 )
 {
@@ -11711,8 +11594,6 @@ play
 ;
 }
 hidePlugin
-:
-function
 (
 )
 {
@@ -11744,8 +11625,6 @@ on
 clipboard
 .
 copyEmail
-:
-function
 (
 )
 {
@@ -11949,8 +11828,6 @@ addresses
 ;
 }
 copyLink
-:
-function
 (
 )
 {
@@ -12026,39 +11903,11 @@ linkURL
 ;
 }
 /
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
+*
+*
+*
 Utilities
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
+*
 /
 /
 *
@@ -12136,8 +11985,6 @@ it
 *
 /
 showItem
-:
-function
 (
 aItemOrId
 aShow
@@ -12211,8 +12058,6 @@ attribute
 )
 .
 setItemAttr
-:
-function
 (
 aID
 aAttr
@@ -12302,8 +12147,6 @@ broadcaster
 )
 .
 setItemAttrFromNode
-:
-function
 (
 aItem_id
 aAttr
@@ -12374,8 +12217,6 @@ XUL
 nodes
 .
 cloneNode
-:
-function
 (
 aItem
 )
@@ -12486,8 +12327,6 @@ on
 link
 .
 getLinkURL
-:
-function
 (
 )
 {
@@ -12607,8 +12446,6 @@ href
 ;
 }
 getLinkURI
-:
-function
 (
 )
 {
@@ -12643,8 +12480,6 @@ null
 ;
 }
 getLinkProtocol
-:
-function
 (
 )
 {
@@ -12680,8 +12515,6 @@ of
 link
 .
 getLinkText
-:
-function
 (
 )
 {
@@ -12793,8 +12626,6 @@ for
 addon
 compat
 linkText
-:
-function
 (
 )
 {
@@ -12805,8 +12636,6 @@ linkTextStr
 ;
 }
 isMediaURLReusable
-:
-function
 (
 aURL
 )
@@ -12838,8 +12667,6 @@ true
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -12942,8 +12769,6 @@ n
 ;
 }
 isTargetATextBox
-:
-function
 (
 node
 )
@@ -13009,8 +12834,6 @@ previous
 separator
 .
 shouldShowSeparator
-:
-function
 (
 aSeparatorID
 )
@@ -13075,8 +12898,6 @@ false
 ;
 }
 addDictionaries
-:
-function
 (
 )
 {
@@ -13646,10 +13467,6 @@ MediaCommand
 "
 {
 command
-:
-command
-data
-:
 data
 handlingUserInput
 :
@@ -13668,8 +13485,6 @@ target
 ;
 }
 copyMediaLocation
-:
-function
 (
 )
 {
@@ -13709,8 +13524,6 @@ mediaURL
 ;
 }
 drmLearnMore
-:
-function
 (
 aEvent
 )
@@ -13853,8 +13666,6 @@ context
 menu
 .
 formatSearchContextItem
-:
-function
 (
 )
 {
@@ -14076,8 +13887,6 @@ accesskey
 ;
 }
 _getTelemetryClickInfo
-:
-function
 (
 aXulMenu
 )
@@ -14364,8 +14173,6 @@ true
 ;
 }
 _getTelemetryPageContextInfo
-:
-function
 (
 )
 {
@@ -14465,9 +14272,9 @@ rv
 .
 push
 (
-'
+"
 other
-'
+"
 )
 ;
 }
@@ -14481,8 +14288,6 @@ rv
 ;
 }
 _checkTelemetryForMenu
-:
-function
 (
 aXulMenu
 )
@@ -14520,8 +14325,6 @@ aXulMenu
 ;
 }
 createContainerMenu
-:
-function
 (
 aEvent
 )
