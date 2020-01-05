@@ -3372,6 +3372,10 @@ PopupOpened
 (
 )
 {
+gMenuJustOpenedOrClosed
+=
+true
+;
 nsWeakFrame
 weakFrame
 (
@@ -4353,10 +4357,6 @@ if
 mContent
 )
 return
-;
-gMenuJustOpenedOrClosed
-=
-true
 ;
 nsXULPopupManager
 *
