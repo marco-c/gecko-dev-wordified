@@ -144,17 +144,6 @@ mozilla
 /
 dom
 /
-BaseAudioContextBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMException
 .
 h
