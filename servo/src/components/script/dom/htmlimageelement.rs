@@ -1955,7 +1955,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -1965,7 +1964,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -1974,7 +1972,6 @@ let
 htmlelement
 :
 &
-mut
 JSRef
 <
 HTMLElement
@@ -1983,7 +1980,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -1993,7 +1990,6 @@ Some
 htmlelement
 as
 &
-mut
 VirtualMethods
 :
 )
@@ -2002,7 +1998,6 @@ fn
 after_set_attr
 (
 &
-mut
 self
 name
 :
@@ -2022,7 +2017,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -2088,7 +2082,17 @@ get_url
 )
 )
 ;
+let
+mut
+self_alias
+=
 self
+.
+clone
+(
+)
+;
+self_alias
 .
 update_image
 (
@@ -2105,7 +2109,6 @@ fn
 before_remove_attr
 (
 &
-mut
 self
 name
 :
@@ -2125,7 +2128,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -2163,7 +2165,17 @@ as_slice
 (
 )
 {
+let
+mut
+self_alias
+=
 self
+.
+clone
+(
+)
+;
+self_alias
 .
 update_image
 (

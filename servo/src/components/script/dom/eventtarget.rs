@@ -1856,7 +1856,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -1866,7 +1865,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >

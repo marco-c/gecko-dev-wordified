@@ -500,7 +500,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -510,7 +509,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -519,7 +517,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLElement
@@ -528,7 +525,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -538,7 +535,6 @@ Some
 element
 as
 &
-mut
 VirtualMethods
 :
 )
@@ -547,7 +543,6 @@ fn
 after_set_attr
 (
 &
-mut
 self
 name
 :
@@ -567,7 +562,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -721,6 +715,16 @@ get_jsobject
 )
 ;
 let
+mut
+self_alias
+=
+self
+.
+clone
+(
+)
+;
+let
 evtarget
 :
 &
@@ -771,7 +775,9 @@ EventTargetCast
 :
 from_mut_ref
 (
-self
+&
+mut
+self_alias
 )
 }
 ;

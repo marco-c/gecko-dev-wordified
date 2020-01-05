@@ -1794,7 +1794,6 @@ is_in_doc
 )
 {
 for
-mut
 node
 in
 self
@@ -1806,7 +1805,6 @@ traverse_preorder
 vtable_for
 (
 &
-mut
 node
 )
 .
@@ -1817,7 +1815,6 @@ bind_to_tree
 }
 }
 let
-mut
 parent
 =
 self
@@ -1832,10 +1829,6 @@ root
 ;
 parent
 .
-as_mut
-(
-)
-.
 map
 (
 |
@@ -1844,8 +1837,6 @@ parent
 vtable_for
 (
 &
-mut
-*
 *
 parent
 )
@@ -1921,7 +1912,6 @@ root
 )
 ;
 for
-mut
 node
 in
 self
@@ -1952,7 +1942,6 @@ place
 vtable_for
 (
 &
-mut
 node
 )
 .
@@ -14426,7 +14415,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -14436,7 +14424,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -14445,7 +14432,6 @@ let
 eventtarget
 :
 &
-mut
 JSRef
 <
 EventTarget
@@ -14454,7 +14440,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -14464,7 +14450,6 @@ Some
 eventtarget
 as
 &
-mut
 VirtualMethods
 :
 )

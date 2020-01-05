@@ -576,7 +576,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -586,7 +585,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -595,7 +593,6 @@ let
 htmlelement
 :
 &
-mut
 JSRef
 <
 HTMLElement
@@ -604,7 +601,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -614,7 +611,6 @@ Some
 htmlelement
 as
 &
-mut
 VirtualMethods
 :
 )
@@ -623,7 +619,6 @@ fn
 handle_event
 (
 &
-mut
 self
 event
 :

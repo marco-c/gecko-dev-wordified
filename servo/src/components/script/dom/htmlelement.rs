@@ -622,7 +622,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -632,7 +631,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -641,7 +639,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -650,7 +647,7 @@ Element
 ElementCast
 :
 :
-from_mut_ref
+from_ref
 (
 self
 )
@@ -660,7 +657,6 @@ Some
 element
 as
 &
-mut
 VirtualMethods
 :
 )
