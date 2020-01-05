@@ -10129,15 +10129,6 @@ aExpireType
 aExpireTime
 )
 ;
-nsAutoCString
-permissionKey
-;
-GetKeyForPrincipal
-(
-aPrincipal
-permissionKey
-)
-;
 nsTArray
 <
 ContentParent
@@ -10189,7 +10180,6 @@ cp
 >
 NeedsPermissionsUpdate
 (
-permissionKey
 )
 )
 Unused
