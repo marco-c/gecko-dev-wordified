@@ -66,7 +66,6 @@ globs
 macro_rules
 phase
 unsafe_destructor
-if_let
 )
 ]
 #
