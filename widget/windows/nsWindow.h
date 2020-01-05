@@ -1981,6 +1981,16 @@ return
 mTouchWindow
 ;
 }
+bool
+SynchronouslyRepaintOnResize
+(
+)
+override
+{
+return
+false
+;
+}
 protected
 :
 virtual
