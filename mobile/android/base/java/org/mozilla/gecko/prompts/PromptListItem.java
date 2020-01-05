@@ -10,6 +10,13 @@ prompts
 import
 org
 .
+json
+.
+JSONException
+;
+import
+org
+.
 mozilla
 .
 gecko
@@ -728,7 +735,7 @@ item
 }
 catch
 (
-Exception
+JSONException
 ex
 )
 {
