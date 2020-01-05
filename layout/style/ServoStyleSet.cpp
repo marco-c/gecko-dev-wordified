@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsCSSRuleProcessor
+.
+h
+"
+#
+include
+"
 nsDeviceContext
 .
 h
@@ -1513,6 +1520,13 @@ PreTraverseSync
 )
 {
 ResolveMappedAttrDeclarationBlocks
+(
+)
+;
+nsCSSRuleProcessor
+:
+:
+InitSystemMetrics
 (
 )
 ;

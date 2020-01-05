@@ -522,6 +522,12 @@ Startup
 ;
 static
 void
+InitSystemMetrics
+(
+)
+;
+static
+void
 Shutdown
 (
 )
@@ -1023,13 +1029,6 @@ is
 null
 *
 param
-aIsGecko
-Set
-if
-Gecko
-.
-*
-param
 aSetSlowSelectorFlag
 Outparam
 set
@@ -1105,8 +1104,6 @@ mozilla
 :
 EventStates
 aStateMask
-bool
-aIsGecko
 bool
 *
 aSetSlowSelectorFlag

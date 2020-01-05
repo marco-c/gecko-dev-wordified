@@ -3186,7 +3186,6 @@ OwnerDoc
 )
 true
 dummyMask
-false
 aSetSlowSelectorFlag
 nullptr
 )
