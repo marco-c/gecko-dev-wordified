@@ -490,6 +490,7 @@ uint8_t
 struct
 WrByteSlice
 {
+const
 uint8_t
 *
 buffer
