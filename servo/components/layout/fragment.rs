@@ -3925,6 +3925,8 @@ pub
 fn
 calculate_replaced_inline_size
 (
+&
+self
 style
 :
 &
@@ -3997,6 +3999,8 @@ pub
 fn
 calculate_replaced_block_size
 (
+&
+self
 style
 :
 &
@@ -11912,7 +11916,8 @@ SpecificFragmentInfo
 :
 Iframe
 (
-_
+ref
+iframe_fragment_info
 )
 =
 >
@@ -11925,9 +11930,8 @@ size
 .
 inline
 =
-IframeFragmentInfo
-:
-:
+iframe_fragment_info
+.
 calculate_replaced_inline_size
 (
 style
@@ -12547,7 +12551,8 @@ SpecificFragmentInfo
 :
 Iframe
 (
-_
+ref
+info
 )
 =
 >
@@ -12560,9 +12565,8 @@ size
 .
 block
 =
-IframeFragmentInfo
-:
-:
+info
+.
 calculate_replaced_block_size
 (
 style
