@@ -2122,7 +2122,7 @@ NextSerialNumber
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aLength
 !
@@ -2756,7 +2756,7 @@ aLength
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mDataOwner
 &
@@ -2801,7 +2801,7 @@ aLength
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mDataOwner
 &
@@ -3130,7 +3130,7 @@ aOther
 mDataOwner
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mDataOwner
 &
@@ -3366,7 +3366,7 @@ mIsTemporary
 aTemporary
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFile
 "
@@ -3444,7 +3444,7 @@ mIsTemporary
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFile
 "
@@ -3494,7 +3494,7 @@ mIsTemporary
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFile
 "
@@ -3549,7 +3549,7 @@ mIsTemporary
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFile
 "
@@ -3861,7 +3861,7 @@ mIsTemporary
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFile
 "
