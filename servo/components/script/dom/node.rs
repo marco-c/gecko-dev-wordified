@@ -718,7 +718,6 @@ jsapi
 {
 JSContext
 JSObject
-JSTracer
 JSRuntime
 }
 ;
