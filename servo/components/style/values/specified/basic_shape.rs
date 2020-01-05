@@ -3221,7 +3221,7 @@ height
 {
 serialize_four_sides
 (
-(
+dest
 &
 self
 .
@@ -3254,8 +3254,6 @@ bottom_left
 0
 .
 width
-)
-dest
 )
 }
 else
@@ -3265,7 +3263,7 @@ try
 (
 serialize_four_sides
 (
-(
+dest
 &
 self
 .
@@ -3298,8 +3296,6 @@ bottom_left
 0
 .
 width
-)
-dest
 )
 )
 ;
@@ -3318,7 +3314,7 @@ write_str
 ;
 serialize_four_sides
 (
-(
+dest
 &
 self
 .
@@ -3351,8 +3347,6 @@ bottom_left
 0
 .
 height
-)
-dest
 )
 }
 }
