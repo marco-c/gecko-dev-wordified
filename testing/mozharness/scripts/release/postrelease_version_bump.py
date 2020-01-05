@@ -117,6 +117,12 @@ release
 "
 "
 "
+from
+distutils
+.
+version
+import
+StrictVersion
 import
 os
 import
@@ -1248,6 +1254,12 @@ version_files
             
 curr_version
 =
+"
+.
+"
+.
+join
+(
 self
 .
 get_version
@@ -1265,6 +1277,7 @@ file
 "
 ]
 )
+)
             
 next_version
 =
@@ -1276,19 +1289,18 @@ config
 next_version
 '
 ]
-.
-split
-(
-'
-.
-'
-)
             
 if
+StrictVersion
+(
 next_version
+)
 <
 =
+StrictVersion
+(
 curr_version
+)
 :
                 
 self
@@ -1310,28 +1322,6 @@ continue
             
 else
 :
-                
-curr_version
-=
-"
-.
-"
-.
-join
-(
-curr_version
-)
-                
-next_version
-=
-"
-.
-"
-.
-join
-(
-next_version
-)
                 
 self
 .
