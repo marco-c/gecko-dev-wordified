@@ -132,6 +132,14 @@ ThreadInfo
 class
 UniqueStacks
 ;
+/
+/
+ProfilerBacktrace
+encapsulates
+a
+synchronous
+sample
+.
 class
 ProfilerBacktrace
 {

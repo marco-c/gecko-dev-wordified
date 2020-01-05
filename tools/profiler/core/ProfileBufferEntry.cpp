@@ -4103,6 +4103,11 @@ pc
 stack
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+aContext
+)
+;
 JS
 :
 :
