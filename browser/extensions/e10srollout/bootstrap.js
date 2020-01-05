@@ -1086,6 +1086,10 @@ optedIn
 "
 )
 ;
+inMultiExperiment
+=
+true
+;
 }
 else
 if
@@ -1592,9 +1596,6 @@ sampleName
 {
 setCohort
 (
-{
-cohortPrefix
-}
 multiBucket
 {
 sampleName
