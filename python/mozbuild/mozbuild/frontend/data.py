@@ -1739,6 +1739,10 @@ __slots__
 (
         
 '
+name
+'
+        
+'
 cxx_link
 '
         
@@ -1761,6 +1765,7 @@ __init__
 (
 self
 context
+name
 )
 :
         
@@ -1771,6 +1776,12 @@ __init__
 self
 context
 )
+        
+self
+.
+name
+=
+name
         
 self
 .
@@ -2240,6 +2251,7 @@ __init__
 (
 self
 context
+program
 )
         
 bin_suffix
@@ -2787,6 +2799,7 @@ __init__
 (
 self
 context
+basename
 )
         
 self

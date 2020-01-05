@@ -1648,6 +1648,11 @@ libFuzzerRunner
 /
 namespace
 mozilla
+extern
+"
+C
+"
+MOZ_EXPORT
 void
 XRE_LibFuzzerSetMain
 (

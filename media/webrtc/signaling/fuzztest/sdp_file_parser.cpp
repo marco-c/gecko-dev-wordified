@@ -216,6 +216,11 @@ ap
 )
 ;
 }
+extern
+"
+C
+"
+{
 void
 NS_DebugBreak
 (
@@ -262,6 +267,15 @@ aLine
 )
 ;
 }
+}
+/
+/
+end
+extern
+"
+C
+"
+.
 namespace
 mozilla
 {
