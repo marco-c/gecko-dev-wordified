@@ -4278,6 +4278,12 @@ mClassList
 =
 nullptr
 ;
+mRegisteredIntersectionObservers
+.
+Clear
+(
+)
+;
 }
 size_t
 FragmentOrElement
