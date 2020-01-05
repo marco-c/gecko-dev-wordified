@@ -2180,7 +2180,7 @@ aCol
 )
 ;
 nsresult
-addTableCellRange
+AddTableCellRange
 (
 nsRange
 *
