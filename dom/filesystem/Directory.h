@@ -663,12 +663,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-ClonableToDifferentThreadOrProcess
-(
-)
-const
-;
 nsIFile
 *
 GetInternalNsIFile

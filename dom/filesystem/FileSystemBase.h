@@ -347,17 +347,6 @@ aPath
 )
 const
 ;
-virtual
-bool
-ClonableToDifferentThreadOrProcess
-(
-)
-const
-{
-return
-false
-;
-}
 /
 /
 CC
