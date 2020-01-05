@@ -118,10 +118,6 @@ log
 ;
 extern
 crate
-alert
-;
-extern
-crate
 azure
 ;
 extern
