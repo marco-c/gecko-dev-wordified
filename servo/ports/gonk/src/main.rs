@@ -362,7 +362,6 @@ and
 store
 them
 globally
-if
 opts
 :
 :
@@ -391,7 +390,7 @@ as_slice
 (
 )
 )
-{
+;
 resource_task
 :
 :
@@ -607,5 +606,4 @@ shutdown
 (
 )
 ;
-}
 }
