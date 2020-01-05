@@ -348,6 +348,7 @@ model
 mod
 multicol
 ;
+pub
 mod
 opaque_node
 ;
