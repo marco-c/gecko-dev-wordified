@@ -279,10 +279,10 @@ DAMAGE
 /
 #
 ifndef
-_EVENT2_EVENT_COMPAT_H_
+EVENT2_EVENT_COMPAT_H_INCLUDED_
 #
 define
-_EVENT2_EVENT_COMPAT_H_
+EVENT2_EVENT_COMPAT_H_INCLUDED_
 /
 *
 *
@@ -399,6 +399,15 @@ deprecated
 *
 /
 #
+include
+<
+event2
+/
+visibility
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -421,7 +430,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TYPES_H
+EVENT__HAVE_SYS_TYPES_H
 #
 include
 <
@@ -435,7 +444,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -544,6 +553,7 @@ event_base_new
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 event_base
 *
@@ -615,6 +625,7 @@ event_init
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_dispatch
 (
@@ -683,6 +694,7 @@ event_init
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_loop
 (
@@ -758,6 +770,7 @@ event_base_loopexit
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_loopexit
 (
@@ -837,6 +850,7 @@ event_init
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_loopbreak
 (
@@ -894,6 +908,7 @@ event_base_once
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_once
 (
@@ -969,6 +984,7 @@ event_base_get_method
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 const
 char
 *
@@ -1028,6 +1044,7 @@ event_base_priority_init
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_priority_init
 (
@@ -1084,6 +1101,7 @@ instead
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 event_set
 (
@@ -1447,6 +1465,6 @@ endif
 endif
 /
 *
-_EVENT2_EVENT_COMPAT_H_
+EVENT2_EVENT_COMPAT_H_INCLUDED_
 *
 /

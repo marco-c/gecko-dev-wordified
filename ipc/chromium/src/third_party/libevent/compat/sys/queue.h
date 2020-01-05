@@ -349,10 +349,10 @@ Berkeley
 /
 #
 ifndef
-_SYS_QUEUE_H_
+SYS_QUEUE_H__
 #
 define
-_SYS_QUEUE_H_
+SYS_QUEUE_H__
 /
 *
 *
@@ -949,7 +949,7 @@ NULL
 }
 #
 ifndef
-WIN32
+_WIN32
 #
 define
 SLIST_ENTRY
@@ -4490,6 +4490,6 @@ endif
 /
 *
 !
-_SYS_QUEUE_H_
+SYS_QUEUE_H__
 *
 /

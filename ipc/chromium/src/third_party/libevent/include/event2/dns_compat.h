@@ -279,10 +279,10 @@ DAMAGE
 /
 #
 ifndef
-_EVENT2_DNS_COMPAT_H_
+EVENT2_DNS_COMPAT_H_INCLUDED_
 #
 define
-_EVENT2_DNS_COMPAT_H_
+EVENT2_DNS_COMPAT_H_INCLUDED_
 /
 *
 *
@@ -336,7 +336,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TYPES_H
+EVENT__HAVE_SYS_TYPES_H
 #
 include
 <
@@ -350,7 +350,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -2067,7 +2067,7 @@ user_data
 ;
 #
 ifdef
-WIN32
+_WIN32
 int
 evdns_config_windows_nameservers
 (
@@ -2089,6 +2089,6 @@ endif
 endif
 /
 *
-_EVENT2_EVENT_COMPAT_H_
+EVENT2_EVENT_COMPAT_H_INCLUDED_
 *
 /

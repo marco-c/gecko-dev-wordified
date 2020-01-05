@@ -279,10 +279,10 @@ DAMAGE
 /
 #
 ifndef
-_EVENT2_DNS_STRUCT_H_
+EVENT2_DNS_STRUCT_H_INCLUDED_
 #
 define
-_EVENT2_DNS_STRUCT_H_
+EVENT2_DNS_STRUCT_H_INCLUDED_
 /
 *
 *
@@ -338,7 +338,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TYPES_H
+EVENT__HAVE_SYS_TYPES_H
 #
 include
 <
@@ -352,7 +352,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -497,6 +497,6 @@ endif
 endif
 /
 *
-_EVENT2_DNS_STRUCT_H_
+EVENT2_DNS_STRUCT_H_INCLUDED_
 *
 /

@@ -938,7 +938,7 @@ o2
 lock
 )
 ;
-event_overlapped_init
+event_overlapped_init_
 (
 &
 o1
@@ -947,7 +947,7 @@ eo
 dummy_cb
 )
 ;
-event_overlapped_init
+event_overlapped_init_
 (
 &
 o2
@@ -958,7 +958,7 @@ dummy_cb
 ;
 port
 =
-event_iocp_port_launch
+event_iocp_port_launch_
 (
 0
 )
@@ -971,7 +971,7 @@ port
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -986,7 +986,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1001,7 +1001,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1016,7 +1016,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1031,7 +1031,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1046,7 +1046,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1061,7 +1061,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1076,7 +1076,7 @@ eo
 tt_assert
 (
 !
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 port
 &
@@ -1103,7 +1103,7 @@ count_wait_for
 tt_want
 (
 !
-event_iocp_shutdown
+event_iocp_shutdown_
 (
 port
 2000
@@ -1274,7 +1274,7 @@ tt_assert
 ok
 )
 ;
-evbuffer_commit_read
+evbuffer_commit_read_
 (
 rbuf
 nbytes
@@ -1309,7 +1309,7 @@ tt_assert
 ok
 )
 ;
-evbuffer_commit_write
+evbuffer_commit_write_
 (
 wbuf
 nbytes
@@ -1376,14 +1376,14 @@ count_init
 (
 )
 ;
-event_overlapped_init
+event_overlapped_init_
 (
 &
 rol
 read_complete
 )
 ;
-event_overlapped_init
+event_overlapped_init_
 (
 &
 wol
@@ -1424,7 +1424,7 @@ i
 ;
 rbuf
 =
-evbuffer_overlapped_new
+evbuffer_overlapped_new_
 (
 data
 -
@@ -1437,7 +1437,7 @@ pair
 ;
 wbuf
 =
-evbuffer_overlapped_new
+evbuffer_overlapped_new_
 (
 data
 -
@@ -1462,7 +1462,7 @@ NULL
 ;
 port
 =
-event_iocp_port_launch
+event_iocp_port_launch_
 (
 0
 )
@@ -1485,7 +1485,7 @@ wbuf
 tt_assert
 (
 !
-event_iocp_port_associate
+event_iocp_port_associate_
 (
 port
 data
@@ -1502,7 +1502,7 @@ pair
 tt_assert
 (
 !
-event_iocp_port_associate
+event_iocp_port_associate_
 (
 port
 data
@@ -1567,7 +1567,7 @@ junk
 tt_assert
 (
 !
-evbuffer_launch_read
+evbuffer_launch_read_
 (
 rbuf
 2048
@@ -1639,7 +1639,7 @@ rbuf
 tt_assert
 (
 !
-evbuffer_launch_write
+evbuffer_launch_write_
 (
 wbuf
 512
@@ -1685,7 +1685,7 @@ here
 tt_want
 (
 !
-event_iocp_shutdown
+event_iocp_shutdown_
 (
 port
 2000
@@ -1803,7 +1803,7 @@ buf
 size_t
 n
 ;
-event_base_start_iocp
+event_base_start_iocp_
 (
 data
 -
@@ -1814,7 +1814,7 @@ base
 ;
 port
 =
-event_base_get_iocp
+event_base_get_iocp_
 (
 data
 -
@@ -1829,7 +1829,7 @@ port
 ;
 bea1
 =
-bufferevent_async_new
+bufferevent_async_new_
 (
 data
 -
@@ -1847,7 +1847,7 @@ BEV_OPT_DEFER_CALLBACKS
 ;
 bea2
 =
-bufferevent_async_new
+bufferevent_async_new_
 (
 data
 -

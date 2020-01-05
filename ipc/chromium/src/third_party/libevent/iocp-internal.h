@@ -261,10 +261,10 @@ DAMAGE
 /
 #
 ifndef
-_EVENT_IOCP_INTERNAL_H
+IOCP_INTERNAL_H_INCLUDED_
 #
 define
-_EVENT_IOCP_INTERNAL_H
+IOCP_INTERNAL_H_INCLUDED_
 #
 ifdef
 __cplusplus
@@ -342,7 +342,7 @@ platforms
 /
 #
 ifdef
-WIN32
+_WIN32
 /
 *
 *
@@ -687,7 +687,7 @@ const
 struct
 win32_extension_fns
 *
-event_get_win32_extension_fns
+event_get_win32_extension_fns_
 (
 void
 )
@@ -756,7 +756,7 @@ finished
 *
 /
 void
-event_overlapped_init
+event_overlapped_init_
 (
 struct
 event_overlapped
@@ -794,14 +794,14 @@ IO
 completion
 port
 using
-event_iocp_port_associate
+event_iocp_port_associate_
 .
 *
 /
 struct
 evbuffer
 *
-evbuffer_overlapped_new
+evbuffer_overlapped_new_
 (
 evutil_socket_t
 fd
@@ -818,7 +818,7 @@ nickm
 *
 /
 evutil_socket_t
-_evbuffer_overlapped_get_fd
+evbuffer_overlapped_get_fd_
 (
 struct
 evbuffer
@@ -827,7 +827,7 @@ buf
 )
 ;
 void
-_evbuffer_overlapped_set_fd
+evbuffer_overlapped_set_fd_
 (
 struct
 evbuffer
@@ -888,11 +888,11 @@ must
 be
 created
 with
-event_overlapped_init
+event_overlapped_init_
 (
 )
 .
-evbuffer_commit_read
+evbuffer_commit_read_
 (
 )
 must
@@ -942,7 +942,7 @@ error
 *
 /
 int
-evbuffer_launch_read
+evbuffer_launch_read_
 (
 struct
 evbuffer
@@ -1006,11 +1006,11 @@ must
 be
 created
 with
-event_overlapped_init
+event_overlapped_init_
 (
 )
 .
-evbuffer_commit_write
+evbuffer_commit_write_
 (
 )
 must
@@ -1060,7 +1060,7 @@ error
 *
 /
 int
-evbuffer_launch_write
+evbuffer_launch_write_
 (
 struct
 evbuffer
@@ -1082,7 +1082,7 @@ document
 *
 /
 void
-evbuffer_commit_read
+evbuffer_commit_read_
 (
 struct
 evbuffer
@@ -1091,7 +1091,7 @@ ev_ssize_t
 )
 ;
 void
-evbuffer_commit_write
+evbuffer_commit_write_
 (
 struct
 evbuffer
@@ -1128,7 +1128,7 @@ change
 struct
 event_iocp_port
 *
-event_iocp_port_launch
+event_iocp_port_launch_
 (
 int
 n_cpus
@@ -1166,7 +1166,7 @@ threads
 *
 /
 int
-event_iocp_port_associate
+event_iocp_port_associate_
 (
 struct
 event_iocp_port
@@ -1256,7 +1256,7 @@ again
 *
 /
 int
-event_iocp_shutdown
+event_iocp_shutdown_
 (
 struct
 event_iocp_port
@@ -1274,7 +1274,7 @@ document
 *
 /
 int
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 struct
 event_iocp_port
@@ -1303,7 +1303,7 @@ document
 struct
 event_iocp_port
 *
-event_base_get_iocp
+event_base_get_iocp_
 (
 struct
 event_base
@@ -1319,7 +1319,7 @@ document
 *
 /
 int
-event_base_start_iocp
+event_base_start_iocp_
 (
 struct
 event_base
@@ -1330,7 +1330,7 @@ n_cpus
 )
 ;
 void
-event_base_stop_iocp
+event_base_stop_iocp_
 (
 struct
 event_base
@@ -1348,7 +1348,7 @@ document
 struct
 bufferevent
 *
-bufferevent_async_new
+bufferevent_async_new_
 (
 struct
 event_base
@@ -1368,7 +1368,7 @@ document
 *
 /
 void
-bufferevent_async_set_connected
+bufferevent_async_set_connected_
 (
 struct
 bufferevent
@@ -1377,7 +1377,7 @@ bev
 )
 ;
 int
-bufferevent_async_can_connect
+bufferevent_async_can_connect_
 (
 struct
 bufferevent
@@ -1386,7 +1386,7 @@ bev
 )
 ;
 int
-bufferevent_async_connect
+bufferevent_async_connect_
 (
 struct
 bufferevent

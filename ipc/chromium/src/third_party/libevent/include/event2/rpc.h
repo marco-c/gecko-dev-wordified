@@ -279,10 +279,10 @@ DAMAGE
 /
 #
 ifndef
-_EVENT2_RPC_H_
+EVENT2_RPC_H_INCLUDED_
 #
 define
-_EVENT2_RPC_H_
+EVENT2_RPC_H_INCLUDED_
 #
 ifdef
 __cplusplus
@@ -601,7 +601,7 @@ _set
 )
 #
 ifndef
-_EVENT2_RPC_COMPAT_H_
+EVENT2_RPC_COMPAT_H_INCLUDED_
 /
 *
 *
@@ -935,7 +935,7 @@ plen
 endif
 /
 *
-_EVENT2_RPC_COMPAT_H_
+EVENT2_RPC_COMPAT_H_INCLUDED_
 *
 /
 /
@@ -2067,7 +2067,7 @@ do
 struct
 evrpc_req_generic
 *
-_req
+req_
 =
 (
 struct
@@ -2081,7 +2081,7 @@ rpc_req
 \
 evrpc_request_done
 (
-_req
+req_
 )
 ;
 \
@@ -3345,7 +3345,7 @@ hook
 ;
 #
 ifndef
-WIN32
+_WIN32
 /
 *
 *
@@ -4311,6 +4311,6 @@ endif
 endif
 /
 *
-_EVENT2_RPC_H_
+EVENT2_RPC_H_INCLUDED_
 *
 /

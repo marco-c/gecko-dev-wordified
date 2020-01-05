@@ -284,7 +284,7 @@ h
 "
 #
 ifdef
-WIN32
+_WIN32
 #
 include
 <
@@ -314,7 +314,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_SOCKET_H
+EVENT__HAVE_SYS_SOCKET_H
 #
 include
 <
@@ -356,7 +356,7 @@ h
 >
 #
 ifndef
-WIN32
+_WIN32
 #
 include
 <
@@ -472,17 +472,8 @@ arg
 ;
 }
 #
-ifndef
-SHUT_WR
-#
-define
-SHUT_WR
-1
-#
-endif
-#
 ifdef
-WIN32
+_WIN32
 #
 define
 LOCAL_SOCKETPAIR_AF
@@ -625,7 +616,7 @@ ifdef
 __linux__
 if
 (
-evutil_ersatz_socketpair
+evutil_ersatz_socketpair_
 (
 AF_INET
 SOCK_STREAM
@@ -709,7 +700,7 @@ pair
 [
 0
 ]
-SHUT_WR
+EVUTIL_SHUT_WR
 )
 ;
 /
@@ -1083,7 +1074,7 @@ NULL
 ;
 #
 ifdef
-_EVENT_DISABLE_DEBUG_MODE
+EVENT__DISABLE_DEBUG_MODE
 if
 (
 1
@@ -1094,6 +1085,11 @@ tt_skip
 ;
 #
 endif
+if
+(
+!
+libevent_tests_running_in_debug_mode
+)
 event_enable_debug_mode
 (
 )

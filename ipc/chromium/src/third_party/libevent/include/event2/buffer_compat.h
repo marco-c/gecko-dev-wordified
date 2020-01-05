@@ -261,10 +261,19 @@ DAMAGE
 /
 #
 ifndef
-_EVENT2_BUFFER_COMPAT_H_
+EVENT2_BUFFER_COMPAT_H_INCLUDED_
 #
 define
-_EVENT2_BUFFER_COMPAT_H_
+EVENT2_BUFFER_COMPAT_H_INCLUDED_
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
 /
 *
 *
@@ -304,7 +313,7 @@ evbuffer_readln
 (
 buffer
 NULL
-EOL_STYLE_ANY
+EVBUFFER_EOL_ANY
 )
 .
 deprecated
@@ -356,6 +365,7 @@ error
 occurred
 *
 /
+EVENT2_EXPORT_SYMBOL
 char
 *
 evbuffer_readline
@@ -684,6 +694,7 @@ callback
 function
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evbuffer_setcb
 (
@@ -750,6 +761,7 @@ failed
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 unsigned
 char
 *

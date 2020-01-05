@@ -259,6 +259,15 @@ DAMAGE
 *
 /
 #
+include
+"
+evconfig
+-
+private
+.
+h
+"
+#
 ifndef
 _WIN32_WINNT
 /
@@ -384,7 +393,7 @@ ULONG_PTR
 1
 )
 void
-event_overlapped_init
+event_overlapped_init_
 (
 struct
 event_overlapped
@@ -459,7 +468,7 @@ loop
 (
 void
 *
-_port
+port_
 )
 {
 struct
@@ -467,7 +476,7 @@ event_iocp_port
 *
 port
 =
-_port
+port_
 ;
 long
 ms
@@ -673,7 +682,7 @@ lock
 ;
 }
 int
-event_iocp_port_associate
+event_iocp_port_associate_
 (
 struct
 event_iocp_port
@@ -1026,7 +1035,7 @@ const
 struct
 win32_extension_fns
 *
-event_get_win32_extension_fns
+event_get_win32_extension_fns_
 (
 void
 )
@@ -1043,7 +1052,7 @@ N_CPUS_DEFAULT
 struct
 event_iocp_port
 *
-event_iocp_port_launch
+event_iocp_port_launch_
 (
 int
 n_cpus
@@ -1326,7 +1335,7 @@ NULL
 }
 static
 void
-_event_iocp_port_unlock_and_free
+event_iocp_port_unlock_and_free_
 (
 struct
 event_iocp_port
@@ -1441,7 +1450,7 @@ ok
 ;
 }
 int
-event_iocp_shutdown
+event_iocp_shutdown_
 (
 struct
 event_iocp_port
@@ -1542,7 +1551,7 @@ n
 0
 )
 {
-_event_iocp_port_unlock_and_free
+event_iocp_port_unlock_and_free_
 (
 port
 )
@@ -1560,7 +1569,7 @@ return
 }
 }
 int
-event_iocp_activate_overlapped
+event_iocp_activate_overlapped_
 (
 struct
 event_iocp_port
@@ -1613,7 +1622,7 @@ r
 struct
 event_iocp_port
 *
-event_base_get_iocp
+event_base_get_iocp_
 (
 struct
 event_base
@@ -1623,7 +1632,7 @@ base
 {
 #
 ifdef
-WIN32
+_WIN32
 return
 base
 -

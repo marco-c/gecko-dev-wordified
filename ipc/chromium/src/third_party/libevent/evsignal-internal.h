@@ -273,10 +273,10 @@ DAMAGE
 /
 #
 ifndef
-_EVSIGNAL_H_
+EVSIGNAL_INTERNAL_H_INCLUDED_
 #
 define
-_EVSIGNAL_H_
+EVSIGNAL_INTERNAL_H_INCLUDED_
 #
 ifndef
 evutil_socket_t
@@ -425,7 +425,7 @@ handlers
 /
 #
 ifdef
-_EVENT_HAVE_SIGACTION
+EVENT__HAVE_SIGACTION
 struct
 sigaction
 *
@@ -455,7 +455,7 @@ sh_old_max
 }
 ;
 int
-evsig_init
+evsig_init_
 (
 struct
 event_base
@@ -463,7 +463,7 @@ event_base
 )
 ;
 void
-evsig_dealloc
+evsig_dealloc_
 (
 struct
 event_base
@@ -471,7 +471,7 @@ event_base
 )
 ;
 void
-evsig_set_base
+evsig_set_base_
 (
 struct
 event_base
@@ -479,10 +479,16 @@ event_base
 base
 )
 ;
+void
+evsig_free_globals_
+(
+void
+)
+;
 #
 endif
 /
 *
-_EVSIGNAL_H_
+EVSIGNAL_INTERNAL_H_INCLUDED_
 *
 /

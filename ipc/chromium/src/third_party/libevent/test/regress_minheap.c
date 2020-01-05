@@ -261,6 +261,18 @@ DAMAGE
 /
 #
 include
+"
+.
+.
+/
+minheap
+-
+internal
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -292,12 +304,7 @@ h
 #
 include
 "
-.
-.
-/
-minheap
--
-internal
+regress
 .
 h
 "
@@ -318,7 +325,7 @@ ev_timeout
 .
 tv_sec
 =
-rand
+test_weakrand
 (
 )
 ;
@@ -329,7 +336,7 @@ ev_timeout
 .
 tv_usec
 =
-rand
+test_weakrand
 (
 )
 &
@@ -452,7 +459,7 @@ last_e
 int
 i
 ;
-min_heap_ctor
+min_heap_ctor_
 (
 &
 heap
@@ -495,7 +502,7 @@ i
 ]
 )
 ;
-min_heap_push
+min_heap_push_
 (
 &
 heap
@@ -514,7 +521,7 @@ heap
 ;
 tt_assert
 (
-min_heap_size
+min_heap_size_
 (
 &
 heap
@@ -539,7 +546,7 @@ i
 i
 )
 {
-min_heap_erase
+min_heap_erase_
 (
 &
 heap
@@ -569,7 +576,7 @@ heap
 }
 tt_assert
 (
-min_heap_size
+min_heap_size_
 (
 &
 heap
@@ -581,7 +588,7 @@ heap
 ;
 last_e
 =
-min_heap_pop
+min_heap_pop_
 (
 &
 heap
@@ -594,7 +601,7 @@ while
 {
 e
 =
-min_heap_pop
+min_heap_pop_
 (
 &
 heap
@@ -629,7 +636,7 @@ ev_timeout
 }
 tt_assert
 (
-min_heap_size
+min_heap_size_
 (
 &
 heap
@@ -663,7 +670,7 @@ i
 ]
 )
 ;
-min_heap_dtor
+min_heap_dtor_
 (
 &
 heap

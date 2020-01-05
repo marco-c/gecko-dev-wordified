@@ -279,10 +279,19 @@ DAMAGE
 /
 #
 ifndef
-_EVRPC_INTERNAL_H_
+EVRPC_INTERNAL_H_INCLUDED_
 #
 define
-_EVRPC_INTERNAL_H_
+EVRPC_INTERNAL_H_INCLUDED_
+#
+include
+"
+event2
+/
+http
+.
+h
+"
 #
 include
 "
@@ -417,7 +426,7 @@ evrpc_hook_ctx
 )
 ;
 struct
-_evrpc_hooks
+evrpc_hooks_
 {
 /
 *
@@ -466,7 +475,7 @@ struct
 evrpc_base
 {
 struct
-_evrpc_hooks
+evrpc_hooks_
 common
 ;
 /
@@ -513,7 +522,7 @@ struct
 evrpc_req_generic
 ;
 void
-evrpc_reqstate_free
+evrpc_reqstate_free_
 (
 struct
 evrpc_req_generic
@@ -535,7 +544,7 @@ struct
 evrpc_pool
 {
 struct
-_evrpc_hooks
+evrpc_hooks_
 common
 ;
 struct
@@ -644,7 +653,7 @@ request
 /
 static
 void
-evrpc_hook_associate_meta
+evrpc_hook_associate_meta_
 (
 struct
 evrpc_hook_meta
@@ -671,7 +680,7 @@ static
 struct
 evrpc_hook_meta
 *
-evrpc_hook_meta_new
+evrpc_hook_meta_new_
 (
 void
 )
@@ -690,7 +699,7 @@ request
 /
 static
 void
-evrpc_hook_context_free
+evrpc_hook_context_free_
 (
 struct
 evrpc_hook_meta
@@ -1081,6 +1090,6 @@ evbuffer
 endif
 /
 *
-_EVRPC_INTERNAL_H_
+EVRPC_INTERNAL_H_INCLUDED_
 *
 /
