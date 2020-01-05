@@ -1025,9 +1025,6 @@ const
 nsACString
 &
 aScope
-ServiceWorkerUpdateFinishCallback
-*
-aCallback
 )
 ;
 void
