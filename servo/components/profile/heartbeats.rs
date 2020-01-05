@@ -378,6 +378,17 @@ hbs
 ProfilerCategory
 :
 :
+ImageSaving
+)
+;
+maybe_create_heartbeat
+(
+&
+mut
+hbs
+ProfilerCategory
+:
+:
 ScriptAttachLayout
 )
 ;
