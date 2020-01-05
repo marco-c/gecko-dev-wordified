@@ -14425,6 +14425,10 @@ RecordStyleSheetChange
 CSSStyleSheet
 *
 aStyleSheet
+StyleSheet
+:
+:
+ChangeType
 )
 {
 MOZ_ASSERT
