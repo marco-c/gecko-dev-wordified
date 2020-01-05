@@ -17579,7 +17579,7 @@ wasm
 Trap
 :
 :
-InvalidConversionToInteger
+IntegerDivideByZero
 )
 Assembler
 :
