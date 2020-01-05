@@ -3256,7 +3256,6 @@ DBListenerErrorHandler
 {
 private
 :
-virtual
 const
 char
 *
@@ -3593,7 +3592,6 @@ DBListenerErrorHandler
 {
 private
 :
-virtual
 const
 char
 *
@@ -3856,7 +3854,6 @@ DBListenerErrorHandler
 {
 private
 :
-virtual
 const
 char
 *
@@ -4119,7 +4116,6 @@ DBListenerErrorHandler
 {
 private
 :
-virtual
 const
 char
 *
