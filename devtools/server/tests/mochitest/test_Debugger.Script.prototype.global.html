@@ -160,6 +160,11 @@ test
 <
 script
 >
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -200,7 +205,7 @@ waitForExplicitFinish
 (
 )
 ;
-var
+let
 iframe
 =
 document
@@ -258,13 +263,15 @@ firstOnLoadHandler
 (
 )
 {
-var
+let
 dbg
 =
 new
 Debugger
+(
+)
 ;
-var
+let
 iframeDO
 =
 dbg
@@ -304,7 +311,7 @@ D
 .
 O
 .
-var
+let
 iframeWindowProxyDO
 =
 iframeDO
@@ -348,9 +355,9 @@ iframeDO
 .
 getOwnPropertyDescriptor
 (
-'
+"
 glorp
-'
+"
 )
 .
 value
@@ -372,6 +379,7 @@ finish
 ;
 }
 }
+;
 <
 /
 script

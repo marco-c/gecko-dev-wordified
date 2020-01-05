@@ -152,6 +152,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 const
 {
 CssLogic
@@ -189,6 +194,7 @@ runNextTest
 )
 ;
 }
+;
 addTest
 (
 function
@@ -408,7 +414,7 @@ style
 "
 )
 ;
-var
+let
 {
 bindingElement
 pseudo
@@ -468,7 +474,7 @@ firstChild
 (
 )
 ;
-var
+(
 {
 bindingElement
 pseudo
@@ -479,6 +485,7 @@ CssLogic
 getBindingElementAndPseudo
 (
 firstChild
+)
 )
 ;
 is
@@ -532,7 +539,7 @@ lastChild
 (
 )
 ;
-var
+(
 {
 bindingElement
 pseudo
@@ -543,6 +550,7 @@ CssLogic
 getBindingElementAndPseudo
 (
 lastChild
+)
 )
 ;
 is

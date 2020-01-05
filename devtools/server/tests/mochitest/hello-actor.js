@@ -27,6 +27,17 @@ zero
 /
 *
 /
+/
+*
+exported
+HelloActor
+*
+/
+"
+use
+strict
+"
+;
 const
 protocol
 =

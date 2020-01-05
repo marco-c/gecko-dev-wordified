@@ -156,6 +156,11 @@ script
 <
 script
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
@@ -179,7 +184,7 @@ function
 (
 )
 {
-var
+let
 {
 memory
 client
@@ -197,7 +202,7 @@ attach
 (
 )
 ;
-var
+let
 allocs
 =
 [
@@ -214,6 +219,8 @@ push
 (
 new
 Object
+(
+)
 )
 ;
 }
@@ -236,7 +243,7 @@ allocator
 (
 )
 ;
-var
+let
 response
 =
 yield

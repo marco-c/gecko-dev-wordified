@@ -138,6 +138,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 let
 Cu
 =
@@ -286,6 +291,7 @@ runTests
 )
 ;
 }
+;
 function
 runTests
 (
@@ -327,15 +333,6 @@ appendChild
 (
 iframe
 )
-;
-let
-mm
-=
-iframe
-.
-frameLoader
-.
-messageManager
 ;
 /
 /
@@ -617,7 +614,6 @@ test
 :
 setupParent
 "
-false
 )
 ;
 args
@@ -814,6 +810,7 @@ SimpleTest
 finish
 (
 )
+;
 }
 )
 ;
