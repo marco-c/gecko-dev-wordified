@@ -4668,6 +4668,9 @@ stretch
 types
 :
 [
+'
+fontStretch
+'
 ]
 }
 '
