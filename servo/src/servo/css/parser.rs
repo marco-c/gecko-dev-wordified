@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+*
+*
 Constructs
 a
 list
@@ -14,8 +12,8 @@ from
 a
 token
 stream
-"
-]
+*
+/
 /
 /
 TODO
