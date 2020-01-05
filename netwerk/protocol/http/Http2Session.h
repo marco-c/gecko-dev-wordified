@@ -3716,7 +3716,10 @@ from
 .
 nsTArray
 <
-uint32_t
+WeakPtr
+<
+Http2Stream
+>
 >
 m0RTTStreams
 ;
