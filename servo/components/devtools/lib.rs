@@ -155,7 +155,6 @@ feature
 (
 box_syntax
 core
-rustc_private
 )
 ]
 #

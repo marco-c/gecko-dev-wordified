@@ -315,7 +315,10 @@ log_enabled
 log
 :
 :
-INFO
+LogLevel
+:
+:
+Info
 )
 {
 let

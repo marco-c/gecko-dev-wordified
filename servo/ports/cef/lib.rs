@@ -125,14 +125,6 @@ std_misc
 [
 feature
 (
-rustc_private
-)
-]
-#
-!
-[
-feature
-(
 collections
 )
 ]

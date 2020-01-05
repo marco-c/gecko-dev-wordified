@@ -81,14 +81,6 @@ core
 )
 ]
 #
-!
-[
-feature
-(
-rustc_private
-)
-]
-#
 [
 macro_use
 ]

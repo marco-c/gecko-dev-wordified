@@ -6404,7 +6404,10 @@ log_enabled
 log
 :
 :
-DEBUG
+LogLevel
+:
+:
+Debug
 )
 {
 node

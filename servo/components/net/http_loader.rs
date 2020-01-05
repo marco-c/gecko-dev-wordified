@@ -1773,7 +1773,10 @@ log_enabled
 log
 :
 :
-INFO
+LogLevel
+:
+:
+Info
 )
 {
 info
@@ -2258,7 +2261,10 @@ log_enabled
 log
 :
 :
-INFO
+LogLevel
+:
+:
+Info
 )
 {
 for
