@@ -3477,6 +3477,17 @@ encodeURIComponent
 (
 output
 )
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 let

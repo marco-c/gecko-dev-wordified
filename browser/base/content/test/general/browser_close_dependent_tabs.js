@@ -521,6 +521,15 @@ true
 isPrerendered
 :
 true
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

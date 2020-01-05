@@ -318,6 +318,15 @@ spec
 inBackground
 :
 false
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;
