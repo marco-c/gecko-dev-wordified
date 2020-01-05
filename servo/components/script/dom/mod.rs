@@ -2588,6 +2588,10 @@ eventdispatcher
 ;
 pub
 mod
+eventsource
+;
+pub
+mod
 eventtarget
 ;
 pub
