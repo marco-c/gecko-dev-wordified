@@ -522,6 +522,13 @@ args
 appendElement
 (
 supportsStringPrefURL
+/
+*
+weak
+=
+*
+/
+false
 )
 ;
 let

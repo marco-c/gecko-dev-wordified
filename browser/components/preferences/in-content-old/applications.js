@@ -1515,6 +1515,7 @@ possibleApplicationHandlers
 appendElement
 (
 aNewHandler
+false
 )
 ;
 }
@@ -3948,6 +3949,7 @@ _possibleApplicationHandlers
 appendElement
 (
 preferredApp
+false
 )
 ;
 }
@@ -3995,6 +3997,7 @@ _possibleApplicationHandlers
 appendElement
 (
 webHandler
+false
 )
 ;
 return

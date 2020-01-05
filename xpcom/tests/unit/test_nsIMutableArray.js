@@ -177,6 +177,7 @@ arr
 appendElement
 (
 str
+false
 )
 ;
 }
@@ -210,6 +211,7 @@ arr
 appendElement
 (
 null
+false
 )
 ;
 do_check_eq
@@ -255,6 +257,7 @@ arr
 appendElement
 (
 str
+false
 )
 ;
 do_check_eq
