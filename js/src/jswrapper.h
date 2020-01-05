@@ -2222,6 +2222,8 @@ Wrapper
 Action
 act
 bool
+mayThrow
+bool
 *
 bp
 )
