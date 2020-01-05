@@ -297,6 +297,7 @@ information
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -318,6 +319,7 @@ Url
 [
 derive
 (
+Debug
 Deserialize
 HeapSizeOf
 Serialize
@@ -371,6 +373,13 @@ in
 the
 browser
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 DevtoolsControlMsg
@@ -420,6 +429,13 @@ must
 act
 upon
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 ChromeToDevtoolsControlMsg
@@ -487,6 +503,7 @@ NetworkEvent
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -647,6 +664,7 @@ message
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -683,6 +701,7 @@ String
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -708,6 +727,7 @@ String
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -801,6 +821,7 @@ Vec
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -848,6 +869,7 @@ Vec
 [
 derive
 (
+Debug
 PartialEq
 Eq
 Hash
@@ -882,6 +904,7 @@ layout
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -971,6 +994,7 @@ f32
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1036,6 +1060,7 @@ fails
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1374,6 +1399,7 @@ PipelineId
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1398,6 +1424,7 @@ String
 [
 derive
 (
+Debug
 Clone
 Deserialize
 Serialize
@@ -1417,6 +1444,7 @@ Error
 [
 derive
 (
+Debug
 Clone
 Deserialize
 Serialize
@@ -1484,6 +1512,7 @@ CONSOLE_API
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1560,6 +1589,7 @@ bool
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1619,6 +1649,7 @@ String
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -1742,6 +1773,13 @@ pipeline_id
 :
 PipelineId
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 NetworkEvent
@@ -1939,6 +1977,7 @@ here
 [
 derive
 (
+Debug
 Copy
 Clone
 Deserialize
