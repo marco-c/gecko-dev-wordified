@@ -2453,7 +2453,7 @@ else
 .
 mErrorResult
 .
-Throw
+ThrowWithCustomCleanup
 (
 NS_ERROR_UNEXPECTED
 )
