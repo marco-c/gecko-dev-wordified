@@ -87,7 +87,6 @@ dom
 :
 {
 OpaqueNode
-TElement
 TNode
 TRestyleDamage
 UnsafeNode
@@ -158,12 +157,6 @@ util
 :
 :
 opts
-;
-use
-values
-:
-:
-HasViewportPercentage
 ;
 /
 /
