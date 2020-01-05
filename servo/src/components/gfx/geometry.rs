@@ -908,7 +908,7 @@ pub
 fn
 from_px
 (
-i
+px
 :
 int
 )
@@ -921,7 +921,7 @@ NumCast
 :
 from
 (
-i
+px
 *
 60
 )
@@ -1062,7 +1062,7 @@ pub
 fn
 from_pt
 (
-f
+pt
 :
 float
 )
@@ -1074,7 +1074,7 @@ from_px
 (
 pt_to_px
 (
-f
+pt
 )
 as
 int
@@ -1084,7 +1084,7 @@ pub
 fn
 from_frac_px
 (
-f
+px
 :
 float
 )
@@ -1095,7 +1095,7 @@ Au
 Au
 (
 (
-f
+px
 *
 60f
 )
@@ -1178,7 +1178,7 @@ pub
 fn
 pt_to_px
 (
-f
+pt
 :
 float
 )
@@ -1186,7 +1186,7 @@ float
 >
 float
 {
-f
+pt
 /
 72f
 *
@@ -1208,7 +1208,7 @@ pub
 fn
 px_to_pt
 (
-f
+px
 :
 float
 )
@@ -1216,7 +1216,7 @@ float
 >
 float
 {
-f
+px
 /
 96f
 *
@@ -1308,7 +1308,7 @@ pub
 fn
 from_frac_px
 (
-f
+px
 :
 float
 )
@@ -1319,7 +1319,7 @@ Au
 Au
 (
 (
-f
+px
 *
 60f
 )
@@ -1331,7 +1331,7 @@ pub
 fn
 from_px
 (
-i
+px
 :
 int
 )
@@ -1344,7 +1344,7 @@ NumCast
 :
 from
 (
-i
+px
 *
 60
 )
@@ -1407,7 +1407,7 @@ pub
 fn
 from_pt
 (
-f
+pt
 :
 float
 )
@@ -1418,7 +1418,7 @@ Au
 from_px
 (
 (
-f
+pt
 /
 72f
 *
