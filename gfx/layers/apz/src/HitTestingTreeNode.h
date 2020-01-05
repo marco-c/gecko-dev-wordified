@@ -783,6 +783,15 @@ IsScrollbarNode
 )
 const
 ;
+FrameMetrics
+:
+:
+ViewID
+GetScrollTargetId
+(
+)
+const
+;
 /
 *
 Fixed
