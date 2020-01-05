@@ -4818,6 +4818,13 @@ server
 ;
 try
 {
+let
+serverTime
+=
+AsyncResource
+.
+serverTime
+;
 Service
 .
 recordTelemetryEvent
@@ -4949,6 +4956,12 @@ foo
 "
 bar
 "
+serverTime
+:
+String
+(
+serverTime
+)
 }
 )
 ;
