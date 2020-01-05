@@ -93,12 +93,6 @@ size
 Size2D
 ;
 use
-gfx_traits
-:
-:
-ScrollRootId
-;
-use
 ipc_channel
 :
 :
@@ -622,8 +616,10 @@ a
 window
 ScrollFragmentPoint
 (
-PipelineId
-ScrollRootId
+webrender_traits
+:
+:
+ClipId
 Point2D
 <
 f32

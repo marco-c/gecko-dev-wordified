@@ -220,6 +220,10 @@ extern
 crate
 style
 ;
+extern
+crate
+webrender_traits
+;
 pub
 mod
 message

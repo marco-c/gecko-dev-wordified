@@ -84,12 +84,6 @@ rect
 Rect
 ;
 use
-gfx_traits
-:
-:
-ScrollRootId
-;
-use
 script_traits
 :
 :
@@ -112,6 +106,12 @@ margin_bottom
 margin_left
 overflow_x
 }
+;
+use
+webrender_traits
+:
+:
+ClipId
 ;
 /
 /
@@ -582,7 +582,7 @@ struct
 NodeScrollRootIdResponse
 (
 pub
-ScrollRootId
+ClipId
 )
 ;
 pub
