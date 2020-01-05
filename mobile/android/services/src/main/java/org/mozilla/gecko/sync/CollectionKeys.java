@@ -159,6 +159,17 @@ crypto
 .
 KeyBundle
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
 public
 class
 CollectionKeys
@@ -480,6 +491,9 @@ getEncryptionKey
 (
 )
 )
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -500,6 +514,9 @@ getHMACKey
 (
 )
 )
+StringUtils
+.
+UTF_8
 )
 )
 ;

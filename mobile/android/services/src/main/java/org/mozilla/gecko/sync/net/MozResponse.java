@@ -189,6 +189,17 @@ sync
 NonObjectJSONException
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 ch
 .
 boye
@@ -532,6 +543,9 @@ entity
 getContent
 (
 )
+StringUtils
+.
+UTF_8
 )
 ;
 /

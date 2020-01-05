@@ -226,6 +226,17 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
 public
 class
 GeckoMediaDrmBridgeV21
@@ -1175,6 +1186,9 @@ sessionId
 array
 (
 )
+StringUtils
+.
+UTF_8
 )
 +
 "
@@ -1344,6 +1358,9 @@ sessionId
 .
 getBytes
 (
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -1615,6 +1632,9 @@ sessionId
 .
 getBytes
 (
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -2493,6 +2513,9 @@ session
 array
 (
 )
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -2528,6 +2551,9 @@ session
 array
 (
 )
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -3082,6 +3108,9 @@ urlConnection
 getInputStream
 (
 )
+StringUtils
+.
+UTF_8
 )
 )
 ;
@@ -3137,6 +3166,9 @@ response
 .
 getBytes
 (
+StringUtils
+.
+UTF_8
 )
 ;
 if
@@ -3955,6 +3987,9 @@ new
 String
 (
 cryptoSessionId
+StringUtils
+.
+UTF_8
 )
 )
 ;
