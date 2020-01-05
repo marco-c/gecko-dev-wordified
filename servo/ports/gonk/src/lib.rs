@@ -831,6 +831,11 @@ user_agent
 clone
 (
 )
+devtools_chan
+.
+clone
+(
+)
 )
 ;
 let
