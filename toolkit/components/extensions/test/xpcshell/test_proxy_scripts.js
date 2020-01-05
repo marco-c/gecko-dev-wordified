@@ -5,12 +5,12 @@ strict
 ;
 /
 *
+eslint
 no
 -
 unused
 -
 vars
-"
 :
 [
 "
