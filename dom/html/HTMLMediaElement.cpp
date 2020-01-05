@@ -5451,7 +5451,7 @@ user
 press
 the
 pause
-botton
+button
 on
 the
 remote
@@ -5466,7 +5466,7 @@ can
 be
 resumed
 by
-reomte
+remote
 media
 -
 control
@@ -5490,7 +5490,7 @@ to
 reduce
 the
 power
-comsuption
+consumption
 we
 won
 '
@@ -5546,7 +5546,7 @@ platform
 audio
 focus
 we
-shuold
+should
 stop
 playing
 /
