@@ -1943,7 +1943,7 @@ aCx
 )
 )
 {
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -1967,7 +1967,7 @@ Dispatch
 {
 /
 /
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 will
@@ -2302,7 +2302,7 @@ nullptr
 ;
 }
 void
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 override

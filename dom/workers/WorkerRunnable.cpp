@@ -3609,7 +3609,7 @@ HoldWorker
 )
 )
 {
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -3638,7 +3638,7 @@ ReleaseWorker
 (
 )
 ;
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -3727,7 +3727,7 @@ aRunnable
 We
 must
 call
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 also
@@ -3735,6 +3735,8 @@ if
 the
 runnable
 is
+/
+/
 canceled
 .
 nsresult
@@ -3794,7 +3796,7 @@ mRunnable
 mRunnable
 -
 >
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
