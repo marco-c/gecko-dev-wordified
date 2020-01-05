@@ -10420,6 +10420,12 @@ if
 wrapper
 &
 &
+!
+wrapper
+.
+overflowed
+&
+&
 wrapper
 .
 anchor
