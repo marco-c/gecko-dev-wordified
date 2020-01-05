@@ -2605,10 +2605,7 @@ result
 is
 one
 of
-nsIDOMKeyEvent
-:
-:
-DOM_KEY_LOCATION_
+eKeyLocation
 *
 .
 uint32_t
