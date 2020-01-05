@@ -123,6 +123,7 @@ conversions
 :
 :
 {
+ConversionResult
 FromJSValConvertible
 ToJSValConvertible
 }
@@ -1378,9 +1379,15 @@ handle
 {
 Ok
 (
+ConversionResult
+:
+:
+Success
+(
 USVString
 (
 string
+)
 )
 )
 =
@@ -1397,10 +1404,7 @@ exception
 "
 string
 )
-Err
-(
 _
-)
 =
 >
 error
