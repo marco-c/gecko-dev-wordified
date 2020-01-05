@@ -174,6 +174,15 @@ warnOnFailure
 true
 )
 ;
+PRFuncPtr
+LookupSymbol
+(
+const
+char
+*
+symname
+)
+;
 /
 *
 *
