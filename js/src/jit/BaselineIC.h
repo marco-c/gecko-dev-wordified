@@ -2578,7 +2578,6 @@ Which
 {
 Mapped
 Unmapped
-Magic
 }
 ;
 private
