@@ -178,6 +178,9 @@ h
 "
 #
 endif
+class
+JSLinearString
+;
 /
 *
 *
@@ -630,7 +633,7 @@ hash
 explicit
 Lookup
 (
-JSFlatString
+JSLinearString
 *
 timeZone
 )
