@@ -8796,6 +8796,9 @@ T
 [
 %
 s
+-
+%
+i
 ]
 max
 pause
@@ -8918,6 +8921,9 @@ delta
 /
 PR_USEC_PER_SEC
 ProcessNameForCollectorLog
+(
+)
+getpid
 (
 )
 gCCStats
@@ -11391,6 +11397,9 @@ T
 [
 %
 s
+-
+%
+i
 ]
 "
 )
@@ -11432,6 +11441,9 @@ delta
 /
 PR_USEC_PER_SEC
 ProcessNameForCollectorLog
+(
+)
+getpid
 (
 )
 )
@@ -11782,6 +11794,9 @@ kFmt
 [
 %
 s
+-
+%
+i
 ]
 "
 )
@@ -11817,6 +11832,9 @@ get
 (
 )
 ProcessNameForCollectorLog
+(
+)
+getpid
 (
 )
 )
