@@ -3940,7 +3940,7 @@ const
 bool
 EnableIonCacheIR
 =
-true
+false
 ;
 }
 /
