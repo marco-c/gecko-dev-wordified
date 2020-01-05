@@ -328,6 +328,15 @@ totalBytesLeaked
 =
 None
     
+logAsWarning
+=
+False
+    
+leakAnalysis
+=
+[
+]
+    
 leakedObjectAnalysis
 =
 [
@@ -617,17 +626,19 @@ not
 None
 :
                     
-log
+leakAnalysis
 .
-warning
+append
 (
 "
+WARNING
+|
 leakcheck
 |
 %
 s
 "
-                                
+                                        
 "
 multiple
 BloatView
@@ -635,7 +646,7 @@ byte
 totals
 found
 "
-                                
+                                        
 %
 processString
 )
@@ -708,9 +719,9 @@ numLeaked
 0
 :
                 
-log
+leakAnalysis
 .
-error
+append
 (
 "
 TEST
@@ -728,10 +739,14 @@ leaks
 caught
 !
 "
-                          
+                                    
 %
 processString
 )
+                
+logAsWarning
+=
+True
                 
 continue
             
@@ -786,6 +801,35 @@ name
 )
 )
     
+leakAnalysis
+.
+extend
+(
+leakedObjectAnalysis
+)
+    
+if
+logAsWarning
+:
+        
+log
+.
+warning
+(
+'
+\
+n
+'
+.
+join
+(
+leakAnalysis
+)
+)
+    
+else
+:
+        
 log
 .
 info
@@ -797,9 +841,13 @@ n
 .
 join
 (
-leakedObjectAnalysis
+leakAnalysis
 )
 )
+    
+logAsWarning
+=
+False
     
 if
 totalBytesLeaked
@@ -886,7 +934,7 @@ else
             
 log
 .
-error
+info
 (
 "
 TEST
@@ -907,7 +955,7 @@ total
 leaks
 !
 "
-                      
+                     
 %
 processString
 )
@@ -970,6 +1018,53 @@ processString
 )
         
 return
+    
+if
+totalBytesLeaked
+>
+leakThreshold
+:
+        
+logAsWarning
+=
+True
+        
+#
+Fail
+the
+run
+if
+we
+'
+re
+over
+the
+threshold
+(
+which
+defaults
+to
+0
+)
+        
+prefix
+=
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+"
+    
+else
+:
+        
+prefix
+=
+"
+WARNING
+"
     
 #
 Create
@@ -1052,30 +1147,6 @@ leakedObjectSummary
 .
 '
     
-message
-=
-"
-leakcheck
-|
-%
-s
-%
-d
-bytes
-leaked
-(
-%
-s
-)
-"
-%
-(
-            
-processString
-totalBytesLeaked
-leakedObjectSummary
-)
-    
 #
 totalBytesLeaked
 will
@@ -1098,27 +1169,38 @@ bytes
 .
     
 if
-totalBytesLeaked
->
-leakThreshold
+logAsWarning
 :
         
 log
 .
-error
+warning
 (
 "
-TEST
--
-UNEXPECTED
--
-FAIL
+%
+s
+|
+leakcheck
 |
 %
 s
-"
 %
-message
+d
+bytes
+leaked
+(
+%
+s
+)
+"
+                    
+%
+(
+prefix
+processString
+totalBytesLeaked
+leakedObjectSummary
+)
 )
     
 else
@@ -1126,9 +1208,33 @@ else
         
 log
 .
-warning
+info
 (
-message
+"
+%
+s
+|
+leakcheck
+|
+%
+s
+%
+d
+bytes
+leaked
+(
+%
+s
+)
+"
+                 
+%
+(
+prefix
+processString
+totalBytesLeaked
+leakedObjectSummary
+)
 )
 def
 process_leak_log
@@ -1375,10 +1481,12 @@ leakLogFile
         
 log
 .
-warning
+info
 (
             
 "
+WARNING
+|
 leakcheck
 |
 refcount
@@ -1516,7 +1624,7 @@ knownProcessTypes
             
 log
 .
-error
+info
 (
 "
 TEST
@@ -1527,9 +1635,6 @@ FAIL
 |
 leakcheck
 |
-"
-                      
-"
 Unknown
 process
 type
@@ -1538,6 +1643,7 @@ s
 in
 leakThresholds
 "
+                     
 %
 processType
 )
@@ -1709,7 +1815,7 @@ knownProcessTypes
                 
 log
 .
-error
+info
 (
 "
 TEST
@@ -1720,9 +1826,6 @@ FAIL
 |
 leakcheck
 |
-"
-                          
-"
 Leak
 log
 with
@@ -1732,6 +1835,7 @@ type
 %
 s
 "
+                         
 %
 processType
 )
