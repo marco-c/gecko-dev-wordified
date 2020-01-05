@@ -105,6 +105,10 @@ h
 #
 include
 "
+mozilla
+/
+intl
+/
 OSPreferences
 .
 h
