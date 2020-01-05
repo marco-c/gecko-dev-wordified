@@ -217,6 +217,10 @@ HandleObject
 proto
 =
 nullptr
+bool
+needsWrapping
+=
+false
 )
 ;
 static
