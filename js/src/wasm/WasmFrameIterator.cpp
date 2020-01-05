@@ -2934,7 +2934,7 @@ scratch
 ;
 masm
 .
-branch32
+branchPtr
 (
 Assembler
 :
