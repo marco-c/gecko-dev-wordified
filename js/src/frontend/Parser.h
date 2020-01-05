@@ -8434,10 +8434,12 @@ ForbidAssignmentToFunctionCalls
 private
 :
 bool
-checkAndMarkAsIncOperand
+checkIncDecOperand
 (
 Node
-kid
+operand
+uint32_t
+operandOffset
 )
 ;
 bool
