@@ -511,6 +511,15 @@ use
 std
 :
 :
+str
+:
+:
+FromStr
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -4870,7 +4879,7 @@ DOMString
 {
 if
 let
-Some
+Ok
 (
 op
 )
@@ -9176,7 +9185,7 @@ InvalidState
 ;
 if
 let
-Some
+Ok
 (
 rep
 )
@@ -9506,7 +9515,7 @@ DOMString
 {
 if
 let
-Some
+Ok
 (
 cap
 )
@@ -9685,7 +9694,7 @@ DOMString
 {
 if
 let
-Some
+Ok
 (
 join
 )
