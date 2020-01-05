@@ -113,8 +113,8 @@ js
 ;
 add_task
 (
-async
 function
+*
 test_findCluster
 (
 )
@@ -161,7 +161,7 @@ body
 }
 )
 ;
-await
+yield
 Service
 .
 identity
@@ -170,7 +170,7 @@ initializeWithCurrentIdentity
 (
 )
 ;
-await
+yield
 Assert
 .
 rejects
@@ -255,7 +255,7 @@ body
 }
 )
 ;
-await
+yield
 Service
 .
 identity
@@ -264,7 +264,7 @@ initializeWithCurrentIdentity
 (
 )
 ;
-await
+yield
 Assert
 .
 rejects
@@ -387,7 +387,7 @@ uid
 }
 )
 ;
-await
+yield
 Service
 .
 identity
@@ -396,7 +396,7 @@ initializeWithCurrentIdentity
 (
 )
 ;
-await
+yield
 Service
 .
 identity

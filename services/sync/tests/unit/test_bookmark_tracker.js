@@ -74,6 +74,25 @@ resource
 :
 /
 /
+gre
+/
+modules
+/
+Task
+.
+jsm
+"
+)
+;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
 services
 -
 sync
@@ -245,8 +264,8 @@ DAY_IN_MS
 Test
 helpers
 .
-async
 function
+*
 verifyTrackerEmpty
 (
 )
@@ -279,8 +298,8 @@ score
 )
 ;
 }
-async
 function
+*
 resetTracker
 (
 )
@@ -298,8 +317,8 @@ resetScore
 )
 ;
 }
-async
 function
+*
 cleanup
 (
 )
@@ -310,12 +329,12 @@ wipe
 (
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 stopTracking
 (
 )
@@ -352,8 +371,8 @@ be
 discarded
 .
 )
-async
 function
+*
 startTracking
 (
 )
@@ -376,8 +395,8 @@ tracking
 )
 ;
 }
-async
 function
+*
 stopTracking
 (
 )
@@ -400,8 +419,8 @@ tracking
 )
 ;
 }
-async
 function
+*
 verifyTrackedItems
 (
 tracked
@@ -507,8 +526,8 @@ trackedIDs
 )
 ;
 }
-async
 function
+*
 verifyTrackedCount
 (
 expected
@@ -586,8 +605,8 @@ val
 }
 add_task
 (
-async
 function
+*
 test_tracking
 (
 )
@@ -696,7 +715,7 @@ createBmk
 (
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 0
@@ -724,7 +743,7 @@ changes
 "
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -754,7 +773,7 @@ new
 child
 )
 .
-await
+yield
 verifyTrackedCount
 (
 2
@@ -785,7 +804,7 @@ harm
 "
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -794,7 +813,7 @@ createBmk
 (
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 3
@@ -823,12 +842,12 @@ again
 "
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 stopTracking
 (
 )
@@ -837,7 +856,7 @@ createBmk
 (
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 0
@@ -866,7 +885,7 @@ harm
 "
 )
 ;
-await
+yield
 stopTracking
 (
 )
@@ -875,7 +894,7 @@ createBmk
 (
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 0
@@ -901,7 +920,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -912,8 +931,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_batch_tracking
 (
 )
@@ -938,7 +957,7 @@ batch
 "
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1011,9 +1030,14 @@ Async
 .
 promiseSpinningly
 (
+Task
+.
+spawn
+(
 verifyTrackedCount
 (
 2
+)
 )
 )
 ;
@@ -1057,7 +1081,7 @@ should
 be
 up
 .
-await
+yield
 verifyTrackedCount
 (
 2
@@ -1071,7 +1095,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -1081,8 +1105,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_nested_batch_tracking
 (
 )
@@ -1107,7 +1131,7 @@ nested
 "
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1193,9 +1217,14 @@ Async
 .
 promiseSpinningly
 (
+Task
+.
+spawn
+(
 verifyTrackedCount
 (
 2
+)
 )
 )
 ;
@@ -1277,7 +1306,7 @@ should
 be
 up
 .
-await
+yield
 verifyTrackedCount
 (
 2
@@ -1291,7 +1320,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -1301,8 +1330,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_tracker_sql_batching
 (
 )
@@ -1347,7 +1376,7 @@ createdIDs
 [
 ]
 ;
-await
+yield
 startTracking
 (
 )
@@ -1446,7 +1475,7 @@ length
 numItems
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 numItems
@@ -1462,7 +1491,7 @@ is
 also
 tracked
 .
-await
+yield
 cleanup
 (
 )
@@ -1472,8 +1501,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemAdded
 (
 )
@@ -1496,7 +1525,7 @@ tracked
 ;
 try
 {
-await
+yield
 startTracking
 (
 )
@@ -1551,7 +1580,7 @@ GUIDForId
 syncFolderID
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -1572,12 +1601,12 @@ SCORE_INCREMENT_XLARGE
 2
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1644,7 +1673,7 @@ GUIDForId
 syncBmkID
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -1663,12 +1692,12 @@ SCORE_INCREMENT_XLARGE
 2
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1722,7 +1751,7 @@ GUIDForId
 syncSepID
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -1755,7 +1784,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -1766,8 +1795,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemAdded
 (
 )
@@ -1790,7 +1819,7 @@ tracked
 ;
 try
 {
-await
+yield
 startTracking
 (
 )
@@ -1811,7 +1840,7 @@ API
 let
 asyncFolder
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -1842,7 +1871,7 @@ Folder
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -1865,12 +1894,12 @@ SCORE_INCREMENT_XLARGE
 2
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1891,7 +1920,7 @@ API
 let
 asyncBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -1933,7 +1962,7 @@ Bookmark
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -1956,12 +1985,12 @@ SCORE_INCREMENT_XLARGE
 2
 )
 ;
-await
+yield
 resetTracker
 (
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -1982,7 +2011,7 @@ API
 let
 asyncSep
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -2012,7 +2041,7 @@ index
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2047,7 +2076,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -2058,8 +2087,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemChanged
 (
 )
@@ -2082,7 +2111,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -2099,7 +2128,7 @@ bookmark
 let
 fxBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -2154,7 +2183,7 @@ guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -2172,7 +2201,7 @@ API
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -2241,7 +2270,7 @@ DAY_IN_MS
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2273,7 +2302,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -2284,8 +2313,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemChanged_itemDates
 (
 )
@@ -2305,7 +2334,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -2381,7 +2410,7 @@ fx_guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -2432,7 +2461,7 @@ fx_id
 dateAdded
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2448,7 +2477,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -2488,7 +2517,7 @@ fx_id
 dateModified
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2516,7 +2545,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -2527,8 +2556,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemChanged_changeBookmarkURI
 (
 )
@@ -2548,7 +2577,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -2666,7 +2695,7 @@ annotations
 EXPIRE_NEVER
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -2710,7 +2739,7 @@ firefox
 )
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2738,7 +2767,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -2749,8 +2778,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemTagged
 (
 )
@@ -2772,7 +2801,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -2928,7 +2957,7 @@ GUID
 bGUID
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -2967,7 +2996,7 @@ should
 not
 be
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -2997,7 +3026,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -3008,8 +3037,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemUntagged
 (
 )
@@ -3031,7 +3060,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -3164,7 +3193,7 @@ foo
 ]
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -3192,7 +3221,7 @@ foo
 ]
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -3223,7 +3252,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -3234,8 +3263,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemUntagged
 (
 )
@@ -3257,7 +3286,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -3274,7 +3303,7 @@ bookmarks
 let
 fxBmk1
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3320,7 +3349,7 @@ Firefox
 let
 fxBmk2
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3365,7 +3394,7 @@ Firefox
 let
 tag
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3399,7 +3428,7 @@ tag
 let
 fxTag
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3433,7 +3462,7 @@ com
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -3452,7 +3481,7 @@ API
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3464,7 +3493,7 @@ fxTag
 guid
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -3499,7 +3528,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -3510,8 +3539,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemTagged
 (
 )
@@ -3533,7 +3562,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -3550,7 +3579,7 @@ bookmarks
 let
 folder1
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3584,7 +3613,7 @@ Folder
 let
 fxBmk1
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3628,7 +3657,7 @@ Firefox
 let
 folder2
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3672,7 +3701,7 @@ URL
 let
 fxBmk2
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3712,7 +3741,7 @@ Firefox
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -3772,7 +3801,7 @@ API
 let
 tag
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3817,7 +3846,7 @@ API
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -3851,7 +3880,7 @@ com
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -3886,7 +3915,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -3897,8 +3926,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemKeywordChanged
 (
 )
@@ -3920,7 +3949,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -4045,7 +4074,7 @@ GUID
 bGUID
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -4084,7 +4113,7 @@ should
 not
 be
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -4112,7 +4141,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -4123,8 +4152,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemKeywordChanged
 (
 )
@@ -4146,7 +4175,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -4167,7 +4196,7 @@ URL
 let
 fxBmk1
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -4213,7 +4242,7 @@ Firefox
 let
 fxBmk2
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -4255,7 +4284,7 @@ Firefox
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -4272,7 +4301,7 @@ items
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 keywords
@@ -4304,7 +4333,7 @@ postData
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -4339,7 +4368,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -4350,8 +4379,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemKeywordDeleted
 (
 )
@@ -4373,7 +4402,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -4396,7 +4425,7 @@ keywords
 let
 fxBmk1
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -4442,7 +4471,7 @@ Firefox
 let
 fxBmk2
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -4484,7 +4513,7 @@ Firefox
 }
 )
 ;
-await
+yield
 PlacesUtils
 .
 keywords
@@ -4511,7 +4540,7 @@ com
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -4525,7 +4554,7 @@ keyword
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 keywords
@@ -4537,7 +4566,7 @@ the_keyword
 "
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -4572,7 +4601,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -4583,8 +4612,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemPostDataChanged
 (
 )
@@ -4603,7 +4632,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -4679,7 +4708,7 @@ fx_guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -4715,7 +4744,7 @@ ignored
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 setPostDataForBookmark
@@ -4726,7 +4755,7 @@ postData
 "
 )
 ;
-await
+yield
 verifyTrackerEmpty
 (
 )
@@ -4743,7 +4772,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -4754,8 +4783,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemAnnoChanged
 (
 )
@@ -4773,7 +4802,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -4894,7 +4923,7 @@ GUID
 bGUID
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -4934,7 +4963,7 @@ folder
 should
 not
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -4950,7 +4979,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -4969,7 +4998,7 @@ bookmarks
 DESCRIPTION_ANNO
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -4997,7 +5026,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -5008,8 +5037,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemAdded_filtered_root
 (
 )
@@ -5031,7 +5060,7 @@ tracked
 ;
 try
 {
-await
+yield
 startTracking
 (
 )
@@ -5258,7 +5287,7 @@ ignored
 "
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -5311,7 +5340,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -5322,8 +5351,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemDeleted_filtered_root
 (
 )
@@ -5345,7 +5374,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -5428,7 +5457,7 @@ rootBmkGUID
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -5482,7 +5511,7 @@ up
 uploading
 it
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -5542,7 +5571,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -5553,8 +5582,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onPageAnnoChanged
 (
 )
@@ -5573,7 +5602,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -5632,7 +5661,7 @@ Firefox
 "
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -5672,12 +5701,12 @@ annotations
 EXPIRE_NEVER
 )
 ;
-await
+yield
 verifyTrackerEmpty
 (
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -5706,7 +5735,7 @@ characterSet
 "
 )
 ;
-await
+yield
 verifyTrackerEmpty
 (
 )
@@ -5723,7 +5752,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -5734,8 +5763,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onFaviconChanged
 (
 )
@@ -5754,7 +5783,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -5821,7 +5850,7 @@ Firefox
 "
 )
 ;
-await
+yield
 PlacesTestUtils
 .
 addVisits
@@ -5829,7 +5858,7 @@ addVisits
 pageURI
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -5883,7 +5912,7 @@ getSystemPrincipal
 )
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -5931,7 +5960,7 @@ getSystemPrincipal
 }
 )
 ;
-await
+yield
 verifyTrackerEmpty
 (
 )
@@ -5948,7 +5977,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -5959,8 +5988,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onLivemarkAdded
 (
 )
@@ -5978,7 +6007,7 @@ tracked
 ;
 try
 {
-await
+yield
 startTracking
 (
 )
@@ -5995,7 +6024,7 @@ livemark
 let
 livemark
 =
-await
+yield
 PlacesUtils
 .
 livemarks
@@ -6068,7 +6097,7 @@ terminate
 (
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6135,7 +6164,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -6146,8 +6175,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onLivemarkDeleted
 (
 )
@@ -6165,7 +6194,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -6182,7 +6211,7 @@ livemark
 let
 livemark
 =
-await
+yield
 PlacesUtils
 .
 livemarks
@@ -6222,7 +6251,7 @@ terminate
 (
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -6236,7 +6265,7 @@ livemark
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 livemarks
@@ -6252,7 +6281,7 @@ guid
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6287,7 +6316,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -6298,8 +6327,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemMoved
 (
 )
@@ -6447,7 +6476,7 @@ GUID
 tb_guid
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -6479,7 +6508,7 @@ bookmarksMenuFolder
 0
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6497,7 +6526,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -6544,7 +6573,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6580,7 +6609,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -6591,8 +6620,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemMoved_update
 (
 )
@@ -6614,7 +6643,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -6622,7 +6651,7 @@ stopTracking
 let
 fxBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -6668,7 +6697,7 @@ Firefox
 let
 tbBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -6711,7 +6740,7 @@ Thunderbird
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -6729,7 +6758,7 @@ folder
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -6755,7 +6784,7 @@ index
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6773,7 +6802,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -6794,7 +6823,7 @@ bookmark
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -6824,7 +6853,7 @@ DEFAULT_INDEX
 }
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -6862,7 +6891,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -6873,8 +6902,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemMoved_reorder
 (
 )
@@ -6896,7 +6925,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -6917,7 +6946,7 @@ bookmarks
 let
 fxBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -6975,7 +7004,7 @@ guid
 let
 tbBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -7033,7 +7062,7 @@ guid
 let
 mozBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -7086,7 +7115,7 @@ guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -7099,7 +7128,7 @@ bookmarks
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -7153,7 +7182,7 @@ every
 changed
 item
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7185,7 +7214,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -7196,8 +7225,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemMoved_setItemIndex
 (
 )
@@ -7217,7 +7246,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -7441,7 +7470,7 @@ moz_guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -7505,7 +7534,7 @@ doTransaction
 (
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7521,7 +7550,7 @@ score
 SCORE_INCREMENT_XLARGE
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -7543,7 +7572,7 @@ undoTransaction
 (
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7571,7 +7600,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -7582,8 +7611,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemDeleted_removeFolderTransaction
 (
 )
@@ -7604,7 +7633,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -7784,7 +7813,7 @@ tb_guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -7812,7 +7841,7 @@ the
 transaction
 yet
 .
-await
+yield
 verifyTrackerEmpty
 (
 )
@@ -7834,7 +7863,7 @@ doTransaction
 (
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7857,7 +7886,7 @@ SCORE_INCREMENT_XLARGE
 6
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -7899,7 +7928,7 @@ GUID
 let
 new_folder_guid
 =
-await
+yield
 PlacesUtils
 .
 promiseItemGuid
@@ -7907,7 +7936,7 @@ promiseItemGuid
 folder_id
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7928,7 +7957,7 @@ SCORE_INCREMENT_XLARGE
 2
 )
 ;
-await
+yield
 resetTracker
 (
 )
@@ -7948,7 +7977,7 @@ redoTransaction
 (
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -7981,7 +8010,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -7992,8 +8021,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_treeMoved
 (
 )
@@ -8214,7 +8243,7 @@ GUIDForId
 tb_id
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -8262,7 +8291,7 @@ should
 not
 be
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -8296,7 +8325,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -8307,8 +8336,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemDeleted
 (
 )
@@ -8434,7 +8463,7 @@ GUIDForId
 tb_id
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -8463,7 +8492,7 @@ removeItem
 tb_id
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -8496,7 +8525,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -8507,8 +8536,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemDeleted
 (
 )
@@ -8530,7 +8559,7 @@ tracked
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -8538,7 +8567,7 @@ stopTracking
 let
 fxBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8584,7 +8613,7 @@ Firefox
 let
 tbBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8627,7 +8656,7 @@ Thunderbird
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -8642,7 +8671,7 @@ item
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8654,7 +8683,7 @@ fxBmk
 guid
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -8689,7 +8718,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -8700,8 +8729,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_async_onItemDeleted_eraseEverything
 (
 )
@@ -8721,7 +8750,7 @@ items
 ;
 try
 {
-await
+yield
 stopTracking
 (
 )
@@ -8729,7 +8758,7 @@ stopTracking
 let
 fxBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8787,7 +8816,7 @@ guid
 let
 tbBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8845,7 +8874,7 @@ guid
 let
 mozBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8901,7 +8930,7 @@ guid
 let
 mdnBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -8959,7 +8988,7 @@ guid
 let
 bugsFolder
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -9005,7 +9034,7 @@ guid
 let
 bzBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -9061,7 +9090,7 @@ guid
 let
 bugsChildFolder
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -9106,7 +9135,7 @@ guid
 let
 bugsGrandChildBmk
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -9159,12 +9188,12 @@ guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -9232,7 +9261,7 @@ though
 we
 should
 .
-await
+yield
 verifyTrackedItems
 (
 [
@@ -9285,7 +9314,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -9296,8 +9325,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemDeleted_removeFolderChildren
 (
 )
@@ -9503,7 +9532,7 @@ moz_guid
 }
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -9532,7 +9561,7 @@ PlacesUtils
 mobileFolderId
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -9566,7 +9595,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -9577,8 +9606,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_onItemDeleted_tree
 (
 )
@@ -9798,7 +9827,7 @@ GUIDForId
 tb_id
 )
 ;
-await
+yield
 startTracking
 (
 )
@@ -9824,7 +9853,7 @@ removeItem
 folder2_id
 )
 ;
-await
+yield
 verifyTrackedItems
 (
 [
@@ -9857,7 +9886,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )
@@ -9868,8 +9897,8 @@ cleanup
 ;
 add_task
 (
-async
 function
+*
 test_mobile_query
 (
 )
@@ -9954,7 +9983,7 @@ queries
 let
 allBookmarkGuid
 =
-await
+yield
 PlacesUtils
 .
 promiseItemGuid
@@ -10029,7 +10058,7 @@ query
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10108,7 +10137,7 @@ queryIds
 let
 queryGuid
 =
-await
+yield
 PlacesUtils
 .
 promiseItemGuid
@@ -10119,7 +10148,7 @@ queryId
 let
 queryInfo
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10201,7 +10230,7 @@ recreate
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10225,7 +10254,7 @@ root
 }
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10254,7 +10283,7 @@ _ensureMobileQuery
 let
 rootInfo
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10287,7 +10316,7 @@ title
 ;
 queryInfo
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10325,7 +10354,7 @@ folder
 "
 )
 ;
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10356,7 +10385,7 @@ _ensureMobileQuery
 ;
 queryInfo
 =
-await
+yield
 PlacesUtils
 .
 bookmarks
@@ -10413,7 +10442,7 @@ root
 "
 )
 ;
-await
+yield
 verifyTrackedCount
 (
 0
@@ -10439,7 +10468,7 @@ up
 "
 )
 ;
-await
+yield
 cleanup
 (
 )

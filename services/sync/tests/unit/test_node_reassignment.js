@@ -209,25 +209,6 @@ js
 "
 )
 ;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-PromiseUtils
-.
-jsm
-"
-)
-;
 Service
 .
 engineManager
@@ -788,7 +769,7 @@ prepareServer
 let
 deferred
 =
-PromiseUtils
+Promise
 .
 defer
 (
@@ -1001,8 +982,8 @@ etc
 .
 *
 /
-async
 function
+*
 syncAndExpectNodeReassignment
 (
 server
@@ -1015,7 +996,7 @@ url
 let
 deferred
 =
-PromiseUtils
+Promise
 .
 defer
 (
@@ -1332,7 +1313,7 @@ onwards
 }
 )
 ;
-await
+yield
 deferred
 .
 promise
@@ -1340,8 +1321,8 @@ promise
 }
 add_task
 (
-async
 function
+*
 test_momentary_401_engine
 (
 )
@@ -1368,7 +1349,7 @@ reassignment
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -1708,7 +1689,7 @@ onLoginStart
 )
 ;
 }
-await
+yield
 syncAndExpectNodeReassignment
 (
 server
@@ -1765,8 +1746,8 @@ in
 .
 add_task
 (
-async
 function
+*
 test_momentary_401_info_collections
 (
 )
@@ -1794,7 +1775,7 @@ reassignment
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -1872,7 +1853,7 @@ info
 oldHandler
 ;
 }
-await
+yield
 syncAndExpectNodeReassignment
 (
 server
@@ -1905,8 +1886,8 @@ infoURL
 ;
 add_task
 (
-async
 function
+*
 test_momentary_401_storage_loggedin
 (
 )
@@ -1939,7 +1920,7 @@ reassignment
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -2028,7 +2009,7 @@ in
 "
 )
 ;
-await
+yield
 syncAndExpectNodeReassignment
 (
 server
@@ -2067,8 +2048,8 @@ global
 ;
 add_task
 (
-async
 function
+*
 test_momentary_401_storage_loggedout
 (
 )
@@ -2101,7 +2082,7 @@ reassignment
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -2170,7 +2151,7 @@ in
 "
 )
 ;
-await
+yield
 syncAndExpectNodeReassignment
 (
 server
@@ -2209,8 +2190,8 @@ global
 ;
 add_task
 (
-async
 function
+*
 test_loop_avoidance_storage
 (
 )
@@ -2248,7 +2229,7 @@ failure
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -2327,7 +2308,7 @@ false
 let
 deferred
 =
-PromiseUtils
+Promise
 .
 defer
 (
@@ -2916,7 +2897,7 @@ sync
 (
 )
 ;
-await
+yield
 deferred
 .
 promise
@@ -2926,8 +2907,8 @@ promise
 ;
 add_task
 (
-async
 function
+*
 test_loop_avoidance_engine
 (
 )
@@ -2968,7 +2949,7 @@ failure
 let
 server
 =
-await
+yield
 prepareServer
 (
 )
@@ -3019,7 +3000,7 @@ true
 let
 deferred
 =
-PromiseUtils
+Promise
 .
 defer
 (
@@ -3930,7 +3911,7 @@ sync
 (
 )
 ;
-await
+yield
 deferred
 .
 promise

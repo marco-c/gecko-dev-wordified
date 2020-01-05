@@ -201,13 +201,13 @@ run_next_test
 add_identity_test
 (
 this
-async
 function
+*
 test_resetLocalData
 (
 )
 {
-await
+yield
 configureIdentity
 (
 )
