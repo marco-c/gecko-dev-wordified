@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-BaseCheck_h__
+MozCheck_h__
 #
 define
-BaseCheck_h__
+MozCheck_h__
 class
 MozContext
 {
@@ -72,7 +72,7 @@ MozContext
 ContextType
 ;
 class
-BaseCheck
+MozCheck
 :
 public
 MatchFinder
@@ -82,7 +82,7 @@ MatchCallback
 {
 public
 :
-BaseCheck
+MozCheck
 (
 StringRef
 CheckName
@@ -99,6 +99,16 @@ registerMatchers
 MatchFinder
 *
 Finder
+)
+{
+}
+virtual
+void
+registerPPCallbacks
+(
+CompilerInstance
+&
+CI
 )
 {
 }

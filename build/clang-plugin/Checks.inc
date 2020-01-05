@@ -124,6 +124,15 @@ grip
 )
 CHECK
 (
+MustOverrideChecker
+"
+must
+-
+override
+"
+)
+CHECK
+(
 NaNExprChecker
 "
 nan
