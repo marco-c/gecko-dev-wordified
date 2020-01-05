@@ -2334,6 +2334,12 @@ mozmemory_wrap
 .
 h
 "
+extern
+void
+moz_abort
+(
+)
+;
 /
 *
 Some
@@ -10605,7 +10611,7 @@ pages_size
 MEM_DECOMMIT
 )
 )
-abort
+moz_abort
 (
 )
 ;
@@ -10660,7 +10666,7 @@ MAP_ANON
 =
 MAP_FAILED
 )
-abort
+moz_abort
 (
 )
 ;
@@ -10785,7 +10791,7 @@ MEM_COMMIT
 PAGE_READWRITE
 )
 )
-abort
+moz_abort
 (
 )
 ;
@@ -10842,7 +10848,7 @@ MAP_ANON
 =
 MAP_FAILED
 )
-abort
+moz_abort
 (
 )
 ;
@@ -13119,7 +13125,7 @@ if
 (
 opt_abort
 )
-abort
+moz_abort
 (
 )
 ;
@@ -13874,7 +13880,7 @@ if
 (
 opt_abort
 )
-abort
+moz_abort
 (
 )
 ;
@@ -14080,7 +14086,7 @@ if
 (
 opt_abort
 )
-abort
+moz_abort
 (
 )
 ;
@@ -29103,7 +29109,7 @@ if
 (
 opt_abort
 )
-abort
+moz_abort
 (
 )
 ;
@@ -31914,7 +31920,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -33804,7 +33810,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34205,7 +34211,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34347,7 +34353,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34471,7 +34477,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34761,7 +34767,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34914,7 +34920,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -34993,7 +34999,7 @@ n
 "
 )
 ;
-abort
+moz_abort
 (
 )
 ;
@@ -37602,7 +37608,7 @@ malloc_init_hard
 (
 )
 )
-abort
+moz_abort
 (
 )
 ;
