@@ -102,6 +102,12 @@ parse_media_query_list
 }
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 parser
 :
 :
@@ -178,12 +184,6 @@ string_cache
 Atom
 Namespace
 }
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 url

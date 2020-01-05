@@ -194,6 +194,10 @@ matches
 ;
 extern
 crate
+msg
+;
+extern
+crate
 num
 ;
 extern

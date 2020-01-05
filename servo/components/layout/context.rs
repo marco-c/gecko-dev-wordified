@@ -156,6 +156,12 @@ use
 msg
 :
 :
+ParseErrorReporter
+;
+use
+msg
+:
+:
 compositor_msg
 :
 :
@@ -288,12 +294,6 @@ selector_matching
 :
 :
 Stylist
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 url

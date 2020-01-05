@@ -541,6 +541,12 @@ use
 msg
 :
 :
+ParseErrorReporter
+;
+use
+msg
+:
+:
 compositor_msg
 :
 :
@@ -833,12 +839,6 @@ string_cache
 :
 :
 Atom
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 time
@@ -10366,6 +10366,11 @@ let
 error_reporter
 =
 CSSErrorReporter
+{
+pipelineid
+:
+id
+}
 ;
 let
 win

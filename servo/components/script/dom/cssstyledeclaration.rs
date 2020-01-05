@@ -183,6 +183,12 @@ window
 Window
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 selectors
 :
 :
@@ -247,12 +253,6 @@ properties
 is_supported_property
 parse_one_declaration
 }
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 util

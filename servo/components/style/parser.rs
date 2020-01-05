@@ -66,6 +66,12 @@ SourcePosition
 }
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 selectors
 :
 :
@@ -75,12 +81,6 @@ parser
 ParserContext
 as
 SelectorParserContext
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 stylesheets
