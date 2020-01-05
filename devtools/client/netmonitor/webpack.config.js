@@ -349,8 +349,6 @@ devtools
 "
 devtools
 -
-sham
--
 modules
 "
 "
@@ -365,8 +363,6 @@ menu
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -384,8 +380,6 @@ item
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -449,8 +443,6 @@ box
 "
 devtools
 -
-sham
--
 modules
 "
 "
@@ -491,8 +483,6 @@ tabbar
 "
 devtools
 -
-sham
--
 modules
 "
 "
@@ -511,8 +501,6 @@ tabs
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -602,8 +590,6 @@ prefs
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -766,8 +752,6 @@ helpers
 "
 devtools
 -
-sham
--
 modules
 "
 "
@@ -786,8 +770,6 @@ HTMLTooltip
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -808,8 +790,6 @@ ImageTooltipHelper
 "
 devtools
 -
-sham
--
 modules
 "
 "
@@ -826,8 +806,6 @@ Chart
 :
 "
 devtools
--
-sham
 -
 modules
 "
@@ -858,8 +836,6 @@ timeline
 :
 "
 devtools
--
-sham
 -
 modules
 "
