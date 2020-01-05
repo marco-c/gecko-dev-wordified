@@ -657,9 +657,15 @@ mStride
 }
 if
 (
-!
 raster
 )
+{
+mImage
+=
+raster
+;
+}
+else
 {
 gfxCriticalError
 (
@@ -678,10 +684,6 @@ surface
 "
 ;
 }
-mImage
-=
-raster
-;
 }
 #
 endif
