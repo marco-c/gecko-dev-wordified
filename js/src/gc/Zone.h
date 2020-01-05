@@ -2404,7 +2404,7 @@ zone
 js
 :
 :
-UnprotectedData
+ActiveThreadOrGCTaskData
 <
 CompartmentVector
 >
@@ -3007,7 +3007,7 @@ heap
 js
 :
 :
-UnprotectedData
+ActiveThreadData
 <
 size_t
 >
@@ -4308,7 +4308,7 @@ gcState_
 js
 :
 :
-UnprotectedData
+ActiveThreadData
 <
 bool
 >
