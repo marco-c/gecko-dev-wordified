@@ -3083,6 +3083,12 @@ HttpServer
 ;
 httpserver
 .
+keepAliveEnabled
+=
+false
+;
+httpserver
+.
 registerPathHandler
 (
 "

@@ -169,6 +169,12 @@ createServer
 ;
 srv
 .
+keepAliveEnabled
+=
+false
+;
+srv
+.
 registerPathHandler
 (
 "

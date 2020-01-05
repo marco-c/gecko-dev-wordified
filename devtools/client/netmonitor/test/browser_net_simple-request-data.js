@@ -1185,7 +1185,7 @@ responseHeaders
 headers
 .
 length
-10
+11
 "
 The
 responseHeaders
@@ -1208,7 +1208,7 @@ requestItem
 responseHeaders
 .
 headersSize
-330
+360
 "
 The
 responseHeaders
@@ -1523,7 +1523,7 @@ is
 requestItem
 .
 headersSize
-330
+360
 "
 The
 headersSize

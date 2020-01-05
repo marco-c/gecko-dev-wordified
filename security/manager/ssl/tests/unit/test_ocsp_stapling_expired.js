@@ -526,6 +526,12 @@ HttpServer
 ;
 ocspResponder
 .
+keepAliveEnabled
+=
+false
+;
+ocspResponder
+.
 registerPrefixHandler
 (
 "
