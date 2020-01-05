@@ -294,9 +294,6 @@ _finder
 FileFinder
 (
 source
-find_executables
-=
-False
 )
         
 self

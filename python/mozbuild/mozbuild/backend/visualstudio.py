@@ -1463,10 +1463,6 @@ environment
 topsrcdir
 path
 )
-                
-find_executables
-=
-False
 )
             
 headers

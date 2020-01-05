@@ -162,9 +162,6 @@ FileFinder
 self
 .
 path
-find_executables
-=
-False
 ignore
 =
 self

@@ -1480,9 +1480,6 @@ FileFinder
 self
 .
 topsrcdir
-find_executables
-=
-False
 )
         
 if

@@ -3463,9 +3463,6 @@ finder
 FileFinder
 (
 chrome_src
-find_executables
-=
-False
 )
             
 includes

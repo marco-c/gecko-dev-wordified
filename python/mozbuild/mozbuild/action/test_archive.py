@@ -3035,12 +3035,6 @@ common_kwargs
 {
             
 '
-find_executables
-'
-:
-False
-            
-'
 find_dotfiles
 '
 :

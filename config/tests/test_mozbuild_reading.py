@@ -690,10 +690,6 @@ FileFinder
 config
 .
 topsrcdir
-find_executables
-=
-False
-                            
 ignore
 =
 [

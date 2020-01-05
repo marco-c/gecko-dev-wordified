@@ -247,10 +247,6 @@ finder
 FileFinder
 (
 destdir
-find_executables
-=
-False
-                                
 find_dotfiles
 =
 True
