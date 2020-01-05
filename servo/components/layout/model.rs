@@ -2154,6 +2154,7 @@ elements
 deriving
 (
 PartialEq
+Show
 )
 ]
 pub
