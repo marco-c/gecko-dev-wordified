@@ -78,12 +78,12 @@ C
 fn
 cef_urlrequest_create
 (
-request
+_request
 :
 *
 mut
 cef_request_t
-client
+_client
 :
 *
 mut
