@@ -1264,6 +1264,18 @@ abs_test_install_dir
 bin
 "
 )
+                
+"
+-
+-
+run
+-
+by
+-
+dir
+=
+3
+"
 ]
         
 for
