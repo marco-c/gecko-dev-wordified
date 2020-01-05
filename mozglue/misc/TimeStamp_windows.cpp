@@ -931,7 +931,7 @@ dynamically
 and
 kept
 in
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 .
 /
 /
@@ -965,8 +965,8 @@ was
 in
 [
 -
-sGTCResulutionThreshold
-sGTCResulutionThreshold
+sGTCResolutionThreshold
+sGTCResolutionThreshold
 ]
 /
 /
@@ -1039,7 +1039,7 @@ mt
 ]
 static
 LONGLONG
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 ;
 /
 /
@@ -2423,7 +2423,7 @@ the
 ceiling
 value
 .
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 =
 LONGLONG
 (
@@ -3062,7 +3062,7 @@ if
 diff
 <
 =
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 )
 {
 return
@@ -3092,7 +3092,7 @@ overflow
 =
 diff
 -
-sGTCResulutionThreshold
+sGTCResolutionThreshold
 ;
 LOG
 (
