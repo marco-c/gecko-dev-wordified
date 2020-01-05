@@ -532,7 +532,7 @@ url
 url
 )
 ;
-fail_unless
+assert
 !
 (
 url
@@ -546,7 +546,7 @@ file
 "
 )
 ;
-fail_unless
+assert
 !
 (
 url
@@ -623,7 +623,7 @@ old_url
 )
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -637,7 +637,7 @@ http
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -653,7 +653,7 @@ com
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -726,7 +726,7 @@ old_url
 )
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -740,7 +740,7 @@ http
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -756,7 +756,7 @@ com
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -832,7 +832,7 @@ old_url
 )
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -846,7 +846,7 @@ http
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -862,7 +862,7 @@ com
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -940,7 +940,7 @@ old_url
 )
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -954,7 +954,7 @@ http
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url
@@ -970,7 +970,7 @@ com
 "
 )
 ;
-fail_unless
+assert
 !
 (
 new_url

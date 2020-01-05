@@ -597,6 +597,9 @@ Self
 >
 bool
 )
+-
+>
+bool
 ;
 /
 /
@@ -1078,6 +1081,9 @@ NR
 >
 bool
 )
+-
+>
+bool
 {
 let
 mut
@@ -1149,6 +1155,7 @@ next_sibling
 )
 ;
 }
+true
 }
 fn
 traverse_preorder

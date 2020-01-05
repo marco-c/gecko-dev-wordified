@@ -858,6 +858,9 @@ Range
 >
 bool
 )
+-
+>
+bool
 {
 let
 mut
@@ -1029,6 +1032,7 @@ clump
 )
 ;
 }
+true
 }
 fn
 iter_indivisible_pieces_for_range
@@ -1051,6 +1055,9 @@ Range
 >
 bool
 )
+-
+>
+bool
 {
 let
 mut
@@ -1162,7 +1169,6 @@ end
 )
 {
 break
-;
 }
 /
 /
@@ -1207,5 +1213,6 @@ end
 )
 ;
 }
+true
 }
 }

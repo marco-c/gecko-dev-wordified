@@ -2074,6 +2074,9 @@ RenderBox
 >
 bool
 )
+-
+>
+bool
 {
 match
 *
@@ -2184,6 +2187,7 @@ self
 )
 )
 }
+true
 }
 pub
 fn
@@ -2205,6 +2209,9 @@ RenderBox
 >
 bool
 )
+-
+>
+bool
 {
 for
 self
@@ -2236,6 +2243,7 @@ break
 }
 }
 }
+true
 }
 }
 impl
