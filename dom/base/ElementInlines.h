@@ -398,6 +398,13 @@ SetNeedStyleFlush
 (
 )
 ;
+shell
+-
+>
+ObserveStyleFlushes
+(
+)
+;
 }
 MOZ_ASSERT
 (
