@@ -8554,7 +8554,6 @@ KeyModifiers
 compositor
 :
 &
-mut
 IpcSender
 <
 ScriptToCompositorMsg
