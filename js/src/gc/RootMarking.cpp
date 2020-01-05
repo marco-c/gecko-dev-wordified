@@ -2516,6 +2516,16 @@ target
 trc
 )
 ;
+wasm
+:
+:
+TraceActivations
+(
+cx
+target
+trc
+)
+;
 /
 /
 Trace
