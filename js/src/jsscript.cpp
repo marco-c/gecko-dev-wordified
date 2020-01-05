@@ -24426,7 +24426,7 @@ runtime
 >
 new_
 <
-BreakpointSite
+JSBreakpointSite
 >
 (
 this
