@@ -581,10 +581,13 @@ ipc
 IPCResult
 RecvDeleteCompositorAnimations
 (
-const
+InfallibleTArray
+<
 uint64_t
+>
 &
-aId
+&
+aIds
 )
 override
 ;
