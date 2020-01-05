@@ -16678,6 +16678,15 @@ nsLayoutUtils
 RectCallback
 *
 aCallback
+mozilla
+:
+:
+dom
+:
+:
+DOMStringList
+*
+aTextList
 nsIContent
 *
 aContent
@@ -17325,6 +17334,7 @@ GetLength
 GetPartialTextRect
 (
 aCollector
+aTextList
 content
 aStartOffset
 offset
@@ -17347,6 +17357,7 @@ endContainer
 GetPartialTextRect
 (
 aCollector
+aTextList
 content
 0
 aEndOffset
