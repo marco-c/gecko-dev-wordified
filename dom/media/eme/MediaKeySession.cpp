@@ -876,7 +876,7 @@ s
 s
 )
 "
-ToBase64
+ToHexString
 (
 status
 .
@@ -2180,7 +2180,7 @@ mKeySystem
 Convert
 initData
 to
-base64
+hex
 for
 easier
 logging
@@ -2213,9 +2213,9 @@ it
 here
 .
 nsAutoCString
-base64InitData
+hexInitData
 (
-ToBase64
+ToHexString
 (
 data
 )
@@ -2285,9 +2285,6 @@ promiseId
 %
 d
 initData
-(
-base64
-)
 =
 '
 %
@@ -2310,7 +2307,7 @@ get
 (
 )
 pid
-base64InitData
+hexInitData
 .
 get
 (
@@ -3281,7 +3278,7 @@ forget
 Convert
 response
 to
-base64
+hex
 for
 easier
 logging
@@ -3314,9 +3311,9 @@ it
 here
 .
 nsAutoCString
-base64Response
+hexResponse
 (
-ToBase64
+ToHexString
 (
 data
 )
@@ -3373,9 +3370,6 @@ promiseId
 %
 d
 Response
-(
-base64
-)
 =
 '
 %
@@ -3392,7 +3386,7 @@ get
 (
 )
 pid
-base64Response
+hexResponse
 .
 get
 (
@@ -4345,9 +4339,6 @@ type
 %
 s
 message
-(
-base64
-)
 =
 '
 %
@@ -4375,7 +4366,7 @@ aMessageType
 ]
 .
 value
-ToBase64
+ToHexString
 (
 aMessage
 )
