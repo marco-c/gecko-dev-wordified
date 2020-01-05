@@ -1317,7 +1317,6 @@ s
 transform
 .
 let
-mut
 origin
 =
 Point2D
