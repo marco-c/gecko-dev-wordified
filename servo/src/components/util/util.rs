@@ -205,14 +205,6 @@ time
 ;
 extern
 crate
-std_url
-=
-"
-url
-"
-;
-extern
-crate
 string_cache
 ;
 pub
@@ -270,10 +262,6 @@ task
 pub
 mod
 time
-;
-pub
-mod
-url
 ;
 pub
 mod

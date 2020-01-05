@@ -476,6 +476,10 @@ at
 }
 "
 worker_url
+.
+serialize
+(
+)
 )
 .
 into_maybe_owned
@@ -520,7 +524,7 @@ roots
 ;
 let
 (
-filename
+url
 source
 )
 =
@@ -554,6 +558,10 @@ script
 }
 "
 worker_url
+.
+serialize
+(
+)
 )
 ;
 return
@@ -639,9 +647,9 @@ get_jsobject
 (
 )
 source
-filename
+url
 .
-to_str
+serialize
 (
 )
 1

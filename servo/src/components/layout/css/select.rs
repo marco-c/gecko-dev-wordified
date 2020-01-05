@@ -69,6 +69,9 @@ with_errors_silenced
 ;
 use
 url
+:
+:
+Url
 ;
 pub
 fn
@@ -113,10 +116,10 @@ agent
 css
 "
 )
-url
+Url
 :
 :
-from_str
+parse
 (
 "
 chrome
