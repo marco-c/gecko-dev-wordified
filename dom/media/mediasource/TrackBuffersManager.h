@@ -1578,7 +1578,10 @@ mLastParsedEndTime
 void
 OnDemuxerInitDone
 (
-nsresult
+const
+MediaResult
+&
+aResult
 )
 ;
 void
@@ -1593,7 +1596,10 @@ aFailure
 void
 OnDemuxerResetDone
 (
-nsresult
+const
+MediaResult
+&
+aResult
 )
 ;
 MozPromiseRequestHolder
