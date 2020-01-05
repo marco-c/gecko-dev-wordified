@@ -136,10 +136,7 @@ dom
 node
 :
 :
-{
 AbstractNode
-ScriptView
-}
 ;
 use
 dom
@@ -301,9 +298,6 @@ from_node
 node
 :
 AbstractNode
-<
-ScriptView
->
 )
 -
 >

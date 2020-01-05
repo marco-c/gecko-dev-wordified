@@ -102,7 +102,6 @@ node
 :
 {
 AbstractNode
-ScriptView
 }
 ;
 use
@@ -128,9 +127,6 @@ Window
 owner
 :
 AbstractNode
-<
-ScriptView
->
 }
 impl
 AttrList
@@ -146,9 +142,6 @@ Window
 elem
 :
 AbstractNode
-<
-ScriptView
->
 )
 -
 >
@@ -183,9 +176,6 @@ Window
 elem
 :
 AbstractNode
-<
-ScriptView
->
 )
 -
 >

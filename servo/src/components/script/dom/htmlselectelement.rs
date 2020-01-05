@@ -120,7 +120,6 @@ node
 {
 AbstractNode
 Node
-ScriptView
 }
 ;
 use
@@ -189,9 +188,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 element
@@ -303,9 +299,6 @@ self
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 None
@@ -512,9 +505,6 @@ u32
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 None
@@ -534,9 +524,6 @@ DOMString
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 None
@@ -561,9 +548,6 @@ bool
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 None
@@ -583,9 +567,6 @@ _option
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 )
 -

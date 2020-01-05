@@ -110,8 +110,6 @@ node
 {
 AbstractNode
 LayoutDataRef
-LayoutView
-ScriptView
 }
 ;
 use
@@ -445,9 +443,6 @@ call
 ContentBoxQuery
 (
 AbstractNode
-<
-ScriptView
->
 Chan
 <
 ContentBoxResponse
@@ -475,9 +470,6 @@ call
 ContentBoxesQuery
 (
 AbstractNode
-<
-ScriptView
->
 Chan
 <
 ContentBoxesResponse
@@ -497,9 +489,6 @@ interest
 HitTestQuery
 (
 AbstractNode
-<
-ScriptView
->
 Point2D
 <
 f32
@@ -543,9 +532,6 @@ struct
 HitTestResponse
 (
 AbstractNode
-<
-LayoutView
->
 )
 ;
 /
@@ -720,9 +706,6 @@ changed
 root
 :
 AbstractNode
-<
-ScriptView
->
 /
 /
 /
@@ -824,9 +807,6 @@ node
 document_root
 :
 AbstractNode
-<
-ScriptView
->
 /
 /
 /

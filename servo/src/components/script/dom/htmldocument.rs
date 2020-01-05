@@ -124,7 +124,6 @@ node
 :
 {
 AbstractNode
-ScriptView
 ElementNodeTypeId
 }
 ;
@@ -253,9 +252,6 @@ self
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 match

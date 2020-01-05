@@ -106,10 +106,7 @@ dom
 node
 :
 :
-{
 AbstractNode
-ScriptView
-}
 ;
 use
 dom
@@ -147,9 +144,6 @@ elements
 ~
 [
 AbstractNode
-<
-ScriptView
->
 ]
 reflector_
 :
@@ -175,9 +169,6 @@ elements
 ~
 [
 AbstractNode
-<
-ScriptView
->
 ]
 )
 -
@@ -215,9 +206,6 @@ elements
 ~
 [
 AbstractNode
-<
-ScriptView
->
 ]
 )
 -
@@ -279,9 +267,6 @@ u32
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 if
@@ -360,9 +345,6 @@ bool
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 *

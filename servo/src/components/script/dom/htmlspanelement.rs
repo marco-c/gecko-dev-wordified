@@ -105,7 +105,6 @@ node
 {
 AbstractNode
 Node
-ScriptView
 }
 ;
 pub
@@ -165,9 +164,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 element

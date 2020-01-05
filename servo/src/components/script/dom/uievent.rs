@@ -106,10 +106,7 @@ dom
 node
 :
 :
-{
 AbstractNode
-ScriptView
-}
 ;
 use
 dom
@@ -483,9 +480,6 @@ self
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 /

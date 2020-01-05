@@ -88,10 +88,7 @@ dom
 node
 :
 :
-{
 AbstractNode
-ScriptView
-}
 ;
 use
 std
@@ -128,9 +125,6 @@ impl
 Reflectable
 for
 AbstractNode
-<
-ScriptView
->
 {
 fn
 reflector
@@ -197,9 +191,6 @@ impl
 Traceable
 for
 Node
-<
-ScriptView
->
 {
 fn
 trace
@@ -230,9 +221,6 @@ node
 Option
 <
 AbstractNode
-<
-ScriptView
->
 >
 name
 :

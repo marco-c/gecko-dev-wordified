@@ -110,7 +110,6 @@ node
 :
 {
 AbstractNode
-ScriptView
 CommentNodeTypeId
 Node
 }
@@ -188,9 +187,6 @@ AbstractDocument
 -
 >
 AbstractNode
-<
-ScriptView
->
 {
 let
 node
@@ -235,9 +231,6 @@ DOMString
 Fallible
 <
 AbstractNode
-<
-ScriptView
->
 >
 {
 Ok
