@@ -234,9 +234,6 @@ aSerialized
 PContentParent
 *
 aBrowser
-nsIPrincipal
-*
-aRequestingPrincipal
 mozilla
 :
 :
@@ -305,9 +302,6 @@ const
 SerializedLoadContext
 &
 aSerialized
-nsIPrincipal
-*
-aRequestingPrincipal
 nsCOMPtr
 <
 nsILoadContext
