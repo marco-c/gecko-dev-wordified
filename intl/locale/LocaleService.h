@@ -102,15 +102,6 @@ mozilla_intl_LocaleService_h__
 #
 include
 "
-mozilla
-/
-StaticPtr
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
