@@ -149,14 +149,6 @@ hashmap_hasher
 [
 feature
 (
-iter_arith
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]

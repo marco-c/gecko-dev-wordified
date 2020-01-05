@@ -445,6 +445,7 @@ node
 ChildrenMutation
 CloneChildrenFlag
 Node
+UnbindContext
 }
 ;
 use
@@ -793,9 +794,10 @@ unbind_from_tree
 (
 &
 self
-tree_in_doc
+context
 :
-bool
+&
+UnbindContext
 )
 {
 if
@@ -816,7 +818,7 @@ s
 .
 unbind_from_tree
 (
-tree_in_doc
+context
 )
 ;
 }

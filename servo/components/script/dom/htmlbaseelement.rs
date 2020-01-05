@@ -143,6 +143,7 @@ node
 :
 {
 Node
+UnbindContext
 document_from_node
 }
 ;
@@ -625,9 +626,10 @@ unbind_from_tree
 (
 &
 self
-tree_in_doc
+context
 :
-bool
+&
+UnbindContext
 )
 {
 self
@@ -642,13 +644,15 @@ unwrap
 .
 unbind_from_tree
 (
-tree_in_doc
+context
 )
 ;
 self
 .
 bind_unbind
 (
+context
+.
 tree_in_doc
 )
 ;
