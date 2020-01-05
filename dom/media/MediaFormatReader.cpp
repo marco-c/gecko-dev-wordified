@@ -3172,7 +3172,7 @@ nsresult
 MediaFormatReader
 :
 :
-Init
+InitInternal
 (
 )
 {

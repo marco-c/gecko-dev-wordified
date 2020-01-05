@@ -546,6 +546,15 @@ NS_IsMainThread
 )
 )
 ;
+}
+nsresult
+MediaDecoderReader
+:
+:
+Init
+(
+)
+{
 if
 (
 mDecoder
@@ -608,6 +617,11 @@ MediaDecoderReader
 :
 InitializationTask
 )
+)
+;
+return
+InitInternal
+(
 )
 ;
 }
