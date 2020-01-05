@@ -161,7 +161,6 @@ mozilla
 namespace
 wr
 {
-inline
 Maybe
 <
 WrImageFormat

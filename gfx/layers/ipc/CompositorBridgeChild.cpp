@@ -6408,7 +6408,10 @@ CompositorBridgeChild
 AllocPWebRenderBridgeChild
 (
 const
-uint64_t
+wr
+:
+:
+PipelineId
 &
 aPipelineId
 TextureFactoryIdentifier

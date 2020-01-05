@@ -785,7 +785,10 @@ destruction
 void
 AddImageKeyForDiscard
 (
-WrImageKey
+wr
+:
+:
+ImageKey
 )
 ;
 void
@@ -861,7 +864,10 @@ std
 :
 vector
 <
-WrImageKey
+wr
+:
+:
+ImageKey
 >
 mImageKeys
 ;

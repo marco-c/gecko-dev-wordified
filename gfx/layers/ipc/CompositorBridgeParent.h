@@ -3014,7 +3014,10 @@ PWebRenderBridgeParent
 AllocPWebRenderBridgeParent
 (
 const
-uint64_t
+wr
+:
+:
+PipelineId
 &
 aPipelineId
 TextureFactoryIdentifier
