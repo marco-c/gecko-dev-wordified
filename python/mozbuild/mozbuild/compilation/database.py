@@ -103,6 +103,8 @@ Linkable
     
 LocalInclude
     
+PerSourceFlag
+    
 VariablePassthru
     
 SimpleProgram
@@ -248,6 +250,15 @@ _local_flags
 defaultdict
 (
 dict
+)
+        
+self
+.
+_per_source_flags
+=
+defaultdict
+(
+list
 )
         
 self
@@ -859,6 +870,30 @@ WARNINGS_AS_ERRORS
 '
 ]
         
+elif
+isinstance
+(
+obj
+PerSourceFlag
+)
+:
+            
+self
+.
+_per_source_flags
+[
+obj
+.
+file_name
+]
+.
+extend
+(
+obj
+.
+flags
+)
+        
 return
 True
     
@@ -1161,6 +1196,31 @@ c
 extend
 (
 a
+)
+            
+per_source_flags
+=
+self
+.
+_per_source_flags
+.
+get
+(
+filename
+)
+            
+if
+per_source_flags
+is
+not
+None
+:
+                
+c
+.
+extend
+(
+per_source_flags
 )
             
 db
