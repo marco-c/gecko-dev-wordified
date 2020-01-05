@@ -3849,16 +3849,6 @@ NS_ConvertUTF16toUTF8
 applyToDirPathW
 )
 ;
-rv
-=
-updatedDir
--
->
-GetNativePath
-(
-applyToDirPath
-)
-;
 #
 else
 rv
