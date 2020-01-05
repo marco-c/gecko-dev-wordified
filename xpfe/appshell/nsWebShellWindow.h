@@ -400,11 +400,6 @@ nsWebShellWindow
 (
 )
 ;
-void
-LoadContentAreas
-(
-)
-;
 bool
 ExecuteCloseHandler
 (

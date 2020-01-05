@@ -1767,10 +1767,6 @@ nsIDocShellTreeItem
 aContentShell
 bool
 aPrimary
-const
-nsAString
-&
-aID
 )
 {
 if
@@ -1785,7 +1781,6 @@ ContentShellAdded
 (
 aContentShell
 aPrimary
-aID
 )
 ;
 EnsureContentTreeOwner
