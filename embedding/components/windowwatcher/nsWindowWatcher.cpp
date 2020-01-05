@@ -12812,13 +12812,7 @@ piOpenedWindow
 {
 MOZ_ASSERT
 (
-nsGlobalWindow
-:
-:
-Cast
-(
 piOpenedWindow
-)
 -
 >
 TabGroup
@@ -12826,13 +12820,7 @@ TabGroup
 )
 !
 =
-nsGlobalWindow
-:
-:
-Cast
-(
 aParent
-)
 -
 >
 TabGroup

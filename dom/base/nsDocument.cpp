@@ -24093,13 +24093,7 @@ TabGroup
 *
 tabgroup
 =
-nsGlobalWindow
-:
-:
-Cast
-(
 window
-)
 -
 >
 TabGroup
