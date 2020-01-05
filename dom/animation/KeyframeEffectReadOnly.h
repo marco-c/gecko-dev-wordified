@@ -252,7 +252,7 @@ include
 "
 mozilla
 /
-StyleAnimationValueInlines
+StyleAnimationValue
 .
 h
 "

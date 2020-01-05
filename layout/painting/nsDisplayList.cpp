@@ -502,7 +502,16 @@ include
 "
 mozilla
 /
-StyleAnimationValueInlines
+StyleAnimationValue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ServoBindings
 .
 h
 "
