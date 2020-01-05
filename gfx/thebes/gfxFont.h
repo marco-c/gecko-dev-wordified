@@ -2280,6 +2280,11 @@ FlushShapedWordCaches
 )
 ;
 void
+NotifyGlyphsChanged
+(
+)
+;
+void
 AddSizeOfExcludingThis
 (
 mozilla
