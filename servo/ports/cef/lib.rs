@@ -148,11 +148,7 @@ gleam
 ;
 extern
 crate
-glfw
-;
-extern
-crate
-glfw_app
+glutin_app
 ;
 extern
 crate
