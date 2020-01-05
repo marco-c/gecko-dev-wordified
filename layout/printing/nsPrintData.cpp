@@ -391,10 +391,6 @@ mDebugFilePtr
 (
 nullptr
 )
-mSelectedPO
-(
-nullptr
-)
 mPrintDocList
 (
 0
