@@ -280,8 +280,6 @@ aRejection
 )
 override
 ;
-private
-:
 ~
 AccurateSeekTask
 (

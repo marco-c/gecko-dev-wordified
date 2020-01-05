@@ -410,6 +410,8 @@ SeekTask
 (
 )
 ;
+public
+:
 void
 Resolve
 (
