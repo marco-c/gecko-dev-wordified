@@ -2548,6 +2548,10 @@ dompointreadonly
 ;
 pub
 mod
+domquad
+;
+pub
+mod
 domrect
 ;
 pub
