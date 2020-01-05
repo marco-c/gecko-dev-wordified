@@ -65,6 +65,12 @@ system
 infrastructure
 .
 use
+devtools_traits
+:
+:
+PreciseTime
+;
+use
 rustc_serialize
 :
 :
@@ -153,12 +159,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-time
-:
-:
-PreciseTime
 ;
 /
 /

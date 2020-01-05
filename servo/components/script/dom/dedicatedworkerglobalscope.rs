@@ -348,7 +348,7 @@ use
 devtools_traits
 :
 :
-DevtoolsControlChan
+ScriptToDevtoolsControlMsg
 ;
 use
 net_traits
@@ -404,6 +404,12 @@ ipc_channel
 :
 :
 ipc
+:
+:
+{
+self
+IpcSender
+}
 ;
 use
 ipc_channel
@@ -950,7 +956,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+IpcSender
+<
+ScriptToDevtoolsControlMsg
+>
 >
 runtime
 :
@@ -1058,7 +1067,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+IpcSender
+<
+ScriptToDevtoolsControlMsg
+>
 >
 runtime
 :
@@ -1168,7 +1180,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+IpcSender
+<
+ScriptToDevtoolsControlMsg
+>
 >
 worker
 :
