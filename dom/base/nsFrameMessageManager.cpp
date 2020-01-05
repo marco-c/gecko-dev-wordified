@@ -9754,6 +9754,14 @@ global
 aID
 )
 ;
+xpc
+:
+:
+SetDocGroupValidation
+(
+global
+)
+;
 DidCreateGlobal
 (
 )

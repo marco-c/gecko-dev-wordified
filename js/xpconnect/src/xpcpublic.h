@@ -2708,6 +2708,14 @@ nsIURI
 locationURI
 )
 ;
+void
+SetDocGroupValidation
+(
+JSObject
+*
+global
+)
+;
 /
 /
 ReportJSRuntimeExplicitTreeStats
