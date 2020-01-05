@@ -7632,16 +7632,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-if
-(
-!
-aInfo
-)
-{
-return
-NS_ERROR_INVALID_ARG
-;
-}
 *
 aSize
 =
@@ -7692,6 +7682,9 @@ Get
 ;
 if
 (
+aInfo
+&
+&
 !
 CacheIndexEntry
 :
