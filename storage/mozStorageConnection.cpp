@@ -2545,6 +2545,15 @@ mozIStorageCompletionCallback
 aCallback
 )
 :
+Runnable
+(
+"
+storage
+:
+:
+AsyncInitializeClone
+"
+)
 mConnection
 (
 aConnection
