@@ -1010,6 +1010,12 @@ size
 typedImage
 -
 >
+GetContinuous
+(
+)
+typedImage
+-
+>
 GetOriginPos
 (
 )

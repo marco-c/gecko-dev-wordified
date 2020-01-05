@@ -704,6 +704,13 @@ mSurfaceHandle
 inputInfo
 .
 mImageSize
+false
+/
+*
+NOT
+continuous
+*
+/
 gl
 :
 :
