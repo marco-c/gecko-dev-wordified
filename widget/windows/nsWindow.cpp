@@ -28379,7 +28379,7 @@ Part
 of
 nsIWidget
 .
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

@@ -8083,9 +8083,9 @@ to
 the
 widget
 *
-*
 /
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

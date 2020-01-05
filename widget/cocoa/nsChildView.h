@@ -2646,7 +2646,8 @@ aStatus
 nsEventStatus_eConsumeNoDefault
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 DispatchEvent
 (
 mozilla

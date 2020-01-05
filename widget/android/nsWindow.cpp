@@ -10713,7 +10713,7 @@ return
 p
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

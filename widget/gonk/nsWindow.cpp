@@ -2628,7 +2628,7 @@ return
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
