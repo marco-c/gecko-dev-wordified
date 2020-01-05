@@ -1209,6 +1209,21 @@ nativeTypeDefault
         
 self
 .
+pointerType
+=
+desc
+.
+get
+(
+'
+pointerType
+'
+'
+'
+)
+        
+self
+.
 hasInstanceInterface
 =
 desc
