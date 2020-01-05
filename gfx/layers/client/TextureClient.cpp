@@ -6173,13 +6173,13 @@ aAllocFlags
 }
 if
 (
+aLayersBackend
 !
-gfxPrefs
+=
+LayersBackend
 :
 :
-WebRenderEnabled
-(
-)
+LAYERS_WR
 &
 &
 !
