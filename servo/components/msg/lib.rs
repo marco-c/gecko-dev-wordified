@@ -120,6 +120,10 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender_traits
+;
 pub
 mod
 constellation_msg

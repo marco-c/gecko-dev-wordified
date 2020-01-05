@@ -338,6 +338,10 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender_traits
+;
 #
 [
 macro_use
@@ -441,6 +445,9 @@ text
 ;
 mod
 traversal
+;
+mod
+webrender_helpers
 ;
 mod
 wrapper

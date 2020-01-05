@@ -109,6 +109,10 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender_traits
+;
 /
 /
 This
@@ -389,6 +393,15 @@ IpcSender
 <
 (
 )
+>
+webrender_api_sender
+:
+Option
+<
+webrender_traits
+:
+:
+RenderApiSender
 >
 )
 ;

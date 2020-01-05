@@ -244,6 +244,9 @@ cache
 :
 HashCache
 ;
+use
+webrender_traits
+;
 static
 TEXT_SHAPING_PERFORMANCE_COUNTER
 :
@@ -752,6 +755,16 @@ HashCache
 <
 u32
 FractionalPixel
+>
+pub
+font_key
+:
+Option
+<
+webrender_traits
+:
+:
+FontKey
 >
 }
 bitflags

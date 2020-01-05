@@ -502,6 +502,10 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender_traits
+;
 pub
 use
 paint_context

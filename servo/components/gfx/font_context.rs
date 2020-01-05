@@ -292,6 +292,9 @@ cache
 :
 HashCache
 ;
+use
+webrender_traits
+;
 #
 [
 cfg
@@ -843,6 +846,15 @@ font_variant
 :
 :
 T
+font_key
+:
+Option
+<
+webrender_traits
+:
+:
+FontKey
+>
 )
 -
 >
@@ -1010,6 +1022,9 @@ HashCache
 new
 (
 )
+font_key
+:
+font_key
 }
 }
 )
@@ -1446,7 +1461,7 @@ if
 cache_hit
 {
 let
-font_template
+template_info
 =
 self
 .
@@ -1467,11 +1482,11 @@ clone
 )
 ;
 match
-font_template
+template_info
 {
 Some
 (
-font_template
+template_info
 )
 =
 >
@@ -1483,6 +1498,8 @@ self
 .
 create_layout_font
 (
+template_info
+.
 font_template
 desc
 .
@@ -1495,6 +1512,9 @@ font_size
 style
 .
 font_variant
+template_info
+.
+font_key
 )
 ;
 let
@@ -1723,7 +1743,7 @@ if
 cache_hit
 {
 let
-font_template
+template_info
 =
 self
 .
@@ -1745,6 +1765,8 @@ self
 .
 create_layout_font
 (
+template_info
+.
 font_template
 desc
 .
@@ -1757,6 +1779,9 @@ font_size
 style
 .
 font_variant
+template_info
+.
+font_key
 )
 ;
 match
