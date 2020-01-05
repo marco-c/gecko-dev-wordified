@@ -109,6 +109,14 @@ collections
 [
 feature
 (
+hash
+)
+]
+#
+!
+[
+feature
+(
 rustc_private
 )
 ]

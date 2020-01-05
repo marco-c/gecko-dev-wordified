@@ -132,12 +132,6 @@ use
 util
 :
 :
-arc_ptr_eq
-;
-use
-util
-:
-:
 cache
 :
 :
