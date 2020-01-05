@@ -1833,6 +1833,20 @@ rval
 MutableHandleObject
 )
 {
+assert
+!
+(
+rval
+.
+get
+(
+)
+.
+is_null
+(
+)
+)
+;
 if
 let
 Some
@@ -1851,7 +1865,6 @@ members
 rval
 )
 ;
-}
 if
 !
 rval
@@ -1922,6 +1935,7 @@ dom_class_ptr
 )
 )
 ;
+}
 }
 }
 if
