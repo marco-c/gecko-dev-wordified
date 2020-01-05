@@ -213,10 +213,10 @@ plugin
 extern
 crate
 "
-macros
+plugins
 "
 as
-servo_macros
+servo_plugins
 ;
 extern
 crate
