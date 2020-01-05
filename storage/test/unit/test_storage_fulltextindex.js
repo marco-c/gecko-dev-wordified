@@ -585,6 +585,8 @@ i
 ;
 }
 }
+finally
+{
 /
 /
 It
@@ -641,8 +643,6 @@ our
 tests
 fail
 .
-finally
-{
 cleanup
 (
 )

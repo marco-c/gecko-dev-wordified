@@ -1066,6 +1066,11 @@ i
 )
 ;
 }
+catch
+(
+ex
+)
+{
 /
 /
 XXXehsan
@@ -1086,11 +1091,6 @@ this
 hacky
 comparison
 ?
-catch
-(
-ex
-)
-{
 if
 (
 ex

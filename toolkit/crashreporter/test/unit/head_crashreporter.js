@@ -675,7 +675,6 @@ catch
 ex
 )
 {
-}
 /
 /
 on
@@ -690,6 +689,7 @@ status
 when
 crashing
 .
+}
 finally
 {
 env

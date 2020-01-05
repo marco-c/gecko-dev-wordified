@@ -1343,6 +1343,8 @@ aRow
 )
 ;
 }
+else
+{
 /
 /
 otherwise
@@ -1354,8 +1356,6 @@ and
 add
 items
 array
-else
-{
 let
 item
 =

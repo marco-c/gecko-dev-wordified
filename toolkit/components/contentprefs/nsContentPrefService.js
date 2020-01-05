@@ -5860,6 +5860,11 @@ dbFile
 )
 ;
 }
+catch
+(
+e
+)
+{
 /
 /
 If
@@ -5893,11 +5898,6 @@ then
 recreate
 it
 .
-catch
-(
-e
-)
-{
 if
 (
 e
