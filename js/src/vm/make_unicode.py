@@ -3956,7 +3956,7 @@ assert
 shift
 =
 =
-5
+6
     
 same_upper_index1
 same_upper_index2

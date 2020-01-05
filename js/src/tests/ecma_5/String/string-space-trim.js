@@ -15,9 +15,9 @@ MODIFY
 Unicode
 version
 :
-6
+9
 .
-2
+0
 .
 0
 *
@@ -64,7 +64,6 @@ fromCharCode
 0x20
 0xa0
 0x1680
-0x180e
 0x2000
 0x2001
 0x2002
