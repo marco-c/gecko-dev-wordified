@@ -10690,7 +10690,7 @@ nsHostResolver
 result
 )
 {
-nsHostResolver
+auto
 *
 res
 =

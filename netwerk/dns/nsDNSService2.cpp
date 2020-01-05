@@ -4478,7 +4478,7 @@ hostname
 flags
 )
 ;
-nsDNSAsyncRequest
+auto
 *
 req
 =
@@ -5131,7 +5131,7 @@ record
 "
 )
 ;
-nsDNSRecord
+auto
 *
 rec
 =

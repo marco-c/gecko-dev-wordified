@@ -4460,7 +4460,7 @@ kACEPrefixLen
 +
 1
 ;
-punycode_uint
+auto
 *
 output
 =

@@ -6436,7 +6436,7 @@ wellKnown
 uri
 )
 ;
-WellKnownChecker
+auto
 *
 checker
 =
