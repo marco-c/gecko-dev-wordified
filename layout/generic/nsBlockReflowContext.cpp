@@ -2492,9 +2492,10 @@ frame
 .
 if
 (
-NS_FRAME_IS_FULLY_COMPLETE
-(
 aFrameReflowStatus
+.
+IsFullyComplete
+(
 )
 )
 {

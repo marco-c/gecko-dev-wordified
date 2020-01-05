@@ -7383,9 +7383,10 @@ mBreakInside
 &
 (
 !
-NS_FRAME_IS_FULLY_COMPLETE
-(
 reflowStatus
+.
+IsFullyComplete
+(
 )
 |
 |
@@ -7922,9 +7923,10 @@ blockEnd
 if
 (
 !
-NS_FRAME_IS_FULLY_COMPLETE
-(
 reflowStatus
+.
+IsFullyComplete
+(
 )
 )
 {
