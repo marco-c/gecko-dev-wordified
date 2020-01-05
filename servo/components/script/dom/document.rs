@@ -3110,13 +3110,6 @@ force_dirty_ancestors
 damage
 )
 ;
-node
-.
-dirty
-(
-damage
-)
-;
 }
 /
 /
