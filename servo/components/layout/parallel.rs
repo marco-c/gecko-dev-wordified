@@ -249,7 +249,7 @@ atomic
 :
 :
 {
-AtomicInt
+AtomicIsize
 Ordering
 }
 ;
@@ -463,7 +463,7 @@ done
 pub
 children_count
 :
-AtomicInt
+AtomicIsize
 }
 impl
 DomParallelInfo
@@ -481,7 +481,7 @@ DomParallelInfo
 {
 children_count
 :
-AtomicInt
+AtomicIsize
 :
 :
 new
@@ -1157,7 +1157,7 @@ done
 pub
 children_count
 :
-AtomicInt
+AtomicIsize
 /
 /
 /
@@ -1189,7 +1189,7 @@ FlowParallelInfo
 {
 children_count
 :
-AtomicInt
+AtomicIsize
 :
 :
 new

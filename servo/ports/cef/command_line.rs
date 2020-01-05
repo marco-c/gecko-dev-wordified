@@ -660,9 +660,13 @@ ffi
 CString
 :
 :
-from_slice
+new
 (
 arg
+)
+.
+unwrap
+(
 )
 ;
 cef_string_utf16_set
