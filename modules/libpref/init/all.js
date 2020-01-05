@@ -66227,7 +66227,7 @@ IntersectionObserver
 .
 enabled
 "
-false
+true
 )
 ;
 /
