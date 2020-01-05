@@ -160,6 +160,8 @@ mozilla
 namespace
 dom
 {
+/
+/
 extern
 mozilla
 :
@@ -249,6 +251,8 @@ char
 aCallSite
 )
 {
+/
+/
 MOZ_LOG
 (
 gWebauthLog
@@ -256,6 +260,8 @@ LogLevel
 :
 :
 Debug
+/
+/
 (
 "
 WebAuthnRequest
@@ -271,6 +277,8 @@ from
 s
 ]
 "
+/
+/
 aCallSite
 )
 )
