@@ -638,6 +638,7 @@ Size2D
 uint
 >
 >
+bool
 )
 )
 HtmlDiscoveredScript
@@ -2207,6 +2208,11 @@ size
 :
 None
 )
+(
+sandbox
+:
+None
+)
 ]
 )
 ;
@@ -3254,6 +3260,15 @@ take
 )
 ;
 let
+sandboxed
+=
+iframe_element
+.
+is_sandboxed
+(
+)
+;
+let
 elem
 =
 &
@@ -3448,6 +3463,7 @@ HtmlDiscoveredIFrame
 iframe_url
 subpage_id
 size_future
+sandboxed
 )
 )
 )
