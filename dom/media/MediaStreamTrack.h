@@ -1679,7 +1679,7 @@ synchronously
 *
 /
 void
-NotifyEnded
+OverrideEnded
 (
 )
 ;

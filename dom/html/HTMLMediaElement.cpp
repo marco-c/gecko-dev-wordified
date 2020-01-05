@@ -8087,7 +8087,7 @@ outputTrack
 MediaStreamTrack
 :
 :
-NotifyEnded
+OverrideEnded
 )
 )
 ;
