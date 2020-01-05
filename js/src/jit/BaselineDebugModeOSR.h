@@ -481,7 +481,7 @@ ICStubCompiler
 Engine
 :
 :
-IonMonkey
+IonSharedIC
 )
 return
 stub_
