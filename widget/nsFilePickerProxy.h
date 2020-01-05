@@ -440,6 +440,14 @@ nsAString
 )
 override
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 nsTArray
 <
 mozilla
@@ -469,6 +477,9 @@ mDefault
 ;
 nsString
 mDefaultExtension
+;
+bool
+mIPCActive
 ;
 InfallibleTArray
 <
