@@ -82517,9 +82517,9 @@ void
 CodeGenerator
 :
 :
-visitAsmJSReturn
+visitWasmReturn
 (
-LAsmJSReturn
+LWasmReturn
 *
 lir
 )
@@ -82578,9 +82578,9 @@ void
 CodeGenerator
 :
 :
-visitAsmJSReturnI64
+visitWasmReturnI64
 (
-LAsmJSReturnI64
+LWasmReturnI64
 *
 lir
 )
@@ -82639,9 +82639,9 @@ void
 CodeGenerator
 :
 :
-visitAsmJSVoidReturn
+visitWasmReturnVoid
 (
-LAsmJSVoidReturn
+LWasmReturnVoid
 *
 lir
 )

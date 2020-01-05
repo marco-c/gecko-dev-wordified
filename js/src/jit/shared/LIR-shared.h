@@ -37633,7 +37633,7 @@ AsmJSParameterI64
 }
 ;
 class
-LAsmJSReturn
+LWasmReturn
 :
 public
 LInstructionHelper
@@ -37647,13 +37647,13 @@ public
 :
 LIR_HEADER
 (
-AsmJSReturn
+WasmReturn
 )
 ;
 }
 ;
 class
-LAsmJSReturnI64
+LWasmReturnI64
 :
 public
 LInstructionHelper
@@ -37669,10 +37669,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSReturnI64
+WasmReturnI64
 )
 explicit
-LAsmJSReturnI64
+LWasmReturnI64
 (
 const
 LInt64Allocation
@@ -37690,7 +37690,7 @@ input
 }
 ;
 class
-LAsmJSVoidReturn
+LWasmReturnVoid
 :
 public
 LInstructionHelper
@@ -37704,7 +37704,7 @@ public
 :
 LIR_HEADER
 (
-AsmJSVoidReturn
+WasmReturnVoid
 )
 ;
 }
