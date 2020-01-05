@@ -3743,7 +3743,7 @@ location
 mWindow
 -
 >
-Location
+GetLocation
 (
 )
 )

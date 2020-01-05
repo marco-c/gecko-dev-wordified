@@ -6403,7 +6403,7 @@ location
 internalContent
 -
 >
-Location
+GetLocation
 (
 )
 ;
