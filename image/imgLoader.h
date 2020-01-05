@@ -1439,6 +1439,8 @@ const
 nsAString
 &
 initiatorType
+bool
+aUseUrgentStartForChannel
 imgRequestProxy
 *
 *
