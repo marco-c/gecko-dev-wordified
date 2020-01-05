@@ -442,10 +442,8 @@ aRunnable
 )
 ;
 }
-already_AddRefed
-<
 nsIEventTarget
->
+*
 DocGroup
 :
 :

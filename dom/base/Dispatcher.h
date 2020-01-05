@@ -359,10 +359,8 @@ main
 thread
 .
 virtual
-already_AddRefed
-<
 nsIEventTarget
->
+*
 EventTargetFor
 (
 TaskCategory
@@ -452,10 +450,8 @@ main
 thread
 .
 virtual
-already_AddRefed
-<
 nsIEventTarget
->
+*
 EventTargetFor
 (
 TaskCategory

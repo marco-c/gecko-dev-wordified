@@ -243,10 +243,8 @@ forget
 ;
 }
 }
-already_AddRefed
-<
 nsIEventTarget
->
+*
 DispatcherTrait
 :
 :
@@ -269,10 +267,6 @@ do_GetMainThread
 ;
 return
 main
-.
-forget
-(
-)
 ;
 }
 namespace

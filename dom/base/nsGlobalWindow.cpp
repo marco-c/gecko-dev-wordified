@@ -79168,10 +79168,8 @@ aRunnable
 )
 ;
 }
-already_AddRefed
-<
 nsIEventTarget
->
+*
 nsGlobalWindow
 :
 :
