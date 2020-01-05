@@ -1583,9 +1583,6 @@ mozIStorageConnection
 aConnection
 )
 ;
-#
-if
-0
 nsresult
 UpgradeStorageFrom1_0To2_0
 (
@@ -1594,8 +1591,6 @@ mozIStorageConnection
 aConnection
 )
 ;
-#
-endif
 nsresult
 InitializeRepository
 (
