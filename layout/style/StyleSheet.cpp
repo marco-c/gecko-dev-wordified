@@ -3652,6 +3652,9 @@ MediaList
 Create
 (
 mType
+nsString
+(
+)
 )
 ;
 mMedia
