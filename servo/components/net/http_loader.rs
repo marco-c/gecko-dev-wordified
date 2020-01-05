@@ -69,6 +69,7 @@ connector
 {
 Connector
 create_http_connector
+create_ssl_client
 }
 ;
 use
@@ -713,6 +714,14 @@ str
 >
 HttpState
 {
+let
+ssl_client
+=
+create_ssl_client
+(
+certificate_path
+)
+;
 HttpState
 {
 hsts_list
@@ -780,7 +789,7 @@ connector_pool
 :
 create_http_connector
 (
-certificate_path
+ssl_client
 )
 }
 }
