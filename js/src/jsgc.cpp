@@ -19604,6 +19604,12 @@ AutoLockGC
 lock
 )
 {
+while
+(
+isBackgroundSweeping
+(
+)
+)
 done
 .
 wait
