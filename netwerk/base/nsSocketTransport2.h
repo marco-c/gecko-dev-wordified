@@ -2756,6 +2756,11 @@ PRFileDesc
 fd
 )
 ;
+bool
+FastOpenInProgress
+(
+)
+;
 /
 /
 /
@@ -3059,6 +3064,9 @@ callback
 TCPFastOpen
 *
 mFastOpenCallback
+;
+bool
+mFastOpenLayerHasBufferedData
 ;
 }
 ;
