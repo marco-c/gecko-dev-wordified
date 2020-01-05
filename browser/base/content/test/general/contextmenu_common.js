@@ -139,9 +139,9 @@ resource
 :
 /
 /
-testing
--
-common
+gre
+/
+modules
 /
 AsyncSpellCheckTestHelper
 .
@@ -2517,9 +2517,9 @@ resource
 :
 /
 /
-testing
--
-common
+gre
+/
+modules
 /
 AsyncSpellCheckTestHelper
 .
