@@ -1878,7 +1878,7 @@ fontSize
 presContext
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 ;
@@ -2101,7 +2101,7 @@ xHeight
 presContext
 -
 >
-TextZoom
+EffectiveTextZoom
 (
 )
 ;
