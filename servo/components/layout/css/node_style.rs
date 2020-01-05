@@ -218,6 +218,13 @@ ln
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 style
 <

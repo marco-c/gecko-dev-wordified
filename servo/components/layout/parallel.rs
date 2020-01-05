@@ -90,6 +90,14 @@ easy
 to
 audit
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 context
 :

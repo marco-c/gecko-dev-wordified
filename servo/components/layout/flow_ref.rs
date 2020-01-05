@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-/
+!
 Reference
 -
 counted
@@ -68,10 +68,10 @@ flows
 .
 /
 /
+!
 /
 /
-/
-/
+!
 Eventually
 with
 dynamically
@@ -87,6 +87,14 @@ will
 be
 superfluous
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 flow
 :

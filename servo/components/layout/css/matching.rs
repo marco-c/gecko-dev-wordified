@@ -68,6 +68,14 @@ CSS
 selector
 matching
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 css
 :

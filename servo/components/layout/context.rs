@@ -66,6 +66,14 @@ the
 layout
 task
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 css
 :

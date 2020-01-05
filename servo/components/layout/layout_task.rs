@@ -81,6 +81,14 @@ be
 !
 painted
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 css
 :
