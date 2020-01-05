@@ -1048,11 +1048,8 @@ DOM
 .
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 resolve

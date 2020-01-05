@@ -14110,11 +14110,8 @@ panel
 {
 panel
 .
-parentNode
-.
-removeChild
+remove
 (
-panel
 )
 ;
 }
@@ -14164,11 +14161,8 @@ key
 {
 key
 .
-parentNode
-.
-removeChild
+remove
 (
-key
 )
 ;
 }

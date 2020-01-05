@@ -728,11 +728,8 @@ elem
 {
 elem
 .
-parentNode
-.
-removeChild
+remove
 (
-elem
 )
 ;
 }
@@ -1033,11 +1030,8 @@ else
 {
 td_elem
 .
-parentNode
-.
-removeChild
+remove
 (
-td_elem
 )
 ;
 }

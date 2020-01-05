@@ -561,11 +561,8 @@ close
 )
 frame
 .
-parentNode
-.
-removeChild
+remove
 (
-frame
 )
 ;
 }

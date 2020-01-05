@@ -9016,11 +9016,8 @@ parentNode
 {
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }
@@ -9182,11 +9179,8 @@ DOM
 .
 node
 .
-parentNode
-.
-removeChild
+remove
 (
-node
 )
 ;
 }

@@ -428,11 +428,8 @@ true
 ;
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-element
 )
 ;
 done

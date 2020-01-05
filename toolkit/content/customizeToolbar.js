@@ -4525,11 +4525,8 @@ toolbar
 .
 wrapper
 .
-parentNode
-.
-removeChild
+remove
 (
-wrapper
 )
 ;
 /
@@ -5029,11 +5026,8 @@ toolbar
 .
 wrapper
 .
-parentNode
-.
-removeChild
+remove
 (
-wrapper
 )
 ;
 }

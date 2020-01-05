@@ -9675,13 +9675,8 @@ this
 .
 _markupFrame
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-_markupFrame
 )
 ;
 this

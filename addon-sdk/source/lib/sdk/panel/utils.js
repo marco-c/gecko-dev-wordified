@@ -2704,11 +2704,8 @@ parentNode
 )
 panel
 .
-parentNode
-.
-removeChild
+remove
 (
-panel
 )
 ;
 }

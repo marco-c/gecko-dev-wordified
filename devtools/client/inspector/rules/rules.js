@@ -5149,13 +5149,8 @@ this
 .
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-element
 )
 ;
 }

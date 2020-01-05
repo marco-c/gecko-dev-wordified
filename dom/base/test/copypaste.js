@@ -149,11 +149,8 @@ function
 {
 e
 .
-parentNode
-.
-removeChild
+remove
 (
-e
 )
 ;
 g

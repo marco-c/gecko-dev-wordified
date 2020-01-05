@@ -593,11 +593,8 @@ elem
 ;
 newElem
 .
-parentNode
-.
-removeChild
+remove
 (
-newElem
 )
 ;
 ok

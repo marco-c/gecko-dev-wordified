@@ -16493,11 +16493,8 @@ parentNode
 return
 childNode
 .
-parentNode
-.
-removeChild
+remove
 (
-childNode
 )
 ;
 }

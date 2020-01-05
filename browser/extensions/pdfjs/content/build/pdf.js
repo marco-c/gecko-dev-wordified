@@ -9326,11 +9326,8 @@ styleElement
 {
 styleElement
 .
-parentNode
-.
-removeChild
+remove
 (
-styleElement
 )
 ;
 styleElement

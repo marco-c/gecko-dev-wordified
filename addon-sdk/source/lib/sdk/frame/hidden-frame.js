@@ -810,11 +810,8 @@ element
 )
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-element
 )
 }
 exports

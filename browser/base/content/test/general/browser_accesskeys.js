@@ -497,11 +497,8 @@ accesskey
 ;
 newButton
 .
-parentNode
-.
-removeChild
+remove
 (
-newButton
 )
 ;
 gBrowser

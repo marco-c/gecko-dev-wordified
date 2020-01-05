@@ -1358,13 +1358,8 @@ this
 .
 box
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-box
 )
 ;
 }

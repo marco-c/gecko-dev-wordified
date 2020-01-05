@@ -926,11 +926,8 @@ parentNode
 {
 div
 .
-parentNode
-.
-removeChild
+remove
 (
-div
 )
 ;
 }

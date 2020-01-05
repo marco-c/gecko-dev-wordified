@@ -778,13 +778,8 @@ this
 .
 style
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-style
 )
 ;
 this

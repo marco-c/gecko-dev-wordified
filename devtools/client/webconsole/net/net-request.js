@@ -1109,13 +1109,8 @@ this
 .
 netInfoBodyBox
 .
-parentNode
-.
-removeChild
+remove
 (
-this
-.
-netInfoBodyBox
 )
 ;
 }

@@ -404,11 +404,8 @@ done
 cleanup
 element
 .
-parentNode
-.
-removeChild
+remove
 (
-element
 )
 ;
 worker

@@ -3081,11 +3081,8 @@ accessible
 ;
 aPosNode
 .
-parentNode
-.
-removeChild
+remove
 (
-aPosNode
 )
 ;
 }
@@ -3337,11 +3334,8 @@ firstChild
 ;
 aRootNode
 .
-parentNode
-.
-removeChild
+remove
 (
-aRootNode
 )
 ;
 }

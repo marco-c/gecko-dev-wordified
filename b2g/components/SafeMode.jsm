@@ -864,11 +864,8 @@ true
 ;
 contentBrowser
 .
-parentNode
-.
-removeChild
+remove
 (
-contentBrowser
 )
 ;
 if

@@ -4254,11 +4254,8 @@ openHandler
 ;
 openHandler
 .
-parentNode
-.
-removeChild
+remove
 (
-openHandler
 )
 ;
 var

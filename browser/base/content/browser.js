@@ -5351,11 +5351,8 @@ previousSibling
 ;
 item
 .
-parentNode
-.
-removeChild
+remove
 (
-item
 )
 ;
 item
@@ -18539,11 +18536,8 @@ splitter
 )
 splitter
 .
-parentNode
-.
-removeChild
+remove
 (
-splitter
 )
 ;
 }

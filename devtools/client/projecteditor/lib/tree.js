@@ -2032,11 +2032,8 @@ destroy
 {
 item
 .
-parentNode
-.
-removeChild
+remove
 (
-item
 )
 ;
 }

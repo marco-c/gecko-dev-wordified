@@ -3978,13 +3978,8 @@ e
 .
 target
 .
-parentNode
-.
-removeChild
+remove
 (
-e
-.
-target
 )
 ;
 }
