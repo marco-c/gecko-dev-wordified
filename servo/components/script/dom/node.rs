@@ -13254,7 +13254,6 @@ let
 prev_characterdata
 :
 &
-mut
 JSRef
 <
 CharacterData
@@ -13263,7 +13262,7 @@ CharacterData
 CharacterDataCast
 :
 :
-to_mut_ref
+to_ref
 (
 text_node
 )
