@@ -2959,7 +2959,9 @@ _assertPanelExists
 id
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -2993,7 +2995,9 @@ _assertPanelExists
 id
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -3024,7 +3028,9 @@ _assertPanelExists
 id
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
