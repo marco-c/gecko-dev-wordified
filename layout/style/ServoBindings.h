@@ -1312,7 +1312,7 @@ mozilla
 :
 :
 UpdateAnimationsTasks
-aTaskBits
+aTasks
 )
 ;
 bool

@@ -2307,7 +2307,7 @@ aComputedValues
 ServoComputedValuesBorrowedOrNull
 aParentComputedValues
 UpdateAnimationsTasks
-aTaskBits
+aTasks
 )
 {
 MOZ_ASSERT
@@ -2367,17 +2367,6 @@ presContext
 return
 ;
 }
-UpdateAnimationsTasks
-tasks
-=
-static_cast
-<
-UpdateAnimationsTasks
->
-(
-aTaskBits
-)
-;
 if
 (
 presContext
@@ -2422,7 +2411,7 @@ eForAllContent
 ;
 if
 (
-tasks
+aTasks
 &
 UpdateAnimationsTasks
 :
@@ -2542,7 +2531,7 @@ return
 }
 if
 (
-tasks
+aTasks
 &
 UpdateAnimationsTasks
 :
@@ -2593,7 +2582,7 @@ servoValues
 }
 if
 (
-tasks
+aTasks
 &
 UpdateAnimationsTasks
 :
