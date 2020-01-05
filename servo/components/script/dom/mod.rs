@@ -2657,6 +2657,10 @@ formdata
 ;
 pub
 mod
+hashchangeevent
+;
+pub
+mod
 htmlanchorelement
 ;
 pub
@@ -3001,6 +3005,10 @@ nodelist
 ;
 pub
 mod
+pagetransitionevent
+;
+pub
+mod
 performance
 ;
 pub
@@ -3014,6 +3022,10 @@ plugin
 pub
 mod
 pluginarray
+;
+pub
+mod
+popstateevent
 ;
 pub
 mod
