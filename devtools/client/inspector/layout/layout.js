@@ -259,7 +259,12 @@ this
 .
 inspector
 .
+getPanel
+(
+"
 boxmodel
+"
+)
 .
 getComponentProps
 (

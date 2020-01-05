@@ -470,9 +470,11 @@ let
 view
 =
 inspector
-[
+.
+getPanel
+(
 viewId
-]
+)
 .
 view
 ;
