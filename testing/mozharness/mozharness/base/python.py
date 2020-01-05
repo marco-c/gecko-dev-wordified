@@ -6436,6 +6436,21 @@ cpu_times
 attr
 )
             
+#
+cpu_total
+can
+be
+0
+.
+0
+.
+Guard
+against
+division
+by
+0
+.
+            
 percent
 =
 value
@@ -6443,6 +6458,12 @@ value
 cpu_total
 *
 100
+.
+0
+if
+cpu_total
+else
+0
 .
 0
             
