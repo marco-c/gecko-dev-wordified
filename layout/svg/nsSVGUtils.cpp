@@ -5240,10 +5240,7 @@ space
 gfxMatrix
 userToDeviceSpace
 =
-GetUserToCanvasTM
-(
-aFrame
-)
+aTransform
 ;
 if
 (
