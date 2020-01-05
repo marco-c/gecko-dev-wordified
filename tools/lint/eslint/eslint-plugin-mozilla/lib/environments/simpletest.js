@@ -366,6 +366,7 @@ root
 simpleTestPath
 file
 )
+;
 try
 {
 fileGlobals
@@ -406,6 +407,7 @@ fileName
 e
 }
 )
+;
 }
 }
 return

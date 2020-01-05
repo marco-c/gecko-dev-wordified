@@ -443,10 +443,10 @@ defineLazyModuleGetter
 and
 map
 to
+/
+/
 single
 )
-/
-/
 variable
 .
 {
@@ -490,6 +490,7 @@ writable
 false
 }
 ]
+;
 const
 placesOverlayModules
 =
@@ -500,6 +501,7 @@ PlacesUtils
 jsm
 "
 ]
+;
 function
 getScriptGlobals
 (
@@ -529,6 +531,7 @@ join
 root
 file
 )
+;
 try
 {
 fileGlobals
@@ -569,6 +572,7 @@ fileName
 e
 }
 )
+;
 }
 }
 for

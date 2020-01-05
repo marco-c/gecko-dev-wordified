@@ -153,8 +153,8 @@ options
 divided
 by
 comma
-or
 *
+or
 whitespace
 .
 *
@@ -318,8 +318,6 @@ indexOf
 ;
 let
 value
-=
-undefined
 ;
 if
 (
@@ -583,6 +581,7 @@ this
 .
 path
 )
+;
 this
 .
 root
@@ -762,6 +761,7 @@ writable
 :
 true
 }
+;
 }
 )
 ;
@@ -1291,6 +1291,7 @@ name
 value
 }
 )
+;
 }
 }
 }
@@ -1516,6 +1517,7 @@ globalScope
 )
 ;
 }
+;
 }
 return
 parser

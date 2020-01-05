@@ -150,6 +150,7 @@ nChar
 *
 )
 /
+;
 function
 parseError
 (
@@ -173,9 +174,11 @@ if
 !
 matches
 )
+{
 return
 null
 ;
+}
 return
 {
 fatal
@@ -208,6 +211,7 @@ matches
 ]
 )
 }
+;
 }
 let
 entityRegex
@@ -356,6 +360,7 @@ comments
 [
 ]
 }
+;
 this
 .
 _currentNode
@@ -437,6 +442,7 @@ parser
 .
 line
 }
+;
 for
 (
 let
@@ -659,6 +665,7 @@ text
 ;
 }
 }
+;
 /
 /
 -
@@ -969,6 +976,7 @@ be
 passed
 back
 to
+*
 eslint
 .
 *
@@ -1240,7 +1248,10 @@ aren
 '
 t
 entirely
+/
+/
 whitespace
+.
 let
 indents
 =
@@ -1534,6 +1545,7 @@ err
 )
 ;
 }
+;
 let
 xp
 =
@@ -2087,7 +2099,10 @@ declarations
 with
 the
 appropriate
+/
+/
 params
+.
 let
 params
 =
@@ -2100,6 +2115,8 @@ filter
 n
 =
 >
+{
+return
 n
 .
 local
@@ -2116,6 +2133,8 @@ namespace
 =
 =
 NS_XBL
+;
+}
 )
 .
 map
@@ -2148,6 +2167,8 @@ filter
 n
 =
 >
+{
+return
 n
 .
 local
@@ -2164,6 +2185,8 @@ namespace
 =
 =
 NS_XBL
+;
+}
 )
 [
 0
@@ -2372,7 +2395,10 @@ declaration
 with
 an
 event
+/
+/
 parameter
+.
 addSyntheticLine
 (
 indent

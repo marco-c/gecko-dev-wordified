@@ -411,6 +411,7 @@ type
 CallExpression
 "
 }
+;
 exports
 .
 runTest
@@ -532,3 +533,4 @@ ExpectedError
 )
 ;
 }
+;

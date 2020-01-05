@@ -409,6 +409,7 @@ type
 CallExpression
 "
 }
+;
 exports
 .
 runTest
