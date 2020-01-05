@@ -66,9 +66,9 @@ function
 const
 url
 =
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 script
@@ -76,7 +76,6 @@ script
 switching
 .
 html
-"
 ;
 const
 toolbox
