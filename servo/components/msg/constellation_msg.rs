@@ -656,6 +656,13 @@ IFrameSandboxState
 )
 Navigate
 (
+Option
+<
+(
+PipelineId
+SubpageId
+)
+>
 NavigationDirection
 )
 PainterReady

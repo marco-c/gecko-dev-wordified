@@ -5994,6 +5994,7 @@ ConstellationMsg
 :
 Navigate
 (
+None
 direction
 )
 )
