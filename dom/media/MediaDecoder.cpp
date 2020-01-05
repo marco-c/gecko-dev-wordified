@@ -2131,13 +2131,6 @@ true
 )
 INIT_CANONICAL
 (
-mEstimatedDuration
-NullableTimeUnit
-(
-)
-)
-INIT_CANONICAL
-(
 mExplicitDuration
 Maybe
 <
