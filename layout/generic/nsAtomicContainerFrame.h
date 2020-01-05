@@ -241,17 +241,6 @@ a
 leaf
 frame
 .
-bool
-IsLeaf
-(
-)
-const
-override
-{
-return
-true
-;
-}
 FrameSearchResult
 PeekOffsetNoAmount
 (

@@ -2802,7 +2802,7 @@ bool
 nsMenuPopupFrame
 :
 :
-IsLeaf
+IsLeafDynamic
 (
 )
 const

@@ -673,14 +673,6 @@ override
 ;
 #
 endif
-virtual
-bool
-IsLeaf
-(
-)
-const
-override
-;
 void
 StartMouseDrag
 (

@@ -1583,7 +1583,7 @@ override
 ;
 virtual
 bool
-IsLeaf
+IsLeafDynamic
 (
 )
 const

@@ -471,14 +471,6 @@ IsXULCollapsed
 )
 override
 ;
-virtual
-bool
-IsLeaf
-(
-)
-const
-override
-;
 #
 ifdef
 ACCESSIBILITY

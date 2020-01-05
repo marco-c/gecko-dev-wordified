@@ -433,13 +433,6 @@ aDestructRoot
 )
 override
 ;
-bool
-IsLeaf
-(
-)
-const
-override
-;
 void
 Reflow
 (
