@@ -2761,13 +2761,8 @@ debug_str
 )
 )
 ;
-debug
-!
+println
 (
-"
-%
-s
-"
 s
 )
 ;
