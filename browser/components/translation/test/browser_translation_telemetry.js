@@ -955,13 +955,13 @@ removeTab
 tab
 )
 ;
+return
+null
+;
 }
-else
-{
 return
 tab
 ;
-}
 }
 )
 ;
