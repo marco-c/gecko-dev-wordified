@@ -13897,6 +13897,18 @@ _
 }
 }
 }
+%
+if
+"
+align
+-
+items
+"
+in
+data
+.
+longhands_by_name
+:
 {
 use
 self
@@ -14037,6 +14049,8 @@ self_align
 ;
 }
 }
+%
+endif
 /
 /
 The

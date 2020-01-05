@@ -1112,6 +1112,11 @@ for
 ServoSelectorImpl
 {
 type
+AttrString
+=
+String
+;
+type
 PseudoElement
 =
 PseudoElement
@@ -1613,6 +1618,9 @@ Element
 Impl
 =
 ServoSelectorImpl
+AttrString
+=
+String
 >
 >
 ElementExt
