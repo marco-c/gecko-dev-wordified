@@ -2975,6 +2975,7 @@ accept
 ;
 }
 }
+pub
 fn
 set_default_accept_language
 (
