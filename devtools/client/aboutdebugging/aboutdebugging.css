@@ -186,15 +186,6 @@ width
 :
 800px
 ;
-}
-/
-*
-Targets
-*
-/
-.
-targets
-{
 margin
 -
 bottom
@@ -202,6 +193,11 @@ bottom
 35px
 ;
 }
+/
+*
+Targets
+*
+/
 .
 target
 -
