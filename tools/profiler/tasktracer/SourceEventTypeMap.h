@@ -100,3 +100,7 @@ SOURCE_EVENT_NAME
 (
 Wifi
 )
+SOURCE_EVENT_NAME
+(
+SocketIO
+)
