@@ -1604,18 +1604,6 @@ aPreview
 setAttribute
 (
 "
-crop
-"
-aTab
-.
-crop
-)
-;
-aPreview
-.
-setAttribute
-(
-"
 canvaswidth
 "
 canvasWidth
@@ -2936,7 +2924,6 @@ e
 g
 .
 label
-crop
 busy
 image
 selected
