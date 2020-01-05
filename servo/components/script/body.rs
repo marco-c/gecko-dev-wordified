@@ -111,7 +111,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -355,7 +355,7 @@ T
 :
 BodyOperations
 +
-Reflectable
+DomObject
 >
 (
 object
@@ -521,7 +521,7 @@ T
 :
 BodyOperations
 +
-Reflectable
+DomObject
 >
 (
 object
@@ -730,7 +730,7 @@ T
 :
 BodyOperations
 +
-Reflectable
+DomObject
 >
 (
 object

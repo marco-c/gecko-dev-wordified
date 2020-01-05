@@ -153,7 +153,7 @@ reflector
 :
 {
 reflect_dom_object
-Reflectable
+DomObject
 }
 ;
 use

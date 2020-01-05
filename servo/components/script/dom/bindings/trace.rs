@@ -493,7 +493,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -3210,7 +3210,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 JSTraceable
 for
@@ -4362,7 +4362,7 @@ you
 have
 a
 valid
-Reflectable
+DomObject
 use
 Root
 .
@@ -4394,7 +4394,7 @@ an
 arbitrary
 number
 of
-Reflectables
+DomObjects
 to
 root
 use
@@ -4748,7 +4748,7 @@ T
 :
 JSTraceable
 +
-Reflectable
+DomObject
 >
 RootedVec
 <

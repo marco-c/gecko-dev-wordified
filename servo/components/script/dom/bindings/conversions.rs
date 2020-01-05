@@ -438,7 +438,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -1013,7 +1013,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 >
@@ -3340,7 +3340,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 {
@@ -3480,7 +3480,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 {
@@ -3567,7 +3567,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 {
@@ -3665,7 +3665,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 {
@@ -3745,7 +3745,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 +
 IDLInterface
 {
@@ -3762,7 +3762,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 ToJSValConvertible
 for

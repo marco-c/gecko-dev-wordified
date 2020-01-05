@@ -166,7 +166,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 reflect_dom_object
 }

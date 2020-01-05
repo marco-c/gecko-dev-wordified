@@ -282,7 +282,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 reflect_dom_object
 }
 ;
@@ -772,7 +772,7 @@ T
 :
 AsyncBluetoothListener
 +
-Reflectable
+DomObject
 >
 {
 promise
@@ -821,7 +821,7 @@ Listener
 :
 AsyncBluetoothListener
 +
-Reflectable
+DomObject
 >
 PreInvoke
 for
@@ -837,7 +837,7 @@ Listener
 :
 AsyncBluetoothListener
 +
-Reflectable
+DomObject
 >
 BluetoothResponseListener
 for
@@ -1676,7 +1676,7 @@ T
 :
 AsyncBluetoothListener
 +
-Reflectable
+DomObject
 +
 '
 static

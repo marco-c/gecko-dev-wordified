@@ -78,7 +78,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -168,7 +168,7 @@ SimpleWorkerErrorHandler
 <
 T
 :
-Reflectable
+DomObject
 >
 {
 pub
@@ -183,7 +183,7 @@ impl
 <
 T
 :
-Reflectable
+DomObject
 >
 SimpleWorkerErrorHandler
 <

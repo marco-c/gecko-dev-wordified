@@ -111,7 +111,7 @@ bindings
 reflector
 :
 :
-Reflectable
+DomObject
 ;
 use
 dom
@@ -593,7 +593,7 @@ invoke
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 self
@@ -650,7 +650,7 @@ invoke
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 self
@@ -3169,7 +3169,7 @@ invoke
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 self

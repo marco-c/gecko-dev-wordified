@@ -321,7 +321,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 Reflector
 }
 ;
@@ -1174,7 +1174,7 @@ call_or_handle_event
 <
 T
 :
-Reflectable
+DomObject
 >
 (
 &

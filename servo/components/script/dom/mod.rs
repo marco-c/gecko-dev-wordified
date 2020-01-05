@@ -1457,7 +1457,7 @@ mutability
 !
 Reflector
 and
-Reflectable
+DomObject
 /
 /
 !
@@ -1576,7 +1576,7 @@ field
 /
 !
 The
-Reflectable
+DomObject
 trait
 provides
 a

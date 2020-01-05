@@ -332,7 +332,7 @@ lints
 Autogenerates
 implementations
 of
-Reflectable
+DomObject
 on
 DOM
 structs

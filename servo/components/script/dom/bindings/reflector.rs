@@ -194,7 +194,7 @@ T
 where
 T
 :
-Reflectable
+DomObject
 U
 :
 DerivedFrom
@@ -595,7 +595,7 @@ object
 .
 pub
 trait
-Reflectable
+DomObject
 {
 /
 /
@@ -630,7 +630,7 @@ the
 realm
 that
 the
-Reflectable
+DomObject
 was
 created
 in
@@ -677,9 +677,9 @@ object
 .
 pub
 trait
-MutReflectable
+MutDomObject
 :
-Reflectable
+DomObject
 {
 /
 /

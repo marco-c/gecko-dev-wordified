@@ -386,7 +386,7 @@ reflector
 :
 :
 {
-Reflectable
+DomObject
 reflect_dom_object
 }
 ;
@@ -6227,7 +6227,7 @@ DerivedFrom
 HTMLElement
 >
 +
-Reflectable
+DomObject
 {
 if
 index
@@ -9760,7 +9760,7 @@ DerivedFrom
 Node
 >
 +
-Reflectable
+DomObject
 {
 let
 window
@@ -17704,7 +17704,7 @@ DerivedFrom
 Node
 >
 +
-Reflectable
+DomObject
 >
 (
 derived
@@ -17740,7 +17740,7 @@ DerivedFrom
 Node
 >
 +
-Reflectable
+DomObject
 >
 (
 derived
