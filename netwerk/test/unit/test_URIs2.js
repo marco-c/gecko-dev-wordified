@@ -5680,8 +5680,6 @@ org
 xenia
 ?
 "
-null
-null
 )
 ;
 let
@@ -5719,8 +5717,6 @@ xenia
 ?
 x
 "
-null
-null
 )
 ;
 do_info
@@ -5795,8 +5791,6 @@ x
 nia
 ?
 "
-null
-null
 )
 ;
 resolved
@@ -5833,8 +5827,6 @@ nia
 ?
 x
 "
-null
-null
 )
 ;
 do_info

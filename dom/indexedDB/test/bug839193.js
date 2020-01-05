@@ -105,8 +105,6 @@ http
 /
 localhost
 "
-null
-null
 )
 ;
 function

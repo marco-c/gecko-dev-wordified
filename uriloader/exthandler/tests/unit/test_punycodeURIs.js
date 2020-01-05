@@ -876,8 +876,6 @@ ioService
 newURI
 (
 kTestURI
-null
-null
 )
 ;
 /

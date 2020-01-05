@@ -191,8 +191,6 @@ google
 com
 /
 "
-null
-null
 )
 ;
 var

@@ -109,8 +109,6 @@ ios
 newURI
 (
 str
-null
-null
 )
 ;
 var
@@ -121,8 +119,6 @@ ios
 newURI
 (
 str
-null
-null
 )
 ;
 const
@@ -146,8 +142,6 @@ ios
 newURI
 (
 str2
-null
-null
 )
 ;
 do_check_true

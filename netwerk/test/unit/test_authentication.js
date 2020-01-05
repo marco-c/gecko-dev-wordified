@@ -1798,8 +1798,6 @@ ios
 newURI
 (
 loadingUrl
-null
-null
 )
 {
 }

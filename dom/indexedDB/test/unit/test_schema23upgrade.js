@@ -220,8 +220,6 @@ newURI
 params
 .
 url
-null
-null
 )
 ;
 let

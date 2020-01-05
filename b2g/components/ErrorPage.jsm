@@ -882,8 +882,6 @@ aMessage
 data
 .
 url
-null
-null
 )
 ;
 let

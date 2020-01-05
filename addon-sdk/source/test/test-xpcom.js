@@ -1061,8 +1061,6 @@ utf
 "
 +
 text
-null
-null
 )
 ;
 var
@@ -1198,8 +1196,6 @@ foo
 .
 com
 "
-null
-null
 )
 )
 Ci

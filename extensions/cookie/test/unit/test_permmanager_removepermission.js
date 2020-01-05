@@ -95,8 +95,6 @@ com
 /
 foobarbaz
 "
-null
-null
 )
 ;
 let
@@ -119,8 +117,6 @@ com
 /
 quxx
 "
-null
-null
 )
 ;
 pm

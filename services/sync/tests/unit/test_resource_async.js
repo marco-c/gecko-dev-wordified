@@ -5008,8 +5008,6 @@ newURI
 :
 :
 "
-null
-null
 )
 ;
 }

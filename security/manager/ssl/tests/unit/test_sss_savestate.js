@@ -942,8 +942,6 @@ mozilla
 .
 org
 "
-null
-null
 )
 Services
 .
@@ -962,8 +960,6 @@ example
 .
 com
 "
-null
-null
 )
 Services
 .
@@ -982,8 +978,6 @@ example
 .
 com
 "
-null
-null
 )
 Services
 .
@@ -1004,8 +998,6 @@ example
 .
 com
 "
-null
-null
 )
 Services
 .
@@ -1024,8 +1016,6 @@ example
 .
 com
 "
-null
-null
 )
 ]
 ;

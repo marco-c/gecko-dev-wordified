@@ -1324,8 +1324,6 @@ file_http_401_response
 .
 sjs
 "
-null
-null
 )
 ;
 /
@@ -1805,8 +1803,6 @@ file_http_401_response
 .
 sjs
 "
-null
-null
 )
 ;
 /

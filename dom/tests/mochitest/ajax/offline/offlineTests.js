@@ -1755,8 +1755,6 @@ window
 location
 .
 href
-null
-null
 )
 ;
 return

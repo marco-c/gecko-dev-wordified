@@ -376,8 +376,6 @@ google
 .
 com
 "
-null
-null
 )
 ;
 ok
@@ -419,8 +417,6 @@ google
 .
 com
 "
-null
-null
 )
 ;
 ok

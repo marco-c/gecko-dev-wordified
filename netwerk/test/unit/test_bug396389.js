@@ -215,8 +215,6 @@ file
 /
 /
 "
-null
-null
 )
 ;
 do_check_true
@@ -424,8 +422,6 @@ net
 ch
 /
 "
-null
-null
 )
 ;
 do_check_eq

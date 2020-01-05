@@ -84,8 +84,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -171,8 +169,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -259,8 +255,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -347,8 +341,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -432,8 +424,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -523,8 +513,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -642,8 +630,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -763,8 +749,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -884,8 +868,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1002,8 +984,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1119,8 +1099,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1225,8 +1203,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1333,8 +1309,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1441,8 +1415,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq
@@ -1546,8 +1518,6 @@ file
 .
 txt
 "
-null
-null
 )
 ;
 do_check_eq

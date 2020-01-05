@@ -872,8 +872,6 @@ example
 .
 com
 '
-null
-null
 )
 )
 ;
@@ -944,8 +942,6 @@ example
 .
 com
 '
-null
-null
 )
 )
 ;

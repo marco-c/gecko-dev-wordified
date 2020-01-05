@@ -1990,8 +1990,6 @@ nsIIOService
 newURI
 (
 aUrl
-null
-null
 )
 ;
 return

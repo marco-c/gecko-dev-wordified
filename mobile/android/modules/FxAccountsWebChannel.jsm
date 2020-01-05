@@ -1125,8 +1125,6 @@ newURI
 this
 .
 _contentUri
-null
-null
 )
 ;
 this

@@ -166,8 +166,6 @@ io
 newURI
 (
 systemManifestURL
-null
-null
 )
 ;
 let
@@ -437,8 +435,6 @@ newURI
 moduleInfo
 .
 uri
-null
-null
 )
 ;
 var

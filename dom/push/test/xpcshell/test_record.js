@@ -515,8 +515,6 @@ newURI
 props
 .
 scope
-null
-null
 )
 ;
 Services

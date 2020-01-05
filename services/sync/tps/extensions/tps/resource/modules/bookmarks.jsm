@@ -3301,8 +3301,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 PlacesUtils
@@ -3419,8 +3417,6 @@ this
 props
 .
 uri
-null
-null
 )
 ;
 PlacesUtils
@@ -3552,8 +3548,6 @@ this
 props
 .
 uri
-null
-null
 )
 ;
 this
@@ -4199,8 +4193,6 @@ this
 props
 .
 uri
-null
-null
 )
 ;
 let
@@ -5206,8 +5198,6 @@ this
 props
 .
 siteUri
-null
-null
 )
 ;
 let
@@ -5244,8 +5234,6 @@ this
 props
 .
 feedUri
-null
-null
 )
 index
 :
@@ -5571,8 +5559,6 @@ this
 props
 .
 feedUri
-null
-null
 )
 ;
 let
@@ -5673,8 +5659,6 @@ this
 props
 .
 siteUri
-null
-null
 )
 ;
 let

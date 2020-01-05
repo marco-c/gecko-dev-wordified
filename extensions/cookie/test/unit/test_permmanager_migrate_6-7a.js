@@ -2005,8 +2005,6 @@ other
 /
 subdirectory
 "
-null
-null
 )
 )
 ;
@@ -2042,8 +2040,6 @@ some
 /
 subdirectory
 "
-null
-null
 )
 )
 ;

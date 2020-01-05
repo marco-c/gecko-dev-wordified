@@ -179,7 +179,6 @@ window
 document
 .
 characterSet
-null
 )
 ;
 let

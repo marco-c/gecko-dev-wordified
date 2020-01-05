@@ -3915,8 +3915,6 @@ newURI
 reply
 .
 pushEndpoint
-null
-null
 )
 ;
 }

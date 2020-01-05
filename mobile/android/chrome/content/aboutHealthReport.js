@@ -509,8 +509,6 @@ io
 newURI
 (
 url
-null
-null
 )
 .
 QueryInterface

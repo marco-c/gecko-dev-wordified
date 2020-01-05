@@ -2072,8 +2072,6 @@ newURI
 this
 .
 scope
-null
-null
 )
 ;
 /

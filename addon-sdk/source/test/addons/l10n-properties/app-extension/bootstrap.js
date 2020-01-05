@@ -1031,8 +1031,6 @@ rootURI
 resources
 /
 '
-null
-null
 )
 ;
 resourceHandler
@@ -1726,8 +1724,6 @@ ioService
 newURI
 (
 fileURI
-null
-null
 )
 ;
 let

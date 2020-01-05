@@ -169,8 +169,6 @@ gIOS
 newURI
 (
 chromeURL
-null
-null
 )
 ;
 try
@@ -237,8 +235,6 @@ gIOS
 newURI
 (
 chromeURL
-null
-null
 )
 ;
 try
@@ -331,8 +327,6 @@ gIOS
 newURI
 (
 chromeURL
-null
-null
 )
 ;
 var

@@ -263,8 +263,6 @@ site2
 .
 com
 "
-null
-null
 )
 ;
 subject
@@ -436,8 +434,6 @@ site3
 com
 /
 "
-null
-null
 )
 ;
 /
@@ -645,8 +641,6 @@ site1
 .
 com
 "
-null
-null
 )
 ;
 chan

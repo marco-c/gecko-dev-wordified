@@ -4770,8 +4770,6 @@ io
 newURI
 (
 _url
-null
-null
 )
 ;
 let
@@ -5410,8 +5408,6 @@ newURI
 _options
 .
 referrer
-null
-null
 )
 ;
 let

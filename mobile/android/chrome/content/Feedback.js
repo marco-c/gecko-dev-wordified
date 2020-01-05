@@ -427,8 +427,6 @@ newURI
 this
 .
 _feedbackURL
-null
-null
 )
 ;
 return

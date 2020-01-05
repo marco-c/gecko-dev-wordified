@@ -12384,8 +12384,6 @@ io
 newURI
 (
 arg
-null
-null
 )
 ;
 principal
@@ -12458,8 +12456,6 @@ newURI
 arg
 .
 url
-null
-null
 )
 ;
 let

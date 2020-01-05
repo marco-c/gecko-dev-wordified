@@ -892,8 +892,6 @@ nsIIOService
 newURI
 (
 urlSpec
-null
-null
 )
 .
 QueryInterface

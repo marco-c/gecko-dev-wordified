@@ -271,8 +271,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 )
 .
@@ -328,8 +326,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 )
 ;

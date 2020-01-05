@@ -1092,8 +1092,6 @@ rootURI
 resources
 /
 '
-null
-null
 )
 ;
 setResourceSubstitution
@@ -1785,8 +1783,6 @@ ioService
 newURI
 (
 fileURI
-null
-null
 )
 ;
 let

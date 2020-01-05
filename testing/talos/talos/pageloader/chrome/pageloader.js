@@ -1040,8 +1040,6 @@ gIOS
 newURI
 (
 manifestURI
-null
-null
 )
 ;
 pages

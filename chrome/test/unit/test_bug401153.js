@@ -250,8 +250,6 @@ resource
 "
 +
 namespace
-null
-null
 )
 ;
 dump

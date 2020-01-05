@@ -73,8 +73,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 {
 appId

@@ -691,8 +691,6 @@ newURI
 moduleInfo
 .
 uri
-null
-null
 )
 ;
 var

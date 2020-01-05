@@ -1198,8 +1198,6 @@ https
 host
 .
 name
-null
-null
 )
 ;
 var

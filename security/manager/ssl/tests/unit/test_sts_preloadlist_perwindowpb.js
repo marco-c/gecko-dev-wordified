@@ -617,8 +617,6 @@ mozilla
 .
 org
 "
-null
-null
 )
 ;
 gSSService
@@ -859,8 +857,6 @@ torproject
 .
 org
 "
-null
-null
 )
 ;
 gSSService
@@ -952,8 +948,6 @@ mozilla
 .
 org
 "
-null
-null
 )
 ;
 gSSService
@@ -1521,8 +1515,6 @@ persona
 .
 org
 "
-null
-null
 )
 ;
 gSSService
@@ -1689,8 +1681,6 @@ mozilla
 .
 org
 "
-null
-null
 )
 ;
 gSSService
@@ -2062,8 +2052,6 @@ persona
 .
 org
 "
-null
-null
 )
 ;
 gSSService

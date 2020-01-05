@@ -3727,8 +3727,6 @@ newURI
 :
 :
 "
-null
-null
 )
 ;
 }

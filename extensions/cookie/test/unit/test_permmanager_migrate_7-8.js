@@ -1525,8 +1525,6 @@ other
 /
 subdirectory
 "
-null
-null
 )
 )
 ;
@@ -1562,8 +1560,6 @@ some
 /
 subdirectory
 "
-null
-null
 )
 )
 ;
@@ -1593,8 +1589,6 @@ ftp
 :
 8080
 "
-null
-null
 )
 )
 ;
@@ -1618,8 +1612,6 @@ localhost
 :
 8080
 "
-null
-null
 )
 )
 ;

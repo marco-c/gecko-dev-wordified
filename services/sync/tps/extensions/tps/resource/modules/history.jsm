@@ -804,8 +804,6 @@ newURI
 item
 .
 uri
-null
-null
 )
 ;
 let
@@ -1329,8 +1327,6 @@ newURI
 item
 .
 uri
-null
-null
 )
 ;
 PlacesUtils

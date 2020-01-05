@@ -1279,8 +1279,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 }
@@ -3515,8 +3513,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 let

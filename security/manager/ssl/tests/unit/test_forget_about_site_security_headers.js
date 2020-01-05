@@ -385,8 +385,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 /

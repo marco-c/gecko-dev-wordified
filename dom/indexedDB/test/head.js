@@ -542,8 +542,6 @@ nsIIOService
 newURI
 (
 url
-null
-null
 )
 ;
 let
@@ -654,8 +652,6 @@ nsIIOService
 newURI
 (
 url
-null
-null
 )
 ;
 let
@@ -767,8 +763,6 @@ nsIIOService
 newURI
 (
 url
-null
-null
 )
 ;
 let

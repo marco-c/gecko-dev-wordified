@@ -436,8 +436,6 @@ example
 org
 /
 "
-null
-null
 )
 ;
 const
@@ -461,8 +459,6 @@ org
 bar
 /
 "
-null
-null
 )
 ;
 const
@@ -486,8 +482,6 @@ org
 barbar
 /
 "
-null
-null
 )
 ;
 yield
@@ -620,8 +614,6 @@ http
 /
 localhost
 "
-null
-null
 )
 ;
 const
@@ -642,8 +634,6 @@ localhost
 /
 bar
 "
-null
-null
 )
 ;
 const
@@ -664,8 +654,6 @@ other
 .
 localhost
 "
-null
-null
 )
 ;
 const
@@ -688,8 +676,6 @@ localhost
 /
 bar
 "
-null
-null
 )
 ;
 yield
@@ -890,8 +876,6 @@ http
 "
 +
 base_host
-null
-null
 )
 ;
 const
@@ -917,8 +901,6 @@ subdomain_host
 foo
 /
 "
-null
-null
 )
 ;
 const
@@ -944,8 +926,6 @@ other_subdomain_host
 bar
 /
 "
-null
-null
 )
 ;
 const
@@ -971,8 +951,6 @@ another_subdomain_host
 bar
 /
 "
-null
-null
 )
 ;
 const
@@ -998,8 +976,6 @@ subdomain_host
 bar
 /
 "
-null
-null
 )
 ;
 const
@@ -1025,8 +1001,6 @@ other_subdomain_host
 foo
 /
 "
-null
-null
 )
 ;
 yield
@@ -1171,8 +1145,6 @@ http
 "
 +
 base_host
-null
-null
 )
 ;
 const
@@ -1192,8 +1164,6 @@ http
 "
 +
 subdomain_host
-null
-null
 )
 ;
 const
@@ -1213,8 +1183,6 @@ http
 "
 +
 other_subdomain_host
-null
-null
 )
 ;
 const
@@ -1240,8 +1208,6 @@ base_host
 foo
 /
 "
-null
-null
 )
 ;
 const
@@ -1267,8 +1233,6 @@ base_host
 bar
 /
 "
-null
-null
 )
 ;
 const

@@ -184,8 +184,6 @@ IOService
 newURI
 (
 uri
-null
-null
 )
 ;
 }

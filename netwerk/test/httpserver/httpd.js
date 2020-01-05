@@ -11268,8 +11268,6 @@ nsIIOService
 newURI
 (
 fullPath
-null
-null
 )
 ;
 fullPath

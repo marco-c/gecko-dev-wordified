@@ -151,8 +151,6 @@ a
 malformed
 URI
 "
-null
-null
 )
 ;
 }

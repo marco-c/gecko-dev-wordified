@@ -1783,8 +1783,6 @@ ios
 newURI
 (
 TEST_URI
-null
-null
 )
 ;
 let

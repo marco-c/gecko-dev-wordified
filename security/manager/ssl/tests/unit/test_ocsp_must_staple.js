@@ -315,8 +315,6 @@ example
 .
 com
 "
-null
-null
 )
 ;
 let
