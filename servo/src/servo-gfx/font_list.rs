@@ -182,6 +182,7 @@ fctx
 )
 }
 }
+pub
 type
 FontFamilyMap
 =
@@ -975,6 +976,7 @@ Bold
 Italic
 BoldItalic
 .
+pub
 struct
 FontEntry
 {
@@ -1007,6 +1009,7 @@ features
 etc
 .
 }
+pub
 impl
 FontEntry
 {

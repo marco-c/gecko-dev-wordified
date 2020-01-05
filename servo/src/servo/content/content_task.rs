@@ -397,6 +397,7 @@ SharedChan
 ControlMsg
 >
 ;
+pub
 fn
 ContentTask
 (
@@ -687,6 +688,7 @@ damage
 :
 Damage
 }
+pub
 fn
 Content
 (

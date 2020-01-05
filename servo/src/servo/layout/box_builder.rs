@@ -175,6 +175,7 @@ next_cid
 :
 int
 }
+pub
 impl
 LayoutTreeBuilder
 {

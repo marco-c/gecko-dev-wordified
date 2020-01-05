@@ -518,6 +518,7 @@ MatchSelectorsDamage
 }
 }
 }
+pub
 struct
 BuildData
 {
@@ -556,6 +557,7 @@ damage
 :
 Damage
 }
+pub
 fn
 LayoutTask
 (

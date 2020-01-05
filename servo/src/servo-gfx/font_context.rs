@@ -275,6 +275,7 @@ font_context
 :
 FreeTypeFontContextHandle
 ;
+pub
 trait
 FontContextHandleMethods
 {

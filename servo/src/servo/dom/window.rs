@@ -35,6 +35,7 @@ dvec
 :
 DVec
 ;
+pub
 enum
 TimerControlMsg
 {
@@ -61,6 +62,7 @@ the
 content
 task
 }
+pub
 struct
 Window
 {
@@ -378,6 +380,7 @@ argv
 ;
 }
 }
+pub
 fn
 Window
 (

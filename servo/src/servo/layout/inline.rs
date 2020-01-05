@@ -343,6 +343,7 @@ alternative
 .
 *
 /
+pub
 struct
 NodeRange
 {
@@ -353,6 +354,7 @@ range
 :
 Range
 }
+pub
 impl
 NodeRange
 {
@@ -4912,6 +4914,7 @@ box
 ;
 }
 }
+pub
 struct
 InlineFlowData
 {
@@ -5025,6 +5028,7 @@ elems
 :
 ElementMapping
 }
+pub
 fn
 InlineFlowData
 (

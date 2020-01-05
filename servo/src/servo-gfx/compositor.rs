@@ -18,6 +18,7 @@ rect
 :
 Rect
 ;
+pub
 struct
 LayerBuffer
 {
@@ -85,6 +86,7 @@ back
 /
 buffers
 .
+pub
 struct
 LayerBufferSet
 {
@@ -124,6 +126,7 @@ the
 display
 *
 /
+pub
 trait
 Compositor
 {

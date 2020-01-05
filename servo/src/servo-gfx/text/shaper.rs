@@ -52,6 +52,7 @@ shaper
 :
 HarfbuzzShaper
 ;
+pub
 trait
 ShaperMethods
 {
@@ -100,6 +101,7 @@ should
 be
 removed
 .
+pub
 impl
 Shaper
 {

@@ -383,6 +383,7 @@ of
 trait
 FontHandleMethods
 .
+pub
 impl
 FontHandle
 {
@@ -523,6 +524,7 @@ fixed
 int
 representation
 .
+pub
 type
 FractionalPixel
 =
@@ -674,6 +676,7 @@ font
 :
 FreeTypeFontTable
 ;
+pub
 trait
 FontTableMethods
 {
@@ -690,6 +693,7 @@ uint
 )
 ;
 }
+pub
 struct
 FontMetrics
 {
@@ -738,6 +742,7 @@ font
 -
 weight
 '
+pub
 enum
 CSSFontWeight
 {
@@ -1671,6 +1676,7 @@ text
 ;
 }
 }
+pub
 struct
 RunMetrics
 {
@@ -1808,6 +1814,7 @@ backend
 :
 BackendType
 }
+pub
 impl
 Font
 {
@@ -2684,6 +2691,9 @@ AzGlyphBuffer
 }
 ;
 use
+azure
+:
+:
 azure
 :
 :

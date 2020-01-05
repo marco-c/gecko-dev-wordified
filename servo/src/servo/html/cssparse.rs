@@ -95,6 +95,7 @@ sheet
 comes
 from
 .
+pub
 enum
 StylesheetProvenance
 {

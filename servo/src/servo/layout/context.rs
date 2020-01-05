@@ -58,6 +58,7 @@ context
 .
 *
 /
+pub
 struct
 LayoutContext
 {
