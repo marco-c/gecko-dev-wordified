@@ -703,6 +703,17 @@ URI
 )
 HTTP_ATOM
 (
+Strict_Transport_Security
+"
+Strict
+-
+Transport
+-
+Security
+"
+)
+HTTP_ATOM
+(
 TE
 "
 TE
