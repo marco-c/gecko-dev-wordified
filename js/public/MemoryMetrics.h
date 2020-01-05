@@ -2652,6 +2652,13 @@ macro
 (
 _
 MallocHeap
+atomsMarkBitmaps
+)
+\
+macro
+(
+_
+MallocHeap
 contexts
 )
 \

@@ -1147,6 +1147,9 @@ proto
 void
 initFromLookup
 (
+JSContext
+*
+cx
 HandleLookup
 lookup
 )

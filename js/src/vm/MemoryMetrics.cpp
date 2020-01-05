@@ -1990,6 +1990,13 @@ uniqueIdMap
 zStats
 .
 shapeTables
+&
+rtStats
+-
+>
+runtime
+.
+atomsMarkBitmaps
 )
 ;
 }

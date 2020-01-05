@@ -3003,6 +3003,12 @@ CHECK_REQUEST
 cx
 )
 ;
+assertSameCompartment
+(
+cx
+id
+)
+;
 RootedAtom
 atom
 (
