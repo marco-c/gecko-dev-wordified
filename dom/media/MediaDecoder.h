@@ -342,6 +342,12 @@ MediaEventType
 :
 int8_t
 ;
+enum
+class
+Visibility
+:
+uint8_t
+;
 /
 /
 GetCurrentTime
@@ -1253,8 +1259,8 @@ NotifyOwnerActivityChanged
 (
 bool
 aIsDocumentVisible
-bool
-aIsElementVisible
+Visibility
+aElementVisibility
 bool
 aIsElementInTree
 )
@@ -2568,8 +2574,8 @@ SetElementVisibility
 (
 bool
 aIsDocumentVisible
-bool
-aIsElementVisible
+Visibility
+aElementVisibility
 bool
 aIsElementInTree
 )
@@ -4680,8 +4686,8 @@ of
 owner
 element
 .
-bool
-mIsElementVisible
+Visibility
+mElementVisibility
 ;
 /
 /
