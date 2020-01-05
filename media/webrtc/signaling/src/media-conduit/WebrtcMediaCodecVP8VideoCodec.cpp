@@ -487,8 +487,12 @@ minimumSize
 }
 }
 void
-HandleInputExhausted
+HandleInput
 (
+jlong
+aTimestamp
+bool
+aProcessed
 )
 override
 {

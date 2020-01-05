@@ -15419,7 +15419,7 @@ CodecProxy
 NativeCallbacks
 :
 :
-OnInputExhausted_t
+OnInputStatus_t
 :
 :
 name
@@ -15434,7 +15434,7 @@ CodecProxy
 NativeCallbacks
 :
 :
-OnInputExhausted_t
+OnInputStatus_t
 :
 :
 signature

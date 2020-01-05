@@ -272,7 +272,16 @@ ProcessShutdown
 )
 ;
 void
-Output
+UpdateInputStatus
+(
+int64_t
+aTimestamp
+bool
+aProcessed
+)
+;
+void
+UpdateOutputStatus
 (
 MediaData
 *
@@ -409,6 +418,9 @@ DRAINED
 ;
 DecodedData
 mDecodedData
+;
+size_t
+mNumPendingInputs
 ;
 }
 ;
