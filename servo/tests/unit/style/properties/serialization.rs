@@ -7248,7 +7248,6 @@ position
 :
 {
 HorizontalPosition
-Position
 VerticalPosition
 }
 ;
