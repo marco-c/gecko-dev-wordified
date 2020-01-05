@@ -356,6 +356,13 @@ window
 .
 #
 [
+allow
+(
+raw_pointer_derive
+)
+]
+#
+[
 derive
 (
 Clone
