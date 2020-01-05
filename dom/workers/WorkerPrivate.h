@@ -722,12 +722,6 @@ mozilla
 CondVar
 mCondVar
 ;
-mozilla
-:
-:
-CondVar
-mMemoryReportCondVar
-;
 /
 /
 Protected
@@ -3611,12 +3605,6 @@ bool
 mPendingEventQueueClearing
 ;
 bool
-mMemoryReporterRunning
-;
-bool
-mBlockedForMemoryReporter
-;
-bool
 mCancelAllPendingRunnables
 ;
 bool
@@ -4340,7 +4328,7 @@ aRanOrNot
 )
 ;
 bool
-BlockAndCollectRuntimeStats
+CollectRuntimeStats
 (
 JS
 :
