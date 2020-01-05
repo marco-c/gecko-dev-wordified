@@ -4789,7 +4789,7 @@ obj
 =
 objects_
 .
-find
+findPreserveColor
 (
 objId
 )
