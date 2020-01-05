@@ -1899,14 +1899,12 @@ PrivateNodeHelpers
 fn
 node_inserted
 (
-&
 self
 )
 ;
 fn
 node_removed
 (
-&
 self
 parent_in_doc
 :
@@ -1916,7 +1914,6 @@ bool
 fn
 add_child
 (
-&
 self
 new_child
 :
@@ -1938,7 +1935,6 @@ Node
 fn
 remove_child
 (
-&
 self
 child
 :
@@ -1986,7 +1982,6 @@ inserted
 fn
 node_inserted
 (
-&
 self
 )
 {
@@ -2009,7 +2004,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 .
@@ -2076,7 +2070,6 @@ parent
 .
 child_inserted
 (
-*
 self
 )
 )
@@ -2115,7 +2108,6 @@ removed
 fn
 node_removed
 (
-&
 self
 parent_in_doc
 :
@@ -2141,7 +2133,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 .
@@ -2226,7 +2217,6 @@ tree
 fn
 add_child
 (
-&
 self
 new_child
 :
@@ -2341,7 +2331,6 @@ root_ref
 =
 Some
 (
-*
 self
 )
 )
@@ -2558,7 +2547,6 @@ assign
 (
 Some
 (
-*
 self
 )
 )
@@ -2599,7 +2587,6 @@ node
 fn
 remove_child
 (
-&
 self
 child
 :
@@ -2652,7 +2639,6 @@ root_ref
 =
 Some
 (
-*
 self
 )
 )
