@@ -27396,10 +27396,12 @@ mOuterRect
 :
 "
 )
+;
 PrintAsString
 (
 mOuterRect
 )
+;
 PrintAsStringNewline
 (
 )
@@ -27411,10 +27413,12 @@ mInnerRect
 :
 "
 )
+;
 PrintAsString
 (
 mInnerRect
 )
+;
 PrintAsStringNewline
 (
 )
