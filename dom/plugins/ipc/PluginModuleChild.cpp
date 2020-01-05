@@ -296,17 +296,6 @@ include
 "
 mozilla
 /
-dom
-/
-CrashReporterChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
