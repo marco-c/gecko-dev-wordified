@@ -838,6 +838,17 @@ host_triple
 (
 )
         
+#
+FIXME
+(
+#
+3582
+)
+:
+use
+https
+.
+        
 nightly_url
 =
 "
@@ -856,6 +867,12 @@ org
 cargo
 -
 dist
+/
+2014
+-
+10
+-
+02
 /
 %
 s
