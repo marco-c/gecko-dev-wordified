@@ -1,8 +1,5 @@
 /
 *
-<
-copyright
->
 This
 file
 is
@@ -38,7 +35,7 @@ c
 )
 2005
 -
-2014
+2012
 Intel
 Corporation
 .
@@ -216,7 +213,7 @@ c
 )
 2005
 -
-2014
+2012
 Intel
 Corporation
 .
@@ -459,10 +456,6 @@ OF
 SUCH
 DAMAGE
 .
-<
-/
-copyright
->
 *
 /
 #
