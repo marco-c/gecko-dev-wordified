@@ -1893,8 +1893,11 @@ constructor
 handle
 (
 )
+b
 "
 prototype
+\
+0
 "
 .
 as_ptr
