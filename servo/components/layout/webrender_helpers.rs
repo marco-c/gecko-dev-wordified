@@ -2045,6 +2045,7 @@ actual_pt_size
 item
 .
 blur_radius
+None
 )
 ;
 }

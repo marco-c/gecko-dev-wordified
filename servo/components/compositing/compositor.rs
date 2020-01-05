@@ -4613,6 +4613,14 @@ pipeline_id
 ;
 self
 .
+webrender_api
+.
+generate_frame
+(
+)
+;
+self
+.
 create_pipeline_details_for_frame_tree
 (
 &
