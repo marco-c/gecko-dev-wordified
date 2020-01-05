@@ -31315,6 +31315,7 @@ aWM
 boxSizingToMarginEdgeISize
 *
 inlineStyleCoord
+aFlags
 )
 ;
 }
@@ -31413,6 +31414,7 @@ aWM
 )
 boxSizingToMarginEdgeISize
 maxISizeCoord
+aFlags
 )
 ;
 result
@@ -31493,6 +31495,7 @@ aWM
 )
 boxSizingToMarginEdgeISize
 minISizeCoord
+aFlags
 )
 ;
 }
@@ -33503,6 +33506,7 @@ aWM
 boxSizingToMarginEdgeISize
 *
 inlineStyleCoord
+aFlags
 )
 ;
 }
@@ -33772,6 +33776,7 @@ aWM
 )
 boxSizingToMarginEdgeISize
 maxISizeCoord
+aFlags
 )
 ;
 }
@@ -33874,6 +33879,7 @@ aWM
 )
 boxSizingToMarginEdgeISize
 minISizeCoord
+aFlags
 )
 ;
 }
@@ -35975,6 +35981,8 @@ const
 nsStyleCoord
 &
 aCoord
+ComputeSizeFlags
+aFlags
 )
 {
 NS_PRECONDITION
