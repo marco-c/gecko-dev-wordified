@@ -437,7 +437,6 @@ bluetooth_thread
 (
 )
 }
-pub
 fn
 get_instance_id
 (
