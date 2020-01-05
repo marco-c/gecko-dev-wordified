@@ -4741,6 +4741,7 @@ connectToContent
 (
 connection
 mm
+onDestroy
 )
 {
 let
@@ -5066,6 +5067,17 @@ Nothing
 to
 do
 }
+}
+if
+(
+onDestroy
+)
+{
+onDestroy
+(
+mm
+)
+;
 }
 }
 let
