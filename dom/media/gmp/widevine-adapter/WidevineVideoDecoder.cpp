@@ -779,6 +779,14 @@ Size
 ;
 if
 (
+aInputFrame
+-
+>
+Size
+(
+)
+&
+&
 !
 raw
 -
