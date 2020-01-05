@@ -683,7 +683,7 @@ CONSOLE_API
 s
 =
 >
-println
+debug
 !
 (
 "

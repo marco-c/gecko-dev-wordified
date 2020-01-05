@@ -666,7 +666,7 @@ actor
 String
 )
 {
-println
+debug
 !
 (
 "
@@ -813,7 +813,7 @@ borrow
 (
 )
 {
-println
+debug
 !
 (
 "
@@ -1256,7 +1256,7 @@ to
 None
 =
 >
-println
+debug
 !
 (
 "
@@ -1326,7 +1326,7 @@ ActorMessageStatus
 :
 Processed
 {
-println
+debug
 !
 (
 "
