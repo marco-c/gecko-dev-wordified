@@ -1937,10 +1937,6 @@ CalculateBounds
 (
 styleBorder
 )
-.
-GetBounds
-(
-)
 ;
 nsMargin
 overflow
