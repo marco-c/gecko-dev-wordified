@@ -79,6 +79,10 @@ Color
 =
 AzColor
 ;
+#
+[
+inline
+]
 pub
 fn
 rgb
@@ -153,6 +157,10 @@ as
 AzFloat
 }
 }
+#
+[
+inline
+]
 pub
 fn
 rgba
