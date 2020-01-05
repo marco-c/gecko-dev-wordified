@@ -325,6 +325,15 @@ include
 "
 wasm
 /
+WasmCompile
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGenerator
 .
 h
@@ -10327,11 +10336,11 @@ return
 false
 ;
 auto
-genData
+env
 =
 MakeUnique
 <
-ModuleGeneratorData
+ModuleEnvironment
 >
 (
 ModuleKind
@@ -10343,11 +10352,11 @@ AsmJS
 if
 (
 !
-genData
+env
 |
 |
 !
-genData
+env
 -
 >
 sigs
@@ -10359,7 +10368,7 @@ MaxSigs
 |
 |
 !
-genData
+env
 -
 >
 funcSigs
@@ -10371,7 +10380,7 @@ MaxFuncs
 |
 |
 !
-genData
+env
 -
 >
 funcImportGlobalDataOffsets
@@ -10383,7 +10392,7 @@ AsmJSMaxImports
 |
 |
 !
-genData
+env
 -
 >
 tables
@@ -10395,7 +10404,7 @@ MaxTables
 |
 |
 !
-genData
+env
 -
 >
 asmJSSigToTableIndex
@@ -10410,7 +10419,7 @@ return
 false
 ;
 }
-genData
+env
 -
 >
 minMemoryLength
@@ -10429,7 +10438,7 @@ init
 (
 Move
 (
-genData
+env
 )
 args
 asmJSMetadata_

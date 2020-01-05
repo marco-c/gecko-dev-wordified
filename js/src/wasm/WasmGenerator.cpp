@@ -223,6 +223,15 @@ include
 "
 wasm
 /
+WasmCompile
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmIonCompile
 .
 h
@@ -672,7 +681,7 @@ ModuleGenerator
 :
 init
 (
-UniqueModuleGeneratorData
+UniqueModuleEnvironment
 shared
 const
 CompileArgs
@@ -866,7 +875,7 @@ js
 the
 Vectors
 in
-ModuleGeneratorData
+ModuleEnvironment
 are
 max
 -
@@ -7274,7 +7283,7 @@ over
 data
 from
 the
-ModuleGeneratorData
+ModuleEnvironment
 .
 metadata_
 -

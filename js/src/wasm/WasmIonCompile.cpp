@@ -972,9 +972,9 @@ SystemAllocPolicy
 CallCompileStateVector
 ;
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg_
+env_
 ;
 IonOpIter
 iter_
@@ -1055,9 +1055,9 @@ public
 FunctionCompiler
 (
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg
+env
 Decoder
 &
 decoder
@@ -1077,9 +1077,9 @@ FuncCompileResults
 compileResults
 )
 :
-mg_
+env_
 (
-mg
+env
 )
 iter_
 (
@@ -1161,15 +1161,15 @@ nullptr
 {
 }
 const
-ModuleGeneratorData
+ModuleEnvironment
 &
-mg
+env
 (
 )
 const
 {
 return
-mg_
+env_
 ;
 }
 IonOpIter
@@ -1248,7 +1248,7 @@ trapIfNotAsmJS
 const
 {
 return
-mg_
+env_
 .
 isAsmJS
 (
@@ -2654,17 +2654,14 @@ type
 )
 &
 &
-mg
+!
+env
 (
 )
 .
-kind
-=
-=
-ModuleKind
-:
-:
-Wasm
+isAsmJS
+(
+)
 ;
 }
 MDefinition
@@ -4041,7 +4038,7 @@ bool
 trapOnError
 =
 !
-mg
+env
 (
 )
 .
@@ -4116,7 +4113,7 @@ bool
 trapOnError
 =
 !
-mg
+env
 (
 )
 .
@@ -6589,7 +6586,7 @@ SigWithId
 &
 sig
 =
-mg_
+env_
 .
 sigs
 [
@@ -6601,7 +6598,7 @@ callee
 ;
 if
 (
-mg_
+env_
 .
 isAsmJS
 (
@@ -6633,11 +6630,11 @@ TableDesc
 &
 table
 =
-mg_
+env_
 .
 tables
 [
-mg_
+env_
 .
 asmJSSigToTableIndex
 [
@@ -6777,7 +6774,7 @@ None
 ;
 MOZ_ASSERT
 (
-mg_
+env_
 .
 tables
 .
@@ -6794,7 +6791,7 @@ TableDesc
 &
 table
 =
-mg_
+env_
 .
 tables
 [
@@ -11809,7 +11806,7 @@ sig
 *
 f
 .
-mg
+env
 (
 )
 .
@@ -11823,7 +11820,7 @@ import
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -11899,7 +11896,7 @@ globalDataOffset
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -12071,7 +12068,7 @@ sig
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -12086,7 +12083,7 @@ tls
 !
 f
 .
-mg
+env
 (
 )
 .
@@ -12097,7 +12094,7 @@ isAsmJS
 &
 f
 .
-mg
+env
 (
 )
 .
@@ -12421,7 +12418,7 @@ readGetGlobal
 (
 f
 .
-mg
+env
 (
 )
 .
@@ -12440,7 +12437,7 @@ global
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -12791,7 +12788,7 @@ readSetGlobal
 (
 f
 .
-mg
+env
 (
 )
 .
@@ -12812,7 +12809,7 @@ global
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -12875,7 +12872,7 @@ readTeeGlobal
 (
 f
 .
-mg
+env
 (
 )
 .
@@ -12896,7 +12893,7 @@ global
 =
 f
 .
-mg
+env
 (
 )
 .
@@ -13244,7 +13241,7 @@ if
 (
 f
 .
-mg
+env
 (
 )
 .
@@ -13311,7 +13308,7 @@ MOZ_ASSERT
 !
 f
 .
-mg
+env
 (
 )
 .
@@ -24650,7 +24647,7 @@ d
 task
 -
 >
-mg
+env
 (
 )
 .
@@ -24739,7 +24736,7 @@ initMinWasmHeapLength
 task
 -
 >
-mg
+env
 (
 )
 .
@@ -24775,7 +24772,7 @@ f
 task
 -
 >
-mg
+env
 (
 )
 d
@@ -24997,7 +24994,7 @@ sigId
 task
 -
 >
-mg
+env
 (
 )
 .
