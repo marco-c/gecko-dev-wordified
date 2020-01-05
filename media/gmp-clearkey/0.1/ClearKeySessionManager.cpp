@@ -805,6 +805,9 @@ message
 )
 )
 ;
+delete
+session
+;
 return
 ;
 }
