@@ -201,6 +201,13 @@ mozilla
 namespace
 layers
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 WebRenderBridgeChild
 :
 :
