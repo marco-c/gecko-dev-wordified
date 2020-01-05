@@ -277,7 +277,7 @@ true
 /
 Uniforms
 void
-WebGL2Context
+WebGLContext
 :
 :
 Uniform1ui
@@ -322,7 +322,7 @@ v0
 ;
 }
 void
-WebGL2Context
+WebGLContext
 :
 :
 Uniform2ui
@@ -370,7 +370,7 @@ v1
 ;
 }
 void
-WebGL2Context
+WebGLContext
 :
 :
 Uniform3ui
@@ -421,7 +421,7 @@ v2
 ;
 }
 void
-WebGL2Context
+WebGLContext
 :
 :
 Uniform4ui
