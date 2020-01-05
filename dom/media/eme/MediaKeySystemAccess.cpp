@@ -2427,6 +2427,16 @@ MediaKeySessionType
 Temporary
 )
 ;
+if
+(
+MediaPrefs
+:
+:
+ClearKeyPersistentLicenseEnabled
+(
+)
+)
+{
 clearkey
 .
 mSessionTypes
@@ -2439,6 +2449,7 @@ MediaKeySessionType
 Persistent_license
 )
 ;
+}
 #
 if
 defined
