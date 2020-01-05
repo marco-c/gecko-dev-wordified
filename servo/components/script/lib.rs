@@ -579,6 +579,9 @@ pub
 mod
 fetch
 ;
+mod
+layout_image
+;
 pub
 mod
 layout_wrapper

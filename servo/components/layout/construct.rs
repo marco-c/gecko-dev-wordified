@@ -2533,6 +2533,7 @@ node
 image_url
 (
 )
+node
 &
 self
 .
@@ -2577,6 +2578,7 @@ node
 object_data
 (
 )
+node
 &
 self
 .
@@ -8890,6 +8892,7 @@ clone
 (
 )
 )
+node
 &
 self
 .

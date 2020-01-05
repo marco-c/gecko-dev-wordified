@@ -1198,6 +1198,7 @@ Response
 [
 derive
 (
+Clone
 Serialize
 Deserialize
 )
@@ -1221,6 +1222,7 @@ OpaqueRedirect
 [
 derive
 (
+Clone
 Serialize
 Deserialize
 )
