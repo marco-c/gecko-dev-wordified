@@ -1271,6 +1271,7 @@ if
 let
 Ok
 (
+mut
 url
 )
 =
@@ -1291,6 +1292,12 @@ i
 )
 )
 {
+url
+.
+build_image_value
+(
+)
+;
 content
 .
 push
