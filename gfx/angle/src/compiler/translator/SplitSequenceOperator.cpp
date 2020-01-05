@@ -185,11 +185,11 @@ node
 override
 ;
 bool
-visitTernary
+visitSelection
 (
 Visit
 visit
-TIntermTernary
+TIntermSelection
 *
 node
 )
@@ -635,11 +635,11 @@ bool
 SplitSequenceOperatorTraverser
 :
 :
-visitTernary
+visitSelection
 (
 Visit
 visit
-TIntermTernary
+TIntermSelection
 *
 node
 )

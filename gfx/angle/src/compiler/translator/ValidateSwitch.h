@@ -152,15 +152,6 @@ TIntermUnary
 override
 ;
 bool
-visitTernary
-(
-Visit
-TIntermTernary
-*
-)
-override
-;
-bool
 visitSelection
 (
 Visit

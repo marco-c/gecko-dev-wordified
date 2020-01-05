@@ -2495,9 +2495,7 @@ SupportsPrecision
 (
 type
 .
-getBasicType
-(
-)
+type
 )
 )
 return
@@ -2507,9 +2505,7 @@ if
 (
 type
 .
-getBasicType
-(
-)
+type
 =
 =
 EbtUInt
@@ -2589,9 +2585,7 @@ indexOfLastElement
 [
 type
 .
-getBasicType
-(
-)
+type
 ]
 =
 prec

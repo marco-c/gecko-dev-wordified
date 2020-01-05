@@ -243,7 +243,7 @@ gl
 :
 :
 Error
-MarkAttachmentsDirty
+InvalidateAttachmentSwizzles
 (
 const
 gl
@@ -339,7 +339,7 @@ texStorage11
 texStorage11
 -
 >
-markLevelDirty
+invalidateSwizzleCacheLevel
 (
 attachment
 -
@@ -556,7 +556,7 @@ Error
 Framebuffer11
 :
 :
-markAttachmentsDirty
+invalidateSwizzles
 (
 )
 const
@@ -586,7 +586,7 @@ isAttached
 {
 ANGLE_TRY
 (
-MarkAttachmentsDirty
+InvalidateAttachmentSwizzles
 (
 &
 colorAttachment
@@ -597,7 +597,7 @@ colorAttachment
 }
 ANGLE_TRY
 (
-MarkAttachmentsDirty
+InvalidateAttachmentSwizzles
 (
 mState
 .
@@ -609,7 +609,7 @@ getDepthAttachment
 ;
 ANGLE_TRY
 (
-MarkAttachmentsDirty
+InvalidateAttachmentSwizzles
 (
 mState
 .
@@ -799,7 +799,7 @@ mState
 }
 ANGLE_TRY
 (
-markAttachmentsDirty
+invalidateSwizzles
 (
 )
 )
@@ -2129,7 +2129,7 @@ blitStencil
 }
 ANGLE_TRY
 (
-markAttachmentsDirty
+invalidateSwizzles
 (
 )
 )

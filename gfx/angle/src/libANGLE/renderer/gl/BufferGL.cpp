@@ -354,12 +354,6 @@ BufferGL
 :
 setData
 (
-GLenum
-/
-*
-target
-*
-/
 const
 void
 *
@@ -475,12 +469,6 @@ BufferGL
 :
 setSubData
 (
-GLenum
-/
-*
-target
-*
-/
 const
 void
 *

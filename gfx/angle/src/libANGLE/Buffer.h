@@ -216,8 +216,6 @@ override
 Error
 bufferData
 (
-GLenum
-target
 const
 void
 *
@@ -231,8 +229,6 @@ usage
 Error
 bufferSubData
 (
-GLenum
-target
 const
 void
 *

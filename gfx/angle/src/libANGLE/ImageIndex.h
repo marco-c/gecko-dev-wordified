@@ -359,11 +359,6 @@ maxLayer
 )
 const
 ;
-void
-done
-(
-)
-;
 GLenum
 mType
 ;

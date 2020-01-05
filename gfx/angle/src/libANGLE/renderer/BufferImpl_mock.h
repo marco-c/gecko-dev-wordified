@@ -102,7 +102,7 @@ destructor
 )
 ;
 }
-MOCK_METHOD4
+MOCK_METHOD3
 (
 setData
 gl
@@ -110,7 +110,6 @@ gl
 :
 Error
 (
-GLenum
 const
 void
 *
@@ -119,7 +118,7 @@ GLenum
 )
 )
 ;
-MOCK_METHOD4
+MOCK_METHOD3
 (
 setSubData
 gl
@@ -127,7 +126,6 @@ gl
 :
 Error
 (
-GLenum
 const
 void
 *

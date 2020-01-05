@@ -112,7 +112,7 @@ additional
 ShCompile
 options
 .
-ShCompileOptions
+int
 prepareSourceAndReturnOptions
 (
 std

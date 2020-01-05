@@ -1408,7 +1408,7 @@ shaderStrings
 ]
 size_t
 numStrings
-ShCompileOptions
+int
 compileOptions
 )
 {

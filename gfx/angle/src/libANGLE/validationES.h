@@ -217,7 +217,7 @@ bool
 ValidBufferTarget
 (
 const
-ValidationContext
+Context
 *
 context
 GLenum
