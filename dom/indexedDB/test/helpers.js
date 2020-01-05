@@ -330,6 +330,7 @@ next
 )
 ;
 function
+*
 testHarnessSteps
 (
 )
