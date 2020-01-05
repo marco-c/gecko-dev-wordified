@@ -525,7 +525,7 @@ element
 :
 :
 {
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 HTMLImageElementTypeId
 HTMLObjectElementTypeId
 }
@@ -2120,7 +2120,7 @@ image_url
 )
 ElementNodeTypeId
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 )
 =
 >

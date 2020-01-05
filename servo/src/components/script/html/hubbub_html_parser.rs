@@ -133,7 +133,7 @@ element
 :
 {
 HTMLLinkElementTypeId
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 }
 ;
 use
@@ -2841,7 +2841,7 @@ _
 }
 ElementNodeTypeId
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 )
 =
 >

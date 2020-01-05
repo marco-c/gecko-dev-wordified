@@ -126,7 +126,7 @@ dom
 element
 :
 :
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 ;
 use
 dom
@@ -337,7 +337,7 @@ NodeTargetTypeId
 (
 ElementNodeTypeId
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 )
 )
 =
@@ -421,7 +421,7 @@ HTMLElement
 :
 new_inherited
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 localName
 document
 )

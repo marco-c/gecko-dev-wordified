@@ -562,7 +562,7 @@ HTMLHRElementTypeId
 HTMLHeadElementTypeId
 HTMLHeadingElementTypeId
 HTMLHtmlElementTypeId
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 HTMLImageElementTypeId
 HTMLInputElementTypeId
 HTMLLabelElementTypeId
@@ -1583,7 +1583,7 @@ clone
 }
 ElementNodeTypeId
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 )
 =
 >
@@ -2050,7 +2050,7 @@ clone
 }
 ElementNodeTypeId
 (
-HTMLIframeElementTypeId
+HTMLIFrameElementTypeId
 )
 =
 >
