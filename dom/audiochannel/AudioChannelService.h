@@ -452,6 +452,12 @@ IsEnableAudioCompeting
 (
 )
 ;
+static
+bool
+IsServiceStarted
+(
+)
+;
 /
 *
 *
