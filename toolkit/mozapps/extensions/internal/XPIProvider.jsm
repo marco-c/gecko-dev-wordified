@@ -28076,9 +28076,7 @@ file
 "
 startup
 "
-BOOTSTRAP_REASONS
-.
-ADDON_INSTALL
+installReason
 )
 ;
 AddonManagerPrivate
