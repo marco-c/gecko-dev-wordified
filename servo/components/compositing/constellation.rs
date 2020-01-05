@@ -1439,7 +1439,7 @@ Sender
 webdriver_msg
 :
 :
-LoadComplete
+LoadStatus
 >
 )
 >
@@ -5146,6 +5146,9 @@ expected_pipeline_id
 =
 pipeline_id
 {
+let
+_
+=
 reply_chan
 .
 send
@@ -5153,11 +5156,10 @@ send
 webdriver_msg
 :
 :
+LoadStatus
+:
+:
 LoadComplete
-)
-.
-unwrap
-(
 )
 ;
 webdriver_reset

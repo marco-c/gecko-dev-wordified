@@ -349,6 +349,9 @@ to_json
 }
 }
 pub
-struct
+enum
+LoadStatus
+{
 LoadComplete
-;
+LoadTimeout
+}
