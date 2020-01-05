@@ -966,19 +966,19 @@ if
 nal_unit_type
 =
 =
-14
+H264_NAL_PREFIX
 |
 |
 nal_unit_type
 =
 =
-20
+H264_NAL_SLICE_EXT
 |
 |
 nal_unit_type
 =
 =
-21
+H264_NAL_SLICE_EXT_DVC
 )
 {
 bool
@@ -996,7 +996,7 @@ if
 nal_unit_type
 !
 =
-21
+H264_NAL_SLICE_EXT_DVC
 )
 {
 svc_extension_flag
@@ -3727,7 +3727,7 @@ PeekU8
 )
 !
 =
-7
+H264_NAL_SPS
 )
 {
 /
@@ -4125,7 +4125,7 @@ PeekU8
 )
 !
 =
-7
+H264_NAL_SPS
 )
 {
 /
@@ -4241,7 +4241,7 @@ PeekU8
 )
 !
 =
-8
+H264_NAL_PPS
 )
 {
 /
@@ -5687,7 +5687,7 @@ p
 )
 =
 =
-5
+H264_NAL_IDR_SLICE
 )
 {
 /
