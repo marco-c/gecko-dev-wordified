@@ -4402,7 +4402,7 @@ endif
 if
 defined
 (
-ENABLE_SPS_LEAF_DATA
+ENABLE_LEAF_DATA
 )
 /
 /

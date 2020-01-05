@@ -88,7 +88,7 @@ starting
 on
 an
 empty
-SPS
+profiler
 stack
 .
 /

@@ -581,7 +581,7 @@ __thumb__
 )
 #
 define
-ENABLE_SPS_LEAF_DATA
+ENABLE_LEAF_DATA
 #
 define
 ENABLE_ARM_LR_SAVING
@@ -753,7 +753,7 @@ XP_LINUX
 )
 #
 define
-ENABLE_SPS_LEAF_DATA
+ENABLE_LEAF_DATA
 #
 endif
 typedef

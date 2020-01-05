@@ -142,7 +142,7 @@ if
 the
 /
 /
-SPS
+profiler
 stack
 was
 misbalanced
