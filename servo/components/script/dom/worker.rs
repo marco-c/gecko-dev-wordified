@@ -1096,10 +1096,8 @@ global
 r
 (
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 error
@@ -1207,10 +1205,8 @@ global
 r
 (
 )
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 error

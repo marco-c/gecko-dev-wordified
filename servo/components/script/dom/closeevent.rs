@@ -187,6 +187,12 @@ script_task
 ScriptChan
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -267,7 +273,7 @@ global
 GlobalRef
 type_
 :
-DOMString
+Atom
 bubbles
 :
 EventBubbles
@@ -335,7 +341,7 @@ Event
 ;
 event
 .
-InitEvent
+init_event
 (
 type_
 bubbles
@@ -439,7 +445,15 @@ CloseEvent
 new
 (
 global
+Atom
+:
+:
+from
+(
+&
+*
 type_
+)
 bubbles
 cancelable
 init

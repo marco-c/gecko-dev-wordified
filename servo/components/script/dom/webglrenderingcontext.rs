@@ -974,10 +974,8 @@ WebGLContextEvent
 new
 (
 global
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 webglcontextcreationerror
