@@ -1174,11 +1174,6 @@ column
 fn
 from_dom_exception
 (
-cx
-:
-*
-mut
-JSContext
 object
 :
 HandleObject
@@ -1467,7 +1462,6 @@ ErrorInfo
 :
 from_dom_exception
 (
-cx
 object
 .
 handle
