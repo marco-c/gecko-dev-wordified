@@ -3051,11 +3051,10 @@ r
 )
     
 new_content
-count
 =
 template_regexp
 .
-subn
+sub
 (
 config_replacement
 content

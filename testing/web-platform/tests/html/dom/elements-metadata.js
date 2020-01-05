@@ -212,11 +212,6 @@ type
 "
 string
 "
-scoped
-:
-"
-boolean
-"
 }
 }
 ;

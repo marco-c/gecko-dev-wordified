@@ -36,7 +36,7 @@ string
 ping
 :
 "
-urls
+string
 "
 rel
 :

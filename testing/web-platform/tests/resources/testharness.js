@@ -3434,14 +3434,6 @@ queue
 make
 one
 .
-test
-.
-step
-(
-function
-(
-)
-{
 if
 (
 !
@@ -3461,9 +3453,6 @@ resolve
 )
 ;
 }
-}
-)
-;
 tests
 .
 promise_tests

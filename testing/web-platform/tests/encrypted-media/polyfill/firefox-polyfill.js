@@ -196,3 +196,4 @@ supported_configurations
 (
 )
 )
+;

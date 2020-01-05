@@ -1099,6 +1099,26 @@ filename
 )
 :
                     
+if
+filename
+[
+-
+1
+]
+!
+=
+'
+/
+'
+:
+                        
+filename
++
+=
+'
+/
+'
+                    
 rv
 .
 update

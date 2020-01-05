@@ -22,14 +22,6 @@ table
 {
 /
 /
-Conforming
-sortable
-:
-"
-boolean
-"
-/
-/
 Obsolete
 align
 :

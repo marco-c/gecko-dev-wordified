@@ -5,8 +5,6 @@ errno
 import
 os
 import
-re
-import
 socket
 from
 SocketServer
@@ -26,28 +24,35 @@ import
 types
 import
 urlparse
+from
+.
 import
 routes
 as
 default_routes
 from
+.
 logger
 import
 get_logger
 from
+.
 request
 import
 Server
 Request
 from
+.
 response
 import
 Response
 from
+.
 router
 import
 Router
 from
+.
 utils
 import
 HTTPException
@@ -1220,7 +1225,12 @@ error
 =
 sys
 .
-exc_value
+exc_info
+(
+)
+[
+1
+]
         
 if
 (
@@ -1254,7 +1264,6 @@ self
 .
 acceptable_errors
 )
-            
 or
             
 (
@@ -1937,6 +1946,7 @@ except
 socket
 .
 timeout
+as
 e
 :
             
@@ -2882,7 +2892,6 @@ md
 .
 '
 )
-;
             
 raise
     

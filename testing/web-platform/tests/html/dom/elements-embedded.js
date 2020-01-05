@@ -195,11 +195,6 @@ sandbox
 settable
 tokenlist
 "
-seamless
-:
-"
-boolean
-"
 allowFullscreen
 :
 "
@@ -888,7 +883,7 @@ string
 ping
 :
 "
-urls
+string
 "
 rel
 :
@@ -909,16 +904,6 @@ domAttrName
 rel
 "
 }
-hreflang
-:
-"
-string
-"
-type
-:
-"
-string
-"
 /
 /
 HTMLHyperlinkElementUtils

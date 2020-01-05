@@ -50,10 +50,8 @@ js
 importScripts
 (
 "
-.
-.
 /
-resources
+common
 /
 get
 -
@@ -189,6 +187,7 @@ function
 test
 )
 {
+return
 fetch
 (
 RESOURCES_DIR

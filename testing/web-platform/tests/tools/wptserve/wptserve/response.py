@@ -18,10 +18,12 @@ uuid
 import
 socket
 from
+.
 constants
 import
 response_codes
 from
+.
 logger
 import
 get_logger
@@ -2474,7 +2476,7 @@ items_iter
             
 self
 .
-set
+append
 (
 name
 value
