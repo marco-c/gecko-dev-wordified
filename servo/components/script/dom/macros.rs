@@ -1838,6 +1838,14 @@ GetOnchange
 SetOnchange
 )
 ;
+event_handler
+!
+(
+submit
+GetOnsubmit
+SetOnsubmit
+)
+;
 )
 )
 ;
