@@ -2101,6 +2101,17 @@ Normal
 vendor_prefix
 :
 None
+source_location
+:
+SourceLocation
+{
+line
+:
+16
+column
+:
+19
+}
 }
 )
 )
