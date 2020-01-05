@@ -4094,8 +4094,8 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScript
-enclosingScript
+HandleScriptSource
+sourceObject
 HandleFunction
 fun
 MutableHandleScript
@@ -4118,8 +4118,8 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScript
-enclosingScript
+HandleScriptSource
+sourceObject
 HandleFunction
 fun
 MutableHandle
@@ -4657,8 +4657,8 @@ enclosingScope
 js
 :
 :
-HandleScript
-enclosingScript
+HandleScriptSource
+sourceObject
 js
 :
 :
@@ -12377,7 +12377,7 @@ JSScript
 /
 /
 The
-enclosingScript
+sourceObject
 and
 enclosingScope
 arguments
@@ -12408,8 +12408,8 @@ HandleScript
 script
 HandleScope
 enclosingScope
-HandleScript
-enclosingScript
+HandleScriptSource
+sourceObject
 uint64_t
 packedData
 uint32_t

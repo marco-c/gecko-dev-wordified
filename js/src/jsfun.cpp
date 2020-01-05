@@ -3892,8 +3892,8 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScript
-enclosingScript
+HandleScriptSource
+sourceObject
 MutableHandleFunction
 objp
 )
@@ -4496,7 +4496,7 @@ XDRLazyScript
 (
 xdr
 enclosingScope
-enclosingScript
+sourceObject
 fun
 &
 lazy
@@ -4515,7 +4515,7 @@ XDRScript
 (
 xdr
 enclosingScope
-enclosingScript
+sourceObject
 fun
 &
 script
@@ -4666,7 +4666,7 @@ XDR_ENCODE
 >
 *
 HandleScope
-HandleScript
+HandleScriptSource
 MutableHandleFunction
 )
 ;
@@ -4683,7 +4683,7 @@ XDR_DECODE
 >
 *
 HandleScope
-HandleScript
+HandleScriptSource
 MutableHandleFunction
 )
 ;
