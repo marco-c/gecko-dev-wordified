@@ -5799,6 +5799,7 @@ menuitem
 {
 for
 (
+let
 node
 =
 target

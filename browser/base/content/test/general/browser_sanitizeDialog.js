@@ -6320,7 +6320,9 @@ function
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error
@@ -6416,7 +6418,9 @@ function
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error
@@ -6577,7 +6581,9 @@ handleError
 error
 )
 {
-do_throw
+throw
+new
+Error
 (
 "
 Error

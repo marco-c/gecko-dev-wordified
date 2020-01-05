@@ -1161,6 +1161,9 @@ dialog
 "
 )
 ;
+let
+window
+=
 yield
 new
 Promise
@@ -1194,6 +1197,7 @@ this
 ;
 resolve
 (
+aXULWindow
 )
 ;
 }
@@ -1235,7 +1239,7 @@ focus
 let
 domwindow
 =
-aXULWindow
+window
 .
 QueryInterface
 (
@@ -6097,16 +6101,6 @@ removeTab
 ;
 }
 )
-;
-path
-=
-CHROMEROOT
-+
-"
-corrupt
-.
-xpi
-"
 ;
 }
 function

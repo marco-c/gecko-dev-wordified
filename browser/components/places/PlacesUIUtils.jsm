@@ -6975,6 +6975,7 @@ aLivemark
 =
 >
 {
+let
 urlsToOpen
 =
 [

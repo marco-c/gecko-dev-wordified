@@ -75,6 +75,11 @@ do_check_false
 :
 false
 "
+do_check_matches
+"
+:
+false
+"
 do_check_neq
 "
 :
@@ -116,6 +121,11 @@ do_get_profile
 false
 "
 do_get_tempdir
+"
+:
+false
+"
+do_load_manifest
 "
 :
 false

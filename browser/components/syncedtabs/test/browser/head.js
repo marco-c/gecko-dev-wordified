@@ -95,6 +95,12 @@ org
 /
 docs
 /
+/
+*
+global
+sinon
+*
+/
 let
 loader
 =
