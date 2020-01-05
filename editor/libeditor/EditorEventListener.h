@@ -276,9 +276,10 @@ aKeyEvent
 nsresult
 KeyUp
 (
-nsIDOMKeyEvent
+const
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 ;
 #
