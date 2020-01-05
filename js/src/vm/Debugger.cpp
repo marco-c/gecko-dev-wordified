@@ -37360,7 +37360,6 @@ result
 ;
 if
 (
-!
 wasmInstance
 -
 >
@@ -49160,6 +49159,9 @@ str
 return
 false
 ;
+if
+(
+!
 ss
 -
 >
@@ -49172,6 +49174,9 @@ twoByteChars
 (
 )
 )
+)
+return
+false
 ;
 args
 .
