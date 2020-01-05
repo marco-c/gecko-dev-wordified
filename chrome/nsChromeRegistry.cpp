@@ -3028,10 +3028,6 @@ ReloadChrome
 (
 )
 {
-UpdateSelectedLocale
-(
-)
-;
 FlushAllCaches
 (
 )

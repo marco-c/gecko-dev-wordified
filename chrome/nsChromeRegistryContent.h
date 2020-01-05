@@ -334,12 +334,6 @@ flags
 ;
 }
 ;
-nsresult
-UpdateSelectedLocale
-(
-)
-override
-;
 nsIURI
 *
 GetBaseURIFromPackage
