@@ -800,8 +800,7 @@ uri
 JSContext
 *
 cx
-RootedObject
-&
+HandleObject
 targetObj
 const
 char
@@ -1171,8 +1170,7 @@ EvalScript
 JSContext
 *
 cx
-RootedObject
-&
+HandleObject
 targetObj
 MutableHandleValue
 retval
@@ -1181,11 +1179,9 @@ nsIURI
 uri
 bool
 cache
-RootedScript
-&
+MutableHandleScript
 script
-RootedFunction
-&
+HandleFunction
 function
 )
 {
@@ -1195,11 +1191,14 @@ function
 )
 {
 script
-=
+.
+set
+(
 JS_GetFunctionScript
 (
 cx
 function
+)
 )
 ;
 }
@@ -2052,6 +2051,7 @@ targetObj
 retval
 uri
 mCache
+&
 script
 function
 )
@@ -3743,6 +3743,7 @@ uri
 !
 !
 cache
+&
 script
 function
 )
