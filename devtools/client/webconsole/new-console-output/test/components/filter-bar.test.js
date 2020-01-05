@@ -400,6 +400,9 @@ toBe
 (
 "
 Clear
+the
+Web
+Console
 output
 "
 )
