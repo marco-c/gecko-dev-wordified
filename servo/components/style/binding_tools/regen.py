@@ -1513,6 +1513,13 @@ RawGeckoElement
 "
 RawGeckoNode
 "
+            
+"
+ThreadSafe
+.
+*
+Holder
+"
         
 ]
         
