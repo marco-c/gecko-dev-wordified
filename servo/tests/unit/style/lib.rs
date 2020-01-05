@@ -69,7 +69,7 @@ test
 [
 feature
 (
-plugin
+core_intrinsics
 )
 ]
 #
@@ -77,7 +77,7 @@ plugin
 [
 feature
 (
-core_intrinsics
+plugin
 )
 ]
 extern
