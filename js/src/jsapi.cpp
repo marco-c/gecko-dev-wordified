@@ -8339,6 +8339,15 @@ StackForUntrustedScript
 untrustedScriptStackSize
 )
 ;
+if
+(
+cx
+-
+>
+isCooperativelyScheduled
+(
+)
+)
 cx
 -
 >
