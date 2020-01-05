@@ -1778,8 +1778,6 @@ List
 var
 mid
 end
-endOne
-endTwo
 ;
 for
 (
@@ -2319,8 +2317,6 @@ len
 ;
 var
 pivotIndex
-i
-j
 leftLen
 rightLen
 ;

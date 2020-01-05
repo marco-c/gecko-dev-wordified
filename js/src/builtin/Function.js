@@ -239,9 +239,7 @@ into
 JIT
 code
 .
-var
-funApply
-=
+void
 std_Function_apply
 ;
 /
