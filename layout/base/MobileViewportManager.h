@@ -139,6 +139,9 @@ class
 nsIPresShell
 ;
 class
+nsViewportInfo
+;
+class
 MobileViewportManager
 final
 :
