@@ -1645,14 +1645,11 @@ HandleEndOfStream
 {
 }
 virtual
-bool
+void
 HandleWaitingForData
 (
 )
 {
-return
-false
-;
 }
 virtual
 RefPtr
@@ -3702,7 +3699,7 @@ HandleEndOfStream
 )
 override
 ;
-bool
+void
 HandleWaitingForData
 (
 )
@@ -3711,9 +3708,6 @@ override
 MaybeStopPrerolling
 (
 )
-;
-return
-true
 ;
 }
 bool
