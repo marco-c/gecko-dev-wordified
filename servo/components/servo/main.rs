@@ -653,6 +653,15 @@ BrowserWrapper
 browser
 :
 Browser
+<
+app
+:
+:
+window
+:
+:
+Window
+>
 }
 impl
 app
