@@ -24826,14 +24826,6 @@ nsISuspendedTypes
 :
 :
 SUSPENDED_BLOCK
-&
-&
-AudioChannelService
-:
-:
-IsServiceStarted
-(
-)
 )
 {
 SetMediaSuspend
