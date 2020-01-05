@@ -185,6 +185,12 @@ originalURI
 =
 aURI
 ;
+aLoadInfo
+.
+resultPrincipalURI
+=
+aURI
+;
 return
 ch
 ;
