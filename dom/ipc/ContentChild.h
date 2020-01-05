@@ -2438,6 +2438,10 @@ mozilla
 LayoutDeviceIntPoint
 &
 aEndDragPoint
+const
+uint32_t
+&
+aKeyModifiers
 )
 override
 ;

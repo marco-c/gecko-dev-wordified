@@ -209,6 +209,8 @@ EndDragSession
 (
 bool
 aDoneDrag
+uint32_t
+aKeyModifiers
 )
 ;
 NS_IMETHOD

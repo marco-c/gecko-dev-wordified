@@ -354,6 +354,8 @@ EndDragSession
 (
 bool
 aDoneDrag
+uint32_t
+aKeyModifiers
 )
 override
 ;
@@ -1169,6 +1171,12 @@ aDragContext
 ;
 gboolean
 DispatchDropEvent
+(
+)
+;
+static
+uint32_t
+GetCurrentModifiers
 (
 )
 ;
