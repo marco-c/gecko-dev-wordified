@@ -214,7 +214,6 @@ get_bridge
 struct
 ReplaceMallocBridge
 *
-void
 )
 #
 endif
@@ -314,12 +313,10 @@ jemalloc_stats_t
 MALLOC_DECL_VOID
 (
 jemalloc_purge_freed_pages
-void
 )
 MALLOC_DECL_VOID
 (
 jemalloc_free_dirty_pages
-void
 )
 MALLOC_DECL_VOID
 (
