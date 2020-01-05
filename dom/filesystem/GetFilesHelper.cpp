@@ -2245,7 +2245,7 @@ return
 rv
 ;
 }
-nsAutoString
+nsAutoCString
 path
 ;
 if
@@ -2254,6 +2254,9 @@ if
 isLink
 )
 {
+nsAutoString
+path16
+;
 rv
 =
 aDir
@@ -2261,7 +2264,7 @@ aDir
 >
 GetPath
 (
-path
+path16
 )
 ;
 if
@@ -2279,6 +2282,13 @@ return
 rv
 ;
 }
+path
+=
+NS_ConvertUTF16toUTF8
+(
+path16
+)
+;
 }
 else
 {
@@ -2287,7 +2297,7 @@ rv
 aDir
 -
 >
-GetTarget
+GetNativeTarget
 (
 path
 )
@@ -2389,7 +2399,7 @@ here
 ;
 #
 endif
-nsAutoString
+nsAutoCString
 targetPath
 ;
 if
@@ -2401,7 +2411,7 @@ NS_FAILED
 aDir
 -
 >
-GetTarget
+GetNativeTarget
 (
 targetPath
 )
