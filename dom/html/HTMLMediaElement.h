@@ -7178,6 +7178,11 @@ IsAllowedToPlay
 (
 )
 ;
+bool
+IsAllowedToPlayByAudioChannel
+(
+)
+;
 /
 /
 If
