@@ -260,7 +260,7 @@ self
 .
 browser
 .
-get_entity
+localize_entity
 (
 '
 aboutPrivateBrowsing

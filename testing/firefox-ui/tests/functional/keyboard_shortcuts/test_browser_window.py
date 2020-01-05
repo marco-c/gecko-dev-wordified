@@ -152,7 +152,7 @@ tab
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 addons
@@ -379,10 +379,11 @@ self
 .
 browser
 .
-get_entity
+localize_entity
 (
 key
 )
+                                   
 accel
 =
 True

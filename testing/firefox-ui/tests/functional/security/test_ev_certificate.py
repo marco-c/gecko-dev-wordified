@@ -681,7 +681,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 '
 identity
@@ -770,7 +770,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 '
 identity

@@ -327,7 +327,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 '
 formPostSecureToInsecureWarning

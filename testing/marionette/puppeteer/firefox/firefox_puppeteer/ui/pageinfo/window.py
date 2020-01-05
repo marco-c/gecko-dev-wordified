@@ -419,7 +419,7 @@ send_shortcut
 (
 win
 .
-get_entity
+localize_entity
 (
 '
 closeWindow

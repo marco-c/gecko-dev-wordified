@@ -665,7 +665,7 @@ value
                          
 page_info
 .
-get_property
+localize_property
 (
 '
 securityNoOwner
@@ -705,7 +705,7 @@ value
                          
 page_info
 .
-get_property
+localize_property
 (
 '
 notset

@@ -1133,7 +1133,7 @@ self
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 openCmd
@@ -2015,7 +2015,7 @@ self
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 reloadCmd
@@ -4411,7 +4411,7 @@ self
 .
 window
 .
-get_entity
+localize_entity
 (
 '
 identity

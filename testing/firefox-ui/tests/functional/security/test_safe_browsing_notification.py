@@ -1011,7 +1011,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 button_property
 )
@@ -1181,7 +1181,7 @@ self
 .
 browser
 .
-get_property
+localize_property
 (
 '
 safebrowsing

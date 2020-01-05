@@ -377,7 +377,7 @@ self
 .
 browser
 .
-get_entity
+localize_entity
 (
 '
 nssFailure2

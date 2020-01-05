@@ -74,7 +74,7 @@ marionette_driver
 .
 errors
 import
-MarionetteException
+NoSuchElementException
 from
 marionette_harness
 import
@@ -160,7 +160,7 @@ self
 .
 l10n
 .
-get_entity
+localize_entity
 (
 dtds
 '
@@ -205,12 +205,13 @@ self
 .
 assertRaises
 (
-MarionetteException
+NoSuchElementException
+                          
 self
 .
 l10n
 .
-get_entity
+localize_entity
 dtds
 '
 notExistent
@@ -262,7 +263,7 @@ self
 .
 l10n
 .
-get_entity
+localize_entity
 (
 dtds
 '
@@ -382,7 +383,7 @@ self
 .
 l10n
 .
-get_property
+localize_property
 (
 properties
 '
@@ -403,12 +404,13 @@ self
 .
 assertRaises
 (
-MarionetteException
+NoSuchElementException
+                          
 self
 .
 l10n
 .
-get_property
+localize_property
 properties
 '
 notExistent
