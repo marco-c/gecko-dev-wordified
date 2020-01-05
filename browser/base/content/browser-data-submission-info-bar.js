@@ -485,13 +485,6 @@ openAdvancedPreferences
 "
 dataChoicesTab
 "
-{
-origin
-:
-"
-dataReporting
-"
-}
 )
 ;
 }
@@ -506,13 +499,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-dataReporting
-"
-}
 )
 ;
 }

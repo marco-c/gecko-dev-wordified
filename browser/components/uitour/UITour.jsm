@@ -3621,13 +3621,6 @@ openPreferences
 data
 .
 pane
-{
-origin
-:
-"
-UITour
-"
-}
 )
 ;
 break
