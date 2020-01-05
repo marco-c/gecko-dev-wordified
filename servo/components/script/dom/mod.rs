@@ -2956,6 +2956,10 @@ servohtmlparser
 ;
 pub
 mod
+servoxmlparser
+;
+pub
+mod
 storage
 ;
 pub
