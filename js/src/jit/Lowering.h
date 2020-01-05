@@ -2263,6 +2263,14 @@ ins
 )
 ;
 void
+visitHasOwnCache
+(
+MHasOwnCache
+*
+ins
+)
+;
+void
 visitInstanceOf
 (
 MInstanceOf

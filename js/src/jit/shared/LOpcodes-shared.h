@@ -1968,6 +1968,11 @@ InArray
 \
 _
 (
+HasOwnCache
+)
+\
+_
+(
 InstanceOfO
 )
 \
