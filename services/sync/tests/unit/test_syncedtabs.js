@@ -641,8 +641,8 @@ tests
 .
 add_task
 (
+async
 function
-*
 test_noClients
 (
 )
@@ -657,7 +657,7 @@ t
 be
 tabs
 .
-yield
+await
 configureClients
 (
 {
@@ -667,7 +667,7 @@ configureClients
 let
 tabs
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
@@ -692,13 +692,13 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_clientWithTabs
 (
 )
 {
-yield
+await
 configureClients
 (
 {
@@ -765,7 +765,7 @@ tabs
 let
 clients
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
@@ -896,13 +896,13 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_staleClientWithTabs
 (
 )
 {
-yield
+await
 configureClients
 (
 {
@@ -1109,7 +1109,7 @@ Laptop
 let
 clients
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
@@ -1286,8 +1286,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_clientWithTabsIconsDisabled
 (
 )
@@ -1310,7 +1310,7 @@ showRemoteIcons
 false
 )
 ;
-yield
+await
 configureClients
 (
 {
@@ -1363,7 +1363,7 @@ favicon
 let
 clients
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
@@ -1498,8 +1498,8 @@ showRemoteIcons
 ;
 add_task
 (
+async
 function
-*
 test_filter
 (
 )
@@ -1509,7 +1509,7 @@ test_filter
 Nothing
 matches
 .
-yield
+await
 configureClients
 (
 {
@@ -1580,7 +1580,7 @@ page
 let
 clients
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
@@ -1646,7 +1646,7 @@ title
 .
 clients
 =
-yield
+await
 SyncedTabs
 .
 getTabClients
