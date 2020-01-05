@@ -220,7 +220,7 @@ XP_DARWIN
 #
 include
 "
-asmjs
+wasm
 /
 WasmSignalHandlers
 .
