@@ -876,7 +876,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -906,7 +906,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
         
 print
@@ -961,7 +961,7 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )
         

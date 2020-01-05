@@ -843,27 +843,13 @@ navigate
 opener_page
 )
         
-#
-Window
-handles
-don
-'
-t
-persist
-in
-cases
-of
-remoteness
-change
-.
-        
-start_tab
+start_win
 =
 self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -895,7 +881,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 2
 )
@@ -910,7 +896,7 @@ self
 .
 marionette
 .
-chrome_window_handles
+window_handles
 )
 2
 )
@@ -921,16 +907,16 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 windows
 .
 remove
 (
-start_tab
+start_win
 )
         
-dest_tab
+dest_win
 =
 windows
 .
@@ -944,7 +930,7 @@ marionette
 .
 switch_to_window
 (
-dest_tab
+dest_win
 )
         
 self
@@ -995,7 +981,7 @@ marionette
 .
 switch_to_window
 (
-dest_tab
+dest_win
 )
             
 self
@@ -1077,7 +1063,7 @@ marionette
 .
 switch_to_window
 (
-start_tab
+start_win
 )
     
 def

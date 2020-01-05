@@ -332,7 +332,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 orig_available
 =
@@ -340,7 +340,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 self
 .
@@ -367,7 +367,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 orig_win
 )
         
@@ -399,7 +399,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 =
 =
@@ -438,7 +438,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 self
 .
@@ -492,7 +492,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 new_win
 )
         
@@ -504,7 +504,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 orig_win
 )
         
@@ -529,7 +529,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 orig_win
 )
         
@@ -548,7 +548,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
         
 self
@@ -559,7 +559,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 orig_win
 )
         
@@ -573,7 +573,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 len
 (
@@ -618,7 +618,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -654,7 +654,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
             
 window_handles
 .
@@ -747,7 +747,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -757,7 +757,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
 handle
 )
         
@@ -772,7 +772,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 )
         
@@ -788,7 +788,7 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )
         
@@ -812,7 +812,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 )
     
@@ -853,7 +853,7 @@ self
 .
 marionette
 .
-current_window_handle
+current_chrome_window_handle
         
 self
 .
@@ -881,7 +881,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
         
 self
 .
@@ -929,7 +929,7 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )
         
@@ -953,7 +953,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 )
     

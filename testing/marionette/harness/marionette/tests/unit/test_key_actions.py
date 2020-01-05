@@ -793,7 +793,7 @@ self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
 =
 =
@@ -834,7 +834,7 @@ self
 .
 marionette
 .
-close
+close_chrome_window
 (
 )
         
