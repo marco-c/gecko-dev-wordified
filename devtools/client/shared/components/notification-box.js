@@ -210,7 +210,7 @@ for
 <
 xul
 :
-notifictionbox
+notificationbox
 >
 binding
 .
