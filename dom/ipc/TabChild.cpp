@@ -10070,6 +10070,7 @@ RequestNativeKeyBindings
 AutoCacheNativeKeyCommands
 *
 aAutoCache
+const
 WidgetKeyboardEvent
 *
 aEvent
