@@ -623,7 +623,7 @@ rust
 :
 :
 {
-Cx
+Runtime
 with_compartment
 }
 ;
@@ -1096,9 +1096,9 @@ GlobalStaticData
 /
 The
 JavaScript
-context
+runtime
 .
-js_context
+js_runtime
 :
 DOMRefCell
 <
@@ -1106,7 +1106,7 @@ Option
 <
 Rc
 <
-Cx
+Runtime
 >
 >
 >
@@ -1350,7 +1350,7 @@ unsafe_code
 ]
 pub
 fn
-clear_js_context_for_script_deallocation
+clear_js_runtime_for_script_deallocation
 (
 &
 self
@@ -1361,7 +1361,7 @@ unsafe
 *
 self
 .
-js_context
+js_runtime
 .
 borrow_for_script_deallocation
 (
@@ -1397,7 +1397,7 @@ JSContext
 {
 self
 .
-js_context
+js_runtime
 .
 borrow
 (
@@ -1411,7 +1411,9 @@ unwrap
 (
 )
 .
-ptr
+cx
+(
+)
 }
 pub
 fn
@@ -3918,7 +3920,7 @@ trait
 WindowHelpers
 {
 fn
-clear_js_context
+clear_js_runtime
 (
 self
 )
@@ -4596,7 +4598,7 @@ Window
 >
 {
 fn
-clear_js_context
+clear_js_runtime
 (
 self
 )
@@ -4633,7 +4635,7 @@ teardown
 *
 self
 .
-js_context
+js_runtime
 .
 borrow_mut
 (
@@ -6991,11 +6993,11 @@ pub
 fn
 new
 (
-js_context
+runtime
 :
 Rc
 <
-Cx
+Runtime
 >
 page
 :
@@ -7287,7 +7289,7 @@ GlobalStaticData
 new
 (
 )
-js_context
+js_runtime
 :
 DOMRefCell
 :
@@ -7296,7 +7298,7 @@ new
 (
 Some
 (
-js_context
+runtime
 .
 clone
 (
@@ -7432,9 +7434,11 @@ WindowBinding
 :
 Wrap
 (
-js_context
+runtime
 .
-ptr
+cx
+(
+)
 win
 )
 }
