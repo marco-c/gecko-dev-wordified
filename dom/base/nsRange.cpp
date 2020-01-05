@@ -19941,7 +19941,7 @@ true
 }
 static
 bool
-ElementIsVisible
+ElementIsVisibleNoFlush
 (
 Element
 *
@@ -19967,7 +19967,7 @@ sc
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContextForElementNoFlush
 (
 aElement
 nullptr
@@ -20725,7 +20725,7 @@ rp
 )
 &
 &
-ElementIsVisible
+ElementIsVisibleNoFlush
 (
 currentNode
 -
