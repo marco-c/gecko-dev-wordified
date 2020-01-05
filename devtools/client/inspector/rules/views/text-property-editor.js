@@ -5156,7 +5156,7 @@ ruleView
 .
 highlighters
 .
-_hideGridHighlighter
+hideGridHighlighter
 (
 )
 ;

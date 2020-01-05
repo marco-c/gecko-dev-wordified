@@ -220,7 +220,7 @@ color
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -299,7 +299,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -406,7 +406,7 @@ color
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target
@@ -481,7 +481,7 @@ shown
 ;
 hs
 .
-_onMouseMove
+onMouseMove
 (
 {
 target

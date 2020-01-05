@@ -361,6 +361,8 @@ highlighters
 once
 (
 "
+grid
+-
 highlighter
 -
 shown
@@ -488,6 +490,8 @@ highlighters
 once
 (
 "
+grid
+-
 highlighter
 -
 hidden
