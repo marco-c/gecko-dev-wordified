@@ -360,6 +360,22 @@ path
 property
     
 def
+router
+(
+self
+)
+:
+        
+return
+self
+.
+_server
+.
+router
+    
+property
+    
+def
 routes
 (
 self
