@@ -1660,6 +1660,14 @@ ensure_python_modern
 (
 )
         
+self
+.
+instance
+.
+ensure_rust_modern
+(
+)
+        
 #
 The
 state
