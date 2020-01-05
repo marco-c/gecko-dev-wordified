@@ -327,6 +327,7 @@ window
 load_url
 (
 url
+false
 )
 ;
 }
@@ -425,6 +426,7 @@ window
 load_url
 (
 url
+false
 )
 ;
 }
@@ -469,6 +471,7 @@ self
 get_url
 (
 )
+true
 )
 ;
 }
@@ -915,6 +918,7 @@ window
 load_url
 (
 url
+false
 )
 ;
 }

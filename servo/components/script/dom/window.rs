@@ -11687,6 +11687,9 @@ self
 url
 :
 Url
+replace
+:
+bool
 )
 {
 let
@@ -11738,6 +11741,7 @@ clone
 )
 )
 )
+replace
 )
 )
 .

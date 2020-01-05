@@ -983,6 +983,9 @@ Option
 <
 LoadData
 >
+replace
+:
+bool
 )
 {
 let
@@ -1228,6 +1231,9 @@ private_iframe
 frame_type
 :
 frame_type
+replace
+:
+replace
 }
 ;
 window
@@ -1349,6 +1355,7 @@ clone
 )
 )
 )
+false
 )
 ;
 }
@@ -4034,6 +4041,7 @@ self
 navigate_or_reload_child_browsing_context
 (
 None
+true
 )
 ;
 }
