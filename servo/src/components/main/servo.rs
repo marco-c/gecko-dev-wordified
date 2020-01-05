@@ -401,14 +401,6 @@ not
 (
 test
 )
-not
-(
-target_os
-=
-"
-android
-"
-)
 )
 ]
 use
@@ -665,7 +657,6 @@ i8
 }
 }
 let
-mut
 opts
 =
 opts
