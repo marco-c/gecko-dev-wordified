@@ -9034,6 +9034,15 @@ get_effects
 (
 )
 ;
+let
+box_
+=
+self
+.
+get_box
+(
+)
+;
 /
 /
 TODO
@@ -9126,7 +9135,7 @@ T
 auto
 {
 if
-effects
+box_
 .
 transform
 .
@@ -9221,7 +9230,7 @@ transform_list
 =
 self
 .
-get_effects
+get_box
 (
 )
 .

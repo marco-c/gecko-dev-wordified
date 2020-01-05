@@ -1592,7 +1592,7 @@ bottom
 get_effects
 .
 opacity
-get_effects
+get_box
 .
 transform
 get_effects

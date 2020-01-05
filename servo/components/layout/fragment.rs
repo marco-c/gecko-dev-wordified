@@ -18937,7 +18937,7 @@ style
 (
 )
 .
-get_effects
+get_box
 (
 )
 .
@@ -19411,7 +19411,7 @@ style
 (
 )
 .
-get_effects
+get_box
 (
 )
 .
