@@ -2342,8 +2342,6 @@ window
 this
 ;
 return
-window
-.
 Task
 .
 spawn
@@ -2762,8 +2760,6 @@ let
 results
 =
 yield
-window
-.
 Promise
 .
 all

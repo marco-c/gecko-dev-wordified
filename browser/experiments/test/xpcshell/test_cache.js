@@ -2119,7 +2119,6 @@ null
 let
 setDateAndRestartExperiments
 =
-new
 Task
 .
 async

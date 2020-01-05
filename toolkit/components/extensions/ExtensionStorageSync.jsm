@@ -5467,6 +5467,12 @@ extension
 *
 param
 {
+CryptoCollection
+}
+cryptoCollection
+*
+param
+{
 Extension
 }
 extension
