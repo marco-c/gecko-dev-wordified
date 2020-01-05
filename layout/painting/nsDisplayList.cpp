@@ -4316,15 +4316,14 @@ Pending
 &
 &
 (
-!
 anim
 -
 >
 GetTimeline
 (
 )
-|
-|
+&
+&
 !
 anim
 -
