@@ -1359,6 +1359,12 @@ None
 '
 )
         
+self
+.
+proxy
+=
+False
+        
 #
 If
 we
@@ -1388,6 +1394,17 @@ self
 .
 concrete
 =
+(
+not
+self
+.
+interface
+.
+isCallback
+(
+)
+and
+                         
 desc
 .
 get
@@ -1396,6 +1413,7 @@ get
 concrete
 '
 True
+)
 )
         
 self
@@ -1550,12 +1568,6 @@ self
 .
 concrete
 :
-            
-self
-.
-proxy
-=
-False
             
 iface
 =
