@@ -1192,6 +1192,25 @@ add_remove_files
 vendor_dir
 )
         
+#
+100k
+is
+a
+reasonable
+upper
+bound
+on
+source
+file
+size
+.
+        
+FILESIZE_LIMIT
+=
+100
+*
+1024
+        
 large_files
 =
 set
