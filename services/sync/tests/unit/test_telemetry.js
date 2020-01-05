@@ -492,6 +492,7 @@ async
 function
 cleanAndGo
 (
+engine
 server
 )
 {
@@ -530,6 +531,14 @@ Service
 recordManager
 .
 clearCache
+(
+)
+;
+engine
+.
+_tracker
+.
+clearChangedIDs
 (
 )
 ;
@@ -1164,6 +1173,7 @@ wipe
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -1538,6 +1548,7 @@ wipe
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -1927,6 +1938,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -2517,6 +2529,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -2714,6 +2727,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3043,6 +3057,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3386,6 +3401,7 @@ finally
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -3590,6 +3606,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -4131,6 +4148,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -4360,6 +4378,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;
@@ -4513,6 +4532,7 @@ engine
 await
 cleanAndGo
 (
+engine
 server
 )
 ;

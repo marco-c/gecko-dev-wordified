@@ -353,6 +353,12 @@ wait
 (
 )
 ;
+tracker
+.
+clearChangedIDs
+(
+)
+;
 run_next_test
 (
 )

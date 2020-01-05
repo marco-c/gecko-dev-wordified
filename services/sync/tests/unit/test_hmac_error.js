@@ -2030,6 +2030,14 @@ clearCache
 (
 )
 ;
+engine
+.
+_tracker
+.
+clearChangedIDs
+(
+)
+;
 server
 .
 stop
