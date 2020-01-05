@@ -27,13 +27,9 @@ geometry
 au
 ;
 import
-/
-*
 layout
 :
 :
-*
-/
 base
 :
 :
