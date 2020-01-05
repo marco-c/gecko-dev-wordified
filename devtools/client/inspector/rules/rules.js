@@ -99,12 +99,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-gDevTools
-*
-/
 "
 use
 strict

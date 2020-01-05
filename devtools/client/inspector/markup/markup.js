@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-template
-*
-/
 "
 use
 strict
