@@ -823,10 +823,6 @@ reply
 '
 '
 '
-.
-lstrip
-(
-)
 CLONE_MERCURIAL
 =
 '
