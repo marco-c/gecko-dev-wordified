@@ -10986,9 +10986,9 @@ add
 (
 )
 ;
+}
 continue
 ;
-}
 }
 let
 id
