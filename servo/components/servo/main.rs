@@ -268,7 +268,10 @@ use
 offscreen_gl_context
 :
 :
+{
 GLContext
+NativeGLContext
+}
 ;
 use
 servo
@@ -349,6 +352,11 @@ load_with
 addr
 |
 GLContext
+:
+:
+<
+NativeGLContext
+>
 :
 :
 get_proc_address
@@ -564,7 +572,7 @@ to
 avoid
 crashing
 with
-webgl
+WebGL
 load_gl_when_headless
 (
 )

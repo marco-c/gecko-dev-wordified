@@ -159,6 +159,7 @@ offscreen_gl_context
 ColorAttachmentType
 GLContext
 GLContextAttributes
+NativeGLContext
 }
 ;
 use
@@ -222,6 +223,9 @@ i32
 gl_context
 :
 GLContext
+<
+NativeGLContext
+>
 }
 /
 /
@@ -281,14 +285,15 @@ try
 GLContext
 :
 :
-create_offscreen_with_color_attachment
+new
 (
 size
 attrs
 ColorAttachmentType
 :
 :
-TextureWithSurface
+Texture
+None
 )
 )
 ;
