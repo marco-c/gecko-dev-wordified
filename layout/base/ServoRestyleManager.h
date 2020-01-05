@@ -269,10 +269,6 @@ typedef
 RestyleManager
 base_type
 ;
-NS_INLINE_DECL_REFCOUNTING
-(
-ServoRestyleManager
-)
 explicit
 ServoRestyleManager
 (
@@ -573,6 +569,7 @@ protected
 ServoRestyleManager
 (
 )
+override
 {
 MOZ_ASSERT
 (
