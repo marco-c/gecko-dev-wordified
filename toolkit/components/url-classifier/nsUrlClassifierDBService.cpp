@@ -365,13 +365,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

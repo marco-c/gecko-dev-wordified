@@ -159,13 +159,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

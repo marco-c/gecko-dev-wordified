@@ -282,13 +282,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h

@@ -352,13 +352,6 @@ h
 "
 #
 include
-"
-prprf
-.
-h
-"
-#
-include
 <
 stdio
 .

@@ -257,13 +257,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-prprf
-.
-h
-"
 /
 /
 NB

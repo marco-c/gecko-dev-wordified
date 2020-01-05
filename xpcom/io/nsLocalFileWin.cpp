@@ -228,13 +228,6 @@ PR_ImportFile
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 prmem
 .
 h
