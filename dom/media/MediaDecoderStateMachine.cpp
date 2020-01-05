@@ -15524,14 +15524,14 @@ VideoQueue
 GetSize
 (
 )
--
-1
 <
 GetAmpleVideoFrames
 (
 )
 *
 mPlaybackRate
++
+1
 )
 {
 return
