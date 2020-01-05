@@ -5094,7 +5094,7 @@ allowed
 "
 "
 MediaWMFNeeded
-MediaWidevineNoWMFNoSilverlight
+MediaWidevineNoWMF
 MediaCannotInitializePulseAudio
 MediaCannotPlayNoDecoders
 MediaUnsupportedLibavcodec
