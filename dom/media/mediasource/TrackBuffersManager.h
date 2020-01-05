@@ -1137,12 +1137,12 @@ AppendPromise
 >
 DoAppendData
 (
-RefPtr
-<
 MediaByteBuffer
->
+*
 aData
+const
 SourceBufferAttributes
+&
 aAttributes
 )
 ;
