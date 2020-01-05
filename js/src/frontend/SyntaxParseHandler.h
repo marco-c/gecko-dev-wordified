@@ -2505,6 +2505,17 @@ NodeReturn
 ;
 }
 Node
+newExpressionBody
+(
+Node
+expr
+)
+{
+return
+NodeReturn
+;
+}
+Node
 newWithStatement
 (
 uint32_t
