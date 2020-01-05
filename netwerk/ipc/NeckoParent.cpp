@@ -1061,7 +1061,6 @@ crash
 report
 .
 static
-MOZ_NORETURN
 MOZ_COLD
 void
 CrashWithReason
