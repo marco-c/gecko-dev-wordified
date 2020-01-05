@@ -21064,7 +21064,7 @@ result
 nsCSSRendering
 :
 :
-PaintBackground
+PaintStyleImageLayer
 (
 params
 )
