@@ -437,6 +437,9 @@ mpi
 "
 scert
 "
+"
+spki
+"
 ]
 ;
 let

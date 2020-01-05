@@ -3084,16 +3084,6 @@ sentSessionTicketInClientHello
 =
 PR_TRUE
 ;
-if
-(
-rv
-!
-=
-SECSuccess
-)
-goto
-loser
-;
 xtnData
 -
 >

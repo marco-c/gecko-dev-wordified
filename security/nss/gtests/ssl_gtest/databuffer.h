@@ -1064,6 +1064,9 @@ gap
 .
 if
 (
+old_value
+&
+&
 index
 >
 old_len

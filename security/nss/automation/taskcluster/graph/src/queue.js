@@ -150,7 +150,6 @@ taskcluster
 queue
 /
 v1
-/
 "
 }
 )
