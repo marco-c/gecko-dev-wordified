@@ -113,11 +113,6 @@ info
 vendor_name
 )
 ;
-free
-(
-info
-)
-;
 }
 int
 cubeb_utils_default_device_collection_destroy
@@ -162,6 +157,7 @@ i
 )
 device_info_destroy
 (
+&
 collection
 -
 >
@@ -174,6 +170,9 @@ i
 free
 (
 collection
+-
+>
+device
 )
 ;
 return

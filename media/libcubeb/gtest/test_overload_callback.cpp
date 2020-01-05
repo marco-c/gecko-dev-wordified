@@ -326,7 +326,7 @@ latency_frames
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -335,7 +335,6 @@ Cubeb
 callback
 overload
 "
-NULL
 )
 ;
 ASSERT_EQ

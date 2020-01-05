@@ -422,7 +422,7 @@ false
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -431,7 +431,6 @@ Cubeb
 record
 example
 "
-NULL
 )
 ;
 ASSERT_EQ
