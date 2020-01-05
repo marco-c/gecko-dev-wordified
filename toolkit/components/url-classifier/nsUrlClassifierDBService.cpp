@@ -8770,6 +8770,9 @@ return
 NS_ERROR_ABORT
 ;
 }
+nsresult
+rv
+;
 if
 (
 XRE_IsContentProcess
@@ -8822,6 +8825,8 @@ SendClassifyLocal
 uri
 tables
 &
+rv
+&
 aTableResults
 )
 ;
@@ -8831,7 +8836,7 @@ result
 )
 {
 return
-NS_OK
+rv
 ;
 }
 return
@@ -8888,7 +8893,6 @@ do_GetService
 NS_URLCLASSIFIERUTILS_CONTRACTID
 )
 ;
-nsresult
 rv
 =
 utilsService

@@ -2699,6 +2699,9 @@ const
 nsCString
 &
 aTables
+nsresult
+*
+aRv
 nsTArray
 <
 nsCString
