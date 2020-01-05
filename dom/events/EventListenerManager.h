@@ -798,6 +798,11 @@ mMayHaveTouchEventListener
 1
 ;
 uint16_t
+mMayHaveMouseMoveEventListener
+:
+1
+;
+uint16_t
 mMayHaveMouseEnterLeaveEventListener
 :
 1
@@ -837,7 +842,7 @@ mIsMainThreadELM
 uint16_t
 mUnused
 :
-4
+3
 ;
 }
 ;
@@ -2160,6 +2165,15 @@ MayHaveTouchEventListener
 {
 return
 mMayHaveTouchEventListener
+;
+}
+bool
+MayHaveMouseMoveEventListener
+(
+)
+{
+return
+mMayHaveMouseMoveEventListener
 ;
 }
 bool
