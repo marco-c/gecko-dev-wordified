@@ -1715,18 +1715,6 @@ aTimerLabel
 /
 /
 *
-aTimerValue
--
-this
-is
-what
-StartTimer
-received
-as
-aTimerValue
-/
-/
-*
 aTimerStatus
 -
 the
@@ -1748,8 +1736,6 @@ const
 nsAString
 &
 aTimerLabel
-DOMHighResTimeStamp
-aTimerValue
 bool
 aTimerStatus
 )

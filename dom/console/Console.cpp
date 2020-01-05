@@ -8831,10 +8831,6 @@ mStartTimerLabel
 aData
 -
 >
-mStartTimerValue
-aData
--
->
 mStartTimerStatus
 )
 ;
@@ -11256,8 +11252,6 @@ const
 nsAString
 &
 aTimerLabel
-DOMHighResTimeStamp
-aTimerValue
 bool
 aTimerStatus
 )
@@ -11332,12 +11326,6 @@ timer
 mName
 =
 aTimerLabel
-;
-timer
-.
-mStarted
-=
-aTimerValue
 ;
 JS
 :

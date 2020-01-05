@@ -4991,7 +4991,7 @@ false
 ownPropertyLength
 "
 :
-811
+808
 "
 preview
 "
@@ -5198,7 +5198,7 @@ ownPropertyLength
 \
 "
 :
-811
+808
 \
 "
 preview
@@ -13040,7 +13040,7 @@ false
 ownPropertyLength
 "
 :
-811
+808
 "
 preview
 "
@@ -13773,13 +13773,6 @@ name
 "
 bar
 "
-"
-started
-"
-:
-1166
-.
-305
 }
 "
 workerType
