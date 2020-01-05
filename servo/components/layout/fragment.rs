@@ -7309,6 +7309,7 @@ scanned
 text
 fragment
 .
+pub
 fn
 is_scanned_text_fragment
 (
