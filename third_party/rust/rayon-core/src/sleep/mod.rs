@@ -423,6 +423,13 @@ yields
 =
 ROUNDS_UNTIL_SLEEPY
 {
+thread
+:
+:
+yield_now
+(
+)
+;
 if
 self
 .
