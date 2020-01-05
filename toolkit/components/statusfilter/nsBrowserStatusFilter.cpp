@@ -1366,6 +1366,7 @@ mFinishedRequests
 mTotalRequests
 &
 &
+NS_SUCCEEDED
 (
 aWebProgress
 -
@@ -1375,9 +1376,11 @@ GetIsLoadingDocument
 &
 isLoadingDocument
 )
+)
+&
+&
 !
 isLoadingDocument
-)
 )
 )
 )
