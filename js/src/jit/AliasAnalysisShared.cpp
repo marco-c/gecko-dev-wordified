@@ -888,6 +888,12 @@ MDefinition
 :
 Op_TypedObjectElements
 :
+case
+MDefinition
+:
+:
+Op_CopyLexicalEnvironmentObject
+:
 object
 =
 ins
