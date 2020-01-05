@@ -2350,6 +2350,11 @@ interpolatematrix
 )
 CSS_KEY
 (
+accumulatematrix
+accumulatematrix
+)
+CSS_KEY
+(
 intersect
 intersect
 )
