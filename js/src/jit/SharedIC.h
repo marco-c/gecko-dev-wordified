@@ -8294,9 +8294,6 @@ cx
 BaselineFrame
 *
 frame
-StackTypeSet
-*
-types
 HandleValue
 val
 )
@@ -9655,9 +9652,6 @@ cx
 BaselineFrame
 *
 frame
-StackTypeSet
-*
-types
 HandleValue
 val
 )
