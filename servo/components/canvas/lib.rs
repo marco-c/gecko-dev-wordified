@@ -74,6 +74,10 @@ collections
 ]
 extern
 crate
+core
+;
+extern
+crate
 canvas_traits
 ;
 extern
