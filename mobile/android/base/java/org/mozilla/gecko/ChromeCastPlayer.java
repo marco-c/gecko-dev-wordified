@@ -395,7 +395,7 @@ devices
 *
 /
 class
-ChromeCast
+ChromeCastPlayer
 implements
 GeckoMediaPlayer
 {
@@ -1178,7 +1178,7 @@ callback
 }
 }
 public
-ChromeCast
+ChromeCastPlayer
 (
 Context
 context
@@ -3003,7 +3003,7 @@ String
 LOGTAG
 =
 "
-GeckoChromeCast
+GeckoChromeCastPlayer
 "
 ;
 private
