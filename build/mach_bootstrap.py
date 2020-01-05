@@ -1624,6 +1624,17 @@ util
 import
 get_state_dir
     
+from
+mozbuild
+.
+util
+import
+patch_main
+    
+patch_main
+(
+)
+    
 def
 telemetry_handler
 (
