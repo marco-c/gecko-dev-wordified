@@ -3881,7 +3881,7 @@ stream
 ;
 fprintf
 (
-stdout
+stderr
 "
 #
 #
@@ -3914,7 +3914,7 @@ else
 {
 fprintf
 (
-stdout
+stderr
 "
 #
 #
