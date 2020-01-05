@@ -188,15 +188,6 @@ include
 "
 wasm
 /
-WasmJS
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmModule
 .
 h
@@ -257,7 +248,6 @@ assumptions
 ScriptedCaller
 scriptedCaller
 ;
-MOZ_INIT_OUTSIDE_CTOR
 bool
 alwaysBaseline
 ;
