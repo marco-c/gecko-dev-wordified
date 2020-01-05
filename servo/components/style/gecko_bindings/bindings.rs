@@ -3643,7 +3643,7 @@ RawGeckoElementBorrowed
 )
 -
 >
-u16
+u64
 ;
 }
 extern
