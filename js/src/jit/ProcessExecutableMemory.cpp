@@ -3668,7 +3668,7 @@ CanLikelyAllocateMoreExecutableMemory
 /
 Use
 a
-16
+8
 MB
 buffer
 .
@@ -3677,7 +3677,7 @@ const
 size_t
 BufferSize
 =
-16
+8
 *
 1024
 *
