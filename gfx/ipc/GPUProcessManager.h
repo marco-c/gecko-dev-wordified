@@ -530,7 +530,7 @@ has
 finished
 launching
 .
-void
+bool
 EnsureGPUReady
 (
 )
