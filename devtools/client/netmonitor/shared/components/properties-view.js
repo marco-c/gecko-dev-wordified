@@ -1134,15 +1134,3 @@ exports
 =
 PropertiesView
 ;
-/
-*
-eslint
--
-enable
-react
-/
-prop
--
-types
-*
-/
