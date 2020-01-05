@@ -792,7 +792,7 @@ true
 triggerSecondaryCommand
 (
 popup
-1
+0
 )
 ;
 }
@@ -1016,8 +1016,10 @@ hidden
 after
 dismissal
 via
-Not
-Now
+Don
+'
+t
+Allow
 .
 this
 .
@@ -1028,7 +1030,7 @@ true
 triggerSecondaryCommand
 (
 popup
-1
+0
 )
 ;
 }

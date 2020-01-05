@@ -274,7 +274,6 @@ shown
 triggerSecondaryCommand
 (
 this
-0
 )
 ;
 }

@@ -601,9 +601,6 @@ popupOptions
 {
 return
 {
-hideNotNow
-:
-true
 removeOnDismissal
 :
 true
@@ -1268,11 +1265,6 @@ NS_ERROR_NOT_AVAILABLE
 dismiss
 :
 true
-/
-/
-For
-hideNotNow
-.
 }
 ]
 ;
