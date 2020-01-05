@@ -813,6 +813,16 @@ Option
 Self
 >
 ;
+fn
+is_in_doc
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 /
 /
