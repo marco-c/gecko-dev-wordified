@@ -27476,7 +27476,7 @@ radius
 .
 *
 /
-NS_FOR_CSS_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
 corner
 )
@@ -27591,7 +27591,7 @@ height
 First
 the
 corners
-NS_FOR_CSS_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
 corner
 )
