@@ -141,15 +141,6 @@ std
 mem
 ;
 use
-std
-:
-:
-num
-:
-:
-Zero
-;
-use
 geom
 :
 :
@@ -1222,7 +1213,7 @@ Rect
 {
 origin
 :
-Zero
+Point2D
 :
 :
 zero
@@ -6565,7 +6556,7 @@ Rect
 {
 origin
 :
-Zero
+Point2D
 :
 :
 zero
@@ -7203,7 +7194,7 @@ masks_to_bounds
 {
 Rect
 (
-Zero
+Point2D
 :
 :
 zero
