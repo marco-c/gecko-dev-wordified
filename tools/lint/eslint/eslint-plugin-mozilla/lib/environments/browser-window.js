@@ -331,8 +331,6 @@ const
 EXTRA_SCRIPTS
 =
 [
-/
-/
 "
 browser
 /
@@ -991,6 +989,16 @@ mapGlobals
 getScriptGlobals
 (
 )
+)
+browserjsScripts
+:
+getGlobalScriptsIncludes
+(
+)
+.
+concat
+(
+EXTRA_SCRIPTS
 )
 }
 ;

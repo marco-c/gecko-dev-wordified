@@ -2065,6 +2065,16 @@ Components
 :
 false
 "
+CSSPrimitiveValue
+"
+:
+false
+"
+CSSValueList
+"
+:
+false
+"
 dump
 "
 :
