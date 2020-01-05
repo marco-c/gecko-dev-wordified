@@ -1225,6 +1225,17 @@ WorkerLoadInfo
 aOther
 )
 ;
+void
+SetPrincipalOnMainThread
+(
+nsIPrincipal
+*
+aPrincipal
+nsILoadGroup
+*
+aLoadGroup
+)
+;
 }
 ;
 /
