@@ -538,6 +538,10 @@ was
 cancelled
 donePrinting
 =
+!
+mPrintEngine
+|
+|
 mPrintEngine
 -
 >
@@ -565,6 +569,10 @@ next
 webshell
 if
 (
+!
+mPrintEngine
+|
+|
 mPrintEngine
 -
 >
@@ -662,6 +670,11 @@ are
 finished
 .
 .
+if
+(
+mPrintEngine
+)
+{
 mPrintEngine
 -
 >
@@ -670,6 +683,7 @@ SetIsPrinting
 false
 )
 ;
+}
 }
 }
 return
@@ -933,6 +947,15 @@ mDocViewerPrint
 bool
 donePrePrint
 =
+true
+;
+if
+(
+mPrintEngine
+)
+{
+donePrePrint
+=
 mPrintEngine
 -
 >
@@ -940,6 +963,7 @@ PrePrintPage
 (
 )
 ;
+}
 if
 (
 donePrePrint
