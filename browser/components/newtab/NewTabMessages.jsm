@@ -1453,14 +1453,6 @@ handlePrefChange
 ;
 }
 }
-PlacesProvider
-.
-links
-.
-uninit
-(
-)
-;
 NewTabPrefsProvider
 .
 prefs

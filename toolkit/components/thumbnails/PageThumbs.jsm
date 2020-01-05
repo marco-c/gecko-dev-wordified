@@ -942,7 +942,7 @@ history
 addObserver
 (
 PageThumbsHistoryObserver
-false
+true
 )
 ;
 /
@@ -987,15 +987,6 @@ this
 _initialized
 =
 false
-;
-PlacesUtils
-.
-history
-.
-removeObserver
-(
-PageThumbsHistoryObserver
-)
 ;
 }
 }
@@ -6026,9 +6017,6 @@ PageThumbsHistoryObserver
 =
 {
 onDeleteURI
-:
-function
-Thumbnails_onDeleteURI
 (
 aURI
 aGUID
@@ -6045,9 +6033,6 @@ spec
 ;
 }
 onClearHistory
-:
-function
-Thumbnails_onClearHistory
 (
 )
 {
@@ -6098,6 +6083,9 @@ generateQI
 Ci
 .
 nsINavHistoryObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 }
