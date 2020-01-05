@@ -22619,6 +22619,7 @@ wasmUnalignedLoadI64
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -22643,6 +22644,7 @@ wasmUnalignedLoadFP
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -22674,6 +22676,7 @@ wasmUnalignedLoadFP
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -22696,6 +22699,7 @@ wasmUnalignedLoad
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -22730,6 +22734,7 @@ wasmLoadI64
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -22746,6 +22751,7 @@ wasmLoad
 (
 *
 access
+HeapReg
 ptr
 ptr
 dest
@@ -23297,6 +23303,7 @@ src
 i64
 (
 )
+HeapReg
 ptr
 ptr
 tmp
@@ -23321,6 +23328,7 @@ src
 f32
 (
 )
+HeapReg
 ptr
 ptr
 tmp
@@ -23345,6 +23353,7 @@ src
 f64
 (
 )
+HeapReg
 ptr
 ptr
 tmp
@@ -23378,6 +23387,7 @@ src
 i32
 (
 )
+HeapReg
 ptr
 ptr
 )
@@ -23427,6 +23437,7 @@ src
 i64
 (
 )
+HeapReg
 ptr
 ptr
 )
@@ -23460,6 +23471,7 @@ i64
 .
 low
 )
+HeapReg
 ptr
 ptr
 )
@@ -23476,6 +23488,7 @@ src
 any
 (
 )
+HeapReg
 ptr
 ptr
 )

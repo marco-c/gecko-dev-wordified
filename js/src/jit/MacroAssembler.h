@@ -12099,6 +12099,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -12120,6 +12122,8 @@ wasm
 MemoryAccessDesc
 &
 access
+Register
+memoryBase
 Register
 ptr
 Register
@@ -12145,6 +12149,8 @@ access
 AnyRegister
 value
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -12166,6 +12172,8 @@ MemoryAccessDesc
 access
 Register64
 value
+Register
+memoryBase
 Register
 ptr
 Register
@@ -12194,6 +12202,8 @@ wasm
 MemoryAccessDesc
 &
 access
+Register
+memoryBase
 Register
 ptr
 Register
@@ -12260,6 +12270,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -12295,6 +12307,8 @@ wasm
 MemoryAccessDesc
 &
 access
+Register
+memoryBase
 Register
 ptr
 Register
@@ -12332,6 +12346,8 @@ access
 Register
 value
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -12361,6 +12377,8 @@ MemoryAccessDesc
 access
 FloatRegister
 floatValue
+Register
+memoryBase
 Register
 ptr
 Register
@@ -12393,6 +12411,8 @@ MemoryAccessDesc
 access
 Register64
 value
+Register
+memoryBase
 Register
 ptr
 Register

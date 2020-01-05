@@ -3921,6 +3921,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -3964,6 +3966,8 @@ valAny
 Register64
 val64
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -4000,6 +4004,8 @@ wasm
 MemoryAccessDesc
 &
 access
+Register
+memoryBase
 Register
 ptr
 Register
@@ -4075,6 +4081,8 @@ FloatRegister
 floatValue
 Register64
 val64
+Register
+memoryBase
 Register
 ptr
 Register

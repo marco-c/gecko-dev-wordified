@@ -17395,6 +17395,7 @@ mir
 access
 (
 )
+HeapReg
 ptr
 ptr
 ToOutRegister64
@@ -17414,6 +17415,7 @@ mir
 access
 (
 )
+HeapReg
 ptr
 ptr
 ToAnyRegister
@@ -17548,6 +17550,7 @@ mir
 access
 (
 )
+HeapReg
 ptr
 ptr
 ToOutRegister64
@@ -17632,6 +17635,7 @@ mir
 access
 (
 )
+HeapReg
 ptr
 ptr
 ToFloatRegister
@@ -17661,6 +17665,7 @@ mir
 access
 (
 )
+HeapReg
 ptr
 ptr
 ToRegister
@@ -17960,6 +17965,7 @@ lir
 ValueIndex
 )
 )
+HeapReg
 ptr
 ptr
 )
@@ -17988,6 +17994,7 @@ lir
 ValueIndex
 )
 )
+HeapReg
 ptr
 ptr
 )
@@ -18132,6 +18139,7 @@ LWasmUnalignedStoreI64
 ValueIndex
 )
 )
+HeapReg
 ptr
 ptr
 valOrTmp
@@ -18187,6 +18195,7 @@ access
 (
 )
 value
+HeapReg
 ptr
 ptr
 valOrTmp
@@ -18206,6 +18215,7 @@ access
 (
 )
 valOrTmp
+HeapReg
 ptr
 ptr
 )

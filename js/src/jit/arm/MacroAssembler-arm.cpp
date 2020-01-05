@@ -34664,6 +34664,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34674,6 +34676,7 @@ output
 wasmLoadImpl
 (
 access
+memoryBase
 ptr
 ptrScratch
 output
@@ -34700,6 +34703,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34710,6 +34715,7 @@ output
 wasmLoadImpl
 (
 access
+memoryBase
 ptr
 ptrScratch
 AnyRegister
@@ -34735,6 +34741,8 @@ access
 AnyRegister
 value
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34750,6 +34758,7 @@ Register64
 Invalid
 (
 )
+memoryBase
 ptr
 ptrScratch
 )
@@ -34771,6 +34780,8 @@ access
 Register64
 value
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34783,6 +34794,7 @@ AnyRegister
 (
 )
 value
+memoryBase
 ptr
 ptrScratch
 )
@@ -34802,6 +34814,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34814,6 +34828,7 @@ tmp
 wasmUnalignedLoadImpl
 (
 access
+memoryBase
 ptr
 ptrScratch
 AnyRegister
@@ -34856,6 +34871,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34872,6 +34889,7 @@ tmp3
 wasmUnalignedLoadImpl
 (
 access
+memoryBase
 ptr
 ptrScratch
 AnyRegister
@@ -34904,6 +34922,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34916,6 +34936,7 @@ tmp
 wasmUnalignedLoadImpl
 (
 access
+memoryBase
 ptr
 ptrScratch
 AnyRegister
@@ -34954,6 +34975,8 @@ access
 Register
 value
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -34971,6 +34994,7 @@ Register64
 Invalid
 (
 )
+memoryBase
 ptr
 ptrScratch
 value
@@ -34993,6 +35017,8 @@ access
 FloatRegister
 floatVal
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -35010,6 +35036,7 @@ Register64
 Invalid
 (
 )
+memoryBase
 ptr
 ptrScratch
 tmp
@@ -35032,6 +35059,8 @@ access
 Register64
 val64
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -35046,6 +35075,7 @@ FloatRegister
 (
 )
 val64
+memoryBase
 ptr
 ptrScratch
 tmp
@@ -36087,6 +36117,8 @@ MemoryAccessDesc
 &
 access
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -36298,7 +36330,7 @@ signed
 *
 /
 false
-HeapReg
+memoryBase
 ptr
 out64
 .
@@ -36333,7 +36365,7 @@ ma_dataTransferN
 IsLoad
 32
 isSigned
-HeapReg
+memoryBase
 ptr
 out64
 .
@@ -36363,7 +36395,7 @@ byteSize
 *
 8
 isSigned
-HeapReg
+memoryBase
 ptr
 out64
 .
@@ -36460,7 +36492,7 @@ asMasm
 ;
 ma_add
 (
-HeapReg
+memoryBase
 ptr
 scratch
 )
@@ -36511,7 +36543,7 @@ byteSize
 *
 8
 isSigned
-HeapReg
+memoryBase
 ptr
 output
 .
@@ -36564,6 +36596,8 @@ AnyRegister
 value
 Register64
 val64
+Register
+memoryBase
 Register
 ptr
 Register
@@ -36725,7 +36759,7 @@ signed
 *
 /
 false
-HeapReg
+memoryBase
 ptr
 val64
 .
@@ -36770,7 +36804,7 @@ signed
 *
 /
 true
-HeapReg
+memoryBase
 ptr
 val64
 .
@@ -36836,7 +36870,7 @@ isSingle
 ;
 ma_add
 (
-HeapReg
+memoryBase
 ptr
 scratch
 )
@@ -36922,7 +36956,7 @@ bits
 *
 /
 isSigned
-HeapReg
+memoryBase
 ptr
 val
 )
@@ -36967,6 +37001,8 @@ wasm
 MemoryAccessDesc
 &
 access
+Register
+memoryBase
 Register
 ptr
 Register
@@ -37155,7 +37191,7 @@ scratch
 /
 /
 Add
-HeapReg
+memoryBase
 to
 ptr
 so
@@ -37173,7 +37209,7 @@ loads
 .
 ma_add
 (
-HeapReg
+memoryBase
 ptr
 )
 ;
@@ -37546,6 +37582,8 @@ floatValue
 Register64
 val64
 Register
+memoryBase
+Register
 ptr
 Register
 ptrScratch
@@ -37669,7 +37707,7 @@ scratch
 /
 /
 Add
-HeapReg
+memoryBase
 to
 ptr
 so
@@ -37687,7 +37725,7 @@ loads
 .
 ma_add
 (
-HeapReg
+memoryBase
 ptr
 )
 ;
