@@ -1019,13 +1019,6 @@ outSocketOut
 /
 nsAHttpTransaction
 overloads
-nsHttpPipeline
-*
-QueryPipeline
-(
-)
-override
-;
 bool
 IsNullTransaction
 (

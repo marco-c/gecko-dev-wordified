@@ -1152,6 +1152,9 @@ value
 )
 override
 ;
+/
+/
+deprecated
 NS_IMETHOD
 SetAllowPipelining
 (
@@ -1160,6 +1163,9 @@ value
 )
 override
 ;
+/
+/
+deprecated
 NS_IMETHOD
 GetAllowSTS
 (
@@ -2959,11 +2965,6 @@ mRequestObserversCalled
 ;
 uint32_t
 mResponseHeadersModified
-:
-1
-;
-uint32_t
-mAllowPipelining
 :
 1
 ;
