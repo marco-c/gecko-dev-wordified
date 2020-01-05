@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StorageTypeBinding
 .
 h
@@ -236,6 +247,12 @@ Optional
 ;
 class
 TabChild
+;
+enum
+class
+CallerType
+:
+uint32_t
 ;
 namespace
 indexedDB
@@ -611,6 +628,8 @@ nsAString
 aName
 uint64_t
 aVersion
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -633,6 +652,8 @@ const
 IDBOpenDBOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -655,6 +676,8 @@ const
 IDBOpenDBOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -711,6 +734,7 @@ nsAString
 aName
 uint64_t
 aVersion
+SystemCallerGuarantee
 ErrorResult
 &
 aRv
@@ -736,6 +760,7 @@ const
 IDBOpenDBOptions
 &
 aOptions
+SystemCallerGuarantee
 ErrorResult
 &
 aRv
@@ -761,6 +786,7 @@ const
 IDBOpenDBOptions
 &
 aOptions
+SystemCallerGuarantee
 ErrorResult
 &
 aRv
@@ -908,6 +934,8 @@ StorageType
 aStorageType
 bool
 aDeleting
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
