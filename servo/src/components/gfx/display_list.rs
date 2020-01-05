@@ -274,6 +274,7 @@ geom
 Point2D
 Rect
 Size2D
+SideOffsets2D
 }
 ;
 use
@@ -767,14 +768,14 @@ E
 /
 /
 The
-width
-of
-the
 border
-.
-width
+widths
+border
 :
+SideOffsets2D
+<
 Au
+>
 /
 /
 /
@@ -1097,7 +1098,7 @@ base
 bounds
 border
 .
-width
+border
 border
 .
 color
