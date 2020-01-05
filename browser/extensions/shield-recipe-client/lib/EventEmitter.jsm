@@ -219,7 +219,7 @@ listeners
 {
 log
 .
-info
+debug
 (
 EventEmitter
 :
