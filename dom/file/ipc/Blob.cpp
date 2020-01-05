@@ -4673,6 +4673,15 @@ BlockAndWaitForStream
 {
 if
 (
+mStream
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 IsOnOwningThread
 (
 )
