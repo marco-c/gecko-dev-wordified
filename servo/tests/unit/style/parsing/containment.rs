@@ -84,7 +84,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 #
 [

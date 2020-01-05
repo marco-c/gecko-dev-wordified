@@ -158,6 +158,12 @@ media_queries
 MediaType
 ;
 use
+parser
+:
+:
+ParserContext
+;
+use
 properties
 :
 :
@@ -2774,6 +2780,10 @@ pub
 fn
 parse
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -3181,6 +3191,7 @@ Length
 :
 parse_non_negative
 (
+context
 input
 )
 ?

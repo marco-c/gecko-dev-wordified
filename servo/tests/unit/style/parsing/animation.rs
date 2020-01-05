@@ -134,7 +134,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 use
 style_traits

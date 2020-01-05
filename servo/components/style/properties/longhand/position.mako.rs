@@ -1033,9 +1033,6 @@ extra_prefixes
 "
 webkit
 "
-needs_context
-=
-False
 animation_type
 =
 "
@@ -1093,9 +1090,6 @@ extra_prefixes
 "
 webkit
 "
-needs_context
-=
-False
 animation_type
 =
 "
@@ -1485,9 +1479,6 @@ Auto
 "
 parse_non_negative
 "
-needs_context
-=
-False
 spec
 =
 "
@@ -1635,9 +1626,6 @@ Auto
 "
 parse_non_negative
 "
-needs_context
-=
-False
 spec
 =
 spec
@@ -2369,9 +2357,6 @@ Au
 "
 parse_non_negative
 "
-needs_context
-=
-False
 spec
 =
 spec
@@ -2424,9 +2409,6 @@ None
 "
 parse_non_negative
 "
-needs_context
-=
-False
 spec
 =
 spec

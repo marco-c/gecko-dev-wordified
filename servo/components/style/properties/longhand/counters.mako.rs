@@ -2684,7 +2684,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -2705,6 +2705,7 @@ SpecifiedValue
 {
 parse_common
 (
+context
 1
 input
 )
@@ -2713,6 +2714,10 @@ pub
 fn
 parse_common
 (
+context
+:
+&
+ParserContext
 default_value
 :
 i32
@@ -2863,6 +2868,7 @@ specified
 :
 parse_integer
 (
+context
 input
 )
 )
@@ -2994,7 +3000,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -3015,6 +3021,7 @@ SpecifiedValue
 {
 parse_common
 (
+context
 0
 input
 )

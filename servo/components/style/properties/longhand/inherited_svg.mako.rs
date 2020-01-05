@@ -632,9 +632,6 @@ animation_type
 "
 normal
 "
-needs_context
-=
-False
 spec
 =
 "
@@ -786,9 +783,6 @@ products
 "
 gecko
 "
-needs_context
-=
-False
 animation_type
 =
 "
@@ -981,9 +975,6 @@ animation_type
 "
 normal
 "
-needs_context
-=
-False
 spec
 =
 "

@@ -216,7 +216,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 SupportsRule
+}
 ;
 use
 style
@@ -579,6 +582,13 @@ win
 .
 css_error_reporter
 (
+)
+Some
+(
+CssRuleType
+:
+:
+Supports
 )
 )
 ;

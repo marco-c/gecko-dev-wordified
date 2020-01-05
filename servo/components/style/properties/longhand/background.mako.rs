@@ -3561,7 +3561,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -3658,6 +3658,7 @@ LengthOrPercentageOrAuto
 :
 parse_non_negative
 (
+context
 input
 )
 )
@@ -3693,6 +3694,7 @@ LengthOrPercentageOrAuto
 :
 parse_non_negative
 (
+context
 input
 )
 )

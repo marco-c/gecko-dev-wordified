@@ -96,7 +96,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 #
 [
@@ -154,6 +157,13 @@ Author
 url
 &
 reporter
+Some
+(
+CssRuleType
+:
+:
+Style
+)
 )
 ;
 let

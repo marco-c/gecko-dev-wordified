@@ -310,9 +310,6 @@ gecko_ffi_name
 "
 mBoxFlex
 "
-needs_context
-=
-False
 animation_type
 =
 "
@@ -622,9 +619,6 @@ parse_method
 "
 parse_non_negative
 "
-needs_context
-=
-False
 products
 =
 "
