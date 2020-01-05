@@ -2917,6 +2917,7 @@ is
 marked
 unsafe
 .
+pub
 unsafe
 fn
 get_jsmanaged

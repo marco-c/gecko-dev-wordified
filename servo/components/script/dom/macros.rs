@@ -3428,6 +3428,14 @@ SetOntoggle
 event_handler
 !
 (
+transitionend
+GetOntransitionend
+SetOntransitionend
+)
+;
+event_handler
+!
+(
 volumechange
 GetOnvolumechange
 SetOnvolumechange

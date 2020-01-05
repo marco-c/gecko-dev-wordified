@@ -3430,6 +3430,11 @@ start_transitions_if_applicable
 (
 new_animations_sender
 this_opaque
+self
+.
+to_unsafe
+(
+)
 &
 *
 *
