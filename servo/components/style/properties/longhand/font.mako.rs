@@ -1438,6 +1438,13 @@ HeapSizeOf
 Debug
 )
 ]
+#
+[
+repr
+(
+u16
+)
+]
 pub
 enum
 T

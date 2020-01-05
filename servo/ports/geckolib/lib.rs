@@ -134,6 +134,10 @@ cssparser
 ;
 extern
 crate
+env_logger
+;
+extern
+crate
 euclid
 ;
 extern
