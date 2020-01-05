@@ -35899,10 +35899,12 @@ DecApproximateVisibleCount
 VisibleFrames
 &
 aFrames
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 /
 *
@@ -36305,10 +36307,12 @@ PresShell
 :
 ClearApproximatelyVisibleFramesList
 (
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 /
 *

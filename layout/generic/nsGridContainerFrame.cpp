@@ -36399,10 +36399,12 @@ GridItemInfo
 aGridItemInfo
 nsSize
 aContainerSize
+const
 Maybe
 <
 nscoord
 >
+&
 aStretchBSize
 const
 Fragmentainer

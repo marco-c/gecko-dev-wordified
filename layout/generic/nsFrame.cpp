@@ -10489,10 +10489,12 @@ nsIFrame
 :
 DecApproximateVisibleCount
 (
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 /
 *
@@ -10745,10 +10747,12 @@ OnVisibilityChange
 (
 Visibility
 aNewVisibility
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 /
 *

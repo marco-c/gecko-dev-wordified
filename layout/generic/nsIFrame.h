@@ -10382,10 +10382,12 @@ OnVisibilityChange
 (
 Visibility
 aNewVisibility
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 =
 Nothing
@@ -10695,10 +10697,12 @@ possible
 void
 DecApproximateVisibleCount
 (
+const
 Maybe
 <
 OnNonvisible
 >
+&
 aNonvisibleAction
 =
 Nothing

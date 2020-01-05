@@ -1266,6 +1266,7 @@ LayerComposite
 aLayer
 RenderTargetIntRect
 aClipRect
+const
 Maybe
 <
 gfx
@@ -1273,6 +1274,7 @@ gfx
 :
 Polygon
 >
+&
 aGeometry
 )
 :
