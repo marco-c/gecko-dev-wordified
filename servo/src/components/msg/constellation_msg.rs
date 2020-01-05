@@ -197,6 +197,8 @@ Messages
 from
 the
 compositor
+and
+script
 to
 the
 constellation
@@ -216,6 +218,11 @@ SubpageId
 )
 InitLoadUrlMsg
 (
+Url
+)
+LoadCompleteMsg
+(
+PipelineId
 Url
 )
 FrameRectMsg
