@@ -1957,11 +1957,6 @@ its
 MIME
 type
 .
-*
-aIsDocument
-=
-false
-;
 if
 (
 !
@@ -1976,6 +1971,11 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
+*
+aIsDocument
+=
+false
+;
 nsLoadFlags
 loadFlags
 ;
