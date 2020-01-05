@@ -2087,6 +2087,9 @@ WorkQueue
 :
 new
 (
+"
+LayoutWorker
+"
 opts
 .
 layout_threads
