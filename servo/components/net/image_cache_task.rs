@@ -894,7 +894,7 @@ Msg
 The
 state
 of
-processsing
+processing
 an
 image
 for

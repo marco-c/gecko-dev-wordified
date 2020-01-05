@@ -1020,7 +1020,7 @@ Issue
 dynamic
 freeze
 scope
-artifically
+artificially
 extended
 let
 font_ptr
@@ -1985,7 +1985,7 @@ complex
 glyph
 -
 character
-assocations
+associations
 2
 +
 glyphs

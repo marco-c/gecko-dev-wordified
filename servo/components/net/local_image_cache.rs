@@ -781,7 +781,7 @@ the
 compositor
 should
 be
-resonsible
+responsible
 for
 waiting
 /

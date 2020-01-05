@@ -938,7 +938,7 @@ when
 a
 browser
 has
-recieved
+received
 a
 request
 to
@@ -2792,7 +2792,7 @@ when
 a
 browser
 has
-recieved
+received
 a
 request
 to

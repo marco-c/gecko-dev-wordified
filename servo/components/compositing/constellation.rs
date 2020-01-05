@@ -5733,7 +5733,7 @@ pending
 changes
 would
 be
-overriden
+overridden
 by
 changing
 the

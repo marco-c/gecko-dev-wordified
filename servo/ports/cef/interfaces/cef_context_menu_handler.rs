@@ -2007,7 +2007,7 @@ menu
 state
 .
 The
-ethods
+methods
 of
 this
 /
@@ -3222,7 +3222,7 @@ menu
 state
 .
 The
-ethods
+methods
 of
 this
 /

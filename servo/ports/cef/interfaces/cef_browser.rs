@@ -5808,7 +5808,7 @@ searches
 /
 /
 running
-simultaniously
+simultaneously
 .
 |
 forward
@@ -7733,7 +7733,7 @@ before
 /
 DragSource
 *
-mthods
+methods
 .
 This
 function
@@ -7860,7 +7860,7 @@ called
 before
 DragSource
 *
-mthods
+methods
 .
 /
 /
@@ -9954,7 +9954,7 @@ searches
 /
 /
 running
-simultaniously
+simultaneously
 .
 |
 forward
@@ -13258,7 +13258,7 @@ before
 /
 DragSource
 *
-mthods
+methods
 .
 This
 function
@@ -13449,7 +13449,7 @@ called
 before
 DragSource
 *
-mthods
+methods
 .
 /
 /

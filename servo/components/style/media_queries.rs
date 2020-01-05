@@ -1620,7 +1620,7 @@ found
 .
 /
 /
-Otherwse
+Otherwise
 create
 a
 '

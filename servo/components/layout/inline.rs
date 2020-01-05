@@ -1424,7 +1424,7 @@ the
 greatest
 extent
 from
-wich
+which
 a
 line
 can
@@ -2880,7 +2880,7 @@ splittable
 ;
 /
 /
-Initally
+Initially
 pretend
 a
 splittable

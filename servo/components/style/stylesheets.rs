@@ -297,7 +297,7 @@ TODO
 incremental
 decoding
 and
-tokinization
+tokenization
 /
 parsing
 for

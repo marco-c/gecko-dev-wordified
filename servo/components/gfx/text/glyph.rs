@@ -2532,7 +2532,7 @@ surprisingly
 hard
 .
 The
-follwing
+following
 /
 /
 code

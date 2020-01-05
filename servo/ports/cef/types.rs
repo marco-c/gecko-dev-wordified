@@ -1798,7 +1798,7 @@ The
 actual
 key
 code
-genenerated
+generated
 by
 the
 platform
@@ -4073,7 +4073,7 @@ white
 Only
 the
 RGB
-compontents
+components
 of
 the
 specified
@@ -7082,7 +7082,7 @@ of
 position
 measurement
 in
-miliseconds
+milliseconds
 since
 Epoch
 in

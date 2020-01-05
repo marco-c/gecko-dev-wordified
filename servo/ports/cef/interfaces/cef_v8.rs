@@ -7866,7 +7866,7 @@ i32
 /
 Return
 an
-unisgned
+unsigned
 int
 value
 .
@@ -11896,7 +11896,7 @@ c_object
 /
 Return
 an
-unisgned
+unsigned
 int
 value
 .

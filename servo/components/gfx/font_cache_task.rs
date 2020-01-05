@@ -243,7 +243,7 @@ that
 matches
 a
 given
-desriptor
+descriptor
 .
 fn
 find_font_for_style

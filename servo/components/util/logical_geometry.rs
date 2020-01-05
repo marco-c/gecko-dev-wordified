@@ -184,7 +184,7 @@ FLAG_VERTICAL
 /
 /
 /
-Asuming
+Assuming
 .
 is_vertical
 (
@@ -223,7 +223,7 @@ FLAG_VERTICAL_LR
 /
 /
 /
-Asuming
+Assuming
 .
 is_vertical
 (
@@ -2692,7 +2692,7 @@ happens
 when
 dealing
 with
-mutliple
+multiple
 origins
 .
 #

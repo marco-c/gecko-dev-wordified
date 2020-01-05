@@ -1763,7 +1763,7 @@ should
 /
 /
 still
-undersrtand
+understand
 why
 they
 occur
