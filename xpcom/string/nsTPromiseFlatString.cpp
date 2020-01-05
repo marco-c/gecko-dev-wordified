@@ -170,7 +170,9 @@ mFlags
 =
 str
 .
-mFlags
+Flags
+(
+)
 &
 (
 F_TERMINATED
