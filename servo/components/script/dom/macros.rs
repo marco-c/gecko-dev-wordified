@@ -1021,11 +1021,9 @@ default
 :
 expr
 (
-(
 choices
 :
 pat
-)
 )
 |
 +

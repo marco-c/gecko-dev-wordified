@@ -2221,13 +2221,11 @@ crossorigin
 "
 anonymous
 "
-(
 "
 use
 -
 credentials
 "
-)
 )
 ;
 /
