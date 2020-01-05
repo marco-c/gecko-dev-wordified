@@ -66,10 +66,6 @@ warnings
 ]
 extern
 crate
-app_units
-;
-extern
-crate
 atomic_refcell
 ;
 extern
@@ -79,10 +75,6 @@ cssparser
 extern
 crate
 env_logger
-;
-extern
-crate
-euclid
 ;
 #
 [

@@ -3127,6 +3127,8 @@ apply_declarations
 context
 .
 viewport_size
+(
+)
 /
 *
 is_root
