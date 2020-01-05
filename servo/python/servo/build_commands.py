@@ -3467,7 +3467,12 @@ path
 .
 abspath
 (
+path
+.
+expanduser
+(
 with_gecko
+)
 )
         
 if
