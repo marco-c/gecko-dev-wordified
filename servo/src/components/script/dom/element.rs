@@ -203,6 +203,15 @@ use
 std
 :
 :
+ascii
+:
+:
+StrAsciiExt
+;
+use
+std
+:
+:
 FromStr
 ;
 pub
@@ -865,6 +874,10 @@ self
 tag_name
 .
 to_owned
+(
+)
+.
+to_ascii_upper
 (
 )
 )
