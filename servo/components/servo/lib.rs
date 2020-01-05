@@ -744,6 +744,15 @@ mpsc
 Sender
 ;
 use
+webrender
+:
+:
+renderer
+:
+:
+RendererKind
+;
+use
 webvr
 :
 :
@@ -1222,9 +1231,6 @@ should_use_osmesa
 (
 )
 {
-webrender_traits
-:
-:
 RendererKind
 :
 :
@@ -1232,9 +1238,6 @@ OSMesa
 }
 else
 {
-webrender_traits
-:
-:
 RendererKind
 :
 :
