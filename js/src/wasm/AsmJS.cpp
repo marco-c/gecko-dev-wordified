@@ -46285,7 +46285,7 @@ parser
 .
 handler
 .
-newFunctionDefinition
+newFunctionStatement
 (
 )
 ;
