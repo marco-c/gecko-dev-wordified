@@ -56,7 +56,7 @@ s
 )
 ;
 }
-o
+o1
 =
 initWasm
 (
@@ -143,7 +143,7 @@ wasm
 <
 uri
 -
-econded
+encoded
 -
 filename
 -
