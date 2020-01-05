@@ -99,13 +99,6 @@ GFX_PLATFORM_ANDROID_H
 #
 include
 "
-gfxFT2Fonts
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h

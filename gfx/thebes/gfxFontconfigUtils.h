@@ -253,6 +253,19 @@ public
 :
 gfxFontconfigFontBase
 (
+const
+RefPtr
+<
+mozilla
+:
+:
+gfx
+:
+:
+UnscaledFontFontconfig
+>
+&
+aUnscaledFont
 cairo_scaled_font_t
 *
 aScaledFont
@@ -270,6 +283,7 @@ aFontStyle
 :
 gfxFT2FontBase
 (
+aUnscaledFont
 aScaledFont
 aFontEntry
 aFontStyle

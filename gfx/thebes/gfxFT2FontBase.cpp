@@ -148,6 +148,13 @@ gfxFT2FontBase
 :
 gfxFT2FontBase
 (
+const
+RefPtr
+<
+UnscaledFontFreeType
+>
+&
+aUnscaledFont
 cairo_scaled_font_t
 *
 aScaledFont
@@ -162,6 +169,7 @@ aFontStyle
 :
 gfxFont
 (
+aUnscaledFont
 aFontEntry
 aFontStyle
 kAntialiasDefault

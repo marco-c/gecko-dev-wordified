@@ -228,6 +228,13 @@ ScaledFontMac
 (
 CGFontRef
 aFont
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 )

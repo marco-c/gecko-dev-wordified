@@ -349,6 +349,7 @@ new
 ScaledFontWin
 (
 logFont
+nullptr
 aGlyphSize
 )
 ;

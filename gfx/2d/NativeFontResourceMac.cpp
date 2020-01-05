@@ -1168,6 +1168,7 @@ new
 ScaledFontMac
 (
 mFontRef
+nullptr
 aGlyphSize
 )
 ;

@@ -134,6 +134,13 @@ const
 LOGFONT
 *
 aFont
+const
+RefPtr
+<
+UnscaledFont
+>
+&
+aUnscaledFont
 Float
 aSize
 )

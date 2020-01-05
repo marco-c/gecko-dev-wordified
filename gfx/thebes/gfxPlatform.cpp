@@ -7418,6 +7418,12 @@ nativeFont
 aFont
 -
 >
+GetUnscaledFont
+(
+)
+aFont
+-
+>
 GetAdjustedSize
 (
 )
@@ -13794,6 +13800,12 @@ Factory
 CreateScaledFontForNativeFont
 (
 nativeFont
+aFont
+-
+>
+GetUnscaledFont
+(
+)
 aFont
 -
 >

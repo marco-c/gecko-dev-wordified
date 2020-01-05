@@ -1023,6 +1023,19 @@ gfxFT2Font
 :
 gfxFT2Font
 (
+const
+RefPtr
+<
+mozilla
+:
+:
+gfx
+:
+:
+UnscaledFontFreeType
+>
+&
+aUnscaledFont
 cairo_scaled_font_t
 *
 aCairoFont
@@ -1039,6 +1052,7 @@ aNeedsBold
 :
 gfxFT2FontBase
 (
+aUnscaledFont
 aCairoFont
 aFontEntry
 aFontStyle

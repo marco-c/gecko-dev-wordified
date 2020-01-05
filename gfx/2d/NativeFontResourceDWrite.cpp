@@ -1388,6 +1388,7 @@ new
 ScaledFontDWrite
 (
 fontFace
+nullptr
 aGlyphSize
 )
 ;
