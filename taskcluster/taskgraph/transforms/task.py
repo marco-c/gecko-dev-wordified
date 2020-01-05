@@ -2687,6 +2687,20 @@ e10s
 '
     
 '
+tc
+-
+L10n
+'
+:
+'
+Localised
+Repacks
+executed
+by
+Taskcluster
+'
+    
+'
 Aries
 '
 :
