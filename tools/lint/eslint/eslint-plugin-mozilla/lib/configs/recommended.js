@@ -388,13 +388,7 @@ complexity
 "
 error
 "
-{
-"
-max
-"
-:
-35
-}
+32
 ]
 /
 /

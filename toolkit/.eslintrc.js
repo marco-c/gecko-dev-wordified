@@ -60,13 +60,7 @@ complexity
 "
 error
 "
-{
-"
-max
-"
-:
-48
-}
+41
 ]
 }
 }
