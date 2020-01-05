@@ -528,9 +528,6 @@ WidgetPointerHelper
 {
 public
 :
-bool
-convertToPointer
-;
 uint32_t
 pointerId
 ;
@@ -539,6 +536,9 @@ tiltX
 ;
 uint32_t
 tiltY
+;
+bool
+convertToPointer
 ;
 bool
 retargetedByPointerCapture
@@ -547,10 +547,6 @@ WidgetPointerHelper
 (
 )
 :
-convertToPointer
-(
-true
-)
 pointerId
 (
 0
@@ -562,6 +558,10 @@ tiltX
 tiltY
 (
 0
+)
+convertToPointer
+(
+true
 )
 retargetedByPointerCapture
 (
@@ -578,12 +578,6 @@ WidgetPointerHelper
 aEvent
 )
 {
-convertToPointer
-=
-aEvent
-.
-convertToPointer
-;
 pointerId
 =
 aEvent
@@ -601,6 +595,12 @@ tiltY
 aEvent
 .
 tiltY
+;
+convertToPointer
+=
+aEvent
+.
+convertToPointer
 ;
 retargetedByPointerCapture
 =
