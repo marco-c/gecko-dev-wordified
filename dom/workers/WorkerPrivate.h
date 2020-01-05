@@ -2352,7 +2352,7 @@ mLoadInfo
 mPrincipal
 ;
 }
-nsresult
+void
 SetPrincipalOnMainThread
 (
 nsIPrincipal
