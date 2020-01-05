@@ -330,6 +330,9 @@ empty_mozconfig
 }
 [
 '
+configure
+'
+'
 -
 -
 enable

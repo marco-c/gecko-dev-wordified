@@ -2960,6 +2960,9 @@ ConfigureSandbox
 {
 }
 [
+'
+configure
+'
 ]
 out
 out
