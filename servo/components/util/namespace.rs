@@ -65,6 +65,7 @@ PartialEq
 Clone
 Encodable
 Hash
+Show
 )
 ]
 pub
