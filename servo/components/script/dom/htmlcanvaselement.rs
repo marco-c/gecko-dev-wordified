@@ -1394,11 +1394,8 @@ WebGLRenderingContext
 :
 new
 (
+&
 window
-.
-upcast
-(
-)
 self
 size
 attrs

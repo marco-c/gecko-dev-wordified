@@ -2258,10 +2258,6 @@ ExtendableEvent
 new
 (
 self
-.
-upcast
-(
-)
 atom
 !
 (

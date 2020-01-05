@@ -102,10 +102,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 #
 [
@@ -151,7 +151,7 @@ Escape
 _
 :
 &
-GlobalScope
+Window
 ident
 :
 DOMString

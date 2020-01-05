@@ -129,10 +129,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 use
 webrender_traits
@@ -197,10 +197,10 @@ pub
 fn
 new
 (
-global
+window
 :
 &
-GlobalScope
+Window
 id
 :
 i32
@@ -226,7 +226,7 @@ new_inherited
 id
 program_id
 )
-global
+window
 WebGLUniformLocationBinding
 :
 :

@@ -159,10 +159,10 @@ use
 dom
 :
 :
-globalscope
+window
 :
 :
-GlobalScope
+Window
 ;
 #
 [
@@ -243,10 +243,10 @@ pub
 fn
 new
 (
-global
+window
 :
 &
-GlobalScope
+Window
 size
 :
 i32
@@ -276,7 +276,7 @@ size
 ty
 name
 )
-global
+window
 WebGLActiveInfoBinding
 :
 :
