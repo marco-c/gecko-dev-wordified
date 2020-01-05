@@ -1020,6 +1020,11 @@ public
 Builder
 forTopSiteType
 (
+BrowserContract
+.
+TopSites
+.
+TopSiteType
 int
 type
 )
@@ -1111,6 +1116,13 @@ by
 Activity
 Stream
 .
+case
+BrowserContract
+.
+TopSites
+.
+TYPE_BLANK
+:
 default
 :
 throw
