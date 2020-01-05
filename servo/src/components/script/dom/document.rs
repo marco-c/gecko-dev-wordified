@@ -6436,7 +6436,11 @@ attr
 {
 attr
 .
-value_ref
+value
+(
+)
+.
+as_slice
 (
 )
 =
