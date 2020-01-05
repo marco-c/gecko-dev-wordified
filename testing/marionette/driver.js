@@ -1068,7 +1068,7 @@ this
 .
 searchTimeout
 =
-null
+0
 ;
 this
 .
