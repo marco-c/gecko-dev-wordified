@@ -4165,7 +4165,6 @@ Au
 >
 {
 let
-mut
 style_border_width
 =
 match
@@ -4504,7 +4503,6 @@ _
 >
 {
 let
-mut
 style_padding
 =
 match
