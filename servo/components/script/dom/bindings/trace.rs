@@ -663,6 +663,7 @@ constellation_msg
 :
 :
 {
+FrameType
 PipelineId
 SubpageId
 WindowSizeData
@@ -2324,6 +2325,7 @@ structs
 no_jsmanaged_fields
 !
 (
+FrameType
 SubpageId
 WindowSizeData
 WindowSizeType
