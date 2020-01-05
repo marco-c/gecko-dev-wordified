@@ -446,16 +446,6 @@ kAllocJunk
 *
 /
 jemalloc_bool
-opt_sysv
-;
-/
-*
-SysV
-semantics
-?
-*
-/
-jemalloc_bool
 opt_xmalloc
 ;
 /
