@@ -187,7 +187,7 @@ to
 no
 throttling
 yield
-switchNetworkThrottling
+selectNetworkThrottling
 (
 ui
 "
@@ -341,7 +341,7 @@ profile
 )
 {
 yield
-switchNetworkThrottling
+selectNetworkThrottling
 (
 ui
 profile

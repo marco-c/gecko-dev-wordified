@@ -331,7 +331,7 @@ with
 custom
 properties
 yield
-switchDevice
+selectDevice
 (
 ui
 "
@@ -482,7 +482,7 @@ with
 generic
 properties
 yield
-switchDevice
+selectDevice
 (
 ui
 "
