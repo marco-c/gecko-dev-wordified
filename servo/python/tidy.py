@@ -3416,22 +3416,14 @@ pointer
 dereferencing
         
 if
-re
-.
-search
-(
-r
 "
 :
 &
 Vec
 <
 "
+in
 line
-)
-is
-not
-None
 :
             
 yield
