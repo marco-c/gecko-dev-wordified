@@ -165,6 +165,12 @@ TokenSerializationType
 }
 ;
 use
+error_reporting
+:
+:
+ParseErrorReporter
+;
+use
 url
 :
 :
@@ -203,12 +209,6 @@ fnv
 :
 :
 FnvHasher
-;
-use
-msg
-:
-:
-ParseErrorReporter
 ;
 use
 string_cache
@@ -858,7 +858,7 @@ Shorthand
 %
 endif
 use
-msg
+error_reporting
 :
 :
 ParseErrorReporter

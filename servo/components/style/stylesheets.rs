@@ -83,6 +83,12 @@ encoding
 EncodingRef
 ;
 use
+error_reporting
+:
+:
+ParseErrorReporter
+;
+use
 font_face
 :
 :
@@ -100,12 +106,6 @@ Device
 MediaQueryList
 parse_media_query_list
 }
-;
-use
-msg
-:
-:
-ParseErrorReporter
 ;
 use
 parser

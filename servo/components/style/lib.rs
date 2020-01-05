@@ -206,10 +206,6 @@ matches
 ;
 extern
 crate
-msg
-;
-extern
-crate
 num
 ;
 extern
@@ -289,6 +285,10 @@ data
 pub
 mod
 dom
+;
+pub
+mod
+error_reporting
 ;
 pub
 mod

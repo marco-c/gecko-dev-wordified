@@ -87,7 +87,10 @@ media_queries
 CSSErrorReporterTest
 ;
 use
-msg
+style
+:
+:
+error_reporting
 :
 :
 ParseErrorReporter
