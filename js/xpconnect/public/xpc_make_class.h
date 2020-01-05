@@ -239,7 +239,7 @@ result
 )
 ;
 bool
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 (
 JSContext
 *
@@ -610,7 +610,7 @@ ALLOW_PROP_MODS_DURING_RESOLVE
 XPC_WN_MaybeResolvingDeletePropertyStub
 \
 :
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 \
 \
 /

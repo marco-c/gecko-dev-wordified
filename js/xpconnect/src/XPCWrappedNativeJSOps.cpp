@@ -3358,7 +3358,7 @@ cx
 ;
 }
 bool
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 (
 JSContext
 *
@@ -4307,7 +4307,7 @@ XPC_WN_OnlyIWrite_AddPropertyStub
 /
 /
 addProperty
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 /
 /
 delProperty
@@ -8067,7 +8067,7 @@ XPC_WN_OnlyIWrite_Proto_AddPropertyStub
 /
 /
 addProperty
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 /
 /
 delProperty
@@ -8591,7 +8591,7 @@ XPC_WN_OnlyIWrite_AddPropertyStub
 /
 /
 addProperty
-XPC_WN_CantDeletePropertyStub
+XPC_WN_CannotDeletePropertyStub
 /
 /
 delProperty
