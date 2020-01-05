@@ -1781,7 +1781,9 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 )
 {
@@ -5839,7 +5841,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_RANGE

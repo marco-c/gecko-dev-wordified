@@ -11051,7 +11051,9 @@ aChildFrame
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 widgetMinSize
 &
