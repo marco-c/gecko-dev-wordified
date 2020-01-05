@@ -9989,8 +9989,6 @@ name
 ;
 if
 (
-!
-!
 currentAnno
 )
 {

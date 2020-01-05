@@ -184,8 +184,8 @@ initDialog
 {
 gDialog
 =
-new
-Object
+{
+}
 ;
 gDialog
 .

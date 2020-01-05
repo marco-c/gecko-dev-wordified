@@ -9309,10 +9309,8 @@ options
 aOptions
 |
 |
-new
-Object
-(
-)
+{
+}
 }
 )
 ;

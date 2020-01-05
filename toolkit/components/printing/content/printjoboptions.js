@@ -528,8 +528,8 @@ printBundle
 ;
 dialog
 =
-new
-Object
+{
+}
 ;
 dialog
 .
@@ -1360,10 +1360,8 @@ i
 var
 obj
 =
-new
-Object
-(
-)
+{
+}
 ;
 obj
 .
@@ -1640,10 +1638,8 @@ i
 var
 obj
 =
-new
-Object
-(
-)
+{
+}
 ;
 obj
 .

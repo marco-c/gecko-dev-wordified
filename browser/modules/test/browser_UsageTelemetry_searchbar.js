@@ -77,16 +77,6 @@ value
 =
 inputText
 ;
-/
-/
-sb
-.
-textbox
-.
-openPopup
-(
-)
-;
 sb
 .
 textbox

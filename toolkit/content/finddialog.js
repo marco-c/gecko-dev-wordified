@@ -175,8 +175,8 @@ initialize
 .
 dialog
 =
-new
-Object
+{
+}
 ;
 dialog
 .
