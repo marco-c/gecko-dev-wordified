@@ -3515,13 +3515,13 @@ ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
-'
+"
 TypedArray
 .
 prototype
 .
 forEach
-'
+"
 )
 ;
 if
@@ -4773,7 +4773,7 @@ ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
-'
+"
 %
 TypedArray
 %
@@ -4781,7 +4781,7 @@ TypedArray
 prototype
 .
 map
-'
+"
 )
 ;
 if

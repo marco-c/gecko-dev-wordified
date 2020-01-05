@@ -113,12 +113,12 @@ target
 ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
-'
+"
 Function
-'
-'
+"
+"
 bind
-'
+"
 target
 )
 ;
