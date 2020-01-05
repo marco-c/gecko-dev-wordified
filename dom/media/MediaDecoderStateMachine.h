@@ -1716,6 +1716,12 @@ class
 SeekingState
 ;
 class
+AccurateSeekingState
+;
+class
+NextFrameSeekingState
+;
+class
 BufferingState
 ;
 class
