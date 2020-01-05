@@ -28641,7 +28641,7 @@ GetWritingMode
 WritingMode
 lineWM
 =
-GetWritingMode
+WritingModeForLine
 (
 outerWM
 aLine

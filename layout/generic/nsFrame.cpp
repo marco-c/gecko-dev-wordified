@@ -7521,7 +7521,7 @@ WritingMode
 nsIFrame
 :
 :
-GetWritingMode
+WritingModeForLine
 (
 WritingMode
 aSelfWM

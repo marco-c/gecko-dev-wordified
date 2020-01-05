@@ -1178,7 +1178,7 @@ floating
 WritingMode
 kidWritingMode
 =
-GetWritingMode
+WritingModeForLine
 (
 wm
 kid
