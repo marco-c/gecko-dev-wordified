@@ -2293,7 +2293,7 @@ websocket
 -
 send
 fn
-Send_Impl
+send_impl
 (
 &
 self
@@ -2965,7 +2965,7 @@ try
 (
 self
 .
-Send_Impl
+send_impl
 (
 data_byte_len
 )
@@ -3145,7 +3145,7 @@ try
 (
 self
 .
-Send_Impl
+send_impl
 (
 data_byte_len
 )
