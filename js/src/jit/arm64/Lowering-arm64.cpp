@@ -1086,9 +1086,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSUnsignedToDouble
+visitWasmUnsignedToDouble
 (
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 *
 ins
 )
@@ -1096,7 +1096,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSUnsignedToDouble
+visitWasmUnsignedToDouble
 "
 )
 ;

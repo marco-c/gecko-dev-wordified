@@ -28703,7 +28703,7 @@ js
 )
 .
 class
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 :
 public
 MUnaryInstruction
@@ -28714,7 +28714,7 @@ NoTypePolicy
 Data
 {
 explicit
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 (
 MDefinition
 *
@@ -28743,10 +28743,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSUnsignedToDouble
+WasmUnsignedToDouble
 )
 static
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 *
 NewAsmJS
 (
@@ -28763,7 +28763,7 @@ new
 (
 alloc
 )
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 (
 def
 )

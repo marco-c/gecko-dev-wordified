@@ -754,9 +754,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSUnsignedToDouble
+visitWasmUnsignedToDouble
 (
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 *
 ins
 )

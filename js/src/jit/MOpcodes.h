@@ -1469,7 +1469,7 @@ AsmJSNeg
 \
 _
 (
-AsmJSUnsignedToDouble
+WasmUnsignedToDouble
 )
 \
 _

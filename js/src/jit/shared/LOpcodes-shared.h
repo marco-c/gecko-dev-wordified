@@ -2163,7 +2163,7 @@ AsmJSAtomicBinopHeapForEffect
 \
 _
 (
-AsmJSUInt32ToDouble
+WasmUint32ToDouble
 )
 \
 _

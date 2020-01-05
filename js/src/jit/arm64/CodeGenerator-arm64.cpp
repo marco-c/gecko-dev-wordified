@@ -1971,9 +1971,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSUInt32ToDouble
+visitWasmUint32ToDouble
 (
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 *
 lir
 )
@@ -1981,7 +1981,7 @@ lir
 MOZ_CRASH
 (
 "
-visitAsmJSUInt32ToDouble
+visitWasmUint32ToDouble
 "
 )
 ;

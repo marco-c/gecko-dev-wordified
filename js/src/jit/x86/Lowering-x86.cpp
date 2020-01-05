@@ -1887,9 +1887,9 @@ void
 LIRGeneratorX86
 :
 :
-visitAsmJSUnsignedToDouble
+visitWasmUnsignedToDouble
 (
-MAsmJSUnsignedToDouble
+MWasmUnsignedToDouble
 *
 ins
 )
@@ -1915,7 +1915,7 @@ MIRType
 Int32
 )
 ;
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 *
 lir
 =
@@ -1925,7 +1925,7 @@ alloc
 (
 )
 )
-LAsmJSUInt32ToDouble
+LWasmUint32ToDouble
 (
 useRegisterAtStart
 (
