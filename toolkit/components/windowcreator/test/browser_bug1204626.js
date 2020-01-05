@@ -54,7 +54,11 @@ com
 /
 browser
 /
-embedding
+toolkit
+/
+components
+/
+windowcreator
 /
 test
 /
@@ -74,7 +78,11 @@ content
 /
 browser
 /
-embedding
+toolkit
+/
+components
+/
+windowcreator
 /
 test
 /
