@@ -9729,7 +9729,7 @@ PseudoStack
 *
 stack
 =
-mozilla_get_pseudo_stack
+profiler_get_pseudo_stack
 (
 )
 )
@@ -23687,7 +23687,7 @@ PseudoStack
 *
 stack
 =
-mozilla_get_pseudo_stack
+profiler_get_pseudo_stack
 (
 )
 )
