@@ -12406,6 +12406,9 @@ spacing
 types
 :
 [
+'
+lengthPercentageOrCalc
+'
 ]
 }
 '
