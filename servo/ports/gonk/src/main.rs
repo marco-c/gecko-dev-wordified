@@ -320,6 +320,12 @@ util
 :
 opts
 ;
+use
+util
+:
+:
+panicking
+;
 mod
 input
 ;
@@ -387,6 +393,13 @@ _
 as_slice
 (
 )
+)
+;
+panicking
+:
+:
+initiate_panic_hook
+(
 )
 ;
 let
