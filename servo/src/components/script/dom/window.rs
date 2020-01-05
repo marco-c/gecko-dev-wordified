@@ -81,7 +81,6 @@ utils
 {
 WrapperCache
 DOMString
-null_string
 Traceable
 }
 ;
@@ -98,6 +97,7 @@ utils
 {
 CacheableWrapper
 BindingObject
+null_str_as_empty
 }
 ;
 use
@@ -497,10 +497,9 @@ ALERT
 %
 s
 "
-s
-.
-to_str
+null_str_as_empty
 (
+s
 )
 )
 )
@@ -558,7 +557,7 @@ self
 >
 DOMString
 {
-null_string
+None
 }
 pub
 fn
@@ -584,7 +583,7 @@ self
 >
 DOMString
 {
-null_string
+None
 }
 pub
 fn
@@ -739,7 +738,7 @@ DOMString
 >
 DOMString
 {
-null_string
+None
 }
 pub
 fn

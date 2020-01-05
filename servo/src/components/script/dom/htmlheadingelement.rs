@@ -66,10 +66,7 @@ bindings
 utils
 :
 :
-{
 DOMString
-null_string
-}
 ;
 use
 dom
@@ -116,7 +113,7 @@ self
 >
 DOMString
 {
-null_string
+None
 }
 pub
 fn

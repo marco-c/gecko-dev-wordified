@@ -85,7 +85,7 @@ utils
 {
 WrapperCache
 DOMString
-str
+null_str_as_empty
 }
 ;
 use
@@ -284,7 +284,7 @@ filename
 .
 unwrap_or_default
 (
-str
+Some
 (
 ~
 "
@@ -300,10 +300,9 @@ data
 .
 insert
 (
-name
-.
-to_str
+null_str_as_empty
 (
+name
 )
 blob
 )
@@ -332,10 +331,9 @@ data
 .
 insert
 (
-name
-.
-to_str
+null_str_as_empty
 (
+name
 )
 StringData
 (
