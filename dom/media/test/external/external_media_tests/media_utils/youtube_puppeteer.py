@@ -2323,7 +2323,7 @@ A
 named
 tuple
 '
-yt_state_info
+player_state_info
 '
 derived
 from
@@ -2763,7 +2763,8 @@ We
 do
         
 this
-allin
+all
+in
 one
 so
 that
@@ -3539,9 +3540,9 @@ on
 ad
 '
 s
-current_time
             
 #
+current_time
 rather
 than
 current_time
@@ -3707,10 +3708,10 @@ _last_seen_player_state
 field
 )
 )
-                        
 .
 encode
 (
+                    
 '
 ascii
 '
