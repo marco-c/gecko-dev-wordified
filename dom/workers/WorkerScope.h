@@ -778,6 +778,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &
@@ -793,6 +796,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &
@@ -822,6 +828,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &

@@ -8313,6 +8313,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 mozilla
 :
@@ -8343,6 +8346,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 mozilla
 :
@@ -8381,6 +8387,9 @@ Promise
 >
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 mozilla
 :

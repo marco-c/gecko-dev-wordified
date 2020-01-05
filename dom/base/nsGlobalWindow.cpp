@@ -81172,6 +81172,9 @@ nsGlobalWindow
 :
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &
@@ -81232,6 +81235,9 @@ nsGlobalWindow
 :
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &
@@ -81316,6 +81322,9 @@ nsGlobalWindow
 :
 CreateImageBitmap
 (
+JSContext
+*
+aCx
 const
 ImageBitmapSource
 &
@@ -81346,7 +81355,7 @@ ImageBitmap
 :
 ExtensionsEnabled
 (
-nullptr
+aCx
 nullptr
 )
 )
