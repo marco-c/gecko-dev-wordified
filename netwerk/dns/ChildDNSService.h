@@ -245,6 +245,10 @@ const
 nsACString
 &
 aHost
+const
+OriginAttributes
+&
+aOriginAttributes
 uint32_t
 aFlags
 const

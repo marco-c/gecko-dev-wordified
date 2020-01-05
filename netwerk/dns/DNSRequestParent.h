@@ -171,6 +171,10 @@ const
 nsACString
 &
 hostname
+const
+OriginAttributes
+&
+originAttributes
 uint32_t
 flags
 const
@@ -219,6 +223,10 @@ const
 nsCString
 &
 hostName
+const
+OriginAttributes
+&
+originAttributes
 const
 uint32_t
 &

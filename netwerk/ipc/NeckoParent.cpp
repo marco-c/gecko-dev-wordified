@@ -3493,6 +3493,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags
@@ -3542,6 +3546,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags
@@ -3564,6 +3572,7 @@ aActor
 DoAsyncResolve
 (
 aHost
+aOriginAttributes
 aFlags
 aNetworkInterface
 )
