@@ -28907,7 +28907,7 @@ bool
 nsCSSBorderRenderer
 :
 :
-CanCreateWebrenderCommands
+CanCreateWebRenderCommands
 (
 )
 {

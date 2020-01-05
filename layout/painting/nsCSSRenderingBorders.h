@@ -673,7 +673,7 @@ DrawBorders
 )
 ;
 bool
-CanCreateWebrenderCommands
+CanCreateWebRenderCommands
 (
 )
 ;
