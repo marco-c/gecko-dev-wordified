@@ -1045,6 +1045,11 @@ size
 )
 )
 ;
+delete
+[
+]
+buffer
+;
 translator
 -
 >
