@@ -20167,6 +20167,7 @@ enum
 Type
 {
 ArrayIterator
+StringIterator
 }
 ;
 private

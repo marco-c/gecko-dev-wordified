@@ -671,6 +671,11 @@ _
 IntrinsicNewArrayIterator
 )
 \
+_
+(
+IntrinsicNewStringIterator
+)
+\
 \
 _
 (
