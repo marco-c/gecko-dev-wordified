@@ -5551,13 +5551,16 @@ XLang
 (
 SpecifiedLang
 (
+unsafe
+{
 Atom
 :
 :
-from
+from_addrefed
 (
 ptr
 )
+}
 )
 )
 Importance
