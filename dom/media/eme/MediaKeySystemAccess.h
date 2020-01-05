@@ -306,14 +306,9 @@ const
 nsAString
 &
 aKeySystem
-int32_t
-aMinCdmVersion
 nsACString
 &
 aOutExceptionMessage
-nsACString
-&
-aOutCdmVersion
 )
 ;
 static
