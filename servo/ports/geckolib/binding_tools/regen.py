@@ -1268,6 +1268,9 @@ StyleBasicShapeType
 "
 StyleBasicShape
 "
+"
+nsCSSShadowArray
+"
         
 ]
         

@@ -57,6 +57,9 @@ MPL
 *
 /
 mod
+ns_css_shadow_array
+;
+mod
 ns_style_auto_array
 ;
 pub
