@@ -194,9 +194,9 @@ mozilla
 .
 gecko
 .
-gfx
+util
 .
-BitmapUtils
+ResourceDrawableUtils
 ;
 import
 org
@@ -1123,7 +1123,7 @@ text
 )
 )
 ;
-BitmapUtils
+ResourceDrawableUtils
 .
 getDrawable
 (
@@ -1132,7 +1132,7 @@ getContext
 )
 iconURI
 new
-BitmapUtils
+ResourceDrawableUtils
 .
 BitmapLoader
 (
