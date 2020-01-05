@@ -184,6 +184,8 @@ void
 *
 *
 aPluginAPI
+uint32_t
+aDecryptorId
 )
 override
 ;
