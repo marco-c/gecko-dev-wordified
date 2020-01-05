@@ -789,10 +789,6 @@ value
 if
 url
 .
-as_slice
-(
-)
-.
 is_empty
 (
 )
@@ -836,11 +832,8 @@ get_url
 .
 parse
 (
+&
 url
-.
-as_slice
-(
-)
 )
 .
 ok

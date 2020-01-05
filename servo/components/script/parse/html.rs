@@ -2125,11 +2125,10 @@ AttrRef
 (
 &
 qname
+&
+*
+*
 value
-.
-as_slice
-(
-)
 )
 ;
 ar

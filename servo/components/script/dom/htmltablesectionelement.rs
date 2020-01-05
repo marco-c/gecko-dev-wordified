@@ -560,13 +560,10 @@ str
 :
 parse_legacy_color
 (
+&
 attr
 .
 value
-(
-)
-.
-as_slice
 (
 )
 )
