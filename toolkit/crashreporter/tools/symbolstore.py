@@ -6803,17 +6803,6 @@ makecab
 s
 output
             
-makecab
-=
-buildconfig
-.
-substs
-[
-'
-MAKECAB
-'
-]
-            
 success
 =
 subprocess
@@ -6821,9 +6810,13 @@ subprocess
 call
 (
 [
-makecab
 "
--
+makecab
+.
+exe
+"
+"
+/
 D
 "
                                        
