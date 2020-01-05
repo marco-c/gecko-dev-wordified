@@ -2315,6 +2315,10 @@ match
 &
 ns
 prefix_from_qname
+.
+clone
+(
+)
 local_name_from_qname
 .
 as_slice
@@ -2583,6 +2587,7 @@ new
 (
 local_name_from_qname
 ns
+prefix_from_qname
 abstract_self
 )
 )
