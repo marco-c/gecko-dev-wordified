@@ -795,10 +795,6 @@ nsString
 &
 &
 aLinks
-const
-PrincipalInfo
-&
-aTriggeringPrincipalInfo
 )
 override
 ;
