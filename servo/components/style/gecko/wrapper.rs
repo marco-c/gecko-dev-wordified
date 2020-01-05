@@ -310,12 +310,6 @@ nsStyleContext
 }
 ;
 use
-libc
-:
-:
-uintptr_t
-;
-use
 parking_lot
 :
 :
@@ -964,7 +958,7 @@ OpaqueNode
 let
 ptr
 :
-uintptr_t
+usize
 =
 self
 .
@@ -974,7 +968,7 @@ as
 const
 _
 as
-uintptr_t
+usize
 ;
 OpaqueNode
 (

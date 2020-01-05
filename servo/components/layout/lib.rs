@@ -267,6 +267,10 @@ range
 ;
 extern
 crate
+rayon
+;
+extern
+crate
 script_layout_interface
 ;
 extern
