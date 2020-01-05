@@ -159,10 +159,8 @@ cache
 .
 find_or_create
 (
-&
 2
 |
-_v
 |
 {
 Cell
@@ -561,10 +559,8 @@ cache
 .
 find_or_create
 (
-&
 1
 |
-_
 |
 {
 Cell
