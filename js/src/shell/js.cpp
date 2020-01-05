@@ -23273,6 +23273,11 @@ gOutFile
 fp
 )
 ;
+JS_ClearPendingException
+(
+cx
+)
+;
 }
 else
 {
