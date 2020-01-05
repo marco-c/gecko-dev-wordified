@@ -154,11 +154,15 @@ match
 file_reader
 (
 &
-Path
+from_str
 (
 url
 .
 path
+)
+.
+unwrap
+(
 )
 )
 {

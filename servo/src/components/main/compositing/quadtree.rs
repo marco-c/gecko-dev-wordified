@@ -123,9 +123,6 @@ std
 :
 :
 vec
-:
-:
-build_sized
 ;
 use
 std
@@ -5490,9 +5487,15 @@ br
 let
 quads_to_check
 =
-build_sized
+vec
+:
+:
+build
+(
+Some
 (
 4
+)
 builder
 )
 ;

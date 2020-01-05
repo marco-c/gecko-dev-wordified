@@ -590,7 +590,7 @@ before
 int
 f
 :
-float
+f64
 )
 -
 >
@@ -622,15 +622,15 @@ i32
 )
 -
 >
-float
+f64
 {
 f
 as
-float
+f64
 *
 1
 .
-0f
+0f64
 /
 (
 (
@@ -640,7 +640,7 @@ float
 before
 )
 as
-float
+f64
 )
 }
 pub

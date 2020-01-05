@@ -203,6 +203,7 @@ on_image_available
 :
 Option
 <
+~
 fn
 (
 )
@@ -285,6 +286,7 @@ mut
 self
 on_image_available
 :
+~
 fn
 (
 )
@@ -752,12 +754,15 @@ is_some
 let
 on_image_available
 =
+(
+*
 self
 .
 on_image_available
 .
-unwrap
+get_ref
 (
+)
 )
 (
 )

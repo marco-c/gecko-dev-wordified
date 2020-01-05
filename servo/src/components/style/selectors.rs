@@ -62,7 +62,7 @@ std
 :
 {
 vec
-iterator
+iter
 }
 ;
 use
@@ -405,7 +405,7 @@ str
 type
 Iter
 =
-iterator
+iter
 :
 :
 Peekable
@@ -2159,6 +2159,10 @@ Some
 namespaces
 .
 default
+.
+as_ref
+(
+)
 .
 map
 (

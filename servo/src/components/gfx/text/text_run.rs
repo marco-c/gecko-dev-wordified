@@ -460,6 +460,10 @@ offset
 to_int
 (
 )
+.
+unwrap
+(
+)
 )
 )
 ;
@@ -632,6 +636,10 @@ length
 to_int
 (
 )
+.
+unwrap
+(
+)
 )
 ;
 }
@@ -655,6 +663,10 @@ shift_by
 offset
 .
 to_int
+(
+)
+.
+unwrap
 (
 )
 )

@@ -279,10 +279,7 @@ extra
 future
 :
 :
-{
 Future
-from_value
-}
 ;
 /
 /
@@ -2521,6 +2518,9 @@ get_size
 (
 )
 ;
+Future
+:
+:
 from_value
 (
 Size2D
@@ -2684,6 +2684,9 @@ get_size
 (
 )
 ;
+Future
+:
+:
 from_value
 (
 Size2D
@@ -3149,7 +3152,7 @@ child
 ;
 found_child
 .
-map_move
+map
 (
 |
 child
@@ -3219,7 +3222,7 @@ child
 ;
 found_child
 .
-map_move
+map
 (
 |
 child

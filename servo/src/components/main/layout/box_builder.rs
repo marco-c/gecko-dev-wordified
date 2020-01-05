@@ -2868,7 +2868,11 @@ FlowContext
 =
 sibling_generator
 .
-map_mut
+as_mut
+(
+)
+.
+map
 (
 |
 gen

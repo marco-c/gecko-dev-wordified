@@ -66,7 +66,7 @@ use
 std
 :
 :
-iterator
+iter
 :
 :
 Iterator

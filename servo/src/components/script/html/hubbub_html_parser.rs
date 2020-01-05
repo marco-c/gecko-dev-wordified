@@ -314,10 +314,7 @@ extra
 future
 :
 :
-{
 Future
-from_port
-}
 ;
 use
 geom
@@ -3484,6 +3481,9 @@ oneshot
 let
 size_future
 =
+Future
+:
+:
 from_port
 (
 port

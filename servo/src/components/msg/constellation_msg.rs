@@ -291,6 +291,7 @@ Eq
 IterBytes
 )
 ]
+pub
 enum
 NavigationType
 {

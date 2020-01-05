@@ -425,6 +425,7 @@ size_t
 =
 1
 ;
+pub
 struct
 GlobalStaticData
 {
@@ -1301,7 +1302,7 @@ get_dom_class
 obj
 )
 .
-chain
+and_then
 |
 dom_class
 |
@@ -4153,7 +4154,7 @@ attr_id
 =
 id
 {
-loop
+continue
 ;
 }
 (
@@ -4813,7 +4814,7 @@ length
 as
 uint
 {
-loop
+continue
 ;
 }
 let

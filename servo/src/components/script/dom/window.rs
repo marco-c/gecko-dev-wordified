@@ -274,18 +274,6 @@ std
 rt
 :
 :
-rtio
-:
-:
-RtioTimer
-;
-use
-std
-:
-:
-rt
-:
-:
 io
 :
 :
@@ -428,6 +416,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {

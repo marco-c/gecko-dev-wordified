@@ -709,7 +709,7 @@ as_slice
 )
 )
 .
-map_move
+map
 (
 LP_Length
 )
@@ -955,7 +955,7 @@ as_slice
 )
 )
 .
-map_move
+map
 (
 LPA_Length
 )

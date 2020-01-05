@@ -288,6 +288,7 @@ fn
 drop
 (
 &
+mut
 self
 )
 {
@@ -1078,7 +1079,7 @@ ascent
 (
 )
 as
-float
+f64
 )
 ;
 let
@@ -1097,7 +1098,7 @@ descent
 (
 )
 as
-float
+f64
 )
 ;
 let
@@ -1116,7 +1117,7 @@ pt_size
 (
 )
 as
-float
+f64
 )
 ;
 let
@@ -1132,7 +1133,7 @@ pt_size
 (
 )
 as
-float
+f64
 )
 /
 (
@@ -1144,7 +1145,7 @@ ascent
 (
 )
 as
-float
+f64
 +
 self
 .
@@ -1154,7 +1155,7 @@ descent
 (
 )
 as
-float
+f64
 )
 ;
 let
@@ -1177,7 +1178,7 @@ underline_thickness
 (
 )
 as
-float
+f64
 )
 /
 /
@@ -1266,7 +1267,7 @@ underline_position
 (
 )
 as
-float
+f64
 )
 strikeout_size
 :
@@ -1321,7 +1322,7 @@ leading
 (
 )
 as
-float
+f64
 )
 x_height
 :
@@ -1338,7 +1339,7 @@ x_height
 (
 )
 as
-float
+f64
 )
 em_size
 :
@@ -1372,7 +1373,7 @@ size
 .
 width
 as
-float
+f64
 )
 }
 ;
@@ -1399,7 +1400,7 @@ pt_size
 (
 )
 as
-float
+f64
 metrics
 )
 ;
@@ -1440,10 +1441,10 @@ get_font_table
 tag
 )
 ;
+do
 result
 .
-chain
-(
+and_then
 |
 data
 |
@@ -1459,7 +1460,6 @@ data
 )
 )
 }
-)
 }
 fn
 face_identifier

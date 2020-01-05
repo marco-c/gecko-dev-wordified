@@ -510,7 +510,7 @@ pub
 type
 FractionalPixel
 =
-float
+f64
 ;
 pub
 type
@@ -820,7 +820,7 @@ FontStyle
 {
 pt_size
 :
-float
+f64
 weight
 :
 CSSFontWeight
@@ -2442,7 +2442,7 @@ struct__AzDrawOptions
 {
 mAlpha
 :
-1f
+1f64
 as
 AzFloat
 fields
@@ -2527,7 +2527,7 @@ offset
 (
 )
 .
-unwrap_or_default
+unwrap_or
 (
 Au
 :
@@ -3129,7 +3129,7 @@ fallback
 strategy
 *
 /
-10f
+10f64
 as
 FractionalPixel
 }
