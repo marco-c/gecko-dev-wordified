@@ -85,6 +85,10 @@ arenas
 .
 nbins
 "
+(
+void
+*
+)
 &
 nbins
 &
@@ -160,6 +164,10 @@ mallctlbymib
 (
 mib
 miblen
+(
+void
+*
+)
 &
 run_size
 &
@@ -314,6 +322,10 @@ config
 .
 cache_oblivious
 "
+(
+void
+*
+)
 &
 cache_oblivious
 &
@@ -345,6 +357,10 @@ arenas
 .
 nlruns
 "
+(
+void
+*
+)
 &
 nlruns
 &
@@ -426,6 +442,10 @@ mallctlbymib
 (
 mib
 miblen
+(
+void
+*
+)
 &
 lrun_size
 &
@@ -674,6 +694,10 @@ arenas
 .
 nbins
 "
+(
+void
+*
+)
 &
 nbins
 &
@@ -705,6 +729,10 @@ arenas
 .
 nlruns
 "
+(
+void
+*
+)
 &
 nlruns
 &

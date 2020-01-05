@@ -306,6 +306,9 @@ extent_node_t
 *
 node
 ;
+size_t
+sn
+;
 bool
 is_zeroed
 ;
@@ -523,6 +526,8 @@ arena
 usize
 alignment
 &
+sn
+&
 is_zeroed
 )
 )
@@ -552,6 +557,7 @@ node
 arena
 ret
 usize
+sn
 is_zeroed
 true
 )
@@ -572,6 +578,7 @@ tsdn
 arena
 ret
 usize
+sn
 )
 ;
 idalloctm
@@ -1483,6 +1490,10 @@ arena
 ptr
 oldsize
 usize
+extent_node_sn_get
+(
+node
+)
 )
 ;
 return
@@ -2437,6 +2448,10 @@ extent_node_addr_get
 node
 )
 extent_node_size_get
+(
+node
+)
+extent_node_sn_get
 (
 node
 )

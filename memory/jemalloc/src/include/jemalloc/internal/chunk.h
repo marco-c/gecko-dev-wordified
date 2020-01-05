@@ -538,6 +538,9 @@ size_t
 size
 size_t
 alignment
+size_t
+*
+sn
 bool
 *
 zero
@@ -568,6 +571,9 @@ size_t
 size
 size_t
 alignment
+size_t
+*
+sn
 bool
 *
 zero
@@ -593,6 +599,8 @@ void
 chunk
 size_t
 size
+size_t
+sn
 bool
 committed
 )
@@ -614,6 +622,8 @@ void
 chunk
 size_t
 size
+size_t
+sn
 bool
 zeroed
 bool

@@ -350,6 +350,9 @@ thd_start
 void
 *
 )
+(
+uintptr_t
+)
 0xa5f3e329
 )
 ;

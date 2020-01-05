@@ -502,7 +502,7 @@ s
 if
 defined
 (
-JEMALLOC_HAVE_SYSCALL
+JEMALLOC_USE_SYSCALL
 )
 &
 &
@@ -1508,8 +1508,18 @@ neg
 )
 ret
 =
+(
+uintmax_t
+)
+(
 -
+(
+(
+intmax_t
+)
 ret
+)
+)
 ;
 if
 (
