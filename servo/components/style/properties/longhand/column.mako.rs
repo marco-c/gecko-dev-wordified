@@ -147,9 +147,6 @@ extra_prefixes
 "
 moz
 "
-boxed
-=
-True
 animation_type
 =
 "
@@ -321,9 +318,6 @@ moz
 experimental
 =
 True
-boxed
-=
-True
 animation_type
 =
 "
@@ -454,11 +448,6 @@ products
 =
 "
 gecko
-"
-boxed
-=
-"
-True
 "
 animation_type
 =

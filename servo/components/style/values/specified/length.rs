@@ -3921,11 +3921,11 @@ calc
 notation
 Calc
 (
+AllowedLengthType
 Box
 <
 CalcLengthOrPercentage
 >
-AllowedLengthType
 )
 }
 impl
@@ -3999,9 +3999,9 @@ Length
 :
 Calc
 (
+_
 ref
 calc
-_
 )
 =
 >
@@ -4071,9 +4071,9 @@ Length
 :
 Calc
 (
+_
 ref
 calc
-_
 )
 =
 >
@@ -6591,6 +6591,7 @@ Length
 :
 Calc
 (
+num_context
 Box
 :
 :
@@ -6598,7 +6599,6 @@ new
 (
 calc
 )
-num_context
 )
 }
 )
@@ -8516,8 +8516,8 @@ Length
 :
 Calc
 (
-l
 _
+l
 )
 =
 >
