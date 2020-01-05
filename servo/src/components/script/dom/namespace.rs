@@ -121,7 +121,6 @@ null_str_as_empty_ref
 url
 )
 {
-&
 "
 http
 :
@@ -140,7 +139,6 @@ xhtml
 =
 >
 HTML
-&
 "
 http
 :
@@ -161,7 +159,6 @@ namespace
 =
 >
 XML
-&
 "
 http
 :
@@ -181,7 +178,6 @@ xmlns
 =
 >
 XMLNS
-&
 "
 http
 :
@@ -200,7 +196,6 @@ xlink
 =
 >
 XLink
-&
 "
 http
 :
@@ -219,7 +214,6 @@ svg
 =
 >
 SVG
-&
 "
 http
 :
@@ -240,7 +234,6 @@ MathML
 =
 >
 MathML
-&
 "
 "
 =
@@ -262,15 +255,24 @@ to_owned
 pub
 fn
 to_str
+<
+'
+a
+>
 (
 &
+'
+a
 self
 )
 -
 >
 Option
 <
-DOMString
+&
+'
+a
+str
 >
 {
 match
@@ -286,7 +288,6 @@ HTML
 >
 Some
 (
-~
 "
 http
 :
@@ -308,7 +309,6 @@ XML
 >
 Some
 (
-~
 "
 http
 :
@@ -332,7 +332,6 @@ XMLNS
 >
 Some
 (
-~
 "
 http
 :
@@ -355,7 +354,6 @@ XLink
 >
 Some
 (
-~
 "
 http
 :
@@ -377,7 +375,6 @@ SVG
 >
 Some
 (
-~
 "
 http
 :
@@ -399,7 +396,6 @@ MathML
 >
 Some
 (
-~
 "
 http
 :
@@ -429,7 +425,7 @@ Some
 (
 x
 .
-to_owned
+as_slice
 (
 )
 )
