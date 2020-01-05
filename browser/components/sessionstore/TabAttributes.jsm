@@ -203,6 +203,9 @@ pending
 "
 iconLoadingPrincipal
 "
+"
+skipbackgroundnotify
+"
 ]
 )
 ;
