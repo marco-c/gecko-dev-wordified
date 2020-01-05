@@ -170,10 +170,10 @@ class
 MozMap
 ;
 class
-HeadersOrByteStringSequenceSequenceOrByteStringMozMap
+HeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 ;
 class
-OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
+OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 ;
 /
 *
@@ -329,7 +329,7 @@ aGlobal
 const
 Optional
 <
-HeadersOrByteStringSequenceSequenceOrByteStringMozMap
+HeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 >
 &
 aInit
@@ -350,7 +350,7 @@ GlobalObject
 &
 aGlobal
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
+OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult
@@ -369,7 +369,7 @@ nsIGlobalObject
 *
 aGlobalObject
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
+OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult

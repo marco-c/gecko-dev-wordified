@@ -14122,7 +14122,7 @@ or
                 
 memberType
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -14804,7 +14804,7 @@ sequence
 '
         
 '
-mozmap
+record
 '
         
 '
@@ -15019,7 +15019,7 @@ return
 False
     
 def
-isMozMap
+isRecord
 (
 self
 )
@@ -16287,7 +16287,7 @@ isSequence
 )
     
 def
-isMozMap
+isRecord
 (
 self
 )
@@ -16298,7 +16298,7 @@ self
 .
 inner
 .
-isMozMap
+isRecord
 (
 )
     
@@ -17149,12 +17149,12 @@ isCallback
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 )
 class
-IDLMozMapType
+IDLRecordType
 (
 IDLParametrizedType
 )
@@ -17165,13 +17165,28 @@ __init__
 (
 self
 location
-parameterType
+keyType
+valueType
 )
 :
         
 assert
+keyType
+.
+isString
+(
+)
+        
+assert
+keyType
+.
+isComplete
+(
+)
+        
+assert
 not
-parameterType
+valueType
 .
 isVoid
 (
@@ -17183,11 +17198,17 @@ __init__
 (
 self
 location
-parameterType
+valueType
 .
 name
-parameterType
+valueType
 )
+        
+self
+.
+keyType
+=
+keyType
         
 #
 Need
@@ -17239,12 +17260,18 @@ name
 =
 self
 .
+keyType
+.
+name
++
+self
+.
 inner
 .
 name
 +
 "
-MozMap
+Record
 "
     
 def
@@ -17259,7 +17286,7 @@ return
 isinstance
 (
 other
-IDLMozMapType
+IDLRecordType
 )
 and
 self
@@ -17281,6 +17308,14 @@ self
 return
 self
 .
+keyType
+.
+__str__
+(
+)
++
+self
+.
 inner
 .
 __str__
@@ -17288,11 +17323,11 @@ __str__
 )
 +
 "
-MozMap
+Record
 "
     
 def
-isMozMap
+isRecord
 (
 self
 )
@@ -17313,7 +17348,7 @@ IDLType
 .
 Tags
 .
-mozmap
+record
     
 def
 complete
@@ -17342,12 +17377,18 @@ name
 =
 self
 .
+keyType
+.
+name
++
+self
+.
 inner
 .
 name
 +
 "
-MozMap
+Record
 "
         
 return
@@ -18716,7 +18757,7 @@ isSequence
 )
     
 def
-isMozMap
+isRecord
 (
 self
 )
@@ -18727,7 +18768,7 @@ self
 .
 inner
 .
-isMozMap
+isRecord
 (
 )
     
@@ -19784,7 +19825,7 @@ isSequence
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -20005,7 +20046,7 @@ or
             
 other
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -21758,7 +21799,7 @@ isSequence
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -21832,7 +21873,7 @@ isSequence
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -21894,7 +21935,7 @@ isSequence
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -22012,7 +22053,7 @@ or
                     
 other
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -22104,7 +22145,7 @@ isSequence
 or
 other
 .
-isMozMap
+isRecord
 (
 )
 or
@@ -28646,7 +28687,7 @@ location
 if
 type
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -28661,7 +28702,7 @@ cannot
 be
 of
 a
-MozMap
+record
 type
 "
                               
@@ -29481,7 +29522,7 @@ self
 .
 type
 .
-isMozMap
+isRecord
 (
 )
 and
@@ -29509,7 +29550,7 @@ cannot
 be
 of
 a
-MozMap
+record
 "
                               
 "
@@ -29685,7 +29726,7 @@ location
 if
 f
 .
-isMozMap
+isRecord
 (
 )
 :
@@ -29734,7 +29775,7 @@ on
 )
 is
 a
-MozMap
+record
 "
                                       
 "
@@ -29918,7 +29959,7 @@ or
                 
 type
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -30266,7 +30307,7 @@ self
 .
 type
 .
-isMozMap
+isRecord
 (
 )
 )
@@ -30296,7 +30337,7 @@ and
 "
                                   
 "
-MozMap
+record
 -
 valued
 attributes
@@ -39588,11 +39629,11 @@ SEQUENCE
 "
         
 "
-MozMap
+record
 "
 :
 "
-MOZMAP
+RECORD
 "
         
 "
@@ -47040,7 +47081,7 @@ OPTIONAL
 SEQUENCE
                   
 |
-MOZMAP
+RECORD
                   
 |
 SETTER
@@ -47756,7 +47797,7 @@ p
 )
     
 def
-p_NonAnyTypeMozMapType
+p_NonAnyTypeRecordType
 (
 self
 p
@@ -47769,8 +47810,10 @@ p
             
 NonAnyType
 :
-MOZMAP
+RECORD
 LT
+StringType
+COMMA
 Type
 GT
 Null
@@ -47779,16 +47822,23 @@ Null
 "
 "
         
-innerType
+keyType
 =
 p
 [
 3
 ]
         
+valueType
+=
+p
+[
+5
+]
+        
 type
 =
-IDLMozMapType
+IDLRecordType
 (
 self
 .
@@ -47797,7 +47847,8 @@ getLocation
 p
 1
 )
-innerType
+keyType
+valueType
 )
         
 p
@@ -47812,7 +47863,7 @@ handleNullable
 type
 p
 [
-5
+7
 ]
 )
     
