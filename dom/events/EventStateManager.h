@@ -4715,7 +4715,7 @@ GenerateDragGesture
 nsPresContext
 *
 aPresContext
-WidgetMouseEvent
+WidgetInputEvent
 *
 aEvent
 )
@@ -5538,6 +5538,9 @@ mMClickCount
 ;
 uint32_t
 mRClickCount
+;
+bool
+mInTouchDrag
 ;
 bool
 m_haveShutdown
