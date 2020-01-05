@@ -267,6 +267,13 @@ GenerateFrame
 )
 ;
 void
+SetWindowParameters
+(
+LayoutDeviceIntSize
+size
+)
+;
+void
 SetRootDisplayList
 (
 gfx
