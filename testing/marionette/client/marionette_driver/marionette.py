@@ -6253,9 +6253,24 @@ errors
 '
 )
                 
+#
+This
+will
+force
+-
+close
+the
+application
+without
+sending
+any
+other
+message
+.
+                
 self
 .
-quit
+cleanup
 (
 )
             
