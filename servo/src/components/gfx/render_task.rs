@@ -706,7 +706,7 @@ constellation_chan
 ConstellationChan
 font_ctx
 :
-mut
+~
 FontContext
 opts
 :
@@ -994,7 +994,7 @@ constellation_chan
 constellation_chan
 font_ctx
 :
-mut
+~
 FontContext
 :
 :
@@ -1634,6 +1634,7 @@ render
 context
 .
 let
+mut
 ctx
 =
 RenderContext
@@ -1644,6 +1645,8 @@ draw_target
 draw_target
 font_ctx
 :
+&
+mut
 self
 .
 font_ctx
@@ -1796,6 +1799,7 @@ get
 draw_into_context
 (
 &
+mut
 ctx
 )
 ;

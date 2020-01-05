@@ -389,7 +389,6 @@ family_name
 let
 new_family
 =
-mut
 FontFamily
 :
 :
@@ -431,6 +430,7 @@ load_variations_for_family
 self
 family
 :
+&
 mut
 FontFamily
 )

@@ -6063,9 +6063,7 @@ text_box
 .
 run
 .
-font
-.
-metrics
+font_metrics
 .
 ascent
 ;
