@@ -408,15 +408,18 @@ self
 .
 topsrcdir
 '
-taskcluster
+python
 '
 '
-docker
+mozbuild
 '
 '
-recipes
+mozbuild
 '
                                 
+'
+action
+'
 '
 tooltool
 .
