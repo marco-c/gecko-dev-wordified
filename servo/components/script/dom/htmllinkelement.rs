@@ -352,15 +352,6 @@ router
 ROUTER
 ;
 use
-msg
-:
-:
-constellation_msg
-:
-:
-ReferrerPolicy
-;
-use
 net_traits
 :
 :
@@ -369,6 +360,7 @@ FetchResponseListener
 FetchMetadata
 Metadata
 NetworkError
+ReferrerPolicy
 }
 ;
 use

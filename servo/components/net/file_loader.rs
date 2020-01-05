@@ -78,10 +78,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-ReferrerPolicy
-}
 ;
 use
 net_traits
@@ -93,6 +90,7 @@ LoadData
 LoadOrigin
 Metadata
 NetworkError
+ReferrerPolicy
 }
 ;
 use

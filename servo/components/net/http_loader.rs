@@ -317,10 +317,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-ReferrerPolicy
-}
 ;
 use
 net_traits
@@ -343,6 +340,7 @@ CustomResponse
 CustomResponseMediator
 Metadata
 NetworkError
+ReferrerPolicy
 }
 ;
 use

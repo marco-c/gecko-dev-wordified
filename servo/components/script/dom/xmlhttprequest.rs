@@ -623,10 +623,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-ReferrerPolicy
-}
 ;
 use
 net_traits
@@ -646,6 +643,7 @@ net_traits
 FetchResponseListener
 LoadOrigin
 NetworkError
+ReferrerPolicy
 }
 ;
 use

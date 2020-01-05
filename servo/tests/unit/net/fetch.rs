@@ -267,10 +267,7 @@ msg
 constellation_msg
 :
 :
-{
-ReferrerPolicy
 TEST_PIPELINE_ID
-}
 ;
 use
 net
@@ -298,6 +295,12 @@ methods
 fetch
 fetch_with_cors_cache
 }
+;
+use
+net_traits
+:
+:
+ReferrerPolicy
 ;
 use
 net_traits

@@ -390,7 +390,6 @@ constellation_msg
 {
 PipelineId
 PipelineNamespaceId
-ReferrerPolicy
 TraversalDirection
 }
 ;
@@ -398,7 +397,10 @@ use
 net_traits
 :
 :
+{
+ReferrerPolicy
 ResourceThreads
+}
 ;
 use
 net_traits

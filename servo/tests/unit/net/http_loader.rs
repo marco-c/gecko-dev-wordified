@@ -230,7 +230,6 @@ constellation_msg
 :
 {
 PipelineId
-ReferrerPolicy
 TEST_PIPELINE_ID
 }
 ;
@@ -320,6 +319,7 @@ net_traits
 CustomResponse
 LoadOrigin
 Metadata
+ReferrerPolicy
 }
 ;
 use
