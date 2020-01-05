@@ -1358,6 +1358,11 @@ Dir
 (
 _
 )
+|
+NonTSPseudoClass
+:
+:
+MozIsHTML
 )
 }
 /
