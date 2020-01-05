@@ -7683,7 +7683,7 @@ parameters
 WebDriverCommand
 :
 :
-GetCookie
+GetNamedCookie
 (
 ref
 name
