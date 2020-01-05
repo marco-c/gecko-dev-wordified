@@ -3396,11 +3396,10 @@ locale
 )
 {
 return
-String
+locale
 .
 replace
 (
-locale
 /
 _
 /
