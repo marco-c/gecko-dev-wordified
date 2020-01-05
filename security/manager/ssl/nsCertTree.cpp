@@ -575,7 +575,10 @@ mOverrideBits
 nsCertOverride
 :
 :
-ob_None
+OverrideBits
+:
+:
+None
 )
 mIsTemporary
 (
@@ -3351,7 +3354,10 @@ mOverrideBits
 nsCertOverride
 :
 :
-ob_None
+OverrideBits
+:
+:
+None
 ;
 certdi
 -
