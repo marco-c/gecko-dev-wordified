@@ -445,14 +445,13 @@ nightly_mozconfig_path
 ]
 )
             
-if
-ret_code
->
+self
+.
+assertEqual
+(
 0
-:
-                
-return
 ret_code
+)
             
 log
 .
