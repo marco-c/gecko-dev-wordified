@@ -2507,9 +2507,6 @@ SetHasMouseEnterLeaveEventListeners
 )
 ;
 }
-#
-ifdef
-MOZ_GAMEPAD
 }
 else
 if
@@ -2545,8 +2542,6 @@ SetHasGamepadEventListener
 )
 ;
 }
-#
-endif
 }
 else
 if

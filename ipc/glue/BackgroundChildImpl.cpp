@@ -296,9 +296,6 @@ PQuotaChild
 h
 "
 #
-ifdef
-MOZ_GAMEPAD
-#
 include
 "
 mozilla
@@ -320,8 +317,6 @@ GamepadTestChannelChild
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3189,9 +3184,6 @@ PGamepadEventChannelChild
 aActor
 )
 {
-#
-ifdef
-MOZ_GAMEPAD
 MOZ_ASSERT
 (
 aActor
@@ -3210,8 +3202,6 @@ GamepadEventChannelChild
 aActor
 )
 ;
-#
-endif
 return
 true
 ;
@@ -3228,9 +3218,6 @@ AllocPGamepadTestChannelChild
 (
 )
 {
-#
-ifdef
-MOZ_GAMEPAD
 MOZ_CRASH
 (
 "
@@ -3244,8 +3231,6 @@ constructed
 "
 )
 ;
-#
-endif
 return
 nullptr
 ;
@@ -3261,9 +3246,6 @@ PGamepadTestChannelChild
 aActor
 )
 {
-#
-ifdef
-MOZ_GAMEPAD
 MOZ_ASSERT
 (
 aActor
@@ -3282,8 +3264,6 @@ GamepadTestChannelChild
 aActor
 )
 ;
-#
-endif
 return
 true
 ;
