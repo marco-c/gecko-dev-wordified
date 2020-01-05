@@ -151,6 +151,7 @@ react
 const
 {
 cropString
+wrapRender
 }
 =
 require
@@ -240,6 +241,8 @@ true
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -380,6 +383,7 @@ formattedString
 )
 ;
 }
+)
 }
 )
 ;

@@ -108,6 +108,7 @@ Utils
 const
 {
 isGrip
+wrapRender
 }
 =
 require
@@ -232,6 +233,8 @@ key
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -414,6 +417,7 @@ content
 )
 ;
 }
+)
 }
 )
 ;

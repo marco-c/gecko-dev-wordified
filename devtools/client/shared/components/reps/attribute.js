@@ -155,6 +155,7 @@ const
 {
 createFactories
 isGrip
+wrapRender
 }
 =
 require
@@ -258,6 +259,8 @@ nodeName
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -352,6 +355,7 @@ value
 )
 ;
 }
+)
 }
 )
 ;

@@ -151,6 +151,7 @@ react
 const
 {
 createFactories
+wrapRender
 }
 =
 require
@@ -235,10 +236,6 @@ properties
 let
 PropRep
 =
-React
-.
-createFactory
-(
 React
 .
 createClass
@@ -365,6 +362,8 @@ key
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -553,8 +552,8 @@ delim
 )
 ;
 }
-}
 )
+}
 )
 ;
 /

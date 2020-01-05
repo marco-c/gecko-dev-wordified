@@ -154,6 +154,7 @@ Reps
 const
 {
 isGrip
+wrapRender
 }
 =
 require
@@ -234,6 +235,8 @@ displayString
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -296,6 +299,7 @@ grip
 )
 ;
 }
+)
 }
 )
 ;

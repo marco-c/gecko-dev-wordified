@@ -155,6 +155,7 @@ const
 {
 isGrip
 getURLDisplayString
+wrapRender
 }
 =
 require
@@ -308,6 +309,8 @@ url
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -367,6 +370,7 @@ grip
 )
 ;
 }
+)
 }
 )
 ;

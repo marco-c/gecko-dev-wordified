@@ -106,6 +106,7 @@ const
 {
 sanitizeString
 isGrip
+wrapRender
 }
 =
 require
@@ -190,6 +191,8 @@ true
 }
 render
 :
+wrapRender
+(
 function
 (
 )
@@ -307,6 +310,7 @@ formattedString
 )
 ;
 }
+)
 }
 )
 ;
