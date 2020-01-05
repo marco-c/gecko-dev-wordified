@@ -143,7 +143,11 @@ browser
 .
 newtabpage
 .
-remote
+activity
+-
+stream
+.
+enabled
 "
 false
 )

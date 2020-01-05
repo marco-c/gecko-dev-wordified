@@ -181,7 +181,11 @@ browser
 .
 newtabpage
 .
-remote
+activity
+-
+stream
+.
+enabled
 "
 false
 )
@@ -335,7 +339,8 @@ change
 newtab
 page
 to
-remote
+activity
+stream
 NewTabPrefsProvider
 .
 prefs
@@ -355,7 +360,11 @@ browser
 .
 newtabpage
 .
-remote
+activity
+-
+stream
+.
+enabled
 "
 true
 )
