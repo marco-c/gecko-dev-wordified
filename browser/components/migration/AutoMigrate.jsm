@@ -1392,6 +1392,12 @@ object
 is
 not
 available
+(
+or
+has
+no
+data
+)
 .
 "
 )
