@@ -215,12 +215,12 @@ ProfileGatherer
 (
 GeckoSampler
 *
-aTicker
+aSampler
 )
 :
-mTicker
+mSampler
 (
-aTicker
+aSampler
 )
 mSinceTime
 (
@@ -783,7 +783,7 @@ NS_IsMainThread
 if
 (
 !
-mTicker
+mSampler
 )
 {
 /
@@ -829,7 +829,7 @@ char
 >
 buf
 =
-mTicker
+mSampler
 -
 >
 ToJSON
@@ -1276,7 +1276,7 @@ s
 being
 destroyed
 .
-mTicker
+mSampler
 =
 nullptr
 ;
