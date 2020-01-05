@@ -6691,6 +6691,7 @@ kf_request_method
 use_fec
 &
 &
+(
 mRecvStreamConfig
 .
 rtp
@@ -6713,6 +6714,7 @@ red_payload_type
 !
 =
 red_payload_type
+)
 )
 )
 {
@@ -7012,12 +7014,6 @@ rtp
 remote_ssrc
 )
 ;
-/
-/
-DEBUG
-(
-pkerr
-)
 mRecvStreamConfig
 .
 rtp
@@ -7025,14 +7021,6 @@ rtp
 local_ssrc
 =
 ssrc
-;
-mRecvStreamConfig
-.
-rtp
-.
-local_ssrc
-=
-1
 ;
 /
 /

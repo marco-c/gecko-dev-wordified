@@ -2915,10 +2915,10 @@ int
 mPrefMaxBitrate
 ;
 int
-mMinBitrateEstimate
+mNegotiatedMaxBitrate
 ;
 int
-mNegotiatedMaxBitrate
+mMinBitrateEstimate
 ;
 bool
 mRtpStreamIdEnabled
