@@ -276,6 +276,9 @@ const
 StyleSheet
 &
 aCopy
+StyleSheet
+*
+aParentToUse
 dom
 :
 :
@@ -292,7 +295,7 @@ aOwningNodeToUse
 :
 mParent
 (
-nullptr
+aParentToUse
 )
 mTitle
 (

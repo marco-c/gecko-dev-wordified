@@ -519,15 +519,12 @@ aOwningNodeToUse
 StyleSheet
 (
 aCopy
+aParentToUse
 aOwnerRuleToUse
 aDocumentToUse
 aOwningNodeToUse
 )
 {
-mParent
-=
-aParentToUse
-;
 if
 (
 mDirty

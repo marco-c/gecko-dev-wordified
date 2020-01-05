@@ -2168,6 +2168,7 @@ aOwningNodeToUse
 StyleSheet
 (
 aCopy
+aParentToUse
 aOwnerRuleToUse
 aDocumentToUse
 aOwningNodeToUse
@@ -2185,10 +2186,6 @@ mRuleProcessors
 nullptr
 )
 {
-mParent
-=
-aParentToUse
-;
 if
 (
 mDirty
