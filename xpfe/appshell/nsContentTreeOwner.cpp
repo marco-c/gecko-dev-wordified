@@ -3041,6 +3041,9 @@ aURI
 nsIURI
 *
 aReferrer
+nsIPrincipal
+*
+aTriggeringPrincipal
 bool
 *
 _retval
@@ -3081,6 +3084,7 @@ ShouldLoadURI
 aDocShell
 aURI
 aReferrer
+aTriggeringPrincipal
 _retval
 )
 ;
@@ -3145,6 +3149,9 @@ aURI
 nsIURI
 *
 aReferrer
+nsIPrincipal
+*
+aTriggeringPrincipal
 bool
 *
 aRetVal
