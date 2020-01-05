@@ -2662,6 +2662,14 @@ dedicatedworkerglobalscope
 ;
 pub
 mod
+dissimilaroriginlocation
+;
+pub
+mod
+dissimilaroriginwindow
+;
+pub
+mod
 document
 ;
 pub
