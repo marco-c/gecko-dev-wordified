@@ -1897,15 +1897,6 @@ the
 hint
 .
 let
-state
-=
-element
-.
-get_state
-(
-)
-;
-let
 mut
 hint
 =
@@ -1926,7 +1917,6 @@ as_ref
 unwrap
 (
 )
-state
 )
 ;
 /
