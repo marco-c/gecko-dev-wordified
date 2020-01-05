@@ -4142,6 +4142,10 @@ int64_t
 &
 aContentLength
 const
+bool
+&
+aWasFileChannel
+const
 OptionalURIParams
 &
 aReferrer
