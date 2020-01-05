@@ -354,14 +354,12 @@ zoom
 .
 *
 /
+explicit
 RenderFrameParent
 (
 nsFrameLoader
 *
 aFrameLoader
-bool
-*
-aSuccess
 )
 ;
 virtual
