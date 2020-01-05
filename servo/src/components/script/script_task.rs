@@ -7407,11 +7407,8 @@ RegisterBindings
 Register
 (
 &
+*
 window
-.
-unrooted
-(
-)
 js_info
 .
 get_mut_ref
