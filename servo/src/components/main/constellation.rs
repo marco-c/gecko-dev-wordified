@@ -239,7 +239,7 @@ servo_util
 url
 :
 :
-make_url
+parse_url
 ;
 use
 servo_util
@@ -2697,7 +2697,7 @@ failure
 let
 url
 =
-make_url
+parse_url
 (
 failure
 None
