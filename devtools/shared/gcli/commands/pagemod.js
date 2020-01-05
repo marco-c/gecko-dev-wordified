@@ -65,7 +65,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -266,6 +265,13 @@ not
 frameset
 )
 "
+/
+/
+eslint
+-
+disable
+-
+line
 }
 {
 name
@@ -380,11 +386,11 @@ escapeRegex
 :
 function
 (
-aString
+string
 )
 {
 return
-aString
+string
 .
 replace
 (
@@ -1324,7 +1330,7 @@ attributes
 continue
 ;
 }
-var
+let
 attrs
 =
 Array
@@ -1594,8 +1600,8 @@ url
 )
 ;
 return
-'
-'
+"
+"
 ;
 }
 let
@@ -1630,8 +1636,8 @@ url
 )
 ;
 return
-'
-'
+"
+"
 ;
 }
 }

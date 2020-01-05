@@ -84,6 +84,12 @@ js
 "
 )
 ;
+/
+*
+exported
+EXPORTED_SYMBOLS
+*
+/
 const
 EXPORTED_SYMBOLS
 =

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -63,7 +68,6 @@ so
 .
 const
 {
-DevToolsWorker
 workerify
 }
 =

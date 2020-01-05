@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -86,9 +91,6 @@ function
 {
 try
 {
-let
-workerNotFound
-=
 new
 DevToolsWorker
 (
@@ -181,9 +183,6 @@ thrown
 in
 the
 worker
-let
-results
-=
 yield
 worker
 .
@@ -243,9 +242,6 @@ worker
 }
 try
 {
-let
-results
-=
 yield
 worker
 .
@@ -308,9 +304,6 @@ destroy
 ;
 try
 {
-let
-results
-=
 yield
 worker
 .
