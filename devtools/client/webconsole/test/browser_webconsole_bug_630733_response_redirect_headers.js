@@ -583,9 +583,17 @@ if
 header
 .
 name
+.
+toLowerCase
+(
+)
 =
 =
 name
+.
+toLowerCase
+(
+)
 )
 {
 return

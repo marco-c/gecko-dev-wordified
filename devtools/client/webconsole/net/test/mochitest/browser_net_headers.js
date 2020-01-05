@@ -213,9 +213,9 @@ span
 title
 =
 '
-Content
+content
 -
-Type
+type
 '
 ]
 "
@@ -252,9 +252,9 @@ paramName
 .
 textContent
 "
-Content
+content
 -
-Type
+type
 "
 "
 The
