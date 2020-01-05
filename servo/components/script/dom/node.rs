@@ -1968,6 +1968,7 @@ nodes
 deriving
 (
 PartialEq
+Show
 )
 ]
 #

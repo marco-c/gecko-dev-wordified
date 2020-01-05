@@ -676,6 +676,7 @@ reflector
 deriving
 (
 PartialEq
+Show
 )
 ]
 #
