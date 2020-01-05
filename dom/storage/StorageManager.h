@@ -137,6 +137,13 @@ h
 #
 include
 "
+LocalStorage
+.
+h
+"
+#
+include
+"
 StorageCache
 .
 h
