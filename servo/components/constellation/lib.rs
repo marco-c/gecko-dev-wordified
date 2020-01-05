@@ -134,10 +134,6 @@ canvas_traits
 ;
 extern
 crate
-clipboard
-;
-extern
-crate
 compositing
 ;
 extern
