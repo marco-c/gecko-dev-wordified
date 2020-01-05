@@ -222,7 +222,7 @@ dispatch
 (
 Actions
 .
-setFilterText
+setRequestFilterText
 (
 url
 )

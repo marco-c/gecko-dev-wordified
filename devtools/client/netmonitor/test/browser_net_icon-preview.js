@@ -194,7 +194,7 @@ dispatch
 (
 Actions
 .
-toggleFilterType
+toggleRequestFilterType
 (
 "
 images

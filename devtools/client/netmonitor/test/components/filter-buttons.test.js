@@ -346,7 +346,7 @@ dispatch
 (
 Actions
 .
-enableFilterTypeOnly
+enableRequestFilterTypeOnly
 (
 "
 xhr
@@ -463,7 +463,7 @@ dispatch
 (
 Actions
 .
-toggleFilterType
+toggleRequestFilterType
 (
 "
 xhr
@@ -477,7 +477,7 @@ dispatch
 (
 Actions
 .
-toggleFilterType
+toggleRequestFilterType
 (
 "
 js

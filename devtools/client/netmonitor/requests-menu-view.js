@@ -543,7 +543,7 @@ dispatch
 (
 Actions
 .
-toggleFilterType
+toggleRequestFilterType
 (
 type
 )

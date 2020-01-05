@@ -63,9 +63,9 @@ strict
 ;
 const
 {
-TOGGLE_FILTER_TYPE
-ENABLE_FILTER_TYPE_ONLY
-SET_FILTER_TEXT
+TOGGLE_REQUEST_FILTER_TYPE
+ENABLE_REQUEST_FILTER_TYPE_ONLY
+SET_REQUEST_FILTER_TEXT
 }
 =
 require
@@ -136,7 +136,7 @@ updated
 *
 /
 function
-toggleFilterType
+toggleRequestFilterType
 (
 filter
 )
@@ -145,7 +145,7 @@ return
 {
 type
 :
-TOGGLE_FILTER_TYPE
+TOGGLE_REQUEST_FILTER_TYPE
 filter
 }
 ;
@@ -207,7 +207,7 @@ updated
 *
 /
 function
-enableFilterTypeOnly
+enableRequestFilterTypeOnly
 (
 filter
 )
@@ -216,7 +216,7 @@ return
 {
 type
 :
-ENABLE_FILTER_TYPE_ONLY
+ENABLE_REQUEST_FILTER_TYPE_ONLY
 filter
 }
 ;
@@ -248,7 +248,7 @@ set
 *
 /
 function
-setFilterText
+setRequestFilterText
 (
 text
 )
@@ -257,7 +257,7 @@ return
 {
 type
 :
-SET_FILTER_TEXT
+SET_REQUEST_FILTER_TEXT
 text
 }
 ;
@@ -267,8 +267,8 @@ module
 exports
 =
 {
-toggleFilterType
-enableFilterTypeOnly
-setFilterText
+toggleRequestFilterType
+enableRequestFilterTypeOnly
+setRequestFilterText
 }
 ;

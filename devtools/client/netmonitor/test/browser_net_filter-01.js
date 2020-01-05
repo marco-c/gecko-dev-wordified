@@ -767,7 +767,7 @@ dispatch
 (
 Actions
 .
-setFilterText
+setRequestFilterText
 (
 value
 )

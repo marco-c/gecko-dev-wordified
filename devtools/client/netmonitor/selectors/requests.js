@@ -236,7 +236,7 @@ matchesType
 =
 filters
 .
-types
+requestFilterTypes
 .
 some
 (
@@ -277,7 +277,7 @@ isFreetextMatch
 r
 filters
 .
-text
+requestFilterText
 )
 ;
 }
