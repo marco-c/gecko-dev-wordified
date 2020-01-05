@@ -155,10 +155,10 @@ add
 \
 macro
 (
-allowContentSpread
-allowContentSpread
+allowContentIter
+allowContentIter
 "
-allowContentSpread
+allowContentIter
 "
 )
 \
