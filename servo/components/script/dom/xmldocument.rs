@@ -332,6 +332,7 @@ Document
 new_inherited
 (
 window
+None
 url
 is_html_document
 content_type
