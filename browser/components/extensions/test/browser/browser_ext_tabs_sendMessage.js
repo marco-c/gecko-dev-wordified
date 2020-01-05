@@ -883,6 +883,7 @@ never
 )
 {
 return
+undefined
 ;
 }
 else

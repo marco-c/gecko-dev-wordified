@@ -480,8 +480,6 @@ selfDestruct
 (
 )
 ;
-return
-;
 }
 }
 /

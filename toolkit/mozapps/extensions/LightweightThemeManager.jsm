@@ -4987,8 +4987,6 @@ successCallback
 (
 )
 ;
-return
-;
 }
 }
 catch

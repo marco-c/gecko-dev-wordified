@@ -678,8 +678,6 @@ this
 "
 )
 ;
-return
-;
 /
 *
 yield

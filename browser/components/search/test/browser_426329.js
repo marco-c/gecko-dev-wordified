@@ -1129,8 +1129,6 @@ testShiftAltReturn
 (
 )
 {
-return
-;
 /
 *
 yield

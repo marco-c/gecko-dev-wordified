@@ -11869,8 +11869,6 @@ focusSearchBox
 (
 )
 ;
-return
-;
 }
 }
 get

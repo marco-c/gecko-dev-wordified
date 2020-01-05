@@ -420,8 +420,6 @@ cell
 row
 )
 ;
-return
-;
 }
 else
 if

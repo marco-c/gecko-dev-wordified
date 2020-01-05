@@ -1823,8 +1823,6 @@ selection
 }
 )
 ;
-return
-;
 }
 getSuggestions
 :

@@ -164,6 +164,7 @@ never
 )
 {
 return
+undefined
 ;
 }
 else

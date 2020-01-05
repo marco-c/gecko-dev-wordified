@@ -952,8 +952,6 @@ triggered
 =
 true
 ;
-return
-;
 }
 ;
 this

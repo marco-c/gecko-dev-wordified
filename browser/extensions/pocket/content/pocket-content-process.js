@@ -343,8 +343,6 @@ default
 break
 ;
 }
-return
-;
 }
 }
 ;

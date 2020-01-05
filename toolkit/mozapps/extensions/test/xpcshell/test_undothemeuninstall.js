@@ -2091,8 +2091,6 @@ support
 undoable
 uninstall
 yet
-return
-;
 /
 *
 LightweightThemeManager

@@ -14219,8 +14219,6 @@ showUpdateElevationRequired
 (
 )
 ;
-return
-;
 }
 else
 {

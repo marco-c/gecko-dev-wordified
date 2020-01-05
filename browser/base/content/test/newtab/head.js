@@ -3479,8 +3479,6 @@ resolve
 (
 )
 ;
-return
-;
 }
 }
 content

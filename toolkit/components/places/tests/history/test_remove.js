@@ -1083,8 +1083,6 @@ clearHistory
 )
 ;
 }
-return
-;
 }
 )
 ;

@@ -820,8 +820,6 @@ finish
 "
 )
 ;
-return
-;
 }
 }
 )
@@ -1010,8 +1008,6 @@ notifyPass
 finish
 "
 )
-;
-return
 ;
 }
 }
@@ -1203,8 +1199,6 @@ notifyPass
 finish
 "
 )
-;
-return
 ;
 }
 }

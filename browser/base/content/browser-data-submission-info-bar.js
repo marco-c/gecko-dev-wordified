@@ -661,8 +661,6 @@ onUserNotifyFailed
 ex
 )
 ;
-return
-;
 }
 break
 ;

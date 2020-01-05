@@ -1379,8 +1379,6 @@ loadError
 error
 )
 ;
-return
-;
 }
 }
 getIdentities

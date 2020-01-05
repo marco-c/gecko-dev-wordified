@@ -391,8 +391,6 @@ disabled
 "
 )
 ;
-return
-;
 /
 *
 FIXME

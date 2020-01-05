@@ -2065,8 +2065,6 @@ loadCompleted
 (
 )
 ;
-return
-;
 }
 }
 else

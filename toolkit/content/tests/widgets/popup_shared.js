@@ -532,8 +532,6 @@ finish
 (
 )
 ;
-return
-;
 }
 function
 ok

@@ -6910,8 +6910,6 @@ stopPropagation
 (
 )
 ;
-return
-;
 }
 }
 onCreated
