@@ -253,7 +253,6 @@ parse_hsla
 /
 /
 /
-name
 _
 =
 >
@@ -269,7 +268,7 @@ function
 {
 }
 "
-name
+function_name
 )
 )
 /
@@ -833,6 +832,7 @@ expr
 =
 >
 {
+pub
 fn
 name
 (
