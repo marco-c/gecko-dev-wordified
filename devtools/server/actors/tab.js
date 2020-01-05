@@ -2401,7 +2401,7 @@ window
 return
 ExtensionContent
 .
-getContentScriptGlobalsForWindow
+getContentScriptGlobals
 (
 this
 .
