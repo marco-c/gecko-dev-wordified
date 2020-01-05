@@ -2947,11 +2947,7 @@ get_mut
 (
 )
 .
-extra
-.
-frame
-=
-Some
+set_frame
 (
 iframe_url
 .
