@@ -1070,10 +1070,7 @@ image
 :
 Arc
 <
-Box
-<
 Image
->
 >
 image_rendering
 :

@@ -288,10 +288,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 )
@@ -337,10 +334,7 @@ ImageReady
 (
 Arc
 <
-Box
-<
 Image
->
 >
 )
 ImageNotReady

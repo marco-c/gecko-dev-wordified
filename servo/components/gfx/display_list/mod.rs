@@ -6021,10 +6021,7 @@ image
 :
 Arc
 <
-Box
-<
 Image
->
 >
 /
 /

@@ -3168,7 +3168,6 @@ style
 bounds
 &
 *
-*
 image
 )
 ;
@@ -7411,7 +7410,6 @@ Arc
 :
 new
 (
-box
 png
 :
 :

@@ -2224,10 +2224,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 {
