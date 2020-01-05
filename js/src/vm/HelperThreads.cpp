@@ -2354,13 +2354,6 @@ options
 srcBuf
 /
 *
-extraSct
-=
-*
-/
-nullptr
-/
-*
 sourceObjectOut
 =
 *

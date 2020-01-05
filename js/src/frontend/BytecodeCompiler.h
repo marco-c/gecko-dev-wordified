@@ -175,9 +175,6 @@ ModuleObject
 class
 ScriptSourceObject
 ;
-struct
-SourceCompressionTask
-;
 namespace
 frontend
 {
@@ -209,11 +206,6 @@ options
 SourceBufferHolder
 &
 srcBuf
-SourceCompressionTask
-*
-extraSct
-=
-nullptr
 ScriptSourceObject
 *
 *
@@ -243,11 +235,6 @@ options
 SourceBufferHolder
 &
 srcBuf
-SourceCompressionTask
-*
-extraSct
-=
-nullptr
 ScriptSourceObject
 *
 *
