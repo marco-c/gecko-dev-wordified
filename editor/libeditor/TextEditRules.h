@@ -165,9 +165,6 @@ nscore
 h
 "
 class
-nsIDOMElement
-;
-class
 nsIDOMNode
 ;
 namespace
@@ -795,18 +792,6 @@ aResult
 )
 ;
 nsresult
-GetTopEnclosingPre
-(
-nsIDOMNode
-*
-aNode
-nsIDOMNode
-*
-*
-aOutPreNode
-)
-;
-nsresult
 WillInsertBreak
 (
 Selection
@@ -1387,7 +1372,7 @@ doc
 .
 nsCOMPtr
 <
-nsIDOMNode
+nsIContent
 >
 mBogusNode
 ;
@@ -1399,7 +1384,7 @@ node
 .
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mCachedSelectionNode
 ;
