@@ -721,6 +721,8 @@ pHTTPCon
 uint32_t
 httpStatus
 ;
+rv
+=
 pHTTPCon
 -
 >
@@ -732,6 +734,12 @@ httpStatus
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 httpStatus
 !
 =
