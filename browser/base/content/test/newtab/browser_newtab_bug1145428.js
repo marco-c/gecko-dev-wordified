@@ -246,6 +246,8 @@ querySelector
 newtab
 -
 thumbnail
+.
+thumbnail
 "
 )
 .
