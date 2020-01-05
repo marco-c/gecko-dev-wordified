@@ -285,11 +285,6 @@ AccurateSeekTask
 (
 )
 ;
-void
-MaybeFinishSeek
-(
-)
-;
 /
 *
 *
