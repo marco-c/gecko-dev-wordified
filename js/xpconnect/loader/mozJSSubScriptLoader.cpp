@@ -790,6 +790,7 @@ msg
 )
 ;
 }
+static
 bool
 PrepareScript
 (
@@ -1163,6 +1164,7 @@ function
 )
 ;
 }
+static
 bool
 EvalScript
 (
