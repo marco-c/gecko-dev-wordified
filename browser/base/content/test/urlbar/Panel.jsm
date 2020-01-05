@@ -1278,9 +1278,6 @@ returned
 event
 first
 .
-let
-recurseTimer
-=
 setTimeout
 (
 (
