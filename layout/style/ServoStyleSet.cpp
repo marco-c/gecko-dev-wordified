@@ -271,10 +271,6 @@ mBatching
 (
 0
 )
-mAllowResolveStaleStyles
-(
-false
-)
 {
 }
 ServoStyleSet
@@ -4597,7 +4593,6 @@ mRawSet
 get
 (
 )
-mAllowResolveStaleStyles
 )
 .
 Consume
