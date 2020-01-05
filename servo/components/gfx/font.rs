@@ -70,7 +70,7 @@ use
 smallvec
 :
 :
-SmallVec8
+SmallVec
 ;
 use
 std
@@ -1486,8 +1486,9 @@ FontGroup
 pub
 fonts
 :
-SmallVec8
+SmallVec
 <
+[
 Rc
 <
 RefCell
@@ -1495,6 +1496,9 @@ RefCell
 Font
 >
 >
+;
+8
+]
 >
 }
 impl
@@ -1506,8 +1510,9 @@ new
 (
 fonts
 :
-SmallVec8
+SmallVec
 <
+[
 Rc
 <
 RefCell
@@ -1515,6 +1520,9 @@ RefCell
 Font
 >
 >
+;
+8
+]
 >
 )
 -

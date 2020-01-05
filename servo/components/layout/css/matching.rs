@@ -113,7 +113,7 @@ use
 smallvec
 :
 :
-SmallVec16
+SmallVec
 ;
 use
 wrapper
@@ -347,9 +347,13 @@ ApplicableDeclarations
 pub
 normal
 :
-SmallVec16
+SmallVec
 <
+[
 DeclarationBlock
+;
+16
+]
 >
 pub
 before
@@ -399,7 +403,7 @@ ApplicableDeclarations
 {
 normal
 :
-SmallVec16
+SmallVec
 :
 :
 new
@@ -439,7 +443,7 @@ self
 .
 normal
 =
-SmallVec16
+SmallVec
 :
 :
 new
