@@ -5955,7 +5955,11 @@ borrow
 (
 )
 .
-to_simple_string
+simple
+(
+)
+.
+to_string
 (
 )
 }
