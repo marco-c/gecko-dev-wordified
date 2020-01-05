@@ -229,14 +229,14 @@ pdfjsVersion
 .
 6
 .
-355
+372
 '
 ;
 var
 pdfjsBuild
 =
 '
-451956c
+aaec4908
 '
 ;
 var
@@ -10168,9 +10168,6 @@ code
 =
 =
 38
-&
-&
-false
 ?
 String
 .
