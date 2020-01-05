@@ -18938,24 +18938,51 @@ name
 )
 )
         
-protoChain
-=
+if
+len
+(
 self
 .
 descriptor
 .
 prototypeChain
-        
-if
-len
-(
-protoChain
 )
 =
 =
 1
 :
             
+if
+self
+.
+descriptor
+.
+interface
+.
+getExtendedAttribute
+(
+"
+ExceptionClass
+"
+)
+:
+                
+getPrototypeProto
+=
+"
+prototype_proto
+.
+ptr
+=
+JS_GetErrorPrototype
+(
+cx
+)
+"
+            
+else
+:
+                
 getPrototypeProto
 =
 "
@@ -43572,8 +43599,8 @@ jsapi
 :
 {
 JS_GetClass
+JS_GetErrorPrototype
 JS_GetFunctionPrototype
-JS_GetGlobalForObject
 }
 '
             
@@ -43585,9 +43612,9 @@ jsapi
 :
 :
 {
+JS_GetGlobalForObject
 JS_GetObjectPrototype
 JS_GetProperty
-JS_GetPropertyById
 }
 '
             
@@ -43599,9 +43626,9 @@ jsapi
 :
 :
 {
+JS_GetPropertyById
 JS_GetPropertyDescriptorById
 JS_GetReservedSlot
-JS_HasProperty
 }
 '
             
@@ -43613,6 +43640,7 @@ jsapi
 :
 :
 {
+JS_HasProperty
 JS_HasPropertyById
 JS_InitializePropertiesFromCompatibleNativeObject
 }
