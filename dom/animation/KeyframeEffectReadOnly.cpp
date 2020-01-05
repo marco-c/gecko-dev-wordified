@@ -249,15 +249,6 @@ h
 #
 include
 "
-mozilla
-/
-StyleAnimationValueInlines
-.
-h
-"
-#
-include
-"
 Layers
 .
 h
