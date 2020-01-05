@@ -442,9 +442,6 @@ class
 CompositorBridgeParent
 ;
 class
-GrallocTextureHostOGL
-;
-class
 SurfaceDescriptor
 ;
 class
@@ -3939,17 +3936,6 @@ virtual
 BufferTextureHost
 *
 AsBufferTextureHost
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-GrallocTextureHostOGL
-*
-AsGrallocTextureHostOGL
 (
 )
 {

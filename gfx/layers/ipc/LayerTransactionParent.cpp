@@ -591,9 +591,6 @@ mozilla
 namespace
 layers
 {
-class
-PGrallocBufferParent
-;
 /
 /
 -
