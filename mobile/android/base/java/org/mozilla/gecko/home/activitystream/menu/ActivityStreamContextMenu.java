@@ -1506,6 +1506,8 @@ url
 }
 )
 ;
+break
+;
 default
 :
 throw
