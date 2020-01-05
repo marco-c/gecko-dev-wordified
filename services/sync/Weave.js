@@ -1264,12 +1264,6 @@ originalURI
 =
 aURI
 ;
-aLoadInfo
-.
-resultPrincipalURI
-=
-aURI
-;
 /
 /
 Ensure
