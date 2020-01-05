@@ -3152,6 +3152,8 @@ aReferrer
 nsIPrincipal
 *
 aTriggeringPrincipal
+uint32_t
+aLoadFlags
 bool
 *
 aRetVal
