@@ -5903,6 +5903,9 @@ local_name
 :
 &
 Atom
+default
+:
+u32
 )
 -
 >
@@ -8388,6 +8391,9 @@ local_name
 :
 &
 Atom
+default
+:
+u32
 )
 -
 >
@@ -8507,7 +8513,7 @@ parse_plain_attribute
 None
 =
 >
-0
+default
 }
 }
 fn
