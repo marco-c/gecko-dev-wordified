@@ -803,6 +803,15 @@ mNeedsEmulatedLoneDepthStencil
 (
 false
 )
+mAllowFBInvalidation
+(
+gfxPrefs
+:
+:
+WebGLFBInvalidation
+(
+)
+)
 {
 mGeneration
 =
