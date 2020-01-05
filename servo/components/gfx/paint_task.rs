@@ -1259,8 +1259,6 @@ reporter
 }
 "
 id
-.
-0
 )
 ;
 mem_profiler_chan
