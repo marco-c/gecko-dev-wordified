@@ -76,7 +76,7 @@ WebAssembly
 Instance
 (
 new
-WebAssemby
+WebAssembly
 .
 Module
 (
