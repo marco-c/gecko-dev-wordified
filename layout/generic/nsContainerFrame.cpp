@@ -8930,9 +8930,10 @@ only
 overflow
 incomplete
 .
-NS_FRAME_SET_OVERFLOW_INCOMPLETE
-(
 frameStatus
+.
+SetOverflowIncomplete
+(
 )
 ;
 }

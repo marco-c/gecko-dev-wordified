@@ -8332,9 +8332,10 @@ AppendPushedFloatChain
 aFloat
 )
 ;
-NS_FRAME_SET_OVERFLOW_INCOMPLETE
-(
 mReflowStatus
+.
+SetOverflowIncomplete
+(
 )
 ;
 }
