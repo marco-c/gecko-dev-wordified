@@ -1945,6 +1945,12 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
+"
+imgRequestProxy
+:
+:
+DoRemoveFromLoadGroup
+"
 this
 &
 imgRequestProxy

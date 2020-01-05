@@ -232,6 +232,12 @@ char16_t
 aValue
 )
 :
+Runnable
+(
+"
+FinalizationEvent
+"
+)
 mTopic
 (
 aTopic

@@ -5540,6 +5540,12 @@ mDataReceivedEvent
 =
 NewNonOwningRunnableMethod
 (
+"
+ChannelMediaResource
+:
+:
+DoNotifyDataReceived
+"
 this
 &
 ChannelMediaResource

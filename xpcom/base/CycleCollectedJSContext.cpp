@@ -8917,6 +8917,12 @@ DeferredFinalizerTable
 aFinalizers
 )
 :
+Runnable
+(
+"
+IncrementalFinalizeRunnable
+"
+)
 mContext
 (
 aCx

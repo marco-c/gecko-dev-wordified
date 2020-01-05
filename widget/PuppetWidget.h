@@ -1714,6 +1714,15 @@ PuppetWidget
 widget
 )
 :
+Runnable
+(
+"
+PuppetWidget
+:
+:
+PaintTask
+"
+)
 mWidget
 (
 widget

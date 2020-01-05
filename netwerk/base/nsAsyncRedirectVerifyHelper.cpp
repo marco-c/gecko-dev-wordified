@@ -214,6 +214,12 @@ nsresult
 result
 )
 :
+Runnable
+(
+"
+nsAsyncVerifyRedirectCallbackEvent
+"
+)
 mCallback
 (
 cb

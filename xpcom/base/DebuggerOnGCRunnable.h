@@ -207,6 +207,12 @@ Ptr
 aGCData
 )
 :
+CancelableRunnable
+(
+"
+DebuggerOnGCRunnable
+"
+)
 mGCData
 (
 Move

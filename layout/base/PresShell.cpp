@@ -1364,7 +1364,7 @@ include
 "
 mozilla
 /
-RestyleManager
+RestyleManagerHandle
 .
 h
 "
@@ -1373,7 +1373,7 @@ include
 "
 mozilla
 /
-RestyleManagerInlines
+RestyleManagerHandleInlines
 .
 h
 "
@@ -12502,6 +12502,12 @@ resizeEvent
 =
 NewRunnableMethod
 (
+"
+PresShell
+:
+:
+FireResizeEvent
+"
 this
 &
 PresShell
@@ -17410,8 +17416,7 @@ construction
 +
 mChangeNestCount
 ;
-RestyleManager
-*
+RestyleManagerHandle
 restyleManager
 =
 mPresContext
@@ -22478,8 +22483,7 @@ bool
 aFlushOnHoverChange
 )
 {
-RestyleManager
-*
+RestyleManagerHandle
 restyleManager
 =
 mPresContext
@@ -27306,8 +27310,7 @@ restyle
 return
 ;
 }
-RestyleManager
-*
+RestyleManagerHandle
 restyleManager
 =
 mPresContext
@@ -38017,6 +38020,12 @@ ev
 =
 NewRunnableMethod
 (
+"
+PresShell
+:
+:
+UpdateApproximateFrameVisibility
+"
 this
 &
 PresShell
@@ -58983,8 +58992,7 @@ scriptBlocker
 +
 mChangeNestCount
 ;
-RestyleManager
-*
+RestyleManagerHandle
 restyleManager
 =
 mPresContext

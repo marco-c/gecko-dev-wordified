@@ -9050,6 +9050,12 @@ checkTask
 =
 NewRunnableMethod
 (
+"
+FontFaceSet
+:
+:
+CheckLoadingFinishedAfterDelay
+"
 this
 &
 FontFaceSet

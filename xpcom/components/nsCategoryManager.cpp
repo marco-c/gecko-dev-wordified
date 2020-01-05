@@ -2211,6 +2211,12 @@ char
 aData
 )
 :
+Runnable
+(
+"
+CategoryNotificationRunnable
+"
+)
 mSubject
 (
 aSubject

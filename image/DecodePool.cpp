@@ -520,6 +520,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+DecodePoolImpl
+:
+:
+ShutdownThread
+"
 aThisThread
 &
 nsIThread

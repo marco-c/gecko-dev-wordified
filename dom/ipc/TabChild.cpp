@@ -1915,6 +1915,15 @@ TabChild
 aTabChild
 )
 :
+Runnable
+(
+"
+TabChild
+:
+:
+DelayedDeleteRunnable
+"
+)
 mTabChild
 (
 aTabChild

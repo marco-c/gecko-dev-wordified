@@ -771,6 +771,12 @@ nsresult
 status
 )
 :
+Runnable
+(
+"
+imgCancelRunnable
+"
+)
 mOwner
 (
 owner
