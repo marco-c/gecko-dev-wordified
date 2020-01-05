@@ -122,12 +122,6 @@ nsDebug
 h
 "
 #
-if
-defined
-(
-XP_WIN
-)
-#
 include
 "
 mozilla
@@ -138,8 +132,6 @@ PluginInstanceParent
 .
 h
 "
-#
-endif
 #
 define
 PWLOG
