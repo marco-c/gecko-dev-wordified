@@ -70,14 +70,6 @@ int_uint
 #
 !
 [
-feature
-(
-old_impl_check
-)
-]
-#
-!
-[
 deny
 (
 unsafe_blocks
