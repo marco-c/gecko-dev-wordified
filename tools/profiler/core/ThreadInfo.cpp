@@ -862,15 +862,6 @@ uss
 "
 )
 ;
-schema
-.
-WriteField
-(
-"
-frameNumber
-"
-)
-;
 }
 aWriter
 .
