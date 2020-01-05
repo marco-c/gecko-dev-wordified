@@ -62,7 +62,6 @@ unicode_literals
 from
 voluptuous
 import
-Schema
 Required
 from
 taskgraph
@@ -80,6 +79,14 @@ transforms
 job
 import
 run_job_using
+from
+taskgraph
+.
+util
+.
+schema
+import
+Schema
 from
 taskgraph
 .

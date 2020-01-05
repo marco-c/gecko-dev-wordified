@@ -91,6 +91,7 @@ util
 schema
 import
 validate_schema
+Schema
 from
 taskgraph
 .
@@ -114,7 +115,6 @@ task_description_schema
 from
 voluptuous
 import
-Schema
 Any
 Required
 Optional

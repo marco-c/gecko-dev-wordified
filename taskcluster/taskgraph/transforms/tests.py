@@ -235,6 +235,8 @@ import
 validate_schema
     
 optionally_keyed_by
+    
+Schema
 )
 from
 voluptuous
@@ -246,8 +248,6 @@ Any
 Optional
     
 Required
-    
-Schema
 )
 import
 copy

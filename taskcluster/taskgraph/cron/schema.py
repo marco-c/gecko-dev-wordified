@@ -74,7 +74,6 @@ unicode_literals
 from
 voluptuous
 import
-Schema
 Any
 Required
 All
@@ -90,6 +89,8 @@ import
 optionally_keyed_by
     
 validate_schema
+    
+Schema
 )
 def
 even_15_minutes
