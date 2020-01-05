@@ -136,6 +136,10 @@ assembleAutomationDebugAndroidTest
 checkstyle
 '
          
+'
+findbugsAutomationDebug
+'
+         
 #
 Does
 not

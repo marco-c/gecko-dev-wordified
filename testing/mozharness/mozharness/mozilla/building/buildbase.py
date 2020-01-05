@@ -3229,6 +3229,25 @@ py
 '
         
 '
+android
+-
+findbugs
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_findbugs
+.
+py
+'
+        
+'
 valgrind
 '
 :
