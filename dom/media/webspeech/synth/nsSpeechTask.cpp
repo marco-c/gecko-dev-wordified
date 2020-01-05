@@ -3636,6 +3636,9 @@ aVolume
 if
 (
 mIndirectAudio
+&
+&
+mCallback
 )
 {
 mCallback
