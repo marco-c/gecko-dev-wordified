@@ -274,6 +274,9 @@ TimeStamp
 FindNextFireTimeForCurrentThread
 (
 TimeStamp
+aDefault
+uint32_t
+aSearchBound
 )
 ;
 void

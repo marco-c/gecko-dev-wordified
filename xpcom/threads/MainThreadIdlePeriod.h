@@ -176,6 +176,12 @@ GetMinIdlePeriod
 (
 )
 ;
+static
+uint32_t
+GetMaxTimerThreadBound
+(
+)
+;
 private
 :
 virtual
