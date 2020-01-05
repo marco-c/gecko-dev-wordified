@@ -2453,6 +2453,12 @@ case
 CallSiteDesc
 :
 :
+Breakpoint
+:
+case
+CallSiteDesc
+:
+:
 EnterFrame
 :
 case
