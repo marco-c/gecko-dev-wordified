@@ -5919,6 +5919,10 @@ context
 wpt_kwargs
 )
         
+if
+editor
+:
+            
 proc
 .
 wait
