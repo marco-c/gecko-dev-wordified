@@ -2654,7 +2654,7 @@ slice
 .
 glyphs
 .
-iter_glyphs_for_char_range
+iter_glyphs_for_byte_range
 (
 &
 slice

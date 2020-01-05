@@ -368,7 +368,7 @@ text
 glyph
 :
 :
-CharIndex
+ByteIndex
 ;
 use
 util
@@ -14446,7 +14446,7 @@ range
 &
 Range
 <
-CharIndex
+ByteIndex
 >
 baseline_origin
 :
@@ -14493,7 +14493,7 @@ range
 &
 Range
 <
-CharIndex
+ByteIndex
 >
 baseline_origin
 :
@@ -14594,14 +14594,10 @@ let
 mut
 azglyphs
 =
-vec
-!
-(
-)
-;
-azglyphs
-.
-reserve
+Vec
+:
+:
+with_capacity
 (
 range
 .
@@ -14631,7 +14627,7 @@ slice
 .
 glyphs
 .
-iter_glyphs_for_char_range
+iter_glyphs_for_byte_range
 (
 &
 slice
