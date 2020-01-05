@@ -659,6 +659,7 @@ PreventDefault
 (
 JSContext
 *
+CallerType
 )
 override
 .
@@ -835,6 +836,8 @@ PreventDefault
 JSContext
 *
 aCx
+CallerType
+aCallerType
 )
 override
 ;
