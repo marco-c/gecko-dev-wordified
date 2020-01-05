@@ -187,6 +187,8 @@ mozilla
 .
 org
 /
+remote
+/
 marionette
 ;
 1
