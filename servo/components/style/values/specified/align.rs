@@ -2756,9 +2756,7 @@ Ok
 ALIGN_STRETCH
 )
 "
-space
--
-between
+space_between
 "
 =
 >
@@ -2767,9 +2765,7 @@ Ok
 ALIGN_SPACE_BETWEEN
 )
 "
-space
--
-around
+space_around
 "
 =
 >
@@ -2778,9 +2774,7 @@ Ok
 ALIGN_SPACE_AROUND
 )
 "
-space
--
-evenly
+space_evenly
 "
 =
 >
