@@ -1620,11 +1620,6 @@ int64_t
 aOffset
 )
 {
-MOZ_ASSERT
-(
-mRemoteStream
-)
-;
 nsCOMPtr
 <
 nsISeekableStream
@@ -1675,11 +1670,6 @@ int64_t
 aResult
 )
 {
-MOZ_ASSERT
-(
-mRemoteStream
-)
-;
 nsCOMPtr
 <
 nsISeekableStream
