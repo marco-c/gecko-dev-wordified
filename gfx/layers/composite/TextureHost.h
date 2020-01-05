@@ -445,9 +445,6 @@ class
 TextureSourceOGL
 ;
 class
-TextureSourceD3D9
-;
-class
 TextureSourceD3D11
 ;
 class
@@ -860,17 +857,6 @@ a
 TextureSourceOGL
 "
 ;
-return
-nullptr
-;
-}
-virtual
-TextureSourceD3D9
-*
-AsSourceD3D9
-(
-)
-{
 return
 nullptr
 ;
