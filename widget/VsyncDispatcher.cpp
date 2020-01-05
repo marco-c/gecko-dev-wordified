@@ -156,7 +156,7 @@ h
 "
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -257,7 +257,7 @@ vsync
 thread
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 layers
 :
 :

@@ -351,7 +351,7 @@ h
 "
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -7674,7 +7674,7 @@ profiler_is_active
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 /
 /
 Add

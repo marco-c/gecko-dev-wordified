@@ -251,7 +251,7 @@ h
 "
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -437,7 +437,7 @@ h
 endif
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -497,7 +497,7 @@ PluginLibrary
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 using
 mozilla
 :
@@ -3407,7 +3407,7 @@ endif
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 nsCOMPtr
 <
 nsIProfiler
@@ -3956,7 +3956,7 @@ GetUniqueID
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 InitPluginProfiling
 (
 )
@@ -4003,7 +4003,7 @@ destruction
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 ShutdownPluginProfiling
 (
 )
@@ -16817,7 +16817,7 @@ endif
 MOZ_CRASHREPORTER_INJECTOR
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 class
 PluginProfilerObserver
 final
@@ -17452,7 +17452,7 @@ Truncate
 endif
 /
 /
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -17473,7 +17473,7 @@ aProfile
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 NS_WARN_IF

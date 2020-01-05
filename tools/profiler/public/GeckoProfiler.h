@@ -711,7 +711,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 /
 /
@@ -1058,7 +1058,7 @@ else
 /
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 #
 define
@@ -1237,7 +1237,7 @@ endif
 /
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 /
 /
@@ -1673,7 +1673,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 inline
 void
@@ -2416,7 +2416,7 @@ not
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 #
 include
@@ -3757,7 +3757,7 @@ endif
 /
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 )
 namespace
 mozilla

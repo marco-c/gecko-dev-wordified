@@ -9712,7 +9712,7 @@ nullptr
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 /
 /
 Tell
@@ -23680,7 +23680,7 @@ PreserveWrapper
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 PseudoStack

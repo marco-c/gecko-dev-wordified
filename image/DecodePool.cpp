@@ -1056,7 +1056,7 @@ thisThread
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 profiler_unregister_thread
 (
 )
@@ -1065,7 +1065,7 @@ profiler_unregister_thread
 endif
 /
 /
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 return
 NS_OK
 ;

@@ -892,7 +892,7 @@ h
 "
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -9015,7 +9015,7 @@ aVsyncTimestamp
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 MOZ_ASSERT
 (
 CompositorThreadHolder

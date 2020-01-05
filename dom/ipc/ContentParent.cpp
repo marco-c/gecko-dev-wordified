@@ -887,7 +887,7 @@ h
 "
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -1776,7 +1776,7 @@ h
 endif
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -1893,7 +1893,7 @@ KillProcess
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 using
 mozilla
 :
@@ -3330,7 +3330,7 @@ shutdown
 endif
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 "
 profiler
 -
@@ -6668,7 +6668,7 @@ endif
 endif
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 nsCOMPtr
 <
 nsIProfiler
@@ -8802,7 +8802,7 @@ nullptr
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 mGatherer
@@ -13758,7 +13758,7 @@ mSubprocess
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 /
 /
 Need
@@ -14558,7 +14558,7 @@ SendShutdownA11y
 endif
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 else
 if
 (
@@ -24602,7 +24602,7 @@ aProfile
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 NS_WARN_IF
@@ -25217,7 +25217,7 @@ aParams
 {
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 if
 (
 NS_WARN_IF
