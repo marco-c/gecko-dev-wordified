@@ -49,9 +49,6 @@ types
 use
 SharedColor
 =
-util
-:
-:
 color
 :
 :
