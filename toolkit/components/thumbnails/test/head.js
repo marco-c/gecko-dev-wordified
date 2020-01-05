@@ -1544,6 +1544,8 @@ aCallback
 )
 ;
 }
+SimpleTest
+.
 executeSoon
 (
 callback
@@ -1635,6 +1637,8 @@ aCallback
 )
 ;
 }
+SimpleTest
+.
 executeSoon
 (
 callback
