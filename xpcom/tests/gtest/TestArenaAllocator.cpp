@@ -895,6 +895,9 @@ y
 )
 ;
 }
+#
+ifndef
+MOZ_CODE_COVERAGE
 TEST
 (
 ArenaAllocator
@@ -1482,6 +1485,8 @@ kMark
 ;
 }
 }
+#
+endif
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
 TestSizeOf
