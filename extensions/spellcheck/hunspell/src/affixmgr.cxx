@@ -15071,6 +15071,8 @@ call
 if
 (
 wordnum
++
+2
 <
 maxwordnum
 )
@@ -19417,6 +19419,8 @@ if
 (
 (
 wordnum
++
+2
 <
 maxwordnum
 )
