@@ -621,6 +621,7 @@ cap
 )
 ;
 }
+MOZ_MUST_USE
 bool
 reserve
 (
@@ -653,6 +654,7 @@ amount
 )
 ;
 }
+MOZ_MUST_USE
 bool
 growBy
 (
@@ -669,6 +671,7 @@ amount
 )
 ;
 }
+MOZ_MUST_USE
 bool
 resize
 (
@@ -738,6 +741,7 @@ typename
 .
 Args
 >
+MOZ_MUST_USE
 bool
 emplaceBack
 (
@@ -887,6 +891,7 @@ O
 class
 BP
 >
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -922,6 +927,7 @@ O
 class
 BP
 >
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -954,6 +960,7 @@ length
 )
 ;
 }
+MOZ_MUST_USE
 bool
 appendN
 (
@@ -980,6 +987,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 append
 (
@@ -1008,6 +1016,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 append
 (
@@ -1803,6 +1812,7 @@ aIndex
 )
 ;
 }
+MOZ_MUST_USE
 bool
 initCapacity
 (
@@ -1821,6 +1831,7 @@ aRequest
 )
 ;
 }
+MOZ_MUST_USE
 bool
 reserve
 (
@@ -1856,6 +1867,7 @@ aIncr
 )
 ;
 }
+MOZ_MUST_USE
 bool
 growBy
 (
@@ -1874,6 +1886,7 @@ aIncr
 )
 ;
 }
+MOZ_MUST_USE
 bool
 resize
 (
@@ -1892,6 +1905,7 @@ aNewLength
 )
 ;
 }
+MOZ_MUST_USE
 bool
 growByUninitialized
 (
@@ -1927,6 +1941,7 @@ aIncr
 )
 ;
 }
+MOZ_MUST_USE
 bool
 resizeUninitialized
 (
@@ -1978,6 +1993,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 append
 (
@@ -2015,6 +2031,7 @@ typename
 .
 Args
 >
+MOZ_MUST_USE
 bool
 emplaceBack
 (
@@ -2062,6 +2079,7 @@ O
 class
 BP
 >
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -2099,6 +2117,7 @@ O
 class
 BP
 >
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -2127,6 +2146,7 @@ aU
 )
 ;
 }
+MOZ_MUST_USE
 bool
 appendN
 (
@@ -2155,6 +2175,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 append
 (
@@ -2185,6 +2206,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 append
 (
