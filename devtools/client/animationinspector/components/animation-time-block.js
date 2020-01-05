@@ -2126,7 +2126,7 @@ getStr
 "
 player
 .
-animationEasingLabel
+animationOverallEasingLabel
 "
 )
 +
