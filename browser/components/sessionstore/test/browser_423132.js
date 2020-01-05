@@ -385,12 +385,7 @@ removeAll
 yield
 promiseRemoveTab
 (
-gBrowser
-.
-tabs
-[
-1
-]
+tab
 )
 ;
 }
