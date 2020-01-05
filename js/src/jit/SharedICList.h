@@ -252,16 +252,6 @@ GetProp_CallNativeGlobal
 \
 _
 (
-GetProp_ArgumentsLength
-)
-\
-_
-(
-GetProp_ArgumentsCallee
-)
-\
-_
-(
 GetProp_Generic
 )
 \
