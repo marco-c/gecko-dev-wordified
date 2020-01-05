@@ -802,16 +802,6 @@ openContentProcessToolbox
 /
 Used
 by
-webide
-.
-js
-"
-moveWebIDEWidgetInNavbar
-"
-/
-/
-Used
-by
 browser
 .
 js
