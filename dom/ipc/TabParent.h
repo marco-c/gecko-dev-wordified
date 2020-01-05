@@ -496,8 +496,6 @@ nsSupportsWeakReference
 public
 TabContext
 public
-nsAPostRefreshObserver
-public
 nsIWebBrowserPersistable
 public
 LiveResizeListener
@@ -752,12 +750,6 @@ void
 AddWindowListeners
 (
 )
-;
-void
-DidRefresh
-(
-)
-override
 ;
 virtual
 mozilla
@@ -4116,12 +4108,6 @@ region
 .
 bool
 mTabSetsCursor
-;
-RefPtr
-<
-nsIPresShell
->
-mPresShellWithRefreshListener
 ;
 bool
 mHasContentOpener
