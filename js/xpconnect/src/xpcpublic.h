@@ -2264,10 +2264,9 @@ reference
 to
 the
 buffer
-buf
--
->
-AddRef
+str
+.
+RelinquishBufferOwnership
 (
 )
 ;
