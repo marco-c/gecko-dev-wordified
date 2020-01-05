@@ -106,7 +106,10 @@ use
 pipeline
 :
 :
+{
 Pipeline
+CompositionPipeline
+}
 ;
 use
 script
@@ -567,7 +570,7 @@ SendableFrameTree
 {
 pipeline
 :
-Pipeline
+CompositionPipeline
 children
 :
 ~
@@ -891,14 +894,11 @@ SendableFrameTree
 {
 pipeline
 :
-(
-*
 self
 .
 pipeline
-)
 .
-clone
+to_sendable
 (
 )
 children

@@ -300,13 +300,4 @@ SetUnRenderedColor
 )
 }
 }
-compositor
-.
-shutdown_chan
-.
-send
-(
-(
-)
-)
 }
