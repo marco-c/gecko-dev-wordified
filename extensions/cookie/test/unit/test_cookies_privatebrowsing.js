@@ -69,7 +69,7 @@ function
 {
 test_generator
 .
-close
+return
 (
 )
 ;
@@ -111,6 +111,7 @@ nsIHttpChannel
 ;
 }
 function
+*
 do_run_test
 (
 )

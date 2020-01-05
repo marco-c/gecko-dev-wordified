@@ -81,7 +81,7 @@ function
 {
 test_generator
 .
-close
+return
 (
 )
 ;
@@ -94,6 +94,7 @@ do_test_finished
 ;
 }
 function
+*
 do_run_test
 (
 )

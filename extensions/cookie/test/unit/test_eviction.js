@@ -134,7 +134,7 @@ function
 {
 test_generator
 .
-close
+return
 (
 )
 ;
@@ -279,6 +279,7 @@ gShortExpiry
 ;
 }
 function
+*
 do_run_test
 (
 )
