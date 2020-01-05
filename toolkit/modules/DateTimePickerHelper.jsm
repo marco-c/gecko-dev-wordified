@@ -899,12 +899,8 @@ _anchor
 "
 after_start
 "
-rect
-.
-left
-rect
-.
-top
+0
+0
 )
 ;
 this
