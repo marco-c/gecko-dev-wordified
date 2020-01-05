@@ -13006,10 +13006,18 @@ height
 )
 )
 ;
+if
+(
+mPendingConfigures
+>
+0
+)
+{
 mPendingConfigures
 -
 -
 ;
+}
 LayoutDeviceIntRect
 screenBounds
 =
@@ -23870,6 +23878,7 @@ mShell
 ;
 for
 (
+unsigned
 int
 i
 =
