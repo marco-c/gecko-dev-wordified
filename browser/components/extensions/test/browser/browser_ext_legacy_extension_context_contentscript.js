@@ -788,7 +788,6 @@ tab
 ;
 let
 {
-uuid
 tab
 }
 =
