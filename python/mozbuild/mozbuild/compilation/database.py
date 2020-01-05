@@ -895,6 +895,7 @@ for
 (
 directory
 filename
+unified
 )
 cmd
 in
@@ -923,11 +924,27 @@ list
 cmd
 )
             
+if
+unified
+is
+None
+:
+                
 cmd
 .
 append
 (
 filename
+)
+            
+else
+:
+                
+cmd
+.
+append
+(
+unified
 )
             
 local_extra
@@ -1320,6 +1337,41 @@ obj
 .
 canonical_suffix
 )
+            
+for
+entry
+in
+f
+[
+1
+]
+:
+                
+self
+.
+_build_db_line
+(
+obj
+.
+objdir
+obj
+.
+relativedir
+obj
+.
+config
+                                    
+entry
+obj
+.
+canonical_suffix
+unified
+=
+f
+[
+0
+]
+)
     
 def
 _handle_idl_manager
@@ -1500,7 +1552,11 @@ objdir
 reldir
 cenv
 filename
+                       
 canonical_suffix
+unified
+=
+None
 )
 :
         
@@ -1526,6 +1582,7 @@ setdefault
 (
 objdir
 filename
+unified
 )
             
 cenv
