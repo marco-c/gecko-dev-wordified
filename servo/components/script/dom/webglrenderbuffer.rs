@@ -87,10 +87,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-CanvasWebGLMsg
-}
 ;
 use
 dom
@@ -172,6 +169,12 @@ cell
 :
 :
 Cell
+;
+use
+webrender_traits
+:
+:
+WebGLCommand
 ;
 #
 [
@@ -309,7 +312,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateRenderbuffer
@@ -438,7 +441,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindRenderbuffer
@@ -497,7 +500,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteRenderbuffer

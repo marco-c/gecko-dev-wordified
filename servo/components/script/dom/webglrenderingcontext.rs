@@ -60,29 +60,9 @@ use
 canvas_traits
 :
 :
-WebGLError
-:
-:
-*
-;
-use
-canvas_traits
-:
-:
 {
 CanvasCommonMsg
 CanvasMsg
-CanvasWebGLMsg
-WebGLError
-}
-;
-use
-canvas_traits
-:
-:
-{
-WebGLFramebufferBindingRequest
-WebGLParameter
 }
 ;
 use
@@ -466,6 +446,26 @@ vec
 :
 :
 byte_swap
+;
+use
+webrender_traits
+:
+:
+WebGLError
+:
+:
+*
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLError
+WebGLFramebufferBindingRequest
+WebGLParameter
+}
 ;
 pub
 const
@@ -1313,7 +1313,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 VertexAttrib
@@ -1498,7 +1498,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DrawingBufferWidth
@@ -1590,7 +1590,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DrawingBufferHeight
@@ -1700,7 +1700,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetBufferParameter
@@ -1906,7 +1906,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetParameter
@@ -2258,7 +2258,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 GetContextAttributes
@@ -2489,7 +2489,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 ActiveTexture
@@ -2564,7 +2564,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BlendColor
@@ -2633,7 +2633,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BlendEquation
@@ -2702,7 +2702,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BlendEquationSeparate
@@ -2772,7 +2772,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BlendFunc
@@ -2848,7 +2848,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BlendFuncSeparate
@@ -3175,7 +3175,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindBuffer
@@ -3283,7 +3283,7 @@ framebuffer
 let
 cmd
 =
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindFramebuffer
@@ -3417,7 +3417,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindRenderbuffer
@@ -3585,7 +3585,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindTexture
@@ -4080,7 +4080,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BufferSubData
@@ -4391,7 +4391,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Clear
@@ -4472,7 +4472,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 ClearColor
@@ -4540,7 +4540,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 ClearDepth
@@ -4607,7 +4607,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 ClearStencil
@@ -4681,7 +4681,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 ColorMask
@@ -4768,7 +4768,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CullFace
@@ -4857,7 +4857,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 FrontFace
@@ -4976,7 +4976,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DepthFunc
@@ -5051,7 +5051,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DepthMask
@@ -5119,7 +5119,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DepthRange
@@ -5238,7 +5238,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Enable
@@ -5362,7 +5362,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Disable
@@ -6391,7 +6391,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DrawArrays
@@ -6666,7 +6666,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DrawElements
@@ -6752,7 +6752,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 EnableVertexAttribArray
@@ -7471,7 +7471,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Hint
@@ -7559,7 +7559,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 LineWidth
@@ -7856,7 +7856,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 PixelStorei
@@ -7925,7 +7925,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 PolygonOffset
@@ -8000,7 +8000,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Scissor
@@ -8331,7 +8331,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Uniform1f
@@ -8557,7 +8557,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Uniform4f
@@ -9609,7 +9609,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 VertexAttribPointer2f
@@ -9713,7 +9713,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 Viewport
@@ -10226,7 +10226,7 @@ requested
 let
 msg
 =
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 TexImage2D

@@ -87,12 +87,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-CanvasWebGLMsg
-WebGLError
-WebGLResult
-}
 ;
 use
 dom
@@ -194,6 +189,16 @@ cell
 :
 :
 Cell
+;
+use
+webrender_traits
+:
+:
+{
+WebGLCommand
+WebGLError
+WebGLResult
+}
 ;
 pub
 enum
@@ -376,7 +381,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 CreateTexture
@@ -569,7 +574,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 BindTexture
@@ -633,7 +638,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 DeleteTexture
@@ -819,7 +824,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 TexParameteri
@@ -888,7 +893,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 TexParameteri
@@ -967,7 +972,7 @@ CanvasMsg
 :
 WebGL
 (
-CanvasWebGLMsg
+WebGLCommand
 :
 :
 TexParameteri
