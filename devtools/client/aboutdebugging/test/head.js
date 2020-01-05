@@ -849,7 +849,7 @@ MockFilePicker
 .
 init
 (
-window
+null
 )
 ;
 let
