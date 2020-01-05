@@ -69625,9 +69625,10 @@ enter
 exit
 "
 aMethod
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 ?
 "

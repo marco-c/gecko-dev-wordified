@@ -7094,9 +7094,10 @@ wm
 ;
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 reflowStatus
+.
+IsIncomplete
+(
 )
 )
 floatMargin
@@ -7702,9 +7703,10 @@ vertical
 height
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 reflowStatus
+.
+IsIncomplete
+(
 )
 &
 &

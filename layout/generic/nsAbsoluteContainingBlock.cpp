@@ -1275,9 +1275,10 @@ incomplete
 .
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 reflowStatus
+.
+IsIncomplete
+(
 )
 )
 NS_FRAME_SET_OVERFLOW_INCOMPLETE

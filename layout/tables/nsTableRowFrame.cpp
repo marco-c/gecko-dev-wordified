@@ -5914,9 +5914,10 @@ not
 complete
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 status
+.
+IsIncomplete
+(
 )
 )
 {

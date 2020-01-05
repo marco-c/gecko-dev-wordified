@@ -40873,9 +40873,10 @@ aStatus
 else
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 aStatus
+.
+IsIncomplete
+(
 )
 )
 {
@@ -41071,9 +41072,10 @@ status
 }
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
-(
 childStatus
+.
+IsIncomplete
+(
 )
 )
 {
