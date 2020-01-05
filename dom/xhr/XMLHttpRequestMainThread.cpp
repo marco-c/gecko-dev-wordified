@@ -5261,6 +5261,10 @@ CloseRequest
 (
 )
 {
+mWaitingForOnStopRequest
+=
+false
+;
 if
 (
 mChannel
