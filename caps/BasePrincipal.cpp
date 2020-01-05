@@ -352,7 +352,7 @@ aOrigin
 ;
 }
 return
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 aOrigin
 )
@@ -2279,7 +2279,7 @@ originNoSuffix
 nsresult
 rv
 =
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 originNoSuffix
 )
@@ -2295,7 +2295,7 @@ rv
 /
 /
 If
-GetOriginNoSuffixInternal
+GetOriginInternal
 fails
 we
 will
@@ -2304,9 +2304,9 @@ a
 null
 atom
 for
-/
-/
 mOriginNoSuffix
+/
+/
 which
 we
 deal
