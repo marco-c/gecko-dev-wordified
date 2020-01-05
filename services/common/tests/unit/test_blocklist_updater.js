@@ -463,6 +463,11 @@ test
 collection
 "
 {
+bucketName
+:
+"
+blocklists
+"
 maybeSync
 (
 lastModified
