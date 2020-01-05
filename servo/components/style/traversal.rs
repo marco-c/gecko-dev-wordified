@@ -2457,7 +2457,6 @@ cascade_node
 context
 data
 parent
-&
 applicable_declarations
 )
 ;
@@ -2836,7 +2835,6 @@ element
 parent_element
 (
 )
-&
 applicable_declarations
 )
 ;

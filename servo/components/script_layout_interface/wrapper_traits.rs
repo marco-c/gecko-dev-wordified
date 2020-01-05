@@ -2822,7 +2822,7 @@ borrow_mut
 )
 ;
 let
-new_style
+new_style_and_rule_node
 =
 context
 .
@@ -2859,7 +2859,7 @@ style_pseudo
 clone
 (
 )
-new_style
+new_style_and_rule_node
 .
 unwrap
 (
@@ -2996,6 +2996,8 @@ unwrap
 (
 )
 .
+0
+.
 clone
 (
 )
@@ -3051,6 +3053,17 @@ PseudoElement
 :
 :
 Selection
+)
+.
+map
+(
+|
+s
+|
+&
+s
+.
+0
 )
 .
 unwrap_or
@@ -3227,6 +3240,8 @@ style_pseudo_element
 unwrap
 (
 )
+.
+0
 .
 clone
 (

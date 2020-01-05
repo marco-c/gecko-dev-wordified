@@ -939,6 +939,10 @@ restyle_hints
 ;
 pub
 mod
+rule_tree
+;
+pub
+mod
 selector_impl
 ;
 pub
