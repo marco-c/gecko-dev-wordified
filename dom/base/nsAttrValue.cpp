@@ -3510,7 +3510,7 @@ case
 eString
 :
 return
-NS_Atomize
+NS_AtomizeMainThread
 (
 GetStringValue
 (
@@ -3551,7 +3551,7 @@ val
 )
 ;
 return
-NS_Atomize
+NS_AtomizeMainThread
 (
 val
 )
@@ -6150,7 +6150,7 @@ nsIAtom
 >
 classAtom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -6349,7 +6349,7 @@ iter
 ;
 classAtom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -8888,7 +8888,7 @@ nsIAtom
 >
 atom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 *
 aValue

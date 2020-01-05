@@ -6996,7 +6996,7 @@ nsIAtom
 >
 nameAtom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 nameToUse
 )
@@ -7476,7 +7476,7 @@ nsIAtom
 >
 name
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 aLocalName
 )
@@ -7628,7 +7628,7 @@ nsIAtom
 >
 name
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 aLocalName
 )
@@ -8000,7 +8000,7 @@ nsIAtom
 >
 name
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 aLocalName
 )

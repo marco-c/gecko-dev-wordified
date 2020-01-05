@@ -17312,7 +17312,7 @@ NS_ERROR_FAILURE
 *
 aLocalName
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -17338,7 +17338,7 @@ kNameSpaceID_None
 *
 aLocalName
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 aQName
 )
@@ -17462,7 +17462,7 @@ nsIAtom
 >
 prefix
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -17752,7 +17752,7 @@ nameEnd
 *
 aPrefix
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -17803,7 +17803,7 @@ nullptr
 *
 aLocalName
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 Substring
 (
@@ -22390,7 +22390,7 @@ nsIAtom
 >
 atom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 NS_LITERAL_STRING
 (
@@ -22638,7 +22638,7 @@ SMIL
 .
 atom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 NS_LITERAL_STRING
 (
