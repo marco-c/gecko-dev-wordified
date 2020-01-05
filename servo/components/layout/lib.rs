@@ -295,6 +295,10 @@ inline
 ;
 pub
 mod
+list_item
+;
+pub
+mod
 model
 ;
 pub

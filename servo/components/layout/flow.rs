@@ -3841,6 +3841,7 @@ FlowClass
 {
 BlockFlowClass
 InlineFlowClass
+ListItemFlowClass
 TableWrapperFlowClass
 TableFlowClass
 TableColGroupFlowClass
