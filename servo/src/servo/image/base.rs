@@ -81,6 +81,7 @@ new_image
 width
 height
 depth
+move
 data
 )
 }
@@ -296,6 +297,7 @@ height
 image
 .
 depth
+move
 data
 )
 }

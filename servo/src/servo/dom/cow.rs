@@ -705,6 +705,7 @@ ScopeResource
 {
 d
 :
+move
 d
 }
 }

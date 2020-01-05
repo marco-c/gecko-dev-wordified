@@ -288,6 +288,7 @@ send
 (
 BeginDrawing
 (
+move
 next_dt
 )
 )
@@ -315,7 +316,9 @@ send
 (
 Draw
 (
+move
 next_dt
+move
 draw_me
 )
 )
@@ -463,7 +466,9 @@ draw
 ;
 do_draw
 (
+move
 sender
+move
 layer_buffer
 output
 &
@@ -530,7 +535,7 @@ send
 (
 buffer
 .
-buf
+bytes
 .
 get
 (

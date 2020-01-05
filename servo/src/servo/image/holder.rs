@@ -179,6 +179,7 @@ ImageHolder
 {
 url
 :
+move
 url
 image
 :
@@ -287,6 +288,7 @@ holder
 url
 )
 ;
+move
 holder
 }
 impl
@@ -549,6 +551,7 @@ image
 =
 Some
 (
+move
 image
 )
 ;
@@ -673,6 +676,7 @@ image
 )
 ;
 return
+move
 result
 ;
 }

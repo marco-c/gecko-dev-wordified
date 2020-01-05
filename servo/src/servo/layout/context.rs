@@ -38,15 +38,13 @@ rect
 Rect
 ;
 use
-au
-=
 gfx
 :
 :
 geometry
 :
 :
-au
+Au
 ;
 /
 *
@@ -73,6 +71,6 @@ screen_size
 :
 Rect
 <
-au
+Au
 >
 }

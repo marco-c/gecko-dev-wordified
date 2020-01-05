@@ -195,6 +195,7 @@ getopts
 :
 opt_maybe_str
 (
+move
 opt_match
 ~
 "
@@ -204,6 +205,7 @@ o
 {
 Some
 (
+move
 output_file
 )
 =
@@ -211,7 +213,7 @@ output_file
 {
 Png
 (
-copy
+move
 output_file
 )
 }
@@ -226,9 +228,11 @@ Screen
 {
 urls
 :
+move
 urls
 render_mode
 :
+move
 render_mode
 }
 }

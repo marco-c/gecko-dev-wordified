@@ -62,7 +62,6 @@ css
 values
 ;
 use
-mod
 tok
 =
 lexer
@@ -233,6 +232,7 @@ lookahead
 =
 Some
 (
+move
 tok
 )
 ;
@@ -341,7 +341,7 @@ get
 (
 )
 {
-tok
+lexer
 :
 :
 Element
@@ -354,7 +354,7 @@ tag
 copy
 tag
 }
-tok
+lexer
 :
 :
 Eof
@@ -410,7 +410,7 @@ get
 match
 token
 {
-tok
+lexer
 :
 :
 Attr
@@ -461,6 +461,7 @@ self
 .
 unget
 (
+move
 token
 )
 ;
@@ -540,7 +541,9 @@ css
 :
 Element
 (
+move
 elmt_name
+move
 attr_list
 )
 )
@@ -686,7 +689,9 @@ css
 :
 Descendant
 (
+move
 built_sel
+move
 new_sel
 )
 }
@@ -736,7 +741,9 @@ css
 :
 Child
 (
+move
 built_sel
+move
 new_sel
 )
 }
@@ -786,7 +793,9 @@ css
 :
 Sibling
 (
+move
 built_sel
+move
 new_sel
 )
 }
@@ -812,6 +821,7 @@ push
 &
 mut
 sel_list
+move
 built_sel
 )
 ;
@@ -840,6 +850,7 @@ push
 &
 mut
 sel_list
+move
 built_sel
 )
 ;
@@ -980,6 +991,7 @@ self
 .
 unget
 (
+move
 tok
 )
 ;
@@ -989,6 +1001,7 @@ tok
 return
 Some
 (
+move
 sel_list
 )
 ;
@@ -1559,6 +1572,7 @@ tok
 return
 Some
 (
+move
 desc_list
 )
 ;
@@ -1690,7 +1704,9 @@ Some
 (
 ~
 (
+move
 sel_list
+move
 desc_list
 )
 )
@@ -1736,6 +1752,7 @@ reader
 {
 stream
 :
+move
 stream
 mut
 lookahead
@@ -1779,6 +1796,7 @@ break
 }
 }
 return
+move
 rule_list
 ;
 }

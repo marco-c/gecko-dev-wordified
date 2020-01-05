@@ -57,7 +57,7 @@ gfx
 geometry
 :
 :
-au
+Au
 ;
 use
 layout
@@ -206,14 +206,14 @@ b
 &
 Rect
 <
-au
+Au
 >
 c
 :
 &
 Point2D
 <
-au
+Au
 >
 d
 :
@@ -515,7 +515,7 @@ let
 mut
 min_width
 =
-au
+Au
 (
 0
 )
@@ -524,7 +524,7 @@ let
 mut
 pref_width
 =
-au
+Au
 (
 0
 )
@@ -782,7 +782,7 @@ let
 mut
 _right_used
 =
-au
+Au
 (
 0
 )
@@ -791,7 +791,7 @@ let
 mut
 left_used
 =
-au
+Au
 (
 0
 )
@@ -939,7 +939,7 @@ let
 mut
 cur_y
 =
-au
+Au
 (
 0
 )
@@ -1002,7 +1002,7 @@ cur_y
 let
 _used_top
 =
-au
+Au
 (
 0
 )
@@ -1010,7 +1010,7 @@ au
 let
 _used_bot
 =
-au
+Au
 (
 0
 )
@@ -1035,7 +1035,7 @@ origin
 .
 y
 =
-au
+Au
 (
 0
 )
@@ -1084,14 +1084,14 @@ dirty
 &
 Rect
 <
-au
+Au
 >
 offset
 :
 &
 Point2D
 <
-au
+Au
 >
 list
 :

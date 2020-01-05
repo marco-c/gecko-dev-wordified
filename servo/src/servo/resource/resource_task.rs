@@ -350,6 +350,7 @@ factory
 ;
 create_resource_task_with_loaders
 (
+move
 loaders
 )
 }
@@ -375,6 +376,8 @@ do
 spawn_listener
 |
 from_client
+move
+loaders
 |
 {
 /
@@ -389,7 +392,8 @@ once
 we
 can
 move
-into
+out
+of
 closures
 ResourceManager
 (
@@ -461,9 +465,11 @@ ResourceManager
 {
 from_client
 :
+move
 from_client
 loaders
 :
+move
 loaders
 }
 }
@@ -563,6 +569,7 @@ url
 ;
 loader_factory
 (
+move
 url
 progress_chan
 )
@@ -653,6 +660,7 @@ scheme
 return
 Some
 (
+move
 loader_factory
 )
 ;
