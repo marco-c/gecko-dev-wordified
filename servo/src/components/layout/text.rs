@@ -675,7 +675,6 @@ some
 smaller
 stub
 .
-pub
 fn
 flush_clump_to_list
 (

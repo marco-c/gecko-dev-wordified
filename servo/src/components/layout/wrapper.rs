@@ -4016,7 +4016,6 @@ pseudo
 element
 type
 .
-pub
 fn
 with_pseudo
 (
