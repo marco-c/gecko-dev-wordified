@@ -396,6 +396,7 @@ content_chan
 =
 Chan
 (
+&
 content_port
 )
 ;
