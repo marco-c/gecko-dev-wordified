@@ -748,6 +748,13 @@ Option
 <
 RenderTask
 >
+pub
+clip_task
+:
+Option
+<
+RenderTask
+>
 }
 #
 [
@@ -2820,6 +2827,9 @@ gpu_data_count
 render_task
 :
 None
+clip_task
+:
+None
 }
 ;
 metadata
@@ -2931,6 +2941,9 @@ i32
 render_task
 :
 None
+clip_task
+:
+None
 }
 ;
 self
@@ -3028,6 +3041,9 @@ gpu_data_count
 render_task
 :
 None
+clip_task
+:
+None
 }
 ;
 self
@@ -3111,6 +3127,9 @@ gpu_data_count
 render_task
 :
 None
+clip_task
+:
+None
 }
 ;
 self
@@ -3192,6 +3211,9 @@ gpu_data_count
 :
 0
 render_task
+:
+None
+clip_task
 :
 None
 }
@@ -3294,6 +3316,9 @@ length
 as
 i32
 render_task
+:
+None
+clip_task
 :
 None
 }
@@ -3648,6 +3673,9 @@ Some
 (
 render_task
 )
+clip_task
+:
+None
 }
 ;
 for

@@ -84,7 +84,6 @@ serde_derive
 "
 feature
 (
-proc_macro
 rustc_attrs
 structural_match
 )
