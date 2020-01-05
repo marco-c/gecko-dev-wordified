@@ -4025,7 +4025,6 @@ module
 ;
 }
 let
-mut
 hwc_device
 :
 *
@@ -4256,7 +4255,6 @@ null
 )
 ;
 let
-mut
 alloc_dev
 :
 *
