@@ -162,12 +162,6 @@ ScreenHelperWin
 override
 {
 }
-float
-GetSystemDefaultScale
-(
-)
-override
-;
 static
 void
 RefreshScreens
