@@ -21,8 +21,7 @@ base
 :
 {
 Box
-BTree
-NodeMethods
+BoxTree
 }
 ;
 use
@@ -546,7 +545,7 @@ still
 live
 .
 for
-BTree
+BoxTree
 .
 each_child
 (

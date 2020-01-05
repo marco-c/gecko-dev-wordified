@@ -1078,7 +1078,7 @@ col
 >
 layout
 .
-specified_style
+style
 .
 background_color
 =
@@ -1091,7 +1091,7 @@ dis
 >
 layout
 .
-specified_style
+style
 .
 display_type
 =
@@ -1104,7 +1104,7 @@ size
 >
 layout
 .
-specified_style
+style
 .
 font_size
 =
@@ -1117,7 +1117,7 @@ size
 >
 layout
 .
-specified_style
+style
 .
 height
 =
@@ -1130,7 +1130,7 @@ col
 >
 layout
 .
-specified_style
+style
 .
 text_color
 =
@@ -1143,7 +1143,7 @@ size
 >
 layout
 .
-specified_style
+style
 .
 width
 =
@@ -1344,7 +1344,7 @@ copy
 *
 a
 .
-specified_style
+style
 ]
 )
 ;
