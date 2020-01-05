@@ -240,6 +240,15 @@ ServoComputedValues
 }
 ;
 use
+style
+:
+:
+servo
+:
+:
+SharedStyleContext
+;
+use
 text
 ;
 /
@@ -553,10 +562,10 @@ assign_inline_sizes
 &
 mut
 self
-layout_context
+shared_context
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 self
@@ -565,7 +574,7 @@ block_flow
 .
 assign_inline_sizes
 (
-layout_context
+shared_context
 )
 ;
 let
@@ -619,7 +628,7 @@ block_flow
 .
 explicit_block_containing_size
 (
-layout_context
+shared_context
 )
 ;
 marker

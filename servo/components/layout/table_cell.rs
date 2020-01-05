@@ -239,6 +239,15 @@ ServoComputedValues
 }
 ;
 use
+style
+:
+:
+servo
+:
+:
+SharedStyleContext
+;
+use
 table
 :
 :
@@ -1189,10 +1198,10 @@ assign_inline_sizes
 &
 mut
 self
-layout_context
+shared_context
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 let
@@ -1304,7 +1313,7 @@ mut
 self
 .
 block_flow
-layout_context
+shared_context
 containing_block_inline_size
 )
 ;
@@ -1406,7 +1415,7 @@ block_flow
 .
 propagate_assigned_inline_size_to_children
 (
-layout_context
+shared_context
 inline_start_content_edge
 inline_end_content_edge
 content_inline_size

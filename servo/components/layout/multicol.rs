@@ -231,6 +231,15 @@ use
 style
 :
 :
+servo
+:
+:
+SharedStyleContext
+;
+use
+style
+:
+:
 values
 :
 :
@@ -499,10 +508,10 @@ assign_inline_sizes
 &
 mut
 self
-layout_context
+shared_context
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 debug
@@ -531,7 +540,7 @@ block_flow
 .
 compute_inline_sizes
 (
-layout_context
+shared_context
 )
 ;
 /
@@ -618,7 +627,7 @@ block_flow
 .
 assign_inline_sizes
 (
-layout_context
+shared_context
 )
 ;
 let
@@ -853,7 +862,7 @@ block_flow
 .
 propagate_assigned_inline_size_to_children
 (
-layout_context
+shared_context
 inline_start_content_edge
 inline_end_content_edge
 column_width
@@ -1588,10 +1597,10 @@ assign_inline_sizes
 &
 mut
 self
-layout_context
+shared_context
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 debug
@@ -1621,7 +1630,7 @@ block_flow
 .
 assign_inline_sizes
 (
-layout_context
+shared_context
 )
 ;
 }

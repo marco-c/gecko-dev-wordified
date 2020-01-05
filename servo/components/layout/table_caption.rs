@@ -171,6 +171,15 @@ properties
 ServoComputedValues
 ;
 use
+style
+:
+:
+servo
+:
+:
+SharedStyleContext
+;
+use
 util
 :
 :
@@ -319,10 +328,10 @@ assign_inline_sizes
 &
 mut
 self
-ctx
+shared_context
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 debug
@@ -351,7 +360,7 @@ block_flow
 .
 assign_inline_sizes
 (
-ctx
+shared_context
 )
 ;
 }
