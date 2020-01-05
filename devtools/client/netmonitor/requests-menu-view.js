@@ -1698,19 +1698,6 @@ response
 )
 ;
 }
-if
-(
-mimeType
-.
-includes
-(
-"
-text
-/
-"
-)
-)
-{
 responseContent
 .
 content
@@ -1725,7 +1712,6 @@ responseContent
 =
 responseContent
 ;
-}
 yield
 this
 .
