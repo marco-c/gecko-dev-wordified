@@ -11062,6 +11062,7 @@ is_absolutely_positioned
 (
 )
 {
+return
 self
 .
 build_display_list_abs
@@ -11073,9 +11074,6 @@ dirty
 index
 lists
 )
-;
-return
-index
 ;
 }
 /
@@ -12168,7 +12166,7 @@ E
 )
 -
 >
-bool
+uint
 {
 let
 flow_origin
@@ -12333,7 +12331,7 @@ dirty
 )
 {
 return
-true
+index
 ;
 }
 for
@@ -12411,7 +12409,7 @@ position
 origin
 ;
 }
-false
+index
 }
 /
 /
