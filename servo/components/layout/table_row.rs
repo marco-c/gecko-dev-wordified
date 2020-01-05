@@ -664,7 +664,6 @@ BlockFlow
 from_fragment
 (
 fragment
-None
 )
 cell_intrinsic_inline_sizes
 :

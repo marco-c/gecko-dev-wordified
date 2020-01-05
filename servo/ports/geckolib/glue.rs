@@ -488,6 +488,7 @@ properties
 :
 :
 {
+CascadeFlags
 ComputedValues
 Importance
 PropertyDeclaration
@@ -1311,7 +1312,6 @@ Au
 [
 declaration_block
 ]
-false
 Some
 (
 previous_style
@@ -1324,6 +1324,12 @@ Box
 new
 (
 StdoutErrorReporter
+)
+CascadeFlags
+:
+:
+empty
+(
 )
 )
 ;
@@ -2373,6 +2379,7 @@ precomputed_values_for_pseudo
 &
 pseudo
 maybe_parent
+false
 )
 ;
 new_computed
