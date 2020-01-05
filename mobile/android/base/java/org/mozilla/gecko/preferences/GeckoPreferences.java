@@ -5345,12 +5345,6 @@ key
 !
 AppConstants
 .
-MOZ_ANDROID_ACTIVITY_STREAM
-&
-&
-!
-AppConstants
-.
 MOZ_ANDROID_CUSTOM_TABS
 )
 {

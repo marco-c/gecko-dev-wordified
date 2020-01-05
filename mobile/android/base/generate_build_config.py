@@ -305,10 +305,6 @@ var
 in
 (
 '
-MOZ_ANDROID_ACTIVITY_STREAM
-'
-                
-'
 MOZ_ANDROID_ANR_REPORTER
 '
                 
