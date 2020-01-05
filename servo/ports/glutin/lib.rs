@@ -116,14 +116,6 @@ box_syntax
 )
 ]
 #
-!
-[
-feature
-(
-libc
-)
-]
-#
 [
 macro_use
 ]

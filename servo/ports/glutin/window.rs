@@ -1374,7 +1374,7 @@ mouse_button
 MouseButton
 :
 :
-LeftMouseButton
+Left
 |
 |
 mouse_button
@@ -1383,7 +1383,7 @@ mouse_button
 MouseButton
 :
 :
-RightMouseButton
+Right
 {
 let
 mouse_pos
@@ -2886,7 +2886,7 @@ Ok
 Key
 :
 :
-Num0
+Kp0
 )
 VirtualKeyCode
 :
@@ -2899,7 +2899,7 @@ Ok
 Key
 :
 :
-Num1
+Kp1
 )
 VirtualKeyCode
 :
@@ -2912,7 +2912,7 @@ Ok
 Key
 :
 :
-Num2
+Kp2
 )
 VirtualKeyCode
 :
@@ -2925,7 +2925,7 @@ Ok
 Key
 :
 :
-Num3
+Kp3
 )
 VirtualKeyCode
 :
@@ -2938,7 +2938,7 @@ Ok
 Key
 :
 :
-Num4
+Kp4
 )
 VirtualKeyCode
 :
@@ -2951,7 +2951,7 @@ Ok
 Key
 :
 :
-Num5
+Kp5
 )
 VirtualKeyCode
 :
@@ -2964,7 +2964,7 @@ Ok
 Key
 :
 :
-Num6
+Kp6
 )
 VirtualKeyCode
 :
@@ -2977,7 +2977,7 @@ Ok
 Key
 :
 :
-Num7
+Kp7
 )
 VirtualKeyCode
 :
@@ -2990,7 +2990,7 @@ Ok
 Key
 :
 :
-Num8
+Kp8
 )
 VirtualKeyCode
 :
@@ -3003,7 +3003,7 @@ Ok
 Key
 :
 :
-Num9
+Kp9
 )
 VirtualKeyCode
 :
@@ -3016,7 +3016,7 @@ Ok
 Key
 :
 :
-Kp0
+Num0
 )
 VirtualKeyCode
 :
@@ -3029,7 +3029,7 @@ Ok
 Key
 :
 :
-Kp1
+Num1
 )
 VirtualKeyCode
 :
@@ -3042,7 +3042,7 @@ Ok
 Key
 :
 :
-Kp2
+Num2
 )
 VirtualKeyCode
 :
@@ -3055,7 +3055,7 @@ Ok
 Key
 :
 :
-Kp3
+Num3
 )
 VirtualKeyCode
 :
@@ -3068,7 +3068,7 @@ Ok
 Key
 :
 :
-Kp4
+Num4
 )
 VirtualKeyCode
 :
@@ -3081,7 +3081,7 @@ Ok
 Key
 :
 :
-Kp5
+Num5
 )
 VirtualKeyCode
 :
@@ -3094,7 +3094,7 @@ Ok
 Key
 :
 :
-Kp6
+Num6
 )
 VirtualKeyCode
 :
@@ -3107,7 +3107,7 @@ Ok
 Key
 :
 :
-Kp7
+Num7
 )
 VirtualKeyCode
 :
@@ -3120,7 +3120,7 @@ Ok
 Key
 :
 :
-Kp8
+Num8
 )
 VirtualKeyCode
 :
@@ -3133,7 +3133,7 @@ Ok
 Key
 :
 :
-Kp9
+Num9
 )
 VirtualKeyCode
 :
