@@ -448,6 +448,8 @@ HTMLStyleElementTypeId
 HTMLTableElementTypeId
 HTMLTableCaptionElementTypeId
 HTMLTableCellElementTypeId
+HTMLTableDataCellElementTypeId
+HTMLTableHeaderCellElementTypeId
 HTMLTableColElementTypeId
 HTMLTableRowElementTypeId
 HTMLTableSectionElementTypeId
