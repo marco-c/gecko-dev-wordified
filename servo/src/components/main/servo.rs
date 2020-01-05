@@ -473,6 +473,14 @@ not
 (
 test
 )
+not
+(
+target_os
+=
+"
+android
+"
+)
 )
 ]
 use

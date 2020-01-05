@@ -159,9 +159,6 @@ use
 collections
 :
 :
-hashmap
-:
-:
 HashMap
 ;
 use
