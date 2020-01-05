@@ -340,6 +340,10 @@ extern
 crate
 fontconfig
 ;
+extern
+crate
+fontsan
+;
 #
 [
 cfg
