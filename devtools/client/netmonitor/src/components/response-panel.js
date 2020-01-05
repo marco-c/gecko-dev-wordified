@@ -134,7 +134,9 @@ require
 "
 .
 /
-PropertiesView
+properties
+-
+view
 "
 )
 )

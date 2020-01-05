@@ -233,7 +233,9 @@ require
 "
 .
 /
-CookiesPanel
+cookies
+-
+panel
 "
 )
 )
@@ -248,7 +250,9 @@ require
 "
 .
 /
-HeadersPanel
+headers
+-
+panel
 "
 )
 )
@@ -263,7 +267,9 @@ require
 "
 .
 /
-ParamsPanel
+params
+-
+panel
 "
 )
 )
@@ -278,7 +284,9 @@ require
 "
 .
 /
-PreviewPanel
+preview
+-
+panel
 "
 )
 )
@@ -293,7 +301,9 @@ require
 "
 .
 /
-ResponsePanel
+response
+-
+panel
 "
 )
 )
@@ -308,7 +318,9 @@ require
 "
 .
 /
-SecurityPanel
+security
+-
+panel
 "
 )
 )
@@ -323,7 +335,9 @@ require
 "
 .
 /
-TimingsPanel
+timings
+-
+panel
 "
 )
 )

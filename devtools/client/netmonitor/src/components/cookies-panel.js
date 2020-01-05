@@ -113,7 +113,9 @@ require
 "
 .
 /
-PropertiesView
+properties
+-
+view
 "
 )
 )
