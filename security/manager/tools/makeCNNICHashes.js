@@ -625,7 +625,7 @@ n
 +
 "
 static
-constexpr
+const
 struct
 WhitelistedCNNICHash
 WhitelistedCNNICHashes

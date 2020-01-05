@@ -2509,7 +2509,7 @@ writeTo
 "
 \
 nstatic
-constexpr
+const
 char
 kSTSHostTable
 [
@@ -2815,7 +2815,7 @@ n
 +
 "
 static
-constexpr
+const
 nsSTSPreload
 kSTSPreloadList
 [

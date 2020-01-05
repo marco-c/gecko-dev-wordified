@@ -448,7 +448,7 @@ id
 ;
 }
 ;
-constexpr
+const
 CTLogInfo
 kCTLogList
 [
@@ -458,7 +458,7 @@ kCTLogList
 logs
 }
 ;
-constexpr
+const
 CTLogOperatorInfo
 kCTLogOperatorList
 [
