@@ -2545,7 +2545,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 cssDocs
+"
+)
 ;
 cssDocsTooltip
 .

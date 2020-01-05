@@ -274,7 +274,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 ok
 (

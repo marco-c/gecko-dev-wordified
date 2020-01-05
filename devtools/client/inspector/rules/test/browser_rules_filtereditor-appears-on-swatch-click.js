@@ -124,7 +124,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 filterEditor
+"
+)
 ;
 /
 /

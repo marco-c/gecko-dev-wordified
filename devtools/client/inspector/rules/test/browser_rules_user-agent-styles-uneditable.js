@@ -417,7 +417,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 .
 swatches
 .

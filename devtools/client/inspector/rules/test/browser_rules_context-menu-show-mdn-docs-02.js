@@ -360,7 +360,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 cssDocs
+"
+)
 ;
 info
 (

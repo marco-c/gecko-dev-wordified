@@ -1842,14 +1842,6 @@ this
 ;
 this
 .
-tooltips
-.
-addToView
-(
-)
-;
-this
-.
 highlighters
 .
 addToView

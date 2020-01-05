@@ -205,7 +205,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 previewTooltip
+"
+)
 ;
 let
 panel

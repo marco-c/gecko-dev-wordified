@@ -578,7 +578,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 let
 onColorPickerReady

@@ -287,7 +287,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 let
 swatch

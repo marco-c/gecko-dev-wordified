@@ -250,7 +250,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 previewTooltip
+"
+)
 ;
 let
 tooltipContent
@@ -454,7 +459,12 @@ computedView
 .
 tooltips
 .
+getTooltip
+(
+"
 previewTooltip
+"
+)
 ;
 let
 tooltipContent

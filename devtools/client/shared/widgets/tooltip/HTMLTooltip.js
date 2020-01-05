@@ -3736,6 +3736,14 @@ remove
 )
 ;
 }
+this
+.
+_toggle
+.
+destroy
+(
+)
+;
 }
 _createContainer
 :

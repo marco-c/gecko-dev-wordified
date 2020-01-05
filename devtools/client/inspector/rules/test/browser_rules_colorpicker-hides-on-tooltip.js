@@ -248,7 +248,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 info
 (
@@ -350,7 +355,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 previewTooltip
+"
+)
 uriSpan
 )
 ;
