@@ -112,7 +112,6 @@ public
 interface
 RepositorySessionStoreDelegate
 {
-public
 void
 onRecordStoreFailed
 (
@@ -133,7 +132,6 @@ store
 has
 succeeded
 .
-public
 void
 onRecordStoreSucceeded
 (
@@ -141,7 +139,6 @@ String
 guid
 )
 ;
-public
 void
 onStoreCompleted
 (
@@ -149,7 +146,13 @@ long
 storeEnd
 )
 ;
-public
+void
+onStoreFailed
+(
+Exception
+e
+)
+;
 RepositorySessionStoreDelegate
 deferredStoreDelegate
 (

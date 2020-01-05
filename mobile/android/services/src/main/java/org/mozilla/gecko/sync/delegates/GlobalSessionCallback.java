@@ -261,6 +261,15 @@ GlobalSession
 globalSession
 )
 ;
+void
+handleIncompleteStage
+(
+Stage
+currentState
+GlobalSession
+globalSession
+)
+;
 /
 *
 *

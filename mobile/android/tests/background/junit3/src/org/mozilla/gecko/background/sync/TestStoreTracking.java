@@ -776,6 +776,16 @@ e
 ;
 }
 }
+Override
+public
+void
+onStoreFailed
+(
+Exception
+e
+)
+{
+}
 }
 ;
 session

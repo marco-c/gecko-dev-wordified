@@ -5466,6 +5466,16 @@ guid
 )
 {
 }
+Override
+public
+void
+onStoreFailed
+(
+Exception
+e
+)
+{
+}
 }
 ;
 session
