@@ -856,12 +856,11 @@ missing_docs
 derive
 (
 Clone
-Eq
-PartialEq
 Copy
-Hash
-RustcEncodable
 Debug
+Eq
+Hash
+PartialEq
 (
 derived_trait
 )

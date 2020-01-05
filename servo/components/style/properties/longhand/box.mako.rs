@@ -411,12 +411,11 @@ non_camel_case_types
 derive
 (
 Clone
-Eq
-PartialEq
 Copy
-Hash
-RustcEncodable
 Debug
+Eq
+Hash
+PartialEq
 )
 ]
 #

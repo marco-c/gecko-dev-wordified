@@ -195,10 +195,6 @@ extern
 crate
 heapsize_derive
 ;
-extern
-crate
-rustc_serialize
-;
 #
 [
 cfg

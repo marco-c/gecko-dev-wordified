@@ -639,10 +639,6 @@ rayon
 ;
 extern
 crate
-rustc_serialize
-;
-extern
-crate
 selectors
 ;
 #
