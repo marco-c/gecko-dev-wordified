@@ -812,10 +812,7 @@ ApiMsg
 AddImage
 (
 id
-width
-height
-stride
-format
+descriptor
 data
 )
 =
@@ -855,10 +852,7 @@ resource_cache
 add_image_template
 (
 id
-width
-height
-stride
-format
+descriptor
 data
 )
 ;
@@ -869,9 +863,7 @@ ApiMsg
 UpdateImage
 (
 id
-width
-height
-format
+descriptor
 bytes
 )
 =
@@ -884,9 +876,7 @@ resource_cache
 update_image_template
 (
 id
-width
-height
-format
+descriptor
 bytes
 )
 ;

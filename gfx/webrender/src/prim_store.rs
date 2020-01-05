@@ -4246,6 +4246,9 @@ text
 .
 font_key
 font_size_dp
+text
+.
+color
 &
 text
 .
@@ -5601,6 +5604,9 @@ text
 .
 font_key
 font_size_dp
+text
+.
+color
 src_glyphs
 [
 0
@@ -6077,6 +6083,9 @@ text
 .
 font_key
 font_size_dp
+text
+.
+color
 &
 text
 .
@@ -6219,6 +6228,8 @@ metadata
 is_opaque
 =
 image_properties
+.
+descriptor
 .
 is_opaque
 &

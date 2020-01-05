@@ -77,6 +77,7 @@ webrender_traits
 :
 {
 FontKey
+ColorU
 FontRenderMode
 GlyphDimensions
 }
@@ -1367,6 +1368,9 @@ FontKey
 size
 :
 Au
+color
+:
+ColorU
 glyph
 :
 u32
