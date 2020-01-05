@@ -282,6 +282,9 @@ action
 '
 store_true
 '
+default
+=
+None
                      
 help
 =
@@ -423,7 +426,7 @@ dev
 False
 android
 =
-False
+None
 debug
 =
 False
@@ -451,6 +454,28 @@ RUST_BACKTRACE
 "
 1
 "
+        
+if
+android
+is
+None
+:
+            
+android
+=
+self
+.
+config
+[
+"
+build
+"
+]
+[
+"
+android
+"
+]
         
 if
 android
