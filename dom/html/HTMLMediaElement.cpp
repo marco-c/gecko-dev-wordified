@@ -30060,7 +30060,7 @@ diagnostics
 ;
 diagnostics
 .
-StoreDecodeError
+StoreDecodeWarning
 (
 OwnerDoc
 (
