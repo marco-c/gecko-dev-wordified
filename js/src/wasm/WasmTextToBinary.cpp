@@ -28210,7 +28210,7 @@ isMutable
 ?
 uint32_t
 (
-GlobalFlags
+GlobalTypeImmediate
 :
 :
 IsMutable

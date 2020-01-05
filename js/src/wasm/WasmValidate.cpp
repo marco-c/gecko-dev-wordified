@@ -6873,7 +6873,7 @@ flags
 ~
 uint32_t
 (
-GlobalFlags
+GlobalTypeImmediate
 :
 :
 AllowedMask
@@ -6901,7 +6901,7 @@ flags
 &
 uint32_t
 (
-GlobalFlags
+GlobalTypeImmediate
 :
 :
 IsMutable
