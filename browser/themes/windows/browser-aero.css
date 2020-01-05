@@ -669,9 +669,6 @@ opacity
 }
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -681,6 +678,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 #
@@ -1614,9 +1613,6 @@ hsl
 }
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -1626,6 +1622,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 .
@@ -3489,9 +3487,6 @@ Basic
 *
 /
 media
-not
-all
-and
 (
 -
 moz
@@ -3499,6 +3494,8 @@ moz
 windows
 -
 compositor
+:
+0
 )
 {
 media

@@ -797,9 +797,6 @@ inherit
 }
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -809,6 +806,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 toolbarbutton

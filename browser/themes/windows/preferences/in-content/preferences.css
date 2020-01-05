@@ -78,9 +78,6 @@ inc
 .
 css
 media
-not
-all
-and
 (
 -
 moz
@@ -90,6 +87,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 #

@@ -903,9 +903,6 @@ disabled
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -915,6 +912,8 @@ windows
 default
 -
 theme
+:
+0
 )
 {
 menu
