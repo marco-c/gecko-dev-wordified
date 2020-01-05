@@ -1583,9 +1583,7 @@ i
 /
 Validation
 of
-NS_SIDE_IS_VERTICAL
-and
-NS_HALF_CORNER_IS_X
+SideIsVertical
 .
 #
 define
@@ -1597,7 +1595,7 @@ result
 \
 static_assert
 (
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 (
 side
 )
@@ -1606,7 +1604,7 @@ side
 result
 \
 "
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 is
 wrong
 "

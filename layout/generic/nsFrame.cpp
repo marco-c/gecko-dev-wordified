@@ -8496,7 +8496,7 @@ true
 nscoord
 length
 =
-NS_SIDE_IS_VERTICAL
+SideIsVertical
 (
 side
 )
