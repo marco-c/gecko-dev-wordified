@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -419,7 +424,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

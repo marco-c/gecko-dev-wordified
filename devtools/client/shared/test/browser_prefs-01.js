@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -37,7 +42,7 @@ helpers
 work
 properly
 .
-var
+const
 {
 PrefsHelper
 }

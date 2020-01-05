@@ -52,7 +52,7 @@ use
 strict
 "
 ;
-var
+const
 {
 getAdjustedQuads
 }
@@ -504,9 +504,6 @@ length
 array
 is
 returned
-"
-+
-"
 for
 input
 "
@@ -1882,6 +1879,9 @@ several
 quads
 are
 returned
+"
++
+"
 for
 inline
 elements

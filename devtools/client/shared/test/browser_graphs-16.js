@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -37,7 +42,7 @@ work
 as
 expected
 .
-var
+const
 MountainGraphWidget
 =
 require
@@ -210,7 +215,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

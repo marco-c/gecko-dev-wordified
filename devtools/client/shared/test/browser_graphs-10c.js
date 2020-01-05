@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -325,7 +330,7 @@ value
 }
 ]
 ;
-var
+const
 LineGraphWidget
 =
 require
@@ -383,7 +388,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

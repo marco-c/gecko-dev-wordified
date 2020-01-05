@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -45,7 +50,7 @@ flame
 graph
 data
 .
-var
+const
 {
 FlameGraphUtils
 }
@@ -65,12 +70,7 @@ FlameGraph
 "
 )
 ;
-var
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -303,10 +303,6 @@ NaN
 )
 .
 "
-)
-;
-finish
-(
 )
 ;
 }

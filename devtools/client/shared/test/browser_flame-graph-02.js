@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -42,7 +47,7 @@ width
 or
 height
 .
-var
+const
 {
 FlameGraph
 }
@@ -102,7 +107,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

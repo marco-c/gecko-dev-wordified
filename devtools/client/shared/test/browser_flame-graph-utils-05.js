@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -44,7 +49,7 @@ may
 be
 cleared
 .
-var
+const
 {
 FlameGraphUtils
 }

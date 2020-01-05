@@ -634,9 +634,12 @@ bezierCurveTo
 )
 =
 >
+{
 hasDrawnCurve
 =
 true
+;
+}
 ;
 b
 .

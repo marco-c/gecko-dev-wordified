@@ -1091,6 +1091,7 @@ p1
 style
 .
 left
+10
 )
 -
 singleStep
@@ -1214,6 +1215,7 @@ p1
 style
 .
 left
+10
 )
 -
 shiftStep
@@ -1335,6 +1337,7 @@ p1
 style
 .
 left
+10
 )
 +
 shiftStep
@@ -1455,6 +1458,7 @@ p1
 style
 .
 top
+10
 )
 +
 singleStep
@@ -1574,6 +1578,7 @@ p1
 style
 .
 top
+10
 )
 +
 shiftStep
@@ -1693,6 +1698,7 @@ p1
 style
 .
 top
+10
 )
 -
 shiftStep
@@ -1825,6 +1831,7 @@ p2
 style
 .
 left
+10
 )
 -
 singleStep

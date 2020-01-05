@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -41,7 +46,7 @@ width
 or
 height
 .
-var
+const
 LineGraphWidget
 =
 require
@@ -99,7 +104,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

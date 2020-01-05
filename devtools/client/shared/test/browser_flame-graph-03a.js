@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -40,7 +45,7 @@ widget
 work
 properly
 .
-var
+const
 TEST_DATA
 =
 [
@@ -127,7 +132,7 @@ BAZ
 }
 ]
 ;
-var
+const
 TEST_BOUNDS
 =
 {
@@ -139,17 +144,17 @@ endTime
 150
 }
 ;
-var
+const
 TEST_WIDTH
 =
 200
 ;
-var
+const
 TEST_HEIGHT
 =
 100
 ;
-var
+const
 {
 FlameGraph
 }
@@ -209,7 +214,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -1025,7 +1029,6 @@ axis
 detail
 :
 wheel
-axis
 HORIZONTAL_AXIS
 VERTICAL_AXIS
 }

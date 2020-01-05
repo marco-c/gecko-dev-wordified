@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -39,7 +44,7 @@ their
 selection
 linked
 .
-var
+const
 LineGraphWidget
 =
 require
@@ -57,7 +62,7 @@ LineGraphWidget
 "
 )
 ;
-var
+const
 BarGraphWidget
 =
 require
@@ -75,7 +80,7 @@ BarGraphWidget
 "
 )
 ;
-var
+const
 {
 CanvasGraphUtils
 }
@@ -135,7 +140,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

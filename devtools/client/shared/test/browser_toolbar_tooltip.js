@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -831,11 +836,6 @@ ownsWeak
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

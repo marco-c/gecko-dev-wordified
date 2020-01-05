@@ -107,18 +107,6 @@ properties
 )
 ;
 const
-FAST_VALUE_MULTIPLIER
-=
-10
-;
-const
-SLOW_VALUE_MULTIPLIER
-=
-0
-.
-1
-;
-const
 DEFAULT_VALUE_MULTIPLIER
 =
 1
@@ -152,8 +140,6 @@ function
 {
 let
 [
-host
-win
 doc
 ]
 =

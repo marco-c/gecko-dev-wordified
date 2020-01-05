@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -50,7 +55,7 @@ TEST_DATA
 [
 ]
 ;
-var
+const
 LineGraphWidget
 =
 require
@@ -108,7 +113,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

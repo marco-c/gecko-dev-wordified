@@ -134,7 +134,6 @@ function
 let
 [
 host
-win
 doc
 ]
 =

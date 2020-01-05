@@ -534,7 +534,6 @@ deepEqual
 (
 oursNew
 platform
-"
 css
 -
 color
@@ -543,14 +542,11 @@ color
 parser
 for
 color
-"
-+
+{
 test
-+
-"
+}
 matches
 DOMUtils
-"
 )
 ;
 ok

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -46,7 +51,7 @@ selection
 or
 cursor
 .
-var
+const
 LineGraphWidget
 =
 require
@@ -104,7 +109,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -358,7 +363,7 @@ value
 }
 ]
 ;
-var
+const
 LineGraphWidget
 =
 require
@@ -416,7 +421,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -686,6 +690,7 @@ _maxTooltip
 style
 .
 top
+10
 )
 8
 "
@@ -710,6 +715,7 @@ _avgTooltip
 style
 .
 top
+10
 )
 8
 "
@@ -734,6 +740,7 @@ _minTooltip
 style
 .
 top
+10
 )
 142
 "
@@ -758,6 +765,7 @@ _maxGutterLine
 style
 .
 top
+10
 )
 22
 "
@@ -783,6 +791,7 @@ _avgGutterLine
 style
 .
 top
+10
 )
 61
 "
@@ -808,6 +817,7 @@ _minGutterLine
 style
 .
 top
+10
 )
 128
 "

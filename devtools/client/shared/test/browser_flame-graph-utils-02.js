@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -41,7 +46,7 @@ flame
 graph
 data
 .
-var
+const
 {
 FlameGraphUtils
 }
@@ -61,7 +66,7 @@ FlameGraph
 "
 )
 ;
-var
+const
 {
 PALLETTE_SIZE
 }

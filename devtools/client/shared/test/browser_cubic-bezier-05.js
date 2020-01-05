@@ -132,7 +132,6 @@ function
 let
 [
 host
-win
 doc
 ]
 =
@@ -241,11 +240,8 @@ w
 refreshMenu
 (
 PREDEFINED
-[
-"
+.
 linear
-"
-]
 )
 ;
 is

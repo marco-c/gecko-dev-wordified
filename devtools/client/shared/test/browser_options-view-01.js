@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -92,7 +97,7 @@ pretty
 print
 "
 ;
-var
+const
 originalBlackBox
 =
 Services
@@ -106,7 +111,7 @@ BRANCH
 BLACK_BOX_PREF
 )
 ;
-var
+const
 originalPrettyPrint
 =
 Services
@@ -196,7 +201,6 @@ let
 [
 host
 win
-doc
 ]
 =
 yield

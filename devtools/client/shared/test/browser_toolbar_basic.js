@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -196,9 +201,6 @@ gBrowser
 selectedTab
 )
 ;
-let
-toolbox
-=
 yield
 gDevTools
 .

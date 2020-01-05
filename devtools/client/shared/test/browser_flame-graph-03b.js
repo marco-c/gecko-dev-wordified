@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -42,7 +47,7 @@ properly
 on
 HiDPI
 .
-var
+const
 TEST_DATA
 =
 [
@@ -129,7 +134,7 @@ BAZ
 }
 ]
 ;
-var
+const
 TEST_BOUNDS
 =
 {
@@ -141,17 +146,17 @@ endTime
 150
 }
 ;
-var
+const
 TEST_WIDTH
 =
 200
 ;
-var
+const
 TEST_HEIGHT
 =
 100
 ;
-var
+const
 TEST_DPI_DENSITIY
 =
 2
@@ -216,7 +221,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -627,7 +631,6 @@ axis
 detail
 :
 wheel
-axis
 HORIZONTAL_AXIS
 VERTICAL_AXIS
 }

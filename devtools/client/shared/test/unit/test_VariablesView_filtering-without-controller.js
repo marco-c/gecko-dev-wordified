@@ -70,6 +70,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test

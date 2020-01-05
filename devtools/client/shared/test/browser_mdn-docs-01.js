@@ -1007,7 +1007,7 @@ loadListener
 tab
 )
 {
-var
+let
 browser
 =
 getBrowser
@@ -1019,7 +1019,7 @@ getBrowserForTab
 tab
 )
 ;
-var
+let
 uri
 =
 browser
@@ -1084,7 +1084,7 @@ TabOpen
 newTabListener
 )
 ;
-var
+let
 tab
 =
 e
@@ -1102,8 +1102,6 @@ false
 url
 =
 >
-{
-return
 url
 !
 =
@@ -1112,8 +1110,6 @@ about
 :
 blank
 "
-;
-}
 )
 .
 then

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -43,7 +48,7 @@ Float
 and
 Json
 .
-var
+const
 {
 PrefsHelper
 }

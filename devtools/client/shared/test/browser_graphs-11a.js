@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -39,7 +44,7 @@ legend
 as
 expected
 .
-var
+const
 BarGraphWidget
 =
 require
@@ -142,7 +147,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =

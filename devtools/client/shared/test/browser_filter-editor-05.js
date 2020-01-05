@@ -143,8 +143,6 @@ function
 {
 let
 [
-host
-win
 doc
 ]
 =
@@ -354,9 +352,6 @@ widget
 _mouseMove
 (
 {
-pageX
-:
-20
 /
 /
 20
@@ -364,6 +359,9 @@ pageX
 12
 =
 8
+pageX
+:
+20
 altKey
 :
 true
@@ -426,9 +424,6 @@ widget
 _mouseMove
 (
 {
-pageX
-:
-25
 /
 /
 25
@@ -436,6 +431,9 @@ pageX
 20
 =
 5
+pageX
+:
+25
 altKey
 :
 false
@@ -581,9 +579,6 @@ widget
 _mouseMove
 (
 {
-pageX
-:
-30
 /
 /
 30
@@ -591,6 +586,9 @@ pageX
 25
 =
 5
+pageX
+:
+30
 altKey
 :
 false

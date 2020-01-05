@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Tests
@@ -37,7 +42,7 @@ widget
 works
 properly
 .
-var
+const
 {
 FlameGraph
 }
@@ -97,7 +102,6 @@ performTest
 let
 [
 host
-win
 doc
 ]
 =
@@ -162,9 +166,12 @@ ready
 )
 =
 >
+{
 readyEventEmitted
 =
 true
+;
+}
 )
 ;
 yield
