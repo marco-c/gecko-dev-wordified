@@ -214,6 +214,13 @@ load
 on
 startup
 .
+/
+*
+global
+BulkKeyBundle
+SyncKeyBundle
+*
+/
 for
 (
 let

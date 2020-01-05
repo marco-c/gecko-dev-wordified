@@ -1820,6 +1820,7 @@ done
 "
 )
 ;
+let
 hasData
 =
 rotaryColl
@@ -1841,6 +1842,7 @@ scotsman
 "
 )
 ;
+let
 hasKeys
 =
 keysWBO
