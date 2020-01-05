@@ -13714,15 +13714,6 @@ if
 oa
 -
 >
-mAppId
-=
-=
-NECKO_NO_APP_ID
-&
-&
-oa
--
->
 mInIsolatedMozBrowser
 =
 =
