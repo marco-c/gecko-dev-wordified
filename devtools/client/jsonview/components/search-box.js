@@ -312,9 +312,7 @@ input
 className
 :
 "
-devtools
--
-filterinput
+searchBox
 "
 placeholder
 :
