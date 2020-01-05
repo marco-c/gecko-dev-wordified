@@ -3419,7 +3419,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 NS_FAILED
@@ -6482,8 +6481,6 @@ return
 NS_OK
 ;
 }
-else
-{
 /
 /
 pretend
@@ -6510,7 +6507,6 @@ Truncate
 (
 )
 ;
-}
 }
 }
 /
