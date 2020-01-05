@@ -200,6 +200,7 @@ wrapper
 :
 :
 {
+ServoThreadSafeLayoutNode
 ThreadSafeLayoutNode
 UnsafeLayoutNode
 }
@@ -1182,7 +1183,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 <
 '
 a
@@ -1435,7 +1436,7 @@ has_changed
 let
 node
 =
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 :
 :
 new
@@ -1629,7 +1630,7 @@ has_changed
 (
 )
 {
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 :
 :
 new
@@ -1739,7 +1740,7 @@ touch
 index
 )
 ;
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 :
 :
 new
@@ -1935,7 +1936,7 @@ node
 let
 tnode
 =
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 :
 :
 new

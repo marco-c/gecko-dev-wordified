@@ -315,6 +315,7 @@ wrapper
 {
 LayoutNode
 ServoLayoutNode
+ServoThreadSafeLayoutNode
 ThreadSafeLayoutNode
 }
 ;
@@ -2870,7 +2871,7 @@ String
 let
 layout_node
 =
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 :
 :
 new
@@ -3156,7 +3157,7 @@ used_value_for_position_property
 (
 layout_node
 :
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 layout_root
 :
 &

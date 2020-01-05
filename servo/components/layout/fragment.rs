@@ -499,6 +499,8 @@ wrapper
 :
 {
 PseudoElementType
+ServoThreadSafeLayoutNode
+ThreadSafeLayoutElement
 ThreadSafeLayoutNode
 }
 ;
@@ -2453,7 +2455,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 data
 :
 HTMLCanvasData
@@ -2722,7 +2724,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 url
 :
 Option
@@ -2744,7 +2746,7 @@ convert_length
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 name
 :
 &
@@ -3184,7 +3186,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 dom_width
 :
 Option
@@ -4130,7 +4132,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5309,7 +5311,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5396,7 +5398,7 @@ new
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 specific
 :
 SpecificFragmentInfo
