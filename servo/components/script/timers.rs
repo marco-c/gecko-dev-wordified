@@ -629,7 +629,7 @@ derive
 PartialEq
 Copy
 Clone
-Show
+Debug
 )
 ]
 pub
