@@ -7634,6 +7634,8 @@ endif
 /
 /
 GTEST_HAS_SEH
+/
+*
 #
 ifdef
 _MSC_VER
@@ -7690,6 +7692,8 @@ endif
 /
 /
 _MSC_VER
+*
+/
 #
 ifndef
 GTEST_API_
