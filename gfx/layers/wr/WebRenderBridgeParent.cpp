@@ -3935,8 +3935,10 @@ get
 )
 )
 ;
+RefPtr
+<
 ImageBridgeParent
-*
+>
 imageBridge
 =
 ImageBridgeParent
