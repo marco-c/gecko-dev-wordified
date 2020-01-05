@@ -1244,6 +1244,7 @@ mask
 =
 BuildWrMaskLayer
 (
+true
 )
 ;
 WrClipRegion

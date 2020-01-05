@@ -218,6 +218,7 @@ mask
 =
 BuildWrMaskLayer
 (
+true
 )
 ;
 wr
