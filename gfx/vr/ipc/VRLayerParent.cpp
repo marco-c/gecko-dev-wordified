@@ -127,6 +127,9 @@ const
 Rect
 &
 aRightEyeRect
+const
+uint32_t
+aGroup
 )
 :
 mIPCOpen
@@ -144,6 +147,10 @@ aLeftEyeRect
 mRightEyeRect
 (
 aRightEyeRect
+)
+mGroup
+(
+aGroup
 )
 {
 }
