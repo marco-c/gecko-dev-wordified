@@ -4807,9 +4807,10 @@ bind
 var
 unload
 =
+function
+(
 e
-=
->
+)
 {
 this
 .
@@ -4830,6 +4831,11 @@ unload
 )
 ;
 }
+.
+bind
+(
+this
+)
 ;
 this
 .
