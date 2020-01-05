@@ -9548,6 +9548,10 @@ resolve
 ;
 }
 }
+)
+.
+catch
+(
 console
 .
 error
