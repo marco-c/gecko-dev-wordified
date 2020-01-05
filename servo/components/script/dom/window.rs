@@ -276,7 +276,7 @@ use
 layout_interface
 :
 :
-ReflowGoal
+NoQuery
 ;
 use
 page
@@ -2355,9 +2355,6 @@ fn
 flush_layout
 (
 self
-goal
-:
-ReflowGoal
 )
 ;
 fn
@@ -2627,9 +2624,6 @@ fn
 flush_layout
 (
 self
-goal
-:
-ReflowGoal
 )
 {
 self
@@ -2640,7 +2634,7 @@ page
 .
 flush_layout
 (
-goal
+NoQuery
 )
 ;
 }

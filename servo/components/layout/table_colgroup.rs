@@ -104,6 +104,7 @@ fragment
 :
 {
 Fragment
+FragmentBoundsIterator
 TableColumnFragment
 }
 ;
@@ -649,6 +650,19 @@ Arc
 <
 ComputedValues
 >
+)
+{
+}
+fn
+iterate_through_fragment_bounds
+(
+&
+self
+_
+:
+&
+mut
+FragmentBoundsIterator
 )
 {
 }
