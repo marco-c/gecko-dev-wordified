@@ -615,9 +615,8 @@ nicknames
 .
 label
 "
-test
+Mochitest
 client
-certificate
 [
 03
 ]

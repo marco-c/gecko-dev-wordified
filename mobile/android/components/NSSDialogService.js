@@ -1992,7 +1992,7 @@ nickAndSerial
 [
 cert
 .
-nickname
+displayName
 cert
 .
 serialNumber
