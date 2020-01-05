@@ -234,8 +234,8 @@ uint32_t
 mDepth
 ;
 const
-bool
-mSrcIsPremult
+gfxAlphaType
+mSrcAlphaType
 ;
 bool
 mNeedsExactUpload
@@ -258,8 +258,8 @@ uint32_t
 height
 uint32_t
 depth
-bool
-isSrcPremult
+gfxAlphaType
+srcAlphaType
 )
 ;
 public
@@ -600,8 +600,8 @@ layers
 Image
 *
 image
-bool
-isAlphaPremult
+gfxAlphaType
+srcAlphaType
 )
 ;
 ~
@@ -725,8 +725,8 @@ gfx
 DataSourceSurface
 *
 surf
-bool
-isAlphaPremult
+gfxAlphaType
+srcAlphaType
 )
 ;
 virtual
