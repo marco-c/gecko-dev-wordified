@@ -457,6 +457,8 @@ Range
 uint8_t
 >
 aBytes
+uint32_t
+aIndex
 )
 ;
 void
