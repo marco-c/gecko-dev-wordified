@@ -372,6 +372,10 @@ extern
 crate
 rand
 ;
+#
+[
+macro_use
+]
 extern
 crate
 profile_traits

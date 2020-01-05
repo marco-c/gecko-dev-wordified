@@ -2025,6 +2025,13 @@ clone
 )
 self
 .
+mem_profiler_chan
+.
+clone
+(
+)
+self
+.
 devtools_chan
 self
 .

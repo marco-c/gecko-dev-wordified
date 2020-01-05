@@ -151,6 +151,10 @@ net_traits
 ;
 extern
 crate
+profile_traits
+;
+extern
+crate
 serde
 ;
 extern
@@ -279,6 +283,12 @@ storage_task
 :
 :
 StorageTask
+;
+use
+profile_traits
+:
+:
+mem
 ;
 use
 std
@@ -1518,6 +1528,12 @@ StorageTask
 image_cache_task
 :
 ImageCacheTask
+mem_profiler_chan
+:
+mem
+:
+:
+ProfilerChan
 devtools_chan
 :
 Option
