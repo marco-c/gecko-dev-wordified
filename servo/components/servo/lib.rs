@@ -1387,6 +1387,17 @@ render_target_debug
 false
 }
 )
+.
+expect
+(
+"
+Unable
+to
+initialize
+webrender
+!
+"
+)
 }
 ;
 /
