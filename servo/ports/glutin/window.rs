@@ -554,6 +554,9 @@ match
 glutin
 {
 &
+WindowHandle
+:
+:
 Windowed
 (
 ref
@@ -577,6 +580,9 @@ s
 )
 )
 &
+WindowHandle
+:
+:
 Headless
 (
 ref
