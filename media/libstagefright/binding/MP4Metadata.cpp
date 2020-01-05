@@ -2193,8 +2193,6 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
 (
-int64_t
-(
 data
 .
 indices
@@ -2204,6 +2202,8 @@ i
 .
 start_composition
 -
+int64_t
+(
 aDest
 [
 i
@@ -2221,8 +2221,6 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
 (
-int64_t
-(
 data
 .
 indices
@@ -2232,6 +2230,8 @@ i
 .
 end_composition
 -
+int64_t
+(
 aDest
 [
 i
@@ -2248,8 +2248,6 @@ end_composition
 MOZ_DIAGNOSTIC_ASSERT
 (
 llabs
-(
-int64_t
 (
 data
 .
@@ -2260,6 +2258,8 @@ i
 .
 start_decode
 -
+int64_t
+(
 aDest
 [
 i
