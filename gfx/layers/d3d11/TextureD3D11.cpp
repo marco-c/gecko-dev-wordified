@@ -610,6 +610,11 @@ mMutex
 =
 aMutex
 ;
+if
+(
+mMutex
+)
+{
 mResult
 =
 mMutex
@@ -626,6 +631,14 @@ aResult
 mResult
 ;
 }
+else
+{
+aResult
+=
+E_INVALIDARG
+;
+}
+}
 AutoTextureLock
 :
 :
@@ -636,6 +649,9 @@ AutoTextureLock
 {
 if
 (
+mMutex
+&
+&
 !
 FAILED
 (
