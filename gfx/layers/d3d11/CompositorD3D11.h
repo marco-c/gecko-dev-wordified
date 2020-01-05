@@ -168,7 +168,7 @@ LOGD3D11
 (
 param
 )
-struct
+class
 DeviceAttachmentsD3D11
 ;
 class
@@ -1229,8 +1229,10 @@ ID3D11Query
 >
 mQuery
 ;
+RefPtr
+<
 DeviceAttachmentsD3D11
-*
+>
 mAttachments
 ;
 UniquePtr
