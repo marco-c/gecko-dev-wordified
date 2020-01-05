@@ -1210,7 +1210,7 @@ TrackInfo
 &
 aConfig
 const
-mp4parser_sinf_info
+mp4parse_sinf_info
 &
 aSinf
 )
