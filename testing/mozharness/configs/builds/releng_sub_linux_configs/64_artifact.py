@@ -191,17 +191,11 @@ enable_count_ctors
 :
 True
     
-'
-enable_talos_sendchange
-'
-:
-False
-    
 #
 allows
 triggering
 of
-test
+dependent
 jobs
 when
 -
@@ -216,6 +210,12 @@ buildbot
     
 '
 enable_unittest_sendchange
+'
+:
+True
+    
+'
+enable_talos_sendchange
 '
 :
 True
