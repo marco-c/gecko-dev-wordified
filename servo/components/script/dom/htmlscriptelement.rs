@@ -411,7 +411,7 @@ request
 :
 :
 {
-CORSSettings
+CorsSettings
 CredentialsMode
 Destination
 RequestInit
@@ -1763,7 +1763,7 @@ cors_setting
 :
 Option
 <
-CORSSettings
+CorsSettings
 >
 character_encoding
 :
@@ -1852,14 +1852,14 @@ _
 RequestMode
 :
 :
-CORSMode
+CorsMode
 None
 =
 >
 RequestMode
 :
 :
-NoCORS
+NoCors
 }
 /
 /
@@ -1900,7 +1900,7 @@ cors_setting
 {
 Some
 (
-CORSSettings
+CorsSettings
 :
 :
 Anonymous
@@ -2757,7 +2757,7 @@ anonymous
 >
 Some
 (
-CORSSettings
+CorsSettings
 :
 :
 Anonymous
@@ -2781,7 +2781,7 @@ credentials
 >
 Some
 (
-CORSSettings
+CorsSettings
 :
 :
 UseCredentials

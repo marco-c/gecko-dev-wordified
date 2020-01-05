@@ -356,7 +356,7 @@ Debug
 ]
 pub
 struct
-CORSCacheEntry
+CorsCacheEntry
 {
 pub
 origin
@@ -383,7 +383,7 @@ created
 Timespec
 }
 impl
-CORSCacheEntry
+CorsCacheEntry
 {
 fn
 new
@@ -406,9 +406,9 @@ HeaderOrMethod
 )
 -
 >
-CORSCacheEntry
+CorsCacheEntry
 {
-CORSCacheEntry
+CorsCacheEntry
 {
 origin
 :
@@ -446,7 +446,7 @@ match_headers
 cors_cache
 :
 &
-CORSCacheEntry
+CorsCacheEntry
 cors_req
 :
 &
@@ -519,16 +519,16 @@ Clone
 ]
 pub
 struct
-CORSCache
+CorsCache
 (
 Vec
 <
-CORSCacheEntry
+CorsCacheEntry
 >
 )
 ;
 impl
-CORSCache
+CorsCache
 {
 pub
 fn
@@ -537,9 +537,9 @@ new
 )
 -
 >
-CORSCache
+CorsCache
 {
-CORSCache
+CorsCache
 (
 vec
 !
@@ -576,7 +576,7 @@ Option
 '
 a
 mut
-CORSCacheEntry
+CorsCacheEntry
 >
 {
 self
@@ -643,7 +643,7 @@ Option
 '
 a
 mut
-CORSCacheEntry
+CorsCacheEntry
 >
 {
 /
@@ -654,7 +654,7 @@ take
 the
 method
 from
-CORSRequest
+CorSRequest
 itself
 self
 .
@@ -735,7 +735,7 @@ Request
 )
 {
 let
-CORSCache
+CorsCache
 (
 buf
 )
@@ -751,7 +751,7 @@ new_buf
 :
 Vec
 <
-CORSCacheEntry
+CorsCacheEntry
 >
 =
 buf
@@ -799,7 +799,7 @@ collect
 *
 self
 =
-CORSCache
+CorsCache
 (
 new_buf
 )
@@ -821,7 +821,7 @@ self
 )
 {
 let
-CORSCache
+CorsCache
 (
 buf
 )
@@ -851,7 +851,7 @@ new_buf
 :
 Vec
 <
-CORSCacheEntry
+CorsCacheEntry
 >
 =
 buf
@@ -889,7 +889,7 @@ collect
 *
 self
 =
-CORSCache
+CorsCache
 (
 new_buf
 )
@@ -1086,7 +1086,7 @@ self
 .
 insert
 (
-CORSCacheEntry
+CorsCacheEntry
 :
 :
 new
@@ -1328,7 +1328,7 @@ self
 .
 insert
 (
-CORSCacheEntry
+CorsCacheEntry
 :
 :
 new
@@ -1388,7 +1388,7 @@ mut
 self
 entry
 :
-CORSCacheEntry
+CorsCacheEntry
 )
 {
 self

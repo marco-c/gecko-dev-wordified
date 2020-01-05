@@ -4783,7 +4783,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 use_cors_preflight
 :
 has_handlers

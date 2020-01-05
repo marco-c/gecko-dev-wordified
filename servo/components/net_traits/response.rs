@@ -227,7 +227,7 @@ enum
 ResponseType
 {
 Basic
-CORS
+Cors
 Default
 Error
 (
@@ -1404,7 +1404,7 @@ headers
 ResponseType
 :
 :
-CORS
+Cors
 =
 >
 {

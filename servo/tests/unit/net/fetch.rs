@@ -269,7 +269,7 @@ fetch
 cors_cache
 :
 :
-CORSCache
+CorsCache
 ;
 use
 net
@@ -1910,7 +1910,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 ;
 let
 fetch_response
@@ -2038,7 +2038,7 @@ let
 mut
 cache
 =
-CORSCache
+CorsCache
 :
 :
 new
@@ -2295,7 +2295,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 ;
 let
 wrapped_request0
@@ -2848,7 +2848,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 ;
 let
 fetch_response
@@ -3524,7 +3524,7 @@ mode
 RequestMode
 :
 :
-CORSMode
+CorsMode
 ;
 let
 fetch_response
@@ -3564,7 +3564,7 @@ response_type
 ResponseType
 :
 :
-CORS
+Cors
 )
 ;
 let
@@ -6048,7 +6048,7 @@ Basic
 ResponseType
 :
 :
-CORS
+Cors
 =
 >
 {
