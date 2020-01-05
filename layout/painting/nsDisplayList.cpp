@@ -46502,6 +46502,12 @@ shouldGenerateMaskLayer
 !
 maskUsage
 .
+shouldApplyClipPath
+&
+&
+!
+maskUsage
+.
 shouldGenerateClipMaskLayer
 )
 {
@@ -46519,11 +46525,6 @@ opacity
 1
 .
 0
-|
-|
-maskUsage
-.
-shouldApplyClipPath
 |
 |
 maskUsage
