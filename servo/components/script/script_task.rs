@@ -686,7 +686,6 @@ devtools_traits
 :
 :
 {
-DevtoolsControlPort
 DevtoolsPageInfo
 DevtoolScriptControlMsg
 }
@@ -2874,7 +2873,10 @@ exists
 .
 devtools_port
 :
-DevtoolsControlPort
+Receiver
+<
+DevtoolScriptControlMsg
+>
 devtools_sender
 :
 IpcSender
