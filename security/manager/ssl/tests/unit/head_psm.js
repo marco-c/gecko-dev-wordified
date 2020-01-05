@@ -3060,8 +3060,6 @@ prototype
 /
 nsITransportEventSink
 onTransportStatus
-:
-function
 (
 aTransport
 aStatus
@@ -3113,8 +3111,6 @@ thread
 /
 nsIInputStreamCallback
 onInputStreamReady
-:
-function
 (
 aStream
 )
@@ -3224,8 +3220,6 @@ this
 /
 nsIOutputStreamCallback
 onOutputStreamReady
-:
-function
 (
 aStream
 )
@@ -3320,8 +3314,6 @@ thread
 ;
 }
 go
-:
-function
 (
 )
 {
@@ -5237,8 +5229,6 @@ serverPort
 return
 {
 stop
-:
-function
 (
 callback
 )
@@ -5411,8 +5401,6 @@ isExtendedValidation
 :
 false
 getInterface
-:
-function
 (
 aIID
 )
@@ -5427,8 +5415,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )

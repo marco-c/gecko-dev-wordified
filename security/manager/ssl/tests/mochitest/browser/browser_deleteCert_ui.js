@@ -585,8 +585,6 @@ hostPort
 :
 FAKE_HOST_PORT
 cert
-:
-cert
 QueryInterface
 (
 iid
@@ -725,7 +723,6 @@ expectedImpact
 let
 [
 win
-retVals
 ]
 =
 yield

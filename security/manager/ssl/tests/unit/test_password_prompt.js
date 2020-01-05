@@ -188,8 +188,6 @@ xpcom
 boundaries
 .
 promptPassword
-:
-function
 (
 dialogTitle
 text

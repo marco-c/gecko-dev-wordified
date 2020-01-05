@@ -934,7 +934,6 @@ testContents
 let
 [
 win
-retVals
 ]
 =
 yield

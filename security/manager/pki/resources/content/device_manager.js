@@ -250,8 +250,6 @@ smartCardObserver
 =
 {
 observe
-:
-function
 (
 )
 {
@@ -2921,12 +2919,6 @@ showTokenInfo
 (
 )
 {
-/
-/
-ClearInfoList
-(
-)
-;
 var
 selected_token
 =

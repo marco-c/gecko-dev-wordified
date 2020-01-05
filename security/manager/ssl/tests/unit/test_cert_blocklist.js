@@ -261,8 +261,6 @@ ID
 :
 id
 version
-:
-version
 platformVersion
 :
 platformVersion
@@ -1625,8 +1623,6 @@ certblockObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic

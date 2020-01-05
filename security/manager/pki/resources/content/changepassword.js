@@ -1362,8 +1362,6 @@ value
 pwstrength
 )
 ;
-return
-;
 }
 function
 checkPasswords

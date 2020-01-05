@@ -110,8 +110,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 subject
 topic

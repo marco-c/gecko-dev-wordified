@@ -134,8 +134,6 @@ reader
 =
 {
 onInputStreamReady
-:
-function
 (
 stream
 )
@@ -191,8 +189,6 @@ sink
 =
 {
 onTransportStatus
-:
-function
 (
 transport
 status

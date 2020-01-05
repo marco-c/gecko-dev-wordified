@@ -699,7 +699,6 @@ TEST_CASES
 let
 [
 win
-retVals
 ]
 =
 yield

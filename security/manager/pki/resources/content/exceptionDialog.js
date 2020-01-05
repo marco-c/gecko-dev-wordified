@@ -136,8 +136,6 @@ prototype
 =
 {
 getInterface
-:
-function
 (
 aIID
 )
@@ -152,8 +150,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -213,8 +209,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 handle_test_result
-:
-function
 (
 )
 {

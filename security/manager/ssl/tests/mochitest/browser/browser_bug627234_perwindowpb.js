@@ -97,8 +97,6 @@ isExtendedValidation
 :
 false
 getInterface
-:
-function
 (
 aIID
 )
@@ -113,8 +111,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )

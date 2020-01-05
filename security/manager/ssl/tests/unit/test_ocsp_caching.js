@@ -2083,8 +2083,6 @@ proxyFilter
 =
 {
 applyFilter
-:
-function
 (
 aProxyService
 aChannel

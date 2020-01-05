@@ -190,8 +190,6 @@ xulRuntimeFactory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid

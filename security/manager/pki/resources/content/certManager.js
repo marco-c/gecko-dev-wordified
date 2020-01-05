@@ -411,8 +411,6 @@ smartCardObserver
 =
 {
 observe
-:
-function
 (
 )
 {
@@ -2045,9 +2043,6 @@ call
 doBackup
 (
 )
-var
-items
-=
 userTreeView
 .
 selection
@@ -2418,8 +2413,6 @@ interfaceRequestor
 =
 {
 getInterface
-:
-function
 (
 )
 {
