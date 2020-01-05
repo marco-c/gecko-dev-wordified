@@ -364,6 +364,12 @@ LAST_FRAGMENT_OF_ELEMENT
 }
 ;
 use
+linked_list
+:
+:
+prepend_from
+;
+use
 list_item
 :
 :
@@ -591,12 +597,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-linked_list
 ;
 use
 util
@@ -13574,9 +13574,6 @@ removed_fragment
 }
 }
 }
-linked_list
-:
-:
 prepend_from
 (
 this
