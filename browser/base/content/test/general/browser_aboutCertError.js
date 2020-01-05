@@ -1213,12 +1213,6 @@ getTime
 )
 ;
 yield
-new
-Promise
-(
-r
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -1233,8 +1227,6 @@ skew
 ]
 ]
 }
-r
-)
 )
 ;
 info
@@ -1472,12 +1464,6 @@ getTime
 )
 ;
 yield
-new
-Promise
-(
-r
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -1492,8 +1478,6 @@ skew
 ]
 ]
 }
-r
-)
 )
 ;
 info
@@ -1660,12 +1644,6 @@ skew
 4
 ;
 yield
-new
-Promise
-(
-r
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -1680,8 +1658,6 @@ skew
 ]
 ]
 }
-r
-)
 )
 ;
 info
@@ -1755,12 +1731,6 @@ skew
 0
 ;
 yield
-new
-Promise
-(
-r
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -1775,8 +1745,6 @@ skew
 ]
 ]
 }
-r
-)
 )
 ;
 info
