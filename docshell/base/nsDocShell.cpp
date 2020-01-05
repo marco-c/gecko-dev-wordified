@@ -27229,6 +27229,16 @@ NO_PERMANENT_STORAGE
 :
 0
 ;
+OriginAttributes
+originAttributes
+;
+originAttributes
+.
+Inherit
+(
+mOriginAttributes
+)
+;
 bool
 isStsHost
 =
@@ -27278,6 +27288,7 @@ nsISiteSecurityService
 HEADER_HSTS
 aURI
 flags
+originAttributes
 nullptr
 &
 isStsHost
@@ -27302,6 +27313,7 @@ nsISiteSecurityService
 HEADER_HPKP
 aURI
 flags
+originAttributes
 nullptr
 &
 isPinnedHost
@@ -27365,6 +27377,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 flags
+originAttributes
 &
 isStsHost
 )
@@ -27380,6 +27393,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 flags
+originAttributes
 &
 isPinnedHost
 )

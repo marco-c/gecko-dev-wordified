@@ -252,6 +252,12 @@ imgRequest
 .
 h
 "
+using
+mozilla
+:
+:
+OriginAttributes
+;
 class
 nsILoadInfo
 ;
@@ -409,6 +415,10 @@ bool
 aActive
 bool
 aHasHSTSPriming
+const
+OriginAttributes
+&
+aOriginAttributes
 )
 ;
 /
