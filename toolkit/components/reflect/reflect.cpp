@@ -139,6 +139,13 @@ nsNativeCharsetUtils
 h
 "
 #
+include
+"
+xpc_make_class
+.
+h
+"
+#
 define
 JSREFLECT_CONTRACTID
 \
