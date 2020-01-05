@@ -234,6 +234,9 @@ directory
 .
 GetDirectoryListingTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem

@@ -1165,9 +1165,11 @@ request
 .
 *
 /
-explicit
 FileSystemTaskChildBase
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem
@@ -1354,6 +1356,12 @@ RefPtr
 FileSystemBase
 >
 mFileSystem
+;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+mGlobalObject
 ;
 private
 :

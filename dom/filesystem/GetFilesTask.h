@@ -240,6 +240,9 @@ directory
 .
 GetFilesTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem
