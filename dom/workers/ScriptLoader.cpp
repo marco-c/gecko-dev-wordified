@@ -5242,6 +5242,9 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+Unused
+<
+<
 httpChannel
 -
 >
@@ -5260,6 +5263,9 @@ policy
 tCspHeaderValue
 )
 ;
+Unused
+<
+<
 httpChannel
 -
 >
@@ -5282,6 +5288,9 @@ only
 tCspROHeaderValue
 )
 ;
+Unused
+<
+<
 httpChannel
 -
 >

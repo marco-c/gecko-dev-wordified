@@ -1126,6 +1126,9 @@ responseStatus
 =
 0
 ;
+Unused
+<
+<
 hc
 -
 >
@@ -1140,6 +1143,9 @@ succeeded
 =
 false
 ;
+Unused
+<
+<
 hc
 -
 >
@@ -1381,6 +1387,9 @@ NS_OK
 nsAutoCString
 ranges
 ;
+Unused
+<
+<
 hc
 -
 >

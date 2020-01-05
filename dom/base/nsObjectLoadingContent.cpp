@@ -16695,6 +16695,8 @@ if
 httpChan
 )
 {
+rv
+=
 httpChan
 -
 >
@@ -16711,6 +16713,14 @@ doc
 >
 GetReferrerPolicy
 (
+)
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;

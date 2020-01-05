@@ -1832,6 +1832,8 @@ if
 httpChannelInternal
 )
 {
+rv
+=
 httpChannelInternal
 -
 >
@@ -1840,6 +1842,14 @@ GetProxyURI
 getter_AddRefs
 (
 uri
+)
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;
