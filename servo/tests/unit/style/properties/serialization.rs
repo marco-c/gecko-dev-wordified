@@ -6635,9 +6635,8 @@ single_value
 :
 :
 SpecifiedValue
-:
-:
-Image
+(
+Some
 (
 Image
 :
@@ -6660,6 +6659,7 @@ test
 .
 png
 "
+)
 )
 )
 )
@@ -7059,9 +7059,8 @@ single_value
 :
 :
 SpecifiedValue
-:
-:
-Image
+(
+Some
 (
 Image
 :
@@ -7084,6 +7083,7 @@ test
 .
 png
 "
+)
 )
 )
 )

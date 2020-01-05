@@ -319,6 +319,7 @@ GradientKind
 HorizontalDirection
 Image
 ImageRect
+LayerImage
 }
 ;
 pub

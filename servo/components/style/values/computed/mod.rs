@@ -219,6 +219,7 @@ as
 GradientShape
 Gradient
 GradientItem
+LayerImage
 }
 ;
 pub
