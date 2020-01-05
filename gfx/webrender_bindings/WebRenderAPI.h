@@ -406,8 +406,6 @@ UniquePtr
 <
 RendererEvent
 >
-&
-&
 aEvent
 )
 ;

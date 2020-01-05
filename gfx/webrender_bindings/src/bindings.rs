@@ -710,12 +710,6 @@ mut
 RenderApi
 )
 {
-api
-.
-shut_down
-(
-)
-;
 let
 api
 =
@@ -725,6 +719,12 @@ Box
 from_raw
 (
 api
+)
+;
+api
+.
+shut_down
+(
 )
 ;
 }
