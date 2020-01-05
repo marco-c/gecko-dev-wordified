@@ -3721,7 +3721,6 @@ NS_ERROR_FILE_CORRUPTED
 break
 ;
 }
-else
 if
 (
 count

@@ -895,7 +895,6 @@ return
 0
 ;
 }
-else
 if
 (
 1
