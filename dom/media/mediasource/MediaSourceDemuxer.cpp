@@ -191,6 +191,9 @@ MediaSourceDemuxer
 :
 MediaSourceDemuxer
 (
+AbstractThread
+*
+aAbstractMainThread
 )
 :
 mTaskQueue
@@ -205,6 +208,7 @@ MediaThreadType
 :
 PLAYBACK
 )
+aAbstractMainThread
 /
 *
 aSupportsTailDispatch

@@ -195,6 +195,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 MediaResult
 ;
 class
@@ -211,6 +214,9 @@ public
 explicit
 MediaSourceDemuxer
 (
+AbstractThread
+*
+aAbstractMainThread
 )
 ;
 RefPtr

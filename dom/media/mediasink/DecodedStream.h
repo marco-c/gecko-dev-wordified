@@ -243,6 +243,9 @@ DecodedStream
 AbstractThread
 *
 aOwnerThread
+AbstractThread
+*
+aMainThread
 MediaQueue
 <
 MediaData
@@ -508,6 +511,13 @@ RefPtr
 AbstractThread
 >
 mOwnerThread
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 /
 *

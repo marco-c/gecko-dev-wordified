@@ -239,6 +239,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 ContainerParser
 ;
 class
@@ -3157,6 +3160,13 @@ nsMainThreadPtrHandle
 MediaSourceDecoder
 >
 mParentDecoder
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 /
 /

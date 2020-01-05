@@ -412,7 +412,7 @@ endif
 mProxyThread
 -
 >
-AsXPCOMThread
+AsEventTarget
 (
 )
 -
