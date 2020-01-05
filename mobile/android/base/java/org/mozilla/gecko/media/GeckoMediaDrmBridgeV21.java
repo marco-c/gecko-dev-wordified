@@ -391,6 +391,7 @@ mDrm
 ;
 public
 static
+final
 int
 LICENSE_REQUEST_INITIAL
 =
@@ -406,6 +407,7 @@ License_request
 /
 public
 static
+final
 int
 LICENSE_REQUEST_RENEWAL
 =
@@ -421,6 +423,7 @@ License_renewal
 /
 public
 static
+final
 int
 LICENSE_REQUEST_RELEASE
 =
