@@ -1783,10 +1783,12 @@ MediaSourceTrackDemuxer
 :
 Seek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 {
@@ -2052,10 +2054,12 @@ MediaSourceTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreshold
 )
 {

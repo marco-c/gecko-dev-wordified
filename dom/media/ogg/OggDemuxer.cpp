@@ -9697,7 +9697,9 @@ OggTrackDemuxer
 :
 Seek
 (
+const
 TimeUnit
+&
 aTime
 )
 {
@@ -10151,7 +10153,9 @@ OggTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 TimeUnit
+&
 aTimeThreshold
 )
 {

@@ -4632,7 +4632,9 @@ FlacTrackDemuxer
 :
 Seek
 (
+const
 TimeUnit
+&
 aTime
 )
 {
@@ -5769,7 +5771,9 @@ FlacTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 TimeUnit
+&
 aTimeThreshold
 )
 {

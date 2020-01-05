@@ -1597,7 +1597,9 @@ WAVTrackDemuxer
 :
 Seek
 (
+const
 TimeUnit
+&
 aTime
 )
 {
@@ -1915,7 +1917,9 @@ WAVTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 TimeUnit
+&
 aTimeThreshold
 )
 {
