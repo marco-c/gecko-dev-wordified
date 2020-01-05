@@ -65,9 +65,6 @@ and
 animations
 .
 use
-clock_ticks
-;
-use
 flow
 :
 :
@@ -195,6 +192,9 @@ properties
 :
 :
 ComputedValues
+;
+use
+time
 ;
 /
 /
@@ -356,7 +356,7 @@ animation
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s
@@ -615,7 +615,7 @@ animations
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s
@@ -1111,7 +1111,7 @@ RestyleDamage
 let
 now
 =
-clock_ticks
+time
 :
 :
 precise_time_s

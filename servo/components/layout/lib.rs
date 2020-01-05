@@ -182,10 +182,6 @@ canvas_traits
 ;
 extern
 crate
-clock_ticks
-;
-extern
-crate
 cssparser
 ;
 extern
@@ -312,6 +308,10 @@ style
 extern
 crate
 style_traits
+;
+extern
+crate
+time
 ;
 extern
 crate
