@@ -1084,7 +1084,6 @@ BrowserElementParent
 OPEN_WINDOW_ADDED
 ;
 }
-else
 if
 (
 status
