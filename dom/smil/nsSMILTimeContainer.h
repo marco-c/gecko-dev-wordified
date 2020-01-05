@@ -1688,6 +1688,9 @@ of
 a
 seek
 operation
+#
+ifdef
+DEBUG
 bool
 mHoldingEntries
 ;
@@ -1703,10 +1706,14 @@ raw
 pointer
 to
 mMilestoneEntries
+/
+/
 on
 the
 stack
 .
+#
+endif
 /
 /
 A

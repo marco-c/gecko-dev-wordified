@@ -184,10 +184,15 @@ mIsSeeking
 (
 false
 )
+#
+ifdef
+DEBUG
 mHoldingEntries
 (
 false
 )
+#
+endif
 mPauseState
 (
 PAUSE_BEGIN
@@ -1171,7 +1176,7 @@ s
 pretty
 cheap
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mHoldingEntries
@@ -1198,7 +1203,7 @@ ClearMilestones
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mHoldingEntries
@@ -1379,7 +1384,7 @@ overlooked
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mHoldingEntries
@@ -1445,6 +1450,9 @@ nsCycleCollectionTraversalCallback
 aCallback
 )
 {
+#
+ifdef
+DEBUG
 AutoRestore
 <
 bool
@@ -1458,6 +1466,8 @@ mHoldingEntries
 =
 true
 ;
+#
+endif
 const
 MilestoneEntry
 *
@@ -1531,7 +1541,7 @@ Unlink
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mHoldingEntries
@@ -1745,6 +1755,9 @@ SVGAnimationElement
 elems
 ;
 {
+#
+ifdef
+DEBUG
 AutoRestore
 <
 bool
@@ -1758,6 +1771,8 @@ mHoldingEntries
 =
 true
 ;
+#
+endif
 for
 (
 const
