@@ -1039,7 +1039,7 @@ cfg
 all
 (
 test
-target_word_size
+target_pointer_width
 =
 "
 64
