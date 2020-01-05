@@ -141,6 +141,13 @@ style
 /
 #
 include
+"
+nsRuleNode
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -269,13 +276,6 @@ for
 clamped
 (
 )
-#
-include
-"
-nsRuleNode
-.
-h
-"
 #
 include
 "

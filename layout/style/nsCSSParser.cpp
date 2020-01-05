@@ -131,6 +131,13 @@ scanner
 #
 include
 "
+nsCSSParser
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -206,13 +213,6 @@ std
 :
 :
 numeric_limits
-#
-include
-"
-nsCSSParser
-.
-h
-"
 #
 include
 "

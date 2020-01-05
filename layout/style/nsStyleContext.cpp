@@ -112,6 +112,13 @@ data
 #
 include
 "
+nsStyleContext
+.
+h
+"
+#
+include
+"
 CSSVariableImageTable
 .
 h
@@ -222,13 +229,6 @@ h
 include
 "
 nsRuleNode
-.
-h
-"
-#
-include
-"
-nsStyleContext
 .
 h
 "
