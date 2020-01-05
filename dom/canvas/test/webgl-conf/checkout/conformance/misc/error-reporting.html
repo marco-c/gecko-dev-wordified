@@ -493,12 +493,7 @@ getActiveAttrib
 "
 )
 ;
-/
-/
-Synthetic
-OpenGL
-error
-shouldBeNull
+shouldThrow
 (
 "
 context
@@ -518,7 +513,7 @@ glErrorShouldBe
 context
 context
 .
-INVALID_VALUE
+NO_ERROR
 )
 ;
 /
@@ -597,12 +592,7 @@ getActiveUniform
 "
 )
 ;
-/
-/
-Synthetic
-OpenGL
-error
-shouldBeNull
+shouldThrow
 (
 "
 context
@@ -622,7 +612,7 @@ glErrorShouldBe
 context
 context
 .
-INVALID_VALUE
+NO_ERROR
 )
 ;
 /
