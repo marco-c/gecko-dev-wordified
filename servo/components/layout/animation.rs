@@ -80,6 +80,12 @@ Flow
 }
 ;
 use
+fnv
+:
+:
+FnvHashMap
+;
+use
 gfx
 :
 :
@@ -129,15 +135,6 @@ script_traits
 :
 :
 UntrustedNodeAddress
-;
-use
-std
-:
-:
-collections
-:
-:
-HashMap
 ;
 use
 std
@@ -245,7 +242,7 @@ running_animations
 :
 &
 mut
-HashMap
+FnvHashMap
 <
 OpaqueNode
 Vec
@@ -257,7 +254,7 @@ expired_animations
 :
 &
 mut
-HashMap
+FnvHashMap
 <
 OpaqueNode
 Vec
@@ -1048,7 +1045,7 @@ Flow
 animations
 :
 &
-HashMap
+FnvHashMap
 <
 OpaqueNode
 Vec
