@@ -2163,6 +2163,12 @@ nsIPartialSHistory
 >
 mPartialSessionHistory
 ;
+nsCOMPtr
+<
+nsIGroupedSHistory
+>
+mGroupedSessionHistory
+;
 /
 /
 A
