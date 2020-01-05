@@ -219,9 +219,6 @@ namespace
 layers
 {
 class
-CompositorBridgeParent
-;
-class
 CompositorBridgeChild
 ;
 class
@@ -1402,9 +1399,9 @@ aObserver
 )
 override
 ;
-CompositorBridgeParent
+CompositorBridgeChild
 *
-GetCompositorBridgeParent
+GetCompositorBridgeChild
 (
 )
 const
@@ -1654,6 +1651,12 @@ Frame
 :
 GlobalRef
 mLayerRendererFrame
+;
+int64_t
+GetRootLayerId
+(
+)
+const
 ;
 }
 ;
