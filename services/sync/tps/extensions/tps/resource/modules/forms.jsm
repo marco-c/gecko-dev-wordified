@@ -1021,8 +1021,6 @@ date
 )
 ;
 }
-else
-{
 /
 *
 Right
@@ -1057,7 +1055,6 @@ appropriate
 .
 *
 /
-}
 }
 )
 ;

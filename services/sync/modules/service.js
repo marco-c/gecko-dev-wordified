@@ -4854,8 +4854,6 @@ return
 false
 ;
 }
-else
-{
 /
 /
 No
@@ -4870,7 +4868,6 @@ good
 return
 true
 ;
-}
 }
 catch
 (
@@ -9270,8 +9267,6 @@ return
 true
 ;
 }
-else
-{
 if
 (
 !
@@ -9349,7 +9344,6 @@ false
 return
 true
 ;
-}
 }
 /
 *

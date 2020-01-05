@@ -2096,12 +2096,9 @@ sync
 "
 ;
 }
-else
-{
 return
 param
 ;
-}
 }
 )
 ;

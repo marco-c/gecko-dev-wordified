@@ -2238,12 +2238,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 .
 bind

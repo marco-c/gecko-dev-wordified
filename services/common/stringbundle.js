@@ -618,7 +618,6 @@ args
 length
 )
 ;
-else
 return
 this
 .
