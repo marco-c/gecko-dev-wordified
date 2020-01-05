@@ -76,7 +76,7 @@ use
 std
 :
 :
-str
+string
 ;
 use
 std
@@ -475,7 +475,7 @@ unsafe
 let
 reversed
 =
-str
+string
 :
 :
 raw
@@ -1329,11 +1329,9 @@ mut
 self
 .
 fonts
-.
-get
-(
+[
 0
-)
+]
 .
 borrow_mut
 (

@@ -261,15 +261,6 @@ text
 TextRun
 ;
 use
-std
-:
-:
-collections
-:
-:
-Deque
-;
-use
 collections
 :
 :
@@ -1585,7 +1576,7 @@ new_list
 .
 list
 .
-push_back
+push
 (
 item
 )
@@ -2070,7 +2061,7 @@ self
 .
 list
 .
-push_back
+push
 (
 item
 )

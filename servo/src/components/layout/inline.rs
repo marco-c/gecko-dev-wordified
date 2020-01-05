@@ -6717,14 +6717,13 @@ uint
 a
 Fragment
 {
+&
 self
 .
 fragments
-.
-get
-(
+[
 index
-)
+]
 }
 /
 /

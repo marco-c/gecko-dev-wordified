@@ -1545,6 +1545,8 @@ methods_string
 match
 find_header
 (
+&
+*
 response
 .
 headers
@@ -1594,6 +1596,8 @@ headers_string
 match
 find_header
 (
+&
+*
 response
 .
 headers
@@ -1900,6 +1904,8 @@ uint
 =
 find_header
 (
+&
+*
 response
 .
 headers

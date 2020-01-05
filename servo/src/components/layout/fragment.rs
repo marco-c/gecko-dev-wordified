@@ -8877,8 +8877,9 @@ cur_new_line_pos
 =
 new_line_pos
 .
-shift
+remove
 (
+0
 )
 .
 unwrap

@@ -2396,6 +2396,8 @@ FirstSetAttr
 }
 }
 ;
+(
+*
 self
 .
 deref
@@ -2407,11 +2409,10 @@ attrs
 borrow
 (
 )
-.
-get
-(
-idx
 )
+[
+idx
+]
 .
 root
 (
@@ -2607,6 +2608,8 @@ Null
 let
 removed_raw_value
 =
+(
+*
 self
 .
 deref
@@ -2618,11 +2621,10 @@ attrs
 borrow
 (
 )
-.
-get
-(
-idx
 )
+[
+idx
+]
 .
 root
 (

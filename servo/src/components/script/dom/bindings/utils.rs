@@ -4988,6 +4988,11 @@ global_object_for_js_object
 (
 obj
 )
+;
+let
+global
+=
+global
 .
 root
 (

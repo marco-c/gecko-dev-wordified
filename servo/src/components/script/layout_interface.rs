@@ -1415,7 +1415,7 @@ self
 *
 sender
 .
-as_ref
+downcast_ref
 :
 :
 <
