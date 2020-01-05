@@ -788,6 +788,17 @@ BasePrincipal
 (
 )
 ;
+virtual
+nsresult
+GetOriginNoSuffixInternal
+(
+nsACString
+&
+aOrigin
+)
+=
+0
+;
 /
 /
 Note
@@ -931,10 +942,6 @@ void
 FinishInit
 (
 const
-nsACString
-&
-aOriginNoSuffix
-const
 OriginAttributes
 &
 aOriginAttributes
@@ -952,8 +959,6 @@ nsIContentSecurityPolicy
 >
 mPreloadCSP
 ;
-private
-:
 nsCOMPtr
 <
 nsIAtom
@@ -966,6 +971,8 @@ nsIAtom
 >
 mOriginSuffix
 ;
+private
+:
 OriginAttributes
 mOriginAttributes
 ;
