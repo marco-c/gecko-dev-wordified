@@ -401,8 +401,6 @@ debug
 Generating
 tasks
 for
-{
-}
 test
 {
 }
@@ -415,7 +413,6 @@ platform
 format
 (
                     
-kind
 test_name
 test
 [
