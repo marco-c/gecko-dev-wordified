@@ -1414,7 +1414,7 @@ PageProtectingVector
 unsigned
 char
 256
-SystemAllocPolicy
+ProtectedReallocPolicy
 /
 *
 ProtectUsed
