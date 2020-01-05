@@ -2065,6 +2065,8 @@ public
 image
 .
 tar
+.
+zst
 in
 this
 task
@@ -2076,6 +2078,55 @@ than
 searching
 the
 index
+"
+)
+    
+CommandArgument
+(
+'
+-
+t
+'
+'
+-
+-
+tag
+'
+                     
+help
+=
+"
+tag
+that
+the
+image
+should
+be
+loaded
+as
+.
+If
+not
+"
+                          
+"
+image
+will
+be
+loaded
+with
+tag
+from
+the
+tarball
+"
+                     
+metavar
+=
+"
+name
+:
+tag
 "
 )
     
@@ -2134,6 +2185,7 @@ load_image
 self
 image_name
 task_id
+tag
 )
 :
         
@@ -2187,6 +2239,7 @@ ok
 load_image_by_task_id
 (
 task_id
+tag
 )
             
 else
@@ -2197,6 +2250,7 @@ ok
 load_image_by_name
 (
 image_name
+tag
 )
             
 if
