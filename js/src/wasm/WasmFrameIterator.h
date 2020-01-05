@@ -376,11 +376,8 @@ fp_
 Unwind
 unwind_
 ;
-bool
-missingFrameMessage_
-;
 void
-settle
+popFrame
 (
 )
 ;
@@ -466,12 +463,6 @@ return
 codeRange_
 ;
 }
-bool
-hasInstance
-(
-)
-const
-;
 Instance
 *
 instance
