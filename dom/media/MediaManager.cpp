@@ -960,7 +960,7 @@ using
 dom
 :
 :
-BasicUnstoppableTrackSource
+BasicTrackSource
 ;
 using
 dom
@@ -5720,7 +5720,7 @@ return
 do_AddRef
 (
 new
-BasicUnstoppableTrackSource
+BasicTrackSource
 (
 mPrincipal
 )
