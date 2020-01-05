@@ -15964,7 +15964,7 @@ included
 text
 rects
 .
-ErrorResult
+IgnoredErrorResult
 erv
 ;
 range
