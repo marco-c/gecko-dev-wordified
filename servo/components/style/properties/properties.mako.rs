@@ -13230,10 +13230,7 @@ ComputedValues
 default_style
 :
 &
-Arc
-<
 ComputedValues
->
 context
 :
 &
@@ -13596,10 +13593,7 @@ ComputedValues
 default_style
 :
 &
-Arc
-<
 ComputedValues
->
 cascade_info
 :
 Option
@@ -13672,10 +13666,8 @@ None
 true
 &
 *
-*
 default_style
 &
-*
 *
 default_style
 )
@@ -13913,10 +13905,7 @@ ComputedValues
 default_style
 :
 &
-Arc
-<
 ComputedValues
->
 mut
 cascade_info
 :

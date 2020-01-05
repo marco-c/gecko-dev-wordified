@@ -1749,10 +1749,7 @@ ComputedValues
 default_style
 :
 &
-Arc
-<
 ComputedValues
->
 context
 :
 &
