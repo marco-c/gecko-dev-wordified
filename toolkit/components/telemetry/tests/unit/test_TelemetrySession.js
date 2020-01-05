@@ -13238,9 +13238,6 @@ test_abortedSession
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -13962,9 +13959,6 @@ test_abortedSession_Shutdown
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -14244,9 +14238,6 @@ test_abortedDailyCoalescing
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -14682,9 +14673,6 @@ test_schedulerComputerSleep
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -15172,9 +15160,6 @@ test_schedulerEnvironmentReschedules
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -15499,9 +15484,6 @@ test_schedulerNothingDue
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -16271,9 +16253,6 @@ test_schedulerUserIdle
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -16556,9 +16535,6 @@ test_DailyDueAndIdle
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
@@ -16908,9 +16884,6 @@ test_userIdleAndSchedlerTick
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 /
