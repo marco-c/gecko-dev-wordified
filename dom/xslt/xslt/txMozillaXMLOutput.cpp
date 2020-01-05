@@ -4248,6 +4248,14 @@ nsIDocument
 READYSTATE_LOADING
 )
 ;
+mDocument
+-
+>
+SetMayStartLayout
+(
+false
+)
+;
 nsCOMPtr
 <
 nsIDocument
