@@ -10389,6 +10389,10 @@ fillStyle
 let
 textWidth
 =
+Math
+.
+round
+(
 ctx
 .
 measureText
@@ -10397,6 +10401,7 @@ previewText
 )
 .
 width
+)
 ;
 canvas
 .
@@ -10408,7 +10413,7 @@ textWidth
 +
 FONT_PREVIEW_OFFSET
 *
-2
+4
 ;
 canvas
 .
