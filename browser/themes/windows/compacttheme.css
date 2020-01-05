@@ -636,6 +636,9 @@ windows
 win8
 )
 {
+%
+ifndef
+MOZ_PHOTON_THEME
 :
 root
 {
@@ -650,6 +653,8 @@ tabbar
 15px
 ;
 }
+%
+endif
 /
 *
 It
