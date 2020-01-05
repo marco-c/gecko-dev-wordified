@@ -169,6 +169,15 @@ method
 Method
 ;
 use
+net_traits
+:
+:
+request
+:
+:
+Origin
+;
+use
 std
 :
 :
@@ -209,10 +218,7 @@ use
 url
 :
 :
-{
-Origin
 Url
-}
 ;
 /
 /
