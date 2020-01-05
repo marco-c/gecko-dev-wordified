@@ -1652,6 +1652,13 @@ UpdateStylistIfNeeded
 (
 )
 ;
+mPresContext
+-
+>
+CacheAllLangs
+(
+)
+;
 }
 void
 ServoStyleSet

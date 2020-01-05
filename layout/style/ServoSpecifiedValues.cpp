@@ -367,9 +367,8 @@ traversal
 mPresContext
 -
 >
-GetDefaultFont
+ForceCacheLang
 (
-kPresContext_DefaultVariableFont_ID
 atom
 )
 ;
