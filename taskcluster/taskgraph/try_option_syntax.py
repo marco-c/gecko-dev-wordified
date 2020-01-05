@@ -1916,7 +1916,7 @@ char
 return
 result
 def
-parse_message
+find_try_idx
 (
 message
 )
@@ -1976,14 +1976,23 @@ idx
             
 break
     
-if
-try_idx
-is
-None
-:
-        
 return
-None
+try_idx
+parts
+def
+parse_message
+(
+message
+)
+:
+    
+try_idx
+parts
+=
+find_try_idx
+(
+message
+)
     
 #
 Argument
@@ -2400,6 +2409,22 @@ default
 1
 )
     
+parts
+=
+parts
+[
+try_idx
+:
+]
+if
+try_idx
+is
+not
+None
+else
+[
+]
+    
 args
 _
 =
@@ -2810,6 +2835,23 @@ no_retry
 =
 False
         
+try_idx
+_
+=
+find_try_idx
+(
+message
+)
+        
+if
+try_idx
+is
+None
+:
+            
+return
+None
+        
 args
 =
 parse_message
@@ -2817,13 +2859,11 @@ parse_message
 message
 )
         
-if
+assert
 args
 is
+not
 None
-:
-            
-return
         
 self
 .
