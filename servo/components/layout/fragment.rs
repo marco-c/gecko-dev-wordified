@@ -7881,6 +7881,9 @@ tests
 fail
 .
 Au
+:
+:
+new
 (
 (
 inline_size
@@ -7957,6 +7960,9 @@ has_intrinsic_ratio
 )
 {
 Au
+:
+:
+new
 (
 (
 block_size
@@ -8108,6 +8114,9 @@ let
 first_bsize
 =
 Au
+:
+:
+new
 (
 (
 first_isize
@@ -8146,6 +8155,9 @@ let
 second_isize
 =
 Au
+:
+:
+new
 (
 (
 second_bsize
