@@ -841,7 +841,7 @@ Selection
 >
 selection
 =
-mEditorBase
+htmlEditor
 -
 >
 GetSelection
