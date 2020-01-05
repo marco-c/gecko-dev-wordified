@@ -17124,13 +17124,13 @@ Exists
 )
 )
 ;
+{
 PSAutoLock
 lock
 (
 gPSMutex
 )
 ;
-{
 if
 (
 !
