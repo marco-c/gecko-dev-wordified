@@ -4637,6 +4637,28 @@ line
 "
 no_filter
 )
+            
+(
+r
+"
+[
+^
+]
+\
+(
+[
+\
+t
+]
+"
+"
+extra
+space
+after
+(
+"
+no_filter
+)
         
 ]
         
