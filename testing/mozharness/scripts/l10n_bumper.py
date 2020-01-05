@@ -729,6 +729,14 @@ ssh_user
                         
 )
                         
+"
+-
+r
+"
+"
+.
+"
+                        
 self
 .
 config
@@ -1515,6 +1523,9 @@ comments
 approval_str
 =
 '
+r
+=
+release
 a
 =
 l10n
@@ -1577,6 +1588,9 @@ TREE
 message
 =
 '
+no
+bug
+-
 Bumping
 %
 s
