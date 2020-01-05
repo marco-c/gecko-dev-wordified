@@ -675,6 +675,16 @@ rs
 )
 ;
 }
+pub
+use
+record
+:
+:
+{
+ApiRecordingReceiver
+set_recording_detour
+}
+;
 mod
 platform
 {
@@ -951,7 +961,7 @@ byteorder
 ;
 extern
 crate
-rayon
+threadpool
 ;
 pub
 use

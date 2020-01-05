@@ -388,9 +388,6 @@ Au
 glyph
 :
 u32
-device_pixel_ratio
-:
-f32
 render_mode
 :
 Option
@@ -508,11 +505,7 @@ em
 let
 scaled_du_to_pixels
 =
-(
 em_size
-*
-device_pixel_ratio
-)
 /
 du_per_pixel
 ;
@@ -811,8 +804,6 @@ size
 to_f32_px
 (
 )
-*
-device_pixel_ratio
 ;
 let
 rt
@@ -940,9 +931,6 @@ Au
 glyph
 :
 u32
-device_pixel_ratio
-:
-f32
 )
 -
 >
@@ -964,7 +952,6 @@ get_glyph_dimensions_and_maybe_rasterize
 font_key
 size
 glyph
-device_pixel_ratio
 None
 )
 ;
@@ -986,9 +973,6 @@ Au
 glyph
 :
 u32
-device_pixel_ratio
-:
-f32
 render_mode
 :
 FontRenderMode
@@ -1013,7 +997,6 @@ get_glyph_dimensions_and_maybe_rasterize
 font_key
 size
 glyph
-device_pixel_ratio
 Some
 (
 render_mode
