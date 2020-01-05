@@ -120,10 +120,7 @@ geom
 size
 :
 :
-{
-Size2D
 TypedSize2D
-}
 ;
 use
 geom
@@ -512,7 +509,7 @@ trait
 CompositorLayer
 {
 fn
-update_layer_except_size
+update_layer_except_bounds
 (
 &
 self
@@ -1198,7 +1195,7 @@ CompositorData
 >
 {
 fn
-update_layer_except_size
+update_layer_except_bounds
 (
 &
 self
@@ -1269,11 +1266,16 @@ layer_properties
 LayerProperties
 )
 {
+*
 self
 .
-resize
+bounds
+.
+borrow_mut
 (
-Size2D
+)
+=
+Rect
 :
 :
 from_untyped
@@ -1282,9 +1284,6 @@ from_untyped
 layer_properties
 .
 rect
-.
-size
-)
 )
 ;
 /
@@ -1343,7 +1342,7 @@ TypedPoint2D
 ;
 self
 .
-update_layer_except_size
+update_layer_except_bounds
 (
 layer_properties
 )
