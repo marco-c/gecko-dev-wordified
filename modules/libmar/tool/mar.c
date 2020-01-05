@@ -1525,7 +1525,6 @@ workingdirectory
 *
 /
 }
-else
 if
 (
 argv
