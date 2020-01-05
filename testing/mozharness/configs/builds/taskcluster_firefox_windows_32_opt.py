@@ -190,17 +190,17 @@ build
 '
         
 '
-check
--
-test
-'
-        
-'
 generate
 -
 build
 -
 stats
+'
+        
+'
+check
+-
+test
 '
     
 ]

@@ -44,6 +44,15 @@ mock
 build
 '
         
+#
+'
+generate
+-
+build
+-
+stats
+'
+        
 '
 upload
 -
@@ -52,15 +61,6 @@ files
         
 '
 sendchange
-'
-        
-#
-'
-generate
--
-build
--
-stats
 '
         
 '

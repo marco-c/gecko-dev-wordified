@@ -53,10 +53,6 @@ mock
 build
 '
         
-'
-sendchange
-'
-        
 #
 '
 generate
@@ -64,6 +60,10 @@ generate
 build
 -
 stats
+'
+        
+'
+sendchange
 '
     
 ]

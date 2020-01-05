@@ -46,6 +46,15 @@ build
         
 #
 '
+generate
+-
+build
+-
+stats
+'
+        
+#
+'
 upload
 -
 files
@@ -66,15 +75,6 @@ test
 valgrind
 -
 test
-'
-        
-#
-'
-generate
--
-build
--
-stats
 '
         
 #
