@@ -8,6 +8,12 @@ test
 error
 :
 98
+;
+need
+-
+for
+-
+each
 function
 foo
 (

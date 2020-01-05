@@ -8,6 +8,12 @@ test
 error
 :
 ReferenceError
+;
+need
+-
+for
+-
+each
 /
 /
 Binary

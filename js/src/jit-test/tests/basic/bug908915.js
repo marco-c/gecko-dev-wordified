@@ -8,6 +8,12 @@ test
 error
 :
 42
+;
+need
+-
+for
+-
+each
 load
 (
 libdir

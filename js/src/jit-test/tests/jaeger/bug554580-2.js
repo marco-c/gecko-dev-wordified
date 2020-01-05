@@ -8,6 +8,12 @@ test
 error
 :
 RangeError
+;
+need
+-
+for
+-
+each
 (
 function
 (

@@ -8,6 +8,12 @@ test
 error
 :
 TypeError
+;
+need
+-
+for
+-
+each
 /
 /
 Binary

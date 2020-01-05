@@ -7,6 +7,11 @@ test
 |
 slow
 ;
+need
+-
+for
+-
+each
 /
 /
 Binary

@@ -8,6 +8,12 @@ test
 allow
 -
 oom
+;
+need
+-
+for
+-
+each
 if
 (
 !
