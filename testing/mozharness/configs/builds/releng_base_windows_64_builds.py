@@ -276,50 +276,6 @@ buildbot
         
 ]
         
-"
-make
-"
-:
-[
-            
-sys
-.
-executable
-            
-os
-.
-path
-.
-join
-(
-                
-os
-.
-getcwd
-(
-)
-'
-build
-'
-'
-src
-'
-'
-build
-'
-'
-pymake
-'
-'
-make
-.
-py
-'
-            
-)
-        
-]
-        
 '
 virtualenv
 '
@@ -987,12 +943,6 @@ minidumps
 '
     
 }
-    
-'
-enable_pymake
-'
-:
-True
     
 '
 src_mozconfig
