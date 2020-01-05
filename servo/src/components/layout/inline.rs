@@ -3158,6 +3158,10 @@ flow
 &
 mut
 InlineFlow
+layout_context
+:
+&
+LayoutContext
 )
 {
 self
@@ -3362,6 +3366,7 @@ try_append_to_line
 (
 cur_fragment
 flow
+layout_context
 )
 white_space
 :
@@ -3711,6 +3716,10 @@ new_fragment
 :
 &
 Fragment
+layout_context
+:
+&
+LayoutContext
 )
 -
 >
@@ -3723,6 +3732,7 @@ new_fragment
 .
 content_block_size
 (
+layout_context
 )
 ;
 if
@@ -4924,6 +4934,10 @@ flow
 :
 &
 InlineFlow
+layout_context
+:
+&
+LayoutContext
 )
 -
 >
@@ -5122,6 +5136,7 @@ new_block_size_for_line
 (
 &
 in_fragment
+layout_context
 )
 ;
 if
@@ -8660,6 +8675,10 @@ largest_block_size_for_bottom_fragments
 &
 mut
 Au
+layout_context
+:
+&
+LayoutContext
 )
 -
 >
@@ -8725,6 +8744,7 @@ fragment
 .
 content_block_size
 (
+layout_context
 )
 ;
 let
@@ -9067,6 +9087,7 @@ fragment
 .
 calculate_line_height
 (
+layout_context
 )
 ;
 let
@@ -9436,6 +9457,8 @@ text
 line_height_from_style
 (
 style
+&
+font_metrics
 )
 ;
 let
@@ -9995,7 +10018,7 @@ assign_block_size
 &
 mut
 self
-_
+ctx
 :
 &
 LayoutContext
@@ -10194,6 +10217,7 @@ scanner
 scan_for_lines
 (
 self
+ctx
 )
 ;
 /
@@ -10438,6 +10462,7 @@ fragment
 .
 inline_metrics
 (
+ctx
 )
 ;
 /
@@ -10760,6 +10785,7 @@ largest_block_size_for_top_fragments
 &
 mut
 largest_block_size_for_bottom_fragments
+ctx
 )
 ;
 /
