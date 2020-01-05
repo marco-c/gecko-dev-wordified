@@ -24140,7 +24140,7 @@ return
 SetupConn
 (
 out
-false
+nullptr
 )
 ;
 }
@@ -24496,8 +24496,16 @@ nsHalfOpenSocket
 :
 StartFastOpen
 (
+PRFileDesc
+*
+fd
 )
 {
+MOZ_ASSERT
+(
+fd
+)
+;
 MOZ_ASSERT
 (
 mStreamOut
@@ -24600,7 +24608,7 @@ return
 SetupConn
 (
 mStreamOut
-true
+fd
 )
 ;
 }
@@ -24851,7 +24859,8 @@ SetupConn
 nsIAsyncOutputStream
 *
 out
-bool
+PRFileDesc
+*
 aFastOpen
 )
 {
@@ -26099,7 +26108,7 @@ conn
 >
 SetFastOpen
 (
-false
+nullptr
 )
 ;
 mConnectionNegotiatingFastOpen

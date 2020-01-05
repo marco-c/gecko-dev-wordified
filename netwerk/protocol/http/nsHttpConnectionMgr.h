@@ -2833,6 +2833,8 @@ override
 nsresult
 StartFastOpen
 (
+PRFileDesc
+*
 )
 override
 ;
@@ -2857,7 +2859,8 @@ SetupConn
 nsIAsyncOutputStream
 *
 out
-bool
+PRFileDesc
+*
 aFastOpen
 )
 ;
