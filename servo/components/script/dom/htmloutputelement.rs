@@ -357,6 +357,11 @@ window
 r
 (
 )
+self
+.
+upcast
+(
+)
 )
 }
 /
