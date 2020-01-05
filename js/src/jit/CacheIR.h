@@ -4840,6 +4840,15 @@ Int32OperandId
 indexId
 )
 ;
+bool
+tryAttachProxyElement
+(
+HandleObject
+obj
+ObjOperandId
+objId
+)
+;
 ValOperandId
 getElemKeyValueId
 (
