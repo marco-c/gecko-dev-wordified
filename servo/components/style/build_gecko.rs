@@ -3420,9 +3420,6 @@ nsFont
 nsIAtom
 "
 "
-nsIURI
-"
-"
 nsMainThreadPtrHandle
 "
 "
@@ -4839,16 +4836,10 @@ RawGeckoPresContextOwned
 RawGeckoStyleAnimationList
 "
 "
-GeckoParserExtraData
+RawGeckoURLExtraData
 "
 "
 RefPtr
-"
-"
-ThreadSafeURIHolder
-"
-"
-ThreadSafePrincipalHolder
 "
 "
 CSSPseudoClassType
@@ -4915,9 +4906,6 @@ nsFont
 "
 "
 nsIAtom
-"
-"
-nsIURI
 "
 "
 nsMediaFeature
