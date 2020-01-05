@@ -1947,6 +1947,9 @@ aBrowser
 ignoreSubFrames
 =
 true
+wantLoad
+=
+null
 )
 {
 return
@@ -1957,6 +1960,7 @@ browserLoaded
 aBrowser
 !
 ignoreSubFrames
+wantLoad
 )
 ;
 }
