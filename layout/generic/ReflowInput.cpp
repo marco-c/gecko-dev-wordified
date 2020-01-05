@@ -1858,13 +1858,12 @@ aCoord
 const
 {
 return
-nsLayoutUtils
-:
-:
+mFrame
+-
+>
 ComputeISizeValue
 (
 mRenderingContext
-mFrame
 aContainingBlockISize
 aContentEdgeToBoxSizing
 aBoxSizingToMarginEdge
