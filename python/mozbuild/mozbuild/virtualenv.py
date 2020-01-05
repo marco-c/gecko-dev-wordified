@@ -3884,12 +3884,19 @@ from_line
 package
 )
         
-if
 req
 .
 check_if_exists
 (
 )
+        
+if
+req
+.
+satisfied_by
+is
+not
+None
 :
             
 return
