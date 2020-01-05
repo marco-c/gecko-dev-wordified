@@ -832,7 +832,6 @@ dst_buffer
 uint32_t
 buffer_length
 )
-;
 WR_FUNC
 ;
 WR_INLINE
