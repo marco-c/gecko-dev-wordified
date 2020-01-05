@@ -236,7 +236,7 @@ mCallback
 nullptr
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDecryptor
@@ -275,7 +275,7 @@ WidevineDecryptor
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDecryptor
@@ -344,7 +344,7 @@ bool
 aPersistentStateRequired
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDecryptor
@@ -493,7 +493,7 @@ GMPSessionType
 aSessionType
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -651,7 +651,7 @@ uint32_t
 aSessionIdLength
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -715,7 +715,7 @@ uint32_t
 aResponseSize
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -768,7 +768,7 @@ uint32_t
 aSessionIdLength
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -819,7 +819,7 @@ uint32_t
 aSessionIdLength
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -863,7 +863,7 @@ uint32_t
 aServerCertSize
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -1215,7 +1215,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDecryptor
@@ -1602,7 +1602,7 @@ sample
 decrypted
 )
 ;
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -1719,7 +1719,7 @@ DecryptingComplete
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineDecryptor
@@ -1871,7 +1871,7 @@ size_t
 aSize
 )
 {
-Log
+CDM_LOG
 (
 "
 WidevineBuffer
@@ -1902,7 +1902,7 @@ WidevineBuffer
 )
 override
 {
-Log
+CDM_LOG
 (
 "
 WidevineBuffer
@@ -2031,7 +2031,7 @@ uint32_t
 aCapacity
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2164,7 +2164,7 @@ void
 aContext
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2237,7 +2237,7 @@ gmpTime
 /
 1e3
 ;
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2279,7 +2279,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2370,7 +2370,7 @@ if
 aSessionId
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2404,7 +2404,7 @@ false
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2444,7 +2444,7 @@ end
 )
 )
 {
-Log
+CDM_LOG
 (
 "
 FAIL
@@ -2513,7 +2513,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2538,7 +2538,7 @@ aPromiseId
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2731,7 +2731,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2773,7 +2773,7 @@ aErrorMessage
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2899,7 +2899,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -2918,7 +2918,7 @@ mCallback
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3042,7 +3042,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3061,7 +3061,7 @@ mCallback
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3188,7 +3188,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3217,7 +3217,7 @@ aNewExpiryTime
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3289,7 +3289,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3313,7 +3313,7 @@ aSessionId
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3370,7 +3370,7 @@ if
 mCallback
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3402,7 +3402,7 @@ aError
 return
 ;
 }
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3464,7 +3464,7 @@ uint32_t
 aChallengeSize
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3492,7 +3492,7 @@ uint32_t
 aDesiredProtectionMask
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3519,7 +3519,7 @@ QueryOutputProtectionStatus
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3544,7 +3544,7 @@ Status
 aDecoderStatus
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor
@@ -3569,7 +3569,7 @@ FileIOClient
 aClient
 )
 {
-Log
+CDM_LOG
 (
 "
 Decryptor

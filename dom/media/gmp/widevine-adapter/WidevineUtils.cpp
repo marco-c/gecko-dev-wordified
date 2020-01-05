@@ -485,7 +485,7 @@ CDMWrapper
 (
 )
 {
-Log
+CDM_LOG
 (
 "
 CDMWrapper
