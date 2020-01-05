@@ -1835,6 +1835,16 @@ LayerType
 layer_type
 )
 ;
+void
+Gecko_EnsureStyleAnimationArrayLength
+(
+void
+*
+array
+size_t
+len
+)
+;
 /
 /
 Clean
