@@ -733,6 +733,7 @@ endpoint
 .
 *
 /
+public
 static
 void
 loadConfig
