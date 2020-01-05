@@ -287,7 +287,6 @@ jsapi
 {
 JS_ForwardGetPropertyTo
 JS_ForwardSetPropertyTo
-JS_GetClass
 }
 ;
 use
@@ -338,6 +337,15 @@ jsval
 UndefinedValue
 PrivateValue
 }
+;
+use
+js
+:
+:
+rust
+:
+:
+get_object_class
 ;
 use
 msg
@@ -661,7 +669,7 @@ assert
 (
 (
 *
-JS_GetClass
+get_object_class
 (
 parent
 .

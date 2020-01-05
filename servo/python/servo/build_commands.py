@@ -2979,7 +2979,7 @@ jobs
 None
 verbose
 =
-False
+True
 release
 =
 False

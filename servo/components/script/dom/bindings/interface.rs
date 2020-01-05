@@ -280,7 +280,6 @@ jsapi
 :
 :
 {
-JS_GetClass
 JS_GetFunctionObject
 JS_GetPrototype
 }
@@ -372,6 +371,7 @@ rust
 {
 define_methods
 define_properties
+get_object_class
 }
 ;
 use
@@ -2429,7 +2429,7 @@ JSString
 let
 js_class
 =
-JS_GetClass
+get_object_class
 (
 obj
 .
@@ -2691,7 +2691,7 @@ to_object
 let
 js_class
 =
-JS_GetClass
+get_object_class
 (
 interface_object
 .
