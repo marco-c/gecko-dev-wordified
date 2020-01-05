@@ -507,7 +507,12 @@ nsDeviceContext
 aContext
 )
 ;
-NS_INLINE_DECL_REFCOUNTING
+/
+/
+Used
+by
+stylo
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 nsFontMetrics
 )

@@ -905,8 +905,7 @@ virtual
 gfxUserFontFamily
 (
 )
-{
-}
+;
 /
 /
 add

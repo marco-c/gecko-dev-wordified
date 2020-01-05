@@ -1123,8 +1123,7 @@ virtual
 gfxFontconfigFontFamily
 (
 )
-{
-}
+;
 nsTArray
 <
 nsCountedRef
