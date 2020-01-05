@@ -899,9 +899,11 @@ if
 !
 funcDO
 )
+{
 return
 handlerDO
 ;
+}
 handlerDO
 =
 funcDO

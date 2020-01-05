@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+global
+addMessageListener
+*
+/
 "
 use
 strict
@@ -69,9 +75,6 @@ Cc
 interfaces
 :
 Ci
-utils
-:
-Cu
 }
 =
 Components

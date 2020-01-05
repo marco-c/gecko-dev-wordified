@@ -786,7 +786,6 @@ graduationLength
 }
 }
 else
-{
 if
 (
 i
@@ -831,7 +830,6 @@ graduationLength
 i
 }
 ;
-}
 }
 }
 pathGraduations

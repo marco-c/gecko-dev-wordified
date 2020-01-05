@@ -102,6 +102,13 @@ MPL
 .
 *
 /
+/
+*
+global
+setConsoleEventHandler
+retrieveConsoleEvents
+*
+/
 "
 use
 strict
