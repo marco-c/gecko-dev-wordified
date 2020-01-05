@@ -1444,7 +1444,8 @@ VISUAL_STUDIO_ADVERTISEMENT
     
 #
 Advertise
-Eclipse
+Android
+Studio
 if
 it
 is
@@ -1460,17 +1461,6 @@ env
 )
 :
         
-if
-'
-AndroidEclipse
-'
-not
-in
-options
-.
-backend
-:
-            
 print
 (
 ANDROID_IDE_ADVERTISEMENT

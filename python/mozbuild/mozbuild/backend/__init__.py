@@ -58,18 +58,6 @@ backends
 {
     
 '
-AndroidEclipse
-'
-:
-'
-mozbuild
-.
-backend
-.
-android_eclipse
-'
-    
-'
 ChromeMap
 '
 :
