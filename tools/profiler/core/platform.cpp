@@ -1008,6 +1008,7 @@ it
 currently
 has
 .
+static
 mozilla
 :
 :

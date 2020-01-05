@@ -507,6 +507,13 @@ EndUnwind
 void
 DuplicateLastSample
 (
+const
+mozilla
+:
+:
+TimeStamp
+&
+aStartTime
 )
 ;
 ThreadResponsiveness

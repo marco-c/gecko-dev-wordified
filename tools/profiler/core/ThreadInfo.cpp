@@ -1384,6 +1384,10 @@ ThreadInfo
 :
 DuplicateLastSample
 (
+const
+TimeStamp
+&
+aStartTime
 )
 {
 mBuffer
@@ -1392,6 +1396,7 @@ mBuffer
 DuplicateLastSample
 (
 mThreadId
+aStartTime
 )
 ;
 }
