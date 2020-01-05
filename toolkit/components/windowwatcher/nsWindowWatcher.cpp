@@ -9859,6 +9859,13 @@ FindItemWithName
 aTargetName
 nullptr
 nullptr
+/
+*
+aSkipTabGroup
+=
+*
+/
+false
 getter_AddRefs
 (
 treeItem
@@ -12557,6 +12564,13 @@ FindItemWithName
 aName
 nullptr
 callerItem
+/
+*
+aSkipTabGroup
+=
+*
+/
+false
 getter_AddRefs
 (
 foundItem

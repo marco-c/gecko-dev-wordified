@@ -6430,12 +6430,14 @@ const
 nsAString
 &
 aName
-nsISupports
+nsIDocShellTreeItem
 *
 aRequestor
 nsIDocShellTreeItem
 *
 aOriginalRequestor
+bool
+aSkipTabGroup
 nsIDocShellTreeItem
 *
 *

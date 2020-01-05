@@ -1454,8 +1454,15 @@ root
 FindItemWithName
 (
 aName
-this
+aRequestor
 aOriginalRequestor
+/
+*
+aSkipTabGroup
+=
+*
+/
+true
 aFoundItem
 )
 ;
