@@ -350,6 +350,9 @@ None
 memory_profiler_period
 :
 None
+enable_experimental
+:
+false
 layout_threads
 :
 1
@@ -386,7 +389,7 @@ false
 hard_fail
 :
 false
-bubble_widths_separately
+bubble_inline_sizes_separately
 :
 false
 }

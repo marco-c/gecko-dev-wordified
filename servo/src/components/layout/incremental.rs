@@ -127,7 +127,7 @@ doc
 "
 Recompute
 intrinsic
-widths
+inline_sizes
 (
 minimum
 and
@@ -164,7 +164,7 @@ up
 "
 ]
 static
-BubbleWidths
+BubbleISizes
 =
 0x02
 #
@@ -174,9 +174,9 @@ doc
 "
 Recompute
 actual
-widths
+inline_sizes
 and
-heights
+block_sizes
 .
 "
 ]
@@ -274,7 +274,7 @@ RestyleDamage
 {
 self
 &
-BubbleWidths
+BubbleISizes
 }
 }
 /
@@ -516,7 +516,7 @@ new
 damage
 [
 Repaint
-BubbleWidths
+BubbleISizes
 Reflow
 ]
 [

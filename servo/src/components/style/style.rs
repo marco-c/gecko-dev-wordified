@@ -165,6 +165,10 @@ collections
 ;
 extern
 crate
+geom
+;
+extern
+crate
 num
 ;
 extern
