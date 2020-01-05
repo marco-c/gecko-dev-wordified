@@ -716,8 +716,9 @@ self
 .
 block_flow
 .
-bubble_inline_sizes
+bubble_inline_sizes_for_block
 (
+true
 )
 ;
 let
