@@ -154,6 +154,16 @@ pub
 identifier
 :
 String
+pub
+font_data
+:
+Option
+<
+Vec
+<
+u8
+>
+>
 }
 unsafe
 impl
@@ -202,6 +212,7 @@ font_data
 {
 Some
 (
+ref
 bytes
 )
 =
@@ -311,6 +322,9 @@ identifier
 to_owned
 (
 )
+font_data
+:
+font_data
 }
 }
 }
