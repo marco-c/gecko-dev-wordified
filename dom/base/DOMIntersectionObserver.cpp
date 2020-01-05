@@ -1338,10 +1338,14 @@ time
 Element
 *
 root
+=
+nullptr
 ;
 nsIFrame
 *
 rootFrame
+=
+nullptr
 ;
 nsRect
 rootRect
