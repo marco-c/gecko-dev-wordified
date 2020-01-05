@@ -3413,7 +3413,7 @@ s
 when
 expanding
 a
-longhand
+shorthand
 for
 example
 .
