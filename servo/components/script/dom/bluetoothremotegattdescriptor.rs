@@ -260,7 +260,10 @@ bindings
 str
 :
 :
+{
 ByteString
+DOMString
+}
 ;
 use
 dom
@@ -291,15 +294,6 @@ bluetooth_thread
 :
 :
 BluetoothMethodMsg
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 /
 /

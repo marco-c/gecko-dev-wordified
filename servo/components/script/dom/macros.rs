@@ -1189,6 +1189,10 @@ url
 (
 )
 value
+.
+into
+(
+)
 )
 ;
 let
@@ -1694,6 +1698,10 @@ AttrValue
 from_legacy_color
 (
 value
+.
+into
+(
+)
 )
 ;
 element
@@ -1786,6 +1794,10 @@ AttrValue
 from_dimension
 (
 value
+.
+into
+(
+)
 )
 ;
 element
@@ -1878,6 +1890,10 @@ AttrValue
 from_nonzero_dimension
 (
 value
+.
+into
+(
+)
 )
 ;
 element

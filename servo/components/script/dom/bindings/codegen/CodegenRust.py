@@ -16676,7 +16676,7 @@ bindings
 conversions
 :
 :
-root_from_handlevalue
+StringificationBehavior
 '
         
 '
@@ -16689,7 +16689,7 @@ bindings
 conversions
 :
 :
-StringificationBehavior
+root_from_handlevalue
 '
         
 '
@@ -16728,7 +16728,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 '
         
 '
@@ -16772,16 +16775,6 @@ jsval
 :
 :
 JSVal
-'
-        
-'
-util
-:
-:
-str
-:
-:
-DOMString
 '
     
 ]
@@ -46347,20 +46340,11 @@ bindings
 str
 :
 :
+{
 ByteString
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-str
-:
-:
+DOMString
 USVString
+}
 '
             
 '
@@ -46409,16 +46393,6 @@ util
 :
 :
 prefs
-'
-            
-'
-util
-:
-:
-str
-:
-:
-DOMString
 '
             
 '

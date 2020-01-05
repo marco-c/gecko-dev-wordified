@@ -165,7 +165,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 encoding
@@ -208,15 +211,6 @@ borrow
 :
 :
 ToOwned
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [

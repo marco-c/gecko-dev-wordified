@@ -347,6 +347,7 @@ str
 :
 {
 ByteString
+DOMString
 USVString
 }
 ;
@@ -442,15 +443,6 @@ prefs
 {
 get_pref
 }
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [

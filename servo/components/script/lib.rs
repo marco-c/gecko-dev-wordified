@@ -157,6 +157,14 @@ on_unimplemented
 [
 feature
 (
+optin_builtin_traits
+)
+]
+#
+!
+[
+feature
+(
 peekable_is_empty
 )
 ]

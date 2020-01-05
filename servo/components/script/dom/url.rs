@@ -159,7 +159,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 dom
@@ -205,15 +208,6 @@ url
 Host
 Url
 }
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 /
 /

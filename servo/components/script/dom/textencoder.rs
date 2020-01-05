@@ -153,7 +153,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 encoding
@@ -223,15 +226,6 @@ std
 :
 :
 ptr
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 #
 [

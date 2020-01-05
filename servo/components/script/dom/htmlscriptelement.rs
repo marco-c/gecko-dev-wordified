@@ -237,6 +237,18 @@ use
 dom
 :
 :
+bindings
+:
+:
+str
+:
+:
+DOMString
+;
+use
+dom
+:
+:
 document
 :
 :
@@ -486,7 +498,6 @@ str
 :
 :
 {
-DOMString
 HTML_SPACE_CHARACTERS
 StaticStringVec
 }

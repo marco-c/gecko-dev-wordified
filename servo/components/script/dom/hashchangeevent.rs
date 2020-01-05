@@ -177,7 +177,10 @@ bindings
 str
 :
 :
+{
+DOMString
 USVString
+}
 ;
 use
 dom
@@ -193,15 +196,6 @@ string_cache
 :
 :
 Atom
-;
-use
-util
-:
-:
-str
-:
-:
-DOMString
 ;
 /
 /

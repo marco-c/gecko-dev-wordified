@@ -162,6 +162,18 @@ use
 dom
 :
 :
+bindings
+:
+:
+str
+:
+:
+DOMString
+;
+use
+dom
+:
+:
 characterdata
 :
 :
@@ -277,7 +289,6 @@ str
 :
 :
 {
-DOMString
 split_html_space_chars
 str_join
 }
