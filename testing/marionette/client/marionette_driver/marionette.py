@@ -4840,6 +4840,9 @@ if
 self
 .
 session
+is
+not
+None
 :
             
 try
@@ -5520,6 +5523,9 @@ name
                 
 if
 params
+is
+not
+None
 :
                     
 data
