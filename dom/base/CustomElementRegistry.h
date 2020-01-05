@@ -856,9 +856,13 @@ IsCustomElementEnabled
 JSContext
 *
 aCx
+=
+nullptr
 JSObject
 *
 aObject
+=
+nullptr
 )
 ;
 static
