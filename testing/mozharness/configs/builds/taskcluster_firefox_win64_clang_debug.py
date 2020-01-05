@@ -827,8 +827,8 @@ TOOLTOOL_CACHE
 '
 :
 '
-/
 c
+:
 /
 builds
 /
