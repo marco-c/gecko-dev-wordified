@@ -139,7 +139,6 @@ stylesheets
 CSSRule
 StyleRule
 Origin
-Stylesheet
 }
 ;
 use
@@ -150,6 +149,15 @@ error_reporting
 :
 :
 ParseErrorReporter
+;
+use
+style
+:
+:
+servo
+:
+:
+Stylesheet
 ;
 #
 [

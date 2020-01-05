@@ -101,6 +101,15 @@ euclid
 Size2D
 ;
 use
+selector_impl
+:
+:
+{
+SharedStyleContext
+Stylesheet
+}
+;
+use
 std
 :
 :
@@ -148,7 +157,6 @@ context
 :
 {
 ReflowGoal
-SharedStyleContext
 StylistWrapper
 }
 ;
@@ -186,10 +194,7 @@ style
 stylesheets
 :
 :
-{
 Origin
-Stylesheet
-}
 ;
 use
 traversal
