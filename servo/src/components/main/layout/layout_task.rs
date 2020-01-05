@@ -5982,7 +5982,11 @@ children
 .
 list
 .
-rev_iter
+iter
+(
+)
+.
+rev
 (
 )
 result
@@ -6174,7 +6178,11 @@ display_list
 .
 list
 .
-rev_iter
+iter
+(
+)
+.
+rev
 (
 )
 &
