@@ -2904,15 +2904,8 @@ height
 ;
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLIFrameElement
 {
 fn
@@ -2941,13 +2934,12 @@ let
 htmlelement
 :
 &
-&
 HTMLElement
 =
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -3175,7 +3167,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -3455,7 +3446,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 ;

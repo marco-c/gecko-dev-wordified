@@ -882,15 +882,8 @@ to_owned
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLSelectElement
 {
 fn
@@ -919,13 +912,12 @@ let
 htmlelement
 :
 &
-&
 HTMLElement
 =
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -997,7 +989,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1082,7 +1073,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1154,7 +1144,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1205,7 +1194,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

@@ -848,15 +848,8 @@ clone
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLBodyElement
 {
 fn
@@ -885,13 +878,12 @@ let
 element
 :
 &
-&
 HTMLElement
 =
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -947,7 +939,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 ;
@@ -1147,7 +1138,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 ;
@@ -1236,7 +1226,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 }
@@ -1329,7 +1318,6 @@ doc
 =
 document_from_node
 (
-*
 self
 )
 ;

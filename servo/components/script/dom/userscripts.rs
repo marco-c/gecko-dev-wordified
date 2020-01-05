@@ -223,9 +223,8 @@ node
 NodeCast
 :
 :
-from_borrowed_ref
+from_ref
 (
-&
 head
 )
 ;
@@ -481,9 +480,8 @@ new_script_node
 NodeCast
 :
 :
-from_borrowed_ref
+from_ref
 (
-&
 new_script
 )
 ;
@@ -491,7 +489,6 @@ node
 .
 InsertBefore
 (
-*
 new_script_node
 first_child
 .

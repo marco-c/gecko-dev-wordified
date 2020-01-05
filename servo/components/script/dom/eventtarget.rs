@@ -2526,15 +2526,8 @@ event
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 EventTarget
 {
 fn

@@ -2665,15 +2665,8 @@ local_name
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLElement
 {
 fn
@@ -2702,13 +2695,12 @@ let
 element
 :
 &
-&
 Element
 =
 ElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )
@@ -2852,7 +2844,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 ;
@@ -2905,7 +2896,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;

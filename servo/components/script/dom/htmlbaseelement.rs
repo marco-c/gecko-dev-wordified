@@ -671,15 +671,8 @@ refresh_base_element
 }
 }
 impl
-<
-'
-a
->
 VirtualMethods
 for
-&
-'
-a
 HTMLBaseElement
 {
 fn
@@ -709,7 +702,7 @@ Some
 HTMLElementCast
 :
 :
-from_borrowed_ref
+from_ref
 (
 self
 )

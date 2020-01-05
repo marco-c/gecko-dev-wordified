@@ -1234,9 +1234,6 @@ node
 &
 '
 a
-&
-'
-a
 Node
 )
 -
@@ -1283,7 +1280,7 @@ element
 HTMLAnchorElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1326,7 +1323,7 @@ HTMLAppletElement
 HTMLAppletElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1370,7 +1367,7 @@ element
 HTMLAreaElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1416,7 +1413,7 @@ element
 HTMLBaseElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1462,7 +1459,7 @@ element
 HTMLBodyElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1508,7 +1505,7 @@ element
 HTMLButtonElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1554,7 +1551,7 @@ element
 HTMLCanvasElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1600,7 +1597,7 @@ element
 HTMLFieldSetElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1646,7 +1643,7 @@ element
 HTMLFontElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1692,7 +1689,7 @@ element
 HTMLFormElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1738,7 +1735,7 @@ element
 HTMLHeadElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1784,7 +1781,7 @@ element
 HTMLImageElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1830,7 +1827,7 @@ element
 HTMLIFrameElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1876,7 +1873,7 @@ element
 HTMLInputElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1922,7 +1919,7 @@ element
 HTMLLinkElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -1968,7 +1965,7 @@ element
 HTMLObjectElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2014,7 +2011,7 @@ element
 HTMLOptGroupElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2060,7 +2057,7 @@ element
 HTMLOptionElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2106,7 +2103,7 @@ element
 HTMLScriptElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2152,7 +2149,7 @@ element
 HTMLSelectElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2198,7 +2195,7 @@ element
 HTMLStyleElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2244,7 +2241,7 @@ element
 HTMLTableElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2293,7 +2290,7 @@ element
 HTMLTableCellElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2339,7 +2336,7 @@ element
 HTMLTableRowElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2385,7 +2382,7 @@ element
 HTMLTableSectionElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2431,7 +2428,7 @@ element
 HTMLTextAreaElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2477,7 +2474,7 @@ element
 HTMLTitleElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2517,7 +2514,7 @@ element
 ElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
@@ -2554,7 +2551,7 @@ element
 HTMLElementCast
 :
 :
-to_borrowed_ref
+to_ref
 (
 node
 )
