@@ -3057,6 +3057,7 @@ ImageResponse
 Loaded
 (
 _
+_
 )
 |
 ImageResponse
@@ -3064,6 +3065,7 @@ ImageResponse
 :
 PlaceholderLoaded
 (
+_
 _
 )
 |

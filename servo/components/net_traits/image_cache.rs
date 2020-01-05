@@ -341,6 +341,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 MetadataAvailable
 (
@@ -579,6 +580,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 /
 /
@@ -616,6 +618,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 /
 /
