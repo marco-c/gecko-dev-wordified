@@ -4750,13 +4750,13 @@ get_content_boxes
 let
 rects
 :
-~
-[
+Vec
+<
 Root
 <
 ClientRect
 >
-]
+>
 =
 rects
 .
