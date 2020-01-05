@@ -209,14 +209,8 @@ otherwise
 pub
 fn
 as_str
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
@@ -224,8 +218,6 @@ self
 Option
 <
 &
-'
-a
 str
 >
 {

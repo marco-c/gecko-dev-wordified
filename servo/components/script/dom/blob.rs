@@ -344,7 +344,6 @@ FileAPI
 /
 #
 constructorBlob
-return
 string
 .
 chars

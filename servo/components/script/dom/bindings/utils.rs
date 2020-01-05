@@ -2805,9 +2805,7 @@ constructor
 "
 )
 ;
-return
 0
-;
 }
 /
 /
@@ -2996,21 +2994,13 @@ reflector
 .
 fn
 reflector
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
 >
 &
-'
-a
 Reflector
 ;
 /
@@ -3765,9 +3755,7 @@ u32
 )
 ;
 }
-return
 None
-;
 }
 /
 /
@@ -4156,14 +4144,12 @@ also
 check
 if
 JS_IsArrayBufferObject
-return
 is_dom_class
 (
 &
 *
 clasp
 )
-;
 }
 }
 /
@@ -4626,7 +4612,6 @@ found
 =
 false
 ;
-return
 !
 get_property_on_prototype
 (
@@ -4651,7 +4636,6 @@ null_mut
 |
 |
 found
-;
 }
 /
 /
@@ -5951,7 +5935,6 @@ InvalidXMLName
 Step
 1
 .
-return
 Err
 (
 Error
@@ -5959,7 +5942,6 @@ Error
 :
 InvalidCharacter
 )
-;
 }
 XMLName
 :
@@ -5973,7 +5955,6 @@ Name
 Step
 2
 .
-return
 Err
 (
 Error
@@ -5981,7 +5962,6 @@ Error
 :
 Namespace
 )
-;
 }
 XMLName
 :

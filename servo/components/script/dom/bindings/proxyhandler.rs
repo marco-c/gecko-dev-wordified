@@ -761,9 +761,7 @@ JSMSG_CANT_PREVENT_EXTENSIONS
 as
 u32
 ;
-return
 JSTrue
-;
 }
 /
 /
@@ -803,9 +801,7 @@ succeeded
 =
 JSTrue
 ;
-return
 JSTrue
-;
 }
 /
 /
@@ -1010,9 +1006,7 @@ expando
 )
 ;
 }
-return
 expando
-;
 }
 }
 /

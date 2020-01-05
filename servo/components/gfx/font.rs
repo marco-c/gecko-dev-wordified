@@ -1336,9 +1336,7 @@ face_name
 )
 )
 ;
-return
 result
-;
 }
 #
 [

@@ -2795,7 +2795,6 @@ None
 )
 ;
 }
-return
 (
 Some
 (
@@ -2806,7 +2805,6 @@ Some
 x2
 )
 )
-;
 }
 fn
 intersect_ellipse_line
@@ -8703,7 +8701,6 @@ scaled_border
 top
 )
 ;
-return
 Rect
 :
 :
@@ -8743,7 +8740,6 @@ scaled_border
 bottom
 )
 )
-;
 }
 fn
 scale_color
@@ -8761,7 +8757,6 @@ f32
 >
 Color
 {
-return
 color
 :
 :
@@ -8786,7 +8781,6 @@ color
 .
 a
 )
-;
 }
 fn
 draw_double_border_segment

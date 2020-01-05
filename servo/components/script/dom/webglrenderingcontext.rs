@@ -7492,7 +7492,6 @@ InvalidOperation
 _
 =
 >
-return
 self
 .
 webgl_error
@@ -7630,7 +7629,6 @@ InvalidOperation
 _
 =
 >
-return
 self
 .
 webgl_error
