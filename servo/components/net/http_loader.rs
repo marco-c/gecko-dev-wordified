@@ -3067,7 +3067,6 @@ response_decoding
 =
 >
 {
-return
 Ok
 (
 StreamedResponse
@@ -3085,7 +3084,6 @@ response_decoding
 )
 )
 )
-;
 }
 Err
 (
@@ -3094,7 +3092,6 @@ err
 =
 >
 {
-return
 Err
 (
 LoadError
@@ -3112,7 +3109,6 @@ to_string
 )
 )
 )
-;
 }
 }
 }
@@ -3137,7 +3133,6 @@ new
 response
 )
 ;
-return
 Ok
 (
 StreamedResponse
@@ -3155,13 +3150,11 @@ response_decoding
 )
 )
 )
-;
 }
 _
 =
 >
 {
-return
 Ok
 (
 StreamedResponse
@@ -3179,7 +3172,6 @@ response
 )
 )
 )
-;
 }
 }
 }

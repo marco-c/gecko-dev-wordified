@@ -1273,8 +1273,6 @@ return
 false
 ;
 }
-return
 true
-;
 }
 }

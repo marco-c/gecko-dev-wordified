@@ -658,9 +658,9 @@ len
 0
 {
 let
-ref
 last_raw_content_type
 =
+&
 raw_content_type
 [
 raw_content_type
