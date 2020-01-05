@@ -224,9 +224,6 @@ class
 nsWindowRoot
 ;
 class
-nsCSSKeyframesRule
-;
-class
 nsCSSCounterStyleRule
 ;
 #
@@ -1667,10 +1664,6 @@ nsInProcessTabChildGlobal
 friend
 class
 nsWindowRoot
-;
-friend
-class
-nsCSSKeyframesRule
 ;
 friend
 class
