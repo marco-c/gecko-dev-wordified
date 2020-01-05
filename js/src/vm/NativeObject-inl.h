@@ -692,7 +692,7 @@ index
 obj
 -
 >
-setDenseElement
+setDenseElementUnchecked
 (
 index
 MagicValue
