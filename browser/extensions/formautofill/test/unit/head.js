@@ -372,8 +372,6 @@ facGlobal
 =
 {
 addEventListener
-:
-function
 (
 )
 {

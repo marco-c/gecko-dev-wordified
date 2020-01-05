@@ -280,8 +280,6 @@ handler
 *
 /
 init
-:
-function
 (
 )
 {
@@ -427,8 +425,6 @@ manager
 *
 /
 receiveMessage
-:
-function
 (
 {
 name
@@ -523,8 +519,6 @@ ProfileStorage
 *
 /
 getProfileStore
-:
-function
 (
 )
 {
@@ -553,8 +547,6 @@ private
 *
 /
 _uninit
-:
-function
 (
 )
 {
