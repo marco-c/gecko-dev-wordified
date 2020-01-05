@@ -972,7 +972,7 @@ ICU
 '
 unicode
 /
-unorm
+unorm2
 .
 h
 '
