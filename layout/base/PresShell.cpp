@@ -50625,14 +50625,7 @@ true
 nsresult
 rv
 =
-static_cast
-<
-PresShell
-*
->
-(
 shell
-)
 -
 >
 HandleEventWithTarget
