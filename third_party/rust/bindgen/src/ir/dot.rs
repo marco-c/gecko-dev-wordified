@@ -310,6 +310,11 @@ border
 "
 0
 "
+align
+=
+"
+left
+"
 >
 "
 #
