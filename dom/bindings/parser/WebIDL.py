@@ -3695,7 +3695,7 @@ return
 False
     
 def
-isProbablyShortLivingObject
+hasProbablyShortLivingWrapper
 (
 self
 )
@@ -11006,7 +11006,7 @@ getJSImplementation
 )
     
 def
-isProbablyShortLivingObject
+hasProbablyShortLivingWrapper
 (
 self
 )
@@ -11026,7 +11026,7 @@ current
 getExtendedAttribute
 (
 "
-ProbablyShortLivingObject
+ProbablyShortLivingWrapper
 "
 )
 :
@@ -12953,7 +12953,7 @@ identifier
 =
 =
 "
-ProbablyShortLivingObject
+ProbablyShortLivingWrapper
 "
 or
                   

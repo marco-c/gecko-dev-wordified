@@ -3365,7 +3365,7 @@ descriptor
 .
 interface
 .
-isProbablyShortLivingObject
+hasProbablyShortLivingWrapper
 (
 )
 :
