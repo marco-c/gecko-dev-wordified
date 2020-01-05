@@ -374,6 +374,7 @@ Copy
 Clone
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -2142,6 +2143,7 @@ Hash
 Debug
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -2164,6 +2166,7 @@ Hash
 Debug
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -2186,6 +2189,7 @@ Hash
 Debug
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub

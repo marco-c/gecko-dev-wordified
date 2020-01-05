@@ -324,6 +324,7 @@ Default
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #
@@ -747,6 +748,7 @@ privatize
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 pub

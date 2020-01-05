@@ -25782,6 +25782,7 @@ JSTraceable
 PartialEq
 Copy
 Clone
+HeapSizeOf
 )
 ]
 pub

@@ -280,6 +280,13 @@ characterdata
 [
 dom_struct
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 CharacterData
@@ -1345,6 +1352,7 @@ Copy
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub

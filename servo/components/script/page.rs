@@ -159,6 +159,7 @@ tree
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #
@@ -837,6 +838,7 @@ context
 derive
 (
 JSTraceable
+HeapSizeOf
 )
 ]
 #

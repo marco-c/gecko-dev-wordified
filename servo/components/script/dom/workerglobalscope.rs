@@ -404,6 +404,7 @@ JSTraceable
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub

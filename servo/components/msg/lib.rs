@@ -71,6 +71,7 @@ plugin
 plugin
 (
 serde_macros
+plugins
 )
 ]
 extern

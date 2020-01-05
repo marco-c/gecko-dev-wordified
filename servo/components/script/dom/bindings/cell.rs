@@ -169,6 +169,7 @@ builds
 derive
 (
 Clone
+HeapSizeOf
 )
 ]
 pub

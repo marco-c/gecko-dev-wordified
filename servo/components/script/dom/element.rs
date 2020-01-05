@@ -1275,6 +1275,7 @@ Copy
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
