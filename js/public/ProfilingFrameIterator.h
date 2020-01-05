@@ -804,6 +804,7 @@ char
 label
 ;
 }
+JS_HAZ_GC_INVALIDATED
 ;
 bool
 isWasm
