@@ -852,16 +852,6 @@ CreateStream
 (
 )
 ;
-if
-(
-!
-stream
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
 stream
 .
 forget
