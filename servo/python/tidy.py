@@ -1575,9 +1575,6 @@ exceptions
 =
 [
 "
-libc
-"
-"
 cocoa
 "
 ]
