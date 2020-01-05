@@ -19215,7 +19215,7 @@ const
 nsStyleCorners
 &
 aRadius
-uint8_t
+Corner
 aFullCorner
 )
 {
@@ -19226,7 +19226,7 @@ aRadius
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 aFullCorner
 false
@@ -19240,7 +19240,7 @@ aRadius
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 aFullCorner
 true
@@ -33078,7 +33078,7 @@ aCorners
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 false
@@ -33094,7 +33094,7 @@ aCorners
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 true

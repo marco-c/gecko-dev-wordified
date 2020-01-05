@@ -820,7 +820,10 @@ const
 nsStyleCorners
 &
 aRadius
-uint8_t
+mozilla
+:
+:
+Corner
 aFullCorner
 )
 ;

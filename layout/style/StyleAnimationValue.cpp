@@ -28358,7 +28358,7 @@ radii
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 false
@@ -28378,7 +28378,7 @@ radii
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 true
@@ -31344,12 +31344,15 @@ styleStruct
 ssOffset
 )
 ;
-uint8_t
+Corner
 fullCorner
 =
+Corner
+(
 animType
 -
 eStyleAnimType_Corner_TopLeft
+)
 ;
 const
 nsStyleCoord
@@ -31360,7 +31363,7 @@ corners
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 fullCorner
 false
@@ -31376,7 +31379,7 @@ corners
 .
 Get
 (
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 fullCorner
 true
