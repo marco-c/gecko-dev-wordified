@@ -190,7 +190,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 namespace
 css
@@ -1684,7 +1684,7 @@ SetStyleSheet
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1906,7 +1906,7 @@ changes
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 mStyleSheet
 ;
