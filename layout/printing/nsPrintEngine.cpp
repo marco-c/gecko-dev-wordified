@@ -3580,13 +3580,8 @@ false
 }
 mPrt
 =
-mozilla
-:
-:
-MakeUnique
-<
+new
 nsPrintData
->
 (
 aIsPrintPreview
 ?
@@ -3599,12 +3594,6 @@ nsPrintData
 :
 :
 eIsPrinting
-)
-;
-NS_ENSURE_TRUE
-(
-mPrt
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /
