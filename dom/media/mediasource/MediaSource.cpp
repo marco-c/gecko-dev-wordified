@@ -747,7 +747,7 @@ contentType
 )
 {
 return
-NS_ERROR_DOM_TYPE_ERR
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 if
