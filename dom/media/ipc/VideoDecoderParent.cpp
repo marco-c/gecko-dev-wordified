@@ -894,6 +894,11 @@ MOZ_ASSERT
 mDestroyed
 )
 ;
+if
+(
+mDecoder
+)
+{
 mDecoder
 -
 >
@@ -901,6 +906,7 @@ Flush
 (
 )
 ;
+}
 return
 true
 ;
