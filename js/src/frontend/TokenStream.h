@@ -660,7 +660,7 @@ Octal
 }
 ;
 class
-TokenStreamBase
+TokenStreamAnyChars
 ;
 struct
 Token
@@ -1286,7 +1286,7 @@ OperandIsNone
 ;
 friend
 class
-TokenStreamBase
+TokenStreamAnyChars
 ;
 public
 :
@@ -1804,11 +1804,11 @@ strictMode
 }
 ;
 class
-TokenStreamBase
+TokenStreamAnyChars
 {
 protected
 :
-TokenStreamBase
+TokenStreamAnyChars
 (
 JSContext
 *
@@ -4512,7 +4512,7 @@ TokenStream
 final
 :
 public
-TokenStreamBase
+TokenStreamAnyChars
 {
 public
 :

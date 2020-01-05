@@ -1489,7 +1489,7 @@ for
 error
 reporting
 .
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream_
 ;

@@ -676,7 +676,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 )
@@ -837,7 +837,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 FunctionBox
@@ -912,7 +912,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 ParseNode

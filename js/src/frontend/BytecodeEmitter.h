@@ -2418,7 +2418,7 @@ cx
 )
 ;
 inline
-TokenStreamBase
+TokenStreamAnyChars
 &
 tokenStream
 (
