@@ -183,6 +183,12 @@ InitInternal
 )
 override
 ;
+nsresult
+FinishInternal
+(
+)
+override
+;
 LexerResult
 DoDecode
 (
