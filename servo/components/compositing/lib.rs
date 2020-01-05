@@ -135,11 +135,7 @@ msg
 ;
 extern
 crate
-"
 net
-"
-as
-servo_net
 ;
 #
 [

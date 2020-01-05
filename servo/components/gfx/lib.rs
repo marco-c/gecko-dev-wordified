@@ -153,11 +153,7 @@ servo_plugins
 ;
 extern
 crate
-"
 net
-"
-as
-servo_net
 ;
 #
 [

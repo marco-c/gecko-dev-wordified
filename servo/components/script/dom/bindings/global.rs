@@ -164,7 +164,7 @@ script_task
 ScriptChan
 ;
 use
-servo_net
+net
 :
 :
 resource_task

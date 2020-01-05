@@ -93,11 +93,7 @@ util
 ;
 extern
 crate
-"
 net
-"
-as
-servo_net
 ;
 #
 [
@@ -194,7 +190,7 @@ test
 )
 ]
 use
-servo_net
+net
 :
 :
 resource_task

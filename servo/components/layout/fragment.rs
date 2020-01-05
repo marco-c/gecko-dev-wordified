@@ -257,7 +257,7 @@ SubpageId
 }
 ;
 use
-servo_net
+net
 :
 :
 image
@@ -269,7 +269,7 @@ holder
 ImageHolder
 ;
 use
-servo_net
+net
 :
 :
 local_image_cache

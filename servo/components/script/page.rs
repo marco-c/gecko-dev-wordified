@@ -258,7 +258,7 @@ SubpageId
 }
 ;
 use
-servo_net
+net
 :
 :
 resource_task
@@ -267,7 +267,7 @@ resource_task
 ResourceTask
 ;
 use
-servo_net
+net
 :
 :
 storage_task
