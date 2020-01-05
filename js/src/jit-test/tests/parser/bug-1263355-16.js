@@ -26,6 +26,8 @@ function
 addThis
 (
 )
+{
+return
 statusmessages
 [
 i
@@ -33,6 +35,7 @@ i
 =
 Number
 ;
+}
 )
 ;
 m

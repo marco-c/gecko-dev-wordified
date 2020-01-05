@@ -239,12 +239,15 @@ function
 i
 a
 )
+{
 a
 [
 i
 ]
 =
 i
+;
+}
 ;
 shapelessArgCalleeLoop
 (
@@ -255,6 +258,7 @@ function
 i
 a
 )
+{
 a
 [
 i
@@ -262,6 +266,8 @@ i
 =
 -
 i
+;
+}
 a
 )
 ;
@@ -272,6 +278,7 @@ function
 i
 a
 )
+{
 a
 [
 10
@@ -280,6 +287,8 @@ i
 ]
 =
 i
+;
+}
 ;
 shapelessVarCalleeLoop
 (
@@ -290,6 +299,7 @@ function
 i
 a
 )
+{
 a
 [
 10
@@ -299,6 +309,8 @@ i
 =
 -
 i
+;
+}
 a
 )
 ;
@@ -309,6 +321,7 @@ function
 i
 a
 )
+{
 a
 [
 20
@@ -317,6 +330,8 @@ i
 ]
 =
 i
+;
+}
 ;
 shapelessLetCalleeLoop
 (
@@ -327,6 +342,7 @@ function
 i
 a
 )
+{
 a
 [
 20
@@ -336,6 +352,8 @@ i
 =
 -
 i
+;
+}
 a
 )
 ;
@@ -346,6 +364,7 @@ function
 i
 a
 )
+{
 a
 [
 30
@@ -354,6 +373,8 @@ i
 ]
 =
 i
+;
+}
 ;
 shapelessUnknownCalleeLoop
 (
@@ -365,6 +386,7 @@ function
 i
 a
 )
+{
 a
 [
 30
@@ -374,6 +396,8 @@ i
 =
 -
 i
+;
+}
 a
 )
 ;

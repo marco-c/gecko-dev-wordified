@@ -43,7 +43,11 @@ y
 function
 (
 )
+{
+return
 x
+;
+}
 )
 "
 )

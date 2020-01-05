@@ -38,7 +38,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 )
 (
 )

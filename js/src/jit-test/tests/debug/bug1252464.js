@@ -32,9 +32,13 @@ onNewScript
 function
 (
 )
+{
+return
 hits
 +
 +
+;
+}
 ;
 assertEq
 (

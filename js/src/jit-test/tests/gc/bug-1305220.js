@@ -115,9 +115,13 @@ function
 f
 (
 )
+{
+return
 g
 (
 )
+;
+}
 )
 ;
 \
@@ -134,9 +138,13 @@ function
 g
 (
 )
+{
+return
 h
 (
 )
+;
+}
 )
 ;
 \

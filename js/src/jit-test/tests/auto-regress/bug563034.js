@@ -34,7 +34,11 @@ yield
 function
 (
 )
+{
+return
 a
+;
+}
 ;
 }
 return

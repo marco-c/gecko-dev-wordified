@@ -19,7 +19,12 @@ g
 function
 (
 )
+{
+return
 r
+;
+}
+;
 Object
 .
 defineProperty

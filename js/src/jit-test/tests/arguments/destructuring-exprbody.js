@@ -21,7 +21,11 @@ f
 a
 ]
 )
+{
+return
 a
+;
+}
 var
 i
 =

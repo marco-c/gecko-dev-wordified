@@ -43,6 +43,8 @@ d
 e
 a
 )
+{
+return
 dump
 =
 (
@@ -53,6 +55,7 @@ function
 }
 )
 ;
+}
 if
 (
 typeof

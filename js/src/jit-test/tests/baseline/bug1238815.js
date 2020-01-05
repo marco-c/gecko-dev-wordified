@@ -46,6 +46,8 @@ test
 (
 s
 )
+{
+return
 eval
 (
 "
@@ -63,6 +65,7 @@ n
 s
 )
 ;
+}
 function
 repeat
 (

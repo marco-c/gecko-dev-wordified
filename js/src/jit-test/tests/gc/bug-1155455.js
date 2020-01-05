@@ -57,6 +57,8 @@ hit
 (
 frame2
 )
+{
+return
 hit
 [
 0
@@ -66,6 +68,7 @@ hit
 mutated
 "
 ;
+}
 var
 s
 =

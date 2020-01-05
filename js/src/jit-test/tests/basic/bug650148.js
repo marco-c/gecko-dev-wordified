@@ -85,6 +85,8 @@ foo
 (
 code
 )
+{
+return
 Function
 (
 code
@@ -92,6 +94,7 @@ code
 (
 )
 ;
+}
 foo
 (
 "

@@ -302,7 +302,11 @@ byName
 a
 b
 )
+{
+return
 0
+;
+}
 byName
 (
 pa

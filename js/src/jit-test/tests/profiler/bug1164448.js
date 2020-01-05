@@ -39,6 +39,8 @@ d
 e
 a
 )
+{
+return
 gTestcases
 [
 gTc
@@ -48,6 +50,7 @@ gTc
 =
 this
 ;
+}
 dump
 =
 print

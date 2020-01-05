@@ -109,11 +109,15 @@ assertThrowsInstanceOf
 function
 (
 )
+{
+return
 iter
 .
 throw
 (
 )
+;
+}
 )
 }
 }

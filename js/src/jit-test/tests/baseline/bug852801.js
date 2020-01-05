@@ -164,12 +164,16 @@ toPrinted
 (
 value
 )
+{
+return
 function
 escapeString
 (
 str
 )
 {
+}
+;
 }
 function
 reportCompare
@@ -291,6 +295,8 @@ enterFunc
 (
 funcName
 )
+{
+return
 function
 BigO
 (
@@ -304,6 +310,8 @@ data
 )
 {
 }
+}
+;
 }
 function
 compareSource
@@ -359,6 +367,8 @@ getTestCaseResult
 expected
 actual
 )
+{
+return
 function
 test
 (
@@ -382,6 +392,8 @@ gTc
 )
 {
 }
+}
+;
 }
 var
 lfcode
@@ -514,10 +526,13 @@ x
 \
 n
 \
+{
+return
 addThis
 (
 )
 ;
+}
 \
 n
 \
