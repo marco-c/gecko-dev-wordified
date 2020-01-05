@@ -836,6 +836,7 @@ enum
 ReflowReason
 {
 CachedPageNeededReflow
+RefreshTick
 FirstLoad
 KeyEvent
 MouseEvent
@@ -8241,6 +8242,16 @@ CachedPageNeededReflow
 "
 \
 tCachedPageNeededReflow
+"
+ReflowReason
+:
+:
+RefreshTick
+=
+>
+"
+\
+tRefreshTick
 "
 ReflowReason
 :
