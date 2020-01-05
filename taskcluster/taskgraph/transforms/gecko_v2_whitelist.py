@@ -376,6 +376,16 @@ st
 -
 an
 -
+debug
+'
+    
+'
+linux64
+-
+st
+-
+an
+-
 opt
 '
     
