@@ -1115,6 +1115,17 @@ openssl_dir
 include
 "
 )
+            
+env
+[
+'
+OPENSSL_STATIC
+'
+]
+=
+'
+TRUE
+'
         
 status
 =
