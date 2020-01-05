@@ -231,7 +231,7 @@ relationship
 between
 DevicePixel
 and
-ScreenPx
+DeviceIndependentPixel
 is
 defined
 by
@@ -248,7 +248,7 @@ dpi
 /
 screens
 one
-ScreenPx
+DeviceIndependentPixel
 is
 equal
 to
@@ -282,7 +282,7 @@ retina
 "
 displays
 one
-ScreenPx
+DeviceIndependentPixel
 equals
 /
 /
@@ -297,7 +297,7 @@ MDPI
 "
 displays
 one
-ScreenPx
+DeviceIndependentPixel
 equals
 1
 .
@@ -314,7 +314,7 @@ pixels
 The
 ratio
 between
-ScreenPx
+DeviceIndependentPixel
 and
 DevicePixel
 for
@@ -350,14 +350,14 @@ Debug
 ]
 pub
 enum
-ScreenPx
+DeviceIndependentPixel
 {
 }
 known_heap_size
 !
 (
 0
-ScreenPx
+DeviceIndependentPixel
 )
 ;
 /

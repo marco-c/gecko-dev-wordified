@@ -308,7 +308,7 @@ ViewportPx
 is
 equal
 to
-ScreenPx
+DeviceIndependentPixel
 times
 a
 "
@@ -376,7 +376,7 @@ is
 equal
 to
 one
-ScreenPx
+DeviceIndependentPixel
 .
 However
 if
@@ -553,7 +553,7 @@ DevicePixel
 hidpi_ratio
 =
 >
-ScreenPx
+DeviceIndependentPixel
 /
 /
 /

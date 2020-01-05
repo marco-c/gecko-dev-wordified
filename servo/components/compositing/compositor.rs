@@ -307,7 +307,7 @@ use
 servo_geometry
 :
 :
-ScreenPx
+DeviceIndependentPixel
 ;
 use
 servo_url
@@ -1039,7 +1039,7 @@ ScaleFactor
 <
 f32
 ViewportPx
-ScreenPx
+DeviceIndependentPixel
 >
 /
 /
@@ -1057,7 +1057,7 @@ scale_factor
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 channel_to_self
@@ -2237,7 +2237,7 @@ scale_factor
 =
 window
 .
-scale_factor
+hidpi_factor
 (
 )
 ;
@@ -4717,7 +4717,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -5464,7 +5464,7 @@ self
 .
 window
 .
-scale_factor
+hidpi_factor
 (
 )
 ;
@@ -5871,7 +5871,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6117,7 +6117,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6339,7 +6339,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6570,7 +6570,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6637,7 +6637,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6740,7 +6740,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -6826,7 +6826,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 ;
@@ -8323,7 +8323,7 @@ update_zoom_transform
 }
 }
 fn
-device_pixels_per_screen_px
+hidpi_factor
 (
 &
 self
@@ -8333,7 +8333,7 @@ self
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {
@@ -8422,7 +8422,7 @@ page_zoom
 *
 self
 .
-device_pixels_per_screen_px
+hidpi_factor
 (
 )
 }

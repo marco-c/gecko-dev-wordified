@@ -299,7 +299,7 @@ use
 servo_geometry
 :
 :
-ScreenPx
+DeviceIndependentPixel
 ;
 use
 servo_url
@@ -1457,7 +1457,7 @@ window_creation_scale_factor
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {
@@ -1491,7 +1491,7 @@ window_creation_scale_factor
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {
@@ -1569,7 +1569,7 @@ window_size
 TypedSize2D
 <
 u32
-ScreenPx
+DeviceIndependentPixel
 >
 parent
 :
@@ -6455,7 +6455,7 @@ self
 TypedSize2D
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 >
 {
 match
@@ -7048,7 +7048,7 @@ windows
 )
 ]
 fn
-scale_factor
+hidpi_factor
 (
 &
 self
@@ -7058,7 +7058,7 @@ self
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {
@@ -7125,7 +7125,7 @@ windows
 )
 ]
 fn
-scale_factor
+hidpi_factor
 (
 &
 self
@@ -7135,7 +7135,7 @@ self
 ScaleFactor
 <
 f32
-ScreenPx
+DeviceIndependentPixel
 DevicePixel
 >
 {

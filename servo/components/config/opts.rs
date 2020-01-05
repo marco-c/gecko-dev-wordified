@@ -117,7 +117,7 @@ use
 servo_geometry
 :
 :
-ScreenPx
+DeviceIndependentPixel
 ;
 use
 servo_url
@@ -1212,7 +1212,7 @@ initial_window_size
 TypedSize2D
 <
 u32
-ScreenPx
+DeviceIndependentPixel
 >
 /
 /
