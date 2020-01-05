@@ -51517,8 +51517,6 @@ needed
 ?
 bool
 isTab
-=
-false
 ;
 if
 (
@@ -51535,6 +51533,8 @@ bwin
 |
 |
 (
+NS_SUCCEEDED
+(
 bwin
 -
 >
@@ -51546,9 +51546,13 @@ GetOuterWindowInternal
 &
 isTab
 )
+)
+&
+&
 isTab
 )
 )
+{
 treeOwnerAsWin
 -
 >
@@ -51556,6 +51560,7 @@ Destroy
 (
 )
 ;
+}
 }
 }
 CleanUp
