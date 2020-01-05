@@ -1191,15 +1191,10 @@ format
 =
 PS
 .
-getComplexValue
+getStringPref
 (
 aPref
-Ci
-.
-nsISupportsString
 )
-.
-data
 ;
 }
 catch
