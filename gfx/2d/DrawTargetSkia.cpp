@@ -1911,6 +1911,9 @@ mSnapshot
 ;
 if
 (
+mSurface
+&
+&
 !
 snapshot
 )
@@ -12350,6 +12353,9 @@ NativeSurfaceType
 :
 :
 OPENGL_TEXTURE
+&
+&
+mSurface
 )
 {
 GrBackendObject
@@ -13815,6 +13821,11 @@ to
 the
 surface
 .
+if
+(
+mSurface
+)
+{
 mSurface
 -
 >
@@ -13826,6 +13837,7 @@ SkSurface
 kRetain_ContentChangeMode
 )
 ;
+}
 }
 }
 void
