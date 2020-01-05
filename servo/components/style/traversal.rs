@@ -116,7 +116,6 @@ matching
 {
 ChildCascadeRequirement
 MatchMethods
-StyleSharingBehavior
 }
 ;
 use
@@ -133,6 +132,12 @@ selector_parser
 :
 :
 RestyleDamage
+;
+use
+sharing
+:
+:
+StyleSharingBehavior
 ;
 #
 [
@@ -5383,7 +5388,7 @@ RestyleKind
 *
 ;
 use
-matching
+sharing
 :
 :
 StyleSharingResult
