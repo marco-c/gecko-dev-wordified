@@ -7838,17 +7838,14 @@ nOrigBytes
 0xff
 )
 {
-COPY_CODES
-(
-1
-)
-;
 if
 (
 (
 origBytes
 [
 nOrigBytes
++
+1
 ]
 &
 (
@@ -7868,7 +7865,7 @@ push
 r64
 COPY_CODES
 (
-1
+2
 )
 ;
 }
@@ -7878,6 +7875,8 @@ if
 origBytes
 [
 nOrigBytes
++
+1
 ]
 =
 =
@@ -7909,7 +7908,7 @@ origBytes
 +
 nOrigBytes
 +
-1
+2
 )
 )
 ;
@@ -7927,7 +7926,7 @@ origBytes
 +
 nOrigBytes
 +
-5
+6
 +
 offset
 )
@@ -7967,7 +7966,7 @@ tramp
 nOrigBytes
 +
 =
-5
+6
 ;
 }
 else
