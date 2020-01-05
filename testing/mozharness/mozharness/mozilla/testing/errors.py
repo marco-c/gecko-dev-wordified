@@ -1113,6 +1113,12 @@ PBConnectionLost
 _dl_open
 :
 Assertion
+|
+Timeout
+exceeded
+for
+_runCmd
+call
 )
 '
 '
