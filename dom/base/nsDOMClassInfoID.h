@@ -159,6 +159,11 @@ eDOMClassInfo_DOMPrototype_id
 eDOMClassInfo_DOMConstructor_id
 /
 /
+CSS
+classes
+eDOMClassInfo_CSSMediaRule_id
+/
+/
 XUL
 classes
 #
@@ -182,6 +187,8 @@ eDOMClassInfo_XULTemplateBuilder_id
 eDOMClassInfo_XULTreeBuilder_id
 #
 endif
+eDOMClassInfo_CSSMozDocumentRule_id
+eDOMClassInfo_CSSSupportsRule_id
 /
 /
 font
