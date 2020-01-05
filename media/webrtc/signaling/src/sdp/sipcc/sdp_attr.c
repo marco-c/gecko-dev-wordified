@@ -2700,6 +2700,7 @@ sdp_attr_fmtp_no_value
 sdp_t
 *
 sdp
+const
 char
 *
 param_name
@@ -2769,9 +2770,11 @@ sdp_attr_fmtp_invalid_value
 sdp_t
 *
 sdp
+const
 char
 *
 param_name
+const
 char
 *
 param_value
