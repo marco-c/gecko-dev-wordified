@@ -101,9 +101,11 @@ prompts
 import
 org
 .
-json
+mozilla
 .
-JSONObject
+gecko
+.
+R
 ;
 import
 org
@@ -112,7 +114,9 @@ mozilla
 .
 gecko
 .
-R
+util
+.
+GeckoBundle
 ;
 import
 org
@@ -194,7 +198,7 @@ mInitialColor
 public
 ColorPickerInput
 (
-JSONObject
+GeckoBundle
 obj
 )
 {
@@ -208,7 +212,7 @@ init
 =
 obj
 .
-optString
+getString
 (
 "
 value
