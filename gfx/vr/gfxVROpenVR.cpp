@@ -2910,7 +2910,7 @@ AssignLiteral
 (
 "
 OpenVR
-Gamepad
+Controller
 "
 )
 ;
