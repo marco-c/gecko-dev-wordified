@@ -203,15 +203,15 @@ h
 class
 nsIDocument
 ;
-class
-nsMediaList
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+MediaList
+;
 class
 MediaQueryList
 final
@@ -575,7 +575,7 @@ mDocument
 ;
 RefPtr
 <
-nsMediaList
+MediaList
 >
 mMediaList
 ;
