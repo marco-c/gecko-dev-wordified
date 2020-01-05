@@ -10429,7 +10429,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )

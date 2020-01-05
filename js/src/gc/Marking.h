@@ -2400,7 +2400,7 @@ if
 (
 v
 .
-isMarkable
+isGCThing
 (
 )
 )

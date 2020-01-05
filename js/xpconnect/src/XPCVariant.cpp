@@ -461,6 +461,13 @@ val
 isGCThing
 (
 )
+|
+|
+val
+.
+isNull
+(
+)
 "
 Must
 be
@@ -507,7 +514,7 @@ GetJSValPreserveColor
 (
 )
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -622,7 +629,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -693,7 +700,7 @@ if
 !
 aJSVal
 .
-isMarkable
+isGCThing
 (
 )
 )

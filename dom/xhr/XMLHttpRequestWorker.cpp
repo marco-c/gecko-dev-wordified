@@ -5149,13 +5149,14 @@ obj
 cx
 response
 .
-isObjectOrNull
+isObject
 (
 )
 ?
+&
 response
 .
-toObjectOrNull
+toObject
 (
 )
 :

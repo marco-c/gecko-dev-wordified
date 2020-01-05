@@ -402,7 +402,7 @@ if
 !
 vp
 .
-isMarkable
+isGCThing
 (
 )
 )

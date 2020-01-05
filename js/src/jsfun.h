@@ -5301,7 +5301,7 @@ this
 &
 val
 .
-isMarkable
+isGCThing
 (
 )
 !

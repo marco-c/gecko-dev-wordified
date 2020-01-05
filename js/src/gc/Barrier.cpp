@@ -454,7 +454,7 @@ MOZ_ASSERT_IF
 (
 target
 .
-isMarkable
+isGCThing
 (
 )
 &

@@ -60987,7 +60987,7 @@ if
 (
 v
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -61000,7 +61000,7 @@ ImmGCPtr
 (
 v
 .
-toMarkablePointer
+toGCThing
 (
 )
 )

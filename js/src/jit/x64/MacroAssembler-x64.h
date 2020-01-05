@@ -473,7 +473,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -487,7 +487,7 @@ cell
 =
 val
 .
-toMarkablePointer
+toGCThing
 (
 )
 ;
@@ -1112,7 +1112,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )
@@ -1388,7 +1388,7 @@ if
 (
 val
 .
-isMarkable
+isGCThing
 (
 )
 )

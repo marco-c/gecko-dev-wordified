@@ -2388,7 +2388,7 @@ v
 return
 v
 .
-isMarkable
+isGCThing
 (
 )
 ;

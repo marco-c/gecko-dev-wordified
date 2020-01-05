@@ -2009,7 +2009,7 @@ argv
 i
 ]
 .
-isMarkable
+isGCThing
 (
 )
 !

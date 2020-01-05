@@ -416,6 +416,14 @@ MOZ_ASSERT
 (
 priv
 .
+isNull
+(
+)
+|
+|
+(
+priv
+.
 isGCThing
 (
 )
@@ -430,6 +438,7 @@ toGCThing
 >
 isTenured
 (
+)
 )
 )
 ;
