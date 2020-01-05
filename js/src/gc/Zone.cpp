@@ -388,6 +388,10 @@ isSystem
 group
 false
 )
+usedByExclusiveThread
+(
+false
+)
 #
 ifdef
 DEBUG
@@ -728,7 +732,7 @@ runtimeFromActiveCooperatingThread
 )
 -
 >
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 )
@@ -1937,9 +1941,7 @@ without
 racing
 .
 return
-usedByHelperThread
-(
-)
+usedByExclusiveThread
 ?
 0
 :
@@ -2088,9 +2090,7 @@ threads
 .
 if
 (
-usedByHelperThread
-(
-)
+usedByExclusiveThread
 )
 return
 false
@@ -2113,7 +2113,7 @@ isAtomsZone
 rt
 -
 >
-hasHelperThreadZones
+exclusiveThreadsPresent
 (
 )
 )

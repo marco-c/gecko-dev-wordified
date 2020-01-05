@@ -9584,16 +9584,6 @@ overlap
 this
 one
 .
-if
-(
-trc
--
->
-isTenuringTracer
-(
-)
-)
-{
 Nursery
 &
 nursery
@@ -9631,7 +9621,6 @@ direct
 false
 )
 ;
-}
 }
 else
 {

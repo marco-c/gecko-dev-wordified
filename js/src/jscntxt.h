@@ -7355,9 +7355,7 @@ if
 runtime
 -
 >
-hasHelperThreadZones
-(
-)
+numExclusiveThreads
 )
 {
 runtime
@@ -7446,9 +7444,7 @@ if
 runtime
 -
 >
-hasHelperThreadZones
-(
-)
+numExclusiveThreads
 )
 {
 runtime

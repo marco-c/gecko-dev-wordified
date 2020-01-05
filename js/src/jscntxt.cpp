@@ -6026,7 +6026,7 @@ i
 =
 0
 ;
-MOZ_ASSERT
+if
 (
 !
 TlsContext
@@ -6035,7 +6035,6 @@ get
 (
 )
 )
-;
 TlsContext
 .
 set
@@ -6152,7 +6151,7 @@ traceLogger
 ;
 #
 endif
-MOZ_ASSERT
+if
 (
 TlsContext
 .
@@ -6163,7 +6162,6 @@ get
 =
 this
 )
-;
 TlsContext
 .
 set
