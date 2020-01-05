@@ -9539,17 +9539,6 @@ MutableHandleObject
 obj
 )
 ;
-extern
-bool
-ReportGetterOnlyAssignment
-(
-JSContext
-*
-cx
-bool
-strict
-)
-;
 /
 *
 *
