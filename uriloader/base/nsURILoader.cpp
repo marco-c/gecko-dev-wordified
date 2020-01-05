@@ -3453,6 +3453,8 @@ httpChannel
 bool
 requestSucceeded
 ;
+rv
+=
 httpChannel
 -
 >
@@ -3464,6 +3466,12 @@ requestSucceeded
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 !
 requestSucceeded
 )
