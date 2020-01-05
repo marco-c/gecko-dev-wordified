@@ -307,6 +307,23 @@ windows
 gnu
 "
     
+elif
+os_type
+=
+=
+"
+freebsd
+"
+:
+        
+os_type
+=
+"
+unknown
+-
+freebsd
+"
+    
 else
 :
         
