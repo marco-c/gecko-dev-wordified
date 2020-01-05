@@ -1339,7 +1339,9 @@ dom
 :
 ArrayBufferView
 *
-view
+srcView
+GLuint
+srcElemOffset
 )
 ;
 void
@@ -1704,7 +1706,9 @@ dom
 :
 ArrayBufferView
 &
-view
+srcView
+GLuint
+srcElemOffset
 )
 ;
 void
@@ -1738,7 +1742,9 @@ dom
 :
 ArrayBufferView
 &
-view
+srcView
+GLuint
+srcElemOffset
 )
 ;
 void
