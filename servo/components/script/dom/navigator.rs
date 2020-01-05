@@ -234,7 +234,7 @@ JS
 MimeTypeArray
 >
 >
-serviceWorker
+service_worker
 :
 MutNullableHeap
 <
@@ -289,7 +289,7 @@ Default
 default
 (
 )
-serviceWorker
+service_worker
 :
 Default
 :
@@ -906,7 +906,7 @@ ServiceWorkerContainer
 {
 self
 .
-serviceWorker
+service_worker
 .
 or_init
 (

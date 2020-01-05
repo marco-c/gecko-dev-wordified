@@ -865,7 +865,7 @@ HTMLTextAreaElement
 fn
 new_inherited
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -912,7 +912,7 @@ new_inherited_with_state
 IN_ENABLED_STATE
 |
 IN_READ_WRITE_STATE
-localName
+local_name
 prefix
 document
 )
@@ -968,7 +968,7 @@ pub
 fn
 new
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -1000,7 +1000,7 @@ HTMLTextAreaElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )

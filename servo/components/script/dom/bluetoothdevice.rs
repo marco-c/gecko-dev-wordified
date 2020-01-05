@@ -202,7 +202,7 @@ Option
 <
 DOMString
 >
-adData
+ad_data
 :
 MutHeap
 <
@@ -237,7 +237,7 @@ Option
 <
 DOMString
 >
-adData
+ad_data
 :
 &
 BluetoothAdvertisingData
@@ -262,14 +262,14 @@ id
 name
 :
 name
-adData
+ad_data
 :
 MutHeap
 :
 :
 new
 (
-adData
+ad_data
 )
 gatt
 :
@@ -454,7 +454,7 @@ BluetoothAdvertisingData
 {
 self
 .
-adData
+ad_data
 .
 get
 (

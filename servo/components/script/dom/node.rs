@@ -6008,7 +6008,7 @@ NodeInfo
 let
 USVString
 (
-baseURI
+base_uri
 )
 =
 self
@@ -6028,7 +6028,7 @@ unique_id
 )
 baseURI
 :
-baseURI
+base_uri
 parent
 :
 self
@@ -17241,7 +17241,7 @@ IsSameNode
 (
 &
 self
-otherNode
+other_node
 :
 Option
 <
@@ -17254,7 +17254,7 @@ Node
 bool
 {
 match
-otherNode
+other_node
 {
 Some
 (

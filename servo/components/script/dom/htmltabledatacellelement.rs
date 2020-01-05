@@ -146,7 +146,7 @@ HTMLTableDataCellElement
 fn
 new_inherited
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -173,7 +173,7 @@ HTMLTableCellElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )
@@ -190,7 +190,7 @@ pub
 fn
 new
 (
-localName
+local_name
 :
 Atom
 prefix
@@ -222,7 +222,7 @@ HTMLTableDataCellElement
 :
 new_inherited
 (
-localName
+local_name
 prefix
 document
 )
