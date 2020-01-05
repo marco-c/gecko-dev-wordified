@@ -156,12 +156,6 @@ mod
 computed_value
 {
 use
-cssparser
-:
-:
-ToCss
-;
-use
 std
 :
 :
@@ -175,6 +169,12 @@ cursor
 :
 :
 Cursor
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 #
 [

@@ -355,13 +355,10 @@ selector_matching
 Stylist
 ;
 use
-style
+style_traits
 :
 :
-values
-:
-:
-LocalToCss
+ToCss
 ;
 use
 style_traits

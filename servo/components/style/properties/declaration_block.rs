@@ -63,7 +63,6 @@ cssparser
 {
 DeclarationListParser
 parse_important
-ToCss
 }
 ;
 use
@@ -118,6 +117,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 stylesheets

@@ -86,6 +86,12 @@ basic_shape
 :
 *
 ;
+use
+style_traits
+:
+:
+ToCss
+;
 /
 /
 Ensure
@@ -220,7 +226,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -245,7 +251,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -270,7 +276,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -295,7 +301,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -320,7 +326,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -345,7 +351,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -370,7 +376,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -395,7 +401,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss

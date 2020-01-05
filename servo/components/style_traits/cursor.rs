@@ -76,7 +76,7 @@ UI
 1
 .
 use
-cssparser
+super
 :
 :
 ToCss

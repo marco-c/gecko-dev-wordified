@@ -226,11 +226,6 @@ input
 let
 serialized
 =
-:
-:
-cssparser
-:
-:
 ToCss
 :
 :
@@ -284,11 +279,6 @@ input
 let
 re_serialized
 =
-:
-:
-cssparser
-:
-:
 ToCss
 :
 :
@@ -434,11 +424,6 @@ input
 let
 serialized
 =
-:
-:
-cssparser
-:
-:
 ToCss
 :
 :
@@ -500,11 +485,6 @@ input
 let
 re_serialized
 =
-:
-:
-cssparser
-:
-:
 ToCss
 :
 :

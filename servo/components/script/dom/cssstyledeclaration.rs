@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-cssparser
-:
-:
-ToCss
-;
-use
 dom
 :
 :
@@ -257,6 +251,12 @@ selector_impl
 :
 :
 PseudoElement
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 /
 /

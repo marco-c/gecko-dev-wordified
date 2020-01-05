@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-cssparser
-:
-:
-ToCss
-;
-use
 properties
 :
 :
@@ -72,6 +66,12 @@ DeclaredValue
 PropertyDeclaration
 Shorthand
 }
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 values

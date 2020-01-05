@@ -110,7 +110,6 @@ cssparser
 :
 {
 Parser
-ToCss
 Token
 }
 ;
@@ -125,6 +124,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 values

@@ -72,7 +72,6 @@ as
 CSSParserColor
 Parser
 RGBA
-ToCss
 }
 ;
 use
@@ -295,6 +294,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 super

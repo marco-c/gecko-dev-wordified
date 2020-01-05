@@ -132,6 +132,12 @@ stylesheets
 Origin
 ;
 use
+style_traits
+:
+:
+ToCss
+;
+use
 url
 :
 :
@@ -1020,12 +1026,6 @@ longhands
 :
 :
 font_language_override
-:
-:
-{
-self
-SpecifiedValue
-}
 ;
 parse_longhand
 !
