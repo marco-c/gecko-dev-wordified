@@ -4075,27 +4075,6 @@ dir
 "
 ]
         
-env
-[
-"
-CARGO_TARGET_DIR
-"
-]
-=
-path
-.
-join
-(
-self
-.
-context
-.
-topdir
-"
-target
-"
-)
-        
 if
 extra_lib
 :
