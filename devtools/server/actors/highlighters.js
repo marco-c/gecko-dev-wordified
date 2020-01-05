@@ -1478,6 +1478,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+_highlighter
+)
+{
 this
 .
 _highlighter
@@ -1486,6 +1493,7 @@ hide
 (
 )
 ;
+}
 }
 /
 *
