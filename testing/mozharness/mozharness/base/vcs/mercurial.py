@@ -3150,6 +3150,8 @@ get
 '
 vcs_share_base
 '
+)
+or
 os
 .
 environ
@@ -3159,8 +3161,6 @@ get
 '
 HG_SHARE_BASE_DIR
 '
-None
-)
 )
         
 if
