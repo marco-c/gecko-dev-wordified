@@ -13461,6 +13461,9 @@ log
 nsCString
 mDisplayListLog
 ;
+StyleAnimationValue
+mBaseAnimationStyle
+;
 }
 ;
 /
