@@ -2118,8 +2118,6 @@ onOpenTabs
 (
 urls
 where
-{
-}
 )
 ;
 }

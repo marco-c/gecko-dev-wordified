@@ -503,6 +503,11 @@ Ci
 .
 nsIClipboardHelper
 )
+getChromeWindow
+:
+this
+.
+_getChromeWindow
 }
 )
 ;
