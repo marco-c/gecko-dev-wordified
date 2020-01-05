@@ -704,6 +704,10 @@ mLineNumber
 (
 aLineNumber
 )
+mReserved
+(
+false
+)
 mNextHandler
 (
 nullptr
@@ -743,6 +747,8 @@ nsXBLPrototypeHandler
 nsIContent
 *
 aHandlerElement
+bool
+aReserved
 )
 :
 mHandlerElement
@@ -752,6 +758,10 @@ nullptr
 mLineNumber
 (
 0
+)
+mReserved
+(
+aReserved
 )
 mNextHandler
 (
@@ -798,6 +808,10 @@ nullptr
 mLineNumber
 (
 0
+)
+mReserved
+(
+false
 )
 mNextHandler
 (
