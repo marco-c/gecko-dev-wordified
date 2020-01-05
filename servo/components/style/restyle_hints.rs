@@ -2496,7 +2496,7 @@ snapshot_state
 >
 snapshot_state
 .
-contains
+intersects
 (
 flag
 )
