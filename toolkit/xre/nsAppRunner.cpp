@@ -15501,11 +15501,10 @@ display
 #
 endif
 }
-static
 const
 char
 *
-detectDisplay
+DetectDisplay
 (
 void
 )
@@ -20899,7 +20898,7 @@ else
 {
 display_name
 =
-detectDisplay
+DetectDisplay
 (
 )
 ;
