@@ -3535,6 +3535,7 @@ path
 .
 join
 (
+metadata_path
 os
 .
 path
@@ -3576,9 +3577,8 @@ manifestexpected
 .
 get_dir_manifest
 (
-                    
-metadata_path
 path
+                                                                                   
 self
 .
 run_info

@@ -1463,7 +1463,6 @@ None
 def
 get_dir_manifest
 (
-metadata_root
 path
 run_info
 )
@@ -1497,32 +1496,14 @@ path
     
 :
 param
-metadata_root
-:
-Absolute
-path
-to
-the
-root
-of
-the
-metadata
-directory
-    
-:
-param
 path
 :
-Path
+Full
+path
 to
 the
 ini
 file
-relative
-to
-the
-metadata
-root
     
 :
 param
@@ -1550,25 +1531,13 @@ computed
 "
 "
     
-full_path
-=
-os
-.
-path
-.
-join
-(
-metadata_root
-path
-)
-    
 try
 :
         
 with
 open
 (
-full_path
+path
 )
 as
 f
