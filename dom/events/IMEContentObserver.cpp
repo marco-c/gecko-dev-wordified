@@ -1001,11 +1001,11 @@ mContainerNode
 tmp
 -
 >
-mUpdatePreference
+mIMENotificationRequests
 .
 mWantUpdates
 =
-nsIMEUpdatePreference
+IMENotificationRequests
 :
 :
 NOTIFY_NOTHING
@@ -2485,12 +2485,12 @@ this
 )
 ;
 }
-mUpdatePreference
+mIMENotificationRequests
 =
 mWidget
 -
 >
-GetIMEUpdatePreference
+GetIMENotificationRequests
 (
 )
 ;
@@ -2567,7 +2567,7 @@ rv
 }
 if
 (
-mUpdatePreference
+mIMENotificationRequests
 .
 WantTextChange
 (
@@ -2591,7 +2591,7 @@ this
 }
 if
 (
-mUpdatePreference
+mIMENotificationRequests
 .
 WantPositionChanged
 (
@@ -2990,7 +2990,7 @@ nullptr
 }
 if
 (
-mUpdatePreference
+mIMENotificationRequests
 .
 WantTextChange
 (
@@ -3011,7 +3011,7 @@ this
 }
 if
 (
-mUpdatePreference
+mIMENotificationRequests
 .
 WantPositionChanged
 (
@@ -3104,11 +3104,11 @@ mWidget
 =
 nullptr
 ;
-mUpdatePreference
+mIMENotificationRequests
 .
 mWantUpdates
 =
-nsIMEUpdatePreference
+IMENotificationRequests
 :
 :
 NOTIFY_NOTHING
@@ -4493,7 +4493,7 @@ aMouseEvent
 if
 (
 !
-mUpdatePreference
+mIMENotificationRequests
 .
 WantMouseButtonEventOnChar
 (
@@ -9691,7 +9691,7 @@ NOTIFY_IME_OF_NOTHING
 ;
 /
 /
-nsIMEUpdatePreference
+IMENotificationRequests
 referred
 by
 ObserveEditableNode
