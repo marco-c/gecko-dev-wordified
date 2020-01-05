@@ -212,7 +212,6 @@ typeof
 "
 object
 "
-{
 /
 /
 First
@@ -454,8 +453,6 @@ stringObjectURI
 false
 )
 ;
-}
-{
 /
 /
 Now
@@ -647,8 +644,6 @@ complex_test_methods
 stringObjectURI
 )
 ;
-}
-{
 /
 /
 test
@@ -1086,7 +1081,6 @@ test
 ]
 )
 ;
-}
 }
 function
 do_check_thrown

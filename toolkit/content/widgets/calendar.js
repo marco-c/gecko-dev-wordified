@@ -208,7 +208,6 @@ _attachEventListeners
 )
 ;
 }
-{
 Calendar
 .
 prototype
@@ -1028,4 +1027,3 @@ this
 }
 }
 ;
-}
