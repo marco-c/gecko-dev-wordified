@@ -854,17 +854,6 @@ nsIDOMNodeList
 #
 include
 "
-nsIDOMText
-.
-h
-"
-/
-/
-for
-nsIDOMText
-#
-include
-"
 nsIDocument
 .
 h

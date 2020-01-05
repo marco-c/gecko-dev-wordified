@@ -195,13 +195,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMMozNamedAttrMap
 .
 h
