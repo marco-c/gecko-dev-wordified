@@ -12226,6 +12226,18 @@ MOZ_ASSERT
 mWorkerHolder
 )
 ;
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
+mWorkerShuttingDown
+=
+true
+;
+}
 /
 /
 The
@@ -15026,7 +15038,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWorkerPrivate
 )
