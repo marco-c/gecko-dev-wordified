@@ -100,14 +100,6 @@ structured
 data
 )
 .
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 dom
 :

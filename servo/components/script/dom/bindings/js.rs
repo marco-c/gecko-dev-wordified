@@ -659,14 +659,6 @@ T
 >
 >
 easy
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 dom
 :

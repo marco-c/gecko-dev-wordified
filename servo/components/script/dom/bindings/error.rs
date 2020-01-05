@@ -67,14 +67,6 @@ from
 Rust
 bindings
 .
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 dom
 :

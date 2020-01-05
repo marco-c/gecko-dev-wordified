@@ -342,6 +342,13 @@ allow
 unsafe_blocks
 )
 ]
+#
+[
+deny
+(
+missing_docs
+)
+]
 pub
 mod
 bindings
@@ -403,6 +410,13 @@ JS
 Rust
 bindings
 .
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 mod
 codegen

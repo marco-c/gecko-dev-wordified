@@ -95,13 +95,6 @@ as
 window
 scopes
 .
-#
-[
-deny
-(
-missing_docs
-)
-]
 use
 dom
 :
