@@ -378,7 +378,7 @@ kind
 let
 the_layout_data
 =
-layout_data
+LayoutData
 (
 {
 mut
@@ -444,7 +444,7 @@ initialize_style
 )
 ;
 for
-ntree
+NTree
 .
 each_child
 (
@@ -631,7 +631,7 @@ children
 in
 parallel
 for
-ntree
+NTree
 .
 each_child
 (
