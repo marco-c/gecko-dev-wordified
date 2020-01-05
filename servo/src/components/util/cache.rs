@@ -423,6 +423,7 @@ test_monocache
 )
 {
 let
+mut
 cache
 =
 MonoCache
@@ -451,7 +452,6 @@ cache
 .
 insert
 (
-&
 1
 one
 )
@@ -488,6 +488,14 @@ is_none
 )
 )
 ;
+/
+*
+FIXME
+:
+clarify
+behavior
+here
+:
 cache
 .
 find_or_create
@@ -534,6 +542,8 @@ is_none
 )
 )
 ;
+*
+/
 }
 pub
 struct
@@ -766,6 +776,7 @@ test_hashcache
 )
 {
 let
+mut
 cache
 =
 HashCache
@@ -793,7 +804,6 @@ cache
 .
 insert
 (
-&
 1
 one
 )
@@ -1314,6 +1324,7 @@ normal
 insertion
 .
 let
+mut
 cache
 =
 LRUCache
@@ -1339,7 +1350,6 @@ cache
 .
 insert
 (
-&
 1
 one
 )
@@ -1354,7 +1364,6 @@ cache
 .
 insert
 (
-&
 2
 two
 )
@@ -1369,7 +1378,6 @@ cache
 .
 insert
 (
-&
 3
 three
 )
@@ -1470,7 +1478,6 @@ cache
 .
 insert
 (
-&
 4
 four
 )
@@ -1600,6 +1607,7 @@ _
 {
 one
 }
+;
 /
 /
 (

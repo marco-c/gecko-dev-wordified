@@ -1315,16 +1315,6 @@ return
 val
 ;
 }
-#
-[
-cfg
-(
-test
-)
-]
-mod
-test
-{
 /
 /
 ensure
@@ -1375,5 +1365,4 @@ as
 uint
 )
 ;
-}
 }
