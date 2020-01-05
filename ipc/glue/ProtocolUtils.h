@@ -2575,6 +2575,12 @@ defined
 (
 DEBUG
 )
+|
+|
+defined
+(
+FUZZING
+)
 return
 !
 !
