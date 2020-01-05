@@ -1972,6 +1972,13 @@ return
 false
 ;
 }
+gfxDWriteFont
+:
+:
+UpdateClearTypeUsage
+(
+)
+;
 /
 /
 After

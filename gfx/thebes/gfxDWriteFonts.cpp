@@ -699,13 +699,6 @@ UpdateClearTypeUsage
 (
 )
 {
-Factory
-:
-:
-UpdateSystemTextQuality
-(
-)
-;
 mUseClearType
 =
 UsingClearType
