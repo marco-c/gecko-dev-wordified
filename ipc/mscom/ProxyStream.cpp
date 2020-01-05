@@ -157,12 +157,17 @@ Utils
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 <
@@ -555,6 +560,9 @@ marshalFn
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 FAILED
@@ -589,6 +597,8 @@ hrAsStr
 )
 ;
 }
+#
+endif
 }
 already_AddRefed
 <
@@ -1146,6 +1156,9 @@ marshalFn
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 FAILED
@@ -1180,6 +1193,8 @@ hrAsStr
 )
 ;
 }
+#
+endif
 mStream
 =
 mozilla
