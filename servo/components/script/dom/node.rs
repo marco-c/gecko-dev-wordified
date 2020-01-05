@@ -14122,9 +14122,9 @@ dom
 -
 node
 -
-rootnode
+getrootnode
 fn
-RootNode
+GetRootNode
 (
 &
 self
