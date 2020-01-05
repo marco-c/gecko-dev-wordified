@@ -6357,6 +6357,7 @@ Ci
 Cu
 Cr
 XPCOMUtils
+ChromeWorker
 extensions
 :
 this
