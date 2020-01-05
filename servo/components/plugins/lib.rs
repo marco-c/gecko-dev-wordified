@@ -152,6 +152,9 @@ lints
 module
 for
 more
+/
+/
+!
 details
 /
 /

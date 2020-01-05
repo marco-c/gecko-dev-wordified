@@ -721,9 +721,8 @@ null_mut
 )
 ;
 let
-file
+result
 =
-if
 FcPatternGetString
 (
 *
@@ -742,6 +741,12 @@ c_char
 mut
 file
 )
+;
+let
+file
+=
+if
+result
 =
 =
 FcResultMatch
@@ -776,9 +781,8 @@ c_int
 0
 ;
 let
-index
+result
 =
-if
 FcPatternGetInteger
 (
 *
@@ -797,6 +801,12 @@ c_char
 mut
 index
 )
+;
+let
+index
+=
+if
+result
 =
 =
 FcResultMatch

@@ -2303,10 +2303,9 @@ unwrap
 (
 )
 ;
-resource_task
-.
-send
-(
+let
+msg
+=
 ControlMsg
 :
 :
@@ -2332,6 +2331,12 @@ Channel
 start_chan
 )
 )
+;
+resource_task
+.
+send
+(
+msg
 )
 .
 unwrap

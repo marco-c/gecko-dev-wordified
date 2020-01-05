@@ -292,7 +292,7 @@ rule_count
 }
 macro_rules
 !
-assert_declarations_len
+assert_decl_len
 {
 (
 declarations
@@ -444,7 +444,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -459,7 +459,7 @@ declarations
 }
 macro_rules
 !
-assert_declaration_eq
+assert_decl_eq
 {
 (
 d
@@ -690,7 +690,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -699,7 +699,7 @@ declarations
 9
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -716,7 +716,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -733,7 +733,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -750,7 +750,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -767,7 +767,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -784,7 +784,7 @@ Zoom
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -805,7 +805,7 @@ Number
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -826,7 +826,7 @@ Percentage
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -843,7 +843,7 @@ UserZoom
 Zoom
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -912,7 +912,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -921,7 +921,7 @@ declarations
 4
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -948,7 +948,7 @@ from_px
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -965,7 +965,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -992,7 +992,7 @@ from_px
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1085,7 +1085,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1094,7 +1094,7 @@ declarations
 1
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1161,7 +1161,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1170,7 +1170,7 @@ declarations
 1
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1236,7 +1236,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1245,7 +1245,7 @@ declarations
 1
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1314,7 +1314,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1323,7 +1323,7 @@ declarations
 2
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1340,7 +1340,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1407,7 +1407,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1416,7 +1416,7 @@ declarations
 2
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1433,7 +1433,7 @@ LengthOrPercentageOrAuto
 Auto
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1498,7 +1498,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1507,7 +1507,7 @@ declarations
 2
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1526,7 +1526,7 @@ Auto
 important
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1609,7 +1609,7 @@ println
 css
 )
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1618,7 +1618,7 @@ declarations
 2
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1637,7 +1637,7 @@ Auto
 important
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1795,7 +1795,7 @@ cascade
 .
 declarations
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -1804,7 +1804,7 @@ declarations
 3
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1825,7 +1825,7 @@ Number
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1852,7 +1852,7 @@ from_px
 )
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -1996,7 +1996,7 @@ cascade
 .
 declarations
 ;
-assert_declarations_len
+assert_decl_len
 !
 (
 declarations
@@ -2005,7 +2005,7 @@ declarations
 3
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -2034,7 +2034,7 @@ from_px
 important
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
@@ -2063,7 +2063,7 @@ from_px
 important
 )
 ;
-assert_declaration_eq
+assert_decl_eq
 !
 (
 &
