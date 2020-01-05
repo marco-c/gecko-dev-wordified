@@ -471,7 +471,6 @@ NetworkDetails
 .
 initialize
 (
-gStore
 )
 ;
 this
