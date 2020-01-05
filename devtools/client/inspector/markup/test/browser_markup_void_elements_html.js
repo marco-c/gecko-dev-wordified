@@ -272,7 +272,6 @@ win
 getComputedStyle
 (
 closeElement
-null
 )
 ;
 ok
@@ -380,7 +379,6 @@ win
 getComputedStyle
 (
 closeElement
-null
 )
 ;
 ok
@@ -454,7 +452,6 @@ win
 getComputedStyle
 (
 closeElement
-null
 )
 ;
 ok
