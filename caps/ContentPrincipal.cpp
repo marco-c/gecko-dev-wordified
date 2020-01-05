@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-nsPrincipal
+ContentPrincipal
 .
 h
 "
@@ -206,6 +206,20 @@ h
 include
 "
 nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
+nsIObjectInputStream
+.
+h
+"
+#
+include
+"
+nsIObjectOutputStream
 .
 h
 "
@@ -409,7 +423,7 @@ addonPolicyService
 }
 NS_IMPL_CLASSINFO
 (
-nsPrincipal
+ContentPrincipal
 nullptr
 nsIClassInfo
 :
@@ -419,13 +433,13 @@ NS_PRINCIPAL_CID
 )
 NS_IMPL_QUERY_INTERFACE_CI
 (
-nsPrincipal
+ContentPrincipal
 nsIPrincipal
 nsISerializable
 )
 NS_IMPL_CI_INTERFACE_GETTER
 (
-nsPrincipal
+ContentPrincipal
 nsIPrincipal
 nsISerializable
 )
@@ -441,7 +455,7 @@ static
 *
 /
 void
-nsPrincipal
+ContentPrincipal
 :
 :
 InitializeStatics
@@ -466,10 +480,10 @@ false
 )
 ;
 }
-nsPrincipal
+ContentPrincipal
 :
 :
-nsPrincipal
+ContentPrincipal
 (
 )
 :
@@ -491,11 +505,11 @@ false
 )
 {
 }
-nsPrincipal
+ContentPrincipal
 :
 :
 ~
-nsPrincipal
+ContentPrincipal
 (
 )
 {
@@ -541,7 +555,7 @@ clearLoadingPrincipal
 }
 }
 nsresult
-nsPrincipal
+ContentPrincipal
 :
 :
 Init
@@ -696,7 +710,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrincipal
+ContentPrincipal
 :
 :
 GetScriptLocation
@@ -717,7 +731,7 @@ aStr
 ;
 }
 nsresult
-nsPrincipal
+ContentPrincipal
 :
 :
 GetOriginInternal
@@ -1682,7 +1696,7 @@ NS_OK
 ;
 }
 bool
-nsPrincipal
+ContentPrincipal
 :
 :
 SubsumesInternal
@@ -1705,7 +1719,7 @@ aOther
 /
 /
 For
-nsPrincipal
+ContentPrincipal
 Subsumes
 is
 equivalent
@@ -1924,7 +1938,7 @@ otherURI
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 GetURI
@@ -1976,7 +1990,7 @@ aURI
 ;
 }
 bool
-nsPrincipal
+ContentPrincipal
 :
 :
 MayLoadInternal
@@ -2176,7 +2190,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 GetHashValue
@@ -2212,7 +2226,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 GetDomain
@@ -2264,7 +2278,7 @@ aDomain
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 SetDomain
@@ -2397,7 +2411,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 GetBaseDomain
@@ -2549,7 +2563,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 GetAddonId
@@ -2688,7 +2702,7 @@ NS_OK
 }
 ;
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 Read
@@ -2905,7 +2919,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrincipal
+ContentPrincipal
 :
 :
 Write

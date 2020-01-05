@@ -955,7 +955,7 @@ h
 #
 include
 "
-nsPrincipal
+ContentPrincipal
 .
 h
 "
@@ -3284,7 +3284,7 @@ nsMixedContentBlocker
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsPrincipal
+ContentPrincipal
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
@@ -5628,7 +5628,7 @@ Construct_nsIScriptSecurityManager
 kNS_PRINCIPAL_CID
 false
 nullptr
-nsPrincipalConstructor
+ContentPrincipalConstructor
 }
 {
 &

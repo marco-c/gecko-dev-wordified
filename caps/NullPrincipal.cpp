@@ -231,7 +231,7 @@ h
 #
 include
 "
-nsPrincipal
+ContentPrincipal
 .
 h
 "
@@ -986,7 +986,7 @@ is
 in
 contrast
 to
-nsPrincipal
+ContentPrincipal
 which
 uses
 NS_GENERIC_FACTORY_CONSTRUCTOR

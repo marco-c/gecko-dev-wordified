@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsPrincipal
-.
-h
-"
-#
-include
-"
 nsICryptoHash
 .
 h

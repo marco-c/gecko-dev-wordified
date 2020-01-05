@@ -230,13 +230,6 @@ nsContentPolicyUtils
 .
 h
 "
-#
-include
-"
-nsPrincipal
-.
-h
-"
 using
 namespace
 mozilla
