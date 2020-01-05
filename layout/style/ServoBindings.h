@@ -294,6 +294,12 @@ URLValue
 ;
 }
 ;
+enum
+class
+UpdateAnimationsTasks
+:
+uint8_t
+;
 }
 using
 mozilla
@@ -1338,6 +1344,11 @@ ServoComputedValuesBorrowedOrNull
 aComputedValues
 ServoComputedValuesBorrowedOrNull
 aParentComputedValues
+mozilla
+:
+:
+UpdateAnimationsTasks
+aTaskBits
 )
 ;
 bool
