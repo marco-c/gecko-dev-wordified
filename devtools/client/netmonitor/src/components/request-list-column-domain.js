@@ -181,7 +181,7 @@ PropTypes
 object
 .
 isRequired
-onSecurityIconClick
+onSecurityIconMouseDown
 :
 PropTypes
 .
@@ -217,7 +217,7 @@ render
 let
 {
 item
-onSecurityIconClick
+onSecurityIconMouseDown
 }
 =
 this
@@ -387,7 +387,7 @@ join
 )
 onMouseDown
 :
-onSecurityIconClick
+onSecurityIconMouseDown
 title
 :
 iconTitle
