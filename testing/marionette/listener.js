@@ -5173,6 +5173,7 @@ sequence
 *
 /
 function
+*
 performActions
 (
 msg
@@ -5192,6 +5193,7 @@ msg
 actions
 )
 ;
+yield
 action
 .
 dispatch
@@ -5262,10 +5264,12 @@ devices
 *
 /
 function
+*
 releaseActions
 (
 )
 {
+yield
 action
 .
 dispatchTickActions
