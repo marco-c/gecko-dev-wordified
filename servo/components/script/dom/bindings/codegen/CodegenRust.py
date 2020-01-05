@@ -11230,7 +11230,10 @@ u8
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 '
 %
 str_to_const_array
@@ -11281,7 +11284,10 @@ selfHostedName
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 "
                 
 if
@@ -11609,7 +11615,10 @@ selfHostedName
 as
 *
 const
-i8
+libc
+:
+:
+c_char
 \
 n
 '
