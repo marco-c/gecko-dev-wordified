@@ -221,9 +221,6 @@ Rule
 )
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 DECL_STYLE_RULE_INHERIT
-#
-ifdef
-HAVE_CPP_AMBIGUITY_RESOLVING_USING
 using
 Rule
 :
@@ -239,8 +236,6 @@ has
 its
 own
 GetStyleSheet
-#
-endif
 /
 /
 Rule
