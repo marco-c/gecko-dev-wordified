@@ -3818,6 +3818,7 @@ false
 )
 ;
 }
+{
 AutoFDClose
 fd
 ;
@@ -4077,6 +4078,7 @@ FreeData
 (
 )
 ;
+}
 }
 }
 NS_TRY
