@@ -2765,9 +2765,6 @@ type
 if
 (
 name
-&
-&
-annotation
 )
 {
 element
@@ -2776,10 +2773,15 @@ name
 ]
 =
 annotation
+?
+annotation
 .
 trim
 (
 )
+:
+"
+"
 ;
 }
 return
