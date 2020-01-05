@@ -17927,7 +17927,10 @@ see
 nsStyleConsts
 .
 h
-uint8_t
+mozilla
+:
+:
+StyleOrient
 mOrient
 ;
 /

@@ -9131,6 +9131,12 @@ StyleWindowDragging
 Default
 NoDrag
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleOrient
+Inline
+Vertical
+)
 #
 ifdef
 MOZ_XUL
@@ -44060,7 +44066,10 @@ parentDisplay
 -
 >
 mOrient
-NS_STYLE_ORIENT_INLINE
+StyleOrient
+:
+:
+Inline
 )
 ;
 /
