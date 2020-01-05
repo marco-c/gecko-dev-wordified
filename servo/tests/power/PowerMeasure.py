@@ -814,14 +814,14 @@ write
 "
 LayoutThreads
 MeanPower
+MaxPower
+MinPower
 MeanTime
 MaxTime
 "
                      
 "
 MinTime
-MaxPower
-MinPower
 \
 n
 "
@@ -860,6 +860,14 @@ TotalPower
 0
         
 TotalTime
+=
+0
+        
+TimeGen
+=
+0
+        
+PowerGen
 =
 0
         
@@ -1356,10 +1364,22 @@ MinTime
 MinTime
 =
 TotalTime
+            
+TimeGen
+=
+TimeGen
++
+TotalTime
+            
+PowerGen
+=
+PowerGen
++
+TotalPower
         
 TotalPower
 =
-TotalPower
+PowerGen
 /
 float
 (
@@ -1370,7 +1390,7 @@ ExperimentNum
         
 TotalTime
 =
-TotalTime
+TimeGen
 /
 float
 (
@@ -1402,6 +1422,23 @@ TotalPower
                          
 str
 (
+MaxPower
+)
++
+"
+"
++
+str
+(
+MinPower
+)
++
+"
+"
++
+                         
+str
+(
 TotalTime
 )
 +
@@ -1420,23 +1457,6 @@ MaxTime
 str
 (
 MinTime
-)
-+
-"
-"
-+
-str
-(
-MaxPower
-)
-+
-"
-"
-+
-                         
-str
-(
-MinPower
 )
 +
 "
