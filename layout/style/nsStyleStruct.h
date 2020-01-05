@@ -5492,12 +5492,6 @@ aType
 )
 const
 ;
-bool
-HasLayerWithImage
-(
-)
-const
-;
 nsStyleImageLayers
 &
 operator
@@ -23225,6 +23219,12 @@ StyleShapeSourceType
 None
 ;
 }
+bool
+HasMask
+(
+)
+const
+;
 bool
 HasNonScalingStroke
 (

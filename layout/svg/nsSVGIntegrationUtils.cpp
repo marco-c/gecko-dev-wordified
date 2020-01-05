@@ -1054,9 +1054,7 @@ HasClipPath
 style
 -
 >
-mMask
-.
-HasLayerWithImage
+HasMask
 (
 )
 ;
@@ -1097,9 +1095,7 @@ HasClipPath
 style
 -
 >
-mMask
-.
-HasLayerWithImage
+HasMask
 (
 )
 ;
