@@ -4484,6 +4484,9 @@ SetFontSize
 nsPresContext
 *
 aPresContext
+nsStyleContext
+*
+aContext
 const
 nsRuleData
 *
