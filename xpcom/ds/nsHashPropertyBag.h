@@ -216,8 +216,7 @@ virtual
 nsHashPropertyBag
 (
 )
-{
-}
+;
 }
 ;
 /
