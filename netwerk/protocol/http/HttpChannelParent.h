@@ -814,6 +814,10 @@ const
 bool
 &
 aMixedContentWouldBlock
+const
+bool
+&
+aChooseAppcache
 )
 override
 ;
