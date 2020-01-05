@@ -2056,7 +2056,7 @@ SPS
 was
 notified
 of
-enty
+entry
 *
 /
 /

@@ -193,7 +193,7 @@ A
 JS
 frame
 is
-analagous
+analogous
 to
 a
 js
@@ -205,7 +205,7 @@ one
 scripted
 /
 /
-functon
+function
 activation
 .
 IonJS

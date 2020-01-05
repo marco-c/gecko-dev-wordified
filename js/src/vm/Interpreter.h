@@ -1601,7 +1601,7 @@ RunScript
 and
 RunScript
 then
-eiter
+either
 passes
 it
 to
