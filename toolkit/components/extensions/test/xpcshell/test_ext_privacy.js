@@ -165,7 +165,7 @@ test_privacy
 /
 /
 Create
-a
+an
 object
 to
 hold
