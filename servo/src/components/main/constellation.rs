@@ -2581,6 +2581,9 @@ clone
 )
 self
 .
+window_size
+self
+.
 opts
 .
 clone
@@ -2713,6 +2716,9 @@ profiler_chan
 clone
 (
 )
+self
+.
+window_size
 self
 .
 opts
@@ -3870,6 +3876,9 @@ clone
 )
 self
 .
+window_size
+self
+.
 opts
 .
 clone
@@ -4296,6 +4305,9 @@ profiler_chan
 clone
 (
 )
+self
+.
+window_size
 self
 .
 opts

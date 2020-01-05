@@ -81,6 +81,15 @@ url
 Url
 ;
 use
+geom
+:
+:
+size
+:
+:
+Size2D
+;
+use
 gfx
 :
 :
@@ -587,6 +596,12 @@ ResourceTask
 profiler_chan
 :
 ProfilerChan
+window_size
+:
+Size2D
+<
+uint
+>
 opts
 :
 Opts
@@ -801,6 +816,7 @@ image_cache_task
 clone
 (
 )
+window_size
 )
 ;
 RenderTask
