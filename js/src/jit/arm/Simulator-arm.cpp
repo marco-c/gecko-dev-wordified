@@ -3658,8 +3658,9 @@ instr
 )
 )
 ;
-printf
+fprintf
 (
+stderr
 "
 0x
 %
