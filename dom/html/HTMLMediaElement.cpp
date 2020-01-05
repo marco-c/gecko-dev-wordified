@@ -13092,7 +13092,6 @@ aCapturedTrackSource
 GetPrincipal
 (
 )
-true
 nsString
 (
 )
@@ -13215,6 +13214,13 @@ Stop
 )
 override
 {
+/
+/
+XXX
+fix
+in
+later
+patch
 NS_ERROR
 (
 "
@@ -13365,7 +13371,6 @@ GetCurrentPrincipal
 get
 (
 )
-true
 nsString
 (
 )
@@ -13537,6 +13542,14 @@ Stop
 )
 override
 {
+/
+/
+XXX
+Fix
+in
+later
+patch
+.
 NS_ERROR
 (
 "

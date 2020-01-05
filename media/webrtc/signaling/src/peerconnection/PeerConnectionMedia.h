@@ -928,7 +928,6 @@ dom
 MediaStreamTrackSource
 (
 aPrincipal
-true
 aLabel
 )
 {
@@ -978,6 +977,14 @@ Stop
 )
 override
 {
+/
+/
+XXX
+Fix
+in
+later
+patch
+.
 NS_ERROR
 (
 "
