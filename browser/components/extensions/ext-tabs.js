@@ -187,7 +187,7 @@ jsm
 ;
 var
 {
-EventManager
+SingletonEventManager
 ignoreEvent
 }
 =
@@ -1982,6 +1982,8 @@ ownerGlobal
 )
 ;
 fire
+.
+async
 (
 {
 tabId
@@ -1998,7 +2000,7 @@ api
 onCreated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2021,6 +2023,8 @@ event
 >
 {
 fire
+.
+async
 (
 TabManager
 .
@@ -2193,6 +2197,8 @@ ownerGlobal
 )
 ;
 fire
+.
+async
 (
 {
 tabIds
@@ -2209,7 +2215,7 @@ api
 onAttached
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2232,6 +2238,8 @@ event
 >
 {
 fire
+.
+async
 (
 event
 .
@@ -2293,7 +2301,7 @@ api
 onDetached
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2316,6 +2324,8 @@ event
 >
 {
 fire
+.
+async
 (
 event
 .
@@ -2377,7 +2387,7 @@ api
 onRemoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2400,6 +2410,8 @@ event
 >
 {
 fire
+.
+async
 (
 event
 .
@@ -2472,7 +2484,7 @@ onReplaced
 onMoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2696,6 +2708,8 @@ return
 ;
 }
 fire
+.
+async
 (
 TabManager
 .
@@ -2786,7 +2800,7 @@ api
 onUpdated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -2941,6 +2955,8 @@ tabElem
 )
 ;
 fire
+.
+async
 (
 tab
 .
@@ -3204,6 +3220,8 @@ prop
 ;
 }
 fire
+.
+async
 (
 tab
 .
@@ -7096,7 +7114,7 @@ resolve
 onZoomChange
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -7416,6 +7434,8 @@ tab
 )
 ;
 fire
+.
+async
 (
 {
 tabId

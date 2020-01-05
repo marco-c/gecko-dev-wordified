@@ -126,9 +126,9 @@ jsm
 ;
 var
 {
-EventManager
 ExtensionError
 IconDetails
+SingletonEventManager
 }
 =
 ExtensionUtils
@@ -3913,7 +3913,7 @@ remove
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -3937,6 +3937,8 @@ tab
 >
 {
 fire
+.
+async
 (
 info
 tab
