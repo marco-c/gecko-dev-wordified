@@ -445,11 +445,8 @@ http_loader
 :
 set_request_cookies
 (
+&
 resource_url
-.
-clone
-(
-)
 &
 mut
 request
