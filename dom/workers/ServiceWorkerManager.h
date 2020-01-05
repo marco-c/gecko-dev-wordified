@@ -1056,8 +1056,10 @@ aScope
 )
 const
 ;
+already_AddRefed
+<
 ServiceWorkerRegistrationInfo
-*
+>
 CreateNewRegistration
 (
 const
