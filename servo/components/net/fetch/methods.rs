@@ -1581,10 +1581,6 @@ as_mut_url
 (
 )
 .
-unwrap
-(
-)
-.
 set_scheme
 (
 "

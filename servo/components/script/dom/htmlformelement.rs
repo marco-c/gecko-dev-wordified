@@ -3309,15 +3309,6 @@ unwrap
 (
 )
 ;
-if
-let
-Some
-(
-ref
-mut
-url
-)
-=
 load_data
 .
 url
@@ -3325,8 +3316,6 @@ url
 as_mut_url
 (
 )
-{
-url
 .
 query_pairs_mut
 (
@@ -3379,7 +3368,6 @@ charset
 )
 )
 ;
-}
 self
 .
 plan_to_navigate
@@ -3482,15 +3470,6 @@ form_url_encoded
 )
 )
 ;
-if
-let
-Some
-(
-ref
-mut
-url
-)
-=
 load_data
 .
 url
@@ -3498,8 +3477,6 @@ url
 as_mut_url
 (
 )
-{
-url
 .
 query_pairs_mut
 (
@@ -3552,7 +3529,6 @@ charset
 )
 )
 ;
-}
 load_data
 .
 url
