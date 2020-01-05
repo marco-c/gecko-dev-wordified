@@ -1,16 +1,5 @@
 /
 /
-file
-:
-test262
--
-intl
--
-extras
-.
-js
-/
-/
 This
 Source
 Code
