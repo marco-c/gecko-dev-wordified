@@ -7119,6 +7119,8 @@ key_value_pairs
 if
 filename
 in
+normilize_paths
+(
 config
 [
 "
@@ -7131,6 +7133,7 @@ json
 keys
 "
 ]
+)
 :
             
 check_for_alphabetical_sorted_json_keys
