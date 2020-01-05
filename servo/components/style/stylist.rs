@@ -117,6 +117,12 @@ parking_lot
 RwLock
 ;
 use
+pdqsort
+:
+:
+sort_by
+;
+use
 properties
 :
 :
@@ -136,12 +142,6 @@ properties
 PropertyDeclaration
 PropertyDeclarationBlock
 }
-;
-use
-quickersort
-:
-:
-sort_by
 ;
 use
 restyle_hints
@@ -5868,7 +5868,6 @@ F
 sort_by
 (
 v
-&
 |
 a
 b

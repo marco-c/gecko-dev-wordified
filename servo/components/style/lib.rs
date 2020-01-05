@@ -642,11 +642,11 @@ parking_lot
 ;
 extern
 crate
-phf
+pdqsort
 ;
 extern
 crate
-quickersort
+phf
 ;
 extern
 crate
