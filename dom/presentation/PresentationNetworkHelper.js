@@ -213,7 +213,9 @@ function
 aListener
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
