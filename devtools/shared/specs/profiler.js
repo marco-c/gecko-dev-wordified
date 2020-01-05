@@ -594,7 +594,7 @@ json
 "
 )
 }
-getSharedLibraryInformation
+sharedLibraries
 :
 {
 response
