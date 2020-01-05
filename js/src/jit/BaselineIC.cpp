@@ -8740,13 +8740,7 @@ JSOP_TYPEOF
 if
 (
 !
-GetEnvironmentName
-<
-GetNameMode
-:
-:
-TypeOf
->
+GetEnvironmentNameForTypeOf
 (
 cx
 envChain
@@ -8764,12 +8758,6 @@ if
 (
 !
 GetEnvironmentName
-<
-GetNameMode
-:
-:
-Normal
->
 (
 cx
 envChain
