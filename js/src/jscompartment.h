@@ -6335,6 +6335,15 @@ compartmentStats_
 newStats
 ;
 }
+MOZ_ALWAYS_INLINE
+bool
+objectMaybeInIteration
+(
+JSObject
+*
+obj
+)
+;
 /
 /
 These
