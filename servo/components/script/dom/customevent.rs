@@ -162,6 +162,7 @@ js
 {
 JSRef
 Temporary
+MutHeap
 }
 ;
 use
@@ -222,15 +223,6 @@ str
 :
 DOMString
 ;
-use
-std
-:
-:
-cell
-:
-:
-Cell
-;
 #
 [
 dom_struct
@@ -244,7 +236,7 @@ event
 Event
 detail
 :
-Cell
+MutHeap
 <
 JSVal
 >
@@ -305,7 +297,7 @@ type_id
 )
 detail
 :
-Cell
+MutHeap
 :
 :
 new
