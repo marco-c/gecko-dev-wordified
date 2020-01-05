@@ -607,6 +607,12 @@ i32
 impl_to_css_for_predefined_type
 !
 (
+u16
+)
+;
+impl_to_css_for_predefined_type
+!
+(
 u32
 )
 ;
