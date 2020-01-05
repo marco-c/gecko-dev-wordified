@@ -8482,9 +8482,6 @@ mAPZEventState
 >
 ProcessAPZStateChange
 (
-GetDocument
-(
-)
 aViewId
 aChange
 aArg
