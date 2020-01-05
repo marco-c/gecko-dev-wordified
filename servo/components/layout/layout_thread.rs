@@ -289,9 +289,6 @@ incremental
 :
 {
 LayoutDamageComputation
-REFLOW
-REFLOW_ENTIRE_DOCUMENT
-REFLOW_OUT_OF_FLOW
 }
 ;
 use
@@ -300,6 +297,10 @@ incremental
 :
 {
 REPAINT
+STORE_OVERFLOW
+REFLOW_OUT_OF_FLOW
+REFLOW
+REFLOW_ENTIRE_DOCUMENT
 }
 ;
 use
@@ -10115,9 +10116,11 @@ restyle_damage
 .
 insert
 (
-REFLOW
-|
 REPAINT
+|
+STORE_OVERFLOW
+|
+REFLOW
 )
 ;
 for
