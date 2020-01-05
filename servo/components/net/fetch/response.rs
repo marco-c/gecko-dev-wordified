@@ -80,6 +80,7 @@ net_traits
 :
 {
 CacheState
+HttpsState
 Response
 ResponseBody
 ResponseType
@@ -214,6 +215,12 @@ Empty
 cache_state
 :
 CacheState
+:
+:
+None
+https_state
+:
+HttpsState
 :
 :
 None
