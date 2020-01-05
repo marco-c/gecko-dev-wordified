@@ -1148,7 +1148,7 @@ requests
 table
 *
 /
-.
+#
 requests
 -
 list
@@ -1164,7 +1164,7 @@ padding
 0
 ;
 }
-.
+#
 requests
 -
 list
@@ -1188,7 +1188,7 @@ nowrap
 theme
 -
 firebug
-.
+#
 requests
 -
 list
@@ -5307,7 +5307,7 @@ analysis
 buttons
 *
 /
-.
+#
 requests
 -
 list
@@ -5377,7 +5377,7 @@ width
 0
 ;
 }
-.
+#
 requests
 -
 list
@@ -5436,7 +5436,7 @@ opacity
 8
 ;
 }
-.
+#
 requests
 -
 list
@@ -5471,7 +5471,7 @@ start
 5em
 ;
 }
-.
+#
 requests
 -
 list
@@ -5490,7 +5490,7 @@ summary
 info
 -
 icon
-.
+#
 requests
 -
 list
@@ -6650,7 +6650,7 @@ details
 panel
 -
 toggle
-.
+#
 requests
 -
 list
@@ -6673,7 +6673,7 @@ display
 none
 ;
 }
-.
+#
 requests
 -
 list
