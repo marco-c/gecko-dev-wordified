@@ -274,13 +274,6 @@ browser
 .
 contentDocument
 ;
-let
-window
-=
-browser
-.
-contentWindow
-;
 if
 (
 !
@@ -313,7 +306,6 @@ return
 {
 tab
 document
-window
 }
 ;
 }
@@ -857,7 +849,7 @@ MockFilePicker
 .
 init
 (
-window
+null
 )
 ;
 let
@@ -870,14 +862,13 @@ path
 ;
 MockFilePicker
 .
-setFiles
-(
+returnFiles
+=
 [
 file
 .
 file
 ]
-)
 ;
 let
 addonList

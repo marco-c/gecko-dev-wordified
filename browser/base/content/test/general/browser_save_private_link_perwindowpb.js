@@ -450,12 +450,11 @@ fileName
 ;
 MockFilePicker
 .
-setFiles
-(
+returnFiles
+=
 [
 destFile
 ]
-)
 ;
 MockFilePicker
 .
