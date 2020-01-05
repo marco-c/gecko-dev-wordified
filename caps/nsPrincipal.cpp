@@ -2288,6 +2288,10 @@ URIIsImmutable
 mDomain
 )
 ;
+mDomainSet
+=
+true
+;
 /
 /
 Recompute
