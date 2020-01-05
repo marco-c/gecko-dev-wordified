@@ -1884,6 +1884,7 @@ performed
 deriving
 (
 Clone
+Show
 )
 ]
 pub
@@ -2283,6 +2284,10 @@ and
 false
 otherwise
 .
+#
+[
+inline
+]
 fn
 is_empty
 (
@@ -2297,12 +2302,9 @@ self
 .
 list
 .
-len
+is_empty
 (
 )
-=
-=
-0
 }
 /
 /

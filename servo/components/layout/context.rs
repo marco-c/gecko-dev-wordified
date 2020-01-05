@@ -124,6 +124,12 @@ layout_interface
 LayoutChan
 ;
 use
+script_traits
+:
+:
+UntrustedNodeAddress
+;
+use
 servo_msg
 :
 :
@@ -341,6 +347,9 @@ Arc
 Mutex
 <
 LocalImageCache
+<
+UntrustedNodeAddress
+>
 >
 >
 /
