@@ -2547,10 +2547,6 @@ bluetoothuuid
 ;
 pub
 mod
-browsingcontext
-;
-pub
-mod
 canvasgradient
 ;
 pub
@@ -3487,6 +3483,10 @@ websocket
 pub
 mod
 window
+;
+pub
+mod
+windowproxy
 ;
 pub
 mod

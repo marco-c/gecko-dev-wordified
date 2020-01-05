@@ -46916,10 +46916,10 @@ WeakReferenceable
 dom
 :
 :
-browsingcontext
+windowproxy
 :
 :
-BrowsingContext
+WindowProxy
 '
         
 '
