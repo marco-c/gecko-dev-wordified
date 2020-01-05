@@ -468,7 +468,7 @@ mut
 dlist
 :
 :
-split
+split_off_head
 (
 &
 mut
@@ -521,7 +521,7 @@ mut
 dlist
 :
 :
-split
+split_off_head
 (
 &
 mut
