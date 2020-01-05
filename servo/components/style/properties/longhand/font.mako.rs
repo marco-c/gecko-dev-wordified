@@ -8937,15 +8937,6 @@ helpers
 :
 longhand
 >
-/
-/
-FIXME
-:
-This
-prop
-should
-be
-animatable
 {
 helpers
 .
@@ -9025,7 +9016,7 @@ stretch
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 )
 }
@@ -9083,7 +9074,7 @@ propdef
 -
 font
 -
-stretch
+kerning
 "
 animation_value_type
 =
