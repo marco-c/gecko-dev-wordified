@@ -121,7 +121,10 @@ use
 properties
 :
 :
+{
+CSSWideKeyword
 DeclaredValue
+}
 ;
 use
 std
@@ -2731,6 +2734,18 @@ unreachable
 DeclaredValue
 :
 :
+CSSWideKeyword
+(
+keyword
+)
+=
+>
+match
+keyword
+{
+CSSWideKeyword
+:
+:
 Initial
 =
 >
@@ -2744,7 +2759,7 @@ name
 )
 ;
 }
-DeclaredValue
+CSSWideKeyword
 :
 :
 Unset
@@ -2758,7 +2773,7 @@ inherited
 by
 default
 .
-DeclaredValue
+CSSWideKeyword
 :
 :
 Inherit
@@ -2777,6 +2792,7 @@ we
 already
 have
 .
+}
 }
 }
 /
