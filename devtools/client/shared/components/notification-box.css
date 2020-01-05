@@ -299,6 +299,12 @@ inline
 -
 block
 ;
+background
+-
+size
+:
+16px
+;
 width
 :
 16px
@@ -351,11 +357,9 @@ skin
 /
 icons
 /
-information
--
-16
+info
 .
-png
+svg
 "
 )
 ;
