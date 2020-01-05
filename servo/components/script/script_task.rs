@@ -8522,10 +8522,6 @@ incomplete
 url
 .
 scheme
-.
-as_slice
-(
-)
 =
 =
 "
@@ -10720,10 +10716,6 @@ load_data
 url
 .
 scheme
-.
-as_slice
-(
-)
 =
 =
 "

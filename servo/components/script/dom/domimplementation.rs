@@ -541,11 +541,8 @@ DocumentType
 match
 xml_name_type
 (
+&
 qname
-.
-as_slice
-(
-)
 )
 {
 /
