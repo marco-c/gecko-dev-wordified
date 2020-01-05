@@ -309,7 +309,7 @@ dispatch
 (
 Actions
 .
-toggleFilter
+toggleFilterType
 (
 e
 )
