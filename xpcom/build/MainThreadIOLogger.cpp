@@ -176,6 +176,13 @@ nsNativeCharsetUtils
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 /
 *
 *
@@ -566,7 +573,7 @@ MainThreadIOLogger
 "
 )
 ;
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 MainThreadIOLogger
