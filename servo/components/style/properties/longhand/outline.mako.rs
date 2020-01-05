@@ -492,6 +492,7 @@ let
 &
 SpecifiedValue
 (
+ref
 length
 )
 =

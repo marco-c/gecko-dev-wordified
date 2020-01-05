@@ -729,7 +729,6 @@ directly
 derive
 (
 PartialEq
-Copy
 Clone
 Debug
 )

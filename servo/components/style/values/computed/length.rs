@@ -1327,6 +1327,7 @@ LengthOrPercentage
 :
 Length
 (
+ref
 value
 )
 =
@@ -1376,6 +1377,7 @@ LengthOrPercentage
 :
 Calc
 (
+ref
 calc
 )
 =
@@ -1472,6 +1474,7 @@ LengthOrPercentage
 :
 Calc
 (
+ref
 calc
 )
 =
@@ -1485,13 +1488,18 @@ LengthOrPercentage
 :
 Calc
 (
+Box
+:
+:
+new
+(
 ToComputedValue
 :
 :
 from_computed_value
 (
-&
 calc
+)
 )
 )
 }
@@ -1908,6 +1916,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
+ref
 value
 )
 =
@@ -1972,6 +1981,7 @@ LengthOrPercentageOrAuto
 :
 Calc
 (
+ref
 calc
 )
 =
@@ -2098,6 +2108,11 @@ LengthOrPercentageOrAuto
 :
 Calc
 (
+Box
+:
+:
+new
+(
 ToComputedValue
 :
 :
@@ -2105,6 +2120,7 @@ from_computed_value
 (
 &
 calc
+)
 )
 )
 }
@@ -2440,6 +2456,7 @@ LengthOrPercentageOrAutoOrContent
 :
 Length
 (
+ref
 value
 )
 =
@@ -2489,6 +2506,7 @@ LengthOrPercentageOrAutoOrContent
 :
 Calc
 (
+ref
 calc
 )
 =
@@ -2662,6 +2680,11 @@ LengthOrPercentageOrAutoOrContent
 :
 Calc
 (
+Box
+:
+:
+new
+(
 ToComputedValue
 :
 :
@@ -2669,6 +2692,7 @@ from_computed_value
 (
 &
 calc
+)
 )
 )
 }
@@ -3003,6 +3027,7 @@ LengthOrPercentageOrNone
 :
 Length
 (
+ref
 value
 )
 =
@@ -3052,6 +3077,7 @@ LengthOrPercentageOrNone
 :
 Calc
 (
+ref
 calc
 )
 =
@@ -3193,6 +3219,11 @@ LengthOrPercentageOrNone
 :
 Calc
 (
+Box
+:
+:
+new
+(
 ToComputedValue
 :
 :
@@ -3200,6 +3231,7 @@ from_computed_value
 (
 &
 calc
+)
 )
 )
 }

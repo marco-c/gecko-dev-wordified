@@ -2765,17 +2765,10 @@ self
 >
 bool
 {
-let
-&
-SpecifiedValue
-(
-length
-)
-=
-self
-;
 return
-length
+self
+.
+0
 .
 has_viewport_percentage
 (
@@ -2974,6 +2967,7 @@ LengthOrPercentage
 :
 Length
 (
+ref
 l
 )
 =
@@ -3023,6 +3017,7 @@ LengthOrPercentage
 :
 Calc
 (
+ref
 calc
 )
 =

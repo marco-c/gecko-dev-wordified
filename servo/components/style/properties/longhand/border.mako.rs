@@ -3521,6 +3521,7 @@ SingleComputedValue
 :
 LengthOrPercentage
 (
+ref
 len
 )
 =
@@ -3611,6 +3612,7 @@ SingleSpecifiedValue
 :
 LengthOrPercentage
 (
+ref
 len
 )
 =
@@ -3696,6 +3698,7 @@ SingleSpecifiedValue
 :
 LengthOrPercentage
 (
+ref
 len
 )
 =

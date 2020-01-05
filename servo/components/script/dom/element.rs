@@ -3970,6 +3970,10 @@ SpecifiedValue
 horizontal
 :
 width_value
+.
+clone
+(
+)
 vertical
 :
 width_value
@@ -5159,6 +5163,10 @@ DeclaredValue
 Value
 (
 width_value
+.
+clone
+(
+)
 )
 )
 )
@@ -5181,6 +5189,10 @@ DeclaredValue
 Value
 (
 width_value
+.
+clone
+(
+)
 )
 )
 )
@@ -5203,6 +5215,10 @@ DeclaredValue
 Value
 (
 width_value
+.
+clone
+(
+)
 )
 )
 )
