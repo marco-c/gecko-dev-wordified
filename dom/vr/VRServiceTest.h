@@ -140,6 +140,13 @@ VRServiceTestBinding
 .
 h
 "
+#
+include
+"
+gfxVR
+.
+h
+"
 namespace
 mozilla
 {
