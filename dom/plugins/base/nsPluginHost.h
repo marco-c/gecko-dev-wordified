@@ -1002,12 +1002,6 @@ codebase
 .
 .
 eSpecialType_Java
-/
-/
-Native
-widget
-quirks
-eSpecialType_Unity
 }
 ;
 static
