@@ -1941,7 +1941,6 @@ maybeStartTelemetryStopwatch
 =
 (
 resourceType
-resource
 )
 =
 >
@@ -1969,7 +1968,6 @@ this
 getKey
 (
 )
-resource
 )
 ;
 }
@@ -1980,7 +1978,6 @@ maybeStopTelemetryStopwatch
 =
 (
 resourceType
-resource
 )
 =
 >
@@ -2008,7 +2005,6 @@ this
 getKey
 (
 )
-resource
 )
 ;
 }
@@ -2287,6 +2283,11 @@ ItemBeforeMigrate
 migrationType
 )
 ;
+maybeStartTelemetryStopwatch
+(
+migrationType
+)
+;
 let
 itemSuccess
 =
@@ -2300,12 +2301,6 @@ of
 itemResources
 )
 {
-maybeStartTelemetryStopwatch
-(
-migrationType
-res
-)
-;
 let
 completeDeferred
 =
@@ -2323,12 +2318,6 @@ function
 aSuccess
 )
 {
-maybeStopTelemetryStopwatch
-(
-migrationType
-res
-)
-;
 itemResources
 .
 delete
@@ -2372,6 +2361,11 @@ migrationType
 resourcesGroupedByItems
 .
 delete
+(
+migrationType
+)
+;
+maybeStopTelemetryStopwatch
 (
 migrationType
 )
