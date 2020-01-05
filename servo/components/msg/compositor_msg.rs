@@ -434,6 +434,7 @@ layer
 [
 deriving
 (
+Clone
 PartialEq
 )
 ]
