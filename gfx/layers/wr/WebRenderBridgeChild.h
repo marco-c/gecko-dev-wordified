@@ -187,11 +187,10 @@ aHeight
 void
 DPEnd
 (
-)
-;
-void
-DPSyncEnd
-(
+bool
+aIsSync
+=
+false
 )
 ;
 protected
