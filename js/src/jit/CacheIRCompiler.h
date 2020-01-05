@@ -173,7 +173,7 @@ GuardIsSymbol
 \
 _
 (
-GuardIsInt32
+GuardIsInt32Index
 )
 \
 _
