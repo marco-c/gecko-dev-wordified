@@ -534,8 +534,8 @@ compartment
 .
 *
 /
-RegExpGuard
-g
+RootedRegExpShared
+shared
 (
 cx
 )
@@ -559,7 +559,7 @@ cx
 lazySource
 lazyFlags
 &
-g
+shared
 )
 )
 return
@@ -608,7 +608,7 @@ matchesInput
 RegExpRunStatus
 status
 =
-g
+shared
 -
 >
 execute
