@@ -342,10 +342,8 @@ HTMLLIAccessible
 }
 private
 :
-RefPtr
-<
 HTMLListBulletAccessible
->
+*
 mBullet
 ;
 }
