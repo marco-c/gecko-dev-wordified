@@ -3074,6 +3074,44 @@ unionname
 )
 )
 def
+_sentinelReadError
+(
+classname
+)
+:
+    
+return
+StmtExpr
+(
+        
+ExprCall
+(
+ExprVar
+(
+'
+mozilla
+:
+:
+ipc
+:
+:
+SentinelReadError
+'
+)
+                 
+args
+=
+[
+ExprLiteral
+.
+String
+(
+classname
+)
+]
+)
+)
+def
 _killProcess
 (
 pid
@@ -3458,6 +3496,38 @@ StmtReturn
 .
 FALSE
 ]
+def
+errfnSentinel
+(
+rvalue
+=
+ExprLiteral
+.
+FALSE
+)
+:
+    
+def
+inner
+(
+msg
+)
+:
+        
+return
+[
+_sentinelReadError
+(
+msg
+)
+StmtReturn
+(
+rvalue
+)
+]
+    
+return
+inner
 def
 _destroyMethod
 (
@@ -27249,6 +27319,12 @@ arraytype
 name
 (
 )
+                             
+errfnSentinel
+=
+errfnSentinel
+(
+)
 )
 )
         
@@ -27361,6 +27437,12 @@ arraytype
 name
 (
 )
+)
+                             
+errfnSentinel
+=
+errfnSentinel
+(
 )
 )
             
@@ -28454,11 +28536,17 @@ msgvar
 itervar
 errfnRead
 desc
+                                         
 sentinelKey
 =
 f
 .
 basename
+errfnSentinel
+=
+errfnSentinel
+(
+)
 )
             
 if
@@ -29001,9 +29089,15 @@ errfnRead
 Union
 type
 '
+                        
 sentinelKey
 =
 origenum
+errfnSentinel
+=
+errfnSentinel
+(
+)
 )
                     
 StmtReturn
@@ -29195,6 +29289,11 @@ sentinelKey
 uniontype
 .
 name
+(
+)
+errfnSentinel
+=
+errfnSentinel
 (
 )
 )
@@ -30433,7 +30532,14 @@ replyvar
 self
 .
 side
+            
 errfnCleanupCtor
+errfnSentinel
+(
+ExprLiteral
+.
+NULL
+)
 )
         
 method
@@ -31264,6 +31370,10 @@ self
 .
 side
 errfnSend
+            
+errfnSentinel
+(
+)
 actorvar
 )
         
@@ -31739,6 +31849,9 @@ self
 .
 side
 errfnSend
+errfnSentinel
+(
+)
 )
         
 method
@@ -31876,6 +31989,15 @@ self
 .
 side
 errfnRecv
+                                        
+errfnSent
+=
+errfnSentinel
+(
+_Result
+.
+ValuError
+)
 )
         
 idvar
@@ -32100,6 +32222,15 @@ self
 .
 side
 errfnRecv
+                                        
+errfnSent
+=
+errfnSentinel
+(
+_Result
+.
+ValuError
+)
 )
         
 idvar
@@ -32295,6 +32426,15 @@ side
 errfn
 =
 errfnRecv
+                                        
+errfnSent
+=
+errfnSentinel
+(
+_Result
+.
+ValuError
+)
 )
         
 idvar
@@ -33355,6 +33495,7 @@ self
 md
 side
 errfn
+errfnSent
 )
 :
         
@@ -33543,6 +33684,9 @@ sentinelKey
 '
 actor
 '
+errfnSentinel
+=
+errfnSent
 )
 ]
             
@@ -33681,6 +33825,9 @@ sentinelKey
 p
 .
 name
+errfnSentinel
+=
+errfnSent
 )
                         
 for
@@ -33719,6 +33866,7 @@ md
 replyexpr
 side
 errfn
+errfnSentinel
 actor
 =
 None
@@ -33869,6 +34017,9 @@ sentinelKey
 r
 .
 name
+errfnSentinel
+=
+errfnSentinel
 )
                 
 for
@@ -35055,6 +35206,7 @@ iterexpr
 errfn
 paramtype
 sentinelKey
+errfnSentinel
 sentinel
 =
 True
@@ -35094,6 +35246,14 @@ errfn
 *
 paramtype
 )
+            
+senterrorcall
+=
+errfnSentinel
+(
+*
+paramtype
+)
         
 else
 :
@@ -35101,6 +35261,18 @@ else
 errorcall
 =
 errfn
+(
+'
+Error
+deserializing
+'
++
+paramtype
+)
+            
+senterrorcall
+=
+errfnSentinel
 (
 '
 Error
@@ -35211,7 +35383,7 @@ ifsentinel
 .
 addifstmts
 (
-errorcall
+senterrorcall
 )
             
 block
