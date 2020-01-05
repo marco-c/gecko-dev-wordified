@@ -1174,7 +1174,7 @@ border
 -
 nonzero
 "
-0
+CSS_PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 "
 "
 )
