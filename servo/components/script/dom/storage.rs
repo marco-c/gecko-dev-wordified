@@ -1247,11 +1247,7 @@ unwrap
 (
 )
 .
-iter
-(
-)
-.
-cloned
+into_iter
 (
 )
 .
@@ -1266,12 +1262,6 @@ from
 collect
 (
 )
-/
-/
-FIXME
-:
-inefficient
-?
 }
 /
 /
