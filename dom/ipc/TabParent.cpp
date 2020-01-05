@@ -2410,6 +2410,9 @@ TabParent
 :
 RecvEnsureLayersConnected
 (
+CompositorOptions
+*
+aCompositorOptions
 )
 {
 if
@@ -2428,6 +2431,7 @@ frame
 >
 EnsureLayersConnected
 (
+aCompositorOptions
 )
 ;
 }

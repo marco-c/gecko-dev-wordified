@@ -520,6 +520,9 @@ TakeFocusForClickFromTap
 void
 EnsureLayersConnected
 (
+CompositorOptions
+*
+aCompositorOptions
 )
 ;
 protected

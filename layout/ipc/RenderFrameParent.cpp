@@ -2046,6 +2046,9 @@ RenderFrameParent
 :
 EnsureLayersConnected
 (
+CompositorOptions
+*
+aCompositorOptions
 )
 {
 RefPtr
@@ -2098,6 +2101,11 @@ mLayersId
 &
 mCompositorOptions
 )
+;
+*
+aCompositorOptions
+=
+mCompositorOptions
 ;
 }
 }
