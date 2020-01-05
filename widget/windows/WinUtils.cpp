@@ -453,6 +453,13 @@ NS_ENABLE_TSF
 #
 include
 <
+shlobj
+.
+h
+>
+#
+include
+<
 shlwapi
 .
 h
