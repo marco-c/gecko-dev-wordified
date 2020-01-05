@@ -798,7 +798,9 @@ void
 *
 activation
 ;
-UniqueChars
+const
+char
+*
 label
 ;
 }
