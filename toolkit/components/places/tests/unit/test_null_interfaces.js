@@ -186,6 +186,9 @@ onPageAnnotationSet
 "
 onPageAnnotationRemoved
 "
+"
+onDeleteURI
+"
 ]
 ]
 [
