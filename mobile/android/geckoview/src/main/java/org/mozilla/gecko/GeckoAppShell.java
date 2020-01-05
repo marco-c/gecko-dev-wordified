@@ -10261,12 +10261,6 @@ getDefaultUAString
 (
 )
 ;
-public
-void
-doRestart
-(
-)
-;
 /
 *
 *
