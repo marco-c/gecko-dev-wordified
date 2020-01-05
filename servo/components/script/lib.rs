@@ -221,6 +221,14 @@ rc_unique
 [
 feature
 (
+slice_patterns
+)
+]
+#
+!
+[
+feature
+(
 str_utf16
 )
 ]
