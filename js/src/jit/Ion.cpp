@@ -14041,6 +14041,16 @@ return
 reason
 ;
 }
+AssertBasicGraphCoherency
+(
+builder
+-
+>
+graph
+(
+)
+)
+;
 /
 /
 If
