@@ -2644,6 +2644,11 @@ HasSuspendTaint
 )
 const
 ;
+void
+UpdateVideoDecodeMode
+(
+)
+;
 /
 *
 *
