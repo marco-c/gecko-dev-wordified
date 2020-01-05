@@ -1384,6 +1384,7 @@ report_pending_exception
 self
 .
 cx
+true
 )
 ;
 }
