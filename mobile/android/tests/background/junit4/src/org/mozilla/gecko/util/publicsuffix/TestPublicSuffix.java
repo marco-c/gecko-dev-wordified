@@ -45,6 +45,13 @@ testhelpers
 .
 TestRunner
 ;
+import
+org
+.
+robolectric
+.
+RuntimeEnvironment
+;
 RunWith
 (
 TestRunner
@@ -77,6 +84,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 "
 )
@@ -102,6 +112,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 www
 .
@@ -125,6 +138,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 www
 .
@@ -146,6 +162,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 foobar
 .
@@ -167,6 +186,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 independent
 .
@@ -188,6 +210,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 biz
 .
@@ -209,6 +234,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 example
 .
@@ -228,6 +256,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 example
 .
@@ -260,6 +291,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 localhost
 "
@@ -279,6 +313,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 firefox
 .
@@ -302,6 +339,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 .
 .
@@ -322,6 +362,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 a
 A
@@ -356,6 +399,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 192
 .
@@ -379,6 +425,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 asdflkj9uahsd
 "
@@ -409,6 +458,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 www
 .
@@ -431,6 +483,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 "
 example
 .
@@ -458,6 +513,9 @@ PublicSuffix
 .
 stripPublicSuffix
 (
+RuntimeEnvironment
+.
+application
 null
 )
 ;
