@@ -64,6 +64,13 @@ allow
 non_camel_case_types
 )
 ]
+pub
+use
+cssparser
+:
+:
+RGBA
+;
 macro_rules
 !
 define_css_keyword_enum

@@ -198,6 +198,9 @@ use
 style
 :
 :
+properties
+:
+:
 ComputedValues
 ;
 use

@@ -210,8 +210,11 @@ use
 style
 :
 :
+stylesheets
+:
+:
 {
-StylesheetOrigin
+Origin
 Stylesheet
 }
 ;
@@ -508,7 +511,7 @@ as_slice
 (
 )
 url
-StylesheetOrigin
+Origin
 :
 :
 Author

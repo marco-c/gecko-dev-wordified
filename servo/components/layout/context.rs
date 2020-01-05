@@ -193,6 +193,9 @@ use
 style
 :
 :
+selector_matching
+:
+:
 Stylist
 ;
 use

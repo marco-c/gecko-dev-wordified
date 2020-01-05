@@ -196,6 +196,9 @@ use
 style
 :
 :
+stylesheets
+:
+:
 Stylesheet
 ;
 use
