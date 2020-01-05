@@ -576,6 +576,10 @@ friend
 class
 nsDisplayOutline
 ;
+friend
+class
+nsDisplayButtonBorder
+;
 public
 :
 nsCSSBorderRenderer
