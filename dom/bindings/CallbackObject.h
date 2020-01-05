@@ -1533,9 +1533,6 @@ JSObject
 *
 >
 aCallback
-nsIGlobalObject
-*
-aIncumbentGlobal
 const
 FastCallbackConstructor
 &
@@ -1545,7 +1542,7 @@ InitNoHold
 (
 aCallback
 nullptr
-aIncumbentGlobal
+nullptr
 )
 ;
 }
