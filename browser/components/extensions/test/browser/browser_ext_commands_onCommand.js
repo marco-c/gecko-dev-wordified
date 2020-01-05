@@ -860,6 +860,7 @@ function
 *
 runTest
 (
+window
 )
 {
 for
@@ -900,6 +901,7 @@ key
 testCommand
 .
 modifiers
+window
 )
 ;
 let
@@ -974,7 +976,7 @@ selectedBrowser
 "
 about
 :
-config
+robots
 "
 )
 ;
@@ -1157,6 +1159,7 @@ win1
 yield
 runTest
 (
+win1
 )
 ;
 yield
@@ -1168,6 +1171,7 @@ win2
 yield
 runTest
 (
+win2
 )
 ;
 yield
