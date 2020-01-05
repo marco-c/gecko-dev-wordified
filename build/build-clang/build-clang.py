@@ -1407,6 +1407,7 @@ assertions
                     
 python_path
 gcc_dir
+libcxx_include_dir
 )
 :
     
@@ -1946,17 +1947,7 @@ DLIBCXXABI_LIBCXX_INCLUDES
 s
 "
 %
-slashify_path
-(
-os
-.
-getenv
-(
-"
-LIBCXX_INCLUDE_PATH
-"
-)
-)
+libcxx_include_dir
                        
 "
 -
@@ -4527,6 +4518,27 @@ makedirs
 build_dir
 )
     
+libcxx_include_dir
+=
+os
+.
+path
+.
+join
+(
+llvm_source_dir
+"
+projects
+"
+                                      
+"
+libcxx
+"
+"
+include
+"
+)
+    
 stage1_dir
 =
 build_dir
@@ -5099,6 +5111,7 @@ build_type
 assertions
 python_path
 gcc_dir
+libcxx_include_dir
 )
     
 if
@@ -5194,6 +5207,7 @@ build_type
 assertions
 python_path
 gcc_dir
+libcxx_include_dir
 )
     
 if
@@ -5280,6 +5294,7 @@ build_type
 assertions
 python_path
 gcc_dir
+libcxx_include_dir
 )
     
 package_name
