@@ -129,6 +129,7 @@ derive
 (
 Deserialize
 Serialize
+Debug
 )
 ]
 pub

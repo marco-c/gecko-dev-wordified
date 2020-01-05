@@ -197,6 +197,7 @@ Eq
 Hash
 Deserialize
 Serialize
+Debug
 )
 ]
 pub

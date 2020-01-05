@@ -192,6 +192,7 @@ derive
 (
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
@@ -550,6 +551,13 @@ clone
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 CachedCTFont

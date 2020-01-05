@@ -70,6 +70,7 @@ HeapSizeOf
 derive
 (
 Clone
+Debug
 )
 ]
 pub

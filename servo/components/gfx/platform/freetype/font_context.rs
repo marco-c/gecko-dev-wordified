@@ -570,6 +570,7 @@ FontContextHandle
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -717,6 +718,7 @@ derive
 (
 Clone
 HeapSizeOf
+Debug
 )
 ]
 pub

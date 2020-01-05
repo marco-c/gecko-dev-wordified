@@ -410,6 +410,13 @@ usize
 ;
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 FontHandle
