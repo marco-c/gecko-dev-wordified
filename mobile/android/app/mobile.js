@@ -7724,9 +7724,6 @@ visible
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Enable
@@ -7760,8 +7757,6 @@ apiVisible
 true
 )
 ;
-#
-endif
 /
 /
 optimize
