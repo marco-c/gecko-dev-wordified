@@ -7577,6 +7577,7 @@ options
 .
 *
 /
+MOZ_JEMALLOC_API
 const
 char
 *
@@ -8972,6 +8973,7 @@ p4
 return
 ;
 }
+MOZ_JEMALLOC_API
 void
 (
 *
