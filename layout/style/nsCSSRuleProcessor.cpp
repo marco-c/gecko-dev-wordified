@@ -12617,8 +12617,6 @@ return
 false
 ;
 }
-else
-{
 result
 =
 true
@@ -13113,7 +13111,6 @@ attr
 result
 )
 ;
-}
 }
 /
 /
