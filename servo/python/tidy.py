@@ -1976,13 +1976,9 @@ search
 r
 "
 [
-A
--
-Za
--
-z0
--
-9
+^
+\
+s
 ]
 "
 line
@@ -1990,6 +1986,12 @@ line
         
 if
 match
+and
+'
+'
+not
+in
+line
 :
             
 yield
