@@ -3076,7 +3076,7 @@ when
 -
 downgrade
 fn
-no_ref_when_downgrade_header
+no_referrer_when_downgrade_header
 (
 referrer_url
 :
@@ -3443,13 +3443,13 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 |
 None
 =
 >
-no_ref_when_downgrade_header
+no_referrer_when_downgrade_header
 (
 ref_url
 url

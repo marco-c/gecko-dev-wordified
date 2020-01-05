@@ -1388,7 +1388,7 @@ Some
 ReferrerPolicy
 :
 :
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 )
 )
 ;

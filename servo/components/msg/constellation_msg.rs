@@ -1541,7 +1541,7 @@ enum
 ReferrerPolicy
 {
 NoReferrer
-NoRefWhenDowngrade
+NoReferrerWhenDowngrade
 Origin
 SameOrigin
 OriginWhenCrossOrigin
