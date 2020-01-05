@@ -231,6 +231,14 @@ util
 as
 servo_util
 ;
+#
+[
+phase
+(
+plugin
+link
+)
+]
 extern
 crate
 style
