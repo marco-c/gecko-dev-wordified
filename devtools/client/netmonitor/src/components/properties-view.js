@@ -221,7 +221,7 @@ row
 )
 ;
 const
-Editor
+SourceEditor
 =
 createFactory
 (
@@ -230,6 +230,8 @@ require
 "
 .
 /
+source
+-
 editor
 "
 )
@@ -557,6 +559,9 @@ return
 tr
 (
 {
+key
+:
+EDITOR_CONFIG_ID
 className
 :
 "
@@ -574,7 +579,7 @@ colSpan
 :
 2
 }
-Editor
+SourceEditor
 (
 value
 )
