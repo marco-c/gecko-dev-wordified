@@ -3578,8 +3578,6 @@ self
 .
 type_id
 {
-DoctypeNodeTypeId
-|
 ElementNodeTypeId
 (
 *
@@ -3684,6 +3682,12 @@ Data
 (
 )
 }
+}
+DoctypeNodeTypeId
+=
+>
+{
+null_string
 }
 }
 }
