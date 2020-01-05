@@ -196,7 +196,7 @@ fctx
 native
 :
 :
-FontContext
+FontContextHandle
 buf
 :
 ~
@@ -258,7 +258,7 @@ fctx
 native
 :
 :
-FontContext
+FontContextHandle
 buf
 :
 ~
