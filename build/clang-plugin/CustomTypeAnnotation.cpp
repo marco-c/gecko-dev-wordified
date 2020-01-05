@@ -788,6 +788,8 @@ getElementType
 )
 RK_ArrayElement
 nullptr
+"
+"
 }
 ;
 Cache
@@ -1138,6 +1140,8 @@ Reason
 Type
 RK_TemplateInherited
 nullptr
+"
+"
 }
 ;
 return
