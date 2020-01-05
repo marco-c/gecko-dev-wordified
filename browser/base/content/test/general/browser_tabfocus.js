@@ -385,6 +385,8 @@ reject
 =
 >
 {
+window
+.
 messageManager
 .
 addMessageListener
@@ -400,6 +402,8 @@ getCurrentFocus
 message
 )
 {
+window
+.
 messageManager
 .
 removeMessageListener
@@ -1219,6 +1223,8 @@ if
 gMultiProcessBrowser
 )
 {
+window
+.
 messageManager
 .
 addMessageListener

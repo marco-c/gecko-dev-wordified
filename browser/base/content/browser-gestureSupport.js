@@ -1324,6 +1324,8 @@ if
 gMultiProcessBrowser
 |
 |
+window
+.
 content
 .
 pageYOffset
@@ -1358,10 +1360,14 @@ if
 gMultiProcessBrowser
 |
 |
+window
+.
 content
 .
 pageYOffset
 <
+window
+.
 content
 .
 scrollMaxY
@@ -2843,6 +2849,8 @@ if
 (
 !
 (
+window
+.
 content
 .
 document
@@ -2855,6 +2863,8 @@ return
 let
 contentElement
 =
+window
+.
 content
 .
 document
@@ -2966,6 +2976,8 @@ if
 (
 !
 (
+window
+.
 content
 .
 document
@@ -2978,6 +2990,8 @@ return
 let
 contentElement
 =
+window
+.
 content
 .
 document
@@ -3414,6 +3428,8 @@ if
 (
 !
 (
+window
+.
 content
 .
 document
@@ -3426,6 +3442,8 @@ return
 let
 contentElement
 =
+window
+.
 content
 .
 document
@@ -3437,6 +3455,8 @@ firstElementChild
 let
 transformValue
 =
+window
+.
 content
 .
 window
@@ -3573,11 +3593,15 @@ _clearCompleteRotation
 let
 contentElement
 =
+window
+.
 content
 .
 document
 &
 &
+window
+.
 content
 .
 document
@@ -3585,6 +3609,8 @@ instanceof
 ImageDocument
 &
 &
+window
+.
 content
 .
 document
@@ -3592,6 +3618,8 @@ document
 body
 &
 &
+window
+.
 content
 .
 document

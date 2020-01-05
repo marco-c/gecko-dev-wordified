@@ -288,6 +288,8 @@ resolve
 =
 >
 {
+window
+.
 messageManager
 .
 addMessageListener
@@ -303,6 +305,8 @@ statePopped
 message
 )
 {
+window
+.
 messageManager
 .
 removeMessageListener
