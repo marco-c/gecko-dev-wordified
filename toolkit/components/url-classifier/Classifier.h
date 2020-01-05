@@ -878,6 +878,14 @@ mNewLookupCaches
 into
 mLookupCaches
 .
+void
+CopyFullHashCacheToNewLookupCache
+(
+LookupCache
+*
+aNewLookupCache
+)
+;
 /
 /
 Remove
