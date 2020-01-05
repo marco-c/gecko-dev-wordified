@@ -24480,7 +24480,7 @@ point
 JS
 :
 :
-AutoAssertNoAlloc
+AutoAssertNoGC
 nogc
 ;
 if

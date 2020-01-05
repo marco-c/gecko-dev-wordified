@@ -3065,6 +3065,14 @@ AutoAssertNoGC
 explicit
 AutoAssertNoGC
 (
+JSRuntime
+*
+rt
+)
+;
+explicit
+AutoAssertNoGC
+(
 JSContext
 *
 cx

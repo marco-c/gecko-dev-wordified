@@ -7719,8 +7719,8 @@ cx
 JS
 :
 :
-AutoAssertNoAlloc
-noAlloc
+AutoAssertNoGC
+nogc
 (
 cx
 )
