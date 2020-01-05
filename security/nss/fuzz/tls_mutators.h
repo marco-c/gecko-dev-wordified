@@ -62,8 +62,16 @@ tls_mutators_h__
 #
 define
 tls_mutators_h__
+namespace
+TlsMutators
+{
+void
+SetIsDTLS
+(
+)
+;
 size_t
-TlsMutatorDropRecord
+DropRecord
 (
 uint8_t
 *
@@ -78,7 +86,7 @@ seed
 )
 ;
 size_t
-TlsMutatorShuffleRecords
+ShuffleRecords
 (
 uint8_t
 *
@@ -93,7 +101,7 @@ seed
 )
 ;
 size_t
-TlsMutatorDuplicateRecord
+DuplicateRecord
 (
 uint8_t
 *
@@ -108,7 +116,7 @@ seed
 )
 ;
 size_t
-TlsMutatorTruncateRecord
+TruncateRecord
 (
 uint8_t
 *
@@ -123,7 +131,7 @@ seed
 )
 ;
 size_t
-TlsMutatorFragmentRecord
+FragmentRecord
 (
 uint8_t
 *
@@ -138,7 +146,7 @@ seed
 )
 ;
 size_t
-TlsCrossOver
+CrossOver
 (
 const
 uint8_t
@@ -162,6 +170,11 @@ int
 seed
 )
 ;
+}
+/
+/
+namespace
+TlsMutators
 #
 endif
 /
