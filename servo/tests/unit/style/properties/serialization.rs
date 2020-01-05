@@ -6187,7 +6187,7 @@ size
 single_value
 :
 :
-SpecifiedExplicitSize
+ExplicitSize
 {
 width
 :
@@ -6604,7 +6604,7 @@ size
 single_value
 :
 :
-SpecifiedExplicitSize
+ExplicitSize
 {
 width
 :
