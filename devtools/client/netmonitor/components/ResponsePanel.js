@@ -95,9 +95,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -113,9 +110,6 @@ getUrlBaseName
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -140,9 +134,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )
