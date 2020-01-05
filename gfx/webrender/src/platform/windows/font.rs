@@ -677,6 +677,9 @@ data
 [
 u8
 ]
+index
+:
+u32
 )
 {
 if
@@ -716,7 +719,7 @@ font_file
 .
 create_face
 (
-0
+index
 dwrote
 :
 :

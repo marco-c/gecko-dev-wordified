@@ -274,17 +274,6 @@ WrExternalImageId
 aId
 )
 ;
-friend
-void
-ReleaseExternalImage
-(
-void
-*
-aObj
-WrExternalImageId
-aId
-)
-;
 public
 :
 WrExternalImageHandler

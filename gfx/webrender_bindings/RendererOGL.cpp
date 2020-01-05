@@ -395,17 +395,6 @@ Unlock
 )
 ;
 }
-void
-ReleaseExternalImage
-(
-void
-*
-aObj
-WrExternalImageId
-aId
-)
-{
-}
 RendererOGL
 :
 :
@@ -543,7 +532,6 @@ WrExternalImageHandler
 this
 LockExternalImage
 UnlockExternalImage
-ReleaseExternalImage
 }
 ;
 }

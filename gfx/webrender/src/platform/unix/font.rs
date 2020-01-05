@@ -434,6 +434,9 @@ bytes
 [
 u8
 ]
+index
+:
+u32
 )
 {
 if
@@ -462,13 +465,6 @@ null_mut
 )
 ;
 let
-face_index
-=
-0
-as
-FT_Long
-;
-let
 result
 =
 unsafe
@@ -490,7 +486,9 @@ len
 )
 as
 FT_Long
-face_index
+index
+as
+FT_Long
 &
 mut
 face

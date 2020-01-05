@@ -804,11 +804,14 @@ AddRawFont
 (
 id
 bytes
+index
 )
 =
 >
 {
 profile_counters
+.
+resources
 .
 font_templates
 .
@@ -840,6 +843,7 @@ new
 (
 bytes
 )
+index
 )
 )
 ;
@@ -985,6 +989,8 @@ bytes
 data
 {
 profile_counters
+.
+resources
 .
 image_templates
 .
@@ -1355,6 +1361,15 @@ pipeline_id
 )
 ;
 }
+let
+counters
+=
+&
+mut
+profile_counters
+.
+ipc
+;
 profile_counters
 .
 total_time
@@ -1376,6 +1391,7 @@ built_display_list
 background_color
 viewport_size
 auxiliary_lists
+counters
 )
 ;
 self
@@ -1386,6 +1402,7 @@ build_scene
 ;
 }
 )
+;
 }
 ApiMsg
 :
@@ -1482,6 +1499,8 @@ counters
 &
 mut
 profile_counters
+.
+resources
 .
 texture_cache
 ;
@@ -1592,6 +1611,8 @@ counters
 mut
 profile_counters
 .
+resources
+.
 texture_cache
 ;
 profile_counters
@@ -1695,6 +1716,8 @@ counters
 &
 mut
 profile_counters
+.
+resources
 .
 texture_cache
 ;
@@ -2396,6 +2419,8 @@ counters
 mut
 profile_counters
 .
+resources
+.
 texture_cache
 ;
 profile_counters
@@ -2908,17 +2933,6 @@ pending_updates
 )
 ;
 let
-pending_external_image_update
-=
-self
-.
-resource_cache
-.
-pending_external_image_updates
-(
-)
-;
-let
 msg
 =
 ResultMsg
@@ -2928,7 +2942,6 @@ NewFrame
 (
 frame
 pending_update
-pending_external_image_update
 profile_counters
 .
 clone
