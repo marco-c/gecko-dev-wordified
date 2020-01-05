@@ -7200,6 +7200,7 @@ buildbot
 properties
 and
 we
+must
 pass
                 
 #
@@ -7227,17 +7228,42 @@ same
 name
 .
                 
+try
+:
+                    
 buildid
 =
 os
 .
 environ
-.
-get
-(
+[
 '
 MOZ_BUILD_DATE
 '
+]
+                
+except
+KeyError
+:
+                    
+self
+.
+fatal
+(
+                        
+"
+MOZ_BUILD_DATE
+must
+be
+provided
+as
+an
+environment
+var
+on
+Taskcluster
+"
+                    
 )
         
 if
