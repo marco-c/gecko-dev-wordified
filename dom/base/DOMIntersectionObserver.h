@@ -435,6 +435,10 @@ DOMIntersectionObserver
 (
 )
 {
+Disconnect
+(
+)
+;
 }
 public
 :
@@ -661,7 +665,7 @@ Element
 aTarget
 )
 ;
-bool
+void
 UnlinkTarget
 (
 Element
