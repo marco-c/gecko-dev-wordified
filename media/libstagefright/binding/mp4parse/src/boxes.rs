@@ -731,6 +731,13 @@ MP4AudioSampleEntry
 "
 mp4a
 "
+MP4VideoSampleEntry
+0x6d703476
+/
+/
+"
+mp4v
+"
 ESDBox
 0x65736473
 /
