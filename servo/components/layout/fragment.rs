@@ -14295,6 +14295,8 @@ get_effects
 .
 transform
 .
+0
+.
 is_some
 (
 )
@@ -14717,6 +14719,8 @@ get_effects
 )
 .
 box_shadow
+.
+0
 .
 iter
 (

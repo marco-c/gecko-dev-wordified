@@ -1328,12 +1328,16 @@ letter_spacing
 inherited_text_style
 .
 letter_spacing
+.
+0
 ;
 word_spacing
 =
 inherited_text_style
 .
 word_spacing
+.
+0
 .
 unwrap_or
 (
