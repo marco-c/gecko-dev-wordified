@@ -2192,7 +2192,7 @@ nsStyleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 Element
 *
@@ -2320,7 +2320,7 @@ Style
 )
 ;
 return
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 aElement
 aPseudo
@@ -2880,13 +2880,18 @@ IsServo
 (
 )
 "
+Bug
+1311257
+:
 Servo
 backend
-should
+does
 not
-use
-this
-function
+support
+the
+base
+value
+yet
 "
 )
 ;
@@ -3050,7 +3055,7 @@ nsStyleContext
 nsComputedDOMStyle
 :
 :
-DoGetStyleContextForElementNoFlush
+DoGetStyleContextNoFlush
 (
 Element
 *
@@ -3575,7 +3580,7 @@ IsElement
 {
 parentContext
 =
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 parent
 -
@@ -3643,7 +3648,7 @@ nsStyleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 Element
 *
@@ -3659,7 +3664,7 @@ aStyleType
 )
 {
 return
-DoGetStyleContextForElementNoFlush
+DoGetStyleContextNoFlush
 (
 aElement
 aPseudo
@@ -3681,7 +3686,7 @@ nsStyleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementWithoutAnimation
+GetStyleContextWithoutAnimation
 (
 Element
 *
@@ -3807,7 +3812,7 @@ Style
 )
 ;
 return
-DoGetStyleContextForElementNoFlush
+DoGetStyleContextNoFlush
 (
 aElement
 aPseudo
@@ -4858,7 +4863,7 @@ resolvedStyleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 mContent
 -
@@ -4896,7 +4901,7 @@ the
 generation
 even
 though
-GetStyleContextForElement
+GetStyleContext
 /
 /
 will

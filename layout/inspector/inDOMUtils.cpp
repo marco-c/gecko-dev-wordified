@@ -6383,7 +6383,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContext
 (
 aElement
 aPseudo

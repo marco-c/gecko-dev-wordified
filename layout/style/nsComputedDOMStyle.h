@@ -449,7 +449,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-GetStyleContextForElement
+GetStyleContext
 (
 mozilla
 :
@@ -501,7 +501,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-GetStyleContextForElementWithoutAnimation
+GetStyleContextWithoutAnimation
 (
 mozilla
 :
@@ -525,7 +525,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 mozilla
 :
@@ -818,7 +818,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-DoGetStyleContextForElementNoFlush
+DoGetStyleContextNoFlush
 (
 mozilla
 :

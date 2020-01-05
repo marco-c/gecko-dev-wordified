@@ -439,7 +439,7 @@ than
 calling
 /
 /
-GetStyleContextForElement
+GetStyleContext
 .
 void
 SetTarget

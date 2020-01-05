@@ -19473,7 +19473,7 @@ styleContext
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 aElement
 nullptr
@@ -21052,7 +21052,7 @@ elementStyle
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElementNoFlush
+GetStyleContextNoFlush
 (
 content
 -
