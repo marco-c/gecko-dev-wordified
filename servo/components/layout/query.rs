@@ -2336,7 +2336,7 @@ let
 style_structs
 :
 :
-Border
+ServoBorder
 {
 border_top_width
 :
@@ -2584,7 +2584,7 @@ let
 style_structs
 :
 :
-Border
+ServoBorder
 {
 border_top_width
 :

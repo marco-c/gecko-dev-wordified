@@ -618,13 +618,6 @@ style_template
 module
 .
 STYLE_STRUCTS
-LONGHANDS
-=
-style_template
-.
-module
-.
-LONGHANDS
 )
 print
 (

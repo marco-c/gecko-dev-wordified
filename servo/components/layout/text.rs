@@ -267,9 +267,7 @@ properties
 style_structs
 :
 :
-Font
-as
-FontStyle
+ServoFont
 ;
 use
 style
@@ -2956,7 +2954,7 @@ represented
 by
 the
 given
-FontStyle
+ServoFont
 respectively
 .
 /
@@ -3000,7 +2998,7 @@ font_style
 :
 Arc
 <
-FontStyle
+ServoFont
 >
 )
 -
