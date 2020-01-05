@@ -5030,6 +5030,15 @@ id
 )
 ;
 bool
+tryAttachGlobalNameGetter
+(
+ObjOperandId
+objId
+HandleId
+id
+)
+;
+bool
 tryAttachEnvironmentName
 (
 ObjOperandId

@@ -4653,11 +4653,6 @@ Call_ScriptedFunCall
 \
 _
 (
-GetProp_CallNativeGlobal
-)
-\
-_
-(
 GetProp_Generic
 )
 \
