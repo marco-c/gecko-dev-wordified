@@ -49,8 +49,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -199,7 +199,7 @@ to
 the
 console
 .
-yield
+await
 new
 Promise
 (
