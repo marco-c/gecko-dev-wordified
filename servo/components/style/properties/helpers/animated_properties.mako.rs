@@ -536,6 +536,8 @@ Copy
 Clone
 Debug
 PartialEq
+Eq
+Hash
 )
 ]
 #
