@@ -306,14 +306,6 @@ MaybeFinishSeek
 (
 )
 ;
-void
-AdjustFastSeekIfNeeded
-(
-MediaData
-*
-aSample
-)
-;
 /
 *
 *
