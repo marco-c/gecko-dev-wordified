@@ -679,6 +679,9 @@ ControlFlowGraph
 :
 init
 (
+TempAllocator
+&
+alloc
 const
 CFGBlockVector
 &
@@ -812,8 +815,6 @@ if
 (
 !
 alloc
-(
-)
 .
 ensureBallast
 (
@@ -888,8 +889,6 @@ CFGGoto
 New
 (
 alloc
-(
-)
 successor
 ins
 -
@@ -943,8 +942,6 @@ CFGBackEdge
 New
 (
 alloc
-(
-)
 successor
 )
 ;
@@ -998,8 +995,6 @@ CFGLoopEntry
 New
 (
 alloc
-(
-)
 successor
 old
 -
@@ -1039,8 +1034,6 @@ CFGThrow
 New
 (
 alloc
-(
-)
 )
 ;
 break
@@ -1112,8 +1105,6 @@ CFGTest
 New
 (
 alloc
-(
-)
 trueBranch
 falseBranch
 old
@@ -1193,8 +1184,6 @@ CFGCompare
 New
 (
 alloc
-(
-)
 trueBranch
 falseBranch
 )
@@ -1217,8 +1206,6 @@ CFGReturn
 New
 (
 alloc
-(
-)
 )
 ;
 break
@@ -1239,8 +1226,6 @@ CFGRetRVal
 New
 (
 alloc
-(
-)
 )
 ;
 break
@@ -1328,8 +1313,6 @@ CFGTry
 New
 (
 alloc
-(
-)
 tryBlock
 old
 -
@@ -1371,8 +1354,6 @@ CFGTableSwitch
 New
 (
 alloc
-(
-)
 old
 -
 >
