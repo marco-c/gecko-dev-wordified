@@ -2676,6 +2676,10 @@ hashchangeevent
 ;
 pub
 mod
+headers
+;
+pub
+mod
 htmlanchorelement
 ;
 pub

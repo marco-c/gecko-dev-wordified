@@ -162,6 +162,7 @@ Clone
 Eq
 PartialEq
 HeapSizeOf
+Debug
 )
 ]
 pub
