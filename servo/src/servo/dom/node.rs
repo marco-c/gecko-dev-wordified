@@ -471,6 +471,7 @@ aux
 |
 a
 |
+*
 a
 )
 ;
@@ -486,6 +487,7 @@ aux
 |
 a
 |
+*
 a
 )
 ;
@@ -734,10 +736,12 @@ bool
 fn
 DoctypeData
 (
++
 name
 :
 ~
 str
++
 public_id
 :
 Option
@@ -745,6 +749,7 @@ Option
 ~
 str
 >
++
 system_id
 :
 Option
@@ -781,6 +786,7 @@ define_bindings
 (
 compartment
 :
+&
 bare_compartment
 doc
 :
@@ -949,7 +955,7 @@ NodeScopeExtensions
 fn
 new_node
 (
--
++
 k
 :
 NodeKind
@@ -974,7 +980,7 @@ NodeScopeExtensions
 fn
 new_node
 (
--
++
 k
 :
 NodeKind
@@ -987,6 +993,7 @@ self
 .
 handle
 (
+&
 NodeData
 (
 {
@@ -1115,7 +1122,6 @@ self
 .
 read
 (
-*
 node
 |
 n
@@ -1207,7 +1213,6 @@ self
 .
 write
 (
-*
 node
 |
 n

@@ -741,6 +741,7 @@ on
 fn
 handle_msg
 (
++
 msg
 :
 Either
@@ -785,6 +786,7 @@ event
 fn
 handle_control_msg
 (
++
 control_msg
 :
 ControlMsg
@@ -955,6 +957,7 @@ self
 .
 relayout
 (
+&
 document
 &
 url
@@ -1017,7 +1020,6 @@ debug_fns
 ;
 define_bindings
 (
-*
 compartment
 option
 :
@@ -1190,16 +1192,12 @@ self
 .
 relayout
 (
-*
-option
-:
-:
-get
-(
-&
 self
 .
 document
+.
+get
+(
 )
 &
 option
@@ -1498,6 +1496,7 @@ relayout
 (
 document
 :
+&
 Document
 doc_url
 :
@@ -1643,7 +1642,6 @@ self
 .
 relayout
 (
-*
 self
 .
 document
@@ -1806,7 +1804,6 @@ self
 .
 relayout
 (
-*
 document
 &
 self
@@ -1876,7 +1873,6 @@ self
 .
 relayout
 (
-*
 document
 &
 self

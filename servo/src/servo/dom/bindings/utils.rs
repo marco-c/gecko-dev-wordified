@@ -404,6 +404,7 @@ cx
 JSContext
 str
 :
+&
 DOMString
 )
 -
@@ -411,6 +412,7 @@ DOMString
 jsval
 {
 match
+*
 str
 {
 null_string
@@ -638,6 +640,7 @@ pub
 fn
 prototype_jsclass
 (
++
 name
 :
 ~
@@ -661,8 +664,6 @@ JSClass
 compartment
 :
 bare_compartment
-copy
-name
 |
 {
 {
@@ -923,6 +924,7 @@ pub
 fn
 instance_jsclass
 (
++
 name
 :
 ~
@@ -950,8 +952,6 @@ JSClass
 compartment
 :
 bare_compartment
-copy
-name
 |
 {
 {
@@ -1213,10 +1213,12 @@ pub
 fn
 define_empty_prototype
 (
++
 name
 :
 ~
 str
++
 proto
 :
 Option
@@ -1226,6 +1228,7 @@ str
 >
 compartment
 :
+&
 bare_compartment
 )
 -
