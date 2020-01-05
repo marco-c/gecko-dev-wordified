@@ -3584,9 +3584,6 @@ object
 bool
 shouldSplicePrototype
 (
-JSContext
-*
-cx
 )
 ;
 /

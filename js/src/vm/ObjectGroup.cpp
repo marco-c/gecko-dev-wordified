@@ -1889,9 +1889,6 @@ JSObject
 :
 shouldSplicePrototype
 (
-JSContext
-*
-cx
 )
 {
 /

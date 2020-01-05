@@ -8625,7 +8625,6 @@ global
 >
 shouldSplicePrototype
 (
-cx
 )
 )
 {
