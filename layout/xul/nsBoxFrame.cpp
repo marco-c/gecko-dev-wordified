@@ -895,6 +895,14 @@ nsContainerFrame
 aContext
 aType
 )
+mFlex
+(
+0
+)
+mAscent
+(
+0
+)
 {
 mState
 |
