@@ -526,6 +526,12 @@ debug
 '
 sm
 -
+fuzzing
+'
+    
+'
+sm
+-
 mozjs
 -
 sys

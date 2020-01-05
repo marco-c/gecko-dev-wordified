@@ -1747,6 +1747,12 @@ sm
 -
 msan
 '
+        
+'
+sm
+-
+fuzzing
+'
     
 ]
 }
