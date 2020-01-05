@@ -903,9 +903,6 @@ received
 message
 with
 no
-"
-+
-"
 callback
 "
 )
