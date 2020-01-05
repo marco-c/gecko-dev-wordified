@@ -1399,6 +1399,9 @@ ThreadInfo
 :
 SizeOfIncludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 aMallocSizeOf
 )
