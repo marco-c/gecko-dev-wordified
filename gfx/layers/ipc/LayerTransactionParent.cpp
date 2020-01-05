@@ -5645,7 +5645,9 @@ mCompositorBridge
 >
 FlushApzRepaints
 (
-this
+GetId
+(
+)
 )
 ;
 return

@@ -729,9 +729,9 @@ void
 FlushApzRepaints
 (
 const
-LayerTransactionParent
-*
-aLayerTree
+uint64_t
+&
+aLayersId
 )
 =
 0
@@ -1765,9 +1765,9 @@ void
 FlushApzRepaints
 (
 const
-LayerTransactionParent
-*
-aLayerTree
+uint64_t
+&
+aLayersId
 )
 override
 ;
