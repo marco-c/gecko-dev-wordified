@@ -6769,7 +6769,7 @@ ptrdiff_t
 adjust
 )
 ;
-bool
+uint32_t
 peekUnicodeEscape
 (
 uint32_t
@@ -6777,7 +6777,15 @@ uint32_t
 codePoint
 )
 ;
-bool
+uint32_t
+peekExtendedUnicodeEscape
+(
+uint32_t
+*
+codePoint
+)
+;
+uint32_t
 matchUnicodeEscapeIdStart
 (
 uint32_t
