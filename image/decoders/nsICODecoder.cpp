@@ -1689,13 +1689,6 @@ e
 ;
 }
 }
-mImageMetadata
-.
-AddNativeSize
-(
-entrySize
-)
-;
 if
 (
 desiredSize
