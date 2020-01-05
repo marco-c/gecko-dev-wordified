@@ -718,12 +718,12 @@ d
 in
 [
 "
-libeay32md
+libcryptoMD
 .
 dll
 "
 "
-ssleay32md
+libsslMD
 .
 dll
 "
@@ -802,13 +802,13 @@ dll
 "
             
 "
-libeay32
+libcryptoMD
 .
 dll
 "
             
 "
-ssleay32
+libsslMD
 .
 dll
 "

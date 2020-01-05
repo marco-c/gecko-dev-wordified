@@ -223,7 +223,7 @@ cookie
 Cookie
 :
 :
-new_wrapped
+from_cookie_string
 (
 bare_cookie
 &

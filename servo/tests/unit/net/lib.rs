@@ -76,6 +76,10 @@ hyper
 ;
 extern
 crate
+hyper_openssl
+;
+extern
+crate
 hyper_serde
 ;
 extern
