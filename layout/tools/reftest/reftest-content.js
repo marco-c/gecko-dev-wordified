@@ -288,13 +288,13 @@ CU
 import
 (
 "
-resource
+chrome
 :
 /
 /
-gre
+reftest
 /
-modules
+content
 /
 AsyncSpellCheckTestHelper
 .
