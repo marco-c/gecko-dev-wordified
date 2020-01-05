@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-std
-:
-:
-borrow
-:
-:
-Cow
-;
-use
 style
 :
 :

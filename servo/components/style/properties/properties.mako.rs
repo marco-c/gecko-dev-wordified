@@ -5469,12 +5469,10 @@ ShorthandId
 ascii_case_insensitive_phf_map
 !
 {
-StaticIds
-:
-Map
-<
-StaticId
+static_id
+-
 >
+StaticId
 =
 {
 %
@@ -5530,7 +5528,6 @@ name
 "
 =
 >
-"
 StaticId
 :
 :
@@ -5550,7 +5547,6 @@ property
 camel_case
 }
 )
-"
 %
 endfor
 %
@@ -5560,10 +5556,7 @@ endfor
 }
 }
 match
-StaticIds
-:
-:
-get
+static_id
 (
 &
 property_name

@@ -93,14 +93,6 @@ extern
 crate
 html5ever_atoms
 ;
-#
-[
-macro_use
-]
-extern
-crate
-matches
-;
 extern
 crate
 owning_ref
