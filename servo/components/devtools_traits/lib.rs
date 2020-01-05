@@ -156,6 +156,13 @@ serde_macros
 ]
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 macro_use
 ]
 extern
@@ -189,10 +196,6 @@ time
 extern
 crate
 url
-;
-extern
-crate
-util
 ;
 use
 hyper

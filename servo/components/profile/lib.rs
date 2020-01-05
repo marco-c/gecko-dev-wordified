@@ -106,6 +106,13 @@ unsafe_code
 ]
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 cfg
 (
 not

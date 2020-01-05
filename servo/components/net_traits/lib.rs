@@ -149,6 +149,13 @@ ipc_channel
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 macro_use
 ]
 extern

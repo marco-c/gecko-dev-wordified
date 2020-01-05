@@ -205,6 +205,13 @@ azure
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 macro_use
 ]
 extern
@@ -391,6 +398,13 @@ extern
 crate
 layers
 ;
+#
+[
+allow
+(
+unused_extern_crates
+)
+]
 #
 [
 macro_use

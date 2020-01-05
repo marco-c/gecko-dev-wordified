@@ -138,15 +138,7 @@ ipc_channel
 ;
 extern
 crate
-offscreen_gl_context
-;
-extern
-crate
 serde
-;
-extern
-crate
-util
 ;
 extern
 crate

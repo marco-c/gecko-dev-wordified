@@ -178,6 +178,13 @@ azure
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 macro_use
 ]
 extern
@@ -289,10 +296,6 @@ script_traits
 extern
 crate
 selectors
-;
-extern
-crate
-serde
 ;
 extern
 crate

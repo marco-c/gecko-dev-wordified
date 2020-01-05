@@ -112,6 +112,13 @@ compositing
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 cfg
 (
 target_os

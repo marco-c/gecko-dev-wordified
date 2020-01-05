@@ -170,6 +170,13 @@ app_units
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+#
+[
 macro_use
 ]
 extern
@@ -213,6 +220,13 @@ extern
 crate
 js
 ;
+#
+[
+allow
+(
+unused_extern_crates
+)
+]
 #
 [
 macro_use
