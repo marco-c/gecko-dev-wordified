@@ -8634,6 +8634,16 @@ websocketprocessbridge
 py
 "
 )
+                   
+"
+-
+-
+port
+"
+                   
+options
+.
+websocket_process_bridge_port
 ]
         
 self
