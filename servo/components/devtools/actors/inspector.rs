@@ -108,6 +108,7 @@ devtools_traits
 {
 DevtoolScriptControlMsg
 NodeInfo
+ComputedNodeLayout
 }
 ;
 use
@@ -2161,10 +2162,11 @@ unwrap
 )
 ;
 let
-(
+ComputedNodeLayout
+{
 width
 height
-)
+}
 =
 rx
 .

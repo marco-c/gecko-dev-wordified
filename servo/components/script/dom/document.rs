@@ -1155,6 +1155,15 @@ use
 std
 :
 :
+boxed
+:
+:
+FnBox
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -1627,7 +1636,7 @@ HashMap
 i32
 Box
 <
-Fn
+FnBox
 (
 f64
 )
@@ -2767,7 +2776,7 @@ callback
 :
 Box
 <
-Fn
+FnBox
 (
 f64
 )
@@ -8044,7 +8053,7 @@ callback
 :
 Box
 <
-Fn
+FnBox
 (
 f64
 )

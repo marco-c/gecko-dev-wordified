@@ -723,6 +723,15 @@ use
 std
 :
 :
+boxed
+:
+:
+FnBox
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -2443,7 +2452,7 @@ JSTraceable
 for
 Box
 <
-Fn
+FnBox
 (
 f64
 )
