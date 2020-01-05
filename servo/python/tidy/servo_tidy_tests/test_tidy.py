@@ -166,6 +166,29 @@ TestCase
 :
     
 def
+assertNoMoreErrors
+(
+self
+errors
+)
+:
+        
+with
+self
+.
+assertRaises
+(
+StopIteration
+)
+:
+            
+errors
+.
+next
+(
+)
+    
+def
 test_spaces_correctnes
 (
 self
@@ -270,6 +293,33 @@ next
 2
 ]
 )
+        
+self
+.
+assertEqual
+(
+'
+no
+newline
+at
+EOF
+'
+errors
+.
+next
+(
+)
+[
+2
+]
+)
+        
+self
+.
+assertNoMoreErrors
+(
+errors
+)
     
 def
 test_long_line
@@ -321,6 +371,13 @@ next
 [
 2
 ]
+)
+        
+self
+.
+assertNoMoreErrors
+(
+errors
 )
     
 def
@@ -411,6 +468,13 @@ next
 2
 ]
 )
+        
+self
+.
+assertNoMoreErrors
+(
+errors
+)
     
 def
 test_licence
@@ -458,6 +522,13 @@ next
 [
 2
 ]
+)
+        
+self
+.
+assertNoMoreErrors
+(
+errors
 )
     
 def
@@ -920,6 +991,13 @@ next
 2
 ]
 )
+        
+self
+.
+assertNoMoreErrors
+(
+errors
+)
     
 def
 test_spec_link
@@ -984,6 +1062,13 @@ next
 2
 ]
 )
+        
+self
+.
+assertNoMoreErrors
+(
+errors
+)
     
 def
 test_webidl
@@ -1034,6 +1119,13 @@ next
 [
 2
 ]
+)
+        
+self
+.
+assertNoMoreErrors
+(
+errors
 )
     
 def
@@ -1087,6 +1179,13 @@ next
 [
 2
 ]
+)
+        
+self
+.
+assertNoMoreErrors
+(
+errors
 )
 def
 do_tests
