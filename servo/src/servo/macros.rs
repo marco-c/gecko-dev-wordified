@@ -79,7 +79,7 @@ y
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
 *
 x
@@ -111,7 +111,7 @@ y
 ptr
 :
 :
-addr_of
+to_unsafe_ptr
 (
 *
 x
