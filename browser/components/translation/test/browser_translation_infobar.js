@@ -237,8 +237,6 @@ TranslationStub
 =
 {
 translate
-:
-function
 (
 aFrom
 aTo
@@ -266,8 +264,6 @@ aTo
 ;
 }
 _reset
-:
-function
 (
 )
 {
@@ -287,8 +283,6 @@ translatedTo
 ;
 }
 failTranslation
-:
-function
 (
 )
 {
@@ -308,8 +302,6 @@ _reset
 ;
 }
 finishTranslation
-:
-function
 (
 )
 {

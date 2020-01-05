@@ -205,8 +205,6 @@ _visitCount
 :
 0
 onVisit
-:
-function
 (
 aURI
 aVisitID

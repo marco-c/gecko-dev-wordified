@@ -256,8 +256,6 @@ prototype
 =
 {
 handleResult
-:
-function
 (
 result
 )

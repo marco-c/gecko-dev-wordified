@@ -228,8 +228,6 @@ originalClear
 :
 null
 register
-:
-function
 (
 )
 {
@@ -261,8 +259,6 @@ clear
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -451,8 +447,6 @@ obs
 =
 {
 onNetworkCacheDiskConsumption
-:
-function
 (
 usage
 )

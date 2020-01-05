@@ -62,8 +62,6 @@ addVisits
 [
 {
 uri
-:
-uri
 title
 :
 "
@@ -94,8 +92,6 @@ matches
 :
 [
 {
-uri
-:
 uri
 title
 :
@@ -189,8 +185,6 @@ matches
 :
 [
 {
-uri
-:
 uri
 title
 :

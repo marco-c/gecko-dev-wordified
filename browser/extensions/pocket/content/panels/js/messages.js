@@ -267,8 +267,6 @@ messagePayload
 =
 {
 panelId
-:
-panelId
 data
 :
 (
@@ -418,16 +416,8 @@ functions
 return
 {
 panelIdFromURL
-:
-panelIdFromURL
-addMessageListener
-:
 addMessageListener
 removeMessageListener
-:
-removeMessageListener
-sendMessage
-:
 sendMessage
 }
 ;

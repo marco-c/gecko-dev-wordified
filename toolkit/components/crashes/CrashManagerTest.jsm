@@ -394,8 +394,6 @@ CrashManager
 .
 prototype
 createDummyDump
-:
-function
 (
 submitted
 =
@@ -677,8 +675,6 @@ uuid
 ;
 }
 createIgnoredDumpFile
-:
-function
 (
 filename
 submitted
@@ -798,8 +794,6 @@ n
 ;
 }
 createEventsFile
-:
-function
 (
 filename
 type
@@ -945,8 +939,6 @@ defined
 *
 /
 _handleEventFilePayload
-:
-function
 (
 store
 entry

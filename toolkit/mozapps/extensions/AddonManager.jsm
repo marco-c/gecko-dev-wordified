@@ -1369,8 +1369,6 @@ PrefObserver
 =
 {
 init
-:
-function
 (
 )
 {
@@ -1411,8 +1409,6 @@ PREF_LOGGING_ENABLED
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2747,8 +2743,6 @@ registered
 :
 false
 unregister
-:
-function
 (
 )
 {
@@ -2833,8 +2827,6 @@ null
 ;
 }
 cancelInstalls
-:
-function
 (
 )
 {
@@ -2879,8 +2871,6 @@ these
 }
 }
 observe
-:
-function
 (
 subject
 topic
@@ -2930,8 +2920,6 @@ cancelInstalls
 ;
 }
 onLocationChange
-:
-function
 (
 webProgress
 request
@@ -2984,8 +2972,6 @@ cancelInstalls
 ;
 }
 onDownloadCancelled
-:
-function
 (
 install
 )
@@ -3038,8 +3024,6 @@ unregister
 ;
 }
 onDownloadFailed
-:
-function
 (
 install
 )
@@ -3053,8 +3037,6 @@ install
 ;
 }
 onInstallFailed
-:
-function
 (
 install
 )
@@ -3068,8 +3050,6 @@ install
 ;
 }
 onInstallEnded
-:
-function
 (
 install
 )
@@ -3194,8 +3174,6 @@ the
 empty
 string
 toString
-:
-function
 (
 )
 {
@@ -3430,8 +3408,6 @@ the
 empty
 string
 toString
-:
-function
 (
 )
 {
@@ -4206,8 +4182,6 @@ Map
 (
 )
 recordTimestamp
-:
-function
 (
 name
 value
@@ -4225,8 +4199,6 @@ value
 ;
 }
 validateBlocklist
-:
-function
 (
 )
 {
@@ -5152,8 +5124,6 @@ them
 *
 /
 startup
-:
-function
 (
 )
 {
@@ -6377,8 +6347,6 @@ types
 *
 /
 registerProvider
-:
-function
 (
 aProvider
 aTypes
@@ -6523,8 +6491,6 @@ id
 ]
 =
 {
-type
-:
 type
 providers
 :
@@ -6676,8 +6642,6 @@ resolve
 *
 /
 unregisterProvider
-:
-function
 (
 aProvider
 )
@@ -7119,8 +7083,6 @@ safe
 *
 /
 markProviderSafe
-:
-function
 (
 aProvider
 )
@@ -7298,8 +7260,6 @@ callProvider
 *
 /
 callProviders
-:
-function
 (
 aMethod
 .
@@ -7903,8 +7863,6 @@ savedError
 }
 )
 requestPlugins
-:
-function
 (
 {
 target
@@ -8045,8 +8003,6 @@ nsIObserver
 *
 /
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -8436,8 +8392,6 @@ URI
 *
 /
 escapeAddonURI
-:
-function
 (
 aAddon
 aUri
@@ -9039,8 +8993,6 @@ progress
 *
 /
 backgroundUpdateCheck
-:
-function
 (
 )
 {
@@ -9308,8 +9260,6 @@ findUpdates
 (
 {
 onUpdateAvailable
-:
-function
 (
 aAddon
 aInstall
@@ -9765,8 +9715,6 @@ addListener
 (
 {
 onDownloadEnded
-:
-function
 (
 aInstall
 )
@@ -9957,8 +9905,6 @@ cancel
 }
 }
 onInstallEnded
-:
-function
 (
 aInstall
 )
@@ -9986,8 +9932,6 @@ version
 ;
 }
 onInstallCancelled
-:
-function
 (
 aInstall
 )
@@ -10250,8 +10194,6 @@ on
 *
 /
 addStartupChange
-:
-function
 (
 aType
 aID
@@ -10454,8 +10396,6 @@ on
 *
 /
 removeStartupChange
-:
-function
 (
 aType
 aID
@@ -10614,8 +10554,6 @@ call
 *
 /
 callManagerListeners
-:
-function
 (
 aMethod
 .
@@ -10808,8 +10746,6 @@ otherwise
 *
 /
 callInstallListeners
-:
-function
 (
 aMethod
 aExtraListeners
@@ -11048,8 +10984,6 @@ call
 *
 /
 callAddonListeners
-:
-function
 (
 aMethod
 .
@@ -11274,8 +11208,6 @@ restarted
 *
 /
 notifyAddonChanged
-:
-function
 (
 aID
 aType
@@ -11619,8 +11551,6 @@ update
 *
 /
 updateAddonAppDisabledStates
-:
-function
 (
 )
 {
@@ -11679,8 +11609,6 @@ ons
 *
 /
 updateAddonRepositoryData
-:
-function
 (
 )
 {
@@ -11903,8 +11831,6 @@ specified
 *
 /
 getInstallForURL
-:
-function
 (
 aUrl
 aMimetype
@@ -12301,8 +12227,6 @@ specified
 *
 /
 getInstallForFile
-:
-function
 (
 aFile
 aMimetype
@@ -12491,8 +12415,6 @@ specified
 *
 /
 getInstallsByTypes
-:
-function
 (
 aTypes
 )
@@ -12629,8 +12551,6 @@ AddonInstalls
 *
 /
 getAllInstalls
-:
-function
 (
 )
 {
@@ -12752,8 +12672,6 @@ mapURIToAddonID
 *
 /
 mapURIToAddonID
-:
-function
 (
 aURI
 )
@@ -12880,8 +12798,6 @@ mimetype
 *
 /
 isInstallEnabled
-:
-function
 (
 aMimetype
 )
@@ -13049,8 +12965,6 @@ mimetype
 *
 /
 isInstallAllowed
-:
-function
 (
 aMimetype
 aInstallingPrincipal
@@ -13267,8 +13181,6 @@ installed
 *
 /
 installAddonsFromWebpage
-:
-function
 (
 aMimetype
 aBrowser
@@ -13963,8 +13875,6 @@ add
 *
 /
 addInstallListener
-:
-function
 (
 aListener
 )
@@ -14059,8 +13969,6 @@ remove
 *
 /
 removeInstallListener
-:
-function
 (
 aListener
 )
@@ -14198,8 +14106,6 @@ instanceID
 *
 /
 addUpgradeListener
-:
-function
 (
 aInstanceID
 aCallback
@@ -14369,8 +14275,6 @@ remove
 *
 /
 removeUpgradeListener
-:
-function
 (
 aInstanceID
 )
@@ -14566,8 +14470,6 @@ installed
 *
 /
 installTemporaryAddon
-:
-function
 (
 aFile
 )
@@ -14638,8 +14540,6 @@ aFile
 ;
 }
 installAddonFromSources
-:
-function
 (
 aFile
 )
@@ -14773,8 +14673,6 @@ initialized
 *
 /
 getAddonByInstanceID
-:
-function
 (
 aInstanceID
 )
@@ -15006,8 +14904,6 @@ icons
 *
 /
 getPreferredIconURL
-:
-function
 (
 aAddon
 aSize
@@ -15362,8 +15258,6 @@ specified
 *
 /
 getAddonByID
-:
-function
 (
 aID
 )
@@ -15521,8 +15415,6 @@ specified
 *
 /
 getAddonBySyncGUID
-:
-function
 (
 aGUID
 )
@@ -15689,8 +15581,6 @@ specified
 *
 /
 getAddonsByIDs
-:
-function
 (
 aIDs
 )
@@ -15805,8 +15695,6 @@ name
 *
 /
 getAddonsByTypes
-:
-function
 (
 aTypes
 )
@@ -15945,8 +15833,6 @@ ons
 *
 /
 getAllAddons
-:
-function
 (
 )
 {
@@ -16023,8 +15909,6 @@ name
 *
 /
 getAddonsWithOperationsByTypes
-:
-function
 (
 aTypes
 )
@@ -16176,8 +16060,6 @@ add
 *
 /
 addManagerListener
-:
-function
 (
 aListener
 )
@@ -16267,8 +16149,6 @@ remove
 *
 /
 removeManagerListener
-:
-function
 (
 aListener
 )
@@ -16378,8 +16258,6 @@ add
 *
 /
 addAddonListener
-:
-function
 (
 aListener
 )
@@ -16469,8 +16347,6 @@ remove
 *
 /
 removeAddonListener
-:
-function
 (
 aListener
 )
@@ -16580,8 +16456,6 @@ add
 *
 /
 addTypeListener
-:
-function
 (
 aListener
 )
@@ -16671,8 +16545,6 @@ remove
 *
 /
 removeTypeListener
-:
-function
 (
 aListener
 )
@@ -18107,8 +17979,6 @@ AddonManagerPrivate
 =
 {
 startup
-:
-function
 (
 )
 {
@@ -18120,8 +17990,6 @@ startup
 ;
 }
 registerProvider
-:
-function
 (
 aProvider
 aTypes
@@ -18137,8 +18005,6 @@ aTypes
 ;
 }
 unregisterProvider
-:
-function
 (
 aProvider
 )
@@ -18152,8 +18018,6 @@ aProvider
 ;
 }
 markProviderSafe
-:
-function
 (
 aProvider
 )
@@ -18167,8 +18031,6 @@ aProvider
 ;
 }
 backgroundUpdateCheck
-:
-function
 (
 )
 {
@@ -18281,8 +18143,6 @@ backgroundUpdateCheck
 ;
 }
 addStartupChange
-:
-function
 (
 aType
 aID
@@ -18298,8 +18158,6 @@ aID
 ;
 }
 removeStartupChange
-:
-function
 (
 aType
 aID
@@ -18315,8 +18173,6 @@ aID
 ;
 }
 notifyAddonChanged
-:
-function
 (
 aID
 aType
@@ -18334,8 +18190,6 @@ aPendingRestart
 ;
 }
 updateAddonAppDisabledStates
-:
-function
 (
 )
 {
@@ -18347,8 +18201,6 @@ updateAddonAppDisabledStates
 ;
 }
 updateAddonRepositoryData
-:
-function
 (
 aCallback
 )
@@ -18366,8 +18218,6 @@ aCallback
 ;
 }
 callInstallListeners
-:
-function
 (
 .
 .
@@ -18388,8 +18238,6 @@ aArgs
 ;
 }
 callAddonListeners
-:
-function
 (
 .
 .
@@ -18409,20 +18257,10 @@ aArgs
 ;
 }
 AddonAuthor
-:
-AddonAuthor
-AddonScreenshot
-:
 AddonScreenshot
 AddonCompatibilityOverride
-:
-AddonCompatibilityOverride
-AddonType
-:
 AddonType
 recordTimestamp
-:
-function
 (
 name
 value
@@ -18442,8 +18280,6 @@ _simpleMeasures
 {
 }
 recordSimpleMeasure
-:
-function
 (
 name
 value
@@ -18460,8 +18296,6 @@ value
 ;
 }
 recordException
-:
-function
 (
 aModule
 aContext
@@ -18554,8 +18388,6 @@ report
 ;
 }
 getSimpleMeasures
-:
-function
 (
 )
 {
@@ -18566,8 +18398,6 @@ _simpleMeasures
 ;
 }
 getTelemetryDetails
-:
-function
 (
 )
 {
@@ -18578,8 +18408,6 @@ telemetryDetails
 ;
 }
 setTelemetryDetails
-:
-function
 (
 aProvider
 aDetails
@@ -18619,8 +18447,6 @@ done
 is
 called
 simpleTimer
-:
-function
 (
 aName
 )
@@ -18704,8 +18530,6 @@ available
 *
 /
 callNoUpdateListeners
-:
-function
 (
 addon
 listener
@@ -18794,8 +18618,6 @@ gWebExtensionsMinPlatformVersion
 ;
 }
 hasUpgradeListener
-:
-function
 (
 aId
 )
@@ -18812,8 +18634,6 @@ aId
 ;
 }
 getUpgradeListener
-:
-function
 (
 aId
 )
@@ -18855,8 +18675,6 @@ XPIProvider
 *
 /
 isTemporaryInstallID
-:
-function
 (
 extensionId
 )
@@ -20902,8 +20720,6 @@ null
 ;
 }
 getInstallForURL
-:
-function
 (
 aUrl
 aCallback
@@ -20935,8 +20751,6 @@ aCallback
 ;
 }
 getInstallForFile
-:
-function
 (
 aFile
 aCallback
@@ -21001,8 +20815,6 @@ IDs
 *
 /
 getStartupChanges
-:
-function
 (
 aType
 )
@@ -21037,8 +20849,6 @@ slice
 ;
 }
 getAddonByID
-:
-function
 (
 aID
 aCallback
@@ -21058,8 +20868,6 @@ aCallback
 ;
 }
 getAddonBySyncGUID
-:
-function
 (
 aGUID
 aCallback
@@ -21079,8 +20887,6 @@ aCallback
 ;
 }
 getAddonsByIDs
-:
-function
 (
 aIDs
 aCallback
@@ -21100,8 +20906,6 @@ aCallback
 ;
 }
 getAddonsWithOperationsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -21121,8 +20925,6 @@ aCallback
 ;
 }
 getAddonsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -21142,8 +20944,6 @@ aCallback
 ;
 }
 getAllAddons
-:
-function
 (
 aCallback
 )
@@ -21161,8 +20961,6 @@ aCallback
 ;
 }
 getInstallsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -21182,8 +20980,6 @@ aCallback
 ;
 }
 getAllInstalls
-:
-function
 (
 aCallback
 )
@@ -21201,8 +20997,6 @@ aCallback
 ;
 }
 mapURIToAddonID
-:
-function
 (
 aURI
 )
@@ -21217,8 +21011,6 @@ aURI
 ;
 }
 isInstallEnabled
-:
-function
 (
 aType
 )
@@ -21233,8 +21025,6 @@ aType
 ;
 }
 isInstallAllowed
-:
-function
 (
 aType
 aInstallingPrincipal
@@ -21251,8 +21041,6 @@ aInstallingPrincipal
 ;
 }
 installAddonsFromWebpage
-:
-function
 (
 aType
 aBrowser
@@ -21272,8 +21060,6 @@ aInstalls
 ;
 }
 installTemporaryAddon
-:
-function
 (
 aDirectory
 )
@@ -21288,8 +21074,6 @@ aDirectory
 ;
 }
 installAddonFromSources
-:
-function
 (
 aDirectory
 )
@@ -21304,8 +21088,6 @@ aDirectory
 ;
 }
 getAddonByInstanceID
-:
-function
 (
 aInstanceID
 )
@@ -21320,8 +21102,6 @@ aInstanceID
 ;
 }
 addManagerListener
-:
-function
 (
 aListener
 )
@@ -21335,8 +21115,6 @@ aListener
 ;
 }
 removeManagerListener
-:
-function
 (
 aListener
 )
@@ -21350,8 +21128,6 @@ aListener
 ;
 }
 addInstallListener
-:
-function
 (
 aListener
 )
@@ -21365,8 +21141,6 @@ aListener
 ;
 }
 removeInstallListener
-:
-function
 (
 aListener
 )
@@ -21380,8 +21154,6 @@ aListener
 ;
 }
 getUpgradeListener
-:
-function
 (
 aId
 )
@@ -21398,8 +21170,6 @@ aId
 ;
 }
 addUpgradeListener
-:
-function
 (
 aInstanceID
 aCallback
@@ -21415,8 +21185,6 @@ aCallback
 ;
 }
 removeUpgradeListener
-:
-function
 (
 aInstanceID
 )
@@ -21430,8 +21198,6 @@ aInstanceID
 ;
 }
 addAddonListener
-:
-function
 (
 aListener
 )
@@ -21445,8 +21211,6 @@ aListener
 ;
 }
 removeAddonListener
-:
-function
 (
 aListener
 )
@@ -21460,8 +21224,6 @@ aListener
 ;
 }
 addTypeListener
-:
-function
 (
 aListener
 )
@@ -21475,8 +21237,6 @@ aListener
 ;
 }
 removeTypeListener
-:
-function
 (
 aListener
 )
@@ -21543,8 +21303,6 @@ otherwise
 *
 /
 shouldAutoUpdate
-:
-function
 (
 aAddon
 )
@@ -21770,8 +21528,6 @@ hotfixID
 ;
 }
 escapeAddonURI
-:
-function
 (
 aAddon
 aUri
@@ -21790,8 +21546,6 @@ aAppVersion
 ;
 }
 getPreferredIconURL
-:
-function
 (
 aAddon
 aSize

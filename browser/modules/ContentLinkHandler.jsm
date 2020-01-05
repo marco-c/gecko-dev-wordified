@@ -218,8 +218,6 @@ ContentLinkHandler
 =
 {
 init
-:
-function
 (
 chromeGlobal
 )
@@ -276,8 +274,6 @@ false
 ;
 }
 onLinkEvent
-:
-function
 (
 event
 chromeGlobal
@@ -928,8 +924,6 @@ AddSearch
 "
 {
 engine
-:
-engine
 url
 :
 link
@@ -952,8 +946,6 @@ break
 }
 }
 getLinkIconURI
-:
-function
 (
 aLink
 )

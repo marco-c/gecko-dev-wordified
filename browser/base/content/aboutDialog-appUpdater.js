@@ -1239,8 +1239,6 @@ apply
 *
 /
 selectPanel
-:
-function
 (
 aChildID
 )
@@ -1409,8 +1407,6 @@ updates
 *
 /
 checkForUpdates
-:
-function
 (
 )
 {
@@ -1537,8 +1533,6 @@ downloaded
 *
 /
 buttonRestartAfterDownload
-:
-function
 (
 )
 {
@@ -1797,8 +1791,6 @@ idl
 *
 /
 onCheckComplete
-:
-function
 (
 aRequest
 aUpdates
@@ -1965,8 +1957,6 @@ idl
 *
 /
 onError
-:
-function
 (
 aRequest
 aUpdate
@@ -2043,8 +2033,6 @@ idl
 *
 /
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -2103,8 +2091,6 @@ mar
 *
 /
 startDownload
-:
-function
 (
 )
 {
@@ -2221,8 +2207,6 @@ download
 *
 /
 setupDownloadingUI
-:
-function
 (
 )
 {
@@ -2279,8 +2263,6 @@ this
 ;
 }
 removeDownloadListener
-:
-function
 (
 )
 {
@@ -2313,8 +2295,6 @@ idl
 *
 /
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -2332,8 +2312,6 @@ idl
 *
 /
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -2803,8 +2781,6 @@ idl
 *
 /
 onStatus
-:
-function
 (
 aRequest
 aContext
@@ -2824,8 +2800,6 @@ idl
 *
 /
 onProgress
-:
-function
 (
 aRequest
 aContext
@@ -2859,8 +2833,6 @@ idl
 *
 /
 QueryInterface
-:
-function
 (
 aIID
 )

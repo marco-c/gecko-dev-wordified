@@ -276,8 +276,6 @@ progressListener
 =
 {
 onStateChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -305,8 +303,6 @@ close
 ;
 }
 onProgressChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -405,8 +401,6 @@ docURLStr
 }
 }
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -416,8 +410,6 @@ aFlags
 {
 }
 onSecurityChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -426,8 +418,6 @@ state
 {
 }
 onStatusChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -453,8 +443,6 @@ aMessage
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

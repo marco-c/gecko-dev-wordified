@@ -2676,8 +2676,6 @@ longer
 used
 .
 _settingsAndGroupsCleanupStmts
-:
-function
 (
 )
 {

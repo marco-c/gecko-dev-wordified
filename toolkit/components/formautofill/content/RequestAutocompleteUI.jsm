@@ -298,8 +298,6 @@ args
 =
 {
 resolveFn
-:
-resolveFn
 autofillData
 :
 this

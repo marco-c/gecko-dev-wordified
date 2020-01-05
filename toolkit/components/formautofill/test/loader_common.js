@@ -897,8 +897,6 @@ _mochitestAssert
 =
 {
 ok
-:
-function
 (
 actual
 )
@@ -946,8 +944,6 @@ true
 ;
 }
 equal
-:
-function
 (
 actual
 expected

@@ -406,8 +406,6 @@ spec
 ;
 }
 observe
-:
-function
 (
 subject
 topic

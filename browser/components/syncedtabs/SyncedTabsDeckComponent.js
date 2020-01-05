@@ -478,8 +478,6 @@ View
 :
 TabListView
 SyncedTabs
-:
-SyncedTabs
 clipboardHelper
 :
 Cc

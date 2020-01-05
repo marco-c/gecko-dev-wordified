@@ -285,8 +285,6 @@ prototype
 =
 {
 launch
-:
-function
 (
 size
 test

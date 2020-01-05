@@ -121,8 +121,6 @@ prototype
 =
 {
 init
-:
-function
 (
 aKeyWord
 aURL

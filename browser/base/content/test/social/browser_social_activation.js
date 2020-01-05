@@ -1380,8 +1380,6 @@ tests
 =
 {
 testActivationWrongOrigin
-:
-function
 (
 next
 )
@@ -1500,8 +1498,6 @@ next
 ;
 }
 testIFrameActivation
-:
-function
 (
 next
 )
@@ -1570,8 +1566,6 @@ next
 ;
 }
 testActivationFirstProvider
-:
-function
 (
 next
 )
@@ -1627,8 +1621,6 @@ next
 ;
 }
 testActivationMultipleProvider
-:
-function
 (
 next
 )
@@ -1787,8 +1779,6 @@ next
 ;
 }
 testAddonManagerDoubleInstall
-:
-function
 (
 next
 )

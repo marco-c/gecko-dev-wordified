@@ -2184,8 +2184,6 @@ DBAddonInternal
 prototype
 {
 applyCompatibilityUpdate
-:
-function
 (
 aUpdate
 aSyncCompatibility
@@ -2337,8 +2335,6 @@ this
 ;
 }
 toJSON
-:
-function
 (
 )
 {
@@ -2665,8 +2661,6 @@ disk
 *
 /
 saveChanges
-:
-function
 (
 )
 {
@@ -2985,8 +2979,6 @@ error
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -3061,8 +3053,6 @@ structure
 *
 /
 toJSON
-:
-function
 (
 )
 {
@@ -3213,8 +3203,6 @@ information
 *
 /
 getMigrateDataFromSQLITE
-:
-function
 (
 )
 {
@@ -3501,8 +3489,6 @@ rebuild
 *
 /
 syncLoadDB
-:
-function
 (
 aRebuildOnError
 )
@@ -3916,8 +3902,6 @@ ons
 *
 /
 parseDB
-:
-function
 (
 aData
 aRebuildOnError
@@ -4532,8 +4516,6 @@ available
 *
 /
 upgradeDB
-:
-function
 (
 aRebuildOnError
 )
@@ -4720,8 +4702,6 @@ denied
 *
 /
 rebuildUnreadableDB
-:
-function
 (
 aError
 aRebuildOnError
@@ -4888,8 +4868,6 @@ rejects
 *
 /
 asyncLoadDB
-:
-function
 (
 )
 {
@@ -5270,8 +5248,6 @@ rebuild
 *
 /
 rebuildDatabase
-:
-function
 (
 aRebuildOnError
 )
@@ -5534,8 +5510,6 @@ directories
 *
 /
 getActiveBundles
-:
-function
 (
 )
 {
@@ -5790,8 +5764,6 @@ information
 *
 /
 getMigrateDataFromRDF
-:
-function
 (
 aDbWasMissing
 )
@@ -6272,8 +6244,6 @@ information
 *
 /
 getMigrateDataFromDatabase
-:
-function
 (
 aConnection
 )
@@ -6870,8 +6840,6 @@ done
 *
 /
 shutdown
-:
-function
 (
 )
 {
@@ -7219,8 +7187,6 @@ match
 *
 /
 getAddonList
-:
-function
 (
 aFilter
 aCallback
@@ -7348,8 +7314,6 @@ found
 *
 /
 getAddon
-:
-function
 (
 aFilter
 aCallback
@@ -7473,8 +7437,6 @@ to
 *
 /
 getAddonInLocation
-:
-function
 (
 aId
 aLocation
@@ -7558,8 +7520,6 @@ to
 *
 /
 getAddonsInLocation
-:
-function
 (
 aLocation
 aCallback
@@ -7630,8 +7590,6 @@ to
 *
 /
 getVisibleAddonForID
-:
-function
 (
 aId
 aCallback
@@ -7712,8 +7670,6 @@ to
 *
 /
 getVisibleAddons
-:
-function
 (
 aTypes
 aCallback
@@ -7803,8 +7759,6 @@ DBAddonInternals
 *
 /
 getAddonsByType
-:
-function
 (
 aType
 )
@@ -7957,8 +7911,6 @@ DBAddonInternal
 *
 /
 getVisibleAddonForInternalName
-:
-function
 (
 aInternalName
 )
@@ -8096,8 +8048,6 @@ to
 *
 /
 getVisibleAddonsWithPendingOperations
-:
-function
 (
 aTypes
 aCallback
@@ -8261,8 +8211,6 @@ found
 *
 /
 getAddonBySyncGUID
-:
-function
 (
 aGUID
 aCallback
@@ -8343,8 +8291,6 @@ DBAddonInternals
 *
 /
 getAddons
-:
-function
 (
 )
 {
@@ -8422,8 +8368,6 @@ database
 *
 /
 addAddonMetadata
-:
-function
 (
 aAddon
 aDescriptor
@@ -8577,8 +8521,6 @@ database
 *
 /
 updateAddonMetadata
-:
-function
 (
 aOldAddon
 aNewAddon
@@ -8698,8 +8640,6 @@ removed
 *
 /
 removeAddonMetadata
-:
-function
 (
 aAddon
 )
@@ -8758,8 +8698,6 @@ visible
 *
 /
 makeAddonVisible
-:
-function
 (
 aAddon
 )
@@ -8896,8 +8834,6 @@ set
 *
 /
 setAddonProperties
-:
-function
 (
 aAddon
 aProperties
@@ -8987,8 +8923,6 @@ GUID
 *
 /
 setAddonSyncGUID
-:
-function
 (
 aAddon
 aGUID
@@ -9129,8 +9063,6 @@ update
 *
 /
 updateAddonActive
-:
-function
 (
 aAddon
 aActive
@@ -9175,8 +9107,6 @@ saveChanges
 ;
 }
 updateAddonsBlockingE10s
-:
-function
 (
 )
 {
@@ -9275,8 +9205,6 @@ database
 *
 /
 updateActiveAddons
-:
-function
 (
 )
 {
@@ -9434,8 +9362,6 @@ otherwise
 *
 /
 writeAddonsList
-:
-function
 (
 )
 {

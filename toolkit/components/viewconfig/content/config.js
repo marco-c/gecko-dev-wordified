@@ -362,8 +362,6 @@ length
 ;
 }
 getCellText
-:
-function
 (
 index
 col
@@ -432,8 +430,6 @@ value
 }
 }
 getRowProperties
-:
-function
 (
 index
 )
@@ -444,8 +440,6 @@ return
 ;
 }
 getCellProperties
-:
-function
 (
 index
 col
@@ -474,8 +468,6 @@ return
 ;
 }
 getColumnProperties
-:
-function
 (
 col
 )
@@ -492,8 +484,6 @@ selection
 :
 null
 isContainer
-:
-function
 (
 index
 )
@@ -503,8 +493,6 @@ false
 ;
 }
 isContainerOpen
-:
-function
 (
 index
 )
@@ -514,8 +502,6 @@ false
 ;
 }
 isContainerEmpty
-:
-function
 (
 index
 )
@@ -525,8 +511,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 )
 {
@@ -535,8 +519,6 @@ true
 ;
 }
 canDrop
-:
-function
 (
 index
 orientation
@@ -547,8 +529,6 @@ false
 ;
 }
 drop
-:
-function
 (
 row
 orientation
@@ -556,8 +536,6 @@ orientation
 {
 }
 setTree
-:
-function
 (
 out
 )
@@ -570,8 +548,6 @@ out
 ;
 }
 getParentIndex
-:
-function
 (
 rowIndex
 )
@@ -582,8 +558,6 @@ return
 ;
 }
 hasNextSibling
-:
-function
 (
 rowIndex
 afterIndex
@@ -594,8 +568,6 @@ false
 ;
 }
 getLevel
-:
-function
 (
 index
 )
@@ -605,8 +577,6 @@ return
 ;
 }
 getImageSrc
-:
-function
 (
 row
 col
@@ -618,16 +588,12 @@ return
 ;
 }
 toggleOpenState
-:
-function
 (
 index
 )
 {
 }
 cycleHeader
-:
-function
 (
 col
 )
@@ -838,15 +804,11 @@ index
 }
 }
 selectionChanged
-:
-function
 (
 )
 {
 }
 cycleCell
-:
-function
 (
 row
 col
@@ -854,8 +816,6 @@ col
 {
 }
 isEditable
-:
-function
 (
 row
 col
@@ -866,8 +826,6 @@ false
 ;
 }
 isSelectable
-:
-function
 (
 row
 col
@@ -878,8 +836,6 @@ false
 ;
 }
 setCellValue
-:
-function
 (
 row
 col
@@ -888,8 +844,6 @@ value
 {
 }
 setCellText
-:
-function
 (
 row
 col
@@ -898,16 +852,12 @@ value
 {
 }
 performAction
-:
-function
 (
 action
 )
 {
 }
 performActionOnRow
-:
-function
 (
 action
 row
@@ -915,8 +865,6 @@ row
 {
 }
 performActionOnCell
-:
-function
 (
 action
 row
@@ -925,8 +873,6 @@ col
 {
 }
 isSeparator
-:
-function
 (
 index
 )
@@ -1317,8 +1263,6 @@ gPrefListener
 =
 {
 observe
-:
-function
 (
 subject
 topic

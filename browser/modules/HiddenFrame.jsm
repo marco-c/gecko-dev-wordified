@@ -317,8 +317,6 @@ loading
 *
 /
 get
-:
-function
 (
 )
 {
@@ -356,8 +354,6 @@ promise
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -425,8 +421,6 @@ null
 }
 }
 handleEvent
-:
-function
 (
 )
 {
@@ -486,8 +480,6 @@ XUL_PAGE
 }
 }
 _create
-:
-function
 (
 )
 {

@@ -3878,8 +3878,6 @@ PasswordManager
 "
 {
 filterString
-:
-filterString
 }
 )
 ;

@@ -1550,8 +1550,6 @@ sourceProfiles
 "
 {
 get
-:
-function
 (
 )
 {

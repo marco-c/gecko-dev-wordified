@@ -125,8 +125,6 @@ single
 child
 "
 loading
-:
-function
 (
 node
 newState
@@ -159,8 +157,6 @@ STATE_CLOSED
 ;
 }
 opened
-:
-function
 (
 node
 newState
@@ -234,8 +230,6 @@ false
 ;
 }
 closed
-:
-function
 (
 node
 newState
@@ -306,8 +300,6 @@ be
 synchronous
 "
 loading
-:
-function
 (
 node
 newState
@@ -350,8 +342,6 @@ STATE_CLOSED
 ;
 }
 opened
-:
-function
 (
 node
 newState
@@ -434,8 +424,6 @@ false
 ;
 }
 closed
-:
-function
 (
 node
 newState
@@ -525,8 +513,6 @@ be
 called
 "
 loading
-:
-function
 (
 node
 newState
@@ -573,8 +559,6 @@ false
 ;
 }
 opened
-:
-function
 (
 node
 newState
@@ -594,8 +578,6 @@ called
 ;
 }
 closed
-:
-function
 (
 node
 newState
@@ -835,8 +817,6 @@ state
 *
 /
 checkArgs
-:
-function
 (
 aNewState
 aNode
@@ -997,8 +977,6 @@ observation
 *
 /
 checkStateChanged
-:
-function
 (
 aState
 aExpectedMin
@@ -1154,8 +1132,6 @@ observation
 *
 /
 checkState
-:
-function
 (
 aState
 aExpectedMin
@@ -1300,8 +1276,6 @@ result
 *
 /
 openContainer
-:
-function
 (
 )
 {
@@ -1351,8 +1325,6 @@ observer
 =
 {
 containerStateChanged
-:
-function
 (
 container
 oldState
@@ -1533,8 +1505,6 @@ completes
 *
 /
 run
-:
-function
 (
 )
 {
@@ -1586,10 +1556,8 @@ be
 .
 *
 /
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -1763,8 +1731,6 @@ test
 *
 /
 success
-:
-function
 (
 )
 {

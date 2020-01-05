@@ -1142,8 +1142,6 @@ msg
 .
 data
 target
-:
-target
 }
 )
 ;

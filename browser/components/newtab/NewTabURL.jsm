@@ -144,8 +144,6 @@ NewTabURL
 =
 {
 get
-:
-function
 (
 )
 {
@@ -167,8 +165,6 @@ overridden
 ;
 }
 override
-:
-function
 (
 newURL
 )
@@ -181,8 +177,6 @@ newURL
 ;
 }
 reset
-:
-function
 (
 )
 {

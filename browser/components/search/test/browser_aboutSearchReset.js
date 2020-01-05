@@ -273,10 +273,8 @@ Settings
 button
 .
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -428,10 +426,8 @@ Defaults
 button
 .
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -605,10 +601,8 @@ settings
 link
 .
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -673,10 +667,8 @@ the
 buttons
 .
 "
-run
-:
-function
 *
+run
 (
 )
 {

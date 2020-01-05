@@ -739,8 +739,6 @@ listener
 =
 {
 onAreaNodeRegistered
-:
-function
 (
 aArea
 aNode
@@ -1087,8 +1085,6 @@ listener
 =
 {
 onAreaNodeUnregistered
-:
-function
 (
 aArea
 aNode
@@ -1147,8 +1143,6 @@ REASON_WINDOW_CLOSED
 }
 }
 onWindowClosed
-:
-function
 (
 aWindow
 )
@@ -1379,8 +1373,6 @@ listener
 =
 {
 onAreaNodeUnregistered
-:
-function
 (
 aArea
 aNode

@@ -2311,8 +2311,6 @@ handle
 *
 /
 _doUpdate
-:
-function
 (
 aEvent
 )
@@ -2349,8 +2347,6 @@ handle
 *
 /
 _doEnd
-:
-function
 (
 aEvent
 )
@@ -2839,8 +2835,6 @@ call
 *
 /
 rotate
-:
-function
 (
 aEvent
 )
@@ -2965,8 +2959,6 @@ ImageDocuments
 *
 /
 rotateEnd
-:
-function
 (
 )
 {
@@ -3398,8 +3390,6 @@ image
 *
 /
 restoreRotationState
-:
-function
 (
 )
 {
@@ -3578,8 +3568,6 @@ class
 *
 /
 _clearCompleteRotation
-:
-function
 (
 )
 {
@@ -4854,8 +4842,6 @@ dampValue
 }
 }
 _getCurrentHistoryIndex
-:
-function
 (
 )
 {

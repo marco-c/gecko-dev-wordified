@@ -797,8 +797,6 @@ push
 (
 {
 timestamp
-:
-timestamp
 rects
 :
 {

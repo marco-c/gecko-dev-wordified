@@ -150,8 +150,6 @@ run_next_test
 }
 }
 init
-:
-function
 (
 )
 {

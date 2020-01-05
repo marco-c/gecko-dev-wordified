@@ -334,8 +334,6 @@ image
 ;
 }
 handleEnter
-:
-function
 (
 aIsPopupSelection
 )
@@ -349,8 +347,6 @@ aIsPopupSelection
 ;
 }
 stopSearch
-:
-function
 (
 )
 {
@@ -399,8 +395,6 @@ JS
 only
 API
 clearResults
-:
-function
 (
 )
 {
@@ -413,8 +407,6 @@ results
 ;
 }
 setResults
-:
-function
 (
 results
 )
@@ -478,8 +470,6 @@ Invalidate
 "
 ]
 init
-:
-function
 (
 )
 {
@@ -506,8 +496,6 @@ this
 }
 }
 uninit
-:
-function
 (
 )
 {
@@ -534,8 +522,6 @@ this
 }
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -725,8 +711,6 @@ autoCompleteLogins
 "
 .
 showPopupWithResults
-:
-function
 (
 {
 browser
@@ -1181,8 +1165,6 @@ login
 ;
 }
 receiveMessage
-:
-function
 (
 message
 )
@@ -1690,8 +1672,6 @@ data
 }
 }
 stopSearch
-:
-function
 (
 )
 {
@@ -1723,8 +1703,6 @@ focused
 *
 /
 requestFocus
-:
-function
 (
 )
 {

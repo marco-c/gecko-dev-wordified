@@ -63,8 +63,6 @@ tests
 [
 {
 test
-:
-function
 (
 params
 )
@@ -217,8 +215,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -352,8 +348,6 @@ DENY_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -486,8 +480,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -572,8 +564,6 @@ expectPermObservancesDuringTestFunction
 :
 true
 test
-:
-function
 (
 params
 )
@@ -682,8 +672,6 @@ DENY_ACTION
 }
 ]
 cleanUp
-:
-function
 (
 params
 )
@@ -726,8 +714,6 @@ popup
 }
 {
 test
-:
-function
 (
 params
 )
@@ -890,8 +876,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1035,8 +1019,6 @@ DENY_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1179,8 +1161,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1270,8 +1250,6 @@ deleted
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1424,8 +1402,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1559,8 +1535,6 @@ DENY_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -1693,8 +1667,6 @@ ALLOW_ACTION
 }
 {
 test
-:
-function
 (
 params
 )
@@ -2292,8 +2264,6 @@ _currentTest
 -
 1
 runTests
-:
-function
 (
 )
 {
@@ -2387,8 +2357,6 @@ runTests
 ;
 }
 runCurrentTest
-:
-function
 (
 testNumber
 )
@@ -2408,8 +2376,6 @@ helperFunctions
 =
 {
 windowLoad
-:
-function
 (
 win
 )
@@ -2619,8 +2585,6 @@ permObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic

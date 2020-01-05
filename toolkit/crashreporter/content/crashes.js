@@ -791,8 +791,6 @@ dateFormatter
 =
 {
 format
-:
-function
 (
 date
 )
@@ -810,8 +808,6 @@ timeFormatter
 =
 {
 format
-:
-function
 (
 date
 )

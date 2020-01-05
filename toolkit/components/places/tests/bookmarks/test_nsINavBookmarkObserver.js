@@ -118,8 +118,6 @@ promise
 ;
 }
 validate
-:
-function
 (
 aMethodName
 aArguments
@@ -419,8 +417,6 @@ promise
 ;
 }
 validate
-:
-function
 (
 aMethodName
 )
@@ -691,8 +687,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {
@@ -4411,8 +4405,6 @@ PlacesTestUtils
 addVisits
 (
 {
-uri
-:
 uri
 transition
 :

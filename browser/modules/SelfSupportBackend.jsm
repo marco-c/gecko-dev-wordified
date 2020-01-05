@@ -505,8 +505,6 @@ freeze
 (
 {
 init
-:
-function
 (
 )
 {
@@ -518,8 +516,6 @@ init
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -599,8 +595,6 @@ backend
 *
 /
 init
-:
-function
 (
 )
 {
@@ -808,8 +802,6 @@ active
 *
 /
 uninit
-:
-function
 (
 )
 {
@@ -1005,8 +997,6 @@ support
 *
 /
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1093,8 +1083,6 @@ preferences
 *
 /
 _configureLogging
-:
-function
 (
 )
 {
@@ -1309,8 +1297,6 @@ browser
 *
 /
 _makeHiddenBrowser
-:
-function
 (
 aURL
 )
@@ -1416,8 +1402,6 @@ _browser
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1549,8 +1533,6 @@ loads
 *
 /
 _pageSuccessCallback
-:
-function
 (
 )
 {
@@ -1646,8 +1628,6 @@ load
 *
 /
 _pageLoadErrorCallback
-:
-function
 (
 )
 {
@@ -1724,8 +1704,6 @@ interval
 *
 /
 _loadSelfSupport
-:
-function
 (
 )
 {
@@ -2100,8 +2078,6 @@ prototype
 =
 {
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -2284,8 +2260,6 @@ _loadAttempts
 }
 }
 onStateChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -2339,8 +2313,6 @@ _loadSuccessCallback
 }
 }
 destroy
-:
-function
 (
 )
 {

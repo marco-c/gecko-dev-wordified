@@ -356,8 +356,6 @@ promptHandled
 "
 {
 promptState
-:
-promptState
 }
 )
 ;

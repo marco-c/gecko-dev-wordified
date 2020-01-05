@@ -209,8 +209,6 @@ returned
 *
 /
 readRegKey
-:
-function
 (
 aRoot
 aPath
@@ -515,8 +513,6 @@ otherwise
 *
 /
 removeRegKey
-:
-function
 (
 aRoot
 aPath

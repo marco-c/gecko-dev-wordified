@@ -446,8 +446,6 @@ entry
 =
 {
 id
-:
-id
 date
 :
 file

@@ -541,8 +541,6 @@ BlocklistService
 =
 {
 getAddonBlocklistState
-:
-function
 (
 aAddon
 aAppVersion
@@ -604,8 +602,6 @@ STATE_NOT_BLOCKED
 ;
 }
 getPluginBlocklistState
-:
-function
 (
 aPlugin
 aVersion
@@ -622,8 +618,6 @@ STATE_NOT_BLOCKED
 ;
 }
 isAddonBlocklisted
-:
-function
 (
 aAddon
 aAppVersion
@@ -649,8 +643,6 @@ STATE_BLOCKED
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -718,8 +710,6 @@ pendingCount
 :
 0
 onUpdateAvailable
-:
-function
 (
 aAddon
 )
@@ -743,8 +733,6 @@ id
 ;
 }
 onUpdateFinished
-:
-function
 (
 )
 {
@@ -773,8 +761,6 @@ requestHandler
 =
 {
 handle
-:
-function
 (
 metadata
 response

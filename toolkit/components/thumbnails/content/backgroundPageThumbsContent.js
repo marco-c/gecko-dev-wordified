@@ -216,8 +216,6 @@ backgroundPageThumbsContent
 =
 {
 init
-:
-function
 (
 )
 {
@@ -400,8 +398,6 @@ NOTIFY_STATE_WINDOW
 ;
 }
 observe
-:
-function
 (
 subj
 topic
@@ -522,8 +518,6 @@ nsIWebNavigation
 ;
 }
 _onCapture
-:
-function
 (
 msg
 )
@@ -624,8 +618,6 @@ _startNextCapture
 ;
 }
 _startNextCapture
-:
-function
 (
 )
 {
@@ -720,8 +712,6 @@ _startNextCapture
 }
 }
 onStateChange
-:
-function
 (
 webProgress
 req
@@ -997,8 +987,6 @@ TYPE_ONE_SHOT
 }
 }
 _captureCurrentPage
-:
-function
 (
 )
 {
@@ -1110,8 +1098,6 @@ _loadAboutBlank
 ;
 }
 _finishCurrentCapture
-:
-function
 (
 )
 {
@@ -1192,8 +1178,6 @@ imageBlob
 ;
 }
 _failCurrentCapture
-:
-function
 (
 reason
 )

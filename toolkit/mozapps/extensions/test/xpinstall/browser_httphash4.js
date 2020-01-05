@@ -213,8 +213,6 @@ URL
 :
 url
 toString
-:
-function
 (
 )
 {

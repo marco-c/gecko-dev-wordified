@@ -757,8 +757,6 @@ complete
 *
 /
 loadPreviousCheckpoints
-:
-function
 (
 )
 {
@@ -1088,8 +1086,6 @@ Promise
 *
 /
 init
-:
-function
 (
 )
 {
@@ -1270,8 +1266,6 @@ received
 *
 /
 observe
-:
-function
 (
 aSubject
 aTopic

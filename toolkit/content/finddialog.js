@@ -993,8 +993,6 @@ value
 }
 {
 handleError
-:
-function
 (
 aError
 )

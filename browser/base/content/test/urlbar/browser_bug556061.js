@@ -201,8 +201,6 @@ expected
 :
 testURL
 setup
-:
-function
 (
 )
 {
@@ -286,8 +284,6 @@ cmd_copy
 ;
 }
 success
-:
-function
 (
 )
 {
@@ -323,8 +319,6 @@ substring
 10
 )
 setup
-:
-function
 (
 )
 {
@@ -363,8 +357,6 @@ cmd_copy
 ;
 }
 success
-:
-function
 (
 )
 {
@@ -394,8 +386,6 @@ expected
 :
 testURL
 setup
-:
-function
 (
 )
 {
@@ -427,8 +417,6 @@ cmd_cut
 ;
 }
 success
-:
-function
 (
 )
 {
@@ -468,8 +456,6 @@ testURL
 length
 )
 setup
-:
-function
 (
 )
 {
@@ -574,8 +560,6 @@ cmd_cut
 ;
 }
 success
-:
-function
 (
 )
 {

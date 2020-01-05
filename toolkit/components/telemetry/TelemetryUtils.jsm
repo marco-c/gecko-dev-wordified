@@ -321,8 +321,6 @@ epoch
 *
 /
 millisecondsToDays
-:
-function
 (
 aMsec
 )
@@ -359,8 +357,6 @@ precision
 *
 /
 truncateToDays
-:
-function
 (
 date
 )
@@ -463,8 +459,6 @@ otherwise
 *
 /
 areTimesClose
-:
-function
 (
 t1
 t2
@@ -525,8 +519,6 @@ midnight
 *
 /
 getNextMidnight
-:
-function
 (
 date
 )
@@ -631,8 +623,6 @@ tolerance
 *
 /
 getNearestMidnight
-:
-function
 (
 date
 tolerance
@@ -711,8 +701,6 @@ null
 ;
 }
 generateUUID
-:
-function
 (
 )
 {
@@ -818,8 +806,6 @@ dates
 *
 /
 getElapsedTimeInMonths
-:
-function
 (
 aStartDate
 aEndDate
@@ -922,8 +908,6 @@ string
 *
 /
 toLocalTimeISOString
-:
-function
 (
 date
 )

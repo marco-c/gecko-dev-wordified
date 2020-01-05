@@ -3713,8 +3713,6 @@ line
 *
 /
 generateReadableStack
-:
-function
 (
 topStack
 prefix

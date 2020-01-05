@@ -1085,8 +1085,6 @@ name
 :
 REMOTE_TO_INSTALL
 item
-:
-item
 }
 )
 ;
@@ -1168,8 +1166,6 @@ result
 [
 1
 ]
-item
-:
 item
 }
 )
@@ -1257,8 +1253,6 @@ result
 [
 1
 ]
-item
-:
 item
 }
 )
@@ -3423,8 +3417,6 @@ handler
 =
 {
 onSortChanged
-:
-function
 (
 aSortBy
 aAscending
@@ -3749,8 +3741,6 @@ listener
 =
 {
 onInstallEnded
-:
-function
 (
 aInstall
 aAddon

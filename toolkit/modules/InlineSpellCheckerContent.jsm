@@ -477,8 +477,6 @@ GetCurrentDictionary
 (
 )
 dictionaryList
-:
-dictionaryList
 }
 ;
 }

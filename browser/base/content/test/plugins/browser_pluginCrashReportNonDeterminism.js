@@ -674,8 +674,6 @@ pluginFallbackType
 "
 {
 get
-:
-function
 (
 )
 {
@@ -1392,8 +1390,6 @@ pluginFallbackType
 "
 {
 get
-:
-function
 (
 )
 {

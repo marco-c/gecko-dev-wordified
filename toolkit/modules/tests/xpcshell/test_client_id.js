@@ -388,8 +388,6 @@ writeJSON
 (
 {
 clientID
-:
-clientID
 }
 fhrPath
 )
@@ -691,8 +689,6 @@ CommonUtils
 writeJSON
 (
 {
-clientID
-:
 clientID
 }
 fhrPath

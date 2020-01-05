@@ -843,15 +843,11 @@ asyncCopy
 (
 {
 onStartRequest
-:
-function
 (
 )
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext

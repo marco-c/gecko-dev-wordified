@@ -243,8 +243,6 @@ WebChannel
 *
 /
 registerChannel
-:
-function
 (
 channel
 )
@@ -372,8 +370,6 @@ map
 *
 /
 unregisterChannel
-:
-function
 (
 channelToRemove
 )
@@ -429,8 +425,6 @@ private
 *
 /
 _listener
-:
-function
 (
 event
 )
@@ -823,8 +817,6 @@ private
 *
 /
 _sendErrorEventToContent
-:
-function
 (
 id
 sendingContext
@@ -878,8 +870,6 @@ WebChannelMessageToContent
 "
 {
 id
-:
-id
 message
 :
 {
@@ -892,8 +882,6 @@ errorMsg
 }
 }
 {
-eventTarget
-:
 eventTarget
 }
 targetPrincipal
@@ -1584,8 +1572,6 @@ sent
 *
 /
 listen
-:
-function
 (
 callback
 )
@@ -1679,8 +1665,6 @@ WebChannelBroker
 *
 /
 stopListening
-:
-function
 (
 )
 {
@@ -1852,8 +1836,6 @@ iframe
 *
 /
 send
-:
-function
 (
 message
 target
@@ -1899,8 +1881,6 @@ id
 this
 .
 id
-message
-:
 message
 }
 {
@@ -2058,8 +2038,6 @@ sent
 *
 /
 deliver
-:
-function
 (
 data
 sendingContext

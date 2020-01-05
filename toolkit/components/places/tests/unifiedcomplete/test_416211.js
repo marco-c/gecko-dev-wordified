@@ -130,8 +130,6 @@ addVisits
 (
 {
 uri
-:
-uri
 title
 :
 "
@@ -145,8 +143,6 @@ yield
 addBookmark
 (
 {
-uri
-:
 uri
 title
 :
@@ -177,8 +173,6 @@ matches
 :
 [
 {
-uri
-:
 uri
 title
 :

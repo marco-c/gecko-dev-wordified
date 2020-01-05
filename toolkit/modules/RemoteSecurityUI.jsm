@@ -206,8 +206,6 @@ return
 ;
 }
 _update
-:
-function
 (
 aStatus
 aState

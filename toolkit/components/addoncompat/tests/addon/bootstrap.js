@@ -2042,8 +2042,6 @@ prototype
 =
 {
 asyncOpen
-:
-function
 (
 listener
 context
@@ -2151,8 +2149,6 @@ DISPATCH_NORMAL
 ;
 }
 asyncOpen2
-:
-function
 (
 listener
 )
@@ -2188,8 +2184,6 @@ null
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -2355,8 +2349,6 @@ stream
 ;
 }
 open2
-:
-function
 (
 )
 {
@@ -2386,8 +2378,6 @@ open
 ;
 }
 isPending
-:
-function
 (
 )
 {
@@ -2396,8 +2386,6 @@ false
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -2408,8 +2396,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 suspend
-:
-function
 (
 )
 {
@@ -2420,8 +2406,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 resume
-:
-function
 (
 )
 {
@@ -2676,8 +2660,6 @@ factory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid
@@ -3458,8 +3440,6 @@ globalListener
 =
 {
 onLocationChange
-:
-function
 (
 webProgress
 request
@@ -3507,8 +3487,6 @@ tabsListener
 =
 {
 onLocationChange
-:
-function
 (
 browser
 webProgress

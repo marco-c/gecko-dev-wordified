@@ -161,8 +161,6 @@ emeUIEnabled
 ;
 }
 ensureEMEEnabled
-:
-function
 (
 browser
 keySystem
@@ -345,8 +343,6 @@ reload
 ;
 }
 isKeySystemVisible
-:
-function
 (
 keySystem
 )
@@ -472,8 +468,6 @@ true
 ;
 }
 getLearnMoreLink
-:
-function
 (
 msgId
 )
@@ -553,8 +547,6 @@ label
 ;
 }
 receiveMessage
-:
-function
 (
 {
 target
@@ -906,8 +898,6 @@ buttonCallback
 ;
 }
 showNotificationBar
-:
-function
 (
 browser
 notificationId
@@ -1039,8 +1029,6 @@ getString
 btnAccessKeyId
 )
 callback
-:
-callback
 }
 )
 ;
@@ -1146,8 +1134,6 @@ buttons
 ;
 }
 showPopupNotificationForSuccess
-:
-function
 (
 browser
 keySystem
@@ -1428,8 +1414,6 @@ getString
 btnAccessKeyId
 )
 callback
-:
-function
 (
 )
 {

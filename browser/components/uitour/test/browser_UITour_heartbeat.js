@@ -1663,8 +1663,6 @@ null
 null
 {
 iconURL
-:
-iconURL
 }
 )
 ;

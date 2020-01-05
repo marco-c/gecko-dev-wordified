@@ -227,8 +227,6 @@ searchURL
 :
 base
 run
-:
-function
 (
 )
 {
@@ -280,8 +278,6 @@ searchURL
 :
 base
 run
-:
-function
 (
 )
 {
@@ -324,8 +320,6 @@ searchURL
 :
 base
 run
-:
-function
 (
 )
 {
@@ -369,8 +363,6 @@ searchURL
 :
 base
 run
-:
-function
 (
 )
 {
@@ -436,8 +428,6 @@ searchURL
 :
 base
 run
-:
-function
 (
 )
 {

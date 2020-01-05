@@ -2671,8 +2671,6 @@ count
 :
 nodeCount
 hash
-:
-hash
 }
 )
 ;
@@ -3390,8 +3388,6 @@ newBackupFilename
 count
 :
 nodeCount
-hash
-:
 hash
 }
 )

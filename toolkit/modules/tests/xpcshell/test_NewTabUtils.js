@@ -2589,8 +2589,6 @@ prototype
 =
 {
 addObserver
-:
-function
 (
 observer
 )
@@ -2606,8 +2604,6 @@ observer
 ;
 }
 notifyLinkChanged
-:
-function
 (
 link
 index
@@ -2633,8 +2629,6 @@ deleted
 ;
 }
 notifyManyLinksChanged
-:
-function
 (
 )
 {
@@ -2649,8 +2643,6 @@ onManyLinksChanged
 ;
 }
 _notifyObservers
-:
-function
 (
 )
 {
@@ -2911,8 +2903,6 @@ is
 "
 +
 frecency
-frecency
-:
 frecency
 lastVisitDate
 :

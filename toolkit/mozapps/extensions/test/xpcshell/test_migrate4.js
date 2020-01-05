@@ -861,8 +861,6 @@ findUpdates
 (
 {
 onUpdateAvailable
-:
-function
 (
 aAddon
 aInstall6
@@ -994,8 +992,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 )
 {

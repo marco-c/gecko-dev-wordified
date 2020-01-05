@@ -376,8 +376,6 @@ Never
 *
 /
 waitForTick
-:
-function
 (
 )
 {
@@ -469,8 +467,6 @@ Never
 *
 /
 waitMs
-:
-function
 (
 aTimeMs
 )
@@ -538,8 +534,6 @@ Never
 *
 /
 waitForNotification
-:
-function
 (
 aTopic
 )
@@ -686,8 +680,6 @@ Never
 *
 /
 waitForEvent
-:
-function
 (
 aTarget
 aEventName
@@ -1349,8 +1341,6 @@ promiseUIWindow
 [
 0
 ]
-promiseResult
-:
 promiseResult
 }
 ;

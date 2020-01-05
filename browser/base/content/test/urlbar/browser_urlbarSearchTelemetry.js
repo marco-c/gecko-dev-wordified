@@ -1403,8 +1403,6 @@ mozActionMatch
 return
 {
 type
-:
-type
 params
 :
 JSON

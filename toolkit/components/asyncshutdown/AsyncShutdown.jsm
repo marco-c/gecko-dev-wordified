@@ -506,8 +506,6 @@ gCrashReporter
 "
 {
 get
-:
-function
 (
 )
 {
@@ -956,8 +954,6 @@ rejected
 *
 /
 wait
-:
-function
 (
 )
 {
@@ -1100,8 +1096,6 @@ removed
 *
 /
 add
-:
-function
 (
 key
 )
@@ -1244,8 +1238,6 @@ again
 *
 /
 delete
-:
-function
 (
 key
 )
@@ -1299,8 +1291,6 @@ true
 ;
 }
 _ensurePromise
-:
-function
 (
 key
 )
@@ -2432,13 +2422,7 @@ n
 return
 {
 filename
-:
-filename
 lineNumber
-:
-lineNumber
-stack
-:
 stack
 }
 ;
@@ -3128,8 +3112,6 @@ profileBeforeChange
 *
 /
 addBlocker
-:
-function
 (
 name
 condition
@@ -3244,8 +3226,6 @@ resolved
 *
 /
 removeBlocker
-:
-function
 (
 condition
 )
@@ -3476,8 +3456,6 @@ Barrier
 *
 /
 addBlocker
-:
-function
 (
 name
 condition
@@ -3576,8 +3554,6 @@ resolved
 *
 /
 removeBlocker
-:
-function
 (
 condition
 )
@@ -3616,8 +3592,6 @@ nsIObserver
 .
 observe
 observe
-:
-function
 (
 )
 {
@@ -5217,16 +5191,8 @@ blocker
 =
 {
 trigger
-:
-trigger
-promise
-:
 promise
 name
-:
-name
-fetchState
-:
 fetchState
 getOrigin
 :
@@ -5604,8 +5570,6 @@ push
 (
 {
 name
-:
-name
 state
 :
 safeGetState
@@ -5613,13 +5577,7 @@ safeGetState
 fetchState
 )
 filename
-:
-filename
 lineNumber
-:
-lineNumber
-stack
-:
 stack
 }
 )
@@ -5835,8 +5793,6 @@ complete
 *
 /
 wait
-:
-function
 (
 options
 =
@@ -5884,8 +5840,6 @@ options
 ;
 }
 _wait
-:
-function
 (
 options
 )
@@ -6913,8 +6867,6 @@ promise
 ;
 }
 _removeBlocker
-:
-function
 (
 condition
 )

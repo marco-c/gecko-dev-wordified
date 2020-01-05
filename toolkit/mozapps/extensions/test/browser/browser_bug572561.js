@@ -93,8 +93,6 @@ gTestInstallListener
 =
 {
 onInstallStarted
-:
-function
 (
 aInstall
 )
@@ -106,8 +104,6 @@ false
 ;
 }
 onInstallEnded
-:
-function
 (
 aInstall
 )
@@ -123,8 +119,6 @@ run_next_test
 ;
 }
 onInstallCancelled
-:
-function
 (
 aInstall
 )
@@ -151,8 +145,6 @@ run_next_test
 ;
 }
 onInstallFailed
-:
-function
 (
 aInstall
 )

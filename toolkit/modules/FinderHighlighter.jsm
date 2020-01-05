@@ -11794,8 +11794,6 @@ findbar
 :
 this
 QueryInterface
-:
-function
 (
 iid
 )
@@ -11833,8 +11831,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 NotifyDocumentWillBeDestroyed
-:
-function
 (
 )
 {
@@ -11852,15 +11848,11 @@ this
 /
 Unimplemented
 notifyDocumentCreated
-:
-function
 (
 )
 {
 }
 notifyDocumentStateChanged
-:
-function
 (
 aDirty
 )

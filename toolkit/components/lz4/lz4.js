@@ -1305,10 +1305,6 @@ Lz4
 =
 {
 compressFileContent
-:
-compressFileContent
-decompressFileContent
-:
 decompressFileContent
 }
 ;

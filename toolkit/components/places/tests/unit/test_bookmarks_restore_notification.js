@@ -327,8 +327,6 @@ insert
 (
 {
 url
-:
-url
 parentGuid
 :
 PlacesUtils

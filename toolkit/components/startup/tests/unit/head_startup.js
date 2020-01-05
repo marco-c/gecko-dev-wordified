@@ -157,8 +157,6 @@ XULAppInfoFactory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid

@@ -738,8 +738,6 @@ nbRoot
 =
 {
 toString
-:
-function
 (
 )
 {

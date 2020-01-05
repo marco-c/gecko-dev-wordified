@@ -144,8 +144,6 @@ nsIUpdateManager
 ]
 )
 createInstance
-:
-function
 (
 outer
 iiD
@@ -172,8 +170,6 @@ iiD
 ;
 }
 register
-:
-function
 (
 )
 {
@@ -267,8 +263,6 @@ this
 }
 }
 unregister
-:
-function
 (
 )
 {
@@ -326,8 +320,6 @@ length
 ;
 }
 getUpdateAt
-:
-function
 (
 index
 )

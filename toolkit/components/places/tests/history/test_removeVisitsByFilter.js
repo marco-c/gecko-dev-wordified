@@ -499,8 +499,6 @@ as
 a
 Date
 jsDate
-:
-jsDate
 /
 /
 true
@@ -557,8 +555,6 @@ be
 entirely
 removed
 .
-hasBookmark
-:
 hasBookmark
 onFrecencyChanged
 :
@@ -1138,22 +1134,16 @@ defer
 (
 )
 onBeginUpdateBatch
-:
-function
 (
 )
 {
 }
 onEndUpdateBatch
-:
-function
 (
 )
 {
 }
 onVisit
-:
-function
 (
 uri
 )
@@ -1182,8 +1172,6 @@ spec
 ;
 }
 onTitleChanged
-:
-function
 (
 uri
 )
@@ -1212,8 +1200,6 @@ spec
 ;
 }
 onClearHistory
-:
-function
 (
 )
 {
@@ -1233,8 +1219,6 @@ onClearHistory
 ;
 }
 onPageChanged
-:
-function
 (
 uri
 )
@@ -1263,8 +1247,6 @@ spec
 ;
 }
 onFrecencyChanged
-:
-function
 (
 aURI
 )
@@ -1313,8 +1295,6 @@ resolve
 ;
 }
 onManyFrecenciesChanged
-:
-function
 (
 )
 {
@@ -1346,8 +1326,6 @@ resolve
 }
 }
 onDeleteURI
-:
-function
 (
 aURI
 )
@@ -1396,8 +1374,6 @@ resolve
 ;
 }
 onDeleteVisits
-:
-function
 (
 aURI
 )
@@ -1997,8 +1973,6 @@ options
 sampleSize
 :
 size
-bookmarks
-:
 bookmarks
 }
 ;

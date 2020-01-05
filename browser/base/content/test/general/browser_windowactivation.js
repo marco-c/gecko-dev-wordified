@@ -767,8 +767,6 @@ GetBackgroundColor
 "
 {
 ifChanged
-:
-ifChanged
 }
 )
 ;
@@ -784,8 +782,6 @@ Test
 GetBackgroundColor
 "
 {
-ifChanged
-:
 ifChanged
 }
 )
@@ -1138,8 +1134,6 @@ Test
 BackgroundColorChanged
 "
 {
-color
-:
 color
 }
 )

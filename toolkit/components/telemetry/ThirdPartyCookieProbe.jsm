@@ -412,8 +412,6 @@ nsIObserver
 ]
 )
 init
-:
-function
 (
 )
 {
@@ -474,8 +472,6 @@ false
 ;
 }
 dispose
-:
-function
 (
 )
 {
@@ -621,8 +617,6 @@ user
 *
 /
 observe
-:
-function
 (
 docURI
 topic
@@ -970,8 +964,6 @@ independent
 *
 /
 flush
-:
-function
 (
 aNow
 =
@@ -1246,8 +1238,6 @@ prototype
 =
 {
 addAccepted
-:
-function
 (
 firstParty
 )
@@ -1269,8 +1259,6 @@ _acceptedRequests
 ;
 }
 addRejected
-:
-function
 (
 firstParty
 )

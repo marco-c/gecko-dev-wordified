@@ -617,8 +617,6 @@ finished
 *
 /
 translate
-:
-function
 (
 )
 {
@@ -923,8 +921,6 @@ server
 *
 /
 _chunkCompleted
-:
-function
 (
 yandexRequest
 )
@@ -1067,8 +1063,6 @@ failed
 *
 /
 _chunkFailed
-:
-function
 (
 aError
 )
@@ -1191,8 +1185,6 @@ completed
 *
 /
 _checkIfFinished
-:
-function
 (
 )
 {
@@ -1404,8 +1396,6 @@ successful
 *
 /
 _parseChunkResult
-:
-function
 (
 yandexRequest
 )
@@ -1661,8 +1651,6 @@ start
 *
 /
 _generateNextTranslationRequest
-:
-function
 (
 startIndex
 )
@@ -1984,8 +1972,6 @@ request
 *
 /
 fireRequest
-:
-function
 (
 )
 {
@@ -2185,8 +2171,6 @@ bind
 this
 )
 onError
-:
-function
 (
 e
 responseText

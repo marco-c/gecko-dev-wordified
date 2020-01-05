@@ -168,8 +168,6 @@ asynctest
 "
 {
 onResult
-:
-function
 (
 aValue
 )

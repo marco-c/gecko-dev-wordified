@@ -3027,8 +3027,6 @@ folderIds
 i
 ]
 lastUsed
-:
-lastUsed
 }
 )
 ;

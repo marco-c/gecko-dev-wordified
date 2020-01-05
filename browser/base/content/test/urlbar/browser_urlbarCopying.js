@@ -1144,8 +1144,6 @@ A9
 }
 {
 setup
-:
-function
 (
 )
 {

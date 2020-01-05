@@ -153,8 +153,6 @@ _windowFrameColor
 :
 null
 get
-:
-function
 (
 )
 {

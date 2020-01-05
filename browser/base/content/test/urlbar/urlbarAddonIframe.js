@@ -354,8 +354,6 @@ originalEventDetail
 .
 messageID
 ackIndex
-:
-ackIndex
 data
 :
 ackData

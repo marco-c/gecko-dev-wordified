@@ -301,8 +301,6 @@ length
 ;
 }
 getSearchAt
-:
-function
 (
 aIndex
 )
@@ -317,15 +315,11 @@ aIndex
 ;
 }
 onSearchBegin
-:
-function
 (
 )
 {
 }
 onSearchComplete
-:
-function
 (
 )
 {
@@ -350,8 +344,6 @@ aIndex
 {
 }
 invalidate
-:
-function
 (
 )
 {
@@ -744,8 +736,6 @@ selectedIndex
 :
 0
 getValueAt
-:
-function
 (
 )
 {
@@ -910,8 +900,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {
@@ -1094,8 +1082,6 @@ runCount
 -
 1
 observe
-:
-function
 (
 aSubject
 aTopic

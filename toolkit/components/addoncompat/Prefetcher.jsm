@@ -2370,8 +2370,6 @@ a
 table
 .
 add
-:
-function
 (
 table
 obj
@@ -2450,8 +2448,6 @@ obj
 ;
 }
 cache
-:
-function
 (
 .
 .
@@ -2499,8 +2495,6 @@ to
 add
 .
 process
-:
-function
 (
 )
 {
@@ -2574,8 +2568,6 @@ Prefetcher
 =
 {
 init
-:
-function
 (
 )
 {
@@ -2727,8 +2719,6 @@ false
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -2855,8 +2845,6 @@ object
 )
 .
 prefetch
-:
-function
 (
 trigger
 addons
@@ -3149,8 +3137,6 @@ content
 process
 .
 generateCache
-:
-function
 (
 prefetched
 cpows
@@ -3291,8 +3277,6 @@ a
 cache
 .
 withPrefetching
-:
-function
 (
 prefetched
 cpows
@@ -3406,8 +3390,6 @@ is
 cached
 .
 lookupInCache
-:
-function
 (
 addon
 target

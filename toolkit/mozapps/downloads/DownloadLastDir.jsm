@@ -390,8 +390,6 @@ observer
 =
 {
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -445,8 +443,6 @@ NS_NOINTERFACE
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -898,8 +894,6 @@ val
 ;
 }
 cleanupPrivateFile
-:
-function
 (
 )
 {
@@ -934,8 +928,6 @@ getFileAsync
 function
 .
 getFile
-:
-function
 (
 aURI
 )
@@ -1098,8 +1090,6 @@ _getLastFile
 ;
 }
 _getLastFile
-:
-function
 (
 )
 {
@@ -1150,8 +1140,6 @@ readLastDirPref
 ;
 }
 getFileAsync
-:
-function
 (
 aURI
 aCallback
@@ -1278,8 +1266,6 @@ result
 =
 aResult
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1361,8 +1347,6 @@ file
 ;
 }
 setFile
-:
-function
 (
 aURI
 aFile

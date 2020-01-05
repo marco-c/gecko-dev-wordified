@@ -515,8 +515,6 @@ listener
 =
 {
 onRegister
-:
-function
 (
 )
 {
@@ -576,8 +574,6 @@ info
 principal
 {
 unregisterSucceeded
-:
-function
 (
 aState
 )
@@ -597,8 +593,6 @@ resolve
 ;
 }
 unregisterFailed
-:
-function
 (
 aState
 )

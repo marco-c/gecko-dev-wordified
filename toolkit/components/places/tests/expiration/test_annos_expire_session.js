@@ -579,8 +579,6 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -614,8 +612,6 @@ annotations
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -650,8 +646,6 @@ returned
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )

@@ -406,8 +406,6 @@ init
 (
 {
 onInitComplete
-:
-function
 (
 )
 {
@@ -448,8 +446,6 @@ iconURL
 false
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -532,8 +528,6 @@ engine
 ;
 }
 onError
-:
-function
 (
 errCode
 )

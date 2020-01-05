@@ -165,8 +165,6 @@ mimeTypes
 [
 ]
 getMimeTypes
-:
-function
 (
 count
 )
@@ -257,8 +255,6 @@ gPluginHost
 /
 nsIPluginHost
 getPluginTags
-:
-function
 (
 count
 )

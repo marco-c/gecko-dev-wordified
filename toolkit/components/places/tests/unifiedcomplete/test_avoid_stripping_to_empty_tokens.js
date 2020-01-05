@@ -306,8 +306,6 @@ search
 :
 input
 matches
-:
-matches
 }
 )
 ;

@@ -490,8 +490,6 @@ during
 any
 merge
 index
-:
-index
 /
 /
 how

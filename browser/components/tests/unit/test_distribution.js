@@ -405,8 +405,6 @@ registerProvider
 (
 {
 getFile
-:
-function
 (
 aProp
 aPersistent

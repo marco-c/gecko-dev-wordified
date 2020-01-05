@@ -235,8 +235,6 @@ _wideCache
 :
 null
 update
-:
-function
 (
 aContainer
 )
@@ -546,8 +544,6 @@ elements
 *
 /
 find
-:
-function
 (
 aContainer
 aX
@@ -1019,8 +1015,6 @@ transitioned
 *
 /
 insertPlaceholder
-:
-function
 (
 aContainer
 aBefore
@@ -1442,8 +1436,6 @@ aBefore
 ;
 }
 isWide
-:
-function
 (
 aNode
 )
@@ -1462,8 +1454,6 @@ id
 ;
 }
 _checkIfWide
-:
-function
 (
 aNode
 )
@@ -1544,8 +1534,6 @@ transform
 *
 /
 clearPlaceholders
-:
-function
 (
 aContainer
 aNoTransition
@@ -1663,8 +1651,6 @@ null
 }
 }
 _getNextPos
-:
-function
 (
 aNode
 aShiftDown
@@ -1716,8 +1702,6 @@ aSize
 ;
 }
 _diffWithNext
-:
-function
 (
 aNode
 aSize
@@ -2506,8 +2490,6 @@ row
 *
 /
 _moveNextBasedOnPrevious
-:
-function
 (
 aNode
 aNodeBounds
@@ -2756,8 +2738,6 @@ info
 *
 /
 _lazyStoreGet
-:
-function
 (
 aNode
 )
@@ -2937,8 +2917,6 @@ rect
 ;
 }
 _firstInRow
-:
-function
 (
 aNode
 )
@@ -3070,8 +3048,6 @@ rv
 ;
 }
 _getVisibleSiblingForDirection
-:
-function
 (
 aNode
 aDirection
@@ -3125,8 +3101,6 @@ DragPositionManager
 =
 {
 start
-:
-function
 (
 aWindow
 )
@@ -3241,8 +3215,6 @@ areaNode
 }
 }
 add
-:
-function
 (
 aWindow
 aArea
@@ -3281,8 +3253,6 @@ aContainer
 ;
 }
 remove
-:
-function
 (
 aWindow
 aArea
@@ -3316,8 +3286,6 @@ aContainer
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -3330,8 +3298,6 @@ WeakMap
 ;
 }
 getManagerForArea
-:
-function
 (
 aArea
 )

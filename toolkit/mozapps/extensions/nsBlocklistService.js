@@ -2510,8 +2510,6 @@ _pluginEntries
 :
 null
 shutdown
-:
-function
 (
 )
 {
@@ -2584,8 +2582,6 @@ this
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2745,8 +2741,6 @@ manager
 message
 handlers
 receiveMessage
-:
-function
 (
 aMsg
 )
@@ -2850,8 +2844,6 @@ nsIBlocklistService
 *
 /
 isAddonBlocklisted
-:
-function
 (
 addon
 appVersion
@@ -2883,8 +2875,6 @@ nsIBlocklistService
 *
 /
 getAddonBlocklistState
-:
-function
 (
 addon
 appVersion
@@ -3053,8 +3043,6 @@ nsIBlocklistService
 *
 /
 _getAddonBlocklistState
-:
-function
 (
 addon
 addonEntries
@@ -3259,8 +3247,6 @@ found
 *
 /
 _getAddonPrefs
-:
-function
 (
 addon
 )
@@ -3290,8 +3276,6 @@ slice
 ;
 }
 _findMatchingAddonEntry
-:
-function
 (
 aAddonEntries
 aAddon
@@ -3521,8 +3505,6 @@ nsIBlocklistService
 *
 /
 getAddonBlocklistURL
-:
-function
 (
 addon
 appVersion
@@ -3592,8 +3574,6 @@ blockID
 ;
 }
 _createBlocklistURL
-:
-function
 (
 id
 )
@@ -3630,8 +3610,6 @@ url
 ;
 }
 notify
-:
-function
 (
 aTimer
 )
@@ -4948,8 +4926,6 @@ e
 }
 )
 onXMLError
-:
-function
 (
 aEvent
 )
@@ -5117,8 +5093,6 @@ exist
 *
 /
 _loadBlocklist
-:
-function
 (
 )
 {
@@ -5942,8 +5916,6 @@ blocklist
 *
 /
 _loadBlocklistFromFile
-:
-function
 (
 file
 )
@@ -6290,8 +6262,6 @@ text
 ;
 }
 _isBlocklistLoaded
-:
-function
 (
 )
 {
@@ -6321,8 +6291,6 @@ null
 ;
 }
 _isBlocklistPreloaded
-:
-function
 (
 )
 {
@@ -6343,8 +6311,6 @@ testing
 *
 /
 _clear
-:
-function
 (
 )
 {
@@ -6619,8 +6585,6 @@ text
 }
 )
 _loadBlocklistFromString
-:
-function
 (
 text
 )
@@ -6996,8 +6960,6 @@ return
 }
 }
 _processItemNodes
-:
-function
 (
 itemNodes
 itemName
@@ -7071,8 +7033,6 @@ result
 ;
 }
 _handleCertItemNode
-:
-function
 (
 blocklistElement
 result
@@ -7242,8 +7202,6 @@ e
 }
 }
 _handleEmItemNode
-:
-function
 (
 blocklistElement
 result
@@ -7616,8 +7574,6 @@ blockEntry
 ;
 }
 _handlePluginItemNode
-:
-function
 (
 blocklistElement
 result
@@ -8114,8 +8070,6 @@ hardware
 gfxBlacklistEntry
 >
 _handleGfxBlacklistNode
-:
-function
 (
 blocklistElement
 result
@@ -8571,8 +8525,6 @@ nsIBlocklistService
 *
 /
 getPluginBlocklistState
-:
-function
 (
 plugin
 appVersion
@@ -8744,8 +8696,6 @@ entry
 *
 /
 _getPluginBlocklistEntry
-:
-function
 (
 plugin
 pluginEntries
@@ -9045,8 +8995,6 @@ nsIBlocklistService
 *
 /
 _getPluginBlocklistState
-:
-function
 (
 plugin
 pluginEntries
@@ -9174,8 +9122,6 @@ nsIBlocklistService
 *
 /
 getPluginBlocklistURL
-:
-function
 (
 plugin
 )
@@ -9257,8 +9203,6 @@ nsIBlocklistService
 *
 /
 getPluginInfoURL
-:
-function
 (
 plugin
 )
@@ -9329,8 +9273,6 @@ infoURL
 ;
 }
 _notifyObserversBlocklistGFX
-:
-function
 (
 )
 {
@@ -9530,8 +9472,6 @@ payload
 ;
 }
 _notifyObserversBlocklistUpdated
-:
-function
 (
 )
 {
@@ -9568,8 +9508,6 @@ blocklistInvalidated
 ;
 }
 _blocklistUpdated
-:
-function
 (
 oldAddonEntries
 oldPluginEntries
@@ -11145,8 +11083,6 @@ version
 *
 /
 includesItem
-:
-function
 (
 version
 appVersion
@@ -11351,8 +11287,6 @@ smaller
 *
 /
 matchesRange
-:
-function
 (
 version
 minVersion
@@ -11466,8 +11400,6 @@ given
 *
 /
 matchesTargetRange
-:
-function
 (
 appID
 appVersion
@@ -11607,8 +11539,6 @@ null
 *
 /
 getBlocklistAppVersions
-:
-function
 (
 targetAppElement
 )
@@ -11817,8 +11747,6 @@ null
 *
 /
 getBlocklistVersionRange
-:
-function
 (
 versionRangeElement
 )
@@ -11841,10 +11769,6 @@ versionRangeElement
 return
 {
 minVersion
-:
-minVersion
-maxVersion
-:
 maxVersion
 }
 ;
@@ -11895,10 +11819,6 @@ maxVersion
 return
 {
 minVersion
-:
-minVersion
-maxVersion
-:
 maxVersion
 }
 ;

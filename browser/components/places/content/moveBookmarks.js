@@ -123,8 +123,6 @@ _foldersTree
 ;
 }
 init
-:
-function
 (
 )
 {

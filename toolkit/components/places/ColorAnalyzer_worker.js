@@ -1451,8 +1451,6 @@ to
 mean
 )
 color
-:
-color
 colors
 :
 [
@@ -1499,8 +1497,6 @@ ratio
 freq
 /
 numPixels
-freq
-:
 freq
 }
 ;
@@ -2250,10 +2246,6 @@ item2
 return
 {
 mean
-:
-mean
-color
-:
 color
 highFreq
 :
@@ -2288,8 +2280,6 @@ freq
 item2
 .
 freq
-colors
-:
 colors
 }
 ;

@@ -1316,8 +1316,6 @@ get
 aKey
 )
 set
-:
-function
 (
 aKey
 aValue
@@ -1368,8 +1366,6 @@ has
 aKey
 )
 delete
-:
-function
 (
 aKey
 )
@@ -1404,8 +1400,6 @@ aKey
 ;
 }
 clear
-:
-function
 (
 )
 {

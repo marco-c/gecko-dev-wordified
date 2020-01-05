@@ -389,8 +389,6 @@ prototype
 =
 {
 setBorder
-:
-function
 (
 t
 l
@@ -424,8 +422,6 @@ r
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -692,8 +688,6 @@ v
 ;
 }
 setRect
-:
-function
 (
 x
 y
@@ -734,8 +728,6 @@ this
 ;
 }
 setBounds
-:
-function
 (
 t
 l
@@ -927,8 +919,6 @@ round
 ;
 }
 copyFrom
-:
-function
 (
 r
 )
@@ -970,8 +960,6 @@ this
 ;
 }
 copyFromTLBR
-:
-function
 (
 r
 )
@@ -1013,8 +1001,6 @@ this
 ;
 }
 translate
-:
-function
 (
 x
 y
@@ -1069,8 +1055,6 @@ and
 this
 one
 union
-:
-function
 (
 rect
 )
@@ -1151,8 +1135,6 @@ t
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1192,8 +1174,6 @@ height
 ;
 }
 expandBy
-:
-function
 (
 b
 )
@@ -1239,8 +1219,6 @@ this
 ;
 }
 contains
-:
-function
 (
 other
 )
@@ -1291,8 +1269,6 @@ bottom
 ;
 }
 intersect
-:
-function
 (
 r2
 )
@@ -1422,8 +1398,6 @@ height
 ;
 }
 intersects
-:
-function
 (
 other
 )
@@ -2568,8 +2542,6 @@ managed
 /
 /
 init
-:
-function
 (
 el
 ew
@@ -2872,8 +2844,6 @@ remains
 .
 )
 moveWidgetBy
-:
-function
 (
 wid
 x
@@ -3265,8 +3235,6 @@ should
 be
 .
 freeze
-:
-function
 (
 wid
 )
@@ -3289,8 +3257,6 @@ true
 ;
 }
 unfreeze
-:
-function
 (
 wid
 )
@@ -3356,8 +3322,6 @@ on
 frozen
 widgets
 moveFrozenTo
-:
-function
 (
 wid
 x
@@ -3472,8 +3436,6 @@ add
 the
 widget
 moveUnfrozenTo
-:
-function
 (
 wid
 x
@@ -3636,8 +3598,6 @@ return
 false
 .
 isWidgetVisible
-:
-function
 (
 wid
 )
@@ -3696,8 +3656,6 @@ widget
 is
 visible
 getWidgetVisibility
-:
-function
 (
 wid
 )
@@ -3787,8 +3745,6 @@ to
 all
 widgets
 offsetAll
-:
-function
 (
 x
 y
@@ -4591,8 +4547,6 @@ viewport
 /
 /
 setViewportHandler
-:
-function
 (
 uh
 )
@@ -4648,8 +4602,6 @@ the
 stack
 .
 setPanHandler
-:
-function
 (
 uh
 )
@@ -5523,8 +5475,6 @@ code
 /
 /
 _updateWidgetRect
-:
-function
 (
 state
 )
@@ -5712,8 +5662,6 @@ widgetheight
 }
 }
 _dumpRects
-:
-function
 (
 )
 {
@@ -6053,8 +6001,6 @@ true
 ;
 }
 _getState
-:
-function
 (
 wid
 )
@@ -6487,8 +6433,6 @@ boundsChanged
 ;
 }
 _dragCoordsFromClient
-:
-function
 (
 cx
 cy
@@ -6575,8 +6519,6 @@ dy
 ;
 }
 _panHandleBarriers
-:
-function
 (
 dx
 dy
@@ -8012,8 +7954,6 @@ removal
 /
 /
 _addNewWidget
-:
-function
 (
 w
 )
@@ -8546,8 +8486,6 @@ rect
 ;
 }
 _removeWidget
-:
-function
 (
 w
 )
@@ -8661,8 +8599,6 @@ viewport
 bounds
 .
 _updateWidgets
-:
-function
 (
 )
 {
@@ -8911,8 +8847,6 @@ viewportOverflow
 /
 pannableBounds
 _updateViewportOverflow
-:
-function
 (
 )
 {
@@ -9209,8 +9143,6 @@ null
 ;
 }
 _widgetBounds
-:
-function
 (
 )
 {
@@ -9263,8 +9195,6 @@ r
 ;
 }
 _commitState
-:
-function
 (
 state
 )
@@ -9443,8 +9373,6 @@ go
 over
 .
 _rectTranslateConstrain
-:
-function
 (
 dx
 dy
@@ -9728,8 +9656,6 @@ a
 spacer
 >
 _addNewBarrierFromSpacer
-:
-function
 (
 el
 )

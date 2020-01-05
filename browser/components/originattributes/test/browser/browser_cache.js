@@ -445,10 +445,6 @@ push
 (
 {
 uri
-:
-uri
-idEnhance
-:
 idEnhance
 }
 )
@@ -653,8 +649,6 @@ proxyFilter
 =
 {
 applyFilter
-:
-function
 (
 aProxyService
 aChannel
@@ -1106,8 +1100,6 @@ let
 argObj
 =
 {
-randomSuffix
-:
 randomSuffix
 urlPrefix
 :

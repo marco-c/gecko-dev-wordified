@@ -759,8 +759,6 @@ tabFinder
 =
 {
 update
-:
-function
 (
 )
 {
@@ -960,8 +958,6 @@ found
 *
 /
 get
-:
-function
 (
 id
 )
@@ -1012,8 +1008,6 @@ browser
 ;
 }
 getAny
-:
-function
 (
 ids
 )
@@ -1935,8 +1929,6 @@ asynchronously
 *
 /
 promiseInit
-:
-function
 (
 )
 {
@@ -1989,8 +1981,6 @@ TypeError
 ;
 }
 _initWebpage
-:
-function
 (
 )
 {
@@ -2210,8 +2200,6 @@ addonId
 }
 )
 toString
-:
-function
 (
 )
 {
@@ -3045,8 +3033,6 @@ Promise
 *
 /
 promiseDeltaSinceStartOfTime
-:
-function
 (
 )
 {
@@ -3072,8 +3058,6 @@ Promise
 *
 /
 promiseDeltaSinceStartOfBuffer
-:
-function
 (
 )
 {
@@ -3556,8 +3540,6 @@ set
 *
 /
 get
-:
-function
 (
 deltaKey
 )
@@ -3574,8 +3556,6 @@ deltaKey
 ;
 }
 set
-:
-function
 (
 deltaKey
 value
@@ -3623,8 +3603,6 @@ deltaKey
 *
 /
 trimTo
-:
-function
 (
 set
 )
@@ -3789,8 +3767,6 @@ MODE_RECENT
 *
 /
 updateCategory
-:
-function
 (
 subset
 id
@@ -4808,8 +4784,6 @@ id
 ;
 }
 _insertElements
-:
-function
 (
 elements
 id
@@ -5005,8 +4979,6 @@ Nothing
 }
 }
 _setupStructure
-:
-function
 (
 id
 )
@@ -5265,8 +5237,6 @@ eltContainer
 ;
 }
 _grabOrCreateElements
-:
-function
 (
 delta
 nature
@@ -6308,8 +6278,6 @@ Control
 =
 {
 init
-:
-function
 (
 )
 {
@@ -6500,8 +6468,6 @@ mode
 }
 )
 _setOptions
-:
-function
 (
 options
 )
@@ -6600,8 +6566,6 @@ click
 }
 }
 _initAutorefresh
-:
-function
 (
 )
 {
@@ -6739,8 +6703,6 @@ _autoRefreshInterval
 :
 null
 _initDisplayMode
-:
-function
 (
 )
 {
@@ -6967,8 +6929,6 @@ changes
 *
 /
 init
-:
-function
 (
 )
 {
@@ -7027,8 +6987,6 @@ otherwise
 *
 /
 handleVisibilityChange
-:
-function
 (
 )
 {
@@ -7088,8 +7046,6 @@ delay
 *
 /
 queueUpdate
-:
-function
 (
 )
 {
@@ -7180,8 +7136,6 @@ update
 *
 /
 updateRow
-:
-function
 (
 row
 summaries
@@ -7299,8 +7253,6 @@ measurements
 *
 /
 updateTable
-:
-function
 (
 )
 {

@@ -670,8 +670,6 @@ executeAsync
 (
 {
 handleCompletion
-:
-function
 (
 )
 {

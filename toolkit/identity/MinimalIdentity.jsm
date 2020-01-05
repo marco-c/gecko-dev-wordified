@@ -495,8 +495,6 @@ break
 }
 }
 shutdown
-:
-function
 (
 )
 {

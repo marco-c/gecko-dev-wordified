@@ -1228,8 +1228,6 @@ addVisits
 [
 {
 uri
-:
-uri
 title
 :
 "

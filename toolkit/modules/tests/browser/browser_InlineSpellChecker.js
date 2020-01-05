@@ -106,8 +106,6 @@ localized
 output
 .
 testDictionaryDisplayNames
-:
-function
 (
 )
 {

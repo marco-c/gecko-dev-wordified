@@ -314,8 +314,6 @@ start_load_in_parent
 "
 {
 testUrl
-:
-testUrl
 }
 )
 ;

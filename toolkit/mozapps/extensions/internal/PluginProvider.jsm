@@ -537,8 +537,6 @@ plugins
 :
 null
 startup
-:
-function
 (
 )
 {
@@ -595,8 +593,6 @@ shutdown
 *
 /
 shutdown
-:
-function
 (
 )
 {
@@ -630,8 +626,6 @@ LIST_UPDATED_TOPIC
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -860,8 +854,6 @@ object
 *
 /
 buildWrapper
-:
-function
 (
 aPlugin
 )
@@ -927,8 +919,6 @@ to
 *
 /
 getAddonByID
-:
-function
 (
 aId
 aCallback
@@ -1026,8 +1016,6 @@ to
 *
 /
 getAddonsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -1159,8 +1147,6 @@ to
 *
 /
 getAddonsWithOperationsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -1219,8 +1205,6 @@ to
 *
 /
 getInstallsByTypes
-:
-function
 (
 aTypes
 aCallback
@@ -1264,8 +1248,6 @@ ID
 *
 /
 getPluginList
-:
-function
 (
 )
 {
@@ -1459,8 +1441,6 @@ host
 *
 /
 buildPluginList
-:
-function
 (
 )
 {
@@ -1510,8 +1490,6 @@ changes
 *
 /
 updatePluginList
-:
-function
 (
 )
 {
@@ -3721,8 +3699,6 @@ true
 ;
 }
 isCompatibleWith
-:
-function
 (
 aAppVersion
 aPlatformVersion
@@ -3733,8 +3709,6 @@ true
 ;
 }
 findUpdates
-:
-function
 (
 aListener
 aReason

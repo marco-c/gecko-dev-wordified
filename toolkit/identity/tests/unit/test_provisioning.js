@@ -109,8 +109,6 @@ function
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -249,8 +247,6 @@ run_next_test
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -365,8 +361,6 @@ at
 all
 !
 genKeyPairCallback
-:
-function
 (
 pk
 )
@@ -469,8 +463,6 @@ run_next_test
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 time_s
@@ -485,8 +477,6 @@ _callerId
 ;
 }
 genKeyPairCallback
-:
-function
 (
 kp
 )
@@ -626,8 +616,6 @@ run_next_test
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -793,8 +781,6 @@ run_next_test
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -809,8 +795,6 @@ _callerId
 ;
 }
 genKeyPairCallback
-:
-function
 (
 pk
 )
@@ -963,8 +947,6 @@ run_next_test
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -979,8 +961,6 @@ _callerId
 ;
 }
 genKeyPairCallback
-:
-function
 (
 pk
 )
