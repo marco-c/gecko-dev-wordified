@@ -356,14 +356,6 @@ module_dir
     
 args
 .
-dm_trans
-=
-'
-adb
-'
-    
-args
-.
 ignoreWindowSize
 =
 True
