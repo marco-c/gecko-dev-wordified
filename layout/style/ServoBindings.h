@@ -899,13 +899,6 @@ element
 )
 ;
 bool
-Gecko_IsHTMLElementInHTMLDocument
-(
-RawGeckoElementBorrowed
-element
-)
-;
-bool
 Gecko_IsLink
 (
 RawGeckoElementBorrowed
