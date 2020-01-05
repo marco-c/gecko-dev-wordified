@@ -348,11 +348,11 @@ String
 pub
 line
 :
-u32
+usize
 pub
 column
 :
-u32
+usize
 pub
 msg
 :
@@ -1408,11 +1408,11 @@ String
 pub
 lineNumber
 :
-u32
+usize
 pub
 columnNumber
 :
-u32
+usize
 }
 bitflags
 !

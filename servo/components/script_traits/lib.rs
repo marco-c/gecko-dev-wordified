@@ -1255,8 +1255,8 @@ ReportCSSError
 (
 PipelineId
 String
-u32
-u32
+usize
+usize
 String
 )
 }
