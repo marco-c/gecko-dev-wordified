@@ -226,7 +226,7 @@ the
 function
 must
 have
-consume
+consumed
 exactly
 the
 amount
@@ -603,7 +603,7 @@ test
 ]
 extern
 crate
-tempdir
+difference
 ;
 #
 [
