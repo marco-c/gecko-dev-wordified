@@ -1422,12 +1422,6 @@ IndexedSetter
 None
             
 '
-IndexedCreator
-'
-:
-None
-            
-'
 IndexedDeleter
 '
 :
@@ -1441,12 +1435,6 @@ None
             
 '
 NamedSetter
-'
-:
-None
-            
-'
-NamedCreator
 '
 :
 None
