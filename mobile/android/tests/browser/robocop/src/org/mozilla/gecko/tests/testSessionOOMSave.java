@@ -8,6 +8,13 @@ gecko
 tests
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 org
 .
 mozilla
@@ -319,6 +326,8 @@ session
 boolean
 success
 =
+mSolo
+.
 waitForCondition
 (
 verifyJSONCondition
@@ -358,6 +367,8 @@ verify
 session
 JSON
 "
+Log
+.
 getStackTraceString
 (
 verifyJSONCondition

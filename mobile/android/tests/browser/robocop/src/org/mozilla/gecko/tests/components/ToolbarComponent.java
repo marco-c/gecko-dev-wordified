@@ -278,7 +278,7 @@ ToolbarComponent
 extends
 BaseComponent
 {
-private
+public
 static
 final
 String
