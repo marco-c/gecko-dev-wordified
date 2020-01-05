@@ -98,15 +98,6 @@ std
 :
 i32
 ;
-use
-std
-:
-:
-ops
-:
-:
-Add
-;
 /
 /
 Units
