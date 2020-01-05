@@ -147,10 +147,10 @@ LocalizationHelper
 (
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 gclicommands
 .

@@ -508,7 +508,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 startup
 .

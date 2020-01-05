@@ -1572,10 +1572,10 @@ LocalizationHelper
 (
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 shared
 .
