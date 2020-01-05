@@ -4345,7 +4345,7 @@ next
 glyph
 while
 (
-1
+true
 )
 {
 gfxTextRun
