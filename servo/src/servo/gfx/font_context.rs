@@ -266,7 +266,7 @@ quartz
 font_context
 :
 :
-QuartzFontContext
+QuartzFontContextHandle
 ;
 #
 [
@@ -290,7 +290,7 @@ freetype
 font_context
 :
 :
-FreeTypeFontContext
+FreeTypeFontContextHandle
 ;
 #
 [
@@ -323,7 +323,7 @@ quartz
 font_context
 :
 :
-QuartzFontContext
+QuartzFontContextHandle
 :
 :
 new
@@ -362,7 +362,7 @@ freetype
 font_context
 :
 :
-FreeTypeFontContext
+FreeTypeFontContextHandle
 :
 :
 new

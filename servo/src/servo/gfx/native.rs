@@ -49,7 +49,7 @@ future
 /
 pub
 use
-font_handle
+font
 :
 :
 FontHandle

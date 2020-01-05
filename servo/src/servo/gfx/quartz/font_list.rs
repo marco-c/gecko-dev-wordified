@@ -1,6 +1,6 @@
 pub
 struct
-QuartzFontContextHandle
+QuartzFontListHandle
 {
 ctx
 :
@@ -12,7 +12,7 @@ drop
 }
 pub
 impl
-QuartzFontContextHandle
+QuartzFontListHandle
 {
 /
 /
@@ -21,12 +21,9 @@ is
 a
 placeholder
 until
-NSFontManager
-or
-whatever
+CTFontCollection
 is
 bound
-in
 here
 .
 static
@@ -37,9 +34,9 @@ new
 )
 -
 >
-QuartzFontContextHandle
+QuartzFontListHandle
 {
-QuartzFontContextHandle
+QuartzFontListHandle
 {
 ctx
 :
