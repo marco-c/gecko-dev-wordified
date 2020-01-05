@@ -6348,6 +6348,7 @@ now
 .
 *
 /
+public
 static
 void
 stop

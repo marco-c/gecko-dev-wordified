@@ -151,4 +151,9 @@ double
 value
 )
 ;
+void
+stop
+(
+)
+;
 }
