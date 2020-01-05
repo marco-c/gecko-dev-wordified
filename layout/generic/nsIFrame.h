@@ -20305,6 +20305,10 @@ nsIFrame
 *
 *
 aOutAncestor
+bool
+aInCSSUnits
+=
+false
 )
 ;
 /

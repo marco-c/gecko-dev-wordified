@@ -17160,6 +17160,8 @@ const
 nsIFrame
 *
 aAncestor
+bool
+aInCSSUnits
 )
 {
 nsIFrame
@@ -17191,6 +17193,7 @@ GetTransformMatrix
 aAncestor
 &
 parent
+aInCSSUnits
 )
 ;
 while
@@ -17234,6 +17237,7 @@ GetTransformMatrix
 aAncestor
 &
 parent
+aInCSSUnits
 )
 ;
 }
