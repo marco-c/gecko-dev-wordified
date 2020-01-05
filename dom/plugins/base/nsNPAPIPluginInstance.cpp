@@ -8910,6 +8910,11 @@ mMuted
 =
 aMuted
 ;
+if
+(
+mAudioChannelAgent
+)
+{
 AudioChannelService
 :
 :
@@ -8949,6 +8954,7 @@ AudibleChangedReasons
 eVolumeChanged
 )
 ;
+}
 }
 return
 rv
