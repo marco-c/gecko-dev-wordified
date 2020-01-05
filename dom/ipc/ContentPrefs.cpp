@@ -1807,15 +1807,6 @@ sandbox
 windows
 .
 log
-"
-"
-security
-.
-sandbox
-.
-windows
-.
-log
 .
 stackTraceDepth
 "
