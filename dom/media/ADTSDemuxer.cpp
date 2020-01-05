@@ -1153,9 +1153,11 @@ Parse
 (
 int64_t
 aOffset
+const
 uint8_t
 *
 aStart
+const
 uint8_t
 *
 aEnd
@@ -1174,6 +1176,7 @@ found
 =
 false
 ;
+const
 uint8_t
 *
 ptr
@@ -1486,9 +1489,11 @@ Parse
 (
 int64_t
 aOffset
+const
 uint8_t
 *
 aStart
+const
 uint8_t
 *
 aEnd
