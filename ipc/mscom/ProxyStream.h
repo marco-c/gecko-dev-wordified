@@ -185,6 +185,8 @@ aObject
 ;
 ProxyStream
 (
+REFIID
+aIID
 const
 BYTE
 *
