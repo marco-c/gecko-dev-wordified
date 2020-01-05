@@ -14537,6 +14537,10 @@ self
 .
 type
 .
+unroll
+(
+)
+.
 flatMemberTypes
 :
                 
