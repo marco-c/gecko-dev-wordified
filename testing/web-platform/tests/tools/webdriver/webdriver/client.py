@@ -935,24 +935,6 @@ viewport
 "
 "
         
-#
-TODO
-change
-to
-pointerMove
-once
-geckodriver
->
-0
-.
-14
-is
-available
-on
-mozilla
--
-central
-        
 action
 =
 {
@@ -962,7 +944,7 @@ type
 "
 :
 "
-move
+pointerMove
 "
             
 "
