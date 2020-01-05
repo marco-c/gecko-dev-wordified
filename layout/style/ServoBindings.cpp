@@ -1278,6 +1278,13 @@ SetNeedStyleFlush
 (
 )
 ;
+shell
+-
+>
+ObserveStyleFlushes
+(
+)
+;
 }
 }
 nsStyleContext
