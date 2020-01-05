@@ -284,7 +284,6 @@ glutin
 ElementState
 Event
 MouseButton
-MouseCursor
 VirtualKeyCode
 }
 ;
@@ -4000,6 +3999,12 @@ c
 Cursor
 )
 {
+use
+glutin
+:
+:
+MouseCursor
+;
 let
 glutin_cursor
 =
