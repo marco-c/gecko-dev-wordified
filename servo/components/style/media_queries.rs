@@ -146,7 +146,7 @@ servo_util
 geometry
 :
 :
-ScreenPx
+ViewportPx
 ;
 use
 url
@@ -410,7 +410,7 @@ viewport_size
 :
 TypedSize2D
 <
-ScreenPx
+ViewportPx
 f32
 >
 }
@@ -428,7 +428,7 @@ viewport_size
 :
 TypedSize2D
 <
-ScreenPx
+ViewportPx
 f32
 >
 )
@@ -1902,6 +1902,12 @@ Stylesheet
 }
 ;
 use
+selector_matching
+:
+:
+AuthorOrigin
+;
+use
 super
 :
 :
@@ -1961,6 +1967,7 @@ from_str
 (
 css
 url
+AuthorOrigin
 )
 ;
 let
@@ -2052,6 +2059,7 @@ from_str
 (
 css
 url
+AuthorOrigin
 )
 ;
 let

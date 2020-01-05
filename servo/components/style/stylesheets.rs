@@ -154,6 +154,12 @@ parse_font_face_rule
 iter_font_face_rules_inner
 }
 ;
+use
+selector_matching
+:
+:
+StylesheetOrigin
+;
 pub
 struct
 Stylesheet
@@ -185,6 +191,10 @@ Vec
 <
 CSSRule
 >
+pub
+origin
+:
+StylesheetOrigin
 }
 pub
 enum
@@ -263,6 +273,9 @@ Option
 <
 EncodingRef
 >
+origin
+:
+StylesheetOrigin
 )
 -
 >
@@ -316,6 +329,7 @@ as_slice
 base_url
 protocol_encoding_label
 environment_encoding
+origin
 )
 }
 pub
@@ -344,6 +358,9 @@ Option
 <
 EncodingRef
 >
+origin
+:
+StylesheetOrigin
 )
 -
 >
@@ -391,6 +408,7 @@ as_slice
 (
 )
 base_url
+origin
 )
 }
 pub
@@ -404,6 +422,9 @@ str
 base_url
 :
 Url
+origin
+:
+StylesheetOrigin
 )
 -
 >
@@ -733,6 +754,9 @@ Stylesheet
 rules
 :
 rules
+origin
+:
+origin
 }
 }
 }
@@ -1079,13 +1103,6 @@ _
 }
 }
 }
-#
-[
-cfg
-(
-test
-)
-]
 pub
 fn
 iter_stylesheet_media_rules
