@@ -168,6 +168,9 @@ unfiledBookmarksFolderId
 PlacesUtils
 .
 toolbarFolderId
+PlacesUtils
+.
+mobileFolderId
 ]
 )
 ;
