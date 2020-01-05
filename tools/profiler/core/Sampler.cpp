@@ -2995,9 +2995,6 @@ aSinceTime
 }
 if
 (
-Sampler
-:
-:
 CanNotifyObservers
 (
 )
