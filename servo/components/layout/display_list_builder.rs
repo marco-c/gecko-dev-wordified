@@ -456,12 +456,14 @@ use
 style
 :
 :
-computed
+values
+:
+:
+specified
 :
 :
 {
 AngleOrCorner
-LengthOrPercentage
 HorizontalDirection
 VerticalDirection
 }
@@ -476,6 +478,7 @@ computed
 {
 Image
 LinearGradient
+LengthOrPercentage
 }
 ;
 use
@@ -1686,8 +1689,6 @@ specified
 border_style
 .
 border_top_left_radius
-.
-radius
 abs_bounds
 .
 size
@@ -1704,8 +1705,6 @@ specified
 border_style
 .
 border_top_right_radius
-.
-radius
 abs_bounds
 .
 size
@@ -1722,8 +1721,6 @@ specified
 border_style
 .
 border_bottom_right_radius
-.
-radius
 abs_bounds
 .
 size
@@ -1740,8 +1737,6 @@ specified
 border_style
 .
 border_bottom_left_radius
-.
-radius
 abs_bounds
 .
 size
