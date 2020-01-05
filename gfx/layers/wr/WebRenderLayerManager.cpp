@@ -882,7 +882,7 @@ format
 "
 )
 ;
-gfx
+wr
 :
 :
 ByteBuffer
@@ -941,6 +941,9 @@ imageMask
 .
 rect
 =
+wr
+:
+:
 ToWRRect
 (
 Rect
@@ -1295,10 +1298,16 @@ AddWebRenderCommand
 (
 OpDPPushStackingContext
 (
+wr
+:
+:
 ToWRRect
 (
 bounds
 )
+wr
+:
+:
 ToWRRect
 (
 overflow

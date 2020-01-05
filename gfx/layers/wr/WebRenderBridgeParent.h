@@ -213,11 +213,15 @@ CompositorWidget
 ;
 }
 namespace
-layers
+wr
 {
 class
 WebRenderAPI
 ;
+}
+namespace
+layers
+{
 class
 CompositableHost
 ;
@@ -260,6 +264,9 @@ CompositorWidget
 aWidget
 RefPtr
 <
+wr
+:
+:
 WebRenderAPI
 >
 &
@@ -938,6 +945,9 @@ mWidget
 ;
 Maybe
 <
+wr
+:
+:
 DisplayListBuilder
 >
 mBuilder
@@ -957,6 +967,9 @@ mWRWindowState
 ;
 RefPtr
 <
+wr
+:
+:
 WebRenderAPI
 >
 mApi
