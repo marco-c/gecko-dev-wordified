@@ -1562,14 +1562,6 @@ clasp
 isNative
 (
 )
-|
-|
-clasp
--
->
-isProxy
-(
-)
 )
 ;
 slots
