@@ -61,14 +61,6 @@ MPL
 [
 feature
 (
-as_unsafe_cell
-)
-]
-#
-!
-[
-feature
-(
 box_patterns
 )
 ]
