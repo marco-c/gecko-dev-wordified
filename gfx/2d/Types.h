@@ -142,6 +142,10 @@ typedef
 float
 Float
 ;
+typedef
+double
+Double
+;
 enum
 class
 SurfaceType
