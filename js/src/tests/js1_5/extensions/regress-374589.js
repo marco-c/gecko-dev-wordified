@@ -442,6 +442,9 @@ function
 (
 )
 {
+\
+n
+\
 try
 {
 }
@@ -459,9 +462,6 @@ y
 )
 {
 }
-'
-+
-'
 finally
 {
 this
