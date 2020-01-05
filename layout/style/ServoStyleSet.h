@@ -1103,6 +1103,12 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
+dom
+:
+:
+Element
+*
+aElementForAnimation
 )
 ;
 already_AddRefed
