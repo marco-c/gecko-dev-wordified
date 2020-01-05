@@ -379,10 +379,11 @@ expect
 =
 TypeError
 :
-(
-intermediate
-value
-)
+[
+.
+.
+.
+]
 [
 Symbol
 .
