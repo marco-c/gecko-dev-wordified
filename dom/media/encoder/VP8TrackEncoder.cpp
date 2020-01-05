@@ -1132,13 +1132,6 @@ mDisplayHeight
 =
 mDisplayHeight
 ;
-meta
--
->
-mEncodedFrameRate
-=
-mEncodedFrameRate
-;
 return
 meta
 .

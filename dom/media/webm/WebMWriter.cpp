@@ -424,10 +424,6 @@ meta
 -
 >
 mDisplayHeight
-meta
--
->
-mEncodedFrameRate
 )
 ;
 mMetadataRequiredFlag

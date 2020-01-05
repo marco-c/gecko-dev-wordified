@@ -503,8 +503,6 @@ displayWidth
 unsigned
 int
 displayHeight
-double
-frameRate
 )
 {
 EbmlLoc
@@ -637,13 +635,6 @@ displayHeight
 )
 ;
 }
-Ebml_SerializeFloat
-(
-glob
-FrameRate
-frameRate
-)
-;
 Ebml_EndSubElement
 (
 glob
