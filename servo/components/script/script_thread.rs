@@ -8317,7 +8317,7 @@ size
 return
 ;
 }
-panic
+warn
 !
 (
 "
