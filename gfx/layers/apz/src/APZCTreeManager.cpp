@@ -11801,6 +11801,7 @@ aGuid
 GuidComparator
 aComparator
 )
+const
 {
 mTreeLock
 .
