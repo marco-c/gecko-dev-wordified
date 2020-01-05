@@ -1423,6 +1423,7 @@ false
 ;
 if
 (
+!
 sp
 -
 >
@@ -1432,8 +1433,6 @@ put
 {
 "
 )
-<
-0
 )
 return
 false
@@ -1502,6 +1501,7 @@ false
 }
 if
 (
+!
 sp
 -
 >
@@ -1513,8 +1513,6 @@ put
 n
 "
 )
-<
-0
 )
 return
 false
@@ -6359,6 +6357,7 @@ nullptr
 {
 if
 (
+!
 sp
 -
 >
@@ -6367,8 +6366,6 @@ put
 "
 "
 )
-<
-0
 )
 return
 false
@@ -6381,6 +6378,7 @@ showAll
 {
 if
 (
+!
 sp
 -
 >
@@ -6391,8 +6389,6 @@ sn
 stack
 "
 )
-<
-0
 )
 return
 false
@@ -6400,6 +6396,7 @@ false
 }
 if
 (
+!
 sp
 -
 >
@@ -6409,8 +6406,6 @@ put
 loc
 "
 )
-<
-0
 )
 return
 false
@@ -6422,6 +6417,7 @@ lines
 {
 if
 (
+!
 sp
 -
 >
@@ -6431,8 +6427,6 @@ put
 line
 "
 )
-<
-0
 )
 return
 false
@@ -6440,6 +6434,7 @@ false
 }
 if
 (
+!
 sp
 -
 >
@@ -6451,8 +6446,6 @@ op
 n
 "
 )
-<
-0
 )
 return
 false
@@ -6467,6 +6460,7 @@ nullptr
 {
 if
 (
+!
 sp
 -
 >
@@ -6475,8 +6469,6 @@ put
 "
 "
 )
-<
-0
 )
 return
 false
@@ -6489,6 +6481,7 @@ showAll
 {
 if
 (
+!
 sp
 -
 >
@@ -6504,8 +6497,6 @@ put
 -
 "
 )
-<
-0
 )
 return
 false
@@ -6513,6 +6504,7 @@ false
 }
 if
 (
+!
 sp
 -
 >
@@ -6526,8 +6518,6 @@ put
 -
 "
 )
-<
-0
 )
 return
 false
@@ -6539,6 +6529,7 @@ lines
 {
 if
 (
+!
 sp
 -
 >
@@ -6551,8 +6542,6 @@ put
 -
 "
 )
-<
-0
 )
 return
 false
@@ -6560,6 +6549,7 @@ false
 }
 if
 (
+!
 sp
 -
 >
@@ -6572,8 +6562,6 @@ put
 n
 "
 )
-<
-0
 )
 return
 false
@@ -6622,6 +6610,7 @@ main
 {
 if
 (
+!
 sp
 -
 >
@@ -6634,8 +6623,6 @@ main
 n
 "
 )
-<
-0
 )
 return
 false
@@ -6651,6 +6638,7 @@ nullptr
 {
 if
 (
+!
 sp
 -
 >
@@ -6670,8 +6658,6 @@ next
 "
 "
 )
-<
-0
 )
 return
 false
@@ -6795,6 +6781,7 @@ else
 {
 if
 (
+!
 sp
 -
 >
@@ -6803,8 +6790,6 @@ put
 "
 "
 )
-<
-0
 )
 return
 false
@@ -6848,6 +6833,7 @@ else
 {
 if
 (
+!
 sp
 -
 >
@@ -6856,8 +6842,6 @@ put
 "
 "
 )
-<
-0
 )
 return
 false
@@ -8324,6 +8308,10 @@ i
 +
 +
 )
+{
+if
+(
+!
 sp
 -
 >
@@ -8332,7 +8320,14 @@ put
 "
 "
 )
+)
+return
+false
 ;
+}
+if
+(
+!
 sp
 -
 >
@@ -8342,6 +8337,9 @@ put
 #
 "
 )
+)
+return
+false
 ;
 if
 (
@@ -8357,6 +8355,7 @@ pc
 {
 if
 (
+!
 sp
 -
 >
@@ -8372,8 +8371,6 @@ UNREACHABLE
 !
 "
 )
-<
-0
 )
 return
 false
@@ -8415,6 +8412,7 @@ i
 {
 if
 (
+!
 sp
 -
 >
@@ -8423,8 +8421,6 @@ put
 "
 "
 )
-<
-0
 )
 return
 false
@@ -11347,9 +11343,6 @@ GetBytecodeInteger
 pc
 )
 )
->
-=
-0
 ;
 case
 JSOP_STRING
@@ -12035,9 +12028,6 @@ toDouble
 (
 )
 )
->
-=
-0
 ;
 case
 JSOP_EXCEPTION
@@ -12773,9 +12763,6 @@ put
 (
 s
 )
->
-=
-0
 ;
 }
 bool
@@ -12818,9 +12805,6 @@ putString
 (
 str
 )
->
-=
-0
 ;
 }
 bool
