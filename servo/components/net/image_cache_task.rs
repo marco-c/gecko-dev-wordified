@@ -3020,7 +3020,7 @@ push
 "
 rippy
 .
-jpg
+png
 "
 )
 ;
