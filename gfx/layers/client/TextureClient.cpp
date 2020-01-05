@@ -9197,6 +9197,14 @@ readCount
 if
 (
 mClientAllocator
+&
+&
+mClientAllocator
+-
+>
+GetTileLockAllocator
+(
+)
 )
 {
 mClientAllocator
@@ -9223,6 +9231,11 @@ on
 the
 compositor
 process
+or
+IPC
+is
+down
+.
 FixedSizeSmallShmemSectionAllocator
 :
 :

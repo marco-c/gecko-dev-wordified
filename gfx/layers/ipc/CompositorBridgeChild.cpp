@@ -5835,13 +5835,6 @@ GetTileLockAllocator
 (
 )
 {
-MOZ_ASSERT
-(
-IPCOpen
-(
-)
-)
-;
 if
 (
 !
