@@ -127,6 +127,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+WebRenderTypes
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
