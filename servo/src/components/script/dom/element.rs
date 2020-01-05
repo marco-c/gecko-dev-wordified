@@ -570,6 +570,13 @@ get_attr
 (
 &
 self
+ns_url
+:
+Option
+<
+~
+str
+>
 name
 :
 &
@@ -587,7 +594,7 @@ self
 .
 get_attribute
 (
-None
+ns_url
 name
 )
 .
@@ -686,6 +693,7 @@ self
 .
 get_attr
 (
+None
 "
 href
 "
@@ -1798,7 +1806,7 @@ self
 .
 get_attr
 (
-&
+None
 "
 id
 "
@@ -1952,6 +1960,7 @@ self
 .
 get_attr
 (
+None
 name
 )
 .

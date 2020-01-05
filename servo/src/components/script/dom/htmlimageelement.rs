@@ -353,6 +353,7 @@ elem
 .
 get_attr
 (
+None
 "
 src
 "

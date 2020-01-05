@@ -441,6 +441,7 @@ elem
 .
 get_attr
 (
+None
 "
 href
 "
@@ -551,6 +552,7 @@ elem
 .
 get_attr
 (
+None
 "
 name
 "

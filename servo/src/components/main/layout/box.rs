@@ -1072,6 +1072,7 @@ elt
 .
 get_attr
 (
+None
 "
 width
 "
@@ -1223,6 +1224,7 @@ elt
 .
 get_attr
 (
+None
 "
 height
 "
