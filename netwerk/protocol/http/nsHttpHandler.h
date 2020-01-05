@@ -513,6 +513,15 @@ return
 mSpoofReferrerSource
 ;
 }
+bool
+HideOnionReferrerSource
+(
+)
+{
+return
+mHideOnionReferrerSource
+;
+}
 uint8_t
 ReferrerTrimmingPolicy
 (
@@ -2343,6 +2352,9 @@ mReferrerLevel
 ;
 uint8_t
 mSpoofReferrerSource
+;
+uint8_t
+mHideOnionReferrerSource
 ;
 uint8_t
 mReferrerTrimmingPolicy
