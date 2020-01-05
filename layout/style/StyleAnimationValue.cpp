@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsStyleTransformMatrix
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
