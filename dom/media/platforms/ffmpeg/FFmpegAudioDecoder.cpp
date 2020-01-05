@@ -1237,6 +1237,11 @@ __func__
 }
 if
 (
+decoded
+)
+{
+if
+(
 mFrame
 -
 >
@@ -1317,11 +1322,6 @@ __func__
 )
 ;
 }
-if
-(
-decoded
-)
-{
 uint32_t
 numChannels
 =
