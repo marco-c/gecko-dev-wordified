@@ -114,7 +114,7 @@ h
 /
 /
 for
-NS_SIDE_BOTTOM
+eSideBottom
 etc
 #
 include
@@ -168,7 +168,7 @@ static_assert
 (
 int
 (
-NS_SIDE_TOP
+eSideTop
 )
 =
 =
@@ -179,7 +179,7 @@ NS_SIDE_TOP
 (
 int
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 =
 =
@@ -190,7 +190,7 @@ NS_SIDE_RIGHT
 (
 int
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 =
 =
@@ -201,7 +201,7 @@ NS_SIDE_BOTTOM
 (
 int
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 =
 =

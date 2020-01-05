@@ -608,7 +608,7 @@ border
 .
 SetBorderWidth
 (
-NS_SIDE_TOP
+eSideTop
 ruleWidth
 )
 ;
@@ -616,7 +616,7 @@ border
 .
 SetBorderStyle
 (
-NS_SIDE_TOP
+eSideTop
 ruleStyle
 )
 ;
@@ -655,7 +655,7 @@ border
 .
 SetBorderWidth
 (
-NS_SIDE_LEFT
+eSideLeft
 ruleWidth
 )
 ;
@@ -663,7 +663,7 @@ border
 .
 SetBorderStyle
 (
-NS_SIDE_LEFT
+eSideLeft
 ruleStyle
 )
 ;

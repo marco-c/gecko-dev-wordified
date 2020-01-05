@@ -661,7 +661,7 @@ mStyleBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 float

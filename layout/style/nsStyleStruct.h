@@ -8517,7 +8517,10 @@ NS_ASSERTION
 aSide
 <
 =
-NS_SIDE_LEFT
+mozilla
+:
+:
+eSideLeft
 "
 bad
 side
@@ -8548,7 +8551,10 @@ NS_ASSERTION
 aSide
 <
 =
-NS_SIDE_LEFT
+mozilla
+:
+:
+eSideLeft
 "
 bad
 side

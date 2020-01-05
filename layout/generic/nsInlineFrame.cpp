@@ -758,7 +758,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_TOP
+eSideTop
 )
 !
 =
@@ -802,7 +802,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 !
 =
@@ -849,7 +849,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 !
 =
@@ -893,7 +893,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 !
 =

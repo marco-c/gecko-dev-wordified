@@ -5038,7 +5038,7 @@ pos
 >
 OffsetHasPercent
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 |
 |
@@ -5047,7 +5047,7 @@ pos
 >
 OffsetHasPercent
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 )
 {

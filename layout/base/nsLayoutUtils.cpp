@@ -30331,9 +30331,9 @@ Get
 (
 aHorizontalAxis
 ?
-NS_SIDE_TOP
+eSideTop
 :
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 const
@@ -30347,9 +30347,9 @@ Get
 (
 aHorizontalAxis
 ?
-NS_SIDE_BOTTOM
+eSideBottom
 :
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 nscoord
@@ -44469,7 +44469,7 @@ static_assert
 (
 int
 )
-NS_SIDE_TOP
+eSideTop
 =
 =
 NS_CORNER_TOP_LEFT
@@ -44486,7 +44486,7 @@ static_assert
 (
 int
 )
-NS_SIDE_RIGHT
+eSideRight
 =
 =
 NS_CORNER_TOP_RIGHT
@@ -44503,7 +44503,7 @@ static_assert
 (
 int
 )
-NS_SIDE_BOTTOM
+eSideBottom
 =
 =
 NS_CORNER_BOTTOM_RIGHT
@@ -44520,7 +44520,7 @@ static_assert
 (
 int
 )
-NS_SIDE_LEFT
+eSideLeft
 =
 =
 NS_CORNER_BOTTOM_LEFT
@@ -44537,7 +44537,7 @@ static_assert
 (
 int
 )
-NS_SIDE_TOP
+eSideTop
 =
 =
 (
@@ -44562,7 +44562,7 @@ static_assert
 (
 int
 )
-NS_SIDE_RIGHT
+eSideRight
 =
 =
 (
@@ -44587,7 +44587,7 @@ static_assert
 (
 int
 )
-NS_SIDE_BOTTOM
+eSideBottom
 =
 =
 (
@@ -44612,7 +44612,7 @@ static_assert
 (
 int
 )
-NS_SIDE_LEFT
+eSideLeft
 =
 =
 (

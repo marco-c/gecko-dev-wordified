@@ -1597,13 +1597,13 @@ basis
 side
 =
 =
-NS_SIDE_TOP
+eSideTop
 |
 |
 side
 =
 =
-NS_SIDE_BOTTOM
+eSideBottom
 ?
 rootRect
 .

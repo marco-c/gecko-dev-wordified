@@ -30753,7 +30753,7 @@ styleBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 result
@@ -30766,7 +30766,7 @@ styleBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_BOTTOM
+eSideBottom
 )
 ;
 }
@@ -30782,7 +30782,7 @@ styleBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 result
@@ -30795,7 +30795,7 @@ styleBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_RIGHT
+eSideRight
 )
 ;
 }

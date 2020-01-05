@@ -20325,7 +20325,7 @@ borderStyle
 >
 GetBorderStyle
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 StrokeOptions

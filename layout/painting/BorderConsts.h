@@ -141,7 +141,7 @@ SIDE_BIT_TOP
 1
 <
 <
-NS_SIDE_TOP
+eSideTop
 )
 #
 define
@@ -150,7 +150,7 @@ SIDE_BIT_RIGHT
 1
 <
 <
-NS_SIDE_RIGHT
+eSideRight
 )
 #
 define
@@ -159,7 +159,7 @@ SIDE_BIT_BOTTOM
 1
 <
 <
-NS_SIDE_BOTTOM
+eSideBottom
 )
 #
 define
@@ -168,7 +168,7 @@ SIDE_BIT_LEFT
 1
 <
 <
-NS_SIDE_LEFT
+eSideLeft
 )
 #
 define

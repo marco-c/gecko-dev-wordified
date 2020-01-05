@@ -11454,9 +11454,9 @@ aHorizontalSide
 (
 mHFlip
 ?
-NS_SIDE_RIGHT
+eSideRight
 :
-NS_SIDE_LEFT
+eSideLeft
 )
 )
 {
@@ -11491,9 +11491,9 @@ aHorizontalSide
 (
 mHFlip
 ?
-NS_SIDE_LEFT
+eSideLeft
 :
-NS_SIDE_RIGHT
+eSideRight
 )
 )
 {
@@ -11527,9 +11527,9 @@ aVerticalSide
 (
 mVFlip
 ?
-NS_SIDE_BOTTOM
+eSideBottom
 :
-NS_SIDE_TOP
+eSideTop
 )
 )
 {
@@ -11564,9 +11564,9 @@ aVerticalSide
 (
 mVFlip
 ?
-NS_SIDE_TOP
+eSideTop
 :
-NS_SIDE_BOTTOM
+eSideBottom
 )
 )
 {

@@ -1095,7 +1095,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 origin
@@ -1108,7 +1108,7 @@ border
 >
 GetComputedBorderWidth
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 /
@@ -1143,7 +1143,7 @@ parentBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_LEFT
+eSideLeft
 )
 ;
 origin
@@ -1156,7 +1156,7 @@ parentBorder
 >
 GetComputedBorderWidth
 (
-NS_SIDE_TOP
+eSideTop
 )
 ;
 aRect
