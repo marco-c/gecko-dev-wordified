@@ -98,7 +98,11 @@ util
 .
 scriptworker
 import
+(
 get_beetmover_bucket_scope
+                                         
+get_beetmover_action_scope
+)
 from
 taskgraph
 .
@@ -1709,6 +1713,13 @@ get_beetmover_bucket_scope
 config
 )
         
+action_scope
+=
+get_beetmover_action_scope
+(
+config
+)
+        
 task
 =
 {
@@ -1771,6 +1782,7 @@ scopes
 :
 [
 bucket_scope
+action_scope
 ]
             
 '
