@@ -108,10 +108,7 @@ msg
 constellation_msg
 :
 :
-{
-PanicMsg
 PipelineId
-}
 ;
 use
 net_traits
@@ -1038,13 +1035,6 @@ constellation_chan
 IpcSender
 <
 ConstellationMsg
->
-pub
-panic_chan
-:
-IpcSender
-<
-PanicMsg
 >
 pub
 script_chan
