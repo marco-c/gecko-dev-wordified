@@ -1495,7 +1495,11 @@ denseElementsAreCopyOnWrite
 JSObject
 *
 baseObj
-=
+;
+JS_TRY_VAR_OR_RETURN_NULL
+(
+cx
+baseObj
 create
 (
 cx
@@ -1504,14 +1508,7 @@ heap
 shape
 group
 )
-;
-if
-(
-!
-baseObj
 )
-return
-nullptr
 ;
 NativeObject
 *
