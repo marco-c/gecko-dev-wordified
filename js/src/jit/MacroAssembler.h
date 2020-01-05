@@ -2852,6 +2852,12 @@ x86_shared
 )
 ;
 void
+PopStackPtr
+(
+)
+PER_SHARED_ARCH
+;
+void
 popRooted
 (
 VMFunction
