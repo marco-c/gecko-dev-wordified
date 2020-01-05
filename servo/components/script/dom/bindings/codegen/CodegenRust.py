@@ -26793,29 +26793,6 @@ templateVars
         
 ]
         
-#
-XXXManishearth
-The
-following
-should
-be
-#
-[
-must_root
-]
-        
-#
-however
-we
-currently
-allow
-it
-till
-#
-2661
-is
-fixed
-        
 return
 (
 "
