@@ -1105,12 +1105,10 @@ following_node
 ;
 }
 }
-return
 Ok
 (
 None
 )
-;
 }
 /
 /
@@ -1423,12 +1421,10 @@ preceding_node
 ;
 }
 }
-return
 Ok
 (
 None
 )
-;
 }
 /
 /

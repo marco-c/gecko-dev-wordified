@@ -638,14 +638,8 @@ any
 .
 fn
 super_type
-<
-'
-b
->
 (
 &
-'
-b
 self
 )
 -
@@ -653,8 +647,6 @@ self
 Option
 <
 &
-'
-b
 VirtualMethods
 >
 ;
