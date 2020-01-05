@@ -1509,10 +1509,12 @@ AsyncInvoker
 SyncInterface
 *
 aSyncObj
+const
 Maybe
 <
 bool
 >
+&
 aIsProxy
 =
 Nothing
