@@ -75,9 +75,12 @@ function
 aNewWindow
 )
 {
-someTabLoaded
+BrowserTestUtils
+.
+firstBrowserLoaded
 (
 aNewWindow
+false
 )
 .
 then
