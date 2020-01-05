@@ -6,10 +6,19 @@ import
 os
 import
 traceback
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
 import
-urlparse
+parse_qs
+quote
+unquote
+urljoin
 from
 .
 constants
@@ -146,8 +155,6 @@ doc_root
     
 path
 =
-urllib
-.
 unquote
 (
 request
@@ -582,8 +589,6 @@ base_path
             
 link
 =
-urlparse
-.
 urljoin
 (
 base_path
@@ -673,8 +678,6 @@ cgi
 .
 escape
 (
-urllib
-.
 quote
 (
 item
@@ -1058,8 +1061,6 @@ data
             
 query
 =
-urlparse
-.
 parse_qs
 (
 request

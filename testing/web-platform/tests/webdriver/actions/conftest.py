@@ -165,7 +165,7 @@ def
 test_actions_page
 (
 session
-server
+url
 )
 :
     
@@ -173,11 +173,10 @@ session
 .
 url
 =
-server
-.
-where_is
+url
 (
 "
+/
 webdriver
 /
 actions
