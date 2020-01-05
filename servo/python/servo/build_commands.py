@@ -1823,24 +1823,6 @@ in
 elapsed
 )
         
-#
-XXX
-(
-#
-7339
-)
-Android
-build
-is
-broken
-        
-if
-android
-:
-            
-return
-0
-        
 return
 status
     
