@@ -309,7 +309,9 @@ AudioData
 >
 &
 aAudioQueue
+const
 TimeUnit
+&
 aStartTime
 const
 AudioInfo
