@@ -1473,6 +1473,9 @@ patchedLdrResolveDelayLoadedAPI
 0
 ;
 }
+#
+ifdef
+_M_AMD64
 bool
 TestRtlInstallFunctionTableCallback
 (
@@ -1511,6 +1514,8 @@ patchedRtlInstallFunctionTableCallback
 FALSE
 ;
 }
+#
+endif
 bool
 TestSetUnhandledExceptionFilter
 (
