@@ -234,6 +234,10 @@ app_units
 ;
 extern
 crate
+atomic_refcell
+;
+extern
+crate
 audio_video_metadata
 ;
 #
