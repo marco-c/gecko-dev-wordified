@@ -8744,15 +8744,6 @@ PrepareForFullGC
 cx
 )
 ;
-AutoKeepAtoms
-keepAtoms
-(
-cx
--
->
-perThreadData
-)
-;
 rt
 -
 >
