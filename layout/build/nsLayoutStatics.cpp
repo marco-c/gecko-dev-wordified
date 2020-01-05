@@ -1014,6 +1014,13 @@ AddRefTable
 nsCSSProps
 :
 :
+AddRefAtoms
+(
+)
+;
+nsCSSProps
+:
+:
 AddRefTable
 (
 )
