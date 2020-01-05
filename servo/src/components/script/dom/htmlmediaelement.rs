@@ -93,7 +93,7 @@ pub
 struct
 HTMLMediaElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }
@@ -118,7 +118,7 @@ HTMLMediaElement
 {
 HTMLMediaElement
 {
-parent
+htmlelement
 :
 HTMLElement
 :

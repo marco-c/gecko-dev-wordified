@@ -116,7 +116,7 @@ pub
 struct
 Text
 {
-parent
+element
 :
 CharacterData
 }
@@ -148,7 +148,7 @@ Text
 {
 Text
 {
-parent
+element
 :
 CharacterData
 :

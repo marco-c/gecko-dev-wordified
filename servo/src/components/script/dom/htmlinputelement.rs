@@ -85,7 +85,7 @@ pub
 struct
 HTMLInputElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

@@ -84,7 +84,7 @@ pub
 struct
 HTMLOptGroupElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

@@ -105,7 +105,7 @@ pub
 struct
 HTMLOutputElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

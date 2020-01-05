@@ -84,7 +84,7 @@ pub
 struct
 HTMLTimeElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

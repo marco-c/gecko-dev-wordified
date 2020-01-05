@@ -84,7 +84,7 @@ pub
 struct
 HTMLAnchorElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

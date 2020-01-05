@@ -84,7 +84,7 @@ pub
 struct
 HTMLProgressElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

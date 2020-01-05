@@ -69,7 +69,7 @@ pub
 struct
 HTMLHeadElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

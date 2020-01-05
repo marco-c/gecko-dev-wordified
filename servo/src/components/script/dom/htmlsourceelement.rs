@@ -84,7 +84,7 @@ pub
 struct
 HTMLSourceElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

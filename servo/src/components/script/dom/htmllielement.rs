@@ -84,7 +84,7 @@ pub
 struct
 HTMLLIElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

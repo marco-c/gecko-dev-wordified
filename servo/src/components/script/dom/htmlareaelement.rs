@@ -84,7 +84,7 @@ pub
 struct
 HTMLAreaElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

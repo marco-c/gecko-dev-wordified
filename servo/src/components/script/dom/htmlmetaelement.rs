@@ -84,7 +84,7 @@ pub
 struct
 HTMLMetaElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

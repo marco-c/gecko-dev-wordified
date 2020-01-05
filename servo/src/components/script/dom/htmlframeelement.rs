@@ -102,7 +102,7 @@ pub
 struct
 HTMLFrameElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

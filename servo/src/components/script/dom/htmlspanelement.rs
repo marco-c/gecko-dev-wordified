@@ -69,7 +69,7 @@ pub
 struct
 HTMLSpanElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

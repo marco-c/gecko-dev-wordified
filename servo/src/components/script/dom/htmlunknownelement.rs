@@ -69,7 +69,7 @@ pub
 struct
 HTMLUnknownElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

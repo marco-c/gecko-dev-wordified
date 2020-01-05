@@ -81,7 +81,7 @@ pub
 struct
 HTMLMeterElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

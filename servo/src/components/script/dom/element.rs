@@ -213,7 +213,7 @@ pub
 struct
 Element
 {
-parent
+node
 :
 Node
 <
@@ -270,7 +270,7 @@ WrapperCache
 {
 self
 .
-parent
+node
 .
 get_wrappercache
 (
@@ -330,7 +330,7 @@ CacheableWrapper
 {
 self
 .
-parent
+node
 .
 GetParentObject
 (
@@ -449,7 +449,7 @@ Element
 {
 Element
 {
-parent
+node
 :
 Node
 :
@@ -818,7 +818,7 @@ _
 match
 self
 .
-parent
+node
 .
 owner_doc
 {
@@ -869,7 +869,7 @@ doc
 =
 self
 .
-parent
+node
 .
 owner_doc
 .
@@ -1426,7 +1426,7 @@ scope
 match
 self
 .
-parent
+node
 .
 owner_doc
 {
@@ -1700,7 +1700,7 @@ ClientRect
 match
 self
 .
-parent
+node
 .
 owner_doc
 {

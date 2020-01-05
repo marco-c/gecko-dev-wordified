@@ -123,7 +123,7 @@ pub
 struct
 HTMLObjectElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

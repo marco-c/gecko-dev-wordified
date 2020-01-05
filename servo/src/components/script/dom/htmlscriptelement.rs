@@ -84,7 +84,7 @@ pub
 struct
 HTMLScriptElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }
