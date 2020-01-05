@@ -755,7 +755,7 @@ GetImageIfAvailable
 .
 pub
 fn
-get_image_if_available
+find_image
 (
 &
 self

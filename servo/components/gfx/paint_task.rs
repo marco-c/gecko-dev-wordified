@@ -2213,7 +2213,7 @@ worker_threads
 thread_id
 ]
 .
-get_painted_tile_buffer
+painted_tile_buffer
 (
 )
 }
@@ -3056,7 +3056,7 @@ unwrap
 )
 }
 fn
-get_painted_tile_buffer
+painted_tile_buffer
 (
 &
 mut

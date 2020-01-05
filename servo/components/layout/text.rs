@@ -1265,7 +1265,7 @@ fontgroup
 =
 font_context
 .
-get_layout_font_group_for_style
+layout_font_group_for_style
 (
 font_style
 )
@@ -2635,7 +2635,7 @@ fontgroup
 =
 font_context
 .
-get_layout_font_group_for_style
+layout_font_group_for_style
 (
 font_style
 )

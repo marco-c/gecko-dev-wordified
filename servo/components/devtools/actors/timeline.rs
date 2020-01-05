@@ -1186,7 +1186,7 @@ name
 )
 registry
 .
-get_shareable
+shareable
 (
 )
 registry

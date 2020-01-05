@@ -267,7 +267,7 @@ fontformat
 ;
 pub
 fn
-get_available_families
+for_each_available_family
 <
 F
 >
@@ -504,7 +504,7 @@ v
 }
 pub
 fn
-get_variations_for_family
+for_each_variation
 <
 F
 >
@@ -913,7 +913,7 @@ object_set
 }
 pub
 fn
-get_system_default_family
+system_default_family
 (
 generic_name
 :
@@ -1095,7 +1095,7 @@ linux
 ]
 pub
 fn
-get_last_resort_font_families
+last_resort_font_families
 (
 )
 -
@@ -1146,7 +1146,7 @@ android
 ]
 pub
 fn
-get_last_resort_font_families
+last_resort_font_families
 (
 )
 -

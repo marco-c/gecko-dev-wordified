@@ -587,7 +587,7 @@ through
 threads
 pub
 fn
-get_shareable
+shareable
 (
 &
 self

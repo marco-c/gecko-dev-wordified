@@ -423,7 +423,7 @@ unwrap
 (
 )
 .
-get_title_for_main_frame
+request_title_for_main_frame
 (
 )
 ;

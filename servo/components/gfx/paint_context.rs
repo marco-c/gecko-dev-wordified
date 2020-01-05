@@ -10464,7 +10464,7 @@ self
 .
 font_context
 .
-get_paint_font_from_template
+paint_font_from_template
 (
 &
 text

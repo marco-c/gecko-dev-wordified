@@ -109,7 +109,7 @@ mem
 ;
 pub
 fn
-get_available_families
+for_each_available_family
 <
 F
 >
@@ -199,7 +199,7 @@ family_name
 }
 pub
 fn
-get_variations_for_family
+for_each_variation
 <
 F
 >
@@ -329,7 +329,7 @@ postscript_name
 }
 pub
 fn
-get_system_default_family
+system_default_family
 (
 _generic_name
 :
@@ -347,7 +347,7 @@ None
 }
 pub
 fn
-get_last_resort_font_families
+last_resort_font_families
 (
 )
 -

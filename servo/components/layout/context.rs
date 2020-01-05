@@ -1256,7 +1256,7 @@ shared
 .
 image_cache_task
 .
-get_image_if_available
+find_image
 (
 url
 .

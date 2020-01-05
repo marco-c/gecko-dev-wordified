@@ -1586,7 +1586,7 @@ metrics
 ;
 }
 fn
-get_table_for_tag
+table_for_tag
 (
 &
 self

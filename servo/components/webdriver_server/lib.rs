@@ -531,7 +531,7 @@ implicit_wait_timeout
 }
 }
 fn
-get_root_pipeline
+root_pipeline
 (
 &
 self
@@ -572,7 +572,7 @@ x
 =
 self
 .
-get_pipeline
+pipeline
 (
 None
 )
@@ -614,7 +614,7 @@ handle
 )
 }
 fn
-get_frame_pipeline
+frame_pipeline
 (
 &
 self
@@ -641,7 +641,7 @@ session
 match
 self
 .
-get_pipeline
+pipeline
 (
 session
 .
@@ -702,7 +702,7 @@ None
 }
 }
 fn
-get_session
+session
 (
 &
 self
@@ -825,7 +825,7 @@ created
 }
 }
 fn
-get_pipeline
+pipeline
 (
 &
 self
@@ -1184,7 +1184,7 @@ try
 (
 self
 .
-get_root_pipeline
+root_pipeline
 (
 )
 )
@@ -1396,7 +1396,7 @@ out
 }
 }
 fn
-handle_get_current_url
+handle_current_url
 (
 &
 self
@@ -1416,7 +1416,7 @@ try
 (
 self
 .
-get_root_pipeline
+root_pipeline
 (
 )
 )
@@ -1649,7 +1649,7 @@ try
 (
 self
 .
-get_root_pipeline
+root_pipeline
 (
 )
 )
@@ -1724,7 +1724,7 @@ receiver
 )
 }
 fn
-handle_get_title
+handle_title
 (
 &
 self
@@ -1744,7 +1744,7 @@ try
 (
 self
 .
-get_root_pipeline
+root_pipeline
 (
 )
 )
@@ -1847,7 +1847,7 @@ to_json
 )
 }
 fn
-handle_get_window_handle
+handle_window_handle
 (
 &
 self
@@ -1926,7 +1926,7 @@ to_json
 )
 }
 fn
-handle_get_window_handles
+handle_window_handles
 (
 &
 self
@@ -2037,7 +2037,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -2432,7 +2432,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -2669,7 +2669,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -2881,7 +2881,7 @@ selector
 }
 }
 fn
-handle_get_element_text
+handle_element_text
 (
 &
 self
@@ -2905,7 +2905,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -3052,7 +3052,7 @@ document
 }
 }
 fn
-handle_get_active_element
+handle_active_element
 (
 &
 self
@@ -3072,7 +3072,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -3198,7 +3198,7 @@ to_json
 )
 }
 fn
-handle_get_element_tag_name
+handle_element_tag_name
 (
 &
 self
@@ -3222,7 +3222,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -3764,7 +3764,7 @@ try
 (
 self
 .
-get_frame_pipeline
+frame_pipeline
 (
 )
 )
@@ -3926,7 +3926,7 @@ try
 (
 self
 .
-get_root_pipeline
+root_pipeline
 (
 )
 )
@@ -4255,7 +4255,7 @@ try
 (
 self
 .
-get_session
+session
 (
 )
 )
@@ -4302,7 +4302,7 @@ GetCurrentUrl
 >
 self
 .
-handle_get_current_url
+handle_current_url
 (
 )
 WebDriverCommand
@@ -4346,7 +4346,7 @@ GetTitle
 >
 self
 .
-handle_get_title
+handle_title
 (
 )
 WebDriverCommand
@@ -4357,7 +4357,7 @@ GetWindowHandle
 >
 self
 .
-handle_get_window_handle
+handle_window_handle
 (
 )
 WebDriverCommand
@@ -4368,7 +4368,7 @@ GetWindowHandles
 >
 self
 .
-handle_get_window_handles
+handle_window_handles
 (
 )
 WebDriverCommand
@@ -4438,7 +4438,7 @@ GetActiveElement
 >
 self
 .
-handle_get_active_element
+handle_active_element
 (
 )
 WebDriverCommand
@@ -4453,7 +4453,7 @@ element
 >
 self
 .
-handle_get_element_text
+handle_element_text
 (
 element
 )
@@ -4469,7 +4469,7 @@ element
 >
 self
 .
-handle_get_element_tag_name
+handle_element_tag_name
 (
 element
 )

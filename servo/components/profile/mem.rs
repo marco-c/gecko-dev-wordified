@@ -2842,7 +2842,7 @@ path
 vsize
 "
 ]
-get_vsize
+vsize
 (
 )
 )
@@ -2856,7 +2856,7 @@ path
 resident
 "
 ]
-get_resident
+resident
 (
 )
 )
@@ -2874,7 +2874,7 @@ OS
 for
 seg
 in
-get_resident_segments
+resident_segments
 (
 )
 {
@@ -2929,7 +2929,7 @@ path
 [
 SYSTEM_HEAP_ALLOCATED_STR
 ]
-get_system_heap_allocated
+system_heap_allocated
 (
 )
 )
@@ -2973,7 +2973,7 @@ path
 [
 JEMALLOC_HEAP_ALLOCATED_STR
 ]
-get_jemalloc_stat
+jemalloc_stat
 (
 "
 stats
@@ -3036,7 +3036,7 @@ heap
 active
 "
 ]
-get_jemalloc_stat
+jemalloc_stat
 (
 "
 stats
@@ -3108,7 +3108,7 @@ heap
 mapped
 "
 ]
-get_jemalloc_stat
+jemalloc_stat
 (
 "
 stats
@@ -3216,7 +3216,7 @@ linux
 )
 ]
 fn
-get_system_heap_allocated
+system_heap_allocated
 (
 )
 -
@@ -3409,7 +3409,7 @@ linux
 )
 ]
 fn
-get_system_heap_allocated
+system_heap_allocated
 (
 )
 -
@@ -3456,7 +3456,7 @@ c_int
 ;
 }
 fn
-get_jemalloc_stat
+jemalloc_stat
 (
 value_name
 :
@@ -3812,7 +3812,7 @@ linux
 )
 ]
 fn
-get_proc_self_statm_field
+proc_self_statm_field
 (
 field
 :
@@ -3959,7 +3959,7 @@ linux
 )
 ]
 fn
-get_vsize
+vsize
 (
 )
 -
@@ -3969,7 +3969,7 @@ Option
 usize
 >
 {
-get_proc_self_statm_field
+proc_self_statm_field
 (
 0
 )
@@ -3986,7 +3986,7 @@ linux
 )
 ]
 fn
-get_resident
+resident
 (
 )
 -
@@ -3996,7 +3996,7 @@ Option
 usize
 >
 {
-get_proc_self_statm_field
+proc_self_statm_field
 (
 1
 )
@@ -4013,7 +4013,7 @@ macos
 )
 ]
 fn
-get_vsize
+vsize
 (
 )
 -
@@ -4039,7 +4039,7 @@ macos
 )
 ]
 fn
-get_resident
+resident
 (
 )
 -
@@ -4076,7 +4076,7 @@ macos
 )
 ]
 fn
-get_vsize
+vsize
 (
 )
 -
@@ -4111,7 +4111,7 @@ macos
 )
 ]
 fn
-get_resident
+resident
 (
 )
 -
@@ -4135,7 +4135,7 @@ linux
 )
 ]
 fn
-get_resident_segments
+resident_segments
 (
 )
 -
@@ -4942,7 +4942,7 @@ pid
 /
 statm
 in
-get_resident
+resident
 (
 )
 .
@@ -5008,7 +5008,7 @@ linux
 )
 ]
 fn
-get_resident_segments
+resident_segments
 (
 )
 -

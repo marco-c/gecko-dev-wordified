@@ -2409,7 +2409,7 @@ send_viewport_rects_for_all_layers
 ;
 self
 .
-get_title_for_main_frame
+title_for_main_frame
 (
 )
 ;
@@ -2434,7 +2434,7 @@ NotShuttingDown
 {
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3535,7 +3535,7 @@ AnimationsPresent
 {
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3565,7 +3565,7 @@ AnimationCallbacksPresent
 if
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3576,7 +3576,7 @@ return
 }
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3612,7 +3612,7 @@ NoAnimationsPresent
 {
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3631,7 +3631,7 @@ NoAnimationCallbacksPresent
 {
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline_id
 )
@@ -3645,7 +3645,7 @@ false
 }
 pub
 fn
-get_or_create_pipeline_details
+pipeline_details
 <
 '
 a
@@ -3714,7 +3714,7 @@ unwrap
 }
 pub
 fn
-get_pipeline
+pipeline
 <
 '
 a
@@ -4194,7 +4194,7 @@ tile_size
 ;
 self
 .
-get_or_create_pipeline_details
+pipeline_details
 (
 pipeline
 .
@@ -8455,7 +8455,7 @@ pipeline
 =
 self
 .
-get_pipeline
+pipeline
 (
 layer
 .
@@ -8752,7 +8752,7 @@ _
 =
 self
 .
-get_pipeline
+pipeline
 (
 pipeline_id
 )
@@ -11647,7 +11647,7 @@ as
 f32
 }
 fn
-get_title_for_main_frame
+title_for_main_frame
 (
 &
 self
