@@ -853,9 +853,6 @@ node
 &
 ConcreteThreadSafeLayoutNode
 )
--
->
-bool
 ;
 }
 /
