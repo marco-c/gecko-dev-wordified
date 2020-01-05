@@ -141,6 +141,7 @@ mLength
 }
 ;
 static
+const
 HuffmanOutgoingEntry
 HuffmanOutgoing
 [
