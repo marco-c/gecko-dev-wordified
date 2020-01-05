@@ -215,6 +215,15 @@ override
 ;
 NS_IMETHOD_
 (
+nsIMEUpdatePreference
+)
+GetIMEUpdatePreference
+(
+)
+override
+;
+NS_IMETHOD_
+(
 void
 )
 OnRemovedFrom

@@ -171,6 +171,13 @@ in
 Gecko
 WrapForJNI
 int
+NOTIFY_IME_OF_TOKEN
+=
+-
+3
+;
+WrapForJNI
+int
 NOTIFY_IME_OPEN_VKB
 =
 -

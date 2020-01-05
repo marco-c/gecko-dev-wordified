@@ -1376,13 +1376,6 @@ endif
 /
 MOZ_XUL
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
-(
-)
-override
-;
-virtual
 nsresult
 SetNonClientMargins
 (

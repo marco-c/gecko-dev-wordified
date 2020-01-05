@@ -1643,13 +1643,6 @@ GetInputContext
 override
 ;
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
-(
-)
-override
-;
-virtual
 TextEventDispatcherListener
 *
 GetNativeTextEventDispatcherListener

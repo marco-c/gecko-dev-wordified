@@ -2865,13 +2865,6 @@ aCocoaKeyCode
 )
 ;
 virtual
-nsIMEUpdatePreference
-GetIMEUpdatePreference
-(
-)
-override
-;
-virtual
 nsTransparencyMode
 GetTransparencyMode
 (

@@ -1914,13 +1914,7 @@ GetIMEUpdatePreference
 (
 )
 override
-{
-return
-nsIMEUpdatePreference
-(
-)
 ;
-}
 virtual
 MOZ_MUST_USE
 nsresult
