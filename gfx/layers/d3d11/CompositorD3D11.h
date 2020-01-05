@@ -665,6 +665,13 @@ EndFrame
 )
 override
 ;
+virtual
+void
+CancelFrame
+(
+)
+override
+;
 /
 *
 *
