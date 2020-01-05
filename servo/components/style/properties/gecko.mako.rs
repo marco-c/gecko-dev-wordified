@@ -13927,7 +13927,7 @@ mType
 StyleShapeSourceType
 :
 :
-None_
+None
 ;
 match
 v
@@ -14804,7 +14804,7 @@ mType
 StyleShapeSourceType
 :
 :
-None_
+None
 =
 >
 ShapeSource
