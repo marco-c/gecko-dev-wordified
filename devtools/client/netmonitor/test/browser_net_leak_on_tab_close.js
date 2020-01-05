@@ -114,7 +114,6 @@ about
 :
 config
 "
-null
 true
 )
 ;
