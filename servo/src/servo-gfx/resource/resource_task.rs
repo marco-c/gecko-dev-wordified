@@ -16,7 +16,7 @@ data
 *
 /
 use
-comm
+oldcomm
 :
 :
 {
@@ -25,13 +25,13 @@ Port
 }
 ;
 use
-task
+resource
 :
 :
-{
-spawn
+util
+:
+:
 spawn_listener
-}
 ;
 use
 std
