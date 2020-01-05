@@ -11454,7 +11454,16 @@ of
 a
 download
 to
+throttle
+it
+during
+/
+/
+page
+loads
+and
 prevent
+its
 caching
 .
 nsCOMPtr

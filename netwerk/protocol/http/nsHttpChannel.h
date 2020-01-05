@@ -950,6 +950,14 @@ aInterceptionID
 )
 override
 ;
+NS_IMETHOD
+SetChannelIsForDownload
+(
+bool
+aChannelIsForDownload
+)
+override
+;
 /
 /
 nsISupportsPriority
