@@ -164,7 +164,12 @@ throws
 RemoteException
 {
 return
-null
+new
+RemoteMediaDrmBridgeStub
+(
+keySystem
+stubId
+)
 ;
 }
 }
