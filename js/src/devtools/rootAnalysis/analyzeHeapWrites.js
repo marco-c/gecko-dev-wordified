@@ -251,6 +251,9 @@ memcmp
 "
 strcmp
 "
+"
+malloc
+"
 /
 /
 Assume
