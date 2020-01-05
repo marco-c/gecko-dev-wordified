@@ -1385,6 +1385,16 @@ t
 '
 |
 |
+*
+source
+=
+=
+'
+\
+n
+'
+|
+|
 !
 IsControlChar
 (
