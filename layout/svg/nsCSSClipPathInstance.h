@@ -285,16 +285,6 @@ nsRect
 aRefBox
 )
 ;
-nsRect
-ComputeHTMLReferenceRect
-(
-)
-;
-nsRect
-ComputeSVGReferenceRect
-(
-)
-;
 /
 *
 *
