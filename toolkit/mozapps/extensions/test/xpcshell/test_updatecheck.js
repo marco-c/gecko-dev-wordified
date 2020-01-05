@@ -148,8 +148,6 @@ onUpdateCheckComplete
 :
 resolve
 onUpdateCheckError
-:
-function
 (
 status
 )

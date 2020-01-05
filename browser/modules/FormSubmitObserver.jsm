@@ -239,8 +239,6 @@ apis
 *
 /
 init
-:
-function
 (
 aWindow
 aTabChildGlobal
@@ -359,8 +357,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -434,8 +430,6 @@ Events
 *
 /
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -521,8 +515,6 @@ nsIFormSubmitObserver
 *
 /
 notifyInvalidSubmit
-:
-function
 (
 aFormElement
 aInvalidElements
@@ -825,8 +817,6 @@ valid
 *
 /
 _onInput
-:
-function
 (
 aEvent
 )
@@ -943,8 +933,6 @@ popup
 *
 /
 _onBlur
-:
-function
 (
 aEvent
 )
@@ -1022,8 +1010,6 @@ text
 *
 /
 _showPopup
-:
-function
 (
 aElement
 )
@@ -1275,8 +1261,6 @@ panelData
 ;
 }
 _hidePopup
-:
-function
 (
 )
 {
@@ -1297,8 +1281,6 @@ HidePopup
 ;
 }
 _getWindowUtils
-:
-function
 (
 )
 {
@@ -1323,8 +1305,6 @@ nsIDOMWindowUtils
 ;
 }
 _isRootDocumentEvent
-:
-function
 (
 aEvent
 )

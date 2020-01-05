@@ -2265,8 +2265,6 @@ mIndex
 :
 0
 hasMoreElements
-:
-function
 (
 )
 {
@@ -2285,8 +2283,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {

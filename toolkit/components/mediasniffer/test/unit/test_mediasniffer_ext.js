@@ -558,8 +558,6 @@ listener
 =
 {
 onStartRequest
-:
-function
 (
 request
 context
@@ -601,8 +599,6 @@ expected
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 context
@@ -679,8 +675,6 @@ ex
 }
 }
 onStopRequest
-:
-function
 (
 request
 context

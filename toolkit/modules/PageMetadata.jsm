@@ -1109,8 +1109,6 @@ to
 *
 /
 _getLinkData
-:
-function
 (
 document
 result

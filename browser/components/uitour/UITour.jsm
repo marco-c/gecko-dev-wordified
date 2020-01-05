@@ -1713,8 +1713,6 @@ button
 ]
 )
 init
-:
-function
 (
 )
 {
@@ -1885,8 +1883,6 @@ listener
 ;
 }
 restoreSeenPageIDs
-:
-function
 (
 )
 {
@@ -2041,8 +2037,6 @@ seenPageIDs
 ;
 }
 addSeenPageID
-:
-function
 (
 aPageID
 )
@@ -2082,8 +2076,6 @@ persistSeenIDs
 ;
 }
 persistSeenIDs
-:
-function
 (
 )
 {
@@ -2173,8 +2165,6 @@ i
 ;
 }
 onLocationChange
-:
-function
 (
 aLocation
 )
@@ -2268,8 +2258,6 @@ readinglist
 }
 }
 onPageEvent
-:
-function
 (
 aMessage
 aEvent
@@ -4243,8 +4231,6 @@ data
 callbackID
 {
 value
-:
-value
 }
 )
 ;
@@ -4746,8 +4732,6 @@ this
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -4897,8 +4881,6 @@ break
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -5122,8 +5104,6 @@ be
 ignored
 .
 _populateCampaignParams
-:
-function
 (
 urlSearchParams
 extraURLCampaignParams
@@ -5429,8 +5409,6 @@ true
 ;
 }
 setTelemetryBucket
-:
-function
 (
 aPageID
 )
@@ -5455,8 +5433,6 @@ bucket
 ;
 }
 setExpiringTelemetryBucket
-:
-function
 (
 aPageID
 aType
@@ -5512,8 +5488,6 @@ on
 demand
 .
 getTelemetry
-:
-function
 (
 )
 {
@@ -5560,8 +5534,6 @@ tabs
 *
 /
 teardownTourForBrowser
-:
-function
 (
 aWindow
 aBrowser
@@ -5860,8 +5832,6 @@ ChromeWindow
 *
 /
 teardownTourForWindow
-:
-function
 (
 aWindow
 )
@@ -5981,8 +5951,6 @@ to
 UITourListener
 .
 isSafeScheme
-:
-function
 (
 aURI
 )
@@ -6066,8 +6034,6 @@ true
 ;
 }
 resolveURL
-:
-function
 (
 aBrowser
 aURL
@@ -6121,8 +6087,6 @@ null
 ;
 }
 sendPageCallback
-:
-function
 (
 aMessageManager
 aCallbackID
@@ -6168,8 +6132,6 @@ detail
 ;
 }
 isElementVisible
-:
-function
 (
 aElement
 )
@@ -6216,8 +6178,6 @@ visible
 ;
 }
 getTarget
-:
-function
 (
 aWindow
 aTargetName
@@ -6470,8 +6430,6 @@ targetObject
 .
 infoPanelPosition
 node
-:
-node
 removeTargetListener
 :
 targetObject
@@ -6510,8 +6468,6 @@ promise
 ;
 }
 targetIsInAppMenu
-:
-function
 (
 aTarget
 )
@@ -6688,8 +6644,6 @@ anchor
 *
 /
 _setAppMenuStateForAnnotation
-:
-function
 (
 aWindow
 aAnnotationType
@@ -6976,8 +6930,6 @@ aCallback
 }
 }
 previewTheme
-:
-function
 (
 aTheme
 )
@@ -7024,8 +6976,6 @@ data
 ;
 }
 resetTheme
-:
-function
 (
 )
 {
@@ -9431,8 +9381,6 @@ Node
 *
 /
 _correctAnchor
-:
-function
 (
 aAnchor
 )
@@ -9582,8 +9530,6 @@ highlightEffects
 *
 /
 showHighlight
-:
-function
 (
 aChromeWindow
 aTarget
@@ -10248,8 +10194,6 @@ this
 ;
 }
 hideHighlight
-:
-function
 (
 aWindow
 )
@@ -11224,8 +11168,6 @@ closed
 ;
 }
 hideInfo
-:
-function
 (
 aWindow
 )
@@ -11301,8 +11243,6 @@ remove
 ;
 }
 showMenu
-:
-function
 (
 aWindow
 aMenuName
@@ -12064,8 +12004,6 @@ error
 }
 }
 hideMenu
-:
-function
 (
 aWindow
 aMenuName
@@ -12190,8 +12128,6 @@ hidePopup
 }
 }
 showNewTab
-:
-function
 (
 aWindow
 aBrowser
@@ -12218,8 +12154,6 @@ aBrowser
 ;
 }
 hideAnnotationsForPanel
-:
-function
 (
 aEvent
 aTargetPositionCallback
@@ -12448,8 +12382,6 @@ clear
 ;
 }
 hideAppMenuAnnotations
-:
-function
 (
 aEvent
 )
@@ -12499,8 +12431,6 @@ controlCenter
 ;
 }
 onPanelHidden
-:
-function
 (
 aEvent
 )
@@ -12533,8 +12463,6 @@ clearAvailableTargetsCache
 ;
 }
 recreatePopup
-:
-function
 (
 aPanel
 )
@@ -12644,8 +12572,6 @@ false
 ;
 }
 getConfiguration
-:
-function
 (
 aMessageManager
 aWindow
@@ -13217,8 +13143,6 @@ break
 }
 }
 setConfiguration
-:
-function
 (
 aWindow
 aConfiguration
@@ -13312,8 +13236,6 @@ break
 }
 }
 getAvailableTargets
-:
-function
 (
 aMessageManager
 aChromeWindow
@@ -13528,8 +13450,6 @@ targets
 ;
 }
 startSubTour
-:
-function
 (
 aFeature
 )
@@ -13600,8 +13520,6 @@ return
 }
 }
 addNavBarWidget
-:
-function
 (
 aTarget
 aMessageManager
@@ -13722,8 +13640,6 @@ aCallbackID
 ;
 }
 _addAnnotationPanelMutationObserver
-:
-function
 (
 aPanelEl
 )
@@ -13819,8 +13735,6 @@ observerOptions
 }
 }
 _removeAnnotationPanelMutationObserver
-:
-function
 (
 aPanelEl
 )
@@ -13913,8 +13827,6 @@ panel
 *
 /
 _annotationMutationCallback
-:
-function
 (
 aMutations
 )
@@ -14211,8 +14123,6 @@ event
 :
 eventName
 params
-:
-params
 }
 ;
 messageManager
@@ -14403,8 +14313,6 @@ UITourHealthReport
 =
 {
 recordTreatmentTag
-:
-function
 (
 tag
 value

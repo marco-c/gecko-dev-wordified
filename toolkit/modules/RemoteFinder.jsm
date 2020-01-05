@@ -278,8 +278,6 @@ destroy
 {
 }
 swapBrowser
-:
-function
 (
 aBrowser
 )
@@ -464,8 +462,6 @@ clear
 ;
 }
 addResultListener
-:
-function
 (
 aListener
 )
@@ -481,8 +477,6 @@ aListener
 ;
 }
 removeResultListener
-:
-function
 (
 aListener
 )
@@ -498,8 +492,6 @@ aListener
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -861,8 +853,6 @@ aEntireWord
 ;
 }
 getInitialSelection
-:
-function
 (
 )
 {
@@ -885,8 +875,6 @@ GetInitialSelection
 ;
 }
 fastFind
-:
-function
 (
 aSearchString
 aLinksOnly
@@ -921,8 +909,6 @@ aDrawOutline
 ;
 }
 findAgain
-:
-function
 (
 aFindBackwards
 aLinksOnly
@@ -957,8 +943,6 @@ aDrawOutline
 ;
 }
 highlight
-:
-function
 (
 aHighlight
 aWord
@@ -993,8 +977,6 @@ aWord
 ;
 }
 enableSelection
-:
-function
 (
 )
 {
@@ -1015,8 +997,6 @@ EnableSelection
 ;
 }
 removeSelection
-:
-function
 (
 )
 {
@@ -1037,8 +1017,6 @@ RemoveSelection
 ;
 }
 focusContent
-:
-function
 (
 )
 {
@@ -1123,8 +1101,6 @@ FocusContent
 ;
 }
 onFindbarClose
-:
-function
 (
 )
 {
@@ -1145,8 +1121,6 @@ FindbarClose
 ;
 }
 onFindbarOpen
-:
-function
 (
 )
 {
@@ -1167,8 +1141,6 @@ FindbarOpen
 ;
 }
 onModalHighlightChange
-:
-function
 (
 aUseModalHighlight
 )
@@ -1195,8 +1167,6 @@ aUseModalHighlight
 ;
 }
 onHighlightAllChange
-:
-function
 (
 aHighlightAll
 )
@@ -1223,8 +1193,6 @@ aHighlightAll
 ;
 }
 keyPress
-:
-function
 (
 aEvent
 )
@@ -1273,8 +1241,6 @@ shiftKey
 ;
 }
 requestMatchesCount
-:
-function
 (
 aSearchString
 aLinksOnly
@@ -1474,8 +1440,6 @@ ModalHighlightChange
 "
 ]
 onFindResult
-:
-function
 (
 aData
 )
@@ -1517,8 +1481,6 @@ the
 parent
 .
 onMatchesCountResult
-:
-function
 (
 aData
 )
@@ -1539,8 +1501,6 @@ aData
 ;
 }
 onHighlightFinished
-:
-function
 (
 aData
 )
@@ -1561,8 +1521,6 @@ aData
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -1651,8 +1609,6 @@ CurrentSelectionResult
 "
 {
 selection
-:
-selection
 initial
 :
 false
@@ -1693,8 +1649,6 @@ Finder
 CurrentSelectionResult
 "
 {
-selection
-:
 selection
 initial
 :

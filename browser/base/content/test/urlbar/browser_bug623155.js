@@ -388,8 +388,6 @@ gWebProgressListener
 =
 {
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -647,8 +645,6 @@ function
 -
 -
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest

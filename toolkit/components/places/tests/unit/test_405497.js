@@ -253,8 +253,6 @@ prototype
 /
 nsINavHistoryBatchCallback
 runBatched
-:
-function
 (
 aUserData
 )

@@ -362,8 +362,6 @@ runner
 *
 /
 run
-:
-function
 (
 )
 {
@@ -460,8 +458,6 @@ iterator
 *
 /
 next
-:
-function
 (
 aValue
 )

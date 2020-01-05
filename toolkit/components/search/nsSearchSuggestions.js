@@ -235,8 +235,6 @@ prototype
 =
 {
 _init
-:
-function
 (
 )
 {
@@ -426,8 +424,6 @@ private
 *
 /
 onResultsReturned
-:
-function
 (
 results
 )
@@ -661,8 +657,6 @@ private
 *
 /
 onResultsReady
-:
-function
 (
 searchString
 results
@@ -868,8 +862,6 @@ ready
 *
 /
 startSearch
-:
-function
 (
 searchString
 searchParam
@@ -1152,8 +1144,6 @@ search
 *
 /
 _triggerSearch
-:
-function
 (
 searchString
 searchParam
@@ -1203,8 +1193,6 @@ implementation
 *
 /
 stopSearch
-:
-function
 (
 )
 {

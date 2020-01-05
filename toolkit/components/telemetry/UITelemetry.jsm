@@ -277,8 +277,6 @@ _enabled
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -525,8 +523,6 @@ JavaScript
 *
 /
 uptimeMillis
-:
-function
 (
 )
 {
@@ -605,8 +601,6 @@ event
 *
 /
 addEvent
-:
-function
 (
 aAction
 aMethod
@@ -652,8 +646,6 @@ aAction
 method
 :
 aMethod
-sessions
-:
 sessions
 timestamp
 :
@@ -712,8 +704,6 @@ start
 *
 /
 startSession
-:
-function
 (
 aName
 aTimestamp
@@ -797,8 +787,6 @@ timestamp
 *
 /
 stopSession
-:
-function
 (
 aName
 aReason
@@ -888,8 +876,6 @@ aEvent
 ;
 }
 _recordEvent
-:
-function
 (
 aEvent
 )
@@ -945,8 +931,6 @@ functions
 *
 /
 getSimpleMeasures
-:
-function
 (
 )
 {
@@ -1064,8 +1048,6 @@ it
 *
 /
 addSimpleMeasureFunction
-:
-function
 (
 aName
 aFunction
@@ -1154,8 +1136,6 @@ aFunction
 ;
 }
 removeSimpleMeasureFunction
-:
-function
 (
 aName
 )
@@ -1199,8 +1179,6 @@ aClear
 *
 /
 getUIMeasurements
-:
-function
 (
 aClear
 )

@@ -123,8 +123,6 @@ maybe
 *
 /
 onViewShowing
-:
-function
 (
 )
 {

@@ -635,8 +635,6 @@ testing
 *
 /
 getExpiration
-:
-function
 (
 duration
 =
@@ -662,8 +660,6 @@ duration
 ;
 }
 isCertValid
-:
-function
 (
 aCert
 aCallback
@@ -683,8 +679,6 @@ true
 ;
 }
 generateKeyPair
-:
-function
 (
 aAlgorithmName
 aCallback
@@ -859,8 +853,6 @@ failure
 *
 /
 generateAssertion
-:
-function
 (
 aCert
 aKeyPair

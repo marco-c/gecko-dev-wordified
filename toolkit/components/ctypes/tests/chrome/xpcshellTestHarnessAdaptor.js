@@ -114,8 +114,6 @@ utils
 :
 {
 import
-:
-function
 (
 )
 {
@@ -412,8 +410,6 @@ this
 ;
 }
 append
-:
-function
 (
 leaf
 )

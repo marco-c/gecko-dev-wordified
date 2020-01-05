@@ -731,8 +731,6 @@ profileBeforeChange
 :
 {
 addBlocker
-:
-function
 (
 name
 blocker
@@ -7987,8 +7985,6 @@ findUpdates
 (
 {
 onNoCompatibilityUpdateAvailable
-:
-function
 (
 addon2
 )
@@ -8033,8 +8029,6 @@ false
 ;
 }
 onCompatibilityUpdateAvailable
-:
-function
 (
 addon2
 )
@@ -8079,8 +8073,6 @@ true
 ;
 }
 onNoUpdateAvailable
-:
-function
 (
 addon2
 )
@@ -8125,8 +8117,6 @@ false
 ;
 }
 onUpdateAvailable
-:
-function
 (
 addon2
 install
@@ -8172,8 +8162,6 @@ install
 ;
 }
 onUpdateFinished
-:
-function
 (
 addon2
 error

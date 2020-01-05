@@ -123,8 +123,6 @@ sawEvent
 :
 false
 onDisabling
-:
-function
 (
 )
 {
@@ -143,8 +141,6 @@ this
 ;
 }
 onNewInstall
-:
-function
 (
 )
 {
@@ -172,8 +168,6 @@ sawEvent
 :
 false
 onDisabling
-:
-function
 (
 )
 {
@@ -185,8 +179,6 @@ true
 ;
 }
 onNewInstall
-:
-function
 (
 )
 {
@@ -207,8 +199,6 @@ sawEvent
 :
 false
 onDisabling
-:
-function
 (
 )
 {
@@ -220,8 +210,6 @@ true
 ;
 }
 onNewInstall
-:
-function
 (
 )
 {

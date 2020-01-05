@@ -150,8 +150,6 @@ synthesizeMouseAtCenter
 link
 {
 button
-:
-button
 }
 gBrowser
 .

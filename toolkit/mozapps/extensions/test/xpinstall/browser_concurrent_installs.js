@@ -144,8 +144,6 @@ gAddonAndWindowListener
 =
 {
 onOpenWindow
-:
-function
 (
 win
 )
@@ -270,16 +268,12 @@ window
 ;
 }
 onCloseWindow
-:
-function
 (
 win
 )
 {
 }
 onInstallEnded
-:
-function
 (
 install
 )

@@ -149,13 +149,7 @@ location
 {
 }
 setTimeout
-:
-setTimeout
 setInterval
-:
-setInterval
-clearTimeout
-:
 clearTimeout
 clearinterval
 :

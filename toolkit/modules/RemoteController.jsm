@@ -210,8 +210,6 @@ nsICommandController
 ]
 )
 isCommandEnabled
-:
-function
 (
 aCommand
 )
@@ -229,8 +227,6 @@ false
 ;
 }
 supportsCommand
-:
-function
 (
 aCommand
 )
@@ -244,8 +240,6 @@ _supportedCommands
 ;
 }
 doCommand
-:
-function
 (
 aCommand
 )
@@ -268,8 +262,6 @@ aCommand
 ;
 }
 getCommandStateWithParams
-:
-function
 (
 aCommand
 aCommandParams
@@ -282,8 +274,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 doCommandWithParams
-:
-function
 (
 aCommand
 aCommandParams
@@ -457,8 +447,6 @@ cmd
 ;
 }
 getSupportedCommands
-:
-function
 (
 aCount
 aCommands
@@ -471,8 +459,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 onEvent
-:
-function
 (
 )
 {
@@ -502,8 +488,6 @@ disabled
 commands
 .
 enableDisableCommands
-:
-function
 (
 aAction
 aEnabledLength

@@ -644,8 +644,6 @@ isLowMemoryPlatform
 ;
 }
 _getStateForParseOnLoad
-:
-function
 (
 )
 {
@@ -756,8 +754,6 @@ isOnLowMemoryPlatform
 ;
 }
 observe
-:
-function
 (
 aMessage
 aTopic
@@ -876,8 +872,6 @@ instead
 *
 /
 enterReaderMode
-:
-function
 (
 docShell
 win
@@ -1029,8 +1023,6 @@ instead
 *
 /
 leaveReaderMode
-:
-function
 (
 docShell
 win
@@ -1194,8 +1186,6 @@ URL
 *
 /
 getOriginalUrl
-:
-function
 (
 url
 )
@@ -1422,8 +1412,6 @@ button
 *
 /
 isProbablyReaderable
-:
-function
 (
 doc
 )
@@ -1567,8 +1555,6 @@ utils
 ;
 }
 isNodeVisible
-:
-function
 (
 utils
 node
@@ -1600,8 +1586,6 @@ width
 ;
 }
 getUtilsForWin
-:
-function
 (
 win
 )
@@ -1910,8 +1894,6 @@ doc
 }
 )
 _downloadDocument
-:
-function
 (
 url
 )
@@ -2796,8 +2778,6 @@ info
 .
 size
 path
-:
-path
 }
 )
 ;
@@ -2889,8 +2869,6 @@ path
 }
 )
 log
-:
-function
 (
 msg
 )
@@ -2949,8 +2927,6 @@ com
 "
 ]
 _shouldCheckUri
-:
-function
 (
 uri
 isBaseUri
@@ -3708,8 +3684,6 @@ article
 *
 /
 _toHashedPath
-:
-function
 (
 url
 )
@@ -3844,8 +3818,6 @@ Error
 *
 /
 _ensureCacheDir
-:
-function
 (
 )
 {

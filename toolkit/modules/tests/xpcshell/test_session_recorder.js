@@ -627,8 +627,6 @@ recordStartupFields
 "
 {
 value
-:
-function
 (
 )
 {

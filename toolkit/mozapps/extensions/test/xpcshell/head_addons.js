@@ -5276,8 +5276,6 @@ AddonListener
 =
 {
 onPropertyChanged
-:
-function
 (
 aAddon
 aProperties
@@ -5395,8 +5393,6 @@ arguments
 ;
 }
 onEnabling
-:
-function
 (
 aAddon
 aRequiresRestart
@@ -5480,8 +5476,6 @@ arguments
 ;
 }
 onEnabled
-:
-function
 (
 aAddon
 )
@@ -5540,8 +5534,6 @@ arguments
 ;
 }
 onDisabling
-:
-function
 (
 aAddon
 aRequiresRestart
@@ -5625,8 +5617,6 @@ arguments
 ;
 }
 onDisabled
-:
-function
 (
 aAddon
 )
@@ -5685,8 +5675,6 @@ arguments
 ;
 }
 onInstalling
-:
-function
 (
 aAddon
 aRequiresRestart
@@ -5757,8 +5745,6 @@ arguments
 ;
 }
 onInstalled
-:
-function
 (
 aAddon
 )
@@ -5804,8 +5790,6 @@ arguments
 ;
 }
 onUninstalling
-:
-function
 (
 aAddon
 aRequiresRestart
@@ -5876,8 +5860,6 @@ arguments
 ;
 }
 onUninstalled
-:
-function
 (
 aAddon
 )
@@ -5923,8 +5905,6 @@ arguments
 ;
 }
 onOperationCancelled
-:
-function
 (
 aAddon
 )
@@ -5976,8 +5956,6 @@ InstallListener
 =
 {
 onNewInstall
-:
-function
 (
 install
 )
@@ -6072,8 +6050,6 @@ arguments
 ;
 }
 onDownloadStarted
-:
-function
 (
 install
 )
@@ -6114,8 +6090,6 @@ arguments
 ;
 }
 onDownloadEnded
-:
-function
 (
 install
 )
@@ -6156,8 +6130,6 @@ arguments
 ;
 }
 onDownloadFailed
-:
-function
 (
 install
 )
@@ -6190,8 +6162,6 @@ arguments
 ;
 }
 onDownloadCancelled
-:
-function
 (
 install
 )
@@ -6232,8 +6202,6 @@ arguments
 ;
 }
 onInstallStarted
-:
-function
 (
 install
 )
@@ -6277,8 +6245,6 @@ arguments
 ;
 }
 onInstallEnded
-:
-function
 (
 install
 newAddon
@@ -6323,8 +6289,6 @@ arguments
 ;
 }
 onInstallFailed
-:
-function
 (
 install
 )
@@ -6360,8 +6324,6 @@ arguments
 ;
 }
 onInstallCancelled
-:
-function
 (
 install
 )
@@ -6447,8 +6409,6 @@ arguments
 ;
 }
 onExternalInstall
-:
-function
 (
 aAddon
 existingAddon

@@ -185,8 +185,6 @@ nsIFrameMessageListener
 ]
 )
 observe
-:
-function
 (
 subject
 topic
@@ -282,8 +280,6 @@ pendingQuery
 :
 null
 init
-:
-function
 (
 )
 {
@@ -489,8 +485,6 @@ this
 }
 }
 receiveMessage
-:
-function
 (
 message
 )

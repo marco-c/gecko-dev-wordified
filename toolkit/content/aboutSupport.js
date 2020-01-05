@@ -5718,8 +5718,6 @@ prototype
 =
 {
 serialize
-:
-function
 (
 rootElem
 )
@@ -5868,8 +5866,6 @@ val
 ;
 }
 _serializeElement
-:
-function
 (
 elem
 )
@@ -6140,8 +6136,6 @@ _startNewLine
 }
 }
 _startNewLine
-:
-function
 (
 lines
 )
@@ -6219,8 +6213,6 @@ push
 ;
 }
 _appendText
-:
-function
 (
 text
 lines
@@ -6235,8 +6227,6 @@ text
 ;
 }
 _isHiddenSubHeading
-:
-function
 (
 th
 )
@@ -6259,8 +6249,6 @@ none
 ;
 }
 _serializeTable
-:
-function
 (
 table
 )
@@ -6987,8 +6975,6 @@ _startNewLine
 ;
 }
 _ignoreElement
-:
-function
 (
 elem
 )
@@ -7009,8 +6995,6 @@ copy
 ;
 }
 _nodeText
-:
-function
 (
 node
 )

@@ -2692,10 +2692,8 @@ return
 true
 ;
 }
-tableItems
-:
-function
 *
+tableItems
 (
 tableName
 columns

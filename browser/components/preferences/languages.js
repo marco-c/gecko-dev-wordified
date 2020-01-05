@@ -97,8 +97,6 @@ _selectedItemID
 :
 null
 init
-:
-function
 (
 )
 {
@@ -143,8 +141,6 @@ bug
 1194346
 .
 forceReflow
-:
-function
 (
 )
 {
@@ -215,8 +211,6 @@ availableLanguages
 ;
 }
 _loadAvailableLanguages
-:
-function
 (
 )
 {
@@ -674,8 +668,6 @@ _buildAvailableLanguageList
 ;
 }
 _buildAvailableLanguageList
-:
-function
 (
 )
 {
@@ -870,8 +862,6 @@ name
 }
 }
 readAcceptLanguages
-:
-function
 (
 )
 {
@@ -1137,8 +1127,6 @@ undefined
 ;
 }
 writeAcceptLanguages
-:
-function
 (
 )
 {
@@ -1147,8 +1135,6 @@ undefined
 ;
 }
 onAvailableLanguageSelect
-:
-function
 (
 )
 {
@@ -1183,8 +1169,6 @@ accesskey
 ;
 }
 addLanguage
-:
-function
 (
 )
 {
@@ -1371,8 +1355,6 @@ label2
 ;
 }
 removeLanguage
-:
-function
 (
 )
 {
@@ -1565,8 +1547,6 @@ _buildAvailableLanguageList
 ;
 }
 _getLanguageName
-:
-function
 (
 aABCD
 )
@@ -1637,8 +1617,6 @@ return
 ;
 }
 moveUp
-:
-function
 (
 )
 {
@@ -1803,8 +1781,6 @@ string
 ;
 }
 moveDown
-:
-function
 (
 )
 {
@@ -1969,8 +1945,6 @@ string
 ;
 }
 onLanguageSelect
-:
-function
 (
 )
 {

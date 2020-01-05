@@ -187,8 +187,6 @@ nsISupportsWeakReference
 ]
 )
 logConsoleMessage
-:
-function
 (
 message
 )
@@ -239,8 +237,6 @@ external
 .
 AddSearchProvider
 addSearchEngine
-:
-function
 (
 {
 target
@@ -582,8 +578,6 @@ true
 )
 }
 observe
-:
-function
 (
 subject
 topic

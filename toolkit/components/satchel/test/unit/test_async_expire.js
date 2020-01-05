@@ -181,8 +181,6 @@ nsISupportsWeakReference
 ]
 )
 observe
-:
-function
 (
 subject
 topic
@@ -686,8 +684,6 @@ op
 "
 update
 "
-lastUsed
-:
 lastUsed
 guid
 :

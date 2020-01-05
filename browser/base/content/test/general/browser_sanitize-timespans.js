@@ -286,8 +286,6 @@ view
 =
 {
 onDownloadRemoved
-:
-function
 (
 download
 )
@@ -407,8 +405,6 @@ count
 =
 result
 handleError
-:
-function
 (
 error
 )
@@ -437,8 +433,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )
@@ -5517,8 +5511,6 @@ push
 result
 )
 handleError
-:
-function
 (
 error
 )
@@ -5548,8 +5540,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )
@@ -5593,8 +5583,6 @@ update
 changes
 {
 handleError
-:
-function
 (
 error
 )
@@ -5624,8 +5612,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )

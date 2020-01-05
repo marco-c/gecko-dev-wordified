@@ -344,8 +344,6 @@ origin
 ;
 }
 deliver
-:
-function
 (
 data
 sender

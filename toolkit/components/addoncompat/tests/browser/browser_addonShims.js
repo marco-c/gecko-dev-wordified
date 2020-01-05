@@ -184,8 +184,6 @@ listener
 =
 {
 onInstallEnded
-:
-function
 (
 addon
 addonInstall
@@ -303,8 +301,6 @@ listener
 =
 {
 onUninstalled
-:
-function
 (
 uninstalledAddon
 )
@@ -400,13 +396,7 @@ runAddonShimTests
 (
 {
 ok
-:
-ok
 is
-:
-is
-info
-:
 info
 }
 )
@@ -441,13 +431,7 @@ runAddonTests
 (
 {
 ok
-:
-ok
 is
-:
-is
-info
-:
 info
 }
 )

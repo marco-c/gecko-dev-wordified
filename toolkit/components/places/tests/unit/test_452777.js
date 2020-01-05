@@ -279,8 +279,6 @@ addObserver
 (
 {
 onItemAdded
-:
-function
 (
 aItemId
 aFolder

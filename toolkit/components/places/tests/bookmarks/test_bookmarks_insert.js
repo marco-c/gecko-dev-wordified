@@ -2154,8 +2154,6 @@ insert
 (
 {
 parentGuid
-:
-parentGuid
 type
 :
 PlacesUtils
@@ -2280,8 +2278,6 @@ bookmarks
 insert
 (
 {
-parentGuid
-:
 parentGuid
 type
 :
@@ -2431,8 +2427,6 @@ bookmarks
 insert
 (
 {
-parentGuid
-:
 parentGuid
 type
 :

@@ -272,8 +272,6 @@ usePrivateBrowsing
 ;
 }
 isBrowserPrivate
-:
-function
 (
 aBrowser
 )

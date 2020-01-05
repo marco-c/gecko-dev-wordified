@@ -164,8 +164,6 @@ uri
 :
 uri1
 referrer
-:
-referrer
 }
 )
 ;
@@ -217,8 +215,6 @@ addVisits
 uri
 :
 uri2
-referrer
-:
 referrer
 }
 )
@@ -273,8 +269,6 @@ addVisits
 uri
 :
 uri3
-referrer
-:
 referrer
 }
 )
@@ -643,8 +637,6 @@ addVisits
 uri
 :
 cantAddUri
-referrer
-:
 referrer
 }
 )

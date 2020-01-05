@@ -319,8 +319,6 @@ NOT_REMOTE
 WEB_REMOTE_TYPE
 FILE_REMOTE_TYPE
 canLoadURIInProcess
-:
-function
 (
 aURL
 aProcess
@@ -357,8 +355,6 @@ remoteType
 ;
 }
 getRemoteTypeForURI
-:
-function
 (
 aURL
 aMultiProcess
@@ -875,8 +871,6 @@ aPreferredRemoteType
 ;
 }
 shouldLoadURIInThisProcess
-:
-function
 (
 aURI
 )
@@ -907,8 +901,6 @@ remoteType
 ;
 }
 shouldLoadURI
-:
-function
 (
 aDocShell
 aURI
@@ -966,8 +958,6 @@ aURI
 ;
 }
 redirectLoad
-:
-function
 (
 aDocShell
 aURI
@@ -1070,8 +1060,6 @@ false
 ;
 }
 wrapHandlingUserInput
-:
-function
 (
 aWindow
 aIsHandling

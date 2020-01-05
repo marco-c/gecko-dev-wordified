@@ -1314,10 +1314,8 @@ restore
 /
 /
 helpers
-_performCombo
-:
-function
 *
+_performCombo
 (
 combo
 )

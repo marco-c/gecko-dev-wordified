@@ -174,8 +174,6 @@ and
 friends
 )
 fireDialogEvent
-:
-function
 (
 domWin
 eventName
@@ -256,8 +254,6 @@ event
 ;
 }
 objectToPropBag
-:
-function
 (
 obj
 )
@@ -321,8 +317,6 @@ bag
 ;
 }
 propBagToObject
-:
-function
 (
 propBag
 obj
@@ -631,8 +625,6 @@ dialog_enable_delay
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -711,8 +703,6 @@ break
 }
 }
 onBlur
-:
-function
 (
 )
 {
@@ -775,8 +765,6 @@ null
 }
 }
 onFocus
-:
-function
 (
 )
 {
@@ -788,8 +776,6 @@ startOnFocusDelay
 ;
 }
 onUnload
-:
-function
 (
 )
 {
@@ -872,8 +858,6 @@ null
 ;
 }
 startOnFocusDelay
-:
-function
 (
 )
 {
@@ -939,8 +923,6 @@ TYPE_ONE_SHOT
 ;
 }
 onFocusTimeout
-:
-function
 (
 )
 {

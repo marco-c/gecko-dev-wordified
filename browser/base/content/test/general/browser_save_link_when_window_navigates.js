@@ -694,8 +694,6 @@ windowObserver
 =
 {
 setCallback
-:
-function
 (
 aCallback
 )
@@ -734,8 +732,6 @@ aCallback
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic

@@ -4856,8 +4856,6 @@ for
 bug
 1192901
 callback
-:
-function
 (
 )
 {
@@ -4952,8 +4950,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -5061,8 +5057,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -5114,8 +5108,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -5687,8 +5679,6 @@ complete
 ;
 }
 _checkForOldBuildUpdates
-:
-function
 (
 )
 {
@@ -6098,8 +6088,6 @@ eAttemptQuit
 }
 }
 _trackSlowStartup
-:
-function
 (
 )
 {
@@ -6433,8 +6421,6 @@ ONE_DAY
 }
 )
 _showSlowStartupNotification
-:
-function
 (
 profileAge
 )
@@ -6536,8 +6522,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -6611,8 +6595,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -6725,8 +6707,6 @@ offered
 *
 /
 _resetProfileNotification
-:
-function
 (
 reason
 )
@@ -6931,8 +6911,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -7000,8 +6978,6 @@ buttons
 ;
 }
 _notifyUnsignedAddonsDisabled
-:
-function
 (
 )
 {
@@ -7075,8 +7051,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -7145,8 +7119,6 @@ buttons
 ;
 }
 _firstWindowTelemetry
-:
-function
 (
 aWindow
 )
@@ -7972,8 +7944,6 @@ handler
 *
 /
 _onQuitApplicationGranted
-:
-function
 (
 )
 {
@@ -8168,8 +8138,6 @@ uninit
 }
 }
 _initServiceDiscovery
-:
-function
 (
 )
 {
@@ -8214,8 +8182,6 @@ roku
 ecp
 "
 factory
-:
-function
 (
 aService
 )
@@ -9190,8 +9156,6 @@ onWindowsRestored
 ;
 }
 _createExtraDefaultProfile
-:
-function
 (
 )
 {
@@ -10955,8 +10919,6 @@ buttons
 [
 {
 label
-:
-label
 accessKey
 :
 key
@@ -10964,8 +10926,6 @@ popup
 :
 null
 callback
-:
-function
 (
 aNotificationBar
 aButton
@@ -13093,14 +13053,10 @@ label
 :
 buttonText
 accessKey
-:
-accessKey
 popup
 :
 null
 callback
-:
-function
 (
 aNotificationBar
 aButton
@@ -13162,8 +13118,6 @@ closes
 it
 }
 _showSyncStartedDoorhanger
-:
-function
 (
 )
 {
@@ -16424,8 +16378,6 @@ clickCallback
 }
 )
 _hasSystemAlertsService
-:
-function
 (
 )
 {
@@ -18372,8 +18324,6 @@ clickCallback
 ;
 }
 _handleFlashHang
-:
-function
 (
 )
 {
@@ -18639,8 +18589,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {
@@ -19364,8 +19312,6 @@ _setAsDefaultButtonClickStartTime
 :
 0
 closePrompt
-:
-function
 (
 aNode
 )
@@ -19388,8 +19334,6 @@ close
 }
 }
 setAsDefault
-:
-function
 (
 )
 {
@@ -19806,8 +19750,6 @@ setAsDefaultError
 ;
 }
 _createPopup
-:
-function
 (
 win
 notNowStrings
@@ -19974,8 +19916,6 @@ popup
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -20022,8 +19962,6 @@ closePrompt
 }
 }
 prompt
-:
-function
 (
 win
 )
@@ -20605,8 +20543,6 @@ up
 }
 }
 _onNotificationEvent
-:
-function
 (
 eventType
 )
@@ -20694,8 +20630,6 @@ _wantsPrompt
 :
 false
 init
-:
-function
 (
 )
 {
@@ -20790,8 +20724,6 @@ false
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -20914,8 +20846,6 @@ break
 }
 }
 onWindowsRestored
-:
-function
 (
 )
 {
@@ -20944,8 +20874,6 @@ _warnedAboutAccessibility
 :
 false
 _showE10sAccessibilityWarning
-:
-function
 (
 )
 {
@@ -21328,8 +21256,6 @@ accesskey
 "
 )
 callback
-:
-function
 (
 )
 {

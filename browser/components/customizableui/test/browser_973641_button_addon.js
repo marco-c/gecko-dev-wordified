@@ -117,8 +117,6 @@ type
 button
 '
 onClick
-:
-function
 (
 )
 {

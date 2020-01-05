@@ -787,8 +787,6 @@ null
 *
 /
 fetch
-:
-function
 (
 searchTerm
 privateMode
@@ -1254,8 +1252,6 @@ all
 *
 /
 stop
-:
-function
 (
 )
 {
@@ -1319,8 +1315,6 @@ _reset
 Private
 methods
 _fetchFormHistory
-:
-function
 (
 searchTerm
 )
@@ -1625,8 +1619,6 @@ network
 *
 /
 _fetchRemote
-:
-function
 (
 searchTerm
 engine
@@ -1898,8 +1890,6 @@ private
 *
 /
 _onRemoteLoaded
-:
-function
 (
 deferredResponse
 )
@@ -2163,8 +2153,6 @@ long
 *
 /
 _onRemoteTimeout
-:
-function
 (
 )
 {
@@ -2282,8 +2270,6 @@ Object
 *
 /
 _dedupeAndReturnResults
-:
-function
 (
 suggestResults
 )
@@ -2677,8 +2663,6 @@ results
 ;
 }
 _reset
-:
-function
 (
 )
 {

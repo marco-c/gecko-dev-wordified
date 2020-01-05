@@ -121,8 +121,6 @@ _cps2
 :
 null
 init
-:
-function
 (
 )
 {
@@ -259,8 +257,6 @@ Map
 (
 )
 handleObserverChange
-:
-function
 (
 msg
 )
@@ -414,8 +410,6 @@ observer
 =
 {
 onContentPrefSet
-:
-function
 (
 group
 name
@@ -435,8 +429,6 @@ ContentPrefs
 NotifyObservers
 "
 {
-name
-:
 name
 callback
 :
@@ -456,8 +448,6 @@ isPrivate
 ;
 }
 onContentPrefRemoved
-:
-function
 (
 group
 name
@@ -476,8 +466,6 @@ ContentPrefs
 NotifyObservers
 "
 {
-name
-:
 name
 callback
 :
@@ -649,8 +637,6 @@ target
 }
 }
 receiveMessage
-:
-function
 (
 msg
 )
@@ -681,8 +667,6 @@ listener
 =
 {
 handleResult
-:
-function
 (
 pref
 )
@@ -699,8 +683,6 @@ ContentPrefs
 HandleResult
 "
 {
-requestId
-:
 requestId
 contentPref
 :
@@ -726,8 +708,6 @@ value
 ;
 }
 handleError
-:
-function
 (
 error
 )
@@ -745,18 +725,12 @@ HandleError
 "
 {
 requestId
-:
-requestId
-error
-:
 error
 }
 )
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )
@@ -774,10 +748,6 @@ HandleCompletion
 "
 {
 requestId
-:
-requestId
-reason
-:
 reason
 }
 )

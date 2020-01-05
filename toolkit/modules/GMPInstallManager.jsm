@@ -503,8 +503,6 @@ vars
 *
 /
 _getURL
-:
-function
 (
 )
 {
@@ -730,8 +728,6 @@ rejection
 *
 /
 checkForAddons
-:
-function
 (
 )
 {
@@ -1068,8 +1064,6 @@ previouserrorencountered
 *
 /
 installAddon
-:
-function
 (
 gmpAddon
 )
@@ -1128,8 +1122,6 @@ start
 ;
 }
 _getTimeSinceLastCheck
-:
-function
 (
 )
 {
@@ -1256,8 +1248,6 @@ true
 ;
 }
 _isAddonEnabled
-:
-function
 (
 aAddon
 )
@@ -1276,8 +1266,6 @@ aAddon
 ;
 }
 _isAddonUpdateEnabled
-:
-function
 (
 aAddon
 )
@@ -1304,8 +1292,6 @@ aAddon
 ;
 }
 _updateLastCheck
-:
-function
 (
 )
 {
@@ -1337,8 +1323,6 @@ now
 ;
 }
 _versionchangeOccurred
-:
-function
 (
 )
 {
@@ -2172,8 +2156,6 @@ up
 *
 /
 uninit
-:
-function
 (
 )
 {
@@ -2413,8 +2395,6 @@ addon
 *
 /
 toString
-:
-function
 (
 )
 {
@@ -2806,8 +2786,6 @@ extract
 *
 /
 _getZipEntries
-:
-function
 (
 zipReader
 )
@@ -2905,8 +2883,6 @@ info
 *
 /
 install
-:
-function
 (
 )
 {
@@ -3529,8 +3505,6 @@ info
 *
 /
 start
-:
-function
 (
 )
 {
@@ -3583,8 +3557,6 @@ reject
 target
 :
 this
-status
-:
 status
 type
 :

@@ -288,8 +288,6 @@ lastDisplayed
 :
 null
 observe
-:
-function
 (
 aSubject
 aTopic

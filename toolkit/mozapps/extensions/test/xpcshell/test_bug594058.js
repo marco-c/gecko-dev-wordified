@@ -157,8 +157,6 @@ WindowWatcher
 =
 {
 openWindow
-:
-function
 (
 parent
 url
@@ -174,8 +172,6 @@ gCachePurged
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -290,8 +286,6 @@ addObserver
 (
 {
 observe
-:
-function
 (
 aSubject
 aTopic

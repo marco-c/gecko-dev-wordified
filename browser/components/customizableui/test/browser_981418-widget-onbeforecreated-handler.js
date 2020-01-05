@@ -126,8 +126,6 @@ kWidgetId
 idontexistyet
 '
 onBeforeCreated
-:
-function
 (
 doc
 )
@@ -220,8 +218,6 @@ true
 ;
 }
 onViewShowing
-:
-function
 (
 )
 {

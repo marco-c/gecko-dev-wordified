@@ -326,8 +326,6 @@ _syncAnimationTimer
 :
 0
 init
-:
-function
 (
 )
 {
@@ -1082,8 +1080,6 @@ correct
 state
 .
 _loginFailed
-:
-function
 (
 )
 {
@@ -1840,8 +1836,6 @@ updateUI
 ;
 }
 _getAppName
-:
-function
 (
 )
 {
@@ -2285,8 +2279,6 @@ FxA
 Sync
 .
 openAddDevice
-:
-function
 (
 )
 {
@@ -2363,8 +2355,6 @@ no
 ;
 }
 openPrefs
-:
-function
 (
 entryPoint
 )
@@ -2387,8 +2377,6 @@ entryPoint
 ;
 }
 openSignInAgainPage
-:
-function
 (
 entryPoint
 =
@@ -3222,8 +3210,6 @@ tooltiptext
 }
 )
 formatLastSyncDate
-:
-function
 (
 date
 )
@@ -3386,8 +3372,6 @@ lastSyncDateString
 ;
 }
 onClientsSynced
-:
-function
 (
 )
 {

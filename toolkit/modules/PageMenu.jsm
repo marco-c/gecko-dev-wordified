@@ -143,8 +143,6 @@ its
 ancestor
 .
 getContextMenu
-:
-function
 (
 aTarget
 )
@@ -215,8 +213,6 @@ context
 menu
 .
 maybeBuild
-:
-function
 (
 aTarget
 )
@@ -366,8 +362,6 @@ the
 popup
 .
 buildAndAttachMenuWithObject
-:
-function
 (
 aMenu
 aBrowser
@@ -547,8 +541,6 @@ JSON
 object
 .
 buildXULMenu
-:
-function
 (
 aNode
 aElementForAppending
@@ -851,8 +843,6 @@ is
 executed
 .
 handleEvent
-:
-function
 (
 event
 )
@@ -1114,8 +1104,6 @@ tag
 name
 .
 getImmediateChild
-:
-function
 (
 element
 tag
@@ -1193,8 +1181,6 @@ returned
 element
 .
 getInsertionPoint
-:
-function
 (
 aPopup
 )
@@ -1299,8 +1285,6 @@ given
 popup
 .
 removeGeneratedContent
-:
-function
 (
 aPopup
 )
@@ -1515,8 +1499,6 @@ present
 *
 /
 buildAndAddToPopup
-:
-function
 (
 aTarget
 aPopup
@@ -1623,8 +1605,6 @@ present
 *
 /
 addToPopup
-:
-function
 (
 aMenu
 aBrowser
@@ -1833,8 +1813,6 @@ returned
 *
 /
 build
-:
-function
 (
 aTarget
 )
@@ -1887,8 +1865,6 @@ afterwards
 *
 /
 executeMenu
-:
-function
 (
 aId
 )

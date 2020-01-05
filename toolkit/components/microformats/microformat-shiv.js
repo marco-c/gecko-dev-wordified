@@ -274,8 +274,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -405,8 +403,6 @@ Object
 *
 /
 get
-:
-function
 (
 options
 )
@@ -760,8 +756,6 @@ Object
 *
 /
 getParent
-:
-function
 (
 node
 options
@@ -843,8 +837,6 @@ Int
 *
 /
 count
-:
-function
 (
 options
 )
@@ -1155,8 +1147,6 @@ Boolean
 *
 /
 isMicroformat
-:
-function
 (
 node
 options
@@ -1323,8 +1313,6 @@ Boolean
 *
 /
 hasMicroformats
-:
-function
 (
 node
 options
@@ -1470,8 +1458,6 @@ maps
 *
 /
 add
-:
-function
 (
 maps
 )
@@ -1574,8 +1560,6 @@ Object
 *
 /
 getParentTreeWalk
-:
-function
 (
 node
 options
@@ -1745,8 +1729,6 @@ options
 *
 /
 getDOMContext
-:
-function
 (
 options
 )
@@ -1805,8 +1787,6 @@ Boolean
 *
 /
 prepareDOM
-:
-function
 (
 options
 )
@@ -2090,8 +2070,6 @@ Object
 *
 /
 formatError
-:
-function
 (
 )
 {
@@ -2133,8 +2111,6 @@ Object
 *
 /
 formatEmpty
-:
-function
 (
 )
 {
@@ -2176,8 +2152,6 @@ return
 node
 structures
 findFilterNodes
-:
-function
 (
 rootNode
 filters
@@ -2420,8 +2394,6 @@ Object
 *
 /
 appendCount
-:
-function
 (
 name
 count
@@ -2493,8 +2465,6 @@ Boolean
 *
 /
 shouldInclude
-:
-function
 (
 uf
 filters
@@ -2598,8 +2568,6 @@ Array
 *
 /
 findRootNodes
-:
-function
 (
 rootNode
 includeRoot
@@ -2907,8 +2875,6 @@ Array
 *
 /
 walkRoot
-:
-function
 (
 node
 )
@@ -3136,8 +3102,6 @@ Array
 *
 /
 walkTree
-:
-function
 (
 node
 )
@@ -3306,8 +3270,6 @@ parentClasses
 *
 /
 walkChildren
-:
-function
 (
 node
 out
@@ -4336,8 +4298,6 @@ Object
 *
 /
 getValue
-:
-function
 (
 node
 className
@@ -4503,8 +4463,6 @@ String
 *
 /
 getPValue
-:
-function
 (
 node
 valueParse
@@ -4738,8 +4696,6 @@ Object
 *
 /
 getEValue
-:
-function
 (
 node
 )
@@ -4866,8 +4822,6 @@ String
 *
 /
 getUValue
-:
-function
 (
 node
 valueParse
@@ -5211,8 +5165,6 @@ String
 *
 /
 getDTValue
-:
-function
 (
 node
 className
@@ -5568,8 +5520,6 @@ propertyName
 *
 /
 appendRootID
-:
-function
 (
 node
 id
@@ -5706,8 +5656,6 @@ Boolean
 *
 /
 hasRootID
-:
-function
 (
 node
 id
@@ -5818,8 +5766,6 @@ null
 *
 /
 getValueClass
-:
-function
 (
 node
 propertyType
@@ -6139,8 +6085,6 @@ String
 *
 /
 getValueTitle
-:
-function
 (
 node
 )
@@ -6277,8 +6221,6 @@ Boolean
 *
 /
 hasHClass
-:
-function
 (
 node
 )
@@ -6354,8 +6296,6 @@ Object
 *
 /
 getUfClassNames
-:
-function
 (
 node
 ufNameArr
@@ -7317,8 +7257,6 @@ null
 *
 /
 getMapping
-:
-function
 (
 name
 )
@@ -7415,8 +7353,6 @@ null
 *
 /
 getV2RootName
-:
-function
 (
 name
 )
@@ -7495,8 +7431,6 @@ Boolean
 *
 /
 isAllowedPropertyVersion
-:
-function
 (
 typeVersion
 propertyVersion
@@ -7559,8 +7493,6 @@ Object
 *
 /
 createUfObject
-:
-function
 (
 names
 typeVersion
@@ -7719,8 +7651,6 @@ microformat
 *
 /
 cleanUfObject
-:
-function
 (
 microformat
 )
@@ -7774,8 +7704,6 @@ String
 *
 /
 removePropPrefix
-:
-function
 (
 text
 )
@@ -7875,8 +7803,6 @@ baseUrl
 *
 /
 expandURLs
-:
-function
 (
 node
 attrName
@@ -8072,8 +7998,6 @@ options
 *
 /
 mergeOptions
-:
-function
 (
 options
 )
@@ -8132,8 +8056,6 @@ rootNode
 *
 /
 removeRootIds
-:
-function
 (
 rootNode
 )
@@ -8208,8 +8130,6 @@ rootNode
 *
 /
 clearUpDom
-:
-function
 (
 rootNode
 )
@@ -11185,8 +11105,6 @@ name
 :
 propertyName
 value
-:
-value
 }
 ;
 }
@@ -11240,8 +11158,6 @@ altValue
 name
 :
 propertyName
-value
-:
 value
 }
 ;
@@ -11293,8 +11209,6 @@ altValue
 name
 :
 propertyName
-value
-:
 value
 }
 ;
@@ -13920,8 +13834,6 @@ Boolean
 *
 /
 isString
-:
-function
 (
 obj
 )
@@ -13963,8 +13875,6 @@ Boolean
 *
 /
 isNumber
-:
-function
 (
 obj
 )
@@ -14010,8 +13920,6 @@ Boolean
 *
 /
 isArray
-:
-function
 (
 obj
 )
@@ -14079,8 +13987,6 @@ Boolean
 *
 /
 isFunction
-:
-function
 (
 obj
 )
@@ -14141,8 +14047,6 @@ Boolean
 *
 /
 startWith
-:
-function
 (
 text
 test
@@ -14190,8 +14094,6 @@ String
 *
 /
 trim
-:
-function
 (
 text
 )
@@ -14285,8 +14187,6 @@ String
 *
 /
 replaceCharAt
-:
-function
 (
 text
 index
@@ -14362,8 +14262,6 @@ String
 *
 /
 trimWhitespace
-:
-function
 (
 text
 )
@@ -14531,8 +14429,6 @@ Boolean
 *
 /
 isOnlyWhiteSpace
-:
-function
 (
 text
 )
@@ -14588,8 +14484,6 @@ Sring
 *
 /
 collapseWhiteSpace
-:
-function
 (
 text
 )
@@ -14644,8 +14538,6 @@ Boolean
 *
 /
 hasProperties
-:
-function
 (
 obj
 )
@@ -14718,8 +14610,6 @@ Int
 *
 /
 sortObjects
-:
-function
 (
 property
 reverse
@@ -14828,8 +14718,6 @@ undefined
 *
 /
 getDOMParser
-:
-function
 (
 )
 {
@@ -14925,8 +14813,6 @@ node
 *
 /
 getDOMContext
-:
-function
 (
 options
 )
@@ -15201,8 +15087,6 @@ node
 *
 /
 getTopMostNode
-:
-function
 (
 node
 )
@@ -15283,8 +15167,6 @@ Document
 *
 /
 ownerDocument
-:
-function
 (
 node
 )
@@ -15318,8 +15200,6 @@ String
 *
 /
 textContent
-:
-function
 (
 node
 )
@@ -15379,8 +15259,6 @@ String
 *
 /
 innerHTML
-:
-function
 (
 node
 )
@@ -15420,8 +15298,6 @@ Boolean
 *
 /
 hasAttribute
-:
-function
 (
 node
 attributeName
@@ -15474,8 +15350,6 @@ Boolean
 *
 /
 hasAttributeValue
-:
-function
 (
 node
 attributeName
@@ -15534,8 +15408,6 @@ null
 *
 /
 getAttribute
-:
-function
 (
 node
 attributeName
@@ -15580,8 +15452,6 @@ attributeValue
 *
 /
 setAttribute
-:
-function
 (
 node
 attributeName
@@ -15621,8 +15491,6 @@ attributeName
 *
 /
 removeAttribute
-:
-function
 (
 node
 attributeName
@@ -15670,8 +15538,6 @@ Node
 *
 /
 getElementById
-:
-function
 (
 docNode
 id
@@ -15724,8 +15590,6 @@ Node
 *
 /
 querySelector
-:
-function
 (
 docNode
 selector
@@ -15775,8 +15639,6 @@ Array
 *
 /
 getAttributeList
-:
-function
 (
 node
 attributeName
@@ -15885,8 +15747,6 @@ NodeList
 *
 /
 getNodesByAttribute
-:
-function
 (
 node
 attributeName
@@ -15953,8 +15813,6 @@ NodeList
 *
 /
 getNodesByAttributeValue
-:
-function
 (
 rootNode
 name
@@ -16075,8 +15933,6 @@ null
 *
 /
 getAttrValFromTagList
-:
-function
 (
 node
 tagNames
@@ -16194,8 +16050,6 @@ null
 *
 /
 getSingleDescendant
-:
-function
 (
 node
 )
@@ -16262,8 +16116,6 @@ null
 *
 /
 getSingleDescendantOfType
-:
-function
 (
 node
 tagNames
@@ -16332,8 +16184,6 @@ null
 *
 /
 getDescendant
-:
-function
 (
 node
 tagNames
@@ -16511,8 +16361,6 @@ Boolean
 *
 /
 hasTagName
-:
-function
 (
 node
 tagNames
@@ -16590,8 +16438,6 @@ Node
 *
 /
 appendChild
-:
-function
 (
 node
 childNode
@@ -16633,8 +16479,6 @@ null
 *
 /
 removeChild
-:
-function
 (
 childNode
 )
@@ -16685,8 +16529,6 @@ Node
 *
 /
 clone
-:
-function
 (
 node
 )
@@ -16740,8 +16582,6 @@ String
 *
 /
 getElementText
-:
-function
 (
 node
 )
@@ -16799,8 +16639,6 @@ Array
 *
 /
 getOrderedAttributes
-:
-function
 (
 node
 )
@@ -16916,8 +16754,6 @@ String
 *
 /
 decodeEntities
-:
-function
 (
 doc
 text
@@ -16964,8 +16800,6 @@ Document
 *
 /
 cloneDocument
-:
-function
 (
 document
 )
@@ -17076,8 +16910,6 @@ Boolean
 *
 /
 canCloneDocument
-:
-function
 (
 document
 )
@@ -17139,8 +16971,6 @@ Int
 *
 /
 getChildIndex
-:
-function
 (
 node
 )
@@ -17221,8 +17051,6 @@ Array
 *
 /
 getNodePath
-:
-function
 (
 node
 )
@@ -17318,8 +17146,6 @@ Node
 *
 /
 getNodeByPath
-:
-function
 (
 document
 path
@@ -17395,8 +17221,6 @@ Array
 *
 /
 getChildren
-:
-function
 (
 node
 )
@@ -17430,8 +17254,6 @@ node
 *
 /
 createNode
-:
-function
 (
 tagName
 )
@@ -17479,8 +17301,6 @@ node
 *
 /
 createNodeWithText
-:
-function
 (
 tagName
 text
@@ -17529,8 +17349,6 @@ URLs
 *
 /
 init
-:
-function
 (
 )
 {
@@ -17699,8 +17517,6 @@ String
 *
 /
 resolve
-:
-function
 (
 url
 baseUrl
@@ -18098,8 +17914,6 @@ states
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -18139,8 +17953,6 @@ states
 *
 /
 clearDate
-:
-function
 (
 )
 {
@@ -18184,8 +17996,6 @@ states
 *
 /
 clearTime
-:
-function
 (
 )
 {
@@ -18229,8 +18039,6 @@ states
 *
 /
 clearTimeZone
-:
-function
 (
 )
 {
@@ -18276,8 +18084,6 @@ state
 *
 /
 setAutoProfileState
-:
-function
 (
 )
 {
@@ -18361,8 +18167,6 @@ String
 *
 /
 parse
-:
-function
 (
 dateString
 format
@@ -18915,8 +18719,6 @@ String
 *
 /
 parseDate
-:
-function
 (
 dateString
 format
@@ -19233,8 +19035,6 @@ String
 *
 /
 parseTime
-:
-function
 (
 timeString
 format
@@ -19495,8 +19295,6 @@ String
 *
 /
 parseTimeZone
-:
-function
 (
 timeString
 format
@@ -19773,8 +19571,6 @@ String
 *
 /
 toString
-:
-function
 (
 format
 )
@@ -19997,8 +19793,6 @@ String
 *
 /
 toTimeString
-:
-function
 (
 format
 )
@@ -20260,8 +20054,6 @@ profile
 *
 /
 setFormatSep
-:
-function
 (
 )
 {
@@ -20506,8 +20298,6 @@ Boolean
 *
 /
 hasFullDate
-:
-function
 (
 )
 {
@@ -20575,8 +20365,6 @@ Boolean
 *
 /
 hasDate
-:
-function
 (
 )
 {
@@ -20624,8 +20412,6 @@ Boolean
 *
 /
 hasTime
-:
-function
 (
 )
 {
@@ -20675,8 +20461,6 @@ Boolean
 *
 /
 hasTimeZone
-:
-function
 (
 )
 {
@@ -20735,8 +20519,6 @@ Boolean
 *
 /
 hasAM
-:
-function
 (
 text
 )
@@ -20804,8 +20586,6 @@ Boolean
 *
 /
 hasPM
-:
-function
 (
 text
 )
@@ -20878,8 +20658,6 @@ String
 *
 /
 removeAMPM
-:
-function
 (
 text
 )
@@ -20966,8 +20744,6 @@ Boolean
 *
 /
 isDuration
-:
-function
 (
 text
 )
@@ -21101,8 +20877,6 @@ Boolean
 *
 /
 isTime
-:
-function
 (
 text
 )
@@ -21410,8 +21184,6 @@ String
 *
 /
 parseAmPmTime
-:
-function
 (
 text
 )
@@ -21751,8 +21523,6 @@ ISODate
 *
 /
 dateTimeUnion
-:
-function
 (
 date
 time
@@ -21930,8 +21700,6 @@ ISODate
 *
 /
 concatFragments
-:
-function
 (
 arr
 format
@@ -22295,8 +22063,6 @@ ISODate
 *
 /
 splitTimeAndZone
-:
-function
 (
 text
 )
@@ -22638,8 +22404,6 @@ String
 *
 /
 parse
-:
-function
 (
 doc
 node
@@ -22768,8 +22532,6 @@ String
 *
 /
 parseText
-:
-function
 (
 doc
 text
@@ -22841,8 +22603,6 @@ String
 *
 /
 formatText
-:
-function
 (
 doc
 text
@@ -22978,8 +22738,6 @@ String
 *
 /
 normalise
-:
-function
 (
 doc
 text
@@ -23105,8 +22863,6 @@ String
 *
 /
 walkTreeForText
-:
-function
 (
 node
 )
@@ -23418,8 +23174,6 @@ String
 *
 /
 parse
-:
-function
 (
 node
 )
@@ -23551,8 +23305,6 @@ String
 *
 /
 walkTreeForHtml
-:
-function
 (
 node
 )

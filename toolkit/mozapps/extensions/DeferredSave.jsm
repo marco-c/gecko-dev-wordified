@@ -513,8 +513,6 @@ PrefObserver
 =
 {
 init
-:
-function
 (
 )
 {
@@ -555,8 +553,6 @@ PREF_LOGGING_ENABLED
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1313,8 +1309,6 @@ data
 is
 dirty
 _startTimer
-:
-function
 (
 )
 {
@@ -1432,8 +1426,6 @@ written
 *
 /
 saveChanges
-:
-function
 (
 )
 {
@@ -1557,8 +1549,6 @@ promise
 ;
 }
 _deferredSave
-:
-function
 (
 )
 {
@@ -1989,8 +1979,6 @@ write
 *
 /
 flush
-:
-function
 (
 )
 {

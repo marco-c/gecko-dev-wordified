@@ -4342,8 +4342,6 @@ push
 (
 {
 name
-:
-name
 arguments
 :
 args

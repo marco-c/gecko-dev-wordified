@@ -1021,8 +1021,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 )
 {
@@ -1032,8 +1030,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 )
 {

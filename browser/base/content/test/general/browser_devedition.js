@@ -810,8 +810,6 @@ id
 return
 {
 id
-:
-id
 name
 :
 id

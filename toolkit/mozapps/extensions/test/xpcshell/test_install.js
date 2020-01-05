@@ -1828,8 +1828,6 @@ addListener
 (
 {
 onDownloadProgress
-:
-function
 (
 )
 {
@@ -5001,8 +4999,6 @@ addListener
 (
 {
 onDownloadProgress
-:
-function
 (
 )
 {
@@ -5019,8 +5015,6 @@ continued
 ;
 }
 onDownloadEnded
-:
-function
 (
 )
 {
@@ -5269,8 +5263,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -5370,8 +5362,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -5394,8 +5384,6 @@ true
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5480,8 +5468,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5659,8 +5645,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5754,8 +5738,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -5778,8 +5760,6 @@ true
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -5948,8 +5928,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -5972,8 +5950,6 @@ true
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -6058,8 +6034,6 @@ addListener
 (
 {
 onInstallStarted
-:
-function
 (
 )
 {
@@ -6082,8 +6056,6 @@ false
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -6327,8 +6299,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 unused
 aAddon
@@ -6514,8 +6484,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 unused
 aAddon
@@ -6676,8 +6644,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 unused
 aAddon
@@ -7869,8 +7835,6 @@ addObserver
 (
 {
 observeActivity
-:
-function
 (
 aChannel
 aType
@@ -8027,8 +7991,6 @@ addListener
 (
 {
 onDownloadProgress
-:
-function
 (
 aDownloadProgressInstall
 )
@@ -8155,8 +8117,6 @@ addListener
 (
 {
 onDownloadProgress
-:
-function
 (
 )
 {

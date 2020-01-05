@@ -153,8 +153,6 @@ prototype
 =
 {
 onCacheStorageInfo
-:
-function
 (
 num
 consumption
@@ -177,8 +175,6 @@ entries
 ;
 }
 onCacheEntryInfo
-:
-function
 (
 uri
 )
@@ -216,8 +212,6 @@ cache
 ;
 }
 onCacheEntryVisitCompleted
-:
-function
 (
 )
 {

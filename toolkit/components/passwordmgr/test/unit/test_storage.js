@@ -219,8 +219,6 @@ formLogin
 (
 {
 hostname
-:
-hostname
 formSubmitURL
 :
 hostname

@@ -316,8 +316,6 @@ param
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -368,8 +366,6 @@ height
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -420,8 +416,6 @@ left
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -487,8 +481,6 @@ outerHeight
 "
 }
 successFn
-:
-function
 (
 )
 {
@@ -530,8 +522,6 @@ outerHeight
 ;
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -597,8 +587,6 @@ innerHeight
 "
 }
 successFn
-:
-function
 (
 )
 {
@@ -640,8 +628,6 @@ innerHeight
 ;
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -687,8 +673,6 @@ yes
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -801,8 +785,6 @@ height
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -873,8 +855,6 @@ height
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -929,8 +909,6 @@ param
 "
 }
 finalizeFn
-:
-function
 (
 )
 {
@@ -1335,8 +1313,6 @@ aOptions
 .
 successFn
 onFinalize
-:
-onFinalize
 }
 )
 ;
@@ -1557,8 +1533,6 @@ aOptions
 .
 successFn
 onFinalize
-:
-onFinalize
 }
 )
 ;
@@ -1640,8 +1614,6 @@ callBack_onFinalize
 :
 null
 onOpenWindow
-:
-function
 (
 aXULWindow
 )
@@ -1807,16 +1779,12 @@ true
 ;
 }
 onCloseWindow
-:
-function
 (
 aXULWindow
 )
 {
 }
 onWindowTitleChange
-:
-function
 (
 aXULWindow
 aNewTitle

@@ -316,8 +316,6 @@ prototype
 =
 {
 add
-:
-function
 (
 label
 value
@@ -397,8 +395,6 @@ option
 ;
 }
 addOptions
-:
-function
 (
 options
 )
@@ -472,8 +468,6 @@ true
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -488,8 +482,6 @@ innerHTML
 ;
 }
 toggleList
-:
-function
 (
 force
 focus
@@ -629,8 +621,6 @@ true
 }
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -888,8 +878,6 @@ break
 }
 }
 _getPagedOption
-:
-function
 (
 option
 up
@@ -976,8 +964,6 @@ next
 ;
 }
 _keyPressedButton
-:
-function
 (
 evt
 )
@@ -1140,8 +1126,6 @@ toSelect
 }
 }
 _keyPressedInBox
-:
-function
 (
 evt
 )
@@ -1316,8 +1300,6 @@ focus
 }
 }
 _select
-:
-function
 (
 option
 suppressEvent
@@ -1454,8 +1436,6 @@ evt
 }
 }
 _updateDropdownHeight
-:
-function
 (
 now
 )
@@ -1566,8 +1546,6 @@ _pendingDropdownUpdate
 }
 }
 _getOptionFromValue
-:
-function
 (
 value
 )

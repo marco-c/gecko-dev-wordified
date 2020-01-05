@@ -823,8 +823,6 @@ MaybeShowAutoMigrationUndoNotification
 "
 ]
 init
-:
-function
 (
 )
 {
@@ -872,8 +870,6 @@ this
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -1123,8 +1119,6 @@ engine
 changes
 .
 sendAboutHomeData
-:
-function
 (
 target
 )

@@ -497,8 +497,6 @@ DownloadList
 *
 /
 import
-:
-function
 (
 )
 {
@@ -994,8 +992,6 @@ url
 :
 source
 referrer
-:
-referrer
 }
 target
 :
@@ -1015,8 +1011,6 @@ type
 "
 copy
 "
-entityID
-:
 entityID
 }
 startTime
@@ -1039,8 +1033,6 @@ tempPath
 tryToKeepPartialData
 :
 true
-launchWhenSucceeded
-:
 launchWhenSucceeded
 contentType
 :

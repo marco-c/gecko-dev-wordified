@@ -214,8 +214,6 @@ _tagItemId
 -
 1
 populate
-:
-function
 (
 )
 {
@@ -491,8 +489,6 @@ DEFAULT_INDEX
 ;
 }
 clean
-:
-function
 (
 )
 {
@@ -530,8 +526,6 @@ _itemId
 ;
 }
 validate
-:
-function
 (
 )
 {

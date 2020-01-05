@@ -244,8 +244,6 @@ frame
 *
 /
 collect
-:
-function
 (
 frame
 )
@@ -372,8 +370,6 @@ collect
 *
 /
 restore
-:
-function
 (
 frame
 value
@@ -568,8 +564,6 @@ children
 *
 /
 restoreTree
-:
-function
 (
 root
 data

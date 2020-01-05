@@ -602,8 +602,6 @@ SilentAssert
 =
 {
 equal
-:
-function
 (
 a
 b
@@ -632,8 +630,6 @@ msg
 ;
 }
 notEqual
-:
-function
 (
 a
 b
@@ -662,8 +658,6 @@ msg
 ;
 }
 ok
-:
-function
 (
 a
 msg
@@ -687,8 +681,6 @@ msg
 ;
 }
 leq
-:
-function
 (
 a
 b

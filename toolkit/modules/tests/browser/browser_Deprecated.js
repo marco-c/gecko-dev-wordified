@@ -284,8 +284,6 @@ deprecatedFunction
 :
 basicDeprecatedFunction
 expectedObservation
-:
-function
 (
 aMessage
 )
@@ -336,8 +334,6 @@ passed
 .
 {
 deprecatedFunction
-:
-function
 (
 )
 {
@@ -359,8 +355,6 @@ true
 ;
 }
 expectedObservation
-:
-function
 (
 aMessage
 )
@@ -427,8 +421,6 @@ deprecatedFunction
 :
 deprecationFunctionBogusCallstack
 expectedObservation
-:
-function
 (
 aMessage
 )
@@ -514,8 +506,6 @@ deprecatedFunction
 :
 deprecationFunctionCustomCallstack
 expectedObservation
-:
-function
 (
 aMessage
 )
@@ -785,8 +775,6 @@ consoleListener
 =
 {
 observe
-:
-function
 (
 aMessage
 )

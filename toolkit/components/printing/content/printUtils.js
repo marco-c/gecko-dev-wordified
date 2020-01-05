@@ -653,8 +653,6 @@ failure
 *
 /
 showPageSetup
-:
-function
 (
 )
 {
@@ -850,8 +848,6 @@ to
 *
 /
 printWindow
-:
-function
 (
 aWindowID
 aBrowser
@@ -910,8 +906,6 @@ content
 *
 /
 print
-:
-function
 (
 )
 {
@@ -1338,8 +1332,6 @@ used
 *
 /
 printPreview
-:
-function
 (
 aListenerObj
 )
@@ -1912,8 +1904,6 @@ nsIWebBrowserPrint
 *
 /
 getWebBrowserPrint
-:
-function
 (
 aWindow
 )
@@ -2108,8 +2098,6 @@ nsIWebBrowserPrint
 *
 /
 getPrintPreview
-:
-function
 (
 )
 {
@@ -3086,8 +3074,6 @@ undefined
 ;
 }
 setPrinterDefaultsForSelectedPrinter
-:
-function
 (
 aPSSVC
 aPrintSettings
@@ -3151,8 +3137,6 @@ kInitSaveAll
 ;
 }
 getPrintSettings
-:
-function
 (
 )
 {
@@ -3329,8 +3313,6 @@ _obsPP
 :
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -3369,8 +3351,6 @@ enterPrintPreview
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -3425,8 +3405,6 @@ NS_NOINTERFACE
 }
 }
 setSimplifiedMode
-:
-function
 (
 shouldSimplify
 )
@@ -3439,8 +3417,6 @@ shouldSimplify
 ;
 }
 enterPrintPreview
-:
-function
 (
 )
 {
@@ -4399,8 +4375,6 @@ onEntered
 ;
 }
 exitPrintPreview
-:
-function
 (
 )
 {
@@ -4599,8 +4573,6 @@ onExit
 ;
 }
 logTelemetry
-:
-function
 (
 ID
 )
@@ -4626,8 +4598,6 @@ true
 ;
 }
 onKeyDownPP
-:
-function
 (
 aEvent
 )
@@ -4659,8 +4629,6 @@ exitPrintPreview
 }
 }
 onKeyPressPP
-:
-function
 (
 aEvent
 )

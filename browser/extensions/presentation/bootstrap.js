@@ -240,8 +240,6 @@ prototype
 =
 {
 register
-:
-function
 (
 targetConstructor
 )
@@ -307,8 +305,6 @@ factory
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -360,8 +356,6 @@ Presentation
 PUBLIC
 APIs
 init
-:
-function
 (
 )
 {
@@ -396,8 +390,6 @@ _register
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -434,8 +426,6 @@ PRESENTATION_DEVICE_PROMPT_PATH
 PRIVATE
 APIs
 _register
-:
-function
 (
 )
 {
@@ -466,8 +456,6 @@ PresentationDevicePrompt
 ;
 }
 _unregister
-:
-function
 (
 )
 {

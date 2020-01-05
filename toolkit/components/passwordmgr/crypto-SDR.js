@@ -309,8 +309,6 @@ __utfConverter
 ;
 }
 _utfConverterReset
-:
-function
 (
 )
 {
@@ -325,8 +323,6 @@ _uiBusy
 :
 false
 init
-:
-function
 (
 )
 {
@@ -457,8 +453,6 @@ problem
 *
 /
 encrypt
-:
-function
 (
 plainText
 )
@@ -726,8 +720,6 @@ problem
 *
 /
 decrypt
-:
-function
 (
 cipherText
 )
@@ -1098,8 +1090,6 @@ _notifyObservers
 *
 /
 _notifyObservers
-:
-function
 (
 topic
 )

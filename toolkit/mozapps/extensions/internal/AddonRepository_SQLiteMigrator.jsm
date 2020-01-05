@@ -414,8 +414,6 @@ opened
 *
 /
 migrate
-:
-function
 (
 aCallback
 )
@@ -557,8 +555,6 @@ successfully
 *
 /
 _openConnection
-:
-function
 (
 )
 {
@@ -979,8 +975,6 @@ true
 ;
 }
 _closeConnection
-:
-function
 (
 )
 {
@@ -1077,8 +1071,6 @@ to
 *
 /
 _retrieveStoredData
-:
-function
 (
 aCallback
 )
@@ -1174,8 +1166,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1371,8 +1361,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1566,8 +1554,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1753,8 +1739,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1947,8 +1931,6 @@ this
 .
 asyncErrorLogger
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -2114,8 +2096,6 @@ key
 *
 /
 getAsyncStatement
-:
-function
 (
 aKey
 )
@@ -2408,8 +2388,6 @@ on
 *
 /
 _makeAddonFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2511,8 +2489,6 @@ developer
 *
 /
 _makeDeveloperFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2580,8 +2556,6 @@ screenshot
 *
 /
 _makeScreenshotFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2715,8 +2689,6 @@ CompatibilityOverride
 *
 /
 _makeCompatOverrideFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2844,8 +2816,6 @@ icon
 *
 /
 _makeIconFromAsyncRow
-:
-function
 (
 aRow
 )
@@ -2877,10 +2847,6 @@ url
 return
 {
 size
-:
-size
-url
-:
 url
 }
 ;
@@ -2921,8 +2887,6 @@ message
 *
 /
 logSQLError
-:
-function
 (
 aError
 aErrorString
@@ -2976,8 +2940,6 @@ log
 *
 /
 asyncErrorLogger
-:
-function
 (
 aError
 )
@@ -3021,8 +2983,6 @@ database
 *
 /
 _createTriggers
-:
-function
 (
 )
 {
@@ -3134,8 +3094,6 @@ database
 *
 /
 _createIndices
-:
-function
 (
 )
 {

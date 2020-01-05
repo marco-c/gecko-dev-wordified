@@ -442,8 +442,6 @@ s
 textContent
 .
 acceptNode
-:
-function
 (
 node
 )
@@ -801,8 +799,6 @@ pending
 ;
 }
 _getVoice
-:
-function
 (
 voiceURI
 )
@@ -870,8 +866,6 @@ voiceURI
 ;
 }
 _isParagraphInView
-:
-function
 (
 paragraph
 )
@@ -916,8 +910,6 @@ innerHeight
 ;
 }
 _sendTestEvent
-:
-function
 (
 eventType
 detail
@@ -958,8 +950,6 @@ document
 ;
 }
 _speakInner
-:
-function
 (
 )
 {
@@ -1606,8 +1596,6 @@ utterance
 ;
 }
 start
-:
-function
 (
 speechOptions
 )
@@ -1755,8 +1743,6 @@ _speakInner
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -1778,8 +1764,6 @@ cancel
 ;
 }
 skipNext
-:
-function
 (
 )
 {
@@ -1795,8 +1779,6 @@ cancel
 ;
 }
 skipPrevious
-:
-function
 (
 )
 {
@@ -1817,8 +1799,6 @@ PREV_THRESHOLD
 ;
 }
 setRate
-:
-function
 (
 rate
 )
@@ -1847,8 +1827,6 @@ _goBackParagraphs
 ;
 }
 setVoice
-:
-function
 (
 voice
 )
@@ -1882,8 +1860,6 @@ _goBackParagraphs
 ;
 }
 _goBackParagraphs
-:
-function
 (
 count
 )
@@ -2033,8 +2009,6 @@ range
 *
 /
 highlight
-:
-function
 (
 startOffset
 length
@@ -2412,8 +2386,6 @@ nodes
 *
 /
 remove
-:
-function
 (
 )
 {
@@ -2482,8 +2454,6 @@ needed
 *
 /
 _getFreshHighlightNodes
-:
-function
 (
 count
 )
@@ -2689,8 +2659,6 @@ offset
 *
 /
 _getRange
-:
-function
 (
 startOffset
 endOffset

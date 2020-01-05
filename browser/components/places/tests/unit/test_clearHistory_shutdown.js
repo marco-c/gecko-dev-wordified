@@ -996,8 +996,6 @@ storeCacheListener
 =
 {
 onCacheEntryCheck
-:
-function
 (
 entry
 appcache
@@ -1012,8 +1010,6 @@ ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
-:
-function
 (
 entry
 isnew
@@ -1204,8 +1200,6 @@ checkCacheListener
 =
 {
 onCacheEntryAvailable
-:
-function
 (
 entry
 isnew

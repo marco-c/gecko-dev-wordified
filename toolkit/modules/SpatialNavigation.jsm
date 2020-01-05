@@ -172,8 +172,6 @@ SpatialNavigation
 =
 {
 init
-:
-function
 (
 browser
 callback
@@ -3345,8 +3343,6 @@ PrefObserver
 =
 {
 register
-:
-function
 (
 )
 {
@@ -3557,8 +3553,6 @@ return
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic

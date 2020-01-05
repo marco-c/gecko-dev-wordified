@@ -305,8 +305,6 @@ equal
 *
 /
 deepEqual
-:
-function
 (
 a
 b
@@ -427,8 +425,6 @@ mode
 *
 /
 strict
-:
-function
 (
 obj
 )
@@ -1358,8 +1354,6 @@ Proxy
 obj
 {
 get
-:
-function
 (
 target
 name

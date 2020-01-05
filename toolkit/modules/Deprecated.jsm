@@ -384,8 +384,6 @@ logged
 *
 /
 warning
-:
-function
 (
 aText
 aUrl

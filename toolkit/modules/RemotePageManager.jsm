@@ -151,8 +151,6 @@ prototype
 =
 {
 keys
-:
-function
 (
 )
 {
@@ -167,8 +165,6 @@ keys
 ;
 }
 has
-:
-function
 (
 name
 )
@@ -185,8 +181,6 @@ name
 ;
 }
 callListeners
-:
-function
 (
 message
 )
@@ -250,8 +244,6 @@ e
 }
 }
 addMessageListener
-:
-function
 (
 name
 callback
@@ -302,8 +294,6 @@ callback
 ;
 }
 removeMessageListener
-:
-function
 (
 name
 callback
@@ -484,8 +474,6 @@ destroyed
 :
 null
 destroy
-:
-function
 (
 )
 {
@@ -555,8 +543,6 @@ a
 frame
 .
 portCreated
-:
-function
 (
 port
 )
@@ -641,8 +627,6 @@ of
 the
 pages
 portMessageReceived
-:
-function
 (
 message
 )
@@ -686,8 +670,6 @@ page
 has
 closed
 removeMessagePort
-:
-function
 (
 port
 )
@@ -742,8 +724,6 @@ port
 ;
 }
 registerPortListener
-:
-function
 (
 port
 name
@@ -770,8 +750,6 @@ all
 known
 pages
 sendAsyncMessage
-:
-function
 (
 name
 data
@@ -804,8 +782,6 @@ data
 }
 }
 addMessageListener
-:
-function
 (
 name
 callback
@@ -879,8 +855,6 @@ callback
 ;
 }
 removeMessageListener
-:
-function
 (
 name
 callback
@@ -918,8 +892,6 @@ callback
 ;
 }
 portsForBrowser
-:
-function
 (
 browser
 )
@@ -1031,8 +1003,6 @@ browser
 "
 {
 get
-:
-function
 (
 )
 {
@@ -1218,8 +1188,6 @@ is
 detached
 .
 swapMessageManager
-:
-function
 (
 messageManager
 )
@@ -1338,8 +1306,6 @@ message
 *
 /
 addMessageListener
-:
-function
 (
 name
 callback
@@ -1389,8 +1355,6 @@ messages
 *
 /
 removeMessageListener
-:
-function
 (
 name
 callback
@@ -1439,8 +1403,6 @@ the
 other
 process
 sendAsyncMessage
-:
-function
 (
 name
 data
@@ -1487,10 +1449,6 @@ this
 .
 portID
 name
-:
-name
-data
-:
 data
 }
 )
@@ -1504,8 +1462,6 @@ destroy
 this
 port
 destroy
-:
-function
 (
 )
 {
@@ -1698,8 +1654,6 @@ browser
 "
 {
 get
-:
-function
 (
 )
 {
@@ -2414,8 +2368,6 @@ InitPort
 "
 {
 portID
-:
-portID
 url
 :
 window
@@ -2644,8 +2596,6 @@ the
 needed
 listeners
 init
-:
-function
 (
 )
 {
@@ -2744,8 +2694,6 @@ per
 URL
 .
 addRemotePageListener
-:
-function
 (
 url
 callback
@@ -2865,8 +2813,6 @@ remote
 page
 .
 removeRemotePageListener
-:
-function
 (
 url
 )
@@ -2988,8 +2934,6 @@ currently
 registered
 urls
 initListener
-:
-function
 (
 {
 target
@@ -3043,8 +2987,6 @@ the
 content
 side
 initPort
-:
-function
 (
 {
 target

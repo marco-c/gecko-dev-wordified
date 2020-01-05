@@ -346,8 +346,6 @@ Readability
 *
 /
 parseDocument
-:
-function
 (
 uri
 serializedDoc

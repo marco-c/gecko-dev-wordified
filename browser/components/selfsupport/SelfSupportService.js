@@ -276,8 +276,6 @@ _window
 :
 null
 init
-:
-function
 (
 window
 )
@@ -320,8 +318,6 @@ enabled
 ;
 }
 resetPref
-:
-function
 (
 name
 )
@@ -337,8 +333,6 @@ name
 ;
 }
 resetSearchEngines
-:
-function
 (
 )
 {
@@ -360,8 +354,6 @@ resetToOriginalDefaultEngine
 ;
 }
 getTelemetryPingList
-:
-function
 (
 )
 {
@@ -379,8 +371,6 @@ promiseArchivedPingList
 ;
 }
 getTelemetryPing
-:
-function
 (
 pingId
 )
@@ -400,8 +390,6 @@ pingId
 ;
 }
 getCurrentTelemetryEnvironment
-:
-function
 (
 )
 {
@@ -431,8 +419,6 @@ current
 ;
 }
 getCurrentTelemetrySubsessionPing
-:
-function
 (
 )
 {
@@ -465,8 +451,6 @@ current
 ;
 }
 _wrapPromise
-:
-function
 (
 promise
 )

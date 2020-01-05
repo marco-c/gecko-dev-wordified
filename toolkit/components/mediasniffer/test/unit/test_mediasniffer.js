@@ -436,8 +436,6 @@ listener
 =
 {
 onStartRequest
-:
-function
 (
 request
 context
@@ -465,8 +463,6 @@ expectedContentType
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 context
@@ -543,8 +539,6 @@ ex
 }
 }
 onStopRequest
-:
-function
 (
 request
 context
@@ -597,8 +591,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :

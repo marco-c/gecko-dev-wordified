@@ -127,10 +127,8 @@ Test
 #
 1
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -194,8 +192,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -266,8 +262,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -327,10 +321,8 @@ Test
 #
 2
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -411,10 +403,8 @@ notifyObj
 )
 ;
 }
-onShown
-:
-function
 *
+onShown
 (
 popup
 )
@@ -498,8 +488,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -561,10 +549,8 @@ Test
 #
 3
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -742,8 +728,6 @@ icon
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -763,8 +747,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -838,10 +820,8 @@ Test
 #
 4
 "
-run
-:
-function
 *
+run
 (
 )
 {

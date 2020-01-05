@@ -343,8 +343,6 @@ open
 "
 {
 get
-:
-function
 (
 )
 {
@@ -363,8 +361,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -552,8 +548,6 @@ true
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -699,8 +693,6 @@ false
 ;
 }
 showDropDown
-:
-function
 (
 )
 {
@@ -733,8 +725,6 @@ Forms
 ShowDropDown
 "
 {
-rect
-:
 rect
 options
 :
@@ -774,8 +764,6 @@ true
 ;
 }
 _getBoundingContentRect
-:
-function
 (
 )
 {
@@ -791,8 +779,6 @@ element
 ;
 }
 _buildOptionList
-:
-function
 (
 )
 {
@@ -867,8 +853,6 @@ selectedIndex
 ;
 }
 receiveMessage
-:
-function
 (
 message
 )
@@ -1267,8 +1251,6 @@ break
 }
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1504,10 +1486,6 @@ child
 .
 index
 tagName
-:
-tagName
-textContent
-:
 textContent
 disabled
 :

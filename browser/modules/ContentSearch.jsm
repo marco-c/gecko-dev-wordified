@@ -741,8 +741,6 @@ _currentSuggestion
 :
 null
 init
-:
-function
 (
 )
 {
@@ -953,8 +951,6 @@ _searchSuggestionUIStrings
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1092,8 +1088,6 @@ browser
 *
 /
 focusInput
-:
-function
 (
 messageManager
 )
@@ -1114,8 +1108,6 @@ FocusInput
 ;
 }
 receiveMessage
-:
-function
 (
 msg
 )
@@ -1350,8 +1342,6 @@ _processEventQueue
 ;
 }
 observe
-:
-function
 (
 subj
 topic
@@ -1393,8 +1383,6 @@ type
 "
 Observe
 "
-data
-:
 data
 }
 )
@@ -1452,8 +1440,6 @@ break
 }
 }
 removeFormHistoryEntry
-:
-function
 (
 msg
 entry
@@ -1535,8 +1521,6 @@ break
 }
 }
 performSearch
-:
-function
 (
 msg
 data
@@ -1985,8 +1969,6 @@ this
 _currentSuggestion
 =
 {
-controller
-:
 controller
 target
 :
@@ -2506,8 +2488,6 @@ state
 }
 )
 _processEventQueue
-:
-function
 (
 )
 {
@@ -2611,8 +2591,6 @@ this
 ;
 }
 _cancelSuggestions
-:
-function
 (
 msg
 )
@@ -2848,8 +2826,6 @@ true
 }
 )
 _onMessageGetState
-:
-function
 (
 msg
 data
@@ -2884,8 +2860,6 @@ state
 ;
 }
 _onMessageGetStrings
-:
-function
 (
 msg
 data
@@ -2906,8 +2880,6 @@ searchSuggestionUIStrings
 ;
 }
 _onMessageSearch
-:
-function
 (
 msg
 data
@@ -2923,8 +2895,6 @@ data
 ;
 }
 _onMessageSetCurrentEngine
-:
-function
 (
 msg
 data
@@ -2947,8 +2917,6 @@ data
 ;
 }
 _onMessageManageEngines
-:
-function
 (
 msg
 data
@@ -3083,8 +3051,6 @@ entry
 }
 )
 _onMessageRemoveFormHistoryEntry
-:
-function
 (
 msg
 entry
@@ -3100,8 +3066,6 @@ entry
 ;
 }
 _onMessageSpeculativeConnect
-:
-function
 (
 msg
 engineName
@@ -3274,8 +3238,6 @@ state
 }
 )
 _suggestionDataForBrowser
-:
-function
 (
 browser
 create
@@ -3365,8 +3327,6 @@ data
 ;
 }
 _reply
-:
-function
 (
 msg
 type
@@ -3448,8 +3408,6 @@ data
 }
 }
 _broadcast
-:
-function
 (
 type
 data
@@ -3491,8 +3449,6 @@ data
 ;
 }
 _msgArgs
-:
-function
 (
 type
 data
@@ -3503,10 +3459,6 @@ return
 OUTBOUND_MESSAGE
 {
 type
-:
-type
-data
-:
 data
 }
 ]
@@ -3573,8 +3525,6 @@ engine
 .
 name
 placeholder
-:
-placeholder
 iconBuffer
 :
 yield
@@ -3592,8 +3542,6 @@ obj
 }
 )
 _arrayBufferFromDataURI
-:
-function
 (
 uri
 )
@@ -3753,8 +3701,6 @@ promise
 ;
 }
 _ensureDataHasProperties
-:
-function
 (
 data
 requiredProperties
@@ -3798,8 +3744,6 @@ prop
 }
 }
 _initService
-:
-function
 (
 )
 {

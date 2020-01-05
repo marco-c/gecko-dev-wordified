@@ -143,8 +143,6 @@ found
 *
 /
 indexOf
-:
-function
 (
 comparator
 array
@@ -237,8 +235,6 @@ ordered
 *
 /
 insertionIndexOf
-:
-function
 (
 comparator
 array
@@ -432,8 +428,6 @@ ordered
 *
 /
 search
-:
-function
 (
 comparator
 array

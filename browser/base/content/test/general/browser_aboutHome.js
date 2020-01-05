@@ -3944,10 +3944,6 @@ resolve
 (
 {
 pane
-:
-pane
-params
-:
 params
 }
 )
@@ -5022,8 +5018,6 @@ null
 false
 {
 onSuccess
-:
-function
 (
 engine
 )
@@ -5088,8 +5082,6 @@ engine
 ;
 }
 onError
-:
-function
 (
 errCode
 )

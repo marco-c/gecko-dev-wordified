@@ -275,8 +275,6 @@ registration
 site
 .
 delayedWarning
-:
-function
 (
 msg
 addon
@@ -679,8 +677,6 @@ n
 ;
 }
 warn
-:
-function
 (
 msg
 addon

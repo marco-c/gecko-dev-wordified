@@ -2852,8 +2852,6 @@ ID
 *
 /
 setAuthenticationFlow
-:
-function
 (
 aAuthId
 aProvId

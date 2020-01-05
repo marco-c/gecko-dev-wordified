@@ -882,8 +882,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -1033,8 +1031,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -1150,8 +1146,6 @@ _bookmarkId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -1377,8 +1371,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -1516,8 +1508,6 @@ _bookmarkId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -1809,8 +1799,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -2051,8 +2039,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -2260,8 +2246,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -2546,8 +2530,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -2743,8 +2725,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -3023,8 +3003,6 @@ Places
 root
 "
 setup
-:
-function
 (
 )
 {
@@ -3169,8 +3147,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -3361,8 +3337,6 @@ roots
 titles
 "
 setup
-:
-function
 (
 )
 {
@@ -3458,8 +3432,6 @@ title
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -3682,8 +3654,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -3744,8 +3714,6 @@ addBookmark
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -3969,8 +3937,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -4087,8 +4053,6 @@ _tagId
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -4383,8 +4347,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -4478,8 +4440,6 @@ tagsFolder
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -4806,8 +4766,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -4919,8 +4877,6 @@ _orphanFolderId
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -5244,8 +5200,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -5315,8 +5269,6 @@ TYPE_FOLDER
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -5556,8 +5508,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -5629,8 +5579,6 @@ TYPE_BOOKMARK
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -5876,8 +5824,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -5981,8 +5927,6 @@ _separatorId
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -6219,8 +6163,6 @@ _toolbarBookmarks
 [
 ]
 setup
-:
-function
 (
 )
 {
@@ -6235,8 +6177,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 aUserData
 )
@@ -6611,8 +6551,6 @@ _toolbarBookmarks
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -6886,8 +6824,6 @@ named
 tags
 "
 setup
-:
-function
 (
 )
 {
@@ -7072,8 +7008,6 @@ titledFolder
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -7374,8 +7308,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -7537,8 +7469,6 @@ org
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -7742,8 +7672,6 @@ _invalidPlaceId
 :
 1337
 setup
-:
-function
 (
 )
 {
@@ -7851,8 +7779,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -8061,8 +7987,6 @@ _invalidPlaceId
 :
 1337
 setup
-:
-function
 (
 )
 {
@@ -8195,8 +8119,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -8416,8 +8338,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -8641,8 +8561,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -8933,8 +8851,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -9148,8 +9064,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -9433,8 +9347,6 @@ _placeId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -9520,8 +9432,6 @@ finalize
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -9705,8 +9615,6 @@ _invalidIconPlaceId
 :
 null
 setup
-:
-function
 (
 )
 {
@@ -9839,8 +9747,6 @@ org
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -10121,10 +10027,8 @@ visit_count
 and
 last_visit_date
 "
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -10640,8 +10544,6 @@ now
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -11015,8 +10917,6 @@ redirecting2
 ;
 }
 check
-:
-function
 (
 )
 {
@@ -11061,8 +10961,6 @@ _count
 :
 0
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -11115,16 +11013,12 @@ _count
 }
 }
 handleError
-:
-function
 (
 aError
 )
 {
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -11932,10 +11826,8 @@ null
 _separatorId
 :
 null
-setup
-:
-function
 *
+setup
 (
 )
 {

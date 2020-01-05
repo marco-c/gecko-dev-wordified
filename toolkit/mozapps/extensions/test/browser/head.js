@@ -3542,8 +3542,6 @@ addListener
 (
 {
 onOpenWindow
-:
-function
 (
 aWindow
 )
@@ -3620,16 +3618,12 @@ false
 ;
 }
 onCloseWindow
-:
-function
 (
 aWindow
 )
 {
 }
 onWindowTitleChange
-:
-function
 (
 aWindow
 aTitle
@@ -4278,8 +4272,6 @@ type
 ;
 }
 get
-:
-function
 (
 aCategoryType
 aAllowMissing
@@ -4425,8 +4417,6 @@ null
 ;
 }
 getViewId
-:
-function
 (
 aCategoryType
 )
@@ -4464,8 +4454,6 @@ value
 ;
 }
 isVisible
-:
-function
 (
 aCategory
 )
@@ -4529,8 +4517,6 @@ aCategory
 ;
 }
 isTypeVisible
-:
-function
 (
 aCategoryType
 )
@@ -4550,8 +4536,6 @@ aCategoryType
 ;
 }
 open
-:
-function
 (
 aCategory
 aCallback
@@ -4642,8 +4626,6 @@ aCallback
 ;
 }
 openType
-:
-function
 (
 aCategoryType
 aCallback
@@ -4697,8 +4679,6 @@ bits
 :
 null
 getInterface
-:
-function
 (
 aIID
 )
@@ -4713,8 +4693,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -4771,8 +4749,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 notifyCertProblem
-:
-function
 (
 socketInfo
 sslStatus
@@ -7981,8 +7957,6 @@ applyBackgroundUpdates
 ;
 }
 isCompatibleWith
-:
-function
 (
 aAppVersion
 aPlatformVersion
@@ -7993,8 +7967,6 @@ true
 ;
 }
 findUpdates
-:
-function
 (
 aListener
 aReason
@@ -8014,8 +7986,6 @@ need
 to
 }
 uninstall
-:
-function
 (
 aAlwaysAllowUndo
 =
@@ -8146,8 +8116,6 @@ false
 }
 }
 cancelUninstall
-:
-function
 (
 )
 {
@@ -8209,8 +8177,6 @@ this
 ;
 }
 markAsSeen
-:
-function
 (
 )
 {
@@ -8222,8 +8188,6 @@ true
 ;
 }
 _updateActiveState
-:
-function
 (
 currentActive
 newActive
@@ -8626,8 +8590,6 @@ prototype
 =
 {
 install
-:
-function
 (
 )
 {
@@ -8987,8 +8949,6 @@ state
 }
 }
 cancel
-:
-function
 (
 )
 {
@@ -9079,8 +9039,6 @@ state
 }
 }
 addListener
-:
-function
 (
 aListener
 )
@@ -9114,8 +9072,6 @@ aListener
 ;
 }
 removeListener
-:
-function
 (
 aListener
 )
@@ -9141,8 +9097,6 @@ aListener
 ;
 }
 addTestListener
-:
-function
 (
 aListener
 )
@@ -9176,8 +9130,6 @@ aListener
 ;
 }
 removeTestListener
-:
-function
 (
 aListener
 )
@@ -9203,8 +9155,6 @@ aListener
 ;
 }
 callListeners
-:
-function
 (
 aMethod
 )

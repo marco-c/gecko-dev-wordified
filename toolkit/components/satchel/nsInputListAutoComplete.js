@@ -170,8 +170,6 @@ nsIInputListAutoComplete
 ]
 )
 autoCompleteSearch
-:
-function
 (
 aUntrimmedSearchString
 aField
@@ -243,8 +241,6 @@ null
 ;
 }
 getListSuggestions
-:
-function
 (
 aField
 )

@@ -548,8 +548,6 @@ html
 }
 )
 run
-:
-function
 (
 iframe
 )

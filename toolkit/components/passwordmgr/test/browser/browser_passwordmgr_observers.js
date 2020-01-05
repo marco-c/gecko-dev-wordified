@@ -149,8 +149,6 @@ testObserver
 =
 {
 observe
-:
-function
 (
 subject
 topic

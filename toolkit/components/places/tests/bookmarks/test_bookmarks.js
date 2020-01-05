@@ -125,8 +125,6 @@ bookmarksObserver
 =
 {
 onBeginUpdateBatch
-:
-function
 (
 )
 {
@@ -138,8 +136,6 @@ true
 ;
 }
 onEndUpdateBatch
-:
-function
 (
 )
 {
@@ -151,8 +147,6 @@ true
 ;
 }
 onItemAdded
-:
-function
 (
 id
 folder
@@ -282,8 +276,6 @@ finalize
 ;
 }
 onItemRemoved
-:
-function
 (
 id
 folder
@@ -311,8 +303,6 @@ index
 ;
 }
 onItemChanged
-:
-function
 (
 id
 property
@@ -358,8 +348,6 @@ oldValue
 ;
 }
 onItemVisited
-:
-function
 (
 id
 visitID
@@ -386,8 +374,6 @@ time
 ;
 }
 onItemMoved
-:
-function
 (
 id
 oldParent

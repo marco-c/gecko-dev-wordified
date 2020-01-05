@@ -8724,8 +8724,6 @@ checkRowMethods
 =
 {
 isContainer
-:
-function
 (
 row
 )
@@ -8736,8 +8734,6 @@ row
 container
 }
 isContainerOpen
-:
-function
 (
 row
 )
@@ -8746,8 +8742,6 @@ return
 false
 }
 isContainerEmpty
-:
-function
 (
 row
 )
@@ -8775,8 +8769,6 @@ length
 )
 }
 isSeparator
-:
-function
 (
 row
 )
@@ -8787,8 +8779,6 @@ row
 separator
 }
 getRowProperties
-:
-function
 (
 row
 )
@@ -8799,8 +8789,6 @@ row
 properties
 }
 getLevel
-:
-function
 (
 row
 )
@@ -8811,8 +8799,6 @@ row
 level
 }
 getParentIndex
-:
-function
 (
 row
 )
@@ -8823,8 +8809,6 @@ row
 parent
 }
 hasNextSibling
-:
-function
 (
 row
 )
@@ -8846,8 +8830,6 @@ checkCellMethods
 =
 {
 getCellText
-:
-function
 (
 row
 cell
@@ -8859,8 +8841,6 @@ cell
 label
 }
 getCellValue
-:
-function
 (
 row
 cell
@@ -8872,8 +8852,6 @@ cell
 value
 }
 getCellProperties
-:
-function
 (
 row
 cell
@@ -8885,8 +8863,6 @@ cell
 properties
 }
 isEditable
-:
-function
 (
 row
 cell
@@ -8898,8 +8874,6 @@ cell
 editable
 }
 isSelectable
-:
-function
 (
 row
 cell
@@ -8911,8 +8885,6 @@ cell
 selectable
 }
 getImageSrc
-:
-function
 (
 row
 cell
@@ -8924,8 +8896,6 @@ cell
 image
 }
 getProgressMode
-:
-function
 (
 row
 cell
@@ -12472,10 +12442,6 @@ localName
 treeseparator
 "
 children
-:
-children
-level
-:
 level
 parent
 :

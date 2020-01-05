@@ -344,8 +344,6 @@ string
 *
 /
 promiseArchivedPingList
-:
-function
 (
 )
 {
@@ -403,8 +401,6 @@ success
 *
 /
 promiseArchivedPingById
-:
-function
 (
 id
 )
@@ -463,8 +459,6 @@ archived
 *
 /
 promiseArchivePing
-:
-function
 (
 ping
 )
@@ -581,8 +575,6 @@ _logger
 ;
 }
 promiseArchivePing
-:
-function
 (
 ping
 )
@@ -690,8 +682,6 @@ ping
 ;
 }
 _buildArchivedPingList
-:
-function
 (
 archivedPingsMap
 )
@@ -759,8 +749,6 @@ list
 ;
 }
 promiseArchivedPingList
-:
-function
 (
 )
 {
@@ -801,8 +789,6 @@ loadedInfo
 ;
 }
 promiseArchivedPingById
-:
-function
 (
 id
 )

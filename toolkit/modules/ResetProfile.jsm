@@ -173,8 +173,6 @@ supported
 *
 /
 resetSupported
-:
-function
 (
 )
 {
@@ -376,8 +374,6 @@ profile
 *
 /
 openConfirmationDialog
-:
-function
 (
 window
 )

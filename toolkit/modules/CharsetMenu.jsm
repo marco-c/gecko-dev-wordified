@@ -937,8 +937,6 @@ CharsetMenu
 =
 {
 build
-:
-function
 (
 parent
 deprecatedShowAccessKeys
@@ -1311,8 +1309,6 @@ charsetInfo
 ;
 }
 getData
-:
-function
 (
 )
 {
@@ -1337,8 +1333,6 @@ gCharsetInfoCache
 ;
 }
 _ensureDataReady
-:
-function
 (
 )
 {
@@ -1378,8 +1372,6 @@ kEncodings
 }
 }
 getDetectorInfo
-:
-function
 (
 )
 {
@@ -1428,8 +1420,6 @@ nodeId
 ;
 }
 getCharsetInfo
-:
-function
 (
 charsets
 sort
@@ -1496,8 +1486,6 @@ list
 ;
 }
 _getDetectorLabel
-:
-function
 (
 detector
 )
@@ -1529,8 +1517,6 @@ detector
 ;
 }
 _getDetectorAccesskey
-:
-function
 (
 detector
 )
@@ -1568,8 +1554,6 @@ return
 ;
 }
 _getCharsetLabel
-:
-function
 (
 charset
 )
@@ -1622,8 +1606,6 @@ charset
 ;
 }
 _getCharsetAccessKey
-:
-function
 (
 charset
 )
@@ -1707,8 +1689,6 @@ mark
 *
 /
 foldCharset
-:
-function
 (
 charset
 )
@@ -1754,8 +1734,6 @@ charset
 }
 }
 update
-:
-function
 (
 parent
 charset

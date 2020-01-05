@@ -135,8 +135,6 @@ tests
 =
 {
 testGetDimensions
-:
-function
 (
 )
 {
@@ -290,8 +288,6 @@ value
 ;
 }
 testIsEmpty
-:
-function
 (
 )
 {
@@ -384,8 +380,6 @@ empty
 ;
 }
 testRestrictTo
-:
-function
 (
 )
 {
@@ -583,8 +577,6 @@ empty
 ;
 }
 testExpandToContain
-:
-function
 (
 )
 {

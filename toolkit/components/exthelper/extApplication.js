@@ -4735,8 +4735,6 @@ prefs
 ;
 }
 getExtensions
-:
-function
 (
 callback
 )

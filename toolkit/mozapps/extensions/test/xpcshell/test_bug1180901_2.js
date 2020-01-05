@@ -235,8 +235,6 @@ listener
 =
 {
 onInstallFailed
-:
-function
 (
 )
 {
@@ -261,8 +259,6 @@ failed
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {

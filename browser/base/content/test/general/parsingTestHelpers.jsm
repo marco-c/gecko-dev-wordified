@@ -778,10 +778,6 @@ resolve
 (
 {
 files
-:
-files
-subdirs
-:
 subdirs
 }
 )

@@ -447,8 +447,6 @@ object
 *
 /
 getPrompter
-:
-function
 (
 aParent
 )
@@ -888,8 +886,6 @@ exception
 *
 /
 confirmLaunchExecutable
-:
-function
 (
 aPath
 )

@@ -176,8 +176,6 @@ LightweightThemeObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -6380,8 +6378,6 @@ addAddonListener
 (
 {
 onEnabling
-:
-function
 (
 aAddon
 )

@@ -1180,8 +1180,6 @@ PendingErrors
 *
 /
 init
-:
-function
 (
 )
 {
@@ -1241,8 +1239,6 @@ error
 *
 /
 register
-:
-function
 (
 error
 )
@@ -1875,8 +1871,6 @@ register
 *
 /
 report
-:
-function
 (
 id
 )
@@ -1957,8 +1951,6 @@ observers
 *
 /
 flush
-:
-function
 (
 )
 {
@@ -2033,8 +2025,6 @@ eventually
 *
 /
 unregister
-:
-function
 (
 id
 )
@@ -2104,8 +2094,6 @@ optional
 *
 /
 addObserver
-:
-function
 (
 observer
 )
@@ -2133,8 +2121,6 @@ addObserver
 *
 /
 removeObserver
-:
-function
 (
 observer
 )
@@ -2163,8 +2149,6 @@ addObserver
 *
 /
 removeAllObservers
-:
-function
 (
 )
 {
@@ -4744,8 +4728,6 @@ optional
 *
 /
 addUncaughtErrorObserver
-:
-function
 (
 observer
 )
@@ -4784,8 +4766,6 @@ addUncaughtErrorObserver
 *
 /
 removeUncaughtErrorObserver
-:
-function
 (
 observer
 )
@@ -4812,8 +4792,6 @@ addUncaughtErrorObserver
 *
 /
 clearUncaughtErrorObservers
-:
-function
 (
 )
 {
@@ -4852,8 +4830,6 @@ positives
 *
 /
 flushUncaughtErrors
-:
-function
 (
 )
 {
@@ -5099,8 +5075,6 @@ reason
 *
 /
 completePromise
-:
-function
 (
 aPromise
 aStatus
@@ -5368,8 +5342,6 @@ loop
 *
 /
 scheduleWalkerLoop
-:
-function
 (
 )
 {
@@ -5691,8 +5663,6 @@ process
 *
 /
 schedulePromise
-:
-function
 (
 aPromise
 )
@@ -5869,8 +5839,6 @@ object
 *
 /
 walkerLoop
-:
-function
 (
 )
 {
@@ -6683,8 +6651,6 @@ nextPromise
 *
 /
 process
-:
-function
 (
 )
 {

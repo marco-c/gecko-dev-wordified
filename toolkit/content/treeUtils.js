@@ -84,8 +84,6 @@ gTreeUtils
 =
 {
 deleteAll
-:
-function
 (
 aTree
 aView
@@ -156,8 +154,6 @@ oldCount
 ;
 }
 deleteSelectedItems
-:
-function
 (
 aTree
 aView
@@ -408,8 +404,6 @@ false
 ;
 }
 sort
-:
-function
 (
 aTree
 aView

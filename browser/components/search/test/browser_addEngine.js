@@ -301,8 +301,6 @@ test
 "
 }
 run
-:
-function
 (
 )
 {
@@ -390,8 +388,6 @@ false
 ;
 }
 added
-:
-function
 (
 engine
 )
@@ -477,8 +473,6 @@ engine
 ;
 }
 current
-:
-function
 (
 engine
 )
@@ -529,8 +523,6 @@ engine
 ;
 }
 removed
-:
-function
 (
 engine
 )

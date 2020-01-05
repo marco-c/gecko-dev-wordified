@@ -161,8 +161,6 @@ notifications
 :
 0
 observe
-:
-function
 (
 aSubject
 aTopic

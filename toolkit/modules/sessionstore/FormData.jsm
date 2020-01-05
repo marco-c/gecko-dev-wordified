@@ -568,8 +568,6 @@ freeze
 (
 {
 collect
-:
-function
 (
 frame
 )
@@ -584,8 +582,6 @@ frame
 ;
 }
 restoreTree
-:
-function
 (
 root
 data
@@ -836,8 +832,6 @@ object
 *
 /
 collect
-:
-function
 (
 {
 document
@@ -1635,8 +1629,6 @@ data
 *
 /
 restore
-:
-function
 (
 {
 document
@@ -1968,8 +1960,6 @@ object
 *
 /
 restoreManyInputValues
-:
-function
 (
 data
 retrieve
@@ -2072,8 +2062,6 @@ to
 *
 /
 restoreSingleInputValue
-:
-function
 (
 aNode
 aValue
@@ -2552,8 +2540,6 @@ string
 *
 /
 fireEvent
-:
-function
 (
 node
 type
@@ -2774,8 +2760,6 @@ children
 *
 /
 restoreTree
-:
-function
 (
 root
 data

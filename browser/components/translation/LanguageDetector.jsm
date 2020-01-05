@@ -1016,8 +1016,6 @@ unknown
 *
 /
 detectLanguage
-:
-function
 (
 aParams
 )
