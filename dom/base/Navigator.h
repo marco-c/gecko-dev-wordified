@@ -549,6 +549,9 @@ class
 VRDisplay
 ;
 class
+VRServiceTest
+;
+class
 StorageManager
 ;
 namespace
@@ -1283,6 +1286,12 @@ aDisplays
 )
 const
 ;
+VRServiceTest
+*
+RequestVRServiceTest
+(
+)
+;
 #
 ifdef
 MOZ_TIME_MANAGER
@@ -1855,6 +1864,12 @@ Promise
 >
 >
 mVRGetDisplaysPromises
+;
+RefPtr
+<
+VRServiceTest
+>
+mVRServiceTest
 ;
 nsTArray
 <
