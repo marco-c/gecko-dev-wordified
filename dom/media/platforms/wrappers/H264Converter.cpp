@@ -1136,14 +1136,6 @@ AppendElement
 aSample
 )
 ;
-RefPtr
-<
-H264Converter
->
-self
-=
-this
-;
 mInitPromiseRequest
 .
 Begin
