@@ -11001,7 +11001,7 @@ isSet
 =
 false
 ;
-FrameProperties
+ConstFrameProperties
 props
 =
 Properties
