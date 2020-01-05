@@ -2009,6 +2009,13 @@ aInfo
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+profiler_tracing
+(
+mCategory
+mInfo
+TRACING_INTERVAL_START
+)
+;
 }
 ~
 GeckoProfilerTracingRAII
