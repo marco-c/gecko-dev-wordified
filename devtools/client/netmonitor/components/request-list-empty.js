@@ -460,7 +460,8 @@ dispatch
 {
 onPerfClick
 :
-e
+(
+)
 =
 >
 dispatch
@@ -474,7 +475,8 @@ true
 )
 onReloadClick
 :
-e
+(
+)
 =
 >
 NetMonitorController
