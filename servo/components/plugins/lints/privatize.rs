@@ -159,7 +159,7 @@ privatize
 /
 have
 no
-private
+public
 fields
 pub
 struct
