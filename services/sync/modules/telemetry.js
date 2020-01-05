@@ -1380,6 +1380,7 @@ return
 let
 {
 problems
+version
 duration
 recordCount
 }
@@ -1390,6 +1391,12 @@ let
 validation
 =
 {
+version
+:
+version
+|
+|
+0
 checked
 :
 recordCount
