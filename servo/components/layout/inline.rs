@@ -154,6 +154,12 @@ use
 text
 ;
 use
+wrapper
+:
+:
+PseudoElementType
+;
+use
 euclid
 :
 :
@@ -13226,6 +13232,14 @@ style
 Arc
 <
 ComputedValues
+>
+pub
+pseudo
+:
+PseudoElementType
+<
+(
+)
 >
 }
 #
