@@ -583,6 +583,7 @@ StartObjectLoad
 StartObjectLoad
 (
 true
+false
 )
 ;
 }
@@ -1320,8 +1321,6 @@ aSubjectPrincipal
 )
 ;
 }
-private
-:
 /
 *
 *
@@ -1345,8 +1344,12 @@ StartObjectLoad
 (
 bool
 aNotify
+bool
+aForceLoad
 )
 ;
+private
+:
 /
 *
 *
@@ -1432,9 +1435,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
+nsRuleData
 *
-aGenericData
+aData
 )
 ;
 bool
