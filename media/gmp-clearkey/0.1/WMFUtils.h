@@ -706,7 +706,7 @@ ret
 }
 #
 define
-GMP_SUCCEEDED
+STATUS_SUCCEEDED
 (
 x
 )
@@ -716,11 +716,14 @@ x
 )
 =
 =
-GMPNoErr
+Status
+:
+:
+kSuccess
 )
 #
 define
-GMP_FAILED
+STATUS_FAILED
 (
 x
 )
@@ -730,7 +733,10 @@ x
 )
 !
 =
-GMPNoErr
+Status
+:
+:
+kSuccess
 )
 #
 define
