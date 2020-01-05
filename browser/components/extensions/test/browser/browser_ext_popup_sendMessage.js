@@ -217,16 +217,11 @@ ping
 )
 {
 return
-Promise
-.
-resolve
-(
 "
 popup
 -
 pong
 "
-)
 ;
 }
 }
