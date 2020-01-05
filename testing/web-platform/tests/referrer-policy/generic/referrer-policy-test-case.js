@@ -508,6 +508,7 @@ _invokeSubresource
 function
 (
 callback
+test
 )
 {
 var
@@ -604,6 +605,7 @@ t
 _scenario
 .
 referrer_policy
+test
 )
 ;
 }
@@ -621,6 +623,7 @@ t
 _scenario
 .
 referrer_policy
+test
 )
 ;
 }
@@ -789,7 +792,9 @@ done
 )
 ;
 }
+test
 )
+;
 }
 }
 return
