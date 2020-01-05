@@ -4396,6 +4396,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_initelem_inc
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_initelem_array
 (
 )
