@@ -258,6 +258,10 @@ profile_traits
 ;
 extern
 crate
+rand
+;
+extern
+crate
 script_traits
 ;
 extern
