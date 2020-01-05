@@ -2745,7 +2745,7 @@ g
 const
 {
 RegExpGuard
-wrapperGuard
+re
 (
 cx
 )
@@ -2772,7 +2772,7 @@ regexp_toShared
 cx
 wrapper
 &
-wrapperGuard
+re
 )
 )
 return
@@ -2791,16 +2791,6 @@ the
 current
 compartment
 .
-RegExpShared
-*
-re
-=
-wrapperGuard
-.
-re
-(
-)
-;
 cx
 -
 >

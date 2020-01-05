@@ -133,9 +133,6 @@ h
 namespace
 js
 {
-class
-RegExpGuard
-;
 /
 *
 *
