@@ -1852,10 +1852,6 @@ char
 buf
 =
 nullptr
-NPBool
-file
-=
-false
 )
 {
 if
@@ -2091,7 +2087,6 @@ inst
 relativeURL
 len
 buf
-file
 target
 listener
 nullptr
@@ -3307,7 +3302,6 @@ true
 notifyData
 len
 buf
-file
 )
 ;
 }
@@ -3429,7 +3423,6 @@ false
 nullptr
 len
 buf
-file
 )
 ;
 }
