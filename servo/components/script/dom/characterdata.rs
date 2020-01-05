@@ -579,13 +579,8 @@ Node
 ;
 node
 .
-owner_doc
+dirty
 (
-)
-.
-content_changed
-(
-node
 NodeDamage
 :
 :
