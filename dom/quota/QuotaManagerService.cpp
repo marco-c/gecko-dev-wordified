@@ -1936,7 +1936,9 @@ if
 QuotaManager
 :
 :
-kRunningXPCShellTests
+IsRunningXPCShellTests
+(
+)
 )
 #
 endif
@@ -2012,7 +2014,9 @@ if
 QuotaManager
 :
 :
-kRunningXPCShellTests
+IsRunningXPCShellTests
+(
+)
 )
 {
 batteryInfo
@@ -2053,7 +2057,9 @@ if
 QuotaManager
 :
 :
-kRunningXPCShellTests
+IsRunningXPCShellTests
+(
+)
 )
 {
 /

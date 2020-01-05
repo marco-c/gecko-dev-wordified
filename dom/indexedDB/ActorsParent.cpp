@@ -87371,7 +87371,9 @@ if
 QuotaManager
 :
 :
-kRunningXPCShellTests
+IsRunningXPCShellTests
+(
+)
 )
 {
 /
