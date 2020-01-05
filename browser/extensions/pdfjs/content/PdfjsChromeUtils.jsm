@@ -646,10 +646,11 @@ this
 ;
 /
 /
-observer
+Observer
 to
 handle
 shutdown
+.
 Services
 .
 obs
