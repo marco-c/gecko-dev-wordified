@@ -63363,10 +63363,12 @@ else
 {
 radius
 .
-SetIntValue
+SetEnumValue
 (
-NS_RADIUS_CLOSEST_SIDE
-eStyleUnit_Enumerated
+StyleShapeRadius
+:
+:
+ClosestSide
 )
 ;
 }
