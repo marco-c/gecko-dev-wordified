@@ -414,9 +414,6 @@ fips
 gtest
 "
 "
-interop
-"
-"
 lowhash
 "
 "

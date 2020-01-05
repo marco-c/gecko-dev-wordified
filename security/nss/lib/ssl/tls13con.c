@@ -932,11 +932,12 @@ instead
 of
 FATAL_ERROR
 when
-no
+an
 alert
-shall
-be
-sent
+isn
+'
+t
+possible
 .
 *
 /
