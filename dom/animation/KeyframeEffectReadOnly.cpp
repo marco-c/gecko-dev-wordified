@@ -5098,7 +5098,6 @@ computedValues
 mEffectOptions
 .
 mComposite
-aStyleContext
 )
 ;
 #
