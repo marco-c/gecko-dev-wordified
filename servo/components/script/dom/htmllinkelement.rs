@@ -720,8 +720,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 local_name
 )
@@ -1032,7 +1030,9 @@ upcast
 atom
 !
 (
+"
 rel
+"
 )
 )
 ;
@@ -1047,7 +1047,9 @@ local_name
 atom
 !
 (
+"
 href
+"
 )
 =
 >
@@ -1204,7 +1206,9 @@ to_string
 atom
 !
 (
+"
 media
+"
 )
 =
 >
@@ -1543,8 +1547,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom

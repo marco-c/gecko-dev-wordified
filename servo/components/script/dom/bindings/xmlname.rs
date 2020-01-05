@@ -422,8 +422,6 @@ maybe_prefix
 ns
 !
 (
-"
-"
 )
 Some
 (
@@ -464,7 +462,7 @@ ns
 ns
 !
 (
-XML
+xml
 )
 =
 >
@@ -495,7 +493,7 @@ ns
 ns
 !
 (
-XMLNS
+xmlns
 )
 &
 &
@@ -538,7 +536,7 @@ Namespace
 ns
 !
 (
-XMLNS
+xmlns
 )
 p
 )
@@ -599,12 +597,12 @@ map
 Atom
 :
 :
-from_slice
+from
 )
 Atom
 :
 :
-from_slice
+from
 (
 local_name
 )
@@ -1258,12 +1256,9 @@ None
 ns
 !
 (
-"
-"
 )
 Some
 (
-ref
 s
 )
 =
@@ -1273,8 +1268,10 @@ Namespace
 Atom
 :
 :
-from_slice
+from
 (
+&
+*
 s
 )
 )

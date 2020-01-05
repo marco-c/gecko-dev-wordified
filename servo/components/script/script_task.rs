@@ -9034,7 +9034,7 @@ has_class
 Atom
 :
 :
-from_slice
+from
 (
 "
 reftest
@@ -13931,8 +13931,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom

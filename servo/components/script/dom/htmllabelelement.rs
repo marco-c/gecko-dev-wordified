@@ -805,8 +805,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom

@@ -462,8 +462,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -482,8 +480,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -839,7 +835,9 @@ local_name
 atom
 !
 (
+"
 data
+"
 )
 =
 >

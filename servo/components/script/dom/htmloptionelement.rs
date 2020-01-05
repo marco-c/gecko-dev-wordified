@@ -596,7 +596,7 @@ namespace
 ns
 !
 (
-SVG
+svg
 )
 &
 &
@@ -1373,7 +1373,9 @@ local_name
 atom
 !
 (
+"
 disabled
+"
 )
 =
 >
@@ -1454,7 +1456,9 @@ check_parent_disabled_state_for_option
 atom
 !
 (
+"
 selected
+"
 )
 =
 >

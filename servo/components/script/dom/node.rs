@@ -11610,9 +11610,11 @@ p
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
+*
 p
 )
 )
@@ -12273,8 +12275,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 =
 >
@@ -12384,7 +12384,7 @@ namespace
 ns
 !
 (
-XMLNS
+xmlns
 )
 &
 &
@@ -12516,8 +12516,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 &
 &
@@ -12542,6 +12540,18 @@ clone
 (
 )
 }
+/
+/
+FIXME
+(
+ajeffrey
+)
+:
+directly
+convert
+DOMString
+to
+Atom
 let
 prefix_atom
 =
@@ -12559,8 +12569,11 @@ s
 Atom
 :
 :
-from_slice
+from
 (
+&
+*
+*
 s
 )
 )
@@ -12653,8 +12666,6 @@ None
 ns
 !
 (
-"
-"
 )
 /
 /
@@ -12723,8 +12734,6 @@ None
 ns
 !
 (
-"
-"
 )
 /
 /
@@ -12762,8 +12771,6 @@ DocumentType
 ns
 !
 (
-"
-"
 )
 NodeTypeId
 :
@@ -12774,8 +12781,6 @@ DocumentFragment
 ns
 !
 (
-"
-"
 )
 _
 =
@@ -12798,8 +12803,6 @@ None
 ns
 !
 (
-"
-"
 )
 /
 /
@@ -16726,8 +16729,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 {
 return

@@ -12078,8 +12078,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -12098,8 +12096,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom

@@ -791,8 +791,6 @@ get_attr_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -863,8 +861,6 @@ get_attr_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -938,8 +934,6 @@ get_attr_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom

@@ -208,11 +208,9 @@ File
 :
 open
 (
+&
+*
 identifier
-.
-as_slice
-(
-)
 )
 .
 unwrap

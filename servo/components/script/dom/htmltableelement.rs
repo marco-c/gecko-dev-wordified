@@ -1319,8 +1319,6 @@ get_attr_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -1431,7 +1429,9 @@ local_name
 atom
 !
 (
+"
 bgcolor
+"
 )
 =
 >
@@ -1475,7 +1475,9 @@ ok
 atom
 !
 (
+"
 border
+"
 )
 =
 >
@@ -1539,7 +1541,9 @@ unwrap_or
 atom
 !
 (
+"
 cellspacing
+"
 )
 =
 >

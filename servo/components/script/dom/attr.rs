@@ -1257,8 +1257,6 @@ namespace
 ns
 !
 (
-"
-"
 )
 {
 vtable_for

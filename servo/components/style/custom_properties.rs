@@ -2163,7 +2163,7 @@ insert
 Atom
 :
 :
-from_slice
+from
 (
 name
 )
@@ -3887,7 +3887,7 @@ name
 Atom
 :
 :
-from_slice
+from
 (
 parse_name
 (

@@ -4185,7 +4185,7 @@ get_element_by_id
 Atom
 :
 :
-from_slice
+from
 (
 fragid
 )
@@ -4228,8 +4228,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -8288,8 +8286,6 @@ parse_attribute
 ns
 !
 (
-"
-"
 )
 &
 local_name
@@ -13397,9 +13393,10 @@ tag_atom
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 tag_name
 )
 ;
@@ -13463,9 +13460,10 @@ ascii_lower_tag
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 tag_copy
 )
 ;
@@ -13564,9 +13562,10 @@ local
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 tag_name
 )
 ;
@@ -13717,7 +13716,7 @@ map
 Atom
 :
 :
-from_slice
+from
 )
 .
 collect
@@ -13851,9 +13850,10 @@ get_element_by_id
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 id
 )
 )
@@ -13953,14 +13953,15 @@ new
 ns
 !
 (
-HTML
+html
 )
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 local_name
 )
 )
@@ -14151,9 +14152,10 @@ name
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 local_name
 )
 ;
@@ -14179,9 +14181,10 @@ l_name
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 local_name
 )
 ;
@@ -14218,8 +14221,6 @@ l_name
 ns
 !
 (
-"
-"
 )
 None
 None
@@ -14311,9 +14312,10 @@ qualified_name
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 qualified_name
 )
 ;
@@ -15544,7 +15546,7 @@ namespace
 ns
 !
 (
-SVG
+svg
 )
 &
 &
@@ -15601,7 +15603,7 @@ namespace
 ns
 !
 (
-SVG
+svg
 )
 &
 &
@@ -15807,7 +15809,7 @@ namespace
 ns
 !
 (
-SVG
+svg
 )
 &
 &
@@ -15862,7 +15864,7 @@ namespace
 ns
 !
 (
-SVG
+svg
 )
 &
 &
@@ -15920,7 +15922,7 @@ new
 ns
 !
 (
-SVG
+svg
 )
 atom
 !
@@ -16011,7 +16013,7 @@ namespace
 ns
 !
 (
-HTML
+html
 )
 {
 let
@@ -16088,7 +16090,7 @@ new
 ns
 !
 (
-HTML
+html
 )
 atom
 !
@@ -16849,7 +16851,7 @@ namespace
 ns
 !
 (
-HTML
+html
 )
 {
 return
@@ -16864,8 +16866,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18613,8 +18613,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18660,8 +18658,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18716,8 +18712,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18770,8 +18764,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18818,8 +18810,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -18891,9 +18881,10 @@ name
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 name
 )
 ;

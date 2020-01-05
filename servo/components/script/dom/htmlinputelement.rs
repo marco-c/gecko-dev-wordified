@@ -950,8 +950,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -1244,8 +1242,6 @@ get_attr_val_for_layout
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -3818,8 +3814,6 @@ get_attribute
 ns
 !
 (
-"
-"
 )
 &
 atom
@@ -4271,7 +4265,9 @@ local_name
 atom
 !
 (
+"
 disabled
+"
 )
 =
 >
@@ -4365,7 +4361,9 @@ check_ancestors_disabled_state_for_form_control
 atom
 !
 (
+"
 checked
+"
 )
 if
 !
@@ -4441,7 +4439,9 @@ false
 atom
 !
 (
+"
 size
+"
 )
 =
 >
@@ -4489,7 +4489,9 @@ DEFAULT_INPUT_SIZE
 atom
 !
 (
+"
 type
+"
 )
 =
 >
@@ -4683,7 +4685,9 @@ InputText
 atom
 !
 (
+"
 value
+"
 )
 if
 !
@@ -4761,7 +4765,9 @@ from
 atom
 !
 (
+"
 name
+"
 )
 if
 self
@@ -4813,7 +4819,9 @@ as_atom
 atom
 !
 (
+"
 placeholder
+"
 )
 =
 >
@@ -4938,7 +4946,9 @@ name
 atom
 !
 (
+"
 name
+"
 )
 =
 >
@@ -4971,7 +4981,9 @@ DEFAULT_INPUT_SIZE
 atom
 !
 (
+"
 type
+"
 )
 =
 >

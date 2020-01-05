@@ -2776,8 +2776,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 name
 )
@@ -5337,8 +5335,6 @@ get_attr
 ns
 !
 (
-"
-"
 )
 &
 atom

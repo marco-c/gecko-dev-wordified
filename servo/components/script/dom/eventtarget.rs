@@ -2310,7 +2310,7 @@ set_inline_event_listener
 Atom
 :
 :
-from_slice
+from
 (
 ty
 )
@@ -2380,7 +2380,7 @@ set_inline_event_listener
 Atom
 :
 :
-from_slice
+from
 (
 ty
 )
@@ -2425,7 +2425,7 @@ get_inline_event_listener
 Atom
 :
 :
-from_slice
+from
 (
 ty
 )
@@ -2560,9 +2560,10 @@ entry
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 ty
 )
 )
@@ -2735,9 +2736,10 @@ get_mut
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 ty
 )
 )

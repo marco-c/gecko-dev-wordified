@@ -1184,9 +1184,10 @@ property
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 property
 )
 ;
@@ -1294,9 +1295,9 @@ get_inline_style_declaration
 Atom
 :
 :
-from_slice
+from
 (
-&
+*
 longhand
 )
 )
@@ -1463,9 +1464,10 @@ property
 Atom
 :
 :
-from_slice
+from
 (
 &
+*
 property
 )
 ;
