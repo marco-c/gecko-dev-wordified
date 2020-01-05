@@ -48,6 +48,9 @@ use
 netsurfcss
 :
 :
+util
+:
+:
 VoidPtrLike
 ;
 impl
