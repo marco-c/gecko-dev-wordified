@@ -181,7 +181,7 @@ Console
 {
 reflect_dom_object
 (
-~
+box
 Console
 :
 :

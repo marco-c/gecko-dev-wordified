@@ -1417,8 +1417,10 @@ reflect_document
 (
 document
 :
-~
+Box
+<
 Document
+>
 window
 :
 &
@@ -1441,8 +1443,10 @@ JSRef
 <
 Window
 >
-~
+Box
+<
 Document
+>
 )
 -
 >
@@ -1923,7 +1927,7 @@ Document
 :
 reflect_document
 (
-~
+box
 document
 window
 DocumentBinding
@@ -4802,10 +4806,10 @@ let
 mut
 title
 =
-"
-"
-.
-to_owned
+StrBuf
+:
+:
+new
 (
 )
 ;
@@ -4949,6 +4953,10 @@ str
 >
 =
 title
+.
+as_slice
+(
+)
 .
 words
 (
@@ -6196,7 +6204,7 @@ local_name
 let
 filter
 =
-~
+box
 ImagesFilter
 ;
 HTMLCollection
@@ -6309,7 +6317,7 @@ local_name
 let
 filter
 =
-~
+box
 EmbedsFilter
 ;
 HTMLCollection
@@ -6491,7 +6499,7 @@ is_some
 let
 filter
 =
-~
+box
 LinksFilter
 ;
 HTMLCollection
@@ -6604,7 +6612,7 @@ local_name
 let
 filter
 =
-~
+box
 FormsFilter
 ;
 HTMLCollection
@@ -6717,7 +6725,7 @@ local_name
 let
 filter
 =
-~
+box
 ScriptsFilter
 ;
 HTMLCollection
@@ -6845,7 +6853,7 @@ is_some
 let
 filter
 =
-~
+box
 AnchorsFilter
 ;
 HTMLCollection
@@ -6952,7 +6960,7 @@ local_name
 let
 filter
 =
-~
+box
 AppletsFilter
 ;
 HTMLCollection

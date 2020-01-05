@@ -219,7 +219,7 @@ XMLHttpRequestUpload
 {
 reflect_dom_object
 (
-~
+box
 XMLHttpRequestUpload
 :
 :

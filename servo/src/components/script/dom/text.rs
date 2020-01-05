@@ -302,7 +302,7 @@ Node
 :
 reflect_node
 (
-~
+box
 node
 document
 TextBinding

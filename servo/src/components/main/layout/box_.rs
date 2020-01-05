@@ -466,6 +466,12 @@ num
 Zero
 ;
 use
+std
+:
+:
+owned
+;
+use
 style
 :
 :
@@ -1886,8 +1892,13 @@ run
 :
 Arc
 <
-~
+owned
+:
+:
+Box
+<
 TextRun
+>
 >
 /
 /
@@ -1942,8 +1953,13 @@ run
 :
 Arc
 <
-~
+owned
+:
+:
+Box
+<
 TextRun
+>
 >
 range
 :
@@ -4986,7 +5002,7 @@ approx_eq
 let
 display_item
 =
-~
+box
 SolidColorDisplayItem
 {
 base
@@ -5350,7 +5366,7 @@ clip_display_item
 =
 Some
 (
-~
+box
 ClipDisplayItem
 {
 base
@@ -5548,7 +5564,7 @@ image_display_item
 =
 ImageDisplayItemClass
 (
-~
+box
 ImageDisplayItem
 {
 base
@@ -5818,7 +5834,7 @@ list
 let
 border_display_item
 =
-~
+box
 BorderDisplayItem
 {
 base
@@ -5996,7 +6012,7 @@ from_px
 let
 border_display_item
 =
-~
+box
 BorderDisplayItem
 {
 base
@@ -6107,7 +6123,7 @@ Au
 let
 line_display_item
 =
-~
+box
 LineDisplayItem
 {
 base
@@ -6220,7 +6236,7 @@ from_px
 let
 border_display_item
 =
-~
+box
 BorderDisplayItem
 {
 base
@@ -6622,7 +6638,7 @@ do
 let
 base_display_item
 =
-~
+box
 BaseDisplayItem
 :
 :
@@ -6923,7 +6939,7 @@ box
 let
 text_display_item
 =
-~
+box
 TextDisplayItem
 {
 base
@@ -7254,7 +7270,7 @@ list
 let
 image_display_item
 =
-~
+box
 ImageDisplayItem
 {
 base
@@ -11444,8 +11460,13 @@ clip_display_item
 :
 Option
 <
-~
+owned
+:
+:
+Box
+<
 ClipDisplayItem
+>
 >
 }
 impl
@@ -11514,7 +11535,7 @@ hidden
 {
 Some
 (
-~
+box
 ClipDisplayItem
 {
 base

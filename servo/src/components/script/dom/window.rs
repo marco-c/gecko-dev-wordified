@@ -550,10 +550,13 @@ ImageCacheTask
 pub
 active_timers
 :
+Box
+<
 HashMap
 <
 TimerId
 TimerHandle
+>
 >
 pub
 next_timer_handle
@@ -564,8 +567,10 @@ compositor
 :
 Untraceable
 <
-~
+Box
+<
 ScriptListener
+>
 >
 pub
 browser_context
@@ -2661,8 +2666,10 @@ script_chan
 ScriptChan
 compositor
 :
-~
+Box
+<
 ScriptListener
+>
 image_cache_task
 :
 ImageCacheTask
@@ -2677,7 +2684,7 @@ Window
 let
 win
 =
-~
+box
 Window
 {
 eventtarget
@@ -2718,6 +2725,7 @@ image_cache_task
 image_cache_task
 active_timers
 :
+box
 HashMap
 :
 :

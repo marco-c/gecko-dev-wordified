@@ -194,10 +194,12 @@ SeqCst
 let
 _kill_it
 :
-~
+Box
+<
 CowArcAlloc
 <
 T
+>
 >
 =
 cast
@@ -364,7 +366,7 @@ T
 let
 alloc
 =
-~
+box
 CowArcAlloc
 {
 ref_count
@@ -545,7 +547,7 @@ data
 let
 copy
 =
-~
+box
 CowArcAlloc
 {
 ref_count

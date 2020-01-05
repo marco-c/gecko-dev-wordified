@@ -276,8 +276,10 @@ reflow
 .
 ReflowMsg
 (
-~
+Box
+<
 Reflow
+>
 )
 /
 /

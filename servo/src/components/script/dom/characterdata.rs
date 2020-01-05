@@ -547,11 +547,12 @@ ErrorResult
 self
 .
 data
+=
+self
 .
-push_str
-(
+data
++
 arg
-)
 ;
 Ok
 (
@@ -696,7 +697,7 @@ as
 uint
 )
 .
-to_owned
+to_strbuf
 (
 )
 ;
@@ -735,6 +736,10 @@ self
 data
 =
 data
+.
+into_owned
+(
+)
 ;
 /
 /

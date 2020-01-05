@@ -1198,7 +1198,7 @@ font_style
 let
 run
 =
-~
+box
 fontgroup
 .
 borrow
@@ -1713,14 +1713,11 @@ indices
 let
 mut
 run_str
-:
-~
-str
 =
-"
-"
-.
-to_owned
+StrBuf
+:
+:
+new
 (
 )
 ;
@@ -1895,7 +1892,7 @@ Arc
 :
 new
 (
-~
+box
 TextRun
 :
 :
@@ -1922,7 +1919,7 @@ borrow_mut
 )
 run_str
 .
-clone
+into_owned
 (
 )
 decoration

@@ -749,7 +749,7 @@ ScriptTask
 create
 (
 id
-~
+box
 compositor_chan
 .
 clone
@@ -981,7 +981,7 @@ render_chan
 .
 chan
 .
-try_send
+send_opt
 (
 PaintPermissionGranted
 )
@@ -1014,7 +1014,7 @@ render_chan
 .
 chan
 .
-try_send
+send_opt
 (
 PaintPermissionRevoked
 )
@@ -1091,7 +1091,7 @@ script_chan
 if
 chan
 .
-try_send
+send_opt
 (
 script_task
 :
@@ -1102,6 +1102,10 @@ self
 .
 id
 )
+)
+.
+is_ok
+(
 )
 {
 /

@@ -954,8 +954,10 @@ itself
 pub
 child
 :
-~
+Box
+<
 CompositorLayer
+>
 /
 /
 /
@@ -1029,8 +1031,10 @@ Tree
 (
 Quadtree
 <
-~
+Box
+<
 LayerBuffer
+>
 >
 )
 NoTree
@@ -1936,7 +1940,7 @@ let
 mut
 kid
 =
-~
+box
 CompositorLayer
 :
 :
@@ -3106,7 +3110,7 @@ script_chan
 ;
 chan
 .
-try_send
+send_opt
 (
 SendEventMsg
 (
@@ -3161,7 +3165,7 @@ script_chan
 ;
 chan
 .
-try_send
+send_opt
 (
 SendEventMsg
 (
@@ -3323,7 +3327,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (
@@ -3405,7 +3409,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 msg
 )
@@ -4260,7 +4264,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (
@@ -4988,7 +4992,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (
@@ -6083,8 +6087,10 @@ LayerId
 mut
 new_buffers
 :
-~
+Box
+<
 LayerBufferSet
+>
 epoch
 :
 Epoch
@@ -6093,8 +6099,10 @@ Epoch
 >
 Option
 <
-~
+Box
+<
 LayerBufferSet
+>
 >
 {
 debug
@@ -6271,7 +6279,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (
@@ -6401,7 +6409,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (
@@ -6962,7 +6970,7 @@ pipeline
 .
 render_chan
 .
-try_send
+send_opt
 (
 UnusedBufferMsg
 (

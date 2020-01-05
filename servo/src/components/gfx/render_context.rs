@@ -237,8 +237,10 @@ font_ctx
 '
 a
 mut
-~
+Box
+<
 FontContext
+>
 pub
 opts
 :
@@ -732,8 +734,10 @@ image
 :
 Arc
 <
-~
+Box
+<
 Image
+>
 >
 )
 {

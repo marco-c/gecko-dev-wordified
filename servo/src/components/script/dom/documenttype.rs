@@ -338,7 +338,7 @@ Node
 :
 reflect_node
 (
-~
+box
 documenttype
 document
 DocumentTypeBinding

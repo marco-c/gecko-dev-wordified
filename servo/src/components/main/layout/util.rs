@@ -424,8 +424,10 @@ SharedLayoutData
 pub
 data
 :
-~
+Box
+<
 PrivateLayoutData
+>
 }
 /
 /

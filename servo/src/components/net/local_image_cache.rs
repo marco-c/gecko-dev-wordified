@@ -217,10 +217,12 @@ on_image_available
 :
 Option
 <
-~
+Box
+<
 ImageResponder
 :
 Send
+>
 >
 state_map
 :
@@ -298,10 +300,12 @@ mut
 self
 on_image_available
 :
-~
+Box
+<
 ImageResponder
 :
 Send
+>
 )
 {
 self

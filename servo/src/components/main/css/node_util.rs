@@ -268,7 +268,7 @@ BeforeBlock
 cast
 :
 :
-transmute_region
+transmute_lifetime
 (
 layout_data_ref
 .
@@ -302,7 +302,7 @@ AfterBlock
 cast
 :
 :
-transmute_region
+transmute_lifetime
 (
 layout_data_ref
 .
@@ -334,7 +334,7 @@ Normal
 cast
 :
 :
-transmute_region
+transmute_lifetime
 (
 layout_data_ref
 .

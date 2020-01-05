@@ -221,11 +221,13 @@ next
 :
 Option
 <
-~
+Box
+<
 Bucket
 <
 K
 V
+>
 >
 >
 key
@@ -840,7 +842,7 @@ next
 =
 Some
 (
-~
+box
 Bucket
 {
 next
@@ -1076,7 +1078,7 @@ nuke_bucket
 true
 Some
 (
-~
+box
 next
 )
 =
@@ -1236,7 +1238,7 @@ pointer
 stitch
 .
 let
-~
+box
 Bucket
 {
 next
@@ -2003,7 +2005,7 @@ None
 break
 Some
 (
-~
+box
 Bucket
 {
 key
@@ -2163,7 +2165,7 @@ transmute_mut
 cast
 :
 :
-transmute_region
+transmute_lifetime
 (
 self
 )

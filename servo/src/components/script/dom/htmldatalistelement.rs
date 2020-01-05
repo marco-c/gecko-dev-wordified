@@ -301,7 +301,7 @@ Node
 :
 reflect_node
 (
-~
+box
 element
 document
 HTMLDataListElementBinding
@@ -422,7 +422,7 @@ self
 let
 filter
 =
-~
+box
 HTMLDataListOptionsFilter
 ;
 let

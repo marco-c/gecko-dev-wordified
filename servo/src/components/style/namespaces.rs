@@ -266,6 +266,10 @@ prefix
 Some
 (
 value
+.
+into_owned
+(
+)
 )
 ;
 }
@@ -303,6 +307,10 @@ Namespace
 from_str
 (
 value
+.
+as_slice
+(
+)
 )
 )
 ;

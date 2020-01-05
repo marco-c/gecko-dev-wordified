@@ -229,8 +229,10 @@ S
 E
 >
 for
-~
+Box
+<
 CollectionFilter
+>
 {
 fn
 encode
@@ -286,8 +288,10 @@ JS
 <
 Node
 >
-~
+Box
+<
 CollectionFilter
+>
 )
 }
 #
@@ -385,7 +389,7 @@ HTMLCollection
 {
 reflect_dom_object
 (
-~
+box
 HTMLCollection
 :
 :
@@ -425,8 +429,10 @@ Node
 >
 filter
 :
-~
+Box
+<
 CollectionFilter
+>
 )
 -
 >
@@ -548,7 +554,7 @@ create
 (
 window
 root
-~
+box
 filter
 )
 }
@@ -671,7 +677,7 @@ create
 (
 window
 root
-~
+box
 filter
 )
 }
@@ -802,7 +808,7 @@ create
 (
 window
 root
-~
+box
 filter
 )
 }
@@ -885,7 +891,7 @@ create
 (
 window
 root
-~
+box
 ElementChildFilter
 )
 }

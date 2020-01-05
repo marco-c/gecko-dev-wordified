@@ -437,7 +437,7 @@ owner
 ;
 reflect_dom_object
 (
-~
+box
 attr
 window
 AttrBinding

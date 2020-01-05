@@ -169,6 +169,10 @@ Some
 (
 value
 .
+as_slice
+(
+)
+.
 to_ascii_lower
 (
 )

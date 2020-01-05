@@ -301,7 +301,7 @@ Node
 :
 reflect_node
 (
-~
+box
 node
 document
 CommentBinding

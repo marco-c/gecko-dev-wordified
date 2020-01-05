@@ -112,12 +112,6 @@ BindingDeclarations
 :
 :
 EventListenerBinding
-;
-use
-self
-:
-:
-EventListenerBinding
 :
 :
 EventListener

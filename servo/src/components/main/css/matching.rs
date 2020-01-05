@@ -1799,8 +1799,10 @@ LayoutContext
 mut
 font_context
 :
-~
+Box
+<
 FontContext
+>
 applicable_declarations
 :
 &
@@ -1825,8 +1827,10 @@ LayoutNode
 )
 -
 >
-~
+Box
+<
 FontContext
+>
 ;
 fn
 match_node
@@ -2729,8 +2733,10 @@ LayoutContext
 mut
 font_context
 :
-~
+Box
+<
 FontContext
+>
 applicable_declarations
 :
 &
@@ -2755,8 +2761,10 @@ LayoutNode
 )
 -
 >
-~
+Box
+<
 FontContext
+>
 {
 self
 .

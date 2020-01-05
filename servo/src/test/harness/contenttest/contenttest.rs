@@ -504,6 +504,9 @@ None
 logfile
 :
 None
+nocapture
+:
+false
 }
 }
 fn

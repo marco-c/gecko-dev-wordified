@@ -1098,6 +1098,10 @@ value
 if
 value
 .
+to_owned
+(
+)
+.
 eq_ignore_ascii_case
 (
 "
@@ -1364,6 +1368,10 @@ value
 )
 if
 value
+.
+to_owned
+(
+)
 .
 eq_ignore_ascii_case
 (

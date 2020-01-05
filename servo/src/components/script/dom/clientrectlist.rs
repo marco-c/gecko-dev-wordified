@@ -254,7 +254,7 @@ ClientRectList
 {
 reflect_dom_object
 (
-~
+box
 ClientRectList
 :
 :

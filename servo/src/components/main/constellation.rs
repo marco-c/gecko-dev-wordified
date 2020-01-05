@@ -2934,7 +2934,7 @@ script_chan
 ;
 old_script
 .
-try_send
+send_opt
 (
 ExitPipelineMsg
 (
@@ -2950,7 +2950,7 @@ render_chan
 .
 chan
 .
-try_send
+send_opt
 (
 render_task
 :
@@ -2974,7 +2974,7 @@ layout_chan
 ;
 old_layout
 .
-try_send
+send_opt
 (
 layout_interface
 :
@@ -6095,7 +6095,7 @@ script_chan
 ;
 chan
 .
-try_send
+send_opt
 (
 ResizeMsg
 (
@@ -6189,7 +6189,7 @@ script_chan
 ;
 chan
 .
-try_send
+send_opt
 (
 ResizeInactiveMsg
 (
@@ -6323,7 +6323,7 @@ script_chan
 ;
 chan
 .
-try_send
+send_opt
 (
 ResizeMsg
 (
@@ -6744,7 +6744,7 @@ recv_opt
 (
 )
 {
-Some
+Ok
 (
 (
 )
@@ -6777,7 +6777,11 @@ grant_paint_permission
 ;
 }
 }
-None
+Err
+(
+(
+)
+)
 =
 >
 {

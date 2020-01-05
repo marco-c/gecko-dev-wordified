@@ -294,7 +294,7 @@ right
 ;
 reflect_dom_object
 (
-~
+box
 rect
 window
 ClientRectBinding
