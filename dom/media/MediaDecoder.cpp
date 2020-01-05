@@ -2145,6 +2145,10 @@ mForcedHidden
 (
 false
 )
+mHasSuspendTaint
+(
+false
+)
 INIT_MIRROR
 (
 mStateMachineIsShutdown
@@ -2257,11 +2261,6 @@ INIT_CANONICAL
 (
 mDecoderPosition
 0
-)
-INIT_CANONICAL
-(
-mHasSuspendTaint
-false
 )
 mTelemetryReported
 (
