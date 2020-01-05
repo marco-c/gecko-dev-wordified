@@ -201,7 +201,7 @@ layout
 parallel
 :
 :
-PaddedUnsafeFlow
+UnsafeFlow
 ;
 use
 layout
@@ -893,7 +893,7 @@ WorkQueue
 *
 mut
 LayoutContext
-PaddedUnsafeFlow
+UnsafeFlow
 >
 >
 /
