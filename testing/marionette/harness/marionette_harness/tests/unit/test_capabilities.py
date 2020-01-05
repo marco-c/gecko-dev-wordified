@@ -186,7 +186,7 @@ version
 )
     
 def
-test_mandates_capabilities
+test_mandated_capabilities
 (
 self
 )
@@ -245,7 +245,7 @@ self
 assertIn
 (
 "
-specificationLevel
+acceptInsecureCerts
 "
 self
 .
@@ -336,17 +336,16 @@ os_version
         
 self
 .
-assertEqual
+assertFalse
 (
 self
 .
 caps
 [
 "
-specificationLevel
+acceptInsecureCerts
 "
 ]
-0
 )
     
 def
@@ -366,32 +365,6 @@ rotatable
 self
 .
 caps
-)
-        
-self
-.
-assertIn
-(
-"
-acceptInsecureCerts
-"
-self
-.
-caps
-)
-        
-self
-.
-assertFalse
-(
-self
-.
-caps
-[
-"
-acceptInsecureCerts
-"
-]
 )
     
 def
@@ -554,6 +527,33 @@ moz
 accessibilityChecks
 "
 ]
+)
+        
+self
+.
+assertIn
+(
+"
+specificationLevel
+"
+self
+.
+caps
+)
+        
+self
+.
+assertEqual
+(
+self
+.
+caps
+[
+"
+specificationLevel
+"
+]
+0
 )
     
 def
