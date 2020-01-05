@@ -3040,8 +3040,9 @@ chunk_duration
 chunk_increment
 )
 {
-printf
+fprintf
 (
+stderr
 "
 one_way
 :
@@ -3212,8 +3213,9 @@ chunk_duration
 chunk_increment
 )
 {
-printf
+fprintf
 (
+stderr
 "
 input
 channels
@@ -3349,8 +3351,9 @@ chunk_size
 +
 )
 {
-printf
+fprintf
 (
+stderr
 "
 channel
 :
