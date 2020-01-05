@@ -655,9 +655,8 @@ about
 addons
 inline
 <
-browser
+browsers
 >
-s
 we
 currently
 receive
