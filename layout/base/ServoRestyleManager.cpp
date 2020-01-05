@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-ServoRestyleManagerInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleSet
 .
 h

@@ -873,12 +873,6 @@ aFrame
 )
 ;
 inline
-bool
-HasPendingRestyles
-(
-)
-;
-inline
 uint64_t
 GetRestyleGeneration
 (
