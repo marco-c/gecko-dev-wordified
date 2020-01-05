@@ -213,6 +213,9 @@ objects
 {
 uri
 :
+href
+URL
+or
 nsIURI
 of
 the
@@ -1187,9 +1190,11 @@ getResultByIndex
 *
 *
 Asynchronously
-checks
+returns
 the
-frecency
+required
+DB
+field
 for
 a
 specified
@@ -1216,7 +1221,8 @@ Promise
 resolves
 Returns
 the
-frecency
+field
+value
 .
 *
 rejects
@@ -1225,7 +1231,7 @@ exception
 .
 *
 /
-frecencyInDB
+fieldInDB
 :
 Task
 .
@@ -1235,6 +1241,7 @@ function
 *
 (
 aURI
+field
 )
 {
 let
@@ -1279,7 +1286,9 @@ db
 executeCached
 (
 SELECT
-frecency
+{
+field
+}
 FROM
 moz_places
 WHERE

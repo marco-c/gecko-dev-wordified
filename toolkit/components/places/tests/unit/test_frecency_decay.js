@@ -482,9 +482,12 @@ newFrecency
 yield
 PlacesTestUtils
 .
-frecencyInDB
+fieldInDB
 (
 url
+"
+frecency
+"
 )
 ;
 Assert
