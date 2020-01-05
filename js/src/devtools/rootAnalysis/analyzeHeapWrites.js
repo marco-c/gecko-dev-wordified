@@ -2768,6 +2768,9 @@ Gecko_NewStyleQuoteValues
 "
 Gecko_NewCSSValueSharedList
 "
+"
+Gecko_NewGridTemplateAreasValue
+"
 /
 nsCSSValue
 :
