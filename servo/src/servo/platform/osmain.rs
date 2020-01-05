@@ -364,6 +364,9 @@ OSMain
 chan
 :
 SharedChan
+:
+:
+new
 (
 on_osmain
 :

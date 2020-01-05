@@ -469,6 +469,9 @@ let
 control_chan
 =
 SharedChan
+:
+:
+new
 (
 control_chan
 )

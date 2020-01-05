@@ -428,6 +428,18 @@ o
 f
 }
 ;
+/
+/
+FIXME
+:
+rust
+/
+#
+5967
+let
+mut
+r
+=
 Renderer
 {
 port
@@ -436,7 +448,6 @@ po
 compositor
 :
 compositor
-mut
 layer_buffer_set_port
 :
 Cell
@@ -454,6 +465,8 @@ take
 (
 )
 }
+;
+r
 .
 start
 (
@@ -462,6 +475,9 @@ start
 }
 ;
 SharedChan
+:
+:
+new
 (
 render_task
 )
@@ -551,6 +567,7 @@ fn
 start
 (
 &
+mut
 self
 )
 {
@@ -614,6 +631,7 @@ fn
 render
 (
 &
+mut
 self
 render_layer
 :

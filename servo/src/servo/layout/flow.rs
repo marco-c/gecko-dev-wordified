@@ -659,12 +659,18 @@ zero_rect
 }
 pub
 impl
+<
+'
+self
+>
 FlowContext
 {
 fn
 d
 (
 &
+'
+self
 mut
 self
 )
@@ -790,6 +796,8 @@ fn
 inline
 (
 &
+'
+self
 mut
 self
 )
@@ -862,6 +870,8 @@ fn
 block
 (
 &
+'
+self
 mut
 self
 )
@@ -935,6 +945,8 @@ fn
 root
 (
 &
+'
+self
 mut
 self
 )

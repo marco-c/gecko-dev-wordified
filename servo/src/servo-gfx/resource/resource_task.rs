@@ -429,6 +429,9 @@ start
 }
 ;
 SharedChan
+:
+:
+new
 (
 chan
 )

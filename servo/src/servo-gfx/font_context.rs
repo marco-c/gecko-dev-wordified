@@ -584,6 +584,8 @@ fn
 get_font_list
 (
 &
+'
+self
 self
 )
 -

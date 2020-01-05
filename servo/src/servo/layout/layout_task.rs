@@ -606,6 +606,9 @@ Opts
 LayoutTask
 {
 SharedChan
+:
+:
+new
 (
 spawn_listener
 :

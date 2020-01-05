@@ -109,8 +109,14 @@ StyledNode
 {
 fn
 style
+<
+'
+a
+>
 (
 &
+'
+a
 self
 )
 -
@@ -118,7 +124,7 @@ self
 CompleteStyle
 <
 '
-self
+a
 >
 ;
 }
@@ -129,8 +135,14 @@ AbstractNode
 {
 fn
 style
+<
+'
+a
+>
 (
 &
+'
+a
 self
 )
 -
@@ -138,7 +150,7 @@ self
 CompleteStyle
 <
 '
-self
+a
 >
 {
 assert

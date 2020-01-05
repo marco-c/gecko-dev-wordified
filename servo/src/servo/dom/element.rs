@@ -505,6 +505,10 @@ methods
 /
 pub
 impl
+<
+'
+self
+>
 Element
 {
 pub
@@ -551,6 +555,8 @@ fn
 get_attr
 (
 &
+'
+self
 self
 name
 :
