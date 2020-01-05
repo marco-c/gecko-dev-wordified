@@ -114,8 +114,6 @@ client
 /
 netmonitor
 /
-src
-/
 selectors
 /
 index

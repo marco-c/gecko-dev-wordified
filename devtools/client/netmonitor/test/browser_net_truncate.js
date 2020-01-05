@@ -69,8 +69,6 @@ client
 /
 netmonitor
 /
-src
-/
 utils
 /
 l10n
@@ -181,8 +179,6 @@ client
 /
 netmonitor
 /
-src
-/
 actions
 /
 index
@@ -203,8 +199,6 @@ client
 /
 netmonitor
 /
-src
-/
 constants
 "
 )
@@ -223,8 +217,6 @@ devtools
 client
 /
 netmonitor
-/
-src
 /
 selectors
 /

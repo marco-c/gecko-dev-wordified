@@ -115,8 +115,6 @@ client
 /
 netmonitor
 /
-src
-/
 constants
 "
 )

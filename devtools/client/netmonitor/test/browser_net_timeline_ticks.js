@@ -67,8 +67,6 @@ client
 /
 netmonitor
 /
-src
-/
 utils
 /
 l10n

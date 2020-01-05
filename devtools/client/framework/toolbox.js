@@ -740,8 +740,6 @@ client
 /
 netmonitor
 /
-src
-/
 har
 /
 toolbox

@@ -69,8 +69,6 @@ client
 /
 netmonitor
 /
-src
-/
 utils
 /
 l10n
@@ -121,8 +119,6 @@ devtools
 client
 /
 netmonitor
-/
-src
 /
 utils
 /

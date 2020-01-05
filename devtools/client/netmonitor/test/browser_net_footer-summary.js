@@ -75,8 +75,6 @@ client
 /
 netmonitor
 /
-src
-/
 utils
 /
 format
@@ -136,8 +134,6 @@ client
 /
 netmonitor
 /
-src
-/
 actions
 /
 index
@@ -158,8 +154,6 @@ client
 /
 netmonitor
 /
-src
-/
 selectors
 /
 index
@@ -179,8 +173,6 @@ devtools
 client
 /
 netmonitor
-/
-src
 /
 utils
 /
