@@ -1923,6 +1923,8 @@ preferred
 derive
 (
 RustcEncodable
+Copy
+Clone
 )
 ]
 pub
