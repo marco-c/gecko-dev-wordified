@@ -370,6 +370,14 @@ FlushConsoleReport
 =
 0
 ;
+virtual
+void
+OnDataAvailable
+(
+)
+=
+0
+;
 protected
 :
 virtual
