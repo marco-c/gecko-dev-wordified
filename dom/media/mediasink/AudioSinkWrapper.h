@@ -402,7 +402,7 @@ aType
 )
 override
 ;
-int64_t
+TimeUnit
 GetEndTime
 (
 TrackType
@@ -411,7 +411,7 @@ aType
 const
 override
 ;
-int64_t
+TimeUnit
 GetPosition
 (
 TimeStamp
@@ -467,7 +467,9 @@ override
 void
 Start
 (
-int64_t
+const
+TimeUnit
+&
 aStartTime
 const
 MediaInfo

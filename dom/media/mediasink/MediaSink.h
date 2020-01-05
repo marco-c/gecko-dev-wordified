@@ -491,7 +491,7 @@ playback
 starts
 .
 virtual
-int64_t
+TimeUnit
 GetEndTime
 (
 TrackType
@@ -579,7 +579,7 @@ playback
 starts
 .
 virtual
-int64_t
+TimeUnit
 GetPosition
 (
 TimeStamp
@@ -844,7 +844,9 @@ virtual
 void
 Start
 (
-int64_t
+const
+TimeUnit
+&
 aStartTime
 const
 MediaInfo

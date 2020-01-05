@@ -19821,8 +19821,14 @@ mMediaSink
 >
 Start
 (
+TimeUnit
+:
+:
+FromMicroseconds
+(
 GetMediaTime
 (
+)
 )
 Info
 (
@@ -21022,6 +21028,10 @@ GetPosition
 (
 aTimeStamp
 )
+.
+ToMicroseconds
+(
+)
 ;
 NS_ASSERTION
 (
@@ -21994,6 +22004,10 @@ TrackInfo
 :
 kAudioTrack
 )
+.
+ToMicroseconds
+(
+)
 ;
 }
 return
@@ -22036,6 +22050,10 @@ TrackInfo
 :
 :
 kVideoTrack
+)
+.
+ToMicroseconds
+(
 )
 ;
 }
