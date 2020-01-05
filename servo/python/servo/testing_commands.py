@@ -2422,6 +2422,8 @@ try
             
 import
 wptrunner
+#
+noqa
             
 from
 wptrunner
@@ -2429,6 +2431,8 @@ wptrunner
 browsers
 import
 servo
+#
+noqa
         
 except
 ImportError
@@ -2596,6 +2600,8 @@ machformatter
         
 import
 blessings
+#
+noqa
         
 machformatter
 .

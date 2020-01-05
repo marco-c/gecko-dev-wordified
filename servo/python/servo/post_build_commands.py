@@ -114,8 +114,6 @@ as
 path
 import
 subprocess
-import
-sys
 from
 shutil
 import
@@ -341,7 +339,7 @@ None
 type
 =
 str
-        
+                     
 help
 =
 '
@@ -578,8 +576,8 @@ self
 debuggerInfo
 .
 args
-                    
 +
+                    
 args
 +
 params
@@ -641,7 +639,7 @@ mach
 build
 '
 "
-                     
+                      
 "
 and
 try
@@ -1059,7 +1057,6 @@ path
 .
 join
 (
-               
 self
 .
 config

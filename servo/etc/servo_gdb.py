@@ -99,7 +99,9 @@ to
 those
 terms
 .
-#
+"
+"
+"
 A
 set
 of
@@ -116,7 +118,6 @@ a
 bit
 easier
 .
-#
 To
 load
 these
@@ -128,19 +129,15 @@ something
 like
 the
 following
-#
 to
 your
 .
 gdbinit
 file
-.
-#
+:
 python
-#
 import
 sys
-#
 sys
 .
 path
@@ -166,18 +163,18 @@ src
 etc
 '
 )
-#
 import
 servo_gdb
-#
 servo_gdb
 .
 register_printers
 (
 None
 )
-#
 end
+"
+"
+"
 import
 gdb
 #
@@ -236,7 +233,6 @@ cast
 (
 i32_type
 )
-;
         
 return
 "
@@ -307,7 +303,6 @@ cast
 (
 u8_type
 )
-;
         
 return
 "
@@ -590,7 +585,6 @@ enum_0
 ]
 .
 type
-;
         
 return
 str
