@@ -4531,6 +4531,14 @@ AzureCanvasAccelerated
 ;
 sandbox
 .
+gpuProcess
+=
+gfxInfo
+.
+usingGPUProcess
+;
+sandbox
+.
 azureCairo
 =
 canvasBackend
