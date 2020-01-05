@@ -34072,6 +34072,7 @@ flexLength
 ;
 }
 }
+}
 if
 (
 applyMinMax
@@ -34327,7 +34328,6 @@ though
 }
 continue
 ;
-}
 }
 }
 break
