@@ -1835,9 +1835,8 @@ to
 run
 in
 |
-aMicroseconds
+aTime
 |
-microseconds
 /
 /
 unless
@@ -1862,8 +1861,13 @@ discarded
 void
 ScheduleStateMachineIn
 (
-int64_t
-aMicroseconds
+const
+media
+:
+:
+TimeUnit
+&
+aTime
 )
 ;
 bool
