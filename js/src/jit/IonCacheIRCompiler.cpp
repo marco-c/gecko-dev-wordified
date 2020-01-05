@@ -174,6 +174,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
