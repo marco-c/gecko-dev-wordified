@@ -270,6 +270,13 @@ Layers
 .
 h
 "
+#
+include
+"
+nsBidi
+.
+h
+"
 class
 nsGlobalWindow
 ;
@@ -5147,6 +5154,9 @@ nsTArray
 RegionInfo
 >
 mHitRegionsOptions
+;
+nsBidi
+mBidiEngine
 ;
 /
 *

@@ -396,13 +396,6 @@ h
 #
 include
 "
-nsBidi
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
@@ -24175,9 +24168,6 @@ boxes
 before
 rendering
 anything
-nsBidi
-bidiEngine
-;
 rv
 =
 nsBidiPresUtils
@@ -24216,7 +24206,7 @@ nullptr
 &
 totalWidthCoord
 &
-bidiEngine
+mBidiEngine
 )
 ;
 if
@@ -24983,7 +24973,7 @@ nullptr
 0
 nullptr
 &
-bidiEngine
+mBidiEngine
 )
 ;
 mTarget
