@@ -3808,10 +3808,8 @@ thing
 {
 if
 (
-isNullLike
-(
+!
 thing
-)
 |
 |
 thing

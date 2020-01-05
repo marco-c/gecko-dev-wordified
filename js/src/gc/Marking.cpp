@@ -4401,7 +4401,7 @@ T
 >
 :
 :
-isMarkableTaggedPointer
+isMarkable
 (
 *
 thingp
