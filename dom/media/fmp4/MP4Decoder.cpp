@@ -1709,12 +1709,6 @@ FromMicroseconds
 ;
 aConfig
 .
-mMediaTime
-=
-0
-;
-aConfig
-.
 mImage
 =
 aConfig
