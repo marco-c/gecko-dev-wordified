@@ -495,6 +495,10 @@ always
 ]
 fn
 assign_block_size_table_row_base
+<
+'
+a
+>
 (
 &
 mut
@@ -502,8 +506,13 @@ self
 layout_context
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 let
@@ -1249,7 +1258,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
@@ -1544,7 +1552,6 @@ self
 ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -1677,6 +1684,10 @@ clone
 }
 fn
 assign_block_size
+<
+'
+a
+>
 (
 &
 mut
@@ -1684,8 +1695,13 @@ self
 ctx
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 debug

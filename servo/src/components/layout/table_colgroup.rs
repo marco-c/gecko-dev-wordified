@@ -309,7 +309,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
@@ -483,7 +482,6 @@ self
 _ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -509,7 +507,6 @@ self
 _ctx
 :
 &
-mut
 LayoutContext
 )
 {

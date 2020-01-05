@@ -277,7 +277,6 @@ self
 ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -300,7 +299,6 @@ self
 ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -336,6 +334,10 @@ ctx
 }
 fn
 assign_block_size
+<
+'
+a
+>
 (
 &
 mut
@@ -343,8 +345,13 @@ self
 ctx
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 debug

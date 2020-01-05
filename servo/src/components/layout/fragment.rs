@@ -5122,6 +5122,8 @@ clone
 )
 layout_context
 .
+shared
+.
 image_cache
 .
 clone
@@ -6674,6 +6676,8 @@ flow_origin
 "
 layout_context
 .
+shared
+.
 dirty
 flow_origin
 )
@@ -6729,6 +6733,8 @@ intersects
 (
 &
 layout_context
+.
+shared
 .
 dirty
 )
@@ -11335,6 +11341,8 @@ chan
 )
 =
 layout_context
+.
+shared
 .
 constellation_chan
 ;

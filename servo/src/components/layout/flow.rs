@@ -1641,7 +1641,6 @@ self
 _ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -1678,7 +1677,6 @@ self
 _ctx
 :
 &
-mut
 LayoutContext
 )
 {
@@ -1708,6 +1706,10 @@ size
 .
 fn
 assign_block_size
+<
+'
+a
+>
 (
 &
 mut
@@ -1715,8 +1717,13 @@ self
 _ctx
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 {
 fail
@@ -1788,6 +1795,10 @@ otherwise
 .
 fn
 assign_block_size_for_inorder_child_if_necessary
+<
+'
+a
+>
 (
 &
 mut
@@ -1795,8 +1806,13 @@ self
 layout_context
 :
 &
-mut
+'
+a
 LayoutContext
+<
+'
+a
+>
 )
 -
 >
@@ -3142,7 +3158,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 ;
@@ -7106,7 +7121,6 @@ self
 _
 :
 &
-mut
 LayoutContext
 )
 {
