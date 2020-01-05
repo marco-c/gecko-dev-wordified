@@ -3392,6 +3392,16 @@ c_int
 ;
 pub
 const
+MSG_PEEK
+:
+:
+:
+c_int
+=
+0x2
+;
+pub
+const
 MSG_NOSIGNAL
 :
 :

@@ -119,6 +119,14 @@ nl_item
 c_int
 ;
 pub
+type
+idtype_t
+=
+:
+:
+c_uint
+;
+pub
 enum
 fpos64_t
 {

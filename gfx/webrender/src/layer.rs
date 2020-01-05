@@ -861,6 +861,10 @@ pub
 bouncing_back
 :
 bool
+pub
+should_handoff_scroll
+:
+bool
 }
 impl
 ScrollingState
@@ -904,6 +908,9 @@ started_bouncing_back
 :
 false
 bouncing_back
+:
+false
+should_handoff_scroll
 :
 false
 }
