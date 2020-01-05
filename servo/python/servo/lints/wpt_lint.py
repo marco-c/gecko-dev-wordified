@@ -102,7 +102,7 @@ terms
 import
 os
 import
-site
+sys
 from
 servo_tidy
 .
@@ -289,10 +289,13 @@ _get_wpt_files
 suite
 )
             
-site
+sys
 .
-addsitedir
+path
+.
+insert
 (
+0
 wpt_working_dir
 )
             
@@ -302,6 +305,15 @@ tools
 lint
 import
 lint
+            
+sys
+.
+path
+.
+remove
+(
+wpt_working_dir
+)
             
 file_dir
 =
