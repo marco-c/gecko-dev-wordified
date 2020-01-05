@@ -53,7 +53,11 @@ Object
 getOwnPropertyDescriptor
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -148,5 +152,11 @@ have
 1
 descriptor
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

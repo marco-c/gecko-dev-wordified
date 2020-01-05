@@ -46,7 +46,11 @@ properties
 .
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -354,5 +358,11 @@ names
 as
 f
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

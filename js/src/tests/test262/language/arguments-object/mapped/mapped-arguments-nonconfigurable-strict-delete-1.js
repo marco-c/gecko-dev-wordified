@@ -160,3 +160,9 @@ argumentsAndStrictDelete
 1
 )
 ;
+reportCompare
+(
+0
+0
+)
+;

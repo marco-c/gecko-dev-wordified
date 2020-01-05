@@ -44,7 +44,11 @@ primitives
 .
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -402,5 +406,11 @@ is
 c
 "
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

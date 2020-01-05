@@ -49,7 +49,11 @@ undefined
 value
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -95,5 +99,11 @@ undefined
 )
 ;
 }
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

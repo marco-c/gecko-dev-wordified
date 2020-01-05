@@ -54,7 +54,11 @@ property
 Object
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -160,5 +164,11 @@ have
 2
 descriptors
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

@@ -50,7 +50,11 @@ Object
 prototype
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -79,5 +83,11 @@ getOwnPropertyDescriptors
 Object
 .
 prototype
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

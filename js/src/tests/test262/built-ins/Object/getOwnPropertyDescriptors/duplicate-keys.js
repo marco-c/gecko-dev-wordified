@@ -48,7 +48,11 @@ should
 work
 esid
 :
-pending
+sec
+-
+object
+.
+getownpropertydescriptors
 author
 :
 Jordan
@@ -303,5 +307,11 @@ getOwnPropertyDescriptor
 DUPLICATE
 |
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;
