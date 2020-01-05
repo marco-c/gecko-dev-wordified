@@ -707,12 +707,6 @@ inIsolatedMozBrowser
 :
 false
 "
-signedPkg
-"
-:
-"
-"
-"
 userContextId
 "
 :
