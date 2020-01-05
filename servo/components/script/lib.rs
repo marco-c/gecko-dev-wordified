@@ -125,6 +125,14 @@ box_syntax
 [
 feature
 (
+cell_extras
+)
+]
+#
+!
+[
+feature
+(
 core
 )
 ]
