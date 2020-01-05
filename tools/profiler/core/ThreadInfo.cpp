@@ -187,10 +187,6 @@ AllocPlatformData
 aThreadId
 )
 )
-mProfile
-(
-nullptr
-)
 mStackTop
 (
 aStackTop
@@ -259,13 +255,6 @@ MOZ_COUNT_DTOR
 (
 ThreadInfo
 )
-;
-if
-(
-mProfile
-)
-delete
-mProfile
 ;
 Sampler
 :
