@@ -200,15 +200,6 @@ aNode
 ;
 static
 bool
-IsHR
-(
-nsIDOMNode
-*
-aNode
-)
-;
-static
-bool
 IsListItem
 (
 nsINode
@@ -499,8 +490,8 @@ static
 bool
 SupportsAlignAttr
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
