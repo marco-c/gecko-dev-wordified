@@ -227,8 +227,11 @@ mMemProfiler
 mGCHeapProfiler
 ;
 }
+JS_FRIEND_API
+(
 MemProfiler
 *
+)
 MemProfiler
 :
 :
@@ -254,7 +257,10 @@ gc
 mMemProfiler
 ;
 }
+JS_FRIEND_API
+(
 void
+)
 MemProfiler
 :
 :
@@ -284,7 +290,10 @@ sActiveProfilerCount
 +
 ;
 }
+JS_FRIEND_API
+(
 void
+)
 MemProfiler
 :
 :
