@@ -7249,14 +7249,6 @@ HardwareUtils
 isSupportedSystem
 (
 )
-|
-|
-!
-GeckoLoader
-.
-neonCompatible
-(
-)
 )
 {
 /
