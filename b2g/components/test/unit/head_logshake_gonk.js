@@ -255,14 +255,6 @@ tmp
 sdcard
 "
 ;
-volumeService
-.
-createFakeVolume
-(
-volName
-mountPoint
-)
-;
 let
 vol
 =
