@@ -3999,7 +3999,7 @@ if
 wcompartment
 -
 >
-putWrapperMaybeUpdate
+putWrapper
 (
 cx
 CrossCompartmentKey
@@ -4013,12 +4013,10 @@ wobj
 )
 )
 )
-{
 MOZ_CRASH
 (
 )
 ;
-}
 }
 /
 /
