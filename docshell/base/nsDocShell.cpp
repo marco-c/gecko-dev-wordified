@@ -25951,8 +25951,14 @@ allow
 :
 uriString
 .
-StripCRLF
+StripChars
 (
+"
+\
+r
+\
+n
+"
 )
 ;
 NS_ENSURE_TRUE

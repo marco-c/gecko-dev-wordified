@@ -1027,8 +1027,14 @@ allow
 :
 uriString
 .
-StripCRLF
+StripChars
 (
+"
+\
+r
+\
+n
+"
 )
 ;
 /
