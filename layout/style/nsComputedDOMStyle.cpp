@@ -36354,7 +36354,7 @@ aTimingFunction
 mType
 aTimingFunction
 .
-mSteps
+mStepsOrFrames
 tmp
 )
 ;
