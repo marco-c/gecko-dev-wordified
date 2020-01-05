@@ -2178,15 +2178,12 @@ getDynamicToolbarAnimator
 float
 toolbarHeight
 =
-animator
-.
-getMaxTranslation
 (
+float
 )
--
 animator
 .
-getToolbarTranslation
+getCurrentToolbarHeight
 (
 )
 ;

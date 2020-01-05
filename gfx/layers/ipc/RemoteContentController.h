@@ -383,15 +383,6 @@ override
 ;
 virtual
 void
-SetScrollingRootContent
-(
-bool
-aIsRootContent
-)
-override
-;
-virtual
-void
 NotifyMozMouseScrollEvent
 (
 const

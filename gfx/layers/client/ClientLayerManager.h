@@ -1514,13 +1514,6 @@ AsyncPanZoomEnabled
 const
 override
 ;
-void
-SetNextPaintSyncId
-(
-int32_t
-aSyncId
-)
-;
 virtual
 void
 SetLayerObserverEpoch

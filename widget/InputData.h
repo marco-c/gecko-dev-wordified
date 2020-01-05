@@ -1434,6 +1434,15 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+void
+Translate
+(
+const
+ScreenPoint
+&
+aTranslation
+)
+;
 WidgetTouchEvent
 ToWidgetTouchEvent
 (

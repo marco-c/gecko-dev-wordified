@@ -1533,6 +1533,10 @@ GPUParent
 :
 RecvInitUiCompositorController
 (
+const
+uint64_t
+&
+aRootLayerTreeId
 Endpoint
 <
 PUiCompositorControllerParent
@@ -1547,6 +1551,7 @@ UiCompositorControllerParent
 :
 Start
 (
+aRootLayerTreeId
 Move
 (
 aEndpoint

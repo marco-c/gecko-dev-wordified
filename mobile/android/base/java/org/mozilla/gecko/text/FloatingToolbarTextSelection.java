@@ -1063,6 +1063,16 @@ height
 ;
 final
 float
+toolbarOffset
+=
+layerView
+.
+getCurrentToolbarHeight
+(
+)
+;
+final
+float
 zoomFactor
 =
 layerView
@@ -1108,6 +1118,8 @@ locationInWindow
 [
 1
 ]
++
+toolbarOffset
 )
 (
 int

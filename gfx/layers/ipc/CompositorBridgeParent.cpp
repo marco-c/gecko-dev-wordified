@@ -6725,11 +6725,6 @@ isFirstPaint
 (
 )
 targetConfig
-aInfo
-.
-paintSyncId
-(
-)
 )
 ;
 Layer

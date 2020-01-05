@@ -1123,15 +1123,6 @@ aIsRootContent
 )
 {
 }
-virtual
-void
-SetScrollingRootContent
-(
-bool
-isRootContent
-)
-{
-}
 GeckoContentController
 (
 )
