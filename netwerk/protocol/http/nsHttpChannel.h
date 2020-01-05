@@ -4014,7 +4014,7 @@ do
 so
 .
 nsresult
-MaybeRaceNetworkWithCache
+MaybeRaceCacheWithNetwork
 (
 )
 ;
@@ -4145,7 +4145,7 @@ Atomic
 <
 bool
 >
-mRacingNetAndCache
+mRaceCacheWithNetwork
 ;
 protected
 :
