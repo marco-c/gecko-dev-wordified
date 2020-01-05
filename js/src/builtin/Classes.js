@@ -66,7 +66,7 @@ super
 .
 .
 .
-allowContentSpread
+allowContentIter
 (
 args
 )
