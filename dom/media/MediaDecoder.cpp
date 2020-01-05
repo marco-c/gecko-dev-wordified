@@ -2174,11 +2174,6 @@ mDecoderPosition
 )
 INIT_CANONICAL
 (
-mMediaSeekableOnlyInBufferedRanges
-false
-)
-INIT_CANONICAL
-(
 mIsVisible
 !
 aOwner
