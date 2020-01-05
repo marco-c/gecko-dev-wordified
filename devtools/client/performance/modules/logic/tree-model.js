@@ -438,7 +438,8 @@ the
 heading
 *
 "
-ThreadProfile
+Thread
+profile
 JSON
 Format
 "

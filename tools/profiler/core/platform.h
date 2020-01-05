@@ -1498,6 +1498,9 @@ that
 created
 it
 .
+class
+ThreadInfo
+;
 /
 /
 TickSample
@@ -1547,7 +1550,7 @@ isSamplingCurrentThread
 (
 false
 )
-threadProfile
+threadInfo
 (
 nullptr
 )
@@ -1636,9 +1639,9 @@ context
 bool
 isSamplingCurrentThread
 ;
-ThreadProfile
+ThreadInfo
 *
-threadProfile
+threadInfo
 ;
 mozilla
 :
@@ -1674,12 +1677,6 @@ SpliceableJSONWriter
 ;
 class
 SyncProfile
-;
-class
-ThreadInfo
-;
-class
-ThreadProfile
 ;
 namespace
 mozilla
@@ -2529,9 +2526,9 @@ backtracing
 void
 doNativeBacktrace
 (
-ThreadProfile
+ThreadInfo
 &
-aProfile
+aInfo
 TickSample
 *
 aSample

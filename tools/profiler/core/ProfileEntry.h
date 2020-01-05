@@ -249,9 +249,6 @@ UniquePtr
 .
 h
 "
-class
-ThreadProfile
-;
 /
 /
 NB
@@ -1508,11 +1505,13 @@ mStackToIndexMap
 /
 /
 /
-ThreadProfile
+Thread
+profile
 JSON
 Format
 /
 /
+-
 -
 -
 -

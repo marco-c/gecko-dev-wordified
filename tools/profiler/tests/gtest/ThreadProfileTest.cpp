@@ -112,7 +112,7 @@ h
 #
 include
 "
-ThreadProfile
+ThreadInfo
 .
 h
 "
@@ -124,7 +124,8 @@ we
 can
 initialize
 our
-ThreadProfile
+thread
+profile
 TEST
 (
 ThreadProfile
@@ -174,11 +175,10 @@ ProfileBuffer
 10
 )
 ;
-ThreadProfile
-tp
-(
-&
 info
+.
+SetProfile
+(
 pb
 )
 ;
