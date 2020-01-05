@@ -704,8 +704,6 @@ const
 char
 *
 aFileName
-unsigned
-aLineNo
 )
 ;
 void
@@ -717,8 +715,6 @@ const
 nsCString
 &
 aFileName
-unsigned
-aLineNo
 )
 ;
 bool
@@ -2403,8 +2399,6 @@ const
 nsCString
 &
 aFileName
-unsigned
-aLineNo
 )
 {
 if
@@ -2421,7 +2415,6 @@ SlowScriptData
 (
 aTabId
 aFileName
-aLineNo
 )
 )
 ;
@@ -2443,8 +2436,6 @@ const
 char
 *
 aFileName
-unsigned
-aLineNo
 )
 {
 MOZ_RELEASE_ASSERT
@@ -2548,7 +2539,6 @@ NewNonOwningRunnableMethod
 <
 TabId
 nsCString
-unsigned
 >
 (
 this
@@ -2559,7 +2549,6 @@ HangMonitorChild
 NotifySlowScriptAsync
 id
 filename
-aLineNo
 )
 )
 ;
@@ -5732,8 +5721,6 @@ const
 char
 *
 aFileName
-unsigned
-aLineNo
 )
 {
 MOZ_RELEASE_ASSERT
@@ -5756,7 +5743,6 @@ NotifySlowScript
 (
 aTabChild
 aFileName
-aLineNo
 )
 ;
 }
