@@ -241,7 +241,6 @@ default
 values
 originAttribs
 (
-0
 false
 )
 isAnonymous

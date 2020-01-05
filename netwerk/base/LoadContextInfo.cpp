@@ -652,10 +652,6 @@ LoadContextInfo
 aIsAnonymous
 NeckoOriginAttributes
 (
-nsILoadContextInfo
-:
-:
-NO_APP_ID
 false
 )
 )
