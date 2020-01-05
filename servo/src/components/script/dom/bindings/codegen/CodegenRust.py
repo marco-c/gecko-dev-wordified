@@ -42703,6 +42703,16 @@ HTMLCanvasElement
 dom
 :
 :
+htmldlistelement
+:
+:
+HTMLDListElement
+'
+                          
+'
+dom
+:
+:
 htmlelement
 :
 :
