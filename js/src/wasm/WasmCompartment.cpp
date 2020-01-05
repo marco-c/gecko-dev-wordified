@@ -444,10 +444,6 @@ wasm
 ;
 instance
 .
-code
-(
-)
-.
 ensureProfilingLabels
 (
 cx
@@ -844,10 +840,6 @@ instances_
 instance
 -
 >
-code
-(
-)
-.
 ensureProfilingLabels
 (
 profilingEnabled

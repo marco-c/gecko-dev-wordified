@@ -7173,10 +7173,6 @@ name
 cx
 instance
 .
-code
-(
-)
-.
 getFuncAtom
 (
 cx

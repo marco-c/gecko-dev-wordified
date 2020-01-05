@@ -3665,7 +3665,6 @@ addSizeOfMiscIfNotSeen
 (
 mallocSizeOf
 seenMetadata
-seenBytes
 seenCode
 code
 data

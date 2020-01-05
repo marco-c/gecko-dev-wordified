@@ -2174,7 +2174,6 @@ addSizeOfMiscIfNotSeen
 (
 mallocSizeOf
 seenMetadata
-seenBytes
 seenCode
 code
 data
@@ -5481,7 +5480,7 @@ true
 )
 )
 {
-UniqueConstCodeSegment
+auto
 codeSegment
 =
 CodeSegment
@@ -5521,7 +5520,6 @@ codeSegment
 metadata
 (
 )
-bytecode_
 )
 ;
 if
