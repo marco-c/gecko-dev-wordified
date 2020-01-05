@@ -650,6 +650,11 @@ originPrincipal
 json
 .
 originPrincipal
+frameOuterWindowID
+:
+json
+.
+frameOuterWindowID
 }
 ;
 /
