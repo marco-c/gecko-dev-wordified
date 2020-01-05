@@ -38515,10 +38515,6 @@ mListStylePosition
 :
 u8
 pub
-mListStyleType
-:
-nsString
-pub
 mCounterStyle
 :
 RefPtr
@@ -38572,7 +38568,7 @@ nsStyleList
 >
 (
 )
-64usize
+48usize
 )
 ;
 assert_eq
