@@ -318,10 +318,6 @@ aString
 Assign
 (
 mData
-.
-BeginReading
-(
-)
 aLength
 mozilla
 :
