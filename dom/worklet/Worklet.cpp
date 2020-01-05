@@ -1299,6 +1299,13 @@ setNoScriptRval
 true
 )
 ;
+JSAutoCompartment
+comp
+(
+cx
+globalObj
+)
+;
 JS
 :
 :
