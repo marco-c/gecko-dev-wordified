@@ -230,6 +230,17 @@ PrefixStringMap
 aPrefixMap
 )
 ;
+nsresult
+GetFixedLengthPrefixes
+(
+FallibleTArray
+<
+uint32_t
+>
+&
+aPrefixes
+)
+;
 /
 /
 ApplyUpdate

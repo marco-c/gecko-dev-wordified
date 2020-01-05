@@ -186,7 +186,7 @@ VariableLengthPrefixSet
 (
 )
 ;
-NS_IMETHOD
+nsresult
 Init
 (
 const
@@ -195,7 +195,7 @@ nsACString
 aName
 )
 ;
-NS_IMETHOD
+nsresult
 SetPrefixes
 (
 const
@@ -210,7 +210,7 @@ PrefixStringMap
 aPrefixMap
 )
 ;
-NS_IMETHOD
+nsresult
 GetPrefixes
 (
 mozilla
@@ -224,7 +224,18 @@ PrefixStringMap
 aPrefixMap
 )
 ;
-NS_IMETHOD
+nsresult
+GetFixedLengthPrefixes
+(
+FallibleTArray
+<
+uint32_t
+>
+&
+aPrefixes
+)
+;
+nsresult
 Matches
 (
 const
@@ -236,7 +247,7 @@ uint32_t
 aLength
 )
 ;
-NS_IMETHOD
+nsresult
 IsEmpty
 (
 bool
@@ -244,7 +255,7 @@ bool
 aEmpty
 )
 ;
-NS_IMETHOD
+nsresult
 LoadFromFile
 (
 nsIFile
@@ -252,7 +263,7 @@ nsIFile
 aFile
 )
 ;
-NS_IMETHOD
+nsresult
 StoreToFile
 (
 nsIFile
