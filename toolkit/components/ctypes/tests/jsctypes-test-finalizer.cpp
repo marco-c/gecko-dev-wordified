@@ -857,13 +857,13 @@ buf
 new
 char
 [
-10
+12
 ]
 ;
 snprintf
 (
 buf
-10
+12
 "
 %
 d
