@@ -367,7 +367,7 @@ key
 .
 length
 as
-uint
+usize
 |
 result
 |
@@ -484,7 +484,7 @@ key
 .
 length
 as
-uint
+usize
 |
 result
 |
@@ -657,7 +657,7 @@ key
 .
 length
 as
-uint
+usize
 |
 result
 |
@@ -700,7 +700,7 @@ len
 =
 index
 as
-uint
+usize
 {
 return
 0
@@ -716,7 +716,7 @@ s
 [
 index
 as
-uint
+usize
 ]
 ;
 cef_string_utf16_set
@@ -812,7 +812,7 @@ rem
 =
 index
 as
-uint
+usize
 ;
 for
 (
@@ -956,7 +956,7 @@ rem
 =
 index
 as
-uint
+usize
 ;
 for
 val
@@ -992,7 +992,7 @@ val
 [
 rem
 as
-uint
+usize
 ]
 ;
 return

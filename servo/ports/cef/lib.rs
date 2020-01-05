@@ -61,7 +61,7 @@ MPL
 [
 feature
 (
-int_uint
+alloc
 )
 ]
 #

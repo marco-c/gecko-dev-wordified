@@ -229,7 +229,7 @@ const
 u8
 l
 :
-uint
+usize
 f
 :
 F
@@ -520,7 +520,7 @@ cef_base_t
 >
 *
 mut
-uint
+usize
 {
 /
 /
@@ -554,12 +554,12 @@ object
 .
 size
 as
-int
+isize
 )
 as
 *
 mut
-uint
+usize
 }
 /
 /

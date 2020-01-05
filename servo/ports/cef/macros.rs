@@ -185,7 +185,7 @@ foo
 this
 a
 :
-int
+isize
 b
 :
 *
@@ -207,7 +207,7 @@ a
 will
 have
 type
-int
+isize
 and
 b
 will
@@ -252,7 +252,7 @@ bar
 this
 a
 :
-int
+isize
 )
 -
 >
@@ -538,7 +538,7 @@ offset
 :
 *
 const
-uint
+usize
 =
 &
 (

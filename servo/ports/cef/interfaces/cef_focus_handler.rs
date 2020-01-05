@@ -799,7 +799,7 @@ instances
 pub
 ref_count
 :
-uint
+usize
 /
 /
 /

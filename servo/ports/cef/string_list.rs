@@ -373,7 +373,7 @@ lt
 if
 index
 as
-uint
+usize
 >
 (
 *
@@ -400,7 +400,7 @@ v
 [
 index
 as
-uint
+usize
 ]
 ;
 cef_string_utf16_set

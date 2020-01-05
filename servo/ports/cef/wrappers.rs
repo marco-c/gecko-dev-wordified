@@ -1375,7 +1375,7 @@ len
 (
 )
 as
-int
+isize
 )
 =
 0
@@ -2005,7 +2005,7 @@ offset
 (
 i
 as
-int
+isize
 )
 =
 *
@@ -2022,7 +2022,7 @@ len
 (
 )
 as
-int
+isize
 )
 =
 0

@@ -255,13 +255,13 @@ vec
 for
 i
 in
-0u
+0
 .
 .
 (
 argc
 as
-uint
+usize
 )
 {
 let
@@ -282,7 +282,7 @@ offset
 (
 i
 as
-int
+isize
 )
 as
 *
