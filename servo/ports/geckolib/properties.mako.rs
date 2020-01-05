@@ -1153,7 +1153,6 @@ None
 "
 >
 impl
-T
 {
 style_struct
 .
