@@ -2599,7 +2599,7 @@ GetAsBlob
 ;
 BodyExtractor
 <
-Blob
+nsIXHRSendable
 >
 body
 (
@@ -2641,7 +2641,7 @@ GetAsFormData
 ;
 BodyExtractor
 <
-FormData
+nsIXHRSendable
 >
 body
 (
@@ -2720,7 +2720,7 @@ GetAsURLSearchParams
 ;
 BodyExtractor
 <
-URLSearchParams
+nsIXHRSendable
 >
 body
 (
@@ -2881,7 +2881,7 @@ IsBlob
 {
 BodyExtractor
 <
-Blob
+nsIXHRSendable
 >
 body
 (
@@ -2917,7 +2917,7 @@ IsFormData
 {
 BodyExtractor
 <
-FormData
+nsIXHRSendable
 >
 body
 (
@@ -2990,7 +2990,7 @@ IsURLSearchParams
 {
 BodyExtractor
 <
-URLSearchParams
+nsIXHRSendable
 >
 body
 (

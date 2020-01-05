@@ -475,6 +475,17 @@ mozilla
 /
 dom
 /
+URLSearchParams
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 VRDisplay
 .
 h
@@ -6642,7 +6653,7 @@ IsBlob
 {
 BodyExtractor
 <
-Blob
+nsIXHRSendable
 >
 body
 (
@@ -6689,7 +6700,7 @@ IsFormData
 {
 BodyExtractor
 <
-FormData
+nsIXHRSendable
 >
 body
 (
@@ -6784,7 +6795,7 @@ IsURLSearchParams
 {
 BodyExtractor
 <
-URLSearchParams
+nsIXHRSendable
 >
 body
 (
