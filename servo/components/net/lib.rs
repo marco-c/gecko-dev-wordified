@@ -146,6 +146,10 @@ flate2
 ;
 extern
 crate
+fnv
+;
+extern
+crate
 hyper
 ;
 extern
