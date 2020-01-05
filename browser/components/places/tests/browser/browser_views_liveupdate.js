@@ -3254,8 +3254,6 @@ toolbar
 sidebar
 "
 ]
-break
-;
 case
 PlacesUtils
 .
@@ -3270,8 +3268,6 @@ menu
 sidebar
 "
 ]
-break
-;
 case
 PlacesUtils
 .
@@ -3283,8 +3279,6 @@ return
 sidebar
 "
 ]
-break
-;
 }
 return
 new
