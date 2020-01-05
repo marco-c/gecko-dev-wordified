@@ -130,6 +130,7 @@ ScaledFontWin
 )
 ScaledFontWin
 (
+const
 LOGFONT
 *
 aFont
@@ -156,6 +157,17 @@ GetFontFileData
 (
 FontFileDataOutput
 aDataCallback
+void
+*
+aBaton
+)
+override
+;
+bool
+GetFontInstanceData
+(
+FontInstanceDataOutput
+aCb
 void
 *
 aBaton
