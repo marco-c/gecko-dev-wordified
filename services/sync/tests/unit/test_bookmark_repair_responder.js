@@ -317,6 +317,7 @@ extra
 )
 ;
 }
+;
 function
 checkRecordedEvents
 (

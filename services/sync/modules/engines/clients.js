@@ -3041,9 +3041,14 @@ what
 we
 uploaded
 .
-clientRecord
+this
 .
-commands
+_store
+.
+_remoteClients
+[
+id
+]
 =
 this
 .
