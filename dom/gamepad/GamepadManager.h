@@ -334,6 +334,8 @@ nsAString
 aID
 GamepadMappingType
 aMapping
+GamepadHand
+aHand
 GamepadServiceType
 aServiceType
 uint32_t

@@ -1181,6 +1181,8 @@ nsAString
 aId
 GamepadMappingType
 aMapping
+GamepadHand
+aHand
 GamepadServiceType
 aServiceType
 uint32_t
@@ -1223,6 +1225,7 @@ by
 global
 window
 aMapping
+aHand
 aNumButtons
 aNumAxes
 )
@@ -3329,6 +3332,17 @@ GamepadMappingType
 a
 .
 mapping
+(
+)
+)
+static_cast
+<
+GamepadHand
+>
+(
+a
+.
+hand
 (
 )
 )
