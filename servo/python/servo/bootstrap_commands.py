@@ -3225,6 +3225,18 @@ sharedir
 tool
 )
             
+if
+not
+path
+.
+isdir
+(
+base
+)
+:
+                
+continue
+            
 for
 name
 in
