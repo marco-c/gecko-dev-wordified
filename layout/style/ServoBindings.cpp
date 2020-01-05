@@ -7652,6 +7652,9 @@ ServoStyleSheet
 aParent
 RawServoImportRuleBorrowed
 aImportRule
+nsIURI
+*
+aBaseURI
 const
 uint8_t
 *
@@ -7714,6 +7717,17 @@ t
 be
 loaded
 !
+"
+)
+;
+MOZ_ASSERT
+(
+aBaseURI
+"
+Need
+a
+base
+URI
 "
 )
 ;
@@ -7836,6 +7850,8 @@ getter_AddRefs
 uri
 )
 urlSpec
+nullptr
+aBaseURI
 )
 ;
 if

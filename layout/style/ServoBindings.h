@@ -866,6 +866,9 @@ ServoStyleSheet
 parent
 RawServoImportRuleBorrowed
 import_rule
+nsIURI
+*
+base_uri
 const
 uint8_t
 *
