@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsHttpResponseHead
 .
 h
@@ -1480,6 +1489,9 @@ p
 return
 NS_ERROR_UNEXPECTED
 ;
+Unused
+<
+<
 ParseHeaderLine_locked
 (
 nsDependentCSubstring

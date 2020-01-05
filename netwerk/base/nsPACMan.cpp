@@ -430,6 +430,13 @@ if
 (
 httpChannel
 )
+{
+/
+/
+failsafe
+Unused
+<
+<
 httpChannel
 -
 >
@@ -439,6 +446,7 @@ GetRequestSucceeded
 result
 )
 ;
+}
 return
 result
 ;

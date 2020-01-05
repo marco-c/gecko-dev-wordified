@@ -1089,6 +1089,9 @@ nsHttpHeaderArray
 )
 ;
 }
+Unused
+<
+<
 mTrailers
 -
 >

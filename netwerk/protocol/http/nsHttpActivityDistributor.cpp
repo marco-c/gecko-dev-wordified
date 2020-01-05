@@ -214,6 +214,10 @@ i
 +
 +
 )
+{
+Unused
+<
+<
 mObservers
 [
 i
@@ -230,6 +234,7 @@ mExtraSizeData
 mExtraStringData
 )
 ;
+}
 return
 NS_OK
 ;

@@ -4280,6 +4280,9 @@ entry
 =
 nullptr
 ;
+Unused
+<
+<
 authCache
 -
 >
@@ -5951,6 +5954,9 @@ nsIURI
 >
 topURI
 ;
+Unused
+<
+<
 chanInternal
 -
 >
@@ -7606,6 +7612,9 @@ entry
 =
 nullptr
 ;
+Unused
+<
+<
 authCache
 -
 >

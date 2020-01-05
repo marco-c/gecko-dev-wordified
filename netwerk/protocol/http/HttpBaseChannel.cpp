@@ -6753,6 +6753,9 @@ NS_OK
 nsAutoCString
 encoding
 ;
+Unused
+<
+<
 mResponseHead
 -
 >
@@ -13515,6 +13518,17 @@ NS_ERROR_FAILURE
 nsAutoCString
 date
 ;
+/
+/
+empty
+date
+is
+not
+an
+error
+Unused
+<
+<
 mResponseHead
 -
 >
@@ -15975,6 +15989,9 @@ requests
 nsAutoCString
 acceptRanges
 ;
+Unused
+<
+<
 mResponseHead
 -
 >
@@ -16028,6 +16045,9 @@ TotalEntitySize
 (
 )
 ;
+Unused
+<
+<
 mResponseHead
 -
 >
@@ -16040,6 +16060,9 @@ Last_Modified
 lastmod
 )
 ;
+Unused
+<
+<
 mResponseHead
 -
 >
@@ -18700,6 +18723,9 @@ true
 nsAutoCString
 clen
 ;
+Unused
+<
+<
 mRequestHead
 .
 GetHeader

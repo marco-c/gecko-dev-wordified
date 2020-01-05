@@ -11645,6 +11645,9 @@ AsyncOpen
 (
 )
 .
+Unused
+<
+<
 AsyncAbort
 (
 mStatus
@@ -17212,6 +17215,9 @@ rv
 )
 )
 {
+Unused
+<
+<
 AsyncAbort
 (
 rv

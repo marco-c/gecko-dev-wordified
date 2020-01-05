@@ -1950,6 +1950,9 @@ rv
 )
 )
 ;
+Unused
+<
+<
 Connection
 (
 )
@@ -2092,6 +2095,9 @@ NS_BASE_STREAM_WOULD_BLOCK
 )
 )
 {
+Unused
+<
+<
 Connection
 (
 )
@@ -2300,6 +2306,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+Unused
+<
+<
 OnReadSegment
 (
 "
@@ -4810,6 +4819,9 @@ should
 be
 gone
 .
+Unused
+<
+<
 gHttpHandler
 -
 >
@@ -5164,6 +5176,9 @@ and
 start
 the
 dispatcher
+Unused
+<
+<
 gHttpHandler
 -
 >
@@ -5725,6 +5740,9 @@ countRead
 =
 0
 ;
+Unused
+<
+<
 Flush
 (
 count

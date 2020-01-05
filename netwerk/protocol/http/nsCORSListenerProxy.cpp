@@ -5807,6 +5807,9 @@ NS_ERROR_DOM_BAD_URI
 nsAutoCString
 method
 ;
+Unused
+<
+<
 http
 -
 >
@@ -6423,6 +6426,9 @@ seconds
 nsAutoCString
 headerVal
 ;
+Unused
+<
+<
 http
 -
 >
@@ -6733,6 +6739,9 @@ of
 method
 names
 .
+Unused
+<
+<
 http
 -
 >
@@ -6932,6 +6941,9 @@ of
 method
 names
 .
+Unused
+<
+<
 http
 -
 >
@@ -7540,6 +7552,9 @@ of
 method
 names
 .
+Unused
+<
+<
 http
 -
 >
@@ -7715,6 +7730,9 @@ of
 header
 names
 .
+Unused
+<
+<
 http
 -
 >
@@ -8047,6 +8065,9 @@ httpChannel
 NS_ERROR_UNEXPECTED
 )
 ;
+Unused
+<
+<
 httpChannel
 -
 >
