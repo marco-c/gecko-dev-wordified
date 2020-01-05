@@ -11626,6 +11626,7 @@ font_size_keyword
 :
 Option
 <
+(
 longhands
 :
 :
@@ -11633,6 +11634,8 @@ font_size
 :
 :
 KeywordSize
+f32
+)
 >
 }
 #
@@ -11685,6 +11688,7 @@ font_size_keyword
 :
 Option
 <
+(
 longhands
 :
 :
@@ -11692,6 +11696,8 @@ font_size
 :
 :
 KeywordSize
+f32
+)
 >
 %
 for
@@ -14148,11 +14154,15 @@ font_size_keyword
 :
 Some
 (
+(
 Default
 :
 :
 default
 (
+)
+1
+.
 )
 )
 }
@@ -15916,7 +15926,10 @@ if
 let
 Some
 (
+(
 kw
+fraction
+)
 )
 =
 inherited_style
@@ -15970,6 +15983,7 @@ SpecifiedValue
 Keyword
 (
 kw
+fraction
 )
 )
 ;
