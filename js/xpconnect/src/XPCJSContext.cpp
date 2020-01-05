@@ -10207,7 +10207,7 @@ FUZZING
 Preferences
 :
 :
-UnRegisterCallback
+UnregisterCallback
 (
 ReloadPrefsCallback
 "
