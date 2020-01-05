@@ -562,7 +562,7 @@ tracks
 it
 AddonManager
 .
-installAddonsFromWebpage
+installAddonFromWebpage
 (
 "
 application
@@ -577,9 +577,7 @@ selectedBrowser
 gBrowser
 .
 contentPrincipal
-[
 gInstall
-]
 )
 ;
 }
