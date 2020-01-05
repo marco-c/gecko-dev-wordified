@@ -1744,6 +1744,16 @@ video
 >
 image_height
 ;
+mRotation
+=
+ToSupportedRotation
+(
+video
+-
+>
+rotation
+)
+;
 if
 (
 video
