@@ -2263,7 +2263,7 @@ ComputedWidth
 =
 aComputedWidth
 ;
-LayoutFrameType
+FrameType
 frameType
 =
 mFrame
@@ -2278,7 +2278,7 @@ if
 frameType
 !
 =
-LayoutFrameType
+FrameType
 :
 :
 Viewport
@@ -2471,7 +2471,7 @@ ComputedHeight
 =
 aComputedHeight
 ;
-LayoutFrameType
+FrameType
 frameType
 =
 mFrame
@@ -2486,7 +2486,7 @@ if
 frameType
 !
 =
-LayoutFrameType
+FrameType
 :
 :
 Viewport
@@ -2730,7 +2730,7 @@ StyleText
 (
 )
 ;
-LayoutFrameType
+FrameType
 type
 =
 mFrame
@@ -2853,7 +2853,7 @@ if
 type
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 SVGForeignObject
@@ -3330,7 +3330,7 @@ if
 type
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 ColumnSet
@@ -3395,7 +3395,7 @@ eReplaced
 type
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Text
@@ -3615,13 +3615,13 @@ const
 ReflowInput
 *
 rs
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 Block
@@ -3633,7 +3633,7 @@ aFrameType
 #
 ifdef
 MOZ_XUL
-LayoutFrameType
+FrameType
 :
 :
 XULLabel
@@ -3644,7 +3644,7 @@ aFrameType
 |
 #
 endif
-LayoutFrameType
+FrameType
 :
 :
 Scroll
@@ -3730,7 +3730,7 @@ InitResizeFlags
 nsPresContext
 *
 aPresContext
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -6321,7 +6321,7 @@ ReflowInput
 :
 InitFrameType
 (
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -6426,7 +6426,7 @@ if
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Table
@@ -8535,7 +8535,7 @@ aFrame
 nsSize
 &
 aIntrinsicSize
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -8608,7 +8608,7 @@ if
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Image
@@ -9401,7 +9401,7 @@ cbrs
 nsHypotheticalPosition
 &
 aHypotheticalPos
-LayoutFrameType
+FrameType
 aFrameType
 )
 const
@@ -11879,7 +11879,7 @@ const
 LogicalSize
 &
 aCBSize
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -11926,7 +11926,7 @@ NS_ASSERTION
 aFrameType
 !
 =
-LayoutFrameType
+FrameType
 :
 :
 Table
@@ -15015,7 +15015,7 @@ rs
 mParentReflowInput
 )
 {
-LayoutFrameType
+FrameType
 frameType
 =
 rs
@@ -15059,7 +15059,7 @@ body
 html
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 Block
@@ -15071,7 +15071,7 @@ frameType
 #
 ifdef
 MOZ_XUL
-LayoutFrameType
+FrameType
 :
 :
 XULLabel
@@ -15082,7 +15082,7 @@ frameType
 |
 #
 endif
-LayoutFrameType
+FrameType
 :
 :
 Scroll
@@ -15207,7 +15207,7 @@ continue
 else
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 Canvas
@@ -15229,7 +15229,7 @@ calculation
 else
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 PageContent
@@ -15312,7 +15312,7 @@ height
 result
 =
 (
-LayoutFrameType
+FrameType
 :
 :
 PageContent
@@ -15392,7 +15392,7 @@ elements
 if
 (
 (
-LayoutFrameType
+FrameType
 :
 :
 Canvas
@@ -15403,7 +15403,7 @@ frameType
 |
 |
 (
-LayoutFrameType
+FrameType
 :
 :
 PageContent
@@ -15568,7 +15568,7 @@ canvas
 else
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 Block
@@ -16572,7 +16572,7 @@ const
 nsMargin
 *
 aPadding
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -16836,17 +16836,24 @@ cbrs
 =
 mCBReflowInput
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
-nullptr
-!
-=
 cbrs
 "
 no
 containing
 block
 "
+)
+;
+MOZ_ASSERT
+(
+mFrame
+-
+>
+GetParent
+(
+)
 )
 ;
 /
@@ -16911,7 +16918,7 @@ its
 /
 /
 content
-LayoutFrameType
+FrameType
 fType
 ;
 if
@@ -18334,9 +18341,6 @@ GetParent
 if
 (
 alignCB
-&
-&
-alignCB
 -
 >
 IsTableWrapperFrame
@@ -18570,7 +18574,7 @@ isBlock
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Legend
@@ -18600,7 +18604,7 @@ scrolledContent
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Scroll
@@ -18654,9 +18658,6 @@ eShrinkWrap
 }
 if
 (
-alignCB
-&
-&
 alignCB
 -
 >
@@ -18976,29 +18977,12 @@ StyleDisplay
 InlineTable
 &
 &
-(
-!
-alignCB
-|
-|
-(
 !
 alignCB
 -
 >
-IsFlexContainerFrame
+IsFlexOrGridContainer
 (
-)
-&
-&
-!
-alignCB
--
->
-IsGridContainerFrame
-(
-)
-)
 )
 )
 {
@@ -19098,7 +19082,7 @@ const
 LogicalSize
 &
 aPercentBasis
-LayoutFrameType
+FrameType
 aFrameType
 ReflowInputFlags
 aFlags
@@ -19910,7 +19894,7 @@ if
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Table
@@ -20067,7 +20051,7 @@ if
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Scrollbar
@@ -20276,7 +20260,7 @@ ReflowInput
 :
 CalculateBlockSideMargins
 (
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -20808,7 +20792,7 @@ if
 aFrameType
 =
 =
-LayoutFrameType
+FrameType
 :
 :
 Table
@@ -22176,7 +22160,7 @@ const
 LogicalSize
 &
 aPercentBasis
-LayoutFrameType
+FrameType
 aFrameType
 )
 {
@@ -22248,7 +22232,7 @@ tables
 .
 if
 (
-LayoutFrameType
+FrameType
 :
 :
 TableRowGroup
@@ -22257,7 +22241,7 @@ TableRowGroup
 aFrameType
 |
 |
-LayoutFrameType
+FrameType
 :
 :
 TableColGroup
@@ -22266,7 +22250,7 @@ TableColGroup
 aFrameType
 |
 |
-LayoutFrameType
+FrameType
 :
 :
 TableRow
@@ -22275,7 +22259,7 @@ TableRow
 aFrameType
 |
 |
-LayoutFrameType
+FrameType
 :
 :
 TableCol
