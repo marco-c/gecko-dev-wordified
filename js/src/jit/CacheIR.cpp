@@ -192,8 +192,6 @@ HandleValue
 val
 HandleValue
 idVal
-MutableHandleValue
-res
 )
 :
 writer
@@ -215,10 +213,6 @@ val
 idVal_
 (
 idVal
-)
-res_
-(
-res
 )
 engine_
 (

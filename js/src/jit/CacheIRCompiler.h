@@ -1879,6 +1879,16 @@ allocator
 writer_
 )
 {
+MOZ_ASSERT
+(
+!
+writer
+.
+failed
+(
+)
+)
+;
 }
 MOZ_MUST_USE
 bool
