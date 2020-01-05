@@ -4055,10 +4055,10 @@ OpenSharedHandle
 )
 )
 {
-gfxWindowsPlatform
+DeviceManagerDx
 :
 :
-GetPlatform
+Get
 (
 )
 -
