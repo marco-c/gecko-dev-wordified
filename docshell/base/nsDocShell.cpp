@@ -4585,6 +4585,14 @@ mDefaultScrollbarPref
 Scrollbar_Auto
 Scrollbar_Auto
 )
+mReferrerPolicy
+(
+0
+)
+mFailedLoadType
+(
+0
+)
 mTreeOwner
 (
 nullptr
@@ -4785,6 +4793,10 @@ mIsPrintingOrPP
 false
 )
 mSavingOldViewer
+(
+false
+)
+mDynamicallyCreated
 (
 false
 )

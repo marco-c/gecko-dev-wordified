@@ -609,6 +609,10 @@ mParent
 (
 nullptr
 )
+mProgressStateFlags
+(
+0
+)
 mCurrentSelfProgress
 (
 0
