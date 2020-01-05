@@ -657,8 +657,13 @@ method
 *
 /
 nscoord
-GetConsumedBSize
+ConsumedBSize
 (
+mozilla
+:
+:
+WritingMode
+aWM
 )
 const
 ;

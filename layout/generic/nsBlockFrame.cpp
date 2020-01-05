@@ -7249,8 +7249,9 @@ GetWritingMode
 nscoord
 consumedBSize
 =
-GetConsumedBSize
+ConsumedBSize
 (
+wm
 )
 ;
 nscoord
@@ -11481,7 +11482,7 @@ GetEffectiveComputedBSize
 aReflowInput
 aState
 .
-GetConsumedBSize
+ConsumedBSize
 (
 )
 )

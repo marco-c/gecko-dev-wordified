@@ -14721,7 +14721,7 @@ the
 last
 row
 the
-GetConsumedBSize
+ConsumedBSize
 (
 )
 .
@@ -44357,8 +44357,9 @@ else
 {
 consumedBSize
 =
-GetConsumedBSize
+ConsumedBSize
 (
+wm
 )
 ;
 gridReflowInput
