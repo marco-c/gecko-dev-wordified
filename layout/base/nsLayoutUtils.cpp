@@ -20359,6 +20359,15 @@ nsDisplayItem
 HitTestState
 hitTestState
 ;
+builder
+.
+SetHitTestShouldStopAtFirstOpaque
+(
+aFlags
+&
+ONLY_VISIBLE
+)
+;
 list
 .
 HitTest
