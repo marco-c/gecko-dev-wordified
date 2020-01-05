@@ -180,7 +180,6 @@ specified
 {
 self
 HorizontalDirection
-SizeKeyword
 VerticalDirection
 }
 ;
@@ -207,6 +206,16 @@ url
 :
 :
 SpecifiedUrl
+;
+pub
+use
+values
+:
+:
+specified
+:
+:
+SizeKeyword
 ;
 impl
 ToComputedValue
