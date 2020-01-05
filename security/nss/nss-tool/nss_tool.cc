@@ -144,11 +144,9 @@ path
 directory
 >
 ]
--
--
-list
--
-certs
+<
+commands
+>
 "
 <
 <
