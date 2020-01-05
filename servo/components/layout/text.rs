@@ -3053,7 +3053,7 @@ font_size
 match
 style
 .
-get_inheritedbox
+get_inheritedtext
 (
 )
 .

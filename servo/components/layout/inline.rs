@@ -5850,7 +5850,7 @@ style
 (
 )
 .
-get_inheritedtext
+get_text
 (
 )
 .
