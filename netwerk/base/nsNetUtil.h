@@ -1075,17 +1075,6 @@ nullptr
 )
 ;
 nsresult
-NS_GetIsDocumentChannel
-(
-nsIChannel
-*
-aChannel
-bool
-*
-aIsDocument
-)
-;
-nsresult
 NS_MakeAbsoluteURI
 (
 nsACString
