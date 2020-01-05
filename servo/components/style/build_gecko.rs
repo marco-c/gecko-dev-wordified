@@ -4305,6 +4305,9 @@ RawGeckoElement
 RawGeckoKeyframeList
 "
 "
+RawGeckoComputedKeyframeValuesList
+"
+"
 RawGeckoNode
 "
 "
@@ -4663,6 +4666,9 @@ RawGeckoAnimationValueList
 "
 "
 RawGeckoKeyframeList
+"
+"
+RawGeckoComputedKeyframeValuesList
 "
 ]
 ;
