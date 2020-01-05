@@ -183,10 +183,12 @@ allocate
 "
 "
 .
-to_string
+into_string
 (
 )
 even
+/
+/
 for
 Some
 .
@@ -212,7 +214,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 }

@@ -370,7 +370,7 @@ watched_name
 =
 name
 .
-to_string
+into_string
 (
 )
 ;

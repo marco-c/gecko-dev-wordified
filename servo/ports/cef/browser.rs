@@ -790,7 +790,7 @@ servo
 jpg
 "
 .
-to_string
+into_string
 (
 )
 )
