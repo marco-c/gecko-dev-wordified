@@ -203,6 +203,7 @@ aSize
 int
 Write
 (
+const
 void
 *
 aBuffer
@@ -485,6 +486,7 @@ nsNamedPipeDataObserver
 :
 Write
 (
+const
 void
 *
 aBuffer
