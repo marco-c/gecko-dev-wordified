@@ -14308,6 +14308,13 @@ Arc
 ServoComputedValues
 >
 pub
+selected_style
+:
+Arc
+<
+ServoComputedValues
+>
+pub
 pseudo
 :
 PseudoElementType

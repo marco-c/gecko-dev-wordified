@@ -83,7 +83,7 @@ test_size_of_fragment
 let
 expected
 =
-160
+168
 ;
 let
 actual
