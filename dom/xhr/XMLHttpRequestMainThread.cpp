@@ -1016,7 +1016,7 @@ override
 mWindow
 -
 >
-NewResume
+Resume
 (
 )
 ;
@@ -16670,7 +16670,7 @@ eEvents
 topInner
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;

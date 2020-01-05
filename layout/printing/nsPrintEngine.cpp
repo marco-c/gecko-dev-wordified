@@ -27216,7 +27216,7 @@ Unblock
 window
 -
 >
-NewResume
+Resume
 (
 )
 ;
@@ -27367,7 +27367,7 @@ Block
 window
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;

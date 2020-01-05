@@ -51063,7 +51063,7 @@ tree
 privWinInner
 -
 >
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 ;
@@ -51101,7 +51101,7 @@ frames
 privWinInner
 -
 >
-NewResume
+Resume
 (
 )
 ;

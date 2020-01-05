@@ -11124,7 +11124,7 @@ NS_ERROR_FAILURE
 inner
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;
@@ -11179,7 +11179,7 @@ NS_ERROR_FAILURE
 inner
 -
 >
-NewResume
+Resume
 (
 )
 ;

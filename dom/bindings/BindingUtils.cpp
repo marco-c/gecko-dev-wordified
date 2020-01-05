@@ -16374,7 +16374,7 @@ aWindow
 {
 /
 /
-Suspend
+Freeze
 the
 window
 and
@@ -16388,7 +16388,7 @@ too
 aWindow
 -
 >
-NewFreeze
+Freeze
 (
 )
 ;

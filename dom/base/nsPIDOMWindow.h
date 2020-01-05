@@ -1257,7 +1257,7 @@ default
 .
 virtual
 bool
-NewIsSuspended
+IsSuspended
 (
 )
 const
@@ -1266,7 +1266,7 @@ const
 ;
 virtual
 bool
-NewIsFrozen
+IsFrozen
 (
 )
 const
@@ -4826,12 +4826,12 @@ Resume
 calls
 .
 void
-NewSuspend
+Suspend
 (
 )
 ;
 void
-NewResume
+Resume
 (
 )
 ;
@@ -4935,12 +4935,12 @@ Thaw
 calls
 .
 void
-NewFreeze
+Freeze
 (
 )
 ;
 void
-NewThaw
+Thaw
 (
 )
 ;
@@ -4965,7 +4965,7 @@ current
 window
 .
 void
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 ;
