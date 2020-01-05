@@ -1205,14 +1205,6 @@ set_preferences
 "
 marionette
 .
-enabled
-"
-:
-True
-                                      
-"
-marionette
-.
 port
 "
 :
