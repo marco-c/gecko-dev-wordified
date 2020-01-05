@@ -802,7 +802,7 @@ ftp
 XXXManishearth
 handle
 these
-fail
+panic
 !
 (
 "

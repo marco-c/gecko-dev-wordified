@@ -1090,7 +1090,7 @@ target
 =
 msg
 .
-find
+get
 (
 &
 "
@@ -1456,6 +1456,13 @@ deriving
 Encodable
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 struct
 AutoMargins
 {
@@ -1678,7 +1685,7 @@ target
 =
 msg
 .
-find
+get
 (
 &
 "
@@ -1754,7 +1761,7 @@ auto_margins
 =
 msg
 .
-find
+get
 (
 &
 "

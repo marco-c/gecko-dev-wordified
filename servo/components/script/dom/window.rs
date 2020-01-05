@@ -2771,8 +2771,6 @@ page
 url
 is
 {
-:
-?
 }
 "
 base_url

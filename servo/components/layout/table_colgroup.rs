@@ -69,7 +69,7 @@ contexts
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -474,7 +474,7 @@ span
 _
 =
 >
-fail
+panic
 !
 (
 "

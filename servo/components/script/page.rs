@@ -2838,7 +2838,7 @@ Disconnected
 =
 >
 {
-fail
+panic
 !
 (
 "
@@ -2872,7 +2872,7 @@ joined
 None
 =
 >
-fail
+panic
 !
 (
 "
@@ -3105,8 +3105,6 @@ reflow
 for
 goal
 {
-:
-?
 }
 "
 goal

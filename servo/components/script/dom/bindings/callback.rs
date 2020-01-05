@@ -61,7 +61,7 @@ MPL
 [
 deny
 (
-missing_doc
+missing_docs
 )
 ]
 /

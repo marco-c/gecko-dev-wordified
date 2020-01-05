@@ -93,7 +93,7 @@ std
 mem
 :
 :
-init
+zeroed
 as
 i
 ;
@@ -1078,7 +1078,7 @@ int
 <
 0
 {
-fail
+panic
 !
 (
 "
@@ -1736,7 +1736,7 @@ index
 uint
 )
 {
-fail
+panic
 !
 (
 "

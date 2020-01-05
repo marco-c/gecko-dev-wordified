@@ -271,7 +271,7 @@ scheme_data
 _
 =
 >
-fail
+panic
 !
 (
 "

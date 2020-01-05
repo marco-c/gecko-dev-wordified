@@ -63,7 +63,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 cssparser
@@ -196,10 +196,27 @@ Max
 (
 T
 )
+/
+/
 Eq
 (
 T
 )
+/
+/
+FIXME
+:
+Implement
+parsing
+support
+for
+equality
+then
+re
+-
+enable
+this
+.
 }
 impl
 <
@@ -257,6 +274,8 @@ value
 *
 width
 }
+/
+/
 Eq
 (
 ref
@@ -3818,7 +3837,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -3967,7 +3986,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4131,7 +4150,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4285,7 +4304,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4439,7 +4458,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4606,7 +4625,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4650,7 +4669,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4816,7 +4835,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -4860,7 +4879,7 @@ from_px
 _
 =
 >
-fail
+panic
 !
 (
 "

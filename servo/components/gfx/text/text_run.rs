@@ -1681,8 +1681,6 @@ iterating
 outer
 range
 {
-:
-?
 }
 "
 range
@@ -1717,13 +1715,9 @@ debug
 iterated
 on
 {
-:
-?
 }
 [
 {
-:
-?
 }
 ]
 "

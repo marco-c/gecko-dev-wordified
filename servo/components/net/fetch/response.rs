@@ -113,7 +113,7 @@ std
 ascii
 :
 :
-OwnedStrAsciiExt
+OwnedAsciiExt
 ;
 use
 std

@@ -219,7 +219,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 string_cache
@@ -238,6 +238,10 @@ JSTraceable
 {
 fn
 filter
+<
+'
+a
+>
 (
 &
 self
@@ -245,12 +249,16 @@ elem
 :
 JSRef
 <
+'
+a
 Element
 >
 root
 :
 JSRef
 <
+'
+a
 Node
 >
 )

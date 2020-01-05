@@ -61,7 +61,7 @@ MPL
 [
 deny
 (
-missing_doc
+missing_docs
 )
 ]
 /
@@ -643,7 +643,7 @@ value
 =
 0
 {
-fail
+panic
 !
 (
 "
@@ -1716,7 +1716,7 @@ is_null
 (
 )
 {
-fail
+panic
 !
 (
 "
@@ -2144,7 +2144,7 @@ is_null
 (
 )
 {
-fail
+panic
 !
 (
 "
@@ -2399,7 +2399,7 @@ value
 =
 0
 {
-fail
+panic
 !
 (
 "

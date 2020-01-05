@@ -72,9 +72,6 @@ std
 collections
 :
 :
-hashmap
-:
-:
 HashMap
 ;
 use
@@ -364,7 +361,7 @@ namespaces
 .
 prefix_map
 .
-swap
+insert
 (
 prefix
 ns

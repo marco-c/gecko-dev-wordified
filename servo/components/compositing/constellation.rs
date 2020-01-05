@@ -328,9 +328,6 @@ std
 collections
 :
 :
-hashmap
-:
-:
 {
 HashMap
 HashSet
@@ -1941,8 +1938,6 @@ debug
 navigating
 to
 {
-:
-?
 }
 "
 frame_tree
@@ -3369,12 +3364,8 @@ message
 from
 pipeline
 {
-:
-?
 }
 {
-:
-?
 }
 "
 pipeline_id
@@ -3492,7 +3483,7 @@ self
 .
 pipelines
 .
-find
+get
 (
 &
 pipeline_id
@@ -3957,17 +3948,11 @@ Received
 frame
 rect
 {
-:
-?
 }
 from
 {
-:
-?
 }
 {
-:
-?
 }
 "
 rect
@@ -4662,7 +4647,7 @@ is_empty
 (
 )
 {
-fail
+panic
 !
 (
 "
@@ -4742,7 +4727,7 @@ self
 .
 pipelines
 .
-find
+get
 (
 &
 source_pipeline_id
@@ -4878,8 +4863,6 @@ origin
 iframe
 at
 {
-:
-?
 }
 "
 url
@@ -4909,8 +4892,6 @@ origin
 iframe
 at
 {
-:
-?
 }
 "
 url
@@ -4948,7 +4929,7 @@ self
 .
 pending_sizes
 .
-pop
+remove
 (
 &
 (
@@ -5405,8 +5386,6 @@ message
 to
 navigate
 {
-:
-?
 }
 "
 direction
@@ -5717,8 +5696,6 @@ debug
 "
 Renderer
 {
-:
-?
 }
 ready
 to
@@ -6032,8 +6009,6 @@ revoking
 permission
 from
 {
-:
-?
 }
 "
 revoke_id
@@ -6173,18 +6148,12 @@ Constellation
 :
 replacing
 {
-:
-?
 }
 with
 {
-:
-?
 }
 in
 {
-:
-?
 }
 "
 revoke_id
@@ -6297,7 +6266,7 @@ self
 .
 pending_sizes
 .
-pop
+remove
 (
 &
 (
@@ -6670,8 +6639,6 @@ outer
 frame
 (
 {
-:
-?
 }
 )
 "

@@ -516,16 +516,10 @@ Some
 (
 MediaType
 {
-type_
-:
 ref
 type_
-subtype
-:
 ref
 subtype
-parameters
-:
 ref
 parameters
 }
@@ -1722,7 +1716,7 @@ is_err
 _
 =
 >
-fail
+panic
 !
 (
 "

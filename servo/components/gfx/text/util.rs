@@ -340,7 +340,7 @@ CharIndex
 }
 output_text
 .
-push_char
+push
 (
 ch
 )
@@ -454,7 +454,7 @@ kept
 char
 output_text
 .
-push_char
+push
 (
 ch
 )
@@ -496,7 +496,7 @@ kept
 char
 output_text
 .
-push_char
+push
 (
 '
 '

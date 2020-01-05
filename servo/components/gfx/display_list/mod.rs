@@ -273,12 +273,6 @@ use
 collections
 :
 :
-Deque
-;
-use
-collections
-:
-:
 dlist
 :
 :
@@ -1380,7 +1374,7 @@ self
 .
 list
 .
-push
+push_back
 (
 item
 )
@@ -3184,8 +3178,6 @@ Drawing
 image
 at
 {
-:
-?
 }
 .
 "

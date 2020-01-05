@@ -337,8 +337,8 @@ task_state
 :
 :
 {
-Script
-InWorker
+SCRIPT
+IN_WORKER
 }
 ;
 use
@@ -632,9 +632,9 @@ task_state
 :
 initialize
 (
-Script
+SCRIPT
 |
-InWorker
+IN_WORKER
 )
 ;
 let
@@ -1057,7 +1057,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "

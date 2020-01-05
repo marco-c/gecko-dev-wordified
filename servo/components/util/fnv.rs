@@ -225,6 +225,8 @@ FnvHasher
 fn
 hash
 <
+Sized
+?
 T
 :
 Hash

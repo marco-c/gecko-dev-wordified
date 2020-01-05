@@ -72,7 +72,7 @@ any
 :
 :
 {
-AnyPrivate
+Any
 AnyRefExt
 AnyMutRefExt
 }
@@ -82,9 +82,6 @@ std
 :
 :
 collections
-:
-:
-hashmap
 :
 :
 HashMap
@@ -191,8 +188,6 @@ immutable
 pub
 trait
 Actor
-:
-AnyPrivate
 {
 fn
 handle_message
@@ -396,6 +391,8 @@ realistic
 return
 values
 .
+unsafe
+{
 let
 t
 =
@@ -412,9 +409,22 @@ T
 )
 ;
 let
-boxed
+this
+:
+&
+Actor
 =
+transmute
+(
 self
+)
+;
+let
+boxed
+:
+TypeId
+=
+this
 .
 get_type_id
 (
@@ -424,6 +434,7 @@ t
 =
 =
 boxed
+}
 }
 fn
 downcast_ref
@@ -737,7 +748,7 @@ borrow
 (
 )
 .
-find
+get
 (
 &
 script_id
@@ -851,7 +862,7 @@ to_string
 ;
 }
 }
-fail
+panic
 !
 (
 "
@@ -1146,7 +1157,7 @@ self
 .
 actors
 .
-find
+get
 (
 &
 name
@@ -1294,7 +1305,7 @@ self
 .
 actors
 .
-find_mut
+get_mut
 (
 &
 name
@@ -1387,7 +1398,7 @@ to
 =
 msg
 .
-find
+get
 (
 &
 "
@@ -1416,7 +1427,7 @@ self
 .
 actors
 .
-find
+get
 (
 &
 to
@@ -1461,7 +1472,7 @@ msg_type
 =
 msg
 .
-find
+get
 (
 &
 "

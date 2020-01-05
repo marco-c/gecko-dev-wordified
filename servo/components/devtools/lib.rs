@@ -217,10 +217,6 @@ devtools_traits
 ;
 extern
 crate
-debug
-;
-extern
-crate
 serialize
 ;
 extern
@@ -532,6 +528,16 @@ TcpListener
 :
 bind
 (
+format
+!
+(
+"
+{
+}
+:
+{
+}
+"
 "
 127
 .
@@ -542,6 +548,11 @@ bind
 1
 "
 port
+)
+.
+as_slice
+(
+)
 )
 ;
 /
@@ -680,8 +691,6 @@ connection
 established
 to
 {
-:
-?
 }
 "
 stream
@@ -697,7 +706,6 @@ unwrap
 ;
 {
 let
-mut
 actors
 =
 actors

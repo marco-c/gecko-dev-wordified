@@ -61,7 +61,7 @@ MPL
 [
 deny
 (
-missing_doc
+missing_docs
 )
 ]
 /
@@ -571,9 +571,6 @@ std
 :
 :
 collections
-:
-:
-hashmap
 :
 :
 HashMap

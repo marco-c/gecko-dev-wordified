@@ -297,15 +297,15 @@ default
 :
 Default
 ;
-static
-DefaultWidth
+const
+DEFAULT_WIDTH
 :
 u32
 =
 300
 ;
-static
-DefaultHeight
+const
+DEFAULT_HEIGHT
 :
 u32
 =
@@ -428,7 +428,7 @@ Cell
 :
 new
 (
-DefaultWidth
+DEFAULT_WIDTH
 )
 height
 :
@@ -437,7 +437,7 @@ Cell
 :
 new
 (
-DefaultHeight
+DEFAULT_HEIGHT
 )
 }
 }
@@ -888,7 +888,7 @@ width
 .
 set
 (
-DefaultWidth
+DEFAULT_WIDTH
 )
 ;
 true
@@ -910,7 +910,7 @@ height
 .
 set
 (
-DefaultHeight
+DEFAULT_HEIGHT
 )
 ;
 true
@@ -1079,7 +1079,7 @@ chars
 .
 unwrap_or
 (
-DefaultWidth
+DEFAULT_WIDTH
 )
 )
 ;
@@ -1117,7 +1117,7 @@ chars
 .
 unwrap_or
 (
-DefaultHeight
+DEFAULT_HEIGHT
 )
 )
 ;

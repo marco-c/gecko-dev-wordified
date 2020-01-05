@@ -510,7 +510,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 std
@@ -2051,7 +2051,7 @@ is_htmltablecellelement
 (
 )
 {
-fail
+panic
 !
 (
 "
@@ -2131,7 +2131,7 @@ is_htmlinputelement
 (
 )
 {
-fail
+panic
 !
 (
 "
@@ -4782,7 +4782,7 @@ value
 _
 =
 >
-fail
+panic
 !
 (
 "
@@ -8916,7 +8916,7 @@ clone
 _
 =
 >
-fail
+panic
 !
 (
 "

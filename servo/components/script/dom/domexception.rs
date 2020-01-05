@@ -485,7 +485,7 @@ error
 FailureUnknown
 =
 >
-fail
+panic
 !
 (
 )

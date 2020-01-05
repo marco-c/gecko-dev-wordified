@@ -3075,7 +3075,7 @@ append
 CGGeneric
 (
 '
-fail
+panic
 !
 (
 "
@@ -5386,7 +5386,7 @@ default
 (
                 
 "
-static
+const
 data
 :
 [
@@ -8945,7 +8945,7 @@ return
 (
 (
 "
-static
+const
 %
 s
 :
@@ -9437,7 +9437,7 @@ m
             
 return
 "
-static
+const
 %
 s_name
 :
@@ -10040,7 +10040,7 @@ name
             
 return
 "
-static
+const
 %
 s_name
 :
@@ -10341,7 +10341,7 @@ name
             
 return
 "
-static
+const
 %
 s_name
 :
@@ -10869,11 +10869,11 @@ non_camel_case_types
 '
             
 '
-non_uppercase_statics
+non_upper_case_globals
 '
             
 '
-unnecessary_parens
+unused_parens
 '
             
 '
@@ -10881,7 +10881,7 @@ unused_imports
 '
             
 '
-unused_variable
+unused_variables
 '
             
 '
@@ -10893,7 +10893,7 @@ unused_mut
 '
             
 '
-dead_assignment
+unused_assignments
 '
             
 '
@@ -11531,7 +11531,7 @@ return
 "
 "
 "
-static
+const
 Class_name
 :
 [
@@ -12168,7 +12168,7 @@ return
 "
 "
 "
-static
+const
 PrototypeClassName__
 :
 [
@@ -12430,7 +12430,7 @@ return
 "
 "
 "
-static
+const
 InterfaceObjectClass
 :
 JSClass
@@ -18563,7 +18563,7 @@ append
 CGGeneric
 (
 '
-fail
+panic
 !
 (
 "
@@ -21368,7 +21368,7 @@ n
 "
                 
 "
-static
+const
 %
 s
 :
@@ -22182,7 +22182,7 @@ valuelist
 s
 }
 pub
-static
+const
 strings
 :
 &
@@ -22569,7 +22569,7 @@ CGGeneric
 (
 "
 pub
-static
+const
 %
 s
 :
@@ -42891,14 +42891,11 @@ conversion
 wrapForType
 (
 "
-*
 argv
-.
-get_mut
-(
+[
 %
 s
-)
+]
 "
 %
 jsvalIndex
@@ -43102,14 +43099,11 @@ n
 "
                 
 "
-*
 argv
-.
-get_mut
-(
+[
 %
 d
-)
+]
 =
 UndefinedValue
 (
@@ -44872,7 +44866,7 @@ CGGeneric
 (
 "
 pub
-static
+const
 MAX_PROTO_CHAIN_LENGTH
 :
 uint

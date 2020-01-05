@@ -621,7 +621,7 @@ _
 )
 =
 >
-fail
+panic
 !
 (
 "
@@ -4920,7 +4920,7 @@ mod
 NodeFilterConstants
 {
 pub
-static
+const
 FILTER_ACCEPT
 :
 u16
@@ -4928,7 +4928,7 @@ u16
 1
 ;
 pub
-static
+const
 FILTER_REJECT
 :
 u16
@@ -4936,7 +4936,7 @@ u16
 2
 ;
 pub
-static
+const
 FILTER_SKIP
 :
 u16
@@ -4944,7 +4944,7 @@ u16
 3
 ;
 pub
-static
+const
 SHOW_ALL
 :
 u32
@@ -4952,7 +4952,7 @@ u32
 4294967295
 ;
 pub
-static
+const
 SHOW_ELEMENT
 :
 u32
@@ -4960,7 +4960,7 @@ u32
 1
 ;
 pub
-static
+const
 SHOW_ATTRIBUTE
 :
 u32
@@ -4968,7 +4968,7 @@ u32
 2
 ;
 pub
-static
+const
 SHOW_TEXT
 :
 u32
@@ -4976,7 +4976,7 @@ u32
 4
 ;
 pub
-static
+const
 SHOW_CDATA_SECTION
 :
 u32
@@ -4984,7 +4984,7 @@ u32
 8
 ;
 pub
-static
+const
 SHOW_ENTITY_REFERENCE
 :
 u32
@@ -4992,7 +4992,7 @@ u32
 16
 ;
 pub
-static
+const
 SHOW_ENTITY
 :
 u32
@@ -5000,7 +5000,7 @@ u32
 32
 ;
 pub
-static
+const
 SHOW_PROCESSING_INSTRUCTION
 :
 u32
@@ -5008,7 +5008,7 @@ u32
 64
 ;
 pub
-static
+const
 SHOW_COMMENT
 :
 u32
@@ -5016,7 +5016,7 @@ u32
 128
 ;
 pub
-static
+const
 SHOW_DOCUMENT
 :
 u32
@@ -5024,7 +5024,7 @@ u32
 256
 ;
 pub
-static
+const
 SHOW_DOCUMENT_TYPE
 :
 u32
@@ -5032,7 +5032,7 @@ u32
 512
 ;
 pub
-static
+const
 SHOW_DOCUMENT_FRAGMENT
 :
 u32
@@ -5040,7 +5040,7 @@ u32
 1024
 ;
 pub
-static
+const
 SHOW_NOTATION
 :
 u32

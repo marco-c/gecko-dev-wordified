@@ -453,7 +453,7 @@ succeeded
 (
 )
 {
-fail
+panic
 !
 (
 "

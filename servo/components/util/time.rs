@@ -66,9 +66,6 @@ use
 collections
 :
 :
-treemap
-:
-:
 TreeMap
 ;
 use
@@ -1112,7 +1109,7 @@ self
 .
 buckets
 .
-find_mut
+get_mut
 (
 &
 k

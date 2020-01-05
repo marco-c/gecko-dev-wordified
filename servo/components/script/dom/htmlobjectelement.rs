@@ -705,7 +705,7 @@ str
 bool
 {
 static
-types
+TYPES
 :
 &
 '
@@ -742,7 +742,7 @@ jpeg
 "
 ]
 ;
-types
+TYPES
 .
 iter
 (

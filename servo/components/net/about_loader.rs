@@ -222,7 +222,7 @@ crash
 "
 =
 >
-fail
+panic
 !
 (
 "

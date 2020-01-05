@@ -63,7 +63,7 @@ std
 ascii
 :
 :
-StrAsciiExt
+AsciiExt
 ;
 use
 cssparser

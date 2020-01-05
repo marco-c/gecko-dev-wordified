@@ -69,7 +69,7 @@ margins
 [
 deny
 (
-unsafe_block
+unsafe_blocks
 )
 ]
 use
@@ -1410,7 +1410,7 @@ with
 AccumulatingMarginIn
 above
 .
-fail
+panic
 !
 (
 "
