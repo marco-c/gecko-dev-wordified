@@ -3535,6 +3535,13 @@ macro
 (
 Other
 MallocHeap
+jitZone
+)
+\
+macro
+(
+Other
+MallocHeap
 baselineStubsOptimized
 )
 \

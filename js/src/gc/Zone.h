@@ -1265,6 +1265,9 @@ size_t
 typePool
 size_t
 *
+jitZone
+size_t
+*
 baselineStubsOptimized
 size_t
 *
