@@ -225,7 +225,6 @@ depending
 *
 on
 whether
-we
 intend
 a
 horizontal
@@ -395,13 +394,13 @@ We
 need
 to
 sample
-aLeftLobe
+aLeftLove
 pixels
 to
 the
 left
 and
-aRightLobe
+aRight
 pixels
 to
 /
