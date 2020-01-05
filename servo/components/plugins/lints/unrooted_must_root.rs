@@ -109,15 +109,6 @@ use
 syntax
 :
 :
-attr
-:
-:
-AttrMetaMethods
-;
-use
-syntax
-:
-:
 {
 ast
 codemap

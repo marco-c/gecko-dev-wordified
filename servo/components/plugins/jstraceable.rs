@@ -529,6 +529,9 @@ LifetimeBounds
 empty
 (
 )
+supports_unions
+:
+true
 methods
 :
 vec
