@@ -635,7 +635,7 @@ mRawPtr
 ;
 }
 }
-explicit
+MOZ_IMPLICIT
 RefPtr
 (
 decltype
