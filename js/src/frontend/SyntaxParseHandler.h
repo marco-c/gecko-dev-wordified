@@ -2039,6 +2039,10 @@ Node
 heritage
 Node
 methodBlock
+const
+TokenPos
+&
+pos
 )
 {
 return

@@ -7930,6 +7930,10 @@ heritage
 ParseNode
 *
 methodsOrBlock
+const
+TokenPos
+&
+pos
 )
 :
 TernaryNode
@@ -7939,6 +7943,7 @@ JSOP_NOP
 names
 heritage
 methodsOrBlock
+pos
 )
 {
 MOZ_ASSERT_IF
