@@ -195,9 +195,9 @@ StructuredCloneFile
 (
 )
 :
-mMutable
+mType
 (
-false
+eBlob
 )
 {
 MOZ_COUNT_CTOR
@@ -274,12 +274,12 @@ mFileInfo
 this
 -
 >
-mMutable
+mType
 =
 =
 aOther
 .
-mMutable
+mType
 ;
 }
 inline
