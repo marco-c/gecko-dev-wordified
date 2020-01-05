@@ -475,8 +475,7 @@ consumed
 /
 /
 or
--
-1
+0
 if
 no
 such
