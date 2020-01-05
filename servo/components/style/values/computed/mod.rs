@@ -1484,10 +1484,11 @@ value
 derive
 (
 Clone
-PartialEq
-PartialOrd
 Copy
 Debug
+HasViewportPercentage
+PartialEq
+PartialOrd
 )
 ]
 #

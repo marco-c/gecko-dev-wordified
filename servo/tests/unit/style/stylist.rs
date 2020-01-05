@@ -1961,7 +1961,7 @@ LAYOUT
 let
 (
 map
-shared_lock
+_shared_lock
 )
 =
 get_mock_map

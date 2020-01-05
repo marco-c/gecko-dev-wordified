@@ -87,10 +87,7 @@ style
 restyle_hints
 :
 :
-{
 DependencySet
-RESTYLE_LATER_SIBLINGS
-}
 ;
 use
 style

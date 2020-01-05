@@ -1362,12 +1362,6 @@ style_traits
 :
 ToCss
 ;
-use
-values
-:
-:
-HasViewportPercentage
-;
 pub
 const
 NORMAL
