@@ -2925,6 +2925,27 @@ stack
 "
         
 if
+hasattr
+(
+options
+"
+topsrcdir
+"
+)
+:
+            
+browserEnv
+[
+"
+MOZ_DEVELOPER_REPO_DIR
+"
+]
+=
+options
+.
+topsrcdir
+        
+if
 mozinfo
 .
 info
