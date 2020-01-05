@@ -1040,10 +1040,9 @@ CSSStyleSheet
 )
 ;
 void
-ClearRuleCascadesInternal
+ClearRuleCascades
 (
 )
-override
 ;
 /
 /
