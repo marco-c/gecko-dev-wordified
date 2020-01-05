@@ -30343,7 +30343,7 @@ alloc
 )
 LWasmStackArgI64
 (
-useInt64OrConstantAtStart
+useInt64RegisterOrConstantAtStart
 (
 ins
 -
