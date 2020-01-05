@@ -1844,7 +1844,10 @@ self
 .
 color
 .
-parsed
+to_computed_value
+(
+context
+)
 position
 :
 match

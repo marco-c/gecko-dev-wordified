@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-cssparser
-:
-:
-Color
-;
-use
 style_traits
 :
 :
@@ -77,6 +71,7 @@ specified
 :
 {
 BorderStyle
+Color
 CSSColor
 }
 ;

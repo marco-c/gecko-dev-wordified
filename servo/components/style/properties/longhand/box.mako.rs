@@ -701,13 +701,7 @@ bool
 _error_reporter
 :
 &
-mut
-StdBox
-<
 ParseErrorReporter
-+
-Send
->
 )
 {
 longhands

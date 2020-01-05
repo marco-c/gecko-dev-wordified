@@ -5907,7 +5907,10 @@ color
 |
 color
 .
-parsed
+to_computed_value
+(
+context
+)
 )
 .
 unwrap_or

@@ -695,17 +695,11 @@ inherit_from
 parent
 :
 &
-Arc
-<
 Self
->
 default
 :
 &
-Arc
-<
 Self
->
 )
 -
 >
