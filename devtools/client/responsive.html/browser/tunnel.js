@@ -2189,8 +2189,6 @@ newURI
 detail
 .
 url
-null
-null
 )
 ;
 /

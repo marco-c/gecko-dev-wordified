@@ -146,8 +146,6 @@ design
 .
 css
 "
-null
-null
 )
 ;
 var

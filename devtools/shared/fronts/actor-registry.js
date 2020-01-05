@@ -218,8 +218,6 @@ io
 newURI
 (
 uri
-null
-null
 )
 ;
 }

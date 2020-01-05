@@ -4879,8 +4879,6 @@ newURI
 project
 .
 location
-null
-null
 )
 ;
 let
@@ -4895,8 +4893,6 @@ newURI
 manifestURLObject
 .
 prePath
-null
-null
 )
 ;
 let
@@ -5320,8 +5316,6 @@ newURI
 project
 .
 location
-null
-null
 )
 ;
 let
@@ -5336,8 +5330,6 @@ newURI
 manifestURL
 .
 prePath
-null
-null
 )
 ;
 project

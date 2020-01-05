@@ -1196,8 +1196,6 @@ io
 newURI
 (
 path
-null
-null
 )
 ;
 let

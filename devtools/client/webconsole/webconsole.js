@@ -9718,8 +9718,6 @@ newURI
 scriptError
 .
 sourceName
-null
-null
 )
 .
 QueryInterface

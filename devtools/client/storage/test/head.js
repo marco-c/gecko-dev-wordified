@@ -5612,8 +5612,6 @@ nsIIOService
 newURI
 (
 url
-null
-null
 )
 ;
 let

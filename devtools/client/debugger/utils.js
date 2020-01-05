@@ -1124,8 +1124,6 @@ io
 newURI
 (
 aUrl
-null
-null
 )
 .
 QueryInterface
@@ -1684,8 +1682,6 @@ io
 newURI
 (
 aUrl
-null
-null
 )
 .
 QueryInterface

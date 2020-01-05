@@ -195,8 +195,6 @@ toolbox
 .
 xul
 "
-null
-null
 )
 classDescription
 :

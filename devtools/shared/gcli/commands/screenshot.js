@@ -3767,8 +3767,6 @@ newURI
 reply
 .
 data
-null
-null
 )
 ;
 let

@@ -107356,8 +107356,6 @@ io
 newURI
 (
 aUrl
-null
-null
 )
 .
 QueryInterface
