@@ -9629,10 +9629,10 @@ if
 id
 !
 =
-nsXPConnect
+XPCJSRuntime
 :
 :
-GetContextInstance
+Get
 (
 )
 -
