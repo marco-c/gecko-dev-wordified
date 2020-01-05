@@ -3052,8 +3052,11 @@ PropertyName
 name
 )
 ;
+AbortReasonOr
+<
 JSObject
 *
+>
 getStaticTypedArrayObject
 (
 MDefinition
