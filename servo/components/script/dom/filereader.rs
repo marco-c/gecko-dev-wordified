@@ -2531,11 +2531,7 @@ blob_contents
 =
 blob
 .
-get_data
-(
-)
-.
-clone
+get_slice_or_empty
 (
 )
 ;
