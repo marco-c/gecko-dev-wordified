@@ -126,12 +126,6 @@ dom
 :
 :
 namespace
-;
-use
-dom
-:
-:
-namespace
 :
 :
 Null
@@ -2571,13 +2565,9 @@ iter
 {
 element
 .
-set_attribute
+set_attr
 (
 node
-namespace
-:
-:
-Null
 attr
 .
 name
