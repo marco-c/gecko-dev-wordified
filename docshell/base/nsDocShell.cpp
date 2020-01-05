@@ -25413,7 +25413,6 @@ RP_Unset
 aPostStream
 aHeaderStream
 nullptr
-nullptr
 )
 ;
 }
@@ -25443,9 +25442,6 @@ aHeaderStream
 nsIURI
 *
 aBaseURI
-nsIPrincipal
-*
-aTriggeringPrincipal
 )
 {
 NS_ASSERTION
@@ -26176,14 +26172,6 @@ loadInfo
 SetBaseURI
 (
 aBaseURI
-)
-;
-loadInfo
--
->
-SetTriggeringPrincipal
-(
-aTriggeringPrincipal
 )
 ;
 if
@@ -61200,7 +61188,6 @@ ShouldLoadURI
 this
 uriForShouldLoadCheck
 aReferrer
-aTriggeringPrincipal
 &
 shouldLoad
 )

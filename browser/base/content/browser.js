@@ -30950,7 +30950,6 @@ shouldLoadURI
 aDocShell
 aURI
 aReferrer
-aTriggeringPrincipal
 )
 {
 if
@@ -31046,8 +31045,6 @@ redirectLoad
 aDocShell
 aURI
 aReferrer
-aTriggeringPrincipal
-false
 )
 ;
 return
