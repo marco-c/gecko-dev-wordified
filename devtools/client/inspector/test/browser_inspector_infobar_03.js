@@ -126,9 +126,9 @@ overlap
 style
 :
 "
-top
+position
 :
-0px
+fixed
 "
 }
 ;
@@ -207,6 +207,10 @@ split
 [
 0
 ]
+.
+trim
+(
+)
 test
 .
 style
@@ -270,6 +274,10 @@ split
 [
 0
 ]
+.
+trim
+(
+)
 test
 .
 style
