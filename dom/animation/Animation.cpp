@@ -6015,17 +6015,6 @@ mEffect
 return
 ;
 }
-if
-(
-!
-IsInEffect
-(
-)
-)
-{
-return
-;
-}
 /
 /
 In
