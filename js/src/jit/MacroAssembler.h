@@ -12654,6 +12654,8 @@ wasm
 CalleeDesc
 &
 callee
+bool
+needsBoundsCheck
 )
 ;
 /
