@@ -69237,6 +69237,11 @@ aWindowSizes
 -
 >
 mLayoutPresContextSize
+&
+aWindowSizes
+-
+>
+mLayoutFramePropertiesSize
 )
 ;
 }
