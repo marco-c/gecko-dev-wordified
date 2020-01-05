@@ -243,8 +243,7 @@ try
 :
     
 #
-oldFile
-=
+with
 open
 (
 filename
@@ -252,6 +251,9 @@ filename
 rb
 '
 )
+as
+oldFile
+:
     
 #
 oldFileContents
@@ -266,13 +268,6 @@ oldFile
 readlines
 (
 )
-)
-    
-#
-oldFile
-.
-close
-(
 )
     
 #
@@ -294,8 +289,7 @@ oldFileContents
 return
 False
     
-f
-=
+with
 open
 (
 filename
@@ -303,18 +297,15 @@ filename
 wb
 '
 )
-    
+as
+f
+:
+        
 f
 .
 write
 (
 newContents
-)
-    
-f
-.
-close
-(
 )
     
 return
