@@ -198,6 +198,10 @@ extern
 crate
 script_traits
 ;
+extern
+crate
+serde
+;
 #
 [
 macro_use
