@@ -506,7 +506,7 @@ Invalid
 WrImageFormat
 :
 :
-RGBAF32
+Sentinel
 >
 {
 }
@@ -531,7 +531,7 @@ None
 WrBorderStyle
 :
 :
-Outset
+Sentinel
 >
 {
 }
