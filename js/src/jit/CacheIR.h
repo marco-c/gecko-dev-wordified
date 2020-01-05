@@ -3550,8 +3550,8 @@ pc_
 HandleValue
 val_
 ;
-HandlePropertyName
-name_
+HandleValue
+idVal_
 ;
 MutableHandleValue
 res_
@@ -3582,6 +3582,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3591,6 +3593,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3600,6 +3604,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3609,6 +3615,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3618,6 +3626,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3627,6 +3637,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3636,6 +3648,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3645,6 +3659,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3654,6 +3670,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3663,6 +3681,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3672,6 +3692,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+HandleId
+id
 )
 ;
 bool
@@ -3679,6 +3701,8 @@ tryAttachPrimitive
 (
 ValOperandId
 valId
+HandleId
+id
 )
 ;
 bool
@@ -3686,6 +3710,8 @@ tryAttachStringLength
 (
 ValOperandId
 valId
+HandleId
+id
 )
 ;
 bool
@@ -3693,6 +3719,8 @@ tryAttachMagicArguments
 (
 ValOperandId
 valId
+HandleId
+id
 )
 ;
 GetPropIRGenerator
@@ -3733,8 +3761,8 @@ bool
 isTemporarilyUnoptimizable
 HandleValue
 val
-HandlePropertyName
-name
+HandleValue
+idVal
 MutableHandleValue
 res
 )
