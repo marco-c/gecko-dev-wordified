@@ -374,33 +374,25 @@ name
 )
                     
 '
+extraOptions
+'
+:
+self
+.
+results
+.
+extra_options
+or
+[
+]
+                    
+'
 subtests
 '
 :
 subtests
                 
 }
-                
-if
-self
-.
-results
-.
-extra_options
-:
-                    
-suite
-[
-'
-extraOptions
-'
-]
-=
-self
-.
-results
-.
-extra_options
                 
 suites
 .
@@ -1225,6 +1217,19 @@ test
 name
 (
 )
+                               
+'
+extraOptions
+'
+:
+self
+.
+results
+.
+extra_options
+or
+[
+]
                                
 '
 subtests
