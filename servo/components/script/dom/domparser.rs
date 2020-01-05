@@ -630,6 +630,7 @@ DocumentSource
 :
 FromParser
 loader
+None
 )
 ;
 parse_html
@@ -728,6 +729,7 @@ DocumentSource
 :
 NotFromParser
 loader
+None
 )
 ;
 parse_xml
