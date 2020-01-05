@@ -11448,13 +11448,6 @@ aRestyleHint
 "
 )
 ;
-mPresContext
--
->
-RestyledElement
-(
-)
-;
 AutoDisplayContentsAncestorPusher
 adcp
 (
