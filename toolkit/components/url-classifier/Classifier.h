@@ -956,11 +956,7 @@ updated
 seconds
 )
 .
-nsDataHashtable
-<
-nsCStringHashKey
-int64_t
->
+TableFreshnessMap
 mTableFreshness
 ;
 /
