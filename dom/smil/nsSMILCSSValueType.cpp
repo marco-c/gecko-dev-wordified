@@ -3269,6 +3269,10 @@ aPropID
 &
 value
 data
+LengthParsingMode
+:
+:
+SVG
 )
 .
 Consume

@@ -748,6 +748,11 @@ value
 RawGeckoURLExtraData
 *
 data
+mozilla
+:
+:
+LengthParsingMode
+length_parsing_mode
 )
 SERVO_BINDING_FUNC
 (
