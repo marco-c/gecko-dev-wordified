@@ -178,6 +178,9 @@ h
 namespace
 mozilla
 {
+class
+AbstractThread
+;
 namespace
 dom
 {
@@ -563,6 +566,16 @@ TaskCategory
 aCategory
 )
 const
+override
+;
+virtual
+AbstractThread
+*
+AbstractMainThreadFor
+(
+TaskCategory
+aCategory
+)
 override
 ;
 private
