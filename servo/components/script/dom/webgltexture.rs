@@ -2052,6 +2052,7 @@ face_index
 level
 )
 }
+pub
 fn
 image_info_at_face
 (
