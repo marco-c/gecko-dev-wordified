@@ -9096,6 +9096,17 @@ join_chan
 query_type
 :
 query_type
+dom_count
+:
+self
+.
+Document
+(
+)
+.
+dom_count
+(
+)
 }
 ;
 self
