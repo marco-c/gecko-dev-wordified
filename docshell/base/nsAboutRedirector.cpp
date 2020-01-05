@@ -258,6 +258,7 @@ out
 *
 /
 static
+const
 RedirEntry
 kRedirMap
 [

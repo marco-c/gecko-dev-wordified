@@ -255,6 +255,7 @@ URI_SAFE_FOR_UNTRUSTED_CONTENT
 *
 /
 static
+const
 RedirEntry
 kRedirMap
 [
