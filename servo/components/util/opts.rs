@@ -4202,7 +4202,7 @@ flag
 and
 either
 a
-CSV
+TSV
 output
 filename
 \
@@ -4229,7 +4229,7 @@ of
 OR
 time
 .
-csv
+tsv
 "
 )
 ;
