@@ -197,7 +197,7 @@ aResult
 )
 ;
 nsresult
-Read
+SyncRead
 (
 nsIInputStream
 *
