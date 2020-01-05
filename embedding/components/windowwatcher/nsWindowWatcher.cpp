@@ -11975,7 +11975,7 @@ docshell
 docshell
 -
 >
-GetIsInMozBrowserOrApp
+GetIsInMozBrowser
 (
 )
 )

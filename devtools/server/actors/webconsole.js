@@ -3196,11 +3196,6 @@ window
 null
 ;
 let
-appId
-=
-null
-;
-let
 messageManager
 =
 null
@@ -3212,16 +3207,6 @@ this
 _parentIsContentActor
 )
 {
-appId
-=
-this
-.
-parentActor
-.
-docShell
-.
-appId
-;
 messageManager
 =
 this
@@ -3428,7 +3413,6 @@ StackTraceCollector
 (
 {
 window
-appId
 }
 )
 ;
@@ -3458,12 +3442,7 @@ PROCESS_TYPE_DEFAULT
 ;
 if
 (
-(
-appId
-|
-|
 messageManager
-)
 &
 &
 processBoundary
@@ -3497,7 +3476,6 @@ networkMonitor
 new
 NetworkMonitorChild
 (
-appId
 this
 .
 parentActor

@@ -858,10 +858,6 @@ aCpId
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -869,11 +865,6 @@ Unused
 <
 <
 aCpId
-;
-Unused
-<
-<
-aIsForApp
 ;
 Unused
 <

@@ -332,15 +332,6 @@ const
 ;
 virtual
 bool
-IsForApp
-(
-)
-const
-=
-0
-;
-virtual
-bool
 IsForBrowser
 (
 )
@@ -390,10 +381,6 @@ const
 ContentParentId
 &
 aCpId
-const
-bool
-&
-aIsForApp
 const
 bool
 &
@@ -524,10 +511,6 @@ const
 ContentParentId
 &
 aCpId
-const
-bool
-&
-aIsForApp
 const
 bool
 &
