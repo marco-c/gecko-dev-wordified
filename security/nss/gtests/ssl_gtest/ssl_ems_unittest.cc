@@ -402,8 +402,13 @@ EnableExtendedMasterSecret
 auto
 alert_recorder
 =
-new
+std
+:
+:
+make_shared
+<
 TlsAlertRecorder
+>
 (
 )
 ;

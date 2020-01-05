@@ -1037,8 +1037,13 @@ true
 auto
 filter
 =
-new
+std
+:
+:
+make_shared
+<
 TlsInspectorRecordHandshakeMessage
+>
 (
 kTlsHandshakeClientHello
 )

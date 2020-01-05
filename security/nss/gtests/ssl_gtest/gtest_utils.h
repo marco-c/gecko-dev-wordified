@@ -249,11 +249,16 @@ handle_
 }
 private
 :
+std
+:
+:
+shared_ptr
+<
 Poller
 :
 :
 Timer
-*
+>
 handle_
 ;
 }

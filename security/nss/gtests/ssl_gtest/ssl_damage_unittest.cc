@@ -378,8 +378,13 @@ server_
 >
 SetPacketFilter
 (
-new
+std
+:
+:
+make_shared
+<
 AfterRecordN
+>
 (
 server_
 client_
