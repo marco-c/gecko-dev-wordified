@@ -102,14 +102,6 @@ lazyUpdate
 =
 false
 ;
-NetworkDetails
-.
-_params
-.
-lazyEmpty
-=
-false
-;
 const
 REQUEST_DATA
 =
