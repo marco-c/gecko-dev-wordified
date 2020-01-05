@@ -96,6 +96,8 @@ import
     
 MemberIsUnforgeable
     
+getModuleFromObject
+    
 getTypesFromCallback
     
 getTypesFromDescriptor
@@ -7214,10 +7216,9 @@ s
 '
 %
 (
-callback
-.
-module
+getModuleFromObject
 (
+callback
 )
 callback
 .
@@ -10094,10 +10095,9 @@ s
 '
 %
 (
-callback
-.
-module
+getModuleFromObject
 (
+callback
 )
 callback
 .
@@ -41291,10 +41291,9 @@ dictionary
 :
         
 return
-dictionary
-.
-module
+getModuleFromObject
 (
+dictionary
 )
     
 def
@@ -49146,10 +49145,9 @@ True
                        
 set
 (
-d
-.
-module
+getModuleFromObject
 (
+d
 )
 for
 d
@@ -49162,10 +49160,9 @@ callbacks
                        
 set
 (
-d
-.
-module
+getModuleFromObject
 (
+d
 )
 for
 d
