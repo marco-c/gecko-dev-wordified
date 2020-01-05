@@ -141,6 +141,17 @@ WebRenderCompositableHolder
 :
 WebRenderCompositableHolder
 (
+uint32_t
+aIdNamespace
+)
+:
+mIdNamespace
+(
+aIdNamespace
+)
+mResourceId
+(
+0
 )
 {
 MOZ_COUNT_CTOR
