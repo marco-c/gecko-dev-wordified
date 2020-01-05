@@ -277,17 +277,6 @@ EndUnwind
 (
 )
 ;
-virtual
-SyncProfile
-*
-AsSyncProfile
-(
-)
-{
-return
-nullptr
-;
-}
 bool
 IsMainThread
 (

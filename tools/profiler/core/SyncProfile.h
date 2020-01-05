@@ -199,17 +199,6 @@ EndUnwind
 (
 )
 ;
-virtual
-SyncProfile
-*
-AsSyncProfile
-(
-)
-{
-return
-this
-;
-}
 private
 :
 friend
