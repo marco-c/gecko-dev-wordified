@@ -208,14 +208,14 @@ errorCode
 SSLStatus
 :
 {
-protocolVersion
-:
-3
 /
 /
 nsISSLStatus
 .
 TLS_VERSION_1_2
+protocolVersion
+:
+3
 cipherSuite
 :
 "

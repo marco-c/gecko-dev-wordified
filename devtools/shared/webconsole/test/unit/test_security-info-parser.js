@@ -267,12 +267,12 @@ cipherSuite
 "
 TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
 "
-protocolVersion
-:
-3
 /
 /
 TLS_VERSION_1_2
+protocolVersion
+:
+3
 serverCert
 :
 MockCertificate

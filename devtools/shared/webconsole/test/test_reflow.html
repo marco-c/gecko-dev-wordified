@@ -246,13 +246,13 @@ onAttach
 function
 onAttach
 (
-aState
-aResponse
+state
+response
 )
 {
 client
 =
-aState
+state
 .
 dbgClient
 ;
@@ -263,7 +263,7 @@ onReflowActivity
 bind
 (
 null
-aState
+state
 )
 ;
 client
@@ -362,9 +362,9 @@ receivedEvents
 function
 onReflowActivity
 (
-aState
-aType
-aPacket
+state
+type
+packet
 )
 {
 info
@@ -374,7 +374,7 @@ packet
 :
 "
 +
-aPacket
+packet
 .
 message
 )
@@ -383,7 +383,7 @@ receivedEvents
 .
 push
 (
-aPacket
+packet
 )
 ;
 if
@@ -404,7 +404,7 @@ checkEvents
 ;
 finish
 (
-aState
+state
 )
 ;
 }
@@ -484,7 +484,7 @@ valid
 function
 finish
 (
-aState
+state
 )
 {
 client
@@ -499,7 +499,7 @@ onReflowActivity
 ;
 closeDebugger
 (
-aState
+state
 function
 (
 )
