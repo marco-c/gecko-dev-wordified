@@ -5052,9 +5052,6 @@ MOZ_ASSERT
 aImage
 )
 ;
-nsStyleSides
-cropRect
-;
 aImage
 -
 >
@@ -5065,7 +5062,6 @@ MakeUnique
 nsStyleSides
 >
 (
-cropRect
 )
 )
 ;
