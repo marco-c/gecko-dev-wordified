@@ -180,6 +180,13 @@ Check
 database
 entries
 .
+yield
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
+)
+;
 let
 db
 =
@@ -800,6 +807,13 @@ Check
 database
 entries
 .
+yield
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
+)
+;
 let
 db
 =
