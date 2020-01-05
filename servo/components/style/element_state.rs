@@ -65,6 +65,14 @@ can
 be
 in
 .
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 bitflags
 !
 {
