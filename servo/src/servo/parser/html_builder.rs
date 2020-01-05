@@ -118,9 +118,11 @@ dom
 :
 :
 node
+-
 key
 :
 str
+-
 value
 :
 str
@@ -178,7 +180,9 @@ push
 ~
 attr
 (
+copy
 key
+copy
 value
 )
 )
@@ -693,6 +697,12 @@ is_whitespace
 (
 )
 {
+let
+s
+<
+-
+s
+;
 let
 new_node
 =

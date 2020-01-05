@@ -73,6 +73,7 @@ text_run
 ;
 new
 (
+-
 text
 :
 str
@@ -158,6 +159,7 @@ run
 =
 text_run
 (
+copy
 subbox
 .
 text

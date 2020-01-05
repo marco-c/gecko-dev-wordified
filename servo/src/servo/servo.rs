@@ -259,6 +259,8 @@ engine
 :
 load_url
 (
+~
+copy
 filename
 )
 )
@@ -341,6 +343,7 @@ exit
 fn
 run_pipeline_png
 (
+-
 url
 :
 str
@@ -398,6 +401,12 @@ engine
 sink
 )
 ;
+let
+url
+<
+-
+url
+;
 engine
 .
 send
@@ -407,6 +416,7 @@ engine
 :
 load_url
 (
+~
 url
 )
 )
