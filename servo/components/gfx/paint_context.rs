@@ -5862,7 +5862,7 @@ f32
 Color
 {
 return
-Color
+color
 :
 :
 new
@@ -6316,7 +6316,7 @@ black
 .
 darker_color
 =
-Color
+color
 :
 :
 new
@@ -6337,7 +6337,7 @@ a
 ;
 lighter_color
 =
-Color
+color
 :
 :
 new
@@ -6736,7 +6736,7 @@ Left
 if
 is_inset
 {
-Color
+color
 :
 :
 new
@@ -6757,7 +6757,7 @@ a
 }
 else
 {
-Color
+color
 :
 :
 new
@@ -6792,7 +6792,7 @@ Bottom
 if
 is_inset
 {
-Color
+color
 :
 :
 new
@@ -6813,7 +6813,7 @@ a
 }
 else
 {
-Color
+color
 :
 :
 new

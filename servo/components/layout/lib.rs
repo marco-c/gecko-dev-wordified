@@ -218,6 +218,10 @@ bitflags
 ;
 extern
 crate
+azure
+;
+extern
+crate
 cssparser
 ;
 extern
