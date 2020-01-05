@@ -843,6 +843,9 @@ aHeapSizeOut
 size_t
 &
 aNonHeapSizeOut
+size_t
+&
+aSharedHandlesOut
 )
 {
 /
@@ -913,6 +916,7 @@ AddSizeOfExcludingThis
 aMallocSizeOf
 aHeapSizeOut
 aNonHeapSizeOut
+aSharedHandlesOut
 )
 ;
 }

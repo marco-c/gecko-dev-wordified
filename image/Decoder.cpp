@@ -1863,6 +1863,9 @@ aFrameRect
 aFormat
 aPaletteDepth
 nonPremult
+aFrameNum
+>
+0
 )
 )
 )

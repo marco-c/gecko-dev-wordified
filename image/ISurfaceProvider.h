@@ -506,6 +506,9 @@ aHeapSizeOut
 size_t
 &
 aNonHeapSizeOut
+size_t
+&
+aSharedHandlesOut
 )
 {
 DrawableFrameRef
@@ -539,6 +542,7 @@ AddSizeOfExcludingThis
 aMallocSizeOf
 aHeapSizeOut
 aNonHeapSizeOut
+aSharedHandlesOut
 )
 ;
 }
