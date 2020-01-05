@@ -833,7 +833,7 @@ iter
 (
 )
 .
-min_by
+min_by_key
 (
 |
 &
