@@ -99,7 +99,7 @@ dump
 (
 manifest
 f
-                
+                  
 indent
 =
 0
@@ -960,7 +960,7 @@ update_manifest
 (
 updates
 target
-                    
+                            
 os
 .
 path
