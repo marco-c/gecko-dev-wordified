@@ -556,6 +556,13 @@ ExtendableMessageEventMethods
 for
 ExtendableMessageEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -578,6 +585,7 @@ event
 data
 -
 attribute
+unsafe
 fn
 Data
 (

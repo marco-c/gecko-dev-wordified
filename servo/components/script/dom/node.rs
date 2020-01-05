@@ -10005,6 +10005,7 @@ document
 Document
 wrap_fn
 :
+unsafe
 extern
 "
 Rust

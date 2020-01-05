@@ -489,6 +489,13 @@ PopStateEventMethods
 for
 PopStateEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -511,6 +518,7 @@ dom
 popstateevent
 -
 state
+unsafe
 fn
 State
 (

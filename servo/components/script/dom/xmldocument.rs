@@ -544,6 +544,13 @@ SupportedPropertyNames
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -574,6 +581,7 @@ document
 nameditem
 -
 filter
+unsafe
 fn
 NamedGetter
 (

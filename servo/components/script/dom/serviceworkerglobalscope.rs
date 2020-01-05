@@ -748,6 +748,13 @@ scope_url
 scope_url
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 new
@@ -839,6 +846,8 @@ swmanager_sender
 scope_url
 )
 ;
+unsafe
+{
 ServiceWorkerGlobalScopeBinding
 :
 :
@@ -847,6 +856,7 @@ Wrap
 cx
 scope
 )
+}
 }
 #
 [

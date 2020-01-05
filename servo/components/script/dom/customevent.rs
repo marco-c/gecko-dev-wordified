@@ -523,6 +523,13 @@ CustomEventMethods
 for
 CustomEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -543,6 +550,7 @@ dom
 customevent
 -
 detail
+unsafe
 fn
 Detail
 (
@@ -566,6 +574,13 @@ get
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -586,6 +601,7 @@ dom
 customevent
 -
 initcustomevent
+unsafe
 fn
 InitCustomEvent
 (

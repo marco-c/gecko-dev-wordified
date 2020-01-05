@@ -695,6 +695,7 @@ dom
 imagedata
 -
 data
+unsafe
 fn
 Data
 (
@@ -732,8 +733,6 @@ is_null
 )
 )
 ;
-unsafe
-{
 NonZero
 :
 :
@@ -747,6 +746,5 @@ get
 (
 )
 )
-}
 }
 }

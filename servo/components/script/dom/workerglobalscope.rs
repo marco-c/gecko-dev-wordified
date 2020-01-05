@@ -1946,6 +1946,13 @@ base64_atob
 atob
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -1968,6 +1975,7 @@ dom
 windowtimers
 -
 settimeout
+unsafe
 fn
 SetTimeout
 (
@@ -2026,6 +2034,13 @@ IsInterval
 NonInterval
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -2048,6 +2063,7 @@ dom
 windowtimers
 -
 settimeout
+unsafe
 fn
 SetTimeout_
 (
@@ -2152,6 +2168,13 @@ handle
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -2174,6 +2197,7 @@ dom
 windowtimers
 -
 setinterval
+unsafe
 fn
 SetInterval
 (
@@ -2232,6 +2256,13 @@ IsInterval
 Interval
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -2254,6 +2285,7 @@ dom
 windowtimers
 -
 setinterval
+unsafe
 fn
 SetInterval_
 (

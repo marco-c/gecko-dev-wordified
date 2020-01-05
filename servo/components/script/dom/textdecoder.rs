@@ -651,6 +651,7 @@ dom
 textdecoder
 -
 decode
+unsafe
 fn
 Decode
 (
@@ -712,8 +713,6 @@ let
 data
 =
 match
-unsafe
-{
 array_buffer_view_data
 :
 :
@@ -723,7 +722,6 @@ u8
 (
 input
 )
-}
 {
 Some
 (

@@ -408,6 +408,7 @@ dom
 textencoder
 -
 encode
+unsafe
 fn
 Encode
 (
@@ -430,8 +431,6 @@ NonZero
 mut
 JSObject
 >
-{
-unsafe
 {
 let
 encoded
@@ -558,6 +557,5 @@ get
 (
 )
 )
-}
 }
 }

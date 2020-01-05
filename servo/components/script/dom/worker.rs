@@ -1306,6 +1306,13 @@ WorkerMethods
 for
 Worker
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -1328,6 +1335,7 @@ dom
 worker
 -
 postmessage
+unsafe
 fn
 PostMessage
 (

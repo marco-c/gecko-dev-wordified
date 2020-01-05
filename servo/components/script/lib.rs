@@ -941,7 +941,6 @@ init
 (
 )
 ;
-}
 /
 /
 Create
@@ -970,6 +969,7 @@ RegisterProxyHandlers
 (
 )
 ;
+}
 perform_platform_specific_initialization
 (
 )

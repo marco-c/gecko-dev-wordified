@@ -1866,6 +1866,13 @@ height
 DEFAULT_HEIGHT
 )
 ;
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -1888,6 +1895,7 @@ dom
 canvas
 -
 getcontext
+unsafe
 fn
 GetContext
 (
@@ -1983,6 +1991,13 @@ _
 None
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -2005,6 +2020,7 @@ dom
 canvas
 -
 todataurl
+unsafe
 fn
 ToDataURL
 (

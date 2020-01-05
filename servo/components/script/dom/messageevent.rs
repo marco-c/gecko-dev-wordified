@@ -655,6 +655,13 @@ MessageEventMethods
 for
 MessageEvent
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -677,6 +684,7 @@ dom
 messageevent
 -
 data
+unsafe
 fn
 Data
 (

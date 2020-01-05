@@ -632,6 +632,13 @@ clone
 )
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -652,6 +659,7 @@ service
 worker
 -
 postmessage
+unsafe
 fn
 PostMessage
 (

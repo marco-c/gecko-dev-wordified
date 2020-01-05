@@ -893,8 +893,6 @@ get
 (
 )
 {
-unsafe
-{
 bound_object
 .
 to_jsval
@@ -907,7 +905,6 @@ handle_mut
 )
 )
 ;
-}
 }
 rval
 .
@@ -4742,6 +4739,13 @@ unwrap
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -4772,6 +4776,7 @@ latest
 14
 .
 5
+unsafe
 fn
 GetBufferParameter
 (
@@ -5003,6 +5008,7 @@ latest
 14
 .
 3
+unsafe
 fn
 GetParameter
 (
@@ -5450,8 +5456,6 @@ UndefinedValue
 )
 )
 ;
-unsafe
-{
 val
 .
 to_jsval
@@ -5464,7 +5468,6 @@ handle_mut
 )
 )
 ;
-}
 rval
 .
 get
@@ -5837,6 +5840,13 @@ vec
 ]
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -5867,6 +5877,7 @@ latest
 14
 .
 14
+unsafe
 fn
 GetExtension
 (
@@ -7451,6 +7462,7 @@ latest
 14
 .
 5
+unsafe
 fn
 BufferData
 (
@@ -7503,8 +7515,6 @@ InvalidValue
 let
 data_vec
 =
-unsafe
-{
 match
 array_buffer_to_vec
 :
@@ -7549,7 +7559,6 @@ u8
 data
 )
 )
-}
 }
 ;
 let
@@ -7720,6 +7729,7 @@ latest
 14
 .
 5
+unsafe
 fn
 BufferSubData
 (
@@ -7772,8 +7782,6 @@ InvalidValue
 let
 data_vec
 =
-unsafe
-{
 match
 array_buffer_to_vec
 :
@@ -7818,7 +7826,6 @@ u8
 data
 )
 )
-}
 }
 ;
 let
@@ -8016,6 +8023,7 @@ latest
 14
 .
 8
+unsafe
 fn
 CompressedTexImage2D
 (
@@ -8064,8 +8072,6 @@ _data
 try
 !
 (
-unsafe
-{
 fallible_array_buffer_view_to_vec
 :
 :
@@ -8075,7 +8081,6 @@ u8
 (
 pixels
 )
-}
 )
 ;
 /
@@ -8170,6 +8175,7 @@ latest
 14
 .
 8
+unsafe
 fn
 CompressedTexSubImage2D
 (
@@ -8221,8 +8227,6 @@ _data
 try
 !
 (
-unsafe
-{
 fallible_array_buffer_view_to_vec
 :
 :
@@ -8232,7 +8236,6 @@ u8
 (
 pixels
 )
-}
 )
 ;
 /
@@ -12628,6 +12631,13 @@ InvalidValue
 None
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -12658,6 +12668,7 @@ latest
 14
 .
 9
+unsafe
 fn
 GetProgramParameter
 (
@@ -12891,6 +12902,13 @@ DOMString
 from
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -12921,6 +12939,7 @@ latest
 14
 .
 9
+unsafe
 fn
 GetShaderParameter
 (
@@ -13223,6 +13242,7 @@ latest
 14
 .
 9
+unsafe
 fn
 GetVertexAttrib
 (
@@ -13303,8 +13323,6 @@ z
 w
 ]
 ;
-unsafe
-{
 attrib
 .
 to_jsval
@@ -13317,7 +13335,6 @@ handle_mut
 )
 )
 ;
-}
 return
 result
 .
@@ -13483,8 +13500,6 @@ UndefinedValue
 )
 )
 ;
-unsafe
-{
 val
 .
 to_jsval
@@ -13497,7 +13512,6 @@ handle_mut
 )
 )
 ;
-}
 result
 .
 get
@@ -14676,6 +14690,7 @@ latest
 14
 .
 12
+unsafe
 fn
 ReadPixels
 (
@@ -14742,7 +14757,6 @@ mut
 data
 =
 match
-unsafe
 {
 array_buffer_view_data
 :
@@ -14803,7 +14817,6 @@ Ok
 ;
 }
 match
-unsafe
 {
 JS_GetArrayBufferViewType
 (
@@ -16753,6 +16766,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform1iv
 (
@@ -16801,8 +16815,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -16817,7 +16829,6 @@ ConversionBehavior
 :
 Default
 )
-}
 )
 ;
 if
@@ -16911,6 +16922,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform1fv
 (
@@ -16959,8 +16971,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -16973,7 +16983,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -17170,6 +17179,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform2fv
 (
@@ -17218,8 +17228,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -17232,7 +17240,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -17429,6 +17436,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform2iv
 (
@@ -17477,8 +17485,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -17493,7 +17499,6 @@ ConversionBehavior
 :
 Default
 )
-}
 )
 ;
 if
@@ -17695,6 +17700,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform3fv
 (
@@ -17743,8 +17749,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -17757,7 +17761,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -17959,6 +17962,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform3iv
 (
@@ -18007,8 +18011,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -18023,7 +18025,6 @@ ConversionBehavior
 :
 Default
 )
-}
 )
 ;
 if
@@ -18230,6 +18231,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform4iv
 (
@@ -18278,8 +18280,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -18294,7 +18294,6 @@ ConversionBehavior
 :
 Default
 )
-}
 )
 ;
 if
@@ -18501,6 +18500,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 Uniform4fv
 (
@@ -18549,8 +18549,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -18563,7 +18561,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -18657,6 +18654,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 UniformMatrix2fv
 (
@@ -18708,8 +18706,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -18722,7 +18718,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -18817,6 +18812,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 UniformMatrix3fv
 (
@@ -18868,8 +18864,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -18882,7 +18876,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -18977,6 +18970,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 UniformMatrix4fv
 (
@@ -19028,8 +19022,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -19042,7 +19034,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -19360,6 +19351,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 VertexAttrib1fv
 (
@@ -19404,8 +19396,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -19418,7 +19408,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -19556,6 +19545,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 VertexAttrib2fv
 (
@@ -19600,8 +19590,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -19614,7 +19602,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -19758,6 +19745,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 VertexAttrib3fv
 (
@@ -19802,8 +19790,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -19816,7 +19802,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -19966,6 +19951,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 VertexAttrib4fv
 (
@@ -20010,8 +19996,6 @@ data_vec
 try
 !
 (
-unsafe
-{
 typed_array_or_sequence_to_vec
 :
 :
@@ -20024,7 +20008,6 @@ data
 (
 )
 )
-}
 )
 ;
 if
@@ -20516,6 +20499,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 TexImage2D
 (
@@ -20583,8 +20567,6 @@ Some
 try
 !
 (
-unsafe
-{
 fallible_array_buffer_view_to_vec
 :
 :
@@ -20594,7 +20576,6 @@ u8
 (
 data_ptr
 )
-}
 )
 )
 }
@@ -20676,7 +20657,6 @@ let
 expected_byte_length
 =
 match
-unsafe
 {
 self
 .
@@ -21100,6 +21080,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 TexSubImage2D
 (
@@ -21167,8 +21148,6 @@ Some
 try
 !
 (
-unsafe
-{
 fallible_array_buffer_view_to_vec
 :
 :
@@ -21178,7 +21157,6 @@ u8
 (
 data_ptr
 )
-}
 )
 )
 }
@@ -21261,7 +21239,6 @@ let
 expected_byte_length
 =
 match
-unsafe
 {
 self
 .

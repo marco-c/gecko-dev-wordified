@@ -945,6 +945,13 @@ clone
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -967,6 +974,7 @@ dom
 errorevent
 -
 error
+unsafe
 fn
 Error
 (
