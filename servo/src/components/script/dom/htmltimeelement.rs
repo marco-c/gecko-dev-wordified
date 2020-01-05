@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLTimeElementMethods
-{
-}
 impl
 Reflectable
 for

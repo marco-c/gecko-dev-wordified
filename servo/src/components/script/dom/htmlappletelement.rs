@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLAppletElementMethods
-{
-}
 impl
 Reflectable
 for

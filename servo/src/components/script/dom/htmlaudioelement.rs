@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLAudioElementMethods
-{
-}
 impl
 Reflectable
 for

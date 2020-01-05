@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLTableColElementMethods
-{
-}
 impl
 Reflectable
 for

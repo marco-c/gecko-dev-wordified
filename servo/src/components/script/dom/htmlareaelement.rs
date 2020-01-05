@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLAreaElementMethods
-{
-}
 impl
 Reflectable
 for

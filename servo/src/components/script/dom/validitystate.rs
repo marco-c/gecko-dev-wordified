@@ -209,11 +209,6 @@ Wrap
 )
 }
 }
-pub
-trait
-ValidityStateMethods
-{
-}
 impl
 Reflectable
 for

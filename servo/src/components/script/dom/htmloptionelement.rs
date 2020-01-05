@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLOptionElementMethods
-{
-}
 impl
 Reflectable
 for

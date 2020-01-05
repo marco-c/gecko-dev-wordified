@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLQuoteElementMethods
-{
-}
 impl
 Reflectable
 for

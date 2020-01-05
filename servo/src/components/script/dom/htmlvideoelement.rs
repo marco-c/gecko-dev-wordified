@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLVideoElementMethods
-{
-}
 impl
 Reflectable
 for

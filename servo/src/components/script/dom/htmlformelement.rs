@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLFormElementMethods
-{
-}
 impl
 Reflectable
 for

@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLMapElementMethods
-{
-}
 impl
 Reflectable
 for

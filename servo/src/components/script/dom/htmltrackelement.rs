@@ -307,11 +307,6 @@ Wrap
 )
 }
 }
-pub
-trait
-HTMLTrackElementMethods
-{
-}
 impl
 Reflectable
 for
