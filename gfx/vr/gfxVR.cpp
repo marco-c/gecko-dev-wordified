@@ -499,6 +499,8 @@ aID
 uint32_t
 aMapping
 uint32_t
+aHand
+uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -519,6 +521,7 @@ aID
 )
 mControllerCount
 aMapping
+aHand
 dom
 :
 :

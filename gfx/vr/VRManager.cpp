@@ -561,7 +561,7 @@ Create
 ;
 if
 (
-mgr
+controllerMgr
 )
 {
 mControllerManagers
