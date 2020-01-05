@@ -239,7 +239,7 @@ Strings
 GetStringFromName
 (
 "
-multiProcessWarningConfirmUpdate
+multiProcessWarningConfirmUpdate2
 "
 )
 ;
@@ -372,7 +372,7 @@ Strings
 GetStringFromName
 (
 "
-multiProcessWarningMessage
+multiProcessWarningMessage2
 "
 )
 )
@@ -399,7 +399,7 @@ Strings
 GetStringFromName
 (
 "
-multiProcessWarningUpdateLink
+multiProcessWarningUpdateLink2
 "
 )
 )
