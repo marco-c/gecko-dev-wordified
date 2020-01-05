@@ -123,10 +123,6 @@ plugins
 ]
 extern
 crate
-euclid
-;
-extern
-crate
 hyper
 ;
 extern

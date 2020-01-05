@@ -254,10 +254,6 @@ extern
 crate
 servo
 ;
-extern
-crate
-time
-;
 use
 gleam
 :

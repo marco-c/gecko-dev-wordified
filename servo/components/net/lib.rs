@@ -120,10 +120,6 @@ devtools_traits
 ;
 extern
 crate
-euclid
-;
-extern
-crate
 flate2
 ;
 extern
