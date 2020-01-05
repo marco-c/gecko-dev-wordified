@@ -4699,8 +4699,6 @@ let
 poll_interval
 =
 100
-*
-1000
 ;
 /
 /
