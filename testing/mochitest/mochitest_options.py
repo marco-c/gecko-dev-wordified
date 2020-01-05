@@ -8827,18 +8827,6 @@ options
 utilityPath
         
 if
-build_obj
-:
-            
-options
-.
-topsrcdir
-=
-build_obj
-.
-topsrcdir
-        
-if
 options
 .
 pidFile

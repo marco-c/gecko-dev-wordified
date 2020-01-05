@@ -1821,17 +1821,6 @@ kwargs
 )
 :
         
-kwargs
-[
-"
-topsrcdir
-"
-]
-=
-self
-.
-topsrcdir
-        
 process_test_objects
 (
 kwargs
