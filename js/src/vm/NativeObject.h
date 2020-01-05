@@ -1768,11 +1768,6 @@ return
 flags
 &
 NONWRITABLE_ARRAY_LENGTH
-|
-|
-flags
-&
-FROZEN
 ;
 }
 void
