@@ -1074,8 +1074,6 @@ nsITimerCallback
 public
 nsISizeOfEventTarget
 public
-nsINamed
-public
 MutableBlobStorageCallback
 {
 friend
@@ -1237,10 +1235,6 @@ NS_DECL_NSIINTERFACEREQUESTOR
 /
 nsITimerCallback
 NS_DECL_NSITIMERCALLBACK
-/
-/
-nsINamed
-NS_DECL_NSINAMED
 /
 /
 nsISizeOfEventTarget
@@ -2805,14 +2799,6 @@ OnRedirectVerifyCallback
 (
 nsresult
 result
-)
-;
-void
-SetTimerEventTarget
-(
-nsITimer
-*
-aTimer
 )
 ;
 already_AddRefed
