@@ -2244,7 +2244,7 @@ as
 AzFloat
 fields
 :
-0
+0x0200
 as
 uint16_t
 }
