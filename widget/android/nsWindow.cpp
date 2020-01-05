@@ -7272,11 +7272,11 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
-browser
+geckoview
 .
 xul
 "
