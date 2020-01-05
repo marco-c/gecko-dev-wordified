@@ -10110,7 +10110,9 @@ undisplayed
 undisplayed
 -
 >
-mNext
+getNext
+(
+)
 )
 {
 if
@@ -22367,7 +22369,9 @@ undisplayed
 undisplayed
 -
 >
-mNext
+getNext
+(
+)
 )
 {
 NS_ASSERTION
