@@ -8913,12 +8913,6 @@ ActorType
 (
 itype
                                   
-state
-=
-typespec
-.
-state
-                                  
 nullable
 =
 typespec

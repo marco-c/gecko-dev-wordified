@@ -2660,9 +2660,6 @@ __init__
 self
 loc
 spec
-state
-=
-None
 array
 =
 0
@@ -2694,16 +2691,6 @@ spec
 spec
 #
 QualifiedId
-        
-self
-.
-state
-=
-state
-#
-None
-or
-State
         
 self
 .
@@ -2754,21 +2741,6 @@ self
 spec
 .
 baseid
-    
-def
-isActor
-(
-self
-)
-:
-        
-return
-self
-.
-state
-is
-not
-None
     
 def
 __str__
