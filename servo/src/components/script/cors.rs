@@ -656,7 +656,6 @@ req
 .
 preflight_flag
 =
-(
 !
 is_simple_method
 (
@@ -671,7 +670,6 @@ mode
 =
 =
 ForcedPreflightMode
-)
 ;
 if
 req
