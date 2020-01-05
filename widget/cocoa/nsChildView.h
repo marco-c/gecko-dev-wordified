@@ -2577,7 +2577,8 @@ RoundsWidgetCoordinatesTo
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 const

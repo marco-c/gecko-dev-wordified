@@ -405,7 +405,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 const

@@ -1659,7 +1659,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -1693,7 +1693,6 @@ if
 mChild
 )
 {
-return
 mChild
 -
 >
@@ -1701,6 +1700,8 @@ Invalidate
 (
 aRect
 )
+;
+return
 ;
 }
 mDirtyRegion
@@ -1737,7 +1738,6 @@ PaintTask
 this
 )
 ;
-return
 NS_DispatchToCurrentThread
 (
 mPaintTask
@@ -1747,10 +1747,9 @@ get
 )
 )
 ;
-}
 return
-NS_OK
 ;
+}
 }
 void
 PuppetWidget

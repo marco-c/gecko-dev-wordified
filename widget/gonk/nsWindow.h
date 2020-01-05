@@ -375,7 +375,8 @@ Configuration
 &
 )
 ;
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 const

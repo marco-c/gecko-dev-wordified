@@ -8860,7 +8860,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8878,7 +8878,6 @@ if
 mGdkWindow
 )
 return
-NS_OK
 ;
 GdkRectangle
 rect
@@ -8939,9 +8938,6 @@ rect
 height
 )
 )
-;
-return
-NS_OK
 ;
 }
 void

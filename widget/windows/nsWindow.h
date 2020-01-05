@@ -1015,7 +1015,8 @@ aShouldHide
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 bool
@@ -1032,7 +1033,8 @@ aIncludeChildren
 false
 )
 ;
-NS_IMETHOD
+virtual
+void
 Invalidate
 (
 const

@@ -10274,7 +10274,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -10286,9 +10286,6 @@ LayoutDeviceIntRect
 aRect
 )
 {
-return
-NS_OK
-;
 }
 nsWindow
 *
