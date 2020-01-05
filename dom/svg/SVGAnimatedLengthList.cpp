@@ -894,8 +894,10 @@ aAttrEnum
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 SVGAnimatedLengthList
 :
 :
@@ -913,8 +915,10 @@ aCanZeroPadList
 )
 {
 return
-new
+MakeUnique
+<
 SMILAnimatedLengthList
+>
 (
 this
 aSVGElement

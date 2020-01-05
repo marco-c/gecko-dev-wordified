@@ -1388,8 +1388,10 @@ mVal
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 SVGAnimatedPreserveAspectRatio
 :
 :
@@ -1401,8 +1403,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILPreserveAspectRatio
+>
 (
 this
 aSVGElement

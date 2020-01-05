@@ -634,8 +634,10 @@ mVal
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGNumber2
 :
 :
@@ -647,8 +649,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILNumber
+>
 (
 this
 aSVGElement

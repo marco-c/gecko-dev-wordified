@@ -577,8 +577,10 @@ mSVGElement
 )
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGClass
 :
 :
@@ -590,8 +592,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILString
+>
 (
 this
 aSVGElement

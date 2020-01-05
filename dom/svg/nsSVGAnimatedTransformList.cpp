@@ -1242,8 +1242,10 @@ IsEmpty
 mAnimVal
 ;
 }
+UniquePtr
+<
 nsISMILAttr
-*
+>
 nsSVGAnimatedTransformList
 :
 :
@@ -1255,8 +1257,10 @@ aSVGElement
 )
 {
 return
-new
+MakeUnique
+<
 SMILAnimatedTransformList
+>
 (
 this
 aSVGElement

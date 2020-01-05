@@ -1887,9 +1887,13 @@ return
 nullptr
 ;
 }
-virtual
+mozilla
+:
+:
+UniquePtr
+<
 nsISMILAttr
-*
+>
 GetAnimatedAttr
 (
 int32_t
