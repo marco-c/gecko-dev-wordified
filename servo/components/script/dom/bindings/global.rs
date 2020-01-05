@@ -1175,7 +1175,7 @@ thread
 .
 pub
 fn
-dom_manipulation_thread_source
+dom_manipulation_task_source
 (
 &
 self
@@ -1249,7 +1249,7 @@ thread
 .
 pub
 fn
-user_interaction_thread_source
+user_interaction_task_source
 (
 &
 self
@@ -1323,7 +1323,7 @@ thread
 .
 pub
 fn
-networking_thread_source
+networking_task_source
 (
 &
 self
@@ -1397,7 +1397,7 @@ thread
 .
 pub
 fn
-history_traversal_thread_source
+history_traversal_task_source
 (
 &
 self
@@ -1471,7 +1471,7 @@ thread
 .
 pub
 fn
-file_reading_thread_source
+file_reading_task_source
 (
 &
 self

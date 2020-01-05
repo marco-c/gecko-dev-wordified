@@ -8342,7 +8342,7 @@ r
 (
 )
 .
-networking_thread_source
+networking_task_source
 (
 )
 )
@@ -9983,7 +9983,7 @@ new
 self
 global
 .
-networking_thread_source
+networking_task_source
 (
 )
 )
@@ -10087,7 +10087,7 @@ else
 (
 global
 .
-networking_thread_source
+networking_task_source
 (
 )
 None

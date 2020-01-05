@@ -2599,7 +2599,7 @@ new
 self
 global
 .
-file_reading_thread_source
+file_reading_task_source
 (
 )
 )
@@ -2620,7 +2620,7 @@ script_chan
 =
 global
 .
-file_reading_thread_source
+file_reading_task_source
 (
 )
 ;
