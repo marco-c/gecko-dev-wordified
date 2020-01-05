@@ -2527,6 +2527,15 @@ get_font
 )
 .
 font_style
+variant
+:
+style
+.
+get_font
+(
+)
+.
+font_variant
 families
 :
 font_families

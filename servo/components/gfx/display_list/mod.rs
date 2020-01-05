@@ -3925,7 +3925,7 @@ text
 .
 text_run
 .
-pt_size
+actual_pt_size
 render_context
 .
 opts
