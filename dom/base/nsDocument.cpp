@@ -51883,9 +51883,12 @@ CORS_ANONYMOUS
 speculator
 -
 >
-SpeculativeAnonymousConnect
+SpeculativeAnonymousConnect2
 (
 uri
+NodePrincipal
+(
+)
 nullptr
 )
 ;
@@ -51895,9 +51898,12 @@ else
 speculator
 -
 >
-SpeculativeConnect
+SpeculativeConnect2
 (
 uri
+NodePrincipal
+(
+)
 nullptr
 )
 ;
