@@ -85,9 +85,12 @@ import
 TaskGraph
 from
 .
-util
+.
+task
+.
+base
 import
-TestTask
+Task
 from
 mozunit
 import
@@ -208,7 +211,7 @@ tasks
 a
 '
 :
-TestTask
+Task
 (
 kind
 =
@@ -220,7 +223,7 @@ label
 '
 a
 '
-                          
+                      
 attributes
 =
 {
@@ -229,6 +232,11 @@ run_on_projects
 '
 :
 run_on_projects
+}
+                      
+task
+=
+{
 }
 )
         
@@ -633,7 +641,7 @@ tasks
 a
 '
 :
-TestTask
+Task
 (
 kind
 =
@@ -643,13 +651,21 @@ label
 '
 a
 '
+attributes
+=
+{
+}
+task
+=
+{
+}
 )
             
 '
 b
 '
 :
-TestTask
+Task
 (
 kind
 =
@@ -671,6 +687,10 @@ at
 '
 yep
 '
+}
+task
+=
+{
 }
 )
         

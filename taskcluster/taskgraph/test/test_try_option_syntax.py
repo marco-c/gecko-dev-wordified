@@ -87,9 +87,12 @@ import
 TaskGraph
 from
 .
-util
+.
+task
+.
+base
 import
-TestTask
+Task
 from
 mozunit
 import
@@ -134,7 +137,7 @@ tp
 return
 (
 n
-TestTask
+Task
 (
 '
 test
@@ -155,6 +158,8 @@ test_platform
 tp
     
 }
+{
+}
 )
 )
 def
@@ -168,7 +173,7 @@ tp
 return
 (
 n
-TestTask
+Task
 (
 '
 test
@@ -188,6 +193,8 @@ test_platform
 :
 tp
     
+}
+{
 }
 )
 )

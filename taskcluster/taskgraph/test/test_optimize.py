@@ -89,9 +89,12 @@ import
 graph
 from
 .
-util
+.
+task
+.
+base
 import
-TestTask
+Task
 class
 TestResolveTaskReferences
 (
@@ -695,11 +698,20 @@ def
         
 task
 =
-TestTask
+Task
 (
+kind
+=
+'
+test
+'
 label
 =
 label
+attributes
+=
+{
+}
 task
 =
 task_def
@@ -767,7 +779,7 @@ if
 isinstance
 (
 t
-TestTask
+Task
 )
 }
         
@@ -784,7 +796,7 @@ not
 isinstance
 (
 e
-TestTask
+Task
 )
 }
         
