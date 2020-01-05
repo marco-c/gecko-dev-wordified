@@ -307,6 +307,9 @@ ContentHostTexture
 :
 Composite
 (
+Compositor
+*
+aCompositor
 LayerComposite
 *
 aLayer
@@ -1295,9 +1298,7 @@ texRect
 height
 )
 ;
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawGeometry
@@ -1342,9 +1343,7 @@ DiagnosticFlags
 COMPONENT_ALPHA
 ;
 }
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawDiagnostics
@@ -1435,9 +1434,7 @@ DiagnosticFlags
 COMPONENT_ALPHA
 ;
 }
-GetCompositor
-(
-)
+aCompositor
 -
 >
 DrawDiagnostics
