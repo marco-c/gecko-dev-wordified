@@ -3440,11 +3440,13 @@ length
 try
 !
 (
-interpolate_half
-(
 self
 .
 length
+.
+interpolate
+(
+&
 other
 .
 length
