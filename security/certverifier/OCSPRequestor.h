@@ -137,6 +137,13 @@ h
 namespace
 mozilla
 {
+class
+NeckoOriginAttributes
+;
+}
+namespace
+mozilla
+{
 namespace
 psm
 {
@@ -168,9 +175,9 @@ char
 *
 url
 const
-char
-*
-firstPartyDomain
+NeckoOriginAttributes
+&
+originAttributes
 const
 SECItem
 *

@@ -473,9 +473,9 @@ char
 *
 url
 const
-char
-*
-firstPartyDomain
+NeckoOriginAttributes
+&
+originAttributes
 const
 SECItem
 *
@@ -1140,7 +1140,7 @@ method
 get
 (
 )
-firstPartyDomain
+originAttributes
 timeout
 &
 requestSessionPtr
