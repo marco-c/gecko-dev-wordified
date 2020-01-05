@@ -859,6 +859,8 @@ resolve
 (
 request
 .
+result
+.
 usage
 )
 )
