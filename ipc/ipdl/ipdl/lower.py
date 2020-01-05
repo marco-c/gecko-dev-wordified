@@ -30556,10 +30556,19 @@ capitalize
 )
 )
             
-StmtExpr
-(
-registerexpr
-)
+#
+set
+manager
+in
+prior
+to
+register
+to
+inherit
+EventTarget
+from
+manager
+.
             
 StmtExpr
 (
@@ -30584,6 +30593,11 @@ ExprVar
 THIS
 ]
 )
+)
+            
+StmtExpr
+(
+registerexpr
 )
             
 StmtExpr
