@@ -173,6 +173,12 @@ util
 :
 tree
 ;
+use
+super
+:
+:
+cow
+;
 pub
 enum
 NodeData
@@ -1139,7 +1145,7 @@ Node
 {
 pure
 fn
-eq
+tree_eq
 (
 a
 :

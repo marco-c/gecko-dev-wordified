@@ -134,7 +134,7 @@ R
 ;
 pure
 fn
-eq
+tree_eq
 (
 &
 T
@@ -276,9 +276,6 @@ T
 >
 bool
 {
-tree
-:
-:
 first_child
 (
 ops
@@ -578,7 +575,7 @@ assert
 !
 ops
 .
-eq
+tree_eq
 (
 &
 parent
@@ -814,7 +811,7 @@ parent_n
 assert
 ops
 .
-eq
+tree_eq
 (
 &
 parent
@@ -868,7 +865,7 @@ first_child
 if
 ops
 .
-eq
+tree_eq
 (
 &
 child
@@ -926,7 +923,7 @@ last_child
 if
 ops
 .
-eq
+tree_eq
 (
 &
 child

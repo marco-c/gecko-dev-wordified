@@ -1,4 +1,7 @@
 use
+core
+;
+use
 dom
 :
 :
@@ -5126,8 +5129,10 @@ Au
 d
 :
 &
-mut
+Mut
+<
 DisplayList
+>
 )
 ;
 }
@@ -5455,7 +5460,7 @@ get_size
 (
 )
 .
-get_default
+get_or_default
 (
 Size2D
 (
@@ -6549,8 +6554,10 @@ Au
 list
 :
 &
-mut
+Mut
+<
 DisplayList
+>
 )
 {
 assert

@@ -12,6 +12,9 @@ DOM
 /
 use
 dom
+;
+use
+dom
 :
 :
 element

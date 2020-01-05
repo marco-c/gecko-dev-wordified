@@ -143,6 +143,12 @@ std
 :
 :
 arc
+;
+use
+std
+:
+:
+arc
 :
 :
 ARC
@@ -369,9 +375,6 @@ Image
 let
 image
 =
-std
-:
-:
 arc
 :
 :
