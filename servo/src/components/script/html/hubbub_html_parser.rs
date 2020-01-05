@@ -3747,8 +3747,12 @@ child
 )
 ;
 let
-mut
 child
+:
+Root
+<
+Node
+>
 =
 from_hubbub_node
 (
@@ -3760,7 +3764,6 @@ root
 )
 ;
 let
-mut
 parent
 :
 Root
@@ -3782,10 +3785,13 @@ assert
 (
 parent
 .
+deref
+(
+)
+.
 AppendChild
 (
 &
-mut
 *
 child
 )
