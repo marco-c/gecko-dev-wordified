@@ -5210,7 +5210,7 @@ time
 .
 RefPtr
 <
-RefCountedTask
+CancelableRunnable
 >
 mOnChannelConnectedTask
 ;
