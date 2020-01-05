@@ -13650,6 +13650,12 @@ CopyTexSubImage
 the
 subrect
 .
+const
+uint8_t
+zOffset
+=
+0
+;
 if
 (
 !
@@ -13661,6 +13667,9 @@ mGLName
 target
 level
 dstUsage
+0
+0
+zOffset
 width
 height
 depth
@@ -13738,12 +13747,6 @@ funcName
 return
 ;
 }
-const
-uint8_t
-zOffset
-=
-0
-;
 error
 =
 DoCopyTexSubImage

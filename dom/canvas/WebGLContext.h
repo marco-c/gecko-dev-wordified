@@ -12926,6 +12926,12 @@ FormatUsageInfo
 *
 usage
 uint32_t
+xOffset
+uint32_t
+yOffset
+uint32_t
+zOffset
+uint32_t
 width
 uint32_t
 height
