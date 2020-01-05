@@ -392,6 +392,10 @@ const
 nsACString
 &
 npnToken
+const
+OriginAttributes
+&
+originAttributes
 )
 ;
 public
@@ -627,6 +631,10 @@ int32_t
 originPort
 bool
 privateBrowsing
+const
+OriginAttributes
+&
+originAttributes
 )
 ;
 private
@@ -745,6 +753,9 @@ same
 con
 nsCString
 mNPNToken
+;
+OriginAttributes
+mOriginAttributes
 ;
 }
 ;
@@ -944,6 +955,10 @@ int32_t
 port
 bool
 pb
+const
+OriginAttributes
+&
+originAttributes
 )
 ;
 void
@@ -960,6 +975,10 @@ nsACString
 host
 int32_t
 port
+const
+OriginAttributes
+&
+originAttributes
 )
 ;
 void
