@@ -409,6 +409,13 @@ h
 #
 include
 "
+nsHTMLTags
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1043,6 +1050,13 @@ AddRefAtoms
 )
 ;
 nsTextServicesDocument
+:
+:
+RegisterAtoms
+(
+)
+;
+nsHTMLTags
 :
 :
 RegisterAtoms

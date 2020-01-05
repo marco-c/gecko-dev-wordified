@@ -322,6 +322,13 @@ nsHTMLTags
 public
 :
 static
+void
+RegisterAtoms
+(
+void
+)
+;
+static
 nsresult
 AddRefTable
 (
