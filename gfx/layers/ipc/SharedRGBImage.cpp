@@ -508,12 +508,9 @@ if
 mCompositable
 -
 >
-GetAsyncID
+GetAsyncHandle
 (
 )
-!
-=
-0
 &
 &
 !
