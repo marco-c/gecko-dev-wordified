@@ -3827,6 +3827,12 @@ init
 (
 )
 ;
+UserAgentOverrides
+.
+init
+(
+)
+;
 DesktopUserAgent
 .
 init
