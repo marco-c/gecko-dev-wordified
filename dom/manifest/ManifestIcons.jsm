@@ -483,6 +483,7 @@ expectedSize
 )
 ;
 }
+async
 function
 fetchIcon
 (
@@ -491,7 +492,7 @@ src
 )
 {
 const
-manifestURL
+iconURL
 =
 new
 aWindow
@@ -499,6 +500,9 @@ aWindow
 URL
 (
 src
+aWindow
+.
+location
 )
 ;
 const
@@ -509,7 +513,7 @@ aWindow
 .
 Request
 (
-manifestURL
+iconURL
 {
 mode
 :
@@ -527,7 +531,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_WEB_MANIFEST
+TYPE_IMAGE
 )
 ;
 return
