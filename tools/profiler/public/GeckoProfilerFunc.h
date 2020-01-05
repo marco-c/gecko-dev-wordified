@@ -356,11 +356,6 @@ mozilla_sampler_get_responsiveness
 (
 )
 ;
-void
-mozilla_sampler_save
-(
-)
-;
 mozilla
 :
 :
