@@ -2889,7 +2889,7 @@ ChildrenOnlyTransform
 RecomputePosition
 "
 "
-AddOrRemoveTransform
+UpdateContainingBlock
 "
 "
 BorderStyleNoneChange
