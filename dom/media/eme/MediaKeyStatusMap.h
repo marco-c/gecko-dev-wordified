@@ -362,6 +362,14 @@ aIndex
 )
 const
 ;
+nsString
+GetKeyIDAsHexString
+(
+uint32_t
+aIndex
+)
+const
+;
 MediaKeyStatus
 GetValueAtIndex
 (

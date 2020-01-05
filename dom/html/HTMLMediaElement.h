@@ -1914,6 +1914,14 @@ NotifyDecoderPrincipalChanged
 final
 override
 ;
+void
+GetEMEInfo
+(
+nsString
+&
+aEMEInfo
+)
+;
 /
 /
 An

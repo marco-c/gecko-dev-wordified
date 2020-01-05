@@ -884,6 +884,14 @@ IsBoundToMediaElement
 )
 const
 ;
+void
+GetSessionsInfo
+(
+nsString
+&
+sessionsInfo
+)
+;
 private
 :
 /
