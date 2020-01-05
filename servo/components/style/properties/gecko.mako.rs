@@ -14089,7 +14089,7 @@ union
 =
 clip_path
 .
-StyleShapeSource_nsStyleStruct_h_unnamed_26
+__bindgen_anon_1
 ;
 let
 mut
@@ -14907,7 +14907,7 @@ union
 =
 clip_path
 .
-StyleShapeSource_nsStyleStruct_h_unnamed_26
+__bindgen_anon_1
 ;
 let
 shape
