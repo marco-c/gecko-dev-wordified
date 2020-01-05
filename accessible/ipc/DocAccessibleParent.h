@@ -849,6 +849,12 @@ aChildDoc
 )
 ;
 }
+DebugOnly
+<
+bool
+>
+result
+=
 mChildDocs
 .
 RemoveElement
@@ -862,6 +868,11 @@ aChildDoc
 mParentDoc
 =
 nullptr
+;
+MOZ_ASSERT
+(
+result
+)
 ;
 MOZ_ASSERT
 (
