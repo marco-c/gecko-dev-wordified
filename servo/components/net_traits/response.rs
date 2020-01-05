@@ -270,6 +270,7 @@ reason
 [
 derive
 (
+Debug
 Clone
 Copy
 Deserialize
@@ -487,6 +488,7 @@ state
 [
 derive
 (
+Debug
 Clone
 Copy
 HeapSizeOf
@@ -551,6 +553,7 @@ spec
 [
 derive
 (
+Debug
 Clone
 HeapSizeOf
 )
