@@ -200,10 +200,6 @@ mScrollbarDragOffset
 (
 0
 )
-mScrollThumbLength
-(
-0
-)
 mDirection
 (
 NONE
@@ -229,8 +225,6 @@ const
 CSSRect
 &
 aScrollTrack
-CSSCoord
-aScrollThumbLength
 DragDirection
 aDirection
 )
@@ -255,10 +249,6 @@ mScrollTrack
 (
 aScrollTrack
 )
-mScrollThumbLength
-(
-aScrollThumbLength
-)
 mDirection
 (
 aDirection
@@ -282,9 +272,6 @@ mScrollbarDragOffset
 ;
 CSSRect
 mScrollTrack
-;
-CSSCoord
-mScrollThumbLength
 ;
 DragDirection
 mDirection

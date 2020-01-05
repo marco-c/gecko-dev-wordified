@@ -786,6 +786,14 @@ GetScrollTargetId
 )
 const
 ;
+const
+ScrollThumbData
+&
+GetScrollThumbData
+(
+)
+const
+;
 /
 *
 Fixed
