@@ -20720,9 +20720,7 @@ StyleList
 )
 -
 >
-GetCounterStyle
-(
-)
+mCounterStyle
 ;
 AnonymousCounterStyle
 *
@@ -20751,12 +20749,10 @@ SetIdent
 nsString
 type
 ;
-StyleList
-(
-)
+style
 -
 >
-GetListStyleType
+GetStyleName
 (
 type
 )

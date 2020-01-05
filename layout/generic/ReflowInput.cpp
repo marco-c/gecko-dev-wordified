@@ -908,9 +908,7 @@ StyleList
 )
 -
 >
-GetCounterStyle
-(
-)
+mCounterStyle
 -
 >
 GetStyle

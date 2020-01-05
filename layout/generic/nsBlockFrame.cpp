@@ -51498,9 +51498,7 @@ style
 styleList
 -
 >
-GetCounterStyle
-(
-)
+mCounterStyle
 ;
 CreateBulletFrameForListItem
 (
@@ -51807,9 +51805,7 @@ return
 list
 -
 >
-GetCounterStyle
-(
-)
+mCounterStyle
 -
 >
 IsNone
