@@ -538,6 +538,12 @@ use
 servo_util
 :
 :
+task_state
+;
+use
+servo_util
+:
+:
 time
 :
 :
@@ -1401,6 +1407,10 @@ spawn_named_with_send_on_failure
 "
 LayoutTask
 "
+task_state
+:
+:
+Layout
 proc
 (
 )
@@ -1862,6 +1872,10 @@ new
 "
 LayoutWorker
 "
+task_state
+:
+:
+Layout
 opts
 :
 :
