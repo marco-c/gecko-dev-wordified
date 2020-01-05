@@ -137,6 +137,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 }
 ;
 use
@@ -1308,10 +1309,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
 self
 .

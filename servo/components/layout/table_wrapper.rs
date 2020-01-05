@@ -175,10 +175,7 @@ use
 euclid
 :
 :
-{
 Point2D
-Rect
-}
 ;
 use
 floats
@@ -214,6 +211,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 }
 ;
 use
@@ -2781,10 +2779,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 {
 self
 .

@@ -416,6 +416,7 @@ fragment
 {
 Fragment
 FragmentBorderBoxIterator
+Overflow
 SpecificFragmentInfo
 }
 ;
@@ -2574,6 +2575,7 @@ iter_mut
 )
 {
 let
+mut
 kid_overflow
 =
 base
@@ -2604,13 +2606,6 @@ writing_mode
 container_size
 )
 ;
-overflow
-=
-overflow
-.
-union
-(
-&
 kid_overflow
 .
 translate
@@ -2620,6 +2615,13 @@ kid_position
 .
 origin
 )
+;
+overflow
+.
+union
+(
+&
+kid_overflow
 )
 }
 }
@@ -2637,7 +2639,6 @@ self
 overflow
 =
 overflow
-;
 }
 /
 /
@@ -2726,10 +2727,7 @@ self
 )
 -
 >
-Rect
-<
-Au
->
+Overflow
 ;
 /
 /
@@ -7317,10 +7315,7 @@ invalidation
 pub
 overflow
 :
-Rect
-<
-Au
->
+Overflow
 /
 /
 /
@@ -8993,10 +8988,10 @@ writing_mode
 )
 overflow
 :
-Rect
+Overflow
 :
 :
-zero
+new
 (
 )
 parallel
@@ -9337,6 +9332,8 @@ union
 self
 .
 overflow
+.
+paint
 )
 ;
 let
