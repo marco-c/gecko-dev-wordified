@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h

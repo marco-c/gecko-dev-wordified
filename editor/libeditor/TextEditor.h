@@ -1119,8 +1119,8 @@ nullptr
 bool
 UpdateMetaCharset
 (
-nsIDOMDocument
-*
+nsIDocument
+&
 aDocument
 const
 nsACString
