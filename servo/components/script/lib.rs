@@ -69,14 +69,6 @@ ascii
 [
 feature
 (
-as_slice
-)
-]
-#
-!
-[
-feature
-(
 as_unsafe_cell
 )
 ]
