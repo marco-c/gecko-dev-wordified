@@ -813,6 +813,12 @@ mClosed
 =
 true
 ;
+mCompositables
+.
+clear
+(
+)
+;
 MessageLoop
 :
 :
