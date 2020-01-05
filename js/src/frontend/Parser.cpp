@@ -22104,6 +22104,8 @@ standaloneLazyFunction
 (
 HandleFunction
 fun
+uint32_t
+toStringStart
 bool
 strict
 GeneratorKind
@@ -22153,13 +22155,7 @@ newFunctionBox
 (
 pn
 fun
-/
-*
 toStringStart
-=
-*
-/
-0
 directives
 generatorKind
 asyncKind
@@ -23377,11 +23373,7 @@ funbox
 >
 setEnd
 (
-pos
-(
-)
-.
-end
+tokenStream
 )
 ;
 }
@@ -23417,11 +23409,7 @@ funbox
 >
 setEnd
 (
-pos
-(
-)
-.
-end
+tokenStream
 )
 ;
 if
@@ -52397,7 +52385,7 @@ genFunbox
 >
 setEnd
 (
-end
+tokenStream
 )
 ;
 handler
