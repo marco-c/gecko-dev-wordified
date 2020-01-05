@@ -1707,14 +1707,6 @@ paint_chan
 :
 OptionalOpaqueIpcSender
 pub
-layout_shutdown_chan
-:
-IpcSender
-<
-(
-)
->
-pub
 content_process_shutdown_chan
 :
 IpcSender

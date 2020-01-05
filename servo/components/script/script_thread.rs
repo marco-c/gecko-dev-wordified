@@ -8577,7 +8577,6 @@ paint_chan
 panic_chan
 pipeline_port
 layout_to_constellation_chan
-layout_shutdown_chan
 content_process_shutdown_chan
 }
 =
@@ -8654,9 +8653,6 @@ image_cache_thread
 clone
 (
 )
-layout_shutdown_chan
-:
-layout_shutdown_chan
 content_process_shutdown_chan
 :
 content_process_shutdown_chan

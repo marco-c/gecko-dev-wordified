@@ -355,13 +355,6 @@ mem
 :
 :
 ProfilerChan
-shutdown_chan
-:
-IpcSender
-<
-(
-)
->
 content_process_shutdown_chan
 :
 IpcSender
