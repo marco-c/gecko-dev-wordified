@@ -380,6 +380,10 @@ mPrintEngine
 =
 nullptr
 ;
+mPrintObj
+=
+nullptr
+;
 }
 private
 :
