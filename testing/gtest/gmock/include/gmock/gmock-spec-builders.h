@@ -9972,6 +9972,12 @@ UntypedActionResultHolderBase
 {
 public
 :
+explicit
+ActionResultHolder
+(
+)
+{
+}
 void
 GetValueAndDelete
 (
@@ -10061,7 +10067,10 @@ call_description
 )
 ;
 return
-NULL
+new
+ActionResultHolder
+(
+)
 ;
 }
 /
@@ -10112,7 +10121,10 @@ args
 )
 ;
 return
-NULL
+new
+ActionResultHolder
+(
+)
 ;
 }
 }
