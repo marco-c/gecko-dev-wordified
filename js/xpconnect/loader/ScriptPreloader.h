@@ -2270,7 +2270,7 @@ Cleanup
 )
 ;
 void
-FlushCache
+InvalidateCache
 (
 )
 ;
@@ -2622,6 +2622,11 @@ false
 ;
 bool
 mDataPrepared
+=
+false
+;
+bool
+mCacheInvalidated
 =
 false
 ;
