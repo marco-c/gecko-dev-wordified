@@ -324,10 +324,6 @@ NO_COLOR
 1
 ;
 private
-Toolbar
-toolbar
-;
-private
 ActionBar
 actionBar
 ;
