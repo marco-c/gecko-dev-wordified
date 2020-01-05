@@ -2660,19 +2660,6 @@ __init__
 self
 loc
 spec
-array
-=
-0
-nullable
-=
-0
-                 
-myChmod
-=
-None
-otherChmod
-=
-None
 )
 :
         
@@ -2696,7 +2683,7 @@ self
 .
 array
 =
-array
+0
 #
 bool
         
@@ -2704,7 +2691,7 @@ self
 .
 nullable
 =
-nullable
+0
 #
 bool
         
@@ -2712,7 +2699,7 @@ self
 .
 myChmod
 =
-myChmod
+None
 #
 None
 or
@@ -2722,7 +2709,7 @@ self
 .
 otherChmod
 =
-otherChmod
+None
 #
 None
 or
