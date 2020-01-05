@@ -492,7 +492,7 @@ link
 to
 about
 :
-mozilla
+logo
 yield
 testLink
 (
@@ -530,7 +530,7 @@ href
 "
 about
 :
-mozilla
+logo
 "
 ;
 doc
