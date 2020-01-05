@@ -2007,16 +2007,16 @@ void
 TextureHostDirectUpload
 :
 :
-SetCompositor
+SetTextureSourceProvider
 (
-Compositor
+TextureSourceProvider
 *
-aCompositor
+aProvider
 )
 {
-mCompositor
+mProvider
 =
-aCompositor
+aProvider
 ;
 }
 void
@@ -2172,7 +2172,7 @@ aRegion
 if
 (
 !
-mCompositor
+mProvider
 )
 {
 /
@@ -2210,7 +2210,7 @@ mTextureSource
 {
 mTextureSource
 =
-mCompositor
+mProvider
 -
 >
 CreateDataTextureSource
@@ -2427,7 +2427,7 @@ aRegion
 if
 (
 !
-mCompositor
+mProvider
 )
 {
 /
@@ -2465,7 +2465,7 @@ mTextureSource
 {
 mTextureSource
 =
-mCompositor
+mProvider
 -
 >
 CreateDataTextureSource
