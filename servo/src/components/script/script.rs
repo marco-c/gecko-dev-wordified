@@ -211,6 +211,10 @@ net
 ;
 extern
 crate
+rustrt
+;
+extern
+crate
 serialize
 ;
 extern
@@ -399,6 +403,10 @@ console
 pub
 mod
 customevent
+;
+pub
+mod
+dedicatedworkerglobalscope
 ;
 pub
 mod
@@ -795,6 +803,14 @@ virtualmethods
 pub
 mod
 window
+;
+pub
+mod
+worker
+;
+pub
+mod
+workerglobalscope
 ;
 pub
 mod

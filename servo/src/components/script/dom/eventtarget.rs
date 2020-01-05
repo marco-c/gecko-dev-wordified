@@ -189,6 +189,15 @@ use
 dom
 :
 :
+workerglobalscope
+:
+:
+WorkerGlobalScopeId
+;
+use
+dom
+:
+:
 xmlhttprequest
 :
 :
@@ -311,6 +320,11 @@ NodeTargetTypeId
 NodeTypeId
 )
 WindowTypeId
+WorkerTypeId
+WorkerGlobalScopeTypeId
+(
+WorkerGlobalScopeId
+)
 XMLHttpRequestTargetTypeId
 (
 XMLHttpRequestId
