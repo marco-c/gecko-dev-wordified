@@ -6049,7 +6049,13 @@ const
 uint32_t
 MAX_FIXED_SLOTS
 =
-16
+shadow
+:
+:
+Object
+:
+:
+MAX_FIXED_SLOTS
 ;
 protected
 :

@@ -179,7 +179,10 @@ PROXY_CLASS_WITH_EXT
 "
 Proxy
 "
-0
+JSCLASS_HAS_RESERVED_SLOTS
+(
+1
+)
 /
 *
 additional

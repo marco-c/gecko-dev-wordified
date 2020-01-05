@@ -3851,11 +3851,29 @@ self
 )
 :
         
+#
+We
+need
+one
+reserved
+slot
+(
+DOM_OBJECT_SLOT
+)
+.
+        
 flags
 =
 [
 "
 JSCLASS_IS_DOMJSCLASS
+"
+                 
+"
+JSCLASS_HAS_RESERVED_SLOTS
+(
+1
+)
 "
 ]
         
