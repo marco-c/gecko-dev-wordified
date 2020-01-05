@@ -390,7 +390,7 @@ toolbox
 yield
 openNewTabAndToolbox
 (
-TEST_URI
+url
 "
 webconsole
 "
