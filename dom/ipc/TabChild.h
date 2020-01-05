@@ -4390,6 +4390,12 @@ mozilla
 TimeStamp
 mLastWheelProcessedTimeFromParent
 ;
+mozilla
+:
+:
+TimeDuration
+mLastWheelProcessingDuration
+;
 CoalescedWheelData
 mCoalescedWheelData
 ;
