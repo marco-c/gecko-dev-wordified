@@ -1455,10 +1455,6 @@ pub
 origin
 :
 Origin
-pub
-omit_origin_header
-:
-bool
 /
 /
 /
@@ -1948,9 +1944,6 @@ Origin
 :
 Client
 )
-omit_origin_header
-:
-false
 referrer
 :
 Referrer

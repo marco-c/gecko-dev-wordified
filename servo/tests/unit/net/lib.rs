@@ -454,14 +454,6 @@ create_ssl_client
 ca_file
 )
 ;
-let
-connector
-=
-create_http_connector
-(
-ssl_client
-)
-;
 FetchContext
 {
 state
@@ -476,6 +468,7 @@ HttpState
 :
 new
 (
+ssl_client
 )
 )
 user_agent
@@ -496,9 +489,6 @@ FileManager
 new
 (
 )
-connector
-:
-connector
 }
 }
 impl

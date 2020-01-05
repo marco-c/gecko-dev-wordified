@@ -274,10 +274,7 @@ net
 connector
 :
 :
-{
-create_http_connector
 create_ssl_client
-}
 ;
 use
 net
@@ -5110,14 +5107,6 @@ ca_file
 )
 ;
 let
-connector
-=
-create_http_connector
-(
-ssl_client
-)
-;
-let
 context
 =
 FetchContext
@@ -5134,6 +5123,7 @@ HttpState
 :
 new
 (
+ssl_client
 )
 )
 user_agent
@@ -5154,9 +5144,6 @@ FileManager
 new
 (
 )
-connector
-:
-connector
 }
 ;
 {
