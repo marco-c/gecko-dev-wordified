@@ -168,16 +168,6 @@ exes
 :
 {
         
-'
-python2
-.
-7
-'
-:
-sys
-.
-executable
-        
 "
 buildbot
 "
@@ -379,12 +369,6 @@ secrets
 }
     
 ]
-    
-'
-enable_ccache
-'
-:
-True
     
 '
 enable_check_test

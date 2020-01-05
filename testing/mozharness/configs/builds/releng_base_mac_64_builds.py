@@ -180,16 +180,6 @@ exes
 :
 {
         
-'
-python2
-.
-7
-'
-:
-sys
-.
-executable
-        
 "
 buildbot
 "
@@ -240,12 +230,6 @@ env
     
 '
 enable_signing
-'
-:
-True
-    
-'
-enable_ccache
 '
 :
 True

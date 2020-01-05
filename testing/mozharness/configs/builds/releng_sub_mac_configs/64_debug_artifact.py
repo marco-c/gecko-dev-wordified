@@ -157,16 +157,6 @@ exes
 :
 {
         
-'
-python2
-.
-7
-'
-:
-sys
-.
-executable
-        
 "
 buildbot
 "
@@ -220,12 +210,6 @@ enable_signing
 '
 :
 False
-    
-'
-enable_ccache
-'
-:
-True
     
 '
 vcs_share_base
