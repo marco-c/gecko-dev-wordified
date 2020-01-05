@@ -1574,10 +1574,6 @@ define
 _CRT_SPINCOUNT
 5000
 #
-define
-__crtInitCritSecAndSpinCount
-InitializeCriticalSectionAndSpinCount
-#
 include
 <
 io
@@ -8953,7 +8949,7 @@ MOZ_MEMORY_WINDOWS
 if
 (
 !
-__crtInitCritSecAndSpinCount
+InitializeCriticalSectionAndSpinCount
 (
 mutex
 _CRT_SPINCOUNT
@@ -9199,7 +9195,7 @@ MOZ_MEMORY_WINDOWS
 if
 (
 !
-__crtInitCritSecAndSpinCount
+InitializeCriticalSectionAndSpinCount
 (
 lock
 _CRT_SPINCOUNT
