@@ -102,6 +102,15 @@ local_image_cache
 :
 LocalImageCache
 ;
+use
+extra
+:
+:
+arc
+:
+:
+MutexArc
+;
 /
 /
 /
@@ -122,8 +131,10 @@ mut
 FontContext
 image_cache
 :
-mut
+MutexArc
+<
 LocalImageCache
+>
 screen_size
 :
 Rect

@@ -81,6 +81,15 @@ url
 Url
 ;
 use
+extra
+:
+:
+arc
+:
+:
+MutexArc
+;
+use
 geom
 :
 :
@@ -949,8 +958,10 @@ image_url
 Url
 local_image_cache
 :
-mut
+MutexArc
+<
 LocalImageCache
+>
 )
 -
 >

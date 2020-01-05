@@ -1766,6 +1766,10 @@ self
 layout_context
 .
 image_cache
+.
+clone
+(
+)
 )
 )
 }
