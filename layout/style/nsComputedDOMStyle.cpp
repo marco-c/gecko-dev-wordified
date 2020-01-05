@@ -329,6 +329,15 @@ h
 #
 include
 "
+mozilla
+/
+RestyleManager
+.
+h
+"
+#
+include
+"
 imgIRequest
 .
 h
