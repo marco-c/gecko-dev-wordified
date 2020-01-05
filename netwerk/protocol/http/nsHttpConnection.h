@@ -665,8 +665,6 @@ nsAHttpTransaction
 *
 CloseConnectionFastOpenTakesTooLongOrError
 (
-bool
-aCloseocketTransport
 )
 ;
 /
