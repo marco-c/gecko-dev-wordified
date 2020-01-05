@@ -178,9 +178,6 @@ nsThreadUtils
 .
 h
 "
-class
-GMPCrashHelper
-;
 namespace
 mozilla
 {
@@ -212,6 +209,9 @@ MediaDecoderOwner
 ;
 class
 CDMProxy
+;
+class
+GMPCrashHelper
 ;
 typedef
 nsDataHashtable
