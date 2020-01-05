@@ -66,11 +66,6 @@ compositor
 thread
 .
 use
-CompositorMsg
-as
-ConstellationMsg
-;
-use
 SendableFrameTree
 ;
 use
@@ -185,6 +180,7 @@ script_traits
 :
 {
 AnimationState
+ConstellationMsg
 EventResult
 ScriptToCompositorMsg
 }
