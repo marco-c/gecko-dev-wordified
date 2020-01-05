@@ -799,9 +799,6 @@ if
 gCollation
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsICollationFactory
