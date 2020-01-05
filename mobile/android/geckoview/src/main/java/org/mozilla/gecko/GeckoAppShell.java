@@ -10471,12 +10471,6 @@ listener
 )
 ;
 public
-void
-invalidateOptionsMenu
-(
-)
-;
-public
 boolean
 isForegrounded
 (
