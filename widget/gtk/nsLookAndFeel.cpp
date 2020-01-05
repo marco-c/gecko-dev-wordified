@@ -604,6 +604,13 @@ aDest
 >
 blue
 ;
+aDest
+-
+>
+alpha
+=
+resultAlpha
+;
 }
 }
 static
