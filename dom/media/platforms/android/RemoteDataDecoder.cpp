@@ -863,6 +863,10 @@ layers
 ImageContainer
 *
 aImageContainer
+const
+nsString
+&
+aDrmStubId
 )
 :
 RemoteDataDecoder
@@ -879,6 +883,7 @@ aConfig
 mMimeType
 aFormat
 aCallback
+aDrmStubId
 )
 mImageContainer
 (
@@ -1038,6 +1043,7 @@ JavaSurface
 (
 )
 mJavaCallbacks
+mDrmStubId
 )
 ;
 if
@@ -1286,6 +1292,10 @@ aFormat
 MediaDataDecoderCallback
 *
 aCallback
+const
+nsString
+&
+aDrmStubId
 )
 :
 RemoteDataDecoder
@@ -1302,6 +1312,7 @@ aConfig
 mMimeType
 aFormat
 aCallback
+aDrmStubId
 )
 mConfig
 (
@@ -1488,6 +1499,7 @@ Create
 mFormat
 nullptr
 mJavaCallbacks
+mDrmStubId
 )
 ;
 if
@@ -1987,6 +1999,10 @@ aFormat
 MediaDataDecoderCallback
 *
 aCallback
+const
+nsString
+&
+aDrmStubId
 )
 {
 return
@@ -1996,6 +2012,7 @@ RemoteAudioDecoder
 aConfig
 aFormat
 aCallback
+aDrmStubId
 )
 ;
 }
@@ -2024,6 +2041,10 @@ layers
 ImageContainer
 *
 aImageContainer
+const
+nsString
+&
+aDrmStubId
 )
 {
 return
@@ -2034,6 +2055,7 @@ aConfig
 aFormat
 aCallback
 aImageContainer
+aDrmStubId
 )
 ;
 }
@@ -2059,6 +2081,10 @@ aFormat
 MediaDataDecoderCallback
 *
 aCallback
+const
+nsString
+&
+aDrmStubId
 )
 :
 mType
@@ -2076,6 +2102,10 @@ aFormat
 mCallback
 (
 aCallback
+)
+mDrmStubId
+(
+aDrmStubId
 )
 {
 }

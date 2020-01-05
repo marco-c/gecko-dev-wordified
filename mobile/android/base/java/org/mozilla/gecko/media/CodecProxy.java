@@ -208,6 +208,10 @@ private
 CallbacksForwarder
 mCallbacks
 ;
+private
+String
+mRemoteDrmStubId
+;
 public
 interface
 Callbacks
@@ -436,6 +440,8 @@ Surface
 surface
 Callbacks
 callbacks
+String
+drmStubId
 )
 {
 return
@@ -450,6 +456,7 @@ createCodec
 format
 surface
 callbacks
+drmStubId
 )
 ;
 }
@@ -464,6 +471,8 @@ Surface
 surface
 Callbacks
 callbacks
+String
+drmStubId
 )
 {
 return
@@ -473,6 +482,7 @@ CodecProxy
 format
 surface
 callbacks
+drmStubId
 )
 ;
 }
@@ -485,6 +495,8 @@ Surface
 surface
 Callbacks
 callbacks
+String
+drmStubId
 )
 {
 mFormat
@@ -498,6 +510,10 @@ format
 mOutputSurface
 =
 surface
+;
+mRemoteDrmStubId
+=
+drmStubId
 ;
 mCallbacks
 =
@@ -531,6 +547,7 @@ configure
 mFormat
 mOutputSurface
 0
+mRemoteDrmStubId
 )
 ;
 remote

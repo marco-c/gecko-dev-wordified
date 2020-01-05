@@ -147,6 +147,10 @@ aFormat
 MediaDataDecoderCallback
 *
 aCallback
+const
+nsString
+&
+aDrmStubId
 )
 ;
 static
@@ -178,6 +182,10 @@ layers
 ImageContainer
 *
 aImageContainer
+const
+nsString
+&
+aDrmStubId
 )
 ;
 virtual
@@ -258,6 +266,10 @@ aFormat
 MediaDataDecoderCallback
 *
 aCallback
+const
+nsString
+&
+aDrmStubId
 )
 ;
 MediaData
@@ -305,6 +317,9 @@ NativeCallbacks
 :
 GlobalRef
 mJavaCallbacks
+;
+nsString
+mDrmStubId
 ;
 }
 ;
