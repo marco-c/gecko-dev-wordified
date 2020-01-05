@@ -12404,6 +12404,7 @@ name
 UAName
 ID
 vendor
+gSafeMode
 )
 ;
 }
