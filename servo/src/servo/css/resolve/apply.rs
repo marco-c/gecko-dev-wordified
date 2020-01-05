@@ -45,7 +45,7 @@ use
 layout
 :
 :
-base
+box
 :
 :
 {
