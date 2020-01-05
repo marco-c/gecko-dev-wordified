@@ -2243,6 +2243,14 @@ ins
 )
 override
 ;
+void
+visitWasmFloatConstant
+(
+MWasmFloatConstant
+*
+ins
+)
+;
 /
 /
 Whether

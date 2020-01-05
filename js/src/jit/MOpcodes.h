@@ -1624,6 +1624,11 @@ WasmReinterpret
 \
 _
 (
+WasmFloatConstant
+)
+\
+_
+(
 WasmTruncateToInt64
 )
 /
