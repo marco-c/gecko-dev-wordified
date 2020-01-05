@@ -154,9 +154,7 @@ values
 specified
 :
 :
-{
 Length
-}
 ;
 /
 /

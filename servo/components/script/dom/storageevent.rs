@@ -105,9 +105,7 @@ Bindings
 StorageEventBinding
 :
 :
-{
 StorageEventMethods
-}
 ;
 use
 dom

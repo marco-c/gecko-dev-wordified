@@ -155,6 +155,12 @@ gl
 use
 glutin
 ;
+use
+glutin
+:
+:
+TouchPhase
+;
 #
 [
 cfg
@@ -193,14 +199,6 @@ GlRequest
 MouseButton
 VirtualKeyCode
 MouseScrollDelta
-}
-;
-use
-glutin
-:
-:
-{
-TouchPhase
 }
 ;
 use

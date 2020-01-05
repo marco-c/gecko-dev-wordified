@@ -87,9 +87,7 @@ use
 canvas_traits
 :
 :
-{
 CanvasMsg
-}
 ;
 use
 dom

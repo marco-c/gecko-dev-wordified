@@ -155,10 +155,7 @@ core_text
 font_descriptor
 :
 :
-{
-SymbolicTraitAccessors
-TraitAccessors
-}
+kCTFontDefaultOrientation
 ;
 use
 core_text
@@ -168,7 +165,8 @@ font_descriptor
 :
 :
 {
-kCTFontDefaultOrientation
+SymbolicTraitAccessors
+TraitAccessors
 }
 ;
 use

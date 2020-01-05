@@ -121,6 +121,9 @@ Point2D
 ;
 use
 flow
+;
+use
+flow
 :
 :
 {
@@ -130,14 +133,6 @@ Flow
 FlowClass
 ImmutableFlowUtils
 OpaqueFlow
-}
-;
-use
-flow
-:
-:
-{
-self
 }
 ;
 use
@@ -270,9 +265,7 @@ use
 table_row
 :
 :
-{
 TableRowFlow
-}
 ;
 use
 table_row

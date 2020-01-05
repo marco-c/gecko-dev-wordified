@@ -101,9 +101,7 @@ Bindings
 WebGLRenderingContextBinding
 :
 :
-{
 WebGLRenderingContextMethods
-}
 ;
 use
 dom

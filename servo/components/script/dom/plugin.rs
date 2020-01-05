@@ -96,9 +96,7 @@ bindings
 reflector
 :
 :
-{
 Reflector
-}
 ;
 use
 dom

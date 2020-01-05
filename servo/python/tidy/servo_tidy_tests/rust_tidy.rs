@@ -95,6 +95,17 @@ azure
 AzIntSize
 ;
 use
+azure
+:
+:
+azure
+:
+:
+{
+AzIntSize
+}
+;
+use
 std
 ;
 mod

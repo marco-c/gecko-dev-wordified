@@ -81,9 +81,7 @@ util
 str
 :
 :
-{
 LengthOrPercentageOrAuto
-}
 ;
 #
 [

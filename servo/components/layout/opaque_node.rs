@@ -116,9 +116,7 @@ script
 layout_interface
 :
 :
-{
 TrustedNodeAddress
-}
 ;
 use
 script_traits

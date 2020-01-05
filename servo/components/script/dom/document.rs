@@ -1171,9 +1171,7 @@ use
 num_traits
 :
 :
-{
 ToPrimitive
-}
 ;
 use
 origin
