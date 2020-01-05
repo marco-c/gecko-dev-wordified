@@ -3199,7 +3199,8 @@ Constants
 Operands
 :
 uint8_t
-n
+symbol
+(
 the
 JS
 :
@@ -3210,6 +3211,7 @@ the
 symbol
 to
 use
+)
 *
 Stack
 :
@@ -4478,7 +4480,7 @@ Stack
 :
 =
 >
-string
+atom
 *
 /
 \
