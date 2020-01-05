@@ -334,16 +334,6 @@ return
 mDestroyed
 ;
 }
-void
-MarkSyncTransaction
-(
-)
-{
-mSyncTransaction
-=
-true
-;
-}
 private
 :
 friend
@@ -424,8 +414,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-aSynchronously
 )
 override
 ;
@@ -558,8 +546,6 @@ const
 OpDestroy
 &
 aOp
-bool
-aSynchronously
 )
 ;
 nsTArray
@@ -584,9 +570,6 @@ mCompositables
 ;
 bool
 mIsInTransaction
-;
-bool
-mSyncTransaction
 ;
 bool
 mIPCOpen

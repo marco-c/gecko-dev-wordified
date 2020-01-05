@@ -93,6 +93,13 @@ MPL
 #
 include
 "
+WebRenderImageLayer
+.
+h
+"
+#
+include
+"
 WebRenderLayersLogging
 .
 h
@@ -100,7 +107,7 @@ h
 #
 include
 "
-WebRenderImageLayer
+gfxPrefs
 .
 h
 "

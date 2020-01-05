@@ -3533,7 +3533,7 @@ caretBlinkCount
 mBlinkTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 CaretBlinkCallback
 this
@@ -3542,6 +3542,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+nsCaret
+:
+:
+CaretBlinkCallback_timer
+"
 )
 ;
 }

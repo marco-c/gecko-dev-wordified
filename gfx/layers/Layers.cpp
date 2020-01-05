@@ -279,6 +279,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -4052,6 +4061,7 @@ AsHostLayer
 (
 )
 )
+{
 return
 shadow
 -
@@ -4060,7 +4070,7 @@ GetShadowTransform
 (
 )
 ;
-else
+}
 return
 GetTransform
 (
@@ -6784,8 +6794,6 @@ TraversalFlag
 Continue
 ;
 }
-else
-{
 aToSort
 .
 AppendElement
@@ -6799,7 +6807,6 @@ TraversalFlag
 :
 Skip
 ;
-}
 }
 )
 ;
@@ -11663,7 +11670,9 @@ nsPrintfCString
 vscrollbar
 =
 %
-lld
+"
+PRIu64
+"
 ]
 "
 GetScrollbarTargetContainerId
@@ -11699,7 +11708,9 @@ nsPrintfCString
 hscrollbar
 =
 %
-lld
+"
+PRIu64
+"
 ]
 "
 GetScrollbarTargetContainerId
@@ -11737,7 +11748,9 @@ isFixedPosition
 scrollId
 =
 %
-lld
+"
+PRIu64
+"
 sides
 =
 0x
@@ -11788,7 +11801,9 @@ isStickyPosition
 scrollId
 =
 %
-d
+"
+PRIu64
+"
 outer
 =
 (
