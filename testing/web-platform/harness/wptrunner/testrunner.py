@@ -3454,14 +3454,24 @@ block
 True
 timeout
 =
-1
+2
 )
             
 except
 Empty
 :
                 
-pass
+if
+test_queue
+.
+empty
+(
+)
+:
+                    
+test_queue
+=
+None
         
 return
 test
