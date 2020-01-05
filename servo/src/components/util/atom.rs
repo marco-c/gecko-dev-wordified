@@ -112,6 +112,15 @@ std
 fmt
 ;
 use
+std
+:
+:
+hash
+:
+:
+Hash
+;
+use
 string_cache
 :
 :
@@ -123,6 +132,7 @@ deriving
 (
 Clone
 Eq
+Hash
 PartialEq
 )
 ]
@@ -176,12 +186,6 @@ slice
 )
 }
 }
-}
-impl
-Str
-for
-Atom
-{
 #
 [
 inline
@@ -189,6 +193,7 @@ inline
 always
 )
 ]
+pub
 fn
 as_slice
 <
