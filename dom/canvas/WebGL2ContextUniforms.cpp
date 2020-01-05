@@ -877,7 +877,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getUniformIndices
@@ -1056,7 +1056,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getActiveUniforms
@@ -1350,7 +1350,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getUniformBlockIndex
@@ -1416,7 +1416,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getActiveUniformBlockParameter
@@ -1534,7 +1534,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getActiveUniformBlockName
@@ -1581,7 +1581,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 uniformBlockBinding

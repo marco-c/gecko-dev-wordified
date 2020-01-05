@@ -316,8 +316,6 @@ LinkedListElement
 <
 WebGLTexture
 >
-public
-WebGLContextBoundObject
 {
 /
 /

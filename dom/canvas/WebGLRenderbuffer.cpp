@@ -327,7 +327,7 @@ WebGLContext
 webgl
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

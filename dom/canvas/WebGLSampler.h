@@ -148,8 +148,6 @@ LinkedListElement
 <
 WebGLSampler
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

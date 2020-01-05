@@ -141,8 +141,6 @@ LinkedListElement
 <
 WebGLTransformFeedback
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

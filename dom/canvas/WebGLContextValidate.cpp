@@ -887,9 +887,10 @@ false
 if
 (
 !
-ValidateObject
+ValidateObjectAllowDeleted
 (
 funcName
+*
 loc
 )
 )

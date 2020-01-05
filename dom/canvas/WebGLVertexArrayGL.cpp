@@ -247,6 +247,7 @@ WebGLVertexArrayGL
 IsVertexArrayImpl
 (
 )
+const
 {
 gl
 :

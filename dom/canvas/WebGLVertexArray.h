@@ -171,8 +171,6 @@ LinkedListElement
 <
 WebGLVertexArray
 >
-public
-WebGLContextBoundObject
 {
 public
 :
@@ -279,6 +277,7 @@ bool
 IsVertexArray
 (
 )
+const
 ;
 WebGLContext
 *
@@ -382,6 +381,7 @@ bool
 IsVertexArrayImpl
 (
 )
+const
 =
 0
 ;

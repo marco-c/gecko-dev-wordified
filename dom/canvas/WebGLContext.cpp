@@ -1201,7 +1201,6 @@ template
 typename
 T
 >
-static
 void
 ClearLinkedList
 (

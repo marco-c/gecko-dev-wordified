@@ -258,7 +258,7 @@ if
 mContext
 -
 >
-ValidateObjectRef
+ValidateObject
 (
 "
 getShaderTranslatedSource

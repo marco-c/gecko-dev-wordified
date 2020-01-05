@@ -150,6 +150,7 @@ bool
 IsVertexArrayImpl
 (
 )
+const
 override
 ;
 private

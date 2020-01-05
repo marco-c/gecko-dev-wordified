@@ -148,8 +148,6 @@ LinkedListElement
 <
 WebGLQuery
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

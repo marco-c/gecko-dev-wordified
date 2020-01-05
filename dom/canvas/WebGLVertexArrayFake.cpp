@@ -367,6 +367,7 @@ WebGLVertexArrayFake
 IsVertexArrayImpl
 (
 )
+const
 {
 return
 mIsVAO

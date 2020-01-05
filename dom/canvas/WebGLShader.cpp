@@ -947,7 +947,7 @@ GLenum
 type
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )
