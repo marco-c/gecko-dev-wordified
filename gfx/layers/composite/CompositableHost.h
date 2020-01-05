@@ -439,6 +439,9 @@ TiledContentHost
 class
 CompositableParentManager
 ;
+class
+WebRenderImageHost
+;
 struct
 EffectChain
 ;
@@ -1024,6 +1027,17 @@ virtual
 TiledContentHost
 *
 AsTiledContentHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+WebRenderImageHost
+*
+AsWebRenderImageHost
 (
 )
 {

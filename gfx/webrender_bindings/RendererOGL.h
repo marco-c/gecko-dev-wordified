@@ -187,6 +187,9 @@ CompositorWidget
 namespace
 wr
 {
+class
+RenderTextureHost
+;
 /
 /
 /
@@ -461,6 +464,14 @@ WrRenderedEpochs
 *
 FlushRenderedEpochs
 (
+)
+;
+RenderTextureHost
+*
+GetRenderTexture
+(
+uint64_t
+aExternalImageId
 )
 ;
 protected
