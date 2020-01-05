@@ -107,9 +107,7 @@ Record
 {
 detailsPanelSelectedTab
 :
-"
-headers
-"
+0
 sidebarOpen
 :
 false
@@ -219,7 +217,7 @@ detailsPanelSelectedTab
 "
 action
 .
-id
+index
 )
 ;
 }

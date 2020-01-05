@@ -207,12 +207,12 @@ panel
 *
 param
 {
-string
+number
 }
-id
+index
 -
 tab
-id
+index
 to
 be
 selected
@@ -221,7 +221,7 @@ selected
 function
 selectDetailsPanelTab
 (
-id
+index
 )
 {
 return
@@ -229,7 +229,7 @@ return
 type
 :
 SELECT_DETAILS_PANEL_TAB
-id
+index
 }
 ;
 }

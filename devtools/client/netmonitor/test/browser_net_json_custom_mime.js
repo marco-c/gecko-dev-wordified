@@ -246,9 +246,9 @@ waitForDOM
 document
 "
 #
-response
--
 panel
+-
+3
 "
 )
 ;
@@ -283,9 +283,10 @@ querySelector
 (
 "
 #
-response
--
 tab
+-
+3
+a
 "
 )
 .
@@ -320,9 +321,9 @@ querySelector
 (
 "
 #
-response
--
 panel
+-
+3
 "
 )
 ;
