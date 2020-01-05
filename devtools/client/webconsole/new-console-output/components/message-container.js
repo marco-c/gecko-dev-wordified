@@ -501,6 +501,11 @@ NetworkEventMessage
 case
 MESSAGE_SOURCE
 .
+CSS
+:
+case
+MESSAGE_SOURCE
+.
 JAVASCRIPT
 :
 switch
