@@ -215,7 +215,5 @@ module
 .
 exports
 =
-{
-Sort
 sortReducer
-}
+;

@@ -94,9 +94,7 @@ batching
 )
 ;
 const
-{
-requestsReducer
-}
+requests
 =
 require
 (
@@ -108,9 +106,7 @@ requests
 )
 ;
 const
-{
-sortReducer
-}
+sort
 =
 require
 (
@@ -122,9 +118,7 @@ sort
 )
 ;
 const
-{
 filters
-}
 =
 require
 (
@@ -136,9 +130,7 @@ filters
 )
 ;
 const
-{
 timingMarkers
-}
 =
 require
 (
@@ -152,9 +144,7 @@ markers
 )
 ;
 const
-{
 ui
-}
 =
 require
 (
@@ -175,11 +165,7 @@ combineReducers
 (
 {
 requests
-:
-requestsReducer
 sort
-:
-sortReducer
 filters
 timingMarkers
 ui
