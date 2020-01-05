@@ -213,6 +213,12 @@ ipc_channel
 :
 :
 ipc
+:
+:
+{
+self
+IpcSender
+}
 ;
 use
 net_traits
@@ -228,7 +234,6 @@ storage_thread
 :
 :
 {
-StorageThread
 StorageThreadMsg
 StorageType
 }
@@ -389,7 +394,10 @@ self
 )
 -
 >
-StorageThread
+IpcSender
+<
+StorageThreadMsg
+>
 {
 let
 global_root
