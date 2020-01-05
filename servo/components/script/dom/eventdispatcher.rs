@@ -111,7 +111,7 @@ global
 :
 {
 GlobalRoot
-global_object_for_reflector
+global_root_from_reflector
 }
 ;
 use
@@ -410,7 +410,7 @@ let
 window
 =
 match
-global_object_for_reflector
+global_root_from_reflector
 (
 target
 )

@@ -92,7 +92,7 @@ bindings
 global
 :
 :
-global_object_for_js_object
+global_root_from_object
 ;
 use
 dom
@@ -1248,7 +1248,7 @@ CallSetup
 let
 global
 =
-global_object_for_js_object
+global_root_from_object
 (
 callback
 .

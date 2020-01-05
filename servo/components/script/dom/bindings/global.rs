@@ -129,7 +129,7 @@ bindings
 conversions
 :
 :
-native_from_reflector_jsmanaged
+root_from_object
 ;
 use
 dom
@@ -2099,7 +2099,7 @@ in
 .
 pub
 fn
-global_object_for_reflector
+global_root_from_reflector
 <
 T
 :
@@ -2115,7 +2115,7 @@ T
 >
 GlobalRoot
 {
-global_object_for_js_object
+global_root_from_object
 (
 *
 reflector
@@ -2157,7 +2157,7 @@ unrooted_must_root
 ]
 pub
 fn
-global_object_for_js_object
+global_root_from_object
 (
 obj
 :
@@ -2210,7 +2210,7 @@ JSCLASS_IS_GLOBAL
 )
 ;
 match
-native_from_reflector_jsmanaged
+root_from_object
 (
 global
 )
@@ -2239,7 +2239,7 @@ _
 )
 }
 match
-native_from_reflector_jsmanaged
+root_from_object
 (
 global
 )
