@@ -948,6 +948,7 @@ attr
 {
 AttrIdentifier
 AttrValue
+LengthOrPercentageOrAuto
 }
 ;
 use
@@ -1011,15 +1012,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-str
-:
-:
-LengthOrPercentageOrAuto
 ;
 use
 uuid
