@@ -9109,13 +9109,6 @@ aShellData
 sandboxBrokerServices
 )
 ;
-SandboxBroker
-:
-:
-CacheRulesDirectories
-(
-)
-;
 }
 else
 {
