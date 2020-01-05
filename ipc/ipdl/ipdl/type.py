@@ -4997,25 +4997,6 @@ qname
 (
 )
             
-if
-0
-=
-=
-len
-(
-qname
-.
-quals
-)
-:
-                
-fullname
-=
-None
-            
-else
-:
-                
 fullname
 =
 str
@@ -5073,6 +5054,18 @@ name
                 
 fullname
 =
+None
+if
+0
+=
+=
+len
+(
+qname
+.
+quals
+)
+else
 fullname
 )
             
