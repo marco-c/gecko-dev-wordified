@@ -12505,7 +12505,7 @@ CLEAR_ERROR
 aDeclaration
 -
 >
-AddVariableDeclaration
+AddVariable
 (
 aVariableName
 variableType
@@ -34319,15 +34319,6 @@ PseudoType
 ;
 if
 (
-type
->
-=
-CSSPseudoElementType
-:
-:
-Count
-|
-|
 !
 nsCSSPseudoElements
 :
@@ -43270,7 +43261,7 @@ CSS_CUSTOM_NAME_PREFIX_LENGTH
 aDeclaration
 -
 >
-AddVariableDeclaration
+AddVariable
 (
 varName
 variableType

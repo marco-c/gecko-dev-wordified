@@ -14793,7 +14793,7 @@ required
 decl
 -
 >
-GetValue
+GetPropertyValueByID
 (
 eCSSProperty_font
 aOutUsedFont
