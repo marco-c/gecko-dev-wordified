@@ -2835,11 +2835,6 @@ ProxyObject
 .
 nuke
 (
-&
-DeadObjectProxy
-:
-:
-singleton
 )
 ;
 MOZ_ASSERT

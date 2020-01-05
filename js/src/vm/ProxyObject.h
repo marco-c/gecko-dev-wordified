@@ -777,10 +777,6 @@ obj
 void
 nuke
 (
-const
-BaseProxyHandler
-*
-handler
 )
 ;
 /
