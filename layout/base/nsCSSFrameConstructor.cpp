@@ -12269,7 +12269,12 @@ TransitionManager
 >
 PruneCompletedTransitions
 (
-container
+aParentContent
+-
+>
+AsElement
+(
+)
 aPseudoElement
 pseudoStyleContext
 )
