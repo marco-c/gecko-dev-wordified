@@ -96,8 +96,6 @@ bindings
 :
 {
 nsIAtom
-uint8_t
-uint32_t
 }
 ;
 use
@@ -642,10 +640,10 @@ bytes
 :
 *
 const
-uint8_t
+u8
 length
 :
-uint32_t
+u32
 )
 -
 >
@@ -1426,7 +1424,12 @@ C
 fn
 Servo_GetComputedValuesForAnonymousBox
 (
-_
+_parentStyleOrNull
+:
+*
+mut
+ServoComputedValues
+_pseudoTag
 :
 *
 mut
