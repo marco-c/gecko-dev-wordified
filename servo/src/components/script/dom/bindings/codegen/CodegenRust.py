@@ -8004,34 +8004,6 @@ None
 )
         
 #
-This
-is
-an
-interface
-that
-we
-implement
-as
-a
-concrete
-class
-        
-#
-or
-an
-XPCOM
-interface
-.
-        
-argIsPointer
-=
-type
-.
-nullable
-(
-)
-        
-#
 Sequences
 and
 callbacks
@@ -8158,8 +8130,6 @@ failureCode
                         
 isOptional
 or
-argIsPointer
-or
 type
 .
 nullable
@@ -8204,8 +8174,6 @@ declName
 "
                         
 isOptional
-or
-argIsPointer
 or
 type
 .
@@ -8381,7 +8349,11 @@ typePtr
 )
         
 if
-argIsPointer
+type
+.
+nullable
+(
+)
 or
 isOptional
 :
