@@ -628,6 +628,7 @@ input
 mParsingMode
 media
 extraData
+aLineNumber
 )
 .
 Consume
@@ -690,6 +691,7 @@ this
 &
 input
 extraData
+aLineNumber
 )
 ;
 }

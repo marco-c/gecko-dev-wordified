@@ -280,6 +280,8 @@ media_list
 RawGeckoURLExtraData
 *
 extra_data
+uint32_t
+line_number_offset
 )
 SERVO_BINDING_FUNC
 (
@@ -317,6 +319,8 @@ data
 RawGeckoURLExtraData
 *
 extra_data
+uint32_t
+line_number_offset
 )
 SERVO_BINDING_FUNC
 (
