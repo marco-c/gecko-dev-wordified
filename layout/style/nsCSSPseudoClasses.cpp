@@ -673,15 +673,6 @@ aType
 Type
 :
 :
-mozDir
-|
-|
-aType
-=
-=
-Type
-:
-:
 dir
 ;
 }
