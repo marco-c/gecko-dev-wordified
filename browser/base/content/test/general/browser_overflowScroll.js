@@ -361,14 +361,6 @@ detail
 !
 =
 1
-|
-|
-aEvent
-.
-target
-!
-=
-tabstrip
 )
 return
 ;
