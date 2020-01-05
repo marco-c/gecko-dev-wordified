@@ -108,6 +108,15 @@ use
 style
 :
 :
+context
+:
+:
+QuirksMode
+;
+use
+style
+:
+:
 error_reporting
 :
 :
@@ -316,6 +325,10 @@ lock
 None
 &
 CSSErrorReporterTest
+QuirksMode
+:
+:
+NoQuirks
 0u64
 )
 ;
@@ -539,6 +552,10 @@ lock
 None
 &
 CSSErrorReporterTest
+QuirksMode
+:
+:
+NoQuirks
 0u64
 )
 ;

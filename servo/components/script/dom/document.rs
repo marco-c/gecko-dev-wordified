@@ -4814,6 +4814,9 @@ Msg
 :
 :
 SetQuirksMode
+(
+mode
+)
 )
 .
 unwrap

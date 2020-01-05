@@ -228,6 +228,13 @@ margin
 s
 "
 )
+allow_quirks
+=
+not
+side
+[
+1
+]
 animation_value_type
 =
 "

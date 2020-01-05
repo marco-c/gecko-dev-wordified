@@ -123,5 +123,8 @@ propdef
 -
 padding
 "
+allow_quirks
+=
+True
 )
 }

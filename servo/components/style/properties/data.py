@@ -1174,6 +1174,9 @@ None
 allowed_in_page_rule
 =
 False
+allow_quirks
+=
+False
 )
 :
         
@@ -1411,6 +1414,12 @@ arg_to_bool
 (
 allowed_in_page_rule
 )
+        
+self
+.
+allow_quirks
+=
+allow_quirks
         
 #
 https

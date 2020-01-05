@@ -93,6 +93,12 @@ use
 Atom
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -2067,6 +2073,9 @@ device
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -2186,6 +2195,7 @@ matches
 (
 &
 device
+quirks_mode
 )
 )
 ;

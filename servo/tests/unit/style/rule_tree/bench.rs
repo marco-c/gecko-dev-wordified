@@ -87,6 +87,15 @@ use
 style
 :
 :
+context
+:
+:
+QuirksMode
+;
+use
+style
+:
+:
 error_reporting
 :
 :
@@ -454,6 +463,10 @@ lock
 None
 &
 ErrorringErrorReporter
+QuirksMode
+:
+:
+NoQuirks
 0u64
 )
 ;

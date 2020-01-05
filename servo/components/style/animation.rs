@@ -3468,6 +3468,9 @@ CascadeFlags
 empty
 (
 )
+context
+.
+quirks_mode
 )
 ;
 computed

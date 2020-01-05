@@ -2212,6 +2212,11 @@ LengthParsingMode
 :
 :
 Default
+document
+.
+quirks_mode
+(
+)
 )
 ;
 let

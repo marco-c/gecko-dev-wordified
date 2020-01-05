@@ -8153,6 +8153,19 @@ get_url
 )
 ;
 let
+quirks_mode
+=
+self
+.
+Document
+(
+)
+.
+quirks_mode
+(
+)
+;
+let
 context
 =
 CssParserContext
@@ -8178,6 +8191,7 @@ LengthParsingMode
 :
 :
 Default
+quirks_mode
 )
 ;
 let

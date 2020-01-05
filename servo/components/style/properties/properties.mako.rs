@@ -269,6 +269,12 @@ use
 computed_values
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 font_metrics
 :
 :
@@ -2977,6 +2983,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 )
 %
 if
@@ -3074,6 +3083,7 @@ from_shorthand
 custom_properties
 f
 error_reporter
+quirks_mode
 )
 ;
 }
@@ -3151,6 +3161,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 )
 %
 if
@@ -3293,6 +3306,7 @@ LengthParsingMode
 :
 :
 Default
+quirks_mode
 )
 ;
 Parser
@@ -15861,6 +15875,9 @@ FontMetricsProvider
 flags
 :
 CascadeFlags
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -16078,6 +16095,7 @@ cascade_info
 error_reporter
 font_metrics_provider
 flags
+quirks_mode
 )
 }
 /
@@ -16173,6 +16191,9 @@ FontMetricsProvider
 flags
 :
 CascadeFlags
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -16446,6 +16467,9 @@ font_metrics_provider
 in_media_query
 :
 false
+quirks_mode
+:
+quirks_mode
 }
 ;
 /

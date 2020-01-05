@@ -73,6 +73,12 @@ missing_docs
 )
 ]
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -4217,6 +4223,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -4247,6 +4256,7 @@ LengthParsingMode
 :
 :
 Default
+quirks_mode
 )
 ;
 parse_property_declaration_list
@@ -4340,6 +4350,9 @@ ParseErrorReporter
 length_parsing_mode
 :
 LengthParsingMode
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -4372,6 +4385,7 @@ CssRuleType
 Style
 )
 length_parsing_mode
+quirks_mode
 )
 ;
 Parser

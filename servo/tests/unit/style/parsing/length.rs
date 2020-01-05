@@ -78,6 +78,15 @@ use
 style
 :
 :
+context
+:
+:
+QuirksMode
+;
+use
+style
+:
+:
 parser
 :
 :
@@ -490,6 +499,10 @@ LengthParsingMode
 :
 :
 SVG
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 let

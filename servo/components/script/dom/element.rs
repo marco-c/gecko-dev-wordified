@@ -17488,6 +17488,11 @@ win
 css_error_reporter
 (
 )
+doc
+.
+quirks_mode
+(
+)
 )
 )
 )

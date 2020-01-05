@@ -150,6 +150,12 @@ app_units
 Au
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -4501,6 +4507,9 @@ rule
 :
 &
 ViewportRule
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -4526,6 +4535,9 @@ rule
 :
 &
 ViewportRule
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -5116,6 +5128,9 @@ provider
 in_media_query
 :
 false
+quirks_mode
+:
+quirks_mode
 }
 ;
 /

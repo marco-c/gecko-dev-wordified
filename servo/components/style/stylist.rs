@@ -83,6 +83,12 @@ bit_vec
 BitVec
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 data
 :
 :
@@ -696,7 +702,7 @@ applied
 .
 quirks_mode
 :
-bool
+QuirksMode
 /
 /
 /
@@ -1372,7 +1378,10 @@ is_device_dirty
 true
 quirks_mode
 :
-false
+QuirksMode
+:
+:
+NoQuirks
 element_map
 :
 PerPseudoElementSelectorMap
@@ -1821,6 +1830,9 @@ self
 device
 &
 cascaded_rule
+self
+.
+quirks_mode
 )
 ;
 if
@@ -2010,6 +2022,12 @@ if
 self
 .
 quirks_mode
+!
+=
+QuirksMode
+:
+:
+NoQuirks
 {
 self
 .
@@ -3146,6 +3164,9 @@ None
 RustLogReporter
 font_metrics
 cascade_flags
+self
+.
+quirks_mode
 )
 ;
 ComputedStyle
@@ -3910,6 +3931,9 @@ CascadeFlags
 empty
 (
 )
+self
+.
+quirks_mode
 )
 ;
 Some
@@ -4204,6 +4228,9 @@ maybe_new
 device
 &
 cascaded_rule
+self
+.
+quirks_mode
 )
 ;
 if
@@ -4247,6 +4274,9 @@ after
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -4285,6 +4315,7 @@ mq
 evaluate
 (
 before
+quirks_mode
 )
 !
 =
@@ -4293,6 +4324,7 @@ mq
 evaluate
 (
 after
+quirks_mode
 )
 {
 return
@@ -4305,6 +4337,7 @@ guard
 rules
 before
 after
+quirks_mode
 )
 }
 )
@@ -4356,6 +4389,9 @@ evaluate
 self
 .
 device
+self
+.
+quirks_mode
 )
 !
 =
@@ -4365,6 +4401,9 @@ evaluate
 (
 &
 device
+self
+.
+quirks_mode
 )
 {
 return
@@ -4390,6 +4429,9 @@ self
 device
 &
 device
+self
+.
+quirks_mode
 )
 }
 )
@@ -4469,9 +4511,9 @@ set_quirks_mode
 &
 mut
 self
-enabled
+quirks_mode
 :
-bool
+QuirksMode
 )
 {
 /
@@ -4543,7 +4585,7 @@ self
 .
 quirks_mode
 =
-enabled
+quirks_mode
 ;
 }
 /
@@ -6128,6 +6170,9 @@ CascadeFlags
 empty
 (
 )
+self
+.
+quirks_mode
 )
 )
 }
