@@ -69,9 +69,6 @@ crate
 util
 ;
 mod
-cache
-;
-mod
 opts
 ;
 mod
