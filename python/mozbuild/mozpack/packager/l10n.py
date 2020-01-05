@@ -993,10 +993,9 @@ accumulate
 continue
             
 if
-key
-(
 e
-)
+.
+name
 not
 in
 l10n_paths
