@@ -386,7 +386,7 @@ updated
 bool
 UpdateAccesskey
 (
-nsWeakFrame
+AutoWeakFrame
 &
 aWeakThis
 )

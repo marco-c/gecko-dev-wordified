@@ -838,7 +838,7 @@ kCursorLoadingTimeout
 /
 ms
 static
-nsWeakFrame
+AutoWeakFrame
 gLastCursorSourceFrame
 ;
 static
@@ -2113,7 +2113,7 @@ sMouseOverDocument
 =
 nullptr
 ;
-nsWeakFrame
+AutoWeakFrame
 EventStateManager
 :
 :
@@ -13865,7 +13865,7 @@ isn
 t
 consumed
 )
-nsWeakFrame
+AutoWeakFrame
 targetFrame
 (
 aTargetFrame
@@ -15675,7 +15675,7 @@ MOZ_ASSERT
 scrollFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 scrollFrameWeak
 (
 scrollFrame
@@ -24157,7 +24157,7 @@ aRelatedContent
 dispatchEvent
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 previousTarget
 =
 mCurrentTarget
@@ -27716,7 +27716,7 @@ aRelatedTarget
 nsIContent
 *
 aTargetContent
-nsWeakFrame
+AutoWeakFrame
 &
 aTargetFrame
 )
@@ -28457,7 +28457,7 @@ aPresShell
 nsIContent
 *
 aMouseTarget
-nsWeakFrame
+AutoWeakFrame
 aCurrentTarget
 bool
 aNoContentDispatch
@@ -28858,7 +28858,7 @@ we
 might
 need
 again
-nsWeakFrame
+AutoWeakFrame
 currentTarget
 =
 mCurrentTarget

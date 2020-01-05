@@ -1972,7 +1972,7 @@ if
 box
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -2305,7 +2305,7 @@ if
 mView
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -2543,7 +2543,7 @@ aView
 =
 nullptr
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -2854,7 +2854,7 @@ meet
 the
 tree
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -4530,7 +4530,7 @@ AppUnitsToIntCSSPixels
 mRowHeight
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -4848,7 +4848,7 @@ true
 }
 }
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5092,7 +5092,7 @@ const
 ScrollParts
 &
 aParts
-nsWeakFrame
+AutoWeakFrame
 &
 aWeakColumnsFrame
 )
@@ -5107,7 +5107,7 @@ mView
 )
 return
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -26824,7 +26824,7 @@ the
 column
 scroll
 view
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -27095,7 +27095,7 @@ IsXULHorizontal
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -27211,7 +27211,7 @@ aNewPos
 )
 return
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -29941,7 +29941,7 @@ NS_OK
 }
 private
 :
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 }
@@ -29963,13 +29963,13 @@ GetScrollParts
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakColumnsFrame
 (
 parts

@@ -1971,7 +1971,7 @@ during
 SetOpacityOnElement
 calls
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 (
@@ -2134,7 +2134,7 @@ during
 UnsetOpacityOnElement
 calls
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 (

@@ -1255,7 +1255,7 @@ override
 avoids
 use
 of
-nsWeakFrame
+AutoWeakFrame
 void
 Revoke
 (

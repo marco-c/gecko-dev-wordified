@@ -1525,7 +1525,7 @@ if
 mOldMenu
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakMenuBar
 (
 menubar

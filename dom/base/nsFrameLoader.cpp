@@ -16473,7 +16473,7 @@ y
 =
 0
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 aIFrame

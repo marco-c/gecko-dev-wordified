@@ -496,7 +496,7 @@ class
 nsCOMArray
 ;
 class
-nsWeakFrame
+AutoWeakFrame
 ;
 class
 nsIScrollableFrame
@@ -7580,7 +7580,7 @@ aFlags
 void
 AddWeakFrameInternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -7589,7 +7589,7 @@ virtual
 void
 AddWeakFrameExternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -7597,7 +7597,7 @@ aWeakFrame
 void
 AddWeakFrame
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -7623,7 +7623,7 @@ endif
 void
 RemoveWeakFrameInternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -7632,7 +7632,7 @@ virtual
 void
 RemoveWeakFrameExternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -7640,7 +7640,7 @@ aWeakFrame
 void
 RemoveWeakFrame
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -11295,7 +11295,7 @@ in
 the
 list
 .
-nsWeakFrame
+AutoWeakFrame
 *
 mWeakFrames
 ;

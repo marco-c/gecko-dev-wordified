@@ -4851,7 +4851,7 @@ true
 )
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5685,7 +5685,7 @@ endIndex
 aIsControl
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -7367,7 +7367,7 @@ GetSelectedIndex
 indexToSelect
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -8916,7 +8916,7 @@ display
 the
 new
 text
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -9049,7 +9049,7 @@ displayIndex
 =
 aIndex
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -9322,7 +9322,7 @@ NS_SKIP_NOTIFY_INDEX
 )
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -9864,7 +9864,7 @@ mIsAllFramesHere
 mHasBeenInitialized
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -11310,7 +11310,7 @@ kNothingSelected
 selectedIndex
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -12092,7 +12092,7 @@ CaptureMouseEvents
 true
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -12323,7 +12323,7 @@ do_QueryFrame
 mComboboxFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 comboFrame
@@ -12768,7 +12768,7 @@ isControl
 ;
 #
 endif
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -14022,7 +14022,7 @@ true
 }
 else
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -14801,7 +14801,7 @@ PreventDefault
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -16103,7 +16103,7 @@ Length
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -16426,7 +16426,7 @@ anything
 except
 space
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

@@ -4537,7 +4537,7 @@ the
 rendering
 process
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 =
 this

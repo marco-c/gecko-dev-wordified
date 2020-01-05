@@ -4453,7 +4453,7 @@ nsIPresShell
 :
 AddWeakFrameExternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -4470,7 +4470,7 @@ nsIPresShell
 :
 AddWeakFrameInternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -4523,7 +4523,7 @@ nsIPresShell
 :
 RemoveWeakFrameExternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -4540,7 +4540,7 @@ nsIPresShell
 :
 RemoveWeakFrameInternal
 (
-nsWeakFrame
+AutoWeakFrame
 *
 aWeakFrame
 )
@@ -4565,7 +4565,7 @@ GetPreviousWeakFrame
 return
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 *
 nextWeak
 =
@@ -17195,7 +17195,7 @@ ClearFrameRefs
 aFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 *
 weakFrame
 =
@@ -17206,7 +17206,7 @@ while
 weakFrame
 )
 {
-nsWeakFrame
+AutoWeakFrame
 *
 prev
 =
@@ -43319,7 +43319,7 @@ if
 sPointerEventEnabled
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 aFrame
@@ -44361,7 +44361,7 @@ UnlockPointer
 )
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 frame
@@ -46009,7 +46009,7 @@ damaged
 during
 CheckPointerCaptureState
 .
-nsWeakFrame
+AutoWeakFrame
 frameKeeper
 (
 frame
@@ -46977,7 +46977,7 @@ some
 /
 /
 cases
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 ;
 if
@@ -58469,7 +58469,7 @@ exist
 "
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakRoot
 (
 rootFrame

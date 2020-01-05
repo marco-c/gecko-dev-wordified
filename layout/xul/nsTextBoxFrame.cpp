@@ -922,7 +922,7 @@ delete
 this
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 mWeakFrame
 ;
 }
@@ -933,7 +933,7 @@ nsTextBoxFrame
 :
 UpdateAccesskey
 (
-nsWeakFrame
+AutoWeakFrame
 &
 aWeakThis
 )

@@ -223,7 +223,7 @@ aBitToAdd
 )
 ;
 NS_DECL_NSIRUNNABLE
-nsWeakFrame
+AutoWeakFrame
 mWeakFrame
 ;
 nsIPresShell
@@ -469,7 +469,7 @@ delete
 this
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 mWeakFrame
 ;
 }

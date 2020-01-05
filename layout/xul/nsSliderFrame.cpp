@@ -3413,7 +3413,7 @@ MainThreadScrollbarTrackClick
 /
 set
 it
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5130,7 +5130,7 @@ GetScrollbar
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

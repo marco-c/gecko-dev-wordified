@@ -8348,7 +8348,7 @@ top
 to
 -
 bottom
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

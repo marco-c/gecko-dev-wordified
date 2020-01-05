@@ -1043,7 +1043,7 @@ mBoxObject
 /
 frame
 markers
-nsWeakFrame
+AutoWeakFrame
 mTopFrame
 ;
 nsIFrame

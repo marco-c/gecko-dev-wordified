@@ -888,7 +888,7 @@ NS_OK
 }
 protected
 :
-nsWeakFrame
+AutoWeakFrame
 mFrame
 ;
 nsCOMPtr
@@ -2103,7 +2103,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -3351,7 +3351,7 @@ gMenuJustOpenedOrClosed
 =
 true
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -3446,7 +3446,7 @@ bool
 aDeselectMenu
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5372,7 +5372,7 @@ closing
 the
 menu
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -5581,7 +5581,7 @@ mType
 eMenuType_Normal
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -6234,7 +6234,7 @@ accelerator
 text
 blank
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -7257,7 +7257,7 @@ return
 Blink
 off
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

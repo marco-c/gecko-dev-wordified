@@ -1868,7 +1868,7 @@ SetIncrementToPage
 aDirection
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -1950,7 +1950,7 @@ SetIncrementToWhole
 aDirection
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -2032,7 +2032,7 @@ SetIncrementToLine
 aDirection
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -2078,7 +2078,7 @@ nsScrollbarFrame
 aScrollbar
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -4083,7 +4083,7 @@ mCurrentIndex
 =
 newIndex
 ;
-nsWeakFrame
+AutoWeakFrame
 weak
 (
 this
@@ -4329,7 +4329,7 @@ int32_t
 aDelta
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weak
 (
 this
@@ -4491,7 +4491,7 @@ PR_Now
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakThis
 (
 this
@@ -4954,7 +4954,7 @@ GetScrollPosition
 (
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this
@@ -7431,7 +7431,7 @@ mCurrentIndex
 *
 mRowHeight
 ;
-nsWeakFrame
+AutoWeakFrame
 weakChildFrame
 (
 aChildFrame
@@ -7639,7 +7639,7 @@ mCurrentIndex
 *
 mRowHeight
 ;
-nsWeakFrame
+AutoWeakFrame
 weakChildFrame
 (
 aChildFrame

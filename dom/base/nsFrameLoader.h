@@ -2011,7 +2011,7 @@ presentation
 after
 reframing
 .
-nsWeakFrame
+AutoWeakFrame
 mDetachedSubdocFrame
 ;
 /

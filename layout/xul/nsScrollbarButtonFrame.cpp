@@ -750,7 +750,7 @@ can
 style
 it
 later
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 this

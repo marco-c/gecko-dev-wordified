@@ -617,7 +617,7 @@ Currently
 focused
 control
 .
-nsWeakFrame
+AutoWeakFrame
 mCurrCtrlFrame
 ;
 int32_t

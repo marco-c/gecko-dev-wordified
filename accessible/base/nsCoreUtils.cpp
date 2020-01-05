@@ -858,7 +858,7 @@ Dispatch
 mouse
 events
 .
-nsWeakFrame
+AutoWeakFrame
 tcFrame
 =
 tcContent

@@ -13809,7 +13809,7 @@ mAsyncScroll
 =
 nullptr
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -18991,7 +18991,7 @@ this
 schedulePaint
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -26786,7 +26786,7 @@ rangeUpperY
 rangeLowerY
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -28335,7 +28335,7 @@ width
 )
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -30687,7 +30687,7 @@ UpdateScrollbarPosition
 (
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -31212,7 +31212,7 @@ it
 /
 was
 .
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -35124,7 +35124,7 @@ vScroll
 hScroll
 )
 {
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter
@@ -37759,7 +37759,7 @@ eCaseMatters
 )
 return
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mOuter

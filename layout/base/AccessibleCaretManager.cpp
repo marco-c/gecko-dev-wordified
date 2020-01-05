@@ -3218,7 +3218,7 @@ frame
 under
 point
 .
-nsWeakFrame
+AutoWeakFrame
 ptFrame
 =
 nsLayoutUtils
@@ -6895,7 +6895,7 @@ nsGkAtoms
 scrollFrame
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakScrollable
 =
 scrollable

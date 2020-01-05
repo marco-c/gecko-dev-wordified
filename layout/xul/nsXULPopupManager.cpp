@@ -5847,7 +5847,7 @@ it
 is
 a
 menu
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 aPopupFrame
@@ -7457,7 +7457,7 @@ GetParent
 delete
 item
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 aPopupFrame
@@ -7990,7 +7990,7 @@ around
 .
 nsTArray
 <
-nsWeakFrame
+AutoWeakFrame
 >
 weakPopups
 (
@@ -8023,7 +8023,7 @@ f
 +
 )
 {
-nsWeakFrame
+AutoWeakFrame
 *
 wframe
 =
@@ -18823,7 +18823,7 @@ GetPrimaryFrame
 )
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 menuFrame

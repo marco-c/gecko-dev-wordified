@@ -548,11 +548,11 @@ kNumberOfTargets
 ]
 ;
 static
-nsWeakFrame
+AutoWeakFrame
 sActiveOwner
 ;
 static
-nsWeakFrame
+AutoWeakFrame
 sActivatedScrollTargets
 [
 kNumberOfTargets
@@ -736,7 +736,7 @@ WillHandleDefaultAction
 WidgetWheelEvent
 *
 aWheelEvent
-nsWeakFrame
+AutoWeakFrame
 &
 aTargetWeakFrame
 )
@@ -753,7 +753,7 @@ nsIFrame
 aTargetFrame
 )
 {
-nsWeakFrame
+AutoWeakFrame
 targetWeakFrame
 (
 aTargetFrame
@@ -941,7 +941,7 @@ aThreshold
 )
 ;
 static
-nsWeakFrame
+AutoWeakFrame
 sTargetFrame
 ;
 static

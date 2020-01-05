@@ -11263,7 +11263,7 @@ SetParent
 parent
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 objectFrame

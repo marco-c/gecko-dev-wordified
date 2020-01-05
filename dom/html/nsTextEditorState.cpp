@@ -783,7 +783,7 @@ relevant
 avoids
 use
 of
-nsWeakFrame
+AutoWeakFrame
 void
 Revoke
 (
@@ -3665,7 +3665,7 @@ aReason
 bool
 collapsed
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 =
 mFrame
@@ -4515,7 +4515,7 @@ return
 NS_OK
 ;
 }
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 =
 mFrame
@@ -11529,7 +11529,7 @@ GetText
 currentValue
 )
 ;
-nsWeakFrame
+AutoWeakFrame
 weakFrame
 (
 mBoundFrame
