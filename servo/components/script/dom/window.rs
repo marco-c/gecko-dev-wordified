@@ -1641,7 +1641,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1859,7 +1859,7 @@ STANDARD
 }
 /
 /
-http
+https
 :
 /
 /
@@ -3250,7 +3250,7 @@ Window
 }
 /
 /
-http
+https
 :
 /
 /

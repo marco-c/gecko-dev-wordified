@@ -435,7 +435,7 @@ HTMLTitleElement
 {
 /
 /
-http
+https
 :
 /
 /
@@ -567,7 +567,7 @@ content
 }
 /
 /
-http
+https
 :
 /
 /

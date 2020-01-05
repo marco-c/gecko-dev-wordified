@@ -69,7 +69,7 @@ preflight
 cache
 ]
 (
-http
+https
 :
 /
 /
@@ -489,7 +489,7 @@ the
 cache
 ]
 (
-http
+https
 :
 /
 /
@@ -548,7 +548,7 @@ matching
 header
 ]
 (
-http
+https
 :
 /
 /
@@ -605,7 +605,7 @@ matching
 header
 ]
 (
-http
+https
 :
 /
 /
@@ -679,7 +679,7 @@ matching
 method
 ]
 (
-http
+https
 :
 /
 /
@@ -735,7 +735,7 @@ matching
 method
 ]
 (
-http
+https
 :
 /
 /
@@ -1175,7 +1175,7 @@ BasicCORSCache
 /
 /
 /
-http
+https
 :
 /
 /

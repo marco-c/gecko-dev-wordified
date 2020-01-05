@@ -538,7 +538,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /

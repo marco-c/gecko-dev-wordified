@@ -525,7 +525,7 @@ HTMLTableElement
 {
 /
 /
-http
+https
 :
 /
 /
@@ -626,7 +626,7 @@ next
 }
 /
 /
-http
+https
 :
 /
 /

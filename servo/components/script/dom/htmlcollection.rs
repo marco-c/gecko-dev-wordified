@@ -1272,7 +1272,7 @@ HTMLCollection
 {
 /
 /
-http
+https
 :
 /
 /
@@ -1391,7 +1391,7 @@ u32
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1546,7 +1546,7 @@ index
 }
 /
 /
-http
+https
 :
 /
 /

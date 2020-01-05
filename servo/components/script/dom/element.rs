@@ -4022,7 +4022,7 @@ of
 void
 elements
 from
-http
+https
 :
 /
 /
@@ -5636,7 +5636,7 @@ DOMString
 ;
 /
 /
-http
+https
 :
 /
 /
@@ -8423,7 +8423,7 @@ Element
 {
 /
 /
-http
+https
 :
 /
 /
@@ -8531,7 +8531,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8571,7 +8571,7 @@ clone
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8684,7 +8684,7 @@ into_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8727,7 +8727,7 @@ id
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8772,7 +8772,7 @@ id
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8815,7 +8815,7 @@ class
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8860,7 +8860,7 @@ class
 }
 /
 /
-http
+https
 :
 /
 /
@@ -8917,7 +8917,7 @@ class
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9021,7 +9021,7 @@ self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9101,7 +9101,7 @@ Value
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9190,7 +9190,7 @@ Value
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9344,7 +9344,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9491,7 +9491,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9546,7 +9546,7 @@ name
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9615,7 +9615,7 @@ local_name
 }
 /
 /
-http
+https
 :
 /
 /
@@ -9658,7 +9658,7 @@ is_some
 }
 /
 /
-http
+https
 :
 /
 /
@@ -10844,7 +10844,7 @@ next
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11064,7 +11064,7 @@ u32
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11128,7 +11128,7 @@ selectors
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11189,7 +11189,7 @@ selectors
 }
 /
 /
-http
+https
 :
 /
 /
@@ -11238,7 +11238,7 @@ remove_self
 }
 /
 /
-http
+https
 :
 /
 /
@@ -12942,7 +12942,7 @@ type_id
 {
 /
 /
-http
+https
 :
 /
 /

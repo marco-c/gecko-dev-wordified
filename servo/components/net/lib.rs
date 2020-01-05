@@ -294,7 +294,7 @@ Fetch
 spec
 ]
 (
-http
+https
 :
 /
 /

@@ -131,7 +131,7 @@ request
 context
 ]
 (
-http
+https
 :
 /
 /
@@ -206,7 +206,7 @@ frame
 type
 ]
 (
-http
+https
 :
 /
 /
@@ -253,7 +253,7 @@ A
 referer
 ]
 (
-http
+https
 :
 /
 /
@@ -292,7 +292,7 @@ request
 mode
 ]
 (
-http
+https
 :
 /
 /
@@ -336,7 +336,7 @@ credentials
 mode
 ]
 (
-http
+https
 :
 /
 /
@@ -380,7 +380,7 @@ Response
 tainting
 ]
 (
-http
+https
 :
 /
 /
@@ -424,7 +424,7 @@ A
 Request
 ]
 (
-http
+https
 :
 /
 /
@@ -705,7 +705,7 @@ Basic
 fetch
 ]
 (
-http
+https
 :
 /
 /
@@ -902,7 +902,7 @@ HTTP
 fetch
 ]
 (
-http
+https
 :
 /
 /

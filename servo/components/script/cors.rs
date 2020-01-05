@@ -306,7 +306,7 @@ CORS
 preflight
 flag
 (
-http
+https
 :
 /
 /
@@ -351,7 +351,7 @@ bool
 /
 /
 /
-http
+https
 :
 /
 /
@@ -774,7 +774,7 @@ false
 /
 /
 /
-http
+https
 :
 /
 /
@@ -1038,7 +1038,7 @@ response
 /
 /
 /
-http
+https
 :
 /
 /
@@ -1434,7 +1434,7 @@ Substeps
 parsing
 rules
 :
-http
+https
 :
 /
 /
@@ -2235,7 +2235,7 @@ CORSCache
 /
 /
 /
-http
+https
 :
 /
 /
@@ -2427,7 +2427,7 @@ new_buf
 /
 /
 /
-http
+https
 :
 /
 /
@@ -2823,7 +2823,7 @@ entry
 /
 /
 /
-http
+https
 :
 /
 /
@@ -3168,7 +3168,7 @@ request
 /
 /
 /
-http
+https
 :
 /
 /

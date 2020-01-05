@@ -109,7 +109,7 @@ Response
 type
 ]
 (
-http
+https
 :
 /
 /
@@ -156,7 +156,7 @@ termination
 reason
 ]
 (
-http
+https
 :
 /
 /
@@ -361,7 +361,7 @@ A
 Response
 ]
 (
-http
+https
 :
 /
 /
@@ -448,7 +448,7 @@ Internal
 response
 ]
 (
-http
+https
 :
 /
 /
