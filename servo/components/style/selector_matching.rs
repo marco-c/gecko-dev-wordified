@@ -8225,7 +8225,7 @@ selector_map
 .
 id_hash
 .
-find
+get
 (
 &
 atom
@@ -8274,7 +8274,7 @@ selector_map
 .
 class_hash
 .
-find
+get
 (
 &
 Atom
@@ -8307,7 +8307,7 @@ selector_map
 .
 class_hash
 .
-find
+get
 (
 &
 Atom
