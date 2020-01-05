@@ -673,16 +673,6 @@ ITERATOR_SLOT_NEXT_INDEX
 define
 ITERATOR_SLOT_ITEM_KIND
 2
-/
-/
-Used
-for
-ListIterator
-.
-#
-define
-ITERATOR_SLOT_NEXT_METHOD
-2
 #
 define
 ITEM_KIND_KEY
