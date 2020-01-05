@@ -299,10 +299,7 @@ Clear
 ;
 private
 :
-PRThread
-*
-mOwningThread
-;
+NS_DECL_OWNINGTHREAD
 nsresult
 mStatus
 ;
