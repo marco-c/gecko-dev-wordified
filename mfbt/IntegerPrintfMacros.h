@@ -154,15 +154,6 @@ or
 their
 *
 users
-e
-.
-g
-.
-mozilla
-/
-Logging
-.
-h
 .
 If
 you
@@ -175,9 +166,9 @@ s
 facilities
 see
 the
-*
 comment
 on
+*
 supported
 formats
 at
