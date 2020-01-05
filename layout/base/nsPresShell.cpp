@@ -29653,6 +29653,11 @@ mBuilder
 LeavePresShell
 (
 ancestorFrame
+&
+info
+-
+>
+mList
 )
 ;
 #
@@ -37013,7 +37018,6 @@ builder
 EnterPresShell
 (
 rootFrame
-updateRect
 )
 ;
 nsDisplayList
@@ -37036,7 +37040,8 @@ builder
 LeavePresShell
 (
 rootFrame
-updateRect
+&
+list
 )
 ;
 RebuildApproximateFrameVisibilityDisplayList

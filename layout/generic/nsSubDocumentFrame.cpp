@@ -3183,6 +3183,8 @@ aBuilder
 LeavePresShell
 (
 subdocRootFrame
+&
+childItems
 )
 ;
 if

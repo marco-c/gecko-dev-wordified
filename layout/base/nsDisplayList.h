@@ -3596,6 +3596,9 @@ LeavePresShell
 nsIFrame
 *
 aReferenceFrame
+nsDisplayList
+*
+aPaintedContents
 )
 ;
 /
