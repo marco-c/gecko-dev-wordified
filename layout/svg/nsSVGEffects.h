@@ -2545,12 +2545,6 @@ GetMaskFrames
 (
 )
 ;
-bool
-MightHaveNoneSVGMask
-(
-)
-const
-;
 /
 *
 *
