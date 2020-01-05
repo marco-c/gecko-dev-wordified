@@ -327,15 +327,13 @@ void
 AnimationState
 :
 :
-SetDoneDecoding
+NotifyDecodeComplete
 (
-bool
-aDone
 )
 {
-mDoneDecoding
+mHasBeenDecoded
 =
-aDone
+true
 ;
 }
 void
@@ -435,7 +433,7 @@ return
 MOZ_ASSERT
 (
 !
-mDoneDecoding
+mHasBeenDecoded
 "
 Adding
 new
@@ -482,7 +480,7 @@ FrameCount
 const
 {
 return
-mDoneDecoding
+mHasBeenDecoded
 ?
 Some
 (
@@ -615,7 +613,7 @@ Forever
 }
 MOZ_ASSERT
 (
-mDoneDecoding
+mHasBeenDecoded
 "
 We
 know
