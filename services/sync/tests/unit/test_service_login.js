@@ -582,14 +582,6 @@ handler
 }
 )
 ;
-Service
-.
-serverURL
-=
-server
-.
-baseURI
-;
 return
 server
 ;

@@ -123,13 +123,6 @@ SYNC_API_VERSION
 .
 1
 "
-MISC_API_VERSION
-:
-"
-1
-.
-0
-"
 /
 /
 Version
