@@ -364,12 +364,7 @@ self
 .
 marionette
 .
-session
-[
-"
-processId
-"
-]
+process_id
         
 self
 .
@@ -722,12 +717,7 @@ self
 .
 marionette
 .
-session
-[
-'
-processId
-'
-]
+process_id
 self
 .
 pid
@@ -871,12 +861,7 @@ self
 .
 marionette
 .
-session
-[
-'
-processId
-'
-]
+process_id
 self
 .
 pid
@@ -995,12 +980,7 @@ self
 .
 marionette
 .
-session
-[
-'
-processId
-'
-]
+process_id
 self
 .
 pid

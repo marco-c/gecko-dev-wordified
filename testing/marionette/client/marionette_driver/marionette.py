@@ -4509,6 +4509,12 @@ None
         
 self
 .
+process_id
+=
+None
+        
+self
+.
 window
 =
 None
@@ -9477,14 +9483,7 @@ in_app
 and
 self
 .
-session
-.
-get
-(
-"
-processId
-"
-)
+process_id
 :
             
 #
@@ -9541,12 +9540,7 @@ check_for_detached
 (
 self
 .
-session
-[
-"
-processId
-"
-]
+process_id
 )
     
 def
@@ -9915,6 +9909,44 @@ capabilities
 "
 ]
         
+#
+fallback
+to
+processId
+can
+be
+removed
+in
+Firefox
+55
+        
+self
+.
+process_id
+=
+self
+.
+session
+.
+get
+(
+"
+moz
+:
+processID
+"
+self
+.
+session
+.
+get
+(
+"
+processId
+"
+)
+)
+        
 return
 self
 .
@@ -10117,6 +10149,12 @@ None
 self
 .
 session
+=
+None
+            
+self
+.
+process_id
 =
 None
             
