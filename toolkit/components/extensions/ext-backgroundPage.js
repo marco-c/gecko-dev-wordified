@@ -437,13 +437,13 @@ context
 listenerPromises
 )
 ;
-}
 context
 .
 listenerPromises
 =
 null
 ;
+}
 this
 .
 extension
