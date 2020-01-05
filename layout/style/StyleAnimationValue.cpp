@@ -30253,7 +30253,7 @@ eStyleAnimType_Sides_Left
 {
 static_assert
 (
-NS_SIDE_TOP
+eSideTop
 =
 =
 eStyleAnimType_Sides_Top
@@ -30261,7 +30261,7 @@ eStyleAnimType_Sides_Top
 eStyleAnimType_Sides_Top
 &
 &
-NS_SIDE_RIGHT
+eSideRight
 =
 =
 eStyleAnimType_Sides_Right
@@ -30269,7 +30269,7 @@ eStyleAnimType_Sides_Right
 eStyleAnimType_Sides_Top
 &
 &
-NS_SIDE_BOTTOM
+eSideBottom
 =
 =
 eStyleAnimType_Sides_Bottom
@@ -30277,7 +30277,7 @@ eStyleAnimType_Sides_Bottom
 eStyleAnimType_Sides_Top
 &
 &
-NS_SIDE_LEFT
+eSideLeft
 =
 =
 eStyleAnimType_Sides_Left
@@ -30314,9 +30314,6 @@ ssOffset
 Get
 (
 mozilla
-:
-:
-css
 :
 :
 Side
