@@ -5057,6 +5057,9 @@ font_metrics_provider
 :
 &
 provider
+in_media_query
+:
+false
 }
 ;
 /

@@ -15087,6 +15087,9 @@ starting_style
 font_metrics_provider
 :
 font_metrics_provider
+in_media_query
+:
+false
 }
 ;
 /

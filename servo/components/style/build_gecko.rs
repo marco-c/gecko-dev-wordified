@@ -3401,6 +3401,9 @@ FrameRequestCallback
 GeckoParserExtraData
 "
 "
+GeckoFontMetrics
+"
+"
 gfxAlternateValue
 "
 "
@@ -4959,6 +4962,9 @@ FontFamilyType
 "
 "
 FontSizePrefs
+"
+"
+GeckoFontMetrics
 "
 "
 Keyframe

@@ -12863,6 +12863,9 @@ font_metrics_provider
 :
 &
 metrics
+in_media_query
+:
+false
 }
 ;
 for
