@@ -808,6 +808,11 @@ mMayHavePointerEnterLeaveEventListener
 1
 ;
 uint16_t
+mMayHaveAPZAwareKeyEventListener
+:
+1
+;
+uint16_t
 mMayHaveKeyEventListener
 :
 1
@@ -832,7 +837,7 @@ mIsMainThreadELM
 uint16_t
 mUnused
 :
-5
+4
 ;
 }
 ;
@@ -2173,6 +2178,16 @@ MayHavePointerEnterLeaveEventListener
 {
 return
 mMayHavePointerEnterLeaveEventListener
+;
+}
+bool
+MayHaveAPZAwareKeyEventListener
+(
+)
+const
+{
+return
+mMayHaveAPZAwareKeyEventListener
 ;
 }
 /
