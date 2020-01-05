@@ -1928,6 +1928,10 @@ ImageHolder
 impl
 ImageRenderBox
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -3992,6 +3996,13 @@ instance
 of
 UnscannedTextRenderBox
 .
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 new
