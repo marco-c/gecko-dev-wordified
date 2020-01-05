@@ -1471,7 +1471,6 @@ Failure
 failure_msg
 )
 c
-true
 )
 ;
 }

@@ -322,7 +322,7 @@ servo_util
 task
 :
 :
-spawn_named_native
+spawn_named
 ;
 use
 servo_util
@@ -1025,7 +1025,7 @@ ScriptMsg
 >
 )
 {
-spawn_named_native
+spawn_named
 (
 format
 !
