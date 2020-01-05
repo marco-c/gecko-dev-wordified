@@ -45480,7 +45480,6 @@ jsapi
 :
 :
 {
-GetGlobalForObjectCrossCompartment
 GetPropertyKeys
 Handle
 }
@@ -45523,7 +45522,6 @@ jsapi
 :
 :
 {
-JS_ComputeThis
 JS_CopyPropertiesFrom
 JS_ForwardGetPropertyTo
 }
@@ -45594,7 +45592,6 @@ jsapi
 :
 {
 JS_AtomizeAndPinString
-JS_IsExceptionPending
 JS_NewObject
 JS_NewObjectWithGivenProto
 }
@@ -45609,7 +45606,6 @@ jsapi
 :
 {
 JS_NewObjectWithoutMetadata
-JS_NewStringCopyZ
 JS_SetProperty
 }
 '
@@ -45624,7 +45620,6 @@ jsapi
 {
 JS_SetPrototype
 JS_SetReservedSlot
-JS_WrapValue
 JSAutoCompartment
 }
 '
@@ -45806,19 +45801,6 @@ glue
 :
 :
 {
-RUST_FUNCTION_VALUE_TO_JITINFO
-}
-'
-            
-'
-js
-:
-:
-glue
-:
-:
-{
-RUST_JS_NumberValue
 RUST_JSID_IS_STRING
 int_to_jsid
 }
