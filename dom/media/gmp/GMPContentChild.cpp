@@ -839,12 +839,6 @@ GMP_API_DECRYPTOR
 host
 &
 ptr
-aActor
--
->
-Id
-(
-)
 )
 ;
 GMPDecryptor
@@ -1134,7 +1128,6 @@ Host
 )
 &
 vd
-aDecryptorId
 )
 ;
 if

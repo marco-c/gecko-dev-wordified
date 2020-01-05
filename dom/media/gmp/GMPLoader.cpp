@@ -248,8 +248,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 override
 ;
@@ -435,8 +433,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 override
 {
@@ -1054,8 +1050,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 {
 return
@@ -1067,7 +1061,6 @@ GMPGetAPI
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 )
 ;
 }
