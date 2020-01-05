@@ -1583,7 +1583,7 @@ i
 mozilla
 :
 :
-MakeRange
+IntegerRange
 (
 NumTimingArrays
 )

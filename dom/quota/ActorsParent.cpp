@@ -20469,7 +20469,7 @@ for
 uint32_t
 index
 :
-MakeRange
+IntegerRange
 (
 uint32_t
 (
