@@ -727,11 +727,6 @@ it
 in
 *
 /
-if
-(
-len
-)
-{
 PORT_Memcpy
 (
 output
@@ -747,7 +742,6 @@ buf
 len
 )
 ;
-}
 }
 }
 /

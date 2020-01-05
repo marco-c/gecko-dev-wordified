@@ -412,14 +412,6 @@ len
 =
 len
 ;
-if
-(
-item
--
->
-len
-)
-{
 PORT_Memcpy
 (
 item
@@ -433,7 +425,6 @@ pValue
 len
 )
 ;
-}
 return
 CKR_OK
 ;

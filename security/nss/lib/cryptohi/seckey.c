@@ -1848,6 +1848,10 @@ issuerCert
 =
 NULL
 ;
+rv
+=
+SECSuccess
+;
 /
 *
 increment
@@ -3618,6 +3622,10 @@ PORT_SetError
 (
 SEC_ERROR_UNSUPPORTED_KEYALG
 )
+;
+rv
+=
+SECFailure
 ;
 break
 ;

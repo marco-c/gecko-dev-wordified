@@ -24936,11 +24936,6 @@ terminated
 string
 *
 /
-if
-(
-ulPinLen
-)
-{
 PORT_Memcpy
 (
 pinStr
@@ -24948,7 +24943,6 @@ pPin
 ulPinLen
 )
 ;
-}
 pinStr
 [
 ulPinLen
