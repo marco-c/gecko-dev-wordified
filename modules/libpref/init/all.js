@@ -2025,7 +2025,7 @@ extensions
 .
 enabled
 "
-false
+true
 )
 ;
 /
