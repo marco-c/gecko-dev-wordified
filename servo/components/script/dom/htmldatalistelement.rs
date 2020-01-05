@@ -402,11 +402,8 @@ HTMLCollection
 :
 create
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast

@@ -266,13 +266,10 @@ new_inherited
 (
 navigation_start
 navigation_start_precise
+&
 window
 .
 Document
-(
-)
-.
-r
 (
 )
 )

@@ -649,10 +649,6 @@ self
 ;
 doc
 .
-r
-(
-)
-.
 invalidate_stylesheets
 (
 )

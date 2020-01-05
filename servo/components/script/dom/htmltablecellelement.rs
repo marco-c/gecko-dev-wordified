@@ -596,11 +596,9 @@ position
 |
 c
 |
+&
+*
 c
-.
-r
-(
-)
 =
 =
 self_node

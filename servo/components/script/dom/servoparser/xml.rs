@@ -785,11 +785,8 @@ parent
 .
 AppendChild
 (
+&
 child
-.
-r
-(
-)
 )
 .
 is_ok

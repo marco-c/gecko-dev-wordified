@@ -678,11 +678,8 @@ MouseEvent
 :
 new
 (
+&
 win
-.
-r
-(
-)
 DOMString
 :
 :
@@ -702,11 +699,8 @@ EventCancelable
 NotCancelable
 Some
 (
+&
 win
-.
-r
-(
-)
 )
 1
 0

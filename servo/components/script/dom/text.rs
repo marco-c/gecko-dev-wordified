@@ -383,11 +383,8 @@ Text
 new
 (
 text
+&
 document
-.
-r
-(
-)
 )
 )
 }

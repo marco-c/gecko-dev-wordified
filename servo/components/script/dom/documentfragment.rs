@@ -375,11 +375,8 @@ DocumentFragment
 :
 new
 (
+&
 document
-.
-r
-(
-)
 )
 )
 }

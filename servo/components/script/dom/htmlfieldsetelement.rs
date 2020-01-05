@@ -476,11 +476,8 @@ HTMLCollection
 :
 create
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast
@@ -537,11 +534,8 @@ ValidityState
 :
 new
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast

@@ -2456,11 +2456,8 @@ EventCancelable
 :
 :
 NotCancelable
+&
 window
-.
-r
-(
-)
 )
 ;
 self
@@ -3381,11 +3378,8 @@ EventCancelable
 :
 :
 NotCancelable
+&
 window
-.
-r
-(
-)
 )
 ;
 }

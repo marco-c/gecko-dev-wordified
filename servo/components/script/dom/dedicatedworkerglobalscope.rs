@@ -1564,11 +1564,8 @@ AutoWorkerReset
 :
 new
 (
+&
 global
-.
-r
-(
-)
 worker
 )
 ;

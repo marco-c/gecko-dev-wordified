@@ -727,11 +727,8 @@ HTMLCollection
 :
 create
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast
@@ -824,13 +821,10 @@ td
 "
 )
 None
+&
 node
 .
 owner_doc
-(
-)
-.
-r
 (
 )
 )

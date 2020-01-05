@@ -707,11 +707,8 @@ self
 set_value
 (
 value
+&
 owner
-.
-r
-(
-)
 )
 ;
 }
@@ -1461,10 +1458,6 @@ self
 owner
 (
 )
-.
-r
-(
-)
 owner
 )
 {
@@ -1534,6 +1527,8 @@ new
 assert
 !
 (
+&
+*
 old
 =
 =

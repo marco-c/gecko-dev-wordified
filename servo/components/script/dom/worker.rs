@@ -777,11 +777,9 @@ Trusted
 :
 new
 (
+&
+*
 worker
-.
-r
-(
-)
 )
 ;
 let

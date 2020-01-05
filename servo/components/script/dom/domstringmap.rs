@@ -249,11 +249,9 @@ new_inherited
 (
 element
 )
+&
+*
 window
-.
-r
-(
-)
 DOMStringMapBinding
 :
 :

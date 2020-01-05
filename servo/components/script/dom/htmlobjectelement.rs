@@ -597,11 +597,8 @@ ValidityState
 :
 new
 (
+&
 window
-.
-r
-(
-)
 self
 .
 upcast

@@ -1856,11 +1856,9 @@ Trusted
 :
 new
 (
+&
+*
 ws
-.
-r
-(
-)
 )
 ;
 let
