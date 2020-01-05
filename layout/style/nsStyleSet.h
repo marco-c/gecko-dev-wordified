@@ -4022,8 +4022,6 @@ eTransitionSheet
 /
 /
 eAnimationSheet
-and
-eSVGAttrAnimationSheet
 are
 always
 empty

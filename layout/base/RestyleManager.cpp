@@ -2627,9 +2627,6 @@ CSSTransitions
 CSSAnimations
 "
 "
-SVGAttrAnimations
-"
-"
 StyleAttribute
 "
 "
