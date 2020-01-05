@@ -328,10 +328,9 @@ ScopedClose
 ;
 #
 if
-!
 defined
 (
-XPCOM_GLUE
+MOZILLA_INTERNAL_API
 )
 /
 *
@@ -722,11 +721,7 @@ nullptr
 endif
 /
 /
-!
-defined
-(
-XPCOM_GLUE
-)
+MOZILLA_INTERNAL_API
 /
 *
 *
