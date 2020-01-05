@@ -15761,6 +15761,7 @@ id
 as
 usize
 fragment_index
+0
 )
 }
 fn
