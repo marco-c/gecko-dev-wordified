@@ -4939,12 +4939,6 @@ profileDir
 }
 }
 }
-/
-*
-global
-SyncTelemetry
-*
-/
 this
 .
 SyncTelemetry

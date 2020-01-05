@@ -3161,8 +3161,6 @@ FINISHED
 break
 ;
 case
-STATE
-.
 NOT_REPAIRING
 :
 /
@@ -5571,6 +5569,9 @@ id
 )
 ;
 }
+}
+else
+{
 /
 /
 The
@@ -5598,8 +5599,6 @@ on
 the
 server
 .
-}
-else
 if
 (
 syncable
@@ -5721,6 +5720,7 @@ upload
 ignoring
 )
 ;
+}
 }
 }
 return
