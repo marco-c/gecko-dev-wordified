@@ -85,6 +85,7 @@ feature
 (
 globs
 macro_rules
+if_let
 )
 ]
 #
@@ -289,7 +290,15 @@ properties
 cascade
 cascade_anonymous
 computed
+longhands_from_shorthand
 }
+;
+pub
+use
+properties
+:
+:
+is_supported_property
 ;
 pub
 use

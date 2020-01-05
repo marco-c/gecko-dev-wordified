@@ -88,6 +88,7 @@ globs
 macro_rules
 phase
 unsafe_destructor
+if_let
 )
 ]
 #
@@ -454,6 +455,10 @@ canvasrenderingcontext2d
 pub
 mod
 characterdata
+;
+pub
+mod
+cssstyledeclaration
 ;
 pub
 mod
