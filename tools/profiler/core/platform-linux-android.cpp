@@ -3981,6 +3981,11 @@ aContext
 {
 MOZ_ASSERT
 (
+mIsSynchronous
+)
+;
+MOZ_ASSERT
+(
 aContext
 )
 ;
