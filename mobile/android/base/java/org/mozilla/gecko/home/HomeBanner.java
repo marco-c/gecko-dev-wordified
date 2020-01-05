@@ -1021,9 +1021,13 @@ update
 (
 )
 {
-GeckoAppShell
+EventDispatcher
 .
-notifyObservers
+getInstance
+(
+)
+.
+dispatch
 (
 "
 HomeBanner
