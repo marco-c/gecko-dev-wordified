@@ -192,6 +192,17 @@ IFrameSandboxState
 IFrameSandboxed
 IFrameUnsandboxed
 }
+/
+/
+/
+Messages
+from
+the
+compositor
+to
+the
+constellation
+.
 pub
 enum
 Msg
