@@ -2218,6 +2218,9 @@ GetEffect
 )
 )
 {
+dom
+:
+:
 AnimationEffectReadOnly
 *
 oldEffect

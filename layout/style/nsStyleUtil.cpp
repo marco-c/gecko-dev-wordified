@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsRuleNode
 .
 h
