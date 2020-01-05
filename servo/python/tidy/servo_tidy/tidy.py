@@ -1083,7 +1083,7 @@ def
 filter_files
 (
 start_dir
-faster
+only_changed_files
 progress
 )
 :
@@ -1093,7 +1093,7 @@ file_iter
 get_file_list
 (
 start_dir
-faster
+only_changed_files
 ignored_dirs
 )
     
@@ -6396,7 +6396,7 @@ f
 def
 scan
 (
-faster
+only_changed_files
 =
 False
 progress
@@ -6416,7 +6416,7 @@ filter_files
 '
 .
 '
-faster
+only_changed_files
 progress
 )
     
@@ -6460,7 +6460,7 @@ check_wpt_lint_errors
 (
 get_wpt_files
 (
-faster
+only_changed_files
 progress
 )
 )
