@@ -4461,12 +4461,6 @@ foldConstants
 UsedNameTracker
 &
 usedNames
-Parser
-<
-SyntaxParseHandler
->
-*
-syntaxParser
 LazyScript
 *
 lazyOuterFunction
@@ -4685,7 +4679,6 @@ chars
 length
 foldConstants
 usedNames
-syntaxParser
 lazyOuterFunction
 )
 AutoGCRooter

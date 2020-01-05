@@ -4672,12 +4672,6 @@ foldConstants
 UsedNameTracker
 &
 usedNames
-Parser
-<
-SyntaxParseHandler
->
-*
-syntaxParser
 LazyScript
 *
 lazyOuterFunction
