@@ -461,6 +461,8 @@ legacy
 :
 {
 WidthLengthAttribute
+ColsIntegerAttribute
+RowsIntegerAttribute
 }
 ;
 pub
