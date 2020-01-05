@@ -5239,16 +5239,10 @@ offset
 )
 {
 nsAutoString
-tmp
+data
 (
 str
 )
-;
-nsAString
-&
-data
-=
-tmp
 ;
 data
 .

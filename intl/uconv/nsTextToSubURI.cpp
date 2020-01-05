@@ -1570,12 +1570,6 @@ rv
 )
 )
 {
-nsAString
-&
-chars
-=
-blacklist
-;
 /
 /
 we
@@ -1587,7 +1581,7 @@ SPACE
 in
 this
 method
-chars
+blacklist
 .
 StripChars
 (
@@ -1609,13 +1603,13 @@ char16_t
 *
 >
 (
-chars
+blacklist
 .
 Data
 (
 )
 )
-chars
+blacklist
 .
 Length
 (
