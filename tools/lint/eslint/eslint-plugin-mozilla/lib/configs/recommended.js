@@ -579,8 +579,6 @@ before
 in
 property
 declarations
-/
-/
 "
 key
 -
@@ -602,8 +600,6 @@ afterColon
 "
 :
 true
-/
-/
 "
 mode
 "
