@@ -3621,7 +3621,10 @@ to
 the
 hardware
 .
-int64_t
+media
+:
+:
+TimeUnit
 AudioEndTime
 (
 )
@@ -3648,7 +3651,10 @@ to
 /
 compositor
 .
-int64_t
+media
+:
+:
+TimeUnit
 VideoEndTime
 (
 )
