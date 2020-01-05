@@ -69,17 +69,6 @@ warn
 "
 no
 -
-ex
--
-assign
-"
-:
-"
-warn
-"
-"
-no
--
 func
 -
 assign
