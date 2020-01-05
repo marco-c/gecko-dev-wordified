@@ -3124,11 +3124,13 @@ case
 remove
 -
 device
+-
+association
 "
 :
 this
 .
-onRemoveDevice
+onRemoveDeviceAssociation
 (
 event
 )
@@ -3351,7 +3353,7 @@ tab
 )
 ;
 }
-onRemoveDevice
+onRemoveDeviceAssociation
 :
 Task
 .

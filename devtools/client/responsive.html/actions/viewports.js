@@ -66,7 +66,7 @@ const
 ADD_VIEWPORT
 CHANGE_DEVICE
 CHANGE_PIXEL_RATIO
-REMOVE_DEVICE
+REMOVE_DEVICE_ASSOCIATION
 RESIZE_VIEWPORT
 ROTATE_VIEWPORT
 }
@@ -185,7 +185,7 @@ assocation
 .
 *
 /
-removeDevice
+removeDeviceAssociation
 (
 id
 )
@@ -194,7 +194,7 @@ return
 {
 type
 :
-REMOVE_DEVICE
+REMOVE_DEVICE_ASSOCIATION
 id
 }
 ;

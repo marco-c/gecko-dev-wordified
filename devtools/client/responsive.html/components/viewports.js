@@ -198,7 +198,7 @@ PropTypes
 func
 .
 isRequired
-onRemoveDevice
+onRemoveDeviceAssociation
 :
 PropTypes
 .
@@ -240,7 +240,7 @@ viewports
 onBrowserMounted
 onChangeDevice
 onContentResize
-onRemoveDevice
+onRemoveDeviceAssociation
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModal
@@ -295,7 +295,7 @@ viewport
 onBrowserMounted
 onChangeDevice
 onContentResize
-onRemoveDevice
+onRemoveDeviceAssociation
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModal

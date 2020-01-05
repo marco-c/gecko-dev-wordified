@@ -138,7 +138,7 @@ viewport
 )
 .
 isRequired
-onRemoveDevice
+onRemoveDeviceAssociation
 :
 PropTypes
 .
@@ -580,7 +580,7 @@ this
 .
 props
 .
-onRemoveDevice
+onRemoveDeviceAssociation
 (
 )
 ;

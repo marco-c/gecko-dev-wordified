@@ -373,7 +373,7 @@ device
 assocation
 .
 "
-REMOVE_DEVICE
+REMOVE_DEVICE_ASSOCIATION
 "
 /
 /
