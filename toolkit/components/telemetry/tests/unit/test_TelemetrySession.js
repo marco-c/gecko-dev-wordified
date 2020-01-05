@@ -3273,10 +3273,10 @@ startupSessionRestoreWriteBytes
 ;
 }
 const
-TELEMETRY_PING
+TELEMETRY_SEND_SUCCESS
 =
 "
-TELEMETRY_PING
+TELEMETRY_SEND_SUCCESS
 "
 ;
 const
@@ -3325,7 +3325,7 @@ Assert
 .
 ok
 (
-TELEMETRY_PING
+TELEMETRY_SEND_SUCCESS
 in
 payload
 .

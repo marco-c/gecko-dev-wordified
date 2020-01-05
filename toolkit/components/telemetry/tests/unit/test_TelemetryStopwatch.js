@@ -65,7 +65,7 @@ const
 HIST_NAME
 =
 "
-TELEMETRY_PING
+TELEMETRY_SEND_SUCCESS
 "
 ;
 const
