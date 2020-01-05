@@ -4105,6 +4105,8 @@ ModuleEnvironment
 env
 uint32_t
 funcIndex
+uint32_t
+bodySize
 Decoder
 &
 d
