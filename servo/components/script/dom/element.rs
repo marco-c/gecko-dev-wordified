@@ -512,6 +512,7 @@ utils
 :
 :
 {
+namespace_from_domstring
 xml_name_type
 validate_and_extract
 }
@@ -889,12 +890,6 @@ geometry
 :
 :
 Au
-;
-use
-util
-:
-:
-namespace
 ;
 use
 util
@@ -9998,10 +9993,7 @@ let
 namespace
 =
 &
-namespace
-:
-:
-from_domstring
+namespace_from_domstring
 (
 namespace
 )
@@ -10401,10 +10393,7 @@ DOMString
 let
 namespace
 =
-namespace
-:
-:
-from_domstring
+namespace_from_domstring
 (
 namespace
 )

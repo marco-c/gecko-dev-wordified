@@ -495,6 +495,7 @@ utils
 :
 :
 {
+namespace_from_domstring
 Reflectable
 reflect_dom_object
 }
@@ -698,12 +699,6 @@ geometry
 :
 :
 Au
-;
-use
-util
-:
-:
-namespace
 ;
 use
 util
@@ -17824,10 +17819,7 @@ DOMString
 let
 namespace
 =
-namespace
-:
-:
-from_domstring
+namespace_from_domstring
 (
 namespace
 )

@@ -151,6 +151,7 @@ utils
 :
 :
 {
+namespace_from_domstring
 Reflector
 reflect_dom_object
 }
@@ -176,12 +177,6 @@ window
 :
 :
 Window
-;
-use
-util
-:
-:
-namespace
 ;
 use
 util
@@ -682,10 +677,7 @@ r
 let
 ns
 =
-namespace
-:
-:
-from_domstring
+namespace_from_domstring
 (
 namespace
 )
@@ -902,10 +894,7 @@ r
 let
 ns
 =
-namespace
-:
-:
-from_domstring
+namespace_from_domstring
 (
 namespace
 )
