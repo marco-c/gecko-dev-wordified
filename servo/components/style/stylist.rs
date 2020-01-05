@@ -3867,6 +3867,16 @@ mut
 set_selector_flags
 )
 ;
+if
+declarations
+.
+is_empty
+(
+)
+{
+return
+None
+}
 let
 rule_node
 =
