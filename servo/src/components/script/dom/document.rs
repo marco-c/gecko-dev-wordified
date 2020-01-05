@@ -708,7 +708,7 @@ DOMString
 pub
 encoding_name
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -1987,7 +1987,7 @@ document
 encoding
 encoding_name
 :
-Untraceable
+Traceable
 :
 :
 new

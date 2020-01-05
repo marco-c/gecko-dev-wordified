@@ -129,7 +129,7 @@ bindings
 trace
 :
 :
-Untraceable
+Traceable
 ;
 use
 dom
@@ -228,7 +228,7 @@ Window
 pub
 detail
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -296,7 +296,7 @@ None
 )
 detail
 :
-Untraceable
+Traceable
 :
 :
 new

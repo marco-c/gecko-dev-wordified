@@ -630,7 +630,7 @@ TimerHandle
 pub
 next_timer_handle
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -3120,7 +3120,7 @@ new
 )
 next_timer_handle
 :
-Untraceable
+Traceable
 :
 :
 new

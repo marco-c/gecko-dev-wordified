@@ -267,7 +267,7 @@ bindings
 trace
 :
 :
-Untraceable
+Traceable
 ;
 use
 dom
@@ -820,7 +820,7 @@ items
 .
 flags
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -7206,7 +7206,7 @@ None
 )
 flags
 :
-Untraceable
+Traceable
 :
 :
 new

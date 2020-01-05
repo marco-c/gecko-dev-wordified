@@ -120,7 +120,7 @@ bindings
 trace
 :
 :
-Untraceable
+Traceable
 ;
 use
 dom
@@ -210,7 +210,7 @@ Node
 pub
 data
 :
-Untraceable
+Traceable
 <
 RefCell
 <
@@ -301,7 +301,7 @@ document
 )
 data
 :
-Untraceable
+Traceable
 :
 :
 new
