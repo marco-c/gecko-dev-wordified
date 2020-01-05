@@ -252,6 +252,12 @@ debug
 '
 linux
 -
+devedition
+'
+    
+'
+linux
+-
 opt
 '
     
@@ -331,6 +337,12 @@ tidy
 linux64
 -
 debug
+'
+    
+'
+linux64
+-
+devedition
 '
     
 '
