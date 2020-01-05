@@ -7431,6 +7431,8 @@ sheet
 sheet
 .
 dirty_on_viewport_size_change
+(
+)
 )
 {
 let
@@ -10587,6 +10589,12 @@ Origin
 :
 :
 UserAgent
+Default
+:
+:
+default
+(
+)
 Box
 :
 :
@@ -10723,6 +10731,12 @@ Origin
 :
 :
 User
+Default
+:
+:
+default
+(
+)
 Box
 :
 :
