@@ -4334,9 +4334,10 @@ nscoord
 mLineLeft
 mBlockStart
 ;
-nsTArray
+AutoTArray
 <
 FloatInfo
+10
 >
 mFloats
 ;
