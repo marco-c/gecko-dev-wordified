@@ -185,7 +185,10 @@ use
 script_traits
 :
 :
+{
 MouseButton
+TouchEventType
+}
 ;
 use
 std
@@ -4895,6 +4898,10 @@ Scroll
 (
 delta
 origin
+TouchEventType
+:
+:
+Move
 )
 )
 }
