@@ -576,6 +576,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 {
@@ -625,6 +627,7 @@ clone
 get
 (
 )
+aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

@@ -11185,6 +11185,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 {

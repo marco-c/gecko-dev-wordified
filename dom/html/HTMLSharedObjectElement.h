@@ -505,6 +505,8 @@ nsINode
 *
 *
 aResult
+bool
+aPreallocateChildren
 )
 const
 override
@@ -515,6 +517,8 @@ CopyInnerTo
 Element
 *
 aDest
+bool
+aPreallocateChildren
 )
 ;
 void
