@@ -32989,6 +32989,16 @@ alloc
 )
 override
 ;
+void
+printOpcode
+(
+GenericPrinter
+&
+out
+)
+const
+override
+;
 virtual
 double
 getIdentity
