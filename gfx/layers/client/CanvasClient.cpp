@@ -294,6 +294,13 @@ etc
 #
 include
 "
+ShareableCanvasLayer
+.
+h
+"
+#
+include
+"
 TextureClientSharedSurface
 .
 h
@@ -624,7 +631,7 @@ gfx
 :
 IntSize
 aSize
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 aLayer
 )
@@ -1041,7 +1048,7 @@ IntSize
 aSize
 TextureFlags
 aFlags
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 aLayer
 )
@@ -2352,7 +2359,7 @@ gfx
 :
 IntSize
 aSize
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 aLayer
 )
@@ -2364,7 +2371,7 @@ renderer
 .
 construct
 <
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 >
 (
@@ -2437,7 +2444,7 @@ gl
 =
 nullptr
 ;
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 layer
 =
@@ -2455,7 +2462,7 @@ aRenderer
 .
 constructed
 <
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 >
 (
@@ -2468,7 +2475,7 @@ aRenderer
 .
 ref
 <
-ClientCanvasLayer
+ShareableCanvasLayer
 *
 >
 (
@@ -2797,12 +2804,7 @@ shadowForwarder
 layer
 -
 >
-ClientManager
-(
-)
--
->
-AsShadowForwarder
+GetForwarder
 (
 )
 ;
