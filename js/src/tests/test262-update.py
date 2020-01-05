@@ -390,6 +390,7 @@ createRefTestEntry
 skip
 skipIf
 error
+isModule
 )
 :
     
@@ -524,6 +525,19 @@ error
 "
 +
 error
+)
+    
+if
+isModule
+:
+        
+terms
+.
+append
+(
+"
+module
+"
 )
     
 line
@@ -1522,6 +1536,31 @@ s
 testName
     
 #
+When
+the
+"
+module
+"
+attribute
+is
+set
+the
+source
+code
+is
+module
+code
+.
+    
+isModule
+=
+"
+module
+"
+in
+testRec
+    
+#
 Negative
 tests
 have
@@ -1661,50 +1700,6 @@ not
 a
 test
 file
-"
-)
-    
-#
-Skip
-all
-module
-tests
-.
-    
-if
-"
-module
-"
-in
-testRec
-or
-pathStartsWith
-(
-testName
-"
-language
-"
-"
-module
--
-code
-"
-)
-:
-        
-refTestSkip
-.
-append
-(
-"
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 "
 )
     
@@ -1896,6 +1891,7 @@ createRefTestEntry
 refTestSkip
 refTestSkipIf
 errorType
+isModule
 )
     
 #
@@ -1910,6 +1906,7 @@ mode
 variant
 for
 raw
+module
 or
 support
 files
@@ -1918,6 +1915,8 @@ files
 noStrictVariant
 =
 raw
+or
+isModule
 or
 isSupportFile
     
