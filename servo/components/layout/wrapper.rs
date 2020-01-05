@@ -452,7 +452,13 @@ rather
 than
 only
 the
-PersistentStyleData
+style
+:
+:
+data
+:
+:
+NodeData
 .
 fn
 borrow_layout_data

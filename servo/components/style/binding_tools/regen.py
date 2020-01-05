@@ -486,29 +486,22 @@ raw_lines
 :
 [
             
-#
-We
-can
-get
-rid
-of
-this
-when
-the
-bindings
-move
-into
-the
-style
-crate
-.
+"
+use
+atomic_refcell
+:
+:
+AtomicRefCell
+;
+"
             
 "
-pub
-enum
-OpaqueStyleData
-{
-}
+use
+data
+:
+:
+NodeData
+;
 "
             
 "
@@ -1380,7 +1373,10 @@ servo
 "
 :
 "
-OpaqueStyleData
+AtomicRefCell
+<
+NodeData
+>
 "
             
 }
