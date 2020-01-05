@@ -710,10 +710,6 @@ const
 nsCString
 &
 altDataType
-const
-bool
-&
-contentDecodingWillBeCalledOnParent
 )
 override
 ;
@@ -1705,9 +1701,6 @@ synthesized
 .
 bool
 mSuspendParentAfterSynthesizeResponse
-;
-bool
-mContentDecodingWillBeCalledOnParent
 ;
 /
 /

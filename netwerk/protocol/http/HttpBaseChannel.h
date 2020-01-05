@@ -2268,15 +2268,6 @@ nsresult
 aStatus
 )
 ;
-bool
-HasListenerForTraceableChannel
-(
-)
-{
-return
-mHasListenerForTraceableChannel
-;
-}
 void
 SetIsTrackingResource
 (
@@ -3147,11 +3138,6 @@ externally
 .
 uint32_t
 mAllowStaleCacheContent
-:
-1
-;
-uint32_t
-mHasListenerForTraceableChannel
 :
 1
 ;

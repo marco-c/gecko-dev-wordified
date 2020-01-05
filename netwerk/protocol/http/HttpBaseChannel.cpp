@@ -1000,10 +1000,6 @@ mAllowStaleCacheContent
 (
 false
 )
-mHasListenerForTraceableChannel
-(
-false
-)
 mSuspendCount
 (
 0
@@ -17055,10 +17051,6 @@ _retval
 mListener
 =
 aListener
-;
-mHasListenerForTraceableChannel
-=
-true
 ;
 return
 NS_OK
