@@ -171,6 +171,16 @@ frame_type
 Sort
 by
 url
+if
+(
+!
+e
+.
+data
+.
+disableSort
+)
+{
 message
 .
 sort
@@ -200,6 +210,7 @@ b
 }
 )
 ;
+}
 port
 .
 postMessage
