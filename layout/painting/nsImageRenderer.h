@@ -1755,9 +1755,9 @@ const
 nsRect
 &
 aImageRect
-nsRenderingContext
+gfxContext
 &
-aRenderingContext
+aContext
 )
 ;
 nsIFrame
