@@ -1080,6 +1080,9 @@ command
 path
 =
 None
+exts
+=
+None
 )
 :
         
