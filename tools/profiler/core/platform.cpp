@@ -7273,7 +7273,7 @@ name
 <
 aLib
 .
-GetNativeDebugPath
+GetNativeDebugName
 (
 )
 <

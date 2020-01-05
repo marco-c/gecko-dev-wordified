@@ -579,7 +579,7 @@ uuid
 ;
 }
 nsAutoString
-pathStr
+nameStr
 ;
 mozilla
 :
@@ -597,15 +597,10 @@ nsDependentCString
 (
 path
 )
-pathStr
-)
-)
-)
-;
-nsAutoString
 nameStr
-=
-pathStr
+)
+)
+)
 ;
 int32_t
 pos
@@ -655,9 +650,7 @@ str
 (
 )
 nameStr
-pathStr
 nameStr
-pathStr
 "
 "
 )
