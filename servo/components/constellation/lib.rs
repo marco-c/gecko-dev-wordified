@@ -69,6 +69,14 @@ box_syntax
 [
 feature
 (
+conservative_impl_trait
+)
+]
+#
+!
+[
+feature
+(
 mpsc_select
 )
 ]
