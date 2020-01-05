@@ -1322,7 +1322,7 @@ if
 (
 gIsActive
 )
-Stop
+PlatformStop
 (
 )
 ;
