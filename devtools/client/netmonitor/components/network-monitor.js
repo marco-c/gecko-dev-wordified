@@ -109,7 +109,7 @@ redux
 /
 Components
 const
-MonitoPanel
+MonitorPanel
 =
 createFactory
 (
@@ -181,7 +181,7 @@ monitor
 !
 statisticsOpen
 ?
-MonitoPanel
+MonitorPanel
 (
 )
 :
