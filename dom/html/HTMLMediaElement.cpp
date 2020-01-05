@@ -8417,11 +8417,11 @@ the
 /
 suspend
 -
-vide
+video
 -
 decoder
 is
-suspended
+disabled
 .
 mHasSuspendTaint
 =
