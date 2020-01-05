@@ -620,6 +620,12 @@ mResource
 bool
 mHasInitData
 ;
+uint64_t
+mTotalParsed
+;
+uint64_t
+mGlobalOffset
+;
 MediaByteRange
 mCompleteInitSegmentRange
 ;
