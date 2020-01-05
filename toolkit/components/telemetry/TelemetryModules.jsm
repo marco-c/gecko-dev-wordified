@@ -617,7 +617,7 @@ notify
 promise
 failed
 "
-ex
+err
 )
 )
 ;
