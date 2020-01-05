@@ -2404,7 +2404,6 @@ input
 String
 url
 :
-&
 Url
 context
 :
@@ -2434,10 +2433,6 @@ new
 Some
 (
 url
-.
-clone
-(
-)
 )
 document
 owner
@@ -2459,10 +2454,6 @@ new_for_fragment
 Some
 (
 url
-.
-clone
-(
-)
 )
 document
 fc
@@ -2689,8 +2680,11 @@ r
 (
 )
 input
-&
 url
+.
+clone
+(
+)
 ParseContext
 :
 :
