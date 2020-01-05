@@ -441,6 +441,7 @@ h
 /
 /
 NOLINT
+GTEST_API_
 int
 _tmain
 (
@@ -454,6 +455,7 @@ argv
 {
 #
 else
+GTEST_API_
 int
 main
 (

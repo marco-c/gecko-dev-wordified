@@ -1085,6 +1085,7 @@ least
 n
 calls
 .
+GTEST_API_
 Cardinality
 AtLeast
 (
@@ -1112,6 +1113,7 @@ most
 n
 calls
 .
+GTEST_API_
 Cardinality
 AtMost
 (
@@ -1139,6 +1141,7 @@ number
 of
 calls
 .
+GTEST_API_
 Cardinality
 AnyNumber
 (
@@ -1164,6 +1167,7 @@ and
 max
 calls
 .
+GTEST_API_
 Cardinality
 Between
 (
@@ -1196,6 +1200,7 @@ exactly
 n
 calls
 .
+GTEST_API_
 Cardinality
 Exactly
 (

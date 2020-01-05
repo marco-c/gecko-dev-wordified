@@ -504,6 +504,7 @@ bar
 123
 "
 .
+GTEST_API_
 string
 ConvertIdentifierNameToWords
 (
@@ -737,7 +738,7 @@ AssertHelper
 type
 =
 =
-FATAL
+kFatal
 ?
 TestPartResult
 :
@@ -766,7 +767,7 @@ if
 type
 =
 =
-FATAL
+kFatal
 )
 {
 posix
@@ -802,6 +803,7 @@ first
 time
 called
 .
+GTEST_API_
 FailureReporterInterface
 *
 GetFailureReporter
@@ -921,6 +923,7 @@ the
 gmock_verbose
 flag
 .
+GTEST_API_
 bool
 LogIsVisible
 (
@@ -1020,7 +1023,7 @@ return
 severity
 =
 =
-WARNING
+kWarning
 ;
 }
 }
@@ -1107,6 +1110,7 @@ be
 /
 conservative
 .
+GTEST_API_
 void
 Log
 (
@@ -1184,7 +1188,7 @@ if
 severity
 =
 =
-WARNING
+kWarning
 )
 {
 /
