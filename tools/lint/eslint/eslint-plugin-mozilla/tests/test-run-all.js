@@ -103,6 +103,17 @@ all
 .
 js
 "
+&
+&
+!
+file
+.
+endsWith
+(
+"
+~
+"
+)
 )
 {
 console
