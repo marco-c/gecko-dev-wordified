@@ -2965,6 +2965,13 @@ uint32_t
 aFlags
 )
 ;
+void
+OnSurfaceDiscardedInternal
+(
+bool
+aAnimatedFramesDiscarded
+)
+;
 private
 :
 /
