@@ -1110,9 +1110,8 @@ GetServoCSSParsingEnvironment
 )
 const
 {
-ServoCSSParsingEnvironment
-parsingEnv
-(
+return
+{
 mElement
 -
 >
@@ -1130,10 +1129,7 @@ OwnerDoc
 GetCompatibilityMode
 (
 )
-)
-;
-return
-parsingEnv
+}
 ;
 }
 NS_IMETHODIMP
