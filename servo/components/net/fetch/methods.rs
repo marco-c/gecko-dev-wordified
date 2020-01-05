@@ -8226,7 +8226,7 @@ referrer_policy
 .
 set
 (
-preflight
+request
 .
 referrer_policy
 .
