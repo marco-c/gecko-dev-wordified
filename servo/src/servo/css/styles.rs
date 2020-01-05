@@ -1096,9 +1096,6 @@ node
 Node
 )
 {
-resolve
-:
-:
 apply
 :
 :
