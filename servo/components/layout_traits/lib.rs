@@ -311,6 +311,9 @@ PipelineId
 url
 :
 Url
+is_iframe
+:
+bool
 chan
 :
 OpaqueScriptLayoutChannel
