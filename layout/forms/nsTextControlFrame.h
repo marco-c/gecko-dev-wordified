@@ -1759,6 +1759,17 @@ creation
 bool
 mUsePlaceholder
 ;
+/
+/
+Similarly
+for
+preview
+node
+creation
+.
+bool
+mUsePreview
+;
 #
 ifdef
 DEBUG
