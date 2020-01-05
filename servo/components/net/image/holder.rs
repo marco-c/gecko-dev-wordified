@@ -70,9 +70,6 @@ image_cache_task
 :
 :
 ImageResponseMsg
-:
-:
-*
 ;
 use
 local_image_cache
@@ -770,6 +767,9 @@ recv
 (
 )
 {
+ImageResponseMsg
+:
+:
 ImageReady
 (
 image
@@ -784,6 +784,9 @@ Some
 (
 image
 )
+ImageResponseMsg
+:
+:
 ImageNotReady
 =
 >
@@ -808,6 +811,9 @@ serialize
 (
 )
 )
+ImageResponseMsg
+:
+:
 ImageFailed
 =
 >

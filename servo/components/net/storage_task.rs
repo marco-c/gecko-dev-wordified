@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-self
-:
-:
-StorageTaskMsg
-:
-:
-*
-;
-use
 std
 :
 :
@@ -478,6 +469,9 @@ recv
 (
 )
 {
+StorageTaskMsg
+:
+:
 Length
 (
 sender
@@ -494,6 +488,9 @@ sender
 url
 )
 }
+StorageTaskMsg
+:
+:
 Key
 (
 sender
@@ -512,6 +509,9 @@ url
 index
 )
 }
+StorageTaskMsg
+:
+:
 SetItem
 (
 sender
@@ -532,6 +532,9 @@ name
 value
 )
 }
+StorageTaskMsg
+:
+:
 GetItem
 (
 sender
@@ -550,6 +553,9 @@ url
 name
 )
 }
+StorageTaskMsg
+:
+:
 RemoveItem
 (
 sender
@@ -568,6 +574,9 @@ url
 name
 )
 }
+StorageTaskMsg
+:
+:
 Clear
 (
 sender
@@ -584,6 +593,9 @@ sender
 url
 )
 }
+StorageTaskMsg
+:
+:
 Exit
 =
 >
