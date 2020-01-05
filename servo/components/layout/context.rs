@@ -646,11 +646,11 @@ ImageCacheChan
 /
 The
 current
-screen
+viewport
 size
 .
 pub
-screen_size
+viewport_size
 :
 Size2D
 <
