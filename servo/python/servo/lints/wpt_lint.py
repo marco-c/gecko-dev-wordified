@@ -241,6 +241,14 @@ self
 )
 :
         
+if
+self
+.
+stylo
+:
+            
+return
+        
 wpt_working_dir
 =
 os
