@@ -9458,6 +9458,10 @@ self
 impl
 Angle
 {
+#
+[
+inline
+]
 pub
 fn
 radians
