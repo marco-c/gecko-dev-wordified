@@ -263,14 +263,6 @@ harfbuzz
 :
 :
 {
-RUST_hb_font_funcs_destroy
-}
-;
-use
-harfbuzz
-:
-:
-{
 RUST_hb_font_funcs_set_glyph_func
 }
 ;
