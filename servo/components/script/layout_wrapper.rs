@@ -4700,6 +4700,11 @@ Focus
 NonTSPseudoClass
 :
 :
+Fullscreen
+|
+NonTSPseudoClass
+:
+:
 Hover
 |
 NonTSPseudoClass

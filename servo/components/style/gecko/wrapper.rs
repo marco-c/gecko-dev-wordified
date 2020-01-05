@@ -3631,6 +3631,11 @@ ReadWrite
 NonTSPseudoClass
 :
 :
+Fullscreen
+|
+NonTSPseudoClass
+:
+:
 Indeterminate
 =
 >

@@ -577,6 +577,7 @@ Link
 Visited
 Active
 Focus
+Fullscreen
 Hover
 Enabled
 Disabled
@@ -674,6 +675,13 @@ Focus
 "
 :
 focus
+"
+Fullscreen
+=
+>
+"
+:
+fullscreen
 "
 Hover
 =
@@ -801,6 +809,10 @@ Focus
 =
 >
 IN_FOCUS_STATE
+Fullscreen
+=
+>
+IN_FULLSCREEN_STATE
 Hover
 =
 >
@@ -1083,6 +1095,12 @@ focus
 =
 >
 Focus
+"
+fullscreen
+"
+=
+>
+Fullscreen
 "
 hover
 "

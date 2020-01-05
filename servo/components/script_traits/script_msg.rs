@@ -1303,6 +1303,17 @@ ServoUrl
 /
 /
 /
+Enter
+or
+exit
+fullscreen
+SetFullscreenState
+(
+bool
+)
+/
+/
+/
 Requests
 that
 the

@@ -622,6 +622,8 @@ UpdateReplacedElement
 WebSocketEvent
 WorkerEvent
 ServiceWorkerEvent
+EnterFullscreen
+ExitFullscreen
 }
 /
 /
