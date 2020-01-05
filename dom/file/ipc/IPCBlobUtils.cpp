@@ -516,7 +516,6 @@ Create
 aInputStream
 &
 rv
-aManager
 )
 ;
 if
