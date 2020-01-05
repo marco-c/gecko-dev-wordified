@@ -254,15 +254,6 @@ LaunchPhase
 :
 Waiting
 ;
-mLaunchTime
-=
-TimeStamp
-:
-:
-Now
-(
-)
-;
 if
 (
 !
