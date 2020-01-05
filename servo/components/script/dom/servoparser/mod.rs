@@ -1056,7 +1056,7 @@ origin
 (
 )
 .
-alias
+clone
 (
 )
 IsHTMLDocument

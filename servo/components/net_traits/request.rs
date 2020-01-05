@@ -90,7 +90,10 @@ use
 servo_url
 :
 :
+{
+ImmutableOrigin
 ServoUrl
+}
 ;
 use
 std
@@ -112,14 +115,6 @@ default
 :
 :
 Default
-;
-use
-url
-:
-:
-Origin
-as
-UrlOrigin
 ;
 /
 /
@@ -316,6 +311,8 @@ derive
 Clone
 PartialEq
 Debug
+Serialize
+Deserialize
 HeapSizeOf
 )
 ]
@@ -326,7 +323,7 @@ Origin
 Client
 Origin
 (
-UrlOrigin
+ImmutableOrigin
 )
 }
 /
