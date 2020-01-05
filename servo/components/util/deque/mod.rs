@@ -584,7 +584,7 @@ atomic
 :
 :
 {
-AtomicInt
+AtomicIsize
 AtomicPtr
 }
 ;
@@ -639,7 +639,7 @@ than
 static
 K
 :
-int
+isize
 =
 4
 ;
@@ -696,7 +696,7 @@ MIN_BITS
 static
 MIN_BITS
 :
-uint
+usize
 =
 7
 ;
@@ -708,10 +708,10 @@ T
 {
 bottom
 :
-AtomicInt
+AtomicIsize
 top
 :
-AtomicInt
+AtomicIsize
 array
 :
 AtomicPtr
@@ -1331,7 +1331,7 @@ const
 T
 log_size
 :
-uint
+usize
 }
 unsafe
 impl
@@ -1517,7 +1517,7 @@ mut
 self
 bits
 :
-uint
+usize
 )
 -
 >
@@ -2130,7 +2130,7 @@ Deque
 {
 bottom
 :
-AtomicInt
+AtomicIsize
 :
 :
 new
@@ -2139,7 +2139,7 @@ new
 )
 top
 :
-AtomicInt
+AtomicIsize
 :
 :
 new
@@ -2709,10 +2709,10 @@ maybe_shrink
 self
 b
 :
-int
+isize
 t
 :
-int
+isize
 )
 {
 let
@@ -2896,7 +2896,7 @@ swap_buffer
 self
 b
 :
-int
+isize
 old
 :
 *
@@ -3167,11 +3167,11 @@ T
 (
 log_size
 :
-uint
+usize
 )
 -
 >
-uint
+usize
 {
 (
 1
@@ -3206,7 +3206,7 @@ new
 (
 log_size
 :
-uint
+usize
 )
 -
 >
@@ -3282,7 +3282,7 @@ self
 )
 -
 >
-int
+isize
 {
 1
 <
@@ -3318,7 +3318,7 @@ self
 )
 -
 >
-int
+isize
 {
 (
 1
@@ -3339,7 +3339,7 @@ elem
 self
 i
 :
-int
+isize
 )
 -
 >
@@ -3421,7 +3421,7 @@ get
 self
 i
 :
-int
+isize
 )
 -
 >
@@ -3463,7 +3463,7 @@ put
 self
 i
 :
-int
+isize
 t
 :
 T
@@ -3520,13 +3520,13 @@ resize
 self
 b
 :
-int
+isize
 t
 :
-int
+isize
 delta
 :
-int
+isize
 )
 -
 >
@@ -3554,7 +3554,7 @@ complement
 casting
 delta
 to
-uint
+usize
 and
 then
 adding
@@ -3579,7 +3579,7 @@ log_size
 +
 delta
 as
-uint
+usize
 )
 ;
 for

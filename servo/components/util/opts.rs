@@ -238,7 +238,7 @@ painting
 pub
 paint_threads
 :
-uint
+usize
 /
 /
 /
@@ -299,7 +299,7 @@ s
 pub
 tile_size
 :
-uint
+usize
 /
 /
 /
@@ -474,7 +474,7 @@ algorithm
 pub
 layout_threads
 :
-uint
+usize
 pub
 nonincremental_layout
 :
@@ -855,7 +855,7 @@ initial_window_size
 TypedSize2D
 <
 ScreenPx
-uint
+u32
 >
 /
 /
@@ -2299,7 +2299,7 @@ clone
 let
 tile_size
 :
-uint
+usize
 =
 match
 opt_match
@@ -2371,7 +2371,7 @@ let
 mut
 paint_threads
 :
-uint
+usize
 =
 match
 opt_match
@@ -2524,7 +2524,7 @@ let
 mut
 layout_threads
 :
-uint
+usize
 =
 match
 opt_match
@@ -2690,7 +2690,7 @@ res
 :
 Vec
 <
-uint
+u32
 >
 =
 res_string

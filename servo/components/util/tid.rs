@@ -110,7 +110,7 @@ RefCell
 <
 Option
 <
-uint
+usize
 >
 >
 >
@@ -149,7 +149,7 @@ tid
 )
 -
 >
-uint
+usize
 {
 TASK_LOCAL_TID
 .

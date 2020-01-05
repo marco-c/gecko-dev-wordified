@@ -99,7 +99,7 @@ T
 >
 length
 :
-uint
+usize
 }
 struct
 PersistentListEntry
@@ -188,7 +188,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
