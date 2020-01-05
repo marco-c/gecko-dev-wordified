@@ -656,6 +656,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+LINUX
+)
 /
 /
 Enable
