@@ -81,7 +81,7 @@ freetype
 freetype
 :
 :
-FT_Done_FreeType
+FT_Done_Library
 ;
 use
 freetype
@@ -330,7 +330,7 @@ is_null
 ;
 unsafe
 {
-FT_Done_FreeType
+FT_Done_Library
 (
 self
 .
