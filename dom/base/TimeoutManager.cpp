@@ -4269,7 +4269,7 @@ r
 =
 NewNonOwningRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 nsGlobalWindow
 >
@@ -4783,7 +4783,7 @@ r
 =
 NewNonOwningRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 nsGlobalWindow
 >

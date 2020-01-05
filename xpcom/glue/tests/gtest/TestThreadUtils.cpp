@@ -2079,7 +2079,7 @@ static_assert
 (
 IsParameterStorageClass
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 int
 >
@@ -2088,7 +2088,7 @@ int
 :
 value
 "
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 int
 >
@@ -3794,7 +3794,7 @@ detail
 :
 ParameterStorage
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3802,7 +3802,7 @@ SpyWithISupports
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3813,7 +3813,7 @@ value
 "
 ParameterStorage
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3823,7 +3823,7 @@ SpyWithISupports
 Type
 should
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3850,7 +3850,7 @@ SpyWithISupports
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3869,7 +3869,7 @@ SpyWithISupports
 Type
 should
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3883,7 +3883,7 @@ mozilla
 :
 IsSame
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3899,7 +3899,7 @@ SpyWithISupports
 :
 value
 "
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3922,7 +3922,7 @@ mozilla
 :
 IsSame
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -3936,7 +3936,7 @@ SpyWithISupports
 :
 value
 "
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >
@@ -4020,7 +4020,7 @@ ThreadUtilsRefCountedFinal
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedFinal
 >
@@ -4039,7 +4039,7 @@ ThreadUtilsRefCountedFinal
 Type
 should
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedFinal
 >
@@ -4093,7 +4093,7 @@ ThreadUtilsRefCountedBase
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedBase
 >
@@ -4112,7 +4112,7 @@ ThreadUtilsRefCountedBase
 Type
 should
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedBase
 >
@@ -4166,7 +4166,7 @@ ThreadUtilsRefCountedDerived
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedDerived
 >
@@ -4185,7 +4185,7 @@ ThreadUtilsRefCountedDerived
 Type
 should
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedDerived
 >
@@ -4244,7 +4244,7 @@ ThreadUtilsNonRefCounted
 :
 :
 Type
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsNonRefCounted
 >
@@ -4264,7 +4264,7 @@ Type
 should
 NOT
 be
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 ThreadUtilsNonRefCounted
 >
@@ -8430,7 +8430,7 @@ r10
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 Spy
 >
@@ -8455,7 +8455,7 @@ r10
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 SpyWithISupports
 >

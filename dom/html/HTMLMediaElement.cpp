@@ -17645,7 +17645,7 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 MediaStreamTrack
 >

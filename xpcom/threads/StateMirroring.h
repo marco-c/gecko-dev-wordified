@@ -2485,7 +2485,7 @@ r
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 AbstractMirror
 <
@@ -2593,7 +2593,7 @@ r
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+StoreRefPtrPassByPtr
 <
 AbstractMirror
 <
