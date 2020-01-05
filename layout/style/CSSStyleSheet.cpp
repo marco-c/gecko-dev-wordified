@@ -4136,19 +4136,6 @@ aMediaText
 nsCSSParser
 parser
 ;
-bool
-htmlMode
-=
-mStyleSheet
-&
-&
-mStyleSheet
--
->
-GetOwnerNode
-(
-)
-;
 parser
 .
 ParseMediaList
@@ -4157,7 +4144,6 @@ aMediaText
 nullptr
 0
 this
-htmlMode
 )
 ;
 }
