@@ -206,10 +206,13 @@ level
 for
 level
 in
+reversed
+(
 range
 (
 1
 4
+)
 )
 ]
         
