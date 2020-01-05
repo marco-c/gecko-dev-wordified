@@ -1864,9 +1864,6 @@ mWidth
 nscoord
 mHeight
 ;
-uint32_t
-mDepth
-;
 int32_t
 mAppUnitsPerDevPixel
 ;
