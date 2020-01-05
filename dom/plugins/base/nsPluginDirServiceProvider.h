@@ -147,16 +147,6 @@ versions
 compatibility
 #
 define
-NS_WIN_ACROBAT_SCAN_KEY
-"
-plugin
-.
-scan
-.
-Acrobat
-"
-#
-define
 NS_WIN_QUICKTIME_SCAN_KEY
 "
 plugin
