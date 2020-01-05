@@ -459,6 +459,10 @@ check_loop
 mut
 self
 )
+-
+>
+bool
 {
+false
 }
 }

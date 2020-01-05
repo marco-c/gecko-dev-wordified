@@ -572,6 +572,13 @@ the
 event
 loop
 .
+Returns
+whether
+the
+window
+should
+close
+.
 pub
 fn
 check_loop
@@ -579,6 +586,9 @@ check_loop
 mut
 self
 )
+-
+>
+bool
 ;
 /
 /
