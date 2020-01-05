@@ -14488,10 +14488,7 @@ range
 )
 {
 for
-(
-_i
 glyph
-)
 in
 slice
 .
