@@ -8088,6 +8088,9 @@ mMaxTextureSize
 int32_t
 mMaxAllocSize
 ;
+BackendType
+mDefaultSoftwareBackend
+;
 Config
 (
 )
@@ -8103,6 +8106,13 @@ mMaxTextureSize
 mMaxAllocSize
 (
 52000000
+)
+mDefaultSoftwareBackend
+(
+BackendType
+:
+:
+CAIRO
 )
 {
 }
@@ -9021,6 +9031,12 @@ GetMaxSurfaceSize
 (
 BackendType
 aType
+)
+;
+static
+BackendType
+GetDefaultSoftwareBackend
+(
 )
 ;
 static
