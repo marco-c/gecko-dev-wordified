@@ -333,6 +333,7 @@ def
 error
 (
 self
+expectedError
 )
 :
         
@@ -364,6 +365,20 @@ completed
 (
 )
         
+errorRe
+=
+re
+.
+compile
+(
+re
+.
+escape
+(
+expectedError
+)
+)
+        
 return
 None
 is
@@ -372,11 +387,7 @@ re
 .
 search
 (
-r
-'
-error
-:
-'
+errorRe
 self
 .
 stderr
@@ -489,6 +500,10 @@ self
 .
 error
 (
+"
+error
+:
+"
 )
                 
 and
