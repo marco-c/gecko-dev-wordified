@@ -279,7 +279,7 @@ Debug
 ]
 pub
 struct
-NodeStyles
+ElementStyles
 {
 /
 /
@@ -324,7 +324,7 @@ pseudos
 PseudoStyles
 }
 impl
-NodeStyles
+ElementStyles
 {
 pub
 fn
@@ -341,7 +341,7 @@ ComputedValues
 >
 Self
 {
-NodeStyles
+ElementStyles
 {
 primary
 :
@@ -365,7 +365,7 @@ Debug
 )
 ]
 enum
-NodeDataStyles
+ElementDataStyles
 {
 /
 /
@@ -457,7 +457,7 @@ animations
 Note
 that
 since
-NodeStyles
+ElementStyles
 contains
 an
 Arc
@@ -484,7 +484,7 @@ Previous
 (
 Option
 <
-NodeStyles
+ElementStyles
 >
 )
 /
@@ -519,11 +519,11 @@ algorithm
 .
 Current
 (
-NodeStyles
+ElementStyles
 )
 }
 impl
-NodeDataStyles
+ElementDataStyles
 {
 fn
 is_previous
@@ -539,7 +539,7 @@ use
 self
 :
 :
-NodeDataStyles
+ElementDataStyles
 :
 :
 *
@@ -769,11 +769,11 @@ Debug
 ]
 pub
 struct
-NodeData
+ElementData
 {
 styles
 :
-NodeDataStyles
+ElementDataStyles
 pub
 restyle_data
 :
@@ -783,7 +783,7 @@ RestyleData
 >
 }
 impl
-NodeData
+ElementData
 {
 pub
 fn
@@ -794,11 +794,11 @@ new
 >
 Self
 {
-NodeData
+ElementData
 {
 styles
 :
-NodeDataStyles
+ElementDataStyles
 :
 :
 Uninitialized
@@ -823,7 +823,7 @@ self
 .
 styles
 {
-NodeDataStyles
+ElementDataStyles
 :
 :
 Current
@@ -851,7 +851,7 @@ self
 Option
 <
 &
-NodeStyles
+ElementStyles
 >
 {
 match
@@ -859,7 +859,7 @@ self
 .
 styles
 {
-NodeDataStyles
+ElementDataStyles
 :
 :
 Current
@@ -889,7 +889,7 @@ self
 -
 >
 &
-NodeStyles
+ElementStyles
 {
 self
 .
@@ -961,7 +961,7 @@ self
 .
 styles
 {
-NodeDataStyles
+ElementDataStyles
 :
 :
 Current
@@ -1006,7 +1006,7 @@ self
 Option
 <
 &
-NodeStyles
+ElementStyles
 >
 {
 match
@@ -1014,7 +1014,7 @@ self
 .
 styles
 {
-NodeDataStyles
+ElementDataStyles
 :
 :
 Previous
@@ -1060,7 +1060,7 @@ Option
 <
 &
 mut
-NodeStyles
+ElementStyles
 >
 {
 match
@@ -1068,7 +1068,7 @@ self
 .
 styles
 {
-NodeDataStyles
+ElementDataStyles
 :
 :
 Previous
@@ -1125,14 +1125,14 @@ FnOnce
 >
 Option
 <
-NodeStyles
+ElementStyles
 >
 {
 use
 self
 :
 :
-NodeDataStyles
+ElementDataStyles
 :
 :
 *
@@ -1243,12 +1243,12 @@ self
 .
 styles
 =
-NodeDataStyles
+ElementDataStyles
 :
 :
 Current
 (
-NodeStyles
+ElementStyles
 :
 :
 new
@@ -1273,7 +1273,7 @@ mut
 self
 styles
 :
-NodeStyles
+ElementStyles
 )
 {
 debug_assert
@@ -1292,7 +1292,7 @@ self
 .
 styles
 =
-NodeDataStyles
+ElementDataStyles
 :
 :
 Current

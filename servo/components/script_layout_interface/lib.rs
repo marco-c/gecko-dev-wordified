@@ -351,7 +351,7 @@ style
 data
 :
 :
-NodeData
+ElementData
 ;
 pub
 struct
@@ -406,14 +406,14 @@ various
 /
 transmutations
 between
-NodeData
+ElementData
 and
 PersistentLayoutData
 .
 pub
 style_data
 :
-NodeData
+ElementData
 /
 /
 /
@@ -461,7 +461,7 @@ PartialPersistentLayoutData
 {
 style_data
 :
-NodeData
+ElementData
 :
 :
 new

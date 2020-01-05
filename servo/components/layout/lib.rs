@@ -271,10 +271,6 @@ script_traits
 ;
 extern
 crate
-selectors
-;
-extern
-crate
 smallvec
 ;
 #
