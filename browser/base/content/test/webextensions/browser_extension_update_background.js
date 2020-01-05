@@ -1253,12 +1253,9 @@ this
 time
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 panel
@@ -1689,12 +1686,9 @@ applied
 let
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 AddonManagerPrivate

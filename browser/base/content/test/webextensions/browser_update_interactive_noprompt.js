@@ -297,12 +297,9 @@ applied
 let
 updatePromise
 =
-promiseInstallEvent
+waitForUpdate
 (
 addon
-"
-onInstallEnded
-"
 )
 ;
 win
