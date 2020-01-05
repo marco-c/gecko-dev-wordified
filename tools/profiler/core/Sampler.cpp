@@ -2189,7 +2189,7 @@ be
 too
 early
 .
-ASSERT
+MOZ_ASSERT
 (
 false
 )
