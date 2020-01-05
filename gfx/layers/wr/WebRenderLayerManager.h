@@ -304,6 +304,14 @@ gfx
 :
 :
 Rect
+VisibleBoundsRelativeToParent
+(
+)
+;
+gfx
+:
+:
+Rect
 TransformedVisibleBoundsRelativeToParent
 (
 )
