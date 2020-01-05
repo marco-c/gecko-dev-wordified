@@ -327,8 +327,6 @@ gfx
 Rect
 ParentStackingContextBounds
 (
-size_t
-aScrollMetadataIndex
 )
 ;
 gfx
