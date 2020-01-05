@@ -1128,6 +1128,7 @@ wr
 struct
 WindowId
 {
+explicit
 WindowId
 (
 uint64_t
