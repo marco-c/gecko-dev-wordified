@@ -1386,6 +1386,14 @@ true
 maskUsage
 )
 ;
+DrawResult
+result
+=
+DrawResult
+:
+:
+SUCCESS
+;
 if
 (
 maskUsage
