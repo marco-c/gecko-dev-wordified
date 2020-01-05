@@ -801,8 +801,8 @@ StyleShapeRadius
 :
 uint8_t
 {
-FarthestSide
 ClosestSide
+FarthestSide
 }
 ;
 /
