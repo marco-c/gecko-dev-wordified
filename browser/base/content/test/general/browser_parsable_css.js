@@ -180,7 +180,7 @@ debugger
 new
 \
 /
-styles
+debugger
 .
 css
 /
