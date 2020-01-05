@@ -591,7 +591,7 @@ i
 ;
 while
 (
-1
+true
 )
 {
 char

@@ -4192,7 +4192,7 @@ row
 ;
 while
 (
-1
+true
 )
 {
 DebugOnly
@@ -7691,7 +7691,7 @@ hasResult
 ;
 while
 (
-1
+true
 )
 {
 rv
@@ -8229,7 +8229,7 @@ path2
 ;
 while
 (
-1
+true
 )
 {
 /
@@ -14861,7 +14861,7 @@ return
 }
 while
 (
-0
+false
 )
 ;
 /
@@ -18808,7 +18808,7 @@ array
 ;
 while
 (
-1
+true
 )
 {
 rv
@@ -19292,7 +19292,7 @@ kMaxNumberOfCookies
 ;
 while
 (
-1
+true
 )
 {
 rv
