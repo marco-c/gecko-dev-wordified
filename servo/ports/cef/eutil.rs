@@ -257,9 +257,8 @@ s
 slice
 :
 :
-from_raw_buf
+from_raw_parts
 (
-&
 s
 l
 )

@@ -255,9 +255,10 @@ vec
 for
 i
 in
-range
-(
 0u
+.
+.
+(
 argc
 as
 uint
@@ -517,9 +518,8 @@ slice
 slice
 :
 :
-from_raw_buf
+from_raw_parts
 (
-&
 buf
 (
 *
@@ -635,9 +635,7 @@ let
 arg
 =
 o
-.
-slice_from
-(
+[
 opt
 .
 len
@@ -645,7 +643,9 @@ len
 )
 +
 1
-)
+.
+.
+]
 .
 as_bytes
 (

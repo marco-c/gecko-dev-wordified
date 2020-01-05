@@ -61,6 +61,14 @@ MPL
 [
 feature
 (
+env
+)
+]
+#
+!
+[
+feature
+(
 io
 )
 ]
@@ -84,7 +92,7 @@ use
 std
 :
 :
-os
+env
 ;
 fn
 main
@@ -94,10 +102,10 @@ main
 let
 out_dir
 =
-os
+env
 :
 :
-getenv
+var_string
 (
 "
 OUT_DIR
