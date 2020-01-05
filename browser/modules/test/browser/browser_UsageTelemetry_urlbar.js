@@ -806,6 +806,8 @@ clearEvents
 (
 )
 ;
+/
+/
 let
 resultIndexHist
 =
@@ -834,6 +836,8 @@ FX_URLBAR_SELECTED_RESULT_TYPE
 "
 )
 ;
+/
+/
 resultIndexHist
 .
 clear
@@ -1102,6 +1106,8 @@ histograms
 as
 well
 .
+/
+/
 let
 resultIndexes
 =
@@ -1111,6 +1117,8 @@ snapshot
 (
 )
 ;
+/
+/
 checkHistogramResults
 (
 resultIndexes
@@ -1184,6 +1192,8 @@ clearEvents
 (
 )
 ;
+/
+/
 let
 resultIndexHist
 =
@@ -1212,6 +1222,8 @@ FX_URLBAR_SELECTED_RESULT_TYPE
 "
 )
 ;
+/
+/
 resultIndexHist
 .
 clear
@@ -1480,6 +1492,8 @@ histograms
 as
 well
 .
+/
+/
 let
 resultIndexes
 =
@@ -1489,6 +1503,8 @@ snapshot
 (
 )
 ;
+/
+/
 checkHistogramResults
 (
 resultIndexes
@@ -1562,6 +1578,8 @@ clearEvents
 (
 )
 ;
+/
+/
 let
 resultIndexHist
 =
@@ -1590,6 +1608,8 @@ FX_URLBAR_SELECTED_RESULT_TYPE
 "
 )
 ;
+/
+/
 resultIndexHist
 .
 clear
@@ -1897,6 +1917,8 @@ histograms
 as
 well
 .
+/
+/
 let
 resultIndexes
 =
@@ -1906,6 +1928,8 @@ snapshot
 (
 )
 ;
+/
+/
 checkHistogramResults
 (
 resultIndexes
@@ -1979,6 +2003,8 @@ clearEvents
 (
 )
 ;
+/
+/
 let
 resultIndexHist
 =
@@ -2007,6 +2033,8 @@ FX_URLBAR_SELECTED_RESULT_TYPE
 "
 )
 ;
+/
+/
 resultIndexHist
 .
 clear
@@ -2396,6 +2424,8 @@ histograms
 as
 well
 .
+/
+/
 let
 resultIndexes
 =
@@ -2405,6 +2435,8 @@ snapshot
 (
 )
 ;
+/
+/
 checkHistogramResults
 (
 resultIndexes
