@@ -324,6 +324,10 @@ int
 EGLenum
 ;
 typedef
+intptr_t
+EGLAttrib
+;
+typedef
 void
 *
 EGLConfig
@@ -337,6 +341,11 @@ typedef
 void
 *
 EGLDisplay
+;
+typedef
+void
+*
+EGLDeviceEXT
 ;
 typedef
 void
@@ -362,6 +371,11 @@ typedef
 void
 *
 EGLSync
+;
+typedef
+void
+*
+EGLStreamKHR
 ;
 typedef
 uint64_t
