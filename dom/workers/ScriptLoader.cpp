@@ -4229,13 +4229,14 @@ MOZ_DIAGNOSTIC_ASSERT
 principal
 )
 ;
-MOZ_ASSERT
+NS_ENSURE_TRUE
 (
 NS_LoadGroupMatchesPrincipal
 (
 loadGroup
 principal
 )
+NS_ERROR_FAILURE
 )
 ;
 /
