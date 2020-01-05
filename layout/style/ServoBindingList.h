@@ -742,6 +742,13 @@ computed_values
 nsCSSPropertyID
 property
 )
+SERVO_BINDING_FUNC
+(
+Servo_Property_IsDiscreteAnimatable
+bool
+nsCSSPropertyID
+property
+)
 /
 /
 AnimationValues
