@@ -322,6 +322,10 @@ hyper
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 js
 ;
 extern

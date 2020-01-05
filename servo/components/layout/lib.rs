@@ -268,6 +268,10 @@ gfx_traits
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 layout_traits
 ;
 extern

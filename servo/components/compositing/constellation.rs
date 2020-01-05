@@ -197,6 +197,12 @@ font_cache_task
 FontCacheTask
 ;
 use
+ipc_channel
+:
+:
+ipc
+;
+use
 layout_traits
 :
 :
@@ -8531,7 +8537,14 @@ sender
 receiver
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;

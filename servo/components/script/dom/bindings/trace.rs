@@ -2491,13 +2491,7 @@ nothing
 impl
 JSTraceable
 for
-Box
-<
 ScriptListener
-+
-'
-static
->
 {
 #
 [

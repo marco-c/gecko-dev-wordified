@@ -1219,9 +1219,6 @@ ScriptTask
 .
 fn
 create
-<
-C
->
 (
 _phantom
 :
@@ -1245,7 +1242,7 @@ SubpageId
 >
 compositor
 :
-C
+ScriptListener
 layout_chan
 :
 &
@@ -1290,12 +1287,6 @@ load_data
 :
 LoadData
 )
-where
-C
-:
-ScriptListener
-+
-Send
 ;
 /
 /

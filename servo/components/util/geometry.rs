@@ -792,6 +792,8 @@ PartialEq
 PartialOrd
 Eq
 Ord
+Deserialize
+Serialize
 )
 ]
 pub

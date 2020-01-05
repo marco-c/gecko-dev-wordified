@@ -128,6 +128,15 @@ rect
 Rect
 ;
 use
+ipc_channel
+:
+:
+ipc
+:
+:
+IpcSender
+;
+use
 libc
 :
 :
@@ -599,7 +608,7 @@ task
 .
 GetCurrentEpoch
 (
-Sender
+IpcSender
 <
 Epoch
 >
