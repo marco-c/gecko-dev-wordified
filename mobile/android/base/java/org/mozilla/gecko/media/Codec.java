@@ -767,6 +767,10 @@ printStackTrace
 (
 )
 ;
+len
+=
+0
+;
 }
 mSamplePool
 .
@@ -782,6 +786,11 @@ cryptoInfo
 !
 =
 null
+&
+&
+len
+>
+0
 )
 {
 mCodec
