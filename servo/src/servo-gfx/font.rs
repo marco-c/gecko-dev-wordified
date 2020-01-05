@@ -277,6 +277,8 @@ pure
 fn
 face_identifier
 (
+&
+self
 )
 -
 >
@@ -287,6 +289,8 @@ pure
 fn
 family_name
 (
+&
+self
 )
 -
 >
@@ -297,6 +301,8 @@ pure
 fn
 face_name
 (
+&
+self
 )
 -
 >
@@ -307,6 +313,8 @@ pure
 fn
 is_italic
 (
+&
+self
 )
 -
 >
@@ -316,6 +324,8 @@ pure
 fn
 boldness
 (
+&
+self
 )
 -
 >
@@ -324,6 +334,8 @@ CSSFontWeight
 fn
 clone_with_style
 (
+&
+self
 fctx
 :
 &
@@ -348,6 +360,8 @@ FontHandle
 fn
 glyph_index
 (
+&
+self
 codepoint
 :
 char
@@ -362,6 +376,8 @@ GlyphIndex
 fn
 glyph_h_advance
 (
+&
+self
 GlyphIndex
 )
 -
@@ -374,6 +390,8 @@ FractionalPixel
 fn
 get_metrics
 (
+&
+self
 )
 -
 >
@@ -382,6 +400,8 @@ FontMetrics
 fn
 get_table_for_tag
 (
+&
+self
 FontTableTag
 )
 -
@@ -593,6 +613,8 @@ pure
 fn
 tag_to_str
 (
+&
+self
 )
 -
 >
@@ -610,6 +632,8 @@ pure
 fn
 tag_to_str
 (
+&
+self
 )
 -
 >
@@ -634,7 +658,6 @@ cast
 :
 transmute
 (
-&
 self
 )
 4
@@ -734,8 +757,10 @@ FontTableMethods
 fn
 with_buffer
 (
-fn
 &
+self
+&
+fn
 (
 *
 u8
@@ -820,6 +845,7 @@ pure
 fn
 is_bold
 (
+self
 )
 -
 >
@@ -1242,6 +1268,7 @@ fonts
 :
 ~
 [
+mut
 Font
 ]
 }
@@ -1264,6 +1291,7 @@ fonts
 :
 ~
 [
+mut
 Font
 ]
 )
@@ -1289,6 +1317,8 @@ fonts
 fn
 create_textrun
 (
+&
+self
 text
 :
 ~
@@ -1460,7 +1490,6 @@ handle
 :
 FontHandle
 priv
-mut
 azure_font
 :
 Option
@@ -1468,7 +1497,6 @@ Option
 ScaledFont
 >
 priv
-mut
 shaper
 :
 Option
@@ -1515,6 +1543,7 @@ BackendType
 >
 Result
 <
+mut
 Font
 (
 )
@@ -1598,6 +1627,7 @@ here
 return
 Ok
 (
+mut
 Font
 {
 handle
@@ -1645,6 +1675,7 @@ BackendType
 )
 -
 >
+mut
 Font
 {
 let
@@ -1656,6 +1687,7 @@ get_metrics
 (
 )
 ;
+mut
 Font
 {
 handle
@@ -1704,6 +1736,7 @@ BackendType
 >
 Result
 <
+mut
 Font
 (
 )
@@ -1784,6 +1817,7 @@ priv
 fn
 get_shaper
 (
+mut
 self
 )
 -
@@ -1846,6 +1880,8 @@ shaper
 fn
 get_table_for_tag
 (
+&
+self
 tag
 :
 FontTableTag
@@ -1974,6 +2010,7 @@ fn
 get_azure_font
 (
 &
+mut
 self
 )
 -
@@ -2120,6 +2157,8 @@ priv
 fn
 create_azure_font
 (
+&
+self
 )
 -
 >
@@ -2165,6 +2204,9 @@ Font
 fn
 draw_text_into_context
 (
+&
+mut
+self
 rctx
 :
 &
@@ -2581,6 +2623,8 @@ null
 fn
 measure_text
 (
+&
+self
 run
 :
 &
@@ -2770,6 +2814,7 @@ descent
 fn
 shape_text
 (
+mut
 self
 text
 :
@@ -2838,6 +2883,8 @@ store
 fn
 get_descriptor
 (
+&
+self
 )
 -
 >
@@ -2867,6 +2914,8 @@ face_identifier
 fn
 glyph_index
 (
+&
+self
 codepoint
 :
 char
@@ -2890,6 +2939,8 @@ codepoint
 fn
 glyph_h_advance
 (
+&
+self
 glyph
 :
 GlyphIndex

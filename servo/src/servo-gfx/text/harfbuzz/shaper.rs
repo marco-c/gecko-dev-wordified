@@ -103,6 +103,8 @@ util
 :
 ignore
 ;
+/
+/
 use
 dvec
 :
@@ -907,6 +909,8 @@ pure
 fn
 len
 (
+&
+self
 )
 -
 >
@@ -938,6 +942,8 @@ pen
 fn
 get_entry_for_glyph
 (
+&
+self
 i
 :
 uint
@@ -1194,6 +1200,7 @@ HarfbuzzShaper
 {
 font
 :
+mut
 Font
 priv
 hb_face
@@ -1273,6 +1280,7 @@ new
 (
 font
 :
+mut
 Font
 )
 -
@@ -1600,6 +1608,8 @@ font
 fn
 shape_text
 (
+&
+self
 text
 :
 &
@@ -1732,6 +1742,8 @@ priv
 fn
 save_glyph_results
 (
+&
+self
 text
 :
 &
@@ -3385,11 +3397,12 @@ first
 character
 .
 let
+mut
 datas
 =
-DVec
-(
-)
+~
+[
+]
 ;
 for
 glyph_span
@@ -3481,13 +3494,7 @@ glyphs
 add_glyphs_for_char_index
 (
 char_idx
-dvec
-:
-:
-unwrap
-(
 datas
-)
 )
 ;
 /

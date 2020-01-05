@@ -31,6 +31,7 @@ format
 fn
 bpp
 (
+self
 )
 -
 >

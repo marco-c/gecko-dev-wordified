@@ -380,6 +380,7 @@ flow
 :
 Option
 <
+mut
 FlowContext
 >
 }
@@ -597,6 +598,7 @@ text
 }
 }
 }
+pub
 impl
 AbstractNode
 {

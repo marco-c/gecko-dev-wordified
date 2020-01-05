@@ -122,7 +122,6 @@ event
 priv
 *
 /
-mut
 last_response_port
 :
 Option
@@ -152,7 +151,6 @@ fire
 priv
 *
 /
-mut
 next_resize_event
 :
 Option
@@ -194,12 +192,16 @@ next_resize_event
 None
 }
 }
+pub
 impl
 ResizeRateLimiter
 {
 fn
 window_resized
 (
+&
+mut
+self
 width
 :
 uint
@@ -320,6 +322,9 @@ height
 fn
 check_resize_response
 (
+&
+mut
+self
 )
 {
 match
@@ -388,6 +393,9 @@ priv
 fn
 send_event
 (
+&
+mut
+self
 width
 :
 uint

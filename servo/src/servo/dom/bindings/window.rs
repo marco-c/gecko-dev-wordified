@@ -90,6 +90,12 @@ ptr
 null
 ;
 use
+core
+:
+:
+ptr
+;
+use
 js
 :
 :

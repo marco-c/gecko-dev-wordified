@@ -319,6 +319,16 @@ str
 connect
 (
 path
+.
+map
+(
+|
+x
+|
+copy
+*
+x
+)
 +
 ~
 [

@@ -29,7 +29,7 @@ str
 eq_slice
 ;
 use
-std
+core
 :
 :
 cell
@@ -430,6 +430,7 @@ Element
 methods
 /
 /
+pub
 impl
 Element
 {

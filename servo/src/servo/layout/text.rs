@@ -91,6 +91,7 @@ adapt_textbox_with_range
 box_data
 :
 &
+mut
 RenderBoxData
 run
 :
@@ -103,6 +104,7 @@ Range
 )
 -
 >
+mut
 RenderBox
 {
 assert
@@ -191,6 +193,7 @@ text
 )
 ;
 let
+mut
 new_box_data
 =
 copy
@@ -228,6 +231,7 @@ bounding_box
 .
 size
 ;
+mut
 TextBox
 (
 new_box_data
@@ -243,6 +247,7 @@ fn
 raw_text
 (
 &
+mut
 self
 )
 -
@@ -261,6 +266,7 @@ fn
 raw_text
 (
 &
+mut
 self
 )
 -

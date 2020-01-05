@@ -21,12 +21,6 @@ native
 FontHandle
 ;
 use
-dvec
-:
-:
-DVec
-;
-use
 core
 :
 :
@@ -239,6 +233,7 @@ LinearMap
 <
 ~
 str
+mut
 FontFamily
 >
 ;
@@ -271,6 +266,7 @@ const
 self
 family
 :
+mut
 FontFamily
 )
 ;
@@ -279,7 +275,6 @@ pub
 struct
 FontList
 {
-mut
 family_map
 :
 FontFamilyMap
@@ -325,6 +320,7 @@ fctx
 )
 ;
 let
+mut
 list
 =
 FontList
@@ -360,6 +356,9 @@ priv
 fn
 refresh
 (
+&
+mut
+self
 _fctx
 :
 &
@@ -448,6 +447,8 @@ get_available_families
 fn
 find_font_in_family
 (
+&
+self
 family_name
 :
 &
@@ -521,10 +522,10 @@ style
 to
 a
 font
-do
+for
 family
 .
-iter
+each
 |
 fam
 |
@@ -598,6 +599,8 @@ priv
 fn
 find_family
 (
+&
+self
 family_name
 :
 &
@@ -607,6 +610,7 @@ str
 >
 Option
 <
+mut
 FontFamily
 >
 {
@@ -734,10 +738,10 @@ family_name
 str
 entries
 :
-DVec
-<
+~
+[
 FontEntry
->
+]
 }
 pub
 impl
@@ -769,15 +773,16 @@ family_name
 )
 entries
 :
-DVec
-(
-)
+~
+[
+]
 }
 }
 priv
 fn
 load_family_variations
 (
+mut
 self
 list
 :
@@ -824,6 +829,7 @@ len
 fn
 find_font_for_style
 (
+mut
 self
 list
 :
@@ -1033,6 +1039,7 @@ FontEntry
 {
 family
 :
+mut
 FontFamily
 face_name
 :
@@ -1070,6 +1077,7 @@ new
 (
 family
 :
+mut
 FontFamily
 handle
 :
@@ -1114,6 +1122,8 @@ pure
 fn
 is_bold
 (
+&
+self
 )
 -
 >
@@ -1131,6 +1141,8 @@ pure
 fn
 is_italic
 (
+&
+self
 )
 -
 >

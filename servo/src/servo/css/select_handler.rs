@@ -136,6 +136,8 @@ with_node_name
 R
 >
 (
+&
+self
 node
 :
 &
@@ -166,6 +168,8 @@ f
 fn
 named_parent_node
 (
+&
+self
 node
 :
 &
@@ -232,6 +236,8 @@ None
 fn
 parent_node
 (
+&
+self
 node
 :
 &
@@ -262,6 +268,8 @@ filter
 fn
 named_ancestor_node
 (
+&
+self
 node
 :
 &
@@ -360,6 +368,8 @@ None
 fn
 node_is_root
 (
+&
+self
 node
 :
 &
@@ -386,6 +396,8 @@ with_node_id
 R
 >
 (
+&
+self
 node
 :
 &
@@ -459,6 +471,8 @@ id
 fn
 node_has_id
 (
+&
+self
 node
 :
 &

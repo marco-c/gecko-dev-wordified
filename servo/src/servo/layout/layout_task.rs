@@ -115,7 +115,7 @@ debug
 :
 :
 {
-BoxedDebugMethods
+BoxedMutDebugMethods
 DebugMethods
 }
 ;
@@ -130,6 +130,15 @@ display_list_builder
 DisplayListBuilder
 FlowDisplayListBuilderMethods
 }
+;
+use
+layout
+:
+:
+flow
+:
+:
+FlowContext
 ;
 use
 layout
@@ -178,6 +187,15 @@ time
 :
 :
 time
+;
+use
+core
+:
+:
+cell
+:
+:
+Cell
 ;
 use
 core
@@ -347,15 +365,6 @@ arc
 :
 :
 ARC
-;
-use
-std
-:
-:
-cell
-:
-:
-Cell
 ;
 use
 std
@@ -611,6 +620,10 @@ Msg
 from_content
 |
 {
+let
+mut
+layout
+=
 Layout
 (
 render_task
@@ -627,6 +640,8 @@ from_content
 &
 opts
 )
+;
+layout
 .
 start
 (
@@ -647,6 +662,7 @@ image_cache_task
 ImageCacheTask
 local_image_cache
 :
+mut
 LocalImageCache
 from_content
 :
@@ -656,6 +672,7 @@ Msg
 >
 font_ctx
 :
+mut
 FontContext
 /
 /
@@ -707,6 +724,7 @@ Layout
 let
 fctx
 =
+mut
 FontContext
 :
 :
@@ -732,6 +750,7 @@ clone
 )
 local_image_cache
 :
+mut
 LocalImageCache
 (
 image_cache_task
@@ -763,6 +782,9 @@ Layout
 fn
 start
 (
+&
+mut
+self
 )
 {
 while
@@ -781,6 +803,9 @@ indefinitely
 fn
 handle_request
 (
+&
+mut
+self
 )
 -
 >
@@ -953,6 +978,9 @@ OriginAuthor
 fn
 handle_build
 (
+&
+mut
+self
 data
 :
 &
@@ -1115,6 +1143,7 @@ int
 )
 ;
 let
+mut
 layout_ctx
 =
 LayoutContext
@@ -1252,6 +1281,7 @@ ctx
 let
 layout_root
 :
+mut
 FlowContext
 =
 do
@@ -1266,6 +1296,7 @@ construction
 )
 {
 let
+mut
 builder
 =
 LayoutTreeBuilder
@@ -1278,6 +1309,7 @@ new
 let
 layout_root
 :
+mut
 FlowContext
 =
 match
@@ -1382,6 +1414,7 @@ f
 bubble_widths
 (
 &
+mut
 layout_ctx
 )
 }
@@ -1398,6 +1431,7 @@ f
 assign_widths
 (
 &
+mut
 layout_ctx
 )
 }
@@ -1414,6 +1448,7 @@ f
 assign_height
 (
 &
+mut
 layout_ctx
 )
 }

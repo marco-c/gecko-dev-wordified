@@ -253,6 +253,8 @@ DisplayListBuilder
 ctx
 :
 &
+'
+self
 LayoutContext
 }
 pub
@@ -262,6 +264,7 @@ FlowDisplayListBuilderMethods
 fn
 build_display_list
 (
+mut
 self
 a
 :
@@ -286,6 +289,7 @@ DisplayList
 fn
 build_display_list_for_child
 (
+mut
 self
 a
 :
@@ -293,6 +297,7 @@ a
 DisplayListBuilder
 b
 :
+mut
 FlowContext
 c
 :
@@ -326,6 +331,7 @@ FlowContext
 fn
 build_display_list
 (
+mut
 self
 builder
 :
@@ -375,6 +381,7 @@ list
 fn
 build_display_list_for_child
 (
+mut
 self
 builder
 :
@@ -382,6 +389,7 @@ builder
 DisplayListBuilder
 child_flow
 :
+mut
 FlowContext
 dirty
 :

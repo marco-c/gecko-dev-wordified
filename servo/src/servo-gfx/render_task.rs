@@ -109,6 +109,15 @@ use
 core
 :
 :
+cell
+:
+:
+Cell
+;
+use
+core
+:
+:
 comm
 :
 :
@@ -141,15 +150,6 @@ std
 :
 :
 arc
-;
-use
-std
-:
-:
-cell
-:
-:
-Cell
 ;
 use
 std
@@ -375,6 +375,7 @@ thread_index
 thread_index
 font_ctx
 :
+mut
 FontContext
 :
 :
@@ -474,6 +475,7 @@ thread_index
 uint
 font_ctx
 :
+mut
 FontContext
 opts
 :
@@ -533,6 +535,8 @@ C
 fn
 start
 (
+&
+self
 )
 {
 debug
@@ -594,6 +598,8 @@ break
 fn
 render
 (
+&
+self
 render_layer
 :
 RenderLayer
