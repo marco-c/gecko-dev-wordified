@@ -170,7 +170,7 @@ dbg
 5
 )
 "
-prototype
+length
 "
 )
 ;
@@ -202,7 +202,7 @@ dbg
 5
 )
 "
-prototype
+Window
 "
 )
 ;

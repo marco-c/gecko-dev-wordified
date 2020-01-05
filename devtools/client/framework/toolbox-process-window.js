@@ -484,13 +484,6 @@ pop
 (
 )
 ;
-let
-isTabActor
-=
-addonActor
-.
-isWebExtension
-;
 openToolbox
 (
 {
@@ -501,6 +494,14 @@ chrome
 :
 true
 isTabActor
+:
+addonActor
+.
+isWebExtension
+?
+true
+:
+false
 }
 )
 ;
@@ -1299,8 +1300,6 @@ updateBadgeText
 panel
 .
 _selectors
-(
-)
 .
 getPause
 (
