@@ -592,9 +592,6 @@ Attributes
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 js
@@ -603,8 +600,6 @@ TypeDecls
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -661,14 +656,9 @@ dom
 /
 namespace
 mozilla
-#
-ifndef
-SPS_STANDALONE
 class
 nsIProfilerStartParams
 ;
-#
-endif
 enum
 TracingMetadata
 {
@@ -1614,9 +1604,6 @@ return
 nullptr
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 /
 /
 Get
@@ -1686,8 +1673,6 @@ aFeatures
 )
 {
 }
-#
-endif
 /
 /
 Get

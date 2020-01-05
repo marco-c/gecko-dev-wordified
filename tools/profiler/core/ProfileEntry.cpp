@@ -115,9 +115,6 @@ HashFunctions
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 nsThreadUtils
@@ -157,8 +154,6 @@ TrackedOptimizationInfo
 .
 h
 "
-#
-endif
 /
 /
 Self
@@ -720,9 +715,6 @@ EndObject
 }
 }
 ;
-#
-ifndef
-SPS_STANDALONE
 class
 StreamOptimizationTypeInfoOp
 :
@@ -1613,8 +1605,6 @@ mDepth
 }
 }
 ;
-#
-endif
 uint32_t
 UniqueJSONStrings
 :
@@ -2833,9 +2823,6 @@ mFrameTableWriter
 mUniqueStrings
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 if
 (
 !
@@ -2844,11 +2831,6 @@ aFrame
 mJITFrameHandle
 )
 {
-#
-else
-{
-#
-endif
 #
 ifdef
 SPS_STANDALONE
@@ -2931,9 +2913,6 @@ mCategory
 ;
 }
 }
-#
-ifndef
-SPS_STANDALONE
 else
 {
 const
@@ -3279,8 +3258,6 @@ EndObject
 ;
 }
 }
-#
-endif
 }
 struct
 ProfileSample
@@ -4378,9 +4355,6 @@ AppendFrame
 frameKey
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 }
 else
 if
@@ -4502,8 +4476,6 @@ inlineFrameKey
 ;
 }
 }
-#
-endif
 }
 framePos
 =

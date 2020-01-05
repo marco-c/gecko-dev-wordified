@@ -565,9 +565,6 @@ aSinceTime
 0
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 virtual
 JSObject
 *
@@ -591,8 +588,6 @@ nsISupports
 aRetVal
 )
 ;
-#
-endif
 mozilla
 :
 :

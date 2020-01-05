@@ -128,9 +128,6 @@ GeckoProfiler
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 SaveProfileTask
@@ -165,8 +162,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -223,9 +218,6 @@ ProfileJSONWriter
 .
 h
 "
-#
-ifndef
-SPS_STANDALONE
 /
 /
 Meta
@@ -334,8 +326,6 @@ ProfileGatherer
 h
 "
 #
-endif
-#
 if
 defined
 (
@@ -357,9 +347,6 @@ h
 "
 #
 endif
-#
-ifndef
-SPS_STANDALONE
 /
 /
 JS
@@ -379,8 +366,6 @@ ProfilingFrameIterator
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -479,9 +464,6 @@ h
 #
 endif
 #
-ifndef
-SPS_STANDALONE
-#
 if
 defined
 (
@@ -518,8 +500,6 @@ lul
 .
 h
 "
-#
-endif
 #
 endif
 using
@@ -1846,9 +1826,6 @@ mSaveRequested
 =
 false
 ;
-#
-ifndef
-SPS_STANDALONE
 /
 /
 TODO
@@ -1885,8 +1862,6 @@ NS_DispatchToMainThread
 runnable
 )
 ;
-#
-endif
 }
 void
 GeckoSampler
@@ -2236,9 +2211,6 @@ debug
 ;
 #
 endif
-#
-ifndef
-SPS_STANDALONE
 aWriter
 .
 IntProperty
@@ -2629,8 +2601,6 @@ Data
 )
 ;
 }
-#
-endif
 }
 void
 GeckoSampler
@@ -2670,9 +2640,6 @@ aSinceTime
 )
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 JSObject
 *
 GeckoSampler
@@ -2798,8 +2765,6 @@ mGatherer
 )
 ;
 }
-#
-endif
 UniquePtr
 <
 char
@@ -3552,9 +3517,6 @@ aSinceTime
 ;
 }
 }
-#
-ifndef
-SPS_STANDALONE
 if
 (
 Sampler
@@ -3703,8 +3665,6 @@ Unpause
 }
 #
 endif
-#
-endif
 SetPaused
 (
 false
@@ -3736,9 +3696,6 @@ JSContext
 aContext
 )
 {
-#
-ifndef
-SPS_STANDALONE
 SetPaused
 (
 true
@@ -3912,8 +3869,6 @@ SetPaused
 false
 )
 ;
-#
-endif
 }
 void
 PseudoStack
@@ -3923,9 +3878,6 @@ flushSamplerOnJSShutdown
 (
 )
 {
-#
-ifndef
-SPS_STANDALONE
 MOZ_ASSERT
 (
 mContext
@@ -3955,8 +3907,6 @@ mContext
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -4363,9 +4313,6 @@ c
 sampleLabel
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 if
 (
 entry
@@ -4519,8 +4466,6 @@ line
 )
 ;
 }
-#
-endif
 }
 else
 {
@@ -4910,9 +4855,6 @@ jsCount
 =
 0
 ;
-#
-ifndef
-SPS_STANDALONE
 JS
 :
 :
@@ -5160,8 +5102,6 @@ value
 }
 }
 }
-#
-endif
 /
 /
 Start
@@ -5400,9 +5340,6 @@ stackAddress
 (
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 /
 /
 Skip
@@ -5516,8 +5453,6 @@ pseudoIndex
 continue
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 lastPseudoCppStackAddr
@@ -5528,9 +5463,6 @@ pseudoStackAddr
 lastPseudoCppStackAddr
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 if
 (
 jsIndex
@@ -5551,8 +5483,6 @@ jsIndex
 .
 stackAddress
 ;
-#
-endif
 if
 (
 nativeIndex
@@ -5785,9 +5715,6 @@ pseudoIndex
 continue
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 /
 /
 Check
@@ -6092,8 +6019,6 @@ jsIndex
 continue
 ;
 }
-#
-endif
 /
 /
 If
@@ -6167,9 +6092,6 @@ nativeIndex
 ;
 }
 }
-#
-ifndef
-SPS_STANDALONE
 /
 /
 Update
@@ -6259,8 +6181,6 @@ lapCount
 )
 ;
 }
-#
-endif
 }
 #
 ifdef
@@ -8323,9 +8243,6 @@ marker
 ;
 }
 }
-#
-ifndef
-SPS_STANDALONE
 if
 (
 sample
@@ -8382,8 +8299,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 /
 /
 rssMemory

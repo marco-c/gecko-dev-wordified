@@ -255,9 +255,6 @@ math
 h
 >
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 ThreadResponsiveness
@@ -282,8 +279,6 @@ nsMemoryReporterManager
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1396,9 +1391,6 @@ DuplicateLastSample
 continue
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 info
 -
 >
@@ -1416,8 +1408,6 @@ Update
 (
 )
 ;
-#
-endif
 ThreadProfile
 *
 thread_profile
@@ -1595,9 +1585,6 @@ rssMemory
 =
 0
 ;
-#
-ifndef
-SPS_STANDALONE
 if
 (
 isFirstProfiledThread
@@ -1629,8 +1616,6 @@ ResidentFast
 )
 ;
 }
-#
-endif
 /
 /
 We
