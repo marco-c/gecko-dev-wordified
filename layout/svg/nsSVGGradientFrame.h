@@ -258,16 +258,9 @@ nsSVGPaintServerFrame
 methods
 :
 virtual
-mozilla
-:
-:
-Pair
-<
-DrawResult
-RefPtr
+already_AddRefed
 <
 gfxPattern
->
 >
 GetPaintServerPattern
 (

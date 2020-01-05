@@ -3308,7 +3308,7 @@ aFillOrStroke
 )
 ;
 static
-DrawResult
+void
 MakeFillPatternFor
 (
 nsIFrame
@@ -3328,7 +3328,7 @@ nullptr
 )
 ;
 static
-DrawResult
+void
 MakeStrokePatternFor
 (
 nsIFrame
