@@ -721,6 +721,13 @@ TrackType
 const
 mOnWaitingForKeyEvent
 ;
+const
+CreateDecoderParams
+:
+:
+OptionSet
+mDecoderOptions
+;
 }
 ;
 }

@@ -248,6 +248,12 @@ aParams
 .
 mOnWaitingForKeyEvent
 )
+mDecoderOptions
+(
+aParams
+.
+mOptions
+)
 {
 CreateDecoder
 (
@@ -1192,6 +1198,7 @@ mKnowsCompositor
 mGMPCrashHelper
 mType
 mOnWaitingForKeyEvent
+mDecoderOptions
 }
 )
 ;

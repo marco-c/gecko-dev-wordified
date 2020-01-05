@@ -1475,6 +1475,17 @@ enabled
 "
 media
 .
+ffvpx
+.
+low
+-
+latency
+.
+enabled
+"
+"
+media
+.
 flac
 .
 enabled
