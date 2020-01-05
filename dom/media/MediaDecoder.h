@@ -321,9 +321,6 @@ namespace
 dom
 {
 class
-Promise
-;
-class
 HTMLMediaElement
 ;
 }
@@ -1193,14 +1190,6 @@ SeekTarget
 :
 Type
 aSeekType
-dom
-:
-:
-Promise
-*
-aPromise
-=
-nullptr
 )
 ;
 /
@@ -4158,12 +4147,6 @@ const
 SeekTarget
 &
 aTarget
-dom
-:
-:
-Promise
-*
-aPromise
 )
 ;
 MozPromiseRequestHolder
