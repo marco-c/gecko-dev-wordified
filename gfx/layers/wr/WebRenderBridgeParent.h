@@ -844,6 +844,16 @@ aEnabled
 )
 ;
 void
+Pause
+(
+)
+;
+bool
+Resume
+(
+)
+;
+void
 Destroy
 (
 )
@@ -1348,6 +1358,9 @@ mWrEpoch
 ;
 uint32_t
 mIdNameSpace
+;
+bool
+mPaused
 ;
 bool
 mDestroyed
