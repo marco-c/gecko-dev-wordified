@@ -111,6 +111,7 @@ parser
 :
 :
 {
+LengthParsingMode
 ParserContext
 log_css_error
 }
@@ -1071,6 +1072,10 @@ CssRuleType
 :
 Keyframe
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 let

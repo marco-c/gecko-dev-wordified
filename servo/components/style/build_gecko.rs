@@ -3839,6 +3839,12 @@ AssertAndSuppressCleanupPolicy
 "
 RawServoAnimationValueMapBorrowed
 "
+"
+mozilla
+:
+:
+LengthParsingMode
+"
 ]
 ;
 let
@@ -5296,6 +5302,9 @@ EffectCompositor_CascadeLevel
 "
 "
 UpdateAnimationsTasks
+"
+"
+LengthParsingMode
 "
 ]
 ;

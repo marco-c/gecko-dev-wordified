@@ -125,6 +125,7 @@ parser
 :
 :
 {
+LengthParsingMode
 Parse
 ParserContext
 }
@@ -3048,6 +3049,10 @@ CssRuleType
 :
 Viewport
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 macro_rules
