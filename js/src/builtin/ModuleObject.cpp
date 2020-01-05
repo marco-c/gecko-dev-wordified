@@ -4762,9 +4762,6 @@ ModuleObject
 :
 fixEnvironmentsAfterCompartmentMerge
 (
-JSContext
-*
-cx
 )
 {
 AssertModuleScopesMatch

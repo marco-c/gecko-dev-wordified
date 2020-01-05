@@ -1151,9 +1151,6 @@ endif
 void
 fixEnvironmentsAfterCompartmentMerge
 (
-JSContext
-*
-cx
 )
 ;
 JSScript
