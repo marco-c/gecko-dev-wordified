@@ -95,7 +95,7 @@ include
 "
 mozilla
 /
-Monitor
+Maybe
 .
 h
 "
@@ -104,7 +104,7 @@ include
 "
 mozilla
 /
-Maybe
+Monitor
 .
 h
 "
@@ -193,13 +193,6 @@ TaskQueue
 aTaskQueue
 )
 ;
-virtual
-~
-RemoteDataDecoder
-(
-)
-{
-}
 RefPtr
 <
 DecodePromise
@@ -258,6 +251,13 @@ decoder
 }
 protected
 :
+virtual
+~
+RemoteDataDecoder
+(
+)
+{
+}
 RemoteDataDecoder
 (
 MediaData

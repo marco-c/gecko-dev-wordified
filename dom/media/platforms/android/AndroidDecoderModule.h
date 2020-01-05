@@ -124,13 +124,6 @@ aProxy
 nullptr
 )
 ;
-virtual
-~
-AndroidDecoderModule
-(
-)
-{
-}
 bool
 SupportsMimeType
 (
@@ -158,6 +151,13 @@ override
 ;
 private
 :
+virtual
+~
+AndroidDecoderModule
+(
+)
+{
+}
 RefPtr
 <
 MediaDrmCDMProxy
