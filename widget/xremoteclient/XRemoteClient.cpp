@@ -856,8 +856,6 @@ return
 /
 ignored
 }
-else
-{
 return
 (
 *
@@ -868,7 +866,6 @@ display
 event
 )
 ;
-}
 }
 nsresult
 XRemoteClient
@@ -2113,7 +2110,6 @@ NS_ERROR_FAILURE
 break
 ;
 }
-else
 if
 (
 event
@@ -3301,7 +3297,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
 if
 (
 !
@@ -4121,7 +4116,6 @@ return
 false
 ;
 }
-else
 if
 (
 event
