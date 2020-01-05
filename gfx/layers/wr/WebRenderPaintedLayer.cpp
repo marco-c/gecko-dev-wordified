@@ -967,6 +967,9 @@ ToWrRect
 overflow
 )
 mask
+GetAnimations
+(
+)
 transform
 FrameMetrics
 :
