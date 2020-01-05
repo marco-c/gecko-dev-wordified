@@ -2474,17 +2474,6 @@ if
 aFlushDirtyRegion
 )
 {
-GeckoProfilerTracingRAII
-tracer
-(
-"
-Paint
-"
-"
-DisplayList
-"
-)
-;
 nsAutoScriptBlocker
 scriptBlocker
 ;
