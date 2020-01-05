@@ -571,8 +571,6 @@ entryCount
 :
 0
 onCacheStorageInfo
-:
-function
 (
 aEntryCount
 aConsumption
@@ -580,8 +578,6 @@ aConsumption
 {
 }
 onCacheEntryInfo
-:
-function
 (
 uri
 )
@@ -639,8 +635,6 @@ entryCount
 ;
 }
 onCacheEntryVisitCompleted
-:
-function
 (
 )
 {

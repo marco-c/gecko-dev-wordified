@@ -263,7 +263,7 @@ sidebarBox
 .
 hidden
 true
-'
+"
 Opening
 a
 private
@@ -276,7 +276,7 @@ not
 open
 the
 sidebar
-'
+"
 )
 ;
 }
@@ -362,7 +362,7 @@ sidebarBox
 .
 hidden
 false
-'
+"
 Opening
 a
 reg
@@ -374,7 +374,7 @@ does
 open
 the
 sidebar
-'
+"
 )
 ;
 }
@@ -464,7 +464,7 @@ sidebarBox
 .
 hidden
 true
-'
+"
 Opening
 a
 reg
@@ -478,7 +478,7 @@ not
 open
 the
 sidebar
-'
+"
 )
 ;
 }
@@ -572,7 +572,7 @@ sidebarBox
 .
 hidden
 false
-'
+"
 Opening
 a
 private
@@ -584,7 +584,7 @@ does
 open
 the
 sidebar
-'
+"
 )
 ;
 }

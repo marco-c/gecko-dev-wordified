@@ -253,7 +253,7 @@ test
 let
 prefix
 =
-'
+"
 http
 :
 /
@@ -279,7 +279,7 @@ browser
 browser_privatebrowsing_concurrent_page
 .
 html
-'
+"
 ;
 function
 getElts
@@ -294,9 +294,9 @@ contentTitle
 .
 split
 (
-'
+"
 |
-'
+"
 )
 ;
 }
@@ -317,7 +317,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -334,7 +334,7 @@ value
 initial
 =
 true
-'
+"
 )
 ;
 yield
@@ -381,7 +381,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -394,7 +394,7 @@ test2
 value
 =
 value2
-'
+"
 )
 ;
 yield
@@ -415,7 +415,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -424,7 +424,7 @@ get
 name
 =
 test2
-'
+"
 )
 ;
 yield
@@ -450,9 +450,9 @@ elts
 [
 0
 ]
-'
+"
 value2
-'
+"
 "
 public
 window
@@ -471,9 +471,9 @@ elts
 [
 1
 ]
-'
+"
 1
-'
+"
 "
 public
 window
@@ -495,7 +495,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -504,7 +504,7 @@ get
 name
 =
 test
-'
+"
 )
 ;
 yield
@@ -529,9 +529,9 @@ elts
 [
 0
 ]
-'
+"
 value
-'
+"
 "
 private
 window
@@ -550,9 +550,9 @@ elts
 [
 1
 ]
-'
+"
 1
-'
+"
 "
 private
 window
@@ -638,7 +638,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -647,7 +647,7 @@ get
 name
 =
 test2
-'
+"
 )
 ;
 yield
@@ -672,9 +672,9 @@ elts
 [
 0
 ]
-'
+"
 value2
-'
+"
 "
 public
 window
@@ -694,9 +694,9 @@ elts
 [
 1
 ]
-'
+"
 1
-'
+"
 "
 public
 window
@@ -791,7 +791,7 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 action
 =
@@ -804,7 +804,7 @@ test3
 value
 =
 value3
-'
+"
 )
 ;
 yield
@@ -829,9 +829,9 @@ elts
 [
 1
 ]
-'
+"
 1
-'
+"
 "
 private
 window
@@ -854,12 +854,12 @@ loadURI
 (
 prefix
 +
-'
+"
 ?
 final
 =
 true
-'
+"
 )
 ;
 yield
