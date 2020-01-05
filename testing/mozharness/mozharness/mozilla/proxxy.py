@@ -404,20 +404,6 @@ mozilla
 .
 com
 '
-            
-'
-proxxy1
-.
-srv
-.
-releng
-.
-scl3
-.
-mozilla
-.
-com
-'
         
 ]
         
@@ -435,10 +421,6 @@ use1
 .
 usw2
 .
-"
-"
-.
-scl3
 "
 ]
     
