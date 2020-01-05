@@ -1332,12 +1332,7 @@ for
 '
 a
 mut
-(
 Flow
-+
-'
-a
-)
 {
 fn
 compute_layout_damage
