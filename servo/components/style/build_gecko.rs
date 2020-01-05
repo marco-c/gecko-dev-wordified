@@ -5393,6 +5393,9 @@ nsFont
 nsIAtom
 "
 "
+nsCompatibility
+"
+"
 nsMediaFeature
 "
 "

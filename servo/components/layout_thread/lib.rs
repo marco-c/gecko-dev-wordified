@@ -3134,6 +3134,10 @@ Stylist
 new
 (
 device
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 let
