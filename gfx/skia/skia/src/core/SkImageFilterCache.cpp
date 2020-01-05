@@ -233,7 +233,7 @@ offset
 Key
 fKey
 ;
-SkAutoTUnref
+sk_sp
 <
 SkSpecialImage
 >
@@ -300,8 +300,10 @@ Value
 ;
 }
 ;
+sk_sp
+<
 SkSpecialImage
-*
+>
 get
 (
 const

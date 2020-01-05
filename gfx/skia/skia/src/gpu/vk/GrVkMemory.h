@@ -778,7 +778,10 @@ fAllocFunc
 ;
 SkTArray
 <
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 GrVkSubHeap
 >

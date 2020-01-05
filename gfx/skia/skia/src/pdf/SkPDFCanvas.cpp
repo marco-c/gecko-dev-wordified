@@ -159,7 +159,7 @@ const
 SkRect
 &
 rect
-ClipOp
+SkClipOp
 op
 ClipEdgeStyle
 edgeStyle
@@ -189,7 +189,7 @@ const
 SkRRect
 &
 rrect
-ClipOp
+SkClipOp
 op
 ClipEdgeStyle
 edgeStyle
@@ -219,7 +219,7 @@ const
 SkPath
 &
 path
-ClipOp
+SkClipOp
 op
 ClipEdgeStyle
 edgeStyle

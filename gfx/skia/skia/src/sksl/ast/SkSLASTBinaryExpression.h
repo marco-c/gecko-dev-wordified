@@ -56,11 +56,6 @@ SkSLToken
 .
 h
 "
-#
-include
-<
-sstream
->
 namespace
 SkSL
 {
@@ -148,10 +143,7 @@ right
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

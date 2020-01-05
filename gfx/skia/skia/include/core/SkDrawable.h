@@ -46,6 +46,13 @@ SkFlattenable
 .
 h
 "
+#
+include
+"
+SkScalar
+.
+h
+"
 class
 SkCanvas
 ;

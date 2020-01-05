@@ -61,7 +61,7 @@ SkPoint
 h
 "
 class
-SkChunkAlloc
+SkArenaAlloc
 ;
 class
 SkOpAngle
@@ -2868,7 +2868,7 @@ fOppSum
 SK_MinS32
 )
 ;
-SkASSERT
+SkOPASSERT
 (
 !
 oppValue

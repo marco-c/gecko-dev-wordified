@@ -832,12 +832,9 @@ SK_Scalar1
 )
 {
 radius
+*
 =
-SkScalarMul
-(
 miterLimit
-radius
-)
 ;
 }
 }

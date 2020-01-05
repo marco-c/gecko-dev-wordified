@@ -331,9 +331,6 @@ SkCanvas
 *
 fCanvas
 ;
-/
-/
-reffed
 const
 SkPicture
 *

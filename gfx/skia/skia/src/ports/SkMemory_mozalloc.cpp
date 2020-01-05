@@ -41,6 +41,13 @@ file
 #
 include
 "
+SkMalloc
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h

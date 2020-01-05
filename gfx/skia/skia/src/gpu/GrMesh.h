@@ -209,7 +209,7 @@ for
 a
 draw
 from
-GrBatch
+GrOp
 to
 *
 GrGpu

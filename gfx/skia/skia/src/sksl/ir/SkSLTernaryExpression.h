@@ -167,10 +167,7 @@ fType
 )
 ;
 }
-std
-:
-:
-string
+String
 description
 (
 )
@@ -216,7 +213,6 @@ description
 "
 ;
 }
-const
 std
 :
 :
@@ -226,7 +222,6 @@ Expression
 >
 fTest
 ;
-const
 std
 :
 :
@@ -236,7 +231,6 @@ Expression
 >
 fIfTrue
 ;
-const
 std
 :
 :

@@ -317,6 +317,7 @@ points
 *
 /
 static
+const
 uint16_t
 UnicodeFromMacRoman
 [
@@ -521,6 +522,7 @@ i
 }
 }
 static
+const
 struct
 BCP47FromLanguageId
 {
