@@ -4092,7 +4092,8 @@ current
 frame
 '
 s
-VolatileBuffer
+data
+buffer
 ensuring
 that
 it

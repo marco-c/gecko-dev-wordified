@@ -3622,7 +3622,7 @@ rv
 newFrame
 -
 >
-InitForDecoder
+InitForAnimator
 (
 mSize
 SurfaceFormat
@@ -4560,7 +4560,7 @@ rv
 newFrame
 -
 >
-InitForDecoder
+InitForAnimator
 (
 mSize
 SurfaceFormat
