@@ -427,14 +427,14 @@ uint32_t
 &
 aStride
 const
-WRImageFormat
+WrImageFormat
 &
 aFormat
 const
 ByteBuffer
 &
 aBuffer
-WRImageKey
+WrImageKey
 *
 aOutImageKey
 )
@@ -450,7 +450,7 @@ IPCResult
 RecvUpdateImage
 (
 const
-WRImageKey
+WrImageKey
 &
 aImageKey
 const
@@ -462,7 +462,7 @@ uint32_t
 &
 aHeight
 const
-WRImageFormat
+WrImageFormat
 &
 aFormat
 const
@@ -482,7 +482,7 @@ IPCResult
 RecvDeleteImage
 (
 const
-WRImageKey
+WrImageKey
 &
 aImageKey
 )
@@ -994,7 +994,7 @@ std
 :
 vector
 <
-WRImageKey
+WrImageKey
 >
 mKeysToDelete
 ;

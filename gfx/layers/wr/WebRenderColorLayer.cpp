@@ -306,7 +306,7 @@ height
 ;
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =

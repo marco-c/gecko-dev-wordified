@@ -853,7 +853,7 @@ GetTransform
 ;
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =
@@ -861,7 +861,7 @@ buildMaskLayer
 (
 )
 ;
-WRTextureFilter
+WrTextureFilter
 filter
 =
 (
@@ -877,12 +877,12 @@ SamplingFilter
 POINT
 )
 ?
-WRTextureFilter
+WrTextureFilter
 :
 :
 Point
 :
-WRTextureFilter
+WrTextureFilter
 :
 :
 Linear

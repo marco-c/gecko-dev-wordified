@@ -354,7 +354,7 @@ clip
 wr
 :
 :
-ToWRBorderSide
+ToWrBorderSide
 (
 mWidths
 [
@@ -368,7 +368,7 @@ mColors
 wr
 :
 :
-ToWRBorderSide
+ToWrBorderSide
 (
 mWidths
 [
@@ -382,7 +382,7 @@ mColors
 wr
 :
 :
-ToWRBorderSide
+ToWrBorderSide
 (
 mWidths
 [
@@ -396,7 +396,7 @@ mColors
 wr
 :
 :
-ToWRBorderSide
+ToWrBorderSide
 (
 mWidths
 [

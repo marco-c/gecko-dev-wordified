@@ -312,7 +312,7 @@ protected
 :
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 buildMaskLayer
 (
@@ -785,7 +785,7 @@ destruction
 void
 AddImageKeyForDiscard
 (
-WRImageKey
+WrImageKey
 )
 ;
 void
@@ -861,7 +861,7 @@ std
 :
 vector
 <
-WRImageKey
+WrImageKey
 >
 mImageKeys
 ;

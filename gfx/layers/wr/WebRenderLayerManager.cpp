@@ -674,7 +674,7 @@ transformed
 }
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 WebRenderLayer
 :
@@ -685,7 +685,7 @@ buildMaskLayer
 {
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =
@@ -693,7 +693,7 @@ Nothing
 (
 )
 ;
-WRImageMask
+WrImageMask
 imageMask
 ;
 Layer
@@ -904,7 +904,7 @@ GetData
 )
 )
 ;
-WRImageKey
+WrImageKey
 maskKey
 ;
 WRBridge
@@ -2422,7 +2422,7 @@ WebRenderLayerManager
 :
 AddImageKeyForDiscard
 (
-WRImageKey
+WrImageKey
 key
 )
 {

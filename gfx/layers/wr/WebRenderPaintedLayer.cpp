@@ -869,7 +869,7 @@ rect
 }
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =
@@ -1053,7 +1053,7 @@ clip
 Nothing
 (
 )
-WRTextureFilter
+WrTextureFilter
 :
 :
 Linear

@@ -562,7 +562,7 @@ height
 ;
 Maybe
 <
-WRImageMask
+WrImageMask
 >
 mask
 =
@@ -570,7 +570,7 @@ buildMaskLayer
 (
 )
 ;
-WRTextureFilter
+WrTextureFilter
 filter
 =
 (
@@ -582,12 +582,12 @@ TextureFlags
 USE_NEAREST_FILTER
 )
 ?
-WRTextureFilter
+WrTextureFilter
 :
 :
 Point
 :
-WRTextureFilter
+WrTextureFilter
 :
 :
 Linear
