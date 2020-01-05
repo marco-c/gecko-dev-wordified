@@ -206,7 +206,6 @@ RenderingRenderState
 The
 interface
 used
-to
 by
 the
 renderer
@@ -233,7 +232,7 @@ display
 .
 pub
 trait
-Compositor
+RenderListener
 {
 fn
 get_gl_context
