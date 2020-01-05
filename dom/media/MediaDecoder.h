@@ -1292,6 +1292,16 @@ SetMinimizePrerollUntilPlaybackStarts
 (
 )
 ;
+bool
+GetMinimizePreroll
+(
+)
+const
+{
+return
+mMinimizePreroll
+;
+}
 /
 /
 All
