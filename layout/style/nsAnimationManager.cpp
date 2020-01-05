@@ -2180,6 +2180,7 @@ nsTArray
 Keyframe
 >
 &
+&
 aNewKeyframes
 bool
 aNewIsStylePaused
@@ -4122,7 +4123,10 @@ UpdateOldAnimationPropertiesWithNew
 *
 oldAnim
 timing
+Move
+(
 keyframes
+)
 isStylePaused
 mStyleContext
 )
