@@ -225,10 +225,12 @@ aFormat
 bool
 InitFromImage
 (
+const
 sk_sp
 <
 SkImage
 >
+&
 aImage
 SurfaceFormat
 aFormat
