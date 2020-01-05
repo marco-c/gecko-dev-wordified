@@ -1850,9 +1850,8 @@ JSContext
 cx
 HandleObject
 proxy
-RegExpGuard
-*
-g
+MutableHandleRegExpShared
+shared
 )
 const
 {
@@ -1880,7 +1879,7 @@ RegExpToShared
 (
 cx
 target
-g
+shared
 )
 ;
 }
