@@ -354,9 +354,9 @@ aSeverityFlag
 nsresult
 SendReports
 (
-nsISupports
+nsIURI
 *
-aBlockedContentSource
+aBlockedURI
 nsIURI
 *
 aOriginalURI
