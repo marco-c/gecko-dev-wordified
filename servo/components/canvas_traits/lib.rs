@@ -1164,6 +1164,13 @@ PolygonOffset
 f32
 f32
 )
+Scissor
+(
+i32
+i32
+i32
+i32
+)
 Hint
 (
 u32
