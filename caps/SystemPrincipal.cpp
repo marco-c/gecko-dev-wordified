@@ -112,7 +112,7 @@ h
 #
 include
 "
-nsSystemPrincipal
+SystemPrincipal
 .
 h
 "
@@ -195,7 +195,7 @@ h
 "
 NS_IMPL_CLASSINFO
 (
-nsSystemPrincipal
+SystemPrincipal
 nullptr
 nsIClassInfo
 :
@@ -210,13 +210,13 @@ NS_SYSTEMPRINCIPAL_CID
 )
 NS_IMPL_QUERY_INTERFACE_CI
 (
-nsSystemPrincipal
+SystemPrincipal
 nsIPrincipal
 nsISerializable
 )
 NS_IMPL_CI_INTERFACE_GETTER
 (
-nsSystemPrincipal
+SystemPrincipal
 nsIPrincipal
 nsISerializable
 )
@@ -231,9 +231,9 @@ Principal
 "
 already_AddRefed
 <
-nsSystemPrincipal
+SystemPrincipal
 >
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 Create
@@ -242,12 +242,12 @@ Create
 {
 RefPtr
 <
-nsSystemPrincipal
+SystemPrincipal
 >
 sp
 =
 new
-nsSystemPrincipal
+SystemPrincipal
 (
 )
 ;
@@ -267,7 +267,7 @@ forget
 ;
 }
 nsresult
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetScriptLocation
@@ -374,7 +374,7 @@ nsIPrincipal
 /
 /
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetHashValue
@@ -397,7 +397,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetURI
@@ -418,7 +418,7 @@ NS_OK
 ;
 }
 nsresult
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetOriginInternal
@@ -440,7 +440,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetCsp
@@ -461,7 +461,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 SetCsp
@@ -499,7 +499,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 EnsureCSP
@@ -528,7 +528,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetPreloadCsp
@@ -549,7 +549,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 EnsurePreloadCSP
@@ -578,7 +578,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetDomain
@@ -599,7 +599,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 SetDomain
@@ -614,7 +614,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetBaseDomain
@@ -637,7 +637,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 GetAddonId
@@ -750,7 +750,7 @@ nsISerializable
 /
 /
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 Read
@@ -779,7 +779,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 Write

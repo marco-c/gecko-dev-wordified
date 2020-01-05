@@ -962,7 +962,7 @@ h
 #
 include
 "
-nsSystemPrincipal
+SystemPrincipal
 .
 h
 "
@@ -3288,7 +3288,7 @@ nsPrincipal
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-nsSystemPrincipal
+SystemPrincipal
 nsScriptSecurityManager
 :
 :
@@ -5635,7 +5635,7 @@ nsPrincipalConstructor
 kNS_SYSTEMPRINCIPAL_CID
 false
 nullptr
-nsSystemPrincipalConstructor
+SystemPrincipalConstructor
 }
 {
 &

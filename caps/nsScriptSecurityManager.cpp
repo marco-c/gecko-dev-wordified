@@ -219,7 +219,7 @@ h
 #
 include
 "
-nsSystemPrincipal
+SystemPrincipal
 .
 h
 "
@@ -8289,11 +8289,11 @@ principal
 singleton
 RefPtr
 <
-nsSystemPrincipal
+SystemPrincipal
 >
 system
 =
-nsSystemPrincipal
+SystemPrincipal
 :
 :
 Create
@@ -8621,7 +8621,7 @@ principal
 /
 singleton
 .
-nsSystemPrincipal
+SystemPrincipal
 *
 nsScriptSecurityManager
 :
@@ -8653,7 +8653,7 @@ mSystemPrincipal
 return
 static_cast
 <
-nsSystemPrincipal
+SystemPrincipal
 *
 >
 (
