@@ -4095,7 +4095,7 @@ gl
 :
 sGLXLibrary
 .
-xGetVideoSync
+fGetVideoSync
 (
 &
 syncCounter
@@ -4387,7 +4387,7 @@ gl
 :
 sGLXLibrary
 .
-xGetVideoSync
+fGetVideoSync
 (
 &
 syncCounter
@@ -4481,7 +4481,7 @@ gl
 :
 sGLXLibrary
 .
-xWaitVideoSync
+fWaitVideoSync
 (
 2
 nextSync
