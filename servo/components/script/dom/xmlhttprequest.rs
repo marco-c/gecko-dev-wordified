@@ -9033,11 +9033,7 @@ serialize
 None
 )
 .
-as_bytes
-(
-)
-.
-to_owned
+into_bytes
 (
 )
 }
