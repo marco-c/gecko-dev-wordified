@@ -3896,6 +3896,14 @@ nsIDocument
 aOldDoc
 )
 {
+nsGenericHTMLElement
+:
+:
+NodeInfoChanged
+(
+aOldDoc
+)
+;
 /
 /
 Resetting

@@ -16397,6 +16397,14 @@ nsIDocument
 aOldDoc
 )
 {
+nsGenericHTMLElement
+:
+:
+NodeInfoChanged
+(
+aOldDoc
+)
+;
 mStateKey
 .
 SetIsVoid
