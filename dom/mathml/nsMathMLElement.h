@@ -425,6 +425,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData

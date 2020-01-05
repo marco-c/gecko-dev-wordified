@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+GenericSpecifiedValuesInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLFormSubmission

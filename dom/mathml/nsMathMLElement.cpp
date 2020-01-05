@@ -267,6 +267,15 @@ include
 "
 mozilla
 /
+GenericSpecifiedValuesInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ElementBinding
@@ -3128,7 +3137,7 @@ aData
 aGenericData
 -
 >
-AsRuleData
+AsGecko
 (
 )
 ;

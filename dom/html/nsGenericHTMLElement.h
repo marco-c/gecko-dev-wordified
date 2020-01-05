@@ -3725,6 +3725,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -3778,6 +3781,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -3880,6 +3886,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -3944,6 +3953,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4011,6 +4023,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4065,6 +4080,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4119,6 +4137,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4173,6 +4194,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4225,6 +4249,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4277,6 +4304,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4331,6 +4361,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4385,6 +4418,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4445,6 +4481,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
@@ -4503,6 +4542,9 @@ const
 nsMappedAttributes
 *
 aAttributes
+mozilla
+:
+:
 GenericSpecifiedValues
 *
 aGenericData
