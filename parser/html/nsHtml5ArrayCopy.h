@@ -284,7 +284,10 @@ source
 sourceOffset
 ]
 )
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -312,7 +315,10 @@ memcpy
 (
 target
 source
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -340,7 +346,10 @@ memcpy
 (
 target
 source
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -370,7 +379,10 @@ memcpy
 (
 target
 source
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -401,7 +413,10 @@ memcpy
 (
 target
 source
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -432,7 +447,10 @@ memcpy
 (
 target
 source
+size_t
+(
 length
+)
 *
 sizeof
 (
@@ -475,7 +493,10 @@ arr
 sourceOffset
 ]
 )
+size_t
+(
 length
+)
 *
 sizeof
 (
