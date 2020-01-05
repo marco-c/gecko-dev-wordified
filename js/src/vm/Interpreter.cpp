@@ -12752,10 +12752,6 @@ JSOP_UNUSED192
 )
 CASE
 (
-JSOP_UNUSED209
-)
-CASE
-(
 JSOP_UNUSED210
 )
 CASE
@@ -25356,6 +25352,10 @@ successful_return_continuation
 CASE
 (
 JSOP_YIELD
+)
+CASE
+(
+JSOP_AWAIT
 )
 {
 MOZ_ASSERT

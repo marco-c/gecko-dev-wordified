@@ -4969,7 +4969,7 @@ void
 BaselineScript
 :
 :
-copyYieldEntries
+copyYieldAndAwaitEntries
 (
 JSScript
 *
@@ -4979,7 +4979,7 @@ Vector
 uint32_t
 >
 &
-yieldOffsets
+yieldAndAwaitOffsets
 )
 {
 uint8_t
@@ -5000,7 +5000,7 @@ i
 ;
 i
 <
-yieldOffsets
+yieldAndAwaitOffsets
 .
 length
 (
@@ -5014,7 +5014,7 @@ i
 uint32_t
 offset
 =
-yieldOffsets
+yieldAndAwaitOffsets
 [
 i
 ]

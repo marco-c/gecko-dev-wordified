@@ -22934,7 +22934,7 @@ an
 int32
 value
 <
-YIELD_INDEX_CLOSING
+YIELD_AND_AWAIT_INDEX_CLOSING
 /
 /
 the
@@ -22952,7 +22952,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldIndexSlot
+offsetOfYieldAndAwaitIndexSlot
 (
 )
 )
@@ -22994,7 +22994,7 @@ Imm32
 StarGeneratorObject
 :
 :
-YIELD_INDEX_CLOSING
+YIELD_AND_AWAIT_INDEX_CLOSING
 )
 &
 returnFalse

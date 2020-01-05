@@ -3724,8 +3724,10 @@ op
 )
 {
 /
-*
+/
 JSOP_YIELD
+/
+JSOP_AWAIT
 is
 considered
 to
@@ -3734,11 +3736,11 @@ into
 the
 next
 instruction
+/
+/
 like
 JSOP_CALL
 .
-*
-/
 switch
 (
 op
