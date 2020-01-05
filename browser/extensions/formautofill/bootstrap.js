@@ -203,7 +203,15 @@ experimental
 return
 ;
 }
+let
+parent
+=
+new
 FormAutofillParent
+(
+)
+;
+parent
 .
 init
 (

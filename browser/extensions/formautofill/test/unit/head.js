@@ -376,6 +376,16 @@ addEventListener
 )
 {
 }
+addMessageListener
+(
+)
+{
+}
+sendAsyncMessage
+(
+)
+{
+}
 }
 ;
 let
