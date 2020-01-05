@@ -958,15 +958,14 @@ null
 )
 ;
 }
-virtual
 ~
 DrawingCallbackFromDrawable
 (
 )
+override
 =
 default
 ;
-virtual
 bool
 operator
 (
@@ -991,6 +990,7 @@ gfxMatrix
 (
 )
 )
+override
 {
 return
 mDrawable

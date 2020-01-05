@@ -320,11 +320,11 @@ BasicImageLayer
 }
 protected
 :
-virtual
 ~
 BasicImageLayer
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -334,7 +334,6 @@ BasicImageLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -375,7 +374,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 Paint
 (
@@ -395,7 +393,6 @@ aMaskLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 SourceSurface

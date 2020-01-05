@@ -1108,6 +1108,7 @@ LayerPropertiesBase
 LayerPropertiesBase
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -1142,7 +1143,6 @@ delete
 ;
 public
 :
-virtual
 nsIntRegion
 ComputeDifferences
 (
@@ -1155,8 +1155,8 @@ bool
 *
 aGeometryChanged
 )
+override
 ;
-virtual
 void
 MoveBy
 (
@@ -1165,6 +1165,7 @@ IntPoint
 &
 aOffset
 )
+override
 ;
 nsIntRegion
 ComputeChange
@@ -2868,7 +2869,6 @@ delete
 ;
 public
 :
-virtual
 nsIntRegion
 ComputeChangeInternal
 (
@@ -2878,6 +2878,7 @@ bool
 &
 aGeometryChanged
 )
+override
 {
 ColorLayer
 *
@@ -3106,7 +3107,6 @@ GetLastFrameID
 ;
 }
 }
-virtual
 nsIntRegion
 ComputeChangeInternal
 (
@@ -3116,6 +3116,7 @@ bool
 &
 aGeometryChanged
 )
+override
 {
 ImageLayer
 *
@@ -3454,7 +3455,6 @@ GetFrameID
 1
 ;
 }
-virtual
 nsIntRegion
 ComputeChangeInternal
 (
@@ -3464,6 +3464,7 @@ bool
 &
 aGeometryChanged
 )
+override
 {
 CanvasLayer
 *
