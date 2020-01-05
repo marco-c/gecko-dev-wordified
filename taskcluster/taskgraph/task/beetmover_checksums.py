@@ -64,7 +64,7 @@ from
 import
 transform
 class
-BeetmoverTask
+BeetmoverChecksumsTask
 (
 transform
 .
@@ -82,28 +82,34 @@ implementing
 a
 beetmover
 job
+specific
+for
+checksums
 .
 These
 depend
 on
-nightly
-build
-and
-signing
     
+the
+checksums
+signing
 jobs
 and
 transfer
 the
-artifacts
+checksums
+files
 to
 S3
 after
-build
+    
+it
+'
+s
+being
+generated
 and
-signing
-are
-completed
+signed
 .
     
 "
@@ -141,33 +147,7 @@ dependencies
 =
 [
 "
-build
--
-signing
-"
-]
-and
-\
-           
-config
-.
-get
-(
-'
-kind
--
-dependencies
-'
-[
-]
-)
-!
-=
-[
-"
-nightly
--
-l10n
+checksums
 -
 signing
 "
@@ -179,14 +159,13 @@ Exception
 (
 "
 Beetmover
-kinds
-must
+checksums
+tasks
 depend
 on
-builds
-or
+checksums
 signing
-builds
+tasks
 "
 )
         
@@ -232,7 +211,7 @@ dependencies
                 
 continue
             
-beetmover_task
+beetmover_checksums_task
 =
 {
 '
@@ -245,4 +224,4 @@ task
 }
             
 yield
-beetmover_task
+beetmover_checksums_task
