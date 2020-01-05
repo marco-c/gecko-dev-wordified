@@ -341,6 +341,7 @@ final
 {
 DecoderTelemetry
 (
+const
 Maybe
 <
 Telemetry
@@ -348,6 +349,7 @@ Telemetry
 :
 ID
 >
+&
 aSpeedHistogram
 size_t
 aBytesDecoded

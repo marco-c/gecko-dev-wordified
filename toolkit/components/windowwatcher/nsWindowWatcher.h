@@ -632,6 +632,7 @@ const
 SizeSpec
 &
 aSizeSpec
+const
 mozilla
 :
 :
@@ -639,6 +640,7 @@ Maybe
 <
 float
 >
+&
 aOpenerFullZoom
 =
 mozilla

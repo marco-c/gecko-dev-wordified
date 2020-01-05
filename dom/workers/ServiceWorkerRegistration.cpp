@@ -2505,10 +2505,12 @@ FulfillUnregisterPromiseRunnable
 PromiseWorkerProxy
 *
 aProxy
+const
 Maybe
 <
 bool
 >
+&
 aState
 )
 :
@@ -2702,10 +2704,12 @@ WorkerUnregisterCallback
 void
 Finish
 (
+const
 Maybe
 <
 bool
 >
+&
 aState
 )
 {
