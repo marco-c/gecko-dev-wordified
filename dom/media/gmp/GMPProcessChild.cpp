@@ -183,13 +183,6 @@ GMPProcessChild
 :
 Init
 (
-int
-aArgc
-char
-*
-aArgv
-[
-]
 )
 {
 nsAutoString

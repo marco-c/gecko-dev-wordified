@@ -222,13 +222,6 @@ virtual
 bool
 Init
 (
-int
-aArgc
-char
-*
-aArgv
-[
-]
 )
 =
 0
