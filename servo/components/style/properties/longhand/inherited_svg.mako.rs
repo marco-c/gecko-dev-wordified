@@ -284,6 +284,9 @@ gecko_enum_prefix
 "
 StyleFillRule
 "
+gecko_inexhaustive
+=
+True
 products
 =
 "
@@ -465,6 +468,9 @@ gecko_enum_prefix
 "
 StyleFillRule
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False

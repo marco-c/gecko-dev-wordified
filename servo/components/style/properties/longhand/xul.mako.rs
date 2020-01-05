@@ -147,6 +147,9 @@ gecko_enum_prefix
 "
 StyleBoxAlign
 "
+gecko_inexhaustive
+=
+True
 animatable
 =
 False
