@@ -1517,9 +1517,9 @@ JSObject
 {
 unsafe
 {
-/
-*
 assert
+!
+(
 (
 (
 *
@@ -1536,9 +1536,8 @@ JSCLASS_DOM_GLOBAL
 !
 =
 0
+)
 ;
-*
-/
 JS_GetReservedSlot
 (
 global

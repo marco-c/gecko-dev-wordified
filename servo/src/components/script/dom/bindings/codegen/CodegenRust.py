@@ -12177,6 +12177,8 @@ flags
 =
 "
 JSCLASS_IS_GLOBAL
+|
+JSCLASS_DOM_GLOBAL
 "
             
 slots
@@ -17076,27 +17078,9 @@ global
 *
 /
   
-/
-*
-Make
-sure
-our
-global
-is
-sane
-.
-Hopefully
-we
-can
-remove
-this
-sometime
-*
-/
-  
-/
-*
-if
+assert
+!
+(
 (
 (
 *
@@ -17110,23 +17094,11 @@ flags
 &
 JSCLASS_DOM_GLOBAL
 )
-=
+!
 =
 0
-{
-    
-return
-ptr
-:
-:
-null
-(
 )
 ;
-  
-}
-*
-/
   
 /
 *
@@ -36676,6 +36648,7 @@ utils
 :
 {
 DOMJSClass
+JSCLASS_DOM_GLOBAL
 }
 '
             
