@@ -33970,7 +33970,7 @@ if
 obj
 -
 >
-isNewArrayIterator
+isNewIterator
 (
 )
 )
@@ -33978,7 +33978,7 @@ return
 obj
 -
 >
-toNewArrayIterator
+toNewIterator
 (
 )
 -
