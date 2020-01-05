@@ -12401,6 +12401,13 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+SamplerThread
+"
+)
+;
 /
 /
 This
