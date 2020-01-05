@@ -1674,11 +1674,6 @@ Trusted
 :
 new
 (
-window
-.
-get_cx
-(
-)
 self
 script_chan
 .

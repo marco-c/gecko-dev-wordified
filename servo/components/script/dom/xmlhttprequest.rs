@@ -8303,15 +8303,6 @@ Trusted
 :
 new
 (
-global
-.
-r
-(
-)
-.
-get_cx
-(
-)
 self
 global
 .
@@ -9608,11 +9599,6 @@ Trusted
 :
 new
 (
-global
-.
-get_cx
-(
-)
 self
 global
 .

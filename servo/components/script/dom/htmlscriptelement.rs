@@ -2244,11 +2244,6 @@ Trusted
 :
 new
 (
-window
-.
-get_cx
-(
-)
 self
 script_chan
 .
@@ -3517,11 +3512,6 @@ Trusted
 :
 new
 (
-window
-.
-get_cx
-(
-)
 self
 chan
 .
@@ -3606,11 +3596,6 @@ Trusted
 :
 new
 (
-window
-.
-get_cx
-(
-)
 self
 chan
 .

@@ -844,11 +844,6 @@ Trusted
 :
 new
 (
-window
-.
-get_cx
-(
-)
 self
 window
 .
