@@ -230,16 +230,7 @@ eLength
 /
 values
 are
-such
-that
-nsCSSValue
-:
-:
-IsLengthUnit
-(
-)
-is
-true
+eCSSUnit_Pixel
 eInteger
 /
 /
