@@ -1253,6 +1253,13 @@ WrTransformProperty
 aTransformArray
 )
 ;
+CompositorBridgeParent
+*
+GetRootCompositorBridgeParent
+(
+)
+const
+;
 private
 :
 struct

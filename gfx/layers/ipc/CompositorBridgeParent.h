@@ -3073,6 +3073,15 @@ aActor
 )
 override
 ;
+RefPtr
+<
+WebRenderBridgeParent
+>
+GetWebRenderBridgeParent
+(
+)
+const
+;
 static
 void
 SetWebRenderProfilerEnabled
