@@ -266,19 +266,6 @@ cookie
 rs
     
 "
-domain0017
-"
-#
-Waiting
-for
-issue
-11216
-of
-servo
-/
-servo
-    
-"
 0003
 "
 #
