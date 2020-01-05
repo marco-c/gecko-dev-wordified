@@ -181,7 +181,8 @@ ASSERT_OWNING_THREAD
 (
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 nsIThread
 *
@@ -240,7 +241,11 @@ thread
 \
 }
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 #
 else
 #

@@ -435,7 +435,8 @@ CHECK_mWorkingPath
 (
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 if
 (
@@ -450,7 +451,11 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 /
 /
 CopyFileEx

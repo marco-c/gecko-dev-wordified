@@ -6848,7 +6848,8 @@ func_
 params_
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 if
 (
@@ -6919,7 +6920,11 @@ params_
 \
 }
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 void
 nsThread
 :

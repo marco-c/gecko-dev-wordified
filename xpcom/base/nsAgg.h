@@ -796,7 +796,8 @@ NS_INIT_AGGREGATED
 outer
 )
 \
-PR_BEGIN_MACRO
+do
+{
 \
 fOuter
 =
@@ -808,7 +809,11 @@ outer
 fAggregated
 ;
 \
-PR_END_MACRO
+}
+while
+(
+0
+)
 /
 /
 Put
