@@ -15930,7 +15930,7 @@ EnsureUniqueInnerOnCSSSheets
 {
 AutoTArray
 <
-CSSStyleSheet
+StyleSheet
 *
 32
 >
@@ -15946,7 +15946,7 @@ gCSSSheetTypes
 {
 for
 (
-CSSStyleSheet
+StyleSheet
 *
 sheet
 :
@@ -16085,7 +16085,7 @@ Length
 -
 1
 ;
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =
