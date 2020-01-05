@@ -204,7 +204,7 @@ cef_command_line_t
 (
 )
 as
-u64
+size_t
 ;
 cl
 }
@@ -605,7 +605,7 @@ len
 (
 )
 as
-u64
+size_t
 string
 1
 )
