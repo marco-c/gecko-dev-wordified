@@ -585,6 +585,7 @@ error
 )
 {
 return
+undefined
 ;
 }
 let
@@ -631,5 +632,8 @@ categoryURL
 params
 ;
 }
+return
+undefined
+;
 }
 ;

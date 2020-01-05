@@ -981,6 +981,9 @@ catch
 e
 )
 {
+/
+/
+nothing
 }
 if
 (

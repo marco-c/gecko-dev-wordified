@@ -280,9 +280,6 @@ docshells
 .
 *
 /
-var
-TimelineActor
-=
 exports
 .
 TimelineActor

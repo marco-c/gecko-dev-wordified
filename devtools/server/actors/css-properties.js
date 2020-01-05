@@ -159,7 +159,6 @@ properties
 ;
 const
 {
-CSS_PROPERTIES
 CSS_TYPES
 }
 =

@@ -726,9 +726,6 @@ HighlighterActor
 class
 *
 /
-var
-HighlighterActor
-=
 exports
 .
 HighlighterActor
@@ -2374,9 +2371,9 @@ canceled
 "
 )
 ;
+}
 return
 ;
-}
 default
 :
 return
@@ -2926,9 +2923,6 @@ it
 .
 *
 /
-var
-CustomHighlighterActor
-=
 exports
 .
 CustomHighlighterActor

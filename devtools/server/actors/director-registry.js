@@ -830,9 +830,6 @@ definitions
 .
 *
 /
-const
-DirectorRegistryActor
-=
 exports
 .
 DirectorRegistryActor
@@ -1096,7 +1093,7 @@ method
 args
 )
 {
-var
+let
 reply
 =
 sendSyncMessage

@@ -192,9 +192,6 @@ documentation
 .
 *
 /
-var
-ProfilerActor
-=
 exports
 .
 ProfilerActor

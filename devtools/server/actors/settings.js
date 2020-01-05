@@ -353,6 +353,9 @@ catch
 e
 )
 {
+/
+/
+ignore
 }
 stream
 .
@@ -894,7 +897,7 @@ function
 {
 for
 (
-var
+let
 name
 in
 req
