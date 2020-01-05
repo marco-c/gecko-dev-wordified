@@ -447,7 +447,13 @@ nodes_from_point
 (
 &
 self
-point
+page_point
+:
+Point2D
+<
+f32
+>
+client_point
 :
 Point2D
 <
