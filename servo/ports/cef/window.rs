@@ -2079,7 +2079,7 @@ clone
 }
 }
 fn
-hidpi_factor
+scale_factor
 (
 &
 self
