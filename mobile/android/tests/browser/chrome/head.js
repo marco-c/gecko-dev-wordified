@@ -300,7 +300,7 @@ container
 function
 promiseNotification
 (
-topic
+aTopic
 )
 {
 Cu
@@ -378,7 +378,7 @@ obs
 addObserver
 (
 observe
-topic
+aTopic
 )
 ;
 info
@@ -389,7 +389,7 @@ waiting
 for
 "
 +
-topic
+aTopic
 +
 "
 notification
@@ -428,7 +428,7 @@ jsm
 )
 ;
 var
-topic
+linkVisitedTopic
 =
 "
 link
@@ -565,7 +565,7 @@ obs
 addObserver
 (
 observe
-topic
+linkVisitedTopic
 )
 ;
 info
@@ -576,7 +576,7 @@ waiting
 for
 "
 +
-topic
+linkVisitedTopic
 +
 "
 notification
