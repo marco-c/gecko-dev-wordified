@@ -314,6 +314,9 @@ state
 of
 a
 pin
+or
+suggested
+site
 so
 we
 leave
@@ -340,6 +343,16 @@ BrowserContract
 TopSites
 .
 TYPE_PINNED
+&
+&
+type
+!
+=
+BrowserContract
+.
+TopSites
+.
+TYPE_SUGGESTED
 )
 {
 isBookmarked
