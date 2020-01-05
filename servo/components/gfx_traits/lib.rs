@@ -118,10 +118,6 @@ extern
 crate
 range
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use

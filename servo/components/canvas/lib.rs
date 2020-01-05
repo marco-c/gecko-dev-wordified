@@ -90,10 +90,6 @@ canvas_traits
 ;
 extern
 crate
-core
-;
-extern
-crate
 cssparser
 ;
 extern

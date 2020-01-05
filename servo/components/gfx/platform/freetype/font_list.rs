@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-extern
-crate
-fontconfig
-;
-extern
-crate
-freetype
-;
 use
 fontconfig
 :

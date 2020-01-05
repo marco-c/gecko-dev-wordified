@@ -82,13 +82,6 @@ unsafe_code
 ]
 #
 [
-allow
-(
-unused_extern_crates
-)
-]
-#
-[
 macro_use
 ]
 extern
@@ -106,10 +99,6 @@ macro_use
 extern
 crate
 heapsize_derive
-;
-extern
-crate
-serde
 ;
 #
 [

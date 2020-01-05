@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-extern
-crate
-freetype
-;
 use
 app_units
 :

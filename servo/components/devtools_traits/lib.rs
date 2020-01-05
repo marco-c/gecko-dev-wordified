@@ -138,13 +138,6 @@ unsafe_code
 ]
 #
 [
-allow
-(
-unused_extern_crates
-)
-]
-#
-[
 macro_use
 ]
 extern
@@ -174,10 +167,6 @@ ipc_channel
 extern
 crate
 msg
-;
-extern
-crate
-serde
 ;
 #
 [

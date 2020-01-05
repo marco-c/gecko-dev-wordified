@@ -190,10 +190,6 @@ extern
 crate
 offscreen_gl_context
 ;
-#
-[
-macro_use
-]
 extern
 crate
 profile_traits
@@ -201,10 +197,6 @@ profile_traits
 extern
 crate
 script_traits
-;
-extern
-crate
-serde
 ;
 #
 [

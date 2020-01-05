@@ -122,10 +122,6 @@ responses
 in
 Servo
 .
-extern
-crate
-hyper
-;
 use
 actor
 :

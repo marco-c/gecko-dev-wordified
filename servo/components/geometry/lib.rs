@@ -60,10 +60,6 @@ extern
 crate
 app_units
 ;
-#
-[
-macro_use
-]
 extern
 crate
 euclid

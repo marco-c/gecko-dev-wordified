@@ -100,10 +100,6 @@ unsafe_code
 ]
 extern
 crate
-core
-;
-extern
-crate
 cssparser
 ;
 extern
@@ -125,10 +121,6 @@ heapsize_derive
 extern
 crate
 ipc_channel
-;
-extern
-crate
-serde
 ;
 #
 [

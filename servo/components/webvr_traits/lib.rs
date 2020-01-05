@@ -88,10 +88,6 @@ extern
 crate
 msg
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use

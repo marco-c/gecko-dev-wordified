@@ -124,10 +124,6 @@ extern
 crate
 net_traits
 ;
-#
-[
-macro_use
-]
 extern
 crate
 profile_traits
@@ -135,14 +131,6 @@ profile_traits
 extern
 crate
 script_traits
-;
-#
-[
-macro_use
-]
-extern
-crate
-serde_derive
 ;
 extern
 crate
