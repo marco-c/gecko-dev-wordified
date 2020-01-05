@@ -3641,16 +3641,6 @@ a
 /
 token
 .
-bool
-hitOOM
-:
-1
-;
-/
-/
-Hit
-OOM
-.
 Flags
 (
 )
@@ -3665,9 +3655,6 @@ sawOctalEscape
 (
 )
 hadError
-(
-)
-hitOOM
 (
 )
 {
@@ -7065,7 +7052,9 @@ getCharIgnoreEOL
 ;
 }
 }
-void
+MOZ_MUST_USE
+MOZ_ALWAYS_INLINE
+bool
 updateLineInfoForEOL
 (
 )
