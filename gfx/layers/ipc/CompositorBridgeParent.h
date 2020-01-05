@@ -3360,6 +3360,10 @@ const
 uint64_t
 &
 aPipelineId
+const
+nsString
+&
+aResourcePath
 )
 override
 ;
