@@ -2763,6 +2763,17 @@ FontType
 :
 CAIRO
 :
+#
+ifdef
+USE_SKIA
+case
+FontType
+:
+:
+SKIA
+:
+#
+endif
 {
 #
 ifdef
