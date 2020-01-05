@@ -1654,6 +1654,15 @@ removeDataFromDomain
 (
 host
 )
+.
+catch
+(
+Components
+.
+utils
+.
+reportError
+)
 ;
 break
 ;
