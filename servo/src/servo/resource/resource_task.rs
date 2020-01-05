@@ -166,7 +166,9 @@ bool
 {
 match
 (
+copy
 self
+copy
 other
 )
 {
@@ -535,6 +537,7 @@ s
 "
 to_str
 (
+copy
 url
 )
 )

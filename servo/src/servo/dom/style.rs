@@ -709,7 +709,9 @@ bool
 {
 match
 (
+copy
 self
+copy
 other
 )
 {
@@ -848,7 +850,9 @@ copying
 here
 match
 (
+copy
 self
+copy
 other
 )
 {
