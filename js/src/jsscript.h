@@ -8887,6 +8887,7 @@ mayReadFrameArgsDirectly
 (
 )
 ;
+static
 JSFlatString
 *
 sourceData
@@ -8894,6 +8895,11 @@ sourceData
 JSContext
 *
 cx
+JS
+:
+:
+HandleScript
+script
 )
 ;
 static

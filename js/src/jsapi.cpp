@@ -25027,12 +25027,13 @@ nullptr
 return
 haveSource
 ?
-script
--
->
+JSScript
+:
+:
 sourceData
 (
 cx
+script
 )
 :
 NewStringCopyZ
