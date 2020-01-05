@@ -125,7 +125,9 @@ elements
 #
 include
 "
-nsViewportFrame
+mozilla
+/
+ViewportFrame
 .
 h
 "
