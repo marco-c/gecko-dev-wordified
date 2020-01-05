@@ -531,12 +531,6 @@ Compare
 the
 pointerId
 .
-if
-(
-!
-suppressPointerIdCheck
-)
-{
 resultCallback
 (
 {
@@ -561,7 +555,6 @@ pointerId
 }
 )
 ;
-}
 }
 )
 ;
