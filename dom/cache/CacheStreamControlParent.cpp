@@ -419,6 +419,9 @@ stream
 )
 )
 ;
+bool
+ok
+=
 autoStream
 -
 >
@@ -428,6 +431,11 @@ aStream
 Manager
 (
 )
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+ok
 )
 ;
 aStreamCleanupList

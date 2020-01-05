@@ -177,9 +177,6 @@ class
 PBackgroundChild
 ;
 class
-SendStreamChild
-;
-class
 AutoIPCStream
 ;
 }

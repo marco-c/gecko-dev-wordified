@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_SendStreamAlloc_h
+mozilla_ipc_IPCStreamAlloc_h
 #
 define
-mozilla_ipc_SendStreamAlloc_h
+mozilla_ipc_IPCStreamAlloc_h
 namespace
 mozilla
 {
@@ -129,9 +129,18 @@ ipc
 class
 PChildToParentStreamParent
 ;
+class
+PParentToChildStreamChild
+;
 PChildToParentStreamParent
 *
 AllocPChildToParentStreamParent
+(
+)
+;
+PParentToChildStreamChild
+*
+AllocPParentToChildStreamChild
 (
 )
 ;
@@ -149,4 +158,4 @@ namespace
 endif
 /
 /
-mozilla_ipc_SendStreamAlloc_h
+mozilla_ipc_IPCStreamAlloc_h
