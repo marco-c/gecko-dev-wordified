@@ -780,10 +780,10 @@ map
 |
 token
 |
-token
-.
-as_slice
 (
+*
+*
+token
 )
 .
 to_owned

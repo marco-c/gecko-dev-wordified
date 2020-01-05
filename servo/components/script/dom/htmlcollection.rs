@@ -1451,10 +1451,6 @@ elems
 >
 elems
 .
-as_slice
-(
-)
-.
 get
 (
 index

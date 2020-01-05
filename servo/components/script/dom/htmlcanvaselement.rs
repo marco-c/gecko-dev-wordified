@@ -1368,11 +1368,9 @@ CanvasRenderingContext2DOrWebGLRenderingContext
 >
 {
 match
+&
+*
 id
-.
-as_slice
-(
-)
 {
 "
 2d

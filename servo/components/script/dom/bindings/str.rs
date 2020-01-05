@@ -274,10 +274,6 @@ vector
 self
 ;
 vector
-.
-as_slice
-(
-)
 }
 /
 /

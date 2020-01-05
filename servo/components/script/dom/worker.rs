@@ -610,11 +610,8 @@ get_url
 .
 parse
 (
+&
 script_url
-.
-as_slice
-(
-)
 )
 {
 Ok

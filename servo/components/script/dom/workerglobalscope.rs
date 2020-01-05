@@ -937,11 +937,8 @@ worker_url
 .
 parse
 (
+&
 url
-.
-as_slice
-(
-)
 )
 ;
 match

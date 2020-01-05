@@ -1445,10 +1445,6 @@ u16
 =
 source
 .
-as_slice
-(
-)
-.
 utf16_units
 (
 )
@@ -1879,10 +1875,6 @@ listener
 if
 entry
 .
-as_slice
-(
-)
-.
 position_elem
 (
 &
@@ -2012,10 +2004,6 @@ let
 position
 =
 entry
-.
-as_slice
-(
-)
 .
 position_elem
 (

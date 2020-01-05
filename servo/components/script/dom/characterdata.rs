@@ -994,11 +994,8 @@ data
 .
 push_str
 (
+&
 arg
-.
-as_slice
-(
-)
 )
 ;
 data

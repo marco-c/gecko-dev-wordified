@@ -1945,10 +1945,6 @@ Ok
 (
 octets
 .
-as_slice
-(
-)
-.
 to_base64
 (
 STANDARD
@@ -2092,11 +2088,9 @@ let
 mut
 input
 =
+&
+*
 without_spaces
-.
-as_slice
-(
-)
 ;
 /
 /
@@ -4266,10 +4260,6 @@ u16
 >
 =
 code
-.
-as_slice
-(
-)
 .
 utf16_units
 (

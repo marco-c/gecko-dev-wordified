@@ -6186,11 +6186,9 @@ DOMString
 bool
 {
 match
+&
+*
 keyArg
-.
-as_slice
-(
-)
 {
 "
 Ctrl
