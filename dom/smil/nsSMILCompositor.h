@@ -722,10 +722,8 @@ key
 tuple
 of
 element
-/
+and
 attributeName
-/
-attributeType
 )
 KeyType
 mKey

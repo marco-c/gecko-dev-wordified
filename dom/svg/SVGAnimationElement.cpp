@@ -1599,15 +1599,6 @@ nsGkAtoms
 :
 :
 attributeName
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-attributeType
 )
 {
 aResult
