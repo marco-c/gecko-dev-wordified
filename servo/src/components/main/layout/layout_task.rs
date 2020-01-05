@@ -1019,7 +1019,7 @@ flow
 {
 damage
 .
-union_in_place
+insert
 (
 flow
 :
@@ -1135,7 +1135,7 @@ flow
 .
 restyle_damage
 .
-union_in_place
+insert
 (
 RestyleDamage
 :
@@ -1186,9 +1186,10 @@ propagate_down
 )
 ;
 if
+!
 prop
 .
-is_nonempty
+is_empty
 (
 )
 {
@@ -1213,7 +1214,7 @@ kid_ctx
 .
 restyle_damage
 .
-union_in_place
+insert
 (
 prop
 )

@@ -72,6 +72,15 @@ use
 layout
 :
 :
+incremental
+:
+:
+RestyleDamage
+;
+use
+layout
+:
+:
 parallel
 :
 :
@@ -292,7 +301,7 @@ restyle_damage
 :
 Option
 <
-int
+RestyleDamage
 >
 /
 /
