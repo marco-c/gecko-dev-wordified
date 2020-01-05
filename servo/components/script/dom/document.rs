@@ -1018,6 +1018,12 @@ point
 Point2D
 ;
 use
+gfx_traits
+:
+:
+ScrollRootId
+;
+use
 html5ever
 :
 :
@@ -5522,6 +5528,12 @@ perform_a_scroll
 (
 x
 y
+ScrollRootId
+:
+:
+root
+(
+)
 ScrollBehavior
 :
 :
