@@ -12371,7 +12371,7 @@ panel
 {
 let
 {
-NetMonitorController
+inspectRequest
 }
 =
 panel
@@ -12389,15 +12389,13 @@ netmonitor
 /
 src
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
 return
-NetMonitorController
-.
 inspectRequest
 (
 requestId
