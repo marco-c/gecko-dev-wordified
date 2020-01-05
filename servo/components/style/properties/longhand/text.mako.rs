@@ -389,6 +389,13 @@ input
 let
 second
 =
+input
+.
+try
+(
+|
+input
+|
 Side
 :
 :
@@ -396,6 +403,7 @@ parse
 (
 context
 input
+)
 )
 .
 ok
