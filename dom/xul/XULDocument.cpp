@@ -1718,7 +1718,6 @@ DirectionChanged
 intl
 .
 uidirection
-.
 "
 this
 )
@@ -11384,7 +11383,6 @@ DirectionChanged
 intl
 .
 uidirection
-.
 "
 this
 )
