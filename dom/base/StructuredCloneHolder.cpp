@@ -3659,12 +3659,9 @@ file
 nsresult
 rv
 =
-NS_NewNativeLocalFile
-(
-NS_ConvertUTF16toUTF8
+NS_NewLocalFile
 (
 path
-)
 true
 getter_AddRefs
 (
