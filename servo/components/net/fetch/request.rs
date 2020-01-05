@@ -567,7 +567,7 @@ bool
 pub
 redirect_count
 :
-uint
+u32
 pub
 response_tainting
 :

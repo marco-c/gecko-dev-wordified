@@ -563,7 +563,7 @@ sender
 :
 Sender
 <
-u32
+usize
 >
 url
 :
@@ -607,7 +607,7 @@ origin
 .
 map_or
 (
-0u
+0
 |
 entry
 |
@@ -617,8 +617,6 @@ len
 (
 )
 )
-as
-u32
 )
 .
 unwrap
@@ -698,7 +696,7 @@ nth
 (
 index
 as
-uint
+usize
 )
 )
 .

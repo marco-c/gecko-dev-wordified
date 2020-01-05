@@ -368,7 +368,7 @@ Url
 pub
 max_age
 :
-uint
+u32
 pub
 credentials
 :
@@ -395,7 +395,7 @@ url
 Url
 max_age
 :
-uint
+u32
 credentials
 :
 bool
@@ -658,7 +658,7 @@ header_name
 str
 new_max_age
 :
-uint
+u32
 )
 -
 >
@@ -787,7 +787,7 @@ method
 Method
 new_max_age
 :
-uint
+u32
 )
 -
 >
@@ -1409,7 +1409,7 @@ header_name
 str
 new_max_age
 :
-uint
+u32
 )
 -
 >
@@ -1529,7 +1529,7 @@ method
 Method
 new_max_age
 :
-uint
+u32
 )
 -
 >
@@ -1688,7 +1688,7 @@ MatchHeaderUpdate
 (
 CacheRequestDetails
 String
-uint
+u32
 Sender
 <
 bool
@@ -1707,7 +1707,7 @@ MatchMethodUpdate
 (
 CacheRequestDetails
 Method
-uint
+u32
 Sender
 <
 bool
@@ -1940,7 +1940,7 @@ header_name
 str
 new_max_age
 :
-uint
+u32
 )
 -
 >
@@ -2054,7 +2054,7 @@ method
 Method
 new_max_age
 :
-uint
+u32
 )
 -
 >

@@ -159,7 +159,7 @@ spawn_named
 static
 READ_SIZE
 :
-uint
+usize
 =
 8192
 ;
