@@ -12191,7 +12191,7 @@ if
 mozilla
 :
 :
-RestyleManager
+GeckoRestyleManager
 *
 geckoRM
 =
@@ -12205,7 +12205,7 @@ GetAsGecko
 )
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -12242,7 +12242,7 @@ if
 oldStyleContext
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition
@@ -32060,7 +32060,7 @@ if
 mozilla
 :
 :
-RestyleManager
+GeckoRestyleManager
 *
 geckoRM
 =
@@ -32074,7 +32074,7 @@ GetAsGecko
 )
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -32125,7 +32125,7 @@ if
 oldStyleContext
 )
 {
-RestyleManager
+GeckoRestyleManager
 :
 :
 TryInitiatingTransition

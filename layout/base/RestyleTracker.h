@@ -215,10 +215,10 @@ namespace
 mozilla
 {
 class
-RestyleManager
+ElementRestyler
 ;
 class
-ElementRestyler
+GeckoRestyleManager
 ;
 class
 RestyleTracker
@@ -373,7 +373,7 @@ flags
 void
 Init
 (
-RestyleManager
+GeckoRestyleManager
 *
 aRestyleManager
 )
@@ -496,7 +496,6 @@ RestyleHintData
 aRestyleHintData
 =
 nullptr
-const
 mozilla
 :
 :
@@ -505,7 +504,6 @@ Maybe
 Element
 *
 >
-&
 aRestyleRoot
 =
 mozilla
@@ -1284,7 +1282,7 @@ Element
 FlagsType
 mRestyleBits
 ;
-RestyleManager
+GeckoRestyleManager
 *
 mRestyleManager
 ;
@@ -2089,7 +2087,6 @@ const
 RestyleHintData
 *
 aRestyleHintData
-const
 mozilla
 :
 :
@@ -2098,7 +2095,6 @@ Maybe
 Element
 *
 >
-&
 aRestyleRoot
 )
 {

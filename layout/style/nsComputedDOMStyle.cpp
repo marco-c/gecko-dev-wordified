@@ -3019,7 +3019,7 @@ mOldSkipAnimationRules
 }
 private
 :
-RestyleManager
+GeckoRestyleManager
 *
 mRestyleManager
 =

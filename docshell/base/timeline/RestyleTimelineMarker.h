@@ -174,7 +174,7 @@ mRestyleHint
 .
 AssignWithConversion
 (
-RestyleManager
+GeckoRestyleManager
 :
 :
 RestyleHintToString

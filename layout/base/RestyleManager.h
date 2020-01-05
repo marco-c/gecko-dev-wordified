@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_RestyleManagerBase_h
+mozilla_RestyleManager_h
 #
 define
-mozilla_RestyleManagerBase_h
+mozilla_RestyleManager_h
 #
 include
 "
@@ -159,7 +159,7 @@ class
 EventStates
 ;
 class
-RestyleManager
+GeckoRestyleManager
 ;
 class
 ServoRestyleManager
@@ -184,7 +184,7 @@ logic
 common
 to
 both
-RestyleManager
+GeckoRestyleManager
 and
 *
 ServoRestyleManager
@@ -192,12 +192,12 @@ ServoRestyleManager
 *
 /
 class
-RestyleManagerBase
+RestyleManager
 {
 protected
 :
 explicit
-RestyleManagerBase
+RestyleManager
 (
 nsPresContext
 *
@@ -592,7 +592,7 @@ RestyleManager
 explicit
 AnimationsWithDestroyedFrame
 (
-RestyleManagerBase
+RestyleManager
 *
 aRestyleManager
 )
@@ -796,7 +796,7 @@ CSSPseudoElementType
 aPseudoType
 )
 ;
-RestyleManagerBase
+RestyleManager
 *
 mRestyleManager
 ;
@@ -926,7 +926,7 @@ mAnimationsWithDestroyedFrame
 protected
 :
 ~
-RestyleManagerBase
+RestyleManager
 (
 )
 {

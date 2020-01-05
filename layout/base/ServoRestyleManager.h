@@ -257,7 +257,7 @@ class
 ServoRestyleManager
 :
 public
-RestyleManagerBase
+RestyleManager
 {
 friend
 class
@@ -266,7 +266,7 @@ ServoStyleSet
 public
 :
 typedef
-RestyleManagerBase
+RestyleManager
 base_type
 ;
 NS_INLINE_DECL_REFCOUNTING

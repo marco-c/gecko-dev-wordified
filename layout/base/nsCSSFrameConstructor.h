@@ -305,7 +305,7 @@ class
 mozilla
 :
 :
-RestyleManagerBase
+GeckoRestyleManager
 ;
 friend
 class

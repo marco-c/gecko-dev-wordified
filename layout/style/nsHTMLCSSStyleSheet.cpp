@@ -580,7 +580,7 @@ system
 "
 )
 ;
-RestyleManager
+GeckoRestyleManager
 *
 restyleManager
 =

@@ -4353,7 +4353,7 @@ initiate
 transitions
 correctly
 .
-RestyleManager
+GeckoRestyleManager
 :
 :
 ReframingStyleContexts
@@ -4442,7 +4442,7 @@ transitions
 for
 this
 frame
-RestyleManagerBase
+RestyleManager
 :
 :
 AnimationsWithDestroyedFrame
