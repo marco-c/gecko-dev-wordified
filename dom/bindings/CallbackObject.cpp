@@ -361,8 +361,11 @@ void
 CallbackObject
 :
 :
-HoldJSObjectsIfMoreThanOneOwner
+FinishSlowJSInitIfMoreThanOneOwner
 (
+JSContext
+*
+aCx
 )
 {
 MOZ_ASSERT
