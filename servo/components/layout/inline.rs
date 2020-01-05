@@ -13902,8 +13902,16 @@ base
 early_absolute_position_info
 .
 relative_containing_block_size
+self
+.
+base
+.
+early_absolute_position_info
+.
+relative_containing_block_mode
 )
 )
+;
 }
 overflow
 }
