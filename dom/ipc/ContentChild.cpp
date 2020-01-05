@@ -12349,10 +12349,6 @@ const
 nsCString
 &
 vendor
-const
-bool
-&
-safeMode
 )
 {
 mAppInfo
@@ -12408,12 +12404,6 @@ Assign
 (
 vendor
 )
-;
-mAppInfo
-.
-safeMode
-=
-safeMode
 ;
 return
 IPC_OK

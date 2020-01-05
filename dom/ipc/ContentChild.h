@@ -440,9 +440,6 @@ ID
 nsCString
 vendor
 ;
-bool
-safeMode
-;
 }
 ;
 nsresult
@@ -2042,10 +2039,6 @@ const
 nsCString
 &
 vendor
-const
-bool
-&
-safeMode
 )
 override
 ;
