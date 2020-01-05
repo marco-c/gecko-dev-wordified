@@ -257,6 +257,9 @@ ipc
 class
 BackgroundChildImpl
 ;
+class
+PrincipalInfo
+;
 }
 namespace
 camera
@@ -1524,9 +1527,15 @@ int
 &
 capture_id
 const
-nsACString
+mozilla
+:
+:
+ipc
+:
+:
+PrincipalInfo
 &
-aOrigin
+aPrincipalInfo
 )
 ;
 int
