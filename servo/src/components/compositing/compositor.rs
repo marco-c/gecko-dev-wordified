@@ -4136,8 +4136,8 @@ self
 .
 scene
 .
-set_transform
-(
+transform
+=
 identity
 (
 )
@@ -4155,7 +4155,6 @@ get
 (
 )
 1f32
-)
 )
 ;
 }
