@@ -1215,7 +1215,7 @@ tcx
 hir
 :
 :
-Expr
+Body
 span
 :
 codemap
@@ -1389,8 +1389,6 @@ span_lint
 UNROOTED_MUST_ROOT
 arg
 .
-ty
-.
 span
 "
 Type
@@ -1463,7 +1461,10 @@ walk_expr
 &
 mut
 visitor
+&
 body
+.
+value
 )
 ;
 }
@@ -2002,7 +2003,7 @@ body
 hir
 :
 :
-ExprId
+BodyId
 span
 :
 codemap
