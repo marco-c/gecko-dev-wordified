@@ -12458,10 +12458,9 @@ if
 !
 valid_styles
 {
-debug_assert
+warn
 !
 (
-false
 "
 Resolving
 style
@@ -12472,7 +12471,6 @@ current
 styles
 with
 lazy
-\
 computation
 forbidden
 .
