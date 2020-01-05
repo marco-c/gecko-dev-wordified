@@ -7910,10 +7910,8 @@ rules_list
 )
 Some
 (
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 top
@@ -8230,10 +8228,8 @@ id_hash
 find
 (
 &
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 top

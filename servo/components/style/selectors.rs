@@ -5745,10 +5745,8 @@ LocalName
 {
 name
 :
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 div
@@ -5756,10 +5754,8 @@ div
 )
 lower_name
 :
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 div
