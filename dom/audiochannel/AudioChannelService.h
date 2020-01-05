@@ -486,12 +486,6 @@ IsEnableAudioCompeting
 (
 )
 ;
-static
-bool
-IsServiceStarted
-(
-)
-;
 /
 *
 *
