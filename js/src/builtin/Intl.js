@@ -23460,10 +23460,10 @@ i
 processedKey
 )
 .
-callFunction
+_DefineDataProperty
 (
-std_Array_push
 processedKeys
+i
 ToString
 (
 keys
