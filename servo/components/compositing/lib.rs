@@ -194,10 +194,6 @@ clipboard
 ;
 extern
 crate
-libc
-;
-extern
-crate
 time
 ;
 extern
