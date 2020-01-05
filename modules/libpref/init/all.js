@@ -14402,7 +14402,7 @@ trackingprotection
 .
 annotate_channels
 "
-false
+true
 )
 ;
 /
