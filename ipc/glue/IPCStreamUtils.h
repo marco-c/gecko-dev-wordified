@@ -956,6 +956,9 @@ bool
 mTaken
 ;
 bool
+mDelayedStart
+;
+bool
 IsSet
 (
 )
@@ -985,8 +988,13 @@ can
 be
 used
 .
+explicit
 AutoIPCStream
 (
+bool
+aDelayedStart
+=
+false
 )
 ;
 /
@@ -1031,6 +1039,10 @@ AutoIPCStream
 IPCStream
 &
 aTarget
+bool
+aDelayedStart
+=
+false
 )
 ;
 /
@@ -1058,6 +1070,10 @@ AutoIPCStream
 OptionalIPCStream
 &
 aTarget
+bool
+aDelayedStart
+=
+false
 )
 ;
 ~
