@@ -1369,7 +1369,7 @@ document
 node
 .
 pub
-document_root
+document
 :
 TrustedNodeAddress
 /
