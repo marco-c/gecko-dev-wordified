@@ -5271,6 +5271,11 @@ GetPrincipal
 aScope
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+registration
+)
+;
 return
 serviceWorker
 -
