@@ -194,14 +194,6 @@ check
 -
 test
 '
-        
-'
-generate
--
-build
--
-stats
-'
     
 ]
     
@@ -980,6 +972,8 @@ mozconfigs
 win64
 \
 \
+clang
+-
 debug
 '
     
@@ -1002,7 +996,7 @@ manifests
 win64
 \
 \
-releng
+clang
 .
 manifest
 '

@@ -103,7 +103,7 @@ updating
 this
 with
 custom
-64
+32
 bit
 keys
 /
@@ -117,7 +117,7 @@ below
 under
 the
 '
-64
+32
 bit
 specific
 '
@@ -193,14 +193,6 @@ build
 check
 -
 test
-'
-        
-'
-generate
--
-build
--
-stats
 '
     
 ]
@@ -675,7 +667,7 @@ max_build_output_timeout
 #
 #
 #
-64
+32
 bit
 specific
 #
@@ -690,11 +682,9 @@ base_name
 '
 :
 '
-WINNT_6
+WINNT_5
 .
-1_x86
--
-64_
+2_
 %
 (
 branch
@@ -707,7 +697,7 @@ platform
 '
 :
 '
-win64
+win32
 '
     
 '
@@ -715,16 +705,8 @@ stage_platform
 '
 :
 '
-win64
--
-debug
+win32
 '
-    
-'
-debug_build
-'
-:
-True
     
 '
 publish_nightly_en_US_routes
@@ -737,6 +719,43 @@ env
 '
 :
 {
+        
+'
+BINSCOPE
+'
+:
+os
+.
+path
+.
+join
+(
+            
+os
+.
+environ
+[
+'
+ProgramFiles
+(
+x86
+)
+'
+]
+'
+Microsoft
+'
+'
+SDL
+BinScope
+'
+'
+BinScope
+.
+exe
+'
+        
+)
         
 '
 HG_SHARE_BASE_DIR
@@ -759,6 +778,27 @@ sep
 hg
 -
 shared
+'
+)
+        
+'
+MOZBUILD_STATE_PATH
+'
+:
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
+'
+.
+mozbuild
 '
 )
         
@@ -809,7 +849,7 @@ Kits
 /
 Debuggers
 /
-x64
+x86
 /
 srcsrv
 /
@@ -848,18 +888,6 @@ TOOLTOOL_HOME
 c
 /
 builds
-'
-        
-'
-XPCOM_DEBUG_BREAK
-'
-:
-'
-stack
--
-and
--
-abort
 '
         
 '
@@ -932,7 +960,7 @@ s
 breakpad
 \
 \
-win64
+win32
 \
 \
 minidump_stackwalk
@@ -977,10 +1005,10 @@ config
 mozconfigs
 \
 \
-win64
+win32
 \
 \
-debug
+clang
 '
     
 '
@@ -999,10 +1027,10 @@ tooltool
 manifests
 \
 \
-win64
+win32
 \
 \
-releng
+clang
 .
 manifest
 '

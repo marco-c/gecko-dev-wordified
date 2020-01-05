@@ -194,14 +194,6 @@ check
 -
 test
 '
-        
-'
-generate
--
-build
--
-stats
-'
     
 ]
     
@@ -716,15 +708,7 @@ stage_platform
 :
 '
 win64
--
-debug
 '
-    
-'
-debug_build
-'
-:
-True
     
 '
 publish_nightly_en_US_routes
@@ -851,18 +835,6 @@ builds
 '
         
 '
-XPCOM_DEBUG_BREAK
-'
-:
-'
-stack
--
-and
--
-abort
-'
-        
-'
 MSYSTEM
 '
 :
@@ -980,7 +952,7 @@ mozconfigs
 win64
 \
 \
-debug
+clang
 '
     
 '
@@ -1002,7 +974,7 @@ manifests
 win64
 \
 \
-releng
+clang
 .
 manifest
 '
