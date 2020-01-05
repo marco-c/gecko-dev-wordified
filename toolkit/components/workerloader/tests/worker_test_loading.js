@@ -27,6 +27,18 @@ zero
 /
 *
 /
+/
+*
+eslint
+-
+env
+mozilla
+/
+chrome
+-
+worker
+*
+/
 "
 use
 strict
@@ -678,7 +690,7 @@ is
 exn
 .
 lineNumber
-10
+12
 "
 The
 error
@@ -876,7 +888,7 @@ is
 exn
 .
 lineNumber
-11
+13
 "
 The
 error
