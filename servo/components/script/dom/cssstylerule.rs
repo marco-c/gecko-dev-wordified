@@ -460,7 +460,7 @@ as_window
 CSSStyleOwner
 :
 :
-CSSStyleRule
+CSSRule
 (
 JS
 :

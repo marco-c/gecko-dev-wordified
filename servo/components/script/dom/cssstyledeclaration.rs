@@ -340,7 +340,7 @@ JS
 Element
 >
 )
-CSSStyleRule
+CSSRule
 (
 JS
 <
@@ -436,7 +436,7 @@ None
 CSSStyleOwner
 :
 :
-CSSStyleRule
+CSSRule
 (
 _
 ref
@@ -493,7 +493,7 @@ el
 CSSStyleOwner
 :
 :
-CSSStyleRule
+CSSRule
 (
 ref
 window
@@ -593,7 +593,7 @@ NodeStyleDamaged
 CSSStyleOwner
 :
 :
-CSSStyleRule
+CSSRule
 (
 ref
 window
@@ -835,7 +835,7 @@ owner
 CSSStyleOwner
 :
 :
-CSSStyleRule
+CSSRule
 (
 .
 .
@@ -852,7 +852,7 @@ on
 CSSStyleDeclaration
 with
 a
-CSSStyleRule
+CSSRule
 owner
 "
 )
