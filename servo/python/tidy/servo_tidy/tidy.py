@@ -189,12 +189,6 @@ files
 :
 [
             
-CONFIG_FILE_PATH
-#
-ignore
-config
-file
-            
 "
 .
 /
@@ -2631,6 +2625,7 @@ file_name
 endswith
 (
 "
+Cargo
 .
 toml
 "
