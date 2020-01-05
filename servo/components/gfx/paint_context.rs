@@ -10613,7 +10613,7 @@ slice
 in
 run
 .
-natural_word_slices_in_range
+natural_word_slices_in_visual_order
 (
 range
 )

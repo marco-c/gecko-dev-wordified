@@ -157,6 +157,14 @@ slice_chars
 [
 feature
 (
+step_by
+)
+]
+#
+!
+[
+feature
+(
 str_char
 )
 ]
@@ -325,6 +333,10 @@ string_cache
 extern
 crate
 style
+;
+extern
+crate
+unicode_bidi
 ;
 extern
 crate
