@@ -873,6 +873,7 @@ calls
 /
 typedef
 void
+const
 *
 cubeb_devid
 ;
@@ -1721,6 +1722,7 @@ handle
 *
 /
 char
+const
 *
 device_id
 ;
@@ -1741,6 +1743,7 @@ UI
 *
 /
 char
+const
 *
 friendly_name
 ;
@@ -1762,6 +1765,7 @@ UI
 *
 /
 char
+const
 *
 group_id
 ;
@@ -1795,6 +1799,7 @@ microphone
 *
 /
 char
+const
 *
 vendor_name
 ;
@@ -2239,8 +2244,8 @@ stream
 void
 *
 user_ptr
-const
 void
+const
 *
 input_buffer
 void
@@ -2414,8 +2419,8 @@ void
 cubeb_log_callback
 )
 (
-const
 char
+const
 *
 fmt
 .
