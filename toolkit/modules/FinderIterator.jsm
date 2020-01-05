@@ -4348,6 +4348,14 @@ frameEl
 0
 )
 ;
+/
+/
+Pass
+true
+to
+flush
+layout
+.
 if
 (
 !
@@ -4358,12 +4366,6 @@ _fastFind
 isRangeVisible
 (
 range
-this
-.
-_getDocShell
-(
-range
-)
 true
 )
 )
