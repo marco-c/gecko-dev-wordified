@@ -2551,6 +2551,12 @@ const
 TimeStamp
 &
 aSampleTime
+nsTArray
+<
+WrTransformProperty
+>
+&
+aTransformArray
 )
 {
 APZThreadUtils
