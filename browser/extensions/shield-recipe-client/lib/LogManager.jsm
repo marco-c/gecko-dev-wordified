@@ -111,6 +111,7 @@ recipe
 -
 client
 "
+;
 let
 rootLogger
 =
