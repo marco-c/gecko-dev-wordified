@@ -57,11 +57,6 @@ mozilla
 inbound
 '
 '
-fx
--
-team
-'
-'
 autoland
 '
 ]
