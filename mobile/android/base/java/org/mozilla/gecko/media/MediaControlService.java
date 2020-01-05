@@ -947,7 +947,7 @@ mInitialize
 |
 |
 !
-isAndroidVersionLollopopOrHigher
+isAndroidVersionLollipopOrHigher
 (
 )
 )
@@ -1075,7 +1075,7 @@ stopSelf
 }
 private
 boolean
-isAndroidVersionLollopopOrHigher
+isAndroidVersionLollipopOrHigher
 (
 )
 {
