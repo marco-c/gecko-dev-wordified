@@ -746,7 +746,7 @@ if
 (
 targetDocShell
 .
-isMozBrowserOrApp
+isMozBrowser
 )
 {
 break

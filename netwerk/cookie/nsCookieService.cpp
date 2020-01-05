@@ -439,13 +439,6 @@ h
 #
 include
 "
-mozIApplication
-.
-h
-"
-#
-include
-"
 mozIApplicationClearPrivateDataParams
 .
 h
@@ -21851,7 +21844,6 @@ bool
 aHttpBound
 const
 NeckoOriginAttributes
-&
 aOriginAttrs
 bool
 aIsPrivate

@@ -330,10 +330,6 @@ aCpID
 const
 bool
 &
-aIsForApp
-const
-bool
-&
 aIsForBrowser
 )
 {
@@ -756,13 +752,7 @@ return
 true
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+bool
 nsIContentChild
 :
 :
@@ -862,9 +852,7 @@ nullptr
 ;
 }
 return
-IPC_OK
-(
-)
+true
 ;
 }
 }

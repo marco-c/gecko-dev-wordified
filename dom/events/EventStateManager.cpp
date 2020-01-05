@@ -1524,9 +1524,8 @@ private
 UITimerCallback
 (
 )
-=
-default
-;
+{
+}
 uint32_t
 mPreviousCount
 ;
@@ -1844,9 +1843,8 @@ OverOutElementsWrapper
 OverOutElementsWrapper
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_CYCLE_COLLECTION
 (
 OverOutElementsWrapper
@@ -7584,8 +7582,6 @@ frame
 /
 iframe
 mozbrowser
-/
-mozapp
 >
 nsCOMPtr
 <
@@ -7606,7 +7602,7 @@ browserFrame
 browserFrame
 -
 >
-GetReallyIsBrowserOrApp
+GetReallyIsBrowser
 (
 )
 )
@@ -23274,6 +23270,7 @@ aTarget
 )
 {
 }
+virtual
 void
 HandleEvent
 (
@@ -23281,7 +23278,6 @@ EventChainPostVisitor
 &
 aVisitor
 )
-override
 {
 if
 (
