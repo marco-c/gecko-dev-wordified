@@ -248,7 +248,7 @@ mozilla
 /
 dom
 /
-AudioContextBinding
+BaseAudioContextBinding
 .
 h
 "
