@@ -399,6 +399,11 @@ template
 .
 ctfont
 (
+pt_size
+.
+to_f64_px
+(
+)
 )
 .
 as_ref

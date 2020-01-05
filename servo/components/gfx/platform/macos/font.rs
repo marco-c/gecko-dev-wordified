@@ -497,6 +497,7 @@ template
 .
 ctfont
 (
+size
 )
 {
 Some
