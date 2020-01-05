@@ -5,7 +5,6 @@ log
 catcher
 onboardingHtml
 onboardingCss
-browser
 util
 shooter
 callBackground

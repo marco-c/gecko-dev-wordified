@@ -1,14 +1,6 @@
 /
 *
 globals
-window
-document
-browser
-*
-/
-/
-*
-globals
 log
 util
 catcher

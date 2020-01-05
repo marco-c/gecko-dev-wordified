@@ -1,7 +1,6 @@
 /
 *
 globals
-browser
 catcher
 *
 /

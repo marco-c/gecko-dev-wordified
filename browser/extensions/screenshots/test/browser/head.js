@@ -1,12 +1,4 @@
 /
-*
-global
-CustomizableUI
-info
-Services
-*
-/
-/
 /
 Currently
 Screenshots
