@@ -178,7 +178,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 script_layout_interface
@@ -234,7 +237,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -278,7 +281,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

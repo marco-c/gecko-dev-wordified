@@ -356,7 +356,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 image
@@ -519,7 +522,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -572,7 +575,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :

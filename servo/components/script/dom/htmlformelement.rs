@@ -558,7 +558,10 @@ use
 html5ever
 :
 :
+{
 LocalName
+Prefix
+}
 ;
 use
 hyper
@@ -741,7 +744,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
@@ -828,7 +831,7 @@ prefix
 :
 Option
 <
-DOMString
+Prefix
 >
 document
 :
