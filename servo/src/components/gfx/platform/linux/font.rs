@@ -348,10 +348,10 @@ FontSource
 {
 FontSourceMem
 (
-~
-[
+Vec
+<
 u8
-]
+>
 )
 FontSourceFile
 (
@@ -473,10 +473,10 @@ fctx
 FontContextHandle
 buf
 :
-~
-[
+Vec
+<
 u8
-]
+>
 style
 :
 &

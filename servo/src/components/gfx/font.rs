@@ -327,10 +327,10 @@ fctx
 FontContextHandle
 buf
 :
-~
-[
+Vec
+<
 u8
-]
+>
 style
 :
 &
@@ -1533,10 +1533,10 @@ ctx
 FontContext
 buffer
 :
-~
-[
+Vec
+<
 u8
-]
+>
 style
 :
 &
