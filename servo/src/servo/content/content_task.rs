@@ -668,6 +668,7 @@ ptr
 to_unsafe_ptr
 (
 &
+*
 content
 )
 as
@@ -688,7 +689,7 @@ JSContext
 )
 -
 >
-&
+*
 Content
 unsafe
 {
