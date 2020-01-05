@@ -13863,15 +13863,14 @@ stable
 yet
 .
 if
+!
 self
 .
 pending_subpages
 .
-len
+is_empty
 (
 )
->
-0
 {
 return
 Err

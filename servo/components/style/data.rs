@@ -285,7 +285,7 @@ work
 done
 .
 pub
-children_count
+children_to_process
 :
 AtomicIsize
 }
@@ -303,7 +303,7 @@ DomParallelInfo
 {
 DomParallelInfo
 {
-children_count
+children_to_process
 :
 AtomicIsize
 :
