@@ -108,6 +108,13 @@ MouseEvents
 .
 h
 "
+#
+include
+"
+nsWindowBase
+.
+h
+"
 /
 /
 Define
