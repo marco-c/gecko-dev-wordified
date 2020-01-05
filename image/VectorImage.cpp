@@ -7145,6 +7145,10 @@ VectorImage
 :
 OnSurfaceDiscarded
 (
+const
+SurfaceKey
+&
+aSurfaceKey
 )
 {
 MOZ_ASSERT
