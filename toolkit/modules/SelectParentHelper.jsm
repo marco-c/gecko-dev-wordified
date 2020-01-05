@@ -2487,6 +2487,16 @@ blur
 onSearchBlur
 )
 ;
+searchbox
+.
+addEventListener
+(
+"
+command
+"
+onSearchInput
+)
+;
 /
 /
 Handle
