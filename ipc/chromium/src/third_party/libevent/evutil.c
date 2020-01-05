@@ -11510,7 +11510,7 @@ ip_as_string
 '
 )
 {
-int
+size_t
 len
 ;
 if
@@ -11537,9 +11537,6 @@ return
 len
 =
 (
-int
-)
-(
 cp
 -
 (
@@ -11553,9 +11550,6 @@ if
 (
 len
 >
-(
-int
-)
 sizeof
 (
 buf
