@@ -468,6 +468,12 @@ drawTarget
 =
 mBaseDT
 ;
+AddDrawTarget
+(
+aRefPtr
+drawTarget
+)
+;
 return
 drawTarget
 .
