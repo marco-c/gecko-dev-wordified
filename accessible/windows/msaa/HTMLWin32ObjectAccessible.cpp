@@ -824,8 +824,7 @@ and
 create
 another
 HTMLWin32ObjectAccessible
-HWND
-childWnd
+mHwnd
 =
 :
 :
@@ -838,16 +837,6 @@ aHwnd
 GW_CHILD
 )
 ;
-if
-(
-childWnd
-)
-{
-mHwnd
-=
-childWnd
-;
-}
 }
 }
 void
