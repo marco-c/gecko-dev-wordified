@@ -1867,11 +1867,6 @@ shared_style_context
 traversal_driver
 )
 ;
-let
-known_depth
-=
-None
-;
 if
 traversal_driver
 .
@@ -1887,7 +1882,6 @@ traverse_dom
 &
 traversal
 element
-known_depth
 token
 global_style_data
 .
