@@ -101,7 +101,13 @@ join
 (
 here
 "
-harness
+tests
+"
+"
+tools
+"
+"
+wptrunner
 "
 )
 )
