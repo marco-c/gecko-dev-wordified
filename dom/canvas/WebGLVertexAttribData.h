@@ -149,6 +149,9 @@ private
 GLenum
 mType
 ;
+GLenum
+mBaseType
+;
 uint8_t
 mSize
 ;
@@ -214,6 +217,10 @@ IntegerFunc
 GETTER
 (
 Type
+)
+GETTER
+(
+BaseType
 )
 GETTER
 (

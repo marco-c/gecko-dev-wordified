@@ -1966,6 +1966,12 @@ GLint
 z
 GLint
 w
+const
+char
+*
+funcName
+=
+nullptr
 )
 ;
 void
@@ -1981,6 +1987,12 @@ GLuint
 z
 GLuint
 w
+const
+char
+*
+funcName
+=
+nullptr
 )
 ;
 void
