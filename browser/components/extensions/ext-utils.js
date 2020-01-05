@@ -4562,6 +4562,7 @@ cookieStoreId
 getCookieStoreIdForTab
 (
 result
+tab
 )
 ;
 }
