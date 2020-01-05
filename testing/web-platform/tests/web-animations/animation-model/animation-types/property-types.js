@@ -12665,7 +12665,7 @@ idlName
 duration
 :
 1000
-fill
+composite
 :
 '
 add
