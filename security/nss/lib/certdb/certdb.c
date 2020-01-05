@@ -13238,13 +13238,11 @@ head
 =
 NULL
 )
-return
-CERT_AddCertToListTail
-(
-certs
-cert
-)
+{
+goto
+loser
 ;
+}
 node
 =
 (

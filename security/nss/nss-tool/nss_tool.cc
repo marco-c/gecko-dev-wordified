@@ -255,12 +255,6 @@ arguments
 )
 )
 {
-tool
-.
-Usage
-(
-)
-;
 exit_code
 =
 1
