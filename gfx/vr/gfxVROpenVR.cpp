@@ -2939,6 +2939,7 @@ aPromiseID
 return
 ;
 }
+const
 double
 duration
 =
@@ -3011,6 +3012,7 @@ a
 continuous
 events
 .
+const
 uint32_t
 microSec
 =
