@@ -2462,8 +2462,8 @@ failure
 }
 add_task
 (
+async
 function
-*
 test_telemetry_integration
 (
 )
@@ -2509,7 +2509,7 @@ duration
 let
 ping
 =
-yield
+await
 validationPing
 (
 server

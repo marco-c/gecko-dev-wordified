@@ -523,8 +523,8 @@ locally
 .
 add_task
 (
+async
 function
-*
 test_annotation_uploaded
 (
 )
@@ -879,7 +879,7 @@ bookmarks
 ;
 try
 {
-yield
+await
 sync_engine_and_validate_telem
 (
 engine
@@ -1160,7 +1160,7 @@ annotation
 "
 )
 ;
-yield
+await
 sync_engine_and_validate_telem
 (
 engine
