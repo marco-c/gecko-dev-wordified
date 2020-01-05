@@ -2863,9 +2863,10 @@ js_runtime
 .
 ptr
 ;
+!
 ptr
 .
-is_not_null
+is_null
 (
 )
 }
@@ -2979,9 +2980,10 @@ js_context
 .
 ptr
 ;
+!
 ptr
 .
-is_not_null
+is_null
 (
 )
 }

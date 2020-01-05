@@ -321,11 +321,12 @@ JSObject
 assert
 !
 (
+!
 self
 .
 window_proxy
 .
-is_not_null
+is_null
 (
 )
 )
@@ -396,9 +397,10 @@ windowproxy_handler
 assert
 !
 (
+!
 handler
 .
-is_not_null
+is_null
 (
 )
 )
@@ -456,9 +458,10 @@ handler
 assert
 !
 (
+!
 wrapper
 .
-is_not_null
+is_null
 (
 )
 )
