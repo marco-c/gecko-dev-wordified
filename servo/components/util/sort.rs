@@ -64,6 +64,15 @@ In
 place
 sorting
 .
+use
+std
+:
+:
+cmp
+:
+:
+Ordering
+;
 fn
 quicksort_helper
 <
@@ -180,6 +189,9 @@ v
 )
 =
 =
+Ordering
+:
+:
 Less
 {
 i
@@ -208,6 +220,9 @@ uint
 )
 =
 =
+Ordering
+:
+:
 Less
 {
 if
@@ -260,6 +275,9 @@ v
 )
 =
 =
+Ordering
+:
+:
 Equal
 {
 p
@@ -295,6 +313,9 @@ uint
 )
 =
 =
+Ordering
+:
+:
 Equal
 {
 q

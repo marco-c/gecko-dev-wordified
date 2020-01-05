@@ -4142,10 +4142,6 @@ bool
 {
 self
 .
-deref
-(
-)
-.
 flags
 .
 get
@@ -5279,11 +5275,9 @@ TrustedNodeAddress
 {
 TrustedNodeAddress
 (
+&
+*
 self
-.
-deref
-(
-)
 as
 *
 const
@@ -7411,10 +7405,6 @@ node
 root
 (
 )
-.
-deref
-(
-)
 )
 )
 ;
@@ -7610,10 +7600,6 @@ node
 node
 .
 root
-(
-)
-.
-deref
 (
 )
 )

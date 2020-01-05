@@ -1117,7 +1117,11 @@ new
 (
 text
 .
-char_len
+chars
+(
+)
+.
+count
 (
 )
 as

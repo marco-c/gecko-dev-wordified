@@ -69,7 +69,7 @@ atomic
 {
 AtomicUint
 INIT_ATOMIC_UINT
-SeqCst
+Ordering
 }
 ;
 use
@@ -180,6 +180,9 @@ next_tid
 fetch_add
 (
 1
+Ordering
+:
+:
 SeqCst
 )
 }
