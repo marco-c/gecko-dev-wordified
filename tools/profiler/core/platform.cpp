@@ -18339,7 +18339,7 @@ return
 stack
 -
 >
-sampleContext
+setJSContext
 (
 aCx
 )
@@ -18390,9 +18390,8 @@ return
 stack
 -
 >
-sampleContext
+clearJSContext
 (
-nullptr
 )
 ;
 }
