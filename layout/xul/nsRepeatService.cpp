@@ -254,6 +254,10 @@ aCallback
 void
 *
 aCallbackData
+const
+nsACString
+&
+aCallbackName
 uint32_t
 aInitialDelay
 )
@@ -277,6 +281,10 @@ aCallback
 mCallbackData
 =
 aCallbackData
+;
+mCallbackName
+=
+aCallbackName
 ;
 nsresult
 rv
@@ -402,7 +410,7 @@ return
 mRepeatTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 [
 ]
@@ -524,6 +532,11 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+mCallbackName
+.
+Data
+(
+)
 )
 ;
 }

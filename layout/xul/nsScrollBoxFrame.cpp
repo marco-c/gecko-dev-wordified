@@ -295,6 +295,12 @@ Start
 (
 Notify
 this
+NS_LITERAL_CSTRING
+(
+"
+DoMouseClick
+"
+)
 0
 )
 ;
@@ -313,6 +319,12 @@ Start
 (
 Notify
 this
+NS_LITERAL_CSTRING
+(
+"
+DoMouseClick
+"
+)
 )
 ;
 }

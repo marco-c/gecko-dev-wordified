@@ -22957,6 +22957,12 @@ Start
 (
 HandleNumberControlSpin
 this
+NS_LITERAL_CSTRING
+(
+"
+HandleNumberControlSpin
+"
+)
 )
 ;
 /

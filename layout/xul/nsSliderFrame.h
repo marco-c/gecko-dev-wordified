@@ -874,6 +874,12 @@ Start
 (
 Notify
 this
+NS_LITERAL_CSTRING
+(
+"
+nsSliderFrame
+"
+)
 )
 ;
 }
