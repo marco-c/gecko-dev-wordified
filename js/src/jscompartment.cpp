@@ -521,6 +521,10 @@ debugModeBits
 (
 0
 )
+validAccessPtr
+(
+nullptr
+)
 randomKeyGenerator_
 (
 runtime_
