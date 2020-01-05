@@ -173,10 +173,7 @@ dom
 event
 :
 :
-{
 Event
-HTMLEventTypeId
-}
 ;
 use
 dom
@@ -5303,7 +5300,6 @@ Event
 new
 (
 window
-HTMLEventTypeId
 )
 ;
 event

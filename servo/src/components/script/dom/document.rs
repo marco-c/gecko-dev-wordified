@@ -180,8 +180,6 @@ event
 {
 AbstractEvent
 Event
-HTMLEventTypeId
-UIEventTypeId
 }
 ;
 use
@@ -1623,7 +1621,6 @@ new
 self
 .
 window
-UIEventTypeId
 )
 )
 "
@@ -1658,7 +1655,6 @@ new
 self
 .
 window
-HTMLEventTypeId
 )
 )
 _
