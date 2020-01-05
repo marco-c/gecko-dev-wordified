@@ -171,7 +171,7 @@ struct
 StructuredCloneFile
 {
 enum
-Type
+FileType
 {
 eBlob
 eMutableFile
@@ -196,7 +196,7 @@ FileInfo
 >
 mFileInfo
 ;
-Type
+FileType
 mType
 ;
 /
