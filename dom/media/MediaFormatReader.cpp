@@ -7867,6 +7867,14 @@ return
 bool
 supportRecycling
 =
+MediaPrefs
+:
+:
+MediaDecoderCheckRecycling
+(
+)
+&
+&
 decoder
 .
 mDecoder
