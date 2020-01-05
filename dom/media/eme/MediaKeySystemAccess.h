@@ -367,6 +367,8 @@ aOutConfig
 DecoderDoctorDiagnostics
 *
 aDiagnostics
+bool
+aIsPrivateBrowsing
 )
 ;
 static
