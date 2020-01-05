@@ -940,6 +940,7 @@ specified
 self
 CSSColor
 CSSRGBA
+LengthOrPercentage
 }
 ;
 use
@@ -2975,7 +2976,13 @@ font_size
 :
 SpecifiedValue
 (
+LengthOrPercentage
+:
+:
+Length
+(
 font_size
+)
 )
 )
 )
