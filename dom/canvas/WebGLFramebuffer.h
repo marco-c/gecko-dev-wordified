@@ -853,6 +853,17 @@ BlitFramebuffer
 bool
 hasSampleBuffers
 ;
+std
+:
+:
+vector
+<
+const
+WebGLFBAttachPoint
+*
+>
+colorDrawBuffers
+;
 const
 WebGLFBAttachPoint
 *
