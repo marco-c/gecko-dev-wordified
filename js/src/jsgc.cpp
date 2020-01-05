@@ -31386,7 +31386,7 @@ SweepCompressionTasksTask
 gcstats
 :
 :
-PHASE_SWEEP_MISC
+PHASE_SWEEP_COMPRESSION
 )
 ;
 MAKE_GC_SWEEP_TASK
@@ -31395,7 +31395,7 @@ SweepWeakMapsTask
 gcstats
 :
 :
-PHASE_SWEEP_MISC
+PHASE_SWEEP_WEAKMAPS
 )
 ;
 MAKE_GC_SWEEP_TASK
@@ -31404,7 +31404,7 @@ SweepUniqueIdsTask
 gcstats
 :
 :
-PHASE_SWEEP_BREAKPOINT
+PHASE_SWEEP_UNIQUEIDS
 )
 ;
 #
@@ -32558,7 +32558,7 @@ stats
 gcstats
 :
 :
-PHASE_SWEEP_MISC
+PHASE_SWEEP_JIT_DATA
 )
 ;
 /
@@ -33601,7 +33601,7 @@ task
 gcstats
 :
 :
-PHASE_SWEEP_MISC
+PHASE_SWEEP_WEAK_CACHES
 helperLock
 )
 ;
@@ -33633,7 +33633,7 @@ task
 gcstats
 :
 :
-PHASE_SWEEP_MISC
+PHASE_SWEEP_WEAK_CACHES
 helperLock
 )
 ;
