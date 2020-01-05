@@ -994,7 +994,10 @@ std
 :
 vector
 <
-WrImageKey
+wr
+:
+:
+ImageKey
 >
 mKeysToDelete
 ;
