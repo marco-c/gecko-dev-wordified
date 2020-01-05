@@ -682,16 +682,6 @@ const
 GlobalObject
 &
 aGlobal
-const
-Sequence
-<
-JS
-:
-:
-Value
->
-&
-aData
 )
 ;
 static
