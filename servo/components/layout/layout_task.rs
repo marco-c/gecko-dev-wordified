@@ -6618,6 +6618,7 @@ a
 self
 animation
 :
+&
 Animation
 rw_data
 :

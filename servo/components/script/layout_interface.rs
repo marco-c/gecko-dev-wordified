@@ -1434,7 +1434,6 @@ animation
 [
 derive
 (
-Copy
 Clone
 )
 ]

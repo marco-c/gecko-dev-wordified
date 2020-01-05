@@ -760,6 +760,7 @@ layout_task
 .
 tick_animation
 (
+&
 running_animation
 rw_data
 )
