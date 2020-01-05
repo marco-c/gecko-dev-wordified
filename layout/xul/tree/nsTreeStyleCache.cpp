@@ -616,7 +616,7 @@ StyleSet
 )
 -
 >
-ResolveStyleForOtherNonElement
+ResolveStyleForPlaceholder
 (
 aContext
 )
