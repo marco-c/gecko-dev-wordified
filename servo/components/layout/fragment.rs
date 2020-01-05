@@ -432,7 +432,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -895,7 +895,7 @@ style
 :
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 /
 /
@@ -3627,7 +3627,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 noncontent_inline_size
 :
 Au
@@ -3887,7 +3887,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 noncontent_block_size
 :
 Au
@@ -4193,7 +4193,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 containing_size
 :
 Au
@@ -4270,7 +4270,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 containing_size
 :
 Option
@@ -5637,7 +5637,7 @@ style
 :
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 mut
 restyle_damage
@@ -8673,7 +8673,7 @@ from_style
 style
 :
 &
-ComputedValues
+ServoComputedValues
 container_size
 :
 &
@@ -9089,7 +9089,7 @@ self
 -
 >
 &
-ComputedValues
+ServoComputedValues
 {
 &
 *
@@ -15030,7 +15030,7 @@ new_style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -18632,7 +18632,7 @@ Item
 &
 '
 a
-ComputedValues
+ServoComputedValues
 ;
 fn
 next
@@ -18648,7 +18648,7 @@ Option
 &
 '
 a
-ComputedValues
+ServoComputedValues
 >
 {
 if

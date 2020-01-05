@@ -175,7 +175,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -694,7 +694,7 @@ _
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {

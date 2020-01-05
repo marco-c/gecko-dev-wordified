@@ -268,7 +268,7 @@ style
 properties
 :
 :
-ComputedValues
+ServoComputedValues
 ;
 use
 style
@@ -307,7 +307,7 @@ style_context
 :
 LocalStyleContext
 <
-ComputedValues
+ServoComputedValues
 >
 font_context
 :
@@ -805,7 +805,7 @@ StyleContext
 '
 a
 ServoSelectorImpl
-ComputedValues
+ServoComputedValues
 >
 for
 LayoutContext
@@ -845,7 +845,7 @@ self
 &
 LocalStyleContext
 <
-ComputedValues
+ServoComputedValues
 >
 {
 &

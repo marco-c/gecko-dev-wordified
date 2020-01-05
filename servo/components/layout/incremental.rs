@@ -109,7 +109,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -467,7 +467,7 @@ RestyleDamage
 type
 ConcreteComputedValues
 =
-ComputedValues
+ServoComputedValues
 ;
 fn
 compute
@@ -479,13 +479,13 @@ Option
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 >
 new
 :
 &
-ComputedValues
+ServoComputedValues
 )
 -
 >
@@ -1130,13 +1130,13 @@ Option
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 >
 new
 :
 &
-ComputedValues
+ServoComputedValues
 )
 -
 >
@@ -1146,7 +1146,7 @@ let
 old
 :
 &
-ComputedValues
+ServoComputedValues
 =
 match
 old
@@ -1216,7 +1216,7 @@ properties
 /
 struct
 .
-ComputedValues
+ServoComputedValues
 .
 html
 /

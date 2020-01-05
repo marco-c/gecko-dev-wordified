@@ -243,7 +243,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -3134,7 +3134,7 @@ self
 style
 :
 &
-ComputedValues
+ServoComputedValues
 close
 :
 bool
@@ -3527,7 +3527,7 @@ style
 :
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 list_style_type
 :
@@ -3895,7 +3895,7 @@ style
 :
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 string
 :

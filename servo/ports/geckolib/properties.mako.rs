@@ -98,7 +98,7 @@ properties
 :
 {
 CascadePropertyFn
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -236,7 +236,7 @@ self
 &
 '
 a
-ComputedValues
+ServoComputedValues
 {
 unimplemented
 !
@@ -262,7 +262,7 @@ self
 '
 a
 mut
-ComputedValues
+ServoComputedValues
 {
 unimplemented
 !

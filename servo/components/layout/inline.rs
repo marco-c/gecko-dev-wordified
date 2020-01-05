@@ -308,7 +308,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -9582,7 +9582,7 @@ FontContext
 style
 :
 &
-ComputedValues
+ServoComputedValues
 )
 -
 >
@@ -13733,7 +13733,7 @@ _
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -14305,7 +14305,7 @@ style
 :
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 pub
 pseudo

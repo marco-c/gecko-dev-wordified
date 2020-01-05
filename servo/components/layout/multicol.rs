@@ -220,7 +220,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -1366,7 +1366,7 @@ new_style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {
@@ -1845,7 +1845,7 @@ new_style
 &
 Arc
 <
-ComputedValues
+ServoComputedValues
 >
 )
 {

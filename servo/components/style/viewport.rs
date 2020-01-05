@@ -115,7 +115,7 @@ properties
 :
 :
 {
-ComputedValues
+ServoComputedValues
 TComputedValues
 }
 ;
@@ -4375,7 +4375,7 @@ viewport_size
 initial_viewport
 inherited_style
 :
-ComputedValues
+ServoComputedValues
 :
 :
 initial_values
@@ -4383,7 +4383,7 @@ initial_values
 )
 style
 :
-ComputedValues
+ServoComputedValues
 :
 :
 initial_values
