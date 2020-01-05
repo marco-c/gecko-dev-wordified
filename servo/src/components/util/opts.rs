@@ -106,19 +106,13 @@ SkiaBackend
 }
 ;
 use
-extra
-:
-:
 getopts
-:
-:
-groups
 ;
 use
 std
 :
 :
-num
+cmp
 ;
 use
 std
@@ -476,7 +470,7 @@ opts
 :
 &
 [
-groups
+getopts
 :
 :
 OptGroup
@@ -514,8 +508,13 @@ app
 )
 ;
 println
+!
 (
-groups
+"
+{
+}
+"
+getopts
 :
 :
 usage
@@ -545,6 +544,10 @@ stderr
 write_line
 (
 msg
+)
+.
+unwrap
+(
 )
 ;
 os
@@ -601,7 +604,7 @@ opts
 =
 ~
 [
-groups
+getopts
 :
 :
 optflag
@@ -617,7 +620,7 @@ CPU
 rendering
 "
 )
-groups
+getopts
 :
 :
 optopt
@@ -638,7 +641,7 @@ output
 png
 "
 )
-groups
+getopts
 :
 :
 optopt
@@ -672,7 +675,7 @@ skia
 .
 "
 )
-groups
+getopts
 :
 :
 optopt
@@ -692,7 +695,7 @@ tiles
 512
 "
 )
-groups
+getopts
 :
 :
 optopt
@@ -713,7 +716,7 @@ threads
 1
 "
 )
-groups
+getopts
 :
 :
 optflagopt
@@ -735,7 +738,7 @@ interval
 10
 "
 )
-groups
+getopts
 :
 :
 optflag
@@ -753,7 +756,7 @@ load
 flag
 "
 )
-groups
+getopts
 :
 :
 optopt
@@ -779,7 +782,7 @@ layout
 1
 "
 )
-groups
+getopts
 :
 :
 optflag
@@ -795,7 +798,7 @@ Headless
 mode
 "
 )
-groups
+getopts
 :
 :
 optflag
@@ -821,7 +824,7 @@ about
 failure
 "
 )
-groups
+getopts
 :
 :
 optflag
@@ -844,7 +847,7 @@ other
 engines
 "
 )
-groups
+getopts
 :
 :
 optflag
@@ -867,7 +870,7 @@ let
 opt_match
 =
 match
-groups
+getopts
 :
 :
 getopts
@@ -1255,7 +1258,7 @@ unwrap
 None
 =
 >
-num
+cmp
 :
 :
 max

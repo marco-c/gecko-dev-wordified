@@ -675,10 +675,7 @@ url
 Url
 ;
 use
-extra
-:
-:
-arc
+sync
 :
 :
 Arc
@@ -687,7 +684,7 @@ use
 std
 :
 :
-util
+mem
 ;
 use
 std
@@ -2477,7 +2474,7 @@ ThreadSafeLayoutNode
 let
 opt_boxes
 =
-util
+mem
 :
 :
 replace
@@ -2780,7 +2777,7 @@ as_ref
 (
 )
 .
-map_default
+map_or
 (
 0
 |
@@ -3004,7 +3001,7 @@ as_ref
 (
 )
 .
-map_default
+map_or
 (
 0
 |
@@ -3665,7 +3662,7 @@ InlineBlockSplit
 {
 predecessor_boxes
 :
-util
+mem
 :
 :
 replace
@@ -3790,7 +3787,7 @@ InlineBlockSplit
 {
 predecessor_boxes
 :
-util
+mem
 :
 :
 replace
@@ -5824,7 +5821,7 @@ layout_data
 =
 >
 {
-util
+mem
 :
 :
 replace
@@ -6177,7 +6174,7 @@ Box
 )
 {
 match
-util
+mem
 :
 :
 replace
@@ -6396,6 +6393,10 @@ last
 (
 )
 .
+get_ref
+(
+)
+.
 is_whitespace_only
 (
 )
@@ -6418,6 +6419,10 @@ box_
 boxes
 .
 pop
+(
+)
+.
+unwrap
 (
 )
 ;

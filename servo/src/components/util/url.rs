@@ -72,10 +72,7 @@ url
 Url
 ;
 use
-std
-:
-:
-hashmap
+collections
 :
 :
 HashMap

@@ -499,6 +499,9 @@ stb_image
 :
 :
 Error
+(
+_
+)
 =
 >
 None

@@ -1114,7 +1114,6 @@ prefix_str
 >
 {
 if
-(
 namespace
 =
 =
@@ -1167,7 +1166,6 @@ namespace
 :
 :
 XMLNS
-)
 )
 {
 return
@@ -2688,6 +2686,9 @@ to_ascii_lower
 )
 )
 ;
+assert
+!
+(
 self
 .
 set_attribute
@@ -2700,6 +2701,11 @@ to_owned
 (
 )
 value
+)
+.
+is_ok
+(
+)
 )
 ;
 }

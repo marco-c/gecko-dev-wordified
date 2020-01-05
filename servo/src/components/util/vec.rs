@@ -240,12 +240,10 @@ int
 1
 ;
 while
-(
 low
 <
 =
 high
-)
 {
 /
 /
@@ -314,11 +312,9 @@ mid
 ]
 ;
 if
-(
 midv
 <
 key
-)
 {
 low
 =
@@ -329,11 +325,9 @@ mid
 }
 else
 if
-(
 midv
 >
 key
-)
 {
 high
 =

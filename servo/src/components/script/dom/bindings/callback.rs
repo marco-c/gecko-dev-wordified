@@ -129,9 +129,6 @@ std
 ptr
 ;
 use
-extra
-:
-:
 serialize
 :
 :
@@ -160,7 +157,7 @@ the
 caller
 code
 .
-eReportExceptions
+ReportExceptions
 /
 /
 Throw
@@ -195,7 +192,7 @@ report
 /
 it
 .
-eRethrowContentExceptions
+RethrowContentExceptions
 /
 /
 Throw
@@ -206,7 +203,7 @@ the
 caller
 code
 .
-eRethrowExceptions
+RethrowExceptions
 }
 #
 [

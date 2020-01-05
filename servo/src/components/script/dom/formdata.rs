@@ -147,7 +147,7 @@ str
 DOMString
 ;
 use
-std
+collections
 :
 :
 hashmap

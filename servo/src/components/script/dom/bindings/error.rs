@@ -94,7 +94,7 @@ ReportError
 [
 deriving
 (
-ToStr
+Show
 )
 ]
 pub

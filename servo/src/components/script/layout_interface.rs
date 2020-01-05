@@ -175,10 +175,7 @@ std
 comm
 :
 :
-{
 Chan
-SharedChan
-}
 ;
 use
 std
@@ -1058,7 +1055,7 @@ pub
 struct
 LayoutChan
 (
-SharedChan
+Chan
 <
 Msg
 >
@@ -1088,7 +1085,7 @@ port
 chan
 )
 =
-SharedChan
+Chan
 :
 :
 new
