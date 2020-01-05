@@ -1128,12 +1128,11 @@ PipelineNamespaceId
 /
 Pipeline
 visibility
-is
+to
+be
 inherited
-from
-parent
 pub
-parent_visibility
+prev_visibility
 :
 Option
 <
@@ -2097,7 +2096,7 @@ state
 window_size
 state
 .
-parent_visibility
+prev_visibility
 .
 unwrap_or
 (
