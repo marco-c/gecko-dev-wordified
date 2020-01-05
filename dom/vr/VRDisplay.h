@@ -1735,6 +1735,8 @@ VRLayer
 >
 &
 aLayers
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
