@@ -2367,8 +2367,6 @@ false
 ;
 if
 (
-MOZ_LIKELY
-(
 argv
 [
 0
@@ -2376,7 +2374,6 @@ argv
 .
 isInt32
 (
-)
 )
 )
 {
@@ -2388,7 +2385,7 @@ argv
 0
 ]
 .
-isInt32
+toInt32
 (
 )
 ;
