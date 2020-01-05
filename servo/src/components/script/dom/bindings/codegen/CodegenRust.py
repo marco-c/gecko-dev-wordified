@@ -42645,6 +42645,7 @@ element
 {
 HTMLDivElement
 HTMLSpanElement
+HTMLParagraphElement
 }
 '
 #
@@ -42690,6 +42691,16 @@ XXXjdm
 dom
 :
 :
+htmlhrelement
+:
+:
+HTMLHRElement
+'
+                          
+'
+dom
+:
+:
 htmlimageelement
 :
 :
@@ -42697,6 +42708,16 @@ HTMLImageElement
 '
 #
 XXXjdm
+                          
+'
+dom
+:
+:
+htmlscriptelement
+:
+:
+HTMLScriptElement
+'
                           
 '
 dom
