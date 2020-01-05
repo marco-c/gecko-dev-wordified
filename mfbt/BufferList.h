@@ -2247,6 +2247,14 @@ MOZ_RELEASE_ASSERT
 mOwning
 )
 ;
+MOZ_ASSERT
+(
+aSize
+<
+=
+aCapacity
+)
+;
 char
 *
 data
