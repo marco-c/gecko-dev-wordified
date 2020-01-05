@@ -1476,14 +1476,16 @@ isCallback
 )
 and
                          
-desc
+not
+self
 .
-get
+interface
+.
+getExtendedAttribute
 (
-'
-concrete
-'
-True
+"
+Abstract
+"
 )
 )
         
