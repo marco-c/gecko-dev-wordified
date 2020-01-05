@@ -597,6 +597,10 @@ AwaitShutdownAndIdle
 (
 )
 ;
+sManagerTaskQueue
+=
+nullptr
+;
 sVideoDecoderManagerThread
 -
 >
