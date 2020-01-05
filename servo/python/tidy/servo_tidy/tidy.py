@@ -2823,6 +2823,16 @@ package
 )
 :
         
+if
+"
+replace
+"
+in
+package
+:
+            
+continue
+        
 source
 =
 package
