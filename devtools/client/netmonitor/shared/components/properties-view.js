@@ -395,6 +395,10 @@ filterPlaceHolder
 :
 "
 "
+sectionNames
+:
+[
+]
 }
 ;
 }
