@@ -435,9 +435,7 @@ const
 nsACString
 *
 property
-const
-nsTimingFunction
-*
+nsTimingFunctionBorrowed
 timing_function
 ServoComputedValuesBorrowed
 computed_values
