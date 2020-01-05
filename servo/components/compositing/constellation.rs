@@ -3462,7 +3462,7 @@ map_or
 "
 "
 .
-to_string
+to_owned
 (
 )
 |
@@ -3503,7 +3503,7 @@ e
 "
 "
 .
-to_string
+to_owned
 (
 )
 }

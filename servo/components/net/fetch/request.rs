@@ -1073,7 +1073,7 @@ svg
 xml
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -1253,7 +1253,7 @@ xhtml
 xml
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -1413,7 +1413,7 @@ xhtml
 xml
 "
 .
-to_string
+to_owned
 (
 )
 )

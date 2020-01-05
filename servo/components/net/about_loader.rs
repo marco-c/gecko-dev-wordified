@@ -238,7 +238,7 @@ utf
 8
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -388,7 +388,7 @@ URL
 .
 "
 .
-to_string
+to_owned
 (
 )
 )
