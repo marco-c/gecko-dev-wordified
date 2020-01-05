@@ -172,7 +172,9 @@ h
 #
 include
 "
-prclist
+mozilla
+/
+Attributes
 .
 h
 "
@@ -181,7 +183,7 @@ include
 "
 mozilla
 /
-Attributes
+LinkedList
 .
 h
 "
@@ -427,6 +429,16 @@ public
 nsIIPCSerializableURI
 public
 nsISensitiveInfoHiddenURI
+#
+ifdef
+DEBUG_DUMP_URLS_AT_SHUTDOWN
+public
+LinkedListElement
+<
+nsStandardURL
+>
+#
+endif
 {
 protected
 :
@@ -2045,9 +2057,6 @@ public
 #
 ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
-PRCList
-mDebugCList
-;
 void
 PrintSpec
 (
