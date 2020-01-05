@@ -1551,6 +1551,7 @@ iso
 ]
 ;
 function
+*
 do_get_file_by_line
 (
 file
@@ -1905,7 +1906,7 @@ good_counter
 for
 (
 val
-in
+of
 do_get_file_by_line
 (
 good
@@ -2013,7 +2014,7 @@ bad_counter
 for
 (
 val
-in
+of
 do_get_file_by_line
 (
 bad
