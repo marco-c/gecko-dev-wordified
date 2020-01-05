@@ -6597,9 +6597,9 @@ mozilla
 :
 :
 StyleBackendType
-(
-0
-)
+:
+:
+None
 )
 {
 const_cast
@@ -6626,9 +6626,9 @@ mozilla
 :
 :
 StyleBackendType
-(
-0
-)
+:
+:
+None
 )
 ;
 return

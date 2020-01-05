@@ -7577,13 +7577,10 @@ READYSTATE_UNINITIALIZED
 )
 mStyleBackendType
 (
-mozilla
-:
-:
 StyleBackendType
 :
 :
-Gecko
+None
 )
 #
 ifdef
@@ -72260,9 +72257,9 @@ mStyleBackendType
 =
 =
 StyleBackendType
-(
-0
-)
+:
+:
+None
 "
 no
 need

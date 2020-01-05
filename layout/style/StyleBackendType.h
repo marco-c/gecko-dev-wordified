@@ -147,9 +147,8 @@ StyleBackendType
 :
 uint8_t
 {
+None
 Gecko
-=
-1
 Servo
 }
 ;
