@@ -136,6 +136,13 @@ nsIIPCSerializableInputStream
 .
 h
 "
+#
+include
+"
+nsISeekableStream
+.
+h
+"
 /
 /
 A
@@ -159,6 +166,8 @@ public
 nsICloneableInputStream
 public
 nsIIPCSerializableInputStream
+public
+nsISeekableStream
 {
 public
 :
@@ -167,6 +176,7 @@ NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
+NS_DECL_NSISEEKABLESTREAM
 /
 /
 Create
@@ -349,6 +359,10 @@ mWeakCloneableInputStream
 nsIIPCSerializableInputStream
 *
 mWeakIPCSerializableInputStream
+;
+nsISeekableStream
+*
+mWeakSeekableInputStream
 ;
 uint64_t
 mStart
