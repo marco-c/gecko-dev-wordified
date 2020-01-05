@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsICookiePromptService
-.
-h
-"
-#
-include
-"
 nsICookieManager2
 .
 h
