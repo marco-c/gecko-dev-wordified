@@ -7656,7 +7656,7 @@ GetType
 typeStr
 )
 ;
-PROFILER_LABEL_PRINTF
+PROFILER_LABEL_DYNAMIC
 (
 "
 EventListenerManager
@@ -7674,17 +7674,9 @@ Category
 :
 :
 EVENTS
-"
-%
-s
-"
 NS_LossyConvertUTF16toASCII
 (
 typeStr
-)
-.
-get
-(
 )
 )
 ;

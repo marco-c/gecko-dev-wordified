@@ -6507,7 +6507,7 @@ int64_t
 aSliceMillis
 )
 {
-PROFILER_LABEL_PRINTF
+PROFILER_LABEL_DYNAMIC
 (
 "
 nsJSContext
@@ -6525,10 +6525,6 @@ Category
 :
 :
 GC
-"
-%
-s
-"
 JS
 :
 :
