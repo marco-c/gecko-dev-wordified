@@ -211,7 +211,7 @@ if
 (
 script
 )
-stringProperty
+property
 (
 "
 name
@@ -238,7 +238,7 @@ lineno
 )
 ;
 else
-stringProperty
+property
 (
 "
 name
@@ -273,7 +273,7 @@ beginObject
 (
 )
 ;
-stringProperty
+property
 (
 "
 name
@@ -320,7 +320,7 @@ caller
 (
 )
 )
-integerProperty
+property
 (
 "
 caller
@@ -359,7 +359,7 @@ MResumePoint
 :
 ResumeAt
 :
-stringProperty
+property
 (
 "
 mode
@@ -381,7 +381,7 @@ MResumePoint
 :
 ResumeAfter
 :
-stringProperty
+property
 (
 "
 mode
@@ -403,7 +403,7 @@ MResumePoint
 :
 Outer
 :
-stringProperty
+property
 (
 "
 mode
@@ -470,7 +470,7 @@ i
 -
 -
 )
-integerValue
+value
 (
 iter
 -
@@ -495,7 +495,7 @@ caller
 (
 )
 )
-stringValue
+value
 (
 "
 |
@@ -527,7 +527,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 id
@@ -540,7 +540,7 @@ id
 )
 )
 ;
-property
+propertyName
 (
 "
 opcode
@@ -602,7 +602,7 @@ X
 (
 )
 )
-stringValue
+value
 (
 #
 X
@@ -656,7 +656,7 @@ i
 +
 +
 )
-integerValue
+value
 (
 def
 -
@@ -697,7 +697,7 @@ use
 +
 +
 )
-integerValue
+value
 (
 use
 .
@@ -742,7 +742,7 @@ dependency
 (
 )
 )
-integerValue
+value
 (
 def
 -
@@ -909,7 +909,7 @@ endStringProperty
 }
 else
 {
-stringProperty
+property
 (
 "
 type
@@ -1040,7 +1040,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 number
@@ -1071,7 +1071,7 @@ HitState
 :
 Count
 )
-integerProperty
+property
 (
 "
 count
@@ -1110,7 +1110,7 @@ isLoopBackedge
 (
 )
 )
-stringValue
+value
 (
 "
 backedge
@@ -1126,7 +1126,7 @@ isLoopHeader
 (
 )
 )
-stringValue
+value
 (
 "
 loopheader
@@ -1142,7 +1142,7 @@ isSplitEdge
 (
 )
 )
-stringValue
+value
 (
 "
 splitedge
@@ -1181,7 +1181,7 @@ i
 +
 +
 )
-integerValue
+value
 (
 block
 -
@@ -1238,7 +1238,7 @@ i
 +
 +
 )
-integerValue
+value
 (
 block
 -
@@ -1375,7 +1375,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 id
@@ -1388,7 +1388,7 @@ id
 )
 )
 ;
-property
+propertyName
 (
 "
 opcode
@@ -1450,7 +1450,7 @@ i
 +
 +
 )
-integerValue
+value
 (
 ins
 -
@@ -1550,7 +1550,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 number
@@ -1704,7 +1704,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 number
@@ -1814,7 +1814,7 @@ beginObject
 (
 )
 ;
-integerProperty
+property
 (
 "
 vreg
@@ -1868,7 +1868,7 @@ beginObject
 (
 )
 ;
-stringProperty
+property
 (
 "
 allocation
@@ -1898,7 +1898,7 @@ get
 )
 )
 ;
-integerProperty
+property
 (
 "
 start
@@ -1915,7 +1915,7 @@ bits
 )
 )
 ;
-integerProperty
+property
 (
 "
 end
