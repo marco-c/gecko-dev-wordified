@@ -541,7 +541,7 @@ MOZ_PROFILER_STARTUP
 '
             
 '
-MOZ_PROFILER_INTERVAL
+MOZ_PROFILER_STARTUP_INTERVAL
 '
 :
 str
@@ -557,7 +557,7 @@ interval
 )
             
 '
-MOZ_PROFILER_ENTRIES
+MOZ_PROFILER_STARTUP_ENTRIES
 '
 :
 str
@@ -568,22 +568,6 @@ option
 (
 '
 entries
-'
-)
-)
-            
-"
-MOZ_PROFILER_THREADS
-"
-:
-str
-(
-self
-.
-option
-(
-'
-threads
 '
 )
 )
