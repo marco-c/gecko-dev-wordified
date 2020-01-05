@@ -400,7 +400,7 @@ else
 h
 }
 ;
-alt
+match
 h
 {
 0
@@ -748,7 +748,7 @@ Color
 let
 col
 =
-alt
+match
 color
 .
 to_lower
@@ -1023,7 +1023,7 @@ color
 )
 ;
 }
-alt
+match
 (
 u8
 :
@@ -1194,7 +1194,7 @@ color
 )
 ;
 }
-alt
+match
 (
 u8
 :
@@ -1379,7 +1379,7 @@ color
 )
 ;
 }
-alt
+match
 (
 float
 :
@@ -1542,7 +1542,7 @@ color
 )
 ;
 }
-alt
+match
 (
 float
 :
@@ -1675,7 +1675,7 @@ option
 Color
 >
 {
-alt
+match
 color
 {
 c

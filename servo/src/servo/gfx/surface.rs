@@ -60,7 +60,7 @@ bpp
 >
 uint
 {
-alt
+match
 self
 {
 fo_rgba_8888

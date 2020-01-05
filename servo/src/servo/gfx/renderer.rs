@@ -336,7 +336,7 @@ draw_target_ch
 ;
 loop
 {
-alt
+match
 po
 .
 recv
@@ -569,7 +569,7 @@ drawing
 item
 ]
 ;
-alt
+match
 item
 .
 item_type
@@ -917,7 +917,7 @@ i
 /
 4
 ;
-alt
+match
 color
 {
 0

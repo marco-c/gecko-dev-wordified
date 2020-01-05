@@ -170,7 +170,7 @@ first_child
 ;
 loop
 {
-alt
+match
 copy
 p
 {
@@ -288,7 +288,7 @@ child
 child_tf
 |
 {
-alt
+match
 child_tf
 .
 parent
@@ -350,7 +350,7 @@ parent
 parent_tf
 |
 {
-alt
+match
 copy
 parent_tf
 .
