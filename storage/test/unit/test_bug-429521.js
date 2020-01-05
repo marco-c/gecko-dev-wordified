@@ -228,9 +228,6 @@ Script
 stops
 immediately
 .
-var
-tzId
-=
 stmt
 .
 row

@@ -421,9 +421,6 @@ grandparent
 "
 )
 ;
-let
-parentLog
-=
 Log
 .
 repository

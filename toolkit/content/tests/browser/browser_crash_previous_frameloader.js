@@ -819,7 +819,11 @@ away
 let
 [
 subject
+/
+*
 data
+*
+/
 ]
 =
 yield

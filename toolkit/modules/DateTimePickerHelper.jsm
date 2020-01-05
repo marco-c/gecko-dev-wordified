@@ -644,13 +644,6 @@ aData
 rect
 ;
 let
-dir
-=
-aData
-.
-dir
-;
-let
 type
 =
 aData

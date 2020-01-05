@@ -229,9 +229,6 @@ defer
 (
 )
 ;
-let
-timer
-=
 CommonUtils
 .
 namedTimer

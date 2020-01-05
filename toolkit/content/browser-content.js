@@ -2895,13 +2895,6 @@ message
 )
 {
 let
-objects
-=
-message
-.
-objects
-;
-let
 data
 =
 message
@@ -4609,13 +4602,6 @@ this
 getPrintSettings
 (
 )
-;
-let
-rv
-=
-Cr
-.
-NS_OK
 ;
 /
 /

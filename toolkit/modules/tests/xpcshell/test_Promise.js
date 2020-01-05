@@ -1701,9 +1701,6 @@ exception_content
 }
 )
 ;
-let
-observer_2
-=
 source
 .
 promise
@@ -5715,11 +5712,6 @@ let
 print
 =
 do_print
-;
-let
-execute_soon
-=
-do_execute_soon
 ;
 let
 observer

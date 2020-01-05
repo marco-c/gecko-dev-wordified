@@ -3220,9 +3220,6 @@ we
 rely
 on
 that
-let
-dir
-=
 Services
 .
 dirsvc

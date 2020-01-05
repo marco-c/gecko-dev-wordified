@@ -1094,8 +1094,6 @@ that
 are
 never
 used
-/
-/
 "
 no
 -
@@ -1109,8 +1107,6 @@ vars
 error
 "
 {
-/
-/
 "
 vars
 "
@@ -1118,8 +1114,6 @@ vars
 "
 local
 "
-/
-/
 "
 varsIgnorePattern
 "
@@ -1136,8 +1130,6 @@ Cr
 |
 EXPORTED_SYMBOLS
 "
-/
-/
 "
 args
 "
@@ -1145,8 +1137,6 @@ args
 "
 none
 "
-/
-/
 }
 ]
 /

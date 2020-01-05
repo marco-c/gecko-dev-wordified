@@ -3324,9 +3324,6 @@ of
 the
 message
 port
-let
-port
-=
 new
 ChildMessagePort
 (

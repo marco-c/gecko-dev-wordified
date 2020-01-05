@@ -647,9 +647,6 @@ Ping2
 "
 )
 ;
-let
-message
-=
 yield
 waitForMessage
 (

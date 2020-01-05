@@ -3501,15 +3501,6 @@ shrinkMemoryOnConnectionIdleMS
 )
 ;
 let
-oldShrink
-=
-c
-.
-_connectionData
-.
-shrinkMemory
-;
-let
 count
 =
 0
@@ -5228,9 +5219,6 @@ start
 a
 transaction
 .
-let
-result
-=
 yield
 c
 .
@@ -5273,8 +5261,6 @@ be
 rolled
 back
 .
-result
-=
 yield
 c
 .
@@ -5514,9 +5500,6 @@ works
 ;
 try
 {
-let
-result
-=
 yield
 c
 .
@@ -6361,9 +6344,6 @@ test_cloneStorageConnection
 {
 try
 {
-let
-clone
-=
 yield
 Sqlite
 .

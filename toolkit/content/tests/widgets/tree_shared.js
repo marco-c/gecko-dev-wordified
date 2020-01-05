@@ -6260,13 +6260,6 @@ rowIndex
 =
 2
 ;
-var
-inputField
-=
-tree
-.
-inputField
-;
 /
 /
 temporary
@@ -8955,11 +8948,6 @@ var
 checkMethod
 actual
 expected
-;
-var
-containerInfo
-=
-null
 ;
 var
 toggleOpenStateOK

@@ -2571,15 +2571,6 @@ current
 return
 ;
 }
-let
-window
-=
-this
-.
-_getWindow
-(
-)
-;
 this
 .
 _currentFoundRange

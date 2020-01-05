@@ -1411,13 +1411,6 @@ o1
 .
 value
 ;
-var
-listcount
-=
-o2
-.
-value
-;
 try
 {
 curlang
@@ -1947,7 +1940,11 @@ i
 ;
 var
 [
+/
+*
 languageTag
+*
+/
 languageSubtag
 scriptSubtag
 regionSubtag

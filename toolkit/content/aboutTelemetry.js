@@ -3039,11 +3039,6 @@ removeAllChildNodes
 weekSelector
 )
 ;
-let
-index
-=
-0
-;
 for
 (
 let
@@ -4641,14 +4636,6 @@ addonSection
 sectionTitle
 )
 {
-let
-data
-=
-explodeObject
-(
-addonObj
-)
-;
 let
 table
 =

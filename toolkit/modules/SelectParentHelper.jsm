@@ -950,15 +950,6 @@ value
 )
 )
 {
-let
-win
-=
-currentBrowser
-.
-ownerDocument
-.
-defaultView
-;
 currentBrowser
 .
 messageManager

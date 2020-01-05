@@ -635,15 +635,6 @@ aPrefix
 aArgs
 )
 {
-let
-prefix
-=
-aPrefix
-+
-'
-ERROR
-'
-;
 /
 /
 Report

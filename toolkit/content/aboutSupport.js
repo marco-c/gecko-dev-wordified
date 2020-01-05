@@ -3353,7 +3353,11 @@ for
 let
 [
 prop
+/
+*
 key
+*
+/
 ]
 of
 adapterKeys

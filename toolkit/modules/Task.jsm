@@ -3164,11 +3164,6 @@ this
 .
 _stack
 ;
-let
-topStack
-=
-stack
-;
 stack
 =
 Task

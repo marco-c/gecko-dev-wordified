@@ -3487,7 +3487,6 @@ let
 {
 linksOnly
 window
-word
 }
 =
 this

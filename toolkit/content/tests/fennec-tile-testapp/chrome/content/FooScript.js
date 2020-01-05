@@ -755,17 +755,6 @@ getBoundingClientRect
 )
 ;
 let
-rightbar
-=
-this
-.
-_rightbar
-.
-getBoundingClientRect
-(
-)
-;
-let
 topbar
 =
 this

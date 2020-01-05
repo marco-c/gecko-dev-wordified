@@ -5007,9 +5007,6 @@ newBindingParamsArray
 (
 )
 ;
-let
-array2
-=
 stmt2
 .
 newBindingParamsArray

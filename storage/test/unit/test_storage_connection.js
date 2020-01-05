@@ -1295,9 +1295,6 @@ test_defaultSynchronousAtNormal
 (
 )
 {
-var
-msc
-=
 getOpenedDatabase
 (
 )

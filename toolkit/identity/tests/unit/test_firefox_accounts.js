@@ -1023,12 +1023,6 @@ do_test_pending
 (
 )
 ;
-let
-received
-=
-[
-]
-;
 /
 /
 Mock

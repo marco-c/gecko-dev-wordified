@@ -2993,7 +2993,6 @@ setPrefs
 ;
 const
 {
-PushDB
 PushService
 PushServiceWebSocket
 }

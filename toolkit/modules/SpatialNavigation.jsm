@@ -1754,9 +1754,6 @@ let
 bestDist
 ;
 let
-bestMid
-;
-let
 nodeMid
 ;
 let

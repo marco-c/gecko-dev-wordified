@@ -178,9 +178,6 @@ initWithPath
 profd
 )
 ;
-let
-lock
-=
 CrashTestUtils
 .
 lockDir
