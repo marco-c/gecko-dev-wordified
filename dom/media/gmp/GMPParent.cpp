@@ -5489,6 +5489,11 @@ thread
 .
 return
 InvokeAsync
+<
+nsString
+&
+&
+>
 (
 AbstractThread
 :
@@ -5519,7 +5524,9 @@ GMPParent
 :
 ParseChromiumManifest
 (
-nsString
+const
+nsAString
+&
 aJSON
 )
 {

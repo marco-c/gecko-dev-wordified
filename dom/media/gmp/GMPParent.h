@@ -968,7 +968,9 @@ GenericPromise
 >
 ParseChromiumManifest
 (
-nsString
+const
+nsAString
+&
 aJSON
 )
 ;
