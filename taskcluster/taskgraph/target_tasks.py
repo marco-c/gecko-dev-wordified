@@ -742,7 +742,7 @@ False
 no
 non
 -
-et10s
+e10s
 tests
         
 if
@@ -764,7 +764,7 @@ attributes
 get
 (
 '
-talos_siute
+talos_suite
 '
 )
 :
