@@ -21715,7 +21715,7 @@ Conduit
 )
 -
 >
-GetPacketTypeStats
+GetSendPacketTypeStats
 (
 &
 counters
@@ -22396,7 +22396,7 @@ Conduit
 )
 -
 >
-GetPacketTypeStats
+GetRecvPacketTypeStats
 (
 &
 counters
