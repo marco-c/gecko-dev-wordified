@@ -122,6 +122,7 @@ InheritTypes
 :
 {
 EventCast
+EventTypeId
 MessageEventDerived
 }
 ;
@@ -180,10 +181,7 @@ dom
 event
 :
 :
-{
 Event
-EventTypeId
-}
 ;
 use
 dom
@@ -378,10 +376,6 @@ Event
 :
 new_inherited
 (
-EventTypeId
-:
-:
-MessageEvent
 )
 data
 :

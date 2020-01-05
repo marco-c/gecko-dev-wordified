@@ -122,6 +122,7 @@ InheritTypes
 :
 {
 EventCast
+EventTypeId
 ProgressEventDerived
 }
 ;
@@ -184,7 +185,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventTypeId
 }
 ;
 use
@@ -275,10 +275,6 @@ Event
 :
 new_inherited
 (
-EventTypeId
-:
-:
-ProgressEvent
 )
 length_computable
 :

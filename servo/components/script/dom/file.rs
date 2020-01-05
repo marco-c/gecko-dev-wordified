@@ -132,10 +132,7 @@ dom
 blob
 :
 :
-{
 Blob
-BlobTypeId
-}
 ;
 use
 util
@@ -170,9 +167,6 @@ new_inherited
 global
 :
 GlobalRef
-type_
-:
-BlobTypeId
 _file_bits
 :
 &
@@ -213,7 +207,6 @@ Blob
 new_inherited
 (
 global
-type_
 None
 "
 "
@@ -275,10 +268,6 @@ File
 new_inherited
 (
 global
-BlobTypeId
-:
-:
-File
 file_bits
 name
 )

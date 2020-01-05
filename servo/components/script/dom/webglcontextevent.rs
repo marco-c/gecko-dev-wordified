@@ -139,8 +139,9 @@ InheritTypes
 :
 :
 {
-WebGLContextEventDerived
 EventCast
+EventTypeId
+WebGLContextEventDerived
 }
 ;
 use
@@ -205,7 +206,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventTypeId
 }
 ;
 use
@@ -320,9 +320,6 @@ pub
 fn
 new_inherited
 (
-type_id
-:
-EventTypeId
 status_message
 :
 DOMString
@@ -340,7 +337,6 @@ Event
 :
 new_inherited
 (
-type_id
 )
 status_message
 :
@@ -385,10 +381,6 @@ WebGLContextEvent
 :
 new_inherited
 (
-EventTypeId
-:
-:
-WebGLContextEvent
 status_message
 )
 global

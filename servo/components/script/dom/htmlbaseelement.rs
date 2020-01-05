@@ -93,7 +93,11 @@ codegen
 InheritTypes
 :
 :
+{
 ElementCast
+ElementTypeId
+EventTargetTypeId
+}
 ;
 use
 dom
@@ -108,7 +112,10 @@ codegen
 InheritTypes
 :
 :
+{
 HTMLBaseElementDerived
+HTMLElementCast
+}
 ;
 use
 dom
@@ -123,7 +130,10 @@ codegen
 InheritTypes
 :
 :
-HTMLElementCast
+{
+HTMLElementTypeId
+NodeTypeId
+}
 ;
 use
 dom
@@ -153,10 +163,7 @@ dom
 element
 :
 :
-{
 AttributeMutation
-ElementTypeId
-}
 ;
 use
 dom
@@ -165,10 +172,7 @@ dom
 eventtarget
 :
 :
-{
 EventTarget
-EventTargetTypeId
-}
 ;
 use
 dom
@@ -177,10 +181,7 @@ dom
 htmlelement
 :
 :
-{
 HTMLElement
-HTMLElementTypeId
-}
 ;
 use
 dom
@@ -191,7 +192,6 @@ node
 :
 {
 Node
-NodeTypeId
 document_from_node
 }
 ;

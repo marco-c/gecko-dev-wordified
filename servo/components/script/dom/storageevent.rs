@@ -124,9 +124,7 @@ codegen
 InheritTypes
 :
 :
-{
 EventCast
-}
 ;
 use
 dom
@@ -194,7 +192,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventTypeId
 }
 ;
 use
@@ -264,9 +261,6 @@ pub
 fn
 new_inherited
 (
-type_id
-:
-EventTypeId
 key
 :
 Option
@@ -309,7 +303,6 @@ Event
 :
 new_inherited
 (
-type_id
 )
 key
 :
@@ -405,10 +398,6 @@ StorageEvent
 :
 new_inherited
 (
-EventTypeId
-:
-:
-StorageEvent
 key
 oldValue
 newValue

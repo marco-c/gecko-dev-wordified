@@ -135,6 +135,7 @@ InheritTypes
 {
 ErrorEventDerived
 EventCast
+EventTypeId
 }
 ;
 use
@@ -211,7 +212,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventTypeId
 }
 ;
 use
@@ -348,9 +348,6 @@ ErrorEvent
 fn
 new_inherited
 (
-type_id
-:
-EventTypeId
 )
 -
 >
@@ -365,7 +362,6 @@ Event
 :
 new_inherited
 (
-type_id
 )
 message
 :
@@ -446,10 +442,6 @@ ErrorEvent
 :
 new_inherited
 (
-EventTypeId
-:
-:
-ErrorEvent
 )
 global
 ErrorEventBinding
