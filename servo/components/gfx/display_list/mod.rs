@@ -1598,11 +1598,14 @@ solid_color
 )
 =
 >
+{
 println
 !
 (
 "
 {
+:
+?
 }
 SolidColor
 .
@@ -1618,6 +1621,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1628,6 +1632,7 @@ text
 )
 =
 >
+{
 println
 !
 (
@@ -1650,6 +1655,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1660,6 +1666,7 @@ image
 )
 =
 >
+{
 println
 !
 (
@@ -1682,6 +1689,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1692,6 +1700,7 @@ border
 )
 =
 >
+{
 println
 !
 (
@@ -1714,6 +1723,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1724,6 +1734,7 @@ gradient
 )
 =
 >
+{
 println
 !
 (
@@ -1746,6 +1757,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1756,6 +1768,7 @@ line
 )
 =
 >
+{
 println
 !
 (
@@ -1778,6 +1791,7 @@ base
 .
 bounds
 )
+}
 DisplayItem
 :
 :
@@ -1788,6 +1802,7 @@ box_shadow
 )
 =
 >
+{
 println
 !
 (
@@ -1810,6 +1825,7 @@ base
 .
 bounds
 )
+}
 }
 }
 println
