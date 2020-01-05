@@ -177,10 +177,14 @@ aId
 return
 WrExternalImage
 {
+/
+*
 WrExternalImageIdType
 :
 :
-TEXTURE_HANDLE
+TextureHandle
+*
+/
 0
 .
 0f
