@@ -160,6 +160,14 @@ libc
 ;
 extern
 crate
+native
+;
+extern
+crate
+rustrt
+;
+extern
+crate
 stb_image
 ;
 extern
