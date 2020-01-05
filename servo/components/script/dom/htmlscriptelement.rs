@@ -2781,6 +2781,10 @@ get_current_parser
 {
 parser
 .
+r
+(
+)
+.
 suspend
 (
 )
