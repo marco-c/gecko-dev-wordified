@@ -800,7 +800,6 @@ resolveMode
 RootRelative
 ;
 }
-static
 char
 buffer
 [
@@ -1608,7 +1607,6 @@ GetCWD
 (
 )
 {
-static
 char
 buffer
 [
