@@ -18,7 +18,10 @@ js
 jsapi
 :
 :
+{
 JSVal
+JSObject
+}
 ;
 use
 util
@@ -90,6 +93,11 @@ Chan
 <
 TimerControlMsg
 >
+mut
+wrapper
+:
+*
+JSObject
 }
 impl
 Drop
@@ -430,6 +438,14 @@ Window
 {
 Window
 {
+wrapper
+:
+ptr
+:
+:
+null
+(
+)
 timer_chan
 :
 do
