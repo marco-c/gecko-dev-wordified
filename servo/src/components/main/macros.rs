@@ -80,9 +80,6 @@ port
 chan
 )
 =
-comm
-:
-:
 stream
 :
 :
