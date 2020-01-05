@@ -2981,7 +2981,7 @@ number
 >
 pub
 type
-LoPOrNumber
+LengthOrPercentageOrNumber
 =
 Either
 <
