@@ -1452,6 +1452,12 @@ mWindow
 IsBackgroundInternal
 (
 )
+|
+|
+timeout
+-
+>
+mIsTracking
 )
 {
 /
