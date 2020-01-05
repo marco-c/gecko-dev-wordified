@@ -354,6 +354,12 @@ panel
 true
 )
 ;
+yield
+waitForAnimationSelecting
+(
+panel
+)
+;
 }
 )
 ;

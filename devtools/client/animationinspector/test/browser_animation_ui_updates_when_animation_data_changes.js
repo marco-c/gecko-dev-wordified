@@ -391,6 +391,12 @@ value
 yield
 onAnimationChanged
 ;
+yield
+waitForAnimationSelecting
+(
+panel
+)
+;
 /
 /
 Also

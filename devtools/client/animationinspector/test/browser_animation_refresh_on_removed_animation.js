@@ -315,6 +315,12 @@ waitForAllAnimationTargets
 panel
 )
 ;
+yield
+waitForAnimationSelecting
+(
+panel
+)
+;
 assertAnimationsDisplayed
 (
 panel

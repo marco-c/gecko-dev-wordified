@@ -356,7 +356,7 @@ inspector
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 beforeNode
 inspector
@@ -429,7 +429,7 @@ inspector
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 afterNode
 inspector

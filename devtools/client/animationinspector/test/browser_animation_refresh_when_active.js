@@ -290,7 +290,7 @@ again
 )
 ;
 yield
-selectNodeAndWaitForAnimations
+selectNode
 (
 "
 .

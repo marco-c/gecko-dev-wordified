@@ -180,6 +180,12 @@ selector
 inspector
 )
 ;
+yield
+waitForAnimationSelecting
+(
+panel
+)
+;
 let
 timelineEl
 =
