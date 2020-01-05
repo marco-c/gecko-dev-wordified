@@ -2194,7 +2194,7 @@ RefPtr
 <
 gfxContext
 >
-gfx
+sourceCtx
 =
 gfxContext
 :
@@ -2206,7 +2206,7 @@ offscreenDT
 ;
 MOZ_ASSERT
 (
-gfx
+sourceCtx
 )
 ;
 /
@@ -2217,14 +2217,7 @@ the
 draw
 target
 above
-gfx
--
->
-Save
-(
-)
-;
-gfx
+sourceCtx
 -
 >
 Multiply
@@ -2265,7 +2258,7 @@ nsSVGUtils
 MakeFillPatternFor
 (
 mTargetFrame
-gfx
+sourceCtx
 &
 pattern
 )
@@ -2287,7 +2280,7 @@ nsSVGUtils
 MakeStrokePatternFor
 (
 mTargetFrame
-gfx
+sourceCtx
 &
 pattern
 )
@@ -2321,13 +2314,6 @@ pattern
 )
 ;
 }
-gfx
--
->
-Restore
-(
-)
-;
 }
 aSource
 -
