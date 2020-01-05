@@ -8983,6 +8983,7 @@ bool
 IsAboutPage
 (
 )
+const
 ;
 /
 /
