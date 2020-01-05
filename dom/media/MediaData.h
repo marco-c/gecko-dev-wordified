@@ -2930,7 +2930,12 @@ mSentToCompositor
 void
 UpdateDuration
 (
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aDuration
 )
 ;
