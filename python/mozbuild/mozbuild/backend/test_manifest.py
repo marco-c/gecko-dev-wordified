@@ -228,6 +228,32 @@ obj
 .
 context_all_paths
         
+for
+source
+in
+obj
+.
+source_relpaths
+:
+            
+self
+.
+backend_input_files
+.
+add
+(
+mozpath
+.
+join
+(
+obj
+.
+topsrcdir
+                                                      
+source
+)
+)
+        
 try
 :
             
