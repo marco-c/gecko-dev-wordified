@@ -19606,7 +19606,7 @@ rcwn
 .
 cache_queue_normal_threshold
 "
-50
+8
 )
 ;
 pref
@@ -19620,7 +19620,7 @@ rcwn
 .
 cache_queue_priority_threshold
 "
-10
+2
 )
 ;
 /
