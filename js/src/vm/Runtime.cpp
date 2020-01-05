@@ -4622,6 +4622,17 @@ zone
 usedByExclusiveThread
 )
 ;
+MOZ_ASSERT
+(
+!
+zone
+-
+>
+wasGCStarted
+(
+)
+)
+;
 zone
 -
 >
