@@ -733,9 +733,9 @@ Parent
 )
 -
 >
-SetChildDoc
+ClearChildDoc
 (
-nullptr
+aChildDoc
 )
 ;
 mChildDocs
