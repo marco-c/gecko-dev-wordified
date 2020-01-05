@@ -1123,8 +1123,9 @@ ISimpleDOMNode
 new
 sdnAccessible
 (
-GetNode
+WrapNotNull
 (
+this
 )
 )
 )

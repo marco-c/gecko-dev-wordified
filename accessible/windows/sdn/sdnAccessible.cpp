@@ -289,15 +289,8 @@ AccessibleWrap
 *
 accessible
 =
-static_cast
-<
-AccessibleWrap
-*
->
-(
 GetAccessible
 (
-)
 )
 ;
 if
@@ -652,7 +645,7 @@ object
 /
 model
 .
-Accessible
+AccessibleWrap
 *
 accessible
 =
