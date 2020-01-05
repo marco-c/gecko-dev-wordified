@@ -165,6 +165,9 @@ friend
 class
 QuotaManager
 ;
+class
+StoragePressureRunnable
+;
 public
 :
 void
