@@ -148,7 +148,7 @@ plugin
 [
 feature
 (
-str_char
+range_contains
 )
 ]
 #
