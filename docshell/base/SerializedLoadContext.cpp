@@ -368,6 +368,15 @@ GetUseRemoteTabs
 mUseRemoteTabs
 )
 ;
+aLoadContext
+-
+>
+GetUseTrackingProtection
+(
+&
+mUseTrackingProtection
+)
+;
 if
 (
 !
@@ -429,6 +438,10 @@ mIsContent
 true
 ;
 mUseRemoteTabs
+=
+false
+;
+mUseTrackingProtection
 =
 false
 ;

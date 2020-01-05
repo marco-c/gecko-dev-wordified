@@ -1089,14 +1089,6 @@ Value
 )
 override
 ;
-NS_IMETHOD
-IsTrackingProtectionOn
-(
-bool
-*
-)
-override
-;
 /
 /
 Restores
@@ -5820,6 +5812,11 @@ mUseGlobalHistory
 ;
 bool
 mUseRemoteTabs
+:
+1
+;
+bool
+mUseTrackingProtection
 :
 1
 ;

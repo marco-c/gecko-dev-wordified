@@ -327,6 +327,12 @@ aToCopy
 .
 mUseRemoteTabs
 )
+mUseTrackingProtection
+(
+aToCopy
+.
+mUseTrackingProtection
+)
 mOriginAttributes
 (
 aAttrs
@@ -397,6 +403,12 @@ aToCopy
 .
 mUseRemoteTabs
 )
+mUseTrackingProtection
+(
+aToCopy
+.
+mUseTrackingProtection
+)
 mOriginAttributes
 (
 aAttrs
@@ -428,6 +440,8 @@ bool
 aUsePrivateBrowsing
 bool
 aUseRemoteTabs
+bool
+aUseTrackingProtection
 const
 OriginAttributes
 &
@@ -452,6 +466,10 @@ aIsContent
 mUseRemoteTabs
 (
 aUseRemoteTabs
+)
+mUseTrackingProtection
+(
+aUseTrackingProtection
 )
 mOriginAttributes
 (
@@ -511,6 +529,10 @@ mIsContent
 false
 )
 mUseRemoteTabs
+(
+false
+)
+mUseTrackingProtection
 (
 false
 )
@@ -581,6 +603,9 @@ mIsContent
 ;
 bool
 mUseRemoteTabs
+;
+bool
+mUseTrackingProtection
 ;
 OriginAttributes
 mOriginAttributes
