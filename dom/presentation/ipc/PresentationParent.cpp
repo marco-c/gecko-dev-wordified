@@ -134,6 +134,17 @@ include
 "
 mozilla
 /
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 InputStreamUtils

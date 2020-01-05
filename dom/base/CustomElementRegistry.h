@@ -172,6 +172,17 @@ mozilla
 /
 dom
 /
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FunctionBinding
 .
 h

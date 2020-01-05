@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-StyleSheetInlines
+StyleSheet
 .
 h
 "

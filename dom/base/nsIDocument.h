@@ -5670,12 +5670,7 @@ aList
 SelectorCache
 (
 )
-{
-AgeAllGenerations
-(
-)
 ;
-}
 private
 :
 nsClassHashtable

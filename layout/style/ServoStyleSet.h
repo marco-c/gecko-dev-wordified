@@ -186,6 +186,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsCSSPseudoElements
 .
 h
@@ -252,6 +259,9 @@ ServoComputedValuesWithParent
 /
 namespace
 mozilla
+class
+nsIContent
+;
 class
 nsIDocument
 ;
@@ -1561,6 +1571,9 @@ restyle
 void
 StyleNewSubtree
 (
+dom
+:
+:
 Element
 *
 aRoot
@@ -1624,6 +1637,9 @@ parallelism
 void
 StyleNewChildren
 (
+dom
+:
+:
 Element
 *
 aParent
