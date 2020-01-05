@@ -108,7 +108,8 @@ CrashManager
 .
 jsm
 "
-this
+{
+}
 )
 ;
 function

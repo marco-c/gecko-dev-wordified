@@ -65,7 +65,11 @@ Cu
 Components
 ;
 var
-bsp
+{
+CrashManager
+CrashStore
+dateToDays
+}
 =
 Cu
 .
@@ -84,7 +88,8 @@ CrashManager
 .
 jsm
 "
-this
+{
+}
 )
 ;
 Cu
@@ -203,13 +208,6 @@ SUBMISSION_RESULT_FAILED
 CrashManager
 .
 prototype
-;
-const
-CrashStore
-=
-bsp
-.
-CrashStore
 ;
 var
 STORE_DIR_COUNT
@@ -3552,8 +3550,6 @@ preserved
 let
 day1
 =
-bsp
-.
 dateToDays
 (
 d1
@@ -3562,8 +3558,6 @@ d1
 let
 day2
 =
-bsp
-.
 dateToDays
 (
 d2
