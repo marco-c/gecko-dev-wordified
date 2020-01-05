@@ -360,11 +360,6 @@ lock
 mCS
 )
 ;
-MOZ_ASSERT
-(
-mSupport
-)
-;
 mSupport
 =
 nullptr
