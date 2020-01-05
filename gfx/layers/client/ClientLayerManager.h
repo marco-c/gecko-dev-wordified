@@ -340,6 +340,9 @@ window
 configuration
 information
 structs
+class
+nsDisplayListBuilder
+;
 namespace
 mozilla
 {
@@ -1461,17 +1464,6 @@ override
 mTransactionIdAllocator
 =
 aAllocator
-;
-}
-virtual
-uint64_t
-GetLastTransactionId
-(
-)
-override
-{
-return
-mLatestTransactionId
 ;
 }
 float

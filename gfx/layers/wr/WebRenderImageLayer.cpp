@@ -93,14 +93,14 @@ MPL
 #
 include
 "
-WebRenderImageLayer
+WebRenderLayersLogging
 .
 h
 "
 #
 include
 "
-WebRenderLayersLogging
+WebRenderImageLayer
 .
 h
 "

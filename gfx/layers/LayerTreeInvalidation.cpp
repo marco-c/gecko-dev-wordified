@@ -4655,6 +4655,12 @@ case
 Layer
 :
 :
+TYPE_DISPLAYITEM
+:
+case
+Layer
+:
+:
 TYPE_READBACK
 :
 case
@@ -4938,6 +4944,8 @@ return
 result
 ;
 }
+else
+{
 bool
 geometryChanged
 =
@@ -4981,6 +4989,7 @@ geometryChanged
 return
 invalid
 ;
+}
 }
 void
 LayerPropertiesBase
