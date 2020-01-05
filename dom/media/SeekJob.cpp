@@ -299,9 +299,10 @@ SeekResolveValue
 val
 (
 aAtEnd
-mTarget
-.
-mEventVisibility
+MediaDecoderEventVisibility
+:
+:
+Observable
 )
 ;
 mPromise
