@@ -2829,13 +2829,6 @@ mReadbackClient
 nullptr
 ;
 }
-surf
--
->
-Commit
-(
-)
-;
 if
 (
 asyncRenderer

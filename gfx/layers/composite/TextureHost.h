@@ -3836,7 +3836,6 @@ becomes
 .
 *
 /
-virtual
 void
 NotifyNotUsed
 (
