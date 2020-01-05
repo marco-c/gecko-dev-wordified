@@ -4552,6 +4552,7 @@ return
 rv
 ;
 }
+return
 aVisitor
 -
 >
@@ -4560,9 +4561,6 @@ VisitHeader
 aHeader
 value
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
