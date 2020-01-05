@@ -5181,6 +5181,10 @@ new
 alloc
 (
 )
+.
+fallible
+(
+)
 )
 StoreDependency
 (
