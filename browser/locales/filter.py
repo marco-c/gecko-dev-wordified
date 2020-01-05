@@ -192,8 +192,6 @@ ignore
 are
 spell
 checkers
-and
-search
     
 if
 mod
@@ -204,36 +202,6 @@ extensions
 /
 spellcheck
 "
-:
-      
-return
-"
-ignore
-"
-    
-#
-browser
-    
-if
-(
-re
-.
-match
-(
-r
-"
-searchplugins
-\
-/
-.
-+
-\
-.
-xml
-"
-path
-)
-)
 :
       
 return
