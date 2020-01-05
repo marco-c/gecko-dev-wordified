@@ -560,6 +560,10 @@ extern
 crate
 heapsize_derive
 ;
+extern
+crate
+itoa
+;
 #
 [
 cfg

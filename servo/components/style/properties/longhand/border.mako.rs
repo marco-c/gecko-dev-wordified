@@ -309,6 +309,13 @@ side
 [
 1
 ]
+allow_quirks
+=
+not
+side
+[
+1
+]
 )
 }
 {
