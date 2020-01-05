@@ -2659,7 +2659,6 @@ DontAssertDispatchSuccess
 )
 ;
 }
-virtual
 void
 Disconnect
 (
@@ -3459,7 +3458,6 @@ aRejectMethod
 )
 {
 }
-virtual
 void
 Disconnect
 (
@@ -3527,7 +3525,6 @@ nullptr
 }
 protected
 :
-virtual
 already_AddRefed
 <
 MozPromise
@@ -3767,7 +3764,6 @@ aRejectFunction
 )
 ;
 }
-virtual
 void
 Disconnect
 (
@@ -3843,7 +3839,6 @@ reset
 }
 protected
 :
-virtual
 already_AddRefed
 <
 MozPromise
