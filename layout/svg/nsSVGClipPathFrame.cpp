@@ -901,6 +901,7 @@ notReferencing
 AutoReferenceLimiter
 refChainLengthLimiter
 (
+this
 &
 sRefChainLengthCounter
 MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
@@ -966,6 +967,7 @@ processing
 AutoReferenceLimiter
 refLoopDetector
 (
+this
 &
 mReferencing
 1
@@ -1951,6 +1953,7 @@ notReferencing
 AutoReferenceLimiter
 refChainLengthLimiter
 (
+this
 &
 sRefChainLengthCounter
 MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
@@ -2013,6 +2016,7 @@ processing
 AutoReferenceLimiter
 refLoopDetector
 (
+this
 &
 mReferencing
 1
@@ -2538,6 +2542,7 @@ notReferencing
 AutoReferenceLimiter
 refChainLengthLimiter
 (
+this
 &
 sRefChainLengthCounter
 MAX_SVG_CLIP_PATH_REFERENCE_CHAIN_LENGTH
@@ -2600,6 +2605,7 @@ processing
 AutoReferenceLimiter
 refLoopDetector
 (
+this
 &
 mReferencing
 1
