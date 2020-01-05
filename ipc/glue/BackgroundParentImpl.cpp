@@ -404,7 +404,7 @@ mozilla
 /
 ipc
 /
-PSendStreamParent
+PChildToParentStreamParent
 .
 h
 "
@@ -1507,12 +1507,12 @@ return
 true
 ;
 }
-PSendStreamParent
+PChildToParentStreamParent
 *
 BackgroundParentImpl
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 {
@@ -1523,7 +1523,7 @@ mozilla
 ipc
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 ;
@@ -1532,9 +1532,9 @@ bool
 BackgroundParentImpl
 :
 :
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
-PSendStreamParent
+PChildToParentStreamParent
 *
 aActor
 )

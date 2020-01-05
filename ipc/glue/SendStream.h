@@ -136,7 +136,7 @@ mozilla
 /
 ipc
 /
-PSendStreamChild
+PChildToParentStreamChild
 .
 h
 "
@@ -147,7 +147,7 @@ mozilla
 /
 ipc
 /
-PSendStreamParent
+PChildToParentStreamParent
 .
 h
 "
@@ -477,7 +477,7 @@ class
 SendStreamChild
 :
 public
-PSendStreamChild
+PChildToParentStreamChild
 {
 public
 :
@@ -729,7 +729,7 @@ class
 SendStreamParent
 :
 public
-PSendStreamParent
+PChildToParentStreamParent
 {
 public
 :

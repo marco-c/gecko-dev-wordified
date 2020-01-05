@@ -227,7 +227,7 @@ Any
 file
 descriptor
 or
-PSendStream
+PChildToParentStream
 actors
 are
 automatically
@@ -437,7 +437,7 @@ don
 '
 t
 require
-PSendStream
+PChildToParentStream
 actor
 support
 .
@@ -815,11 +815,11 @@ stream
 types
 .
 The
-PSendStream
+PChildToParentStream
 actor
+/
+/
 mechanism
-/
-/
 is
 not
 supported
@@ -1148,7 +1148,7 @@ input
 stream
 .
 A
-PSendStream
+PChildToParentStream
 cannot
 be
 used
@@ -1185,7 +1185,7 @@ input
 stream
 .
 A
-PSendStream
+PChildToParentStream
 cannot
 be
 used

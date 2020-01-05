@@ -127,11 +127,11 @@ namespace
 ipc
 {
 class
-PSendStreamParent
+PChildToParentStreamParent
 ;
-PSendStreamParent
+PChildToParentStreamParent
 *
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 ;

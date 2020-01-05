@@ -1073,7 +1073,7 @@ if
 !
 aValue
 .
-get_PSendStreamChild
+get_PChildToParentStreamChild
 (
 )
 )
@@ -1454,7 +1454,7 @@ type
 IPCStream
 :
 :
-TPSendStreamChild
+TPChildToParentStreamChild
 )
 ;
 auto
@@ -1468,7 +1468,7 @@ SendStreamChild
 (
 aValue
 .
-get_PSendStreamChild
+get_PChildToParentStreamChild
 (
 )
 )
@@ -1591,7 +1591,7 @@ type
 IPCStream
 :
 :
-TPSendStreamParent
+TPChildToParentStreamParent
 )
 {
 auto
@@ -1605,7 +1605,7 @@ SendStreamParent
 (
 aValue
 .
-get_PSendStreamParent
+get_PChildToParentStreamParent
 (
 )
 )
@@ -1629,7 +1629,7 @@ not
 support
 deserializing
 the
-PSendStream
+PChildToParentStream
 actor
 on
 /
@@ -1936,7 +1936,7 @@ type
 IPCStream
 :
 :
-TPSendStreamChild
+TPChildToParentStreamChild
 |
 |
 aVal

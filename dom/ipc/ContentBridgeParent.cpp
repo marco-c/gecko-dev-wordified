@@ -1000,12 +1000,12 @@ aActor
 )
 ;
 }
-PSendStreamParent
+PChildToParentStreamParent
 *
 ContentBridgeParent
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 {
@@ -1013,7 +1013,7 @@ return
 nsIContentParent
 :
 :
-AllocPSendStreamParent
+AllocPChildToParentStreamParent
 (
 )
 ;
@@ -1022,9 +1022,9 @@ bool
 ContentBridgeParent
 :
 :
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
-PSendStreamParent
+PChildToParentStreamParent
 *
 aActor
 )
@@ -1033,7 +1033,7 @@ return
 nsIContentParent
 :
 :
-DeallocPSendStreamParent
+DeallocPChildToParentStreamParent
 (
 aActor
 )

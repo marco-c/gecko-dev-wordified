@@ -1326,7 +1326,7 @@ passed
 /
 as
 a
-PSendStream
+PChildToParentStream
 actor
 .
 Use
