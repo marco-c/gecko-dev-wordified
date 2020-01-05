@@ -3549,7 +3549,7 @@ nsIInputStream
 stream
 ;
 nsAutoCString
-contentType
+contentTypeWithCharset
 ;
 uint64_t
 contentLengthUnused
@@ -3563,7 +3563,7 @@ getter_AddRefs
 (
 stream
 )
-contentType
+contentTypeWithCharset
 contentLengthUnused
 )
 ;
@@ -3590,7 +3590,7 @@ stream
 if
 (
 !
-contentType
+contentTypeWithCharset
 .
 IsVoid
 (
@@ -3628,7 +3628,7 @@ Content
 Type
 "
 )
-contentType
+contentTypeWithCharset
 aRv
 )
 ;
