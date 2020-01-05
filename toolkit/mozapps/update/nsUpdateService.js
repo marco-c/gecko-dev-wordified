@@ -26605,6 +26605,16 @@ false
 )
 |
 |
+getPref
+(
+"
+getBoolPref
+"
+PREF_APP_UPDATE_DOORHANGER
+false
+)
+|
+|
 this
 .
 _getAltUpdateWindow
