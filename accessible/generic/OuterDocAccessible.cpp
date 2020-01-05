@@ -1623,7 +1623,7 @@ defined
 (
 XP_WIN
 )
-ProxyAccessible
+DocAccessibleParent
 *
 OuterDocAccessible
 :
