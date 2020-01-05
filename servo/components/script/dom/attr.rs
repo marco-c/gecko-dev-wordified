@@ -2298,16 +2298,8 @@ self
 .
 owner
 .
-get
+get_rooted
 (
-)
-.
-map
-(
-Root
-:
-:
-from_rooted
 )
 }
 pub

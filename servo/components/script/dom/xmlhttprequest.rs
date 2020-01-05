@@ -6124,16 +6124,8 @@ self
 .
 response_xml
 .
-get
+get_rooted
 (
-)
-.
-map
-(
-Root
-:
-:
-from_rooted
 )
 }
 }
