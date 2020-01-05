@@ -333,7 +333,6 @@ exception
 =
 CreateException
 (
-aCx
 aArgument
 )
 ;

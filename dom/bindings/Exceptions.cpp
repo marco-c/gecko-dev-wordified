@@ -547,7 +547,6 @@ syntheticException
 =
 CreateException
 (
-aCx
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -1264,7 +1263,6 @@ finalException
 =
 CreateException
 (
-aCx
 aRv
 aMessage
 )
@@ -1351,9 +1349,6 @@ Exception
 >
 CreateException
 (
-JSContext
-*
-aCx
 nsresult
 aRv
 const
