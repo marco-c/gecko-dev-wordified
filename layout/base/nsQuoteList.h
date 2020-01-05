@@ -500,7 +500,11 @@ nsQuoteNode
 *
 >
 (
-mFirstNode
+mList
+.
+getFirst
+(
+)
 )
 ;
 }

@@ -1309,7 +1309,11 @@ nsCounterNode
 *
 >
 (
-mFirstNode
+mList
+.
+getFirst
+(
+)
 )
 ;
 }
