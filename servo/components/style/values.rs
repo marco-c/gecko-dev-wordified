@@ -5097,7 +5097,7 @@ sum
 >
 simplified
 .
-push_all
+extend_from_slice
 (
 &
 sum
@@ -5528,7 +5528,7 @@ sum
 >
 simplified
 .
-push_all
+extend_from_slice
 (
 &
 sum
@@ -6122,7 +6122,7 @@ sum
 >
 simplified
 .
-push_all
+extend_from_slice
 (
 &
 sum
@@ -6298,7 +6298,7 @@ sum
 >
 simplified
 .
-push_all
+extend_from_slice
 (
 &
 sum

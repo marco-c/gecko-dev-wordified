@@ -615,7 +615,7 @@ input
 {
 bytes
 .
-push_all
+extend_from_slice
 (
 &
 chunk

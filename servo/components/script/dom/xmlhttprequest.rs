@@ -2024,7 +2024,7 @@ borrow_mut
 (
 )
 .
-push_all
+extend_from_slice
 (
 &
 payload
@@ -3397,7 +3397,7 @@ clone
 ;
 buf
 .
-push_all
+extend_from_slice
 (
 b
 "
@@ -3406,7 +3406,7 @@ b
 ;
 buf
 .
-push_all
+extend_from_slice
 (
 &
 value
@@ -4457,7 +4457,7 @@ len
 ;
 vec
 .
-push_all
+extend_from_slice
 (
 a
 .
@@ -4468,7 +4468,7 @@ as_bytes
 ;
 vec
 .
-push_all
+extend_from_slice
 (
 b
 .

@@ -109,14 +109,6 @@ step_by
 [
 feature
 (
-vec_push_all
-)
-]
-#
-!
-[
-feature
-(
 custom_attribute
 )
 ]
@@ -2651,7 +2643,7 @@ data
 >
 buf
 .
-push_all
+extend_from_slice
 (
 &
 data

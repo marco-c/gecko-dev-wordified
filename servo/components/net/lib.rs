@@ -93,14 +93,6 @@ plugin
 [
 feature
 (
-vec_push_all
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]

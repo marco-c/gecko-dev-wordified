@@ -1533,7 +1533,7 @@ self
 .
 detail_buffer
 .
-push_all
+extend_from_slice
 (
 glyphs
 )

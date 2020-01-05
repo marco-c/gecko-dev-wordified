@@ -115,14 +115,6 @@ plugin
 #
 !
 [
-feature
-(
-vec_push_all
-)
-]
-#
-!
-[
 plugin
 (
 serde_macros

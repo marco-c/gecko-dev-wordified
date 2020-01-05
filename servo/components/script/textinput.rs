@@ -2031,14 +2031,14 @@ vec
 ;
 new_lines
 .
-push_all
+extend_from_slice
 (
 lines_prefix
 )
 ;
 new_lines
 .
-push_all
+extend_from_slice
 (
 &
 insert_lines
@@ -2046,7 +2046,7 @@ insert_lines
 ;
 new_lines
 .
-push_all
+extend_from_slice
 (
 lines_suffix
 )
