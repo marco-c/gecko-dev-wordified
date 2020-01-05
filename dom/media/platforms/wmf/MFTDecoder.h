@@ -656,6 +656,8 @@ aData
 HRESULT
 SetDecoderOutputType
 (
+bool
+aMatchAllAttributes
 ConfigureOutputCallback
 aCallback
 void
