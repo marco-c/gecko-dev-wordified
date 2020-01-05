@@ -340,6 +340,13 @@ sheet
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSheet_Clone
+RawServoStyleSheetStrong
+RawServoStyleSheetBorrowed
+sheet
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_Init
 RawServoStyleSetOwned
 RawGeckoPresContextOwned
