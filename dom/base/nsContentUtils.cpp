@@ -43937,7 +43937,9 @@ static
 BufferType
 GetBuffer
 (
+const
 ReturnType
+&
 aReturnValue
 )
 {
@@ -45519,10 +45521,12 @@ nsContentUtils
 :
 SendMouseEvent
 (
+const
 nsCOMPtr
 <
 nsIPresShell
 >
+&
 aPresShell
 const
 nsAString

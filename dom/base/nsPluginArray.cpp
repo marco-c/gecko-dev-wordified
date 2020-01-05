@@ -1694,7 +1694,9 @@ static
 bool
 PluginShouldBeHidden
 (
+const
 nsCString
+&
 aName
 )
 {
