@@ -5455,7 +5455,7 @@ hints
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5473,7 +5473,6 @@ aState
 mIsShown
 )
 return
-NS_OK
 ;
 /
 /
@@ -5645,7 +5644,6 @@ mNeedsShow
 true
 ;
 return
-NS_OK
 ;
 }
 /
@@ -5696,9 +5694,6 @@ NativeShow
 (
 aState
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -7190,7 +7185,7 @@ return
 timestamp
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -8354,7 +8349,7 @@ return
 FALSE
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8412,9 +8407,7 @@ if
 window
 )
 return
-NS_ERROR_FAILURE
 ;
-return
 window
 -
 >
@@ -8422,6 +8415,8 @@ SetCursor
 (
 aCursor
 )
+;
+return
 ;
 }
 /
@@ -8482,7 +8477,6 @@ if
 mContainer
 )
 return
-NS_OK
 ;
 gdk_window_set_cursor
 (
@@ -8498,11 +8492,8 @@ newCursor
 ;
 }
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -8860,7 +8851,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -8878,7 +8869,6 @@ if
 mGdkWindow
 )
 return
-NS_OK
 ;
 GdkRectangle
 rect
@@ -8939,9 +8929,6 @@ rect
 height
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -9263,7 +9250,7 @@ nsPluginNativeWindowGtk
 aVal
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -35092,10 +35079,7 @@ nsChildWindow
 =
 default
 ;
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -35133,10 +35117,7 @@ aAction
 )
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :
@@ -35221,11 +35202,8 @@ GetIMEUpdatePreference
 )
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsWindow
 :
 :
@@ -35325,10 +35303,7 @@ aCallbackData
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsWindow
 :
 :

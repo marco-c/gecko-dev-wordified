@@ -52487,6 +52487,7 @@ Clear
 Sans
 Droid
 Sans
+Arial
 "
 )
 ;

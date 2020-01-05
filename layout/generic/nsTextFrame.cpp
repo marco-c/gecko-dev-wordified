@@ -18145,7 +18145,7 @@ for
 auto
 i
 :
-MakeRange
+IntegerRange
 (
 aTextRun
 -

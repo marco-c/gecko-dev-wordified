@@ -147,6 +147,15 @@ h
 #
 include
 "
+proxy
+/
+Proxy
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
@@ -3820,7 +3829,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitGuardDOMExpandoObject
+emitGuardDOMExpandoMissingOrGuardShape
 (
 )
 {
@@ -3900,6 +3909,13 @@ done
 ;
 masm
 .
+debugAssertIsObject
+(
+val
+)
+;
+masm
+.
 loadPtr
 (
 shapeAddr
@@ -3948,7 +3964,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitGuardDOMExpandoGeneration
+emitLoadDOMExpandoValueGuardGeneration
 (
 )
 {

@@ -9953,7 +9953,7 @@ component
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -10690,9 +10690,6 @@ mWnd
 }
 #
 endif
-return
-NS_OK
-;
 }
 /
 *
@@ -15286,7 +15283,7 @@ widget
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -18401,7 +18398,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -19492,7 +19489,7 @@ Set
 this
 component
 cursor
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -20174,9 +20171,6 @@ nullptr
 ;
 }
 }
-return
-NS_OK
-;
 }
 /
 /
@@ -20184,7 +20178,7 @@ Setting
 the
 actual
 cursor
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -21871,7 +21865,7 @@ this
 component
 visible
 area
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -21892,7 +21886,6 @@ mWnd
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -21968,9 +21961,6 @@ flags
 )
 )
 ;
-return
-NS_OK
-;
 }
 /
 /
@@ -21979,7 +21969,7 @@ this
 component
 visible
 area
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -22076,9 +22066,6 @@ FALSE
 )
 ;
 }
-return
-NS_OK
-;
 }
 static
 LRESULT
@@ -24215,7 +24202,7 @@ text
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -28416,7 +28403,7 @@ Part
 of
 nsIWidget
 .
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -47583,10 +47570,7 @@ accessibility
 *
 *
 /
-NS_IMETHODIMP_
-(
 void
-)
 nsWindow
 :
 :
@@ -47622,10 +47606,7 @@ mInputContext
 newInputContext
 ;
 }
-NS_IMETHODIMP_
-(
 InputContext
-)
 nsWindow
 :
 :
@@ -47711,11 +47692,8 @@ GetUpdatePreference
 )
 ;
 }
-NS_IMETHODIMP_
-(
 TextEventDispatcherListener
 *
-)
 nsWindow
 :
 :
