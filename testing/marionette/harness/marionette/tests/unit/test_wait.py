@@ -243,12 +243,6 @@ self
 waited
 =
 0
-        
-self
-.
-timeout
-=
-None
     
 def
 exception
@@ -996,40 +990,6 @@ clock
 wait
 .
 SystemClock
-)
-    
-def
-test_timeout_inherited_from_marionette
-(
-self
-)
-:
-        
-wt
-=
-Wait
-(
-self
-.
-m
-)
-        
-self
-.
-assertEqual
-(
-wt
-.
-timeout
-*
-1000
-.
-0
-self
-.
-m
-.
-timeout
 )
     
 def
@@ -2048,6 +2008,8 @@ only
 1
 iteration
 is
+        
+#
 possible
         
 self
@@ -2135,6 +2097,8 @@ interval
 iterations
 should
 be
+        
+#
 possible
         
 self
