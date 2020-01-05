@@ -74,12 +74,6 @@ gManagerWindow
 var
 gCategoryUtilities
 ;
-var
-installedAddons
-=
-[
-]
-;
 function
 installAddon
 (
