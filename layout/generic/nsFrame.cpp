@@ -63314,7 +63314,7 @@ in
 -
 flow
 .
-nsIFrame
+nsPlaceholderFrame
 *
 placeholder
 =
@@ -63379,7 +63379,7 @@ return
 placeholder
 -
 >
-GetParentStyleContext
+GetParentStyleContextForOutOfFlow
 (
 aProviderFrame
 )

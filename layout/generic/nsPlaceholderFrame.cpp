@@ -1214,7 +1214,7 @@ nsStyleContext
 nsPlaceholderFrame
 :
 :
-GetParentStyleContext
+GetParentStyleContextForOutOfFlow
 (
 nsIFrame
 *

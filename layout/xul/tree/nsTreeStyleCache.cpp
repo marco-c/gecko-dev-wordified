@@ -618,7 +618,6 @@ StyleSet
 >
 ResolveStyleForPlaceholder
 (
-aContext
 )
 ;
 }

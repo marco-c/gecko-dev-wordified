@@ -919,10 +919,9 @@ AccessibleType
 }
 #
 endif
-virtual
 nsStyleContext
 *
-GetParentStyleContext
+GetParentStyleContextForOutOfFlow
 (
 nsIFrame
 *
@@ -930,7 +929,6 @@ nsIFrame
 aProviderFrame
 )
 const
-override
 ;
 bool
 RenumberFrameAndDescendants

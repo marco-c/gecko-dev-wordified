@@ -1513,9 +1513,6 @@ nsStyleContext
 >
 ResolveStyleForPlaceholder
 (
-nsStyleContext
-*
-aParentContext
 )
 ;
 /

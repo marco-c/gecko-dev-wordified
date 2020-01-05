@@ -507,16 +507,12 @@ Ptr
 :
 ResolveStyleForPlaceholder
 (
-nsStyleContext
-*
-aParentContext
 )
 {
 FORWARD
 (
 ResolveStyleForPlaceholder
 (
-aParentContext
 )
 )
 ;

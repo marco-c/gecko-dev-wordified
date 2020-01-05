@@ -827,10 +827,10 @@ placeholders
 However
 not
 doing
-/
-/
 any
 rule
+/
+/
 matching
 for
 them
@@ -846,9 +846,6 @@ nsStyleContext
 >
 ResolveStyleForPlaceholder
 (
-nsStyleContext
-*
-aParentContext
 )
 ;
 /
