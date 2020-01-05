@@ -3688,11 +3688,6 @@ with_gecko
 is
 not
 None
-and
-ret
-=
-=
-0
 :
             
 print
