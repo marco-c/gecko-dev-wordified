@@ -1257,6 +1257,17 @@ nsIContent
 aLastRolledUp
 )
 {
+if
+(
+aLastRolledUp
+)
+{
+*
+aLastRolledUp
+=
+nullptr
+;
+}
 /
 /
 We
