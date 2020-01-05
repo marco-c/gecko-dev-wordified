@@ -918,6 +918,16 @@ webrender_traits
 ImageFormat
 :
 :
+RG8
+=
+>
+true
+webrender_traits
+:
+:
+ImageFormat
+:
+:
 A8
 =
 >
