@@ -436,6 +436,9 @@ values
 void
 CalculateMappedServoDeclarations
 (
+nsPresContext
+*
+aPresContext
 )
 ;
 nsIStyleRule
