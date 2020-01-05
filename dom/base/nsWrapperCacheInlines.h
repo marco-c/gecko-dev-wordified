@@ -190,6 +190,7 @@ nsWrapperCache
 IsBlack
 (
 )
+const
 {
 JSObject
 *
