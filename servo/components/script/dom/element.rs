@@ -5351,11 +5351,10 @@ existing_declarations
 for
 declaration
 in
+&
+mut
+*
 existing_declarations
-.
-iter_mut
-(
-)
 {
 if
 declaration

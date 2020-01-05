@@ -6381,10 +6381,6 @@ in
 given_descendants
 .
 descendant_links
-.
-into_iter
-(
-)
 {
 self
 .

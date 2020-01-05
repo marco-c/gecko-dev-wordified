@@ -547,10 +547,6 @@ for
 surface
 in
 surfaces
-.
-into_iter
-(
-)
 {
 self
 .

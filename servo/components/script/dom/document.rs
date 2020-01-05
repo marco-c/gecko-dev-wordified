@@ -7705,10 +7705,6 @@ for
 node
 in
 nodes
-.
-into_iter
-(
-)
 {
 match
 node

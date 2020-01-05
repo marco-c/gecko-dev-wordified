@@ -1773,11 +1773,9 @@ JSTracer
 for
 e
 in
+&
+*
 self
-.
-iter
-(
-)
 {
 e
 .
@@ -2058,11 +2056,9 @@ k
 v
 )
 in
+&
+*
 self
-.
-iter
-(
-)
 {
 k
 .

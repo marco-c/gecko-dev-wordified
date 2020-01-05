@@ -1809,10 +1809,6 @@ in
 pending_load
 .
 listeners
-.
-into_iter
-(
-)
 {
 listener
 .

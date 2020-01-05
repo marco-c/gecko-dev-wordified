@@ -853,10 +853,6 @@ for
 attr
 in
 attrs
-.
-into_iter
-(
-)
 {
 elem
 .
@@ -1451,10 +1447,6 @@ for
 attr
 in
 attrs
-.
-into_iter
-(
-)
 {
 elem
 .

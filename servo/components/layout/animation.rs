@@ -296,10 +296,6 @@ for
 property_animation
 in
 property_animations
-.
-into_iter
-(
-)
 {
 /
 /
@@ -558,10 +554,6 @@ for
 new_running_animation
 in
 new_running_animations
-.
-into_iter
-(
-)
 {
 match
 running_animations
