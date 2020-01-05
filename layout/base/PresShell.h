@@ -187,10 +187,10 @@ part
 /
 #
 ifndef
-nsPresShell_h_
+mozilla_PresShell_h
 #
 define
-nsPresShell_h_
+mozilla_PresShell_h
 #
 include
 "
@@ -5754,11 +5754,5 @@ mozilla
 #
 endif
 /
-*
-!
-defined
-(
-nsPresShell_h_
-)
-*
 /
+mozilla_PresShell_h
