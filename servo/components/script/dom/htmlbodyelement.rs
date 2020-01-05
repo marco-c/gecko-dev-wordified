@@ -659,10 +659,8 @@ element
 set_attribute
 (
 &
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 text

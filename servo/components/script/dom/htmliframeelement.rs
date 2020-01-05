@@ -2465,10 +2465,8 @@ element
 has_attribute
 (
 &
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 mozbrowser
@@ -2547,10 +2545,8 @@ element
 set_bool_attribute
 (
 &
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 mozbrowser
