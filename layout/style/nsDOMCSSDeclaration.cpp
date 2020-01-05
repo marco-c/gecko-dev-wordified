@@ -1876,7 +1876,7 @@ aPropID
 value
 aIsImportant
 data
-LengthParsingMode
+ParsingMode
 :
 :
 Default
@@ -2010,7 +2010,7 @@ property
 value
 aIsImportant
 data
-LengthParsingMode
+ParsingMode
 :
 :
 Default

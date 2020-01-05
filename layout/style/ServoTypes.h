@@ -495,11 +495,11 @@ to
 use
 when
 parsing
-lengths
+values
 .
 enum
 class
-LengthParsingMode
+ParsingMode
 {
 /
 /
@@ -599,7 +599,7 @@ coords
 html
 #
 Units
-SVG
+AllowUnitlessLength
 }
 ;
 /

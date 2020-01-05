@@ -15404,7 +15404,7 @@ aProperty
 &
 value
 data
-LengthParsingMode
+ParsingMode
 :
 :
 Default
@@ -15489,7 +15489,7 @@ eCSSProperty_line_height
 normalString
 false
 data
-LengthParsingMode
+ParsingMode
 :
 :
 Default
