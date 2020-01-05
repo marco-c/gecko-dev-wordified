@@ -1248,6 +1248,13 @@ ResponseSynthesized
 (
 )
 ;
+void
+AsyncOpenFailed
+(
+nsresult
+aRv
+)
+;
 friend
 class
 DivertDataAvailableEvent
