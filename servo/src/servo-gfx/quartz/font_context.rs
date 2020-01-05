@@ -145,7 +145,10 @@ FontHandle
 let
 ctfont_result
 =
-CTFont
+ct
+:
+:
+font
 :
 :
 new_from_name
