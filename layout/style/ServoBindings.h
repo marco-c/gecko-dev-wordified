@@ -1189,7 +1189,14 @@ Style
 attributes
 .
 RawServoDeclarationBlockStrongBorrowedOrNull
-Gecko_GetServoDeclarationBlock
+Gecko_GetStyleAttrDeclarationBlock
+(
+RawGeckoElementBorrowed
+element
+)
+;
+RawServoDeclarationBlockStrongBorrowedOrNull
+Gecko_GetHTMLPresentationAttrDeclarationBlock
 (
 RawGeckoElementBorrowed
 element

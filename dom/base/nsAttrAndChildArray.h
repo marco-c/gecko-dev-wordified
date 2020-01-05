@@ -910,6 +910,14 @@ MappedAttrCount
 )
 ;
 }
+const
+nsMappedAttributes
+*
+GetMapped
+(
+)
+const
+;
 private
 :
 nsAttrAndChildArray
