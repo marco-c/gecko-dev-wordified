@@ -63,6 +63,7 @@ actor
 {
 Actor
 ActorRegistry
+ActorMessageStatus
 }
 ;
 use
@@ -159,14 +160,17 @@ TcpStream
 >
 Result
 <
-bool
+ActorMessageStatus
 (
 )
 >
 {
 Ok
 (
-true
+ActorMessageStatus
+:
+:
+Processed
 )
 }
 }
