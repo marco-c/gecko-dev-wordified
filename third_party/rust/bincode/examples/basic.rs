@@ -1,11 +1,11 @@
+/
+*
 extern
 crate
 bincode
 ;
 extern
 crate
-rustc_serialize
-;
 use
 bincode
 :
@@ -186,4 +186,12 @@ world
 decoded
 )
 ;
+}
+*
+/
+fn
+main
+(
+)
+{
 }

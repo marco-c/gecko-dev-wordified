@@ -227,6 +227,7 @@ webrender_traits
 :
 :
 {
+BlobImageRenderer
 VRCompositorCommand
 VRCompositorHandler
 }
@@ -496,6 +497,15 @@ RenderDispatcher
 >
 >
 >
+blob_image_renderer
+:
+Option
+<
+Box
+<
+BlobImageRenderer
+>
+>
 vr_compositor_handler
 :
 Arc
@@ -526,6 +536,7 @@ new
 (
 texture_cache
 workers
+blob_image_renderer
 enable_aa
 )
 ;
@@ -1464,7 +1475,7 @@ self
 .
 frame
 .
-scroll_layers
+scroll_nodes
 (
 origin
 pipeline_id
@@ -1630,7 +1641,7 @@ self
 .
 frame
 .
-get_scroll_layer_state
+get_scroll_node_state
 (
 )
 )
