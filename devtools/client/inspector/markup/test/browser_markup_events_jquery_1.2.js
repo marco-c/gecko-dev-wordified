@@ -840,8 +840,6 @@ DOM0
 handler
 :
 "
-handle
-:
 function
 (
 event
@@ -1264,9 +1262,6 @@ jQuery
 handler
 :
 "
-var
-handler7
-=
 function
 divClick1
 (
@@ -1314,9 +1309,6 @@ jQuery
 handler
 :
 "
-var
-handler8
-=
 function
 divClick2
 (
@@ -1467,9 +1459,6 @@ jQuery
 handler
 :
 "
-var
-handler9
-=
 function
 divKeyDown
 (
