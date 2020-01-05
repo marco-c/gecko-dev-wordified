@@ -367,6 +367,7 @@ ComputeFlags
 (
 aMetrics
 )
+0
 nullptr
 )
 ;
@@ -412,6 +413,7 @@ ComputeFlags
 (
 aMetrics
 )
+0
 nullptr
 )
 ;
@@ -449,7 +451,7 @@ get
 private
 :
 static
-uint32_t
+uint16_t
 ComputeFlags
 (
 nsFontMetrics
@@ -457,7 +459,7 @@ nsFontMetrics
 aMetrics
 )
 {
-uint32_t
+uint16_t
 flags
 =
 0

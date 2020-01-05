@@ -16564,7 +16564,7 @@ bool
 aVertical
 int32_t
 aAppUnitsPerDevUnit
-uint32_t
+uint16_t
 aFlags
 RoundingFlags
 aRounding
@@ -18832,7 +18832,7 @@ ShapedWord
 construction
 /
 caching
-uint32_t
+uint16_t
 flags
 =
 aTextRun
@@ -19202,7 +19202,7 @@ length
 0
 )
 {
-uint32_t
+uint16_t
 wordFlags
 =
 flags
@@ -20668,6 +20668,7 @@ GetFontGroup
 (
 )
 0
+0
 )
 )
 ;
@@ -20740,6 +20741,7 @@ aTextRun
 GetFontGroup
 (
 )
+0
 0
 )
 )

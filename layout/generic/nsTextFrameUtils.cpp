@@ -154,7 +154,7 @@ IsDiscardable
 (
 char16_t
 ch
-uint32_t
+uint16_t
 *
 aFlags
 )
@@ -237,7 +237,7 @@ IsDiscardable
 (
 uint8_t
 ch
-uint32_t
+uint16_t
 *
 aFlags
 )
@@ -542,7 +542,7 @@ aInWhitespace
 CharT
 *
 aOutput
-uint32_t
+uint16_t
 &
 aFlags
 nsTextFrameUtils
@@ -1365,12 +1365,12 @@ aIncomingFlags
 gfxSkipChars
 *
 aSkipChars
-uint32_t
+uint16_t
 *
 aAnalysisFlags
 )
 {
-uint32_t
+uint16_t
 flags
 =
 0
@@ -2321,7 +2321,7 @@ aIncomingFlags
 gfxSkipChars
 *
 aSkipChars
-uint32_t
+uint16_t
 *
 aAnalysisFlags
 )
@@ -2351,7 +2351,7 @@ aIncomingFlags
 gfxSkipChars
 *
 aSkipChars
-uint32_t
+uint16_t
 *
 aAnalysisFlags
 )

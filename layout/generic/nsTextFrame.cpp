@@ -1681,7 +1681,7 @@ when
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 has
@@ -2019,7 +2019,7 @@ when
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 does
@@ -2955,7 +2955,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -2970,7 +2970,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3004,7 +3004,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3107,7 +3107,7 @@ MOZ_ASSERT
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3139,7 +3139,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3282,7 +3282,7 @@ MOZ_ASSERT
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3304,7 +3304,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -3798,7 +3798,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -4367,7 +4367,7 @@ if
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -5814,7 +5814,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -5833,7 +5833,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -6099,7 +6099,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -6133,7 +6133,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -6209,7 +6209,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -7211,7 +7211,7 @@ MOZ_ASSERT
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -7234,7 +7234,7 @@ if
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -7290,7 +7290,7 @@ MOZ_ASSERT
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -7322,7 +7322,7 @@ if
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -10372,7 +10372,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -10606,7 +10606,7 @@ mCurrentFramesAllSameTextRun
 mCurrentFramesAllSameTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -10741,7 +10741,7 @@ if
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -11637,7 +11637,7 @@ is
 present
 .
 static
-uint32_t
+uint16_t
 GetSpacingFlags
 (
 nsIFrame
@@ -13588,8 +13588,13 @@ mathFlags
 =
 0
 ;
-uint32_t
-textFlags
+uint16_t
+flags
+=
+0
+;
+uint16_t
+flags2
 =
 nsTextFrameUtils
 :
@@ -13606,7 +13611,7 @@ nsTextFrameUtils
 INCOMING_WHITESPACE
 )
 {
-textFlags
+flags2
 |
 =
 nsTextFrameUtils
@@ -13625,7 +13630,7 @@ nsTextFrameUtils
 INCOMING_ARABICCHAR
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -14003,7 +14008,7 @@ anyTextEmphasis
 true
 ;
 }
-textFlags
+flags
 |
 =
 GetSpacingFlags
@@ -14051,7 +14056,7 @@ WhiteSpaceIsSignificant
 isSVG
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -14121,7 +14126,7 @@ GetStateBits
 NS_FRAME_IS_IN_SINGLE_CHAR_MI
 )
 {
-textFlags
+flags2
 |
 =
 nsTextFrameUtils
@@ -14311,7 +14316,7 @@ mtext_
 )
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -14670,7 +14675,7 @@ nextBreakIndex
 )
 ;
 }
-uint32_t
+uint16_t
 analysisFlags
 ;
 if
@@ -14971,7 +14976,7 @@ textPtr
 ;
 }
 }
-textFlags
+flags2
 |
 =
 analysisFlags
@@ -14990,7 +14995,7 @@ userData
 dummyData
 )
 {
-textFlags
+flags2
 |
 =
 nsTextFrameUtils
@@ -15102,7 +15107,7 @@ nullptr
 }
 if
 (
-textFlags
+flags2
 &
 nsTextFrameUtils
 :
@@ -15110,7 +15115,7 @@ nsTextFrameUtils
 TEXT_HAS_TAB
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -15121,7 +15126,7 @@ TEXT_ENABLE_SPACING
 }
 if
 (
-textFlags
+flags2
 &
 nsTextFrameUtils
 :
@@ -15129,7 +15134,7 @@ nsTextFrameUtils
 TEXT_HAS_SHY
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -15156,7 +15161,7 @@ GetEmbeddingLevel
 )
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -15175,7 +15180,7 @@ nsTextFrameUtils
 INCOMING_WHITESPACE
 )
 {
-textFlags
+flags2
 |
 =
 nsTextFrameUtils
@@ -15194,7 +15199,7 @@ nsTextFrameUtils
 INCOMING_ARABICCHAR
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -15239,7 +15244,7 @@ frame
 '
 s
 style
-textFlags
+flags
 |
 =
 nsLayoutUtils
@@ -15295,7 +15300,7 @@ if
 (
 !
 (
-textFlags
+flags
 &
 gfxTextRunFactory
 :
@@ -15304,7 +15309,7 @@ TEXT_OPTIMIZE_SPEED
 )
 )
 {
-textFlags
+flags
 |
 =
 gfxTextRunFactory
@@ -15713,7 +15718,7 @@ charStyle
 }
 }
 }
-textFlags
+flags2
 |
 =
 nsTextFrameUtils
@@ -15832,7 +15837,8 @@ transformedLength
 &
 params
 fontGroup
-textFlags
+flags
+flags2
 Move
 (
 styles
@@ -15899,7 +15905,8 @@ text
 transformedLength
 &
 params
-textFlags
+flags
+flags2
 mMissingFonts
 )
 ;
@@ -15922,7 +15929,7 @@ uint8_t
 textPtr
 )
 ;
-textFlags
+flags
 |
 =
 gfxFontGroup
@@ -15947,7 +15954,8 @@ transformedLength
 &
 params
 fontGroup
-textFlags
+flags
+flags2
 Move
 (
 styles
@@ -16014,7 +16022,8 @@ text
 transformedLength
 &
 params
-textFlags
+flags
+flags2
 mMissingFonts
 )
 ;
@@ -16779,7 +16788,7 @@ nextBreakIndex
 )
 ;
 }
-uint32_t
+uint16_t
 analysisFlags
 ;
 if
@@ -17617,7 +17626,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -18648,7 +18657,7 @@ if
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -18810,7 +18819,7 @@ if
 oldTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -19429,7 +19438,7 @@ if
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -22815,7 +22824,7 @@ aSpacing
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -36452,7 +36461,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-uint32_t
+uint16_t
 flags
 =
 nsLayoutUtils
@@ -36522,6 +36531,7 @@ Length
 dt
 appUnitsPerDevUnit
 flags
+0
 nullptr
 )
 ;
@@ -55581,7 +55591,7 @@ Manual
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -56292,7 +56302,7 @@ GetLength
 textRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -58572,7 +58582,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -62368,7 +62378,7 @@ xOffsetForTabs
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -65165,7 +65175,7 @@ GetLength
 mTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -66833,7 +66843,7 @@ MOZ_ASSERT
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -66848,7 +66858,7 @@ if
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &

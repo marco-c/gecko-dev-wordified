@@ -13709,7 +13709,7 @@ quality
 *
 /
 static
-uint32_t
+uint16_t
 GetTextRunFlagsForStyle
 (
 nsStyleContext
@@ -13741,7 +13741,7 @@ construction
 *
 /
 static
-uint32_t
+uint16_t
 GetTextRunOrientFlagsForStyle
 (
 nsStyleContext

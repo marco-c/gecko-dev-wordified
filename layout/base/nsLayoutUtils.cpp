@@ -46213,7 +46213,7 @@ parent
 static
 *
 /
-uint32_t
+uint16_t
 nsLayoutUtils
 :
 :
@@ -46234,7 +46234,7 @@ nscoord
 aLetterSpacing
 )
 {
-uint32_t
+uint16_t
 result
 =
 0
@@ -46369,7 +46369,7 @@ aStyleContext
 static
 *
 /
-uint32_t
+uint16_t
 nsLayoutUtils
 :
 :

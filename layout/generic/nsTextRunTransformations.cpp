@@ -298,8 +298,11 @@ aString
 uint32_t
 aLength
 const
-uint32_t
+uint16_t
 aFlags
+const
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -383,6 +386,7 @@ aFontGroup
 aString
 aLength
 aFlags
+aFlags2
 Move
 (
 aStyles
@@ -630,8 +634,10 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-uint32_t
+uint16_t
 aFlags
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -658,6 +664,7 @@ aFontGroup
 aString
 aLength
 aFlags
+aFlags2
 Move
 (
 aStyles
@@ -691,8 +698,10 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-uint32_t
+uint16_t
 aFlags
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -772,6 +781,7 @@ gfxFontGroup
 :
 TEXT_IS_8BIT
 )
+aFlags2
 Move
 (
 aStyles
@@ -1433,7 +1443,7 @@ GetParametersForInner
 nsTransformedTextRun
 *
 aTextRun
-uint32_t
+uint16_t
 *
 aFlags
 DrawTarget
@@ -4281,7 +4291,7 @@ canBreakBeforeArray
 styleArray
 )
 ;
-uint32_t
+uint16_t
 flags
 ;
 gfxTextRunFactory
@@ -4351,6 +4361,7 @@ Length
 innerParams
 fontGroup
 flags
+0
 Move
 (
 styleArray
@@ -4389,6 +4400,7 @@ Length
 &
 innerParams
 flags
+0
 aMFR
 )
 ;

@@ -23743,7 +23743,7 @@ for
 current
 direction
 run
-uint32_t
+uint16_t
 flags
 =
 mTextRunFlags
@@ -23789,6 +23789,7 @@ aLength
 mDrawTarget
 mAppUnitsPerDevPixel
 flags
+0
 mMissingFonts
 )
 ;
@@ -25146,7 +25147,7 @@ based
 on
 CSS
 style
-uint32_t
+uint16_t
 mTextRunFlags
 ;
 /
