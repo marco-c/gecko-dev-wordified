@@ -59,7 +59,7 @@ MPL
 #
 !
 [
-macro_escape
+macro_use
 ]
 /
 /

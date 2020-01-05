@@ -73,6 +73,14 @@ unused_variables
 )
 ]
 #
+!
+[
+allow
+(
+unstable
+)
+]
+#
 [
 cfg
 (

@@ -67,7 +67,7 @@ libc
 :
 :
 {
-mod
+self
 c_int
 c_void
 size_t

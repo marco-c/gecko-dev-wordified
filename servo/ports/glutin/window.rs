@@ -73,7 +73,7 @@ compositor_task
 :
 :
 {
-mod
+self
 CompositorProxy
 CompositorReceiver
 }
@@ -371,7 +371,7 @@ time
 :
 :
 {
-mod
+self
 Timespec
 }
 ;

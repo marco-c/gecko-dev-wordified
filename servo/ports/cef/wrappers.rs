@@ -317,7 +317,7 @@ libc
 :
 :
 {
-mod
+self
 c_char
 c_int
 c_ushort
