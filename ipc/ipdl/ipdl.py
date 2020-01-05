@@ -1318,6 +1318,12 @@ genipdl
 ast
 codedir
 )
+ipdl
+.
+checkFixedSyncMessages
+(
+parser
+)
 #
 Second
 pass
