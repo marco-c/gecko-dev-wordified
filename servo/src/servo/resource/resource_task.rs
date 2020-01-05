@@ -37,7 +37,6 @@ comm
 {
 chan
 port
-methods
 }
 ;
 import

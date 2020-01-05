@@ -7,12 +7,6 @@ size
 :
 Size2D
 ;
-import
-int
-:
-:
-num
-;
 enum
 format
 {
@@ -48,8 +42,6 @@ u8
 }
 ;
 impl
-format
-for
 format
 {
 fn
