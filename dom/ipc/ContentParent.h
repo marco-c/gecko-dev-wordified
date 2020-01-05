@@ -3249,6 +3249,12 @@ nsIPrincipal
 aPrincipal
 )
 ;
+void
+OnCompositorDeviceReset
+(
+)
+override
+;
 protected
 :
 void
@@ -3286,12 +3292,6 @@ override
 ;
 void
 OnCompositorUnexpectedShutdown
-(
-)
-override
-;
-void
-OnCompositorDeviceReset
 (
 )
 override
