@@ -452,7 +452,9 @@ p
 "
 self
 .
-reflector_
+reflector
+(
+)
 .
 get_jsobject
 (
