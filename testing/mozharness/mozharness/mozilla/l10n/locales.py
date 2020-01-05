@@ -1248,6 +1248,19 @@ query_l10n_env
 (
 )
         
+python
+=
+self
+.
+query_exe
+(
+'
+python2
+.
+7
+'
+)
+        
 compare_locales_error_list
 =
 list
@@ -1282,9 +1295,7 @@ abs_merge_dir
 command
 =
 [
-sys
-.
-executable
+python
 '
 mach
 '

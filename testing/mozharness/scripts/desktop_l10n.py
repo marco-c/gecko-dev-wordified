@@ -5772,11 +5772,22 @@ self
 )
 :
         
+python
+=
+self
+.
+query_exe
+(
+'
+python2
+.
+7
+'
+)
+        
 return
 [
-sys
-.
-executable
+python
 '
 mach
 '

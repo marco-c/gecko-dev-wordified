@@ -1483,12 +1483,23 @@ repacks
 "
 "
         
+python
+=
+self
+.
+query_exe
+(
+"
+python2
+.
+7
+"
+)
+        
 repack_cmd
 =
 [
-sys
-.
-executable
+python
 "
 partner
 -
