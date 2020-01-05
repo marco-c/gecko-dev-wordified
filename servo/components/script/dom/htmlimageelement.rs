@@ -965,11 +965,6 @@ Trusted
 new
 (
 self
-window
-.
-networking_task_source
-(
-)
 )
 ;
 let

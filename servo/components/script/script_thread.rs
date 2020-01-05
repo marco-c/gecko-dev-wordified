@@ -8452,13 +8452,6 @@ Trusted
 new
 (
 doc
-self
-.
-chan
-.
-clone
-(
-)
 )
 ;
 let
@@ -14397,11 +14390,6 @@ new
 (
 id
 subpage
-script_chan
-.
-clone
-(
-)
 load_data
 .
 url
