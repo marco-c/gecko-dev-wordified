@@ -3726,9 +3726,10 @@ numRows
 )
 return
 ;
-nsTArray
+AutoTArray
 <
 RowInfo
+10
 >
 rowInfo
 ;
