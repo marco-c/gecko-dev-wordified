@@ -1993,7 +1993,7 @@ implementation
 '
 :
 '
-macosx
+native
 -
 engine
 '
@@ -2010,11 +2010,37 @@ download
 Optional
 (
 '
-link
+context
 '
 )
 :
 basestring
+        
+#
+Tells
+the
+worker
+whether
+machine
+should
+reboot
+        
+#
+after
+the
+task
+is
+finished
+.
+        
+Optional
+(
+'
+reboot
+'
+)
+:
+bool
         
 #
 the
@@ -4859,7 +4885,7 @@ artifacts
 payload_builder
 (
 '
-macosx
+native
 -
 engine
 '
@@ -4954,13 +4980,13 @@ payload
 {
         
 '
-link
+context
 '
 :
 worker
 [
 '
-link
+context
 '
 ]
         
@@ -4983,6 +5009,17 @@ worker
 [
 '
 env
+'
+]
+        
+'
+reboot
+'
+:
+worker
+[
+'
+reboot
 '
 ]
         
@@ -5017,7 +5054,7 @@ sccache
 not
 supported
 in
-macosx
+native
 -
 engine
 '
