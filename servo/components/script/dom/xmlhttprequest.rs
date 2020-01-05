@@ -6508,12 +6508,6 @@ rs
 XMLHttpRequestState
 )
 {
-use
-string_cache
-:
-:
-Atom
-;
 assert
 !
 (
