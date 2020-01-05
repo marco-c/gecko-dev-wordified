@@ -801,6 +801,7 @@ ScriptTask
 create
 (
 id
+~
 compositor_chan
 .
 clone
