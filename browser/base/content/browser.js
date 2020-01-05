@@ -24101,7 +24101,7 @@ loadOneTab
 "
 about
 :
-printpreview
+blank
 "
 {
 inBackground
@@ -24149,7 +24149,7 @@ loadOneTab
 "
 about
 :
-printpreview
+blank
 "
 {
 inBackground
