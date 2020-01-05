@@ -298,7 +298,7 @@ null
 ?
 Long
 .
-valueOf
+parseLong
 (
 timestampString
 )
