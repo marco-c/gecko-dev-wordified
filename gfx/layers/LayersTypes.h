@@ -1497,6 +1497,14 @@ LayerCoord
 >
 BorderWidths
 ;
+typedef
+Array
+<
+uint8_t
+4
+>
+BorderStyles
+;
 /
 /
 This
