@@ -1298,6 +1298,11 @@ setUndefined
 )
 ;
 }
+ExposeValueToActiveJS
+(
+v
+)
+;
 return
 v
 ;
