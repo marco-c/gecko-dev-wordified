@@ -7211,7 +7211,7 @@ nbytes
 if
 (
 !
-nbytes
+copy
 )
 {
 ReportOutOfMemory
