@@ -347,7 +347,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -1673,7 +1673,7 @@ toLowerCase
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
