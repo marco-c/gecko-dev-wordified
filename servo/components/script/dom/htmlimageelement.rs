@@ -660,10 +660,6 @@ Trigger
 reflow
 window
 .
-r
-(
-)
-.
 add_pending_reflow
 (
 )
@@ -735,10 +731,6 @@ let
 window
 =
 document
-.
-r
-(
-)
 .
 window
 (

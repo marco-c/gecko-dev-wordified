@@ -439,10 +439,6 @@ Step
 *
 query
 .
-r
-(
-)
-.
 list
 .
 borrow_mut
@@ -479,10 +475,6 @@ Step
 *
 query
 .
-r
-(
-)
-.
 list
 .
 borrow_mut
@@ -490,10 +482,6 @@ borrow_mut
 )
 =
 init
-.
-r
-(
-)
 .
 list
 .

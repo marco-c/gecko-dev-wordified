@@ -609,10 +609,6 @@ global
 ;
 event
 .
-r
-(
-)
-.
 InitEvent
 (
 type_

@@ -962,10 +962,6 @@ following_node
 in
 node
 .
-r
-(
-)
-.
 following_nodes
 (
 &
@@ -1255,10 +1251,6 @@ for
 preceding_node
 in
 node
-.
-r
-(
-)
 .
 preceding_nodes
 (

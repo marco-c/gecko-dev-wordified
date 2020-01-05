@@ -6640,10 +6640,6 @@ child
 {
 child
 .
-r
-(
-)
-.
 GetParentNode
 (
 )
@@ -6674,10 +6670,6 @@ Step
 .
 if
 child
-.
-r
-(
-)
 .
 index
 (

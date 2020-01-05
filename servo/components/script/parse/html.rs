@@ -685,10 +685,6 @@ attrs
 {
 elem
 .
-r
-(
-)
-.
 set_attribute_from_parser
 (
 attr
@@ -858,10 +854,6 @@ assert
 !
 (
 parent
-.
-r
-(
-)
 .
 InsertBefore
 (
@@ -1201,10 +1193,6 @@ GetParentNode
 )
 {
 parent
-.
-r
-(
-)
 .
 RemoveChild
 (
@@ -2136,10 +2124,6 @@ fc
 ;
 parser
 .
-r
-(
-)
-.
 parse_chunk
 (
 input
@@ -2286,10 +2270,6 @@ Step
 .
 document
 .
-r
-(
-)
-.
 set_quirks_mode
 (
 context_document
@@ -2319,10 +2299,6 @@ find
 element
 |
 element
-.
-r
-(
-)
 .
 is
 :
@@ -2382,10 +2358,6 @@ let
 root_element
 =
 document
-.
-r
-(
-)
 .
 GetDocumentElement
 (

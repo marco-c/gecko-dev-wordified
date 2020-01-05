@@ -636,10 +636,6 @@ url
 =
 src
 .
-r
-(
-)
-.
 value
 (
 )
@@ -674,10 +670,6 @@ base_url
 (
 &
 window
-.
-r
-(
-)
 .
 get_url
 (
@@ -754,10 +746,6 @@ let
 subpage_id
 =
 win
-.
-r
-(
-)
 .
 get_next_subpage_id
 (
@@ -1115,10 +1103,6 @@ let
 cx
 =
 window
-.
-r
-(
-)
 .
 get_cx
 (
@@ -2176,10 +2160,6 @@ window
 ;
 window
 .
-r
-(
-)
-.
 subpage
 (
 )
@@ -2288,10 +2268,6 @@ window_from_node
 self
 )
 .
-r
-(
-)
-.
 get_url
 (
 )
@@ -2311,10 +2287,6 @@ win_url
 Some
 (
 window
-.
-r
-(
-)
 .
 Document
 (

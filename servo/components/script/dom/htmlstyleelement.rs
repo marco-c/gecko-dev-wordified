@@ -374,15 +374,6 @@ node
 )
 ;
 let
-win
-=
-win
-.
-r
-(
-)
-;
-let
 url
 =
 win
@@ -436,10 +427,6 @@ from
 *
 *
 a
-.
-r
-(
-)
 .
 value
 (

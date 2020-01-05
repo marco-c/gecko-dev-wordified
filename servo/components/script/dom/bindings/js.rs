@@ -3976,10 +3976,6 @@ old_reflector
 *
 rooted
 .
-r
-(
-)
-.
 reflector
 (
 )

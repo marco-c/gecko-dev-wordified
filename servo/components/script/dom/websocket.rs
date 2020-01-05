@@ -3514,10 +3514,6 @@ root
 *
 ws
 .
-r
-(
-)
-.
 sender
 .
 borrow_mut

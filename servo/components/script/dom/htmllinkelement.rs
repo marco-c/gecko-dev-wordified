@@ -542,10 +542,6 @@ local_name
 ;
 elem
 .
-r
-(
-)
-.
 map
 (
 |
@@ -1350,10 +1346,6 @@ let
 pending
 =
 doc
-.
-r
-(
-)
 .
 prepare_async_load
 (

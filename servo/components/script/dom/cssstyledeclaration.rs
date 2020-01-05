@@ -1593,10 +1593,6 @@ value
 &
 window
 .
-r
-(
-)
-.
 get_url
 (
 )
@@ -1687,10 +1683,6 @@ upcast
 )
 ;
 document
-.
-r
-(
-)
 .
 content_changed
 (
@@ -1909,10 +1901,6 @@ upcast
 )
 ;
 document
-.
-r
-(
-)
 .
 content_changed
 (

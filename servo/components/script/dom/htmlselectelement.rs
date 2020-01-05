@@ -1624,10 +1624,6 @@ ancestor
 |
 ancestor
 .
-r
-(
-)
-.
 is
 :
 :

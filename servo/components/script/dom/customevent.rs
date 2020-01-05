@@ -356,10 +356,6 @@ global
 ;
 ev
 .
-r
-(
-)
-.
 InitCustomEvent
 (
 global

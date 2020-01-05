@@ -639,10 +639,6 @@ window
 ;
 ev
 .
-r
-(
-)
-.
 InitKeyboardEvent
 (
 type_
