@@ -255,7 +255,7 @@ layout
 type
 Generation
 =
-uint
+u32
 ;
 /
 /

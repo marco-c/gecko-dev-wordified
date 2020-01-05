@@ -2206,7 +2206,7 @@ dump_indent
 self
 indent
 :
-uint
+u32
 )
 {
 let
@@ -2344,7 +2344,7 @@ self
 )
 -
 >
-uint
+usize
 {
 let
 layout_data_ref
@@ -2362,7 +2362,7 @@ layout_data_ref
 None
 =
 >
-0u
+0
 Some
 (
 ref
@@ -5619,7 +5619,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -7892,8 +7892,8 @@ type
 UnsafeLayoutNode
 =
 (
-uint
-uint
+usize
+usize
 )
 ;
 pub
@@ -7914,7 +7914,7 @@ unsafe
 let
 ptr
 :
-uint
+usize
 =
 mem
 :

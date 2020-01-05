@@ -994,7 +994,7 @@ data
 pub
 generation
 :
-uint
+u32
 /
 /
 /

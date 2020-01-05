@@ -591,7 +591,7 @@ data
 pub
 generation
 :
-uint
+u32
 }
 pub
 struct
