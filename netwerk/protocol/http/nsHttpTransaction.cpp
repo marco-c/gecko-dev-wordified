@@ -14491,6 +14491,14 @@ mConnInfo
 ci
 ;
 }
+mEarlyDataDisposition
+=
+EARLY_NONE
+;
+m0RTTInProgress
+=
+false
+;
 return
 NS_OK
 ;
