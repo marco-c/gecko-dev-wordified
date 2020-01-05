@@ -123,7 +123,7 @@ mozilla_RubyUtils_h_
 #
 include
 "
-nsTArray
+nsCSSAnonBoxes
 .
 h
 "
@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsCSSAnonBoxes
+nsTArray
 .
 h
 "
