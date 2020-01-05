@@ -21840,6 +21840,26 @@ result
 "
 )
         
+else
+:
+            
+call
+=
+CGWrapper
+(
+call
+pre
+=
+"
+let
+_
+:
+(
+)
+=
+"
+)
+        
 call
 =
 CGWrapper
