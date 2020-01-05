@@ -57,6 +57,18 @@ MPL
 *
 /
 use
+dom
+:
+:
+bindings
+:
+:
+cell
+:
+:
+DOMRefCell
+;
+use
 script_task
 :
 :
@@ -133,10 +145,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -357,7 +366,7 @@ TimerManager
 {
 active_timers
 :
-RefCell
+DOMRefCell
 <
 HashMap
 <
@@ -484,7 +493,7 @@ TimerManager
 {
 active_timers
 :
-RefCell
+DOMRefCell
 :
 :
 new

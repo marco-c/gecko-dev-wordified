@@ -385,10 +385,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 static
 DEFAULT_SUBMIT_VALUE
@@ -470,7 +467,7 @@ bool
 >
 uncommitted_value
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -592,7 +589,7 @@ false
 )
 uncommitted_value
 :
-RefCell
+DOMRefCell
 :
 :
 new
