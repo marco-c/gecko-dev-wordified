@@ -8723,10 +8723,6 @@ Replace
 unwrap
 (
 )
-.
-to_owned
-(
-)
 }
 /
 /
@@ -9347,10 +9343,6 @@ Replace
 unwrap
 (
 )
-.
-to_owned
-(
-)
 ;
 let
 json_text
@@ -9519,10 +9511,6 @@ Replace
 unwrap
 (
 )
-.
-to_owned
-(
-)
 ;
 let
 document
@@ -9649,10 +9637,6 @@ Replace
 )
 .
 unwrap
-(
-)
-.
-to_owned
 (
 )
 ;
