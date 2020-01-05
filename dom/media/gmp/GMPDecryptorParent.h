@@ -340,16 +340,6 @@ GMPDecryptorParent
 /
 PGMPDecryptorParent
 bool
-RecvSetDecryptorId
-(
-const
-uint32_t
-&
-aId
-)
-override
-;
-bool
 RecvSetSessionId
 (
 const
