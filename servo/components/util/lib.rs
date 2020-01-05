@@ -132,10 +132,6 @@ libc
 ;
 extern
 crate
-native
-;
-extern
-crate
 rand
 ;
 extern

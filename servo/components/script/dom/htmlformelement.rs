@@ -338,7 +338,7 @@ hyper
 method
 :
 :
-Post
+Method
 ;
 use
 servo_msg
@@ -1971,6 +1971,9 @@ load_data
 .
 method
 =
+Method
+:
+:
 Post
 ;
 load_data

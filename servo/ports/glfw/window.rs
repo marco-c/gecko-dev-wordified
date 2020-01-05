@@ -261,7 +261,6 @@ compositor_msg
 {
 Blank
 FinishedLoading
-IdlePaintState
 Loading
 PaintState
 }
@@ -274,7 +273,6 @@ compositor_msg
 :
 :
 {
-PaintingPaintState
 PerformingLayout
 ReadyState
 }
@@ -660,7 +658,10 @@ Cell
 :
 new
 (
-IdlePaintState
+PaintState
+:
+:
+Idle
 )
 last_title_set_time
 :
@@ -2657,7 +2658,10 @@ get
 (
 )
 {
-PaintingPaintState
+PaintState
+:
+:
+Painting
 =
 >
 {
@@ -2676,7 +2680,10 @@ GLFW
 "
 )
 }
-IdlePaintState
+PaintState
+:
+:
+Idle
 =
 >
 {

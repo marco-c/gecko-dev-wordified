@@ -159,8 +159,8 @@ pub
 enum
 PaintState
 {
-IdlePaintState
-PaintingPaintState
+Idle
+Painting
 }
 #
 [

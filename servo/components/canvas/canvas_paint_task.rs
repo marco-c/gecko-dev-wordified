@@ -66,8 +66,8 @@ azure_hl
 {
 DrawTarget
 Color
-B8G8R8A8
-SkiaBackend
+SurfaceFormat
+BackendType
 StrokeOptions
 DrawOptions
 }
@@ -81,7 +81,7 @@ azure_hl
 :
 {
 ColorPattern
-ColorPatternRef
+PatternRef
 }
 ;
 use
@@ -434,6 +434,9 @@ drawtarget
 fill_rect
 (
 rect
+PatternRef
+:
+:
 ColorPatternRef
 (
 &
@@ -540,8 +543,14 @@ DrawTarget
 :
 new
 (
+BackendType
+:
+:
 SkiaBackend
 size
+SurfaceFormat
+:
+:
 B8G8R8A8
 )
 }

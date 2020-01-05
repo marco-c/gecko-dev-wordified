@@ -125,10 +125,7 @@ hyper
 method
 :
 :
-{
-Get
-Head
-}
+Method
 ;
 use
 hyper
@@ -137,7 +134,7 @@ hyper
 status
 :
 :
-Redirection
+StatusClass
 ;
 use
 std
@@ -839,8 +836,14 @@ load_data
 .
 method
 {
+Method
+:
+:
 Get
 |
+Method
+:
+:
 Head
 =
 >
@@ -1021,6 +1024,9 @@ class
 )
 =
 =
+StatusClass
+:
+:
 Redirection
 {
 match

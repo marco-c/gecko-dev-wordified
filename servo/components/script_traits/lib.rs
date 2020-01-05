@@ -394,7 +394,7 @@ the
 specified
 pipeline
 .
-LoadMsg
+Load
 (
 PipelineId
 LoadData
@@ -422,7 +422,7 @@ layout
 '
 s
 parent
-AttachLayoutMsg
+AttachLayout
 (
 NewLayoutInfo
 )
@@ -443,7 +443,7 @@ we
 combine
 events
 .
-ResizeMsg
+Resize
 (
 PipelineId
 WindowSizeData
@@ -465,7 +465,7 @@ take
 immediate
 action
 .
-ResizeInactiveMsg
+ResizeInactive
 (
 PipelineId
 WindowSizeData
@@ -483,7 +483,7 @@ should
 be
 closed
 .
-ExitPipelineMsg
+ExitPipeline
 (
 PipelineId
 PipelineExitType
@@ -496,7 +496,7 @@ a
 DOM
 event
 .
-SendEventMsg
+SendEvent
 (
 PipelineId
 CompositorEvent
@@ -511,7 +511,7 @@ reflow
 is
 finished
 .
-ReflowCompleteMsg
+ReflowComplete
 (
 PipelineId
 uint
@@ -525,7 +525,7 @@ of
 the
 viewport
 .
-ViewportMsg
+Viewport
 (
 PipelineId
 Rect
@@ -551,7 +551,7 @@ of
 a
 pipeline
 .
-GetTitleMsg
+GetTitle
 (
 PipelineId
 )

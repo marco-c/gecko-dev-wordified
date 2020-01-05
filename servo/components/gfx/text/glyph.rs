@@ -3862,6 +3862,7 @@ false
 let
 glyph
 =
+&
 [
 DetailedGlyph
 :

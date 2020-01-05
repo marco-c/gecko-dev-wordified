@@ -5267,6 +5267,7 @@ str
 :
 from_utf8
 (
+&
 data
 )
 .

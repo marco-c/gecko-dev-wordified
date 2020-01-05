@@ -157,12 +157,6 @@ mem
 replace
 ;
 use
-std
-:
-:
-result
-;
-use
 sync
 :
 :
@@ -3129,9 +3123,6 @@ as_slice
 }
 Done
 (
-result
-:
-:
 Ok
 (
 .
@@ -3150,9 +3141,6 @@ image_data
 }
 Done
 (
-result
-:
-:
 Err
 (
 .

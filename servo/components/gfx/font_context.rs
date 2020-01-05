@@ -201,7 +201,7 @@ azure
 azure_hl
 :
 :
-SkiaBackend
+BackendType
 ;
 use
 azure
@@ -238,7 +238,7 @@ azure
 scaled_font
 :
 :
-FontData
+FontInfo
 ;
 #
 [
@@ -282,7 +282,13 @@ ScaledFont
 :
 new
 (
+BackendType
+:
+:
 SkiaBackend
+FontInfo
+:
+:
 FontData
 (
 &
@@ -352,6 +358,9 @@ ScaledFont
 :
 new
 (
+BackendType
+:
+:
 SkiaBackend
 &
 cgfont
@@ -763,6 +772,9 @@ variant
 font_variant
 :
 :
+T
+:
+:
 small_caps
 =
 >
@@ -773,6 +785,9 @@ scale_by
 SMALL_CAPS_SCALE_FACTOR
 )
 font_variant
+:
+:
+T
 :
 :
 normal
@@ -1012,6 +1027,9 @@ font_style
 =
 =
 font_style
+:
+:
+T
 :
 :
 italic

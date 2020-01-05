@@ -1397,6 +1397,9 @@ variant
 font_variant
 :
 :
+T
+:
+:
 small_caps
 =
 >
@@ -1406,6 +1409,9 @@ to_uppercase
 (
 )
 font_variant
+:
+:
+T
 :
 :
 normal

@@ -933,6 +933,9 @@ default_weight
 font_weight
 :
 :
+T
+:
+:
 Weight400
 ;
 if
@@ -1022,6 +1025,9 @@ weight
 font_weight
 :
 :
+T
+:
+:
 Weight100
 2
 |
@@ -1033,6 +1039,9 @@ Weight100
 =
 >
 font_weight
+:
+:
+T
 :
 :
 Weight200
@@ -1048,6 +1057,9 @@ Weight200
 font_weight
 :
 :
+T
+:
+:
 Weight300
 4
 |
@@ -1059,6 +1071,9 @@ Weight300
 =
 >
 font_weight
+:
+:
+T
 :
 :
 Weight400
@@ -1074,6 +1089,9 @@ Weight400
 font_weight
 :
 :
+T
+:
+:
 Weight500
 6
 |
@@ -1085,6 +1103,9 @@ Weight500
 =
 >
 font_weight
+:
+:
+T
 :
 :
 Weight600
@@ -1100,6 +1121,9 @@ Weight600
 font_weight
 :
 :
+T
+:
+:
 Weight700
 8
 |
@@ -1113,6 +1137,9 @@ Weight700
 font_weight
 :
 :
+T
+:
+:
 Weight800
 9
 |
@@ -1124,6 +1151,9 @@ Weight800
 =
 >
 font_weight
+:
+:
+T
 :
 :
 Weight900
@@ -1926,8 +1956,6 @@ Font
 metrics
 (
 {
-:
-f
 }
 pt
 )

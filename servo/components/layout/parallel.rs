@@ -198,7 +198,7 @@ time
 :
 :
 {
-mod
+TimeProfilerCategory
 ProfilerMetadata
 TimeProfilerChan
 profile
@@ -2605,10 +2605,10 @@ _
 ;
 profile
 (
-time
+TimeProfilerCategory
 :
 :
-LayoutParallelWarmupCategory
+LayoutParallelWarmup
 profiler_metadata
 time_profiler_chan
 |
@@ -2695,10 +2695,10 @@ _
 ;
 profile
 (
-time
+TimeProfilerCategory
 :
 :
-LayoutParallelWarmupCategory
+LayoutParallelWarmup
 profiler_metadata
 time_profiler_chan
 |
