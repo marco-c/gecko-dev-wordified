@@ -187,8 +187,6 @@ wr
 PipelineId
 &
 aPipelineId
-uint32_t
-aIdNamespace
 )
 ;
 void
@@ -361,6 +359,18 @@ GetNamespace
 {
 return
 mIdNamespace
+;
+}
+void
+SetNamespace
+(
+uint32_t
+aIdNamespace
+)
+{
+mIdNamespace
+=
+aIdNamespace
 ;
 }
 private

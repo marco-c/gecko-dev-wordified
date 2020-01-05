@@ -1685,6 +1685,16 @@ IdentifyTextureHost
 textureFactoryIdentifier
 )
 ;
+WrBridge
+(
+)
+-
+>
+SetNamespace
+(
+id_namespace
+)
+;
 *
 aTextureFactoryIdentifier
 =

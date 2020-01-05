@@ -191,8 +191,6 @@ wr
 PipelineId
 &
 aPipelineId
-uint32_t
-aIdNamespace
 )
 :
 mIsInTransaction
@@ -201,7 +199,7 @@ false
 )
 mIdNamespace
 (
-aIdNamespace
+0
 )
 mResourceId
 (
