@@ -434,10 +434,6 @@ table_name
 gCommonEventInfo
 "
     
-extra_count
-=
-0
-    
 print
 (
 "
