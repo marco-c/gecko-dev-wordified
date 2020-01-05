@@ -304,7 +304,7 @@ the
 frame
 )
 .
-nsresult
+void
 ContentStateChanged
 (
 nsIContent

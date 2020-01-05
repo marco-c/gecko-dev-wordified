@@ -1421,7 +1421,7 @@ the
 frame
 )
 .
-nsresult
+void
 GeckoRestyleManager
 :
 :
@@ -1473,7 +1473,6 @@ IsElement
 )
 {
 return
-NS_OK
 ;
 }
 Element
@@ -1509,9 +1508,6 @@ aElement
 restyleHint
 changeHint
 )
-;
-return
-NS_OK
 ;
 }
 /

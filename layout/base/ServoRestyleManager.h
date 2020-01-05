@@ -378,7 +378,7 @@ nsIContent
 aFirstNewContent
 )
 ;
-nsresult
+void
 ContentStateChanged
 (
 nsIContent

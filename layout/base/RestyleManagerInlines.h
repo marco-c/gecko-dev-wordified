@@ -245,7 +245,7 @@ ProcessPendingRestyles
 )
 ;
 }
-nsresult
+void
 RestyleManager
 :
 :
