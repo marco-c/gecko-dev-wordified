@@ -142,13 +142,6 @@ h
 #
 include
 "
-RemoveTask
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -335,10 +328,6 @@ GetFileOrDirectory
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
 GetFiles
-)
-FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
-(
-Remove
 )
 default
 :
