@@ -723,9 +723,6 @@ Receiver
 <
 CSSMessage
 >
-resource_task
-:
-ResourceTask
 )
 {
 let
@@ -2043,15 +2040,6 @@ style
 sheets
 .
 let
-resource_task2
-=
-resource_task
-.
-clone
-(
-)
-;
-let
 (
 discovery_chan
 discovery_port
@@ -2095,11 +2083,6 @@ css_link_listener
 (
 stylesheet_chan
 css_msg_port
-resource_task2
-.
-clone
-(
-)
 )
 ;
 }
