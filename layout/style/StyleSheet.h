@@ -743,7 +743,6 @@ not
 be
 null
 .
-inline
 void
 SetAssociatedDocument
 (
@@ -754,7 +753,6 @@ DocumentAssociationMode
 aMode
 )
 ;
-inline
 void
 ClearAssociatedDocument
 (
