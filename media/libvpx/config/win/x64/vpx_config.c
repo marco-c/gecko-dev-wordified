@@ -123,11 +123,11 @@ cfg
 -
 target
 =
-x86
+x86_64
 -
-win32
+win64
 -
-gcc
+vs12
 -
 -
 enable

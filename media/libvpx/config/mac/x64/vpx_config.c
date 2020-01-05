@@ -123,9 +123,9 @@ cfg
 -
 target
 =
-x86
+x86_64
 -
-win32
+darwin9
 -
 gcc
 -
