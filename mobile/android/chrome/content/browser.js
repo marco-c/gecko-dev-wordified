@@ -10005,7 +10005,7 @@ tab
 id
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -10316,7 +10316,7 @@ aTab
 id
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -10847,7 +10847,7 @@ aTab
 id
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -25964,7 +25964,7 @@ this
 id
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -26077,7 +26077,7 @@ desktopMode
 =
 aDesktopMode
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -27905,7 +27905,7 @@ should
 be
 visible
 .
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -27964,7 +27964,7 @@ parentId
 =
 newParentId
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29226,7 +29226,7 @@ jsonMessage
 )
 return
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29274,7 +29274,7 @@ contentDocument
 )
 return
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29282,6 +29282,8 @@ sendRequest
 type
 :
 "
+Content
+:
 DOMTitleChanged
 "
 tabID
@@ -29417,7 +29419,7 @@ type
 DOMAudioPlaybackStarted
 "
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29491,7 +29493,7 @@ preventDefault
 (
 )
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29676,7 +29678,7 @@ DOMServiceWorkerFocusClient
 "
 :
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -29686,13 +29688,16 @@ type
 "
 Tab
 :
-SelectAndForeground
+Select
 "
 tabID
 :
 this
 .
 id
+foreground
+:
+true
 }
 )
 ;
@@ -29817,7 +29822,7 @@ userRequested
 "
 ;
 }
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -30451,7 +30456,7 @@ success
 success
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -31430,7 +31435,7 @@ webNav
 canGoForward
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -31650,7 +31655,7 @@ identity
 identity
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -32452,7 +32457,7 @@ resume
 "
 ;
 }
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -43563,7 +43568,7 @@ visible
 false
 }
 ;
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
