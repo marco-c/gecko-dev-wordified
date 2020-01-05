@@ -865,6 +865,11 @@ en
 )
 ;
 void
+SetShortHeadersEnabled
+(
+)
+;
+void
 SetVersionRange
 (
 uint16_t
@@ -920,6 +925,11 @@ EnableFalseStart
 ;
 void
 ExpectResumption
+(
+)
+;
+void
+ExpectShortHeaders
 (
 )
 ;
@@ -2165,6 +2175,9 @@ auth_certificate_callback_
 ;
 SniCallbackFunction
 sni_callback_
+;
+bool
+expect_short_headers_
 ;
 }
 ;

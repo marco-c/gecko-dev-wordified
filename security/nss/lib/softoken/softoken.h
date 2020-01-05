@@ -971,6 +971,12 @@ defined
 (
 LINUX
 )
+|
+|
+defined
+(
+__GLIBC__
+)
 #
 define
 CHECK_FORK_PTHREAD

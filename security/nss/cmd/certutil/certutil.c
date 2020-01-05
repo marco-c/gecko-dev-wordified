@@ -278,6 +278,9 @@ const
 SECItem
 *
 reqDER
+void
+*
+pwarg
 )
 {
 CERTCertificateRequest
@@ -441,12 +444,7 @@ certReq
 -
 >
 subjectPublicKeyInfo
-NULL
-/
-*
-wincx
-*
-/
+pwarg
 )
 ;
 }
@@ -16140,6 +16138,7 @@ certReq
 GetCertRequest
 (
 certReqDER
+pwarg
 )
 ;
 if

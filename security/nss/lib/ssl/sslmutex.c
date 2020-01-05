@@ -391,6 +391,7 @@ BSDI
 )
 |
 |
+\
 (
 defined
 (
@@ -407,6 +408,12 @@ __NetBSD_Version__
 defined
 (
 OPENBSD
+)
+|
+|
+defined
+(
+__GLIBC__
 )
 #
 include

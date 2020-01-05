@@ -3195,6 +3195,16 @@ n
 )
 ;
 }
+signerinfo
+-
+>
+cmsg
+-
+>
+pwfn_arg
+=
+pwcb_arg
+;
 /
 *
 we

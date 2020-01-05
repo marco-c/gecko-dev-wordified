@@ -31,7 +31,9 @@ win32
 :
         
 print
+(
 0
+)
     
 else
 :
@@ -65,6 +67,7 @@ subprocess
 .
 check_output
 (
+              
 [
 cc
 '
@@ -73,6 +76,9 @@ cc
 version
 '
 ]
+universal_newlines
+=
+True
 )
         
 except
@@ -97,9 +103,11 @@ cc_is_clang
 False
         
 print
+(
 int
 (
 cc_is_clang
+)
 )
 if
 __name__
