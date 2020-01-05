@@ -1983,8 +1983,8 @@ early
 deactivating
 stream
 %
-ld
 "
+PRIu32
 aState
 -
 >
@@ -2052,8 +2052,8 @@ packet
 deactivating
 stream
 %
-ld
 "
+PRIu32
 aState
 -
 >
@@ -2342,8 +2342,8 @@ Deactivating
 skeleton
 stream
 %
-ld
 "
+PRIu32
 mSkeletonState
 -
 >
@@ -2474,8 +2474,8 @@ from
 Skeleton
 index
 %
-lld
 "
+PRId64
 duration
 )
 ;
@@ -3723,8 +3723,8 @@ stream
 start
 time
 %
-lld
 "
+PRId64
 startTime
 )
 ;
@@ -3900,8 +3900,8 @@ seeking
 to
 end
 %
-lld
 "
+PRId64
 endTime
 )
 ;
@@ -6660,8 +6660,8 @@ FindStartTime
 video
 =
 %
-lld
 "
+PRId64
 videoStartTime
 )
 ;
@@ -6718,8 +6718,8 @@ FindStartTime
 audio
 =
 %
-lld
 "
+PRId64
 audioStartTime
 )
 ;
@@ -6869,8 +6869,8 @@ to
 seek
 to
 %
-lld
 "
+PRId64
 target
 )
 ;
@@ -7505,8 +7505,8 @@ after
 seeking
 at
 %
-lld
 "
+PRId64
 startTstamp
 )
 ;
@@ -7871,7 +7871,9 @@ keyframe
 at
 offset
 %
-lld
+"
+PRId64
+"
 \
 n
 "
@@ -8762,8 +8764,8 @@ seeked
 to
 time
 %
-lld
 "
+PRId64
 this
 seekTime
 .
@@ -11077,7 +11079,9 @@ buffered
 data
 to
 %
-lld
+"
+PRId64
+"
 using
 bisection
 search
@@ -11415,7 +11419,9 @@ unbuffered
 data
 to
 %
-lld
+"
+PRId64
+"
 using
 bisection
 search
