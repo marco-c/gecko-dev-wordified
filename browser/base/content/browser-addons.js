@@ -5105,13 +5105,12 @@ image
 *
 property
 of
-the
-respective
+all
 rulesets
 in
-tabs
-.
-inc
+browser
+-
+lightweightTheme
 .
 css
 .
