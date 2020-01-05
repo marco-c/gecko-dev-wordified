@@ -194,8 +194,6 @@ postal
 code
 "
 }
-/
-/
 {
 "
 section
@@ -227,8 +225,6 @@ exp
 month
 "
 }
-/
-/
 {
 "
 section
