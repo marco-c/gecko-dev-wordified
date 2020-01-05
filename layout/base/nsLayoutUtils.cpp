@@ -32900,7 +32900,9 @@ aFrame
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 devSize
 &
@@ -46039,7 +46041,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_WIN_GLASS
@@ -46057,7 +46061,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_WIN_BORDERLESS_GLASS

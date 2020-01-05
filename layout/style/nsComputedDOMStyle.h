@@ -1349,6 +1349,14 @@ DoGetAppearance
 (
 )
 ;
+already_AddRefed
+<
+CSSValue
+>
+DoGetMozAppearance
+(
+)
+;
 /
 *
 Box
