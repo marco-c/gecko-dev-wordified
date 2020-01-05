@@ -12545,6 +12545,13 @@ metrics
 array
 length
 .
+virtual
+void
+ClearCachedResources
+(
+)
+{
+}
 private
 :
 void

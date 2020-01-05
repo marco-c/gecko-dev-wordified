@@ -2156,13 +2156,6 @@ mShadow
 nullptr
 ;
 }
-virtual
-void
-ClearCachedResources
-(
-)
-{
-}
 /
 /
 Shrink
