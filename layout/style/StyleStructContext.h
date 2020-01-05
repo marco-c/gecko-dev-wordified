@@ -411,6 +411,7 @@ public
 MOZ_IMPLICIT
 StyleStructContext
 (
+const
 nsPresContext
 *
 aPresContext
@@ -782,6 +783,7 @@ nullptr
 )
 {
 }
+const
 nsPresContext
 *
 mPresContext
