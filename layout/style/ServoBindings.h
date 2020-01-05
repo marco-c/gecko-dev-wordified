@@ -3128,6 +3128,12 @@ uint32_t
 len
 )
 ;
+nsCSSValueSharedList
+*
+Gecko_NewNoneTransform
+(
+)
+;
 /
 /
 Getter
