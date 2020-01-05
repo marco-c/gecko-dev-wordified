@@ -373,6 +373,17 @@ self
 .
 remoteChromeTestDir
 )
+        
+self
+.
+_dm
+.
+removeDir
+(
+self
+.
+remoteProfile
+)
     
 def
 cleanup
@@ -2528,6 +2539,13 @@ dirname
 options
 .
 remoteLogFile
+)
+    
+dm
+.
+removeDir
+(
+logParent
 )
     
 dm
