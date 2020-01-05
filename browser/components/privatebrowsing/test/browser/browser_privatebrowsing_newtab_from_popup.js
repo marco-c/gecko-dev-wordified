@@ -230,9 +230,7 @@ isWindowPrivate
 privWin
 )
 "
-Could
-not
-open
+Opened
 a
 private
 browsing
@@ -313,6 +311,8 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+true
+POPUP_LINK
 )
 ;
 yield
@@ -347,7 +347,6 @@ popupWin
 Popup
 window
 was
-not
 private
 .
 "
@@ -400,14 +399,6 @@ popupWin
 gBrowser
 .
 selectedBrowser
-;
-yield
-BrowserTestUtils
-.
-browserLoaded
-(
-popupBrowser
-)
 ;
 yield
 BrowserTestUtils
