@@ -222,7 +222,7 @@ this
 )
 mParentDoc
 (
-nullptr
+kNoParentDoc
 )
 mTopLevel
 (
@@ -783,11 +783,14 @@ ParentDoc
 (
 )
 const
-{
-return
-mParentDoc
 ;
-}
+static
+const
+int32_t
+kNoParentDoc
+=
+INT32_MIN
+;
 /
 *
 *
@@ -918,7 +921,7 @@ aChildDoc
 >
 mParentDoc
 =
-nullptr
+kNoParentDoc
 ;
 MOZ_ASSERT
 (
@@ -1345,8 +1348,7 @@ DocAccessibleParent
 >
 mChildDocs
 ;
-DocAccessibleParent
-*
+int32_t
 mParentDoc
 ;
 #
