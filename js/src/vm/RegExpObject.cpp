@@ -1654,12 +1654,13 @@ configurable
 *
 /
 return
-self
--
->
+NativeObject
+:
+:
 addDataProperty
 (
 cx
+self
 cx
 -
 >

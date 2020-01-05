@@ -5086,6 +5086,7 @@ scope
 .
 *
 /
+static
 Shape
 *
 addDataProperty
@@ -5093,6 +5094,8 @@ addDataProperty
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 jsid
 id_
 uint32_t
@@ -5101,6 +5104,7 @@ unsigned
 attrs
 )
 ;
+static
 Shape
 *
 addDataProperty
@@ -5108,6 +5112,8 @@ addDataProperty
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 HandlePropertyName
 name
 uint32_t
