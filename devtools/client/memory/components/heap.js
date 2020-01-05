@@ -1362,7 +1362,7 @@ className
 "
 devtools
 -
-toolbarbutton
+button
 take
 -
 snapshot
@@ -1374,15 +1374,6 @@ onSnapshotClick
 data
 -
 standalone
-"
-:
-true
-"
-data
--
-text
--
-only
 "
 :
 true

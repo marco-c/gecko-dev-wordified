@@ -1444,9 +1444,6 @@ snapshot
 className
 :
 "
-devtools
--
-toolbarbutton
 import
 -
 snapshot
