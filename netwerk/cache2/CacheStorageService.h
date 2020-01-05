@@ -649,6 +649,14 @@ EntryInfoCallback
 aVisitor
 )
 ;
+static
+uint32_t
+CacheQueueSize
+(
+bool
+highPriority
+)
+;
 /
 /
 Memory

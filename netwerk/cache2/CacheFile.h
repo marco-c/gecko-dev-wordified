@@ -581,6 +581,14 @@ uint32_t
 _retval
 )
 ;
+nsresult
+GetDiskStorageSizeInKB
+(
+uint32_t
+*
+aDiskStorageSize
+)
+;
 /
 /
 Called
