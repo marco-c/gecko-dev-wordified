@@ -1278,12 +1278,9 @@ cgRoot
 CGList
 (
 [
-CGIndenter
-(
 getPerSignatureCall
 (
 signature
-)
 )
 ]
 )
@@ -1364,12 +1361,9 @@ prepend
                     
 CGWrapper
 (
-CGIndenter
-(
 CGGeneric
 (
 code
-)
 )
 pre
 =
@@ -3038,8 +3032,6 @@ cgRoot
 =
 CGWrapper
 (
-CGIndenter
-(
 CGList
 (
 overloadCGThings
@@ -3047,7 +3039,6 @@ overloadCGThings
 \
 n
 "
-)
 )
                                 
 pre
@@ -13722,80 +13713,74 @@ else
 "
     
 def
-_unsafe_open
-(
-self
-)
-:
-        
-return
-"
-\
-n
-unsafe
-{
-\
-n
-"
-if
-self
-.
-unsafe
-else
-"
-"
-    
-def
-_unsafe_close
-(
-self
-)
-:
-        
-return
-"
-\
-n
-}
-\
-n
-"
-if
-self
-.
-unsafe
-else
-"
-"
-    
-def
 define
 (
 self
 )
 :
         
-return
-self
-.
-definition_prologue
-(
-)
-+
-"
-\
-n
-"
-+
+body
+=
 self
 .
 definition_body
 (
 )
-+
+        
+if
+self
+.
+unsafe
+:
+            
+body
+=
+CGWrapper
+(
+body
+pre
+=
+"
+unsafe
+{
+\
+n
+"
+post
+=
+"
+\
+n
+}
+"
+)
+        
+return
+CGWrapper
+(
+CGIndenter
+(
+body
+)
+                         
+pre
+=
+self
+.
+definition_prologue
+(
+)
+                         
+post
+=
 self
 .
 definition_epilogue
+(
+)
+)
+.
+define
 (
 )
     
@@ -13821,8 +13806,8 @@ s
 %
 s
 {
-%
-s
+\
+n
 "
 %
 (
@@ -13839,7 +13824,7 @@ self
 _template
 (
 )
-                                        
+                                          
 self
 .
 _argstring
@@ -13848,11 +13833,6 @@ _argstring
 self
 .
 _returnType
-(
-)
-self
-.
-_unsafe_open
 (
 )
 )
@@ -13866,18 +13846,12 @@ self
         
 return
 "
-%
-s
+\
+n
 }
 \
 n
 "
-%
-self
-.
-_unsafe_close
-(
-)
     
 def
 definition_body
@@ -13953,7 +13927,6 @@ create
 "
 "
 "
-  
 let
 js_info
 =
@@ -13971,7 +13944,6 @@ js_info
 (
 )
 ;
-  
 let
 handler
 =
@@ -14006,7 +13978,6 @@ uint
 )
 )
 ;
-  
 let
 mut
 private
@@ -14025,7 +13996,6 @@ libc
 c_void
 )
 ;
-  
 let
 obj
 =
@@ -14036,20 +14006,20 @@ proto
 |
 |
 {
-    
+  
 NewProxyObject
 (
 aCx
 *
 handler
-                   
+                 
 &
 private
-                   
+                 
 proto
 %
 s
-                   
+                 
 ptr
 :
 :
@@ -14063,11 +14033,9 @@ mut_null
 (
 )
 )
-  
 }
 )
 ;
-  
 assert
 !
 (
@@ -14201,14 +14169,13 @@ is_not_null
 )
 )
 ;
-  
 JS_SetReservedSlot
 (
 obj
 DOM_OBJECT_SLOT
 as
 u32
-                     
+                   
 PrivateValue
 (
 squirrel_away_unique
@@ -14398,10 +14365,12 @@ createGlobal
 :
             
 return
+CGGeneric
+(
 "
 "
 "
-  
+\
 let
 scope
 =
@@ -14415,7 +14384,6 @@ get_jsobject
 (
 )
 ;
-  
 assert
 !
 (
@@ -14426,7 +14394,6 @@ is_not_null
 )
 )
 ;
-  
 assert
 !
 (
@@ -14448,7 +14415,6 @@ JSCLASS_IS_GLOBAL
 0
 )
 ;
-  
 let
 proto
 =
@@ -14466,7 +14432,6 @@ scope
 )
 )
 ;
-  
 assert
 !
 (
@@ -14479,7 +14444,6 @@ is_not_null
 ;
 %
 s
-  
 raw
 .
 reflector
@@ -14491,7 +14455,6 @@ set_jsobject
 obj
 )
 ;
-  
 return
 raw
 ;
@@ -14508,17 +14471,20 @@ descriptor
 scope
 "
 )
+)
         
 else
 :
             
 return
+CGGeneric
+(
 "
 "
 "
+\
 %
 s
-  
 with_compartment
 (
 aCx
@@ -14526,7 +14492,7 @@ obj
 |
 |
 {
-    
+  
 let
 proto
 =
@@ -14537,7 +14503,7 @@ obj
 obj
 )
 ;
-    
+  
 JS_SetPrototype
 (
 aCx
@@ -14545,11 +14511,9 @@ obj
 proto
 )
 ;
-  
 }
 )
 ;
-  
 raw
 .
 reflector
@@ -14561,7 +14525,6 @@ set_jsobject
 obj
 )
 ;
-  
 return
 raw
 ;
@@ -14574,6 +14537,7 @@ CreateBindingJSObject
 self
 .
 descriptor
+)
 )
 class
 CGIDLInterface
@@ -15505,17 +15469,16 @@ staticMethods
 )
 )
         
-functionBody
-=
+return
 CGList
 (
-            
 [
+            
 CGGeneric
 (
 getParentProto
 )
-             
+            
 CGGeneric
 (
 call
@@ -15528,57 +15491,12 @@ variableNames
 (
 )
 )
+        
 ]
-            
 "
 \
 n
-\
-n
 "
-)
-        
-#
-return
-CGIndenter
-(
-CGWrapper
-(
-functionBody
-pre
-=
-"
-/
-*
-"
-post
-=
-"
-*
-/
-return
-ptr
-:
-:
-null
-(
-)
-"
-)
-)
-.
-define
-(
-)
-        
-return
-CGIndenter
-(
-functionBody
-)
-.
-define
-(
 )
 class
 CGGetPerInterfaceObject
@@ -15716,10 +15634,11 @@ self
 :
         
 return
+CGGeneric
+(
 "
 "
 "
-  
 /
 *
 aGlobal
@@ -15734,7 +15653,7 @@ they
 can
 be
 different
-     
+   
 too
 .
 For
@@ -15751,7 +15670,7 @@ a
 window
 as
 the
-     
+   
 prototype
 of
 the
@@ -15767,7 +15686,7 @@ aReceiver
 is
 the
 xray
-     
+   
 wrapper
 and
 aGlobal
@@ -15778,10 +15697,9 @@ sandbox
 s
 global
 .
-   
+ 
 *
 /
-  
 assert
 !
 (
@@ -15803,7 +15721,6 @@ JSCLASS_DOM_GLOBAL
 0
 )
 ;
-  
 /
 *
 Check
@@ -15818,7 +15735,6 @@ already
 installed
 *
 /
-  
 let
 protoOrIfaceArray
 =
@@ -15827,7 +15743,6 @@ GetProtoOrIfaceArray
 aGlobal
 )
 ;
-  
 let
 cachedObject
 :
@@ -15846,7 +15761,6 @@ as
 int
 )
 ;
-  
 if
 cachedObject
 .
@@ -15854,7 +15768,7 @@ is_null
 (
 )
 {
-    
+  
 let
 tmp
 :
@@ -15869,7 +15783,7 @@ aGlobal
 aReceiver
 )
 ;
-    
+  
 assert
 !
 (
@@ -15880,7 +15794,7 @@ is_not_null
 )
 )
 ;
-    
+  
 *
 protoOrIfaceArray
 .
@@ -15894,15 +15808,13 @@ int
 =
 tmp
 ;
-    
-tmp
   
+tmp
 }
 else
 {
-    
-cachedObject
   
+cachedObject
 }
 "
 "
@@ -15915,6 +15827,7 @@ id
 self
 .
 id
+)
 )
 class
 CGGetProtoObjectMethod
@@ -15977,10 +15890,16 @@ self
 :
         
 return
+CGList
+(
+[
+            
+CGGeneric
+(
 "
 "
 "
-  
+\
 /
 *
 Get
@@ -15996,7 +15915,7 @@ This
 will
 create
 the
-     
+   
 object
 as
 needed
@@ -16006,12 +15925,16 @@ needed
 "
 "
 "
-+
+)
+            
 CGGetPerInterfaceObject
 .
 definition_body
 (
 self
+)
+        
+]
 )
 class
 CGGetConstructorObjectMethod
@@ -16071,10 +15994,16 @@ self
 :
         
 return
+CGList
+(
+[
+            
+CGGeneric
+(
 "
 "
 "
-  
+\
 /
 *
 Get
@@ -16091,7 +16020,7 @@ create
 the
 object
 as
-     
+   
 needed
 .
 *
@@ -16099,12 +16028,16 @@ needed
 "
 "
 "
-+
+)
+            
 CGGetPerInterfaceObject
 .
 definition_body
 (
 self
+)
+        
+]
 )
 class
 CGDefineDOMInterfaceMethod
@@ -16223,8 +16156,11 @@ self
         
 body
 =
-"
-"
+CGList
+(
+[
+]
+)
         
 #
 XXXjdm
@@ -16257,8 +16193,11 @@ proxy
 :
             
 body
-+
-=
+.
+append
+(
+CGGeneric
+(
 "
 "
 "
@@ -16267,28 +16206,28 @@ traps
 =
 ProxyTraps
 {
-    
+  
 getPropertyDescriptor
 :
 Some
 (
 getPropertyDescriptor
 )
-    
+  
 getOwnPropertyDescriptor
 :
 Some
 (
 getOwnPropertyDescriptor
 )
-    
+  
 defineProperty
 :
 Some
 (
 defineProperty
 )
-    
+  
 getOwnPropertyNames
 :
 ptr
@@ -16297,11 +16236,11 @@ ptr
 null
 (
 )
-    
+  
 delete_
 :
 None
-    
+  
 enumerate
 :
 ptr
@@ -16310,29 +16249,29 @@ ptr
 null
 (
 )
-    
+  
 has
 :
 None
-    
+  
 hasOwn
 :
 Some
 (
 hasOwn
 )
-    
+  
 get
 :
 Some
 (
 get
 )
-    
+  
 set
 :
 None
-    
+  
 keys
 :
 ptr
@@ -16341,19 +16280,19 @@ ptr
 null
 (
 )
-    
+  
 iterate
 :
 None
-    
+  
 call
 :
 None
-    
+  
 construct
 :
 None
-    
+  
 nativeCall
 :
 ptr
@@ -16362,30 +16301,30 @@ ptr
 null
 (
 )
-    
+  
 hasInstance
 :
 None
-    
+  
 typeOf
 :
 None
-    
+  
 objectClassIs
 :
 None
-    
+  
 obj_toString
 :
 Some
 (
 obj_toString
 )
-    
+  
 fun_toString
 :
 None
-    
+  
 /
 /
 regexp_toShared
@@ -16396,15 +16335,15 @@ ptr
 null
 (
 )
-    
+  
 defaultValue
 :
 None
-    
+  
 iteratorNext
 :
 None
-    
+  
 finalize
 :
 Some
@@ -16412,15 +16351,15 @@ Some
 %
 s
 )
-    
+  
 getElementIfPresent
 :
 None
-    
+  
 getPrototypeOf
 :
 None
-    
+  
 trace
 :
 Some
@@ -16428,10 +16367,8 @@ Some
 %
 s
 )
-  
 }
 ;
-  
 js_info
 .
 dom_static
@@ -16450,7 +16387,7 @@ id
 s
 as
 uint
-                                           
+                                         
 CreateProxyHandler
 (
 &
@@ -16481,6 +16418,8 @@ descriptor
 .
 name
 )
+)
+)
         
 if
 self
@@ -16495,8 +16434,11 @@ hasInterfaceObject
 :
             
 body
-+
-=
+.
+append
+(
+CGGeneric
+(
 "
 "
 "
@@ -16513,7 +16455,6 @@ js_context
 .
 ptr
 ;
-  
 let
 global
 =
@@ -16527,7 +16468,6 @@ get_jsobject
 (
 )
 ;
-  
 assert
 !
 (
@@ -16538,7 +16478,6 @@ is_not_null
 )
 )
 ;
-  
 assert
 !
 (
@@ -16557,6 +16496,8 @@ is_not_null
 "
 "
 "
+)
+)
         
 return
 body
@@ -18910,11 +18851,9 @@ unwrapFailureCode
         
 unwrapThis
 =
-CGIndenter
-(
-            
 CGGeneric
 (
+            
 "
 let
 obj
@@ -18936,7 +18875,7 @@ JSVal
 \
 n
 "
-                      
+            
 "
 if
 obj
@@ -18948,7 +18887,7 @@ is_null
 \
 n
 "
-                      
+            
 "
 return
 false
@@ -18958,18 +18897,18 @@ JSBool
 \
 n
 "
-                      
+            
 "
 }
 \
 n
 "
-                      
+            
 "
 \
 n
 "
-                      
+            
 "
 let
 this
@@ -18996,7 +18935,6 @@ concreteType
 unwrapThis
 )
 )
-)
         
 return
 CGList
@@ -19013,10 +18951,6 @@ generate_code
 \
 n
 "
-)
-.
-define
-(
 )
     
 def
@@ -19132,8 +19066,6 @@ self
 :
         
 return
-CGIndenter
-(
 CGGeneric
 (
             
@@ -19180,7 +19112,6 @@ vp
 )
 ;
 "
-)
 )
 class
 CGSpecializedMethod
@@ -19383,7 +19314,6 @@ this
 \
 n
 "
-+
                              
 "
 let
@@ -19399,10 +19329,6 @@ root
 \
 n
 "
-)
-.
-define
-(
 )
 class
 CGGenericGetter
@@ -19571,8 +19497,6 @@ self
 :
         
 return
-CGIndenter
-(
 CGGeneric
 (
             
@@ -19620,7 +19544,6 @@ vp
 \
 n
 "
-)
 )
 class
 CGSpecializedGetter
@@ -19827,8 +19750,6 @@ nativeName
 return
 CGWrapper
 (
-CGIndenter
-(
 CGGetterCall
 (
 [
@@ -19839,14 +19760,13 @@ attr
 .
 type
 nativeName
-                                                 
+                                      
 self
 .
 descriptor
 self
 .
 attr
-)
 )
                          
 pre
@@ -19866,7 +19786,6 @@ this
 \
 n
 "
-+
                              
 "
 let
@@ -19882,10 +19801,6 @@ root
 \
 n
 "
-)
-.
-define
-(
 )
 class
 CGGenericSetter
@@ -20035,8 +19950,6 @@ self
 :
         
 return
-CGIndenter
-(
 CGGeneric
 (
                 
@@ -20167,7 +20080,6 @@ return
 1
 ;
 "
-)
 )
 class
 CGSpecializedSetter
@@ -20320,8 +20232,6 @@ name
 return
 CGWrapper
 (
-CGIndenter
-(
 CGSetterCall
 (
 [
@@ -20331,7 +20241,7 @@ self
 attr
 .
 type
-                                                 
+                                      
 "
 Set
 "
@@ -20340,14 +20250,13 @@ MakeNativeName
 (
 name
 )
-                                                 
+                                      
 self
 .
 descriptor
 self
 .
 attr
-)
 )
                          
 pre
@@ -20367,7 +20276,6 @@ this
 \
 n
 "
-+
                              
 "
 let
@@ -20383,10 +20291,6 @@ root
 \
 n
 "
-)
-.
-define
-(
 )
 class
 CGMemberJITInfo
@@ -27878,6 +27782,8 @@ self
 :
         
 return
+CGGeneric
+(
 "
 "
 "
@@ -27897,7 +27803,7 @@ obj
 )
 )
 {
-    
+  
 obj
 =
 js
@@ -27908,11 +27814,9 @@ UnwrapObject
 obj
 )
 ;
-  
 }
 *
 /
-  
 /
 /
 MOZ_ASSERT
@@ -27923,7 +27827,6 @@ obj
 )
 )
 ;
-  
 let
 box_
 =
@@ -27940,7 +27843,6 @@ as
 %
 s
 ;
-  
 return
 box_
 ;
@@ -27948,7 +27850,6 @@ box_
 "
 "
 %
-(
 self
 .
 descriptor
@@ -29018,10 +28919,13 @@ self
 :
         
 return
+CGGeneric
+(
 self
 .
 getBody
 (
+)
 )
 class
 CGDOMJSProxyHandler_defineProperty
@@ -29761,10 +29665,13 @@ self
 :
         
 return
+CGGeneric
+(
 self
 .
 getBody
 (
+)
 )
 class
 CGDOMJSProxyHandler_hasOwn
@@ -30304,10 +30211,13 @@ self
 :
         
 return
+CGGeneric
+(
 self
 .
 getBody
 (
+)
 )
 class
 CGDOMJSProxyHandler_get
@@ -30937,10 +30847,13 @@ self
 :
         
 return
+CGGeneric
+(
 self
 .
 getBody
 (
+)
 )
 class
 CGDOMJSProxyHandler_obj_toString
@@ -31210,13 +31123,12 @@ with_ref
 s
 |
 {
-      
+  
 _obj_toString
 (
 cx
 s
 )
-    
 }
 )
 "
@@ -31237,10 +31149,13 @@ self
 :
         
 return
+CGGeneric
+(
 self
 .
 getBody
 (
+)
 )
 class
 CGAbstractClassHook
@@ -31318,10 +31233,12 @@ self
 :
         
 return
+CGGeneric
+(
 "
 "
 "
-  
+\
 let
 this
 :
@@ -31356,6 +31273,7 @@ descriptor
 .
 concreteType
 )
+)
     
 def
 definition_body
@@ -31365,16 +31283,23 @@ self
 :
         
 return
+CGList
+(
+[
+            
 self
 .
 definition_body_prologue
 (
 )
-+
+            
 self
 .
 generate_code
 (
+)
+        
+]
 )
     
 def
@@ -31557,6 +31482,8 @@ self
 :
         
 return
+CGGeneric
+(
 "
 (
 *
@@ -31579,6 +31506,7 @@ args
 ]
 .
 name
+)
 class
 CGClassConstructHook
 (
@@ -31707,26 +31635,14 @@ self
 )
 :
         
-return
-self
-.
-generate_code
-(
-)
-    
-def
-generate_code
-(
-self
-)
-:
-        
 preamble
 =
+CGGeneric
+(
 "
 "
 "
-  
+\
 let
 global
 =
@@ -31747,7 +31663,6 @@ root
 (
 )
 ;
-  
 let
 obj
 =
@@ -31768,6 +31683,7 @@ get_jsobject
 "
 "
 "
+)
         
 nativeName
 =
@@ -31808,14 +31724,13 @@ _ctor
 )
         
 return
-preamble
-+
-callGenerator
-.
-define
+CGList
 (
+[
+preamble
+callGenerator
+]
 )
-;
 class
 CGClassFinalizeHook
 (
@@ -31900,8 +31815,6 @@ self
 :
         
 return
-CGIndenter
-(
 CGGeneric
 (
 finalizeHook
@@ -31921,11 +31834,6 @@ args
 .
 name
 )
-)
-)
-.
-define
-(
 )
 class
 CGDOMJSProxyHandlerDOMClass
@@ -34495,15 +34403,19 @@ config
 config
     
 def
-_registerProtos
+definition_body
 (
 self
 )
 :
         
-lines
-=
+return
+CGList
+(
 [
+            
+CGGeneric
+(
 "
 codegen
 :
@@ -34526,7 +34438,8 @@ js_info
 desc
 .
 name
-                 
+)
+            
 for
 desc
 in
@@ -34539,41 +34452,16 @@ getDescriptors
 isCallback
 =
 False
-                                                        
 register
 =
 True
 )
+        
 ]
-        
-return
-'
+"
 \
 n
-'
-.
-join
-(
-lines
-)
-+
-'
-\
-n
-'
-    
-def
-definition_body
-(
-self
-)
-:
-        
-return
-self
-.
-_registerProtos
-(
+"
 )
 class
 CGBindingRoot
