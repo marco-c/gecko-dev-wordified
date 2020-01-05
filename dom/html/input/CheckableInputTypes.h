@@ -212,6 +212,13 @@ aInputElement
 )
 ;
 }
+bool
+IsValueMissing
+(
+)
+const
+override
+;
 private
 :
 explicit
