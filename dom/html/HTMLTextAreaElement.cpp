@@ -3387,7 +3387,7 @@ ErrorResult
 aError
 )
 {
-int32_t
+uint32_t
 selStart
 selEnd
 ;
@@ -3451,7 +3451,7 @@ ErrorResult
 aError
 )
 {
-int32_t
+uint32_t
 selStart
 selEnd
 ;
@@ -3507,10 +3507,10 @@ HTMLTextAreaElement
 :
 GetSelectionRange
 (
-int32_t
+uint32_t
 *
 aSelectionStart
-int32_t
+uint32_t
 *
 aSelectionEnd
 ErrorResult
