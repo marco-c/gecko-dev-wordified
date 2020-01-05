@@ -396,7 +396,7 @@ AddPendingMarker
 const
 char
 *
-aMarkerName
+aMarkerStr
 ProfilerMarkerPayload
 *
 aPayload
@@ -411,7 +411,7 @@ marker
 new
 ProfilerMarker
 (
-aMarkerName
+aMarkerStr
 aPayload
 aTime
 )
