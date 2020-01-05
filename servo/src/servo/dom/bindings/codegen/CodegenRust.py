@@ -15936,8 +15936,6 @@ infallible
         
 protoID
 =
-0
-#
 "
 prototypes
 :
@@ -15947,6 +15945,8 @@ id
 :
 %
 s
+as
+uint
 "
 %
 self
@@ -15957,20 +15957,15 @@ name
         
 depth
 =
-0
-#
-"
-PrototypeTraits
-<
-%
-s
->
-:
-:
-Depth
-"
-%
-protoID
+self
+.
+descriptor
+.
+interface
+.
+inheritanceDepth
+(
+)
         
 failstr
 =
