@@ -11281,6 +11281,8 @@ viewport
 curContainer
 .
 frame
+.
+document
 highlightEls
 )
 ;
