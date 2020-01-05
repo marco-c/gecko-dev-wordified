@@ -643,6 +643,10 @@ mIsServerSide
 (
 false
 )
+mSecure
+(
+false
+)
 mOnCloseScheduled
 (
 false
