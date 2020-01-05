@@ -187,16 +187,6 @@ INVALID_CACHE_ID
 struct
 QuotaInfo
 {
-QuotaInfo
-(
-)
-:
-mIsApp
-(
-false
-)
-{
-}
 nsCOMPtr
 <
 nsIFile
@@ -211,9 +201,6 @@ mGroup
 ;
 nsCString
 mOrigin
-;
-bool
-mIsApp
 ;
 }
 ;

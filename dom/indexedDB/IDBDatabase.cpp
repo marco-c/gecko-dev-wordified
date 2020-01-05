@@ -5568,7 +5568,6 @@ nullptr
 nullptr
 &
 aOrigin
-nullptr
 )
 ;
 return
@@ -5625,7 +5624,6 @@ nullptr
 nullptr
 &
 aOrigin
-nullptr
 )
 ;
 if

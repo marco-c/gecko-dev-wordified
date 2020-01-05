@@ -278,13 +278,8 @@ nullptr
 group
 &
 quotaOrigin
-nullptr
 )
 ;
-/
-/
-is
-app
 if
 (
 NS_WARN_IF
