@@ -1500,13 +1500,7 @@ nsIDocument
 aResult
 )
 {
-mozilla
-:
-:
-dom
-:
-:
-PluginDocument
+auto
 *
 doc
 =

@@ -564,7 +564,7 @@ forget
 )
 )
 ;
-ManagerThreadShutdownObserver
+auto
 *
 obs
 =

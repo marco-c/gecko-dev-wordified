@@ -34847,7 +34847,7 @@ ll
 send
 an
 array
-ClassMatchingInfo
+auto
 *
 info
 =
@@ -50463,7 +50463,7 @@ moz
 continue
 ;
 }
-nsAutoString
+auto
 *
 attValue
 =

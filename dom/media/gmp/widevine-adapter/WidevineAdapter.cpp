@@ -685,7 +685,7 @@ return
 GMPGenericErr
 ;
 }
-WidevineDecryptor
+auto
 *
 decryptor
 =

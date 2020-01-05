@@ -11611,7 +11611,7 @@ mLength
 )
 ;
 }
-InputStreamChild
+auto
 *
 streamActor
 =
@@ -15496,7 +15496,7 @@ blobData
 ;
 }
 }
-BlobChild
+auto
 *
 actor
 =
@@ -15775,7 +15775,7 @@ id
 (
 )
 ;
-BlobChild
+auto
 *
 newActor
 =
@@ -18020,7 +18020,7 @@ MOZ_ASSERT
 idTableEntry
 )
 ;
-BlobParent
+auto
 *
 actor
 =

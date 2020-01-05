@@ -5298,7 +5298,7 @@ MaybeFileDesc
 aDMDFile
 )
 {
-MemoryReportRequestChild
+auto
 *
 actor
 =
@@ -5844,7 +5844,7 @@ FileDescriptor
 aCCLog
 )
 {
-CycleCollectWithLogsChild
+auto
 *
 actor
 =
@@ -9761,7 +9761,7 @@ PBrowserChild
 aBrowser
 )
 {
-ExternalHelperAppChild
+auto
 *
 child
 =
@@ -9825,7 +9825,7 @@ AllocPHandlerServiceChild
 (
 )
 {
-HandlerServiceChild
+auto
 *
 actor
 =
@@ -10054,7 +10054,7 @@ AllocPWebrtcGlobalChild
 #
 ifdef
 MOZ_WEBRTC
-WebrtcGlobalChild
+auto
 *
 child
 =

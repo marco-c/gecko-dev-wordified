@@ -2263,7 +2263,7 @@ TestStorage
 (
 )
 {
-TestManager
+auto
 *
 testManager
 =

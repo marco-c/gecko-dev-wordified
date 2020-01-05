@@ -5576,7 +5576,7 @@ GetOrCreate
 (
 )
 ;
-HangMonitorParent
+auto
 *
 parent
 =
@@ -5586,7 +5586,7 @@ HangMonitorParent
 monitor
 )
 ;
-HangMonitoredProcess
+auto
 *
 process
 =
@@ -5718,7 +5718,7 @@ GetOrCreate
 (
 )
 ;
-HangMonitorChild
+auto
 *
 child
 =

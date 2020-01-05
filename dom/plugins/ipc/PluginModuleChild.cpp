@@ -678,7 +678,7 @@ ProcessId
 aOtherPid
 )
 {
-PluginModuleChild
+auto
 *
 child
 =
@@ -5718,7 +5718,7 @@ NullableString
 aRelativeURL
 )
 ;
-StreamNotifyChild
+auto
 *
 sn
 =
@@ -6240,7 +6240,7 @@ NullableString
 aRelativeURL
 )
 ;
-StreamNotifyChild
+auto
 *
 sn
 =

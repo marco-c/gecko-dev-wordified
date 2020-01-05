@@ -15761,7 +15761,7 @@ guard
 this
 )
 ;
-PluginStreamChild
+auto
 *
 ps
 =
@@ -24156,7 +24156,7 @@ TimerFunc
 func
 )
 {
-ChildTimer
+auto
 *
 t
 =

@@ -10242,7 +10242,7 @@ also
 for
 caching
 .
-nsMessageManagerScriptHolder
+auto
 *
 holder
 =
@@ -12041,7 +12041,7 @@ MessageManagerReporter
 )
 ;
 }
-nsFrameMessageManager
+auto
 *
 mm
 =
