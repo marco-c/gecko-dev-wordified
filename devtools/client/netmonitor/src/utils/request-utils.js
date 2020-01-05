@@ -1037,8 +1037,6 @@ url
 )
 {
 return
-decodeUnicodeUrl
-(
 (
 new
 URL
@@ -1058,7 +1056,6 @@ replace
 /
 "
 "
-)
 )
 ;
 }
