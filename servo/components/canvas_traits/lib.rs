@@ -895,6 +895,7 @@ u32
 CompileShader
 (
 u32
+String
 )
 CreateBuffer
 (
@@ -1029,17 +1030,6 @@ EnableVertexAttribArray
 (
 u32
 )
-GetShaderInfoLog
-(
-u32
-IpcSender
-<
-Option
-<
-String
->
->
-)
 GetShaderParameter
 (
 u32
@@ -1095,11 +1085,6 @@ i32
 LinkProgram
 (
 u32
-)
-ShaderSource
-(
-u32
-String
 )
 Uniform4fv
 (
