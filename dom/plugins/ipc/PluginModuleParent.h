@@ -1231,7 +1231,7 @@ ipc
 :
 :
 IPCResult
-RecvGetKeyState
+AnswerGetKeyState
 (
 const
 int32_t
@@ -2965,7 +2965,7 @@ ipc
 :
 :
 IPCResult
-RecvGetKeyState
+AnswerGetKeyState
 (
 const
 int32_t

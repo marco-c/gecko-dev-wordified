@@ -10640,7 +10640,7 @@ if
 chromeInstance
 -
 >
-SendGetKeyState
+CallGetKeyState
 (
 aVirtKey
 &
