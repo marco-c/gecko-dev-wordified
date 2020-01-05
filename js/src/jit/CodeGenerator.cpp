@@ -16530,6 +16530,16 @@ fun
 isSelfHostedBuiltin
 (
 )
+|
+|
+info
+.
+fun
+-
+>
+isAsync
+(
+)
 )
 ;
 static_assert

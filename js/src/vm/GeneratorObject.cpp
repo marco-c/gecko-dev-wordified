@@ -1892,9 +1892,11 @@ SingletonObject
 )
 ;
 }
-static
 JSObject
 *
+js
+:
+:
 NewSingletonObjectWithFunctionPrototype
 (
 JSContext

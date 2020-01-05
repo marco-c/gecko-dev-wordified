@@ -12963,8 +12963,10 @@ reject
 .
 *
 /
-static
 bool
+js
+:
+:
 Promise_reject
 (
 JSContext
@@ -13118,8 +13120,10 @@ resolve
 .
 *
 /
-static
 bool
+js
+:
+:
 Promise_static_resolve
 (
 JSContext
@@ -13719,8 +13723,10 @@ ES2016
 .
 3
 .
-static
 bool
+js
+:
+:
 Promise_then
 (
 JSContext
