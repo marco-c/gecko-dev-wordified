@@ -584,7 +584,9 @@ opt
 '
 win32
 -
-clang
+st
+-
+an
 -
 debug
 '
@@ -592,7 +594,9 @@ debug
 '
 win32
 -
-clang
+st
+-
+an
 -
 opt
 '
@@ -618,7 +622,9 @@ pgo
 '
 win64
 -
-clang
+st
+-
+an
 -
 debug
 '
@@ -626,7 +632,9 @@ debug
 '
 win64
 -
-clang
+st
+-
+an
 -
 opt
 '
