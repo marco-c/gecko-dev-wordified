@@ -322,6 +322,7 @@ js
 :
 :
 {
+JS
 MutNullableJS
 Root
 }
@@ -429,6 +430,7 @@ cssstyledeclaration
 {
 CSSModificationAccess
 CSSStyleDeclaration
+CSSStyleOwner
 }
 ;
 use
@@ -5792,7 +5794,19 @@ CSSStyleDeclaration
 new
 (
 self
+CSSStyleOwner
+:
+:
+Element
+(
+JS
+:
+:
+from_ref
+(
 element
+)
+)
 pseudo
 CSSModificationAccess
 :
