@@ -185,6 +185,14 @@ servo_net
 net
 "
 ;
+#
+[
+phase
+(
+syntax
+link
+)
+]
 extern
 crate
 servo_util

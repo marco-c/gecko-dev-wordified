@@ -237,8 +237,9 @@ glyph
 :
 :
 {
+CharIndex
 GlyphStore
-GlyphIndex
+GlyphId
 }
 ;
 use
@@ -449,7 +450,7 @@ char
 >
 Option
 <
-GlyphIndex
+GlyphId
 >
 ;
 fn
@@ -457,7 +458,7 @@ glyph_h_advance
 (
 &
 self
-GlyphIndex
+GlyphId
 )
 -
 >
@@ -2304,7 +2305,7 @@ range
 &
 Range
 <
-int
+CharIndex
 >
 baseline_origin
 :
@@ -2445,8 +2446,10 @@ range
 length
 (
 )
-as
-uint
+.
+to_uint
+(
+)
 )
 ;
 for
@@ -2514,7 +2517,7 @@ mIndex
 :
 glyph
 .
-index
+id
 (
 )
 as
@@ -2685,7 +2688,7 @@ range
 &
 Range
 <
-int
+CharIndex
 >
 )
 -
@@ -2810,7 +2813,7 @@ slice_range
 &
 Range
 <
-int
+CharIndex
 >
 )
 -
@@ -3015,7 +3018,7 @@ char
 >
 Option
 <
-GlyphIndex
+GlyphId
 >
 {
 self
@@ -3036,7 +3039,7 @@ mut
 self
 glyph
 :
-GlyphIndex
+GlyphId
 )
 -
 >

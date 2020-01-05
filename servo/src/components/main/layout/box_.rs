@@ -326,6 +326,18 @@ gfx
 text
 :
 :
+glyph
+:
+:
+CharIndex
+;
+use
+gfx
+:
+:
+text
+:
+:
 text_run
 :
 :
@@ -1004,7 +1016,7 @@ new_line_pos
 :
 Vec
 <
-int
+CharIndex
 >
 }
 /
@@ -1897,7 +1909,7 @@ range
 :
 Range
 <
-int
+CharIndex
 >
 }
 impl
@@ -1938,7 +1950,7 @@ range
 :
 Range
 <
-int
+CharIndex
 >
 )
 -
@@ -8606,7 +8618,10 @@ begin
 +
 cur_new_line_pos
 +
+CharIndex
+(
 1
+)
 text_box_info
 .
 range
@@ -8618,7 +8633,10 @@ length
 (
 cur_new_line_pos
 +
+CharIndex
+(
 1
+)
 )
 )
 ;
@@ -8733,7 +8751,10 @@ length
 (
 )
 >
+CharIndex
+(
 0
+)
 {
 let
 new_text_box_info
@@ -8952,7 +8973,10 @@ range
 begin
 (
 )
+CharIndex
+(
 0
+)
 )
 ;
 let
@@ -8963,7 +8987,7 @@ Option
 <
 Range
 <
-int
+CharIndex
 >
 >
 =
@@ -9133,8 +9157,6 @@ slice_range
 length
 (
 )
-as
-int
 )
 ;
 }
@@ -9168,8 +9190,6 @@ slice_range
 length
 (
 )
-as
-int
 )
 ;
 }
@@ -9424,7 +9444,10 @@ length
 (
 )
 >
+CharIndex
+(
 0
+)
 {
 let
 new_text_box_info
@@ -9510,7 +9533,7 @@ range
 :
 Range
 <
-int
+CharIndex
 >
 |
 {

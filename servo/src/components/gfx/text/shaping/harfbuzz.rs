@@ -88,8 +88,9 @@ glyph
 :
 :
 {
+CharIndex
 GlyphStore
-GlyphIndex
+GlyphId
 GlyphData
 }
 ;
@@ -426,7 +427,7 @@ cluster
 int
 codepoint
 :
-GlyphIndex
+GlyphId
 advance
 :
 Au
@@ -889,7 +890,7 @@ glyph_info_i
 .
 codepoint
 as
-GlyphIndex
+GlyphId
 advance
 :
 x_advance
@@ -1486,7 +1487,10 @@ let
 mut
 char_idx
 =
+CharIndex
+(
 0
+)
 ;
 assert
 !
@@ -2283,7 +2287,7 @@ i
 in
 char_byte_span
 .
-eachi
+each_index
 (
 )
 {
@@ -2478,7 +2482,7 @@ j
 in
 glyph_span
 .
-eachi
+each_index
 (
 )
 {
@@ -3088,7 +3092,7 @@ glyph_i
 in
 glyph_span
 .
-eachi
+each_index
 (
 )
 {
@@ -3238,9 +3242,13 @@ break
 ;
 }
 char_idx
-+
 =
+char_idx
++
+CharIndex
+(
 1
+)
 ;
 glyphs
 .
@@ -3316,9 +3324,13 @@ end
 )
 ;
 char_idx
-+
 =
+char_idx
++
+CharIndex
+(
 1
+)
 ;
 }
 /
@@ -3536,7 +3548,7 @@ glyph_h_advance
 (
 glyph
 as
-GlyphIndex
+GlyphId
 )
 ;
 Shaper
