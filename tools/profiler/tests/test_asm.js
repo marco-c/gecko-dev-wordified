@@ -193,6 +193,10 @@ now
 ;
 do
 {
+/
+/
+do
+nothing
 }
 while
 (

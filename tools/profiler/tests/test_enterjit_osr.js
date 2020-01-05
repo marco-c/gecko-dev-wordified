@@ -310,7 +310,6 @@ delayMS
 ;
 }
 }
-;
 var
 profile
 =
