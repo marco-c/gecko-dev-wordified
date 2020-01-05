@@ -12288,7 +12288,7 @@ aPseudoType
 transitionManager
 -
 >
-StopTransitionsForElement
+StopAnimationsForElement
 (
 element
 aPseudoType
