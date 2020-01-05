@@ -1295,9 +1295,11 @@ newFolderGuid
 =
 (
 yield
-MigrationUtils
+PlacesUtils
 .
-insertBookmarkWrapper
+bookmarks
+.
+insert
 (
 {
 parentGuid
@@ -1327,9 +1329,11 @@ newFolderGuid
 else
 {
 yield
-MigrationUtils
+PlacesUtils
 .
-insertBookmarkWrapper
+bookmarks
+.
+insert
 (
 {
 parentGuid
