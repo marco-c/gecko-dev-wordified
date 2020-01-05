@@ -1875,6 +1875,9 @@ js
 save
 "
 (
+{
+data
+}
 )
 =
 >
@@ -1882,11 +1885,15 @@ save
 let
 url
 =
+new
 containerWindow
 .
-document
+URL
+(
+data
 .
-location
+url
+)
 ;
 let
 filename
