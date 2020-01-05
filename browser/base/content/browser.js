@@ -24458,6 +24458,15 @@ createSimplifiedBrowser
 (
 )
 {
+let
+browser
+=
+this
+.
+_tabBeforePrintPreview
+.
+linkedBrowser
+;
 this
 .
 _simplifyPageTab
@@ -24475,6 +24484,9 @@ blank
 inBackground
 :
 true
+relatedBrowser
+:
+browser
 }
 )
 ;
