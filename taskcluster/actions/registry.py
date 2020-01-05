@@ -2389,6 +2389,14 @@ append
 {
                 
 '
+kind
+'
+:
+'
+task
+'
+                
+'
 title
 '
 :
