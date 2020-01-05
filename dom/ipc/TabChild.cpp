@@ -14083,10 +14083,6 @@ TabChildGlobal
 this
 )
 ;
-mTabChildGlobal
-=
-scope
-;
 nsISupports
 *
 scopeSupports
@@ -14147,6 +14143,15 @@ SetParentTarget
 (
 scope
 )
+;
+mTabChildGlobal
+=
+scope
+.
+forget
+(
+)
+;
 ;
 }
 if
