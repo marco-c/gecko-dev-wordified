@@ -126,10 +126,6 @@ PS_LAYER_YCBCR
 define
 PS_LAYER_COLOR
 3
-#
-define
-PS_LAYER_NV12
-4
 /
 /
 These

@@ -393,9 +393,6 @@ h
 class
 gfxImageSurface
 ;
-struct
-ID3D11Device
-;
 namespace
 mozilla
 {
@@ -734,16 +731,6 @@ CreateSyncObject
 (
 SyncHandle
 aHandle
-#
-ifdef
-XP_WIN
-ID3D11Device
-*
-aDevice
-=
-nullptr
-#
-endif
 )
 ;
 enum
