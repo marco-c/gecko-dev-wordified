@@ -4540,6 +4540,7 @@ SELECTED
 UNSELECTED
 ADDED
 RESTORED
+MOVED
 LOCATION_CHANGE
 MENU_UPDATED
 PAGE_SHOW
@@ -7814,6 +7815,19 @@ newTabsList
 }
 queuePersistAllTabs
 (
+)
+;
+notifyListeners
+(
+mOrder
+.
+get
+(
+toPosition
+)
+TabEvents
+.
+MOVED
 )
 ;
 final
