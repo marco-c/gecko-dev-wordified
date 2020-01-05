@@ -9374,7 +9374,7 @@ h
 /
 inline
 nscoord
-GetBaseline
+BaselineBOffset
 (
 mozilla
 :
