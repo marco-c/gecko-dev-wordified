@@ -1740,6 +1740,7 @@ global
 /
 destructor
 .
+explicit
 inline
 Mutex
 (
@@ -2030,6 +2031,7 @@ when
 intending
 MutexLock
 .
+explicit
 Mutex
 (
 Mutex
