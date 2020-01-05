@@ -71,6 +71,7 @@ open
 add_test_pair
 (
 function
+*
 test_typeerror
 (
 )

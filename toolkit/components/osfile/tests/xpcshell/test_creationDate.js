@@ -40,6 +40,7 @@ creationDate
 add_task
 (
 function
+*
 test_deprecatedCreationDate
 (
 )

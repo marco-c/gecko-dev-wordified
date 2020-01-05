@@ -169,6 +169,7 @@ getAvailableFreeSpace
 add_task
 (
 function
+*
 (
 )
 {

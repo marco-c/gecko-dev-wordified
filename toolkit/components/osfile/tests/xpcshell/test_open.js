@@ -116,6 +116,7 @@ fail
 add_task
 (
 function
+*
 (
 )
 {
@@ -490,6 +491,7 @@ exist
 add_task
 (
 function
+*
 test_error_attributes
 (
 )

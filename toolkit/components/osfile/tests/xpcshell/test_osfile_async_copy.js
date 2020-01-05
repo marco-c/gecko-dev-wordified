@@ -448,6 +448,7 @@ null
 var
 reference_compare_files
 =
+async
 function
 reference_compare_files
 (
@@ -458,7 +459,7 @@ b
 let
 a_contents
 =
-yield
+await
 reference_fetch_file
 (
 a
@@ -467,7 +468,7 @@ a
 let
 b_contents
 =
-yield
+await
 reference_fetch_file
 (
 b
@@ -535,6 +536,7 @@ works
 *
 /
 function
+*
 test_copymove
 (
 options

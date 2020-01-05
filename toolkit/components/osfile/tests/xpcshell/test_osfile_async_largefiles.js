@@ -131,6 +131,7 @@ setPosition
 getPosition
 .
 function
+*
 test_setPosition
 (
 forward
@@ -457,6 +458,7 @@ expected
 failures
 .
 function
+*
 test_setPosition_failures
 (
 )

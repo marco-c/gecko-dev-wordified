@@ -504,6 +504,7 @@ subdirectories
 add_task
 (
 function
+*
 test_option_from
 (
 )

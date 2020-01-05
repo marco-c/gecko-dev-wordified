@@ -133,6 +133,7 @@ append
 mode
 .
 function
+*
 test_append
 (
 mode
@@ -411,6 +412,7 @@ append
 mode
 .
 function
+*
 test_no_append
 (
 mode

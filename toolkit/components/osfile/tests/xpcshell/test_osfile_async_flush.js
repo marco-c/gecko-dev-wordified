@@ -86,6 +86,7 @@ API
 add_task
 (
 function
+*
 test_flush
 (
 )

@@ -169,6 +169,7 @@ removeEmptyDir
 add_task
 (
 function
+*
 (
 )
 {
