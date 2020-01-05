@@ -1309,6 +1309,10 @@ NS_EVENT_MESSAGE
 (
 ePaste
 )
+NS_EVENT_MESSAGE
+(
+ePasteNoFormatting
+)
 /
 /
 Query

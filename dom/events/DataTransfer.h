@@ -1606,6 +1606,8 @@ clipboard
 void
 CacheExternalClipboardFormats
 (
+bool
+aPlainTextOnly
 )
 ;
 FileList
