@@ -836,8 +836,6 @@ visible
 false
 )
 ;
-return
-;
 }
 this
 .
@@ -1121,12 +1119,6 @@ portal
 return
 ;
 }
-self
-.
-_showNotification
-(
-)
-;
 if
 (
 time
