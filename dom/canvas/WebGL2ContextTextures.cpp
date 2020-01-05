@@ -1314,6 +1314,8 @@ GLenum
 unpackType
 WebGLsizeiptr
 offset
+ErrorResult
+&
 )
 {
 const
