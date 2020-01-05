@@ -10140,6 +10140,16 @@ imgDrawingParams
 imgDrawingParams
 ;
 typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
+typedef
 class
 mozilla
 :
