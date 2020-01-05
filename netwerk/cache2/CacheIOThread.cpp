@@ -113,7 +113,7 @@ XP_WIN
 #
 include
 <
-Windows
+windows
 .
 h
 >
