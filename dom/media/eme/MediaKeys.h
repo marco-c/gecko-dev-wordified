@@ -898,11 +898,6 @@ const
 ;
 private
 :
-bool
-IsInPrivateBrowsing
-(
-)
-;
 /
 /
 Removes
