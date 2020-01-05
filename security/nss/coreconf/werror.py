@@ -45,6 +45,9 @@ wb
 '
 )
     
+try
+:
+        
 cc_is_clang
 =
 '
@@ -67,6 +70,25 @@ stderr
 =
 sink
 )
+    
+except
+OSError
+:
+        
+#
+We
+probably
+just
+don
+'
+t
+have
+CC
+/
+cc
+.
+        
+return
     
 def
 warning_supported

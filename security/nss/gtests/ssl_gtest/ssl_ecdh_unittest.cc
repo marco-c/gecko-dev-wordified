@@ -1689,7 +1689,6 @@ CheckKEXDetails
 (
 client_groups
 shares
-false
 )
 ;
 }
@@ -1804,7 +1803,6 @@ CheckKEXDetails
 (
 client_groups
 shares
-false
 )
 ;
 }
@@ -1952,7 +1950,7 @@ CheckKEXDetails
 (
 client_groups
 shares
-true
+ssl_grp_ec_secp256r1
 )
 ;
 }
@@ -2099,7 +2097,7 @@ CheckKEXDetails
 (
 client_groups
 shares
-true
+ssl_grp_ec_secp256r1
 )
 ;
 }
@@ -2230,7 +2228,7 @@ CheckKEXDetails
 (
 client_groups
 shares
-true
+ssl_grp_ec_secp256r1
 )
 ;
 }
@@ -2369,7 +2367,7 @@ CheckKEXDetails
 (
 client_groups
 shares
-true
+ssl_grp_ec_secp256r1
 )
 ;
 }
@@ -2494,7 +2492,6 @@ CheckKEXDetails
 (
 client_groups
 shares
-false
 )
 ;
 }
@@ -2761,7 +2758,6 @@ CheckKEXDetails
 (
 client_groups
 shares
-false
 )
 ;
 }

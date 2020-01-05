@@ -1436,6 +1436,12 @@ PR_FALSE
 if
 (
 signedCertTimestamps
+&
+&
+signedCertTimestamps
+-
+>
+len
 )
 {
 return
