@@ -2404,6 +2404,12 @@ mState
 =
 SOCKS_CONNECTED
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 /
 /
 Switch
@@ -2417,6 +2423,11 @@ handshaking
 .
 if
 (
+IsLocalProxy
+(
+)
+&
+&
 mFD
 )
 {
@@ -2449,6 +2460,8 @@ mFD
 nullptr
 ;
 }
+#
+endif
 }
 else
 {
@@ -3182,6 +3195,12 @@ status
 PR_SUCCESS
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 /
 /
 Switch
@@ -3192,6 +3211,11 @@ during
 handshaking
 if
 (
+IsLocalProxy
+(
+)
+&
+&
 mFD
 )
 {
@@ -3220,6 +3244,8 @@ opt_nonblock
 )
 ;
 }
+#
+endif
 /
 /
 Connected
