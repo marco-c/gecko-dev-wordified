@@ -289,7 +289,6 @@ Clone
 Debug
 PartialEq
 Eq
-Hash
 )
 ]
 pub
@@ -1507,7 +1506,6 @@ Clone
 Debug
 PartialEq
 Eq
-Hash
 )
 ]
 pub

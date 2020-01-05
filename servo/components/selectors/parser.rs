@@ -134,15 +134,6 @@ use
 std
 :
 :
-hash
-:
-:
-Hash
-;
-use
-std
-:
-:
 iter
 :
 :
@@ -540,8 +531,6 @@ BorrowedLocalName
 Sized
 +
 Eq
-+
-Hash
 ;
 /
 /
@@ -679,8 +668,6 @@ with_bounds
 Clone
 +
 Eq
-+
-Hash
 ]
 [
 From
@@ -931,7 +918,6 @@ derive
 (
 PartialEq
 Eq
-Hash
 Clone
 Debug
 )
@@ -1167,7 +1153,6 @@ derive
 (
 PartialEq
 Eq
-Hash
 Clone
 )
 ]
@@ -1436,7 +1421,6 @@ derive
 (
 PartialEq
 Eq
-Hash
 Clone
 )
 ]
@@ -2005,7 +1989,6 @@ derive
 (
 Clone
 Eq
-Hash
 PartialEq
 )
 ]
@@ -3078,7 +3061,6 @@ PartialEq
 Clone
 Copy
 Debug
-Hash
 )
 ]
 pub
@@ -3257,7 +3239,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 )
 ]
 pub
@@ -3930,7 +3911,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 Copy
 Debug
 )
@@ -3962,7 +3942,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 )
 ]
 pub
@@ -3996,7 +3975,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 )
 ]
 pub
@@ -4037,7 +4015,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 Debug
 )
 ]
@@ -4059,27 +4036,6 @@ Impl
 >
 )
 }
-/
-/
-/
-FIXME
-(
-SimonSapin
-)
-:
-should
-Hash
-only
-hash
-the
-URL
-?
-What
-is
-it
-used
-for
-?
 #
 [
 derive
@@ -4087,7 +4043,6 @@ derive
 Eq
 PartialEq
 Clone
-Hash
 )
 ]
 pub
@@ -10631,7 +10586,6 @@ derive
 PartialEq
 Clone
 Debug
-Hash
 Eq
 )
 ]
@@ -10653,7 +10607,6 @@ Eq
 PartialEq
 Clone
 Debug
-Hash
 )
 ]
 pub
@@ -10972,10 +10925,10 @@ derive
 (
 Default
 Debug
-Hash
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -11254,7 +11207,7 @@ Cow
 <
 str
 >
-input
+_input
 :
 &
 mut

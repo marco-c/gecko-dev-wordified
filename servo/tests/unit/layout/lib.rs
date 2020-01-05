@@ -70,6 +70,14 @@ script_layout_interface
 ;
 #
 [
+macro_use
+]
+extern
+crate
+size_of_test
+;
+#
+[
 cfg
 (
 test
