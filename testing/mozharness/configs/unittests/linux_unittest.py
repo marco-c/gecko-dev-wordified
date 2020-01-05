@@ -2630,6 +2630,12 @@ xpcshell
 .
 ini
 "
+                        
+"
+-
+-
+sequential
+"
 ]
             
 "
