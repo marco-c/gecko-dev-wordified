@@ -362,12 +362,6 @@ use
 std
 :
 :
-boxed
-;
-use
-std
-:
-:
 collections
 :
 :
@@ -1481,7 +1475,7 @@ What
 a
 botch
 .
-boxed
+Box
 :
 :
 into_raw

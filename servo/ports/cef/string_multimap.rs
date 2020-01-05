@@ -72,12 +72,6 @@ use
 std
 :
 :
-boxed
-;
-use
-std
-:
-:
 collections
 :
 :
@@ -131,7 +125,7 @@ cef_string_multimap_alloc
 mut
 cef_string_multimap_t
 {
-boxed
+Box
 :
 :
 into_raw
