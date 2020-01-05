@@ -125,6 +125,9 @@ namespace
 layers
 {
 class
+CompositorThreadHolder
+;
+class
 VideoBridgeParent
 final
 :
@@ -374,6 +377,12 @@ RefPtr
 VideoBridgeParent
 >
 mSelfRef
+;
+RefPtr
+<
+CompositorThreadHolder
+>
+mCompositorThreadRef
 ;
 std
 :
