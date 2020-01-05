@@ -1522,7 +1522,6 @@ highlight
 (
 aHighlight
 aWord
-null
 aLinksOnly
 )
 ;
