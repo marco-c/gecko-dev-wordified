@@ -529,15 +529,6 @@ tabs
 .
 js
 "
-ExtensionStorage
-:
-"
-extension
--
-storage
-.
-js
-"
 }
 ;
 const
