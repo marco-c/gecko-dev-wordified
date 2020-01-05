@@ -2577,6 +2577,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
+GenericObject
 )
 )
 ;
@@ -2605,6 +2606,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
+GenericObject
 )
 )
 ;
