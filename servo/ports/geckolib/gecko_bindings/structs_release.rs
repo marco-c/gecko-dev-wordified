@@ -45424,11 +45424,11 @@ right
 /
 bottom
 -
-left
+right
 /
 bottom
 -
-right
+left
 *
 nsStyleCoord
 pairs
@@ -51808,11 +51808,7 @@ StyleBasicShape
 pub
 mRefCnt
 :
-nsAutoRefCnt
-pub
-_mOwningThread
-:
-nsAutoOwningThread
+ThreadSafeAutoRefCnt
 pub
 mType
 :
@@ -51865,7 +51861,7 @@ StyleBasicShape
 >
 (
 )
-128usize
+120usize
 )
 ;
 assert_eq
