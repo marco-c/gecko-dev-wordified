@@ -53,7 +53,7 @@ values
 Rule
 ;
 use
-css
+newcss
 :
 :
 lexer_util
@@ -62,7 +62,7 @@ lexer_util
 DataStream
 ;
 use
-css
+newcss
 :
 :
 lexer
@@ -165,7 +165,7 @@ let
 mut
 css_rules
 =
-css
+newcss
 :
 :
 parser
