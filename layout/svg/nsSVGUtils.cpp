@@ -4917,6 +4917,7 @@ opacity
 &
 maskTransform
 maskMode
+aFlags
 )
 ;
 Tie
