@@ -1100,9 +1100,6 @@ AddWebRenderCommand
 (
 OpAddExternalImage
 (
-LayerIntRegion
-(
-)
 mExternalImageId
 key
 )

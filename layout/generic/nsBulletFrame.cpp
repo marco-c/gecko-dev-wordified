@@ -2474,9 +2474,6 @@ layers
 :
 OpAddExternalImage
 (
-LayerIntRegion
-(
-)
 externalImageId
 key
 )
