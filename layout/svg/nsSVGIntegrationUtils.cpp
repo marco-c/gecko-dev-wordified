@@ -5842,11 +5842,6 @@ GetCSSPxToDevPxMatrix
 frame
 )
 ;
-bool
-isOK
-=
-true
-;
 nsSVGClipPathFrame
 *
 clipPathFrame
@@ -5855,8 +5850,6 @@ effectProperties
 .
 GetClipPathFrame
 (
-&
-isOK
 )
 ;
 RefPtr
@@ -6156,15 +6149,6 @@ GetEffectProperties
 firstFrame
 )
 ;
-bool
-isOK
-=
-effectProperties
-.
-HasNoFilterOrHasValidFilter
-(
-)
-;
 nsSVGClipPathFrame
 *
 clipPathFrame
@@ -6173,8 +6157,6 @@ effectProperties
 .
 GetClipPathFrame
 (
-&
-isOK
 )
 ;
 gfxMatrix
