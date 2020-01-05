@@ -338,6 +338,17 @@ now
 )
 frameId
 :
+data
+.
+type
+=
+=
+"
+main_frame
+"
+?
+0
+:
 ExtensionManagement
 .
 getFrameId
