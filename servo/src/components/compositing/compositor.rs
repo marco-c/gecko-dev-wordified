@@ -1069,6 +1069,9 @@ None
 scene
 :
 Scene
+:
+:
+new
 (
 window_size
 .
