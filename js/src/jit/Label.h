@@ -169,11 +169,6 @@ bound_
 :
 1
 ;
-/
-/
-Disallow
-assignment
-.
 void
 operator
 =
@@ -183,6 +178,8 @@ LabelBase
 &
 label
 )
+=
+delete
 ;
 public
 :
