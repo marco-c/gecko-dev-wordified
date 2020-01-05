@@ -63,6 +63,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip
 class
 TestIsElementEnabledChrome
 (
@@ -366,13 +367,14 @@ y
 >
 0
 )
-#
+skip
+(
+"
 Switched
 off
 in
 bug
 896043
-#
 and
 to
 be
@@ -382,8 +384,7 @@ in
 bug
 896046
 "
-"
-"
+)
 class
 TestIsElementDisplayed
 (
@@ -479,9 +480,6 @@ false
 l
 ]
 )
-"
-"
-"
 class
 TestGetElementAttributeChrome
 (
