@@ -430,6 +430,11 @@ WebRenderBridgeParent
 aWrBridge
 )
 ;
+void
+ClearWrBridge
+(
+)
+;
 protected
 :
 /
@@ -455,6 +460,9 @@ WebRenderBridgeParent
 *
 MOZ_NON_OWNING_REF
 mWrBridge
+;
+uint32_t
+mWrBridgeBindings
 ;
 CompositableTextureHostRef
 mCurrentTextureHost
