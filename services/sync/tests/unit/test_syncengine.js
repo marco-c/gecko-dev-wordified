@@ -1443,7 +1443,7 @@ PAYLOAD
 )
 ;
 let
-steamServer
+server
 =
 httpd_setup
 (
@@ -1472,7 +1472,7 @@ handler
 await
 SyncTestingInfrastructure
 (
-steamServer
+server
 )
 ;
 do_test_pending
@@ -1566,7 +1566,7 @@ length
 }
 finally
 {
-steamServer
+server
 .
 stop
 (

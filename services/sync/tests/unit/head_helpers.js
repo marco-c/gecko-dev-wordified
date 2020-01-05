@@ -1376,7 +1376,7 @@ elements
 function
 url2entry
 (
-urlToConvert
+url
 )
 {
 return
@@ -1386,7 +1386,7 @@ url
 (
 (
 typeof
-urlToConvert
+url
 =
 =
 "
@@ -1394,11 +1394,11 @@ function
 "
 )
 ?
-urlToConvert
+url
 (
 )
 :
-urlToConvert
+url
 )
 title
 :

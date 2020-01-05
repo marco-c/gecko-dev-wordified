@@ -9172,13 +9172,13 @@ uris
 function
 recording_handler
 (
-recordedCollection
+collection
 )
 {
 let
 h
 =
-recordedCollection
+collection
 .
 handler
 (
