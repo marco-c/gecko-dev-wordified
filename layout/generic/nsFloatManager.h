@@ -2650,7 +2650,7 @@ const
 mozilla
 :
 :
-StyleShapeOutside
+StyleShapeSource
 &
 aShapeOutside
 nsIFrame

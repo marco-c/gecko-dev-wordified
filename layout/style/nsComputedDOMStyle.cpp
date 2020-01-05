@@ -34409,11 +34409,6 @@ forget
 )
 ;
 }
-template
-<
-typename
-ReferenceBox
->
 already_AddRefed
 <
 CSSValue
@@ -34425,9 +34420,6 @@ GetShapeSource
 (
 const
 StyleShapeSource
-<
-ReferenceBox
->
 &
 aShapeSource
 const

@@ -4147,7 +4147,7 @@ FloatInfo
 )
 ;
 const
-StyleShapeOutside
+StyleShapeSource
 &
 shapeOutside
 =
@@ -5151,7 +5151,7 @@ ShapeInfo
 ComputeShapeBoxRect
 (
 const
-StyleShapeOutside
+StyleShapeSource
 &
 aShapeOutside
 nsIFrame
@@ -5187,7 +5187,7 @@ GetReferenceBox
 )
 {
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Content
@@ -5209,7 +5209,7 @@ aWM
 MOZ_FALLTHROUGH
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Padding
@@ -5231,7 +5231,7 @@ aWM
 MOZ_FALLTHROUGH
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Border
@@ -5253,7 +5253,7 @@ aWM
 break
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 Margin
@@ -5273,10 +5273,12 @@ rect
 break
 ;
 case
-StyleShapeOutsideShapeBox
+StyleGeometryBox
 :
 :
 NoBox
+:
+default
 :
 MOZ_ASSERT
 (
