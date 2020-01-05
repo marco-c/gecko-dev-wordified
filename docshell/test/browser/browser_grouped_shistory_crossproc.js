@@ -254,7 +254,7 @@ browser1
 .
 frameLoader
 .
-appendPartialSessionHistoryAndSwap
+appendPartialSHistoryAndSwap
 (
 tab2
 .
@@ -396,7 +396,7 @@ browser1
 .
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 null
 "
 browser1

@@ -3671,7 +3671,7 @@ ipc
 :
 :
 IPCResult
-RecvNotifyAttachGroupedSessionHistory
+RecvNotifyAttachGroupedSHistory
 (
 const
 uint32_t
@@ -3688,7 +3688,7 @@ ipc
 :
 :
 IPCResult
-RecvNotifyPartialSessionHistoryActive
+RecvNotifyPartialSHistoryActive
 (
 const
 uint32_t
@@ -3709,7 +3709,7 @@ ipc
 :
 :
 IPCResult
-RecvNotifyPartialSessionHistoryDeactive
+RecvNotifyPartialSHistoryDeactive
 (
 )
 override

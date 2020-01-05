@@ -275,7 +275,7 @@ NS_IMETHODIMP
 GroupedSHistory
 :
 :
-AppendPartialSessionHistory
+AppendPartialSHistory
 (
 nsIPartialSHistory
 *
@@ -431,7 +431,7 @@ partialHistory
 partialHistory
 -
 >
-OnAttachGroupedSessionHistory
+OnAttachGroupedSHistory
 (
 this
 offset
@@ -1752,7 +1752,7 @@ return
 activeFl
 -
 >
-AppendPartialSessionHistoryAndSwap
+AppendPartialSHistoryAndSwap
 (
 fl
 aPromise

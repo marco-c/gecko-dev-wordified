@@ -26368,7 +26368,7 @@ browser
 .
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 ;
 let
 isRemotenessUpdate

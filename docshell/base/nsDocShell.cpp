@@ -61346,7 +61346,7 @@ that
 case
 /
 /
-OnPartialSessionHistoryDeactive
+OnPartialSHistoryDeactive
 would
 be
 called

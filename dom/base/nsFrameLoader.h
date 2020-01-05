@@ -380,7 +380,7 @@ AutoResetInFrameSwap
 ;
 friend
 class
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 ;
 friend
 class
@@ -2161,7 +2161,7 @@ nsCOMPtr
 <
 nsIPartialSHistory
 >
-mPartialSessionHistory
+mPartialSHistory
 ;
 /
 /

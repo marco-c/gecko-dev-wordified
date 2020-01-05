@@ -1073,7 +1073,7 @@ mDocShell
 mMessageManager
 mChildMessageManager
 mOpener
-mPartialSessionHistory
+mPartialSHistory
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -2286,7 +2286,7 @@ NS_IMETHODIMP
 nsFrameLoader
 :
 :
-GetPartialSessionHistory
+GetPartialSHistory
 (
 nsIPartialSHistory
 *
@@ -2300,7 +2300,7 @@ mRemoteBrowser
 &
 &
 !
-mPartialSessionHistory
+mPartialSHistory
 )
 {
 /
@@ -2331,7 +2331,7 @@ to
 nsISHistory
 directly
 .
-mPartialSessionHistory
+mPartialSHistory
 =
 new
 PartialSHistory
@@ -2346,7 +2346,7 @@ nsIPartialSHistory
 >
 partialHistory
 (
-mPartialSessionHistory
+mPartialSHistory
 )
 ;
 partialHistory
@@ -2378,7 +2378,7 @@ nsIPartialSHistory
 >
 partialHistory
 ;
-GetPartialSessionHistory
+GetPartialSHistory
 (
 getter_AddRefs
 (
@@ -2424,7 +2424,7 @@ GroupedSHistory
 groupedHistory
 -
 >
-AppendPartialSessionHistory
+AppendPartialSHistory
 (
 partialHistory
 )
@@ -2438,7 +2438,7 @@ nsIGroupedSHistory
 >
 test
 ;
-GetGroupedSessionHistory
+GetGroupedSHistory
 (
 getter_AddRefs
 (
@@ -2477,7 +2477,7 @@ NS_IMETHODIMP
 nsFrameLoader
 :
 :
-GetGroupedSessionHistory
+GetGroupedSHistory
 (
 nsIGroupedSHistory
 *
@@ -2493,10 +2493,10 @@ groupedSHistory
 ;
 if
 (
-mPartialSessionHistory
+mPartialSHistory
 )
 {
-mPartialSessionHistory
+mPartialSHistory
 -
 >
 GetGroupedSHistory
@@ -2754,7 +2754,7 @@ true
 ;
 }
 class
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 :
 public
 PromiseNativeHandler
@@ -2764,9 +2764,9 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 )
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 (
 nsFrameLoader
 *
@@ -2822,7 +2822,7 @@ otherGroupedHistory
 mOther
 -
 >
-GetGroupedSessionHistory
+GetGroupedSHistory
 (
 getter_AddRefs
 (
@@ -2926,7 +2926,7 @@ MOZ_ALWAYS_SUCCEEDS
 mOther
 -
 >
-GetPartialSessionHistory
+GetPartialSHistory
 (
 getter_AddRefs
 (
@@ -2940,7 +2940,7 @@ rv
 groupedSHistory
 -
 >
-AppendPartialSessionHistory
+AppendPartialSHistory
 (
 otherPartialSHistory
 )
@@ -3038,7 +3038,7 @@ MaybeRejectWithUndefined
 private
 :
 ~
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 (
 )
 {
@@ -3065,15 +3065,15 @@ mPromise
 ;
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -3082,7 +3082,7 @@ nsISupports
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION
 (
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 mThis
 mPromise
 )
@@ -3176,7 +3176,7 @@ groupedSHistory
 mThis
 -
 >
-GetGroupedSessionHistory
+GetGroupedSHistory
 (
 getter_AddRefs
 (
@@ -3909,7 +3909,7 @@ NS_IMETHODIMP
 nsFrameLoader
 :
 :
-AppendPartialSessionHistoryAndSwap
+AppendPartialSHistoryAndSwap
 (
 nsIFrameLoader
 *
@@ -4079,12 +4079,12 @@ done
 .
 RefPtr
 <
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 >
 helper
 =
 new
-AppendPartialSessionHistoryAndSwapHelper
+AppendPartialSHistoryAndSwapHelper
 (
 this
 otherLoader
@@ -12150,10 +12150,10 @@ destroyed
 .
 if
 (
-mPartialSessionHistory
+mPartialSHistory
 &
 &
-mPartialSessionHistory
+mPartialSHistory
 -
 >
 GetActiveState
@@ -12173,7 +12173,7 @@ nsIGroupedSHistory
 >
 groupedSHistory
 ;
-GetGroupedSessionHistory
+GetGroupedSHistory
 (
 getter_AddRefs
 (
@@ -14480,7 +14480,7 @@ GroupedHistoryEnabled
 )
 )
 {
-mPartialSessionHistory
+mPartialSHistory
 =
 new
 PartialSHistory
@@ -14496,7 +14496,7 @@ listener
 (
 do_QueryInterface
 (
-mPartialSessionHistory
+mPartialSHistory
 )
 )
 ;
@@ -14508,7 +14508,7 @@ partialListener
 (
 do_QueryInterface
 (
-mPartialSessionHistory
+mPartialSHistory
 )
 )
 ;
