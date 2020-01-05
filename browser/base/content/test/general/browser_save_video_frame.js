@@ -673,11 +673,12 @@ defaultString
 ;
 MockFilePicker
 .
-returnFiles
-=
+setFiles
+(
 [
 destFile
 ]
+)
 ;
 MockFilePicker
 .
