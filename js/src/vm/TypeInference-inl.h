@@ -6568,6 +6568,8 @@ TypeConstraint
 constraint
 =
 constraintList
+(
+)
 ;
 while
 (
@@ -6589,6 +6591,8 @@ constraint
 -
 >
 next
+(
+)
 ;
 }
 }
@@ -6598,6 +6602,8 @@ MOZ_ASSERT
 (
 !
 constraintList
+(
+)
 )
 ;
 }
