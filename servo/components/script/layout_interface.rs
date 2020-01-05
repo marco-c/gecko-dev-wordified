@@ -202,6 +202,15 @@ stylesheets
 Stylesheet
 ;
 use
+style
+:
+:
+media_queries
+:
+:
+MediaQueryList
+;
+use
 url
 :
 :
@@ -247,6 +256,7 @@ document
 AddStylesheet
 (
 Stylesheet
+MediaQueryList
 )
 /
 /
@@ -262,6 +272,7 @@ document
 LoadStylesheet
 (
 Url
+MediaQueryList
 )
 /
 /
