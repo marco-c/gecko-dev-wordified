@@ -17,9 +17,13 @@ importedArgs
 =
 [
 '
-nan
+skip
 -
-propagation
+stack
+-
+guard
+-
+page
 .
 wast
 '
