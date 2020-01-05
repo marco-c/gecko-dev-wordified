@@ -257,9 +257,9 @@ waitForDOM
 document
 "
 #
-panel
+response
 -
-3
+panel
 .
 editor
 -
@@ -299,10 +299,9 @@ querySelector
 (
 "
 #
-tab
+response
 -
-3
-a
+tab
 "
 )
 .
