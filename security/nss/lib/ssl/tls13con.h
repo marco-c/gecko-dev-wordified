@@ -526,6 +526,14 @@ TLSExtension
 supported_versions
 )
 ;
+SECStatus
+tls13_SendNewSessionTicket
+(
+sslSocket
+*
+ss
+)
+;
 #
 endif
 /
