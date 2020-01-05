@@ -1432,9 +1432,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
-aData
+aGenericData
 )
 ;
 bool
