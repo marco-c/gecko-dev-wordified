@@ -340,7 +340,10 @@ tile_size
 device_pixels_per_px
 :
 None
-profiler_period
+time_profiler_period
+:
+None
+memory_profiler_period
 :
 None
 layout_threads

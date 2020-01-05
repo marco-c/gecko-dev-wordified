@@ -202,6 +202,10 @@ geometry
 ;
 pub
 mod
+memory
+;
+pub
+mod
 namespace
 ;
 pub

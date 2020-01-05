@@ -301,7 +301,7 @@ servo_util
 time
 :
 :
-ProfilerChan
+TimeProfilerChan
 ;
 use
 servo_util
@@ -439,9 +439,9 @@ f32
 >
 >
 pub
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 pub
 window_size
 :
@@ -1818,9 +1818,9 @@ ResourceTask
 image_cache_task
 :
 ImageCacheTask
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 )
 -
 >
@@ -1923,9 +1923,9 @@ HashMap
 new
 (
 )
-profiler_chan
+time_profiler_chan
 :
-profiler_chan
+time_profiler_chan
 window_size
 :
 WindowSizeData
@@ -3182,7 +3182,7 @@ clone
 )
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -3353,7 +3353,7 @@ clone
 )
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4389,7 +4389,7 @@ clone
 )
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4486,7 +4486,7 @@ clone
 )
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4957,7 +4957,7 @@ clone
 )
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (

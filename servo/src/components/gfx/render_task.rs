@@ -293,7 +293,7 @@ time
 :
 :
 {
-ProfilerChan
+TimeProfilerChan
 profile
 }
 ;
@@ -805,11 +805,12 @@ A
 channel
 to
 the
+time
 profiler
 .
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 /
 /
 /
@@ -1072,9 +1073,9 @@ Failure
 opts
 :
 Opts
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 shutdown_chan
 :
 Sender
@@ -1226,9 +1227,9 @@ clone
 needs_font_list
 :
 false
-profiler_chan
+time_profiler_chan
 :
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -1238,9 +1239,9 @@ clone
 opts
 :
 opts
-profiler_chan
+time_profiler_chan
 :
-profiler_chan
+time_profiler_chan
 graphics_context
 :
 if
@@ -1800,7 +1801,7 @@ time
 RenderingCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -2264,7 +2265,7 @@ time
 RenderingDrawingCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (

@@ -575,7 +575,7 @@ time
 :
 :
 {
-ProfilerChan
+TimeProfilerChan
 profile
 }
 ;
@@ -903,12 +903,13 @@ be
 sent
 to
 the
+time
 profiler
 .
 pub
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 /
 /
 /
@@ -2029,9 +2030,9 @@ ImageCacheTask
 opts
 :
 Opts
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 shutdown_chan
 :
 Sender
@@ -2122,7 +2123,7 @@ render_chan
 img_cache_task
 &
 opts
-profiler_chan
+time_profiler_chan
 )
 ;
 layout
@@ -2184,9 +2185,9 @@ opts
 :
 &
 Opts
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 )
 -
 >
@@ -2314,9 +2315,9 @@ new_stylist
 parallel_traversal
 :
 parallel_traversal
-profiler_chan
+time_profiler_chan
 :
-profiler_chan
+time_profiler_chan
 opts
 :
 opts
@@ -2415,11 +2416,11 @@ render_backend
 needs_font_list
 :
 true
-profiler_chan
+time_profiler_chan
 :
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -2570,7 +2571,7 @@ time
 LayoutPerformCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -2613,7 +2614,7 @@ time
 LayoutQueryCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -3582,7 +3583,7 @@ traverse_flow_tree_preorder
 layout_root
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4132,7 +4133,7 @@ time
 LayoutStyleRecalcCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4334,7 +4335,7 @@ time
 LayoutDamagePropagateCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4410,7 +4411,7 @@ time
 LayoutMainCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4505,7 +4506,7 @@ time
 LayoutDispListBuildCategory
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (
@@ -4587,7 +4588,7 @@ mut
 layout_root
 self
 .
-profiler_chan
+time_profiler_chan
 .
 clone
 (

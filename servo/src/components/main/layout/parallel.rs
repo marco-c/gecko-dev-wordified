@@ -239,7 +239,7 @@ time
 :
 :
 {
-ProfilerChan
+TimeProfilerChan
 profile
 }
 ;
@@ -3355,9 +3355,9 @@ root
 &
 mut
 FlowRef
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 layout_context
 :
 &
@@ -3396,7 +3396,7 @@ time
 :
 :
 LayoutParallelWarmupCategory
-profiler_chan
+time_profiler_chan
 |
 |
 {
@@ -3446,9 +3446,9 @@ root
 &
 mut
 FlowRef
-profiler_chan
+time_profiler_chan
 :
-ProfilerChan
+TimeProfilerChan
 layout_context
 :
 &
@@ -3487,7 +3487,7 @@ time
 :
 :
 LayoutParallelWarmupCategory
-profiler_chan
+time_profiler_chan
 |
 |
 {
