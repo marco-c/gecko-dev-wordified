@@ -73017,9 +73017,6 @@ lists
 rst
 *
 /
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :
@@ -73509,9 +73506,6 @@ FlashClassification
 Unknown
 ;
 }
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :
@@ -73787,9 +73781,6 @@ FlashClassification
 Unclassified
 *
 /
-nsIDocument
-:
-:
 FlashClassification
 nsDocument
 :
