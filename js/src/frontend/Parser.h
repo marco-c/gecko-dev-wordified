@@ -6696,6 +6696,10 @@ InvokedPrediction
 invoked
 =
 PredictUninvoked
+FunctionAsyncKind
+asyncKind
+=
+SyncFunction
 )
 ;
 Node
