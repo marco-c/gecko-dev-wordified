@@ -3666,11 +3666,6 @@ Restyle
 .
 *
 /
-void
-AddLayerChangesForAnimation
-(
-)
-;
 bool
 MoveStyleContextsForContentChildren
 (
