@@ -2219,6 +2219,9 @@ name_
 bool
 offerer_
 ;
+TimeStamp
+ice_start_time_
+;
 bool
 ice_controlling_set_
 ;
