@@ -138,6 +138,7 @@ h
 /
 for
 int32_t
+int64_t
 #
 include
 "
@@ -838,17 +839,6 @@ GetType
 )
 const
 override
-{
-return
-e
-;
-}
-\
-static
-LayerType
-Type
-(
-)
 {
 return
 e
@@ -10251,6 +10241,12 @@ HasTransformAnimation
 )
 const
 ;
+bool
+HasOpacityAnimation
+(
+)
+const
+;
 StyleAnimationValue
 GetBaseAnimationStyle
 (
@@ -19223,7 +19219,7 @@ this
 ;
 }
 virtual
-uint64_t
+int64_t
 GetReferentId
 (
 )
