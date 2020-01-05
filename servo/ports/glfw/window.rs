@@ -1161,9 +1161,6 @@ self
 NativeGraphicsMetadata
 {
 use
-opengles
-:
-:
 cgl
 :
 :
