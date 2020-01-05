@@ -302,13 +302,13 @@ c_str
 )
 ;
 }
-mGlyphHelper
-.
-BuildWebRenderCommands
-(
 WrBridge
 (
 )
+-
+>
+PushGlyphs
+(
 aBuilder
 mGlyphs
 mFont
