@@ -147,6 +147,9 @@ h
 class
 nsPresContext
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -595,6 +598,11 @@ const
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
