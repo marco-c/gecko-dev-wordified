@@ -132,6 +132,11 @@ install
 microphone
 "
 "
+persistent
+-
+storage
+"
+"
 popup
 "
 "
@@ -706,6 +711,11 @@ screen
 "
 "
 geo
+"
+"
+persistent
+-
+storage
 "
 ]
 ;
