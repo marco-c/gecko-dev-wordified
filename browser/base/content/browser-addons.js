@@ -1564,6 +1564,9 @@ originatingURI
 persistent
 :
 true
+hideClose
+:
+true
 timeout
 :
 Date
@@ -3071,6 +3074,12 @@ options
 removeOnDismissal
 =
 true
+;
+options
+.
+persistent
+=
+false
 ;
 PopupNotifications
 .
