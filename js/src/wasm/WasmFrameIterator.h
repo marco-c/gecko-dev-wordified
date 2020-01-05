@@ -794,10 +794,6 @@ const
 SigIdDesc
 &
 sigId
-const
-TrapOffset
-&
-trapOffset
 FuncOffsets
 *
 offsets

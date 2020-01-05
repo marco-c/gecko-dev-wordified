@@ -12975,7 +12975,6 @@ GenerateFunctionPrologue
 masm
 localSize_
 sigId
-prologueTrapOffset_
 &
 compileResults_
 .
