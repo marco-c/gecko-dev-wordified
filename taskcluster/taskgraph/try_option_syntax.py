@@ -4514,6 +4514,18 @@ unittests
 unittest_try_name
 '
 )
+\
+                 
+or
+match_test
+(
+self
+.
+talos
+'
+talos_try_name
+'
+)
         
 elif
 attr
@@ -4750,6 +4762,18 @@ none_for_all
 self
 .
 unittests
+)
+            
+"
+talos
+:
+"
++
+none_for_all
+(
+self
+.
+talos
 )
             
 "
