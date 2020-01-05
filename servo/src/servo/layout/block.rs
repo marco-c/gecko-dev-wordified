@@ -580,7 +580,7 @@ blocks
 fn
 bubble_widths_block
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -810,7 +810,7 @@ contexts
 fn
 assign_widths_block
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -839,7 +839,7 @@ width
 ;
 let
 mut
-right_used
+_right_used
 =
 au
 (
@@ -972,7 +972,7 @@ remaining_width
 fn
 assign_height_block
 (
-ctx
+_ctx
 :
 &
 LayoutContext
@@ -1044,7 +1044,7 @@ height
 cur_y
 ;
 let
-used_top
+_used_top
 =
 au
 (
@@ -1052,7 +1052,7 @@ au
 )
 ;
 let
-used_bot
+_used_bot
 =
 au
 (
@@ -1096,8 +1096,8 @@ cur_y
 ;
 let
 (
-used_top
-used_bot
+_used_top
+_used_bot
 )
 =
 box

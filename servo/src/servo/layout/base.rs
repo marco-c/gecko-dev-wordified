@@ -2749,7 +2749,7 @@ appended
 fn
 build_display_list
 (
-builder
+_builder
 :
 &
 dl
@@ -3590,7 +3590,7 @@ box
 {
 Some
 (
-b
+_b
 )
 =
 >

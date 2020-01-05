@@ -1048,7 +1048,7 @@ next_ctx
 fn
 fixup_split_inline
 (
-foo
+_foo
 :
 FlowContext
 )
