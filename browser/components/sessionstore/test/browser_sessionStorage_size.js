@@ -264,14 +264,14 @@ snapshot
 .
 counts
 [
-5
+4
 ]
 >
 snap1
 .
 counts
 [
-5
+4
 ]
 ;
 }
