@@ -211,29 +211,6 @@ reset_context
 )
     
 def
-tearDown
-(
-self
-)
-:
-        
-self
-.
-close_all_windows
-(
-)
-        
-super
-(
-TestImportScriptContent
-self
-)
-.
-tearDown
-(
-)
-    
-def
 reset_context
 (
 self
@@ -874,25 +851,15 @@ testAnotherFunc
 )
     
 skip_if_chrome
-(
-"
-Needs
-content
-scope
-"
-)
     
 skip_if_mobile
-(
-"
+#
 New
 windows
 not
 supported
 in
 Fennec
-"
-)
     
 def
 test_imports_apply_globally

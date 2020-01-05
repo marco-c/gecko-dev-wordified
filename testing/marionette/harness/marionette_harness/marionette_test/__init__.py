@@ -63,27 +63,18 @@ __version__
 0
 '
 from
-unittest
-.
-case
-import
-(
-    
-expectedFailure
-    
-skip
-    
-SkipTest
-)
-from
 .
 decorators
 import
 (
     
+expectedFailure
+    
 parameterized
     
 run_if_e10s
+    
+skip
     
 skip_if_chrome
     
@@ -98,6 +89,14 @@ skip_unless_browser_pref
 skip_unless_protocol
     
 with_parameters
+)
+from
+.
+errors
+import
+(
+    
+SkipTest
 )
 from
 .

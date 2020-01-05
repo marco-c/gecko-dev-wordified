@@ -310,17 +310,7 @@ skip
 (
 "
 Bug
-1200197
--
-Cannot
-interact
-with
-elements
-hidden
-inside
-overflow
-:
-scroll
+1003682
 "
 )
     

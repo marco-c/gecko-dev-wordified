@@ -185,8 +185,7 @@ tearDown
 )
     
 skip_if_mobile
-(
-"
+#
 Bug
 1323185
 -
@@ -195,8 +194,6 @@ Fennec
 support
 to
 getWindowHandles
-"
-)
     
 def
 test_back_forward
@@ -336,8 +333,7 @@ start_tab
 )
     
 skip_if_mobile
-(
-"
+#
 Bug
 1323185
 -
@@ -346,8 +342,6 @@ Fennec
 support
 to
 getWindowHandles
-"
-)
     
 def
 test_navigate_non_remote_about_pages
@@ -484,16 +478,13 @@ start_tab
 )
     
 skip_if_mobile
-(
-"
+#
 On
 Android
 no
 shortcuts
 are
 available
-"
-)
     
 def
 test_navigate_shortcut_key
@@ -615,8 +606,7 @@ start_tab
 )
     
 skip_if_mobile
-(
-"
+#
 Bug
 1323185
 -
@@ -625,8 +615,6 @@ Fennec
 support
 to
 getWindowHandles
-"
-)
     
 def
 test_type_to_non_remote_tab
@@ -792,8 +780,7 @@ start_tab
 )
     
 skip_if_mobile
-(
-"
+#
 Interacting
 with
 chrome
@@ -802,8 +789,6 @@ not
 available
 for
 Fennec
-"
-)
     
 def
 test_type_to_remote_tab
@@ -896,8 +881,7 @@ remote_uri
 )
     
 skip_if_mobile
-(
-"
+#
 Bug
 1323185
 -
@@ -906,8 +890,6 @@ Fennec
 support
 to
 getWindowHandles
-"
-)
     
 def
 test_hang

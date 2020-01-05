@@ -173,14 +173,6 @@ self
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_portrait_primary
@@ -223,14 +215,6 @@ primary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_landscape_primary
@@ -273,14 +257,6 @@ primary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_portrait_secondary
@@ -323,14 +299,6 @@ secondary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_landscape_secondary
@@ -373,14 +341,6 @@ secondary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_shorthand_portrait
@@ -476,14 +436,6 @@ primary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_to_shorthand_landscape
@@ -524,14 +476,6 @@ primary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_orientation_with_mixed_casing
@@ -572,14 +516,6 @@ primary
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_invalid_orientation
@@ -619,14 +555,6 @@ cheese
 )
     
 skip_if_desktop
-(
-"
-Not
-supported
-in
-Firefox
-"
-)
     
 def
 test_set_null_orientation
@@ -664,14 +592,6 @@ None
 )
     
 skip_if_mobile
-(
-"
-Specific
-test
-for
-Firefox
-"
-)
     
 def
 test_unsupported_operation_on_desktop

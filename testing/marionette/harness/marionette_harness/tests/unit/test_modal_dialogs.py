@@ -1499,12 +1499,6 @@ blank
 )
     
 skip_if_e10s
-(
-"
-Bug
-1325044
-"
-)
     
 def
 test_unrelated_command_when_alert_present

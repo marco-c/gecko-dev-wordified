@@ -65,14 +65,14 @@ import
 MarionetteException
 from
 marionette_driver
+.
+by
 import
-Actions
 By
 from
 marionette_harness
 import
 MarionetteTestCase
-skip
 #
 add
 this
@@ -714,13 +714,17 @@ click
 "
 )
     
-skip
-(
 "
+"
+"
+    
+/
+/
+Skipping
+due
+to
 Bug
 1191066
-"
-)
     
 def
 test_context_menu
@@ -737,7 +741,6 @@ marionette
 self
 .
 wait_for_condition
-                     
 "
 button1
 -
@@ -747,7 +750,6 @@ mousedown
 -
 contextmenu
 "
-                     
 "
 button1
 -
@@ -760,14 +762,6 @@ contextmenu
 mouseup
 -
 click
-"
-)
-    
-skip
-(
-"
-Bug
-1191066
 "
 )
     
@@ -786,7 +780,6 @@ marionette
 self
 .
 wait_for_condition
-                          
 "
 button1
 -
@@ -799,14 +792,6 @@ contextmenu
 mouseup
 -
 click
-"
-)
-    
-skip
-(
-"
-Bug
-1191066
 "
 )
     
@@ -825,7 +810,6 @@ marionette
 self
 .
 wait_for_condition
-                                
 "
 button1
 -
@@ -841,13 +825,21 @@ click
 "
 )
     
-skip
-(
 "
+"
+"
+    
+"
+"
+"
+    
+/
+/
+Skipping
+due
+to
 Bug
 865334
-"
-)
     
 def
 test_long_press_fail
@@ -918,8 +910,6 @@ button
 5
 )
         
-self
-.
 assertRaises
 (
 MarionetteException
@@ -927,6 +917,10 @@ action
 .
 perform
 )
+    
+"
+"
+"
     
 def
 test_chain
