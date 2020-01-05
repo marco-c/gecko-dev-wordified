@@ -1314,6 +1314,9 @@ new
 ChromiumCDMParent
 (
 this
+GetPluginId
+(
+)
 )
 ;
 NS_ADDREF
