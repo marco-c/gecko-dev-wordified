@@ -2657,6 +2657,14 @@ builtChain
 optional
 *
 /
+UniqueCERTCertList
+*
+peerCertChain
+/
+*
+optional
+*
+/
 const
 Flags
 flags
@@ -3220,6 +3228,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -3650,6 +3659,7 @@ i
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
+peerCertChain
 pinningTelemetryInfo
 hostname
 )
@@ -4127,6 +4137,7 @@ j
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
+peerCertChain
 pinningTelemetryInfo
 hostname
 )
@@ -4433,6 +4444,7 @@ Allowed
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -4497,6 +4509,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -4642,6 +4655,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -4752,6 +4766,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -4938,6 +4953,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -4997,6 +5013,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -5056,6 +5073,7 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
+peerCertChain
 nullptr
 nullptr
 )
@@ -5158,6 +5176,14 @@ out
 UniqueCERTCertList
 &
 builtChain
+/
+*
+optional
+*
+/
+UniqueCERTCertList
+*
+peerCertChain
 /
 *
 optional
@@ -5325,6 +5351,7 @@ time
 pinarg
 hostname
 builtChain
+peerCertChain
 flags
 stapledOCSPResponse
 sctsFromTLS

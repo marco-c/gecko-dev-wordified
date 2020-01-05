@@ -9505,6 +9505,8 @@ GetHostNameRaw
 (
 )
 certList
+&
+peerCertChain
 saveIntermediates
 flags
 infoObject
