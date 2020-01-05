@@ -848,12 +848,14 @@ assign
 (
 {
 }
+(
 defaults
 &
 &
 defaults
 .
 headers
+)
 |
 |
 {

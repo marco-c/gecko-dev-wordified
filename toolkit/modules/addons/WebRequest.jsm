@@ -452,6 +452,7 @@ channel
 )
 {
 return
+(
 channel
 &
 &
@@ -461,6 +462,7 @@ channel
 )
 .
 requestId
+)
 |
 |
 this
