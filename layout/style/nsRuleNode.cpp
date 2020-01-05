@@ -42073,9 +42073,9 @@ NS_THEME_NONE
 /
 appearance
 :
-auto
-|
 none
+|
+auto
 SetValue
 (
 *
@@ -42097,7 +42097,7 @@ parentDisplay
 -
 >
 mAppearance
-NS_THEME_AUTO
+NS_THEME_NONE
 )
 ;
 /
