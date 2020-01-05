@@ -763,7 +763,7 @@ if
 fctrl
 -
 >
-ControlType
+GetType
 (
 )
 =

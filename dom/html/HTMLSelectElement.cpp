@@ -939,7 +939,6 @@ aFromParser
 nsGenericHTMLFormElementWithState
 (
 aNodeInfo
-NS_FORM_SELECT
 )
 mOptions
 (

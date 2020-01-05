@@ -7111,6 +7111,7 @@ nsIFormControl
 {
 public
 :
+explicit
 nsGenericHTMLFormElement
 (
 already_AddRefed
@@ -7125,8 +7126,6 @@ NodeInfo
 >
 &
 aNodeInfo
-uint8_t
-aType
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -8016,6 +8015,7 @@ nsGenericHTMLFormElement
 {
 public
 :
+explicit
 nsGenericHTMLFormElementWithState
 (
 already_AddRefed
@@ -8030,8 +8030,6 @@ NodeInfo
 >
 &
 aNodeInfo
-uint8_t
-aType
 )
 ;
 /

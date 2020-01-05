@@ -23771,7 +23771,7 @@ controlType
 control
 -
 >
-ControlType
+GetType
 (
 )
 ;

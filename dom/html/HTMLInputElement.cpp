@@ -5901,6 +5901,9 @@ aFromClone
 nsGenericHTMLFormElementWithState
 (
 aNodeInfo
+)
+mType
+(
 kInputDefaultType
 -
 >
@@ -19042,7 +19045,7 @@ formCtrl
 formCtrl
 -
 >
-ControlType
+GetType
 (
 )
 =

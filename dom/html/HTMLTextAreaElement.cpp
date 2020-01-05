@@ -440,7 +440,6 @@ aFromParser
 nsGenericHTMLFormElementWithState
 (
 aNodeInfo
-NS_FORM_TEXTAREA
 )
 mValueChanged
 (

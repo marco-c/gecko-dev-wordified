@@ -15115,7 +15115,7 @@ KeyAppendInt
 control
 -
 >
-ControlType
+GetType
 (
 )
 aKey

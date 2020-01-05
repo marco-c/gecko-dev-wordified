@@ -236,7 +236,7 @@ el
 el
 -
 >
-ControlType
+GetType
 (
 )
 =

@@ -10074,7 +10074,7 @@ return
 input
 -
 >
-ControlType
+GetType
 (
 )
 =

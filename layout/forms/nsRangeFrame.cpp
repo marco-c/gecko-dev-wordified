@@ -2975,7 +2975,7 @@ MOZ_ASSERT
 input
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -3198,7 +3198,7 @@ MOZ_ASSERT
 input
 -
 >
-ControlType
+GetType
 (
 )
 =
@@ -5059,7 +5059,7 @@ mContent
 )
 -
 >
-ControlType
+GetType
 (
 )
 =
