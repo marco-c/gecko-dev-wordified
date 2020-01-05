@@ -881,10 +881,6 @@ HttpBaseChannel
 (
 )
 :
-mCanceled
-(
-false
-)
 mStartPos
 (
 UINT64_MAX
@@ -921,6 +917,10 @@ RedirectionLimit
 mApplyConversion
 (
 true
+)
+mCanceled
+(
+false
 )
 mIsPending
 (
