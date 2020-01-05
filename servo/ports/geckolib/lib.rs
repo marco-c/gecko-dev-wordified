@@ -151,6 +151,9 @@ non_camel_case_types
 mod
 bindings
 ;
+mod
+data
+;
 #
 [
 allow
@@ -161,6 +164,9 @@ non_snake_case
 pub
 mod
 glue
+;
+mod
+traversal
 ;
 mod
 wrapper
