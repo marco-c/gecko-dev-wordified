@@ -1654,7 +1654,6 @@ new
 .
 base_url
 (
-&
 base
 )
 .
@@ -1666,7 +1665,14 @@ action
 .
 unwrap_or
 (
+(
+*
 base
+)
+.
+clone
+(
+)
 )
 ;
 let
