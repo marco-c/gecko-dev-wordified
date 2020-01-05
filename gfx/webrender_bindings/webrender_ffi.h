@@ -2719,12 +2719,6 @@ WrState
 wrState
 WrRect
 bounds
-WrRect
-overflow
-const
-WrImageMask
-*
-mask
 float
 opacity
 WrMatrix
