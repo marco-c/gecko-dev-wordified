@@ -103,7 +103,7 @@ use
 layout
 :
 :
-aux
+extra
 :
 :
 LayoutAuxMethods
