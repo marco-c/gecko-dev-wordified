@@ -56,25 +56,6 @@ nightly
 jamun
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-firefox
-/
-nightly
-/
-latest
--
-jamun
--
-l10n
-'
-    
 #
 l10n
     
