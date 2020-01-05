@@ -2763,11 +2763,11 @@ snippet
 "
 "
         
-try
-:
-            
 import
 urllib2
+        
+try
+:
             
 response
 =
@@ -2786,7 +2786,9 @@ read
 )
         
 except
-Exception
+urllib2
+.
+URLError
 :
             
 exc
@@ -2800,7 +2802,7 @@ exc_info
 )
             
 raise
-exc
+Exception
 "
 Failed
 to
@@ -2815,8 +2817,6 @@ snippet
 format
 (
 val
-.
-reason
 )
 tb
     
