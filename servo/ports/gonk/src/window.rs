@@ -2875,7 +2875,6 @@ ANativeBase
 )
 {
 let
-mut
 win
 :
 &
@@ -2910,7 +2909,6 @@ ANativeBase
 )
 {
 let
-mut
 win
 :
 &
@@ -2993,7 +2991,6 @@ mut
 GonkNativeWindow
 {
 let
-mut
 win
 =
 Box
@@ -3603,7 +3600,6 @@ ANativeBase
 )
 {
 let
-mut
 buf
 :
 &
@@ -3638,7 +3634,6 @@ ANativeBase
 )
 {
 let
-mut
 buf
 :
 &
@@ -5458,6 +5453,14 @@ send
 (
 msg
 )
+.
+ok
+(
+)
+.
+unwrap
+(
+)
 ;
 self
 .
@@ -5469,6 +5472,14 @@ WindowEvent
 :
 :
 Idle
+)
+.
+ok
+(
+)
+.
+unwrap
+(
 )
 ;
 }
