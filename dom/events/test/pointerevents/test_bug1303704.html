@@ -451,6 +451,15 @@ MOZ_SOURCE_MOUSE
 )
 ;
 }
+SimpleTest
+.
+waitForFocus
+(
+(
+)
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -474,6 +483,9 @@ true
 ]
 }
 runTests
+)
+;
+}
 )
 ;
 <
