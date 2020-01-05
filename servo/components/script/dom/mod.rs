@@ -3129,6 +3129,14 @@ progressevent
 ;
 pub
 mod
+promise
+;
+pub
+mod
+promisenativehandler
+;
+pub
+mod
 radionodelist
 ;
 pub
