@@ -401,6 +401,8 @@ toString
 function
 (
 )
+{
+return
 (
 i
 >
@@ -412,6 +414,8 @@ this
 "
 foo
 "
+;
+}
 }
 ;
 var

@@ -405,9 +405,13 @@ x
 function
 (
 )
+{
+return
 gc
 (
 )
+;
+}
 )
 ;
 (

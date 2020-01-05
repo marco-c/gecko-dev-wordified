@@ -401,7 +401,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 ;
 /
 /

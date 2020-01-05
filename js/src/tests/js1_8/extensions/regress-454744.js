@@ -396,7 +396,11 @@ x
 function
 (
 )
+{
+return
 2
+;
+}
 )
 ;
 for

@@ -499,7 +499,11 @@ x
 function
 (
 )
+{
+return
 x
+;
+}
 )
 "
 )

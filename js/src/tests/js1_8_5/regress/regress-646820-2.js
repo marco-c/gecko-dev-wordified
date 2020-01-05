@@ -51,7 +51,11 @@ y
 function
 (
 )
+{
+return
 y
+;
+}
 obj
 ]
 ;

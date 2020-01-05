@@ -202,10 +202,14 @@ notify
 function
 (
 )
+{
+return
 doSearch
 (
 next
 )
+;
+}
 }
 )
 ;

@@ -372,7 +372,11 @@ __proto__
 function
 (
 )
+{
+return
 3
+;
+}
 ;
 try
 {

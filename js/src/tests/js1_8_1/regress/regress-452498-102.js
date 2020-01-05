@@ -413,7 +413,11 @@ function
 x
 (
 )
+{
+return
 y
+;
+}
 }
 )
 (

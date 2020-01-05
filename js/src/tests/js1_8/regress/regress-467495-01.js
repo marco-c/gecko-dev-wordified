@@ -384,7 +384,11 @@ function
 x
 (
 )
+{
+return
 4
+;
+}
 ;
 var
 x

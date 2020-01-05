@@ -370,7 +370,11 @@ function
 x
 (
 )
+{
+return
 0
+;
+}
 /
 /
 Assertion

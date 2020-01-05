@@ -401,7 +401,11 @@ function
 (
 q
 )
+{
+return
 q
+;
+}
 )
 )
 .
