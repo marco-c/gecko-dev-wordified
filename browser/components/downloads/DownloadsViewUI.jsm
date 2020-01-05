@@ -937,6 +937,14 @@ download
 ;
 if
 (
+!
+this
+.
+download
+.
+succeeded
+&
+&
 this
 .
 download
