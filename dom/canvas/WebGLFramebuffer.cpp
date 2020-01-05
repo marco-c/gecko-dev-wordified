@@ -10461,6 +10461,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 callback
+const
 mozilla
 :
 :
@@ -10545,6 +10546,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 callback
+const
 C
 &
 field
