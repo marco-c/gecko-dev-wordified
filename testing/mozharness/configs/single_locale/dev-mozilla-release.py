@@ -165,7 +165,11 @@ branch
 "
 :
 "
-default
+%
+(
+revision
+)
+s
 "
         
 "

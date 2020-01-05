@@ -173,7 +173,11 @@ branch
 "
 :
 "
-default
+%
+(
+revision
+)
+s
 "
         
 "
