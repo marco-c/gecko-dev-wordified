@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -176,6 +183,13 @@ h
 include
 "
 nsQueryObject
+.
+h
+"
+#
+include
+"
+nsScriptError
 .
 h
 "

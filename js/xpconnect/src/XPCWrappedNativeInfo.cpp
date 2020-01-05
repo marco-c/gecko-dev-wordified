@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

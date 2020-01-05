@@ -360,6 +360,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -375,6 +382,13 @@ h
 include
 "
 nsGlobalWindow
+.
+h
+"
+#
+include
+"
+nsScriptError
 .
 h
 "

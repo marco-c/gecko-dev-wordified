@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
