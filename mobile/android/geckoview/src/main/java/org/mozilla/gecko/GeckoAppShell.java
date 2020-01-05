@@ -718,6 +718,15 @@ Settings
 import
 android
 .
+support
+.
+annotation
+.
+NonNull
+;
+import
+android
+.
 telephony
 .
 TelephonyManager
@@ -10223,6 +10232,7 @@ interface
 GeckoInterface
 {
 public
+NonNull
 EventDispatcher
 getAppEventDispatcher
 (
