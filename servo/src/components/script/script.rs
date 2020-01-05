@@ -210,6 +210,10 @@ time
 ;
 extern
 crate
+canvas
+;
+extern
+crate
 script_traits
 ;
 #
@@ -262,10 +266,6 @@ msg
 extern
 crate
 url
-;
-extern
-crate
-gfx
 ;
 pub
 mod
