@@ -1193,14 +1193,6 @@ prim_restart
 )
 )
 ;
-gl
--
->
-fEnable
-(
-LOCAL_GL_PRIMITIVE_RESTART
-)
-;
 }
 /
 /
