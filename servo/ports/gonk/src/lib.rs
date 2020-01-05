@@ -90,15 +90,6 @@ path
 rustc_private
 )
 ]
-#
-!
-[
-feature
-(
-std_misc
-env
-)
-]
 /
 /
 For

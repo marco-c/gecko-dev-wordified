@@ -60,7 +60,7 @@ use
 std
 :
 :
-old_path
+path
 :
 :
 Path
@@ -126,7 +126,7 @@ use
 std
 :
 :
-old_io
+fs
 :
 :
 File
@@ -151,6 +151,15 @@ mpsc
 :
 :
 Sender
+;
+use
+std
+:
+:
+io
+:
+:
+Read
 ;
 use
 geom
