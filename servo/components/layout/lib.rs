@@ -226,7 +226,7 @@ macro_use
 ]
 extern
 crate
-profile
+profile_traits
 ;
 #
 [

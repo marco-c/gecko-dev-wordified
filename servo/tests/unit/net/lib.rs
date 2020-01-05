@@ -81,10 +81,6 @@ net_traits
 ;
 extern
 crate
-profile
-;
-extern
-crate
 url
 ;
 extern

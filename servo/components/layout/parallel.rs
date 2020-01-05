@@ -194,7 +194,7 @@ PostorderDomTraversal
 }
 ;
 use
-profile
+profile_traits
 :
 :
 time

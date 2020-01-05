@@ -378,7 +378,7 @@ PipelineId
 }
 ;
 use
-profile
+profile_traits
 :
 :
 mem
@@ -391,7 +391,7 @@ ReportsChan
 }
 ;
 use
-profile
+profile_traits
 :
 :
 time
@@ -404,7 +404,7 @@ profile
 }
 ;
 use
-profile
+profile_traits
 :
 :
 time

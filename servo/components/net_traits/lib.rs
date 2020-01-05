@@ -110,10 +110,6 @@ png
 ;
 extern
 crate
-profile
-;
-extern
-crate
 stb_image
 ;
 extern
