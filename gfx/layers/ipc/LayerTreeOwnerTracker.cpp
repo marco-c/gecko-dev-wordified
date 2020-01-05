@@ -182,6 +182,11 @@ GPUProcessManager
 #
 include
 <
+functional
+>
+#
+include
+<
 utility
 >
 /
@@ -401,6 +406,9 @@ LayerTreeOwnerTracker
 :
 Iterate
 (
+std
+:
+:
 function
 <
 void

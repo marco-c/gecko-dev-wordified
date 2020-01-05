@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticMutex
 .
 h

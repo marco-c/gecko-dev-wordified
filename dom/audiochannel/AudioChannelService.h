@@ -182,13 +182,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Function
-.
-h
-"
+<
+functional
+>
 class
 nsIRunnable
 ;
@@ -967,7 +963,7 @@ RefreshAgents
 nsPIDOMWindowOuter
 *
 aWindow
-mozilla
+std
 :
 :
 function

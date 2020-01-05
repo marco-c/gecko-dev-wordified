@@ -127,15 +127,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 APZUtils
@@ -149,6 +140,11 @@ nsIDOMWindowUtils
 .
 h
 "
+#
+include
+<
+functional
+>
 class
 nsIContent
 ;
@@ -187,6 +183,9 @@ namespace
 layers
 {
 typedef
+std
+:
+:
 function
 <
 void

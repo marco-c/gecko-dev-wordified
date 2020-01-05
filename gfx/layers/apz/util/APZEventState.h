@@ -138,15 +138,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 GeckoContentController
@@ -195,6 +186,11 @@ h
 /
 for
 nsWeakPtr
+#
+include
+<
+functional
+>
 template
 <
 class
@@ -221,6 +217,9 @@ class
 ActiveElementManager
 ;
 typedef
+std
+:
+:
 function
 <
 void

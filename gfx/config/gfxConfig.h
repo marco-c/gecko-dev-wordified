@@ -116,6 +116,11 @@ define
 mozilla_gfx_config_gfxConfig_h
 #
 include
+<
+functional
+>
+#
+include
 "
 gfxFeature
 .
@@ -134,15 +139,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Function
 .
 h
 "
@@ -1283,7 +1279,7 @@ initialized
 FeatureState
 .
 typedef
-mozilla
+std
 :
 :
 function
@@ -1326,7 +1322,7 @@ enabled
 fallback
 .
 typedef
-mozilla
+std
 :
 :
 function

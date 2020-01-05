@@ -143,6 +143,11 @@ nsCycleCollectionNoteChild
 .
 h
 "
+#
+include
+<
+functional
+>
 /
 *
 *
@@ -1608,7 +1613,7 @@ RemoveElementsBy
 void
 RemoveElementsBy
 (
-mozilla
+std
 :
 :
 function

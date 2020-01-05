@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-Function
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
@@ -242,6 +233,11 @@ h
 include
 <
 deque
+>
+#
+include
+<
+functional
 >
 #
 include
@@ -673,7 +669,7 @@ events
 void
 PeekMessages
 (
-mozilla
+std
 :
 :
 function

@@ -125,13 +125,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Function
-.
-h
-"
+<
+functional
+>
 namespace
 mozilla
 {
@@ -191,6 +187,9 @@ const
 char
 *
 aLogModules
+std
+:
+:
 function
 <
 void

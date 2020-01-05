@@ -6132,7 +6132,7 @@ MessageChannel
 :
 PeekMessages
 (
-mozilla
+std
 :
 :
 function

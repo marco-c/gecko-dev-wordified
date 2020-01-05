@@ -342,6 +342,11 @@ H264
 .
 h
 "
+#
+include
+<
+functional
+>
 namespace
 mozilla
 {
@@ -835,7 +840,7 @@ private
 :
 nsTArray
 <
-mozilla
+std
 :
 :
 function

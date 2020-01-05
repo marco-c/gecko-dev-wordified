@@ -140,7 +140,7 @@ char
 *
 aName
 const
-mozilla
+std
 :
 :
 function
