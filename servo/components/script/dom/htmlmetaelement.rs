@@ -702,7 +702,13 @@ CSSRule
 :
 Viewport
 (
+Arc
+:
+:
+new
+(
 translated_rule
+)
 )
 ]
 origin

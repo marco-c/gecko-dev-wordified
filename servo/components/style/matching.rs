@@ -144,6 +144,7 @@ properties
 {
 ComputedValues
 cascade
+PropertyDeclarationBlock
 }
 ;
 use
@@ -929,10 +930,7 @@ ptr
 :
 *
 const
-Vec
-<
-_
->
+PropertyDeclarationBlock
 =
 &
 *
@@ -3801,10 +3799,6 @@ style_attribute
 self
 .
 style_attribute
-(
-)
-.
-as_ref
 (
 )
 ;

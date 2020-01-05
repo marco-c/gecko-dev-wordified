@@ -258,10 +258,10 @@ text
 Text
 ;
 use
-std
+style
 :
 :
-cell
+refcell
 :
 :
 Ref

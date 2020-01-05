@@ -412,13 +412,7 @@ PropertyDeclarationBlock
 {
 declarations
 :
-Arc
-:
-:
-new
-(
 declarations
-)
 important_count
 :
 0
@@ -500,11 +494,6 @@ PropertyDeclarationBlock
 {
 declarations
 :
-Arc
-:
-:
-new
-(
 properties
 .
 into_iter
@@ -527,7 +516,6 @@ Normal
 .
 collect
 (
-)
 )
 important_count
 :

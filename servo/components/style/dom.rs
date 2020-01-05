@@ -1591,10 +1591,13 @@ self
 )
 -
 >
-&
 Option
 <
+&
+Arc
+<
 PropertyDeclarationBlock
+>
 >
 ;
 fn
