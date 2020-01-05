@@ -3636,7 +3636,7 @@ i
 nsAutoCString
 urlFrom
 ;
-nsCString
+auto
 *
 urlTo
 =

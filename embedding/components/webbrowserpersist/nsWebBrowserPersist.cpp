@@ -9676,7 +9676,7 @@ and
 /
 /
 saved
-DocData
+auto
 *
 docData
 =
@@ -9760,7 +9760,7 @@ visit
 }
 else
 {
-DocData
+auto
 *
 docData
 =
@@ -10183,7 +10183,7 @@ if
 all
 goes
 wrong
-CleanupData
+auto
 *
 cleanupData
 =
@@ -13297,7 +13297,7 @@ in
 event
 of
 failure
-CleanupData
+auto
 *
 cleanupData
 =
