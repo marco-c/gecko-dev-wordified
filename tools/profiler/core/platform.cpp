@@ -14861,7 +14861,7 @@ nullptr
 ;
 }
 void
-profiler_sleep_start
+profiler_thread_sleep
 (
 )
 {
@@ -14919,7 +14919,7 @@ setSleeping
 ;
 }
 void
-profiler_sleep_end
+profiler_thread_wake
 (
 )
 {
@@ -14977,7 +14977,7 @@ setAwake
 ;
 }
 bool
-profiler_is_sleeping
+profiler_thread_is_sleeping
 (
 )
 {

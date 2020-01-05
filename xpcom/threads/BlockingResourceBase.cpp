@@ -2521,8 +2521,8 @@ defined
 MOZILLA_INTERNAL_API
 )
 {
-GeckoProfilerSleepRAII
-profiler_sleep
+GeckoProfilerThreadSleepRAII
+sleep
 ;
 #
 endif

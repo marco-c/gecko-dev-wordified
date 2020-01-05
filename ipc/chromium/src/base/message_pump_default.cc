@@ -374,8 +374,8 @@ OTHER
 mozilla
 :
 :
-GeckoProfilerSleepRAII
-profiler_sleep
+GeckoProfilerThreadSleepRAII
+sleep
 ;
 event_
 .
@@ -438,8 +438,8 @@ OTHER
 mozilla
 :
 :
-GeckoProfilerSleepRAII
-profiler_sleep
+GeckoProfilerThreadSleepRAII
+sleep
 ;
 event_
 .
