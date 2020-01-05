@@ -1827,7 +1827,7 @@ PLAYING
 notifyObservers
 (
 "
-mediaControl
+MediaControl
 "
 "
 resumeMedia
@@ -1869,7 +1869,7 @@ PAUSED
 notifyObservers
 (
 "
-mediaControl
+MediaControl
 "
 "
 mediaControlPaused
@@ -1911,7 +1911,7 @@ STOPPED
 notifyObservers
 (
 "
-mediaControl
+MediaControl
 "
 "
 mediaControlStopped
