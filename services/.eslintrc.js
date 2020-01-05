@@ -69,17 +69,6 @@ warn
 "
 no
 -
-cond
--
-assign
-"
-:
-"
-warn
-"
-"
-no
--
 ex
 -
 assign
