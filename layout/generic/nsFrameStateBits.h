@@ -2822,15 +2822,6 @@ is
 a
 pending
 reflow
-/
-/
-XXX
-not
-used
-yet
-.
-.
-.
 FRAME_STATE_BIT
 (
 FlexContainer
