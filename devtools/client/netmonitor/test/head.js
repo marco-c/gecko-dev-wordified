@@ -1180,6 +1180,14 @@ disabled
 "
 )
 ;
+Services
+.
+cookies
+.
+removeAll
+(
+)
+;
 }
 )
 ;
