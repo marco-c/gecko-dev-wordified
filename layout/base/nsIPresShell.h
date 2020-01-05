@@ -962,6 +962,10 @@ above
 flags
 public
 :
+nsIPresShell
+(
+)
+;
 /
 *
 *
