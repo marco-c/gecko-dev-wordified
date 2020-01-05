@@ -37027,7 +37027,7 @@ InlinePropertyTable
 trimTo
 (
 const
-ObjectVector
+InliningTargets
 &
 targets
 const
@@ -37115,6 +37115,8 @@ targets
 [
 i
 ]
+.
+target
 -
 >
 is
@@ -37135,6 +37137,8 @@ targets
 [
 i
 ]
+.
+target
 -
 >
 as
@@ -37210,7 +37214,7 @@ InlinePropertyTable
 trimToTargets
 (
 const
-ObjectVector
+InliningTargets
 &
 targets
 )
@@ -37290,6 +37294,8 @@ targets
 [
 j
 ]
+.
+target
 )
 {
 foundFunc
