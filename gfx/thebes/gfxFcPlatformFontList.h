@@ -741,6 +741,8 @@ CreateScaledFont
 FcPattern
 *
 aRenderPattern
+gfxFloat
+aAdjustedSize
 const
 gfxFontStyle
 *
@@ -1030,6 +1032,8 @@ aScaledFont
 FcPattern
 *
 aPattern
+gfxFloat
+aAdjustedSize
 gfxFontEntry
 *
 aFontEntry
