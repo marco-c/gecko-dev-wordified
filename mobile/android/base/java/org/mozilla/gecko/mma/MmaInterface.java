@@ -151,9 +151,4 @@ double
 value
 )
 ;
-void
-stop
-(
-)
-;
 }
