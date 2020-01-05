@@ -1,17 +1,5 @@
 /
 *
-eslint
--
-env
-mozilla
-/
-frame
--
-script
-*
-/
-/
-*
 Any
 copyright
 is
