@@ -1857,7 +1857,11 @@ scripts
 getAlias
 (
 )
-FIRST_GUESS_SCRIPT_CAPACITY
+scripts
+.
+getCapacity
+(
+)
 &
 internalStatus
 )

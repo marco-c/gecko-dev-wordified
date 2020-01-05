@@ -7538,9 +7538,11 @@ case
 .
 if
 (
+(
 hostid
 &
 0x3FF
+)
 !
 =
 0x92

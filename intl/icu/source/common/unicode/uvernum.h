@@ -656,7 +656,7 @@ ICU
 #
 define
 U_ICU_VERSION_MINOR_NUM
-1
+2
 /
 *
 *
@@ -1000,7 +1000,7 @@ U_ICU_VERSION
 "
 58
 .
-1
+2
 "
 /
 *
@@ -1077,7 +1077,7 @@ U_ICU_DATA_VERSION
 "
 58
 .
-1
+2
 "
 #
 endif
