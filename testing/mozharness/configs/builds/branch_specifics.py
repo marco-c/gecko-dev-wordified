@@ -443,9 +443,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 release
 '
@@ -963,9 +961,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 beta
 '

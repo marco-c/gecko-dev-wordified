@@ -271,8 +271,6 @@ objdir
 obj
 -
 firefox
-/
-x86_64
 '
     
 '
@@ -865,9 +863,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 nightly
 '

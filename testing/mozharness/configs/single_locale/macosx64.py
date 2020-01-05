@@ -60,9 +60,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 l10n
 -

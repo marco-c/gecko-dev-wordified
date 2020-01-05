@@ -532,9 +532,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 nightly
 "
@@ -641,9 +639,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 nightly
 "
@@ -687,9 +683,7 @@ config
 /
 mozconfigs
 /
-macosx
--
-universal
+macosx64
 /
 l10n
 -

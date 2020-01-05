@@ -132,19 +132,7 @@ x86_64
 '
 :
 '
-macosx
--
-universal
-'
-                                   
-'
-i386
-'
-:
-'
-macosx
--
-universal
+macosx64
 '
 }
                         
