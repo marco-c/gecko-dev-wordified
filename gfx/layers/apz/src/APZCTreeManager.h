@@ -102,7 +102,7 @@ mozilla_layers_APZCTreeManager_h
 #
 include
 <
-map
+unordered_map
 >
 /
 /
@@ -110,7 +110,7 @@ for
 std
 :
 :
-map
+unordered_map
 #
 include
 "
@@ -315,6 +315,9 @@ OverscrollHandoffState
 ;
 struct
 FlingHandoffState
+;
+struct
+ScrollableLayerGuidHash
 ;
 class
 LayerMetricsWrapper
@@ -4468,10 +4471,11 @@ code
 std
 :
 :
-map
+unordered_map
 <
 ScrollableLayerGuid
 ZoomConstraints
+ScrollableLayerGuidHash
 >
 mZoomConstraints
 ;
