@@ -120,12 +120,7 @@ join
 (
 helpers
 .
-getRootDir
-(
-module
-.
-filename
-)
+rootDir
 "
 tools
 "
