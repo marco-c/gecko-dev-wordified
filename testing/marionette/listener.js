@@ -11093,6 +11093,8 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+return
+;
 }
 sendResponse
 (
