@@ -259,6 +259,14 @@ if
 (
 !
 sInitialized
+&
+&
+Preferences
+:
+:
+IsServiceAvailable
+(
+)
 )
 {
 sInitialized
