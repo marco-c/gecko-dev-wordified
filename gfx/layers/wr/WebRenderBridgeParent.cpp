@@ -1013,9 +1013,6 @@ gfx
 IntSize
 &
 aSize
-bool
-*
-aOutSuccess
 )
 {
 if
@@ -1056,11 +1053,6 @@ aSize
 height
 )
 )
-;
-*
-aOutSuccess
-=
-true
 ;
 return
 IPC_OK
