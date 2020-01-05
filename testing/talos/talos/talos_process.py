@@ -1028,6 +1028,10 @@ is
 really
 terminated
         
+return_code
+=
+None
+        
 try
 :
             
