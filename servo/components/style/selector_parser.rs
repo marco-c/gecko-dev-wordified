@@ -806,6 +806,16 @@ self
 >
 bool
 ;
+fn
+matches_user_and_author_rules
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 impl
 SelectorImpl
