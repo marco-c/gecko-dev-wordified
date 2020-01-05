@@ -374,11 +374,11 @@ selectedBrowser
 items
 function
 (
-contentItems
+items
 )
 {
 let
-contentValidLinks
+validLinks
 =
 0
 ;
@@ -500,14 +500,14 @@ media
 var
 item
 =
-contentItems
+items
 .
 filter
 (
-aItem
+item
 =
 >
-aItem
+item
 .
 label
 =
@@ -584,7 +584,7 @@ case
 todo
 "
 :
-contentValidLinks
+validLinks
 +
 +
 ;
@@ -627,7 +627,7 @@ case
 1
 "
 :
-contentValidLinks
+validLinks
 +
 +
 ;
@@ -668,7 +668,7 @@ case
 2
 "
 :
-contentValidLinks
+validLinks
 +
 +
 ;
@@ -723,7 +723,7 @@ value
 )
 ;
 return
-contentValidLinks
+validLinks
 ;
 }
 )

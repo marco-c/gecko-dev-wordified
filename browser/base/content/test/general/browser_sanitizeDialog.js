@@ -4174,7 +4174,7 @@ function
 (
 entry
 isnew
-unused
+appcache
 status
 )
 {

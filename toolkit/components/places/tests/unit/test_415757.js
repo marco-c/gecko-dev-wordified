@@ -603,7 +603,7 @@ been
 removed
 for
 (
-let
+var
 i
 =
 0

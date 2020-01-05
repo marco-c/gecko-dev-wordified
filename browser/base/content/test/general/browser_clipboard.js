@@ -403,6 +403,13 @@ interfaces
 nsIDOMWindowUtils
 )
 ;
+const
+modifier
+=
+arg
+.
+modifier
+;
 function
 sendKey
 (
@@ -420,8 +427,6 @@ keydown
 "
 key
 0
-arg
-.
 modifier
 )
 )
@@ -440,8 +445,6 @@ charCodeAt
 (
 0
 )
-arg
-.
 modifier
 )
 ;
@@ -455,8 +458,6 @@ keyup
 "
 key
 0
-arg
-.
 modifier
 )
 ;
@@ -1671,6 +1672,13 @@ interfaces
 nsIDOMWindowUtils
 )
 ;
+const
+modifier
+=
+arg
+.
+modifier
+;
 if
 (
 utils
@@ -1684,8 +1692,6 @@ keydown
 v
 "
 0
-arg
-.
 modifier
 )
 )
@@ -1708,8 +1714,6 @@ charCodeAt
 (
 0
 )
-arg
-.
 modifier
 )
 ;
@@ -1725,8 +1729,6 @@ keyup
 v
 "
 0
-arg
-.
 modifier
 )
 ;

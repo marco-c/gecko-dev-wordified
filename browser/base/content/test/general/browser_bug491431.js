@@ -110,7 +110,7 @@ TabClose
 "
 function
 (
-firstTabCloseEvent
+aEvent
 )
 {
 gBrowser
@@ -131,7 +131,7 @@ true
 ok
 (
 !
-firstTabCloseEvent
+aEvent
 .
 detail
 .
@@ -173,7 +173,7 @@ TabClose
 "
 function
 (
-secondTabCloseEvent
+aEvent
 )
 {
 gBrowser
@@ -199,7 +199,7 @@ function
 {
 ok
 (
-secondTabCloseEvent
+aEvent
 .
 detail
 .

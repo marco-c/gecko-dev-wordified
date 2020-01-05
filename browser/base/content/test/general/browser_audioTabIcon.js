@@ -2769,13 +2769,13 @@ about
 blank
 "
 }
-secondAboutBlankBrowser
+newBrowser
 =
 >
 test_swapped_browser_while_not_playing
 (
 tab
-secondAboutBlankBrowser
+newBrowser
 )
 )
 ;
@@ -2791,7 +2791,7 @@ test_click_on_pinned_tab_after_mute
 {
 function
 *
-taskFn
+test_on_browser
 (
 browser
 )
@@ -3022,7 +3022,7 @@ url
 :
 PAGE
 }
-taskFn
+test_on_browser
 )
 ;
 }
@@ -3045,7 +3045,7 @@ test_cross_process_load
 {
 function
 *
-taskFn
+test_on_browser
 (
 browser
 )
@@ -3188,7 +3188,7 @@ url
 :
 PAGE
 }
-taskFn
+test_on_browser
 )
 ;
 }
@@ -3259,7 +3259,7 @@ mutedPromise
 }
 function
 *
-taskFn
+test_on_browser
 (
 browser
 )
@@ -3451,7 +3451,7 @@ url
 :
 PAGE
 }
-taskFn
+test_on_browser
 )
 ;
 }
@@ -3594,7 +3594,7 @@ test_delayed_tabattr_removal
 {
 function
 *
-taskFn
+test_on_browser
 (
 browser
 )
@@ -3689,7 +3689,7 @@ url
 :
 PAGE
 }
-taskFn
+test_on_browser
 )
 ;
 }

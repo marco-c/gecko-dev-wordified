@@ -49,7 +49,7 @@ input3
 function
 task
 (
-contentConsts
+consts
 )
 {
 let
@@ -188,7 +188,7 @@ gDoc
 .
 createElementNS
 (
-contentConsts
+consts
 .
 HTML_NS
 "
@@ -215,7 +215,7 @@ setAttribute
 "
 id
 "
-contentConsts
+consts
 .
 INPUT_ID
 )
@@ -240,7 +240,7 @@ gDoc
 .
 getElementById
 (
-contentConsts
+consts
 .
 FORM1_ID
 )
@@ -286,7 +286,7 @@ evt
 target
 .
 id
-contentConsts
+consts
 .
 INPUT_ID
 evt
@@ -339,7 +339,7 @@ gDoc
 .
 createElementNS
 (
-contentConsts
+consts
 .
 HTML_NS
 "
@@ -366,7 +366,7 @@ setAttribute
 "
 id
 "
-contentConsts
+consts
 .
 BODY_INPUT_ID
 )
@@ -435,7 +435,7 @@ evt
 target
 .
 id
-contentConsts
+consts
 .
 BODY_INPUT_ID
 evt
@@ -490,7 +490,7 @@ gDoc
 .
 getElementById
 (
-contentConsts
+consts
 .
 CHANGE_INPUT_ID
 )
@@ -532,7 +532,7 @@ evt
 target
 .
 id
-contentConsts
+consts
 .
 CHANGE_INPUT_ID
 evt

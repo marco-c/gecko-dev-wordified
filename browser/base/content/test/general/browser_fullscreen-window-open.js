@@ -254,7 +254,7 @@ runNextTest
 )
 {
 let
-testCase
+test
 =
 gTests
 .
@@ -264,12 +264,12 @@ shift
 ;
 if
 (
-testCase
+test
 )
 {
 executeSoon
 (
-testCase
+test
 )
 ;
 }

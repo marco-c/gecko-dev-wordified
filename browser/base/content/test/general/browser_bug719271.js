@@ -123,6 +123,7 @@ var
 gTab1
 gTab2
 gLevel1
+gLevel2
 ;
 function
 test
@@ -412,7 +413,7 @@ reduce
 )
 ;
 let
-level2
+gLevel2
 =
 ZoomManager
 .
@@ -428,7 +429,7 @@ gTab2
 ;
 ok
 (
-level2
+gLevel2
 <
 1
 "

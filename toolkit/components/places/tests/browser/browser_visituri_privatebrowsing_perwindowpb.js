@@ -565,13 +565,13 @@ testOnWindow
 }
 function
 (
-aWin2
+aWin
 )
 {
 doTest
 (
 false
-aWin2
+aWin
 finalURL
 function
 (

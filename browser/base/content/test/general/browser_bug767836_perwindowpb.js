@@ -490,13 +490,13 @@ testOnWindow
 true
 function
 (
-aWindow2
+aWindow
 )
 {
 doTest
 (
 true
-aWindow2
+aWindow
 function
 (
 )

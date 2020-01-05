@@ -308,7 +308,7 @@ runIconDiscoveryTest
 )
 {
 var
-testCase
+test
 =
 iconDiscoveryTests
 [
@@ -343,14 +343,14 @@ null
 ;
 if
 (
-testCase
+test
 .
 pass
 )
 ok
 (
 hasSrc
-testCase
+test
 .
 text
 )
@@ -360,7 +360,7 @@ ok
 (
 !
 hasSrc
-testCase
+test
 .
 text
 )
@@ -435,7 +435,7 @@ getSystemPrincipal
 )
 ;
 var
-testCase
+test
 =
 iconDiscoveryTests
 [
@@ -481,7 +481,7 @@ gTestPath
 var
 rel
 =
-testCase
+test
 .
 rel
 |
@@ -493,7 +493,7 @@ icon
 var
 href
 =
-testCase
+test
 .
 href
 |
@@ -509,7 +509,7 @@ png
 var
 type
 =
-testCase
+test
 .
 type
 |
@@ -522,14 +522,14 @@ png
 ;
 if
 (
-testCase
+test
 .
 pass
 =
 =
 undefined
 )
-testCase
+test
 .
 pass
 =
@@ -852,7 +852,7 @@ runSearchDiscoveryTest
 )
 {
 var
-testCase
+test
 =
 searchDiscoveryTests
 [
@@ -862,7 +862,7 @@ searchDiscoveryTests
 var
 title
 =
-testCase
+test
 .
 title
 |
@@ -882,7 +882,7 @@ var
 hasEngine
 =
 (
-testCase
+test
 .
 count
 )
@@ -908,7 +908,7 @@ engines
 length
 =
 =
-testCase
+test
 .
 count
 )
@@ -930,7 +930,7 @@ title
 ok
 (
 hasEngine
-testCase
+test
 .
 text
 )
@@ -946,10 +946,10 @@ else
 ok
 (
 !
-testCase
+test
 .
 pass
-testCase
+test
 .
 text
 )
@@ -1125,7 +1125,7 @@ runSearchDiscoveryTest
 )
 ;
 let
-testCase
+test
 =
 searchDiscoveryTests
 [
@@ -1149,7 +1149,7 @@ link
 let
 rel
 =
-testCase
+test
 .
 rel
 |
@@ -1161,7 +1161,7 @@ search
 let
 href
 =
-testCase
+test
 .
 href
 |
@@ -1189,7 +1189,7 @@ xml
 let
 type
 =
-testCase
+test
 .
 type
 |
@@ -1205,7 +1205,7 @@ xml
 let
 title
 =
-testCase
+test
 .
 title
 |
@@ -1216,14 +1216,14 @@ length
 ;
 if
 (
-testCase
+test
 .
 pass
 =
 =
 undefined
 )
-testCase
+test
 .
 pass
 =

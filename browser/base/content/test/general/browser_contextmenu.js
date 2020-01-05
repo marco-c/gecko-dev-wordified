@@ -6062,7 +6062,7 @@ remoteClientsFixture
 )
 ;
 let
-plainTextItemsWithSendPage
+plainTextItems
 =
 [
 "
@@ -6212,7 +6212,7 @@ test
 -
 text
 "
-plainTextItemsWithSendPage
+plainTextItems
 {
 *
 onContextMenuShown
@@ -6542,7 +6542,7 @@ selector
 function
 *
 (
-contentSelector
+selector
 )
 {
 info
@@ -6551,7 +6551,7 @@ Selecting
 text
 of
 {
-contentSelector
+selector
 }
 )
 ;
@@ -6595,7 +6595,7 @@ doc
 .
 querySelector
 (
-contentSelector
+selector
 )
 ;
 Assert
