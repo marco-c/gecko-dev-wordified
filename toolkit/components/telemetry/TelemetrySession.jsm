@@ -9560,6 +9560,18 @@ reason
 REASON_GATHER_SUBSESSION_PAYLOAD
 )
 ;
+if
+(
+AppConstants
+.
+platform
+=
+=
+"
+android
+"
+)
+{
 payloadObj
 .
 UIMeasurements
@@ -9578,6 +9590,7 @@ clearUIsession
 )
 )
 ;
+}
 if
 (
 this
