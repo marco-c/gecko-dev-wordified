@@ -902,6 +902,11 @@ redirectionLimit
 )
 a
 .
+allowPipelining
+(
+)
+a
+.
 allowSTS
 (
 )
@@ -2296,6 +2301,10 @@ redirectionLimit
 const
 bool
 &
+allowPipelining
+const
+bool
+&
 allowSTS
 const
 uint32_t
@@ -3609,6 +3618,14 @@ mChannel
 SetRedirectionLimit
 (
 redirectionLimit
+)
+;
+mChannel
+-
+>
+SetAllowPipelining
+(
+allowPipelining
 )
 ;
 mChannel

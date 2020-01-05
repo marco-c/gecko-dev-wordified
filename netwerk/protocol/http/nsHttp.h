@@ -507,8 +507,8 @@ NS_HTTP_ALLOW_KEEPALIVE
 <
 0
 )
-/
-/
+#
+define
 NS_HTTP_ALLOW_PIPELINING
 (
 1
@@ -516,7 +516,6 @@ NS_HTTP_ALLOW_PIPELINING
 <
 1
 )
-removed
 /
 /
 a
