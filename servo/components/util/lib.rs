@@ -375,10 +375,6 @@ mod
 thread
 ;
 pub
-mod
-thread_state
-;
-pub
 fn
 servo_version
 (

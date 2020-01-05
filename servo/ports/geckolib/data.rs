@@ -196,6 +196,12 @@ use
 style
 :
 :
+thread_state
+;
+use
+style
+:
+:
 workqueue
 :
 :
@@ -206,12 +212,6 @@ style_traits
 :
 :
 ViewportPx
-;
-use
-util
-:
-:
-thread_state
 ;
 pub
 struct

@@ -958,6 +958,12 @@ use
 style
 :
 :
+thread_state
+;
+use
+style
+:
+:
 timer
 :
 :
@@ -1016,12 +1022,6 @@ util
 :
 :
 thread
-;
-use
-util
-:
-:
-thread_state
 ;
 /
 /
