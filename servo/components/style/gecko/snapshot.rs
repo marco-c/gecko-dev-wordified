@@ -985,7 +985,7 @@ self
 .
 mState
 as
-u16
+u32
 }
 )
 )
