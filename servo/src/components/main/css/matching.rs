@@ -309,7 +309,7 @@ layout_data
 {
 stylist
 .
-get_applicable_declarations
+push_applicable_declarations
 (
 self
 style_attribute
@@ -325,7 +325,7 @@ applicable_declarations
 ;
 stylist
 .
-get_applicable_declarations
+push_applicable_declarations
 (
 self
 None
@@ -344,7 +344,7 @@ before_applicable_declarations
 ;
 stylist
 .
-get_applicable_declarations
+push_applicable_declarations
 (
 self
 None
