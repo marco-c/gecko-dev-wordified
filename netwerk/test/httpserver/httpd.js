@@ -5014,6 +5014,15 @@ v
 )
 ;
 }
+get
+wrappedJSObject
+(
+)
+{
+return
+this
+;
+}
 /
 /
 NSISUPPORTS
