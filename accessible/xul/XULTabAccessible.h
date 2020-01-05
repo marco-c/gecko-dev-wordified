@@ -108,6 +108,13 @@ ordered
 #
 include
 "
+HyperTextAccessibleWrap
+.
+h
+"
+#
+include
+"
 XULMenuAccessible
 .
 h
@@ -143,7 +150,7 @@ class
 XULTabAccessible
 :
 public
-AccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
