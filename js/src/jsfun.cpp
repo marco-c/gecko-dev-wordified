@@ -5047,6 +5047,17 @@ bool
 bp
 )
 {
+AssertHeapIsIdle
+(
+)
+;
+assertSameCompartment
+(
+cx
+objArg
+v
+)
+;
 RootedObject
 obj
 (
