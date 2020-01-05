@@ -516,21 +516,6 @@ description
 '
         
 #
-Whether
-to
-allow
-all
-arguments
-from
-the
-parser
-.
-        
-'
-allow_all_arguments
-'
-        
-#
 Functions
 used
 to
@@ -608,6 +593,22 @@ respectively
 '
 arguments
 '
+        
+#
+Argument
+groups
+added
+to
+this
+command
+'
+s
+parser
+.
+        
+'
+argument_group_names
+'
     
 )
     
@@ -625,9 +626,6 @@ description
 =
 None
         
-allow_all_arguments
-=
-False
 conditions
 =
 None
@@ -638,6 +636,9 @@ arguments
 =
 None
         
+argument_group_names
+=
+None
 pass_context
 =
 False
@@ -676,12 +677,6 @@ description
         
 self
 .
-allow_all_arguments
-=
-allow_all_arguments
-        
-self
-.
 conditions
 =
 conditions
@@ -700,6 +695,15 @@ self
 arguments
 =
 arguments
+or
+[
+]
+        
+self
+.
+argument_group_names
+=
+argument_group_names
 or
 [
 ]
