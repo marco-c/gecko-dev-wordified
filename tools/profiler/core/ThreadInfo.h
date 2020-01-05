@@ -280,6 +280,17 @@ CanInvokeJS
 )
 const
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 mozilla
