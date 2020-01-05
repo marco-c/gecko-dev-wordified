@@ -265,9 +265,6 @@ Element
 Impl
 =
 ServoSelectorImpl
-AttrString
-=
-String
 >
 {
 type
