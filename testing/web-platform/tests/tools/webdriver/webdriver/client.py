@@ -557,9 +557,6 @@ self
 session
 action_type
 input_id
-pointer_params
-=
-None
 )
 :
         
@@ -619,17 +616,6 @@ input
 source
 .
         
-:
-param
-pointer_params
-:
-Optional
-dictionary
-of
-pointer
-parameters
-.
-        
 "
 "
 "
@@ -639,6 +625,16 @@ self
 session
 =
 session
+        
+#
+TODO
+take
+advantage
+of
+remote
+end
+generating
+uuid
         
 self
 .
@@ -658,12 +654,6 @@ _actions
 =
 [
 ]
-        
-self
-.
-_pointer_params
-=
-pointer_params
     
 property
     
@@ -674,10 +664,9 @@ self
 )
 :
         
-d
-=
+return
 {
-            
+          
 "
 type
 "
@@ -685,7 +674,7 @@ type
 self
 .
 _type
-            
+          
 "
 id
 "
@@ -693,7 +682,7 @@ id
 self
 .
 _id
-            
+          
 "
 actions
 "
@@ -703,29 +692,6 @@ self
 _actions
         
 }
-        
-if
-self
-.
-_pointer_params
-is
-not
-None
-:
-            
-d
-[
-"
-parameters
-"
-]
-=
-self
-.
-_pointer_params
-        
-return
-d
     
 command
     
@@ -2281,10 +2247,13 @@ None
 required_capabilities
 =
 None
-extension
-=
-None
 timeout
+=
+transport
+.
+HTTP_TIMEOUT
+                 
+extension
 =
 None
 )
