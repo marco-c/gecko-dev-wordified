@@ -46000,9 +46000,15 @@ _identityPopupMultiView
 )
 {
 delete
+this
+.
 _identityPopupMultiView
 ;
 return
+this
+.
+_identityPopupMultiView
+=
 document
 .
 getElementById
