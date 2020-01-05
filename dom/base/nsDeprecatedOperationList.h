@@ -328,5 +328,5 @@ XMLBaseAttribute
 )
 DEPRECATED_OPERATION
 (
-XMLBaseAttributeWithStyledElement
+XMLBaseAttributeForStyleAttr
 )
