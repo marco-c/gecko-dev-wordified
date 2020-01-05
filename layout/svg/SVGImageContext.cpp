@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -227,6 +234,11 @@ sEnabledForContent
 &
 &
 !
+nsContentUtils
+:
+:
+IsChromeDoc
+(
 aFromFrame
 -
 >
@@ -235,8 +247,9 @@ PresContext
 )
 -
 >
-IsChrome
+Document
 (
+)
 )
 )
 {
