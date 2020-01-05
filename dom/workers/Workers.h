@@ -1225,7 +1225,7 @@ WorkerLoadInfo
 aOther
 )
 ;
-void
+nsresult
 SetPrincipalOnMainThread
 (
 nsIPrincipal
