@@ -10612,12 +10612,6 @@ onOpenWindow
 (
 )
 ;
-PointerlockFsWarning
-.
-init
-(
-)
-;
 FullScreen
 .
 init
