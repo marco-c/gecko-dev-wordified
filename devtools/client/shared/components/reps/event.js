@@ -346,7 +346,7 @@ the
 future
 .
 let
-props
+gripProps
 =
 Object
 .
@@ -369,7 +369,7 @@ this
 props
 )
 ;
-props
+gripProps
 .
 object
 =
@@ -386,7 +386,7 @@ props
 object
 )
 ;
-props
+gripProps
 .
 object
 .
@@ -407,7 +407,7 @@ object
 preview
 )
 ;
-props
+gripProps
 .
 object
 .
@@ -420,7 +420,7 @@ ownProperties
 ;
 if
 (
-props
+gripProps
 .
 object
 .
@@ -433,7 +433,7 @@ Object
 .
 assign
 (
-props
+gripProps
 .
 object
 .
@@ -443,7 +443,7 @@ ownProperties
 {
 target
 :
-props
+gripProps
 .
 object
 .
@@ -458,14 +458,14 @@ Object
 .
 assign
 (
-props
+gripProps
 .
 object
 .
 preview
 .
 ownProperties
-props
+gripProps
 .
 object
 .
@@ -475,7 +475,7 @@ properties
 )
 ;
 delete
-props
+gripProps
 .
 object
 .
@@ -483,7 +483,7 @@ preview
 .
 properties
 ;
-props
+gripProps
 .
 object
 .
@@ -493,7 +493,7 @@ Object
 .
 keys
 (
-props
+gripProps
 .
 object
 .
@@ -506,7 +506,7 @@ length
 ;
 switch
 (
-props
+gripProps
 .
 object
 .
@@ -518,7 +518,7 @@ case
 MouseEvent
 "
 :
-props
+gripProps
 .
 isInterestingProp
 =
@@ -563,7 +563,7 @@ case
 KeyboardEvent
 "
 :
-props
+gripProps
 .
 isInterestingProp
 =
@@ -605,7 +605,7 @@ case
 MessageEvent
 "
 :
-props
+gripProps
 .
 isInterestingProp
 =
@@ -641,7 +641,7 @@ break
 ;
 default
 :
-props
+gripProps
 .
 isInterestingProp
 =
@@ -673,7 +673,7 @@ Object
 .
 keys
 (
-props
+gripProps
 .
 object
 .
@@ -693,7 +693,7 @@ name
 return
 rep
 (
-props
+gripProps
 )
 ;
 }
