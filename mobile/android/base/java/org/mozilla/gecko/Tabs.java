@@ -1585,8 +1585,7 @@ getId
 }
 }
 return
--
-1
+INVALID_TAB_ID
 ;
 }
 /
@@ -2613,8 +2612,7 @@ if
 id
 =
 =
--
-1
+INVALID_TAB_ID
 )
 return
 null
@@ -3630,8 +3628,7 @@ getInt
 "
 tabID
 "
--
-1
+INVALID_TAB_ID
 )
 ;
 Tab
@@ -4816,8 +4813,7 @@ getInt
 "
 parentID
 "
--
-1
+INVALID_TAB_ID
 )
 )
 ;
@@ -6033,8 +6029,7 @@ loadUrl
 (
 url
 null
--
-1
+INVALID_TAB_ID
 null
 flags
 )
@@ -6165,8 +6160,7 @@ loadUrl
 (
 url
 null
--
-1
+INVALID_TAB_ID
 intent
 flags
 )
@@ -6269,8 +6263,11 @@ tab
 s
 parent
 or
+INVALID_TAB_ID
+(
 -
 1
+)
 if
 it
 has
@@ -7397,8 +7394,7 @@ parent
 int
 parentId
 =
--
-1
+INVALID_TAB_ID
 ;
 int
 flags
