@@ -660119,11 +660119,6 @@ SVGZoomAndPan
 :
 false
 "
-SVGZoomEvent
-"
-:
-false
-"
 Text
 "
 :
