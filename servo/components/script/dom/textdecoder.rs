@@ -126,10 +126,7 @@ bindings
 js
 :
 :
-{
-JSRef
-Temporary
-}
+Root
 ;
 use
 dom
@@ -222,10 +219,7 @@ use
 js
 :
 :
-jsfriendapi
-:
-:
-bindgen
+jsapi
 :
 :
 JS_GetObjectAsArrayBufferView
@@ -312,7 +306,7 @@ make_range_error
 >
 Fallible
 <
-Temporary
+Root
 <
 TextDecoder
 >
@@ -357,7 +351,7 @@ bool
 )
 -
 >
-Temporary
+Root
 <
 TextDecoder
 >
@@ -421,7 +415,7 @@ TextDecoderOptions
 >
 Fallible
 <
-Temporary
+Root
 <
 TextDecoder
 >
@@ -572,12 +566,10 @@ a
 >
 TextDecoderMethods
 for
-JSRef
-<
+&
 '
 a
 TextDecoder
->
 {
 fn
 Encoding
@@ -628,7 +620,7 @@ fn
 Decode
 (
 self
-cx
+_cx
 :
 *
 mut
@@ -702,7 +694,6 @@ unsafe
 {
 JS_GetObjectAsArrayBufferView
 (
-cx
 input
 &
 mut

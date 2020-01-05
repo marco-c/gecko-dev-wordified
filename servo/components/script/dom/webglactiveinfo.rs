@@ -138,10 +138,7 @@ bindings
 js
 :
 :
-{
-Temporary
-JSRef
-}
+Root
 ;
 use
 dom
@@ -261,7 +258,7 @@ String
 )
 -
 >
-Temporary
+Root
 <
 WebGLActiveInfo
 >
@@ -293,12 +290,10 @@ a
 >
 WebGLActiveInfoMethods
 for
-JSRef
-<
+&
 '
 a
 WebGLActiveInfo
->
 {
 fn
 Size

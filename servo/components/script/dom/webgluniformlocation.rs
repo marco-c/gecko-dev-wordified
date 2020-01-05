@@ -120,10 +120,7 @@ bindings
 js
 :
 :
-{
-Temporary
-JSRef
-}
+Root
 ;
 use
 dom
@@ -197,7 +194,7 @@ i32
 )
 -
 >
-Temporary
+Root
 <
 WebGLUniformLocation
 >
@@ -227,7 +224,6 @@ WebGLUniformLocationHelpers
 fn
 get_id
 (
-&
 self
 )
 -
@@ -242,17 +238,14 @@ a
 >
 WebGLUniformLocationHelpers
 for
-JSRef
-<
+&
 '
 a
 WebGLUniformLocation
->
 {
 fn
 get_id
 (
-&
 self
 )
 -

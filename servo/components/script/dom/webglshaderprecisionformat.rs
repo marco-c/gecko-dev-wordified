@@ -138,10 +138,7 @@ bindings
 js
 :
 :
-{
-Temporary
-JSRef
-}
+Root
 ;
 use
 dom
@@ -239,7 +236,7 @@ i32
 )
 -
 >
-Temporary
+Root
 <
 WebGLShaderPrecisionFormat
 >
@@ -271,12 +268,10 @@ a
 >
 WebGLShaderPrecisionFormatMethods
 for
-JSRef
-<
+&
 '
 a
 WebGLShaderPrecisionFormat
->
 {
 fn
 RangeMin
