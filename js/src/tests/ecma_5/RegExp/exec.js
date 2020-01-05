@@ -1391,7 +1391,8 @@ assertEq
 r
 .
 lastIndex
-0
+-
+17
 )
 ;
 r

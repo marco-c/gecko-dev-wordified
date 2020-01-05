@@ -293,6 +293,12 @@ exec
 "
 +
 "
+get
+:
+lastIndex
+"
++
+"
 set
 :
 lastIndex
@@ -383,6 +389,12 @@ exec
 call
 :
 exec
+"
++
+"
+get
+:
+lastIndex
 "
 +
 "
