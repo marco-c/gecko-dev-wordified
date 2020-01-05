@@ -2024,7 +2024,7 @@ T
 >
 ;
 friend
-class
+struct
 detail
 :
 :
