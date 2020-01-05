@@ -670,11 +670,14 @@ IsLiteral
 )
 )
 {
+bool
+ignored
+;
 JSString
 *
 str
 =
-JS_NewExternalString
+JS_NewMaybeExternalString
 (
 cx
 static_cast
@@ -693,6 +696,8 @@ BeginReading
 length
 &
 sLiteralFinalizer
+&
+ignored
 )
 ;
 if
