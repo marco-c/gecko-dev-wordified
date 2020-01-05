@@ -6326,13 +6326,12 @@ aCx
 JS
 :
 :
-ObjectValue
+ObjectOrNullValue
 (
-*
 mHandler
 -
 >
-Callable
+CallableOrNull
 (
 )
 )

@@ -1207,7 +1207,7 @@ resolveCallback
 aResolveCallback
 -
 >
-Callback
+CallbackOrNull
 (
 )
 ;
@@ -1256,7 +1256,7 @@ rejectCallback
 aRejectCallback
 -
 >
-Callback
+CallbackOrNull
 (
 )
 ;
