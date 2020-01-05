@@ -99,15 +99,6 @@ use
 dom
 :
 :
-htmlelement
-:
-:
-HTMLElement
-;
-use
-dom
-:
-:
 htmlcollection
 :
 :
