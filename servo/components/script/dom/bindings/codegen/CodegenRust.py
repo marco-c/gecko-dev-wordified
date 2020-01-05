@@ -14268,7 +14268,10 @@ private
 =
 PrivateValue
 (
-squirrel_away_unique
+boxed
+:
+:
+into_raw
 (
 object
 )
@@ -14476,7 +14479,10 @@ u32
                    
 PrivateValue
 (
-squirrel_away_unique
+boxed
+:
+:
+into_raw
 (
 object
 )
@@ -32971,19 +32977,18 @@ obj
 ;
 let
 _
-:
-Box
-<
-%
-s
->
 =
-mem
+Box
 :
 :
-transmute
+from_raw
 (
 value
+as
+*
+mut
+%
+s
 )
 ;
 debug
@@ -37882,21 +37887,6 @@ bindings
 utils
 :
 :
-{
-squirrel_away_unique
-}
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-utils
-:
-:
 throwing_constructor
 '
             
@@ -38285,6 +38275,13 @@ borrow
 :
 :
 ToOwned
+'
+            
+'
+std
+:
+:
+boxed
 '
             
 '
