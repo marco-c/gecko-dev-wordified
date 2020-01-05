@@ -515,6 +515,8 @@ Throw
 rv
 )
 ;
+return
+;
 }
 aRetval
 .

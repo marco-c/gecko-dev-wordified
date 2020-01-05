@@ -15508,6 +15508,9 @@ Throw
 rv
 )
 ;
+return
+nullptr
+;
 }
 /
 /

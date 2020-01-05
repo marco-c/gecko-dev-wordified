@@ -2781,8 +2781,10 @@ Throw
 NS_ERROR_FAILURE
 )
 ;
+return
+nullptr
+;
 }
-else
 if
 (
 PlayState
@@ -2871,8 +2873,10 @@ Throw
 NS_ERROR_FAILURE
 )
 ;
+return
+nullptr
+;
 }
-else
 if
 (
 mFinishedIsResolved

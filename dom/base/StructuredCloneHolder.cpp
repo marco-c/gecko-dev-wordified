@@ -1580,6 +1580,8 @@ Throw
 NS_ERROR_DOM_DATA_CLONE_ERR
 )
 ;
+return
+;
 }
 /
 /

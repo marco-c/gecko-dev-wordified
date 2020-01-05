@@ -1309,6 +1309,7 @@ if
 !
 obj
 )
+{
 rv
 .
 Throw
@@ -1320,8 +1321,18 @@ return
 JS
 :
 :
-ObjectOrNullValue
+NullValue
 (
+)
+;
+}
+return
+JS
+:
+:
+ObjectValue
+(
+*
 obj
 )
 ;

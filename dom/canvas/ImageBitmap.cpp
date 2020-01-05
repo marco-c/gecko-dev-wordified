@@ -8725,6 +8725,9 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+return
+nullptr
+;
 }
 if
 (
@@ -9919,7 +9922,7 @@ else
 {
 error
 .
-Throw
+ThrowWithCustomCleanup
 (
 NS_ERROR_NOT_IMPLEMENTED
 )
@@ -9953,7 +9956,7 @@ bufferLength
 {
 error
 .
-Throw
+ThrowWithCustomCleanup
 (
 NS_ERROR_NOT_AVAILABLE
 )
@@ -10003,7 +10006,7 @@ neededBufferLength
 {
 error
 .
-Throw
+ThrowWithCustomCleanup
 (
 NS_ERROR_DOM_INDEX_SIZE_ERR
 )
