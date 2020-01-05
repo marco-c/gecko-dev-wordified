@@ -114,7 +114,10 @@ style
 parser
 :
 :
+{
+Parse
 ParserContext
+}
 ;
 use
 style
@@ -3036,6 +3039,8 @@ ViewportRule
 parse
 (
 &
+context
+&
 mut
 Parser
 :
@@ -3044,8 +3049,6 @@ new
 (
 css
 )
-&
-context
 )
 .
 unwrap

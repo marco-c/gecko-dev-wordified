@@ -1452,8 +1452,11 @@ LengthOrPercentageOrAutoOrContent
 Auto
 "
 "
-parse_non_negative_with_context
+parse_non_negative
 "
+needs_context
+=
+False
 spec
 =
 "
