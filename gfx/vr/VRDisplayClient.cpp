@@ -596,6 +596,9 @@ vm
 >
 FireDOMVRDisplayPresentChangeEvent
 (
+mDisplayInfo
+.
+mDisplayID
 )
 ;
 }
