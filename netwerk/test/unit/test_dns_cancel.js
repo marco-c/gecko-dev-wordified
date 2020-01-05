@@ -318,6 +318,12 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 run_test
 (
@@ -384,6 +390,7 @@ hostname2
 flags
 listener1
 mainThread
+defaultOriginAttributes
 )
 ;
 dns
@@ -396,6 +403,7 @@ listener1
 Cr
 .
 NS_ERROR_ABORT
+defaultOriginAttributes
 )
 ;
 /
@@ -417,6 +425,7 @@ hostname1
 flags
 listener1
 mainThread
+defaultOriginAttributes
 )
 ;
 /
@@ -444,6 +453,7 @@ hostname1
 flags
 listener1
 mainThread
+defaultOriginAttributes
 )
 ;
 requestList1Canceled2
@@ -474,6 +484,7 @@ hostname1
 flags
 listener2
 mainThread
+defaultOriginAttributes
 )
 ;
 /
@@ -501,6 +512,7 @@ hostname2
 flags
 listener2
 mainThread
+defaultOriginAttributes
 )
 ;
 requestList2Canceled

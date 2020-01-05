@@ -275,6 +275,12 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 do_test_dontBlock
 (
@@ -306,6 +312,7 @@ onion
 0
 listenerDontBlock
 mainThread
+defaultOriginAttributes
 )
 ;
 }
@@ -342,6 +349,7 @@ onion
 0
 listenerBlock
 mainThread
+defaultOriginAttributes
 )
 ;
 }

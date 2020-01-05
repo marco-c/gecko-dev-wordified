@@ -275,6 +275,12 @@ do_test_finished
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 run_test
 (
@@ -318,6 +324,7 @@ localhost
 0
 listener1
 mainThread
+defaultOriginAttributes
 )
 ;
 }
@@ -419,6 +426,7 @@ localhost
 0
 listener2
 mainThread
+defaultOriginAttributes
 )
 ;
 }
@@ -473,6 +481,7 @@ localhost
 0
 listener3
 mainThread
+defaultOriginAttributes
 )
 ;
 }

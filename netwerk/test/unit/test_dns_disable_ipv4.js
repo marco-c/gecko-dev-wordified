@@ -181,6 +181,12 @@ do_test_finished
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 run_test
 (
@@ -208,6 +214,7 @@ nsIDNSService
 RESOLVE_DISABLE_IPV4
 listener
 null
+defaultOriginAttributes
 )
 ;
 }

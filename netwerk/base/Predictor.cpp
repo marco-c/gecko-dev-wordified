@@ -8350,7 +8350,7 @@ tmpCancelable
 mDnsService
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 hostname
 (
@@ -8366,6 +8366,7 @@ RESOLVE_SPECULATE
 )
 mDNSListener
 nullptr
+originAttributes
 getter_AddRefs
 (
 tmpCancelable

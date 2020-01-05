@@ -369,6 +369,12 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
+const
+defaultOriginAttributes
+=
+{
+}
+;
 function
 run_test
 (
@@ -434,6 +440,7 @@ flags
 netInterface1
 listener
 mainThread
+defaultOriginAttributes
 )
 ;
 requestWithInterfaceCanceled
@@ -475,6 +482,7 @@ hostname
 flags
 listener
 mainThread
+defaultOriginAttributes
 )
 ;
 /
@@ -497,6 +505,7 @@ flags
 netInterface2
 listener
 mainThread
+defaultOriginAttributes
 )
 ;
 /

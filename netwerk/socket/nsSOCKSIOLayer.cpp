@@ -2586,6 +2586,12 @@ GetHost
 proxyHost
 )
 ;
+mozilla
+:
+:
+OriginAttributes
+attrs
+;
 mFD
 =
 fd
@@ -2596,7 +2602,7 @@ rv
 dns
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 proxyHost
 0
@@ -2604,6 +2610,7 @@ this
 NS_GetCurrentThread
 (
 )
+attrs
 getter_AddRefs
 (
 mLookup

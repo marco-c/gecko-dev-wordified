@@ -3549,6 +3549,9 @@ PACResolver
 (
 )
 ;
+OriginAttributes
+attrs
+;
 if
 (
 NS_FAILED
@@ -3556,7 +3559,7 @@ NS_FAILED
 dns
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 aHostName
 nsIDNSService
@@ -3567,6 +3570,7 @@ helper
 NS_GetCurrentThread
 (
 )
+attrs
 getter_AddRefs
 (
 helper

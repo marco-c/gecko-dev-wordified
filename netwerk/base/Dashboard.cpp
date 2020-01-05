@@ -3828,12 +3828,15 @@ NS_GetCurrentThread
 (
 )
 ;
+OriginAttributes
+attrs
+;
 rv
 =
 mDnsService
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 aHost
 0
@@ -3845,6 +3848,7 @@ get
 NS_GetCurrentThread
 (
 )
+attrs
 getter_AddRefs
 (
 helper

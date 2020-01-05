@@ -6624,7 +6624,7 @@ rv
 dns
 -
 >
-AsyncResolveExtended
+AsyncResolveExtendedNative
 (
 SocketHost
 (
@@ -6633,6 +6633,7 @@ dnsFlags
 mNetworkInterfaceId
 this
 nullptr
+mOriginAttributes
 getter_AddRefs
 (
 mDNSRequest

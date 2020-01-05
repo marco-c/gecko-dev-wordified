@@ -39120,6 +39120,7 @@ new
 nsDNSPrefetch
 (
 mURI
+originAttributes
 this
 mTimingEnabled
 )

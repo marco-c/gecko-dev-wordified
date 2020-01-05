@@ -3734,6 +3734,10 @@ nsString
 &
 hostname
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint16_t
 &
 flags
@@ -3770,6 +3774,10 @@ const
 nsString
 &
 hostname
+const
+OriginAttributes
+&
+aOriginAttributes
 const
 uint16_t
 &
