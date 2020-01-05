@@ -6843,7 +6843,7 @@ tickDuration
 )
 {
 const
-TIMER
+timer
 =
 Cc
 [
@@ -6891,7 +6891,7 @@ Promise
 resolve
 =
 >
-TIMER
+timer
 .
 initWithCallback
 (
