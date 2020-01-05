@@ -1468,6 +1468,12 @@ endif
 #
 ifdef
 MOZ_TASK_TRACER
+if
+(
+IsStartLogging
+(
+)
+)
 {
 nsCString
 msg
