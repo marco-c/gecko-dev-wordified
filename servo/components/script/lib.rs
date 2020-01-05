@@ -362,6 +362,10 @@ str
 ;
 pub
 mod
+structuredclone
+;
+pub
+mod
 trace
 ;
 /
