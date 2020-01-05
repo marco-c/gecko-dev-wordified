@@ -228,12 +228,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-&
-&
-defined
-(
-MOZILLA_INTERNAL_API
-)
 #
 include
 "
@@ -5241,12 +5235,6 @@ InitMain
 (
 )
 {
-#
-if
-defined
-(
-MOZILLA_INTERNAL_API
-)
 /
 /
 already
@@ -5691,8 +5679,9 @@ kMediaConduitSessionNotInited
 }
 #
 endif
-#
-endif
+/
+/
+MOZ_WIDGET_ANDROID
 return
 kMediaConduitNoError
 ;
@@ -7360,9 +7349,6 @@ to
 get
 a
 decoder
-#
-ifdef
-MOZILLA_INTERNAL_API
 enabled
 =
 mozilla
@@ -7387,8 +7373,6 @@ acceleration_enabled
 false
 )
 ;
-#
-endif
 if
 (
 enabled
@@ -7682,9 +7666,6 @@ to
 get
 a
 encoder
-#
-ifdef
-MOZILLA_INTERNAL_API
 enabled
 =
 mozilla
@@ -7709,8 +7690,6 @@ acceleration_enabled
 false
 )
 ;
-#
-endif
 if
 (
 enabled

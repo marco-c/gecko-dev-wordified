@@ -210,9 +210,6 @@ MediaEngine
 h
 "
 #
-ifdef
-MOZILLA_INTERNAL_API
-#
 include
 "
 mozilla
@@ -221,8 +218,6 @@ Preferences
 .
 h
 "
-#
-endif
 #
 include
 "

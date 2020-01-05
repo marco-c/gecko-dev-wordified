@@ -129,9 +129,6 @@ nscore
 h
 "
 #
-ifdef
-MOZILLA_INTERNAL_API
-#
 include
 "
 nsString
@@ -154,17 +151,6 @@ Preferences
 .
 h
 "
-#
-else
-#
-include
-"
-nsStringAPI
-.
-h
-"
-#
-endif
 #
 include
 "
@@ -397,9 +383,6 @@ LogSinkImpl
 >
 sSink
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 void
 GetWebRtcLogPrefs
 (
@@ -530,8 +513,6 @@ aec_dump_max_size
 )
 ;
 }
-#
-endif
 mozilla
 :
 :
@@ -1364,9 +1345,6 @@ log_file
 nsAutoCString
 aec_log_dir
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 GetWebRtcLogPrefs
 (
 &
@@ -1379,8 +1357,6 @@ aec_log_dir
 multi_log
 )
 ;
-#
-endif
 mozilla
 :
 :
@@ -1451,9 +1427,6 @@ log_file
 nsAutoCString
 aec_log_dir
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 GetWebRtcLogPrefs
 (
 &
@@ -1466,8 +1439,6 @@ aec_log_dir
 multi_log
 )
 ;
-#
-endif
 mozilla
 :
 :
@@ -1792,9 +1763,6 @@ log_file
 nsAutoCString
 aec_log_dir
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 GetWebRtcLogPrefs
 (
 &
@@ -1807,8 +1775,6 @@ aec_log_dir
 multi_log
 )
 ;
-#
-endif
 CheckOverrides
 (
 &

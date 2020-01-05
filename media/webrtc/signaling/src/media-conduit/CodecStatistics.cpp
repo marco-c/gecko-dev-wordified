@@ -149,9 +149,6 @@ mReceiveState
 (
 kReceiveStateInitial
 )
-#
-ifdef
-MOZILLA_INTERNAL_API
 mRecoveredBeforeLoss
 (
 0
@@ -160,8 +157,6 @@ mRecoveredLosses
 (
 0
 )
-#
-endif
 {
 MOZ_ASSERT
 (
@@ -507,9 +502,6 @@ aState
 mReceiveState
 )
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 if
 (
 mFirstDecodeTime
@@ -779,8 +771,6 @@ transition
 break
 ;
 }
-#
-endif
 mReceiveState
 =
 aState
@@ -794,9 +784,6 @@ EndOfCallStats
 (
 )
 {
-#
-ifdef
-MOZILLA_INTERNAL_API
 if
 (
 !
@@ -974,8 +961,6 @@ percent
 ;
 }
 }
-#
-endif
 }
 void
 VideoCodecStatistics
