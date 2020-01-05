@@ -1396,11 +1396,11 @@ std
 :
 max
 (
-0U
+1U
 segIndex
+)
 -
 1
-)
 ;
 /
 /
