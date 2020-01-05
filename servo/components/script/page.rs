@@ -1368,6 +1368,10 @@ control_chan
 clone
 (
 )
+&
+mut
+*
+*
 window
 .
 compositor
@@ -2483,6 +2487,7 @@ ScriptControlChan
 compositor
 :
 &
+mut
 ScriptListener
 query_type
 :

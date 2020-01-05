@@ -74,15 +74,16 @@ this
 abstract
 interface
 helps
-reduce
 /
 /
 !
+reduce
 coupling
 between
 these
 two
 components
+.
 use
 geom
 :

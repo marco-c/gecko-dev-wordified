@@ -191,6 +191,10 @@ libc
 ;
 extern
 crate
+native
+;
+extern
+crate
 time
 ;
 extern
@@ -233,7 +237,8 @@ compositor_task
 :
 :
 {
-CompositorChan
+CompositorEventListener
+CompositorProxy
 CompositorTask
 }
 ;
@@ -250,6 +255,9 @@ compositor_task
 ;
 mod
 compositor_layer
+;
+mod
+scrolling
 ;
 mod
 compositor
