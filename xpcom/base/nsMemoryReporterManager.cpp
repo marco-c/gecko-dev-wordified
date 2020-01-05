@@ -240,6 +240,15 @@ include
 "
 mozilla
 /
+MemoryReportingProcess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -10454,10 +10463,7 @@ StartChildReport
 mozilla
 :
 :
-dom
-:
-:
-ContentParent
+MemoryReportingProcess
 *
 aChild
 const
@@ -10811,7 +10817,7 @@ s
 mChildrenPending
 RefPtr
 <
-ContentParent
+MemoryReportingProcess
 >
 nextChild
 ;
