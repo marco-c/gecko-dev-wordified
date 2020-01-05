@@ -395,9 +395,6 @@ default_sched_threads
 4
 1
 )
-exit_after_load
-:
-false
 output_file
 :
 None
