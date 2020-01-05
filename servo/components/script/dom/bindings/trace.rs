@@ -1908,6 +1908,15 @@ no_jsmanaged_fields
 PropertyDeclarationBlock
 )
 ;
+no_jsmanaged_fields
+!
+(
+HashSet
+<
+T
+>
+)
+;
 /
 /
 These

@@ -322,6 +322,9 @@ String
 inspectorActor
 :
 String
+timelineActor
+:
+String
 }
 pub
 struct
@@ -345,6 +348,10 @@ console
 String
 pub
 inspector
+:
+String
+pub
+timeline
 :
 String
 }
@@ -805,6 +812,15 @@ inspectorActor
 self
 .
 inspector
+.
+clone
+(
+)
+timelineActor
+:
+self
+.
+timeline
 .
 clone
 (
