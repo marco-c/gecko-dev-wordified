@@ -201,10 +201,6 @@ FullParseHandler
 ParseNodeAllocator
 allocator
 ;
-TokenStreamBase
-&
-tokenStream
-;
 ParseNode
 *
 allocParseNode
@@ -655,9 +651,6 @@ cx
 LifoAlloc
 &
 alloc
-TokenStreamBase
-&
-tokenStream
 Parser
 <
 SyntaxParseHandler
@@ -673,10 +666,6 @@ allocator
 (
 cx
 alloc
-)
-tokenStream
-(
-tokenStream
 )
 lazyOuterFunction_
 (
