@@ -1272,7 +1272,6 @@ return
 true
 ;
 }
-else
 if
 (
 aChangedAtom
