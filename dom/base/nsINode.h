@@ -5212,7 +5212,6 @@ null
 .
 *
 /
-virtual
 void
 *
 GetProperty
@@ -5530,7 +5529,6 @@ that
 occurs
 *
 /
-virtual
 nsresult
 SetProperty
 (
@@ -5709,7 +5707,6 @@ destroy
 .
 *
 /
-virtual
 void
 DeleteProperty
 (
@@ -5978,7 +5975,6 @@ null
 .
 *
 /
-virtual
 void
 *
 UnsetProperty
