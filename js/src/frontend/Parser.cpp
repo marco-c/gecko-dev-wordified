@@ -8729,8 +8729,6 @@ innermostScope
 (
 )
 ;
-if
-(
 AddDeclaredNamePtr
 p
 =
@@ -8741,6 +8739,10 @@ lookupDeclaredNameForAdd
 (
 name
 )
+;
+if
+(
+p
 )
 {
 reportRedeclaration
@@ -8775,8 +8777,6 @@ return
 false
 ;
 }
-else
-{
 if
 (
 !
@@ -8797,7 +8797,6 @@ begin
 return
 false
 ;
-}
 break
 ;
 }
