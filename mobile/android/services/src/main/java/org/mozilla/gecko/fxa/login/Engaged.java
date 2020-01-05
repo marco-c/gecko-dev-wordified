@@ -68,13 +68,6 @@ fxa
 login
 ;
 import
-java
-.
-security
-.
-NoSuchAlgorithmException
-;
-import
 org
 .
 mozilla
@@ -224,6 +217,13 @@ gecko
 sync
 .
 Utils
+;
+import
+java
+.
+security
+.
+NoSuchAlgorithmException
 ;
 public
 class
@@ -671,6 +671,7 @@ Action
 None
 ;
 }
+Override
 public
 byte
 [
