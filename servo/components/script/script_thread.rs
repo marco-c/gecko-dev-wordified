@@ -540,10 +540,7 @@ dom
 servohtmlparser
 :
 :
-{
 ParserContext
-ParserRoot
-}
 ;
 use
 dom
@@ -849,6 +846,12 @@ Frame
 IterablePage
 Page
 }
+;
+use
+parse
+:
+:
+ParserRoot
 ;
 use
 parse
