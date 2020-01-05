@@ -10601,6 +10601,16 @@ mWorkerProxy
 =
 nullptr
 ;
+if
+(
+!
+gDbBackgroundThread
+)
+{
+return
+NS_OK
+;
+}
 nsIThread
 *
 backgroundThread
