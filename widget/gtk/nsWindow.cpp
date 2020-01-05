@@ -3202,7 +3202,7 @@ data
 )
 return
 ;
-GtkWidget
+auto
 *
 widget
 =
@@ -4473,7 +4473,7 @@ widget
 "
 )
 ;
-nsWindow
+auto
 *
 newParent
 =
@@ -4686,7 +4686,7 @@ y
 ;
 }
 }
-nsWindow
+auto
 *
 newParent
 =
@@ -6036,7 +6036,7 @@ mWindowType
 eWindowType_plugin_ipc_chrome
 )
 {
-nsPluginNativeWindowGtk
+auto
 *
 wrapper
 =
@@ -8256,7 +8256,7 @@ left
 right
 top
 bottom
-int32_t
+auto
 left
 =
 int32_t
@@ -8267,7 +8267,7 @@ frame_extents
 ]
 )
 ;
-int32_t
+auto
 top
 =
 int32_t
@@ -13945,7 +13945,7 @@ GdkEventCrossing
 aEvent
 )
 {
-gint
+auto
 x
 =
 gint
@@ -13956,7 +13956,7 @@ aEvent
 x_root
 )
 ;
-gint
+auto
 y
 =
 gint
@@ -18923,7 +18923,7 @@ children
 data
 )
 ;
-nsWindow
+auto
 *
 win
 =
@@ -24818,7 +24818,7 @@ aConfigurations
 i
 ]
 ;
-nsWindow
+auto
 *
 w
 =
@@ -25387,7 +25387,7 @@ mBounds
 .
 height
 ;
-gchar
+auto
 *
 newBits
 =
@@ -28832,7 +28832,7 @@ retVal
 =
 false
 ;
-GdkWindow
+auto
 *
 currentPopup
 =
@@ -28988,7 +28988,7 @@ widgetChain
 i
 ]
 ;
-GdkWindow
+auto
 *
 currWindow
 =
@@ -31330,7 +31330,7 @@ mouse
 exit
 events
 .
-gint
+auto
 x
 =
 gint
@@ -31341,7 +31341,7 @@ event
 x_root
 )
 ;
-gint
+auto
 y
 =
 gint
@@ -32024,7 +32024,7 @@ gpointer
 data
 )
 {
-XEvent
+auto
 *
 xevent
 =
@@ -34532,7 +34532,7 @@ child
 )
 )
 {
-GdkWindow
+auto
 *
 childWindow
 =

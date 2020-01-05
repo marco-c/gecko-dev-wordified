@@ -5342,7 +5342,7 @@ parent
 s
 list
 .
-nsBaseWidget
+auto
 *
 parent
 =
@@ -13145,7 +13145,7 @@ void
 aClosure
 )
 {
-nsIWidget
+auto
 *
 self
 =

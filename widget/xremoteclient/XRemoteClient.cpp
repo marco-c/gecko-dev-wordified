@@ -3675,7 +3675,7 @@ argvlen
 len
 ;
 }
-int32_t
+auto
 *
 buffer
 =
@@ -3721,7 +3721,7 @@ TO_LITTLE_ENDIAN32
 argc
 )
 ;
-char
+auto
 *
 bufend
 =
