@@ -968,7 +968,7 @@ const
 #
 ifdef
 DEBUG
-inline
+virtual
 void
 List
 (
