@@ -128,11 +128,11 @@ toggle
 )
 ;
 let
-_tab
+{
+tab
+}
 =
 options
-.
-tab
 ;
 let
 actions
@@ -251,7 +251,7 @@ state
 isChecked
 (
 {
-_tab
+tab
 }
 )
 spec

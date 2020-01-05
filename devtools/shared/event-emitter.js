@@ -813,6 +813,13 @@ objectToDecorate
 object
 .
 *
+return
+Object
+the
+object
+given
+.
+*
 /
 EventEmitter
 .
@@ -882,6 +889,9 @@ bind
 (
 emitter
 )
+;
+return
+objectToDecorate
 ;
 }
 ;
