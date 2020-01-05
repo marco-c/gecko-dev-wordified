@@ -1088,11 +1088,6 @@ Now
 )
 )
 ;
-profiler_responsiveness
-(
-start
-)
-;
 PRIntervalTime
 next_sleep
 =
