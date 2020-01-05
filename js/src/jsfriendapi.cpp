@@ -7453,7 +7453,7 @@ prefix
 >
 "
 ;
-IterateZonesCompartmentsArenasCells
+IterateHeapUnbarriered
 (
 cx
 &

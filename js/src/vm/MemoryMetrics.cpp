@@ -5043,7 +5043,7 @@ init
 return
 false
 ;
-IterateZonesCompartmentsArenasCells
+IterateHeapUnbarriered
 (
 cx
 &
@@ -5982,7 +5982,7 @@ init
 return
 false
 ;
-IterateZoneCompartmentsArenasCells
+IterateHeapUnbarrieredForZone
 (
 cx
 zone
