@@ -3283,7 +3283,7 @@ implementation
 (
 fileSystemInfo
 .
-f_bsize
+f_frsize
 *
 fileSystemInfo
 .

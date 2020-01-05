@@ -4185,7 +4185,7 @@ statvfs
 }
 {
 "
-OSFILE_OFFSETOF_STATVFS_F_BSIZE
+OSFILE_OFFSETOF_STATVFS_F_FRSIZE
 "
 JS
 :
@@ -4196,7 +4196,7 @@ offsetof
 (
 struct
 statvfs
-f_bsize
+f_frsize
 )
 )
 }
