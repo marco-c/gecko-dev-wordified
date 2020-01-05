@@ -499,7 +499,7 @@ ui
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 Override
@@ -535,7 +535,7 @@ any
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 /
@@ -563,7 +563,7 @@ any
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 /

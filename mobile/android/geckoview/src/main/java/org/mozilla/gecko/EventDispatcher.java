@@ -604,7 +604,7 @@ WrapForJNI
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 Override
@@ -2273,7 +2273,7 @@ WrapForJNI
 dispatchTo
 =
 "
-gecko
+gecko_priority
 "
 )
 Override
