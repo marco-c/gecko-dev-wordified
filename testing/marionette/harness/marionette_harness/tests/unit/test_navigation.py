@@ -5494,6 +5494,18 @@ self
 .
 assertEqual
 (
+"
+interactive
+"
+self
+.
+ready_state
+)
+        
+self
+.
+assertEqual
+(
 self
 .
 test_page_slow_resource
@@ -5504,18 +5516,6 @@ marionette
 get_url
 (
 )
-)
-        
-self
-.
-assertEqual
-(
-"
-interactive
-"
-self
-.
-ready_state
 )
         
 self
