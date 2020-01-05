@@ -107,6 +107,9 @@ from
 .
 .
 /
+.
+.
+/
 components
 /
 search
