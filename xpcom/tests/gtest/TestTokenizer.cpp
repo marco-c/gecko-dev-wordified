@@ -8657,13 +8657,6 @@ Tokenizer
 RecordAndReadUntil
 )
 {
-typedef
-TokenizerBase
-:
-:
-Token
-Token
-;
 Tokenizer
 t
 (
