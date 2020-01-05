@@ -2172,10 +2172,6 @@ root
 ;
 if
 self
-.
-clone
-(
-)
 !
 =
 active_document
