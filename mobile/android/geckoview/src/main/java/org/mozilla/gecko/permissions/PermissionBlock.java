@@ -691,7 +691,7 @@ permissions
 }
 /
 *
-packacge
+package
 -
 private
 *
