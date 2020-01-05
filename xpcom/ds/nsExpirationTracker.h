@@ -1147,7 +1147,7 @@ GetExpirationState
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 state
@@ -1335,7 +1335,7 @@ GetExpirationState
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 state
 -
@@ -1381,7 +1381,7 @@ state
 >
 mIndexInGeneration
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 generation
 .
@@ -1469,7 +1469,7 @@ RemoveElementAt
 last
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 generation
 .

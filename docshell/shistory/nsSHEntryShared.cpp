@@ -757,7 +757,7 @@ been
 tracked
 either
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 GetExpirationState
