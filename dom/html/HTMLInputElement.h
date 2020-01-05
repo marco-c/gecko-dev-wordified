@@ -3903,7 +3903,7 @@ is
 OK
 Nullable
 <
-int32_t
+uint32_t
 >
 GetSelectionStart
 (
@@ -3918,7 +3918,7 @@ SetSelectionStart
 const
 Nullable
 <
-int32_t
+uint32_t
 >
 &
 aValue
