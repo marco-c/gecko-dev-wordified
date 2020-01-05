@@ -1242,7 +1242,6 @@ InlineBlockFragment
 (
 InlineBlockFragmentInfo
 )
-InputFragment
 ScannedTextFragment
 (
 Box
@@ -1292,8 +1291,6 @@ ImageFragment
 (
 _
 )
-|
-InputFragment
 |
 ScannedTextFragment
 (
@@ -1425,12 +1422,6 @@ _
 >
 "
 InlineBlockFragment
-"
-InputFragment
-=
->
-"
-InputFragment
 "
 ScannedTextFragment
 (
@@ -4631,16 +4622,16 @@ InlineBlockFragment
 (
 _
 )
-|
-InputFragment
 =
 >
+{
 QuantitiesIncludedInIntrinsicInlineSizes
 :
 :
 all
 (
 )
+}
 TableFragment
 |
 TableCellFragment
@@ -7037,8 +7028,6 @@ InlineAbsoluteHypotheticalFragment
 (
 _
 )
-|
-InputFragment
 =
 >
 {
@@ -7394,8 +7383,6 @@ InlineBlockFragment
 _
 )
 |
-InputFragment
-|
 InlineAbsoluteHypotheticalFragment
 (
 _
@@ -7559,8 +7546,6 @@ InlineBlockFragment
 (
 _
 )
-|
-InputFragment
 |
 InlineAbsoluteHypotheticalFragment
 (
@@ -7901,8 +7886,6 @@ TableCellFragment
 TableRowFragment
 |
 TableWrapperFragment
-|
-InputFragment
 =
 >
 None
@@ -8332,8 +8315,6 @@ InlineBlockFragment
 (
 _
 )
-|
-InputFragment
 |
 InlineAbsoluteHypotheticalFragment
 (
@@ -9048,8 +9029,6 @@ TableCellFragment
 TableRowFragment
 |
 TableWrapperFragment
-|
-InputFragment
 =
 >
 return
@@ -9692,8 +9671,6 @@ TableCellFragment
 TableRowFragment
 |
 TableWrapperFragment
-|
-InputFragment
 =
 >
 return
@@ -10863,8 +10840,6 @@ UnscannedTextFragment
 (
 _
 )
-|
-InputFragment
 =
 >
 true

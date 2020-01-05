@@ -173,7 +173,6 @@ fragment
 :
 :
 {
-InputFragment
 ScannedTextFragment
 ScannedTextFragmentInfo
 TableFragment
@@ -3508,8 +3507,6 @@ InlineBlockFragment
 (
 _
 )
-|
-InputFragment
 |
 InlineAbsoluteHypotheticalFragment
 (
