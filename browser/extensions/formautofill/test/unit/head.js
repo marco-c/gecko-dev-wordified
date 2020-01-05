@@ -15,6 +15,7 @@ tests
 /
 *
 exported
+loadFormAutofillContent
 getTempFile
 *
 /
@@ -370,6 +371,13 @@ let
 facGlobal
 =
 {
+addEventListener
+:
+function
+(
+)
+{
+}
 }
 ;
 let
@@ -704,10 +712,6 @@ autocomplete
 experimental
 "
 true
-)
-;
-loadFormAutofillContent
-(
 )
 ;
 /
