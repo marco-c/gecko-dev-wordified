@@ -1635,8 +1635,10 @@ GetEventRegionsOverride
 )
 ;
 }
-ScrollDirection
-GetScrollbarDirection
+const
+ScrollThumbData
+&
+GetScrollThumbData
 (
 )
 const
@@ -1652,7 +1654,7 @@ return
 mLayer
 -
 >
-GetScrollbarDirection
+GetScrollThumbData
 (
 )
 ;

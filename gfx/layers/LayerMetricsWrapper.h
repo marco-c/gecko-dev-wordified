@@ -2346,8 +2346,10 @@ EventRegionsOverride
 NoOverride
 ;
 }
-ScrollDirection
-GetScrollbarDirection
+const
+ScrollThumbData
+&
+GetScrollThumbData
 (
 )
 const
@@ -2366,8 +2368,6 @@ mLayer
 GetScrollThumbData
 (
 )
-.
-mDirection
 ;
 }
 FrameMetrics

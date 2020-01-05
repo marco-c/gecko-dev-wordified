@@ -753,8 +753,10 @@ FrameMetrics
 :
 ViewID
 aScrollViewId
-ScrollDirection
-aDir
+const
+ScrollThumbData
+&
+aThumbData
 bool
 aIsScrollContainer
 )
@@ -1000,8 +1002,8 @@ Container
 layers
 only
 .
-ScrollDirection
-mScrollDir
+ScrollThumbData
+mScrollThumbData
 ;
 /
 /

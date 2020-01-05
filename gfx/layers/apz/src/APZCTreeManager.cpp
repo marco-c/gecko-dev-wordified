@@ -3559,7 +3559,7 @@ GetScrollbarTargetContainerId
 )
 aLayer
 .
-GetScrollbarDirection
+GetScrollThumbData
 (
 )
 aLayer
@@ -5522,7 +5522,7 @@ GetScrollbarTargetContainerId
 )
 aLayer
 .
-GetScrollbarDirection
+GetScrollThumbData
 (
 )
 aLayer
