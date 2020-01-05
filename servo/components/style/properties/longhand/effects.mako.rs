@@ -4217,6 +4217,13 @@ Ok
 )
 {
 match
+input
+.
+try
+(
+|
+input
+|
 LengthOrPercentage
 :
 :
@@ -4224,6 +4231,7 @@ parse
 (
 context
 input
+)
 )
 {
 Ok
