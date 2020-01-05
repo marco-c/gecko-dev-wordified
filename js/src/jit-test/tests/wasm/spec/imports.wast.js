@@ -12,17 +12,6 @@ also
 wasm
 -
 baseline
-/
-/
-TODO
-imports
-of
-host
-functions
-quit
-(
-)
-;
 var
 importedArgs
 =
