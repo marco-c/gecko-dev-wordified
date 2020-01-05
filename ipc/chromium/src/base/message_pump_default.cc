@@ -371,6 +371,9 @@ OTHER
 )
 ;
 {
+mozilla
+:
+:
 GeckoProfilerSleepRAII
 profiler_sleep
 ;
@@ -432,6 +435,9 @@ OTHER
 )
 ;
 {
+mozilla
+:
+:
 GeckoProfilerSleepRAII
 profiler_sleep
 ;
