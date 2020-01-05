@@ -291,6 +291,9 @@ nsSVGViewBox
 namespace
 mozilla
 {
+class
+DeclarationBlock
+;
 namespace
 dom
 {
@@ -451,8 +454,7 @@ virtual
 nsSVGElement
 (
 )
-{
-}
+;
 public
 :
 virtual
@@ -2227,7 +2229,7 @@ aValue
 )
 ;
 void
-UpdateContentStyleRule
+UpdateContentDeclarationBlock
 (
 )
 ;
@@ -3327,12 +3329,9 @@ RefPtr
 mozilla
 :
 :
-css
-:
-:
-StyleRule
+DeclarationBlock
 >
-mContentStyleRule
+mContentDeclarationBlock
 ;
 }
 ;
