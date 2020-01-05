@@ -687,6 +687,15 @@ clone
 )
 ;
 let
+memory_profiler_chan_clone
+=
+memory_profiler_chan
+.
+clone
+(
+)
+;
+let
 (
 result_chan
 result_port
@@ -884,6 +893,7 @@ resource_task
 image_cache_task
 font_cache_task
 time_profiler_chan_clone
+memory_profiler_chan_clone
 devtools_chan
 storage_task
 )
