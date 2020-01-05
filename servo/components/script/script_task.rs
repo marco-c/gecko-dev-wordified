@@ -10696,13 +10696,6 @@ Tm
 >
 String
 {
-format
-!
-(
-"
-{
-}
-"
 tm
 .
 to_local
@@ -10734,5 +10727,8 @@ S
 unwrap
 (
 )
+.
+to_string
+(
 )
 }
