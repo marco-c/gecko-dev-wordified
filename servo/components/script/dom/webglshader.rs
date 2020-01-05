@@ -745,10 +745,6 @@ compile_and_translate
 &
 [
 source
-.
-as_bytes
-(
-)
 ]
 )
 {
