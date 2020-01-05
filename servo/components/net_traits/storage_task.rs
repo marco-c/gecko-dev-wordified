@@ -57,16 +57,13 @@ MPL
 *
 /
 use
-std
+ipc_channel
 :
 :
-sync
+ipc
 :
 :
-mpsc
-:
-:
-Sender
+IpcSender
 ;
 use
 url
@@ -89,6 +86,8 @@ derive
 (
 Copy
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -112,6 +111,14 @@ with
 a
 particular
 url
+#
+[
+derive
+(
+Deserialize
+Serialize
+)
+]
 pub
 enum
 StorageTaskMsg
@@ -135,7 +142,7 @@ storage
 data
 Length
 (
-Sender
+IpcSender
 <
 usize
 >
@@ -162,7 +169,7 @@ storage
 data
 Key
 (
-Sender
+IpcSender
 <
 Option
 <
@@ -191,7 +198,7 @@ storage
 data
 GetItem
 (
-Sender
+IpcSender
 <
 Option
 <
@@ -229,7 +236,7 @@ of
 error
 SetItem
 (
-Sender
+IpcSender
 <
 (
 bool
@@ -264,7 +271,7 @@ storage
 data
 RemoveItem
 (
-Sender
+IpcSender
 <
 Option
 <
@@ -293,7 +300,7 @@ value
 pairs
 Clear
 (
-Sender
+IpcSender
 <
 bool
 >
@@ -321,7 +328,7 @@ pub
 type
 StorageTask
 =
-Sender
+IpcSender
 <
 StorageTaskMsg
 >
