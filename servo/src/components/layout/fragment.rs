@@ -60,7 +60,7 @@ MPL
 /
 !
 The
-Box
+Fragment
 type
 which
 represents
