@@ -521,7 +521,7 @@ undef
 SLOG
 #
 undef
-SWARN
+SLOGW
 #
 define
 FMT
@@ -691,7 +691,7 @@ __VA_ARGS__
 )
 #
 define
-SWARN
+SLOGW
 (
 x
 .
@@ -2859,7 +2859,7 @@ Complete
 (
 )
 ;
-SWARN
+SLOGW
 (
 "
 Decode
@@ -7859,7 +7859,7 @@ muxed
 /
 files
 .
-SWARN
+SLOGW
 (
 "
 Audio
@@ -8085,7 +8085,7 @@ below
 will
 overflow
 .
-SWARN
+SLOGW
 (
 "
 Can
@@ -23484,6 +23484,9 @@ LOGV
 #
 undef
 LOGW
+#
+undef
+SLOGW
 #
 undef
 NS_DispatchToMainThread
