@@ -1531,6 +1531,15 @@ isPrototypeOf
 \
 macro
 (
+IterableToList
+IterableToList
+"
+IterableToList
+"
+)
+\
+macro
+(
 iterate
 iterate
 "
