@@ -1380,7 +1380,7 @@ id
 ;
 do_check_false
 (
-addon
+newAddon
 .
 userDisabled
 )
@@ -1484,7 +1484,7 @@ id
 ;
 do_check_false
 (
-addon
+newAddon
 .
 userDisabled
 )
@@ -3006,9 +3006,13 @@ true
 false
 )
 ;
+/
+*
 let
 failed
 =
+*
+/
 store
 .
 applyIncomingBatch

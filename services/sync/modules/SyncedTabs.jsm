@@ -940,11 +940,6 @@ Set
 )
 ;
 let
-parentIndex
-=
-0
-;
-let
 ntabs
 =
 0
@@ -952,14 +947,11 @@ ntabs
 for
 (
 let
-[
-guid
 client
-]
 of
 Object
 .
-entries
+values
 (
 engine
 .

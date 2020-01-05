@@ -1216,15 +1216,11 @@ storage
 )
 ;
 let
-storage
 collection
-id
 ;
 [
 all
-storage
 collection
-id
 ]
 =
 parts
@@ -3255,9 +3251,6 @@ test
 "
 )
 ;
-let
-bso
-=
 coll
 .
 insert

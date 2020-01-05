@@ -1035,13 +1035,6 @@ info
 len
 )
 {
-const
-BLOCKSIZE
-=
-256
-/
-8
-;
 if
 (
 typeof

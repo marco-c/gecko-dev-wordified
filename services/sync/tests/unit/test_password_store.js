@@ -843,11 +843,6 @@ the
 expected
 values
 .
-var
-timePasswordChanged
-=
-100
-;
 timePasswordChanged
 =
 changePassword
