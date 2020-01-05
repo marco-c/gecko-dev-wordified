@@ -1065,9 +1065,6 @@ mozilla
 StaticMutexAutoLock
 lock
 (
-Sampler
-:
-:
 sRegisteredThreadsMutex
 )
 ;
@@ -1085,9 +1082,6 @@ i
 ;
 i
 <
-Sampler
-:
-:
 sRegisteredThreads
 -
 >
@@ -1106,9 +1100,6 @@ info
 =
 (
 *
-Sampler
-:
-:
 sRegisteredThreads
 )
 [
