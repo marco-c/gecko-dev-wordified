@@ -231,7 +231,7 @@ NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 /
 mozIGeckoMediaPluginService
 NS_IMETHOD
-GetPluginVersionForAPI
+HasPluginForAPI
 (
 const
 nsACString
@@ -245,10 +245,7 @@ nsCString
 aTags
 bool
 *
-aHasPlugin
-nsACString
-&
-aOutVersion
+aRetVal
 )
 override
 ;

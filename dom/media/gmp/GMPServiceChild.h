@@ -229,7 +229,7 @@ GetSingleton
 )
 ;
 NS_IMETHOD
-GetPluginVersionForAPI
+HasPluginForAPI
 (
 const
 nsACString
@@ -243,10 +243,7 @@ nsCString
 aTags
 bool
 *
-aHasPlugin
-nsACString
-&
-aOutVersion
+aRetVal
 )
 override
 ;
