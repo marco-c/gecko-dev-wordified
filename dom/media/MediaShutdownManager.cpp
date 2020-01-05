@@ -496,8 +496,11 @@ rv
 )
 ;
 sInstance
+-
+>
+mError
 =
-nullptr
+rv
 ;
 }
 }
@@ -614,8 +617,10 @@ NS_IsMainThread
 ;
 if
 (
-!
-sInstance
+NS_FAILED
+(
+mError
+)
 )
 {
 return
