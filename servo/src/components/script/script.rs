@@ -421,11 +421,11 @@ characterdata
 ;
 pub
 mod
-clientrect
+domrect
 ;
 pub
 mod
-clientrectlist
+domrectlist
 ;
 pub
 mod
