@@ -569,7 +569,7 @@ of
 this
 MediaDecoder
 .
-void
+nsresult
 Register
 (
 MediaDecoder
