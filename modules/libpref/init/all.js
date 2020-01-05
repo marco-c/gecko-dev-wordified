@@ -14733,7 +14733,7 @@ input
 .
 skip_cursor_move_for_same_value_set
 "
-false
+true
 )
 ;
 /
