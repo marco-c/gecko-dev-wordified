@@ -9126,7 +9126,7 @@ GetStateMachine
 )
 )
 ;
-nsString
+nsAutoCString
 str
 ;
 GetMozDebugReaderData
@@ -9155,10 +9155,7 @@ n
 %
 s
 "
-NS_ConvertUTF16toUTF8
-(
 str
-)
 .
 get
 (
