@@ -72,9 +72,6 @@ cssparser
 *
 ;
 use
-style
-:
-:
 errors
 :
 :

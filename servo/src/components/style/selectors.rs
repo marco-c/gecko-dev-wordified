@@ -81,9 +81,6 @@ cssparser
 *
 ;
 use
-style
-:
-:
 namespaces
 :
 :
