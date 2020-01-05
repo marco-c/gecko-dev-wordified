@@ -237,8 +237,8 @@ s
 s
 :
 %
-lu
 "
+PRIu32
 aStr
 aFile
 aLine

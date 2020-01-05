@@ -22913,8 +22913,8 @@ nsPrintfCString
 "
 u
 %
-lld
 "
+PRIu64
 mInterceptionID
 )
 )

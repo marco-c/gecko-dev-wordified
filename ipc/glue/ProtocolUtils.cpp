@@ -149,6 +149,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 ProtocolUtils
@@ -1275,8 +1284,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRId64
 error
 )
 )

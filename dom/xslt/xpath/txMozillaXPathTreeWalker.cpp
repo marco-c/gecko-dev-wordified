@@ -2740,8 +2740,8 @@ gPrintfFmt
 "
 id0x
 %
-p
 "
+PRIxPTR
 ;
 const
 char
@@ -2752,7 +2752,9 @@ gPrintfFmtAttr
 "
 id0x
 %
-p
+"
+PRIxPTR
+"
 -
 %
 010i

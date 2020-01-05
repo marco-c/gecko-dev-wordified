@@ -23553,8 +23553,9 @@ nsPrintfCString
 "
 %
 .
-16llx
+16
 "
+PRIu64
 uint64_t
 (
 gMozillaPoisonBase
@@ -23577,8 +23578,8 @@ nsPrintfCString
 (
 "
 %
-lu
 "
+PRIu32
 uint32_t
 (
 gMozillaPoisonSize

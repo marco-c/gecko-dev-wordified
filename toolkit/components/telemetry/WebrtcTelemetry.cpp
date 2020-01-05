@@ -356,8 +356,8 @@ nsPrintfCString
 (
 "
 %
-lu
 "
+PRIu32
 bitmask
 )
 .

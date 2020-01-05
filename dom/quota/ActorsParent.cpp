@@ -5726,8 +5726,8 @@ s
 s
 :
 %
-lu
 "
+PRIu32
 aStr
 aFile
 aLine
@@ -20189,7 +20189,9 @@ PRAGMA
 page_size
 =
 %
-lu
+"
+PRIu32
+"
 ;
 "
 kSQLitePageSizeOverride

@@ -11604,7 +11604,9 @@ nsresult
 =
 0x
 %
-x
+"
+PRIx32
+"
 )
 "
 NS_ConvertUTF16toUTF8
@@ -11615,7 +11617,13 @@ aScriptURL
 get
 (
 )
+static_cast
+<
+uint32_t
+>
+(
 aLoadResult
+)
 )
 )
 ;

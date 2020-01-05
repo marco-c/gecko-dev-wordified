@@ -1704,7 +1704,13 @@ d
 %
 lld
 "
+static_cast
+<
+int
+>
+(
 rv
+)
 aSample
 -
 >

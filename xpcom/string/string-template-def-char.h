@@ -156,6 +156,10 @@ nsTSubstring_CharT
 nsACString
 #
 define
+PrintfAppend_CharT
+PrintfAppend_nsACString
+#
+define
 nsTSubstringTuple_CharT
 nsCSubstringTuple
 #

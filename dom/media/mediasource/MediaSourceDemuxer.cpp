@@ -1361,7 +1361,9 @@ t
 tNumSamples
 :
 %
-u
+"
+PRIuSIZE
+"
 Size
 :
 %
@@ -1532,7 +1534,9 @@ t
 tNumSamples
 :
 %
-u
+"
+PRIuSIZE
+"
 Size
 :
 %

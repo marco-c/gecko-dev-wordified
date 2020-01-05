@@ -2861,8 +2861,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRIu64
 cpId
 )
 )
@@ -6365,8 +6365,8 @@ nsPrintfCString
 (
 "
 %
-lld
 "
+PRIu64
 ChildID
 (
 )
