@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsPrincipal
 .
 h
