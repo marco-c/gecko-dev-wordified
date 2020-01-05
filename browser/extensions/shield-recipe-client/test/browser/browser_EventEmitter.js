@@ -166,8 +166,8 @@ add_task
 withSandboxManager
 (
 Assert
-async
 function
+*
 (
 sandboxManager
 )
@@ -334,7 +334,7 @@ safely
 "
 off
 "
-await
+yield
 Promise
 .
 resolve
@@ -427,7 +427,7 @@ loop
 to
 run
 events
-await
+yield
 Promise
 .
 resolve
@@ -573,7 +573,7 @@ mutationTest
 data
 )
 ;
-await
+yield
 Promise
 .
 resolve
@@ -621,8 +621,8 @@ add_task
 withSandboxManager
 (
 Assert
-async
 function
+*
 sandboxedEmitter
 (
 sandboxManager
@@ -777,7 +777,7 @@ eventOnce
 10
 )
 ;
-await
+yield
 Promise
 .
 resolve
