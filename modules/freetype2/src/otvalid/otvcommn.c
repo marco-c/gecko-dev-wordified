@@ -110,9 +110,8 @@ body
 *
 Copyright
 2004
-2005
-2006
-2007
+-
+2016
 by
 *
 /
@@ -5471,6 +5470,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 Count
 )
 ;

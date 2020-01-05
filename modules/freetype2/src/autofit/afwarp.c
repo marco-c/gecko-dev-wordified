@@ -111,8 +111,8 @@ body
 *
 Copyright
 2006
-2007
-2011
+-
+2016
 by
 *
 /
@@ -820,7 +820,7 @@ AF_WarpScore
 base_distort
 AF_Segment
 segments
-FT_UInt
+FT_Int
 num_segments
 )
 {
@@ -829,7 +829,7 @@ idx_min
 idx_max
 idx0
 ;
-FT_UInt
+FT_Int
 nn
 ;
 AF_WarpScore
@@ -1336,7 +1336,7 @@ org_scale
 FT_Pos
 org_delta
 ;
-FT_UInt
+FT_Int
 nn
 num_points
 num_segments
@@ -1421,7 +1421,7 @@ warper
 >
 best_score
 =
-INT_MIN
+FT_INT_MIN
 ;
 warper
 -

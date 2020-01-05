@@ -119,8 +119,13 @@ specification
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -506,10 +511,10 @@ Japan
 /
 #
 ifndef
-__GXVMOD_H__
+GXVMOD_H_
 #
 define
-__GXVMOD_H__
+GXVMOD_H_
 #
 include
 <
@@ -549,7 +554,7 @@ FT_END_HEADER
 endif
 /
 *
-__GXVMOD_H__
+GXVMOD_H_
 *
 /
 /

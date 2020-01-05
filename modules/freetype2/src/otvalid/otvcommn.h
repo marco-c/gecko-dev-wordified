@@ -110,10 +110,8 @@ specification
 *
 Copyright
 2004
-2005
-2007
-2009
-2014
+-
+2016
 by
 *
 /
@@ -288,10 +286,10 @@ fully
 /
 #
 ifndef
-__OTVCOMMN_H__
+OTVCOMMN_H_
 #
 define
-__OTVCOMMN_H__
+OTVCOMMN_H_
 #
 include
 <
@@ -4818,7 +4816,7 @@ FT_END_HEADER
 endif
 /
 *
-__OTVCOMMN_H__
+OTVCOMMN_H_
 *
 /
 /

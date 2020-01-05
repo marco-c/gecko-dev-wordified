@@ -114,10 +114,8 @@ body
 *
 Copyright
 2002
-2004
 -
-2007
-2013
+2016
 by
 *
 /
@@ -1491,6 +1489,9 @@ p
 ft_mem_qalloc
 (
 memory
+(
+FT_Long
+)
 size
 &
 error
@@ -2284,7 +2285,7 @@ node
 >
 next
 =
-0
+NULL
 ;
 node
 -
@@ -2375,7 +2376,7 @@ node
 >
 prev
 =
-0
+NULL
 ;
 if
 (
@@ -2598,7 +2599,7 @@ node
 >
 prev
 =
-0
+NULL
 ;
 node
 -
@@ -2815,14 +2816,14 @@ list
 >
 head
 =
-0
+NULL
 ;
 list
 -
 >
 tail
 =
-0
+NULL
 ;
 }
 /

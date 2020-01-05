@@ -4749,7 +4749,6 @@ may
 save
 the
 current
-current
 value
 of
 total_in

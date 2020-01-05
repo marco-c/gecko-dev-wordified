@@ -110,6 +110,8 @@ specification
 *
 Copyright
 2004
+-
+2016
 by
 *
 /
@@ -284,10 +286,10 @@ fully
 /
 #
 ifndef
-__OTVGPOS_H__
+OTVGPOS_H_
 #
 define
-__OTVGPOS_H__
+OTVGPOS_H_
 FT_BEGIN_HEADER
 FT_LOCAL
 (
@@ -306,7 +308,7 @@ FT_END_HEADER
 endif
 /
 *
-__OTVGPOS_H__
+OTVGPOS_H_
 *
 /
 /

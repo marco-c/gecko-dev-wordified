@@ -110,9 +110,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2004
+2016
 by
 *
 /
@@ -287,10 +285,10 @@ fully
 /
 #
 ifndef
-__CIDGLOAD_H__
+CIDGLOAD_H_
 #
 define
-__CIDGLOAD_H__
+CIDGLOAD_H_
 #
 include
 <
@@ -375,7 +373,7 @@ FT_END_HEADER
 endif
 /
 *
-__CIDGLOAD_H__
+CIDGLOAD_H_
 *
 /
 /

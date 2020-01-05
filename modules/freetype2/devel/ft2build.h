@@ -114,10 +114,7 @@ version
 Copyright
 1996
 -
-2001
-2003
-2006
-2013
+2016
 by
 *
 /
@@ -373,10 +370,10 @@ directory
 /
 #
 ifndef
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 define
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 define
 FT_CONFIG_OPTIONS_H
@@ -388,6 +385,8 @@ h
 #
 include
 <
+freetype
+/
 config
 /
 ftheader
@@ -398,7 +397,7 @@ h
 endif
 /
 *
-__FT2BUILD_H__
+FT2BUILD_H_
 *
 /
 /

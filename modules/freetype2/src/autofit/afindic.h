@@ -119,8 +119,8 @@ specification
 *
 Copyright
 2007
-2012
-2013
+-
+2016
 by
 *
 /
@@ -308,10 +308,10 @@ fully
 /
 #
 ifndef
-__AFINDIC_H__
+AFINDIC_H_
 #
 define
-__AFINDIC_H__
+AFINDIC_H_
 #
 include
 "
@@ -342,7 +342,7 @@ FT_END_HEADER
 endif
 /
 *
-__AFINDIC_H__
+AFINDIC_H_
 *
 /
 /

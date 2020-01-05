@@ -112,8 +112,8 @@ body
 *
 Copyright
 2005
-2008
-2013
+-
+2016
 by
 *
 /
@@ -954,9 +954,14 @@ gxvalid
 >
 subtable_length
 =
+(
+FT_ULong
+)
+(
 p
 -
 table
+)
 ;
 GXV_EXIT
 ;

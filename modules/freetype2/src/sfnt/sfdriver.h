@@ -113,7 +113,7 @@ specification
 Copyright
 1996
 -
-2001
+2016
 by
 *
 /
@@ -288,10 +288,10 @@ fully
 /
 #
 ifndef
-__SFDRIVER_H__
+SFDRIVER_H_
 #
 define
-__SFDRIVER_H__
+SFDRIVER_H_
 #
 include
 <
@@ -312,7 +312,7 @@ FT_END_HEADER
 endif
 /
 *
-__SFDRIVER_H__
+SFDRIVER_H_
 *
 /
 /

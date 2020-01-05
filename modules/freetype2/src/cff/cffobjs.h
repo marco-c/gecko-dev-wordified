@@ -110,11 +110,7 @@ specification
 Copyright
 1996
 -
-2004
-2006
--
-2008
-2013
+2016
 by
 *
 /
@@ -289,10 +285,10 @@ fully
 /
 #
 ifndef
-__CFFOBJS_H__
+CFFOBJS_H_
 #
 define
-__CFFOBJS_H__
+CFFOBJS_H_
 #
 include
 <
@@ -1435,7 +1431,7 @@ FT_END_HEADER
 endif
 /
 *
-__CFFOBJS_H__
+CFFOBJS_H_
 *
 /
 /

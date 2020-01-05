@@ -193,10 +193,10 @@ SOFTWARE
 /
 #
 ifndef
-__PCFREAD_H__
+PCFREAD_H_
 #
 define
-__PCFREAD_H__
+PCFREAD_H_
 #
 include
 <
@@ -224,7 +224,7 @@ FT_END_HEADER
 endif
 /
 *
-__PCFREAD_H__
+PCFREAD_H_
 *
 /
 /

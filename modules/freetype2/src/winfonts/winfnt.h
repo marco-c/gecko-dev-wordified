@@ -112,11 +112,7 @@ files
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
-2007
+2016
 by
 *
 /
@@ -301,10 +297,10 @@ fully
 /
 #
 ifndef
-__WINFNT_H__
+WINFNT_H_
 #
 define
-__WINFNT_H__
+WINFNT_H_
 #
 include
 <
@@ -637,7 +633,7 @@ FT_END_HEADER
 endif
 /
 *
-__WINFNT_H__
+WINFNT_H_
 *
 /
 /

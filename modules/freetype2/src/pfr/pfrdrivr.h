@@ -113,6 +113,8 @@ specification
 *
 Copyright
 2002
+-
+2016
 by
 *
 /
@@ -287,10 +289,10 @@ fully
 /
 #
 ifndef
-__PFRDRIVR_H__
+PFRDRIVR_H_
 #
 define
-__PFRDRIVR_H__
+PFRDRIVR_H_
 #
 include
 <
@@ -330,7 +332,7 @@ FT_END_HEADER
 endif
 /
 *
-__PFRDRIVR_H__
+PFRDRIVR_H_
 *
 /
 /

@@ -112,8 +112,8 @@ module
 *
 Copyright
 2009
-2012
-2013
+-
+2016
 by
 *
 /
@@ -286,11 +286,10 @@ fully
 /
 #
 ifndef
-__CFFPIC_H__
+CFFPIC_H_
 #
 define
-__CFFPIC_H__
-FT_BEGIN_HEADER
+CFFPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -369,6 +368,7 @@ FT_SERVICE_CID_H
 #
 include
 FT_SERVICE_PROPERTIES_H
+FT_BEGIN_HEADER
 typedef
 struct
 CffModulePIC_
@@ -586,6 +586,7 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
 /
@@ -597,12 +598,11 @@ FT_CONFIG_OPTION_PIC
 *
 *
 /
-FT_END_HEADER
 #
 endif
 /
 *
-__CFFPIC_H__
+CFFPIC_H_
 *
 /
 /

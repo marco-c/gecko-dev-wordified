@@ -112,6 +112,8 @@ only
 *
 Copyright
 2013
+-
+2016
 by
 *
 /
@@ -286,10 +288,10 @@ fully
 /
 #
 ifndef
-__AFWRTSYS_H__
+AFWRTSYS_H_
 #
 define
-__AFWRTSYS_H__
+AFWRTSYS_H_
 /
 *
 Since
@@ -361,7 +363,7 @@ endif
 endif
 /
 *
-__AFWRTSYS_H__
+AFWRTSYS_H_
 *
 /
 /

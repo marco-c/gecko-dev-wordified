@@ -129,10 +129,7 @@ moment
 Copyright
 1996
 -
-2001
-2002
-2005
-2007
+2016
 by
 *
 /
@@ -307,10 +304,10 @@ fully
 /
 #
 ifndef
-__TTKERN_H__
+TTKERN_H_
 #
 define
-__TTKERN_H__
+TTKERN_H_
 #
 include
 <
@@ -383,7 +380,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTKERN_H__
+TTKERN_H_
 *
 /
 /

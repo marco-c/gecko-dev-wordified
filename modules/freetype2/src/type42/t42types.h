@@ -112,10 +112,13 @@ only
 *
 Copyright
 2002
-2003
-2006
-2008
+-
+2016
 by
+*
+/
+/
+*
 Roberto
 Alameda
 .
@@ -280,10 +283,10 @@ fully
 /
 #
 ifndef
-__T42TYPES_H__
+T42TYPES_H_
 #
 define
-__T42TYPES_H__
+T42TYPES_H_
 #
 include
 <
@@ -338,7 +341,7 @@ FT_Byte
 *
 ttf_data
 ;
-FT_ULong
+FT_Long
 ttf_size
 ;
 FT_Face
@@ -369,7 +372,7 @@ FT_END_HEADER
 endif
 /
 *
-__T42TYPES_H__
+T42TYPES_H_
 *
 /
 /

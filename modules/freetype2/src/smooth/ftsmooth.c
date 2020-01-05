@@ -112,10 +112,7 @@ body
 Copyright
 2000
 -
-2006
-2009
--
-2013
+2016
 by
 *
 /
@@ -1289,9 +1286,11 @@ buffer
 (
 FT_ULong
 )
+(
 pitch
 *
 height
+)
 )
 )
 goto
@@ -1359,6 +1358,10 @@ bitmap
 >
 width
 =
+(
+unsigned
+int
+)
 width
 ;
 bitmap
@@ -1366,6 +1369,10 @@ bitmap
 >
 rows
 =
+(
+unsigned
+int
+)
 height
 ;
 bitmap

@@ -127,9 +127,13 @@ gxlayout
 *
 Copyright
 2004
-2005
-2006
+-
+2016
 by
+*
+/
+/
+*
 Masatake
 YAMATO
 and

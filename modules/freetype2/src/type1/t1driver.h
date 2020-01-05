@@ -114,8 +114,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
+2016
 by
 *
 /
@@ -290,10 +289,10 @@ fully
 /
 #
 ifndef
-__T1DRIVER_H__
+T1DRIVER_H_
 #
 define
-__T1DRIVER_H__
+T1DRIVER_H_
 #
 include
 <
@@ -333,7 +332,7 @@ FT_END_HEADER
 endif
 /
 *
-__T1DRIVER_H__
+T1DRIVER_H_
 *
 /
 /

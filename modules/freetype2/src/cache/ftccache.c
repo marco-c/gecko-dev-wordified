@@ -112,11 +112,7 @@ body
 Copyright
 2000
 -
-2007
-2009
--
-2011
-2013
+2016
 by
 *
 /
@@ -879,7 +875,7 @@ cache
 *
 body
 for
-FTC_NODE__TOP_FOR_HASH
+FTC_NODE_TOP_FOR_HASH
 (
 cache
 hash
@@ -895,7 +891,7 @@ ftc_get_top_node_for_hash
 (
 FTC_Cache
 cache
-FT_PtrDist
+FT_Offset
 hash
 )
 {
@@ -903,22 +899,17 @@ FTC_Node
 *
 pnode
 ;
-FT_UInt
+FT_Offset
 idx
 ;
 idx
 =
-(
-FT_UInt
-)
-(
 hash
 &
 cache
 -
 >
 mask
-)
 ;
 if
 (
@@ -931,10 +922,6 @@ p
 )
 idx
 =
-(
-FT_UInt
-)
-(
 hash
 &
 (
@@ -946,7 +933,6 @@ cache
 mask
 +
 1
-)
 )
 ;
 pnode
@@ -1531,7 +1517,7 @@ FTC_Node
 *
 pnode
 =
-FTC_NODE__TOP_FOR_HASH
+FTC_NODE_TOP_FOR_HASH
 (
 cache
 node0
@@ -1658,7 +1644,7 @@ FTC_Node
 *
 pnode
 =
-FTC_NODE__TOP_FOR_HASH
+FTC_NODE_TOP_FOR_HASH
 (
 cache
 node
@@ -2612,7 +2598,7 @@ ftc_cache_add
 (
 FTC_Cache
 cache
-FT_PtrDist
+FT_Offset
 hash
 FTC_Node
 node
@@ -2730,7 +2716,7 @@ FTC_Cache_NewNode
 (
 FTC_Cache
 cache
-FT_PtrDist
+FT_Offset
 hash
 FT_Pointer
 query
@@ -2877,7 +2863,7 @@ FTC_Cache_Lookup
 (
 FTC_Cache
 cache
-FT_PtrDist
+FT_Offset
 hash
 FT_Pointer
 query
@@ -2957,7 +2943,7 @@ bucket
 =
 pnode
 =
-FTC_NODE__TOP_FOR_HASH
+FTC_NODE_TOP_FOR_HASH
 (
 cache
 hash
@@ -3067,7 +3053,7 @@ bucket
 =
 pnode
 =
-FTC_NODE__TOP_FOR_HASH
+FTC_NODE_TOP_FOR_HASH
 (
 cache
 hash

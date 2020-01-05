@@ -112,8 +112,8 @@ module
 *
 Copyright
 2009
-2012
-2013
+-
+2016
 by
 *
 /
@@ -286,11 +286,10 @@ fully
 /
 #
 ifndef
-__PSHPIC_H__
+PSHPIC_H_
 #
 define
-__PSHPIC_H__
-FT_BEGIN_HEADER
+PSHPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -311,6 +310,7 @@ FT_CONFIG_OPTION_PIC
 #
 include
 FT_INTERNAL_POSTSCRIPT_HINTS_H
+FT_BEGIN_HEADER
 typedef
 struct
 PSHinterPIC_
@@ -380,6 +380,7 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
 /
@@ -391,12 +392,11 @@ FT_CONFIG_OPTION_PIC
 *
 *
 /
-FT_END_HEADER
 #
 endif
 /
 *
-__PSHPIC_H__
+PSHPIC_H_
 *
 /
 /

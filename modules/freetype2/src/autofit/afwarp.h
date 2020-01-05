@@ -111,7 +111,8 @@ specification
 *
 Copyright
 2006
-2007
+-
+2016
 by
 *
 /
@@ -286,10 +287,10 @@ fully
 /
 #
 ifndef
-__AFWARP_H__
+AFWARP_H_
 #
 define
-__AFWARP_H__
+AFWARP_H_
 #
 include
 "
@@ -313,6 +314,10 @@ x
 )
 &
 ~
+FT_TYPEOF
+(
+x
+)
 63
 )
 #
@@ -400,7 +405,7 @@ FT_END_HEADER
 endif
 /
 *
-__AFWARP_H__
+AFWARP_H_
 *
 /
 /

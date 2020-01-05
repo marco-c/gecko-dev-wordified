@@ -110,6 +110,8 @@ specification
 *
 Copyright
 2002
+-
+2016
 by
 *
 /
@@ -284,10 +286,10 @@ fully
 /
 #
 ifndef
-__PFRGLOAD_H__
+PFRGLOAD_H_
 #
 define
-__PFRGLOAD_H__
+PFRGLOAD_H_
 #
 include
 "
@@ -341,7 +343,7 @@ FT_END_HEADER
 endif
 /
 *
-__PFRGLOAD_H__
+PFRGLOAD_H_
 *
 /
 /

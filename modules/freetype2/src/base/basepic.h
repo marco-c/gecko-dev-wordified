@@ -111,6 +111,8 @@ base
 *
 Copyright
 2009
+-
+2016
 by
 *
 /
@@ -283,11 +285,10 @@ fully
 /
 #
 ifndef
-__BASEPIC_H__
+BASEPIC_H_
 #
 define
-__BASEPIC_H__
-FT_BEGIN_HEADER
+BASEPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -335,6 +336,7 @@ include
 FT_INTERNAL_RFORK_H
 #
 endif
+FT_BEGIN_HEADER
 typedef
 struct
 BasePIC_
@@ -470,6 +472,7 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
 /
@@ -481,12 +484,11 @@ FT_CONFIG_OPTION_PIC
 *
 *
 /
-FT_END_HEADER
 #
 endif
 /
 *
-__BASEPIC_H__
+BASEPIC_H_
 *
 /
 /

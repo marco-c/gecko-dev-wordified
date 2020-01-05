@@ -113,8 +113,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
+2016
 by
 *
 /
@@ -289,10 +288,10 @@ fully
 /
 #
 ifndef
-__CFFDRIVER_H__
+CFFDRIVER_H_
 #
 define
-__CFFDRIVER_H__
+CFFDRIVER_H_
 #
 include
 <
@@ -313,7 +312,7 @@ FT_END_HEADER
 endif
 /
 *
-__CFFDRIVER_H__
+CFFDRIVER_H_
 *
 /
 /

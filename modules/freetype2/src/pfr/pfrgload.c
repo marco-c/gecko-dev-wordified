@@ -110,11 +110,8 @@ body
 *
 Copyright
 2002
-2003
-2005
-2007
-2010
-2013
+-
+2016
 by
 *
 /
@@ -920,7 +917,7 @@ on
 the
 same
 location
-than
+as
 the
 first
 one
@@ -1172,7 +1169,7 @@ if
 error
 )
 {
-FT_UInt
+FT_Int
 n
 =
 outline
@@ -1503,6 +1500,7 @@ if
 !
 error
 )
+{
 /
 *
 add
@@ -1519,6 +1517,7 @@ glyph
 to
 )
 ;
+}
 return
 error
 ;
@@ -2244,8 +2243,6 @@ mask
 *
 XXX
 :
-for
-now
 we
 ignore
 the
@@ -2263,8 +2260,6 @@ we
 don
 '
 t
-want
-to
 support
 native
 PFR
@@ -2279,7 +2274,7 @@ if
 (
 flags
 &
-PFR_GLYPH_EXTRA_ITEMS
+PFR_GLYPH_SINGLE_EXTRA_ITEMS
 )
 {
 error
@@ -3015,6 +3010,7 @@ case
 16
 -
 bit
+absolute
 value
 *
 /
@@ -3770,7 +3766,7 @@ if
 (
 flags
 &
-PFR_GLYPH_EXTRA_ITEMS
+PFR_GLYPH_COMPOUND_EXTRA_ITEMS
 )
 {
 error
@@ -4095,9 +4091,8 @@ PFR_NEXT_SHORT
 (
 p
 )
-<
-<
-4
+*
+16
 ;
 }
 subglyph
@@ -4128,9 +4123,8 @@ PFR_NEXT_SHORT
 (
 p
 )
-<
-<
-4
+*
+16
 ;
 }
 /
@@ -4318,7 +4312,7 @@ subglyph
 >
 gps_offset
 =
-PFR_NEXT_LONG
+PFR_NEXT_ULONG
 (
 p
 )
@@ -4460,7 +4454,7 @@ p
 PFR_GLYPH_IS_COMPOUND
 )
 {
-FT_Int
+FT_UInt
 n
 old_count
 count

@@ -21,10 +21,8 @@ file
 #
 Copyright
 2002
-2004
-2007
-2008
-2014
+-
+2016
 by
 #
 David
@@ -490,6 +488,8 @@ not
 a
 valid
 directory
+\
+n
 "
 )
                 

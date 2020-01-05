@@ -108,8 +108,7 @@ component
 Copyright
 1996
 -
-2006
-2013
+2016
 by
 *
 /

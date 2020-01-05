@@ -121,8 +121,13 @@ subtable
 *
 Copyright
 2005
-2007
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -1102,7 +1107,7 @@ endif
 reserved
 =
 (
-FT_Short
+FT_UShort
 )
 (
 flags

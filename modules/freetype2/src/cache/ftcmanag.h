@@ -110,12 +110,7 @@ specification
 Copyright
 2000
 -
-2001
-2003
-2004
-2006
-2010
-2013
+2016
 by
 *
 /
@@ -1532,10 +1527,10 @@ CODE
 /
 #
 ifndef
-__FTCMANAG_H__
+FTCMANAG_H_
 #
 define
-__FTCMANAG_H__
+FTCMANAG_H_
 #
 include
 <
@@ -2289,7 +2284,7 @@ q
 )
 \
 (
-_FTC_FACE_ID_HASH
+FTC_FACE_ID_HASH
 (
 (
 q
@@ -2357,7 +2352,7 @@ FT_END_HEADER
 endif
 /
 *
-__FTCMANAG_H__
+FTCMANAG_H_
 *
 /
 /

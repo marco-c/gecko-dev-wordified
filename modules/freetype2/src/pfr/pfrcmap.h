@@ -110,6 +110,8 @@ specification
 *
 Copyright
 2002
+-
+2016
 by
 *
 /
@@ -284,10 +286,10 @@ fully
 /
 #
 ifndef
-__PFRCMAP_H__
+PFRCMAP_H_
 #
 define
-__PFRCMAP_H__
+PFRCMAP_H_
 #
 include
 <
@@ -334,7 +336,7 @@ FT_END_HEADER
 endif
 /
 *
-__PFRCMAP_H__
+PFRCMAP_H_
 *
 /
 /

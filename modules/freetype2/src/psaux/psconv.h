@@ -109,7 +109,8 @@ specification
 *
 Copyright
 2006
-2012
+-
+2016
 by
 *
 /
@@ -284,10 +285,10 @@ fully
 /
 #
 ifndef
-__PSCONV_H__
+PSCONV_H_
 #
 define
-__PSCONV_H__
+PSCONV_H_
 #
 include
 <
@@ -421,7 +422,7 @@ FT_END_HEADER
 endif
 /
 *
-__PSCONV_H__
+PSCONV_H_
 *
 /
 /

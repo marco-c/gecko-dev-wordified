@@ -112,12 +112,7 @@ body
 Copyright
 2003
 -
-2007
-2009
--
-2011
-2013
-2014
+2016
 by
 *
 /
@@ -768,6 +763,9 @@ FT_Load_Glyph
 (
 face
 gindex
+(
+FT_Int
+)
 family
 -
 >
@@ -881,6 +879,9 @@ FT_Load_Glyph
 (
 face
 gindex
+(
+FT_Int
+)
 family
 -
 >
@@ -1238,7 +1239,7 @@ happy
 FT_Error
 error
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 /
@@ -1320,6 +1321,9 @@ dropped
 \
 n
 "
+(
+FT_ULong
+)
 type
 -
 >
@@ -1579,7 +1583,7 @@ happy
 FT_Error
 error
 ;
-FT_PtrDist
+FT_Offset
 hash
 ;
 /
@@ -1920,7 +1924,7 @@ compiler
 happy
 *
 /
-FT_PtrDist
+FT_Offset
 hash
 ;
 if
@@ -1995,6 +1999,9 @@ dropped
 \
 n
 "
+(
+FT_ULong
+)
 type
 -
 >
@@ -2284,7 +2291,7 @@ compiler
 happy
 *
 /
-FT_PtrDist
+FT_Offset
 hash
 ;
 if

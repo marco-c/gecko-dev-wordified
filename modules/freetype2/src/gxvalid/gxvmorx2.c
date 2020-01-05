@@ -121,8 +121,13 @@ subtable
 *
 Copyright
 2005
-2013
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -1441,6 +1446,9 @@ face
 >
 num_glyphs
 -
+(
+FT_Long
+)
 (
 offset
 &

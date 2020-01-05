@@ -110,11 +110,8 @@ body
 *
 Copyright
 2002
-2004
-2005
-2006
-2007
-2008
+-
+2016
 by
 *
 /
@@ -3397,6 +3394,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 ValueCount
 )
 ;
@@ -4865,6 +4865,9 @@ table
 +
 Coverage
 otvalid
+(
+FT_Int
+)
 EntryExitCount
 )
 ;

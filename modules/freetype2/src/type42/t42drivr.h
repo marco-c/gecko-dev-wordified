@@ -113,7 +113,13 @@ specification
 *
 Copyright
 2002
+-
+2016
 by
+*
+/
+/
+*
 Roberto
 Alameda
 .
@@ -278,10 +284,10 @@ fully
 /
 #
 ifndef
-__T42DRIVR_H__
+T42DRIVR_H_
 #
 define
-__T42DRIVR_H__
+T42DRIVR_H_
 #
 include
 <
@@ -321,7 +327,7 @@ FT_END_HEADER
 endif
 /
 *
-__T42DRIVR_H__
+T42DRIVR_H_
 *
 /
 /

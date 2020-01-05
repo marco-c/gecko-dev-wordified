@@ -91,6 +91,7 @@ Turner
 2008
 -
 2013
+2015
 *
 *
 This
@@ -833,6 +834,12 @@ char
 *
 dot
 ;
+char
+temp
+[
+512
+]
+;
 if
 (
 dll_name
@@ -901,12 +908,6 @@ dot
 NULL
 )
 {
-char
-temp
-[
-512
-]
-;
 int
 len
 =

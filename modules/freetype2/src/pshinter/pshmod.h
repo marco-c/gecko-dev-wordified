@@ -110,6 +110,8 @@ specification
 *
 Copyright
 2001
+-
+2016
 by
 *
 /
@@ -284,10 +286,10 @@ fully
 /
 #
 ifndef
-__PSHMOD_H__
+PSHMOD_H_
 #
 define
-__PSHMOD_H__
+PSHMOD_H_
 #
 include
 <
@@ -308,7 +310,7 @@ FT_END_HEADER
 endif
 /
 *
-__PSHMOD_H__
+PSHMOD_H_
 *
 /
 /

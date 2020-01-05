@@ -593,10 +593,10 @@ fully
 /
 #
 ifndef
-__CF2READ_H__
+CF2READ_H_
 #
 define
-__CF2READ_H__
+CF2READ_H_
 FT_BEGIN_HEADER
 typedef
 struct
@@ -651,7 +651,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2READ_H__
+CF2READ_H_
 *
 /
 /

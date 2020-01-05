@@ -195,10 +195,10 @@ SOFTWARE
 /
 #
 ifndef
-__PCFUTIL_H__
+PCFUTIL_H_
 #
 define
-__PCFUTIL_H__
+PCFUTIL_H_
 #
 include
 <
@@ -257,7 +257,7 @@ FT_END_HEADER
 endif
 /
 *
-__PCFUTIL_H__
+PCFUTIL_H_
 *
 /
 /

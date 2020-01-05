@@ -116,9 +116,7 @@ only
 Copyright
 2004
 -
-2006
-2011
-2013
+2016
 by
 *
 /
@@ -293,10 +291,10 @@ fully
 /
 #
 ifndef
-__FTCCBACK_H__
+FTCCBACK_H_
 #
 define
-__FTCCBACK_H__
+FTCCBACK_H_
 #
 include
 <
@@ -510,7 +508,7 @@ manager
 endif
 /
 *
-__FTCCBACK_H__
+FTCCBACK_H_
 *
 /
 /

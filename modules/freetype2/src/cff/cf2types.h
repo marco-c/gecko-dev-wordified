@@ -595,10 +595,10 @@ fully
 /
 #
 ifndef
-__CF2TYPES_H__
+CF2TYPES_H_
 #
 define
-__CF2TYPES_H__
+CF2TYPES_H_
 #
 include
 <
@@ -780,7 +780,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2TYPES_H__
+CF2TYPES_H_
 *
 /
 /

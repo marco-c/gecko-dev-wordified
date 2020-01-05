@@ -109,6 +109,8 @@ selection
 *
 Copyright
 2005
+-
+2016
 by
 *
 /

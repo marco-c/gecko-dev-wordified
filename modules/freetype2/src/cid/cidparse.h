@@ -112,8 +112,7 @@ specification
 Copyright
 1996
 -
-2004
-2014
+2016
 by
 *
 /
@@ -288,10 +287,10 @@ fully
 /
 #
 ifndef
-__CIDPARSE_H__
+CIDPARSE_H_
 #
 define
-__CIDPARSE_H__
+CIDPARSE_H_
 #
 include
 <
@@ -642,13 +641,13 @@ FT_Byte
 *
 postscript
 ;
-FT_Long
+FT_ULong
 postscript_len
 ;
 FT_ULong
 data_offset
 ;
-FT_Long
+FT_ULong
 binary_length
 ;
 CID_FaceInfo
@@ -1147,7 +1146,7 @@ FT_END_HEADER
 endif
 /
 *
-__CIDPARSE_H__
+CIDPARSE_H_
 *
 /
 /

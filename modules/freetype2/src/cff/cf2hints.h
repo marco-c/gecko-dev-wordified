@@ -594,10 +594,10 @@ fully
 /
 #
 ifndef
-__CF2HINTS_H__
+CF2HINTS_H_
 #
 define
-__CF2HINTS_H__
+CF2HINTS_H_
 FT_BEGIN_HEADER
 enum
 {
@@ -1519,7 +1519,7 @@ miterLimit
 *
 vertical
 /
-horzizontal
+horizontal
 snap
 distance
 in
@@ -1740,7 +1740,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2HINTS_H__
+CF2HINTS_H_
 *
 /
 /

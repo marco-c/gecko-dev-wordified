@@ -112,8 +112,13 @@ body
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -1350,7 +1355,7 @@ static
 void
 gxv_lcar_partial_validate
 (
-FT_UShort
+FT_Short
 partial
 FT_UShort
 glyph
@@ -1381,6 +1386,9 @@ Exit
 gxv_ctlPoint_validate
 (
 glyph
+(
+FT_UShort
+)
 partial
 gxvalid
 )
@@ -1553,7 +1561,7 @@ lcar
 |
 |
 |
-looup
+lookup
 header
 |
 |
@@ -2394,7 +2402,7 @@ GXV_LIMIT_CHECK
 ;
 version
 =
-FT_NEXT_ULONG
+FT_NEXT_LONG
 (
 p
 )

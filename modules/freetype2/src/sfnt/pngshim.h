@@ -107,7 +107,13 @@ support
 *
 Copyright
 2013
+-
+2016
 by
+*
+/
+/
+*
 Google
 Inc
 .
@@ -284,10 +290,10 @@ fully
 /
 #
 ifndef
-__PNGSHIM_H__
+PNGSHIM_H_
 #
 define
-__PNGSHIM_H__
+PNGSHIM_H_
 #
 include
 <
@@ -340,7 +346,7 @@ FT_END_HEADER
 endif
 /
 *
-__PNGSHIM_H__
+PNGSHIM_H_
 *
 /
 /

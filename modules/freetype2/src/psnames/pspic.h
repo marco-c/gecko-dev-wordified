@@ -112,7 +112,8 @@ module
 *
 Copyright
 2009
-2012
+-
+2016
 by
 *
 /
@@ -285,11 +286,10 @@ fully
 /
 #
 ifndef
-__PSPIC_H__
+PSPIC_H_
 #
 define
-__PSPIC_H__
-FT_BEGIN_HEADER
+PSPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -314,6 +314,7 @@ FT_CONFIG_OPTION_PIC
 #
 include
 FT_SERVICE_POSTSCRIPT_CMAPS_H
+FT_BEGIN_HEADER
 typedef
 struct
 PSModulePIC_
@@ -400,6 +401,7 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
 /
@@ -411,12 +413,11 @@ FT_CONFIG_OPTION_PIC
 *
 *
 /
-FT_END_HEADER
 #
 endif
 /
 *
-__PSPIC_H__
+PSPIC_H_
 *
 /
 /

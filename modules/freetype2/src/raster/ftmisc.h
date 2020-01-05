@@ -118,8 +118,8 @@ only
 *
 Copyright
 2005
-2009
-2010
+-
+2016
 by
 *
 /
@@ -434,10 +434,10 @@ platform
 /
 #
 ifndef
-__FTMISC_H__
+FTMISC_H_
 #
 define
-__FTMISC_H__
+FTMISC_H_
 /
 *
 memset
@@ -465,7 +465,7 @@ x
 from
 include
 /
-freetype2
+freetype
 /
 fttypes
 .
@@ -560,7 +560,7 @@ _x4
 from
 include
 /
-freetype2
+freetype
 /
 ftsystem
 .
@@ -914,7 +914,7 @@ d
 endif
 /
 *
-__FTMISC_H__
+FTMISC_H_
 *
 /
 /

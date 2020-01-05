@@ -112,8 +112,13 @@ specification
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -499,10 +504,10 @@ Japan
 /
 #
 ifndef
-__GXVFEAT_H__
+GXVFEAT_H_
 #
 define
-__GXVFEAT_H__
+GXVFEAT_H_
 #
 include
 "
@@ -2097,7 +2102,7 @@ Spacing
 endif
 /
 *
-__GXVFEAT_H__
+GXVFEAT_H_
 *
 /
 /

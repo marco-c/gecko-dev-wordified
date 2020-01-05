@@ -113,8 +113,7 @@ only
 Copyright
 2005
 -
-2007
-2013
+2016
 by
 *
 /
@@ -391,6 +390,8 @@ FT
 :
 include
 /
+freetype
+/
 config
 /
 ftconfig
@@ -406,6 +407,8 @@ include
 FT
 /
 include
+/
+freetype
 /
 config
 /
@@ -500,6 +503,8 @@ include
 FT
 /
 include
+/
+freetype
 /
 config
 /

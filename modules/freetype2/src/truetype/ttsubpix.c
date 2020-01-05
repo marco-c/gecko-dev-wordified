@@ -107,7 +107,7 @@ Hinting
 Copyright
 2010
 -
-2013
+2016
 by
 *
 /
@@ -317,7 +317,7 @@ h
 "
 #
 ifdef
-TT_CONFIG_OPTION_SUBPIXEL_HINTING
+TT_SUPPORT_SUBPIXEL_HINTING_INFINALITY
 /
 *
 *
@@ -1443,6 +1443,7 @@ these
 define
 STYLE_CLASS_RULES_SIZE
 5
+static
 const
 SPH_Font_Class
 STYLE_CLASS_Rules
@@ -1611,6 +1612,7 @@ fonts
 define
 COMPATIBILITY_MODE_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 COMPATIBILITY_MODE_Rules
@@ -1653,6 +1655,7 @@ hinting
 define
 PIXEL_HINTING_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 PIXEL_HINTING_Rules
@@ -1720,6 +1723,7 @@ these
 define
 DO_SHPIX_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 DO_SHPIX_Rules
@@ -1780,6 +1784,7 @@ boundary
 define
 SKIP_NONPIXEL_Y_MOVES_RULES_SIZE
 4
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_Rules
@@ -1871,6 +1876,7 @@ Clones
 define
 SKIP_NONPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_Rules_Exceptions
@@ -1941,6 +1947,7 @@ boundary
 define
 SKIP_NONPIXEL_Y_MOVES_DELTAP_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 SKIP_NONPIXEL_Y_MOVES_DELTAP_Rules
@@ -2016,6 +2023,7 @@ boundary
 define
 SKIP_OFFPIXEL_Y_MOVES_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_OFFPIXEL_Y_MOVES_Rules
@@ -2039,6 +2047,7 @@ SKIP_OFFPIXEL_Y_MOVES_RULES_SIZE
 define
 SKIP_OFFPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_OFFPIXEL_Y_MOVES_Rules_Exceptions
@@ -2081,6 +2090,7 @@ boundary
 define
 ROUND_NONPIXEL_Y_MOVES_RULES_SIZE
 2
+static
 const
 SPH_TweakRule
 ROUND_NONPIXEL_Y_MOVES_Rules
@@ -2134,6 +2144,7 @@ Mono
 define
 ROUND_NONPIXEL_Y_MOVES_RULES_EXCEPTIONS_SIZE
 1
+static
 const
 SPH_TweakRule
 ROUND_NONPIXEL_Y_MOVES_Rules_Exceptions
@@ -2171,6 +2182,7 @@ matched
 define
 ALLOW_X_DMOVE_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 ALLOW_X_DMOVE_Rules
@@ -2218,6 +2230,7 @@ matched
 define
 RASTERIZER_35_RULES_SIZE
 8
+static
 const
 SPH_TweakRule
 RASTERIZER_35_Rules
@@ -2373,6 +2386,7 @@ grid
 define
 NORMAL_ROUND_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 NORMAL_ROUND_Rules
@@ -2426,6 +2440,7 @@ matched
 define
 SKIP_IUP_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 SKIP_IUP_Rules
@@ -2463,6 +2478,7 @@ matched
 define
 MIAP_HACK_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 MIAP_HACK_Rules
@@ -2496,6 +2512,7 @@ matched
 define
 ALWAYS_SKIP_DELTAP_RULES_SIZE
 23
+static
 const
 SPH_TweakRule
 ALWAYS_SKIP_DELTAP_Rules
@@ -2844,6 +2861,7 @@ matched
 define
 ALWAYS_DO_DELTAP_RULES_SIZE
 1
+static
 const
 SPH_TweakRule
 ALWAYS_DO_DELTAP_Rules
@@ -5085,10 +5103,8 @@ endif
 FORCE_NATURAL_WIDTHS
 *
 /
-FT_LOCAL_DEF
-(
+static
 FT_Bool
-)
 is_member_of_family_class
 (
 const
@@ -5268,10 +5284,8 @@ return
 FALSE
 ;
 }
-FT_LOCAL_DEF
-(
+static
 FT_Bool
-)
 is_member_of_style_class
 (
 const
@@ -5897,9 +5911,6 @@ glyph_index
 TT_Face
 face
 =
-(
-TT_Face
-)
 loader
 -
 >
@@ -5916,7 +5927,7 @@ root
 .
 family_name
 ;
-int
+FT_UInt
 ppem
 =
 loader
@@ -6372,7 +6383,7 @@ else
 /
 *
 !
-TT_CONFIG_OPTION_SUBPIXEL_HINTING
+TT_SUPPORT_SUBPIXEL_HINTING_INFINALITY
 *
 /
 /
@@ -6397,7 +6408,7 @@ endif
 /
 *
 !
-TT_CONFIG_OPTION_SUBPIXEL_HINTING
+TT_SUPPORT_SUBPIXEL_HINTING_INFINALITY
 *
 /
 /

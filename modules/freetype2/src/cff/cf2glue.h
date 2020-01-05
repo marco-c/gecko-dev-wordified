@@ -594,10 +594,10 @@ fully
 /
 #
 ifndef
-__CF2GLUE_H__
+CF2GLUE_H_
 #
 define
-__CF2GLUE_H__
+CF2GLUE_H_
 /
 *
 common
@@ -998,7 +998,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2GLUE_H__
+CF2GLUE_H_
 *
 /
 /

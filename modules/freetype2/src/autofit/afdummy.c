@@ -125,9 +125,7 @@ body
 Copyright
 2003
 -
-2005
-2011
-2013
+2016
 by
 *
 /
@@ -393,6 +391,8 @@ static
 FT_Error
 af_dummy_hints_apply
 (
+FT_UInt
+glyph_index
 AF_GlyphHints
 hints
 FT_Outline
@@ -402,6 +402,11 @@ outline
 {
 FT_Error
 error
+;
+FT_UNUSED
+(
+glyph_index
+)
 ;
 error
 =
@@ -444,6 +449,10 @@ AF_WritingSystem_ScaleMetricsFunc
 NULL
 (
 AF_WritingSystem_DoneMetricsFunc
+)
+NULL
+(
+AF_WritingSystem_GetStdWidthsFunc
 )
 NULL
 (

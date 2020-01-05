@@ -112,7 +112,13 @@ only
 *
 Copyright
 2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -498,10 +504,10 @@ Japan
 /
 #
 ifndef
-__GXVALID_H__
+GXVALID_H_
 #
 define
-__GXVALID_H__
+GXVALID_H_
 #
 include
 <
@@ -695,7 +701,7 @@ FT_END_HEADER
 endif
 /
 *
-__GXVALID_H__
+GXVALID_H_
 *
 /
 /

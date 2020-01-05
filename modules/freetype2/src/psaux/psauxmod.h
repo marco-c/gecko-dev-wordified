@@ -112,7 +112,7 @@ specification
 Copyright
 2000
 -
-2001
+2016
 by
 *
 /
@@ -287,10 +287,10 @@ fully
 /
 #
 ifndef
-__PSAUXMOD_H__
+PSAUXMOD_H_
 #
 define
-__PSAUXMOD_H__
+PSAUXMOD_H_
 #
 include
 <
@@ -330,7 +330,7 @@ FT_END_HEADER
 endif
 /
 *
-__PSAUXMOD_H__
+PSAUXMOD_H_
 *
 /
 /

@@ -114,8 +114,8 @@ specification
 *
 Copyright
 2002
-2003
-2006
+-
+2016
 by
 *
 /
@@ -290,10 +290,10 @@ fully
 /
 #
 ifndef
-__CFFCMAP_H__
+CFFCMAP_H_
 #
 define
-__CFFCMAP_H__
+CFFCMAP_H_
 #
 include
 "
@@ -1048,7 +1048,7 @@ FT_END_HEADER
 endif
 /
 *
-__CFFCMAP_H__
+CFFCMAP_H_
 *
 /
 /

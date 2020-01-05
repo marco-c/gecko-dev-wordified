@@ -592,10 +592,10 @@ fully
 /
 #
 ifndef
-__CF2FT_H__
+CF2FT_H_
 #
 define
-__CF2FT_H__
+CF2FT_H_
 #
 include
 "
@@ -812,8 +812,8 @@ cf2_initGlobalRegionBuffer
 CFF_Decoder
 *
 decoder
-CF2_UInt
-idx
+CF2_Int
+subrNum
 CF2_Buffer
 buf
 )
@@ -827,7 +827,7 @@ cf2_getSeacComponent
 CFF_Decoder
 *
 decoder
-CF2_UInt
+CF2_Int
 code
 CF2_Buffer
 buf
@@ -855,8 +855,8 @@ cf2_initLocalRegionBuffer
 CFF_Decoder
 *
 decoder
-CF2_UInt
-idx
+CF2_Int
+subrNum
 CF2_Buffer
 buf
 )
@@ -949,7 +949,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2FT_H__
+CF2FT_H_
 *
 /
 /

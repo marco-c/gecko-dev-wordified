@@ -125,9 +125,7 @@ specification
 Copyright
 2003
 -
-2005
-2011
-2013
+2016
 by
 *
 /
@@ -302,10 +300,10 @@ fully
 /
 #
 ifndef
-__AFDUMMY_H__
+AFDUMMY_H_
 #
 define
-__AFDUMMY_H__
+AFDUMMY_H_
 #
 include
 "
@@ -343,7 +341,7 @@ FT_END_HEADER
 endif
 /
 *
-__AFDUMMY_H__
+AFDUMMY_H_
 *
 /
 /

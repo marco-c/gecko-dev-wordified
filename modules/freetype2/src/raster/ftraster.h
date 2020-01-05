@@ -111,7 +111,7 @@ specification
 Copyright
 1996
 -
-2001
+2016
 by
 *
 /
@@ -286,10 +286,10 @@ fully
 /
 #
 ifndef
-__FTRASTER_H__
+FTRASTER_H_
 #
 define
-__FTRASTER_H__
+FTRASTER_H_
 #
 include
 <
@@ -419,7 +419,7 @@ FreeType
 *
 #
 define
-_STANDALONE_
+STANDALONE_
 *
 /
 FT_EXPORT_VAR
@@ -434,7 +434,7 @@ FT_END_HEADER
 endif
 /
 *
-__FTRASTER_H__
+FTRASTER_H_
 *
 /
 /

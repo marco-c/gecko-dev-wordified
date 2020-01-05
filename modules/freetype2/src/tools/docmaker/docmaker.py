@@ -26,10 +26,8 @@ documentation
 #
 Copyright
 2002
-2004
-2008
-2013
-2014
+-
+2016
 by
 #
 David

@@ -112,9 +112,8 @@ module
 *
 Copyright
 2009
-2011
 -
-2013
+2016
 by
 *
 /
@@ -287,11 +286,10 @@ fully
 /
 #
 ifndef
-__AFPIC_H__
+AFPIC_H_
 #
 define
-__AFPIC_H__
-FT_BEGIN_HEADER
+AFPIC_H_
 #
 include
 FT_INTERNAL_PIC_H
@@ -351,6 +349,7 @@ aftypes
 .
 h
 "
+FT_BEGIN_HEADER
 typedef
 struct
 AFModulePIC_
@@ -554,6 +553,7 @@ FT_Library
 library
 )
 ;
+FT_END_HEADER
 #
 endif
 /
@@ -565,12 +565,11 @@ FT_CONFIG_OPTION_PIC
 *
 *
 /
-FT_END_HEADER
 #
 endif
 /
 *
-__AFPIC_H__
+AFPIC_H_
 *
 /
 /

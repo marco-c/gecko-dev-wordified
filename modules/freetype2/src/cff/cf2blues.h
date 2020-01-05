@@ -847,10 +847,10 @@ zone
 /
 #
 ifndef
-__CF2BLUES_H__
+CF2BLUES_H_
 #
 define
-__CF2BLUES_H__
+CF2BLUES_H_
 #
 include
 "
@@ -1298,7 +1298,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2BLUES_H__
+CF2BLUES_H_
 *
 /
 /

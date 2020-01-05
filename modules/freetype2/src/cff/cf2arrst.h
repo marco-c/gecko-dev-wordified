@@ -593,10 +593,10 @@ fully
 /
 #
 ifndef
-__CF2ARRST_H__
+CF2ARRST_H_
 #
 define
-__CF2ARRST_H__
+CF2ARRST_H_
 #
 include
 "
@@ -813,7 +813,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2ARRST_H__
+CF2ARRST_H_
 *
 /
 /

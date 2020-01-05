@@ -112,12 +112,7 @@ specification
 Copyright
 2000
 -
-2001
-2003
--
-2006
-2010
-2013
+2016
 by
 *
 /
@@ -705,10 +700,10 @@ process
 /
 #
 ifndef
-__FTCMRU_H__
+FTCMRU_H_
 #
 define
-__FTCMRU_H__
+FTCMRU_H_
 #
 include
 <
@@ -1144,7 +1139,7 @@ _node
 ;
 \
 goto
-_MruOk
+MruOk_
 ;
 \
 }
@@ -1196,7 +1191,7 @@ node
 )
 ;
 \
-_MruOk
+MruOk_
 :
 \
 ;
@@ -1390,7 +1385,7 @@ FT_END_HEADER
 endif
 /
 *
-__FTCMRU_H__
+FTCMRU_H_
 *
 /
 /

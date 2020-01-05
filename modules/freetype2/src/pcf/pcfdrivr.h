@@ -196,10 +196,10 @@ SOFTWARE
 /
 #
 ifndef
-__PCFDRIVR_H__
+PCFDRIVR_H_
 #
 define
-__PCFDRIVR_H__
+PCFDRIVR_H_
 #
 include
 <
@@ -239,7 +239,7 @@ FT_END_HEADER
 endif
 /
 *
-__PCFDRIVR_H__
+PCFDRIVR_H_
 *
 /
 /

@@ -113,10 +113,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
+2016
 by
 *
 /
@@ -291,10 +288,10 @@ fully
 /
 #
 ifndef
-__CIDLOAD_H__
+CIDLOAD_H_
 #
 define
-__CIDLOAD_H__
+CIDLOAD_H_
 #
 include
 <
@@ -347,7 +344,7 @@ CID_Loader
 ;
 FT_LOCAL
 (
-FT_Long
+FT_ULong
 )
 cid_get_offset
 (
@@ -376,7 +373,7 @@ FT_END_HEADER
 endif
 /
 *
-__CIDLOAD_H__
+CIDLOAD_H_
 *
 /
 /

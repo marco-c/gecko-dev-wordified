@@ -92,7 +92,7 @@ h
 /
 /
 *
-Postcript
+PostScript
 name
 table
 processing
@@ -120,8 +120,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
+2016
 by
 *
 /
@@ -296,10 +295,10 @@ fully
 /
 #
 ifndef
-__TTPOST_H__
+TTPOST_H_
 #
 define
-__TTPOST_H__
+TTPOST_H_
 #
 include
 <
@@ -345,7 +344,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTPOST_H__
+TTPOST_H_
 *
 /
 /

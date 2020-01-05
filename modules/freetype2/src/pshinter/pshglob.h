@@ -108,9 +108,8 @@ management
 *
 Copyright
 2001
-2002
-2003
-2014
+-
+2016
 by
 *
 /
@@ -285,10 +284,10 @@ fully
 /
 #
 ifndef
-__PSHGLOB_H__
+PSHGLOB_H_
 #
 define
-__PSHGLOB_H__
+PSHGLOB_H_
 #
 include
 FT_FREETYPE_H
@@ -1289,7 +1288,7 @@ FT_END_HEADER
 endif
 /
 *
-__PSHGLOB_H__
+PSHGLOB_H_
 *
 /
 /

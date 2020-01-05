@@ -110,8 +110,13 @@ specification
 *
 Copyright
 2002
-2003
+-
+2016
 by
+*
+/
+/
+*
 Roberto
 Alameda
 .
@@ -276,10 +281,10 @@ fully
 /
 #
 ifndef
-__T42PARSE_H__
+T42PARSE_H_
 #
 define
-__T42PARSE_H__
+T42PARSE_H_
 #
 include
 "
@@ -333,7 +338,7 @@ the
 stream
 *
 /
-FT_UInt
+FT_Int
 num_chars
 ;
 /
@@ -364,7 +369,7 @@ character
 names
 *
 /
-FT_UInt
+FT_Int
 num_glyphs
 ;
 PS_TableRec
@@ -468,7 +473,7 @@ FT_END_HEADER
 endif
 /
 *
-__T42PARSE_H__
+T42PARSE_H_
 *
 /
 /

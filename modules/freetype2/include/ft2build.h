@@ -110,9 +110,7 @@ macros
 Copyright
 1996
 -
-2001
-2006
-2013
+2016
 by
 *
 /
@@ -539,13 +537,15 @@ FT_FREETYPE_H
 /
 #
 ifndef
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 define
-__FT2BUILD_H__
+FT2BUILD_H_
 #
 include
 <
+freetype
+/
 config
 /
 ftheader
@@ -556,7 +556,7 @@ h
 endif
 /
 *
-__FT2BUILD_H__
+FT2BUILD_H_
 *
 /
 /

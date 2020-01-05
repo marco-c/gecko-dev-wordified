@@ -112,7 +112,7 @@ specification
 Copyright
 1996
 -
-2001
+2016
 by
 *
 /
@@ -287,10 +287,10 @@ fully
 /
 #
 ifndef
-__FTSMOOTH_H__
+FTSMOOTH_H_
 #
 define
-__FTSMOOTH_H__
+FTSMOOTH_H_
 #
 include
 <
@@ -333,7 +333,7 @@ FT_END_HEADER
 endif
 /
 *
-__FTSMOOTH_H__
+FTSMOOTH_H_
 *
 /
 /

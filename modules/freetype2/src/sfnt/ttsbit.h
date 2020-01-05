@@ -113,8 +113,7 @@ specification
 Copyright
 1996
 -
-2008
-2013
+2016
 by
 *
 /
@@ -289,10 +288,10 @@ fully
 /
 #
 ifndef
-__TTSBIT_H__
+TTSBIT_H_
 #
 define
-__TTSBIT_H__
+TTSBIT_H_
 #
 include
 <
@@ -389,7 +388,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTSBIT_H__
+TTSBIT_H_
 *
 /
 /

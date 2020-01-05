@@ -112,9 +112,7 @@ specification
 Copyright
 2000
 -
-2001
-2002
-2003
+2016
 by
 *
 /
@@ -289,10 +287,10 @@ fully
 /
 #
 ifndef
-__T1DECODE_H__
+T1DECODE_H_
 #
 define
-__T1DECODE_H__
+T1DECODE_H_
 #
 include
 <
@@ -382,7 +380,7 @@ FT_END_HEADER
 endif
 /
 *
-__T1DECODE_H__
+T1DECODE_H_
 *
 /
 /

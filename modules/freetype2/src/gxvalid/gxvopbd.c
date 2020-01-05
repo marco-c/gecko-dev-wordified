@@ -112,8 +112,13 @@ body
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -1490,6 +1495,9 @@ continue
 gxv_ctlPoint_validate
 (
 glyph
+(
+FT_UShort
+)
 delta_value
 gxvalid
 )

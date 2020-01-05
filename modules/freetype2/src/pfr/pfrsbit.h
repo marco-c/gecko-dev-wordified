@@ -110,6 +110,8 @@ specification
 *
 Copyright
 2002
+-
+2016
 by
 *
 /
@@ -284,10 +286,10 @@ fully
 /
 #
 ifndef
-__PFRSBIT_H__
+PFRSBIT_H_
 #
 define
-__PFRSBIT_H__
+PFRSBIT_H_
 #
 include
 "
@@ -315,7 +317,7 @@ FT_END_HEADER
 endif
 /
 *
-__PFR_SBIT_H__
+PFRSBIT_H_
 *
 /
 /

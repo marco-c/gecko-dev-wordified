@@ -111,11 +111,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2004
-2006
-2007
+2016
 by
 *
 /
@@ -290,10 +286,10 @@ fully
 /
 #
 ifndef
-__T1LOAD_H__
+T1LOAD_H_
 #
 define
-__T1LOAD_H__
+T1LOAD_H_
 #
 include
 <
@@ -396,6 +392,9 @@ num_subrs
 ;
 PS_TableRec
 subrs
+;
+FT_Hash
+subrs_hash
 ;
 FT_Bool
 fontdata
@@ -562,7 +561,7 @@ FT_END_HEADER
 endif
 /
 *
-__T1LOAD_H__
+T1LOAD_H_
 *
 /
 /

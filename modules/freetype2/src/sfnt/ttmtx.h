@@ -116,7 +116,8 @@ specification
 *
 Copyright
 2006
-2014
+-
+2016
 by
 *
 /
@@ -291,10 +292,10 @@ fully
 /
 #
 ifndef
-__TTMTX_H__
+TTMTX_H_
 #
 define
-__TTMTX_H__
+TTMTX_H_
 #
 include
 <
@@ -362,7 +363,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTMTX_H__
+TTMTX_H_
 *
 /
 /

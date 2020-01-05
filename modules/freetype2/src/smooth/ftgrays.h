@@ -107,7 +107,7 @@ declaration
 Copyright
 1996
 -
-2001
+2016
 by
 *
 /
@@ -282,10 +282,10 @@ fully
 /
 #
 ifndef
-__FTGRAYS_H__
+FTGRAYS_H_
 #
 define
-__FTGRAYS_H__
+FTGRAYS_H_
 #
 ifdef
 __cplusplus
@@ -298,7 +298,7 @@ C
 endif
 #
 ifdef
-_STANDALONE_
+STANDALONE_
 #
 include
 "
@@ -502,7 +502,7 @@ endif
 endif
 /
 *
-__FTGRAYS_H__
+FTGRAYS_H_
 *
 /
 /

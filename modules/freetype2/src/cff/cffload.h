@@ -115,12 +115,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2003
-2007
-2008
-2010
+2016
 by
 *
 /
@@ -295,10 +290,10 @@ fully
 /
 #
 ifndef
-__CFFLOAD_H__
+CFFLOAD_H_
 #
 define
-__CFFLOAD_H__
+CFFLOAD_H_
 #
 include
 <
@@ -453,7 +448,7 @@ FT_END_HEADER
 endif
 /
 *
-__CFFLOAD_H__
+CFFLOAD_H_
 *
 /
 /

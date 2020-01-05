@@ -110,8 +110,8 @@ body
 *
 Copyright
 2004
-2005
-2007
+-
+2016
 by
 *
 /
@@ -859,6 +859,9 @@ otv_Coverage_validate
 (
 Coverage
 otvalid
+(
+FT_Int
+)
 GlyphCount
 )
 ;

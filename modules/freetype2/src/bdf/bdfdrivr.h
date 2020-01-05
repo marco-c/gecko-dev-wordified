@@ -199,10 +199,10 @@ SOFTWARE
 /
 #
 ifndef
-__BDFDRIVR_H__
+BDFDRIVR_H_
 #
 define
-__BDFDRIVR_H__
+BDFDRIVR_H_
 #
 include
 <
@@ -241,7 +241,7 @@ typedef
 struct
 BDF_encoding_el_
 {
-FT_ULong
+FT_Long
 enc
 ;
 FT_UShort
@@ -308,7 +308,7 @@ FT_END_HEADER
 endif
 /
 *
-__BDFDRIVR_H__
+BDFDRIVR_H_
 *
 /
 /

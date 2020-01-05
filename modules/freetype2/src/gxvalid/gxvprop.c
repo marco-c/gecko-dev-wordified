@@ -112,8 +112,13 @@ body
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -2727,7 +2732,7 @@ GXV_LIMIT_CHECK
 ;
 version
 =
-FT_NEXT_ULONG
+FT_NEXT_LONG
 (
 p
 )

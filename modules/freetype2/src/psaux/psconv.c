@@ -109,11 +109,8 @@ body
 *
 Copyright
 2006
-2008
-2009
-2012
 -
-2013
+2016
 by
 *
 /
@@ -2585,6 +2582,9 @@ break
 ;
 c
 =
+(
+FT_UInt
+)
 ft_char_table
 [
 c
@@ -2594,9 +2594,6 @@ c
 ;
 if
 (
-(
-unsigned
-)
 c
 >
 =

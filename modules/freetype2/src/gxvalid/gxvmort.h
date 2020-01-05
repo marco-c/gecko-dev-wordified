@@ -114,8 +114,13 @@ specification
 *
 Copyright
 2004
-2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -501,10 +506,10 @@ Japan
 /
 #
 ifndef
-__GXVMORT_H__
+GXVMORT_H_
 #
 define
-__GXVMORT_H__
+GXVMORT_H_
 #
 include
 "
@@ -704,7 +709,7 @@ gxvalid
 endif
 /
 *
-__GXVMORT_H__
+GXVMORT_H_
 *
 /
 /

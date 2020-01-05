@@ -121,8 +121,13 @@ subtable
 *
 Copyright
 2005
-2007
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -1083,7 +1088,7 @@ optdata
 substitutionTable_num_lookupTables
 =
 (
-FT_Short
+FT_UShort
 )
 (
 markIndex
@@ -1108,7 +1113,7 @@ optdata
 substitutionTable_num_lookupTables
 =
 (
-FT_Short
+FT_UShort
 )
 (
 currentIndex

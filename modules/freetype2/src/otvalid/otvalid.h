@@ -110,7 +110,8 @@ only
 *
 Copyright
 2004
-2008
+-
+2016
 by
 *
 /
@@ -285,10 +286,10 @@ fully
 /
 #
 ifndef
-__OTVALID_H__
+OTVALID_H_
 #
 define
-__OTVALID_H__
+OTVALID_H_
 #
 include
 <
@@ -464,7 +465,7 @@ FT_END_HEADER
 endif
 /
 *
-__OTVALID_H__
+OTVALID_H_
 *
 /
 /

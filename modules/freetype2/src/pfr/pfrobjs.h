@@ -110,8 +110,8 @@ specification
 *
 Copyright
 2002
-2003
-2004
+-
+2016
 by
 *
 /
@@ -286,10 +286,10 @@ fully
 /
 #
 ifndef
-__PFROBJS_H__
+PFROBJS_H_
 #
 define
-__PFROBJS_H__
+PFROBJS_H_
 #
 include
 "
@@ -480,7 +480,7 @@ FT_END_HEADER
 endif
 /
 *
-__PFROBJS_H__
+PFROBJS_H_
 *
 /
 /

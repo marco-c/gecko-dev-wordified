@@ -112,9 +112,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2003
+2016
 by
 *
 /
@@ -289,10 +287,10 @@ fully
 /
 #
 ifndef
-__PSOBJS_H__
+PSOBJS_H_
 #
 define
-__PSOBJS_H__
+PSOBJS_H_
 #
 include
 <
@@ -683,7 +681,7 @@ idx
 void
 *
 object
-FT_PtrDist
+FT_UInt
 length
 )
 ;
@@ -1161,7 +1159,7 @@ FT_Byte
 bytes
 FT_Offset
 max_bytes
-FT_Long
+FT_ULong
 *
 pnum_bytes
 FT_Bool
@@ -2039,7 +2037,7 @@ FT_END_HEADER
 endif
 /
 *
-__PSOBJS_H__
+PSOBJS_H_
 *
 /
 /

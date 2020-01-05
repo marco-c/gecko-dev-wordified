@@ -114,7 +114,13 @@ specification
 *
 Copyright
 2005
+-
+2016
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -500,10 +506,10 @@ Japan
 /
 #
 ifndef
-__GXVMORX_H__
+GXVMORX_H_
 #
 define
-__GXVMORX_H__
+GXVMORX_H_
 #
 include
 "
@@ -602,7 +608,7 @@ gxvalid
 endif
 /
 *
-__GXVMORX_H__
+GXVMORX_H_
 *
 /
 /

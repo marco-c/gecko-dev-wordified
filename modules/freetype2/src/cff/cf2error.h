@@ -593,16 +593,16 @@ fully
 /
 #
 ifndef
-__CF2ERROR_H__
+CF2ERROR_H_
 #
 define
-__CF2ERROR_H__
+CF2ERROR_H_
 #
 include
 FT_MODULE_ERRORS_H
 #
 undef
-__FTERRORS_H__
+FTERRORS_H_
 #
 undef
 FT_ERR_PREFIX
@@ -771,7 +771,7 @@ the
 *
 error
 to
-propogate
+propagate
 and
 be
 handled
@@ -983,7 +983,7 @@ FT_END_HEADER
 endif
 /
 *
-__CF2ERROR_H__
+CF2ERROR_H_
 *
 /
 /

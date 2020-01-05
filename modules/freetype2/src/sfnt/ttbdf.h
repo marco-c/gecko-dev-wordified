@@ -112,6 +112,8 @@ specification
 *
 Copyright
 2005
+-
+2016
 by
 *
 /
@@ -286,10 +288,10 @@ fully
 /
 #
 ifndef
-__TTBDF_H__
+TTBDF_H_
 #
 define
-__TTBDF_H__
+TTBDF_H_
 #
 include
 <
@@ -340,7 +342,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTBDF_H__
+TTBDF_H_
 *
 /
 /

@@ -125,12 +125,7 @@ module
 Copyright
 2001
 -
-2004
-2006
-2010
-2012
--
-2014
+2016
 by
 *
 /
@@ -329,7 +324,7 @@ DEBUG_HINTER
 PSH_Globals
 ps_debug_globals
 =
-0
+NULL
 ;
 #
 endif
@@ -881,7 +876,7 @@ if
 *
 org_width
 is
-is
+in
 font
 units
 result
@@ -1831,7 +1826,7 @@ PSH_Blue_Table
 top_table
 bot_table
 ;
-FT_Int
+FT_UInt
 count_top
 count_bot
 ;
@@ -2324,9 +2319,9 @@ top
 if
 (
 delta
-<
+/
 2
-*
+<
 fuzz
 )
 zone
@@ -2456,7 +2451,7 @@ num
 PSH_Blue_Table
 table
 =
-0
+NULL
 ;
 /
 *
@@ -4178,7 +4173,7 @@ ifdef
 DEBUG_HINTER
 ps_debug_globals
 =
-0
+NULL
 ;
 #
 endif

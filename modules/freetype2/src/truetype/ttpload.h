@@ -112,10 +112,7 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2005
-2006
+2016
 by
 *
 /
@@ -290,10 +287,10 @@ fully
 /
 #
 ifndef
-__TTPLOAD_H__
+TTPLOAD_H_
 #
 define
-__TTPLOAD_H__
+TTPLOAD_H_
 #
 include
 <
@@ -420,7 +417,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTPLOAD_H__
+TTPLOAD_H_
 *
 /
 /

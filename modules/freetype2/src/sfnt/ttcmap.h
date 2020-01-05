@@ -115,9 +115,7 @@ specification
 Copyright
 2002
 -
-2005
-2009
-2012
+2016
 by
 *
 /
@@ -292,10 +290,10 @@ fully
 /
 #
 ifndef
-__TTCMAP_H__
+TTCMAP_H_
 #
 define
-__TTCMAP_H__
+TTCMAP_H_
 #
 include
 <
@@ -742,7 +740,7 @@ FT_END_HEADER
 endif
 /
 *
-__TTCMAP_H__
+TTCMAP_H_
 *
 /
 /

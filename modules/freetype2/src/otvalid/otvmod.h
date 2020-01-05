@@ -117,6 +117,8 @@ specification
 *
 Copyright
 2004
+-
+2016
 by
 *
 /
@@ -291,10 +293,10 @@ fully
 /
 #
 ifndef
-__OTVMOD_H__
+OTVMOD_H_
 #
 define
-__OTVMOD_H__
+OTVMOD_H_
 #
 include
 <
@@ -334,7 +336,7 @@ FT_END_HEADER
 endif
 /
 *
-__OTVMOD_H__
+OTVMOD_H_
 *
 /
 /

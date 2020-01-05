@@ -111,10 +111,8 @@ body
 *
 Copyright
 2002
-2003
-2006
-2007
-2012
+-
+2016
 by
 *
 /
@@ -685,6 +683,9 @@ cmap
 >
 num_glyphs
 =
+(
+FT_UInt
+)
 face
 -
 >
@@ -1509,6 +1510,9 @@ cmap
 >
 first
 =
+(
+FT_UInt
+)
 encoding
 -
 >
@@ -1522,7 +1526,6 @@ count
 (
 FT_UInt
 )
-(
 encoding
 -
 >
@@ -1532,7 +1535,6 @@ cmap
 -
 >
 first
-)
 ;
 cmap
 -
@@ -2222,6 +2224,9 @@ unicodes_init
 (
 memory
 unicodes
+(
+FT_UInt
+)
 face
 -
 >
