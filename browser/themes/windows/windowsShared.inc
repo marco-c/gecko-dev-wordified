@@ -95,11 +95,6 @@ define
 fgTabTextureLWT
 fgTabTexture
 %
-Aero
--
-only
-defines
-%
 define
 customToolbarColor
 hsl
