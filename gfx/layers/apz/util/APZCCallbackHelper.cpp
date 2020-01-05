@@ -3696,6 +3696,8 @@ aIgnoreRootScrollFrame
 unsigned
 short
 aInputSourceArg
+uint32_t
+aPointerId
 )
 {
 NS_ENSURE_TRUE
@@ -3732,6 +3734,7 @@ aModifiers
 aIgnoreRootScrollFrame
 0
 aInputSourceArg
+aPointerId
 false
 &
 defaultPrevented

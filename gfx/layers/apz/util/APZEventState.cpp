@@ -1286,6 +1286,17 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
+0
+/
+*
+Use
+the
+default
+value
+here
+.
+*
+/
 )
 ;
 APZES_LOG

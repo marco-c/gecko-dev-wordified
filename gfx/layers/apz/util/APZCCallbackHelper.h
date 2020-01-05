@@ -944,6 +944,8 @@ aIgnoreRootScrollFrame
 unsigned
 short
 aInputSourceArg
+uint32_t
+aPointerId
 )
 ;
 /

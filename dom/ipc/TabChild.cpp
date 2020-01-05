@@ -8616,6 +8616,17 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN
+0
+/
+*
+Use
+the
+default
+value
+here
+.
+*
+/
 )
 ;
 return
