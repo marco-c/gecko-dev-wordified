@@ -261,7 +261,7 @@ h
 #
 include
 "
-nsString
+nsHtml5String
 .
 h
 "
@@ -446,12 +446,10 @@ int32_t
 >
 strBuf
 ;
-nsString
-*
+nsHtml5String
 content
 ;
-nsString
-*
+nsHtml5String
 charset
 ;
 int32_t
@@ -557,8 +555,7 @@ protected
 bool
 tryCharset
 (
-nsString
-*
+nsHtml5String
 encoding
 )
 ;

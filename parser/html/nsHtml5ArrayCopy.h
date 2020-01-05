@@ -363,12 +363,10 @@ inline
 void
 arraycopy
 (
-nsString
-*
+nsHtml5String
 *
 source
-nsString
-*
+nsHtml5String
 *
 target
 int32_t
@@ -386,8 +384,7 @@ length
 *
 sizeof
 (
-nsString
-*
+nsHtml5String
 )
 )
 ;

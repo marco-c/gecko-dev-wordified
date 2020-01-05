@@ -651,8 +651,7 @@ charset
 bool
 internalEncodingDeclaration
 (
-nsString
-*
+nsHtml5String
 aEncoding
 )
 ;

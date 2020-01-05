@@ -261,7 +261,7 @@ h
 #
 include
 "
-nsString
+nsHtml5String
 .
 h
 "
@@ -397,8 +397,7 @@ names
 ;
 autoJArray
 <
-nsString
-*
+nsHtml5String
 int32_t
 >
 values
@@ -432,8 +431,7 @@ nsHtml5AttributeName
 name
 )
 ;
-nsString
-*
+nsHtml5String
 getValue
 (
 nsHtml5AttributeName
@@ -469,8 +467,7 @@ int32_t
 index
 )
 ;
-nsString
-*
+nsHtml5String
 getValueNoBoundsCheck
 (
 int32_t
@@ -498,8 +495,7 @@ addAttribute
 nsHtml5AttributeName
 *
 name
-nsString
-*
+nsHtml5String
 value
 int32_t
 line
