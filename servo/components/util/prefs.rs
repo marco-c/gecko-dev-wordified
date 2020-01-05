@@ -278,9 +278,9 @@ bool
 >
 {
 match
+*
 self
 {
-&
 PrefValue
 :
 :
@@ -556,9 +556,9 @@ PrefValue
 >
 {
 match
+*
 self
 {
-&
 Pref
 :
 :
@@ -570,7 +570,6 @@ x
 =
 >
 x
-&
 Pref
 :
 :
@@ -585,9 +584,9 @@ override_value
 >
 {
 match
+*
 override_value
 {
-&
 Some
 (
 ref
@@ -596,7 +595,6 @@ x
 =
 >
 x
-&
 None
 =
 >
@@ -643,10 +641,9 @@ a
 different
 type
 match
+*
 self
 {
-&
-mut
 Pref
 :
 :
@@ -670,8 +667,6 @@ new
 value
 )
 }
-&
-mut
 Pref
 :
 :

@@ -2292,7 +2292,6 @@ counter_style
 >
 {
 let
-mut
 temporary_counter
 =
 Counter
@@ -2321,7 +2320,6 @@ counter_name
 unwrap_or
 (
 &
-mut
 temporary_counter
 )
 ;
@@ -2381,7 +2379,6 @@ counter_style
 >
 {
 let
-mut
 temporary_counter
 =
 Counter
@@ -2410,7 +2407,6 @@ counter_name
 unwrap_or
 (
 &
-mut
 temporary_counter
 )
 ;

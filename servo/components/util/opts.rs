@@ -1811,16 +1811,10 @@ DebugOptions
 pub
 fn
 new
-<
-'
-a
->
 (
 debug_string
 :
 &
-'
-a
 str
 )
 -
@@ -1829,8 +1823,6 @@ Result
 <
 DebugOptions
 &
-'
-a
 str
 >
 {

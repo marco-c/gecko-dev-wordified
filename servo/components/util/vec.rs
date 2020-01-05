@@ -519,9 +519,7 @@ mid
 )
 }
 }
-return
 None
-;
 }
 }
 struct

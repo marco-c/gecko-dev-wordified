@@ -498,7 +498,5 @@ end_energy
 )
 )
 ;
-return
 val
-;
 }
