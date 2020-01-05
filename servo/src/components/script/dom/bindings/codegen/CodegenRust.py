@@ -8351,8 +8351,14 @@ holderType
 =
 None
         
+initialValue
+=
+None
+        
 if
 argIsPointer
+or
+isOptional
 :
             
 declType
@@ -8366,6 +8372,12 @@ typePtr
 +
 "
 >
+"
+            
+initialValue
+=
+"
+None
 "
         
 else
@@ -8779,7 +8791,7 @@ templateBody
 declType
 holderType
 isOptional
-None
+initialValue
 )
     
 if
