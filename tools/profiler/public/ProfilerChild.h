@@ -336,13 +336,10 @@ ipc
 IPCResult
 RecvGatherProfile
 (
-RefPtr
-<
-GatherProfilePromise
->
+GatherProfileResolver
 &
 &
-aPromise
+aResolve
 )
 override
 ;
