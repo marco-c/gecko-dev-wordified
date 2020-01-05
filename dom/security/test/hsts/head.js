@@ -2697,6 +2697,7 @@ for
 it
 to
 finish
+async
 function
 execute_test
 (
@@ -2761,7 +2762,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -2769,7 +2770,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
