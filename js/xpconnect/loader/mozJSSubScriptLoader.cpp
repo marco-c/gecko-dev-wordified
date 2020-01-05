@@ -632,11 +632,6 @@ mozJSSubScriptLoader
 mozJSSubScriptLoader
 (
 )
-:
-mSystemPrincipal
-(
-nullptr
-)
 {
 }
 mozJSSubScriptLoader
@@ -647,11 +642,6 @@ mozJSSubScriptLoader
 (
 )
 {
-/
-*
-empty
-*
-/
 }
 NS_IMPL_ISUPPORTS
 (
