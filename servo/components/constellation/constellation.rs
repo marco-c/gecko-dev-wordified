@@ -126,7 +126,7 @@ use
 bluetooth_traits
 :
 :
-BluetoothMethodMsg
+BluetoothRequest
 ;
 use
 canvas
@@ -975,7 +975,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 /
 /
@@ -1476,7 +1476,7 @@ bluetooth_thread
 :
 IpcSender
 <
-BluetoothMethodMsg
+BluetoothRequest
 >
 /
 /
@@ -8044,7 +8044,7 @@ bluetooth_thread
 .
 send
 (
-BluetoothMethodMsg
+BluetoothRequest
 :
 :
 Exit
