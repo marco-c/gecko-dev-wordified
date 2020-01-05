@@ -2741,6 +2741,25 @@ Profile
 kwargs
 )
         
+options
+.
+extraProfileFiles
+.
+append
+(
+os
+.
+path
+.
+join
+(
+here
+'
+chrome
+'
+)
+)
+        
 self
 .
 copyExtraFilesToProfile
