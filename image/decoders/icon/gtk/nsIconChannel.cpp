@@ -1107,8 +1107,6 @@ return
 size
 ;
 }
-else
-{
 int
 size
 ;
@@ -1135,7 +1133,6 @@ nullptr
 return
 size
 ;
-}
 }
 /
 *

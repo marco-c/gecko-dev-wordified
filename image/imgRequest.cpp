@@ -1036,8 +1036,6 @@ GetProgressTracker
 )
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 mProgressTracker
@@ -1072,7 +1070,6 @@ forget
 (
 )
 ;
-}
 }
 void
 imgRequest

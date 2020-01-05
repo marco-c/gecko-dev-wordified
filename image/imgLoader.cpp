@@ -3948,7 +3948,6 @@ return
 false
 ;
 }
-else
 if
 (
 request
@@ -7722,14 +7721,11 @@ ClearChromeImageCache
 )
 ;
 }
-else
-{
 return
 ClearImageCache
 (
 )
 ;
-}
 }
 NS_IMETHODIMP
 imgLoader
@@ -9318,8 +9314,6 @@ rv
 )
 ;
 }
-else
-{
 /
 /
 We
@@ -9700,7 +9694,6 @@ aProxyRequest
 return
 true
 ;
-}
 }
 bool
 imgLoader
@@ -10731,12 +10724,9 @@ return
 true
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 bool
 imgLoader
