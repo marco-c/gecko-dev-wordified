@@ -214,15 +214,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
 <
 psapi
 .

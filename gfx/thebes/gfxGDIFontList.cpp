@@ -247,15 +247,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
 <
 usp10
 .

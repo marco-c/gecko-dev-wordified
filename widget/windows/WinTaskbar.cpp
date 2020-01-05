@@ -267,15 +267,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
 <
 io
 .
