@@ -333,6 +333,12 @@ int64_t
 progressMax
 )
 :
+Runnable
+(
+"
+nsTransportStatusEvent
+"
+)
 mProxy
 (
 proxy
