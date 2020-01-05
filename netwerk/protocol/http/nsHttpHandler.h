@@ -194,6 +194,9 @@ class
 nsIStreamConverterService
 ;
 class
+nsIThrottlingService
+;
+class
 nsITimer
 ;
 class
@@ -1676,6 +1679,12 @@ GetSSService
 (
 )
 ;
+nsIThrottlingService
+*
+GetThrottlingService
+(
+)
+;
 /
 /
 callable
@@ -2307,6 +2316,12 @@ nsMainThreadPtrHandle
 nsISiteSecurityService
 >
 mSSService
+;
+nsMainThreadPtrHandle
+<
+nsIThrottlingService
+>
+mThrottlingService
 ;
 /
 /
