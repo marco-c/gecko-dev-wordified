@@ -111,7 +111,7 @@ HTMLTableCellElement
 {
 pub
 fn
-new
+new_inherited
 (
 type_id
 :
