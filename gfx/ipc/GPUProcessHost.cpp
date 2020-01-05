@@ -764,6 +764,9 @@ mShutdownRequested
 =
 true
 ;
+#
+ifdef
+NS_FREE_PERMANENT_DATA
 /
 /
 The
@@ -793,8 +796,7 @@ Close
 ;
 }
 #
-ifndef
-NS_FREE_PERMANENT_DATA
+else
 /
 /
 No
