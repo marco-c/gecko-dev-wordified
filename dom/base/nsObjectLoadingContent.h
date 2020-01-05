@@ -3357,6 +3357,13 @@ MakePluginListener
 (
 )
 ;
+void
+SetupFrameLoader
+(
+int32_t
+aJSPluginId
+)
+;
 /
 *
 *
@@ -3400,7 +3407,7 @@ already_AddRefed
 <
 nsIDocShell
 >
-SetupFrameLoader
+SetupDocShell
 (
 nsIURI
 *

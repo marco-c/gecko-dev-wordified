@@ -202,6 +202,11 @@ ContentBridgeParent
 ContentBridgeParent
 (
 )
+:
+mIsForJSPlugin
+(
+false
+)
 {
 }
 ContentBridgeParent

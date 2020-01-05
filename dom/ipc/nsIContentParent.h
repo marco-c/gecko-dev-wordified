@@ -344,6 +344,15 @@ const
 0
 ;
 virtual
+bool
+IsForJSPlugin
+(
+)
+const
+=
+0
+;
+virtual
 mozilla
 :
 :
