@@ -85,6 +85,14 @@ int_uint
 [
 feature
 (
+io
+)
+]
+#
+!
+[
+feature
+(
 old_io
 )
 ]
