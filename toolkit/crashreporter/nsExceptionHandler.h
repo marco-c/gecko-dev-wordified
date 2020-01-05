@@ -714,6 +714,15 @@ AnnotationTable
 data
 )
 ;
+void
+RunMinidumpAnalyzer
+(
+const
+nsAString
+&
+id
+)
+;
 /
 *
 *
