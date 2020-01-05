@@ -1831,6 +1831,17 @@ raw
 c_void
 )
 {
+debug
+!
+(
+"
+tracing
+live
+refcounted
+references
+"
+)
+;
 LIVE_REFERENCES
 .
 with
@@ -1900,7 +1911,7 @@ trace_reflector
 (
 tracer
 "
-LIVE_REFERENCES
+refcounted
 "
 reflectable
 )

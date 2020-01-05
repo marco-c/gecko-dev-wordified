@@ -179,6 +179,14 @@ slice_patterns
 #
 !
 [
+feature
+(
+stmt_expr_attributes
+)
+]
+#
+!
+[
 deny
 (
 unsafe_code
