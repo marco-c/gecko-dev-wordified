@@ -4539,6 +4539,13 @@ aarch64
 )
 )
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 transmute_entry_buffer_to_u32_buffer
 (
