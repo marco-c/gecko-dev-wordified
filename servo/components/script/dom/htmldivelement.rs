@@ -117,6 +117,12 @@ node
 Node
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -145,7 +151,7 @@ new_inherited
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -189,7 +195,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option

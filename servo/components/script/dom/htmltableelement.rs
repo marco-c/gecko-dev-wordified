@@ -298,7 +298,7 @@ new_inherited
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -369,7 +369,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -691,10 +691,8 @@ HTMLTableCaptionElement
 :
 new
 (
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 caption
@@ -839,10 +837,8 @@ HTMLTableSectionElement
 :
 new
 (
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 tbody

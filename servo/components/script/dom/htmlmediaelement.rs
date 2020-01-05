@@ -75,6 +75,12 @@ htmlelement
 HTMLElement
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -104,7 +110,7 @@ new_inherited
 (
 tag_name
 :
-DOMString
+Atom
 prefix
 :
 Option
