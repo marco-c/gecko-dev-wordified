@@ -169,6 +169,12 @@ FileSystemEntry
 aEntries
 )
 :
+Runnable
+(
+"
+EntriesCallbackRunnable
+"
+)
 mCallback
 (
 aCallback
