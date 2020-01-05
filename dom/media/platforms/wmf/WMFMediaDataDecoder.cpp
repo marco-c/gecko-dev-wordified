@@ -769,6 +769,10 @@ __func__
 )
 ;
 }
+mDrained
+=
+false
+;
 mLastStreamOffset
 =
 aSample
@@ -1080,6 +1084,9 @@ if
 (
 !
 mMFTManager
+|
+|
+mDrained
 )
 {
 return
@@ -1136,6 +1143,10 @@ __func__
 ProcessOutput
 (
 )
+;
+mDrained
+=
+true
 ;
 return
 p
