@@ -6676,6 +6676,10 @@ if
 mHasSize
 )
 {
+mWantFullDecode
+=
+true
+;
 return
 NS_OK
 ;
