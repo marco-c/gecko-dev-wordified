@@ -8597,6 +8597,9 @@ const
 uint64_t
 &
 aPipelineId
+TextureFactoryIdentifier
+*
+aTextureFactoryIdentifier
 )
 {
 #
@@ -8752,6 +8755,16 @@ aPipelineId
 mWRBridge
 =
 mWRBridge
+;
+*
+aTextureFactoryIdentifier
+=
+mCompositor
+-
+>
+GetTextureFactoryIdentifier
+(
+)
 ;
 return
 mWRBridge
