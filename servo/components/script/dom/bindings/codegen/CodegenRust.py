@@ -15945,10 +15945,30 @@ definition_body
 (
 )
         
+#
+Method
+will
+already
+be
+marked
+unsafe
+if
+self
+.
+extern
+=
+=
+True
+        
 if
 self
 .
 unsafe
+and
+not
+self
+.
+extern
 :
             
 body
