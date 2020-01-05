@@ -1981,9 +1981,10 @@ in
 *
 sync
 with
-nsDownloadManager
+DownloadIntegration
 .
-cpp
+jsm
+.
 *
 *
 Optionally
@@ -16525,9 +16526,11 @@ as
 originally
 downloaded
 so
-nsDownload
+the
+download
 can
-rename
+be
+renamed
 in
 place
 /
