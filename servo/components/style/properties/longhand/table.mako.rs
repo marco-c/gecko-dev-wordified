@@ -110,9 +110,11 @@ gecko_ffi_name
 "
 mLayoutStrategy
 "
-animatable
+animation_type
 =
-False
+"
+none
+"
 spec
 =
 "
@@ -173,10 +175,10 @@ pres
 attr
 )
 "
-animatable
+animation_type
 =
 "
-False
+none
 "
 internal
 =

@@ -234,9 +234,11 @@ s
 needs_context
 =
 False
-animatable
+animation_type
 =
-True
+"
+normal
+"
 logical
 =
 side
