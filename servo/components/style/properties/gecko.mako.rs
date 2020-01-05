@@ -27361,7 +27361,9 @@ mInitialLetterSize
 =
 size
 .
-value
+get
+(
+)
 ;
 if
 let
@@ -27395,7 +27397,9 @@ mInitialLetterSink
 =
 size
 .
-value
+get
+(
+)
 .
 floor
 (
