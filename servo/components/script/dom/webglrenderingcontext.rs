@@ -654,13 +654,6 @@ CONVERT_COLORSPACE
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 WebGLRenderingContext

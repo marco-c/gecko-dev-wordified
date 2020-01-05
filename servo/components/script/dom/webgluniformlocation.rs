@@ -141,13 +141,6 @@ reflect_dom_object
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 WebGLUniformLocation

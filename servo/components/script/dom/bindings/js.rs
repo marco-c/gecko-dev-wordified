@@ -1578,6 +1578,13 @@ derive
 JSTraceable
 )
 ]
+#
+[
+derive
+(
+HeapSizeOf
+)
+]
 pub
 struct
 MutHeap

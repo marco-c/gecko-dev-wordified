@@ -184,13 +184,6 @@ Heading6
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 HTMLHeadingElement

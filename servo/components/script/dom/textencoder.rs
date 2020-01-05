@@ -252,13 +252,6 @@ uint8_t
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 TextEncoder

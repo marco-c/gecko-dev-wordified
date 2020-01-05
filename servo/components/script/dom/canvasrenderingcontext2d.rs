@@ -630,13 +630,6 @@ canvasrenderingcontext2d
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 CanvasRenderingContext2D

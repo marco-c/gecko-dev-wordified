@@ -833,13 +833,6 @@ attr
 [
 dom_struct
 ]
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 Attr
