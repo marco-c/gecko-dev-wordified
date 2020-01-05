@@ -72,6 +72,10 @@ distutils
 spawn
 import
 find_executable
+from
+pipes
+import
+quote
 SEARCH_PATHS
 =
 [
@@ -854,7 +858,10 @@ dict
 (
 __file__
 =
+quote
+(
 activate_path
+)
 )
 )
     
