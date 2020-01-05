@@ -1167,6 +1167,17 @@ unimplemented
 )
 }
 fn
+dump_style
+(
+self
+)
+{
+unimplemented
+!
+(
+)
+}
+fn
 opaque
 (
 &
