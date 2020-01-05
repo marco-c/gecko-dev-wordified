@@ -40650,9 +40650,10 @@ childStatus
 ;
 MOZ_ASSERT
 (
-NS_INLINE_IS_BREAK_BEFORE
-(
 childStatus
+.
+IsInlineBreakBefore
+(
 )
 |
 |
@@ -40685,9 +40686,10 @@ NIFs
 ;
 if
 (
-NS_INLINE_IS_BREAK_BEFORE
-(
 childStatus
+.
+IsInlineBreakBefore
+(
 )
 )
 {
@@ -40718,7 +40720,9 @@ aFragmentainer
 mIsTopOfPage
 "
 got
-NS_INLINE_IS_BREAK_BEFORE
+IsInlineBreakBefore
+(
+)
 at
 top
 of

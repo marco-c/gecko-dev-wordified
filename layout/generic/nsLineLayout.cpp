@@ -7255,9 +7255,10 @@ time
 if
 (
 !
-NS_INLINE_IS_BREAK_BEFORE
-(
 aReflowStatus
+.
+IsInlineBreakBefore
+(
 )
 )
 {
@@ -7622,9 +7623,10 @@ reflowOutput
 if
 (
 !
-NS_INLINE_IS_BREAK_BEFORE
-(
 aReflowStatus
+.
+IsInlineBreakBefore
+(
 )
 )
 {
