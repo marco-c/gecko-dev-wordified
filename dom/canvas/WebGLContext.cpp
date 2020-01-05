@@ -5807,6 +5807,12 @@ mWidth
 mHeight
 )
 ;
+mViewportX
+=
+mViewportY
+=
+0
+;
 mViewportWidth
 =
 mWidth
