@@ -104,12 +104,6 @@ FragmentBorderBoxIterator
 }
 ;
 use
-wrapper
-:
-:
-ThreadSafeLayoutNode
-;
-use
 euclid
 :
 :
@@ -182,12 +176,8 @@ TableCaptionFlow
 {
 pub
 fn
-from_node_and_fragment
+from_fragment
 (
-node
-:
-&
-ThreadSafeLayoutNode
 fragment
 :
 Fragment
@@ -203,9 +193,8 @@ block_flow
 BlockFlow
 :
 :
-from_node_and_fragment
+from_fragment
 (
-node
 fragment
 None
 )
