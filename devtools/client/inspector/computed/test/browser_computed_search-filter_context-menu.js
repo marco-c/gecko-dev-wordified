@@ -533,9 +533,10 @@ menu
 ;
 searchField
 .
-value
-=
+setUserInput
+(
 TEST_INPUT
+)
 ;
 searchField
 .
