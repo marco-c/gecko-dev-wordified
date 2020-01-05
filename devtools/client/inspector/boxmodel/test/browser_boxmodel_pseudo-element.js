@@ -63,7 +63,7 @@ right
 values
 for
 a
-pseduo
+pseudo
 -
 element
 .
@@ -293,9 +293,7 @@ span
 "
 value
 :
-"
-auto
-"
+0
 }
 {
 selector
@@ -333,9 +331,7 @@ span
 "
 value
 :
-"
-auto
-"
+0
 }
 {
 selector
