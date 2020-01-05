@@ -70,14 +70,8 @@ test
 feature
 (
 core_intrinsics
-)
-]
-#
-!
-[
-feature
-(
 plugin
+test
 )
 ]
 extern
@@ -125,6 +119,10 @@ parking_lot
 ;
 extern
 crate
+rayon
+;
+extern
+crate
 rustc_serialize
 ;
 extern
@@ -155,6 +153,10 @@ extern
 crate
 style_traits
 ;
+extern
+crate
+test
+;
 mod
 atomic_refcell
 ;
@@ -178,6 +180,9 @@ parsing
 ;
 mod
 properties
+;
+mod
+rule_tree
 ;
 mod
 str
