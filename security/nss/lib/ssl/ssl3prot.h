@@ -556,6 +556,15 @@ bad_certificate_hash_value
 no_application_protocol
 =
 120
+/
+*
+invalid
+alert
+*
+/
+no_alert
+=
+256
 }
 SSL3AlertDescription
 ;
@@ -1048,7 +1057,7 @@ message
 typedef
 struct
 {
-PRUint32
+PRTime
 received_timestamp
 ;
 PRUint32

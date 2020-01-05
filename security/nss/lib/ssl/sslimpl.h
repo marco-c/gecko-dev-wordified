@@ -11590,6 +11590,16 @@ void
 )
 ;
 extern
+PRBool
+ssl_TicketTimeValid
+(
+const
+NewSessionTicket
+*
+ticket
+)
+;
+extern
 void
 SSL_AtomicIncrementLong
 (
