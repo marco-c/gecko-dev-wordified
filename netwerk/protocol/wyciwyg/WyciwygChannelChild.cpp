@@ -823,7 +823,7 @@ class
 WyciwygStartRequestEvent
 :
 public
-ChannelEvent
+MainThreadChannelEvent
 {
 public
 :
@@ -1102,7 +1102,7 @@ class
 WyciwygDataAvailableEvent
 :
 public
-ChannelEvent
+MainThreadChannelEvent
 {
 public
 :
@@ -1436,7 +1436,7 @@ class
 WyciwygStopRequestEvent
 :
 public
-ChannelEvent
+MainThreadChannelEvent
 {
 public
 :
@@ -1671,7 +1671,7 @@ class
 WyciwygCancelEvent
 :
 public
-ChannelEvent
+MainThreadChannelEvent
 {
 public
 :
