@@ -536,13 +536,6 @@ BasicDisplayItemLayer
 this
 )
 ;
-mDisplayItemLayers
-.
-AppendElement
-(
-layer
-)
-;
 return
 layer
 .
