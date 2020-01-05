@@ -12261,6 +12261,9 @@ auto
 &
 legacyTimeZone
 :
+js
+:
+:
 timezone
 :
 :
