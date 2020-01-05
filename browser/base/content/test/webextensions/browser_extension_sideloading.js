@@ -528,7 +528,7 @@ permissions
 history
 "
 ]
-hosts
+origins
 :
 [
 "
@@ -589,7 +589,7 @@ permissions
 :
 [
 ]
-hosts
+origins
 :
 [
 ]
@@ -641,7 +641,7 @@ permissions
 :
 [
 ]
-hosts
+origins
 :
 [
 "
@@ -698,7 +698,7 @@ permissions
 :
 [
 ]
-hosts
+origins
 :
 [
 "
