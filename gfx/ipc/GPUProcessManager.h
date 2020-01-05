@@ -1160,6 +1160,11 @@ DestroyProcess
 )
 ;
 void
+HandleProcessLost
+(
+)
+;
+void
 EnsureVsyncIOThread
 (
 )
@@ -1296,6 +1301,12 @@ GPUProcessListener
 *
 >
 mListeners
+;
+uint32_t
+mDeviceResetCount
+;
+TimeStamp
+mDeviceResetLastTime
 ;
 /
 /
