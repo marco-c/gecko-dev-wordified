@@ -247,6 +247,17 @@ nsCycleCollectionParticipant
 {
 public
 :
+constexpr
+JSGCThingParticipant
+(
+)
+:
+nsCycleCollectionParticipant
+(
+false
+)
+{
+}
 NS_IMETHOD_
 (
 void
@@ -401,6 +412,7 @@ JSZoneParticipant
 :
 nsCycleCollectionParticipant
 (
+false
 )
 {
 }
