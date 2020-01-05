@@ -493,18 +493,14 @@ h
 #
 include
 "
-nsURIHashKey
+nsScriptLoader
 .
 h
 "
 #
 include
 "
-mozilla
-/
-dom
-/
-ScriptLoader
+nsURIHashKey
 .
 h
 "
@@ -1505,7 +1501,7 @@ list
 void
 AddBlockedScriptLoader
 (
-ScriptLoader
+nsScriptLoader
 *
 aScriptLoader
 )
@@ -1513,7 +1509,7 @@ aScriptLoader
 bool
 RemoveBlockedScriptLoader
 (
-ScriptLoader
+nsScriptLoader
 *
 aScriptLoader
 )
@@ -1802,7 +1798,7 @@ nsTArray
 <
 RefPtr
 <
-ScriptLoader
+nsScriptLoader
 >
 >
 mBlockedScriptLoaders

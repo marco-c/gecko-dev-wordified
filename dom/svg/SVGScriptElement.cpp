@@ -427,7 +427,7 @@ SVGScriptElementBase
 (
 aNodeInfo
 )
-ScriptElement
+nsScriptElement
 (
 aFromParser
 )
@@ -1463,7 +1463,7 @@ true
 -
 /
 /
-ScriptElement
+nsScriptElement
 methods
 bool
 SVGScriptElement

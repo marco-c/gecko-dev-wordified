@@ -117,14 +117,7 @@ MPL
 #
 include
 "
-ScriptElement
-.
-h
-"
-#
-include
-"
-ScriptLoader
+nsScriptElement
 .
 h
 "
@@ -174,6 +167,13 @@ h
 #
 include
 "
+nsScriptLoader
+.
+h
+"
+#
+include
+"
 nsIParser
 .
 h
@@ -204,7 +204,7 @@ mozilla
 dom
 ;
 NS_IMETHODIMP
-ScriptElement
+nsScriptElement
 :
 :
 ScriptAvailable
@@ -293,7 +293,7 @@ virtual
 *
 /
 nsresult
-ScriptElement
+nsScriptElement
 :
 :
 FireErrorEvent
@@ -350,7 +350,7 @@ cancelable
 ;
 }
 NS_IMETHODIMP
-ScriptElement
+nsScriptElement
 :
 :
 ScriptEvaluated
@@ -470,7 +470,7 @@ rv
 ;
 }
 void
-ScriptElement
+nsScriptElement
 :
 :
 CharacterDataChanged
@@ -492,7 +492,7 @@ MaybeProcessScript
 ;
 }
 void
-ScriptElement
+nsScriptElement
 :
 :
 AttributeChanged
@@ -522,7 +522,7 @@ MaybeProcessScript
 ;
 }
 void
-ScriptElement
+nsScriptElement
 :
 :
 ContentAppended
@@ -546,7 +546,7 @@ MaybeProcessScript
 ;
 }
 void
-ScriptElement
+nsScriptElement
 :
 :
 ContentInserted
@@ -570,7 +570,7 @@ MaybeProcessScript
 ;
 }
 bool
-ScriptElement
+nsScriptElement
 :
 :
 MaybeProcessScript
@@ -756,7 +756,7 @@ false
 }
 RefPtr
 <
-ScriptLoader
+nsScriptLoader
 >
 loader
 =

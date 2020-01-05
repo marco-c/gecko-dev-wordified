@@ -5009,7 +5009,7 @@ and
 the
 impl
 in
-ScriptLoader
+nsScriptLoader
 ignores
 the
 /

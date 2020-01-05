@@ -11423,10 +11423,7 @@ mScopeObject
 mScriptLoader
 =
 new
-dom
-:
-:
-ScriptLoader
+nsScriptLoader
 (
 this
 )
@@ -28409,7 +28406,7 @@ return
 win
 ;
 }
-ScriptLoader
+nsScriptLoader
 *
 nsDocument
 :
