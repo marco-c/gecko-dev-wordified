@@ -209,7 +209,7 @@ spawn_css_parser
 }
 ;
 use
-script_task
+page
 :
 :
 Page
