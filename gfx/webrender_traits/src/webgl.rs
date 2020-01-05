@@ -6182,8 +6182,6 @@ gl
 :
 ACTIVE_TEXTURE
 |
-/
-/
 gl
 :
 :
@@ -6219,8 +6217,6 @@ gl
 :
 BLEND_SRC_RGB
 |
-/
-/
 gl
 :
 :
@@ -6231,8 +6227,6 @@ gl
 :
 CULL_FACE_MODE
 |
-/
-/
 gl
 :
 :
@@ -6255,8 +6249,6 @@ gl
 :
 GENERATE_MIPMAP_HINT
 |
-/
-/
 gl
 :
 :
@@ -6337,8 +6329,6 @@ gl
 :
 PACK_ALIGNMENT
 |
-/
-/
 gl
 :
 :
@@ -6389,8 +6379,6 @@ gl
 :
 STENCIL_BACK_WRITEMASK
 |
-/
-/
 gl
 :
 :
