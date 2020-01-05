@@ -1238,7 +1238,7 @@ JSContext
 *
 cx
 ;
-TokenStream
+TokenStreamAnyChars
 *
 tokenStream
 ;
@@ -1608,7 +1608,7 @@ true
 void
 setTokenStream
 (
-TokenStream
+TokenStreamAnyChars
 *
 ts
 )
