@@ -141,10 +141,13 @@ geometry
 Au
 ;
 use
-servo_util
+std
 :
 :
-geometry
+cmp
+:
+:
+max
 ;
 use
 std
@@ -1363,9 +1366,6 @@ intrinsic_inline_sizes
 .
 preferred_inline_size
 =
-geometry
-:
-:
 max
 (
 min_inline_size

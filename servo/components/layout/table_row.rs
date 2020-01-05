@@ -148,10 +148,13 @@ geometry
 Au
 ;
 use
-servo_util
+std
 :
 :
-geometry
+cmp
+:
+:
+max
 ;
 use
 std
@@ -653,9 +656,6 @@ specified_or_zero
 ;
 max_y
 =
-geometry
-:
-:
 max
 (
 max_y
@@ -694,9 +694,6 @@ cur_y
 ;
 max_y
 =
-geometry
-:
-:
 max
 (
 max_y
@@ -761,9 +758,6 @@ value
 )
 =
 >
-geometry
-:
-:
 max
 (
 value
@@ -1490,9 +1484,6 @@ intrinsic_inline_sizes
 .
 preferred_inline_size
 =
-geometry
-:
-:
 max
 (
 min_inline_size
