@@ -171,6 +171,7 @@ each
 thread
 .
 extern
+MOZ_EXPORT
 int
 gSeccompTsyncBroadcastSignum
 ;

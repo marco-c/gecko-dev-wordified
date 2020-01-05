@@ -576,6 +576,7 @@ on
 each
 thread
 .
+MOZ_EXPORT
 int
 gSeccompTsyncBroadcastSignum
 =
