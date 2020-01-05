@@ -901,13 +901,6 @@ GamepadEventChannelChild
 >
 mChannelChildren
 ;
-gfx
-:
-:
-VRManagerChild
-*
-mVRChannelChild
-;
 private
 :
 nsresult
