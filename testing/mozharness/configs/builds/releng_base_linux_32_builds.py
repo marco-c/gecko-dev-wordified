@@ -625,7 +625,22 @@ data
 min_scm_level
 '
 :
-1
+2
+'
+default
+'
+:
+'
+try
+-
+build
+-
+has
+-
+no
+-
+secrets
+'
 }
         
 {
