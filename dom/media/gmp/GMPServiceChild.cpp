@@ -2535,6 +2535,13 @@ HaveContentParents
 )
 {
 mServiceChild
+-
+>
+Close
+(
+)
+;
+mServiceChild
 =
 nullptr
 ;
