@@ -99,6 +99,11 @@ to
 those
 terms
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 sys
 import
@@ -250,6 +255,8 @@ difference
 human_readable_difference
 =
 "
+\
+n
 "
 .
 join
@@ -273,6 +280,8 @@ symbols
 in
 binary
 :
+\
+n
 {
 0
 }
