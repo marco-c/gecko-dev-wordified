@@ -13,12 +13,6 @@ Parent
 .
 *
 /
-/
-*
-global
-FormAutofillParent
-*
-/
 "
 use
 strict
