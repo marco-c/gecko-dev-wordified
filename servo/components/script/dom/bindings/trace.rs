@@ -979,6 +979,12 @@ DOMString
 LengthOrPercentageOrAuto
 }
 ;
+use
+uuid
+:
+:
+Uuid
+;
 /
 /
 /
@@ -2091,6 +2097,7 @@ f64
 String
 Url
 AtomicBool
+Uuid
 )
 ;
 no_jsmanaged_fields

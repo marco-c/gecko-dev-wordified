@@ -422,7 +422,7 @@ sizeof_checker
 (
 size_node
 Node
-176
+160
 )
 ;
 sizeof_checker
@@ -430,7 +430,7 @@ sizeof_checker
 (
 size_element
 Element
-320
+304
 )
 ;
 sizeof_checker
@@ -438,7 +438,7 @@ sizeof_checker
 (
 size_htmlelement
 HTMLElement
-336
+320
 )
 ;
 sizeof_checker
@@ -446,7 +446,7 @@ sizeof_checker
 (
 size_div
 HTMLDivElement
-336
+320
 )
 ;
 sizeof_checker
@@ -454,7 +454,7 @@ sizeof_checker
 (
 size_span
 HTMLSpanElement
-336
+320
 )
 ;
 sizeof_checker
@@ -462,7 +462,7 @@ sizeof_checker
 (
 size_text
 Text
-208
+192
 )
 ;
 sizeof_checker
@@ -470,6 +470,6 @@ sizeof_checker
 (
 size_characterdata
 CharacterData
-208
+192
 )
 ;
