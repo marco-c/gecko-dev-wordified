@@ -165,7 +165,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 util

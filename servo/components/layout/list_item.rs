@@ -230,7 +230,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 text

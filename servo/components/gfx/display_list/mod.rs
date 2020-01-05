@@ -501,7 +501,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 style_traits

@@ -209,7 +209,8 @@ properties
 :
 :
 {
-INITIAL_VALUES
+INITIAL_SERVO_VALUES
+TComputedValues
 get_writing_mode
 }
 ;
@@ -227,7 +228,7 @@ assert_eq
 (
 get_writing_mode
 (
-INITIAL_VALUES
+INITIAL_SERVO_VALUES
 .
 get_inheritedbox
 (

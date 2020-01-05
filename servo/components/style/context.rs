@@ -96,6 +96,12 @@ StyleSharingCandidateCache
 }
 ;
 use
+properties
+:
+:
+TComputedValues
+;
+use
 selector_impl
 :
 :
@@ -446,6 +452,11 @@ Sync
 pub
 struct
 LocalStyleContext
+<
+C
+:
+TComputedValues
+>
 {
 pub
 applicable_declarations_cache
@@ -453,6 +464,9 @@ applicable_declarations_cache
 RefCell
 <
 ApplicableDeclarationsCache
+<
+C
+>
 >
 pub
 style_sharing_candidate_cache
@@ -460,6 +474,9 @@ style_sharing_candidate_cache
 RefCell
 <
 StyleSharingCandidateCache
+<
+C
+>
 >
 }
 pub
@@ -471,6 +488,9 @@ a
 Impl
 :
 SelectorImplExt
+C
+:
+TComputedValues
 >
 {
 fn
@@ -499,6 +519,9 @@ self
 >
 &
 LocalStyleContext
+<
+C
+>
 ;
 }
 /

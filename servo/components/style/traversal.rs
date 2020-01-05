@@ -1150,6 +1150,10 @@ Element
 :
 :
 Impl
+N
+:
+:
+ConcreteComputedValues
 >
 <
 N
@@ -1579,6 +1583,13 @@ shareable_element
 style_sharing_candidate_cache
 .
 insert_if_possible
+:
+:
+<
+'
+ln
+N
+>
 (
 &
 element

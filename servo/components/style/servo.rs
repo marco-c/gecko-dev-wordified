@@ -63,6 +63,12 @@ use
 data
 ;
 use
+properties
+:
+:
+ComputedValues
+;
+use
 selector_impl
 :
 :
@@ -105,6 +111,7 @@ data
 PrivateStyleData
 <
 ServoSelectorImpl
+ComputedValues
 >
 ;
 pub

@@ -786,7 +786,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 style
@@ -1242,6 +1245,11 @@ ServoLayoutNode
 ln
 >
 {
+type
+ConcreteComputedValues
+=
+ComputedValues
+;
 type
 ConcreteElement
 =

@@ -712,6 +712,15 @@ use
 style
 :
 :
+properties
+:
+:
+TComputedValues
+;
+use
+style
+:
+:
 selector_impl
 :
 :

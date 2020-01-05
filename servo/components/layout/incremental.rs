@@ -108,7 +108,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 bitflags
 !
@@ -461,6 +464,11 @@ TRestyleDamage
 for
 RestyleDamage
 {
+type
+ConcreteComputedValues
+=
+ComputedValues
+;
 fn
 compute
 (
