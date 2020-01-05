@@ -2009,6 +2009,10 @@ const
 uint64_t
 &
 aId
+TextureFactoryIdentifier
+*
+bool
+*
 )
 {
 LayerTransactionChild
