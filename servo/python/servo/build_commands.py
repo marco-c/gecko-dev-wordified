@@ -2553,6 +2553,15 @@ target
 geckolib
 "
 )
+.
+encode
+(
+"
+UTF
+-
+8
+"
+)
         
 build_start
 =
