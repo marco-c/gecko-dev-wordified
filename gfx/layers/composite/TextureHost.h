@@ -436,6 +436,9 @@ class
 ISurfaceAllocator
 ;
 class
+MacIOSurfaceTextureHostOGL
+;
+class
 TextureHostOGL
 ;
 class
@@ -3743,6 +3746,17 @@ virtual
 BufferTextureHost
 *
 AsBufferTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+MacIOSurfaceTextureHostOGL
+*
+AsMacIOSurfaceTextureHost
 (
 )
 {
