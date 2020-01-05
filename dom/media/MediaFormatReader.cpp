@@ -541,7 +541,7 @@ Alloc
 *
 /
 class
-DecoderAllocPolicy
+GlobalAllocPolicy
 {
 using
 TrackType
@@ -646,7 +646,7 @@ Thread
 safe
 .
 static
-DecoderAllocPolicy
+GlobalAllocPolicy
 &
 Instance
 (
@@ -667,12 +667,12 @@ Promise
 :
 Private
 ;
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 ;
 ~
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 ;
@@ -767,13 +767,13 @@ mPromises
 }
 ;
 StaticMutex
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 sMutex
 ;
 class
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 AutoDeallocToken
@@ -786,7 +786,7 @@ public
 explicit
 AutoDeallocToken
 (
-DecoderAllocPolicy
+GlobalAllocPolicy
 &
 aPolicy
 )
@@ -811,7 +811,7 @@ Dealloc
 )
 ;
 }
-DecoderAllocPolicy
+GlobalAllocPolicy
 &
 mPolicy
 ;
@@ -825,10 +825,10 @@ object
 .
 }
 ;
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 :
@@ -902,11 +902,11 @@ ShutdownThreads
 )
 ;
 }
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 ~
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 {
@@ -953,9 +953,9 @@ __func__
 ;
 }
 }
-DecoderAllocPolicy
+GlobalAllocPolicy
 &
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Instance
@@ -986,7 +986,7 @@ auto
 sAudioPolicy
 =
 new
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 ;
@@ -1002,7 +1002,7 @@ auto
 sVideoPolicy
 =
 new
-DecoderAllocPolicy
+GlobalAllocPolicy
 (
 )
 ;
@@ -1013,7 +1013,7 @@ sVideoPolicy
 }
 }
 auto
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Alloc
@@ -1093,7 +1093,7 @@ forget
 ;
 }
 void
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Dealloc
@@ -1117,7 +1117,7 @@ mon
 ;
 }
 void
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 ResolvePromise
@@ -1193,7 +1193,7 @@ __func__
 }
 }
 void
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 operator
@@ -1226,7 +1226,7 @@ InitPromise
 using
 TokenPromise
 =
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Promise
@@ -1234,7 +1234,7 @@ Promise
 using
 Token
 =
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Token
@@ -1496,7 +1496,7 @@ aTrack
 )
 mPolicy
 (
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Instance
@@ -1514,7 +1514,7 @@ const
 TrackType
 mTrack
 ;
-DecoderAllocPolicy
+GlobalAllocPolicy
 &
 mPolicy
 ;
@@ -1674,7 +1674,7 @@ MediaDataDecoder
 using
 Token
 =
-DecoderAllocPolicy
+GlobalAllocPolicy
 :
 :
 Token
