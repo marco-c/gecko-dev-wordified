@@ -489,6 +489,11 @@ test_preference_manager
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 /
 /
 Create
@@ -540,11 +545,6 @@ manifest
 )
 ]
 ;
-await
-promiseStartupManager
-(
-)
-;
 for
 (
 let
@@ -593,8 +593,6 @@ extension
 extension
 .
 extension
-.
-_extension
 )
 ;
 for
