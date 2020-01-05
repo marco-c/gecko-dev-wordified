@@ -12570,6 +12570,14 @@ xpcAccessibilityService
 IsInUse
 (
 )
+|
+|
+accService
+-
+>
+HasXPCDocuments
+(
+)
 )
 {
 /

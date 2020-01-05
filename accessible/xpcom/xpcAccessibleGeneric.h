@@ -270,12 +270,7 @@ aInterfaces
 )
 {
 }
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
-(
-xpcAccessibleGeneric
-nsIAccessible
-)
+NS_DECL_ISUPPORTS
 /
 /
 nsIAccessible
@@ -305,8 +300,7 @@ virtual
 xpcAccessibleGeneric
 (
 )
-{
-}
+;
 AccessibleOrProxy
 mIntl
 ;
