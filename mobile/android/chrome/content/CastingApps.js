@@ -677,7 +677,6 @@ service
 -
 found
 "
-false
 )
 ;
 Services
@@ -694,7 +693,6 @@ service
 -
 lost
 "
-false
 )
 ;
 Services
@@ -709,7 +707,6 @@ application
 -
 background
 "
-false
 )
 ;
 Services
@@ -724,7 +721,6 @@ application
 -
 foreground
 "
-false
 )
 ;
 BrowserApp

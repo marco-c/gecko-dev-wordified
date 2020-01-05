@@ -280,7 +280,6 @@ console
 -
 works
 "
-false
 )
 ;
 }

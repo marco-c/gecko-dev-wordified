@@ -198,7 +198,6 @@ obsData
 ;
 }
 topic
-false
 )
 ;
 return

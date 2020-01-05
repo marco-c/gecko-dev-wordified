@@ -321,7 +321,6 @@ addObserver
 (
 countingObserver
 TOPIC
-false
 )
 ;
 info

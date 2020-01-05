@@ -232,7 +232,6 @@ addObserver
 (
 PREF_WC_REPORTER_ENABLED
 prefObserver
-false
 )
 ;
 /

@@ -403,7 +403,6 @@ resolve
 ;
 }
 TOPIC
-false
 )
 )
 ;

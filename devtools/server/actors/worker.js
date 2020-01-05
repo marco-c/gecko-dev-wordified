@@ -1460,7 +1460,6 @@ this
 PushService
 .
 subscriptionModifiedTopic
-false
 )
 ;
 }

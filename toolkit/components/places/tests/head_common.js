@@ -2551,7 +2551,6 @@ aObsData
 ;
 }
 aTopic
-false
 )
 ;
 }
@@ -2609,7 +2608,6 @@ connection
 -
 closed
 "
-false
 )
 ;
 }

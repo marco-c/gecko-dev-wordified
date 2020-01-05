@@ -3070,7 +3070,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

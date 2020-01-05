@@ -1481,7 +1481,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 }

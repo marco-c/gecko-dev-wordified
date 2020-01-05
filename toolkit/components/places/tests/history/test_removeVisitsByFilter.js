@@ -1397,7 +1397,6 @@ history
 addObserver
 (
 observer
-false
 )
 ;
 let

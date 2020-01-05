@@ -524,7 +524,6 @@ addObserver
 (
 observer
 obsTopic
-false
 )
 ;
 }

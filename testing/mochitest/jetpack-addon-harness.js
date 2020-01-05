@@ -796,7 +796,6 @@ test
 :
 results
 "
-false
 )
 ;
 }

@@ -287,7 +287,6 @@ subject
 "
 domwindowopened
 "
-false
 )
 ;
 }

@@ -1463,7 +1463,6 @@ addObserver
 this
 .
 observer
-false
 )
 ;
 print

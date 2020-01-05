@@ -1451,7 +1451,6 @@ blocklist
 -
 updated
 "
-false
 )
 ;
 do_register_cleanup

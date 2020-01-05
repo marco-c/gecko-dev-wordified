@@ -662,7 +662,6 @@ quit
 -
 application
 "
-false
 )
 ;
 }

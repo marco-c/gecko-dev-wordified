@@ -467,7 +467,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

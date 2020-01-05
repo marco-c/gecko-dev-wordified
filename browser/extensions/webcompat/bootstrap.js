@@ -450,7 +450,6 @@ addObserver
 (
 UA_ENABLE_PREF_NAME
 UAEnablePrefObserver
-false
 )
 ;
 overrider

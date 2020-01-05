@@ -86,7 +86,6 @@ check
 -
 finished
 "
-false
 )
 ;
 }

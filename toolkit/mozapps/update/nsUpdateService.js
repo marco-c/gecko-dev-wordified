@@ -12455,7 +12455,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 Services
@@ -12466,7 +12465,6 @@ addObserver
 (
 PREF_APP_UPDATE_LOG
 this
-false
 )
 ;
 if
@@ -12543,7 +12541,6 @@ net
 -
 teardown
 "
-false
 )
 ;
 }
@@ -12873,7 +12870,6 @@ appinfo
 .
 ID
 ]
-false
 )
 ;
 break
@@ -14740,7 +14736,6 @@ status
 -
 changed
 "
-false
 )
 ;
 this
@@ -30837,7 +30832,6 @@ quit
 -
 application
 "
-false
 )
 ;
 /
@@ -31264,7 +31258,6 @@ quit
 -
 application
 "
-false
 )
 ;
 }

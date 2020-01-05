@@ -326,7 +326,6 @@ this
 "
 invalidformsubmit
 "
-false
 )
 ;
 this

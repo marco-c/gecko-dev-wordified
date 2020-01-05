@@ -708,7 +708,6 @@ gOptionsObserver
 AddonManager
 .
 OPTIONS_NOTIFICATION_DISPLAYED
-false
 )
 ;
 /

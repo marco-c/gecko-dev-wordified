@@ -669,7 +669,6 @@ dialog
 -
 updated
 "
-false
 )
 ;
 is

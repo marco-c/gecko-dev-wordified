@@ -1715,7 +1715,6 @@ this
 .
 ALLOWED_PREF
 this
-false
 )
 ;
 }

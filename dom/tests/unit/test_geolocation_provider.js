@@ -558,7 +558,6 @@ device
 -
 events
 "
-false
 )
 ;
 geolocation

@@ -628,7 +628,6 @@ aData
 ;
 }
 aTopic
-false
 )
 )
 ;

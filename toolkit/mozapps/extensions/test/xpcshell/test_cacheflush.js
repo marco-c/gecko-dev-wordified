@@ -156,7 +156,6 @@ cache
 -
 entry
 "
-false
 )
 ;
 createAppInfo

@@ -33136,7 +33136,6 @@ addObserver
 (
 this
 SEARCH_ENGINE_TOPIC
-false
 )
 ;
 Services
@@ -33147,7 +33146,6 @@ addObserver
 (
 this
 QUIT_APPLICATION_TOPIC
-false
 )
 ;
 if
@@ -33172,7 +33170,6 @@ addObserver
 (
 LOCALE_PREF
 this
-false
 )
 ;
 }

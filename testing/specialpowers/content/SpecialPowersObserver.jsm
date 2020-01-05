@@ -980,7 +980,6 @@ global
 -
 created
 "
-false
 )
 ;
 /
@@ -1112,7 +1111,6 @@ modify
 -
 request
 "
-false
 )
 ;
 this
@@ -1542,7 +1540,6 @@ plugin
 -
 crashed
 "
-false
 )
 ;
 obs
@@ -1557,7 +1554,6 @@ content
 -
 shutdown
 "
-false
 )
 ;
 this
@@ -1704,7 +1700,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

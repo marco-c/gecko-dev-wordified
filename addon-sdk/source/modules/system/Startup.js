@@ -452,7 +452,6 @@ addObserver
 (
 listener
 appStartup
-false
 )
 ;
 }

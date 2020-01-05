@@ -751,7 +751,6 @@ addObserver
 enabled
 "
 prefObserver
-false
 )
 ;
 }

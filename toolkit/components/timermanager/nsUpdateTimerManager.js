@@ -432,7 +432,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

@@ -846,7 +846,6 @@ resolve
 "
 domwindowclosed
 "
-false
 )
 ;
 }
@@ -1732,7 +1731,6 @@ resolve
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
-false
 )
 ;
 PlacesUtils

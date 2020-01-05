@@ -2031,7 +2031,6 @@ addObserver
 "
 "
 _prefObserver
-false
 )
 ;
 }

@@ -479,7 +479,6 @@ bs
 addObserver
 (
 bookmarksObserver
-false
 )
 ;
 /

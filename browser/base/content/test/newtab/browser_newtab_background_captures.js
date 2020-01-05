@@ -407,7 +407,6 @@ thumbnail
 :
 create
 "
-false
 )
 ;
 }

@@ -295,7 +295,6 @@ val
 ;
 }
 topic
-false
 )
 ;
 }

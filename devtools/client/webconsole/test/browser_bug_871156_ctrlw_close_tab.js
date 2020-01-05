@@ -533,7 +533,6 @@ console
 -
 destroyed
 "
-false
 )
 ;
 waitForFocus

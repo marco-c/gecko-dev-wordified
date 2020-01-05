@@ -319,7 +319,6 @@ update
 -
 complete
 "
-false
 )
 ;
 /
@@ -764,7 +763,6 @@ update
 -
 complete
 "
-false
 )
 ;
 AddonManager

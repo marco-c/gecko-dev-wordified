@@ -328,7 +328,6 @@ quit
 -
 application
 "
-false
 )
 ;
 log

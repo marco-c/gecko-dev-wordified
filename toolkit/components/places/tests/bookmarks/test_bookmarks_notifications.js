@@ -4376,7 +4376,6 @@ bookmarks
 addObserver
 (
 observer
-false
 )
 ;
 return

@@ -1369,7 +1369,6 @@ collection
 -
 statistics
 "
-false
 )
 ;
 }

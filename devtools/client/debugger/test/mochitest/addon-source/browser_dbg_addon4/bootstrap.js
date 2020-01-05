@@ -228,7 +228,6 @@ test
 -
 ping
 "
-false
 )
 ;
 }

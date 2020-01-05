@@ -371,7 +371,6 @@ bootstrap
 -
 startup
 "
-false
 )
 ;
 Services
@@ -390,7 +389,6 @@ bootstrap
 -
 shutdown
 "
-false
 )
 ;
 do_register_cleanup

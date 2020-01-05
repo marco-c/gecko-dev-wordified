@@ -944,7 +944,6 @@ addObserver
 (
 observer
 aObserveTopic
-false
 )
 ;
 }

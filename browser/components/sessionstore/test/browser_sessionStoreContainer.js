@@ -670,7 +670,6 @@ cookie
 -
 changed
 "
-false
 )
 ;
 }

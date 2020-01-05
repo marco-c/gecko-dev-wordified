@@ -4202,7 +4202,6 @@ addObserver
 (
 this
 TOPIC_IDLE_DAILY
-false
 )
 ;
 this

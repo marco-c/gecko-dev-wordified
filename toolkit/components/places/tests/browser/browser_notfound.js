@@ -305,7 +305,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 }

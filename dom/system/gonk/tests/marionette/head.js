@@ -1220,7 +1220,6 @@ subject
 }
 }
 aTopic
-false
 )
 ;
 return

@@ -401,7 +401,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 }

@@ -659,7 +659,6 @@ this
 StartupPerformance
 .
 RESTORED_TOPIC
-false
 )
 ;
 }

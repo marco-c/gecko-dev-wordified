@@ -380,7 +380,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }

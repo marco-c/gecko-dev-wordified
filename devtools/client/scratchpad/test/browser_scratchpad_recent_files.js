@@ -1823,7 +1823,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 this

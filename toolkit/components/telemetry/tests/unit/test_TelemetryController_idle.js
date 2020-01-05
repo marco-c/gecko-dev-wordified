@@ -459,7 +459,6 @@ gather
 -
 telemetry
 "
-false
 )
 ;
 /

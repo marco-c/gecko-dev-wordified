@@ -815,7 +815,6 @@ violate
 -
 policy
 "
-false
 )
 ;
 return

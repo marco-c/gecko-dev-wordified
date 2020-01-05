@@ -701,7 +701,6 @@ begin
 -
 vacuum
 "
-false
 )
 ;
 /
@@ -798,7 +797,6 @@ io
 -
 task
 "
-false
 )
 ;
 /
@@ -892,7 +890,6 @@ end
 -
 vacuum
 "
-false
 )
 ;
 synthesize_idle_daily
@@ -1016,7 +1013,6 @@ begin
 -
 vacuum
 "
-false
 )
 ;
 /
@@ -1318,7 +1314,6 @@ begin
 -
 vacuum
 "
-false
 )
 ;
 /
@@ -1890,7 +1885,6 @@ begin
 -
 vacuum
 "
-false
 )
 ;
 /

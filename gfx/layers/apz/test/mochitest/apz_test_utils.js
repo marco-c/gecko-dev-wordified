@@ -1175,7 +1175,6 @@ repaints
 -
 flushed
 "
-false
 )
 ;
 if

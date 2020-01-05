@@ -5818,7 +5818,6 @@ addObserver
 (
 PREF_SHOW_PLUGINS_IN_LIST
 this
-false
 )
 ;
 this
@@ -5829,7 +5828,6 @@ addObserver
 (
 PREF_HIDE_PLUGINS_WITHOUT_EXTENSIONS
 this
-false
 )
 ;
 this
@@ -5840,7 +5838,6 @@ addObserver
 (
 PREF_FEED_SELECTED_APP
 this
-false
 )
 ;
 this
@@ -5851,7 +5848,6 @@ addObserver
 (
 PREF_FEED_SELECTED_WEB
 this
-false
 )
 ;
 this
@@ -5862,7 +5858,6 @@ addObserver
 (
 PREF_FEED_SELECTED_ACTION
 this
-false
 )
 ;
 this
@@ -5873,7 +5868,6 @@ addObserver
 (
 PREF_FEED_SELECTED_READER
 this
-false
 )
 ;
 this
@@ -5884,7 +5878,6 @@ addObserver
 (
 PREF_VIDEO_FEED_SELECTED_APP
 this
-false
 )
 ;
 this
@@ -5895,7 +5888,6 @@ addObserver
 (
 PREF_VIDEO_FEED_SELECTED_WEB
 this
-false
 )
 ;
 this
@@ -5906,7 +5898,6 @@ addObserver
 (
 PREF_VIDEO_FEED_SELECTED_ACTION
 this
-false
 )
 ;
 this
@@ -5917,7 +5908,6 @@ addObserver
 (
 PREF_VIDEO_FEED_SELECTED_READER
 this
-false
 )
 ;
 this
@@ -5928,7 +5918,6 @@ addObserver
 (
 PREF_AUDIO_FEED_SELECTED_APP
 this
-false
 )
 ;
 this
@@ -5939,7 +5928,6 @@ addObserver
 (
 PREF_AUDIO_FEED_SELECTED_WEB
 this
-false
 )
 ;
 this
@@ -5950,7 +5938,6 @@ addObserver
 (
 PREF_AUDIO_FEED_SELECTED_ACTION
 this
-false
 )
 ;
 this
@@ -5961,7 +5948,6 @@ addObserver
 (
 PREF_AUDIO_FEED_SELECTED_READER
 this
-false
 )
 ;
 setEventListener

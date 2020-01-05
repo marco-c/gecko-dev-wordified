@@ -3743,7 +3743,6 @@ addObserver
 (
 this
 EXPERIMENTS_CHANGED_TOPIC
-false
 )
 ;
 }
@@ -6938,7 +6937,6 @@ addObserver
 (
 this
 COMPOSITOR_CREATED_TOPIC
-false
 )
 ;
 Services
@@ -6949,7 +6947,6 @@ addObserver
 (
 this
 COMPOSITOR_PROCESS_ABORTED_TOPIC
-false
 )
 ;
 Services
@@ -6960,7 +6957,6 @@ addObserver
 (
 this
 DISTRIBUTION_CUSTOMIZATION_COMPLETE_TOPIC
-false
 )
 ;
 Services
@@ -6971,7 +6967,6 @@ addObserver
 (
 this
 GFX_FEATURES_READY_TOPIC
-false
 )
 ;
 Services
@@ -6982,7 +6977,6 @@ addObserver
 (
 this
 SEARCH_ENGINE_MODIFIED_TOPIC
-false
 )
 ;
 Services
@@ -6993,7 +6987,6 @@ addObserver
 (
 this
 SEARCH_SERVICE_TOPIC
-false
 )
 ;
 }

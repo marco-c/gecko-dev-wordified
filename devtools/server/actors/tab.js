@@ -3763,7 +3763,6 @@ webnavigation
 -
 create
 "
-false
 )
 ;
 }
@@ -3779,7 +3778,6 @@ webnavigation
 -
 destroy
 "
-false
 )
 ;
 /
@@ -9138,7 +9136,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 /

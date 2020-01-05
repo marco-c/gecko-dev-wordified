@@ -4405,7 +4405,6 @@ aConsoleOptions
 .
 maxLogLevelPref
 updateMaxLogLevel
-false
 )
 ;
 }

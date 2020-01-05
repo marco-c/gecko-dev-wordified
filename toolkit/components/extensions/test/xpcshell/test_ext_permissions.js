@@ -376,7 +376,6 @@ permission
 -
 prompt
 "
-false
 )
 ;
 do_register_cleanup

@@ -496,7 +496,6 @@ storage
 -
 written
 "
-false
 )
 ;
 do_test_finished
@@ -667,7 +666,6 @@ storage
 -
 ready
 "
-false
 )
 ;
 do_test_pending

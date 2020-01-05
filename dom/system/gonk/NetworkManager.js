@@ -1103,7 +1103,6 @@ addObserver
 (
 PREF_MANAGE_OFFLINE_STATUS
 this
-false
 )
 ;
 Services
@@ -1114,7 +1113,6 @@ addObserver
 (
 PREF_NETWORK_DEBUG_ENABLED
 this
-false
 )
 ;
 Services
@@ -1125,7 +1123,6 @@ addObserver
 (
 this
 TOPIC_XPCOM_SHUTDOWN
-false
 )
 ;
 this

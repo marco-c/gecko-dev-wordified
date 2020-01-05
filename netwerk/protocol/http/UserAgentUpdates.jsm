@@ -702,7 +702,6 @@ addObserver
 (
 PREF_UPDATES
 this
-false
 )
 ;
 }

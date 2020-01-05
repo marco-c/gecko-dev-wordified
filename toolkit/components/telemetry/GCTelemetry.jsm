@@ -1270,7 +1270,6 @@ collection
 -
 statistics
 "
-false
 )
 ;
 if

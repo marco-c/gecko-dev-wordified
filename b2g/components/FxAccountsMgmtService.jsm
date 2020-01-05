@@ -378,7 +378,6 @@ addObserver
 (
 this
 ONLOGIN_NOTIFICATION
-false
 )
 ;
 Services
@@ -389,7 +388,6 @@ addObserver
 (
 this
 ONVERIFIED_NOTIFICATION
-false
 )
 ;
 Services
@@ -400,7 +398,6 @@ addObserver
 (
 this
 ONLOGOUT_NOTIFICATION
-false
 )
 ;
 SystemAppProxy

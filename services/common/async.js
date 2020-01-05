@@ -906,7 +906,6 @@ quit
 -
 application
 "
-false
 )
 ;
 /

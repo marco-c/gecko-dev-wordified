@@ -6564,7 +6564,6 @@ audio
 -
 playback
 "
-false
 )
 ;
 Services
@@ -6577,7 +6576,6 @@ this
 "
 AudioFocusChanged
 "
-false
 )
 ;
 Services
@@ -6590,7 +6588,6 @@ this
 "
 MediaControl
 "
-false
 )
 ;
 addMessageListener
