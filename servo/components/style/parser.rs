@@ -68,14 +68,6 @@ code
 is
 parsed
 .
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 context
 :

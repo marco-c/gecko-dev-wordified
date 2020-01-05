@@ -2412,6 +2412,7 @@ CSSFloat
 derive
 (
 Debug
+Copy
 Clone
 PartialEq
 )
