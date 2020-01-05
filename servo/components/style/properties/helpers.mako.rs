@@ -2257,6 +2257,9 @@ in
 gecko_constant_prefix
 '
 '
+gecko_enum_prefix
+'
+'
 extra_gecko_values
 '
 '
@@ -2474,6 +2477,9 @@ in
 [
 '
 gecko_constant_prefix
+'
+'
+gecko_enum_prefix
 '
 '
 extra_gecko_values
