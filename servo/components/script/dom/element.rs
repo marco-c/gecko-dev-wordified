@@ -805,9 +805,6 @@ VecLike
 ;
 use
 style
-;
-use
-style
 :
 :
 legacy
