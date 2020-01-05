@@ -113,6 +113,14 @@ MutableFlowUtils
 ;
 use
 flow
+:
+:
+{
+IS_ABSOLUTELY_POSITIONED
+}
+;
+use
+flow
 ;
 use
 fragment
@@ -8849,8 +8857,9 @@ kid
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 |
 |

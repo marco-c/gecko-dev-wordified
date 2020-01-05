@@ -147,6 +147,15 @@ Flow
 }
 ;
 use
+flow
+:
+:
+{
+IS_ABSOLUTELY_POSITIONED
+NEEDS_LAYER
+}
+;
+use
 fragment
 :
 :
@@ -5659,8 +5668,9 @@ kid
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 {
 /
@@ -5899,8 +5909,9 @@ base
 .
 flags
 .
-needs_layer
+contains
 (
+NEEDS_LAYER
 )
 {
 /

@@ -326,9 +326,6 @@ pub
 mod
 lints
 ;
-mod
-macros
-;
 #
 [
 plugin_registrar

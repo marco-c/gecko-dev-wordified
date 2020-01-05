@@ -269,6 +269,14 @@ AbsDescendants
 ;
 use
 flow
+:
+:
+{
+IS_ABSOLUTELY_POSITIONED
+}
+;
+use
+flow
 ;
 use
 flow_ref
@@ -3556,8 +3564,9 @@ flow
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 ;
 if
@@ -5673,8 +5682,9 @@ wrapper_flow
 .
 flags
 .
-is_absolutely_positioned
+contains
 (
+IS_ABSOLUTELY_POSITIONED
 )
 ;
 if
