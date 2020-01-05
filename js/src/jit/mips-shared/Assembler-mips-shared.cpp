@@ -9544,6 +9544,16 @@ stype
 31
 )
 ;
+if
+(
+isLoongson
+(
+)
+)
+stype
+=
+0
+;
 writeInst
 (
 InstReg
