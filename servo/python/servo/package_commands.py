@@ -2093,6 +2093,31 @@ dmg
 "
 )
             
+if
+path
+.
+exists
+(
+dmg_path
+)
+:
+                
+print
+(
+"
+Deleting
+existing
+dmg
+"
+)
+                
+os
+.
+remove
+(
+dmg_path
+)
+            
 try
 :
                 
