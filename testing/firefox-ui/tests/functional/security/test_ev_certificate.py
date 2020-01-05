@@ -235,7 +235,7 @@ locationbar
 .
 identity_box
 .
-get_attribute
+get_property
 (
 '
 className
@@ -298,7 +298,7 @@ locationbar
 .
 identity_organization_label
 .
-get_attribute
+get_property
 (
 '
 value
@@ -323,7 +323,7 @@ locationbar
 .
 identity_country_label
 .
-get_attribute
+get_property
 (
 '
 value
@@ -417,7 +417,7 @@ main
 .
 host
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -621,13 +621,12 @@ security_view
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 textContent
 '
 )
-                         
 cert
 [
 '
@@ -749,13 +748,12 @@ security_view
 .
 owner_location
 .
-get_attribute
+get_property
 (
 '
 textContent
 '
 )
-                         
 location
 )
         
@@ -807,13 +805,12 @@ security_view
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 textContent
 '
 )
-                         
 l10n_verifier
 )
         
@@ -916,7 +913,7 @@ security
 .
 domain
 .
-get_attribute
+get_property
 (
 '
 value
@@ -946,7 +943,7 @@ security
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 value
@@ -983,7 +980,7 @@ security
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 value

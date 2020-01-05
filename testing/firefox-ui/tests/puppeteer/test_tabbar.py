@@ -187,7 +187,7 @@ tabbar
 .
 newtab_button
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -206,7 +206,7 @@ tabbar
 .
 toolbar
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1001,7 +1001,7 @@ tab
 .
 tab_element
 .
-get_attribute
+get_property
 (
 '
 localName
@@ -1020,7 +1020,7 @@ tab
 .
 close_button
 .
-get_attribute
+get_property
 (
 '
 localName

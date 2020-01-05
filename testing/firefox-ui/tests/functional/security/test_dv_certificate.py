@@ -232,7 +232,7 @@ locationbar
 .
 identity_box
 .
-get_attribute
+get_property
 (
 '
 className
@@ -321,7 +321,7 @@ main
 .
 host
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -429,6 +429,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -441,6 +442,21 @@ view
 security
 .
 selected
+            
+message
+=
+'
+Security
+view
+of
+identity
+popup
+has
+not
+been
+selected
+.
+'
 )
         
 #
@@ -544,7 +560,7 @@ security
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -628,7 +644,7 @@ security
 .
 domain
 .
-get_attribute
+get_property
 (
 '
 value
@@ -653,7 +669,7 @@ security
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 value
@@ -680,7 +696,7 @@ security
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 value

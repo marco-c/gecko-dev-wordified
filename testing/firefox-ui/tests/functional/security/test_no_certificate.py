@@ -326,7 +326,7 @@ locationbar
 .
 identity_organization_label
 .
-get_attribute
+get_property
 (
 '
 value
@@ -625,7 +625,7 @@ security
 .
 domain
 .
-get_attribute
+get_property
 (
 '
 value
@@ -656,7 +656,7 @@ security
 .
 owner
 .
-get_attribute
+get_property
 (
 '
 value
@@ -696,7 +696,7 @@ security
 .
 verifier
 .
-get_attribute
+get_property
 (
 '
 value

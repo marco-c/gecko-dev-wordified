@@ -710,14 +710,7 @@ _
 :
 self
 .
-urlbar
-.
-get_attribute
-(
-'
 value
-'
-)
 =
 =
 '
@@ -2257,7 +2250,7 @@ self
 .
 urlbar
 .
-get_attribute
+get_property
 (
 '
 value
@@ -2594,7 +2587,7 @@ return
 [
 node
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -2648,7 +2641,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 _matchCount
@@ -2783,7 +2776,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 state
@@ -3006,7 +2999,7 @@ self
 .
 results
 .
-get_attribute
+get_property
 (
 '
 selectedIndex
@@ -3114,7 +3107,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 state
