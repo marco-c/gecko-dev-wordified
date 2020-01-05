@@ -117,10 +117,6 @@ util
 ;
 pub
 mod
-compositor_msg
-;
-pub
-mod
 constellation_msg
 ;
 pub

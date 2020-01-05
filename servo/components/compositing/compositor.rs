@@ -169,6 +169,7 @@ gfx_traits
 {
 color
 Epoch
+FrameTreeId
 LayerId
 LayerKind
 LayerProperties
@@ -295,15 +296,6 @@ layout_traits
 :
 :
 LayoutControlChan
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-FrameTreeId
 ;
 use
 msg
