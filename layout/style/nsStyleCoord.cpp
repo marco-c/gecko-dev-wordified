@@ -1980,6 +1980,12 @@ eCornerTopLeft
 #
 undef
 CASE
+/
+/
+Validation
+of
+SideToHalfCorner
+.
 #
 define
 CASE
@@ -1992,7 +1998,7 @@ result
 \
 static_assert
 (
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 second
@@ -2003,7 +2009,7 @@ parallel
 result
 \
 "
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 is
 wrong
 "

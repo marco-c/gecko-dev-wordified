@@ -8476,7 +8476,7 @@ side
 uint32_t
 hc1
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 false
@@ -8486,7 +8486,7 @@ true
 uint32_t
 hc2
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 true
@@ -8631,7 +8631,7 @@ side
 uint32_t
 hc1
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 false
@@ -8641,7 +8641,7 @@ false
 uint32_t
 hc2
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 true
@@ -8849,7 +8849,7 @@ const
 uint32_t
 hc1
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 false
@@ -8860,7 +8860,7 @@ const
 uint32_t
 hc2
 =
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 side
 true

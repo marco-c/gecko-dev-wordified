@@ -4186,7 +4186,7 @@ blockStartCornerRadiusL
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineLeftSide
 true
@@ -4199,7 +4199,7 @@ blockStartCornerRadiusB
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineLeftSide
 true
@@ -4212,7 +4212,7 @@ blockEndCornerRadiusL
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineLeftSide
 false
@@ -4225,7 +4225,7 @@ blockEndCornerRadiusB
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineLeftSide
 false
@@ -4516,7 +4516,7 @@ blockStartCornerRadiusL
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineRightSide
 false
@@ -4529,7 +4529,7 @@ blockStartCornerRadiusB
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineRightSide
 false
@@ -4542,7 +4542,7 @@ blockEndCornerRadiusL
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineRightSide
 true
@@ -4555,7 +4555,7 @@ blockEndCornerRadiusB
 =
 radii
 [
-NS_SIDE_TO_HALF_CORNER
+SideToHalfCorner
 (
 lineRightSide
 true
