@@ -3230,7 +3230,7 @@ style
 effectSet
 -
 >
-UpdateAnimationRuleRefreshTime
+UpdateLastTransformSyncTime
 (
 aCascadeLevel
 mPresContext
@@ -4731,7 +4731,7 @@ style
 effects
 -
 >
-UpdateAnimationRuleRefreshTime
+UpdateLastTransformSyncTime
 (
 aCascadeLevel
 aRefreshTime

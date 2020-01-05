@@ -8020,12 +8020,12 @@ animation
 )
 ;
 TimeStamp
-animationRuleRefreshTime
+lastSyncTime
 =
 effectSet
 -
 >
-AnimationRuleRefreshTime
+LastTransformSyncTime
 (
 mAnimation
 -
@@ -8054,7 +8054,7 @@ ticks
 if
 (
 !
-animationRuleRefreshTime
+lastSyncTime
 .
 IsNull
 (
@@ -8064,7 +8064,7 @@ IsNull
 (
 now
 -
-animationRuleRefreshTime
+lastSyncTime
 )
 <
 OverflowRegionRefreshInterval
