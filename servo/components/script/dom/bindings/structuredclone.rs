@@ -131,15 +131,6 @@ use
 js
 :
 :
-glue
-:
-:
-JS_STRUCTURED_CLONE_VERSION
-;
-use
-js
-:
-:
 jsapi
 :
 :
@@ -158,6 +149,7 @@ jsapi
 {
 JSContext
 JS_ReadStructuredClone
+JS_STRUCTURED_CLONE_VERSION
 }
 ;
 use

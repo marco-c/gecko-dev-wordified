@@ -104,12 +104,6 @@ use
 js
 :
 :
-JSPROP_GETTER
-;
-use
-js
-:
-:
 glue
 :
 :
@@ -180,7 +174,8 @@ jsapi
 {
 JSContext
 JSObject
-JSPropertyDescriptor
+JSPROP_GETTER
+PropertyDescriptor
 }
 ;
 use
@@ -203,7 +198,7 @@ jsapi
 :
 :
 {
-JS_DefinePropertyById6
+JS_DefinePropertyById
 JS_NewObjectWithGivenProto
 }
 ;
@@ -311,7 +306,7 @@ desc
 :
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 )
 -
@@ -460,7 +455,7 @@ desc
 :
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 result
 :
@@ -617,7 +612,7 @@ proxy
 )
 )
 ;
-JS_DefinePropertyById6
+JS_DefinePropertyById
 (
 cx
 expando
@@ -1021,6 +1016,7 @@ get
 (
 )
 JSPROXYSLOT_EXPANDO
+&
 ObjectValue
 (
 &
@@ -1068,7 +1064,7 @@ desc
 :
 &
 mut
-JSPropertyDescriptor
+PropertyDescriptor
 obj
 :
 *

@@ -490,6 +490,12 @@ use
 std
 :
 :
+os
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -1816,7 +1822,10 @@ _data
 :
 *
 mut
-libc
+os
+:
+:
+raw
 :
 :
 c_void

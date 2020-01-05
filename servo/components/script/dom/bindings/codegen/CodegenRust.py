@@ -12795,8 +12795,6 @@ flags
 =
 "
 |
-JSPROP_READONLY
-|
 JSPROP_PERMANENT
 "
         
@@ -13162,12 +13160,8 @@ n
 flags
 :
 (
-(
 %
 s
-)
-&
-0xFF
 )
 as
 u8
@@ -15058,16 +15052,6 @@ name
 )
             
 "
-outerObjectHook
-"
-:
-self
-.
-descriptor
-.
-outerObjectHook
-            
-"
 resolveHook
 "
 :
@@ -15246,8 +15230,6 @@ flags
 :
 JSCLASS_IS_DOMJSCLASS
 |
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 %
 (
 flags
@@ -15317,7 +15299,7 @@ resolveHook
 )
 s
         
-convert
+mayResolve
 :
 None
         
@@ -15366,15 +15348,15 @@ jsapi
 ClassSpec
 {
             
-createConstructor
+createConstructor_
 :
 None
             
-createPrototype
+createPrototype_
 :
 None
             
-constructorFunctions
+constructorFunctions_
 :
 0
 as
@@ -15388,7 +15370,7 @@ jsapi
 :
 JSFunctionSpec
             
-constructorProperties
+constructorProperties_
 :
 0
 as
@@ -15402,7 +15384,7 @@ jsapi
 :
 JSPropertySpec
             
-prototypeFunctions
+prototypeFunctions_
 :
 0
 as
@@ -15416,7 +15398,7 @@ jsapi
 :
 JSFunctionSpec
             
-prototypeProperties
+prototypeProperties_
 :
 0
 as
@@ -15430,7 +15412,7 @@ jsapi
 :
 JSPropertySpec
             
-finishInit
+finishInit_
 :
 None
             
@@ -15450,18 +15432,6 @@ jsapi
 :
 ClassExtension
 {
-            
-outerObject
-:
-%
-(
-outerObjectHook
-)
-s
-            
-innerObject
-:
-None
             
 isWrappedNative
 :
@@ -15531,14 +15501,6 @@ None
 enumerate
 :
 None
-            
-thisObject
-:
-%
-(
-outerObjectHook
-)
-s
             
 funToString
 :
@@ -15738,7 +15700,7 @@ resolve
 :
 None
     
-convert
+mayResolve
 :
 None
     
@@ -15769,12 +15731,15 @@ reserved
 as
 *
 mut
-libc
+os
+:
+:
+raw
 :
 :
 c_void
 ;
-26
+23
 ]
 }
 ;
@@ -20326,6 +20291,34 @@ is_null
 )
 )
 ;
+assert
+!
+(
+(
+*
+cache
+)
+[
+PrototypeList
+:
+:
+Constructor
+:
+:
+%
+(
+id
+)
+s
+as
+usize
+]
+.
+is_null
+(
+)
+)
+;
 (
 *
 cache
@@ -20350,22 +20343,6 @@ interface
 .
 ptr
 ;
-if
-<
-*
-mut
-JSObject
->
-:
-:
-needs_post_barrier
-(
-interface
-.
-ptr
-)
-{
-    
 <
 *
 mut
@@ -20400,9 +20377,19 @@ s
 as
 isize
 )
+                              
+ptr
+:
+:
+null_mut
+(
+)
+                              
+interface
+.
+ptr
 )
 ;
-}
 "
 "
 "
@@ -20763,6 +20750,34 @@ is_null
 )
 )
 ;
+assert
+!
+(
+(
+*
+cache
+)
+[
+PrototypeList
+:
+:
+ID
+:
+:
+%
+(
+id
+)
+s
+as
+usize
+]
+.
+is_null
+(
+)
+)
+;
 (
 *
 cache
@@ -20787,22 +20802,6 @@ prototype
 .
 ptr
 ;
-if
-<
-*
-mut
-JSObject
->
-:
-:
-needs_post_barrier
-(
-prototype
-.
-ptr
-)
-{
-    
 <
 *
 mut
@@ -20837,9 +20836,19 @@ s
 as
 isize
 )
+                              
+ptr
+:
+:
+null_mut
+(
+)
+                              
+prototype
+.
+ptr
 )
 ;
-}
 "
 "
 "
@@ -21163,6 +21172,34 @@ CGGeneric
 "
 "
 \
+assert
+!
+(
+(
+*
+cache
+)
+[
+PrototypeList
+:
+:
+Constructor
+:
+:
+%
+(
+id
+)
+s
+as
+usize
+]
+.
+is_null
+(
+)
+)
+;
 (
 *
 cache
@@ -21187,22 +21224,6 @@ interface
 .
 ptr
 ;
-if
-<
-*
-mut
-JSObject
->
-:
-:
-needs_post_barrier
-(
-prototype
-.
-ptr
-)
-{
-    
 <
 *
 mut
@@ -21237,9 +21258,19 @@ s
 as
 isize
 )
+                              
+ptr
+:
+:
+null_mut
+(
+)
+                              
+interface
+.
+ptr
 )
 ;
-}
 "
 "
 "
@@ -26695,15 +26726,12 @@ args
 aliasSet
 is
 a
-JSJitInfo
-:
-:
-AliasSet
+JSJitInfo_AliasSet
 value
 without
 the
 "
-JSJitInfo
+JSJitInfo_AliasSet
 :
 :
 "
@@ -26821,9 +26849,10 @@ opName
 as
 *
 const
+os
 :
 :
-libc
+raw
 :
 :
 c_void
@@ -26857,7 +26886,7 @@ JSJitInfo
 new_bitfield_1
 (
                             
-OpType
+JSJitInfo_OpType
 :
 :
 {
@@ -26866,7 +26895,7 @@ opType
 as
 u8
                             
-AliasSet
+JSJitInfo_AliasSet
 :
 :
 {
@@ -26890,6 +26919,10 @@ isInfallible
                             
 {
 isMovable
+}
+                            
+{
+isEliminatable
 }
                             
 {
@@ -26977,6 +27010,35 @@ toStringBool
 movable
 )
                 
+#
+FIXME
+(
+nox
+)
+:
+https
+:
+/
+/
+github
+.
+com
+/
+servo
+/
+servo
+/
+issues
+/
+10991
+                
+isEliminatable
+=
+toStringBool
+(
+False
+)
+                
 isAlwaysInSlot
 =
 toStringBool
@@ -27048,7 +27110,7 @@ args
 append
 (
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 ArgTypeListEnd
@@ -27141,7 +27203,7 @@ _
 as
 *
 const
-ArgType
+JSJitInfo_ArgType
                 
 }
 ;
@@ -28854,7 +28916,7 @@ not
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Null
@@ -28900,7 +28962,7 @@ isSequence
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -28918,7 +28980,7 @@ isGeckoInterface
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -28936,7 +28998,7 @@ isString
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 String
@@ -28954,7 +29016,7 @@ isEnum
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 String
@@ -28972,7 +29034,7 @@ isCallback
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -29000,7 +29062,7 @@ stuff
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Any
@@ -29018,7 +29080,7 @@ isObject
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -29036,7 +29098,7 @@ isSpiderMonkeyInterface
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -29101,7 +29163,7 @@ isDictionary
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -29119,7 +29181,7 @@ isDate
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Object
@@ -29178,7 +29240,7 @@ bool
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Boolean
@@ -29222,7 +29284,7 @@ int32
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Integer
@@ -29311,7 +29373,7 @@ here
             
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Double
@@ -29363,7 +29425,7 @@ double
         
 return
 "
-ArgType
+JSJitInfo_ArgType
 :
 :
 Double
@@ -36018,7 +36080,7 @@ Argument
 '
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 '
 '
@@ -36831,7 +36893,7 @@ Argument
 '
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 '
 '
@@ -37908,7 +37970,7 @@ unwrap
 let
 jsstring
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 cstring
@@ -38851,7 +38913,7 @@ proxy
 Argument
 (
 '
-HandleObject
+HandleValue
 '
 '
 receiver
@@ -45050,8 +45112,8 @@ js
 :
 :
 {
+JS_CALLEE
 JSCLASS_GLOBAL_SLOT_COUNT
-JSCLASS_IMPLEMENTS_BARRIERS
 }
 '
             
@@ -45063,39 +45125,6 @@ js
 JSCLASS_IS_DOMJSCLASS
 JSCLASS_IS_GLOBAL
 JSCLASS_RESERVED_SLOTS_MASK
-}
-'
-            
-'
-js
-:
-:
-{
-JSCLASS_RESERVED_SLOTS_SHIFT
-JSITER_HIDDEN
-JSITER_OWNONLY
-}
-'
-            
-'
-js
-:
-:
-{
-JSITER_SYMBOLS
-JSPROP_ENUMERATE
-JSPROP_PERMANENT
-JSPROP_READONLY
-}
-'
-            
-'
-js
-:
-:
-{
-JSPROP_SHARED
-JS_CALLEE
 }
 '
             
@@ -45117,11 +45146,41 @@ jsapi
 :
 :
 {
-AliasSet
-ArgType
+JSJitInfo_AliasSet
+JSJitInfo_ArgType
 AutoIdVector
 CallArgs
 FreeOp
+}
+'
+            
+'
+js
+:
+:
+jsapi
+:
+:
+{
+JSITER_SYMBOLS
+JSPROP_ENUMERATE
+JSPROP_PERMANENT
+JSPROP_READONLY
+JSPROP_SHARED
+}
+'
+            
+'
+js
+:
+:
+jsapi
+:
+:
+{
+JSCLASS_RESERVED_SLOTS_SHIFT
+JSITER_HIDDEN
+JSITER_OWNONLY
 }
 '
             
@@ -45246,7 +45305,7 @@ jsapi
 :
 :
 {
-JS_InternString
+JS_AtomizeAndPinString
 JS_IsExceptionPending
 JS_NewObject
 JS_NewObjectWithGivenProto
@@ -45324,7 +45383,6 @@ jsapi
 JSNative
 JSObject
 JSNativeWrapper
-JSPropertyDescriptor
 JSPropertySpec
 }
 '
@@ -45354,7 +45412,7 @@ jsapi
 :
 {
 ObjectOpResult
-OpType
+JSJitInfo_OpType
 MutableHandle
 MutableHandleObject
 }
@@ -45369,9 +45427,9 @@ jsapi
 :
 {
 MutableHandleValue
+PropertyDescriptor
 RootedId
 RootedObject
-RootedString
 }
 '
             
@@ -45383,6 +45441,7 @@ jsapi
 :
 :
 {
+RootedString
 RootedValue
 SymbolCode
 jsid
@@ -46232,6 +46291,13 @@ std
 :
 :
 num
+'
+            
+'
+std
+:
+:
+os
 '
             
 '
