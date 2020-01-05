@@ -36,9 +36,6 @@ Chan
 }
 ;
 use
-html
-:
-:
 lexer_util
 :
 :
