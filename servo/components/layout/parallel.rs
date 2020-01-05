@@ -146,7 +146,7 @@ time
 :
 {
 self
-ProfilerMetadata
+TimerMetadata
 profile
 }
 ;
@@ -2716,7 +2716,10 @@ mut
 FlowRef
 profiler_metadata
 :
-ProfilerMetadata
+Option
+<
+TimerMetadata
+>
 time_profiler_chan
 :
 time
@@ -2850,7 +2853,10 @@ mut
 FlowRef
 profiler_metadata
 :
-ProfilerMetadata
+Option
+<
+TimerMetadata
+>
 time_profiler_chan
 :
 time
