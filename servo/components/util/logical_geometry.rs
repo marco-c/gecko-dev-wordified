@@ -2058,10 +2058,6 @@ LogicalPoint
 T
 >
 {
-pub
-i
-:
-T
 /
 /
 /
@@ -2070,7 +2066,7 @@ inline
 axis
 coordinate
 pub
-b
+i
 :
 T
 /
@@ -2080,6 +2076,10 @@ block
 -
 axis
 coordinate
+pub
+b
+:
+T
 debug_writing_mode
 :
 DebugWritingMode
