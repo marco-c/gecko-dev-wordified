@@ -230,7 +230,7 @@ T
 '
 target
 /
-arm
+armv7
 -
 linux
 -
