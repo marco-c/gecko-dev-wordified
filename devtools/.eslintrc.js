@@ -437,15 +437,6 @@ warn
 never
 "
 ]
-/
-/
-Disabled
-temporarily
-until
-errors
-are
-fixed
-.
 "
 react
 /
@@ -455,7 +446,7 @@ types
 "
 :
 "
-off
+error
 "
 "
 react
