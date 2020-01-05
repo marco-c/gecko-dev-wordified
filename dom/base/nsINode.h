@@ -12468,9 +12468,8 @@ DOMQuad
 >
 &
 aResult
-mozilla
-:
-:
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -12493,6 +12492,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -12515,6 +12516,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -12538,6 +12541,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

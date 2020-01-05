@@ -7237,6 +7237,8 @@ DOMQuad
 >
 &
 aResult
+CallerType
+aCallerType
 mozilla
 :
 :
@@ -7253,6 +7255,7 @@ GetBoxQuads
 this
 aOptions
 aResult
+aCallerType
 aRv
 )
 ;
@@ -7277,6 +7280,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -7292,6 +7297,7 @@ this
 aQuad
 aFrom
 aOptions
+aCallerType
 aRv
 )
 ;
@@ -7316,6 +7322,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -7331,6 +7339,7 @@ this
 aRect
 aFrom
 aOptions
+aCallerType
 aRv
 )
 ;
@@ -7356,6 +7365,8 @@ const
 ConvertCoordinateOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -7371,6 +7382,7 @@ this
 aPoint
 aFrom
 aOptions
+aCallerType
 aRv
 )
 ;
