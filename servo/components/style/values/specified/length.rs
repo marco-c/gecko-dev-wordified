@@ -4176,6 +4176,10 @@ non
 -
 negative
 length
+#
+[
+inline
+]
 pub
 fn
 parse_non_negative
