@@ -7376,6 +7376,7 @@ Object
 :
 :
 Param
+bool
 >
 Args
 ;
@@ -7416,6 +7417,7 @@ media
 MediaDrmProxy
 Callbacks
 ;
+Z
 )
 Lorg
 /
@@ -7528,6 +7530,7 @@ Object
 :
 :
 Param
+bool
 )
 -
 >

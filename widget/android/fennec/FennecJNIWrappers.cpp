@@ -2387,6 +2387,8 @@ Object
 :
 Param
 a1
+bool
+a2
 )
 -
 >
@@ -2419,6 +2421,7 @@ Context
 nullptr
 a0
 a1
+a2
 )
 ;
 }
