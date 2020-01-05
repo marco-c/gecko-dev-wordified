@@ -3631,12 +3631,10 @@ CounterStyleManager
 >
 BuildCounterStyle
 (
-NS_LITERAL_STRING
-(
-"
+nsGkAtoms
+:
+:
 disc
-"
-)
 )
 ;
 }
