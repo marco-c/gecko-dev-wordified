@@ -1594,7 +1594,7 @@ Benchmarks
 .
 .
 /
-test
+tests
 /
 html
 /
