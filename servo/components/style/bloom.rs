@@ -1313,7 +1313,6 @@ ancestors
 while
 current_depth
 >
-=
 element_depth
 -
 1
