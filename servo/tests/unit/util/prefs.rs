@@ -70,7 +70,6 @@ read_prefs_from_file
 get_pref
 set_pref
 reset_pref
-reset_all_prefs
 }
 ;
 #

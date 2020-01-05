@@ -342,7 +342,7 @@ Item
 (
 &
 self
-index
+_index
 :
 u32
 )
