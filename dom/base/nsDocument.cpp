@@ -8108,6 +8108,15 @@ CSP_DOCUMENTS_COUNT
 1
 )
 ;
+Accumulate
+(
+Telemetry
+:
+:
+CSP_REFERRER_DIRECTIVE
+mHasReferrerPolicyCSP
+)
+;
 }
 if
 (
