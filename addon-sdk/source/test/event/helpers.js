@@ -358,7 +358,6 @@ addEventListener
 (
 type
 function
-listener
 (
 .
 .
@@ -366,15 +365,6 @@ listener
 args
 )
 {
-this
-.
-removeEventListener
-(
-type
-listener
-capture
-)
-;
 resolve
 (
 .
@@ -384,7 +374,12 @@ args
 )
 ;
 }
+{
 capture
+once
+:
+true
+}
 )
 ;
 }
