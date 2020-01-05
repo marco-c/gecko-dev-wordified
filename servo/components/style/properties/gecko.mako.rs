@@ -8152,6 +8152,7 @@ mLineName
 assign
 (
 &
+*
 other
 .
 gecko
@@ -14279,6 +14280,7 @@ mName
 assign
 (
 &
+*
 other
 .
 gecko
@@ -21609,6 +21611,7 @@ mTextEmphasisStyleString
 assign
 (
 &
+*
 other
 .
 gecko
@@ -22289,6 +22292,7 @@ mString
 assign
 (
 &
+*
 other
 .
 mString
