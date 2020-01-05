@@ -603,9 +603,7 @@ it
 wants
 to
 call
-it
-'
-s
+its
 observer
 methods
 /
@@ -639,7 +637,7 @@ is
 loaded
 from
 the
-netswork
+network
 the
 notifications
 come
