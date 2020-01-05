@@ -1299,7 +1299,7 @@ isdir
 (
 self
 .
-tempdir
+tmpdir
 )
 :
             
