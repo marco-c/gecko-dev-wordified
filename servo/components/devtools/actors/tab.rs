@@ -372,6 +372,10 @@ pub
 performance
 :
 String
+pub
+thread
+:
+String
 }
 impl
 Actor
@@ -522,7 +526,9 @@ threadActor
 :
 self
 .
-name
+thread
+.
+clone
 (
 )
 cacheDisabled
