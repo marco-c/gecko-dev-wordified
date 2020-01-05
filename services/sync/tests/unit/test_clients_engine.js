@@ -900,6 +900,9 @@ Service
 .
 login
 (
+"
+foo
+"
 )
 ;
 generateNewKeys

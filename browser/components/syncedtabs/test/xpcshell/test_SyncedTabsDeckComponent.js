@@ -1572,7 +1572,7 @@ chromeWindowMock
 gSyncUI
 :
 {
-openPrefs
+openSetup
 (
 )
 {
@@ -1598,7 +1598,7 @@ chromeWindowMock
 .
 gSyncUI
 "
-openPrefs
+openSetup
 "
 )
 ;
@@ -1769,7 +1769,7 @@ chromeWindowMock
 .
 gSyncUI
 .
-openPrefs
+openSetup
 .
 called
 )

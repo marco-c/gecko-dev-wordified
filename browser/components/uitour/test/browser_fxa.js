@@ -107,7 +107,7 @@ signOut
 ;
 gFxAccounts
 .
-updateUI
+updateAppMenuItem
 (
 )
 ;
@@ -234,7 +234,7 @@ now
 ;
 gFxAccounts
 .
-updateUI
+updateAppMenuItem
 (
 )
 ;
@@ -243,11 +243,6 @@ updateUI
 Causes
 a
 leak
-(
-see
-bug
-1332985
-)
 yield
 showMenuPromise
 (
