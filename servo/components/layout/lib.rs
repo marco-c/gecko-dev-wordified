@@ -85,6 +85,14 @@ box_syntax
 [
 feature
 (
+cell_extras
+)
+]
+#
+!
+[
+feature
+(
 custom_derive
 )
 ]
