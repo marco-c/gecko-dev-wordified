@@ -162,6 +162,7 @@ eDOMClassInfo_DOMConstructor_id
 CSS
 classes
 eDOMClassInfo_CSSStyleRule_id
+eDOMClassInfo_CSSImportRule_id
 eDOMClassInfo_CSSMediaRule_id
 /
 /
