@@ -26200,6 +26200,10 @@ allowHTMLComments
 (
 true
 )
+isProbablySystemOrAddonCode
+(
+false
+)
 introductionType
 (
 nullptr
@@ -26407,6 +26411,9 @@ sourceIsLazy
 ;
 bool
 allowHTMLComments
+;
+bool
+isProbablySystemOrAddonCode
 ;
 /
 /
@@ -34855,6 +34862,11 @@ toStringTag
 macro
 (
 unscopables
+)
+\
+macro
+(
+asyncIterator
 )
 enum
 class
