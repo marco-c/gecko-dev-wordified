@@ -67,7 +67,6 @@ js
 :
 :
 {
-JS
 JSRef
 Temporary
 }
@@ -154,13 +153,6 @@ name
 :
 DOMString
 pub
-window
-:
-JS
-<
-Window
->
-pub
 type_
 :
 BlobType
@@ -208,15 +200,6 @@ window
 name
 :
 name
-window
-:
-JS
-:
-:
-from_rooted
-(
-window
-)
 type_
 :
 FileTypeId
