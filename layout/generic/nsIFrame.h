@@ -18128,10 +18128,6 @@ aStyleContext
 nsView
 *
 aView
-uint32_t
-aFlags
-=
-0
 )
 ;
 /
