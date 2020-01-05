@@ -1400,6 +1400,10 @@ shadow
 :
 loweredShadow
 ;
+color
+:
+roundButtonColor
+;
 background
 :
 roundButtonBackground
@@ -1419,6 +1423,10 @@ active
 :
 hover
 {
+color
+:
+roundButtonColor
+;
 background
 :
 roundButtonPressedBackground
