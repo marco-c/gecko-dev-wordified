@@ -11882,13 +11882,12 @@ page
 id
 )
 ;
+let
+_
+=
 response_port
 .
 recv
-(
-)
-.
-unwrap
 (
 )
 ;
