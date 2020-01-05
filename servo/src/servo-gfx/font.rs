@@ -2206,7 +2206,7 @@ self
 ScaledFont
 {
 let
-cairo_font
+freetype_font
 =
 self
 .
@@ -2233,7 +2233,7 @@ new
 self
 .
 backend
-cairo_font
+freetype_font
 size
 )
 }
