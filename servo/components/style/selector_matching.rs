@@ -1504,7 +1504,7 @@ mode
 SimpleSelector
 :
 :
-IDSelector
+ID
 (
 ref
 id
@@ -1607,7 +1607,7 @@ mode
 SimpleSelector
 :
 :
-ClassSelector
+Class
 (
 ref
 class
@@ -1690,7 +1690,7 @@ ss
 SimpleSelector
 :
 :
-LocalNameSelector
+LocalName
 (
 ref
 name
@@ -4419,7 +4419,7 @@ ss
 SimpleSelector
 :
 :
-LocalNameSelector
+LocalName
 (
 LocalName
 {
@@ -4464,7 +4464,7 @@ NotMatchedGlobally
 SimpleSelector
 :
 :
-NamespaceSelector
+Namespace
 (
 ref
 namespace
@@ -4495,7 +4495,7 @@ NotMatchedGlobally
 SimpleSelector
 :
 :
-IDSelector
+ID
 (
 ref
 id
@@ -4526,7 +4526,7 @@ NotMatchedGlobally
 SimpleSelector
 :
 :
-ClassSelector
+Class
 (
 ref
 class
@@ -5433,7 +5433,7 @@ selector
 SimpleSelector
 :
 :
-LocalNameSelector
+LocalName
 (
 LocalName
 {
@@ -5484,7 +5484,7 @@ name
 SimpleSelector
 :
 :
-NamespaceSelector
+Namespace
 (
 ref
 namespace
@@ -5528,7 +5528,7 @@ mode
 SimpleSelector
 :
 :
-IDSelector
+ID
 (
 ref
 id
@@ -5574,7 +5574,7 @@ id
 SimpleSelector
 :
 :
-ClassSelector
+Class
 (
 ref
 class

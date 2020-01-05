@@ -283,7 +283,7 @@ get_unsigned_integer_attribute
 UnsignedIntegerAttribute
 :
 :
-ColSpanUnsignedIntegerAttribute
+ColSpan
 )
 .
 unwrap_or

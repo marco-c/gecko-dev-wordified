@@ -4221,7 +4221,7 @@ get_unsigned_integer_attribute_for_layout
 UnsignedIntegerAttribute
 :
 :
-BorderUnsignedIntegerAttribute
+Border
 )
 {
 None

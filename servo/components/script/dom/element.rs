@@ -2649,7 +2649,7 @@ attribute
 UnsignedIntegerAttribute
 :
 :
-BorderUnsignedIntegerAttribute
+Border
 =
 >
 {
@@ -2714,7 +2714,7 @@ None
 UnsignedIntegerAttribute
 :
 :
-ColSpanUnsignedIntegerAttribute
+ColSpan
 =
 >
 {
@@ -2806,7 +2806,7 @@ attribute
 SimpleColorAttribute
 :
 :
-BgColorSimpleColorAttribute
+BgColor
 =
 >
 {
