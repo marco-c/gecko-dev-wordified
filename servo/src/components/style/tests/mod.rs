@@ -63,7 +63,7 @@ super
 stylesheets
 :
 :
-parse_stylesheet
+Stylesheet
 ;
 #
 [
@@ -92,7 +92,10 @@ fail
 let
 stylesheet
 =
-parse_stylesheet
+Stylesheet
+:
+:
+from_str
 (
 include_str
 !
