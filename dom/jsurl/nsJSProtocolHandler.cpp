@@ -1741,7 +1741,7 @@ UTF
 )
 ;
 const
-nsCString
+nsLiteralCString
 *
 charset
 ;
