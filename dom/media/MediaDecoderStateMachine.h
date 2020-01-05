@@ -3960,7 +3960,7 @@ to
 be
 greater
 than
-ampleAudioThreshold
+mAmpleAudioThreshold
 else
 we
 '
@@ -4006,7 +4006,7 @@ media
 :
 :
 TimeUnit
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 ;
 /
 /
@@ -4113,7 +4113,7 @@ OnTaskQueue
 )
 ;
 return
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 .
 ToMicroseconds
 (
