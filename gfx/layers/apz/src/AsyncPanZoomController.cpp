@@ -6892,7 +6892,7 @@ mMonitor
 )
 ;
 CSSCoord
-mousePosition
+thumbPosition
 =
 ConvertScrollbarPoint
 (
@@ -6907,13 +6907,13 @@ aDragMetrics
 mScrollbarDragOffset
 ;
 CSSCoord
-scrollMax
+maxThumbPos
 =
 thumbData
 .
 mScrollTrackLength
 ;
-scrollMax
+maxThumbPos
 -
 =
 thumbData
@@ -6923,9 +6923,9 @@ mThumbLength
 float
 scrollPercent
 =
-mousePosition
+thumbPosition
 /
-scrollMax
+maxThumbPos
 ;
 CSSCoord
 minScrollPosition
