@@ -15268,6 +15268,9 @@ rv
 if
 (
 mTransaction
+&
+&
+mTransaction
 -
 >
 ProxyConnectFailed
