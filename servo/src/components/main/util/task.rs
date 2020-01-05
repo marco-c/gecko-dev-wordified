@@ -57,7 +57,7 @@ MPL
 *
 /
 use
-core
+std
 :
 :
 cell
@@ -66,7 +66,13 @@ cell
 Cell
 ;
 use
-core
+std
+:
+:
+comm
+;
+use
+std
 :
 :
 comm
@@ -78,7 +84,7 @@ Port
 }
 ;
 use
-core
+std
 :
 :
 task
@@ -218,6 +224,9 @@ let
 to_parent
 =
 Cell
+:
+:
+new
 (
 to_parent
 )

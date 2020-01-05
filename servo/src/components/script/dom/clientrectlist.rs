@@ -92,10 +92,10 @@ mut
 ClientRect
 ]
 }
-pub
 impl
 ClientRectList
 {
+pub
 fn
 new
 (
@@ -139,6 +139,7 @@ init_wrapper
 ;
 list
 }
+pub
 fn
 Length
 (
@@ -159,6 +160,7 @@ len
 as
 u32
 }
+pub
 fn
 Item
 (
@@ -204,6 +206,7 @@ else
 None
 }
 }
+pub
 fn
 IndexedGetter
 (

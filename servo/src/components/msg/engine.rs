@@ -84,7 +84,7 @@ these
 two
 components
 use
-core
+std
 :
 :
 comm
@@ -96,7 +96,7 @@ SharedChan
 }
 ;
 use
-std
+extra
 :
 :
 net

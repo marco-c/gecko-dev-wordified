@@ -166,7 +166,7 @@ flow
 FlowContext
 ;
 use
-core
+std
 :
 :
 cast
@@ -175,7 +175,7 @@ cast
 transmute
 ;
 use
-core
+std
 :
 :
 cell
@@ -184,7 +184,7 @@ cell
 Cell
 ;
 use
-core
+std
 :
 :
 comm
@@ -470,7 +470,7 @@ servo_util
 time
 ;
 use
-std
+extra
 :
 :
 net
@@ -515,6 +515,9 @@ let
 port
 =
 Cell
+:
+:
+new
 (
 port
 )
@@ -889,6 +892,9 @@ let
 data
 =
 Cell
+:
+:
+new
 (
 data
 )
@@ -934,6 +940,9 @@ let
 chan
 =
 Cell
+:
+:
+new
 (
 chan
 )
@@ -1018,6 +1027,9 @@ let
 sheet
 =
 Cell
+:
+:
+new
 (
 sheet
 )
@@ -1652,6 +1664,9 @@ let
 display_list
 =
 Cell
+:
+:
+new
 (
 DisplayList
 :
@@ -2381,6 +2396,9 @@ RenderBox
 >
 =
 Cell
+:
+:
+new
 (
 DisplayList
 :
@@ -2476,7 +2494,11 @@ box
 for
 display_list
 .
-each_reverse
+rev_iter
+(
+)
+.
+advance
 |
 display_item
 |

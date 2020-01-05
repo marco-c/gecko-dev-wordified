@@ -172,7 +172,7 @@ render_context
 RenderContext
 ;
 use
-core
+std
 :
 :
 cell
@@ -181,7 +181,7 @@ cell
 Cell
 ;
 use
-core
+std
 :
 :
 comm
@@ -192,6 +192,12 @@ Chan
 Port
 SharedChan
 }
+;
+use
+std
+:
+:
+uint
 ;
 use
 servo_util
@@ -424,6 +430,9 @@ let
 compositor_cell
 =
 Cell
+:
+:
+new
 (
 compositor
 )
@@ -432,6 +441,9 @@ let
 opts_cell
 =
 Cell
+:
+:
+new
 (
 opts
 )
@@ -440,6 +452,9 @@ let
 port
 =
 Cell
+:
+:
+new
 (
 port
 )

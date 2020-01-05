@@ -380,10 +380,10 @@ next_bid
 :
 int
 }
-pub
 impl
 LayoutTreeBuilder
 {
+pub
 fn
 new
 (
@@ -939,7 +939,9 @@ left
 margin
 border
 padding
-for
+let
+inline_spacer
+=
 self
 .
 make_inline_spacer_for_node_side
@@ -948,8 +950,15 @@ ctx
 node
 LogicalBefore
 )
+;
+for
+inline_spacer
 .
-each
+iter
+(
+)
+.
+advance
 |
 spacer
 :
@@ -1344,7 +1353,11 @@ LogicalAfter
 for
 result
 .
-each
+iter
+(
+)
+.
+advance
 |
 spacer
 |
@@ -1869,7 +1882,6 @@ none
 }
 }
 }
-pub
 impl
 LayoutTreeBuilder
 {
@@ -1881,6 +1893,7 @@ only
 ids
 *
 /
+pub
 fn
 next_flow_id
 (
@@ -1903,6 +1916,7 @@ self
 .
 next_cid
 }
+pub
 fn
 next_box_id
 (
@@ -1954,6 +1968,7 @@ on
 its
 children
 .
+pub
 fn
 construct_recursively
 (
@@ -2250,6 +2265,7 @@ Some
 this_generator
 )
 }
+pub
 fn
 box_generator_for_node
 (
@@ -2986,6 +3002,7 @@ Some
 new_generator
 )
 }
+pub
 fn
 create_child_generator
 (
@@ -3040,6 +3057,7 @@ new
 new_flow
 )
 }
+pub
 fn
 create_child_generator_if_needed
 (
@@ -3202,6 +3220,7 @@ with
 adjacent
 text
 .
+pub
 fn
 simplify_children_of_flow
 (
@@ -3371,7 +3390,11 @@ first_child
 for
 first_child
 .
-each
+iter
+(
+)
+.
+advance
 |
 &
 first_flow
@@ -3510,7 +3533,11 @@ last_child
 for
 last_child
 .
-each
+iter
+(
+)
+.
+advance
 |
 &
 last_flow
@@ -3639,6 +3666,7 @@ _
 }
 }
 }
+pub
 fn
 fixup_split_inline
 (
@@ -3695,6 +3723,7 @@ root
 DOM
 element
 .
+pub
 fn
 construct_trees
 (
@@ -3784,6 +3813,7 @@ the
 supplied
 node
 .
+pub
 fn
 make_flow
 (

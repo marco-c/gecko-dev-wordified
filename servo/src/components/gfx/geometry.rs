@@ -84,7 +84,7 @@ size
 Size2D
 ;
 use
-core
+std
 :
 :
 num
@@ -96,6 +96,13 @@ One
 Zero
 }
 ;
+#
+[
+deriving
+(
+Clone
+)
+]
 pub
 struct
 Au
@@ -306,9 +313,6 @@ self
 }
 }
 impl
-cmp
-:
-:
 Ord
 for
 Au
@@ -405,9 +409,6 @@ other
 }
 }
 impl
-cmp
-:
-:
 Eq
 for
 Au
@@ -871,7 +872,7 @@ box
 <
 T
 :
-Copy
+Clone
 +
 Ord
 +
@@ -922,7 +923,6 @@ h
 )
 )
 }
-pub
 impl
 Au
 {

@@ -82,7 +82,7 @@ local_image_cache
 LocalImageCache
 ;
 use
-core
+std
 :
 :
 util
@@ -100,7 +100,7 @@ size
 Size2D
 ;
 use
-std
+extra
 :
 :
 net
@@ -112,17 +112,13 @@ url
 Url
 ;
 use
-std
+extra
 :
 :
 arc
 :
 :
-{
 ARC
-clone
-get
-}
 ;
 /
 /
@@ -237,7 +233,6 @@ local_image_cache
 mut
 LocalImageCache
 }
-pub
 impl
 ImageHolder
 {
@@ -455,6 +450,7 @@ for
 computing
 layout
 .
+pub
 fn
 size
 (
@@ -483,6 +479,7 @@ current
 image
 size
 .
+pub
 fn
 get_size
 (
@@ -532,10 +529,10 @@ img
 let
 img_ref
 =
+img
+.
 get
 (
-&
-img
 )
 ;
 self
@@ -570,6 +567,7 @@ None
 None
 }
 }
+pub
 fn
 get_image
 (
@@ -768,9 +766,10 @@ image
 >
 Some
 (
+image
+.
 clone
 (
-image
 )
 )
 None

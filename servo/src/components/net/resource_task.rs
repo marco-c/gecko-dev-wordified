@@ -79,7 +79,7 @@ use
 http_loader
 ;
 use
-core
+std
 :
 :
 cell
@@ -88,7 +88,7 @@ cell
 Cell
 ;
 use
-core
+std
 :
 :
 comm
@@ -101,7 +101,7 @@ SharedChan
 }
 ;
 use
-std
+extra
 :
 :
 net
@@ -378,6 +378,9 @@ let
 loaders_cell
 =
 Cell
+:
+:
+new
 (
 loaders
 )

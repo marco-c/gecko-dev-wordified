@@ -68,6 +68,12 @@ utils
 :
 WrapperCache
 ;
+use
+std
+:
+:
+f32
+;
 pub
 struct
 ClientRect

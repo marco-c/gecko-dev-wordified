@@ -67,7 +67,7 @@ LoaderTask
 }
 ;
 use
-core
+std
 :
 :
 comm
@@ -76,7 +76,7 @@ comm
 SharedChan
 ;
 use
-core
+std
 :
 :
 task

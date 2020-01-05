@@ -57,7 +57,13 @@ MPL
 *
 /
 use
-core
+std
+:
+:
+comm
+;
+use
+std
 :
 :
 comm
@@ -67,6 +73,12 @@ comm
 Chan
 Port
 }
+;
+use
+std
+:
+:
+task
 ;
 pub
 fn

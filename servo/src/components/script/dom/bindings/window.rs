@@ -111,7 +111,19 @@ super
 utils
 ;
 use
-core
+std
+:
+:
+cast
+;
+use
+std
+:
+:
+libc
+;
+use
+std
 :
 :
 libc
@@ -120,7 +132,7 @@ libc
 c_uint
 ;
 use
-core
+std
 :
 :
 ptr
@@ -129,10 +141,16 @@ ptr
 null
 ;
 use
-core
+std
 :
 :
 ptr
+;
+use
+std
+:
+:
+result
 ;
 use
 js
@@ -162,9 +180,6 @@ js
 glue
 :
 :
-bindgen
-:
-:
 *
 ;
 use
@@ -174,9 +189,6 @@ js
 glue
 :
 :
-bindgen
-:
-:
 RUST_JSVAL_TO_INT
 ;
 use
@@ -184,9 +196,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -202,9 +211,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_GetReservedSlot
 JS_SetReservedSlot
@@ -215,9 +221,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -570,6 +573,8 @@ JSVal
 >
 JSBool
 {
+unsafe
+{
 let
 runtime
 =
@@ -586,6 +591,7 @@ runtime
 return
 1
 ;
+}
 }
 unsafe
 fn
@@ -923,6 +929,8 @@ null
 }
 ]
 ;
+unsafe
+{
 JS_DefineFunctions
 (
 compartment
@@ -940,6 +948,7 @@ methods
 ]
 )
 ;
+}
 }
 pub
 fn
@@ -1028,7 +1037,6 @@ raw_ptr
 )
 )
 ;
-}
 /
 /
 TODO
@@ -1082,6 +1090,7 @@ JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;
+}
 }
 impl
 CacheableWrapper

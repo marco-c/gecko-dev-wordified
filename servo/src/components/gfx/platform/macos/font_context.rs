@@ -83,6 +83,12 @@ FontHandle
 use
 core_text
 ;
+use
+std
+:
+:
+result
+;
 pub
 struct
 FontContextHandle
@@ -92,7 +98,6 @@ ctx
 (
 )
 }
-pub
 impl
 FontContextHandle
 {

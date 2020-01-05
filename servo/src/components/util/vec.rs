@@ -57,7 +57,7 @@ MPL
 *
 /
 use
-core
+std
 :
 :
 cmp

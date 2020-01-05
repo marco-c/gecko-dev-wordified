@@ -114,10 +114,16 @@ JSObject
 JSContext
 }
 ;
-pub
+use
+std
+:
+:
+cast
+;
 impl
 HTMLCollection
 {
+pub
 fn
 init_wrapper
 (

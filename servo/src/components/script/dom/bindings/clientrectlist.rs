@@ -114,10 +114,16 @@ JSObject
 JSContext
 }
 ;
-pub
+use
+std
+:
+:
+cast
+;
 impl
 ClientRectList
 {
+pub
 fn
 init_wrapper
 (

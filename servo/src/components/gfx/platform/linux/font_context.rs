@@ -105,13 +105,16 @@ freetype
 freetype
 :
 :
-bindgen
-:
-:
 {
 FT_Done_FreeType
 FT_Init_FreeType
 }
+;
+use
+std
+:
+:
+ptr
 ;
 struct
 FreeTypeLibraryHandle
@@ -144,6 +147,8 @@ is_not_null
 )
 )
 ;
+unsafe
+{
 FT_Done_FreeType
 (
 self
@@ -151,6 +156,7 @@ self
 ctx
 )
 ;
+}
 }
 }
 pub
@@ -161,7 +167,6 @@ ctx
 :
 FreeTypeLibraryHandle
 }
-pub
 impl
 FontContextHandle
 {
@@ -173,6 +178,8 @@ new
 -
 >
 FontContextHandle
+{
+unsafe
 {
 let
 ctx
@@ -224,6 +231,7 @@ FreeTypeLibraryHandle
 ctx
 :
 ctx
+}
 }
 }
 }

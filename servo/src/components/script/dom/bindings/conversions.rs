@@ -81,9 +81,6 @@ js
 glue
 :
 :
-bindgen
-:
-:
 {
 RUST_UINT_TO_JSVAL
 RUST_JSVAL_TO_INT
@@ -133,11 +130,14 @@ self
 >
 JSVal
 {
+unsafe
+{
 RUST_UINT_TO_JSVAL
 (
 *
 self
 )
+}
 }
 fn
 from_jsval
@@ -153,6 +153,8 @@ Option
 u32
 >
 {
+unsafe
+{
 Some
 (
 RUST_JSVAL_TO_INT
@@ -162,6 +164,7 @@ val
 as
 u32
 )
+}
 }
 }
 impl

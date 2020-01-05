@@ -26217,7 +26217,7 @@ static
 object
 =
 "
-self
+this
 "
 declareResult
 =
@@ -28017,7 +28017,7 @@ descriptor
 obj
 "
 "
-self
+this
 "
 self
 .
@@ -28119,7 +28119,7 @@ n
                       
 "
 let
-self
+this
 :
 *
 rust_box
@@ -28289,7 +28289,7 @@ to_unsafe_ptr
 &
 (
 *
-self
+this
 )
 .
 payload
@@ -28483,7 +28483,7 @@ descriptor
 .
 nativeType
 '
-self
+this
 '
 )
                 
@@ -28806,7 +28806,7 @@ to_unsafe_ptr
 &
 (
 *
-self
+this
 )
 .
 payload
@@ -28923,7 +28923,7 @@ descriptor
 .
 nativeType
 '
-self
+this
 '
 )
                  
@@ -31836,7 +31836,7 @@ n
                                    
 "
 let
-self
+this
 =
 UnwrapProxy
 (
@@ -32058,7 +32058,7 @@ n
                         
 "
 let
-self
+this
 =
 UnwrapProxy
 (
@@ -32619,7 +32619,7 @@ return
 "
   
 let
-self
+this
 :
 *
 %
@@ -32718,11 +32718,11 @@ return
 "
 if
 (
-self
+this
 )
 {
   
-self
+this
 -
 >
 %
@@ -37550,33 +37550,7 @@ jsapi
 js
 :
 :
-jsapi
-:
-:
-bindgen
-:
-:
-*
-'
-                          
-'
-js
-:
-:
 jsfriendapi
-:
-:
-bindgen
-:
-:
-*
-'
-                          
-'
-js
-:
-:
-glue
 :
 :
 bindgen
@@ -37758,6 +37732,41 @@ node
 :
 :
 ScriptView
+'
+                          
+'
+std
+:
+:
+cast
+'
+                          
+'
+std
+:
+:
+libc
+'
+                          
+'
+std
+:
+:
+ptr
+'
+                          
+'
+std
+:
+:
+vec
+'
+                          
+'
+std
+:
+:
+str
 '
                          
 ]

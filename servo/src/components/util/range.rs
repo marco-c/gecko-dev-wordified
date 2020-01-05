@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+use
+std
+:
+:
+uint
+;
 enum
 RangeRelation
 {
@@ -96,7 +102,6 @@ len
 :
 uint
 }
-pub
 impl
 Range
 {
@@ -144,10 +149,10 @@ new
 )
 }
 }
-pub
 impl
 Range
 {
+pub
 fn
 begin
 (
@@ -162,6 +167,7 @@ self
 .
 off
 }
+pub
 fn
 length
 (
@@ -176,6 +182,7 @@ self
 .
 len
 }
+pub
 fn
 end
 (
@@ -194,6 +201,7 @@ self
 .
 len
 }
+pub
 fn
 eachi
 (
@@ -247,6 +255,7 @@ break
 }
 true
 }
+pub
 fn
 contains
 (
@@ -278,6 +287,7 @@ end
 (
 )
 }
+pub
 fn
 is_valid_for_string
 (
@@ -332,6 +342,7 @@ len
 (
 )
 }
+pub
 fn
 shift_by
 (
@@ -362,6 +373,7 @@ as
 uint
 ;
 }
+pub
 fn
 extend_by
 (
@@ -392,6 +404,7 @@ as
 uint
 ;
 }
+pub
 fn
 extend_to
 (
@@ -414,6 +427,7 @@ self
 off
 ;
 }
+pub
 fn
 adjust_by
 (
@@ -465,6 +479,7 @@ as
 uint
 ;
 }
+pub
 fn
 reset
 (
@@ -535,6 +550,7 @@ before
 other
 range
 .
+pub
 fn
 relation_to_range
 (
@@ -805,6 +821,7 @@ other
 )
 ;
 }
+pub
 fn
 repair_after_coalesced_range
 (

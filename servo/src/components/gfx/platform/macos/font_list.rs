@@ -154,13 +154,19 @@ use
 core_text
 ;
 use
-core
+std
 :
 :
 hashmap
 :
 :
 HashMap
+;
+use
+std
+:
+:
+result
 ;
 pub
 struct
@@ -170,10 +176,10 @@ fctx
 :
 FontContextHandle
 }
-pub
 impl
 FontListHandle
 {
+pub
 fn
 new
 (
@@ -197,6 +203,7 @@ clone
 )
 }
 }
+pub
 fn
 get_available_families
 (
@@ -306,6 +313,7 @@ return
 family_map
 ;
 }
+pub
 fn
 load_variations_for_family
 (
@@ -458,6 +466,7 @@ entry
 )
 }
 }
+pub
 fn
 get_last_resort_font_families
 (

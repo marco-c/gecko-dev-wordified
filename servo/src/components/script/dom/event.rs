@@ -111,6 +111,12 @@ point
 :
 Point2D
 ;
+use
+std
+:
+:
+comm
+;
 pub
 enum
 Event
