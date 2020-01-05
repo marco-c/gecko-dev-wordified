@@ -428,6 +428,9 @@ Cell
 <
 bool
 >
+line_number
+:
+u64
 }
 impl
 HTMLStyleElement
@@ -530,6 +533,13 @@ Cell
 new
 (
 false
+)
+line_number
+:
+creator
+.
+return_line_number
+(
 )
 }
 }
@@ -852,6 +862,9 @@ win
 css_error_reporter
 (
 )
+self
+.
+line_number
 )
 ;
 let

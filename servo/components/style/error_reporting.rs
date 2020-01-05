@@ -115,6 +115,7 @@ Send
 /
 /
 Called
+when
 the
 style
 engine
@@ -169,6 +170,9 @@ url
 :
 &
 UrlExtraData
+line_number_offset
+:
+u64
 )
 ;
 }
@@ -242,6 +246,9 @@ url
 :
 &
 UrlExtraData
+line_number_offset
+:
+u64
 )
 {
 if
@@ -266,6 +273,17 @@ source_location
 (
 position
 )
+;
+let
+line_offset
+=
+location
+.
+line
++
+line_number_offset
+as
+usize
 ;
 info
 !
@@ -292,9 +310,7 @@ url
 as_str
 (
 )
-location
-.
-line
+line_offset
 location
 .
 column

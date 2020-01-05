@@ -596,6 +596,7 @@ lock
 None
 &
 CSSErrorReporterTest
+0u64
 )
 ;
 let
@@ -2271,6 +2272,9 @@ url
 :
 &
 ServoUrl
+line_number_offset
+:
+u64
 )
 {
 let
@@ -2282,6 +2286,17 @@ source_location
 (
 position
 )
+;
+let
+line_offset
+=
+location
+.
+line
++
+line_number_offset
+as
+usize
 ;
 let
 mut
@@ -2314,9 +2329,7 @@ clone
 )
 line
 :
-location
-.
-line
+line_offset
 column
 :
 location
@@ -2459,6 +2472,7 @@ lock
 None
 &
 error_reporter
+5u64
 )
 ;
 let
@@ -2511,7 +2525,7 @@ message
 assert_eq
 !
 (
-5
+10
 error
 .
 line
@@ -2562,7 +2576,7 @@ message
 assert_eq
 !
 (
-4
+9
 error
 .
 line
