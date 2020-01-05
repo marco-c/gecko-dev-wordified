@@ -2774,12 +2774,12 @@ ShapeInfo
 >
 CreateInset
 (
+const
 mozilla
 :
 :
 StyleBasicShape
 *
-const
 aBasicShape
 const
 mozilla
@@ -2809,12 +2809,12 @@ ShapeInfo
 >
 CreateCircleOrEllipse
 (
+const
 mozilla
 :
 :
 StyleBasicShape
 *
-const
 aBasicShape
 const
 mozilla
