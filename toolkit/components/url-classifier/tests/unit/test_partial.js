@@ -105,6 +105,7 @@ function
 (
 partialHash
 gethashUrl
+tableName
 cb
 )
 {
