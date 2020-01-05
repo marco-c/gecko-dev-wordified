@@ -914,7 +914,7 @@ s
 actions
 list
 .
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -971,7 +971,7 @@ function
 (
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -1283,7 +1283,7 @@ Close
 the
 ActionBar
 .
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
@@ -1687,7 +1687,7 @@ sendAlways
 actionsMatch
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
