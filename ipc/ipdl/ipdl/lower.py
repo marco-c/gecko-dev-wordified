@@ -33116,8 +33116,6 @@ extend
 #
 PickleIterator
 msgverifyIter__
-=
-PickleIterator
 (
 msgverify__
 )
@@ -33139,23 +33137,11 @@ itervar
 name
 )
                        
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                     
-args
+initargs
 =
 [
 msgvar
 ]
-)
 )
 ]
             
@@ -33717,24 +33703,12 @@ itervar
 .
 name
 )
-                     
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                   
-args
+                       
+initargs
 =
 [
 msgvar
 ]
-)
 )
 ]
             
@@ -33944,25 +33918,13 @@ itervar
 name
 )
                        
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                     
-args
+initargs
 =
 [
 self
 .
 replyvar
 ]
-)
 )
 ]
             
