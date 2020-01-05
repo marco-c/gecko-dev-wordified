@@ -1485,7 +1485,7 @@ rootFrame
 nullptr
 )
 ;
-nsIntRect
+CSSIntRect
 rootRect
 =
 rootFrame

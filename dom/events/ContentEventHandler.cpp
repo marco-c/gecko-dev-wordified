@@ -19847,7 +19847,7 @@ WidgetToScreenOffset
 (
 )
 ;
-nsIntRect
+CSSIntRect
 docFrameRect
 =
 docFrame
@@ -19857,11 +19857,6 @@ GetScreenRect
 (
 )
 ;
-/
-/
-Returns
-CSS
-pixels
 CSSIntPoint
 eventLocCSS
 (

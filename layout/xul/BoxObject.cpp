@@ -1338,7 +1338,7 @@ if
 frame
 )
 {
-nsIntRect
+CSSIntRect
 rect
 =
 frame
