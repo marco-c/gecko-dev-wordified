@@ -3951,13 +3951,6 @@ full_backtraces
 false
 }
 }
-#
-[
-allow
-(
-str_to_string
-)
-]
 pub
 fn
 from_cmdline_args
