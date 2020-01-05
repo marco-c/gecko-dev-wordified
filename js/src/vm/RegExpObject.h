@@ -322,6 +322,8 @@ RegExpAlloc
 JSContext
 *
 cx
+NewObjectKind
+newKind
 HandleObject
 proto
 =
@@ -494,6 +496,8 @@ ts
 LifoAlloc
 &
 alloc
+NewObjectKind
+newKind
 )
 ;
 static
@@ -521,6 +525,8 @@ ts
 LifoAlloc
 &
 alloc
+NewObjectKind
+newKind
 )
 ;
 /
