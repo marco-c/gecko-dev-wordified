@@ -248,10 +248,6 @@ extern
 crate
 serde_derive
 ;
-extern
-crate
-url
-;
 /
 /
 /
