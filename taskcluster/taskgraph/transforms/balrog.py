@@ -94,6 +94,14 @@ validate_schema
 from
 taskgraph
 .
+util
+.
+scriptworker
+import
+get_balrog_server_scope
+from
+taskgraph
+.
 transforms
 .
 task
@@ -769,6 +777,13 @@ json
 }
 ]
         
+server_scope
+=
+get_balrog_server_scope
+(
+config
+)
+        
 task
 =
 {
@@ -860,32 +875,12 @@ upstream_artifacts
             
 }
             
-#
-bump
-this
-to
-nightly
-/
-release
-when
-applicable
-+
-permitted
-            
 '
 scopes
 '
 :
 [
-"
-project
-:
-releng
-:
-balrog
-:
-nightly
-"
+server_scope
 ]
             
 '

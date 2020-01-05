@@ -95,6 +95,14 @@ validate_schema
 from
 taskgraph
 .
+util
+.
+scriptworker
+import
+get_beetmover_bucket_scope
+from
+taskgraph
+.
 transforms
 .
 task
@@ -659,6 +667,13 @@ locale
 '
 )
         
+bucket_scope
+=
+get_beetmover_bucket_scope
+(
+config
+)
+        
 task
 =
 {
@@ -720,15 +735,7 @@ scopes
 '
 :
 [
-"
-project
-:
-releng
-:
-beetmover
-:
-nightly
-"
+bucket_scope
 ]
             
 '
