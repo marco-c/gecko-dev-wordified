@@ -16677,10 +16677,6 @@ len
 =
 0
 ;
-CERTCertificate
-*
-cert
-;
 MOZ_ASSERT
 (
 fingerprint
@@ -16693,6 +16689,9 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
+const
+UniqueCERTCertificate
+&
 cert
 =
 mCertificate
@@ -16704,6 +16703,9 @@ Certificate
 ;
 #
 else
+const
+UniqueCERTCertificate
+&
 cert
 =
 mIdentity

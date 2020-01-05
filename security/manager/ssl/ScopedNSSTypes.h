@@ -484,12 +484,6 @@ instead
 .
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
-ScopedPRFileDesc
-PRFileDesc
-PR_Close
-)
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
-(
 ScopedCERTCertificate
 CERTCertificate
 CERT_DestroyCertificate
