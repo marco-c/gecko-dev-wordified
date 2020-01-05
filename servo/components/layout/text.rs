@@ -1343,15 +1343,13 @@ old_fragment
 continue
 }
 let
-text_inline_size
+text_size
 =
 old_fragment
 .
 border_box
 .
 size
-.
-inline
 ;
 let
 new_text_fragment_info
@@ -1367,7 +1365,7 @@ clone
 (
 )
 range
-text_inline_size
+text_size
 )
 ;
 let

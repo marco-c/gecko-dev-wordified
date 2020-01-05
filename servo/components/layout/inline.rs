@@ -3646,8 +3646,6 @@ in_fragment
 border_box
 .
 size
-.
-inline
 )
 ;
 let
@@ -4348,8 +4346,6 @@ in_fragment
 border_box
 .
 size
-.
-inline
 )
 ;
 let
