@@ -1,10 +1,5 @@
 use
-au
-=
 geometry
-;
-use
-au
 :
 :
 Au
@@ -2812,7 +2807,7 @@ offset
 None
 =
 >
-au
+geometry
 :
 :
 zero_point
@@ -3360,7 +3355,7 @@ data
 offset
 =
 =
-au
+geometry
 :
 :
 zero_point

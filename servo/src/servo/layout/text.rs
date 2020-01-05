@@ -266,8 +266,10 @@ raw_text
 str
 {
 match
+&
 self
 {
+&
 UnscannedTextBox
 (
 _

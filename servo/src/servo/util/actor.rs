@@ -59,7 +59,7 @@ ActorRef
 <
 M
 :
-Send
+Owned
 >
 {
 chan
@@ -73,7 +73,7 @@ impl
 <
 M
 :
-Send
+Owned
 >
 ActorRef
 <
@@ -150,7 +150,7 @@ M
 >
 M
 :
-Send
+Owned
 >
 (
 f
@@ -172,8 +172,8 @@ M
 {
 let
 (
-chan
 port
+chan
 )
 =
 stream
@@ -239,7 +239,7 @@ SharedActorRef
 <
 M
 :
-Send
+Owned
 >
 {
 chan
@@ -253,7 +253,7 @@ impl
 <
 M
 :
-Send
+Owned
 >
 SharedActorRef
 <
@@ -313,7 +313,7 @@ SharedActorRef
 <
 M
 :
-Send
+Owned
 >
 (
 actor
@@ -518,8 +518,8 @@ bob
 ;
 let
 (
-chan
 port
+chan
 )
 =
 stream
@@ -584,8 +584,8 @@ clone
 ;
 let
 (
-chan1
 port1
+chan1
 )
 =
 stream
@@ -605,8 +605,8 @@ chan1
 ;
 let
 (
-chan2
 port2
+chan2
 )
 =
 stream
@@ -652,8 +652,8 @@ bob
 ;
 let
 (
-chan
 port
+chan
 )
 =
 stream

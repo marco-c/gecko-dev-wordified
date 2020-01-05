@@ -605,8 +605,6 @@ type
 ScopeData
 <
 T
-:
-Send
 A
 >
 =
@@ -640,8 +638,6 @@ struct
 ScopeResource
 <
 T
-:
-Send
 A
 >
 {
@@ -681,7 +677,7 @@ ScopeResource
 <
 T
 :
-Send
+Owned
 A
 >
 (
@@ -714,8 +710,6 @@ type
 Scope
 <
 T
-:
-Send
 A
 >
 =
@@ -729,8 +723,6 @@ type
 HandleData
 <
 T
-:
-Send
 A
 >
 =
@@ -766,8 +758,6 @@ enum
 Handle
 <
 T
-:
-Send
 A
 >
 {
@@ -788,8 +778,6 @@ methods
 impl
 <
 T
-:
-Send
 A
 >
 Handle
@@ -1002,7 +990,7 @@ impl
 <
 T
 :
-Send
+Owned
 A
 >
 Handle
@@ -1204,7 +1192,7 @@ impl
 <
 T
 :
-Send
+Owned
 A
 >
 Handle
@@ -1284,7 +1272,7 @@ impl
 T
 :
 Copy
-Send
+Owned
 A
 >
 Scope
@@ -1425,8 +1413,6 @@ fn
 free
 <
 T
-:
-Send
 >
 (
 t
@@ -1479,8 +1465,6 @@ fn
 free_handle
 <
 T
-:
-Send
 A
 >
 (
@@ -1557,7 +1541,7 @@ unwrap
 <
 T
 :
-Send
+Owned
 A
 >
 (
@@ -1588,7 +1572,7 @@ wrap
 <
 T
 :
-Send
+Owned
 A
 >
 (
@@ -1619,7 +1603,7 @@ null_handle
 <
 T
 :
-Send
+Owned
 A
 >
 (
@@ -1648,7 +1632,7 @@ Scope
 <
 T
 :
-Send
+Owned
 A
 >
 (
@@ -1692,7 +1676,7 @@ impl
 T
 :
 Copy
-Send
+Owned
 A
 >
 Scope

@@ -112,8 +112,8 @@ u8
 33004
 ]
 =
-#
 include_bin
+!
 (
 "
 JosefinSans
@@ -1359,10 +1359,12 @@ Font
 {
 return
 match
+&
 desc
 .
 selector
 {
+&
 SelectorStubDummy
 =
 >
@@ -1404,6 +1406,7 @@ name
 font
 selectors
 .
+&
 SelectorPlatformIdentifier
 (
 identifier
