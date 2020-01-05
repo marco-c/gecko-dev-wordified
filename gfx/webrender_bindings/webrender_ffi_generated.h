@@ -2084,6 +2084,7 @@ LockExternalImageCallback
 void
 *
 WrExternalImageId
+uint8_t
 )
 ;
 typedef
@@ -2096,6 +2097,7 @@ UnlockExternalImageCallback
 void
 *
 WrExternalImageId
+uint8_t
 )
 ;
 struct

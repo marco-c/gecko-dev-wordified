@@ -194,6 +194,8 @@ void
 aObj
 WrExternalImageId
 aId
+uint8_t
+aChannelIndex
 )
 {
 RendererOGL
@@ -355,6 +357,8 @@ void
 aObj
 WrExternalImageId
 aId
+uint8_t
+aChannelIndex
 )
 {
 RendererOGL

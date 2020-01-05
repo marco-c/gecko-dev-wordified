@@ -2823,6 +2823,7 @@ fn
 mut
 c_void
 WrExternalImageId
+u8
 )
 -
 >
@@ -2837,6 +2838,7 @@ fn
 mut
 c_void
 WrExternalImageId
+u8
 )
 ;
 #
@@ -2876,7 +2878,7 @@ self
 id
 :
 ExternalImageId
-_channel_index
+channel_index
 :
 u8
 )
@@ -2901,6 +2903,7 @@ id
 into
 (
 )
+channel_index
 )
 ;
 match
@@ -3009,7 +3012,7 @@ self
 id
 :
 ExternalImageId
-_channel_index
+channel_index
 :
 u8
 )
@@ -3028,6 +3031,7 @@ id
 into
 (
 )
+channel_index
 )
 ;
 }
