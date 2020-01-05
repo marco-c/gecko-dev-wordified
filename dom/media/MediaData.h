@@ -2970,7 +2970,12 @@ aDuration
 void
 UpdateTimestamp
 (
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTimestamp
 )
 ;

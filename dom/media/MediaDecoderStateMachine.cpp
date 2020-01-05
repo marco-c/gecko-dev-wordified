@@ -8755,10 +8755,6 @@ aVideo
 UpdateTimestamp
 (
 target
-.
-ToMicroseconds
-(
-)
 )
 ;
 }
