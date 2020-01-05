@@ -2237,11 +2237,12 @@ for
 two
 nodes
 .
+*
+*
 Returns
 null
 if
 the
-*
 nodes
 are
 disconnected
