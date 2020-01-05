@@ -133,7 +133,7 @@ namespace
 mozilla
 ;
 static
-const
+constexpr
 nsUConvProp
 kWinCharsets
 [

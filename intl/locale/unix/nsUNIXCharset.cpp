@@ -230,7 +230,7 @@ namespace
 mozilla
 ;
 static
-const
+constexpr
 nsUConvProp
 kUnixCharsets
 [
