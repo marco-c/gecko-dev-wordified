@@ -134,11 +134,6 @@ cleanUpMinidump
 id
 )
 {
-if
-(
-id
-)
-{
 let
 dir
 =
@@ -220,7 +215,6 @@ remove
 true
 )
 ;
-}
 }
 /
 *
