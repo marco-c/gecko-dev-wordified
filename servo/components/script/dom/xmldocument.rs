@@ -220,6 +220,12 @@ JSObject
 }
 ;
 use
+origin
+:
+:
+Origin
+;
+use
 servo_url
 :
 :
@@ -276,6 +282,9 @@ Option
 <
 ServoUrl
 >
+origin
+:
+Origin
 is_html_document
 :
 IsHTMLDocument
@@ -314,6 +323,7 @@ new_inherited
 window
 browsing_context
 url
+origin
 is_html_document
 content_type
 last_modified
@@ -345,6 +355,9 @@ Option
 <
 ServoUrl
 >
+origin
+:
+Origin
 doctype
 :
 IsHTMLDocument
@@ -388,6 +401,7 @@ new_inherited
 window
 browsing_context
 url
+origin
 doctype
 content_type
 last_modified

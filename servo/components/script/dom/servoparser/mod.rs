@@ -962,6 +962,15 @@ clone
 (
 )
 )
+context_document
+.
+origin
+(
+)
+.
+alias
+(
+)
 IsHTMLDocument
 :
 :
