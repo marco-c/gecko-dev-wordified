@@ -3765,6 +3765,14 @@ CurrentPosition
 {
 return
 mCurrentPosition
+.
+Ref
+(
+)
+.
+ToMicroseconds
+(
+)
 ;
 }
 /
@@ -4974,7 +4982,10 @@ CurrentPosition
 .
 Mirror
 <
-int64_t
+media
+:
+:
+TimeUnit
 >
 mCurrentPosition
 ;
