@@ -3708,6 +3708,14 @@ AddonAllowsLoad
 nsIURI
 *
 aURI
+bool
+aExplicit
+/
+*
+=
+false
+*
+/
 )
 {
 if
@@ -3771,6 +3779,7 @@ mOriginAttributes
 .
 mAddonId
 aURI
+aExplicit
 &
 allowed
 )

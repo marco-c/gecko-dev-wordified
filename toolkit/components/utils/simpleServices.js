@@ -686,6 +686,9 @@ addonMayLoadURI
 (
 aAddonId
 aURI
+aExplicit
+=
+false
 )
 {
 let
@@ -706,6 +709,7 @@ cb
 cb
 (
 aURI
+aExplicit
 )
 :
 false
