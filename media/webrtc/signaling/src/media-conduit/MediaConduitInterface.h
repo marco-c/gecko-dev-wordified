@@ -2033,7 +2033,7 @@ MediaSessionConduit
 /
 virtual
 void
-AddLocalRTPExtensions
+SetLocalRTPExtensions
 (
 bool
 aIsSend

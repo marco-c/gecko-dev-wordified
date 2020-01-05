@@ -5144,7 +5144,7 @@ empty
 conduit
 -
 >
-AddLocalRTPExtensions
+SetLocalRTPExtensions
 (
 false
 extmaps
@@ -5322,7 +5322,7 @@ empty
 conduit
 -
 >
-AddLocalRTPExtensions
+SetLocalRTPExtensions
 (
 true
 extmaps
