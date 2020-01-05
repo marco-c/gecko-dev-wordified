@@ -6718,7 +6718,7 @@ so
 that
 jsapi
 is
-detroyed
+destroyed
 and
 /
 /
