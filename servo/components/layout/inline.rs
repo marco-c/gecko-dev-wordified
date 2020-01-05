@@ -230,12 +230,6 @@ use
 std
 :
 :
-iter
-;
-use
-std
-:
-:
 mem
 ;
 use
