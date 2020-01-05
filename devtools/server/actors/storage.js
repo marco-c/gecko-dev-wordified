@@ -7626,6 +7626,17 @@ storageActor
 .
 window
 ;
+if
+(
+!
+CacheStorage
+)
+{
+return
+[
+]
+;
+}
 let
 cache
 =
