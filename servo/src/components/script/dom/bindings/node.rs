@@ -591,6 +591,17 @@ HTMLLinkElement
 )
 ElementNodeTypeId
 (
+HTMLMainElementTypeId
+)
+=
+>
+generate_element
+!
+(
+HTMLMainElement
+)
+ElementNodeTypeId
+(
 HTMLMapElementTypeId
 )
 =
