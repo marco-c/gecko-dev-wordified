@@ -786,7 +786,7 @@ lul
 :
 LUL
 *
-sLUL
+gLUL
 =
 nullptr
 ;
@@ -795,13 +795,13 @@ nullptr
 This
 is
 the
-sLUL
+gLUL
 initialization
 routine
 .
 static
 void
-sLUL_initialization_routine
+gLUL_initialization_routine
 (
 void
 )
@@ -809,7 +809,7 @@ void
 MOZ_ASSERT
 (
 !
-sLUL
+gLUL
 )
 ;
 MOZ_ASSERT
@@ -835,7 +835,7 @@ thread
 "
 *
 /
-sLUL
+gLUL
 =
 new
 lul
@@ -858,7 +858,7 @@ available
 .
 read_procmaps
 (
-sLUL
+gLUL
 )
 ;
 }
@@ -1170,11 +1170,11 @@ Atomic
 ThreadInfo
 *
 >
-sCurrentThreadInfo
+gCurrentThreadInfo
 ;
 static
 sem_t
-sSignalHandlingDone
+gSignalHandlingDone
 ;
 static
 void
@@ -1618,7 +1618,7 @@ gSampler
 sem_post
 (
 &
-sSignalHandlingDone
+gSignalHandlingDone
 )
 ;
 errno
@@ -1665,7 +1665,7 @@ sample
 >
 threadInfo
 =
-sCurrentThreadInfo
+gCurrentThreadInfo
 ;
 sample
 -
@@ -1713,14 +1713,14 @@ Tick
 sample
 )
 ;
-sCurrentThreadInfo
+gCurrentThreadInfo
 =
 NULL
 ;
 sem_post
 (
 &
-sSignalHandlingDone
+gSignalHandlingDone
 )
 ;
 errno
@@ -1972,7 +1972,7 @@ gIsPaused
 StaticMutexAutoLock
 lock
 (
-sRegisteredThreadsMutex
+gRegisteredThreadsMutex
 )
 ;
 bool
@@ -1989,7 +1989,7 @@ i
 ;
 i
 <
-sRegisteredThreads
+gRegisteredThreads
 -
 >
 size
@@ -2007,7 +2007,7 @@ info
 =
 (
 *
-sRegisteredThreads
+gRegisteredThreads
 )
 [
 i
@@ -2088,7 +2088,7 @@ UpdateThreadResponsiveness
 /
 We
 use
-sCurrentThreadInfo
+gCurrentThreadInfo
 to
 pass
 the
@@ -2107,7 +2107,7 @@ the
 signal
 handler
 .
-sCurrentThreadInfo
+gCurrentThreadInfo
 =
 info
 ;
@@ -2166,7 +2166,7 @@ catch
 .
 ProfilerSignalThread
 (
-sCurrentThreadInfo
+gCurrentThreadInfo
 isFirstProfiledThread
 )
 ;
@@ -2265,7 +2265,7 @@ one
 sem_wait
 (
 &
-sSignalHandlingDone
+gSignalHandlingDone
 )
 ;
 isFirstProfiledThread
@@ -2356,7 +2356,7 @@ defined
 (
 USE_LUL_STACKWALK
 )
-sLUL
+gLUL
 -
 >
 MaybeShowStats
@@ -2574,10 +2574,10 @@ general
 if
 (
 !
-sLUL
+gLUL
 )
 {
-sLUL_initialization_routine
+gLUL_initialization_routine
 (
 )
 ;
@@ -2590,7 +2590,7 @@ Initialize
 signal
 handler
 communication
-sCurrentThreadInfo
+gCurrentThreadInfo
 =
 nullptr
 ;
@@ -2599,7 +2599,7 @@ if
 sem_init
 (
 &
-sSignalHandlingDone
+gSignalHandlingDone
 /
 *
 pshared
@@ -2765,7 +2765,7 @@ Unwind
 )
 calls
 .
-sLUL
+gLUL
 -
 >
 EnableUnwinding
@@ -2804,7 +2804,7 @@ RunLulUnitTests
 nTests
 &
 nTestsPassed
-sLUL
+gLUL
 )
 ;
 }

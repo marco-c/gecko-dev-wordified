@@ -974,7 +974,7 @@ mozilla
 StaticMutexAutoLock
 lock
 (
-sRegisteredThreadsMutex
+gRegisteredThreadsMutex
 )
 ;
 bool
@@ -991,7 +991,7 @@ i
 ;
 i
 <
-sRegisteredThreads
+gRegisteredThreads
 -
 >
 size
@@ -1009,7 +1009,7 @@ info
 =
 (
 *
-sRegisteredThreads
+gRegisteredThreads
 )
 [
 i

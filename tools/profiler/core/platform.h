@@ -757,7 +757,7 @@ mozilla
 :
 :
 TimeStamp
-sStartTime
+gStartTime
 ;
 typedef
 uint8_t
