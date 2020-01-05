@@ -249,6 +249,10 @@ log
 ;
 extern
 crate
+num
+;
+extern
+crate
 num_cpus
 ;
 extern
