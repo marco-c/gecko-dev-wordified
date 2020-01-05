@@ -163,6 +163,8 @@ v
 cx
 )
 ;
+CHECK
+(
 JS_CallFunctionValue
 (
 cx
@@ -179,6 +181,7 @@ empty
 )
 &
 v
+)
 )
 ;
 CHECK
@@ -205,6 +208,8 @@ toObject
 )
 )
 ;
+CHECK
+(
 JS_GetProperty
 (
 cx
@@ -214,6 +219,7 @@ stack
 "
 &
 v
+)
 )
 ;
 CHECK
