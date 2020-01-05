@@ -763,20 +763,9 @@ HeadersReceived
 Loading
 =
 3
-XHRDone
+Done
 =
 4
-/
-/
-So
-as
-not
-to
-conflict
-with
-the
-ProgressMsg
-Done
 }
 struct
 XHRProgressHandler
@@ -3813,7 +3802,7 @@ Loading
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 =
 >
 Err
@@ -5676,7 +5665,7 @@ Loading
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 =
 >
 Err
@@ -5773,7 +5762,7 @@ ready_state
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 |
 |
 ready_state
@@ -5820,7 +5809,7 @@ get
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 =
 >
 NullValue
@@ -6002,7 +5991,7 @@ Loading
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 =
 >
 Ok
@@ -6954,7 +6943,7 @@ change_ready_state
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 )
 ;
 return_if_fetch_was_terminated
@@ -7052,7 +7041,7 @@ change_ready_state
 XMLHttpRequestState
 :
 :
-XHRDone
+Done
 )
 ;
 return_if_fetch_was_terminated
