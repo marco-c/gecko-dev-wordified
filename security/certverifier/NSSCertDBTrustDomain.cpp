@@ -3681,6 +3681,7 @@ DoOCSPRequest
 (
 arena
 url
+mFirstPartyDomain
 &
 ocspRequestItem
 OCSPFetchingTypeToTimeoutTime

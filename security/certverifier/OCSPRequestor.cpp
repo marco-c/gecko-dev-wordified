@@ -473,6 +473,10 @@ char
 *
 url
 const
+char
+*
+firstPartyDomain
+const
 SECItem
 *
 encodedRequest
@@ -1136,6 +1140,7 @@ method
 get
 (
 )
+firstPartyDomain
 timeout
 &
 requestSessionPtr

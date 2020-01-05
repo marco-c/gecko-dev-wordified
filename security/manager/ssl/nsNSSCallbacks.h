@@ -539,6 +539,10 @@ char
 *
 httpRequestMethod
 const
+char
+*
+firstPartyDomain
+const
 PRIntervalTime
 timeout
 /
@@ -622,6 +626,9 @@ mPostData
 ;
 nsCString
 mPostContentType
+;
+nsCString
+mFirstPartyDomain
 ;
 PRIntervalTime
 mTimeoutInterval
@@ -747,6 +754,10 @@ char
 *
 httpRequestMethod
 const
+char
+*
+firstPartyDomain
+const
 PRIntervalTime
 timeout
 /
@@ -770,6 +781,7 @@ session
 httpProtocolVariant
 pathAndQueryString
 httpRequestMethod
+firstPartyDomain
 timeout
 pRequest
 )

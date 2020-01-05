@@ -168,6 +168,10 @@ char
 *
 url
 const
+char
+*
+firstPartyDomain
+const
 SECItem
 *
 encodedRequest
