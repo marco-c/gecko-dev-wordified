@@ -3336,12 +3336,7 @@ stylist
 stylist
 content_box_response
 :
-Rect
-:
-:
-zero
-(
-)
+None
 content_boxes_response
 :
 Vec
@@ -7208,12 +7203,7 @@ rw_data
 .
 content_box_response
 =
-Rect
-:
-:
-zero
-(
-)
+None
 ;
 }
 ReflowQueryType

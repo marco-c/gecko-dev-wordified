@@ -5441,7 +5441,7 @@ Node
 (
 )
 .
-bounding_content_box
+bounding_content_box_or_zero
 (
 )
 ;

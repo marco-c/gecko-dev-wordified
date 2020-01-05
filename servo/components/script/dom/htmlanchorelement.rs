@@ -306,7 +306,6 @@ node
 {
 Node
 document_from_node
-window_from_node
 }
 ;
 use
@@ -4274,18 +4273,10 @@ Node
 let
 rect
 =
-window_from_node
-(
-target_node
-)
-.
-content_box_query
-(
 target_node
 .
-to_trusted_node_address
+bounding_content_box_or_zero
 (
-)
 )
 ;
 ismap_suffix

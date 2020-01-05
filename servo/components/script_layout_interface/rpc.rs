@@ -484,9 +484,12 @@ struct
 ContentBoxResponse
 (
 pub
+Option
+<
 Rect
 <
 Au
+>
 >
 )
 ;
