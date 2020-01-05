@@ -5458,6 +5458,13 @@ kColumnFillKTable
 static
 const
 KTableEntry
+kColumnSpanKTable
+[
+]
+;
+static
+const
+KTableEntry
 kBoxPropSourceKTable
 [
 ]
