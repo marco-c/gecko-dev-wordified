@@ -58,10 +58,6 @@ MPL
 /
 extern
 crate
-app_units
-;
-extern
-crate
 atomic_refcell
 ;
 extern
@@ -71,10 +67,6 @@ cssparser
 extern
 crate
 env_logger
-;
-extern
-crate
-euclid
 ;
 extern
 crate
@@ -98,15 +90,7 @@ log
 ;
 extern
 crate
-num_cpus
-;
-extern
-crate
 parking_lot
-;
-extern
-crate
-rayon
 ;
 extern
 crate
