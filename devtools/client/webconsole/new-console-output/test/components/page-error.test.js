@@ -529,9 +529,11 @@ toBe
 "
 test
 -
-tempfile
+console
+-
+api
 .
-js
+html
 :
 3
 :
@@ -828,7 +830,7 @@ toBe
 There
 should
 be
-three
+five
 stacktrace
 items
 .
@@ -859,7 +861,7 @@ length
 .
 toBe
 (
-3
+5
 )
 ;
 }
