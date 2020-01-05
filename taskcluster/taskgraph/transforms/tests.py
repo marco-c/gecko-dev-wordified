@@ -5962,21 +5962,6 @@ osx
 -
 10
 '
-            
-jobdesc
-[
-'
-worker
-'
-]
-[
-'
-command
-'
-]
-=
-[
-]
         
 elif
 implementation
