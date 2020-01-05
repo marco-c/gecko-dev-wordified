@@ -102,6 +102,13 @@ NS_AUTOREFERENCELIMITER_H
 #
 include
 "
+Element
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
