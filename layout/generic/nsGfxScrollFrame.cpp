@@ -12780,8 +12780,12 @@ TIMEOUT_MS
 1000
 }
 ;
+explicit
 ScrollFrameActivityTracker
 (
+nsIEventTarget
+*
+aEventTarget
 )
 :
 nsExpirationTracker
@@ -12794,6 +12798,7 @@ TIMEOUT_MS
 "
 ScrollFrameActivityTracker
 "
+aEventTarget
 )
 {
 }
@@ -16458,6 +16463,16 @@ gScrollFrameActivityTracker
 new
 ScrollFrameActivityTracker
 (
+SystemGroup
+:
+:
+EventTargetFor
+(
+TaskCategory
+:
+:
+Other
+)
 )
 ;
 }
