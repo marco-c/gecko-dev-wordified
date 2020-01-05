@@ -97,7 +97,7 @@ malloc_decls_h
 #
 include
 "
-mozjemalloc_types
+jemalloc_types
 .
 h
 "
