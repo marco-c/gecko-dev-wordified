@@ -2570,8 +2570,6 @@ __func__
 )
 ;
 }
-else
-{
 for
 (
 const
@@ -2686,7 +2684,6 @@ samples
 __func__
 )
 ;
-}
 }
 void
 MP4TrackDemuxer
@@ -2981,8 +2978,6 @@ __func__
 )
 ;
 }
-else
-{
 SkipFailureHolder
 failure
 (
@@ -3003,7 +2998,6 @@ failure
 __func__
 )
 ;
-}
 }
 media
 :
