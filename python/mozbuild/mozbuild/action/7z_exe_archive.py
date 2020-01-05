@@ -78,6 +78,7 @@ archive_exe
 (
 pkg_dir
 tagfile
+sfx_package
 package
 )
 :
@@ -123,28 +124,7 @@ tmpdir
 sfx
 '
 )
-'
-.
-.
-/
-.
-.
-/
-.
-.
-/
-other
--
-licenses
-/
-7zstub
-/
-firefox
-/
-7zSD
-.
-sfx
-'
+sfx_package
 ]
 )
     
@@ -280,28 +260,7 @@ tmpdir
 sfx
 '
 )
-mozpath
-.
-join
-(
-'
-.
-.
-/
-.
-.
-/
-.
-.
-/
-browser
-/
-installer
-/
-windows
-'
 tagfile
-)
 mozpath
 .
 join
@@ -351,7 +310,7 @@ args
 )
 !
 =
-3
+4
 :
         
 print
@@ -367,6 +326,9 @@ pkg_dir
 >
 <
 tagfile
+>
+<
+sfx_package
 >
 <
 package
@@ -399,6 +361,10 @@ args
 args
 [
 2
+]
+args
+[
+3
 ]
 )
         
