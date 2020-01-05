@@ -2490,7 +2490,7 @@ mIMENotificationRequests
 mWidget
 -
 >
-GetIMENotificationRequests
+IMENotificationRequestsRef
 (
 )
 ;
