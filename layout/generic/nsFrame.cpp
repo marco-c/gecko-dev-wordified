@@ -11110,7 +11110,14 @@ return
 bool
 visible
 =
-true
+StyleVisibility
+(
+)
+-
+>
+IsVisible
+(
+)
 ;
 nsIFrame
 *
@@ -11136,6 +11143,9 @@ this
 while
 (
 f
+&
+&
+visible
 )
 {
 nsIScrollableFrame
