@@ -7,7 +7,7 @@ layout
 *
 /
 use
-gfx
+servo_text
 :
 :
 TextRun
