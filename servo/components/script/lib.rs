@@ -273,10 +273,6 @@ bitflags
 ;
 extern
 crate
-canvas
-;
-extern
-crate
 canvas_traits
 ;
 extern
