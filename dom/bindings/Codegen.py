@@ -18888,11 +18888,11 @@ valueOf
 '
                     
 "
-nativeName
+selfHostedName
 "
 :
 "
-UnforgeableValueOf
+Object_valueOf
 "
                     
 "
@@ -18912,15 +18912,13 @@ flags
 "
 :
 "
-JSPROP_ENUMERATE
+0
 "
 #
 readonly
 /
 permanent
 added
-                                                  
-#
 automatically
 .
                     
@@ -27090,17 +27088,15 @@ We
 do
 our
 undefined
-toJSON
-and
 toPrimitive
 here
 not
 as
 a
 regular
+property
         
 #
-property
 because
 we
 don
@@ -27114,8 +27110,6 @@ value
 props
 anywhere
 in
-        
-#
 IDL
 .
         
@@ -27177,31 +27171,6 @@ JS
 UndefinedHandleValue
                                        
 JSPROP_READONLY
-|
-JSPROP_PERMANENT
-)
-|
-|
-                
-!
-JS_DefineProperty
-(
-aCx
-{
-holderName
-}
-"
-toJSON
-"
-                                   
-JS
-:
-:
-UndefinedHandleValue
-                                   
-JSPROP_READONLY
-|
-JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
 )
