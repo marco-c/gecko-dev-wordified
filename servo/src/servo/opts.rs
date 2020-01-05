@@ -22,9 +22,8 @@ line
 arguments
 .
 pub
-type
+struct
 Opts
-=
 {
 urls
 :
@@ -37,7 +36,6 @@ render_mode
 :
 RenderMode
 }
-;
 pub
 enum
 RenderMode
@@ -225,6 +223,7 @@ Screen
 }
 }
 ;
+Opts
 {
 urls
 :
