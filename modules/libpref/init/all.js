@@ -66649,7 +66649,7 @@ IntersectionObserver
 .
 enabled
 "
-true
+false
 )
 ;
 /
