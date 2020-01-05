@@ -2296,17 +2296,6 @@ aRestyleHintData
 nullptr
 )
 ;
-void
-PostRestyleEventForLazyConstruction
-(
-)
-{
-PostRestyleEventInternal
-(
-true
-)
-;
-}
 public
 :
 /
