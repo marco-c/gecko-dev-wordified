@@ -2165,11 +2165,6 @@ dom
 TCPSocketChild
 *
 aChild
-nsCOMPtr
-<
-nsIEventTarget
->
-ststhread
 )
 ;
 /
