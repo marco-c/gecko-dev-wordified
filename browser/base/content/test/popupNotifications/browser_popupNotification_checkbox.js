@@ -1050,7 +1050,7 @@ popup
 )
 ;
 }
-*
+async
 onHidden
 (
 popup
@@ -1088,7 +1088,7 @@ icon
 }
 )
 ;
-yield
+await
 shown
 ;
 let

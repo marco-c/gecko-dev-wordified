@@ -958,8 +958,8 @@ return
 panelHidePromise
 ;
 }
+async
 function
-*
 asyncCleanup
 (
 )
@@ -993,7 +993,7 @@ to
 the
 default
 state
-yield
+await
 resetCustomization
 (
 )

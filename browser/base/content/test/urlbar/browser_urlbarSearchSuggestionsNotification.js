@@ -86,8 +86,8 @@ engine
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -151,7 +151,7 @@ pref
 is
 false
 .
-yield
+await
 setUserMadeChoicePref
 (
 true

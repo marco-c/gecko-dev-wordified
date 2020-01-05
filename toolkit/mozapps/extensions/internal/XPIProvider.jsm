@@ -10026,8 +10026,8 @@ return
 size
 ;
 }
+async
 function
-*
 loadFromRDF
 (
 aUri
@@ -10118,7 +10118,7 @@ try
 var
 addon
 =
-yield
+await
 loadManifestFromRDF
 (
 aUri
@@ -10559,8 +10559,8 @@ aZipReader
 aInstallLocation
 )
 {
+async
 function
-*
 loadFromRDF
 (
 aUri
@@ -10618,7 +10618,7 @@ try
 var
 addon
 =
-yield
+await
 loadManifestFromRDF
 (
 aUri

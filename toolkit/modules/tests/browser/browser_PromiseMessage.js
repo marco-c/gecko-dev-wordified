@@ -149,8 +149,8 @@ testPromiseMessageAPI
 }
 )
 ;
+async
 function
-*
 testPromiseMessageAPI
 (
 aBrowser
@@ -222,7 +222,7 @@ for
 this
 test
 .
-yield
+await
 PromiseMessage
 .
 send

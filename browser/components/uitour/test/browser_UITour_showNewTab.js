@@ -30,8 +30,8 @@ about
 newtab
 add_UITour_task
 (
+async
 function
-*
 test_aboutNewTab
 (
 )
@@ -64,7 +64,7 @@ newtab
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 showNewTab
@@ -84,7 +84,7 @@ load
 "
 )
 ;
-yield
+await
 newTabLoaded
 ;
 is

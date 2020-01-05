@@ -181,8 +181,8 @@ developer
 "
 ]
 ;
+async
 function
-*
 getAdditionalInvalidManifestProperties
 (
 )
@@ -193,7 +193,7 @@ invalidProperties
 [
 ]
 ;
-yield
+await
 Schemas
 .
 load
@@ -228,7 +228,7 @@ theme
 "
 )
 {
-yield
+await
 Schemas
 .
 load

@@ -309,12 +309,12 @@ toolbarGuid
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks

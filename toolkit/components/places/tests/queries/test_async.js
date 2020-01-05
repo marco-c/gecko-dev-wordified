@@ -1555,7 +1555,7 @@ be
 .
 *
 /
-*
+async
 setup
 (
 )
@@ -1621,7 +1621,7 @@ foo
 ]
 )
 ;
-yield
+await
 task_populateDB
 (
 this

@@ -1802,8 +1802,8 @@ Share
 "
 run
 :
+async
 function
-*
 checkRememberCheckbox
 (
 )
@@ -2253,7 +2253,7 @@ allow
 "
 )
 ;
-yield
+await
 checkPerm
 (
 true
@@ -2282,7 +2282,7 @@ set
 "
 )
 ;
-yield
+await
 checkPerm
 (
 true
@@ -2311,7 +2311,7 @@ set
 "
 )
 ;
-yield
+await
 checkPerm
 (
 false
@@ -2357,7 +2357,7 @@ set
 "
 )
 ;
-yield
+await
 checkPerm
 (
 true
@@ -2387,7 +2387,7 @@ set
 "
 )
 ;
-yield
+await
 checkPerm
 (
 false
@@ -2414,7 +2414,7 @@ deny
 "
 )
 ;
-yield
+await
 checkPerm
 (
 true
@@ -2440,8 +2440,8 @@ permissions
 "
 run
 :
+async
 function
-*
 checkUsePersistentPermissions
 (
 )
@@ -2894,7 +2894,7 @@ video
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -2920,7 +2920,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -2953,7 +2953,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -2980,7 +2980,7 @@ audio
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -3004,7 +3004,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -3037,7 +3037,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3061,7 +3061,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3088,7 +3088,7 @@ video
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3120,7 +3120,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -3145,7 +3145,7 @@ audio
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -3167,7 +3167,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 true
@@ -3199,7 +3199,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3221,7 +3221,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3243,7 +3243,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 false
@@ -3275,7 +3275,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3297,7 +3297,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3322,7 +3322,7 @@ video
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3354,7 +3354,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3376,7 +3376,7 @@ prompt
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3398,7 +3398,7 @@ denied
 "
 )
 ;
-yield
+await
 usePerm
 (
 undefined
@@ -3422,8 +3422,8 @@ permissions
 "
 run
 :
+async
 function
-*
 checkStopSharingRemovesPersistentPermissions
 (
 )
@@ -3734,7 +3734,7 @@ both
 "
 )
 ;
-yield
+await
 stopAndCheckPerm
 (
 true
@@ -3754,7 +3754,7 @@ only
 "
 )
 ;
-yield
+await
 stopAndCheckPerm
 (
 true
@@ -3774,7 +3774,7 @@ only
 "
 )
 ;
-yield
+await
 stopAndCheckPerm
 (
 false

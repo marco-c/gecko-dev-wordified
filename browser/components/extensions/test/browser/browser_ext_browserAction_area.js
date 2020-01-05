@@ -82,8 +82,8 @@ CustomizableUI
 AREA_BOOKMARKS
 }
 ;
+async
 function
-*
 testInArea
 (
 area
@@ -132,7 +132,7 @@ manifest
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -183,7 +183,7 @@ correct
 area
 )
 ;
-yield
+await
 extension
 .
 unload

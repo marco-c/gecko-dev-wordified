@@ -3290,8 +3290,8 @@ denyFirst
 :
 true
 }
+async
 function
-*
 (
 newWin
 obs
@@ -3300,7 +3300,7 @@ obs
 let
 closed
 =
-yield
+await
 closeWindowForRestoration
 (
 newWin
@@ -3322,7 +3322,7 @@ denied
 ;
 closed
 =
-yield
+await
 closeWindowForRestoration
 (
 newWin

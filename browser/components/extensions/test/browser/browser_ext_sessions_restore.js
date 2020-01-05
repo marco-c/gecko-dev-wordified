@@ -401,8 +401,8 @@ background
 }
 )
 ;
+async
 function
-*
 assertNotificationCount
 (
 expected
@@ -411,7 +411,7 @@ expected
 let
 notificationCount
 =
-yield
+await
 extension
 .
 awaitMessage

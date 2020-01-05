@@ -189,8 +189,8 @@ Gooogle
 ]
 )
 ;
+async
 function
-*
 assert_feature_works
 (
 condition
@@ -208,7 +208,7 @@ appear
 condition
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -277,7 +277,7 @@ appear
 condition
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -317,8 +317,8 @@ com
 )
 ;
 }
+async
 function
-*
 assert_feature_does_not_appear
 (
 condition
@@ -338,7 +338,7 @@ appear
 condition
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -437,7 +437,7 @@ top
 site
 )
 .
-yield
+await
 check_autocomplete
 (
 {

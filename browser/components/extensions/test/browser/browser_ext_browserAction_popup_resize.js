@@ -48,8 +48,8 @@ use
 strict
 "
 ;
+async
 function
-*
 openPanel
 (
 extension
@@ -68,7 +68,7 @@ win
 )
 ;
 return
-yield
+await
 awaitExtensionPanel
 (
 extension

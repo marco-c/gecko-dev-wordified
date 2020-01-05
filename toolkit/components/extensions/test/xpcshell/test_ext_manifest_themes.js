@@ -48,8 +48,8 @@ use
 strict
 "
 ;
+async
 function
-*
 test_theme_property
 (
 property
@@ -58,7 +58,7 @@ property
 let
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest

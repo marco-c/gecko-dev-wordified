@@ -1117,8 +1117,8 @@ itemsCount
 =
 0
 ;
+async
 function
-*
 new_bookmark
 (
 aInfo
@@ -1184,7 +1184,7 @@ bookmark
 +
 itemsCount
 ;
-yield
+await
 PlacesTransactions
 .
 NewBookmark
@@ -1197,8 +1197,8 @@ transact
 )
 ;
 }
+async
 function
-*
 new_folder
 (
 aInfo
@@ -1230,7 +1230,7 @@ folder
 itemsCount
 ;
 return
-yield
+await
 PlacesTransactions
 .
 NewFolder

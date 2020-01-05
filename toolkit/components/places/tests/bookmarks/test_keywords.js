@@ -61,8 +61,8 @@ org
 "
 )
 ;
+async
 function
-*
 check_keyword
 (
 aURI
@@ -160,7 +160,7 @@ aKeyword
 let
 uri
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -190,7 +190,7 @@ insensitivity
 .
 uri
 =
-yield
+await
 PlacesUtils
 .
 keywords

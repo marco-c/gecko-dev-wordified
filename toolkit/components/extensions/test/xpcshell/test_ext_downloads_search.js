@@ -1195,8 +1195,8 @@ the
 corresponding
 DownloadItem
 .
+async
 function
-*
 checkDownloadItem
 (
 id
@@ -1206,7 +1206,7 @@ expect
 let
 item
 =
-yield
+await
 search
 (
 {
@@ -1464,8 +1464,8 @@ true
 }
 )
 ;
+async
 function
-*
 checkSearch
 (
 query
@@ -1477,7 +1477,7 @@ exact
 let
 item
 =
-yield
+await
 search
 (
 query
@@ -2177,8 +2177,8 @@ terms
 "
 )
 ;
+async
 function
-*
 checkSearchWithDate
 (
 query
@@ -2270,7 +2270,7 @@ field
 =
 date
 ;
-yield
+await
 checkSearch
 (
 newquery
@@ -2299,7 +2299,7 @@ valueOf
 (
 )
 ;
-yield
+await
 checkSearch
 (
 newquery
@@ -2333,7 +2333,7 @@ toString
 (
 )
 ;
-yield
+await
 checkSearch
 (
 newquery
@@ -2363,7 +2363,7 @@ toISOString
 (
 )
 ;
-yield
+await
 checkSearch
 (
 newquery
@@ -3424,8 +3424,8 @@ Check
 bad
 arguments
 .
+async
 function
-*
 checkBadSearch
 (
 query
@@ -3436,7 +3436,7 @@ description
 let
 item
 =
-yield
+await
 search
 (
 query

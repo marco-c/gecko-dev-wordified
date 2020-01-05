@@ -1288,7 +1288,7 @@ restore
 /
 /
 helpers
-*
+async
 _performCombo
 (
 combo
@@ -1567,7 +1567,7 @@ config
 name
 )
 ;
-yield
+await
 changeConfig
 (
 config
@@ -1767,7 +1767,7 @@ config
 name
 )
 ;
-yield
+await
 config
 .
 verifyConfig
@@ -1836,7 +1836,7 @@ screenshot
 return
 ;
 }
-yield
+await
 this
 .
 _onConfigurationReady

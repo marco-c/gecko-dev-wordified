@@ -11027,7 +11027,7 @@ recalculate
 foreign_count
 .
 "
-*
+async
 setup
 (
 )
@@ -11037,7 +11037,7 @@ this
 _pageGuid
 =
 (
-yield
+await
 PlacesUtils
 .
 history
@@ -11077,7 +11077,7 @@ Date
 .
 guid
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11109,7 +11109,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -11144,7 +11144,7 @@ Assert
 equal
 (
 (
-yield
+await
 this
 .
 _getForeignCount
@@ -11210,7 +11210,7 @@ foreign_count
 )
 ;
 }
-*
+async
 check
 (
 )
@@ -11220,7 +11220,7 @@ Assert
 equal
 (
 (
-yield
+await
 this
 .
 _getForeignCount
@@ -11504,7 +11504,7 @@ url_hash
 )
 ;
 }
-*
+async
 check
 (
 )
@@ -11514,7 +11514,7 @@ Assert
 ok
 (
 (
-yield
+await
 this
 .
 _getHash

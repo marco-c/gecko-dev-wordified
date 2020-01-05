@@ -3610,8 +3610,8 @@ popPrefEnv
 )
 ;
 }
+async
 function
-*
 checkScroll
 (
 tab
@@ -3626,7 +3626,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 TabStateFlusher
 .
 flush

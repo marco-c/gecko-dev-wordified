@@ -4927,7 +4927,7 @@ this
 _mainTask
 ;
 }
-*
+async
 _main
 (
 )
@@ -4946,7 +4946,7 @@ iteration
 "
 )
 ;
-yield
+await
 this
 .
 _loadTask
@@ -4971,7 +4971,7 @@ this
 _refresh
 )
 {
-yield
+await
 this
 .
 _loadManifest
@@ -4979,7 +4979,7 @@ _loadManifest
 )
 ;
 }
-yield
+await
 this
 .
 _evaluateExperiments
@@ -4993,7 +4993,7 @@ this
 _dirty
 )
 {
-yield
+await
 this
 .
 _saveToCache
@@ -5044,7 +5044,7 @@ _dirty
 )
 ;
 }
-*
+async
 _loadManifest
 (
 )
@@ -5091,7 +5091,7 @@ try
 let
 responseText
 =
-yield
+await
 this
 .
 _httpGetRequest
@@ -6337,7 +6337,7 @@ _main
 .
 *
 /
-*
+async
 _saveToCache
 (
 )
@@ -6445,7 +6445,7 @@ lz4
 "
 }
 ;
-yield
+await
 this
 .
 _policy
@@ -7518,7 +7518,7 @@ candidate
 .
 *
 /
-*
+async
 _evaluateExperiments
 (
 )
@@ -7734,7 +7734,7 @@ ons
 let
 installedExperiments
 =
-yield
+await
 installedExperimentAddons
 (
 )
@@ -7813,7 +7813,7 @@ join
 )
 )
 ;
-yield
+await
 uninstallAddons
 (
 unknownAddons
@@ -7917,7 +7917,7 @@ changes
 let
 shouldStopResult
 =
-yield
+await
 activeExperiment
 .
 shouldStop
@@ -7998,7 +7998,7 @@ reason
 }
 changes
 =
-yield
+await
 activeExperiment
 .
 stop
@@ -8018,7 +8018,7 @@ _terminateReason
 {
 changes
 =
-yield
+await
 activeExperiment
 .
 stop
@@ -8033,7 +8033,7 @@ else
 {
 changes
 =
-yield
+await
 activeExperiment
 .
 reconcileAddonState
@@ -8115,7 +8115,7 @@ try
 {
 applicable
 =
-yield
+await
 experiment
 .
 isApplicable
@@ -8267,7 +8267,7 @@ id
 ;
 try
 {
-yield
+await
 experiment
 .
 start
@@ -8341,7 +8341,7 @@ _enabled
 =
 false
 ;
-yield
+await
 experiment
 .
 reconcileAddonState

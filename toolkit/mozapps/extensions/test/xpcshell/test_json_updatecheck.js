@@ -2097,12 +2097,12 @@ messages
 await
 promiseConsoleOutput
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 Assert
 .
 rejects
@@ -2455,8 +2455,8 @@ messages
 await
 promiseConsoleOutput
 (
+async
 function
-*
 (
 )
 {
@@ -2483,7 +2483,7 @@ try
 {
 updates
 =
-yield
+await
 checkUpdates
 (
 {

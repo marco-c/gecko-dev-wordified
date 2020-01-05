@@ -2161,8 +2161,8 @@ eraseEverything
 }
 )
 ;
+async
 function
-*
 testImportedBookmarks
 (
 )
@@ -2290,7 +2290,7 @@ in
 items
 )
 {
-yield
+await
 checkItem
 (
 items

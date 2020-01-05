@@ -949,8 +949,8 @@ onFindAgainCommand
 )
 ;
 }
+async
 function
-*
 openFindBarAndWait
 (
 )
@@ -974,7 +974,7 @@ open
 (
 )
 ;
-yield
+await
 awaitTransitionEnd
 ;
 }
@@ -1017,8 +1017,8 @@ the
 new
 snapshot
 .
+async
 function
-*
 closeFindBarAndWait
 (
 )
@@ -1058,7 +1058,7 @@ close
 (
 )
 ;
-yield
+await
 awaitTransitionEnd
 ;
 }

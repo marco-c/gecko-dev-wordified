@@ -2913,8 +2913,8 @@ for
 all
 tabs
 .
+async
 function
-*
 checkSharingUI
 (
 aExpected
@@ -3410,8 +3410,7 @@ the
 global
 indicators
 .
-yield
-*
+await
 assertWebRTCIndicatorStatus
 (
 aExpectedGlobal
@@ -3421,8 +3420,8 @@ aExpected
 )
 ;
 }
+async
 function
-*
 checkNotSharing
 (
 )
@@ -3432,7 +3431,7 @@ Assert
 deepEqual
 (
 (
-yield
+await
 getMediaCaptureState
 (
 )
@@ -3480,8 +3479,7 @@ icon
 "
 )
 ;
-yield
-*
+await
 assertWebRTCIndicatorStatus
 (
 null

@@ -48,8 +48,8 @@ use
 strict
 "
 ;
+async
 function
-*
 loadExtension
 (
 options
@@ -218,7 +218,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup

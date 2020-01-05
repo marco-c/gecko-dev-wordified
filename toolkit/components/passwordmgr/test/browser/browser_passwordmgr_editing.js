@@ -1015,8 +1015,8 @@ test_edit_multiple_logins
 (
 )
 {
+async
 function
-*
 testLoginChange
 (
 site
@@ -1033,8 +1033,7 @@ oldUsername
 oldPassword
 )
 ;
-yield
-*
+await
 editUsernamePromises
 (
 site
@@ -1042,14 +1041,12 @@ oldUsername
 newUsername
 )
 ;
-yield
-*
+await
 togglePasswords
 (
 )
 ;
-yield
-*
+await
 editPasswordPromises
 (
 site
@@ -1057,8 +1054,7 @@ oldPassword
 newPassword
 )
 ;
-yield
-*
+await
 togglePasswords
 (
 )

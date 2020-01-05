@@ -137,8 +137,8 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
-*
 (
 tree
 )
@@ -231,7 +231,7 @@ at
 index
 0
 .
-yield
+await
 withBookmarksDialog
 (
 false

@@ -263,12 +263,12 @@ await
 updateTabContextMenu
 (
 origTab
+async
 function
-*
 (
 )
 {
-yield
+await
 openMenuItemSubmenu
 (
 "

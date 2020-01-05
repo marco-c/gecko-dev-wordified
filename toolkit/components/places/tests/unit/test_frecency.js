@@ -1070,8 +1070,8 @@ without
 a
 search
 term
+async
 function
-*
 (
 )
 {
@@ -1092,7 +1092,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1100,7 +1100,7 @@ c1
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1129,8 +1129,8 @@ uri2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1151,7 +1151,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1159,7 +1159,7 @@ c1
 d2
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1188,8 +1188,8 @@ uri1
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1210,7 +1210,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1218,7 +1218,7 @@ c1
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1247,8 +1247,8 @@ uri2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1269,7 +1269,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1277,7 +1277,7 @@ c2
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1314,8 +1314,8 @@ with
 a
 search
 term
+async
 function
-*
 (
 )
 {
@@ -1336,7 +1336,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1344,7 +1344,7 @@ c1
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1374,8 +1374,8 @@ site
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1396,7 +1396,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1404,7 +1404,7 @@ c1
 d2
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1434,8 +1434,8 @@ site
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1456,7 +1456,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1464,7 +1464,7 @@ c1
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2
@@ -1494,8 +1494,8 @@ site
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1516,7 +1516,7 @@ date
 "
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri1
@@ -1524,7 +1524,7 @@ c2
 d1
 )
 ;
-yield
+await
 task_setCountDate
 (
 uri2

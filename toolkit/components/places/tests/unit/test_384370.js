@@ -962,8 +962,8 @@ containerOpen
 false
 ;
 }
+async
 function
-*
 testToolbarBookmarks
 (
 )
@@ -1035,7 +1035,7 @@ title
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks

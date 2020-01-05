@@ -1195,13 +1195,13 @@ snapshot
 .
 *
 /
+async
 function
-*
 waitForContentScalars
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

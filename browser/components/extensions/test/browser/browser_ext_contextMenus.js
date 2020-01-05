@@ -2249,8 +2249,8 @@ startup
 (
 )
 ;
+async
 function
-*
 confirmMenuItems
 (
 .
@@ -2309,7 +2309,7 @@ ping
 "
 )
 ;
-yield
+await
 first
 .
 awaitMessage
@@ -2321,7 +2321,7 @@ alpha
 "
 )
 ;
-yield
+await
 second
 .
 awaitMessage
@@ -2336,7 +2336,7 @@ beta
 const
 menu
 =
-yield
+await
 openContextMenu
 (
 )

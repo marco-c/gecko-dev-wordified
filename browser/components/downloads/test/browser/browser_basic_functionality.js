@@ -72,12 +72,12 @@ zero
 /
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 task_resetState
 (
 )

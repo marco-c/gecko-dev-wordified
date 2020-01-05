@@ -465,8 +465,8 @@ overrides
 .
 *
 /
+async
 function
-*
 assertCombinedResults
 (
 combined
@@ -603,7 +603,7 @@ Assert
 .
 equal
 (
-yield
+await
 combined
 .
 asyncMethod
@@ -708,8 +708,8 @@ overrides
 .
 *
 /
+async
 function
-*
 assertCurrentCombinedResults
 (
 overridesCount
@@ -727,7 +727,7 @@ getCombined
 TestIntegration
 )
 ;
-yield
+await
 assertCombinedResults
 (
 combined

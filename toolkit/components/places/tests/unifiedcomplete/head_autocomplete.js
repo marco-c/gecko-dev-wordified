@@ -606,8 +606,8 @@ from
 the
 controller
 .
+async
 function
-*
 _check_autocomplete_matches
 (
 match
@@ -830,7 +830,7 @@ match
 icon
 )
 {
-yield
+await
 compareFavicons
 (
 result

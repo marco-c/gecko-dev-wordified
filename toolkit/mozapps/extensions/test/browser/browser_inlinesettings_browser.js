@@ -406,8 +406,8 @@ gManagerWindow
 }
 )
 ;
+async
 function
-*
 openDetailsBrowser
 (
 addonId
@@ -496,7 +496,7 @@ clickCount
 gManagerWindow
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved

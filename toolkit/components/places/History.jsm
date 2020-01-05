@@ -6211,8 +6211,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -6225,7 +6225,7 @@ all
 offending
 visits
 .
-yield
+await
 db
 .
 execute
@@ -6257,7 +6257,7 @@ pages
 have
 been
 orphaned
-yield
+await
 db
 .
 execute
@@ -6381,7 +6381,7 @@ Clean
 up
 and
 notify
-yield
+await
 cleanupPages
 (
 db
@@ -7476,8 +7476,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -7492,7 +7492,7 @@ to
 these
 pages
 .
-yield
+await
 db
 .
 execute
@@ -7531,7 +7531,7 @@ Clean
 up
 and
 notify
-yield
+await
 cleanupPages
 (
 db

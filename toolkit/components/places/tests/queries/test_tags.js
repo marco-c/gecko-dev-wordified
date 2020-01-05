@@ -5411,15 +5411,15 @@ been
 tagged
 *
 /
+async
 function
-*
 task_doWithBookmark
 (
 aTags
 aCallback
 )
 {
-yield
+await
 addBookmark
 (
 TEST_URI
@@ -5435,7 +5435,7 @@ TEST_URI
 aTags
 )
 ;
-yield
+await
 aCallback
 (
 TEST_URI
@@ -5451,7 +5451,7 @@ TEST_URI
 aTags
 )
 ;
-yield
+await
 task_cleanDatabase
 (
 )

@@ -1180,8 +1180,8 @@ a
 search
 term
 .
+async
 function
-*
 (
 )
 {
@@ -1231,7 +1231,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1240,7 +1240,7 @@ c1
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1250,8 +1250,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1301,7 +1301,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1310,7 +1310,7 @@ c2
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1320,8 +1320,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1371,7 +1371,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1380,7 +1380,7 @@ c1
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1390,8 +1390,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1441,7 +1441,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1450,7 +1450,7 @@ c1
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1476,8 +1476,8 @@ partial
 other
 )
 .
+async
 function
-*
 (
 )
 {
@@ -1531,7 +1531,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1540,7 +1540,7 @@ c1
 s1
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1550,8 +1550,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1605,7 +1605,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1614,7 +1614,7 @@ c1
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1638,8 +1638,8 @@ match
 both
 )
 .
+async
 function
-*
 (
 )
 {
@@ -1690,7 +1690,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1699,7 +1699,7 @@ c1
 s1
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1709,8 +1709,8 @@ s1
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1761,7 +1761,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1770,7 +1770,7 @@ c2
 s1
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1794,8 +1794,8 @@ match
 both
 )
 .
+async
 function
-*
 (
 )
 {
@@ -1846,7 +1846,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1855,7 +1855,7 @@ c1
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1865,8 +1865,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1917,7 +1917,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -1926,7 +1926,7 @@ c2
 s2
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -1936,8 +1936,8 @@ s2
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -1989,7 +1989,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -2002,7 +2002,7 @@ doAdaptiveDecay
 (
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -2012,8 +2012,8 @@ s1
 )
 ;
 }
+async
 function
-*
 (
 )
 {
@@ -2065,7 +2065,7 @@ c1
 +
 c1
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -2078,7 +2078,7 @@ doAdaptiveDecay
 (
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -2102,8 +2102,8 @@ are
 set
 right
 .
+async
 function
-*
 (
 )
 {
@@ -2210,7 +2210,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -2222,7 +2222,7 @@ bookmark
 "
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2
@@ -2246,8 +2246,8 @@ are
 set
 right
 .
+async
 function
-*
 (
 )
 {
@@ -2359,7 +2359,7 @@ c1
 +
 c2
 ;
-yield
+await
 task_setCountRank
 (
 uri1
@@ -2371,7 +2371,7 @@ tag
 "
 )
 ;
-yield
+await
 task_setCountRank
 (
 uri2

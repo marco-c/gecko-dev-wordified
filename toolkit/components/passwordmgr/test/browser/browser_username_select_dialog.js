@@ -441,8 +441,8 @@ subtst_notifications_change_p
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -477,7 +477,7 @@ password
 "
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -612,7 +612,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -893,8 +893,8 @@ subtst_notifications_change_p
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -929,7 +929,7 @@ password
 "
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -1064,7 +1064,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

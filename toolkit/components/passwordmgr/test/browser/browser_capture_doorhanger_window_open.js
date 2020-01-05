@@ -219,8 +219,8 @@ DIRECTORY_PATH
 +
 aPageFile
 }
+async
 function
-*
 (
 browser
 )
@@ -245,8 +245,7 @@ task
 "
 )
 ;
-yield
-*
+await
 aTaskFn
 (
 )
@@ -261,7 +260,7 @@ change
 "
 )
 ;
-yield
+await
 storageChangedPromised
 ;
 }

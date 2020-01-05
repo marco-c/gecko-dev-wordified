@@ -120,8 +120,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 )
 {
@@ -170,7 +170,7 @@ clipboard
 .
 kGlobalClipboard
 ;
-yield
+await
 PanelUI
 .
 show
@@ -254,7 +254,7 @@ focus
 (
 )
 ;
-yield
+await
 PanelUI
 .
 show

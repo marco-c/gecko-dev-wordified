@@ -115,14 +115,14 @@ strict
 /
 /
 Globals
+async
 function
-*
 reloadAndCheckLoginsGen
 (
 aExpectedLogins
 )
 {
-yield
+await
 LoginTestUtils
 .
 reloadData

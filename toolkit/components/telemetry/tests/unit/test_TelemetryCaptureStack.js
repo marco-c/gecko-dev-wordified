@@ -456,13 +456,13 @@ skip_if
 !
 ENABLE_TESTS
 }
+async
 function
-*
 test_capturedStacksAppearInPings
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testSetup

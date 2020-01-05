@@ -29,8 +29,8 @@ zero
 /
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -43,7 +43,7 @@ the
 test
 finishes
 .
-yield
+await
 task_resetState
 (
 )

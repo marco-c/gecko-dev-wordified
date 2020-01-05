@@ -107,8 +107,8 @@ in
 this
 file
 .
+async
 function
-*
 testBody
 (
 testRoot
@@ -149,7 +149,7 @@ test_bug839103
 html
 "
 ;
-yield
+await
 loaded
 ;
 function
@@ -376,7 +376,7 @@ link
 let
 evt
 =
-yield
+await
 sheetAdded
 ;
 info
@@ -479,7 +479,7 @@ sheet
 ;
 evt
 =
-yield
+await
 stateChanged
 ;
 info
@@ -585,7 +585,7 @@ true
 ;
 evt
 =
-yield
+await
 stateChanged
 ;
 is
@@ -703,7 +703,7 @@ link
 ;
 evt
 =
-yield
+await
 sheetRemoved
 ;
 info
@@ -852,7 +852,7 @@ black
 ;
 evt
 =
-yield
+await
 ruleAdded
 ;
 info
@@ -1010,7 +1010,7 @@ green
 ;
 evt
 =
-yield
+await
 ruleChanged
 ;
 ok
@@ -1164,7 +1164,7 @@ deleteRule
 ;
 evt
 =
-yield
+await
 ruleRemoved
 ;
 info

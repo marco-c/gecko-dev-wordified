@@ -58,8 +58,8 @@ registerCleanupFunction
 }
 )
 ;
+async
 function
-*
 assertDialogResult
 (
 {
@@ -76,7 +76,7 @@ buttonToClick
 ;
 is
 (
-yield
+await
 DownloadsCommon
 .
 confirmUnblockDownload

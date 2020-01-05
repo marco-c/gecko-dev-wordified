@@ -5721,8 +5721,8 @@ urls
 .
 *
 /
+async
 function
-*
 compareFavicons
 (
 icon1
@@ -5854,7 +5854,7 @@ size
 let
 data1
 =
-yield
+await
 getIconData
 (
 icon1
@@ -5880,7 +5880,7 @@ data
 let
 data2
 =
-yield
+await
 getIconData
 (
 icon2

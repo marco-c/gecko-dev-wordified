@@ -1491,8 +1491,8 @@ ready
 "
 )
 ;
+async
 function
-*
 click
 (
 selectorOrId
@@ -1517,7 +1517,7 @@ openContextMenuInFrame
 const
 menu
 =
-yield
+await
 func
 (
 selectorOrId
@@ -1538,7 +1538,7 @@ modify
 "
 )
 ;
-yield
+await
 closeExtensionContextMenu
 (
 items

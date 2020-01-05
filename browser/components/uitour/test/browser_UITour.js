@@ -2329,8 +2329,8 @@ text
 }
 taskify
 (
+async
 function
-*
 test_info_2
 (
 )
@@ -2395,7 +2395,7 @@ UITourTooltipButtons
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -2507,7 +2507,7 @@ buttons
 "
 )
 ;
-yield
+await
 showInfoPromise
 (
 "

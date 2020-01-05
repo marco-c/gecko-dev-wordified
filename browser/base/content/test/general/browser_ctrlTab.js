@@ -953,8 +953,8 @@ index
 )
 ;
 }
+async
 function
-*
 ctrlTabTest
 (
 tabsToSelect
@@ -1039,7 +1039,7 @@ i
 +
 )
 {
-yield
+await
 pressCtrlTab
 (
 )
@@ -1102,7 +1102,7 @@ panel
 "
 )
 ;
-yield
+await
 releaseCtrl
 (
 )

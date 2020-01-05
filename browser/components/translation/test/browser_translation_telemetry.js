@@ -1310,8 +1310,8 @@ test_deny_translation_metric
 (
 )
 {
+async
 function
-*
 offerAndDeny
 (
 elementAnonid
@@ -1320,7 +1320,7 @@ elementAnonid
 let
 tab
 =
-yield
+await
 offerTranslationFor
 (
 "
@@ -1355,7 +1355,7 @@ doCommand
 (
 )
 ;
-yield
+await
 MetricsChecker
 .
 checkAdditions

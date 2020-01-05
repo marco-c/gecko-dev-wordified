@@ -483,8 +483,8 @@ html
 >
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -570,7 +570,7 @@ of
 testData
 )
 {
-yield
+await
 check
 (
 browser
@@ -611,7 +611,7 @@ of
 todo_testData
 )
 {
-yield
+await
 todo_check
 (
 browser

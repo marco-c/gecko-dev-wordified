@@ -393,8 +393,8 @@ reload
 )
 ;
 }
+async
 function
-*
 expectEvents
 (
 extension
@@ -424,7 +424,7 @@ details
 let
 details
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -524,7 +524,7 @@ fire
 let
 fired
 =
-yield
+await
 extension
 .
 awaitMessage

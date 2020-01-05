@@ -54,8 +54,8 @@ toolbarFolderId
 .
 root
 ;
+async
 function
-*
 insertAndTest
 (
 bmInfo
@@ -63,7 +63,7 @@ bmInfo
 {
 bmInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

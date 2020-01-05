@@ -259,7 +259,7 @@ instance
 .
 *
 /
-*
+async
 reloadData
 (
 )
@@ -280,7 +280,7 @@ replace
 "
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved

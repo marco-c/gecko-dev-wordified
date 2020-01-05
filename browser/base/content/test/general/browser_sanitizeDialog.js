@@ -5938,8 +5938,8 @@ minutes
 ago
 *
 /
+async
 function
-*
 addDownloadWithMinutesAgo
 (
 aExpectedPathList
@@ -5949,7 +5949,7 @@ aMinutesAgo
 let
 publicList
 =
-yield
+await
 Downloads
 .
 getList
@@ -5979,7 +5979,7 @@ ago
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6044,7 +6044,7 @@ download
 ok
 (
 (
-yield
+await
 downloadExists
 (
 name
@@ -6588,8 +6588,8 @@ false
 otherwise
 *
 /
+async
 function
-*
 downloadExists
 (
 aPath
@@ -6598,7 +6598,7 @@ aPath
 let
 publicList
 =
-yield
+await
 Downloads
 .
 getList
@@ -6611,7 +6611,7 @@ PUBLIC
 let
 listArray
 =
-yield
+await
 publicList
 .
 getAll
@@ -6677,8 +6677,8 @@ false
 otherwise
 *
 /
+async
 function
-*
 ensureDownloadsClearedState
 (
 aDownloadIDs
@@ -6710,7 +6710,7 @@ aDownloadIDs
 is
 (
 (
-yield
+await
 downloadExists
 (
 id

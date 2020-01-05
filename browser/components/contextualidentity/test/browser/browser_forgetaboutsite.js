@@ -1154,8 +1154,8 @@ here
 /
 /
 Cache
+async
 function
-*
 test_cache_cleared
 (
 )
@@ -1180,7 +1180,7 @@ USER_CONTEXTS
 )
 )
 {
-yield
+await
 OpenCacheEntry
 (
 "
@@ -1214,7 +1214,7 @@ userContextId
 )
 )
 ;
-yield
+await
 OpenCacheEntry
 (
 "
@@ -1391,7 +1391,7 @@ Forget
 the
 site
 .
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

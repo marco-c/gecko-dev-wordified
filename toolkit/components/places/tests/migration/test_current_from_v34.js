@@ -110,8 +110,8 @@ the
 main
 connection
 .
+async
 function
-*
 insertItem
 (
 db
@@ -123,7 +123,7 @@ let
 parentInfo
 ]
 =
-yield
+await
 db
 .
 execute
@@ -175,7 +175,7 @@ makeGuid
 (
 )
 ;
-yield
+await
 db
 .
 execute
@@ -262,7 +262,7 @@ let
 id
 =
 (
-yield
+await
 db
 .
 execute
@@ -313,8 +313,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -379,7 +379,7 @@ makeGuid
 (
 )
 ;
-yield
+await
 db
 .
 execute
@@ -428,8 +428,7 @@ url
 ;
 }
 return
-yield
-*
+await
 insertItem
 (
 db
@@ -440,8 +439,8 @@ info
 )
 ;
 }
+async
 function
-*
 insertAnno
 (
 db
@@ -450,7 +449,7 @@ name
 value
 )
 {
-yield
+await
 db
 .
 execute
@@ -473,7 +472,7 @@ name
 }
 )
 ;
-yield
+await
 db
 .
 execute
@@ -539,16 +538,15 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
 let
 item
 =
-yield
-*
+await
 insertItem
 (
 db
@@ -564,8 +562,7 @@ root________
 }
 )
 ;
-yield
-*
+await
 insertAnno
 (
 db

@@ -291,8 +291,8 @@ button
 "
 )
 ;
+async
 function
-*
 clickButtonAndExpectNewPortalTab
 (
 )
@@ -319,7 +319,7 @@ click
 let
 tab
 =
-yield
+await
 p
 ;
 is

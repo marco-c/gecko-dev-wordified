@@ -88,8 +88,8 @@ that
 it
 opens
 cleanly
+async
 function
-*
 runTest
 (
 installer
@@ -98,7 +98,7 @@ installer
 let
 mgrWindow
 =
-yield
+await
 open_manager
 (
 "
@@ -118,8 +118,7 @@ addon
 id
 }
 =
-yield
-*
+await
 installer
 (
 )
@@ -198,7 +197,7 @@ clickCount
 mgrWindow
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -387,7 +386,7 @@ visible
 "
 )
 ;
-yield
+await
 close_manager
 (
 mgrWindow

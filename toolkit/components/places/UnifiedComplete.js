@@ -8608,7 +8608,7 @@ return
 false
 ;
 }
-*
+async
 _matchFirstHeuristicResult
 (
 conn
@@ -8678,7 +8678,7 @@ extension
 let
 matched
 =
-yield
+await
 this
 .
 _matchExtensionHeuristicResult
@@ -8726,7 +8726,7 @@ keyword
 let
 matched
 =
-yield
+await
 this
 .
 _matchSearchEngineAlias
@@ -8765,7 +8765,7 @@ keyword
 let
 matched
 =
-yield
+await
 this
 .
 _matchPlacesKeyword
@@ -8817,7 +8817,7 @@ database
 let
 matched
 =
-yield
+await
 this
 .
 _matchKnownUrl
@@ -8864,7 +8864,7 @@ engines
 let
 matched
 =
-yield
+await
 this
 .
 _matchSearchEngineUrl
@@ -9020,7 +9020,7 @@ whitelist
 let
 matched
 =
-yield
+await
 this
 .
 _matchUnknownUrl
@@ -9108,7 +9108,7 @@ _addingHeuristicFirstMatch
 =
 false
 ;
-yield
+await
 this
 .
 _matchCurrentSearchEngine
@@ -9172,7 +9172,7 @@ engine
 let
 matched
 =
-yield
+await
 this
 .
 _matchCurrentSearchEngine
@@ -9650,7 +9650,7 @@ looksLikeUrl
 )
 ;
 }
-*
+async
 _matchKnownUrl
 (
 conn
@@ -9839,7 +9839,7 @@ this
 .
 _urlQuery
 ;
-yield
+await
 conn
 .
 executeCached
@@ -9887,7 +9887,7 @@ this
 .
 _hostQuery
 ;
-yield
+await
 conn
 .
 executeCached
@@ -9984,7 +9984,7 @@ return
 false
 ;
 }
-*
+async
 _matchPlacesKeyword
 (
 )
@@ -10021,7 +10021,7 @@ _searchTokens
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10075,7 +10075,7 @@ url
 postData
 ]
 =
-yield
+await
 BrowserUtils
 .
 parseUrlAndPostData
@@ -10251,7 +10251,7 @@ return
 true
 ;
 }
-*
+async
 _matchSearchEngineUrl
 (
 )
@@ -10269,7 +10269,7 @@ false
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -10654,7 +10654,7 @@ return
 true
 ;
 }
-*
+async
 _matchSearchEngineAlias
 (
 )
@@ -10685,7 +10685,7 @@ _searchTokens
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -10735,7 +10735,7 @@ return
 true
 ;
 }
-*
+async
 _matchCurrentSearchEngine
 (
 )
@@ -10743,7 +10743,7 @@ _matchCurrentSearchEngine
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 getDefaultMatch
@@ -11031,7 +11031,7 @@ promise
 )
 ;
 }
-*
+async
 _matchRemoteTabs
 (
 )
@@ -11039,7 +11039,7 @@ _matchRemoteTabs
 let
 matches
 =
-yield
+await
 PlacesRemoteTabsAutocompleteProvider
 .
 getMatches

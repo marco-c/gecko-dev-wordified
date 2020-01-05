@@ -578,8 +578,8 @@ event
 "
 run
 :
+async
 function
-*
 testPeerRequestEvent
 (
 browser
@@ -591,7 +591,7 @@ on
 (
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -670,8 +670,8 @@ allow
 "
 run
 :
+async
 function
-*
 testBlocker
 (
 browser
@@ -730,7 +730,7 @@ addPeerConnectionBlocker
 blocker
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -788,8 +788,8 @@ allow
 "
 run
 :
+async
 function
-*
 testDeferredBlocker
 (
 browser
@@ -823,7 +823,7 @@ addPeerConnectionBlocker
 blocker
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -870,8 +870,8 @@ deny
 "
 run
 :
+async
 function
-*
 testBlockerDeny
 (
 browser
@@ -900,7 +900,7 @@ addPeerConnectionBlocker
 blocker
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -951,8 +951,8 @@ allow
 "
 run
 :
+async
 function
-*
 testMultipleAllowBlockers
 (
 browser
@@ -1020,7 +1020,7 @@ addPeerConnectionBlocker
 blocker2
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -1098,8 +1098,8 @@ deny
 "
 run
 :
+async
 function
-*
 testAllowDenyBlockers
 (
 browser
@@ -1167,7 +1167,7 @@ addPeerConnectionBlocker
 blocker2
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -1247,8 +1247,8 @@ first
 "
 run
 :
+async
 function
-*
 testDenyAllowBlockers
 (
 browser
@@ -1315,7 +1315,7 @@ addPeerConnectionBlocker
 blocker2
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -1398,8 +1398,8 @@ removed
 "
 run
 :
+async
 function
-*
 testRemoveBlocker
 (
 browser
@@ -1474,7 +1474,7 @@ removePeerConnectionBlocker
 blocker1
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser
@@ -1548,8 +1548,8 @@ ignored
 "
 run
 :
+async
 function
-*
 testBlockerThrows
 (
 browser
@@ -1621,7 +1621,7 @@ addPeerConnectionBlocker
 blocker2
 )
 ;
-yield
+await
 tryPeerConnection
 (
 browser

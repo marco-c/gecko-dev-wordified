@@ -5435,12 +5435,12 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 removeFoldersContents
 (
 db
@@ -5483,7 +5483,7 @@ of
 folderGuids
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -8243,8 +8243,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -8298,7 +8298,7 @@ for
 this
 URL
 .
-yield
+await
 maybeInsertPlace
 (
 db
@@ -8486,7 +8486,7 @@ index
 -
 1
 ;
-yield
+await
 db
 .
 executeCached
@@ -8600,7 +8600,7 @@ _id
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -8643,7 +8643,7 @@ index
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -8682,7 +8682,7 @@ newIndex
 }
 )
 ;
-yield
+await
 setAncestorsLastModified
 (
 db
@@ -8696,7 +8696,7 @@ syncChangeDelta
 )
 ;
 }
-yield
+await
 setAncestorsLastModified
 (
 db
@@ -8879,7 +8879,7 @@ the
 tagged
 URL
 .
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -8942,7 +8942,7 @@ new
 URL
 here
 .
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9006,7 +9006,7 @@ all
 tagged
 bookmarks
 .
-yield
+await
 addSyncChangesForBookmarksInFolder
 (
 db
@@ -9015,7 +9015,7 @@ syncChangeDelta
 )
 ;
 }
-yield
+await
 db
 .
 executeCached
@@ -9179,7 +9179,7 @@ item
 index
 )
 ;
-yield
+await
 adjustSeparatorsSyncCounter
 (
 db
@@ -9201,7 +9201,7 @@ affected
 separators
 as
 changed
-yield
+await
 adjustSeparatorsSyncCounter
 (
 db
@@ -9214,7 +9214,7 @@ index
 syncChangeDelta
 )
 ;
-yield
+await
 adjustSeparatorsSyncCounter
 (
 db
@@ -9265,7 +9265,7 @@ used
 by
 Sync
 .
-yield
+await
 db
 .
 executeCached
@@ -9555,8 +9555,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 transaction
 (
 )
@@ -9595,7 +9595,7 @@ trigger
 on
 guid
 .
-yield
+await
 maybeInsertPlace
 (
 db
@@ -9610,7 +9610,7 @@ url
 Adjust
 indices
 .
-yield
+await
 db
 .
 executeCached
@@ -9685,7 +9685,7 @@ into
 the
 database
 .
-yield
+await
 db
 .
 executeCached
@@ -9833,7 +9833,7 @@ affected
 separators
 as
 changed
-yield
+await
 adjustSeparatorsSyncCounter
 (
 db
@@ -9866,7 +9866,7 @@ reinserting
 an
 item
 .
-yield
+await
 db
 .
 executeCached
@@ -9913,7 +9913,7 @@ the
 tagged
 URL
 .
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -9928,7 +9928,7 @@ syncChangeDelta
 )
 ;
 }
-yield
+await
 setAncestorsLastModified
 (
 db
@@ -10082,13 +10082,13 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 transaction
 (
 )
 {
-yield
+await
 maybeInsertManyPlaces
 (
 db
@@ -10203,7 +10203,7 @@ rootId
 )
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -10301,7 +10301,7 @@ syncStatus
 items
 )
 ;
-yield
+await
 setAncestorsLastModified
 (
 db
@@ -11720,8 +11720,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 transaction
 (
 )
@@ -11782,7 +11782,7 @@ folder
 )
 ;
 }
-yield
+await
 removeFoldersContents
 (
 db
@@ -11858,7 +11858,7 @@ an
 unexpected
 value
 .
-yield
+await
 removeAnnotationsForItem
 (
 db
@@ -11877,7 +11877,7 @@ from
 the
 database
 .
-yield
+await
 db
 .
 executeCached
@@ -11907,7 +11907,7 @@ in
 the
 parent
 .
-yield
+await
 db
 .
 executeCached
@@ -11966,7 +11966,7 @@ affected
 separators
 as
 changed
-yield
+await
 adjustSeparatorsSyncCounter
 (
 db
@@ -12008,7 +12008,7 @@ the
 tagged
 URL
 .
-yield
+await
 PlacesSyncUtils
 .
 bookmarks
@@ -12033,7 +12033,7 @@ the
 removed
 item
 .
-yield
+await
 insertTombstone
 (
 db
@@ -12041,7 +12041,7 @@ item
 syncChangeDelta
 )
 ;
-yield
+await
 setAncestorsLastModified
 (
 db
@@ -12157,8 +12157,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -12178,7 +12178,7 @@ parent
 let
 children
 =
-yield
+await
 fetchBookmarksByParent
 (
 {
@@ -12723,7 +12723,7 @@ join
 (
 )
 ;
-yield
+await
 db
 .
 execute
@@ -12831,7 +12831,7 @@ having
 a
 change
 .
-yield
+await
 db
 .
 executeCached
@@ -12904,7 +12904,7 @@ about
 these
 changes
 .
-yield
+await
 db
 .
 executeCached
@@ -12982,7 +12982,7 @@ guid
 END
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -13000,7 +13000,7 @@ position
 0
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -13099,7 +13099,7 @@ _id
 ;
 }
 }
-yield
+await
 db
 .
 executeCached

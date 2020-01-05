@@ -838,8 +838,8 @@ file_bug906190_2
 .
 html
 "
+async
 function
-*
 (
 )
 {
@@ -877,7 +877,7 @@ persistent
 across
 tabs
 .
-yield
+await
 assertMixedContentBlockingState
 (
 gBrowser
@@ -1010,8 +1010,8 @@ file_bug906190_2
 .
 html
 "
+async
 function
-*
 (
 )
 {
@@ -1054,7 +1054,7 @@ the
 same
 domain
 .
-yield
+await
 assertMixedContentBlockingState
 (
 gBrowser
@@ -1221,8 +1221,8 @@ file_bug906190_3_4
 .
 html
 "
+async
 function
-*
 (
 )
 {
@@ -1243,7 +1243,7 @@ NOT
 <
 true
 !
-yield
+await
 assertMixedContentBlockingState
 (
 gBrowser
@@ -1391,8 +1391,8 @@ file_bug906190_3_4
 .
 html
 "
+async
 function
-*
 (
 )
 {
@@ -1412,7 +1412,7 @@ TRUE
 <
 <
 .
-yield
+await
 assertMixedContentBlockingState
 (
 gBrowser
@@ -1756,8 +1756,8 @@ file_bug906190
 .
 sjs
 "
+async
 function
-*
 (
 )
 {
@@ -1777,7 +1777,7 @@ TRUE
 <
 <
 .
-yield
+await
 assertMixedContentBlockingState
 (
 gBrowser

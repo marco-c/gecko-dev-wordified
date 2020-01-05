@@ -1319,8 +1319,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -1453,7 +1453,7 @@ a
 repair
 strategy
 .
-yield
+await
 db
 .
 executeCached
@@ -1540,7 +1540,7 @@ NORMAL
 }
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1550,7 +1550,7 @@ FROM
 moz_bookmarks_deleted
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1646,7 +1646,7 @@ now
 )
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -1685,7 +1685,7 @@ existing
 tracked
 items
 .
-yield
+await
 db
 .
 executeCached
@@ -1800,7 +1800,7 @@ a
 synced
 root
 .
-yield
+await
 db
 .
 executeCached
@@ -1866,7 +1866,7 @@ NULL
 }
 finally
 {
-yield
+await
 db
 .
 executeCached
@@ -2578,8 +2578,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -2638,7 +2638,7 @@ the
 next
 sync
 .
-yield
+await
 db
 .
 executeCached
@@ -2685,7 +2685,7 @@ NORMAL
 )
 ;
 }
-yield
+await
 removeTombstones
 (
 db
@@ -3737,8 +3737,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -3753,7 +3753,7 @@ for
 all
 bookmarks
 .
-yield
+await
 db
 .
 executeCached
@@ -3795,7 +3795,7 @@ Sync
 is
 disconnected
 .
-yield
+await
 db
 .
 execute
@@ -3832,7 +3832,7 @@ Drop
 stale
 tombstones
 .
-yield
+await
 db
 .
 executeCached
@@ -12144,8 +12144,8 @@ db
 .
 executeTransaction
 (
+async
 function
-*
 (
 )
 {
@@ -12203,7 +12203,7 @@ GUID
 remoteGuid
 )
 ;
-yield
+await
 db
 .
 executeCached
@@ -12315,7 +12315,7 @@ is
 /
 interrupted
 .
-yield
+await
 db
 .
 executeCached
@@ -12488,7 +12488,7 @@ if
 sameParent
 )
 {
-yield
+await
 db
 .
 executeCached
@@ -12565,7 +12565,7 @@ SYNC_STATUS
 NORMAL
 )
 {
-yield
+await
 db
 .
 executeCached

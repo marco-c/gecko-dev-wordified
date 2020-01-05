@@ -53,8 +53,8 @@ requestLongerTimeout
 2
 )
 ;
+async
 function
-*
 testHasPermission
 (
 params
@@ -251,14 +251,14 @@ ran
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -275,7 +275,7 @@ params
 setup
 )
 {
-yield
+await
 params
 .
 setup
@@ -295,7 +295,7 @@ script
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -312,7 +312,7 @@ params
 tearDown
 )
 {
-yield
+await
 params
 .
 tearDown
@@ -321,7 +321,7 @@ extension
 )
 ;
 }
-yield
+await
 extension
 .
 unload
@@ -600,13 +600,13 @@ resolve
 }
 setup
 :
+async
 function
-*
 (
 extension
 )
 {
-yield
+await
 EventUtils
 .
 synthesizeKey
@@ -624,7 +624,7 @@ true
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage

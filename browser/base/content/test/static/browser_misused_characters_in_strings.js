@@ -1100,8 +1100,8 @@ periods
 )
 ;
 }
+async
 function
-*
 getAllTheFiles
 (
 extension
@@ -1152,7 +1152,7 @@ appDirXCurProcD
 )
 {
 return
-yield
+await
 generateURIsFromDirTree
 (
 appDirGreD
@@ -1173,7 +1173,7 @@ appDirGreD
 )
 {
 return
-yield
+await
 generateURIsFromDirTree
 (
 appDirXCurProcD
@@ -1186,7 +1186,7 @@ extension
 let
 urisGreD
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDirGreD
@@ -1198,7 +1198,7 @@ extension
 let
 urisXCurProcD
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDirXCurProcD

@@ -463,8 +463,8 @@ tab
 }
 )
 ;
+async
 function
-*
 checkState
 (
 prefix
@@ -479,7 +479,7 @@ query
 tab
 state
 .
-yield
+await
 TabStateFlusher
 .
 flush

@@ -1182,15 +1182,15 @@ gAddedEngines
 [
 ]
 ;
+async
 function
-*
 setupKeywords
 (
 )
 {
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1245,7 +1245,7 @@ instanceof
 bmKeywordData
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1266,7 +1266,7 @@ guid
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords

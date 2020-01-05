@@ -91,8 +91,8 @@ await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -111,7 +111,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -349,8 +349,8 @@ await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -369,7 +369,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -490,8 +490,8 @@ await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -510,7 +510,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -612,7 +612,7 @@ DOWN
 content
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -718,7 +718,7 @@ RETURN
 "
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

@@ -956,14 +956,14 @@ different
 test
 runs
 .
+async
 function
-*
 doInit
 (
 aMode
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1623,8 +1623,8 @@ of
 cache
 entries
 .
+async
 function
-*
 doCheck
 (
 aShouldIsolate
@@ -1649,7 +1649,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1664,7 +1664,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1679,7 +1679,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1699,7 +1699,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1722,7 +1722,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1745,7 +1745,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1768,7 +1768,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1791,7 +1791,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1818,7 +1818,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1845,7 +1845,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo
@@ -1872,7 +1872,7 @@ data
 .
 concat
 (
-yield
+await
 cacheDataForContext
 (
 LoadContextInfo

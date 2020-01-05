@@ -114,15 +114,15 @@ data
 }
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
 let
 addresses
 =
-yield
+await
 getAddresses
 (
 )
@@ -134,7 +134,7 @@ addresses
 length
 )
 {
-yield
+await
 removeAddresses
 (
 addresses

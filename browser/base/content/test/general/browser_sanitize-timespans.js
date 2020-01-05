@@ -5462,8 +5462,8 @@ deferred
 promise
 ;
 }
+async
 function
-*
 setupFormHistory
 (
 )
@@ -5654,7 +5654,7 @@ ll
 be
 testing
 .
-yield
+await
 update
 (
 [
@@ -5844,7 +5844,7 @@ kUsecPerMin
 let
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -5861,7 +5861,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -5894,7 +5894,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -5911,7 +5911,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -5944,7 +5944,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -5961,7 +5961,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -5994,7 +5994,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6011,7 +6011,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6044,7 +6044,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6061,7 +6061,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6094,7 +6094,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6111,7 +6111,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6144,7 +6144,7 @@ kUsecPerMin
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6161,7 +6161,7 @@ fieldname
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6225,7 +6225,7 @@ getTime
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6242,7 +6242,7 @@ today
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6298,7 +6298,7 @@ getTime
 ;
 results
 =
-yield
+await
 searchEntries
 (
 [
@@ -6315,7 +6315,7 @@ b4today
 }
 )
 ;
-yield
+await
 update
 (
 {
@@ -6369,7 +6369,7 @@ checks
 Sanity
 check
 .
-yield
+await
 countEntries
 (
 "
@@ -6387,7 +6387,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6405,7 +6405,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6423,7 +6423,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6441,7 +6441,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6459,7 +6459,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6477,7 +6477,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6495,7 +6495,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6513,7 +6513,7 @@ creation
 checkOne
 )
 ;
-yield
+await
 countEntries
 (
 "
@@ -6543,8 +6543,8 @@ made
 )
 ;
 }
+async
 function
-*
 setupDownloads
 (
 )
@@ -6552,7 +6552,7 @@ setupDownloads
 let
 publicList
 =
-yield
+await
 Downloads
 .
 getList
@@ -6565,7 +6565,7 @@ PUBLIC
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6628,7 +6628,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -6638,7 +6638,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6701,7 +6701,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -6711,7 +6711,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6778,7 +6778,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -6788,7 +6788,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6851,7 +6851,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -6861,7 +6861,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6928,7 +6928,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -6938,7 +6938,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -7001,7 +7001,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -7011,7 +7011,7 @@ download
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -7078,7 +7078,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -7124,7 +7124,7 @@ setSeconds
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -7182,7 +7182,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -7221,7 +7221,7 @@ getFullYear
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -7269,7 +7269,7 @@ canceled
 =
 true
 ;
-yield
+await
 publicList
 .
 add
@@ -7285,7 +7285,7 @@ worked
 let
 downloads
 =
-yield
+await
 publicList
 .
 getAll
@@ -7309,7 +7309,7 @@ added
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7334,7 +7334,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7363,7 +7363,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7392,7 +7392,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7429,7 +7429,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7458,7 +7458,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7495,7 +7495,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7524,7 +7524,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList
@@ -7561,7 +7561,7 @@ exist
 ok
 (
 (
-yield
+await
 downloadExists
 (
 publicList

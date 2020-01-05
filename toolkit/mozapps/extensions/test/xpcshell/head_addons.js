@@ -8552,8 +8552,8 @@ aId
 return
 file
 }
+async
 function
-*
 serveSystemUpdate
 (
 xml
@@ -8592,7 +8592,7 @@ xml
 ;
 try
 {
-yield
+await
 perform_update
 (
 )
@@ -8649,8 +8649,8 @@ rejections
 on
 failure
 .
+async
 function
-*
 installSystemAddons
 (
 xml
@@ -8671,12 +8671,12 @@ check
 "
 )
 ;
-yield
+await
 serveSystemUpdate
 (
 xml
+async
 function
-*
 (
 )
 {
@@ -8710,7 +8710,7 @@ jsm
 }
 )
 ;
-yield
+await
 XPIProvider
 .
 updateSystemAddons
@@ -8751,8 +8751,8 @@ check
 Always
 succeeds
 .
+async
 function
-*
 updateAllSystemAddons
 (
 xml
@@ -8773,7 +8773,7 @@ check
 "
 )
 ;
-yield
+await
 serveSystemUpdate
 (
 xml

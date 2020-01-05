@@ -203,8 +203,8 @@ string2
 ;
 add_test_pair
 (
+async
 function
-*
 read_write_all
 (
 )
@@ -777,7 +777,7 @@ TMP_PATH
 ;
 }
 ;
-yield
+await
 test_with_options
 (
 {
@@ -792,7 +792,7 @@ flushing
 "
 )
 ;
-yield
+await
 test_with_options
 (
 {
@@ -809,7 +809,7 @@ flushing
 "
 )
 ;
-yield
+await
 test_with_options
 (
 {
@@ -822,7 +822,7 @@ flushing
 "
 )
 ;
-yield
+await
 test_with_options
 (
 {

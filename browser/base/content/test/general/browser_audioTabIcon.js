@@ -878,8 +878,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_tooltip
 (
 icon
@@ -903,7 +903,7 @@ tooltip
 "
 )
 ;
-yield
+await
 hover_icon
 (
 icon
@@ -1235,8 +1235,8 @@ false
 )
 ;
 }
+async
 function
-*
 test_mute_tab
 (
 tab
@@ -1276,7 +1276,7 @@ tooltip
 "
 )
 ;
-yield
+await
 hover_icon
 (
 icon
@@ -1348,7 +1348,7 @@ state
 let
 isAudioPlaying
 =
-yield
+await
 is_audio_playing
 (
 tab
@@ -1359,7 +1359,7 @@ if
 isAudioPlaying
 )
 {
-yield
+await
 wait_for_tab_playing_event
 (
 tab
@@ -1750,8 +1750,8 @@ await
 mutedPromise
 ;
 }
+async
 function
-*
 test_playing_icon_on_tab
 (
 tab
@@ -1796,13 +1796,13 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 play
 (
 tab
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -1859,7 +1859,7 @@ persisted
 "
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -1905,7 +1905,7 @@ persisted
 "
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -1916,7 +1916,7 @@ tab
 isActiveTab
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -1970,7 +1970,7 @@ persisted
 "
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -1981,7 +1981,7 @@ tab
 isActiveTab
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -1989,7 +1989,7 @@ icon
 true
 )
 ;
-yield
+await
 pause
 (
 tab
@@ -2051,7 +2051,7 @@ playing
 "
 )
 ;
-yield
+await
 test_tooltip
 (
 icon
@@ -2062,7 +2062,7 @@ tab
 isActiveTab
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -2143,7 +2143,7 @@ the
 context
 menu
 .
-yield
+await
 test_muting_using_menu
 (
 tab
@@ -2165,7 +2165,7 @@ the
 context
 menu
 .
-yield
+await
 test_muting_using_menu
 (
 tab
@@ -2970,8 +2970,8 @@ test_click_on_pinned_tab_after_mute
 (
 )
 {
+async
 function
-*
 taskFn
 (
 browser
@@ -3044,7 +3044,7 @@ it
 to
 finish
 .
-yield
+await
 play
 (
 tab
@@ -3074,7 +3074,7 @@ icon
 "
 )
 ;
-yield
+await
 test_mute_tab
 (
 tab
@@ -3093,7 +3093,7 @@ it
 to
 finish
 .
-yield
+await
 pause
 (
 tab
@@ -3104,7 +3104,7 @@ tab
 Unmute
 tab
 .
-yield
+await
 test_mute_tab
 (
 tab
@@ -3438,8 +3438,8 @@ await
 mutedPromise
 ;
 }
+async
 function
-*
 taskFn
 (
 browser
@@ -3471,7 +3471,7 @@ tab
 is
 playing
 .
-yield
+await
 test_muting_using_keyboard
 (
 tab
@@ -3488,7 +3488,7 @@ it
 to
 finish
 .
-yield
+await
 play
 (
 tab
@@ -3510,7 +3510,7 @@ tab
 is
 playing
 .
-yield
+await
 test_muting_using_keyboard
 (
 tab
@@ -3527,7 +3527,7 @@ it
 to
 finish
 .
-yield
+await
 pause
 (
 tab
@@ -3568,7 +3568,7 @@ tab
 is
 playing
 .
-yield
+await
 test_muting_using_keyboard
 (
 tab
@@ -3585,7 +3585,7 @@ it
 to
 finish
 .
-yield
+await
 play
 (
 tab
@@ -3607,7 +3607,7 @@ tab
 is
 playing
 .
-yield
+await
 test_muting_using_keyboard
 (
 tab
@@ -3773,8 +3773,8 @@ test_delayed_tabattr_removal
 (
 )
 {
+async
 function
-*
 taskFn
 (
 browser
@@ -3790,7 +3790,7 @@ getTabForBrowser
 browser
 )
 ;
-yield
+await
 play
 (
 tab
@@ -3847,7 +3847,7 @@ that
 this
 broke
 .
-yield
+await
 pause
 (
 tab

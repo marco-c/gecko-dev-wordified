@@ -2692,12 +2692,12 @@ Test
 #
 11
 "
-*
+async
 run
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2810,7 +2810,7 @@ showNotification
 notifyObj1
 )
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -3035,7 +3035,7 @@ clickAnchor
 notifyObj2
 )
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -3085,7 +3085,7 @@ clickAnchor
 notifyObj1
 )
 ;
-yield
+await
 shown
 ;
 checkPopup

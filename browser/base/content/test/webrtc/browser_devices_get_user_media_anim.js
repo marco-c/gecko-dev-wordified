@@ -44,8 +44,8 @@ tabs
 "
 run
 :
+async
 function
-*
 checkAudioVideo
 (
 )
@@ -584,7 +584,7 @@ stream
 )
 ;
 }
-yield
+await
 getStreamAndCheckBackgroundAnim
 (
 true
@@ -594,7 +594,7 @@ camera
 "
 )
 ;
-yield
+await
 getStreamAndCheckBackgroundAnim
 (
 false
@@ -604,7 +604,7 @@ camera
 "
 )
 ;
-yield
+await
 getStreamAndCheckBackgroundAnim
 (
 true

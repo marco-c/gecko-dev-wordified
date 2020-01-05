@@ -3093,8 +3093,8 @@ TransactionsManager
 .
 batch
 (
+async
 function
-*
 (
 )
 {
@@ -3108,7 +3108,7 @@ aToBatch
 {
 try
 {
-yield
+await
 txn
 .
 transact
@@ -4393,8 +4393,8 @@ _transactEnqueuer
 .
 enqueue
 (
+async
 function
-*
 (
 )
 {
@@ -4427,7 +4427,7 @@ stack
 let
 retval
 =
-yield
+await
 rawTxn
 .
 execute
@@ -4617,8 +4617,8 @@ _mainEnqueuer
 .
 enqueue
 (
+async
 function
-*
 (
 )
 {
@@ -4646,7 +4646,7 @@ entry
 {
 try
 {
-yield
+await
 TransactionsHistory
 .
 getRawTransaction
@@ -4791,8 +4791,8 @@ _mainEnqueuer
 .
 enqueue
 (
+async
 function
-*
 (
 )
 {
@@ -4852,7 +4852,7 @@ transaction
 .
 redo
 )
-yield
+await
 transaction
 .
 redo
@@ -4860,7 +4860,7 @@ redo
 )
 ;
 else
-yield
+await
 transaction
 .
 execute
@@ -7248,8 +7248,8 @@ aTransaction
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -7298,7 +7298,7 @@ if
 aOnUndo
 )
 {
-yield
+await
 aOnUndo
 (
 )
@@ -7545,8 +7545,8 @@ Promise
 }
 *
 /
+async
 function
-*
 createItemsFromBookmarksTree
 (
 aBookmarksTree
@@ -8065,7 +8065,7 @@ itemId
 ;
 }
 return
-yield
+await
 createItem
 (
 aBookmarksTree
@@ -8383,8 +8383,8 @@ ExecuteCreateItem
 (
 this
 aParentGuid
+async
 function
-*
 (
 parentId
 guidToRestore
@@ -8414,7 +8414,7 @@ if
 aKeyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -8906,7 +8906,7 @@ Object
 seal
 (
 {
-*
+async
 execute
 (
 aFeedURI
@@ -9032,7 +9032,7 @@ livemark
 let
 livemark
 =
-yield
+await
 createItem
 (
 )
@@ -9041,8 +9041,8 @@ this
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -9097,7 +9097,7 @@ id
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -9113,14 +9113,14 @@ this
 .
 redo
 =
+async
 function
-*
 (
 )
 {
 livemark
 =
-yield
+await
 createItem
 (
 )
@@ -10092,7 +10092,7 @@ Object
 seal
 (
 {
-*
+async
 execute
 (
 aGuid
@@ -10114,7 +10114,7 @@ aOldKeyword
 {
 oldKeywordEntry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10130,7 +10130,7 @@ oldKeywordEntry
 .
 url
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10155,7 +10155,7 @@ url
 url
 =
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -10169,7 +10169,7 @@ aGuid
 url
 ;
 }
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10204,8 +10204,8 @@ this
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -10214,7 +10214,7 @@ if
 aKeyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10230,7 +10230,7 @@ if
 oldKeywordEntry
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -10936,7 +10936,7 @@ RemoveBookmarksForUrls
 prototype
 =
 {
-*
+async
 execute
 (
 aUrls
@@ -10956,7 +10956,7 @@ of
 aUrls
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -10998,7 +10998,7 @@ guids
 )
 )
 ;
-yield
+await
 removeTxn
 .
 execute
@@ -11077,7 +11077,7 @@ Tag
 prototype
 =
 {
-*
+async
 execute
 (
 aURIs
@@ -11106,7 +11106,7 @@ if
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -11166,7 +11166,7 @@ unfiledGuid
 )
 )
 ;
-yield
+await
 createTxn
 .
 execute
@@ -11295,8 +11295,8 @@ this
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -11308,7 +11308,7 @@ of
 onUndo
 )
 {
-yield
+await
 f
 (
 )
@@ -11320,8 +11320,8 @@ this
 .
 redo
 =
+async
 function
-*
 (
 )
 {
@@ -11333,7 +11333,7 @@ of
 onRedo
 )
 {
-yield
+await
 f
 (
 )
@@ -11545,8 +11545,8 @@ this
 .
 undo
 =
+async
 function
-*
 (
 )
 {
@@ -11558,7 +11558,7 @@ of
 onUndo
 )
 {
-yield
+await
 f
 (
 )
@@ -11570,8 +11570,8 @@ this
 .
 redo
 =
+async
 function
-*
 (
 )
 {
@@ -11583,7 +11583,7 @@ of
 onRedo
 )
 {
-yield
+await
 f
 (
 )
@@ -11796,14 +11796,14 @@ this
 .
 redo
 =
+async
 function
-*
 (
 )
 {
 newItemId
 =
-yield
+await
 createItemsFromBookmarksTree
 (
 newItemInfo

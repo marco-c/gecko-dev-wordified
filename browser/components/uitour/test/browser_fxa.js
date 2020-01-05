@@ -95,12 +95,12 @@ UITourTest
 }
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 signOut
 (
 )
@@ -125,8 +125,8 @@ tests
 [
 taskify
 (
+async
 function
-*
 test_highlight_accountStatus_loggedOut
 (
 )
@@ -134,7 +134,7 @@ test_highlight_accountStatus_loggedOut
 let
 userData
 =
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -153,7 +153,7 @@ initially
 "
 )
 ;
-yield
+await
 showMenuPromise
 (
 "
@@ -161,7 +161,7 @@ appMenu
 "
 )
 ;
-yield
+await
 showHighlightPromise
 (
 "
@@ -205,13 +205,13 @@ target
 )
 taskify
 (
+async
 function
-*
 test_highlight_accountStatus_loggedIn
 (
 )
 {
-yield
+await
 setSignedInUser
 (
 )
@@ -219,7 +219,7 @@ setSignedInUser
 let
 userData
 =
-yield
+await
 fxAccounts
 .
 getSignedInUser
@@ -248,7 +248,7 @@ get
 )
 )
 ;
-yield
+await
 showMenuPromise
 (
 "
@@ -256,7 +256,7 @@ appMenu
 "
 )
 ;
-yield
+await
 showHighlightPromise
 (
 "

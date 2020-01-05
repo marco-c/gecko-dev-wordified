@@ -169,12 +169,12 @@ example
 .
 com
 "
+async
 function
-*
 (
 )
 {
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
@@ -203,7 +203,7 @@ focused
 "
 )
 ;
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gIdentityHandler
@@ -299,8 +299,8 @@ BrowserTestUtils
 withNewTab
 (
 PERMISSIONS_PAGE
+async
 function
-*
 (
 browser
 )
@@ -339,10 +339,10 @@ geo
 browser
 )
 ;
-yield
+await
 popupshown
 ;
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
@@ -387,7 +387,7 @@ icon
 "
 )
 ;
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 geoIcon
@@ -415,7 +415,7 @@ focused
 "
 )
 ;
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gIdentityHandler
@@ -507,8 +507,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -562,7 +562,7 @@ gURLBar
 inputField
 )
 {
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
@@ -592,7 +592,7 @@ focused
 "
 )
 ;
-yield
+await
 synthesizeKeyAndWaitForFocus
 (
 gBrowser

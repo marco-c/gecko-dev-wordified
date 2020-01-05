@@ -5374,8 +5374,8 @@ clearEvents
 "
 )
 ;
+async
 function
-*
 download
 (
 )
@@ -5383,7 +5383,7 @@ download
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5419,7 +5419,7 @@ result
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "

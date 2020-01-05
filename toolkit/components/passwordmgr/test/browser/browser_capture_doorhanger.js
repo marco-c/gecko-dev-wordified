@@ -393,8 +393,8 @@ subtst_notifications_1
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -479,8 +479,7 @@ enabled
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -691,8 +690,8 @@ subtst_notifications_1
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -771,8 +770,7 @@ yet
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -2552,8 +2550,8 @@ subtst_notifications_8
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -2610,8 +2608,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -2776,8 +2773,8 @@ subtst_notifications_8
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -2834,8 +2831,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -3047,8 +3043,8 @@ subtst_notifications_9
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -3104,8 +3100,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -3285,8 +3280,8 @@ subtst_notifications_10
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -3343,8 +3338,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -4712,8 +4706,8 @@ subtst_notifications_change_p
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -4770,8 +4764,7 @@ popup
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "
@@ -4973,8 +4966,8 @@ subtst_notifications_2pw_1un_1text
 .
 html
 "
+async
 function
-*
 (
 fieldValues
 )
@@ -5068,8 +5061,7 @@ yet
 "
 )
 ;
-yield
-*
+await
 checkDoorhangerUsernamePassword
 (
 "

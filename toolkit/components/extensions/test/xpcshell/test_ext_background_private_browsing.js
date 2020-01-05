@@ -67,8 +67,8 @@ jsm
 "
 )
 ;
+async
 function
-*
 testBackgroundPage
 (
 expected
@@ -166,7 +166,7 @@ inIncognitoContext
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -176,7 +176,7 @@ startup
 let
 incognito
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -199,7 +199,7 @@ value
 "
 )
 ;
-yield
+await
 extension
 .
 unload

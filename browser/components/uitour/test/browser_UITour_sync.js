@@ -43,8 +43,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_checkSyncSetup_disabled
 (
 )
@@ -52,7 +52,7 @@ test_checkSyncSetup_disabled
 let
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -83,8 +83,8 @@ default
 ;
 add_UITour_task
 (
+async
 function
-*
 test_checkSyncSetup_enabled
 (
 )
@@ -115,7 +115,7 @@ org
 let
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -142,8 +142,8 @@ setup
 ;
 add_UITour_task
 (
+async
 function
-*
 test_checkSyncCounts
 (
 )
@@ -207,7 +207,7 @@ numClients
 let
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -278,7 +278,7 @@ desktop
 ;
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -349,7 +349,7 @@ mobile
 ;
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -416,7 +416,7 @@ numClients
 ;
 result
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -842,8 +842,8 @@ opened
 }
 add_UITour_task
 (
+async
 function
-*
 test_firefoxAccountsNonObject
 (
 )
@@ -857,7 +857,7 @@ should
 be
 rejected
 .
-yield
+await
 gContentAPI
 .
 showFirefoxAccounts
@@ -865,7 +865,7 @@ showFirefoxAccounts
 99
 )
 ;
-yield
+await
 checkAboutAccountsNotLoaded
 (
 )
@@ -875,8 +875,8 @@ checkAboutAccountsNotLoaded
 ;
 add_UITour_task
 (
+async
 function
-*
 test_firefoxAccountsNonUtmPrefix
 (
 )
@@ -894,7 +894,7 @@ should
 be
 rejected
 .
-yield
+await
 gContentAPI
 .
 showFirefoxAccounts
@@ -913,7 +913,7 @@ bar
 }
 )
 ;
-yield
+await
 checkAboutAccountsNotLoaded
 (
 )
@@ -923,8 +923,8 @@ checkAboutAccountsNotLoaded
 ;
 add_UITour_task
 (
+async
 function
-*
 test_firefoxAccountsNonAlphaName
 (
 )
@@ -946,7 +946,7 @@ should
 be
 rejected
 .
-yield
+await
 gContentAPI
 .
 showFirefoxAccounts
@@ -968,7 +968,7 @@ bar
 }
 )
 ;
-yield
+await
 checkAboutAccountsNotLoaded
 (
 )

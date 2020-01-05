@@ -774,8 +774,8 @@ EmbeddedExtensionManager
 }
 )
 ;
+async
 function
-*
 createManifestErrorTestCase
 (
 id
@@ -879,7 +879,7 @@ resourceURI
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -928,7 +928,7 @@ test
 will
 fail
 .
-yield
+await
 embeddedExtension
 .
 shutdown

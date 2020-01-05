@@ -731,8 +731,8 @@ language
 "
 run
 :
+async
 function
-*
 checkNeverForLanguage
 (
 )
@@ -776,7 +776,7 @@ fr
 let
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -840,7 +840,7 @@ options
 drop
 down
 .
-yield
+await
 openPopup
 (
 notif
@@ -945,7 +945,7 @@ click
 ;
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -1061,7 +1061,7 @@ click
 ;
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -1076,7 +1076,7 @@ options
 drop
 down
 .
-yield
+await
 openPopup
 (
 notif
@@ -1147,8 +1147,8 @@ site
 "
 run
 :
+async
 function
-*
 checkNeverForSite
 (
 )
@@ -1192,7 +1192,7 @@ fr
 let
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -1256,7 +1256,7 @@ options
 drop
 down
 .
-yield
+await
 openPopup
 (
 notif
@@ -1359,7 +1359,7 @@ click
 ;
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -1483,7 +1483,7 @@ click
 ;
 notif
 =
-yield
+await
 getInfoBar
 (
 )
@@ -1498,7 +1498,7 @@ options
 drop
 down
 .
-yield
+await
 openPopup
 (
 notif

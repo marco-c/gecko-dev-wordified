@@ -789,8 +789,8 @@ labels
 .
 *
 /
+async
 function
-*
 task_fill_history
 (
 )
@@ -893,7 +893,7 @@ b
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -931,7 +931,7 @@ a
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -969,7 +969,7 @@ b
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -1007,7 +1007,7 @@ a
 "
 )
 ;
-yield
+await
 task_add_normalized_visit
 (
 testURI
@@ -2830,8 +2830,8 @@ correctly
 .
 *
 /
+async
 function
-*
 task_test_date_liveupdate
 (
 aResultType
@@ -3062,7 +3062,7 @@ Today
 /
 container
 .
-yield
+await
 task_add_normalized_visit
 (
 uri
@@ -3310,7 +3310,7 @@ for
 Today
 "
 .
-yield
+await
 task_add_normalized_visit
 (
 uri

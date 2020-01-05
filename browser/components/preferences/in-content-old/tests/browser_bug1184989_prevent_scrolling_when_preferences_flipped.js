@@ -94,8 +94,8 @@ url
 :
 tabURL
 }
+async
 function
-*
 (
 browser
 )
@@ -151,7 +151,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 checkPageScrolling
 (
 container
@@ -204,7 +204,7 @@ checked
 "
 )
 ;
-yield
+await
 checkPageScrolling
 (
 container
@@ -269,7 +269,7 @@ selected
 "
 )
 ;
-yield
+await
 checkPageScrolling
 (
 container
@@ -310,7 +310,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 checkPageScrolling
 (
 container
@@ -339,8 +339,8 @@ preferences
 search
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -429,7 +429,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 checkPageScrolling
 (
 container
