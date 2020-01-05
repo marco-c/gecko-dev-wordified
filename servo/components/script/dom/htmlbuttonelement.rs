@@ -2177,7 +2177,7 @@ submit
 SubmittedFrom
 :
 :
-NotFromFormSubmitMethod
+NotFromForm
 FormSubmitter
 :
 :
@@ -2230,7 +2230,7 @@ reset
 ResetFrom
 :
 :
-NotFromFormResetMethod
+NotFromForm
 )
 ;
 }
