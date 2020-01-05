@@ -19158,12 +19158,6 @@ background_image
 background_size
 }
 ;
-use
-cssparser
-:
-:
-Token
-;
 let
 mut
 color
