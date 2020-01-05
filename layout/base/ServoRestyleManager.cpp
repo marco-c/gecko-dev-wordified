@@ -1591,6 +1591,14 @@ NotPseudo
 aElement
 )
 ;
+newContext
+-
+>
+EnsureStructsForServo
+(
+oldStyleContext
+)
+;
 /
 /
 XXX
