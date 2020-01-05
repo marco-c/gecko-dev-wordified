@@ -299,6 +299,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 nsTArray
@@ -653,6 +657,7 @@ layer
 RenderLayer
 (
 aBuilder
+sc
 )
 ;
 }
@@ -675,6 +680,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 gfx

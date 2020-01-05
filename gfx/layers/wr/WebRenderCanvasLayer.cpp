@@ -360,6 +360,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 {
 UpdateCompositableClient

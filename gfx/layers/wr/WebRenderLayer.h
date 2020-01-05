@@ -135,6 +135,9 @@ class
 ImageClientSingle
 ;
 class
+StackingContextHelper
+;
+class
 WebRenderBridgeChild
 ;
 class
@@ -175,6 +178,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 )
 =
 0
