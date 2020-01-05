@@ -195,7 +195,10 @@ bindings
 error
 :
 :
+{
+report_pending_exception
 Fallible
+}
 ;
 use
 dom
@@ -2940,6 +2943,12 @@ evaluating
 JS
 string
 "
+)
+;
+report_pending_exception
+(
+cx
+global
 )
 ;
 }
