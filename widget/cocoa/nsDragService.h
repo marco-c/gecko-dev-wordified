@@ -108,6 +108,13 @@ h
 "
 #
 include
+"
+nsChildView
+.
+h
+"
+#
+include
 <
 Cocoa
 /
@@ -306,7 +313,7 @@ drag
 started
 within
 gecko
-NSView
+ChildView
 *
 mNativeDragView
 ;
