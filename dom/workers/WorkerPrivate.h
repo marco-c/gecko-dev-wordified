@@ -2373,7 +2373,7 @@ mPrincipal
 ;
 }
 void
-SetPrincipal
+SetPrincipalOnMainThread
 (
 nsIPrincipal
 *
@@ -2381,6 +2381,14 @@ aPrincipal
 nsILoadGroup
 *
 aLoadGroup
+)
+;
+nsresult
+SetPrincipalFromChannel
+(
+nsIChannel
+*
+aChannel
 )
 ;
 bool
