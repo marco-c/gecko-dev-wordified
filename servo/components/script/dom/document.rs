@@ -1476,7 +1476,6 @@ restyle_hints
 :
 {
 RestyleHint
-RestyleReplacements
 RESTYLE_STYLE_ATTRIBUTE
 }
 ;
