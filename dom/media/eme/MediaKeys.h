@@ -541,10 +541,6 @@ OnCDMCreated
 PromiseId
 aId
 const
-nsACString
-&
-aNodeId
-const
 uint32_t
 aPluginId
 )
@@ -828,14 +824,6 @@ PromiseId
 aId
 )
 ;
-const
-nsCString
-&
-GetNodeId
-(
-)
-const
-;
 void
 Shutdown
 (
@@ -1004,9 +992,6 @@ mParent
 const
 nsString
 mKeySystem
-;
-nsCString
-mNodeId
 ;
 KeySessionHashMap
 mKeySessions
