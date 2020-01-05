@@ -9312,6 +9312,9 @@ pseudoTag
 *
 mut
 nsIAtom
+skip_display_fixup
+:
+bool
 set
 :
 RawServoStyleSetBorrowed

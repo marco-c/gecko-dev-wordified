@@ -197,7 +197,10 @@ style
 properties
 :
 :
+{
+CascadeFlags
 ServoComputedValues
+}
 ;
 use
 style
@@ -3150,7 +3153,12 @@ values
 context
 .
 default_computed_values
-false
+CascadeFlags
+:
+:
+empty
+(
+)
 )
 ;
 data
