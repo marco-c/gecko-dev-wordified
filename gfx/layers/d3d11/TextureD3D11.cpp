@@ -867,11 +867,6 @@ mAllowTextureUploads
 true
 )
 {
-MOZ_COUNT_CTOR
-(
-DataTextureSourceD3D11
-)
-;
 }
 DataTextureSourceD3D11
 :
@@ -920,11 +915,6 @@ mAllowTextureUploads
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-DataTextureSourceD3D11
-)
-;
 mTexture
 =
 aTexture
@@ -1023,11 +1013,6 @@ DataTextureSourceD3D11
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-DataTextureSourceD3D11
-)
-;
 }
 template
 <
