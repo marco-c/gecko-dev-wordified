@@ -1157,7 +1157,7 @@ outer
 }
 Err
 (
-e
+err_msg
 )
 =
 >
@@ -1171,11 +1171,7 @@ error
 {
 }
 "
-e
-.
-description
-(
-)
+err_msg
 )
 ;
 break
