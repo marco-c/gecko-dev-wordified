@@ -71,7 +71,7 @@ aArgs
 "
 :
 "
-warn
+error
 "
 "
 mozilla
