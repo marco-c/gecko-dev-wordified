@@ -129,7 +129,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -331,12 +331,9 @@ DOMRefCell
 <
 Vec
 <
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSRule
->
 >
 >
 >
@@ -426,7 +423,7 @@ map
 |
 _
 |
-MutNullableHeap
+MutNullableJS
 :
 :
 new
@@ -467,7 +464,7 @@ map
 |
 _
 |
-MutNullableHeap
+MutNullableJS
 :
 :
 new
@@ -739,7 +736,7 @@ borrow_mut
 insert
 (
 index
-MutNullableHeap
+MutNullableJS
 :
 :
 new
@@ -1282,7 +1279,7 @@ borrow_mut
 .
 push
 (
-MutNullableHeap
+MutNullableJS
 :
 :
 new

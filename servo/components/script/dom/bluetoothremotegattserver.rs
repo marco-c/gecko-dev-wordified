@@ -170,8 +170,7 @@ js
 :
 :
 {
-JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -312,12 +311,9 @@ reflector_
 Reflector
 device
 :
-MutHeap
-<
-JS
+MutJS
 <
 BluetoothDevice
->
 >
 connected
 :
@@ -354,7 +350,7 @@ new
 )
 device
 :
-MutHeap
+MutJS
 :
 :
 new

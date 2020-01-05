@@ -180,8 +180,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -650,12 +649,9 @@ FileReaderReadyState
 >
 error
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DOMException
->
 >
 result
 :
@@ -709,7 +705,7 @@ Empty
 )
 error
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

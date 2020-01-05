@@ -119,7 +119,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -841,12 +841,9 @@ mozjs
 ]
 last_visited
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Node
->
 >
 last_index
 :
@@ -893,7 +890,7 @@ node
 )
 last_visited
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

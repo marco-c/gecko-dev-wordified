@@ -251,8 +251,7 @@ js
 :
 :
 {
-JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -1053,12 +1052,9 @@ DOMRefCell
 HashMap
 <
 String
-MutHeap
-<
-JS
+MutJS
 <
 BluetoothDevice
->
 >
 >
 >
@@ -3480,7 +3476,7 @@ insert
 device
 .
 id
-MutHeap
+MutJS
 :
 :
 new

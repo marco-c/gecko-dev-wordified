@@ -320,8 +320,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -576,12 +575,9 @@ bool
 >
 headers
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Headers
->
 >
 mime_type
 :

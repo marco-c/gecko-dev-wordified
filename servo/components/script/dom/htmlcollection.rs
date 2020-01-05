@@ -114,7 +114,7 @@ js
 {
 JS
 Root
-MutNullableHeap
+MutNullableJS
 }
 ;
 use
@@ -509,12 +509,9 @@ u64
 >
 cached_cursor_element
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Element
->
 >
 cached_cursor_index
 :
@@ -605,7 +602,7 @@ inclusive_descendants_version
 )
 cached_cursor_element
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

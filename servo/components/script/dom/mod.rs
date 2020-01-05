@@ -414,7 +414,7 @@ html
 /
 !
 [
-MutNullableHeap
+MutNullableJS
 ]
 (
 bindings
@@ -423,7 +423,7 @@ js
 /
 struct
 .
-MutNullableHeap
+MutNullableJS
 .
 html
 )
@@ -432,7 +432,7 @@ and
 /
 !
 [
-MutHeap
+MutJS
 ]
 (
 bindings
@@ -441,7 +441,7 @@ js
 /
 struct
 .
-MutHeap
+MutJS
 .
 html
 )

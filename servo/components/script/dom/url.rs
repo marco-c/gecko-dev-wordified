@@ -134,8 +134,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -338,12 +337,9 @@ url
 searchparams
 search_params
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 URLSearchParams
->
 >
 }
 impl

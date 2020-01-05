@@ -175,9 +175,8 @@ js
 :
 :
 {
-JS
 LayoutJS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -406,12 +405,9 @@ htmlelement
 HTMLElement
 cells
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 HTMLCollection
->
 >
 }
 impl

@@ -225,8 +225,7 @@ js
 :
 :
 {
-JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -361,12 +360,9 @@ reflector_
 Reflector
 characteristic
 :
-MutHeap
-<
-JS
+MutJS
 <
 BluetoothRemoteGATTCharacteristic
->
 >
 uuid
 :
@@ -418,7 +414,7 @@ new
 )
 characteristic
 :
-MutHeap
+MutJS
 :
 :
 new

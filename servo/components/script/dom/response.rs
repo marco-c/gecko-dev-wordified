@@ -191,8 +191,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -375,12 +374,9 @@ reflector_
 Reflector
 headers_reflector
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Headers
->
 >
 mime_type
 :

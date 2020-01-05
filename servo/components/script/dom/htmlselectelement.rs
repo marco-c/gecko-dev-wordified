@@ -255,8 +255,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -574,12 +573,9 @@ htmlelement
 HTMLElement
 options
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 HTMLOptionsCollection
->
 >
 }
 static

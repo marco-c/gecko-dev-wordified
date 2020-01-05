@@ -223,7 +223,7 @@ js
 {
 JS
 LayoutJS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -777,12 +777,9 @@ bool
 >
 filelist
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 FileList
->
 >
 }
 #
@@ -1094,7 +1091,7 @@ false
 )
 filelist
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

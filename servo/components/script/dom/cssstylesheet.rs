@@ -137,8 +137,8 @@ js
 :
 {
 JS
+MutNullableJS
 Root
-MutNullableHeap
 }
 ;
 use
@@ -246,12 +246,9 @@ Element
 >
 rulelist
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 CSSRuleList
->
 >
 #
 [
@@ -328,7 +325,7 @@ owner
 )
 rulelist
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

@@ -142,8 +142,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -242,12 +241,9 @@ uievent
 UIEvent
 related_target
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 EventTarget
->
 >
 }
 impl

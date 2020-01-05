@@ -147,7 +147,6 @@ js
 :
 :
 {
-HeapGCValue
 JS
 Root
 }
@@ -268,12 +267,6 @@ level
 :
 i32
 }
-}
-impl
-HeapGCValue
-for
-WebGLFramebufferAttachment
-{
 }
 #
 [

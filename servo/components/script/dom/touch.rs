@@ -100,8 +100,7 @@ js
 :
 :
 {
-JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -166,12 +165,9 @@ identifier
 i32
 target
 :
-MutHeap
-<
-JS
+MutJS
 <
 EventTarget
->
 >
 screen_x
 :
@@ -261,7 +257,7 @@ identifier
 identifier
 target
 :
-MutHeap
+MutJS
 :
 :
 new

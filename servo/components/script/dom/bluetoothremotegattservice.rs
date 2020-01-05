@@ -194,8 +194,7 @@ js
 :
 :
 {
-JS
-MutHeap
+MutJS
 Root
 }
 ;
@@ -345,12 +344,9 @@ eventtarget
 EventTarget
 device
 :
-MutHeap
-<
-JS
+MutJS
 <
 BluetoothDevice
->
 >
 uuid
 :
@@ -399,7 +395,7 @@ new_inherited
 )
 device
 :
-MutHeap
+MutJS
 :
 :
 new

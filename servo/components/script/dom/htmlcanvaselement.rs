@@ -220,7 +220,6 @@ js
 :
 :
 {
-HeapGCValue
 JS
 LayoutJS
 Root
@@ -485,12 +484,6 @@ JS
 WebGLRenderingContext
 >
 )
-}
-impl
-HeapGCValue
-for
-CanvasContext
-{
 }
 #
 [

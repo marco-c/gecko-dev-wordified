@@ -95,7 +95,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 RootedReference
 }
@@ -480,12 +480,9 @@ document
 .
 active_document
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Document
->
 >
 /
 /

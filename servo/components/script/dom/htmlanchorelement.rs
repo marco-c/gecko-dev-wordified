@@ -205,8 +205,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -398,12 +397,9 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DOMTokenList
->
 >
 url
 :

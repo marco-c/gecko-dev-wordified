@@ -148,8 +148,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -254,12 +253,9 @@ template
 contents
 contents
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 DocumentFragment
->
 >
 }
 impl
@@ -301,7 +297,7 @@ document
 )
 contents
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

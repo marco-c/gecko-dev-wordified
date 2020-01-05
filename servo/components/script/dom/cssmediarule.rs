@@ -100,8 +100,7 @@ js
 :
 :
 {
-JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -237,12 +236,9 @@ MediaRule
 >
 medialist
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 MediaList
->
 >
 }
 impl
@@ -301,7 +297,7 @@ mediarule
 mediarule
 medialist
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

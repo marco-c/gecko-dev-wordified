@@ -106,7 +106,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 }
 ;
@@ -735,12 +735,9 @@ Document
 >
 script
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 HTMLScriptElement
->
 >
 }
 impl

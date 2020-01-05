@@ -223,9 +223,8 @@ js
 :
 :
 {
+MutNullableJS
 Root
-MutNullableHeap
-JS
 }
 ;
 use
@@ -1749,12 +1748,9 @@ bool
 >
 error
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 MediaError
->
 >
 paused
 :

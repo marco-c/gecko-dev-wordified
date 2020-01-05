@@ -106,9 +106,8 @@ js
 :
 :
 {
-JS
 Root
-MutNullableHeap
+MutNullableJS
 }
 ;
 use
@@ -193,12 +192,9 @@ reflector_
 Reflector
 active_worker
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 ServiceWorker
->
 >
 url
 :

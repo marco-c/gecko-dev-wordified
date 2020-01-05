@@ -491,7 +491,7 @@ js
 :
 {
 JS
-MutNullableHeap
+MutNullableJS
 Root
 RootCollection
 }
@@ -3889,12 +3889,9 @@ mouse
 .
 topmost_mouse_over_target
 :
-MutNullableHeap
-<
-JS
+MutNullableJS
 <
 Element
->
 >
 /
 /
@@ -5392,7 +5389,7 @@ runtime
 )
 topmost_mouse_over_target
 :
-MutNullableHeap
+MutNullableJS
 :
 :
 new

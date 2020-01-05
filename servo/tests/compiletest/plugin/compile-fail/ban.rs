@@ -117,7 +117,7 @@ JSVal
 detected
 .
 Use
-MutHeap
+MutJS
 <
 JSVal
 >
