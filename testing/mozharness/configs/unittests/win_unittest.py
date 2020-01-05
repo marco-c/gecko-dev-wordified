@@ -2772,6 +2772,9 @@ mochitest
 "
 :
 [
+'
+jetpack
+'
 ]
                             
 "
