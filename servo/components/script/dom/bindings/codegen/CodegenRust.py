@@ -1220,6 +1220,14 @@ requiredArgs
 return
 requiredArgs
         
+signatures
+=
+method
+.
+signatures
+(
+)
+        
 def
 getPerSignatureCall
 (
@@ -1227,11 +1235,17 @@ signature
 argConversionStartsAt
 =
 0
-signatureIndex
-=
-0
 )
 :
+            
+signatureIndex
+=
+signatures
+.
+index
+(
+signature
+)
             
 return
 CGPerSignatureCall
@@ -1259,14 +1273,6 @@ descriptor
                                       
 method
 argConversionStartsAt
-)
-        
-signatures
-=
-method
-.
-signatures
-(
 )
         
 if
@@ -1491,20 +1497,10 @@ possibleSignatures
 0
 ]
                 
-sigIndex
-=
-signatures
-.
-index
-(
-signature
-)
-                
 argCountCases
 .
 append
 (
-                    
 CGCase
 (
 str
@@ -1514,10 +1510,6 @@ argCount
 getPerSignatureCall
 (
 signature
-                                                              
-signatureIndex
-=
-sigIndex
 )
 )
 )
@@ -1762,6 +1754,17 @@ sigs
 0
 :
                     
+call
+=
+getPerSignatureCall
+(
+sigs
+[
+0
+]
+distinguishingIndex
+)
+                    
 if
 condition
 is
@@ -1772,25 +1775,7 @@ caseBody
 .
 append
 (
-                            
-getPerSignatureCall
-(
-sigs
-[
-0
-]
-distinguishingIndex
-                                                
-possibleSignatures
-.
-index
-(
-sigs
-[
-0
-]
-)
-)
+call
 )
                     
 else
@@ -1820,25 +1805,7 @@ append
 (
 CGIndenter
 (
-                                
-getPerSignatureCall
-(
-sigs
-[
-0
-]
-distinguishingIndex
-                                                    
-possibleSignatures
-.
-index
-(
-sigs
-[
-0
-]
-)
-)
+call
 )
 )
                         
@@ -2408,7 +2375,6 @@ sig
 distinguishingIndex
 +
 1
-idx
 )
 4
 )
