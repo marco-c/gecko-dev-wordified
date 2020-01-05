@@ -215,6 +215,8 @@ PseudoElement
 Before
 After
 AttrSelector
+SpecificNamespace
+AnyNamespace
 }
 ;
 mod
