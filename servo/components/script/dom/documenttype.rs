@@ -176,7 +176,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeTypeId
 }
 ;

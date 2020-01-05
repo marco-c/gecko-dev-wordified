@@ -265,7 +265,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventHelpers
 }
 ;
 use
@@ -277,7 +276,6 @@ eventtarget
 :
 {
 EventTarget
-EventTargetHelpers
 EventTargetTypeId
 }
 ;
@@ -289,15 +287,6 @@ messageevent
 :
 :
 MessageEvent
-;
-use
-dom
-:
-:
-window
-:
-:
-WindowHelpers
 ;
 use
 dom

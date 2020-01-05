@@ -230,7 +230,6 @@ document
 :
 {
 Document
-DocumentHelpers
 IsHTMLDocument
 }
 ;

@@ -227,7 +227,6 @@ document
 :
 {
 Document
-DocumentHelpers
 IsHTMLDocument
 }
 ;
@@ -238,10 +237,7 @@ dom
 window
 :
 :
-{
 Window
-WindowHelpers
-}
 ;
 use
 parse

@@ -244,7 +244,6 @@ characterdata
 :
 {
 CharacterData
-CharacterDataHelpers
 CharacterDataTypeId
 }
 ;
@@ -278,7 +277,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeTypeId
 }
 ;

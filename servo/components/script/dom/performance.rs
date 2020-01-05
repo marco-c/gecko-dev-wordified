@@ -150,10 +150,7 @@ dom
 performancetiming
 :
 :
-{
 PerformanceTiming
-PerformanceTimingHelpers
-}
 ;
 use
 dom

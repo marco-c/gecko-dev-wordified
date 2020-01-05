@@ -86,7 +86,6 @@ keyboardevent
 :
 {
 KeyboardEvent
-KeyboardEventHelpers
 key_value
 }
 ;

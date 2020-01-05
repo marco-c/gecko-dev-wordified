@@ -163,11 +163,7 @@ dom
 element
 :
 :
-{
-AttributeHandlers
 Element
-ElementHelpers
-}
 ;
 use
 dom

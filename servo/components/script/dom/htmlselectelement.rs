@@ -65,7 +65,6 @@ attr
 :
 {
 Attr
-AttrHelpers
 AttrValue
 }
 ;
@@ -196,15 +195,6 @@ dom
 element
 :
 :
-AttributeHandlers
-;
-use
-dom
-:
-:
-element
-:
-:
 ElementTypeId
 ;
 use
@@ -239,9 +229,7 @@ node
 :
 :
 {
-DisabledStateHelpers
 Node
-NodeHelpers
 NodeTypeId
 window_from_node
 }

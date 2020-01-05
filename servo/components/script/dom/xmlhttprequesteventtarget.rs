@@ -131,7 +131,6 @@ eventtarget
 :
 {
 EventTarget
-EventTargetHelpers
 EventTargetTypeId
 }
 ;

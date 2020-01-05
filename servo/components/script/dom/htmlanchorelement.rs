@@ -238,10 +238,7 @@ dom
 document
 :
 :
-{
 Document
-DocumentHelpers
-}
 ;
 use
 dom
@@ -261,7 +258,6 @@ element
 :
 {
 Element
-AttributeHandlers
 ElementTypeId
 }
 ;
@@ -307,7 +303,6 @@ node
 :
 {
 Node
-NodeHelpers
 NodeTypeId
 document_from_node
 window_from_node
@@ -321,15 +316,6 @@ virtualmethods
 :
 :
 VirtualMethods
-;
-use
-dom
-:
-:
-window
-:
-:
-WindowHelpers
 ;
 use
 util

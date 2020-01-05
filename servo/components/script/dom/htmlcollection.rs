@@ -169,11 +169,7 @@ dom
 element
 :
 :
-{
 Element
-AttributeHandlers
-ElementHelpers
-}
 ;
 use
 dom
@@ -184,7 +180,6 @@ node
 :
 {
 Node
-NodeHelpers
 TreeIterator
 }
 ;

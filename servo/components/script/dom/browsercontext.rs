@@ -146,10 +146,7 @@ dom
 document
 :
 :
-{
 Document
-DocumentHelpers
-}
 ;
 use
 dom
@@ -168,15 +165,6 @@ window
 :
 :
 Window
-;
-use
-dom
-:
-:
-window
-:
-:
-WindowHelpers
 ;
 use
 js

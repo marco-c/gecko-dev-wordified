@@ -304,7 +304,6 @@ event
 Event
 EventBubbles
 EventCancelable
-EventHelpers
 }
 ;
 use
@@ -316,7 +315,6 @@ eventtarget
 :
 {
 EventTarget
-EventTargetHelpers
 EventTargetTypeId
 }
 ;
