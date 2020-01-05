@@ -1673,7 +1673,7 @@ printing
 *
 /
 bool
-IsPrinterSurface
+IsPrinterContext
 (
 )
 ;
