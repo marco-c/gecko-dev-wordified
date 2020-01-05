@@ -517,6 +517,9 @@ class
 CompositorBridgeParent
 ;
 class
+CompositorOptions
+;
+class
 CompositorVsyncScheduler
 ;
 class
@@ -1103,8 +1106,10 @@ const
 uint64_t
 &
 aLayerTreeId
-bool
-aUseAPZ
+const
+CompositorOptions
+&
+aOptions
 )
 ;
 /

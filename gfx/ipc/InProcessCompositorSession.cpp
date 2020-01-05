@@ -231,8 +231,10 @@ uint64_t
 aRootLayerTreeId
 CSSToLayoutDeviceScale
 aScale
-bool
-aUseAPZ
+const
+CompositorOptions
+&
+aOptions
 bool
 aUseExternalSurfaceSize
 const
@@ -297,7 +299,7 @@ InitSameProcess
 widget
 aRootLayerTreeId
 aScale
-aUseAPZ
+aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
 )

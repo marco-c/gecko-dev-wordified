@@ -151,6 +151,9 @@ mozilla
 namespace
 layers
 {
+class
+CompositorOptions
+;
 /
 /
 A
@@ -198,8 +201,10 @@ uint64_t
 aRootLayerTreeId
 CSSToLayoutDeviceScale
 aScale
-bool
-aUseAPZ
+const
+CompositorOptions
+&
+aOptions
 bool
 aUseExternalSurfaceSize
 const
