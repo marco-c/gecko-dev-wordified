@@ -3729,7 +3729,7 @@ as
 a
 namespace
 and
-and
+a
 localname
 .
 /
@@ -3750,9 +3750,9 @@ which
 supports
 combinators
 we
+/
+/
 need
-/
-/
 to
 think
 about
@@ -3762,9 +3762,9 @@ should
 interact
 with
 visit_complex_selector
+/
+/
 and
-/
-/
 what
 the
 consumers
@@ -3777,9 +3777,9 @@ about
 the
 presence
 of
+/
+/
 combinators
-/
-/
 in
 negation
 .
