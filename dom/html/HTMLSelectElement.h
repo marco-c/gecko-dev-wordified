@@ -1399,12 +1399,6 @@ nsINode
 :
 Remove
 ;
-using
-nsINode
-:
-:
-AppendChild
-;
 /
 /
 nsINode

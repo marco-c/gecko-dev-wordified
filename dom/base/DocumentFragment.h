@@ -270,12 +270,6 @@ nsINode
 :
 GetElementById
 ;
-using
-nsINode
-:
-:
-AppendChild
-;
 /
 /
 nsISupports
