@@ -5948,7 +5948,7 @@ browser
 .
 enabled
 "
-true
+false
 )
 ;
 #
