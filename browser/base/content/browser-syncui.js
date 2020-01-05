@@ -580,9 +580,9 @@ application
 ;
 if
 (
-Weave
+this
 .
-Status
+weaveService
 .
 ready
 )
