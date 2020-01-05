@@ -247,15 +247,7 @@ wrappedJSObject
 ;
 if
 (
-!
 apiMessage
-.
-originAttributes
-|
-|
-apiMessage
-.
-originAttributes
 .
 addonId
 !
