@@ -2065,7 +2065,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -2096,7 +2096,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -2127,7 +2127,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -2158,7 +2158,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -2189,7 +2189,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -2220,7 +2220,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -3448,7 +3448,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -3479,7 +3479,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -3862,7 +3862,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -3893,7 +3893,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -3988,7 +3988,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4019,7 +4019,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4050,7 +4050,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4081,7 +4081,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4112,7 +4112,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4143,7 +4143,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4174,7 +4174,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4205,7 +4205,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4236,12 +4236,12 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
 src
-make_getter
+make_url_getter
 !
 (
 Src
@@ -4267,12 +4267,12 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
 src
-make_setter
+make_url_setter
 !
 (
 SetSrc
@@ -4298,7 +4298,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -4329,7 +4329,7 @@ org
 multipage
 /
 #
-attr
+dom
 -
 input
 -
@@ -7682,6 +7682,27 @@ AttrValue
 match
 name
 {
+&
+atom
+!
+(
+"
+accept
+"
+)
+=
+>
+AttrValue
+:
+:
+from_comma_separated_tokenlist
+(
+value
+.
+into
+(
+)
+)
 &
 atom
 !
