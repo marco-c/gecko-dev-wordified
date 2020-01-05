@@ -642,6 +642,8 @@ const
 gfxMatrix
 &
 aTransform
+uint32_t
+aFlags
 )
 ;
 /

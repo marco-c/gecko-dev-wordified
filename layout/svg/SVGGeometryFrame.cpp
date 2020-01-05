@@ -2123,6 +2123,7 @@ eRenderFill
 |
 eRenderStroke
 newMatrix
+aFlags
 )
 ;
 PaintMarkers
@@ -2172,6 +2173,7 @@ Render
 aContext
 eRenderFill
 newMatrix
+aFlags
 )
 ;
 break
@@ -2188,6 +2190,7 @@ Render
 aContext
 eRenderStroke
 newMatrix
+aFlags
 )
 ;
 break
@@ -5333,6 +5336,8 @@ const
 gfxMatrix
 &
 aNewTransform
+uint32_t
+aFlags
 )
 {
 MOZ_ASSERT
@@ -5696,6 +5701,7 @@ aContext
 &
 fillPattern
 contextPaint
+aFlags
 )
 ;
 if
@@ -5977,6 +5983,7 @@ aContext
 &
 strokePattern
 contextPaint
+aFlags
 )
 ;
 if

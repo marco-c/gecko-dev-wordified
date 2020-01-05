@@ -1669,6 +1669,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 {
 uint16_t

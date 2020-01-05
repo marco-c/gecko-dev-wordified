@@ -1209,6 +1209,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 if
@@ -1272,6 +1274,8 @@ const
 gfxMatrix
 &
 aCTM
+uint32_t
+aFlags
 )
 {
 if

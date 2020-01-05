@@ -294,6 +294,8 @@ const
 gfxRect
 *
 aOverrideBounds
+uint32_t
+aFlags
 )
 override
 ;
