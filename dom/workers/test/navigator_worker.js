@@ -91,6 +91,9 @@ nightly
 :
 true
 }
+"
+connection
+"
 ]
 ;
 self
