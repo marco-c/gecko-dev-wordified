@@ -1042,6 +1042,8 @@ private
 *
 /
 _rawRequest
+:
+function
 (
 path
 method
@@ -1385,6 +1387,8 @@ error
 *
 /
 fetchProfile
+:
+function
 (
 )
 {
@@ -1460,6 +1464,8 @@ error
 *
 /
 fetchProfileImage
+:
+function
 (
 )
 {

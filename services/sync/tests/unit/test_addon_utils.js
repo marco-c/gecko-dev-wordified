@@ -607,6 +607,8 @@ addon
 =
 {
 sourceURI
+:
+sourceURI
 name
 :
 "
@@ -664,6 +666,8 @@ let
 addon
 =
 {
+sourceURI
+:
 sourceURI
 name
 :
@@ -871,6 +875,10 @@ addon
 .
 id
 addon
+:
+addon
+install
+:
 install
 }
 )

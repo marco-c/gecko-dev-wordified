@@ -466,6 +466,8 @@ syncPriority
 :
 3
 getChangedIDs
+:
+function
 (
 )
 {
@@ -534,6 +536,8 @@ to
 open
 .
 getAllClients
+:
+function
 (
 )
 {
@@ -546,6 +550,8 @@ _remoteClients
 ;
 }
 getClientById
+:
+function
 (
 id
 )
@@ -562,6 +568,8 @@ id
 ;
 }
 _resetClient
+:
+function
 (
 )
 {
@@ -600,6 +608,8 @@ false
 ;
 }
 removeClientData
+:
+function
 (
 )
 {
@@ -650,6 +660,8 @@ URLs
 *
 /
 getOpenURLs
+:
+function
 (
 )
 {
@@ -693,6 +705,8 @@ urls
 ;
 }
 _reconcile
+:
+function
 (
 item
 )
@@ -825,6 +839,8 @@ Store
 .
 prototype
 itemExists
+:
+function
 (
 id
 )
@@ -845,6 +861,8 @@ localID
 ;
 }
 getWindowEnumerator
+:
+function
 (
 )
 {
@@ -864,6 +882,8 @@ browser
 ;
 }
 shouldSkipWindow
+:
+function
 (
 win
 )
@@ -883,6 +903,8 @@ win
 ;
 }
 getTabState
+:
+function
 (
 tab
 )
@@ -904,6 +926,8 @@ tab
 ;
 }
 getAllTabs
+:
+function
 (
 filter
 )
@@ -1352,6 +1376,8 @@ allTabs
 ;
 }
 createRecord
+:
+function
 (
 id
 collection
@@ -1629,6 +1655,8 @@ record
 ;
 }
 getAllIDs
+:
+function
 (
 )
 {
@@ -1779,6 +1807,8 @@ ids
 ;
 }
 wipe
+:
+function
 (
 )
 {
@@ -1791,6 +1821,8 @@ _remoteClients
 ;
 }
 create
+:
+function
 (
 record
 )
@@ -1842,6 +1874,8 @@ modified
 ;
 }
 update
+:
+function
 (
 record
 )
@@ -1986,6 +2020,8 @@ nsIObserver
 ]
 )
 clearChangedIDs
+:
+function
 (
 )
 {
@@ -2013,6 +2049,8 @@ TabSelect
 "
 ]
 _registerListenersForWindow
+:
+function
 (
 window
 )
@@ -2104,6 +2142,8 @@ this
 }
 }
 _unregisterListeners
+:
+function
 (
 event
 )
@@ -2119,6 +2159,8 @@ target
 ;
 }
 _unregisterListenersForWindow
+:
+function
 (
 window
 )
@@ -2192,6 +2234,8 @@ this
 }
 }
 startTracking
+:
+function
 (
 )
 {
@@ -2246,6 +2290,8 @@ getNext
 }
 }
 stopTracking
+:
+function
 (
 )
 {
@@ -2300,6 +2346,8 @@ getNext
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -2400,6 +2448,8 @@ break
 }
 }
 onTab
+:
+function
 (
 event
 )
@@ -2562,6 +2612,8 @@ progress
 listeners
 .
 onLocationChange
+:
+function
 (
 webProgress
 request

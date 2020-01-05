@@ -681,6 +681,8 @@ toolbarFolder
 "
 }
 toString
+:
+function
 (
 )
 {
@@ -982,6 +984,8 @@ otherwise
 *
 /
 GetPlacesNodeId
+:
+function
 (
 folder
 type
@@ -1247,6 +1251,8 @@ false
 *
 /
 IsAdjacentTo
+:
+function
 (
 itemName
 relativePos
@@ -1465,6 +1471,8 @@ error
 *
 /
 GetItemIndex
+:
+function
 (
 )
 {
@@ -1552,6 +1560,8 @@ otherwise
 *
 /
 GetFolder
+:
+function
 (
 location
 )
@@ -1718,6 +1728,8 @@ otherwise
 *
 /
 CreateFolder
+:
+function
 (
 location
 )
@@ -1906,6 +1918,8 @@ otherwise
 *
 /
 GetOrCreateFolder
+:
+function
 (
 location
 )
@@ -1998,6 +2012,8 @@ false
 *
 /
 CheckDescription
+:
+function
 (
 expectedDescription
 )
@@ -2205,6 +2221,8 @@ false
 *
 /
 CheckPosition
+:
+function
 (
 before
 after
@@ -2392,6 +2410,8 @@ thrown
 *
 /
 SetLocation
+:
+function
 (
 location
 )
@@ -2510,6 +2530,8 @@ nothing
 *
 /
 SetDescription
+:
+function
 (
 description
 )
@@ -2655,6 +2677,8 @@ thrown
 *
 /
 SetPosition
+:
+function
 (
 position
 )
@@ -2793,6 +2817,8 @@ nothing
 *
 /
 SetTitle
+:
+function
 (
 title
 )
@@ -2939,6 +2965,8 @@ nothing
 *
 /
 SetKeyword
+:
+function
 (
 keyword
 )
@@ -3017,6 +3045,8 @@ insert
 (
 {
 keyword
+:
+keyword
 url
 :
 this
@@ -3080,6 +3110,8 @@ nothing
 *
 /
 SetLoadInSidebar
+:
+function
 (
 loadInSidebar
 )
@@ -3183,6 +3215,8 @@ nothing
 *
 /
 SetTitle
+:
+function
 (
 title
 )
@@ -3246,6 +3280,8 @@ nothing
 *
 /
 SetUri
+:
+function
 (
 uri
 )
@@ -3353,6 +3389,8 @@ nothing
 *
 /
 SetTags
+:
+function
 (
 tags
 )
@@ -3441,6 +3479,8 @@ bookmark
 *
 /
 Create
+:
+function
 (
 )
 {
@@ -3623,6 +3663,8 @@ nothing
 *
 /
 Update
+:
+function
 (
 )
 {
@@ -3782,6 +3824,8 @@ otherwise
 *
 /
 Find
+:
+function
 (
 )
 {
@@ -4347,6 +4391,8 @@ nothing
 *
 /
 Remove
+:
+function
 (
 )
 {
@@ -4488,6 +4534,8 @@ folder
 *
 /
 Create
+:
+function
 (
 )
 {
@@ -4625,6 +4673,8 @@ otherwise
 *
 /
 Find
+:
+function
 (
 )
 {
@@ -4794,6 +4844,8 @@ nothing
 *
 /
 Remove
+:
+function
 (
 )
 {
@@ -4889,6 +4941,8 @@ nothing
 *
 /
 Update
+:
+function
 (
 )
 {
@@ -5059,6 +5113,8 @@ livemark
 *
 /
 Create
+:
+function
 (
 )
 {
@@ -5162,6 +5218,8 @@ this
 props
 .
 livemark
+siteURI
+:
 siteURI
 feedURI
 :
@@ -5342,6 +5400,8 @@ otherwise
 *
 /
 Find
+:
+function
 (
 )
 {
@@ -5744,6 +5804,8 @@ nothing
 *
 /
 Update
+:
+function
 (
 )
 {
@@ -5847,6 +5909,8 @@ nothing
 *
 /
 Remove
+:
+function
 (
 )
 {
@@ -5988,6 +6052,8 @@ separator
 *
 /
 Create
+:
+function
 (
 )
 {
@@ -6109,6 +6175,8 @@ otherwise
 *
 /
 Find
+:
+function
 (
 )
 {
@@ -6370,6 +6438,7 @@ expected_pos
 ;
 }
 else
+{
 if
 (
 PlacesUtils
@@ -6419,6 +6488,7 @@ return
 1
 ;
 }
+}
 return
 this
 .
@@ -6461,6 +6531,8 @@ nothing
 *
 /
 Update
+:
+function
 (
 )
 {
@@ -6553,6 +6625,8 @@ nothing
 *
 /
 Remove
+:
+function
 (
 )
 {

@@ -158,6 +158,8 @@ removed
 :
 false
 removeClientData
+:
+function
 (
 )
 {

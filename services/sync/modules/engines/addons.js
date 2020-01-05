@@ -5357,6 +5357,8 @@ SCORE_INCREMENT_XLARGE
 ;
 }
 startTracking
+:
+function
 (
 )
 {
@@ -5389,6 +5391,8 @@ this
 ;
 }
 stopTracking
+:
+function
 (
 )
 {

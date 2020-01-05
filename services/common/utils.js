@@ -219,6 +219,8 @@ b
 *
 /
 union
+:
+function
 (
 a
 b
@@ -271,6 +273,8 @@ b
 *
 /
 difference
+:
+function
 (
 a
 b
@@ -322,6 +326,8 @@ b
 *
 /
 intersection
+:
+function
 (
 a
 b
@@ -393,6 +399,8 @@ b
 *
 /
 setEqual
+:
+function
 (
 a
 b
@@ -771,6 +779,8 @@ resolution
 *
 /
 laterTickResolvingPromise
+:
+function
 (
 value
 prototype
@@ -884,6 +894,8 @@ waitForSyncCallback
 (
 cb
 )
+;
+return
 ;
 }
 /
@@ -2613,6 +2625,8 @@ file
 *
 /
 readJSON
+:
+function
 (
 path
 )
@@ -2714,6 +2728,8 @@ writeAtomic
 *
 /
 writeJSON
+:
+function
 (
 contents
 path

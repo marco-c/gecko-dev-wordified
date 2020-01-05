@@ -716,6 +716,8 @@ prototype
 =
 {
 toString
+:
+function
 (
 )
 {
@@ -1116,6 +1118,8 @@ deviceId
 ;
 }
 initialize
+:
+function
 (
 )
 {
@@ -1330,6 +1334,8 @@ failed
 *
 /
 ensureLoggedIn
+:
+function
 (
 )
 {
@@ -1517,6 +1523,8 @@ promise
 ;
 }
 finalize
+:
+function
 (
 )
 {
@@ -1569,6 +1577,8 @@ null
 ;
 }
 offerSyncOptions
+:
+function
 (
 )
 {
@@ -1674,6 +1684,8 @@ data
 ;
 }
 initializeWithCurrentIdentity
+:
+function
 (
 isInitialSync
 =
@@ -2427,6 +2439,8 @@ err
 ;
 }
 _updateSignedInUser
+:
+function
 (
 userData
 )
@@ -2537,6 +2551,8 @@ userData
 ;
 }
 logout
+:
+function
 (
 )
 {
@@ -2618,6 +2634,8 @@ null
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -2874,6 +2892,8 @@ bytes
 *
 /
 _sha256
+:
+function
 (
 message
 )
@@ -2958,6 +2978,8 @@ kBbytes
 *
 /
 _computeXClientState
+:
+function
 (
 kBbytes
 )
@@ -2998,6 +3020,8 @@ expiration
 *
 /
 _now
+:
+function
 (
 )
 {
@@ -3024,6 +3048,8 @@ localtimeOffsetMsec
 ;
 }
 usernameFromAccount
+:
+function
 (
 val
 )
@@ -3367,6 +3393,8 @@ user
 *
 /
 resetCredentials
+:
+function
 (
 )
 {
@@ -3447,6 +3475,8 @@ user
 *
 /
 resetSyncKey
+:
+function
 (
 )
 {
@@ -3527,6 +3557,8 @@ info
 *
 /
 prefetchMigrationSentinel
+:
+function
 (
 service
 )
@@ -3562,6 +3594,8 @@ only
 *
 /
 _getSyncCredentialsHosts
+:
+function
 (
 )
 {
@@ -3770,6 +3804,8 @@ fetch
 them
 ?
 _canFetchKeys
+:
+function
 (
 )
 {
@@ -3864,6 +3900,8 @@ unlock
 *
 /
 unlockAndVerifyAuthState
+:
+function
 (
 )
 {
@@ -4138,6 +4176,8 @@ in
 *
 /
 hasValidToken
+:
+function
 (
 )
 {
@@ -4446,6 +4486,8 @@ an
 error
 .
 _fetchTokenForUser
+:
+function
 (
 )
 {
@@ -5533,6 +5575,8 @@ is
 valid
 .
 _ensureValidToken
+:
+function
 (
 )
 {
@@ -5736,6 +5780,8 @@ error
 ;
 }
 getResourceAuthenticator
+:
+function
 (
 )
 {
@@ -5770,6 +5816,8 @@ instances
 *
 /
 getRESTRequestAuthenticator
+:
+function
 (
 )
 {
@@ -5811,6 +5859,8 @@ object
 *
 /
 _getAuthenticationHeader
+:
+function
 (
 httpObject
 method
@@ -6024,6 +6074,8 @@ this
 .
 _localtimeOffsetMsec
 credentials
+:
+credentials
 }
 ;
 let
@@ -6055,6 +6107,8 @@ field
 ;
 }
 _addAuthenticationHeader
+:
+function
 (
 request
 method
@@ -6100,6 +6154,8 @@ request
 ;
 }
 createClusterManager
+:
+function
 (
 service
 )
@@ -6233,6 +6289,8 @@ ClusterManager
 .
 prototype
 _findCluster
+:
+function
 (
 )
 {
@@ -6930,6 +6988,8 @@ wait
 ;
 }
 getUserBaseURL
+:
+function
 (
 )
 {

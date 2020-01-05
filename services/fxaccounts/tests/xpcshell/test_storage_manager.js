@@ -192,6 +192,8 @@ version
 :
 DATA_FORMAT_VERSION
 accountData
+:
+accountData
 }
 }
 this
@@ -302,6 +304,8 @@ version
 :
 DATA_FORMAT_VERSION
 accountData
+:
+accountData
 }
 }
 this
@@ -329,6 +333,8 @@ locked
 :
 false
 STORAGE_LOCKED
+:
+function
 (
 )
 {

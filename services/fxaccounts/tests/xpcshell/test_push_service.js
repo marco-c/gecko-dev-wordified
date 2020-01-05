@@ -603,6 +603,8 @@ assign
 mockLog
 {
 trace
+:
+function
 (
 msg
 )
@@ -673,6 +675,8 @@ emptyMsg
 =
 {
 QueryInterface
+:
+function
 (
 )
 {
@@ -692,6 +696,8 @@ assign
 mockFxAccounts
 {
 checkVerificationStatus
+:
+function
 (
 )
 {
@@ -782,6 +788,8 @@ phone
 )
 }
 QueryInterface
+:
+function
 (
 )
 {
@@ -902,6 +910,8 @@ deviceId
 )
 }
 QueryInterface
+:
+function
 (
 )
 {
@@ -921,6 +931,8 @@ assign
 mockFxAccounts
 {
 handleDeviceDisconnection
+:
+function
 (
 )
 {
@@ -1001,6 +1013,8 @@ ON_PASSWORD_CHANGED_NOTIFICATION
 )
 }
 QueryInterface
+:
+function
 (
 )
 {
@@ -1079,6 +1093,8 @@ ON_PASSWORD_RESET_NOTIFICATION
 )
 }
 QueryInterface
+:
+function
 (
 )
 {
@@ -1145,6 +1161,8 @@ assign
 mockFxAccounts
 {
 updateDeviceRegistration
+:
+function
 (
 )
 {

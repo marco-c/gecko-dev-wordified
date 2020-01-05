@@ -234,6 +234,8 @@ observer
 *
 /
 add
+:
+function
 (
 topic
 callback
@@ -343,6 +345,8 @@ callback
 *
 /
 remove
+:
+function
 (
 topic
 callback
@@ -627,6 +631,8 @@ myObject
 *
 /
 notify
+:
+function
 (
 topic
 subject
@@ -840,6 +846,8 @@ nsISupportsWeakReference
 ]
 )
 observe
+:
+function
 (
 subject
 topic
@@ -1076,6 +1084,8 @@ observersModuleSubjectWrapper
 :
 true
 object
+:
+object
 }
 ;
 }
@@ -1094,11 +1104,15 @@ generateQI
 ]
 )
 getScriptableHelper
+:
+function
 (
 )
 {
 }
 getInterfaces
+:
+function
 (
 )
 {

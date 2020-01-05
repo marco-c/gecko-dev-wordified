@@ -1393,6 +1393,8 @@ encryptPayload
 (
 {
 id
+:
+id
 applicationID
 :
 Services

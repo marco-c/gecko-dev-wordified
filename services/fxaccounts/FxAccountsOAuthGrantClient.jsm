@@ -428,6 +428,8 @@ property
 *
 /
 getTokenFromAssertion
+:
+function
 (
 assertion
 scope
@@ -478,6 +480,8 @@ params
 =
 {
 scope
+:
+scope
 client_id
 :
 this
@@ -485,6 +489,8 @@ this
 parameters
 .
 client_id
+assertion
+:
 assertion
 response_type
 :
@@ -551,6 +557,8 @@ ignored
 *
 /
 destroyToken
+:
+function
 (
 token
 )
@@ -579,6 +587,8 @@ let
 params
 =
 {
+token
+:
 token
 }
 ;
@@ -621,6 +631,8 @@ private
 *
 /
 _validateOptions
+:
+function
 (
 options
 )
@@ -780,6 +792,8 @@ private
 *
 /
 _createRequest
+:
+function
 (
 path
 method

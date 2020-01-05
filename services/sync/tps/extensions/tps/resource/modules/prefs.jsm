@@ -293,6 +293,8 @@ nothing
 *
 /
 Modify
+:
+function
 (
 )
 {
@@ -594,6 +596,8 @@ nothing
 *
 /
 Find
+:
+function
 (
 )
 {

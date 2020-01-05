@@ -1016,6 +1016,8 @@ response
 =
 {
 command
+:
+command
 messageId
 :
 message

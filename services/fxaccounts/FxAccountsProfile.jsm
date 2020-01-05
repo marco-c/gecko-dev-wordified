@@ -785,6 +785,8 @@ _cachedAt
 }
 }
 tearDown
+:
+function
 (
 )
 {
@@ -818,6 +820,8 @@ ON_PROFILE_CHANGE_NOTIFICATION
 ;
 }
 _getCachedProfile
+:
+function
 (
 )
 {
@@ -854,6 +858,8 @@ _cachedProfile
 ;
 }
 _notifyProfileChange
+:
+function
 (
 uid
 )
@@ -916,6 +922,8 @@ can
 update
 .
 _cacheProfile
+:
+function
 (
 profileData
 )
@@ -1030,6 +1038,8 @@ profileData
 ;
 }
 _fetchAndCacheProfile
+:
+function
 (
 )
 {
@@ -1161,6 +1171,8 @@ has
 changed
 .
 getProfile
+:
+function
 (
 )
 {

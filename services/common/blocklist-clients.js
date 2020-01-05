@@ -911,6 +911,8 @@ remote
 :
 base
 bucket
+:
+bucket
 adapter
 :
 FirefoxAdapter
@@ -2219,6 +2221,11 @@ bug
 }
 }
 }
+else
+{
+return
+;
+}
 }
 /
 *
@@ -2350,6 +2357,8 @@ const
 eventData
 =
 {
+filename
+:
 filename
 }
 ;

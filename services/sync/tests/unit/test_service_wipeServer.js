@@ -176,6 +176,8 @@ prototype
 =
 {
 handler
+:
+function
 (
 )
 {

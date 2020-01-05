@@ -3869,6 +3869,8 @@ nsIInterfaceRequestor
 *
 /
 getInterface
+:
+function
 (
 aIID
 )

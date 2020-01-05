@@ -206,6 +206,8 @@ encryptPayload
 (
 {
 id
+:
+id
 denomination
 :
 "

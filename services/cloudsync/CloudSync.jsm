@@ -383,6 +383,8 @@ ready
 "
 {
 get
+:
+function
 (
 )
 {
@@ -432,5 +434,10 @@ _CloudSync
 )
 ;
 }
+.
+bind
+(
+this
+)
 )
 ;

@@ -3979,6 +3979,8 @@ sync
 *
 /
 _fetchInfo
+:
+function
 (
 url
 )
@@ -10162,6 +10164,8 @@ failure
 *
 /
 uploadMetaGlobal
+:
+function
 (
 meta
 )
@@ -10352,6 +10356,8 @@ null
 *
 /
 getFxAMigrationSentinel
+:
+function
 (
 )
 {
@@ -10755,6 +10761,8 @@ written
 *
 /
 setFxAMigrationSentinel
+:
+function
 (
 sentinel
 )

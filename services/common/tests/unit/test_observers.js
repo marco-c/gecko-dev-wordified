@@ -204,6 +204,8 @@ foo
 :
 false
 onFoo
+:
+function
 (
 subject
 data
@@ -342,6 +344,8 @@ foo
 :
 false
 observe
+:
+function
 (
 subject
 topic

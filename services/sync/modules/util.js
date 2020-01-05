@@ -2624,6 +2624,7 @@ null
 ;
 }
 else
+{
 if
 (
 that
@@ -2646,6 +2647,7 @@ json
 e
 )
 ;
+}
 }
 }
 if
@@ -3617,6 +3619,8 @@ appropriately
 *
 /
 isPassphrase
+:
+function
 (
 s
 )
@@ -4674,6 +4678,8 @@ etc
 *
 /
 getSyncCredentialsHosts
+:
+function
 (
 )
 {
@@ -4728,6 +4734,8 @@ hosts
 *
 /
 getSyncCredentialsHostsLegacy
+:
+function
 (
 )
 {
@@ -4759,6 +4767,8 @@ hosts
 *
 /
 getSyncCredentialsHostsFxA
+:
+function
 (
 )
 {

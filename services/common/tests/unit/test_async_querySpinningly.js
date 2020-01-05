@@ -864,6 +864,7 @@ let
 r11
 except
 ;
+;
 try
 {
 r11

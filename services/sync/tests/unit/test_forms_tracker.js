@@ -197,6 +197,10 @@ create
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
@@ -217,6 +221,10 @@ _findDupe
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
