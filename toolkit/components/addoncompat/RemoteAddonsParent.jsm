@@ -1083,8 +1083,6 @@ aMessage
 objects
 )
 ;
-break
-;
 }
 return
 undefined
@@ -1751,8 +1749,6 @@ openChannel
 (
 msg
 )
-;
-break
 ;
 }
 return

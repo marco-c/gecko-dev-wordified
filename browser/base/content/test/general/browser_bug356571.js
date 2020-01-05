@@ -404,6 +404,8 @@ return
 FIXME
 *
 /
+/
+*
 waitForExplicitFinish
 (
 )
@@ -436,6 +438,8 @@ join
 )
 )
 ;
+*
+/
 }
 function
 finishTest

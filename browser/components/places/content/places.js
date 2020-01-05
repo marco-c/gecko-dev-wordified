@@ -694,8 +694,6 @@ found
 container
 )
 ;
-break
-;
 }
 PlacesUtils
 .
@@ -6828,8 +6826,6 @@ Invalid
 search
 scope
 "
-;
-break
 ;
 }
 /

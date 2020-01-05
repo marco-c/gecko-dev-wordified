@@ -2560,6 +2560,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -2642,6 +2644,8 @@ true
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -2669,6 +2673,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -2844,6 +2850,8 @@ doCommand
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -2894,6 +2902,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -3058,6 +3068,8 @@ doCommand
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -3085,6 +3097,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -3229,6 +3243,8 @@ true
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -4992,6 +5008,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -5161,6 +5179,8 @@ select
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -5188,6 +5208,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -5454,6 +5476,8 @@ removeAllRanges
 }
 )
 ;
+*
+/
 }
 )
 ;
@@ -5935,6 +5959,8 @@ bug
 ;
 return
 ;
+/
+*
 yield
 test_contextmenu
 (
@@ -6005,6 +6031,8 @@ true
 ]
 )
 ;
+*
+/
 }
 )
 ;

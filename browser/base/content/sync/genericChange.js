@@ -1223,8 +1223,6 @@ doChangePassphrase
 (
 )
 ;
-break
-;
 case
 "
 ChangePassword
@@ -1236,8 +1234,6 @@ this
 doChangePassword
 (
 )
-;
-break
 ;
 }
 return

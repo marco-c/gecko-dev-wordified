@@ -1139,6 +1139,8 @@ testShiftAltReturn
 {
 return
 ;
+/
+*
 yield
 *
 prepareTest
@@ -1229,6 +1231,8 @@ page
 "
 )
 ;
+*
+/
 }
 )
 ;

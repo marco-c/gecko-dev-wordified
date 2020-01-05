@@ -3157,8 +3157,6 @@ _onSchedulerTick
 (
 )
 ;
-break
-;
 case
 "
 active
@@ -3189,8 +3187,6 @@ this
 _onSchedulerTick
 (
 )
-;
-break
 ;
 case
 "
@@ -3253,8 +3249,6 @@ this
 _onSchedulerTick
 (
 )
-;
-break
 ;
 }
 return

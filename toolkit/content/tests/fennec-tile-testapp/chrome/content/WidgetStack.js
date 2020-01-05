@@ -311,8 +311,8 @@ log
 (
 )
 {
-return
-;
+/
+/
 logbase
 .
 apply
@@ -327,8 +327,8 @@ log2
 (
 )
 {
-return
-;
+/
+/
 logbase
 .
 apply

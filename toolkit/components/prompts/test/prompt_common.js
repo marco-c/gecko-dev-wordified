@@ -1158,8 +1158,6 @@ method
 "
 )
 ;
-break
-;
 }
 }
 let

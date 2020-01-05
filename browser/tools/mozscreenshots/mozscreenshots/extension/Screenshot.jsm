@@ -484,8 +484,6 @@ system
 "
 )
 ;
-break
-;
 }
 }
 _buildImagePath
@@ -575,7 +573,15 @@ filename
 }
 /
 /
+/
+/
+/
 helpers
+/
+/
+/
+/
+/
 _screenshotWindows
 (
 filename

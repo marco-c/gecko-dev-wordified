@@ -12030,8 +12030,6 @@ AddonManager
 .
 SIGNEDSTATE_SIGNED
 ;
-break
-;
 case
 Cr
 .
@@ -12041,8 +12039,6 @@ return
 AddonManager
 .
 SIGNEDSTATE_MISSING
-;
-break
 ;
 case
 Cr
@@ -12078,8 +12074,6 @@ return
 AddonManager
 .
 SIGNEDSTATE_BROKEN
-;
-break
 ;
 default
 :
@@ -12122,8 +12116,6 @@ return
 AddonManager
 .
 SIGNEDSTATE_UNKNOWN
-;
-break
 ;
 }
 }

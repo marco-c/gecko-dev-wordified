@@ -2181,6 +2181,8 @@ uninstall
 yet
 return
 ;
+/
+*
 LightweightThemeManager
 .
 currentTheme
@@ -2509,6 +2511,8 @@ classic
 "
 )
 ;
+*
+/
 }
 )
 ;

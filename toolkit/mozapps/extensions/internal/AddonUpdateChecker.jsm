@@ -2202,9 +2202,6 @@ documentElement
 namespaceURI
 )
 ;
-return
-undefined
-;
 }
 function
 EM_R

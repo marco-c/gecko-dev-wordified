@@ -1004,8 +1004,6 @@ multiline
 No
 unreachable
 statements
-/
-/
 "
 no
 -

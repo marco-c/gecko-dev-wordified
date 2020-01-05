@@ -680,6 +680,8 @@ this
 ;
 return
 ;
+/
+*
 yield
 test_bookmarks_popup
 (
@@ -736,6 +738,8 @@ false
 }
 )
 ;
+*
+/
 }
 )
 ;

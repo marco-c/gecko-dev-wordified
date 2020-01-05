@@ -6564,8 +6564,6 @@ setupContentTelemetry
 (
 )
 ;
-break
-;
 }
 return
 undefined
