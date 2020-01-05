@@ -2157,6 +2157,7 @@ aFilename
 /
 /
 Get
+all
 the
 features
 supported
@@ -2169,7 +2170,7 @@ accepted
 by
 /
 /
-profiler_init
+profiler_start
 (
 )
 .
@@ -2202,7 +2203,7 @@ const
 char
 *
 *
-profiler_get_features
+profiler_get_available_features
 (
 )
 nullptr
