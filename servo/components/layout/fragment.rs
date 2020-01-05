@@ -184,7 +184,6 @@ incremental
 :
 :
 {
-self
 RECONSTRUCT_FLOW
 RestyleDamage
 }
@@ -399,6 +398,15 @@ white_space
 word_break
 z_index
 }
+;
+use
+style
+:
+:
+dom
+:
+:
+TRestyleDamage
 ;
 use
 style
@@ -5830,7 +5838,7 @@ let
 mut
 restyle_damage
 =
-incremental
+RestyleDamage
 :
 :
 rebuild_and_reflow

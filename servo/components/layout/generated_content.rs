@@ -171,8 +171,8 @@ incremental
 :
 :
 {
-self
 RESOLVE_GENERATED_CONTENT
+RestyleDamage
 }
 ;
 use
@@ -225,6 +225,15 @@ computed_values
 display
 list_style_type
 }
+;
+use
+style
+:
+:
+dom
+:
+:
+TRestyleDamage
 ;
 use
 style
@@ -3847,7 +3856,7 @@ from_opaque_node_and_style
 node
 pseudo
 style
-incremental
+RestyleDamage
 :
 :
 rebuild_and_reflow

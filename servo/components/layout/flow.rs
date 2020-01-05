@@ -442,7 +442,6 @@ incremental
 :
 :
 {
-self
 RECONSTRUCT_FLOW
 REFLOW
 REFLOW_OUT_OF_FLOW
@@ -559,6 +558,15 @@ float
 position
 text_align
 }
+;
+use
+style
+:
+:
+dom
+:
+:
+TRestyleDamage
 ;
 use
 style
@@ -8800,7 +8808,7 @@ let
 mut
 damage
 =
-incremental
+RestyleDamage
 :
 :
 rebuild_and_reflow
