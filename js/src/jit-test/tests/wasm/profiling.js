@@ -930,13 +930,6 @@ handling
 >
 "
 "
-inline
-stub
-0
-1
->
-"
-"
 "
 ]
 )
@@ -1095,12 +1088,6 @@ stub
 "
 trap
 handling
-0
->
-"
-"
-inline
-stub
 0
 >
 "

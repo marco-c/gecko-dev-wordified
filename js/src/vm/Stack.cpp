@@ -3905,7 +3905,6 @@ wasm
 :
 FrameIterator
 (
-*
 data_
 .
 activations_

@@ -6402,7 +6402,7 @@ InterruptUint32
 ReportOverRecursed
 HandleExecutionInterrupt
 HandleDebugTrap
-HandleDebugThrow
+HandleThrow
 ReportTrap
 ReportOutOfBounds
 ReportUnalignedAccess
