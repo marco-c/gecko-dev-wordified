@@ -21228,13 +21228,6 @@ policyId
 ;
 if
 (
-policy
-.
-alladdons
-)
-{
-if
-(
 aAddon
 .
 mpcOptedOut
@@ -21247,6 +21240,13 @@ return
 false
 ;
 }
+if
+(
+policy
+.
+alladdons
+)
+{
 return
 true
 ;
