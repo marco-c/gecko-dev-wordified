@@ -3182,7 +3182,6 @@ closest
 (
 "
 panelmultiview
-photonpanelmultiview
 "
 )
 ;
