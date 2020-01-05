@@ -252,16 +252,6 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
-;
-typedef
-mozilla
-:
-:
-image
-:
-:
 imgDrawingParams
 imgDrawingParams
 ;
