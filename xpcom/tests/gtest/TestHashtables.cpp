@@ -814,6 +814,7 @@ MozExternalRefCountType
 AddRef
 (
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -822,6 +823,7 @@ MozExternalRefCountType
 Release
 (
 )
+override
 ;
 NS_IMETHOD
 QueryInterface
@@ -833,6 +835,7 @@ void
 *
 *
 )
+override
 ;
 NS_IMETHOD
 SetString

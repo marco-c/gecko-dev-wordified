@@ -183,6 +183,7 @@ MozExternalRefCountType
 AddRef
 (
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -191,6 +192,7 @@ MozExternalRefCountType
 Release
 (
 )
+override
 ;
 NS_IMETHOD
 QueryInterface
@@ -202,6 +204,7 @@ void
 *
 *
 )
+override
 ;
 unsigned
 int
@@ -551,11 +554,11 @@ IBar
 (
 )
 ;
-virtual
 ~
 IBar
 (
 )
+override
 ;
 NS_IMETHOD
 QueryInterface
@@ -567,6 +570,7 @@ void
 *
 *
 )
+override
 ;
 static
 int

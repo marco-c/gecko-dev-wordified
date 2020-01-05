@@ -257,7 +257,6 @@ nsIWeakReference
 .
 .
 NS_DECL_NSIWEAKREFERENCE
-virtual
 size_t
 SizeOfOnlyThis
 (
