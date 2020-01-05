@@ -2151,12 +2151,6 @@ name
 "
 }
 {
-PR_SI_HOSTNAME
-"
-host
-"
-}
-{
 PR_SI_ARCHITECTURE
 "
 arch

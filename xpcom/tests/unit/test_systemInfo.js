@@ -69,9 +69,6 @@ PROPERTIES
 name
 "
 "
-host
-"
-"
 arch
 "
 "
