@@ -824,7 +824,7 @@ channel
 .
 loadInfo
 .
-resetPrincipalsToNullPrincipal
+resetPrincipalToInheritToNullPrincipal
 (
 )
 ;
