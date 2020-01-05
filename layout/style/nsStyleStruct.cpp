@@ -9654,7 +9654,7 @@ ComputedJustifyItems
 aParent
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 )
@@ -9757,7 +9757,7 @@ ComputedJustifyItems
 aParent
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 )
