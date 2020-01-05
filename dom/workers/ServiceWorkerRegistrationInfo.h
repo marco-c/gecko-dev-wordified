@@ -163,7 +163,6 @@ mUpdateState
 uint64_t
 mLastUpdateCheckTime
 ;
-const
 nsLoadFlags
 mLoadFlags
 ;
@@ -723,6 +722,13 @@ GetLoadFlags
 (
 )
 const
+;
+void
+SetLoadFlags
+(
+nsLoadFlags
+aLoadFlags
+)
 ;
 private
 :
