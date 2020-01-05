@@ -205,11 +205,6 @@ mFront
 nullptr
 )
 {
-MOZ_COUNT_CTOR
-(
-VRLayerChild
-)
-;
 }
 VRLayerChild
 :
