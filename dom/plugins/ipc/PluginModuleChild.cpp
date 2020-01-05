@@ -221,13 +221,6 @@ MOZ_X11
 #
 include
 "
-nsX11ErrorHandler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 X11Util
@@ -3344,7 +3337,7 @@ its
 own
 handler
 .
-InstallX11ErrorHandler
+XRE_InstallX11ErrorHandler
 (
 )
 ;
