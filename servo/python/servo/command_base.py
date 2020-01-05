@@ -3833,8 +3833,6 @@ include
 )
         
 #
-FIXME
-:
 These
 are
 set
@@ -3845,13 +3843,11 @@ the
 variable
 names
 that
+build
+-
+apk
         
 #
-android
--
-rs
--
-glue
 expects
 .
 However
@@ -3860,9 +3856,9 @@ submodules
 have
 makefiles
 that
+reference
         
 #
-reference
 the
 env
 var
@@ -3876,9 +3872,9 @@ enabled
 and
 set
 as
+the
         
 #
-the
 default
 we
 could
