@@ -1725,6 +1725,24 @@ basestring
 )
             
 #
+mochitest
+flavor
+for
+mochitest
+runs
+            
+Optional
+(
+'
+mochitest
+-
+flavor
+'
+)
+:
+basestring
+            
+#
 any
 additional
 actions
