@@ -244,12 +244,6 @@ return
 0
 }
 px
-(
-{
-1
-}
-au
-)
 "
 .
 format
@@ -259,7 +253,6 @@ au
 60
 .
 0
-au
 )
 #
 Print
@@ -947,6 +940,7 @@ type_map
     
 (
 '
+struct
 Au
 '
 AuPrinter
