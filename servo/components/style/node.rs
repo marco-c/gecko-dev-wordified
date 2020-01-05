@@ -474,6 +474,15 @@ self
 bool
 ;
 fn
+get_indeterminate_state
+(
+self
+)
+-
+>
+bool
+;
+fn
 has_class
 (
 self
