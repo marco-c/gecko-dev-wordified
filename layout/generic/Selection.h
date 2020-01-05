@@ -2126,6 +2126,16 @@ clears
 /
 /
 mAnchorFocusRange
+void
+SelectFramesForContent
+(
+nsIContent
+*
+aContent
+bool
+aSelected
+)
+;
 nsresult
 SelectAllFramesForContent
 (
