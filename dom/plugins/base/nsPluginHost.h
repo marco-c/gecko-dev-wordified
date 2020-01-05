@@ -1027,6 +1027,12 @@ eSpecialType_Silverlight
 Native
 widget
 quirks
+eSpecialType_RealPlayer
+/
+/
+Native
+widget
+quirks
 eSpecialType_Unity
 }
 ;
