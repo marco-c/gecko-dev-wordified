@@ -12,6 +12,7 @@ time
 :
 precise_time_ns
 ;
+pub
 fn
 time
 (

@@ -678,6 +678,7 @@ kind
 }
 }
 }
+pub
 enum
 NodeKind
 {

@@ -88,6 +88,7 @@ cmp
 :
 Eq
 ;
+pub
 enum
 Color
 =
@@ -187,6 +188,7 @@ other
 )
 }
 }
+pub
 fn
 rgba
 (
@@ -225,6 +227,7 @@ a
 }
 )
 }
+pub
 fn
 rgb
 (
@@ -254,6 +257,7 @@ b
 )
 ;
 }
+pub
 fn
 hsla
 (
@@ -620,6 +624,7 @@ a
 )
 ;
 }
+pub
 fn
 hsl
 (

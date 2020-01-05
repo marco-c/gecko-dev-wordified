@@ -15,21 +15,6 @@ binary
 data
 *
 /
-export
-ControlMsg
-Load
-Exit
-;
-export
-ProgressMsg
-Payload
-Done
-;
-export
-ResourceTask
-ResourceManager
-LoaderTaskFactory
-;
 use
 comm
 :
@@ -72,6 +57,7 @@ Url
 to_str
 }
 ;
+pub
 enum
 ControlMsg
 {
@@ -107,6 +93,7 @@ to
 a
 Load
 message
+pub
 enum
 ProgressMsg
 {
@@ -418,6 +405,7 @@ start
 )
 }
 }
+pub
 struct
 ResourceManager
 {
@@ -446,6 +434,7 @@ LoaderTaskFactory
 )
 ]
 }
+pub
 fn
 ResourceManager
 (

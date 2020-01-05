@@ -20,6 +20,7 @@ TODO
 Use
 traits
 .
+pub
 type
 Tree
 <
@@ -64,6 +65,7 @@ T
 >
 }
 ;
+pub
 trait
 ReadMethods
 <
@@ -95,6 +97,7 @@ R
 R
 ;
 }
+pub
 trait
 WriteMethods
 <
@@ -126,6 +129,7 @@ R
 R
 ;
 }
+pub
 fn
 each_child
 <
@@ -223,6 +227,7 @@ next_sibling
 }
 }
 }
+pub
 fn
 empty
 <
@@ -260,6 +265,7 @@ next_sibling
 None
 }
 }
+pub
 fn
 add_child
 <
@@ -452,6 +458,7 @@ child
 )
 ;
 }
+pub
 fn
 get_parent
 <

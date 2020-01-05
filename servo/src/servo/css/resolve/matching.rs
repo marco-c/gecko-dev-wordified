@@ -201,6 +201,7 @@ split_char
 .
 contains
 (
+&
 val
 )
 None

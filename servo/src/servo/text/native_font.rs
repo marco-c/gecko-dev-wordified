@@ -50,10 +50,6 @@ glyphs
 .
 *
 /
-export
-NativeFont
-create
-;
 use
 glyph
 :
@@ -80,6 +76,7 @@ macos
 "
 )
 ]
+pub
 type
 NativeFont
 /
@@ -101,6 +98,7 @@ linux
 "
 )
 ]
+pub
 type
 NativeFont
 /
@@ -122,6 +120,7 @@ macos
 "
 )
 ]
+pub
 fn
 create
 (
@@ -164,6 +163,7 @@ linux
 "
 )
 ]
+pub
 fn
 create
 (
@@ -207,6 +207,7 @@ macos
 "
 )
 ]
+pub
 fn
 with_test_native_font
 (
@@ -241,6 +242,7 @@ linux
 "
 )
 ]
+pub
 fn
 with_test_native_font
 (

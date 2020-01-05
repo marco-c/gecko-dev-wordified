@@ -21,6 +21,15 @@ gfx
 geometry
 ;
 use
+css
+:
+:
+styles
+:
+:
+SpecifiedStyle
+;
+use
 dom
 :
 :
@@ -50,7 +59,6 @@ box
 :
 {
 RenderBox
-SpecifiedStyle
 RenderBoxTree
 }
 ;
