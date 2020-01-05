@@ -392,11 +392,12 @@ an
 unvisited
 bookmark
 .
+yield
 PlacesUtils
 .
 history
 .
-removePage
+remove
 (
 uri6
 )

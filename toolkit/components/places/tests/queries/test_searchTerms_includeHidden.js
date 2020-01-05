@@ -440,13 +440,12 @@ includeHidden
 )
 )
 ;
+yield
 PlacesUtils
 .
-bhistory
+history
 .
-removePage
-(
-uri
+remove
 (
 "
 http
@@ -460,7 +459,6 @@ example
 com
 /
 "
-)
 )
 ;
 }
