@@ -3352,7 +3352,7 @@ GetVersionExW
 "
 ctypes
 .
-default_abi
+winapi_abi
 BOOL
 OSVERSIONINFOEXW
 .
