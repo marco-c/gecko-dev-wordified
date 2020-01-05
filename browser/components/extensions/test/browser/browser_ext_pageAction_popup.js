@@ -231,7 +231,13 @@ test
 assertEq
 (
 "
-transparent
+rgba
+(
+0
+0
+0
+0
+)
 "
 background
 )
