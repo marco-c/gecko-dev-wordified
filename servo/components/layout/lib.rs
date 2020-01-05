@@ -431,7 +431,7 @@ self
 data
 :
 :
-PersistentLayoutData
+LayoutData
 ;
 /
 /

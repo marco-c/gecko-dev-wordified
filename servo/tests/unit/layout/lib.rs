@@ -80,16 +80,6 @@ size_of_test
 [
 cfg
 (
-test
-)
-]
-mod
-align_of
-;
-#
-[
-cfg
-(
 all
 (
 test
