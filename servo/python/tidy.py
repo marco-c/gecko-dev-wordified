@@ -3014,6 +3014,7 @@ missing
 space
 before
 {
+{
 "
 no_filter
 )
@@ -3066,6 +3067,7 @@ s
 missing
 space
 before
+}
 }
 "
                 
@@ -3139,6 +3141,7 @@ s
 missing
 space
 after
+{
 {
 "
                 
@@ -4682,14 +4685,17 @@ pattern
 =
 "
 impl
-%
-sMethods
+{
+}
+Methods
 for
-%
-s
+{
+}
+{
 {
 "
-%
+.
+format
 (
 file_name
 file_name
