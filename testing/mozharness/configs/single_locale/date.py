@@ -1,3 +1,5 @@
+import
+os
 config
 =
 {
@@ -103,6 +105,30 @@ mar
 mar_tools_url
 "
 :
+os
+.
+environ
+.
+get
+(
+        
+"
+MAR_TOOLS_URL
+"
+        
+#
+Buildbot
+l10n
+fetches
+from
+ftp
+rather
+than
+setting
+an
+environ
+var
+        
 "
 http
 :
@@ -140,6 +166,8 @@ platform
 )
 s
 "
+    
+)
     
 #
 repositories
