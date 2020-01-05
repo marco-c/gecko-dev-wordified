@@ -6485,7 +6485,7 @@ function
 allowed_in_keyframe_block
 =
 "
-False
+True
 "
 >
 pub
