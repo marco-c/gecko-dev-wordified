@@ -408,6 +408,12 @@ IsPlaying
 const
 override
 ;
+void
+DumpDebugInfo
+(
+)
+override
+;
 protected
 :
 virtual
