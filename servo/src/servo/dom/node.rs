@@ -24,10 +24,10 @@ use
 newcss
 :
 :
-select
+complete
 :
 :
-SelectResults
+CompleteSelectResults
 ;
 use
 dom
@@ -797,7 +797,7 @@ style
 :
 Option
 <
-SelectResults
+CompleteSelectResults
 >
 mut
 flow
