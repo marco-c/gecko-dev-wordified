@@ -714,7 +714,7 @@ self
 .
 attrs
 .
-move_iter
+into_iter
 (
 )
 .
@@ -1173,7 +1173,7 @@ nodes
 :
 children
 .
-move_iter
+into_iter
 (
 )
 .

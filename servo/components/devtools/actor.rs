@@ -1191,7 +1191,7 @@ unwrap
 (
 )
 .
-as_ref
+downcast_ref
 :
 :
 <
@@ -1568,7 +1568,6 @@ to
 }
 }
 let
-mut
 new_actors
 =
 replace
