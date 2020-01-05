@@ -19675,7 +19675,7 @@ SetScrollOffset
 scrollOffset
 )
 ;
-ScheduleCompositeAndMaybeRepaint
+RequestContentRepaint
 (
 )
 ;

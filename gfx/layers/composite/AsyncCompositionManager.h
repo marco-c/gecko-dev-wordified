@@ -1694,8 +1694,10 @@ MOZ_WIDGET_ANDROID
 public
 :
 void
-SetFixedLayerMarginsBottom
+SetFixedLayerMargins
 (
+ScreenIntCoord
+aTop
 ScreenIntCoord
 aBottom
 )
