@@ -2144,11 +2144,15 @@ firstPt
 SkPoint
 prevPt
 ;
-RawIter
+SkPath
+:
+:
+Iter
 iter
 (
 *
 this
+true
 )
 ;
 SkPath
@@ -2197,6 +2201,8 @@ iter
 next
 (
 pts
+true
+true
 )
 )
 !
