@@ -1696,6 +1696,10 @@ get_ref
 layout_ctx
 .
 image_cache
+.
+clone
+(
+)
 copy
 layout_ctx
 .
