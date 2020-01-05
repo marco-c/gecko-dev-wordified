@@ -3290,6 +3290,12 @@ OnCompositorUnexpectedShutdown
 )
 override
 ;
+void
+OnCompositorDeviceReset
+(
+)
+override
+;
 private
 :
 /
