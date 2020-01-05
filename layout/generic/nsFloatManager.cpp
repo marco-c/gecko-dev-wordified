@@ -3659,12 +3659,12 @@ Right
 /
 /
 /
-BoxShapeInfo
+RoundedBoxShapeInfo
 nscoord
 nsFloatManager
 :
 :
-BoxShapeInfo
+RoundedBoxShapeInfo
 :
 :
 LineLeft
@@ -3687,7 +3687,7 @@ mRadii
 )
 {
 return
-mShapeBoxRect
+mRect
 .
 x
 ;
@@ -3697,10 +3697,10 @@ lineLeftDiff
 =
 ComputeEllipseLineInterceptDiff
 (
-mShapeBoxRect
+mRect
 .
 y
-mShapeBoxRect
+mRect
 .
 YMost
 (
@@ -3726,7 +3726,7 @@ aBEnd
 )
 ;
 return
-mShapeBoxRect
+mRect
 .
 x
 +
@@ -3737,7 +3737,7 @@ nscoord
 nsFloatManager
 :
 :
-BoxShapeInfo
+RoundedBoxShapeInfo
 :
 :
 LineRight
@@ -3760,7 +3760,7 @@ mRadii
 )
 {
 return
-mShapeBoxRect
+mRect
 .
 XMost
 (
@@ -3772,10 +3772,10 @@ lineRightDiff
 =
 ComputeEllipseLineInterceptDiff
 (
-mShapeBoxRect
+mRect
 .
 y
-mShapeBoxRect
+mRect
 .
 YMost
 (
@@ -3801,7 +3801,7 @@ aBEnd
 )
 ;
 return
-mShapeBoxRect
+mRect
 .
 XMost
 (
@@ -5395,7 +5395,7 @@ hasRadii
 return
 MakeUnique
 <
-BoxShapeInfo
+RoundedBoxShapeInfo
 >
 (
 logicalShapeBoxRect
@@ -5413,7 +5413,7 @@ nscoord
 return
 MakeUnique
 <
-BoxShapeInfo
+RoundedBoxShapeInfo
 >
 (
 logicalShapeBoxRect
