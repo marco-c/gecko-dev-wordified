@@ -75,7 +75,6 @@ use
 {
 FilterOp
 MixBlendMode
-ScrollLayerId
 ScrollPolicy
 StackingContext
 }
@@ -87,12 +86,6 @@ pub
 fn
 new
 (
-scroll_layer_id
-:
-Option
-<
-ScrollLayerId
->
 scroll_policy
 :
 ScrollPolicy
@@ -146,9 +139,6 @@ StackingContext
 {
 StackingContext
 {
-scroll_layer_id
-:
-scroll_layer_id
 scroll_policy
 :
 scroll_policy
