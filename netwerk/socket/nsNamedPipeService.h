@@ -102,7 +102,7 @@ mozilla_netwerk_socket_nsNamedPipeService_h
 #
 include
 <
-Windows
+windows
 .
 h
 >
