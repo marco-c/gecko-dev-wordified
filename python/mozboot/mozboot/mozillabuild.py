@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+errno
+import
 os
 import
 sys
@@ -483,10 +485,28 @@ rustup_init
 )
             
 except
-FileNotFoundError
+OSError
+as
+e
 :
                 
+if
+e
+.
+errno
+=
+=
+errno
+.
+ENOENT
+:
+                    
 pass
+                
+else
+:
+                    
+raise
     
 def
 upgrade_mercurial
