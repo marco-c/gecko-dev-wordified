@@ -2045,9 +2045,6 @@ BuildSourcePaint
 SourceInfo
 *
 aSource
-DrawTarget
-*
-aTargetDT
 )
 {
 MOZ_ASSERT
@@ -2364,9 +2361,6 @@ nsFilterInstance
 :
 BuildSourcePaints
 (
-DrawTarget
-*
-aTargetDT
 )
 {
 if
@@ -2388,7 +2382,6 @@ BuildSourcePaint
 (
 &
 mFillPaint
-aTargetDT
 )
 ;
 if
@@ -2426,7 +2419,6 @@ BuildSourcePaint
 (
 &
 mStrokePaint
-aTargetDT
 )
 ;
 if
@@ -2458,9 +2450,6 @@ nsFilterInstance
 :
 BuildSourceImage
 (
-DrawTarget
-*
-aTargetDT
 )
 {
 MOZ_ASSERT
@@ -3030,7 +3019,6 @@ result
 =
 BuildSourceImage
 (
-aDrawTarget
 )
 ;
 if
@@ -3052,7 +3040,6 @@ result
 =
 BuildSourcePaints
 (
-aDrawTarget
 )
 ;
 if
