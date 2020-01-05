@@ -1045,9 +1045,6 @@ scope
 handle_fire_timer
 (
 timer_id
-js_context
-.
-ptr
 )
 ;
 }
