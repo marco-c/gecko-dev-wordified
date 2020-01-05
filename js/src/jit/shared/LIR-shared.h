@@ -39164,6 +39164,15 @@ is
 non
 -
 volatile
+/
+/
+See
+also
+CodeGeneratorShared
+:
+:
+emitWasmCallBase
+.
 return
 !
 reg

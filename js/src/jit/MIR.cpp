@@ -38423,8 +38423,6 @@ MIRType
 resultType
 uint32_t
 spIncrement
-uint32_t
-tlsStackOffset
 MDefinition
 *
 tableIndex
@@ -38443,7 +38441,6 @@ MWasmCall
 desc
 callee
 spIncrement
-tlsStackOffset
 )
 ;
 call
@@ -38660,8 +38657,6 @@ MIRType
 resultType
 uint32_t
 spIncrement
-uint32_t
-tlsStackOffset
 )
 {
 auto
@@ -38693,7 +38688,6 @@ callee
 args
 resultType
 spIncrement
-tlsStackOffset
 nullptr
 )
 ;
