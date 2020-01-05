@@ -430,7 +430,7 @@ void
 MediaSourceDemuxer
 :
 :
-NotifyDataArrived
+NotifyInitDataArrived
 (
 )
 {

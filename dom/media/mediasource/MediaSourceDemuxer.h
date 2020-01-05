@@ -295,12 +295,6 @@ return
 false
 ;
 }
-void
-NotifyDataArrived
-(
-)
-override
-;
 /
 *
 interface
@@ -334,6 +328,11 @@ return
 mTaskQueue
 ;
 }
+void
+NotifyInitDataArrived
+(
+)
+;
 /
 /
 Returns
