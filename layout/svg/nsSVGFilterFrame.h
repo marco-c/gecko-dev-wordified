@@ -360,9 +360,6 @@ available
 null
 otherwise
 .
-class
-AutoFilterReferencer
-;
 friend
 class
 nsSVGFilterInstance
@@ -370,12 +367,6 @@ nsSVGFilterInstance
 nsSVGFilterFrame
 *
 GetReferencedFilter
-(
-)
-;
-nsSVGFilterFrame
-*
-GetReferencedFilterIfNotInUse
 (
 )
 ;
