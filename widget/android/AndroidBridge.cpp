@@ -4465,6 +4465,7 @@ NS_IMPL_ISUPPORTS
 nsAndroidBridge
 nsIAndroidEventDispatcher
 nsIAndroidBridge
+nsIObserver
 )
 nsAndroidBridge
 :
@@ -4540,10 +4541,6 @@ nsAndroidBridge
 (
 )
 {
-RemoveObservers
-(
-)
-;
 }
 NS_IMETHODIMP
 nsAndroidBridge
