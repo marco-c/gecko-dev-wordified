@@ -92,6 +92,7 @@ ControlMsg
 LoadData
 LoadConsumer
 ProgressMsg
+LoadContext
 }
 ;
 use
@@ -237,6 +238,10 @@ LoadData
 :
 new
 (
+LoadContext
+:
+:
+Browsing
 url
 None
 )
@@ -2660,6 +2665,10 @@ LoadData
 :
 new
 (
+LoadContext
+:
+:
+Browsing
 url
 None
 )

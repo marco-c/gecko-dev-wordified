@@ -890,6 +890,7 @@ net_traits
 AsyncResponseTarget
 ControlMsg
 LoadConsumer
+LoadContext
 Metadata
 ResourceTask
 }
@@ -15271,6 +15272,12 @@ Load
 (
 NetLoadData
 {
+context
+:
+LoadContext
+:
+:
+Browsing
 url
 :
 load_data

@@ -333,7 +333,10 @@ use
 net_traits
 :
 :
+{
+LoadContext
 load_whole_resource
+}
 ;
 use
 rand
@@ -1578,6 +1581,10 @@ source
 match
 load_whole_resource
 (
+LoadContext
+:
+:
+Script
 &
 init
 .

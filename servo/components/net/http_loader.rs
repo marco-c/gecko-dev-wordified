@@ -291,6 +291,7 @@ net_traits
 CookieSource
 IncludeSubdomains
 LoadConsumer
+LoadContext
 LoadData
 Metadata
 }
@@ -1191,6 +1192,17 @@ connector
 connector
 }
 ;
+let
+context
+=
+load_data
+.
+context
+.
+clone
+(
+)
+;
 match
 load
 :
@@ -1425,6 +1437,7 @@ LoadData
 :
 new
 (
+context
 Url
 :
 :
@@ -1489,6 +1502,7 @@ clone
 ;
 send_data
 (
+context
 &
 mut
 load_response
@@ -5907,6 +5921,9 @@ R
 Read
 >
 (
+context
+:
+LoadContext
 reader
 :
 &
@@ -5980,6 +5997,7 @@ metadata
 classifier
 &
 buf
+context
 )
 {
 Ok

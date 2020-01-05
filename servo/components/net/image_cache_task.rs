@@ -138,7 +138,15 @@ ControlMsg
 LoadConsumer
 LoadData
 ResourceTask
+}
+;
+use
+net_traits
+:
+:
+{
 ResponseAction
+LoadContext
 }
 ;
 use
@@ -2765,6 +2773,10 @@ LoadData
 :
 new
 (
+LoadContext
+:
+:
+Image
 (
 *
 ref_url

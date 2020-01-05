@@ -287,6 +287,9 @@ classifier
 &
 [
 ]
+load_data
+.
+context
 )
 {
 let

@@ -806,6 +806,9 @@ metadata
 classifier
 &
 bytes
+load_data
+.
+context
 )
 {
 let

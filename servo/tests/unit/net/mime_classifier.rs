@@ -80,6 +80,12 @@ NoSniffFlag
 }
 ;
 use
+net_traits
+:
+:
+LoadContext
+;
+use
 std
 :
 :
@@ -449,6 +455,10 @@ classifier
 .
 classify
 (
+LoadContext
+:
+:
+Browsing
 no_sniff_flag
 apache_bug_flag
 &
