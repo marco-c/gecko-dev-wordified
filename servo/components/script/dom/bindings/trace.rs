@@ -639,6 +639,12 @@ use
 net_traits
 :
 :
+Metadata
+;
+use
+net_traits
+:
+:
 image
 :
 :
@@ -2234,6 +2240,12 @@ no_jsmanaged_fields
 Image
 ImageCacheChan
 ImageCacheTask
+)
+;
+no_jsmanaged_fields
+!
+(
+Metadata
 )
 ;
 no_jsmanaged_fields
