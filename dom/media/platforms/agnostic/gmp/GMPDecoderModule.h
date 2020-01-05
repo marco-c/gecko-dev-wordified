@@ -321,12 +321,6 @@ GMPDecoderModule
 (
 )
 ;
-virtual
-~
-GMPDecoderModule
-(
-)
-;
 /
 /
 Decode
@@ -403,6 +397,14 @@ nsCString
 >
 &
 aGMP
+)
+;
+private
+:
+virtual
+~
+GMPDecoderModule
+(
 )
 ;
 }

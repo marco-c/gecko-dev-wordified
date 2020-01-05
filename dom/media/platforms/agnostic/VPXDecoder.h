@@ -169,10 +169,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-layers
-;
 class
 VPXDecoder
 :
@@ -188,11 +184,6 @@ const
 CreateDecoderParams
 &
 aParams
-)
-;
-~
-VPXDecoder
-(
 )
 ;
 RefPtr
@@ -360,6 +351,11 @@ aMimeType
 ;
 private
 :
+~
+VPXDecoder
+(
+)
+;
 RefPtr
 <
 DecodePromise
@@ -387,6 +383,9 @@ aSample
 const
 RefPtr
 <
+layers
+:
+:
 ImageContainer
 >
 mImageContainer

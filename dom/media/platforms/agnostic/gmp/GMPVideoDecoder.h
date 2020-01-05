@@ -146,6 +146,13 @@ h
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -154,13 +161,6 @@ h
 include
 "
 mozIGeckoMediaPluginService
-.
-h
-"
-#
-include
-"
-MediaInfo
 .
 h
 "
