@@ -2464,7 +2464,6 @@ fn
 *
 mut
 JSContext
-&
 GlobalRef
 Box
 <
@@ -2492,7 +2491,6 @@ global
 get_cx
 (
 )
-&
 global
 obj
 )
