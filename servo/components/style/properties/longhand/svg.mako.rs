@@ -88,10 +88,10 @@ SVG
 inherited
 =
 False
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleSVGReset
+SVGReset
 "
 )
 %

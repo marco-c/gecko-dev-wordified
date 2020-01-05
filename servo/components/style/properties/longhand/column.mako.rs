@@ -88,11 +88,6 @@ Column
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleColumn
-"
 )
 %
 >

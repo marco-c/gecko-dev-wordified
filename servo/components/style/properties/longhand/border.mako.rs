@@ -96,11 +96,6 @@ Border
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleBorder
-"
 additional_methods
 =
 [

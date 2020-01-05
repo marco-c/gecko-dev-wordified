@@ -88,10 +88,10 @@ InheritedTable
 inherited
 =
 True
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleTableBorder
+TableBorder
 "
 )
 %

@@ -96,10 +96,10 @@ Text
 inherited
 =
 False
-gecko_ffi_name
+gecko_name
 =
 "
-nsStyleTextReset
+TextReset
 "
 additional_methods
 =

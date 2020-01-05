@@ -88,11 +88,6 @@ Margin
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleMargin
-"
 )
 %
 >

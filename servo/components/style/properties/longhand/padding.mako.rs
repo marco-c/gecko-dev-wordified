@@ -88,11 +88,6 @@ Padding
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStylePadding
-"
 )
 %
 >

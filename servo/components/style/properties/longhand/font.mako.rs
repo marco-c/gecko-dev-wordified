@@ -96,11 +96,6 @@ Font
 inherited
 =
 True
-gecko_ffi_name
-=
-"
-nsStyleFont
-"
 additional_methods
 =
 [

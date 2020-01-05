@@ -807,6 +807,7 @@ sheet
 )
 }
 }
+pub
 struct
 ArcHelpers
 <
@@ -838,6 +839,7 @@ GeckoType
 ServoType
 >
 {
+pub
 fn
 with
 <
@@ -902,6 +904,7 @@ owned
 ;
 result
 }
+pub
 unsafe
 fn
 into
@@ -924,6 +927,7 @@ transmute
 ptr
 )
 }
+pub
 unsafe
 fn
 addref
@@ -955,6 +959,7 @@ clone
 )
 ;
 }
+pub
 unsafe
 fn
 release

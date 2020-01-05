@@ -96,11 +96,6 @@ Outline
 inherited
 =
 False
-gecko_ffi_name
-=
-"
-nsStyleOutline
-"
 additional_methods
 =
 [
