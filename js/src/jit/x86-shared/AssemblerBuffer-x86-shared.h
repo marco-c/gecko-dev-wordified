@@ -1353,6 +1353,13 @@ ProtectUnused
 false
 /
 *
+GuardAgainstReentrancy
+=
+*
+/
+true
+/
+*
 InitialLowerBound
 =
 *
