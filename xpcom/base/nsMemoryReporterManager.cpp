@@ -287,17 +287,10 @@ mozilla
 /
 dom
 /
-PMemoryReportRequestParent
+MemoryReportTypes
 .
 h
 "
-/
-/
-for
-dom
-:
-:
-MemoryReport
 #
 include
 "
@@ -10634,7 +10627,7 @@ return
 aChild
 -
 >
-SendPMemoryReportRequestConstructor
+SendRequestMemoryReport
 (
 aState
 -
