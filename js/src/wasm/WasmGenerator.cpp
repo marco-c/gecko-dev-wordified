@@ -745,7 +745,7 @@ length
 )
 =
 =
-MaxSigs
+AsmJSMaxTypes
 )
 ;
 MOZ_ASSERT
@@ -760,7 +760,7 @@ length
 )
 =
 =
-MaxTables
+AsmJSMaxTables
 )
 ;
 MOZ_ASSERT
@@ -775,7 +775,7 @@ length
 )
 =
 =
-MaxSigs
+AsmJSMaxTypes
 )
 ;
 return
@@ -6469,7 +6469,7 @@ MOZ_ASSERT
 length
 <
 =
-MaxTableElems
+MaxTableLength
 )
 ;
 MOZ_ASSERT

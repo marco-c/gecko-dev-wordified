@@ -9361,7 +9361,7 @@ numSigs
 )
 >
 =
-MaxSigs
+AsmJSMaxTypes
 )
 return
 failCurrentOffset
@@ -10363,7 +10363,7 @@ sigs
 .
 resize
 (
-MaxSigs
+AsmJSMaxTypes
 )
 |
 |
@@ -10375,7 +10375,7 @@ funcSigs
 .
 resize
 (
-MaxFuncs
+AsmJSMaxFuncs
 )
 |
 |
@@ -10399,7 +10399,7 @@ tables
 .
 resize
 (
-MaxTables
+AsmJSMaxTables
 )
 |
 |
@@ -10411,7 +10411,7 @@ asmJSSigToTableIndex
 .
 resize
 (
-MaxSigs
+AsmJSMaxTypes
 )
 )
 {
@@ -12650,7 +12650,7 @@ if
 funcIndex
 >
 =
-MaxFuncs
+AsmJSMaxFuncs
 )
 return
 failCurrentOffset
@@ -12770,7 +12770,7 @@ if
 (
 mask
 >
-MaxTableElems
+MaxTableLength
 )
 return
 failCurrentOffset
