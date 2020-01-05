@@ -1318,6 +1318,8 @@ DontEchoPassword
 )
 const
 ;
+private
+:
 /
 /
 Note
@@ -1333,6 +1335,8 @@ TextEditor
 *
 mTextEditor
 ;
+protected
+:
 /
 /
 A
