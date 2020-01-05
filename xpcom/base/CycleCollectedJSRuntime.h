@@ -1337,6 +1337,9 @@ aNewState
 void
 OnGC
 (
+JSContext
+*
+aContext
 JSGCStatus
 aStatus
 )
