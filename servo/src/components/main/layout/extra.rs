@@ -123,6 +123,7 @@ LayoutAuxMethods
 fn
 initialize_layout_data
 (
+&
 self
 chan
 :
@@ -132,6 +133,7 @@ LayoutChan
 fn
 initialize_style_for_subtree
 (
+&
 self
 chan
 :
@@ -191,6 +193,7 @@ traversal
 fn
 initialize_layout_data
 (
+&
 self
 chan
 :
@@ -299,6 +302,7 @@ traversal
 fn
 initialize_style_for_subtree
 (
+&
 self
 chan
 :

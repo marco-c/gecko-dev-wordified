@@ -2272,6 +2272,7 @@ parent_node
 {
 Some
 (
+ref
 parent_node
 )
 if
@@ -2661,6 +2662,10 @@ self
 share_style_with_candidate_if_possible
 (
 parent
+.
+clone
+(
+)
 candidate
 )
 {
@@ -2826,6 +2831,10 @@ share_style_if_possible
 (
 style_sharing_candidate_cache
 parent
+.
+clone
+(
+)
 )
 }
 ;
@@ -2938,8 +2947,11 @@ applicable_declarations_cache
 style_sharing_candidate_cache
 Some
 (
-*
 self
+.
+clone
+(
+)
 )
 )
 }

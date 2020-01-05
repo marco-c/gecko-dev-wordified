@@ -1371,6 +1371,14 @@ else
                 
 nativeTypeDefault
 =
+'
+JS
+<
+%
+s
+>
+'
+%
 ifaceName
         
 self
@@ -1385,22 +1393,6 @@ get
 nativeType
 '
 nativeTypeDefault
-)
-        
-self
-.
-pointerType
-=
-desc
-.
-get
-(
-'
-pointerType
-'
-'
-mut
-'
 )
         
 self
@@ -2121,6 +2113,10 @@ self
 .
 workers
 )
+or
+'
+trace
+'
         
 self
 .

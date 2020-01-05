@@ -62,6 +62,7 @@ deriving
 (
 Eq
 Clone
+Encodable
 )
 ]
 pub

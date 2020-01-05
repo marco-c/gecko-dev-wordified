@@ -187,11 +187,11 @@ bindings
 {
 pub
 mod
-element
+js
 ;
 pub
 mod
-node
+element
 ;
 pub
 mod
@@ -211,6 +211,10 @@ proxyhandler
 ;
 pub
 mod
+trace
+;
+pub
+mod
 codegen
 {
 pub
@@ -226,6 +230,10 @@ BindingDeclarations
 pub
 mod
 InterfaceTypes
+;
+pub
+mod
+InheritTypes
 ;
 pub
 mod

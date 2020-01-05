@@ -86,6 +86,14 @@ lib
 "
 ]
 ;
+#
+[
+feature
+(
+managed_boxes
+)
+]
+;
 extern
 mod
 azure
