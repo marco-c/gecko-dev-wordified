@@ -951,6 +951,7 @@ NodeTree
 .
 each_child
 (
+&
 cur_node
 )
 |
@@ -962,6 +963,7 @@ self
 construct_recursively
 (
 layout_ctx
+*
 child_node
 next_ctx
 Some

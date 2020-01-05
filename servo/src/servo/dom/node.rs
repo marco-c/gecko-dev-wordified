@@ -244,11 +244,13 @@ each_child
 (
 node
 :
+&
 Node
 f
 :
 fn
 (
+&
 Node
 )
 -
@@ -261,6 +263,7 @@ tree
 :
 each_child
 (
+&
 self
 node
 f
@@ -338,6 +341,7 @@ NodeTree
 .
 each_child
 (
+&
 self
 )
 |
@@ -371,6 +375,7 @@ NodeTree
 .
 each_child
 (
+&
 self
 )
 |
@@ -628,7 +633,6 @@ NodeTree
 .
 each_child
 (
-*
 self
 )
 |
@@ -1025,11 +1029,13 @@ each_child
 (
 node
 :
+&
 Node
 f
 :
 fn
 (
+&
 Node
 )
 -
@@ -1042,6 +1048,7 @@ tree
 :
 each_child
 (
+&
 self
 node
 f
@@ -1052,6 +1059,7 @@ get_parent
 (
 node
 :
+&
 Node
 )
 -
@@ -1066,6 +1074,7 @@ tree
 :
 get_parent
 (
+&
 self
 node
 )
@@ -1137,9 +1146,11 @@ Node
 fn
 add_child
 (
++
 node
 :
 Node
++
 child
 :
 Node
@@ -1150,6 +1161,7 @@ tree
 :
 add_child
 (
+&
 self
 node
 child

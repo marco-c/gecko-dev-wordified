@@ -943,6 +943,7 @@ NodeTree
 .
 each_child
 (
+&
 self
 )
 |

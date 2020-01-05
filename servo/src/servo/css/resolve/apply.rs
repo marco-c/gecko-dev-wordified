@@ -705,6 +705,7 @@ NodeTree
 .
 each_child
 (
+&
 self
 .
 node
@@ -716,6 +717,7 @@ child
 inheritance_wrapper
 (
 layout_ctx
+*
 child
 reflow
 )
