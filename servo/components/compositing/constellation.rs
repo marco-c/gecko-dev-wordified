@@ -155,6 +155,15 @@ msg
 constellation_msg
 :
 :
+AnimationState
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 Msg
 as
 ConstellationMsg
@@ -2327,7 +2336,7 @@ ConstellationMsg
 ChangeRunningAnimationsState
 (
 pipeline_id
-animations_running
+animation_state
 )
 =
 >
@@ -2337,7 +2346,7 @@ self
 handle_change_running_animations_state
 (
 pipeline_id
-animations_running
+animation_state
 )
 }
 ConstellationMsg
@@ -3981,9 +3990,9 @@ self
 pipeline_id
 :
 PipelineId
-animations_running
+animation_state
 :
-bool
+AnimationState
 )
 {
 self
@@ -3998,7 +4007,7 @@ CompositorMsg
 ChangeRunningAnimationsState
 (
 pipeline_id
-animations_running
+animation_state
 )
 )
 }

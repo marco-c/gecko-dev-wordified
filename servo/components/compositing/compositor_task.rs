@@ -190,6 +190,7 @@ constellation_msg
 :
 :
 {
+AnimationState
 ConstellationChan
 PipelineId
 }
@@ -1640,7 +1641,7 @@ animations
 ChangeRunningAnimationsState
 (
 PipelineId
-bool
+AnimationState
 )
 /
 /
