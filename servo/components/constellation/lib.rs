@@ -126,6 +126,10 @@ compositing
 ;
 extern
 crate
+debugger
+;
+extern
+crate
 devtools_traits
 ;
 extern
