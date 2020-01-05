@@ -1469,14 +1469,18 @@ bbb_task
 True
         
 #
-disable
+never
+optimize
+with
 SETA
+for
+BBB
 -
 bug
 1364421
         
 return
-True
+False
 None
     
 else
