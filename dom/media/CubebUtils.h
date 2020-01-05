@@ -314,6 +314,13 @@ CubebLatencyPrefSet
 (
 )
 ;
+cubeb_channel_layout
+ConvertChannelMapToCubebLayout
+(
+uint32_t
+aChannelMap
+)
+;
 #
 if
 defined
