@@ -107,7 +107,7 @@ dom
 node
 :
 :
-LayoutDataRef
+LayoutData
 ;
 use
 geom
@@ -350,7 +350,7 @@ traffic
 .
 ReapLayoutData
 (
-LayoutDataRef
+LayoutData
 )
 /
 /
