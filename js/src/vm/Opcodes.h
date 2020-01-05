@@ -16482,11 +16482,10 @@ kind
 *
 Stack
 :
-result
+obj
 =
 >
-result
-callable
+obj
 *
 /
 \
