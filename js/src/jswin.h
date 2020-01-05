@@ -158,12 +158,6 @@ undef
 assert
 #
 undef
-min
-#
-undef
-max
-#
-undef
 GetProp
 #
 undef
