@@ -11321,7 +11321,7 @@ block_flow
 =
 flow
 .
-as_block
+as_mut_block
 (
 )
 ;
