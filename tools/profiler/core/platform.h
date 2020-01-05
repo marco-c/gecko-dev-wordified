@@ -1848,14 +1848,6 @@ is_native_unwinding_avail
 (
 )
 ;
-void
-set_tls_stack_top
-(
-void
-*
-stackTop
-)
-;
 /
 /
 -
