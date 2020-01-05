@@ -920,6 +920,8 @@ aPreFilterBounds
 nullptr
 )
 ;
+private
+:
 /
 *
 *
@@ -1570,8 +1572,6 @@ return
 mFilterSpaceToDeviceSpaceTransform
 ;
 }
-private
-:
 struct
 SourceInfo
 {
