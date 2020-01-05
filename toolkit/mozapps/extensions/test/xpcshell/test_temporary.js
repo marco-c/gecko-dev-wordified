@@ -311,6 +311,11 @@ obs
 removeObserver
 (
 observer
+"
+bootstrapmonitor
+-
+event
+"
 )
 ;
 }
