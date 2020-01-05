@@ -488,7 +488,7 @@ if
 check
 )
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -617,7 +617,7 @@ if
 check
 )
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
