@@ -56,10 +56,9 @@ onlyNewItemsFilter
 checkRecentlyClosed
 *
 /
-SimpleTest
-.
-requestCompleteLog
+requestLongerTimeout
 (
+2
 )
 ;
 Services
