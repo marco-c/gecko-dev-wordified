@@ -1346,6 +1346,11 @@ Integer
 "
 0
 "
+extra_prefixes
+=
+"
+webkit
+"
 animatable
 =
 True
