@@ -531,7 +531,7 @@ string
 function
 do_wait_observer
 (
-topic
+obsTopic
 cb
 )
 {
@@ -565,7 +565,7 @@ obs
 addObserver
 (
 observer
-topic
+obsTopic
 false
 )
 ;

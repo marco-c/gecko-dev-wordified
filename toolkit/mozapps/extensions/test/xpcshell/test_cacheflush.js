@@ -575,7 +575,6 @@ onInstallStarted
 :
 function
 (
-aInstall
 )
 {
 /
@@ -637,7 +636,6 @@ onInstallEnded
 :
 function
 (
-aInstall
 )
 {
 do_check_eq

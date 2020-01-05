@@ -632,7 +632,6 @@ in
 PageThumbsStorage
 )
 {
-let
 file
 =
 PageThumbsStorage
