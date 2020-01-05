@@ -1176,6 +1176,13 @@ error
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 dispatch_error
 (
@@ -1251,7 +1258,10 @@ lineno
 error_info
 .
 column
+unsafe
+{
 NullHandleValue
+}
 )
 ;
 let
@@ -1298,7 +1308,10 @@ r
 report_an_error
 (
 error_info
+unsafe
+{
 NullHandleValue
+}
 )
 ;
 }
