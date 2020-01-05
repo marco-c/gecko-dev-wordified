@@ -517,6 +517,10 @@ element
 ;
 pub
 mod
+errorevent
+;
+pub
+mod
 event
 ;
 pub
