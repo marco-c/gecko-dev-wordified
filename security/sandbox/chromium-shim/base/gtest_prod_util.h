@@ -113,6 +113,12 @@ MPL
 /
 #
 ifndef
+BASE_GTEST_PROD_UTIL_H_
+#
+define
+BASE_GTEST_PROD_UTIL_H_
+#
+ifndef
 FRIEND_TEST
 #
 define
@@ -147,3 +153,8 @@ test_name
 )
 #
 endif
+#
+endif
+/
+/
+BASE_GTEST_PROD_UTIL_H_

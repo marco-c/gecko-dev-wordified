@@ -182,6 +182,7 @@ and
 operator
 =
 functions
+.
 /
 /
 This
@@ -196,6 +197,7 @@ declarations
 for
 a
 class
+.
 #
 define
 DISALLOW_COPY_AND_ASSIGN
@@ -209,6 +211,8 @@ const
 TypeName
 &
 )
+=
+delete
 ;
 \
 void
@@ -219,6 +223,8 @@ const
 TypeName
 &
 )
+=
+delete
 /
 /
 A
@@ -525,7 +531,10 @@ Example
 /
 /
 /
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 MyType
 >
