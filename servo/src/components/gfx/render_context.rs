@@ -770,7 +770,6 @@ _
 fail
 !
 (
-~
 "
 color
 type

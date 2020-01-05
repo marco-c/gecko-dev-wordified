@@ -2353,7 +2353,6 @@ None
 fail
 !
 (
-~
 "
 Invalid
 index
@@ -2528,7 +2527,6 @@ None
 fail
 !
 (
-~
 "
 Invalid
 index

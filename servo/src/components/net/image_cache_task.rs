@@ -517,7 +517,6 @@ ImageReady
 fail
 !
 (
-~
 "
 unimplemented
 comparison
@@ -1896,7 +1895,6 @@ Failed
 fail
 !
 (
-~
 "
 wrong
 state
@@ -1938,7 +1936,6 @@ Init
 fail
 !
 (
-~
 "
 decoding
 image
@@ -2314,7 +2311,6 @@ Failed
 fail
 !
 (
-~
 "
 incorrect
 state
@@ -2500,7 +2496,6 @@ Init
 fail
 !
 (
-~
 "
 request
 for
@@ -2536,7 +2531,6 @@ Prefetched
 fail
 !
 (
-~
 "
 request
 for
@@ -2619,7 +2613,6 @@ Init
 fail
 !
 (
-~
 "
 request
 for
@@ -2643,7 +2636,6 @@ Prefetched
 fail
 !
 (
-~
 "
 request
 for
