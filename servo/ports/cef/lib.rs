@@ -124,10 +124,6 @@ servo_plugins
 ;
 extern
 crate
-rustuv
-;
-extern
-crate
 servo
 ;
 extern
