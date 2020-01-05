@@ -272,6 +272,19 @@ TYPE_BASIC
 TYPE_UNKNOWN
 }
 ;
+enum
+OpenRights
+{
+RightsReadOnly
+=
+RightsRead
+RightsReadWrite
+=
+RightsRead
+|
+RightsWrite
+}
+;
 size_t
 Size
 (
@@ -796,6 +809,8 @@ const
 Handle
 &
 aHandle
+OpenRights
+aRights
 )
 =
 0
@@ -891,6 +906,7 @@ handle
 SetHandle
 (
 handle
+RightsReadWrite
 )
 ;
 }

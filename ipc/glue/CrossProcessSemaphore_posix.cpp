@@ -396,6 +396,13 @@ mSharedBuffer
 SetHandle
 (
 aHandle
+ipc
+:
+:
+SharedMemory
+:
+:
+RightsReadWrite
 )
 )
 {
