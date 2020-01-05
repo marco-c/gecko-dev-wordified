@@ -4595,7 +4595,7 @@ if
 (
 difference
 .
-hosts
+origins
 .
 length
 =
@@ -7559,7 +7559,7 @@ if
 (
 perms
 .
-hosts
+origins
 .
 length
 >
