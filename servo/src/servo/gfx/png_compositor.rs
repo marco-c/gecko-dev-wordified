@@ -255,7 +255,6 @@ Compositor
 fn
 begin_drawing
 (
-+
 next_dt
 :
 pipes
@@ -280,7 +279,6 @@ next_dt
 fn
 draw
 (
-+
 next_dt
 :
 pipes
@@ -290,7 +288,6 @@ Chan
 <
 DrawTarget
 >
-+
 draw_me
 :
 DrawTarget
@@ -458,7 +455,6 @@ break
 fn
 do_draw
 (
-+
 sender
 :
 pipes
@@ -468,7 +464,6 @@ Chan
 <
 DrawTarget
 >
-+
 dt
 :
 DrawTarget

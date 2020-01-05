@@ -51,7 +51,6 @@ Compositor
 fn
 begin_drawing
 (
-+
 next_dt
 :
 pipes
@@ -66,7 +65,6 @@ DrawTarget
 fn
 draw
 (
-+
 next_dt
 :
 pipes

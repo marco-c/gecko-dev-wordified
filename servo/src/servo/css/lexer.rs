@@ -1475,7 +1475,6 @@ state
 fn
 lex_css_from_bytes
 (
-+
 input_port
 :
 comm
@@ -1548,7 +1547,6 @@ break
 fn
 spawn_css_lexer_from_string
 (
-+
 content
 :
 ~
@@ -1646,7 +1644,6 @@ pub
 fn
 spawn_css_lexer_task
 (
-+
 url
 :
 Url

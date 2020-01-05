@@ -154,14 +154,12 @@ fn
 fn
 ImageHolder
 (
-+
 url
 :
 Url
 image_cache_task
 :
 ImageCacheTask
-+
 cb
 :
 fn

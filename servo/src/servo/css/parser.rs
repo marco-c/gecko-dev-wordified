@@ -213,7 +213,6 @@ recv
 fn
 unget
 (
-+
 tok
 :
 Token
@@ -1524,7 +1523,6 @@ pub
 fn
 build_stylesheet
 (
-+
 stream
 :
 pipes

@@ -294,7 +294,6 @@ LoaderTaskFactory
 fn
 ~
 (
-+
 url
 :
 Url
@@ -357,7 +356,6 @@ loaders
 fn
 create_resource_task_with_loaders
 (
-+
 loaders
 :
 ~
@@ -444,7 +442,6 @@ Port
 <
 ControlMsg
 >
-+
 loaders
 :
 ~
@@ -518,7 +515,6 @@ break
 fn
 load
 (
-+
 url
 :
 Url
@@ -819,7 +815,6 @@ loader_factory
 fn
 ~
 (
-+
 _url
 :
 Url

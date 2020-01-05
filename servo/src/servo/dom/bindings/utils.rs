@@ -148,7 +148,6 @@ squirrel_away
 T
 >
 (
-+
 x
 :
 T
@@ -208,7 +207,6 @@ squirrel_away_unique
 T
 >
 (
-+
 x
 :
 ~
@@ -640,7 +638,6 @@ pub
 fn
 prototype_jsclass
 (
-+
 name
 :
 ~
@@ -650,7 +647,6 @@ str
 >
 fn
 (
-+
 compartment
 :
 bare_compartment
@@ -660,7 +656,6 @@ bare_compartment
 JSClass
 {
 |
-+
 compartment
 :
 bare_compartment
@@ -925,7 +920,6 @@ pub
 fn
 instance_jsclass
 (
-+
 name
 :
 ~
@@ -939,7 +933,6 @@ u8
 >
 fn
 (
-+
 compartment
 :
 bare_compartment
@@ -949,7 +942,6 @@ bare_compartment
 JSClass
 {
 |
-+
 compartment
 :
 bare_compartment
@@ -1225,12 +1217,10 @@ pub
 fn
 define_empty_prototype
 (
-+
 name
 :
 ~
 str
-+
 proto
 :
 Option
