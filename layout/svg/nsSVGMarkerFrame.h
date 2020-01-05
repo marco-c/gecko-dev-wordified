@@ -444,7 +444,7 @@ GetContentInsertionFrame
 nsSVGMarkerFrame
 methods
 :
-nsresult
+DrawResult
 PaintMark
 (
 gfxContext
@@ -465,6 +465,8 @@ nsSVGMark
 aMark
 float
 aStrokeWidth
+uint32_t
+aFlags
 )
 ;
 SVGBBox
