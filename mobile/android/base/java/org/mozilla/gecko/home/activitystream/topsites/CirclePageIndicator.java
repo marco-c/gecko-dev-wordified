@@ -2268,9 +2268,9 @@ null
 {
 mViewPager
 .
-setOnPageChangeListener
+removeOnPageChangeListener
 (
-null
+this
 )
 ;
 }
@@ -2308,7 +2308,7 @@ view
 ;
 mViewPager
 .
-setOnPageChangeListener
+addOnPageChangeListener
 (
 this
 )
