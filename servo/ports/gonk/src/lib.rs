@@ -768,6 +768,11 @@ clone
 (
 )
 shared_task_pool
+time_profiler_chan_clone
+.
+clone
+(
+)
 )
 }
 else
@@ -783,6 +788,11 @@ clone
 (
 )
 shared_task_pool
+time_profiler_chan_clone
+.
+clone
+(
+)
 )
 }
 ;
