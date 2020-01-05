@@ -197,6 +197,13 @@ Point2D
 f32
 >
 )
+MouseMoveEvent
+(
+Point2D
+<
+f32
+>
+)
 }
 pub
 struct
