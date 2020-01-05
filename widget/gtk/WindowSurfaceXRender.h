@@ -143,11 +143,6 @@ int
 aDepth
 )
 ;
-~
-WindowSurfaceXRender
-(
-)
-;
 already_AddRefed
 <
 gfx
@@ -165,8 +160,12 @@ aRegion
 override
 ;
 void
-Commit
+CommitToDrawable
 (
+Drawable
+aDest
+GC
+aGC
 const
 LayoutDeviceIntRegion
 &
@@ -181,9 +180,6 @@ RefPtr
 gfxXlibSurface
 >
 mXlibSurface
-;
-GC
-mGC
 ;
 }
 ;
