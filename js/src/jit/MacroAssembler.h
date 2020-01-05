@@ -14059,6 +14059,15 @@ scratch
 )
 ;
 }
+void
+debugAssertIsObject
+(
+const
+ValueOperand
+&
+val
+)
+;
 using
 MacroAssemblerSpecific
 :

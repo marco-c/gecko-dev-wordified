@@ -5706,6 +5706,13 @@ done
 ;
 masm
 .
+debugAssertIsObject
+(
+val
+)
+;
+masm
+.
 unboxObject
 (
 val
