@@ -19490,9 +19490,9 @@ fillSettingsRows
 (
 aScrollToPreferences
 (
+function
+(
 )
-=
->
 {
 this
 .
@@ -19507,6 +19507,12 @@ notifyViewChanged
 )
 ;
 }
+)
+.
+bind
+(
+this
+)
 )
 ;
 }
@@ -20406,6 +20412,8 @@ else
 if
 (
 this
+.
+_addon
 .
 appDisabled
 &
