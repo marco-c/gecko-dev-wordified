@@ -255,6 +255,12 @@ range
 *
 ;
 use
+servo_util
+:
+:
+namespace
+;
+use
 std
 :
 :
@@ -1161,7 +1167,11 @@ element
 .
 get_attr
 (
-None
+&
+namespace
+:
+:
+Null
 name
 )
 .

@@ -85,6 +85,15 @@ selectors
 :
 AttrSelector
 ;
+use
+servo_util
+:
+:
+namespace
+:
+:
+Namespace
+;
 pub
 trait
 TNode
@@ -230,11 +239,8 @@ get_attr
 self
 namespace
 :
-Option
-<
-~
-str
->
+&
+Namespace
 attr
 :
 &
@@ -260,7 +266,9 @@ self
 >
 Option
 <
-~
+&
+'
+static
 str
 >
 ;
@@ -284,7 +292,7 @@ a
 str
 ;
 fn
-get_namespace_url
+get_namespace
 <
 '
 a
@@ -300,6 +308,6 @@ self
 &
 '
 a
-str
+Namespace
 ;
 }
