@@ -1360,8 +1360,9 @@ nsInvalidPluginTag
 nsInvalidPluginTag
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Helper
@@ -9699,8 +9700,9 @@ virtual
 ClearDataFromSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -10293,8 +10295,9 @@ virtual
 GetSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

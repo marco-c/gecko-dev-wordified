@@ -2722,8 +2722,9 @@ MallocSizeOf
 DOMEventListenerManagersHashReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -2994,8 +2995,9 @@ nsIInterfaceRequestor
 SameOriginCheckerImpl
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR

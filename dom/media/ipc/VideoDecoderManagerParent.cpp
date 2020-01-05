@@ -348,8 +348,9 @@ virtual
 ManagerThreadShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 ManagerThreadShutdownObserver

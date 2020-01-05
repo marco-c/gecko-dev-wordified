@@ -1179,8 +1179,9 @@ private
 HangMonitoredProcess
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Everything

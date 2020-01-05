@@ -1723,8 +1723,9 @@ virtual
 FakeVideoDecoder
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 InitDecode

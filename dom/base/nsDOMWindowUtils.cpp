@@ -1104,8 +1104,9 @@ aSize
 OldWindowSize
 (
 )
-{
-}
+=
+default
+;
 ;
 static
 OldWindowSize

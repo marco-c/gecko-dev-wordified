@@ -3386,8 +3386,9 @@ private
 nsGlobalWindowObserver
 (
 )
-{
-}
+=
+default
+;
 /
 /
 This
@@ -35254,8 +35255,9 @@ private
 Observer
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 FullscreenTransitionTask

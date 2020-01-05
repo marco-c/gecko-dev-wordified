@@ -8356,8 +8356,9 @@ nsIMemoryReporter
 MessageManagerReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

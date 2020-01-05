@@ -201,6 +201,8 @@ virtual
 OSXSpeechSynthesizerService
 (
 )
+=
+default
 ;
 bool
 RegisterVoices

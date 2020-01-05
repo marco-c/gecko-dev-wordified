@@ -208,8 +208,9 @@ virtual
 GMPLoaderImpl
 (
 )
-{
-}
+=
+default
+;
 bool
 Load
 (
