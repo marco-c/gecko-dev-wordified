@@ -1994,6 +1994,14 @@ lir
 )
 ;
 void
+visitPowV
+(
+LPowV
+*
+lir
+)
+;
+void
 visitMathFunctionD
 (
 LMathFunctionD
