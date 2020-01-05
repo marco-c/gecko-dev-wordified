@@ -714,6 +714,9 @@ nsStyleChangeList
 aChangeList
 )
 ;
+struct
+TextPostTraversalState
+;
 void
 ProcessPostTraversalForText
 (
@@ -729,6 +732,9 @@ aStyleSet
 nsStyleChangeList
 &
 aChangeList
+TextPostTraversalState
+&
+aState
 )
 ;
 inline
