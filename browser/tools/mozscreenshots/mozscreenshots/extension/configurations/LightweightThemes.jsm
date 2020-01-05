@@ -296,11 +296,6 @@ headerURL
 LightweightThemes
 .
 _blackImageURL
-footerURL
-:
-LightweightThemes
-.
-_blackImageURL
 textcolor
 :
 "
@@ -376,11 +371,6 @@ name
 white
 "
 headerURL
-:
-LightweightThemes
-.
-_whiteImageURL
-footerURL
 :
 LightweightThemes
 .
