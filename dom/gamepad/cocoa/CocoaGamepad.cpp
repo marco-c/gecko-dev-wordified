@@ -3103,11 +3103,8 @@ Startup
 Unused
 <
 <
-NS_NewNamedThread
+NS_NewThread
 (
-"
-Gamepad
-"
 getter_AddRefs
 (
 mMonitorThread

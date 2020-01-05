@@ -566,11 +566,8 @@ thread
 ;
 do_check_success
 (
-NS_NewNamedThread
+NS_NewThread
 (
-"
-StorageService
-"
 getter_AddRefs
 (
 thread

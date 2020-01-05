@@ -8093,12 +8093,8 @@ StartStagedUpdate
 )
 ;
 return
-NS_NewNamedThread
+NS_NewThread
 (
-"
-Update
-Watcher
-"
 getter_AddRefs
 (
 mProcessWatcher
