@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
