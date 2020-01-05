@@ -127,7 +127,7 @@ i
 ]
 .
 lineCount
-3
+4
 )
 ;
 gc

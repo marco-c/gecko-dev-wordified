@@ -40,6 +40,9 @@ g
 )
 ;
 var
+text
+;
+var
 count
 =
 0

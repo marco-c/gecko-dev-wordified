@@ -106,6 +106,7 @@ source
 .
 text
 "
+function
 (
 )
 {

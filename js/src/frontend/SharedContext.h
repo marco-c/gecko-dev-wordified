@@ -2787,6 +2787,9 @@ startLine
 uint32_t
 startColumn
 ;
+uint32_t
+preludeStart
+;
 uint16_t
 length
 ;
@@ -3081,6 +3084,8 @@ traceListHead
 JSFunction
 *
 fun
+uint32_t
+preludeStart
 Directives
 directives
 bool
