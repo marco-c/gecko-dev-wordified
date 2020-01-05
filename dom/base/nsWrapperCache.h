@@ -1018,6 +1018,7 @@ bool
 PreservingWrapper
 (
 )
+const
 {
 return
 HasWrapperFlag
