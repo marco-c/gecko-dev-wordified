@@ -1637,7 +1637,12 @@ SetReadyState
 MediaStreamTrackState
 aState
 )
+{
+mReadyState
+=
+aState
 ;
+}
 /
 *
 *
