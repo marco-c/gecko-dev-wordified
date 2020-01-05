@@ -2364,8 +2364,6 @@ restoreLastSession
 ;
 }
 getCurrentState
-:
-function
 (
 aUpdateAll
 )
@@ -2645,8 +2643,6 @@ modified
 *
 /
 keepOnlyWorthSavingTabs
-:
-function
 (
 aState
 )
@@ -3930,8 +3926,6 @@ service
 *
 /
 init
-:
-function
 (
 )
 {
@@ -4024,8 +4018,6 @@ SessionStartup
 *
 /
 initSession
-:
-function
 (
 )
 {
@@ -4688,8 +4680,6 @@ state
 ;
 }
 _initPrefs
-:
-function
 (
 )
 {
@@ -7024,8 +7014,6 @@ ID
 *
 /
 recordTelemetry
-:
-function
 (
 telemetry
 )
@@ -9043,8 +9031,6 @@ reference
 *
 /
 onBeforeBrowserWindowShown
-:
-function
 (
 aWindow
 )
@@ -15191,8 +15177,6 @@ state
 *
 /
 onBrowserCrashed
-:
-function
 (
 aBrowser
 )
@@ -15453,8 +15437,6 @@ regular
 save
 .
 onIdleDaily
-:
-function
 (
 )
 {
@@ -15561,8 +15543,6 @@ from
 an
 array
 _cleanupOldData
-:
-function
 (
 targets
 )
@@ -21316,8 +21296,6 @@ object
 *
 /
 getCurrentState
-:
-function
 (
 aUpdateAll
 )
@@ -22036,8 +22014,6 @@ _closedWindows
 :
 lastClosedWindowsCopy
 session
-:
-session
 global
 :
 this
@@ -22281,8 +22257,6 @@ windows
 ;
 return
 {
-windows
-:
 windows
 }
 ;
@@ -26016,10 +25990,6 @@ restoreHistory
 "
 {
 tabData
-:
-tabData
-epoch
-:
 epoch
 loadArguments
 }
@@ -26175,8 +26145,6 @@ process
 *
 /
 restoreTabContent
-:
-function
 (
 aTab
 aLoadArguments
@@ -26439,8 +26407,6 @@ freshProcess
 :
 aReloadInFreshProcess
 newFrameloader
-:
-newFrameloader
 }
 )
 ;
@@ -26538,10 +26504,6 @@ restoreHistory
 "
 {
 tabData
-:
-tabData
-epoch
-:
 epoch
 loadArguments
 :
@@ -28033,8 +27995,6 @@ writing
 *
 /
 saveStateDelayed
-:
-function
 (
 aWindow
 =
@@ -29918,8 +29878,6 @@ passed
 *
 /
 _hasSingleTabWithURL
-:
-function
 (
 aWinData
 aURL
@@ -32648,8 +32606,6 @@ reset
 *
 /
 _resetLocalTabRestoringState
-:
-function
 (
 aTab
 )
@@ -32814,8 +32770,6 @@ aTab
 }
 }
 _resetTabRestoringState
-:
-function
 (
 tab
 )
@@ -33140,8 +33094,6 @@ browser
 *
 /
 isCurrentEpoch
-:
-function
 (
 browser
 epoch
@@ -33663,8 +33615,6 @@ definition
 =
 {
 value
-:
-value
 configurable
 :
 true
@@ -33757,8 +33707,6 @@ definition
 =
 {
 value
-:
-value
 configurable
 :
 true
@@ -33850,8 +33798,6 @@ definition
 =
 {
 value
-:
-value
 configurable
 :
 true
@@ -33912,8 +33858,6 @@ all
 tabs
 .
 reset
-:
-function
 (
 )
 {
@@ -33952,8 +33896,6 @@ priority
 bucket
 .
 add
-:
-function
 (
 tab
 )
@@ -34028,8 +33970,6 @@ in
 there
 .
 remove
-:
-function
 (
 tab
 )
@@ -34148,8 +34088,6 @@ highest
 priority
 .
 shift
-:
-function
 (
 )
 {
@@ -34273,8 +34211,6 @@ visible
 bucket
 .
 hiddenToVisible
-:
-function
 (
 tab
 )
@@ -34343,8 +34279,6 @@ hidden
 bucket
 .
 visibleToHidden
-:
-function
 (
 tab
 )
@@ -34442,8 +34376,6 @@ bool
 *
 /
 willRestoreSoon
-:
-function
 (
 tab
 )
@@ -34628,8 +34560,6 @@ WeakMap
 (
 )
 has
-:
-function
 (
 window
 )
@@ -34646,8 +34576,6 @@ window
 ;
 }
 get
-:
-function
 (
 window
 )
@@ -34664,8 +34592,6 @@ window
 ;
 }
 set
-:
-function
 (
 window
 data
@@ -34683,8 +34609,6 @@ data
 ;
 }
 remove
-:
-function
 (
 window
 )
@@ -34743,8 +34667,6 @@ WeakMap
 (
 )
 has
-:
-function
 (
 window
 )
@@ -34761,8 +34683,6 @@ window
 ;
 }
 add
-:
-function
 (
 window
 )
@@ -34780,8 +34700,6 @@ true
 ;
 }
 remove
-:
-function
 (
 window
 )
@@ -34797,8 +34715,6 @@ window
 ;
 }
 clear
-:
-function
 (
 window
 )
@@ -34886,8 +34802,6 @@ _state
 ;
 }
 getState
-:
-function
 (
 )
 {
@@ -34898,8 +34812,6 @@ _state
 ;
 }
 setState
-:
-function
 (
 state
 )
@@ -34912,8 +34824,6 @@ state
 ;
 }
 clear
-:
-function
 (
 )
 {

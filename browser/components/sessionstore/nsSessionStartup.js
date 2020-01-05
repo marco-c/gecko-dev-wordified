@@ -992,8 +992,6 @@ JSON
 *
 /
 _onSessionFileRead
-:
-function
 (
 {
 source
@@ -2282,8 +2280,6 @@ bool
 *
 /
 isAutomaticRestoreEnabled
-:
-function
 (
 )
 {
@@ -2342,8 +2338,6 @@ bool
 *
 /
 _willRestore
-:
-function
 (
 )
 {

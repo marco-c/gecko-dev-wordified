@@ -671,8 +671,6 @@ asynchronously
 *
 /
 read
-:
-function
 (
 )
 {
@@ -700,8 +698,6 @@ asynchronously
 *
 /
 write
-:
-function
 (
 aData
 )
@@ -731,8 +727,6 @@ asynchronously
 *
 /
 wipe
-:
-function
 (
 )
 {
@@ -1898,10 +1892,6 @@ origin
 :
 key
 source
-:
-source
-parsed
-:
 parsed
 }
 ;
@@ -2457,8 +2447,6 @@ args
 }
 )
 write
-:
-function
 (
 aData
 )
@@ -2909,8 +2897,6 @@ complete
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -2926,8 +2912,6 @@ wipe
 ;
 }
 _recordTelemetry
-:
-function
 (
 telemetry
 )

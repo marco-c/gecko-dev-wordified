@@ -431,11 +431,11 @@ scriptElt
 .
 type
 =
-'
+"
 text
 /
 javascript
-'
+"
 ;
 scriptElt
 .

@@ -323,8 +323,6 @@ state
 *
 /
 convertState
-:
-function
 (
 aStateObj
 )
@@ -565,8 +563,6 @@ path
 *
 /
 readState
-:
-function
 (
 aPath
 )
@@ -638,8 +634,6 @@ path
 *
 /
 writeState
-:
-function
 (
 aPath
 aState
@@ -707,8 +701,6 @@ another
 *
 /
 migrate
-:
-function
 (
 aFromPath
 aToPath

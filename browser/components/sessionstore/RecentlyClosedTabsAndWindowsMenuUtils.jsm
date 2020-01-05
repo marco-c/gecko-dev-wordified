@@ -386,8 +386,6 @@ tab
 *
 /
 getTabsFragment
-:
-function
 (
 aWindow
 aTagName
@@ -635,8 +633,6 @@ window
 *
 /
 getWindowsFragment
-:
-function
 (
 aWindow
 aTagName
@@ -882,8 +878,6 @@ item
 *
 /
 _undoCloseMiddleClick
-:
-function
 (
 aEvent
 )

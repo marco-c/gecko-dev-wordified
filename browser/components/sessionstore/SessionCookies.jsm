@@ -230,8 +230,6 @@ freeze
 (
 {
 update
-:
-function
 (
 windows
 )
@@ -245,8 +243,6 @@ windows
 ;
 }
 getHostsForWindow
-:
-function
 (
 window
 checkPrivacy
@@ -391,8 +387,6 @@ cookies
 *
 /
 update
-:
-function
 (
 windows
 )
@@ -521,8 +515,6 @@ isHttps
 cookie
 .
 secure
-isPinned
-:
 isPinned
 }
 )
@@ -689,8 +681,6 @@ quitting
 *
 /
 getHostsForWindow
-:
-function
 (
 window
 checkPrivacy
@@ -919,8 +909,6 @@ accordingly
 *
 /
 observe
-:
-function
 (
 subject
 topic
@@ -1068,8 +1056,6 @@ cookies
 *
 /
 _ensureInitialized
-:
-function
 (
 )
 {
@@ -1199,8 +1185,6 @@ checkPrivacy
 *
 /
 _extractHostsFromEntry
-:
-function
 (
 entry
 hosts
@@ -1489,8 +1473,6 @@ checkPrivacy
 *
 /
 _extractHostsFromHostScheme
-:
-function
 (
 host
 scheme
@@ -1565,8 +1547,6 @@ scheme
 "
 https
 "
-isPinned
-:
 isPinned
 }
 )
@@ -1648,8 +1628,6 @@ store
 *
 /
 _updateCookie
-:
-function
 (
 cookie
 )
@@ -1704,8 +1682,6 @@ store
 *
 /
 _removeCookie
-:
-function
 (
 cookie
 )
@@ -1752,8 +1728,6 @@ store
 *
 /
 _removeCookies
-:
-function
 (
 cookies
 )
@@ -1821,8 +1795,6 @@ cookies
 *
 /
 _reloadCookies
-:
-function
 (
 )
 {
@@ -2447,8 +2419,6 @@ for
 *
 /
 getCookiesForHost
-:
-function
 (
 host
 )
@@ -2715,8 +2685,6 @@ storage
 *
 /
 set
-:
-function
 (
 cookie
 )
@@ -2889,8 +2857,6 @@ storage
 *
 /
 delete
-:
-function
 (
 cookie
 )
@@ -2921,8 +2887,6 @@ cookies
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -2989,8 +2953,6 @@ host
 *
 /
 _ensureMap
-:
-function
 (
 cookie
 )

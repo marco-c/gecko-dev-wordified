@@ -864,8 +864,6 @@ getInputValue
 browser
 {
 xpath
-:
-xpath
 }
 )
 ;
@@ -886,8 +884,6 @@ getInputChecked
 (
 browser
 {
-xpath
-:
 xpath
 }
 )
@@ -910,8 +906,6 @@ getSelectedIndex
 browser
 {
 xpath
-:
-xpath
 }
 )
 ;
@@ -930,8 +924,6 @@ getMultipleSelected
 browser
 {
 xpath
-:
-xpath
 }
 )
 ;
@@ -949,8 +941,6 @@ getFileNameArray
 (
 browser
 {
-xpath
-:
 xpath
 }
 )
@@ -1000,10 +990,6 @@ setInputValue
 browser
 {
 xpath
-:
-xpath
-value
-:
 value
 }
 )
@@ -1025,8 +1011,6 @@ setInputChecked
 (
 browser
 {
-xpath
-:
 xpath
 checked
 :
@@ -1052,8 +1036,6 @@ setSelectedIndex
 browser
 {
 xpath
-:
-xpath
 index
 :
 value
@@ -1075,8 +1057,6 @@ setMultipleSelected
 browser
 {
 xpath
-:
-xpath
 indices
 :
 value
@@ -1097,8 +1077,6 @@ setFileNameArray
 (
 browser
 {
-xpath
-:
 xpath
 names
 :

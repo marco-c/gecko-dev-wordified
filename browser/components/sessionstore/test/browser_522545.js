@@ -1110,8 +1110,6 @@ addTabsProgressListener
 (
 {
 onLocationChange
-:
-function
 (
 aBrowser
 )

@@ -253,8 +253,6 @@ addObserver
 (
 {
 onReady
-:
-function
 (
 )
 {

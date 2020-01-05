@@ -947,8 +947,6 @@ recovery
 *
 /
 write
-:
-function
 (
 state
 options
@@ -2040,8 +2038,6 @@ upgradeBackup
 upgradeBackupComplete
 }
 telemetry
-:
-telemetry
 }
 ;
 }
@@ -2061,8 +2057,6 @@ disk
 *
 /
 wipe
-:
-function
 (
 )
 {
@@ -2303,8 +2297,6 @@ prefix
 *
 /
 _wipeFromDir
-:
-function
 (
 path
 prefix

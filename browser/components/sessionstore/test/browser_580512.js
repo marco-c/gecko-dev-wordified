@@ -540,8 +540,6 @@ addTabsProgressListener
 (
 {
 onStateChange
-:
-function
 (
 aBrowser
 aWebProgress

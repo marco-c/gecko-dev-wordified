@@ -520,8 +520,6 @@ TabsProgressListener
 =
 {
 init
-:
-function
 (
 win
 )
@@ -553,8 +551,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -588,8 +584,6 @@ callback
 ;
 }
 setCallback
-:
-function
 (
 callback
 )
@@ -602,8 +596,6 @@ callback
 ;
 }
 observe
-:
-function
 (
 browser
 )
@@ -617,8 +609,6 @@ browser
 ;
 }
 onRestored
-:
-function
 (
 browser
 )
@@ -662,8 +652,6 @@ countTabs
 ;
 }
 countTabs
-:
-function
 (
 )
 {

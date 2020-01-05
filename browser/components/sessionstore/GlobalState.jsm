@@ -200,8 +200,6 @@ state
 *
 /
 getState
-:
-function
 (
 )
 {
@@ -225,8 +223,6 @@ state
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -283,8 +279,6 @@ set
 *
 /
 get
-:
-function
 (
 aKey
 )
@@ -327,8 +321,6 @@ under
 *
 /
 set
-:
-function
 (
 aKey
 aStringValue
@@ -369,8 +361,6 @@ for
 *
 /
 delete
-:
-function
 (
 aKey
 )
@@ -439,8 +429,6 @@ set
 *
 /
 setFromState
-:
-function
 (
 aState
 )

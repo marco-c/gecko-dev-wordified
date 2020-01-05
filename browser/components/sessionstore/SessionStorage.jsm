@@ -297,8 +297,6 @@ my_number
 *
 /
 collect
-:
-function
 (
 docShell
 frameTree
@@ -400,8 +398,6 @@ my_number
 *
 /
 restore
-:
-function
 (
 aDocShell
 aStorageData
@@ -516,8 +512,6 @@ my_number
 *
 /
 collect
-:
-function
 (
 docShell
 frameTree
@@ -809,8 +803,6 @@ my_number
 *
 /
 restore
-:
-function
 (
 aDocShell
 aStorageData
@@ -1093,8 +1085,6 @@ sessionStorage
 *
 /
 _readEntry
-:
-function
 (
 aPrincipal
 aDocShell

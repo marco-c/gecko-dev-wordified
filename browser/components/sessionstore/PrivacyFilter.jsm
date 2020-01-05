@@ -224,8 +224,6 @@ object
 *
 /
 filterSessionStorageData
-:
-function
 (
 data
 )
@@ -343,8 +341,6 @@ object
 *
 /
 filterFormData
-:
-function
 (
 data
 )
@@ -612,8 +608,6 @@ modified
 *
 /
 filterPrivateWindowsAndTabs
-:
-function
 (
 browserState
 )
@@ -817,8 +811,6 @@ modified
 *
 /
 filterPrivateTabs
-:
-function
 (
 winState
 )

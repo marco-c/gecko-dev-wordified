@@ -95,8 +95,6 @@ freeze
 (
 {
 collect
-:
-function
 (
 docShell
 )
@@ -111,8 +109,6 @@ docShell
 ;
 }
 restore
-:
-function
 (
 docShell
 disallow
@@ -208,8 +204,6 @@ caps
 :
 null
 allCapabilities
-:
-function
 (
 docShell
 )
@@ -274,8 +268,6 @@ caps
 ;
 }
 collect
-:
-function
 (
 docShell
 )
@@ -311,8 +303,6 @@ cap
 ;
 }
 restore
-:
-function
 (
 docShell
 disallow

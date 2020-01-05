@@ -412,8 +412,6 @@ _totalNumberOfWindows
 :
 0
 init
-:
-function
 (
 )
 {
@@ -544,8 +542,6 @@ ongoing
 measure
 .
 _onRestorationStarts
-:
-function
 (
 isAutoRestore
 )
@@ -884,8 +880,6 @@ ex
 ;
 }
 _startTimer
-:
-function
 (
 )
 {
@@ -1005,8 +999,6 @@ COLLECT_RESULTS_AFTER_MS
 ;
 }
 observe
-:
-function
 (
 subject
 topic

@@ -372,9 +372,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 gContentRestore
-'
+"
 (
 )
 =
@@ -592,8 +592,6 @@ EventListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -608,8 +606,6 @@ true
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -832,8 +828,6 @@ becomeActiveProcess
 "
 ]
 init
-:
-function
 (
 )
 {
@@ -855,8 +849,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 {
 name
@@ -1668,8 +1660,6 @@ SessionHistoryListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -1947,8 +1937,6 @@ this
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -1981,8 +1969,6 @@ this
 }
 }
 collect
-:
-function
 (
 )
 {
@@ -2198,8 +2184,6 @@ selected
 index
 )
 collectFrom
-:
-function
 (
 idx
 )
@@ -2373,8 +2357,6 @@ collect
 ;
 }
 onFrameTreeCollected
-:
-function
 (
 )
 {
@@ -2386,8 +2368,6 @@ collect
 ;
 }
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -2399,8 +2379,6 @@ collect
 ;
 }
 OnHistoryNewEntry
-:
-function
 (
 newURI
 oldIndex
@@ -2415,8 +2393,6 @@ oldIndex
 ;
 }
 OnHistoryGoBack
-:
-function
 (
 backURI
 )
@@ -2433,8 +2409,6 @@ true
 ;
 }
 OnHistoryGoForward
-:
-function
 (
 forwardURI
 )
@@ -2451,8 +2425,6 @@ true
 ;
 }
 OnHistoryGotoIndex
-:
-function
 (
 index
 gotoURI
@@ -2470,8 +2442,6 @@ true
 ;
 }
 OnHistoryPurge
-:
-function
 (
 numEntries
 )
@@ -2487,8 +2457,6 @@ true
 ;
 }
 OnHistoryReload
-:
-function
 (
 reloadURI
 reloadFlags
@@ -2505,8 +2473,6 @@ true
 ;
 }
 OnHistoryReplaceEntry
-:
-function
 (
 index
 )
@@ -2659,8 +2625,6 @@ ScrollPositionListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -2681,8 +2645,6 @@ this
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -2757,8 +2719,6 @@ collect
 }
 }
 onFrameTreeCollected
-:
-function
 (
 )
 {
@@ -2782,8 +2742,6 @@ collect
 ;
 }
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -2803,8 +2761,6 @@ null
 ;
 }
 collect
-:
-function
 (
 )
 {
@@ -2962,8 +2918,6 @@ FormDataListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -2994,8 +2948,6 @@ this
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -3070,8 +3022,6 @@ collect
 }
 }
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -3091,8 +3041,6 @@ null
 ;
 }
 collect
-:
-function
 (
 )
 {
@@ -3205,8 +3153,6 @@ PageStyleListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -3259,8 +3205,6 @@ this
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -3304,8 +3248,6 @@ changed
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -3352,8 +3294,6 @@ collect
 }
 }
 collect
-:
-function
 (
 )
 {
@@ -3368,8 +3308,6 @@ gFrameTree
 ;
 }
 onFrameTreeCollected
-:
-function
 (
 )
 {
@@ -3393,8 +3331,6 @@ collect
 ;
 }
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -3545,8 +3481,6 @@ _latestCapabilities
 "
 "
 init
-:
-function
 (
 )
 {
@@ -3579,8 +3513,6 @@ page
 *
 /
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -3770,8 +3702,6 @@ SessionStorageListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -3812,8 +3742,6 @@ this
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -3837,8 +3765,6 @@ data
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -3865,8 +3791,6 @@ event
 }
 }
 observe
-:
-function
 (
 )
 {
@@ -4067,8 +3991,6 @@ this
 object
 .
 estimateStorageSize
-:
-function
 (
 collected
 )
@@ -4235,8 +4157,6 @@ _changes
 :
 undefined
 resetChanges
-:
-function
 (
 )
 {
@@ -4248,8 +4168,6 @@ undefined
 ;
 }
 collectFromEvent
-:
-function
 (
 event
 )
@@ -4420,8 +4338,6 @@ tmp
 }
 }
 collect
-:
-function
 (
 )
 {
@@ -4600,8 +4516,6 @@ collected
 }
 }
 onFrameTreeCollected
-:
-function
 (
 )
 {
@@ -4613,8 +4527,6 @@ collect
 ;
 }
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -4710,8 +4622,6 @@ PrivacyListener
 =
 {
 init
-:
-function
 (
 )
 {
@@ -4780,8 +4690,6 @@ Ci
 .
 nsIPrivacyTransitionObserver
 privateModeChanged
-:
-function
 (
 enabled
 )
@@ -5334,8 +5242,6 @@ process
 *
 /
 push
-:
-function
 (
 key
 fn
@@ -5455,8 +5361,6 @@ unload
 *
 /
 send
-:
-function
 (
 options
 =

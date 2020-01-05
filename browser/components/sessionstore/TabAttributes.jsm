@@ -262,8 +262,6 @@ freeze
 (
 {
 persist
-:
-function
 (
 name
 )
@@ -278,8 +276,6 @@ name
 ;
 }
 get
-:
-function
 (
 tab
 )
@@ -294,8 +290,6 @@ tab
 ;
 }
 set
-:
-function
 (
 tab
 data
@@ -327,8 +321,6 @@ Set
 (
 )
 persist
-:
-function
 (
 name
 )
@@ -371,8 +363,6 @@ true
 ;
 }
 get
-:
-function
 (
 tab
 )
@@ -422,8 +412,6 @@ data
 ;
 }
 set
-:
-function
 (
 tab
 data

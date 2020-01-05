@@ -155,8 +155,6 @@ addObserver
 (
 {
 onFrameTreeReset
-:
-function
 (
 )
 {
@@ -173,8 +171,6 @@ onFrameTreeReset
 ;
 }
 onFrameTreeCollected
-:
-function
 (
 )
 {
@@ -198,8 +194,6 @@ historyListener
 =
 {
 OnHistoryNewEntry
-:
-function
 (
 )
 {
@@ -216,8 +210,6 @@ OnHistoryNewEntry
 ;
 }
 OnHistoryGoBack
-:
-function
 (
 )
 {
@@ -237,8 +229,6 @@ true
 ;
 }
 OnHistoryGoForward
-:
-function
 (
 )
 {
@@ -258,8 +248,6 @@ true
 ;
 }
 OnHistoryGotoIndex
-:
-function
 (
 )
 {
@@ -279,8 +267,6 @@ true
 ;
 }
 OnHistoryPurge
-:
-function
 (
 )
 {
@@ -300,8 +286,6 @@ true
 ;
 }
 OnHistoryReload
-:
-function
 (
 )
 {
@@ -321,8 +305,6 @@ true
 ;
 }
 OnHistoryReplaceEntry
-:
-function
 (
 )
 {
@@ -1050,10 +1032,6 @@ getScrollPosition
 "
 {
 x
-:
-x
-y
-:
 y
 }
 )
@@ -1594,8 +1572,6 @@ test
 loadEvent
 "
 {
-subframe
-:
 subframe
 url
 :

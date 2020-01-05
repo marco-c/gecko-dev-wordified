@@ -102,8 +102,6 @@ freeze
 (
 {
 collect
-:
-function
 (
 docShell
 frameTree
@@ -120,8 +118,6 @@ frameTree
 ;
 }
 restoreTree
-:
-function
 (
 docShell
 data
@@ -181,8 +177,6 @@ frames
 *
 /
 collect
-:
-function
 (
 docShell
 frameTree
@@ -460,8 +454,6 @@ children
 *
 /
 restoreTree
-:
-function
 (
 docShell
 data

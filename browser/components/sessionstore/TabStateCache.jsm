@@ -222,8 +222,6 @@ browser
 *
 /
 get
-:
-function
 (
 browserOrTab
 )
@@ -310,8 +308,6 @@ browser
 *
 /
 update
-:
-function
 (
 browserOrTab
 newData
@@ -408,8 +404,6 @@ browser
 *
 /
 get
-:
-function
 (
 browserOrTab
 )
@@ -501,8 +495,6 @@ domain
 *
 /
 updatePartialStorageChange
-:
-function
 (
 data
 change
@@ -737,8 +729,6 @@ metadata
 *
 /
 updatePartialHistoryChange
-:
-function
 (
 data
 change
@@ -988,8 +978,6 @@ browser
 *
 /
 update
-:
-function
 (
 browserOrTab
 newData

@@ -610,8 +610,6 @@ disk
 *
 /
 run
-:
-function
 (
 )
 {
@@ -668,8 +666,6 @@ earlier
 *
 /
 runDelayed
-:
-function
 (
 )
 {
@@ -718,8 +714,6 @@ next
 *
 /
 updateLastSaveTime
-:
-function
 (
 )
 {
@@ -743,8 +737,6 @@ saves
 *
 /
 cancel
-:
-function
 (
 )
 {
@@ -862,8 +854,6 @@ disk
 *
 /
 run
-:
-function
 (
 )
 {
@@ -956,8 +946,6 @@ session
 *
 /
 runDelayed
-:
-function
 (
 delay
 =
@@ -1082,8 +1070,6 @@ next
 *
 /
 updateLastSaveTime
-:
-function
 (
 )
 {
@@ -1111,8 +1097,6 @@ saves
 *
 /
 cancel
-:
-function
 (
 )
 {
@@ -1176,8 +1160,6 @@ caches
 *
 /
 _saveState
-:
-function
 (
 forceUpdateAllWindows
 =
@@ -1698,8 +1680,6 @@ afterwards
 *
 /
 _saveStateAsync
-:
-function
 (
 )
 {
@@ -1745,8 +1725,6 @@ disk
 *
 /
 _writeState
-:
-function
 (
 state
 )

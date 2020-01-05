@@ -335,8 +335,6 @@ id
 :
 {
 sessionData
-:
-sessionData
 }
 url
 :
