@@ -3079,7 +3079,7 @@ fn
 build_display_list
 (
 self
-builder
+_builder
 :
 &
 DisplayListBuilder
