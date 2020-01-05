@@ -578,6 +578,13 @@ sChildProcessType
 /
 namespace
 startup
+const
+char
+*
+PlatformBuildID
+(
+)
+;
 }
 /
 /
