@@ -741,10 +741,12 @@ General
 /
 html
 body
-.
-root
 #
 mount
+.
+launchpad
+-
+root
 .
 network
 -
@@ -754,6 +756,10 @@ monitor
 -
 panel
 {
+flex
+:
+initial
+;
 display
 :
 flex
