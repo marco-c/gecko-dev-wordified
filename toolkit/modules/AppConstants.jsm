@@ -676,6 +676,17 @@ else
 false
 #
 endif
+MOZ_ADDON_SIGNING
+:
+#
+ifdef
+MOZ_ADDON_SIGNING
+true
+#
+else
+false
+#
+endif
 MOZ_REQUIRE_SIGNING
 :
 #

@@ -1,9 +1,6 @@
-const
-{
-ADDON_SIGNING
-}
-=
-AM_Cu
+Components
+.
+utils
 .
 import
 (
@@ -18,14 +15,11 @@ modules
 /
 addons
 /
-AddonConstants
+AddonSettings
 .
 jsm
 "
-{
-}
 )
-;
 function
 run_test
 (
@@ -214,6 +208,8 @@ enabled
 .
 ok
 (
+AddonSettings
+.
 ADDON_SIGNING
 "
 Add
@@ -374,6 +370,8 @@ enabled
 .
 ok
 (
+AddonSettings
+.
 ADDON_SIGNING
 "
 Add

@@ -37,11 +37,6 @@ of
 the
 details
 view
-const
-{
-REQUIRE_SIGNING
-}
-=
 Components
 .
 utils
@@ -57,14 +52,10 @@ gre
 /
 modules
 /
-addons
-/
-AddonConstants
+AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -9698,7 +9689,9 @@ off
 if
 (
 !
-REQUIRE_SIGNING
+AppConstants
+.
+MOZ_REQUIRE_SIGNING
 )
 {
 /
@@ -10506,6 +10499,8 @@ off
 if
 (
 !
+AppConstants
+.
 REQUIRE_SIGNING
 )
 {
