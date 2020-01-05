@@ -3433,7 +3433,6 @@ false
 ;
 const
 auto
-&
 fullRows
 =
 mImage
@@ -4484,7 +4483,6 @@ false
 ;
 const
 auto
-&
 fullRows
 =
 mSurf
@@ -4564,7 +4562,6 @@ mContext
 /
 const
 auto
-&
 rowLength
 =
 mSurf
@@ -4578,7 +4575,6 @@ width
 ;
 const
 auto
-&
 rowCount
 =
 mSurf
