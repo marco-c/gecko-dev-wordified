@@ -1837,7 +1837,7 @@ char
 fn
 GlyphStore
 (
-text
+_text
 :
 ~
 str
