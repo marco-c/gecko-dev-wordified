@@ -449,6 +449,8 @@ aPrincipal
 nsILoadGroup
 *
 aLoadGroup
+bool
+aIsTrackingFetch
 )
 ;
 nsresult
@@ -567,6 +569,9 @@ mSRIMetadata
 ;
 nsCString
 mWorkerScript
+;
+bool
+mIsTrackingFetch
 ;
 #
 ifdef
