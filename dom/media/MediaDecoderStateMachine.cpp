@@ -1626,7 +1626,7 @@ aAudio
 {
 }
 virtual
-bool
+void
 HandleVideoDecoded
 (
 MediaData
@@ -1636,9 +1636,6 @@ TimeStamp
 aDecodeStart
 )
 {
-return
-false
-;
 }
 virtual
 bool
@@ -3183,7 +3180,7 @@ MaybeFinishDecodeFirstFrame
 )
 ;
 }
-bool
+void
 HandleVideoDecoded
 (
 MediaData
@@ -3209,9 +3206,6 @@ VIDEO_DATA
 MaybeFinishDecodeFirstFrame
 (
 )
-;
-return
-true
 ;
 }
 bool
@@ -3661,7 +3655,7 @@ MaybeStopPrerolling
 )
 ;
 }
-bool
+void
 HandleVideoDecoded
 (
 MediaData
@@ -3692,9 +3686,6 @@ CheckSlowDecoding
 (
 aDecodeStart
 )
-;
-return
-true
 ;
 }
 RefPtr
@@ -5329,7 +5320,7 @@ false
 )
 ;
 }
-bool
+void
 HandleVideoDecoded
 (
 MediaData
@@ -5344,9 +5335,6 @@ MOZ_ASSERT
 (
 false
 )
-;
-return
-true
 ;
 }
 RefPtr
@@ -5931,7 +5919,7 @@ ScheduleStateMachine
 )
 ;
 }
-bool
+void
 HandleVideoDecoded
 (
 MediaData
@@ -5983,9 +5971,6 @@ mMaster
 ScheduleStateMachine
 (
 )
-;
-return
-true
 ;
 }
 bool
