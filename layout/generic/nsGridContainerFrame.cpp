@@ -38709,8 +38709,8 @@ avoidBreakInside
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
@@ -39003,8 +39003,8 @@ numRows
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
@@ -39254,8 +39254,8 @@ avoidBreakInside
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;

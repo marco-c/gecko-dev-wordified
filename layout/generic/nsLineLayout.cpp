@@ -10467,8 +10467,8 @@ n
 #
 endif
 aStatus
-=
-NS_INLINE_LINE_BREAK_BEFORE
+.
+SetInlineLineBreakBeforeAndReset
 (
 )
 ;
