@@ -123,6 +123,13 @@ WebRenderTypes
 .
 h
 "
+#
+include
+"
+nsClassHashtable
+.
+h
+"
 namespace
 mozilla
 {
