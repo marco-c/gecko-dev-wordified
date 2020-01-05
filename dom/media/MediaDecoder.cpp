@@ -816,6 +816,13 @@ MediaTimer
 "
 )
 ;
+constexpr
+TimeUnit
+MediaDecoder
+:
+:
+DEFAULT_NEXT_FRAME_AVAILABLE_BUFFERED
+;
 void
 MediaDecoder
 :
@@ -9017,13 +9024,7 @@ interval
 currentPosition
 currentPosition
 +
-TimeUnit
-:
-:
-FromMicroseconds
-(
 DEFAULT_NEXT_FRAME_AVAILABLE_BUFFERED
-)
 )
 ;
 return
