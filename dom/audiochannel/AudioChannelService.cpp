@@ -5654,8 +5654,6 @@ RefreshAgentsAudioFocusChanged
 AudioChannelAgent
 *
 aAgent
-bool
-aActive
 )
 {
 MOZ_ASSERT
@@ -5711,7 +5709,6 @@ winData
 AudioFocusChanged
 (
 aAgent
-aActive
 )
 ;
 }
@@ -6068,8 +6065,6 @@ NotifyAudioCompetingChanged
 AudioChannelAgent
 *
 aAgent
-bool
-aActive
 )
 {
 /
@@ -6189,16 +6184,11 @@ agent
 =
 %
 p
-active
-=
-%
-d
 \
 n
 "
 this
 aAgent
-aActive
 )
 )
 ;
@@ -6208,7 +6198,6 @@ service
 RefreshAgentsAudioFocusChanged
 (
 aAgent
-aActive
 )
 ;
 }
@@ -6333,8 +6322,6 @@ AudioFocusChanged
 AudioChannelAgent
 *
 aNewPlayingAgent
-bool
-aActive
 )
 {
 /
@@ -6520,7 +6507,6 @@ aNewPlayingAgent
 AudioChannelType
 (
 )
-aActive
 )
 ;
 /
@@ -6702,8 +6688,6 @@ AudioChannelAgent
 aAgent
 int32_t
 aIncomingChannelType
-bool
-aIncomingChannelActive
 )
 const
 {
@@ -6786,9 +6770,6 @@ AudioChannel
 :
 Normal
 )
-&
-&
-aIncomingChannelActive
 )
 {
 competingBehavior
@@ -6955,7 +6936,6 @@ eAudible
 NotifyAudioCompetingChanged
 (
 aAgent
-true
 )
 ;
 }
@@ -7404,9 +7384,8 @@ aReason
 )
 ;
 }
-NotifyAudioCompetingChanged
+if
 (
-aAgent
 aAudible
 =
 =
@@ -7415,7 +7394,14 @@ AudibleState
 :
 eAudible
 )
+{
+NotifyAudioCompetingChanged
+(
+aAgent
+)
 ;
+}
+else
 if
 (
 aAudible
