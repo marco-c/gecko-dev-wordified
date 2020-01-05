@@ -704,12 +704,12 @@ ConstantSourceNodeEngine
 :
 :
 OFFSET
-1
-.
-0
 "
 offset
 "
+1
+.
+0f
 )
 )
 mStartCalled
