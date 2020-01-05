@@ -9359,6 +9359,12 @@ nsHttpResponseHead
 )
 secInfoSerialization
 channelId
+mChannel
+-
+>
+GetPeerAddr
+(
+)
 )
 ;
 }

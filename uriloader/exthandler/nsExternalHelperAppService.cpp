@@ -370,6 +370,13 @@ nsIMutableArray
 .
 h
 "
+#
+include
+"
+nsIRedirectHistoryEntry
+.
+h
+"
 /
 /
 used
@@ -14088,9 +14095,9 @@ Length
 ;
 for
 (
-nsIPrincipal
+nsIRedirectHistoryEntry
 *
-principal
+entry
 :
 loadInfo
 -
@@ -14105,7 +14112,7 @@ redirectChain
 >
 AppendElement
 (
-principal
+entry
 false
 )
 ;
