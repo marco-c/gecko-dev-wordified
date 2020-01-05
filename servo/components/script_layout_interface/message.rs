@@ -745,6 +745,12 @@ MarginStyleQuery
 (
 TrustedNodeAddress
 )
+TextIndexQuery
+(
+TrustedNodeAddress
+i32
+i32
+)
 }
 /
 /
