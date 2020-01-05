@@ -1629,6 +1629,15 @@ mozilla
 :
 supports_avx2
 }
+{
+"
+hasAES
+"
+mozilla
+:
+:
+supports_aes
+}
 /
 /
 ARM
