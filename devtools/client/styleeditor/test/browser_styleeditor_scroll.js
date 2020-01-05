@@ -373,6 +373,7 @@ longEditor
 ui
 )
 ;
+yield
 ui
 .
 selectStyleSheet
