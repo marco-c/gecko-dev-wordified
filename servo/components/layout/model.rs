@@ -131,7 +131,10 @@ style
 logical_geometry
 :
 :
+{
 LogicalMargin
+WritingMode
+}
 ;
 use
 style
@@ -3242,6 +3245,9 @@ ServoComputedValues
 containing_block_inline_size
 :
 Au
+writing_mode
+:
+WritingMode
 )
 -
 >
@@ -3264,8 +3270,6 @@ LogicalMargin
 :
 from_physical
 (
-style
-.
 writing_mode
 SideOffsets2D
 :
@@ -3357,6 +3361,9 @@ style
 :
 &
 ServoComputedValues
+writing_mode
+:
+WritingMode
 )
 -
 >
@@ -3379,8 +3386,6 @@ LogicalMargin
 :
 from_physical
 (
-style
-.
 writing_mode
 SideOffsets2D
 :
