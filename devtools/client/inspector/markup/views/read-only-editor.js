@@ -221,6 +221,9 @@ add
 "
 comment
 "
+"
+doctype
+"
 )
 ;
 this
