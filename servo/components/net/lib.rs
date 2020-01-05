@@ -160,6 +160,10 @@ ipc_channel
 ;
 extern
 crate
+msg
+;
+extern
+crate
 net_traits
 ;
 extern

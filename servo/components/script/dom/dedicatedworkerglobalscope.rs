@@ -1729,6 +1729,7 @@ init
 .
 resource_task
 worker_url
+None
 )
 {
 Err
