@@ -730,6 +730,7 @@ only
 enabled
 on
 Windows
+x86
 .
 if
 (
@@ -741,6 +742,14 @@ os
 "
 win
 "
+&
+&
+mozinfo
+.
+bits
+=
+=
+32
 )
 {
 /
