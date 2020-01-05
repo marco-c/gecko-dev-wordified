@@ -635,7 +635,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
