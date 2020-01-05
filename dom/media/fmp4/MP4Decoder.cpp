@@ -1911,9 +1911,6 @@ aParent
 >
 AbstractMainThreadFor
 (
-dom
-:
-:
 TaskCategory
 :
 :

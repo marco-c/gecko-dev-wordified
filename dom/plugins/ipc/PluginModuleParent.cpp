@@ -14415,9 +14415,6 @@ doc
 >
 EventTargetFor
 (
-dom
-:
-:
 TaskCategory
 :
 :

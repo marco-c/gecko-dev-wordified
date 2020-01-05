@@ -6139,9 +6139,6 @@ globalWindow
 >
 AbstractMainThreadFor
 (
-dom
-:
-:
 TaskCategory
 :
 :

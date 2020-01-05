@@ -1502,9 +1502,6 @@ Dispatch
 "
 nsHtml5ExecutorReflusher
 "
-dom
-:
-:
 TaskCategory
 :
 :

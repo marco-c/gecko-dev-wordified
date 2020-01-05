@@ -11780,9 +11780,6 @@ aName
 mozilla
 :
 :
-dom
-:
-:
 TaskCategory
 aCategory
 already_AddRefed
@@ -11803,9 +11800,6 @@ EventTargetFor
 mozilla
 :
 :
-dom
-:
-:
 TaskCategory
 aCategory
 )
@@ -11821,9 +11815,6 @@ AbstractThread
 AbstractMainThreadFor
 (
 mozilla
-:
-:
-dom
 :
 :
 TaskCategory

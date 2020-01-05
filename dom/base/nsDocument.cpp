@@ -17076,9 +17076,6 @@ AbstractMainThreadFor
 mozilla
 :
 :
-dom
-:
-:
 TaskCategory
 aCategory
 )

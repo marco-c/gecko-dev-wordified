@@ -3560,9 +3560,6 @@ EventTargetFor
 mozilla
 :
 :
-dom
-:
-:
 TaskCategory
 aCategory
 )
