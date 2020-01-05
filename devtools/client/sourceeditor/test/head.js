@@ -69,6 +69,20 @@ head
 js
 *
 /
+/
+*
+exported
+promiseWaitForFocus
+setup
+ch
+teardown
+loadHelperScript
+limit
+ch
+read
+codemirrorSetStatus
+*
+/
 "
 use
 strict
@@ -871,7 +885,7 @@ limit
 source
 [
 line
-ch
+char
 ]
 )
 {
@@ -922,7 +936,7 @@ list
 slice
 (
 0
-ch
+char
 )
 ;
 }
@@ -950,7 +964,7 @@ line
 slice
 (
 0
-ch
+char
 )
 ]
 .

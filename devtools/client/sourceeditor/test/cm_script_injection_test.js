@@ -27,6 +27,12 @@ zero
 /
 *
 /
+/
+*
+global
+editor
+*
+/
 "
 use
 strict
