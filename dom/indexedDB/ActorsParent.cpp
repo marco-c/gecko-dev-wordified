@@ -90464,6 +90464,8 @@ localizedValue
 ;
 bool
 unique
+=
+false
 ;
 MOZ_ALWAYS_TRUE
 (
