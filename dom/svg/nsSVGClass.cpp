@@ -372,9 +372,8 @@ SetBaseValue
 aSVGElement
 -
 >
-SetFlags
+SetMayHaveClass
 (
-NODE_MAY_HAVE_CLASS
 )
 ;
 if
@@ -538,9 +537,8 @@ aValue
 aSVGElement
 -
 >
-SetFlags
+SetMayHaveClass
 (
-NODE_MAY_HAVE_CLASS
 )
 ;
 aSVGElement
