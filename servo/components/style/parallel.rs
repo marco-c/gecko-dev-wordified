@@ -838,6 +838,13 @@ unwrap
 )
 )
 ;
+if
+aggregate
+.
+is_large_traversal
+(
+)
+{
 println
 !
 (
@@ -848,6 +855,7 @@ println
 aggregate
 )
 ;
+}
 }
 }
 /
