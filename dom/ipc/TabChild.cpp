@@ -14590,6 +14590,10 @@ IdentifyTextureHost
 mTextureFactoryIdentifier
 )
 ;
+InitAPZState
+(
+)
+;
 }
 if
 (
