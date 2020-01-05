@@ -2365,7 +2365,10 @@ mDemuxerInitDone
 void
 OnDemuxerInitDone
 (
-nsresult
+const
+MediaResult
+&
+aResult
 )
 ;
 void
