@@ -162,7 +162,10 @@ dom
 element
 :
 :
+{
 Element
+AttributeHandlers
+}
 ;
 use
 dom
@@ -6980,10 +6983,6 @@ unwrap
 ;
 elem
 .
-get
-(
-)
-.
 get_attribute
 (
 Null
@@ -8011,11 +8010,8 @@ self
 load_url_from_element
 (
 page
+&
 element
-.
-get
-(
-)
 )
 }
 }
@@ -8520,7 +8516,10 @@ Page
 element
 :
 &
+JS
+<
 Element
+>
 )
 {
 /
