@@ -7025,7 +7025,7 @@ funLength_
 )
 ;
 }
-size_t
+uint32_t
 sourceStart
 (
 )
@@ -7035,7 +7035,7 @@ return
 sourceStart_
 ;
 }
-size_t
+uint32_t
 sourceEnd
 (
 )

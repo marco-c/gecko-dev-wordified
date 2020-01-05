@@ -2041,6 +2041,14 @@ script
 treatAsRunOnce
 (
 )
+&
+&
+script
+-
+>
+hasRunOnce
+(
+)
 )
 {
 /
