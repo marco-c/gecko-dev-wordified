@@ -18241,6 +18241,16 @@ mOuter
 )
 &
 &
+!
+nsLayoutUtils
+:
+:
+ShouldDisableApzForElement
+(
+content
+)
+&
+&
 gfxPrefs
 :
 :
