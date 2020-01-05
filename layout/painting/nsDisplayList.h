@@ -24928,6 +24928,16 @@ nsDisplayStickyPosition
 ;
 #
 endif
+void
+SetClipChain
+(
+const
+DisplayItemClipChain
+*
+aClipChain
+)
+override
+;
 virtual
 already_AddRefed
 <
