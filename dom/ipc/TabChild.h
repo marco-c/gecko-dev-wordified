@@ -1805,7 +1805,6 @@ aSizeMode
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1816,9 +1815,7 @@ IPCResult
 RecvActivate
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1829,7 +1826,6 @@ IPCResult
 RecvDeactivate
 (
 )
-override
 ;
 virtual
 mozilla
@@ -3707,7 +3703,6 @@ aEnabled
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -3722,7 +3717,6 @@ bool
 &
 aActivated
 )
-override
 ;
 virtual
 mozilla
