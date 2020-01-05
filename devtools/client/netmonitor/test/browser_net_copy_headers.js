@@ -148,8 +148,6 @@ statusText
 }
 =
 requestItem
-.
-attachment
 ;
 const
 EXPECTED_REQUEST_HEADERS

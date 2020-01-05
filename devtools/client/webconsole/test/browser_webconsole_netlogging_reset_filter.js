@@ -367,8 +367,6 @@ is
 (
 selected
 .
-attachment
-.
 method
 htmlRequest
 .
@@ -387,8 +385,6 @@ selected
 is
 (
 selected
-.
-attachment
 .
 url
 htmlRequest
@@ -484,8 +480,6 @@ is
 (
 selected
 .
-attachment
-.
 method
 htmlRequest
 .
@@ -504,8 +498,6 @@ selected
 is
 (
 selected
-.
-attachment
 .
 url
 htmlRequest

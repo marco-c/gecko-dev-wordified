@@ -1339,11 +1339,7 @@ items
 .
 push
 (
-{
-attachment
-:
 file
-}
 )
 ;
 }
