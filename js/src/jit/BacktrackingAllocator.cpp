@@ -10560,9 +10560,17 @@ again
 .
 if
 (
+(
 attempt
 <
 MAX_ATTEMPTS
+|
+|
+minimalBundle
+(
+bundle
+)
+)
 &
 &
 !
