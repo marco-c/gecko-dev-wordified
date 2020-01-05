@@ -149,8 +149,9 @@ js
 "
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_processIncoming_abort
 (
@@ -254,7 +255,7 @@ handler
 }
 )
 ;
-new
+await
 SyncTestingInfrastructure
 (
 server
@@ -488,11 +489,10 @@ err
 undefined
 )
 ;
-server
-.
-stop
+await
+promiseStopServer
 (
-run_next_test
+server
 )
 ;
 Svc

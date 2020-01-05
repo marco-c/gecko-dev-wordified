@@ -2029,6 +2029,14 @@ ok
 record
 .
 failureReason
+JSON
+.
+stringify
+(
+record
+.
+failureReason
+)
 )
 ;
 equal
