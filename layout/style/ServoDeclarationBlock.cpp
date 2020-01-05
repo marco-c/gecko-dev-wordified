@@ -142,6 +142,8 @@ aCssText
 URLExtraData
 *
 aExtraData
+nsCompatibility
+aMode
 )
 {
 NS_ConvertUTF16toUTF8
@@ -181,6 +183,7 @@ Servo_ParseStyleAttribute
 &
 value
 aExtraData
+aMode
 )
 .
 Consume

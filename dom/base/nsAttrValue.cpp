@@ -8588,6 +8588,12 @@ FromCssText
 (
 aString
 data
+ownerDoc
+-
+>
+GetCompatibilityMode
+(
+)
 )
 ;
 }

@@ -726,6 +726,9 @@ aCssText
 servoEnv
 .
 mUrlExtraData
+servoEnv
+.
+mCompatMode
 )
 ;
 }
