@@ -2151,9 +2151,8 @@ IsWaiting
 )
 |
 |
-mWaitingPromise
-.
-IsEmpty
+!
+HasWaitingPromise
 (
 )
 )
