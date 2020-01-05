@@ -170,6 +170,19 @@ select_ctx
 )
 ;
 }
+/
+/
+Only
+elements
+have
+styles
+if
+self
+.
+is_element
+(
+)
+{
 let
 select_handler
 =
@@ -201,5 +214,6 @@ move
 style
 )
 ;
+}
 }
 }
