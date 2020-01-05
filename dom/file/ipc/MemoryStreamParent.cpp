@@ -200,7 +200,6 @@ mSize
 (
 mCurSize
 +
-=
 dataLength
 )
 )
