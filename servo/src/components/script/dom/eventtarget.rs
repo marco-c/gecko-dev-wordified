@@ -109,6 +109,12 @@ codegen
 :
 :
 EventListenerBinding
+;
+use
+self
+:
+:
+EventListenerBinding
 :
 :
 EventListener

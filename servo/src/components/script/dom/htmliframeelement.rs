@@ -199,10 +199,10 @@ use
 dom
 :
 :
-windowproxy
+window
 :
 :
-WindowProxy
+Window
 ;
 use
 servo_util
@@ -846,7 +846,7 @@ Option
 <
 JS
 <
-WindowProxy
+Window
 >
 >
 {

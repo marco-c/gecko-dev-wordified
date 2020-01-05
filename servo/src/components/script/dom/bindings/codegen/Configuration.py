@@ -1208,6 +1208,22 @@ register
 True
 )
         
+self
+.
+outerObjectHook
+=
+desc
+.
+get
+(
+'
+outerObjectHook
+'
+'
+None
+'
+)
+        
 #
 If
 we
