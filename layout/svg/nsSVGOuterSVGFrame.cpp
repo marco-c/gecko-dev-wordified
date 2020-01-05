@@ -2776,14 +2776,10 @@ width
 ;
 }
 return
-nsLayoutUtils
-:
-:
 ComputeSizeWithIntrinsicDimensions
 (
-aWM
 aRenderingContext
-this
+aWM
 intrinsicSize
 GetIntrinsicRatio
 (

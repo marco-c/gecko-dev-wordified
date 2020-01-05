@@ -11619,7 +11619,7 @@ isAutoHeight
 /
 /
 in
-nsLayoutUtils
+nsFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
@@ -31430,7 +31430,7 @@ use
 in
 /
 /
-nsLayoutUtils
+nsFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
