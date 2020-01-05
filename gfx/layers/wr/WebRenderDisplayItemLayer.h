@@ -249,13 +249,7 @@ virtual
 WebRenderDisplayItemLayer
 (
 )
-{
-MOZ_COUNT_DTOR
-(
-WebRenderDisplayItemLayer
-)
 ;
-}
 public
 :
 Layer
