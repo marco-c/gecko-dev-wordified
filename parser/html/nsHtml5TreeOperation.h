@@ -406,7 +406,7 @@ str
 )
 ;
 return
-NS_Atomize
+NS_AtomizeMainThread
 (
 str
 )
