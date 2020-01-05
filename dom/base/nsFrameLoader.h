@@ -303,6 +303,11 @@ TabParent
 class
 MutableTabContext
 ;
+}
+/
+/
+namespace
+dom
 namespace
 ipc
 {
@@ -314,11 +319,6 @@ StructuredCloneData
 /
 namespace
 ipc
-}
-/
-/
-namespace
-dom
 namespace
 layout
 {
