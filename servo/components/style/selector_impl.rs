@@ -571,6 +571,9 @@ Clone
 Debug
 +
 Sized
++
+'
+static
 {
 type
 ComputedValues
