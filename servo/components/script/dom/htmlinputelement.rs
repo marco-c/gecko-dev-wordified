@@ -8355,7 +8355,7 @@ input
 EventBubbles
 :
 :
-DoesNotBubble
+Bubbles
 EventCancelable
 :
 :
