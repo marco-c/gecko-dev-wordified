@@ -1145,6 +1145,8 @@ bar
 [
 fleem
 ]
+subsuite
+=
 [
 include
 /
@@ -1156,6 +1158,8 @@ ocean
 red
 =
 roses
+subsuite
+=
 yellow
 =
 submarine
@@ -1489,6 +1493,9 @@ n
 [
 test_3
 ]
+\
+nsubsuite
+=
 '
 )
     
@@ -1733,6 +1740,9 @@ n
 [
 test_3
 ]
+\
+nsubsuite
+=
 '
 )
     

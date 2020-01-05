@@ -457,6 +457,8 @@ s
 /
 bar
 ]
+subsuite
+=
 [
 %
 (
@@ -466,6 +468,8 @@ s
 /
 fleem
 ]
+subsuite
+=
 [
 %
 (
@@ -475,6 +479,8 @@ s
 /
 foo
 ]
+subsuite
+=
 [
 %
 (
@@ -486,6 +492,8 @@ subdir
 /
 subfile
 ]
+subsuite
+=
 "
 "
 "
