@@ -1483,6 +1483,16 @@ data
 triggeringPrincipal
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+no
+-
+undef
 gBrowser
 .
 loadOneTab
