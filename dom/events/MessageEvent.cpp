@@ -599,7 +599,6 @@ Constructor
 t
 aType
 aParam
-aRv
 )
 ;
 }
@@ -628,9 +627,6 @@ const
 MessageEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
