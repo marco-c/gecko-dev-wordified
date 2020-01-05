@@ -2528,8 +2528,6 @@ layout
 reftests
 /
 reftest
--
-stylo
 .
 list
 "
