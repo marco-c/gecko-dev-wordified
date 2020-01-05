@@ -116,7 +116,6 @@ uint
 {
 div_ceil
 next_power_of_two
-range
 }
 ;
 use

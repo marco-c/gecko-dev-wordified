@@ -208,12 +208,6 @@ ascii
 :
 StrAsciiExt
 ;
-use
-std
-:
-:
-FromStr
-;
 pub
 struct
 Element

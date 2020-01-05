@@ -75,12 +75,6 @@ cell
 Cell
 ;
 use
-std
-:
-:
-FromStr
-;
-use
 newcss
 :
 :
