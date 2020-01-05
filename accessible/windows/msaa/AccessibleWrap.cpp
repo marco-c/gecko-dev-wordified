@@ -3827,6 +3827,7 @@ IEnumVARIANT
 {
 public
 :
+explicit
 AccessibleEnumerator
 (
 const

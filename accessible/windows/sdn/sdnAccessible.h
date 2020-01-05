@@ -162,6 +162,7 @@ ISimpleDOMNode
 {
 public
 :
+explicit
 sdnAccessible
 (
 nsINode

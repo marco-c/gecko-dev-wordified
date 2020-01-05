@@ -159,6 +159,7 @@ ISimpleDOMText
 {
 public
 :
+explicit
 sdnTextAccessible
 (
 AccessibleWrap

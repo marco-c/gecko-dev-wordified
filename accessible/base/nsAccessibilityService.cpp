@@ -3188,6 +3188,7 @@ PluginTimerCallBack
 }
 public
 :
+explicit
 PluginTimerCallBack
 (
 nsIContent
