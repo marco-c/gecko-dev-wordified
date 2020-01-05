@@ -271,7 +271,7 @@ after_map
 PerPseudoElementSelectorMap
 rules_source_order
 :
-uint
+usize
 }
 impl
 Stylist
@@ -336,7 +336,7 @@ new
 )
 rules_source_order
 :
-0u
+0
 }
 ;
 /

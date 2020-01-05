@@ -1012,7 +1012,7 @@ from_px
 (
 length
 as
-int
+isize
 )
 )
 ;
@@ -1289,7 +1289,7 @@ from_px
 (
 value
 as
-int
+isize
 )
 )
 }
@@ -1875,7 +1875,7 @@ from_px
 (
 length
 as
-int
+isize
 )
 )
 ;

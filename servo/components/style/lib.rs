@@ -77,14 +77,6 @@ plugin
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 box_syntax
 )
 ]

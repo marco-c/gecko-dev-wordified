@@ -11859,7 +11859,6 @@ f
 {
 weight
 }
-i
 )
 %
 endfor
@@ -12475,7 +12474,7 @@ Au
 const
 MEDIUM_PX
 :
-int
+isize
 =
 16
 ;
@@ -30932,7 +30931,7 @@ get
 self
 bit
 :
-uint
+usize
 )
 -
 >
@@ -30975,7 +30974,7 @@ mut
 self
 bit
 :
-uint
+usize
 )
 {
 self
