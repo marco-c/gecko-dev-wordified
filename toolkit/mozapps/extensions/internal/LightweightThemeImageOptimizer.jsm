@@ -366,8 +366,6 @@ io
 newURI
 (
 aImageURL
-null
-null
 )
 ;
 let

@@ -5407,8 +5407,6 @@ newURI
 data
 .
 baseURL
-null
-null
 )
 ;
 /
@@ -5457,8 +5455,6 @@ newURI
 data
 .
 resourceURL
-null
-null
 )
 ;
 if

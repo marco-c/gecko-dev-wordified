@@ -1567,8 +1567,6 @@ newURI
 rp
 .
 origin
-null
-null
 )
 ;
 for

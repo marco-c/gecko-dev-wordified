@@ -1638,8 +1638,6 @@ io
 newURI
 (
 aLoginOrigin
-null
-null
 )
 ;
 let
@@ -1652,8 +1650,6 @@ io
 newURI
 (
 aSearchOrigin
-null
-null
 )
 ;
 if
@@ -1797,8 +1793,6 @@ newURI
 aLogin1
 .
 hostname
-null
-null
 )
 ;
 let
@@ -1813,8 +1807,6 @@ newURI
 aLogin2
 .
 hostname
-null
-null
 )
 ;
 if
@@ -1860,8 +1852,6 @@ newURI
 aLogin1
 .
 formSubmitURL
-null
-null
 )
 .
 hostPort
@@ -1876,8 +1866,6 @@ newURI
 aLogin2
 .
 formSubmitURL
-null
-null
 )
 .
 hostPort
@@ -3128,8 +3116,6 @@ io
 newURI
 (
 preferredOrigin
-null
-null
 )
 .
 scheme
@@ -3404,8 +3390,6 @@ newURI
 existingLogin
 .
 hostname
-null
-null
 )
 ;
 let
@@ -3420,8 +3404,6 @@ newURI
 login
 .
 hostname
-null
-null
 )
 ;
 /

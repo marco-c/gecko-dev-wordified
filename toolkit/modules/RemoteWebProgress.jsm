@@ -163,8 +163,6 @@ nsIIOService
 newURI
 (
 spec
-null
-null
 )
 ;
 }

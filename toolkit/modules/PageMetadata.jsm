@@ -1815,8 +1815,6 @@ newURI
 document
 .
 documentURI
-null
-null
 )
 ;
 let
@@ -1834,8 +1832,6 @@ resolve
 (
 url
 )
-null
-null
 )
 ;
 if

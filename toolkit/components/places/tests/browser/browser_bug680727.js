@@ -103,8 +103,6 @@ test
 #
 bug_680727
 "
-null
-null
 )
 ;
 var

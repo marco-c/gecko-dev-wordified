@@ -1120,8 +1120,6 @@ newURI
 this
 .
 _url
-null
-null
 )
 ;
 this

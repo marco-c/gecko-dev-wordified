@@ -1228,8 +1228,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 url
@@ -1327,8 +1325,6 @@ io
 newURI
 (
 originalUrl
-null
-null
 )
 ;
 uriObj
@@ -1464,8 +1460,6 @@ doc
 location
 .
 href
-null
-null
 )
 ;
 if
@@ -1698,8 +1692,6 @@ newURI
 doc
 .
 documentURI
-null
-null
 )
 ;
 let
@@ -1714,8 +1706,6 @@ newURI
 doc
 .
 baseURI
-null
-null
 )
 ;
 if
@@ -1848,8 +1838,6 @@ newURI
 doc
 .
 baseURI
-null
-null
 )
 ;
 if
@@ -2136,8 +2124,6 @@ io
 newURI
 (
 url
-null
-null
 )
 ;
 let
@@ -2349,8 +2335,6 @@ io
 newURI
 (
 responseURL
-null
-null
 )
 .
 specIgnoringRef
@@ -2388,8 +2372,6 @@ io
 newURI
 (
 givenURL
-null
-null
 )
 .
 specIgnoringRef

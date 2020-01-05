@@ -216,8 +216,6 @@ hellow
 /
 world
 "
-null
-null
 )
 id
 :

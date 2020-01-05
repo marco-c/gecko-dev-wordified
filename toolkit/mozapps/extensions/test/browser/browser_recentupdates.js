@@ -127,8 +127,6 @@ releaseNotes
 .
 xhtml
 "
-null
-null
 )
 }
 {

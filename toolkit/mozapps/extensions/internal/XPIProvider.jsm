@@ -17658,8 +17658,6 @@ resolveURI
 (
 aURI
 )
-null
-null
 )
 ;
 return
@@ -17688,8 +17686,6 @@ newURI
 aURI
 .
 path
-null
-null
 )
 ;
 return

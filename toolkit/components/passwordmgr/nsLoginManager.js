@@ -3044,8 +3044,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 return
@@ -3115,8 +3113,6 @@ io
 newURI
 (
 origin
-null
-null
 )
 ;
 if

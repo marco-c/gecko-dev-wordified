@@ -242,8 +242,6 @@ about
 "
 +
 aboutType
-null
-null
 )
 ;
 var

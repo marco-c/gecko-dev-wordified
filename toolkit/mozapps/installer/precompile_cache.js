@@ -700,8 +700,6 @@ io
 newURI
 (
 spec
-null
-null
 )
 ;
 return
@@ -717,8 +715,6 @@ resolveURI
 (
 uri
 )
-null
-null
 )
 ;
 }

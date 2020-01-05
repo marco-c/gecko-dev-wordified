@@ -164,8 +164,6 @@ chrome
 aURI
 .
 path
-null
-null
 )
 ;
 let

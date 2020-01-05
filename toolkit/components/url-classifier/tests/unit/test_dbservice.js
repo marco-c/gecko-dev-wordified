@@ -837,8 +837,6 @@ test
 b
 >
 "
-null
-null
 )
 {
 }
@@ -1468,8 +1466,6 @@ http
 "
 +
 key
-null
-null
 )
 {
 }
@@ -1517,8 +1513,6 @@ http
 "
 +
 key
-null
-null
 )
 {
 }
@@ -1566,8 +1560,6 @@ http
 "
 +
 key
-null
-null
 )
 {
 }
@@ -1615,8 +1607,6 @@ http
 "
 +
 key
-null
-null
 )
 {
 }
@@ -1664,8 +1654,6 @@ http
 "
 +
 key
-null
-null
 )
 {
 }

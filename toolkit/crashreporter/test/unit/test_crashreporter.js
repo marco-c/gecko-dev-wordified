@@ -212,8 +212,6 @@ testspecs
 [
 i
 ]
-null
-null
 )
 ;
 do_check_eq
@@ -263,8 +261,6 @@ com
 /
 submit
 "
-null
-null
 )
 ;
 do_throw

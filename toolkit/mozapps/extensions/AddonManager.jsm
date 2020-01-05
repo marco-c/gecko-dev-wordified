@@ -18595,8 +18595,6 @@ newURI
 options
 .
 url
-null
-null
 )
 .
 host
