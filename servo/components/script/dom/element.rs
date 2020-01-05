@@ -5630,6 +5630,7 @@ trigger
 subsequent
 mutation
 events
+pub
 fn
 sync_property_with_attrs_style
 (
