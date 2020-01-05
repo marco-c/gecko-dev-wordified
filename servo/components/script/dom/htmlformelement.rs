@@ -1228,7 +1228,7 @@ self
 .
 submit
 (
-true
+FromFormSubmitMethod
 FormElement
 (
 self
@@ -1236,6 +1236,13 @@ self
 )
 ;
 }
+}
+pub
+enum
+SubmittedFrom
+{
+FromFormSubmitMethod
+NotFromFormSubmitMethod
 }
 pub
 trait
@@ -1270,9 +1277,9 @@ fn
 submit
 (
 self
-from_submit_method
+submit_method_flag
 :
-bool
+SubmittedFrom
 submitter
 :
 FormSubmitter
@@ -1344,9 +1351,9 @@ fn
 submit
 (
 self
-_from_submit_method
+_submit_method_flag
 :
-bool
+SubmittedFrom
 submitter
 :
 FormSubmitter
