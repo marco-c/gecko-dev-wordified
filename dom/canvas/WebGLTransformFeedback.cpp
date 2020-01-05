@@ -125,13 +125,6 @@ WebGL2Context
 .
 h
 "
-#
-include
-"
-WebGLProgram
-.
-h
-"
 namespace
 mozilla
 {
