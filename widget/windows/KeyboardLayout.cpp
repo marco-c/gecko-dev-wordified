@@ -331,6 +331,7 @@ static
 const
 char
 *
+const
 kVirtualKeyName
 [
 ]
