@@ -12944,7 +12944,7 @@ XRE_IsParentProcess
 )
 )
 ;
-VsyncRefreshDriverTimer
+auto
 *
 vsyncRefreshDriverTimer
 =

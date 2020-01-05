@@ -1885,7 +1885,7 @@ from
 )
 )
 ;
-RuleHashTableEntry
+auto
 *
 newEntry
 =
@@ -2125,7 +2125,7 @@ from
 )
 )
 ;
-RuleHashTagTableEntry
+auto
 *
 newEntry
 =
@@ -4854,7 +4854,7 @@ from
 )
 )
 ;
-AtomSelectorEntry
+auto
 *
 newEntry
 =
@@ -22441,7 +22441,7 @@ to
 write
 to
 .
-PerWeightDataListItem
+auto
 *
 newItem
 =
