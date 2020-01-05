@@ -2153,7 +2153,7 @@ a11y
 "
 mochitest
 -
-stylo
+style
 "
 :
 [
@@ -2165,11 +2165,11 @@ disable
 e10s
 "
 "
--
--
-tag
-=
-stylo
+layout
+/
+style
+/
+test
 "
 ]
     
