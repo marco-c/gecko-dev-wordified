@@ -56501,9 +56501,10 @@ overflow
 NS_ASSERTION
 (
 status
-=
-=
-NS_FRAME_COMPLETE
+.
+IsEmpty
+(
+)
 "
 reflow
 roots
