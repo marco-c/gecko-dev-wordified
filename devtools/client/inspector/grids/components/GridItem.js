@@ -881,11 +881,6 @@ onInspectIconClick
 setSelectedNode
 (
 nodeFront
-"
-layout
--
-panel
-"
 )
 }
 )
