@@ -131,6 +131,9 @@ nsIFrame
 h
 "
 class
+nsComboboxControlFrame
+;
+class
 nsIAtom
 ;
 class
@@ -940,7 +943,7 @@ nsStyleContext
 aContext
 )
 ;
-nsContainerFrame
+nsComboboxControlFrame
 *
 NS_NewComboboxControlFrame
 (
