@@ -122,17 +122,3 @@ test
 mod
 textinput
 ;
-#
-[
-cfg
-(
-test
-)
-]
-mod
-dom
-{
-mod
-blob
-;
-}

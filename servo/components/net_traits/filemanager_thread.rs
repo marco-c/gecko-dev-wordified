@@ -904,7 +904,6 @@ uuid
 TransferMemory
 (
 BlobURLStoreEntry
-RelativePos
 IpcSender
 <
 Result

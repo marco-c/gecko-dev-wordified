@@ -177,7 +177,6 @@ blob
 {
 Blob
 BlobImpl
-DataSlice
 blob_parts_to_bytes
 }
 ;
@@ -597,17 +596,6 @@ get_typestring
 )
 ;
 let
-slice
-=
-DataSlice
-:
-:
-from_bytes
-(
-bytes
-)
-;
-let
 modified
 =
 filePropertyBag
@@ -625,9 +613,9 @@ global
 BlobImpl
 :
 :
-new_from_slice
+new_from_bytes
 (
-slice
+bytes
 )
 filename
 modified
