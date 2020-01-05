@@ -876,16 +876,10 @@ safer
 if
 (
 !
-BasePrincipal
-:
-:
-Cast
-(
 targetPrin
-)
 -
 >
-EqualsIgnoringAddonId
+Equals
 (
 mProvidedPrincipal
 )
