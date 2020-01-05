@@ -275,6 +275,8 @@ chrome
 /
 /
 devtools
+-
+shared
 /
 locale
 /
