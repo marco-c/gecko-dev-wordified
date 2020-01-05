@@ -370,6 +370,16 @@ provided
 for
 convenience
 .
+extern
+void
+NS_SetCurrentThreadName
+(
+const
+char
+*
+aName
+)
+;
 /
 *
 *

@@ -2245,7 +2245,7 @@ see
 bug
 1323100
 .
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Cache2

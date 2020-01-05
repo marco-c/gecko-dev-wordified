@@ -10279,7 +10279,7 @@ Resolver
 "
 )
 ;
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 name
 .
