@@ -372,6 +372,7 @@ KeyReaction
 {
 TriggerDefaultAction
 DispatchInput
+RedrawSelection
 Nothing
 }
 impl
@@ -2914,7 +2915,7 @@ select_all
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3101,7 +3102,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3124,7 +3125,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3145,7 +3146,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3165,7 +3166,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3201,7 +3202,7 @@ index
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3225,7 +3226,7 @@ current_line_length
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3246,7 +3247,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :
@@ -3266,7 +3267,7 @@ maybe_select
 KeyReaction
 :
 :
-Nothing
+RedrawSelection
 }
 Key
 :

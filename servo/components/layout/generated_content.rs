@@ -3832,9 +3832,10 @@ UnscannedText
 UnscannedTextFragmentInfo
 :
 :
-from_text
+new
 (
 string
+None
 )
 )
 ;
