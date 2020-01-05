@@ -169,9 +169,6 @@ use
 newcss
 :
 :
-values
-:
-:
 Stylesheet
 ;
 use
