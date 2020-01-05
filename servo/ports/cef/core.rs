@@ -412,9 +412,9 @@ true
 trace_layout
 :
 false
-devtools_server
+devtools_port
 :
-false
+None
 initial_window_size
 :
 TypedSize2D
