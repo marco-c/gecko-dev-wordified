@@ -3074,7 +3074,6 @@ DoReadData
 count
 )
 ;
-}
 if
 (
 NS_SUCCEEDED
@@ -3089,6 +3088,7 @@ DoAsyncWait
 (
 )
 ;
+}
 }
 if
 (
