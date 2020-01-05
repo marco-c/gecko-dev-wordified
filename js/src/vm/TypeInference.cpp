@@ -6882,7 +6882,7 @@ on
 /
 /
 the
-main
+active
 thread
 so
 to
@@ -6959,7 +6959,7 @@ the
 result
 on
 the
-main
+active
 thread
 the
 /
@@ -7030,8 +7030,6 @@ may
 be
 allocated
 off
-the
-main
 thread
 using
 the
@@ -7091,7 +7089,7 @@ as
 the
 /
 /
-main
+active
 thread
 performs
 side
@@ -8516,7 +8514,7 @@ are
 /
 on
 the
-main
+active
 thread
 and
 able
@@ -10059,7 +10057,7 @@ analysis
 happens
 on
 the
-main
+active
 thread
 so
 no
@@ -19845,11 +19843,8 @@ else
 {
 /
 /
-Threads
-off
-the
-main
-thread
+Helper
+threads
 are
 not
 allowed
@@ -28759,7 +28754,7 @@ are
 still
 on
 the
-main
+active
 thread
 .
 ObjectGroup
@@ -30488,7 +30483,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

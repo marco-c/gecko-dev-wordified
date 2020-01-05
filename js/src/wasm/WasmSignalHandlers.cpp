@@ -10743,7 +10743,7 @@ interrupt
 handler
 allows
 the
-main
+active
 thread
 to
 be
@@ -10772,7 +10772,7 @@ SuspendThread
 to
 stop
 the
-main
+active
 thread
 from
 another
@@ -11472,7 +11472,7 @@ interrupt
 .
 if
 the
-main
+active
 thread
 '
 s
@@ -11660,7 +11660,7 @@ the
 runtime
 '
 s
-main
+active
 thread
 so
 to
@@ -11679,7 +11679,7 @@ the
 runtime
 '
 s
-main
+active
 thread
 first
 .
@@ -11698,7 +11698,7 @@ can
 simply
 suspend
 the
-main
+active
 thread
 and
 work
@@ -11834,7 +11834,7 @@ async
 signal
 to
 the
-main
+active
 thread
 which
 /

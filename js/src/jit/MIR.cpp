@@ -5538,7 +5538,7 @@ actually
 be
 on
 the
-main
+active
 thread
 check
 the
@@ -5572,7 +5572,7 @@ must
 be
 on
 the
-main
+active
 thread
 during
 MIR

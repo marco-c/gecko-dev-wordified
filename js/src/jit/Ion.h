@@ -480,7 +480,7 @@ when
 executing
 on
 the
-main
+active
 thread
 .
 Not

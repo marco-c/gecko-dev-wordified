@@ -1966,12 +1966,11 @@ thread
 even
 if
 the
-main
+active
 /
 /
 thread
 is
-actively
 mutating
 the
 VM
@@ -11771,8 +11770,6 @@ result
 /
 /
 Off
--
-main
 -
 thread
 callers

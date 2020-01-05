@@ -2702,8 +2702,8 @@ swept
 incrementally
 on
 the
-main
-thrad
+active
+thread
 .
 *
 /
@@ -3703,7 +3703,7 @@ if
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -3743,7 +3743,7 @@ MOZ_ASSERT_IF
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 keepArenas
@@ -12397,7 +12397,7 @@ only
 called
 from
 the
-main
+active
 thread
 while
 we
@@ -13200,7 +13200,7 @@ FreeOp
 *
 fop
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -14756,7 +14756,7 @@ i
 fgTask
 -
 >
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -18218,7 +18218,7 @@ being
 called
 off
 the
-main
+active
 thread
 from
 *
@@ -19158,7 +19158,7 @@ list
 directly
 as
 the
-main
+active
 /
 /
 thread
@@ -19282,7 +19282,7 @@ return
 ;
 decommitTask
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -19725,7 +19725,7 @@ to
 avoid
 blocking
 the
-main
+active
 thread
 from
 allocating
@@ -20522,7 +20522,7 @@ lock
 /
 /
 The
-main
+active
 thread
 may
 call
@@ -21019,7 +21019,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -23089,7 +23089,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -23717,8 +23717,6 @@ mutator
 *
 Off
 -
-main
--
 thread
 parsing
 is
@@ -23743,7 +23741,7 @@ atoms
 on
 the
 *
-main
+active
 thread
 .
 *
@@ -28196,7 +28194,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -31390,7 +31388,7 @@ phase
 ;
 task
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -31452,7 +31450,7 @@ SystemAllocPolicy
 ;
 static
 void
-SweepWeakCachesFromMainThread
+SweepWeakCachesFromActiveCooperatingThread
 (
 JSRuntime
 *
@@ -31512,7 +31510,7 @@ cache
 ;
 task
 .
-runFromMainThread
+runFromActiveCooperatingThread
 (
 rt
 )
@@ -31591,7 +31589,7 @@ cache
 )
 )
 {
-SweepWeakCachesFromMainThread
+SweepWeakCachesFromActiveCooperatingThread
 (
 rt
 )
@@ -32191,7 +32189,7 @@ in
 parallel
 on
 the
-main
+active
 /
 /
 thread
@@ -32648,8 +32646,6 @@ fop
 Rejoin
 our
 off
--
-main
 -
 thread
 tasks
@@ -39355,7 +39351,7 @@ threads
 other
 than
 the
-main
+active
 thread
 have
 suppressGC
@@ -39544,8 +39540,6 @@ don
 t
 allow
 off
--
-main
 -
 thread
 parsing
@@ -43100,7 +43094,7 @@ cx
 source
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -49065,7 +49059,7 @@ rt
 tc
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

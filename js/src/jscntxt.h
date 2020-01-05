@@ -3035,7 +3035,7 @@ be
 the
 /
 /
-main
+active
 thread
 or
 a
@@ -3043,7 +3043,7 @@ helper
 thread
 while
 the
-main
+active
 thread
 is
 running
@@ -3079,7 +3079,7 @@ could
 /
 be
 the
-main
+active
 thread
 or
 a
@@ -3087,7 +3087,7 @@ helper
 thread
 while
 the
-main
+active
 thread
 is
 running
@@ -3508,7 +3508,7 @@ AutoKeepAtoms
 instances
 on
 the
-main
+current
 thread
 '
 s
@@ -3532,9 +3532,10 @@ collected
 Threads
 /
 /
+parsing
 off
 the
-main
+active
 thread
 do
 not
@@ -5202,9 +5203,7 @@ requestInterrupt
 to
 request
 that
-the
-main
-JS
+this
 thread
 /
 /
@@ -5229,9 +5228,7 @@ execution
 .
 To
 stop
-the
-main
-JS
+this
 thread
 requestInterrupt
 /
@@ -5367,8 +5364,7 @@ visible
 to
 /
 /
-the
-main
+this
 thread
 it
 can
@@ -7304,7 +7300,7 @@ MOZ_ASSERT
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 )
 ;
 #
@@ -7313,7 +7309,7 @@ DEBUG
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 =
 true
 ;
@@ -7392,7 +7388,7 @@ MOZ_ASSERT
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 )
 ;
 #
@@ -7401,7 +7397,7 @@ DEBUG
 runtime
 -
 >
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 =
 false
 ;

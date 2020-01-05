@@ -364,7 +364,7 @@ we
 re
 on
 the
-main
+active
 thread
 .
 AutoLockForExclusiveAccess

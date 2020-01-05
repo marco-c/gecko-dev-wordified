@@ -2565,7 +2565,6 @@ tracing
 is
 done
 off
-main
 *
 thread
 during
@@ -22023,7 +22022,7 @@ rt
 t
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

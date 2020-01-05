@@ -1483,7 +1483,7 @@ T
 Enum
 describing
 which
-background
+helper
 threads
 (
 GC
@@ -1512,7 +1512,7 @@ group
 .
 enum
 class
-AllowedBackgroundThread
+AllowedHelperThread
 {
 None
 GCTask
@@ -1522,8 +1522,8 @@ GCTaskOrIonCompile
 ;
 template
 <
-AllowedBackgroundThread
-Background
+AllowedHelperThread
+Helper
 >
 class
 CheckActiveThread
@@ -1570,7 +1570,7 @@ ProtectedDataNoCheckArgs
 <
 CheckActiveThread
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None
@@ -1616,7 +1616,7 @@ ProtectedDataNoCheckArgs
 <
 CheckActiveThread
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 GCTask
@@ -1636,7 +1636,7 @@ ProtectedDataNoCheckArgs
 <
 CheckActiveThread
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 IonCompile
@@ -1646,8 +1646,8 @@ T
 ;
 template
 <
-AllowedBackgroundThread
-Background
+AllowedHelperThread
+Helper
 >
 class
 CheckZoneGroup
@@ -1731,7 +1731,7 @@ ProtectedDataZoneGroupArg
 <
 CheckZoneGroup
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None
@@ -1778,7 +1778,7 @@ ProtectedDataZoneGroupArg
 <
 CheckZoneGroup
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 GCTask
@@ -1798,7 +1798,7 @@ ProtectedDataZoneGroupArg
 <
 CheckZoneGroup
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 IonCompile
@@ -1818,7 +1818,7 @@ ProtectedDataZoneGroupArg
 <
 CheckZoneGroup
 <
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 GCTaskOrIonCompile
@@ -1850,8 +1850,8 @@ template
 <
 GlobalLock
 Lock
-AllowedBackgroundThread
-Background
+AllowedHelperThread
+Helper
 >
 class
 CheckGlobalLock
@@ -1901,7 +1901,7 @@ GlobalLock
 :
 :
 GCLock
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None
@@ -1940,7 +1940,7 @@ GlobalLock
 :
 :
 ExclusiveAccessLock
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None
@@ -2010,7 +2010,7 @@ GlobalLock
 :
 :
 ExclusiveAccessLock
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 GCTask
@@ -2049,7 +2049,7 @@ GlobalLock
 :
 :
 HelperThreadLock
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None
@@ -2450,7 +2450,7 @@ GlobalLock
 :
 :
 ExclusiveAccessLock
-AllowedBackgroundThread
+AllowedHelperThread
 :
 :
 None

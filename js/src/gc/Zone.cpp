@@ -727,7 +727,7 @@ isAtomsZone
 (
 )
 !
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -1802,7 +1802,8 @@ this
 happens
 on
 the
-mainthread
+active
+thread
 and
 all
 control
@@ -1813,10 +1814,11 @@ reads
 happen
 on
 the
-mainthread
+active
+thread
 this
 is
-save
+safe
 .
 *
 /
@@ -1943,7 +1945,7 @@ usedByExclusiveThread
 ?
 0
 :
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -

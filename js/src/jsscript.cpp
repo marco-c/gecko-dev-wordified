@@ -8691,7 +8691,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )
@@ -11882,7 +11882,7 @@ we
 are
 on
 the
-main
+active
 thread
 there
 must
@@ -11905,7 +11905,7 @@ be
 blocking
 on
 the
-main
+active
 /
 /
 thread

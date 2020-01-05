@@ -2138,7 +2138,7 @@ must
 be
 on
 the
-main
+active
 thread
 .
 The
@@ -8607,7 +8607,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -15203,12 +15203,12 @@ length
 (
 )
 >
-MAX_MAIN_THREAD_SCRIPT_SIZE
+MAX_ACTIVE_THREAD_SCRIPT_SIZE
 |
 |
 numLocalsAndArgs
 >
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 )
 {
 if
@@ -15883,7 +15883,7 @@ occur
 /
 on
 the
-main
+active
 thread
 in
 some
@@ -15903,7 +15903,7 @@ Ion
 compilation
 jobs
 and
-main
+active
 -
 thread
 /

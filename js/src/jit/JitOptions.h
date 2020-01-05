@@ -168,7 +168,7 @@ expensive
 and
 stall
 the
-main
+active
 thread
 for
 too
@@ -177,7 +177,7 @@ long
 static
 const
 uint32_t
-MAX_MAIN_THREAD_SCRIPT_SIZE
+MAX_ACTIVE_THREAD_SCRIPT_SIZE
 =
 2
 *
@@ -186,7 +186,7 @@ MAX_MAIN_THREAD_SCRIPT_SIZE
 static
 const
 uint32_t
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 =
 256
 ;

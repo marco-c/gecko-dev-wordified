@@ -1148,9 +1148,8 @@ it
 is
 recommended
 to
-disabled
+disable
 off
-main
 thread
 compilation
 .

@@ -6206,7 +6206,7 @@ only
 relevant
 to
 the
-main
+active
 thread
 .
 *
@@ -11464,8 +11464,6 @@ context
 is
 running
 off
-the
-main
 *
 thread
 as

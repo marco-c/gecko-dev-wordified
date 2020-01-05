@@ -2896,13 +2896,11 @@ used
 by
 off
 -
-main
--
 thread
 script
 compilation
 (
-OMT
+OT
 -
 SC
 )
@@ -2911,7 +2909,7 @@ SC
 /
 /
 /
-OMT
+OT
 -
 SC
 cannot
@@ -2941,7 +2939,7 @@ compartment
 /
 /
 After
-OMT
+OT
 -
 SC
 the
@@ -3468,7 +3466,6 @@ module
 is
 compiled
 off
-main
 thread
 .
 if

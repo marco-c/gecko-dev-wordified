@@ -514,8 +514,6 @@ that
 /
 off
 -
-main
--
 thread
 compilation
 can
@@ -669,7 +667,7 @@ false
 /
 Whether
 the
-main
+active
 thread
 is
 trying

@@ -163,10 +163,9 @@ off
 thread
 while
 the
-main
+active
 thread
 is
-actively
 mutating
 the
 VM

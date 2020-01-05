@@ -399,7 +399,7 @@ an
 OOM
 in
 the
-main
+active
 thread
 first
 .
@@ -414,7 +414,7 @@ THREAD_TYPE_NONE
 /
 /
 0
-THREAD_TYPE_MAIN
+THREAD_TYPE_COOPERATING
 /
 /
 1

@@ -21126,7 +21126,7 @@ after
 rejoining
 to
 the
-main
+active
 thread
 .
 if

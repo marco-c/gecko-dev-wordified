@@ -782,7 +782,7 @@ RuntimeExclusiveAccess
 #
 ifdef
 DEBUG
-mainThreadHasExclusiveAccess
+activeThreadHasExclusiveAccess
 (
 false
 )
@@ -1557,7 +1557,7 @@ synchronously
 (
 on
 the
-main
+active
 thread
 or
 during
@@ -4425,8 +4425,6 @@ can
 be
 used
 off
-the
-main
 thread
 .
 /
@@ -4590,7 +4588,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "
@@ -4631,7 +4629,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "
@@ -4705,7 +4703,7 @@ be
 mutated
 by
 the
-main
+active
 thread
 .
 "

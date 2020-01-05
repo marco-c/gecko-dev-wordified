@@ -7487,7 +7487,7 @@ only
 done
 on
 the
-main
+active
 thread
 .
 If
@@ -7530,7 +7530,7 @@ when
 rejoining
 to
 the
-main
+active
 thread
 .
 If

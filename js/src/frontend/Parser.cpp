@@ -19317,8 +19317,6 @@ If
 we
 are
 off
-the
-main
 thread
 the
 generator
@@ -48303,8 +48301,6 @@ If
 we
 are
 off
-the
-main
 thread
 the
 generator

@@ -719,7 +719,7 @@ return
 script
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -737,7 +737,7 @@ return
 comp
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;
@@ -1749,7 +1749,7 @@ builder
 comp
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -
@@ -2900,7 +2900,7 @@ been
 finished
 by
 the
-main
+active
 thread
 .
 GlobalHelperThreadState
@@ -3506,7 +3506,7 @@ while
 still
 on
 the
-main
+active
 /
 /
 thread
@@ -6883,7 +6883,7 @@ js
 GCParallelTask
 :
 :
-runFromMainThread
+runFromActiveCooperatingThread
 (
 JSRuntime
 *
@@ -8631,7 +8631,7 @@ the
 same
 as
 the
-main
+active
 thread
 '
 s
@@ -8846,7 +8846,7 @@ error
 /
 Notify
 the
-main
+active
 thread
 in
 case
@@ -9041,7 +9041,7 @@ handlePromiseTaskWorkload
 /
 Notify
 the
-main
+active
 thread
 in
 case
@@ -9462,7 +9462,7 @@ as
 the
 /
 /
-main
+active
 thread
 is
 actually
@@ -9577,7 +9577,7 @@ false
 /
 Notify
 the
-main
+active
 thread
 in
 case
@@ -10299,8 +10299,6 @@ we
 are
 still
 off
-the
-main
 thread
 .
 task
@@ -10377,7 +10375,7 @@ reset
 /
 Notify
 the
-main
+active
 thread
 in
 case
@@ -10521,7 +10519,7 @@ reset
 /
 Notify
 the
-main
+active
 thread
 in
 case

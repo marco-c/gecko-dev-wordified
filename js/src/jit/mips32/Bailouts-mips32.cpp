@@ -300,7 +300,7 @@ compartment
 )
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

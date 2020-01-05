@@ -159,7 +159,7 @@ be
 running
 on
 the
-main
+active
 thread
 .
 return

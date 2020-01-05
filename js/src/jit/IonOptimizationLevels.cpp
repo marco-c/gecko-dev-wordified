@@ -228,11 +228,11 @@ registerAllocator_
 =
 RegisterAllocator_Backtracking
 ;
-inlineMaxBytecodePerCallSiteMainThread_
+inlineMaxBytecodePerCallSiteActiveCooperatingThread_
 =
 550
 ;
-inlineMaxBytecodePerCallSiteOffThread_
+inlineMaxBytecodePerCallSiteHelperThread_
 =
 1100
 ;
@@ -510,7 +510,7 @@ to
 compile
 on
 the
-main
+active
 thread
 we
 can
@@ -559,7 +559,7 @@ length
 (
 )
 >
-MAX_MAIN_THREAD_SCRIPT_SIZE
+MAX_ACTIVE_THREAD_SCRIPT_SIZE
 )
 warmUpThreshold
 *
@@ -575,7 +575,7 @@ length
 (
 double
 )
-MAX_MAIN_THREAD_SCRIPT_SIZE
+MAX_ACTIVE_THREAD_SCRIPT_SIZE
 )
 ;
 uint32_t
@@ -590,7 +590,7 @@ if
 (
 numLocalsAndArgs
 >
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 )
 warmUpThreshold
 *
@@ -601,7 +601,7 @@ numLocalsAndArgs
 (
 double
 )
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 )
 ;
 if

@@ -223,7 +223,7 @@ MOZ_ASSERT
 fop
 -
 >
-onMainThread
+onActiveCooperatingThread
 (
 )
 )

@@ -4948,7 +4948,7 @@ started
 freeMallocedBuffersTask
 -
 >
-runFromMainThread
+runFromActiveCooperatingThread
 (
 zoneGroup
 (

@@ -1049,8 +1049,6 @@ the
 global
 from
 off
-the
-main
 thread
 .
 This

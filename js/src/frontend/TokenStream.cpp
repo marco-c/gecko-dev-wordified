@@ -3958,7 +3958,7 @@ false
 /
 On
 the
-main
+active
 thread
 report
 the
@@ -3977,10 +3977,14 @@ error
 so
 that
 the
-main
 thread
+finishing
+the
+parse
 can
 report
+/
+/
 it
 later
 .

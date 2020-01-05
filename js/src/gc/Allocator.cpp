@@ -367,8 +367,6 @@ isProxy
 /
 Off
 -
-main
--
 thread
 alloc
 cannot
@@ -2189,7 +2187,7 @@ helperThread
 )
 )
 return
-refillFreeListFromMainThread
+refillFreeListFromActiveCooperatingThread
 (
 cx
 thingKind
@@ -2197,7 +2195,7 @@ thingSize
 )
 ;
 return
-refillFreeListOffMainThread
+refillFreeListFromHelperThread
 (
 cx
 thingKind
@@ -2214,7 +2212,7 @@ TenuredCell
 GCRuntime
 :
 :
-refillFreeListFromMainThread
+refillFreeListFromActiveCooperatingThread
 (
 JSContext
 *
@@ -2236,7 +2234,7 @@ to
 allocate
 on
 the
-main
+active
 thread
 while
 we
@@ -2306,7 +2304,7 @@ TenuredCell
 GCRuntime
 :
 :
-refillFreeListOffMainThread
+refillFreeListFromHelperThread
 (
 JSContext
 *
@@ -2324,7 +2322,7 @@ be
 happening
 on
 the
-main
+active
 thread
 but
 zones
@@ -2445,7 +2443,7 @@ rt
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 ;

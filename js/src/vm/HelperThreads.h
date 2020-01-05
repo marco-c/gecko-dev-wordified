@@ -116,8 +116,6 @@ for
 managing
 off
 -
-main
--
 thread
 work
 using
@@ -1276,7 +1274,7 @@ mindful
 to
 signal
 the
-main
+active
 thread
 after
 calling
@@ -1404,7 +1402,7 @@ parent
 is
 logically
 the
-main
+active
 thread
 and
 this
@@ -3056,8 +3054,6 @@ exclusiveContextGlobal
 Callback
 invoked
 off
-the
-main
 thread
 when
 the

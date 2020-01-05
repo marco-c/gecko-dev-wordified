@@ -708,7 +708,7 @@ js
 oom
 :
 :
-THREAD_TYPE_MAIN
+THREAD_TYPE_COOPERATING
 )
 ;
 #

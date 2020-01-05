@@ -1812,7 +1812,7 @@ accessed
 asynchronously
 when
 the
-main
+active
 thread
 is
 paused
@@ -2807,7 +2807,7 @@ be
 called
 from
 the
-main
+active
 thread
 .
 void
@@ -3649,7 +3649,7 @@ AutoWritableJitCode
 code
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 code

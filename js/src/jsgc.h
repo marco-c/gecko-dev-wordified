@@ -1220,7 +1220,7 @@ the
 finalizer
 on
 the
-main
+active
 thread
 *
 AllocKind
@@ -5590,8 +5590,6 @@ swept
 and
 allocated
 off
-the
-main
 thread
 .
 *
@@ -5611,7 +5609,7 @@ performed
 *
 on
 the
-main
+active
 thread
 but
 GCHelperState
@@ -5653,7 +5651,7 @@ Condvar
 for
 notifying
 the
-main
+active
 thread
 when
 work
@@ -6317,11 +6315,11 @@ the
 task
 on
 the
-main
+current
 thread
 .
 void
-runFromMainThread
+runFromActiveCooperatingThread
 (
 JSRuntime
 *

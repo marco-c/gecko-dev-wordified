@@ -1605,7 +1605,7 @@ MOZ_ASSERT
 fop
 -
 >
-maybeOffMainThread
+maybeOnHelperThread
 (
 )
 )

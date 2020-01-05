@@ -6868,7 +6868,7 @@ UnboxedArrayObject
 obj
 -
 >
-runtimeFromMainThread
+runtimeFromActiveCooperatingThread
 (
 )
 -

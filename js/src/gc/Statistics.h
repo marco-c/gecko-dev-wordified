@@ -2532,7 +2532,8 @@ Bug
 we
 only
 record
-mainthread
+active
+thread
 time
 (
 including

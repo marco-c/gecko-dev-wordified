@@ -4382,8 +4382,6 @@ If
 we
 are
 off
-the
-main
 thread
 the
 generator

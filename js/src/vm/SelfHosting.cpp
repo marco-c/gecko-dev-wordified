@@ -21191,8 +21191,6 @@ cycle
 detection
 when
 off
-the
-main
 thread
 .
 mozilla
