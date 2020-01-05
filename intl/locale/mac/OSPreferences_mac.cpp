@@ -184,6 +184,13 @@ CFStringGetLength
 userLocaleStr
 )
 ;
+buffer
+.
+SetLength
+(
+size
+)
+;
 CFRange
 range
 =
