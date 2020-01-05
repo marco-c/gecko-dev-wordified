@@ -373,6 +373,8 @@ mAnnexB
 GMPVideoDecoderCallback
 *
 mCallback
+=
+nullptr
 ;
 std
 :
