@@ -4152,7 +4152,7 @@ PresShell
 )
 -
 >
-GetTouchEventTargetDocument
+GetPrimaryContentDocument
 (
 )
 )
