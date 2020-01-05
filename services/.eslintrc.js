@@ -58,15 +58,6 @@ removed
 *
 /
 "
-brace
--
-style
-"
-:
-"
-warn
-"
-"
 consistent
 -
 return
