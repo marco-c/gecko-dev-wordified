@@ -160,6 +160,10 @@ extern
 crate
 net
 ;
+extern
+crate
+profile
+;
 #
 [
 macro_use

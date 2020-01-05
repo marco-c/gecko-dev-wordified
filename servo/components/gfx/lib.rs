@@ -214,6 +214,10 @@ png
 ;
 extern
 crate
+profile
+;
+extern
+crate
 script_traits
 ;
 extern
