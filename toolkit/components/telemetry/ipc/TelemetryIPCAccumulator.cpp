@@ -760,7 +760,7 @@ kBatchTimeoutMs
 nsITimer
 :
 :
-TYPE_ONE_SHOT
+TYPE_ONE_SHOT_LOW_PRIORITY
 "
 TelemetryIPCAccumulator
 :
