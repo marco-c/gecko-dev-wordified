@@ -128,7 +128,7 @@ computed_style
 mut
 display
 :
-di_block
+di_inline
 }
 )
 }
