@@ -797,7 +797,7 @@ this
 .
 toolbox
 .
-_deprecatedServerSourceMapService
+sourceMapURLService
 :
 null
 highlightDomElement

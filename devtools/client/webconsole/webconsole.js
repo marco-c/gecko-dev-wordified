@@ -17089,7 +17089,7 @@ toolbox
 ?
 toolbox
 .
-_deprecatedServerSourceMapService
+sourceMapURLService
 :
 null
 }
