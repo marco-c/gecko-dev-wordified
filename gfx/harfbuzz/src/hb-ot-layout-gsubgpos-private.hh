@@ -5889,7 +5889,6 @@ c
 >
 buffer
 ;
-unsigned
 int
 end
 ;
@@ -6164,12 +6163,8 @@ Adjust
 *
 /
 end
-=
-int
-(
-end
-)
 +
+=
 delta
 ;
 if
@@ -6177,10 +6172,13 @@ if
 end
 <
 =
+int
+(
 match_positions
 [
 idx
 ]
+)
 )
 {
 /
