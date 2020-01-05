@@ -28604,7 +28604,7 @@ mutableKey
 ;
 Zone
 *
-wrapperZone
+wrappedZone
 =
 key
 .
@@ -28624,7 +28624,7 @@ zone
 if
 (
 !
-wrapperZone
+wrappedZone
 -
 >
 isGCMarking
@@ -28636,7 +28636,7 @@ continue
 if
 (
 !
-wrapperZone
+wrappedZone
 -
 >
 gcSweepGroupEdges
