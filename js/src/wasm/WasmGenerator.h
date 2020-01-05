@@ -803,12 +803,6 @@ numFuncDefs
 )
 const
 ;
-uint32_t
-numFuncs
-(
-)
-const
-;
 /
 /
 Function
