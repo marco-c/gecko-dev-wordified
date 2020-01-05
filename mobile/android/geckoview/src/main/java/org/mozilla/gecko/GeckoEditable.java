@@ -399,7 +399,6 @@ implements
 InvocationHandler
 Editable
 GeckoEditableClient
-GeckoEditableListener
 {
 private
 static
@@ -2733,11 +2732,7 @@ calledFrom
 gecko
 "
 )
-/
-*
-package
-*
-/
+private
 void
 onViewChange
 (
@@ -5202,10 +5197,6 @@ e
 )
 ;
 }
-/
-/
-GeckoEditableListener
-interface
 private
 void
 geckoActionReply
@@ -5563,8 +5554,7 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 notifyIME
 (
@@ -5611,6 +5601,8 @@ if
 type
 !
 =
+GeckoEditableListener
+.
 NOTIFY_IME_REPLY_EVENT
 )
 {
@@ -5647,6 +5639,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_REPLY_EVENT
 )
 {
@@ -5741,6 +5735,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_TO_COMMIT_COMPOSITION
 )
 {
@@ -5757,6 +5753,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_TO_CANCEL_COMPOSITION
 )
 {
@@ -5786,6 +5784,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_OF_FOCUS
 )
 {
@@ -5926,6 +5926,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_OF_BLUR
 )
 {
@@ -5940,6 +5942,8 @@ if
 type
 =
 =
+GeckoEditableListener
+.
 NOTIFY_IME_OF_FOCUS
 )
 {
@@ -5957,8 +5961,7 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 notifyIMEContext
 (
@@ -6101,13 +6104,14 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 onSelectionChange
 (
+final
 int
 start
+final
 int
 end
 )
@@ -6315,8 +6319,6 @@ mListener
 .
 onSelectionChange
 (
-newStart
-newEnd
 )
 ;
 }
@@ -6393,8 +6395,7 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 onTextChange
 (
@@ -7296,10 +7297,6 @@ mListener
 .
 onTextChange
 (
-text
-start
-oldEnd
-newEnd
 )
 ;
 }
@@ -7315,8 +7312,7 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 onDefaultKeyEvent
 (
@@ -7536,8 +7532,7 @@ calledFrom
 gecko
 "
 )
-Override
-public
+private
 void
 updateCompositionRects
 (
