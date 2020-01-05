@@ -156,9 +156,6 @@ class
 nsSVGLength2
 ;
 class
-nsSVGPathGeometryFrame
-;
-class
 nsSVGViewBox
 ;
 namespace
@@ -166,6 +163,9 @@ mozilla
 {
 class
 SVGAnimatedPreserveAspectRatio
+;
+class
+SVGGeometryFrame
 ;
 class
 nsSVGAnimatedTransformList
@@ -772,7 +772,7 @@ reference
 this
 one
 frame
-nsSVGPathGeometryFrame
+SVGGeometryFrame
 *
 mSource
 ;

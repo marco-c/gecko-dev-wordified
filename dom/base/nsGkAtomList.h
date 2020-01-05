@@ -15120,6 +15120,13 @@ SVGGenericContainerFrame
 )
 GK_ATOM
 (
+svgGeometryFrame
+"
+SVGGeometryFrame
+"
+)
+GK_ATOM
+(
 svgGFrame
 "
 SVGGFrame
@@ -15186,13 +15193,6 @@ GK_ATOM
 svgOuterSVGAnonChildFrame
 "
 SVGOuterSVGAnonChildFrame
-"
-)
-GK_ATOM
-(
-svgPathGeometryFrame
-"
-SVGPathGeometryFrame
 "
 )
 GK_ATOM
@@ -15650,6 +15650,9 @@ onactivestatechanged
 onactivestatechanged
 "
 )
+#
+ifdef
+MOZ_GAMEPAD
 GK_ATOM
 (
 ongamepadbuttondown
@@ -15685,6 +15688,8 @@ ongamepaddisconnected
 ongamepaddisconnected
 "
 )
+#
+endif
 /
 /
 Content
