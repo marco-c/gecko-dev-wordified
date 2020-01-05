@@ -3138,17 +3138,11 @@ debug
 create
 element
 {
-:
-?
 }
 "
 tag
 .
 name
-.
-clone
-(
-)
 )
 ;
 /
