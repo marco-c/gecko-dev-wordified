@@ -524,7 +524,7 @@ nsIOService
 nsIOService
 :
 :
-GetInstance
+GetAddRefed
 )
 #
 include

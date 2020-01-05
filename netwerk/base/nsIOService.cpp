@@ -2042,7 +2042,7 @@ nsIOService
 nsIOService
 :
 :
-GetInstance
+GetAddRefed
 (
 )
 {
