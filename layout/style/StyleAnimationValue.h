@@ -958,9 +958,13 @@ onto
 |
 aA
 |
+(
 |
 aCount
 |
+-
+1
+)
 times
 then
 accumulates
@@ -968,8 +972,8 @@ accumulates
 aB
 |
 onto
-the
 *
+the
 result
 .
 *
