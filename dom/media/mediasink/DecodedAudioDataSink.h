@@ -113,15 +113,11 @@ MPL
 *
 /
 #
-if
-!
-defined
-(
-DecodedAudioDataSink_h__
-)
+ifndef
+AudioSink_h__
 #
 define
-DecodedAudioDataSink_h__
+AudioSink_h__
 #
 include
 "
@@ -230,7 +226,7 @@ namespace
 media
 {
 class
-DecodedAudioDataSink
+AudioSink
 :
 private
 AudioStream
@@ -248,11 +244,11 @@ PlaybackParams
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-DecodedAudioDataSink
+AudioSink
 )
 public
 :
-DecodedAudioDataSink
+AudioSink
 (
 AbstractThread
 *
@@ -286,7 +282,7 @@ will
 be
 resolved
 when
-DecodedAudioDataSink
+AudioSink
 /
 /
 finishes
@@ -375,7 +371,7 @@ HasUnplayedFrames
 Shut
 down
 the
-DecodedAudioDataSink
+AudioSink
 '
 s
 resources
@@ -430,7 +426,7 @@ private
 :
 virtual
 ~
-DecodedAudioDataSink
+AudioSink
 (
 )
 ;
@@ -1091,3 +1087,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+AudioSink_h__

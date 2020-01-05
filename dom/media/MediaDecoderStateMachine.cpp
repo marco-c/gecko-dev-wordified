@@ -16443,12 +16443,12 @@ OnTaskQueue
 )
 )
 ;
-DecodedAudioDataSink
+AudioSink
 *
 audioSink
 =
 new
-DecodedAudioDataSink
+AudioSink
 (
 self
 -
