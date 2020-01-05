@@ -123,6 +123,13 @@ mozilla_CounterStyleManager_h_
 #
 include
 "
+nsIAtom
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h

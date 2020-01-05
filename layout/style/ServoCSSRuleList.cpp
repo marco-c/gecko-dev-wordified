@@ -1488,11 +1488,7 @@ nsIDOMCSSRule
 DOCUMENT_RULE
 )
 {
-css
-:
-:
-GroupRule
-*
+auto
 castedRule
 =
 static_cast
