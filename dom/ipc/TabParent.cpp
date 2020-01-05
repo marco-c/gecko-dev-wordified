@@ -5211,6 +5211,13 @@ DocAccessibleParent
 aDoc
 )
 ;
+doc
+-
+>
+AddToMap
+(
+)
+;
 /
 /
 If
