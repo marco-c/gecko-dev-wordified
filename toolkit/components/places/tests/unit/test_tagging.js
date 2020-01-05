@@ -741,12 +741,6 @@ ids
 and
 tags
 var
-tagFolders
-=
-[
-]
-;
-var
 child
 =
 tagRoot

@@ -3291,7 +3291,6 @@ test_insert_livemark
 {
 let
 {
-server
 site
 stopServer
 }
@@ -3562,7 +3561,6 @@ test_update_livemark
 {
 let
 {
-server
 site
 stopServer
 }
@@ -4774,9 +4772,6 @@ test_insert_tags
 (
 )
 {
-let
-newItems
-=
 yield
 Promise
 .
@@ -5389,9 +5384,6 @@ keyword
 )
 ;
 {
-let
-bookmark
-=
 yield
 PlacesSyncUtils
 .
@@ -5488,9 +5480,6 @@ keyword
 )
 ;
 {
-let
-bookmark
-=
 yield
 PlacesSyncUtils
 .
@@ -6431,9 +6420,6 @@ correctly
 )
 ;
 {
-let
-bookmark
-=
 yield
 PlacesUtils
 .
@@ -6757,9 +6743,6 @@ grandparent
 )
 ;
 {
-let
-grandParent
-=
 yield
 PlacesSyncUtils
 .
@@ -7970,7 +7953,6 @@ test_fetch_livemark
 {
 let
 {
-server
 site
 stopServer
 }

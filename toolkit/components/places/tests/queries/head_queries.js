@@ -1084,9 +1084,6 @@ lastModified
 )
 ;
 }
-let
-item
-=
 yield
 PlacesUtils
 .

@@ -560,9 +560,6 @@ will
 throw
 try
 {
-let
-id
-=
 bs
 .
 getFolderIdForItem
@@ -601,9 +598,6 @@ will
 throw
 try
 {
-let
-id
-=
 bs
 .
 getFolderIdForItem

@@ -8247,7 +8247,6 @@ for
 (
 let
 [
-keyword
 entry
 ]
 of

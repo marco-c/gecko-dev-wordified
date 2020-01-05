@@ -276,9 +276,6 @@ the
 bug
 exists
 .
-let
-bs
-=
 Cc
 [
 "

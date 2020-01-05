@@ -1476,9 +1476,6 @@ on
 that
 )
 .
-let
-sep
-=
 yield
 PlacesUtils
 .
@@ -2479,9 +2476,6 @@ expectNotifications
 (
 )
 ;
-let
-removed
-=
 yield
 PlacesUtils
 .

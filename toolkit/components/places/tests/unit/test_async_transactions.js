@@ -8282,7 +8282,7 @@ aInfo
 {
 let
 urls
-tagsToRemove
+tagsRemoved
 ;
 if
 (
@@ -10233,9 +10233,6 @@ separator
 empty
 folder
 )
-let
-bmTxn
-=
 PT
 .
 NewBookmark
@@ -11504,9 +11501,6 @@ transact
 (
 )
 ;
-let
-nestedSepGuid
-=
 yield
 PT
 .

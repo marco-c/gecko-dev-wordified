@@ -623,7 +623,6 @@ let
 uri
 title
 tags
-searchEngine
 style
 }
 =
@@ -1928,9 +1927,6 @@ uri
 }
 )
 ;
-let
-itemId
-=
 yield
 PlacesUtils
 .

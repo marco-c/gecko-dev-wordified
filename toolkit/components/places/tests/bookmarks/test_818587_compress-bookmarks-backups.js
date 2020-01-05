@@ -117,16 +117,6 @@ compress_bookmark_backups_test
 (
 )
 {
-let
-backupFolder
-=
-yield
-PlacesBackups
-.
-getBackupFolder
-(
-)
-;
 /
 /
 Check

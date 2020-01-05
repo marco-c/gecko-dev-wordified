@@ -150,9 +150,6 @@ bmsvc
 DEFAULT_INDEX
 )
 ;
-let
-b1
-=
 bmsvc
 .
 insertBookmark
@@ -180,9 +177,6 @@ title
 "
 )
 ;
-let
-b2
-=
 bmsvc
 .
 insertBookmark
@@ -210,9 +204,6 @@ title
 "
 )
 ;
-let
-b3
-=
 bmsvc
 .
 insertBookmark
@@ -240,9 +231,6 @@ title
 "
 )
 ;
-let
-s1
-=
 bmsvc
 .
 insertSeparator
@@ -253,9 +241,6 @@ bmsvc
 DEFAULT_INDEX
 )
 ;
-let
-f1
-=
 bmsvc
 .
 createFolder
@@ -937,17 +922,6 @@ existing
 bookmark
 guids
 .
-let
-now
-=
-Date
-.
-now
-(
-)
-*
-1000
-;
 let
 sourceURI
 =

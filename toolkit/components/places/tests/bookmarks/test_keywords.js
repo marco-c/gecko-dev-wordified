@@ -2073,15 +2073,6 @@ test_addRemoveBookmark
 )
 {
 let
-fc
-=
-yield
-foreign_count
-(
-URI3
-)
-;
-let
 observer
 =
 expectNotifications

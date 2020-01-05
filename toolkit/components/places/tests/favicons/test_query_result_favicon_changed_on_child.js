@@ -85,9 +85,6 @@ the
 query
 resultset
 .
-let
-testBookmark
-=
 yield
 PlacesUtils
 .

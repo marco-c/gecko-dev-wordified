@@ -1143,9 +1143,6 @@ new_bookmark
 aInfo
 )
 {
-let
-currentItem
-=
 +
 +
 itemsCount

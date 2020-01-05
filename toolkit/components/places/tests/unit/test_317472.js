@@ -195,9 +195,6 @@ create
 bookmarks
 on
 TEST_BOOKMARKED_URI
-var
-bm1
-=
 PlacesUtils
 .
 bookmarks
@@ -218,9 +215,6 @@ TEST_BOOKMARKED_URI
 spec
 )
 ;
-var
-bm2
-=
 PlacesUtils
 .
 bookmarks

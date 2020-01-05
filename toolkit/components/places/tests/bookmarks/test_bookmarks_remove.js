@@ -1843,9 +1843,6 @@ folder
 }
 )
 ;
-let
-folder2
-=
 yield
 PlacesUtils
 .

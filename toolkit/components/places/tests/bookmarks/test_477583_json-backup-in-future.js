@@ -404,15 +404,6 @@ mostRecentBackupFile
 null
 )
 ;
-let
-todayFilename
-=
-PlacesBackups
-.
-getFilenameForDate
-(
-)
-;
 do_check_true
 (
 PlacesBackups

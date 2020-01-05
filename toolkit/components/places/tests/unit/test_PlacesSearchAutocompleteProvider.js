@@ -425,7 +425,7 @@ searchTerms
 )
 ;
 yield
-promiseSearchTopic
+promiseTopic
 ;
 let
 match
@@ -715,7 +715,7 @@ searchTerms
 )
 ;
 yield
-promiseSearchTopic
+promiseTopic
 ;
 /
 /

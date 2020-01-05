@@ -259,9 +259,6 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-let
-itemId
-=
 PlacesUtils
 .
 bookmarks

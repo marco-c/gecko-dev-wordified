@@ -496,7 +496,6 @@ json
 let
 {
 count
-hash
 }
 =
 yield

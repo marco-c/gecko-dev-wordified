@@ -489,9 +489,6 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-let
-bm
-=
 bookmarks
 .
 insertBookmark

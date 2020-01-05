@@ -315,9 +315,6 @@ on
 the
 same
 uri
-var
-bookmark1id
-=
 bmsvc
 .
 insertBookmark
@@ -335,9 +332,6 @@ title
 "
 )
 ;
-var
-bookmark2id
-=
 bmsvc
 .
 insertBookmark
