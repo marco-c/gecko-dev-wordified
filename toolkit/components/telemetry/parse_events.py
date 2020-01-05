@@ -1516,8 +1516,8 @@ out
 ]
         
 if
-not
 rcc
+not
 in
 allowed_rcc
 :
@@ -1705,17 +1705,17 @@ expiry
 .
         
 if
-not
 '
 expiry_version
 '
+not
 in
 definition
 and
-not
 '
 expiry_date
 '
+not
 in
 definition
 :
