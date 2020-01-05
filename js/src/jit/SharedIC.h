@@ -6635,6 +6635,12 @@ return
 stubInfo_
 ;
 }
+uint8_t
+*
+stubDataStart
+(
+)
+;
 }
 ;
 /
