@@ -716,13 +716,6 @@ InitializeGlobalState
 (
 )
 ;
-VRManager
-:
-:
-ManagerInit
-(
-)
-;
 LayerTreeOwnerTracker
 :
 :
@@ -1224,6 +1217,13 @@ nullptr
 }
 #
 endif
+VRManager
+:
+:
+ManagerInit
+(
+)
+;
 /
 /
 Send
