@@ -1180,6 +1180,11 @@ normal
 italic
 oblique
 "
+gecko_constant_prefix
+=
+"
+NS_FONT_STYLE
+"
 )
 }
 {
