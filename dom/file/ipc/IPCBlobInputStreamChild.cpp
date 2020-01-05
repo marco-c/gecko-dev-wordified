@@ -744,6 +744,12 @@ OptionalIPCStream
 aStream
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 MOZ_ASSERT
 (
 !
