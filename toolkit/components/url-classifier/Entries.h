@@ -1984,10 +1984,6 @@ TableFreshnessMap
 ;
 typedef
 nsCStringHashKey
-VLHashPrefixString
-;
-typedef
-nsCStringHashKey
 FullHashString
 ;
 typedef
@@ -2199,7 +2195,7 @@ true
 typedef
 nsClassHashtable
 <
-VLHashPrefixString
+nsUint32HashKey
 CachedFullHashResponse
 >
 FullHashResponseMap

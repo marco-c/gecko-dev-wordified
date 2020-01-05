@@ -1082,7 +1082,7 @@ nsresult
 NewFullHashResponse
 (
 const
-nsACString
+Prefix
 &
 aPrefix
 CachedFullHashResponse
