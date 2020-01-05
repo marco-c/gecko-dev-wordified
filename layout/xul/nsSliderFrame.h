@@ -874,6 +874,12 @@ Start
 (
 Notify
 this
+mContent
+-
+>
+OwnerDoc
+(
+)
 NS_LITERAL_CSTRING
 (
 "
