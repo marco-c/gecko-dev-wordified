@@ -17533,11 +17533,10 @@ if
 parser
 -
 >
-report
+reportNoOffset
 (
 ParseWarning
 false
-nullptr
 JSMSG_ALREADY_HAS_PRAGMA
 parser
 -
@@ -17556,9 +17555,11 @@ sourceMappingURL
 "
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
