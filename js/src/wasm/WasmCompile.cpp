@@ -510,6 +510,10 @@ if
 (
 mg
 .
+env
+(
+)
+.
 numFuncDefs
 (
 )
@@ -571,6 +575,10 @@ numFuncDefs
 =
 mg
 .
+env
+(
+)
+.
 numFuncDefs
 (
 )
@@ -617,6 +625,10 @@ DecodeFunctionBody
 d
 mg
 mg
+.
+env
+(
+)
 .
 numFuncImports
 (
