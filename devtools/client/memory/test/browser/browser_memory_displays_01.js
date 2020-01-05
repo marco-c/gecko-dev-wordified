@@ -323,7 +323,6 @@ tree
 item
 -
 name
-span
 "
 )
 .
