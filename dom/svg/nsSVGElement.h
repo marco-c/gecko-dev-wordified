@@ -219,7 +219,7 @@ mozilla
 /
 dom
 /
-ElementInlines
+Element
 .
 h
 "
