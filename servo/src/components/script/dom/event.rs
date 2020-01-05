@@ -295,7 +295,7 @@ DOMString
 phase
 :
 EventPhase
-default_prevented
+canceled
 :
 bool
 stop_propagation
@@ -362,7 +362,7 @@ type_
 ~
 "
 "
-default_prevented
+canceled
 :
 false
 cancelable
@@ -523,7 +523,7 @@ bool
 {
 self
 .
-default_prevented
+canceled
 }
 pub
 fn
@@ -541,7 +541,7 @@ cancelable
 {
 self
 .
-default_prevented
+canceled
 =
 true
 }
@@ -671,7 +671,7 @@ true
 ;
 self
 .
-default_prevented
+canceled
 =
 false
 ;
