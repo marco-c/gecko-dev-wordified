@@ -112,9 +112,6 @@ tooManyEnginesOffered
 html
 "
 ;
-let
-tab
-=
 yield
 BrowserTestUtils
 .
