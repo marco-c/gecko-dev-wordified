@@ -3217,6 +3217,11 @@ test_path
 )
                 
 if
+suite
+is
+not
+None
+and
 correct_suite
 !
 =
