@@ -456,6 +456,7 @@ NS_LITERAL_CSTRING
 global
 "
 )
+false
 locale
 )
 ;
