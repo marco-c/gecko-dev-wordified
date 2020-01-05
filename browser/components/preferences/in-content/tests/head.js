@@ -63,8 +63,6 @@ preferences
 in
 -
 content
--
-old
 /
 tests
 /
