@@ -86,6 +86,12 @@ Json
 ToJson
 }
 ;
+use
+url
+:
+:
+Url
+;
 #
 [
 derive
@@ -199,6 +205,13 @@ SubpageId
 (
 )
 >
+>
+)
+GetUrl
+(
+IpcSender
+<
+Url
 >
 )
 GetTitle
