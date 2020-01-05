@@ -966,6 +966,12 @@ the
 tab
 .
 *
+-
+{
+String
+}
+preferredRemoteType
+*
 return
 a
 promise
@@ -1059,6 +1065,11 @@ addTab
 url
 {
 userContextId
+preferredRemoteType
+:
+options
+.
+preferredRemoteType
 }
 )
 ;
