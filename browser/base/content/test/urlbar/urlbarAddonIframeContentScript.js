@@ -1,4 +1,16 @@
 /
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
+/
 /
 Forward
 messages
