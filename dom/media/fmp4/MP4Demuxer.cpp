@@ -3150,6 +3150,10 @@ sample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 sample
 -
 >
@@ -3217,6 +3221,10 @@ sample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 sample
 -
 >

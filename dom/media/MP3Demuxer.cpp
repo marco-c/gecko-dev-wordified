@@ -3872,10 +3872,6 @@ Duration
 (
 1
 )
-.
-ToMicroseconds
-(
-)
 ;
 frame
 -
@@ -3911,8 +3907,10 @@ frame
 -
 >
 mDuration
->
-0
+.
+IsPositive
+(
+)
 )
 ;
 if

@@ -1249,6 +1249,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 frame

@@ -997,6 +997,10 @@ aSample
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 crypto
 .
 mPlainSizes
