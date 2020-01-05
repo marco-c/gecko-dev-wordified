@@ -320,6 +320,10 @@ string_cache
 ;
 extern
 crate
+alloc
+;
+extern
+crate
 collections
 ;
 extern
