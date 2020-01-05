@@ -2375,6 +2375,9 @@ finder
 FileFinder
 (
 template_directory
+find_executables
+=
+False
 )
         
 for

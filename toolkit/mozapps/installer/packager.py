@@ -2836,6 +2836,10 @@ FileFinder
 args
 .
 source
+                                                   
+find_executables
+=
+True
 )
                                         
 FileFinder
@@ -2843,6 +2847,10 @@ FileFinder
 args
 .
 unify
+                                                   
+find_executables
+=
+True
 )
                                         
 *
@@ -2860,6 +2868,10 @@ FileFinder
 args
 .
 source
+find_executables
+=
+True
+                                
 *
 *
 finder_args

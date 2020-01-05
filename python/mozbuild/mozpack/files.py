@@ -6150,9 +6150,6 @@ __init__
 (
 self
 base
-find_executables
-=
-True
 ignore
 =
 (
@@ -6281,6 +6278,24 @@ ignored
 '
 '
 '
+        
+assert
+'
+find_executables
+'
+in
+kargs
+        
+find_executables
+=
+kargs
+.
+pop
+(
+'
+find_executables
+'
+)
         
 BaseFinder
 .

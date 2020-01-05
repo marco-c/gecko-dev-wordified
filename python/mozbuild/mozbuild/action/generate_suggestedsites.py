@@ -900,6 +900,9 @@ finder
 FileFinder
 (
 resources
+find_executables
+=
+False
 )
             
 matches
