@@ -395,6 +395,14 @@ InitFontCache
 (
 )
 ;
+void
+UpdateFontCacheUserFonts
+(
+gfxUserFontSet
+*
+aUserFontSet
+)
+;
 /
 *
 *
