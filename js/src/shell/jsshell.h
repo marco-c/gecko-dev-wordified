@@ -1122,7 +1122,10 @@ RCFile
 *
 outFilePtr
 ;
+UniquePtr
+<
 PseudoStack
+>
 geckoProfilingStack
 ;
 OffThreadState
