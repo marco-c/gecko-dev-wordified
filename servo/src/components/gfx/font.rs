@@ -180,6 +180,15 @@ Rect
 Size2D
 }
 ;
+use
+servo_util
+:
+:
+time
+:
+:
+ProfilerChan
+;
 /
 /
 FontHandle
@@ -1317,6 +1326,9 @@ FontMetrics
 backend
 :
 BackendType
+profiler_chan
+:
+ProfilerChan
 }
 pub
 impl
@@ -1342,6 +1354,9 @@ SpecifiedFontStyle
 backend
 :
 BackendType
+profiler_chan
+:
+ProfilerChan
 )
 -
 >
@@ -1456,6 +1471,9 @@ metrics
 backend
 :
 backend
+profiler_chan
+:
+profiler_chan
 }
 )
 ;
@@ -1477,6 +1495,9 @@ SpecifiedFontStyle
 backend
 :
 BackendType
+profiler_chan
+:
+ProfilerChan
 )
 -
 >
@@ -1515,6 +1536,9 @@ metrics
 backend
 :
 backend
+profiler_chan
+:
+profiler_chan
 }
 }
 fn
@@ -1535,6 +1559,9 @@ SpecifiedFontStyle
 backend
 :
 BackendType
+profiler_chan
+:
+ProfilerChan
 )
 -
 >
@@ -1613,6 +1640,7 @@ fctx
 styled_handle
 style
 backend
+profiler_chan
 )
 )
 ;

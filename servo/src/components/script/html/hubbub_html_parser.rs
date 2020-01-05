@@ -854,7 +854,10 @@ result_chan
 .
 send
 (
+Some
+(
 buf
+)
 )
 ;
 break
@@ -887,6 +890,15 @@ to_str
 )
 )
 ;
+result_chan
+.
+send
+(
+None
+)
+;
+break
+;
 }
 }
 }
@@ -918,7 +930,7 @@ js_scripts
 vec
 :
 :
-map
+filter_map
 (
 result_vec
 |
