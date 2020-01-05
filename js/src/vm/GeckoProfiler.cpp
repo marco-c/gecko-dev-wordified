@@ -3420,10 +3420,7 @@ aPc
 NullPCOffset
 ;
 }
-JS_FRIEND_API
-(
 void
-)
 ProfileEntry
 :
 :
