@@ -219,7 +219,6 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
-ScriptControlChan
 }
 ;
 use
@@ -1304,7 +1303,10 @@ task
 pub
 script_chan
 :
-ScriptControlChan
+Sender
+<
+ConstellationControlMsg
+>
 /
 /
 /

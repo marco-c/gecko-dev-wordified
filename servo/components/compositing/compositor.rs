@@ -409,7 +409,6 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
-ScriptControlChan
 }
 ;
 use
@@ -8339,18 +8338,9 @@ pipeline_id
 )
 )
 ;
-let
-ScriptControlChan
-(
-ref
-chan
-)
-=
 pipeline
 .
 script_chan
-;
-chan
 .
 send
 (
