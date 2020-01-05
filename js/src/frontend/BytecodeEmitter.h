@@ -4313,6 +4313,8 @@ bool
 needsHomeObject
 bool
 isArrow
+bool
+isStarGenerator
 )
 ;
 MOZ_MUST_USE
