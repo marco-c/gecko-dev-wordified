@@ -75,10 +75,7 @@ scale_factor
 ScaleFactor
 ;
 use
-layers
-:
-:
-geometry
+gfx_traits
 :
 :
 DevicePixel

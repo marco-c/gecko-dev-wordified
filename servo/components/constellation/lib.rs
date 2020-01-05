@@ -168,10 +168,6 @@ ipc_channel
 ;
 extern
 crate
-layers
-;
-extern
-crate
 layout_traits
 ;
 #
