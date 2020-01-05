@@ -6066,8 +6066,6 @@ aValue
 )
 ;
 }
-else
-{
 *
 (
 void
@@ -6080,7 +6078,6 @@ xt_client_get_display
 (
 )
 ;
-}
 return
 NPERR_NO_ERROR
 ;
