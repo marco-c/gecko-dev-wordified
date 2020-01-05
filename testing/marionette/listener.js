@@ -1740,7 +1740,7 @@ if
 (
 event
 .
-originalTarget
+target
 =
 =
 =
@@ -1834,7 +1834,7 @@ if
 (
 event
 .
-originalTarget
+target
 .
 baseURI
 .
@@ -1885,7 +1885,7 @@ exec
 (
 event
 .
-originalTarget
+target
 .
 baseURI
 )
@@ -1911,7 +1911,7 @@ page
 +
 event
 .
-originalTarget
+target
 .
 baseURI
 )
@@ -1964,7 +1964,7 @@ exec
 (
 event
 .
-originalTarget
+target
 .
 baseURI
 )
@@ -1995,7 +1995,7 @@ if
 (
 event
 .
-originalTarget
+target
 =
 =
 =
