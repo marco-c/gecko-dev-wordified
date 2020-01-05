@@ -20424,6 +20424,17 @@ autofill
 NS_EVENT_STATE_AUTOFILL
 }
 {
+"
+-
+moz
+-
+autofill
+-
+preview
+"
+NS_EVENT_STATE_AUTOFILL_PREVIEW
+}
+{
 nullptr
 EventStates
 (
