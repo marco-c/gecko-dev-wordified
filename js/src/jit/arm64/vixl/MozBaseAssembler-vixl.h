@@ -754,6 +754,10 @@ PoolEntry
 pe
 =
 nullptr
+bool
+markAsBranch
+=
+false
 )
 {
 BufferOffset
@@ -768,6 +772,7 @@ numPoolEntries
 inst
 data
 pe
+markAsBranch
 )
 ;
 propagateOOM
