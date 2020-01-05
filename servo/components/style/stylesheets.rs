@@ -2925,6 +2925,16 @@ vec
 PropertyDeclaration
 :
 :
+BackgroundSize
+(
+DeclaredValue
+:
+:
+Initial
+)
+PropertyDeclaration
+:
+:
 BackgroundImage
 (
 DeclaredValue
