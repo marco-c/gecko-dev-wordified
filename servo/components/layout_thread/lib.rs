@@ -7984,6 +7984,11 @@ get_state
 el
 .
 note_restyle_hint
+:
+:
+<
+RecalcStyleAndConstructFlows
+>
 (
 hint
 )
