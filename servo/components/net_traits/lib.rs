@@ -1213,6 +1213,14 @@ String
 IncludeSubdomains
 u64
 )
+GetHostMustBeSecured
+(
+String
+IpcSender
+<
+bool
+>
+)
 Exit
 }
 /
