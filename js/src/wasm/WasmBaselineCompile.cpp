@@ -4589,6 +4589,8 @@ return
 isAvailable
 (
 r
+.
+reg
 )
 ;
 #
