@@ -565,11 +565,6 @@ AnimationTimingFunction
 )
 COMPUTED_STYLE_PROP
 (
-appearance
-Appearance
-)
-COMPUTED_STYLE_PROP
-(
 backface_visibility
 BackfaceVisibility
 )
@@ -1823,7 +1818,7 @@ styles
 COMPUTED_STYLE_PROP
 (
 _moz_appearance
-MozAppearance
+Appearance
 )
 COMPUTED_STYLE_PROP
 (

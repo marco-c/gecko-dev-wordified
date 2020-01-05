@@ -87,10 +87,6 @@ appearance
 :
 none
 ;
-appearance
-:
-none
-;
 "
 "
 padding
@@ -147,10 +143,6 @@ menu
 -
 moz
 -
-appearance
-:
-none
-;
 appearance
 :
 none
