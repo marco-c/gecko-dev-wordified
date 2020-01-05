@@ -1672,6 +1672,8 @@ match
 self
 .
 type_id
+(
+)
 {
 ElementNodeTypeId
 (
