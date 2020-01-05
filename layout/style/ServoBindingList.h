@@ -377,6 +377,16 @@ CSS
 Rules
 SERVO_BINDING_FUNC
 (
+Servo_StyleRule_Debug
+void
+RawServoStyleRuleBorrowed
+rule
+nsACString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleRule_GetStyle
 RawServoDeclarationBlockStrong
 RawServoStyleRuleBorrowed
