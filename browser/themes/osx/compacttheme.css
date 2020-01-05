@@ -240,6 +240,9 @@ color
 )
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 /
 *
 Resize
@@ -316,6 +319,8 @@ top
 6px
 ;
 }
+%
+endif
 /
 *
 Prevent
