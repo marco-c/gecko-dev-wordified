@@ -252,7 +252,7 @@ useful
 for
 the
 *
-sidebar
+network
 details
 but
 not

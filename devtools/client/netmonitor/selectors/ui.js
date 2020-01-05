@@ -76,7 +76,7 @@ requests
 )
 ;
 function
-isSidebarToggleButtonDisabled
+isNetworkDetailsToggleButtonDisabled
 (
 state
 )
@@ -195,7 +195,7 @@ module
 exports
 =
 {
-isSidebarToggleButtonDisabled
+isNetworkDetailsToggleButtonDisabled
 getWaterfallScale
 }
 ;

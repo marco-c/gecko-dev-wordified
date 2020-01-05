@@ -81,7 +81,7 @@ immutable
 ;
 const
 {
-OPEN_SIDEBAR
+OPEN_NETWORK_DETAILS
 OPEN_STATISTICS
 SELECT_DETAILS_PANEL_TAB
 WATERFALL_RESIZE
@@ -110,7 +110,7 @@ detailsPanelSelectedTab
 "
 headers
 "
-sidebarOpen
+networkDetailsOpen
 :
 false
 statisticsOpen
@@ -161,7 +161,7 @@ REQUESTS_WATERFALL_SAFE_BOUNDS
 ;
 }
 function
-openSidebar
+openNetworkDetails
 (
 state
 action
@@ -173,7 +173,7 @@ state
 set
 (
 "
-sidebarOpen
+networkDetailsOpen
 "
 action
 .
@@ -243,10 +243,10 @@ type
 )
 {
 case
-OPEN_SIDEBAR
+OPEN_NETWORK_DETAILS
 :
 return
-openSidebar
+openNetworkDetails
 (
 state
 action

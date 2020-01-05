@@ -185,10 +185,12 @@ document
 querySelector
 (
 "
-#
+.
+network
+-
 details
 -
-pane
+panel
 -
 toggle
 "
