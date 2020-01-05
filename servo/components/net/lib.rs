@@ -200,6 +200,10 @@ openssl
 ;
 extern
 crate
+openssl_verify
+;
+extern
+crate
 rustc_serialize
 ;
 extern
@@ -268,6 +272,10 @@ bluetooth_thread
 pub
 mod
 chrome_loader
+;
+pub
+mod
+connector
 ;
 pub
 mod

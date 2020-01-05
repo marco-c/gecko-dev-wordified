@@ -79,6 +79,15 @@ use
 chrome_loader
 ;
 use
+connector
+:
+:
+{
+Connector
+create_http_connector
+}
+;
+use
 cookie
 ;
 use
@@ -113,8 +122,6 @@ http_loader
 :
 {
 self
-Connector
-create_http_connector
 HttpState
 }
 ;
