@@ -1099,7 +1099,7 @@ DevicePixel
 (
 window_size
 .
-as_f32
+to_f32
 (
 )
 *
@@ -1108,7 +1108,7 @@ window_creation_scale_factor
 )
 )
 .
-as_uint
+to_uint
 (
 )
 .
@@ -7406,7 +7406,7 @@ framebuffer_size
 (
 )
 .
-as_f32
+to_f32
 (
 )
 .
@@ -7462,7 +7462,7 @@ framebuffer_size
 (
 )
 .
-as_f32
+to_f32
 (
 )
 .

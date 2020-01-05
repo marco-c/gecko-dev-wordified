@@ -2932,7 +2932,7 @@ get
 .
 initial_window_size
 .
-as_f32
+to_f32
 (
 )
 *

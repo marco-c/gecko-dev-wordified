@@ -3497,7 +3497,7 @@ f32
 Matrix4D
 :
 :
-new
+row_major
 (
 self
 .
