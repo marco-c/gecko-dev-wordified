@@ -1214,18 +1214,6 @@ packages
 {
 }
     
-exceptions
-=
-[
-"
-glutin
-"
-"
-wayland
--
-kbd
-"
-]
 #
 package
 names
@@ -1238,6 +1226,19 @@ named
 by
 cargo
 )
+    
+exceptions
+=
+[
+"
+glutin
+"
+"
+wayland
+-
+kbd
+"
+]
     
 while
 idx

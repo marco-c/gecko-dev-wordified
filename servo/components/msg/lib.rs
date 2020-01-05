@@ -61,6 +61,7 @@ MPL
 [
 feature
 (
+custom_attribute
 custom_derive
 plugin
 )
@@ -143,10 +144,6 @@ layers
 extern
 crate
 offscreen_gl_context
-;
-extern
-crate
-png
 ;
 extern
 crate

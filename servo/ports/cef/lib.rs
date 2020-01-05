@@ -206,10 +206,6 @@ layers
 ;
 extern
 crate
-png
-;
-extern
-crate
 rustc_unicode
 ;
 extern
