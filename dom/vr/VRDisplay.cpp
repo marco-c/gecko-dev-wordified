@@ -467,12 +467,8 @@ VRDisplay
 :
 RefreshVRDisplays
 (
-dom
-:
-:
-Navigator
-*
-aNavigator
+uint64_t
+aWindowId
 )
 {
 gfx
@@ -501,7 +497,7 @@ vm
 >
 RefreshVRDisplaysWithCallback
 (
-aNavigator
+aWindowId
 )
 ;
 }

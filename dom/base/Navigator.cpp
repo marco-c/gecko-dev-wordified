@@ -8843,7 +8843,10 @@ nullptr
 /
 We
 pass
-ourself
+mWindow
+'
+s
+id
 to
 RefreshVRDisplays
 so
@@ -8868,7 +8871,12 @@ VRDisplay
 :
 RefreshVRDisplays
 (
-this
+win
+-
+>
+WindowID
+(
+)
 )
 )
 {
