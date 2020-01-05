@@ -12069,7 +12069,7 @@ timing
 void
 SleepMicro
 (
-int
+uint32_t
 aMicroseconds
 )
 ;
@@ -13086,7 +13086,7 @@ SleepMicro
 (
 static_cast
 <
-int
+uint32_t
 >
 (
 sleepTime
