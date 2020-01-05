@@ -136,9 +136,6 @@ dom
 :
 :
 navigatorinfo
-:
-:
-NavigatorInfo
 ;
 use
 dom
@@ -257,7 +254,7 @@ self
 >
 DOMString
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 Product
@@ -273,7 +270,7 @@ self
 >
 bool
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 TaintEnabled
@@ -289,7 +286,7 @@ self
 >
 DOMString
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 AppName
@@ -305,7 +302,7 @@ self
 >
 DOMString
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 AppCodeName
@@ -321,7 +318,7 @@ self
 >
 DOMString
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 Platform
@@ -337,7 +334,7 @@ self
 >
 DOMString
 {
-NavigatorInfo
+navigatorinfo
 :
 :
 UserAgent
