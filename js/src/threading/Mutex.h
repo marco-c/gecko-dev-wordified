@@ -159,12 +159,12 @@ h
 namespace
 js
 {
-class
-ConditionVariable
-;
 namespace
 detail
 {
+class
+ConditionVariableImpl
+;
 class
 MutexImpl
 {
@@ -402,7 +402,10 @@ class
 js
 :
 :
-ConditionVariable
+detail
+:
+:
+ConditionVariableImpl
 ;
 }
 ;
