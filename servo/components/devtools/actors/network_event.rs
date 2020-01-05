@@ -198,10 +198,19 @@ protocol
 JsonPacketStream
 ;
 use
-rustc_serialize
+serde_json
 :
 :
-json
+Value
+;
+use
+std
+:
+:
+collections
+:
+:
+BTreeMap
 ;
 use
 std
@@ -290,7 +299,7 @@ HttpResponse
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -326,7 +335,7 @@ bool
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -342,7 +351,7 @@ u32
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -382,7 +391,7 @@ bool
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -410,7 +419,7 @@ bool
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -430,7 +439,7 @@ u32
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 pub
@@ -446,7 +455,7 @@ u32
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -472,7 +481,7 @@ String
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -498,7 +507,7 @@ String
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -524,7 +533,7 @@ bool
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -550,7 +559,7 @@ bool
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -570,7 +579,7 @@ u8
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -590,7 +599,7 @@ u8
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -619,7 +628,7 @@ u32
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -639,7 +648,7 @@ u32
 [
 derive
 (
-RustcEncodable
+Serialize
 )
 ]
 struct
@@ -691,10 +700,11 @@ str
 _msg
 :
 &
-json
-:
-:
-Object
+BTreeMap
+<
+String
+Value
+>
 stream
 :
 &
