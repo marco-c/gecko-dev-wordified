@@ -33533,10 +33533,11 @@ i
 nsRange
 :
 :
-CollectClientRects
+CollectClientRectsAndText
 (
 &
 checker
+nullptr
 range
 range
 -
