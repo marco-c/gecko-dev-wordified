@@ -419,6 +419,15 @@ EntryType
 :
 Contains
 ;
+using
+nsTHashtable
+<
+EntryType
+>
+:
+:
+GetGeneration
+;
 nsBaseHashtable
 (
 )
