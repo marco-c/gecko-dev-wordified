@@ -396,7 +396,7 @@ rules
 :
 Vec
 <
-CSSRule
+CssRule
 >
 /
 /
@@ -461,7 +461,7 @@ Debug
 ]
 pub
 enum
-CSSRule
+CssRule
 {
 /
 /
@@ -560,7 +560,7 @@ KeyframesRule
 )
 }
 impl
-CSSRule
+CssRule
 {
 /
 /
@@ -628,7 +628,7 @@ FnMut
 (
 &
 [
-CSSRule
+CssRule
 ]
 Option
 <
@@ -644,7 +644,7 @@ match
 *
 self
 {
-CSSRule
+CssRule
 :
 :
 Namespace
@@ -652,7 +652,7 @@ Namespace
 _
 )
 |
-CSSRule
+CssRule
 :
 :
 Style
@@ -660,7 +660,7 @@ Style
 _
 )
 |
-CSSRule
+CssRule
 :
 :
 FontFace
@@ -668,7 +668,7 @@ FontFace
 _
 )
 |
-CSSRule
+CssRule
 :
 :
 Viewport
@@ -676,7 +676,7 @@ Viewport
 _
 )
 |
-CSSRule
+CssRule
 :
 :
 Keyframes
@@ -694,7 +694,7 @@ f
 None
 )
 }
-CSSRule
+CssRule
 :
 :
 Media
@@ -843,7 +843,7 @@ rules
 :
 Vec
 <
-CSSRule
+CssRule
 >
 }
 #
@@ -1490,7 +1490,7 @@ F
 FnMut
 (
 &
-CSSRule
+CssRule
 )
 {
 effective_rules
@@ -1517,7 +1517,7 @@ rules
 :
 &
 [
-CSSRule
+CssRule
 ]
 device
 :
@@ -1535,7 +1535,7 @@ F
 FnMut
 (
 &
-CSSRule
+CssRule
 )
 {
 for
@@ -1655,7 +1655,7 @@ rule
 {
 if
 let
-CSSRule
+CssRule
 :
 :
 variant
@@ -1746,7 +1746,7 @@ Parser
 >
 Vec
 <
-CSSRule
+CssRule
 >
 {
 let
@@ -1994,7 +1994,7 @@ AtRulePrelude
 type
 AtRule
 =
-CSSRule
+CssRule
 ;
 fn
 parse_prelude
@@ -2019,7 +2019,7 @@ Result
 AtRuleType
 <
 AtRulePrelude
-CSSRule
+CssRule
 >
 (
 )
@@ -2255,7 +2255,7 @@ AtRuleType
 :
 WithoutBlock
 (
-CSSRule
+CssRule
 :
 :
 Namespace
@@ -2414,7 +2414,7 @@ Parser
 >
 Result
 <
-CSSRule
+CssRule
 (
 )
 >
@@ -2467,7 +2467,7 @@ TheSelectorImpl
 type
 QualifiedRule
 =
-CSSRule
+CssRule
 ;
 #
 [
@@ -2560,7 +2560,7 @@ Parser
 >
 Result
 <
-CSSRule
+CssRule
 (
 )
 >
@@ -2634,7 +2634,7 @@ AtRulePrelude
 type
 AtRule
 =
-CSSRule
+CssRule
 ;
 fn
 parse_prelude
@@ -2659,7 +2659,7 @@ Result
 AtRuleType
 <
 AtRulePrelude
-CSSRule
+CssRule
 >
 (
 )
@@ -2935,7 +2935,7 @@ Parser
 >
 Result
 <
-CSSRule
+CssRule
 (
 )
 >
@@ -2952,7 +2952,7 @@ FontFace
 {
 Ok
 (
-CSSRule
+CssRule
 :
 :
 FontFace
@@ -2995,7 +2995,7 @@ media_queries
 {
 Ok
 (
-CSSRule
+CssRule
 :
 :
 Media
@@ -3039,7 +3039,7 @@ Viewport
 {
 Ok
 (
-CSSRule
+CssRule
 :
 :
 Viewport
@@ -3085,7 +3085,7 @@ name
 {
 Ok
 (
-CSSRule
+CssRule
 :
 :
 Keyframes
@@ -3155,7 +3155,7 @@ TheSelectorImpl
 type
 QualifiedRule
 =
-CSSRule
+CssRule
 ;
 fn
 parse_prelude
@@ -3220,14 +3220,14 @@ Parser
 >
 Result
 <
-CSSRule
+CssRule
 (
 )
 >
 {
 Ok
 (
-CSSRule
+CssRule
 :
 :
 Style

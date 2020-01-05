@@ -285,7 +285,7 @@ stylesheets
 :
 {
 Stylesheet
-CSSRule
+CssRule
 Origin
 }
 ;
@@ -711,7 +711,7 @@ rules
 vec
 !
 [
-CSSRule
+CssRule
 :
 :
 Viewport
