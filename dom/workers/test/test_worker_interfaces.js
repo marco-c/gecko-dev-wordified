@@ -269,16 +269,9 @@ Int8Array
 "
 InternalError
 "
-{
-name
-:
 "
 Intl
 "
-android
-:
-false
-}
 "
 Iterator
 "
