@@ -5793,11 +5793,6 @@ LiveDOMReferences
 :
 cleanup
 (
-self
-.
-get_cx
-(
-)
 addr
 )
 ScriptMsg

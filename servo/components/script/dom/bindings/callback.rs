@@ -1018,7 +1018,6 @@ p
 :
 &
 T
-mut
 rval
 :
 MutableHandleObject

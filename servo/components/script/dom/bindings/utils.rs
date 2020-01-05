@@ -4685,7 +4685,7 @@ cx
 *
 mut
 JSContext
-existing
+_existing
 :
 HandleObject
 obj

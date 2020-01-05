@@ -382,10 +382,7 @@ js
 jsval
 :
 :
-{
 JSVal
-UndefinedValue
-}
 ;
 use
 layout_interface
