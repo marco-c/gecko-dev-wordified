@@ -12428,10 +12428,7 @@ new_children
 :
 Vec
 <
-Box
-<
 StackingContext
->
 >
 =
 new_context
