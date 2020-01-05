@@ -25353,6 +25353,9 @@ math
 Latin
 Modern
 Math
+STIX
+Two
+Math
 XITS
 Math
 Cambria
@@ -40207,6 +40210,9 @@ math
 Latin
 Modern
 Math
+STIX
+Two
+Math
 XITS
 Math
 Cambria
@@ -46879,6 +46885,9 @@ math
 Latin
 Modern
 Math
+STIX
+Two
+Math
 XITS
 Math
 Cambria
@@ -51782,6 +51791,9 @@ math
 Latin
 Modern
 Math
+STIX
+Two
+Math
 XITS
 Math
 Cambria
@@ -53278,6 +53290,9 @@ math
 "
 Latin
 Modern
+Math
+STIX
+Two
 Math
 XITS
 Math
