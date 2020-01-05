@@ -1974,6 +1974,9 @@ deviceId
 "
 deviceRegistrationVersion
 "
+"
+profileCache
+"
 ]
 )
 ;
