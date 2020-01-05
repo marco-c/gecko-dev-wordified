@@ -3261,9 +3261,7 @@ sidebar
 ]
 }
 return
-new
-Array
-(
-)
+[
+]
 ;
 }

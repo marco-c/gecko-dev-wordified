@@ -669,10 +669,8 @@ set
 "
 test_set_unsupported_pref
 "
-new
-Array
-(
-)
+[
+]
 )
 ;
 /

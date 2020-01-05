@@ -1293,10 +1293,8 @@ false
 ;
 gPaperArray
 =
-new
-Array
-(
-)
+[
+]
 ;
 for
 (
@@ -1523,10 +1521,8 @@ n
 }
 gPaperArray
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 numPapers

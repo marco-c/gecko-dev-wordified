@@ -496,8 +496,8 @@ gDialog
 .
 strings
 =
-new
-Array
+[
+]
 ;
 gDialog
 .
@@ -1812,8 +1812,8 @@ custom
 var
 gHFValues
 =
-new
-Array
+[
+]
 ;
 gHFValues
 [

@@ -1259,10 +1259,8 @@ down
 synthesizeDragWithDirection
 (
 element
-new
-Array
-(
-)
+[
+]
 dragDirections
 .
 DOWN

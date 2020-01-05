@@ -387,10 +387,8 @@ VECTOR_NORMALIZED_MAGNITUDE
 var
 renderData
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 currentFrame
@@ -563,10 +561,8 @@ stopPlay
 ;
 renderData
 =
-new
-Array
-(
-)
+[
+]
 ;
 currentFrame
 =

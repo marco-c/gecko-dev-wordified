@@ -4380,10 +4380,8 @@ path
 var
 fileArray
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 strLength

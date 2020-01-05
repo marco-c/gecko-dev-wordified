@@ -2616,10 +2616,8 @@ this
 .
 _frames
 =
-new
-Array
-(
-)
+[
+]
 ;
 this
 .

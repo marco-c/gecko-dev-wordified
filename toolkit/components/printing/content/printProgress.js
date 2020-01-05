@@ -1444,8 +1444,8 @@ dialog
 .
 strings
 =
-new
-Array
+[
+]
 ;
 dialog
 .

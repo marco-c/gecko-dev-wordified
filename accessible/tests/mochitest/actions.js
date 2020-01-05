@@ -506,10 +506,8 @@ accOrElmOrID
 var
 eventSeq
 =
-new
-Array
-(
-)
+[
+]
 ;
 if
 (
