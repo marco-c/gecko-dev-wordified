@@ -4697,7 +4697,6 @@ STYLES
 fn
 push_alphabetic_representation
 (
-mut
 value
 :
 i32
@@ -4856,7 +4855,6 @@ STYLES
 fn
 push_numeric_representation
 (
-mut
 value
 :
 i32
