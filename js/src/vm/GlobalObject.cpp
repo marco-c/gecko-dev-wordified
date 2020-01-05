@@ -698,7 +698,7 @@ return
 wasm
 :
 :
-HasCompilerSupport
+HasSupport
 (
 cx
 )

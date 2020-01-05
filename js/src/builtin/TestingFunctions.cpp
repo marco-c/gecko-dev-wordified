@@ -3111,7 +3111,7 @@ setBoolean
 wasm
 :
 :
-HasCompilerSupport
+HasSupport
 (
 cx
 )
