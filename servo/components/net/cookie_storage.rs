@@ -98,10 +98,7 @@ use
 rustc_serialize
 :
 :
-{
-Encodable
 Encoder
-}
 ;
 use
 std
