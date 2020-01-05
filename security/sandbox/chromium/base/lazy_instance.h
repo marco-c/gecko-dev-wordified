@@ -541,8 +541,10 @@ kRegisterOnExit
 true
 ;
 #
-ifndef
-NDEBUG
+if
+DCHECK_IS_ON
+(
+)
 static
 const
 bool
@@ -847,8 +849,10 @@ kRegisterOnExit
 false
 ;
 #
-ifndef
-NDEBUG
+if
+DCHECK_IS_ON
+(
+)
 static
 const
 bool
@@ -909,7 +913,7 @@ value
 of
 /
 /
-kBeingCreatedMarker
+kLazyInstanceStateCreating
 means
 the
 spinlock
@@ -1192,8 +1196,10 @@ Pointer
 )
 {
 #
-ifndef
-NDEBUG
+if
+DCHECK_IS_ON
+(
+)
 /
 /
 Avoid
