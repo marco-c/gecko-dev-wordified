@@ -817,7 +817,7 @@ serializePrincipal
 (
 browser
 .
-contentPrincipal
+mIconLoadingPrincipal
 )
 ;
 }
