@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-AddonManager
-*
-/
 "
 use
 strict

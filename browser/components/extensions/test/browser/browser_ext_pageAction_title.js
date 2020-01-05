@@ -48,12 +48,6 @@ use
 strict
 "
 ;
-/
-*
-global
-runTests
-*
-/
 Services
 .
 scriptloader

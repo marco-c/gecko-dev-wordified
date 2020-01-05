@@ -73,8 +73,14 @@ strict
 ;
 /
 *
-global
-content
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
 *
 /
 const

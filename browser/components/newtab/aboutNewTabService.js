@@ -57,14 +57,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-XPCOMUtils
-Preferences
-Services
-*
-/
 "
 use
 strict

@@ -71,17 +71,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-TabBase
-WindowBase
-TabTrackerBase
-WindowTrackerBase
-TabManagerBase
-WindowManagerBase
-*
-/
 Cu
 .
 import

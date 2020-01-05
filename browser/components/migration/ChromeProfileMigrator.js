@@ -275,12 +275,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-OS
-*
-/
 Cu
 .
 import
@@ -299,12 +293,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-MigratorPrototype
-*
-/
 XPCOMUtils
 .
 defineLazyModuleGetter

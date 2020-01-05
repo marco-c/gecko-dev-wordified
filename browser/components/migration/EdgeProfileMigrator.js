@@ -117,12 +117,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-OS
-*
-/
 Cu
 .
 import
@@ -179,12 +173,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-MigratorPrototype
-*
-/
 Cu
 .
 import

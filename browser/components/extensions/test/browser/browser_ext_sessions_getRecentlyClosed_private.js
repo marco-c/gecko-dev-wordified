@@ -48,14 +48,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-recordInitialTimestamps
-onlyNewItemsFilter
-checkRecentlyClosed
-*
-/
 SimpleTest
 .
 requestCompleteLog

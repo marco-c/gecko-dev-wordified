@@ -28,15 +28,6 @@ zero
 /
 *
 /
-/
-*
-globals
-Services
-NewTabURL
-XPCOMUtils
-aboutNewTabService
-*
-/
 "
 use
 strict

@@ -10,10 +10,10 @@ random
 ;
 /
 *
-global
-onconnect
-:
-true
+eslint
+-
+env
+worker
 *
 /
 onconnect

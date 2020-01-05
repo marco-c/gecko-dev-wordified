@@ -478,12 +478,6 @@ URL
 ]
 )
 ;
-/
-*
-globals
-kUndoStateFullPath
-*
-/
 XPCOMUtils
 .
 defineLazyGetter

@@ -28,16 +28,6 @@ zero
 /
 *
 /
-/
-*
-globals
-Services
-XPCOMUtils
-Preferences
-aboutNewTabService
-do_register_cleanup
-*
-/
 "
 use
 strict

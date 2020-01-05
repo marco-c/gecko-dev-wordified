@@ -306,12 +306,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-updateAppInfo
-*
-/
 updateAppInfo
 (
 )

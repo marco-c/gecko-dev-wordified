@@ -2598,12 +2598,6 @@ chrome
 /
 tests
 .
-/
-*
-globals
-SetPageProxyState
-*
-/
 SetPageProxyState
 (
 "

@@ -81,12 +81,6 @@ MPL
 .
 *
 /
-/
-*
-global
-BrowserFeedWriter
-*
-/
 var
 SubscribeHandler
 =

@@ -51,13 +51,6 @@ env
 worker
 *
 /
-/
-*
-globals
-OS
-ParseSymbols
-*
-/
 "
 use
 strict

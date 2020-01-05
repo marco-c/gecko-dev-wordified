@@ -28,12 +28,6 @@ zero
 /
 *
 /
-/
-*
-globals
-do_get_tempdir
-*
-/
 "
 use
 strict

@@ -1,15 +1,3 @@
-/
-*
-globals
-Cu
-XPCOMUtils
-TestUtils
-aboutNewTabService
-ContentTask
-content
-is
-*
-/
 "
 use
 strict

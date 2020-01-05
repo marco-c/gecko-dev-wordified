@@ -202,12 +202,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-MigratorPrototype
-*
-/
 Cu
 .
 import

@@ -1,12 +1,3 @@
-/
-*
-globals
-XPCOMUtils
-Services
-PreviewProvider
-registerCleanupFunction
-*
-/
 "
 use
 strict

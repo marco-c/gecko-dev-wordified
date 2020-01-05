@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-XPCOMUtils
-UAOverrider
-IOService
-*
-/
 "
 use
 strict
