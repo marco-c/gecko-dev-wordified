@@ -481,7 +481,7 @@ that
 /
 itself
 .
-nsresult
+void
 ProcessRestyledFrames
 (
 nsStyleChangeList

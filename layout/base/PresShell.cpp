@@ -17011,9 +17011,6 @@ RestyleManager
 (
 )
 ;
-nsresult
-rv
-=
 restyleManager
 -
 >
@@ -17034,7 +17031,7 @@ FlushOverflowChangedTracker
 mChangeNestCount
 ;
 return
-rv
+NS_OK
 ;
 }
 void
