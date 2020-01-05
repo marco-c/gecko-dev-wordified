@@ -15504,12 +15504,6 @@ generatorKind
 =
 =
 StarGenerator
-&
-&
-asyncKind
-=
-=
-SyncFunction
 )
 {
 MOZ_ASSERT
