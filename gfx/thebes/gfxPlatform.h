@@ -293,6 +293,9 @@ ContentDeviceData
 class
 GPUDeviceData
 ;
+class
+FeatureState
+;
 inline
 uint32_t
 BackendTypeBit
@@ -4757,6 +4760,11 @@ PopulateScreenInfo
 ;
 void
 InitCompositorAccelerationPrefs
+(
+)
+;
+void
+InitGPUProcessPrefs
 (
 )
 ;
