@@ -598,6 +598,10 @@ friend
 class
 nsDisplayButtonBorder
 ;
+friend
+class
+nsDisplayButtonForeground
+;
 public
 :
 nsCSSBorderRenderer
