@@ -3412,6 +3412,14 @@ if
 !
 aMIMEType
 .
+IsEmpty
+(
+)
+&
+&
+!
+aMIMEType
+.
 LowerCaseEqualsLiteral
 (
 APPLICATION_OCTET_STREAM
