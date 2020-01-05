@@ -470,8 +470,10 @@ c_void
 =
 (
 -
-2
+2isize
 )
+as
+usize
 as
 *
 mut
