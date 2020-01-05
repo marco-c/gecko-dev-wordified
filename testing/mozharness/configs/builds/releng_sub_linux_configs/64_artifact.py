@@ -46,6 +46,15 @@ mock
 build
 '
         
+#
+'
+generate
+-
+build
+-
+stats
+'
+        
 '
 sendchange
 '
