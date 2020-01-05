@@ -4515,6 +4515,12 @@ None
         
 self
 .
+profile
+=
+None
+        
+self
+.
 window
 =
 None
@@ -9947,6 +9953,23 @@ processId
 )
 )
         
+self
+.
+profile
+=
+self
+.
+session
+.
+get
+(
+"
+moz
+:
+profile
+"
+)
+        
 return
 self
 .
@@ -10155,6 +10178,12 @@ None
 self
 .
 process_id
+=
+None
+            
+self
+.
+profile
 =
 None
             
