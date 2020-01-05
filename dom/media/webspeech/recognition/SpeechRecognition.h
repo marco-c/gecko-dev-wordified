@@ -176,6 +176,13 @@ h
 #
 include
 "
+DOMMediaStream
+.
+h
+"
+#
+include
+"
 nsIDOMNavigatorUserMedia
 .
 h
