@@ -62259,6 +62259,15 @@ IsNativeAnonymous
 )
 &
 &
+!
+element
+-
+>
+IsNativeScrollbarContent
+(
+)
+&
+&
 element
 -
 >
