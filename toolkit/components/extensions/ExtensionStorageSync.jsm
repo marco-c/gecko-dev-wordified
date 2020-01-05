@@ -318,6 +318,8 @@ ExtensionUtils
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils

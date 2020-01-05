@@ -415,6 +415,8 @@ updater
 .
 js
 "
+{
+}
 )
 ;
 let

@@ -656,8 +656,6 @@ onReject
 reason
 )
 {
-test
-.
 do_throw
 (
 "
@@ -665,11 +663,6 @@ Observed
 failure
 in
 test
-"
-+
-test
-+
-"
 :
 "
 +

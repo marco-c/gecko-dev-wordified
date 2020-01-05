@@ -116,6 +116,8 @@ AppConstants
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -139,6 +141,8 @@ CustomizableUI
 .
 jsm
 "
+{
+}
 )
 ;
 /

@@ -300,6 +300,8 @@ Memory
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -324,6 +326,8 @@ DownloadUtils
 .
 jsm
 "
+{
+}
 )
 ;
 /

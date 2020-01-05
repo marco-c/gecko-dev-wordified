@@ -70,6 +70,8 @@ GMPProvider
 .
 jsm
 "
+{
+}
 )
 ;
 Cu

@@ -93,6 +93,8 @@ GMPProvider
 .
 jsm
 "
+{
+}
 )
 ;
 const

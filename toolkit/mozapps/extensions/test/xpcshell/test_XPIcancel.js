@@ -65,6 +65,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 var

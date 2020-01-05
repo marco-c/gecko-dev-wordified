@@ -9353,7 +9353,16 @@ LanguageDetector
 .
 jsm
 "
+{
+}
 )
+;
+const
+LanguageDetector
+=
+detectorModule
+.
+LanguageDetector
 ;
 function
 check_result

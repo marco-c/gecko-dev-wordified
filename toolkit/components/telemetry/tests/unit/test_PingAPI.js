@@ -271,6 +271,8 @@ TelemetryStorage
 .
 jsm
 "
+{
+}
 )
 ;
 storage

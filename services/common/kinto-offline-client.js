@@ -962,6 +962,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 class

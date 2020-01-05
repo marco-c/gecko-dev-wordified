@@ -218,6 +218,8 @@ FxAccountsMgmtService
 .
 jsm
 "
+{
+}
 )
 ;
 const

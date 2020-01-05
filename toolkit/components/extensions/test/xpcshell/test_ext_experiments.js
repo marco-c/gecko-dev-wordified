@@ -59,6 +59,8 @@ Extension
 .
 jsm
 "
+{
+}
 )
 ;
 return

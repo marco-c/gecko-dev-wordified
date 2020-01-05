@@ -237,6 +237,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 XPIscope

@@ -760,6 +760,8 @@ TelemetryStorage
 .
 jsm
 "
+{
+}
 )
 ;
 storage

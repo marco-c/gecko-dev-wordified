@@ -155,6 +155,8 @@ Subprocess
 .
 jsm
 "
+{
+}
 )
 ;
 let

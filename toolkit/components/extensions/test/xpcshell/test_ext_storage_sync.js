@@ -127,6 +127,8 @@ ExtensionStorageSync
 .
 jsm
 "
+{
+}
 )
 ;
 Cu

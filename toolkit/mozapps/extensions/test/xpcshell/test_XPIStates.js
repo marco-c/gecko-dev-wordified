@@ -694,6 +694,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 return

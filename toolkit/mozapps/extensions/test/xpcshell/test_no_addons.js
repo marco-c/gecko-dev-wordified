@@ -100,6 +100,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 const

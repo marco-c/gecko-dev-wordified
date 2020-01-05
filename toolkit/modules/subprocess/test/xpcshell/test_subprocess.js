@@ -2948,6 +2948,8 @@ subprocess_win
 .
 jsm
 "
+{
+}
 )
 ;
 let
@@ -4796,6 +4798,8 @@ Subprocess
 .
 jsm
 "
+{
+}
 )
 ;
 let

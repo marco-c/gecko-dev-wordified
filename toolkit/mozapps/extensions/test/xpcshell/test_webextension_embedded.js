@@ -180,6 +180,8 @@ LegacyExtensionsUtils
 .
 jsm
 "
+{
+}
 )
 ;
 /

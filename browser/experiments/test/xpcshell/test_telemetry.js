@@ -72,7 +72,10 @@ jsm
 )
 ;
 var
-bsp
+{
+TELEMETRY_LOG
+Experiments
+}
 =
 Cu
 .
@@ -92,6 +95,8 @@ Experiments
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -152,8 +157,6 @@ null
 const
 TLOG
 =
-bsp
-.
 TELEMETRY_LOG
 ;
 function

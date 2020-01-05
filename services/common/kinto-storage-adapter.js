@@ -150,6 +150,8 @@ Sqlite
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -174,6 +176,8 @@ Task
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -202,6 +206,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 const

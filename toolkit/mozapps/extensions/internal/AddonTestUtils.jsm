@@ -4018,6 +4018,8 @@ XPIProvider
 .
 jsm
 "
+{
+}
 )
 ;
 /

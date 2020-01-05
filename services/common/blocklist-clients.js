@@ -148,6 +148,8 @@ Task
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -172,6 +174,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 Cu
@@ -211,6 +215,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -239,6 +245,8 @@ client
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -267,6 +275,8 @@ adapter
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -293,6 +303,8 @@ CanonicalJSON
 .
 jsm
 "
+{
+}
 )
 ;
 const
