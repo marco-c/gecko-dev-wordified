@@ -3581,13 +3581,7 @@ get_page
 (
 &
 *
-self
-.
 page
-.
-borrow
-(
-)
 id
 )
 ;
