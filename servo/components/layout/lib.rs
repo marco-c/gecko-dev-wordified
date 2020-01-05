@@ -198,10 +198,6 @@ util
 as
 servo_util
 ;
-extern
-crate
-string_cache
-;
 #
 [
 phase
@@ -212,6 +208,10 @@ plugin
 extern
 crate
 string_cache_macros
+;
+extern
+crate
+string_cache
 ;
 extern
 crate

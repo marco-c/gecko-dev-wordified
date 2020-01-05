@@ -624,9 +624,14 @@ elem
 .
 has_attribute
 (
+&
+atom
+!
+(
 "
 multiple
 "
+)
 )
 {
 "

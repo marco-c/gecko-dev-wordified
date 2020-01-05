@@ -702,9 +702,14 @@ elem
 .
 set_bool_attribute
 (
+&
+atom
+!
+(
 "
 disabled
 "
+)
 disabled
 )
 }
