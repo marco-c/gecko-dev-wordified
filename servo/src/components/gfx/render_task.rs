@@ -2433,6 +2433,7 @@ CpuGraphicsContext
 >
 {
 let
+mut
 buffer
 =
 match
