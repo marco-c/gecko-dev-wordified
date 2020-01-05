@@ -3107,8 +3107,6 @@ addr
 DEFINED_ON
 (
 x86_shared
-arm
-arm64
 )
 ;
 void

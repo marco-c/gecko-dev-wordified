@@ -327,12 +327,6 @@ CacheKind
 :
 GetName
 :
-case
-CacheKind
-:
-:
-SetProp
-:
 MOZ_CRASH
 (
 "
