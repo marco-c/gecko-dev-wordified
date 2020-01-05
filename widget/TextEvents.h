@@ -3046,10 +3046,6 @@ BeforeAfterKeyboardEvent
 Event
 mMessage
 :
-eBeforeKeyDown
-*
-eBeforeKeyUp
-*
 eAfterKeyDown
 *
 eAfterKeyUp

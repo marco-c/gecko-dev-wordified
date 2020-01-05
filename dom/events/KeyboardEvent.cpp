@@ -925,9 +925,6 @@ mMessage
 )
 {
 case
-eBeforeKeyDown
-:
-case
 eKeyDown
 :
 case
@@ -935,9 +932,6 @@ eKeyDownOnPlugin
 :
 case
 eAfterKeyDown
-:
-case
-eBeforeKeyUp
 :
 case
 eKeyUp
@@ -1113,9 +1107,6 @@ mMessage
 )
 {
 case
-eBeforeKeyDown
-:
-case
 eKeyDown
 :
 case
@@ -1123,9 +1114,6 @@ eKeyDownOnPlugin
 :
 case
 eAfterKeyDown
-:
-case
-eBeforeKeyUp
 :
 case
 eKeyUp
