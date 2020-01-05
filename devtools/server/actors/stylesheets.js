@@ -249,7 +249,6 @@ map
 ;
 const
 {
-installHelperSheet
 addPseudoClassLock
 removePseudoClassLock
 }

@@ -4464,7 +4464,7 @@ String
 type
 =
 "
-author
+agent
 "
 ]
 *
@@ -4477,7 +4477,7 @@ url
 type
 =
 "
-author
+agent
 "
 )
 {
@@ -4494,7 +4494,7 @@ SHEET_TYPE
 type
 =
 "
-author
+agent
 "
 ;
 }
@@ -4599,7 +4599,7 @@ String
 type
 =
 "
-author
+agent
 "
 ]
 *
@@ -4612,7 +4612,7 @@ url
 type
 =
 "
-author
+agent
 "
 )
 {
@@ -4629,7 +4629,7 @@ SHEET_TYPE
 type
 =
 "
-author
+agent
 "
 ;
 }
