@@ -204,6 +204,17 @@ test
 folder
 below
 .
+const
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 /
 /
 This
