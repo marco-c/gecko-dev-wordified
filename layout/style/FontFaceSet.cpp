@@ -7873,7 +7873,7 @@ rv
 rv
 )
 ;
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =

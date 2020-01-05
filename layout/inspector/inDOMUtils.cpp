@@ -2117,7 +2117,7 @@ GetLineNumber
 (
 )
 ;
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =

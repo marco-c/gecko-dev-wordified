@@ -396,7 +396,7 @@ const
 =
 0
 ;
-CSSStyleSheet
+StyleSheet
 *
 GetStyleSheet
 (
@@ -425,7 +425,7 @@ GetDocument
 )
 const
 {
-CSSStyleSheet
+StyleSheet
 *
 sheet
 =
@@ -450,7 +450,7 @@ virtual
 void
 SetStyleSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -714,7 +714,7 @@ style
 attributes
 )
 .
-CSSStyleSheet
+StyleSheet
 *
 mSheet
 ;
