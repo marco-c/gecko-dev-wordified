@@ -1000,6 +1000,12 @@ case
 MDefinition
 :
 :
+Op_WasmLoadTls
+:
+case
+MDefinition
+:
+:
 Op_WasmLoad
 :
 case

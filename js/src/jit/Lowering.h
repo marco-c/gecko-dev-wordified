@@ -2303,6 +2303,14 @@ ins
 )
 ;
 void
+visitWasmLoadTls
+(
+MWasmLoadTls
+*
+ins
+)
+;
+void
 visitWasmBoundsCheck
 (
 MWasmBoundsCheck
