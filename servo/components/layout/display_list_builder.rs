@@ -9146,9 +9146,6 @@ StackingContextCreationMode
 :
 :
 InnerScrollWrapper
-if
-!
-use_webrender
 =
 >
 {
