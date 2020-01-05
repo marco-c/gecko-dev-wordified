@@ -7599,9 +7599,6 @@ size
 1
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Allow
@@ -7632,8 +7629,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Enable
