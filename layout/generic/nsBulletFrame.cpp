@@ -2608,11 +2608,10 @@ if
 aLayer
 -
 >
-PushItemAsImage
+PushItemAsBlobImage
 (
 aBuilder
 aSc
-aParentCommands
 )
 )
 {

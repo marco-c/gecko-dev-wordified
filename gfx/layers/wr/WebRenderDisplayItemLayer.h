@@ -234,7 +234,7 @@ aParentCommands
 )
 ;
 bool
-PushItemAsImage
+PushItemAsBlobImage
 (
 wr
 :
@@ -246,15 +246,6 @@ const
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-layers
-:
-:
-WebRenderParentCommand
->
-&
-aParentCommands
 )
 ;
 protected
