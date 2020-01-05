@@ -245,6 +245,15 @@ h
 "
 #
 include
+"
+js
+/
+GCAnnotations
+.
+h
+"
+#
+include
 <
 prio
 .
@@ -1292,8 +1301,11 @@ loadTime
 {
 if
 (
-!
 mLoadTime
+.
+IsNull
+(
+)
 |
 |
 loadTime
@@ -2002,6 +2014,7 @@ uint8_t
 mXDRData
 ;
 }
+JS_HAZ_NON_GC_POINTER
 ;
 template
 <
