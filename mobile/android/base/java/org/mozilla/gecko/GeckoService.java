@@ -1070,6 +1070,12 @@ profileDir
 )
 :
 null
+GeckoApplication
+.
+addDefaultGeckoArgs
+(
+null
+)
 )
 )
 {
