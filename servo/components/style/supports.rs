@@ -133,6 +133,7 @@ CssRuleType
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1378,6 +1379,7 @@ s
 [
 derive
 (
+Clone
 Debug
 )
 ]

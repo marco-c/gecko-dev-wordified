@@ -2454,6 +2454,7 @@ rule
 [
 derive
 (
+Clone
 Debug
 PartialEq
 )

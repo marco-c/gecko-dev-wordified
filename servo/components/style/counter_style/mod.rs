@@ -1182,6 +1182,7 @@ rule
 [
 derive
 (
+Clone
 Debug
 )
 ]

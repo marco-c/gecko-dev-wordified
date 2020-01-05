@@ -250,6 +250,7 @@ condition
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1295,6 +1296,7 @@ true
 [
 derive
 (
+Clone
 Debug
 )
 ]
