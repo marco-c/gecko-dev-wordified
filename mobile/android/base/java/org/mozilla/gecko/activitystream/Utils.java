@@ -174,7 +174,7 @@ getColumnIndexOrThrow
 (
 BrowserContract
 .
-Combined
+Highlights
 .
 BOOKMARK_ID
 )
@@ -203,7 +203,7 @@ getColumnIndexOrThrow
 (
 BrowserContract
 .
-Combined
+Highlights
 .
 HISTORY_ID
 )
