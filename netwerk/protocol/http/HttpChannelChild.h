@@ -1571,7 +1571,10 @@ upstream
 bool
 mSendResumeAt
 ;
+Atomic
+<
 bool
+>
 mIPCOpen
 ;
 bool
