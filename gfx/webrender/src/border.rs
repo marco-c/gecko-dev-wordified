@@ -92,8 +92,8 @@ webrender_traits
 BorderSide
 BorderStyle
 BorderWidths
-ColorF
-NormalBorder
+ClipAndScrollInfo
+ClipRegion
 }
 ;
 use
@@ -101,11 +101,11 @@ webrender_traits
 :
 :
 {
-ClipId
-ClipRegion
+ColorF
 LayerPoint
 LayerRect
 LayerSize
+NormalBorder
 }
 ;
 #
@@ -896,9 +896,9 @@ widths
 :
 &
 BorderWidths
-clip_id
+clip_and_scroll
 :
-ClipId
+ClipAndScrollInfo
 clip_region
 :
 &
@@ -1157,7 +1157,7 @@ self
 .
 add_primitive
 (
-clip_id
+clip_and_scroll
 &
 rect
 clip_region
@@ -1242,9 +1242,9 @@ widths
 :
 &
 BorderWidths
-clip_id
+clip_and_scroll
 :
-ClipId
+ClipAndScrollInfo
 clip_region
 :
 &
@@ -1525,7 +1525,7 @@ add_normal_border_primitive
 rect
 border
 widths
-clip_id
+clip_and_scroll
 clip_region
 false
 )
@@ -1653,7 +1653,7 @@ add_normal_border_primitive
 rect
 border
 widths
-clip_id
+clip_and_scroll
 clip_region
 false
 )
@@ -1820,7 +1820,7 @@ self
 .
 add_solid_rectangle
 (
-clip_id
+clip_and_scroll
 &
 LayerRect
 :
@@ -1864,7 +1864,7 @@ self
 .
 add_solid_rectangle
 (
-clip_id
+clip_and_scroll
 &
 LayerRect
 :
@@ -1925,7 +1925,7 @@ self
 .
 add_solid_rectangle
 (
-clip_id
+clip_and_scroll
 &
 LayerRect
 :
@@ -1988,7 +1988,7 @@ self
 .
 add_solid_rectangle
 (
-clip_id
+clip_and_scroll
 &
 LayerRect
 :
@@ -2042,7 +2042,7 @@ add_normal_border_primitive
 rect
 border
 widths
-clip_id
+clip_and_scroll
 clip_region
 true
 )
