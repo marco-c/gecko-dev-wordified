@@ -2397,6 +2397,7 @@ x_height
 :
 au_from_pt
 (
+(
 self
 .
 ctfont
@@ -2406,6 +2407,9 @@ x_height
 )
 as
 f64
+)
+*
+scale
 )
 em_size
 :
