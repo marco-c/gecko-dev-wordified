@@ -124,14 +124,14 @@ h
 #
 include
 "
-StorageDBThread
+LocalStorageCache
 .
 h
 "
 #
 include
 "
-StorageCache
+StorageDBThread
 .
 h
 "
@@ -1045,7 +1045,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -1108,7 +1108,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -1573,7 +1573,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -1724,7 +1724,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -1825,7 +1825,7 @@ shutdown
 {
 rv
 =
-StorageCache
+LocalStorageCache
 :
 :
 StopDatabase
@@ -1960,7 +1960,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 GetDatabase

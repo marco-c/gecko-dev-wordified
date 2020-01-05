@@ -231,7 +231,7 @@ namespace
 dom
 {
 class
-StorageCacheBridge
+LocalStorageCacheBridge
 ;
 class
 StorageUsageBridge
@@ -393,7 +393,7 @@ virtual
 void
 AsyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -480,7 +480,7 @@ virtual
 void
 SyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -514,7 +514,7 @@ virtual
 nsresult
 AsyncAddItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -552,7 +552,7 @@ virtual
 nsresult
 AsyncUpdateItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -589,7 +589,7 @@ virtual
 nsresult
 AsyncRemoveItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -624,7 +624,7 @@ virtual
 nsresult
 AsyncClear
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 )
@@ -832,13 +832,13 @@ operations
 over
 caches
 (
-StorageCache
+LocalStorageCache
 )
 communicating
 though
 /
 /
-StorageCacheBridge
+LocalStorageCacheBridge
 interface
 class
 class
@@ -1000,7 +1000,7 @@ DBOperation
 const
 OperationType
 aType
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 =
@@ -1271,7 +1271,7 @@ mType
 ;
 RefPtr
 <
-StorageCacheBridge
+LocalStorageCacheBridge
 >
 mCache
 ;
@@ -1826,7 +1826,7 @@ virtual
 void
 AsyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -1860,7 +1860,7 @@ virtual
 void
 SyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -1896,7 +1896,7 @@ virtual
 nsresult
 AsyncAddItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1930,7 +1930,7 @@ virtual
 nsresult
 AsyncUpdateItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1964,7 +1964,7 @@ virtual
 nsresult
 AsyncRemoveItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1993,7 +1993,7 @@ virtual
 nsresult
 AsyncClear
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 )

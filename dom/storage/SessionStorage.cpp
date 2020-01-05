@@ -951,7 +951,7 @@ regardless
 mIsSessionOnly
 flag
 in
-DOMStorageCache
+LocalStorageCache
 code
 .
 if

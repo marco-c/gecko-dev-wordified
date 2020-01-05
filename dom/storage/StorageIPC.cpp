@@ -644,7 +644,7 @@ StorageDBChild
 :
 AsyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -774,7 +774,7 @@ StorageDBChild
 :
 SyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -970,7 +970,7 @@ StorageDBChild
 :
 AsyncAddItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1047,7 +1047,7 @@ StorageDBChild
 :
 AsyncUpdateItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1124,7 +1124,7 @@ StorageDBChild
 :
 AsyncRemoveItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -1179,7 +1179,7 @@ StorageDBChild
 :
 AsyncClear
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 )
@@ -1485,7 +1485,7 @@ nsString
 aValue
 )
 {
-StorageCache
+LocalStorageCache
 *
 aCache
 =
@@ -1545,7 +1545,7 @@ nsresult
 aRv
 )
 {
-StorageCache
+LocalStorageCache
 *
 aCache
 =
@@ -1592,7 +1592,7 @@ RemoveEntry
 (
 static_cast
 <
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 >
 (
@@ -1966,7 +1966,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 GetDatabase
@@ -2338,7 +2338,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -2399,7 +2399,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -2465,7 +2465,7 @@ need
 another
 implementation
 of
-StorageCacheBridge
+LocalStorageCacheBridge
 to
 do
 /
@@ -2503,7 +2503,7 @@ class
 SyncLoadCacheHelper
 :
 public
-StorageCacheBridge
+LocalStorageCacheBridge
 {
 public
 :
@@ -2864,7 +2864,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -2951,7 +2951,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -3051,7 +3051,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -3147,7 +3147,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -3238,7 +3238,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -3320,7 +3320,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 GetDatabase

@@ -144,7 +144,7 @@ h
 #
 include
 "
-StorageCache
+LocalStorageCache
 .
 h
 "
@@ -241,7 +241,7 @@ for
 the
 given
 scope
-StorageCache
+LocalStorageCache
 *
 GetCache
 (
@@ -342,13 +342,13 @@ to
 aggregate
 /
 /
-StorageCache
+LocalStorageCache
 into
 the
 entry
 .
 class
-StorageCacheHashKey
+LocalStorageCacheHashKey
 :
 public
 nsCStringHashKey
@@ -356,7 +356,7 @@ nsCStringHashKey
 public
 :
 explicit
-StorageCacheHashKey
+LocalStorageCacheHashKey
 (
 const
 nsACString
@@ -371,17 +371,17 @@ aKey
 mCache
 (
 new
-StorageCache
+LocalStorageCache
 (
 aKey
 )
 )
 {
 }
-StorageCacheHashKey
+LocalStorageCacheHashKey
 (
 const
-StorageCacheHashKey
+LocalStorageCacheHashKey
 &
 aOther
 )
@@ -403,7 +403,7 @@ called
 )
 ;
 }
-StorageCache
+LocalStorageCache
 *
 cache
 (
@@ -447,7 +447,7 @@ references
 its
 manager
 .
-StorageCache
+LocalStorageCache
 *
 mCache
 ;
@@ -467,7 +467,7 @@ forever
 .
 RefPtr
 <
-StorageCache
+LocalStorageCache
 >
 mCacheRef
 ;
@@ -503,7 +503,7 @@ data
 .
 already_AddRefed
 <
-StorageCache
+LocalStorageCache
 >
 PutCache
 (
@@ -618,7 +618,7 @@ map
 typedef
 nsTHashtable
 <
-StorageCacheHashKey
+LocalStorageCacheHashKey
 >
 CacheOriginHashtable
 ;
@@ -760,7 +760,7 @@ mUsages
 ;
 friend
 class
-StorageCache
+LocalStorageCache
 ;
 /
 /
@@ -781,7 +781,7 @@ virtual
 void
 DropCache
 (
-StorageCache
+LocalStorageCache
 *
 aCache
 )

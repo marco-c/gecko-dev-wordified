@@ -491,7 +491,7 @@ after
 we
 set
 sSelf
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -794,7 +794,7 @@ return
 scope
 ;
 }
-StorageCache
+LocalStorageCache
 *
 LocalStorageManager
 :
@@ -822,7 +822,7 @@ LookupOrAdd
 aOriginSuffix
 )
 ;
-StorageCacheHashKey
+LocalStorageCacheHashKey
 *
 entry
 =
@@ -906,7 +906,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 StartDatabase
@@ -945,7 +945,7 @@ forget
 }
 already_AddRefed
 <
-StorageCache
+LocalStorageCache
 >
 LocalStorageManager
 :
@@ -976,7 +976,7 @@ LookupOrAdd
 aOriginSuffix
 )
 ;
-StorageCacheHashKey
+LocalStorageCacheHashKey
 *
 entry
 =
@@ -990,7 +990,7 @@ aOriginNoSuffix
 ;
 RefPtr
 <
-StorageCache
+LocalStorageCache
 >
 cache
 =
@@ -1044,7 +1044,7 @@ LocalStorageManager
 :
 DropCache
 (
-StorageCache
+LocalStorageCache
 *
 aCache
 )
@@ -1164,7 +1164,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 RefPtr
 <
-StorageCache
+LocalStorageCache
 >
 cache
 =
@@ -1254,7 +1254,7 @@ StorageDBBridge
 *
 db
 =
-StorageCache
+LocalStorageCache
 :
 :
 GetDatabase
@@ -1617,7 +1617,7 @@ return
 rv
 ;
 }
-StorageCache
+LocalStorageCache
 *
 cache
 =
@@ -1837,7 +1837,7 @@ Next
 )
 )
 {
-StorageCache
+LocalStorageCache
 *
 cache
 =
@@ -1957,7 +1957,7 @@ cleared
 {
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadComplete
@@ -2007,7 +2007,7 @@ cleared
 {
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadSession
@@ -2061,7 +2061,7 @@ cleared
 {
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadComplete
@@ -2101,7 +2101,7 @@ cleared
 {
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadPrivate
@@ -2145,7 +2145,7 @@ cleared
 {
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadComplete
@@ -2187,7 +2187,7 @@ them
 completely
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kUnloadComplete
@@ -2288,7 +2288,7 @@ database
 .
 ClearCaches
 (
-StorageCache
+LocalStorageCache
 :
 :
 kTestReload

@@ -124,14 +124,14 @@ h
 #
 include
 "
-LocalStorageManager
+LocalStorageCache
 .
 h
 "
 #
 include
 "
-StorageCache
+LocalStorageManager
 .
 h
 "
@@ -341,7 +341,7 @@ aWindow
 LocalStorageManager
 *
 aManager
-StorageCache
+LocalStorageCache
 *
 aCache
 const
@@ -1220,7 +1220,7 @@ mCache
 Clear
 (
 this
-StorageCache
+LocalStorageCache
 :
 :
 E10sPropagated
@@ -1256,7 +1256,7 @@ RemoveItem
 this
 key
 old
-StorageCache
+LocalStorageCache
 :
 :
 E10sPropagated
@@ -1283,7 +1283,7 @@ this
 key
 value
 old
-StorageCache
+LocalStorageCache
 :
 :
 E10sPropagated
@@ -1361,7 +1361,7 @@ regardless
 mIsSessionOnly
 flag
 in
-DOMStorageCache
+DOMLocalStorageCache
 code
 .
 if
