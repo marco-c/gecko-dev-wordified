@@ -222,7 +222,7 @@ algorithm
 /
 inline
 void
-XPCJSContext
+XPCJSRuntime
 :
 :
 AddVariantRoot
@@ -244,7 +244,7 @@ mVariantRoots
 }
 inline
 void
-XPCJSContext
+XPCJSRuntime
 :
 :
 AddWrappedJSRoot
@@ -266,7 +266,7 @@ mWrappedJSRoots
 }
 inline
 void
-XPCJSContext
+XPCJSRuntime
 :
 :
 AddObjectHolderRoot

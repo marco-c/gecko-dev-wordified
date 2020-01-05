@@ -3315,9 +3315,6 @@ TraceWrappedNativesInAllScopes
 JSTracer
 *
 trc
-XPCJSContext
-*
-cx
 )
 {
 /
@@ -3571,9 +3568,6 @@ XPCWrappedNativeScope
 :
 SuspectAllWrappers
 (
-XPCJSContext
-*
-cx
 nsCycleCollectionNoteRootCallback
 &
 cb
@@ -3717,9 +3711,6 @@ XPCWrappedNativeScope
 :
 UpdateWeakPointersAfterGC
 (
-XPCJSContext
-*
-cx
 )
 {
 /

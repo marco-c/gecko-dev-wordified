@@ -679,9 +679,6 @@ depth
 void
 UpdateWeakPointersAfterGC
 (
-XPCJSContext
-*
-context
 )
 ;
 void

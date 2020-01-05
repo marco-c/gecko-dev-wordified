@@ -460,9 +460,6 @@ JSObject2WrappedJSMap
 :
 UpdateWeakPointersAfterGC
 (
-XPCJSContext
-*
-context
 )
 {
 /

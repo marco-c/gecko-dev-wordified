@@ -219,6 +219,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h

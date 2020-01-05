@@ -507,7 +507,7 @@ GC
 mozilla
 :
 :
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 DescribeCustomObjects
 "
@@ -524,7 +524,7 @@ GC
 mozilla
 :
 :
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 NoteCustomGCThingXPCOMChildren
 "

@@ -9438,11 +9438,17 @@ mFinishReportingData
 ;
 nsTArray
 <
+dom
+:
+:
 ContentParent
 *
 >
 childWeakRefs
 ;
+dom
+:
+:
 ContentParent
 :
 :
