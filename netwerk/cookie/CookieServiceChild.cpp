@@ -569,6 +569,8 @@ char
 *
 *
 aCookieString
+bool
+aFromHttp
 )
 {
 NS_ENSURE_ARG
@@ -733,6 +735,7 @@ uriParams
 !
 !
 isForeign
+aFromHttp
 attrs
 &
 result
@@ -779,6 +782,8 @@ const
 char
 *
 aServerTime
+bool
+aFromHttp
 )
 {
 NS_ENSURE_ARG
@@ -957,6 +962,7 @@ uriParams
 isForeign
 cookieString
 serverTime
+aFromHttp
 attrs
 )
 ;
@@ -1051,6 +1057,7 @@ GetCookieStringInternal
 aHostURI
 aChannel
 aCookieString
+false
 )
 ;
 }
@@ -1076,7 +1083,13 @@ aCookieString
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+GetCookieStringInternal
+(
+aHostURI
+aChannel
+aCookieString
+true
+)
 ;
 }
 NS_IMETHODIMP
@@ -1107,6 +1120,7 @@ aHostURI
 aChannel
 aCookieString
 nullptr
+false
 )
 ;
 }
@@ -1139,7 +1153,14 @@ aChannel
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+SetCookieStringInternal
+(
+aHostURI
+aChannel
+aCookieString
+aServerTime
+true
+)
 ;
 }
 }
