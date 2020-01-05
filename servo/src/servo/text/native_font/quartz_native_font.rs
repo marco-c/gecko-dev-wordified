@@ -236,6 +236,7 @@ as_buf
 buf
 |
 cbuf
+len
 |
 {
 CGDataProviderCreateWithData
@@ -250,11 +251,7 @@ reinterpret_cast
 cbuf
 )
 }
-buf
-.
 len
-(
-)
 as
 size_t
 null
