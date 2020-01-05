@@ -6563,7 +6563,7 @@ willSubmit
 control
 -
 >
-GetType
+ControlType
 (
 )
 =

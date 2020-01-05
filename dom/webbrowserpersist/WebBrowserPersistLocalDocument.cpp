@@ -6706,7 +6706,7 @@ switch
 formControl
 -
 >
-GetType
+ControlType
 (
 )
 )

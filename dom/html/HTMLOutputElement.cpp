@@ -222,6 +222,7 @@ aFromParser
 nsGenericHTMLFormElement
 (
 aNodeInfo
+NS_FORM_OUTPUT
 )
 mValueModeFlag
 (

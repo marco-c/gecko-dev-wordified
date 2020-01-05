@@ -2095,7 +2095,7 @@ if
 contentAsInputElem
 -
 >
-GetType
+ControlType
 (
 )
 =
@@ -2106,7 +2106,7 @@ NS_FORM_INPUT_TIME
 contentAsInputElem
 -
 >
-GetType
+ControlType
 (
 )
 =

@@ -8110,7 +8110,7 @@ if
 formControl
 -
 >
-GetType
+ControlType
 (
 )
 =
