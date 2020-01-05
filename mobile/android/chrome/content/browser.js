@@ -43409,6 +43409,10 @@ speculativeConnect
 window
 :
 window
+originAttributes
+:
+{
+}
 }
 )
 ;
