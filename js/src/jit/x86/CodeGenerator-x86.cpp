@@ -6016,7 +6016,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -6601,7 +6601,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -7513,7 +7513,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -7830,7 +7830,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

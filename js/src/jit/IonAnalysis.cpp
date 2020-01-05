@@ -2347,7 +2347,7 @@ MOZ_ASSERT
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 "
@@ -15304,7 +15304,7 @@ if
 mir
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )

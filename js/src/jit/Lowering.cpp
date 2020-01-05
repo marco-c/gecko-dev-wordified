@@ -925,7 +925,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 &
@@ -31608,7 +31608,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -31665,7 +31665,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -34109,7 +34109,7 @@ mir
 )
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 &

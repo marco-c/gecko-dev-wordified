@@ -1204,7 +1204,7 @@ framePushed
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 ?

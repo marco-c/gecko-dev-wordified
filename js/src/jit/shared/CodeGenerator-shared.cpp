@@ -513,7 +513,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -801,7 +801,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -922,7 +922,7 @@ MOZ_ASSERT
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -1090,7 +1090,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -1278,7 +1278,7 @@ MOZ_ASSERT_IF
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 code
@@ -9872,7 +9872,7 @@ widenFloatToDouble
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 )
@@ -10622,7 +10622,7 @@ if
 gen
 -
 >
-compilingAsmJS
+compilingWasm
 (
 )
 &

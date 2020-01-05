@@ -20339,7 +20339,7 @@ bug
 .
 if
 (
-compilingAsmJS
+compilingWasm
 (
 )
 )
