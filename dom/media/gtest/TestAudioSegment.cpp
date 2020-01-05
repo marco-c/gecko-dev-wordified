@@ -1249,6 +1249,8 @@ T
 }
 }
 delete
+[
+]
 channels
 [
 0
@@ -1475,12 +1477,16 @@ T
 ;
 }
 delete
+[
+]
 output
 [
 0
 ]
 ;
 delete
+[
+]
 output
 ;
 }
