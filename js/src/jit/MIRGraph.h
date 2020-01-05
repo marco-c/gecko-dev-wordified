@@ -865,10 +865,6 @@ NewSplitEdge
 MIRGraph
 &
 graph
-const
-CompileInfo
-&
-info
 MBasicBlock
 *
 pred

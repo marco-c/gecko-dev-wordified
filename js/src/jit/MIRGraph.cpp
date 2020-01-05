@@ -1579,10 +1579,6 @@ NewSplitEdge
 MIRGraph
 &
 graph
-const
-CompileInfo
-&
-info
 MBasicBlock
 *
 pred
@@ -1602,7 +1598,7 @@ nullptr
 if
 (
 !
-pred
+succ
 -
 >
 pc
@@ -1633,7 +1629,12 @@ MBasicBlock
 New
 (
 graph
+succ
+-
+>
 info
+(
+)
 pred
 SPLIT_EDGE
 )
@@ -1714,7 +1715,12 @@ alloc
 MBasicBlock
 (
 graph
+succ
+-
+>
 info
+(
+)
 site
 SPLIT_EDGE
 )
