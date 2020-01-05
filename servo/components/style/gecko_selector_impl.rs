@@ -355,6 +355,7 @@ PseudoElement
 [
 inline
 ]
+pub
 fn
 as_atom
 (
