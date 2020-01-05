@@ -621,12 +621,9 @@ JS
 :
 NumberValue
 (
-0
+kMaxClientWaitSyncTimeoutNS
 )
 ;
-/
-/
-TODO
 case
 LOCAL_GL_MAX_ELEMENT_INDEX
 :
