@@ -305,13 +305,6 @@ SeekTaskPromise
 >
 Seek
 (
-const
-media
-:
-:
-TimeUnit
-&
-aDuration
 )
 override
 ;
