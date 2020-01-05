@@ -925,17 +925,6 @@ rect
 of
 the
 opener
-nsCOMArray
-<
-nsIWeakReference
->
-mTargetableShells
-;
-/
-/
-targetable
-shells
-only
 nsCOMPtr
 <
 nsITabParent
