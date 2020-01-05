@@ -474,12 +474,6 @@ nsIPrincipal
 >
 mSystemPrincipal
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-mLoaderGlobal
-;
 class
 ModuleEntry
 :
