@@ -186,10 +186,6 @@ mozilla
 namespace
 gmp
 {
-using
-namespace
-eme
-;
 ChromiumCDMParent
 :
 :
@@ -6410,9 +6406,6 @@ decrypt
 >
 PostResult
 (
-eme
-:
-:
 AbortedErr
 )
 ;

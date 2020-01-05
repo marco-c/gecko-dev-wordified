@@ -239,9 +239,6 @@ if
 aResult
 =
 =
-eme
-:
-:
 Ok
 )
 {
@@ -301,9 +298,6 @@ if
 aResult
 =
 =
-eme
-:
-:
 NoKeyErr
 )
 {
