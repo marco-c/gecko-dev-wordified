@@ -83,9 +83,7 @@ wrapper
 :
 {
 After
-AfterBlock
 Before
-BeforeBlock
 Normal
 }
 ;
@@ -248,8 +246,9 @@ get_pseudo_element_type
 )
 {
 Before
-|
-BeforeBlock
+(
+_
+)
 =
 >
 {
@@ -282,8 +281,9 @@ unwrap
 )
 }
 After
-|
-AfterBlock
+(
+_
+)
 =
 >
 {
