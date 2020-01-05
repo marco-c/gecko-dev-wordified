@@ -1743,6 +1743,7 @@ next
 some
 helpers
 let
+mut
 glyph_span
 :
 MutableRange
@@ -1797,6 +1798,7 @@ than
 byte_max
 .
 let
+mut
 char_byte_span
 :
 MutableRange
@@ -2574,6 +2576,7 @@ covsp
 -
 ]
 let
+mut
 covered_byte_span
 =
 copy
