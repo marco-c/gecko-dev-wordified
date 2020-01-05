@@ -1173,7 +1173,7 @@ scopeForTargetObjects
 {
 /
 /
-CPWOWs
+CPOWs
 from
 the
 child
