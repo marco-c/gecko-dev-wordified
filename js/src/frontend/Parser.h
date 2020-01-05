@@ -5530,12 +5530,10 @@ args
 public
 :
 bool
-zeport
+qeport
 (
 ParseReportKind
 kind
-bool
-strict
 unsigned
 errorNumber
 .
