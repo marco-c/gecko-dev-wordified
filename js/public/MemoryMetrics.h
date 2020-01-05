@@ -4249,6 +4249,13 @@ macro
 (
 Other
 MallocHeap
+templateLiteralMap
+)
+\
+macro
+(
+Other
+MallocHeap
 jitCompartment
 )
 \
