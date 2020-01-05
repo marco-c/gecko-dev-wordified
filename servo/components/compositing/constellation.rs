@@ -201,6 +201,12 @@ ipc_channel
 :
 :
 ipc
+:
+:
+{
+self
+IpcSender
+}
 ;
 use
 layout_traits
@@ -447,7 +453,6 @@ mpsc
 :
 :
 {
-Sender
 Receiver
 channel
 }
@@ -1440,7 +1445,7 @@ Option
 <
 (
 PipelineId
-Sender
+IpcSender
 <
 webdriver_msg
 :
@@ -6164,7 +6169,7 @@ FrameId
 >
 resp_chan
 :
-Sender
+IpcSender
 <
 Option
 <
@@ -6283,7 +6288,7 @@ subpage_id
 SubpageId
 resp_chan
 :
-Sender
+IpcSender
 <
 Option
 <

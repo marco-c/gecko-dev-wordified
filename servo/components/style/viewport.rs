@@ -2180,6 +2180,8 @@ derive
 (
 Debug
 PartialEq
+Deserialize
+Serialize
 )
 ]
 pub

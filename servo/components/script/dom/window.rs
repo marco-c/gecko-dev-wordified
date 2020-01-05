@@ -601,6 +601,15 @@ Size2D
 }
 ;
 use
+ipc_channel
+:
+:
+ipc
+:
+:
+IpcSender
+;
+use
 js
 :
 :
@@ -1453,7 +1462,7 @@ RefCell
 <
 Option
 <
-Sender
+IpcSender
 <
 WebDriverJSResult
 >
@@ -4521,7 +4530,7 @@ chan
 :
 Option
 <
-Sender
+IpcSender
 <
 WebDriverJSResult
 >
@@ -7318,7 +7327,7 @@ chan
 :
 Option
 <
-Sender
+IpcSender
 <
 WebDriverJSResult
 >

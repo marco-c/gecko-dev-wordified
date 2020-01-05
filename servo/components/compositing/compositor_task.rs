@@ -116,7 +116,10 @@ ipc_channel
 ipc
 :
 :
+{
 IpcReceiver
+IpcSender
+}
 ;
 use
 layers
@@ -1596,7 +1599,7 @@ channel
 .
 CreatePng
 (
-Sender
+IpcSender
 <
 Option
 <
