@@ -1792,9 +1792,7 @@ getInputDetails
 (
 formFillController
 .
-getFocusedInput
-(
-)
+focusedInput
 )
 ;
 }
@@ -1867,9 +1865,7 @@ getFormDetails
 (
 formFillController
 .
-getFocusedInput
-(
-)
+focusedInput
 )
 ;
 }
