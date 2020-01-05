@@ -6882,6 +6882,7 @@ updatePlaces
 (
 places
 options
+true
 )
 ;
 }
