@@ -3626,7 +3626,7 @@ let
 AbsoluteAssignBSizesTraversal
 (
 ref
-ctx
+layout_context
 )
 =
 *
@@ -3637,7 +3637,7 @@ block_flow
 calculate_absolute_block_size_and_margins
 (
 *
-ctx
+layout_context
 )
 ;
 }
@@ -8843,9 +8843,7 @@ self
 .
 fragment
 .
-content_box
-(
-)
+border_box
 .
 size
 .
