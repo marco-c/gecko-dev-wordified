@@ -1535,12 +1535,7 @@ T
 (
 )
 const
-#
-ifdef
-MOZ_HAVE_REF_QUALIFIERS
 &
-#
-endif
 /
 *
 .
@@ -1618,9 +1613,6 @@ get
 )
 ;
 }
-#
-ifdef
-MOZ_HAVE_REF_QUALIFIERS
 /
 /
 Don
@@ -1734,8 +1726,6 @@ return
 mRawPtr
 ;
 }
-#
-endif
 T
 *
 operator
