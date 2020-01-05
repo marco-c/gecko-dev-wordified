@@ -296,7 +296,6 @@ Transport
 layer
 overrides
 .
-virtual
 TransportResult
 SendPacket
 (
@@ -308,6 +307,7 @@ data
 size_t
 len
 )
+override
 ;
 /
 /
