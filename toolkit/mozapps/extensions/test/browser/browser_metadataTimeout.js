@@ -162,11 +162,11 @@ oldXHRConstructor
 =
 ARContext
 .
-XHRequest
+ServiceRequest
 ;
 ARContext
 .
-XHRequest
+ServiceRequest
 =
 function
 (
@@ -845,7 +845,7 @@ constructor
 back
 ARContext
 .
-XHRequest
+ServiceRequest
 =
 oldXHRConstructor
 ;
