@@ -4478,6 +4478,13 @@ start
 :
 0
 ;
+-
+moz
+-
+appearance
+:
+none
+;
 }
 xul
 |
@@ -4867,6 +4874,13 @@ inline
 start
 :
 0
+;
+-
+moz
+-
+appearance
+:
+none
 ;
 }
 xul
