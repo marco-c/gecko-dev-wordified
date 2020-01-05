@@ -223,9 +223,8 @@ RawServoAnimationValueMap
 ;
 typedef
 RawServoAnimationValueMap
-const
 *
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 ;
 namespace
 mozilla
@@ -1237,7 +1236,7 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 aAnimationValues
 )
 ;

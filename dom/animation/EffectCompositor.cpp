@@ -3123,7 +3123,7 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMapBorrowed
+RawServoAnimationValueMapBorrowedMut
 aAnimationValues
 )
 {

@@ -168,11 +168,6 @@ RawServoAnimationValue
 )
 SERVO_ARC_TYPE
 (
-AnimationValueMap
-RawServoAnimationValueMap
-)
-SERVO_ARC_TYPE
-(
 MediaList
 RawServoMediaList
 )
