@@ -542,15 +542,14 @@ break
 *
 Enable
 the
-SPS
-profiler
+Gecko
+Profiler
 with
 some
 settings
 and
 then
 pause
-*
 immediately
 .
 *
