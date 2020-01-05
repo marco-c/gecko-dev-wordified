@@ -1048,13 +1048,6 @@ return
 true
 ;
 }
-bool
-SupportsApzTouchInput
-(
-)
-const
-override
-;
 /
 /
 Recreate
