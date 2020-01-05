@@ -229,10 +229,6 @@ WebGLUniformLocationBinding
 Wrap
 )
 }
-}
-impl
-WebGLUniformLocation
-{
 pub
 fn
 id
