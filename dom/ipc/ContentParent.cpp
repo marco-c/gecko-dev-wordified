@@ -942,6 +942,15 @@ include
 "
 mozilla
 /
+TelemetryIPC
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WebBrowserPersistDocumentParent
 .
 h
@@ -27469,7 +27478,7 @@ IPCResult
 ContentParent
 :
 :
-RecvAccumulateChildHistogram
+RecvAccumulateChildHistograms
 (
 InfallibleTArray
 <
@@ -27480,10 +27489,10 @@ Accumulation
 aAccumulations
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
-AccumulateChild
+AccumulateChildHistograms
 (
 GeckoProcessType_Content
 aAccumulations
@@ -27505,7 +27514,7 @@ IPCResult
 ContentParent
 :
 :
-RecvAccumulateChildKeyedHistogram
+RecvAccumulateChildKeyedHistograms
 (
 InfallibleTArray
 <
@@ -27516,10 +27525,10 @@ KeyedAccumulation
 aAccumulations
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
-AccumulateChildKeyed
+AccumulateChildKeyedHistograms
 (
 GeckoProcessType_Content
 aAccumulations
@@ -27552,7 +27561,7 @@ ScalarAction
 aScalarActions
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
 UpdateChildScalars
@@ -27588,7 +27597,7 @@ KeyedScalarAction
 aScalarActions
 )
 {
-Telemetry
+TelemetryIPC
 :
 :
 UpdateChildKeyedScalars
