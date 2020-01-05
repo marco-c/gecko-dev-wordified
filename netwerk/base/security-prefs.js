@@ -652,8 +652,9 @@ cpp
 .
 /
 /
-4
+3
 =
+only
 allow
 SHA
 -
@@ -661,9 +662,6 @@ SHA
 for
 certificates
 issued
-before
-2016
-or
 by
 an
 imported
@@ -678,7 +676,7 @@ pki
 .
 sha1_enforcement_level
 "
-4
+3
 )
 ;
 /
