@@ -1129,8 +1129,6 @@ uint8_t
 >
 &
 aBuffer
-uint64_t
-aDurationUsecs
 )
 {
 LOGV
@@ -1236,7 +1234,6 @@ SendDecrypt
 aId
 aBuffer
 data
-aDurationUsecs
 )
 ;
 }
@@ -1253,7 +1250,6 @@ SendDecrypt
 aId
 aBuffer
 data
-aDurationUsecs
 )
 ;
 }
