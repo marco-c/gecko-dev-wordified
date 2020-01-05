@@ -18840,11 +18840,8 @@ UniqueProfilerBacktrace
 new
 ProfilerBacktrace
 (
-"
-SyncProfile
-"
-tid
 buffer
+threadInfo
 )
 )
 ;
