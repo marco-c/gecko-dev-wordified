@@ -946,6 +946,8 @@ GetMozOrientation
 nsString
 &
 aOrientation
+CallerType
+aCallerType
 )
 const
 {
@@ -956,6 +958,7 @@ mScreenOrientation
 >
 DeviceType
 (
+aCallerType
 )
 )
 {

@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScreenOrientationBinding
 .
 h
@@ -372,6 +383,8 @@ device
 OrientationType
 DeviceType
 (
+CallerType
+aCallerType
 )
 const
 ;

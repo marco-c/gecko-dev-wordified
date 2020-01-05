@@ -564,6 +564,14 @@ GetMozOrientation
 nsString
 &
 aOrientation
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 const
 ;
