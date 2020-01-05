@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-unboxed
--
-arrays
 let
 moduleRepo
 =

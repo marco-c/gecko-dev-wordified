@@ -3138,7 +3138,7 @@ AbortReasonOr
 <
 Ok
 >
-setElemTryDense
+initOrSetElemTryDense
 (
 bool
 *
@@ -3180,7 +3180,7 @@ AbortReasonOr
 <
 Ok
 >
-setElemTryCache
+initOrSetElemTryCache
 (
 bool
 *
@@ -4202,7 +4202,7 @@ AbortReasonOr
 <
 Ok
 >
-jsop_setelem_dense
+initOrSetElemDense
 (
 TemporaryTypeSet
 :
