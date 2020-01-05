@@ -5331,7 +5331,7 @@ WrapForJNI
 dispatchTo
 =
 "
-gecko_priority
+gecko
 "
 )
 private

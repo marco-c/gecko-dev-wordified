@@ -563,7 +563,7 @@ any
 dispatchTo
 =
 "
-gecko_priority
+gecko
 "
 )
 /

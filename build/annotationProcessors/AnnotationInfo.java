@@ -153,7 +153,6 @@ enum
 DispatchTarget
 {
 GECKO
-GECKO_PRIORITY
 PROXY
 CURRENT
 ;
