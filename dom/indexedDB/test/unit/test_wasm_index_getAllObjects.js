@@ -173,7 +173,7 @@ return
 }
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -190,7 +190,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 let
@@ -218,7 +218,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -235,7 +235,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -262,7 +262,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -279,7 +279,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -306,7 +306,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -323,7 +323,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -350,7 +350,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -367,7 +367,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -394,7 +394,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -411,7 +411,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -438,7 +438,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -455,7 +455,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary
@@ -482,7 +482,7 @@ binary
 ;
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -499,7 +499,7 @@ const
 )
 )
 )
-'
+"
 )
 ;
 binary

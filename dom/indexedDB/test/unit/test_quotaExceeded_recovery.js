@@ -254,7 +254,6 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
-;
 request
 .
 onsuccess
@@ -709,7 +708,6 @@ trans
 onabort
 =
 unexpectedSuccessHandler
-;
 ;
 trans
 .

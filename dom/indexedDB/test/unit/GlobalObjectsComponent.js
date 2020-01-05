@@ -119,8 +119,6 @@ nsISupports
 ]
 )
 runTest
-:
-function
 (
 )
 {

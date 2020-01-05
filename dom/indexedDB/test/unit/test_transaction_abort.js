@@ -1322,7 +1322,6 @@ preventDefault
 )
 ;
 }
-;
 objectStore
 =
 db

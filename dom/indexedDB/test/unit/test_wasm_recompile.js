@@ -113,7 +113,7 @@ undefined
 }
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -123,7 +123,7 @@ nop
 )
 )
 )
-'
+"
 )
 ;
 let

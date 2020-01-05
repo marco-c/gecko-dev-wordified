@@ -69,8 +69,6 @@ prototype
 =
 {
 runTest
-:
-function
 (
 )
 {

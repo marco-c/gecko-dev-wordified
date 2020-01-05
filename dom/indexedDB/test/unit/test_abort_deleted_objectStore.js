@@ -347,9 +347,9 @@ objectStore
 .
 get
 (
-'
+"
 foo
-'
+"
 )
 ;
 ok
@@ -412,9 +412,9 @@ objectStore
 .
 get
 (
-'
+"
 foo
-'
+"
 )
 ;
 ok
