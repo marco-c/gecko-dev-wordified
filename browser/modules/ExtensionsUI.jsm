@@ -3062,6 +3062,11 @@ callback
 =
 >
 {
+if
+(
+histkey
+)
+{
 this
 .
 histogram
@@ -3075,6 +3080,7 @@ Accepted
 "
 )
 ;
+}
 resolve
 (
 true
@@ -3105,6 +3111,11 @@ callback
 =
 >
 {
+if
+(
+histkey
+)
+{
 this
 .
 histogram
@@ -3118,6 +3129,7 @@ Rejected
 "
 )
 ;
+}
 resolve
 (
 false
