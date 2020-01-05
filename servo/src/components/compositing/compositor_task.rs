@@ -142,6 +142,15 @@ NativeGraphicsMetadata
 }
 ;
 use
+layers
+:
+:
+layers
+:
+:
+LayerBufferSet
+;
+use
 servo_msg
 :
 :
@@ -150,7 +159,6 @@ compositor_msg
 :
 {
 Epoch
-LayerBufferSet
 LayerId
 LayerMetadata
 ReadyState

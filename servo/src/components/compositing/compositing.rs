@@ -316,10 +316,7 @@ mod
 compositor_task
 ;
 mod
-quadtree
-;
-mod
-compositor_layer
+compositor_data
 ;
 mod
 compositor
