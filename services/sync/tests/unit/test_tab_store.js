@@ -852,7 +852,7 @@ tabs
 urlHistory
 .
 length
-25
+5
 )
 ;
 equal
@@ -886,14 +886,14 @@ tabs
 .
 urlHistory
 [
-24
+4
 ]
 "
 http
 :
 /
 /
-foo16
+foo36
 .
 bar
 "
