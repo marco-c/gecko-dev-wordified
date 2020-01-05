@@ -1311,6 +1311,10 @@ enabled
 "
 )
 .
+as_boolean
+(
+)
+.
 unwrap_or
 (
 false

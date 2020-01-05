@@ -522,12 +522,6 @@ true
 ;
 temp_opts
 .
-resources_path
-=
-None
-;
-temp_opts
-.
 url
 =
 None
