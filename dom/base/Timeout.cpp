@@ -612,7 +612,7 @@ has
 a
 refcount
 of
-1
+aCount
 .
 This
 is
@@ -640,8 +640,10 @@ bool
 Timeout
 :
 :
-HasRefCntOne
+HasRefCnt
 (
+uint32_t
+aCount
 )
 const
 {
@@ -653,7 +655,7 @@ get
 )
 =
 =
-1
+aCount
 ;
 }
 #
