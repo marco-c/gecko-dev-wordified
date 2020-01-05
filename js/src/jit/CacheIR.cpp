@@ -13194,13 +13194,6 @@ CacheKind
 :
 :
 SetProp
-&
-&
-!
-IsPreliminaryObject
-(
-obj
-)
 )
 {
 writer
