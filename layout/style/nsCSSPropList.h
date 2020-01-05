@@ -3495,6 +3495,8 @@ allowed
 VARIANT_NONE
 |
 VARIANT_IDENTIFIER_NO_INHERIT
+|
+VARIANT_STRING
 /
 /
 used
@@ -9244,7 +9246,7 @@ offsetof
 nsStyleOutline
 mOutlineWidth
 )
-eStyleAnimType_nscoord
+eStyleAnimType_Coord
 )
 CSS_PROP_SHORTHAND
 (
