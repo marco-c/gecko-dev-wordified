@@ -2260,17 +2260,6 @@ mDecoderPosition
 )
 INIT_CANONICAL
 (
-mIsVisible
-!
-aOwner
--
->
-IsHidden
-(
-)
-)
-INIT_CANONICAL
-(
 mHasSuspendTaint
 false
 )
