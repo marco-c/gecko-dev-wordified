@@ -8539,6 +8539,10 @@ rv
 )
 )
 {
+SetHasExplicitBaseURI
+(
+)
+;
 NS_ADDREF
 (
 aURI

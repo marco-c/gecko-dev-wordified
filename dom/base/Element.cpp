@@ -1241,8 +1241,9 @@ const
 {
 MOZ_ASSERT
 (
-MayHaveClass
+HasFlag
 (
+NODE_MAY_HAVE_CLASS
 )
 "
 Unexpected
@@ -14729,8 +14730,9 @@ nsGkAtoms
 _class
 )
 {
-SetMayHaveClass
+SetFlags
 (
+NODE_MAY_HAVE_CLASS
 )
 ;
 /
