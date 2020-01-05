@@ -3052,10 +3052,10 @@ Request
 (
 )
 ;
-ClearOriginsParams
-requestParams
+ClearDataParams
+params
 ;
-requestParams
+params
 .
 pattern
 (
@@ -3076,7 +3076,7 @@ new
 RequestInfo
 (
 request
-requestParams
+params
 )
 )
 ;
