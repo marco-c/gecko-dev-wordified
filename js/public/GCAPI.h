@@ -3950,7 +3950,7 @@ gc
 detail
 :
 :
-CellIsMarkedGray
+TenuredCellIsMarkedGray
 (
 thing
 .
@@ -3979,7 +3979,7 @@ gc
 detail
 :
 :
-CellIsMarkedGray
+TenuredCellIsMarkedGray
 (
 thing
 .
