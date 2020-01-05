@@ -176,6 +176,10 @@ JS
 T
 >
 {
+#
+[
+inline
+]
 fn
 clone
 (
