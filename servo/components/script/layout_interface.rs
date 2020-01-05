@@ -883,9 +883,6 @@ hit_test
 (
 &
 self
-node
-:
-TrustedNodeAddress
 point
 :
 Point2D
@@ -907,9 +904,6 @@ mouse_over
 (
 &
 self
-node
-:
-TrustedNodeAddress
 point
 :
 Point2D
