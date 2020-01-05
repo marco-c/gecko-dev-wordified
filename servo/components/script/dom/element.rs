@@ -11962,11 +11962,7 @@ DOMString
 )
 -
 >
-Fallible
-<
-(
-)
->
+ErrorResult
 {
 let
 context_node
@@ -12185,11 +12181,7 @@ DOMString
 )
 -
 >
-Fallible
-<
-(
-)
->
+ErrorResult
 {
 let
 context_document

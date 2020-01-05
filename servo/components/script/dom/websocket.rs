@@ -200,6 +200,7 @@ error
 {
 Error
 Fallible
+ErrorResult
 }
 ;
 use
@@ -2912,11 +2913,7 @@ USVString
 )
 -
 >
-Fallible
-<
-(
-)
->
+ErrorResult
 {
 let
 data_byte_len
@@ -3042,11 +3039,7 @@ Blob
 )
 -
 >
-Fallible
-<
-(
-)
->
+ErrorResult
 {
 /
 *
@@ -3243,11 +3236,7 @@ USVString
 )
 -
 >
-Fallible
-<
-(
-)
->
+ErrorResult
 {
 if
 let
