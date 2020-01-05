@@ -328,6 +328,9 @@ String
 timelineActor
 :
 String
+profilerActor
+:
+String
 }
 pub
 struct
@@ -355,6 +358,10 @@ inspector
 String
 pub
 timeline
+:
+String
+pub
+profiler
 :
 String
 }
@@ -824,6 +831,15 @@ timelineActor
 self
 .
 timeline
+.
+clone
+(
+)
+profilerActor
+:
+self
+.
+profiler
 .
 clone
 (
