@@ -1035,7 +1035,8 @@ permissions
 0
 ;
 }
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -1435,7 +1436,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

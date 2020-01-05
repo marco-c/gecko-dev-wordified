@@ -333,6 +333,7 @@ app
 version
 change
 works
+async
 function
 run_test_1
 (
@@ -362,7 +363,8 @@ addon4
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -646,6 +648,7 @@ test_bootstrap1_1
 "
 )
 ]
+async
 function
 (
 )
@@ -987,7 +990,8 @@ uninstall_reason
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -1372,6 +1376,7 @@ app
 version
 change
 works
+async
 function
 run_test_2
 (
@@ -1409,7 +1414,8 @@ addon4
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1705,6 +1711,7 @@ prepare_schema_migrate
 }
 )
 ;
+async
 function
 prepare_schema_migrate
 (
@@ -2055,7 +2062,8 @@ version
 2
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )

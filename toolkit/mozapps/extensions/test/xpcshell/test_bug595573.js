@@ -118,11 +118,13 @@ test_bug595573
 "
 )
 ]
+async
 function
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

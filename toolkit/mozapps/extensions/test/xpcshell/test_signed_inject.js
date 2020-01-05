@@ -1720,7 +1720,8 @@ now
 60000
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1787,7 +1788,8 @@ breakAddon
 file
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

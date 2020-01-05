@@ -713,7 +713,8 @@ version
 5
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )
@@ -1041,7 +1042,8 @@ version
 5
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )

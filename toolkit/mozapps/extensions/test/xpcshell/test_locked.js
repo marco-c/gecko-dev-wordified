@@ -2995,7 +2995,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
