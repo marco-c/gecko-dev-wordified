@@ -629,6 +629,8 @@ NotifyD3D9DeviceReset
 (
 )
 ;
+private
+:
 /
 /
 Pre
@@ -659,8 +661,6 @@ PreloadAttachmentsOnCompositorThread
 (
 )
 ;
-private
-:
 IDXGIAdapter1
 *
 GetDXGIAdapter
