@@ -1543,9 +1543,6 @@ IpcReceiver
 <
 DevtoolScriptControlMsg
 >
-parent_rt
-:
-SharedRt
 worker_rt_for_mainthread
 :
 Arc

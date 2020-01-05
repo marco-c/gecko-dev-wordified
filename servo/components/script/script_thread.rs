@@ -1063,12 +1063,6 @@ use
 std
 :
 :
-ptr
-;
-use
-std
-:
-:
 rc
 :
 :
