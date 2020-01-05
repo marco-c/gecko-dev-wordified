@@ -57,19 +57,16 @@ MPL
 *
 /
 use
+channel
+:
+:
+MsgSender
+;
+use
 gleam
 :
 :
 gl
-;
-use
-ipc_channel
-:
-:
-ipc
-:
-:
-IpcSender
 ;
 use
 offscreen_gl_context
@@ -3671,7 +3668,7 @@ pixel_type
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 Vec
 <
@@ -3718,7 +3715,7 @@ index
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -3806,7 +3803,7 @@ index
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -3894,7 +3891,7 @@ name
 String
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -3960,7 +3957,7 @@ param_id
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -4642,7 +4639,7 @@ finish
 (
 chan
 :
-IpcSender
+MsgSender
 <
 (
 )
@@ -4680,7 +4677,7 @@ pname
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -4854,7 +4851,7 @@ param_id
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -4932,7 +4929,7 @@ param_id
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -5059,7 +5056,7 @@ param_id
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 WebGLResult
 <
@@ -5171,7 +5168,7 @@ name
 String
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5237,7 +5234,7 @@ shader_id
 WebGLShaderId
 chan
 :
-IpcSender
+MsgSender
 <
 String
 >
@@ -5278,7 +5275,7 @@ program_id
 WebGLProgramId
 chan
 :
-IpcSender
+MsgSender
 <
 String
 >
@@ -5316,7 +5313,7 @@ create_buffer
 (
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5384,7 +5381,7 @@ create_framebuffer
 (
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5452,7 +5449,7 @@ create_renderbuffer
 (
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5520,7 +5517,7 @@ create_texture
 (
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5588,7 +5585,7 @@ create_program
 (
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
@@ -5655,7 +5652,7 @@ shader_type
 u32
 chan
 :
-IpcSender
+MsgSender
 <
 Option
 <
