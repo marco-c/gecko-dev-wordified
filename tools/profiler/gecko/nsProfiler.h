@@ -155,6 +155,9 @@ nsProfiler
 bool
 mLockedForPrivateBrowsing
 ;
+bool
+mAsyncStacksWereEnabled
+;
 }
 ;
 #
