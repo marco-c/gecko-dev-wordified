@@ -327,6 +327,14 @@ JS
 T
 >
 {
+let
+TrustedNodeAddress
+(
+addr
+)
+=
+inner
+;
 JS
 {
 ptr
@@ -336,7 +344,7 @@ RefCell
 :
 new
 (
-inner
+addr
 as
 *
 mut

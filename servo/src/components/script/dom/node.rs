@@ -455,6 +455,12 @@ std
 :
 :
 libc
+;
+use
+std
+:
+:
+libc
 :
 :
 uintptr_t
@@ -4088,6 +4094,8 @@ self
 >
 TrustedNodeAddress
 {
+TrustedNodeAddress
+(
 self
 .
 get
@@ -4097,7 +4105,12 @@ as
 *
 Node
 as
-TrustedNodeAddress
+*
+libc
+:
+:
+c_void
+)
 }
 }
 /

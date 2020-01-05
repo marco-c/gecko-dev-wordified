@@ -16218,6 +16218,10 @@ dom_static
 .
 proxy_handlers
 .
+deref
+(
+)
+.
 get
 (
 &
@@ -19076,9 +19080,12 @@ body
 let
 cx
 =
+(
+*
 js_info
 .
 js_context
+)
 .
 deref
 (
@@ -39556,7 +39563,7 @@ bindings
 trace
 :
 :
-Traceable
+JSTraceable
 '
             
 '
@@ -47807,7 +47814,7 @@ bindings
 trace
 :
 :
-Traceable
+JSTraceable
 ;
 \
 n
@@ -48434,7 +48441,7 @@ Template
 '
 '
 impl
-Traceable
+JSTraceable
 for
 {
 name
