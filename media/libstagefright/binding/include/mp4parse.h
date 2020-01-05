@@ -293,6 +293,9 @@ image_width
 uint16_t
 image_height
 ;
+uint16_t
+rotation
+;
 mp4parse_byte_data
 extra_data
 ;
