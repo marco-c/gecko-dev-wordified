@@ -305,6 +305,11 @@ FoldTests
 \
 _
 (
+FoldEmptyBlocks
+)
+\
+_
+(
 SplitCriticalEdges
 )
 \
