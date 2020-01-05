@@ -129,11 +129,11 @@ self
 .
 context
 )
-	
+        
 if
 returncode
 :
-	    
+            
 sys
 .
 exit
@@ -1856,6 +1856,23 @@ processes
 processes
 ]
         
+hosts_file_path
+=
+path
+.
+join
+(
+'
+tests
+'
+'
+wpt
+'
+'
+hosts
+'
+)
+        
 return
 subprocess
 .
@@ -1892,5 +1909,8 @@ self
 .
 build_env
 (
+hosts_file_path
+=
+hosts_file_path
 )
 )

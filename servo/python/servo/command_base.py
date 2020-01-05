@@ -1108,6 +1108,9 @@ self
 gonk
 =
 False
+hosts_file_path
+=
+None
 )
 :
         
@@ -2563,6 +2566,19 @@ env
 ANDROID_TOOLCHAIN
 "
 ]
+        
+if
+hosts_file_path
+:
+            
+env
+[
+'
+HOST_FILE
+'
+]
+=
+hosts_file_path
         
 return
 env
