@@ -833,6 +833,13 @@ nsIUUIDGenerator
 "
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_ENABLE_PROFILER_SPS
+)
+{
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -857,6 +864,7 @@ nsIProfiler
 "
 )
 ;
+}
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -30118,9 +30126,15 @@ if
 (
 AppConstants
 .
+MOZ_ENABLE_PROFILER_SPS
+&
+&
+AppConstants
+.
 NIGHTLY_BUILD
-&
-&
+)
+{
+if
 (
 aStateFlags
 &
@@ -30129,7 +30143,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_START
-)
 )
 {
 Profiler
@@ -30160,11 +30173,6 @@ spec
 else
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 (
 aStateFlags
 &
@@ -30206,6 +30214,7 @@ originalURI
 spec
 )
 ;
+}
 }
 if
 (
