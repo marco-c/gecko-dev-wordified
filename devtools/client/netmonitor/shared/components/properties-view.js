@@ -585,6 +585,15 @@ return
 tr
 (
 {
+className
+:
+"
+editor
+-
+row
+-
+container
+"
 }
 td
 (

@@ -333,6 +333,17 @@ request
 }
 return
 (
+div
+(
+{
+className
+:
+"
+panel
+-
+container
+"
+}
 PropertiesView
 (
 {
@@ -344,6 +355,7 @@ sectionNames
 :
 SECTION_NAMES
 }
+)
 )
 )
 ;
