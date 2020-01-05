@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-selector_impl
-:
-:
-{
-GeckoSelectorImpl
-SharedStyleContext
-}
-;
-use
 std
 :
 :
@@ -93,6 +84,7 @@ context
 {
 LocalStyleContext
 StyleContext
+SharedStyleContext
 }
 ;
 thread_local
@@ -108,9 +100,6 @@ Option
 Rc
 <
 LocalStyleContext
-<
-GeckoSelectorImpl
->
 >
 >
 >
@@ -156,9 +145,6 @@ SharedStyleContext
 Rc
 <
 LocalStyleContext
-<
-GeckoSelectorImpl
->
 >
 {
 LOCAL_CONTEXT_KEY
@@ -279,9 +265,6 @@ cached_local_context
 Rc
 <
 LocalStyleContext
-<
-GeckoSelectorImpl
->
 >
 }
 impl
@@ -338,7 +321,6 @@ StyleContext
 <
 '
 a
-GeckoSelectorImpl
 >
 for
 StandaloneStyleContext
@@ -375,9 +357,6 @@ self
 >
 &
 LocalStyleContext
-<
-GeckoSelectorImpl
->
 {
 &
 self

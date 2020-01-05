@@ -252,10 +252,7 @@ style
 properties
 :
 :
-{
-ComputedValues
 ServoComputedValues
-}
 ;
 use
 text

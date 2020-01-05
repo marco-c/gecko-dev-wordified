@@ -434,15 +434,6 @@ use
 style
 :
 :
-servo
-:
-:
-Stylesheet
-;
-use
-style
-:
-:
 str
 :
 :
@@ -455,7 +446,10 @@ style
 stylesheets
 :
 :
+{
+Stylesheet
 Origin
+}
 ;
 use
 url

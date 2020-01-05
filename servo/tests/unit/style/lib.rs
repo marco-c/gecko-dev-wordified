@@ -176,7 +176,6 @@ properties
 :
 {
 INITIAL_SERVO_VALUES
-ComputedValues
 get_writing_mode
 }
 ;

@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+allow
+(
+unsafe_code
+)
+]
 use
 app_units
 :
@@ -91,9 +99,6 @@ cmp
 max
 ;
 use
-style
-:
-:
 values
 :
 :
@@ -103,9 +108,6 @@ computed
 Angle
 ;
 use
-style
-:
-:
 values
 :
 :

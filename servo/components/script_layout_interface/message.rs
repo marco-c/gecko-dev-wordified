@@ -210,7 +210,7 @@ use
 style
 :
 :
-servo
+stylesheets
 :
 :
 Stylesheet

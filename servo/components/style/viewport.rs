@@ -193,10 +193,7 @@ use
 properties
 :
 :
-{
 ComputedValues
-ServoComputedValues
-}
 ;
 use
 std
@@ -4650,7 +4647,7 @@ viewport_size
 initial_viewport
 inherited_style
 :
-ServoComputedValues
+ComputedValues
 :
 :
 initial_values
@@ -4658,7 +4655,7 @@ initial_values
 )
 style
 :
-ServoComputedValues
+ComputedValues
 :
 :
 initial_values

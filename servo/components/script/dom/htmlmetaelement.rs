@@ -265,15 +265,6 @@ use
 style
 :
 :
-servo
-:
-:
-Stylesheet
-;
-use
-style
-:
-:
 str
 :
 :
@@ -287,6 +278,7 @@ stylesheets
 :
 :
 {
+Stylesheet
 CSSRule
 Origin
 }

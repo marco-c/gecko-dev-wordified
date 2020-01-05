@@ -409,15 +409,6 @@ use
 style
 :
 :
-properties
-:
-:
-ComputedValues
-;
-use
-style
-:
-:
 refcell
 :
 :
