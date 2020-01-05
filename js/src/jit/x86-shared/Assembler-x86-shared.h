@@ -7530,7 +7530,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -7545,12 +7545,6 @@ callerOffset
 code
 +
 calleeOffset
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 }
@@ -7590,7 +7584,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -7609,12 +7603,6 @@ offset
 code
 +
 targetOffset
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 }
@@ -7673,7 +7661,7 @@ code
 =
 masm
 .
-acquireData
+data
 (
 )
 ;
@@ -7690,12 +7678,6 @@ offset
 (
 )
 n
-)
-;
-masm
-.
-releaseData
-(
 )
 ;
 }
