@@ -1673,6 +1673,10 @@ bool
 aTryToSaveOldPresentation
 =
 true
+bool
+aCheckPermitUnload
+=
+true
 )
 ;
 nsresult

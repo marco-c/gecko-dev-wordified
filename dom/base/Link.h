@@ -743,7 +743,7 @@ by
 HTMLLinkElement
 .
 void
-TryDNSPrefetchPreconnectOrPrefetch
+TryDNSPrefetchPreconnectOrPrefetchOrPrerender
 (
 )
 ;
