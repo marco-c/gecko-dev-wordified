@@ -367,6 +367,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 /
 /
 -
