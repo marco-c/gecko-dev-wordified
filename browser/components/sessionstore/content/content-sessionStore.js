@@ -1294,7 +1294,7 @@ no
 longer
 pending
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 SessionStore
