@@ -1882,15 +1882,6 @@ value
 )
 ;
 }
-int
-EntrySize
-(
-)
-{
-return
-entrySize_
-;
-}
 /
 /
 We
@@ -2367,10 +2358,6 @@ paused_
 ;
 Atomic32
 active_
-;
-const
-int
-entrySize_
 ;
 /
 /
