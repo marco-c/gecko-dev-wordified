@@ -157,6 +157,7 @@ run
 (
 path
 session
+url_getter
 timeout
 =
 0
@@ -212,6 +213,24 @@ WebDriver
 session
 to
 expose
+.
+    
+:
+param
+url_getter
+:
+Function
+to
+get
+server
+url
+from
+test
+environment
+given
+        
+a
+protocol
 .
     
 :
@@ -287,6 +306,13 @@ fixtures
 Session
 (
 session
+)
+               
+fixtures
+.
+Server
+(
+url_getter
 )
 ]
     
