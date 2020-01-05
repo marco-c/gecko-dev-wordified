@@ -1070,6 +1070,10 @@ CancelAnimationsForNewBlock
 CancelableBlockState
 *
 aBlock
+CancelAnimationFlags
+aExtraFlags
+=
+Default
 )
 ;
 /
