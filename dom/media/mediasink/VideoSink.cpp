@@ -1450,7 +1450,9 @@ if
 v
 -
 >
-mSentToCompositor
+IsSentToCompositor
+(
+)
 )
 {
 /
@@ -2004,9 +2006,9 @@ VideoData
 frame
 -
 >
-mSentToCompositor
-=
-true
+MarkSentToCompositor
+(
+)
 ;
 if
 (
@@ -2473,7 +2475,9 @@ VideoData
 )
 -
 >
-mSentToCompositor
+IsSentToCompositor
+(
+)
 )
 {
 mFrameStats
