@@ -39,13 +39,6 @@ SkYUVSizeInfo_DEFINED
 #
 define
 SkYUVSizeInfo_DEFINED
-#
-include
-"
-SkSize
-.
-h
-"
 struct
 SkYUVSizeInfo
 {

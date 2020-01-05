@@ -159,14 +159,9 @@ element
 *
 /
 static
-std
-:
-:
-unique_ptr
-<
 SkCanvas
->
-Make
+*
+Create
 (
 const
 SkRect

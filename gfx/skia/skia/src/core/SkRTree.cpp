@@ -55,14 +55,7 @@ fCount
 )
 fAspectRatio
 (
-isfinite
-(
 aspectRatio
-)
-?
-aspectRatio
-:
-1
 )
 {
 }

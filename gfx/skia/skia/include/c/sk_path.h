@@ -88,7 +88,6 @@ sk_path_t
 *
 sk_path_new
 (
-void
 )
 ;
 /

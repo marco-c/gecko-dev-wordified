@@ -773,7 +773,7 @@ if
 fIntersections
 -
 >
-globalState
+debugGlobalState
 (
 )
 |
@@ -782,7 +782,7 @@ globalState
 fIntersections
 -
 >
-globalState
+debugGlobalState
 (
 )
 -

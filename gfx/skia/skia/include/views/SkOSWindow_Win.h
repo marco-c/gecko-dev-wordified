@@ -424,7 +424,7 @@ fSurface
 EGLConfig
 fConfig
 ;
-sk_sp
+SkAutoTUnref
 <
 const
 GrGLInterface

@@ -115,12 +115,6 @@ SkBitmap
 dst
 )
 {
-SkColorSpace
-*
-legacyColorSpace
-=
-nullptr
-;
 if
 (
 as_IB
@@ -132,7 +126,6 @@ image
 getROPixels
 (
 dst
-legacyColorSpace
 )
 &
 &
@@ -4365,12 +4358,6 @@ bm
 SkAutoPixmapUnlock
 apu
 ;
-SkColorSpace
-*
-legacyColorSpace
-=
-nullptr
-;
 if
 (
 as_IB
@@ -4387,7 +4374,6 @@ getROPixels
 (
 &
 bm
-legacyColorSpace
 )
 &
 &

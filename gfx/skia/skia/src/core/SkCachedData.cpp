@@ -47,13 +47,6 @@ SkDiscardableMemory
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 /
 /
 #

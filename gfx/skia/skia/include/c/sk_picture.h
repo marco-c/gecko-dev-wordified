@@ -91,7 +91,6 @@ sk_picture_recorder_t
 *
 sk_picture_recorder_new
 (
-void
 )
 ;
 /

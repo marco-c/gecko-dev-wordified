@@ -1461,14 +1461,9 @@ return
 nullptr
 ;
 }
-std
-:
-:
-unique_ptr
+SkAutoTDeleteArray
 <
 uint8_t
-[
-]
 >
 nameTableData
 (

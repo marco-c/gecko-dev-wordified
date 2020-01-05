@@ -49,7 +49,7 @@ h
 #
 include
 "
-SkRect
+SkTypes
 .
 h
 "

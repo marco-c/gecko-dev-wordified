@@ -72,7 +72,10 @@ ASTIdentifier
 (
 Position
 position
-String
+std
+:
+:
+string
 text
 )
 :
@@ -93,7 +96,10 @@ text
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -105,7 +111,10 @@ fText
 ;
 }
 const
-String
+std
+:
+:
+string
 fText
 ;
 typedef

@@ -97,6 +97,17 @@ g
 skia_launcher
 )
 .
+To
+enable
+include
+android_output
+as
+a
+/
+/
+gyp
+dependency
+.
 bool
 gSkDebugToStdOut
 =

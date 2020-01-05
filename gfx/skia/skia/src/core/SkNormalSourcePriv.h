@@ -319,7 +319,7 @@ GrGLSLProgramDataManager
 &
 pdman
 const
-GrFragmentProcessor
+GrProcessor
 &
 proc
 )
@@ -363,9 +363,11 @@ setNormalData
 const
 GrGLSLProgramDataManager
 &
+pdman
 const
-GrFragmentProcessor
+GrProcessor
 &
+proc
 )
 =
 0

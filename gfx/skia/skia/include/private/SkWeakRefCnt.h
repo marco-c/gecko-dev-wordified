@@ -504,11 +504,11 @@ is
 .
 *
 /
+virtual
 ~
 SkWeakRefCnt
 (
 )
-override
 {
 #
 ifdef

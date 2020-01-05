@@ -36,13 +36,6 @@ file
 #
 include
 "
-SkAutoMalloc
-.
-h
-"
-#
-include
-"
 SkEndian
 .
 h

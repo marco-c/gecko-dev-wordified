@@ -853,7 +853,7 @@ loading
 }
 ;
 mutable
-sk_sp
+SkAutoTUnref
 <
 PathGenerator
 >

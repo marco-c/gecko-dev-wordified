@@ -93,7 +93,6 @@ sk_data_t
 *
 sk_data_new_empty
 (
-void
 )
 ;
 /

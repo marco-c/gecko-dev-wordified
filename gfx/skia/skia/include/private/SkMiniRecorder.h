@@ -205,7 +205,7 @@ than
 :
 /
 /
-sk_sp
+SkAutoTUnref
 <
 SkPicture
 >

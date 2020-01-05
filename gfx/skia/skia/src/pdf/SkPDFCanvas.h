@@ -71,7 +71,6 @@ SkPDFDevice
 SkPDFCanvas
 (
 )
-override
 ;
 protected
 :
@@ -81,7 +80,7 @@ onClipRect
 const
 SkRect
 &
-SkClipOp
+ClipOp
 ClipEdgeStyle
 )
 override
@@ -92,7 +91,7 @@ onClipRRect
 const
 SkRRect
 &
-SkClipOp
+ClipOp
 ClipEdgeStyle
 )
 override
@@ -103,7 +102,7 @@ onClipPath
 const
 SkPath
 &
-SkClipOp
+ClipOp
 ClipEdgeStyle
 )
 override

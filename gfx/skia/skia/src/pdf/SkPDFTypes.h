@@ -1264,11 +1264,11 @@ SkPDFArray
 (
 )
 ;
+virtual
 ~
 SkPDFArray
 (
 )
-override
 ;
 /
 /
@@ -1540,11 +1540,11 @@ type
 nullptr
 )
 ;
+virtual
 ~
 SkPDFDict
 (
 )
-override
 ;
 /
 /
@@ -2025,7 +2025,6 @@ data
 SkPDFSharedStream
 (
 )
-override
 ;
 SkPDFDict
 *
@@ -2196,11 +2195,11 @@ SkStreamAsset
 stream
 )
 ;
+virtual
 ~
 SkPDFStream
 (
 )
-override
 ;
 SkPDFDict
 *

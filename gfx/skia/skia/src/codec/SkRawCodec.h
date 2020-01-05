@@ -152,7 +152,7 @@ int
 )
 override
 ;
-SkEncodedImageFormat
+SkEncodedFormat
 onGetEncodedFormat
 (
 )
@@ -160,10 +160,7 @@ const
 override
 {
 return
-SkEncodedImageFormat
-:
-:
-kDNG
+kDNG_SkEncodedFormat
 ;
 }
 SkISize
@@ -214,10 +211,7 @@ SkDngImage
 dngImage
 )
 ;
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 SkDngImage
 >

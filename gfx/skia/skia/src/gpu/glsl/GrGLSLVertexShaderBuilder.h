@@ -94,10 +94,6 @@ const
 GrShaderVar
 &
 posVar
-const
-char
-*
-rtAdjustName
 )
 ;
 private
@@ -107,6 +103,11 @@ onFinalize
 (
 )
 override
+;
+const
+char
+*
+fRtAdjustName
 ;
 friend
 class

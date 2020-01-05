@@ -45,13 +45,6 @@ h
 #
 include
 "
-SkArenaAlloc
-.
-h
-"
-#
-include
-"
 SkBlitRow
 .
 h
@@ -201,6 +194,22 @@ src_scale
 }
 else
 {
+#
+ifdef
+SK_SUPPORT_LEGACY_BROKEN_LERP
+unsigned
+dst_scale
+=
+255
+-
+SkAlphaMul
+(
+sa
+src_scale
+)
+;
+#
+else
 unsigned
 dst_scale
 =
@@ -210,6 +219,8 @@ sa
 src_scale
 )
 ;
+#
+endif
 dr
 =
 (
@@ -2499,7 +2510,7 @@ const
 SkPaint
 &
 paint
-SkArenaAlloc
+SkTBlitterAllocator
 *
 allocator
 )
@@ -2639,7 +2650,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_S32_BlitRowProc
 >
@@ -2683,7 +2694,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_S4444_Opaque
 >
@@ -2699,7 +2710,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_S4444_Blend
 >
@@ -2730,7 +2741,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_S16_Opaque
 >
@@ -2746,7 +2757,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_S16_Blend
 >
@@ -2825,7 +2836,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_SIndex8_Opaque
 >
@@ -2841,7 +2852,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_SIndex8_Blend
 >
@@ -2867,7 +2878,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_SIndex8A_Opaque
 >
@@ -2883,7 +2894,7 @@ blitter
 allocator
 -
 >
-make
+createT
 <
 Sprite_D16_SIndex8A_Blend
 >

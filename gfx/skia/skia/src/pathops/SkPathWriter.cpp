@@ -378,7 +378,7 @@ fPt
 )
 ;
 }
-bool
+void
 SkPathWriter
 :
 :
@@ -434,7 +434,6 @@ preflighted
 this
 .
 return
-true
 ;
 }
 if
@@ -465,11 +464,11 @@ degenerate
 line
 ?
 return
-true
 ;
 }
-if
+SkASSERT
 (
+!
 this
 -
 >
@@ -478,11 +477,7 @@ matchedLast
 pt
 )
 )
-{
-return
-false
 ;
-}
 if
 (
 fDefer
@@ -524,9 +519,6 @@ fDefer
 ]
 =
 pt
-;
-return
-true
 ;
 }
 void
@@ -2389,7 +2381,7 @@ first
 fPathPtr
 -
 >
-reversePathTo
+reverseAddPath
 (
 contour
 )

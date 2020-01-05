@@ -51,13 +51,6 @@ h
 #
 include
 "
-SkAutoMalloc
-.
-h
-"
-#
-include
-"
 vk
 /
 GrVkUniformHandler

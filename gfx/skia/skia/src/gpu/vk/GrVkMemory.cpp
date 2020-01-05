@@ -3494,10 +3494,7 @@ allocate
 a
 new
 subheap
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 GrVkSubHeap
 >
@@ -3841,10 +3838,7 @@ allocate
 a
 new
 subheap
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 GrVkSubHeap
 >

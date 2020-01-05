@@ -56,7 +56,10 @@ GrVkDefines
 h
 "
 class
-GrSamplerParams
+GrTextureAccess
+;
+class
+GrTextureParams
 ;
 class
 GrVkGpu
@@ -79,7 +82,7 @@ GrVkGpu
 *
 gpu
 const
-GrSamplerParams
+GrTextureParams
 &
 uint32_t
 mipLevels
@@ -106,7 +109,7 @@ uint16_t
 GenerateKey
 (
 const
-GrSamplerParams
+GrTextureParams
 &
 uint32_t
 mipLevels

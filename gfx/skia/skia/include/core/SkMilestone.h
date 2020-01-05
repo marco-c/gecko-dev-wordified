@@ -39,6 +39,6 @@ SK_MILESTONE
 #
 define
 SK_MILESTONE
-59
+55
 #
 endif

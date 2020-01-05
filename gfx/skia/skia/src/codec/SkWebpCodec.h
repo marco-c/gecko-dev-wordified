@@ -56,7 +56,7 @@ h
 #
 include
 "
-SkEncodedImageFormat
+SkEncodedFormat
 .
 h
 "
@@ -162,7 +162,7 @@ int
 )
 override
 ;
-SkEncodedImageFormat
+SkEncodedFormat
 onGetEncodedFormat
 (
 )
@@ -170,10 +170,7 @@ const
 override
 {
 return
-SkEncodedImageFormat
-:
-:
-kWEBP
+kWEBP_SkEncodedFormat
 ;
 }
 SkISize

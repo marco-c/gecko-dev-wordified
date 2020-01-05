@@ -69,6 +69,14 @@ fBaseRC
 (
 rc
 )
+fSubsetRC
+(
+rc
+.
+isForceConservativeRects
+(
+)
+)
 fDelta
 (
 aa

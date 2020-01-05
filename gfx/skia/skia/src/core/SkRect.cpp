@@ -42,13 +42,6 @@ SkRect
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 void
 SkIRect
 :
