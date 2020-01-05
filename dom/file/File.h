@@ -324,6 +324,9 @@ class
 OwningArrayBufferOrArrayBufferViewOrBlobOrUSVString
 ;
 class
+Promise
+;
+class
 Blob
 :
 public
@@ -1198,7 +1201,7 @@ ChromeOnly
 static
 already_AddRefed
 <
-File
+Promise
 >
 CreateFromFileName
 (
@@ -1225,7 +1228,7 @@ ChromeOnly
 static
 already_AddRefed
 <
-File
+Promise
 >
 CreateFromNsIFile
 (
