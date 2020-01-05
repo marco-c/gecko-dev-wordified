@@ -54709,7 +54709,7 @@ if
 tabChild
 -
 >
-TakeAwaitingLargeAlloc
+IsAwaitingLargeAlloc
 (
 )
 )
@@ -54730,6 +54730,13 @@ Allocation
 header
 !
 "
+)
+;
+tabChild
+-
+>
+StopAwaitingLargeAlloc
+(
 )
 ;
 outer
