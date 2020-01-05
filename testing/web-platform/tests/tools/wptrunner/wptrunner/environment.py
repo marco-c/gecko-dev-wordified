@@ -17,6 +17,7 @@ mozlog
 import
 get_default_logger
 handlers
+proxy
 from
 wptlogging
 import
@@ -1161,6 +1162,15 @@ server_logger
 component_filter
 =
 log_filter
+        
+server_logger
+=
+proxy
+.
+QueuedProxyLogger
+(
+server_logger
+)
         
 try
 :
