@@ -246,6 +246,9 @@ class
 CompositableForwarder
 ;
 class
+CompositorBridgeParentBase
+;
+class
 TextureForwarder
 ;
 class
@@ -506,6 +509,17 @@ virtual
 LegacySurfaceDescriptorAllocator
 *
 AsLegacySurfaceDescriptorAllocator
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CompositorBridgeParentBase
+*
+AsCompositorBridgeParentBase
 (
 )
 {
