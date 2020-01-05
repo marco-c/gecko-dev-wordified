@@ -138,9 +138,10 @@ builds
 derive
 (
 Clone
-PartialEq
 Debug
+Default
 HeapSizeOf
+PartialEq
 )
 ]
 pub

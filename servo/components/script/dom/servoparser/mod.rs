@@ -278,7 +278,10 @@ dom
 htmlscriptelement
 :
 :
+{
 HTMLScriptElement
+ScriptResult
+}
 ;
 use
 dom
@@ -1416,6 +1419,9 @@ script
 :
 &
 HTMLScriptElement
+result
+:
+ScriptResult
 )
 {
 assert
@@ -1532,6 +1538,7 @@ script
 .
 execute
 (
+result
 )
 ;
 self
@@ -1622,11 +1629,7 @@ self
 .
 document
 .
-get_pending_parsing_blocking_script
-(
-)
-.
-is_some
+has_pending_parsing_blocking_script
 (
 )
 {
@@ -2482,11 +2485,7 @@ self
 .
 document
 .
-get_pending_parsing_blocking_script
-(
-)
-.
-is_some
+has_pending_parsing_blocking_script
 (
 )
 {
