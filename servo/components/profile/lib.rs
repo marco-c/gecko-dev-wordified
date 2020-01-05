@@ -106,6 +106,10 @@ log
 ;
 extern
 crate
+ipc_channel
+;
+extern
+crate
 libc
 ;
 #
