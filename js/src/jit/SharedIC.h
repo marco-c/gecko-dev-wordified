@@ -7553,6 +7553,14 @@ scratch
 )
 ;
 void
+assumeStubFrame
+(
+MacroAssembler
+&
+masm
+)
+;
+void
 leaveStubFrame
 (
 MacroAssembler
