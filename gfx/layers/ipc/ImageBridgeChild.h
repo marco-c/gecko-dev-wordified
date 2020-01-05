@@ -2067,11 +2067,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsIEventTarget
-*
-aTarget
-=
-nullptr
 )
 override
 ;
