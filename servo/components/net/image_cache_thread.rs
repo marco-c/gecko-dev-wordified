@@ -2062,6 +2062,7 @@ width
 image
 .
 height
+None
 format
 bytes
 )
@@ -3107,6 +3108,7 @@ width
 image
 .
 height
+None
 format
 bytes
 )
