@@ -24784,6 +24784,9 @@ mYScale
 )
 )
 ;
+bool
+isPaintFinished
+=
 aMaskItem
 -
 >
@@ -24822,6 +24825,11 @@ SetContainer
 imgContainer
 )
 ;
+if
+(
+isPaintFinished
+)
+{
 *
 oldUserData
 =
@@ -24830,6 +24838,7 @@ Move
 newUserData
 )
 ;
+}
 aLayer
 -
 >
