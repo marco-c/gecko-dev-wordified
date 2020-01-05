@@ -10436,7 +10436,7 @@ const
 uint32_t
 PSM_DEFAULT_MAX_TLS_VERSION
 =
-3
+4
 ;
 uint32_t
 minFromPrefs
