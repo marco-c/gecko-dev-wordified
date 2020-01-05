@@ -469,7 +469,7 @@ see
 below
 )
 .
-ActiveThreadData
+UnprotectedData
 <
 ExecutableAllocator
 >
@@ -486,7 +486,7 @@ with
 patchable
 backedges
 .
-ActiveThreadData
+UnprotectedData
 <
 ExecutableAllocator
 >
@@ -896,7 +896,7 @@ bytecode
 address
 mappings
 .
-ActiveThreadData
+UnprotectedData
 <
 JitcodeGlobalTable
 *

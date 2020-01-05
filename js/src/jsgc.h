@@ -4401,7 +4401,7 @@ swept
 .
 *
 /
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 AllAllocKindArray
 <
@@ -5714,7 +5714,7 @@ the
 GC
 lock
 .
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 State
 >
@@ -6059,7 +6059,7 @@ took
 to
 execute
 .
-ActiveThreadOrGCTaskData
+UnprotectedData
 <
 mozilla
 :
