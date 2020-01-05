@@ -1122,6 +1122,12 @@ Session
 >
 mSessions
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+mDocument
+;
 /
 /
 It
