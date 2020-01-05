@@ -609,7 +609,7 @@ override
 ;
 \
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *
@@ -1886,7 +1886,7 @@ _class
 )
 :
 :
-Traverse
+TraverseNative
 \
 (
 void

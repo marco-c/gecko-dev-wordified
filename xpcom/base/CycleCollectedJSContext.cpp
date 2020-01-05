@@ -2113,7 +2113,7 @@ NS_IMETHODIMP
 JSGCThingParticipant
 :
 :
-Traverse
+TraverseNative
 (
 void
 *
@@ -2213,7 +2213,7 @@ NS_IMETHODIMP
 JSZoneParticipant
 :
 :
-Traverse
+TraverseNative
 (
 void
 *

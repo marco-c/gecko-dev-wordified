@@ -369,7 +369,7 @@ thing
 ;
 }
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *
@@ -525,7 +525,7 @@ thing
 ;
 }
 NS_IMETHOD
-Traverse
+TraverseNative
 (
 void
 *

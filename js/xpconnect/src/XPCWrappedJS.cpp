@@ -895,7 +895,7 @@ nsXPCWrappedJS
 )
 :
 :
-Traverse
+TraverseNative
 (
 void
 *
