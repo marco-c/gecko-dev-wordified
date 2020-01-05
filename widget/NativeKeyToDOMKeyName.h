@@ -2562,11 +2562,6 @@ KEY_MAP_GTK
 Help
 GDK_Help
 )
-KEY_MAP_ANDROID
-(
-Help
-AKEYCODE_ASSIST
-)
 /
 /
 Pause
