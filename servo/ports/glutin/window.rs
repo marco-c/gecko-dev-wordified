@@ -4237,6 +4237,7 @@ scroll_window
 (
 &
 self
+mut
 scroll_location
 :
 ScrollLocation
@@ -4271,6 +4272,7 @@ ScrollLocation
 :
 Delta
 (
+ref
 mut
 delta
 )
