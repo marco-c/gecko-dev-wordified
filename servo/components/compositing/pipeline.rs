@@ -245,6 +245,13 @@ Option
 SubpageId
 >
 pub
+parent_id
+:
+Option
+<
+PipelineId
+>
+pub
 script_chan
 :
 ScriptControlChan
@@ -411,6 +418,12 @@ subpage_id
 Option
 <
 SubpageId
+>
+parent_id
+:
+Option
+<
+PipelineId
 >
 constellation_chan
 :
@@ -805,6 +818,7 @@ new
 (
 id
 subpage_id
+parent_id
 script_chan
 LayoutControlChan
 (
@@ -828,6 +842,12 @@ subpage_id
 Option
 <
 SubpageId
+>
+parent_id
+:
+Option
+<
+PipelineId
 >
 script_chan
 :
@@ -868,6 +888,9 @@ id
 subpage_id
 :
 subpage_id
+parent_id
+:
+parent_id
 script_chan
 :
 script_chan
@@ -922,6 +945,9 @@ Load
 self
 .
 id
+self
+.
+parent_id
 self
 .
 load_data
