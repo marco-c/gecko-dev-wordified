@@ -70,10 +70,6 @@ removeMetadata
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 /
 /
 The

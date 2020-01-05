@@ -70,10 +70,6 @@ run_test
 (
 )
 {
-updateAppInfo
-(
-)
-;
 /
 /
 The

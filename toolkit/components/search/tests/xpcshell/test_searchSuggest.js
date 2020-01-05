@@ -217,10 +217,6 @@ removeMetadata
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 let
 server
 =

@@ -57,10 +57,6 @@ test
 "
 )
 ;
-updateAppInfo
-(
-)
-;
 useHttpServer
 (
 )

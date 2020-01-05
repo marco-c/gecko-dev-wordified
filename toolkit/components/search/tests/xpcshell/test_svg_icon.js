@@ -158,10 +158,6 @@ run_test
 (
 )
 {
-updateAppInfo
-(
-)
-;
 useHttpServer
 (
 )

@@ -74,10 +74,6 @@ removeCacheFile
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 do_load_manifest
 (
 "

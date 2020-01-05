@@ -61,10 +61,6 @@ removeMetadata
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 useHttpServer
 (
 )

@@ -120,10 +120,6 @@ run_test
 (
 )
 {
-updateAppInfo
-(
-)
-;
 do_load_manifest
 (
 "
