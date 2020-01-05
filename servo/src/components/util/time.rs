@@ -207,8 +207,8 @@ LayoutMainCategory
 LayoutShapingCategory
 LayoutDispListBuildCategory
 GfxRegenAvailableFontsCategory
+RenderingDrawingCategory
 RenderingPrepBuffCategory
-RenderingWaitSubtasksCategory
 RenderingCategory
 /
 /
@@ -528,7 +528,7 @@ vec
 push
 (
 (
-RenderingPrepBuffCategory
+RenderingDrawingCategory
 ~
 [
 ]
@@ -540,7 +540,7 @@ vec
 push
 (
 (
-RenderingWaitSubtasksCategory
+RenderingPrepBuffCategory
 ~
 [
 ]

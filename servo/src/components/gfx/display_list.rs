@@ -306,12 +306,6 @@ arc
 :
 ARC
 ;
-use
-std
-:
-:
-arc
-;
 /
 /
 /
