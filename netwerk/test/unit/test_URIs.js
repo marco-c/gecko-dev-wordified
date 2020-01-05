@@ -1061,7 +1061,6 @@ ftp
 /
 /
 foo
-:
 ftp
 .
 mozilla

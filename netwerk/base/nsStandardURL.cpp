@@ -5809,7 +5809,6 @@ password
 .
 mLen
 >
-=
 0
 )
 {
@@ -5844,6 +5843,16 @@ ShiftFromHost
 (
 diff
 )
+;
+}
+else
+{
+mPassword
+.
+mLen
+=
+-
+1
 ;
 }
 buf
@@ -11534,7 +11543,6 @@ if
 (
 passwordLen
 >
-=
 0
 )
 {
@@ -11569,6 +11577,14 @@ esc_AlwaysCopy
 buf
 ignoredOut
 )
+;
+}
+else
+{
+passwordLen
+=
+-
+1
 ;
 }
 if
@@ -11744,7 +11760,10 @@ passwordLen
 if
 (
 passwordLen
+>
+0
 )
+{
 mPassword
 .
 mPos
@@ -11759,6 +11778,7 @@ mLen
 +
 1
 ;
+}
 CALL_RUST_SETTER
 (
 SetUserPass

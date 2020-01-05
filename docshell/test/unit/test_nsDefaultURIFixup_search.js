@@ -772,7 +772,6 @@ http
 /
 /
 user
-:
 example
 .
 com
