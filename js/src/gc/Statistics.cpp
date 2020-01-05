@@ -5292,6 +5292,11 @@ ToMilliseconds
 )
 )
 ;
+fflush
+(
+stderr
+)
+;
 MOZ_CRASH
 (
 )
