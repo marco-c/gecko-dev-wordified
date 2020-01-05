@@ -6333,7 +6333,7 @@ CERT_LIST_TAIL
 certList
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -6380,7 +6380,7 @@ endEntityNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 cert
 )
@@ -6433,7 +6433,7 @@ rootNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 rootCert
 )
@@ -7596,7 +7596,7 @@ CERT_LIST_TAIL
 certList
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -7643,7 +7643,7 @@ endEntityNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 endEntityCert
 )
@@ -7679,7 +7679,7 @@ rootNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 rootCert
 )
@@ -8103,7 +8103,7 @@ CERT_LIST_TAIL
 certList
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 rootNode
 )
@@ -8117,7 +8117,7 @@ rootNode
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 !
 CERT_LIST_END
@@ -8148,7 +8148,7 @@ rootNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 rootCert
 )
@@ -8243,7 +8243,7 @@ CERT_LIST_HEAD
 certList
 )
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 endEntityNode
 )
@@ -8266,7 +8266,7 @@ endEntityNode
 >
 cert
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 endEntityCert
 )
@@ -8304,7 +8304,7 @@ SECSuccess
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 notAfter
 >

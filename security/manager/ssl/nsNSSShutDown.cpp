@@ -269,7 +269,7 @@ nsNSSShutDownList
 (
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 this
 =
@@ -314,7 +314,7 @@ lock
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 o
 )
@@ -357,7 +357,7 @@ singleton
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 o
 )
@@ -405,7 +405,7 @@ lock
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 o
 )
@@ -448,7 +448,7 @@ singleton
 return
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 o
 )
