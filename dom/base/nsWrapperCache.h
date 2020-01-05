@@ -216,6 +216,9 @@ class
 ImportRule
 ;
 class
+NameSpaceRule
+;
+class
 StyleRule
 ;
 class
@@ -1715,6 +1718,16 @@ css
 :
 :
 ImportRule
+;
+friend
+class
+mozilla
+:
+:
+css
+:
+:
+NameSpaceRule
 ;
 friend
 class
