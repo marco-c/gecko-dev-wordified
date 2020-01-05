@@ -193,7 +193,7 @@ _wn
 )
 -
 >
-GetScriptableInfo
+GetScriptable
 (
 )
 &
@@ -204,12 +204,7 @@ _wn
 )
 -
 >
-GetScriptableInfo
-(
-)
--
->
-GetCallback
+GetScriptable
 (
 )
 -

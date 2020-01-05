@@ -179,9 +179,6 @@ class
 XPCWrappedNativeTearOff
 ;
 class
-XPCNativeScriptableInfo
-;
-class
 XPCNativeScriptableCreateInfo
 ;
 class

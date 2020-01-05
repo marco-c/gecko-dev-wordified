@@ -569,12 +569,12 @@ mTearOff
 ;
 }
 inline
-XPCNativeScriptableInfo
+nsIXPCScriptable
 *
 XPCCallContext
 :
 :
-GetScriptableInfo
+GetScriptable
 (
 )
 const
@@ -585,7 +585,7 @@ HAVE_OBJECT
 )
 ;
 return
-mScriptableInfo
+mScriptable
 ;
 }
 inline
