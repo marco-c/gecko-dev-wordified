@@ -342,6 +342,11 @@ JSOP_PICK
 \
 _
 (
+JSOP_UNPICK
+)
+\
+_
+(
 JSOP_GOTO
 )
 \
