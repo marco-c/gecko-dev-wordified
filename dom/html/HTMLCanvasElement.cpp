@@ -6481,10 +6481,9 @@ HTMLCanvasElement
 :
 GetSurfaceSnapshot
 (
-gfxAlphaType
+bool
 *
-const
-aOutAlphaType
+aPremultAlpha
 )
 {
 if
@@ -6501,7 +6500,7 @@ mCurrentContext
 >
 GetSurfaceSnapshot
 (
-aOutAlphaType
+aPremultAlpha
 )
 ;
 }

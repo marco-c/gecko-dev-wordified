@@ -385,15 +385,6 @@ SENTINEL
 0xffff
 }
 ;
-enum
-class
-gfxAlphaType
-{
-Opaque
-Premult
-NonPremult
-}
-;
 #
 endif
 /
