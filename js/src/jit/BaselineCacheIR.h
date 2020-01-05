@@ -227,7 +227,7 @@ length_
 const
 uint8_t
 *
-gcTypes_
+fieldTypes_
 ;
 CacheIRStubInfo
 (
@@ -248,7 +248,7 @@ codeLength
 const
 uint8_t
 *
-gcTypes
+fieldTypes
 )
 :
 kind_
@@ -275,9 +275,9 @@ length_
 (
 codeLength
 )
-gcTypes_
+fieldTypes_
 (
-gcTypes
+fieldTypes
 )
 {
 MOZ_ASSERT
@@ -420,8 +420,8 @@ const
 StubField
 :
 :
-GCType
-gcType
+Type
+fieldType
 (
 uint32_t
 i
@@ -433,9 +433,9 @@ return
 StubField
 :
 :
-GCType
+Type
 )
-gcTypes_
+fieldTypes_
 [
 i
 ]
