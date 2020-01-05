@@ -502,9 +502,6 @@ console
 .
 groupEnd
 (
-"
-bar
-"
 )
 ;
 }
@@ -564,9 +561,6 @@ console
 .
 groupEnd
 (
-"
-foo
-"
 )
 ;
 }

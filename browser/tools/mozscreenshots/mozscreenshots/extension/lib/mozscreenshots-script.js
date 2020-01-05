@@ -103,10 +103,6 @@ console
 .
 groupEnd
 (
-"
-Grouped
-Message
-"
 )
 ;
 console

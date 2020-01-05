@@ -327,12 +327,6 @@ console
 .
 groupEnd
 (
-"
-b
-"
-"
-group
-"
 )
 ;
 }

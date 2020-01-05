@@ -263,9 +263,6 @@ console
 .
 groupEnd
 (
-"
-bug664131a
-"
 )
 '
 )

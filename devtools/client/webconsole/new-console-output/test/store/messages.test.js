@@ -2590,7 +2590,7 @@ console
 groupEnd
 (
 '
-foo
+bar
 '
 )
 "
