@@ -519,6 +519,9 @@ vp
 *
 jsval
 )
+-
+>
+JSBool
 {
 import
 io
@@ -632,6 +635,9 @@ cx
 vp
 JSVAL_NULL
 )
+;
+ret
+1_i32
 ;
 }
 }
