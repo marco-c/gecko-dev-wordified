@@ -4861,7 +4861,7 @@ targetFront
 {
 console
 .
-trace
+warn
 (
 "
 Got
@@ -4889,6 +4889,12 @@ mozilla
 org
 !
 "
+)
+;
+console
+.
+trace
+(
 )
 ;
 continue
@@ -5326,7 +5332,7 @@ DOCUMENT_NODE
 {
 console
 .
-trace
+warn
 (
 "
 Got
@@ -5351,6 +5357,12 @@ mozilla
 org
 !
 "
+)
+;
+console
+.
+trace
+(
 )
 ;
 }
