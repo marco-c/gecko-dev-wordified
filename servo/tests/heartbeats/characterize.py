@@ -167,6 +167,7 @@ LayoutStyleRecalc
 HEARTBEAT_DEFAULT_WINDOW_SIZE
 )
     
+#
 (
 "
 LayoutTextShaping
@@ -395,6 +396,10 @@ ENERGY_READER_BIN
 =
 "
 energymon
+-
+file
+-
+provider
 "
 ENERGY_READER_TEMP_OUTPUT
 =
@@ -1474,8 +1479,6 @@ renderer
 renderer
 =
 "
--
-c
 "
     
 #
@@ -1637,12 +1640,12 @@ add_argument
 (
 "
 -
-g
+w
 "
 "
 -
 -
-gpu
+webrender
 "
                         
 action
@@ -1654,12 +1657,9 @@ store_true
 help
 =
 "
-Rendering
-with
-GPU
-instead
-of
-CPU
+Use
+webrender
+backend
 "
 )
     
@@ -1893,14 +1893,14 @@ debug
 if
 args
 .
-gpu
+webrender
 :
         
 renderer
 =
 "
 -
-g
+w
 "
     
 if
