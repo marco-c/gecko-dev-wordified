@@ -5408,6 +5408,13 @@ CanUseExtraThreads
 &
 threads
 .
+cpuCount
+>
+1
+&
+&
+threads
+.
 wasmCompilationInProgress
 .
 compareExchange
