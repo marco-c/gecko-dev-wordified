@@ -425,6 +425,13 @@ CompositorWidget
 .
 h
 "
+#
+include
+"
+VRManager
+.
+h
+"
 namespace
 mozilla
 {

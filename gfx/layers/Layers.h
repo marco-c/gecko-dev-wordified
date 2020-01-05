@@ -2989,11 +2989,9 @@ BorderLayer
 CreateBorderLayer
 (
 )
-{
-return
-nullptr
+=
+0
 ;
-}
 /
 *
 *
