@@ -3414,6 +3414,17 @@ unit
 )
 ;
 void
+Gecko_CSSValue_SetPair
+(
+nsCSSValueBorrowedMut
+css_value
+nsCSSValueBorrowed
+xvalue
+nsCSSValueBorrowed
+yvalue
+)
+;
+void
 Gecko_CSSValue_Drop
 (
 nsCSSValueBorrowedMut
