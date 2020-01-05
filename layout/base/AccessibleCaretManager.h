@@ -1399,6 +1399,12 @@ GetFrameSelection
 )
 const
 ;
+nsAutoString
+StringifiedSelection
+(
+)
+const
+;
 /
 /
 Get
