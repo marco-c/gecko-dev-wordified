@@ -109,7 +109,7 @@ require
 "
 .
 /
-webbrowser
+tab
 "
 )
 ;

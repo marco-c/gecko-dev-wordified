@@ -87,7 +87,7 @@ server
 /
 actors
 /
-webbrowser
+tab
 "
 )
 ;
@@ -112,7 +112,7 @@ on
 TabActor
 defined
 in
-webbrowser
+tab
 .
 js
 .
