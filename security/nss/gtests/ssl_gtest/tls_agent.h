@@ -967,6 +967,15 @@ blocksize
 1024
 )
 ;
+void
+SendBuffer
+(
+const
+DataBuffer
+&
+buf
+)
+;
 /
 /
 Send
