@@ -633,6 +633,7 @@ WorkerEvent
 ServiceWorkerEvent
 EnterFullscreen
 ExitFullscreen
+WebVREvent
 }
 /
 /

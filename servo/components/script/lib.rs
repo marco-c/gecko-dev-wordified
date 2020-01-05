@@ -551,6 +551,10 @@ websocket
 ;
 extern
 crate
+webvr_traits
+;
+extern
+crate
 xml5ever
 ;
 mod

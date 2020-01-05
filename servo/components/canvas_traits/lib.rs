@@ -218,6 +218,7 @@ webrender_traits
 {
 WebGLCommand
 WebGLContextId
+VRCompositorCommand
 }
 ;
 #
@@ -268,6 +269,10 @@ FromScriptMsg
 WebGL
 (
 WebGLCommand
+)
+WebVR
+(
+VRCompositorCommand
 )
 }
 #

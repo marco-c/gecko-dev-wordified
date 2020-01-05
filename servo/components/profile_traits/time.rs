@@ -436,6 +436,9 @@ ScriptEnterFullscreen
 ScriptExitFullscreen
 =
 0x78
+ScriptWebVREvent
+=
+0x79
 ApplicationHeartbeat
 =
 0x90
