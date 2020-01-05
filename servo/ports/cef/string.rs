@@ -861,7 +861,7 @@ conv
 =
 result
 .
-utf16_units
+encode_utf16
 (
 )
 .
@@ -2258,7 +2258,7 @@ conv
 =
 result
 .
-utf16_units
+encode_utf16
 (
 )
 .

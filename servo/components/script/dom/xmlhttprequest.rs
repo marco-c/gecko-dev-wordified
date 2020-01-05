@@ -9266,7 +9266,7 @@ u16
 =
 json_text
 .
-utf16_units
+encode_utf16
 (
 )
 .
