@@ -855,6 +855,8 @@ cargo
 build
 "
 ]
++
+opts
                                   
 env
 =
