@@ -219,6 +219,8 @@ import
 ensureParentDir
     
 FileAvoidWrite
+    
+OrderedDefaultDict
 )
 from
 .
@@ -2381,7 +2383,7 @@ self
 .
 _compile_graph
 =
-defaultdict
+OrderedDefaultDict
 (
 set
 )
