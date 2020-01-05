@@ -32877,7 +32877,7 @@ is
 None
 :
             
-idexpr
+registerexpr
 =
 ExprCall
 (
@@ -32888,7 +32888,7 @@ protocol
 registerMethod
 (
 )
-                              
+                                    
 args
 =
 [
@@ -32899,7 +32899,7 @@ actorvar
 else
 :
             
-idexpr
+registerexpr
 =
 ExprCall
 (
@@ -32910,7 +32910,7 @@ protocol
 registerIDMethod
 (
 )
-                              
+                                    
 args
 =
 [
@@ -32955,25 +32955,7 @@ capitalize
             
 StmtExpr
 (
-ExprCall
-(
-ExprSelect
-(
-actorvar
-'
--
->
-'
-'
-SetId
-'
-)
-args
-=
-[
-idexpr
-]
-)
+registerexpr
 )
             
 StmtExpr
@@ -33801,9 +33783,48 @@ decl
 .
 type
         
+managervar
+=
+ExprVar
+(
+'
+mgr
+'
+)
+        
 return
 (
 [
+StmtDecl
+(
+Decl
+(
+Type
+(
+'
+IProtocol
+'
+ptr
+=
+1
+)
+managervar
+.
+name
+)
+                           
+init
+=
+self
+.
+protocol
+.
+managerVar
+(
+actorexpr
+)
+)
+                  
 StmtExpr
 (
 self
@@ -33837,14 +33858,7 @@ actorexpr
                       
 manager
 =
-self
-.
-protocol
-.
-managerVar
-(
-actorexpr
-)
+managervar
                       
 ipdltype
 =
@@ -34852,24 +34866,6 @@ args
 _actorId
 (
 )
-]
-)
-)
-                 
-StmtExpr
-(
-ExprCall
-(
-ExprVar
-(
-'
-SetId
-'
-)
-args
-=
-[
-_FREED_ACTOR_ID
 ]
 )
 )
