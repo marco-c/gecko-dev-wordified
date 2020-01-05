@@ -762,14 +762,6 @@ equals
 (
 ACTION_RESUME
 )
-|
-|
-mActionState
-.
-equals
-(
-ACTION_RESUME_BY_AUDIO_FOCUS
-)
 ;
 }
 private
@@ -1420,10 +1412,6 @@ notifyControlInterfaceChanged
 ACTION_RESUME
 )
 ;
-mActionState
-=
-ACTION_PAUSE_BY_AUDIO_FOCUS
-;
 }
 else
 if
@@ -1455,10 +1443,6 @@ notifyControlInterfaceChanged
 (
 ACTION_PAUSE
 )
-;
-mActionState
-=
-ACTION_RESUME_BY_AUDIO_FOCUS
 ;
 }
 }
