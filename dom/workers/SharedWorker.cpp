@@ -374,7 +374,7 @@ return
 nullptr
 ;
 }
-nsCString
+nsAutoString
 name
 ;
 if
@@ -388,13 +388,10 @@ IsString
 {
 name
 =
-NS_ConvertUTF16toUTF8
-(
 aOptions
 .
 GetAsString
 (
-)
 )
 ;
 }
@@ -411,8 +408,6 @@ IsWorkerOptions
 ;
 name
 =
-NS_ConvertUTF16toUTF8
-(
 aOptions
 .
 GetAsWorkerOptions
@@ -420,7 +415,6 @@ GetAsWorkerOptions
 )
 .
 mName
-)
 ;
 }
 RefPtr

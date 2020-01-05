@@ -196,7 +196,7 @@ mWorkerPrivate
 nsCString
 mScriptSpec
 ;
-nsCString
+nsString
 mName
 ;
 SharedWorkerInfo
@@ -209,7 +209,7 @@ nsACString
 &
 aScriptSpec
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -575,7 +575,7 @@ nsAString
 &
 aScriptURL
 const
-nsACString
+nsAString
 &
 aName
 SharedWorker
@@ -934,7 +934,7 @@ nsAString
 &
 aScriptURL
 const
-nsACString
+nsAString
 &
 aName
 SharedWorker

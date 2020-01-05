@@ -1532,7 +1532,7 @@ nsACString
 &
 aScriptSpec
 const
-nsACString
+nsAString
 &
 aName
 const
@@ -1589,7 +1589,10 @@ aKey
 .
 Append
 (
+NS_ConvertUTF16toUTF8
+(
 aName
+)
 )
 ;
 aKey
@@ -8266,15 +8269,16 @@ isSharedWorker
 )
 {
 const
-nsCString
+nsString
 &
 sharedWorkerName
-=
+(
 aWorkerPrivate
 -
 >
 WorkerName
 (
+)
 )
 ;
 nsAutoCString
@@ -12481,7 +12485,7 @@ nsAString
 &
 aScriptURL
 const
-nsACString
+nsAString
 &
 aName
 SharedWorker
@@ -12584,7 +12588,7 @@ nsAString
 &
 aScriptURL
 const
-nsACString
+nsAString
 &
 aName
 SharedWorker
@@ -12866,6 +12870,9 @@ aScriptURL
 false
 WorkerTypeShared
 aName
+NullCString
+(
+)
 aLoadInfo
 rv
 )
