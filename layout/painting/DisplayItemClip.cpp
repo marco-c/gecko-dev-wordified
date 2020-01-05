@@ -1196,7 +1196,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_X
+eCornerTopLeftX
 ]
 &
 &
@@ -1214,7 +1214,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_Y
+eCornerTopLeftY
 ]
 )
 {
@@ -1227,7 +1227,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_X
+eCornerTopLeftX
 ]
 rr
 .
@@ -1239,7 +1239,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_X
+eCornerTopLeftX
 ]
 rect
 .
@@ -1248,7 +1248,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_Y
+eCornerTopLeftY
 ]
 rr
 .
@@ -1260,7 +1260,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_LEFT_Y
+eCornerTopLeftY
 ]
 rect
 .
@@ -1297,7 +1297,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_X
+eCornerTopRightX
 ]
 &
 &
@@ -1315,7 +1315,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_Y
+eCornerTopRightY
 ]
 )
 {
@@ -1328,7 +1328,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_X
+eCornerTopRightX
 ]
 rr
 .
@@ -1342,7 +1342,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_X
+eCornerTopRightX
 ]
 rect
 .
@@ -1353,7 +1353,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_Y
+eCornerTopRightY
 ]
 rr
 .
@@ -1365,7 +1365,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_TOP_RIGHT_Y
+eCornerTopRightY
 ]
 rect
 .
@@ -1398,7 +1398,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_X
+eCornerBottomLeftX
 ]
 &
 &
@@ -1420,7 +1420,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_Y
+eCornerBottomLeftY
 ]
 )
 {
@@ -1433,7 +1433,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_X
+eCornerBottomLeftX
 ]
 rr
 .
@@ -1445,7 +1445,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_X
+eCornerBottomLeftX
 ]
 rect
 .
@@ -1454,7 +1454,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_Y
+eCornerBottomLeftY
 ]
 rr
 .
@@ -1468,7 +1468,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_LEFT_Y
+eCornerBottomLeftY
 ]
 rect
 .
@@ -1507,7 +1507,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_X
+eCornerBottomRightX
 ]
 &
 &
@@ -1529,7 +1529,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_Y
+eCornerBottomRightY
 ]
 )
 {
@@ -1542,7 +1542,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_X
+eCornerBottomRightX
 ]
 rr
 .
@@ -1556,7 +1556,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_X
+eCornerBottomRightX
 ]
 rect
 .
@@ -1567,7 +1567,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_Y
+eCornerBottomRightY
 ]
 rr
 .
@@ -1581,7 +1581,7 @@ rr
 .
 mRadii
 [
-NS_CORNER_BOTTOM_RIGHT_Y
+eCornerBottomRightY
 ]
 rect
 .
