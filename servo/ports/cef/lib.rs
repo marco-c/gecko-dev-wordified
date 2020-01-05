@@ -206,6 +206,10 @@ script
 ;
 extern
 crate
+script_traits
+;
+extern
+crate
 unicode
 ;
 extern

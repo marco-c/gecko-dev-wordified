@@ -158,6 +158,12 @@ KeyModifiers
 }
 ;
 use
+script_traits
+:
+:
+MouseButton
+;
+use
 url
 :
 :
@@ -216,7 +222,7 @@ MouseWindowEvent
 {
 Click
 (
-uint
+MouseButton
 TypedPoint2D
 <
 DevicePixel
@@ -225,7 +231,7 @@ f32
 )
 MouseDown
 (
-uint
+MouseButton
 TypedPoint2D
 <
 DevicePixel
@@ -234,7 +240,7 @@ f32
 )
 MouseUp
 (
-uint
+MouseButton
 TypedPoint2D
 <
 DevicePixel

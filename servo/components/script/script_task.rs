@@ -9705,7 +9705,7 @@ pipeline_id
 }
 ClickEvent
 (
-_button
+button
 point
 )
 =
@@ -9751,7 +9751,7 @@ self
 js_runtime
 .
 ptr
-_button
+button
 point
 )
 ;
