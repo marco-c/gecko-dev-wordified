@@ -147,6 +147,15 @@ include
 <
 iterator
 >
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 /
 *
 *
