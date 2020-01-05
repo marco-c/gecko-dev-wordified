@@ -6449,6 +6449,13 @@ kTextEmphasisStyleShapeKTable
 static
 const
 KTableEntry
+kTextJustifyKTable
+[
+]
+;
+static
+const
+KTableEntry
 kTextOrientationKTable
 [
 ]

@@ -1387,6 +1387,17 @@ layout
 .
 css
 .
+text
+-
+justify
+.
+enabled
+"
+"
+layout
+.
+css
+.
 touch_action
 .
 enabled

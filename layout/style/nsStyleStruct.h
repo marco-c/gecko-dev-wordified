@@ -13887,6 +13887,17 @@ see
 nsStyleConsts
 .
 h
+mozilla
+:
+:
+StyleTextJustify
+mTextJustify
+;
+/
+/
+[
+inherited
+]
 uint8_t
 mTextTransform
 ;

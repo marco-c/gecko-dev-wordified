@@ -2753,6 +2753,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetTextJustify
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetTextOrientation
 (
 )

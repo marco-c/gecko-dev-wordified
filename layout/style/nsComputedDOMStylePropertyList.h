@@ -1593,6 +1593,11 @@ TextIndent
 )
 COMPUTED_STYLE_PROP
 (
+text_justify
+TextJustify
+)
+COMPUTED_STYLE_PROP
+(
 text_orientation
 TextOrientation
 )
