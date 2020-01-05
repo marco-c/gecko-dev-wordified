@@ -220,6 +220,8 @@ profiler
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub

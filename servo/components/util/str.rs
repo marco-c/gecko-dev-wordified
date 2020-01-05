@@ -3944,6 +3944,8 @@ Eq
 PartialEq
 Hash
 Debug
+Deserialize
+Serialize
 )
 ]
 pub
