@@ -143,9 +143,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 topsites
 ;

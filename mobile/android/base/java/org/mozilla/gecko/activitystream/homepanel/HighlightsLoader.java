@@ -96,9 +96,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 ;
 import
 android
@@ -190,9 +190,9 @@ mozilla
 .
 gecko
 .
-home
-.
 activitystream
+.
+homepanel
 .
 model
 .
