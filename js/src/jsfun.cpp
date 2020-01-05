@@ -6879,17 +6879,6 @@ nullptr
 }
 else
 {
-MOZ_ASSERT
-(
-!
-fun
--
->
-isExprBody
-(
-)
-)
-;
 bool
 derived
 =

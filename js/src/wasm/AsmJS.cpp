@@ -20468,15 +20468,6 @@ ParseNode
 fn
 )
 {
-JSFunction
-*
-fun
-=
-FunctionObject
-(
-fn
-)
-;
 if
 (
 fn
@@ -20505,7 +20496,10 @@ allowed
 ;
 if
 (
-fun
+fn
+-
+>
+pn_funbox
 -
 >
 isExprBody

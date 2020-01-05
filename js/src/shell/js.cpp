@@ -16256,7 +16256,7 @@ false
 }
 if
 (
-fun
+script
 -
 >
 isExprBody
