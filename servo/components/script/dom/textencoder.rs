@@ -698,12 +698,12 @@ ptr
 :
 copy_nonoverlapping
 (
-js_object_data
 encoded
 .
 as_ptr
 (
 )
+js_object_data
 length
 as
 usize

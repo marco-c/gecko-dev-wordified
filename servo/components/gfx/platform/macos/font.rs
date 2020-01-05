@@ -242,15 +242,6 @@ use
 std
 :
 :
-num
-:
-:
-Float
-;
-use
-std
-:
-:
 ptr
 ;
 use

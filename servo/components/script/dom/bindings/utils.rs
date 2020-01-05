@@ -4668,7 +4668,7 @@ qualified_name
 .
 splitn
 (
-1
+2
 '
 :
 '

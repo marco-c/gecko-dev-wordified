@@ -162,10 +162,7 @@ util
 smallvec
 :
 :
-{
-SmallVec
 SmallVec8
-}
 ;
 use
 std
@@ -436,7 +433,7 @@ AzFloat
 static
 SMALL_CAPS_SCALE_FACTOR
 :
-f64
+f32
 =
 0
 .
@@ -1191,6 +1188,8 @@ in
 style
 .
 font_family
+.
+0
 .
 iter
 (

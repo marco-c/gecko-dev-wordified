@@ -77,15 +77,6 @@ box_syntax
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
-path
 rustc_private
 )
 ]

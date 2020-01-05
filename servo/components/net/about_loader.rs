@@ -140,15 +140,6 @@ use
 std
 :
 :
-borrow
-:
-:
-IntoCow
-;
-use
-std
-:
-:
 fs
 :
 :
@@ -265,7 +256,7 @@ RawStatus
 OK
 "
 .
-into_cow
+into
 (
 )
 )

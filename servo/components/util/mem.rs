@@ -1368,10 +1368,6 @@ doesn
 t
 fail
 .
-#
-[
-unsafe_destructor
-]
 impl
 <
 T

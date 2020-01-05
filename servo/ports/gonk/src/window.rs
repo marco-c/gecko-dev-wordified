@@ -450,7 +450,7 @@ u32
 reserved
 :
 [
-int
+isize
 ;
 4
 ]
@@ -558,7 +558,7 @@ f32
 oem
 :
 [
-int
+isize
 ;
 4
 ]
@@ -2282,7 +2282,7 @@ window
 .
 last_idx
 as
-uint
+usize
 {
 continue
 ;
@@ -4560,7 +4560,7 @@ unsafe
 {
 transmute
 (
-0i
+0isize
 )
 }
 ;

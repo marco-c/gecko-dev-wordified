@@ -123,14 +123,6 @@ rlib
 #
 !
 [
-feature
-(
-net
-)
-]
-#
-!
-[
 allow
 (
 non_snake_case
@@ -142,12 +134,6 @@ msg
 ;
 extern
 crate
-"
-rustc
--
-serialize
-"
-as
 rustc_serialize
 ;
 extern

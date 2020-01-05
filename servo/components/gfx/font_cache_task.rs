@@ -1415,7 +1415,6 @@ len
 {
 get_variations_for_family
 (
-&
 family_name
 |
 path

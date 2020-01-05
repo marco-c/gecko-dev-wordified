@@ -58,9 +58,7 @@ MPL
 /
 extern
 crate
-"
 time
-"
 as
 std_time
 ;

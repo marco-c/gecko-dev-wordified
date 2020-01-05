@@ -193,15 +193,6 @@ Sender
 }
 ;
 use
-std
-:
-:
-boxed
-:
-:
-BoxAny
-;
-use
 style
 :
 :
@@ -779,6 +770,7 @@ derive
 (
 PartialEq
 Copy
+Clone
 Debug
 )
 ]
@@ -1500,7 +1492,7 @@ precise_time_s
 pub
 start_time
 :
-f64
+f32
 /
 /
 /
@@ -1523,7 +1515,7 @@ precise_time_s
 pub
 end_time
 :
-f64
+f32
 }
 impl
 Animation
@@ -1553,7 +1545,7 @@ self
 )
 -
 >
-f64
+f32
 {
 self
 .

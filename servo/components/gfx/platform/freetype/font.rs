@@ -293,15 +293,6 @@ use
 std
 :
 :
-num
-:
-:
-Float
-;
-use
-std
-:
-:
 ptr
 ;
 use
@@ -431,10 +422,6 @@ handle
 :
 FontContextHandle
 }
-#
-[
-unsafe_destructor
-]
 impl
 Drop
 for

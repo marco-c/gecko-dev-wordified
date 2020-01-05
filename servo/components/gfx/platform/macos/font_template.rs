@@ -289,7 +289,6 @@ font
 :
 new_from_name
 (
-&
 identifier
 0
 .

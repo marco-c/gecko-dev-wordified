@@ -107,6 +107,15 @@ use
 std
 :
 :
+marker
+:
+:
+Reflect
+;
+use
+std
+:
+:
 mem
 :
 :
@@ -246,6 +255,8 @@ String
 }
 impl
 Actor
++
+Send
 {
 /
 /
@@ -271,6 +282,8 @@ is
 <
 T
 :
+Reflect
++
 '
 static
 >
@@ -378,6 +391,8 @@ downcast_ref
 <
 T
 :
+Reflect
++
 '
 static
 >
@@ -487,6 +502,8 @@ downcast_mut
 <
 T
 :
+Reflect
++
 '
 static
 >
@@ -1277,6 +1294,8 @@ find
 a
 T
 :
+Reflect
++
 '
 static
 >
@@ -1350,6 +1369,8 @@ find_mut
 a
 T
 :
+Reflect
++
 '
 static
 >

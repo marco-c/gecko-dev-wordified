@@ -154,10 +154,6 @@ geom
 ;
 extern
 crate
-text_writer
-;
-extern
-crate
 url
 ;
 #
@@ -182,12 +178,6 @@ encoding
 ;
 extern
 crate
-"
-rustc
--
-serialize
-"
-as
 rustc_serialize
 ;
 extern

@@ -545,10 +545,6 @@ unwrap
 ;
 }
 }
-#
-[
-unsafe_destructor
-]
 impl
 Drop
 for

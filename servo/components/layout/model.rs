@@ -3101,11 +3101,9 @@ containing_size
 width
 )
 .
-to_subpx
+to_frac32_px
 (
 )
-as
-f32
 self
 .
 m32
@@ -3117,11 +3115,9 @@ containing_size
 height
 )
 .
-to_subpx
+to_frac32_px
 (
 )
-as
-f32
 )
 }
 }
@@ -3171,7 +3167,7 @@ length
 Au
 :
 :
-from_frac_px
+from_frac32_px
 (
 self
 .
@@ -3179,7 +3175,7 @@ percentage
 *
 containing_size
 .
-to_subpx
+to_frac32_px
 (
 )
 )

@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-feature
-(
-io
-path
-)
-]
 use
 std
 :

@@ -58,9 +58,7 @@ MPL
 /
 extern
 crate
-"
 cookie
-"
 as
 cookie_rs
 ;

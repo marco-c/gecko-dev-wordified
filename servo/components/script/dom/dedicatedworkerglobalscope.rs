@@ -762,10 +762,6 @@ worker
 reset
 }
 }
-#
-[
-unsafe_destructor
-]
 impl
 <
 '

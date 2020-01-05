@@ -1468,6 +1468,16 @@ child_is_absolutely_positioned
 )
 )
 ;
+{
+let
+kid
+:
+&
+mut
+Flow
+=
+kid
+;
 special_damage
 .
 insert
@@ -1479,6 +1489,7 @@ compute_layout_damage
 )
 )
 ;
+}
 self_base
 .
 restyle_damage

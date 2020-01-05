@@ -121,10 +121,16 @@ use
 url
 :
 :
-{
+percent_encoding
+:
+:
 percent_decode
+;
+use
+url
+:
+:
 SchemeData
-}
 ;
 pub
 fn
@@ -353,7 +359,7 @@ scheme_data
 .
 splitn
 (
-1
+2
 '
 '
 )

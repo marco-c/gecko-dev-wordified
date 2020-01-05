@@ -5129,10 +5129,6 @@ PhantomData
 }
 }
 }
-#
-[
-unsafe_destructor
-]
 impl
 <
 T

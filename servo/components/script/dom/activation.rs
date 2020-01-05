@@ -184,8 +184,6 @@ behavior
 pub
 trait
 Activatable
-:
-Copy
 {
 fn
 as_element
