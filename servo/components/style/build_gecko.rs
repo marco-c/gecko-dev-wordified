@@ -2424,6 +2424,12 @@ RawGecko
 mozilla
 :
 :
+ServoStyleSheet
+"
+"
+mozilla
+:
+:
 ServoElementSnapshot
 .
 *
@@ -3754,6 +3760,12 @@ nscoord
 "
 nsresult
 "
+"
+Loader
+"
+"
+ServoStyleSheet
+"
 ]
 ;
 struct
@@ -3809,6 +3821,9 @@ RawServoDeclarationBlock
 "
 "
 RawServoStyleRule
+"
+"
+RawServoImportRule
 "
 ]
 ;
