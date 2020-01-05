@@ -2446,7 +2446,10 @@ uint32_t
 mStartBitrate
 ;
 uint32_t
-mMaxBitrate
+mPrefMaxBitrate
+;
+uint32_t
+mNegotiatedMaxBitrate
 ;
 uint32_t
 mMinBitrateEstimate
