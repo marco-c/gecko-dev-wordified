@@ -295,13 +295,6 @@ OpDestroy
 >
 OpDestroyArray
 ;
-typedef
-InfallibleTArray
-<
-EditReply
->
-EditReplyArray
-;
 protected
 :
 ImageBridgeParent
@@ -461,9 +454,6 @@ const
 uint64_t
 &
 aFwdTransactionId
-EditReplyArray
-*
-aReply
 )
 override
 ;
