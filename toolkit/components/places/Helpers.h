@@ -942,7 +942,7 @@ _
 nsresult
 GenerateGUID
 (
-nsCString
+nsACString
 &
 _guid
 )
