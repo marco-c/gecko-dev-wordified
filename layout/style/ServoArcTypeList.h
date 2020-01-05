@@ -161,3 +161,8 @@ SERVO_ARC_TYPE
 ImportRule
 RawServoImportRule
 )
+SERVO_ARC_TYPE
+(
+AnimationValue
+RawServoAnimationValue
+)
