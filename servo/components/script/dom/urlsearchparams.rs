@@ -482,10 +482,6 @@ map
 =
 usp
 .
-deref
-(
-)
-.
 data
 .
 borrow_mut

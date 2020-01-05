@@ -1454,10 +1454,6 @@ root
 ;
 xhr
 .
-deref
-(
-)
-.
 process_partial_response
 (
 progress

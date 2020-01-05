@@ -448,10 +448,6 @@ url
 =
 win
 .
-deref
-(
-)
-.
 page
 (
 )
@@ -506,10 +502,6 @@ layout_chan
 )
 =
 win
-.
-deref
-(
-)
 .
 page
 (

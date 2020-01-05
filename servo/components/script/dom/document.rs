@@ -2199,10 +2199,6 @@ attr
 {
 attr
 .
-deref
-(
-)
-.
 value
 (
 )
@@ -5394,10 +5390,6 @@ title
 push_str
 (
 text
-.
-deref
-(
-)
 .
 characterdata
 .

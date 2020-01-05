@@ -588,10 +588,6 @@ url
 =
 src
 .
-deref
-(
-)
-.
 value
 (
 )
@@ -634,10 +630,6 @@ base_url
 (
 &
 window
-.
-deref
-(
-)
 .
 page
 (
@@ -749,10 +741,6 @@ page
 =
 window
 .
-deref
-(
-)
-.
 page
 (
 )
@@ -767,10 +755,6 @@ get_next_subpage_id
 )
 ;
 self
-.
-deref
-(
-)
 .
 size
 .
@@ -1141,10 +1125,6 @@ children
 =
 window
 .
-deref
-(
-)
-.
 page
 .
 children
@@ -1450,10 +1430,6 @@ u8
 }
 self
 .
-deref
-(
-)
-.
 sandbox
 .
 set
@@ -1563,10 +1539,6 @@ as_slice
 )
 {
 self
-.
-deref
-(
-)
 .
 sandbox
 .

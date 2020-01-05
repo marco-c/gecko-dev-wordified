@@ -444,10 +444,6 @@ window
 =
 document
 .
-deref
-(
-)
-.
 window
 .
 root
@@ -1261,10 +1257,6 @@ let
 url
 =
 window
-.
-deref
-(
-)
 .
 get_url
 (

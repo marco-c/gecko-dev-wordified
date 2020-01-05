@@ -3351,10 +3351,6 @@ unsafe
 {
 doctype_node
 .
-deref
-(
-)
-.
 to_hubbub_node
 (
 )
@@ -3654,10 +3650,6 @@ unsafe
 {
 element
 .
-deref
-(
-)
-.
 to_hubbub_node
 (
 )
@@ -3731,10 +3723,6 @@ root
 unsafe
 {
 text
-.
-deref
-(
-)
 .
 to_hubbub_node
 (
@@ -3831,10 +3819,6 @@ assert
 !
 (
 parent
-.
-deref
-(
-)
 .
 AppendChild
 (
@@ -4251,10 +4235,6 @@ s
 "
 src
 .
-deref
-(
-)
-.
 Value
 (
 )
@@ -4304,10 +4284,6 @@ parse
 (
 src
 .
-deref
-(
-)
-.
 value
 (
 )
@@ -4356,10 +4332,6 @@ failed
 }
 "
 src
-.
-deref
-(
-)
 .
 Value
 (
@@ -4467,10 +4439,6 @@ data
 push_str
 (
 text
-.
-deref
-(
-)
 .
 characterdata
 .

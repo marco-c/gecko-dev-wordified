@@ -452,10 +452,6 @@ root
 ;
 element
 .
-deref
-(
-)
-.
 get_attribute
 (
 ns
