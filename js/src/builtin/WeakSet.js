@@ -252,10 +252,13 @@ value
 )
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT
-DecompileArg
+JSMSG_NOT_NONNULL_OBJECT_NAME
+"
+WeakSet
+value
+"
+ToSource
 (
-0
 value
 )
 )
