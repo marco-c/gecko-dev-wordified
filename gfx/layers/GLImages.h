@@ -366,6 +366,8 @@ gfx
 IntSize
 &
 aSize
+bool
+aContinuous
 gl
 :
 :
@@ -394,6 +396,16 @@ const
 {
 return
 mHandle
+;
+}
+bool
+GetContinuous
+(
+)
+const
+{
+return
+mContinuous
 ;
 }
 gl
@@ -430,6 +442,9 @@ gfx
 :
 IntSize
 mSize
+;
+bool
+mContinuous
 ;
 gl
 :
