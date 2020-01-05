@@ -150,15 +150,6 @@ use
 style
 :
 :
-context
-:
-:
-SharedStyleContext
-;
-use
-style
-:
-:
 logical_geometry
 :
 :
@@ -576,7 +567,7 @@ self
 _
 :
 &
-SharedStyleContext
+LayoutContext
 )
 {
 }
