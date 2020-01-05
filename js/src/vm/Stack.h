@@ -11136,7 +11136,10 @@ WasmActivation
 *
 prevWasm_
 ;
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP_
 ;
@@ -11202,7 +11205,10 @@ this
 /
 WasmActivation
 .
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP
 (
@@ -11351,7 +11357,10 @@ unwinding
 void
 unwindExitFP
 (
-uint8_t
+wasm
+:
+:
+Frame
 *
 exitFP
 )

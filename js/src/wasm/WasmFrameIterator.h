@@ -227,13 +227,13 @@ class
 DebugState
 ;
 class
-Frame
-;
-class
 Instance
 ;
 class
 SigIdDesc
+;
+struct
+Frame
 ;
 struct
 FuncOffsets
@@ -375,7 +375,7 @@ CodeRange
 *
 codeRange_
 ;
-uint8_t
+Frame
 *
 fp_
 ;
@@ -927,7 +927,7 @@ CodeRange
 *
 codeRange_
 ;
-void
+Frame
 *
 callerFP_
 ;
