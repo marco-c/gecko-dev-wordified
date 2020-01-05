@@ -236,9 +236,6 @@ class
 nsCSSKeyframesRule
 ;
 class
-nsCSSPageRule
-;
-class
 nsCSSCounterStyleRule
 ;
 #
@@ -1693,10 +1690,6 @@ nsCSSKeyframeRule
 friend
 class
 nsCSSKeyframesRule
-;
-friend
-class
-nsCSSPageRule
 ;
 friend
 class
