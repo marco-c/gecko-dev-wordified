@@ -444,10 +444,12 @@ nsAString
 aEventType
 uint32_t
 aCharIndex
+const
 Nullable
 <
 uint32_t
 >
+&
 aCharLength
 float
 aElapsedTime

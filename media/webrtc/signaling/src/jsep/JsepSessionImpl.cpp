@@ -2717,10 +2717,12 @@ SdpMediaSection
 :
 MediaType
 mediatype
+const
 Maybe
 <
 size_t
 >
+&
 offerToReceiveMaybe
 Sdp
 *

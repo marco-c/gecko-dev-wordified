@@ -2587,10 +2587,12 @@ SourceBuffer
 :
 AppendDataCompletedWithSuccess
 (
+const
 SourceBufferTask
 :
 :
 AppendBufferResult
+&
 aResult
 )
 {
