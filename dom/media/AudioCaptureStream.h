@@ -129,6 +129,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 DOMMediaStream
 ;
 /
@@ -153,11 +156,13 @@ MixerCallbackReceiver
 {
 public
 :
-explicit
 AudioCaptureStream
 (
 TrackID
 aTrackId
+AbstractThread
+*
+aMainThread
 )
 ;
 virtual

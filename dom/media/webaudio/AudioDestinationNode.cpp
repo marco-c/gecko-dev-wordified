@@ -1493,6 +1493,7 @@ Graph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
+mAbstractMainThread
 runnable
 .
 forget

@@ -256,10 +256,14 @@ AudioCaptureStream
 (
 TrackID
 aTrackId
+AbstractThread
+*
+aMainThread
 )
 :
 ProcessedMediaStream
 (
+aMainThread
 )
 mTrackId
 (

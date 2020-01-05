@@ -144,6 +144,9 @@ public
 explicit
 TrackUnionStream
 (
+AbstractThread
+*
+aMainThread
 )
 ;
 virtual

@@ -125,6 +125,9 @@ h
 namespace
 mozilla
 {
+class
+AbstractThread
+;
 /
 *
 *
@@ -197,6 +200,9 @@ aGraph
 AudioNodeEngine
 *
 aEngine
+AbstractThread
+*
+aMainThread
 )
 ;
 protected
@@ -208,6 +214,9 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
+AbstractThread
+*
+aMainThread
 )
 ;
 ~

@@ -166,6 +166,9 @@ AudioContext
 namespace
 dom
 class
+AbstractThread
+;
+class
 ThreadSharedFloatArrayBufferList
 ;
 class
@@ -482,6 +485,9 @@ Flags
 aFlags
 TrackRate
 aSampleRate
+AbstractThread
+*
+aMainThread
 )
 ;
 ~
