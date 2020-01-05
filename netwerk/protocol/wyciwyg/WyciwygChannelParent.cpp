@@ -2100,7 +2100,7 @@ pcp
 )
 -
 >
-AboutToLoadDocumentForChild
+AboutToLoadHttpFtpWyciwygDocumentForChild
 (
 chan
 )

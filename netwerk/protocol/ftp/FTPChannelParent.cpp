@@ -2952,7 +2952,7 @@ pcp
 )
 -
 >
-AboutToLoadDocumentForChild
+AboutToLoadHttpFtpWyciwygDocumentForChild
 (
 chan
 )

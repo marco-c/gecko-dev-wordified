@@ -3234,7 +3234,7 @@ document
 loads
 .
 nsresult
-AboutToLoadDocumentForChild
+AboutToLoadHttpFtpWyciwygDocumentForChild
 (
 nsIChannel
 *
