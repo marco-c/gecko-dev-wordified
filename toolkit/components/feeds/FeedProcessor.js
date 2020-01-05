@@ -4784,6 +4784,15 @@ else
 return
 null
 ;
+let
+flags
+=
+Ci
+.
+nsIParserUtils
+.
+SanitizerDropForms
+;
 return
 this
 .
@@ -4794,7 +4803,7 @@ parseFragment
 this
 .
 text
-0
+flags
 isXML
 this
 .
