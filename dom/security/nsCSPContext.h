@@ -247,6 +247,9 @@ NS_CSPCONTEXT_CID
 class
 nsINetworkInterceptController
 ;
+class
+nsIEventTarget
+;
 struct
 ConsoleMsgQueueElem
 ;
@@ -649,6 +652,12 @@ mConsoleMsgQueue
 ;
 bool
 mQueueUpMessages
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mEventTarget
 ;
 }
 ;
