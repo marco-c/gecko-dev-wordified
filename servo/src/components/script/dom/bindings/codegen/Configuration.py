@@ -1224,6 +1224,21 @@ ifaceName
         
 self
 .
+needsAbstract
+=
+desc
+.
+get
+(
+'
+needsAbstract
+'
+[
+]
+)
+        
+self
+.
 hasInstanceInterface
 =
 desc

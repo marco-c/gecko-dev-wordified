@@ -120,7 +120,6 @@ HTMLHeadElement
 HTMLHeadingElement
 HTMLHtmlElement
 HTMLInputElement
-HTMLImageElement
 HTMLIframeElement
 HTMLItalicElement
 HTMLLinkElement
@@ -168,6 +167,15 @@ htmlanchorelement
 :
 :
 HTMLAnchorElement
+;
+use
+dom
+:
+:
+htmlimageelement
+:
+:
+HTMLImageElement
 ;
 use
 dom
