@@ -3290,6 +3290,19 @@ __file__
 )
 :
             
+if
+os
+.
+path
+.
+exists
+(
+module
+.
+__file__
+)
+:
+                
 os
 .
 remove
