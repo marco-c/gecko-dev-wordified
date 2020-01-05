@@ -6104,7 +6104,7 @@ _settingUpNew
 function
 isValid
 (
-uri
+validUri
 )
 {
 Weave
@@ -6113,7 +6113,7 @@ Service
 .
 serverURL
 =
-uri
+validUri
 .
 spec
 ;

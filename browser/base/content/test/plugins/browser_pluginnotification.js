@@ -4181,7 +4181,7 @@ dims
 )
 ;
 let
-pluginInfo
+pluginInfoTmp
 =
 yield
 promiseForPluginInfo
@@ -4192,7 +4192,7 @@ id
 ok
 (
 !
-pluginInfo
+pluginInfoTmp
 .
 activated
 "
@@ -4576,7 +4576,7 @@ dims
 )
 ;
 let
-pluginInfo
+pluginInfoTmp
 =
 yield
 promiseForPluginInfo
@@ -4586,7 +4586,7 @@ id
 ;
 ok
 (
-pluginInfo
+pluginInfoTmp
 .
 activated
 "

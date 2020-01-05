@@ -6065,7 +6065,7 @@ status
 >
 {
 let
-browser
+browserRef
 =
 weakBrowser
 .
@@ -6085,14 +6085,14 @@ status
 |
 |
 !
-browser
+browserRef
 )
 return
 ;
 let
 currentURI
 =
-browser
+browserRef
 .
 currentURI
 ;
@@ -6158,7 +6158,7 @@ gBrowser
 .
 getNotificationBox
 (
-browser
+browserRef
 )
 ;
 if
@@ -9656,13 +9656,6 @@ document
 commandDispatcher
 .
 focusedElement
-;
-let
-mm
-=
-window
-.
-messageManager
 ;
 mm
 .
@@ -25207,7 +25200,6 @@ var
 observer
 =
 function
-observer
 (
 subject
 topic
@@ -31213,7 +31205,6 @@ var
 shouldDisableFind
 =
 function
-shouldDisableFind
 (
 aDocument
 )
@@ -31248,7 +31239,6 @@ var
 disableFindCommands
 =
 function
-disableFindCommands
 (
 aDisable
 )
@@ -31323,7 +31313,6 @@ var
 onContentRSChange
 =
 function
-onContentRSChange
 (
 e
 )
@@ -41408,9 +41397,9 @@ for
 (
 let
 [
-browser
-docId
-uri
+ciBrowser
+ciDocId
+ciUri
 ]
 of
 notification
@@ -41424,9 +41413,9 @@ OfflineApps
 .
 allowSite
 (
-browser
-docId
-uri
+ciBrowser
+ciDocId
+ciUri
 )
 ;
 }
@@ -41472,7 +41461,7 @@ for
 (
 let
 [
-uri
+ciUri
 ]
 of
 notification
@@ -41486,7 +41475,7 @@ OfflineApps
 .
 disallowSite
 (
-uri
+ciUri
 )
 ;
 }
@@ -43417,7 +43406,6 @@ var
 receivePong
 =
 function
-receivePong
 (
 aSubject
 aTopic
