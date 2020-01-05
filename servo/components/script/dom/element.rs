@@ -5064,6 +5064,10 @@ panic
 Expected
 a
 UIntAttrValue
+:
+\
+implement
+parse_plain_attribute
 "
 )
 }
