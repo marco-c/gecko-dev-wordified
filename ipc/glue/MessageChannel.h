@@ -2671,6 +2671,17 @@ Message
 aMsg
 )
 ;
+bool
+ShouldDeferInterruptMessage
+(
+const
+Message
+&
+aMsg
+size_t
+aStackDepth
+)
+;
 void
 OnMessageReceivedFromLink
 (
