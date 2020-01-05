@@ -512,7 +512,7 @@ self
 .
 children
 .
-get
+borrow
 (
 )
 .
@@ -738,7 +738,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -793,7 +793,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -872,7 +872,7 @@ frame_tree
 .
 children
 .
-get
+borrow_mut
 (
 )
 ;
@@ -897,7 +897,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -929,10 +929,6 @@ frame_tree
 parent
 .
 get
-(
-)
-.
-clone
 (
 )
 )
@@ -979,7 +975,7 @@ self
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -992,7 +988,7 @@ self
 .
 children
 .
-get
+borrow
 (
 )
 .
@@ -1207,7 +1203,7 @@ get_ref
 .
 children
 .
-get
+borrow
 (
 )
 .
@@ -1572,7 +1568,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -3428,7 +3424,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -3564,7 +3560,7 @@ contains
 &
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -3590,7 +3586,7 @@ pipeline
 =
 pipeline
 .
-get
+borrow
 (
 )
 ;
@@ -3660,7 +3656,7 @@ insert
 (
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -3747,7 +3743,7 @@ source_frame
 .
 children
 .
-get
+borrow_mut
 (
 )
 ;
@@ -3817,7 +3813,7 @@ frame_tree
 .
 children
 .
-get
+borrow_mut
 (
 )
 ;
@@ -4564,7 +4560,7 @@ frame_tree
 .
 children
 .
-get
+borrow_mut
 (
 )
 .
@@ -4903,7 +4899,7 @@ source_frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5219,7 +5215,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5299,7 +5295,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5332,7 +5328,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5496,7 +5492,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5568,7 +5564,7 @@ after
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5805,7 +5801,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5859,7 +5855,7 @@ to_add
 .
 parent
 .
-get
+borrow
 (
 )
 .
@@ -5894,7 +5890,7 @@ to_add
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5903,7 +5899,7 @@ next_frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -5961,7 +5957,7 @@ parent
 in
 parent
 .
-get
+borrow
 (
 )
 .
@@ -5976,7 +5972,7 @@ to_add
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -6062,7 +6058,7 @@ parent
 .
 children
 .
-get
+borrow_mut
 (
 )
 .
@@ -6168,7 +6164,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 ;
@@ -6240,7 +6236,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 ;
@@ -6368,7 +6364,7 @@ frame_tree
 .
 parent
 .
-get
+borrow
 (
 )
 .
@@ -6398,7 +6394,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 ;
@@ -6502,7 +6498,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 ;
@@ -6564,7 +6560,7 @@ frame_tree
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
@@ -6592,7 +6588,7 @@ frame_tree
 .
 children
 .
-get
+borrow
 (
 )
 .
@@ -6845,7 +6841,7 @@ frame
 .
 pipeline
 .
-get
+borrow
 (
 )
 .
