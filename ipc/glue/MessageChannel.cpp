@@ -6393,6 +6393,14 @@ aMsg
 )
 return
 ;
+mListener
+-
+>
+OnChannelReceivedMessage
+(
+aMsg
+)
+;
 /
 /
 Regardless
