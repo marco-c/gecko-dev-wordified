@@ -347,11 +347,6 @@ EmptyLog
 {
 }
 ;
-}
-/
-/
-namespace
-mozilla
 mozilla
 :
 :
@@ -491,6 +486,11 @@ return
 log
 ;
 }
+}
+/
+/
+namespace
+mozilla
 #
 ifdef
 NO_CHROMIUM_LOGGING

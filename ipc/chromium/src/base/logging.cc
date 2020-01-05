@@ -353,11 +353,6 @@ chromium
 "
 )
 ;
-}
-/
-/
-namespace
-mozilla
 mozilla
 :
 :
@@ -552,3 +547,8 @@ return
 log
 ;
 }
+}
+/
+/
+namespace
+mozilla
