@@ -596,6 +596,12 @@ isCallback
 or
 type
 .
+isPromise
+(
+)
+or
+type
+.
 isGeckoInterface
 (
 )
