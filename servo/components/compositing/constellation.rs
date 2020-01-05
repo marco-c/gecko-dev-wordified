@@ -1949,7 +1949,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -1998,7 +1998,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -5311,7 +5311,7 @@ final_url
 }
 else
 {
-debug
+warn
 !
 (
 "
@@ -5625,7 +5625,7 @@ unwrap_or_else
 e
 |
 {
-debug
+warn
 !
 (
 "
@@ -5667,7 +5667,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -5727,7 +5727,7 @@ set_contents
 s
 )
 {
-debug
+warn
 !
 (
 "
@@ -5804,7 +5804,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -6352,7 +6352,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -6404,7 +6404,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -6440,7 +6440,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -6507,7 +6507,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -6755,7 +6755,7 @@ frame
 new_pipeline_id
 )
 {
-debug
+warn
 !
 (
 "
@@ -6781,7 +6781,7 @@ Force
 )
 ;
 }
-debug
+warn
 !
 (
 "
@@ -7150,7 +7150,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -7188,7 +7188,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -7237,7 +7237,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -7946,7 +7946,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -8274,7 +8274,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -8552,7 +8552,7 @@ freeze
 None
 =
 >
-debug
+warn
 !
 (
 "
@@ -9019,7 +9019,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -9153,7 +9153,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -9211,7 +9211,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -9273,7 +9273,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -9477,7 +9477,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -9527,7 +9527,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -9559,7 +9559,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -10094,7 +10094,7 @@ event
 None
 =
 >
-debug
+warn
 !
 (
 "
@@ -10230,7 +10230,7 @@ unwrap_or_else
 |
 _
 |
-debug
+warn
 !
 (
 "
@@ -10297,7 +10297,7 @@ unwrap_or_else
 |
 _
 |
-debug
+warn
 !
 (
 "
@@ -10348,7 +10348,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -10387,7 +10387,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -10437,7 +10437,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -10746,7 +10746,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -10836,7 +10836,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -10961,7 +10961,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -11031,7 +11031,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -11124,7 +11124,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -11281,7 +11281,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -12345,7 +12345,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -12395,7 +12395,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -12478,7 +12478,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -12580,7 +12580,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -12997,7 +12997,7 @@ None
 =
 >
 {
-debug
+warn
 !
 (
 "
@@ -13167,7 +13167,7 @@ unwrap_or_else
 |
 e
 |
-debug
+warn
 !
 (
 "
@@ -13981,7 +13981,7 @@ remove
 frame_id
 )
 {
-debug
+warn
 !
 (
 "
@@ -14028,7 +14028,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -14236,7 +14236,7 @@ None
 =
 >
 return
-debug
+warn
 !
 (
 "
@@ -14978,7 +14978,7 @@ is_err
 (
 )
 {
-debug
+warn
 !
 (
 "
