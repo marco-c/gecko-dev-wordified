@@ -255,7 +255,6 @@ let
 {
 inspector
 view
-testActor
 }
 =
 yield
