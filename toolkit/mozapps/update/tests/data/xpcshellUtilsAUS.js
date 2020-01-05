@@ -16299,7 +16299,7 @@ CreateFileW
 "
 ctypes
 .
-default_abi
+winapi_abi
 LPVOID
 LPCWSTR
 DWORD
@@ -25789,7 +25789,7 @@ CloseHandle
 "
 ctypes
 .
-default_abi
+winapi_abi
 ctypes
 .
 bool

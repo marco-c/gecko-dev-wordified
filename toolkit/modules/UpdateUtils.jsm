@@ -1723,7 +1723,7 @@ GetNativeSystemInfo
 "
 ctypes
 .
-default_abi
+winapi_abi
 ctypes
 .
 void_t
@@ -2323,7 +2323,7 @@ GetVersionExW
 "
 ctypes
 .
-default_abi
+winapi_abi
 BOOL
 OSVERSIONINFOEXW
 .
