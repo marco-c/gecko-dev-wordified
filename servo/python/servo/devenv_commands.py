@@ -1363,6 +1363,8 @@ code
 return
 code
             
+code
+=
 call
 (
                 
@@ -1403,6 +1405,13 @@ build_env
 (
 )
 )
+            
+if
+code
+:
+                
+return
+code
             
 code
 =
@@ -1446,11 +1455,9 @@ git
 "
 reset
 "
-'
--
--
-'
 "
+-
+-
 hard
 "
 "
@@ -1476,3 +1483,39 @@ code
                 
 return
 code
+            
+code
+=
+call
+(
+[
+"
+rm
+"
+"
+-
+rf
+"
+"
+.
+git
+"
+]
+env
+=
+self
+.
+build_env
+(
+)
+)
+            
+if
+code
+:
+                
+return
+code
+            
+return
+0
