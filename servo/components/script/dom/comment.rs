@@ -397,11 +397,6 @@ document
 )
 }
 }
-pub
-trait
-CommentMethods
-{
-}
 impl
 Reflectable
 for
