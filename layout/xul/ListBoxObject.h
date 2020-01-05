@@ -220,6 +220,11 @@ GetRowCount
 )
 ;
 int32_t
+GetRowHeight
+(
+)
+;
+int32_t
 GetNumberOfVisibleRows
 (
 )

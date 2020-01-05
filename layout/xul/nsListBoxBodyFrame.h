@@ -572,6 +572,12 @@ mRowHeight
 ;
 }
 int32_t
+GetRowHeightPixels
+(
+)
+const
+;
+int32_t
 GetFixedRowSize
 (
 )
