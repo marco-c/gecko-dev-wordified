@@ -389,6 +389,7 @@ createRefTestEntry
 (
 skip
 skipIf
+error
 )
 :
     
@@ -507,6 +508,22 @@ comment
 in
 skipIf
 ]
+)
+    
+if
+error
+:
+        
+terms
+.
+append
+(
+"
+error
+:
+"
++
+error
 )
     
 line
@@ -1541,11 +1558,10 @@ re
 #
 currently
 ignoring
-this
-additional
-meta
--
-data
+the
+error
+phase
+attribute
 .
     
 #
@@ -1595,6 +1611,24 @@ negative
 =
 =
 dict
+    
+errorType
+=
+testRec
+[
+"
+negative
+"
+]
+[
+"
+type
+"
+]
+if
+isNegative
+else
+None
     
 #
 Skip
@@ -1861,6 +1895,7 @@ createRefTestEntry
 (
 refTestSkip
 refTestSkipIf
+errorType
 )
     
 #
@@ -1949,21 +1984,6 @@ testFileName
 =
 testName
         
-if
-isNegative
-:
-            
-testFileName
-=
-addSuffixToFileName
-(
-testFileName
-"
--
-n
-"
-)
-        
 yield
 (
 testFileName
@@ -2030,21 +2050,6 @@ testFileName
 "
 -
 strict
-"
-)
-        
-if
-isNegative
-:
-            
-testFileName
-=
-addSuffixToFileName
-(
-testFileName
-"
--
-n
 "
 )
         

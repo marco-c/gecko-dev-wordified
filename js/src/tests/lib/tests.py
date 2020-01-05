@@ -1383,6 +1383,19 @@ run
         
 self
 .
+error
+=
+None
+#
+str
+?
+:
+Optional
+error
+type
+        
+self
+.
 expect
 =
 True
@@ -1512,6 +1525,27 @@ ans
 '
 skip
 '
+        
+if
+self
+.
+error
+is
+not
+None
+:
+            
+ans
++
+=
+'
+error
+=
+'
++
+self
+.
+error
         
 if
 not
