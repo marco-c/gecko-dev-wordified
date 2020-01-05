@@ -1127,6 +1127,22 @@ use
 style
 :
 :
+shared_lock
+:
+:
+{
+SharedRwLock
+as
+StyleSharedRwLock
+Locked
+as
+StyleLocked
+}
+;
+use
+style
+:
+:
 stylesheets
 :
 :
@@ -2874,6 +2890,12 @@ SharedRt
 unsafe_no_jsmanaged_fields
 !
 (
+StyleSharedRwLock
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
 TouchpadPressurePhase
 )
 ;
@@ -3599,7 +3621,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 FontFaceRule
 >
@@ -3628,7 +3650,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 CssRules
 >
@@ -3657,7 +3679,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 Keyframe
 >
@@ -3686,7 +3708,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 KeyframesRule
 >
@@ -3715,7 +3737,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 ImportRule
 >
@@ -3744,7 +3766,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 SupportsRule
 >
@@ -3773,7 +3795,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 MediaRule
 >
@@ -3802,7 +3824,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 NamespaceRule
 >
@@ -3831,7 +3853,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 StyleRule
 >
@@ -3860,7 +3882,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 ViewportRule
 >
@@ -3889,7 +3911,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 PropertyDeclarationBlock
 >
@@ -3947,7 +3969,7 @@ unsafe
 impl
 JSTraceable
 for
-RwLock
+StyleLocked
 <
 MediaList
 >

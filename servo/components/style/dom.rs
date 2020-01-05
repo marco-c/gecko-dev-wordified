@@ -117,12 +117,6 @@ element_state
 ElementState
 ;
 use
-parking_lot
-:
-:
-RwLock
-;
-use
 properties
 :
 :
@@ -149,6 +143,12 @@ matching
 :
 :
 ElementSelectorFlags
+;
+use
+shared_lock
+:
+:
+Locked
 ;
 use
 sink
@@ -2077,7 +2077,7 @@ Option
 <
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >
@@ -2088,7 +2088,7 @@ Option
 <
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >
@@ -2269,7 +2269,7 @@ Option
 &
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >
@@ -2340,7 +2340,7 @@ Option
 <
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >
@@ -2379,7 +2379,7 @@ Option
 <
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >

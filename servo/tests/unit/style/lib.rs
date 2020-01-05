@@ -95,10 +95,6 @@ html5ever_atoms
 ;
 extern
 crate
-owning_ref
-;
-extern
-crate
 parking_lot
 ;
 extern
@@ -155,9 +151,6 @@ logical_geometry
 ;
 mod
 media_queries
-;
-mod
-owning_handle
 ;
 mod
 parsing

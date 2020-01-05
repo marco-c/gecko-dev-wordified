@@ -194,6 +194,15 @@ log_css_error
 }
 ;
 use
+shared_lock
+:
+:
+{
+SharedRwLockReadGuard
+ToCssWithGuard
+}
+;
+use
 std
 :
 :
@@ -3817,7 +3826,7 @@ value
 }
 }
 impl
-ToCss
+ToCssWithGuard
 for
 ViewportRule
 {
@@ -3838,6 +3847,10 @@ W
 (
 &
 self
+_guard
+:
+&
+SharedRwLockReadGuard
 dest
 :
 &
@@ -4180,6 +4193,10 @@ I
 stylesheets
 :
 I
+guard
+:
+&
+SharedRwLockReadGuard
 device
 :
 &
@@ -4227,6 +4244,7 @@ as_ref
 effective_viewport_rules
 (
 device
+guard
 |
 rule
 |

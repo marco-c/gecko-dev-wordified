@@ -119,6 +119,12 @@ servo_url
 ServoUrl
 ;
 use
+shared_lock
+:
+:
+SharedRwLock
+;
+use
 std
 :
 :
@@ -409,6 +415,9 @@ Origin
 media
 :
 MediaList
+shared_lock
+:
+SharedRwLock
 stylesheet_loader
 :
 Option
@@ -451,6 +460,7 @@ string
 base_url
 origin
 media
+shared_lock
 stylesheet_loader
 error_reporter
 extra_data

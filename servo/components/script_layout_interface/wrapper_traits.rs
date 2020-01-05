@@ -3134,6 +3134,10 @@ stylist
 precomputed_values_for_pseudo
 (
 &
+context
+.
+guards
+&
 style_pseudo
 Some
 (
@@ -3239,6 +3243,10 @@ stylist
 .
 lazily_compute_pseudo_element_style
 (
+&
+context
+.
+guards
 unsafe
 {
 &

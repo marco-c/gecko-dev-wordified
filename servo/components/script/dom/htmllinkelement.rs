@@ -2276,9 +2276,6 @@ StylesheetContextSource
 :
 LinkElement
 {
-url
-:
-url
 media
 :
 Some
@@ -2286,6 +2283,7 @@ Some
 media
 )
 }
+url
 cors_setting
 integrity_metadata
 .

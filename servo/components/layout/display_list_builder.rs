@@ -1272,6 +1272,10 @@ layout_context
 '
 a
 LayoutContext
+<
+'
+a
+>
 pub
 root_stacking_context
 :
