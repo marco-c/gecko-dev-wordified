@@ -213,14 +213,6 @@ DOM
 [
 plugin
 (
-phf_macros
-)
-]
-#
-!
-[
-plugin
-(
 plugins
 )
 ]
