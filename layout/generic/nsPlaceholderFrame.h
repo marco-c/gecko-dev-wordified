@@ -1097,6 +1097,9 @@ protected
 nsIFrame
 *
 mOutOfFlowFrame
+{
+nullptr
+}
 ;
 }
 ;
