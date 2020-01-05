@@ -1429,8 +1429,10 @@ CSS
 utils
 mCSSEditUtils
 =
-new
+MakeUnique
+<
 CSSEditUtils
+>
 (
 this
 )
