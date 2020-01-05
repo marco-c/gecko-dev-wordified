@@ -250,6 +250,15 @@ node
 -
 menu
 -
+copy
+-
+attribute
+"
+"
+node
+-
+menu
+-
 edit
 -
 attribute
