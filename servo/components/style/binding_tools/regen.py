@@ -3314,7 +3314,6 @@ a
 >
 =
 \
-                          
 :
 :
 gecko_bindings
@@ -3573,7 +3572,6 @@ a
 >
 =
 \
-                          
 :
 :
 gecko_bindings
