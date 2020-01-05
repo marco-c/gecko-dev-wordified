@@ -145,15 +145,6 @@ nsISupports
 info
 )
 ;
-bool
-IsHostLocalTarget
-(
-const
-nsACString
-&
-aHost
-)
-;
 #
 endif
 /
