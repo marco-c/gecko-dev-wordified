@@ -2207,8 +2207,12 @@ nsIThread
 >
 thread
 ;
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Gonk
+Vibrator
+"
 getter_AddRefs
 (
 thread

@@ -845,8 +845,12 @@ NS_ERROR_UNEXPECTED
 }
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Lazy
+Idle
+"
 getter_AddRefs
 (
 mThread

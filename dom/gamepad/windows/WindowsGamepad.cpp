@@ -6201,8 +6201,11 @@ sIsShutdown
 =
 false
 ;
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Gamepad
+"
 getter_AddRefs
 (
 gMonitorThread

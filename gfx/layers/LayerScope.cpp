@@ -8339,8 +8339,11 @@ mHandlerMutex
 "
 )
 {
-NS_NewThread
+NS_NewNamedThread
 (
+"
+LayerScope
+"
 getter_AddRefs
 (
 mDebugSenderThread
