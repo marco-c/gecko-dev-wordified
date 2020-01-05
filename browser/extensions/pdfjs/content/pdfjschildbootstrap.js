@@ -126,14 +126,6 @@ License
 /
 /
 *
-jshint
-esnext
-:
-true
-*
-/
-/
-*
 globals
 Components
 PdfjsContentUtils
