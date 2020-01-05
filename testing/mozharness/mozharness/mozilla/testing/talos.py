@@ -4727,23 +4727,7 @@ join
             
 self
 .
-query_abs_dirs
-(
-)
-[
-'
-base_work_dir
-'
-]
-            
-'
-.
-.
-'
-            
-'
-talos
-'
+talos_path
             
 self
 .
