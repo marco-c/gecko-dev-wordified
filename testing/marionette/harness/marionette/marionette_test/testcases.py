@@ -2666,7 +2666,7 @@ if
 timeout
 :
             
-timeout
+ms
 =
 timeout
 .
@@ -2677,13 +2677,18 @@ group
             
 marionette
 .
-set_script_timeout
-(
+timeout
+.
+script
+=
 int
 (
-timeout
+ms
 )
-)
+/
+1000
+.
+0
         
 inactivity_timeout
 =

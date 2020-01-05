@@ -663,10 +663,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
     
 def
 test_id
@@ -1437,10 +1438,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
         
 self
 .
@@ -1597,10 +1599,13 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-50
-)
+timeout
+.
+implicit
+=
+0
+.
+5
         
 self
 .
@@ -1757,10 +1762,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
         
 self
 .
@@ -1926,10 +1932,13 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-50
-)
+timeout
+.
+implicit
+=
+0
+.
+5
         
 self
 .
@@ -2535,10 +2544,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
     
 def
 test_id
@@ -3334,10 +3344,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
     
 def
 assertItemsIsInstance
@@ -4447,10 +4458,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
     
 def
 assertItemsIsInstance
