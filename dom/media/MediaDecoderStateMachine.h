@@ -4002,7 +4002,10 @@ up
 with
 rendering
 .
-int64_t
+media
+:
+:
+TimeUnit
 mAmpleAudioThresholdUsecs
 ;
 /
@@ -4111,6 +4114,10 @@ OnTaskQueue
 ;
 return
 mAmpleAudioThresholdUsecs
+.
+ToMicroseconds
+(
+)
 /
 2
 ;
