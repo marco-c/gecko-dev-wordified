@@ -2238,6 +2238,7 @@ Msg
 KeyEvent
 (
 key
+state
 modified
 )
 ShutdownState
@@ -2247,6 +2248,15 @@ NotShuttingDown
 )
 =
 >
+{
+if
+state
+=
+=
+KeyState
+:
+:
+Pressed
 {
 self
 .
@@ -2258,6 +2268,7 @@ key
 modified
 )
 ;
+}
 }
 (
 Msg

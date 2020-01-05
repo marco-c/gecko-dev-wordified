@@ -792,15 +792,6 @@ modifiers
 KeyModifiers
 )
 {
-if
-state
-=
-=
-KeyState
-:
-:
-Pressed
-{
 self
 .
 send
@@ -811,11 +802,11 @@ Msg
 KeyEvent
 (
 key
+state
 modifiers
 )
 )
 ;
-}
 }
 }
 /
@@ -1820,6 +1811,7 @@ compositor
 KeyEvent
 (
 Key
+KeyState
 KeyModifiers
 )
 /
