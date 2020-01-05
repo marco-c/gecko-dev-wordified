@@ -37222,6 +37222,9 @@ is
 actually
 decoding
 .
+bool
+frameComplete
+=
 mImage
 -
 >
@@ -37291,11 +37294,16 @@ then
 if
 (
 !
+(
+frameComplete
+|
+|
 mImage
 -
 >
 IsComplete
 (
+)
 )
 &
 &
