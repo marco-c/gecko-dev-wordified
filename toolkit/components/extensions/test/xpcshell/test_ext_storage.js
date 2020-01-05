@@ -1235,9 +1235,12 @@ Promise
 resolve
 =
 >
+{
 gResolve
 =
 resolve
+;
+}
 )
 ;
 }
