@@ -159,7 +159,7 @@ String
 >
 /
 /
-Advertisiong
+Advertising
 Data
 properties
 pub
