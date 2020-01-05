@@ -560,9 +560,9 @@ document
 .
 querySelector
 (
-'
+"
 iframe
-'
+"
 )
 .
 remove

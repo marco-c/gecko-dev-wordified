@@ -278,7 +278,7 @@ gURLBar
 .
 textValue
 testURL
-'
+"
 gURLBar
 .
 textValue
@@ -290,7 +290,7 @@ switching
 back
 to
 fullURLTab
-'
+"
 )
 ;
 yield
@@ -308,7 +308,7 @@ gURLBar
 .
 textValue
 testPartialURL
-'
+"
 gURLBar
 .
 textValue
@@ -320,7 +320,7 @@ switching
 back
 to
 partialURLTab
-'
+"
 )
 ;
 yield
@@ -337,8 +337,8 @@ is
 gURLBar
 .
 textValue
-'
-'
+"
+"
 '
 gURLBar
 .
@@ -370,7 +370,7 @@ gURLBar
 .
 textValue
 testURL
-'
+"
 gURLBar
 .
 textValue
@@ -382,7 +382,7 @@ switching
 back
 to
 fullURLTab
-'
+"
 )
 ;
 }
@@ -482,7 +482,7 @@ gURLBar
 .
 textValue
 testURL
-'
+"
 gURLBar
 .
 textValue
@@ -494,7 +494,7 @@ initial
 switch
 to
 deletedURLTab
-'
+"
 )
 ;
 /
@@ -603,7 +603,7 @@ gURLBar
 .
 textValue
 testURL
-'
+"
 gURLBar
 .
 textValue
@@ -615,7 +615,7 @@ initial
 switch
 to
 fullURLTab
-'
+"
 )
 ;
 }
@@ -640,7 +640,7 @@ gURLBar
 .
 textValue
 testURL
-'
+"
 gURLBar
 .
 textValue
@@ -652,7 +652,7 @@ initial
 switch
 to
 partialURLTab
-'
+"
 )
 ;
 /

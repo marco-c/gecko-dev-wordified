@@ -1103,9 +1103,9 @@ aFunction
 !
 =
 =
-'
+"
 function
-'
+"
 )
 {
 throw

@@ -130,9 +130,9 @@ makeWatcher
 let
 testPath
 =
-'
+"
 someInvalidPath
-'
+"
 ;
 /
 /
@@ -321,9 +321,9 @@ makeWatcher
 let
 testPath
 =
-'
+"
 someInvalidPath
-'
+"
 ;
 /
 /

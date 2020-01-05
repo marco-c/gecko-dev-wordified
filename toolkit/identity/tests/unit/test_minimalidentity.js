@@ -171,9 +171,9 @@ params
 do_check_eq
 (
 action
-'
+"
 coffee
-'
+"
 )
 ;
 do_test_finished

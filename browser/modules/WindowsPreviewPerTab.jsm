@@ -2084,9 +2084,9 @@ composite
 .
 getContext
 (
-'
+"
 2d
-'
+"
 )
 ;
 let

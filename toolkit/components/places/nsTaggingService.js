@@ -3894,8 +3894,8 @@ lastIndexOf
 var
 before
 =
-'
-'
+"
+"
 ;
 if
 (

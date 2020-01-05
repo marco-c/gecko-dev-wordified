@@ -459,7 +459,7 @@ error
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -467,7 +467,7 @@ org
 scripterror
 ;
 1
-'
+"
 ]
 .
 createInstance

@@ -332,9 +332,9 @@ PlacesOrganizer
 .
 selectLeftPaneQuery
 (
-'
+"
 History
-'
+"
 )
 ;
 /

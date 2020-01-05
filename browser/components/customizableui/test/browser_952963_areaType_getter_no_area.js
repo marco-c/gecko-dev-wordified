@@ -280,9 +280,9 @@ id
 kUnregisterAreaTestWidget
 type
 :
-'
+"
 button
-'
+"
 removable
 :
 true

@@ -426,9 +426,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 log
-'
+"
 function
 (
 )

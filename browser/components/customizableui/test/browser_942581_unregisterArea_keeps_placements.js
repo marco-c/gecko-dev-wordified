@@ -167,9 +167,9 @@ spec
 id
 type
 :
-'
+"
 button
-'
+"
 removable
 :
 true

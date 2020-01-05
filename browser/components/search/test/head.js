@@ -97,9 +97,9 @@ prop
 ]
 =
 =
-'
+"
 function
-'
+"
 )
 continue
 ;

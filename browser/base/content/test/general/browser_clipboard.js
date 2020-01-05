@@ -1617,7 +1617,7 @@ htmlPostfix
 {
 reject
 (
-'
+"
 Clipboard
 Data
 did
@@ -1626,7 +1626,7 @@ contain
 an
 image
 was
-'
+"
 +
 clipboardData
 .
@@ -1805,7 +1805,7 @@ png
 >
 '
 +
-'
+"
 Test
 <
 b
@@ -1823,7 +1823,7 @@ b
 /
 b
 >
-'
+"
 "
 Paste
 after

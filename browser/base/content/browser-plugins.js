@@ -2739,9 +2739,9 @@ classList
 .
 add
 (
-'
+"
 pluginVulnerable
-'
+"
 )
 ;
 }

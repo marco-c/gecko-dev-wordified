@@ -4054,9 +4054,9 @@ e
 name
 !
 =
-'
+"
 NS_ERROR_NOT_AVAILABLE
-'
+"
 )
 throw
 e

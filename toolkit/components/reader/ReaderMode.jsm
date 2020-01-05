@@ -1335,9 +1335,9 @@ io
 .
 newURI
 (
-'
+"
 #
-'
+"
 +
 outerHash
 null

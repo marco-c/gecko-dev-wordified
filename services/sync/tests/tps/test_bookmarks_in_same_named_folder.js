@@ -302,9 +302,9 @@ apple
 ;
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -320,9 +320,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -347,9 +347,9 @@ Sync
 ;
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync

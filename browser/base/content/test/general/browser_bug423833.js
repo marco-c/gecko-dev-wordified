@@ -31,7 +31,7 @@ page
 var
 invalidPage
 =
-'
+"
 http
 :
 /
@@ -46,12 +46,12 @@ http
 :
 55555
 /
-'
+"
 ;
 var
 validPage
 =
-'
+"
 http
 :
 /
@@ -60,7 +60,7 @@ example
 .
 com
 /
-'
+"
 ;
 var
 testPage

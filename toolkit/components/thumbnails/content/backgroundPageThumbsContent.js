@@ -76,12 +76,12 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 Blob
-'
-'
+"
+"
 FileReader
-'
+"
 ]
 )
 ;

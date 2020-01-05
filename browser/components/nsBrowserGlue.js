@@ -1423,7 +1423,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -1435,7 +1435,7 @@ locale
 brand
 .
 properties
-'
+"
 )
 ;
 }
@@ -1460,7 +1460,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -1472,7 +1472,7 @@ locale
 browser
 .
 properties
-'
+"
 )
 ;
 }
@@ -4694,12 +4694,12 @@ notificationbox
 let
 notificationId
 =
-'
+"
 addon
 -
 slow
 :
-'
+"
 +
 addonId
 ;

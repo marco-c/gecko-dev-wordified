@@ -332,8 +332,8 @@ s
 ]
 /
 g
-'
-'
+"
+"
 )
 ;
 let
@@ -1081,11 +1081,11 @@ if
 name
 =
 =
-'
+"
 searchbar
 -
 history
-'
+"
 )
 {
 this

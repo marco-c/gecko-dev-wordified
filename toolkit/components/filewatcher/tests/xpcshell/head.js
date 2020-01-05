@@ -129,7 +129,7 @@ watcher
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -145,7 +145,7 @@ file
 watcher
 ;
 1
-'
+"
 ]
 .
 getService

@@ -289,10 +289,10 @@ response
 .
 write
 (
-'
+"
 {
 }
-'
+"
 )
 ;
 }
@@ -425,9 +425,9 @@ v1
 "
 client_id
 :
-'
+"
 abc123
-'
+"
 }
 let
 client

@@ -108,7 +108,7 @@ BrowserTestUtils
 openNewForegroundTab
 (
 gBrowser
-'
+"
 http
 :
 /
@@ -116,7 +116,7 @@ http
 example
 .
 com
-'
+"
 )
 ;
 let
@@ -289,13 +289,13 @@ history
 .
 pushState
 (
-'
-'
-'
-'
-'
+"
+"
+"
+"
+"
 new_page
-'
+"
 )
 ;
 Assert

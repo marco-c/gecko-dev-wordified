@@ -1205,10 +1205,10 @@ data
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 )
 {
@@ -2202,9 +2202,9 @@ iframeLoaded
 once
 (
 iframe
-'
+"
 load
-'
+"
 )
 ;
 iframe
@@ -3081,8 +3081,8 @@ head
 .
 innerHTML
 =
-'
-'
+"
+"
 ;
 doc
 =

@@ -1744,9 +1744,9 @@ makeQueryPredicates
 aQueryData
 delimiter
 =
-'
+"
 AND
-'
+"
 )
 {
 return
@@ -2245,8 +2245,8 @@ queryTerms
 makeQueryPredicates
 (
 aNewData
-'
-'
+"
+"
 )
 ;
 if

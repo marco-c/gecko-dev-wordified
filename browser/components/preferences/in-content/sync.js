@@ -956,9 +956,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 _stringBundle
-'
+"
 (
 )
 =
@@ -996,9 +996,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 _accountsStringBundle
-'
+"
 (
 )
 =
@@ -1602,9 +1602,9 @@ gSyncPane
 .
 openSetup
 (
-'
+"
 pair
-'
+"
 )
 ;
 }

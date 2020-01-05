@@ -146,12 +146,12 @@ blue
 >
 '
 +
-'
+"
 <
 /
 svg
 >
-'
+"
 ;
 function
 run_test

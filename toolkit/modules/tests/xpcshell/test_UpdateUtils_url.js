@@ -439,9 +439,9 @@ ctypes
 .
 StructType
 (
-'
+"
 OSVERSIONINFOEXW
-'
+"
 [
 {
 dwOSVersionInfoSize
@@ -747,9 +747,9 @@ ctypes
 .
 StructType
 (
-'
+"
 SYSTEM_INFO
-'
+"
 [
 {
 wProcessorArchitecture

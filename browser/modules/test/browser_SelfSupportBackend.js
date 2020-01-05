@@ -357,9 +357,9 @@ document
 .
 querySelectorAll
 (
-'
+"
 iframe
-'
+"
 )
 ;
 for
@@ -388,9 +388,9 @@ win
 .
 querySelectorAll
 (
-'
+"
 browser
-'
+"
 )
 [
 0

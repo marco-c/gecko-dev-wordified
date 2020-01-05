@@ -1790,9 +1790,9 @@ queryString
 .
 split
 (
-'
+"
 &
-'
+"
 )
 .
 forEach
@@ -1812,9 +1812,9 @@ val
 .
 split
 (
-'
+"
 =
-'
+"
 )
 ;
 let

@@ -1200,9 +1200,9 @@ option
 tagName
 =
 =
-'
+"
 OPTGROUP
-'
+"
 )
 ;
 let

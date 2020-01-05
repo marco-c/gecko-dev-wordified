@@ -74,7 +74,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -88,7 +88,7 @@ identity
 LogUtils
 .
 jsm
-'
+"
 )
 ;
 const

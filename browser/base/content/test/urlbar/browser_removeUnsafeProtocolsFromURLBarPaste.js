@@ -437,8 +437,8 @@ gURLBar
 .
 value
 =
-'
-'
+"
+"
 ;
 if
 (

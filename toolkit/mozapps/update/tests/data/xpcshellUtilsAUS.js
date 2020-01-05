@@ -332,10 +332,10 @@ itself
 .
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 /
 *

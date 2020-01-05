@@ -1048,11 +1048,11 @@ headers
 :
 [
 [
-'
+"
 Content
 -
 Type
-'
+"
 "
 application
 /
@@ -1119,7 +1119,7 @@ parameters
 const
 kMimeType
 =
-'
+"
 text
 /
 xml
@@ -1129,7 +1129,7 @@ charset
 UTF
 -
 8
-'
+"
 ;
 let
 options

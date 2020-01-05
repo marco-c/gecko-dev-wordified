@@ -160,9 +160,9 @@ tab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 1
 "
@@ -276,9 +276,9 @@ newTab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 1
 "

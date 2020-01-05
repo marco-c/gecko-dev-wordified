@@ -105,7 +105,7 @@ engines
 {
 do_throw
 (
-'
+"
 Status
 .
 engines
@@ -113,7 +113,7 @@ should
 be
 empty
 .
-'
+"
 )
 ;
 }
@@ -465,7 +465,7 @@ engines
 {
 do_throw
 (
-'
+"
 Status
 .
 engines
@@ -473,7 +473,7 @@ should
 be
 empty
 .
-'
+"
 )
 ;
 }

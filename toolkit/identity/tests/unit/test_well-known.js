@@ -197,11 +197,11 @@ do_check_eq
 (
 idpParams
 [
-'
+"
 public
 -
 key
-'
+"
 ]
 .
 algorithm

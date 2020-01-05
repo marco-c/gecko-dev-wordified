@@ -84,9 +84,9 @@ relatedTab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 1
 "
@@ -145,9 +145,9 @@ relatedTab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 2
 "
@@ -202,9 +202,9 @@ relatedTab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 1
 "
@@ -265,9 +265,9 @@ relatedTab
 .
 getAttribute
 (
-'
+"
 usercontextid
-'
+"
 )
 2
 "

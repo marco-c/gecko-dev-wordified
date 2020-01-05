@@ -148,8 +148,8 @@ s
 *
 /
 g
-'
-'
+"
+"
 )
 }
 {
@@ -168,9 +168,9 @@ document
 .
 getElementById
 (
-'
+"
 searchbar
-'
+"
 )
 expected
 :
@@ -183,8 +183,8 @@ replace
 n
 /
 g
-'
-'
+"
+"
 )
 }
 ]

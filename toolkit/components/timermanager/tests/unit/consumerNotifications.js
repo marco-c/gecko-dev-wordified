@@ -65,10 +65,10 @@ Manager
 Tests
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 const
 {

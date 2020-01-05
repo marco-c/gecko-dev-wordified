@@ -250,9 +250,9 @@ sync
 .
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Prefs
@@ -285,9 +285,9 @@ present
 .
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -339,9 +339,9 @@ discarded
 .
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Prefs

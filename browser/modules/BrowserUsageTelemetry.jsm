@@ -2436,12 +2436,12 @@ SEARCH_COUNTS
 if
 (
 [
-'
+"
 urlbar
-'
-'
+"
+"
 searchbar
-'
+"
 ]
 .
 includes

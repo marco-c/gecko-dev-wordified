@@ -668,7 +668,7 @@ acceptLanguage
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -678,7 +678,7 @@ supports
 string
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -692,11 +692,11 @@ acceptLanguage
 .
 data
 =
-'
+"
 zu
 -
 NP
-'
+"
 ;
 /
 /
@@ -716,11 +716,11 @@ prefs
 .
 setComplexValue
 (
-'
+"
 intl
 .
 accept_languages
-'
+"
 Ci
 .
 nsISupportsString

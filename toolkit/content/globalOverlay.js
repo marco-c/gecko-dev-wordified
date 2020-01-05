@@ -463,7 +463,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -475,7 +475,7 @@ app
 startup
 ;
 1
-'
+"
 ]
 .
 getService

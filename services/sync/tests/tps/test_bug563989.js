@@ -553,9 +553,9 @@ sync
 .
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -610,9 +610,9 @@ again
 .
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -670,9 +670,9 @@ present
 .
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync
@@ -712,9 +712,9 @@ restored
 .
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync

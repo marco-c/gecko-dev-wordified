@@ -253,9 +253,9 @@ meta_global
 new
 ServerWBO
 (
-'
+"
 global
-'
+"
 )
 ;
 server

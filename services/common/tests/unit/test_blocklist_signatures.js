@@ -1008,9 +1008,9 @@ headerLine
 .
 split
 (
-'
+"
 :
-'
+"
 )
 ;
 response
@@ -1188,10 +1188,10 @@ nsIContentSignatureVerifier
 const
 emptyData
 =
-'
+"
 [
 ]
-'
+"
 ;
 const
 emptySignature

@@ -41,9 +41,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 btoa
-'
+"
 ]
 )
 ;

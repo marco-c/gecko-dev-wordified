@@ -462,7 +462,7 @@ function
 {
 dump
 (
-'
+"
 \
 nJust
 wasting
@@ -471,7 +471,7 @@ time
 .
 \
 n
-'
+"
 )
 ;
 }

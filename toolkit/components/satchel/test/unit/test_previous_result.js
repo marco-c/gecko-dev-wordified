@@ -133,7 +133,7 @@ search
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -149,7 +149,7 @@ name
 form
 -
 history
-'
+"
 ]
 .
 getService

@@ -103,7 +103,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -115,7 +115,7 @@ modules
 NetUtil
 .
 jsm
-'
+"
 )
 ;
 Cu

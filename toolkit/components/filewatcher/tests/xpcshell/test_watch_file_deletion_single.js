@@ -340,9 +340,9 @@ notification
 .
 do_print
 (
-'
+"
 Removing
-'
+"
 +
 tmpFilePath
 )

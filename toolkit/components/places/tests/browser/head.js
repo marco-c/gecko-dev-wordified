@@ -1619,9 +1619,9 @@ dirsvc
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile

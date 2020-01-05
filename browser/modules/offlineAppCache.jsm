@@ -72,7 +72,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -84,7 +84,7 @@ modules
 LoadContextInfo
 .
 jsm
-'
+"
 )
 ;
 const

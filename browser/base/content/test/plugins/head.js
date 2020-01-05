@@ -1539,9 +1539,9 @@ type
 .
 startsWith
 (
-'
+"
 plugin
-'
+"
 )
 )
 {
@@ -2617,9 +2617,9 @@ doc
 .
 getElementsByTagName
 (
-'
+"
 embed
-'
+"
 )
 ;
 if
@@ -2641,9 +2641,9 @@ doc
 .
 getElementsByTagName
 (
-'
+"
 object
-'
+"
 )
 ;
 }

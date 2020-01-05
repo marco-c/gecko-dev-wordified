@@ -4434,8 +4434,8 @@ encodeURIComponent
 .
 join
 (
-'
-'
+"
+"
 )
 }
 ;

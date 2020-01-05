@@ -61,12 +61,12 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 PrefsEngine
-'
-'
+"
+"
 PrefRec
-'
+"
 ]
 ;
 var

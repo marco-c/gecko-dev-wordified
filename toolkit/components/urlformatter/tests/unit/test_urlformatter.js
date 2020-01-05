@@ -115,9 +115,9 @@ nsIXULChromeRegistry
 .
 getSelectedLocale
 (
-'
+"
 global
-'
+"
 )
 ;
 var
@@ -125,7 +125,7 @@ prefs
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -135,7 +135,7 @@ preferences
 service
 ;
 1
-'
+"
 ]
 .
 getService

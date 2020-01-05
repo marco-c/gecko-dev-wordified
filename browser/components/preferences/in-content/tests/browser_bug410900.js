@@ -363,9 +363,9 @@ i
 .
 getAttribute
 (
-'
+"
 type
-'
+"
 )
 =
 =

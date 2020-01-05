@@ -2038,9 +2038,9 @@ if
 key
 =
 =
-'
+"
 authorization
-'
+"
 )
 {
 this

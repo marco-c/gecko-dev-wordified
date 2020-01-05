@@ -102,7 +102,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -114,7 +114,7 @@ modules
 Preferences
 .
 jsm
-'
+"
 )
 ;
 Cu
@@ -574,7 +574,7 @@ crashReporter
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -586,7 +586,7 @@ crash
 reporter
 ;
 1
-'
+"
 ]
 .
 getService
@@ -633,7 +633,7 @@ timer
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -641,7 +641,7 @@ org
 timer
 ;
 1
-'
+"
 ]
 .
 createInstance

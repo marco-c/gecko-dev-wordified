@@ -371,9 +371,9 @@ Credentials
 .
 keyWord
 (
-'
+"
 authPW
-'
+"
 )
 ;
 do_check_eq
@@ -441,9 +441,9 @@ Credentials
 .
 keyWord
 (
-'
+"
 unwrapBkey
-'
+"
 )
 ;
 let

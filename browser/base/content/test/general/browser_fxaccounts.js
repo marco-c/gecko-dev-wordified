@@ -214,9 +214,9 @@ updateAppMenuItem
 return
 unstubs
 [
-'
+"
 updateAppMenuItem
-'
+"
 ]
 .
 call

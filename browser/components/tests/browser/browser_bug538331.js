@@ -983,13 +983,13 @@ prefs
 .
 clearUserPref
 (
-'
+"
 browser
 .
 startup
 .
 page
-'
+"
 )
 ;
 if

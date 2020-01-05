@@ -443,9 +443,9 @@ AddonManager
 getAddonsByTypes
 (
 [
-'
+"
 extension
-'
+"
 ]
 addonDefer
 .

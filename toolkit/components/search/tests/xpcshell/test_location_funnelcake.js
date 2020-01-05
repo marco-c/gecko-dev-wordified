@@ -85,9 +85,9 @@ distribution
 .
 id
 "
-'
+"
 mozilla38
-'
+"
 )
 ;
 setUpGeoDefaults

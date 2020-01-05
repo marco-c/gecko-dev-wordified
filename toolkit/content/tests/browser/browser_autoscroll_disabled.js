@@ -379,9 +379,9 @@ document
 .
 getElementById
 (
-'
+"
 i
-'
+"
 )
 ;
 if

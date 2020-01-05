@@ -355,7 +355,7 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
@@ -369,7 +369,7 @@ auth
 manager
 ;
 1
-'
+"
 ]
 .
 getService

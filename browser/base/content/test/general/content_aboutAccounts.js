@@ -527,9 +527,9 @@ if
 displayStyle
 =
 =
-'
+"
 none
-'
+"
 )
 {
 result
@@ -546,9 +546,9 @@ if
 displayStyle
 =
 =
-'
+"
 block
-'
+"
 )
 {
 result

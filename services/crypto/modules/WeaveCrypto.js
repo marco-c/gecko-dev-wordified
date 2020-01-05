@@ -146,9 +146,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 crypto
-'
+"
 ]
 )
 ;
@@ -441,9 +441,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 encoder
-'
+"
 (
 )
 =
@@ -460,9 +460,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 decoder
-'
+"
 (
 )
 =

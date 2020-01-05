@@ -81,7 +81,7 @@ testAddbrokenViewWidget
 const
 kWidgetId
 =
-'
+"
 test
 -
 877006
@@ -89,7 +89,7 @@ test
 broken
 -
 widget
-'
+"
 ;
 let
 widgetSpec
@@ -100,14 +100,14 @@ id
 kWidgetId
 type
 :
-'
+"
 view
-'
+"
 viewId
 :
-'
+"
 idontexist
-'
+"
 /
 *
 Empty

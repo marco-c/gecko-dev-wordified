@@ -368,9 +368,9 @@ sync
 .
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -406,9 +406,9 @@ present
 .
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -436,9 +436,9 @@ sync
 .
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Sync
@@ -488,9 +488,9 @@ expected
 .
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync

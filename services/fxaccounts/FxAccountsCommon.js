@@ -308,9 +308,9 @@ XPCOMUtils
 defineLazyGetter
 (
 exports
-'
+"
 log
-'
+"
 function
 (
 )
@@ -567,9 +567,9 @@ XPCOMUtils
 defineLazyGetter
 (
 exports
-'
+"
 logPII
-'
+"
 function
 (
 )

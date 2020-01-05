@@ -497,9 +497,9 @@ SpecialPowers
 pushPrefEnv
 (
 {
-'
+"
 set
-'
+"
 :
 [
 [

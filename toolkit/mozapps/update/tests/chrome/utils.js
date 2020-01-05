@@ -543,10 +543,10 @@ function
 .
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 /
 *

@@ -474,9 +474,9 @@ headerLine
 .
 split
 (
-'
+"
 :
-'
+"
 )
 ;
 response

@@ -636,9 +636,9 @@ ok
 (
 !
 (
-'
+"
 updateChannel
-'
+"
 in
 got
 .

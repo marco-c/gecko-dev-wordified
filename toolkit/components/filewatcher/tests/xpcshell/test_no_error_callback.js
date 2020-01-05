@@ -139,9 +139,9 @@ makeWatcher
 let
 testPath
 =
-'
+"
 someInvalidPath
-'
+"
 ;
 /
 /

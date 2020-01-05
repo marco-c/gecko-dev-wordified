@@ -538,9 +538,9 @@ and
 sync
 Phase
 (
-'
+"
 phase1
-'
+"
 [
 [
 Bookmarks
@@ -574,9 +574,9 @@ are
 present
 Phase
 (
-'
+"
 phase2
-'
+"
 [
 [
 Sync
@@ -620,9 +620,9 @@ restored
 .
 Phase
 (
-'
+"
 phase3
-'
+"
 [
 [
 Bookmarks
@@ -662,9 +662,9 @@ been
 deleted
 Phase
 (
-'
+"
 phase4
-'
+"
 [
 [
 Sync
