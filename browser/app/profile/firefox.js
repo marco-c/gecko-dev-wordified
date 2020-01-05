@@ -3865,9 +3865,9 @@ browser
 .
 shell
 .
-didSkipDefaultBrowserCheckOnFirstRun
+skipDefaultBrowserCheck
 "
-false
+true
 )
 ;
 pref
