@@ -1348,8 +1348,9 @@ use
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+mName
 getter_AddRefs
 (
 mThread
@@ -1375,12 +1376,6 @@ I
 O
 thread
 "
-)
-;
-NS_SetThreadName
-(
-mThread
-mName
 )
 ;
 r_log
