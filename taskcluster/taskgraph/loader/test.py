@@ -363,6 +363,24 @@ label
 test
 [
 '
+build
+-
+attributes
+'
+]
+=
+test_platform
+[
+'
+build
+-
+attributes
+'
+]
+            
+test
+[
+'
 test
 -
 name
@@ -739,6 +757,19 @@ build_platform
 ]
 .
 label
+            
+'
+build
+-
+attributes
+'
+:
+builds_by_platform
+[
+build_platform
+]
+.
+attributes
         
 }
         
