@@ -9363,9 +9363,6 @@ AddPageBreakItem
 nsIContent
 *
 aContent
-nsStyleContext
-*
-aMainStyleContext
 FrameConstructionItemList
 &
 aItems
