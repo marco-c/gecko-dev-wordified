@@ -343,10 +343,6 @@ mDestroyed
 (
 false
 )
-mWREpoch
-(
-0
-)
 {
 MOZ_ASSERT
 (
@@ -2750,6 +2746,7 @@ mWRState
 {
 wr_destroy
 (
+mWRWindowState
 mWRState
 )
 ;
