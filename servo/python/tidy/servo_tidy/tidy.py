@@ -6423,6 +6423,9 @@ splitlines
 :
             
 if
+not
+any
+(
 os
 .
 path
@@ -6441,9 +6444,16 @@ dirname
 f
 )
 )
-not
+.
+startswith
+(
+path
+)
+for
+path
 in
 exclude_dirs
+)
 :
                 
 yield
