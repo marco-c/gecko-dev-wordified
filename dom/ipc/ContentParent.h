@@ -351,6 +351,12 @@ FILE_REMOTE_TYPE
 "
 file
 "
+#
+define
+EXTENSION_REMOTE_TYPE
+"
+extension
+"
 /
 /
 This
