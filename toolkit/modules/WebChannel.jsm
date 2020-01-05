@@ -1171,7 +1171,7 @@ newURI
 (
 requestPrincipal
 .
-origin
+originNoSuffix
 null
 null
 )
@@ -1264,7 +1264,7 @@ prePath
 =
 requestPrincipal
 .
-origin
+originNoSuffix
 ;
 }
 }
