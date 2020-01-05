@@ -25086,6 +25086,14 @@ tfoStatus
 mConnectionNegotiatingFastOpen
 -
 >
+SetFastOpenStatus
+(
+tfoStatus
+)
+;
+mConnectionNegotiatingFastOpen
+-
+>
 Transaction
 (
 )
