@@ -1653,9 +1653,6 @@ R11
 ]
 )
 ;
-#
-ifdef
-ENABLE_ARM_LR_SAVING
 sample
 -
 >
@@ -1674,8 +1671,6 @@ R14
 ]
 )
 ;
-#
-endif
 #
 else
 sample
@@ -1723,9 +1718,6 @@ mcontext
 arm_fp
 )
 ;
-#
-ifdef
-ENABLE_ARM_LR_SAVING
 sample
 -
 >
@@ -1741,8 +1733,6 @@ mcontext
 arm_lr
 )
 ;
-#
-endif
 #
 endif
 #

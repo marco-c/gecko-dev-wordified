@@ -582,9 +582,6 @@ __thumb__
 define
 ENABLE_LEAF_DATA
 #
-define
-ENABLE_ARM_LR_SAVING
-#
 endif
 #
 define
@@ -1533,15 +1530,10 @@ fp
 (
 NULL
 )
-#
-ifdef
-ENABLE_ARM_LR_SAVING
 lr
 (
 NULL
 )
-#
-endif
 context
 (
 NULL
@@ -1596,9 +1588,6 @@ fp
 Frame
 pointer
 .
-#
-ifdef
-ENABLE_ARM_LR_SAVING
 Address
 lr
 ;
@@ -1607,8 +1596,6 @@ lr
 ARM
 link
 register
-#
-endif
 void
 *
 context
