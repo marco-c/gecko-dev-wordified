@@ -150,7 +150,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -174,7 +174,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 Reflectable

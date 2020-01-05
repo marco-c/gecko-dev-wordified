@@ -170,7 +170,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 {

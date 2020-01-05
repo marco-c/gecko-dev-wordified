@@ -111,10 +111,10 @@ dom
 bindings
 :
 :
-conversions
+error
 :
 :
-Castable
+ErrorResult
 ;
 use
 dom
@@ -123,10 +123,10 @@ dom
 bindings
 :
 :
-error
+inheritance
 :
 :
-ErrorResult
+Castable
 ;
 use
 dom

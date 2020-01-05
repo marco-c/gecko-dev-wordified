@@ -1801,6 +1801,10 @@ global
 ;
 pub
 mod
+inheritance
+;
+pub
+mod
 js
 ;
 pub
@@ -1817,6 +1821,10 @@ refcounted
 ;
 pub
 mod
+reflector
+;
+pub
+mod
 str
 ;
 pub
@@ -1830,6 +1838,10 @@ trace
 pub
 mod
 utils
+;
+pub
+mod
+xmlname
 ;
 /
 /

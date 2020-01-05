@@ -396,10 +396,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 {
@@ -417,10 +414,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 {

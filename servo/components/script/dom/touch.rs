@@ -136,7 +136,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 {

@@ -189,10 +189,10 @@ dom
 bindings
 :
 :
-conversions
+global
 :
 :
-Castable
+GlobalRef
 ;
 use
 dom
@@ -201,10 +201,10 @@ dom
 bindings
 :
 :
-global
+inheritance
 :
 :
-GlobalRef
+Castable
 ;
 use
 dom

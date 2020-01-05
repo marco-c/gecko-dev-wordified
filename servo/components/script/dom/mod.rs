@@ -779,7 +779,7 @@ dom
 bindings
 :
 :
-conversions
+inheritance
 :
 :
 Castable
@@ -1007,10 +1007,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 {
@@ -1897,10 +1894,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 FooCast
@@ -1943,10 +1937,7 @@ dom
 bindings
 :
 :
-codegen
-:
-:
-InheritTypes
+inheritance
 :
 :
 {

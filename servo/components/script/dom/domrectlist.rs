@@ -123,7 +123,7 @@ dom
 bindings
 :
 :
-utils
+reflector
 :
 :
 {
