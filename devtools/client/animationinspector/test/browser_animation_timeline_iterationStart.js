@@ -108,7 +108,7 @@ timelineComponent
 timeBlocks
 ;
 let
-detailsComponents
+detailsComponent
 =
 timelineComponent
 .
@@ -235,10 +235,7 @@ offset
 let
 keyframeComponent
 =
-detailsComponents
-[
-i
-]
+detailsComponent
 .
 keyframeComponents
 [
