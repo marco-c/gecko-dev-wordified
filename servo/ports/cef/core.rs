@@ -492,12 +492,6 @@ rendering_threads
 ;
 temp_opts
 .
-layout_threads
-=
-rendering_threads
-;
-temp_opts
-.
 headless
 =
 false
