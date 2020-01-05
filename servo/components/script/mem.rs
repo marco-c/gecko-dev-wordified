@@ -105,7 +105,13 @@ heap_size_of
 }
 ;
 use
-libc
+std
+:
+:
+os
+:
+:
+raw
 :
 :
 c_void
