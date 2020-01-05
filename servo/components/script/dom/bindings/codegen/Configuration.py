@@ -1314,7 +1314,7 @@ self
 nativeType
 =
 "
-JS
+Unrooted
 <
 %
 s
