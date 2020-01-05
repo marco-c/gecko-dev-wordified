@@ -584,6 +584,16 @@ OcspStrictConfig
 osc
 OcspGetConfig
 ogc
+mozilla
+:
+:
+TimeDuration
+ocspTimeoutSoft
+mozilla
+:
+:
+TimeDuration
+ocspTimeoutHard
 uint32_t
 certShortLifetimeInDays
 PinningMode
@@ -618,6 +628,14 @@ ogc
 =
 =
 ocspGetEnabled
+)
+mOCSPTimeoutSoft
+(
+ocspTimeoutSoft
+)
+mOCSPTimeoutHard
+(
+ocspTimeoutHard
 )
 mCertShortLifetimeInDays
 (
@@ -3183,6 +3201,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -3614,6 +3634,8 @@ evOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 mPinningMode
 MIN_RSA_BITS
@@ -4086,6 +4108,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 mPinningMode
 keySizeOptions
@@ -4393,6 +4417,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -4452,6 +4478,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -4595,6 +4623,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -4703,6 +4733,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -4887,6 +4919,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -4944,6 +4978,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
@@ -5001,6 +5037,8 @@ defaultOCSPFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mOCSPTimeoutSoft
+mOCSPTimeoutHard
 mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
