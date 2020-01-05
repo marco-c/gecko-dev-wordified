@@ -2396,7 +2396,7 @@ self
 .
 owner
 .
-get_rooted
+get
 (
 )
 }

@@ -2182,7 +2182,7 @@ self
 .
 error
 .
-get_rooted
+get
 (
 )
 }

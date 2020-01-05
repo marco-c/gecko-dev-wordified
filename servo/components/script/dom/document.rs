@@ -2838,7 +2838,7 @@ self
 .
 base_element
 .
-get_rooted
+get
 (
 )
 }
@@ -4446,7 +4446,7 @@ self
 .
 focused
 .
-get_rooted
+get
 (
 )
 }
@@ -4610,7 +4610,7 @@ self
 .
 focused
 .
-get_rooted
+get
 (
 )
 {
@@ -4653,7 +4653,7 @@ self
 .
 focused
 .
-get_rooted
+get
 (
 )
 {
@@ -8583,7 +8583,7 @@ self
 .
 current_parser
 .
-get_rooted
+get
 (
 )
 {
@@ -8739,7 +8739,7 @@ self
 .
 pending_parsing_blocking_script
 .
-get_rooted
+get
 (
 )
 {
@@ -9497,7 +9497,7 @@ self
 .
 current_parser
 .
-get_rooted
+get
 (
 )
 }
@@ -14441,7 +14441,7 @@ self
 .
 current_script
 .
-get_rooted
+get
 (
 )
 }

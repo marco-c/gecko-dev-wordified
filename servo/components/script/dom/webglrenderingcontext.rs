@@ -1165,7 +1165,7 @@ self
 .
 bound_texture_2d
 .
-get_rooted
+get
 (
 )
 constants
@@ -1178,7 +1178,7 @@ self
 .
 bound_texture_cube_map
 .
-get_rooted
+get
 (
 )
 _

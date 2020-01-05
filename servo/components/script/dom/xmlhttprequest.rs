@@ -6083,7 +6083,7 @@ self
 .
 response_xml
 .
-get_rooted
+get
 (
 )
 }
