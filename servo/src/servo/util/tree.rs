@@ -173,6 +173,7 @@ first_child
 loop
 {
 alt
+copy
 p
 {
 none
@@ -347,6 +348,7 @@ parent
 parent_tf
 |
 alt
+copy
 parent_tf
 .
 last_child

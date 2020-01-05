@@ -720,6 +720,7 @@ size
 %
 ?
 "
+copy
 self
 .
 bounds

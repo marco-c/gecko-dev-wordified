@@ -75,6 +75,12 @@ comm
 :
 recv
 ;
+import
+option
+:
+:
+is_none
+;
 type
 token_reader
 =
@@ -108,6 +114,7 @@ get
 token
 {
 alt
+copy
 self
 .
 lookahead
@@ -145,12 +152,11 @@ token
 )
 {
 assert
+is_none
+(
 self
 .
 lookahead
-.
-is_none
-(
 )
 ;
 self
