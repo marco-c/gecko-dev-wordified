@@ -55,6 +55,7 @@ shistory
 add_task
 (
 function
+*
 test_load_start
 (
 )
@@ -231,6 +232,7 @@ shistory
 add_task
 (
 function
+*
 test_hashchange
 (
 )
@@ -481,6 +483,7 @@ shistory
 add_task
 (
 function
+*
 test_pageshow
 (
 )
@@ -716,6 +719,7 @@ shistory
 add_task
 (
 function
+*
 test_subframes
 (
 )
@@ -1205,6 +1209,7 @@ shistory
 add_task
 (
 function
+*
 test_about_page_navigate
 (
 )
@@ -1438,6 +1443,7 @@ shistory
 add_task
 (
 function
+*
 test_pushstate_replacestate
 (
 )
@@ -1830,6 +1836,7 @@ shistory
 add_task
 (
 function
+*
 test_slow_subframe_load
 (
 )

@@ -58,6 +58,7 @@ ignored
 add_task
 (
 function
+*
 (
 )
 {
@@ -491,6 +492,7 @@ either
 add_task
 (
 function
+*
 (
 )
 {

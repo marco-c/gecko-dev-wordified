@@ -68,6 +68,7 @@ duplicateTab
 add_task
 (
 function
+*
 test_set_tabstate
 (
 )
@@ -308,6 +309,7 @@ tab
 add_task
 (
 function
+*
 test_set_tabstate_and_duplicate
 (
 )

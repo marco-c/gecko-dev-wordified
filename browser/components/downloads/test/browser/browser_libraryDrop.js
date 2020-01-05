@@ -178,8 +178,9 @@ js
 EventUtils
 )
 ;
+async
 function
-task_drop
+drop
 (
 win
 urls
@@ -241,7 +242,7 @@ present
 let
 list
 =
-yield
+await
 Downloads
 .
 getList
@@ -267,14 +268,13 @@ Set
 (
 )
 ;
-yield
+await
 new
 Promise
 (
-function
-(
 resolve
-)
+=
+>
 {
 let
 view
@@ -486,8 +486,7 @@ close
 )
 ;
 yield
-*
-task_drop
+drop
 (
 win
 [
@@ -503,8 +502,7 @@ txt
 )
 ;
 yield
-*
-task_drop
+drop
 (
 win
 [

@@ -59,6 +59,7 @@ MPL
 add_task
 (
 function
+*
 test
 (
 )

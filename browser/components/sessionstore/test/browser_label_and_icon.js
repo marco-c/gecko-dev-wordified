@@ -151,6 +151,7 @@ set
 add_task
 (
 function
+*
 test_label_and_icon
 (
 )

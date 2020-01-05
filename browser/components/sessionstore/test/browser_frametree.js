@@ -126,6 +126,7 @@ loading
 add_task
 (
 function
+*
 test_frametree
 (
 )
@@ -548,6 +549,7 @@ them
 add_task
 (
 function
+*
 test_frametree_dynamic
 (
 )

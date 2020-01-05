@@ -81,6 +81,7 @@ persisted
 add_task
 (
 function
+*
 page_style
 (
 )
@@ -371,6 +372,7 @@ correctly
 add_task
 (
 function
+*
 nested_page_style
 (
 )

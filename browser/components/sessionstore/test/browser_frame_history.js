@@ -87,6 +87,7 @@ frameset
 add_task
 (
 function
+*
 (
 )
 {
@@ -486,6 +487,7 @@ iframe
 add_task
 (
 function
+*
 (
 )
 {
@@ -925,6 +927,7 @@ dynamically
 add_task
 (
 function
+*
 (
 )
 {

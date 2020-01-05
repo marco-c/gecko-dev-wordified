@@ -837,10 +837,7 @@ examples
 var
 testCookieCollection
 =
-Task
-.
 async
-(
 function
 (
 params
@@ -978,7 +975,7 @@ them
 in
 parallel
 .
-yield
+await
 Promise
 .
 all
@@ -1022,7 +1019,7 @@ cookieURIs
 ]
 )
 {
-yield
+await
 replaceCurrentURI
 (
 browser
@@ -1131,7 +1128,7 @@ noCookieURIs
 ]
 )
 {
-yield
+await
 replaceCurrentURI
 (
 browser
@@ -1180,7 +1177,6 @@ removeAll
 )
 ;
 }
-)
 ;
 /
 *
@@ -1233,12 +1229,8 @@ resolving
 var
 replaceCurrentURI
 =
-Task
-.
 async
-(
 function
-*
 (
 browser
 uri
@@ -1275,7 +1267,7 @@ uri
 flags
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -1297,7 +1289,7 @@ to
 -
 date
 .
-yield
+await
 TabStateFlusher
 .
 flush
@@ -1306,7 +1298,6 @@ browser
 )
 ;
 }
-)
 ;
 /
 *

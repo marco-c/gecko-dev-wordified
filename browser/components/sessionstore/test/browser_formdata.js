@@ -65,6 +65,7 @@ user
 add_task
 (
 function
+*
 test_formdata
 (
 )
@@ -150,16 +151,8 @@ the
 tab
 .
 function
+*
 createAndRemoveTab
-(
-)
-{
-return
-Task
-.
-spawn
-(
-function
 (
 )
 {
@@ -247,10 +240,8 @@ tab
 )
 ;
 }
-)
-;
-}
 yield
+*
 createAndRemoveTab
 (
 )
@@ -341,6 +332,7 @@ privacy_level
 )
 ;
 yield
+*
 createAndRemoveTab
 (
 )
@@ -426,6 +418,7 @@ privacy_level
 )
 ;
 yield
+*
 createAndRemoveTab
 (
 )
@@ -537,6 +530,7 @@ so
 add_task
 (
 function
+*
 test_url_check
 (
 )
@@ -826,6 +820,7 @@ sets
 add_task
 (
 function
+*
 test_nested
 (
 )
@@ -1204,6 +1199,7 @@ expected
 add_task
 (
 function
+*
 test_design_mode
 (
 )

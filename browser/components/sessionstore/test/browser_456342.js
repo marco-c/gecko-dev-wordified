@@ -66,6 +66,7 @@ types
 add_task
 (
 function
+*
 test_restore_nonstandard_input_values
 (
 )

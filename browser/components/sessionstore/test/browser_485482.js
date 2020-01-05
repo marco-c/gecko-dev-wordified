@@ -72,6 +72,7 @@ documents
 add_task
 (
 function
+*
 test_xpath_exp_for_strange_documents
 (
 )

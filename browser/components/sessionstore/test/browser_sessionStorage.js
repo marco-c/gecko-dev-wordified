@@ -128,6 +128,7 @@ expected
 add_task
 (
 function
+*
 session_storage
 (
 )
@@ -1020,6 +1021,7 @@ tabs
 add_task
 (
 function
+*
 purge_domain
 (
 )
@@ -1201,6 +1203,7 @@ user
 add_task
 (
 function
+*
 respect_privacy_level
 (
 )

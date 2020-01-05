@@ -62,6 +62,7 @@ sessionstore
 add_task
 (
 function
+*
 test_prevent_file_stealing
 (
 )

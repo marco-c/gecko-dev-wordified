@@ -72,6 +72,7 @@ bug
 add_task
 (
 function
+*
 (
 )
 {

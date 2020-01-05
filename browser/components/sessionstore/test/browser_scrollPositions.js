@@ -226,6 +226,7 @@ frames
 add_task
 (
 function
+*
 test_scroll
 (
 )
@@ -593,6 +594,7 @@ framesets
 add_task
 (
 function
+*
 test_scroll_nested
 (
 )
@@ -1047,6 +1049,7 @@ bug
 add_task
 (
 function
+*
 test_scroll_background_tabs
 (
 )

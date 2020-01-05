@@ -59,6 +59,7 @@ state
 add_task
 (
 function
+*
 check_history_not_persisted
 (
 )
@@ -368,6 +369,7 @@ exist
 add_task
 (
 function
+*
 check_history_default_persisted
 (
 )

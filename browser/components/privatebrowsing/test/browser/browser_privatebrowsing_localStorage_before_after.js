@@ -144,6 +144,7 @@ existing
 add_task
 (
 function
+*
 test
 (
 )
