@@ -21314,6 +21314,21 @@ channelVar
 )
 [
                     
+ExprLiteral
+.
+String
+(
+_actorName
+(
+p
+.
+name
+self
+.
+side
+)
+)
+                    
 ExprCall
 (
 ExprVar
