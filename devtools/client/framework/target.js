@@ -1939,7 +1939,7 @@ form
 returned
 by
 a
-listTabs
+getRoot
 request
 .
 This
@@ -2000,7 +2000,9 @@ this
 .
 client
 .
-listTabs
+mainRoot
+.
+getRoot
 (
 response
 =
