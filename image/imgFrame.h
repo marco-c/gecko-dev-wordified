@@ -2150,11 +2150,6 @@ UnlockImageData
 (
 )
 ;
-bool
-CanOptimizeOpaqueImage
-(
-)
-;
 nsresult
 Optimize
 (
@@ -2567,9 +2562,6 @@ mBlendRect
 ;
 SurfaceFormat
 mFormat
-;
-bool
-mHasNoAlpha
 ;
 bool
 mAborted
