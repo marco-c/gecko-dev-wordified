@@ -1238,6 +1238,12 @@ WebRenderBridgeParent
 (
 )
 ;
+uint64_t
+GetLayersId
+(
+)
+const
+;
 void
 DeleteOldImages
 (
