@@ -100,14 +100,10 @@ h
 #
 include
 "
-WebRenderLayersLogging
+LayersLogging
 .
 h
 "
-/
-/
-for
-AppendToString
 #
 include
 "

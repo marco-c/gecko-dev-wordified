@@ -114,6 +114,13 @@ h
 #
 include
 "
+LayersLogging
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -130,13 +137,6 @@ mozilla
 webrender
 /
 WebRenderTypes
-.
-h
-"
-#
-include
-"
-WebRenderLayersLogging
 .
 h
 "
