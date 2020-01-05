@@ -1474,6 +1474,9 @@ type
 "
 arrow
 "
+consumeOutsideClicks
+:
+false
 }
 )
 ;
@@ -1497,9 +1500,7 @@ arrow
 "
 useXulWrapper
 :
-"
 true
-"
 }
 )
 ;
