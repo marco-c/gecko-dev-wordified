@@ -806,6 +806,9 @@ hasEmbeddedWebExtension
 "
 mpcOptedOut
 "
+"
+userPermissions
+"
 ]
 ;
 /
