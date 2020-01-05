@@ -259,6 +259,12 @@ IonSpewer
 \
 _
 (
+PerfSpewer
+500
+)
+\
+_
+(
 TraceLoggerThreadState
 500
 )
