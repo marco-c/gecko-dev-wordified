@@ -567,14 +567,6 @@ aPluginApi
 new
 FakeDecryptor
 (
-static_cast
-<
-GMPDecryptorHost
-*
->
-(
-aHostAPI
-)
 )
 ;
 return
