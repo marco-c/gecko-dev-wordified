@@ -1794,6 +1794,10 @@ JS
 :
 MutableHandleFunction
 objp
+HandleScriptSource
+sourceObject
+=
+nullptr
 )
 ;
 bool
