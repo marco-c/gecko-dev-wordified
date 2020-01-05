@@ -7919,6 +7919,14 @@ Condition
 cond
 )
 ;
+static
+DoubleCondition
+InvertCondition
+(
+DoubleCondition
+cond
+)
+;
 /
 /
 MacroAssemblers
