@@ -170,13 +170,6 @@ style_traits
 ToCss
 ;
 pub
-use
-style_traits
-:
-:
-HasViewportPercentage
-;
-pub
 mod
 computed
 ;

@@ -417,7 +417,10 @@ use
 style_traits
 :
 :
+{
+HasViewportPercentage
 ToCss
+}
 ;
 use
 stylesheets
@@ -450,10 +453,7 @@ use
 values
 :
 :
-{
-HasViewportPercentage
 computed
-}
 ;
 use
 cascade_info

@@ -135,7 +135,10 @@ use
 style_traits
 :
 :
+{
+HasViewportPercentage
 ToCss
+}
 ;
 use
 style_traits
@@ -156,7 +159,6 @@ values
 {
 CSSInteger
 CSSFloat
-HasViewportPercentage
 }
 ;
 use

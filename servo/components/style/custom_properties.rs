@@ -166,7 +166,10 @@ use
 style_traits
 :
 :
+{
+HasViewportPercentage
 ToCss
+}
 ;
 use
 stylearc
@@ -396,11 +399,6 @@ Name
 >
 }
 impl
-:
-:
-values
-:
-:
 HasViewportPercentage
 for
 SpecifiedValue
