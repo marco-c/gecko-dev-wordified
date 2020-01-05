@@ -123,7 +123,7 @@ GeneratedFile
     
 HostDefines
     
-ObjdirPreprocessedFiles
+ObjdirFiles
 )
 from
 .
@@ -1311,22 +1311,6 @@ obj
 backend_file
 )
         
-elif
-isinstance
-(
-obj
-ObjdirPreprocessedFiles
-)
-:
-            
-self
-.
-_process_final_target_pp_files
-(
-obj
-backend_file
-)
-        
 return
 True
     
@@ -2113,6 +2097,15 @@ obj
 .
 install_target
         
+if
+not
+isinstance
+(
+obj
+ObjdirFiles
+)
+:
+            
 path
 =
 mozpath
@@ -2121,13 +2114,13 @@ basedir
 (
 target
 (
-            
+                
 '
 dist
 /
 bin
 '
-            
+                
 '
 dist
 /
@@ -2135,37 +2128,37 @@ xpi
 -
 stage
 '
-            
+                
 '
 _tests
 '
-            
+                
 '
 dist
 /
 include
 '
-            
+                
 '
 dist
 /
 branding
 '
-            
+                
 '
 dist
 /
 sdk
 '
-        
+            
 )
 )
-        
+            
 if
 not
 path
 :
-            
+                
 raise
 Exception
 (
@@ -2176,16 +2169,6 @@ to
 "
 +
 target
-)
-        
-reltarget
-=
-mozpath
-.
-relpath
-(
-target
-path
 )
         
 for
@@ -2228,19 +2211,6 @@ isinstance
 (
 f
 RenamedSourcePath
-)
-                
-dest
-=
-mozpath
-.
-join
-(
-reltarget
-path
-f
-.
-target_basename
 )
                 
 if
