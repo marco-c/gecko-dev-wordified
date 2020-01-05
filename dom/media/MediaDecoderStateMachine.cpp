@@ -5844,6 +5844,13 @@ media
 resource
 .
 *
+NextFrameSeekingState
+if
+completing
+a
+NextFrameSeekingFromDormantState
+.
+*
 DECODING
 otherwise
 .
