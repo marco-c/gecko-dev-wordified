@@ -762,9 +762,6 @@ gecko_enum_prefix
 '
 StyleDisplay
 '
-gecko_strip_moz_prefix
-=
-False
 )
 )
 }
