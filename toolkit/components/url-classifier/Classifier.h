@@ -228,6 +228,15 @@ Reset
 )
 ;
 /
+/
+Not
+including
+any
+intermediary
+for
+update
+.
+/
 *
 *
 *
@@ -780,7 +789,7 @@ CopyInUseDirForUpdate
 (
 )
 ;
-void
+nsresult
 CopyInUseLookupCacheForUpdate
 (
 )
