@@ -3557,7 +3557,7 @@ changed
 /
 /
 ULONG
-sum
+sumAll
 =
 0
 ;
@@ -3573,6 +3573,11 @@ bool
 linkUp
 =
 false
+;
+ULONG
+sum
+=
+0
 ;
 for
 (
@@ -3627,6 +3632,12 @@ adapter
 continue
 ;
 }
+sum
+<
+<
+=
+2
+;
 /
 /
 Add
@@ -3657,12 +3668,6 @@ i
 i
 )
 {
-sum
-<
-<
-=
-2
-;
 sum
 +
 =
@@ -3763,6 +3768,11 @@ linkUp
 =
 true
 ;
+sumAll
+^
+=
+sum
+;
 }
 mLinkUp
 =
@@ -3800,7 +3810,7 @@ up
 /
 mIPInterfaceChecksum
 =
-sum
+sumAll
 ;
 }
 CoUninitialize
