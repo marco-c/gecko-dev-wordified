@@ -76,8 +76,6 @@ entry
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -90,8 +88,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -106,8 +102,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -120,8 +114,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -136,8 +128,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -151,8 +141,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -166,8 +154,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 mode
@@ -180,8 +166,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -196,8 +180,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 mode
@@ -210,8 +192,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -226,8 +206,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 mode
@@ -241,8 +219,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 mode
@@ -255,8 +231,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -273,8 +247,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -288,8 +260,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 keymap
@@ -300,8 +270,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -314,8 +282,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 keymap
@@ -326,8 +292,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -341,8 +305,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -359,8 +321,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -375,8 +335,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -393,8 +351,6 @@ js
 "
 .
 /
-sourceeditor
-/
 codemirror
 /
 addon
@@ -407,8 +363,6 @@ js
 "
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
@@ -426,8 +380,6 @@ filename
 :
 "
 .
-/
-sourceeditor
 /
 codemirror
 /
