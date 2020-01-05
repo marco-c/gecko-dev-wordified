@@ -22104,11 +22104,6 @@ referrerURI
 ownerDoc
 .
 documentURIObject
-originPrincipal
-:
-ownerDoc
-.
-nodePrincipal
 }
 )
 ;
