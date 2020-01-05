@@ -583,7 +583,6 @@ StartObjectLoad
 StartObjectLoad
 (
 true
-false
 )
 ;
 }
@@ -1321,6 +1320,8 @@ aSubjectPrincipal
 )
 ;
 }
+private
+:
 /
 *
 *
@@ -1344,12 +1345,8 @@ StartObjectLoad
 (
 bool
 aNotify
-bool
-aForceLoad
 )
 ;
-private
-:
 /
 *
 *
