@@ -7860,13 +7860,6 @@ wants
 to
 seek
 .
-mPendingSeek
-.
-RejectIfExists
-(
-__func__
-)
-;
 SeekJob
 seekJob
 ;
