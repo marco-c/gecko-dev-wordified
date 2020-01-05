@@ -180,8 +180,8 @@ ime
 mode
 "
 "
-normal
 auto
+normal
 active
 disabled
 inactive

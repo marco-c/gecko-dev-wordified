@@ -800,10 +800,10 @@ justify
 content
 "
 "
-stretch
 flex
 -
 start
+stretch
 flex
 -
 end
