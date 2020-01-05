@@ -498,9 +498,9 @@ ApiMsg
 bool
 {
 match
+*
 msg
 {
-&
 ApiMsg
 :
 :
@@ -510,7 +510,6 @@ AddRawFont
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -520,7 +519,6 @@ AddNativeFont
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -530,7 +528,6 @@ DeleteFont
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -540,7 +537,6 @@ AddImage
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -550,7 +546,6 @@ GenerateFrame
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -560,7 +555,6 @@ UpdateImage
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -570,7 +564,6 @@ DeleteImage
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -580,7 +573,6 @@ SetDisplayList
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -590,7 +582,6 @@ SetRootPipeline
 .
 )
 |
-&
 ApiMsg
 :
 :
@@ -600,13 +591,11 @@ Scroll
 .
 )
 |
-&
 ApiMsg
 :
 :
 TickScrollingBounce
 |
-&
 ApiMsg
 :
 :

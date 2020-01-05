@@ -1057,7 +1057,7 @@ Self
 extract_bytes
 (
 color
-COLOR_FLOAT_TO_FIXED
+8
 )
 }
 pub
@@ -1079,7 +1079,7 @@ Self
 extract_bytes
 (
 color
-COLOR_FLOAT_TO_FIXED_WIDE
+0
 )
 }
 fn
@@ -1089,9 +1089,9 @@ color
 :
 &
 ColorF
-multiplier
+shift_by
 :
-f32
+i32
 )
 -
 >
@@ -1111,7 +1111,7 @@ color
 .
 b
 *
-multiplier
+COLOR_FLOAT_TO_FIXED_WIDE
 )
 .
 floor
@@ -1119,6 +1119,9 @@ floor
 )
 as
 u32
+>
+>
+shift_by
 &
 0xff
 )
@@ -1136,7 +1139,7 @@ color
 .
 g
 *
-multiplier
+COLOR_FLOAT_TO_FIXED_WIDE
 )
 .
 floor
@@ -1144,6 +1147,9 @@ floor
 )
 as
 u32
+>
+>
+shift_by
 &
 0xff
 )
@@ -1161,7 +1167,7 @@ color
 .
 r
 *
-multiplier
+COLOR_FLOAT_TO_FIXED_WIDE
 )
 .
 floor
@@ -1169,6 +1175,9 @@ floor
 )
 as
 u32
+>
+>
+shift_by
 &
 0xff
 )
@@ -1186,7 +1195,7 @@ color
 .
 a
 *
-multiplier
+COLOR_FLOAT_TO_FIXED_WIDE
 )
 .
 floor
@@ -1194,6 +1203,9 @@ floor
 )
 as
 u32
+>
+>
+shift_by
 &
 0xff
 )
@@ -1976,9 +1988,9 @@ self
 BlendMode
 {
 match
+*
 self
 {
-&
 HardwareCompositeOp
 :
 :

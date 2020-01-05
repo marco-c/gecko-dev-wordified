@@ -92,6 +92,7 @@ util
 :
 :
 {
+ComplexClipRegionHelpers
 MatrixHelpers
 TransformedRect
 }
@@ -293,9 +294,9 @@ ImageMask
 >
 {
 match
+*
 self
 {
-&
 ClipSource
 :
 :
@@ -307,7 +308,6 @@ Complex
 =
 >
 None
-&
 ClipSource
 :
 :
@@ -455,7 +455,6 @@ new
 self
 .
 local_rect
-&
 transform
 device_pixel_ratio
 )
@@ -810,9 +809,9 @@ in
 clips
 {
 match
+*
 clip
 {
-&
 ClipSource
 :
 :
@@ -830,7 +829,6 @@ clip_count
 1
 ;
 }
-&
 ClipSource
 :
 :
@@ -1142,9 +1140,9 @@ in
 sources
 {
 match
+*
 source
 {
-&
 ClipSource
 :
 :
@@ -1298,12 +1296,11 @@ radius
 )
 )
 .
-get_inner_rect
+get_inner_rect_safe
 (
 )
 ;
 }
-&
 ClipSource
 :
 :
@@ -1641,7 +1638,7 @@ r
 |
 clip
 .
-get_inner_rect
+get_inner_rect_safe
 (
 )
 .
@@ -1655,7 +1652,6 @@ r
 .
 intersection
 (
-&
 inner
 )
 )

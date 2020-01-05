@@ -396,14 +396,7 @@ screen_origin
 :
 DeviceIntPoint
 pub
-opaque_items
-:
-Vec
-<
-AlphaRenderItem
->
-pub
-alpha_items
+items
 :
 Vec
 <
@@ -834,15 +827,7 @@ AlphaRenderTask
 screen_origin
 :
 screen_origin
-alpha_items
-:
-Vec
-:
-:
-new
-(
-)
-opaque_items
+items
 :
 Vec
 :
@@ -1125,6 +1110,7 @@ in
 clips
 {
 match
+*
 clip
 .
 bounds
@@ -1137,7 +1123,6 @@ unwrap
 (
 )
 {
-&
 MaskBounds
 :
 :
@@ -1148,7 +1133,6 @@ outer
 _
 )
 |
-&
 MaskBounds
 :
 :
@@ -1183,7 +1167,6 @@ bounding_rect
 )
 ;
 }
-&
 MaskBounds
 :
 :
@@ -1295,6 +1278,7 @@ let
 inner_rect
 =
 match
+*
 clip
 .
 1
@@ -1309,7 +1293,6 @@ unwrap
 (
 )
 {
-&
 MaskBounds
 :
 :
@@ -1319,7 +1302,6 @@ Outer
 .
 )
 |
-&
 MaskBounds
 :
 :
@@ -1332,7 +1314,6 @@ DeviceIntRect
 zero
 (
 )
-&
 MaskBounds
 :
 :

@@ -62,7 +62,10 @@ MPL
 A
 GPU
 based
-Webrender
+renderer
+for
+the
+web
 .
 /
 /
@@ -119,7 +122,7 @@ dependencies
 /
 /
 !
-Webrender
+WebRender
 currently
 depends
 on
@@ -155,7 +158,7 @@ main
 entry
 point
 to
-webrender
+WebRender
 is
 the
 webrender
@@ -538,6 +541,9 @@ thread_profiler
 ;
 mod
 batch_builder
+;
+mod
+border
 ;
 mod
 clip_scroll_node

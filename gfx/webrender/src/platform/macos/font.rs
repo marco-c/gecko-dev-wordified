@@ -1030,7 +1030,7 @@ if
 let
 Some
 (
-cg_font
+_
 )
 =
 self
@@ -1542,10 +1542,9 @@ self
 data
 :
 &
-Vec
-<
+[
 u8
->
+]
 width
 :
 usize
@@ -2727,7 +2726,6 @@ None
 =
 >
 {
-return
 Some
 (
 RasterizedGlyph
@@ -2737,7 +2735,6 @@ blank
 (
 )
 )
-;
 }
 }
 }
