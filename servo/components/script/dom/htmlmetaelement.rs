@@ -310,6 +310,7 @@ stylesheets
 {
 Stylesheet
 CssRule
+CssRules
 Origin
 }
 ;
@@ -836,6 +837,11 @@ Stylesheet
 {
 rules
 :
+CssRules
+:
+:
+new
+(
 vec
 !
 [
@@ -859,9 +865,6 @@ translated_rule
 )
 )
 ]
-.
-into
-(
 )
 origin
 :

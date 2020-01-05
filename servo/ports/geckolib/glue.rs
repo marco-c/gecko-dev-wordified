@@ -686,6 +686,7 @@ stylesheets
 :
 {
 CssRule
+CssRules
 Origin
 Stylesheet
 StyleRule
@@ -2550,11 +2551,11 @@ raw_sheet
 .
 rules
 .
-0
-.
 read
 (
 )
+.
+0
 .
 is_empty
 (
@@ -2590,8 +2591,6 @@ sheet
 )
 .
 rules
-.
-0
 .
 clone
 (
@@ -2698,10 +2697,7 @@ RwLock
 :
 :
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 :
 :
@@ -2719,6 +2715,8 @@ let
 iter
 =
 rules
+.
+0
 .
 iter
 (
@@ -2832,10 +2830,7 @@ RwLock
 :
 :
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 :
 :
@@ -2851,6 +2846,8 @@ read
 ;
 match
 rules
+.
+0
 [
 index
 as
@@ -2926,10 +2923,7 @@ RwLock
 :
 :
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 :
 :
@@ -2967,10 +2961,7 @@ RwLock
 :
 :
 <
-Vec
-<
-CssRule
->
+CssRules
 >
 :
 :
