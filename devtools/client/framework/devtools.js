@@ -338,10 +338,6 @@ browser
 .
 *
 /
-this
-.
-DevTools
-=
 function
 DevTools
 (
