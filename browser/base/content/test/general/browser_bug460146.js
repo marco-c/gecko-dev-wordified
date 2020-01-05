@@ -62,13 +62,6 @@ true
 )
 ;
 var
-doc
-=
-gBrowser
-.
-contentDocument
-;
-var
 pageInfo
 =
 BrowserPageInfo

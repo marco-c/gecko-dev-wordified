@@ -4454,13 +4454,6 @@ SimpleGestureEvent
 ROTATION_CLOCKWISE
 ;
 let
-cclockwise
-=
-SimpleGestureEvent
-.
-ROTATION_COUNTERCLOCKWISE
-;
-let
 delta
 =
 aAmount

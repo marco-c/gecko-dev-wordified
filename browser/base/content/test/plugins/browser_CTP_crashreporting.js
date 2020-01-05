@@ -1119,7 +1119,6 @@ state
 let
 [
 subject
-data
 ]
 =
 yield
@@ -1661,7 +1660,6 @@ click
 let
 [
 subject
-data
 ]
 =
 yield

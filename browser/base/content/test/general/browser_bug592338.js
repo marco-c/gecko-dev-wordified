@@ -514,9 +514,6 @@ selectedBrowser
 )
 ;
 let
-notification
-;
-let
 notificationBox
 =
 gBrowser
@@ -534,9 +531,6 @@ waitForCondition
 )
 =
 >
-(
-notification
-=
 notificationBox
 .
 getNotificationWithValue
@@ -548,7 +542,6 @@ install
 -
 notification
 "
-)
 )
 (
 )

@@ -7484,7 +7484,6 @@ status
 let
 [
 subject
-data
 ]
 =
 yield

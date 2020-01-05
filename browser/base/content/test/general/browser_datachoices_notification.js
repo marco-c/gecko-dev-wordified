@@ -699,9 +699,6 @@ panel
 to
 open
 .
-let
-preferenceWindow
-=
 yield
 paneLoadedPromise
 ;

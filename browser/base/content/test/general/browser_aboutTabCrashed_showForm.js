@@ -131,16 +131,6 @@ function
 browser
 )
 {
-let
-tab
-=
-gBrowser
-.
-getTabForBrowser
-(
-browser
-)
-;
 /
 /
 Flip

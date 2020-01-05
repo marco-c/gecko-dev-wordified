@@ -93,9 +93,6 @@ addTab
 (
 )
 ;
-let
-newTab2
-=
 gBrowser
 .
 addTab

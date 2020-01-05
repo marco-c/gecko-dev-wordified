@@ -187,9 +187,6 @@ browser
 let
 pageLoaded
 ;
-let
-tab
-=
 yield
 BrowserTestUtils
 .

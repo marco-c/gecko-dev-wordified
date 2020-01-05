@@ -5238,13 +5238,6 @@ button
 =
 0
 ;
-let
-currentTab
-=
-gBrowser
-.
-selectedTab
-;
 p
 =
 msg
@@ -6431,9 +6424,6 @@ promiseNewSearchEngine
 TEST_ENGINE_BASENAME
 )
 ;
-let
-engine2
-=
 yield
 promiseNewSearchEngine
 (

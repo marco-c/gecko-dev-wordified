@@ -452,9 +452,6 @@ notification
 "
 )
 ;
-let
-notification
-=
 this
 .
 _notificationBox

@@ -987,11 +987,6 @@ tabsOpened
 =
 false
 ;
-let
-tabOpened
-=
-false
-;
 if
 (
 awaitTabOpen

@@ -332,11 +332,6 @@ controller
 .
 matchCount
 ;
-let
-present
-=
-false
-;
 for
 (
 let

@@ -450,9 +450,6 @@ this
 .
 responseText
 ;
-let
-ast
-;
 try
 {
 info
@@ -464,8 +461,6 @@ Checking
 uri
 )
 ;
-ast
-=
 Reflect
 .
 parse

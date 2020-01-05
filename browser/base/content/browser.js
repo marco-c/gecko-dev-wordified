@@ -4983,9 +4983,6 @@ function
 aBrowser
 )
 {
-let
-popups
-=
 aBrowser
 .
 retrieveListOfBlockedPopups
@@ -6366,13 +6363,6 @@ nsIHttpChannel
 .
 REFERRER_POLICY_DEFAULT
 )
-;
-let
-charset
-=
-params
-.
-charset
 ;
 let
 postData
@@ -22193,13 +22183,6 @@ enabled
 return
 ;
 }
-let
-videoEl
-=
-this
-.
-target
-;
 let
 doc
 =
@@ -39069,7 +39052,6 @@ if
 event
 )
 {
-let
 inBackground
 =
 Services

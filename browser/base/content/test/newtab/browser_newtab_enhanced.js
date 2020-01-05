@@ -1106,13 +1106,6 @@ by
 a
 directory
 tile
-let
-origIsTopPlacesSite
-=
-NewTabUtils
-.
-isTopPlacesSite
-;
 NewTabUtils
 .
 isTopPlacesSite

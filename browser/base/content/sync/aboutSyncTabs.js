@@ -1440,7 +1440,6 @@ for
 (
 let
 [
-guid
 client
 ]
 of

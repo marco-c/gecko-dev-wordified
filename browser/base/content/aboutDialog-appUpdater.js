@@ -2507,15 +2507,6 @@ applying
 )
 ;
 let
-update
-=
-this
-.
-um
-.
-activeUpdate
-;
-let
 self
 =
 this

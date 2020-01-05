@@ -119,9 +119,6 @@ before
 calling
 provider
 callback
-let
-tab
-=
 yield
 BrowserTestUtils
 .

@@ -1113,17 +1113,6 @@ places
 )
 ;
 let
-totalHistoryVisits
-=
-uris
-.
-length
-+
-olderURIs
-.
-length
-;
-let
 wh
 =
 new
