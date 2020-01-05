@@ -3294,6 +3294,13 @@ this
 )
 |
 |
+(
+IsFrameOfType
+(
+eSupportsCSSTransforms
+)
+&
+&
 nsLayoutUtils
 :
 :
@@ -3301,6 +3308,7 @@ HasAnimationOfProperty
 (
 this
 eCSSProperty_transform
+)
 )
 )
 {
