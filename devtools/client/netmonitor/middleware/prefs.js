@@ -88,6 +88,8 @@ require
 .
 .
 /
+utils
+/
 prefs
 "
 )

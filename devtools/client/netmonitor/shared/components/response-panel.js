@@ -98,6 +98,8 @@ require
 .
 .
 /
+utils
+/
 l10n
 "
 )
@@ -116,6 +118,8 @@ require
 /
 .
 .
+/
+utils
 /
 request
 -

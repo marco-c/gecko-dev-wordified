@@ -101,6 +101,8 @@ client
 /
 netmonitor
 /
+utils
+/
 prefs
 "
 )

@@ -230,6 +230,8 @@ client
 /
 netmonitor
 /
+utils
+/
 prefs
 "
 )

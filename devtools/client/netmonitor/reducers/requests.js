@@ -90,6 +90,8 @@ require
 .
 .
 /
+utils
+/
 request
 -
 utils

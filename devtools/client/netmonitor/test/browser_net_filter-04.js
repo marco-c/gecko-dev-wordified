@@ -382,6 +382,8 @@ client
 /
 netmonitor
 /
+utils
+/
 prefs
 "
 )

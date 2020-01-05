@@ -69,6 +69,8 @@ client
 /
 netmonitor
 /
+utils
+/
 l10n
 "
 )
@@ -117,6 +119,8 @@ devtools
 client
 /
 netmonitor
+/
+utils
 /
 prefs
 "

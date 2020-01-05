@@ -154,6 +154,8 @@ require
 .
 .
 /
+utils
+/
 prefs
 "
 )
@@ -168,6 +170,8 @@ require
 "
 .
 .
+/
+utils
 /
 request
 -
