@@ -2274,6 +2274,13 @@ try
             
 import
 wptrunner
+            
+from
+wptrunner
+.
+browsers
+import
+servo
         
 except
 ImportError
@@ -2352,6 +2359,33 @@ requirements_servo
 txt
 "
 )
+]
+)
+        
+try
+:
+            
+import
+blessings
+        
+except
+ImportError
+:
+            
+subprocess
+.
+check_call
+(
+[
+"
+pip
+"
+"
+install
+"
+"
+blessings
+"
 ]
 )
         
