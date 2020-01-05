@@ -14258,6 +14258,13 @@ parent_info
 incomplete
 .
 window_size
+incomplete
+.
+origin
+.
+clone
+(
+)
 self
 .
 webvr_thread

@@ -6265,6 +6265,15 @@ pub
 pipeline_id
 :
 PipelineId
+/
+/
+/
+The
+origin
+pub
+origin
+:
+ImmutableOrigin
 }
 /
 /
