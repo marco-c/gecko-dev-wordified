@@ -1585,6 +1585,8 @@ layout_context
 shared
 .
 stylist
+.
+0
 }
 ;
 if
