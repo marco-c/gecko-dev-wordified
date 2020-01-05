@@ -280,13 +280,6 @@ browser
 .
 download
 .
-importedFromSqlite
-"
-"
-browser
-.
-download
-.
 lastDir
 .
 savePerSite
