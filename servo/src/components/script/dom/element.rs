@@ -94,10 +94,10 @@ use
 dom
 :
 :
-attrlist
+namednodemap
 :
 :
-AttrList
+NamedNodeMap
 ;
 use
 dom
@@ -538,7 +538,7 @@ Option
 <
 JS
 <
-AttrList
+NamedNodeMap
 >
 >
 >
@@ -4140,7 +4140,7 @@ self
 >
 Temporary
 <
-AttrList
+NamedNodeMap
 >
 {
 match
@@ -4227,7 +4227,7 @@ root
 let
 list
 =
-AttrList
+NamedNodeMap
 :
 :
 new

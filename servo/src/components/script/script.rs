@@ -405,10 +405,6 @@ attr
 ;
 pub
 mod
-attrlist
-;
-pub
-mod
 blob
 ;
 pub
@@ -790,6 +786,10 @@ messageevent
 pub
 mod
 mouseevent
+;
+pub
+mod
+namednodemap
 ;
 pub
 mod
