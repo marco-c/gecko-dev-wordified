@@ -1618,7 +1618,7 @@ if
 pc
 =
 =
-JSOP_GETXPROP
+JSOP_GETBOUNDNAME
 |
 |
 cx
