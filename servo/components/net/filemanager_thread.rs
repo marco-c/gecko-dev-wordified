@@ -169,7 +169,6 @@ PathBuf
 impl
 FileManager
 {
-pub
 fn
 new
 (
@@ -273,7 +272,6 @@ file
 manager
 event
 loop
-pub
 fn
 start
 (

@@ -575,7 +575,7 @@ use
 net_traits
 :
 :
-ControlMsg
+CoreResourceMsg
 :
 :
 Load
@@ -600,7 +600,7 @@ LoadConsumer
 LoadContext
 LoadData
 ResourceCORSData
-ResourceThread
+CoreResourceThread
 }
 ;
 use
@@ -1728,9 +1728,9 @@ ScriptChan
 +
 Send
 >
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 )
 {
 struct
@@ -1765,9 +1765,9 @@ ScriptChan
 +
 Send
 >
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 }
 impl
 AsyncCORSResponseListener
@@ -1928,7 +1928,7 @@ clone
 )
 self
 .
-resource_thread
+core_resource_thread
 .
 clone
 (
@@ -1972,9 +1972,9 @@ script_chan
 clone
 (
 )
-resource_thread
+core_resource_thread
 :
-resource_thread
+core_resource_thread
 }
 ;
 req
@@ -2007,9 +2007,9 @@ ScriptChan
 +
 Send
 >
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 load_data
 :
 LoadData
@@ -2303,7 +2303,7 @@ unwrap
 }
 )
 ;
-resource_thread
+core_resource_thread
 .
 send
 (
@@ -10472,11 +10472,11 @@ None
 }
 ;
 let
-resource_thread
+core_resource_thread
 =
 global
 .
-resource_thread
+core_resource_thread
 (
 )
 ;
@@ -10510,7 +10510,7 @@ script_chan
 clone
 (
 )
-resource_thread
+core_resource_thread
 )
 ;
 }
@@ -10527,7 +10527,7 @@ clone
 (
 )
 script_chan
-resource_thread
+core_resource_thread
 load_data
 )
 ;

@@ -144,10 +144,10 @@ net_traits
 :
 {
 AsyncResponseTarget
-ControlMsg
+CoreResourceMsg
 LoadConsumer
 LoadData
-ResourceThread
+CoreResourceThread
 }
 ;
 use
@@ -1502,9 +1502,9 @@ ThreadPool
 Resource
 thread
 handle
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 /
 /
 Images
@@ -1854,9 +1854,9 @@ ImageCache
 fn
 run
 (
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 webrender_api
 :
 Option
@@ -2129,9 +2129,9 @@ HashMap
 new
 (
 )
-resource_thread
+core_resource_thread
 :
-resource_thread
+core_resource_thread
 placeholder_image
 :
 placeholder_image
@@ -3458,7 +3458,7 @@ action_sender
 let
 msg
 =
-ControlMsg
+CoreResourceMsg
 :
 :
 Load
@@ -3539,7 +3539,7 @@ unwrap
 ;
 self
 .
-resource_thread
+core_resource_thread
 .
 send
 (
@@ -4007,9 +4007,9 @@ pub
 fn
 new_image_cache_thread
 (
-resource_thread
+core_resource_thread
 :
-ResourceThread
+CoreResourceThread
 webrender_api
 :
 Option
@@ -4059,7 +4059,7 @@ ImageCache
 :
 run
 (
-resource_thread
+core_resource_thread
 webrender_api
 ipc_command_receiver
 )

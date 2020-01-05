@@ -242,7 +242,7 @@ use
 net_traits
 :
 :
-ResourceThread
+CoreResourceThread
 ;
 use
 profile_traits
@@ -983,7 +983,7 @@ devtools_chan
 /
 Get
 the
-ResourceThread
+CoreResourceThread
 for
 this
 global
@@ -991,14 +991,14 @@ scope
 .
 pub
 fn
-resource_thread
+core_resource_thread
 (
 &
 self
 )
 -
 >
-ResourceThread
+CoreResourceThread
 {
 match
 *
@@ -1065,7 +1065,7 @@ worker
 >
 worker
 .
-resource_thread
+core_resource_thread
 (
 )
 .
