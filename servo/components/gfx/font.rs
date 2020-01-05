@@ -1326,15 +1326,11 @@ debug
 (
 "
 {
-:
-s
 }
 font
 table
 [
 {
-:
-s
 }
 ]
 with

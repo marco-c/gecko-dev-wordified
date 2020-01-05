@@ -5188,8 +5188,6 @@ request
 for
 :
 {
-:
-s
 }
 "
 data

@@ -1990,8 +1990,6 @@ debug
 text
 :
 {
-:
-s
 }
 "
 text

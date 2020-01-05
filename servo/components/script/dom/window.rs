@@ -1593,8 +1593,6 @@ println
 ALERT
 :
 {
-:
-s
 }
 "
 s
@@ -2182,8 +2180,6 @@ debug
 (
 "
 {
-:
-s
 }
 "
 message

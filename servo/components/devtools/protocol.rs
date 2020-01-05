@@ -234,8 +234,6 @@ println
 <
 -
 {
-:
-s
 }
 "
 s
@@ -471,8 +469,6 @@ println
 (
 "
 {
-:
-s
 }
 "
 packet

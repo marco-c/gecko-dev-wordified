@@ -810,8 +810,6 @@ debug
 tracing
 value
 {
-:
-s
 }
 "
 description
@@ -964,8 +962,6 @@ debug
 "
 tracing
 {
-:
-s
 }
 "
 description

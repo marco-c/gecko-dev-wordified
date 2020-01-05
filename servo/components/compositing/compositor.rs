@@ -4794,8 +4794,6 @@ osmain
 loading
 URL
 {
-:
-s
 }
 "
 url_string

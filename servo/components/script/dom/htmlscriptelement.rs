@@ -2022,8 +2022,6 @@ script
 type
 =
 {
-:
-s
 }
 "
 *
@@ -2150,8 +2148,6 @@ script
 language
 =
 {
-:
-s
 }
 "
 *

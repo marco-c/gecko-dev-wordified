@@ -9212,8 +9212,6 @@ debug
 clicked
 on
 {
-:
-s
 }
 "
 node

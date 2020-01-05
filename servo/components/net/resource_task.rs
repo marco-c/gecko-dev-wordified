@@ -1456,8 +1456,6 @@ loader
 for
 scheme
 {
-:
-s
 }
 "
 load_data
@@ -1518,8 +1516,6 @@ loading
 url
 :
 {
-:
-s
 }
 "
 load_data

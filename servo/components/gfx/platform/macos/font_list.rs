@@ -205,8 +205,6 @@ of
 family
 :
 {
-:
-s
 }
 "
 family_name
