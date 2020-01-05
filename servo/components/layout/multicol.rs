@@ -213,10 +213,7 @@ style
 context
 :
 :
-{
-StyleContext
 SharedStyleContext
-}
 ;
 use
 style
