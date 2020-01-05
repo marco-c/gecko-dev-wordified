@@ -1000,7 +1000,7 @@ from_char
 (
 raw
 .
-len
+char_len
 (
 )
 '
