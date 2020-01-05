@@ -2036,7 +2036,7 @@ Services
 .
 telemetry
 .
-getKeyedHistogram
+getKeyedHistogramById
 (
 histogramId
 )
