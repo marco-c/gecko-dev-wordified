@@ -141,8 +141,8 @@ proxyhandler
 :
 :
 {
-getPropertyDescriptor
-FillPropertyDescriptor
+get_property_descriptor
+fill_property_descriptor
 }
 ;
 use
@@ -931,7 +931,7 @@ to_jsval
 cx
 )
 ;
-FillPropertyDescriptor
+fill_property_descriptor
 (
 &
 mut
@@ -1503,7 +1503,7 @@ getPropertyDescriptor
 :
 Some
 (
-getPropertyDescriptor
+get_property_descriptor
 as
 unsafe
 extern
