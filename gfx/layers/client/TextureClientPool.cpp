@@ -1779,6 +1779,11 @@ GetReadLock
 )
 -
 >
+AsNonBlockingLock
+(
+)
+-
+>
 GetReadCount
 (
 )
