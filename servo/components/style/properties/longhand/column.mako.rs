@@ -784,9 +784,6 @@ longhand
 name
 =
 "
--
-moz
--
 column
 -
 rule
@@ -970,9 +967,6 @@ helpers
 predefined_type
 (
 "
--
-moz
--
 column
 -
 rule
@@ -997,11 +991,6 @@ products
 =
 "
 gecko
-"
-gecko_ffi_name
-=
-"
-mColumnRuleColor
 "
 animatable
 =
@@ -1079,9 +1068,6 @@ helpers
 single_keyword
 (
 "
--
-moz
--
 column
 -
 rule
@@ -1104,11 +1090,6 @@ products
 =
 "
 gecko
-"
-gecko_ffi_name
-=
-"
-mColumnRuleStyle
 "
 gecko_constant_prefix
 =
