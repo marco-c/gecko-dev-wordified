@@ -124,7 +124,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -1458,7 +1458,7 @@ AndroidMediaPluginHost
 FindDecoder
 (
 const
-MediaContentType
+MediaContainerType
 &
 aMimeType
 MediaCodecs
@@ -1624,7 +1624,7 @@ MediaResource
 *
 aResource
 const
-MediaContentType
+MediaContainerType
 &
 aMimeType
 )

@@ -131,7 +131,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -288,14 +288,14 @@ ADTSDecoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 if
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -312,7 +312,7 @@ aac
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -329,7 +329,7 @@ aacp
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -355,7 +355,7 @@ IsEnabled
 &
 &
 (
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -370,7 +370,7 @@ IsEmpty
 )
 |
 |
-aContentType
+aContainerType
 .
 ExtendedType
 (

@@ -140,7 +140,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 class
 WebMDecoder
@@ -206,7 +206,7 @@ override
 Returns
 true
 if
-aContentType
+aContainerType
 is
 a
 WebM
@@ -241,9 +241,9 @@ bool
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 ;
 void

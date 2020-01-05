@@ -131,7 +131,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -280,9 +280,9 @@ FlacDecoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 return
@@ -292,7 +292,7 @@ IsEnabled
 &
 &
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -309,7 +309,7 @@ flac
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -328,7 +328,7 @@ flac
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (

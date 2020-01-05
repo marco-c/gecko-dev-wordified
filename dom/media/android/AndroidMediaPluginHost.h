@@ -154,7 +154,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 class
 MediaCodecs
@@ -212,7 +212,7 @@ bool
 FindDecoder
 (
 const
-MediaContentType
+MediaContainerType
 &
 aMimeType
 MediaCodecs
@@ -234,7 +234,7 @@ MediaResource
 *
 aResource
 const
-MediaContentType
+MediaContainerType
 &
 aMimeType
 )

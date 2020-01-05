@@ -348,7 +348,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 /
 /
@@ -2279,7 +2279,7 @@ extra
 parameters
 from
 a
-content
+container
 type
 (
 its
@@ -2295,16 +2295,16 @@ UniquePtr
 <
 TrackInfo
 >
-CreateTrackInfoWithMIMETypeAndContentTypeExtraParameters
+CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
 const
 nsACString
 &
 aCodecMIMEType
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 ;
 namespace

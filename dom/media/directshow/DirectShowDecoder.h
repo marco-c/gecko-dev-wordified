@@ -136,7 +136,7 @@ class
 MediaCodecs
 ;
 class
-MediaContentType
+MediaContainerType
 ;
 /
 /
@@ -278,7 +278,7 @@ bool
 GetSupportedCodecs
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 MediaCodecs

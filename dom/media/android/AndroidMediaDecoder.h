@@ -139,7 +139,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -152,7 +152,7 @@ AndroidMediaDecoder
 public
 MediaDecoder
 {
-MediaContentType
+MediaContainerType
 mType
 ;
 public
@@ -163,7 +163,7 @@ MediaDecoderOwner
 *
 aOwner
 const
-MediaContentType
+MediaContainerType
 &
 aType
 )

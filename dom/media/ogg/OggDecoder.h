@@ -133,7 +133,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 class
 OggDecoder
@@ -295,7 +295,7 @@ mShutdownBit
 Returns
 true
 if
-aContentType
+aContainerType
 is
 an
 Ogg
@@ -330,9 +330,9 @@ bool
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 ;
 protected

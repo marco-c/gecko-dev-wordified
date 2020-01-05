@@ -145,7 +145,7 @@ MediaDecoderOwner
 *
 aOwner
 const
-MediaContentType
+MediaContainerType
 &
 aType
 )

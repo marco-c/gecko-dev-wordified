@@ -122,7 +122,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -218,9 +218,9 @@ WaveDecoder
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 {
 if
@@ -237,7 +237,7 @@ false
 }
 if
 (
-aContentType
+aContainerType
 .
 Type
 (
@@ -254,7 +254,7 @@ wave
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -273,7 +273,7 @@ wav
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -290,7 +290,7 @@ wav
 )
 |
 |
-aContentType
+aContainerType
 .
 Type
 (
@@ -313,7 +313,7 @@ wav
 {
 return
 (
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -328,7 +328,7 @@ IsEmpty
 )
 |
 |
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -350,7 +350,7 @@ EqualsASCII
 )
 |
 |
-aContentType
+aContainerType
 .
 ExtendedType
 (
@@ -372,7 +372,7 @@ EqualsASCII
 )
 |
 |
-aContentType
+aContainerType
 .
 ExtendedType
 (

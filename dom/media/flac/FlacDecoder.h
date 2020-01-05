@@ -131,7 +131,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 class
 FlacDecoder
@@ -221,9 +221,9 @@ bool
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 ;
 }

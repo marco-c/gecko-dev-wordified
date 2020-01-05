@@ -162,7 +162,7 @@ namespace
 mozilla
 {
 class
-MediaContentType
+MediaContainerType
 ;
 /
 /
@@ -238,7 +238,7 @@ override
 Returns
 true
 if
-aContentType
+aContainerType
 is
 an
 MP4
@@ -273,9 +273,9 @@ bool
 IsSupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 DecoderDoctorDiagnostics
 *
 aDiagnostics

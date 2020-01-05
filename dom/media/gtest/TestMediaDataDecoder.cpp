@@ -126,7 +126,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -296,7 +296,7 @@ DecoderTraits
 :
 IsMP4SupportedType
 (
-MediaContentType
+MediaContainerType
 (
 MEDIAMIMETYPE
 (
@@ -408,7 +408,7 @@ WebMDecoder
 :
 IsSupportedType
 (
-MediaContentType
+MediaContainerType
 (
 MEDIAMIMETYPE
 (

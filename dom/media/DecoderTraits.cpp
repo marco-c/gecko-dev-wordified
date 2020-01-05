@@ -122,7 +122,7 @@ h
 #
 include
 "
-MediaContentType
+MediaContainerType
 .
 h
 "
@@ -335,7 +335,7 @@ bool
 IsHttpLiveStreamingType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 )
@@ -454,7 +454,7 @@ bool
 IsAndroidMediaType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 )
@@ -559,7 +559,7 @@ DecoderTraits
 IsMP4SupportedType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 DecoderDoctorDiagnostics
@@ -593,7 +593,7 @@ CanPlayStatus
 CanHandleCodecsType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 DecoderDoctorDiagnostics
@@ -632,10 +632,9 @@ HaveCodecs
 ;
 /
 /
-Content
+Container
 type
 with
-the
 the
 MIME
 type
@@ -643,7 +642,7 @@ no
 codecs
 .
 const
-MediaContentType
+MediaContainerType
 mimeType
 (
 aType
@@ -721,7 +720,7 @@ WaveDecoder
 :
 IsSupportedType
 (
-MediaContentType
+MediaContainerType
 (
 mimeType
 )
@@ -1069,7 +1068,7 @@ CanPlayStatus
 CanHandleMediaType
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 DecoderDoctorDiagnostics
@@ -1148,7 +1147,7 @@ result
 }
 /
 /
-Content
+Container
 type
 with
 just
@@ -1161,7 +1160,7 @@ no
 codecs
 .
 const
-MediaContentType
+MediaContainerType
 mimeType
 (
 aType
@@ -1356,12 +1355,12 @@ CanPlayStatus
 DecoderTraits
 :
 :
-CanHandleContentType
+CanHandleContainerType
 (
 const
-MediaContentType
+MediaContainerType
 &
-aContentType
+aContainerType
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -1370,7 +1369,7 @@ aDiagnostics
 return
 CanHandleMediaType
 (
-aContentType
+aContainerType
 aDiagnostics
 )
 ;
@@ -1397,11 +1396,11 @@ aDiagnostics
 {
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-contentType
+containerType
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aMIMEType
 )
@@ -1409,7 +1408,7 @@ aMIMEType
 if
 (
 !
-contentType
+containerType
 )
 {
 return
@@ -1424,7 +1423,7 @@ WaveDecoder
 IsSupportedType
 (
 *
-contentType
+containerType
 )
 )
 {
@@ -1538,7 +1537,7 @@ handle
 .
 if
 (
-contentType
+containerType
 -
 >
 Type
@@ -1579,7 +1578,7 @@ pluginHost
 >
 HavePluginForType
 (
-contentType
+containerType
 -
 >
 Type
@@ -1601,7 +1600,7 @@ return
 CanHandleMediaType
 (
 *
-contentType
+containerType
 aDiagnostics
 )
 !
@@ -1626,7 +1625,7 @@ MediaDecoder
 InstantiateDecoder
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 MediaDecoderOwner
@@ -2018,11 +2017,11 @@ NS_IsMainThread
 ;
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
 type
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aType
 )
@@ -2060,7 +2059,7 @@ DecoderTraits
 CreateReader
 (
 const
-MediaContentType
+MediaContainerType
 &
 aType
 AbstractMediaDecoder
@@ -2512,11 +2511,11 @@ false
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
 type
 =
-MakeMediaContentType
+MakeMediaContainerType
 (
 aType
 )

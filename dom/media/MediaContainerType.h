@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-MediaContentType_h_
+MediaContainerType_h_
 #
 define
-MediaContentType_h_
+MediaContainerType_h_
 #
 include
 "
@@ -155,12 +155,12 @@ for
 containers
 .
 class
-MediaContentType
+MediaContainerType
 {
 public
 :
 explicit
-MediaContentType
+MediaContainerType
 (
 const
 MediaMIMEType
@@ -175,7 +175,7 @@ aType
 {
 }
 explicit
-MediaContentType
+MediaContainerType
 (
 MediaMIMEType
 &
@@ -193,7 +193,7 @@ aType
 {
 }
 explicit
-MediaContentType
+MediaContainerType
 (
 const
 MediaExtendedMIMEType
@@ -208,7 +208,7 @@ aType
 {
 }
 explicit
-MediaContentType
+MediaContainerType
 (
 MediaExtendedMIMEType
 &
@@ -326,9 +326,9 @@ mExtendedMIMEType
 ;
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 nsAString
@@ -338,9 +338,9 @@ aType
 ;
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 nsACString
@@ -350,9 +350,9 @@ aType
 ;
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 char
@@ -369,4 +369,4 @@ mozilla
 endif
 /
 /
-MediaContentType_h_
+MediaContainerType_h_

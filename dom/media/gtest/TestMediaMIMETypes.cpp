@@ -105,7 +105,7 @@ h
 #
 include
 "
-MediaContentType
+MediaMIMETypes
 .
 h
 "

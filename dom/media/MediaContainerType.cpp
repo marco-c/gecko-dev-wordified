@@ -117,14 +117,7 @@ MPL
 #
 include
 "
-MediaContentType
-.
-h
-"
-#
-include
-"
-nsContentTypeParser
+MediaContainerType
 .
 h
 "
@@ -132,7 +125,7 @@ namespace
 mozilla
 {
 size_t
-MediaContentType
+MediaContainerType
 :
 :
 SizeOfExcludingThis
@@ -153,9 +146,9 @@ aMallocSizeOf
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 nsAString
@@ -182,7 +175,7 @@ mime
 return
 Some
 (
-MediaContentType
+MediaContainerType
 (
 Move
 (
@@ -201,9 +194,9 @@ Nothing
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 nsACString
@@ -212,7 +205,7 @@ aType
 )
 {
 return
-MakeMediaContentType
+MakeMediaContainerType
 (
 NS_ConvertUTF8toUTF16
 (
@@ -223,9 +216,9 @@ aType
 }
 Maybe
 <
-MediaContentType
+MediaContainerType
 >
-MakeMediaContentType
+MakeMediaContainerType
 (
 const
 char
@@ -246,7 +239,7 @@ Nothing
 ;
 }
 return
-MakeMediaContentType
+MakeMediaContainerType
 (
 nsDependentCString
 (
