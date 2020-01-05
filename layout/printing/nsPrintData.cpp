@@ -722,6 +722,14 @@ mType
 =
 =
 eIsPrinting
+&
+&
+mPrintDC
+-
+>
+IsCurrentlyPrintingDocument
+(
+)
 )
 {
 if
