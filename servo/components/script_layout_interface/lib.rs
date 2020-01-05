@@ -476,6 +476,7 @@ HTMLTableElement
 HTMLTableRowElement
 HTMLTableSectionElement
 HTMLTextAreaElement
+SVGSVGElement
 }
 pub
 struct
@@ -491,6 +492,19 @@ IpcSender
 CanvasMsg
 >
 >
+pub
+width
+:
+u32
+pub
+height
+:
+u32
+}
+pub
+struct
+SVGSVGData
+{
 pub
 width
 :
