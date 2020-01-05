@@ -355,6 +355,15 @@ HttpBaseChannel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ClearOnShutdown
+.
+h
+"
 namespace
 mozilla
 {
@@ -6197,6 +6206,9 @@ return
 NS_OK
 ;
 }
+#
+undef
+LOG_ENABLED
 }
 /
 /
