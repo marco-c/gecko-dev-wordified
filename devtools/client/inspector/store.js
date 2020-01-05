@@ -107,11 +107,13 @@ reducers
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
 /
 reducers
-/
-index
 "
 )
 ;
