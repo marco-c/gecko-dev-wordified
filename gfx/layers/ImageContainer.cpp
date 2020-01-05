@@ -3359,7 +3359,7 @@ width
 *
 2
 ;
-uint8_t
+auto
 *
 buffer
 =

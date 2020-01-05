@@ -8242,7 +8242,7 @@ text
 we
 just
 drew
-CGRect
+auto
 *
 bboxes
 =

@@ -1018,7 +1018,7 @@ GLContext
 context
 )
 {
-GrGLInterface
+auto
 *
 i
 =

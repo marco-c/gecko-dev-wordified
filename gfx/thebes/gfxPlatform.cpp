@@ -7014,7 +7014,7 @@ in
 the
 future
 .
-SourceSurfaceUserData
+auto
 *
 srcSurfUD
 =
@@ -7179,7 +7179,7 @@ with
 the
 data
 .
-DependentSourceSurfaceUserData
+auto
 *
 srcSurfUD
 =
