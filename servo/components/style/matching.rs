@@ -2982,6 +2982,18 @@ animations
 .
 if
 animate
+&
+&
+!
+context
+.
+shared
+.
+traversal_flags
+.
+for_animation_only
+(
+)
 {
 self
 .
@@ -6150,7 +6162,7 @@ nodes
 changed
 .
 fn
-cascade_with_replacements
+replace_rules
 (
 &
 self

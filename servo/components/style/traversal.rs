@@ -5349,7 +5349,7 @@ _rule_nodes_changed
 =
 element
 .
-cascade_with_replacements
+replace_rules
 (
 hint
 context
