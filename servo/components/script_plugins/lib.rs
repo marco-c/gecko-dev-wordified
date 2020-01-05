@@ -254,9 +254,6 @@ AttributeType
 Whitelisted
 ;
 mod
-ban
-;
-mod
 unrooted_must_root
 ;
 /
@@ -298,17 +295,6 @@ UnrootedPass
 new
 (
 )
-)
-;
-reg
-.
-register_early_lint_pass
-(
-box
-ban
-:
-:
-BanPass
 )
 ;
 reg
