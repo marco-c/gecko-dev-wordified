@@ -256,17 +256,6 @@ GetGLFrameBufferFormat
 override
 ;
 virtual
-layers
-:
-:
-Composer2D
-*
-GetComposer2D
-(
-)
-override
-;
-virtual
 void
 ObserveVsync
 (

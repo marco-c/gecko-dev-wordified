@@ -906,14 +906,6 @@ nullptr
 ;
 }
 virtual
-LayerRenderState
-GetRenderState
-(
-)
-=
-0
-;
-virtual
 gfx
 :
 :

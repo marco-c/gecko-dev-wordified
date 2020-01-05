@@ -148,13 +148,6 @@ h
 #
 include
 "
-Composer2D
-.
-h
-"
-#
-include
-"
 Effects
 .
 h
