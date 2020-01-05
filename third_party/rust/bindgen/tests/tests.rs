@@ -700,7 +700,7 @@ cfg
 feature
 =
 "
-llvm_stable
+testing_only_llvm_stable
 "
 )
 {
@@ -889,6 +889,15 @@ prepend
 "
 bindgen
 "
+"
+-
+-
+with
+-
+derive
+-
+default
+"
 header_str
 "
 -
@@ -963,6 +972,7 @@ map
 |
 (
 builder
+_
 _
 )
 |

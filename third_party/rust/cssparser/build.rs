@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-#
-[
-macro_use
-]
 extern
 crate
 quote

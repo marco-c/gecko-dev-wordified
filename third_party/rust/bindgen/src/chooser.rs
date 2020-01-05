@@ -43,6 +43,15 @@ std
 :
 fmt
 ;
+use
+std
+:
+:
+panic
+:
+:
+UnwindSafe
+;
 /
 /
 /
@@ -70,6 +79,8 @@ fmt
 :
 :
 Debug
++
+UnwindSafe
 {
 /
 /
