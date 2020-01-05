@@ -44890,8 +44890,9 @@ i
 .
 e
 .
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 etc
+.
 static
 bool
 IsCornerAdjacentToSide
