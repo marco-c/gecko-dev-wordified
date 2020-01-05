@@ -562,6 +562,18 @@ boolean
 isVisited
 )
 {
+/
+/
+Needs
+to
+be
+refactored
+(
+Bug
+1330280
+)
+/
+*
 final
 View
 anchor
@@ -737,6 +749,8 @@ dismiss
 (
 )
 ;
+*
+/
 }
 private
 void
