@@ -299,6 +299,52 @@ dtd
 '
 '
     
+#
+Keep
+a
+trailing
+slash
+here
+!
+e
+.
+g
+.
+locales
+like
+'
+br
+'
+can
+transform
+    
+#
+'
+chrome
+/
+br
+/
+locale
+/
+branding
+/
+'
+into
+'
+chrome
+/
+en
+-
+US
+/
+locale
+/
+en
+-
+USanding
+/
+'
+    
 p
 =
 re
@@ -319,6 +365,7 @@ locale
 /
 \
 1
+/
 '
                
 '
@@ -333,6 +380,7 @@ locale
 en
 -
 US
+/
 '
                
 p
@@ -355,6 +403,7 @@ S
 )
 /
 locale
+/
 '
                
 '
@@ -365,6 +414,7 @@ en
 US
 /
 locale
+/
 '
                
 p
