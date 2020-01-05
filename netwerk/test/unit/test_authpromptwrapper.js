@@ -677,8 +677,6 @@ http
 "
 +
 host
-"
-"
 )
 var
 chan
@@ -1277,8 +1275,6 @@ ftp
 "
 +
 host
-"
-"
 )
 ;
 var

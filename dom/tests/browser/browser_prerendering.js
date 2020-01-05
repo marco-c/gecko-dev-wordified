@@ -102,8 +102,6 @@ io
 newURI
 (
 PRERENDERED_URL
-null
-null
 )
 ;
 return

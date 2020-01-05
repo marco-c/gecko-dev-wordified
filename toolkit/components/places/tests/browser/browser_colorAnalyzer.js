@@ -242,8 +242,6 @@ io
 newURI
 (
 uri
-"
-"
 )
 function
 (
