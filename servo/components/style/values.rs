@@ -6841,6 +6841,7 @@ specified
 :
 :
 {
+Angle
 BorderStyle
 Time
 }
