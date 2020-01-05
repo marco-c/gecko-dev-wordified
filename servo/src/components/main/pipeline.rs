@@ -426,6 +426,11 @@ compositor_chan
 clone
 (
 )
+constellation_chan
+.
+clone
+(
+)
 opts
 .
 clone
@@ -884,6 +889,11 @@ create
 id
 render_port
 compositor_chan
+.
+clone
+(
+)
+constellation_chan
 .
 clone
 (
