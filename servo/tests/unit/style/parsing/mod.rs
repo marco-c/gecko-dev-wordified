@@ -726,3 +726,6 @@ selectors
 mod
 supports
 ;
+mod
+text_overflow
+;
