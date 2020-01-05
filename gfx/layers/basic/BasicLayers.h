@@ -721,14 +721,14 @@ BLM_INACTIVE
 ;
 }
 virtual
-void
+bool
 BeginTransaction
 (
 )
 override
 ;
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext

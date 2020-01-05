@@ -1540,7 +1540,7 @@ obtained
 *
 /
 virtual
-void
+bool
 BeginTransaction
 (
 )
@@ -1603,7 +1603,7 @@ returns
 *
 /
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext

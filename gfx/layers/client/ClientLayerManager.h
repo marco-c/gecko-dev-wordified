@@ -448,7 +448,7 @@ aRotation
 )
 ;
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext
@@ -458,7 +458,7 @@ aTarget
 override
 ;
 virtual
-void
+bool
 BeginTransaction
 (
 )
