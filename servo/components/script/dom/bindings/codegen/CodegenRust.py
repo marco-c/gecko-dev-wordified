@@ -1986,10 +1986,8 @@ file
 "
 "
         
-assert
-(
-False
-)
+raise
+NotImplementedError
 #
 Override
 me
@@ -16265,10 +16263,8 @@ self
 )
 :
         
-assert
-(
-False
-)
+raise
+NotImplementedError
 #
 Override
 me
@@ -21751,11 +21747,12 @@ self
 )
 :
         
-assert
-False
+raise
+NotImplementedError
 #
 Override
 me
+!
 class
 CGSpecializedMethod
 (
@@ -35962,14 +35959,12 @@ self
 )
 :
         
+raise
+NotImplementedError
 #
 Override
 me
-        
-assert
-(
-False
-)
+!
 def
 finalizeHook
 (
