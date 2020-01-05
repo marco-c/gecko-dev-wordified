@@ -1286,11 +1286,6 @@ getProperty
 version
 "
 )
-"
-specificationLevel
-"
-:
-0
 /
 /
 supported
@@ -1327,6 +1322,11 @@ proxy
 /
 proprietary
 extensions
+"
+specificationLevel
+"
+:
+0
 "
 processId
 "
