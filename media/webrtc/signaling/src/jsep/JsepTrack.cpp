@@ -3243,8 +3243,10 @@ this
 .
 direction
 =
-~
+reverse
+(
 direction
+)
 ;
 }
 if

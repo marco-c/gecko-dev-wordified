@@ -12522,11 +12522,13 @@ if
 ansExt
 .
 direction
-|
-~
+&
+reverse
+(
 offExt
 .
 direction
+)
 )
 !
 =
