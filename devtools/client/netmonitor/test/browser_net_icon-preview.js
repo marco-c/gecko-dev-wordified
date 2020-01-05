@@ -286,7 +286,7 @@ all
 waitForNetworkEvents
 (
 monitor
-8
+CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 )
 monitor
 .

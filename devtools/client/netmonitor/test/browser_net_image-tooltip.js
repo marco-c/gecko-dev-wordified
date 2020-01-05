@@ -114,7 +114,7 @@ onEvents
 waitForNetworkEvents
 (
 monitor
-8
+CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 )
 ;
 let
@@ -177,10 +177,6 @@ items
 ;
 /
 /
-7
-XHRs
-as
-before
 +
 1
 extra
@@ -191,7 +187,9 @@ onEvents
 waitForNetworkEvents
 (
 monitor
-8
+CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
++
+1
 )
 ;
 onThumbnail
