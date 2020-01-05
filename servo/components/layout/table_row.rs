@@ -5335,6 +5335,14 @@ mut
 CollapsedBordersForRow
 )
 {
+println
+!
+(
+"
+perform_inline_direction_border_collapse_for_row
+"
+)
+;
 let
 inline_collapsed_border
 =
@@ -5342,7 +5350,7 @@ preliminary_collapsed_borders
 .
 inline
 .
-push_or_mutate
+push_or_set
 (
 child_index
 +
@@ -5447,7 +5455,7 @@ preliminary_collapsed_borders
 .
 block_start
 .
-push_or_mutate
+push_or_set
 (
 child_index
 block_start_border
@@ -5480,7 +5488,7 @@ preliminary_collapsed_borders
 .
 block_end
 .
-push_or_mutate
+push_or_set
 (
 child_index
 block_end_border
