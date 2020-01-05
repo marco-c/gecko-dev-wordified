@@ -4573,6 +4573,7 @@ following
 hyperlinks
 -
 2
+pub
 fn
 follow_hyperlink
 (
