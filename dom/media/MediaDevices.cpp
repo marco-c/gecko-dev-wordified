@@ -940,6 +940,8 @@ const
 MediaStreamConstraints
 &
 aConstraints
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1030,6 +1032,7 @@ window
 aConstraints
 resolver
 rejecter
+aCallerType
 )
 ;
 return

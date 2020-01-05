@@ -346,6 +346,12 @@ MediaTrackConstraints
 struct
 MediaTrackConstraintSet
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 }
 /
 /
@@ -1180,6 +1186,11 @@ onSuccess
 nsIDOMGetUserMediaErrorCallback
 *
 onError
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 nsresult

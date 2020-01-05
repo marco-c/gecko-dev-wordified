@@ -232,6 +232,8 @@ const
 MediaStreamConstraints
 &
 aConstraints
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
