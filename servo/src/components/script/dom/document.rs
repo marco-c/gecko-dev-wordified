@@ -2206,7 +2206,7 @@ title_child
 }
 child
 .
-add_child
+AppendChild
 (
 self
 .
@@ -2266,7 +2266,7 @@ new_title
 ;
 new_title
 .
-add_child
+AppendChild
 (
 self
 .
@@ -2279,7 +2279,7 @@ title
 ;
 node
 .
-add_child
+AppendChild
 (
 new_title
 )
