@@ -721,6 +721,13 @@ correctly
 for
 closed
 windows
+let
+clearHistoryPromise
+=
+promiseClearHistory
+(
+)
+;
 yield
 ForgetAboutSite
 .
@@ -734,9 +741,7 @@ org
 )
 ;
 yield
-promiseClearHistory
-(
-)
+clearHistoryPromise
 ;
 let
 closedWindowData
