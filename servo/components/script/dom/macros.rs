@@ -2453,6 +2453,14 @@ GetOnload
 SetOnload
 )
 ;
+event_handler
+!
+(
+resize
+GetOnresize
+SetOnresize
+)
+;
 global_event_handlers
 !
 (
