@@ -5737,7 +5737,7 @@ XPC_LOG_ALWAYS
 "
 gDyingScopes
 %
-x
+p
 "
 gDyingScopes
 )
@@ -5800,7 +5800,7 @@ XPC_LOG_ALWAYS
 "
 XPCWrappedNativeScope
 %
-x
+p
 "
 this
 )
@@ -5816,7 +5816,7 @@ XPC_LOG_ALWAYS
 "
 mNext
 %
-x
+p
 "
 mNext
 )
@@ -5828,7 +5828,7 @@ XPC_LOG_ALWAYS
 "
 mComponents
 %
-x
+p
 "
 mComponents
 .
@@ -5844,7 +5844,7 @@ XPC_LOG_ALWAYS
 "
 mGlobalJSObject
 %
-x
+p
 "
 mGlobalJSObject
 .
@@ -5860,7 +5860,7 @@ XPC_LOG_ALWAYS
 "
 mWrappedNativeMap
 %
-x
+p
 with
 %
 d
@@ -5971,7 +5971,7 @@ XPC_LOG_ALWAYS
 "
 mWrappedNativeProtoMap
 %
-x
+p
 with
 %
 d

@@ -141,7 +141,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Sprintf
 .
 h
 "
@@ -365,15 +367,9 @@ ap
 fmt
 )
 ;
-PR_vsnprintf
+VsprintfLiteral
 (
 line
-sizeof
-(
-line
-)
--
-1
 fmt
 ap
 )

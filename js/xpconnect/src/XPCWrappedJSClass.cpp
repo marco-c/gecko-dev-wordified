@@ -9409,13 +9409,13 @@ XPC_LOG_ALWAYS
 "
 nsXPCWrappedJSClass
 %
-x
+p
 with
 mRefCnt
 =
 %
-d
 "
+PRIuPTR
 this
 mRefCnt
 .
@@ -9510,7 +9510,7 @@ XPC_LOG_ALWAYS
 "
 InterfaceInfo
 %
-x
+p
 "
 mInfo
 .
@@ -9560,7 +9560,7 @@ XPC_LOG_ALWAYS
 "
 parent
 %
-x
+p
 "
 parent
 .
@@ -9625,7 +9625,7 @@ XPC_LOG_ALWAYS
 "
 mContext
 %
-x
+p
 "
 mContext
 )
@@ -9637,7 +9637,7 @@ XPC_LOG_ALWAYS
 "
 mDescriptors
 %
-x
+p
 count
 =
 %

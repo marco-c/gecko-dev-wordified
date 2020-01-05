@@ -25257,7 +25257,7 @@ XPC_LOG_ALWAYS
 "
 XPCJSContext
 %
-x
+p
 "
 this
 )
@@ -25273,7 +25273,7 @@ XPC_LOG_ALWAYS
 "
 mJSContext
 %
-x
+p
 "
 Context
 (
@@ -25287,7 +25287,7 @@ XPC_LOG_ALWAYS
 "
 mWrappedJSClassMap
 %
-x
+p
 with
 %
 d
@@ -25405,7 +25405,7 @@ XPC_LOG_ALWAYS
 "
 mWrappedJSMap
 %
-x
+p
 with
 %
 d
@@ -25460,7 +25460,7 @@ XPC_LOG_ALWAYS
 "
 mIID2NativeInterfaceMap
 %
-x
+p
 with
 %
 d
@@ -25485,7 +25485,7 @@ XPC_LOG_ALWAYS
 "
 mClassInfo2NativeSetMap
 %
-x
+p
 with
 %
 d
@@ -25510,7 +25510,7 @@ XPC_LOG_ALWAYS
 "
 mThisTranslatorMap
 %
-x
+p
 with
 %
 d
@@ -25535,7 +25535,7 @@ XPC_LOG_ALWAYS
 "
 mNativeSetMap
 %
-x
+p
 with
 %
 d
@@ -25647,9 +25647,15 @@ XPC_LOG_ALWAYS
 mPendingResult
 of
 %
-x
 "
+PRIx32
+static_cast
+<
+uint32_t
+>
+(
 mPendingResult
+)
 )
 )
 ;

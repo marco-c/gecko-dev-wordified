@@ -13967,13 +13967,13 @@ XPC_LOG_ALWAYS
 "
 XPCWrappedNative
 %
-x
+p
 with
 mRefCnt
 =
 %
-d
 "
+PRIuPTR
 this
 mRefCnt
 .
@@ -14024,7 +14024,7 @@ XPC_LOG_ALWAYS
 "
 mMaybeProto
 %
-x
+p
 "
 proto
 )
@@ -14038,7 +14038,7 @@ XPC_LOG_ALWAYS
 "
 Scope
 %
-x
+p
 "
 GetScope
 (
@@ -14068,7 +14068,7 @@ XPC_LOG_ALWAYS
 "
 mSet
 %
-x
+p
 "
 mSet
 .
@@ -14085,7 +14085,7 @@ XPC_LOG_ALWAYS
 mFlatJSObject
 of
 %
-x
+p
 "
 mFlatJSObject
 .
@@ -14102,7 +14102,7 @@ XPC_LOG_ALWAYS
 mIdentity
 of
 %
-x
+p
 "
 mIdentity
 .
@@ -14118,7 +14118,7 @@ XPC_LOG_ALWAYS
 "
 mScriptable
 %
-x
+p
 "
 mScriptable
 .
@@ -14164,7 +14164,7 @@ XPC_LOG_ALWAYS
 "
 mJSClass
 %
-x
+p
 "
 mScriptable
 -

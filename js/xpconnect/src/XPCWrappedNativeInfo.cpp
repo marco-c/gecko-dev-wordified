@@ -2578,7 +2578,7 @@ XPC_LOG_ALWAYS
 "
 XPCNativeInterface
 %
-x
+p
 "
 this
 )
@@ -2622,7 +2622,7 @@ XPC_LOG_ALWAYS
 "
 mInfo
 %
-x
+p
 "
 mInfo
 .
@@ -5017,7 +5017,7 @@ XPC_LOG_ALWAYS
 "
 XPCNativeSet
 %
-x
+p
 "
 this
 )

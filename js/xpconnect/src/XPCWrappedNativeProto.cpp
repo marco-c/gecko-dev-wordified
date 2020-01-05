@@ -934,7 +934,7 @@ XPC_LOG_ALWAYS
 "
 XPCWrappedNativeProto
 %
-x
+p
 "
 this
 )
@@ -963,7 +963,7 @@ XPC_LOG_ALWAYS
 "
 mScope
 %
-x
+p
 "
 mScope
 )
@@ -975,7 +975,7 @@ XPC_LOG_ALWAYS
 "
 mJSProtoObject
 %
-x
+p
 "
 mJSProtoObject
 .
@@ -991,7 +991,7 @@ XPC_LOG_ALWAYS
 "
 mSet
 %
-x
+p
 "
 mSet
 .
@@ -1007,7 +1007,7 @@ XPC_LOG_ALWAYS
 "
 mScriptable
 %
-x
+p
 "
 mScriptable
 .
@@ -1053,7 +1053,7 @@ XPC_LOG_ALWAYS
 "
 mJSClass
 %
-x
+p
 "
 mScriptable
 -
