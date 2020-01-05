@@ -1225,11 +1225,14 @@ mBreakpadId
 c_str
 (
 )
+NS_ConvertUTF16toUTF8
+(
 module
 .
 mName
+)
 .
-c_str
+get
 (
 )
 )
