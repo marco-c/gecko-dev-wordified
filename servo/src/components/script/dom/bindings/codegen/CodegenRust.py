@@ -11572,9 +11572,6 @@ nativeName
 "
 :
 "
-crust
-:
-:
 JS_ArrayIterator
 "
                                 
@@ -11626,9 +11623,6 @@ nativeName
 "
 :
 "
-crust
-:
-:
 JS_ArrayIterator
 "
                                  
@@ -14024,67 +14018,34 @@ addProperty
 :
 Some
 (
-%
-s
+JS_PropertyStub
 )
-/
-*
-addProperty
-*
-/
     
 delProperty
 :
 Some
 (
-crust
-:
-:
 JS_PropertyStub
 )
-/
-*
-delProperty
-*
-/
     
 getProperty
 :
 Some
 (
-crust
-:
-:
 JS_PropertyStub
 )
-/
-*
-getProperty
-*
-/
     
 setProperty
 :
 Some
 (
-crust
-:
-:
 JS_StrictPropertyStub
 )
-/
-*
-setProperty
-*
-/
     
 enumerate
 :
 Some
 (
-crust
-:
-:
 JS_EnumerateStub
 )
     
@@ -14092,9 +14053,6 @@ resolve
 :
 Some
 (
-crust
-:
-:
 JS_ResolveStub
 )
     
@@ -14102,9 +14060,6 @@ convert
 :
 Some
 (
-crust
-:
-:
 JS_ConvertStub
 )
     
@@ -14115,57 +14070,27 @@ Some
 %
 s
 )
-/
-*
-finalize
-*
-/
     
 checkAccess
 :
 None
-/
-*
-checkAccess
-*
-/
     
 call
 :
 None
-/
-*
-call
-*
-/
     
 hasInstance
 :
 None
-/
-*
-hasInstance
-*
-/
     
 construct
 :
 None
-/
-*
-construct
-*
-/
     
 trace
 :
 %
 s
-/
-*
-trace
-*
-/
     
 reserved
 :
@@ -14528,13 +14453,6 @@ flags
 slots
 slots
        
-'
-crust
-:
-:
-JS_PropertyStub
-'
-       
 FINALIZE_HOOK_NAME
 traceHook
        
@@ -14704,69 +14622,34 @@ addProperty
 :
 Some
 (
-crust
-:
-:
 JS_PropertyStub
 )
-/
-*
-addProperty
-*
-/
   
 delProperty
 :
 Some
 (
-crust
-:
-:
 JS_PropertyStub
 )
-/
-*
-delProperty
-*
-/
   
 getProperty
 :
 Some
 (
-crust
-:
-:
 JS_PropertyStub
 )
-/
-*
-getProperty
-*
-/
   
 setProperty
 :
 Some
 (
-crust
-:
-:
 JS_StrictPropertyStub
 )
-/
-*
-setProperty
-*
-/
   
 enumerate
 :
 Some
 (
-crust
-:
-:
 JS_EnumerateStub
 )
   
@@ -14774,9 +14657,6 @@ resolve
 :
 Some
 (
-crust
-:
-:
 JS_ResolveStub
 )
   
@@ -14784,65 +14664,32 @@ convert
 :
 Some
 (
-crust
-:
-:
 JS_ConvertStub
 )
   
 finalize
 :
 None
-/
-*
-finalize
-*
-/
   
 checkAccess
 :
 None
-/
-*
-checkAccess
-*
-/
   
 call
 :
 None
-/
-*
-call
-*
-/
   
 hasInstance
 :
 None
-/
-*
-hasInstance
-*
-/
   
 construct
 :
 None
-/
-*
-construct
-*
-/
   
 trace
 :
 None
-/
-*
-trace
-*
-/
   
 reserved
 :
@@ -15286,114 +15133,43 @@ JSClass
 s
 0
   
-crust
-:
-:
 JS_PropertyStub
-/
-*
-addProperty
-*
-/
   
-crust
-:
-:
 JS_PropertyStub
-/
-*
-delProperty
-*
-/
   
-crust
-:
-:
 JS_PropertyStub
-/
-*
-getProperty
-*
-/
   
-crust
-:
-:
 JS_StrictPropertyStub
-/
-*
-setProperty
-*
-/
   
-crust
-:
-:
 JS_EnumerateStub
   
-crust
-:
-:
 JS_ResolveStub
   
-crust
-:
-:
 JS_ConvertStub
   
 0
 as
 *
 u8
-/
-*
-finalize
-*
-/
   
 0
 as
 *
 u8
-/
-*
-checkAccess
-*
-/
   
 %
 s
-/
-*
-call
-*
-/
   
 %
 s
-/
-*
-hasInstance
-*
-/
   
 %
 s
-/
-*
-construct
-*
-/
   
 0
 as
 *
 u8
-/
-*
-trace
-*
-/
   
 JSCLASS_NO_INTERNAL_MEMBERS
 }
@@ -40348,7 +40124,6 @@ js
 :
 :
 {
-crust
 JS_ARGV
 JS_CALLEE
 JS_THIS_OBJECT
@@ -40518,6 +40293,7 @@ jsapi
 JSNativeWrapper
 JSObject
 JSPropertyDescriptor
+JS_ArrayIterator
 }
 '
             
@@ -40531,6 +40307,7 @@ jsapi
 {
 JSPropertyOpWrapper
 JSPropertySpec
+JS_PropertyStub
 }
 '
             
@@ -40545,6 +40322,21 @@ jsapi
 JSStrictPropertyOpWrapper
 JSString
 JSTracer
+JS_ConvertStub
+}
+'
+            
+'
+js
+:
+:
+jsapi
+:
+:
+{
+JS_StrictPropertyStub
+JS_EnumerateStub
+JS_ResolveStub
 }
 '
             
@@ -50485,7 +50277,6 @@ js
 :
 :
 {
-crust
 JS_ARGV
 JS_CALLEE
 JS_THIS_OBJECT
