@@ -86,6 +86,10 @@ fnv
 ;
 extern
 crate
+phf
+;
+extern
+crate
 precomputed_hash
 ;
 #
@@ -110,6 +114,10 @@ smallvec
 pub
 mod
 arcslice
+;
+pub
+mod
+attr
 ;
 pub
 mod
@@ -176,14 +184,4 @@ tree
 :
 :
 Element
-;
-pub
-use
-tree
-:
-:
-{
-MatchAttr
-MatchAttrGeneric
-}
 ;
