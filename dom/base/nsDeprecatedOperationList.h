@@ -268,10 +268,6 @@ SyncXMLHttpRequest
 )
 DEPRECATED_OPERATION
 (
-DataContainerEvent
-)
-DEPRECATED_OPERATION
-(
 Window_Controllers
 )
 DEPRECATED_OPERATION

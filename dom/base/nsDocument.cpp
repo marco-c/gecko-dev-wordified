@@ -44129,6 +44129,10 @@ nsIDocument
 CreateEvent
 (
 aEventType
+CallerType
+:
+:
+System
 rv
 )
 .
@@ -44157,6 +44161,8 @@ const
 nsAString
 &
 aEventType
+CallerType
+aCallerType
 ErrorResult
 &
 rv
@@ -44227,6 +44233,7 @@ this
 presContext
 nullptr
 aEventType
+aCallerType
 )
 ;
 if
