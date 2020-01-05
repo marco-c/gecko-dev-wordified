@@ -428,7 +428,6 @@ NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
-virtual
 void
 Reflow
 (
@@ -448,7 +447,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -648,7 +646,6 @@ user
 '
 s
 settings
-virtual
 bool
 HonorPrintBackgroundSettings
 (
@@ -659,7 +656,6 @@ return
 false
 ;
 }
-virtual
 bool
 HasTransformGetter
 (
@@ -692,7 +688,6 @@ nsGkAtoms
 sequenceFrame
 *
 /
-virtual
 nsIAtom
 *
 GetType
@@ -704,7 +699,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

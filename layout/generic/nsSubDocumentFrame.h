@@ -341,7 +341,6 @@ aFlags
 const
 override
 ;
-virtual
 nsresult
 GetFrameName
 (
@@ -355,7 +354,6 @@ override
 #
 endif
 NS_DECL_QUERYFRAME
-virtual
 nsIAtom
 *
 GetType
@@ -364,7 +362,6 @@ GetType
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -402,7 +399,6 @@ eReplacedContainsBlock
 )
 ;
 }
-virtual
 void
 Init
 (
@@ -418,7 +414,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -428,7 +423,6 @@ aDestructRoot
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -438,7 +432,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -448,7 +441,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -458,14 +450,12 @@ GetIntrinsicSize
 )
 override
 ;
-virtual
 nsSize
 GetIntrinsicRatio
 (
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -515,7 +505,6 @@ aFlags
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -565,7 +554,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -585,7 +573,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -603,7 +590,6 @@ aLists
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -675,7 +661,6 @@ inherit
 in
 there
 .
-virtual
 bool
 SupportsVisibilityHidden
 (
@@ -689,7 +674,6 @@ false
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -767,14 +751,12 @@ GetSubdocumentSize
 /
 /
 nsIReflowCallback
-virtual
 bool
 ReflowFinished
 (
 )
 override
 ;
-virtual
 void
 ReflowCallbackCanceled
 (

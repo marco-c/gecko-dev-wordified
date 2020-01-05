@@ -282,7 +282,6 @@ NS_DECL_QUERYFRAME_TARGET
 nsVideoFrame
 )
 NS_DECL_FRAMEARENA_HELPERS
-virtual
 void
 BuildDisplayList
 (
@@ -300,7 +299,6 @@ aLists
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -352,14 +350,12 @@ nsRenderingContext
 aRenderingContext
 )
 ;
-virtual
 nsSize
 GetIntrinsicRatio
 (
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -409,7 +405,6 @@ aFlags
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -419,7 +414,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -429,7 +423,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -439,7 +432,6 @@ aDestructRoot
 )
 override
 ;
-virtual
 bool
 IsLeaf
 (
@@ -447,7 +439,6 @@ IsLeaf
 const
 override
 ;
-virtual
 void
 Reflow
 (
@@ -470,7 +461,6 @@ override
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -485,7 +475,6 @@ override
 ;
 #
 endif
-virtual
 nsIAtom
 *
 GetType
@@ -494,7 +483,6 @@ GetType
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -527,7 +515,6 @@ eReplacedSizing
 )
 ;
 }
-virtual
 nsresult
 CreateAnonymousContent
 (
@@ -540,7 +527,6 @@ aElements
 )
 override
 ;
-virtual
 void
 AppendAnonymousContentTo
 (
@@ -623,7 +609,6 @@ mVideoControls
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

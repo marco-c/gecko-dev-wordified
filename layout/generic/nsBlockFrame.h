@@ -891,7 +891,6 @@ NS_DECL_QUERYFRAME
 /
 /
 nsIFrame
-virtual
 void
 Init
 (
@@ -907,7 +906,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 SetInitialChildList
 (
@@ -919,7 +917,6 @@ aChildList
 )
 override
 ;
-virtual
 void
 AppendFrames
 (
@@ -931,7 +928,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 InsertFrames
 (
@@ -946,7 +942,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -958,7 +953,6 @@ aOldFrame
 )
 override
 ;
-virtual
 const
 nsFrameList
 &
@@ -970,7 +964,6 @@ aListID
 const
 override
 ;
-virtual
 void
 GetChildLists
 (
@@ -984,7 +977,6 @@ aLists
 const
 override
 ;
-virtual
 nscoord
 GetLogicalBaseline
 (
@@ -1063,7 +1055,6 @@ aBaseline
 const
 override
 ;
-virtual
 nscoord
 GetCaretBaseline
 (
@@ -1071,7 +1062,6 @@ GetCaretBaseline
 const
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -1081,7 +1071,6 @@ aDestructRoot
 )
 override
 ;
-virtual
 nsSplittableType
 GetSplittableType
 (
@@ -1089,7 +1078,6 @@ GetSplittableType
 const
 override
 ;
-virtual
 bool
 IsFloatContainingBlock
 (
@@ -1097,7 +1085,6 @@ IsFloatContainingBlock
 const
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -1115,7 +1102,6 @@ aLists
 )
 override
 ;
-virtual
 nsIAtom
 *
 GetType
@@ -1124,7 +1110,6 @@ GetType
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -1157,7 +1142,6 @@ eBlockFrame
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -1168,7 +1152,6 @@ aDisplayItemKey
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -1209,7 +1192,6 @@ aFlags
 const
 override
 ;
-virtual
 nsresult
 GetFrameName
 (
@@ -1225,7 +1207,6 @@ endif
 #
 ifdef
 DEBUG
-virtual
 nsFrameState
 GetDebugStateBits
 (
@@ -1248,7 +1229,6 @@ endif
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -1780,7 +1760,6 @@ mOrigCursor
 ;
 }
 ;
-virtual
 void
 ChildIsDirty
 (
@@ -1790,7 +1769,6 @@ aChild
 )
 override
 ;
-virtual
 bool
 IsVisibleInSelection
 (
@@ -1800,21 +1778,18 @@ aSelection
 )
 override
 ;
-virtual
 bool
 IsEmpty
 (
 )
 override
 ;
-virtual
 bool
 CachedIsEmpty
 (
 )
 override
 ;
-virtual
 bool
 IsSelfEmpty
 (
@@ -2041,7 +2016,6 @@ GetInsideBullet
 )
 ;
 }
-virtual
 void
 MarkIntrinsicISizesDirty
 (
@@ -2057,7 +2031,6 @@ CheckIntrinsicCacheAgainstShrinkWrapState
 ;
 public
 :
-virtual
 nscoord
 GetMinISize
 (
@@ -2067,7 +2040,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -2077,7 +2049,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nsRect
 ComputeTightBounds
 (
@@ -2088,7 +2059,6 @@ aDrawTarget
 const
 override
 ;
-virtual
 nsresult
 GetPrefWidthTightBounds
 (
@@ -2314,7 +2284,6 @@ nscoord
 aConsumed
 )
 ;
-virtual
 void
 Reflow
 (
@@ -2334,7 +2303,6 @@ aStatus
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -2378,14 +2346,12 @@ overflow
 frames
 *
 /
-virtual
 bool
 DrainSelfOverflowList
 (
 )
 override
 ;
-virtual
 nsresult
 StealFrame
 (
@@ -2395,7 +2361,6 @@ aChild
 )
 override
 ;
-virtual
 void
 DeleteNextInFlowChild
 (
