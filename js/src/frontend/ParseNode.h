@@ -2126,8 +2126,6 @@ PNK_NOT
 *
 PNK_BITNOT
 *
-PNK_AWAIT
-*
 PNK_TYPEOFNAME
 unary
 pn_kid
@@ -2667,13 +2665,14 @@ pn_left
 expr
 or
 null
-;
+*
+PNK_YIELD_STAR
 pn_right
 :
 generator
 object
 *
-PNK_YIELD_STAR
+PNK_AWAIT
 *
 PNK_ARRAYCOMP
 list
