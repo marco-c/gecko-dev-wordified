@@ -233,7 +233,7 @@ mozharness
 .
 mozilla
 .
-repo_manupulation
+repo_manipulation
 import
 MercurialRepoManipulationMixin
 from
