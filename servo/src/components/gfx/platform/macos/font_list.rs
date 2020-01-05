@@ -63,12 +63,6 @@ font
 FontHandleMethods
 ;
 use
-font_context
-:
-:
-FontContextHandleMethods
-;
-use
 font_list
 :
 :
