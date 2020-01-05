@@ -1048,6 +1048,12 @@ use
 std
 :
 :
+ptr
+;
+use
+std
+:
+:
 rc
 :
 :
@@ -4063,6 +4069,12 @@ unsafe
 {
 new_rt_and_cx
 (
+ptr
+:
+:
+null_mut
+(
+)
 )
 }
 ;
