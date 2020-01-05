@@ -1966,10 +1966,6 @@ new
 &
 window
 self
-.
-upcast
-(
-)
 box
 OptionsFilter
 )
