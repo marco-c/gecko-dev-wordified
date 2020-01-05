@@ -109,14 +109,6 @@ io
 [
 feature
 (
-old_path
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
