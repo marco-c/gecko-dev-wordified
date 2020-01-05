@@ -1793,7 +1793,9 @@ self
 .
 marionette
 .
-reset_timeouts
+timeout
+.
+reset
 (
 )
         
