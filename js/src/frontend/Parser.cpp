@@ -19345,7 +19345,7 @@ by
 js
 :
 :
-StartOffThreadParseScript
+StartOffThreadParseTask
 so
 cx
 will
