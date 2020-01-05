@@ -207,6 +207,10 @@ extern
 crate
 net
 ;
+extern
+crate
+net_traits
+;
 /
 /
 Servo
@@ -272,10 +276,10 @@ util
 opts
 ;
 use
-net
+net_traits
 :
 :
-resource_task
+hosts
 ;
 use
 servo
@@ -363,7 +367,7 @@ the
 HOST_FILE
 environment
 variable
-resource_task
+hosts
 :
 :
 global_init

@@ -80,13 +80,8 @@ use
 net_traits
 :
 :
-IncludeSubdomains
-;
-use
-resource_task
-:
-:
 {
+IncludeSubdomains
 IPV4_REGEX
 IPV6_REGEX
 }

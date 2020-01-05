@@ -273,6 +273,10 @@ net
 ;
 extern
 crate
+net_traits
+;
+extern
+crate
 env_logger
 ;
 #
@@ -296,10 +300,10 @@ util
 opts
 ;
 use
-net
+net_traits
 :
 :
-resource_task
+hosts
 ;
 use
 servo
@@ -391,7 +395,7 @@ as_slice
 )
 )
 ;
-resource_task
+hosts
 :
 :
 global_init
