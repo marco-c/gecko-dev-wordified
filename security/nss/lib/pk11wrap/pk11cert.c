@@ -5342,6 +5342,11 @@ cryptoContext
 =
 NULL
 ;
+CERT_LockCertTempPerm
+(
+cert
+)
+;
 cert
 -
 >
@@ -5355,6 +5360,11 @@ cert
 isperm
 =
 PR_TRUE
+;
+CERT_UnlockCertTempPerm
+(
+cert
+)
 ;
 }
 /

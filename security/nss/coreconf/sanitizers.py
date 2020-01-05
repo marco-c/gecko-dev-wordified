@@ -145,6 +145,16 @@ print
 fsanitize
 =
 address
+-
+fsanitize
+-
+address
+-
+use
+-
+after
+-
+scope
 '
 end
 =

@@ -2928,8 +2928,8 @@ rv
 SECSuccess
 )
 {
-return
-SECFailure
+goto
+cleanup
 ;
 }
 ecPub
@@ -3148,6 +3148,11 @@ arena
 PR_FALSE
 )
 ;
+if
+(
+ecPriv
+)
+{
 PORT_FreeArena
 (
 ecPriv
@@ -3159,6 +3164,7 @@ arena
 PR_FALSE
 )
 ;
+}
 return
 rv
 ;

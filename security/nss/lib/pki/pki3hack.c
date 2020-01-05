@@ -4700,6 +4700,11 @@ NSS
 4
 *
 /
+CERT_LockCertTempPerm
+(
+cc
+)
+;
 cc
 -
 >
@@ -4728,6 +4733,11 @@ by
 default
 *
 /
+CERT_UnlockCertTempPerm
+(
+cc
+)
+;
 /
 *
 pointer

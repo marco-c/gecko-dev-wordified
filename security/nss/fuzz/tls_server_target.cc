@@ -538,8 +538,10 @@ state
 .
 assert
 (
-RNG_ResetForFuzzing
+RNG_RandomUpdate
 (
+NULL
+0
 )
 =
 =

@@ -448,7 +448,6 @@ extensionHash
 8
 )
 |
-|
 certHash
 )
 <
@@ -456,14 +455,12 @@ certHash
 8
 )
 |
-|
 dateHash
 )
 <
 <
 8
 )
-|
 |
 signerHash
 ;

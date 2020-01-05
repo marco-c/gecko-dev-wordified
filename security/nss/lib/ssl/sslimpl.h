@@ -10216,16 +10216,6 @@ sslNamedGroupDef
 curve
 )
 ;
-unsigned
-int
-tls13_SizeOfECDHEKeyShareKEX
-(
-const
-SECKEYPublicKey
-*
-pubKey
-)
-;
 SECStatus
 tls13_EncodeECDHEKeyShareKEX
 (
