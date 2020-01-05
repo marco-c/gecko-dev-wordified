@@ -6878,6 +6878,11 @@ sign
 -
 1
 ;
+result
+|
+=
+eParseHTMLInteger_Negative
+;
 +
 +
 iter
