@@ -1109,7 +1109,7 @@ ScriptTask
 TriggerFragment
 (
 PipelineId
-Url
+String
 )
 /
 /
@@ -4543,7 +4543,7 @@ ScriptMsg
 TriggerFragment
 (
 id
-url
+fragment
 )
 =
 >
@@ -4552,7 +4552,7 @@ self
 trigger_fragment
 (
 id
-url
+fragment
 )
 ScriptMsg
 :
@@ -9164,9 +9164,9 @@ self
 pipeline_id
 :
 PipelineId
-url
+fragment
 :
-Url
+String
 )
 {
 let
@@ -9191,13 +9191,7 @@ page
 .
 find_fragment_node
 (
-url
-.
 fragment
-.
-unwrap
-(
-)
 )
 .
 root
