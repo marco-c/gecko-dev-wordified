@@ -1059,9 +1059,6 @@ pluginreg
 dat
 "
 )
-#
-ifdef
-PLUGIN_LOGGING
 LazyLogModule
 nsPluginLogging
 :
@@ -1089,8 +1086,6 @@ gPluginLog
 PLUGIN_LOG_NAME
 )
 ;
-#
-endif
 /
 /
 #
