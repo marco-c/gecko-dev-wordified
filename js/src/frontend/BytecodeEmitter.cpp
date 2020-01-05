@@ -17790,7 +17790,7 @@ bool
 BytecodeEmitter
 :
 :
-reportStrictWarning
+reportExtraWarning
 (
 ParseNode
 *
@@ -17840,7 +17840,7 @@ tokenStream
 )
 -
 >
-reportStrictWarningErrorNumberVA
+reportExtraWarningErrorNumberVA
 (
 pos
 .
@@ -50340,7 +50340,7 @@ directive
 if
 (
 !
-reportStrictWarning
+reportExtraWarning
 (
 pn2
 JSMSG_CONTRARY_NONDIRECTIVE
@@ -50386,7 +50386,7 @@ lastColumn
 if
 (
 !
-reportStrictWarning
+reportExtraWarning
 (
 pn2
 JSMSG_USELESS_EXPR

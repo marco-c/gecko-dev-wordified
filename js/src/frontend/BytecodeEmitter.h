@@ -2621,7 +2621,7 @@ errorNumber
 )
 ;
 bool
-reportStrictWarning
+reportExtraWarning
 (
 ParseNode
 *

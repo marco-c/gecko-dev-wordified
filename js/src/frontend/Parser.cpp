@@ -3842,7 +3842,7 @@ result
 =
 tokenStream
 .
-reportStrictWarningErrorNumberVA
+reportExtraWarningErrorNumberVA
 (
 pos
 (
@@ -4085,7 +4085,7 @@ result
 =
 tokenStream
 .
-reportStrictWarningErrorNumberVA
+reportExtraWarningErrorNumberVA
 (
 offset
 errorNumber

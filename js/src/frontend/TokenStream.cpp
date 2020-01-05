@@ -4849,7 +4849,7 @@ bool
 TokenStream
 :
 :
-reportStrictWarningErrorNumberVA
+reportExtraWarningErrorNumberVA
 (
 uint32_t
 offset

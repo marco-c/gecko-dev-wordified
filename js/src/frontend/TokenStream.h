@@ -2926,7 +2926,7 @@ args
 )
 ;
 bool
-reportStrictWarningErrorNumberVA
+reportExtraWarningErrorNumberVA
 (
 uint32_t
 offset
