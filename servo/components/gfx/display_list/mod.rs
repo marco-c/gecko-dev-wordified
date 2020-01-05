@@ -446,9 +446,6 @@ range
 Range
 ;
 use
-util
-:
-:
 smallvec
 :
 :

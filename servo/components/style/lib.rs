@@ -147,7 +147,15 @@ bitflags
 ;
 extern
 crate
+fnv
+;
+extern
+crate
 geom
+;
+extern
+crate
+smallvec
 ;
 extern
 crate

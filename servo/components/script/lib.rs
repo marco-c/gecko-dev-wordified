@@ -202,6 +202,10 @@ encoding
 ;
 extern
 crate
+fnv
+;
+extern
+crate
 hyper
 ;
 extern
@@ -255,6 +259,10 @@ script_traits
 extern
 crate
 selectors
+;
+extern
+crate
+smallvec
 ;
 extern
 crate
