@@ -573,6 +573,12 @@ JSProto_ArrayBuffer
 case
 JSProto_SharedArrayBuffer
 :
+case
+JSProto_Map
+:
+case
+JSProto_Set
+:
 return
 true
 ;
