@@ -8487,14 +8487,6 @@ start_session
 (
 )
             
-self
-.
-timeout
-.
-reset
-(
-)
-            
 #
 Restore
 the
@@ -8918,14 +8910,6 @@ launched
 by
 Marionette
 "
-)
-        
-self
-.
-timeout
-.
-reset
-(
 )
         
 if
@@ -9406,14 +9390,6 @@ start_session
 session_id
 =
 session_id
-)
-        
-self
-.
-timeout
-.
-reset
-(
 )
         
 #
