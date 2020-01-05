@@ -10052,6 +10052,10 @@ for
 load_data
 .
 url
+.
+serialize
+(
+)
 )
 move
 |
