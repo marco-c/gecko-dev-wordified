@@ -2295,7 +2295,7 @@ stored
 on
 the
 *
-aContext
+aRequest
 argument
 .
 *
@@ -2306,9 +2306,9 @@ OnStreamComplete
 nsIIncrementalStreamLoader
 *
 aLoader
-nsISupports
+nsScriptLoadRequest
 *
-aContext
+aRequest
 nsresult
 aChannelStatus
 nsresult
