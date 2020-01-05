@@ -2332,11 +2332,13 @@ None
 >
 {
 if
-listener
-.
-is_some
+let
+Some
 (
+listener
 )
+=
+listener
 {
 entries
 .
@@ -2358,10 +2360,6 @@ EventListenerType
 Inline
 (
 listener
-.
-unwrap
-(
-)
 )
 }
 )
