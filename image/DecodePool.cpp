@@ -1424,12 +1424,7 @@ limit
 4
 &
 &
-XRE_IsParentProcess
-(
-)
-&
-&
-BrowserTabsRemoteAutostart
+XRE_IsE10sParentProcess
 (
 )
 )
