@@ -85,6 +85,14 @@ ptr_as_ref
 [
 feature
 (
+custom_attribute
+)
+]
+#
+!
+[
+feature
+(
 custom_derive
 )
 ]
