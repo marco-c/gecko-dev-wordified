@@ -277,7 +277,10 @@ dom
 cssstyledeclaration
 :
 :
+{
 CSSStyleDeclaration
+CSSModificationAccess
+}
 ;
 use
 dom
@@ -713,6 +716,10 @@ new
 *
 global
 self
+CSSModificationAccess
+:
+:
+ReadWrite
 )
 }
 )

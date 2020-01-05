@@ -514,6 +514,16 @@ DataCloneError
 Error
 :
 :
+NoModificationAllowedError
+=
+>
+DOMErrorName
+:
+:
+NoModificationAllowedError
+Error
+:
+:
 FailureUnknown
 =
 >
