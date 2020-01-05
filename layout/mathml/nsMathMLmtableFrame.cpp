@@ -1070,7 +1070,7 @@ while
 currentFrame
 )
 {
-ConstFrameProperties
+FrameProperties
 props
 =
 currentFrame

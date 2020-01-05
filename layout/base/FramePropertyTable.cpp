@@ -131,6 +131,7 @@ FramePropertyTable
 :
 SetInternal
 (
+const
 nsIFrame
 *
 aFrame
@@ -796,6 +797,7 @@ FramePropertyTable
 :
 RemoveInternal
 (
+const
 nsIFrame
 *
 aFrame
@@ -1182,6 +1184,7 @@ FramePropertyTable
 :
 DeleteInternal
 (
+const
 nsIFrame
 *
 aFrame
@@ -1373,6 +1376,7 @@ FramePropertyTable
 :
 DeleteAllFor
 (
+const
 nsIFrame
 *
 aFrame
