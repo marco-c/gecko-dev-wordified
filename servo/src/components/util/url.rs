@@ -172,7 +172,7 @@ make_url
 (
 str_url
 :
-~
+&
 str
 current_url
 :
