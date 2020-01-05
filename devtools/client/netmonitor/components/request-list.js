@@ -552,16 +552,6 @@ componentWillUnmount
 (
 )
 {
-Prefs
-.
-filters
-=
-this
-.
-props
-.
-activeFilters
-;
 this
 .
 splitter
