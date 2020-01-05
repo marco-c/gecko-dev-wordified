@@ -11482,7 +11482,7 @@ self
 HTMLCollection
 :
 :
-by_tag_name
+by_qualified_name
 (
 &
 window
@@ -11491,7 +11491,15 @@ self
 upcast
 (
 )
+LocalName
+:
+:
+from
+(
+&
+*
 localname
+)
 )
 }
 /
