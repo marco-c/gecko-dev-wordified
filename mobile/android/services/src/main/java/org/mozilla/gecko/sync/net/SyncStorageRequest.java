@@ -1359,16 +1359,6 @@ protected
 BaseResource
 resource
 ;
-public
-SyncStorageRequest
-(
-)
-{
-super
-(
-)
-;
-}
 /
 /
 Default
