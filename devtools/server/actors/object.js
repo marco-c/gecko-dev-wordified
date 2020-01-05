@@ -12825,7 +12825,7 @@ actorPrefix
 "
 longString
 "
-disconnect
+destroy
 :
 function
 (
@@ -12856,7 +12856,7 @@ to
 manually
 leave
 on
-disconnect
+destroy
 so
 that
 we

@@ -518,7 +518,7 @@ the
 root
 actor
 is
-disconnected
+destroyed
 .
 *
 *
@@ -834,7 +834,7 @@ including
 when
 it
 is
-disconnected
+destroyed
 )
 .
 This
@@ -1733,7 +1733,7 @@ prefix
 *
 *
 *
-Disconnects
+Destroys
 the
 actor
 from
@@ -1743,7 +1743,7 @@ window
 .
 *
 /
-disconnect
+destroy
 :
 function
 (

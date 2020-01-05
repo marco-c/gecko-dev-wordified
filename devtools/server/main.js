@@ -10002,7 +10002,7 @@ don
 t
 want
 to
-disconnect
+destroy
 each
 actor
 from
@@ -10046,7 +10046,7 @@ removed
 it
 calls
 the
-disconnect
+destroy
 method
 on
 each
@@ -10071,7 +10071,7 @@ pools
 /
 When
 the
-disconnect
+destroy
 method
 is
 called
@@ -10178,7 +10178,7 @@ bug
 :
 if
 the
-disconnect
+destroy
 method
 can
 perform

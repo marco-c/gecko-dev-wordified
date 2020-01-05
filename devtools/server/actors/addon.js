@@ -653,10 +653,7 @@ false
 }
 ;
 }
-disconnect
-:
-function
-BAA_disconnect
+destroy
 (
 )
 {
@@ -887,7 +884,7 @@ tabDetached
 }
 this
 .
-disconnect
+destroy
 (
 )
 ;
@@ -1798,10 +1795,7 @@ instance
 .
 *
 /
-disconnect
-:
-function
-ACA_disconnect
+destroy
 (
 )
 {
@@ -1809,7 +1803,7 @@ WebConsoleActor
 .
 prototype
 .
-disconnect
+destroy
 .
 call
 (

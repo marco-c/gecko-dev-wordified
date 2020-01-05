@@ -1909,10 +1909,7 @@ instance
 .
 *
 /
-disconnect
-:
-function
-WCA_disconnect
+destroy
 (
 )
 {

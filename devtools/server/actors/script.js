@@ -3669,7 +3669,7 @@ hostAnnotations
 )
 ;
 }
-disconnect
+destroy
 :
 function
 (
@@ -3683,7 +3683,7 @@ ThreadActor
 .
 prototype
 .
-disconnect
+destroy
 "
 )
 ;
@@ -3868,7 +3868,7 @@ null
 *
 *
 *
-Disconnect
+destroy
 the
 debugger
 and
@@ -3890,7 +3890,7 @@ function
 {
 this
 .
-disconnect
+destroy
 (
 )
 ;
@@ -4282,7 +4282,7 @@ aRequest
 {
 this
 .
-disconnect
+destroy
 (
 )
 ;

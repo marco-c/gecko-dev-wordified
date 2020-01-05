@@ -3603,11 +3603,8 @@ all
 listener
 /
 observer
-connection
-and
-disconnection
+management
 should
-*
 happen
 here
 .
@@ -6594,7 +6591,7 @@ detach
 /
 exit
 /
-disconnect
+destroy
 is
 a
 /
@@ -7889,7 +7886,7 @@ connection
 .
 *
 /
-disconnect
+destroy
 (
 )
 {

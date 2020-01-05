@@ -350,7 +350,7 @@ return
 }
 ;
 }
-disconnect
+destroy
 :
 function
 (

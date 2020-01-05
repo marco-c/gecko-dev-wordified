@@ -349,7 +349,7 @@ pool
 .
 *
 /
-disconnect
+destroy
 :
 function
 (
