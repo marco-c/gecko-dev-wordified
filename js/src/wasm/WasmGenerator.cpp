@@ -5738,6 +5738,8 @@ true
 ;
 numTasks
 =
+2
+*
 threads
 .
 maxWasmCompilationThreads
