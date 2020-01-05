@@ -1844,6 +1844,11 @@ catch
 e
 )
 {
+/
+/
+Ignore
+any
+error
 }
 if
 (
