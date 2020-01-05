@@ -1041,6 +1041,10 @@ mHasNonScalableFaces
 (
 false
 )
+mForceScalable
+(
+false
+)
 {
 }
 void
@@ -1138,6 +1142,9 @@ mContainsAppFonts
 ;
 bool
 mHasNonScalableFaces
+;
+bool
+mForceScalable
 ;
 }
 ;
