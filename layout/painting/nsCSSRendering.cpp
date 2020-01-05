@@ -11801,7 +11801,7 @@ DrawResult
 nsCSSRendering
 :
 :
-PaintStyleImageLayer
+PaintBackground
 (
 const
 PaintBGParams
@@ -12012,7 +12012,7 @@ StyleContext
 ;
 }
 return
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 aParams
 sc
@@ -23076,7 +23076,7 @@ DrawResult
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 const
 PaintBGParams
@@ -24621,7 +24621,7 @@ state
 .
 mImageRenderer
 .
-DrawLayer
+DrawBackground
 (
 &
 aParams
@@ -40536,7 +40536,7 @@ DrawResult
 nsImageRenderer
 :
 :
-DrawLayer
+DrawBackground
 (
 nsPresContext
 *

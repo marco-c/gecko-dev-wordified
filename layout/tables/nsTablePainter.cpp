@@ -1639,7 +1639,7 @@ result
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 tableData
@@ -3991,7 +3991,7 @@ result
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 mCols
@@ -4095,7 +4095,7 @@ result
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 mCols
@@ -4182,7 +4182,7 @@ result
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 aRowGroupBGData
@@ -4258,7 +4258,7 @@ result
 nsCSSRendering
 :
 :
-PaintStyleImageLayerWithSC
+PaintBackgroundWithSC
 (
 params
 aRowBGData
