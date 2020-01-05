@@ -158,7 +158,7 @@ RenderLayer
 (
 )
 {
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 scrollFrames
 (
 this
@@ -294,7 +294,7 @@ GetTransform
 (
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -328,7 +328,7 @@ NULL_SCROLL_ID
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -498,7 +498,7 @@ c_str
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -

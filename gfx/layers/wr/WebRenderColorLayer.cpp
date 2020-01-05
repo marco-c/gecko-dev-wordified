@@ -140,7 +140,7 @@ RenderLayer
 (
 )
 {
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 scrollFrames
 (
 this
@@ -314,7 +314,7 @@ buildMaskLayer
 (
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -346,7 +346,7 @@ NULL_SCROLL_ID
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -442,7 +442,7 @@ c_str
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -

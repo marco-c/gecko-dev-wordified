@@ -270,7 +270,7 @@ WebRenderLayerManager
 WebRenderLayer
 :
 :
-WRManager
+WrManager
 (
 )
 {
@@ -297,17 +297,17 @@ WebRenderBridgeChild
 WebRenderLayer
 :
 :
-WRBridge
+WrBridge
 (
 )
 {
 return
-WRManager
+WrManager
 (
 )
 -
 >
-WRBridge
+WrBridge
 (
 )
 ;
@@ -907,7 +907,7 @@ GetData
 WrImageKey
 maskKey
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -965,7 +965,7 @@ repeat
 =
 false
 ;
-WRManager
+WrManager
 (
 )
 -
@@ -989,10 +989,10 @@ return
 mask
 ;
 }
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 :
 :
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 (
 WebRenderLayer
 *
@@ -1289,7 +1289,7 @@ c_str
 mLayer
 -
 >
-WRBridge
+WrBridge
 (
 )
 -
@@ -1326,11 +1326,11 @@ GetScrollId
 ;
 }
 }
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 :
 :
 ~
-WRScrollFrameStackingContextGenerator
+WrScrollFrameStackingContextGenerator
 (
 )
 {
@@ -1425,7 +1425,7 @@ GetScrollId
 mLayer
 -
 >
-WRBridge
+WrBridge
 (
 )
 -
@@ -1478,7 +1478,7 @@ AsKnowsCompositor
 )
 {
 return
-mWRChild
+mWrChild
 ;
 }
 void
@@ -1499,7 +1499,7 @@ aTextureFactoryIdentifier
 {
 MOZ_ASSERT
 (
-mWRChild
+mWrChild
 =
 =
 nullptr
@@ -1532,7 +1532,7 @@ MOZ_ASSERT
 bridge
 )
 ;
-mWRChild
+mWrChild
 =
 static_cast
 <
@@ -1553,7 +1553,7 @@ GetClientSize
 (
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -1568,7 +1568,7 @@ size
 height
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -1613,7 +1613,7 @@ DiscardImages
 (
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -1778,7 +1778,7 @@ GetMaxTextureSize
 const
 {
 return
-WRBridge
+WrBridge
 (
 )
 -
@@ -1918,7 +1918,7 @@ GetClientSize
 if
 (
 !
-WRBridge
+WrBridge
 (
 )
 -
@@ -1967,7 +1967,7 @@ GetTransactionId
 (
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -2077,7 +2077,7 @@ TextureClient
 :
 CreateForRawBufferAccess
 (
-WRBridge
+WrBridge
 (
 )
 SurfaceFormat
@@ -2113,7 +2113,7 @@ texture
 >
 InitIPDLActor
 (
-WRBridge
+WrBridge
 (
 )
 )
@@ -2148,7 +2148,7 @@ GetClipExtents
 if
 (
 !
-WRBridge
+WrBridge
 (
 )
 -
@@ -2450,7 +2450,7 @@ key
 mImageKeys
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -2497,7 +2497,7 @@ uint64_t
 aLayerObserverEpoch
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -2731,7 +2731,7 @@ Layer
 aSubtree
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -2776,7 +2776,7 @@ TextureFactoryIdentifier
 aNewIdentifier
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -2796,7 +2796,7 @@ GetTextureFactoryIdentifier
 )
 {
 return
-WRBridge
+WrBridge
 (
 )
 -

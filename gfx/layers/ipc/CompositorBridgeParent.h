@@ -2462,7 +2462,7 @@ RefPtr
 <
 WebRenderBridgeParent
 >
-mWRBridge
+mWrBridge
 ;
 /
 /
@@ -3586,7 +3586,7 @@ RefPtr
 <
 WebRenderBridgeParent
 >
-mWRBridge
+mWrBridge
 ;
 widget
 :

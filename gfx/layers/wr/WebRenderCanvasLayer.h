@@ -194,7 +194,7 @@ Manager
 )
 -
 >
-WRBridge
+WrBridge
 (
 )
 ;

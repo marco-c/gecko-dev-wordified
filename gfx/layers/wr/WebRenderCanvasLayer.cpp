@@ -221,7 +221,7 @@ if
 mExternalImageId
 )
 {
-WRBridge
+WrBridge
 (
 )
 -
@@ -342,7 +342,7 @@ mExternalImageId
 {
 mExternalImageId
 =
-WRBridge
+WrBridge
 (
 )
 -
@@ -592,7 +592,7 @@ WrTextureFilter
 :
 Linear
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -624,7 +624,7 @@ NULL_SCROLL_ID
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -
@@ -658,7 +658,7 @@ mExternalImageId
 )
 )
 ;
-WRBridge
+WrBridge
 (
 )
 -

@@ -529,7 +529,7 @@ gl
 GLContext
 *
 aGlContext
-wrwindowstate
+WrWindowState
 *
 aWrWindowState
 layers

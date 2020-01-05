@@ -295,7 +295,7 @@ gl
 GLContext
 *
 aGlContext
-wrwindowstate
+WrWindowState
 *
 aWrWindowState
 layers
@@ -332,7 +332,7 @@ get
 )
 ;
 }
-wrwindowstate
+WrWindowState
 *
 WindowState
 (
@@ -961,7 +961,7 @@ GLContext
 >
 mGLContext
 ;
-wrwindowstate
+WrWindowState
 *
 mWRWindowState
 ;
