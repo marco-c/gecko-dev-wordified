@@ -3029,9 +3029,9 @@ topdir
 "
 cargo
 -
-nightly
+commit
 -
-build
+hash
 "
 )
             
