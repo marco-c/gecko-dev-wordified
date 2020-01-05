@@ -2238,8 +2238,6 @@ SamplingFilter
 aSamplingFilter
 uint32_t
 aFlags
-float
-aOpacity
 )
 ;
 Pair

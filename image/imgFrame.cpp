@@ -3257,8 +3257,6 @@ SamplingFilter
 aSamplingFilter
 uint32_t
 aImageFlags
-float
-aOpacity
 )
 {
 PROFILER_LABEL
@@ -3563,7 +3561,6 @@ surfaceResult
 mFormat
 aSamplingFilter
 aImageFlags
-aOpacity
 )
 ;
 }

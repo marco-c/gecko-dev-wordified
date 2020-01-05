@@ -4797,9 +4797,6 @@ Nothing
 (
 )
 aFlags
-1
-.
-0
 )
 ;
 return
@@ -4973,8 +4970,6 @@ float
 aAnimationTime
 uint32_t
 aFlags
-float
-aOpacity
 )
 :
 context
@@ -5025,7 +5020,9 @@ GetGlobalOpacity
 (
 )
 :
-aOpacity
+1
+.
+0
 )
 {
 if
@@ -5210,8 +5207,6 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 if
@@ -5485,7 +5480,6 @@ aSamplingFilter
 svgContext
 animTime
 aFlags
-aOpacity
 )
 ;
 /

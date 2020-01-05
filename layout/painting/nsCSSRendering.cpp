@@ -11696,8 +11696,6 @@ nsIFrame
 aFrame
 uint32_t
 aPaintFlags
-float
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -11720,7 +11718,6 @@ CompositionOp
 :
 :
 OP_OVER
-aOpacity
 )
 ;
 return
@@ -11767,8 +11764,6 @@ int32_t
 aLayer
 CompositionOp
 aCompositionOp
-float
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -11796,7 +11791,6 @@ aFrame
 aPaintFlags
 aLayer
 aCompositionOp
-aOpacity
 )
 ;
 return
@@ -24657,9 +24651,6 @@ mDirtyRect
 state
 .
 mRepeatSize
-aParams
-.
-opacity
 )
 ;
 if
@@ -39606,8 +39597,6 @@ const
 CSSIntRect
 &
 aSrc
-float
-aOpacity
 )
 {
 if
@@ -39977,7 +39966,6 @@ ConvertImageRendererToDrawFlags
 mFlags
 )
 mExtendMode
-aOpacity
 )
 ;
 break
@@ -40082,7 +40070,6 @@ ConvertImageRendererToDrawFlags
 (
 mFlags
 )
-aOpacity
 )
 ;
 break
@@ -40577,8 +40564,6 @@ const
 nsSize
 &
 aRepeatSize
-float
-aOpacity
 )
 {
 if
@@ -40684,7 +40669,6 @@ mSize
 height
 )
 )
-aOpacity
 )
 ;
 }
@@ -41950,9 +41934,6 @@ ExtendMode
 :
 :
 CLAMP
-1
-.
-0
 )
 ;
 }

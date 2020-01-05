@@ -1561,8 +1561,6 @@ SamplingFilter
 aSamplingFilter
 uint32_t
 aImageFlags
-float
-aOpacity
 )
 ;
 nsresult

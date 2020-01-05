@@ -503,8 +503,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-float
-aOpacity
 )
 :
 mImage
@@ -533,10 +531,6 @@ DrawResult
 :
 :
 NOT_READY
-)
-mOpacity
-(
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -639,7 +633,6 @@ mWhichFrame
 aSamplingFilter
 mSVGContext
 mFlags
-mOpacity
 )
 ;
 return
@@ -685,9 +678,6 @@ mFlags
 ;
 DrawResult
 mDrawResult
-;
-float
-mOpacity
 ;
 }
 ;
@@ -1489,9 +1479,6 @@ Nothing
 )
 aWhichFrame
 aFlags
-1
-.
-0
 )
 ;
 return
@@ -1596,8 +1583,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 if
@@ -1815,7 +1800,6 @@ aSize
 aSVGContext
 aWhichFrame
 aFlags
-aOpacity
 )
 ;
 RefPtr
@@ -2231,8 +2215,6 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 if
@@ -2258,7 +2240,6 @@ aWhichFrame
 aSamplingFilter
 aSVGContext
 aFlags
-aOpacity
 )
 ;
 }
@@ -2342,7 +2323,6 @@ aSize
 aSVGContext
 aWhichFrame
 aFlags
-aOpacity
 )
 ;
 if
@@ -2406,7 +2386,6 @@ SurfaceFormat
 :
 B8G8R8A8
 aSamplingFilter
-aOpacity
 )
 ;
 return
@@ -2423,7 +2402,6 @@ aWhichFrame
 aSamplingFilter
 aSVGContext
 aFlags
-aOpacity
 )
 ;
 }
@@ -2457,8 +2435,6 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
-float
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -2928,7 +2904,6 @@ map
 unclipViewport
 )
 aFlags
-aOpacity
 )
 ;
 }

@@ -5012,9 +5012,6 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
-1
-.
-0
 )
 ;
 if

@@ -29410,9 +29410,6 @@ Some
 svgContext
 )
 modifiedFlags
-1
-.
-0
 )
 ;
 if
