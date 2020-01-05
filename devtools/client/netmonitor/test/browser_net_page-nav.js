@@ -369,7 +369,9 @@ ok
 !
 monitor
 .
-_controller
+panelWin
+.
+NetMonitorController
 .
 client
 "
@@ -392,7 +394,9 @@ ok
 !
 monitor
 .
-_controller
+panelWin
+.
+NetMonitorController
 .
 tabClient
 "
@@ -415,7 +419,9 @@ ok
 !
 monitor
 .
-_controller
+panelWin
+.
+NetMonitorController
 .
 webConsoleClient
 "
