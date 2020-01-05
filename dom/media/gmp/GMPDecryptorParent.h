@@ -633,8 +633,10 @@ mCallback
 #
 ifdef
 DEBUG
+nsCOMPtr
+<
 nsIThread
-*
+>
 const
 mGMPThread
 ;
