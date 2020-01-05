@@ -323,6 +323,13 @@ LOCAL_WGL_ACCESS_WRITE_DISCARD
 0x0002
 /
 /
+GL_KHR_robustness
+#
+define
+LOCAL_GL_CONTEXT_ROBUST_ACCESS
+0x90F3
+/
+/
 Others
 #
 define
