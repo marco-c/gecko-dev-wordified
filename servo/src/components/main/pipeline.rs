@@ -979,8 +979,6 @@ self
 .
 render_chan
 .
-chan
-.
 send_opt
 (
 PaintPermissionGranted
@@ -1011,8 +1009,6 @@ permission
 self
 .
 render_chan
-.
-chan
 .
 send_opt
 (

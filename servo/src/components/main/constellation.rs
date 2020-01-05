@@ -2948,8 +2948,6 @@ old_pipeline
 .
 render_chan
 .
-chan
-.
 send_opt
 (
 render_task
