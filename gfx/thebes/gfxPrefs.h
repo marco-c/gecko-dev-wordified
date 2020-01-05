@@ -4324,7 +4324,7 @@ ifdef
 MOZ_ENABLE_WEBRENDER
 DECL_GFX_PREF
 (
-Live
+Once
 "
 gfx
 .
@@ -4332,7 +4332,7 @@ webrender
 .
 enabled
 "
-WebRenderEnabledDoNotUseDirectly
+WebRenderEnabled
 bool
 false
 )
@@ -4343,7 +4343,7 @@ public
 :
 static
 bool
-WebRenderEnabledDoNotUseDirectly
+WebRenderEnabled
 (
 )
 {
