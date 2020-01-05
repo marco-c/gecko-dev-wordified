@@ -320,7 +320,7 @@ timeoutMs
 gfxPrefs
 :
 :
-GPUProcessDevTimeoutMs
+GPUProcessTimeoutMs
 (
 )
 ;
