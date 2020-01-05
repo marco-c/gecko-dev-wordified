@@ -2822,6 +2822,9 @@ been
 selected
 .
 let
+tab
+;
+let
 progressListener
 =
 {
@@ -2848,12 +2851,15 @@ aWebProgress
 isTopLevel
 &
 &
-aBrowser
-=
-=
+tab
+&
+&
 tab
 .
 linkedBrowser
+=
+=
+aBrowser
 &
 &
 aStateFlags
@@ -3004,7 +3010,6 @@ addTabsProgressListener
 progressListener
 )
 ;
-let
 tab
 =
 win
