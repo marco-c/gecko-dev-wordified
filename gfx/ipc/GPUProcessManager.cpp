@@ -3195,6 +3195,7 @@ parentPipe
 )
 aScale
 vsyncRate
+aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
 )
