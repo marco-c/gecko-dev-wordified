@@ -17502,6 +17502,13 @@ nsDisplayImageContainer
 {
 public
 :
+typedef
+mozilla
+:
+:
+StyleGeometryBox
+StyleGeometryBox
+;
 /
 *
 *
@@ -18003,7 +18010,7 @@ GetInsideClipRegion
 nsDisplayItem
 *
 aItem
-uint8_t
+StyleGeometryBox
 aClip
 const
 nsRect

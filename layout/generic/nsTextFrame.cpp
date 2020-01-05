@@ -45511,7 +45511,10 @@ i
 mClip
 =
 =
-NS_STYLE_IMAGELAYER_CLIP_TEXT
+StyleGeometryBox
+:
+:
+Text
 )
 {
 return

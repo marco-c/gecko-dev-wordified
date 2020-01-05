@@ -4983,6 +4983,13 @@ Layer
 struct
 Layer
 {
+typedef
+mozilla
+:
+:
+StyleGeometryBox
+StyleGeometryBox
+;
 nsStyleImage
 mImage
 ;
@@ -5094,7 +5101,7 @@ mSize
 [
 reset
 ]
-uint8_t
+StyleGeometryBox
 mClip
 ;
 /
@@ -5107,7 +5114,7 @@ nsStyleConsts
 .
 h
 MOZ_INIT_OUTSIDE_CTOR
-uint8_t
+StyleGeometryBox
 mOrigin
 ;
 /
