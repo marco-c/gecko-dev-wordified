@@ -6344,6 +6344,17 @@ aHandle
 )
 )
 {
+if
+(
+!
+IPCOpen
+(
+)
+)
+{
+return
+;
+}
 mShadowManager
 -
 >
