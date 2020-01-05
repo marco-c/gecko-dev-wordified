@@ -1911,6 +1911,17 @@ aPort
 PRNetAddr
 prAddr
 ;
+memset
+(
+&
+prAddr
+0
+sizeof
+(
+prAddr
+)
+)
+;
 PR_InitializeNetAddr
 (
 PR_IpAddrAny
