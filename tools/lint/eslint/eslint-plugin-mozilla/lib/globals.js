@@ -120,16 +120,6 @@ escope
 "
 )
 ;
-const
-estraverse
-=
-require
-(
-"
-estraverse
-"
-)
-;
 /
 *
 *
@@ -897,7 +887,7 @@ param
 {
 String
 }
-path
+filePath
 *
 The
 absolute
@@ -958,7 +948,7 @@ not
 /
 getGlobalsForFile
 (
-path
+filePath
 )
 {
 if
@@ -967,7 +957,7 @@ globalCache
 .
 has
 (
-path
+filePath
 )
 )
 {
@@ -976,7 +966,7 @@ globalCache
 .
 get
 (
-path
+filePath
 )
 ;
 }
@@ -986,7 +976,7 @@ globalDiscoveryInProgressForFiles
 .
 has
 (
-path
+filePath
 )
 )
 {
@@ -1031,7 +1021,7 @@ globalDiscoveryInProgressForFiles
 .
 add
 (
-path
+filePath
 )
 ;
 let
@@ -1041,7 +1031,7 @@ fs
 .
 readFileSync
 (
-path
+filePath
 "
 utf8
 "
@@ -1145,7 +1135,7 @@ handler
 new
 GlobalsForNode
 (
-path
+filePath
 )
 ;
 helpers
@@ -1328,7 +1318,7 @@ globalCache
 .
 set
 (
-path
+filePath
 globals
 )
 ;
@@ -1336,7 +1326,7 @@ globalDiscoveryInProgressForFiles
 .
 delete
 (
-path
+filePath
 )
 ;
 return
