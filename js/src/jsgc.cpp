@@ -46511,11 +46511,6 @@ JSRuntime
 *
 rt
 )
-:
-runtime
-(
-rt
-)
 {
 MOZ_ASSERT
 (
