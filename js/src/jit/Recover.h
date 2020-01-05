@@ -1169,6 +1169,7 @@ opcode
 (
 )
 const
+override
 {
 \
 return
@@ -1183,7 +1184,6 @@ op
 \
 }
 \
-virtual
 void
 cloneInto
 (
@@ -1192,6 +1192,7 @@ RInstructionStorage
 raw
 )
 const
+override
 {
 \
 new
@@ -1227,12 +1228,12 @@ RINSTRUCTION_HEADER_
 op
 )
 \
-virtual
 uint32_t
 numOperands
 (
 )
 const
+override
 {
 \
 return
@@ -1350,12 +1351,12 @@ return
 pcOffset_
 ;
 }
-virtual
 uint32_t
 numOperands
 (
 )
 const
+override
 {
 return
 numOperands_
@@ -1373,6 +1374,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1402,6 +1404,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1431,6 +1434,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1460,6 +1464,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1489,6 +1494,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1518,6 +1524,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1547,6 +1554,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1576,6 +1584,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1610,6 +1619,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1644,6 +1654,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1678,6 +1689,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1715,6 +1727,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1749,6 +1762,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1778,6 +1792,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1807,6 +1822,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1836,6 +1852,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1865,6 +1882,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1894,6 +1912,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1923,6 +1942,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1952,6 +1972,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -1981,6 +2002,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2010,6 +2032,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2039,6 +2062,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2068,6 +2092,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2097,6 +2122,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2131,6 +2157,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2160,6 +2187,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2194,6 +2222,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2223,6 +2252,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2244,12 +2274,12 @@ RINSTRUCTION_HEADER_
 (
 Hypot
 )
-virtual
 uint32_t
 numOperands
 (
 )
 const
+override
 {
 return
 numOperands_
@@ -2267,6 +2297,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2301,6 +2332,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2330,6 +2362,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2359,6 +2392,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2388,6 +2422,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2417,6 +2452,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2446,6 +2482,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2475,6 +2512,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2509,6 +2547,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2538,6 +2577,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2567,6 +2607,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2596,6 +2637,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2625,6 +2667,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2662,6 +2705,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2691,6 +2735,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2725,6 +2770,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2754,6 +2800,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2783,6 +2830,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2812,6 +2860,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2846,6 +2895,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2883,12 +2933,12 @@ return
 numSlots_
 ;
 }
-virtual
 uint32_t
 numOperands
 (
 )
 const
+override
 {
 /
 /
@@ -2918,6 +2968,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -2949,12 +3000,12 @@ return
 numElements_
 ;
 }
-virtual
 uint32_t
 numOperands
 (
 )
 const
+override
 {
 /
 /
@@ -2993,6 +3044,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -3022,6 +3074,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
@@ -3051,6 +3104,7 @@ SnapshotIterator
 iter
 )
 const
+override
 ;
 }
 ;
