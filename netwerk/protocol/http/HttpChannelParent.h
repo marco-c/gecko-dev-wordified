@@ -710,7 +710,7 @@ uint32_t
 &
 aCacheKey
 const
-nsCString
+uint64_t
 &
 aRequestContextID
 const

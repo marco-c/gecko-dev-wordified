@@ -1276,7 +1276,7 @@ override
 NS_IMETHOD
 GetRequestContextID
 (
-nsID
+uint64_t
 *
 aRCID
 )
@@ -1312,8 +1312,7 @@ override
 NS_IMETHOD
 SetRequestContextID
 (
-const
-nsID
+uint64_t
 aRCID
 )
 override
@@ -3525,7 +3524,7 @@ channel
 nsCString
 mNetworkInterfaceId
 ;
-nsID
+uint64_t
 mRequestContextID
 ;
 bool

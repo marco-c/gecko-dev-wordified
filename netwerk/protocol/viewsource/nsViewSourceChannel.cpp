@@ -4742,7 +4742,7 @@ nsViewSourceChannel
 :
 GetRequestContextID
 (
-nsID
+uint64_t
 *
 _retval
 )
@@ -4768,8 +4768,7 @@ nsViewSourceChannel
 :
 SetRequestContextID
 (
-const
-nsID
+uint64_t
 rcid
 )
 {
