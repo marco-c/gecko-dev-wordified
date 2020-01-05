@@ -1239,7 +1239,7 @@ TypeAndValue
 <
 Value
 >
-0
+8
 SystemAllocPolicy
 >
 valueStack_
@@ -1250,7 +1250,7 @@ ControlStackEntry
 <
 ControlItem
 >
-0
+8
 SystemAllocPolicy
 >
 controlStack_
