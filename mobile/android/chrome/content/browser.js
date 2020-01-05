@@ -28136,7 +28136,7 @@ browser
 )
 ;
 }
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -28144,6 +28144,8 @@ sendRequest
 type
 :
 "
+Content
+:
 DOMContentLoaded
 "
 tabID
