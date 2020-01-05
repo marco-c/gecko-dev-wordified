@@ -2120,10 +2120,7 @@ layer
 :
 Option
 <
-Arc
-<
 PaintLayer
->
 >
 /
 /
@@ -2340,10 +2337,7 @@ layer
 :
 Option
 <
-Arc
-<
 PaintLayer
->
 >
 transform
 :

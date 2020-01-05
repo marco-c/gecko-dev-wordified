@@ -8118,11 +8118,6 @@ display_list
 let
 paint_layer
 =
-Arc
-:
-:
-new
-(
 PaintLayer
 :
 :
@@ -8139,7 +8134,6 @@ ScrollPolicy
 :
 :
 Scrollable
-)
 )
 ;
 let
