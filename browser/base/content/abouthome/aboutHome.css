@@ -500,6 +500,12 @@ color
 :
 inherit
 ;
+unicode
+-
+bidi
+:
+plaintext
+;
 }
 #
 searchText
