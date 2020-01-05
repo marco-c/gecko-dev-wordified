@@ -207,6 +207,11 @@ SubmitFrame
 (
 )
 ;
+bool
+IsIPCOpen
+(
+)
+;
 protected
 :
 virtual
@@ -219,6 +224,15 @@ void
 ClearSurfaces
 (
 )
+;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
 ;
 uint32_t
 mVRDisplayID
@@ -249,6 +263,9 @@ layers
 TextureClient
 >
 mFront
+;
+bool
+mIPCOpen
 ;
 }
 ;

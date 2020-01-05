@@ -682,6 +682,16 @@ layer
 mLayers
 )
 {
+if
+(
+layer
+-
+>
+IsIPCOpen
+(
+)
+)
+{
 Unused
 <
 <
@@ -692,6 +702,7 @@ SendDestroy
 (
 )
 ;
+}
 }
 mLayers
 .
