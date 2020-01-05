@@ -124,6 +124,18 @@ dom
 bindings
 :
 :
+str
+:
+:
+USVString
+;
+use
+dom
+:
+:
+bindings
+:
+:
 utils
 :
 :
@@ -345,7 +357,7 @@ self
 )
 -
 >
-DOMString
+USVString
 {
 UrlHelper
 :
@@ -374,6 +386,8 @@ self
 Href
 (
 )
+.
+0
 }
 fn
 Search
@@ -382,7 +396,7 @@ self
 )
 -
 >
-DOMString
+USVString
 {
 UrlHelper
 :
@@ -404,7 +418,7 @@ self
 )
 -
 >
-DOMString
+USVString
 {
 UrlHelper
 :
