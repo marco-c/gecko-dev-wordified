@@ -39166,7 +39166,7 @@ ContentArray
 aOwnerFrame
 -
 >
-AddProperty
+SetProperty
 (
 nsIFrame
 :
