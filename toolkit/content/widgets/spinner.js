@@ -2256,7 +2256,7 @@ this
 _smoothScrollToIndex
 (
 index
-+
+-
 1
 )
 ;
@@ -2289,7 +2289,7 @@ this
 _smoothScrollToIndex
 (
 index
--
++
 1
 )
 ;
