@@ -1971,6 +1971,9 @@ aTab
 aDelta
 =
 0
+aRestoreImmediately
+=
+true
 )
 {
 return
@@ -1981,6 +1984,7 @@ duplicateTab
 aWindow
 aTab
 aDelta
+aRestoreImmediately
 )
 ;
 }
