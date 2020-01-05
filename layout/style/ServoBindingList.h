@@ -688,9 +688,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ParseProperty
 RawServoDeclarationBlockStrong
-const
-nsACString
-*
+nsCSSPropertyID
 property
 const
 nsACString
