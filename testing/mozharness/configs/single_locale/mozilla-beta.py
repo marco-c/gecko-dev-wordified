@@ -59,31 +59,6 @@ update_channel
 beta
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-beta
--
-l10n
-'
-    
 #
 l10n
     

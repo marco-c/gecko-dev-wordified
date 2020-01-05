@@ -54,17 +54,6 @@ beta
 "
     
 #
-mar
-    
-"
-latest_mar_dir
-"
-:
-"
-fake_kill_me
-"
-    
-#
 repositories
     
 #

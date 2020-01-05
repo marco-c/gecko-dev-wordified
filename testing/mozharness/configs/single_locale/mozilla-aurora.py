@@ -61,31 +61,6 @@ update_channel
 aurora
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-aurora
--
-l10n
-'
-    
 #
 l10n
     

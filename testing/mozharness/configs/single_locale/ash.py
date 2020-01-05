@@ -311,31 +311,6 @@ update_channel
 nightly
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-central
--
-l10n
-'
-    
 #
 l10n
     

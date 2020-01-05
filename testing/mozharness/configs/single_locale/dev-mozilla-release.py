@@ -26,14 +26,6 @@ release
 dev
 "
     
-"
-latest_mar_dir
-"
-:
-'
-fake_kill_me
-'
-    
 #
 l10n
     

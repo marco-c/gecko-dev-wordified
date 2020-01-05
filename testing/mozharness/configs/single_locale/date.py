@@ -56,25 +56,6 @@ nightly
 date
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-firefox
-/
-nightly
-/
-latest
--
-date
--
-l10n
-'
-    
 #
 l10n
     

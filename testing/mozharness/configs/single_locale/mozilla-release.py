@@ -59,31 +59,6 @@ update_channel
 release
 "
     
-"
-latest_mar_dir
-"
-:
-'
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-nightly
-/
-latest
--
-mozilla
--
-release
--
-l10n
-'
-    
 #
 l10n
     
