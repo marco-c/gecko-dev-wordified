@@ -82,10 +82,10 @@ each_child
 (
 self
 )
-{
 |
 child
 |
+{
 child
 .
 apply_style_for_subtree
@@ -124,10 +124,11 @@ self
 node
 .
 read
-{
+(
 |
 node
 |
+{
 alt
 node
 .
@@ -211,9 +212,8 @@ URLs
 /
 FIXME
 :
-Don
-'
-t
+Do
+not
 load
 synchronously
 !
@@ -283,5 +283,6 @@ Ignore
 }
 }
 }
+)
 }
 }

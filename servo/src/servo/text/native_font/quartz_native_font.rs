@@ -235,11 +235,10 @@ as_buf
 (
 *
 buf
-)
-{
 |
 cbuf
 |
+{
 CGDataProviderCreateWithData
 (
 null
@@ -267,6 +266,7 @@ null
 )
 )
 }
+)
 ;
 /
 /

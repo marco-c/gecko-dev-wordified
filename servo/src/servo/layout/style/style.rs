@@ -364,7 +364,7 @@ node_kind
 self
 .
 read
-{
+(
 |
 n
 |
@@ -373,7 +373,7 @@ copy
 n
 .
 kind
-}
+)
 ;
 let
 the_layout_data
@@ -450,10 +450,10 @@ each_child
 (
 self
 )
-{
 |
 kid
 |
+{
 kid
 .
 initialize_style_for_subtree
@@ -540,13 +540,11 @@ self
 .
 aux
 (
-{
 |
 x
 |
 copy
 x
-}
 )
 .
 computed_style
@@ -608,10 +606,11 @@ Stylesheet
 )
 {
 listen
-{
+(
 |
 ack_chan
 |
+{
 let
 mut
 i
@@ -637,10 +636,10 @@ each_child
 (
 self
 )
-{
 |
 kid
 |
+{
 i
 =
 i
@@ -660,9 +659,10 @@ task
 :
 :
 spawn
+(
+|
+|
 {
-|
-|
 kid
 .
 recompute_style_for_subtree
@@ -679,6 +679,7 @@ send
 )
 ;
 }
+)
 }
 self
 .
@@ -723,5 +724,6 @@ i
 ;
 }
 }
+)
 }
 }

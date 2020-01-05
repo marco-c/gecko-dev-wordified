@@ -200,10 +200,11 @@ wait
 for
 keypress
 listen
-{
+(
 |
 keypress_from_osmain
 |
+{
 osmain
 .
 send
@@ -218,10 +219,10 @@ for
 urls
 .
 each
-{
 |
 filename
 |
+{
 #
 debug
 [
@@ -268,6 +269,8 @@ recv
 ;
 }
 }
+)
+;
 /
 /
 Shut
@@ -285,10 +288,11 @@ down
 ]
 ;
 listen
-{
+(
 |
 exit_response_from_engine
 |
+{
 engine
 .
 send
@@ -309,6 +313,8 @@ recv
 )
 ;
 }
+)
+;
 osmain
 .
 send
@@ -373,10 +379,11 @@ buffered_file_writer
 }
 ;
 listen
-{
+(
 |
 pngdata_from_sink
 |
+{
 let
 sink
 =
@@ -442,10 +449,11 @@ e
 }
 }
 listen
-{
+(
 |
 exit_response_from_engine
 |
+{
 engine
 .
 send
@@ -466,6 +474,8 @@ recv
 )
 ;
 }
+)
+;
 sink
 .
 send
@@ -477,4 +487,5 @@ Exit
 )
 ;
 }
+)
 }
