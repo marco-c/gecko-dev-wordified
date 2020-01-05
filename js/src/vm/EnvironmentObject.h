@@ -3067,8 +3067,11 @@ createHollowForDebug
 JSContext
 *
 cx
+Handle
+<
 WasmFunctionScope
 *
+>
 scope
 )
 ;
