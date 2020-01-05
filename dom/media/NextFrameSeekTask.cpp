@@ -248,14 +248,6 @@ aThread
 aReader
 aTarget
 )
-mAudioQueue
-(
-aAudioQueue
-)
-mVideoQueue
-(
-aVideoQueue
-)
 mCurrentTime
 (
 aCurrentTime
