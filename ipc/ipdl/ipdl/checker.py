@@ -439,6 +439,10 @@ getFixedSyncMessages
 (
 )
     
+error_free
+=
+True
+    
 for
 item
 in
@@ -547,3 +551,10 @@ ini
 '
 %
 item
+            
+error_free
+=
+False
+    
+return
+error_free
