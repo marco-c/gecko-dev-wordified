@@ -38067,8 +38067,7 @@ monospace
 ar
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -38138,8 +38137,7 @@ monospace
 el
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -38689,8 +38687,7 @@ x
 cyrillic
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -38768,8 +38765,7 @@ x
 unicode
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -38847,8 +38843,7 @@ x
 western
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -41447,8 +41442,7 @@ x
 math
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;

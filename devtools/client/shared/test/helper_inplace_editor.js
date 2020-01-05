@@ -443,7 +443,8 @@ style
 fontFamily
 =
 "
-monospace
+Courier
+New
 "
 ;
 div
