@@ -112,6 +112,10 @@ deny
 unsafe_code
 )
 ]
+extern
+crate
+app_units
+;
 #
 [
 macro_use

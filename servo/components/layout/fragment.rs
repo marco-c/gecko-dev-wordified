@@ -80,6 +80,12 @@ unsafe_code
 )
 ]
 use
+app_units
+:
+:
+Au
+;
+use
 canvas_traits
 :
 :
@@ -432,10 +438,7 @@ util
 geometry
 :
 :
-{
-Au
 ZERO_POINT
-}
 ;
 use
 util

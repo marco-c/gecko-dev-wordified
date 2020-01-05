@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+app_units
+:
+:
+Au
+;
+use
 cssparser
 :
 :
@@ -65,12 +71,6 @@ self
 Color
 RGBA
 }
-;
-use
-geometry
-:
-:
-Au
 ;
 use
 libc

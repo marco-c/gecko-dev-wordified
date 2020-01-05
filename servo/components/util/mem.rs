@@ -64,6 +64,12 @@ structure
 measurement
 .
 use
+app_units
+:
+:
+Au
+;
+use
 azure
 :
 :
@@ -131,7 +137,6 @@ geometry
 :
 :
 {
-Au
 PagePx
 ViewportPx
 }
