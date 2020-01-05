@@ -1020,6 +1020,10 @@ scoped_tls
 ;
 pub
 mod
+selector_map
+;
+pub
+mod
 selector_parser
 ;
 pub
