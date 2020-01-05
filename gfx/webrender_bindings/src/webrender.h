@@ -518,6 +518,9 @@ WR_INLINE
 void
 wr_destroy
 (
+wrwindowstate
+*
+wrWindow
 wrstate
 *
 wrstate
@@ -715,8 +718,6 @@ wrWindow
 wrstate
 *
 wrState
-uint32_t
-epoch
 )
 WR_FUNC
 ;
