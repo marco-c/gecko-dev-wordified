@@ -94,9 +94,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -111,9 +108,6 @@ getUrlHost
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -138,9 +132,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

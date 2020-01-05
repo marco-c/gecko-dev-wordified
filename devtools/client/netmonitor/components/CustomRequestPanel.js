@@ -115,9 +115,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -130,9 +127,6 @@ Actions
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -153,9 +147,6 @@ require
 .
 .
 /
-.
-.
-/
 selectors
 /
 index
@@ -172,9 +163,6 @@ writeHeaderText
 require
 (
 "
-.
-.
-/
 .
 .
 /

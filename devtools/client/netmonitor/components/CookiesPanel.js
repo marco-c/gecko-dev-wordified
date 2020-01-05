@@ -94,9 +94,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -116,9 +113,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

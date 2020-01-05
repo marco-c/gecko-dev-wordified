@@ -113,9 +113,6 @@ require
 .
 .
 /
-.
-.
-/
 actions
 /
 index
@@ -130,9 +127,6 @@ Filters
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -155,9 +149,6 @@ require
 .
 .
 /
-.
-.
-/
 utils
 /
 l10n
@@ -172,9 +163,6 @@ getSelectedRequest
 require
 (
 "
-.
-.
-/
 .
 .
 /
@@ -245,9 +233,7 @@ require
 "
 .
 /
-cookies
--
-panel
+CookiesPanel
 "
 )
 )
@@ -262,9 +248,7 @@ require
 "
 .
 /
-headers
--
-panel
+HeadersPanel
 "
 )
 )
@@ -279,9 +263,7 @@ require
 "
 .
 /
-params
--
-panel
+ParamsPanel
 "
 )
 )
@@ -296,9 +278,7 @@ require
 "
 .
 /
-preview
--
-panel
+PreviewPanel
 "
 )
 )
@@ -313,9 +293,7 @@ require
 "
 .
 /
-response
--
-panel
+ResponsePanel
 "
 )
 )
@@ -330,9 +308,7 @@ require
 "
 .
 /
-security
--
-panel
+SecurityPanel
 "
 )
 )
@@ -347,9 +323,7 @@ require
 "
 .
 /
-timings
--
-panel
+TimingsPanel
 "
 )
 )
