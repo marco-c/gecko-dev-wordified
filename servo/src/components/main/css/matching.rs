@@ -86,12 +86,6 @@ use
 std
 :
 :
-rt
-;
-use
-std
-:
-:
 task
 ;
 use
