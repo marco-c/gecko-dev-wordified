@@ -1436,6 +1436,14 @@ queueFilled
 Override
 public
 void
+onBatchCompleted
+(
+)
+{
+}
+Override
+public
+void
 onRecordStoreFailed
 (
 Exception

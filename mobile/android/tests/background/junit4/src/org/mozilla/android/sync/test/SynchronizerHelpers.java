@@ -398,6 +398,14 @@ fetchEnd
 }
 Override
 public
+void
+onBatchCompleted
+(
+)
+{
+}
+Override
+public
 RepositorySessionFetchRecordsDelegate
 deferredFetchDelegate
 (
