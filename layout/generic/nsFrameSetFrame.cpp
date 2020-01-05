@@ -4713,6 +4713,12 @@ Cursor
 aCursor
 )
 {
+aCursor
+.
+mLoading
+=
+false
+;
 if
 (
 mDragger
@@ -10194,6 +10200,12 @@ Cursor
 aCursor
 )
 {
+aCursor
+.
+mLoading
+=
+false
+;
 if
 (
 !
