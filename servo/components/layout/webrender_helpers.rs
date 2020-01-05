@@ -252,6 +252,12 @@ BorderStyle
 ;
 use
 webrender_traits
+:
+:
+{
+self
+AuxiliaryListsBuilder
+}
 ;
 trait
 WebRenderStackingContextConverter
@@ -302,6 +308,11 @@ webrender_traits
 :
 ScrollLayerId
 >
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -364,6 +375,11 @@ webrender_traits
 :
 :
 DisplayListBuilder
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 force_positioned_stacking_level
 :
 bool
@@ -420,6 +436,11 @@ webrender_traits
 :
 ScrollLayerId
 >
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -451,6 +472,11 @@ webrender_traits
 :
 :
 DisplayListBuilder
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 ;
 }
@@ -1159,6 +1185,11 @@ to_clip_region
 (
 &
 self
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -1178,6 +1209,11 @@ to_clip_region
 (
 &
 self
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -1194,6 +1230,7 @@ ClipRegion
 :
 new
 (
+&
 self
 .
 main
@@ -1244,6 +1281,7 @@ to_border_radius
 collect
 (
 )
+auxiliary_lists_builder
 )
 }
 }
@@ -2082,6 +2120,11 @@ webrender_traits
 :
 :
 DisplayListBuilder
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 force_positioned_stacking_level
 :
 bool
@@ -2143,6 +2186,7 @@ convert_to_webrender
 (
 stacking_level
 builder
+auxiliary_lists_builder
 )
 ;
 }
@@ -2169,6 +2213,7 @@ api
 pipeline_id
 epoch
 None
+auxiliary_lists_builder
 )
 ;
 builder
@@ -2196,6 +2241,7 @@ pipeline_id
 epoch
 scroll_layer_id
 builder
+auxiliary_lists_builder
 true
 )
 ;
@@ -2229,6 +2275,7 @@ StackingLevel
 :
 PositionedContent
 builder
+auxiliary_lists_builder
 )
 ;
 }
@@ -2279,6 +2326,11 @@ webrender_traits
 :
 ScrollLayerId
 >
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -2398,6 +2450,7 @@ filters
 to_filter_ops
 (
 )
+auxiliary_lists_builder
 )
 ;
 let
@@ -2426,6 +2479,7 @@ scroll_layer_id
 &
 mut
 builder
+auxiliary_lists_builder
 false
 )
 ;
@@ -2434,6 +2488,10 @@ api
 add_display_list
 (
 builder
+.
+finalize
+(
+)
 &
 mut
 sc
@@ -2540,6 +2598,11 @@ webrender_traits
 :
 ScrollLayerId
 >
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 -
 >
@@ -2586,6 +2649,7 @@ api
 pipeline_id
 epoch
 scroll_layer_id
+auxiliary_lists_builder
 )
 }
 }
@@ -2613,6 +2677,11 @@ webrender_traits
 :
 :
 DisplayListBuilder
+auxiliary_lists_builder
+:
+&
+mut
+AuxiliaryListsBuilder
 )
 {
 match
@@ -2672,6 +2741,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 color
 )
@@ -2873,6 +2943,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 glyphs
 item
@@ -2907,6 +2978,7 @@ actual_pt_size
 item
 .
 blur_radius
+auxiliary_lists_builder
 )
 ;
 }
@@ -2981,6 +3053,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 item
 .
@@ -3035,6 +3108,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 item
 .
@@ -3263,6 +3337,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 left
 top
@@ -3363,10 +3438,12 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 start_point
 end_point
 stops
+auxiliary_lists_builder
 )
 ;
 }
@@ -3475,6 +3552,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 box_bounds
 item
@@ -3571,6 +3649,7 @@ clip
 .
 to_clip_region
 (
+auxiliary_lists_builder
 )
 pipeline_id
 )
