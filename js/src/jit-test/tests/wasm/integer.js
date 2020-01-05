@@ -1615,6 +1615,17 @@ rem_s
 testBinary32
 (
 '
+rem_s
+'
+0
+-
+3
+0
+)
+;
+testBinary32
+(
+'
 rem_u
 '
 40
