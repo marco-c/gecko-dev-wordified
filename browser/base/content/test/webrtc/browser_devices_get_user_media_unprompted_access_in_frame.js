@@ -505,6 +505,7 @@ false
 "
 frame1
 "
+2
 )
 ;
 }
@@ -1517,6 +1518,7 @@ stream
 yield
 closeStream
 (
+false
 )
 ;
 SitePermissions
