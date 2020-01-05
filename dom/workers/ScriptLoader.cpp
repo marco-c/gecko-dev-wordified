@@ -1302,7 +1302,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 rv
 =
@@ -6582,7 +6582,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 rv
 =

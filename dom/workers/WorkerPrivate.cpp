@@ -7749,7 +7749,7 @@ mReferrerPolicy
 net
 :
 :
-RP_Default
+RP_Unset
 )
 mFromWindow
 (
@@ -17178,7 +17178,7 @@ mozilla
 net
 :
 :
-RP_Default
+RP_Unset
 ;
 nsresult
 rv
