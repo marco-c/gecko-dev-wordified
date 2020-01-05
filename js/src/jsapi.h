@@ -34856,6 +34856,11 @@ macro
 (
 unscopables
 )
+\
+macro
+(
+asyncIterator
+)
 enum
 class
 SymbolCode
