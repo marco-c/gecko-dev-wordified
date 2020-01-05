@@ -9860,7 +9860,7 @@ flat
 ;
 }
 if
-effects
+box_
 .
 transform_style
 =
@@ -9905,7 +9905,7 @@ ref
 _length
 )
 =
-effects
+box_
 .
 perspective
 {
@@ -9933,7 +9933,7 @@ by
 the
 above
 exceptions
-effects
+box_
 .
 transform_style
 }
