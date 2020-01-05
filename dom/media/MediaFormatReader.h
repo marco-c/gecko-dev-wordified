@@ -313,8 +313,6 @@ const
 SeekTarget
 &
 aTarget
-int64_t
-aUnused
 )
 override
 ;
