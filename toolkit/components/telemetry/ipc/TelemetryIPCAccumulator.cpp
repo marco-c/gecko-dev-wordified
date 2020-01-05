@@ -717,7 +717,6 @@ NS_TIMER_CONTRACTID
 gIPCTimer
 )
 ;
-}
 if
 (
 gIPCTimer
@@ -740,6 +739,13 @@ Other
 )
 )
 ;
+}
+}
+if
+(
+gIPCTimer
+)
+{
 gIPCTimer
 -
 >
