@@ -7888,7 +7888,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 ;
 }
 HandleScript
