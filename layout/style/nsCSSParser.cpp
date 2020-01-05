@@ -26155,6 +26155,9 @@ GroupRule
 rule
 =
 new
+mozilla
+:
+:
 CSSSupportsRule
 (
 conditionMet
