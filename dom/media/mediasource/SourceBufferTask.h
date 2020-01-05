@@ -299,8 +299,10 @@ public
 :
 AppendBufferTask
 (
+already_AddRefed
+<
 MediaByteBuffer
-*
+>
 aData
 const
 SourceBufferAttributes

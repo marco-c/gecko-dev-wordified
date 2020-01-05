@@ -2559,6 +2559,10 @@ mTrackBuffersManager
 AppendData
 (
 data
+.
+forget
+(
+)
 mCurrentAttributes
 )
 -
