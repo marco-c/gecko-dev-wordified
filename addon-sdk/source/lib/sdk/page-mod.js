@@ -1078,6 +1078,7 @@ this
 )
 ;
 function
+*
 serializeRules
 (
 rules

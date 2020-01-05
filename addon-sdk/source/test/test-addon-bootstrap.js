@@ -211,6 +211,7 @@ promise
 ]
 =
 function
+*
 (
 assert
 )

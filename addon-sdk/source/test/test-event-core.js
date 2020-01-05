@@ -2501,6 +2501,7 @@ once
 ]
 =
 function
+*
 (
 assert
 done

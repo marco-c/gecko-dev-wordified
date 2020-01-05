@@ -587,6 +587,7 @@ model
 )
 ;
 function
+*
 deserializeRules
 (
 rules
