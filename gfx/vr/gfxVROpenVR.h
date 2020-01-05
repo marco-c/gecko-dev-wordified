@@ -423,6 +423,16 @@ GetTrigger
 )
 ;
 void
+SetHand
+(
+dom
+:
+:
+GamepadHand
+aHand
+)
+;
+void
 VibrateHaptic
 (
 :
