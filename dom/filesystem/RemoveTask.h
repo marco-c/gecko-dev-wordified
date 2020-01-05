@@ -150,6 +150,9 @@ class
 BlobImpl
 ;
 class
+FileSystemRemoveParams
+;
+class
 Promise
 ;
 class

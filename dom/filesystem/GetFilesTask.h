@@ -172,6 +172,9 @@ class
 BlobImpl
 ;
 class
+FileSystemGetFilesParams
+;
+class
 GetFilesTaskChild
 final
 :

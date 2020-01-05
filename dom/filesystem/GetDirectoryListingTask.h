@@ -161,6 +161,9 @@ class
 BlobImpl
 ;
 class
+FileSystemGetDirectoryListingParams
+;
+class
 GetDirectoryListingTaskChild
 final
 :
