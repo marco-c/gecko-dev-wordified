@@ -1014,6 +1014,15 @@ aStatus
 )
 ;
 nsresult
+SetAltMetadata
+(
+const
+char
+*
+aAltMetadata
+)
+;
+nsresult
 InitIndexEntry
 (
 )

@@ -2142,6 +2142,10 @@ const
 uint32_t
 *
 aExpirationTime
+const
+bool
+*
+aHasAltData
 )
 ;
 static

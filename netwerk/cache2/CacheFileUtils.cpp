@@ -2823,11 +2823,17 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+if
+(
+_offset
+)
+{
 *
 _offset
 =
 altDataOffset
 ;
+}
 if
 (
 _type
