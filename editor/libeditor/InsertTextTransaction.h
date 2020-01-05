@@ -194,6 +194,9 @@ mozilla
 class
 EditorBase
 ;
+class
+RangeUpdater
+;
 namespace
 dom
 {
@@ -278,6 +281,12 @@ the
 selection
 .
 *
+param
+aRangeUpdater
+The
+range
+updater
+*
 /
 InsertTextTransaction
 (
@@ -296,6 +305,9 @@ aString
 EditorBase
 &
 aEditorBase
+RangeUpdater
+*
+aRangeUpdater
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -433,6 +445,10 @@ selection
 EditorBase
 &
 mEditorBase
+;
+RangeUpdater
+*
+mRangeUpdater
 ;
 }
 ;

@@ -160,6 +160,9 @@ class
 EditorBase
 ;
 class
+RangeUpdater
+;
+class
 TextRangeArray
 ;
 namespace
@@ -317,6 +320,12 @@ the
 selection
 .
 *
+param
+aRangeUpdater
+The
+range
+updater
+*
 /
 CompositionTransaction
 (
@@ -340,6 +349,9 @@ aString
 EditorBase
 &
 aEditorBase
+RangeUpdater
+*
+aRangeUpdater
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -480,6 +492,10 @@ controller
 EditorBase
 &
 mEditorBase
+;
+RangeUpdater
+*
+mRangeUpdater
 ;
 bool
 mFixed
