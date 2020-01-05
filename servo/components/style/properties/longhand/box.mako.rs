@@ -1828,6 +1828,9 @@ bottom
 extra_gecko_values
 =
 "
+-
+moz
+-
 middle
 -
 with

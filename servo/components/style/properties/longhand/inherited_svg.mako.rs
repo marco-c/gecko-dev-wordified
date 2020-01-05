@@ -898,6 +898,11 @@ vector
 "
 True
 "
+allow_empty
+=
+"
+True
+"
 products
 =
 "
