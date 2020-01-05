@@ -249,8 +249,10 @@ UpdateState
 (
 )
 ;
+already_AddRefed
+<
 nsIPrincipal
-*
+>
 GetPrincipal
 (
 )
