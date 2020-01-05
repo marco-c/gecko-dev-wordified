@@ -1682,6 +1682,11 @@ int
 RunGTest
 )
 (
+int
+*
+char
+*
+*
 )
 =
 0
@@ -20852,6 +20857,9 @@ mozilla
 :
 RunGTest
 (
+&
+gArgc
+gArgv
 )
 ;
 gIsGtest

@@ -103,6 +103,11 @@ int
 RunGTest
 )
 (
+int
+*
+char
+*
+*
 )
 ;
 }
