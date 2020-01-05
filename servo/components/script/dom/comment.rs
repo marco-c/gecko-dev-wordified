@@ -151,7 +151,10 @@ dom
 characterdata
 :
 :
+{
 CharacterData
+CharacterDataTypeId
+}
 ;
 use
 dom
@@ -245,7 +248,13 @@ Node
 NodeTypeId
 :
 :
+CharacterData
+(
+CharacterDataTypeId
+:
+:
 Comment
+)
 )
 }
 }
@@ -278,7 +287,7 @@ CharacterData
 :
 new_inherited
 (
-NodeTypeId
+CharacterDataTypeId
 :
 :
 Comment

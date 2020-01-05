@@ -540,7 +540,10 @@ dom
 characterdata
 :
 :
+{
+CharacterDataTypeId
 LayoutCharacterDataHelpers
+}
 ;
 use
 script
@@ -7373,10 +7376,16 @@ Some
 NodeTypeId
 :
 :
+CharacterData
+(
+CharacterDataTypeId
+:
+:
 Text
 (
 .
 .
+)
 )
 )
 =
