@@ -2616,6 +2616,8 @@ get
 (
 )
 {
+LimitedQuirks
+|
 NoQuirks
 =
 >
@@ -2626,8 +2628,6 @@ CSS1Compat
 to_string
 (
 )
-LimitedQuirks
-|
 FullQuirks
 =
 >
