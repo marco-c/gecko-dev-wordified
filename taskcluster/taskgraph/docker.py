@@ -131,22 +131,6 @@ __file__
 '
 )
 )
-IMAGE_DIR
-=
-os
-.
-path
-.
-join
-(
-GECKO
-'
-testing
-'
-'
-docker
-'
-)
 INDEX_URL
 =
 '
@@ -507,6 +491,8 @@ path
 .
 join
 (
+docker
+.
 IMAGE_DIR
 name
 )
@@ -611,6 +597,8 @@ path
 .
 join
 (
+docker
+.
 IMAGE_DIR
 name
 )
@@ -651,11 +639,9 @@ docker
 docker_image
 (
 name
-default_version
+by_tag
 =
-'
-latest
-'
+True
 )
     
 docker_bin
