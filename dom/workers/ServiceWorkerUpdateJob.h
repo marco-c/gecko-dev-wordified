@@ -136,6 +136,9 @@ dom
 namespace
 workers
 {
+class
+ServiceWorkerManager
+;
 /
 /
 A
@@ -576,6 +579,9 @@ algorithm
 void
 Install
 (
+ServiceWorkerManager
+*
+aSWM
 )
 ;
 /

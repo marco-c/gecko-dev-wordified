@@ -5897,11 +5897,11 @@ GetInstance
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 swm
 )
-;
+{
 swm
 -
 >
@@ -5935,6 +5935,7 @@ mFlags
 mExnType
 )
 ;
+}
 return
 true
 ;
