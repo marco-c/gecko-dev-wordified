@@ -126,7 +126,6 @@ let
 data
 =
 LayoutData
-(
 {
 mut
 style
@@ -137,7 +136,6 @@ flow
 :
 None
 }
-)
 ;
 self
 .

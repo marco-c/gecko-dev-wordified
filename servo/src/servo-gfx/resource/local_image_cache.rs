@@ -57,7 +57,7 @@ url
 Url
 ;
 use
-pipes
+comm
 :
 :
 {
@@ -490,7 +490,7 @@ port
 chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -533,7 +533,7 @@ port
 chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -582,7 +582,7 @@ port
 chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -607,7 +607,7 @@ response_port
 response_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -750,7 +750,7 @@ response_port
 response_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -839,7 +839,7 @@ port
 chan
 )
 =
-pipes
+comm
 :
 :
 stream

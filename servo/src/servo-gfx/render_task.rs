@@ -109,7 +109,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -170,7 +170,7 @@ RenderLayer
 )
 ExitMsg
 (
-pipes
+comm
 :
 :
 Chan
@@ -247,7 +247,7 @@ layer_buffer_set_port
 layer_buffer_channel
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -312,11 +312,6 @@ n_render_threads
 ;
 let
 new_opts_cell
-:
-Cell
-<
-Opts
->
 =
 Cell
 (
@@ -341,11 +336,6 @@ SingleThreaded
 {
 let
 opts_cell
-:
-Cell
-<
-Opts
->
 =
 Cell
 (
@@ -509,7 +499,7 @@ layer_buffer_set_port
 :
 Cell
 <
-pipes
+comm
 :
 :
 Port
@@ -532,6 +522,7 @@ impl
 C
 :
 Compositor
++
 Owned
 >
 Renderer
@@ -668,7 +659,7 @@ new_layer_buffer_set_port
 layer_buffer_set_channel
 )
 =
-pipes
+comm
 :
 :
 stream

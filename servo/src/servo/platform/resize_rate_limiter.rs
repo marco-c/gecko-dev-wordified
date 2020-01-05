@@ -93,7 +93,7 @@ priv
 /
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -127,7 +127,7 @@ last_response_port
 :
 Option
 <
-pipes
+comm
 :
 :
 Port
@@ -169,7 +169,7 @@ ResizeRateLimiter
 (
 dom_event_chan
 :
-pipes
+comm
 :
 :
 SharedChan
@@ -402,7 +402,7 @@ port
 chan
 )
 =
-pipes
+comm
 :
 :
 stream

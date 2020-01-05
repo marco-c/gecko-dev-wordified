@@ -176,9 +176,8 @@ super
 cow
 ;
 pub
-enum
+struct
 NodeData
-=
 {
 tree
 :
@@ -194,7 +193,6 @@ kind
 ~
 NodeKind
 }
-;
 /
 *
 The
@@ -813,7 +811,7 @@ defined
 by
 this
 LayoutData
-enum
+struct
 .
 It
 contains
@@ -841,9 +839,9 @@ node
 .
 *
 /
-enum
+pub
+struct
 LayoutData
-=
 {
 mut
 style
@@ -860,7 +858,6 @@ Option
 FlowContext
 >
 }
-;
 pub
 type
 Node
@@ -949,7 +946,6 @@ handle
 (
 &
 NodeData
-(
 {
 tree
 :
@@ -964,7 +960,6 @@ kind
 ~
 k
 }
-)
 )
 }
 }

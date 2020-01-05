@@ -35,7 +35,7 @@ use
 core
 :
 :
-pipes
+comm
 :
 :
 {
@@ -152,7 +152,7 @@ result_port
 result_chan
 )
 =
-pipes
+comm
 :
 :
 stream
@@ -172,10 +172,6 @@ task
 :
 :
 spawn
-|
-copy
-resource_task
-|
 {
 let
 url
@@ -278,7 +274,7 @@ input_port
 input_chan
 )
 =
-pipes
+comm
 :
 :
 stream
