@@ -361,6 +361,9 @@ mDownloadError
 bool
 mBeganStream
 ;
+nsCString
+mDownloadErrorStatusStr
+;
 /
 /
 Note
