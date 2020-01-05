@@ -325,7 +325,7 @@ Tabs
 .
 OnTabsChangedListener
 {
-private
+public
 static
 class
 URLHistory
@@ -1288,7 +1288,8 @@ url
 )
 ;
 }
-protected
+public
+static
 URLHistory
 getHistoryForURL
 (
