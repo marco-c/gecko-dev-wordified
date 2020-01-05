@@ -141,6 +141,9 @@ BorderStyle
 :
 parse
 "
+needs_context
+=
+False
 )
 }
 <
@@ -202,6 +205,12 @@ super
 parse_four_sides
 ;
 use
+parser
+:
+:
+Parse
+;
+use
 values
 :
 :
@@ -231,11 +240,6 @@ Longhands
 >
 {
 let
-_unused
-=
-context
-;
-let
 (
 top
 right
@@ -249,6 +253,9 @@ try
 parse_four_sides
 (
 input
+|
+i
+|
 specified
 :
 :
@@ -256,6 +263,10 @@ BorderWidth
 :
 :
 parse
+(
+context
+i
+)
 )
 )
 ;
@@ -618,6 +629,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -625,6 +639,10 @@ CSSColor
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 color
@@ -700,6 +718,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -707,6 +728,10 @@ BorderWidth
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 width
@@ -1357,11 +1382,6 @@ Longhands
 >
 {
 let
-_ignored
-=
-context
-;
-let
 radii
 =
 try
@@ -1372,6 +1392,7 @@ BorderRadius
 :
 parse
 (
+context
 input
 )
 )

@@ -275,7 +275,7 @@ pub
 fn
 parse_specified
 (
-_context
+context
 :
 &
 ParserContext
@@ -308,6 +308,7 @@ CSSColor
 :
 parse
 (
+context
 input
 )
 )

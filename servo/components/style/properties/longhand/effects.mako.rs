@@ -935,7 +935,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -1050,6 +1050,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -1057,6 +1060,10 @@ Length
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 lengths
@@ -1088,6 +1095,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -1095,6 +1105,10 @@ Length
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 lengths
@@ -1161,6 +1175,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -1168,6 +1185,10 @@ CSSColor
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 color
@@ -2511,7 +2532,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -2557,6 +2578,10 @@ Length
 fn
 parse_argument
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -2609,6 +2634,7 @@ Length
 :
 parse
 (
+context
 input
 )
 .
@@ -2691,6 +2717,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2730,6 +2757,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2751,6 +2779,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2772,6 +2801,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2786,6 +2816,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2797,6 +2828,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -2808,6 +2840,7 @@ try
 (
 parse_argument
 (
+context
 input
 )
 )
@@ -4774,7 +4807,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -4963,6 +4996,7 @@ Angle
 :
 parse
 (
+context
 input
 )
 .
@@ -5059,6 +5093,7 @@ shadow
 >
 parse_drop_shadow
 (
+context
 input
 )
 %
@@ -5200,6 +5235,10 @@ gecko
 fn
 parse_drop_shadow
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -5229,6 +5268,7 @@ Length
 :
 parse
 (
+context
 input
 )
 )
@@ -5247,6 +5287,7 @@ Length
 :
 parse
 (
+context
 input
 )
 )
@@ -5258,6 +5299,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -5265,6 +5309,10 @@ Length
 :
 :
 parse
+(
+context
+i
+)
 )
 .
 unwrap_or
@@ -5290,6 +5338,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -5297,6 +5348,10 @@ CSSColor
 :
 :
 parse
+(
+context
+i
+)
 )
 .
 ok
@@ -5976,7 +6031,7 @@ pub
 fn
 parse_origin
 (
-_
+context
 :
 &
 ParserContext
@@ -6312,6 +6367,7 @@ LengthOrPercentage
 :
 parse
 (
+context
 input
 )
 {

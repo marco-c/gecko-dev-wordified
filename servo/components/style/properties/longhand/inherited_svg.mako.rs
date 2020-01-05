@@ -396,6 +396,9 @@ products
 "
 gecko
 "
+needs_context
+=
+False
 animatable
 =
 False

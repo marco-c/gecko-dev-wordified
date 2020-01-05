@@ -709,6 +709,10 @@ Keyword
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -928,7 +932,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -955,6 +959,7 @@ Keyword
 :
 parse
 (
+context
 input
 )
 }
@@ -1102,6 +1107,7 @@ Keyword
 :
 parse
 (
+context
 input
 )
 )

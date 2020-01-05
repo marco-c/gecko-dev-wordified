@@ -559,7 +559,7 @@ pub
 fn
 parse_value
 (
-_
+context
 :
 &
 ParserContext
@@ -715,10 +715,17 @@ input
 .
 try
 (
+|
+i
+|
 LengthOrPercentageOrAutoOrContent
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 basis

@@ -4558,7 +4558,7 @@ pub
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -4618,7 +4618,14 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
 parse_one_text_shadow
+(
+context
+i
+)
 )
 .
 map
@@ -4630,6 +4637,10 @@ SpecifiedValue
 fn
 parse_one_text_shadow
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -4702,6 +4713,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -4709,6 +4723,10 @@ Length
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 lengths
@@ -4740,6 +4758,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -4747,6 +4768,10 @@ Length
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 lengths
@@ -4813,6 +4838,9 @@ input
 .
 try
 (
+|
+i
+|
 specified
 :
 :
@@ -4820,6 +4848,10 @@ CSSColor
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 color
@@ -7398,7 +7430,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -7422,6 +7454,7 @@ BorderWidth
 :
 parse
 (
+context
 input
 )
 }

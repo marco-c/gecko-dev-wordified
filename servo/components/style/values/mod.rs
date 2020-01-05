@@ -108,7 +108,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 std
@@ -597,6 +600,10 @@ name
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -961,6 +968,10 @@ B
 fn
 parse
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -999,6 +1010,7 @@ A
 :
 parse
 (
+context
 i
 )
 )
@@ -1021,6 +1033,7 @@ B
 :
 parse
 (
+context
 input
 )
 .

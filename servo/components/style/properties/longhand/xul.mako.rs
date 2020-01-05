@@ -186,6 +186,9 @@ gecko_ffi_name
 "
 mBoxFlex
 "
+needs_context
+=
+False
 animatable
 =
 False

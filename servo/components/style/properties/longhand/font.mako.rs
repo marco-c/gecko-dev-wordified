@@ -4075,7 +4075,10 @@ use
 parser
 :
 :
+{
 Parse
+ParserContext
+}
 ;
 use
 std
@@ -4460,6 +4463,10 @@ integer
 fn
 parse
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
@@ -4788,7 +4795,7 @@ pub
 fn
 parse
 (
-_context
+context
 :
 &
 ParserContext
@@ -4846,6 +4853,9 @@ input
 .
 parse_comma_separated
 (
+|
+i
+|
 computed_value
 :
 :
@@ -4853,6 +4863,10 @@ FeatureTagValue
 :
 :
 parse
+(
+context
+i
+)
 )
 .
 map
