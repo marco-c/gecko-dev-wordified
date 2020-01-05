@@ -1511,7 +1511,7 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 base
-JSObject
+NativeObject
 :
 :
 create
@@ -1839,7 +1839,7 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 base
-JSObject
+NativeObject
 :
 :
 create

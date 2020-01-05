@@ -4024,7 +4024,7 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 obj
-JSObject
+NativeObject
 :
 :
 create
