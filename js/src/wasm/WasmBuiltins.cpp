@@ -880,9 +880,9 @@ debugFrame
 (
 )
 ;
-Code
+DebugState
 &
-code
+debug
 =
 iter
 .
@@ -891,13 +891,13 @@ instance
 )
 -
 >
-code
+debug
 (
 )
 ;
 MOZ_ASSERT
 (
-code
+debug
 .
 hasBreakpointTrapAtOffset
 (
@@ -912,7 +912,7 @@ lineOrBytecode
 ;
 if
 (
-code
+debug
 .
 stepModeEnabled
 (
@@ -991,7 +991,7 @@ false
 }
 if
 (
-code
+debug
 .
 hasBreakpointSite
 (

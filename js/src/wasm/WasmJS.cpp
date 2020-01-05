@@ -6219,8 +6219,10 @@ create
 JSContext
 *
 cx
-UniqueCode
+MutableCode
 code
+UniqueDebugState
+debug
 UniqueGlobalSegment
 globals
 HandleWasmMemoryObject
@@ -6444,9 +6446,10 @@ Instance
 (
 cx
 obj
+code
 Move
 (
-code
+debug
 )
 Move
 (

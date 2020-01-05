@@ -3601,9 +3601,9 @@ WasmBreakpointSite
 wasm
 :
 :
-Code
+DebugState
 *
-code_
+debug_
 uint32_t
 offset_
 )
@@ -3615,9 +3615,9 @@ Type
 :
 Wasm
 )
-code
+debug
 (
-code_
+debug_
 )
 offset
 (
@@ -3626,7 +3626,7 @@ offset_
 {
 MOZ_ASSERT
 (
-code_
+debug_
 )
 ;
 }
@@ -3641,7 +3641,7 @@ FreeOp
 fop
 )
 {
-code
+debug
 -
 >
 toggleBreakpointTrap
@@ -3676,7 +3676,7 @@ isEmpty
 (
 )
 )
-code
+debug
 -
 >
 destroyBreakpointSite
@@ -11610,7 +11610,7 @@ wasmInstance
 )
 -
 >
-code
+debug
 (
 )
 .
@@ -12094,7 +12094,7 @@ wasmInstance
 )
 -
 >
-code
+debug
 (
 )
 .
@@ -37459,7 +37459,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -40930,7 +40930,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -42304,7 +42304,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -44487,7 +44487,7 @@ if
 !
 instance
 .
-code
+debug
 (
 )
 .
@@ -44515,7 +44515,7 @@ site
 =
 instance
 .
-code
+debug
 (
 )
 .
@@ -45140,7 +45140,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -47768,7 +47768,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -48028,7 +48028,7 @@ instance
 (
 )
 .
-code
+debug
 (
 )
 .
@@ -51682,7 +51682,7 @@ if
 instance
 -
 >
-code
+debug
 (
 )
 .
@@ -51727,7 +51727,7 @@ if
 instance
 -
 >
-code
+debug
 (
 )
 .
@@ -53983,7 +53983,7 @@ wasmInstance
 instance
 -
 >
-code
+debug
 (
 )
 .

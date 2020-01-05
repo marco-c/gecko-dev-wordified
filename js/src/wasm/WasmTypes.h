@@ -624,6 +624,12 @@ class
 Code
 ;
 class
+DebugState
+;
+class
+GeneratedSourceMap
+;
+class
 GlobalSegment
 ;
 class
