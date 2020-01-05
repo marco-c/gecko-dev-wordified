@@ -59,8 +59,6 @@ MPL
 #
 include
 "
-mozilla
-/
 ProfileGatherer
 .
 h
