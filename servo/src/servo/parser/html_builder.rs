@@ -97,16 +97,13 @@ parser
 parser
 :
 :
-lexer
-:
-:
-html
+html_lexer
 ;
 import
 parser
 :
 :
-token
+Token
 ;
 import
 dvec
@@ -426,7 +423,7 @@ stream
 :
 port
 <
-token
+Token
 >
 )
 -
@@ -478,7 +475,7 @@ token
 parser
 :
 :
-to_eof
+Eof
 {
 break
 ;
@@ -486,7 +483,7 @@ break
 parser
 :
 :
-to_start_opening_tag
+StartOpeningTag
 (
 tag_name
 )
@@ -545,7 +542,7 @@ new_node
 parser
 :
 :
-to_attr
+Attr
 (
 key
 value
@@ -581,7 +578,7 @@ value
 parser
 :
 :
-to_end_opening_tag
+EndOpeningTag
 {
 #
 debug
@@ -597,7 +594,7 @@ tag
 parser
 :
 :
-to_end_tag
+EndTag
 (
 _
 )
@@ -605,7 +602,7 @@ _
 parser
 :
 :
-to_self_close_tag
+SelfCloseTag
 {
 /
 /
@@ -667,7 +664,7 @@ get
 parser
 :
 :
-to_text
+Text
 (
 s
 )
@@ -705,7 +702,7 @@ new_node
 parser
 :
 :
-to_text
+Text
 (
 _
 )
@@ -724,7 +721,7 @@ ignored
 parser
 :
 :
-to_doctype
+Doctype
 {
 /
 /
