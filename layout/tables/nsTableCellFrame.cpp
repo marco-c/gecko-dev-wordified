@@ -6015,9 +6015,10 @@ patch
 bug
 379349
 )
-NS_FRAME_SET_INCOMPLETE
-(
 aStatus
+.
+SetIncomplete
+(
 )
 ;
 printf
