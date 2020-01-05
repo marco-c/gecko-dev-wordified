@@ -100,6 +100,10 @@ log
 [
 plugin
 ]
+#
+[
+no_link
+]
 extern
 crate
 "
