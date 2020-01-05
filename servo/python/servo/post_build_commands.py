@@ -150,11 +150,12 @@ CommandBase
     
 call
 check_call
-find_dep_path_newest
     
 is_windows
 is_macosx
 set_osmesa_env
+    
+get_browserhtml_path
 )
 def
 read_file
@@ -795,7 +796,7 @@ browserhtml
             
 browserhtml_path
 =
-find_dep_path_newest
+get_browserhtml_path
 (
 '
 browserhtml
@@ -805,35 +806,6 @@ args
 0
 ]
 )
-            
-if
-browserhtml_path
-is
-None
-:
-                
-print
-(
-"
-Could
-not
-find
-browserhtml
-package
-;
-perhaps
-you
-haven
-'
-t
-built
-Servo
-.
-"
-)
-                
-return
-1
             
 if
 is_macosx
