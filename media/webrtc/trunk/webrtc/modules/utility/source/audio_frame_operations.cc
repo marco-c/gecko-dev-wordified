@@ -92,7 +92,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -107,7 +107,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 audio_frame_operations
 .
@@ -126,7 +126,7 @@ const
 int16_t
 *
 src_audio
-int
+size_t
 samples_per_channel
 int16_t
 *
@@ -135,7 +135,7 @@ dst_audio
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -300,7 +300,7 @@ const
 int16_t
 *
 src_audio
-int
+size_t
 samples_per_channel
 int16_t
 *
@@ -309,7 +309,7 @@ dst_audio
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -430,7 +430,7 @@ return
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -557,7 +557,7 @@ return
 }
 for
 (
-int
+size_t
 i
 =
 0
@@ -670,7 +670,7 @@ saturated
 .
 for
 (
-int
+size_t
 i
 =
 0

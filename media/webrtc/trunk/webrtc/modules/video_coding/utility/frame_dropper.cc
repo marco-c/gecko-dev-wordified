@@ -96,8 +96,6 @@ video_coding
 /
 utility
 /
-include
-/
 frame_dropper
 .
 h
@@ -109,7 +107,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -497,6 +495,7 @@ deltaFrame
 !
 _fastMode
 )
+{
 /
 /
 fast
@@ -509,7 +508,6 @@ key
 frames
 any
 different
-{
 _keyFrameSizeAvgKbits
 .
 Apply
@@ -824,6 +822,8 @@ frames
 were
 the
 same
+/
+/
 size
 /
 /
@@ -1200,6 +1200,8 @@ makes
 use
 of
 the
+/
+/
 dropRatio
 /
 /
@@ -1256,12 +1258,12 @@ filtered
 .
 5f
 )
+{
 /
 /
 Drops
 per
 keep
-{
 /
 /
 limit
@@ -1316,12 +1318,9 @@ denom
 {
 denom
 =
-(
-float
-)
 1e
 -
-5
+5f
 ;
 }
 int32_t
@@ -1527,12 +1526,12 @@ filtered
 .
 5f
 )
+{
 /
 /
 Keeps
 per
 drop
-{
 /
 /
 limit
@@ -1592,12 +1591,9 @@ denom
 {
 denom
 =
-(
-float
-)
 1e
 -
-5
+5f
 ;
 }
 int32_t
@@ -1992,3 +1988,7 @@ max_accumulator
 }
 }
 }
+/
+/
+namespace
+webrtc

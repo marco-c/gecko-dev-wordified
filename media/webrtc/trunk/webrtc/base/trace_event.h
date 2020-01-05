@@ -6008,8 +6008,7 @@ long
 (
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 id

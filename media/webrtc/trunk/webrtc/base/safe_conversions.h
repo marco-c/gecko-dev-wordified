@@ -246,7 +246,7 @@ Src
 value
 )
 {
-CHECK
+RTC_CHECK
 (
 IsValueInRangeForNumericType
 <
@@ -307,7 +307,7 @@ integral
 will
 trigger
 a
-CHECK
+RTC_CHECK
 condition
 .
 template

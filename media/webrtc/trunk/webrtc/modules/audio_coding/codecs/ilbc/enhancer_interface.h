@@ -380,7 +380,7 @@ enhancer
 -
 *
 /
-int
+size_t
 WebRtcIlbcfix_EnhancerInterface
 (
 /

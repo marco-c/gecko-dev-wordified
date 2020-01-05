@@ -528,13 +528,13 @@ HH_WWW_AUTHENTICATE
 }
 ;
 const
-uint16
+uint16_t
 HTTP_DEFAULT_PORT
 =
 80
 ;
 const
-uint16
+uint16_t
 HTTP_SECURE_PORT
 =
 443
@@ -784,7 +784,7 @@ inline
 bool
 HttpCodeIsInformational
 (
-uint32
+uint32_t
 code
 )
 {
@@ -805,7 +805,7 @@ inline
 bool
 HttpCodeIsSuccessful
 (
-uint32
+uint32_t
 code
 )
 {
@@ -826,7 +826,7 @@ inline
 bool
 HttpCodeIsRedirection
 (
-uint32
+uint32_t
 code
 )
 {
@@ -847,7 +847,7 @@ inline
 bool
 HttpCodeIsClientError
 (
-uint32
+uint32_t
 code
 )
 {
@@ -868,7 +868,7 @@ inline
 bool
 HttpCodeIsServerError
 (
-uint32
+uint32_t
 code
 )
 {
@@ -888,14 +888,14 @@ code
 bool
 HttpCodeHasBody
 (
-uint32
+uint32_t
 code
 )
 ;
 bool
 HttpCodeIsCacheable
 (
-uint32
+uint32_t
 code
 )
 ;
@@ -1063,7 +1063,7 @@ seconds
 )
 ;
 inline
-uint16
+uint16_t
 HttpDefaultPort
 (
 bool
@@ -1451,7 +1451,7 @@ const
 string
 &
 host
-uint16
+uint16_t
 port
 =
 HTTP_DEFAULT_PORT
@@ -1694,7 +1694,7 @@ host_
 void
 set_port
 (
-uint16
+uint16_t
 val
 )
 {
@@ -1703,7 +1703,7 @@ port_
 val
 ;
 }
-uint16
+uint16_t
 port
 (
 )
@@ -1943,7 +1943,7 @@ host_
 path_
 query_
 ;
-uint16
+uint16_t
 port_
 ;
 bool
@@ -2867,7 +2867,7 @@ HttpResponseData
 public
 HttpData
 {
-uint32
+uint32_t
 scode
 ;
 std
@@ -2909,7 +2909,7 @@ methods
 void
 set_success
 (
-uint32
+uint32_t
 scode
 =
 HC_OK
@@ -2928,7 +2928,7 @@ content_type
 StreamInterface
 *
 document
-uint32
+uint32_t
 scode
 =
 HC_OK
@@ -2944,7 +2944,7 @@ std
 string
 &
 location
-uint32
+uint32_t
 scode
 =
 HC_MOVED_TEMPORARILY
@@ -2953,7 +2953,7 @@ HC_MOVED_TEMPORARILY
 void
 set_error
 (
-uint32
+uint32_t
 scode
 )
 ;

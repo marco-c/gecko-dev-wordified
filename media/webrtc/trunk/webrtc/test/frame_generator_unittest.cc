@@ -424,7 +424,7 @@ file
 void
 CheckFrameAndMutate
 (
-I420VideoFrame
+VideoFrame
 *
 frame
 uint8_t

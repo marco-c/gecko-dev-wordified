@@ -163,6 +163,17 @@ webrtc
 /
 base
 /
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 win32
 .
 h
@@ -326,7 +337,7 @@ values
 for
 this
 key
-uint32
+uint32_t
 GetValueCount
 (
 )
@@ -481,7 +492,7 @@ subkeys
 for
 this
 key
-uint32
+uint32_t
 GetSubkeyCount
 (
 )
@@ -580,7 +591,7 @@ SETTERS
 /
 set
 an
-int32
+int32_t
 value
 -
 use
@@ -607,7 +618,7 @@ const
 /
 set
 an
-int64
+int64_t
 value
 HRESULT
 SetValue
@@ -654,7 +665,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -677,7 +688,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -694,7 +705,7 @@ GETTERS
 /
 get
 an
-int32
+int32_t
 value
 HRESULT
 GetValue
@@ -713,7 +724,7 @@ const
 /
 get
 an
-int64
+int64_t
 value
 HRESULT
 GetValue
@@ -838,7 +849,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -870,7 +881,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -947,7 +958,7 @@ SETTERS
 /
 /
 STATIC
-int32
+int32_t
 set
 static
 HRESULT
@@ -968,7 +979,7 @@ value
 /
 /
 STATIC
-int64
+int64_t
 set
 static
 HRESULT
@@ -1070,7 +1081,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -1097,7 +1108,7 @@ TCHAR
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -1110,7 +1121,7 @@ GETTERS
 /
 /
 STATIC
-int32
+int32_t
 get
 static
 HRESULT
@@ -1132,7 +1143,7 @@ value
 /
 /
 STATIC
-int64
+int64_t
 get
 /
 /
@@ -1338,7 +1349,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -1849,7 +1860,7 @@ value_name
 DWORD
 *
 type
-uint8
+uint8_t
 *
 *
 value
@@ -1994,7 +2005,7 @@ HRESULT
 MultiSZBytesToStringArray
 (
 const
-uint8
+uint8_t
 *
 buffer
 DWORD
@@ -2034,7 +2045,7 @@ RegKeyHelperFunctionsTest
 (
 )
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RegKey
 )

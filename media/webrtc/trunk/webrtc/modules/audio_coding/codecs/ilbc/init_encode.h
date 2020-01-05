@@ -382,7 +382,7 @@ instance
 -
 *
 /
-int16_t
+int
 WebRtcIlbcfix_InitEncode
 (
 /

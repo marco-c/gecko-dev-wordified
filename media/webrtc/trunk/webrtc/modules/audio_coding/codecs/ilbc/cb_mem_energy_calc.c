@@ -282,7 +282,7 @@ start
 energy
 *
 /
-int16_t
+size_t
 range
 /
 *
@@ -350,7 +350,7 @@ the
 energy
 *
 /
-int16_t
+int
 scale
 /
 *
@@ -365,7 +365,7 @@ energy
 values
 *
 /
-int16_t
+size_t
 base_size
 /
 *
@@ -375,7 +375,6 @@ i
 Index
 to
 where
-the
 energy
 values
 should
@@ -385,8 +384,10 @@ stored
 /
 )
 {
-int16_t
+size_t
 j
+;
+int16_t
 shft
 ;
 int32_t
@@ -427,10 +428,10 @@ j
 0
 ;
 j
++
+1
 <
 range
--
-1
 ;
 j
 +

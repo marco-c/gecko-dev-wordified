@@ -381,7 +381,7 @@ indexes
 void
 WebRtcIlbcfix_StateConstruct
 (
-int16_t
+size_t
 idxForMax
 /
 *
@@ -441,7 +441,7 @@ state
 vector
 *
 /
-int16_t
+size_t
 len
 /
 *

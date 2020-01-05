@@ -432,7 +432,7 @@ signal
 buffer
 *
 /
-int16_t
+size_t
 lag
 /
 *
@@ -443,7 +443,7 @@ pitch
 lag
 *
 /
-int16_t
+size_t
 bLen
 /
 *
@@ -455,7 +455,7 @@ of
 buffer
 *
 /
-int16_t
+size_t
 sRange
 /
 *

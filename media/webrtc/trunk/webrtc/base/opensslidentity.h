@@ -205,6 +205,10 @@ OpenSSLKeyPair
 *
 Generate
 (
+const
+KeyParams
+&
+key_params
 )
 ;
 virtual
@@ -242,7 +246,7 @@ EVP_PKEY
 *
 pkey_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OpenSSLKeyPair
 )
@@ -475,6 +479,13 @@ chain
 const
 override
 ;
+int64_t
+CertificateExpirationTime
+(
+)
+const
+override
+;
 private
 :
 void
@@ -487,7 +498,7 @@ X509
 *
 x509_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OpenSSLCertificate
 )
@@ -532,6 +543,10 @@ std
 string
 &
 common_name
+const
+KeyParams
+&
+key_params
 )
 ;
 static
@@ -646,7 +661,7 @@ OpenSSLCertificate
 >
 certificate_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OpenSSLIdentity
 )

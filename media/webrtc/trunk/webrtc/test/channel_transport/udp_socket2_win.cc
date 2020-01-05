@@ -137,7 +137,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 sleep
 .
@@ -2079,7 +2079,7 @@ NULL
 pIOContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 &
 &
 (
@@ -2110,7 +2110,7 @@ _outstandingCallsDisabled
 pIOContext
 -
 >
-initiatedIOByThreadWrapper
+initiatedIOByPlatformThread
 indicate
 that
 the
@@ -2124,7 +2124,7 @@ not
 initiated
 by
 a
-ThreadWrapper
+PlatformThread
 thread
 .
 /
@@ -2576,7 +2576,7 @@ implementation
 pIOContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 =
 true
 ;
@@ -2732,7 +2732,7 @@ implementation
 pIoContext
 -
 >
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 =
 false
 ;

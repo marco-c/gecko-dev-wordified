@@ -134,7 +134,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -200,17 +200,8 @@ namespace
 webrtc_adm_linux
 {
 #
-if
-defined
-(
+ifdef
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
-)
 typedef
 void
 *
@@ -646,7 +637,7 @@ symbols_
 SYMBOL_TABLE_SIZE
 ]
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 LateBindingSymbolTable
 )

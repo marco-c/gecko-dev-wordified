@@ -273,7 +273,7 @@ CB
 memory
 *
 /
-int16_t
+size_t
 lMem
 /
 *

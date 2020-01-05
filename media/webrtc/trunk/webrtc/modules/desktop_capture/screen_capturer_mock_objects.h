@@ -188,7 +188,7 @@ id
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MockScreenCapturer
 )
@@ -240,7 +240,7 @@ DesktopFrame
 ;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MockScreenCapturerCallback
 )

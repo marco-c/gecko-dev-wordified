@@ -120,7 +120,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -133,7 +133,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -481,7 +481,7 @@ previous_window_list_
 TickTime
 last_udpate_time_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 FullScreenChromeWindowDetector
 )

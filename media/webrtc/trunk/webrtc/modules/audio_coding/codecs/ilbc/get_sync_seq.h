@@ -399,7 +399,7 @@ original
 data
 *
 /
-int16_t
+size_t
 idatal
 /
 *
@@ -411,7 +411,7 @@ of
 data
 *
 /
-int16_t
+size_t
 centerStartPos
 /
 *
@@ -424,7 +424,7 @@ block
 starts
 *
 /
-int16_t
+size_t
 *
 period
 /
@@ -445,7 +445,8 @@ Q
 )
 *
 /
-int16_t
+const
+size_t
 *
 plocs
 /
@@ -467,7 +468,7 @@ Q
 )
 *
 /
-int16_t
+size_t
 periodl
 /
 *
@@ -479,7 +480,7 @@ period
 array
 *
 /
-int16_t
+size_t
 hl
 /
 *

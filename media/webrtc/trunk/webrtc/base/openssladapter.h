@@ -491,7 +491,11 @@ host
 ;
 #
 if
-_DEBUG
+!
+defined
+(
+NDEBUG
+)
 static
 void
 SSLInfoCallback
@@ -508,10 +512,6 @@ ret
 ;
 #
 endif
-/
-/
-!
-_DEBUG
 static
 int
 SSLVerifyCallback

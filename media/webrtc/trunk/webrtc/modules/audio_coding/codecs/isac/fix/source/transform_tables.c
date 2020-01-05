@@ -138,17 +138,6 @@ typedefs
 .
 h
 "
-#
-if
-!
-(
-defined
-WEBRTC_DETECT_ARM_NEON
-|
-|
-defined
-WEBRTC_ARCH_ARM_NEON
-)
 /
 *
 Cosine
@@ -994,8 +983,6 @@ FRAMESAMPLES
 107
 }
 ;
-#
-endif
 #
 if
 defined

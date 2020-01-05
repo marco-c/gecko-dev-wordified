@@ -98,7 +98,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -315,6 +315,10 @@ timestamp_
 }
 ;
 }
+/
+/
+namespace
+webrtc
 #
 endif
 /

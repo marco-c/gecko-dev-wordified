@@ -113,7 +113,7 @@ audio_coding
 /
 neteq
 /
-interface
+include
 /
 neteq
 .
@@ -363,7 +363,7 @@ for
 previous
 packet
 .
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Rtcp
 )

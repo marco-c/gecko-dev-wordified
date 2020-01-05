@@ -120,7 +120,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 event_wrapper
 .
@@ -133,7 +133,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 file_wrapper
 .
@@ -146,7 +146,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 static_instance
 .
@@ -157,11 +157,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-thread_wrapper
+platform_thread
 .
 h
 "
@@ -172,7 +170,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

@@ -265,7 +265,7 @@ CB
 memory
 *
 /
-int16_t
+int
 scale
 /
 *
@@ -280,7 +280,7 @@ energy
 values
 *
 /
-int16_t
+size_t
 base_size
 /
 *
@@ -290,7 +290,6 @@ i
 Index
 to
 where
-the
 energy
 values
 should

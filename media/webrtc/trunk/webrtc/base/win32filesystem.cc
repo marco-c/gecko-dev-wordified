@@ -132,6 +132,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 fileutils
 .
 h
@@ -1405,7 +1416,7 @@ if
 :
 GetTempPath
 (
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -1430,7 +1441,7 @@ GetLongPathName
 (
 buffer
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -1480,7 +1491,7 @@ strcpyn
 buffer
 +
 len
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -1499,7 +1510,7 @@ if
 len
 >
 =
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2174,7 +2185,7 @@ if
 :
 GetTempPath
 (
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2199,7 +2210,7 @@ GetLongPathName
 (
 buffer
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2437,7 +2448,7 @@ GetModuleFileName
 (
 NULL
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2542,7 +2553,7 @@ GetLongPathName
 (
 buffer
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2557,7 +2568,7 @@ len
 strcatn
 (
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2578,7 +2589,7 @@ strcpyn
 buffer
 +
 len
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2630,7 +2641,7 @@ strcpyn
 buffer
 +
 len
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2654,7 +2665,7 @@ strcpyn
 buffer
 +
 len
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2706,7 +2717,7 @@ strcpyn
 buffer
 +
 len
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2727,7 +2738,7 @@ if
 len
 >
 =
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2820,7 +2831,7 @@ const
 Pathname
 &
 path
-int64
+int64_t
 *
 free_bytes
 )
@@ -3035,7 +3046,7 @@ return
 false
 ;
 }
-int64
+int64_t
 total_number_of_bytes
 ;
 /
@@ -3047,7 +3058,7 @@ of
 bytes
 on
 disk
-int64
+int64_t
 total_number_of_free_bytes
 ;
 /
@@ -3089,7 +3100,7 @@ ULARGE_INTEGER
 =
 sizeof
 (
-uint64
+uint64_t
 )
 )
 ;

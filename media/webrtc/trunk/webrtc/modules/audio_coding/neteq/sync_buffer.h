@@ -164,13 +164,6 @@ dtmf_index_
 )
 {
 }
-virtual
-~
-SyncBuffer
-(
-)
-{
-}
 /
 /
 Returns
@@ -260,6 +253,7 @@ AudioMultiVector
 &
 append_this
 )
+override
 ;
 /
 /
@@ -806,7 +800,7 @@ in
 the
 buffer
 .
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SyncBuffer
 )

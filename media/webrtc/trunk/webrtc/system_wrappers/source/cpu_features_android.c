@@ -87,15 +87,13 @@ tree
 /
 #
 include
-"
-droid
--
+<
 cpu
 -
 features
 .
 h
-"
+>
 uint64_t
 WebRtc_GetCPUFeaturesARM
 (

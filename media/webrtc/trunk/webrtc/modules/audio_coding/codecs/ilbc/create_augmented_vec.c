@@ -393,7 +393,7 @@ part
 void
 WebRtcIlbcfix_CreateAugmentedVec
 (
-int16_t
+size_t
 index
 /
 *
@@ -453,7 +453,7 @@ vector
 /
 )
 {
-int16_t
+size_t
 ilow
 ;
 int16_t

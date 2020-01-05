@@ -107,7 +107,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -122,7 +122,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 audio_frame_operations
 .
@@ -188,7 +188,7 @@ right
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -244,7 +244,7 @@ data
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -308,7 +308,7 @@ samples_per_channel_
 ;
 for
 (
-int
+size_t
 i
 =
 0

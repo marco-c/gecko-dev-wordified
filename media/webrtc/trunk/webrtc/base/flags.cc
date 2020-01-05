@@ -1254,7 +1254,7 @@ arg
 name
 )
 ;
-CHECK_LT
+RTC_CHECK_LT
 (
 n
 buffer_size
@@ -1895,7 +1895,7 @@ name
 0
 )
 ;
-CHECK
+RTC_CHECK
 (
 !
 Lookup

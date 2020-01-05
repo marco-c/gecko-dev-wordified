@@ -133,8 +133,6 @@ modules
 /
 media_file
 /
-interface
-/
 media_file
 .
 h
@@ -147,8 +145,6 @@ webrtc
 modules
 /
 media_file
-/
-interface
 /
 media_file_defines
 .
@@ -163,7 +159,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 file_player
 .
@@ -191,7 +187,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -204,7 +200,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -250,7 +246,7 @@ Get10msAudioFromFile
 int16_t
 *
 outBuffer
-int
+size_t
 &
 lengthInSamples
 int

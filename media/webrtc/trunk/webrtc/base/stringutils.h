@@ -153,7 +153,7 @@ WEBRTC_POSIX
 )
 #
 ifdef
-WEBRTC_BSD
+BSD
 #
 include
 <
@@ -2945,12 +2945,6 @@ static
 const
 wchar_t
 *
-Traits
-<
-wchar_t
->
-:
-:
 empty_str
 (
 )

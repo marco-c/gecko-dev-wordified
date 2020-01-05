@@ -112,7 +112,7 @@ webrtc
 /
 common_video
 /
-interface
+include
 /
 i420_buffer_pool
 .
@@ -604,7 +604,7 @@ memset
 buffer
 -
 >
-data
+MutableData
 (
 kYPlane
 )

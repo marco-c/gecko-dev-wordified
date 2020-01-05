@@ -118,7 +118,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -131,7 +131,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -228,15 +228,10 @@ ProcessThread
 :
 Create
 (
+"
+VoiceProcessThread
+"
 )
-)
-_externalRecording
-(
-false
-)
-_externalPlayout
-(
-false
 )
 {
 Trace

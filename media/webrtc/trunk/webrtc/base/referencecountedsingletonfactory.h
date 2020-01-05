@@ -542,7 +542,7 @@ crit_
 int
 ref_count_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ReferenceCountedSingletonFactory
 )
@@ -885,7 +885,7 @@ Interface
 *
 factory_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 rcsf_ptr
 )

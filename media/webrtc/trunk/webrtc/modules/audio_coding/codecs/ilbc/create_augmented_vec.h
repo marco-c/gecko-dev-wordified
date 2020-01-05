@@ -392,7 +392,7 @@ part
 void
 WebRtcIlbcfix_CreateAugmentedVec
 (
-int16_t
+size_t
 index
 /
 *

@@ -522,7 +522,7 @@ n
 ]
 *
 /
-int16_t
+size_t
 len
 )
 /
@@ -538,7 +538,7 @@ filter
 *
 /
 {
-int
+size_t
 i
 ;
 int32_t

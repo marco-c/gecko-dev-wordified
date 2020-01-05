@@ -443,7 +443,7 @@ char
 *
 data_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 XWindowProperty
 )
@@ -704,7 +704,7 @@ display_
 XErrorHandler
 original_error_handler_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 XErrorSuppressor
 )
@@ -1667,7 +1667,7 @@ return
 true
 ;
 }
-uint8
+uint8_t
 *
 GetWindowIcon
 (
@@ -1804,7 +1804,7 @@ the
 format
 is
 one
-uint32
+uint32_t
 each
 for
 width
@@ -1859,13 +1859,13 @@ Success
 data
 )
 {
-uint32
+uint32_t
 *
 data_ptr
 =
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -1931,7 +1931,7 @@ return
 NULL
 ;
 }
-uint8
+uint8_t
 *
 rgba
 =
@@ -1993,7 +1993,7 @@ NULL
 ;
 }
 }
-uint8
+uint8_t
 *
 GetWindowThumbnail
 (
@@ -2530,7 +2530,7 @@ return
 NULL
 ;
 }
-uint8
+uint8_t
 *
 data
 =
@@ -2581,7 +2581,7 @@ display_
 )
 ;
 }
-uint8
+uint8_t
 *
 GetDesktopThumbnail
 (
@@ -2761,7 +2761,7 @@ true
 }
 private
 :
-uint8
+uint8_t
 *
 GetDrawableThumbnail
 (
@@ -3358,7 +3358,7 @@ AllPlanes
 ZPixmap
 )
 ;
-uint8
+uint8_t
 *
 data
 =
@@ -3366,7 +3366,7 @@ ArgbToRgba
 (
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -3411,11 +3411,11 @@ return
 data
 ;
 }
-uint8
+uint8_t
 *
 ArgbToRgba
 (
-uint32
+uint32_t
 *
 argb_data
 int
@@ -3434,7 +3434,7 @@ bool
 has_alpha
 )
 {
-uint8
+uint8_t
 *
 p
 ;
@@ -3447,12 +3447,12 @@ stride_y
 *
 4
 ;
-uint8
+uint8_t
 *
 data
 =
 new
-uint8
+uint8_t
 [
 len
 ]
@@ -3510,10 +3510,10 @@ w
 j
 )
 {
-uint32
+uint32_t
 argb
 ;
-uint32
+uint32_t
 rgba
 ;
 argb
@@ -4177,12 +4177,12 @@ type
 None
 )
 {
-int64
+int64_t
 state
 =
 static_cast
 <
-int64
+int64_t
 >
 (
 *
@@ -4811,7 +4811,7 @@ id
 )
 ;
 }
-uint8
+uint8_t
 *
 X11WindowPicker
 :
@@ -4842,7 +4842,7 @@ height
 )
 ;
 }
-uint8
+uint8_t
 *
 X11WindowPicker
 :
@@ -4888,7 +4888,7 @@ GetNumDesktops
 )
 ;
 }
-uint8
+uint8_t
 *
 X11WindowPicker
 :

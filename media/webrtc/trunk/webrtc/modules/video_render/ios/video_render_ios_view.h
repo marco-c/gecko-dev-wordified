@@ -150,7 +150,7 @@ renderFrame
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 *
 )
 frameToRender

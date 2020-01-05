@@ -278,7 +278,7 @@ Q29
 )
 *
 /
-int
+size_t
 noOfEnergies
 )
 ;

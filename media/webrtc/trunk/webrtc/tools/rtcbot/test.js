@@ -927,7 +927,7 @@ test
 reports
 /
 "
-0o777
+0777
 writeFile
 .
 bind

@@ -286,7 +286,7 @@ the
 desired
 state
 .
-uint32
+uint32_t
 end
 =
 TimeAfter
@@ -538,7 +538,7 @@ thread
 safe
 objects
 .
-uint32
+uint32_t
 end
 =
 TimeAfter

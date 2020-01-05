@@ -149,7 +149,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -162,7 +162,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 condition_variable_wrapper
 .
@@ -175,7 +175,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -188,7 +188,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 event_wrapper
 .
@@ -201,7 +201,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 rw_lock_wrapper
 .
@@ -214,7 +214,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

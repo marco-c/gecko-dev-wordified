@@ -93,6 +93,17 @@ include
 "
 webrtc
 /
+base
+/
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
 sound
 /
 automaticallychosensoundsystem
@@ -244,7 +255,7 @@ typedef
 AutomaticallyChosenSoundSystem
 <
 kLinuxSoundSystemCreators
-ARRAY_SIZE
+arraysize
 (
 kLinuxSoundSystemCreators
 )

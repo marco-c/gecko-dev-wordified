@@ -637,6 +637,15 @@ rand
 (
 )
 ;
+/
+/
+NOLINT
+(
+rand_r
+instead
+of
+rand
+)
 critsect_
 -
 >
@@ -715,4 +724,4 @@ test
 /
 /
 namespace
-webrtcc
+webrtc

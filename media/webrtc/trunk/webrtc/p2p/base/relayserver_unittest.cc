@@ -211,7 +211,7 @@ cricket
 ;
 static
 const
-uint32
+uint32_t
 LIFETIME
 =
 4

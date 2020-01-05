@@ -245,7 +245,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -1507,7 +1507,7 @@ packets_
 bool
 packets_calculated_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpPacketizerVp8
 )

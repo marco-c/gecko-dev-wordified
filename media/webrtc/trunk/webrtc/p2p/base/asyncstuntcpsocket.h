@@ -337,7 +337,7 @@ int
 pad_bytes
 )
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncStunTCPSocket
 )

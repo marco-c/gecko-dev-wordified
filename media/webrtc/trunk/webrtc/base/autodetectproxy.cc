@@ -782,7 +782,7 @@ ipaddr
 (
 )
 ;
-uint16
+uint16_t
 address_port
 =
 proxy

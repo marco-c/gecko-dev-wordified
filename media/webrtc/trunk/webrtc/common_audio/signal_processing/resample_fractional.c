@@ -362,7 +362,7 @@ In
 int32_t
 *
 Out
-int32_t
+size_t
 K
 )
 {
@@ -463,7 +463,7 @@ samples
 int32_t
 tmp
 ;
-int32_t
+size_t
 m
 ;
 for
@@ -844,7 +844,7 @@ In
 int32_t
 *
 Out
-int32_t
+size_t
 K
 )
 {
@@ -942,7 +942,7 @@ size
 4
 samples
 .
-int32_t
+size_t
 m
 ;
 int32_t
@@ -1802,7 +1802,7 @@ In
 int32_t
 *
 Out
-int32_t
+size_t
 K
 )
 {
@@ -1903,7 +1903,7 @@ samples
 int32_t
 tmp
 ;
-int32_t
+size_t
 m
 ;
 for

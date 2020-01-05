@@ -259,7 +259,7 @@ v
 if
 defined
 (
-__aarch64__
+WEBRTC_ARCH_ARM64
 )
 *
 (

@@ -161,7 +161,7 @@ int32_t
 Encode
 (
 const
-I420VideoFrame
+VideoFrame
 &
 input_image
 const
@@ -174,7 +174,7 @@ std
 :
 vector
 <
-VideoFrameType
+FrameType
 >
 *
 frame_types
@@ -221,17 +221,6 @@ SetPeriodicKeyFrames
 (
 bool
 enable
-)
-override
-;
-int32_t
-CodecConfigParameters
-(
-uint8_t
-*
-buffer
-int32_t
-size
 )
 override
 ;

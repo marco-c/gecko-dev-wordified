@@ -265,7 +265,7 @@ FILE
 *
 out_file_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OutputAudioFile
 )

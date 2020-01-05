@@ -627,7 +627,7 @@ current_framesamples
 samples
 *
 /
-int
+size_t
 packet_size
 /
 *

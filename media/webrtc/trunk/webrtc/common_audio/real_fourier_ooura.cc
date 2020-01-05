@@ -148,7 +148,7 @@ float
 >
 *
 array
-int
+size_t
 complex_length
 )
 {
@@ -190,7 +190,7 @@ v
 size_t
 ComputeWorkIpSize
 (
-int
+size_t
 fft_length
 )
 {
@@ -279,7 +279,7 @@ call
 work_ip_
 (
 new
-int
+size_t
 [
 ComputeWorkIpSize
 (
@@ -300,7 +300,7 @@ complex_length_
 )
 )
 {
-CHECK_GE
+RTC_CHECK_GE
 (
 fft_order
 1
@@ -551,7 +551,7 @@ complex
 element
 .
 const
-int
+size_t
 dest_complex_length
 =
 complex_length_

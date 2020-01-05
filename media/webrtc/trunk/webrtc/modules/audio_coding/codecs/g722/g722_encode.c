@@ -2075,7 +2075,7 @@ yl
 }
 #
 endif
-int
+size_t
 WebRtc_g722_encode
 (
 G722EncoderState
@@ -2090,7 +2090,7 @@ int16_t
 amp
 [
 ]
-int
+size_t
 len
 )
 {
@@ -2490,7 +2490,7 @@ mih
 int
 i
 ;
-int
+size_t
 j
 ;
 /
@@ -2511,7 +2511,7 @@ xlow
 int
 xhigh
 ;
-int
+size_t
 g722_bytes
 ;
 /

@@ -528,7 +528,7 @@ virtual
 int
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )
@@ -651,7 +651,7 @@ to
 see
 DoConnect
 )
-uint32
+uint32_t
 connect_time_
 ;
 bool

@@ -167,13 +167,6 @@ Rect
 import
 android
 .
-util
-.
-Log
-;
-import
-android
-.
 view
 .
 SurfaceHolder
@@ -197,13 +190,9 @@ Callback
 import
 org
 .
-mozilla
+webrtc
 .
-gecko
-.
-annotation
-.
-WebRTCJNITarget
+Logging
 ;
 public
 class
@@ -306,7 +295,6 @@ dstRightScale
 =
 1
 ;
-WebRTCJNITarget
 public
 ViESurfaceRenderer
 (
@@ -406,7 +394,7 @@ int
 in_height
 )
 {
-Log
+Logging
 .
 d
 (
@@ -425,7 +413,7 @@ in_width
 in_height
 )
 ;
-Log
+Logging
 .
 d
 (
@@ -601,7 +589,7 @@ dst
 top
 )
 ;
-Log
+Logging
 .
 d
 (
@@ -764,7 +752,7 @@ SurfaceHolder
 holder
 )
 {
-Log
+Logging
 .
 d
 (
@@ -796,7 +784,7 @@ int
 height
 )
 {
-Log
+Logging
 .
 d
 (
@@ -893,7 +881,6 @@ return
 bitmap
 ;
 }
-WebRTCJNITarget
 public
 ByteBuffer
 CreateByteBuffer
@@ -904,7 +891,7 @@ int
 height
 )
 {
-Log
+Logging
 .
 d
 (
@@ -956,7 +943,6 @@ return
 byteBuffer
 ;
 }
-WebRTCJNITarget
 public
 void
 SetCoordinates
@@ -971,7 +957,7 @@ float
 bottom
 )
 {
-Log
+Logging
 .
 d
 (
@@ -1033,7 +1019,6 @@ for
 debug
 only
 .
-WebRTCJNITarget
 private
 void
 saveBitmapToJPEG
@@ -1134,7 +1119,6 @@ e
 {
 }
 }
-WebRTCJNITarget
 public
 void
 DrawByteBuffer

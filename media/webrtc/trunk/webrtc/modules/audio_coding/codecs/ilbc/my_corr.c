@@ -394,6 +394,7 @@ and
 seq2
 *
 /
+const
 int16_t
 *
 seq1
@@ -406,7 +407,7 @@ first
 sequence
 *
 /
-int16_t
+size_t
 dim1
 /
 *
@@ -431,7 +432,7 @@ second
 sequence
 *
 /
-int16_t
+size_t
 dim2
 /
 *
@@ -446,8 +447,12 @@ seq2
 {
 int16_t
 max
-scale
+;
+size_t
 loops
+;
+int
+scale
 ;
 /
 *
@@ -492,16 +497,11 @@ max
 ;
 scale
 =
-(
-int16_t
-)
-(
 2
 *
 scale
 -
 26
-)
 ;
 if
 (
@@ -534,10 +534,6 @@ correlations
 WebRtcSpl_CrossCorrelation
 (
 corr
-(
-int16_t
-*
-)
 seq2
 seq1
 dim2

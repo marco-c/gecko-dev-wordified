@@ -163,8 +163,7 @@ virtual
 SoundInputStreamInterface
 (
 )
-{
-}
+;
 /
 /
 Starts
@@ -486,11 +485,10 @@ protected
 SoundInputStreamInterface
 (
 )
-{
-}
+;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SoundInputStreamInterface
 )
@@ -506,4 +504,4 @@ rtc
 endif
 /
 /
-WEBRTC_SOUND_SOUNDOUTPUTSTREAMINTERFACE_H_
+WEBRTC_SOUND_SOUNDINPUTSTREAMINTERFACE_H_

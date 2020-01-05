@@ -307,6 +307,10 @@ typedefs
 h
 "
 namespace
+webrtc
+{
+namespace
+fec_private_tables
 {
 const
 uint8_t
@@ -2054,6 +2058,12 @@ kPacketMaskBursty12
 /
 /
 namespace
+fec_private_tables
+}
+/
+/
+namespace
+webrtc
 #
 endif
 /

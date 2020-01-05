@@ -135,7 +135,6 @@ VoENetEqStats
 {
 public
 :
-virtual
 int
 GetNetworkStatistics
 (
@@ -145,8 +144,8 @@ NetworkStatistics
 &
 stats
 )
+override
 ;
-virtual
 int
 GetDecodingCallStatistics
 (
@@ -157,6 +156,7 @@ AudioDecodingCallStats
 stats
 )
 const
+override
 ;
 protected
 :
@@ -170,11 +170,11 @@ SharedData
 shared
 )
 ;
-virtual
 ~
 VoENetEqStatsImpl
 (
 )
+override
 ;
 private
 :

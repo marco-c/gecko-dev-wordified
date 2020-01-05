@@ -195,7 +195,7 @@ encoded_frame_length_in_bytes
 )
 frame_type
 (
-kDeltaFrame
+kVideoFrameDelta
 )
 {
 }
@@ -505,7 +505,7 @@ frame_type
 webrtc
 :
 :
-kKeyFrame
+kVideoFrameKey
 )
 {
 total_encoded_key_frames_lengths

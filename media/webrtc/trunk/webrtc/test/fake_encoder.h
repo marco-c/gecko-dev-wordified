@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_FAKE_ENCODER_H_
+WEBRTC_TEST_FAKE_ENCODER_H_
 #
 define
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_FAKE_ENCODER_H_
+WEBRTC_TEST_FAKE_ENCODER_H_
 #
 include
 <
@@ -112,7 +112,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 clock
 .
@@ -196,7 +196,7 @@ int32_t
 Encode
 (
 const
-I420VideoFrame
+VideoFrame
 &
 input_image
 const
@@ -209,7 +209,7 @@ std
 :
 vector
 <
-VideoFrameType
+FrameType
 >
 *
 frame_types
@@ -250,6 +250,21 @@ uint32_t
 framerate
 )
 override
+;
+const
+char
+*
+ImplementationName
+(
+)
+const
+override
+;
+static
+const
+char
+*
+kImplementationName
 ;
 protected
 :
@@ -376,7 +391,7 @@ int32_t
 Encode
 (
 const
-I420VideoFrame
+VideoFrame
 &
 input_image
 const
@@ -389,7 +404,7 @@ std
 :
 vector
 <
-VideoFrameType
+FrameType
 >
 *
 frame_types
@@ -418,4 +433,4 @@ webrtc
 endif
 /
 /
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_FAKE_ENCODER_H_
+WEBRTC_TEST_FAKE_ENCODER_H_

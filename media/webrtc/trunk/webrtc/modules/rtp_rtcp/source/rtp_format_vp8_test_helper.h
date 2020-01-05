@@ -186,7 +186,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -416,7 +416,7 @@ sloppy_partitioning_
 bool
 inited_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 RtpFormatVp8TestHelper
 )

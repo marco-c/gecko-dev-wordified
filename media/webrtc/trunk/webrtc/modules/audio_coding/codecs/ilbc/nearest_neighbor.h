@@ -336,14 +336,6 @@ to
 value
 "
 *
-according
-to
-the
-squared
--
-error
-criterion
-*
 -
 -
 -
@@ -412,7 +404,7 @@ criterion
 void
 WebRtcIlbcfix_NearestNeighbor
 (
-int16_t
+size_t
 *
 index
 /
@@ -429,7 +421,8 @@ to
 value
 *
 /
-int16_t
+const
+size_t
 *
 array
 /
@@ -444,7 +437,7 @@ Q2
 )
 *
 /
-int16_t
+size_t
 value
 /
 *
@@ -457,7 +450,7 @@ Q2
 )
 *
 /
-int16_t
+size_t
 arlength
 /
 *
@@ -471,7 +464,7 @@ array
 (
 =
 =
-8
+ENH_NBLOCKS_TOT
 )
 *
 /

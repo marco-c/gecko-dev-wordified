@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_VIDEO_CAPTURER_H_
+WEBRTC_TEST_VIDEO_CAPTURER_H_
 #
 define
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_VIDEO_CAPTURER_H_
+WEBRTC_TEST_VIDEO_CAPTURER_H_
 #
 include
 <
@@ -105,7 +105,7 @@ class
 Clock
 ;
 class
-VideoSendStreamInput
+VideoCaptureInput
 ;
 namespace
 test
@@ -120,7 +120,7 @@ VideoCapturer
 *
 Create
 (
-VideoSendStreamInput
+VideoCaptureInput
 *
 input
 size_t
@@ -162,12 +162,12 @@ protected
 explicit
 VideoCapturer
 (
-VideoSendStreamInput
+VideoCaptureInput
 *
 input
 )
 ;
-VideoSendStreamInput
+VideoCaptureInput
 *
 input_
 ;
@@ -185,4 +185,4 @@ webrtc
 endif
 /
 /
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_VIDEO_CAPTURER_H_
+WEBRTC_TEST_VIDEO_CAPTURER_H_

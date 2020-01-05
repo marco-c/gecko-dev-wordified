@@ -381,7 +381,7 @@ n
 ]
 *
 /
-int16_t
+size_t
 len
 )
 ;

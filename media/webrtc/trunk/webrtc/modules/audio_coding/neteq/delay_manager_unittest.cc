@@ -567,13 +567,13 @@ vec
 [
 i
 ]
-65536
+65537
 )
 ;
 /
 /
 Tolerance
-65536
+65537
 in
 Q30
 corresponds

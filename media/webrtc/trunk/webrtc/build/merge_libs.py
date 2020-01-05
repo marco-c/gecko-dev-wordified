@@ -136,6 +136,9 @@ do_not_use
 '
 protoc
 '
+'
+genperf
+'
 ]
 def
 FindFiles
@@ -287,10 +290,17 @@ pattern
 :
       
 if
-filename
+all
+(
+pattern
 not
 in
+filename
+for
+pattern
+in
 IGNORE_PATTERNS
+)
 :
         
 #

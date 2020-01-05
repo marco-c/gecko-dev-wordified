@@ -136,7 +136,7 @@ right_shifts
 int16_t
 *
 out_vector
-int
+size_t
 length
 )
 {
@@ -174,10 +174,12 @@ out
 =
 out_vector
 ;
-int
+size_t
 i
 =
 0
+;
+int
 value32
 =
 0
@@ -203,7 +205,7 @@ NULL
 |
 |
 length
-<
+=
 =
 0
 |

@@ -115,7 +115,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -185,7 +185,7 @@ frame
 )
 {
 const
-int
+size_t
 frame_length
 =
 frame
@@ -232,7 +232,7 @@ frame_length
 ;
 for
 (
-int
+size_t
 i
 =
 0

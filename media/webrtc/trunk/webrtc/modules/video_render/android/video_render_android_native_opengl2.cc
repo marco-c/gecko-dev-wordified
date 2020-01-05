@@ -107,7 +107,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -120,7 +120,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -178,7 +178,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -2273,7 +2273,7 @@ streamId
 *
 /
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )

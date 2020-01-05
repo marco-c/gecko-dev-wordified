@@ -92,7 +92,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -109,6 +109,13 @@ h
 include
 <
 inttypes
+.
+h
+>
+#
+include
+<
+malloc
 .
 h
 >

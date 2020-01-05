@@ -111,7 +111,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -278,8 +278,6 @@ InvokeOnInitializeDecoder
 RtpFeedback
 *
 callback
-int32_t
-id
 int8_t
 payload_type
 const

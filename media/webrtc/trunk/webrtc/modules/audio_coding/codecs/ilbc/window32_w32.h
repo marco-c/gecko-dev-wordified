@@ -414,7 +414,7 @@ Q31
 Window
 *
 /
-int16_t
+size_t
 N
 /
 *

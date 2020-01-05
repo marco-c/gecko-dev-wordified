@@ -392,7 +392,7 @@ int16_t
 const
 *
 inNear
-int16_t
+size_t
 num_bands
 int16_t
 *
@@ -415,7 +415,7 @@ const
 int16_t
 *
 inFar
-int16_t
+size_t
 nrSamples
 )
 ;
@@ -451,7 +451,7 @@ i
 )
 Speech
 signal
-int16_t
+size_t
 nrSamples
 )
 ;

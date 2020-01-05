@@ -541,7 +541,7 @@ shm_pixmap_
 GC
 shm_gc_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 XServerPixelBuffer
 )

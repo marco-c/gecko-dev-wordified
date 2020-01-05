@@ -135,7 +135,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_payload_registry
 .
@@ -150,7 +150,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp
 .
@@ -165,7 +165,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -249,10 +249,6 @@ RtpRtcpVideoTest
 (
 )
 :
-test_id_
-(
-123
-)
 rtp_payload_registry_
 (
 RTPPayloadStrategy
@@ -329,12 +325,6 @@ configuration
 ;
 configuration
 .
-id
-=
-test_id_
-;
-configuration
-.
 audio
 =
 false
@@ -371,7 +361,6 @@ RtpReceiver
 :
 CreateVideoReceiver
 (
-test_id_
 &
 fake_clock
 receiver_
@@ -386,7 +375,10 @@ video_module_
 >
 SetRTCPStatus
 (
-kRtcpCompound
+RtcpMode
+:
+:
+kCompound
 )
 ;
 video_module_

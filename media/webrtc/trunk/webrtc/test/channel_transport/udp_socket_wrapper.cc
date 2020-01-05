@@ -119,7 +119,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 event_wrapper
 .
@@ -132,7 +132,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

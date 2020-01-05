@@ -420,7 +420,7 @@ Codebook
 buffer
 *
 /
-int16_t
+size_t
 index
 /
 *
@@ -431,7 +431,7 @@ Codebook
 index
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -444,7 +444,7 @@ codebook
 buffer
 *
 /
-int16_t
+size_t
 cbveclen
 /
 *
@@ -458,11 +458,11 @@ length
 /
 )
 {
-int16_t
+size_t
 k
 base_size
 ;
-int16_t
+size_t
 lag
 ;
 /
@@ -584,9 +584,6 @@ lag
 k
 =
 (
-int16_t
-)
-(
 2
 *
 (
@@ -632,7 +629,7 @@ filtering
 /
 else
 {
-int16_t
+size_t
 memIndTest
 ;
 /
@@ -787,14 +784,9 @@ int16_t
 )
 WebRtcIlbcfix_kCbFiltersRev
 CB_FILTERLEN
-(
-int16_t
-)
-(
 cbveclen
 +
 5
-)
 )
 ;
 /

@@ -122,11 +122,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-critical_section_wrapper
+platform_thread
 .
 h
 "
@@ -137,9 +135,9 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
-thread_wrapper
+critical_section_wrapper
 .
 h
 "
@@ -366,10 +364,7 @@ FdList
 rtc
 :
 :
-scoped_ptr
-<
-ThreadWrapper
->
+PlatformThread
 _thread
 ;
 CriticalSectionWrapper

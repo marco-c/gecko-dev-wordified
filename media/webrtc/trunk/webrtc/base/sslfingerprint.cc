@@ -213,7 +213,7 @@ SSLCertificate
 cert
 )
 {
-uint8
+uint8_t
 digest_val
 [
 64
@@ -372,7 +372,7 @@ SSLFingerprint
 algorithm
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -395,7 +395,7 @@ string
 &
 algorithm
 const
-uint8
+uint8_t
 *
 digest_in
 size_t
@@ -499,6 +499,9 @@ hex_encode_with_delimiter
 digest
 .
 data
+<
+char
+>
 (
 )
 digest

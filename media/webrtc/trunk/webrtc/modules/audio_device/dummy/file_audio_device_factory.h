@@ -227,7 +227,7 @@ const
 uint32_t
 MAX_FILENAME_LEN
 =
-256
+512
 ;
 static
 bool

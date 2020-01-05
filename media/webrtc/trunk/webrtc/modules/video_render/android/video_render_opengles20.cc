@@ -189,7 +189,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -1598,7 +1598,7 @@ VideoRenderOpenGles20
 Render
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )
@@ -2250,7 +2250,7 @@ VideoRenderOpenGles20
 SetupTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )
@@ -2542,7 +2542,7 @@ VideoRenderOpenGles20
 UpdateTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )

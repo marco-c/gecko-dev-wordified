@@ -107,9 +107,6 @@ string
 .
 h
 >
-/
-/
-memset
 namespace
 webrtc
 {

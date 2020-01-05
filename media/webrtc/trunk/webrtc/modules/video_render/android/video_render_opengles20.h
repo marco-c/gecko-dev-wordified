@@ -100,8 +100,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -156,7 +154,7 @@ int32_t
 Render
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )
@@ -230,7 +228,7 @@ void
 SetupTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )
@@ -239,7 +237,7 @@ void
 UpdateTextures
 (
 const
-I420VideoFrame
+VideoFrame
 &
 frameToRender
 )

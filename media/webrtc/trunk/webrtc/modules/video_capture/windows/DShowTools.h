@@ -185,7 +185,6 @@ this
 monitor
 *
 /
-explicit
 CriticalSection
 (
 const
@@ -386,7 +385,6 @@ CriticalSection
 *
 *
 /
-explicit
 CriticalSectionAutoEnter
 (
 mozilla

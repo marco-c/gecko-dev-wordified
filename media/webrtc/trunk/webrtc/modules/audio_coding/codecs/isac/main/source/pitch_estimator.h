@@ -287,7 +287,7 @@ out
 double
 *
 state
-int
+size_t
 N
 )
 ;
@@ -307,6 +307,7 @@ array
 of
 size
 :
+*
 2
 *
 ALLPASSSECTIONS
@@ -314,7 +315,7 @@ ALLPASSSECTIONS
 1
 *
 /
-int
+size_t
 N
 /
 *

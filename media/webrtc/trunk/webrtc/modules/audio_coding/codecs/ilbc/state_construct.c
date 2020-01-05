@@ -386,7 +386,7 @@ state
 void
 WebRtcIlbcfix_StateConstruct
 (
-int16_t
+size_t
 idxForMax
 /
 *
@@ -446,7 +446,7 @@ state
 vector
 *
 /
-int16_t
+size_t
 len
 /
 *
@@ -462,7 +462,7 @@ vector
 /
 )
 {
-int
+size_t
 k
 ;
 int16_t
@@ -976,14 +976,9 @@ numerator
 LPC_FILTERORDER
 +
 1
-(
-int16_t
-)
-(
 len
 +
 LPC_FILTERORDER
-)
 )
 ;
 WebRtcSpl_MemSetW16
@@ -1011,14 +1006,9 @@ syntDenum
 LPC_FILTERORDER
 +
 1
-(
-int16_t
-)
-(
 2
 *
 len
-)
 )
 ;
 tmp1

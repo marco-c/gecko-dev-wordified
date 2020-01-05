@@ -104,11 +104,11 @@ IFChannelBuffer
 :
 IFChannelBuffer
 (
-int
+size_t
 num_frames
-int
+size_t
 num_channels
-int
+size_t
 num_bands
 )
 :
@@ -277,7 +277,7 @@ channels
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -297,7 +297,7 @@ i
 {
 for
 (
-int
+size_t
 j
 =
 0
@@ -386,7 +386,7 @@ channels
 ;
 for
 (
-int
+size_t
 i
 =
 0

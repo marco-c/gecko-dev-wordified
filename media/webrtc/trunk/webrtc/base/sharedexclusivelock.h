@@ -231,7 +231,7 @@ shared_count_is_zero_
 int
 shared_count_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SharedExclusiveLock
 )
@@ -291,7 +291,7 @@ SharedExclusiveLock
 *
 lock_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SharedScope
 )
@@ -351,7 +351,7 @@ SharedExclusiveLock
 *
 lock_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 ExclusiveScope
 )

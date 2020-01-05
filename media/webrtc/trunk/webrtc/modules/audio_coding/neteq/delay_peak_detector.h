@@ -134,8 +134,7 @@ virtual
 DelayPeakDetector
 (
 )
-{
-}
+;
 virtual
 void
 Reset
@@ -194,11 +193,7 @@ bool
 peak_found
 (
 )
-{
-return
-peak_found_
 ;
-}
 /
 /
 Calculates
@@ -443,7 +438,7 @@ peak_detection_threshold_
 int
 peak_period_counter_ms_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DelayPeakDetector
 )

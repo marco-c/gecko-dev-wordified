@@ -126,6 +126,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 basictypes
 .
 h
@@ -402,7 +413,7 @@ Constants
 Standard
 MTUs
 const
-uint16
+uint16_t
 PACKET_MAXIMUMS
 [
 ]
@@ -564,7 +575,7 @@ marker
 }
 ;
 const
-uint32
+uint32_t
 MAX_PACKET
 =
 65535
@@ -584,13 +595,13 @@ was
 larger
 !
 const
-uint32
+uint32_t
 MIN_PACKET
 =
 296
 ;
 const
-uint32
+uint32_t
 IP_HEADER_SIZE
 =
 20
@@ -608,7 +619,7 @@ options
 ?
 )
 const
-uint32
+uint32_t
 UDP_HEADER_SIZE
 =
 8
@@ -625,7 +636,7 @@ this
 code
 ?
 const
-uint32
+uint32_t
 JINGLE_HEADER_SIZE
 =
 64
@@ -649,7 +660,7 @@ send
 buffer
 .
 const
-uint32
+uint32_t
 DEFAULT_RCV_BUF_SIZE
 =
 60
@@ -657,7 +668,7 @@ DEFAULT_RCV_BUF_SIZE
 1024
 ;
 const
-uint32
+uint32_t
 DEFAULT_SND_BUF_SIZE
 =
 90
@@ -1563,13 +1574,13 @@ define
 PSEUDO_KEEPALIVE
 0
 const
-uint32
+uint32_t
 HEADER_SIZE
 =
 24
 ;
 const
-uint32
+uint32_t
 PACKET_OVERHEAD
 =
 HEADER_SIZE
@@ -1581,7 +1592,7 @@ IP_HEADER_SIZE
 JINGLE_HEADER_SIZE
 ;
 const
-uint32
+uint32_t
 MIN_RTO
 =
 250
@@ -1608,7 +1619,7 @@ second
 "
 )
 const
-uint32
+uint32_t
 DEF_RTO
 =
 3000
@@ -1629,7 +1640,7 @@ Sec
 1
 )
 const
-uint32
+uint32_t
 MAX_RTO
 =
 60000
@@ -1639,7 +1650,7 @@ MAX_RTO
 60
 seconds
 const
-uint32
+uint32_t
 DEF_ACK_DELAY
 =
 100
@@ -1649,19 +1660,19 @@ DEF_ACK_DELAY
 100
 milliseconds
 const
-uint8
+uint8_t
 FLAG_CTL
 =
 0x02
 ;
 const
-uint8
+uint8_t
 FLAG_RST
 =
 0x04
 ;
 const
-uint8
+uint8_t
 CTL_CONNECT
 =
 0
@@ -1672,7 +1683,7 @@ TCP
 options
 .
 const
-uint8
+uint8_t
 TCP_OPT_EOL
 =
 0
@@ -1684,7 +1695,7 @@ of
 list
 .
 const
-uint8
+uint8_t
 TCP_OPT_NOOP
 =
 1
@@ -1696,7 +1707,7 @@ No
 op
 .
 const
-uint8
+uint8_t
 TCP_OPT_MSS
 =
 2
@@ -1708,7 +1719,7 @@ segment
 size
 .
 const
-uint8
+uint8_t
 TCP_OPT_WND_SCALE
 =
 3
@@ -1768,7 +1779,7 @@ Rethink
 these
 times
 const
-uint32
+uint32_t
 IDLE_PING
 =
 20
@@ -1792,7 +1803,7 @@ is
 seconds
 )
 const
-uint32
+uint32_t
 IDLE_TIMEOUT
 =
 90
@@ -1957,7 +1968,7 @@ inline
 void
 long_to_bytes
 (
-uint32
+uint32_t
 val
 void
 *
@@ -1967,7 +1978,7 @@ buf
 *
 static_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -1987,7 +1998,7 @@ inline
 void
 short_to_bytes
 (
-uint16
+uint16_t
 val
 void
 *
@@ -1997,7 +2008,7 @@ buf
 *
 static_cast
 <
-uint16
+uint16_t
 *
 >
 (
@@ -2014,7 +2025,7 @@ val
 ;
 }
 inline
-uint32
+uint32_t
 bytes_to_long
 (
 const
@@ -2033,7 +2044,7 @@ NetworkToHost32
 static_cast
 <
 const
-uint32
+uint32_t
 *
 >
 (
@@ -2043,7 +2054,7 @@ buf
 ;
 }
 inline
-uint16
+uint16_t
 bytes_to_short
 (
 const
@@ -2062,7 +2073,7 @@ NetworkToHost16
 static_cast
 <
 const
-uint16
+uint16_t
 *
 >
 (
@@ -2071,14 +2082,14 @@ buf
 )
 ;
 }
-uint32
+uint32_t
 bound
 (
-uint32
+uint32_t
 lower
-uint32
+uint32_t
 middle
-uint32
+uint32_t
 upper
 )
 {
@@ -2395,7 +2406,7 @@ rtc
 sprintfn
 (
 buffer
-ARRAY_SIZE
+arraysize
 (
 buffer
 )
@@ -2603,7 +2614,7 @@ PseudoTcp
 /
 /
 /
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -2660,7 +2671,7 @@ PseudoTcp
 IPseudoTcpNotify
 *
 notify
-uint32
+uint32_t
 conv
 )
 :
@@ -2716,7 +2727,7 @@ MIN_PACKET
 m_sbuf_len
 )
 ;
-uint32
+uint32_t
 now
 =
 Now
@@ -2923,7 +2934,7 @@ PseudoTcp
 :
 NotifyMTU
 (
-uint16
+uint16_t
 mtu
 )
 {
@@ -2951,7 +2962,7 @@ PseudoTcp
 :
 NotifyClock
 (
-uint32
+uint32_t
 now
 )
 {
@@ -3131,7 +3142,7 @@ ECONNABORTED
 return
 ;
 }
-uint32
+uint32_t
 nInFlight
 =
 m_snd_nxt
@@ -3207,7 +3218,7 @@ lower
 when
 connecting
 .
-uint32
+uint32_t
 rto_limit
 =
 (
@@ -3529,13 +3540,13 @@ parse
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
 buffer
 )
-uint32
+uint32_t
 (
 len
 )
@@ -3548,7 +3559,7 @@ PseudoTcp
 :
 GetNextClock
 (
-uint32
+uint32_t
 now
 long
 &
@@ -3745,7 +3756,7 @@ false
 ;
 }
 }
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -3758,7 +3769,7 @@ return
 m_cwnd
 ;
 }
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -3773,7 +3784,7 @@ m_snd_nxt
 m_snd_una
 ;
 }
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -3798,7 +3809,7 @@ buffered_bytes
 return
 static_cast
 <
-uint32
+uint32_t
 >
 (
 m_snd_una
@@ -3809,7 +3820,7 @@ m_snd_nxt
 )
 ;
 }
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -3943,7 +3954,7 @@ available_space
 ;
 if
 (
-uint32
+uint32_t
 (
 available_space
 )
@@ -3956,7 +3967,7 @@ std
 :
 min
 <
-uint32
+uint32_t
 >
 (
 m_rbuf_len
@@ -3997,7 +4008,7 @@ m_rcv_wnd
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space
@@ -4092,7 +4103,7 @@ written
 queue
 (
 buffer
-uint32
+uint32_t
 (
 len
 )
@@ -4174,7 +4185,7 @@ Internal
 Implementation
 /
 /
-uint32
+uint32_t
 PseudoTcp
 :
 :
@@ -4184,7 +4195,7 @@ const
 char
 *
 data
-uint32
+uint32_t
 len
 bool
 bCtrl
@@ -4209,7 +4220,7 @@ len
 >
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space
@@ -4226,7 +4237,7 @@ len
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space
@@ -4332,7 +4343,7 @@ sseg
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 m_snd_una
@@ -4370,7 +4381,7 @@ NULL
 return
 static_cast
 <
-uint32
+uint32_t
 >
 (
 written
@@ -4386,13 +4397,13 @@ PseudoTcp
 :
 packet
 (
-uint32
+uint32_t
 seq
-uint8
+uint8_t
 flags
-uint32
+uint32_t
 offset
-uint32
+uint32_t
 len
 )
 {
@@ -4406,7 +4417,7 @@ len
 MAX_PACKET
 )
 ;
-uint32
+uint32_t
 now
 =
 Now
@@ -4418,14 +4429,14 @@ rtc
 :
 scoped_ptr
 <
-uint8
+uint8_t
 [
 ]
 >
 buffer
 (
 new
-uint8
+uint8_t
 [
 MAX_PACKET
 ]
@@ -4483,7 +4494,7 @@ short_to_bytes
 (
 static_cast
 <
-uint16
+uint16_t
 >
 (
 m_rcv_wnd
@@ -4585,7 +4596,7 @@ ASSERT
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 bytes_read
@@ -4886,10 +4897,10 @@ PseudoTcp
 parse
 (
 const
-uint8
+uint8_t
 *
 buffer
-uint32
+uint32_t
 size
 )
 {
@@ -5170,7 +5181,7 @@ PseudoTcp
 :
 clock_check
 (
-uint32
+uint32_t
 now
 long
 &
@@ -5274,7 +5285,7 @@ std
 :
 min
 <
-int32
+int32_t
 >
 (
 nTimeout
@@ -5303,7 +5314,7 @@ std
 :
 min
 <
-int32
+int32_t
 >
 (
 nTimeout
@@ -5335,7 +5346,7 @@ std
 :
 min
 <
-int32
+int32_t
 >
 (
 nTimeout
@@ -5370,7 +5381,7 @@ std
 :
 min
 <
-int32
+int32_t
 >
 (
 nTimeout
@@ -5496,7 +5507,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 now
 =
 Now
@@ -5863,7 +5874,7 @@ seg
 tsecr
 )
 {
-int32
+int32_t
 rtt
 =
 rtc
@@ -5906,18 +5917,18 @@ rtt
 }
 else
 {
-uint32
+uint32_t
 unsigned_rtt
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 rtt
 )
 ;
-uint32
+uint32_t
 abs_err
 =
 unsigned_rtt
@@ -5969,7 +5980,7 @@ std
 :
 max
 <
-uint32
+uint32_t
 >
 (
 1
@@ -6037,7 +6048,7 @@ m_snd_wnd
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 seg
@@ -6048,7 +6059,7 @@ wnd
 <
 m_swnd_scale
 ;
-uint32
+uint32_t
 nAcked
 =
 seg
@@ -6085,7 +6096,7 @@ nAcked
 ;
 for
 (
-uint32
+uint32_t
 nFree
 =
 nAcked
@@ -6199,7 +6210,7 @@ m_recover
 /
 /
 NewReno
-uint32
+uint32_t
 nInFlight
 =
 m_snd_nxt
@@ -6350,7 +6361,7 @@ std
 :
 max
 <
-uint32
+uint32_t
 >
 (
 1
@@ -6405,7 +6416,7 @@ m_snd_wnd
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 seg
@@ -6538,7 +6549,7 @@ m_recover
 =
 m_snd_nxt
 ;
-uint32
+uint32_t
 nInFlight
 =
 m_snd_nxt
@@ -6742,7 +6753,7 @@ that
 point
 .
 const
-uint32
+uint32_t
 kIdealRefillSize
 =
 (
@@ -6773,7 +6784,7 @@ m_bWriteEnable
 &
 static_cast
 <
-uint32
+uint32_t
 >
 (
 snd_buffered
@@ -7040,7 +7051,7 @@ seq
 m_rcv_nxt
 )
 {
-uint32
+uint32_t
 nAdjust
 =
 m_rcv_nxt
@@ -7119,14 +7130,14 @@ m_rcv_nxt
 >
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space
 )
 )
 {
-uint32
+uint32_t
 nAdjust
 =
 seg
@@ -7141,7 +7152,7 @@ m_rcv_nxt
 -
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space
@@ -7233,7 +7244,7 @@ len
 }
 else
 {
-uint32
+uint32_t
 nOffset
 =
 seg
@@ -7377,7 +7388,7 @@ sfImmediateAck
 Fast
 Recovery
 )
-uint32
+uint32_t
 nAdjust
 =
 (
@@ -7670,7 +7681,7 @@ SList
 iterator
 &
 seg
-uint32
+uint32_t
 now
 )
 {
@@ -7712,7 +7723,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 nTransmit
 =
 std
@@ -7732,7 +7743,7 @@ while
 true
 )
 {
-uint32
+uint32_t
 seq
 =
 seg
@@ -7740,7 +7751,7 @@ seg
 >
 seq
 ;
-uint8
+uint8_t
 flags
 =
 (
@@ -8111,7 +8122,7 @@ SendFlags
 sflags
 )
 {
-uint32
+uint32_t
 now
 =
 Now
@@ -8166,7 +8177,7 @@ while
 true
 )
 {
-uint32
+uint32_t
 cwnd
 =
 m_cwnd
@@ -8201,7 +8212,7 @@ m_dup_acks
 m_mss
 ;
 }
-uint32
+uint32_t
 nWindow
 =
 std
@@ -8213,14 +8224,14 @@ m_snd_wnd
 cwnd
 )
 ;
-uint32
+uint32_t
 nInFlight
 =
 m_snd_nxt
 -
 m_snd_una
 ;
-uint32
+uint32_t
 nUseable
 =
 (
@@ -8250,7 +8261,7 @@ GetBuffered
 snd_buffered
 )
 ;
-uint32
+uint32_t
 nAvailable
 =
 std
@@ -8260,7 +8271,7 @@ min
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 snd_buffered
@@ -8711,7 +8722,7 @@ PseudoTcp
 :
 closedown
 (
-uint32
+uint32_t
 err
 )
 {
@@ -8801,7 +8812,7 @@ if
 (
 static_cast
 <
-uint16
+uint16_t
 >
 (
 PACKET_MAXIMUMS
@@ -9000,7 +9011,7 @@ m_snd_wnd
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 buf
@@ -9019,7 +9030,7 @@ Data
 )
 static_cast
 <
-uint32
+uint32_t
 >
 (
 buf
@@ -9042,7 +9053,7 @@ const
 char
 *
 data
-uint32
+uint32_t
 len
 )
 {
@@ -9051,7 +9062,7 @@ std
 :
 set
 <
-uint8
+uint8_t
 >
 options_specified
 ;
@@ -9104,7 +9115,7 @@ Length
 )
 )
 {
-uint8
+uint8_t
 kind
 =
 TCP_OPT_EOL
@@ -9172,7 +9183,7 @@ RTC_UNUSED
 len
 )
 ;
-uint8
+uint8_t
 opt_len
 =
 0
@@ -9337,7 +9348,7 @@ const
 char
 *
 data
-uint32
+uint32_t
 len
 )
 {
@@ -9448,7 +9459,7 @@ PseudoTcp
 :
 applyWindowScaleOption
 (
-uint8
+uint8_t
 scale_factor
 )
 {
@@ -9463,7 +9474,7 @@ PseudoTcp
 :
 resizeSendBuffer
 (
-uint32
+uint32_t
 new_size
 )
 {
@@ -9485,11 +9496,11 @@ PseudoTcp
 :
 resizeReceiveBuffer
 (
-uint32
+uint32_t
 new_size
 )
 {
-uint8
+uint8_t
 scale_factor
 =
 0
@@ -9648,7 +9659,7 @@ m_rcv_wnd
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 available_space

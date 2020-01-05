@@ -400,6 +400,7 @@ and
 seq2
 *
 /
+const
 int16_t
 *
 seq1
@@ -412,7 +413,7 @@ first
 sequence
 *
 /
-int16_t
+size_t
 dim1
 /
 *
@@ -437,7 +438,7 @@ second
 sequence
 *
 /
-int16_t
+size_t
 dim2
 /
 *

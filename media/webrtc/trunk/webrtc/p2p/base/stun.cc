@@ -344,7 +344,7 @@ EMPTY_TRANSACTION_ID
 "
 ;
 const
-uint32
+uint32_t
 STUN_FINGERPRINT_XOR_VALUE
 =
 0x5354554E
@@ -618,7 +618,7 @@ length_
 =
 static_cast
 <
-uint16
+uint16_t
 >
 (
 attr_length
@@ -942,7 +942,7 @@ the
 STUN
 header
 .
-uint16
+uint16_t
 msg_length
 =
 rtc
@@ -1000,7 +1000,7 @@ current_pos
 size
 )
 {
-uint16
+uint16_t
 attr_type
 attr_length
 ;
@@ -1472,7 +1472,7 @@ get
 2
 static_cast
 <
-uint16
+uint16_t
 >
 (
 new_adjusted_len
@@ -2006,7 +2006,7 @@ fingerprint_attr_data
 +
 sizeof
 (
-uint16
+uint16_t
 )
 )
 !
@@ -2026,7 +2026,7 @@ the
 fingerprint
 value
 .
-uint32
+uint32_t
 fingerprint
 =
 rtc
@@ -2168,7 +2168,7 @@ length
 )
 )
 ;
-uint32
+uint32_t
 c
 =
 rtc
@@ -2347,14 +2347,14 @@ kStunTransactionIdLength
 return
 false
 ;
-uint32
+uint32_t
 magic_cookie_int
 =
 *
 reinterpret_cast
 <
 const
-uint32
+uint32_t
 *
 >
 (
@@ -2467,7 +2467,7 @@ Length
 rest
 )
 {
-uint16
+uint16_t
 attr_type
 attr_length
 ;
@@ -2708,7 +2708,7 @@ WriteUInt16
 (
 static_cast
 <
-uint16
+uint16_t
 >
 (
 (
@@ -2888,7 +2888,7 @@ value_type
 type
 static_cast
 <
-uint16
+uint16_t
 >
 (
 length
@@ -3007,9 +3007,9 @@ StunAttribute
 :
 StunAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 )
 :
@@ -3125,9 +3125,9 @@ Create
 (
 StunAttributeValueType
 value_type
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 StunMessage
 *
@@ -3229,7 +3229,7 @@ StunAttribute
 :
 CreateAddress
 (
-uint16
+uint16_t
 type
 )
 {
@@ -3249,7 +3249,7 @@ StunAttribute
 :
 CreateXorAddress
 (
-uint16
+uint16_t
 type
 )
 {
@@ -3270,7 +3270,7 @@ StunAttribute
 :
 CreateUInt64
 (
-uint16
+uint16_t
 type
 )
 {
@@ -3289,7 +3289,7 @@ StunAttribute
 :
 CreateUInt32
 (
-uint16
+uint16_t
 type
 )
 {
@@ -3308,7 +3308,7 @@ StunAttribute
 :
 CreateByteString
 (
-uint16
+uint16_t
 type
 )
 {
@@ -3365,7 +3365,7 @@ StunAddressAttribute
 :
 StunAddressAttribute
 (
-uint16
+uint16_t
 type
 const
 rtc
@@ -3393,9 +3393,9 @@ StunAddressAttribute
 :
 StunAddressAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 )
 :
@@ -3417,7 +3417,7 @@ ByteBuffer
 buf
 )
 {
-uint8
+uint8_t
 dummy
 ;
 if
@@ -3435,7 +3435,7 @@ dummy
 return
 false
 ;
-uint8
+uint8_t
 stun_family
 ;
 if
@@ -3455,7 +3455,7 @@ return
 false
 ;
 }
-uint16
+uint16_t
 port
 ;
 if
@@ -3809,7 +3809,7 @@ StunXorAddressAttribute
 :
 StunXorAddressAttribute
 (
-uint16
+uint16_t
 type
 const
 rtc
@@ -3836,9 +3836,9 @@ StunXorAddressAttribute
 :
 StunXorAddressAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 StunMessage
 *
@@ -3973,7 +3973,7 @@ length
 kStunTransactionIdLength
 )
 {
-uint32
+uint32_t
 transactionid_as_ints
 [
 3
@@ -3998,13 +3998,13 @@ length
 )
 )
 ;
-uint32
+uint32_t
 *
 ip_as_ints
 =
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -4174,7 +4174,7 @@ buf
 return
 false
 ;
-uint16
+uint16_t
 xoredport
 =
 port
@@ -4418,9 +4418,9 @@ StunUInt32Attribute
 :
 StunUInt32Attribute
 (
-uint16
+uint16_t
 type
-uint32
+uint32_t
 value
 )
 :
@@ -4440,7 +4440,7 @@ StunUInt32Attribute
 :
 StunUInt32Attribute
 (
-uint16
+uint16_t
 type
 )
 :
@@ -4602,9 +4602,9 @@ StunUInt64Attribute
 :
 StunUInt64Attribute
 (
-uint16
+uint16_t
 type
-uint64
+uint64_t
 value
 )
 :
@@ -4624,7 +4624,7 @@ StunUInt64Attribute
 :
 StunUInt64Attribute
 (
-uint16
+uint16_t
 type
 )
 :
@@ -4706,7 +4706,7 @@ StunByteStringAttribute
 :
 StunByteStringAttribute
 (
-uint16
+uint16_t
 type
 )
 :
@@ -4726,7 +4726,7 @@ StunByteStringAttribute
 :
 StunByteStringAttribute
 (
-uint16
+uint16_t
 type
 const
 std
@@ -4767,7 +4767,7 @@ StunByteStringAttribute
 :
 StunByteStringAttribute
 (
-uint16
+uint16_t
 type
 const
 void
@@ -4799,9 +4799,9 @@ StunByteStringAttribute
 :
 StunByteStringAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 )
 :
@@ -4890,7 +4890,7 @@ length
 )
 ;
 }
-uint8
+uint8_t
 StunByteStringAttribute
 :
 :
@@ -4921,7 +4921,7 @@ length
 return
 static_cast
 <
-uint8
+uint8_t
 >
 (
 bytes_
@@ -4939,7 +4939,7 @@ SetByte
 (
 size_t
 index
-uint8
+uint8_t
 value
 )
 {
@@ -5075,7 +5075,7 @@ SetLength
 (
 static_cast
 <
-uint16
+uint16_t
 >
 (
 length
@@ -5088,7 +5088,7 @@ StunErrorCodeAttribute
 :
 StunErrorCodeAttribute
 (
-uint16
+uint16_t
 type
 int
 code
@@ -5123,9 +5123,9 @@ StunErrorCodeAttribute
 :
 StunErrorCodeAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 )
 :
@@ -5184,7 +5184,7 @@ class_
 =
 static_cast
 <
-uint8
+uint8_t
 >
 (
 code
@@ -5196,7 +5196,7 @@ number_
 =
 static_cast
 <
-uint8
+uint8_t
 >
 (
 code
@@ -5226,7 +5226,7 @@ MIN_SIZE
 +
 static_cast
 <
-uint16
+uint16_t
 >
 (
 reason
@@ -5253,7 +5253,7 @@ ByteBuffer
 buf
 )
 {
-uint32
+uint32_t
 val
 ;
 if
@@ -5402,9 +5402,9 @@ StunUInt16ListAttribute
 :
 StunUInt16ListAttribute
 (
-uint16
+uint16_t
 type
-uint16
+uint16_t
 length
 )
 :
@@ -5422,7 +5422,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 (
 )
@@ -5458,7 +5458,7 @@ size
 )
 ;
 }
-uint16
+uint16_t
 StunUInt16ListAttribute
 :
 :
@@ -5487,7 +5487,7 @@ SetType
 (
 int
 index
-uint16
+uint16_t
 value
 )
 {
@@ -5508,7 +5508,7 @@ StunUInt16ListAttribute
 :
 AddType
 (
-uint16
+uint16_t
 value
 )
 {
@@ -5524,7 +5524,7 @@ SetLength
 (
 static_cast
 <
-uint16
+uint16_t
 >
 (
 attr_types_
@@ -5581,7 +5581,7 @@ i
 +
 )
 {
-uint16
+uint16_t
 attr
 ;
 if

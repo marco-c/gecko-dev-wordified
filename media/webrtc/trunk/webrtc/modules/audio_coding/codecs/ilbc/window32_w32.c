@@ -408,7 +408,7 @@ Q31
 Window
 *
 /
-int16_t
+size_t
 N
 /
 *
@@ -419,7 +419,7 @@ process
 /
 )
 {
-int16_t
+size_t
 i
 ;
 int16_t

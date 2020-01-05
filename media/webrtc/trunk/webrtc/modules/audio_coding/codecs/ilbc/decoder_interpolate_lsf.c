@@ -472,8 +472,10 @@ structure
 /
 )
 {
-int
+size_t
 i
+;
+int
 pos
 lp_length
 ;

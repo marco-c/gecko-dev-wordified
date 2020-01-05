@@ -93,6 +93,13 @@ define
 WEBRTC_COMMON_AUDIO_WINDOW_GENERATOR_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 webrtc
 /
@@ -139,7 +146,7 @@ KaiserBesselDerived
 (
 float
 alpha
-int
+size_t
 length
 float
 *
@@ -148,7 +155,7 @@ window
 ;
 private
 :
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 WindowGenerator
 )

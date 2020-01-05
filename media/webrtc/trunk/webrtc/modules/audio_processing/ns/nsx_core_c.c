@@ -103,8 +103,6 @@ audio_processing
 /
 ns
 /
-include
-/
 noise_suppression_x
 .
 h
@@ -265,8 +263,10 @@ tableIndex
 frac
 intPart
 ;
-int
+size_t
 i
+;
+int
 normTmp
 normTmp2
 nShifts

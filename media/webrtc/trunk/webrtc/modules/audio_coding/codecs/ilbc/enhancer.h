@@ -424,7 +424,7 @@ for
 enhancing
 *
 /
-int16_t
+size_t
 idatal
 /
 *
@@ -435,7 +435,7 @@ dimension
 idata
 *
 /
-int16_t
+size_t
 centerStartPos
 /
 *
@@ -450,7 +450,7 @@ within
 idata
 *
 /
-int16_t
+size_t
 *
 period
 /
@@ -470,7 +470,8 @@ time
 )
 *
 /
-int16_t
+const
+size_t
 *
 plocs
 /
@@ -486,7 +487,7 @@ values
 valid
 *
 /
-int16_t
+size_t
 periodl
 /
 *

@@ -124,7 +124,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 process_thread
 .
@@ -137,7 +137,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .

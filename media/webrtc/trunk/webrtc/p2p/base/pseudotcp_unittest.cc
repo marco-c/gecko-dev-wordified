@@ -226,7 +226,7 @@ cricket
 IPseudoTcpNotify
 *
 notify
-uint32
+uint32_t
 conv
 )
 :
@@ -755,7 +755,7 @@ OnTcpClosed
 PseudoTcp
 *
 tcp
-uint32
+uint32_t
 error
 )
 {
@@ -882,7 +882,7 @@ CreateRandomId
 <
 static_cast
 <
-uint32
+uint32_t
 >
 (
 loss_
@@ -1038,7 +1038,7 @@ UpdateClock
 PseudoTcp
 *
 tcp
-uint32
+uint32_t
 message
 )
 {
@@ -1354,7 +1354,7 @@ int
 size
 )
 {
-uint32
+uint32_t
 start
 elapsed
 ;
@@ -2134,7 +2134,7 @@ int
 iterations
 )
 {
-uint32
+uint32_t
 start
 elapsed
 ;
@@ -3177,7 +3177,7 @@ break
 ;
 }
 }
-uint32
+uint32_t
 EstimateReceiveWindowSize
 (
 )
@@ -3186,7 +3186,7 @@ const
 return
 static_cast
 <
-uint32
+uint32_t
 >
 (
 recv_position_
@@ -3196,7 +3196,7 @@ recv_position_
 )
 ;
 }
-uint32
+uint32_t
 EstimateSendWindowSize
 (
 )
@@ -3205,7 +3205,7 @@ const
 return
 static_cast
 <
-uint32
+uint32_t
 >
 (
 send_position_

@@ -447,7 +447,7 @@ codevector
 construction
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -459,7 +459,7 @@ of
 buffer
 *
 /
-int16_t
+size_t
 veclen
 /
 *
@@ -473,7 +473,7 @@ vector
 /
 )
 {
-int
+size_t
 j
 ;
 int16_t
@@ -594,6 +594,9 @@ WebRtcIlbcfix_GetCbVec
 (
 cbvec0
 mem
+(
+size_t
+)
 index
 [
 0
@@ -606,6 +609,9 @@ WebRtcIlbcfix_GetCbVec
 (
 cbvec1
 mem
+(
+size_t
+)
 index
 [
 1
@@ -618,6 +624,9 @@ WebRtcIlbcfix_GetCbVec
 (
 cbvec2
 mem
+(
+size_t
+)
 index
 [
 2

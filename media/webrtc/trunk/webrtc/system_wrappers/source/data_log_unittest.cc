@@ -92,7 +92,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 data_log
 .
@@ -130,7 +130,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 data_log_c
 .

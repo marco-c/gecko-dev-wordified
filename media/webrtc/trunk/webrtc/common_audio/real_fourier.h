@@ -114,7 +114,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 aligned_malloc
 .
@@ -235,7 +235,7 @@ bytes
 .
 static
 const
-int
+size_t
 kFftBufferAlignment
 ;
 /
@@ -311,7 +311,7 @@ static
 int
 FftOrder
 (
-int
+size_t
 length
 )
 ;
@@ -329,7 +329,7 @@ FFT
 order
 .
 static
-int
+size_t
 FftLength
 (
 int
@@ -370,7 +370,7 @@ order
 )
 .
 static
-int
+size_t
 ComplexLength
 (
 int

@@ -971,7 +971,7 @@ EXPECT_EQ
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 HC_OK
@@ -1469,7 +1469,7 @@ EXPECT_EQ
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 HC_INTERNAL_SERVER_ERROR
@@ -2608,7 +2608,7 @@ test
 failure
 is
 understood
-int
+LoggingSeverity
 old_sev
 =
 rtc

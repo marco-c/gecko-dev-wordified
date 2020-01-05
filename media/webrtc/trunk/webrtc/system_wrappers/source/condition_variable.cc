@@ -92,7 +92,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 condition_variable_wrapper
 .
@@ -142,12 +142,6 @@ elif
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |
@@ -258,12 +252,6 @@ elif
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |

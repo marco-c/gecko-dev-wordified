@@ -239,7 +239,7 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_CB_MEM_ENERGY_H_
 void
 WebRtcIlbcfix_CbMemEnergy
 (
-int16_t
+size_t
 range
 int16_t
 *
@@ -280,7 +280,7 @@ section
 )
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -294,7 +294,7 @@ CB
 memory
 *
 /
-int16_t
+size_t
 lTarget
 /
 *
@@ -338,7 +338,7 @@ the
 energy
 *
 /
-int16_t
+int
 scale
 /
 *
@@ -353,7 +353,7 @@ energy
 values
 *
 /
-int16_t
+size_t
 base_size
 /
 *
@@ -363,7 +363,6 @@ i
 Index
 to
 where
-the
 energy
 values
 should

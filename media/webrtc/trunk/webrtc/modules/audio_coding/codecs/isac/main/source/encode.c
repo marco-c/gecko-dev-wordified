@@ -1457,6 +1457,10 @@ streamval
 int
 WebRtcIsac_EncodeLb
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 in
@@ -3033,6 +3037,7 @@ Transform
 /
 WebRtcIsac_Time2Spec
 (
+transform_tables
 LPw_pf
 HPw
 fre
@@ -5047,6 +5052,10 @@ return
 int
 WebRtcIsac_EncodeUb16
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 in
@@ -6151,6 +6160,7 @@ FRAMESAMPLES_HALF
 ;
 WebRtcIsac_Time2Spec
 (
+transform_tables
 &
 LP_lookahead
 [
@@ -6480,6 +6490,10 @@ bitstr_obj
 int
 WebRtcIsac_EncodeUb12
 (
+const
+TransformTables
+*
+transform_tables
 float
 *
 in
@@ -7411,6 +7425,7 @@ Transform
 /
 WebRtcIsac_Time2Spec
 (
+transform_tables
 LPw
 HPw
 fre

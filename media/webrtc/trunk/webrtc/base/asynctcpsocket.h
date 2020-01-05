@@ -537,7 +537,7 @@ inpos_
 outsize_
 outpos_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncTCPSocketBase
 )
@@ -675,7 +675,7 @@ override
 ;
 private
 :
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 AsyncTCPSocket
 )

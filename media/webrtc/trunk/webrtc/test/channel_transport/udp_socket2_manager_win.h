@@ -110,7 +110,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -123,7 +123,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -136,7 +136,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 event_wrapper
 .
@@ -147,11 +147,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-thread_wrapper
+platform_thread
 .
 h
 "
@@ -290,7 +288,7 @@ socket
 implementation
 .
 bool
-ioInitiatedByThreadWrapper
+ioInitiatedByPlatformThread
 ;
 /
 /
@@ -562,10 +560,7 @@ _ioCompletionHandle
 rtc
 :
 :
-scoped_ptr
-<
-ThreadWrapper
->
+PlatformThread
 _pThread
 ;
 static

@@ -403,7 +403,7 @@ in_weightedIN
 int16_t
 *
 weightDenumIN
-int16_t
+size_t
 *
 quantLenIN
 int16_t

@@ -229,7 +229,7 @@ Clock
 *
 clock_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 RembBweSender
 )
@@ -356,6 +356,9 @@ recv_stats_
 int64_t
 latest_estimate_bps_
 ;
+int64_t
+last_feedback_ms_
+;
 rtc
 :
 :
@@ -365,7 +368,7 @@ RemoteBitrateEstimator
 >
 estimator_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 RembReceiver
 )

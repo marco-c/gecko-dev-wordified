@@ -265,11 +265,7 @@ is_music
 (
 )
 const
-{
-return
-is_music_
 ;
-}
 /
 /
 Gets

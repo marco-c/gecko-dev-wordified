@@ -249,7 +249,7 @@ argc
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 output
 .
@@ -330,7 +330,7 @@ i
 )
 )
 ;
-CHECK
+RTC_CHECK
 (
 input
 .
@@ -394,7 +394,7 @@ NextPacket
 packet
 )
 )
-CHECK
+RTC_CHECK
 (
 output
 -

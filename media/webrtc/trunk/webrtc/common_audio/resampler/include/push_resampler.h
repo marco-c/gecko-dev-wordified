@@ -205,7 +205,7 @@ int
 src_sample_rate_hz
 int
 dst_sample_rate_hz
-int
+size_t
 num_channels
 )
 ;
@@ -244,12 +244,12 @@ const
 T
 *
 src
-int
+size_t
 src_length
 T
 *
 dst
-int
+size_t
 dst_capacity
 )
 ;
@@ -279,7 +279,7 @@ src_sample_rate_hz_
 int
 dst_sample_rate_hz_
 ;
-int
+size_t
 num_channels_
 ;
 rtc

@@ -383,7 +383,7 @@ instance
 -
 *
 /
-int16_t
+int
 WebRtcIlbcfix_InitEncode
 (
 /
@@ -702,6 +702,9 @@ section
 #
 endif
 return
+(
+int
+)
 (
 iLBCenc_inst
 -

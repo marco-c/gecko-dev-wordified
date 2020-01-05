@@ -395,7 +395,7 @@ criteria
 -
 *
 /
-int
+size_t
 WebRtcIlbcfix_XcorrCoef
 (
 int16_t
@@ -422,7 +422,7 @@ second
 array
 *
 /
-int16_t
+size_t
 subl
 /
 *
@@ -433,7 +433,7 @@ dimension
 arrays
 *
 /
-int16_t
+size_t
 searchLen
 /
 *
@@ -445,7 +445,7 @@ search
 lenght
 *
 /
-int16_t
+size_t
 offset
 /
 *

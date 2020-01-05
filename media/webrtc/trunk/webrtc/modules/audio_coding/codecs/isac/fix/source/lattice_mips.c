@@ -87,6 +87,13 @@ tree
 /
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 webrtc
 /
@@ -172,7 +179,7 @@ sth_Q15
 /
 Filter
 coefficients
-int16_t
+size_t
 order_coef
 )
 {
@@ -207,9 +214,14 @@ n
 int
 count
 =
+(
+int
+)
+(
 order_coef
 -
 1
+)
 ;
 int
 offset

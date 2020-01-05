@@ -372,7 +372,7 @@ override
 int
 EstimateMTU
 (
-uint16
+uint16_t
 *
 mtu
 )
@@ -584,7 +584,7 @@ AsyncResolver
 *
 resolver_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 MacAsyncSocket
 )

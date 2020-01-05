@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_REGISTRY_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_STRATEGY_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_REGISTRY_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_STRATEGY_H_
 #
 include
 "
@@ -115,7 +115,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_payload_registry
 .
@@ -156,7 +156,7 @@ const
 uint32_t
 frequency
 const
-uint8_t
+size_t
 channels
 const
 uint32_t
@@ -218,7 +218,7 @@ const
 uint32_t
 frequency
 const
-uint8_t
+size_t
 channels
 const
 uint32_t
@@ -237,4 +237,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_REGISTRY_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_STRATEGY_H_

@@ -655,7 +655,6 @@ Accessor
 for
 the
 descriptor
-const
 PSecBufferDesc
 desc
 (

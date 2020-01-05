@@ -228,7 +228,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -243,7 +243,7 @@ modules
 /
 utility
 /
-interface
+include
 /
 process_thread
 .
@@ -258,8 +258,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render
 .
 h
@@ -273,8 +271,6 @@ modules
 /
 video_render
 /
-include
-/
 video_render_defines
 .
 h
@@ -286,7 +282,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 sleep
 .
@@ -299,7 +295,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -312,7 +308,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -325,7 +321,7 @@ webrtc
 void
 GetTestVideoFrame
 (
-I420VideoFrame
+VideoFrame
 *
 frame
 uint8_t
@@ -1374,7 +1370,7 @@ const
 uint32_t
 streamId
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )
@@ -1419,7 +1415,7 @@ _cnt
 void
 GetTestVideoFrame
 (
-I420VideoFrame
+VideoFrame
 *
 frame
 uint8_t
@@ -1692,7 +1688,7 @@ height
 =
 288
 ;
-I420VideoFrame
+VideoFrame
 videoFrame0
 ;
 videoFrame0
@@ -2181,7 +2177,7 @@ height
 =
 288
 ;
-I420VideoFrame
+VideoFrame
 videoFrame0
 ;
 videoFrame0
@@ -2804,7 +2800,7 @@ height
 =
 288
 ;
-I420VideoFrame
+VideoFrame
 videoFrame0
 ;
 videoFrame0
@@ -2818,7 +2814,7 @@ half_width
 half_width
 )
 ;
-I420VideoFrame
+VideoFrame
 videoFrame1
 ;
 videoFrame1
@@ -2832,7 +2828,7 @@ half_width
 half_width
 )
 ;
-I420VideoFrame
+VideoFrame
 videoFrame2
 ;
 videoFrame2
@@ -2846,7 +2842,7 @@ half_width
 half_width
 )
 ;
-I420VideoFrame
+VideoFrame
 videoFrame3
 ;
 videoFrame3
@@ -3361,7 +3357,7 @@ height
 =
 288
 ;
-I420VideoFrame
+VideoFrame
 videoFrame0
 ;
 videoFrame0

@@ -95,6 +95,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -567,7 +578,7 @@ port_
 =
 static_cast
 <
-uint16
+uint16_t
 >
 (
 :
@@ -784,7 +795,7 @@ protocol
 asccpyn
 (
 protocol
-ARRAY_SIZE
+arraysize
 (
 protocol
 )
@@ -876,7 +887,7 @@ port
 asccpyn
 (
 format
-ARRAY_SIZE
+arraysize
 (
 format
 )
@@ -890,7 +901,7 @@ hu
 sprintfn
 (
 port
-ARRAY_SIZE
+arraysize
 (
 port
 )

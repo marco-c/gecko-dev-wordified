@@ -967,6 +967,11 @@ PrintUsageMessage
 (
 )
 ;
+exit
+(
+EXIT_SUCCESS
+)
+;
 }
 parser
 .

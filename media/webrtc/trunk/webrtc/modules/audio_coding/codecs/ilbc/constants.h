@@ -475,7 +475,7 @@ subframes
 /
 extern
 const
-int16_t
+size_t
 WebRtcIlbcfix_kSearchRange
 [
 5
@@ -486,7 +486,7 @@ CB_NSTAGES
 ;
 extern
 const
-int16_t
+size_t
 WebRtcIlbcfix_kFilterRange
 [
 ]
@@ -582,7 +582,7 @@ WebRtcIlbcfix_kEnhWt
 ;
 extern
 const
-int16_t
+size_t
 WebRtcIlbcfix_kEnhPlocs
 [
 ]

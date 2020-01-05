@@ -145,7 +145,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp
 .
@@ -160,7 +160,7 @@ modules
 /
 rtp_rtcp
 /
-interface
+include
 /
 rtp_rtcp_defines
 .
@@ -181,10 +181,11 @@ rtp_receiver_audio
 .
 h
 "
-using
 namespace
 webrtc
-;
+{
+namespace
+{
 #
 define
 test_rate
@@ -460,9 +461,6 @@ int32_t
 OnInitializeDecoder
 (
 const
-int32_t
-id
-const
 int8_t
 payloadType
 const
@@ -475,7 +473,7 @@ const
 int
 frequency
 const
-uint8_t
+size_t
 channels
 const
 uint32_t
@@ -551,10 +549,6 @@ test_CSRC
 ]
 =
 2345
-;
-test_id
-=
-123
 ;
 test_ssrc
 =
@@ -693,12 +687,6 @@ configuration
 ;
 configuration
 .
-id
-=
-test_id
-;
-configuration
-.
 audio
 =
 true
@@ -751,7 +739,6 @@ RtpReceiver
 :
 CreateAudioReceiver
 (
-test_id
 &
 fake_clock
 audioFeedback
@@ -764,14 +751,6 @@ get
 )
 )
 )
-;
-configuration
-.
-id
-=
-test_id
-+
-1
 ;
 configuration
 .
@@ -814,9 +793,6 @@ RtpReceiver
 :
 CreateAudioReceiver
 (
-test_id
-+
-1
 &
 fake_clock
 audioFeedback
@@ -908,9 +884,6 @@ delete
 rtp_callback
 ;
 }
-int
-test_id
-;
 RtpRtcp
 *
 module1
@@ -1557,6 +1530,7 @@ module1
 >
 SendREDPayloadType
 (
+&
 red
 )
 )
@@ -1825,6 +1799,7 @@ module1
 >
 SendREDPayloadType
 (
+&
 red
 )
 )
@@ -2301,3 +2276,12 @@ Process
 ;
 }
 }
+}
+/
+/
+namespace
+}
+/
+/
+namespace
+webrtc

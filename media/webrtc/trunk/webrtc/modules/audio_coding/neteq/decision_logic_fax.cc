@@ -159,7 +159,7 @@ const
 Expand
 &
 expand
-int
+size_t
 decoder_frame_length
 const
 RTPHeader

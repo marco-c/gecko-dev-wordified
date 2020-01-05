@@ -128,7 +128,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 cpu_features_wrapper
 .
@@ -144,6 +144,7 @@ FRAMESAMPLES
 2
 ;
 static
+const
 int32_t
 spec2time_out_expected_1
 [
@@ -515,6 +516,7 @@ kSamples
 }
 ;
 static
+const
 int32_t
 spec2time_out_expected_2
 [
@@ -886,6 +888,7 @@ kSamples
 }
 ;
 static
+const
 int16_t
 time2spec_out_expected_1
 [
@@ -1256,6 +1259,7 @@ kSamples
 }
 ;
 static
+const
 int16_t
 time2spec_out_expected_2
 [
@@ -2066,7 +2070,7 @@ WebRtcIsacfix_Time2SpecC
 ;
 #
 ifdef
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 if
 (
 (
@@ -2091,7 +2095,7 @@ WebRtcIsacfix_Time2SpecNeon
 elif
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 Time2SpecTester
 (
@@ -2114,7 +2118,7 @@ WebRtcIsacfix_Spec2TimeC
 ;
 #
 ifdef
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 if
 (
 (
@@ -2139,7 +2143,7 @@ WebRtcIsacfix_Spec2TimeNeon
 elif
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 Spec2TimeTester
 (

@@ -194,9 +194,9 @@ T
 }
 ComplexMatrix
 (
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 :
@@ -222,9 +222,9 @@ T
 >
 *
 data
-int
+size_t
 num_rows
-int
+size_t
 num_columns
 )
 :
@@ -358,7 +358,7 @@ CopyDataToScratch
 (
 )
 ;
-int
+size_t
 num_rows
 =
 this
@@ -418,7 +418,7 @@ ComplexMatrix
 operand
 )
 {
-CHECK_EQ
+RTC_CHECK_EQ
 (
 operand
 .
@@ -433,7 +433,7 @@ num_columns
 )
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 operand
 .
@@ -599,7 +599,7 @@ elements
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -620,7 +620,7 @@ i
 {
 for
 (
-int
+size_t
 j
 =
 0

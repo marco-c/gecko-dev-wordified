@@ -183,7 +183,7 @@ VideoCapturer
 :
 VideoCapturer
 (
-VideoSendStreamInput
+VideoCaptureInput
 *
 input
 )
@@ -201,7 +201,7 @@ VideoCapturer
 :
 Create
 (
-VideoSendStreamInput
+VideoCaptureInput
 *
 input
 size_t

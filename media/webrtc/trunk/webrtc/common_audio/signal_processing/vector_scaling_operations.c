@@ -146,7 +146,7 @@ WebRtcSpl_VectorBitShiftW16
 int16_t
 *
 res
-int16_t
+size_t
 length
 const
 int16_t
@@ -156,7 +156,7 @@ int16_t
 right_shifts
 )
 {
-int
+size_t
 i
 ;
 if
@@ -250,7 +250,7 @@ WebRtcSpl_VectorBitShiftW32
 int32_t
 *
 out_vector
-int16_t
+size_t
 vector_length
 const
 int32_t
@@ -260,7 +260,7 @@ int16_t
 right_shifts
 )
 {
-int
+size_t
 i
 ;
 if
@@ -354,7 +354,7 @@ WebRtcSpl_VectorBitShiftW32ToW16
 int16_t
 *
 out
-int
+size_t
 length
 const
 int32_t
@@ -364,7 +364,7 @@ int
 right_shifts
 )
 {
-int
+size_t
 i
 ;
 int32_t
@@ -481,7 +481,7 @@ int16_t
 out_vector
 int16_t
 gain
-int16_t
+size_t
 in_vector_length
 int16_t
 right_shifts
@@ -503,7 +503,7 @@ in_vector
 >
 >
 right_shifts
-int
+size_t
 i
 ;
 const
@@ -574,7 +574,7 @@ int16_t
 out_vector
 int16_t
 gain
-int16_t
+size_t
 in_vector_length
 int16_t
 right_shifts
@@ -596,7 +596,7 @@ in_vector
 >
 >
 right_shifts
-int
+size_t
 i
 ;
 const
@@ -675,7 +675,7 @@ shift2
 int16_t
 *
 out
-int
+size_t
 vector_length
 )
 {
@@ -704,7 +704,7 @@ in2
 >
 >
 shift2
-int
+size_t
 i
 ;
 const
@@ -821,11 +821,11 @@ right_shifts
 int16_t
 *
 out_vector
-int
+size_t
 length
 )
 {
-int
+size_t
 i
 =
 0
@@ -864,7 +864,7 @@ NULL
 |
 |
 length
-<
+=
 =
 0
 |
@@ -904,23 +904,19 @@ int16_t
 )
 (
 (
-WEBRTC_SPL_MUL_16_16
-(
 in_vector1
 [
 i
 ]
+*
 in_vector1_scale
-)
 +
-WEBRTC_SPL_MUL_16_16
-(
 in_vector2
 [
 i
 ]
+*
 in_vector2_scale
-)
 +
 round_value
 )

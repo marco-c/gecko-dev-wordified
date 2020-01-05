@@ -101,9 +101,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .

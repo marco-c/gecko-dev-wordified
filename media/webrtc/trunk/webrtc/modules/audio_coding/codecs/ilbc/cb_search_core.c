@@ -259,7 +259,7 @@ Cross
 Correlation
 *
 /
-int16_t
+size_t
 range
 /
 *
@@ -329,7 +329,7 @@ The
 criteria
 *
 /
-int16_t
+size_t
 *
 bestIndex
 /
@@ -394,7 +394,7 @@ max
 sh
 tmp16
 ;
-int
+size_t
 i
 ;
 int32_t

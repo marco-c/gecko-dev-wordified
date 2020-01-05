@@ -101,7 +101,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -199,8 +199,6 @@ const
 CodecInst
 &
 codecInst
-ACMAMRPackingFormat
-amrFormat
 )
 {
 if
@@ -241,8 +239,6 @@ const
 CodecInst
 &
 codecInst
-ACMAMRPackingFormat
-amrFormat
 )
 {
 if
@@ -463,9 +459,15 @@ _encodeTimestamp
 _encodeTimestamp
 +
 =
+static_cast
+<
+uint32_t
+>
+(
 audioFrame
 .
 samples_per_channel_
+)
 ;
 /
 /

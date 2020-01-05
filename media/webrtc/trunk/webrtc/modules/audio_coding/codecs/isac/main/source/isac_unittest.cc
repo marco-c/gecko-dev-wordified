@@ -120,7 +120,7 @@ isac
 /
 main
 /
-interface
+include
 /
 isac
 .
@@ -518,7 +518,7 @@ WebRtcIsac_DecoderInit
 isac_codec_
 )
 ;
-int16_t
+int
 encoded_bytes
 ;
 /
@@ -650,6 +650,12 @@ speech_data_
 bitstream_
 )
 ;
+EXPECT_GT
+(
+encoded_bytes
+0
+)
+;
 /
 /
 Call
@@ -668,7 +674,13 @@ WebRtcIsac_UpdateBwEstimate
 (
 isac_codec_
 bitstream_
+static_cast
+<
+size_t
+>
+(
 encoded_bytes
+)
 1
 12345
 56789

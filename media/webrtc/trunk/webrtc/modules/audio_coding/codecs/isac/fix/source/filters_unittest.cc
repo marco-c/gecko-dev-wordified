@@ -128,7 +128,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 cpu_features_wrapper
 .
@@ -520,7 +520,7 @@ WebRtcIsacfix_AutocorrC
 ;
 #
 ifdef
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 if
 (
 (
@@ -545,7 +545,7 @@ WebRtcIsacfix_AutocorrNeon
 elif
 defined
 (
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 FiltersTester
 (

@@ -88,9 +88,6 @@ include
 sstream
 >
 #
-ifndef
-WEBRTC_MOZILLA_BUILD
-#
 include
 "
 webrtc
@@ -101,8 +98,6 @@ common
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -571,9 +566,6 @@ int
 value
 )
 {
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 ASSERT
 (
 NULL
@@ -582,8 +574,6 @@ NULL
 value
 )
 ;
-#
-endif
 SInt32
 native_value
 ;
@@ -627,9 +617,6 @@ ostype
 str
 )
 ;
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 LOG_E
 (
 LS_ERROR
@@ -651,8 +638,6 @@ str
 )
 "
 ;
-#
-endif
 return
 false
 ;
@@ -671,9 +656,6 @@ int
 bugfix
 )
 {
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 ASSERT
 (
 major
@@ -685,8 +667,6 @@ minor
 bugfix
 )
 ;
-#
-endif
 if
 (
 !
@@ -943,9 +923,6 @@ return
 true
 ;
 }
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 bool
 RunAppleScript
 (
@@ -1325,7 +1302,14 @@ error
 "
 <
 <
+std
+:
+:
+string
+(
 data
+len
+)
 ;
 }
 AEDisposeDesc
@@ -1413,12 +1397,6 @@ endif
 /
 CARBON_DEPRECATED
 }
-#
-endif
-/
-/
-!
-WEBRTC_MOZILLA
 #
 endif
 /

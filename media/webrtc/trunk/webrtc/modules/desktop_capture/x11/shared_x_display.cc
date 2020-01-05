@@ -112,7 +112,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -168,6 +168,9 @@ display_
 /
 /
 static
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -241,6 +244,9 @@ display
 /
 /
 static
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay
@@ -440,6 +446,9 @@ while
 processing
 events
 .
+rtc
+:
+:
 scoped_refptr
 <
 SharedXDisplay

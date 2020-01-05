@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_NULL_TRANSPORT_H_
+WEBRTC_TEST_NULL_TRANSPORT_H_
 #
 define
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_NULL_TRANSPORT_H_
+WEBRTC_TEST_NULL_TRANSPORT_H_
 #
 include
 "
@@ -113,9 +113,6 @@ class
 NullTransport
 :
 public
-newapi
-:
-:
 Transport
 {
 public
@@ -129,6 +126,10 @@ uint8_t
 packet
 size_t
 length
+const
+PacketOptions
+&
+options
 )
 override
 ;
@@ -160,4 +161,4 @@ webrtc
 endif
 /
 /
-WEBRTC_VIDEO_ENGINE_TEST_COMMON_NULL_TRANSPORT_H_
+WEBRTC_TEST_NULL_TRANSPORT_H_

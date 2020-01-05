@@ -312,7 +312,7 @@ Augmented
 vector
 *
 /
-int16_t
+size_t
 low
 /
 *
@@ -329,7 +329,7 @@ typically
 )
 *
 /
-int16_t
+size_t
 high
 /
 *
@@ -346,7 +346,7 @@ typically
 )
 *
 /
-int16_t
+int
 scale
 )
 /
@@ -364,10 +364,10 @@ crossDot
 *
 /
 {
-int
+size_t
 lagcount
 ;
-int16_t
+size_t
 ilow
 ;
 int16_t
@@ -435,14 +435,9 @@ lagcount
 {
 ilow
 =
-(
-int16_t
-)
-(
 lagcount
 -
 4
-)
 ;
 /
 *

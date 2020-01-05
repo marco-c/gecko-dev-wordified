@@ -122,7 +122,7 @@ bwest_str
 Bitstr
 *
 streamdata
-int32_t
+size_t
 packet_size
 uint16_t
 rtp_seq_number

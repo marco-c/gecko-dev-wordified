@@ -264,7 +264,7 @@ Codebook
 buffer
 *
 /
-int16_t
+size_t
 index
 /
 *
@@ -275,7 +275,7 @@ Codebook
 index
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -288,7 +288,7 @@ codebook
 buffer
 *
 /
-int16_t
+size_t
 cbveclen
 /
 *

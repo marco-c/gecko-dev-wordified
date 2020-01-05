@@ -114,12 +114,6 @@ h
 if
 defined
 (
-WEBRTC_ANDROID
-)
-|
-|
-defined
-(
 GTEST_RELATIVE_PATH
 )
 #
@@ -179,7 +173,7 @@ timeout
 \
 for
 (
-uint32
+uint32_t
 start
 =
 rtc
@@ -189,7 +183,6 @@ Time
 (
 )
 ;
-\
 !
 (
 ex
@@ -285,7 +278,7 @@ res
 do
 {
 \
-uint32
+uint32_t
 start
 =
 rtc
@@ -353,7 +346,6 @@ while
 (
 0
 )
-;
 /
 /
 The
@@ -408,7 +400,6 @@ while
 (
 0
 )
-;
 #
 define
 EXPECT_EQ_WAIT
@@ -453,7 +444,6 @@ while
 (
 0
 )
-;
 #
 define
 ASSERT_TRUE_WAIT
@@ -493,7 +483,6 @@ while
 (
 0
 )
-;
 #
 define
 ASSERT_EQ_WAIT
@@ -538,7 +527,6 @@ while
 (
 0
 )
-;
 /
 /
 Version
@@ -688,7 +676,6 @@ while
 (
 0
 )
-;
 #
 endif
 /

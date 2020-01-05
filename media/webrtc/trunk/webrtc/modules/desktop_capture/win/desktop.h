@@ -362,7 +362,7 @@ teardown
 bool
 own_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 Desktop
 )

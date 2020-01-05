@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-TALK_APP_BASE_REFCOUNT_H_
+WEBRTC_BASE_REFCOUNT_H_
 #
 define
-TALK_APP_BASE_REFCOUNT_H_
+WEBRTC_BASE_REFCOUNT_H_
 #
 include
 <
@@ -102,7 +102,7 @@ webrtc
 /
 base
 /
-criticalsection
+atomicops
 .
 h
 "
@@ -125,6 +125,7 @@ int
 AddRef
 (
 )
+const
 =
 0
 ;
@@ -133,6 +134,7 @@ int
 Release
 (
 )
+const
 =
 0
 ;
@@ -682,11 +684,9 @@ int
 AddRef
 (
 )
+const
 {
 return
-rtc
-:
-:
 AtomicOps
 :
 :
@@ -702,13 +702,11 @@ int
 Release
 (
 )
+const
 {
 int
 count
 =
-rtc
-:
-:
 AtomicOps
 :
 :
@@ -826,13 +824,10 @@ HasOneRef
 const
 {
 return
-rtc
-:
-:
 AtomicOps
 :
 :
-Load
+AcquireLoad
 (
 &
 ref_count_
@@ -851,6 +846,7 @@ RefCountedObject
 )
 {
 }
+mutable
 volatile
 int
 ref_count_
@@ -866,4 +862,4 @@ rtc
 endif
 /
 /
-TALK_APP_BASE_REFCOUNT_H_
+WEBRTC_BASE_REFCOUNT_H_

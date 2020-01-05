@@ -445,7 +445,7 @@ Augmented
 vector
 *
 /
-int16_t
+size_t
 low
 /
 *
@@ -462,7 +462,7 @@ typically
 )
 *
 /
-int16_t
+size_t
 high
 /
 *
@@ -478,7 +478,7 @@ typically
 39
 *
 /
-int16_t
+int
 scale
 )
 ;

@@ -97,7 +97,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 field_trial
 .
@@ -110,7 +110,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 field_trial_default
 .
@@ -385,6 +385,17 @@ trials_string
 trials_init_string
 =
 trials_string
+;
+}
+const
+char
+*
+GetFieldTrialString
+(
+)
+{
+return
+trials_init_string
 ;
 }
 }

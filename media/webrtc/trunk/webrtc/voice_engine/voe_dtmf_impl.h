@@ -126,7 +126,6 @@ VoEDtmf
 {
 public
 :
-virtual
 int
 SendTelephoneEvent
 (
@@ -147,8 +146,8 @@ attenuationDb
 =
 10
 )
+override
 ;
-virtual
 int
 SetSendTelephoneEventPayloadType
 (
@@ -158,8 +157,8 @@ unsigned
 char
 type
 )
+override
 ;
-virtual
 int
 GetSendTelephoneEventPayloadType
 (
@@ -170,8 +169,8 @@ char
 &
 type
 )
+override
 ;
-virtual
 int
 SetDtmfFeedbackStatus
 (
@@ -182,8 +181,8 @@ directFeedback
 =
 false
 )
+override
 ;
-virtual
 int
 GetDtmfFeedbackStatus
 (
@@ -194,8 +193,8 @@ bool
 &
 directFeedback
 )
+override
 ;
-virtual
 int
 PlayDtmfTone
 (
@@ -210,6 +209,7 @@ attenuationDb
 =
 10
 )
+override
 ;
 protected
 :
@@ -223,11 +223,11 @@ SharedData
 shared
 )
 ;
-virtual
 ~
 VoEDtmfImpl
 (
 )
+override
 ;
 private
 :

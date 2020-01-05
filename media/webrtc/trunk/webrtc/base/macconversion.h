@@ -94,9 +94,8 @@ defined
 (
 WEBRTC_MAC
 )
-&
-&
-!
+|
+|
 defined
 (
 WEBRTC_IOS
@@ -285,13 +284,9 @@ endif
 /
 /
 WEBRTC_MAC
-&
-&
-!
-defined
-(
+|
+|
 WEBRTC_IOS
-)
 #
 endif
 /

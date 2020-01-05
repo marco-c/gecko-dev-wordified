@@ -283,13 +283,7 @@ slice
 get
 (
 )
-static_cast
-<
-int
->
-(
 input_pos
-)
 )
 num_channels
 num_write_chunk_frames
@@ -345,13 +339,7 @@ slice
 get
 (
 )
-static_cast
-<
-int
->
-(
 output_pos
-)
 )
 num_channels
 num_read_chunk_frames
@@ -379,6 +367,7 @@ input_pos
 <
 total_frames
 )
+{
 buf
 .
 Write
@@ -392,13 +381,7 @@ slice
 get
 (
 )
-static_cast
-<
-int
->
-(
 input_pos
-)
 )
 num_channels
 total_frames
@@ -406,6 +389,7 @@ total_frames
 input_pos
 )
 ;
+}
 if
 (
 buf
@@ -414,6 +398,7 @@ ReadFramesAvailable
 (
 )
 )
+{
 buf
 .
 Read
@@ -428,13 +413,7 @@ slice
 get
 (
 )
-static_cast
-<
-int
->
-(
 output_pos
-)
 )
 num_channels
 buf
@@ -444,6 +423,7 @@ ReadFramesAvailable
 )
 )
 ;
+}
 EXPECT_EQ
 (
 0u
@@ -847,7 +827,7 @@ kNumFrames
 ;
 buf
 .
-MoveReadPosition
+MoveReadPositionForward
 (
 3
 )
@@ -893,9 +873,8 @@ channels
 ;
 buf
 .
-MoveReadPosition
+MoveReadPositionBackward
 (
--
 3
 )
 ;

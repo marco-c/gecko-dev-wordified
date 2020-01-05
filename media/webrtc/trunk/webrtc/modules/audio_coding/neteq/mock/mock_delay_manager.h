@@ -134,7 +134,7 @@ public
 :
 MockDelayManager
 (
-int
+size_t
 max_packets_in_buffer
 DelayPeakDetector
 *

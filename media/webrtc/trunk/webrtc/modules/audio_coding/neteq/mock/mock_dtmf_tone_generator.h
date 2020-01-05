@@ -178,7 +178,7 @@ MOCK_METHOD2
 Generate
 int
 (
-int
+size_t
 num_samples
 AudioMultiVector
 *

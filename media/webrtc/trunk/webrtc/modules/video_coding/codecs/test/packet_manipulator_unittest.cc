@@ -131,9 +131,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .
@@ -342,6 +340,7 @@ expected_packet_data_length
 uint8_t
 *
 expected_packet_data
+const
 EncodedImage
 &
 actual_image

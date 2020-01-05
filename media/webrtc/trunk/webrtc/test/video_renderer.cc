@@ -130,7 +130,7 @@ void
 RenderFrame
 (
 const
-I420VideoFrame
+VideoFrame
 &
 video_frame
 int

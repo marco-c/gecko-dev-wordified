@@ -161,7 +161,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -736,6 +736,9 @@ set
 DesktopRect
 window_region_rect_
 ;
+AeroChecker
+aero_checker_
+;
 }
 ;
 bool
@@ -753,6 +756,13 @@ rtc
 :
 :
 IsWindows8OrLater
+(
+)
+&
+&
+aero_checker_
+.
+IsAeroEnabled
 (
 )
 )

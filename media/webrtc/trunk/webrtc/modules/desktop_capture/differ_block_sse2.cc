@@ -146,7 +146,7 @@ namespace
 webrtc
 {
 extern
-int
+bool
 BlockDifference_SSE2_W16
 (
 const
@@ -407,7 +407,7 @@ if
 diff
 )
 return
-1
+true
 ;
 image1
 +
@@ -421,11 +421,11 @@ stride
 ;
 }
 return
-0
+false
 ;
 }
 extern
-int
+bool
 BlockDifference_SSE2_W32
 (
 const
@@ -822,7 +822,7 @@ if
 diff
 )
 return
-1
+true
 ;
 image1
 +
@@ -836,7 +836,7 @@ stride
 ;
 }
 return
-0
+false
 ;
 }
 }

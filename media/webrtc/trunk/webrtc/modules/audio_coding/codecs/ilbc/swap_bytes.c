@@ -400,7 +400,7 @@ to
 swap
 *
 /
-int16_t
+size_t
 wordLength
 /
 *
@@ -429,7 +429,7 @@ sequence
 /
 )
 {
-int
+size_t
 k
 ;
 for

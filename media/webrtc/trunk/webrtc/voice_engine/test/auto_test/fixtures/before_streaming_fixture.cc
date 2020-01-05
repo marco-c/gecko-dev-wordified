@@ -409,6 +409,7 @@ new
 LoopBackTransport
 (
 voe_network_
+channel_
 )
 ;
 EXPECT_EQ

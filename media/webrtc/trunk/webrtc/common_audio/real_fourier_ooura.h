@@ -194,11 +194,11 @@ int
 order_
 ;
 const
-int
+size_t
 length_
 ;
 const
-int
+size_t
 complex_length_
 ;
 /
@@ -230,7 +230,7 @@ rtc
 :
 scoped_ptr
 <
-int
+size_t
 [
 ]
 >

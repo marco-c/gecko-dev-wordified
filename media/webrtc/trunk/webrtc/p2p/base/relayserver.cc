@@ -199,7 +199,7 @@ we
 use
 .
 const
-uint32
+uint32_t
 USERNAME_LENGTH
 =
 16
@@ -2057,7 +2057,7 @@ username
 return
 ;
 }
-uint32
+uint32_t
 length
 =
 std
@@ -2067,7 +2067,7 @@ min
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 username_attr
@@ -2681,7 +2681,7 @@ for
 this
 binding
 .
-uint32
+uint32_t
 lifetime
 =
 MAX_LIFETIME
@@ -3933,7 +3933,7 @@ if
 ENABLE_DEBUG
 static
 const
-uint32
+uint32_t
 kMessageAcceptConnection
 =
 1
@@ -4586,7 +4586,7 @@ data_attr
 CopyBytes
 (
 data
-uint16
+uint16_t
 (
 size
 )
@@ -4759,7 +4759,7 @@ posted
 messages
 :
 const
-uint32
+uint32_t
 MSG_LIFETIME_TIMER
 =
 1
@@ -4786,7 +4786,7 @@ std
 string
 &
 password
-uint32
+uint32_t
 lifetime
 )
 :

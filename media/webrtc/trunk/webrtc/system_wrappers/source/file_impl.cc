@@ -151,7 +151,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 rw_lock_wrapper
 .
@@ -1258,7 +1258,7 @@ Rewind
 (
 )
 {
-DCHECK
+RTC_DCHECK
 (
 false
 )

@@ -194,7 +194,6 @@ NULL
 else
 fails
 .
-virtual
 bool
 EnumeratePlaybackDevices
 (
@@ -202,8 +201,8 @@ SoundDeviceLocatorList
 *
 devices
 )
+override
 ;
-virtual
 bool
 EnumerateCaptureDevices
 (
@@ -211,8 +210,8 @@ SoundDeviceLocatorList
 *
 devices
 )
+override
 ;
-virtual
 bool
 GetDefaultPlaybackDevice
 (
@@ -221,8 +220,8 @@ SoundDeviceLocator
 *
 device
 )
+override
 ;
-virtual
 bool
 GetDefaultCaptureDevice
 (
@@ -231,8 +230,8 @@ SoundDeviceLocator
 *
 device
 )
+override
 ;
-virtual
 SoundOutputStreamInterface
 *
 OpenPlaybackDevice
@@ -246,8 +245,8 @@ OpenParams
 &
 params
 )
+override
 ;
-virtual
 SoundInputStreamInterface
 *
 OpenCaptureDevice
@@ -261,6 +260,7 @@ OpenParams
 &
 params
 )
+override
 ;
 protected
 :

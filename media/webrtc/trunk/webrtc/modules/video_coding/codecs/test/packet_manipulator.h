@@ -107,9 +107,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .
@@ -122,7 +120,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .

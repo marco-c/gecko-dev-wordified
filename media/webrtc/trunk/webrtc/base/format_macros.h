@@ -495,6 +495,13 @@ else
 /
 WEBRTC_WIN
 #
+include
+<
+inttypes
+.
+h
+>
+#
 if
 !
 defined

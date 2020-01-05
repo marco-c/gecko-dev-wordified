@@ -112,7 +112,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 aligned_malloc
 .
@@ -125,7 +125,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .

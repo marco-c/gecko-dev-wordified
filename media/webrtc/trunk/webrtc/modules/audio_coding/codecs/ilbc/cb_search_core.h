@@ -258,7 +258,7 @@ Cross
 Correlation
 *
 /
-int16_t
+size_t
 range
 /
 *
@@ -328,7 +328,7 @@ The
 criteria
 *
 /
-int16_t
+size_t
 *
 bestIndex
 /

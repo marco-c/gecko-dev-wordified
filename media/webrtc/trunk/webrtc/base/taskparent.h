@@ -184,8 +184,12 @@ AnyChildError
 )
 ;
 #
-ifdef
-_DEBUG
+if
+!
+defined
+(
+NDEBUG
+)
 bool
 IsChildTask
 (
@@ -272,7 +276,7 @@ ChildSet
 >
 children_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 TaskParent
 )

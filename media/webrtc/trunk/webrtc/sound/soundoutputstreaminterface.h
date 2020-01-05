@@ -162,8 +162,7 @@ virtual
 SoundOutputStreamInterface
 (
 )
-{
-}
+;
 /
 /
 Enables
@@ -526,11 +525,10 @@ protected
 SoundOutputStreamInterface
 (
 )
-{
-}
+;
 private
 :
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SoundOutputStreamInterface
 )

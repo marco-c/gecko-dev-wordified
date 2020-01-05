@@ -170,7 +170,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 logging
 .
@@ -616,7 +616,7 @@ WindowList
 iterator
 new_list_it
 =
-windows
+new_list
 .
 begin
 (
@@ -625,7 +625,7 @@ begin
 new_list_it
 !
 =
-windows
+new_list
 .
 end
 (

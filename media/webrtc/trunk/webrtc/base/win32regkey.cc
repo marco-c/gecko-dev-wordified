@@ -548,7 +548,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -571,7 +571,7 @@ value_name
 REG_BINARY
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -596,7 +596,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -619,7 +619,7 @@ value_name
 REG_MULTI_SZ
 const_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1161,7 +1161,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -2274,7 +2274,7 @@ value_name
 static_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -2298,7 +2298,7 @@ value_name
 static_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -2579,7 +2579,7 @@ GetValue
 value_name
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 *
 >
@@ -2660,7 +2660,7 @@ value_name
 DWORD
 *
 type
-uint8
+uint8_t
 *
 *
 value
@@ -3509,7 +3509,7 @@ RegKey
 MultiSZBytesToStringArray
 (
 const
-uint8
+uint8_t
 *
 buffer
 DWORD
@@ -3730,7 +3730,7 @@ type
 =
 0
 ;
-uint8
+uint8_t
 *
 buffer
 =
@@ -3814,7 +3814,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -3902,7 +3902,7 @@ const
 wchar_t
 *
 value_name
-uint8
+uint8_t
 *
 *
 value
@@ -3990,7 +3990,7 @@ REG_DWORD
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -4051,7 +4051,7 @@ REG_QWORD
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -4122,7 +4122,7 @@ REG_SZ
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -4166,7 +4166,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -4249,7 +4249,7 @@ wchar_t
 *
 value_name
 const
-uint8
+uint8_t
 *
 value
 DWORD
@@ -5663,7 +5663,7 @@ values
 for
 this
 key
-uint32
+uint32_t
 RegKey
 :
 :
@@ -5909,7 +5909,7 @@ res
 )
 ;
 }
-uint32
+uint32_t
 RegKey
 :
 :

@@ -111,7 +111,7 @@ const
 int16_t
 *
 vector2
-int
+size_t
 length
 int
 scaling
@@ -122,7 +122,7 @@ sum
 =
 0
 ;
-int
+size_t
 i
 =
 0
@@ -145,10 +145,10 @@ i
 0
 ;
 i
++
+3
 <
 length
--
-3
 ;
 i
 +

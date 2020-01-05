@@ -348,9 +348,6 @@ class
 CriticalSectionWrapper
 ;
 class
-ThreadWrapper
-;
-class
 VoENetEqStats
 ;
 }

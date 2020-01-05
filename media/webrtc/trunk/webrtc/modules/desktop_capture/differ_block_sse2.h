@@ -135,7 +135,7 @@ dimension
 16x16
 .
 extern
-int
+bool
 BlockDifference_SSE2_W16
 (
 const
@@ -160,7 +160,7 @@ dimension
 32x32
 .
 extern
-int
+bool
 BlockDifference_SSE2_W32
 (
 const

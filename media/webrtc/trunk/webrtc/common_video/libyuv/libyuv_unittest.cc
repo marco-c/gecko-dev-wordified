@@ -132,19 +132,6 @@ webrtc
 /
 common_video
 /
-interface
-/
-i420_video_frame
-.
-h
-"
-#
-include
-"
-webrtc
-/
-common_video
-/
 libyuv
 /
 include
@@ -160,7 +147,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 tick_util
 .
@@ -176,6 +163,15 @@ test
 testsupport
 /
 fileutils
+.
+h
+"
+#
+include
+"
+webrtc
+/
+video_frame
 .
 h
 "
@@ -299,7 +295,7 @@ int
 PrintFrame
 (
 const
-I420VideoFrame
+VideoFrame
 *
 frame
 const
@@ -492,7 +488,7 @@ values
 void
 CreateImage
 (
-I420VideoFrame
+VideoFrame
 *
 frame
 int
@@ -710,7 +706,7 @@ FILE
 *
 source_file_
 ;
-I420VideoFrame
+VideoFrame
 orig_frame_
 ;
 rtc
@@ -1078,7 +1074,7 @@ psnr
 .
 0
 ;
-I420VideoFrame
+VideoFrame
 res_i420_frame
 ;
 EXPECT_EQ
@@ -1185,7 +1181,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -1341,7 +1337,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -1494,7 +1490,7 @@ psnr
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -1565,7 +1561,7 @@ frame_length_
 ]
 )
 ;
-I420VideoFrame
+VideoFrame
 yv12_frame
 ;
 EXPECT_EQ
@@ -1786,7 +1782,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -1897,7 +1893,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -2055,7 +2051,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -2185,7 +2181,7 @@ psnr
 .
 0
 ;
-I420VideoFrame
+VideoFrame
 res_i420_frame
 ;
 int
@@ -2280,7 +2276,7 @@ res_i420_frame
 ;
 if
 (
-PrintI420VideoFrame
+PrintVideoFrame
 (
 res_i420_frame
 output_file
@@ -2346,7 +2342,7 @@ the
 starting
 point
 .
-I420VideoFrame
+VideoFrame
 rotated_res_i420_frame
 ;
 int
@@ -2649,3 +2645,4 @@ stride_uv
 /
 /
 namespace
+webrtc

@@ -96,6 +96,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 gunit
 .
 h
@@ -1230,7 +1241,7 @@ MultiSZBytesToStringArray
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1313,7 +1324,7 @@ MultiSZBytesToStringArray
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1350,7 +1361,7 @@ MultiSZBytesToStringArray
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1399,7 +1410,7 @@ str_val
 =
 NULL
 ;
-uint8
+uint8_t
 *
 binary_val
 =
@@ -1941,7 +1952,7 @@ kValNameBinary
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -2030,7 +2041,7 @@ kValNameBinary
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -2196,7 +2207,7 @@ kValNameBinary
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -2217,7 +2228,7 @@ get
 the
 value
 count
-uint32
+uint32_t
 value_count
 =
 r_key
@@ -2392,7 +2403,7 @@ type
 )
 )
 ;
-uint32
+uint32_t
 subkey_count
 =
 r_key
@@ -2578,7 +2589,7 @@ std
 wstring
 wstr_val
 ;
-uint8
+uint8_t
 *
 binary_val
 =
@@ -2655,7 +2666,7 @@ ERROR_FILE_NOT_FOUND
 /
 /
 set
-int32
+int32_t
 EXPECT_SUCCEEDED
 (
 RegKey
@@ -2786,7 +2797,7 @@ kValNameInt
 /
 /
 set
-int64
+int64_t
 EXPECT_SUCCEEDED
 (
 RegKey
@@ -3297,7 +3308,7 @@ kValNameBinary
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -3436,7 +3447,7 @@ kValNameBinary
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -3694,7 +3705,7 @@ kValNameMultiStr
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -3791,7 +3802,7 @@ kValNameMultiStr
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -3851,7 +3862,7 @@ kValNameMultiStr
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -3953,7 +3964,7 @@ EXPECT_LT
 :
 GetTempPath
 (
-ARRAY_SIZE
+arraysize
 (
 temp_path
 )
@@ -3964,7 +3975,7 @@ static_cast
 DWORD
 >
 (
-ARRAY_SIZE
+arraysize
 (
 temp_path
 )

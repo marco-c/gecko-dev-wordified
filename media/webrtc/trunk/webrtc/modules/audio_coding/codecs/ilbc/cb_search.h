@@ -307,7 +307,7 @@ codebook
 construction
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -319,7 +319,7 @@ of
 buffer
 *
 /
-int16_t
+size_t
 lTarget
 /
 *
@@ -346,7 +346,7 @@ in
 Q12
 *
 /
-int16_t
+size_t
 block
 /
 *

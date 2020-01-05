@@ -691,7 +691,7 @@ true
 )
 )
 ;
-int64
+int64_t
 free1
 =
 0
@@ -737,7 +737,7 @@ free1
 0
 )
 ;
-int64
+int64_t
 free2
 =
 0
@@ -818,7 +818,7 @@ EXPECT_LT
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 free1
@@ -834,7 +834,7 @@ EXPECT_LT
 free2
 static_cast
 <
-int64
+int64_t
 >
 (
 free1
@@ -845,7 +845,7 @@ free1
 )
 )
 ;
-int64
+int64_t
 free3
 =
 0
@@ -896,7 +896,7 @@ EXPECT_LT
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 free1
@@ -914,7 +914,7 @@ EXPECT_LT
 free3
 static_cast
 <
-int64
+int64_t
 >
 (
 free1

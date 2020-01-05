@@ -374,7 +374,7 @@ not
 UTF
 -
 8
-DCHECK_LT
+RTC_DCHECK_LT
 (
 static_cast
 <
@@ -507,7 +507,11 @@ buflen
 }
 #
 if
-_DEBUG
+!
+defined
+(
+NDEBUG
+)
 /
 /
 Double
@@ -534,7 +538,7 @@ srclen
 +
 pos
 )
-DCHECK_LT
+RTC_DCHECK_LT
 (
 static_cast
 <
@@ -552,9 +556,6 @@ pos
 ;
 #
 endif
-/
-/
-_DEBUG
 std
 :
 :

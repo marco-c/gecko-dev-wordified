@@ -324,7 +324,7 @@ rtc
 CriticalSection
 crit_
 ;
-uint32
+uint32_t
 rate_
 ;
 bool

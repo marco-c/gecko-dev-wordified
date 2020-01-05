@@ -132,6 +132,8 @@ h
 namespace
 webrtc
 {
+namespace
+{
 static
 const
 float
@@ -268,6 +270,10 @@ expected_output
 )
 ;
 }
+}
+/
+/
+namespace
 TEST
 (
 FIRFilterTest

@@ -138,7 +138,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 atomic32
 .
@@ -325,7 +325,7 @@ EventWrapper
 >
 display_configuration_capture_event_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 DesktopConfigurationMonitor
 )

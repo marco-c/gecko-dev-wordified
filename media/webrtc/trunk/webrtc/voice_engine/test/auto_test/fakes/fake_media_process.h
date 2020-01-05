@@ -135,7 +135,7 @@ int16_t
 audio_10ms
 [
 ]
-int
+size_t
 length
 int
 sampling_freq_hz
@@ -145,7 +145,7 @@ stereo
 {
 for
 (
-int
+size_t
 i
 =
 0

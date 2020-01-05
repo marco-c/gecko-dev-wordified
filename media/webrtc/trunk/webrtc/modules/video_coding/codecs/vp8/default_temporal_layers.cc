@@ -129,7 +129,7 @@ webrtc
 /
 modules
 /
-interface
+include
 /
 module_common_types
 .
@@ -144,9 +144,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-interface
+include
 /
 video_codec_interface
 .

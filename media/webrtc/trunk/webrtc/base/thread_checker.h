@@ -164,7 +164,7 @@ perfectly
 match
 situations
 where
-DCHECK
+RTC_DCHECK
 is
 /
 /
@@ -196,7 +196,7 @@ disabled
 )
 but
 have
-DCHECKs
+RTC_DCHECKs
 enabled
 at
 runtime
@@ -527,7 +527,7 @@ Foo
 {
 /
 /
-DCHECK
+RTC_DCHECK
 (
 thread_checker_
 .

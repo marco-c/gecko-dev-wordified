@@ -445,7 +445,7 @@ CB
 section
 *
 /
-int
+size_t
 lMem
 /
 *
@@ -458,7 +458,7 @@ codebook
 memory
 *
 /
-int16_t
+size_t
 samples
 /
 *

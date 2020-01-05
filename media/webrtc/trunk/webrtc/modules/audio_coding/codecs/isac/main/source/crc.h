@@ -260,14 +260,14 @@ Ok
 Error
 *
 /
-int16_t
+int
 WebRtcIsac_GetCrc
 (
 const
 int16_t
 *
 encoded
-int16_t
+int
 no_of_word8s
 uint32_t
 *

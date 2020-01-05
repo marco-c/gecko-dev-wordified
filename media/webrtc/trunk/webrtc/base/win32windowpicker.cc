@@ -110,6 +110,17 @@ webrtc
 /
 base
 /
+arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -447,7 +458,7 @@ GetWindowText
 (
 hwnd
 window_title
-ARRAY_SIZE
+arraysize
 (
 window_title
 )

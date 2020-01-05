@@ -439,7 +439,7 @@ codevector
 construction
 *
 /
-int16_t
+size_t
 lMem
 /
 *
@@ -451,7 +451,7 @@ of
 buffer
 *
 /
-int16_t
+size_t
 veclen
 /
 *

@@ -2419,6 +2419,12 @@ myVec
 [
 UB16_LPC_VEC_PER_FRAME
 ]
+=
+{
+0
+.
+0
+}
 ;
 const
 double

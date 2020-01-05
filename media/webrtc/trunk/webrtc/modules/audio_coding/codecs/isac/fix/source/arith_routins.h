@@ -596,7 +596,7 @@ error
 detected
 *
 /
-int16_t
+int
 WebRtcIsacfix_DecLogisticMulti2
 (
 int16_t

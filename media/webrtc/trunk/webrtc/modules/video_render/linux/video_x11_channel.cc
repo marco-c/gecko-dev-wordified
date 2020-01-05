@@ -107,7 +107,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 critical_section_wrapper
 .
@@ -120,7 +120,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 trace
 .
@@ -296,7 +296,7 @@ const
 uint32_t
 streamId
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )
@@ -429,7 +429,7 @@ VideoX11Channel
 DeliverFrame
 (
 const
-I420VideoFrame
+VideoFrame
 &
 videoFrame
 )

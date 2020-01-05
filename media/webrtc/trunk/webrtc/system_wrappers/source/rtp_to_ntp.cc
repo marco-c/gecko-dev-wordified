@@ -92,7 +92,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 rtp_to_ntp
 .
@@ -105,7 +105,7 @@ webrtc
 /
 system_wrappers
 /
-interface
+include
 /
 clock
 .

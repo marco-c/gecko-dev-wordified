@@ -1039,7 +1039,7 @@ k
 double
 *
 r
-int
+size_t
 order
 )
 {
@@ -1047,7 +1047,7 @@ double
 sum
 alpha
 ;
-int
+size_t
 m
 m_h
 i

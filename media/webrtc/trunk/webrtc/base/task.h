@@ -1043,7 +1043,7 @@ Task
 )
 override
 ;
-int32
+int32_t
 unique_id
 (
 )
@@ -1109,7 +1109,7 @@ return
 done_
 ;
 }
-int64
+int64_t
 ElapsedTime
 (
 )
@@ -1140,7 +1140,7 @@ TimedOut
 (
 )
 ;
-int64
+int64_t
 timeout_time
 (
 )
@@ -1253,7 +1253,7 @@ Error
 (
 )
 ;
-int64
+int64_t
 CurrentTime
 (
 )
@@ -1351,10 +1351,10 @@ busy_
 bool
 error_
 ;
-int64
+int64_t
 start_time_
 ;
-int64
+int64_t
 timeout_time_
 ;
 int
@@ -1363,11 +1363,11 @@ timeout_seconds_
 bool
 timeout_suspended_
 ;
-int32
+int32_t
 unique_id_
 ;
 static
-int32
+int32_t
 unique_id_seed_
 ;
 }

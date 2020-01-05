@@ -253,7 +253,11 @@ factory
 const
 SocketAddress
 &
-nat_addr
+nat_udp_addr
+const
+SocketAddress
+&
+nat_tcp_addr
 )
 ;
 /
@@ -329,9 +333,12 @@ SocketFactory
 factory_
 ;
 SocketAddress
-nat_addr_
+nat_udp_addr_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+SocketAddress
+nat_tcp_addr_
+;
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 NATSocketFactory
 )
@@ -786,7 +793,7 @@ get
 ;
 }
 SocketAddress
-internal_address
+internal_udp_address
 (
 )
 const
@@ -795,7 +802,7 @@ return
 nat_server_
 -
 >
-internal_address
+internal_udp_address
 (
 )
 ;
@@ -1097,7 +1104,7 @@ msg_queue_
 TranslatorMap
 nats_
 ;
-DISALLOW_EVIL_CONSTRUCTORS
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 NATSocketServer
 )

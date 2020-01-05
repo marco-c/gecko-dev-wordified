@@ -379,7 +379,7 @@ double
 >
 ts_delta_hist_
 ;
-DISALLOW_COPY_AND_ASSIGN
+RTC_DISALLOW_COPY_AND_ASSIGN
 (
 OveruseEstimator
 )

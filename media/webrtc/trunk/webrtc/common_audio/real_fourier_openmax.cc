@@ -158,7 +158,7 @@ int
 order
 )
 {
-CHECK_GE
+RTC_CHECK_GE
 (
 order
 1
@@ -177,7 +177,7 @@ check
 order
 validity
 .
-CHECK_LE
+RTC_CHECK_LE
 (
 order
 TWIDDLE_TABLE_ORDER
@@ -196,7 +196,7 @@ order
 buffer_size
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 r
 OMX_Sts_NoErr
@@ -211,7 +211,7 @@ malloc
 buffer_size
 )
 ;
-DCHECK
+RTC_DCHECK
 (
 omx_spec
 )
@@ -224,7 +224,7 @@ omx_spec
 order
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 r
 OMX_Sts_NoErr
@@ -353,7 +353,7 @@ dest
 omx_spec_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 r
 OMX_Sts_NoErr
@@ -397,7 +397,7 @@ dest
 omx_spec_
 )
 ;
-CHECK_EQ
+RTC_CHECK_EQ
 (
 r
 OMX_Sts_NoErr

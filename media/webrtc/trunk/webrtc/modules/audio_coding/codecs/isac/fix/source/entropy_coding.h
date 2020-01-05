@@ -140,7 +140,7 @@ stream
 )
 *
 /
-int16_t
+int
 WebRtcIsacfix_DecodeSpec
 (
 Bitstr_dec
@@ -425,7 +425,7 @@ WebRtcIsacfix_DecodeFrameLen
 Bitstr_dec
 *
 streamdata
-int16_t
+size_t
 *
 framelength
 )
@@ -637,13 +637,13 @@ matrix0_index_step
 if
 (
 defined
-WEBRTC_DETECT_ARM_NEON
+WEBRTC_DETECT_NEON
 )
 |
 |
 (
 defined
-WEBRTC_ARCH_ARM_NEON
+WEBRTC_HAS_NEON
 )
 void
 WebRtcIsacfix_MatrixProduct1Neon

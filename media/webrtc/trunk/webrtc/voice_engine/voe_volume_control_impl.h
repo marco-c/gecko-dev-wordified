@@ -126,7 +126,6 @@ VoEVolumeControl
 {
 public
 :
-virtual
 int
 SetSpeakerVolume
 (
@@ -134,8 +133,8 @@ unsigned
 int
 volume
 )
+override
 ;
-virtual
 int
 GetSpeakerVolume
 (
@@ -144,8 +143,8 @@ int
 &
 volume
 )
+override
 ;
-virtual
 int
 SetMicVolume
 (
@@ -153,8 +152,8 @@ unsigned
 int
 volume
 )
+override
 ;
-virtual
 int
 GetMicVolume
 (
@@ -163,8 +162,8 @@ int
 &
 volume
 )
+override
 ;
-virtual
 int
 SetInputMute
 (
@@ -173,8 +172,8 @@ channel
 bool
 enable
 )
+override
 ;
-virtual
 int
 GetInputMute
 (
@@ -184,8 +183,8 @@ bool
 &
 enabled
 )
+override
 ;
-virtual
 int
 GetSpeechInputLevel
 (
@@ -194,8 +193,8 @@ int
 &
 level
 )
+override
 ;
-virtual
 int
 GetSpeechOutputLevel
 (
@@ -206,8 +205,8 @@ int
 &
 level
 )
+override
 ;
-virtual
 int
 GetSpeechInputLevelFullRange
 (
@@ -216,8 +215,8 @@ int
 &
 level
 )
+override
 ;
-virtual
 int
 GetSpeechOutputLevelFullRange
 (
@@ -228,8 +227,8 @@ int
 &
 level
 )
+override
 ;
-virtual
 int
 SetChannelOutputVolumeScaling
 (
@@ -238,8 +237,8 @@ channel
 float
 scaling
 )
+override
 ;
-virtual
 int
 GetChannelOutputVolumeScaling
 (
@@ -249,8 +248,8 @@ float
 &
 scaling
 )
+override
 ;
-virtual
 int
 SetOutputVolumePan
 (
@@ -261,8 +260,8 @@ left
 float
 right
 )
+override
 ;
-virtual
 int
 GetOutputVolumePan
 (
@@ -275,6 +274,7 @@ float
 &
 right
 )
+override
 ;
 protected
 :
@@ -288,11 +288,11 @@ SharedData
 shared
 )
 ;
-virtual
 ~
 VoEVolumeControlImpl
 (
 )
+override
 ;
 private
 :

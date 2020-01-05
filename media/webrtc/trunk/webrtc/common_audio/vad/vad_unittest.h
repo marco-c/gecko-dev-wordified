@@ -204,13 +204,13 @@ we
 support
 .
 const
-int
+size_t
 kMaxFrameLength
 =
 1440
 ;
 const
-int
+size_t
 kFrameLengths
 [
 ]
@@ -294,7 +294,7 @@ ValidRatesAndFrameLengths
 (
 int
 rate
-int
+size_t
 frame_length
 )
 ;

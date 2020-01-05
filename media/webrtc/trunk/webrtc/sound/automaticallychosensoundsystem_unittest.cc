@@ -98,9 +98,9 @@ include
 "
 webrtc
 /
-sound
+base
 /
-nullsoundsystem
+arraysize
 .
 h
 "
@@ -112,6 +112,17 @@ webrtc
 base
 /
 gunit
+.
+h
+"
+#
+include
+"
+webrtc
+/
+sound
+/
+nullsoundsystem
 .
 h
 "
@@ -432,7 +443,7 @@ SingleSystemFailing
 AutomaticallyChosenSoundSystem
 <
 kSingleSystemFailingCreators
-ARRAY_SIZE
+arraysize
 (
 kSingleSystemFailingCreators
 )
@@ -473,7 +484,7 @@ SingleSystemSucceeding
 AutomaticallyChosenSoundSystem
 <
 kSingleSystemSucceedingCreators
-ARRAY_SIZE
+arraysize
 (
 kSingleSystemSucceedingCreators
 )
@@ -519,7 +530,7 @@ FailedFirstSystemResultsInUsingSecond
 AutomaticallyChosenSoundSystem
 <
 kFailedFirstSystemResultsInUsingSecondCreators
-ARRAY_SIZE
+arraysize
 (
 kFailedFirstSystemResultsInUsingSecondCreators
 )
@@ -565,7 +576,7 @@ EarlierEntriesHavePriority
 AutomaticallyChosenSoundSystem
 <
 kEarlierEntriesHavePriorityCreators
-ARRAY_SIZE
+arraysize
 (
 kEarlierEntriesHavePriorityCreators
 )
@@ -666,7 +677,7 @@ ManySoundSystems
 AutomaticallyChosenSoundSystem
 <
 kManySoundSystemsCreators
-ARRAY_SIZE
+arraysize
 (
 kManySoundSystemsCreators
 )
@@ -718,7 +729,7 @@ typedef
 AutomaticallyChosenSoundSystem
 <
 kDeletesAllCreatedSoundSystemsCreators
-ARRAY_SIZE
+arraysize
 (
 kDeletesAllCreatedSoundSystemsCreators
 )
