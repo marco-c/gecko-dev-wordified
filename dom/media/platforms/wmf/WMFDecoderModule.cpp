@@ -1267,8 +1267,10 @@ WMFDecoderModule
 HasH264
 (
 )
-&
-&
+)
+{
+if
+(
 !
 MediaPrefs
 :
@@ -1417,6 +1419,7 @@ height
 return
 false
 ;
+}
 }
 }
 return
