@@ -6801,7 +6801,7 @@ shared
 *
 Implemented
 in
-jswrapper
+CrossCompartmentWrapper
 .
 cpp
 .
@@ -6815,6 +6815,15 @@ NukeWindowReferences
 DontNukeWindowReferences
 }
 NukeReferencesToWindow
+;
+typedef
+enum
+NukeReferencesFromTarget
+{
+NukeAllReferences
+NukeIncomingReferences
+}
+NukeReferencesFromTarget
 ;
 /
 *
@@ -7049,6 +7058,8 @@ CompartmentFilter
 targetFilter
 NukeReferencesToWindow
 nukeReferencesToWindow
+NukeReferencesFromTarget
+nukeReferencesFromTarget
 )
 ;
 /
