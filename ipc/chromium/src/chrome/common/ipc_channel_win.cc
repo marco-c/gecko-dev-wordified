@@ -259,14 +259,11 @@ get
 )
 {
 \
-NS_CheckThreadSafe
-(
 owningThread
 -
 >
-GetThread
+AssertOwnership
 (
-)
 #
 _class
 "

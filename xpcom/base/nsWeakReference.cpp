@@ -162,13 +162,10 @@ _mWeakRefOwningThread
 define
 MOZ_WEAKREF_ASSERT_OWNINGTHREAD
 \
-NS_CheckThreadSafe
-(
 _mWeakRefOwningThread
 .
-GetThread
+AssertOwnership
 (
-)
 "
 nsWeakReference
 not
@@ -184,8 +181,6 @@ MOZ_WEAKREF_ASSERT_OWNINGTHREAD_DELEGATED
 that
 )
 \
-NS_CheckThreadSafe
-(
 (
 that
 )
@@ -193,9 +188,8 @@ that
 >
 _mWeakRefOwningThread
 .
-GetThread
+AssertOwnership
 (
-)
 "
 nsWeakReference
 not
