@@ -4651,7 +4651,8 @@ assert
 (
 unsafe
 {
-is_in_compositor_thread
+!
+is_in_render_thread
 (
 )
 }
