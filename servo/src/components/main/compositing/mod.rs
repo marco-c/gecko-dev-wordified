@@ -1852,7 +1852,7 @@ Some
 ;
 root_layer
 .
-add_child
+add_child_start
 (
 ContainerLayerKind
 (
@@ -2094,7 +2094,7 @@ None
 }
 root_layer
 .
-add_child
+add_child_start
 (
 ContainerLayerKind
 (
