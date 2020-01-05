@@ -223,7 +223,7 @@ org
 )
 sidebarHidden
 :
-false
+true
 }
 {
 location
@@ -245,7 +245,7 @@ org
 )
 sidebarHidden
 :
-false
+true
 }
 {
 location
@@ -267,7 +267,7 @@ org
 )
 sidebarHidden
 :
-false
+true
 }
 {
 location
@@ -489,7 +489,7 @@ s2
 "
 sidebarHidden
 :
-false
+true
 }
 ]
 ;
