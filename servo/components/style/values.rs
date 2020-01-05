@@ -4860,6 +4860,13 @@ ToCss
 for
 Calc
 {
+#
+[
+allow
+(
+unused_assignments
+)
+]
 fn
 to_css
 <
