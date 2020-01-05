@@ -3283,6 +3283,17 @@ VK_DOWN
 "
 }
 "
+Tab
+"
+:
+{
+code
+:
+"
+VK_TAB
+"
+}
+"
 Escape
 "
 :
