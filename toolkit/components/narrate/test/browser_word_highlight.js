@@ -317,11 +317,9 @@ boundaryPat
 /
 (
 \
-s
+S
 +
 )
-\
-S
 /
 g
 ;
@@ -391,6 +389,12 @@ word
 res
 .
 index
+res
+[
+0
+]
+.
+length
 )
 ;
 let
