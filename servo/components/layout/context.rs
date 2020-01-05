@@ -69,7 +69,7 @@ task
 #
 !
 [
-allow
+deny
 (
 unsafe_code
 )
@@ -1033,6 +1033,13 @@ UNSOUND
 !
 for
 canvas_layers_sender
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 impl
 Sync
