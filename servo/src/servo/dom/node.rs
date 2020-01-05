@@ -425,6 +425,7 @@ debugging
 .
 *
 /
+pure
 fn
 dump
 (
@@ -453,6 +454,7 @@ indentation
 .
 *
 /
+pure
 fn
 dump_indent
 (
@@ -511,6 +513,19 @@ s
 s
 )
 ;
+/
+/
+FIXME
+:
+this
+should
+have
+a
+pure
+version
+?
+unsafe
+{
 for
 NodeTree
 .
@@ -532,6 +547,8 @@ indent
 )
 }
 }
+}
+pure
 fn
 debug_str
 (
@@ -542,6 +559,7 @@ self
 >
 ~
 str
+unsafe
 {
 do
 self

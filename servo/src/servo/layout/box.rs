@@ -4557,6 +4557,7 @@ RenderBox
 :
 BoxedDebugMethods
 {
+pure
 fn
 dump
 (
@@ -4584,6 +4585,7 @@ indentation
 .
 *
 /
+pure
 fn
 dump_indent
 (
@@ -4642,6 +4644,7 @@ s
 )
 ;
 }
+pure
 fn
 debug_str
 (
