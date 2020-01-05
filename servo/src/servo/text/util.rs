@@ -134,7 +134,7 @@ tag
 from
 its
 4
-charecters
+characters
 *
 /
 pub
