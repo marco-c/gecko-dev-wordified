@@ -228,6 +228,11 @@ LoadProto
 \
 _
 (
+LoadEnclosingEnvironment
+)
+\
+_
+(
 LoadDOMExpandoValue
 )
 \
