@@ -320,6 +320,9 @@ mod
 compositor_data
 ;
 mod
+events
+;
+mod
 compositor
 ;
 mod
