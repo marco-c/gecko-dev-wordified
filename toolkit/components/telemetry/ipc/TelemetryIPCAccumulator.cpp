@@ -1348,12 +1348,7 @@ TelemetryIPCAccumulator
 :
 RecordChildEvent
 (
-const
-mozilla
-:
-:
-TimeStamp
-&
+double
 timestamp
 const
 nsACString
