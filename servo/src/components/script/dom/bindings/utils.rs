@@ -1521,16 +1521,6 @@ ID
 .
 MAX_PROTO_CHAIN_LENGTH
 ]
-unused
-:
-bool
-/
-/
-DOMObjectIsISupports
-(
-always
-false
-)
 native_hooks
 :
 *
