@@ -106,6 +106,11 @@ name
 "
 cursor
 "
+animatable
+=
+"
+False
+"
 >
 pub
 use
@@ -450,6 +455,9 @@ events
 auto
 none
 "
+animatable
+=
+False
 )
 }
 {
@@ -485,6 +493,9 @@ gecko_constant_prefix
 "
 NS_STYLE_USER_INPUT
 "
+animatable
+=
+False
 )
 }
 {
@@ -526,6 +537,9 @@ gecko_constant_prefix
 "
 NS_STYLE_USER_MODIFY
 "
+animatable
+=
+False
 )
 }
 {
@@ -576,5 +590,8 @@ gecko_constant_prefix
 "
 NS_STYLE_USER_FOCUS
 "
+animatable
+=
+False
 )
 }

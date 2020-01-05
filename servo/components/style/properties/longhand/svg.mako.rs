@@ -96,6 +96,18 @@ SVGReset
 )
 %
 >
+/
+/
+TODO
+:
+Which
+of
+these
+should
+be
+animatable
+properties
+?
 {
 helpers
 .
@@ -143,6 +155,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 {
@@ -168,6 +183,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 /
@@ -227,6 +245,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 {
@@ -252,6 +273,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 /
@@ -310,6 +334,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 {
@@ -335,6 +362,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 {
@@ -386,6 +416,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 /
@@ -434,5 +467,8 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }

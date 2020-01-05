@@ -836,15 +836,6 @@ use
 style
 :
 :
-animation
-:
-:
-Animation
-;
-use
-style
-:
-:
 computed_values
 :
 :
@@ -949,6 +940,7 @@ servo
 :
 :
 {
+Animation
 SharedStyleContext
 Stylesheet
 Stylist
@@ -9108,7 +9100,6 @@ rw_data
 )
 ;
 }
-pub
 fn
 tick_animations
 (
@@ -9230,6 +9221,8 @@ animation
 :
 recalc_style_for_animations
 (
+&
+layout_context
 flow_ref
 :
 :
@@ -9240,7 +9233,6 @@ mut
 root_flow
 )
 &
-*
 animations
 )
 }

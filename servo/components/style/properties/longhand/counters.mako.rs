@@ -106,6 +106,11 @@ name
 "
 content
 "
+animatable
+=
+"
+False
+"
 >
 use
 cssparser
@@ -1468,6 +1473,11 @@ counter
 -
 increment
 "
+animatable
+=
+"
+False
+"
 >
 use
 std
@@ -1953,6 +1963,11 @@ name
 counter
 -
 reset
+"
+animatable
+=
+"
+False
 "
 >
 pub

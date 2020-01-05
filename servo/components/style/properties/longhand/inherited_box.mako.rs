@@ -111,6 +111,9 @@ rtl
 need_clone
 =
 True
+animatable
+=
+False
 )
 }
 /
@@ -146,6 +149,9 @@ gecko_ffi_name
 "
 mVisible
 "
+animatable
+=
+True
 )
 }
 /
@@ -202,6 +208,9 @@ True
 need_clone
 =
 True
+animatable
+=
+False
 )
 }
 /
@@ -302,6 +311,9 @@ sideways
 -
 left
 "
+animatable
+=
+False
 )
 }
 /
@@ -346,6 +358,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 <
@@ -359,6 +374,11 @@ name
 image
 -
 rendering
+"
+animatable
+=
+"
+False
 "
 >
 pub
@@ -774,6 +794,11 @@ products
 =
 "
 servo
+"
+animatable
+=
+"
+False
 "
 >
 use

@@ -158,6 +158,9 @@ gecko_ffi_name
 "
 mIMEMode
 "
+animatable
+=
+False
 )
 }
 {
@@ -194,5 +197,8 @@ gecko_constant_prefix
 "
 NS_STYLE_USER_SELECT
 "
+animatable
+=
+False
 )
 }

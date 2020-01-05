@@ -107,6 +107,9 @@ position
 outside
 inside
 "
+animatable
+=
+False
 )
 }
 /
@@ -297,6 +300,9 @@ gecko_constant_prefix
 "
 NS_STYLE_LIST_STYLE
 "
+animatable
+=
+False
 )
 }
 <
@@ -312,6 +318,11 @@ list
 style
 -
 image
+"
+animatable
+=
+"
+False
 "
 >
 use
@@ -783,6 +794,11 @@ name
 =
 "
 quotes
+"
+animatable
+=
+"
+False
 "
 >
 use

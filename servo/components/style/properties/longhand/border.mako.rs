@@ -183,6 +183,9 @@ Color
 :
 CurrentColor
 "
+animatable
+=
+True
 )
 }
 %
@@ -236,6 +239,9 @@ none
 need_clone
 =
 True
+animatable
+=
+False
 )
 }
 %
@@ -274,6 +280,11 @@ side
 }
 -
 width
+"
+animatable
+=
+"
+True
 "
 >
 use
@@ -593,6 +604,9 @@ zero
 "
 parse
 "
+animatable
+=
+True
 )
 }
 %
@@ -618,6 +632,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 {
@@ -656,5 +673,8 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }

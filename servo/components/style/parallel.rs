@@ -459,12 +459,10 @@ let
 mut
 discovered_child_nodes
 =
-Vec
-:
-:
-new
-(
-)
+vec
+!
+[
+]
 ;
 for
 unsafe_node

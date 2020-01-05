@@ -144,6 +144,9 @@ Color
 :
 CurrentColor
 "
+animatable
+=
+True
 )
 }
 <
@@ -162,6 +165,11 @@ need_clone
 =
 "
 True
+"
+animatable
+=
+"
+False
 "
 >
 pub
@@ -277,6 +285,11 @@ name
 outline
 -
 width
+"
+animatable
+=
+"
+True
 "
 >
 use
@@ -523,6 +536,14 @@ a
 standards
 track
 .
+/
+/
+TODO
+:
+Should
+they
+animate
+?
 %
 for
 corner
@@ -580,6 +601,9 @@ products
 "
 gecko
 "
+animatable
+=
+False
 )
 }
 %
@@ -603,5 +627,8 @@ Au
 0
 )
 "
+animatable
+=
+True
 )
 }

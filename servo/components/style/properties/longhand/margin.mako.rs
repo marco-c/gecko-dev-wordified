@@ -139,6 +139,9 @@ Au
 )
 )
 "
+animatable
+=
+True
 )
 }
 %

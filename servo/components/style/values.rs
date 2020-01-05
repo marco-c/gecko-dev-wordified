@@ -13716,6 +13716,7 @@ p
 [
 derive
 (
+Debug
 PartialEq
 Clone
 Copy

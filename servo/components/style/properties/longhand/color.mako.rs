@@ -106,6 +106,11 @@ need_clone
 "
 True
 "
+animatable
+=
+"
+True
+"
 >
 use
 cssparser

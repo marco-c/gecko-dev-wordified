@@ -110,5 +110,8 @@ gecko_ffi_name
 "
 mLayoutStrategy
 "
+animatable
+=
+False
 )
 }
