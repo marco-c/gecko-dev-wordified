@@ -2787,12 +2787,7 @@ sampleeTid
 aSample
 -
 >
-mThreadInfo
--
->
-ThreadId
-(
-)
+mThreadId
 ;
 MOZ_RELEASE_ASSERT
 (
