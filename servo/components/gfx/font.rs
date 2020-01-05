@@ -617,6 +617,10 @@ max_advance
 :
 Au
 pub
+average_advance
+:
+Au
+pub
 line_gap
 :
 Au

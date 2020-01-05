@@ -1103,7 +1103,7 @@ bubble_inline_sizes
 &
 mut
 self
-_
+layout_context
 :
 &
 LayoutContext
@@ -1680,6 +1680,7 @@ fragment
 .
 intrinsic_inline_sizes
 (
+layout_context
 )
 ;
 self
