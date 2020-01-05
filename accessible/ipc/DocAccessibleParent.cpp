@@ -2456,10 +2456,6 @@ if
 !
 e
 )
-{
-#
-ifdef
-DEBUG
 return
 IPC_FAIL
 (
@@ -2473,16 +2469,6 @@ proxy
 "
 )
 ;
-#
-else
-return
-IPC_OK
-(
-)
-;
-#
-endif
-}
 ProxyAccessible
 *
 outerDoc
