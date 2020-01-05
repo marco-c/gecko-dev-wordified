@@ -1613,7 +1613,6 @@ in
 .
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -1766,7 +1765,6 @@ in
 .
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -2094,7 +2092,6 @@ test
 .
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2315,7 +2312,6 @@ again
 .
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2324,7 +2320,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -2357,7 +2352,6 @@ foobar
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2366,7 +2360,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -2399,7 +2392,6 @@ baz
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2408,7 +2400,6 @@ processInputConnectionEvents
 ;
 processGeckoEvents
 (
-ic
 )
 ;
 assertTextAndSelectionAt
@@ -2493,7 +2484,6 @@ test
 .
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
@@ -2702,7 +2692,6 @@ test
 .
 processGeckoEvents
 (
-ic
 )
 ;
 processInputConnectionEvents
