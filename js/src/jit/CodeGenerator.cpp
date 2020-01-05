@@ -1704,6 +1704,12 @@ CacheKind
 :
 SetElem
 :
+case
+CacheKind
+:
+:
+In
+:
 MOZ_CRASH
 (
 "
