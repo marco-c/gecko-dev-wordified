@@ -218,6 +218,15 @@ flags
 ;
 public
 abstract
+boolean
+isAdaptivePlaybackSupported
+(
+String
+mimeType
+)
+;
+public
+abstract
 void
 start
 (

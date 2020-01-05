@@ -665,7 +665,7 @@ const
 override
 {
 return
-true
+mIsCodecSupportAdaptivePlayback
 ;
 }
 protected
@@ -1814,8 +1814,10 @@ not
 if
 (
 aSurface
-&
-&
+)
+{
+mIsCodecSupportAdaptivePlayback
+=
 java
 :
 :
@@ -1833,6 +1835,10 @@ mMimeType
 )
 )
 )
+;
+if
+(
+mIsCodecSupportAdaptivePlayback
 )
 {
 /
@@ -1882,6 +1888,7 @@ KEY_MAX_HEIGHT
 1080
 )
 ;
+}
 }
 MediaCrypto
 :

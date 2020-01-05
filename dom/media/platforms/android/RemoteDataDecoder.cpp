@@ -1065,6 +1065,15 @@ __func__
 )
 ;
 }
+mIsCodecSupportAdaptivePlayback
+=
+mJavaDecoder
+-
+>
+IsAdaptivePlaybackSupported
+(
+)
+;
 mInputDurations
 .
 Clear
@@ -1162,7 +1171,7 @@ const
 override
 {
 return
-true
+mIsCodecSupportAdaptivePlayback
 ;
 }
 private
@@ -1277,6 +1286,11 @@ mSurfaceTexture
 ;
 DurationQueue
 mInputDurations
+;
+bool
+mIsCodecSupportAdaptivePlayback
+=
+false
 ;
 }
 ;
