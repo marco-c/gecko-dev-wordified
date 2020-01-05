@@ -2567,7 +2567,6 @@ script
 >
 ensureNonLazyCanonicalFunction
 (
-cx
 )
 ;
 if

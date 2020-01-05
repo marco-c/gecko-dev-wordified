@@ -8742,9 +8742,6 @@ inline
 void
 ensureNonLazyCanonicalFunction
 (
-JSContext
-*
-cx
 )
 ;
 js

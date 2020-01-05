@@ -590,9 +590,6 @@ JSScript
 :
 ensureNonLazyCanonicalFunction
 (
-JSContext
-*
-cx
 )
 {
 /

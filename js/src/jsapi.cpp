@@ -24957,7 +24957,6 @@ script
 >
 ensureNonLazyCanonicalFunction
 (
-cx
 )
 ;
 RootedFunction
