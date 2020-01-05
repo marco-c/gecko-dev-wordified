@@ -965,6 +965,7 @@ ptr
 }
 }
 }
+unsafe
 impl
 <
 T
@@ -978,6 +979,7 @@ JS
 T
 >
 {
+unsafe
 fn
 trace
 (
@@ -1010,8 +1012,6 @@ for
 on
 heap
 "
-unsafe
-{
 type_name
 :
 :
@@ -1020,7 +1020,6 @@ T
 >
 (
 )
-}
 )
 ;
 #
@@ -1065,8 +1064,6 @@ trace_reflector
 (
 trc
 trace_info
-unsafe
-{
 (
 *
 *
@@ -1078,7 +1075,6 @@ ptr
 reflector
 (
 )
-}
 )
 ;
 }

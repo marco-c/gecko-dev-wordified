@@ -167,7 +167,10 @@ bindings
 trace
 :
 :
+{
+JSTraceable
 trace_traceables
+}
 ;
 use
 dom
@@ -525,6 +528,8 @@ loop
 pub
 trait
 ScriptChan
+:
+JSTraceable
 {
 /
 /

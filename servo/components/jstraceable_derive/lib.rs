@@ -381,6 +381,14 @@ tokens
 quote
 !
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 impl
 #
 impl_generics
@@ -416,6 +424,7 @@ unused_variables
 unused_imports
 )
 ]
+unsafe
 fn
 trace
 (
