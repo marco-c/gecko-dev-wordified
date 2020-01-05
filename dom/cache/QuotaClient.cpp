@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 cache
@@ -209,12 +200,6 @@ h
 "
 namespace
 {
-using
-mozilla
-:
-:
-DebugOnly
-;
 using
 mozilla
 :
@@ -506,7 +491,7 @@ return
 rv
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 fileSize
 >
@@ -628,7 +613,7 @@ aUsageInfo
 )
 override
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aUsageInfo
 )
@@ -644,7 +629,7 @@ Get
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 qm
 )
@@ -1074,7 +1059,7 @@ return
 rv
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 fileSize
 >

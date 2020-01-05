@@ -382,7 +382,7 @@ mQuotaOrigin
 aQuotaOrigin
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mPrincipal
 )

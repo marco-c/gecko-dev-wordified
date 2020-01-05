@@ -207,7 +207,7 @@ cache
 CacheParent
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mManager
 )
@@ -237,7 +237,7 @@ cache
 CacheParent
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mManager
@@ -254,7 +254,7 @@ ActorDestroyReason
 aReason
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mManager
 )

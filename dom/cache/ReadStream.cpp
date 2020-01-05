@@ -1322,12 +1322,12 @@ mState
 Open
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mStream
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mControl
 )
@@ -1377,7 +1377,7 @@ NS_GetCurrentThread
 mOwningThread
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStreamOut
 )
@@ -1439,7 +1439,7 @@ NS_GetCurrentThread
 mOwningThread
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStreamOut
 )
@@ -1464,7 +1464,7 @@ MSG_CACHE_STREAM_CLOSED
 return
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mControl
 )
@@ -1496,7 +1496,7 @@ mStream
 aStreamCleanupList
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStreamOut
 -
@@ -1778,7 +1778,7 @@ happen
 on
 any
 thread
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aNumReadOut
 )
@@ -1862,7 +1862,7 @@ happen
 on
 any
 thread
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aNumReadOut
 )
@@ -2045,7 +2045,7 @@ Inner
 /
 Any
 thread
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mState
 =
@@ -2053,7 +2053,7 @@ mState
 Closed
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mControl
@@ -2250,7 +2250,7 @@ Closed
 return
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mControl
 )
@@ -2317,7 +2317,7 @@ Closed
 return
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mControl
 )
@@ -2555,7 +2555,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStream
 .
@@ -2655,7 +2655,7 @@ control
 actor
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 control
 )
@@ -2675,7 +2675,7 @@ stream
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 stream
 )
@@ -2696,8 +2696,12 @@ file
 streams
 .
 #
-ifdef
-DEBUG
+if
+!
+defined
+(
+RELEASE_OR_BETA
+)
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -2709,7 +2713,7 @@ do_QueryInterface
 stream
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 asyncStream
@@ -2779,7 +2783,7 @@ nsIInputStream
 aStream
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aControl
 )
@@ -2916,7 +2920,7 @@ mInner
 aInner
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInner
 )

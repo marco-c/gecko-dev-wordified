@@ -820,12 +820,12 @@ NS_IsMainThread
 mWorkerHolder
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mCache
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mPromise
 )
@@ -1288,7 +1288,7 @@ response
 )
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mRequestList
 .
@@ -1582,12 +1582,12 @@ mActor
 aActor
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
@@ -1962,7 +1962,7 @@ GetGlobalJSObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 global
@@ -2134,7 +2134,7 @@ GetGlobalJSObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 global
@@ -2991,12 +2991,12 @@ CacheChild
 aActor
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 =
@@ -3064,7 +3064,7 @@ NS_ASSERT_OWNINGTHREAD
 Cache
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
@@ -3127,7 +3127,7 @@ cleared
 the
 mActor
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mActor
@@ -3152,7 +3152,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
@@ -3236,7 +3236,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
@@ -3579,7 +3579,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aRequestList
 .

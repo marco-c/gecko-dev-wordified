@@ -525,7 +525,7 @@ InternalHeaders
 aHeaders
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aHeaders
 )
@@ -833,7 +833,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aIn
 )
@@ -987,7 +987,7 @@ Headers
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 headers
 )
@@ -1251,7 +1251,7 @@ i
 +
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 aOut
@@ -1348,7 +1348,7 @@ UnfilteredHeaders
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 headers
 )
@@ -1853,7 +1853,7 @@ internalHeaders
 result
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 result
@@ -1881,7 +1881,7 @@ headersGuard
 result
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 result
@@ -2100,7 +2100,7 @@ ResponseType
 )
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 ir
 )
@@ -2352,7 +2352,7 @@ internalHeaders
 result
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 result
@@ -2380,7 +2380,7 @@ headersGuard
 result
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 result
@@ -2861,7 +2861,7 @@ aUrlWithoutQueryOut
 return
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aUrlQueryOut
 )
@@ -2950,7 +2950,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aRequest
 )
@@ -3130,7 +3130,7 @@ GetGlobalJSObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 global

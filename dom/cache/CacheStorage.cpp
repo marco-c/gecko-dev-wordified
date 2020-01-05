@@ -1057,12 +1057,12 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aGlobal
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aPrincipal
 )
@@ -1277,12 +1277,12 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aGlobal
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aWorkerPrivate
 )
@@ -1738,7 +1738,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 js
 :
@@ -1814,7 +1814,7 @@ ObjectPrincipal
 aGlobal
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 principal
 )
@@ -1970,7 +1970,7 @@ mStatus
 NS_OK
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
 )
@@ -2093,7 +2093,7 @@ mStatus
 aFailureResult
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_FAILED
 (
@@ -3139,7 +3139,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorage
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aActor
 )
@@ -3249,7 +3249,7 @@ mWorkerHolder
 =
 nullptr
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 constructedActor
 =
@@ -3265,7 +3265,7 @@ MaybeRunPendingRequests
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mPendingRequests
 .
@@ -3288,7 +3288,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorage
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 NS_FAILED
@@ -3376,12 +3376,12 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorage
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 =
@@ -3572,7 +3572,7 @@ cleared
 the
 mActor
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mActor

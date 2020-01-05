@@ -361,7 +361,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -400,7 +400,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -462,12 +462,12 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInitiatingThread
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aListener
 )
@@ -528,7 +528,7 @@ we
 destruct
 on
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListenerList
 .
@@ -556,7 +556,7 @@ main
 /
 thread
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mActor
@@ -1085,7 +1085,7 @@ in
 OnPrincipalVerified
 (
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListenerList
 .

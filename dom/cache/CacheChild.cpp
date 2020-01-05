@@ -277,19 +277,19 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mLocked
@@ -312,7 +312,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -322,7 +322,7 @@ mListener
 =
 aListener
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -341,7 +341,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -455,7 +455,7 @@ the
 delayed
 path
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
@@ -653,7 +653,7 @@ in
 DestroyInternal
 (
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -724,7 +724,7 @@ in
 DestroyInternal
 (
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -845,7 +845,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mLocked
@@ -869,7 +869,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mLocked
 )

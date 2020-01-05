@@ -237,7 +237,7 @@ cache
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -269,7 +269,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -289,7 +289,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
@@ -403,7 +403,7 @@ the
 delayed
 path
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mNumChildActors
@@ -581,7 +581,7 @@ in
 DestroyInternal
 (
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -652,7 +652,7 @@ in
 DestroyInternal
 (
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mListener
@@ -723,7 +723,7 @@ NoteDeletedActor
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mNumChildActors
 )
