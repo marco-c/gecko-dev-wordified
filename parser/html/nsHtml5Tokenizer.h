@@ -668,6 +668,9 @@ endTag
 ;
 private
 :
+bool
+containsHyphen
+;
 nsHtml5ElementName
 *
 tagName

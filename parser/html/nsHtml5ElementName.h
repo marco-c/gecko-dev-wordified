@@ -670,6 +670,11 @@ name
 static
 nsHtml5ElementName
 *
+ELT_ANNOTATION_XML
+;
+static
+nsHtml5ElementName
+*
 ELT_BIG
 ;
 static
@@ -1211,11 +1216,6 @@ static
 nsHtml5ElementName
 *
 ELT_DL
-;
-static
-nsHtml5ElementName
-*
-ELT_ANNOTATION_XML
 ;
 static
 nsHtml5ElementName
