@@ -245,6 +245,10 @@ opacity
 .
 StackingContextHelper
 (
+const
+StackingContextHelper
+&
+aParentSC
 wr
 :
 :
@@ -287,6 +291,10 @@ animations
 .
 StackingContextHelper
 (
+const
+StackingContextHelper
+&
+aParentSC
 wr
 :
 :

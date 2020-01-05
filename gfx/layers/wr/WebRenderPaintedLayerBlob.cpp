@@ -210,7 +210,7 @@ aBuilder
 const
 StackingContextHelper
 &
-aHelper
+aSc
 )
 {
 LayerIntRegion
@@ -717,6 +717,7 @@ ok
 StackingContextHelper
 sc
 (
+aSc
 aBuilder
 this
 )
