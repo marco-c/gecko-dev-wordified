@@ -8489,13 +8489,8 @@ r
 )
 ;
 let
-image_data_rect
+offset
 =
-Rect
-:
-:
-new
-(
 Point2D
 :
 :
@@ -8506,6 +8501,10 @@ dx
 *
 dy
 )
+;
+let
+image_data_size
+=
 Size2D
 :
 :
@@ -8526,13 +8525,10 @@ Height
 as
 f64
 )
-)
 ;
 let
 dirty_rect
 =
-Some
-(
 Rect
 :
 :
@@ -8559,7 +8555,6 @@ dirtyWidth
 dirtyHeight
 )
 )
-)
 ;
 let
 msg
@@ -8575,7 +8570,8 @@ Canvas2dMsg
 PutImageData
 (
 data
-image_data_rect
+offset
+image_data_size
 dirty_rect
 )
 )
