@@ -1188,15 +1188,6 @@ nsISupportsWeakReference
 )
 static
 const
-CSSSize
-kDefaultViewportSize
-(
-980
-480
-)
-;
-static
-const
 char
 BEFORE_FIRST_PAINT
 [
