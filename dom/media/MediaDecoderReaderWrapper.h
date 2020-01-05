@@ -519,12 +519,16 @@ SeekPromise
 >
 Seek
 (
+const
 SeekTarget
+&
 aTarget
+const
 media
 :
 :
 TimeUnit
+&
 aEndTime
 )
 ;
