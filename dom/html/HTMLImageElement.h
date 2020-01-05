@@ -554,6 +554,8 @@ aPreallocateChildren
 void
 MaybeLoadImage
 (
+bool
+aAlwaysForceLoad
 )
 ;
 bool
