@@ -238,8 +238,9 @@ yet
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+taskThreadName
 getter_AddRefs
 (
 mThread
@@ -263,12 +264,6 @@ return
 rv
 ;
 }
-NS_SetThreadName
-(
-mThread
-taskThreadName
-)
-;
 /
 /
 Note
