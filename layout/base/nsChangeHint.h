@@ -151,6 +151,8 @@ related
 constants
 enum
 nsChangeHint
+:
+uint32_t
 {
 nsChangeHint_Empty
 =
@@ -2938,6 +2940,8 @@ RestyleHintToString
 /
 enum
 nsRestyleHint
+:
+uint32_t
 {
 /
 /
