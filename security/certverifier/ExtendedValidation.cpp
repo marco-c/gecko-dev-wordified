@@ -219,6 +219,17 @@ x
 struct
 nsMyTrustedEVInfo
 {
+/
+/
+See
+bug
+1338873
+about
+making
+these
+fields
+const
+.
 const
 char
 *
@@ -263,7 +274,6 @@ entry
 SECOidTag
 oid_tag
 ;
-const
 unsigned
 char
 ev_root_sha256_fingerprint

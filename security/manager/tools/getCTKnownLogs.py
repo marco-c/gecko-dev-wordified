@@ -350,10 +350,21 @@ struct
 CTLogInfo
 {
   
+/
+/
+See
+bug
+1338873
+about
+making
+these
+fields
+const
+.
+  
 const
 char
 *
-const
 name
 ;
   
@@ -364,7 +375,6 @@ within
 kCTLogOperatorList
 .
   
-const
 mozilla
 :
 :
@@ -402,12 +412,10 @@ seconds
 )
 .
   
-const
 uint64_t
 disqualificationTime
 ;
   
-const
 size_t
 operatorIndex
 ;
@@ -415,11 +423,9 @@ operatorIndex
 const
 char
 *
-const
 key
 ;
   
-const
 size_t
 keyLength
 ;
@@ -429,14 +435,24 @@ struct
 CTLogOperatorInfo
 {
   
+/
+/
+See
+bug
+1338873
+about
+making
+these
+fields
+const
+.
+  
 const
 char
 *
-const
 name
 ;
   
-const
 mozilla
 :
 :
