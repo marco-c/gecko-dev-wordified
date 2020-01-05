@@ -269,10 +269,7 @@ gecko
 selector_parser
 :
 :
-{
-SelectorImpl
 PseudoElement
-}
 ;
 use
 style
@@ -7204,13 +7201,10 @@ false
 )
 ;
 match
-SelectorImpl
-:
-:
-pseudo_element_cascade_type
-(
-&
 pseudo
+.
+cascade_type
+(
 )
 {
 PseudoElementCascadeType
