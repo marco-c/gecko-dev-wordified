@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -2961,7 +2961,7 @@ us
 can
 be
 different
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -2980,7 +2980,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

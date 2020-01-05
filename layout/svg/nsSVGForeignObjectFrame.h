@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -159,7 +159,7 @@ nsSVGForeignObjectFrame
 public
 nsContainerFrame
 public
-nsISVGChildFrame
+nsSVGDisplayableFrame
 {
 friend
 nsContainerFrame
@@ -401,7 +401,7 @@ aResult
 endif
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 interface
 :
 virtual

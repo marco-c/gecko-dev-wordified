@@ -161,7 +161,7 @@ be
 set
 to
 *
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 COORD_CONTEXT_CHANGED
@@ -169,7 +169,7 @@ and
 /
 or
 *
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

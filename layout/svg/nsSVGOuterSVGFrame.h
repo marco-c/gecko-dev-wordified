@@ -723,7 +723,7 @@ override
 ;
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 :
 virtual

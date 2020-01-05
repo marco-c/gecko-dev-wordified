@@ -293,7 +293,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -1203,7 +1203,7 @@ Do
 not
 call
 under
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 ReflowSVG
@@ -2180,7 +2180,7 @@ nsRect
 aRect
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svg
 =
@@ -2424,7 +2424,7 @@ nsIFrame
 aFrame
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgFrame
 =
@@ -2519,7 +2519,7 @@ PrincipalChildList
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -2716,9 +2716,9 @@ aDirtyRect
 )
 override
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
-svgChildFrame
+svgFrame
 =
 do_QueryFrame
 (
@@ -2727,7 +2727,7 @@ aTarget
 ;
 NS_ASSERTION
 (
-svgChildFrame
+svgFrame
 "
 Expected
 SVG
@@ -2852,7 +2852,7 @@ tmpDirtyRect
 }
 }
 return
-svgChildFrame
+svgFrame
 -
 >
 PaintSVG
@@ -3997,9 +3997,9 @@ path
 "
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
-svgChildFrame
+svgFrame
 =
 do_QueryFrame
 (
@@ -4009,7 +4009,7 @@ aFrame
 if
 (
 !
-svgChildFrame
+svgFrame
 )
 return
 DrawResult
@@ -5282,7 +5282,7 @@ else
 {
 result
 =
-svgChildFrame
+svgFrame
 -
 >
 PaintSVG
@@ -5713,7 +5713,7 @@ GetPrevSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -5950,7 +5950,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 child
 =
@@ -6674,7 +6674,7 @@ GetParent
 gfxRect
 bbox
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svg
 =
@@ -11304,7 +11304,7 @@ GetPrimaryFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgFrame
 =
@@ -11454,7 +11454,7 @@ GetPrimaryFrame
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgFrame
 =

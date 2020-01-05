@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -470,7 +470,7 @@ svgInnerSVGFrame
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 DrawResult
 nsSVGInnerSVGFrame

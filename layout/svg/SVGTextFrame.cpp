@@ -21072,7 +21072,7 @@ mFrame
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 void
 SVGTextFrame
@@ -23780,7 +23780,7 @@ only
 looks
 at
 its
-nsISVGChildFrame
+nsSVGDisplayableFrame
 /
 /
 children
@@ -33301,7 +33301,7 @@ nsBlockFrame
 is
 not
 an
-nsISVGChildFrame
+nsSVGDisplayableFrame
 so
 /
 /

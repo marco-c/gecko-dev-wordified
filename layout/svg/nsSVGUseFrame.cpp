@@ -309,7 +309,7 @@ aResult
 endif
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 interface
 :
 virtual
@@ -1145,7 +1145,7 @@ true
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 void
 nsSVGUseFrame

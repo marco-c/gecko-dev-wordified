@@ -49037,9 +49037,9 @@ if
 hasSVGLayout
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
-svgChildFrame
+svgFrame
 =
 do_QueryFrame
 (
@@ -49049,7 +49049,7 @@ mFrame
 if
 (
 !
-svgChildFrame
+svgFrame
 |
 |
 !

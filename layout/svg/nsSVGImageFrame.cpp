@@ -374,7 +374,7 @@ public
 NS_DECL_FRAMEARENA_HELPERS
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 interface
 :
 virtual
@@ -1962,7 +1962,7 @@ true
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 :
 DrawResult

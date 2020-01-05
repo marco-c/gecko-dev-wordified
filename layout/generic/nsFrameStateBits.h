@@ -3083,7 +3083,7 @@ frames
 FRAME_STATE_GROUP
 (
 SVG
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 FRAME_STATE_GROUP
 (

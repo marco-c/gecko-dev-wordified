@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsISVGChildFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -1193,7 +1193,7 @@ return
 nullptr
 ;
 }
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgframe
 =

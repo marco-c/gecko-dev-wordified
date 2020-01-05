@@ -140,7 +140,7 @@ class
 gfxContext
 ;
 class
-nsISVGChildFrame
+nsSVGDisplayableFrame
 ;
 class
 nsSVGClipPathFrame
@@ -793,7 +793,7 @@ clipping
 bool
 IsTrivial
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 *
 aSingleChild

@@ -6345,7 +6345,7 @@ aFlags
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 :
 DrawResult

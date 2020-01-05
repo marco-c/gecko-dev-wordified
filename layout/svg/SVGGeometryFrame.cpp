@@ -488,7 +488,7 @@ SVGGeometryFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 NS_QUERYFRAME_ENTRY
 (
@@ -1979,7 +1979,7 @@ this
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 DrawResult
 SVGGeometryFrame

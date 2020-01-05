@@ -412,7 +412,7 @@ Path
 >
 clipPath
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 singleClipPathChild
 =
@@ -1360,7 +1360,7 @@ gfxMatrix
 aMatrix
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 frame
 =
@@ -1400,7 +1400,7 @@ frame
 >
 NotifySVGChanged
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED
@@ -2199,7 +2199,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -2305,7 +2305,7 @@ nsSVGClipPathFrame
 :
 IsTrivial
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 *
 aSingleChild
@@ -2354,7 +2354,7 @@ aSingleChild
 nullptr
 ;
 }
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 foundChild
 =
@@ -2384,7 +2384,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgChild
 =
@@ -2819,7 +2819,7 @@ nsSVGUtils
 NotifyChildrenOfSVGChange
 (
 this
-nsISVGChildFrame
+nsSVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED
@@ -3080,7 +3080,7 @@ if
 frame
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svg
 =

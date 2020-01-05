@@ -432,7 +432,7 @@ svgGFrame
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 void
 nsSVGGFrame

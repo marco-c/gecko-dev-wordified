@@ -218,7 +218,7 @@ nsSVGDisplayContainerFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISVGChildFrame
+nsSVGDisplayableFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
@@ -1203,7 +1203,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -1735,7 +1735,7 @@ foundTransform
 -
 /
 /
-nsISVGChildFrame
+nsSVGDisplayableFrame
 methods
 DrawResult
 nsSVGDisplayContainerFrame
@@ -2401,7 +2401,7 @@ GetNextSibling
 )
 )
 {
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 SVGFrame
 =
@@ -2964,7 +2964,7 @@ GetContent
 (
 )
 ;
-nsISVGChildFrame
+nsSVGDisplayableFrame
 *
 svgKid
 =
