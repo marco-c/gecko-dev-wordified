@@ -3499,7 +3499,7 @@ entries
 :
 HashMap
 <
-Url
+String
 AuthCacheEntry
 >
 }
