@@ -3784,7 +3784,10 @@ clone
 (
 )
 prefix
+Some
+(
 self
+)
 )
 ;
 self
@@ -3842,6 +3845,7 @@ set_value
 (
 set_type
 value
+self
 )
 ;
 }
