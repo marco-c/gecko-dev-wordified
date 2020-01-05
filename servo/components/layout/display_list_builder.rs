@@ -208,7 +208,7 @@ table_cell
 CollapsedBordersForCell
 ;
 use
-geom
+euclid
 :
 :
 {
@@ -219,7 +219,7 @@ SideOffsets2D
 }
 ;
 use
-geom
+euclid
 :
 :
 Matrix4

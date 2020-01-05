@@ -126,7 +126,7 @@ fixed_to_float
 }
 ;
 use
-geom
+euclid
 :
 :
 Point2D

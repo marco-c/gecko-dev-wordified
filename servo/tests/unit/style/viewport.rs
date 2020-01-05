@@ -63,7 +63,7 @@ cssparser
 Parser
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -72,7 +72,7 @@ size
 Size2D
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

@@ -87,7 +87,7 @@ in
 WebKit
 .
 use
-geom
+euclid
 :
 :
 point

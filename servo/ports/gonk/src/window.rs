@@ -92,7 +92,7 @@ WindowMethods
 }
 ;
 use
-geom
+euclid
 :
 :
 scale_factor
@@ -101,7 +101,7 @@ scale_factor
 ScaleFactor
 ;
 use
-geom
+euclid
 :
 :
 size

@@ -119,7 +119,7 @@ canvas_traits
 *
 ;
 use
-geom
+euclid
 :
 :
 matrix2d
@@ -128,7 +128,7 @@ matrix2d
 Matrix2D
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -137,7 +137,7 @@ point
 Point2D
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -146,7 +146,7 @@ rect
 Rect
 ;
 use
-geom
+euclid
 :
 :
 size

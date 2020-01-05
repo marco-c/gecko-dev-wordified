@@ -118,7 +118,7 @@ WindowNavigateMsg
 }
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -130,7 +130,7 @@ TypedPoint2D
 }
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -142,7 +142,7 @@ TypedRect
 }
 ;
 use
-geom
+euclid
 :
 :
 scale_factor
@@ -151,7 +151,7 @@ scale_factor
 ScaleFactor
 ;
 use
-geom
+euclid
 :
 :
 size

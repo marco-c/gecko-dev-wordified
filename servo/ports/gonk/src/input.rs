@@ -150,7 +150,7 @@ io
 Read
 ;
 use
-geom
+euclid
 :
 :
 point

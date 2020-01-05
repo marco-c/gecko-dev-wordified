@@ -100,7 +100,7 @@ linked_list
 LinkedList
 ;
 use
-geom
+euclid
 :
 :
 rect

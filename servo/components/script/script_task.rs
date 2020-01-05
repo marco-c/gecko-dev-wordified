@@ -910,13 +910,13 @@ util
 task_state
 ;
 use
-geom
+euclid
 :
 :
 Rect
 ;
 use
-geom
+euclid
 :
 :
 point

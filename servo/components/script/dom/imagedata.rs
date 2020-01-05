@@ -132,7 +132,7 @@ reflect_dom_object
 }
 ;
 use
-geom
+euclid
 :
 :
 size

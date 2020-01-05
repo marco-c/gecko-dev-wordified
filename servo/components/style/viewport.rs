@@ -70,7 +70,7 @@ parse_important
 }
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -82,7 +82,7 @@ TypedSize2D
 }
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

@@ -521,7 +521,7 @@ wrapper
 ThreadSafeLayoutNode
 ;
 use
-geom
+euclid
 :
 :
 {

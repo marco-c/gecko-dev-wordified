@@ -174,7 +174,7 @@ ThreadSafeLayoutNode
 }
 ;
 use
-geom
+euclid
 :
 :
 {

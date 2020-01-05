@@ -241,7 +241,7 @@ script_traits
 ;
 extern
 crate
-geom
+euclid
 ;
 extern
 crate

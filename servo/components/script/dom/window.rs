@@ -582,7 +582,7 @@ HTML_SPACE_CHARACTERS
 }
 ;
 use
-geom
+euclid
 :
 :
 {

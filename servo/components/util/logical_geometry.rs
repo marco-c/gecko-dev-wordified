@@ -67,7 +67,7 @@ relative
 space
 .
 use
-geom
+euclid
 :
 :
 {
@@ -78,7 +78,7 @@ Rect
 }
 ;
 use
-geom
+euclid
 :
 :
 num

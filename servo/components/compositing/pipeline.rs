@@ -94,7 +94,7 @@ devtools_traits
 DevtoolsControlChan
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -105,7 +105,7 @@ TypedRect
 }
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

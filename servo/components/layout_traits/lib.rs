@@ -58,7 +58,7 @@ MPL
 /
 extern
 crate
-geom
+euclid
 ;
 extern
 crate
@@ -132,7 +132,7 @@ on
 layout
 .
 use
-geom
+euclid
 :
 :
 rect

@@ -168,7 +168,7 @@ RGBA
 }
 ;
 use
-geom
+euclid
 :
 :
 {

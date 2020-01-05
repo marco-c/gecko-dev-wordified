@@ -112,7 +112,7 @@ compositing
 ;
 extern
 crate
-geom
+euclid
 ;
 extern
 crate
@@ -205,7 +205,7 @@ windowing
 WindowEvent
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

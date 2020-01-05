@@ -78,7 +78,7 @@ cssparser
 ;
 extern
 crate
-geom
+euclid
 ;
 extern
 crate

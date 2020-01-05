@@ -149,7 +149,7 @@ DevtoolsControlMsg
 }
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -158,7 +158,7 @@ point
 Point2D
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -170,7 +170,7 @@ TypedRect
 }
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -179,7 +179,7 @@ size
 Size2D
 ;
 use
-geom
+euclid
 :
 :
 scale_factor

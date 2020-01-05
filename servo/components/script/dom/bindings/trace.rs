@@ -474,7 +474,7 @@ types
 EncodingRef
 ;
 use
-geom
+euclid
 :
 :
 matrix2d
@@ -483,7 +483,7 @@ matrix2d
 Matrix2D
 ;
 use
-geom
+euclid
 :
 :
 rect
@@ -492,7 +492,7 @@ rect
 Rect
 ;
 use
-geom
+euclid
 :
 :
 size

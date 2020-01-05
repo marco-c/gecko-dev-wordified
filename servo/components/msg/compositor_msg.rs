@@ -76,7 +76,7 @@ KeyModifiers
 }
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -85,7 +85,7 @@ point
 Point2D
 ;
 use
-geom
+euclid
 :
 :
 rect

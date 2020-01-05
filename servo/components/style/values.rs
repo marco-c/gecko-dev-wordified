@@ -617,7 +617,7 @@ CssStringWriter
 }
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -6876,7 +6876,7 @@ as
 CSSColor
 ;
 use
-geom
+euclid
 :
 :
 size

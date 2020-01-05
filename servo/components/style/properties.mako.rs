@@ -222,13 +222,13 @@ fnv
 FnvHasher
 ;
 use
-geom
+euclid
 :
 :
 SideOffsets2D
 ;
 use
-geom
+euclid
 :
 :
 size
@@ -26918,7 +26918,7 @@ ToComputedValue
 }
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -27185,7 +27185,7 @@ cssparser
 ToCss
 ;
 use
-geom
+euclid
 :
 :
 point

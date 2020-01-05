@@ -267,7 +267,7 @@ WebGLUniformLocationHelpers
 }
 ;
 use
-geom
+euclid
 :
 :
 size

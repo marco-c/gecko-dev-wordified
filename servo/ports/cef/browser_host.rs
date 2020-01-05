@@ -142,7 +142,7 @@ MouseWindowEvent
 }
 ;
 use
-geom
+euclid
 :
 :
 point
@@ -151,7 +151,7 @@ point
 Point2D
 ;
 use
-geom
+euclid
 :
 :
 size

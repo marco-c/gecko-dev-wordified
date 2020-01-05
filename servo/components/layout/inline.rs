@@ -163,7 +163,7 @@ use
 text
 ;
 use
-geom
+euclid
 :
 :
 {
