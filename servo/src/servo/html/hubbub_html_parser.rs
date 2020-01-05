@@ -175,10 +175,7 @@ str
 eq_slice
 ;
 use
-gfx
-:
-:
-util
+servo_util
 :
 :
 url

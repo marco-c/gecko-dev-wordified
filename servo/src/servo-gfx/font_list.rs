@@ -124,7 +124,7 @@ use
 native
 ;
 use
-util
+servo_util
 :
 :
 time

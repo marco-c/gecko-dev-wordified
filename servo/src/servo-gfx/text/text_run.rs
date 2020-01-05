@@ -91,7 +91,7 @@ RunMetrics
 }
 ;
 use
-servo_gfx_util
+servo_util
 :
 :
 range

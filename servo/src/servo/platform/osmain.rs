@@ -178,10 +178,7 @@ opts
 Opts
 ;
 use
-gfx
-:
-:
-util
+servo_util
 :
 :
 time

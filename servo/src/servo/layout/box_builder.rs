@@ -190,10 +190,7 @@ holder
 ImageHolder
 ;
 use
-gfx
-:
-:
-util
+servo_util
 :
 :
 range

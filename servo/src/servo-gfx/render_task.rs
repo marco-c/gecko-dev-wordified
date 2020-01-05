@@ -128,7 +128,7 @@ util
 spawn_listener
 ;
 use
-util
+servo_util
 :
 :
 time

@@ -63,7 +63,7 @@ geometry
 Au
 ;
 use
-servo_gfx_util
+servo_util
 :
 :
 range
@@ -72,7 +72,7 @@ range
 Range
 ;
 use
-servo_gfx_util
+servo_util
 :
 :
 vec

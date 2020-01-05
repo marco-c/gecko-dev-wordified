@@ -91,7 +91,7 @@ native
 FontHandle
 ;
 use
-util
+servo_util
 :
 :
 cache
@@ -100,7 +100,7 @@ cache
 Cache
 ;
 use
-util
+servo_util
 :
 :
 cache
