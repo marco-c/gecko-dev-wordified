@@ -3664,26 +3664,26 @@ endif
 }
 ;
 using
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 =
 nsGridContainerFrame
 :
 :
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 ;
 using
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 =
 nsGridContainerFrame
 :
 :
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 ;
 template
 <
 >
 bool
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 CSSOrderComparator
@@ -3726,7 +3726,7 @@ template
 <
 >
 bool
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 IsForward
@@ -3745,7 +3745,7 @@ nsFrameList
 :
 :
 iterator
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 begin
@@ -3771,7 +3771,7 @@ nsFrameList
 :
 :
 iterator
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 end
@@ -3794,7 +3794,7 @@ template
 <
 >
 bool
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 :
 :
 CSSOrderComparator
@@ -3837,7 +3837,7 @@ template
 <
 >
 bool
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 :
 :
 IsForward
@@ -3856,7 +3856,7 @@ nsFrameList
 :
 :
 reverse_iterator
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 :
 :
 begin
@@ -3882,7 +3882,7 @@ nsFrameList
 :
 :
 reverse_iterator
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 :
 :
 end
@@ -14510,7 +14510,7 @@ aGridCB
 )
 const
 ;
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 mIter
 ;
 const
@@ -29160,7 +29160,7 @@ StyleContext
 (
 )
 ;
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 &
 iter
 =
@@ -31211,7 +31211,7 @@ Step2ItemData
 >
 step2Items
 ;
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 &
 iter
 =
@@ -33568,7 +33568,7 @@ aState
 .
 mRenderingContext
 ;
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 &
 iter
 =
@@ -38368,7 +38368,7 @@ mIter
 .
 Reset
 (
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 eIncludeAll
@@ -42535,7 +42535,7 @@ mIter
 .
 Reset
 (
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 eIncludeAll
@@ -45322,7 +45322,7 @@ eLast
 }
 Maybe
 <
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 >
 iter
 ;
@@ -45467,7 +45467,7 @@ bug
 using
 Filter
 =
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 ChildFilter
@@ -45475,7 +45475,7 @@ ChildFilter
 using
 Order
 =
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 OrderState
@@ -48133,7 +48133,7 @@ BlockBorderBackgrounds
 list
 .
 typedef
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 OrderState
@@ -48157,12 +48157,12 @@ OrderState
 :
 eKnownUnordered
 ;
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 iter
 (
 this
 kPrincipalList
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 :
 :
 eIncludeAll
@@ -49303,7 +49303,7 @@ CalculateBaselines
 (
 BaselineSet
 aBaselineSet
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 *
 aIter
 const
@@ -49662,7 +49662,7 @@ GridReflowInput
 using
 Iter
 =
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 ;
 auto
 orderState
@@ -50259,7 +50259,7 @@ nsGridContainerFrame
 :
 FindFirstItemInGridOrder
 (
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 &
 aIter
 const
@@ -50468,7 +50468,7 @@ nsGridContainerFrame
 :
 FindLastItemInGridOrder
 (
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 &
 aIter
 const

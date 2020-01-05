@@ -1200,7 +1200,7 @@ nsFrameList
 :
 iterator
 >
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 ;
 typedef
 CSSOrderAwareFrameIteratorT
@@ -1210,7 +1210,7 @@ nsFrameList
 :
 reverse_iterator
 >
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 ;
 struct
 FindItemInGridOrderResult
@@ -1862,7 +1862,7 @@ CalculateBaselines
 (
 BaselineSet
 aBaselineSet
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 *
 aIter
 const
@@ -2005,7 +2005,7 @@ static
 FindItemInGridOrderResult
 FindFirstItemInGridOrder
 (
-GridItemCSSOrderIterator
+CSSOrderAwareFrameIterator
 &
 aIter
 const
@@ -2133,7 +2133,7 @@ static
 FindItemInGridOrderResult
 FindLastItemInGridOrder
 (
-ReverseGridItemCSSOrderIterator
+ReverseCSSOrderAwareFrameIterator
 &
 aIter
 const
