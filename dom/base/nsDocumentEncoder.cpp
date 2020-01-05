@@ -1145,6 +1145,7 @@ mDocument
 mSelection
 mRange
 mNode
+mSerializer
 mCommonParent
 )
 nsDocumentEncoder
