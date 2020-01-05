@@ -88,6 +88,17 @@ object
 )
 :
     
+maxDiff
+=
+None
+#
+we
+got
+big
+dictionaries
+to
+compare
+    
 extension
 =
 None
@@ -208,12 +219,6 @@ setUp
 self
 )
 :
-        
-self
-.
-maxDiff
-=
-None
         
 self
 .
@@ -810,7 +815,6 @@ localized
 "
 "
 "
-\
 bar
 =
 %
@@ -974,7 +978,7 @@ at
 line
 1
 column
-7
+6
 for
 bar
 '
@@ -1342,12 +1346,6 @@ setUp
 self
 )
 :
-        
-self
-.
-maxDiff
-=
-None
         
 self
 .
@@ -2190,24 +2188,10 @@ gimmick
 '
 >
 "
-'
-                                       
-u
-'
-from
-line
-2
-colum
-1
-to
-'
-                                       
-u
-'
-line
-2
-column
-22
+at
+23
+-
+44
 '
 ]
                              

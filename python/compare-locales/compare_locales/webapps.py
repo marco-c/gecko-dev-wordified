@@ -577,8 +577,7 @@ e
 )
             
 return
-{
-}
+False
         
 return
 self

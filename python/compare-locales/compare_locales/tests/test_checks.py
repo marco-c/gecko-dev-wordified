@@ -79,7 +79,6 @@ compare_locales
 parser
 import
 getParser
-Parser
 Entity
 from
 compare_locales
@@ -2222,25 +2221,14 @@ v
 )
 :
         
-ctx
-=
-Parser
-.
-Context
-(
-v
-)
-        
 return
 Entity
 (
-ctx
+v
 lambda
 s
 :
 s
-'
-'
 (
 0
 len
@@ -2249,6 +2237,10 @@ v
 )
 )
 (
+)
+(
+0
+0
 )
 (
 )
@@ -2290,11 +2282,8 @@ quot
 '
 )
         
-ctx
-=
-Parser
-.
-Context
+return
+Entity
 (
 '
 <
@@ -2309,19 +2298,11 @@ s
 '
 %
 v
-)
-        
-return
-Entity
-(
-ctx
                       
 lambda
 s
 :
 s
-'
-'
                       
 (
 0
@@ -2333,6 +2314,10 @@ v
 16
 )
 (
+)
+(
+0
+0
 )
 (
 )
