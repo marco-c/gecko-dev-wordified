@@ -298,7 +298,7 @@ h
 #
 include
 "
-nsScreenGtk
+ScreenHelperGTK
 .
 h
 "
@@ -35407,10 +35407,10 @@ mGdkWindow
 #
 endif
 return
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;

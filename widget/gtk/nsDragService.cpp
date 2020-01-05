@@ -373,7 +373,7 @@ h
 #
 include
 "
-nsScreenGtk
+ScreenHelperGTK
 .
 h
 "
@@ -1577,10 +1577,10 @@ user_data
 gint
 scale
 =
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;
@@ -3184,10 +3184,10 @@ sCairoSurfaceSetDeviceScalePtr
 gint
 scale
 =
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;
@@ -9137,10 +9137,10 @@ display
 gint
 scale
 =
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;

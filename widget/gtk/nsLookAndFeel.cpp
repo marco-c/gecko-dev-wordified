@@ -186,7 +186,7 @@ h
 #
 include
 "
-nsScreenGtk
+ScreenHelperGTK
 .
 h
 "
@@ -4698,10 +4698,10 @@ consistency
 size
 *
 =
-nsScreenGtk
+ScreenHelperGTK
 :
 :
-GetGtkMonitorScaleFactor
+GetGTKMonitorScaleFactor
 (
 )
 ;
