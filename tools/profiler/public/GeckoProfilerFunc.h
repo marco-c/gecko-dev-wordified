@@ -349,13 +349,6 @@ int
 frameNumber
 )
 ;
-const
-double
-*
-mozilla_sampler_get_responsiveness
-(
-)
-;
 mozilla
 :
 :
