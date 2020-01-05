@@ -1567,17 +1567,6 @@ aPerm
 ;
 virtual
 bool
-IsOnCSSUnprefixingWhitelist
-(
-)
-override
-{
-return
-false
-;
-}
-virtual
-bool
 IsCodebasePrincipal
 (
 )
