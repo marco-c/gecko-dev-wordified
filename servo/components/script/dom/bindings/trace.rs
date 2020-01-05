@@ -682,6 +682,7 @@ constellation_msg
 :
 :
 {
+FrameId
 FrameType
 PipelineId
 ReferrerPolicy
@@ -2472,6 +2473,7 @@ structs
 no_jsmanaged_fields
 !
 (
+FrameId
 FrameType
 WindowSizeData
 WindowSizeType
