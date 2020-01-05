@@ -665,6 +665,13 @@ JSTraceable
 for
 ServoHTMLParser
 {
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 trace
 (

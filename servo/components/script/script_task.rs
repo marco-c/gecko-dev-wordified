@@ -83,6 +83,14 @@ and
 layout
 tasks
 .
+#
+!
+[
+allow
+(
+unsafe_blocks
+)
+]
 use
 dom
 :

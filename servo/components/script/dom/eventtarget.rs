@@ -1235,6 +1235,13 @@ get_listener
 )
 )
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 set_event_handler_uncompiled
 (

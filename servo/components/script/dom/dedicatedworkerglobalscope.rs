@@ -1434,6 +1434,13 @@ a
 DedicatedWorkerGlobalScope
 >
 {
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 handle_event
 (
@@ -1677,6 +1684,13 @@ a
 DedicatedWorkerGlobalScope
 >
 {
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 PostMessage
 (

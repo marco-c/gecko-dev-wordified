@@ -2352,6 +2352,13 @@ message
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 Gc
 (
@@ -2536,6 +2543,13 @@ code
 "
 )
 }
+#
+[
+allow
+(
+unsafe_blocks
+)
+]
 fn
 evaluate_script_on_global_with_result
 (
