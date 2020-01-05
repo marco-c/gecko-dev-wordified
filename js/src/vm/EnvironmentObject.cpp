@@ -3790,10 +3790,11 @@ RootedModuleEnvironmentObject
 env
 (
 cx
+&
 module
 -
 >
-environment
+initialEnvironment
 (
 )
 )
