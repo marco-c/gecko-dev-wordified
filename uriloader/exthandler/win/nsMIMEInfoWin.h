@@ -106,6 +106,7 @@ nsMIMEInfoWin
 ;
 public
 :
+explicit
 nsMIMEInfoWin
 (
 const
@@ -123,6 +124,7 @@ aType
 )
 {
 }
+explicit
 nsMIMEInfoWin
 (
 const
