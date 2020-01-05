@@ -2615,6 +2615,13 @@ init
 (
 connect
 connect_data
+self
+.
+cookie_storage
+.
+clone
+(
+)
 )
 ;
 }
