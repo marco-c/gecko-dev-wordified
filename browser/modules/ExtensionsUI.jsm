@@ -280,7 +280,7 @@ chrome
 :
 /
 /
-browser
+branding
 /
 locale
 /

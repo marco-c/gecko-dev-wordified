@@ -539,12 +539,12 @@ is
 ul
 .
 childElementCount
-4
+5
 "
 Permissions
 list
 has
-4
+5
 entries
 "
 )
