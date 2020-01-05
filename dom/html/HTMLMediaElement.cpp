@@ -4495,10 +4495,6 @@ mSourceLoadCandidate
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mAudioChannelAgent
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
 mError
 )
 for
@@ -4623,10 +4619,6 @@ mLoadBlockedDoc
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mSourceLoadCandidate
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mAudioChannelAgent
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
