@@ -352,17 +352,6 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
-(
-WasmModules
-(
-)
-.
-IsEmpty
-(
-)
-)
-;
 mInitialized
 =
 true
