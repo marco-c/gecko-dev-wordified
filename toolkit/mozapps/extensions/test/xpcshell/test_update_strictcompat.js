@@ -6295,13 +6295,6 @@ let
 addons
 =
 yield
-new
-Promise
-(
-resolve
-=
->
-{
 AddonManager
 .
 getAddonsByTypes
@@ -6311,10 +6304,6 @@ getAddonsByTypes
 extension
 "
 ]
-resolve
-)
-;
-}
 )
 ;
 for

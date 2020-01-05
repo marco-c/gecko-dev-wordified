@@ -425,12 +425,6 @@ let
 install
 =
 yield
-new
-Promise
-(
-resolve
-=
->
 AddonManager
 .
 getInstallForFile
@@ -440,8 +434,6 @@ do_get_addon
 "
 test_bootstrap1_1
 "
-)
-resolve
 )
 )
 ;

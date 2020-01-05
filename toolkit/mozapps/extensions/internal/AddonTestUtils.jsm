@@ -7472,6 +7472,9 @@ install
 returns
 {
 Promise
+<
+AddonInstall
+>
 }
 *
 Resolves
@@ -7556,6 +7559,9 @@ removeListener
 (
 listener
 )
+;
+return
+install
 ;
 }
 )
