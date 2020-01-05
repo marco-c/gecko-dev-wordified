@@ -267,7 +267,6 @@ js
 :
 {
 JS
-MutHeapJSVal
 MutNullableJS
 Root
 }
@@ -623,6 +622,7 @@ jsapi
 :
 :
 {
+Heap
 JSContext
 JS_ParseJSON
 }
@@ -1161,7 +1161,10 @@ mozjs
 ]
 response_json
 :
-MutHeapJSVal
+Heap
+<
+JSVal
+>
 #
 [
 ignore_heap_size_of
@@ -1563,10 +1566,10 @@ default
 )
 response_json
 :
-MutHeapJSVal
+Heap
 :
 :
-new
+default
 (
 )
 response_headers

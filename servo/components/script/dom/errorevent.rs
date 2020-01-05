@@ -153,10 +153,7 @@ bindings
 js
 :
 :
-{
-MutHeapJSVal
 Root
-}
 ;
 use
 dom
@@ -230,6 +227,7 @@ jsapi
 :
 :
 {
+Heap
 HandleValue
 JSContext
 }
@@ -307,7 +305,10 @@ mozjs
 ]
 error
 :
-MutHeapJSVal
+Heap
+<
+JSVal
+>
 }
 impl
 ErrorEvent
@@ -378,10 +379,10 @@ new
 )
 error
 :
-MutHeapJSVal
+Heap
 :
 :
-new
+default
 (
 )
 }

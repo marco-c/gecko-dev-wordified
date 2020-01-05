@@ -141,10 +141,7 @@ bindings
 js
 :
 :
-{
-MutHeapJSVal
 Root
-}
 ;
 use
 dom
@@ -214,6 +211,7 @@ jsapi
 :
 :
 {
+Heap
 HandleValue
 JSContext
 }
@@ -276,7 +274,10 @@ mozjs
 ]
 detail
 :
-MutHeapJSVal
+Heap
+<
+JSVal
+>
 }
 impl
 CustomEvent
@@ -301,10 +302,10 @@ new_inherited
 )
 detail
 :
-MutHeapJSVal
+Heap
 :
 :
-new
+default
 (
 )
 }
