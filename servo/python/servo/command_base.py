@@ -850,16 +850,29 @@ windows
 "
 :
         
+#
+If
+we
+are
+in
+a
+Visual
+Studio
+environment
+use
+msvc
+        
 if
 os
 .
 getenv
 (
 "
-MSYSTEM
+VSInstallDir
 "
 )
 is
+not
 None
 :
             
