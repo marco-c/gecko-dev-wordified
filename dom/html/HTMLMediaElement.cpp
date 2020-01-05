@@ -20846,7 +20846,7 @@ mVisibilityState
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+UNTRACKED
 )
 mErrorSink
 (
@@ -25648,6 +25648,13 @@ aNullParent
 mUnboundFromTree
 =
 true
+;
+mVisibilityState
+=
+Visibility
+:
+:
+UNTRACKED
 ;
 if
 (
@@ -40812,12 +40819,12 @@ bool
 isVisible
 =
 mVisibilityState
-!
+=
 =
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+APPROXIMATELY_VISIBLE
 ;
 if
 (
