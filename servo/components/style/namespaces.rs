@@ -267,10 +267,6 @@ prefix
 Some
 (
 value
-.
-into_string
-(
-)
 )
 ;
 }
