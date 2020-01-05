@@ -87,11 +87,11 @@ Components
 const
 TABS_TTL
 =
-604800
+1814400
 ;
 /
 /
-7
+21
 days
 .
 const
