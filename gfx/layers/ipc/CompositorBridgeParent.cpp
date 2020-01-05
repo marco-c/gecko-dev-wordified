@@ -8731,7 +8731,7 @@ aIdNamespace
 {
 #
 ifndef
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 /
 /
 Extra
@@ -8995,7 +8995,7 @@ aActor
 {
 #
 ifndef
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 /
 /
 Extra
