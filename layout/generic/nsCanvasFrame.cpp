@@ -2293,11 +2293,7 @@ Frame
 )
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsIFrame
 :
@@ -2453,11 +2449,7 @@ dt
 frame
 -
 >
-Properties
-(
-)
-.
-Set
+SetProperty
 (
 nsIFrame
 :

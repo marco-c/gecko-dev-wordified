@@ -5365,11 +5365,7 @@ pfd
 mFrame
 -
 >
-Properties
-(
-)
-.
-Remove
+RemoveProperty
 (
 nsIFrame
 :
@@ -5394,11 +5390,7 @@ pfd
 mFrame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsIFrame
 :

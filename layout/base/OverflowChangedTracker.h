@@ -736,11 +736,7 @@ NS_ASSERTION
 frame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsIFrame
 :
@@ -766,11 +762,7 @@ overflow
 frame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsIFrame
 :

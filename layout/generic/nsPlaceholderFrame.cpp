@@ -864,11 +864,7 @@ GetPrevContinuation
 ancestor
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 IBSplitPrevSibling
 (

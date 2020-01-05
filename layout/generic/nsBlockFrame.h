@@ -1715,11 +1715,7 @@ mOrigCursor
 mFrame
 -
 >
-Properties
-(
-)
-.
-Set
+SetProperty
 (
 LineCursorProperty
 (
@@ -2896,11 +2892,7 @@ HasLineCursor
 (
 )
 ?
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 LineCursorProperty
 (

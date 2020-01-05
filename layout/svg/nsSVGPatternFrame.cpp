@@ -603,11 +603,7 @@ our
 reference
 if
 any
-Properties
-(
-)
-.
-Delete
+DeleteProperty
 (
 nsSVGEffects
 :
@@ -3947,11 +3943,7 @@ nsSVGPaintingProperty
 *
 property
 =
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsSVGEffects
 :

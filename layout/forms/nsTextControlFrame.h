@@ -1664,11 +1664,7 @@ FinishedInitializer
 (
 )
 {
-Properties
-(
-)
-.
-Delete
+DeleteProperty
 (
 TextControlInitializer
 (

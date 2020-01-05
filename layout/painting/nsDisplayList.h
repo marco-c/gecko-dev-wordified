@@ -7937,11 +7937,7 @@ return
 aFrame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 OutOfFlowDisplayDataProperty
 (

@@ -1653,11 +1653,7 @@ LogicalSize
 *
 cb
 =
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 GridItemCBSizeProperty
 (
@@ -6265,11 +6261,7 @@ LogicalSize
 *
 cbSize
 =
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 GridItemCBSizeProperty
 (
