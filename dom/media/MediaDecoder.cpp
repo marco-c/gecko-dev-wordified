@@ -833,14 +833,6 @@ MediaTimer
 "
 )
 ;
-LazyLogModule
-gMediaSampleLog
-(
-"
-MediaSample
-"
-)
-;
 #
 endif
 void
