@@ -498,10 +498,9 @@ MIMEClassifier
 partial_body
 :
 &
-Vec
-<
+[
 u8
->
+]
 )
 -
 >
@@ -561,10 +560,9 @@ MIMEClassifier
 partial_body
 :
 &
-Vec
-<
+[
 u8
->
+]
 )
 -
 >

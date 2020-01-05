@@ -4413,10 +4413,9 @@ PipelineId
 new_layers
 :
 &
-Vec
-<
+[
 LayerProperties
->
+]
 )
 {
 let
