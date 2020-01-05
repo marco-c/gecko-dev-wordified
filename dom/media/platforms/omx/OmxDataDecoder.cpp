@@ -866,6 +866,11 @@ Omx
 component
 .
 InvokeAsync
+<
+const
+TrackInfo
+*
+>
 (
 mOmxTaskQueue
 mOmxLayer
