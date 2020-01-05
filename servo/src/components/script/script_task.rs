@@ -5021,10 +5021,7 @@ HTMLDocument
 :
 new
 (
-Some
-(
 window
-)
 )
 ;
 let

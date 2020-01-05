@@ -215,11 +215,8 @@ new
 (
 window
 :
-Option
-<
 mut
 Window
->
 )
 -
 >
@@ -249,10 +246,6 @@ AbstractDocument
 as_abstract
 (
 window
-.
-get_ref
-(
-)
 .
 get_cx
 (

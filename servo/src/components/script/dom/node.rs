@@ -4383,10 +4383,6 @@ doc
 doc
 .
 window
-.
-unwrap
-(
-)
 )
 ;
 (
