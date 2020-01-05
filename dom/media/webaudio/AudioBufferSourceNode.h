@@ -121,7 +121,7 @@ AudioBufferSourceNode_h_
 #
 include
 "
-AudioNode
+AudioScheduledSourceNode
 .
 h
 "
@@ -149,7 +149,7 @@ AudioBufferSourceNode
 final
 :
 public
-AudioNode
+AudioScheduledSourceNode
 public
 MainThreadMediaStreamListener
 {
@@ -210,7 +210,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AudioBufferSourceNode
-AudioNode
+AudioScheduledSourceNode
 )
 static
 already_AddRefed
@@ -288,6 +288,17 @@ aRv
 )
 ;
 void
+Start
+(
+double
+aWhen
+ErrorResult
+&
+aRv
+)
+override
+;
+void
 Stop
 (
 double
@@ -296,6 +307,7 @@ ErrorResult
 &
 aRv
 )
+override
 ;
 AudioBuffer
 *
@@ -443,10 +455,6 @@ double
 aDopplerShift
 )
 ;
-IMPL_EVENT_HANDLER
-(
-ended
-)
 void
 NotifyMainThreadStreamFinished
 (
