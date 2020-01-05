@@ -243,6 +243,9 @@ restyle_hints
 For
 flags
 use
+style
+:
+:
 gecko_bindings
 :
 :
@@ -495,6 +498,8 @@ include
 components
 /
 style
+/
+gecko
 /
 generated
 /
