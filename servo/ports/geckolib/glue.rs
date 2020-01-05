@@ -4757,7 +4757,7 @@ raw_sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 )
 {
 let
@@ -4825,7 +4825,7 @@ raw_sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 )
 {
 let
@@ -4893,10 +4893,10 @@ raw_sheet
 RawServoStyleSheetBorrowed
 unique_id
 :
-u32
+u64
 before_unique_id
 :
-u32
+u64
 )
 {
 let
@@ -4962,7 +4962,7 @@ raw_data
 RawServoStyleSetBorrowed
 unique_id
 :
-u32
+u64
 )
 {
 let

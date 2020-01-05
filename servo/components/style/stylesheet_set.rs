@@ -123,7 +123,7 @@ StylesheetSetEntry
 {
 unique_id
 :
-u32
+u64
 sheet
 :
 Arc
@@ -426,7 +426,7 @@ mut
 self
 unique_id
 :
-u32
+u64
 )
 {
 self
@@ -475,7 +475,7 @@ Stylesheet
 >
 unique_id
 :
-u32
+u64
 )
 {
 self
@@ -541,7 +541,7 @@ Stylesheet
 >
 unique_id
 :
-u32
+u64
 )
 {
 self
@@ -610,10 +610,10 @@ Stylesheet
 >
 unique_id
 :
-u32
+u64
 before_unique_id
 :
-u32
+u64
 )
 {
 self
@@ -708,7 +708,7 @@ mut
 self
 unique_id
 :
-u32
+u64
 )
 {
 self
