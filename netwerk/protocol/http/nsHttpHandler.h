@@ -3349,6 +3349,9 @@ SpeculativeConnectInternal
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 nsIInterfaceRequestor
 *
 aCallbacks
