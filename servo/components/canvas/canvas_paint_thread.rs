@@ -206,12 +206,6 @@ use
 util
 :
 :
-opts
-;
-use
-util
-:
-:
 thread
 :
 :
@@ -664,6 +658,9 @@ a
 fn
 new
 (
+antialias
+:
+bool
 )
 -
 >
@@ -677,14 +674,7 @@ let
 antialias
 =
 if
-opts
-:
-:
-get
-(
-)
-.
-enable_canvas_antialiasing
+antialias
 {
 AntialiasMode
 :
@@ -845,6 +835,9 @@ webrender_traits
 :
 RenderApiSender
 >
+antialias
+:
+bool
 )
 -
 >
@@ -927,6 +920,7 @@ CanvasPaintState
 :
 new
 (
+antialias
 )
 saved_states
 :
@@ -980,6 +974,9 @@ webrender_traits
 :
 RenderApiSender
 >
+antialias
+:
+bool
 )
 -
 >
@@ -1034,6 +1031,7 @@ new
 (
 size
 webrender_api_sender
+antialias
 )
 ;
 loop
