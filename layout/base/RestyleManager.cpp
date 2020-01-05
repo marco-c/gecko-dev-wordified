@@ -9316,7 +9316,7 @@ GetPseudo
 aOldStyleContext
 -
 >
-GetParentAllowServo
+GetParent
 (
 )
 !
@@ -9324,7 +9324,7 @@ GetParentAllowServo
 nextStyle
 -
 >
-GetParentAllowServo
+GetParent
 (
 )
 "

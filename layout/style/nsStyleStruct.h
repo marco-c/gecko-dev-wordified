@@ -17301,13 +17301,8 @@ nsStyleConsts
 h
 NS_STYLE_CONTAIN_
 *
-/
-/
 private
 :
-XXX
-not
-yet
 friend
 class
 nsComputedDOMStyle
