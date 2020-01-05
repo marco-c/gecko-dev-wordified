@@ -1073,6 +1073,14 @@ test
 "
 }
 {
+"
+localhost
+"
+"
+unknownissuer
+"
+}
+{
 nullptr
 nullptr
 }
