@@ -143,6 +143,17 @@ mozilla
 .
 gecko
 .
+gfx
+.
+GeckoSurface
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 mozglue
 .
 JNIObject
@@ -221,7 +232,7 @@ FormatParam
 mFormat
 ;
 private
-Surface
+GeckoSurface
 mOutputSurface
 ;
 private
@@ -667,7 +678,7 @@ boolean
 isEncoder
 MediaFormat
 format
-Surface
+GeckoSurface
 surface
 Callbacks
 callbacks
@@ -701,7 +712,7 @@ boolean
 isEncoder
 MediaFormat
 format
-Surface
+GeckoSurface
 surface
 Callbacks
 callbacks
@@ -728,7 +739,7 @@ boolean
 isEncoder
 MediaFormat
 format
-Surface
+GeckoSurface
 surface
 Callbacks
 callbacks
