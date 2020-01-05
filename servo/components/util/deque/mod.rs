@@ -3604,10 +3604,13 @@ new
 self
 .
 log_size
-+
+.
+wrapping_add
+(
 delta
 as
 usize
+)
 )
 ;
 for
