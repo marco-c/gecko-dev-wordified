@@ -3197,10 +3197,6 @@ unbarrieredGet
 proto
 (
 )
-.
-unbarrieredGet
-(
-)
 ;
 JSObject
 *

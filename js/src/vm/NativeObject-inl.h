@@ -1722,10 +1722,6 @@ Shape
 shape
 =
 shape_
-.
-unbarrieredGet
-(
-)
 ;
 if
 (
