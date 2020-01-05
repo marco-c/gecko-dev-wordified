@@ -15743,7 +15743,7 @@ ar
 mScanInProgress
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mScanInProgress
@@ -18193,7 +18193,7 @@ ar
 mScanInProgress
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mScanInProgress
@@ -22376,7 +22376,7 @@ ar
 mScanInProgress
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mScanInProgress
