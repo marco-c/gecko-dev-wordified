@@ -954,7 +954,15 @@ self
 DecodeVideoFrame
 (
 skip
-0
+media
+:
+:
+TimeUnit
+:
+:
+Zero
+(
+)
 )
 )
 {
@@ -1684,10 +1692,6 @@ DecodeVideoFrame
 (
 skip
 aTimeThreshold
-.
-ToMicroseconds
-(
-)
 )
 )
 {
