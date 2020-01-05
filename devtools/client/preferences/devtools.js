@@ -728,7 +728,7 @@ mdnDocsTooltip
 .
 enabled
 "
-true
+false
 )
 ;
 /
