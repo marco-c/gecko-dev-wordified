@@ -1204,7 +1204,9 @@ LastAccessed
 (
 )
 >
-mCookieStaleThreshold
+CookieStaleThreshold
+(
+)
 *
 PR_USEC_PER_SEC
 ;
