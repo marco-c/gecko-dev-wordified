@@ -61,6 +61,10 @@ import
 shared_telemetry_utils
 as
 utils
+from
+shared_telemetry_utils
+import
+ParserError
 #
 The
 map
@@ -382,7 +386,7 @@ probe
         
 :
 raises
-ValueError
+ParserError
 :
 if
 the
@@ -444,7 +448,7 @@ MAX_NAME_LENGTH
 :
                 
 raise
-ValueError
+ParserError
 (
 (
 "
@@ -544,7 +548,7 @@ name
 :
                 
 raise
-ValueError
+ParserError
 (
 (
 error_msg_prefix
@@ -640,7 +644,7 @@ name
 :
                 
 raise
-ValueError
+ParserError
 (
 (
 error_msg_prefix
@@ -781,7 +785,7 @@ properties
         
 :
 raises
-TypeError
+ParserError
 :
 if
 a
@@ -796,8 +800,8 @@ type
 .
         
 :
-raise
-KeyError
+raises
+ParserError
 :
 if
 a
@@ -1014,7 +1018,7 @@ missing_fields
 :
             
 raise
-KeyError
+ParserError
 (
 self
 .
@@ -1093,7 +1097,7 @@ unknown_fields
 :
             
 raise
-KeyError
+ParserError
 (
 self
 .
@@ -1199,7 +1203,7 @@ wrong_type_names
 :
             
 raise
-TypeError
+ParserError
 (
 self
 .
@@ -1304,7 +1308,7 @@ field
 :
                 
 raise
-TypeError
+ParserError
 (
 (
 "
@@ -1392,7 +1396,7 @@ broken_types
 :
                 
 raise
-TypeError
+ParserError
 (
 (
 "
@@ -1490,7 +1494,7 @@ properties
         
 :
 raises
-ValueError
+ParserError
 :
 if
 a
@@ -1537,7 +1541,7 @@ keys
 :
             
 raise
-ValueError
+ParserError
 (
 self
 .
@@ -1608,7 +1612,7 @@ out
 :
             
 raise
-ValueError
+ParserError
 (
 self
 .
@@ -1677,7 +1681,7 @@ cpp_guard
 :
             
 raise
-ValueError
+ParserError
 (
 self
 .
@@ -1746,7 +1750,7 @@ proc
 :
                 
 raise
-ValueError
+ParserError
 (
 self
 .
@@ -2440,7 +2444,7 @@ definition
     
 :
 raises
-Exception
+ParserError
 :
 if
 the
@@ -2502,7 +2506,7 @@ e
 :
         
 raise
-Exception
+ParserError
 (
 '
 Error
@@ -2521,12 +2525,12 @@ message
 )
     
 except
-ValueError
+ParserError
 e
 :
         
 raise
-Exception
+ParserError
 (
 '
 Error
@@ -2661,7 +2665,7 @@ group
 :
             
 raise
-ValueError
+ParserError
 (
 group_name
 +
