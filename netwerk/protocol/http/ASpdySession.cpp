@@ -223,8 +223,6 @@ version
 nsISocketTransport
 *
 aTransport
-bool
-attemptingEarlyData
 )
 {
 /
@@ -338,7 +336,6 @@ Http2Session
 (
 aTransport
 version
-attemptingEarlyData
 )
 ;
 }

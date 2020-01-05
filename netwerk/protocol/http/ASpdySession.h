@@ -203,14 +203,6 @@ DontReuse
 =
 0
 ;
-virtual
-uint32_t
-SpdyVersion
-(
-)
-=
-0
-;
 static
 ASpdySession
 *
@@ -220,7 +212,6 @@ uint32_t
 version
 nsISocketTransport
 *
-bool
 )
 ;
 /
