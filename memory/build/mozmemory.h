@@ -154,7 +154,6 @@ jemalloc_types
 .
 h
 "
-MOZ_BEGIN_EXTERN_C
 /
 *
 *
@@ -635,7 +634,6 @@ jemalloc_bool
 enabled
 )
 ;
-MOZ_END_EXTERN_C
 #
 endif
 /
