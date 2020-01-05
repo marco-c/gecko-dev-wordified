@@ -2009,7 +2009,7 @@ aElement
 )
 ;
 bool
-FillKeyframesForName
+GetKeyframesForName
 (
 const
 nsString
