@@ -3673,7 +3673,7 @@ HasNoOrValidMask
 )
 &
 &
-HasNoFilterOrHasValidFilter
+HasNoOrValidFilter
 (
 )
 ;
