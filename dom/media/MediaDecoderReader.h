@@ -1017,7 +1017,6 @@ at
 or
 after
 aTimeThreshold
-microseconds
 .
 virtual
 RefPtr
@@ -1028,7 +1027,12 @@ RequestVideoData
 (
 bool
 aSkipToNextKeyframe
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTimeThreshold
 )
 ;
