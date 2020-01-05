@@ -4878,8 +4878,14 @@ self
 )
 -
 >
+Vec
+<
 WindowEvent
+>
 {
+vec
+!
+[
 self
 .
 event_recv
@@ -4891,6 +4897,7 @@ recv
 unwrap
 (
 )
+]
 }
 }
 impl
