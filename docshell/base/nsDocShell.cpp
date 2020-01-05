@@ -73020,16 +73020,6 @@ GetOriginAttributes
 attrs
 )
 ;
-attrs
-.
-StripAttributes
-(
-OriginAttributes
-:
-:
-STRIP_ADDON_ID
-)
-;
 principalToInherit
 =
 nsNullPrincipal
