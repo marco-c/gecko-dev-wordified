@@ -9160,6 +9160,7 @@ widget
 CompositorWidgetParent
 (
 aInitData
+mOptions
 )
 ;
 widget

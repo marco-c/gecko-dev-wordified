@@ -164,6 +164,13 @@ const
 CompositorWidgetInitData
 &
 aInitData
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 nsWindow
 *
 aWindow

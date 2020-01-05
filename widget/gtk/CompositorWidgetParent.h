@@ -141,6 +141,13 @@ const
 CompositorWidgetInitData
 &
 aInitData
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 )
 ;
 ~
