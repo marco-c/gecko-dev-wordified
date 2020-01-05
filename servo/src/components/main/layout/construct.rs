@@ -765,18 +765,6 @@ use
 servo_util
 :
 :
-smallvec
-:
-:
-{
-SmallVec
-SmallVec0
-}
-;
-use
-servo_util
-:
-:
 str
 :
 :
@@ -8263,7 +8251,7 @@ let
 mut
 new_boxes
 =
-SmallVec0
+Vec
 :
 :
 new

@@ -223,18 +223,6 @@ range
 Range
 ;
 use
-servo_util
-:
-:
-smallvec
-:
-:
-{
-SmallVec
-SmallVec0
-}
-;
-use
 std
 :
 :
@@ -642,7 +630,7 @@ Floats
 pub
 new_boxes
 :
-SmallVec0
+Vec
 <
 Box
 >
@@ -660,7 +648,7 @@ LineBox
 pub
 lines
 :
-SmallVec0
+Vec
 <
 LineBox
 >
@@ -691,7 +679,7 @@ floats
 float_ctx
 new_boxes
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -778,7 +766,7 @@ new
 }
 lines
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -844,7 +832,7 @@ self
 .
 lines
 =
-SmallVec0
+Vec
 :
 :
 new
@@ -855,7 +843,7 @@ self
 .
 new_boxes
 =
-SmallVec0
+Vec
 :
 :
 new
@@ -1345,7 +1333,7 @@ mut
 self
 .
 new_boxes
-SmallVec0
+Vec
 :
 :
 new
@@ -1371,7 +1359,7 @@ mut
 self
 .
 lines
-SmallVec0
+Vec
 :
 :
 new
@@ -4187,7 +4175,7 @@ themselves
 pub
 boxes
 :
-SmallVec0
+Vec
 <
 Box
 >
@@ -4236,7 +4224,7 @@ InlineBoxes
 {
 boxes
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -4786,7 +4774,7 @@ lines
 pub
 lines
 :
-SmallVec0
+Vec
 <
 LineBox
 >
@@ -4883,7 +4871,7 @@ boxes
 boxes
 lines
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -8401,7 +8389,7 @@ FragmentMap
 {
 list
 :
-SmallVec0
+Vec
 <
 FragmentRange
 >
@@ -8431,7 +8419,7 @@ FragmentMap
 {
 list
 :
-SmallVec0
+Vec
 :
 :
 new
@@ -8884,7 +8872,7 @@ mut
 self
 .
 list
-SmallVec0
+Vec
 :
 :
 new
@@ -8896,7 +8884,7 @@ let
 mut
 worklist
 =
-SmallVec0
+Vec
 :
 :
 new
