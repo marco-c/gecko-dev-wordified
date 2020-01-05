@@ -447,6 +447,8 @@ path
 =
 "
 {
+repr
+(
 os
 .
 path
@@ -467,6 +469,13 @@ declaration_block
 rs
 '
 )
+)
+[
+1
+:
+-
+1
+]
 }
 "
 ]
