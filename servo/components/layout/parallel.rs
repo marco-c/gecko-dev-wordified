@@ -180,7 +180,6 @@ wrapper
 layout_node_to_unsafe_layout_node
 layout_node_from_unsafe_layout_node
 LayoutNode
-PostorderNodeMutTraversal
 }
 ;
 use
@@ -188,6 +187,7 @@ wrapper
 :
 :
 {
+PostorderNodeMutTraversal
 ThreadSafeLayoutNode
 UnsafeLayoutNode
 }
