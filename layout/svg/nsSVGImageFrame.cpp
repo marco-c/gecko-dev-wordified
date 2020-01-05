@@ -2628,12 +2628,6 @@ GetAnimValue
 (
 )
 )
-/
-*
-aIsPaintingSVGImageElement
-*
-/
-true
 )
 )
 )
