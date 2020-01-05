@@ -167,6 +167,13 @@ in
 debug
 builds
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 DOMRefCell
