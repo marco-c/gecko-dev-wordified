@@ -314,6 +314,14 @@ NACK
 /
 FEC
 mode
+kMediaConduitVideoSendStreamError
+/
+/
+WebRTC
+video
+send
+stream
+failure
 }
 ;
 }

@@ -448,6 +448,9 @@ Near
 end
 NS
 #
+define
+WEBRTC_VOE_EXTERNAL_REC_AND_PLAYOUT
+#
 if
 !
 defined

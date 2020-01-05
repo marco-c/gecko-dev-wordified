@@ -585,7 +585,7 @@ position
 tn
 =
 (
-int
+size_t
 )
 tnew
 ;

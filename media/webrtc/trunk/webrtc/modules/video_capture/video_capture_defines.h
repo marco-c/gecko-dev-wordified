@@ -122,6 +122,15 @@ video_frame
 .
 h
 "
+#
+ifdef
+XP_WIN
+typedef
+int
+pid_t
+;
+#
+endif
 namespace
 webrtc
 {

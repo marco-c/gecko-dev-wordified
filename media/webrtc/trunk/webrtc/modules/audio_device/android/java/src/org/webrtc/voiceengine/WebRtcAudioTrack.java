@@ -149,12 +149,24 @@ os
 Process
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 org
 .
-webrtc
+mozilla
 .
-Logging
+gecko
+.
+annotation
+.
+WebRTCJNITarget
 ;
+WebRTCJNITarget
 class
 WebRtcAudioTrack
 {
@@ -269,8 +281,6 @@ byteBuffer
 private
 AudioTrack
 audioTrack
-=
-null
 ;
 private
 AudioTrackThread
@@ -367,7 +377,7 @@ Process
 THREAD_PRIORITY_URGENT_AUDIO
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -469,7 +479,7 @@ IllegalStateException
 e
 )
 {
-Logging
+Log
 .
 e
 (
@@ -672,7 +682,7 @@ bytesWritten
 sizeInBytes
 )
 {
-Logging
+Log
 .
 e
 (
@@ -811,7 +821,7 @@ IllegalStateException
 e
 )
 {
-Logging
+Log
 .
 e
 (
@@ -959,7 +969,7 @@ long
 nativeAudioTrack
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1025,7 +1035,7 @@ int
 channels
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1065,7 +1075,7 @@ BITS_PER_SAMPLE
 ;
 byteBuffer
 =
-byteBuffer
+ByteBuffer
 .
 allocateDirect
 (
@@ -1078,7 +1088,7 @@ BUFFERS_PER_SECOND
 )
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -1215,7 +1225,7 @@ AudioFormat
 ENCODING_PCM_16BIT
 )
 ;
-Logging
+Log
 .
 d
 (
@@ -1358,7 +1368,7 @@ IllegalArgumentException
 e
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1422,7 +1432,7 @@ startPlayout
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1474,7 +1484,7 @@ stopPlayout
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1548,7 +1558,7 @@ getStreamMaxVolume
 (
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1601,7 +1611,7 @@ int
 volume
 )
 {
-Logging
+Log
 .
 d
 (
@@ -1633,7 +1643,7 @@ isVolumeFixed
 )
 )
 {
-Logging
+Log
 .
 e
 (
@@ -1721,7 +1731,7 @@ getStreamVolume
 (
 )
 {
-Logging
+Log
 .
 d
 (

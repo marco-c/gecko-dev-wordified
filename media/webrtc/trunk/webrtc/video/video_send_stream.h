@@ -359,6 +359,13 @@ Input
 )
 override
 ;
+CPULoadStateObserver
+*
+LoadStateObserver
+(
+)
+override
+;
 bool
 ReconfigureVideoEncoder
 (

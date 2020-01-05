@@ -106,8 +106,6 @@ interface
 is
 DEPRECATED
 ;
-"
-"
 use
 video_coding
 /
@@ -442,6 +440,15 @@ simulcast_idx
 struct
 CodecSpecificInfoH264
 {
+bool
+single_nalu
+;
+uint8_t
+simulcastIdx
+;
+uint8_t
+packetizationMode
+;
 }
 ;
 union

@@ -159,11 +159,11 @@ os
 Process
 ;
 import
-org
+android
 .
-webrtc
+util
 .
-Logging
+Log
 ;
 import
 java
@@ -610,7 +610,7 @@ if
 useWebRtcBasedAcousticEchoCanceler
 )
 {
-Logging
+Log
 .
 w
 (
@@ -646,7 +646,7 @@ if
 useWebRtcBasedAutomaticGainControl
 )
 {
-Logging
+Log
 .
 w
 (
@@ -682,7 +682,7 @@ if
 useWebRtcBasedNoiseSuppressor
 )
 {
-Logging
+Log
 .
 w
 (
@@ -1239,7 +1239,7 @@ String
 tag
 )
 {
-Logging
+Log
 .
 d
 (

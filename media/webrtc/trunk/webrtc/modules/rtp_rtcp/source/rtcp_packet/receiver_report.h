@@ -323,6 +323,7 @@ BlockLength
 (
 )
 const
+override
 {
 return
 kHeaderLength

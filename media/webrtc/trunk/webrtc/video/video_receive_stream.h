@@ -466,6 +466,14 @@ voice_engine
 int
 audio_channel_id
 )
+override
+;
+int64_t
+GetRtt
+(
+)
+const
+override
 ;
 private
 :

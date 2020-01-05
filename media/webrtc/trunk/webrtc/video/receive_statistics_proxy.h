@@ -331,6 +331,13 @@ rtt_ms
 )
 ;
 void
+ReceiveStateChange
+(
+VideoReceiveState
+state
+)
+;
+void
 OnPreDecode
 (
 const
@@ -609,6 +616,13 @@ the
 decoding
 thread
 .
+VideoReceiveState
+receive_state_
+GUARDED_BY
+(
+crit_
+)
+;
 }
 ;
 }

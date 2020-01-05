@@ -78,7 +78,7 @@ endif
 namespace
 mozilla
 {
-VideoEncoder
+WebrtcVideoEncoder
 *
 OMXVideoCodec
 :
@@ -108,7 +108,7 @@ return
 nullptr
 ;
 }
-VideoDecoder
+WebrtcVideoDecoder
 *
 OMXVideoCodec
 :

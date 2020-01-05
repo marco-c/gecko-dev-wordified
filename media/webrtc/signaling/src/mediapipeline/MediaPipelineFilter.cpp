@@ -130,11 +130,7 @@ include
 "
 webrtc
 /
-modules
-/
-interface
-/
-module_common_types
+common_types
 .
 h
 "

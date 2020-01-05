@@ -97,7 +97,7 @@ logTag
 MediaCodecVideoCodec
 "
 ;
-VideoEncoder
+WebrtcVideoEncoder
 *
 MediaCodecVideoCodec
 :
@@ -137,7 +137,7 @@ return
 nullptr
 ;
 }
-VideoDecoder
+WebrtcVideoDecoder
 *
 MediaCodecVideoCodec
 :

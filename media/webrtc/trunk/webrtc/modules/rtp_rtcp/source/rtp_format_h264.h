@@ -153,6 +153,8 @@ FrameType
 frame_type
 size_t
 max_payload_len
+uint8_t
+packetization_mode
 )
 ;
 virtual
@@ -392,6 +394,15 @@ GeneratePackets
 )
 ;
 void
+PacketizeMode0
+(
+size_t
+fragment_offset
+size_t
+fragment_length
+)
+;
+void
 PacketizeFuA
 (
 size_t
@@ -450,6 +461,9 @@ fragmentation_
 ;
 PacketQueue
 packets_
+;
+uint8_t
+packetization_mode_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
 (

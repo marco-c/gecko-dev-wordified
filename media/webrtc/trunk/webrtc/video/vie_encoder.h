@@ -282,6 +282,8 @@ VCMPacketizationCallback
 public
 VCMSendStatisticsCallback
 public
+CPULoadStateObserver
+public
 VideoCaptureCallback
 {
 public
@@ -429,6 +431,18 @@ Owner
 (
 )
 const
+;
+/
+/
+CPULoadStateObserver
+interface
+void
+onLoadStateChanged
+(
+CPULoadState
+state
+)
+override
 ;
 /
 /

@@ -3664,7 +3664,7 @@ nsAutoPtr
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 >
 videoFrame
 (
@@ -3672,7 +3672,7 @@ new
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 (
 new
 ImageNativeHandle
@@ -5749,7 +5749,7 @@ const
 webrtc
 :
 :
-I420VideoFrame
+VideoFrame
 &
 aInputImage
 const
@@ -5768,7 +5768,7 @@ vector
 webrtc
 :
 :
-VideoFrameType
+FrameType
 >
 *
 aFrameTypes
@@ -6830,7 +6830,7 @@ endif
 /
 /
 Wrap
-I420VideoFrame
+VideoFrame
 input
 with
 PlanarYCbCrImage

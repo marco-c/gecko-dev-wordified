@@ -108,7 +108,7 @@ failed
 *
 /
 static
-VideoEncoder
+WebrtcVideoEncoder
 *
 CreateEncoder
 (
@@ -141,7 +141,7 @@ failed
 *
 /
 static
-VideoDecoder
+WebrtcVideoDecoder
 *
 CreateDecoder
 (

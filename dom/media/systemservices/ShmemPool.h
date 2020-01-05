@@ -333,7 +333,7 @@ return
 mInitialized
 ;
 }
-char
+uint8_t
 *
 GetBytes
 (
@@ -344,7 +344,7 @@ mShmem
 .
 get
 <
-char
+uint8_t
 >
 (
 )

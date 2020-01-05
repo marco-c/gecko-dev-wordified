@@ -174,6 +174,9 @@ Window
 WindowId
 id
 ;
+pid_t
+pid
+;
 /
 /
 Title

@@ -2970,6 +2970,9 @@ LowRateExperimentEnabled
 (
 )
 {
+#
+ifndef
+WEBRTC_MOZILLA_BUILD
 if
 (
 low_rate_experiment_
@@ -3022,6 +3025,8 @@ kEnabled
 ;
 }
 }
+#
+endif
 return
 low_rate_experiment_
 =

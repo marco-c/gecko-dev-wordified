@@ -791,6 +791,11 @@ NumOfChannels
 )
 const
 ;
+const
+Config
+&
+config_
+;
 /
 /
 Returns
@@ -859,11 +864,6 @@ vector
 ChannelOwner
 >
 channels_
-;
-const
-Config
-&
-config_
 ;
 rtc
 :

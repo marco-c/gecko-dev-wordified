@@ -1331,7 +1331,7 @@ payloadType
 ;
 MOCK_METHOD2
 (
-SetRTPAudioLevelIndicationStatus
+SetAudioLevelIndicationStatus
 int32_t
 (
 const
