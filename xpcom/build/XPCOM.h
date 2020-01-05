@@ -402,13 +402,6 @@ h
 #
 include
 "
-nsICollection
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

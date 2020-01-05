@@ -260,13 +260,6 @@ h
 #
 include
 "
-nsSupportsArray
-.
-h
-"
-#
-include
-"
 nsContentCID
 .
 h
