@@ -134,6 +134,7 @@ command_base
 import
 CommandBase
 cd
+call
 CommandProvider
 class
 MachCommands
@@ -244,11 +245,8 @@ servo
 :
                 
 return
-subprocess
-.
 call
 (
-                    
 [
 "
 cargo
@@ -266,8 +264,6 @@ build_env
 )
         
 return
-subprocess
-.
 call
 (
 [
@@ -277,7 +273,6 @@ cargo
 ]
 +
 params
-                               
 env
 =
 self
@@ -708,8 +703,6 @@ print
 cargo_path
 )
                 
-subprocess
-.
 call
 (
 [
@@ -722,7 +715,7 @@ update
 ]
 +
 params
-                                
+                     
 env
 =
 self
@@ -894,8 +887,6 @@ params
 ]
         
 return
-subprocess
-.
 call
 (
 [
@@ -1200,8 +1191,6 @@ root_dirs_abs
 tests_dirs_abs
         
 return
-subprocess
-.
 call
 (
             
@@ -1308,8 +1297,6 @@ harness
             
 code
 =
-subprocess
-.
 call
 (
 [
@@ -1336,8 +1323,6 @@ code
 return
 code
             
-subprocess
-.
 call
 (
                 
@@ -1381,8 +1366,6 @@ build_env
             
 code
 =
-subprocess
-.
 call
 (
 [
@@ -1414,8 +1397,6 @@ code
             
 code
 =
-subprocess
-.
 call
 (
 [
