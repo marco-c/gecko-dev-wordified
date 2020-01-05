@@ -358,7 +358,6 @@ Utilities
 for
 writing
 plugins
-pub
 mod
 utils
 ;
