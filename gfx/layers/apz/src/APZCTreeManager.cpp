@@ -4435,6 +4435,11 @@ aLayer
 )
 aLayer
 .
+GetVisibleRegion
+(
+)
+aLayer
+.
 GetTransformTyped
 (
 )
@@ -5664,6 +5669,11 @@ aLayer
 )
 aLayer
 .
+GetVisibleRegion
+(
+)
+aLayer
+.
 GetTransformTyped
 (
 )
@@ -6384,6 +6394,11 @@ SetHitTestData
 GetEventRegions
 (
 aLayer
+)
+aLayer
+.
+GetVisibleRegion
+(
 )
 aLayer
 .

@@ -723,6 +723,10 @@ EventRegions
 &
 aRegions
 const
+LayerIntRegion
+&
+aVisibleRegion
+const
 CSSTransformMatrix
 &
 aTransform
@@ -974,6 +978,14 @@ const
 CSSTransformMatrix
 &
 GetTransform
+(
+)
+const
+;
+const
+LayerIntRegion
+&
+GetVisibleRegion
 (
 )
 const
@@ -1251,6 +1263,9 @@ LayerPixels
 /
 EventRegions
 mEventRegions
+;
+LayerIntRegion
+mVisibleRegion
 ;
 /
 *
