@@ -1958,6 +1958,13 @@ add
 reg
 )
 ;
+currentOpRegs_
+.
+take
+(
+reg
+)
+;
 }
 void
 releaseValueRegister
