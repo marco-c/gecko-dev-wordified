@@ -64,6 +64,12 @@ env
 browser
 *
 /
+/
+*
+global
+XPCNativeWrapper
+*
+/
 "
 use
 strict

@@ -325,7 +325,6 @@ message
 targetFromURL
 unsupported
 type
-=
 '
 x
 '
@@ -595,7 +594,6 @@ targetFromURL
 tab
 with
 outerWindowID
-:
 '
 10000
 '
