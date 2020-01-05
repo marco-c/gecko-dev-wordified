@@ -134,6 +134,12 @@ context
 mod
 data
 ;
+mod
+snapshot
+;
+mod
+snapshot_helpers
+;
 #
 [
 allow

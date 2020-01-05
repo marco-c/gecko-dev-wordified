@@ -121,7 +121,6 @@ restyle_hints
 :
 :
 {
-ElementSnapshot
 RESTYLE_DESCENDANTS
 RESTYLE_LATER_SIBLINGS
 RESTYLE_SELF
@@ -1429,7 +1428,17 @@ Self
 :
 :
 ConcreteElement
-ElementSnapshot
+<
+Self
+:
+:
+ConcreteElement
+as
+ElementExt
+>
+:
+:
+Snapshot
 )
 >
 ;
