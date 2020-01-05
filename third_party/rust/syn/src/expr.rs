@@ -6346,7 +6346,7 @@ many0
 terminated
 !
 (
-standalone_stmt
+stmt
 many0
 !
 (
@@ -6415,7 +6415,8 @@ standalone
 named
 !
 (
-standalone_stmt
+pub
+stmt
 -
 >
 Stmt
