@@ -220,6 +220,11 @@ IntlIsCollator
 \
 _
 (
+IntlIsNumberFormat
+)
+\
+_
+(
 IntlIsPluralRules
 )
 \
