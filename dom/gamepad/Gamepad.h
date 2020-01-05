@@ -318,6 +318,8 @@ uint32_t
 aIndex
 GamepadMappingType
 aMapping
+GamepadHand
+aHand
 uint32_t
 aNumButtons
 uint32_t
@@ -486,6 +488,15 @@ return
 mMapping
 ;
 }
+GamepadHand
+Hand
+(
+)
+{
+return
+mHand
+;
+}
 bool
 Connected
 (
@@ -591,6 +602,9 @@ use
 .
 GamepadMappingType
 mMapping
+;
+GamepadHand
+mHand
 ;
 /
 /
