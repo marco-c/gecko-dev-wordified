@@ -8337,6 +8337,15 @@ twice
 "
 )
 ;
+nsCOMPtr
+<
+nsIStreamListener
+>
+deleteProtector
+(
+mListener
+)
+;
 rv
 =
 mListener
