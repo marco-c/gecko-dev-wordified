@@ -738,13 +738,6 @@ aIntervalMilliseconds
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 /
 /
 By
@@ -946,13 +939,6 @@ PSLockRef
 aLock
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 /
 /
 Disable
