@@ -2054,14 +2054,6 @@ Ok
 )
 ;
 let
-doc
-=
-document_from_node
-(
-script
-)
-;
-let
 (
 action_sender
 action_receiver
