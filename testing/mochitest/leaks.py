@@ -194,18 +194,43 @@ message
 )
 :
         
-if
+action
+=
 message
 [
 '
 action
 '
 ]
-=
-=
+        
+#
+Remove
 '
 log
 '
+when
+jetpack
+and
+clipboard
+are
+gone
+and
+/
+or
+structured
+.
+        
+if
+action
+in
+(
+'
+log
+'
+'
+process_output
+'
+)
 :
             
 line
@@ -214,6 +239,20 @@ message
 [
 '
 message
+'
+]
+if
+action
+=
+=
+'
+log
+'
+else
+message
+[
+'
+data
 '
 ]
             
@@ -299,12 +338,7 @@ pid
 )
         
 elif
-message
-[
-'
 action
-'
-]
 =
 =
 '
@@ -368,12 +402,7 @@ set
 }
         
 elif
-message
-[
-'
 action
-'
-]
 =
 =
 '
