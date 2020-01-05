@@ -65,9 +65,9 @@ mozcrash
 PACKAGE_VERSION
 =
 '
-0
+1
 .
-17
+0
 '
 #
 dependencies

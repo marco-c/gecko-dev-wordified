@@ -443,14 +443,11 @@ detected
 .
     
 Returns
-True
-if
-any
-minidumps
-were
+number
+of
+minidump
+files
 found
-False
-otherwise
 .
     
 "
@@ -536,11 +533,20 @@ has_dumps
 return
 False
     
+crash_count
+=
+0
+    
 for
 info
 in
 crash_info
 :
+        
+crash_count
++
+=
+1
         
 if
 not
@@ -709,7 +715,7 @@ stackwalk_errors
 )
     
 return
-True
+crash_count
 def
 log_crashes
 (
