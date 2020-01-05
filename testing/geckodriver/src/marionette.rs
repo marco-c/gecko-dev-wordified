@@ -3796,7 +3796,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 "
 Tried
 to
