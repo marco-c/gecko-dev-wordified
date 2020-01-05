@@ -777,6 +777,17 @@ TouchList
 aChangedTouches
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 UIEvent
 :
 :

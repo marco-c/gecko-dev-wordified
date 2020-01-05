@@ -412,6 +412,17 @@ uint64_t
 aTimeStamp
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 Event
 :
 :

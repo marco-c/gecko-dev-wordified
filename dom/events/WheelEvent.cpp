@@ -380,6 +380,17 @@ uint32_t
 aDeltaMode
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 MouseEvent
 :
 :

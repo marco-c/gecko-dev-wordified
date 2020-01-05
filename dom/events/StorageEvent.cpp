@@ -478,6 +478,17 @@ DOMStorage
 aStorageArea
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+!
+mEvent
+-
+>
+mFlags
+.
+mIsBeingDispatched
+)
+;
 InitEvent
 (
 aType
