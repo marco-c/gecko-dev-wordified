@@ -8,6 +8,10 @@ test
 error
 :
 overflow
+;
+allow
+-
+oom
 if
 (
 getBuildConfiguration
