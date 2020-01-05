@@ -1647,6 +1647,8 @@ K
 Eq
 +
 Hash
++
+JSTraceable
 V
 :
 JSTraceable
@@ -1684,6 +1686,17 @@ iter
 (
 )
 {
+e
+.
+val0
+(
+)
+.
+trace
+(
+trc
+)
+;
 e
 .
 val1
