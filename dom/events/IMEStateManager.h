@@ -936,7 +936,7 @@ aPresContext
 nsIContent
 *
 aContent
-nsIDOMMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 )
