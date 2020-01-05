@@ -1122,11 +1122,6 @@ DECODER_STATE_COMPLETED
 DECODER_STATE_SHUTDOWN
 }
 ;
-void
-DumpDebugInfo
-(
-)
-;
 RefPtr
 <
 MediaDecoder
