@@ -4595,7 +4595,7 @@ frame_script_command
 WebDriverScriptCommand
 :
 :
-FindElementCSS
+FindElementsCSS
 (
 parameters
 .
