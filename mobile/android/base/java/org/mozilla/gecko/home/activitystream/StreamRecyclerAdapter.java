@@ -399,6 +399,7 @@ parent
 false
 )
 onUrlOpenListener
+onUrlOpenInBackgroundListener
 )
 ;
 }
