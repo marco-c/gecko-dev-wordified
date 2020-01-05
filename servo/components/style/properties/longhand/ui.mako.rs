@@ -249,7 +249,9 @@ elements
 +
 "
 toggle
-tri_state
+tri
+-
+state
 -
 moz
 -
