@@ -606,6 +606,8 @@ uint32_t
 aButton
 bool
 aPressed
+double
+aValue
 )
 {
 dom
@@ -624,15 +626,7 @@ GamepadServiceType
 VR
 aButton
 aPressed
-aPressed
-?
-1
-.
-0L
-:
-0
-.
-0L
+aValue
 )
 ;
 VRManager
