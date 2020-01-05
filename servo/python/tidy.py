@@ -1472,14 +1472,6 @@ cargo
 exceptions
 =
 [
-"
-glutin
-"
-"
-wayland
--
-kbd
-"
 ]
     
 while
