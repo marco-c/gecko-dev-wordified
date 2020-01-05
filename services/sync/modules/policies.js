@@ -6487,8 +6487,6 @@ msec
 ;
 }
 clearServerAlerts
-:
-function
 (
 )
 {
@@ -6592,8 +6590,6 @@ logs
 *
 /
 handleServerAlert
-:
-function
 (
 xwa
 )
@@ -6891,8 +6887,6 @@ warnings
 *
 /
 checkServerError
-:
-function
 (
 resp
 )

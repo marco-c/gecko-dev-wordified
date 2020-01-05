@@ -531,8 +531,6 @@ client
 *
 /
 now
-:
-function
 (
 )
 {
@@ -756,8 +754,6 @@ email
 *
 /
 _createSession
-:
-function
 (
 path
 email
@@ -801,8 +797,6 @@ creds
 .
 authPW
 )
-email
-:
 email
 }
 ;
@@ -1263,8 +1257,6 @@ server
 *
 /
 signUp
-:
-function
 (
 email
 password
@@ -1524,8 +1516,6 @@ valid
 *
 /
 sessionStatus
-:
-function
 (
 sessionTokenHex
 )
@@ -1624,8 +1614,6 @@ Promise
 *
 /
 signOut
-:
-function
 (
 sessionTokenHex
 options
@@ -1721,8 +1709,6 @@ Promise
 *
 /
 recoveryEmailStatus
-:
-function
 (
 sessionTokenHex
 options
@@ -1812,8 +1798,6 @@ Promise
 *
 /
 resendVerificationEmail
-:
-function
 (
 sessionTokenHex
 )
@@ -1916,8 +1900,6 @@ bytes
 *
 /
 accountKeys
-:
-function
 (
 keyFetchTokenHex
 )
@@ -2288,8 +2270,6 @@ response
 *
 /
 signCertificate
-:
-function
 (
 sessionTokenHex
 serializedPublicKey
@@ -2440,8 +2420,6 @@ errors
 *
 /
 accountExists
-:
-function
 (
 email
 )
@@ -2580,8 +2558,6 @@ deletion
 *
 /
 accountStatus
-:
-function
 (
 uid
 )
@@ -3528,8 +3504,6 @@ creds
 ;
 }
 _clearBackoff
-:
-function
 (
 )
 {

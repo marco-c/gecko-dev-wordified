@@ -921,8 +921,6 @@ true
 }
 }
 onInstallEnded
-:
-function
 (
 install
 addon
@@ -945,18 +943,12 @@ addon
 .
 id
 install
-:
-install
-addon
-:
 addon
 }
 )
 ;
 }
 onInstallFailed
-:
-function
 (
 install
 )
@@ -988,8 +980,6 @@ null
 ;
 }
 onDownloadFailed
-:
-function
 (
 install
 )
@@ -1146,8 +1136,6 @@ listener
 =
 {
 onUninstalling
-:
-function
 (
 uninstalling
 needsRestart
@@ -1236,8 +1224,6 @@ addon
 ;
 }
 onUninstalled
-:
-function
 (
 uninstalled
 )
@@ -1802,11 +1788,6 @@ ourResult
 }
 }
 }
-.
-bind
-(
-this
-)
 ;
 let
 toInstall
@@ -3235,8 +3216,6 @@ cb
 null
 addon
 )
-;
-return
 ;
 }
 /

@@ -602,8 +602,6 @@ guid
 *
 /
 Create
-:
-function
 (
 )
 {
@@ -717,8 +715,6 @@ otherwise
 *
 /
 Find
-:
-function
 (
 )
 {
@@ -920,8 +916,6 @@ nothing
 *
 /
 Update
-:
-function
 (
 )
 {
@@ -1059,8 +1053,6 @@ nothing
 *
 /
 Remove
-:
-function
 (
 )
 {

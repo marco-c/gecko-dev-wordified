@@ -271,7 +271,6 @@ undefined
 )
 ;
 }
-;
 function
 run_test
 (

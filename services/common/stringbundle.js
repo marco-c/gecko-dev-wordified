@@ -595,8 +595,6 @@ string
 *
 /
 get
-:
-function
 (
 key
 args
@@ -663,8 +661,6 @@ properties
 *
 /
 getAll
-:
-function
 (
 )
 {
@@ -1050,8 +1046,6 @@ string
 *
 /
 getString
-:
-function
 (
 key
 )
@@ -1135,8 +1129,6 @@ string
 *
 /
 getFormattedString
-:
-function
 (
 key
 args

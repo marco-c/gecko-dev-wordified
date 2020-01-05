@@ -907,8 +907,6 @@ cleartext
 =
 {
 id
-:
-id
 histUri
 :
 "
@@ -1485,8 +1483,6 @@ w
 cleartext
 =
 {
-id
-:
 id
 histUri
 :

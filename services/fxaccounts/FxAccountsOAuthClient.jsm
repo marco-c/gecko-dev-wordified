@@ -937,8 +937,6 @@ needed
 *
 /
 launchWebFlow
-:
-function
 (
 )
 {
@@ -1032,8 +1030,6 @@ use
 *
 /
 tearDown
-:
-function
 (
 )
 {
@@ -1085,8 +1081,6 @@ private
 *
 /
 _configureChannel
-:
-function
 (
 )
 {
@@ -1176,8 +1170,6 @@ private
 *
 /
 _registerChannel
-:
-function
 (
 )
 {
@@ -1733,8 +1725,6 @@ private
 *
 /
 _validateOptions
-:
-function
 (
 options
 )

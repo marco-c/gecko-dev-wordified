@@ -448,8 +448,6 @@ record
 =
 {
 data
-:
-data
 id
 :
 "

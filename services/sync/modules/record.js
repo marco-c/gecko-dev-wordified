@@ -483,8 +483,6 @@ and
 ID
 .
 uri
-:
-function
 (
 base
 )
@@ -2324,8 +2322,6 @@ length
 =
 0
 changed
-:
-changed
 }
 ;
 }
@@ -2385,8 +2381,6 @@ null
 ;
 }
 keyForCollection
-:
-function
 (
 collection
 )
@@ -2455,8 +2449,6 @@ data
 *
 /
 _makeWBO
-:
-function
 (
 collections
 defaultBundle
@@ -2551,8 +2543,6 @@ keys
 *
 /
 asWBO
-:
-function
 (
 collection
 id
@@ -2592,8 +2582,6 @@ collections
 *
 /
 newKeys
-:
-function
 (
 collections
 )
@@ -2688,8 +2676,6 @@ storing
 *
 /
 generateNewKeysWBO
-:
-function
 (
 collections
 )
@@ -3015,8 +3001,6 @@ crypto
 collection
 .
 updateNeeded
-:
-function
 (
 info_collections
 )

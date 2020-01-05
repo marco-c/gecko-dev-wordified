@@ -2021,8 +2021,6 @@ sessionMessage_noKey
 length
 )
 ;
-return
-;
 }
 else
 if
@@ -2087,8 +2085,6 @@ sessionMessage_withKey
 length
 )
 ;
-return
-;
 }
 else
 if
@@ -2143,8 +2139,6 @@ errorMessage_wrongCap
 length
 )
 ;
-return
-;
 }
 else
 {
@@ -2183,8 +2177,6 @@ errorMessage_notExistent
 .
 length
 )
-;
-return
 ;
 }
 }
@@ -2574,8 +2566,6 @@ errorMessage
 length
 )
 ;
-return
-;
 }
 }
 )
@@ -2840,8 +2830,6 @@ errorMessage
 length
 )
 ;
-return
-;
 }
 }
 )
@@ -3035,8 +3023,6 @@ emailStatus
 .
 length
 )
-;
-return
 ;
 }
 }
@@ -3245,8 +3231,6 @@ errorMessage
 .
 length
 )
-;
-return
 ;
 }
 }
@@ -4128,8 +4112,6 @@ errorMessage
 .
 length
 )
-;
-return
 ;
 }
 }

@@ -468,8 +468,6 @@ SyncServer
 (
 {
 onRequest
-:
-onRequest
 }
 )
 ;

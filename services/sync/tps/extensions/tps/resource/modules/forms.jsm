@@ -869,8 +869,6 @@ epoch
 *
 /
 hours_to_us
-:
-function
 (
 hours
 )
@@ -927,8 +925,6 @@ nothing
 *
 /
 Create
-:
-function
 (
 )
 {
@@ -1110,8 +1106,6 @@ false
 *
 /
 Find
-:
-function
 (
 )
 {
@@ -1253,8 +1247,6 @@ nothing
 *
 /
 Remove
-:
-function
 (
 )
 {

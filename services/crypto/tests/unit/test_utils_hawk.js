@@ -209,10 +209,6 @@ Bazinga
 !
 "
 ts
-:
-ts
-nonce
-:
 nonce
 payload
 :
@@ -485,10 +481,6 @@ Bazinga
 !
 "
 ts
-:
-ts
-nonce
-:
 nonce
 payload
 :
@@ -677,10 +669,6 @@ credentials
 :
 credentials_sha256
 ts
-:
-ts
-nonce
-:
 nonce
 payload
 :

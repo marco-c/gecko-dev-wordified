@@ -751,8 +751,6 @@ provider
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -768,8 +766,6 @@ provider
 .
 }
 finalize
-:
-function
 (
 )
 {
@@ -801,8 +797,6 @@ called
 *
 /
 logout
-:
-function
 (
 )
 {
@@ -853,8 +847,6 @@ failed
 *
 /
 ensureLoggedIn
-:
-function
 (
 )
 {
@@ -1207,8 +1199,6 @@ user
 *
 /
 resetCredentials
-:
-function
 (
 )
 {
@@ -1245,8 +1235,6 @@ user
 *
 /
 resetSyncKey
-:
-function
 (
 )
 {
@@ -2349,8 +2337,6 @@ unlock
 *
 /
 unlockAndVerifyAuthState
-:
-function
 (
 )
 {
@@ -2752,8 +2738,6 @@ info
 *
 /
 prefetchMigrationSentinel
-:
-function
 (
 service
 )
@@ -3096,8 +3080,6 @@ only
 *
 /
 _getSyncCredentialsHosts
-:
-function
 (
 )
 {
@@ -3636,8 +3618,6 @@ up
 ;
 }
 createClusterManager
-:
-function
 (
 service
 )
@@ -3672,8 +3652,6 @@ service
 ;
 }
 offerSyncOptions
-:
-function
 (
 )
 {

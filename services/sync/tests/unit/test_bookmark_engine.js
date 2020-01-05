@@ -5950,8 +5950,6 @@ get
 ;
 }
 get
-:
-function
 (
 )
 {

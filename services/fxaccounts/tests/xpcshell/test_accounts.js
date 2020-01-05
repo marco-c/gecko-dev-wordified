@@ -1053,8 +1053,6 @@ Date
 (
 )
 now
-:
-function
 (
 )
 {
@@ -1104,8 +1102,6 @@ storage
 ;
 }
 getCertificateSigned
-:
-function
 (
 sessionToken
 serializedPublicKey
@@ -7774,8 +7770,6 @@ scope
 profile
 "
 client
-:
-client
 }
 )
 .
@@ -7965,8 +7959,6 @@ bar
 "
 ]
 client
-:
-client
 }
 )
 .
@@ -8140,8 +8132,6 @@ scope
 profile
 "
 client
-:
-client
 service
 :
 "
@@ -8192,8 +8182,6 @@ scope
 "
 profile
 "
-client
-:
 client
 service
 :
@@ -8253,8 +8241,6 @@ something
 -
 else
 "
-client
-:
 client
 service
 :
@@ -8425,8 +8411,6 @@ bar
 "
 ]
 client
-:
-client
 service
 :
 "
@@ -8490,8 +8474,6 @@ foo
 "
 ]
 client
-:
-client
 service
 :
 "
@@ -8554,8 +8536,6 @@ Foo
 "
 ]
 client
-:
-client
 service
 :
 "
@@ -8616,8 +8596,6 @@ bar
 etc
 "
 ]
-client
-:
 client
 service
 :
@@ -9207,8 +9185,6 @@ scope
 profile
 "
 client
-:
-client
 }
 )
 .
@@ -9385,8 +9361,6 @@ scope
 profile
 "
 client
-:
-client
 }
 )
 .
@@ -9554,8 +9528,6 @@ scope
 profile
 "
 client
-:
-client
 }
 )
 .
@@ -9617,8 +9589,6 @@ mockProfile
 =
 {
 getProfile
-:
-function
 (
 )
 {
@@ -9638,8 +9608,6 @@ image
 ;
 }
 tearDown
-:
-function
 (
 )
 {
@@ -9831,8 +9799,6 @@ _profile
 =
 {
 getProfile
-:
-function
 (
 )
 {
@@ -9848,8 +9814,6 @@ boom
 ;
 }
 tearDown
-:
-function
 (
 )
 {
@@ -10300,7 +10264,6 @@ thirtytwo_hex
 thirtytwo_hex
 ;
 }
-;
 function
 expandBytes
 (
@@ -10319,7 +10282,6 @@ two_hex
 )
 ;
 }
-;
 function
 getTestUser
 (
@@ -10439,8 +10401,6 @@ nsIObserver
 ]
 )
 observe
-:
-function
 (
 aSubject
 aTopic

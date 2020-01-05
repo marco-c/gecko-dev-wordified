@@ -197,7 +197,6 @@ run_next_test
 )
 ;
 }
-;
 function
 doRead
 (
