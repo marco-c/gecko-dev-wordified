@@ -15989,7 +15989,12 @@ preferences
 for
 the
 RELEASE
-channel
+and
+"
+later
+"
+Beta
+channels
 .
 /
 /
@@ -16019,8 +16024,8 @@ user
 experiments
 .
 #
-ifdef
-RELEASE
+ifndef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
