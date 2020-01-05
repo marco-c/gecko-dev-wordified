@@ -21182,7 +21182,9 @@ method
 *
 *
 The
-JSIdArray
+array
+of
+ids
 returned
 by
 JS_Enumerate
@@ -21202,7 +21204,13 @@ Use
 JS
 :
 :
-AutoIdArray
+Rooted
+<
+JS
+:
+:
+IdVector
+>
 .
 *
 /
