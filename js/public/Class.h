@@ -3370,6 +3370,12 @@ void
 finalize
 )
 (
+JS
+:
+:
+Zone
+*
+zone
 const
 JSStringFinalizer
 *

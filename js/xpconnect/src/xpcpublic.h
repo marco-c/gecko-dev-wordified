@@ -1793,6 +1793,12 @@ static
 void
 FinalizeLiteral
 (
+JS
+:
+:
+Zone
+*
+zone
 const
 JSStringFinalizer
 *
@@ -1806,6 +1812,12 @@ static
 void
 FinalizeDOMString
 (
+JS
+:
+:
+Zone
+*
+zone
 const
 JSStringFinalizer
 *
