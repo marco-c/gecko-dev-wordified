@@ -32,6 +32,11 @@ jsm
 "
 )
 ;
+const
+{
+ProfileStorage
+}
+=
 Cu
 .
 import
@@ -47,6 +52,8 @@ ProfileStorage
 .
 jsm
 "
+{
+}
 )
 ;
 const

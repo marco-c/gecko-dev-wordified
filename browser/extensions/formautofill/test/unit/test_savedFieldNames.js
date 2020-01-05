@@ -54,8 +54,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_profileSavedFieldNames_init
 (
 )
@@ -78,6 +78,7 @@ _updateSavedFieldNames
 "
 )
 ;
+await
 formAutofillParent
 .
 init
@@ -105,8 +106,8 @@ _uninit
 ;
 add_task
 (
+async
 function
-*
 test_profileSavedFieldNames_observe
 (
 )
@@ -129,6 +130,7 @@ _updateSavedFieldNames
 "
 )
 ;
+await
 formAutofillParent
 .
 init
@@ -268,8 +270,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_profileSavedFieldNames_update
 (
 )
@@ -282,6 +284,7 @@ FormAutofillParent
 (
 )
 ;
+await
 formAutofillParent
 .
 init
@@ -317,17 +320,13 @@ sinon
 .
 stub
 (
-formAutofillParent
-.
-_profileStore
+profileStorage
 "
 getAll
 "
 )
 ;
-formAutofillParent
-.
-_profileStore
+profileStorage
 .
 getAll
 .
@@ -501,9 +500,7 @@ timesUsed
 }
 ]
 ;
-formAutofillParent
-.
-_profileStore
+profileStorage
 .
 getAll
 .
