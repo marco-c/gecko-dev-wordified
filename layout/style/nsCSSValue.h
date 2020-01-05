@@ -917,11 +917,7 @@ IsLocalRef
 (
 )
 const
-{
-return
-mIsLocalRef
 ;
-}
 bool
 HasRef
 (
@@ -1094,7 +1090,11 @@ sign
 )
 character
 .
+mutable
+Maybe
+<
 bool
+>
 mIsLocalRef
 ;
 protected
