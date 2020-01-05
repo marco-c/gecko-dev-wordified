@@ -1249,10 +1249,6 @@ self
 load
 (
 load_data
-.
-clone
-(
-)
 start_chan
 )
 }
