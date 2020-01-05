@@ -1176,6 +1176,10 @@ dl_size
 wr_api_set_root_display_list
 (
 mWrApi
+ToWrColor
+(
+aBgColor
+)
 aEpoch
 aViewportSize
 .
