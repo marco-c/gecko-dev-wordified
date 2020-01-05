@@ -607,6 +607,14 @@ tab
 muteReason
 ;
 }
+tabData
+.
+mediaBlocked
+=
+browser
+.
+mediaBlocked
+;
 /
 /
 Save

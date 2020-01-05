@@ -25859,6 +25859,17 @@ muteReason
 )
 ;
 }
+tab
+.
+setMediaBlock
+(
+!
+!
+tabData
+.
+mediaBlocked
+)
+;
 if
 (
 tabData
