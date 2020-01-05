@@ -6457,8 +6457,11 @@ expanded
 {
 %
 for
+index
 side
 in
+enumerate
+(
 [
 "
 top
@@ -6473,6 +6476,7 @@ bottom
 left
 "
 ]
+)
 :
 {
 to_rust_ident
@@ -6486,7 +6490,7 @@ side
 rect
 .
 {
-side
+index
 }
 %
 endfor
