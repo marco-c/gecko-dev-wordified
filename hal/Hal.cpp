@@ -1525,11 +1525,11 @@ InfoType
 =
 0
 ;
-virtual
 void
 OnNotificationsDisabled
 (
 )
+override
 {
 mHasValidCache
 =
@@ -1561,6 +1561,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1574,6 +1575,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1590,6 +1592,7 @@ BatteryInformation
 *
 aInfo
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1636,6 +1639,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1649,6 +1653,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1665,6 +1670,7 @@ NetworkInformation
 *
 aInfo
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1711,6 +1717,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1724,6 +1731,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1769,6 +1777,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1782,6 +1791,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -1798,6 +1808,7 @@ ScreenConfiguration
 *
 aInfo
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -2156,6 +2167,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -2169,6 +2181,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -2277,6 +2290,7 @@ void
 EnableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
@@ -2290,6 +2304,7 @@ void
 DisableNotifications
 (
 )
+override
 {
 PROXY_IF_SANDBOXED
 (
