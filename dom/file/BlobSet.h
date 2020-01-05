@@ -185,9 +185,6 @@ nsAString
 aString
 bool
 nativeEOL
-JSContext
-*
-aCx
 )
 ;
 nsresult

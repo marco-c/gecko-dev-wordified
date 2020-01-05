@@ -313,9 +313,6 @@ aRv
 void
 InitializeBlob
 (
-JSContext
-*
-aCx
 const
 Sequence
 <

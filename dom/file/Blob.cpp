@@ -1352,11 +1352,6 @@ impl
 >
 InitializeBlob
 (
-aGlobal
-.
-Context
-(
-)
 aData
 .
 Value
