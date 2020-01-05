@@ -416,7 +416,7 @@ h
 #
 include
 "
-nsIMimeInfo
+nsIMIMEInfo
 .
 h
 "
