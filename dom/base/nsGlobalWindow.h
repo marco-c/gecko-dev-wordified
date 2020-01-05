@@ -5763,7 +5763,7 @@ aRv
 )
 ;
 void
-GetAppLocales
+GetAppLocalesAsBCP47
 (
 nsTArray
 <

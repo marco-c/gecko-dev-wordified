@@ -457,7 +457,7 @@ GetInstance
 )
 -
 >
-GetAppLocale
+GetAppLocaleAsLangTag
 (
 str
 )
@@ -638,7 +638,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsLangTags
 (
 appLocales
 )
@@ -663,7 +663,18 @@ this
 *
 /
 void
-GetAppLocales
+GetAppLocalesAsLangTags
+(
+nsTArray
+<
+nsCString
+>
+&
+aRetVal
+)
+;
+void
+GetAppLocalesAsBCP47
 (
 nsTArray
 <

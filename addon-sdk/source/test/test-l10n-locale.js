@@ -954,7 +954,7 @@ Services
 .
 locale
 .
-getAppLocale
+getAppLocaleAsLangTag
 (
 )
 .

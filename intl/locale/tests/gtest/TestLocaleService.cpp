@@ -139,7 +139,7 @@ intl
 TEST
 (
 Intl_Locale_LocaleService
-GetAppLocales
+GetAppLocalesAsLangTags
 )
 {
 nsTArray
@@ -156,7 +156,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsLangTags
 (
 appLocales
 )
@@ -174,7 +174,7 @@ IsEmpty
 TEST
 (
 Intl_Locale_LocaleService
-GetAppLocales_firstMatchesChromeReg
+GetAppLocalesAsLangTags_firstMatchesChromeReg
 )
 {
 nsTArray
@@ -191,7 +191,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsLangTags
 (
 appLocales
 )
@@ -253,7 +253,7 @@ uaLangTag
 TEST
 (
 Intl_Locale_LocaleService
-GetAppLocales_lastIsEnUS
+GetAppLocalesAsLangTags_lastIsEnUS
 )
 {
 nsTArray
@@ -270,7 +270,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsLangTags
 (
 appLocales
 )
@@ -349,7 +349,7 @@ len
 TEST
 (
 Intl_Locale_LocaleService
-GetAppLocale
+GetAppLocaleAsLangTag
 )
 {
 nsTArray
@@ -366,7 +366,7 @@ GetInstance
 )
 -
 >
-GetAppLocales
+GetAppLocalesAsLangTags
 (
 appLocales
 )
@@ -382,7 +382,7 @@ GetInstance
 )
 -
 >
-GetAppLocale
+GetAppLocaleAsLangTag
 (
 locale
 )

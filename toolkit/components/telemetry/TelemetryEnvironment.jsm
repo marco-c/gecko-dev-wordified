@@ -2143,6 +2143,7 @@ Get
 the
 current
 browser
+locale
 .
 *
 return
@@ -2170,7 +2171,7 @@ Services
 .
 locale
 .
-getAppLocale
+getAppLocaleAsLangTag
 (
 )
 ;

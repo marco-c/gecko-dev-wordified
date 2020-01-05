@@ -185,7 +185,7 @@ run_next_test
 add_test
 (
 function
-test_getAppLocales
+test_getAppLocalesAsLangTags
 (
 )
 {
@@ -223,7 +223,7 @@ appLocale
 =
 localeService
 .
-getAppLocale
+getAppLocaleAsLangTag
 (
 )
 ;
@@ -248,7 +248,7 @@ appLocales
 =
 localeService
 .
-getAppLocales
+getAppLocalesAsLangTags
 (
 )
 ;
