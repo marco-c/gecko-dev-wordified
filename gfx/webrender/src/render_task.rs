@@ -108,7 +108,6 @@ tiling
 :
 :
 {
-ScrollLayerIndex
 StackingContextIndex
 }
 ;
@@ -127,7 +126,10 @@ use
 webrender_traits
 :
 :
+{
 MixBlendMode
+ScrollLayerId
+}
 ;
 const
 FLOATS_PER_RENDER_TASK_INFO
@@ -283,7 +285,7 @@ PrimitiveIndex
 )
 ScrollLayer
 (
-ScrollLayerIndex
+ScrollLayerId
 )
 }
 #
