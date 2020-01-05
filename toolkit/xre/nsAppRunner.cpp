@@ -16802,7 +16802,7 @@ IsHeadless
 {
 #
 ifdef
-XP_LINUX
+MOZ_WIDGET_GTK
 Output
 (
 false
