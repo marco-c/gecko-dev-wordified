@@ -3681,6 +3681,12 @@ nscoord
 )
 ;
 }
+bool
+IsValid
+(
+)
+const
+;
 }
 ;
 static
