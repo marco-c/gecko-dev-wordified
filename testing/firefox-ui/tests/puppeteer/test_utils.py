@@ -105,6 +105,19 @@ remove_all_history
 (
 )
         
+with
+self
+.
+marionette
+.
+using_context
+(
+'
+content
+'
+)
+:
+            
 self
 .
 marionette
@@ -325,6 +338,19 @@ cookies
 "
 "
         
+with
+self
+.
+marionette
+.
+using_context
+(
+'
+content
+'
+)
+:
+            
 self
 .
 assertIsNotNone
@@ -360,6 +386,19 @@ True
 }
 )
         
+with
+self
+.
+marionette
+.
+using_context
+(
+'
+content
+'
+)
+:
+            
 self
 .
 assertIsNone
