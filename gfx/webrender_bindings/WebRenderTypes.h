@@ -1142,15 +1142,15 @@ lp
 }
 static
 inline
-WrLayoutSize
-ToWrLayoutSize
+WrSize
+ToWrSize
 (
 const
 LayerSize
 size
 )
 {
-WrLayoutSize
+WrSize
 ls
 ;
 ls
@@ -1203,7 +1203,7 @@ br
 .
 top_left
 =
-ToWrLayoutSize
+ToWrSize
 (
 topLeft
 )
@@ -1212,7 +1212,7 @@ br
 .
 top_right
 =
-ToWrLayoutSize
+ToWrSize
 (
 topRight
 )
@@ -1221,7 +1221,7 @@ br
 .
 bottom_left
 =
-ToWrLayoutSize
+ToWrSize
 (
 bottomLeft
 )
@@ -1230,7 +1230,7 @@ br
 .
 bottom_right
 =
-ToWrLayoutSize
+ToWrSize
 (
 bottomRight
 )

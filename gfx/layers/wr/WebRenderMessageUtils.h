@@ -577,7 +577,7 @@ template
 struct
 ParamTraits
 <
-WrLayoutSize
+WrSize
 >
 {
 static
@@ -588,7 +588,7 @@ Message
 *
 aMsg
 const
-WrLayoutSize
+WrSize
 &
 aParam
 )
@@ -621,7 +621,7 @@ aMsg
 PickleIterator
 *
 aIter
-WrLayoutSize
+WrSize
 *
 aResult
 )
