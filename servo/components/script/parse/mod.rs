@@ -67,7 +67,6 @@ Parser
 fn
 parse_chunk
 (
-&
 self
 input
 :
@@ -77,7 +76,6 @@ String
 fn
 finish
 (
-&
 self
 )
 ;
