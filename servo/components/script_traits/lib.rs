@@ -199,6 +199,7 @@ compositor_msg
 {
 Epoch
 LayerId
+ScriptToCompositorMsg
 }
 ;
 use
@@ -241,15 +242,6 @@ constellation_msg
 MozBrowserEvent
 PipelineExitType
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-ScriptListener
 ;
 use
 msg
@@ -1471,7 +1463,10 @@ SubpageId
 >
 compositor
 :
-ScriptListener
+IpcSender
+<
+ScriptToCompositorMsg
+>
 layout_chan
 :
 &
