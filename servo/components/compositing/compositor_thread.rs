@@ -1627,10 +1627,14 @@ back
 can
 go
 forward
+is
+root
+frame
 )
 .
 LoadComplete
 (
+bool
 bool
 bool
 )
