@@ -10767,7 +10767,7 @@ if
 !
 mStyleFlushObservers
 .
-Contains
+RemoveElement
 (
 shell
 )
@@ -10806,13 +10806,6 @@ nsCOMPtr
 nsIPresShell
 >
 shellKungFuDeathGrip
-(
-shell
-)
-;
-mStyleFlushObservers
-.
-RemoveElement
 (
 shell
 )
@@ -11029,7 +11022,7 @@ if
 !
 mLayoutFlushObservers
 .
-Contains
+RemoveElement
 (
 shell
 )
@@ -11068,13 +11061,6 @@ nsCOMPtr
 nsIPresShell
 >
 shellKungFuDeathGrip
-(
-shell
-)
-;
-mLayoutFlushObservers
-.
-RemoveElement
 (
 shell
 )
