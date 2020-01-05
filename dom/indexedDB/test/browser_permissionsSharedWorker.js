@@ -67,9 +67,9 @@ postMessage
 {
 status
 :
-'
+"
 success
-'
+"
 isIDBDatabase
 :
 (
@@ -103,9 +103,9 @@ postMessage
 {
 status
 :
-'
+"
 error
-'
+"
 error
 :
 event

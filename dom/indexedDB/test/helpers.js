@@ -171,9 +171,9 @@ Object
 getOwnPropertyDescriptor
 (
 this
-'
+"
 Components
-'
+"
 )
 ;
 if
@@ -196,9 +196,9 @@ SpecialPowers
 =
 =
 =
-'
+"
 object
-'
+"
 )
 Components
 =
@@ -259,8 +259,6 @@ dispatch
 (
 {
 run
-:
-function
 (
 )
 {
@@ -1523,8 +1521,6 @@ prototype
 =
 {
 handleEvent
-:
-function
 (
 event
 )
@@ -2549,8 +2545,6 @@ prototype
 =
 {
 handleEvent
-:
-function
 (
 _event_
 )
