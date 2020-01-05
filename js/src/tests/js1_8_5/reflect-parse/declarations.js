@@ -1398,6 +1398,7 @@ blockStmt
 (
 [
 varDecl
+(
 [
 {
 id
@@ -1413,6 +1414,7 @@ init
 null
 }
 ]
+)
 ]
 )
 )

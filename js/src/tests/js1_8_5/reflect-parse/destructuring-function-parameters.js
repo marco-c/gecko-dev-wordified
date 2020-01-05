@@ -153,13 +153,13 @@ makeSrc
 {
 }
 "
+)
 makePatt
 (
 blockStmt
 (
 [
 ]
-)
 )
 )
 )
