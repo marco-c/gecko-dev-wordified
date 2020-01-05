@@ -916,6 +916,16 @@ HandleObject
 obj
 )
 ;
+bool
+IteratorCloseForException
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
 void
 UnwindIteratorForUncatchableException
 (
