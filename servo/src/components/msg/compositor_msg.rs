@@ -536,7 +536,10 @@ self
 )
 -
 >
+Option
+<
 NativeGraphicsMetadata
+>
 ;
 fn
 new_layer
