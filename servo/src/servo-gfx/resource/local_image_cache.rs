@@ -895,8 +895,6 @@ state_map
 .
 find
 (
-copy
-*
 url
 )
 {

@@ -223,6 +223,8 @@ f
 >
 {
 fail
+!
+(
 getopts
 :
 :
@@ -230,6 +232,7 @@ fail_str
 (
 copy
 f
+)
 )
 }
 }
@@ -247,6 +250,8 @@ is_empty
 )
 {
 fail
+!
+(
 ~
 "
 servo
@@ -259,6 +264,7 @@ or
 more
 URLs
 "
+)
 }
 else
 {
@@ -400,12 +406,15 @@ SkiaBackend
 else
 {
 fail
+!
+(
 ~
 "
 unknown
 backend
 type
 "
+)
 }
 }
 None

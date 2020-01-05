@@ -17,7 +17,10 @@ layout
 block
 :
 :
+{
 BlockFlowData
+BlockLayout
+}
 ;
 use
 layout
@@ -64,6 +67,7 @@ inline
 :
 {
 InlineFlowData
+InlineLayout
 NodeRange
 }
 ;
@@ -74,7 +78,10 @@ layout
 root
 :
 :
+{
 RootFlowData
+RootLayout
+}
 ;
 use
 util
@@ -716,6 +723,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -741,6 +750,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -775,6 +785,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -800,6 +812,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -834,6 +847,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -859,6 +874,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -915,6 +931,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -936,6 +954,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -992,6 +1011,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -1013,6 +1034,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -1069,6 +1091,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -1090,6 +1114,7 @@ d
 )
 .
 id
+)
 )
 }
 }
@@ -1205,6 +1230,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -1219,6 +1246,7 @@ flow
 ?
 "
 self
+)
 )
 }
 }
@@ -1369,6 +1397,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -1389,6 +1419,7 @@ for
 ?
 "
 self
+)
 )
 }
 }
@@ -1570,6 +1601,8 @@ _
 =
 >
 fail
+!
+(
 fmt
 !
 (
@@ -1590,6 +1623,7 @@ for
 ?
 "
 self
+)
 )
 }
 }

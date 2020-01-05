@@ -119,11 +119,7 @@ js
 rust
 :
 :
-{
-bare_compartment
-compartment
-methods
-}
+Compartment
 ;
 use
 js
@@ -742,8 +738,8 @@ define_bindings
 (
 compartment
 :
-&
-bare_compartment
+mut
+Compartment
 doc
 :
 Document
@@ -910,6 +906,7 @@ Scope
 (
 )
 }
+pub
 trait
 NodeScopeExtensions
 {
