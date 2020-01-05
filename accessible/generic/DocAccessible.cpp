@@ -9516,6 +9516,10 @@ return
 if
 (
 aIsReloading
+&
+&
+!
+mLoadEventType
 )
 {
 /
