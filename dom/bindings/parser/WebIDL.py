@@ -16426,7 +16426,20 @@ self
 )
 :
         
-return
+#
+There
+is
+no
+such
+thing
+as
+a
+nullable
+Promise
+.
+        
+assert
+not
 self
 .
 inner
@@ -16434,6 +16447,9 @@ inner
 isPromise
 (
 )
+        
+return
+False
     
 def
 isCallbackInterface

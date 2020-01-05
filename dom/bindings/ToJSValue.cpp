@@ -482,7 +482,11 @@ PromiseObj
 )
 ;
 return
-true
+MaybeWrapObjectValue
+(
+aCx
+aValue
+)
 ;
 }
 }
