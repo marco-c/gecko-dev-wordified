@@ -121,7 +121,11 @@ h
 #
 include
 "
-nsScriptLoader
+mozilla
+/
+css
+/
+Loader
 .
 h
 "
@@ -130,9 +134,9 @@ include
 "
 mozilla
 /
-css
+dom
 /
-Loader
+ScriptLoader
 .
 h
 "

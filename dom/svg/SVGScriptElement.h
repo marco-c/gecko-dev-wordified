@@ -144,7 +144,11 @@ h
 #
 include
 "
-nsScriptElement
+mozilla
+/
+dom
+/
+ScriptElement
 .
 h
 "
@@ -198,7 +202,7 @@ final
 public
 SVGScriptElementBase
 public
-nsScriptElement
+ScriptElement
 {
 protected
 :
@@ -332,7 +336,7 @@ override
 ;
 /
 /
-nsScriptElement
+ScriptElement
 virtual
 bool
 HasScriptContent
