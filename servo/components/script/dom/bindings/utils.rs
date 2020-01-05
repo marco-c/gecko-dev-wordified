@@ -1620,13 +1620,6 @@ null
 constant
 .
 NullVal
-/
-/
-/
-undefined
-constant
-.
-VoidVal
 }
 /
 /
@@ -1756,12 +1749,6 @@ b
 BooleanValue
 (
 b
-)
-VoidVal
-=
->
-UndefinedValue
-(
 )
 }
 }
