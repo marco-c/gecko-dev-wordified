@@ -88,19 +88,7 @@ MPL
 import
 imp
 import
-json
-import
 os
-import
-sys
-from
-mozprocess
-import
-ProcessHandler
-from
-mozlint
-import
-result
 def
 lint
 (
@@ -111,6 +99,7 @@ logger
 kwargs
 )
 :
+    
 wpt_dir
 =
 os
@@ -134,6 +123,7 @@ web
 platform
 "
 )
+    
 manifestupdate
 =
 imp
@@ -143,6 +133,7 @@ load_source
 "
 manifestupdate
 "
+                                     
 os
 .
 path
@@ -157,6 +148,7 @@ py
 "
 )
 )
+    
 manifestupdate
 .
 update
@@ -168,6 +160,7 @@ True
 LINTER
 =
 {
+    
 '
 name
 '
@@ -175,6 +168,7 @@ name
 "
 wpt_manifest
 "
+    
 '
 description
 '
@@ -188,11 +182,13 @@ tests
 manifest
 lint
 "
+    
 '
 include
 '
 :
 [
+        
 '
 testing
 /
@@ -202,6 +198,7 @@ platform
 /
 tests
 '
+        
 '
 testing
 /
@@ -213,13 +210,16 @@ mozilla
 /
 tests
 '
+    
 ]
+    
 '
 exclude
 '
 :
 [
 ]
+    
 '
 type
 '
@@ -227,6 +227,7 @@ type
 '
 structured_log
 '
+    
 '
 payload
 '

@@ -33,6 +33,7 @@ python
 LINTER
 =
 {
+    
 '
 name
 '
@@ -40,6 +41,7 @@ name
 "
 BadIncludeLinter
 "
+    
 '
 description
 '
@@ -52,6 +54,7 @@ include
 directive
 .
 "
+    
 '
 include
 '
@@ -62,6 +65,7 @@ be
 a
 list
 '
+    
 '
 type
 '
@@ -69,6 +73,7 @@ type
 '
 string
 '
+    
 '
 payload
 '

@@ -33,6 +33,7 @@ python
 LINTER
 =
 {
+    
 '
 name
 '
@@ -40,6 +41,7 @@ name
 "
 StringLinter
 "
+    
 '
 description
 '
@@ -55,6 +57,7 @@ foobar
 never
 appears
 "
+                   
 "
 in
 browser
@@ -66,6 +69,7 @@ is
 bad
 .
 "
+    
 '
 rule
 '
@@ -75,11 +79,13 @@ no
 -
 foobar
 '
+    
 '
 include
 '
 :
 [
+        
 '
 *
 *
@@ -88,6 +94,7 @@ include
 .
 js
 '
+        
 '
 *
 *
@@ -96,7 +103,9 @@ js
 .
 jsm
 '
+    
 ]
+    
 '
 type
 '
@@ -104,6 +113,7 @@ type
 '
 string
 '
+    
 '
 payload
 '

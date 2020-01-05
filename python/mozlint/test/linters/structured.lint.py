@@ -95,11 +95,13 @@ logger
 kwargs
 )
 :
+    
 for
 path
 in
 files
 :
+        
 with
 open
 (
@@ -111,6 +113,7 @@ r
 as
 fh
 :
+            
 for
 i
 line
@@ -124,6 +127,7 @@ readlines
 )
 )
 :
+                
 if
 '
 foobar
@@ -131,6 +135,7 @@ foobar
 in
 line
 :
+                    
 logger
 .
 lint_error
@@ -138,14 +143,17 @@ lint_error
 path
 =
 path
+                                      
 lineno
 =
 i
 +
 1
+                                      
 column
 =
 1
+                                      
 rule
 =
 "
@@ -157,6 +165,7 @@ foobar
 LINTER
 =
 {
+    
 '
 name
 '
@@ -164,6 +173,7 @@ name
 "
 StructuredLinter
 "
+    
 '
 description
 '
@@ -183,15 +193,19 @@ js
 files
 .
 "
+    
 '
 include
 '
 :
 [
+        
 '
 files
 '
+    
 ]
+    
 '
 type
 '
@@ -199,6 +213,7 @@ type
 '
 structured_log
 '
+    
 '
 extensions
 '
@@ -213,6 +228,7 @@ js
 jsm
 '
 ]
+    
 '
 payload
 '

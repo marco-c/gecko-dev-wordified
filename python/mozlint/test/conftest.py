@@ -270,6 +270,8 @@ linters
 '
 .
 lint
+.
+py
 '
 ]
 )
