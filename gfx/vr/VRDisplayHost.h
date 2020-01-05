@@ -601,6 +601,7 @@ GetPose
 (
 )
 ;
+virtual
 void
 SetHand
 (
