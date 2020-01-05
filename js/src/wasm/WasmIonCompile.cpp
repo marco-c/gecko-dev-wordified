@@ -7507,7 +7507,6 @@ alloc
 (
 )
 operand
-tlsPointer_
 )
 ;
 curBlock_
@@ -7548,7 +7547,6 @@ New
 alloc
 (
 )
-tlsPointer_
 )
 ;
 curBlock_

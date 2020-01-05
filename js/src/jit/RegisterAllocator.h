@@ -1755,6 +1755,13 @@ HeapLenReg
 ;
 #
 endif
+allRegisters_
+.
+take
+(
+FramePointer
+)
+;
 }
 else
 {

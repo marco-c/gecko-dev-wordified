@@ -653,6 +653,10 @@ sp
 (
 nullptr
 )
+fp
+(
+nullptr
+)
 lr
 (
 nullptr
@@ -666,6 +670,10 @@ pc
 void
 *
 sp
+;
+void
+*
+fp
 ;
 void
 *
