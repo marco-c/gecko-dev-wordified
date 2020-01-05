@@ -2465,6 +2465,20 @@ state_dir
 )
 :
                     
+if
+not
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+:
+                        
 print
 (
 STATE_DIR_FIRST_RUN
@@ -2476,10 +2490,10 @@ userdir
 state_dir
 )
 )
-                    
+                        
 try
 :
-                        
+                            
 sys
 .
 stdin
@@ -2487,11 +2501,11 @@ stdin
 readline
 (
 )
-                    
+                        
 except
 KeyboardInterrupt
 :
-                        
+                            
 sys
 .
 exit
