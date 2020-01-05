@@ -14145,12 +14145,6 @@ finish
 (
 *
 bytes
-DataSegmentVector
-(
-)
-NameInBytecodeVector
-(
-)
 )
 ;
 }
