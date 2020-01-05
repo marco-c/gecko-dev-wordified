@@ -58,6 +58,10 @@ MPL
 /
 extern
 crate
+cssparser
+;
+extern
+crate
 gfx
 ;
 extern
