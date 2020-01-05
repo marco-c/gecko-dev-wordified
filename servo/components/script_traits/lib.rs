@@ -878,11 +878,11 @@ scrollable
 stacking
 context
 .
-SetStackingContextScrollStates
+SetScrollStates
 (
 Vec
 <
-StackingContextScrollState
+ScrollState
 >
 )
 /
@@ -5389,7 +5389,7 @@ Serialize
 ]
 pub
 struct
-StackingContextScrollState
+ScrollState
 {
 /
 /
