@@ -84,6 +84,7 @@ Uuid
 [
 derive
 (
+Debug
 Deserialize
 Serialize
 )
@@ -220,6 +221,14 @@ DeleteFileID
 (
 Uuid
 )
+/
+/
+/
+Shut
+down
+this
+thread
+Exit
 }
 pub
 type
