@@ -8979,12 +8979,6 @@ EditAction
 insertElement
 )
 ;
-ruleInfo
-.
-insertElement
-=
-aElement
-;
 nsresult
 rv
 =
