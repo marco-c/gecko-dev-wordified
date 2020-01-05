@@ -179,13 +179,6 @@ u64
 [
 repr
 (
-C
-)
-]
-#
-[
-repr
-(
 u32
 )
 ]
@@ -631,6 +624,13 @@ RasterizedBlobImage
 BlobImageError
 >
 ;
+#
+[
+repr
+(
+C
+)
+]
 #
 [
 derive
