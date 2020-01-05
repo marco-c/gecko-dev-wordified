@@ -20600,6 +20600,9 @@ nextSibling
 ;
 if
 (
+previous
+&
+&
 this
 .
 filter
@@ -20635,6 +20638,9 @@ previous
 }
 if
 (
+next
+&
+&
 this
 .
 filter
