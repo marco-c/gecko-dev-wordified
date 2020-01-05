@@ -3456,7 +3456,6 @@ authType
 break
 ;
 }
-else
 if
 (
 rv
@@ -8057,7 +8056,6 @@ creds
 )
 ;
 }
-else
 if
 (
 rv

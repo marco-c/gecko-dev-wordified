@@ -3848,8 +3848,6 @@ blocking
 return
 ;
 }
-else
-{
 LOG
 (
 (
@@ -3868,7 +3866,6 @@ mState
 =
 CLOSED
 ;
-}
 }
 else
 {
@@ -12413,8 +12410,6 @@ failure
 return
 ;
 }
-else
-{
 if
 (
 strchg
@@ -12843,7 +12838,6 @@ in
 #
 of
 streams
-}
 for
 (
 uint32_t
@@ -14834,8 +14828,6 @@ forget
 )
 ;
 }
-else
-{
 if
 (
 channel
@@ -14942,7 +14934,6 @@ CLOSED
 return
 nullptr
 ;
-}
 /
 *
 NOTREACHED

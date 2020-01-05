@@ -918,7 +918,6 @@ bufSize
 )
 ;
 }
-else
 if
 (
 addr
@@ -1202,7 +1201,6 @@ INADDR_LOOPBACK
 )
 ;
 }
-else
 if
 (
 addr
@@ -1234,7 +1232,6 @@ return
 true
 ;
 }
-else
 if
 (
 IPv6ADDR_IS_V4MAPPED
@@ -1351,7 +1348,6 @@ return
 true
 ;
 }
-else
 if
 (
 IPv6ADDR_IS_V4MAPPED
@@ -1797,7 +1793,6 @@ return
 false
 ;
 }
-else
 if
 (
 this
@@ -1846,7 +1841,6 @@ ip
 )
 ;
 }
-else
 if
 (
 this
@@ -1950,7 +1944,6 @@ defined
 XP_UNIX
 )
 }
-else
 if
 (
 this
@@ -2042,7 +2035,6 @@ raw
 family
 ;
 }
-else
 if
 (
 this
@@ -2088,8 +2080,6 @@ inet
 port
 ;
 }
-else
-{
 return
 this
 -
@@ -2105,8 +2095,6 @@ inet
 ip
 ;
 }
-}
-else
 if
 (
 this
@@ -2160,7 +2148,6 @@ cmpResult
 0
 ;
 }
-else
 if
 (
 this
@@ -2193,8 +2180,6 @@ inet6
 port
 ;
 }
-else
-{
 return
 this
 -
@@ -2209,7 +2194,6 @@ inet6
 .
 flowinfo
 ;
-}
 }
 return
 false

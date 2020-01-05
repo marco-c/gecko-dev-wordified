@@ -2059,7 +2059,6 @@ prevDomain
 break
 ;
 }
-else
 if
 (
 entry
@@ -2094,7 +2093,6 @@ currDomain
 break
 ;
 }
-else
 if
 (
 entry

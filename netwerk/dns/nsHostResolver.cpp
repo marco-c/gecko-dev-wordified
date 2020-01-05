@@ -2465,7 +2465,6 @@ nsHostRecord
 EXP_GRACE
 ;
 }
-else
 if
 (
 !
@@ -2832,7 +2831,6 @@ nsHostRecord
 DNS_PRIORITY_HIGH
 ;
 }
-else
 if
 (
 IsMediumPriority

@@ -2402,13 +2402,10 @@ new
 WebSocketSSLChannel
 ;
 }
-else
-{
 return
 new
 WebSocketChannel
 ;
-}
 }
 #
 define
