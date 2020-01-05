@@ -18229,7 +18229,7 @@ JS_INLINABLE_FN
 RegExpMatcher
 "
 RegExpMatcher
-4
+3
 0
 RegExpMatcher
 )
@@ -18239,7 +18239,7 @@ JS_INLINABLE_FN
 RegExpSearcher
 "
 RegExpSearcher
-4
+3
 0
 RegExpSearcher
 )
@@ -18249,7 +18249,7 @@ JS_INLINABLE_FN
 RegExpTester
 "
 RegExpTester
-4
+3
 0
 RegExpTester
 )
@@ -18416,15 +18416,6 @@ regexp_construct_raw_flags
 "
 regexp_construct_raw_flags
 2
-0
-)
-JS_FN
-(
-"
-regexp_clone
-"
-regexp_clone
-1
 0
 )
 JS_FN
