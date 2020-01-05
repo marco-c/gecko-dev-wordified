@@ -9172,7 +9172,7 @@ false
 )
 -
 >
-RunDOMEventWhenSafe
+PostDOMEvent
 (
 )
 ;
@@ -10047,7 +10047,7 @@ event
 )
 -
 >
-RunDOMEventWhenSafe
+PostDOMEvent
 (
 )
 ;
