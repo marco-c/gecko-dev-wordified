@@ -2972,7 +2972,7 @@ self
 "
 -
 -
-spsProfile
+geckoProfile
 sets
 profile
 to
@@ -2988,7 +2988,7 @@ try
 :
 -
 -
-spsProfile
+geckoProfile
 '
 empty_graph
 )
