@@ -150,7 +150,7 @@ util
 .
 scriptworker
 import
-get_release_build_number
+get_release_config
 from
 voluptuous
 import
@@ -4888,9 +4888,9 @@ worker
 '
 ]
     
-build_number
+release_config
 =
-get_release_build_number
+get_release_config
 (
 config
 )
@@ -4978,7 +4978,7 @@ locale
 ]
     
 if
-build_number
+release_config
 :
         
 task_def
@@ -4987,13 +4987,11 @@ task_def
 payload
 '
 ]
-[
-'
-build_number
-'
-]
-=
-build_number
+.
+update
+(
+release_config
+)
 payload_builder
 (
 '
