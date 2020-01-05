@@ -689,6 +689,7 @@ bounds
 .
 size
 =
+copy
 size
 ;
 #
@@ -812,6 +813,7 @@ rd
 |
 n
 |
+copy
 n
 .
 kind

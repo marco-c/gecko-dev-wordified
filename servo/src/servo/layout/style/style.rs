@@ -280,6 +280,7 @@ rd
 |
 n
 |
+copy
 *
 n
 .
@@ -416,6 +417,7 @@ style
 ;
 }
 ret
+copy
 self
 .
 aux
@@ -424,6 +426,7 @@ aux
 |
 x
 |
+copy
 x
 }
 )
