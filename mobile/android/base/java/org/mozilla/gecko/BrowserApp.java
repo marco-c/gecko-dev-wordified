@@ -6304,6 +6304,10 @@ init
 BrowserApp
 .
 this
+.
+getApplication
+(
+)
 )
 ;
 }
