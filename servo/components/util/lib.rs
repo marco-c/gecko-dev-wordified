@@ -468,10 +468,6 @@ T
 :
 '
 static
-+
-Send
-+
-Sync
 >
 (
 a

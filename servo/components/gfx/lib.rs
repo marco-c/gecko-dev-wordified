@@ -496,6 +496,10 @@ extern
 crate
 smallvec
 ;
+#
+[
+macro_use
+]
 extern
 crate
 string_cache
