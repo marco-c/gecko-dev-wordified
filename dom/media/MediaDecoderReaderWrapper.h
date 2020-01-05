@@ -516,6 +516,13 @@ const
 SeekTarget
 &
 aTarget
+const
+media
+:
+:
+TimeUnit
+&
+aEndTime
 )
 ;
 RefPtr

@@ -317,6 +317,8 @@ const
 SeekTarget
 &
 aTarget
+int64_t
+aEndTime
 )
 override
 ;
