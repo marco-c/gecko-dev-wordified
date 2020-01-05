@@ -497,7 +497,7 @@ of
 the
 modules
 to
-MAX_MODULE_FILENAME_LENGTH
+MAX_NAME_LENGTH
 characters
 .
 for
