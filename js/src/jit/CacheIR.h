@@ -4532,6 +4532,11 @@ tryAttachStub
 )
 ;
 bool
+tryAttachIdempotentStub
+(
+)
+;
+bool
 shouldUnlinkPreliminaryObjectStubs
 (
 )
