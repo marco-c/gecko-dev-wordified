@@ -328,6 +328,9 @@ EGL_ANGLE_platform_angle
 "
 EGL_ANGLE_platform_angle_d3d
 "
+"
+EGL_ANGLE_d3d_share_handle_client_buffer
+"
 }
 ;
 #
@@ -2314,6 +2317,10 @@ ReleaseTexImage
 SYMBOL
 (
 QuerySurface
+)
+SYMBOL
+(
+CreatePbufferFromClientBuffer
 )
 {
 nullptr
