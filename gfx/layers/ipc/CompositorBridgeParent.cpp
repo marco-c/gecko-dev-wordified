@@ -561,6 +561,17 @@ mozilla
 /
 layers
 /
+CompositorVsyncScheduler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CrossProcessCompositorBridgeParent
 .
 h

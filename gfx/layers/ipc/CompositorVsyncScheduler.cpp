@@ -297,6 +297,17 @@ include
 "
 mozilla
 /
+layers
+/
+CompositorVsyncSchedulerOwner
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
