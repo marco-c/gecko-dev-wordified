@@ -17270,10 +17270,6 @@ window
 "
 keyboardevent
 "
-|
-"
-keyevents
-"
 =
 >
 Ok
