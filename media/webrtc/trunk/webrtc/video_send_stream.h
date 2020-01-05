@@ -1185,6 +1185,15 @@ GetStats
 =
 0
 ;
+virtual
+int64_t
+GetRtt
+(
+)
+const
+=
+0
+;
 }
 ;
 }
