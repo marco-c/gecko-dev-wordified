@@ -548,7 +548,7 @@ features
 /
 from
 feature
-setttings
+settings
 rules
 and
 (
