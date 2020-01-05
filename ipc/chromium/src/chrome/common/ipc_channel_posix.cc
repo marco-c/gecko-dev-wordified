@@ -324,7 +324,7 @@ h
 "
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 #
 include
 "
@@ -4366,7 +4366,7 @@ empty
 {
 #
 ifdef
-MOZ_FAULTY
+FUZZING
 Singleton
 <
 mozilla
