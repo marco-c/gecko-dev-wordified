@@ -20479,7 +20479,10 @@ fn
 ;
 if
 (
-fun
+fn
+-
+>
+pn_funbox
 -
 >
 hasRest

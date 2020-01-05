@@ -19376,7 +19376,10 @@ cx
 ;
 if
 (
-func
+pn
+-
+>
+pn_funbox
 -
 >
 hasRest

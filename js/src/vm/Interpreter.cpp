@@ -1923,17 +1923,6 @@ setIsClassConstructor
 (
 )
 ;
-if
-(
-derived
-)
-ctor
--
->
-setHasRest
-(
-)
-;
 MOZ_ASSERT
 (
 ctor

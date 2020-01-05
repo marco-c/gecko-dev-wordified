@@ -21273,7 +21273,7 @@ nargs
 ;
 MOZ_ASSERT
 (
-sourceFun
+sourceScript
 -
 >
 hasRest
@@ -21282,6 +21282,11 @@ hasRest
 =
 =
 targetFun
+-
+>
+nonLazyScript
+(
+)
 -
 >
 hasRest
