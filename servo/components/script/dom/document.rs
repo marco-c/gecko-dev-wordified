@@ -1111,6 +1111,12 @@ num
 ToPrimitive
 ;
 use
+script_runtime
+:
+:
+ScriptChan
+;
+use
 script_thread
 :
 :
@@ -1118,7 +1124,6 @@ script_thread
 MainThreadScriptChan
 MainThreadScriptMsg
 Runnable
-ScriptChan
 }
 ;
 use

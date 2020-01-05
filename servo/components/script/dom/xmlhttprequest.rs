@@ -630,7 +630,7 @@ parse_xml
 }
 ;
 use
-script_thread
+script_runtime
 :
 :
 {
