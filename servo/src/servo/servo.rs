@@ -257,7 +257,7 @@ send
 engine
 :
 :
-load_url
+LoadURLMsg
 (
 ~
 copy
@@ -313,7 +313,7 @@ send
 engine
 :
 :
-exit
+ExitMsg
 (
 resp_ch
 )
@@ -414,7 +414,7 @@ send
 engine
 :
 :
-load_url
+LoadURLMsg
 (
 ~
 url
@@ -470,7 +470,7 @@ e
 listen
 {
 |
-resp_ch
+response_channel
 |
 engine
 .
@@ -479,13 +479,13 @@ send
 engine
 :
 :
-exit
+ExitMsg
 (
-resp_ch
+response_channel
 )
 )
 ;
-resp_ch
+response_channel
 .
 recv
 (
