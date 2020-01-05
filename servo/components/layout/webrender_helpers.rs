@@ -3231,6 +3231,8 @@ scroll_root
 id
 .
 0
+as
+u64
 builder
 .
 pipeline_id
@@ -3361,6 +3363,8 @@ new
 self
 .
 0
+as
+u64
 pipeline_id
 )
 }
