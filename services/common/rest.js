@@ -816,11 +816,9 @@ nsIChannelEventSink
 /
 *
 *
-*
 Public
 API
 :
-*
 *
 *
 /
@@ -1863,10 +1861,8 @@ clear
 /
 *
 *
-*
 Implementation
 stuff
-*
 *
 *
 /
@@ -2777,9 +2773,7 @@ error
 /
 *
 *
-*
 nsIStreamListener
-*
 *
 *
 /
@@ -3862,9 +3856,7 @@ delayTimeout
 /
 *
 *
-*
 nsIInterfaceRequestor
-*
 *
 *
 /
@@ -3885,9 +3877,7 @@ aIID
 /
 *
 *
-*
 nsIBadCertListener2
-*
 *
 *
 /
@@ -4058,9 +4048,7 @@ isSameURI
 /
 *
 *
-*
 nsIChannelEventSink
-*
 *
 *
 /
