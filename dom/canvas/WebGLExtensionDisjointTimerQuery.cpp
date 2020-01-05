@@ -783,6 +783,12 @@ Value
 retval
 )
 {
+retval
+.
+setNull
+(
+)
+;
 if
 (
 mIsLost
@@ -1028,6 +1034,12 @@ Value
 retval
 )
 {
+retval
+.
+setNull
+(
+)
+;
 if
 (
 mIsLost
@@ -1080,6 +1092,8 @@ active
 .
 "
 )
+;
+return
 ;
 }
 mContext
