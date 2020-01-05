@@ -1308,6 +1308,8 @@ discardJitCode
 FreeOp
 *
 fop
+bool
+discardBaselineCode
 )
 {
 if
@@ -1333,6 +1335,11 @@ this
 ;
 }
 else
+{
+if
+(
+discardBaselineCode
+)
 {
 #
 ifdef
@@ -1420,6 +1427,7 @@ MarkActiveBaselineScripts
 this
 )
 ;
+}
 /
 *
 Only
@@ -1505,6 +1513,10 @@ flag
 .
 *
 /
+if
+(
+discardBaselineCode
+)
 jit
 :
 :
@@ -1636,6 +1648,10 @@ GC
 .
 *
 /
+if
+(
+discardBaselineCode
+)
 jitZone
 (
 )
