@@ -2687,6 +2687,13 @@ macro
 (
 _
 MallocHeap
+sharedIntlData
+)
+\
+macro
+(
+_
+MallocHeap
 uncompressedSourceCache
 )
 \
