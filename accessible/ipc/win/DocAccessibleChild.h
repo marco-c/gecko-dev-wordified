@@ -234,6 +234,16 @@ const
 IAccessibleHolder
 &
 aParentCOMProxy
+)
+override
+;
+virtual
+ipc
+:
+:
+IPCResult
+RecvEmulatedWindow
+(
 const
 WindowsHandle
 &
