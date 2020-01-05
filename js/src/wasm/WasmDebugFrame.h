@@ -512,6 +512,15 @@ return
 resultI32_
 ;
 }
+bool
+getLocal
+(
+uint32_t
+localIndex
+MutableHandleValue
+vp
+)
+;
 static
 constexpr
 size_t
