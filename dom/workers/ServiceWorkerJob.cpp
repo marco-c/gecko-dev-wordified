@@ -527,6 +527,12 @@ runnable
 =
 NewRunnableMethod
 (
+"
+ServiceWorkerJob
+:
+:
+AsyncExecute
+"
 this
 &
 ServiceWorkerJob

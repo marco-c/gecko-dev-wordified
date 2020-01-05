@@ -3111,6 +3111,12 @@ uint32_t
 aDisabledAsyncToken
 )
 :
+Runnable
+(
+"
+mozInlineSpellResume
+"
+)
 mDisabledAsyncToken
 (
 aDisabledAsyncToken

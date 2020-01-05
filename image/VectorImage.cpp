@@ -7317,6 +7317,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+ProgressTracker
+:
+:
+OnDiscard
+"
 mProgressTracker
 &
 ProgressTracker

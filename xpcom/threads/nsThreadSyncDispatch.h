@@ -177,6 +177,12 @@ nsIRunnable
 aTask
 )
 :
+Runnable
+(
+"
+nsThreadSyncDispatch
+"
+)
 mOrigin
 (
 aOrigin
