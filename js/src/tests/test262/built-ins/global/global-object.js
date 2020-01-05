@@ -196,6 +196,7 @@ global
 String
 )
 ;
+var
 globalVariable
 =
 {

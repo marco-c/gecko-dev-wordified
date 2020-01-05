@@ -3,12 +3,7 @@
 |
 reftest
 |
-skip
--
--
-has
-YAML
-errors
+module
 /
 /
 Copyright
@@ -48,6 +43,7 @@ file
 -
 description
 :
+>
 Default
 exports
 are

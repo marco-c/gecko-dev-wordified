@@ -348,6 +348,7 @@ js
 -
 *
 /
+262
 .
 evalScript
 (
@@ -479,6 +480,7 @@ preventExtensions
 this
 )
 ;
+262
 .
 evalScript
 (
@@ -533,6 +535,7 @@ configurable
 '
 )
 ;
+262
 .
 evalScript
 (

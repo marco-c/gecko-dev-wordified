@@ -1,16 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-has
-YAML
-errors
-/
-/
 Copyright
 (
 C
@@ -61,6 +50,7 @@ semantics
 evaluation
 description
 :
+>
 Completion
 value
 when

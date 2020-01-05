@@ -166,6 +166,7 @@ preventExtensions
 this
 )
 ;
+262
 .
 evalScript
 (
@@ -223,6 +224,7 @@ let
 '
 )
 ;
+262
 .
 evalScript
 (
@@ -300,6 +302,7 @@ const
 '
 )
 ;
+262
 .
 evalScript
 (

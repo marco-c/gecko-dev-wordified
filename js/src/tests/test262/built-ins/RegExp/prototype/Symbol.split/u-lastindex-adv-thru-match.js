@@ -1,16 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-has
-YAML
-errors
-/
-/
 Copyright
 (
 C
@@ -48,6 +37,7 @@ file
 -
 description
 :
+>
 lastIndex
 is
 advanced

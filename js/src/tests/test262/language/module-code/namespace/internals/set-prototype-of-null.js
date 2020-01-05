@@ -126,6 +126,7 @@ setPrototypeOf
 ns
 null
 )
+)
 ;
 reportCompare
 (

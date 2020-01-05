@@ -194,6 +194,7 @@ assert
 .
 notSameValue
 (
+arr
 null
 "
 No

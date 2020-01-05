@@ -1,16 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-has
-YAML
-errors
-/
-/
 Copyright
 (
 C
@@ -60,6 +49,7 @@ for
 of
 info
 :
+>
 Entries
 removed
 from

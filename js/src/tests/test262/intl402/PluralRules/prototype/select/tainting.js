@@ -1,16 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-has
-YAML
-errors
-/
-/
 Copyright
 2016
 Mozilla
@@ -72,6 +61,7 @@ prototype
 .
 info
 :
+|
 1
 .
 1

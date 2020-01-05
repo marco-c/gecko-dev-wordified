@@ -86,9 +86,6 @@ var
 child
 =
 {
-__proto__
-:
-sup
 async
 method
 (
@@ -119,6 +116,14 @@ sup
 ;
 }
 }
+Object
+.
+setPrototypeOf
+(
+child
+sup
+)
+;
 child
 .
 method

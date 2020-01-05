@@ -3,12 +3,9 @@
 |
 reftest
 |
-skip
--
--
-has
-YAML
-errors
+error
+:
+SyntaxError
 /
 /
 Copyright
@@ -70,6 +67,7 @@ es6id
 1
 description
 :
+>
 A
 labelled
 function
@@ -184,9 +182,3 @@ test262
 )
 {
 }
-reportCompare
-(
-0
-0
-)
-;

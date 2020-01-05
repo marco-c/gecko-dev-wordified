@@ -14,9 +14,11 @@ buffer
 if
 (
 !
+262
 |
 |
 typeof
+262
 .
 detachArrayBuffer
 !
@@ -43,6 +45,7 @@ ArrayBuffer
 )
 ;
 }
+262
 .
 detachArrayBuffer
 (
