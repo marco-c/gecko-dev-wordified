@@ -3021,7 +3021,7 @@ dom_class
 )
 ;
 }
-debug
+trace
 !
 (
 "
@@ -3197,7 +3197,7 @@ IsWrapper
 obj
 )
 {
-debug
+trace
 !
 (
 "
@@ -3227,7 +3227,7 @@ is_null
 (
 )
 {
-debug
+trace
 !
 (
 "
@@ -3256,7 +3256,7 @@ obj
 )
 )
 ;
-debug
+trace
 !
 (
 "
@@ -3273,7 +3273,7 @@ obj
 }
 else
 {
-debug
+trace
 !
 (
 "
@@ -3300,7 +3300,7 @@ proto_check
 dom_class
 )
 {
-debug
+trace
 !
 (
 "
@@ -3319,7 +3319,7 @@ obj
 }
 else
 {
-debug
+trace
 !
 (
 "

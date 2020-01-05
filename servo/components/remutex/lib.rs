@@ -1499,7 +1499,7 @@ ReentrantMutex
 T
 >
 {
-debug
+trace
 !
 (
 "
@@ -1561,7 +1561,7 @@ T
 >
 >
 {
-debug
+trace
 !
 (
 "
@@ -1600,7 +1600,7 @@ current
 )
 )
 {
-debug
+trace
 !
 (
 "
@@ -1635,7 +1635,7 @@ lock
 (
 )
 {
-debug
+trace
 !
 (
 "
@@ -1671,7 +1671,7 @@ mk_guard
 )
 ;
 }
-debug
+trace
 !
 (
 "
@@ -1718,7 +1718,7 @@ T
 >
 >
 {
-debug
+trace
 !
 (
 "
@@ -1758,7 +1758,7 @@ current
 )
 )
 {
-debug
+trace
 !
 (
 "
@@ -1803,7 +1803,7 @@ WouldBlock
 =
 >
 {
-debug
+trace
 !
 (
 "
@@ -1842,7 +1842,7 @@ _
 =
 >
 {
-debug
+trace
 !
 (
 "
@@ -1886,7 +1886,7 @@ mk_guard
 }
 }
 }
-debug
+trace
 !
 (
 "
@@ -1923,7 +1923,7 @@ unlock
 self
 )
 {
-debug
+trace
 !
 (
 "
@@ -1968,7 +1968,7 @@ count
 "
 )
 ;
-debug
+trace
 !
 (
 "
@@ -2007,7 +2007,7 @@ count
 =
 0
 {
-debug
+trace
 !
 (
 "
@@ -2076,7 +2076,7 @@ count
 "
 )
 ;
-debug
+trace
 !
 (
 "

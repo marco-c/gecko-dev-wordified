@@ -550,7 +550,7 @@ is_null
 (
 )
 {
-debug
+trace
 !
 (
 "
@@ -659,7 +659,7 @@ get
 +
 1
 ;
-debug
+trace
 !
 (
 "
