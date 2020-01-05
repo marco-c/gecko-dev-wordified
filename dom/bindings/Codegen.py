@@ -7031,6 +7031,23 @@ False
 )
 :
         
+if
+isinstance
+(
+child
+list
+)
+:
+            
+child
+=
+CGList
+(
+child
+"
+"
+)
+        
 const
 =
 "
@@ -8478,7 +8495,7 @@ mozilla
 /
 dom
 /
-MozMap
+Record
 .
 h
 "
@@ -8496,7 +8513,7 @@ mozilla
 /
 dom
 /
-MozMap
+Record
 .
 h
 "
@@ -8510,7 +8527,7 @@ for
 the
 type
 the
-MozMap
+record
 is
                 
 #
@@ -10491,7 +10508,7 @@ mozilla
 /
 dom
 /
-MozMap
+Record
 .
 h
 "
@@ -11077,7 +11094,7 @@ mozilla
 /
 dom
 /
-MozMap
+Record
 .
 h
 "
@@ -11090,7 +11107,7 @@ internal
 type
 of
 the
-MozMap
+record
                     
 addHeadersForType
 (
@@ -34008,6 +34025,47 @@ value
 )
             
 }
+def
+recordKeyDeclType
+(
+recordType
+)
+:
+    
+assert
+recordType
+.
+keyType
+.
+isString
+(
+)
+    
+if
+recordType
+.
+keyType
+.
+isByteString
+(
+)
+:
+        
+return
+CGGeneric
+(
+"
+nsCString
+"
+)
+    
+return
+CGGeneric
+(
+"
+nsString
+"
+)
 #
 If
 this
@@ -35621,7 +35679,7 @@ Dictionary
 OwningUnion
 "
 "
-MozMap
+Record
 "
 )
 )
@@ -37015,7 +37073,7 @@ is
 None
 :
             
-notMozMap
+notRecord
 =
 (
 '
@@ -37050,7 +37108,7 @@ exceptionCode
 else
 :
             
-notMozMap
+notRecord
 =
 failureCode
         
@@ -37082,20 +37140,22 @@ if
 nullable
 :
             
-valueType
+recordType
 =
 type
-.
-inner
 .
 inner
         
 else
 :
             
-valueType
+recordType
 =
 type
+        
+valueType
+=
+recordType
 .
 inner
         
@@ -37109,7 +37169,7 @@ descriptorProvider
 isMember
 =
 "
-MozMap
+Record
 "
             
 exceptionCode
@@ -37158,7 +37218,7 @@ have
 optional
 things
 in
-MozMap
+record
 "
 )
         
@@ -37181,25 +37241,32 @@ t
 need
 holders
 for
-MozMap
+record
 "
 )
         
-typeName
+declType
 =
 CGTemplatedType
 (
 "
-MozMap
+Record
 "
+[
+recordKeyDeclType
+(
+recordType
+)
+                                              
 valueInfo
 .
 declType
+]
 )
         
-mozMapType
-=
 typeName
+=
+declType
 .
 define
 (
@@ -37209,17 +37276,17 @@ if
 nullable
 :
             
-typeName
+declType
 =
 CGTemplatedType
 (
 "
 Nullable
 "
-typeName
+declType
 )
             
-mozMapRef
+recordRef
 =
 "
 {
@@ -37234,7 +37301,7 @@ SetValue
 else
 :
             
-mozMapRef
+recordRef
 =
 "
 {
@@ -37337,10 +37404,10 @@ fill
             
 auto
 &
-mozMapEntries
+recordEntries
 =
 {
-mozMapRef
+recordRef
 }
 .
 Entries
@@ -37356,7 +37423,7 @@ Rooted
 JSObject
 *
 >
-mozMapObj
+recordObj
 (
 cx
 &
@@ -37418,7 +37485,7 @@ js
 GetPropertyKeys
 (
 cx
-mozMapObj
+recordObj
                                      
 JSITER_OWNONLY
 |
@@ -37439,7 +37506,7 @@ exceptionCode
 if
 (
 !
-mozMapEntries
+recordEntries
 .
 SetCapacity
 (
@@ -37582,7 +37649,7 @@ if
 JS_GetOwnPropertyDescriptorById
 (
 cx
-mozMapObj
+recordObj
 curId
                                                    
 &
@@ -37684,7 +37751,7 @@ if
 JS_GetPropertyById
 (
 cx
-mozMapObj
+recordObj
 curId
 &
 temp
@@ -37724,7 +37791,7 @@ capacity
 .
               
 {
-mozMapType
+typeName
 }
 :
 :
@@ -37732,7 +37799,7 @@ EntryType
 *
 entry
 =
-mozMapEntries
+recordEntries
 .
 AppendElement
 (
@@ -37774,13 +37841,13 @@ exceptionCode
 =
 exceptionCode
             
-mozMapRef
+recordRef
 =
-mozMapRef
+recordRef
             
-mozMapType
+typeName
 =
-mozMapType
+typeName
             
 valueType
 =
@@ -37817,12 +37884,8 @@ SetNull
 n
 "
                                           
-notMozMap
+notRecord
 )
-        
-declType
-=
-typeName
         
 declArgs
 =
@@ -37837,7 +37900,7 @@ holderArgs
 None
         
 #
-MozMap
+record
 arguments
 that
 might
@@ -37904,17 +37967,25 @@ holderType
 CGTemplatedType
 (
 "
-MozMapRooter
+RecordRooter
 "
+                                         
+[
+recordKeyDeclType
+(
+recordType
+)
+                                          
 valueInfo
 .
 declType
+]
 )
             
 #
 If
 our
-MozMap
+record
 is
 nullable
 this
@@ -37967,7 +38038,7 @@ cx
 s
 "
 %
-mozMapRef
+recordRef
         
 return
 JSToNativeConversionInfo
@@ -38673,7 +38744,7 @@ setDictionary
 =
 None
         
-mozMapMemberTypes
+recordMemberTypes
 =
 filter
 (
@@ -38691,7 +38762,7 @@ memberTypes
 if
 len
 (
-mozMapMemberTypes
+recordMemberTypes
 )
 >
 0
@@ -38700,7 +38771,7 @@ mozMapMemberTypes
 assert
 len
 (
-mozMapMemberTypes
+recordMemberTypes
 )
 =
 =
@@ -38710,13 +38781,13 @@ name
 =
 getUnionMemberName
 (
-mozMapMemberTypes
+recordMemberTypes
 [
 0
 ]
 )
             
-mozMapObject
+recordObject
 =
 CGGeneric
 (
@@ -38771,7 +38842,7 @@ name
 else
 :
             
-mozMapObject
+recordObject
 =
 None
         
@@ -38934,7 +39005,7 @@ callbackObject
 or
 object
 or
-mozMapObject
+recordObject
         
 if
 hasObjectTypes
@@ -38965,7 +39036,7 @@ dateObject
 or
 callbackObject
 or
-mozMapObject
+recordObject
 )
             
 if
@@ -39125,7 +39196,7 @@ n
 )
             
 if
-mozMapObject
+recordObject
 :
                 
 templateBody
@@ -39137,7 +39208,7 @@ templateBody
                                        
 CGIfWrapper
 (
-mozMapObject
+recordObject
 "
 !
 done
@@ -45170,7 +45241,7 @@ Sequence
 Dictionary
 "
 "
-MozMap
+Record
 "
 )
 :
@@ -49311,7 +49382,7 @@ MaybeWrapValue
 sequenceWrapLevel
 =
 0
-mozMapWrapLevel
+recordWrapLevel
 =
 0
 def
@@ -50622,7 +50693,7 @@ do
 non
 -
 nullable
-MozMap
+record
 .
 Our
 success
@@ -50650,14 +50721,14 @@ bump
 the
         
 #
-mozMapWrapLevel
+recordWrapLevel
 around
 this
 call
 so
 that
 nested
-MozMap
+record
 conversions
         
 #
@@ -50670,19 +50741,19 @@ names
 .
         
 global
-mozMapWrapLevel
+recordWrapLevel
         
 valueName
 =
 "
-mozMapValue
+recordValue
 %
 d
 "
 %
-mozMapWrapLevel
+recordWrapLevel
         
-mozMapWrapLevel
+recordWrapLevel
 +
 =
 1
@@ -50762,7 +50833,7 @@ typedArraysAreStructs
 }
 )
         
-mozMapWrapLevel
+recordWrapLevel
 -
 =
 1
@@ -54436,7 +54507,7 @@ descriptorProvider
 isMember
 =
 "
-MozMap
+Record
 "
 )
         
@@ -54469,7 +54540,7 @@ rooter
 CGGeneric
 (
 "
-MozMapRooter
+RecordRooter
 <
 %
 s
@@ -54486,10 +54557,16 @@ n
 "
 %
                                
+(
+"
+nsString
+"
++
 result
 .
 define
 (
+)
 )
 )
         
@@ -54505,9 +54582,16 @@ result
 CGTemplatedType
 (
 "
-MozMap
+Record
 "
+[
+recordKeyDeclType
+(
+returnType
+)
+                                            
 result
+]
 )
         
 if
@@ -56522,7 +56606,7 @@ sequences
 sequenceWrapLevel
 =
 0
-mapWrapLevel
+recordWrapLevel
 =
 0
 def
@@ -57068,7 +57152,7 @@ type
 .
 inner
             
-mozMapRef
+recordRef
 =
 "
 %
@@ -57084,12 +57168,12 @@ value
 else
 :
             
-mozMapRef
+recordRef
 =
 value
         
 global
-mapWrapLevel
+recordWrapLevel
         
 entryRef
 =
@@ -57099,9 +57183,9 @@ mapEntry
 d
 "
 %
-mapWrapLevel
+recordWrapLevel
         
-mapWrapLevel
+recordWrapLevel
 +
 =
 1
@@ -57124,7 +57208,7 @@ mValue
 entryRef
 )
         
-mapWrapLevel
+recordWrapLevel
 -
 =
 1
@@ -57172,7 +57256,7 @@ n
                                   
 (
 entryRef
-mozMapRef
+recordRef
 )
 )
                              
@@ -64219,7 +64303,7 @@ callback
 #
 interface
 or
-MozMap
+record
 .
 There
 should
@@ -77945,7 +78029,7 @@ else
 wrapperType
 =
 "
-MozMap
+Record
 "
         
 #
@@ -77987,13 +78071,41 @@ isMember
 wrapperType
 )
         
+if
+wrapperType
+=
+=
+"
+Sequence
+"
+:
+            
+innerType
+=
+elementInfo
+.
+declType
+        
+else
+:
+            
+innerType
+=
+[
+recordKeyDeclType
+(
+type
+)
+elementInfo
+.
+declType
+]
+        
 return
 CGTemplatedType
 (
 wrapperType
-elementInfo
-.
-declType
+innerType
                                
 isConst
 =
@@ -81007,7 +81119,7 @@ name
 CGGeneric
 (
 "
-TraceMozMap
+TraceRecord
 (
 trc
 mValue
@@ -105293,8 +105405,9 @@ implement
 this
 add
 a
-MozMap
+record
 <
+DOMString
 object
 >
 to
@@ -113144,11 +113257,11 @@ we
 want
 to
 handle
-MozMap
+record
 -
 of
 -
-MozMap
+record
 return
 values
 we
@@ -113166,7 +113279,7 @@ codegen
 to
 not
 produce
-MozMap
+record
 <
 void
 >
@@ -113678,12 +113791,19 @@ type
 CGTemplatedType
 (
 "
-MozMap
+Record
 "
+[
+recordKeyDeclType
+(
+returnType
+)
+                                              
 CGGeneric
 (
 elementDecl
 )
+]
 )
             
 if
@@ -114366,7 +114486,7 @@ Variadic
 "
                  
 "
-MozMap
+Record
 "
         
 "
@@ -114481,7 +114601,7 @@ getArgType
 elementType
 False
 "
-MozMap
+Record
 "
 )
 [
@@ -114493,9 +114613,15 @@ decl
 CGTemplatedType
 (
 "
-MozMap
+Record
 "
+[
+recordKeyDeclType
+(
+type
+)
 argType
+]
 )
             
 return
