@@ -244,6 +244,13 @@ IsCCLeaf
 const
 override
 ;
+/
+/
+implement
+part
+of
+Rule
+DECL_STYLE_RULE_INHERIT_NO_DOMRULE
 #
 ifdef
 DEBUG
