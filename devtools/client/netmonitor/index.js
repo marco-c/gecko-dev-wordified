@@ -151,9 +151,7 @@ launchpad
 )
 ;
 const
-{
 EventEmitter
-}
 =
 require
 (
@@ -161,6 +159,14 @@ require
 devtools
 -
 modules
+/
+src
+/
+utils
+/
+event
+-
+emitter
 "
 )
 ;
