@@ -2445,6 +2445,8 @@ size_t
 availElemCount
 GLuint
 elemOffset
+GLenum
+funcType
 )
 ;
 void
