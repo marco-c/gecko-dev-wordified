@@ -14091,6 +14091,11 @@ view
 -
 box
 "
+gecko_enum_prefix
+=
+"
+StyleGeometryBox
+"
 products
 =
 "

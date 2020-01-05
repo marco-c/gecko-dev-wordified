@@ -17882,7 +17882,7 @@ border_box
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 T
 :
 :
@@ -17892,7 +17892,7 @@ padding_box
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 T
 :
 :
@@ -17902,7 +17902,7 @@ content_box
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 %
 if
 shorthand
@@ -17921,7 +17921,7 @@ fill_box
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 T
 :
 :
@@ -17931,7 +17931,7 @@ stroke_box
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 T
 :
 :
@@ -17941,7 +17941,7 @@ view_box
 StyleGeometryBox
 :
 :
-View
+ViewBox
 T
 :
 :
@@ -18046,7 +18046,7 @@ border_box
 StyleGeometryBox
 :
 :
-Border
+BorderBox
 T
 :
 :
@@ -18056,7 +18056,7 @@ padding_box
 StyleGeometryBox
 :
 :
-Padding
+PaddingBox
 T
 :
 :
@@ -18066,7 +18066,7 @@ content_box
 StyleGeometryBox
 :
 :
-Content
+ContentBox
 %
 if
 shorthand
@@ -18085,7 +18085,7 @@ fill_box
 StyleGeometryBox
 :
 :
-Fill
+FillBox
 T
 :
 :
@@ -18095,7 +18095,7 @@ stroke_box
 StyleGeometryBox
 :
 :
-Stroke
+StrokeBox
 T
 :
 :
@@ -18105,7 +18105,7 @@ view_box
 StyleGeometryBox
 :
 :
-View
+ViewBox
 %
 endif
 }
