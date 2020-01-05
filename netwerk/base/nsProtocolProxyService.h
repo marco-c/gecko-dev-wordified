@@ -2137,6 +2137,9 @@ bool
 isSyncOK
 )
 ;
+bool
+mIsShutdown
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
