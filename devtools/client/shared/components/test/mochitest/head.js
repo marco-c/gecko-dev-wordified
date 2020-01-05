@@ -1638,6 +1638,10 @@ mode
 "
 :
 mode
+.
+toString
+(
+)
 ;
 if
 (
