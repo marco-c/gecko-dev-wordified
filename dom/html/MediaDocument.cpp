@@ -1959,12 +1959,6 @@ NS_LITERAL_STRING
 text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 )
 true
