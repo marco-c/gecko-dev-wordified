@@ -302,6 +302,9 @@ media
 :
 TimeUnit
 ;
+#
+undef
+LOG
 mozilla
 :
 :
@@ -327,7 +330,7 @@ name
 .
 #
 define
-CMLOG
+LOG
 (
 msg
 .
@@ -2363,7 +2366,7 @@ rv
 )
 ;
 }
-CMLOG
+LOG
 (
 "
 Received
@@ -2893,7 +2896,7 @@ re
 up
 to
 .
-CMLOG
+LOG
 (
 "
 CopySegmentToCache
@@ -5722,7 +5725,7 @@ thread
 "
 )
 ;
-CMLOG
+LOG
 (
 "
 CacheClientSeek
@@ -9587,3 +9590,14 @@ NS_OK
 /
 namespace
 mozilla
+/
+/
+avoid
+redefined
+macro
+in
+unified
+build
+#
+undef
+LOG
