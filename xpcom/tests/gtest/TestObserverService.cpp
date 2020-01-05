@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
