@@ -3531,7 +3531,6 @@ uint8_t
 {
 IteratorNext
 IteratorReturn
-IteratorThrow
 GetIterator
 }
 ;
