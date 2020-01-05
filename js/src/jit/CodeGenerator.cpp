@@ -44781,7 +44781,7 @@ offsetOfImplData
 front
 )
 ;
-static_assert
+MOZ_ASSERT
 (
 ValueMap
 :
@@ -44909,7 +44909,7 @@ offsetOfImplData
 front
 )
 ;
-static_assert
+MOZ_ASSERT
 (
 ValueSet
 :
@@ -45120,7 +45120,7 @@ the
 same
 location
 .
-static_assert
+MOZ_ASSERT
 (
 OrderedHashTable
 :
