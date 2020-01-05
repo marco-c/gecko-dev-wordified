@@ -466,6 +466,16 @@ st
 -
 an
 -
+debug
+'
+    
+'
+macosx64
+-
+st
+-
+an
+-
 opt
 '
     
