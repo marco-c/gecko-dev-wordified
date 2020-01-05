@@ -1882,6 +1882,7 @@ c_
 match_glyph_data
 =
 NULL
+;
 matcher
 .
 set_match_func

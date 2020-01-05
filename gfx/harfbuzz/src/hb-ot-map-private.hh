@@ -831,6 +831,13 @@ len
 *
 plookups
 =
+end
+=
+=
+start
+?
+NULL
+:
 &
 lookups
 [
