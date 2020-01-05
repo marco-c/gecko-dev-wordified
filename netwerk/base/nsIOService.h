@@ -635,6 +635,12 @@ IsLinkUp
 (
 )
 ;
+static
+bool
+IsInheritSecurityContextForDataURIEnabled
+(
+)
+;
 /
 /
 Used
@@ -1041,6 +1047,10 @@ mNetworkNotifyChanged
 static
 bool
 sTelemetryEnabled
+;
+static
+bool
+sDataURIInheritSecurityContext
 ;
 /
 /
