@@ -626,7 +626,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 RestyleDamage
 {

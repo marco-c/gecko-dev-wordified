@@ -163,15 +163,6 @@ sync
 Arc
 ;
 use
-std
-:
-:
-hash
-:
-:
-Hash
-;
-use
 platform
 :
 :
@@ -615,7 +606,7 @@ uint
 derive
 (
 Clone
-Show
+Debug
 )
 ]
 pub

@@ -580,7 +580,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableCaptionFlow
 {

@@ -310,7 +310,7 @@ derive
 (
 Copy
 RustcEncodable
-Show
+Debug
 )
 ]
 pub
@@ -1115,9 +1115,6 @@ iter
 map
 (
 |
-&
-mut
-:
 column_intrinsic_inline_size
 |
 {
@@ -2499,7 +2496,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableWrapperFlow
 {
@@ -3341,7 +3338,7 @@ derive
 (
 Copy
 PartialEq
-Show
+Debug
 )
 ]
 enum

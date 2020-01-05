@@ -389,7 +389,7 @@ hidpi_factor
 [
 derive
 (
-Show
+Debug
 Copy
 )
 ]
@@ -548,7 +548,7 @@ smaller
 derive
 (
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -657,7 +657,7 @@ area
 derive
 (
 RustcEncodable
-Show
+Debug
 Copy
 )
 ]
@@ -1058,7 +1058,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Au
 {

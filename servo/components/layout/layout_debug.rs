@@ -128,7 +128,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 File
@@ -424,6 +424,10 @@ state
 flow_root
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 data
@@ -556,6 +560,10 @@ state
 .
 flow_root
 )
+)
+.
+unwrap
+(
 )
 ;
 let
@@ -746,6 +754,10 @@ base
 flow_root
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 state
@@ -924,6 +936,10 @@ task_state
 flow_root
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 result
@@ -935,6 +951,10 @@ encode
 (
 &
 root_scope
+)
+.
+unwrap
+(
 )
 ;
 let

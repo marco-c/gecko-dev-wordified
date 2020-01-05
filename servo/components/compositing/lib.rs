@@ -71,6 +71,9 @@ plugin
 feature
 (
 int_uint
+core
+libc
+std_misc
 )
 ]
 #
@@ -79,14 +82,6 @@ int_uint
 allow
 (
 missing_copy_implementations
-)
-]
-#
-!
-[
-allow
-(
-unstable
 )
 ]
 #

@@ -208,7 +208,7 @@ method
 [
 derive
 (
-Show
+Debug
 Clone
 )
 ]

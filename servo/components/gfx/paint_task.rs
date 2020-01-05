@@ -982,7 +982,6 @@ task_state
 PAINT
 move
 |
-:
 |
 {
 {
@@ -2280,7 +2279,6 @@ clone
 (
 )
 |
-:
 |
 {
 /
@@ -2463,9 +2461,6 @@ tile_count
 map
 (
 |
-&
-mut
-:
 i
 |
 {
@@ -2868,8 +2863,6 @@ thread_count
 map
 (
 |
-&
-:
 _
 |
 {
@@ -3830,9 +3823,6 @@ get_data_surface
 with_data
 (
 |
-&
-mut
-:
 data
 |
 {

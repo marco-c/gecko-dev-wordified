@@ -514,7 +514,7 @@ use
 libc
 ;
 use
-rustc_serialize
+serialize
 :
 :
 base64
@@ -1197,7 +1197,6 @@ parsed
 .
 "
 let
-mut
 input
 =
 atob
@@ -1307,6 +1306,8 @@ String
 (
 )
 ;
+let
+mut
 input
 =
 without_spaces

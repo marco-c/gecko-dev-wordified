@@ -1139,7 +1139,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableRowGroupFlow
 {

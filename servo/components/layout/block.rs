@@ -14779,7 +14779,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 BlockFlow
 {
@@ -14874,7 +14874,7 @@ equation
 [
 derive
 (
-Show
+Debug
 Copy
 )
 ]
@@ -14992,7 +14992,7 @@ equation
 derive
 (
 Copy
-Show
+Debug
 )
 ]
 pub

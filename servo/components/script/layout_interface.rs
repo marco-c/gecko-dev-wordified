@@ -691,7 +691,7 @@ reflow
 derive
 (
 PartialEq
-Show
+Debug
 )
 ]
 pub

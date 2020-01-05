@@ -1127,9 +1127,6 @@ as_slice
 (
 )
 |
-&
-mut
-:
 path
 |
 {
@@ -1435,9 +1432,6 @@ as_slice
 (
 )
 |
-&
-mut
-:
 path
 |
 {

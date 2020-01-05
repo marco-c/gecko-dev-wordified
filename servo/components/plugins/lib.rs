@@ -199,6 +199,8 @@ plugin_registrar
 quote
 plugin
 box_syntax
+rustc_private
+core
 )
 ]
 #
@@ -207,14 +209,6 @@ box_syntax
 allow
 (
 missing_copy_implementations
-)
-]
-#
-!
-[
-allow
-(
-unstable
 )
 ]
 #

@@ -83,7 +83,7 @@ std
 fmt
 :
 :
-Show
+Debug
 ;
 /
 /
@@ -681,7 +681,7 @@ Eq
 +
 Ord
 +
-Show
+Debug
 >
 (
 arr

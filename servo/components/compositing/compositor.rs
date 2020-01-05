@@ -439,7 +439,7 @@ use
 std
 :
 :
-path
+old_path
 :
 :
 Path
@@ -1040,7 +1040,7 @@ derive
 (
 Copy
 PartialEq
-Show
+Debug
 )
 ]
 enum

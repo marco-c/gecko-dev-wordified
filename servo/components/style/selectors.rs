@@ -135,7 +135,7 @@ derive
 (
 PartialEq
 Clone
-Show
+Debug
 )
 ]
 pub
@@ -170,7 +170,7 @@ PartialEq
 Clone
 Hash
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -191,7 +191,7 @@ derive
 (
 PartialEq
 Clone
-Show
+Debug
 )
 ]
 pub
@@ -235,7 +235,7 @@ derive
 PartialEq
 Clone
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -267,7 +267,7 @@ Eq
 PartialEq
 Clone
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -453,7 +453,7 @@ PartialEq
 Clone
 Hash
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -484,7 +484,7 @@ Eq
 PartialEq
 Clone
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -508,7 +508,7 @@ Eq
 PartialEq
 Clone
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -536,7 +536,7 @@ Eq
 PartialEq
 Clone
 Hash
-Show
+Debug
 )
 ]
 pub
@@ -1794,7 +1794,7 @@ simple_selectors
 [
 derive
 (
-Show
+Debug
 )
 ]
 enum
@@ -1924,7 +1924,6 @@ let
 default_namespace
 =
 |
-:
 local_name
 |
 {
@@ -1981,8 +1980,6 @@ let
 explicit_namespace
 =
 |
-&
-:
 input
 :
 &

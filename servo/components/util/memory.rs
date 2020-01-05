@@ -96,7 +96,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 timer
@@ -119,7 +119,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 File
@@ -1557,6 +1557,10 @@ option_try
 s
 .
 parse
+(
+)
+.
+ok
 (
 )
 )

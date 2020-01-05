@@ -369,6 +369,8 @@ use
 std
 :
 :
+old_io
+as
 io
 ;
 use

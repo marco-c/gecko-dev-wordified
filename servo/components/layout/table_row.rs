@@ -2343,7 +2343,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 TableRowFlow
 {

@@ -135,7 +135,7 @@ use
 std
 :
 :
-io
+old_io
 :
 :
 net
@@ -213,7 +213,7 @@ support
 derive
 (
 Clone
-Show
+Debug
 )
 ]
 pub
@@ -1047,7 +1047,7 @@ IpAddr
 (
 )
 .
-is_none
+is_err
 (
 )
 {

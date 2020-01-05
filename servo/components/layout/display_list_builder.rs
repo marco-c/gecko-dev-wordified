@@ -9181,7 +9181,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 Copy
 )
 ]

@@ -280,7 +280,7 @@ source
 derive
 (
 Clone
-Show
+Debug
 PartialEq
 Eq
 )
@@ -303,7 +303,7 @@ String
 derive
 (
 Clone
-Show
+Debug
 PartialEq
 Eq
 )
@@ -328,7 +328,7 @@ String
 [
 derive
 (
-Show
+Debug
 PartialEq
 Eq
 )
@@ -426,6 +426,13 @@ range
 >
 {
 let
+pos
+=
+range
+.
+start
+;
+let
 message
 =
 format
@@ -459,9 +466,7 @@ log_css_error
 iter
 .
 input
-range
-.
-start
+pos
 &
 *
 message

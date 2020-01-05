@@ -208,9 +208,6 @@ mut
 add_attr
 =
 |
-&
-mut
-:
 s
 |
 {
@@ -478,7 +475,7 @@ methods
 :
 vec
 !
-(
+[
 MethodDef
 {
 name
@@ -614,7 +611,13 @@ box
 jstraceable_substructure
 )
 }
-)
+]
+associated_types
+:
+vec
+!
+[
+]
 }
 ;
 trait_def
@@ -625,7 +628,6 @@ cx
 mitem
 item
 |
-:
 a
 |
 push
@@ -732,8 +734,6 @@ let
 call_trace
 =
 |
-&
-:
 span
 thing_expr
 |

@@ -1411,6 +1411,7 @@ push_all
 &
 mut
 self
+mut
 fragments
 :
 DList
@@ -1437,6 +1438,8 @@ fragments
 .
 append
 (
+&
+mut
 fragments
 )
 }

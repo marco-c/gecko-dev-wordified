@@ -2387,6 +2387,10 @@ from_str
 (
 string
 )
+.
+ok
+(
+)
 ;
 n
 }
@@ -4262,7 +4266,7 @@ find_split_info_for_inline_size
 [
 derive
 (
-Show
+Debug
 Clone
 )
 ]
@@ -4827,6 +4831,10 @@ FromStr
 from_str
 (
 string
+)
+.
+ok
+(
 )
 ;
 n
@@ -15045,7 +15053,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 Fragment
 {
@@ -15401,7 +15409,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub

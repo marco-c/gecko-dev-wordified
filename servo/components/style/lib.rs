@@ -106,6 +106,14 @@ log
 ;
 #
 [
+macro_use
+]
+extern
+crate
+bitflags
+;
+#
+[
 no_link
 ]
 #

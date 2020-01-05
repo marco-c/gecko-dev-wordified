@@ -125,6 +125,14 @@ crate_type
 rlib
 "
 ]
+#
+!
+[
+feature
+(
+libc
+)
+]
 extern
 crate
 libc

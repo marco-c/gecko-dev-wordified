@@ -3690,7 +3690,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -3836,7 +3836,7 @@ derive
 (
 Clone
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -5313,7 +5313,7 @@ derive
 Clone
 Default
 PartialEq
-Show
+Debug
 Copy
 )
 ]
@@ -6543,7 +6543,7 @@ impl
 fmt
 :
 :
-Show
+Debug
 for
 DisplayItem
 {

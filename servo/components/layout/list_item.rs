@@ -241,7 +241,7 @@ item
 [
 derive
 (
-Show
+Debug
 )
 ]
 pub

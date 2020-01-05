@@ -174,7 +174,7 @@ Clone
 PartialEq
 Eq
 Copy
-Show
+Debug
 )
 ]
 pub
@@ -189,7 +189,7 @@ User
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -233,7 +233,7 @@ Origin
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -270,7 +270,7 @@ FontFaceRule
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -294,7 +294,7 @@ CSSRule
 [
 derive
 (
-Show
+Debug
 PartialEq
 )
 ]
@@ -700,6 +700,13 @@ range
 >
 {
 let
+pos
+=
+range
+.
+start
+;
+let
 message
 =
 format
@@ -729,9 +736,7 @@ log_css_error
 iter
 .
 input
-range
-.
-start
+pos
 &
 *
 message
@@ -836,6 +841,13 @@ range
 >
 {
 let
+pos
+=
+range
+.
+start
+;
+let
 message
 =
 format
@@ -865,9 +877,7 @@ log_css_error
 iter
 .
 input
-range
-.
-start
+pos
 &
 *
 message

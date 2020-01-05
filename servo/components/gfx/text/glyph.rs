@@ -289,7 +289,7 @@ DetailedGlyphStore
 derive
 (
 Clone
-Show
+Debug
 Copy
 )
 ]
@@ -1710,7 +1710,7 @@ packed
 derive
 (
 Clone
-Show
+Debug
 Copy
 )
 ]
@@ -1811,7 +1811,7 @@ derive
 PartialEq
 Clone
 Eq
-Show
+Debug
 Copy
 )
 ]
@@ -4208,8 +4208,6 @@ uint
 map
 (
 |
-&
-:
 i
 |
 {
@@ -5819,7 +5817,6 @@ next
 and_then
 (
 |
-:
 i
 |
 {

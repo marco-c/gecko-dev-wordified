@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+feature
+(
+io
+)
+]
 use
 std
 :
