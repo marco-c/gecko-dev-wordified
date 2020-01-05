@@ -1232,10 +1232,6 @@ aInterval
 true
 aEntrySize
 )
-mPrimaryThreadProfile
-(
-nullptr
-)
 mBuffer
 (
 new
