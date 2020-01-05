@@ -390,6 +390,11 @@ mozilla
 PrincipalOriginAttributes
 (
 )
+nsIURI
+*
+aURI
+=
+nullptr
 )
 ;
 nsresult
@@ -409,6 +414,11 @@ mozilla
 PrincipalOriginAttributes
 (
 )
+nsIURI
+*
+aURI
+=
+nullptr
 )
 ;
 virtual
