@@ -205,6 +205,8 @@ SynchronousTask
 aTask
 bool
 aEnableProfiler
+LayoutDeviceIntSize
+aSize
 )
 :
 mWrApi
@@ -237,6 +239,10 @@ aTask
 mEnableProfiler
 (
 aEnableProfiler
+)
+mSize
+(
+aSize
 )
 {
 MOZ_COUNT_CTOR
@@ -347,6 +353,12 @@ if
 wr_window_new
 (
 aWindowId
+mSize
+.
+width
+mSize
+.
+height
 gl
 .
 get
@@ -483,6 +495,9 @@ mTask
 bool
 mEnableProfiler
 ;
+LayoutDeviceIntSize
+mSize
+;
 }
 ;
 class
@@ -596,6 +611,8 @@ CompositorWidget
 &
 &
 aWidget
+LayoutDeviceIntSize
+aSize
 )
 {
 MOZ_ASSERT
@@ -719,6 +736,7 @@ aWidget
 &
 task
 aEnableProfiler
+aSize
 )
 ;
 RenderThread
