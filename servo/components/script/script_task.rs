@@ -15454,6 +15454,9 @@ Some
 (
 id
 )
+credentials_flag
+:
+true
 }
 LoadConsumer
 :
