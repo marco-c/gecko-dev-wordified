@@ -452,6 +452,11 @@ onInstalled
 "
 runtime
 .
+onStartup
+"
+"
+runtime
+.
 onUpdateAvailable
 "
 "
