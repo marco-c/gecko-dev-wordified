@@ -226,7 +226,6 @@ Point2D
 f32
 >
 )
-ClosePath
 ClearRect
 (
 Rect
@@ -234,6 +233,8 @@ Rect
 f32
 >
 )
+Clip
+ClosePath
 Fill
 FillRect
 (
