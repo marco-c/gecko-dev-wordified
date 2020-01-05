@@ -6120,6 +6120,10 @@ node
 as_element
 (
 )
+.
+unwrap
+(
+)
 ;
 let
 span
@@ -6270,7 +6274,6 @@ node
 .
 selected_style
 (
-style_context
 )
 restyle_damage
 :
