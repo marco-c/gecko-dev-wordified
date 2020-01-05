@@ -1477,11 +1477,13 @@ formatJsonMessage
 uint64_t
 timestamp
 )
+const
 ;
 UniqueChars
 formatDetailedMessage
 (
 )
+const
 ;
 JS
 :
@@ -2229,6 +2231,7 @@ TimeDuration
 *
 maxPause
 )
+const
 ;
 void
 printStats
@@ -2249,6 +2252,7 @@ UniqueChars
 formatDetailedDescription
 (
 )
+const
 ;
 UniqueChars
 formatDetailedSliceDescription
@@ -2260,6 +2264,7 @@ SliceData
 &
 slice
 )
+const
 ;
 UniqueChars
 formatDetailedPhaseTimes
@@ -2269,11 +2274,13 @@ PhaseTimeTable
 &
 phaseTimes
 )
+const
 ;
 UniqueChars
 formatDetailedTotals
 (
 )
+const
 ;
 UniqueChars
 formatJsonDescription
@@ -2281,6 +2288,7 @@ formatJsonDescription
 uint64_t
 timestamp
 )
+const
 ;
 UniqueChars
 formatJsonSliceDescription
@@ -2292,6 +2300,7 @@ SliceData
 &
 slice
 )
+const
 ;
 UniqueChars
 formatJsonPhaseTimes
@@ -2301,6 +2310,7 @@ PhaseTimeTable
 &
 phaseTimes
 )
+const
 ;
 double
 computeMMU
