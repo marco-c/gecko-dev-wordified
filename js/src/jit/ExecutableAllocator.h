@@ -1062,6 +1062,9 @@ void
 *
 alloc
 (
+JSContext
+*
+cx
 size_t
 n
 ExecutablePool

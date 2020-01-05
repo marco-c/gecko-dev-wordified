@@ -39579,7 +39579,7 @@ next
 zone
 -
 >
-resetGCMallocBytes
+resetAllMallocBytes
 (
 )
 ;

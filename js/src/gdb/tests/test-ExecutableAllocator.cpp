@@ -98,6 +98,7 @@ execAlloc
 .
 alloc
 (
+cx
 16
 *
 1024
@@ -161,6 +162,7 @@ execAlloc
 .
 alloc
 (
+cx
 16
 *
 1024
@@ -186,6 +188,7 @@ execAlloc
 .
 alloc
 (
+cx
 32
 *
 1024
