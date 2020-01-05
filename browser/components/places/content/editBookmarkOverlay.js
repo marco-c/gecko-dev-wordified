@@ -8235,7 +8235,7 @@ visibleRows
 has
 (
 "
-folderPicker
+folderRow
 "
 )
 |
@@ -8247,7 +8247,7 @@ _paneInfo
 itemId
 !
 =
-aItemOd
+aItemId
 |
 |
 aNewParent
