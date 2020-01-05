@@ -193,9 +193,6 @@ nsISiteSecurityService
 class
 nsIStreamConverterService
 ;
-class
-nsIThrottlingService
-;
 namespace
 mozilla
 {
@@ -1838,12 +1835,6 @@ GetSSService
 (
 )
 ;
-nsIThrottlingService
-*
-GetThrottlingService
-(
-)
-;
 /
 /
 callable
@@ -2331,12 +2322,6 @@ nsMainThreadPtrHandle
 nsISiteSecurityService
 >
 mSSService
-;
-nsMainThreadPtrHandle
-<
-nsIThrottlingService
->
-mThrottlingService
 ;
 /
 /
