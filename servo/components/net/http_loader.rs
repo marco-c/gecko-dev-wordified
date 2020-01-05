@@ -360,6 +360,7 @@ resource_thread
 CancellationListener
 send_error
 start_sending_sniffed_opt
+AuthCache
 AuthCacheEntry
 }
 ;
@@ -388,10 +389,7 @@ std
 collections
 :
 :
-{
-HashMap
 HashSet
-}
 ;
 use
 std
@@ -1198,11 +1196,7 @@ Arc
 <
 RwLock
 <
-HashMap
-<
-Url
-AuthCacheEntry
->
+AuthCache
 >
 >
 }
@@ -1272,7 +1266,7 @@ RwLock
 :
 new
 (
-HashMap
+AuthCache
 :
 :
 new
@@ -3929,11 +3923,7 @@ Arc
 <
 RwLock
 <
-HashMap
-<
-Url
-AuthCacheEntry
->
+AuthCache
 >
 >
 load_data
@@ -4217,11 +4207,7 @@ Arc
 <
 RwLock
 <
-HashMap
-<
-Url
-AuthCacheEntry
->
+AuthCache
 >
 >
 )
@@ -4281,6 +4267,8 @@ read
 unwrap
 (
 )
+.
+entries
 .
 get
 (
@@ -6243,6 +6231,8 @@ write
 unwrap
 (
 )
+.
+entries
 .
 insert
 (
