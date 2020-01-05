@@ -16388,7 +16388,7 @@ too
 aWindow
 -
 >
-SuspendTimeouts
+NewFreeze
 (
 )
 ;

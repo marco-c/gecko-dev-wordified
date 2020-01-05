@@ -2670,7 +2670,7 @@ GetOwner
 )
 -
 >
-IsFrozen
+NewIsFrozen
 (
 )
 |

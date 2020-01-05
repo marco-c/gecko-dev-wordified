@@ -9416,7 +9416,7 @@ aWindow
 aWindow
 -
 >
-IsFrozen
+NewIsFrozen
 (
 )
 )
@@ -9471,7 +9471,7 @@ innerWindow
 innerWindow
 -
 >
-IsFrozen
+NewIsFrozen
 (
 )
 )

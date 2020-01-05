@@ -27216,9 +27216,8 @@ Unblock
 window
 -
 >
-ResumeTimeouts
+NewResume
 (
-false
 )
 ;
 }
@@ -27368,10 +27367,8 @@ Block
 window
 -
 >
-SuspendTimeouts
+NewSuspend
 (
-1
-false
 )
 ;
 }

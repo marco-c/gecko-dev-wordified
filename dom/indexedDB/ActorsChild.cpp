@@ -9581,7 +9581,7 @@ shouldAbortAndClose
 owner
 -
 >
-IsFrozen
+NewIsFrozen
 (
 )
 ;

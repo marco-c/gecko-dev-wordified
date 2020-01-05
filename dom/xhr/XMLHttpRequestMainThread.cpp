@@ -1016,9 +1016,8 @@ override
 mWindow
 -
 >
-ResumeTimeouts
+NewResume
 (
-false
 )
 ;
 return
@@ -16668,13 +16667,11 @@ eEvents
 )
 ;
 }
-topWindow
+topInner
 -
 >
-SuspendTimeouts
+NewSuspend
 (
-1
-false
 )
 ;
 resumeTimeoutRunnable
