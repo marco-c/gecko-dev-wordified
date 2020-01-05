@@ -407,6 +407,11 @@ Chrome
 "
 extensionTypes
 .
+CSSOrigin
+"
+"
+extensionTypes
+.
 ImageFormat
 "
 "
