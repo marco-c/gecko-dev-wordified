@@ -2998,6 +2998,13 @@ NameFunc
 )
 (
 mITimer
+/
+*
+aAnonymize
+=
+*
+/
+false
 mClosure
 buf
 buflen
@@ -3753,6 +3760,13 @@ NameFunc
 )
 (
 mITimer
+/
+*
+aAnonymize
+=
+*
+/
+true
 mClosure
 buf
 buflen
