@@ -181,6 +181,14 @@ GMPDecryptorProxyCallback
 public
 :
 void
+SetDecryptorId
+(
+uint32_t
+aId
+)
+override
+;
+void
 SetSessionId
 (
 uint32_t
