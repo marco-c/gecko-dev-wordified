@@ -33803,12 +33803,9 @@ isForOf
 letIsIdentifier
 )
 {
-reportWithNode
+errorAt
 (
-ParseError
-false
-*
-forInitialPart
+exprOffset
 JSMSG_LET_STARTING_FOROF_LHS
 )
 ;
