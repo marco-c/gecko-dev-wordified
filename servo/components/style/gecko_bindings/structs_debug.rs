@@ -29892,6 +29892,10 @@ pub
 mForegroundRatio
 :
 u8
+pub
+mIsAuto
+:
+bool
 }
 #
 [
