@@ -655,6 +655,11 @@ process_output
 servo
 "
 [
+~
+"
+-
+z
+"
 infile
 ]
 )
