@@ -333,6 +333,12 @@ CacheKind
 :
 SetProp
 :
+case
+CacheKind
+:
+:
+SetElem
+:
 MOZ_CRASH
 (
 "
