@@ -2392,6 +2392,16 @@ aMsg
 )
 {
 }
+bool
+IsMainThreadProtocol
+(
+)
+const
+{
+return
+mIsMainThreadProtocol
+;
+}
 protected
 :
 /
@@ -2556,6 +2566,9 @@ Shmem
 :
 id_t
 mLastShmemId
+;
+bool
+mIsMainThreadProtocol
 ;
 Mutex
 mEventTargetMutex
