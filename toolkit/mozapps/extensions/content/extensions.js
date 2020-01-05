@@ -11162,10 +11162,12 @@ point
 if
 (
 String
+(
+aName
+)
 .
 localeCompare
 (
-aName
 node
 .
 getAttribute
