@@ -115,9 +115,7 @@ MultiLocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 markers
 .
@@ -126,9 +124,7 @@ properties
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 performance
 .

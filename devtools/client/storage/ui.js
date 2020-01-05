@@ -294,9 +294,7 @@ STORAGE_STRINGS
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 storage
 .

@@ -207,10 +207,10 @@ LocalizationHelper
 (
 "
 devtools
-/
+-
 shared
 /
-locales
+locale
 /
 debugger
 .

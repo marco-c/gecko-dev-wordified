@@ -115,9 +115,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 device
 .

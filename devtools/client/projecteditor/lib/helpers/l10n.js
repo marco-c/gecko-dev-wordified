@@ -144,9 +144,7 @@ ITCHPAD_STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 projecteditor
 .
