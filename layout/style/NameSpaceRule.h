@@ -250,11 +250,6 @@ IsCCLeaf
 const
 override
 ;
-/
-/
-Rule
-methods
-DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
