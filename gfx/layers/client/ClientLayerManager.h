@@ -1023,11 +1023,13 @@ GetRemoteRenderer
 (
 )
 ;
+virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
 (
 )
+override
 ;
 /
 /

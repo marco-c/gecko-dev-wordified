@@ -724,6 +724,9 @@ class
 ColorLayer
 ;
 class
+CompositorBridgeChild
+;
+class
 TextLayer
 ;
 class
@@ -4736,6 +4739,17 @@ TransactionIdAllocator
 aAllocator
 )
 {
+}
+virtual
+CompositorBridgeChild
+*
+GetCompositorBridgeChild
+(
+)
+{
+return
+nullptr
+;
 }
 protected
 :
