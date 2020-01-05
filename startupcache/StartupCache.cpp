@@ -2706,8 +2706,6 @@ LoadArchive
 (
 )
 ;
-return
-;
 }
 void
 StartupCache
