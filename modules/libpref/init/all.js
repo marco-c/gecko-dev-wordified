@@ -6785,7 +6785,7 @@ audio
 .
 full_duplex
 "
-false
+true
 )
 ;
 /
