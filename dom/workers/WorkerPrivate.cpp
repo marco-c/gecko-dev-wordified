@@ -19504,8 +19504,12 @@ GetWindow
 )
 -
 >
-GetThrottledEventQueue
+EventTargetFor
 (
+TaskCategory
+:
+:
+Worker
 )
 :
 nullptr
