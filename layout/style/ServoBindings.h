@@ -765,6 +765,17 @@ RawGeckoNodeBorrowed
 node
 )
 ;
+bool
+Gecko_IsSignificantChild
+(
+RawGeckoNodeBorrowed
+node
+bool
+text_is_significant
+bool
+whitespace_is_significant
+)
+;
 RawGeckoNodeBorrowedOrNull
 Gecko_GetParentNode
 (
