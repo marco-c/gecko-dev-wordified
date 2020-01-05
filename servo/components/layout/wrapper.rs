@@ -2742,7 +2742,7 @@ is_element
 }
 pub
 fn
-drain_element_state_changes
+drain_modified_elements
 (
 &
 self
@@ -2760,13 +2760,13 @@ ElementState
 unsafe
 {
 let
-changes
+elements
 =
 self
 .
 document
 .
-drain_element_state_changes
+drain_modified_elements
 (
 )
 ;
@@ -2775,7 +2775,7 @@ Vec
 :
 from_iter
 (
-changes
+elements
 .
 iter
 (

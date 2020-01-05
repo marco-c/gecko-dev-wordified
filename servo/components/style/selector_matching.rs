@@ -1149,7 +1149,7 @@ E
 current_state
 :
 ElementState
-state_change
+old_state
 :
 ElementState
 )
@@ -1171,7 +1171,7 @@ compute_hint
 (
 element
 current_state
-state_change
+old_state
 )
 }
 pub
