@@ -3424,6 +3424,7 @@ kind
 ~
 Element
 (
+ref
 ed
 )
 =
@@ -3436,6 +3437,7 @@ kind
 ~
 HTMLImageElement
 (
+ref
 d
 )
 =
@@ -3631,6 +3633,7 @@ kind
 ~
 Text
 (
+ref
 string
 )
 =
@@ -3648,6 +3651,7 @@ next_box_id
 )
 )
 copy
+*
 string
 )
 _
@@ -3744,20 +3748,15 @@ RenderBox_Text
 ~
 Element
 (
+ref
 element
 )
 =
 >
 {
-/
-/
-FIXME
-:
-Bad
-copy
 match
 (
-copy
+&
 element
 .
 kind
@@ -3765,6 +3764,7 @@ display
 )
 {
 (
+&
 ~
 HTMLImageElement
 (
