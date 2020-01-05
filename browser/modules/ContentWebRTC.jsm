@@ -1029,6 +1029,10 @@ getMessageManagerForWindow
 contentWindow
 )
 ;
+if
+(
+mm
+)
 mm
 .
 sendAsyncMessage
