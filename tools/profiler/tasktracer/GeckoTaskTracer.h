@@ -281,9 +281,6 @@ event
 *
 /
 class
-Task
-;
-class
 nsIRunnable
 ;
 class
@@ -441,15 +438,6 @@ functions
 .
 *
 /
-Task
-*
-CreateTracedTask
-(
-Task
-*
-aTask
-)
-;
 already_AddRefed
 <
 nsIRunnable
