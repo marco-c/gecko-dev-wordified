@@ -2952,16 +2952,6 @@ type
 history
 "
 ;
-/
-/
-always
-remove
-targetedSite
-delete
-aLink
-.
-targetedSite
-;
 return
 true
 ;

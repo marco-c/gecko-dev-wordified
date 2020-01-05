@@ -857,8 +857,6 @@ about
 newtab
 content
 fetch
-and
-ping
     
 '
 browser
@@ -883,19 +881,6 @@ jetpack
 :
 1
 }
-'
-    
-'
-browser
-.
-newtabpage
-.
-directory
-.
-ping
-'
-:
-'
 '
     
 #
