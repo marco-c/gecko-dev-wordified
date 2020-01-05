@@ -706,7 +706,8 @@ that
 is
 ambiguous
 with
-SPS
+Gecko
+Profiler
 marker
 locations
 like

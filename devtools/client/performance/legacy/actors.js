@@ -386,8 +386,8 @@ store
 information
 about
 the
-SPS
-profiler
+Gecko
+Profiler
 and
 /
 /

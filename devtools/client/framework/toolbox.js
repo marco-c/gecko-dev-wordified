@@ -16537,8 +16537,8 @@ true
 Connects
 to
 the
-SPS
-profiler
+Gecko
+Profiler
 when
 the
 developer

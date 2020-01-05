@@ -7836,8 +7836,8 @@ else
 MOZ_CRASH
 (
 "
-SPS
-profiler
+Gecko
+Profiler
 is
 N
 /
