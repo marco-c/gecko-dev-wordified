@@ -17508,7 +17508,10 @@ gecko_bindings
 structs
 :
 :
-nsCSSPropertyID_eCSSPropertyExtra_no_properties
+nsCSSPropertyID
+:
+:
+eCSSPropertyExtra_no_properties
 ;
 if
 !
@@ -17628,7 +17631,7 @@ mTransitions
 .
 mProperty
 =
-nsCSSPropertyID_eCSSPropertyExtra_no_properties
+eCSSPropertyExtra_no_properties
 ;
 }
 }
