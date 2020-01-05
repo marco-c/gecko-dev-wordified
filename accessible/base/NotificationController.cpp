@@ -3201,12 +3201,8 @@ GetChildIDFor
 (
 childDoc
 )
-IAccessibleHolder
-(
-)
 #
 else
-0
 0
 #
 endif

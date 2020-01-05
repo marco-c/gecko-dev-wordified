@@ -10774,9 +10774,6 @@ uint64_t
 const
 uint32_t
 &
-const
-IAccessibleHolder
-&
 )
 {
 MOZ_ASSERT
