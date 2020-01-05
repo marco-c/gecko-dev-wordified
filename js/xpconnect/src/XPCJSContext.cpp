@@ -3605,6 +3605,12 @@ XPCJSContext
 (
 )
 {
+MOZ_COUNT_DTOR_INHERITED
+(
+XPCJSContext
+CycleCollectedJSContext
+)
+;
 /
 /
 Elsewhere
@@ -3800,6 +3806,12 @@ mPendingResult
 NS_OK
 )
 {
+MOZ_COUNT_CTOR_INHERITED
+(
+XPCJSContext
+CycleCollectedJSContext
+)
+;
 MOZ_RELEASE_ASSERT
 (
 !

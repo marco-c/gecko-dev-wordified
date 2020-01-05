@@ -484,6 +484,11 @@ mDisableMicroTaskCheckpoint
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+CycleCollectedJSContext
+)
+;
 nsCOMPtr
 <
 nsIThread
@@ -527,6 +532,11 @@ CycleCollectedJSContext
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+CycleCollectedJSContext
+)
+;
 /
 /
 If

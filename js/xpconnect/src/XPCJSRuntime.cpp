@@ -7534,6 +7534,12 @@ XPCJSRuntime
 (
 )
 {
+MOZ_COUNT_DTOR_INHERITED
+(
+XPCJSRuntime
+CycleCollectedJSRuntime
+)
+;
 }
 /
 /
@@ -20274,6 +20280,12 @@ AsyncFreeSnowWhite
 )
 )
 {
+MOZ_COUNT_CTOR_INHERITED
+(
+XPCJSRuntime
+CycleCollectedJSRuntime
+)
+;
 }
 /
 *
