@@ -10729,6 +10729,9 @@ StrokeDasharrayProperty
 types
 :
 [
+'
+dasharray
+'
 ]
 }
 '
@@ -10907,6 +10910,9 @@ StrokeMiterlimitProperty
 types
 :
 [
+'
+positiveNumber
+'
 ]
 }
 '
@@ -10938,6 +10944,9 @@ StrokeOpacityProperty
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
