@@ -366,6 +366,7 @@ end
 )
 }
 }
+pub
 trait
 SmallVecPrivate
 <

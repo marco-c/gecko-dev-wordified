@@ -6278,11 +6278,15 @@ self
 .
 fragments
 .
-push_all_move
+extend
 (
 fragments
 .
 fragments
+.
+into_iter
+(
+)
 )
 ;
 }

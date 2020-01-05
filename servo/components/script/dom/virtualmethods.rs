@@ -366,7 +366,7 @@ dom
 element
 :
 :
-ElementTypeId
+ElementTypeId_
 ;
 use
 dom
@@ -1984,7 +1984,7 @@ a
 }
 ElementNodeTypeId
 (
-ElementTypeId
+ElementTypeId_
 )
 =
 >

@@ -664,9 +664,13 @@ len
 ;
 all_tests
 .
-push_all_move
+extend
 (
 tests
+.
+into_iter
+(
+)
 )
 ;
 }

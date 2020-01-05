@@ -1361,7 +1361,7 @@ rule
 {
 Some
 (
-LocalNameSelector
+LocalName
 {
 name
 lower_name
@@ -1641,7 +1641,7 @@ Rule
 >
 Option
 <
-LocalNameSelector
+LocalName
 >
 {
 let
@@ -3813,7 +3813,7 @@ ss
 {
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 ref
 name
@@ -4444,7 +4444,7 @@ selector
 {
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 ref
 name
@@ -6234,7 +6234,7 @@ use
 selectors
 :
 :
-LocalNameSelector
+LocalName
 ;
 /
 /
@@ -6755,7 +6755,7 @@ name
 lower_name
 )
 |
-LocalNameSelector
+LocalName
 {
 name
 :

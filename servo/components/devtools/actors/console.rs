@@ -397,7 +397,7 @@ Vec
 json
 :
 :
-Object
+JsonObject
 >
 }
 #
@@ -546,7 +546,7 @@ msg
 json
 :
 :
-Object
+JsonObject
 stream
 :
 &

@@ -321,7 +321,7 @@ Atom
 )
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 )
 NamespaceSelector
 (
@@ -498,7 +498,7 @@ Hash
 ]
 pub
 struct
-LocalNameSelector
+LocalName
 {
 pub
 name
@@ -2029,7 +2029,7 @@ push
 (
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :
@@ -3377,7 +3377,7 @@ value
 |
 Some
 (
-String
+QuotedString
 (
 value
 )
@@ -4716,7 +4716,7 @@ vec
 (
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :
@@ -4933,7 +4933,7 @@ vec
 (
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :
@@ -5068,7 +5068,7 @@ vec
 (
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :
@@ -5448,7 +5448,7 @@ MathML
 )
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :
@@ -5620,7 +5620,7 @@ vec
 (
 LocalNameSelector
 (
-LocalNameSelector
+LocalName
 {
 name
 :

@@ -139,7 +139,7 @@ ext
 base
 :
 :
-ItemDecorator
+Decorator
 ;
 use
 syntax
@@ -213,7 +213,7 @@ intern
 jstraceable
 "
 )
-ItemDecorator
+Decorator
 (
 box
 jstraceable

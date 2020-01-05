@@ -79,9 +79,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -196,6 +193,9 @@ new_inherited
 (
 )
 &
+global
+:
+:
 Window
 (
 window

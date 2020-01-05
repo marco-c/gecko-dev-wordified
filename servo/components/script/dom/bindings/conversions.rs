@@ -283,9 +283,6 @@ std
 :
 :
 default
-:
-:
-Default
 ;
 use
 std
@@ -602,6 +599,9 @@ convert_from_jsval
 <
 T
 :
+default
+:
+:
 Default
 >
 (
@@ -647,6 +647,9 @@ let
 mut
 ret
 =
+default
+:
+:
 Default
 :
 :
@@ -1715,6 +1718,9 @@ string
 Empty
 }
 impl
+default
+:
+:
 Default
 for
 StringificationBehavior
@@ -2462,6 +2468,9 @@ impl
 <
 X
 :
+default
+:
+:
 Default
 T
 :
@@ -2528,6 +2537,9 @@ option
 :
 X
 =
+default
+:
+:
 Default
 :
 :

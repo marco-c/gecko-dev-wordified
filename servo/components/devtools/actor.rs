@@ -204,7 +204,7 @@ msg
 json
 :
 :
-Object
+JsonObject
 stream
 :
 &
@@ -1405,7 +1405,7 @@ msg
 json
 :
 :
-Object
+JsonObject
 stream
 :
 &

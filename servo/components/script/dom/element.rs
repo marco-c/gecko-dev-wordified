@@ -730,7 +730,7 @@ HTMLTrackElementTypeId
 HTMLUListElementTypeId
 HTMLVideoElementTypeId
 HTMLUnknownElementTypeId
-ElementTypeId
+ElementTypeId_
 }
 /
 /
@@ -895,7 +895,7 @@ Element
 :
 new_inherited
 (
-ElementTypeId
+ElementTypeId_
 local_name
 namespace
 prefix

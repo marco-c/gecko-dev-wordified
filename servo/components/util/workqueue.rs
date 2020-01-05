@@ -1634,11 +1634,9 @@ assert
 !
 (
 threads
-.
-get
-(
+[
 i
-)
+]
 .
 other_deques
 .

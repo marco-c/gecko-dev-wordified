@@ -97,9 +97,6 @@ bindings
 :
 :
 global
-:
-:
-Window
 ;
 use
 dom
@@ -258,6 +255,9 @@ new_inherited
 window
 )
 &
+global
+:
+:
 Window
 (
 window
