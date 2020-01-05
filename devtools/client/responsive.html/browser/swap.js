@@ -462,6 +462,12 @@ function
 (
 )
 {
+tab
+.
+isReponsiveDesignMode
+=
+true
+;
 /
 /
 Freeze
@@ -1303,6 +1309,11 @@ frameLoader
 activateRemoteFrame
 (
 )
+;
+delete
+tab
+.
+isReponsiveDesignMode
 ;
 }
 }
