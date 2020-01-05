@@ -192,6 +192,10 @@ self
 values
 =
 values
+.
+split
+(
+)
         
 self
 .
@@ -359,8 +363,15 @@ _
 +
 value
 .
-upper
+replace
 (
+"
+-
+moz
+-
+"
+"
+"
 )
 .
 replace
@@ -371,6 +382,10 @@ replace
 "
 _
 "
+)
+.
+upper
+(
 )
 class
 Longhand
@@ -402,6 +417,9 @@ internal
 =
 False
                  
+need_clone
+=
+False
 gecko_ffi_name
 =
 None
@@ -478,6 +496,12 @@ self
 internal
 =
 internal
+        
+self
+.
+need_clone
+=
+need_clone
         
 self
 .
