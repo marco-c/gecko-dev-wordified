@@ -4133,6 +4133,16 @@ ShutdownDecoder
 to
 clear
 .
+if
+(
+mDecoder
+)
+{
+ShutdownDecoder
+(
+)
+;
+}
 mDecoder
 =
 aDecoder
