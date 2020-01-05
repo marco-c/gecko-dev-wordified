@@ -285,7 +285,8 @@ Destroy
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool

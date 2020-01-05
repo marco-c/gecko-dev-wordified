@@ -723,11 +723,12 @@ GetDefaultScaleInternal
 ;
 }
 }
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool
-bState
+aState
 )
 override
 ;

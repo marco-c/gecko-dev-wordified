@@ -9508,7 +9508,7 @@ GetDensity
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -9564,7 +9564,6 @@ ignoring
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -9575,7 +9574,6 @@ aState
 mIsVisible
 )
 return
-NS_OK
 ;
 mIsVisible
 =
@@ -9799,9 +9797,6 @@ DumpWindows
 ;
 #
 endif
-return
-NS_OK
-;
 }
 bool
 nsWindow

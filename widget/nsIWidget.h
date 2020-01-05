@@ -3509,7 +3509,8 @@ it
 *
 *
 /
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool

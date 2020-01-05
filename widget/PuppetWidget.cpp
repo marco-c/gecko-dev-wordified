@@ -1028,7 +1028,7 @@ mTabChild
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -1200,9 +1200,6 @@ mBounds
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 PuppetWidget

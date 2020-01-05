@@ -465,7 +465,8 @@ Destroy
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Show
 (
 bool

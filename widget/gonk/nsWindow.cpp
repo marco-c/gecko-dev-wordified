@@ -1920,7 +1920,7 @@ OnDestroy
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -1939,7 +1939,6 @@ eWindowType_invisible
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -1951,7 +1950,6 @@ aState
 )
 {
 return
-NS_OK
 ;
 }
 mVisible
@@ -1966,9 +1964,11 @@ IS_TOPLEVEL
 )
 )
 {
-return
+if
+(
 mParent
-?
+)
+{
 mParent
 -
 >
@@ -1976,8 +1976,9 @@ Show
 (
 aState
 )
-:
-NS_OK
+;
+}
+return
 ;
 }
 if
@@ -2061,9 +2062,6 @@ break
 ;
 }
 }
-return
-NS_OK
-;
 }
 bool
 nsWindow

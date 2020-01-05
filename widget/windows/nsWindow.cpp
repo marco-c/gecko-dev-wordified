@@ -9953,7 +9953,7 @@ component
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -10690,9 +10690,6 @@ mWnd
 }
 #
 endif
-return
-NS_OK
-;
 }
 /
 *
