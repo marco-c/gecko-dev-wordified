@@ -9999,9 +9999,12 @@ children
 .
 length
 )
+{
 return
-undefined
+[
+]
 ;
+}
 /
 /
 Build
