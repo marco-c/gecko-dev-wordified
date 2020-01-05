@@ -4942,6 +4942,7 @@ nsTextFragment
 aFrag
 uint32_t
 aPos
+const
 nsTextFrame
 *
 aFrame
@@ -13241,6 +13242,7 @@ gfxFontGroup
 *
 GetFontGroupForFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -13368,6 +13370,7 @@ DrawTarget
 >
 CreateReferenceDrawTarget
 (
+const
 nsTextFrame
 *
 aTextFrame
@@ -19958,6 +19961,7 @@ aTrimAfter
 bool
 aPostReflow
 )
+const
 {
 NS_ASSERTION
 (
@@ -21023,6 +21027,7 @@ static
 bool
 IsChineseOrJapanese
 (
+const
 nsTextFrame
 *
 aFrame
@@ -21194,6 +21199,7 @@ endif
 class
 MOZ_STACK_CLASS
 PropertyProvider
+final
 :
 public
 gfxTextRun
@@ -21636,7 +21642,6 @@ InitializeForMeasure
 (
 )
 ;
-virtual
 void
 GetSpacing
 (
@@ -21646,14 +21651,14 @@ Spacing
 *
 aSpacing
 )
+const
 ;
-virtual
 gfxFloat
 GetHyphenWidth
 (
 )
+const
 ;
-virtual
 void
 GetHyphenationBreaks
 (
@@ -21663,12 +21668,13 @@ HyphenType
 *
 aBreakBefore
 )
+const
 ;
-virtual
 StyleHyphens
 GetHyphensOption
 (
 )
+const
 {
 return
 mTextStyle
@@ -21677,7 +21683,6 @@ mTextStyle
 mHyphens
 ;
 }
-virtual
 already_AddRefed
 <
 DrawTarget
@@ -21685,6 +21690,7 @@ DrawTarget
 GetDrawTarget
 (
 )
+const
 {
 return
 CreateReferenceDrawTarget
@@ -21695,11 +21701,11 @@ GetFrame
 )
 ;
 }
-virtual
 uint32_t
 GetAppUnitsPerDevUnit
 (
 )
+const
 {
 return
 mTextRun
@@ -21721,6 +21727,7 @@ aSpacing
 bool
 aIgnoreTabs
 )
+const
 ;
 /
 *
@@ -21760,11 +21767,13 @@ aAssignments
 nullptr
 )
 ;
+const
 nsTextFrame
 *
 GetFrame
 (
 )
+const
 {
 return
 mFrame
@@ -21864,6 +21873,7 @@ nsTextFragment
 GetFragment
 (
 )
+const
 {
 return
 mFrag
@@ -21874,16 +21884,19 @@ gfxFontGroup
 GetFontGroup
 (
 )
+const
 {
 if
 (
 !
 mFontGroup
 )
+{
 InitFontGroupAndFontMetrics
 (
 )
 ;
+}
 return
 mFontGroup
 ;
@@ -21893,16 +21906,19 @@ nsFontMetrics
 GetFontMetrics
 (
 )
+const
 {
 if
 (
 !
 mFontMetrics
 )
+{
 InitFontGroupAndFontMetrics
 (
 )
 ;
+}
 return
 mFontMetrics
 ;
@@ -21915,6 +21931,7 @@ aTransformedRange
 gfxFloat
 aTabWidth
 )
+const
 ;
 const
 gfxSkipCharsIterator
@@ -21922,6 +21939,7 @@ gfxSkipCharsIterator
 GetEndHint
 (
 )
+const
 {
 return
 mTempIterator
@@ -21940,6 +21958,7 @@ void
 InitFontGroupAndFontMetrics
 (
 )
+const
 {
 float
 inflation
@@ -21978,16 +21997,19 @@ mFontMetrics
 )
 ;
 }
+const
 RefPtr
 <
 gfxTextRun
 >
 mTextRun
 ;
+mutable
 gfxFontGroup
 *
 mFontGroup
 ;
+mutable
 RefPtr
 <
 nsFontMetrics
@@ -22004,10 +22026,12 @@ nsTextFragment
 *
 mFrag
 ;
+const
 nsIFrame
 *
 mLineContainer
 ;
+const
 nsTextFrame
 *
 mFrame
@@ -22023,6 +22047,7 @@ original
 and
 transformed
 string
+const
 gfxSkipCharsIterator
 mTempIterator
 ;
@@ -22039,6 +22064,7 @@ frame
 s
 TabWidthProperty
 .
+mutable
 TabWidthStore
 *
 mTabWidths
@@ -22094,6 +22120,7 @@ frame
 s
 offset
 .
+mutable
 uint32_t
 mTabWidthsAnalyzedLimit
 ;
@@ -22108,6 +22135,7 @@ length
 may
 be
 INT32_MAX
+const
 gfxFloat
 mWordSpacing
 ;
@@ -22118,6 +22146,7 @@ for
 each
 whitespace
 char
+const
 gfxFloat
 mLetterSpacing
 ;
@@ -22127,9 +22156,11 @@ space
 for
 each
 letter
+mutable
 gfxFloat
 mHyphenWidth
 ;
+mutable
 gfxFloat
 mOffsetFromBlockOriginForTabs
 ;
@@ -22158,9 +22189,11 @@ Spacing
 >
 mJustificationSpacings
 ;
+const
 bool
 mReflowing
 ;
+const
 nsTextFrame
 :
 :
@@ -22964,6 +22997,7 @@ Spacing
 *
 aSpacing
 )
+const
 {
 GetSpacingInternal
 (
@@ -23044,6 +23078,7 @@ static
 gfxFloat
 ComputeTabWidthAppUnits
 (
+const
 nsIFrame
 *
 aFrame
@@ -23192,6 +23227,7 @@ aSpacing
 bool
 aIgnoreTabs
 )
+const
 {
 NS_PRECONDITION
 (
@@ -23780,12 +23816,6 @@ AdvanceToNextTab
 (
 gfxFloat
 aX
-nsIFrame
-*
-aFrame
-gfxTextRun
-*
-aTextRun
 gfxFloat
 aTabWidth
 )
@@ -23850,6 +23880,7 @@ aRange
 gfxFloat
 aTabWidth
 )
+const
 {
 MOZ_ASSERT
 (
@@ -24283,8 +24314,6 @@ nextTab
 AdvanceToNextTab
 (
 mOffsetFromBlockOriginForTabs
-mFrame
-mTextRun
 aTabWidth
 )
 ;
@@ -24397,6 +24426,7 @@ PropertyProvider
 GetHyphenWidth
 (
 )
+const
 {
 if
 (
@@ -24498,6 +24528,7 @@ HyphenType
 *
 aBreakBefore
 )
+const
 {
 NS_PRECONDITION
 (
@@ -25164,8 +25195,10 @@ GetStateBits
 TEXT_JUSTIFICATION_ENABLED
 )
 )
+{
 return
 ;
+}
 gfxSkipCharsIterator
 start
 (
@@ -56368,8 +56401,6 @@ aData
 -
 >
 mCurrentLine
-this
-textRun
 tabWidth
 )
 ;
@@ -57647,8 +57678,6 @@ aData
 -
 >
 mCurrentLine
-this
-textRun
 tabWidth
 )
 ;

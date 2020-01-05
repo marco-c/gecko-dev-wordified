@@ -556,6 +556,7 @@ mTextRun
 ;
 class
 StubPropertyProvider
+final
 :
 public
 gfxTextRun
@@ -565,7 +566,6 @@ PropertyProvider
 {
 public
 :
-virtual
 void
 GetHyphenationBreaks
 (
@@ -581,6 +581,7 @@ HyphenType
 *
 aBreakBefore
 )
+const
 {
 NS_ERROR
 (
@@ -600,7 +601,6 @@ BreakAndMeasureText
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -608,6 +608,7 @@ StyleHyphens
 GetHyphensOption
 (
 )
+const
 {
 NS_ERROR
 (
@@ -636,11 +637,11 @@ StyleHyphens
 None
 ;
 }
-virtual
 gfxFloat
 GetHyphenWidth
 (
 )
+const
 {
 NS_ERROR
 (
@@ -663,7 +664,6 @@ return
 0
 ;
 }
-virtual
 already_AddRefed
 <
 mozilla
@@ -677,6 +677,7 @@ DrawTarget
 GetDrawTarget
 (
 )
+const
 {
 NS_ERROR
 (
@@ -699,11 +700,11 @@ return
 nullptr
 ;
 }
-virtual
 uint32_t
 GetAppUnitsPerDevUnit
 (
 )
+const
 {
 NS_ERROR
 (
@@ -726,7 +727,6 @@ return
 60
 ;
 }
-virtual
 void
 GetSpacing
 (
@@ -739,6 +739,7 @@ Spacing
 *
 aSpacing
 )
+const
 {
 NS_ERROR
 (

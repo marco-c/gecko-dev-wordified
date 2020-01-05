@@ -14322,6 +14322,7 @@ gfxFontGroup
 :
 GetHyphenWidth
 (
+const
 gfxTextRun
 :
 :
