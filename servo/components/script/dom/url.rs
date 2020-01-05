@@ -438,10 +438,6 @@ as_url
 (
 )
 .
-unwrap
-(
-)
-.
 query_pairs
 (
 )

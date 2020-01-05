@@ -853,10 +853,6 @@ as_url
 (
 )
 .
-unwrap
-(
-)
-.
 to_file_path
 (
 )
