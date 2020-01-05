@@ -1863,7 +1863,6 @@ bindings
 [
 allow
 (
-dead_code
 missing_docs
 non_snake_case
 )
@@ -1876,6 +1875,7 @@ codegen
 [
 allow
 (
+dead_code
 unrooted_must_root
 )
 ]
@@ -1966,6 +1966,7 @@ rs
 [
 allow
 (
+dead_code
 unused_imports
 )
 ]
