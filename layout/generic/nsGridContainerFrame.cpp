@@ -38896,10 +38896,9 @@ aStatus
 )
 .
 aStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aStatus
 )
 ;
 /

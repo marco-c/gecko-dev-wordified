@@ -65285,10 +65285,9 @@ in
 \
 n
 aStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aStatus
 )
 ;
 aLineLayout
@@ -65306,10 +65305,9 @@ breakAfter
 )
 {
 aStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aStatus
 )
 ;
 }

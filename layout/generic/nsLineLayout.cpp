@@ -8196,10 +8196,9 @@ break
 here
 .
 aReflowStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aReflowStatus
 )
 ;
 }
