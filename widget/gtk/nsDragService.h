@@ -435,8 +435,10 @@ drag
 destination
 signals
 static
+already_AddRefed
+<
 nsDragService
-*
+>
 GetInstance
 (
 )
