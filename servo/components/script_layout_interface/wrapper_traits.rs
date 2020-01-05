@@ -237,6 +237,15 @@ stylearc
 Arc
 ;
 use
+style
+:
+:
+stylist
+:
+:
+RuleInclusion
+;
+use
 webrender_traits
 :
 :
@@ -3302,6 +3311,10 @@ unsafe_get
 }
 &
 style_pseudo
+RuleInclusion
+:
+:
+All
 data
 .
 styles
