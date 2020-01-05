@@ -549,14 +549,9 @@ element
 get_attribute
 (
 Null
-&
-satom
-!
-(
 "
 href
 "
-)
 )
 .
 root

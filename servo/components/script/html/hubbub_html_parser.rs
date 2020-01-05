@@ -4099,14 +4099,9 @@ script_element
 get_attribute
 (
 Null
-&
-satom
-!
-(
 "
 src
 "
-)
 )
 .
 root
