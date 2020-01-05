@@ -146,7 +146,7 @@ mozilla
 /
 intl
 /
-LocaleService
+OSPreferences
 .
 h
 "
@@ -179,7 +179,7 @@ mozilla
 intl
 :
 :
-LocaleService
+OSPreferences
 ;
 static
 constexpr
@@ -319,7 +319,7 @@ mLocaleLanguage
 nsAutoCString
 locale
 ;
-LocaleService
+OSPreferences
 :
 :
 GetInstance
@@ -327,7 +327,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetSystemLocale
 (
 locale
 )
