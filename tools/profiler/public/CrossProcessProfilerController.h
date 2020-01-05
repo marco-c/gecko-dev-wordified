@@ -220,9 +220,6 @@ mObserver
 nsCString
 mProfile
 ;
-bool
-mIsProfilerActive
-;
 }
 ;
 }
