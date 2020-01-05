@@ -2788,7 +2788,7 @@ GetPrincipal
 aWorkerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 aWorkerPrivate
@@ -6250,7 +6250,7 @@ GetPrincipal
 aWorkerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 aWorkerPrivate
@@ -34609,7 +34609,7 @@ new
 ServiceWorkerGlobalScope
 (
 this
-WorkerName
+ServiceWorkerScope
 (
 )
 )

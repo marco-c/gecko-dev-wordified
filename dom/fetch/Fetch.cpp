@@ -3326,7 +3326,7 @@ FlushReportsToAllClients
 worker
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 mReporter

@@ -1490,7 +1490,7 @@ scope
 workerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 ;

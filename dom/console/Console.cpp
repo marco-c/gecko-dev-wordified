@@ -3188,7 +3188,7 @@ AssignWithConversion
 mWorkerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 )

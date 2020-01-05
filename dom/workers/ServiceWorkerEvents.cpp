@@ -4713,7 +4713,7 @@ mScope
 mWorkerPrivate
 -
 >
-WorkerName
+ServiceWorkerScope
 (
 )
 )
