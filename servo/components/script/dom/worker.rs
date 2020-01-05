@@ -937,11 +937,6 @@ run_worker_scope
 (
 init
 worker_url
-global
-.
-pipeline_id
-(
-)
 devtools_receiver
 worker
 .

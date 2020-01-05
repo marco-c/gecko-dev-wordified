@@ -914,15 +914,6 @@ try
 (
 convert_request_device_options
 (
-self
-.
-global
-(
-)
-.
-r
-(
-)
 filters
 optional_services
 )
@@ -1174,9 +1165,6 @@ devices
 fn
 convert_request_device_options
 (
-global
-:
-GlobalRef
 filters
 :
 &
@@ -1319,7 +1307,6 @@ canonicalize_filter
 (
 &
 filter
-global
 )
 )
 )
@@ -1371,9 +1358,8 @@ try
 BluetoothUUID
 :
 :
-GetService
+service
 (
-global
 opt_service
 .
 clone
@@ -1502,9 +1488,6 @@ filter
 :
 &
 BluetoothRequestDeviceFilter
-global
-:
-GlobalRef
 )
 -
 >
@@ -1709,9 +1692,8 @@ try
 BluetoothUUID
 :
 :
-GetService
+service
 (
-global
 service
 .
 clone
@@ -2133,9 +2115,8 @@ try
 BluetoothUUID
 :
 :
-GetService
+service
 (
-global
 service_data_uuid
 .
 clone
