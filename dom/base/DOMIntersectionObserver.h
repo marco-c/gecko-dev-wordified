@@ -661,14 +661,6 @@ Element
 aTarget
 )
 ;
-bool
-UnlinkTarget
-(
-Element
-&
-aTarget
-)
-;
 void
 Disconnect
 (
