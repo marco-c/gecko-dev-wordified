@@ -5741,6 +5741,7 @@ time
 :
 :
 CompositingCategory
+None
 self
 .
 time_profiler_chan

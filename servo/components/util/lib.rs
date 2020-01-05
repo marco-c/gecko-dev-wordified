@@ -174,6 +174,10 @@ extern
 crate
 string_cache
 ;
+extern
+crate
+url
+;
 pub
 mod
 atom
