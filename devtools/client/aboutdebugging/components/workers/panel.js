@@ -599,6 +599,11 @@ scope
 form
 .
 scope
+fetch
+:
+form
+.
+fetch
 registrationActor
 :
 form
@@ -735,6 +740,14 @@ actor
 }
 else
 {
+worker
+.
+fetch
+=
+form
+.
+fetch
+;
 /
 /
 If
