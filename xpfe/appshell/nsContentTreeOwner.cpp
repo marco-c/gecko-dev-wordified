@@ -3041,6 +3041,8 @@ aURI
 nsIURI
 *
 aReferrer
+bool
+aHasPostData
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -3084,6 +3086,7 @@ ShouldLoadURI
 aDocShell
 aURI
 aReferrer
+aHasPostData
 aTriggeringPrincipal
 _retval
 )
