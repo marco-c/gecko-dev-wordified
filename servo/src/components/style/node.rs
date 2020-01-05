@@ -215,7 +215,9 @@ str
 >
 Option
 <
-~
+&
+'
+static
 str
 >
 ;

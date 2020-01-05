@@ -182,12 +182,6 @@ url
 :
 make_url
 ;
-use
-style
-:
-:
-TElement
-;
 pub
 struct
 HTMLImageElement
@@ -353,7 +347,7 @@ src_opt
 =
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -368,7 +362,7 @@ x
 |
 x
 .
-to_str
+Value
 (
 )
 )

@@ -301,10 +301,7 @@ use
 style
 :
 :
-{
 Stylesheet
-TElement
-}
 ;
 macro_rules
 !
@@ -2598,7 +2595,7 @@ match
 (
 element
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -2607,7 +2604,7 @@ rel
 )
 element
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -2636,6 +2633,10 @@ stylesheet
 =
 =
 rel
+.
+value_ref
+(
+)
 {
 debug
 !
@@ -2651,6 +2652,10 @@ s
 }
 "
 href
+.
+value_ref
+(
+)
 )
 ;
 let
@@ -2660,7 +2665,7 @@ make_url
 (
 href
 .
-to_str
+Value
 (
 )
 Some
@@ -2747,7 +2752,7 @@ src_opt
 =
 elem
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -2762,7 +2767,7 @@ x
 |
 x
 .
-to_str
+Value
 (
 )
 )
@@ -3340,7 +3345,7 @@ script
 match
 script
 .
-get_attr
+get_attribute
 (
 Null
 "
@@ -3368,6 +3373,10 @@ s
 }
 "
 src
+.
+Value
+(
+)
 )
 ;
 let
@@ -3377,7 +3386,7 @@ make_url
 (
 src
 .
-to_str
+Value
 (
 )
 Some
