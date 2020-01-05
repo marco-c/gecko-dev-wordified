@@ -423,6 +423,16 @@ fragment
 :
 SpecificFragmentInfo
 ;
+pub
+use
+self
+:
+:
+data
+:
+:
+PersistentLayoutData
+;
 /
 /
 /
