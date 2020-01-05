@@ -85,10 +85,10 @@ add_event_listener
 (
 listener
 :
-comm
+pipes
 :
 :
-Chan
+SharedChan
 <
 Event
 >
