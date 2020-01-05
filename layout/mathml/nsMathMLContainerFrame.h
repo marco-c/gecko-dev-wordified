@@ -295,7 +295,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 None

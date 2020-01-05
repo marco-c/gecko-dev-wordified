@@ -22980,7 +22980,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -22989,7 +22989,7 @@ Block
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -22998,7 +22998,7 @@ FlexContainer
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -39419,7 +39419,7 @@ nsIFrame
 aLastFrame
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 aLastFrame
@@ -39434,7 +39434,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -39462,7 +39462,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -45271,7 +45271,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 this
-FrameType
+LayoutFrameType
 :
 :
 ColumnSet

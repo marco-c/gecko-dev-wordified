@@ -1149,7 +1149,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGText

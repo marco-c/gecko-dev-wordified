@@ -170,7 +170,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGInnerSVG

@@ -351,7 +351,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 NumberControl

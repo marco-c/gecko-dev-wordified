@@ -351,7 +351,7 @@ aContext
 nsTableFrame
 *
 aTableFrame
-FrameType
+LayoutFrameType
 aType
 )
 :
@@ -1138,7 +1138,7 @@ inner
 table
 frame
 .
-FrameType
+LayoutFrameType
 fType
 =
 aReflowInput
@@ -1155,7 +1155,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -1274,7 +1274,7 @@ eCompatibility_NavQuirks
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -4374,7 +4374,7 @@ PrincipalChildList
 )
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 innerFrame
@@ -4386,7 +4386,7 @@ Type
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -4424,7 +4424,7 @@ true
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -6962,7 +6962,7 @@ nsTableCellFrame
 (
 aContext
 aTableFrame
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell

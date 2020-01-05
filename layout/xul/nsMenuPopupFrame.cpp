@@ -698,7 +698,7 @@ aContext
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup

@@ -568,7 +568,7 @@ aContext
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Slider

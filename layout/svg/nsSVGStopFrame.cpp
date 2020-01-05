@@ -216,7 +216,7 @@ aContext
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGStop

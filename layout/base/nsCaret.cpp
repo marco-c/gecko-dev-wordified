@@ -2294,7 +2294,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 aFrame
-FrameType
+LayoutFrameType
 :
 :
 Scroll

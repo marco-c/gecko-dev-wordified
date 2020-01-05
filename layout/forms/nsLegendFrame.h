@@ -144,7 +144,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Legend

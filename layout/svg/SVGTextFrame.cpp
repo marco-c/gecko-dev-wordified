@@ -17007,7 +17007,7 @@ mFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -34556,7 +34556,7 @@ aChildFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -35113,7 +35113,7 @@ aChildFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -35640,7 +35640,7 @@ aChildFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText

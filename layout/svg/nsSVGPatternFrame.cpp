@@ -358,7 +358,7 @@ aContext
 nsSVGPaintServerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGPattern
@@ -4292,7 +4292,7 @@ result
 return
 nullptr
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 result
@@ -4307,7 +4307,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGPattern

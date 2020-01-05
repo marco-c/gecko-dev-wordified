@@ -469,7 +469,7 @@ inline
 bool
 IsRubyContentBox
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -480,7 +480,7 @@ aFrameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyBase
@@ -492,7 +492,7 @@ aFrameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyText
@@ -503,7 +503,7 @@ inline
 bool
 IsRubyContainerBox
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -514,7 +514,7 @@ aFrameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -526,7 +526,7 @@ aFrameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -537,7 +537,7 @@ inline
 bool
 IsRubyBox
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -548,7 +548,7 @@ aFrameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -579,7 +579,7 @@ aFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 type
 =
 aFrame

@@ -499,7 +499,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 LeafBox
@@ -514,7 +514,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 ;

@@ -398,7 +398,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer

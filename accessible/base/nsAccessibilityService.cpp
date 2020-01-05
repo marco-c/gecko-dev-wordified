@@ -8125,7 +8125,7 @@ GetContent
 )
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 frame
@@ -8140,7 +8140,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Box
@@ -8149,7 +8149,7 @@ Box
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll

@@ -171,7 +171,7 @@ aContext
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGFEUnstyledLeaf

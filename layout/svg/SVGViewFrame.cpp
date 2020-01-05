@@ -249,7 +249,7 @@ aContext
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGView

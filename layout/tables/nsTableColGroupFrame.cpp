@@ -1555,7 +1555,7 @@ GetFrameAtOrBefore
 (
 this
 aPrevFrame
-FrameType
+LayoutFrameType
 :
 :
 TableCol

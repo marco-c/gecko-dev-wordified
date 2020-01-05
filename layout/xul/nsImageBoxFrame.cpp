@@ -877,7 +877,7 @@ aContext
 nsLeafBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ImageBox

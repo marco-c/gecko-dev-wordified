@@ -2052,7 +2052,7 @@ aFrame
 )
 {
 const
-FrameType
+LayoutFrameType
 t
 =
 aFrame
@@ -2066,7 +2066,7 @@ return
 t
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -2075,7 +2075,7 @@ FlexContainer
 t
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -12847,7 +12847,7 @@ nsCSSFrameConstructor
 :
 GetParentType
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -12856,7 +12856,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -12871,7 +12871,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -12886,7 +12886,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -12901,7 +12901,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -12916,7 +12916,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -12931,7 +12931,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -12946,7 +12946,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -26898,7 +26898,7 @@ i
 mChildren
 )
 ;
-FrameType
+LayoutFrameType
 parentFrameType
 =
 aParentFrame
@@ -26913,7 +26913,7 @@ if
 parentFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGUse
@@ -27092,7 +27092,7 @@ if
 parentFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -40139,7 +40139,7 @@ aType
 FIXED_POS
 )
 {
-FrameType
+LayoutFrameType
 t
 =
 frame
@@ -40154,7 +40154,7 @@ if
 t
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -40163,7 +40163,7 @@ Viewport
 t
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -40332,7 +40332,7 @@ absPosCBCandidate
 =
 frame
 ;
-FrameType
+LayoutFrameType
 type
 =
 absPosCBCandidate
@@ -40347,7 +40347,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FieldSet
@@ -40393,7 +40393,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -40499,7 +40499,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -42796,7 +42796,7 @@ GetParent
 (
 )
 ;
-FrameType
+LayoutFrameType
 parentType
 =
 parentFrame
@@ -42872,7 +42872,7 @@ TableFooterGroup
 siblingDisplay
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 Menu
@@ -43067,7 +43067,7 @@ mDisplay
 }
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Menu
@@ -43466,7 +43466,7 @@ aSibling
 cif
 ;
 }
-FrameType
+LayoutFrameType
 sibType
 =
 aSibling
@@ -43497,7 +43497,7 @@ legendContent
 &
 &
 (
-FrameType
+LayoutFrameType
 :
 :
 Legend
@@ -43514,7 +43514,7 @@ legendContent
 &
 &
 (
-FrameType
+LayoutFrameType
 :
 :
 Legend
@@ -49897,7 +49897,7 @@ containingBlock
 )
 ;
 }
-FrameType
+LayoutFrameType
 frameType
 =
 parentFrame
@@ -50544,7 +50544,7 @@ captionItems
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -50755,7 +50755,7 @@ table
 wrapper
 NS_ASSERTION
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -52806,7 +52806,7 @@ GetContent
 (
 )
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 insertion
@@ -52876,7 +52876,7 @@ isSingleInsert
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 FieldSet
@@ -53065,7 +53065,7 @@ isSingleInsert
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Details
@@ -53076,7 +53076,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Details
@@ -54515,7 +54515,7 @@ child
 }
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -54524,7 +54524,7 @@ Table
 frameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -55161,7 +55161,7 @@ NotEmpty
 {
 NS_ASSERTION
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -55170,7 +55170,7 @@ Table
 frameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -57095,7 +57095,7 @@ GetParent
 (
 )
 ;
-FrameType
+LayoutFrameType
 parentType
 =
 parentFrame
@@ -57110,7 +57110,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FrameSet
@@ -57219,7 +57219,7 @@ possibleMathMLAncestor
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -60443,7 +60443,7 @@ of
 frame
 to
 create
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -60490,7 +60490,7 @@ frame
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -60521,7 +60521,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Inline
@@ -60552,7 +60552,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -60606,7 +60606,7 @@ MOZ_XUL
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 XULLabel
@@ -60639,7 +60639,7 @@ endif
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 ColumnSet
@@ -60694,7 +60694,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Page
@@ -60721,7 +60721,7 @@ canvasFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -60746,7 +60746,7 @@ styleContext
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -60770,7 +60770,7 @@ styleContext
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -60822,7 +60822,7 @@ newFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -61135,7 +61135,7 @@ cellFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Line
@@ -61166,7 +61166,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Letter
@@ -61197,7 +61197,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Image
@@ -61228,7 +61228,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 ImageControl
@@ -61259,7 +61259,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Placeholder
@@ -61323,7 +61323,7 @@ PLACEHOLDER_TYPE_MASK
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 FieldSet
@@ -61450,7 +61450,7 @@ fieldset
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Legend
@@ -61481,7 +61481,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -61512,7 +61512,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -61543,7 +61543,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -61574,7 +61574,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -61605,7 +61605,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -61636,7 +61636,7 @@ aFrame
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Details
@@ -64527,7 +64527,7 @@ true
 Check
 ruby
 containers
-FrameType
+LayoutFrameType
 parentType
 =
 parent
@@ -64542,7 +64542,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -67229,7 +67229,7 @@ return
 ;
 }
 const
-FrameType
+LayoutFrameType
 parentType
 =
 aParentFrame
@@ -67244,7 +67244,7 @@ if
 parentType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -67253,7 +67253,7 @@ FlexContainer
 parentType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -72090,7 +72090,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 containerType
 =
 aContainerFrame
@@ -72105,7 +72105,7 @@ MOZ_ASSERT
 containerType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -72114,7 +72114,7 @@ FlexContainer
 containerType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -72202,7 +72202,7 @@ if
 containerType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -72266,7 +72266,7 @@ if
 parentType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -72275,7 +72275,7 @@ FlexContainer
 parentType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -78991,7 +78991,7 @@ GetNextSibling
 (
 )
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 frame
@@ -79003,7 +79003,7 @@ Type
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -79105,7 +79105,7 @@ frame
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -83935,7 +83935,7 @@ or
 grid
 item
 .
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -83950,7 +83950,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -83959,7 +83959,7 @@ FlexContainer
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -84611,7 +84611,7 @@ aFrame
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Ruby

@@ -204,7 +204,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGFEContainer

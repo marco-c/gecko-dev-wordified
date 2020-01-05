@@ -10008,7 +10008,7 @@ kFloatList
 }
 else
 {
-FrameType
+LayoutFrameType
 childType
 =
 aChildFrame
@@ -10020,7 +10020,7 @@ Type
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup
@@ -10161,7 +10161,7 @@ kPrincipalList
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -10593,7 +10593,7 @@ GetClosestFrameOfType
 nsIFrame
 *
 aFrame
-FrameType
+LayoutFrameType
 aFrameType
 nsIFrame
 *
@@ -10674,7 +10674,7 @@ return
 GetClosestFrameOfType
 (
 aFrame
-FrameType
+LayoutFrameType
 :
 :
 Page
@@ -18694,7 +18694,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 aFrame
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -18795,7 +18795,7 @@ closestScrollFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -19355,7 +19355,7 @@ aFrame
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -23091,7 +23091,7 @@ list
 )
 ;
 }
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -23135,7 +23135,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -23200,7 +23200,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Page
@@ -30155,7 +30155,7 @@ unit
 "
 )
 ;
-FrameType
+LayoutFrameType
 fType
 =
 f
@@ -30170,7 +30170,7 @@ if
 fType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -30179,7 +30179,7 @@ Viewport
 fType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -30188,7 +30188,7 @@ Canvas
 fType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -31462,7 +31462,7 @@ return
 false
 ;
 }
-FrameType
+LayoutFrameType
 fType
 =
 aFrame
@@ -31477,7 +31477,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Meter
@@ -31486,7 +31486,7 @@ Meter
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Progress
@@ -31558,7 +31558,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GfxButtonControl
@@ -31567,7 +31567,7 @@ GfxButtonControl
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 HTMLButtonControl
@@ -39034,7 +39034,7 @@ its
 first
 row
 .
-FrameType
+LayoutFrameType
 fType
 =
 aFrame
@@ -39049,7 +39049,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -39058,7 +39058,7 @@ TableWrapper
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -39067,7 +39067,7 @@ FlexContainer
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -39079,7 +39079,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer
@@ -39099,7 +39099,7 @@ NS_STATE_GRID_SYNTHESIZE_BASELINE
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -39119,7 +39119,7 @@ NS_STATE_FLEX_SYNTHESIZE_BASELINE
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TableWrapper
@@ -39277,7 +39277,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -39395,7 +39395,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FieldSet
@@ -45868,7 +45868,7 @@ for
 a
 combobox
 .
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -45883,7 +45883,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ListControl
@@ -45930,7 +45930,7 @@ return
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 MenuPopup
@@ -46940,7 +46940,7 @@ frame
 "
 )
 ;
-FrameType
+LayoutFrameType
 parentType
 =
 aFrame
@@ -46959,7 +46959,7 @@ return
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -46968,7 +46968,7 @@ Viewport
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -51917,7 +51917,7 @@ GetContent
 (
 )
 ;
-FrameType
+LayoutFrameType
 fType
 =
 f
@@ -51998,7 +51998,7 @@ apply
 fType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Inline
@@ -52031,7 +52031,7 @@ css
 fType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 FormControl
@@ -52065,7 +52065,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText

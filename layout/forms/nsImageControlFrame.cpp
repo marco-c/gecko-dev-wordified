@@ -356,7 +356,7 @@ aContext
 nsImageFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ImageControl

@@ -215,7 +215,7 @@ aContext
 nsSplittableFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 TableCol

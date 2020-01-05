@@ -159,7 +159,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 HTMLButtonControl
@@ -578,7 +578,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 ;

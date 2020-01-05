@@ -1023,7 +1023,7 @@ aContext
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Menu

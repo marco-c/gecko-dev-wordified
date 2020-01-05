@@ -291,7 +291,7 @@ nsSVGGradientFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 )
 :
@@ -2604,7 +2604,7 @@ result
 return
 nullptr
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 result
@@ -2619,7 +2619,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGLinearGradient
@@ -2628,7 +2628,7 @@ SVGLinearGradient
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGRadialGradient

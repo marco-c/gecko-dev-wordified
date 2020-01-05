@@ -2532,7 +2532,7 @@ GetNextSibling
 )
 )
 {
-FrameType
+LayoutFrameType
 kidType
 =
 kid
@@ -2547,7 +2547,7 @@ if
 kidType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGUse
@@ -2567,7 +2567,7 @@ PrincipalChildList
 )
 )
 {
-FrameType
+LayoutFrameType
 grandKidType
 =
 grandKid
@@ -2582,7 +2582,7 @@ if
 grandKidType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGGeometry
@@ -2591,7 +2591,7 @@ SVGGeometry
 grandKidType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -2610,7 +2610,7 @@ if
 kidType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGGeometry
@@ -2619,7 +2619,7 @@ SVGGeometry
 kidType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGText

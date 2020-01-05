@@ -219,7 +219,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -444,7 +444,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 :

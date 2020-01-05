@@ -868,7 +868,7 @@ aContext
 nsHTMLScrollFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ListControl

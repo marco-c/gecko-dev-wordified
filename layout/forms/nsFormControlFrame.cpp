@@ -175,7 +175,7 @@ aContext
 nsAtomicContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 FormControl

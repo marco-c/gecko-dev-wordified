@@ -4251,7 +4251,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 f
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -8387,7 +8387,7 @@ FindBoundaryState
 aState
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -8402,7 +8402,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -8451,7 +8451,7 @@ textFrame
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -12424,7 +12424,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -12439,7 +12439,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyTextContainer
@@ -12536,7 +12536,7 @@ NS_ASSERTION
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -12664,7 +12664,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -12815,7 +12815,7 @@ isBR
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -30611,7 +30611,7 @@ GetClosestFrameOfType
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -30673,7 +30673,7 @@ GetClosestFrameOfType
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText

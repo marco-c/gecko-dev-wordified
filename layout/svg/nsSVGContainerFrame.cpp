@@ -247,7 +247,7 @@ aPresShell
 nsSVGContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 None
@@ -813,7 +813,7 @@ PrincipalChildList
 )
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 kid
@@ -828,7 +828,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -873,7 +873,7 @@ eSVGContainer
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGForeignObject

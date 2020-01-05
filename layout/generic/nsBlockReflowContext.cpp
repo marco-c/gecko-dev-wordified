@@ -255,7 +255,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -270,7 +270,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ColumnSet

@@ -190,7 +190,7 @@ aContext
 nsSVGGFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGSwitch

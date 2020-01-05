@@ -2940,7 +2940,7 @@ re
 line
 frames
 .
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -2967,7 +2967,7 @@ eBidiInlineContainer
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Line
@@ -2977,7 +2977,7 @@ Line
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -7372,7 +7372,7 @@ to
 the
 paragraph
 buffer
-FrameType
+LayoutFrameType
 frameType
 =
 frame
@@ -7384,7 +7384,7 @@ Type
 ;
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -8145,7 +8145,7 @@ next
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Br
@@ -10141,7 +10141,7 @@ LogicalMargin
 aBorderPadding
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -10201,7 +10201,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Ruby
@@ -10343,7 +10343,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBaseContainer
@@ -10476,7 +10476,7 @@ if
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyBase
@@ -10485,7 +10485,7 @@ RubyBase
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 RubyText

@@ -1272,7 +1272,7 @@ mozilla
 {
 enum
 class
-FrameType
+LayoutFrameType
 :
 uint8_t
 {
@@ -4360,7 +4360,7 @@ nsIFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 :
@@ -19296,13 +19296,13 @@ see
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 *
 /
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 Type
 (
 )
@@ -19330,7 +19330,9 @@ Frame
 (
 )
 const
+\
 {
+\
 return
 mType
 =
@@ -19338,11 +19340,12 @@ mType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 name_
 ;
+\
 }
 #
 include
@@ -27494,7 +27497,7 @@ frame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 mType
 ;
 /

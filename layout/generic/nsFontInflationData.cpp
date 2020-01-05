@@ -2133,7 +2133,7 @@ data
 continue
 ;
 }
-FrameType
+LayoutFrameType
 fType
 =
 kid
@@ -2148,7 +2148,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -2245,7 +2245,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 TextInput
@@ -2324,7 +2324,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ComboboxControl
@@ -2421,7 +2421,7 @@ if
 fType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ListControl

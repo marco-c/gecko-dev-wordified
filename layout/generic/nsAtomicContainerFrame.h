@@ -327,7 +327,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 :

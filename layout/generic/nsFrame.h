@@ -3982,7 +3982,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aType
 )
 ;
@@ -4365,7 +4365,7 @@ clipping
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -4383,7 +4383,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -4395,7 +4395,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -4407,7 +4407,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell
@@ -4419,7 +4419,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGOuterSVG
@@ -4431,7 +4431,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGInnerSVG
@@ -4443,7 +4443,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGForeignObject
@@ -4475,7 +4475,7 @@ type
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 TextInput

@@ -191,7 +191,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGGenericContainer

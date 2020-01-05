@@ -146,7 +146,6 @@ included
 endif
 class
 nsXULLabelFrame
-final
 :
 public
 nsBlockFrame
@@ -242,7 +241,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 XULLabel

@@ -230,7 +230,7 @@ IS_TABLE_CELL
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 frameType
 )
 {
@@ -241,7 +241,7 @@ frameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 TableCell
@@ -253,7 +253,7 @@ frameType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 BCTableCell
@@ -1628,7 +1628,7 @@ aPriorChildFrame
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aChildType
 )
 ;

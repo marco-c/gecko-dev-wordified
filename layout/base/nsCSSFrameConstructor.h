@@ -3977,7 +3977,7 @@ type
 for
 the
 given
-FrameType
+LayoutFrameType
 *
 /
 static
@@ -3987,7 +3987,7 @@ GetParentType
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;

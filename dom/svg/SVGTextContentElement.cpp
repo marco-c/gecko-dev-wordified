@@ -301,7 +301,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -349,7 +349,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
-FrameType
+LayoutFrameType
 :
 :
 SVGText

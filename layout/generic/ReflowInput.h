@@ -2203,7 +2203,7 @@ aPercentBasis
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -2227,7 +2227,7 @@ aPercentBasis
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 ReflowInputFlags
 aFlags
@@ -6862,7 +6862,7 @@ protected
 void
 InitFrameType
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -6880,7 +6880,7 @@ aPresContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -6908,7 +6908,7 @@ aPadding
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -7088,7 +7088,7 @@ aHypotheticalPos
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 const
@@ -7113,7 +7113,7 @@ aContainingBlockSize
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;
@@ -7229,7 +7229,7 @@ const
 void
 CalculateBlockSideMargins
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 ;

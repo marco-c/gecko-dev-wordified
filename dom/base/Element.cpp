@@ -3836,7 +3836,7 @@ Similar
 for
 comboboxes
 .
-FrameType
+LayoutFrameType
 type
 =
 frame
@@ -3851,7 +3851,7 @@ if
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Menu
@@ -3860,7 +3860,7 @@ Menu
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 ComboboxControl

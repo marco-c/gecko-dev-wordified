@@ -291,7 +291,7 @@ aContext
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Deck

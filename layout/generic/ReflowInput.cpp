@@ -2263,7 +2263,7 @@ ComputedWidth
 =
 aComputedWidth
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 mFrame
@@ -2278,7 +2278,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -2471,7 +2471,7 @@ ComputedHeight
 =
 aComputedHeight
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 mFrame
@@ -2486,7 +2486,7 @@ if
 frameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -2730,7 +2730,7 @@ StyleText
 (
 )
 ;
-FrameType
+LayoutFrameType
 type
 =
 mFrame
@@ -2853,7 +2853,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGForeignObject
@@ -3330,7 +3330,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 ColumnSet
@@ -3395,7 +3395,7 @@ eReplaced
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Text
@@ -3615,13 +3615,13 @@ const
 ReflowInput
 *
 rs
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -3633,7 +3633,7 @@ aFrameType
 #
 ifdef
 MOZ_XUL
-FrameType
+LayoutFrameType
 :
 :
 XULLabel
@@ -3644,7 +3644,7 @@ aFrameType
 |
 #
 endif
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -3730,7 +3730,7 @@ InitResizeFlags
 nsPresContext
 *
 aPresContext
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -6321,7 +6321,7 @@ ReflowInput
 :
 InitFrameType
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -6426,7 +6426,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -8535,7 +8535,7 @@ aFrame
 nsSize
 &
 aIntrinsicSize
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -8608,7 +8608,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Image
@@ -9401,7 +9401,7 @@ cbrs
 nsHypotheticalPosition
 &
 aHypotheticalPos
-FrameType
+LayoutFrameType
 aFrameType
 )
 const
@@ -11879,7 +11879,7 @@ const
 LogicalSize
 &
 aCBSize
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -11926,7 +11926,7 @@ NS_ASSERTION
 aFrameType
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -15015,7 +15015,7 @@ rs
 mParentReflowInput
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 rs
@@ -15059,7 +15059,7 @@ body
 html
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -15071,7 +15071,7 @@ frameType
 #
 ifdef
 MOZ_XUL
-FrameType
+LayoutFrameType
 :
 :
 XULLabel
@@ -15082,7 +15082,7 @@ frameType
 |
 #
 endif
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -15207,7 +15207,7 @@ continue
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -15229,7 +15229,7 @@ calculation
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -15312,7 +15312,7 @@ height
 result
 =
 (
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -15392,7 +15392,7 @@ elements
 if
 (
 (
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -15403,7 +15403,7 @@ frameType
 |
 |
 (
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -15568,7 +15568,7 @@ canvas
 else
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 Block
@@ -16572,7 +16572,7 @@ const
 nsMargin
 *
 aPadding
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -16911,7 +16911,7 @@ its
 /
 /
 content
-FrameType
+LayoutFrameType
 fType
 ;
 if
@@ -18570,7 +18570,7 @@ isBlock
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Legend
@@ -18600,7 +18600,7 @@ scrolledContent
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -19098,7 +19098,7 @@ const
 LogicalSize
 &
 aPercentBasis
-FrameType
+LayoutFrameType
 aFrameType
 ReflowInputFlags
 aFlags
@@ -19910,7 +19910,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -20067,7 +20067,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scrollbar
@@ -20276,7 +20276,7 @@ ReflowInput
 :
 CalculateBlockSideMargins
 (
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -20808,7 +20808,7 @@ if
 aFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Table
@@ -22176,7 +22176,7 @@ const
 LogicalSize
 &
 aPercentBasis
-FrameType
+LayoutFrameType
 aFrameType
 )
 {
@@ -22248,7 +22248,7 @@ tables
 .
 if
 (
-FrameType
+LayoutFrameType
 :
 :
 TableRowGroup
@@ -22257,7 +22257,7 @@ TableRowGroup
 aFrameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableColGroup
@@ -22266,7 +22266,7 @@ TableColGroup
 aFrameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableRow
@@ -22275,7 +22275,7 @@ TableRow
 aFrameType
 |
 |
-FrameType
+LayoutFrameType
 :
 :
 TableCol

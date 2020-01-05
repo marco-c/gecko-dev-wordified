@@ -5221,7 +5221,7 @@ mMarkerStart
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGMarker
@@ -5262,7 +5262,7 @@ mMarkerMid
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGMarker
@@ -5303,7 +5303,7 @@ mMarkerEnd
 >
 GetReferencedFrame
 (
-FrameType
+LayoutFrameType
 :
 :
 SVGMarker

@@ -232,7 +232,7 @@ aContext
 nsHTMLButtonControlFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ColorControl

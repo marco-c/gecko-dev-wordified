@@ -1813,7 +1813,7 @@ aContext
 nsBlockFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ComboboxControl
@@ -8875,7 +8875,7 @@ aComboBox
 nsBlockFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 ComboboxDisplay

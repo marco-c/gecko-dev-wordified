@@ -312,7 +312,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Meter

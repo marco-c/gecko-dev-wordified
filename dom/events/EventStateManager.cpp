@@ -17016,7 +17016,7 @@ false
 break
 ;
 }
-FrameType
+LayoutFrameType
 currentFrameType
 =
 current
@@ -17038,7 +17038,7 @@ if
 currentFrameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scrollbar

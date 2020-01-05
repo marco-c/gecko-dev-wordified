@@ -7871,7 +7871,7 @@ nsIFrame
 aFrame
 )
 {
-FrameType
+LayoutFrameType
 frameType
 =
 aFrame
@@ -7885,7 +7885,7 @@ return
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -7894,7 +7894,7 @@ Canvas
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Root
@@ -7903,7 +7903,7 @@ Root
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 PageContent
@@ -7912,7 +7912,7 @@ PageContent
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Viewport
@@ -18392,7 +18392,7 @@ IsSVGOuterSVGFrame
 )
 )
 ;
-FrameType
+LayoutFrameType
 frameType
 =
 aForFrame
@@ -18415,7 +18415,7 @@ MOZ_UNLIKELY
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Scroll
@@ -18646,7 +18646,7 @@ MOZ_UNLIKELY
 frameType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 Canvas
@@ -19078,7 +19078,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 aForFrame
-FrameType
+LayoutFrameType
 :
 :
 PageContent

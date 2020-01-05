@@ -1611,7 +1611,7 @@ aContext
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 :
 :
 SVGOuterSVGAnonChild

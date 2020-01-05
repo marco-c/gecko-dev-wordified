@@ -439,7 +439,7 @@ GetClosestFrameOfType
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -501,7 +501,7 @@ GetClosestFrameOfType
 GetParent
 (
 )
-FrameType
+LayoutFrameType
 :
 :
 SVGText
@@ -3265,7 +3265,7 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 this
-FrameType
+LayoutFrameType
 :
 :
 SVGText

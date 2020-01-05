@@ -346,7 +346,7 @@ nsBox
 mozilla
 :
 :
-FrameType
+LayoutFrameType
 )
 ;
 virtual

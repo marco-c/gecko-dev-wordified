@@ -909,7 +909,7 @@ nsBox
 :
 nsBox
 (
-FrameType
+LayoutFrameType
 aType
 )
 :

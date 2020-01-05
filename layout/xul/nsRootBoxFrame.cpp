@@ -270,7 +270,6 @@ rootBox
 }
 class
 nsRootBoxFrame
-final
 :
 public
 nsBoxFrame
@@ -638,7 +637,7 @@ aContext
 nsBoxFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Root

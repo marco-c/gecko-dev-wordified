@@ -198,7 +198,7 @@ aContext
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 SVGFELeaf

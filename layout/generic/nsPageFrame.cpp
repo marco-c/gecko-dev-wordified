@@ -322,7 +322,7 @@ aContext
 nsContainerFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Page
@@ -4918,7 +4918,7 @@ aContext
 nsLeafFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 PageBreak

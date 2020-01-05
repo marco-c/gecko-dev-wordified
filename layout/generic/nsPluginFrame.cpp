@@ -799,7 +799,7 @@ aContext
 nsFrame
 (
 aContext
-FrameType
+LayoutFrameType
 :
 :
 Object

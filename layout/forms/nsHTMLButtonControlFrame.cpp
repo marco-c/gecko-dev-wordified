@@ -207,7 +207,7 @@ nsHTMLButtonControlFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 )
 :

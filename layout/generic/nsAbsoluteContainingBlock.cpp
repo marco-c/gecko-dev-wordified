@@ -3184,7 +3184,7 @@ aAbsPosCBAxis
 aAbsPosCBAxis
 )
 ;
-FrameType
+LayoutFrameType
 parentType
 =
 aPlaceholderContainer
@@ -3205,7 +3205,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 FlexContainer
@@ -3263,7 +3263,7 @@ if
 parentType
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 GridContainer

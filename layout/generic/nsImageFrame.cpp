@@ -979,7 +979,7 @@ nsImageFrame
 nsStyleContext
 *
 aContext
-FrameType
+LayoutFrameType
 aType
 )
 :
