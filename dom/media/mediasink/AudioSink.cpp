@@ -129,7 +129,7 @@ h
 #
 include
 "
-DecodedAudioDataSink
+AudioSink
 .
 h
 "

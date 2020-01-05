@@ -167,7 +167,7 @@ include
 "
 mediasink
 /
-AudioSinkWrapper
+AudioSink
 .
 h
 "
@@ -176,7 +176,7 @@ include
 "
 mediasink
 /
-DecodedAudioDataSink
+AudioSinkWrapper
 .
 h
 "
