@@ -12231,6 +12231,13 @@ unwrap
 (
 )
 ;
+if
+element
+.
+is_instance_activatable
+(
+)
+{
 Some
 (
 element
@@ -12245,6 +12252,11 @@ Activatable
 a
 )
 )
+}
+else
+{
+None
+}
 }
 _
 =
