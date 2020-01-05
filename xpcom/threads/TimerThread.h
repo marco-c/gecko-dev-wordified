@@ -317,7 +317,6 @@ mInitialized
 /
 /
 These
-two
 internal
 helper
 methods
@@ -368,14 +367,6 @@ nsTimerImpl
 aTimer
 )
 ;
-void
-ReleaseTimerInternal
-(
-nsTimerImpl
-*
-aTimer
-)
-;
 already_AddRefed
 <
 nsTimerImpl
@@ -412,8 +403,10 @@ mSleeping
 ;
 nsTArray
 <
+RefPtr
+<
 nsTimerImpl
-*
+>
 >
 mTimers
 ;
