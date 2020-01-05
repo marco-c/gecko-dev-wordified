@@ -1609,7 +1609,7 @@ TlsAgentTestBase
 :
 MakeRecord
 (
-mode_
+variant_
 kTlsAlertType
 SSL_LIBRARY_VERSION_TLS_1_0
 kWarningAlert

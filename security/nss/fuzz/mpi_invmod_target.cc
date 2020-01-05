@@ -277,7 +277,6 @@ primeLen
 *
 8
 PR_FALSE
-nullptr
 )
 )
 !

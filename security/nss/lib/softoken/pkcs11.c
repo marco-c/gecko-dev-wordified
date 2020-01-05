@@ -29132,9 +29132,6 @@ pTemplate
 CK_ULONG
 ulCount
 PRBool
-*
-tokenOnly
-PRBool
 isLoggedIn
 )
 {
@@ -29312,11 +29309,6 @@ sftk_SlotFromSessionHandle
 hSession
 )
 ;
-PRBool
-tokenOnly
-=
-PR_FALSE
-;
 CK_RV
 crv
 =
@@ -29482,8 +29474,6 @@ slot
 search
 pTemplate
 ulCount
-&
-tokenOnly
 isLoggedIn
 )
 ;
@@ -29511,12 +29501,6 @@ the
 session
 *
 /
-if
-(
-!
-tokenOnly
-)
-{
 crv
 =
 sftk_searchObjectList
@@ -29539,7 +29523,6 @@ ulCount
 isLoggedIn
 )
 ;
-}
 if
 (
 crv

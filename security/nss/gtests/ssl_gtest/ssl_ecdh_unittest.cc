@@ -3444,7 +3444,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -3469,7 +3469,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :

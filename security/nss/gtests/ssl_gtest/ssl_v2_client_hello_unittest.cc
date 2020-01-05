@@ -898,7 +898,7 @@ SSLv2ClientHelloTestF
 :
 TlsConnectTestBase
 (
-STREAM
+ssl_variant_stream
 0
 )
 filter_
@@ -909,15 +909,15 @@ nullptr
 }
 SSLv2ClientHelloTestF
 (
-Mode
-mode
+SSLProtocolVariant
+variant
 uint16_t
 version
 )
 :
 TlsConnectTestBase
 (
-mode
+variant
 version
 )
 filter_
@@ -1193,7 +1193,7 @@ SSLv2ClientHelloTest
 :
 SSLv2ClientHelloTestF
 (
-STREAM
+ssl_variant_stream
 GetParam
 (
 )

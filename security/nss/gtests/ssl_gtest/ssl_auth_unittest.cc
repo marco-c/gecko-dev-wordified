@@ -4722,7 +4722,7 @@ ServerCertDataRsaPss
 }
 /
 /
-mode
+variant
 version
 certificate
 auth
@@ -4735,10 +4735,7 @@ std
 :
 tuple
 <
-std
-:
-:
-string
+SSLProtocolVariant
 uint16_t
 std
 :
@@ -5093,7 +5090,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5163,7 +5160,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5215,7 +5212,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5267,7 +5264,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5319,7 +5316,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5371,7 +5368,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -5423,7 +5420,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :

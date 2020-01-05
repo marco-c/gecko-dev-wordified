@@ -2355,10 +2355,6 @@ mp_size
 nBits
 mp_size
 strong
-unsigned
-long
-*
-nTries
 )
 {
 mp_digit
@@ -3316,16 +3312,6 @@ mp_clear
 &
 q
 )
-;
-if
-(
-nTries
-)
-*
-nTries
-+
-=
-i
 ;
 if
 (

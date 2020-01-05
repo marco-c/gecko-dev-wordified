@@ -608,10 +608,10 @@ alert
 .
 if
 (
-mode_
+variant_
 =
 =
-STREAM
+ssl_variant_stream
 )
 {
 server_

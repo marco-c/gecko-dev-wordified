@@ -200,7 +200,7 @@ nss_test
 {
 /
 /
-mode
+variant
 version
 cipher
 suite
@@ -210,10 +210,7 @@ std
 :
 tuple
 <
-std
-:
-:
-string
+SSLProtocolVariant
 uint16_t
 uint16_t
 SSLNamedGroup
@@ -231,13 +228,8 @@ public
 :
 TlsCipherSuiteTestBase
 (
-const
-std
-:
-:
-string
-&
-mode
+SSLProtocolVariant
+variant
 uint16_t
 version
 uint16_t
@@ -250,7 +242,7 @@ signature_scheme
 :
 TlsConnectTestBase
 (
-mode
+variant
 version
 )
 cipher_suite_
@@ -1517,10 +1509,10 @@ epoch
 ;
 if
 (
-mode_
+variant_
 =
 =
-DGRAM
+ssl_variant_datagram
 )
 {
 if
@@ -1562,7 +1554,7 @@ TlsAgentTestBase
 :
 MakeRecord
 (
-mode_
+variant_
 kTlsApplicationDataType
 version_
 payload
@@ -1799,7 +1791,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModes
+kTlsVariants
 #
 #
 modes
@@ -2216,9 +2208,7 @@ SecurityStatusTest
 :
 TlsCipherSuiteTestBase
 (
-"
-TLS
-"
+ssl_variant_stream
 GetParam
 (
 )

@@ -909,6 +909,16 @@ nssToken
 ;
 /
 *
+the
+tokeninfo
+struct
+*
+/
+CK_TOKEN_INFO
+tokenInfo
+;
+/
+*
 fast
 mechanism
 lookup

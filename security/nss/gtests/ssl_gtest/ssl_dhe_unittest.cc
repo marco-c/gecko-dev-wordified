@@ -1752,7 +1752,7 @@ This
 matrix
 includes
 :
-mode
+variant
 (
 stream
 /
@@ -1792,10 +1792,7 @@ std
 :
 tuple
 <
-std
-:
-:
-string
+SSLProtocolVariant
 uint16_t
 TlsDheSkeChangeY
 :
@@ -2402,7 +2399,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -2426,7 +2423,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesDatagram
+kTlsVariantsDatagram
 TlsConnectTestBase
 :
 :

@@ -802,7 +802,7 @@ TlsAgent
 :
 :
 CLIENT
-mode_
+variant_
 )
 ;
 client_
@@ -977,10 +977,10 @@ HRR
 .
 if
 (
-mode_
+variant_
 =
 =
-DGRAM
+ssl_variant_datagram
 )
 {
 client_
@@ -1752,7 +1752,7 @@ TlsAgent
 :
 :
 SERVER
-mode_
+variant_
 )
 )
 ;
@@ -2387,7 +2387,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -2412,7 +2412,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :

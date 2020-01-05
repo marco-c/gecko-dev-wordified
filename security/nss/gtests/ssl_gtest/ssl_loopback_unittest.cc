@@ -868,10 +868,10 @@ Handshake
 ;
 if
 (
-mode_
+variant_
 =
 =
-STREAM
+ssl_variant_stream
 )
 {
 /
@@ -1426,10 +1426,10 @@ version
 SSL_LIBRARY_VERSION_TLS_1_3
 &
 &
-mode_
+variant_
 !
 =
-DGRAM
+ssl_variant_datagram
 client_
 -
 >
@@ -2058,7 +2058,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -2080,7 +2080,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesDatagram
+kTlsVariantsDatagram
 TlsConnectTestBase
 :
 :
@@ -2122,7 +2122,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -2144,7 +2144,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesDatagram
+kTlsVariantsDatagram
 TlsConnectTestBase
 :
 :
@@ -2159,7 +2159,7 @@ TlsConnectTls12
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 )
 ;
 #
@@ -2172,7 +2172,7 @@ TlsConnectTls13
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 )
 ;
 #
@@ -2191,7 +2191,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -2213,7 +2213,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesDatagram
+kTlsVariantsDatagram
 TlsConnectTestBase
 :
 :
@@ -2245,7 +2245,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :

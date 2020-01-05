@@ -263,10 +263,6 @@ mp_size
 nBits
 mp_size
 strong
-unsigned
-long
-*
-nTries
 )
 ;
 SEC_END_PROTOS
