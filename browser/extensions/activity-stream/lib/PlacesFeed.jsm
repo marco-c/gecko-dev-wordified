@@ -56,16 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-ContentSearch
-XPCOMUtils
-PlacesUtils
-NewTabUtils
-Services
-*
-/
 "
 use
 strict

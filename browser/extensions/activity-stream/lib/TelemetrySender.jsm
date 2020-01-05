@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-Preferences
-Services
-XPCOMUtils
-*
-/
 const
 {
 interfaces

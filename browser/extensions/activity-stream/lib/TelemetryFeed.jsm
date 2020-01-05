@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-XPCOMUtils
-gUUIDGenerator
-ClientID
-*
-/
 "
 use
 strict

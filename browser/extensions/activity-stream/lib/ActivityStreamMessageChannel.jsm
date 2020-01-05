@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-AboutNewTab
-RemotePages
-XPCOMUtils
-*
-/
 "
 use
 strict

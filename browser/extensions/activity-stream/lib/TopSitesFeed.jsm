@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NewTabUtils
-PreviewProvider
-*
-/
 "
 use
 strict
