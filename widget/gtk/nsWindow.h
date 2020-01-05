@@ -2582,6 +2582,7 @@ See
 bug
 1225044
 .
+unsigned
 int
 mPendingConfigures
 ;
