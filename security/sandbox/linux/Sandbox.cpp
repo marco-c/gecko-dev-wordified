@@ -287,11 +287,6 @@ h
 >
 #
 include
-<
-vector
->
-#
-include
 "
 mozilla
 /
@@ -4628,15 +4623,6 @@ SetContentProcessSandbox
 (
 int
 aBrokerFd
-std
-:
-:
-vector
-<
-int
->
-&
-aSyscallWhitelist
 )
 {
 if
@@ -4720,7 +4706,6 @@ ptrOr
 (
 nullptr
 )
-aSyscallWhitelist
 )
 )
 ;
