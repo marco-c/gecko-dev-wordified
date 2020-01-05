@@ -5364,24 +5364,11 @@ what
 :
             
 if
-os
+conditions
 .
-path
-.
-isdir
-(
-mozpath
-.
-join
+is_hg
 (
 self
-.
-topsrcdir
-'
-.
-hg
-'
-)
 )
 :
                 
@@ -5417,24 +5404,11 @@ co
 ]
             
 elif
-os
+conditions
 .
-path
-.
-isdir
-(
-mozpath
-.
-join
+is_git
 (
 self
-.
-topsrcdir
-'
-.
-git
-'
-)
 )
 :
                 
