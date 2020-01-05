@@ -404,6 +404,7 @@ js
 {
 JS
 JSRef
+LayoutJS
 RootedReference
 Temporary
 Root
@@ -6684,7 +6685,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6701,7 +6702,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6718,7 +6719,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6735,7 +6736,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6752,7 +6753,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6767,7 +6768,7 @@ self
 )
 -
 >
-JS
+LayoutJS
 <
 Document
 >
@@ -6813,7 +6814,7 @@ bool
 impl
 LayoutNodeHelpers
 for
-JS
+LayoutJS
 <
 Node
 >
@@ -6887,7 +6888,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6904,7 +6905,7 @@ unsafe_get
 .
 parent_node
 .
-get_inner
+get_inner_as_layout
 (
 )
 }
@@ -6923,7 +6924,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6940,7 +6941,7 @@ unsafe_get
 .
 first_child
 .
-get_inner
+get_inner_as_layout
 (
 )
 }
@@ -6959,7 +6960,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -6976,7 +6977,7 @@ unsafe_get
 .
 last_child
 .
-get_inner
+get_inner_as_layout
 (
 )
 }
@@ -6995,7 +6996,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -7012,7 +7013,7 @@ unsafe_get
 .
 prev_sibling
 .
-get_inner
+get_inner_as_layout
 (
 )
 }
@@ -7031,7 +7032,7 @@ self
 >
 Option
 <
-JS
+LayoutJS
 <
 Node
 >
@@ -7048,7 +7049,7 @@ unsafe_get
 .
 next_sibling
 .
-get_inner
+get_inner_as_layout
 (
 )
 }
@@ -7065,7 +7066,7 @@ self
 )
 -
 >
-JS
+LayoutJS
 <
 Document
 >
@@ -7081,7 +7082,7 @@ unsafe_get
 .
 owner_doc
 .
-get_inner
+get_inner_as_layout
 (
 )
 .

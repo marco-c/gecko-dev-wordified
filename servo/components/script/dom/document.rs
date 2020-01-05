@@ -430,6 +430,7 @@ js
 MutNullableJS
 JS
 JSRef
+LayoutJS
 Temporary
 TemporaryPushable
 }
@@ -3171,7 +3172,7 @@ bool
 impl
 LayoutDocumentHelpers
 for
-JS
+LayoutJS
 <
 Document
 >

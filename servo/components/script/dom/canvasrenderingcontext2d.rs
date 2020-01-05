@@ -117,6 +117,7 @@ js
 {
 JS
 JSRef
+LayoutJS
 Temporary
 }
 ;
@@ -402,7 +403,7 @@ CanvasMsg
 impl
 LayoutCanvasRenderingContext2DHelpers
 for
-JS
+LayoutJS
 <
 CanvasRenderingContext2D
 >

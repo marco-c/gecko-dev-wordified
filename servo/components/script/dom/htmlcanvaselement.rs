@@ -173,8 +173,8 @@ js
 :
 {
 MutNullableJS
-JS
 JSRef
+LayoutJS
 Temporary
 }
 ;
@@ -588,7 +588,7 @@ u32
 impl
 LayoutHTMLCanvasElementHelpers
 for
-JS
+LayoutJS
 <
 HTMLCanvasElement
 >
@@ -624,7 +624,7 @@ unsafe_get
 .
 context
 .
-get_inner
+get_inner_as_layout
 (
 )
 ;

@@ -187,7 +187,7 @@ to
 see
 anything
 with
-JS
+LayoutJS
 in
 the
 name
@@ -527,7 +527,7 @@ bindings
 js
 :
 :
-JS
+LayoutJS
 ;
 use
 script
@@ -899,7 +899,7 @@ self
 node
 :
 &
-JS
+LayoutJS
 <
 Node
 >
@@ -968,7 +968,7 @@ this
 node
 as
 a
-JS
+LayoutJS
 .
 This
 is
@@ -1006,7 +1006,7 @@ self
 &
 '
 a
-JS
+LayoutJS
 <
 Node
 >
@@ -1206,7 +1206,7 @@ match
 HTMLImageElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -1284,7 +1284,7 @@ canvas_element
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLCanvasElement
 >
@@ -1293,7 +1293,7 @@ HTMLCanvasElement
 HTMLCanvasElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -1334,7 +1334,7 @@ canvas_element
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLCanvasElement
 >
@@ -1343,7 +1343,7 @@ HTMLCanvasElement
 HTMLCanvasElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -1380,7 +1380,7 @@ canvas_element
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLCanvasElement
 >
@@ -1389,7 +1389,7 @@ HTMLCanvasElement
 HTMLCanvasElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -1457,7 +1457,7 @@ unsafe
 let
 iframe_element
 :
-JS
+LayoutJS
 <
 HTMLIFrameElement
 >
@@ -1466,7 +1466,7 @@ match
 HTMLIFrameElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -1649,7 +1649,7 @@ never
 see
 instances
 of
-JS
+LayoutJS
 .
 #
 [
@@ -1675,7 +1675,7 @@ node
 .
 node
 :
-JS
+LayoutJS
 <
 Node
 >
@@ -1811,7 +1811,7 @@ self
 node
 :
 &
-JS
+LayoutJS
 <
 Node
 >
@@ -1885,7 +1885,7 @@ self
 &
 '
 a
-JS
+LayoutJS
 <
 Node
 >
@@ -1956,7 +1956,7 @@ text
 :
 Option
 <
-JS
+LayoutJS
 <
 Text
 >
@@ -1965,7 +1965,7 @@ Text
 TextCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -2011,7 +2011,7 @@ input
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLInputElement
 >
@@ -2020,7 +2020,7 @@ HTMLInputElement
 HTMLInputElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -2051,7 +2051,7 @@ area
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLTextAreaElement
 >
@@ -2060,7 +2060,7 @@ HTMLTextAreaElement
 HTMLTextAreaElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -2500,7 +2500,7 @@ self
 &
 '
 a
-JS
+LayoutJS
 <
 Node
 >
@@ -3033,7 +3033,7 @@ unsafe
 let
 elem
 :
-JS
+LayoutJS
 <
 Element
 >
@@ -3042,7 +3042,7 @@ match
 ElementCast
 :
 :
-to_js
+to_layout_js
 (
 &
 self
@@ -3279,7 +3279,7 @@ match
 ElementCast
 :
 :
-to_js
+to_layout_js
 (
 &
 self
@@ -4965,7 +4965,7 @@ self
 node
 :
 &
-JS
+LayoutJS
 <
 Node
 >
@@ -5073,7 +5073,7 @@ self
 &
 '
 a
-JS
+LayoutJS
 <
 Node
 >
@@ -5780,7 +5780,7 @@ match
 ElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -6540,7 +6540,7 @@ unsafe
 let
 text
 :
-JS
+LayoutJS
 <
 Text
 >
@@ -6549,7 +6549,7 @@ match
 TextCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -6709,7 +6709,7 @@ input
 :
 Option
 <
-JS
+LayoutJS
 <
 HTMLInputElement
 >
@@ -6718,7 +6718,7 @@ HTMLInputElement
 HTMLInputElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -6775,7 +6775,7 @@ match
 HTMLInputElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .
@@ -6835,7 +6835,7 @@ elem
 :
 Option
 <
-JS
+LayoutJS
 <
 Element
 >
@@ -6844,7 +6844,7 @@ Element
 ElementCast
 :
 :
-to_js
+to_layout_js
 (
 self
 .

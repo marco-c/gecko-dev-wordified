@@ -224,8 +224,8 @@ js
 :
 :
 {
-JS
 JSRef
+LayoutJS
 Temporary
 OptionalRootable
 }
@@ -545,7 +545,7 @@ u32
 impl
 LayoutHTMLTextAreaElementHelpers
 for
-JS
+LayoutJS
 <
 HTMLTextAreaElement
 >

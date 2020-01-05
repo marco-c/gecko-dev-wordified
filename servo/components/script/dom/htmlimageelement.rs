@@ -153,8 +153,8 @@ js
 :
 :
 {
-JS
 JSRef
+LayoutJS
 Temporary
 }
 ;
@@ -777,7 +777,7 @@ Url
 impl
 LayoutHTMLImageElementHelpers
 for
-JS
+LayoutJS
 <
 HTMLImageElement
 >
