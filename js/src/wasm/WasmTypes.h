@@ -5682,7 +5682,7 @@ should
 ultimately
 derive
 from
-ExprIter
+OpIter
 :
 :
 trapOffset
