@@ -3349,7 +3349,9 @@ ResetTone
 int16_t
 toneBuffer
 [
-320
+MAX_DTMF_SAMPLERATE
+/
+100
 ]
 ;
 uint16_t
