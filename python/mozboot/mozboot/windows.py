@@ -645,8 +645,6 @@ self
 install_tooltool_clang_package
 (
 state_dir
-*
-*
 stylo
 .
 WINDOWS
