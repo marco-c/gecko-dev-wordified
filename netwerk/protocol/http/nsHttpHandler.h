@@ -1128,6 +1128,11 @@ mUseFastOpen
 &
 &
 mFastOpenSupported
+&
+&
+mFastOpenConsecutiveFailureCounter
+<
+mFastOpenConsecutiveFailureLimit
 ;
 }
 /
