@@ -3155,17 +3155,6 @@ Int32Value
 LOCAL_GL_FRAMEBUFFER_DEFAULT
 )
 ;
-case
-LOCAL_GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME
-:
-return
-JS
-:
-:
-NullValue
-(
-)
-;
 /
 /
 /
