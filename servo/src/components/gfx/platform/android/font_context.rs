@@ -285,8 +285,7 @@ create_font_from_identifier
 self
 name
 :
-~
-str
+String
 style
 :
 UsedFontStyle
@@ -352,7 +351,7 @@ new_from_file
 self
 file_name
 .
-to_string
+as_slice
 (
 )
 &

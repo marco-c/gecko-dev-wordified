@@ -701,12 +701,15 @@ push
 (
 ResizeWindowEvent
 (
+TypedSize2D
+(
 width
 as
 uint
 height
 as
 uint
+)
 )
 )
 }
@@ -2139,6 +2142,10 @@ if
 =
 =
 value
+.
+as_slice
+(
+)
 {
 /
 /
