@@ -311,6 +311,15 @@ override
 void
 PaintThebes
 (
+nsTArray
+<
+ReadbackProcessor
+:
+:
+Update
+>
+*
+aReadbackUpdates
 )
 ;
 void
