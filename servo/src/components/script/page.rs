@@ -587,7 +587,7 @@ pixels
 pub
 window_size
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -679,7 +679,7 @@ bool
 >
 next_subpage_id
 :
-Untraceable
+Traceable
 <
 Cell
 <
@@ -1080,7 +1080,7 @@ None
 )
 window_size
 :
-Untraceable
+Traceable
 :
 :
 new
@@ -1128,7 +1128,7 @@ None
 )
 next_subpage_id
 :
-Untraceable
+Traceable
 :
 :
 new
