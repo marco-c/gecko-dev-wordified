@@ -244,6 +244,7 @@ IUnknown
 {
 public
 :
+explicit
 TextureMemoryMeasurer
 (
 size_t

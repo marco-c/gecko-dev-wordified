@@ -5388,6 +5388,7 @@ AutoSurfaceLock
 {
 public
 :
+explicit
 AutoSurfaceLock
 (
 IDirect3DSurface9

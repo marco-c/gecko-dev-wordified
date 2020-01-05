@@ -312,6 +312,7 @@ AutoDestroyHWND
 {
 public
 :
+explicit
 AutoDestroyHWND
 (
 HWND

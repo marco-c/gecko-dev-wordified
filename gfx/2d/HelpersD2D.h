@@ -4205,6 +4205,7 @@ ID2D1CommandSink
 {
 public
 :
+explicit
 DCCommandSink
 (
 ID2D1DeviceContext

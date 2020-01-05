@@ -176,6 +176,7 @@ FLAG_IS_TRANSPARENT
 )
 }
 ;
+explicit
 gfxWindowsSurface
 (
 HDC
@@ -193,6 +194,7 @@ from
 a
 shared
 d3d9surface
+explicit
 gfxWindowsSurface
 (
 IDirect3DSurface9
@@ -210,6 +212,7 @@ Create
 a
 DIB
 surface
+explicit
 gfxWindowsSurface
 (
 const
@@ -237,6 +240,7 @@ SurfaceFormat
 X8R8G8B8_UINT32
 )
 ;
+explicit
 gfxWindowsSurface
 (
 cairo_surface_t

@@ -1502,6 +1502,7 @@ gfxFontFamily
 {
 public
 :
+explicit
 GDIFontFamily
 (
 nsAString

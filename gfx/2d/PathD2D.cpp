@@ -186,6 +186,7 @@ ID2D1SimplifiedGeometrySink
 {
 public
 :
+explicit
 OpeningGeometrySink
 (
 ID2D1SimplifiedGeometrySink
@@ -708,6 +709,7 @@ ID2D1SimplifiedGeometrySink
 {
 public
 :
+explicit
 StreamingGeometrySink
 (
 PathSink

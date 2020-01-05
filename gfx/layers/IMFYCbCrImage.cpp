@@ -245,6 +245,7 @@ Unlock
 struct
 AutoLockTexture
 {
+explicit
 AutoLockTexture
 (
 ID3D11Texture2D

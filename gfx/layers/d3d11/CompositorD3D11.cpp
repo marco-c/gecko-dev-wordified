@@ -470,6 +470,7 @@ Backdrop
 struct
 DeviceAttachmentsD3D11
 {
+explicit
 DeviceAttachmentsD3D11
 (
 ID3D11Device
