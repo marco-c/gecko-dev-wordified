@@ -1402,6 +1402,10 @@ blacklist_types
 "
 nsACString_internal
 "
+            
+"
+nsAString_internal
+"
         
 ]
         
@@ -1417,7 +1421,10 @@ use
 nsstring
 :
 :
+{
 nsACString
+nsAString
+}
 ;
 "
             
@@ -1426,6 +1433,14 @@ type
 nsACString_internal
 =
 nsACString
+;
+"
+            
+"
+type
+nsAString_internal
+=
+nsAString
 ;
 "
         
