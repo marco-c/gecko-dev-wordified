@@ -1441,6 +1441,7 @@ return
 null
 ;
 }
+this
 )
 .
 filter
