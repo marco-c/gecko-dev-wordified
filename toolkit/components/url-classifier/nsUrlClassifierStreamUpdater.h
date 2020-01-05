@@ -512,6 +512,9 @@ providers
 nsCString
 mTelemetryProvider
 ;
+PRIntervalTime
+mTelemetryClockStart
+;
 }
 ;
 #
