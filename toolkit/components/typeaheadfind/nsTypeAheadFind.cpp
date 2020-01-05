@@ -1269,7 +1269,6 @@ PrefsReset
 )
 ;
 }
-else
 if
 (
 !
