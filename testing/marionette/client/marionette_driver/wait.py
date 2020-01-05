@@ -199,11 +199,11 @@ self
 marionette
 timeout
 =
-DEFAULT_TIMEOUT
+None
                  
 interval
 =
-DEFAULT_INTERVAL
+None
 ignored_exceptions
 =
 None
@@ -510,6 +510,26 @@ self
 timeout
 =
 timeout
+if
+timeout
+is
+not
+None
+else
+DEFAULT_TIMEOUT
+        
+self
+.
+interval
+=
+interval
+if
+interval
+is
+not
+None
+else
+DEFAULT_INTERVAL
         
 self
 .
@@ -534,12 +554,6 @@ now
 self
 .
 timeout
-        
-self
-.
-interval
-=
-interval
         
 exceptions
 =
