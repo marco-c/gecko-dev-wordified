@@ -1097,6 +1097,11 @@ JSOP_REST
 \
 _
 (
+JSOP_TOASYNC
+)
+\
+_
+(
 JSOP_TOID
 )
 \
