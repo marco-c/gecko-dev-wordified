@@ -24529,7 +24529,30 @@ CGWrapper
             
 CGIndenter
 (
+CGList
+(
+[
+                
+CGGeneric
+(
+"
+type
+Config
+=
+(
+)
+;
+"
+)
+                
 method
+            
+]
+"
+\
+n
+"
+)
 )
             
 pre
@@ -24541,13 +24564,6 @@ for
 %
 s
 {
-\
-ntype
-Config
-=
-(
-)
-;
 \
 n
 "
