@@ -1423,7 +1423,7 @@ cx
 document
 tag
 "
-directory
+dir
 "
 HTMLDirectoryElementTypeId
 HTMLDirectoryElement
