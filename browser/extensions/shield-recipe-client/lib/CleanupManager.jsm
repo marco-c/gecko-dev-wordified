@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 this
 .
 EXPORTED_SYMBOLS
