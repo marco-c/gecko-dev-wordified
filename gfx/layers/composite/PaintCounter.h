@@ -241,7 +241,10 @@ PaintCounter
 SurfaceFormat
 mFormat
 ;
-sk_sp
+std
+:
+:
+unique_ptr
 <
 SkCanvas
 >
