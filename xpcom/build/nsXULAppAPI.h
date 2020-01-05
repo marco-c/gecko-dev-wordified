@@ -2883,10 +2883,6 @@ XRE_API
 void
 XRE_LibFuzzerSetMain
 (
-int
-char
-*
-*
 LibFuzzerMain
 )
 )

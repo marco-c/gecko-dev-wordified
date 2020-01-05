@@ -1505,8 +1505,6 @@ gBootstrap
 >
 XRE_LibFuzzerSetMain
 (
-argc
-argv
 libfuzzer_main
 )
 ;

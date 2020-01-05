@@ -1651,12 +1651,6 @@ mozilla
 void
 XRE_LibFuzzerSetMain
 (
-int
-argc
-char
-*
-*
-argv
 LibFuzzerMain
 main
 )
@@ -1669,8 +1663,6 @@ libFuzzerRunner
 >
 setParams
 (
-argc
-argv
 main
 )
 ;
@@ -20769,6 +20761,8 @@ libFuzzerRunner
 >
 Run
 (
+gArgc
+gArgv
 )
 ;
 }

@@ -680,12 +680,6 @@ virtual
 void
 XRE_LibFuzzerSetMain
 (
-int
-argc
-char
-*
-*
-argv
 LibFuzzerMain
 aMain
 )
