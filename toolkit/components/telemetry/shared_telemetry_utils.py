@@ -221,7 +221,6 @@ self
 current_index
 =
 0
-;
         
 self
 .

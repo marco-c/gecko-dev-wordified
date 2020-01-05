@@ -310,7 +310,6 @@ file
 =
 output
 )
-;
     
 for
 category

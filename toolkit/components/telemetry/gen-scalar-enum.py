@@ -255,7 +255,6 @@ file
 =
 output
 )
-;
     
 for
 s
