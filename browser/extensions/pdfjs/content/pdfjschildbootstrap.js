@@ -133,10 +133,10 @@ PdfJs
 Services
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 /
 *
@@ -174,7 +174,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -186,7 +186,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 Components
@@ -195,7 +195,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -207,7 +207,7 @@ js
 PdfJs
 .
 jsm
-'
+"
 )
 ;
 Components
@@ -216,7 +216,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -228,7 +228,7 @@ js
 PdfjsContentUtils
 .
 jsm
-'
+"
 )
 ;
 /
