@@ -42785,6 +42785,16 @@ HTMLTableElement
 dom
 :
 :
+htmltablesectionelement
+:
+:
+HTMLTableSectionElement
+'
+                          
+'
+dom
+:
+:
 bindings
 :
 :

@@ -88,7 +88,7 @@ HTMLSelectElementTypeId
 HTMLSmallElementTypeId
 HTMLSpanElementTypeId
 HTMLStyleElementTypeId
-HTMLTableBodyElementTypeId
+HTMLTableSectionElementTypeId
 HTMLTableCellElementTypeId
 HTMLTableElementTypeId
 HTMLTableRowElementTypeId
@@ -120,7 +120,6 @@ HTMLListItemElement
 HTMLSelectElement
 HTMLSmallElement
 HTMLSpanElement
-HTMLTableBodyElement
 HTMLTableCellElement
 HTMLTableRowElement
 HTMLTitleElement
@@ -233,6 +232,15 @@ htmltableelement
 :
 :
 HTMLTableElement
+;
+use
+dom
+:
+:
+htmltablesectionelement
+:
+:
+HTMLTableSectionElement
 ;
 use
 dom
@@ -1635,8 +1643,8 @@ tag
 "
 tbody
 "
-HTMLTableBodyElementTypeId
-HTMLTableBodyElement
+HTMLTableSectionElementTypeId
+HTMLTableSectionElement
 [
 ]
 )
