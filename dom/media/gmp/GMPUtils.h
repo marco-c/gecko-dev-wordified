@@ -383,6 +383,15 @@ nsCString
 aTags
 )
 ;
+void
+LogToConsole
+(
+const
+nsAString
+&
+aMsg
+)
+;
 }
 /
 /
