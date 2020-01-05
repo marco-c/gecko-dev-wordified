@@ -10497,6 +10497,10 @@ nsCSSFontFaceRule
 *
 Gecko_CSSFontFaceRule_Create
 (
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 {
 RefPtr
@@ -10508,8 +10512,8 @@ rule
 new
 nsCSSFontFaceRule
 (
-0
-0
+aLine
+aColumn
 )
 ;
 return

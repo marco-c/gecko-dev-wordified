@@ -3569,6 +3569,10 @@ nsCSSFontFaceRule
 *
 Gecko_CSSFontFaceRule_Create
 (
+uint32_t
+line
+uint32_t
+column
 )
 ;
 void
