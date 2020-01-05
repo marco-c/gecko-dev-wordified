@@ -191,7 +191,7 @@ subclass
 {
 es_img
 (
-dimensions
+img
 )
 if
 key
@@ -226,7 +226,9 @@ some
 s
 )
 {
-dimensions
+img
+.
+size
 .
 width
 =
@@ -243,7 +245,7 @@ s
 }
 es_img
 (
-dimensions
+img
 )
 if
 key
@@ -278,7 +280,9 @@ some
 s
 )
 {
-dimensions
+img
+.
+size
 .
 height
 =
@@ -373,6 +377,9 @@ es_img
 (
 {
 mut
+size
+:
+{
 width
 :
 geom
@@ -382,7 +389,6 @@ px_to_au
 (
 100
 )
-mut
 height
 :
 geom
@@ -392,6 +398,7 @@ px_to_au
 (
 100
 )
+}
 }
 )
 ;

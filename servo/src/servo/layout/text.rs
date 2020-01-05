@@ -186,7 +186,6 @@ bounds
 size
 =
 {
-mut
 width
 :
 alt
@@ -238,7 +237,6 @@ au
 )
 }
 }
-mut
 height
 :
 au
