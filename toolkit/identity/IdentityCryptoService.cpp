@@ -434,6 +434,7 @@ private
 KeyPair
 (
 )
+override
 {
 nsNSSShutDownPreventionLock
 locker
@@ -557,6 +558,7 @@ private
 KeyGenRunnable
 (
 )
+override
 {
 nsNSSShutDownPreventionLock
 locker
@@ -584,7 +586,6 @@ Object
 )
 ;
 }
-virtual
 void
 virtualDestroyNSSReference
 (
@@ -686,6 +687,7 @@ private
 SignRunnable
 (
 )
+override
 {
 nsNSSShutDownPreventionLock
 locker
