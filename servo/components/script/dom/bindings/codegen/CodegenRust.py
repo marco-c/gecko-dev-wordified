@@ -29197,9 +29197,6 @@ setOrIndexedGet
 "
 if
 set
-!
-=
-0
 {
 \
 n
@@ -29330,6 +29327,9 @@ RUST_JSID_IS_STRING
 (
 id
 )
+!
+=
+0
 {
 \
 n
@@ -29963,7 +29963,7 @@ Argument
 (
 '
 *
-const
+mut
 JSPropertyDescriptor
 '
 '
@@ -30442,6 +30442,9 @@ RUST_JSID_IS_STRING
 (
 id
 )
+!
+=
+0
 {
 \
 n
