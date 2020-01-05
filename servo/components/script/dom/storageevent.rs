@@ -324,14 +324,6 @@ MutNullableHeap
 new
 (
 storageArea
-.
-map
-(
-JS
-:
-:
-from_ref
-)
 )
 }
 }

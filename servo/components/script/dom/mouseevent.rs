@@ -1504,14 +1504,6 @@ related_target
 set
 (
 relatedTargetArg
-.
-map
-(
-JS
-:
-:
-from_ref
-)
 )
 ;
 }
