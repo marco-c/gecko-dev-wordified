@@ -456,10 +456,10 @@ BLOCK
 /
 #
 ifndef
-_MYSPELLMGR_H_
+MYSPELLMGR_H_
 #
 define
-_MYSPELLMGR_H_
+MYSPELLMGR_H_
 #
 include
 "
@@ -601,6 +601,7 @@ char
 )
 ;
 LIBHUNSPELL_DLL_EXPORTED
+const
 char
 *
 Hunspell_get_dic_encoding

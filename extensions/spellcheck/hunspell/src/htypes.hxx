@@ -456,10 +456,10 @@ BLOCK
 /
 #
 ifndef
-_HTYPES_HXX_
+HTYPES_HXX_
 #
 define
-_HTYPES_HXX_
+HTYPES_HXX_
 #
 define
 ROTATE_LEN
