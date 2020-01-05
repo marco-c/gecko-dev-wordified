@@ -1831,6 +1831,8 @@ checking
 nsresult
 StartChecks
 (
+bool
+offerer
 )
 ;
 /
@@ -1990,8 +1992,6 @@ std
 string
 &
 name
-bool
-offerer
 Policy
 policy
 )

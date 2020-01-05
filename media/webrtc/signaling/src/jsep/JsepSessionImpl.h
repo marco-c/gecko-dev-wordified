@@ -936,6 +936,7 @@ IsOfferer
 (
 )
 const
+override
 {
 return
 mIsOfferer
