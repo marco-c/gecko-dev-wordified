@@ -10495,6 +10495,15 @@ GetIsPrerendered
 (
 )
 ;
+private
+:
+void
+ReportLargeAllocStatus
+(
+)
+;
+public
+:
 /
 /
 Inner
