@@ -2763,6 +2763,10 @@ startActivity
 intent
 )
 ;
+finish
+(
+)
+;
 }
 }
 private
