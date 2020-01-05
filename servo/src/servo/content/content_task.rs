@@ -364,9 +364,6 @@ Timer
 dom
 :
 :
-bindings
-:
-:
 window
 :
 :
