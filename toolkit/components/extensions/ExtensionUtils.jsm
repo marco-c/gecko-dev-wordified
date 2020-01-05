@@ -6180,7 +6180,7 @@ nsIMessageSender
 function
 flushJarCache
 (
-jarFile
+jarPath
 )
 {
 Services
@@ -6189,7 +6189,7 @@ obs
 .
 notifyObservers
 (
-jarFile
+null
 "
 flush
 -
@@ -6197,7 +6197,7 @@ cache
 -
 entry
 "
-null
+jarPath
 )
 ;
 }
