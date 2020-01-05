@@ -921,7 +921,7 @@ gecko_bindings
 structs
 :
 :
-SkipRootBehavior
+TraversalRootBehavior
 ;
 use
 gecko_bindings
@@ -7051,9 +7051,9 @@ RawGeckoElementBorrowed
 set
 :
 RawServoStyleSetBorrowed
-skip_root
+behavior
 :
-SkipRootBehavior
+TraversalRootBehavior
 )
 ;
 }

@@ -26304,12 +26304,12 @@ Hash
 ]
 pub
 enum
-SkipRootBehavior
+TraversalRootBehavior
 {
-Skip
+Normal
 =
 0
-DontSkip
+UnstyledChildrenOnly
 =
 1
 }
