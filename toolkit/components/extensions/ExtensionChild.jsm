@@ -5743,7 +5743,7 @@ childManager
 )
 ;
 class
-DevtoolsContextChild
+DevToolsContextChild
 extends
 ExtensionBaseContextChild
 {
@@ -5752,7 +5752,7 @@ ExtensionBaseContextChild
 *
 *
 This
-DevtoolsContextChild
+DevToolsContextChild
 represents
 a
 devtools
@@ -5938,7 +5938,7 @@ this
 }
 defineLazyGetter
 (
-DevtoolsContextChild
+DevToolsContextChild
 .
 prototype
 "
@@ -7003,7 +7003,7 @@ devtoolsToolboxInfo
 context
 =
 new
-DevtoolsContextChild
+DevToolsContextChild
 (
 extension
 {
