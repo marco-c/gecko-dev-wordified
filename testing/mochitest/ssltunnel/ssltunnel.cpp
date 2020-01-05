@@ -1463,7 +1463,6 @@ a
 return
 1
 ;
-else
 /
 /
 (
@@ -5574,8 +5573,6 @@ wait
 continue
 ;
 }
-else
-{
 ci
 -
 >
@@ -5693,7 +5690,6 @@ numberOfSockets
 =
 2
 ;
-}
 }
 else
 if
