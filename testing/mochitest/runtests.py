@@ -16236,12 +16236,12 @@ template
 =
 "
 mochitest
-{
-e10s
-}
 -
 {
 suite_slug
+}
+{
+e10s
 }
 .
 runtimes
