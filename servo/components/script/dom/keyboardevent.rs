@@ -495,6 +495,7 @@ new
 )
 }
 }
+pub
 fn
 new_uninitialized
 (
