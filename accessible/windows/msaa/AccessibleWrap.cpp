@@ -7969,6 +7969,12 @@ XRE_IsParentProcess
 &
 &
 !
+IsProxy
+(
+)
+&
+&
+!
 sIDGen
 .
 IsChromeID
@@ -8471,12 +8477,6 @@ VARIANT
 aVarChild
 )
 {
-DocAccessibleParent
-*
-proxyDoc
-=
-nullptr
-;
 DocAccessible
 *
 doc
