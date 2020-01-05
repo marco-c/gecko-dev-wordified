@@ -602,10 +602,6 @@ p
 value
 (
 )
-.
-unbarrieredGet
-(
-)
 =
 =
 obj

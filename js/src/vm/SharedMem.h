@@ -131,6 +131,8 @@ T
 class
 SharedMem
 {
+/
+/
 static_assert
 (
 mozilla
@@ -143,6 +145,8 @@ T
 :
 :
 value
+/
+/
 "
 SharedMem
 encapsulates

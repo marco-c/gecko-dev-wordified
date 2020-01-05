@@ -630,10 +630,6 @@ obj
 =
 =
 mJSProtoObject
-.
-unbarrieredGet
-(
-)
 "
 huh
 ?
@@ -744,10 +740,6 @@ old
 MOZ_ASSERT
 (
 mJSProtoObject
-.
-unbarrieredGet
-(
-)
 =
 =
 old
