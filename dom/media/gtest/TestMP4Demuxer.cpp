@@ -872,6 +872,10 @@ i
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 )
 ;
 }

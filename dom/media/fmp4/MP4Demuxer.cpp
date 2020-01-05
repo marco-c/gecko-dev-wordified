@@ -3158,6 +3158,10 @@ sample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 )
 .
 get
@@ -3229,6 +3233,10 @@ sample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 )
 .
 get

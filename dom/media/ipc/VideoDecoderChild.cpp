@@ -1352,6 +1352,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 aSample
 -
 >

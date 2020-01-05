@@ -791,6 +791,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 mPacketCount
 +
 +
@@ -1168,6 +1172,10 @@ aSample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 mInfo
 .
 ScaledImageRect

@@ -906,6 +906,14 @@ data
 >
 mTimecode
 =
+media
+:
+:
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aData
 .
 base
@@ -914,6 +922,7 @@ base
 .
 timecode
 (
+)
 )
 ;
 data
@@ -1254,6 +1263,10 @@ data
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 data
 -
 >

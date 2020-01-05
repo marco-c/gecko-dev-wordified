@@ -11904,6 +11904,10 @@ sample
 -
 >
 mTimecode
+.
+ToMicroseconds
+(
+)
 sample
 -
 >

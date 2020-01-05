@@ -6357,10 +6357,16 @@ frame
 >
 mTimecode
 =
+TimeUnit
+:
+:
+FromMicroseconds
+(
 frame
 -
 >
 mTime
+)
 ;
 frame
 -
