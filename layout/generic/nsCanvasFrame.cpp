@@ -1871,6 +1871,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 nsTArray
 <
 WebRenderParentCommand
