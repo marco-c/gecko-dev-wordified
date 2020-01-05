@@ -424,7 +424,7 @@ jsval
 JSVal
 ;
 use
-layout_interface
+script_layout_interface
 :
 :
 TrustedNodeAddress

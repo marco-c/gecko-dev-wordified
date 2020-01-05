@@ -196,7 +196,10 @@ virtualmethods
 VirtualMethods
 ;
 use
-layout_interface
+script_layout_interface
+:
+:
+message
 :
 :
 Msg

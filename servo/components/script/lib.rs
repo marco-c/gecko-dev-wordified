@@ -397,6 +397,10 @@ rand
 ;
 extern
 crate
+range
+;
+extern
+crate
 ref_filter_map
 ;
 extern
@@ -410,6 +414,10 @@ regex
 extern
 crate
 rustc_serialize
+;
+extern
+crate
+script_layout_interface
 ;
 extern
 crate
@@ -527,7 +535,7 @@ dom
 ;
 pub
 mod
-layout_interface
+layout_wrapper
 ;
 mod
 mem
@@ -542,10 +550,6 @@ origin
 pub
 mod
 parse
-;
-pub
-mod
-reporter
 ;
 pub
 mod

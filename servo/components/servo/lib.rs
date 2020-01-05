@@ -307,6 +307,11 @@ script_traits
 pub
 extern
 crate
+script_layout_interface
+;
+pub
+extern
+crate
 style
 ;
 pub
@@ -1566,10 +1571,10 @@ Constellation
 :
 :
 <
-script
+script_layout_interface
 :
 :
-layout_interface
+message
 :
 :
 Msg
@@ -1790,10 +1795,10 @@ start_all
 :
 :
 <
-script
+script_layout_interface
 :
 :
-layout_interface
+message
 :
 :
 Msg
