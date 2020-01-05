@@ -407,7 +407,6 @@ flow_list
 :
 {
 FlowList
-FlowListIterator
 MutFlowListIterator
 }
 ;
@@ -3967,10 +3966,15 @@ Flow
 )
 -
 >
-FlowListIterator
+impl
+Iterator
 <
+Item
+=
+&
 '
 a
+Flow
 >
 {
 base
