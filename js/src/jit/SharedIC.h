@@ -7014,6 +7014,14 @@ return
 firstUpdateStub_
 ;
 }
+void
+resetUpdateStubChain
+(
+Zone
+*
+zone
+)
+;
 bool
 hasTypeUpdateStub
 (
