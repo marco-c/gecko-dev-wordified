@@ -3371,7 +3371,7 @@ GetEntry
 aBlock
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 entry
 "
@@ -3393,7 +3393,7 @@ mNextBlock
 aBlock
 )
 {
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 entry
 -
@@ -3409,7 +3409,7 @@ inconsistency
 "
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 mFirstBlock
 =
