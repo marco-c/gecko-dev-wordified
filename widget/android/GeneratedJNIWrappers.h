@@ -17013,6 +17013,7 @@ Args
 <
 int32_t
 int32_t
+int32_t
 >
 Args
 ;
@@ -17036,7 +17037,7 @@ signature
 =
 "
 (
-II
+III
 )
 V
 "
@@ -17737,6 +17738,13 @@ const
 -
 >
 void
+;
+static
+const
+int32_t
+FLAG_KEEP_CURRENT_COMPOSITION
+=
+1
 ;
 static
 const
