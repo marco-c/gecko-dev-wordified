@@ -380,7 +380,10 @@ Initialize
 PCompositorBridgeChild
 *
 aCBChild
-uint64_t
+wr
+:
+:
+PipelineId
 aLayersId
 TextureFactoryIdentifier
 *

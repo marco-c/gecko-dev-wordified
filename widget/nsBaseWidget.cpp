@@ -8619,6 +8619,8 @@ result
 )
 ;
 }
+else
+{
 WidgetWheelEvent
 *
 wheelEvent
@@ -8670,6 +8672,7 @@ MOZ_CRASH
 (
 )
 ;
+}
 }
 nsEventStatus
 status
@@ -9261,11 +9264,17 @@ AsWebRenderLayerManager
 Initialize
 (
 mCompositorBridgeChild
+wr
+:
+:
+AsPipelineId
+(
 mCompositorSession
 -
 >
 RootLayerTreeId
 (
+)
 )
 &
 textureFactoryIdentifier
