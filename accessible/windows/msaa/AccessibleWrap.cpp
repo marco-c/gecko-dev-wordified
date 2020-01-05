@@ -712,6 +712,10 @@ DocAccessibleWrap
 >
 (
 mDoc
+.
+get
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -731,6 +735,10 @@ RemoveID
 (
 mID
 )
+;
+mID
+=
+kNoID
 ;
 }
 }
