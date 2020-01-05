@@ -2253,10 +2253,6 @@ mPrincipalToInherit
 (
 aPrincipalToInherit
 )
-mSandboxedLoadingPrincipal
-(
-aSandboxedLoadingPrincipal
-)
 mSecurityFlags
 (
 aSecurityFlags
