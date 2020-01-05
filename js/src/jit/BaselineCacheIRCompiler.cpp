@@ -1482,6 +1482,7 @@ stubOffset
 /
 Read
 global
+wrapper
 .
 AutoScratchRegister
 scratch

@@ -3629,6 +3629,7 @@ stubOffset
 /
 Read
 global
+wrapper
 .
 JSCompartment
 *

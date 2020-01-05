@@ -3213,6 +3213,9 @@ guardCompartment
 (
 ObjOperandId
 obj
+JSObject
+*
+global
 JSCompartment
 *
 compartment
@@ -3247,12 +3250,7 @@ addStubField
 (
 uintptr_t
 (
-compartment
--
->
-maybeGlobal
-(
-)
+global
 )
 StubField
 :
