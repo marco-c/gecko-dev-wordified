@@ -1094,9 +1094,8 @@ event
 .
 current_target
 .
-set
+clear
 (
-None
 )
 ;
 !
