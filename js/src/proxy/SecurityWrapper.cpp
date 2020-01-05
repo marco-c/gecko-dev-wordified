@@ -133,24 +133,6 @@ using
 namespace
 js
 ;
-static
-void
-ReportUnwrapDenied
-(
-JSContext
-*
-cx
-)
-{
-JS_ReportErrorNumberASCII
-(
-cx
-GetErrorMessage
-nullptr
-JSMSG_UNWRAP_DENIED
-)
-;
-}
 template
 <
 class
@@ -183,7 +165,7 @@ bp
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -225,7 +207,7 @@ args
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -261,7 +243,7 @@ result
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -295,7 +277,7 @@ succeeded
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -478,7 +460,7 @@ const
 /
 This
 should
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -745,7 +727,7 @@ callable
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )
@@ -778,7 +760,7 @@ id
 )
 const
 {
-ReportUnwrapDenied
+ReportAccessDenied
 (
 cx
 )

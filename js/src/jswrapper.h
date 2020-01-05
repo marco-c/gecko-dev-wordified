@@ -2741,6 +2741,14 @@ stopAtWindowProxy
 true
 )
 ;
+void
+ReportAccessDenied
+(
+JSContext
+*
+cx
+)
+;
 JS_FRIEND_API
 (
 bool
