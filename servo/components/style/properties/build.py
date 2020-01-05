@@ -167,6 +167,11 @@ crate
 |
 html
 ]
+[
+testing
+|
+regular
+]
 "
 %
 sys
@@ -184,7 +189,7 @@ sys
 argv
 )
 <
-3
+4
 :
         
 abort
@@ -209,6 +214,20 @@ argv
 [
 2
 ]
+    
+testing
+=
+sys
+.
+argv
+[
+3
+]
+=
+=
+"
+testing
+"
     
 if
 product
@@ -255,6 +274,9 @@ PropertiesData
 product
 =
 product
+testing
+=
+testing
 )
     
 rust

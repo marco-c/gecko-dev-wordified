@@ -1906,7 +1906,7 @@ unit
         
 packages
 .
-remove
+discard
 (
 '
 stylo
