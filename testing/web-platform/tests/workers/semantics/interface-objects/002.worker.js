@@ -74,9 +74,6 @@ CanvasGradient
 CanvasPattern
 "
 "
-BeforeUnloadEvent
-"
-"
 PopStateEvent
 "
 "

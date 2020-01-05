@@ -1,6 +1,0 @@
-/
-/
-Service
-worker
-for
-/

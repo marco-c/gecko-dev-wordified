@@ -1,7 +1,0 @@
-/
-/
-Service
-worker
-for
-relevant
-/
