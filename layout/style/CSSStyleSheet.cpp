@@ -3079,7 +3079,6 @@ media
 >
 Matches
 (
-*
 aPresContext
 &
 aKey

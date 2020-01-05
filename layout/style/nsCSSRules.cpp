@@ -2569,7 +2569,6 @@ mMedia
 >
 Matches
 (
-*
 aPresContext
 &
 aKey

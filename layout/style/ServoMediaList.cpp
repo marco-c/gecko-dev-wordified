@@ -408,10 +408,8 @@ ServoMediaList
 Matches
 (
 nsPresContext
-&
-aPresContext
-nsMediaQueryResultCacheKey
 *
+aPresContext
 )
 const
 {
@@ -421,7 +419,8 @@ RawServoStyleSet
 rawSet
 =
 aPresContext
-.
+-
+>
 StyleSet
 (
 )

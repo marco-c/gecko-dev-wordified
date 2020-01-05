@@ -1010,9 +1010,7 @@ mMediaList
 >
 Matches
 (
-*
 presContext
-nullptr
 )
 ;
 mMatchesValid

@@ -366,7 +366,6 @@ mMediaList
 >
 Matches
 (
-*
 pctx
 )
 ;
@@ -469,9 +468,7 @@ mediaList
 >
 Matches
 (
-*
 pctx
-nullptr
 )
 ;
 }
