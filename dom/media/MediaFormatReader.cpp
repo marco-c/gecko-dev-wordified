@@ -2786,7 +2786,6 @@ aTrack
 uint32_t
 aTrackNumber
 )
-const
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2849,7 +2848,6 @@ GetNumberTracks
 TrackType
 aTrack
 )
-const
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2902,7 +2900,6 @@ bool
 IsSeekable
 (
 )
-const
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2926,7 +2923,6 @@ bool
 IsSeekableOnlyInBufferedRanges
 (
 )
-const
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2953,7 +2949,6 @@ EncryptionInfo
 GetCrypto
 (
 )
-const
 {
 MOZ_RELEASE_ASSERT
 (
