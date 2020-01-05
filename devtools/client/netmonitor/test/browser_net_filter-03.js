@@ -616,7 +616,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 size
 -
@@ -677,7 +677,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 filter
 -
@@ -886,7 +886,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -914,7 +914,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 size
 -

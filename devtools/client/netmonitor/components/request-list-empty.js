@@ -232,7 +232,7 @@ id
 "
 requests
 -
-list
+menu
 -
 empty
 -
@@ -285,7 +285,7 @@ id
 "
 requests
 -
-list
+menu
 -
 reload
 -
@@ -376,7 +376,7 @@ id
 "
 requests
 -
-list
+menu
 -
 perf
 -

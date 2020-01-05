@@ -548,7 +548,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 status
 -
@@ -608,7 +608,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 status
 -
@@ -673,7 +673,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 status
 -
@@ -733,7 +733,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 method
 -
@@ -793,7 +793,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 method
 -
@@ -858,7 +858,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 method
 -
@@ -918,7 +918,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 file
 -
@@ -978,7 +978,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 file
 -
@@ -1043,7 +1043,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 file
 -
@@ -1103,7 +1103,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 type
 -
@@ -1163,7 +1163,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 type
 -
@@ -1228,7 +1228,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 type
 -
@@ -1288,7 +1288,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 transferred
 -
@@ -1348,7 +1348,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 transferred
 -
@@ -1413,7 +1413,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 transferred
 -
@@ -1473,7 +1473,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 size
 -
@@ -1533,7 +1533,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 size
 -
@@ -1598,7 +1598,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 size
 -
@@ -1658,7 +1658,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -1718,7 +1718,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -1783,7 +1783,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 waterfall
 -
@@ -1892,7 +1892,7 @@ querySelector
 #
 requests
 -
-list
+menu
 -
 "
 +
@@ -1915,7 +1915,7 @@ querySelectorAll
 .
 requests
 -
-list
+menu
 -
 header
 -
