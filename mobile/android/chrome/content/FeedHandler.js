@@ -601,11 +601,9 @@ href
 .
 show
 (
-(
-function
-(
 data
-)
+=
+>
 {
 feedIndex
 =
@@ -635,12 +633,6 @@ browser
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 return

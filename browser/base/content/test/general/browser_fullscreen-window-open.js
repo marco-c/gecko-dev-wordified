@@ -1721,9 +1721,10 @@ isOSX
 {
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 domwindow
 .
@@ -1739,11 +1740,6 @@ callBack_onFinalize
 )
 ;
 }
-.
-bind
-(
-this
-)
 3000
 )
 ;

@@ -1688,11 +1688,9 @@ launcherPath
 .
 then
 (
-function
-DLT_I_onDownload
-(
 aDownload
-)
+=
+>
 {
 /
 /
@@ -1815,11 +1813,6 @@ aDownload
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 .
 then

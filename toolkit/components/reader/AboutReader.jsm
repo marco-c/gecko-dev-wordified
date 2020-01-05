@@ -5615,9 +5615,10 @@ _win
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 /
 /
@@ -5728,11 +5729,6 @@ block
 "
 ;
 }
-.
-bind
-(
-this
-)
 300
 )
 ;

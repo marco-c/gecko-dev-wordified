@@ -5633,9 +5633,10 @@ aBody
 {
 do_execute_soon
 (
-function
 (
 )
+=
+>
 {
 try
 {
@@ -5812,11 +5813,6 @@ ex
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

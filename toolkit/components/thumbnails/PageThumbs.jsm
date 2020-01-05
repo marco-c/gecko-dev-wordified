@@ -5774,10 +5774,10 @@ length
 let
 expire
 =
-function
-expire
 (
 )
+=
+>
 {
 this
 .
@@ -5787,11 +5787,6 @@ urls
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 /
 /

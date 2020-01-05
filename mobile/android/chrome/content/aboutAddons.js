@@ -1220,9 +1220,10 @@ addEventListener
 "
 click
 "
-function
 (
 )
+=
+>
 {
 this
 .
@@ -1248,11 +1249,6 @@ title
 )
 ;
 }
-.
-bind
-(
-this
-)
 true
 )
 ;

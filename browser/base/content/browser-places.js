@@ -1616,12 +1616,12 @@ editBookmarkOverlay
 xul
 "
 (
-function
-(
 aSubject
 aTopic
 aData
 )
+=
+>
 {
 /
 /
@@ -1716,12 +1716,6 @@ aPosition
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

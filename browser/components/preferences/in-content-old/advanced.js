@@ -293,9 +293,10 @@ MOZ_UPDATER
 let
 onUnload
 =
-function
 (
 )
+=
+>
 {
 window
 .
@@ -323,11 +324,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 window
 .

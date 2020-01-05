@@ -914,9 +914,10 @@ started
 =
 (
 async
-function
 (
 )
+=
+>
 {
 /
 /
@@ -1077,11 +1078,6 @@ manifestObjs
 }
 ;
 }
-)
-.
-bind
-(
-this
 )
 (
 )

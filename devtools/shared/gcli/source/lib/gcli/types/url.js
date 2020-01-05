@@ -325,10 +325,9 @@ https
 .
 forEach
 (
-function
-(
 scheme
-)
+=
+>
 {
 try
 {
@@ -379,11 +378,6 @@ ex
 Ignore
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 /

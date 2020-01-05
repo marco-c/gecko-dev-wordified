@@ -959,9 +959,10 @@ initWithCallback
 {
 notify
 :
-function
 (
 )
+=
+>
 {
 let
 isConfigured
@@ -1135,11 +1136,6 @@ ensureLoaded
 ;
 }
 }
-.
-bind
-(
-this
-)
 }
 10000
 Ci

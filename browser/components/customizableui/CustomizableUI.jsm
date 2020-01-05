@@ -31521,9 +31521,10 @@ show
 .
 then
 (
-function
 (
 )
+=
+>
 {
 let
 window
@@ -31596,11 +31597,6 @@ OVERFLOW_PANEL_HIDE_DELAY_MS
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

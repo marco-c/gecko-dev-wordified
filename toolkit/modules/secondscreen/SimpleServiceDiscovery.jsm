@@ -2637,9 +2637,9 @@ addEventListener
 load
 "
 (
-function
-(
 )
+=
+>
 {
 if
 (
@@ -2770,12 +2770,6 @@ aService
 ;
 }
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 xhr

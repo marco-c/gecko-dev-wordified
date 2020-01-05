@@ -2150,11 +2150,11 @@ options
 onLoad
 :
 (
-function
-(
 responseText
 xhr
 )
+=
+>
 {
 deferred
 .
@@ -2164,12 +2164,6 @@ this
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 onError
 (
 e

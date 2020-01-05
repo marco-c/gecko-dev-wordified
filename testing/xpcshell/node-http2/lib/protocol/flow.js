@@ -1002,9 +1002,10 @@ this
 _receive
 (
 frame
-function
 (
 )
+=
+>
 {
 this
 .
@@ -1047,11 +1048,6 @@ callback
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

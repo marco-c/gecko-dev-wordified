@@ -10618,9 +10618,10 @@ _delayedInitTask
 =
 (
 async
-function
 (
 )
+=
+>
 {
 try
 {
@@ -10892,11 +10893,6 @@ e
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 (
 )
@@ -14232,9 +14228,10 @@ false
 return
 (
 async
-function
 (
 )
+=
+>
 {
 await
 this
@@ -14261,11 +14258,6 @@ reset
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 (
 )

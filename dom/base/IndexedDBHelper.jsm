@@ -981,9 +981,10 @@ this
 .
 ensureDB
 (
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1262,11 +1263,6 @@ stores
 )
 ;
 }
-.
-bind
-(
-this
-)
 failureCb
 )
 ;

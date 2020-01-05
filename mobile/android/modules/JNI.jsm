@@ -7046,11 +7046,12 @@ vals
 .
 forEach
 (
-function
 (
 v
 i
 )
+=
+>
 {
 this
 .
@@ -7063,11 +7064,6 @@ v
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

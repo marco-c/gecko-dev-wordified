@@ -386,10 +386,9 @@ debuggerServerFlag
 let
 onStartup
 =
-function
-(
 window
-)
+=
+>
 {
 Services
 .
@@ -439,11 +438,6 @@ window
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 Services
 .

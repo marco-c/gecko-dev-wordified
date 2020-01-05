@@ -1073,12 +1073,9 @@ search
 .
 init
 (
-(
-function
-startSearch_cb
-(
 aResult
-)
+=
+>
 {
 if
 (
@@ -1123,12 +1120,6 @@ privacyMode
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

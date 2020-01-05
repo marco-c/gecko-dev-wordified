@@ -8489,11 +8489,9 @@ return
 let
 ensureUserExists
 =
-function
-ensureUserExists
-(
 username
-)
+=
+>
 {
 if
 (
@@ -8529,11 +8527,6 @@ throw
 HTTP_401
 ;
 }
-.
-bind
-(
-this
-)
 ;
 let
 auth

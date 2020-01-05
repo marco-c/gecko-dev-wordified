@@ -720,9 +720,10 @@ timeout
 =
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -739,11 +740,6 @@ aBrowser
 )
 ;
 }
-.
-bind
-(
-this
-)
 this
 .
 _captureDelayMS

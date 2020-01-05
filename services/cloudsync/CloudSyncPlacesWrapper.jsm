@@ -1179,10 +1179,9 @@ guid
 .
 then
 (
-function
-(
 items
-)
+=
+>
 {
 let
 previousIds
@@ -1362,11 +1361,6 @@ missingId
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 return

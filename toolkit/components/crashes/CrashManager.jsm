@@ -5057,9 +5057,10 @@ process
 let
 timerCB
 =
-function
 (
 )
+=
+>
 {
 if
 (
@@ -5137,11 +5138,6 @@ _storeTimer
 null
 ;
 }
-.
-bind
-(
-this
-)
 ;
 this
 .

@@ -2134,10 +2134,9 @@ Add
 aWindow
 .
 private
-function
-(
 win
-)
+=
+>
 {
 Logger
 .
@@ -2157,11 +2156,6 @@ FinishAsyncOperation
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 break

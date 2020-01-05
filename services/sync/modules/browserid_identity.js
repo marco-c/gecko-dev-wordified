@@ -6065,9 +6065,10 @@ _findCluster
 let
 endPointFromIdentityToken
 =
-function
 (
 )
+=
+>
 {
 /
 /
@@ -6317,11 +6318,6 @@ return
 endpoint
 ;
 }
-.
-bind
-(
-this
-)
 ;
 /
 /
@@ -6341,9 +6337,10 @@ token
 let
 promiseClusterURL
 =
-function
 (
 )
+=
+>
 {
 return
 this
@@ -6477,11 +6474,6 @@ endPointFromIdentityToken
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 let
 cb

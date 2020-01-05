@@ -4129,10 +4129,9 @@ __linksURLModified
 let
 validityFilter
 =
-function
-(
 link
-)
+=
+>
 {
 /
 /
@@ -4202,11 +4201,6 @@ checkBase
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 rawLinks
 .

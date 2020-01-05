@@ -2434,9 +2434,10 @@ ret
 "
 obj
 "
-function
 (
 )
+=
+>
 {
 try
 {
@@ -2530,11 +2531,6 @@ ex
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 this

@@ -181,12 +181,9 @@ keys
 .
 forEach
 (
-(
-function
-cleaner
-(
 k
-)
+=
+>
 {
 try
 {
@@ -240,12 +237,6 @@ k
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
 )
 ;
 }

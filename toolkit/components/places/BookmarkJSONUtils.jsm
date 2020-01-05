@@ -2019,10 +2019,10 @@ nodes
 children
 runBatched
 :
-function
-runBatched
 (
 )
+=
+>
 {
 if
 (
@@ -2620,11 +2620,6 @@ resolve
 )
 ;
 }
-.
-bind
-(
-this
-)
 }
 ;
 PlacesUtils
