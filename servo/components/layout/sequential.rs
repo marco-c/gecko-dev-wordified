@@ -278,6 +278,13 @@ layout_context
 :
 &
 layout_context
+root
+:
+root
+.
+opaque
+(
+)
 }
 ;
 let
@@ -289,6 +296,13 @@ layout_context
 :
 &
 layout_context
+root
+:
+root
+.
+opaque
+(
+)
 }
 ;
 doit
