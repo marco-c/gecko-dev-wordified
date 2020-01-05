@@ -100,15 +100,12 @@ tag
 pub
 struct
 DocumentType
-<
-View
->
 {
 node
 :
 Node
 <
-View
+ScriptView
 >
 name
 :
@@ -134,9 +131,6 @@ bool
 }
 impl
 DocumentType
-<
-ScriptView
->
 {
 /
 /
@@ -179,9 +173,6 @@ AbstractDocument
 -
 >
 DocumentType
-<
-ScriptView
->
 {
 DocumentType
 {

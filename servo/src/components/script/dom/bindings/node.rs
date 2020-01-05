@@ -978,9 +978,6 @@ generate_element
 !
 (
 DocumentType
-<
-ScriptView
->
 )
 DocumentFragmentNodeTypeId
 =
