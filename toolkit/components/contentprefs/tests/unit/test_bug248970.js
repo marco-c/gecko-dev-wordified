@@ -61,21 +61,6 @@ run_test
 (
 )
 {
-let
-loadContext
-=
-{
-get
-usePrivateBrowsing
-(
-)
-{
-return
-gInPrivateBrowsing
-;
-}
-}
-;
 ContentPrefTest
 .
 deleteDatabase
@@ -223,6 +208,7 @@ browsing
 mode
 enterPBMode
 (
+cp
 )
 ;
 /
@@ -326,6 +312,7 @@ browsing
 mode
 exitPBMode
 (
+cp
 )
 ;
 /

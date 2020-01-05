@@ -763,11 +763,7 @@ foo
 let
 context
 =
-{
-usePrivateBrowsing
-:
-true
-}
+privateLoadContext
 ;
 yield
 set
@@ -1780,11 +1776,7 @@ value
 let
 context
 =
-{
-usePrivateBrowsing
-:
-true
-}
+privateLoadContext
 ;
 yield
 set
