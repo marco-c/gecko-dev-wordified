@@ -364,7 +364,7 @@ locale
 "
 Ci
 .
-nsILocaleService
+mozILocaleService
 )
 ;
 checkService
