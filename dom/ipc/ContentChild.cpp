@@ -2838,6 +2838,11 @@ aInitialData
 ;
 InitGraphicsDeviceData
 (
+aXPCOMInit
+.
+contentDeviceData
+(
+)
 )
 ;
 return
@@ -5179,6 +5184,10 @@ ContentChild
 :
 InitGraphicsDeviceData
 (
+const
+ContentDeviceData
+&
+aData
 )
 {
 /
@@ -5204,8 +5213,9 @@ preferences
 gfxPlatform
 :
 :
-GetPlatform
+InitChild
 (
+aData
 )
 ;
 }
