@@ -167,6 +167,7 @@ DriveMapping
 {
 public
 :
+explicit
 DriveMapping
 (
 const
