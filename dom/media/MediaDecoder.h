@@ -384,9 +384,6 @@ public
 struct
 SeekResolveValue
 {
-bool
-mAtEnd
-;
 }
 ;
 /

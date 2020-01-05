@@ -284,8 +284,6 @@ SeekJob
 :
 Resolve
 (
-bool
-aAtEnd
 const
 char
 *
@@ -297,12 +295,6 @@ MediaDecoder
 :
 SeekResolveValue
 val
-;
-val
-.
-mAtEnd
-=
-aAtEnd
 ;
 mPromise
 .
