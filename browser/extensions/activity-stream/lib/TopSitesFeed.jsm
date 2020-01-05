@@ -59,7 +59,7 @@ MPL
 /
 *
 globals
-PlacesProvider
+NewTabUtils
 PreviewProvider
 *
 /
@@ -119,10 +119,11 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
-PlacesProvider
+NewTabUtils
 .
 jsm
 "
@@ -370,11 +371,11 @@ let
 links
 =
 await
-PlacesProvider
+NewTabUtils
 .
-links
+activityStreamLinks
 .
-getLinks
+getTopSites
 (
 )
 ;
