@@ -4165,9 +4165,6 @@ false
 ReturnStatus
 status
 ;
-JSVariant
-result
-;
 if
 (
 !
