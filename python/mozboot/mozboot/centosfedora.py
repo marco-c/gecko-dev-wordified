@@ -163,6 +163,14 @@ devel
 '
             
 '
+dbus
+-
+glib
+-
+devel
+'
+            
+'
 GConf2
 -
 devel
@@ -309,14 +317,6 @@ browser_packages
 +
 =
 [
-                
-'
-dbus
--
-glib
--
-devel
-'
                 
 '
 gtk3
