@@ -768,14 +768,6 @@ johndoe
 server
 )
 ;
-Service
-.
-serverURL
-=
-server
-.
-baseURI
-;
 await
 sync_and_validate_telem
 (
