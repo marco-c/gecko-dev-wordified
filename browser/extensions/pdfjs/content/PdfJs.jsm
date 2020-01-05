@@ -1131,7 +1131,7 @@ enabled
 {
 this
 .
-_ensureRegistered
+ensureRegistered
 (
 )
 ;
@@ -1140,7 +1140,7 @@ else
 {
 this
 .
-_ensureUnregistered
+ensureUnregistered
 (
 )
 ;
@@ -1219,7 +1219,7 @@ false
 }
 this
 .
-_ensureUnregistered
+ensureUnregistered
 (
 )
 ;
@@ -2024,10 +2024,10 @@ return
 enabledPluginFound
 ;
 }
-_ensureRegistered
+ensureRegistered
 :
 function
-_ensureRegistered
+ensureRegistered
 (
 )
 {
@@ -2085,10 +2085,10 @@ _registered
 true
 ;
 }
-_ensureUnregistered
+ensureUnregistered
 :
 function
-_ensureUnregistered
+ensureUnregistered
 (
 )
 {
