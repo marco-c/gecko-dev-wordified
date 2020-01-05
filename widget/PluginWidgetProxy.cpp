@@ -473,7 +473,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PluginWidgetProxy
 :
 :
@@ -532,9 +532,6 @@ this
 mParent
 =
 aNewParent
-;
-return
-NS_OK
 ;
 }
 nsIWidget

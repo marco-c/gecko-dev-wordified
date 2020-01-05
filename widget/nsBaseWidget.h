@@ -833,7 +833,8 @@ Destroy
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetParent
 (
 nsIWidget
@@ -841,6 +842,8 @@ nsIWidget
 aNewParent
 )
 override
+{
+}
 ;
 virtual
 nsIWidget

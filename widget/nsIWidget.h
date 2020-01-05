@@ -2850,7 +2850,8 @@ new
 parent
 *
 /
-NS_IMETHOD
+virtual
+void
 SetParent
 (
 nsIWidget

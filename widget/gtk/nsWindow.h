@@ -647,7 +647,7 @@ DesktopToLayoutDeviceScale
 ;
 }
 virtual
-nsresult
+void
 SetParent
 (
 nsIWidget

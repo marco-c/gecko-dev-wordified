@@ -9339,7 +9339,7 @@ RequestRepaint
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -9362,7 +9362,6 @@ mParent
 aNewParent
 )
 return
-NS_OK
 ;
 /
 /
@@ -9451,9 +9450,6 @@ TopWindow
 RedrawAll
 (
 )
-;
-return
-NS_OK
 ;
 }
 nsIWidget

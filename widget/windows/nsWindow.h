@@ -624,7 +624,8 @@ Destroy
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetParent
 (
 nsIWidget
