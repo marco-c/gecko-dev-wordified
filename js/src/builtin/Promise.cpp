@@ -1041,6 +1041,7 @@ void
 setHandlerArg
 (
 Value
+&
 arg
 )
 {
@@ -2711,6 +2712,10 @@ reaction
 setHandlerArg
 (
 handlerArg
+.
+get
+(
+)
 )
 ;
 RootedValue
