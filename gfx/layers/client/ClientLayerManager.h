@@ -680,6 +680,11 @@ TextureFactoryIdentifier
 aNewIdentifier
 )
 ;
+void
+UpdateContentDeviceToSyncObject
+(
+)
+;
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
