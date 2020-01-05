@@ -12655,6 +12655,14 @@ thread
 "
 )
 ;
+if
+(
+mClosed
+)
+{
+return
+;
+}
 /
 /
 Update
