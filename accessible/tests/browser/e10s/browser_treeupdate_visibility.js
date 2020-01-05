@@ -97,8 +97,8 @@ MOCHITESTS_DIR
 }
 )
 ;
+async
 function
-*
 testTreeOnHide
 (
 browser
@@ -133,7 +133,7 @@ EVENT_REORDER
 containerID
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -146,7 +146,7 @@ hidden
 '
 )
 ;
-yield
+await
 onReorder
 ;
 testAccessibleTree
@@ -156,8 +156,8 @@ after
 )
 ;
 }
+async
 function
-*
 test3
 (
 browser
@@ -242,7 +242,7 @@ t3_container
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -316,7 +316,7 @@ hidden
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -368,8 +368,8 @@ tree
 )
 ;
 }
+async
 function
-*
 test4
 (
 browser
@@ -421,7 +421,7 @@ t4_parent
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -478,7 +478,7 @@ visible
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -534,8 +534,8 @@ doc_treeupdate_visibility
 .
 html
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -563,7 +563,7 @@ t4_container
 '
 )
 ;
-yield
+await
 testTreeOnHide
 (
 browser
@@ -618,7 +618,7 @@ TEXT_LEAF
 }
 )
 ;
-yield
+await
 testTreeOnHide
 (
 browser
@@ -725,21 +725,21 @@ TEXT_LEAF
 }
 )
 ;
-yield
+await
 test3
 (
 browser
 t3Container
 )
 ;
-yield
+await
 test4
 (
 browser
 t4Container
 )
 ;
-yield
+await
 testTreeOnHide
 (
 browser
@@ -827,7 +827,7 @@ TEXT_LEAF
 }
 )
 ;
-yield
+await
 testTreeOnHide
 (
 browser

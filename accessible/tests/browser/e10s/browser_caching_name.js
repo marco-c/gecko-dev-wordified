@@ -2769,8 +2769,8 @@ id
 .
 *
 /
+async
 function
-*
 updateAccessibleIfNeeded
 (
 onEvent
@@ -2780,7 +2780,7 @@ target
 let
 event
 =
-yield
+await
 onEvent
 ;
 if
@@ -2935,8 +2935,8 @@ name
 value
 *
 /
+async
 function
-*
 testAttrRule
 (
 browser
@@ -2993,7 +2993,7 @@ id
 )
 ;
 }
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -3010,7 +3010,7 @@ if
 onEvent
 )
 {
-yield
+await
 updateAccessibleIfNeeded
 (
 onEvent
@@ -3141,8 +3141,8 @@ name
 value
 *
 /
+async
 function
-*
 testElmRule
 (
 browser
@@ -3178,7 +3178,7 @@ target
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -3206,7 +3206,7 @@ remove
 )
 )
 ;
-yield
+await
 updateAccessibleIfNeeded
 (
 onEvent
@@ -3327,8 +3327,8 @@ name
 value
 *
 /
+async
 function
-*
 testSubtreeRule
 (
 browser
@@ -3356,7 +3356,7 @@ target
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -3400,7 +3400,7 @@ remove
 }
 )
 ;
-yield
+await
 updateAccessibleIfNeeded
 (
 onEvent
@@ -3499,8 +3499,8 @@ each
 rule
 *
 /
+async
 function
-*
 testNameRule
 (
 browser
@@ -3576,7 +3576,7 @@ testFn
 testSubtreeRule
 ;
 }
-yield
+await
 testFn
 (
 browser
@@ -3607,8 +3607,8 @@ expected
 addAccessibleTask
 (
 markup
+async
 function
-*
 (
 browser
 accDoc
@@ -3666,7 +3666,7 @@ parent
 acc
 }
 ;
-yield
+await
 testNameRule
 (
 browser

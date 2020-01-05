@@ -175,8 +175,8 @@ id
 )
 ;
 }
+async
 function
-*
 changeText
 (
 browser
@@ -229,7 +229,7 @@ in
 the
 subtree
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -269,7 +269,7 @@ contentValue
 let
 resolvedEvents
 =
-yield
+await
 onEvents
 ;
 events
@@ -306,8 +306,8 @@ false
 )
 ;
 }
+async
 function
-*
 removeTextFromInput
 (
 browser
@@ -334,7 +334,7 @@ and
 delete
 it
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -384,7 +384,7 @@ contentEnd
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 sendChar
@@ -398,7 +398,7 @@ browser
 let
 event
 =
-yield
+await
 onTextRemoved
 ;
 checkTextChangeEvent
@@ -471,8 +471,8 @@ input
 "
 /
 >
+async
 function
-*
 (
 browser
 )
@@ -509,7 +509,7 @@ offset
 }
 ]
 ;
-yield
+await
 changeText
 (
 browser
@@ -540,7 +540,7 @@ offset
 }
 ]
 ;
-yield
+await
 changeText
 (
 browser
@@ -559,7 +559,7 @@ Test
 isFromUserInput
 property
 .
-yield
+await
 removeTextFromInput
 (
 browser

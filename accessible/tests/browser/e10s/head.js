@@ -193,8 +193,7 @@ param
 {
 Function
 |
-Function
-*
+AsyncFunction
 }
 task
 a
@@ -218,8 +217,8 @@ task
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -392,7 +391,7 @@ body
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -403,8 +402,8 @@ url
 :
 url
 }
+async
 function
-*
 (
 browser
 )
@@ -459,7 +458,7 @@ tab
 }
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -529,10 +528,10 @@ isRemoteBrowser
 let
 event
 =
-yield
+await
 onDocLoad
 ;
-yield
+await
 task
 (
 browser

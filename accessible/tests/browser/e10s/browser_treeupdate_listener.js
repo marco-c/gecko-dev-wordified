@@ -125,8 +125,8 @@ span
 span
 >
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -194,7 +194,7 @@ listener
 to
 parent
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -246,7 +246,7 @@ dummyListener
 }
 )
 ;
-yield
+await
 onReorder
 ;
 let

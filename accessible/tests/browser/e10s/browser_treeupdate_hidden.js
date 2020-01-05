@@ -97,8 +97,8 @@ MOCHITESTS_DIR
 }
 )
 ;
+async
 function
-*
 setHidden
 (
 browser
@@ -116,7 +116,7 @@ container
 '
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -129,7 +129,7 @@ hidden
 value
 )
 ;
-yield
+await
 onReorder
 ;
 }
@@ -157,8 +157,8 @@ child
 div
 >
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -197,7 +197,7 @@ ENTRY
 Set
 hidden
 attribute
-yield
+await
 setHidden
 (
 browser
@@ -222,7 +222,7 @@ SECTION
 Remove
 hidden
 attribute
-yield
+await
 setHidden
 (
 browser

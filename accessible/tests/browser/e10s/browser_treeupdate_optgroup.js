@@ -113,8 +113,8 @@ select
 select
 >
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -153,7 +153,7 @@ and
 2
 standalone
 options
-yield
+await
 ContentTask
 .
 spawn
@@ -314,7 +314,7 @@ option1Node
 let
 event
 =
-yield
+await
 onEvent
 ;
 let
@@ -428,7 +428,7 @@ Remove
 grouping
 from
 combobox
-yield
+await
 ContentTask
 .
 spawn
@@ -466,7 +466,7 @@ remove
 }
 )
 ;
-yield
+await
 onEvent
 ;
 tree
@@ -539,7 +539,7 @@ all
 options
 from
 combobox
-yield
+await
 ContentTask
 .
 spawn
@@ -584,7 +584,7 @@ remove
 }
 )
 ;
-yield
+await
 onEvent
 ;
 tree

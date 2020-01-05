@@ -104,8 +104,8 @@ doc_treeupdate_whitespace
 .
 html
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -198,7 +198,7 @@ Remove
 img1
 from
 container1
-yield
+await
 ContentTask
 .
 spawn
@@ -242,7 +242,7 @@ img1
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -333,7 +333,7 @@ valid
 src
 to
 container2
-yield
+await
 ContentTask
 .
 spawn
@@ -412,7 +412,7 @@ img
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree

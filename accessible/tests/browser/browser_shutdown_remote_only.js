@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,12 +82,12 @@ Windows
 for
 testing
 .
-yield
+await
 setE10sPrefs
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -143,8 +143,8 @@ body
 html
 >
 }
+async
 function
-*
 (
 browser
 )
@@ -210,7 +210,7 @@ nsIAccessibilityService
 ;
 )
 ;
-yield
+await
 a11yInit
 ;
 info
@@ -270,7 +270,7 @@ forceGC
 ;
 )
 ;
-yield
+await
 a11yShutdown
 ;
 /
@@ -280,7 +280,7 @@ e10s
 related
 preferences
 .
-yield
+await
 unsetE10sPrefs
 (
 )

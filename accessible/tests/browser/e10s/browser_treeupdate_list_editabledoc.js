@@ -113,8 +113,8 @@ list
 ol
 >
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -145,7 +145,7 @@ children
 }
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -171,7 +171,7 @@ list
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -225,7 +225,7 @@ li
 }
 )
 ;
-yield
+await
 onReorder
 ;
 testAccessibleTree

@@ -165,8 +165,8 @@ div
 /
 div
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -283,7 +283,7 @@ generated
 content
 to
 container1
-yield
+await
 ContentTask
 .
 spawn
@@ -345,7 +345,7 @@ node
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -428,7 +428,7 @@ container2
 '
 s
 subtree
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -443,7 +443,7 @@ gentext
 '
 )
 ;
-yield
+await
 onReorder
 ;
 tree

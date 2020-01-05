@@ -94,8 +94,8 @@ hidden
 div
 >
 '
+async
 function
-*
 (
 browser
 )
@@ -111,7 +111,7 @@ div
 '
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -126,7 +126,7 @@ visible
 '
 )
 ;
-yield
+await
 onShow
 ;
 }

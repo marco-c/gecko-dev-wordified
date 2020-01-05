@@ -175,8 +175,8 @@ RELATION_FLOWS_FROM
 ]
 ]
 ;
+async
 function
-*
 testRelated
 (
 browser
@@ -410,7 +410,7 @@ of
 attrs
 )
 {
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -514,8 +514,8 @@ host
 /
 div
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -529,7 +529,7 @@ of
 attrRelationsSpec
 )
 {
-yield
+await
 testRelated
 (
 browser

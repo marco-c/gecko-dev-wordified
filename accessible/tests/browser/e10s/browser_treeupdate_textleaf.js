@@ -97,8 +97,8 @@ MOCHITESTS_DIR
 }
 )
 ;
+async
 function
-*
 removeTextData
 (
 browser
@@ -145,7 +145,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -175,7 +175,7 @@ textContent
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -225,8 +225,8 @@ text
 /
 pre
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -254,7 +254,7 @@ pre
 '
 )
 ;
-yield
+await
 removeTextData
 (
 browser
@@ -265,7 +265,7 @@ p
 ROLE_PARAGRAPH
 )
 ;
-yield
+await
 removeTextData
 (
 browser

@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,7 +82,7 @@ Windows
 for
 testing
 .
-yield
+await
 setE10sPrefs
 (
 )
@@ -126,10 +126,10 @@ initialized
 '
 )
 ;
-yield
+await
 a11yInit
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -205,8 +205,8 @@ body
 html
 >
 }
+async
 function
-*
 (
 browser
 )
@@ -226,7 +226,7 @@ div
 '
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -244,7 +244,7 @@ visible
 let
 showEvent
 =
-yield
+await
 onShow
 ;
 let
@@ -382,7 +382,7 @@ a11y
 service
 references
 .
-yield
+await
 new
 Promise
 (
@@ -450,7 +450,7 @@ forceGC
 (
 )
 ;
-yield
+await
 a11yShutdown
 ;
 }
@@ -463,7 +463,7 @@ e10s
 related
 preferences
 .
-yield
+await
 unsetE10sPrefs
 (
 )

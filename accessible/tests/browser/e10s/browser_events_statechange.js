@@ -335,8 +335,8 @@ checkbox
 "
 /
 >
+async
 function
-*
 (
 browser
 )
@@ -365,7 +365,7 @@ for
 a
 checkbox
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -399,7 +399,7 @@ true
 let
 event
 =
-yield
+await
 onStateChange
 ;
 checkStateChangeEvent
@@ -441,7 +441,7 @@ design
 mode
 on
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -478,7 +478,7 @@ on
 ;
 event
 =
-yield
+await
 onStateChange
 ;
 checkStateChangeEvent

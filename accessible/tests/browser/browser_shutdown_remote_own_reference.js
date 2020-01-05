@@ -63,8 +63,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,12 +82,12 @@ Windows
 for
 testing
 .
-yield
+await
 setE10sPrefs
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -143,8 +143,8 @@ body
 html
 >
 }
+async
 function
-*
 (
 browser
 )
@@ -246,7 +246,7 @@ parent
 '
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -541,7 +541,7 @@ forceGC
 ;
 )
 ;
-yield
+await
 parentA11yShutdown
 ;
 /
@@ -555,7 +555,7 @@ a11y
 service
 shutdowns
 .
-yield
+await
 new
 Promise
 (
@@ -632,7 +632,7 @@ forceGC
 ;
 )
 ;
-yield
+await
 contentA11yShutdown
 ;
 /
@@ -642,7 +642,7 @@ e10s
 related
 preferences
 .
-yield
+await
 unsetE10sPrefs
 (
 )

@@ -104,8 +104,8 @@ doc_treeupdate_removal
 .
 xhtml
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -151,7 +151,7 @@ body
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -189,7 +189,7 @@ the_table
 )
 )
 ;
-yield
+await
 onReorder
 ;
 ok
@@ -261,7 +261,7 @@ event
 needed
 )
 .
-yield
+await
 ContentTask
 .
 spawn
