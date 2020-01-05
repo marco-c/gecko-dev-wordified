@@ -3580,7 +3580,7 @@ aScriptLoading
 DEFAULT_LOAD_SCRIPTS
 )
 ;
-bool
+void
 InitRenderingState
 (
 const
