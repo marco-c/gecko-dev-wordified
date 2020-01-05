@@ -938,14 +938,6 @@ Mode
 :
 :
 Track
-|
-nsStyleImageRequest
-:
-:
-Mode
-:
-:
-Lock
 )
 {
 SetImageRequest
