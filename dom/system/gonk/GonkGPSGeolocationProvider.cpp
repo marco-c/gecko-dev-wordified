@@ -2981,12 +2981,8 @@ mInitThread
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-Gonk
-GPS
-"
 getter_AddRefs
 (
 mInitThread

@@ -776,15 +776,6 @@ void
 arg
 )
 {
-AutoProfilerRegister
-registerThread
-(
-"
-Event
-Tracer
-"
-)
-;
 PR_SetCurrentThreadName
 (
 "

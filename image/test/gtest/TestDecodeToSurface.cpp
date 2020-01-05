@@ -407,11 +407,8 @@ thread
 nsresult
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-DecodeToSurface
-"
 getter_AddRefs
 (
 thread

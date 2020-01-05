@@ -1040,11 +1040,8 @@ rv
 ;
 rv
 =
-NS_NewNamedThread
+NS_NewThread
 (
-"
-BgFileSaver
-"
 getter_AddRefs
 (
 mWorkerThread
