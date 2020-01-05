@@ -495,12 +495,13 @@ about
 .
 *
 |
+resource
+:
+.
+*
+|
 chrome
 :
-/
-/
-weave
-/
 .
 *
 |
