@@ -2216,10 +2216,42 @@ testing
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+faster
+'
+default
+=
+False
+action
+=
+"
+store_true
+"
+                     
+help
+=
+"
+Only
+check
+changed
+files
+and
+skip
+the
+WPT
+lint
+"
+)
+    
 def
 test_tidy
 (
 self
+faster
 )
 :
         
@@ -2228,6 +2260,7 @@ tidy
 .
 scan
 (
+faster
 )
     
 Command
