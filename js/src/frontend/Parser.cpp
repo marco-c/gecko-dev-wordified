@@ -2898,6 +2898,8 @@ bool
 extraWarnings
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 )
 :
 ObjectBox
@@ -2960,6 +2962,13 @@ generatorKindBits_
 GeneratorKindAsBits
 (
 generatorKind
+)
+)
+asyncKindBits_
+(
+AsyncKindAsBits
+(
+asyncKind
 )
 )
 isGenexpLambda
@@ -4402,6 +4411,8 @@ Directives
 inheritedDirectives
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 )
@@ -4512,6 +4523,7 @@ options
 .
 extraWarningsOption
 generatorKind
+asyncKind
 )
 ;
 if
@@ -13973,6 +13985,19 @@ generatorKind
 )
 )
 ;
+lazy
+-
+>
+setAsyncKind
+(
+funbox
+-
+>
+asyncKind
+(
+)
+)
+;
 if
 (
 funbox
@@ -14182,6 +14207,7 @@ fn
 fun
 inheritedDirectives
 generatorKind
+SyncFunction
 /
 *
 tryAnnexB
@@ -18397,6 +18423,12 @@ fun
 generatorKind
 (
 )
+fun
+-
+>
+asyncKind
+(
+)
 tryAnnexB
 )
 ;
@@ -19730,6 +19762,7 @@ pn
 fun
 inheritedDirectives
 generatorKind
+SyncFunction
 tryAnnexB
 )
 ;
@@ -20289,6 +20322,7 @@ pn
 fun
 inheritedDirectives
 generatorKind
+SyncFunction
 tryAnnexB
 )
 ;
@@ -20469,6 +20503,7 @@ pn
 fun
 directives
 generatorKind
+SyncFunction
 /
 *
 tryAnnexB
@@ -47586,6 +47621,7 @@ genfn
 fun
 directives
 StarGenerator
+SyncFunction
 /
 *
 tryAnnexB

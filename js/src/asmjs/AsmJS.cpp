@@ -46337,6 +46337,7 @@ fn
 fun
 directives
 NotGenerator
+SyncFunction
 /
 *
 tryAnnexB
