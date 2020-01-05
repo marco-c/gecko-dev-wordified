@@ -195,15 +195,6 @@ str
 DOMString
 ;
 use
-serialize
-:
-:
-{
-Encoder
-Encodable
-}
-;
-use
 std
 :
 :
