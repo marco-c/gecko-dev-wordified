@@ -256,6 +256,9 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
+nsIEventTarget
+*
+aMainThread
 )
 :
 CDMProxy
@@ -264,6 +267,7 @@ aKeys
 aKeySystem
 aDistinctiveIdentifierRequired
 aPersistentStateRequired
+aMainThread
 )
 mCrashHelper
 (
@@ -333,9 +337,6 @@ const
 nsAString
 &
 aGMPName
-nsIEventTarget
-*
-aMainThread
 )
 {
 MOZ_ASSERT
@@ -386,10 +387,6 @@ get
 (
 )
 )
-;
-mMainThread
-=
-aMainThread
 ;
 nsCString
 pluginVersion

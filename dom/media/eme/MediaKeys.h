@@ -924,6 +924,9 @@ CDMProxy
 >
 CreateCDMProxy
 (
+nsIEventTarget
+*
+aMainThread
 )
 ;
 /

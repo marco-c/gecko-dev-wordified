@@ -220,6 +220,9 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
+nsIEventTarget
+*
+aMainThread
 )
 :
 CDMProxy
@@ -228,6 +231,7 @@ aKeys
 aKeySystem
 aDistinctiveIdentifierRequired
 aPersistentStateRequired
+aMainThread
 )
 mCDM
 (
@@ -285,9 +289,6 @@ const
 nsAString
 &
 aName
-nsIEventTarget
-*
-aMainThread
 )
 {
 MOZ_ASSERT
@@ -348,10 +349,6 @@ get
 (
 )
 )
-;
-mMainThread
-=
-aMainThread
 ;
 /
 /
