@@ -168,6 +168,8 @@ copyUrl
 }
 requestItem
 .
+attachment
+.
 url
 )
 ;
