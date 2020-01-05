@@ -69,7 +69,6 @@ jsm
 ;
 var
 {
-runSafeSyncWithoutClone
 SingletonEventManager
 }
 =
@@ -119,9 +118,10 @@ id
 =
 >
 {
-runSafeSyncWithoutClone
-(
 fire
+.
+asyncWithoutClone
+(
 text
 suggestions
 =
