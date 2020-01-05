@@ -284,6 +284,15 @@ Url
 UrlParser
 }
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -1507,7 +1516,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 &

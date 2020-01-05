@@ -823,6 +823,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -2767,7 +2776,7 @@ r
 readystatechange
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -3381,7 +3390,7 @@ text
 html
 "
 .
-into_string
+to_owned
 (
 )
 /
@@ -3418,7 +3427,7 @@ application
 xml
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -3497,7 +3506,7 @@ UTF
 8
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -4183,7 +4192,7 @@ NoQuirks
 CSS1Compat
 "
 .
-into_string
+to_owned
 (
 )
 Quirks
@@ -4193,7 +4202,7 @@ Quirks
 BackCompat
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -5325,7 +5334,7 @@ s
 |
 s
 .
-into_string
+to_owned
 (
 )
 )
@@ -5475,7 +5484,7 @@ String
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6864,7 +6873,7 @@ new
 title
 "
 .
-into_string
+to_owned
 (
 )
 None

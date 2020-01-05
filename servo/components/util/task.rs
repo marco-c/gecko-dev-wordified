@@ -60,6 +60,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 task
 ;
 use
@@ -278,7 +287,7 @@ watched_name
 =
 name
 .
-into_string
+to_owned
 (
 )
 ;

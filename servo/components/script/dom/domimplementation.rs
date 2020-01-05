@@ -340,6 +340,15 @@ str
 :
 DOMString
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -1092,7 +1101,7 @@ new
 html
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -1162,7 +1171,7 @@ new
 html
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -1225,7 +1234,7 @@ new
 head
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -1313,7 +1322,7 @@ new
 title
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -1438,7 +1447,7 @@ new
 body
 "
 .
-into_string
+to_owned
 (
 )
 None

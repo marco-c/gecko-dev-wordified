@@ -165,6 +165,15 @@ str
 :
 DOMString
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 /
 /
 /
@@ -287,7 +296,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -300,7 +309,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )

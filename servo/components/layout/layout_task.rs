@@ -606,6 +606,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -3549,7 +3558,7 @@ add_web_font
 (
 family
 .
-into_string
+to_owned
 (
 )
 (

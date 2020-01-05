@@ -326,6 +326,15 @@ JSVal
 NullValue
 }
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -600,7 +609,7 @@ DOMString
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -754,7 +763,7 @@ eString
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1214,7 +1223,7 @@ Some
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1361,7 +1370,7 @@ eString
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1526,7 +1535,7 @@ DOMString
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -1645,7 +1654,7 @@ eString
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1856,7 +1865,7 @@ Some
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1987,7 +1996,7 @@ eString
 "
 "
 .
-into_string
+to_owned
 (
 )
 )

@@ -85,6 +85,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 iter
 :
 :
@@ -183,7 +192,7 @@ allocate
 "
 "
 .
-into_string
+to_owned
 (
 )
 even
@@ -214,7 +223,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 }

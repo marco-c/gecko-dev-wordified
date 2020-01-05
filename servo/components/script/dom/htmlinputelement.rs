@@ -496,6 +496,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -884,7 +893,7 @@ Single
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1156,7 +1165,7 @@ s
 |
 s
 .
-into_string
+to_owned
 (
 )
 )
@@ -1191,7 +1200,7 @@ InputRadio
 "
 "
 .
-into_string
+to_owned
 (
 )
 InputType
@@ -1208,7 +1217,7 @@ InputImage
 "
 "
 .
-into_string
+to_owned
 (
 )
 InputType
@@ -1229,7 +1238,7 @@ unwrap_or_else
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1250,7 +1259,7 @@ unwrap_or_else
 |
 DEFAULT_SUBMIT_VALUE
 .
-into_string
+to_owned
 (
 )
 )
@@ -1271,7 +1280,7 @@ unwrap_or_else
 |
 DEFAULT_RESET_VALUE
 .
-into_string
+to_owned
 (
 )
 )
@@ -2720,7 +2729,7 @@ radio
 ]
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3709,7 +3718,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )
@@ -4073,7 +4082,7 @@ set_content
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -5411,7 +5420,7 @@ radio
 ]
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6524,7 +6533,7 @@ r
 input
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -6607,7 +6616,7 @@ r
 change
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -6833,7 +6842,7 @@ submit
 ]
 "
 .
-into_string
+to_owned
 (
 )
 )

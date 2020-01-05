@@ -161,6 +161,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1435,7 +1444,7 @@ servo
 jpg
 "
 .
-into_string
+to_owned
 (
 )
 )

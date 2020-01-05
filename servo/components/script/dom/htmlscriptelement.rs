@@ -403,6 +403,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -2044,7 +2053,7 @@ window
 load
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles

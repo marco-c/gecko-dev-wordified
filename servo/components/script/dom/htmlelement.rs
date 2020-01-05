@@ -386,6 +386,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 default
 :
 :
@@ -1204,7 +1213,7 @@ data
 -
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -1465,7 +1474,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -1734,7 +1743,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )

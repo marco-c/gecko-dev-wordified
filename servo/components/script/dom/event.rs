@@ -181,6 +181,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -454,7 +463,7 @@ new
 "
 "
 .
-into_string
+to_owned
 (
 )
 )

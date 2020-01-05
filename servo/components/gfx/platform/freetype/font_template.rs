@@ -60,6 +60,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 io
 ;
 use
@@ -235,7 +244,7 @@ identifier
 :
 identifier
 .
-into_string
+to_owned
 (
 )
 }

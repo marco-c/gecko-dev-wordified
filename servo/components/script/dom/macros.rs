@@ -907,6 +907,15 @@ ascii
 :
 AsciiExt
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 let
 element
 :
@@ -989,7 +998,7 @@ _
 >
 default
 .
-into_string
+to_owned
 (
 )
 }

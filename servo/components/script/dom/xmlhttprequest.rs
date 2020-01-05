@@ -614,6 +614,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1278,7 +1287,7 @@ response_url
 "
 "
 .
-into_string
+to_owned
 (
 )
 status
@@ -3456,7 +3465,7 @@ set_raw
 (
 name_str
 .
-into_string
+to_owned
 (
 )
 vec
@@ -4022,7 +4031,7 @@ dispatch_response_progress_event
 loadstart
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -4065,7 +4074,7 @@ dispatch_upload_progress_event
 loadstart
 "
 .
-into_string
+to_owned
 (
 )
 Some
@@ -4339,7 +4348,7 @@ set_raw
 (
 n
 .
-into_string
+to_owned
 (
 )
 vec
@@ -4371,7 +4380,7 @@ set_raw
 (
 n
 .
-into_string
+to_owned
 (
 )
 vec
@@ -4765,7 +4774,7 @@ set_raw
 Referer
 "
 .
-into_string
+to_owned
 (
 )
 vec
@@ -4798,7 +4807,7 @@ insert_trusted_header
 origin
 "
 .
-into_string
+to_owned
 (
 )
 format
@@ -5631,7 +5640,7 @@ unwrap
 (
 )
 .
-into_string
+to_owned
 (
 )
 ;
@@ -5794,7 +5803,7 @@ Ok
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6075,7 +6084,7 @@ r
 readystatechange
 "
 .
-into_string
+to_owned
 (
 )
 EventBubbles
@@ -6326,7 +6335,7 @@ dispatch_upload_progress_event
 progress
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -6345,7 +6354,7 @@ dispatch_upload_progress_event
 load
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -6364,7 +6373,7 @@ dispatch_upload_progress_event
 loadend
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -6613,7 +6622,7 @@ dispatch_response_progress_event
 progress
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6743,7 +6752,7 @@ dispatch_response_progress_event
 progress
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6761,7 +6770,7 @@ dispatch_response_progress_event
 load
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6779,7 +6788,7 @@ dispatch_response_progress_event
 loadend
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6890,7 +6899,7 @@ dispatch_upload_progress_event
 progress
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -6907,7 +6916,7 @@ dispatch_upload_progress_event
 (
 errormsg
 .
-into_string
+to_owned
 (
 )
 None
@@ -6926,7 +6935,7 @@ dispatch_upload_progress_event
 loadend
 "
 .
-into_string
+to_owned
 (
 )
 None
@@ -6946,7 +6955,7 @@ dispatch_response_progress_event
 progress
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6962,7 +6971,7 @@ dispatch_response_progress_event
 (
 errormsg
 .
-into_string
+to_owned
 (
 )
 )
@@ -6980,7 +6989,7 @@ dispatch_response_progress_event
 loadend
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -7770,7 +7779,7 @@ unwrap
 (
 )
 .
-into_string
+to_owned
 (
 )
 }

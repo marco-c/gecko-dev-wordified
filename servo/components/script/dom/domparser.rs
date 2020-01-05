@@ -253,6 +253,15 @@ str
 :
 DOMString
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -488,7 +497,7 @@ as
 uint
 ]
 .
-into_string
+to_owned
 (
 )
 ;

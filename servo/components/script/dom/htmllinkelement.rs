@@ -280,6 +280,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 default
 :
 :
@@ -539,7 +548,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )

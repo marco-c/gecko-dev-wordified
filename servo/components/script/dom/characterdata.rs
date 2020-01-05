@@ -201,6 +201,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -585,7 +594,7 @@ as
 uint
 )
 .
-into_string
+to_owned
 (
 )
 )
@@ -673,7 +682,7 @@ count
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -768,7 +777,7 @@ as
 uint
 )
 .
-into_string
+to_owned
 (
 )
 ;

@@ -748,6 +748,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -6416,7 +6425,7 @@ return
 "
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -6531,7 +6540,7 @@ _
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -6610,7 +6619,7 @@ None
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -7127,7 +7136,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )
@@ -7150,7 +7159,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -8373,7 +8382,7 @@ s
 |
 s
 .
-into_string
+to_owned
 (
 )
 )

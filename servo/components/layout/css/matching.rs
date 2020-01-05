@@ -161,6 +161,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 mem
 ;
 use
@@ -1476,7 +1485,7 @@ string
 |
 string
 .
-into_string
+to_owned
 (
 )
 )

@@ -5273,7 +5273,7 @@ unwrap
 (
 )
 .
-into_string
+to_owned
 (
 )
 "
@@ -37975,6 +37975,16 @@ str
 :
 :
 DOMString
+'
+            
+'
+std
+:
+:
+borrow
+:
+:
+ToOwned
 '
             
 '

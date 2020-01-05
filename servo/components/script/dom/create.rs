@@ -731,6 +731,15 @@ string_cache
 :
 QualName
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 pub
 fn
 create_element
@@ -787,7 +796,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 name
@@ -833,7 +842,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 prefix

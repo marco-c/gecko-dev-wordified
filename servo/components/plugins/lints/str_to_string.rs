@@ -108,7 +108,7 @@ a
 String
 could
 use
-into_string
+to_owned
 (
 )
 instead
@@ -124,7 +124,7 @@ to_string
 Prefer
 str
 .
-into_string
+to_owned
 (
 )
 over
@@ -250,7 +250,7 @@ span
 "
 str
 .
-into_string
+to_owned
 (
 )
 is

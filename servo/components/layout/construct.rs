@@ -496,6 +496,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -3215,7 +3224,7 @@ from_text
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -4621,7 +4630,7 @@ from_text
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -7156,7 +7165,7 @@ text
 =
 text
 .
-into_string
+to_owned
 (
 )
 ;

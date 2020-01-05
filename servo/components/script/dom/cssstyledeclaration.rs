@@ -269,6 +269,15 @@ ascii
 :
 AsciiExt
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 dom_struct
@@ -343,7 +352,7 @@ GetPropertyValue
 (
 cssprop
 .
-into_string
+to_owned
 (
 )
 )
@@ -363,7 +372,7 @@ SetPropertyValue
 (
 cssprop
 .
-into_string
+to_owned
 (
 )
 value
@@ -1004,7 +1013,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -1190,7 +1199,7 @@ return
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -1241,7 +1250,7 @@ else
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -1392,7 +1401,7 @@ return
 important
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -1421,7 +1430,7 @@ return
 important
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -1433,7 +1442,7 @@ Step
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -2247,7 +2256,7 @@ value
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2490,7 +2499,7 @@ GetPropertyValue
 float
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2537,7 +2546,7 @@ SetPropertyValue
 float
 "
 .
-into_string
+to_owned
 (
 )
 value

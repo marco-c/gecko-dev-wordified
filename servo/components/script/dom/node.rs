@@ -707,6 +707,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -6216,7 +6225,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6253,7 +6262,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -6271,7 +6280,7 @@ namespaceURI
 "
 "
 .
-into_string
+to_owned
 (
 )
 /
@@ -6316,7 +6325,7 @@ name
 "
 "
 .
-into_string
+to_owned
 (
 )
 publicId
@@ -6324,7 +6333,7 @@ publicId
 "
 "
 .
-into_string
+to_owned
 (
 )
 systemId
@@ -6332,7 +6341,7 @@ systemId
 "
 "
 .
-into_string
+to_owned
 (
 )
 attrs
@@ -6427,7 +6436,7 @@ unwrap_or
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -11171,7 +11180,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )
@@ -12225,7 +12234,7 @@ Text
 text
 "
 .
-into_string
+to_owned
 (
 )
 NodeTypeId
@@ -12272,7 +12281,7 @@ Comment
 comment
 "
 .
-into_string
+to_owned
 (
 )
 NodeTypeId
@@ -12325,7 +12334,7 @@ document
 fragment
 "
 .
-into_string
+to_owned
 (
 )
 NodeTypeId
@@ -12339,7 +12348,7 @@ Document
 document
 "
 .
-into_string
+to_owned
 (
 )
 }

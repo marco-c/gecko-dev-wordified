@@ -123,6 +123,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cmp
 :
 :
@@ -660,7 +669,7 @@ replace_selection
 "
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -947,7 +956,7 @@ s
 |
 s
 .
-into_string
+to_owned
 (
 )
 )
@@ -971,7 +980,7 @@ new_line
 =
 prefix
 .
-into_string
+to_owned
 (
 )
 ;
@@ -2318,7 +2327,7 @@ content
 "
 "
 .
-into_string
+to_owned
 (
 )
 ;
@@ -2456,7 +2465,7 @@ s
 |
 s
 .
-into_string
+to_owned
 (
 )
 )
@@ -2546,7 +2555,7 @@ Single
 abcdefg
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2681,7 +2690,7 @@ Single
 abcdefg
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2787,7 +2796,7 @@ Single
 abcdefg
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2919,7 +2928,7 @@ Single
 abcdefg
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -2954,7 +2963,7 @@ replace_selection
 xyz
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3007,7 +3016,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3098,7 +3107,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3245,7 +3254,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3410,7 +3419,7 @@ Single
 abcdef
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3466,7 +3475,7 @@ Multiple
 abcdef
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3538,7 +3547,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3619,7 +3628,7 @@ Single
 abcdefg
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3661,7 +3670,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3718,7 +3727,7 @@ nde
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3754,7 +3763,7 @@ abc
 nf
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -3841,7 +3850,7 @@ set_content
 de
 "
 .
-into_string
+to_owned
 (
 )
 )

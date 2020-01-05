@@ -130,6 +130,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 c_str
 :
 :
@@ -330,7 +339,7 @@ servo
 resources
 "
 .
-into_string
+to_owned
 (
 )
 )
@@ -552,7 +561,7 @@ vec
 [
 HOME_URL
 .
-into_string
+to_owned
 (
 )
 ]

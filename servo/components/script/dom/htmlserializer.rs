@@ -204,6 +204,15 @@ text
 :
 Text
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 #
 [
 allow
@@ -1281,7 +1290,7 @@ as_slice
 (
 )
 .
-into_string
+to_owned
 (
 )
 )

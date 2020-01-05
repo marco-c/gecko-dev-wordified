@@ -96,6 +96,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -491,7 +500,7 @@ identifier
 :
 identifier
 .
-into_string
+to_owned
 (
 )
 descriptor

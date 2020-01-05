@@ -301,6 +301,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 collections
 :
 :
@@ -1573,7 +1582,7 @@ set_inline_event_listener
 (
 ty
 .
-into_string
+to_owned
 (
 )
 event_listener
@@ -1610,7 +1619,7 @@ get_inline_event_listener
 (
 ty
 .
-into_string
+to_owned
 (
 )
 )

@@ -789,6 +789,15 @@ use
 std
 :
 :
+borrow
+:
+:
+ToOwned
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1927,7 +1936,7 @@ data_for_layout
 (
 )
 .
-into_string
+to_owned
 (
 )
 }
@@ -4593,7 +4602,7 @@ _
 "
 "
 .
-into_string
+to_owned
 (
 )
 }
@@ -4604,7 +4613,7 @@ _
 "
 "
 .
-into_string
+to_owned
 (
 )
 }

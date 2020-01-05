@@ -2075,6 +2075,15 @@ url
 :
 Url
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 fn
 test_media_rule
 (
@@ -2255,7 +2264,7 @@ rule_count
 expected_rule_count
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2297,7 +2306,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2324,7 +2333,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2343,7 +2352,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2363,7 +2372,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2409,7 +2418,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2436,7 +2445,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2461,7 +2470,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2481,7 +2490,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2518,7 +2527,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2551,7 +2560,7 @@ Only
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2576,7 +2585,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2596,7 +2605,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2633,7 +2642,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2666,7 +2675,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2691,7 +2700,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2711,7 +2720,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2757,7 +2766,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2784,7 +2793,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2809,7 +2818,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2829,7 +2838,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2866,7 +2875,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2899,7 +2908,7 @@ Only
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2924,7 +2933,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2944,7 +2953,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -2981,7 +2990,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3014,7 +3023,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3039,7 +3048,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3059,7 +3068,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3105,7 +3114,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3132,7 +3141,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3157,7 +3166,7 @@ Unknown
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3177,7 +3186,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3214,7 +3223,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3247,7 +3256,7 @@ Only
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3272,7 +3281,7 @@ Unknown
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3292,7 +3301,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3329,7 +3338,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3362,7 +3371,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3387,7 +3396,7 @@ Unknown
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3407,7 +3416,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3453,7 +3462,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3480,7 +3489,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3499,7 +3508,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3519,7 +3528,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3556,7 +3565,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3589,7 +3598,7 @@ Only
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3608,7 +3617,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3628,7 +3637,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3665,7 +3674,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3698,7 +3707,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3717,7 +3726,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3737,7 +3746,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3784,7 +3793,7 @@ len
 2
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3811,7 +3820,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3836,7 +3845,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3856,7 +3865,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3883,7 +3892,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3908,7 +3917,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3928,7 +3937,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -3980,7 +3989,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4007,7 +4016,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4026,7 +4035,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4046,7 +4055,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4138,7 +4147,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4165,7 +4174,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4184,7 +4193,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4204,7 +4213,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4308,7 +4317,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4335,7 +4344,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4360,7 +4369,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4380,7 +4389,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4474,7 +4483,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4501,7 +4510,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4526,7 +4535,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4546,7 +4555,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4640,7 +4649,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4667,7 +4676,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4692,7 +4701,7 @@ Unknown
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4712,7 +4721,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4822,7 +4831,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4849,7 +4858,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4868,7 +4877,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -4888,7 +4897,7 @@ len
 2
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5041,7 +5050,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5074,7 +5083,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5099,7 +5108,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5119,7 +5128,7 @@ len
 2
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5279,7 +5288,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5312,7 +5321,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5331,7 +5340,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5351,7 +5360,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5393,7 +5402,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5426,7 +5435,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5445,7 +5454,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5465,7 +5474,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5509,7 +5518,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5542,7 +5551,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5561,7 +5570,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5581,7 +5590,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5617,7 +5626,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5650,7 +5659,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5669,7 +5678,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5689,7 +5698,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5732,7 +5741,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5765,7 +5774,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5784,7 +5793,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5804,7 +5813,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5839,7 +5848,7 @@ len
 1
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5872,7 +5881,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5891,7 +5900,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5911,7 +5920,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5949,7 +5958,7 @@ len
 2
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -5982,7 +5991,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6001,7 +6010,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6021,7 +6030,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6048,7 +6057,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6073,7 +6082,7 @@ Print
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6093,7 +6102,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6129,7 +6138,7 @@ len
 2
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6156,7 +6165,7 @@ qualifier
 None
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6181,7 +6190,7 @@ Screen
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6201,7 +6210,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6234,7 +6243,7 @@ Not
 )
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6253,7 +6262,7 @@ MediaQueryType
 All
 css
 .
-into_string
+to_owned
 (
 )
 )
@@ -6273,7 +6282,7 @@ len
 0
 css
 .
-into_string
+to_owned
 (
 )
 )

@@ -86,6 +86,15 @@ CTFont
 use
 core_text
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 /
 /
 /
@@ -285,7 +294,7 @@ identifier
 :
 identifier
 .
-into_string
+to_owned
 (
 )
 }

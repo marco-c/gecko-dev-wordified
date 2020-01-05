@@ -162,6 +162,15 @@ node
 :
 window_from_node
 ;
+use
+std
+:
+:
+borrow
+:
+:
+ToOwned
+;
 /
 /
 /
@@ -529,7 +538,7 @@ r
 click
 "
 .
-into_string
+to_owned
 (
 )
 false
