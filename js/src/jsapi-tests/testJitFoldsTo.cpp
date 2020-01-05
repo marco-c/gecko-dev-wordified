@@ -1780,7 +1780,7 @@ div
 MDiv
 :
 :
-NewAsmJS
+New
 (
 func
 .
@@ -1983,7 +1983,7 @@ mod
 MMod
 :
 :
-NewAsmJS
+New
 (
 func
 .

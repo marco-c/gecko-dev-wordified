@@ -96529,7 +96529,7 @@ ownerScaledOffset
 MDiv
 :
 :
-NewAsmJS
+New
 (
 alloc
 (

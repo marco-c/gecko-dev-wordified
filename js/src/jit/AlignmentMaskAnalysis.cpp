@@ -367,7 +367,7 @@ use
 MAdd
 :
 :
-NewAsmJS
+New
 /
 /
 with
@@ -619,7 +619,7 @@ and_
 MBitAnd
 :
 :
-NewAsmJS
+New
 (
 graph
 .
@@ -660,7 +660,7 @@ add
 MAdd
 :
 :
-NewAsmJS
+New
 (
 graph
 .

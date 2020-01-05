@@ -7051,6 +7051,10 @@ getArg
 (
 0
 )
+MIRType
+:
+:
+Int32
 )
 ;
 current
@@ -7525,6 +7529,10 @@ getArg
 (
 0
 )
+MIRType
+:
+:
+Double
 )
 ;
 current
