@@ -2613,6 +2613,10 @@ cssgroupingrule
 ;
 pub
 mod
+cssimportrule
+;
+pub
+mod
 csskeyframerule
 ;
 pub

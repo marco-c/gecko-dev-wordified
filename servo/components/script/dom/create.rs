@@ -2891,6 +2891,7 @@ make
 !
 (
 HTMLStyleElement
+creator
 )
 local_name
 !

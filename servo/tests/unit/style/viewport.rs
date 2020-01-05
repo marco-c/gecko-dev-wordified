@@ -274,6 +274,7 @@ Default
 default
 (
 )
+None
 error_reporter
 ParserContextExtraData
 :
