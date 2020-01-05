@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+globals
+subscriptLoaded
+:
+true
+*
+/
 subscriptLoaded
 =
 true

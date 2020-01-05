@@ -57,6 +57,12 @@ MPL
 *
 /
 /
+*
+globals
+__LOCATION__
+*
+/
+/
 /
 Gets
 loaded

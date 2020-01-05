@@ -99,6 +99,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+__LOCATION__
+*
+/
 function
 run_test
 (
