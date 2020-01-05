@@ -253,10 +253,6 @@ BindingDeclarations
 ;
 pub
 mod
-UnionConversions
-;
-pub
-mod
 UnionTypes
 ;
 }
