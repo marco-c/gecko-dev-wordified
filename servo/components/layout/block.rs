@@ -5005,9 +5005,6 @@ org
 /
 multipage
 /
-rendering
-.
-html
 #
 replaced
 -

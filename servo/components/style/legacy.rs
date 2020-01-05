@@ -1452,9 +1452,6 @@ org
 /
 multipage
 /
-rendering
-.
-html
 #
 textarea
 -
@@ -1580,9 +1577,6 @@ org
 /
 multipage
 /
-rendering
-.
-html
 #
 textarea
 -

@@ -183,9 +183,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 worker
 -

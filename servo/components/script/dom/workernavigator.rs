@@ -171,9 +171,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 workernavigator
 #

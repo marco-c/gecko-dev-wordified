@@ -1047,9 +1047,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 dom
 -
@@ -1178,9 +1175,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 dom
 -
@@ -1224,9 +1218,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 focusing
 -
@@ -1304,9 +1295,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 dom
 -
@@ -1369,9 +1357,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 unfocusing
 -

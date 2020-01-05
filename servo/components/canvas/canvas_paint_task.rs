@@ -857,9 +857,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 dom
 -

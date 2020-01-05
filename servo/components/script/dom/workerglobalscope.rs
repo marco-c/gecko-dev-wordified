@@ -399,9 +399,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 the
 -
@@ -772,9 +769,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 dom
 -
@@ -817,9 +811,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 dom
 -
@@ -880,9 +871,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 dom
 -
@@ -1130,9 +1118,6 @@ org
 /
 multipage
 /
-workers
-.
-html
 #
 dom
 -

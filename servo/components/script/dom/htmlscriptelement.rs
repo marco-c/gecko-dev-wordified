@@ -520,9 +520,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 already
 -
@@ -550,9 +547,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 parser
 -
@@ -580,9 +574,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 non
 -
@@ -620,9 +611,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 ready
 -
@@ -683,9 +671,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 concept
 -
@@ -1334,9 +1319,6 @@ org
 /
 multipage
 /
-scripting
-.
-html
 #
 prepare
 -
