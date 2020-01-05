@@ -1147,7 +1147,7 @@ null
 Gecko_SetListStyleType
 "
 "
-style_struct
+aList
 "
 null
 ]
@@ -1156,7 +1156,7 @@ null
 Gecko_CopyListStyleTypeFrom
 "
 "
-dst
+aDst
 "
 null
 ]
