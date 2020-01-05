@@ -76478,7 +76478,7 @@ if
 !
 aStatus
 .
-IsFullyComplete
+IsEmpty
 (
 )
 )
