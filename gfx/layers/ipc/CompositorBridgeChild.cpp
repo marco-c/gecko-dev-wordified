@@ -6536,10 +6536,12 @@ mNamespace
 ;
 imageId
 =
+(
 imageId
 <
 <
 32
+)
 |
 sNextID
 ;
