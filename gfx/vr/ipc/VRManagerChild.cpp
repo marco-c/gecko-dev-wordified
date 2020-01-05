@@ -223,9 +223,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_GAMEPAD
-#
 include
 "
 mozilla
@@ -236,8 +233,6 @@ GamepadManager
 .
 h
 "
-#
-endif
 using
 layers
 :
@@ -2407,9 +2402,6 @@ GamepadChangeEvent
 aGamepadEvent
 )
 {
-#
-ifdef
-MOZ_GAMEPAD
 /
 /
 VRManagerChild
@@ -2480,8 +2472,6 @@ aGamepadEvent
 )
 ;
 }
-#
-endif
 return
 IPC_OK
 (
