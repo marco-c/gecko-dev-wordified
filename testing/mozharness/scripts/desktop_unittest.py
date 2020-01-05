@@ -3639,6 +3639,15 @@ xpcshell
 -
 coverage
 '
+'
+mochitest
+-
+devtools
+-
+chrome
+-
+coverage
+'
 )
 :
                 
