@@ -3662,7 +3662,8 @@ the
 debugging
 tools
 .
-var
+window
+.
 PDFBug
 =
 (
