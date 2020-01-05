@@ -10791,7 +10791,7 @@ font
 mStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 -
@@ -13746,7 +13746,7 @@ parentContext
 mStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ;
@@ -14250,7 +14250,7 @@ parentContext
 mStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ;
