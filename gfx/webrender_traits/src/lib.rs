@@ -97,6 +97,10 @@ app_units
 ;
 extern
 crate
+bincode
+;
+extern
+crate
 byteorder
 ;
 #
