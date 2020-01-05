@@ -214,7 +214,6 @@ cssProperties
 initialize
 (
 conn
-parent
 )
 {
 Actor
@@ -228,12 +227,6 @@ call
 this
 conn
 )
-;
-this
-.
-parent
-=
-parent
 ;
 }
 destroy

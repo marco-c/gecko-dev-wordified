@@ -206,12 +206,6 @@ function
 (
 )
 {
-this
-.
-stopRecording
-(
-)
-;
 }
 /
 *
