@@ -99,9 +99,14 @@ longhands
 animation_iteration_count
 :
 :
+single_value
+:
+:
 computed_value
 :
 :
+T
+as
 AnimationIterationCount
 ;
 use

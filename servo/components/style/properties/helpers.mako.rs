@@ -1274,10 +1274,7 @@ self
 single_value
 :
 :
-computed_value
-:
-:
-T
+SpecifiedValue
 as
 SingleSpecifiedValue
 ;
