@@ -1083,6 +1083,10 @@ RegisterAtoms
 (
 )
 ;
+NS_SealStaticAtomTable
+(
+)
+;
 StartupJSEnvironment
 (
 )
@@ -1602,10 +1606,6 @@ nsCORSListenerProxy
 :
 :
 Startup
-(
-)
-;
-NS_SealStaticAtomTable
 (
 )
 ;
