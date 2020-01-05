@@ -442,8 +442,8 @@ profiler
 mozilla
 :
 :
-SamplerStackFrameRAII
-mSamplerRAII
+ProfilerStackFrameRAII
+mProfilerRAII
 ;
 #
 endif
