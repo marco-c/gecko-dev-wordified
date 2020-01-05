@@ -2649,9 +2649,9 @@ void
 CodeGeneratorX86Shared
 :
 :
-visitAsmReinterpret
+visitWasmReinterpret
 (
-LAsmReinterpret
+LWasmReinterpret
 *
 lir
 )
@@ -2666,7 +2666,7 @@ compilingAsmJS
 )
 )
 ;
-MAsmReinterpret
+MWasmReinterpret
 *
 ins
 =
@@ -2828,7 +2828,7 @@ MOZ_CRASH
 (
 "
 unexpected
-AsmReinterpret
+WasmReinterpret
 "
 )
 ;

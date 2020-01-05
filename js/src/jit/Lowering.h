@@ -1527,9 +1527,9 @@ ins
 )
 ;
 void
-visitAsmReinterpret
+visitWasmReinterpret
 (
-MAsmReinterpret
+MWasmReinterpret
 *
 ins
 )

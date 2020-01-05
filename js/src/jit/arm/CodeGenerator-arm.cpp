@@ -16073,9 +16073,9 @@ void
 CodeGeneratorARM
 :
 :
-visitAsmReinterpret
+visitWasmReinterpret
 (
-LAsmReinterpret
+LWasmReinterpret
 *
 lir
 )
@@ -16090,7 +16090,7 @@ compilingAsmJS
 )
 )
 ;
-MAsmReinterpret
+MWasmReinterpret
 *
 ins
 =
@@ -16250,7 +16250,7 @@ MOZ_CRASH
 (
 "
 unexpected
-AsmReinterpret
+WasmReinterpret
 "
 )
 ;
@@ -26963,9 +26963,9 @@ void
 CodeGeneratorARM
 :
 :
-visitAsmReinterpretFromI64
+visitWasmReinterpretFromI64
 (
-LAsmReinterpretFromI64
+LWasmReinterpretFromI64
 *
 lir
 )
@@ -27062,9 +27062,9 @@ void
 CodeGeneratorARM
 :
 :
-visitAsmReinterpretToI64
+visitWasmReinterpretToI64
 (
-LAsmReinterpretToI64
+LWasmReinterpretToI64
 *
 lir
 )

@@ -4058,9 +4058,9 @@ void
 CodeGeneratorMIPS64
 :
 :
-visitAsmReinterpretFromI64
+visitWasmReinterpretFromI64
 (
-LAsmReinterpretFromI64
+LWasmReinterpretFromI64
 *
 lir
 )
@@ -4141,9 +4141,9 @@ void
 CodeGeneratorMIPS64
 :
 :
-visitAsmReinterpretToI64
+visitWasmReinterpretToI64
 (
-LAsmReinterpretToI64
+LWasmReinterpretToI64
 *
 lir
 )

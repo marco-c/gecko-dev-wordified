@@ -69578,7 +69578,7 @@ MAsmSelect
 }
 ;
 class
-MAsmReinterpret
+MWasmReinterpret
 :
 public
 MUnaryInstruction
@@ -69588,7 +69588,7 @@ NoTypePolicy
 :
 Data
 {
-MAsmReinterpret
+MWasmReinterpret
 (
 MDefinition
 *
@@ -69714,10 +69714,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmReinterpret
+WasmReinterpret
 )
 static
-MAsmReinterpret
+MWasmReinterpret
 *
 NewAsmJS
 (
@@ -69736,7 +69736,7 @@ new
 (
 alloc
 )
-MAsmReinterpret
+MWasmReinterpret
 (
 val
 toType
@@ -69779,7 +69779,7 @@ ins
 }
 ALLOW_CLONE
 (
-MAsmReinterpret
+MWasmReinterpret
 )
 }
 ;
