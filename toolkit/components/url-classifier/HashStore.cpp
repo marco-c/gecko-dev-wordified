@@ -5780,11 +5780,6 @@ getter_AddRefs
 out
 )
 storeFile
-PR_WRONLY
-|
-PR_TRUNCATE
-|
-PR_CREATE_FILE
 )
 ;
 NS_ENSURE_SUCCESS
