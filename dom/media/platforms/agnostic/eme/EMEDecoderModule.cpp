@@ -432,8 +432,10 @@ self
 this
 ]
 (
+RefPtr
+<
 MediaRawData
-*
+>
 aSample
 )
 {
@@ -508,8 +510,10 @@ self
 this
 ]
 (
+RefPtr
+<
 MediaRawData
-*
+>
 aSample
 )
 {
@@ -1637,8 +1641,10 @@ self
 this
 ]
 (
+RefPtr
+<
 MediaRawData
-*
+>
 aSample
 )
 {

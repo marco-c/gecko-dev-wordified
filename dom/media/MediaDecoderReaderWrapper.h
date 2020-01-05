@@ -604,8 +604,10 @@ MetadataPromise
 >
 OnMetadataRead
 (
+RefPtr
+<
 MetadataHolder
-*
+>
 aMetadata
 )
 ;

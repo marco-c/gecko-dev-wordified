@@ -677,8 +677,10 @@ Decode
 void
 OnMetadataRead
 (
+RefPtr
+<
 MetadataHolder
-*
+>
 aMetadata
 )
 ;
@@ -699,8 +701,10 @@ RequestSample
 void
 SampleDecoded
 (
+RefPtr
+<
 AudioData
-*
+>
 aData
 )
 ;
@@ -1334,8 +1338,10 @@ MediaDecodeTask
 :
 OnMetadataRead
 (
+RefPtr
+<
 MetadataHolder
-*
+>
 aMetadata
 )
 {
@@ -1631,8 +1637,10 @@ MediaDecodeTask
 :
 SampleDecoded
 (
+RefPtr
+<
 AudioData
-*
+>
 aData
 )
 {

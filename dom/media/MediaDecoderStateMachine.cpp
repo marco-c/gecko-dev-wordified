@@ -2696,8 +2696,10 @@ __func__
 this
 ]
 (
+RefPtr
+<
 MetadataHolder
-*
+>
 aMetadata
 )
 {
@@ -19717,8 +19719,10 @@ this
 self
 ]
 (
+RefPtr
+<
 AudioData
-*
+>
 aAudio
 )
 {
@@ -20051,8 +20055,10 @@ self
 videoDecodeStartTime
 ]
 (
+RefPtr
+<
 VideoData
-*
+>
 aVideo
 )
 {
