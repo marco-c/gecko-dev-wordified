@@ -4957,8 +4957,6 @@ rv
 PARSER_LOG
 (
 (
-nsPrintfCString
-(
 "
 Threat
 type
@@ -4976,11 +4974,6 @@ aResponse
 threat_type
 (
 )
-)
-)
-.
-get
-(
 )
 )
 ;
