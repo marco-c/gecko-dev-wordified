@@ -251,6 +251,9 @@ scriptedCaller
 bool
 alwaysBaseline
 ;
+bool
+debugEnabled
+;
 CompileArgs
 (
 Assumptions
@@ -278,6 +281,10 @@ scriptedCaller
 )
 )
 alwaysBaseline
+(
+false
+)
+debugEnabled
 (
 false
 )
