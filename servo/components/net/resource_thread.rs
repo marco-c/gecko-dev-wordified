@@ -1682,6 +1682,9 @@ CoreResourceMsg
 :
 :
 Exit
+(
+sender
+)
 =
 >
 {
@@ -1847,6 +1850,17 @@ disk
 )
 }
 }
+let
+_
+=
+sender
+.
+send
+(
+(
+)
+)
+;
 break
 ;
 }

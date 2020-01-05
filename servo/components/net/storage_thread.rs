@@ -536,6 +536,9 @@ StorageThreadMsg
 :
 :
 Exit
+(
+sender
+)
 =
 >
 {
@@ -574,6 +577,17 @@ json
 )
 ;
 }
+let
+_
+=
+sender
+.
+send
+(
+(
+)
+)
+;
 break
 }
 }
