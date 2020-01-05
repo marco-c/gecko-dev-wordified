@@ -69,6 +69,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_mobile
 class
 TestText
 (
@@ -607,13 +608,12 @@ result
         
 self
 .
-assertTrue
+assertIn
 (
 "
 press
 :
 "
-in
 result
 .
 text
@@ -693,13 +693,12 @@ result
         
 self
 .
-assertTrue
+assertIn
 (
 "
 down
 :
 "
-in
 result
 .
 text
@@ -779,13 +778,12 @@ result
         
 self
 .
-assertTrue
+assertIn
 (
 "
 up
 :
 "
-in
 result
 .
 text
@@ -1860,6 +1858,28 @@ chees
 "
 )
     
+skip_if_mobile
+(
+"
+Bug
+1333069
+-
+Assertion
+:
+'
+down
+:
+40
+'
+not
+found
+in
+u
+'
+'
+"
+)
+    
 def
 test_should_report_key_code_of_arrow_keys_up_down_events
 (
@@ -1934,14 +1954,13 @@ ARROW_DOWN
         
 self
 .
-assertTrue
+assertIn
 (
 "
 down
 :
 40
 "
-in
 result
 .
 text
@@ -1953,14 +1972,13 @@ strip
         
 self
 .
-assertTrue
+assertIn
 (
 "
 up
 :
 40
 "
-in
 result
 .
 text
@@ -1981,14 +1999,13 @@ ARROW_UP
         
 self
 .
-assertTrue
+assertIn
 (
 "
 down
 :
 38
 "
-in
 result
 .
 text
@@ -2000,14 +2017,13 @@ strip
         
 self
 .
-assertTrue
+assertIn
 (
 "
 up
 :
 38
 "
-in
 result
 .
 text
@@ -2028,14 +2044,13 @@ ARROW_LEFT
         
 self
 .
-assertTrue
+assertIn
 (
 "
 down
 :
 37
 "
-in
 result
 .
 text
@@ -2047,14 +2062,13 @@ strip
         
 self
 .
-assertTrue
+assertIn
 (
 "
 up
 :
 37
 "
-in
 result
 .
 text
@@ -2075,14 +2089,13 @@ ARROW_RIGHT
         
 self
 .
-assertTrue
+assertIn
 (
 "
 down
 :
 39
 "
-in
 result
 .
 text
@@ -2094,14 +2107,13 @@ strip
         
 self
 .
-assertTrue
+assertIn
 (
 "
 up
 :
 39
 "
-in
 result
 .
 text
