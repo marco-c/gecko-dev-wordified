@@ -262,6 +262,17 @@ htmlparser
 .
 annotation
 .
+Unsigned
+;
+import
+nu
+.
+validator
+.
+htmlparser
+.
+annotation
+.
 Virtual
 ;
 import
@@ -701,6 +712,7 @@ Interner
 interner
 )
 {
+Unsigned
 int
 hash
 =
@@ -840,6 +852,7 @@ return
 /
 private
 static
+Unsigned
 int
 bufToHash
 (
@@ -852,6 +865,7 @@ int
 len
 )
 {
+Unsigned
 int
 hash
 =

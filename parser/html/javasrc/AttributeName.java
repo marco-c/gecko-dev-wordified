@@ -284,6 +284,17 @@ htmlparser
 .
 annotation
 .
+Unsigned
+;
+import
+nu
+.
+validator
+.
+htmlparser
+.
+annotation
+.
 Virtual
 ;
 import
@@ -1788,6 +1799,7 @@ XXX
 deal
 with
 offset
+Unsigned
 int
 hash
 =
@@ -1956,6 +1968,7 @@ return
 /
 private
 static
+Unsigned
 int
 bufToHash
 (
@@ -1968,11 +1981,13 @@ int
 len
 )
 {
+Unsigned
 int
 hash2
 =
 0
 ;
+Unsigned
 int
 hash
 =
