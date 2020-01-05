@@ -63,7 +63,7 @@ mozilla
 .
 gecko
 .
-mozglue
+media
 ;
 import
 android
@@ -71,6 +71,17 @@ android
 os
 .
 Parcel
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+SharedMemory
 ;
 import
 org
