@@ -3459,11 +3459,11 @@ expr
 t
 :
 pat
-=
->
+[
 c
 :
 expr
+]
 )
 =
 >
@@ -3635,8 +3635,7 @@ ref
 namespace
 }
 )
-=
->
+[
 *
 name
 =
@@ -3695,6 +3694,7 @@ namespace
 is_essentially_empty
 (
 )
+]
 )
 ;
 expect_event
@@ -3713,8 +3713,7 @@ ref
 name
 }
 )
-=
->
+[
 *
 name
 =
@@ -3728,6 +3727,7 @@ local
 a
 "
 )
+]
 )
 ;
 expect_event
@@ -3811,8 +3811,7 @@ Err
 ref
 e
 )
-=
->
+[
 e
 .
 msg
@@ -3847,6 +3846,7 @@ column
 :
 24
 }
+]
 )
 ;
 }

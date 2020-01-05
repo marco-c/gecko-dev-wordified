@@ -470,8 +470,6 @@ Copy
 Hash
 PartialEq
 Eq
-Ord
-PartialOrd
 )
 ]
 pub
@@ -605,10 +603,6 @@ render
 derive
 (
 Clone
-Debug
-Hash
-PartialEq
-Eq
 )
 ]
 pub
@@ -1950,8 +1944,6 @@ Hash
 RustcEncodable
 RustcDecodable
 Copy
-Ord
-PartialOrd
 )
 ]
 pub

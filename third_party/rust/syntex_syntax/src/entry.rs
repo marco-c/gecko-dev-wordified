@@ -262,6 +262,10 @@ item
 ident
 .
 name
+.
+as_str
+(
+)
 =
 =
 "

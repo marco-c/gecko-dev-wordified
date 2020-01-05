@@ -7,7 +7,6 @@ Copy
 Clone
 Eq
 PartialEq
-Hash
 )
 ]
 pub
@@ -231,7 +230,6 @@ Copy
 Clone
 Eq
 PartialEq
-Hash
 )
 ]
 pub

@@ -18,7 +18,7 @@ serde
 crate
 for
 the
-serializable
+serialazble
 and
 deserializable
 /

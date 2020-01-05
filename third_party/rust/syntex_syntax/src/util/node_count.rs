@@ -186,15 +186,7 @@ count
 }
 }
 impl
-<
-'
-ast
->
 Visitor
-<
-'
-ast
->
 for
 NodeCounter
 {
@@ -521,6 +513,10 @@ fd
 :
 &
 FnDecl
+b
+:
+&
+Block
 s
 :
 Span
@@ -541,6 +537,7 @@ walk_fn
 self
 fk
 fd
+b
 s
 )
 }

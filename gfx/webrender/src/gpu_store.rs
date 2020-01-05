@@ -75,9 +75,6 @@ derive
 Debug
 Copy
 Clone
-Eq
-Hash
-PartialEq
 )
 ]
 pub
