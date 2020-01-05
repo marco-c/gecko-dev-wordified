@@ -372,6 +372,12 @@ PermissionName
 :
 Push
 :
+case
+PermissionName
+:
+:
+Persistent_storage
+:
 return
 PermissionStatus
 :

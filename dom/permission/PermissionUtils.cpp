@@ -157,6 +157,11 @@ desktop
 -
 notification
 "
+"
+persistent
+-
+storage
+"
 }
 ;
 /
