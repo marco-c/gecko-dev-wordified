@@ -1860,7 +1860,6 @@ null
 .
 *
 /
-virtual
 DeclarationBlock
 *
 GetSMILOverrideStyleDeclaration
@@ -1908,7 +1907,6 @@ noticed
 .
 *
 /
-virtual
 nsresult
 SetSMILOverrideStyleDeclaration
 (
