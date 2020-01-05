@@ -1187,9 +1187,15 @@ assumptions_
 LinkData
 linkData_
 ;
-MutableMetadataTier
+MetadataTier
+*
 metadataTier_
 ;
+/
+/
+Owned
+by
+metadata_
 MutableMetadata
 metadata_
 ;
