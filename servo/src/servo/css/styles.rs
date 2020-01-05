@@ -122,6 +122,13 @@ context
 :
 LayoutContext
 ;
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 type
 SpecifiedStyle
 =
@@ -452,6 +459,13 @@ objects
 .
 *
 /
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 fn
 empty_style_for_node_kind
 (
