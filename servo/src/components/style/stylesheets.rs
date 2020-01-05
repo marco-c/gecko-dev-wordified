@@ -230,10 +230,10 @@ I
 :
 Iterator
 <
-~
-[
+Vec
+<
 u8
-]
+>
 >
 >
 (
@@ -290,6 +290,10 @@ bytes
 push_all
 (
 chunk
+.
+as_slice
+(
+)
 )
 }
 Stylesheet

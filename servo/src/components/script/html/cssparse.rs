@@ -476,10 +476,10 @@ ProgressMsg
 impl
 Iterator
 <
-~
-[
+Vec
+<
 u8
-]
+>
 >
 for
 ProgressMsgPortIterator
@@ -495,10 +495,10 @@ self
 >
 Option
 <
-~
-[
+Vec
+<
 u8
-]
+>
 >
 {
 match

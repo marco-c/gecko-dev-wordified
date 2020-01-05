@@ -3154,6 +3154,10 @@ image_data
 push_all
 (
 data
+.
+as_slice
+(
+)
 )
 ;
 }
@@ -3532,9 +3536,10 @@ resource_task
 :
 Payload
 (
-~
-[
-]
+vec
+!
+(
+)
 )
 )
 ;
