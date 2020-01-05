@@ -86,7 +86,7 @@ cef_string_t
 }
 ;
 use
-std_unicode
+rustc_unicode
 :
 :
 str
