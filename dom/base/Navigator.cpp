@@ -6509,7 +6509,10 @@ aUrl
 const
 Nullable
 <
-ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+BodyInit
 >
 &
 aData

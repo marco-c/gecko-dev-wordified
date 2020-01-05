@@ -526,7 +526,10 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+BodyInit
 >
 &
 aBody

@@ -2456,7 +2456,10 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+OwningBodyInit
 &
 aBodyInit
 nsIInputStream
@@ -2741,7 +2744,10 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+BodyInit
 &
 aBodyInit
 nsIInputStream

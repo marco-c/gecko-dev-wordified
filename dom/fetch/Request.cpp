@@ -3508,7 +3508,10 @@ WasPassed
 const
 Nullable
 <
-OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+OwningBodyInit
 >
 &
 bodyInitNullable
@@ -3532,7 +3535,10 @@ IsNull
 )
 {
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
+fetch
+:
+:
+OwningBodyInit
 &
 bodyInit
 =
