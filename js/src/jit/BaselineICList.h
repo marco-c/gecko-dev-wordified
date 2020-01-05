@@ -300,11 +300,6 @@ GetElem_Fallback
 \
 _
 (
-GetElem_String
-)
-\
-_
-(
 GetElem_Dense
 )
 \

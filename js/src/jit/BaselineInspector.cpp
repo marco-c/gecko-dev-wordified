@@ -6149,12 +6149,6 @@ case
 ICStub
 :
 :
-GetElem_String
-:
-case
-ICStub
-:
-:
 GetElem_Dense
 :
 case
