@@ -544,7 +544,7 @@ Keygen
 "
 )
 ;
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Keygen

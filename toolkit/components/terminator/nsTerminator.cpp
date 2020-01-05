@@ -297,6 +297,13 @@ GeckoProfiler
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 if
 defined
 (
@@ -883,7 +890,7 @@ void
 arg
 )
 {
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Shutdown
@@ -1529,7 +1536,7 @@ Writer
 "
 )
 ;
-PR_SetCurrentThreadName
+NS_SetCurrentThreadName
 (
 "
 Shutdown
