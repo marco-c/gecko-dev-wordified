@@ -1565,6 +1565,9 @@ true
 isSecureContext
 :
 true
+android
+:
+false
 }
 /
 /

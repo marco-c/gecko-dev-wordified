@@ -1688,6 +1688,9 @@ StorageManager
 nightly
 :
 true
+android
+:
+false
 }
 /
 /
