@@ -1519,7 +1519,7 @@ allowGC
 if
 (
 !
-gcIfNeededPerAllocation
+gcIfNeededAtAllocation
 (
 cx
 )
@@ -1748,7 +1748,7 @@ bool
 GCRuntime
 :
 :
-gcIfNeededPerAllocation
+gcIfNeededAtAllocation
 (
 JSContext
 *
