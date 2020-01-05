@@ -50658,7 +50658,7 @@ SuppressEventHandling
 nsIDocument
 :
 :
-eAnimationsOnly
+eEvents
 )
 ;
 }
@@ -50862,7 +50862,7 @@ UnsuppressEventHandlingAndFireEvents
 nsIDocument
 :
 :
-eAnimationsOnly
+eEvents
 currentDoc
 =
 =
