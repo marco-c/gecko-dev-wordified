@@ -933,8 +933,8 @@ kind
 )
         
 if
-not
 kind
+not
 in
 table
 :

@@ -71,6 +71,10 @@ from
 shared_telemetry_utils
 import
 ParserError
+from
+collections
+import
+OrderedDict
 #
 Constants
 .
@@ -237,10 +241,6 @@ path
 .
     
 pass
-from
-collections
-import
-OrderedDict
 def
 linear_buckets
 (
@@ -1391,10 +1391,10 @@ exponential_buckets
 }
         
 if
-not
 self
 .
 _kind
+not
 in
 bucket_fns
 :
@@ -1528,10 +1528,10 @@ exponential_bucket_parameters
 }
         
 if
-not
 self
 .
 _kind
+not
 in
 bucket_fns
 :
@@ -1734,8 +1734,8 @@ kind
 ]
         
 if
-not
 kind
+not
 in
 table
 :
@@ -2307,7 +2307,7 @@ d
 s
 '
 %
-                             
+                              
 (
 name
 MAX_LABEL_LENGTH
@@ -2348,7 +2348,7 @@ of
 d
 '
 %
-                             
+                              
 (
 name
 MAX_LABEL_COUNT
@@ -2461,7 +2461,7 @@ s
 s
 '
 %
-                             
+                              
 (
 name
 pattern
@@ -3309,7 +3309,7 @@ be
 }
 .
 '
-                                 
+                                  
 .
 format
 (
@@ -3390,7 +3390,7 @@ type
 }
 .
 '
-                                 
+                                  
 .
 format
 (
@@ -3896,10 +3896,10 @@ EXPONENTIAL
 }
         
 if
-not
 self
 .
 _kind
+not
 in
 types
 :
