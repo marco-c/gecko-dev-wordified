@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsCollation
+nsCollationFactory
 .
 h
 "

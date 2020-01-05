@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsCollation
+nsCollationFactory
 .
 h
 "
