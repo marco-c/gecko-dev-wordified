@@ -86,12 +86,6 @@ brotli
 ;
 extern
 crate
-content_blocker
-as
-content_blocker_parser
-;
-extern
-crate
 cookie
 as
 cookie_rs
@@ -119,14 +113,6 @@ immeta
 extern
 crate
 ipc_channel
-;
-#
-[
-macro_use
-]
-extern
-crate
-lazy_static
 ;
 #
 [
@@ -272,9 +258,6 @@ chrome_loader
 ;
 mod
 connector
-;
-mod
-content_blocker
 ;
 pub
 mod
