@@ -148,6 +148,9 @@ override
 nsRefPtrHashtable
 <
 nsUint32HashKey
+dom
+:
+:
 Promise
 >
 mPromiseList
