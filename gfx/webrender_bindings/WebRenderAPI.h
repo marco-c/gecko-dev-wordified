@@ -791,7 +791,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -808,7 +808,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -841,7 +841,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -878,13 +878,9 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
-const
-WrImageMask
-*
-aMask
 wr
 :
 :
@@ -905,7 +901,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 wr
@@ -923,7 +919,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -956,7 +952,7 @@ WrRect
 &
 aBounds
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
@@ -989,7 +985,7 @@ WrRect
 &
 aRect
 const
-WrRect
+WrClipRegion
 &
 aClip
 const
