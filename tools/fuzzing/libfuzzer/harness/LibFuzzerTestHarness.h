@@ -556,7 +556,6 @@ n
 -
 -
 -
-static
 class
 ScopedXPCOM
 :
