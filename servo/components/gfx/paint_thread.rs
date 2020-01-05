@@ -99,7 +99,6 @@ display_list
 {
 DisplayItem
 DisplayList
-DisplayListEntry
 DisplayListTraversal
 }
 ;
@@ -1172,7 +1171,7 @@ Option
 <
 PaintLayer
 >
-current_entry_index
+current_item_index
 :
 usize
 }
@@ -1219,7 +1218,7 @@ new
 current_layer
 :
 None
-current_entry_index
+current_item_index
 :
 0
 }
@@ -1792,7 +1791,7 @@ self
 item
 :
 &
-DisplayListEntry
+DisplayItem
 parent_origin
 :
 &
@@ -1818,6 +1817,7 @@ f32
 {
 if
 let
+&
 DisplayItem
 :
 :
@@ -1827,8 +1827,6 @@ ref
 layered_item
 )
 =
-item
-.
 item
 {
 /
@@ -1844,7 +1842,7 @@ here
 before
 incrementing
 the
-entry
+item
 /
 /
 index
@@ -1900,7 +1898,7 @@ current_parent_stacking_context_id
 )
 self
 .
-current_entry_index
+current_item_index
 )
 ;
 self
@@ -1914,7 +1912,7 @@ layer
 ;
 self
 .
-current_entry_index
+current_item_index
 +
 =
 1
@@ -2087,13 +2085,13 @@ add_item
 (
 self
 .
-current_entry_index
+current_item_index
 )
 ;
 }
 self
 .
-current_entry_index
+current_item_index
 +
 =
 1
