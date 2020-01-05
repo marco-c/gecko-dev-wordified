@@ -683,9 +683,6 @@ append
 (
 desc
 l
-framePushed
-(
-)
 )
 ;
 }
@@ -717,9 +714,6 @@ append
 (
 desc
 l
-framePushed
-(
-)
 funcDefIndex
 )
 ;
@@ -755,9 +749,6 @@ append
 (
 desc
 l
-framePushed
-(
-)
 trap
 )
 ;

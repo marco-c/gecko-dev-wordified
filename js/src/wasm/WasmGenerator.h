@@ -1153,7 +1153,7 @@ Trap
 :
 :
 Limit
-ProfilingOffsets
+CallableOffsets
 >
 TrapExitOffsetArray
 ;

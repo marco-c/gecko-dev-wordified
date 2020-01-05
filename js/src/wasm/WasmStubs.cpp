@@ -3388,11 +3388,6 @@ tables
 /
 -
 normal
-(
-non
--
-)
-profiling
 entries
 so
 that
@@ -3403,12 +3398,12 @@ is
 re
 -
 exported
-/
-/
 an
 entry
 stub
 can
+/
+/
 be
 generated
 and
@@ -3826,7 +3821,7 @@ homogeneous
 Value
 array
 .
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -4047,7 +4042,7 @@ argOffset
 argBytes
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -4911,7 +4906,7 @@ stack
 frame
 layout
 .
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -5103,7 +5098,7 @@ totalJitFrameBytes
 -
 sizeOfRetAddr
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -6915,10 +6910,10 @@ of
 line
 path
 .
-A
+An
 /
 /
-profiling
+exit
 prologue
 /
 epilogue
@@ -6947,7 +6942,7 @@ this
 trap
 exit
 .
-ProfilingOffsets
+CallableOffsets
 wasm
 :
 :
@@ -7003,7 +6998,7 @@ ABIStackAlignment
 args
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue
@@ -9347,7 +9342,7 @@ setFramePushed
 0
 )
 ;
-ProfilingOffsets
+CallableOffsets
 offsets
 ;
 GenerateExitPrologue

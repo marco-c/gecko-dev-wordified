@@ -32621,9 +32621,6 @@ currentOffset
 (
 )
 )
-framePushed
-(
-)
 )
 ;
 return
