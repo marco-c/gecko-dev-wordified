@@ -441,7 +441,7 @@ media
 :
 :
 TimeUnit
-nsresult
+MediaResult
 IsExclusive
 >
 ;
