@@ -478,6 +478,14 @@ is_in_render_thread
 (
 )
 ;
+bool
+is_glcontext_egl
+(
+void
+*
+glcontext_ptr
+)
+;
 void
 *
 get_proc_address_from_glcontext
@@ -2075,7 +2083,7 @@ annotation
 .
 #
 ifdef
-MOZ_BUILD_WEBRENDER
+MOZ_ENABLE_WEBRENDER
 #
 define
 WR_INLINE
@@ -2205,6 +2213,9 @@ uint8_t
 *
 wr_renderer_readback
 (
+WrRenderer
+*
+renderer
 uint32_t
 width
 uint32_t
