@@ -16840,6 +16840,10 @@ const
 nsCString
 &
 aProfile
+const
+bool
+&
+aIsExitProfile
 )
 {
 #
@@ -16856,6 +16860,7 @@ mProfilerController
 RecvProfile
 (
 aProfile
+aIsExitProfile
 )
 ;
 }

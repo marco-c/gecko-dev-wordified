@@ -179,6 +179,8 @@ const
 nsCString
 &
 aProfile
+bool
+aIsExitProfile
 )
 ;
 private

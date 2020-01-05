@@ -1122,6 +1122,8 @@ const
 nsCString
 &
 aProfile
+bool
+aIsExitProfile
 )
 {
 /
