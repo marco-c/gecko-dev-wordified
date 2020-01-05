@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-Dispatcher
+SchedulerGroup
 .
 h
 "
@@ -402,7 +402,7 @@ TabGroup
 final
 :
 public
-ValidatingDispatcher
+SchedulerGroup
 {
 private
 :

@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-Dispatcher
+SchedulerGroup
 .
 h
 "
@@ -185,7 +185,7 @@ namespace
 mozilla
 ;
 class
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 Runnable
@@ -208,7 +208,7 @@ nsIRunnable
 &
 &
 aRunnable
-ValidatingDispatcher
+SchedulerGroup
 *
 aDispatcher
 )
@@ -306,7 +306,7 @@ mRunnable
 ;
 RefPtr
 <
-ValidatingDispatcher
+SchedulerGroup
 >
 mDispatcher
 ;
@@ -314,7 +314,7 @@ mDispatcher
 ;
 /
 *
-DispatcherEventTarget
+SchedulerEventTarget
 *
 /
 namespace
@@ -340,7 +340,7 @@ NS_DISPATCHEREVENTTARGET_IID
 }
 }
 class
-DispatcherEventTarget
+SchedulerEventTarget
 final
 :
 public
@@ -348,7 +348,7 @@ nsIEventTarget
 {
 RefPtr
 <
-ValidatingDispatcher
+SchedulerGroup
 >
 mDispatcher
 ;
@@ -361,9 +361,9 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_DISPATCHEREVENTTARGET_IID
 )
-DispatcherEventTarget
+SchedulerEventTarget
 (
-ValidatingDispatcher
+SchedulerGroup
 *
 aDispatcher
 TaskCategory
@@ -382,7 +382,7 @@ aCategory
 }
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIEVENTTARGET
-ValidatingDispatcher
+SchedulerGroup
 *
 Dispatcher
 (
@@ -396,7 +396,7 @@ mDispatcher
 private
 :
 ~
-DispatcherEventTarget
+SchedulerEventTarget
 (
 )
 {
@@ -405,7 +405,7 @@ DispatcherEventTarget
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-DispatcherEventTarget
+SchedulerEventTarget
 NS_DISPATCHEREVENTTARGET_IID
 )
 }
@@ -414,12 +414,12 @@ NS_DISPATCHEREVENTTARGET_IID
 namespace
 NS_IMPL_ISUPPORTS
 (
-DispatcherEventTarget
-DispatcherEventTarget
+SchedulerEventTarget
+SchedulerEventTarget
 nsIEventTarget
 )
 NS_IMETHODIMP
-DispatcherEventTarget
+SchedulerEventTarget
 :
 :
 DispatchFromScript
@@ -443,7 +443,7 @@ aFlags
 ;
 }
 NS_IMETHODIMP
-DispatcherEventTarget
+SchedulerEventTarget
 :
 :
 Dispatch
@@ -488,7 +488,7 @@ aRunnable
 ;
 }
 NS_IMETHODIMP
-DispatcherEventTarget
+SchedulerEventTarget
 :
 :
 DelayedDispatch
@@ -505,7 +505,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-DispatcherEventTarget
+SchedulerEventTarget
 :
 :
 IsOnCurrentThread
@@ -532,7 +532,7 @@ static
 *
 /
 nsresult
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 UnlabeledDispatch
@@ -622,17 +622,17 @@ forget
 ;
 }
 }
-ValidatingDispatcher
+SchedulerGroup
 *
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 sRunningDispatcher
 ;
-ValidatingDispatcher
+SchedulerGroup
 :
 :
-ValidatingDispatcher
+SchedulerGroup
 (
 )
 :
@@ -643,7 +643,7 @@ false
 {
 }
 nsresult
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 Dispatch
@@ -677,7 +677,7 @@ aRunnable
 }
 nsIEventTarget
 *
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 EventTargetFor
@@ -721,7 +721,7 @@ aCategory
 }
 AbstractThread
 *
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 AbstractMainThreadFor
@@ -746,7 +746,7 @@ aCategory
 }
 AbstractThread
 *
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 AbstractMainThreadForImpl
@@ -837,7 +837,7 @@ aCategory
 ;
 }
 void
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 CreateEventTargets
@@ -947,7 +947,7 @@ category
 }
 }
 void
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 Shutdown
@@ -966,7 +966,7 @@ cycle
 TabGroup
 -
 >
-DispatcherEventTarget
+SchedulerEventTarget
 -
 >
 TabGroup
@@ -1065,7 +1065,7 @@ already_AddRefed
 <
 nsIEventTarget
 >
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 CreateEventTargetFor
@@ -1076,12 +1076,12 @@ aCategory
 {
 RefPtr
 <
-DispatcherEventTarget
+SchedulerEventTarget
 >
 target
 =
 new
-DispatcherEventTarget
+SchedulerEventTarget
 (
 this
 aCategory
@@ -1100,9 +1100,9 @@ forget
 static
 *
 /
-ValidatingDispatcher
+SchedulerGroup
 *
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 FromEventTarget
@@ -1114,7 +1114,7 @@ aEventTarget
 {
 RefPtr
 <
-DispatcherEventTarget
+SchedulerEventTarget
 >
 target
 =
@@ -1143,7 +1143,7 @@ Dispatcher
 ;
 }
 nsresult
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 LabeledDispatch
@@ -1207,7 +1207,7 @@ forget
 ;
 }
 void
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 SetValidatingAccess
@@ -1262,7 +1262,7 @@ sRunningDispatcher
 )
 ;
 }
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 Runnable
@@ -1277,7 +1277,7 @@ nsIRunnable
 &
 &
 aRunnable
-ValidatingDispatcher
+SchedulerGroup
 *
 aDispatcher
 )
@@ -1296,7 +1296,7 @@ aDispatcher
 {
 }
 NS_IMETHODIMP
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 Runnable
@@ -1372,7 +1372,7 @@ return
 result
 ;
 }
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 AutoProcessEvent
@@ -1384,13 +1384,13 @@ AutoProcessEvent
 :
 mPrevRunningDispatcher
 (
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 sRunningDispatcher
 )
 {
-ValidatingDispatcher
+SchedulerGroup
 *
 prev
 =
@@ -1419,7 +1419,7 @@ EndValidation
 ;
 }
 }
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 AutoProcessEvent
@@ -1436,7 +1436,7 @@ MOZ_ASSERT
 sRunningDispatcher
 )
 ;
-ValidatingDispatcher
+SchedulerGroup
 *
 prev
 =

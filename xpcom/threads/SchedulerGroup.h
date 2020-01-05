@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_Dispatcher_h
+mozilla_SchedulerGroup_h
 #
 define
-mozilla_Dispatcher_h
+mozilla_SchedulerGroup_h
 #
 include
 "
@@ -305,11 +305,11 @@ of
 Dispatcher
 .
 class
-ValidatingDispatcher
+SchedulerGroup
 {
 public
 :
-ValidatingDispatcher
+SchedulerGroup
 (
 )
 ;
@@ -332,7 +332,7 @@ AutoProcessEvent
 ;
 private
 :
-ValidatingDispatcher
+SchedulerGroup
 *
 mPrevRunningDispatcher
 ;
@@ -586,7 +586,7 @@ dispatcher
 |
 .
 static
-ValidatingDispatcher
+SchedulerGroup
 *
 FromEventTarget
 (
@@ -659,7 +659,7 @@ aType
 )
 ;
 static
-ValidatingDispatcher
+SchedulerGroup
 *
 sRunningDispatcher
 ;
@@ -707,4 +707,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_Dispatcher_h
+mozilla_SchedulerGroup_h

@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-Dispatcher
+SchedulerGroup
 .
 h
 "
@@ -183,7 +183,7 @@ aRunnable
 )
 {
 return
-ValidatingDispatcher
+SchedulerGroup
 :
 :
 UnlabeledDispatch
