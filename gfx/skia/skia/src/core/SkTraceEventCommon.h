@@ -36,6 +36,12 @@ the
 LICENSE
 file
 .
+#
+ifndef
+SkTraceEventCommon_DEFINED
+#
+define
+SkTraceEventCommon_DEFINED
 /
 /
 This
@@ -8084,3 +8090,8 @@ TRACE_EVENT_SCOPE_NAME_THREAD
 t
 '
 )
+#
+endif
+/
+/
+SkTraceEventCommon_DEFINED

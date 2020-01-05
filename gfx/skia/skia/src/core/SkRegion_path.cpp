@@ -182,11 +182,11 @@ SkRgnBuilder
 (
 )
 ;
-virtual
 ~
 SkRgnBuilder
 (
 )
+override
 ;
 /
 /

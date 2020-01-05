@@ -66,6 +66,9 @@ GrContext
 class
 GrTexture
 ;
+class
+GrTextureProxy
+;
 /
 *
 *
@@ -142,6 +145,7 @@ this
 returns
 a
 texture
+proxy
 that
 has
 converted
@@ -229,9 +233,9 @@ NULL
 /
 sk_sp
 <
-GrTexture
+GrTextureProxy
 >
-refAsTexture
+refAsTextureProxy
 (
 GrContext
 *

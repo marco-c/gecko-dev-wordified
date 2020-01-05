@@ -128,10 +128,7 @@ body
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )

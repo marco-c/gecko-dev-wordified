@@ -124,6 +124,7 @@ sk_paint_t
 *
 sk_paint_new
 (
+void
 )
 ;
 /

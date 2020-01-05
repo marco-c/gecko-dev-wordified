@@ -289,11 +289,11 @@ SkTableMaskFilter
 )
 protected
 :
-virtual
 ~
 SkTableMaskFilter
 (
 )
+override
 ;
 void
 flatten

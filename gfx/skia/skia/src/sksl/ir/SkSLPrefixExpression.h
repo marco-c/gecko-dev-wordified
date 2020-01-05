@@ -46,6 +46,13 @@ SkSLExpression
 .
 h
 "
+#
+include
+"
+SkSLToken
+.
+h
+"
 namespace
 SkSL
 {
@@ -124,10 +131,7 @@ op
 {
 }
 virtual
-std
-:
-:
-string
+String
 description
 (
 )
@@ -151,7 +155,6 @@ description
 )
 ;
 }
-const
 std
 :
 :

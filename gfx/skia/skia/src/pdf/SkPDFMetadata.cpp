@@ -1417,7 +1417,7 @@ for
 xpacket
 "
 and
-extrac
+extract
 the
 entire
 XML

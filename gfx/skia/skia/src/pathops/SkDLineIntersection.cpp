@@ -1570,7 +1570,7 @@ nearer
 ]
 )
 ;
-SkASSERT
+SkOPASSERT
 (
 iA
 =

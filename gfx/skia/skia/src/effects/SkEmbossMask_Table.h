@@ -36,6 +36,12 @@ file
 *
 /
 #
+ifndef
+SkEmbossMask_Table_DEFINED
+#
+define
+SkEmbossMask_Table_DEFINED
+#
 include
 "
 SkTypes
@@ -16443,3 +16449,8 @@ gInvSqrtTable
 define
 kDeltaUsedToBuildTable
 32
+#
+endif
+/
+/
+SkEmbossMask_Table_DEFINED

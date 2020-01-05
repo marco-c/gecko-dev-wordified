@@ -1359,7 +1359,10 @@ isEmpty
 )
 ;
 #
-ifdef
+if
+1
+/
+/
 SK_SCALAR_IS_FLOAT
 /
 /

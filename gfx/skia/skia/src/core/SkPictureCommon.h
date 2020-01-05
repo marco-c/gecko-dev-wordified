@@ -33,6 +33,12 @@ file
 .
 *
 /
+#
+ifndef
+SkPictureCommon_DEFINED
+#
+define
+SkPictureCommon_DEFINED
 /
 /
 Some
@@ -1059,6 +1065,8 @@ op
 opAA
 .
 aa
+(
+)
 &
 &
 !
@@ -1190,3 +1198,8 @@ fNumSlowPathsAndDashEffects
 ;
 }
 ;
+#
+endif
+/
+/
+SkPictureCommon_DEFINED

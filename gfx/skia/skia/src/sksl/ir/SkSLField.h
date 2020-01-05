@@ -67,6 +67,13 @@ SkSLType
 .
 h
 "
+#
+include
+"
+SkSLVariable
+.
+h
+"
 namespace
 SkSL
 {
@@ -167,10 +174,7 @@ fieldIndex
 {
 }
 virtual
-std
-:
-:
-string
+String
 description
 (
 )
