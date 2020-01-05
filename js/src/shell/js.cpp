@@ -46283,8 +46283,6 @@ ShellOpenAsmJSCacheEntryForWrite
 (
 HandleObject
 global
-bool
-installed
 const
 char16_t
 *
