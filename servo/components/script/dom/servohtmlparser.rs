@@ -3556,6 +3556,7 @@ trace_handle
 self
 node
 :
+&
 JS
 <
 Node
