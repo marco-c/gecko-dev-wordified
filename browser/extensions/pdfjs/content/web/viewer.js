@@ -34942,10 +34942,12 @@ null
 if
 (
 error
-instanceof
-pdfjsLib
-.
-RenderingCancelledException
+=
+=
+=
+'
+cancelled
+'
 )
 {
 self
