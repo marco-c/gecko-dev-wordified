@@ -994,9 +994,6 @@ static
 nsresult
 ResolveParagraph
 (
-nsBlockFrame
-*
-aBlockFrame
 BidiParagraphData
 *
 aBpd
@@ -1006,9 +1003,6 @@ static
 void
 ResolveParagraphWithinBlock
 (
-nsBlockFrame
-*
-aBlockFrame
 BidiParagraphData
 *
 aBpd
@@ -2557,9 +2551,6 @@ static
 void
 TraverseFrames
 (
-nsBlockFrame
-*
-aBlockFrame
 nsBlockInFlowLineIterator
 *
 aLineIter
