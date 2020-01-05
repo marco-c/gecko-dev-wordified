@@ -700,6 +700,7 @@ aMallocSizeOf
 )
 const
 ;
+virtual
 bool
 ElementHasHref
 (

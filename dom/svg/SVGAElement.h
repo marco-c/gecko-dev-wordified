@@ -489,6 +489,17 @@ override
 ;
 /
 /
+Link
+virtual
+bool
+ElementHasHref
+(
+)
+const
+override
+;
+/
+/
 WebIDL
 already_AddRefed
 <
