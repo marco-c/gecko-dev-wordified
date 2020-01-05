@@ -164,6 +164,12 @@ originalURI
 =
 aURI
 ;
+aLoadInfo
+.
+resultPrincipalURI
+=
+aURI
+;
 return
 channel
 ;
