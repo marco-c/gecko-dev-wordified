@@ -284,6 +284,15 @@ mProxy
 (
 aProxy
 )
+mDecryptorId
+(
+aProxy
+-
+>
+GetDecryptorId
+(
+)
+)
 {
 }
 void
