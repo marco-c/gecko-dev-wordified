@@ -846,6 +846,8 @@ Throw
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
+return
+;
 }
 nsCOMPtr
 <
@@ -908,6 +910,8 @@ Throw
 (
 NS_ERROR_UNEXPECTED
 )
+;
+return
 ;
 }
 aValue
