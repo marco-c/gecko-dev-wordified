@@ -1220,6 +1220,17 @@ animation_type
 "
 none
 "
+extra_gecko_values
+=
+"
+visiblepainted
+visiblefill
+visiblestroke
+visible
+painted
+fill
+stroke
+"
 spec
 =
 "
