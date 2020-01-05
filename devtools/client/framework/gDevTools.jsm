@@ -538,6 +538,16 @@ getThemeDefinitionArray
 /
 Used
 by
+WebExtensions
+devtools
+API
+"
+getTheme
+"
+/
+/
+Used
+by
 theme
 -
 switching
