@@ -309,6 +309,10 @@ MOZ_ANDROID_SEARCH_ACTIVITY
 '
                 
 '
+MOZ_CRASHREPORTER
+'
+                
+'
 MOZ_DEBUG
 '
                 
@@ -437,10 +441,6 @@ MOZ_APP_VERSION
                 
 '
 MOZ_CHILD_PROCESS_NAME
-'
-                
-'
-MOZ_CRASHREPORTER
 '
                 
 '
