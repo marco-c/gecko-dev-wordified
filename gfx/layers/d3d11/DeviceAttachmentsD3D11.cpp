@@ -185,6 +185,10 @@ mInitialized
 (
 false
 )
+mDeviceReset
+(
+false
+)
 {
 }
 DeviceAttachmentsD3D11
