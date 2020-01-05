@@ -13594,10 +13594,8 @@ iter_declarations
 (
 )
 {
-match
-*
-declaration
-{
+if
+let
 PropertyDeclaration
 :
 :
@@ -13609,7 +13607,8 @@ ref
 value
 )
 =
->
+*
+declaration
 {
 :
 :
@@ -13629,12 +13628,6 @@ seen_custom
 name
 value
 )
-}
-_
-=
->
-{
-}
 }
 }
 let
