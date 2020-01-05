@@ -160,6 +160,9 @@ run
     
 if
 minute
+is
+not
+None
 and
 minute
 %
@@ -190,6 +193,9 @@ hour
     
 if
 hour
+is
+not
+None
 and
 params
 [
@@ -209,6 +215,9 @@ False
     
 if
 minute
+is
+not
+None
 and
 params
 [
