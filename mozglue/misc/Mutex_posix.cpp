@@ -147,20 +147,16 @@ h
 #
 include
 "
-threading
+mozilla
 /
-Mutex
+PlatformMutex
 .
 h
 "
 #
 include
 "
-threading
-/
-posix
-/
-MutexPlatformData
+MutexPlatformData_posix
 .
 h
 "
@@ -211,7 +207,7 @@ msg
 }
 \
 }
-js
+mozilla
 :
 :
 detail
@@ -244,7 +240,7 @@ pthread_mutexattr_init
 attr
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -269,7 +265,7 @@ attr
 PTHREAD_MUTEX_ERRORCHECK
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -306,7 +302,7 @@ ptMutex
 attrp
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -333,7 +329,7 @@ pthread_mutexattr_destroy
 attr
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -352,7 +348,7 @@ failed
 #
 endif
 }
-js
+mozilla
 :
 :
 detail
@@ -379,7 +375,7 @@ platformData
 ptMutex
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -398,7 +394,7 @@ failed
 ;
 }
 void
-js
+mozilla
 :
 :
 detail
@@ -424,7 +420,7 @@ platformData
 ptMutex
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -442,7 +438,7 @@ failed
 ;
 }
 void
-js
+mozilla
 :
 :
 detail
@@ -468,7 +464,7 @@ platformData
 ptMutex
 )
 "
-js
+mozilla
 :
 :
 detail
@@ -488,7 +484,7 @@ failed
 #
 undef
 TRY_CALL_PTHREADS
-js
+mozilla
 :
 :
 detail
@@ -499,7 +495,7 @@ MutexImpl
 :
 PlatformData
 *
-js
+mozilla
 :
 :
 detail
