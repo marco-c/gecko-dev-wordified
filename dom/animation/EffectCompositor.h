@@ -1755,7 +1755,7 @@ pseudo
 )
 element
 .
-void
+bool
 PreTraverse
 (
 dom
