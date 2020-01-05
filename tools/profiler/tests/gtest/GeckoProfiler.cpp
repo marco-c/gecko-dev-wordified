@@ -2538,7 +2538,7 @@ an
 assertion
 failure
 in
-stopJSSampling
+StopJSSampling
 (
 )
 .
