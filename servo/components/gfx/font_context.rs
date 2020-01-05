@@ -141,6 +141,12 @@ smallvec
 SmallVec8
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -506,7 +512,7 @@ pt_size
 Au
 identifier
 :
-String
+Atom
 font
 :
 Rc

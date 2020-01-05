@@ -87,13 +87,10 @@ use
 core_text
 ;
 use
-std
+string_cache
 :
 :
-borrow
-:
-:
-ToOwned
+Atom
 ;
 /
 /
@@ -153,7 +150,7 @@ CTFont
 pub
 identifier
 :
-String
+Atom
 pub
 font_data
 :
@@ -188,8 +185,7 @@ new
 (
 identifier
 :
-&
-str
+Atom
 font_data
 :
 Option
@@ -290,6 +286,10 @@ font
 new_from_name
 (
 identifier
+.
+as_slice
+(
+)
 0
 .
 0
