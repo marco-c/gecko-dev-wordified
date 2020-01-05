@@ -367,6 +367,16 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 nsRange
 nsIDOMRange
 )
+nsrefcnt
+GetRefCount
+(
+)
+const
+{
+return
+mRefCnt
+;
+}
 /
 *
 *
