@@ -682,7 +682,7 @@ uriParams
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -910,7 +910,7 @@ uriParams
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if

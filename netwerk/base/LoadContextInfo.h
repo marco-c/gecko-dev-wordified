@@ -95,7 +95,7 @@ LoadContextInfo
 (
 bool
 aIsAnonymous
-NeckoOriginAttributes
+OriginAttributes
 aOriginAttributes
 )
 ;
@@ -114,7 +114,7 @@ mIsAnonymous
 :
 1
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 }
@@ -192,7 +192,7 @@ GetLoadContextInfo
 bool
 const
 aIsAnonymous
-NeckoOriginAttributes
+OriginAttributes
 const
 &
 aOriginAttributes

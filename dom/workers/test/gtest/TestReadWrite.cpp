@@ -1912,7 +1912,7 @@ ContentPrincipalInfo
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 (
 i
 i
@@ -2098,7 +2098,7 @@ principal
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 (
 i
@@ -5722,7 +5722,7 @@ ContentPrincipalInfo
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 (
 0
 false
@@ -5895,7 +5895,7 @@ principal
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 (
 0

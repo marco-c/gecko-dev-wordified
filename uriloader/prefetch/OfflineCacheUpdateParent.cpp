@@ -199,13 +199,7 @@ using
 mozilla
 :
 :
-DocShellOriginAttributes
-;
-using
-mozilla
-:
-:
-PrincipalOriginAttributes
+OriginAttributes
 ;
 using
 mozilla

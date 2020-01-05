@@ -3822,7 +3822,7 @@ loadContext
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 oa
 ;
 bool

@@ -2715,7 +2715,7 @@ return
 true
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCOMPtr

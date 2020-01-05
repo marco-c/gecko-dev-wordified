@@ -205,13 +205,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
-;
-using
-mozilla
-:
-:
-PrincipalOriginAttributes
+OriginAttributes
 ;
 using
 mozilla
@@ -274,7 +268,7 @@ CreateDummyChannel
 nsIURI
 *
 aHostURI
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 bool
@@ -285,12 +279,12 @@ nsIChannel
 aChannel
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
 .
-InheritFromNecko
+Inherit
 (
 aAttrs
 )
@@ -595,7 +589,7 @@ bool
 &
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsCString
@@ -725,7 +719,7 @@ bool
 &
 aFromHttp
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -900,7 +894,7 @@ CreateDummyChannel
 hostURI
 const_cast
 <
-NeckoOriginAttributes
+OriginAttributes
 &
 >
 (

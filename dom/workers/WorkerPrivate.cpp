@@ -22011,7 +22011,7 @@ loadInfo
 .
 mOriginAttributes
 =
-PrincipalOriginAttributes
+OriginAttributes
 (
 )
 ;

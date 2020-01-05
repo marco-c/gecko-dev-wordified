@@ -8173,7 +8173,7 @@ cx
 HandleString
 codebase
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsIPrincipal
@@ -8727,7 +8727,7 @@ match
 .
 Maybe
 <
-PrincipalOriginAttributes
+OriginAttributes
 >
 attrs
 ;
@@ -9109,7 +9109,7 @@ originAttributes
 )
 {
 const
-PrincipalOriginAttributes
+OriginAttributes
 prinAttrs
 =
 principal
@@ -11261,7 +11261,7 @@ toString
 )
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

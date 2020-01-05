@@ -747,11 +747,11 @@ in
 *
 /
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 /
@@ -905,11 +905,11 @@ optional
 *
 /
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 /

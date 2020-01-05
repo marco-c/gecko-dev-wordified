@@ -12067,7 +12067,7 @@ mProxyInfo
 )
 ;
 }
-NeckoOriginAttributes
+OriginAttributes
 originAttributes
 ;
 NS_GetOriginAttributes
@@ -37871,7 +37871,7 @@ SetDoNotTrack
 (
 )
 ;
-NeckoOriginAttributes
+OriginAttributes
 originAttributes
 ;
 NS_GetOriginAttributes

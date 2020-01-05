@@ -296,7 +296,7 @@ nsIURI
 *
 aURI
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsIDocument
@@ -389,7 +389,7 @@ ImageURL
 *
 aURI
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsIDocument
@@ -754,7 +754,7 @@ uint64_t
 &
 aBlobSerial
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 void

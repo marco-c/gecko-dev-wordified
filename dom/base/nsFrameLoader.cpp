@@ -8054,7 +8054,7 @@ the
 other
 one
 .
-DocShellOriginAttributes
+OriginAttributes
 ourOriginAttributes
 =
 mRemoteBrowser
@@ -8077,7 +8077,7 @@ rv
 rv
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 otherOriginAttributes
 =
 aOther
@@ -10661,7 +10661,7 @@ the
 other
 one
 .
-DocShellOriginAttributes
+OriginAttributes
 ourOriginAttributes
 =
 ourDocshell
@@ -10684,7 +10684,7 @@ rv
 rv
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 otherOriginAttributes
 =
 otherDocshell
@@ -14595,7 +14595,7 @@ partialListener
 ;
 }
 }
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -14736,8 +14736,8 @@ OwnerIsMozBrowserFrame
 )
 )
 {
-PrincipalOriginAttributes
-poa
+OriginAttributes
+oa
 =
 doc
 -
@@ -14804,16 +14804,16 @@ want
 to
 make
 sure
-InheritFromDocToChildDocShell
+Inherit
 doesn
 '
 t
 override
-/
-/
 any
 other
 origin
+/
+/
 attribute
 than
 firstPartyDomain
@@ -14825,7 +14825,7 @@ attrs
 mAppId
 =
 =
-poa
+oa
 .
 mAppId
 "
@@ -14849,7 +14849,7 @@ attrs
 mUserContextId
 =
 =
-poa
+oa
 .
 mUserContextId
 "
@@ -14873,7 +14873,7 @@ attrs
 mInIsolatedMozBrowser
 =
 =
-poa
+oa
 .
 mInIsolatedMozBrowser
 "
@@ -14897,7 +14897,7 @@ attrs
 mPrivateBrowsingId
 =
 =
-poa
+oa
 .
 mPrivateBrowsingId
 "
@@ -14916,9 +14916,9 @@ attribute
 ;
 attrs
 .
-InheritFromDocToChildDocShell
+Inherit
 (
-poa
+oa
 )
 ;
 }
@@ -20802,7 +20802,7 @@ nsIURI
 aURI
 )
 {
-DocShellOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
@@ -21029,7 +21029,7 @@ nsFrameLoader
 :
 PopulateUserContextIdFromAttribute
 (
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttr
 )

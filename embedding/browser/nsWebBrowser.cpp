@@ -2252,7 +2252,7 @@ nsWebBrowser
 SetOriginAttributes
 (
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )

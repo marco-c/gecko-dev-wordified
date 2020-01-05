@@ -1555,7 +1555,7 @@ callbacks
 uint32_t
 caps
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 )

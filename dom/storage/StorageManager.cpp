@@ -2326,7 +2326,7 @@ Next
 )
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 oa
 ;
 DebugOnly

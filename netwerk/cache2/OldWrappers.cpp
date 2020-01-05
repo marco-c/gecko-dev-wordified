@@ -2439,7 +2439,7 @@ nsCacheStoragePolicy
 storagePolicy
 bool
 isPrivate
-NeckoOriginAttributes
+OriginAttributes
 const
 *
 originAttribs

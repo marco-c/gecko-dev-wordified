@@ -138,7 +138,7 @@ namespace
 mozilla
 {
 class
-NeckoOriginAttributes
+OriginAttributes
 ;
 }
 namespace
@@ -175,7 +175,7 @@ char
 *
 url
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const

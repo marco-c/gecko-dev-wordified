@@ -527,7 +527,7 @@ return
 nullptr
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

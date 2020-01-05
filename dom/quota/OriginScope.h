@@ -165,7 +165,7 @@ OriginAndAttributes
 nsCString
 mOrigin
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mAttributes
 ;
 OriginAndAttributes

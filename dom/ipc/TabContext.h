@@ -441,7 +441,7 @@ OriginAttributesRef
 )
 returns
 the
-DocShellOriginAttributes
+OriginAttributes
 of
 this
 frame
@@ -469,7 +469,7 @@ docshell
 *
 /
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 OriginAttributesRef
 (
@@ -647,7 +647,7 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -816,7 +816,7 @@ mIsMozBrowserElement
 *
 *
 *
-DocShellOriginAttributes
+OriginAttributes
 of
 the
 top
@@ -825,7 +825,7 @@ tab
 docShell
 *
 /
-DocShellOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 /
@@ -942,7 +942,7 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

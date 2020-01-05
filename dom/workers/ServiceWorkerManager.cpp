@@ -2244,7 +2244,7 @@ public
 PropagateSoftUpdateRunnable
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -2313,7 +2313,7 @@ PropagateSoftUpdateRunnable
 {
 }
 const
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 const
@@ -5213,7 +5213,7 @@ uint8_t
 aData
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -5309,7 +5309,7 @@ nsACString
 aScope
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -5417,7 +5417,7 @@ nsAString
 aBehavior
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -6161,7 +6161,7 @@ ServiceWorkerManager
 GetActiveWorkerInfoForScope
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -12333,7 +12333,7 @@ ServiceWorkerManager
 DispatchFetchEvent
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 nsIDocument
@@ -13663,7 +13663,7 @@ ServiceWorkerManager
 SoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -19004,7 +19004,7 @@ AssertIsOnMainThread
 (
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -19048,7 +19048,7 @@ ServiceWorkerManager
 PropagateSoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -20427,7 +20427,7 @@ CheckAndClearIfUpdateNeeded
 return
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 =
 aPrincipal

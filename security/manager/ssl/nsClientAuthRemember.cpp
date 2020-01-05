@@ -518,7 +518,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 CERTCertificate
@@ -676,7 +676,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 CERTCertificate
@@ -822,7 +822,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -942,7 +942,7 @@ nsACString
 &
 aHostName
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const

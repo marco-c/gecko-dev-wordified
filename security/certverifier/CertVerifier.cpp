@@ -1991,7 +1991,7 @@ optional
 *
 /
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 /
@@ -4459,7 +4459,7 @@ optional
 *
 /
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 /

@@ -1976,7 +1976,7 @@ nullptr
 documentURI
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 mPrincipal

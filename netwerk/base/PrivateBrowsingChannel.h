@@ -465,7 +465,7 @@ if
 loadInfo
 )
 {
-NeckoOriginAttributes
+OriginAttributes
 attrs
 =
 loadInfo

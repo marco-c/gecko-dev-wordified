@@ -399,7 +399,7 @@ sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 UniqueCERTCertList

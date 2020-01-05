@@ -863,7 +863,7 @@ nsCString
 aSuffix
 )
 {
-GenericOriginAttributes
+OriginAttributes
 attrs
 (
 aAttrs
@@ -910,7 +910,7 @@ OriginAttributesPatternDictionary
 aPattern
 )
 {
-GenericOriginAttributes
+OriginAttributes
 attrs
 (
 aAttrs
@@ -963,7 +963,7 @@ ErrorResult
 aRv
 )
 {
-GenericOriginAttributes
+OriginAttributes
 attrs
 ;
 nsAutoCString

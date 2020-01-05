@@ -2871,7 +2871,7 @@ mStorageAllowed
 ;
 }
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (

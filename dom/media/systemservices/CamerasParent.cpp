@@ -4221,7 +4221,7 @@ originNoSuffix
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

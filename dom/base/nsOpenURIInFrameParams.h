@@ -141,7 +141,7 @@ namespace
 mozilla
 {
 class
-DocShellOriginAttributes
+OriginAttributes
 ;
 }
 class
@@ -162,7 +162,7 @@ const
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -177,7 +177,7 @@ nsOpenURIInFrameParams
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 mOpenerOriginAttributes
 ;
 nsString

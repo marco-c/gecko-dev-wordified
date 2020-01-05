@@ -402,7 +402,7 @@ OriginSuffix
 (
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 oa
 ;
 if
@@ -4255,7 +4255,7 @@ rv
 rv
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 oa
 ;
 bool
@@ -6457,7 +6457,7 @@ OriginAttributesPattern
 aPattern
 )
 {
-PrincipalOriginAttributes
+OriginAttributes
 oa
 ;
 DebugOnly

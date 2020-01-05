@@ -205,7 +205,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 class
 nsILoadGroup
@@ -554,7 +554,7 @@ char
 *
 httpRequestMethod
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const
@@ -642,7 +642,7 @@ mPostData
 nsCString
 mPostContentType
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 PRIntervalTime
@@ -769,7 +769,7 @@ char
 *
 httpRequestMethod
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 originAttributes
 const

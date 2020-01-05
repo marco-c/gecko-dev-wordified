@@ -9175,7 +9175,7 @@ cookieMgr2
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 /

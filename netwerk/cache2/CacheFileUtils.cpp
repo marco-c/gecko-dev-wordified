@@ -231,18 +231,6 @@ Tokenizer
 (
 aInput
 )
-/
-/
-Initialize
-attributes
-to
-their
-default
-values
-originAttribs
-(
-false
-)
 isAnonymous
 (
 false
@@ -270,7 +258,7 @@ private
 /
 /
 Results
-NeckoOriginAttributes
+OriginAttributes
 originAttribs
 ;
 bool
@@ -1039,7 +1027,7 @@ code
 .
 *
 /
-NeckoOriginAttributes
+OriginAttributes
 const
 *
 oa

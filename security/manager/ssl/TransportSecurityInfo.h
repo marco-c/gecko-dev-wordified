@@ -371,7 +371,7 @@ aPort
 )
 ;
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (
@@ -386,7 +386,7 @@ nsresult
 SetOriginAttributes
 (
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -563,7 +563,7 @@ mPort
 nsXPIDLCString
 mHostName
 ;
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 /

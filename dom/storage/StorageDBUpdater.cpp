@@ -875,7 +875,7 @@ break
 }
 else
 {
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 (
 appId

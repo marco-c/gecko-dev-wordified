@@ -1922,7 +1922,7 @@ transport
 is
 built
 .
-NeckoOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 uint16_t

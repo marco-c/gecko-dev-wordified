@@ -7843,7 +7843,7 @@ t
 save
 intermediates
 aFlags
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 &
@@ -7884,7 +7884,7 @@ nullptr
 /
 /
 sctsFromTLSExtension
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 &

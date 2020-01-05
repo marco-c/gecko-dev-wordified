@@ -531,7 +531,7 @@ const
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 &
 theirAttrs
 =
@@ -546,7 +546,7 @@ const
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 &
 ourAttrs
 =
@@ -939,7 +939,7 @@ aURI
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 nsCOMPtr

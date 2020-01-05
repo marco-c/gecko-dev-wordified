@@ -654,7 +654,7 @@ mDocShellAsTextScroll
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 nsCOMPtr

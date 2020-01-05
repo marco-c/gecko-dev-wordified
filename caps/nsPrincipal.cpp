@@ -508,7 +508,7 @@ nsIURI
 *
 aCodebase
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 )
@@ -2352,7 +2352,7 @@ rv
 rv
 )
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 bool
@@ -4708,7 +4708,7 @@ nsIPrincipal
 &
 aWhiteList
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 )

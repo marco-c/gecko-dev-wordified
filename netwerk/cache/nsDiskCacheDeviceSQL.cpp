@@ -406,7 +406,7 @@ using
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 ;
 static
 const
@@ -14086,7 +14086,7 @@ hash
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 oa
 ;
 bool

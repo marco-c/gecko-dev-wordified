@@ -1281,7 +1281,7 @@ rv
 )
 ;
 }
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 rv

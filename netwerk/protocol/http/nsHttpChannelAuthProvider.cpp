@@ -379,7 +379,7 @@ nsACString
 aSuffix
 )
 {
-NeckoOriginAttributes
+OriginAttributes
 oa
 ;
 /

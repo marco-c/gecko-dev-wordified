@@ -1317,7 +1317,7 @@ const
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (
@@ -1334,7 +1334,7 @@ const
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttrs
 )
@@ -6318,7 +6318,7 @@ mOpener
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 /

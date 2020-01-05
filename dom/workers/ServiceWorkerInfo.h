@@ -248,7 +248,7 @@ mLoadFlags
 ServiceWorkerState
 mState
 ;
-PrincipalOriginAttributes
+OriginAttributes
 mOriginAttributes
 ;
 /
@@ -488,7 +488,7 @@ mState
 ;
 }
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 GetOriginAttributes
 (

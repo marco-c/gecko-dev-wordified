@@ -670,12 +670,12 @@ mRequestSession
 mOriginAttributes
 !
 =
-NeckoOriginAttributes
+OriginAttributes
 (
 )
 )
 {
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 attrs
@@ -1264,7 +1264,7 @@ char
 *
 http_request_method
 const
-NeckoOriginAttributes
+OriginAttributes
 &
 origin_attributes
 const

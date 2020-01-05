@@ -214,7 +214,7 @@ namespace
 mozilla
 {
 class
-PrincipalOriginAttributes
+OriginAttributes
 ;
 }
 /
@@ -616,7 +616,7 @@ MaybeSetAddonIdFromURI
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 &
 aAttrs
 nsIURI

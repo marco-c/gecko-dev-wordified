@@ -283,7 +283,7 @@ namespace
 mozilla
 {
 class
-DocShellOriginAttributes
+OriginAttributes
 ;
 namespace
 dom
@@ -1837,7 +1837,7 @@ PopulateUserContextIdFromAttribute
 mozilla
 :
 :
-DocShellOriginAttributes
+OriginAttributes
 &
 aAttr
 )

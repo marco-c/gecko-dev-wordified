@@ -14138,7 +14138,7 @@ IsEmpty
 nsAutoCString
 originNoSuffix
 ;
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 ;
 if

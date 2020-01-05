@@ -2435,7 +2435,7 @@ nsCString
 &
 aBaseURI
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOpenerOriginAttributes
 const
@@ -2511,7 +2511,7 @@ nsCString
 &
 aBaseURI
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOpenerOriginAttributes
 const
@@ -2981,7 +2981,7 @@ nsCString
 &
 aBaseURI
 const
-DocShellOriginAttributes
+OriginAttributes
 &
 aOpenerOriginAttributes
 const

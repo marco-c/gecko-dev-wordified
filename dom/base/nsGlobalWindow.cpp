@@ -2041,7 +2041,7 @@ using
 mozilla
 :
 :
-PrincipalOriginAttributes
+OriginAttributes
 ;
 using
 mozilla
@@ -14525,7 +14525,7 @@ is
 convenient
 .
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 attrs
 =
@@ -46870,7 +46870,7 @@ EmptyCString
 return
 ;
 }
-PrincipalOriginAttributes
+OriginAttributes
 attrs
 =
 aSubjectPrincipal

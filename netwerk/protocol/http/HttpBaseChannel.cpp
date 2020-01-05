@@ -15794,7 +15794,7 @@ TYPE_INTERNAL_IMAGE_FAVICON
 return
 ;
 }
-DocShellOriginAttributes
+OriginAttributes
 docShellAttrs
 ;
 loadContext
@@ -17520,7 +17520,7 @@ this
 loadContext
 )
 ;
-DocShellOriginAttributes
+OriginAttributes
 docShellAttrs
 ;
 if
@@ -17537,7 +17537,7 @@ docShellAttrs
 )
 ;
 }
-NeckoOriginAttributes
+OriginAttributes
 attrs
 =
 newLoadInfo
@@ -17621,9 +17621,15 @@ attribute
 ;
 attrs
 .
-InheritFromDocShellToNecko
+Inherit
 (
 docShellAttrs
+)
+;
+attrs
+.
+SetFirstPartyDomain
+(
 true
 newURI
 )
