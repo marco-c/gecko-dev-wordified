@@ -645,6 +645,12 @@ the
 hint
 nsStyleChangeList
 changeList
+(
+StyleBackendType
+:
+:
+Gecko
+)
 ;
 changeList
 .

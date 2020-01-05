@@ -2731,6 +2731,12 @@ construction
 .
 nsStyleChangeList
 currentChanges
+(
+StyleBackendType
+:
+:
+Servo
+)
 ;
 DocumentStyleRootIterator
 iter
