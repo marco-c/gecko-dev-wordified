@@ -15281,6 +15281,10 @@ AutocompleteAttrState
 aCachedState
 =
 eAutocompleteAttrState_Unknown
+bool
+aGrantAllValidValue
+=
+false
 )
 ;
 /
@@ -18746,6 +18750,10 @@ dom
 AutocompleteInfo
 &
 aInfo
+bool
+aGrantAllValidValue
+=
+false
 )
 ;
 static

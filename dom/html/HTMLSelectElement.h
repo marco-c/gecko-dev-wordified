@@ -3423,6 +3423,12 @@ nsContentUtils
 AutocompleteAttrState
 mAutocompleteAttrState
 ;
+nsContentUtils
+:
+:
+AutocompleteAttrState
+mAutocompleteInfoState
+;
 /
 *
 *
