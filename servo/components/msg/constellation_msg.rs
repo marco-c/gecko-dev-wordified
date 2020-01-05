@@ -1542,7 +1542,8 @@ ReferrerPolicy
 {
 NoReferrer
 NoRefWhenDowngrade
-OriginOnly
+Origin
+SameOrigin
 OriginWhenCrossOrigin
 UnsafeUrl
 }
