@@ -1134,6 +1134,10 @@ parameters
 bool
 alwaysBaseline_
 ;
+UniqueChars
+*
+error_
+;
 /
 /
 Data
@@ -1403,6 +1407,9 @@ public
 explicit
 ModuleGenerator
 (
+UniqueChars
+*
+error
 )
 ;
 ~

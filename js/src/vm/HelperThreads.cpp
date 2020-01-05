@@ -8406,6 +8406,9 @@ success
 =
 false
 ;
+UniqueChars
+error
+;
 wasm
 :
 :
@@ -8432,6 +8435,8 @@ wasm
 CompileFunction
 (
 task
+&
+error
 )
 ;
 }
@@ -8486,6 +8491,7 @@ if
 !
 success
 )
+{
 HelperThreadState
 (
 )
@@ -8495,6 +8501,20 @@ noteWasmFailure
 locked
 )
 ;
+HelperThreadState
+(
+)
+.
+setWasmError
+(
+locked
+Move
+(
+error
+)
+)
+;
+}
 /
 /
 Notify

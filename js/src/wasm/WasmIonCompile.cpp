@@ -24245,6 +24245,9 @@ task
 FuncCompileUnit
 *
 unit
+UniqueChars
+*
+error
 )
 {
 MOZ_ASSERT
@@ -24295,6 +24298,7 @@ func
 bytes
 (
 )
+error
 )
 ;
 /

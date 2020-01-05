@@ -183,6 +183,15 @@ asmjs_wasm_baseline_compile_h
 #
 define
 asmjs_wasm_baseline_compile_h
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {
@@ -311,6 +320,9 @@ task
 FuncCompileUnit
 *
 unit
+UniqueChars
+*
+error
 )
 ;
 }

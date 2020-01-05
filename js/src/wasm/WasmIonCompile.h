@@ -192,6 +192,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {
@@ -227,6 +236,9 @@ task
 FuncCompileUnit
 *
 unit
+UniqueChars
+*
+error
 )
 ;
 }
