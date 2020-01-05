@@ -356,7 +356,6 @@ frame
 tree
 *
 /
-static
 void
 DebugVerifyStyleTree
 (
