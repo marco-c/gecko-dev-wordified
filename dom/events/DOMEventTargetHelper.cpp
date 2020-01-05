@@ -433,7 +433,7 @@ return
 tmp
 -
 >
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 tmp
 )

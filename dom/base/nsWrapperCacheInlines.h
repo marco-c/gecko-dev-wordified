@@ -408,7 +408,7 @@ bool
 nsWrapperCache
 :
 :
-IsBlackAndDoesNotNeedTracing
+HasKnownLiveWrapperAndDoesNotNeedTracing
 (
 nsISupports
 *
