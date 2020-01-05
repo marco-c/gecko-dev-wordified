@@ -804,7 +804,6 @@ pname
 case
 LOCAL_GL_CURRENT_QUERY_EXT
 :
-{
 if
 (
 target
@@ -892,11 +891,9 @@ NullValue
 }
 break
 ;
-}
 case
 LOCAL_GL_QUERY_COUNTER_BITS_EXT
 :
-{
 if
 (
 target
@@ -930,6 +927,7 @@ target
 return
 ;
 }
+{
 GLint
 bits
 =
@@ -978,9 +976,9 @@ bits
 )
 )
 ;
+}
 break
 ;
-}
 default
 :
 mContext
@@ -1187,9 +1185,9 @@ result
 )
 )
 ;
+}
 break
 ;
-}
 case
 LOCAL_GL_QUERY_RESULT_AVAILABLE_EXT
 :
@@ -1255,9 +1253,9 @@ canBeAvailable
 )
 )
 ;
+}
 break
 ;
-}
 default
 :
 mContext
