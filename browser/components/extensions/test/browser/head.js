@@ -1550,8 +1550,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 openContextMenu
 (
 selector
@@ -1587,7 +1587,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -1605,15 +1605,15 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 return
 contentAreaContextMenu
 ;
 }
+async
 function
-*
 closeContextMenu
 (
 )
@@ -1649,7 +1649,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }
