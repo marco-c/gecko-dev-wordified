@@ -57,9 +57,6 @@ MPL
 *
 /
 use
-azure
-;
-use
 command_line
 :
 :
@@ -326,9 +323,11 @@ to_string
 )
 )
 ;
-let
 opts
-=
+:
+:
+set_opts
+(
 opts
 :
 :
@@ -432,6 +431,7 @@ validate_display_list_geometry
 :
 false
 }
+)
 ;
 native
 :
