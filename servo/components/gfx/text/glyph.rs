@@ -158,7 +158,7 @@ range
 :
 :
 {
-mod
+self
 Range
 RangeIndex
 EachIndex

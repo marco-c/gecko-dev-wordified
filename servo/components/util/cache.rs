@@ -115,6 +115,7 @@ hash
 :
 {
 Hash
+Hasher
 SipHasher
 }
 ;
@@ -1157,7 +1158,7 @@ to_bucket
 (
 hasher
 .
-result
+finish
 (
 )
 as
