@@ -11446,7 +11446,11 @@ mDeleteNamedProperty
 )
 {
 return
-true
+opresult
+.
+succeed
+(
+)
 ;
 }
 return
