@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+[
+deriving
+(
+Encodable
+Clone
+)
+]
 pub
 struct
 ByteString
