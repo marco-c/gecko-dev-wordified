@@ -195,12 +195,6 @@ str
 DOMString
 ;
 use
-string_cache
-:
-:
-Atom
-;
-use
 std
 :
 :

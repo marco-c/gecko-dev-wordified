@@ -308,12 +308,6 @@ sync
 :
 Arc
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 dom_struct

@@ -328,12 +328,6 @@ cell
 :
 Cell
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 jstraceable
