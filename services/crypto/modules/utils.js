@@ -1961,8 +1961,6 @@ keyLength
 )
 ;
 }
-else
-{
 /
 /
 Fall
@@ -1997,7 +1995,6 @@ salt
 keyLength
 )
 ;
-}
 }
 /
 *
