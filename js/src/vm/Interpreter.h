@@ -3530,6 +3530,7 @@ CheckIsObjectKind
 uint8_t
 {
 IteratorNext
+GetIterator
 }
 ;
 bool
