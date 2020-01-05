@@ -1575,13 +1575,6 @@ Create
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 if
 (
 !
