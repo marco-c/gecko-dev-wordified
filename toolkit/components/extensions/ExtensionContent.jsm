@@ -7086,12 +7086,6 @@ init
 (
 )
 {
-Schemas
-.
-init
-(
-)
-;
 ExtensionChild
 .
 initOnce
