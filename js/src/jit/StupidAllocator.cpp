@@ -668,6 +668,12 @@ AnyRegister
 remainingRegisters
 .
 takeAnyFloat
+<
+RegTypeName
+:
+:
+Any
+>
 (
 )
 )
