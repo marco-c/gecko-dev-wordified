@@ -5374,7 +5374,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -5389,8 +5389,12 @@ foreground
 layers
 "
 LayersAllowButtonForegroundLayers
-bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
