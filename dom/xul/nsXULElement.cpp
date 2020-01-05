@@ -1454,9 +1454,8 @@ mHasClassAttribute
 element
 -
 >
-SetFlags
+SetMayHaveClass
 (
-NODE_MAY_HAVE_CLASS
 )
 ;
 }
@@ -2635,9 +2634,8 @@ _class
 element
 -
 >
-SetFlags
+SetMayHaveClass
 (
-NODE_MAY_HAVE_CLASS
 )
 ;
 }
