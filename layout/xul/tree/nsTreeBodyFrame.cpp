@@ -25877,7 +25877,6 @@ ForAllLayers
 (
 *
 aPresContext
-aRenderingContext
 aDirtyRect
 aRect
 this
@@ -25896,6 +25895,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+aRenderingContext
 aStyleContext
 *
 myBorder

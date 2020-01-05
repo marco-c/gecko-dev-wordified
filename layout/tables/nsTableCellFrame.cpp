@@ -2323,7 +2323,6 @@ ForAllLayers
 PresContext
 (
 )
-aRenderingContext
 aDirtyRect
 rect
 this
@@ -2337,6 +2336,7 @@ nsCSSRendering
 PaintStyleImageLayer
 (
 params
+aRenderingContext
 )
 ;
 }
@@ -7485,7 +7485,6 @@ ForAllLayers
 PresContext
 (
 )
-aRenderingContext
 aDirtyRect
 rect
 this
@@ -7499,6 +7498,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+aRenderingContext
 StyleContext
 (
 )

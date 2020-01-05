@@ -12083,9 +12083,6 @@ ForAllLayers
 nsPresContext
 &
 aPresCtx
-nsRenderingContext
-&
-aRenderingCtx
 const
 nsRect
 &
@@ -12112,7 +12109,6 @@ PaintBGParams
 result
 (
 aPresCtx
-aRenderingCtx
 aDirtyRect
 aBorderArea
 aFrame
@@ -12150,9 +12146,6 @@ ForSingleLayer
 nsPresContext
 &
 aPresCtx
-nsRenderingContext
-&
-aRenderingCtx
 const
 nsRect
 &
@@ -12192,7 +12185,6 @@ PaintBGParams
 result
 (
 aPresCtx
-aRenderingCtx
 aDirtyRect
 aBorderArea
 aFrame
@@ -12216,6 +12208,9 @@ const
 PaintBGParams
 &
 aParams
+nsRenderingContext
+&
+aRenderingCtx
 )
 {
 PROFILER_LABEL
@@ -12426,6 +12421,7 @@ return
 PaintStyleImageLayerWithSC
 (
 aParams
+aRenderingCtx
 sc
 *
 aParams
@@ -15691,6 +15687,9 @@ const
 PaintBGParams
 &
 aParams
+nsRenderingContext
+&
+aRenderingCtx
 nsStyleContext
 *
 aBackgroundSC
@@ -15911,9 +15910,7 @@ theme
 DrawWidgetBackground
 (
 &
-aParams
-.
-renderingCtx
+aRenderingCtx
 aParams
 .
 frame
@@ -16295,9 +16292,7 @@ gfxContext
 *
 ctx
 =
-aParams
-.
-renderingCtx
+aRenderingCtx
 .
 ThebesContext
 (
@@ -17334,9 +17329,7 @@ DrawLayer
 aParams
 .
 presCtx
-aParams
-.
-renderingCtx
+aRenderingCtx
 state
 .
 mDestArea

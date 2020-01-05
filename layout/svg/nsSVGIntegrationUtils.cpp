@@ -3469,7 +3469,6 @@ ForSingleLayer
 (
 *
 presContext
-rc
 aParams
 .
 dirtyRect
@@ -3505,6 +3504,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+rc
 aSC
 *
 aParams

@@ -1620,7 +1620,6 @@ ForAllLayers
 (
 *
 mPresContext
-mRenderingContext
 mDirtyRect
 tableData
 .
@@ -1642,6 +1641,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+mRenderingContext
 tableData
 .
 mFrame
@@ -3955,7 +3955,6 @@ ForAllLayers
 (
 *
 mPresContext
-mRenderingContext
 mDirtyRect
 mCols
 [
@@ -3994,6 +3993,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+mRenderingContext
 mCols
 [
 colIndex
@@ -4059,7 +4059,6 @@ ForAllLayers
 (
 *
 mPresContext
-mRenderingContext
 mDirtyRect
 mCols
 [
@@ -4098,6 +4097,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+mRenderingContext
 mCols
 [
 colIndex
@@ -4156,7 +4156,6 @@ ForAllLayers
 (
 *
 mPresContext
-mRenderingContext
 mDirtyRect
 aRowGroupBGData
 .
@@ -4185,6 +4184,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+mRenderingContext
 aRowGroupBGData
 .
 mFrame
@@ -4232,7 +4232,6 @@ ForAllLayers
 (
 *
 mPresContext
-mRenderingContext
 mDirtyRect
 aRowBGData
 .
@@ -4261,6 +4260,7 @@ nsCSSRendering
 PaintStyleImageLayerWithSC
 (
 params
+mRenderingContext
 aRowBGData
 .
 mFrame
