@@ -3648,11 +3648,6 @@ mUnscaledInnerSize
 aSize
 ;
 }
-void
-SendDeleteIfOpen
-(
-)
-;
 class
 DelayedDeleteRunnable
 ;
