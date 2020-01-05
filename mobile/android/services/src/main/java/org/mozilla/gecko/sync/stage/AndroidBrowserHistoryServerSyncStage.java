@@ -299,6 +299,11 @@ getCollection
 )
 session
 .
+getSyncDeadline
+(
+)
+session
+.
 config
 .
 storageURL
