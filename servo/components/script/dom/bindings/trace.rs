@@ -460,6 +460,7 @@ canvas_paint_task
 {
 LineCapStyle
 LineJoinStyle
+CompositionOrBlending
 }
 ;
 use
@@ -2126,6 +2127,7 @@ no_jsmanaged_fields
 (
 LineCapStyle
 LineJoinStyle
+CompositionOrBlending
 )
 ;
 impl

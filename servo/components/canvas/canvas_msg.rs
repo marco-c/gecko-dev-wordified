@@ -64,6 +64,7 @@ canvas_paint_task
 FillOrStrokeStyle
 LineCapStyle
 LineJoinStyle
+CompositionOrBlending
 }
 ;
 use
@@ -348,6 +349,10 @@ f32
 SetGlobalAlpha
 (
 f32
+)
+SetGlobalComposition
+(
+CompositionOrBlending
 )
 SetTransform
 (
