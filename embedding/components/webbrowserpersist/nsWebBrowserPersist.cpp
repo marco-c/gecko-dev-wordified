@@ -875,8 +875,9 @@ virtual
 OnWalk
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -953,8 +954,9 @@ virtual
 OnWrite
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -1044,8 +1046,9 @@ virtual
 FlatURIMap
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

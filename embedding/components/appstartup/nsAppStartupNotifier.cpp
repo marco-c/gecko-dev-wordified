@@ -176,8 +176,9 @@ nsAppStartupNotifier
 nsAppStartupNotifier
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsAppStartupNotifier
 :

@@ -171,8 +171,9 @@ WebBrowserPersistSerializeParent
 WebBrowserPersistSerializeParent
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

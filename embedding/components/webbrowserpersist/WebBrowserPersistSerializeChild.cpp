@@ -153,8 +153,9 @@ WebBrowserPersistSerializeChild
 WebBrowserPersistSerializeChild
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 WebBrowserPersistSerializeChild
 :

@@ -162,8 +162,9 @@ WebBrowserPersistDocumentChild
 WebBrowserPersistDocumentChild
 (
 )
-{
-}
+=
+default
+;
 void
 WebBrowserPersistDocumentChild
 :
