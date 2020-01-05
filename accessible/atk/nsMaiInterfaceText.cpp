@@ -3023,7 +3023,6 @@ aEndOffset
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
@@ -3171,7 +3170,6 @@ aEndOffset
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
@@ -3270,7 +3268,6 @@ aSelectionNum
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
@@ -3374,7 +3371,6 @@ aEndOffset
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
