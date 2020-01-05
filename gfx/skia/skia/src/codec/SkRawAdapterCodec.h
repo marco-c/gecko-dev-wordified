@@ -56,7 +56,7 @@ h
 #
 include
 "
-SkEncodedImageFormat
+SkEncodedFormat
 .
 h
 "
@@ -116,11 +116,11 @@ SkRawCodec
 *
 )
 ;
+virtual
 ~
 SkRawAdapterCodec
 (
 )
-override
 {
 }
 protected

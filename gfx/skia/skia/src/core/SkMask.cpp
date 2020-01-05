@@ -42,13 +42,6 @@ SkMask
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 /
 /
 #

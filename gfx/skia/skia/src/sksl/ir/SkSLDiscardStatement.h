@@ -87,7 +87,10 @@ kDiscard_Kind
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -95,13 +98,10 @@ const
 override
 {
 return
-String
-(
 "
 discard
 ;
 "
-)
 ;
 }
 typedef

@@ -287,7 +287,7 @@ up
 front
 subY
 =
-EXTRACT_LOW_BITS
+TILEY_LOW_BITS
 (
 fy
 maxY
@@ -406,7 +406,7 @@ do
 unsigned
 subX
 =
-EXTRACT_LOW_BITS
+TILEX_LOW_BITS
 (
 fx
 maxX
@@ -588,7 +588,10 @@ undef
 TILEY_PROCF
 #
 undef
-EXTRACT_LOW_BITS
+TILEX_LOW_BITS
+#
+undef
+TILEY_LOW_BITS
 #
 undef
 MAKENAME

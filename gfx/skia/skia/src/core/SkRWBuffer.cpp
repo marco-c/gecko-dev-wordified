@@ -36,13 +36,6 @@ file
 #
 include
 "
-SkRWBuffer
-.
-h
-"
-#
-include
-"
 SkAtomics
 .
 h
@@ -50,7 +43,7 @@ h
 #
 include
 "
-SkMalloc
+SkRWBuffer
 .
 h
 "
@@ -1895,11 +1888,11 @@ fLocalOffset
 0
 ;
 }
+virtual
 ~
 SkROBufferStreamAsset
 (
 )
-override
 {
 fBuffer
 -
@@ -2337,7 +2330,7 @@ newStreamSnapshot
 )
 const
 {
-sk_sp
+SkAutoTUnref
 <
 SkROBuffer
 >
@@ -2356,10 +2349,6 @@ new
 SkROBufferStreamAsset
 (
 buffer
-.
-get
-(
-)
 )
 ;
 }

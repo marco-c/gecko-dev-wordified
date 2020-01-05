@@ -117,7 +117,10 @@ IRNode
 {
 }
 virtual
-String
+std
+:
+:
+string
 description
 (
 )

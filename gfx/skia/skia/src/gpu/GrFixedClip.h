@@ -234,6 +234,10 @@ const
 GrWindowRectangles
 &
 windows
+const
+SkIPoint
+&
+origin
 GrWindowRectsState
 :
 :
@@ -246,6 +250,7 @@ fWindowRectsState
 set
 (
 windows
+origin
 mode
 )
 ;
@@ -287,8 +292,9 @@ rtBounds
 SkRRect
 *
 rr
-GrAA
+bool
 *
+aa
 )
 const
 override
@@ -298,14 +304,13 @@ apply
 (
 GrContext
 *
-GrRenderTargetContext
+GrDrawContext
 *
 bool
 bool
 GrAppliedClip
 *
-SkRect
-*
+out
 )
 const
 override

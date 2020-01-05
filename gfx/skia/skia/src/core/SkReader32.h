@@ -629,7 +629,7 @@ fCurr
 )
 )
 ;
-sk_careful_memcpy
+memcpy
 (
 dst
 fCurr

@@ -616,7 +616,7 @@ VertState
 :
 chooseProc
 (
-SkVertices
+SkCanvas
 :
 :
 VertexMode
@@ -629,7 +629,7 @@ mode
 )
 {
 case
-SkVertices
+SkCanvas
 :
 :
 kTriangles_VertexMode
@@ -642,7 +642,7 @@ TrianglesX
 Triangles
 ;
 case
-SkVertices
+SkCanvas
 :
 :
 kTriangleStrip_VertexMode
@@ -655,7 +655,7 @@ TriangleStripX
 TriangleStrip
 ;
 case
-SkVertices
+SkCanvas
 :
 :
 kTriangleFan_VertexMode

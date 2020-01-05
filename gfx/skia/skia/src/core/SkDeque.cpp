@@ -42,13 +42,6 @@ SkDeque
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 struct
 SkDeque
 :

@@ -1354,8 +1354,6 @@ private
 :
 SkTMaskPreBlend
 (
-sk_sp
-<
 const
 SkTMaskGamma
 <
@@ -1363,7 +1361,7 @@ R_LUM_BITS
 G_LUM_BITS
 B_LUM_BITS
 >
->
+*
 parent
 const
 uint8_t
@@ -1381,10 +1379,7 @@ b
 :
 fParent
 (
-std
-:
-:
-move
+SkSafeRef
 (
 parent
 )
@@ -1403,7 +1398,7 @@ b
 )
 {
 }
-sk_sp
+SkAutoTUnref
 <
 const
 SkTMaskGamma
@@ -1498,9 +1493,16 @@ that
 :
 fParent
 (
+SkSafeRef
+(
 that
 .
 fParent
+.
+get
+(
+)
+)
 )
 fR
 (
@@ -1632,10 +1634,7 @@ G_LUM_BITS
 B_LUM_BITS
 >
 (
-sk_ref_sp
-(
 this
-)
 fGammaTables
 [
 SkColorGetR

@@ -40,13 +40,6 @@ SkVarAlloc
 .
 h
 "
-#
-include
-"
-SkMalloc
-.
-h
-"
 struct
 SkVarAlloc
 :

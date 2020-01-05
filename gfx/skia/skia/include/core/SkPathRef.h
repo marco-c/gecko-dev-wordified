@@ -200,13 +200,7 @@ s
 *
 constructor
 a
-pointer
-to
-a
-sk_sp
-<
-SkPathRef
->
+SkAutoTUnref
 which
 may
 be
@@ -217,12 +211,12 @@ to
 a
 new
 SkPathRef
-*
 after
 the
 editor
 '
 s
+*
 constructor
 returns
 .
@@ -345,7 +339,7 @@ public
 :
 Editor
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >
@@ -1510,7 +1504,7 @@ static
 void
 CreateTransformedCopy
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >
@@ -1587,7 +1581,7 @@ static
 void
 Rewind
 (
-sk_sp
+SkAutoTUnref
 <
 SkPathRef
 >

@@ -42,13 +42,6 @@ SkAAClip_DEFINED
 #
 include
 "
-SkAutoMalloc
-.
-h
-"
-#
-include
-"
 SkBlitter
 .
 h
@@ -670,11 +663,11 @@ nullptr
 )
 {
 }
+virtual
 ~
 SkAAClipBlitter
 (
 )
-override
 ;
 void
 init

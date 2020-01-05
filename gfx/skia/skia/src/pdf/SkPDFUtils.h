@@ -266,12 +266,6 @@ doConsumeDegerates
 SkWStream
 *
 content
-SkScalar
-tolerance
-=
-0
-.
-25f
 )
 ;
 inline
@@ -290,12 +284,6 @@ paintStyle
 SkWStream
 *
 content
-SkScalar
-tolerance
-=
-0
-.
-25f
 )
 {
 SkPDFUtils
@@ -307,7 +295,6 @@ path
 paintStyle
 true
 content
-tolerance
 )
 ;
 }

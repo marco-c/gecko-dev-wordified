@@ -214,7 +214,7 @@ void
 data
 )
 {
-sk_sp
+SkAutoTUnref
 <
 GrGLBuffer
 >

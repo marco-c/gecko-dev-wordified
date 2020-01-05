@@ -580,7 +580,6 @@ color
 0xFF
 )
 static
-constexpr
 inline
 SkColor
 SkColorSetA
@@ -1750,18 +1749,6 @@ float
 a
 )
 ;
-/
-*
-*
-Convert
-to
-SkColor4f
-assuming
-SkColor
-is
-sRGB
-*
-/
 static
 SkColor4f
 FromColor

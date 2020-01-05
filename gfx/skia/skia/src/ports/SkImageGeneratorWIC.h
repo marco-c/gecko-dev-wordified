@@ -245,9 +245,7 @@ SkData
 *
 onRefEncodedData
 (
-GrContext
-*
-ctx
+SK_REFENCODEDDATA_CTXPARAM
 )
 override
 ;

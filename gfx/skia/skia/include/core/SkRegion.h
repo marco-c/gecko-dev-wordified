@@ -2917,12 +2917,6 @@ ibot
 )
 const
 ;
-bool
-isValid
-(
-)
-const
-;
 static
 void
 BuildRectRuns

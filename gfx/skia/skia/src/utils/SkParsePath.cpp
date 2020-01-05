@@ -1923,7 +1923,7 @@ resize
 (
 stream
 .
-bytesWritten
+getOffset
 (
 )
 )

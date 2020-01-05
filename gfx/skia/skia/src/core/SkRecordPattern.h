@@ -42,13 +42,6 @@ SkRecordPattern_DEFINED
 #
 include
 "
-SkRecord
-.
-h
-"
-#
-include
-"
 SkTLogic
 .
 h

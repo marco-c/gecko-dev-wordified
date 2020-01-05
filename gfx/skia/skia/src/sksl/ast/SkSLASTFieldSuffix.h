@@ -105,7 +105,10 @@ ASTFieldSuffix
 (
 Position
 position
-String
+std
+:
+:
+string
 field
 )
 :
@@ -129,7 +132,10 @@ field
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -144,7 +150,10 @@ return
 fField
 ;
 }
-String
+std
+:
+:
+string
 fField
 ;
 typedef

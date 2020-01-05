@@ -134,7 +134,10 @@ operand
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )

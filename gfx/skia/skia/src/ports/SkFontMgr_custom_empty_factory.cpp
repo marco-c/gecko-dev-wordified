@@ -43,14 +43,12 @@ h
 #
 include
 "
-SkFontMgr_empty
+SkFontMgr_custom
 .
 h
 "
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr
 :
 :

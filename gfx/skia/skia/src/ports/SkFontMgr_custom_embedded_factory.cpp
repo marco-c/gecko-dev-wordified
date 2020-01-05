@@ -66,10 +66,8 @@ count
 ;
 }
 ;
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr_New_Custom_Embedded
 (
 const
@@ -86,10 +84,8 @@ const
 SkEmbeddedResourceHeader
 SK_EMBEDDED_FONTS
 ;
-sk_sp
-<
 SkFontMgr
->
+*
 SkFontMgr
 :
 :

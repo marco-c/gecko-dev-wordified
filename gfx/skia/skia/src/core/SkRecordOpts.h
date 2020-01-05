@@ -94,9 +94,6 @@ SkRecord
 *
 )
 ;
-#
-ifndef
-SK_BUILD_FOR_ANDROID_FRAMEWORK
 /
 /
 For
@@ -137,8 +134,6 @@ SkRecord
 *
 )
 ;
-#
-endif
 /
 /
 For

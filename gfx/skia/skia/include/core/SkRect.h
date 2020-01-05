@@ -2009,6 +2009,7 @@ false
 *
 /
 bool
+SK_WARN_UNUSED_RESULT
 intersect
 (
 const
@@ -2446,6 +2447,7 @@ false
 *
 /
 bool
+SK_WARN_UNUSED_RESULT
 intersect
 (
 int32_t
@@ -4874,6 +4876,7 @@ false
 *
 /
 bool
+SK_WARN_UNUSED_RESULT
 intersect
 (
 const
@@ -4930,6 +4933,7 @@ false
 *
 /
 bool
+SK_WARN_UNUSED_RESULT
 intersect
 (
 SkScalar

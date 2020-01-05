@@ -607,10 +607,7 @@ fork
 )
 const
 {
-std
-:
-:
-unique_ptr
+SkAutoTDelete
 <
 SkDWriteFontFileStream
 >

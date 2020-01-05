@@ -137,7 +137,10 @@ fName
 endif
 }
 virtual
-String
+std
+:
+:
+string
 description
 (
 )

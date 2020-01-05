@@ -104,7 +104,10 @@ value
 )
 {
 }
-String
+std
+:
+:
+string
 description
 (
 )
@@ -112,8 +115,6 @@ const
 override
 {
 return
-String
-(
 fValue
 ?
 "
@@ -123,7 +124,6 @@ true
 "
 false
 "
-)
 ;
 }
 bool
