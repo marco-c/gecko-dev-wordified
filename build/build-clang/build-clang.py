@@ -1724,6 +1724,20 @@ DLLVM_EXPORT_SYMBOLS_FOR_PLUGINS
 ON
 "
 )
+        
+cmake_args
+.
+insert
+(
+-
+1
+"
+-
+DLLVM_USE_CRT_RELEASE
+=
+MT
+"
+)
     
 build_package
 (
