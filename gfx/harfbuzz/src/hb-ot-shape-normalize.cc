@@ -671,6 +671,9 @@ hb_font_t
 font
 )
 {
+(
+void
+)
 font
 -
 >

@@ -1079,6 +1079,11 @@ face
 data
 *
 /
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+ot
+face
+)
 hb_ot_shaper_face_data_t
 *
 _hb_ot_shaper_face_data_create
@@ -1117,6 +1122,11 @@ font
 data
 *
 /
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+ot
+font
+)
 struct
 hb_ot_shaper_font_data_t
 {

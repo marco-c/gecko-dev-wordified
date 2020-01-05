@@ -243,6 +243,9 @@ hb_face_t
 face
 )
 ;
+#
+ifndef
+HB_DISABLE_DEPRECATED
 HB_EXTERN
 gr_font
 *
@@ -253,6 +256,8 @@ hb_font_t
 font
 )
 ;
+#
+endif
 HB_END_DECLS
 #
 endif

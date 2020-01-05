@@ -209,6 +209,16 @@ private
 .
 hh
 "
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+fallback
+face
+)
+HB_SHAPER_DATA_ENSURE_DEFINE
+(
+fallback
+font
+)
 /
 *
 *
@@ -565,6 +575,9 @@ y_advance
 continue
 ;
 }
+(
+void
+)
 font
 -
 >
