@@ -5898,6 +5898,14 @@ input
 impl
 Integer
 {
+#
+[
+allow
+(
+missing_docs
+)
+]
+pub
 fn
 parse_with_minimum
 (
