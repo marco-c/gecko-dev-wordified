@@ -745,7 +745,7 @@ JSContext
 cx
 JSObject
 *
-rx
+obj
 JSObject
 *
 proto

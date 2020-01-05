@@ -1578,6 +1578,17 @@ IsRegExpMethodOptimizable
 rx
 )
 {
+if
+(
+!
+IsRegExpObject
+(
+rx
+)
+)
+return
+false
+;
 var
 RegExpProto
 =
