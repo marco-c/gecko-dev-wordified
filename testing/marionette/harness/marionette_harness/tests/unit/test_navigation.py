@@ -1850,26 +1850,6 @@ self
 test_page_remote
 )
     
-skip
-(
-"
-Bug
-1334137
--
-Intermittent
-:
-Process
-killed
-because
-of
-hang
-in
-getCurrentUrl
-(
-)
-"
-)
-    
 skip_if_mobile
 (
 "
