@@ -2129,9 +2129,9 @@ DebugState
 :
 decrementStepModeCount
 (
-JSContext
+FreeOp
 *
-cx
+fop
 uint32_t
 funcIndex
 )
@@ -2230,7 +2230,7 @@ p
 AutoWritableJitCode
 awjc
 (
-cx
+fop
 -
 >
 runtime

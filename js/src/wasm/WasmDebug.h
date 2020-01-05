@@ -893,9 +893,9 @@ funcIndex
 bool
 decrementStepModeCount
 (
-JSContext
+FreeOp
 *
-cx
+fop
 uint32_t
 funcIndex
 )
