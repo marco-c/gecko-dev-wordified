@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1463,7 +1472,7 @@ Size
 =
 %
 "
-PRIuSize
+PRIuSIZE
 origSize
 )
 ;
@@ -1934,7 +1943,7 @@ of
 size
 %
 "
-PRIuSize
+PRIuSIZE
 d
 )
 ;
@@ -2061,7 +2070,7 @@ size
 of
 %
 "
-PRIuSize
+PRIuSIZE
 filterName
 [
 filter
@@ -2077,7 +2086,7 @@ size
 is
 %
 "
-PRIuSize
+PRIuSIZE
 outBuf
 .
 GetLength
@@ -2141,13 +2150,13 @@ error
 :
 %
 "
-PRIuSize
+PRIuSIZE
 "
 !
 =
 %
 "
-PRIuSize
+PRIuSIZE
 size
 origSize
 )
