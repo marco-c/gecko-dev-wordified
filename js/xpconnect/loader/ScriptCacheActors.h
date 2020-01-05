@@ -264,12 +264,15 @@ aWhy
 override
 ;
 void
-SendScriptsAndFinalize
+Finalize
 (
+LinkedList
+<
 ScriptPreloader
 :
 :
-ScriptHash
+CachedScript
+>
 &
 scripts
 )
