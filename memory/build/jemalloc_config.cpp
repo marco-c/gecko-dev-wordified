@@ -102,17 +102,6 @@ Types
 h
 "
 #
-if
-defined
-(
-MOZ_SYSTEM_JEMALLOC
-)
-#
-include
-MALLOC_H
-#
-else
-#
 define
 DLLEXPORT
 #
@@ -124,8 +113,6 @@ jemalloc
 .
 h
 "
-#
-endif
 #
 ifdef
 XP_WIN
