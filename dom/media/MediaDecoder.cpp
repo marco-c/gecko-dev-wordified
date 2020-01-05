@@ -2174,11 +2174,6 @@ mDecoderPosition
 )
 INIT_CANONICAL
 (
-mMediaSeekable
-true
-)
-INIT_CANONICAL
-(
 mMediaSeekableOnlyInBufferedRanges
 false
 )
