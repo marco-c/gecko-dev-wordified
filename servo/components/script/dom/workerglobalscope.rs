@@ -509,15 +509,12 @@ ignore_heap_size_of
 "
 Defined
 in
-std
+js
 "
 ]
 runtime
 :
-Rc
-<
 Runtime
->
 next_worker_id
 :
 Cell
@@ -764,10 +761,7 @@ worker_url
 Url
 runtime
 :
-Rc
-<
 Runtime
->
 from_devtools_receiver
 :
 Receiver
