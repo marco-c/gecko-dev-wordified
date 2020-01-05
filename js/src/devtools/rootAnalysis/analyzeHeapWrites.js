@@ -267,6 +267,9 @@ memchr
 strlen
 "
 /
+Servo_DeclarationBlock_GetCssText
+/
+/
 /
 Assume
 that
