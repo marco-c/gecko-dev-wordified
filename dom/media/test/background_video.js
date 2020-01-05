@@ -432,7 +432,7 @@ ended
 return
 Promise
 .
-success
+resolve
 (
 )
 ;
