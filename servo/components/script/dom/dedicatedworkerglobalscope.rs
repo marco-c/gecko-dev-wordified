@@ -348,7 +348,7 @@ msg
 constellation_msg
 :
 :
-BrowsingContextId
+TopLevelBrowsingContextId
 ;
 use
 net_traits
@@ -1178,7 +1178,7 @@ serialized_worker_url
 let
 top_level_browsing_context_id
 =
-BrowsingContextId
+TopLevelBrowsingContextId
 :
 :
 installed
@@ -1231,7 +1231,7 @@ top_level_browsing_context_id
 =
 top_level_browsing_context_id
 {
-BrowsingContextId
+TopLevelBrowsingContextId
 :
 :
 install

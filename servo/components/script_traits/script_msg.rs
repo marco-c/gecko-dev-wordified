@@ -140,6 +140,7 @@ constellation_msg
 :
 {
 BrowsingContextId
+TopLevelBrowsingContextId
 FrameType
 PipelineId
 TraversalDirection
@@ -1366,7 +1367,7 @@ LogEntry
 (
 Option
 <
-BrowsingContextId
+TopLevelBrowsingContextId
 >
 Option
 <
