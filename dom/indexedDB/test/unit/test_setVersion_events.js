@@ -165,7 +165,10 @@ thrown
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
@@ -191,6 +194,13 @@ exception
 "
 )
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 request
 .
