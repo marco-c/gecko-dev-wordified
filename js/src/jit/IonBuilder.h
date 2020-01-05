@@ -2765,6 +2765,8 @@ templateObject
 /
 /
 jsop_in
+/
+jsop_hasown
 helpers
 .
 AbortReasonOr
@@ -2788,7 +2790,7 @@ AbortReasonOr
 <
 Ok
 >
-inTryFold
+hasTryNotDefined
 (
 bool
 *
@@ -2799,6 +2801,8 @@ obj
 MDefinition
 *
 id
+bool
+ownProperty
 )
 ;
 /
@@ -6456,6 +6460,10 @@ MDefinition
 obj
 jsid
 id
+bool
+ownProperty
+=
+false
 )
 ;
 uint32_t
