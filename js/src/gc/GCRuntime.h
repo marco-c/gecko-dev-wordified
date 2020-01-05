@@ -7348,7 +7348,7 @@ sliceBudget
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7363,7 +7363,7 @@ markWeakReferences
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7373,7 +7373,7 @@ markWeakReferencesInCurrentGroup
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7390,7 +7390,7 @@ markGrayReferences
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7411,7 +7411,7 @@ markGrayReferencesInCurrentGroup
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7421,7 +7421,7 @@ markAllWeakReferences
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -7431,7 +7431,7 @@ markAllGrayReferences
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 )
 ;
@@ -9152,7 +9152,7 @@ task
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 AutoLockHelperThreadState
 &
@@ -9168,7 +9168,7 @@ task
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 AutoLockHelperThreadState
 &
@@ -9966,13 +9966,16 @@ reason
 gcstats
 :
 :
-Phase
+PhaseKind
 phase
 =
 gcstats
 :
 :
-PHASE_MINOR_GC
+PhaseKind
+:
+:
+MINOR_GC
 )
 JS_HAZ_GC_CALL
 ;
@@ -10003,7 +10006,10 @@ reason
 gcstats
 :
 :
-PHASE_EVICT_NURSERY
+PhaseKind
+:
+:
+EVICT_NURSERY
 )
 ;
 }
