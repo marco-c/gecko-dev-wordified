@@ -202,7 +202,7 @@ gl
 :
 :
 Error
-invalidateSwizzles
+markAttachmentsDirty
 (
 )
 const

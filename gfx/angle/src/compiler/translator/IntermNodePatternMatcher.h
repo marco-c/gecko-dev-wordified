@@ -100,7 +100,7 @@ class
 TIntermNode
 ;
 class
-TIntermSelection
+TIntermTernary
 ;
 class
 IntermNodePatternMatcher
@@ -248,7 +248,7 @@ parentNode
 bool
 match
 (
-TIntermSelection
+TIntermTernary
 *
 node
 )

@@ -113,6 +113,8 @@ BufferVk
 :
 setData
 (
+GLenum
+target
 const
 void
 *
@@ -146,6 +148,8 @@ BufferVk
 :
 setSubData
 (
+GLenum
+target
 const
 void
 *

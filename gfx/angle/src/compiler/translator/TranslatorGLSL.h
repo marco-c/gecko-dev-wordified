@@ -92,7 +92,7 @@ initBuiltInFunctionEmulator
 BuiltInFunctionEmulator
 *
 emu
-int
+ShCompileOptions
 compileOptions
 )
 override
@@ -103,7 +103,7 @@ translate
 TIntermNode
 *
 root
-int
+ShCompileOptions
 compileOptions
 )
 override

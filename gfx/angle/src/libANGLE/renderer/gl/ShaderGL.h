@@ -117,7 +117,7 @@ override
 /
 ShaderImpl
 implementation
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std
