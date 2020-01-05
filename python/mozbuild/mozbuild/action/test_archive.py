@@ -2680,12 +2680,6 @@ py
 '
                 
 '
-runtestsb2g
-.
-py
-'
-                
-'
 runxpcshelltests
 .
 py
