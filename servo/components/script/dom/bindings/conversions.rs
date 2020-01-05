@@ -3001,7 +3001,7 @@ reflector
 pub
 unsafe
 fn
-unwrap
+native_from_reflector
 <
 T
 >
@@ -3314,7 +3314,7 @@ proto_depth
 .
 pub
 fn
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 <
 T
 >
@@ -3550,7 +3550,7 @@ Unrooted
 :
 from_raw
 (
-unwrap
+native_from_reflector
 (
 obj
 )
@@ -3641,7 +3641,7 @@ Err
 )
 ;
 }
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 (
 value
 .

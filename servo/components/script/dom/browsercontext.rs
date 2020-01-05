@@ -66,7 +66,7 @@ bindings
 conversions
 :
 :
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 ;
 use
 dom
@@ -852,7 +852,7 @@ Root
 Window
 >
 =
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 (
 target
 )

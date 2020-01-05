@@ -108,7 +108,7 @@ conversions
 :
 :
 {
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 is_dom_class
 }
 ;
@@ -4137,7 +4137,7 @@ window
 Window
 >
 =
-unwrap_jsmanaged
+native_from_reflector_jsmanaged
 (
 obj
 )
