@@ -289,6 +289,10 @@ servo_config
 ;
 extern
 crate
+servo_geometry
+;
+extern
+crate
 servo_url
 ;
 extern
