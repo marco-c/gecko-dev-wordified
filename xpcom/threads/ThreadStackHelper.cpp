@@ -169,7 +169,9 @@ MOZ_THREADSTACKHELPER_PSEUDO
 #
 include
 "
-PseudoStack
+js
+/
+ProfilingStack
 .
 h
 "
@@ -3076,7 +3078,7 @@ entry
 mPseudoStack
 -
 >
-mStack
+entries
 ;
 const
 volatile
