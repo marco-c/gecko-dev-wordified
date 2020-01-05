@@ -157,6 +157,8 @@ length
 :
 {
 CalcLengthOrPercentage
+Length
+LengthOrNumber
 LengthOrPercentage
 LengthOrPercentageOrAuto
 }
@@ -1084,12 +1086,6 @@ dest
 )
 }
 }
-pub
-type
-Length
-=
-Au
-;
 pub
 type
 Number
