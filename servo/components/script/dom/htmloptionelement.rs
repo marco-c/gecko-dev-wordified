@@ -672,6 +672,8 @@ unwrap
 ;
 value
 .
+0
+.
 push_str
 (
 &
@@ -806,7 +808,7 @@ let
 mut
 content
 =
-String
+DOMString
 :
 :
 new
@@ -825,6 +827,8 @@ mut
 content
 )
 ;
+DOMString
+(
 str_join
 (
 split_html_space_chars
@@ -834,6 +838,7 @@ content
 )
 "
 "
+)
 )
 }
 /

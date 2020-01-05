@@ -1057,7 +1057,7 @@ ScriptOrigin
 {
 Internal
 (
-String
+DOMString
 Url
 )
 External
@@ -3151,6 +3151,8 @@ fallback
 encoding
 .
 (
+DOMString
+(
 UTF_8
 .
 decode
@@ -3166,6 +3168,7 @@ Replace
 .
 unwrap
 (
+)
 )
 true
 metadata
@@ -4144,7 +4147,7 @@ dispatch_event
 self
 type_
 :
-DOMString
+String
 bubbles
 :
 EventBubbles
@@ -4188,7 +4191,10 @@ Window
 (
 window
 )
+DOMString
+(
 type_
+)
 bubbles
 cancelable
 )

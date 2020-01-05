@@ -603,6 +603,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 self
 .
 encoding
@@ -617,6 +619,7 @@ unwrap
 .
 to_owned
 (
+)
 )
 }
 /

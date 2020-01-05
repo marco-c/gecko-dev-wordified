@@ -600,12 +600,15 @@ HTMLTableRowElement
 :
 new
 (
+DOMString
+(
 "
 tr
 "
 .
 to_owned
 (
+)
 )
 None
 node

@@ -422,6 +422,8 @@ AttrValue
 let
 tokens
 =
+DOMString
+(
 str_join
 (
 &
@@ -430,6 +432,7 @@ atoms
 \
 x20
 "
+)
 )
 ;
 AttrValue
@@ -1503,6 +1506,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 (
 *
 *
@@ -1515,6 +1520,7 @@ local_name
 .
 to_owned
 (
+)
 )
 }
 /
@@ -1547,6 +1553,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 (
 *
 *
@@ -1559,6 +1567,7 @@ value
 .
 to_owned
 (
+)
 )
 }
 /
@@ -1834,6 +1843,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 (
 *
 self
@@ -1843,6 +1854,7 @@ name
 .
 to_owned
 (
+)
 )
 }
 /
@@ -1905,10 +1917,13 @@ url
 >
 Some
 (
+DOMString
+(
 url
 .
 to_owned
 (
+)
 )
 )
 }
@@ -1961,6 +1976,8 @@ map
 |
 p
 |
+DOMString
+(
 (
 *
 *
@@ -1969,6 +1986,7 @@ p
 .
 to_owned
 (
+)
 )
 )
 }
@@ -2438,6 +2456,8 @@ self
 Name
 (
 )
+.
+0
 value
 :
 self
@@ -2445,6 +2465,8 @@ self
 Value
 (
 )
+.
+0
 }
 }
 }

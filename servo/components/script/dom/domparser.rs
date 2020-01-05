@@ -466,6 +466,8 @@ get_url
 let
 content_type
 =
+DOMString
+(
 DOMParserBinding
 :
 :
@@ -481,6 +483,7 @@ usize
 .
 to_owned
 (
+)
 )
 ;
 let

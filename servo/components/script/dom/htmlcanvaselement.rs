@@ -2070,6 +2070,8 @@ Height
 return
 Ok
 (
+DOMString
+(
 "
 data
 :
@@ -2077,6 +2079,7 @@ data
 .
 to_owned
 (
+)
 )
 )
 ;
@@ -2287,6 +2290,8 @@ STANDARD
 ;
 Ok
 (
+DOMString
+(
 format
 !
 (
@@ -2302,6 +2307,7 @@ base64
 "
 mime_type
 encoded
+)
 )
 )
 }

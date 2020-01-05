@@ -691,6 +691,8 @@ window_from_node
 self
 )
 ;
+DOMString
+(
 window
 .
 get_url
@@ -699,6 +701,7 @@ get_url
 .
 serialize
 (
+)
 )
 }
 else
@@ -896,10 +899,13 @@ val
 _
 =
 >
+DOMString
+(
 default
 .
 to_owned
 (
+)
 )
 }
 }

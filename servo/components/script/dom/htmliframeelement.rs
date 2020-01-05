@@ -1193,6 +1193,8 @@ r
 (
 )
 )
+DOMString
+(
 event
 .
 name
@@ -1201,6 +1203,7 @@ name
 .
 to_owned
 (
+)
 )
 true
 true

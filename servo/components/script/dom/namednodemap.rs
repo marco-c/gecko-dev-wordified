@@ -861,6 +861,8 @@ map
 attr
 |
 {
+DOMString
+(
 (
 *
 *
@@ -873,6 +875,7 @@ name
 .
 to_owned
 (
+)
 )
 }
 )

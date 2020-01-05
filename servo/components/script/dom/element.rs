@@ -5950,6 +5950,8 @@ Ok
 >
 Ok
 (
+DOMString
+(
 String
 :
 :
@@ -5960,6 +5962,7 @@ writer
 .
 unwrap
 (
+)
 )
 )
 Err
@@ -8052,7 +8055,7 @@ self
 set_string_attribute
 (
 local_name
-String
+DOMString
 :
 :
 new
@@ -8120,10 +8123,10 @@ local_name
 )
 {
 return
-"
-"
-.
-to_owned
+DOMString
+:
+:
+new
 (
 )
 ;
@@ -8185,6 +8188,8 @@ javascript
 :
 urls
 properly
+DOMString
+(
 match
 UrlParser
 :
@@ -8229,6 +8234,7 @@ to_owned
 (
 )
 }
+)
 }
 pub
 fn
@@ -8298,10 +8304,10 @@ Value
 None
 =
 >
-"
-"
-.
-to_owned
+DOMString
+:
+:
+new
 (
 )
 }
@@ -8681,10 +8687,13 @@ AttrValue
 :
 UInt
 (
+DOMString
+(
 value
 .
 to_string
 (
+)
 )
 value
 )
@@ -8774,6 +8783,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 (
 *
 self
@@ -8783,6 +8794,7 @@ local_name
 .
 to_owned
 (
+)
 )
 }
 /
@@ -8915,6 +8927,8 @@ local_name
 )
 }
 ;
+DOMString
+(
 if
 self
 .
@@ -8936,6 +8950,7 @@ into_owned
 (
 )
 }
+)
 }
 /
 /

@@ -1162,12 +1162,15 @@ clone
 .
 unwrap_or
 (
+DOMString
+(
 "
 blob
 "
 .
 to_owned
 (
+)
 )
 )
 )

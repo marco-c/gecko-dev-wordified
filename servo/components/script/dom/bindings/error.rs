@@ -217,15 +217,6 @@ mem
 :
 HeapSizeOf
 ;
-use
-util
-:
-:
-str
-:
-:
-DOMString
-;
 /
 /
 /
@@ -382,7 +373,7 @@ JavaScript
 Error
 Type
 (
-DOMString
+String
 )
 /
 /
@@ -392,7 +383,7 @@ JavaScript
 Error
 Range
 (
-DOMString
+String
 )
 /
 /

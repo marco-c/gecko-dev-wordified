@@ -187,6 +187,15 @@ canvasrenderingcontext2d
 :
 parse_color
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 /
 /
 https
@@ -370,7 +379,7 @@ f64
 >
 color
 :
-String
+DOMString
 )
 -
 >

@@ -1267,6 +1267,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 if
 self
 .
@@ -1279,10 +1281,6 @@ select
 -
 multiple
 "
-.
-to_owned
-(
-)
 }
 else
 {
@@ -1291,11 +1289,12 @@ select
 -
 one
 "
+}
 .
 to_owned
 (
 )
-}
+)
 }
 /
 /

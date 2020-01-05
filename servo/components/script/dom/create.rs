@@ -725,6 +725,15 @@ Atom
 QualName
 }
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 pub
 fn
 create_element
@@ -763,6 +772,8 @@ map
 |
 p
 |
+DOMString
+(
 (
 *
 p
@@ -770,6 +781,7 @@ p
 .
 to_owned
 (
+)
 )
 )
 ;
@@ -791,6 +803,8 @@ Element
 :
 new
 (
+DOMString
+(
 (
 *
 name
@@ -800,6 +814,7 @@ local
 .
 to_owned
 (
+)
 )
 name
 .
@@ -830,6 +845,8 @@ ctor
 :
 new
 (
+DOMString
+(
 (
 *
 name
@@ -839,6 +856,7 @@ local
 .
 to_owned
 (
+)
 )
 prefix
 document
@@ -877,6 +895,8 @@ ctor
 :
 new
 (
+DOMString
+(
 (
 *
 name
@@ -886,6 +906,7 @@ local
 .
 to_owned
 (
+)
 )
 prefix
 document

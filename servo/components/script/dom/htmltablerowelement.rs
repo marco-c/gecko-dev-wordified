@@ -720,12 +720,15 @@ HTMLTableDataCellElement
 :
 new
 (
+DOMString
+(
 "
 td
 "
 .
 to_owned
 (
+)
 )
 None
 node

@@ -1373,10 +1373,13 @@ map
 |
 value
 |
+DOMString
+(
 value
 .
 to_string
 (
+)
 )
 )
 )

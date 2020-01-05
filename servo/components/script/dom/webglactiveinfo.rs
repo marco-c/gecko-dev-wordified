@@ -196,7 +196,7 @@ ty
 u32
 name
 :
-String
+DOMString
 }
 impl
 WebGLActiveInfo
@@ -212,7 +212,7 @@ ty
 u32
 name
 :
-String
+DOMString
 )
 -
 >
@@ -254,7 +254,7 @@ ty
 u32
 name
 :
-String
+DOMString
 )
 -
 >

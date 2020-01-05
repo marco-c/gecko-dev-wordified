@@ -6478,6 +6478,8 @@ domstring
 default
 =
 '
+DOMString
+(
 "
 %
 s
@@ -6485,6 +6487,7 @@ s
 .
 to_owned
 (
+)
 )
 '
 %
