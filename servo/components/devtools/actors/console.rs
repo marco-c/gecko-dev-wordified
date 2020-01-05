@@ -353,16 +353,16 @@ lineText
 String
 lineNumber
 :
-uint
+u32
 columnNumber
 :
-uint
+u32
 category
 :
 String
 timeStamp
 :
-uint
+u64
 warning
 :
 bool
@@ -411,7 +411,7 @@ instead
 ?
 timeStamp
 :
-uint
+u64
 message
 :
 String
@@ -533,7 +533,7 @@ result
 Json
 timestamp
 :
-uint
+u64
 exception
 :
 Json

@@ -6536,8 +6536,6 @@ self
 NodeType
 (
 )
-as
-usize
 namespaceURI
 :
 "

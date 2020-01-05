@@ -282,7 +282,7 @@ FrameMsg
 {
 id
 :
-uint
+u32
 url
 :
 String
@@ -291,7 +291,7 @@ title
 String
 parentID
 :
-uint
+u32
 }
 #
 [
@@ -315,7 +315,7 @@ url
 String
 outerWindowID
 :
-uint
+u32
 consoleActor
 :
 String
