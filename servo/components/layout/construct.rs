@@ -10374,6 +10374,8 @@ damage
 =
 data
 .
+base
+.
 restyle_damage
 ;
 match
