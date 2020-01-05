@@ -12028,7 +12028,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-NotSupportedError
+TypeError
 "
 )
 NS_LITERAL_STRING
