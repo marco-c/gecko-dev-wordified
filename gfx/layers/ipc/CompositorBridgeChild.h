@@ -1412,6 +1412,17 @@ CompositorBridgeChild
 (
 )
 ;
+void
+InitIPDL
+(
+)
+;
+void
+DeallocPCompositorBridgeChild
+(
+)
+override
+;
 virtual
 PLayerTransactionChild
 *
