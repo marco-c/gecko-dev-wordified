@@ -604,6 +604,9 @@ true
 subtree
 :
 true
+attributes
+:
+true
 }
 )
 ;
