@@ -1121,6 +1121,16 @@ return
 mUserReadBufferMode
 ;
 }
+GLenum
+GetDrawBufferMode
+(
+)
+const
+{
+return
+mUserDrawBufferMode
+;
+}
 /
 *
 *
