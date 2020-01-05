@@ -481,6 +481,10 @@ size_t
 length
 RegExpFlag
 flags
+const
+ReadOnlyCompileOptions
+*
+options
 frontend
 :
 :
@@ -504,6 +508,10 @@ HandleAtom
 atom
 RegExpFlag
 flags
+const
+ReadOnlyCompileOptions
+*
+options
 frontend
 :
 :

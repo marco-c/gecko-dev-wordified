@@ -56840,6 +56840,7 @@ context
 chars
 length
 flags
+nullptr
 &
 tokenStream
 alloc
