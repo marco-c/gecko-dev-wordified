@@ -30808,7 +30808,7 @@ IsOuterWindow
 )
 )
 ;
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 ;
@@ -33062,7 +33062,7 @@ nsRect
 )
 ;
 }
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 ;
@@ -35300,7 +35300,7 @@ Layout
 }
 else
 {
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 ;
@@ -74112,7 +74112,7 @@ void
 nsGlobalWindow
 :
 :
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 {

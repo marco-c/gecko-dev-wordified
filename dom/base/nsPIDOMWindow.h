@@ -1870,7 +1870,7 @@ etc
 /
 virtual
 void
-EnsureSizeUpToDate
+EnsureSizeAndPositionUpToDate
 (
 )
 =
