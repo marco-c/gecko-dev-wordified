@@ -287,8 +287,6 @@ event
 :
 {
 Event
-EventBubbles
-EventCancelable
 EventHelpers
 }
 ;
