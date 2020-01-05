@@ -57,6 +57,15 @@ MPL
 *
 /
 use
+std
+:
+:
+io
+:
+:
+Error
+;
+use
 string_cache
 :
 :
@@ -115,7 +124,11 @@ u8
 )
 -
 >
+Result
+<
 FontTemplateData
+Error
+>
 {
 let
 bytes
@@ -143,6 +156,8 @@ unimplemented
 }
 }
 ;
+Ok
+(
 FontTemplateData
 {
 bytes
@@ -152,6 +167,7 @@ identifier
 :
 identifier
 }
+)
 }
 pub
 fn
