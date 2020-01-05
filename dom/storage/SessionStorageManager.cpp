@@ -131,6 +131,13 @@ h
 #
 include
 "
+SessionStorageCache
+.
+h
+"
+#
+include
+"
 StorageUtils
 .
 h
