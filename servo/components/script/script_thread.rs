@@ -11178,6 +11178,13 @@ clone
 )
 self
 .
+time_profiler_chan
+.
+clone
+(
+)
+self
+.
 devtools_chan
 .
 clone

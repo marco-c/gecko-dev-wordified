@@ -1471,6 +1471,11 @@ devtools_chan
 clone
 (
 )
+time_profiler_chan
+.
+clone
+(
+)
 )
 ;
 let

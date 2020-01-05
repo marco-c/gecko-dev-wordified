@@ -237,6 +237,15 @@ WebSocketConnectData
 }
 ;
 use
+profile_traits
+:
+:
+time
+:
+:
+ProfilerChan
+;
+use
 rustc_serialize
 :
 :
@@ -1267,6 +1276,9 @@ Sender
 DevtoolsControlMsg
 >
 >
+profiler_chan
+:
+ProfilerChan
 )
 -
 >
@@ -1332,6 +1344,7 @@ new
 user_agent
 hsts_preload
 devtools_chan
+profiler_chan
 )
 ;
 let
@@ -2712,6 +2725,9 @@ Sender
 DevtoolsControlMsg
 >
 >
+profiler_chan
+:
+ProfilerChan
 hsts_list
 :
 Arc
@@ -2768,6 +2784,9 @@ Sender
 DevtoolsControlMsg
 >
 >
+profiler_chan
+:
+ProfilerChan
 )
 -
 >
@@ -2904,6 +2923,9 @@ new
 devtools_chan
 :
 devtools_channel
+profiler_chan
+:
+profiler_chan
 hsts_list
 :
 Arc
@@ -3307,6 +3329,13 @@ http_state
 self
 .
 devtools_chan
+.
+clone
+(
+)
+self
+.
+profiler_chan
 .
 clone
 (
