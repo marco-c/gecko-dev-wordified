@@ -560,24 +560,21 @@ import
 .
     
 if
-sys
-.
-version_info
-[
+not
+(
+3
 0
-]
-!
-=
-2
-or
+)
+>
 sys
 .
 version_info
-[
-1
-]
-<
+>
+=
+(
+2
 7
+)
 :
         
 print
