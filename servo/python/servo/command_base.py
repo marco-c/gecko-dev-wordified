@@ -4225,22 +4225,6 @@ bootstrapped
             
 return
         
-Registrar
-.
-dispatch
-(
-"
-update
--
-submodules
-"
-context
-=
-self
-.
-context
-)
-        
 if
 not
 self
