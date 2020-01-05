@@ -763,13 +763,10 @@ argv
 childData
 )
 ;
-NS_ENSURE_SUCCESS
+return
+NS_FAILED
 (
 rv
-1
 )
-;
-return
-0
 ;
 }
