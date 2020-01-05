@@ -839,6 +839,13 @@ with
 this
 reflow
 .
+#
+[
+derive
+(
+PartialEq
+)
+]
 pub
 enum
 ReflowQueryType
