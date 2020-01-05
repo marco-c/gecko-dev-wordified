@@ -816,7 +816,7 @@ script
 task
 for
 execution
-WebDriverCommand
+WebDriverScriptCommand
 (
 PipelineId
 WebDriverScriptCommand
