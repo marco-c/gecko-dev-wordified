@@ -2460,10 +2460,6 @@ mMimeType
 "
 video
 /
-ogg
-;
-codecs
-=
 theora
 "
 ;
@@ -2633,10 +2629,6 @@ mMimeType
 "
 audio
 /
-ogg
-;
-codecs
-=
 vorbis
 "
 ;
@@ -2744,10 +2736,6 @@ mMimeType
 "
 audio
 /
-ogg
-;
-codecs
-=
 opus
 "
 ;
@@ -5593,10 +5581,6 @@ NS_LITERAL_CSTRING
 "
 audio
 /
-ogg
-;
-codec
-=
 vorbis
 "
 )
@@ -5723,10 +5707,6 @@ NS_LITERAL_CSTRING
 "
 audio
 /
-ogg
-;
-codec
-=
 opus
 "
 )
