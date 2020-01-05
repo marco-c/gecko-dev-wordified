@@ -276,16 +276,6 @@ aReflector
 )
 ;
 }
-static
-void
-Foo
-(
-const
-GlobalObject
-&
-aGlobal
-)
-;
 protected
 :
 void
