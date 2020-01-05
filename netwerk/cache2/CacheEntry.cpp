@@ -3326,7 +3326,7 @@ the
 entry
 reference
 (
-unfortunatelly
+unfortunately
 needs
 to
 be
@@ -10922,7 +10922,7 @@ reference
 to
 so
 those
-unfortunatelly
+unfortunately
 cannot
 be
 reported

@@ -4271,7 +4271,7 @@ malloc
 heuristic
 *
 is
-unfortunatly
+unfortunately
 not
 usefully
 able

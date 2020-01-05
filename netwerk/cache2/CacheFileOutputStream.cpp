@@ -625,7 +625,7 @@ when
 accessing
 the
 file
-unfortunatelly
+unfortunately
 we
 use
 32

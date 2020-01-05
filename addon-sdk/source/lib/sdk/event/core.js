@@ -799,7 +799,7 @@ try
 Since
 our
 contract
-unfortuantely
+unfortunately
 requires
 that
 we
