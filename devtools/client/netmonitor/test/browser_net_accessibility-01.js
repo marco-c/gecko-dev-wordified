@@ -102,7 +102,7 @@ requestLongerTimeout
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -130,7 +130,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -307,7 +307,7 @@ check
 false
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -326,7 +326,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -345,7 +345,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -364,7 +364,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -383,7 +383,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -402,7 +402,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -459,7 +459,7 @@ performRequests
 yield
 wait
 ;
-gStore
+store
 .
 dispatch
 (
@@ -478,7 +478,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -497,7 +497,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -516,7 +516,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -535,7 +535,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -554,7 +554,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -573,7 +573,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -592,7 +592,7 @@ check
 true
 )
 ;
-gStore
+store
 .
 dispatch
 (

@@ -76,8 +76,8 @@ true
 let
 {
 document
-gStore
 windowRequire
+store
 }
 =
 monitor
@@ -102,6 +102,18 @@ actions
 /
 index
 "
+)
+;
+store
+.
+dispatch
+(
+Actions
+.
+batchEnable
+(
+false
+)
 )
 ;
 /
@@ -408,7 +420,7 @@ the
 scroll
 position
 .
-gStore
+store
 .
 dispatch
 (

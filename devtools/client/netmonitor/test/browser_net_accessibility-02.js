@@ -107,8 +107,8 @@ let
 {
 window
 document
-gStore
 windowRequire
+store
 }
 =
 monitor
@@ -135,7 +135,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

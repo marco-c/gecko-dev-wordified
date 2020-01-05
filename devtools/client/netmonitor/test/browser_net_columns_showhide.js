@@ -76,7 +76,7 @@ test
 let
 {
 document
-gStore
+store
 parent
 }
 =
@@ -92,7 +92,7 @@ column
 shown
 ]
 of
-gStore
+store
 .
 getState
 (

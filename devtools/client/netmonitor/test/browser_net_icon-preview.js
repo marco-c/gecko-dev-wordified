@@ -98,7 +98,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -128,7 +128,7 @@ index
 ;
 let
 {
-NetMonitorController
+triggerActivity
 }
 =
 windowRequire
@@ -142,9 +142,9 @@ netmonitor
 /
 src
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
@@ -168,7 +168,7 @@ constants
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -234,7 +234,7 @@ checkImageThumbnail
 (
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -268,7 +268,7 @@ checkImageThumbnail
 (
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -415,8 +415,6 @@ reloadAndPerformRequests
 )
 {
 yield
-NetMonitorController
-.
 triggerActivity
 (
 ACTIVITY_TYPE

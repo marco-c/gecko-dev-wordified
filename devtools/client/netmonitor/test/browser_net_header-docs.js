@@ -86,7 +86,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -160,7 +160,7 @@ utils
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -244,7 +244,7 @@ testShowLearnMore
 (
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

@@ -81,7 +81,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -167,7 +167,7 @@ button
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -469,7 +469,7 @@ assertSingleRequestState
 {
 is
 (
-gStore
+store
 .
 getState
 (
@@ -550,7 +550,7 @@ assertNoRequestState
 {
 is
 (
-gStore
+store
 .
 getState
 (

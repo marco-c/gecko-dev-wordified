@@ -86,7 +86,7 @@ SIMPLE_URL
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -136,7 +136,8 @@ constants
 ;
 let
 {
-NetMonitorController
+setPreferences
+triggerActivity
 }
 =
 windowRequire
@@ -150,9 +151,9 @@ netmonitor
 /
 src
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
@@ -259,13 +260,6 @@ uploadBPSMax
 }
 }
 ;
-let
-client
-=
-NetMonitorController
-.
-webConsoleClient
-;
 info
 (
 "
@@ -285,8 +279,6 @@ resolve
 =
 >
 {
-client
-.
 setPreferences
 (
 request
@@ -320,8 +312,6 @@ RECEIVED_EVENT_TIMINGS
 )
 ;
 yield
-NetMonitorController
-.
 triggerActivity
 (
 ACTIVITY_TYPE
@@ -339,7 +329,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

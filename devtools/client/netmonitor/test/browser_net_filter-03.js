@@ -266,7 +266,7 @@ requestLongerTimeout
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -318,7 +318,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -484,7 +484,7 @@ isnot
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -510,7 +510,7 @@ is
 (
 getSelectedIndex
 (
-gStore
+store
 .
 getState
 (
@@ -986,7 +986,7 @@ isnot
 (
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -1011,7 +1011,7 @@ is
 (
 getSelectedIndex
 (
-gStore
+store
 .
 getState
 (
@@ -1069,7 +1069,7 @@ is
 (
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1101,7 +1101,7 @@ is
 (
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (

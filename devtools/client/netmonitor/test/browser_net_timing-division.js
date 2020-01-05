@@ -133,7 +133,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -183,7 +183,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -440,7 +440,7 @@ textContent
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -469,7 +469,7 @@ firstRequest
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -486,7 +486,7 @@ lastRequest
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

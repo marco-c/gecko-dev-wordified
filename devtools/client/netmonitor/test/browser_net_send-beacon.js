@@ -66,7 +66,7 @@ SEND_BEACON_URL
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -116,7 +116,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -130,7 +130,7 @@ false
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -193,7 +193,7 @@ wait
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -220,7 +220,7 @@ request
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

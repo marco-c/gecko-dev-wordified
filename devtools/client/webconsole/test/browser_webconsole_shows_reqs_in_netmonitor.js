@@ -435,7 +435,7 @@ getCurrentPanel
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -472,7 +472,7 @@ waitUntil
 )
 =
 >
-gStore
+store
 .
 getState
 (
@@ -489,7 +489,7 @@ size
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -517,7 +517,7 @@ item
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (

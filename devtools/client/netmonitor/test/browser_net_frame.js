@@ -861,7 +861,7 @@ SIMPLE_URL
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -912,7 +912,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -944,7 +944,7 @@ REQUEST_COUNT
 ;
 is
 (
-gStore
+store
 .
 getState
 (
@@ -1046,7 +1046,7 @@ requestItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -1129,7 +1129,7 @@ verifyRequestItemTarget
 document
 getDisplayedRequests
 (
-gStore
+store
 .
 getState
 (

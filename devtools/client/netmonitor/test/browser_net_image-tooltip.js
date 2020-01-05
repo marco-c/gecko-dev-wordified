@@ -123,7 +123,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -153,7 +153,7 @@ index
 ;
 let
 {
-NetMonitorController
+triggerActivity
 }
 =
 windowRequire
@@ -167,9 +167,9 @@ netmonitor
 /
 src
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
@@ -204,7 +204,7 @@ parent
 .
 document
 ;
-gStore
+store
 .
 dispatch
 (
@@ -387,8 +387,6 @@ again
 )
 ;
 yield
-NetMonitorController
-.
 triggerActivity
 (
 ACTIVITY_TYPE

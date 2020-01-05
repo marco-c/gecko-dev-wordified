@@ -122,7 +122,7 @@ test
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -173,7 +173,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -229,7 +229,7 @@ origItem
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
@@ -241,7 +241,7 @@ get
 0
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -266,7 +266,7 @@ cloned
 from
 selected
 request
-gStore
+store
 .
 dispatch
 (
@@ -287,7 +287,7 @@ customItem
 =
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -335,7 +335,7 @@ customItem
 =
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (
@@ -363,7 +363,7 @@ monitor
 1
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -382,7 +382,7 @@ sentItem
 =
 getSelectedRequest
 (
-gStore
+store
 .
 getState
 (

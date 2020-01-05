@@ -85,7 +85,7 @@ panelWin
 let
 {
 document
-gStore
+store
 windowRequire
 }
 =
@@ -144,7 +144,7 @@ panel
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (

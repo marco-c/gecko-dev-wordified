@@ -83,7 +83,7 @@ test
 ;
 let
 {
-gStore
+store
 windowRequire
 }
 =
@@ -113,7 +113,7 @@ index
 ;
 let
 {
-NetMonitorController
+sendHTTPRequest
 }
 =
 windowRequire
@@ -127,9 +127,9 @@ netmonitor
 /
 src
 /
-netmonitor
--
-controller
+connector
+/
+index
 "
 )
 ;
@@ -155,7 +155,7 @@ index
 "
 )
 ;
-gStore
+store
 .
 dispatch
 (
@@ -284,10 +284,6 @@ monitor
 1
 )
 ;
-NetMonitorController
-.
-webConsoleClient
-.
 sendHTTPRequest
 (
 {
@@ -318,7 +314,7 @@ item
 =
 getSortedRequests
 (
-gStore
+store
 .
 getState
 (
