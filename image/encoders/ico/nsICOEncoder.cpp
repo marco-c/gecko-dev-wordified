@@ -1233,7 +1233,7 @@ any
 provided
 output
 options
-uint16_t
+uint32_t
 bpp
 =
 24
@@ -1257,14 +1257,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-MOZ_ASSERT
-(
-bpp
-<
-=
-32
 )
 ;
 mUsePNG
@@ -1431,7 +1423,7 @@ const
 nsAString
 &
 aOptions
-uint16_t
+uint32_t
 &
 aBppOut
 bool
@@ -2463,7 +2455,7 @@ nsICOEncoder
 :
 InitInfoHeader
 (
-uint16_t
+uint32_t
 aBPP
 uint8_t
 aWidth
