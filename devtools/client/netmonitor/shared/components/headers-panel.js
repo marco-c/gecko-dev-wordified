@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetMonitorController
-*
-/
 "
 use
 strict
@@ -1026,6 +1020,8 @@ statusText
 }
 }
 )
+window
+.
 NetMonitorController
 .
 supportsCustomRequest

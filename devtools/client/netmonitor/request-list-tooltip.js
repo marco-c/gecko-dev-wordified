@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-gNetwork
-NetMonitorController
-*
-/
 "
 use
 strict
@@ -226,6 +219,8 @@ let
 string
 =
 yield
+window
+.
 gNetwork
 .
 getString
@@ -732,6 +727,8 @@ hide
 (
 )
 ;
+window
+.
 NetMonitorController
 .
 viewSourceInDebugger

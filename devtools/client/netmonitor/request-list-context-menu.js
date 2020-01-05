@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetMonitorController
-gNetwork
-gStore
-*
-/
 "
 use
 strict
@@ -298,6 +290,8 @@ selectedRequest
 return
 getSelectedRequest
 (
+window
+.
 gStore
 .
 getState
@@ -314,6 +308,8 @@ sortedRequests
 return
 getSortedRequests
 (
+window
+.
 gStore
 .
 getState
@@ -1347,6 +1343,8 @@ visible
 !
 !
 (
+window
+.
 NetMonitorController
 .
 supportsCustomRequest
@@ -1513,6 +1511,8 @@ visible
 :
 !
 !
+window
+.
 NetMonitorController
 .
 supportsPerfStats
@@ -1538,6 +1538,8 @@ popup
 (
 screenX
 screenY
+window
+.
 NetMonitorController
 .
 _toolbox
@@ -1786,12 +1788,16 @@ requestHeadersFromUploadStream
 selected
 .
 requestPostData
+window
+.
 gNetwork
 .
 getString
 .
 bind
 (
+window
+.
 gNetwork
 )
 )
@@ -1927,6 +1933,8 @@ text
 string
 =
 yield
+window
+.
 gNetwork
 .
 getString
@@ -2074,6 +2082,8 @@ let
 text
 =
 yield
+window
+.
 gNetwork
 .
 getString
@@ -2128,6 +2138,8 @@ data
 postDataText
 =
 yield
+window
+.
 gNetwork
 .
 getString
@@ -2331,6 +2343,8 @@ responseContent
 .
 content
 ;
+window
+.
 gNetwork
 .
 getString
@@ -2395,6 +2409,8 @@ responseContent
 .
 content
 ;
+window
+.
 gNetwork
 .
 getString
@@ -2504,6 +2520,8 @@ getDefaultHarOptions
 let
 form
 =
+window
+.
 NetMonitorController
 .
 _target
@@ -2526,12 +2544,16 @@ return
 {
 getString
 :
+window
+.
 gNetwork
 .
 getString
 .
 bind
 (
+window
+.
 gNetwork
 )
 items

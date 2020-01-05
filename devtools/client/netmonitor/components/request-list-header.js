@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-document
-*
-/
 "
 use
 strict

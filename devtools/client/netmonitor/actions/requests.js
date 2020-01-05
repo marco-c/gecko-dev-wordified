@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetMonitorController
-*
-/
 "
 use
 strict
@@ -220,6 +214,8 @@ sendCustomRequest
 if
 (
 !
+window
+.
 NetMonitorController
 .
 supportsCustomRequest
@@ -332,6 +328,8 @@ postData
 text
 ;
 }
+window
+.
 NetMonitorController
 .
 webConsoleClient

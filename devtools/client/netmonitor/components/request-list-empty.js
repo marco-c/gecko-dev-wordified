@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetMonitorController
-*
-/
 "
 use
 strict
@@ -479,6 +473,8 @@ onReloadClick
 )
 =
 >
+window
+.
 NetMonitorController
 .
 triggerActivity

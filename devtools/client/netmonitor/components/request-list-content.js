@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetMonitorController
-*
-/
 "
 use
 strict
@@ -426,6 +420,8 @@ tooltip
 new
 HTMLTooltip
 (
+window
+.
 NetMonitorController
 .
 _toolbox

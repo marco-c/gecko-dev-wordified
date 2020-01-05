@@ -197,7 +197,7 @@ toolboxDoc
 =
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 ;
@@ -334,7 +334,7 @@ hideTooltipAndVerify
 (
 monitor
 .
-_toolbox
+toolbox
 .
 doc
 document

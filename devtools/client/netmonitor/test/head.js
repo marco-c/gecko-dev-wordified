@@ -1543,6 +1543,8 @@ tab
 =
 monitor
 .
+toolbox
+.
 target
 .
 tab
@@ -1624,6 +1626,8 @@ let
 tab
 =
 monitor
+.
+toolbox
 .
 target
 .
