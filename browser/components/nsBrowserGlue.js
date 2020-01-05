@@ -1725,7 +1725,7 @@ mm
 "
 AboutHome
 :
-MaybeShowMigrateMessage
+MaybeShowAutoMigrationUndoNotification
 "
 :
 [
