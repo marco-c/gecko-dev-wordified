@@ -2075,6 +2075,10 @@ VRControllerHost
 >
 controllers
 ;
+ScanForDevices
+(
+)
+;
 for
 (
 uint32_t
