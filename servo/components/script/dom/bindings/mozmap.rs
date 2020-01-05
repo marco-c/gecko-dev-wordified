@@ -250,6 +250,7 @@ type
 derive
 (
 Clone
+JSTraceable
 )
 ]
 pub
