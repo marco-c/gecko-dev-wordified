@@ -10262,14 +10262,6 @@ listener
 )
 ;
 public
-void
-setAccessibilityEnabled
-(
-boolean
-enabled
-)
-;
-public
 boolean
 openUriExternal
 (

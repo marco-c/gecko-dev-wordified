@@ -17563,16 +17563,6 @@ OVER_SCROLL_NEVER
 }
 Override
 public
-void
-setAccessibilityEnabled
-(
-boolean
-enabled
-)
-{
-}
-Override
-public
 boolean
 openUriExternal
 (
