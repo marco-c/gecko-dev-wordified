@@ -322,16 +322,6 @@ NS_FRAME_IS_NONDISPLAY
 }
 public
 :
-typedef
-mozilla
-:
-:
-image
-:
-:
-imgDrawingParams
-imgDrawingParams
-;
 NS_DECL_ABSTRACT_FRAME
 (
 nsSVGPaintServerFrame

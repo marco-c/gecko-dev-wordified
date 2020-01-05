@@ -1407,7 +1407,7 @@ rendering
 succeeded
 *
 /
-void
+bool
 gfxSVGGlyphs
 :
 :
@@ -1440,7 +1440,7 @@ Get
 aGlyphId
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 glyph
 "
@@ -1471,6 +1471,7 @@ OwnerDoc
 )
 )
 ;
+return
 nsSVGUtils
 :
 :
