@@ -53534,13 +53534,7 @@ cx
 BrowserCompartmentMatcher
 (
 )
-js
-:
-:
-SingleCompartment
-(
 cpt
-)
 win
 -
 >
