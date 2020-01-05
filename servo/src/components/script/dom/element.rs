@@ -2518,6 +2518,7 @@ doc
 .
 unregister_named_element
 (
+self
 old_value
 )
 ;
@@ -4971,6 +4972,7 @@ get_mut
 .
 unregister_named_element
 (
+self
 attr
 .
 get
