@@ -32,14 +32,6 @@ back
 the
 string
 .
-/
-*
-eslint
--
-env
-worker
-*
-/
 var
 postStringInBlob
 =

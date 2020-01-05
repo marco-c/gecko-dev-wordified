@@ -28,14 +28,6 @@ zero
 *
 /
 /
-*
-eslint
--
-env
-commonjs
-*
-/
-/
 /
 A
 trivial

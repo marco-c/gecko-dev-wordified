@@ -29,14 +29,6 @@ zero
 *
 /
 /
-*
-eslint
--
-env
-commonjs
-*
-/
-/
 /
 Skip
 a
