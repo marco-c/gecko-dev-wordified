@@ -318,7 +318,18 @@ node
 DisabledStateHelpers
 Node
 NodeHelpers
+OtherNodeDamage
 ElementNodeTypeId
+}
+;
+use
+dom
+:
+:
+node
+:
+:
+{
 document_from_node
 }
 ;
@@ -1505,6 +1516,7 @@ doc
 content_changed
 (
 node
+OtherNodeDamage
 )
 }
 }
