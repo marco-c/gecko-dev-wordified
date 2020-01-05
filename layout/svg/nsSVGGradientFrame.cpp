@@ -1938,7 +1938,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+BAD_ARGS
 RefPtr
 <
 gfxPattern
@@ -2012,7 +2012,7 @@ MakePair
 DrawResult
 :
 :
-SUCCESS
+BAD_ARGS
 RefPtr
 <
 gfxPattern
