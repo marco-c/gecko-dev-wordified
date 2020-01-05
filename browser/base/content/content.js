@@ -7587,7 +7587,7 @@ addImage
 url
 type
 alt
-elem
+el
 isBg
 )
 =
@@ -7604,7 +7604,7 @@ document
 url
 type
 alt
-elem
+el
 isBg
 )
 ;

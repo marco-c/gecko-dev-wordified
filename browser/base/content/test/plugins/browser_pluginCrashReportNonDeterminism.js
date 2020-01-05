@@ -492,7 +492,7 @@ pluginFallbackState
 function
 *
 (
-pluginFallbackState
+contentPluginFallbackState
 )
 {
 let
@@ -680,7 +680,7 @@ function
 )
 {
 return
-pluginFallbackState
+contentPluginFallbackState
 ;
 }
 }

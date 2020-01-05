@@ -746,14 +746,14 @@ checkTelemetryRecords
 for
 (
 let
-test
+testCase
 of
 gTests
 )
 {
 info
 (
-test
+testCase
 .
 desc
 )
@@ -841,7 +841,7 @@ test
 )
 ;
 yield
-test
+testCase
 .
 run
 (

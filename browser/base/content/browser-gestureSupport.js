@@ -919,7 +919,7 @@ _doUpdate
 function
 GS__doUpdate
 (
-aEvent
+updateEvent
 )
 {
 /
@@ -934,7 +934,7 @@ data
 offset
 +
 =
-aEvent
+updateEvent
 .
 delta
 ;
@@ -1046,7 +1046,7 @@ this
 .
 _doAction
 (
-aEvent
+updateEvent
 [
 aGesture
 offset
@@ -1579,7 +1579,6 @@ _doUpdate
 =
 function
 (
-aEvent
 )
 {
 }
@@ -1590,7 +1589,6 @@ _doEnd
 =
 function
 (
-aEvent
 )
 {
 }

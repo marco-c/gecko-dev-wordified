@@ -125,7 +125,7 @@ nextTest
 )
 {
 let
-test
+testCase
 =
 tests
 .
@@ -135,10 +135,10 @@ shift
 ;
 if
 (
-test
+testCase
 )
 {
-test
+testCase
 (
 function
 (

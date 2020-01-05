@@ -184,7 +184,7 @@ to
 work
 with
 let
-bm
+newBookmark
 =
 yield
 PlacesUtils
@@ -233,7 +233,7 @@ TEST_URL
 ;
 ok
 (
-bm
+newBookmark
 "
 A
 bookmark

@@ -797,10 +797,6 @@ wpl
 {
 onLocationChange
 (
-wpl
-request
-location
-flags
 )
 {
 is

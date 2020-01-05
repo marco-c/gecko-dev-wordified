@@ -3579,7 +3579,7 @@ aTheme
 function
 *
 (
-aTheme
+contentTheme
 )
 {
 let
@@ -3682,7 +3682,7 @@ customize
 -
 "
 +
-aTheme
+contentTheme
 )
 .
 click

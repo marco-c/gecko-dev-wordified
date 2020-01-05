@@ -5203,7 +5203,6 @@ aParentNode
 hasChildren
 )
 {
-let
 parentRow
 =
 oldRow
@@ -8089,7 +8088,7 @@ aLivemark
 )
 ;
 let
-props
+livemarkProps
 =
 this
 .
@@ -8107,7 +8106,7 @@ _cellProperties
 set
 (
 node
-props
+livemarkProps
 +
 =
 "

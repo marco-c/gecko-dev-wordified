@@ -5812,6 +5812,7 @@ case
 history
 "
 :
+{
 if
 (
 currentOptions
@@ -5826,7 +5827,7 @@ nsINavHistoryQueryOptions
 QUERY_TYPE_HISTORY
 )
 {
-var
+let
 query
 =
 PlacesUtils
@@ -5843,7 +5844,7 @@ searchTerms
 =
 filterString
 ;
-var
+let
 options
 =
 currentOptions
@@ -5926,11 +5927,13 @@ HISTORY_LIBRARY_SEARCH_TELEMETRY
 }
 break
 ;
+}
 case
 "
 downloads
 "
 :
+{
 if
 (
 currentView
@@ -6053,6 +6056,7 @@ filterString
 }
 break
 ;
+}
 default
 :
 throw

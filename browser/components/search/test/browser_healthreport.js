@@ -336,7 +336,7 @@ by
 )
 ;
 let
-engine
+fooEngine
 =
 Services
 .
@@ -355,7 +355,7 @@ search
 .
 removeEngine
 (
-engine
+fooEngine
 )
 ;
 }

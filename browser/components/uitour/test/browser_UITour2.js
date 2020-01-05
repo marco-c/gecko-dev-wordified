@@ -470,7 +470,6 @@ customizeTarget
 .
 node
 function
-checkMenuIsStillOpen
 (
 )
 {
@@ -583,7 +582,6 @@ target
 .
 node
 function
-checkMenuIsStillOpen
 (
 )
 {
