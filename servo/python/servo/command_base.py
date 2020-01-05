@@ -3651,6 +3651,24 @@ NATIVE_WIN32_PYTHON
 sys
 .
 executable
+            
+#
+Always
+build
+harfbuzz
+from
+source
+            
+env
+[
+"
+HARFBUZZ_SYS_NO_PKG_CONFIG
+"
+]
+=
+"
+true
+"
         
 if
 not

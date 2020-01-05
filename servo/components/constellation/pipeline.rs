@@ -291,6 +291,16 @@ collections
 :
 HashMap
 ;
+#
+[
+cfg
+(
+not
+(
+windows
+)
+)
+]
 use
 std
 :
