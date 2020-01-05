@@ -15861,14 +15861,14 @@ Step
 if
 this
 .
-type_id
+NodeType
 (
 )
 !
 =
 node
 .
-type_id
+NodeType
 (
 )
 {
