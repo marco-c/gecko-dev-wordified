@@ -283,17 +283,6 @@ aFilter
 override
 ;
 virtual
-nsIFrame
-*
-CreateFrameFor
-(
-nsIContent
-*
-aContent
-)
-override
-;
-virtual
 nsresult
 AttributeChanged
 (
