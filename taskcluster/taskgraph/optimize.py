@@ -1491,20 +1491,6 @@ buildername
 bbb_task
 =
 True
-        
-#
-never
-optimize
-with
-SETA
-for
-BBB
--
-bug
-1364421
-        
-return
-False
     
 else
 :
