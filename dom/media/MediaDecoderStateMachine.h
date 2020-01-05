@@ -963,6 +963,7 @@ EnterVideoSuspend
 ExitVideoSuspend
 StartVideoSuspendTimer
 CancelVideoSuspendTimer
+VideoOnlySeekCompleted
 }
 ;
 enum
