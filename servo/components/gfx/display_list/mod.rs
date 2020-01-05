@@ -2592,7 +2592,10 @@ display_list
 print_items
 (
 "
-*
+#
+#
+#
+#
 "
 .
 to_owned
