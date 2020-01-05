@@ -46367,12 +46367,12 @@ MOZ_ASSERT
 task
 -
 >
-mode
+tier
 (
 )
 =
 =
-CompileMode
+Tier
 :
 :
 Baseline

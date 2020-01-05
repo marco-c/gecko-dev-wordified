@@ -1271,6 +1271,11 @@ getExportedFunctionCodeRange
 (
 HandleFunction
 fun
+wasm
+:
+:
+Tier
+tier
 )
 ;
 static
