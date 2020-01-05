@@ -523,14 +523,6 @@ h
 "
 )
 ;
-template
-<
-typename
-T
->
-struct
-OfType
-;
 static
 bool
 sameBuffer
