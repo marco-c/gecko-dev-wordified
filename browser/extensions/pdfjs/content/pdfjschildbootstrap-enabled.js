@@ -256,7 +256,7 @@ loading
 .
 PdfJs
 .
-updateRegistration
+ensureRegistered
 (
 )
 ;
