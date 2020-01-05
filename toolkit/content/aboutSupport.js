@@ -4796,6 +4796,15 @@ key
 )
 ;
 }
+if
+(
+"
+syscallLog
+"
+in
+data
+)
+{
 let
 syscallBody
 =
@@ -4988,6 +4997,7 @@ cells
 )
 )
 ;
+}
 }
 }
 }
