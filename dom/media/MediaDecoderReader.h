@@ -1574,7 +1574,7 @@ mTimedMetadataEvent
 Notified
 by
 the
-OggReader
+OggDemuxer
 during
 playback
 when
