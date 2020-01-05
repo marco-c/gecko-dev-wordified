@@ -217,6 +217,11 @@ Shutdown
 (
 )
 {
+if
+(
+sVideoBridgeChildSingleton
+)
+{
 sVideoBridgeChildSingleton
 -
 >
@@ -228,6 +233,7 @@ sVideoBridgeChildSingleton
 =
 nullptr
 ;
+}
 }
 VideoBridgeChild
 :
