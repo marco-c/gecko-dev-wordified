@@ -2841,15 +2841,12 @@ a
 self
 current_cv
 :
-Option
-<
 &
 '
 a
 Arc
 <
 ComputedValues
->
 >
 _pseudo_element
 :
@@ -2872,7 +2869,10 @@ ComputedValues
 >
 >
 {
+Some
+(
 current_cv
+)
 }
 fn
 has_dirty_descendants
@@ -5497,6 +5497,8 @@ styles
 primary
 .
 values
+(
+)
 .
 clone
 (
