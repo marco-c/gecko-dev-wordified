@@ -6286,7 +6286,7 @@ PlacesUtils
 .
 history
 .
-removePage
+remove
 (
 node
 .

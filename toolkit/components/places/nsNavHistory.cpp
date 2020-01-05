@@ -15851,6 +15851,10 @@ uint32_t
 aLength
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -16066,6 +16070,10 @@ nsIURI
 aURI
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
