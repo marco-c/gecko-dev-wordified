@@ -690,6 +690,8 @@ outer_frame
 session
 .
 find
+.
+css
 (
 "
 iframe
@@ -711,6 +713,8 @@ inner_frame
 session
 .
 find
+.
+css
 (
 "
 iframe
