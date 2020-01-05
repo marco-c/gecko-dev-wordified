@@ -1,3 +1,7 @@
+#
+flake8
+:
+noqa
 from
 ctypes
 import
