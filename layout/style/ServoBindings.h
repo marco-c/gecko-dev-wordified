@@ -1324,6 +1324,16 @@ ServoComputedValuesBorrowedOrNull
 aParentComputedValues
 )
 ;
+bool
+Gecko_ElementHasCSSAnimations
+(
+RawGeckoElementBorrowed
+aElement
+nsIAtom
+*
+aPseudoTagOrNull
+)
+;
 /
 /
 Atoms
