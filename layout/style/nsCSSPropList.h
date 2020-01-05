@@ -3603,6 +3603,14 @@ appearance
 .
 enabled
 "
+/
+/
+also
+controls
+-
+webkit
+-
+appearance
 VARIANT_HK
 kAppearanceKTable
 CSS_PROP_NO_OFFSET
