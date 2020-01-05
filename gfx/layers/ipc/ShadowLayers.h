@@ -1850,8 +1850,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-synchronously
 )
 override
 ;

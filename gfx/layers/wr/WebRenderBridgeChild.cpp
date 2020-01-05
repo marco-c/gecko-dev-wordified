@@ -824,8 +824,6 @@ const
 OpDestroy
 &
 aOp
-bool
-aSynchronously
 )
 {
 if
@@ -845,16 +843,6 @@ AppendElement
 aOp
 )
 ;
-if
-(
-aSynchronously
-)
-{
-MarkSyncTransaction
-(
-)
-;
-}
 return
 true
 ;
@@ -907,8 +895,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-aSynchronously
 )
 {
 return
@@ -918,7 +904,6 @@ OpDestroy
 (
 aTexture
 )
-aSynchronously
 )
 ;
 }
@@ -941,7 +926,6 @@ OpDestroy
 (
 aHandle
 )
-false
 )
 ;
 }

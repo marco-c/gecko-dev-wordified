@@ -2741,8 +2741,6 @@ const
 OpDestroy
 &
 op
-bool
-synchronously
 )
 {
 if
@@ -2770,19 +2768,6 @@ AppendElement
 op
 )
 ;
-if
-(
-synchronously
-)
-{
-aTxn
--
->
-MarkSyncTransaction
-(
-)
-;
-}
 return
 true
 ;
@@ -2796,8 +2781,6 @@ DestroyInTransaction
 PTextureChild
 *
 aTexture
-bool
-synchronously
 )
 {
 return
@@ -2808,7 +2791,6 @@ OpDestroy
 (
 aTexture
 )
-synchronously
 )
 ;
 }
@@ -2832,7 +2814,6 @@ OpDestroy
 (
 aHandle
 )
-false
 )
 ;
 }
