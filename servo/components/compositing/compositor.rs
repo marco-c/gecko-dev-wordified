@@ -154,7 +154,7 @@ euclid
 :
 :
 {
-Matrix4
+Matrix4D
 Point2D
 Rect
 Size2D
@@ -5356,7 +5356,7 @@ ScrollPolicy
 Scrollable
 transform
 :
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -5364,7 +5364,7 @@ identity
 )
 perspective
 :
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -6514,7 +6514,7 @@ ScrollPolicy
 Scrollable
 transform
 :
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -6522,7 +6522,7 @@ identity
 )
 perspective
 :
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -12200,14 +12200,14 @@ root_layer
 update_transform_state
 (
 &
-Matrix4
+Matrix4D
 :
 :
 identity
 (
 )
 &
-Matrix4
+Matrix4D
 :
 :
 identity

@@ -156,10 +156,7 @@ use
 euclid
 :
 :
-matrix
-:
-:
-Matrix4
+Matrix4D
 ;
 use
 euclid
@@ -889,7 +886,10 @@ layer
 pub
 transform
 :
-Matrix4
+Matrix4D
+<
+f32
+>
 /
 /
 /
@@ -902,7 +902,10 @@ layer
 pub
 perspective
 :
-Matrix4
+Matrix4D
+<
+f32
+>
 /
 /
 /

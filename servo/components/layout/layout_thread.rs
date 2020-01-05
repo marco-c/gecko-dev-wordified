@@ -133,7 +133,7 @@ use
 euclid
 :
 :
-Matrix4
+Matrix4D
 ;
 use
 euclid
@@ -6406,13 +6406,13 @@ T
 :
 :
 normal
-Matrix4
+Matrix4D
 :
 :
 identity
 (
 )
-Matrix4
+Matrix4D
 :
 :
 identity

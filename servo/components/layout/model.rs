@@ -83,7 +83,7 @@ euclid
 :
 :
 {
-Matrix4
+Matrix4D
 SideOffsets2D
 Size2D
 }
@@ -3420,7 +3420,10 @@ self
 )
 -
 >
-Matrix4
+Matrix4D
+<
+f32
+>
 ;
 }
 impl
@@ -3436,9 +3439,12 @@ self
 )
 -
 >
-Matrix4
+Matrix4D
+<
+f32
+>
 {
-Matrix4
+Matrix4D
 {
 m11
 :
