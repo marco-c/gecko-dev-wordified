@@ -53205,6 +53205,11 @@ value
 of
 its
 parent
+if
+(
+parent
+)
+{
 skipList
 [
 idx
@@ -53212,6 +53217,7 @@ idx
 =
 parent
 ;
+}
 }
 else
 {
@@ -53555,6 +53561,9 @@ if
 (
 !
 bIsEmptyNode
+&
+&
+parent
 )
 {
 /
