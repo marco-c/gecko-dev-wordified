@@ -460,7 +460,7 @@ nsresult
 ExpandedPrincipal
 :
 :
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &
