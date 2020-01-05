@@ -770,12 +770,8 @@ which
 has
 been
 displayed
-/
-/
-in
-microseconds
 .
-int64_t
+TimeUnit
 mVideoFrameEndTime
 ;
 /
