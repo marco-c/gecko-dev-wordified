@@ -2601,7 +2601,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -6270,7 +6270,7 @@ pseudoStyleContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -6467,7 +6467,7 @@ pseudoStyleContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :

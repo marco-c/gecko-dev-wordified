@@ -9298,7 +9298,7 @@ styleContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :

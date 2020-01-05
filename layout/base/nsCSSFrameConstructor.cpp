@@ -13488,7 +13488,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -14908,7 +14908,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -15699,7 +15699,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -17850,7 +17850,7 @@ viewportPseudoStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -18887,7 +18887,7 @@ rootPseudoStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 rootPseudo
 viewportPseudoStyle
@@ -19010,7 +19010,7 @@ styleContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -19443,7 +19443,7 @@ pagePseudoStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -19509,7 +19509,7 @@ pageContentPseudoStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -19651,7 +19651,7 @@ canvasPseudoStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -20302,7 +20302,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -21230,7 +21230,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -21512,7 +21512,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -25237,7 +25237,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 *
 data
@@ -25453,7 +25453,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -29128,7 +29128,7 @@ scrolledChildStyle
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 aScrolledPseudo
 contentStyle
@@ -32396,7 +32396,7 @@ blockContext
 styleSet
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 anonPseudo
 parentContext
@@ -33044,7 +33044,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 aInnerPseudo
 styleContext
@@ -35191,7 +35191,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -67108,7 +67108,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 pseudoType
 parentStyle
@@ -70612,7 +70612,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 pseudoType
 aParentStyle
@@ -71111,7 +71111,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 *
 pseudoData
@@ -74620,7 +74620,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -80517,7 +80517,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsCSSAnonBoxes
 :
@@ -81882,7 +81882,7 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 aIsPositioned
 ?

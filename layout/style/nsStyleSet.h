@@ -1724,10 +1724,10 @@ can
 be
 passed
 to
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 and
-GetContext
 *
+GetContext
 in
 their
 parameter
@@ -1920,7 +1920,7 @@ already_AddRefed
 <
 nsStyleContext
 >
-ResolveAnonymousBoxStyle
+ResolveInheritingAnonymousBoxStyle
 (
 nsIAtom
 *
