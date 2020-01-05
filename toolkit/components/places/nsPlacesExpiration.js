@@ -726,11 +726,11 @@ linearly
 const
 DATABASE_MAX_SIZE
 =
-73400320
+62914560
 ;
 /
 /
-70MiB
+60MiB
 /
 /
 If

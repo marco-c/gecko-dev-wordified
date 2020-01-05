@@ -1253,8 +1253,8 @@ an
 unneeded
 left
 join
-on
-moz_favicons
+with
+favicons
 and
 an
 ORDER
