@@ -806,6 +806,11 @@ class
 ruleview
 -
 propertycontainer
+inline
+-
+tooltip
+-
+container
 "
 }
 )
