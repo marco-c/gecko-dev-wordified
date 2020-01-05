@@ -1832,8 +1832,14 @@ instance
 static
 *
 /
+js
+:
+:
 ExclusiveData
 <
+js
+:
+:
 IcuTimeZoneStatus
 >
 *
@@ -2024,6 +2030,9 @@ defined
 (
 ICU_TZ_HAS_RECREATE_DEFAULT
 )
+js
+:
+:
 IcuTimeZoneState
 -
 >
@@ -2035,6 +2044,9 @@ get
 (
 )
 =
+js
+:
+:
 IcuTimeZoneStatus
 :
 :
