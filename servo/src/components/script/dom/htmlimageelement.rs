@@ -357,8 +357,6 @@ win
 =
 >
 {
-unsafe
-{
 let
 page
 =
@@ -377,10 +375,7 @@ stream
 )
 ;
 match
-(
-*
 page
-)
 .
 query_layout
 (
@@ -409,7 +404,6 @@ width
 )
 as
 u32
-}
 }
 }
 }
@@ -560,8 +554,6 @@ win
 =
 >
 {
-unsafe
-{
 let
 page
 =
@@ -580,10 +572,7 @@ stream
 )
 ;
 match
-(
-*
 page
-)
 .
 query_layout
 (
@@ -612,7 +601,6 @@ height
 )
 as
 u32
-}
 }
 }
 }

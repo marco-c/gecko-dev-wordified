@@ -873,14 +873,9 @@ unwrap
 let
 cx
 =
-unsafe
-{
-(
-*
 win
 .
 page
-)
 .
 js_info
 .
@@ -893,7 +888,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache
@@ -1470,12 +1464,7 @@ stream
 )
 ;
 match
-unsafe
-{
-(
-*
 page
-)
 .
 query_layout
 (
@@ -1486,7 +1475,6 @@ chan
 )
 port
 )
-}
 {
 ContentBoxesResponse
 (
@@ -1498,12 +1486,7 @@ rects
 let
 cx
 =
-unsafe
-{
-(
-*
 page
-)
 .
 js_info
 .
@@ -1516,7 +1499,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache
@@ -1756,12 +1738,7 @@ stream
 )
 ;
 match
-unsafe
-{
-(
-*
 page
-)
 .
 query_layout
 (
@@ -1772,7 +1749,6 @@ chan
 )
 port
 )
-}
 {
 ContentBoxResponse
 (
@@ -1784,12 +1760,7 @@ rect
 let
 cx
 =
-unsafe
-{
-(
-*
 page
-)
 .
 js_info
 .
@@ -1802,7 +1773,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache

@@ -251,14 +251,9 @@ subframes
 let
 cx
 =
-unsafe
-{
-(
-*
 owner
 .
 page
-)
 .
 js_info
 .
@@ -271,7 +266,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache

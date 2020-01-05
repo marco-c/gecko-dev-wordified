@@ -284,14 +284,9 @@ unwrap
 let
 cx
 =
-unsafe
-{
-(
-*
 win
 .
 page
-)
 .
 js_info
 .
@@ -304,7 +299,6 @@ js_compartment
 cx
 .
 ptr
-}
 ;
 let
 cache
