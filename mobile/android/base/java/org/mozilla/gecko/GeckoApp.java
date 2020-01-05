@@ -2036,6 +2036,10 @@ bug
 .
 if
 (
+!
+loadingExternalURL
+&
+&
 sessionTab
 .
 isSelected
