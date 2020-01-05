@@ -2041,9 +2041,6 @@ PipelineListener
 class
 VideoFrameFeeder
 ;
-class
-PipelineVideoSink
-;
 protected
 :
 ~
@@ -2086,12 +2083,6 @@ converter_
 ;
 #
 endif
-RefPtr
-<
-PipelineVideoSink
->
-video_sink_
-;
 dom
 :
 :
