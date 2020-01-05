@@ -172,6 +172,10 @@ rustc_serialize
 ;
 extern
 crate
+threadpool
+;
+extern
+crate
 time
 ;
 extern
