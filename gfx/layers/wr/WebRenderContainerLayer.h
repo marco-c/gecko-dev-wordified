@@ -232,6 +232,11 @@ WebRenderContainerLayer
 )
 ;
 }
+void
+UpdateTransformDataForAnimation
+(
+)
+;
 public
 :
 Layer
