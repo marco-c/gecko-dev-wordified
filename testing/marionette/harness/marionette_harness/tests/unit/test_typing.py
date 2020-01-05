@@ -761,7 +761,7 @@ assertEqual
 "
 url_bar
 .
-get_attribute
+get_property
 (
 "
 value
@@ -788,7 +788,7 @@ zyxwvutsr
 "
 url_bar
 .
-get_attribute
+get_property
 (
 "
 value
