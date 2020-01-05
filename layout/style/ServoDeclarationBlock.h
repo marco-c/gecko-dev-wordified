@@ -210,9 +210,11 @@ const
 nsAString
 &
 aCssText
-const
-GeckoParserExtraData
-&
+css
+:
+:
+URLExtraData
+*
 aExtraData
 )
 ;

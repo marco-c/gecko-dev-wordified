@@ -3368,9 +3368,10 @@ principal
 bindingURL
 -
 >
-mOriginPrincipal
-.
-get
+mExtraData
+-
+>
+GetPrincipal
 (
 )
 ;
