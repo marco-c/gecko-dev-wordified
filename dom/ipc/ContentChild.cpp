@@ -16496,6 +16496,13 @@ nsHostObjectProtocolHandler
 RemoveDataEntry
 (
 aURI
+/
+*
+aBroadcastToOtherProcesses
+=
+*
+/
+false
 )
 ;
 return
