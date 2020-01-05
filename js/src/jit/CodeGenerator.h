@@ -3352,14 +3352,6 @@ lir
 )
 ;
 void
-visitWasmLoadTls
-(
-LWasmLoadTls
-*
-ins
-)
-;
-void
 visitWasmBoundsCheck
 (
 LWasmBoundsCheck
