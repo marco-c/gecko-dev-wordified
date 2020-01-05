@@ -551,7 +551,6 @@ window
 window
 ;
 }
-;
 MockColorPickerInstance
 .
 prototype
