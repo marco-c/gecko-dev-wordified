@@ -1181,7 +1181,7 @@ failed
 outgoing
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -1290,7 +1290,7 @@ trackRecord
 succeeded
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (

@@ -528,7 +528,7 @@ repository
 ;
 protected
 RepositorySessionStoreDelegate
-delegate
+storeDelegate
 ;
 /
 *
@@ -939,7 +939,7 @@ delegate
 ;
 this
 .
-delegate
+storeDelegate
 =
 delegate
 ;
@@ -1054,7 +1054,7 @@ run
 (
 )
 {
-delegate
+storeDelegate
 .
 onStoreCompleted
 (

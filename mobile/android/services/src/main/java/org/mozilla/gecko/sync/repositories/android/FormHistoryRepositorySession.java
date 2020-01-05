@@ -2906,7 +2906,7 @@ Exception
 e
 )
 {
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -3177,7 +3177,7 @@ e
 /
 XXX
 TODO
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -3497,7 +3497,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -3660,14 +3660,13 @@ failing
 "
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
 new
 InactiveSessionException
 (
-null
 )
 record
 .
@@ -3986,7 +3985,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4055,7 +4054,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4182,7 +4181,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4300,7 +4299,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4373,7 +4372,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4443,7 +4442,7 @@ trackRecord
 record
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreSucceeded
 (
@@ -4498,7 +4497,7 @@ guid
 e
 )
 ;
-delegate
+storeDelegate
 .
 onRecordStoreFailed
 (
@@ -4606,7 +4605,6 @@ onWipeFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;

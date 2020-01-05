@@ -837,7 +837,7 @@ NoStoreDelegateException
 {
 if
 (
-delegate
+storeDelegate
 =
 =
 null
@@ -956,7 +956,7 @@ storing
 "
 )
 ;
-delegate
+storeDelegate
 .
 deferredStoreDelegate
 (
@@ -1051,7 +1051,7 @@ trackRecord
 toStore
 )
 ;
-delegate
+storeDelegate
 .
 deferredStoreDelegate
 (
@@ -1312,7 +1312,7 @@ storeCompleted
 =
 end
 ;
-delegate
+storeDelegate
 .
 deferredStoreDelegate
 (
