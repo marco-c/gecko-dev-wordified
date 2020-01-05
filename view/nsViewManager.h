@@ -2192,12 +2192,13 @@ ProcessPendingUpdatesRecurse
 nsView
 *
 aView
-nsTArray
+AutoTArray
 <
 nsCOMPtr
 <
 nsIWidget
 >
+1
 >
 &
 aWidgets
