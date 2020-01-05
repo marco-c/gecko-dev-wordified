@@ -1217,7 +1217,10 @@ ImportRule
 /
 version
 .
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 GetDOMOwnerRule
 (

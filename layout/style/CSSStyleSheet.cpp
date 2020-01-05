@@ -511,7 +511,10 @@ GetParentObject
 override
 ;
 virtual
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 IndexedGetter
 (
@@ -647,7 +650,10 @@ StyleRuleCount
 )
 ;
 }
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 CSSRuleListImpl
 :
@@ -5005,7 +5011,10 @@ return
 NS_OK
 ;
 }
-nsIDOMCSSRule
+css
+:
+:
+Rule
 *
 CSSStyleSheet
 :
