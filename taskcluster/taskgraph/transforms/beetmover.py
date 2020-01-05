@@ -298,8 +298,6 @@ platform
 .
 tests
 .
-tar
-.
 zip
 "
     
@@ -560,9 +558,7 @@ platform
 .
 tests
 .
-tar
-.
-gz
+zip
 "
     
 "
@@ -738,9 +734,7 @@ platform
 .
 tests
 .
-tar
-.
-gz
+zip
 "
     
 "

@@ -308,9 +308,7 @@ platform
 .
 tests
 .
-tar
-.
-gz
+zip
 "
     
 "
