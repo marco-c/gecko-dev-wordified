@@ -105,6 +105,12 @@ exceptions
 from
 mako
 .
+lookup
+import
+TemplateLookup
+from
+mako
+.
 template
 import
 Template
@@ -410,6 +416,17 @@ context
 try
 :
         
+lookup
+=
+TemplateLookup
+(
+directories
+=
+[
+BASE
+]
+)
+        
 template
 =
 Template
@@ -426,19 +443,23 @@ read
 (
 )
                             
+filename
+=
+filename
+                            
 input_encoding
 =
 "
 utf8
 "
                             
+lookup
+=
+lookup
+                            
 strict_undefined
 =
 True
-                            
-filename
-=
-filename
 )
         
 #

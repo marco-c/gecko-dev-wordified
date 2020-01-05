@@ -2482,7 +2482,6 @@ file_name
 endswith
 (
 "
-properties
 .
 mako
 .
