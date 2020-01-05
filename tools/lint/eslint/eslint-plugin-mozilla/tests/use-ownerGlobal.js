@@ -391,6 +391,7 @@ message
 use
 .
 ownerGlobal
+instead
 of
 .
 ownerDocument
