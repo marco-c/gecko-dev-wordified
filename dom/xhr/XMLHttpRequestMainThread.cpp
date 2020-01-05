@@ -4006,7 +4006,7 @@ aResponseType
 XMLHttpRequestResponseType
 :
 :
-Moz_Chunked_Text
+Moz_chunked_text
 )
 {
 Telemetry
@@ -4031,7 +4031,7 @@ aResponseType
 XMLHttpRequestResponseType
 :
 :
-Moz_Chunked_Arraybuffer
+Moz_chunked_arraybuffer
 )
 {
 Telemetry
