@@ -571,7 +571,6 @@ policy
 :
 close
 "
-null
 )
 ;
 }

@@ -404,7 +404,6 @@ context
 -
 exited
 "
-null
 )
 ;
 do_check_eq
@@ -501,7 +500,6 @@ context
 -
 exited
 "
-null
 )
 ;
 do_check_eq
@@ -770,7 +768,6 @@ context
 -
 exited
 "
-null
 )
 ;
 do_check_eq
@@ -913,7 +910,6 @@ context
 -
 exited
 "
-null
 )
 ;
 do_check_eq

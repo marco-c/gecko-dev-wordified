@@ -1501,7 +1501,6 @@ ViewCertDetails
 :
 CertUsagesDone
 "
-null
 )
 ;
 }

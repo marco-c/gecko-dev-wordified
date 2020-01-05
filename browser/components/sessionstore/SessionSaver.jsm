@@ -591,8 +591,6 @@ notifyObservers
 (
 subject
 topic
-"
-"
 )
 ;
 }

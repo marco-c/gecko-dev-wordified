@@ -191,7 +191,6 @@ quit
 -
 application
 "
-null
 )
 ;
 }

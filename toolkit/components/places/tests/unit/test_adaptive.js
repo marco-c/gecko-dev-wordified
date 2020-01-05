@@ -790,7 +790,6 @@ enter
 -
 text
 "
-null
 )
 ;
 }

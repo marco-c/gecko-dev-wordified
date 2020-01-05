@@ -457,7 +457,6 @@ startupcache
 -
 invalidate
 "
-null
 )
 ;
 if

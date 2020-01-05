@@ -446,7 +446,6 @@ cache
 -
 entry
 "
-null
 )
 ;
 fakeHybridAddonFile
@@ -823,7 +822,6 @@ cache
 -
 entry
 "
-null
 )
 ;
 xpi

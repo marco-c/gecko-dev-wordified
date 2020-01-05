@@ -325,7 +325,6 @@ blocklist
 -
 closed
 "
-null
 )
 ;
 }

@@ -302,8 +302,6 @@ my
 -
 topic
 "
-"
-"
 )
 ;
 yield

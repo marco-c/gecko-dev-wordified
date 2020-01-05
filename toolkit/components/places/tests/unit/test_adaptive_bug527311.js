@@ -718,7 +718,6 @@ enter
 -
 text
 "
-null
 )
 ;
 }

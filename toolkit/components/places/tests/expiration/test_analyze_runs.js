@@ -403,7 +403,6 @@ notifyObservers
 (
 thing
 TOPIC_AUTOCOMPLETE_FEEDBACK_INCOMING
-null
 )
 ;
 }

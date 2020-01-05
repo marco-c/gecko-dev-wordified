@@ -10448,8 +10448,6 @@ PopupNotifications
 "
 +
 topic
-"
-"
 )
 ;
 }

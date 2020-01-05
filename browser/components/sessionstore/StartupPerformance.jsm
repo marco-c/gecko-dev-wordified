@@ -704,8 +704,6 @@ null
 this
 .
 RESTORED_TOPIC
-"
-"
 )
 ;
 if

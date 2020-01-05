@@ -5546,8 +5546,6 @@ AboutReader
 :
 Ready
 "
-"
-"
 )
 ;
 this

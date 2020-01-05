@@ -220,7 +220,6 @@ log
 -
 event
 "
-null
 )
 ;
 }

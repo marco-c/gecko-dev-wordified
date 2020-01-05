@@ -297,7 +297,6 @@ session
 -
 history
 "
-0
 )
 )
 ;
@@ -665,8 +664,6 @@ idle
 -
 daily
 "
-"
-"
 )
 )
 ;
@@ -735,7 +732,6 @@ session
 -
 history
 "
-0
 )
 )
 ;

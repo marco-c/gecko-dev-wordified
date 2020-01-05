@@ -1213,7 +1213,6 @@ content
 -
 windowid
 "
-null
 )
 ;
 }

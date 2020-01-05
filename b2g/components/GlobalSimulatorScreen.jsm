@@ -489,7 +489,6 @@ orientation
 -
 change
 '
-null
 )
 ;
 }
@@ -542,7 +541,6 @@ window
 -
 size
 '
-null
 )
 ;
 }

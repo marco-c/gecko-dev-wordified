@@ -297,7 +297,6 @@ pdfjs
 :
 handlerChanged
 "
-null
 )
 ;
 /

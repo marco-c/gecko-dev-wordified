@@ -239,8 +239,6 @@ ui
 -
 startup
 "
-"
-"
 )
 ;
 Services

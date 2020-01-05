@@ -2711,8 +2711,6 @@ fullscreen
 -
 painted
 "
-"
-"
 )
 ;
 TelemetryStopwatch
