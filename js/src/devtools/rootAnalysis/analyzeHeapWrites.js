@@ -1119,6 +1119,15 @@ null
 ]
 [
 "
+Gecko_SetCounterStyleToString
+"
+"
+aPtr
+"
+null
+]
+[
+"
 Gecko_CopyCounterStyle
 "
 "
