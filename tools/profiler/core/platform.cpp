@@ -17743,6 +17743,14 @@ IsActive
 (
 lock
 )
+&
+&
+info
+-
+>
+HasProfile
+(
+)
 )
 {
 /
