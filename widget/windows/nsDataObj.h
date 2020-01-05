@@ -664,6 +664,7 @@ public
 /
 construction
 destruction
+explicit
 nsDataObj
 (
 nsIURI

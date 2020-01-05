@@ -3482,6 +3482,7 @@ final
 {
 public
 :
+explicit
 AutoSetTemporarySelection
 (
 Selection
@@ -4050,6 +4051,7 @@ final
 {
 public
 :
+explicit
 AutoPendingActionAndContentFlusher
 (
 TSFTextStore

@@ -236,6 +236,7 @@ JUMPLIST_ITEM_EMPTY
 )
 {
 }
+explicit
 JumpListItemBase
 (
 int32_t

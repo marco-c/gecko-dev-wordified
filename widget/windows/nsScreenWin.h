@@ -196,6 +196,7 @@ nsBaseScreen
 {
 public
 :
+explicit
 nsScreenWin
 (
 HMONITOR

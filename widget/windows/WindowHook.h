@@ -344,6 +344,7 @@ rhs
 )
 ;
 }
+explicit
 operator
 bool
 (

@@ -198,6 +198,7 @@ nsIDragSource
 adapter
 )
 ;
+explicit
 nsNativeDragSource
 (
 nsIDOMDataTransfer

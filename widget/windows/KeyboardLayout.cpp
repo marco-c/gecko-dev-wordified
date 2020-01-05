@@ -3301,6 +3301,7 @@ nsAutoCString
 {
 public
 :
+explicit
 GetAppCommandKeysName
 (
 WPARAM

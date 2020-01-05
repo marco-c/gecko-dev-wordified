@@ -1051,6 +1051,7 @@ wndproc
 bool
 mConsumed
 ;
+explicit
 MSGResult
 (
 LRESULT

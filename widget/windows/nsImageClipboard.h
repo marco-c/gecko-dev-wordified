@@ -206,6 +206,7 @@ nsImageToClipboard
 {
 public
 :
+explicit
 nsImageToClipboard
 (
 imgIContainer

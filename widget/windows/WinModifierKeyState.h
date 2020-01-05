@@ -154,6 +154,7 @@ bool
 aIsAltDown
 )
 ;
+explicit
 ModifierKeyState
 (
 Modifiers

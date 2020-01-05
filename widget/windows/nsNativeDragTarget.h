@@ -216,6 +216,7 @@ IDropTarget
 {
 public
 :
+explicit
 nsNativeDragTarget
 (
 nsIWidget

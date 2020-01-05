@@ -2312,6 +2312,7 @@ CurrentWindowsTimeGetter
 {
 public
 :
+explicit
 CurrentWindowsTimeGetter
 (
 HWND

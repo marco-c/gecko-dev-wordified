@@ -134,6 +134,7 @@ WinCompositorWidget
 {
 public
 :
+explicit
 CompositorWidgetParent
 (
 const

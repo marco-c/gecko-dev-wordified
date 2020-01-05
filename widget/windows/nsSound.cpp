@@ -372,6 +372,7 @@ Runnable
 {
 public
 :
+explicit
 SoundReleaser
 (
 nsSound
