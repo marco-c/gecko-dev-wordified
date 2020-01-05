@@ -12360,6 +12360,12 @@ makeRotaryEngine
 ;
 engine
 .
+allowSkippedRecord
+=
+false
+;
+engine
+.
 _store
 .
 items

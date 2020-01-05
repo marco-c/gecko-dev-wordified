@@ -4249,7 +4249,7 @@ limit
 .
 allowSkippedRecord
 :
-false
+true
 get
 prefName
 (

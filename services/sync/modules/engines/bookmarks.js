@@ -1830,6 +1830,9 @@ index
 syncPriority
 :
 4
+allowSkippedRecord
+:
+false
 /
 /
 A

@@ -405,6 +405,9 @@ undefined
 syncPriority
 :
 10
+allowSkippedRecord
+:
+false
 _sync
 :
 function

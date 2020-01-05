@@ -681,6 +681,9 @@ ClientsRec
 _trackerObj
 :
 ClientsTracker
+allowSkippedRecord
+:
+false
 /
 /
 Always
