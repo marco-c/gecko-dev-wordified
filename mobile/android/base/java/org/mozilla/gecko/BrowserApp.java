@@ -4732,16 +4732,6 @@ long_press_vibrate_msec
 )
 )
 ;
-if
-(
-BrowserApp
-.
-this
-.
-isForegrounded
-(
-)
-)
 fragment
 .
 show
