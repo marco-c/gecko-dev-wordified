@@ -285,6 +285,7 @@ HighlighterFront
 let
 icon
 =
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -408,6 +409,7 @@ inspector
 ;
 icon
 =
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -485,6 +487,7 @@ inspector
 ;
 icon
 =
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
