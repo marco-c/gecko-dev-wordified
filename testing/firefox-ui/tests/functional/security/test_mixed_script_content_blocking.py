@@ -237,7 +237,7 @@ enabled
 :
             
 color
-icon_filename
+identity
 state
 =
 (
@@ -252,9 +252,8 @@ rgb
 '
                 
 '
-identity
--
-secure
+verifiedDomain
+mixedActiveBlocked
 '
                 
 '
@@ -267,7 +266,7 @@ else
 :
             
 color
-icon_filename
+identity
 state
 =
 (
@@ -282,13 +281,8 @@ rgb
 '
                 
 '
-identity
--
-mixed
--
-active
--
-loaded
+unknownIdentity
+mixedActiveContent
 '
                 
 '
@@ -318,14 +312,6 @@ web
 page
 .
         
-connection_icon
-=
-self
-.
-locationbar
-.
-connection_icon
-        
 Wait
 (
 self
@@ -346,30 +332,39 @@ until
 lambda
 _
 :
-icon_filename
-in
-connection_icon
+self
 .
-value_of_css_property
+locationbar
+.
+identity_box
+.
+get_attribute
 (
 '
-list
--
-style
--
-image
+className
 '
 )
+=
+=
+identity
             
 message
 =
+'
+Expected
+identity
 "
-The
-correct
-icon
-is
-displayed
+{
+}
 "
+not
+found
+'
+.
+format
+(
+identity
+)
         
 )
         
