@@ -2306,6 +2306,13 @@ jetpack
 ]
                             
 "
+xpcshell
+"
+:
+[
+]
+                            
+"
 gtest
 "
 :
