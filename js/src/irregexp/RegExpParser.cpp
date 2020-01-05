@@ -1762,7 +1762,7 @@ template
 typename
 CharT
 >
-size_t
+widechar
 RegExpParser
 <
 CharT
@@ -1944,7 +1944,7 @@ ParseHexEscape
 (
 int
 length
-size_t
+widechar
 *
 value
 )
@@ -2065,7 +2065,7 @@ CharT
 :
 ParseBracedHexEscape
 (
-size_t
+widechar
 *
 value
 )
@@ -2242,7 +2242,7 @@ CharT
 :
 ParseTrailSurrogate
 (
-size_t
+widechar
 *
 value
 )
@@ -3248,7 +3248,7 @@ Advance
 (
 )
 ;
-size_t
+widechar
 value
 ;
 if
@@ -3333,7 +3333,7 @@ Advance
 (
 )
 ;
-size_t
+widechar
 value
 ;
 if
@@ -3395,7 +3395,7 @@ value
 )
 )
 {
-size_t
+widechar
 trail
 ;
 if
@@ -4738,7 +4738,7 @@ tmp_ranges
 j
 ]
 ;
-size_t
+auto
 from1
 =
 tmpRange
@@ -4747,7 +4747,7 @@ from
 (
 )
 ;
-size_t
+auto
 to1
 =
 tmpRange
@@ -4756,7 +4756,7 @@ to
 (
 )
 ;
-size_t
+auto
 from2
 =
 range
@@ -4765,7 +4765,7 @@ from
 (
 )
 ;
-size_t
+auto
 to2
 =
 range
@@ -5641,11 +5641,11 @@ to
 (
 )
 ;
-size_t
+char16_t
 from_lead
 from_trail
 ;
-size_t
+char16_t
 to_lead
 to_trail
 ;
@@ -10232,7 +10232,7 @@ Advance
 (
 )
 ;
-size_t
+widechar
 octal
 =
 ParseOctalLiteral
@@ -10555,7 +10555,7 @@ Advance
 2
 )
 ;
-size_t
+widechar
 value
 ;
 if
@@ -10614,7 +10614,7 @@ Advance
 2
 )
 ;
-size_t
+widechar
 value
 ;
 if
@@ -10707,7 +10707,7 @@ unicode
 NonBMPMin
 )
 {
-size_t
+char16_t
 lead
 trail
 ;
@@ -10772,7 +10772,7 @@ value
 )
 )
 {
-size_t
+widechar
 trail
 ;
 if
