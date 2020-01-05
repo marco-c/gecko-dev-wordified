@@ -1197,11 +1197,7 @@ create
 script_context
 )
 .
-compartment
-.
-get
-(
-)
+js_compartment
 self
 )
 }

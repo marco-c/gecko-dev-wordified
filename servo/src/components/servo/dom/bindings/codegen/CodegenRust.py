@@ -33103,11 +33103,13 @@ global
 script_context
 )
 .
-window
+root_frame
 .
-get
+get_ref
 (
 )
+.
+window
 ;
   
 let
