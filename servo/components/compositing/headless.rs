@@ -687,6 +687,11 @@ ScrollTimeout
 Msg
 :
 :
+RecompositeAfterScroll
+|
+Msg
+:
+:
 ChangePageTitle
 (
 .
