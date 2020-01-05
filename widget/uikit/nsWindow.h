@@ -225,7 +225,8 @@ return
 mVisible
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool

@@ -2209,7 +2209,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

@@ -7185,7 +7185,7 @@ return
 timestamp
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

@@ -5019,7 +5019,8 @@ active
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 SetFocus
 (
 bool
@@ -5433,9 +5434,9 @@ system
 default
 .
 *
-*
 /
-NS_IMETHOD
+virtual
+nsresult
 SetNonClientMargins
 (
 LayoutDeviceIntMargin

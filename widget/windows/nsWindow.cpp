@@ -15283,7 +15283,7 @@ widget
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -18398,7 +18398,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
