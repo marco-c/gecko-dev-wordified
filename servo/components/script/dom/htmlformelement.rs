@@ -1535,7 +1535,7 @@ EventTarget
 (
 )
 .
-fire_simple_event_params
+fire_event
 (
 "
 submit
@@ -2447,7 +2447,7 @@ as_event_target
 (
 )
 .
-fire_simple_event_params
+fire_event
 (
 "
 invalid
@@ -3389,7 +3389,7 @@ EventTarget
 (
 )
 .
-fire_simple_event_params
+fire_event
 (
 "
 reset
