@@ -2195,9 +2195,6 @@ MOZ_MUST_USE
 nsresult
 SetAcceptLanguages
 (
-const
-char
-*
 )
 ;
 MOZ_MUST_USE
@@ -2522,6 +2519,9 @@ mUserAgent
 should
 be
 rebuilt
+bool
+mAcceptLanguagesIsDirty
+;
 bool
 mPromptTempRedirect
 ;
