@@ -685,6 +685,11 @@ firefox
 '
 mobile
 '
+'
+static
+-
+analysis
+'
 )
         
 #
