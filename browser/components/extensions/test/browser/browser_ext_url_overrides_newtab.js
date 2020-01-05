@@ -513,14 +513,14 @@ chrome_url_overrides
 {
 newtab
 :
-NEWTAB_URI_1
+NEWTAB_URI_2
 }
 }
 files
 :
 {
 [
-NEWTAB_URI_1
+NEWTAB_URI_2
 ]
 :
 <
