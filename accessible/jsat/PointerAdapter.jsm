@@ -58,17 +58,6 @@ MPL
 /
 /
 *
-global
-Components
-XPCOMUtils
-Utils
-Logger
-GestureSettings
-GestureTracker
-*
-/
-/
-*
 exported
 PointerRelay
 PointerAdapter

@@ -58,17 +58,6 @@ MPL
 /
 /
 *
-global
-Components
-GestureSettings
-XPCOMUtils
-Utils
-Promise
-Logger
-*
-/
-/
-*
 exported
 GestureSettings
 GestureTracker

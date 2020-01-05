@@ -149,15 +149,6 @@ aIndex
 )
 {
 var
-rowCount
-=
-this
-.
-getRowCount
-(
-)
-;
-var
 colsCount
 =
 this

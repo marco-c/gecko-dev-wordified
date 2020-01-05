@@ -909,16 +909,6 @@ aIdentifier
 aRelType
 )
 ;
-var
-relDescrStart
-=
-getRelationErrorMsg
-(
-aIdentifier
-aRelType
-true
-)
-;
 if
 (
 !

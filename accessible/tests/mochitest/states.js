@@ -1658,7 +1658,11 @@ aTestName
 ;
 var
 [
+/
+*
 state
+*
+/
 extraState
 ]
 =

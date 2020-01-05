@@ -370,7 +370,11 @@ idx
 var
 [
 state
+/
+*
 extraState
+*
+/
 ]
 =
 getStates
