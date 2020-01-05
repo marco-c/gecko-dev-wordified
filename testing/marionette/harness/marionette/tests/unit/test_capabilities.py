@@ -373,7 +373,7 @@ self
 assertIn
 (
 "
-acceptSslCerts
+acceptInsecureCerts
 "
 self
 .
@@ -389,7 +389,7 @@ self
 caps
 [
 "
-acceptSslCerts
+acceptInsecureCerts
 "
 ]
 )
