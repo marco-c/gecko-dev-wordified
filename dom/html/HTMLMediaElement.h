@@ -3612,11 +3612,13 @@ drawImage
 (
 )
 .
+already_AddRefed
+<
 layers
 :
 :
 Image
-*
+>
 GetCurrentImage
 (
 )
