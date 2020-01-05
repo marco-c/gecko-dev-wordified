@@ -688,6 +688,15 @@ resource_task
 ResourceTask
 ;
 use
+servo_net
+:
+:
+storage_task
+:
+:
+StorageTask
+;
+use
 servo_util
 :
 :
@@ -2106,6 +2115,9 @@ Failure
 resource_task
 :
 ResourceTask
+storage_task
+:
+StorageTask
 image_cache_task
 :
 ImageCacheTask
@@ -2202,6 +2214,7 @@ control_chan
 control_port
 constellation_chan
 resource_task
+storage_task
 image_cache_task
 devtools_chan
 window_size
@@ -2367,6 +2380,9 @@ ConstellationChan
 resource_task
 :
 ResourceTask
+storage_task
+:
+StorageTask
 img_cache_task
 :
 ImageCacheTask
@@ -2501,6 +2517,7 @@ resource_task
 clone
 (
 )
+storage_task
 constellation_chan
 .
 clone
@@ -5215,6 +5232,13 @@ window_size
 parent_page
 .
 resource_task
+.
+clone
+(
+)
+parent_page
+.
+storage_task
 .
 clone
 (

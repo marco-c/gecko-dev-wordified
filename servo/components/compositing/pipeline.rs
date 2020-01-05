@@ -172,6 +172,15 @@ resource_task
 ResourceTask
 ;
 use
+servo_net
+:
+:
+storage_task
+:
+:
+StorageTask
+;
+use
 servo_util
 :
 :
@@ -396,6 +405,9 @@ FontCacheTask
 resource_task
 :
 ResourceTask
+storage_task
+:
+StorageTask
 time_profiler_chan
 :
 TimeProfilerChan
@@ -554,6 +566,11 @@ clone
 (
 )
 resource_task
+.
+clone
+(
+)
+storage_task
 .
 clone
 (
