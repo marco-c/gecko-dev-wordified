@@ -1319,6 +1319,13 @@ Finish0RTT
 (
 bool
 aRestart
+bool
+aAlpnChanged
+/
+*
+ignored
+*
+/
 )
 override
 ;

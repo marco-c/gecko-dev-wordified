@@ -15213,6 +15213,13 @@ Finish0RTT
 (
 bool
 aRestart
+bool
+aAlpnChanged
+/
+*
+ignored
+*
+/
 )
 {
 MOZ_ASSERT
