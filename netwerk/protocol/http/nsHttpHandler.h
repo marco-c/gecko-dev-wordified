@@ -2297,6 +2297,11 @@ SetFastOpenOSSupport
 (
 )
 ;
+void
+EnsureUAOverridesInit
+(
+)
+;
 private
 :
 /
