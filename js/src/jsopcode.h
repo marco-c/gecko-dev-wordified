@@ -2396,9 +2396,6 @@ case
 JSOP_THROW
 :
 case
-JSOP_THROWMSG
-:
-case
 JSOP_TABLESWITCH
 :
 return

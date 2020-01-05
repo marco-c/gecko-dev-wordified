@@ -208,9 +208,6 @@ return
 case
 JSOP_PICK
 :
-case
-JSOP_UNPICK
-:
 /
 *
 *
@@ -339,16 +336,6 @@ pc
 =
 =
 JSOP_PICK
-|
-|
-JSOp
-(
-*
-pc
-)
-=
-=
-JSOP_UNPICK
 )
 return
 pc
