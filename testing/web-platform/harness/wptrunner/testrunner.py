@@ -3454,24 +3454,14 @@ block
 True
 timeout
 =
-2
+1
 )
             
 except
 Empty
 :
                 
-if
-test_queue
-.
-empty
-(
-)
-:
-                    
-test_queue
-=
-None
+pass
         
 return
 test
