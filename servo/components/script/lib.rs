@@ -917,6 +917,10 @@ virtualmethods
 ;
 pub
 mod
+websocket
+;
+pub
+mod
 window
 ;
 pub
