@@ -1172,7 +1172,7 @@ Keyframe
 &
 aKeyframes
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 aServoValues
 )
@@ -1228,7 +1228,7 @@ IsSame
 <
 StyleType
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 >
 :
@@ -1244,7 +1244,7 @@ or
 "
 "
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 "
 )
@@ -1367,7 +1367,7 @@ is
 /
 '
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 '
 (
@@ -1380,10 +1380,10 @@ a
 pointer
 )
 or
-/
-/
 nsStyleContext
 *
+/
+/
 is
 not
 nullptr
@@ -1816,7 +1816,7 @@ AsServoComputedValues
 nullptr
 ;
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 servoValues
 =
 {
@@ -1837,7 +1837,7 @@ KeyframeEffectReadOnly
 UpdateProperties
 (
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 aServoValues
 )
@@ -5026,7 +5026,7 @@ IsSame
 <
 StyleType
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 >
 :
@@ -5042,7 +5042,7 @@ or
 "
 "
 const
-ServoComputedValuesWithParent
+ServoComputedStyleValues
 &
 "
 )
@@ -9469,10 +9469,6 @@ fromContext
 CalcStyleDifference
 (
 toContext
-nsChangeHint
-(
-0
-)
 &
 equalStructs
 &
