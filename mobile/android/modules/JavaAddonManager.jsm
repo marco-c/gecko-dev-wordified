@@ -400,7 +400,9 @@ null
 ;
 }
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -605,7 +607,9 @@ _loaded
 return
 ;
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
