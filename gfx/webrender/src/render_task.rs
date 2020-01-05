@@ -120,6 +120,7 @@ webrender_traits
 :
 :
 {
+ClipId
 DeviceIntLength
 DeviceIntPoint
 DeviceIntRect
@@ -130,10 +131,7 @@ use
 webrender_traits
 :
 :
-{
 MixBlendMode
-ScrollLayerId
-}
 ;
 const
 FLOATS_PER_RENDER_TASK_INFO
@@ -287,9 +285,9 @@ Primitive
 (
 PrimitiveIndex
 )
-ScrollLayer
+ClipNode
 (
-ScrollLayerId
+ClipId
 )
 }
 #

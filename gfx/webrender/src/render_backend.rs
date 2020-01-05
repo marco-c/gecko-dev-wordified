@@ -1565,7 +1565,7 @@ false
 ApiMsg
 :
 :
-ScrollLayerWithId
+ScrollNodeWithId
 (
 origin
 id
@@ -1577,7 +1577,7 @@ profile_scope
 !
 (
 "
-ScrollLayerWithScrollId
+ScrollNodeWithScrollId
 "
 )
 ;
@@ -1764,7 +1764,7 @@ webrender_traits
 ApiMsg
 :
 :
-GetScrollLayerState
+GetScrollNodeState
 (
 tx
 )
@@ -1775,7 +1775,7 @@ profile_scope
 !
 (
 "
-GetScrollLayerState
+GetScrollNodeState
 "
 )
 ;

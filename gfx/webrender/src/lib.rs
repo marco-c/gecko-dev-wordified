@@ -540,9 +540,6 @@ crate
 thread_profiler
 ;
 mod
-batch_builder
-;
-mod
 border
 ;
 mod
