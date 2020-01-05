@@ -4207,6 +4207,10 @@ self_type
 &
 aStr
 )
+:
+nsTXPIDLString_CharT
+(
+)
 {
 *
 this
