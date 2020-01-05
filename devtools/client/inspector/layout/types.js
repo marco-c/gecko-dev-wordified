@@ -126,7 +126,7 @@ gridFragments
 :
 PropTypes
 .
-object
+array
 /
 /
 Whether
