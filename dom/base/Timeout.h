@@ -230,6 +230,14 @@ uint32_t
 aDelay
 )
 ;
+enum
+class
+Reason
+{
+eTimeoutOrInterval
+eIdleCallbackTimeout
+}
+;
 static
 void
 TimerNameCallback
@@ -329,6 +337,9 @@ timer
 bool
 mIsInterval
 ;
+Reason
+mReason
+;
 /
 /
 Returned
@@ -339,7 +350,7 @@ setTimeout
 (
 )
 uint32_t
-mPublicId
+mTimeoutId
 ;
 /
 /
