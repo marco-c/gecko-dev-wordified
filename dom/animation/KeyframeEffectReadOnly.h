@@ -341,13 +341,13 @@ enum
 class
 IterationCompositeOperation
 :
-uint32_t
+uint8_t
 ;
 enum
 class
 CompositeOperation
 :
-uint32_t
+uint8_t
 ;
 struct
 AnimationPropertyDetails
