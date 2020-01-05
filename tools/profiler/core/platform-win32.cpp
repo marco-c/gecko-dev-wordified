@@ -1136,7 +1136,7 @@ PS
 LockRef
 aLock
 TickSample
-*
+&
 aSample
 )
 {
@@ -1144,8 +1144,7 @@ HANDLE
 profiled_thread
 =
 aSample
--
->
+.
 mPlatformData
 -
 >
@@ -1560,8 +1559,7 @@ defined
 GP_ARCH_amd64
 )
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -1575,8 +1573,7 @@ Rip
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -1590,8 +1587,7 @@ Rsp
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast
@@ -1607,8 +1603,7 @@ Rbp
 #
 else
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -1622,8 +1617,7 @@ Eip
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -1637,8 +1631,7 @@ Esp
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast
@@ -1654,8 +1647,7 @@ Ebp
 #
 endif
 aSample
--
->
+.
 mContext
 =
 &

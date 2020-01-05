@@ -869,7 +869,7 @@ PS
 LockRef
 aLock
 TickSample
-*
+&
 aSample
 )
 {
@@ -877,8 +877,7 @@ thread_act_t
 samplee_thread
 =
 aSample
--
->
+.
 mPlatformData
 -
 >
@@ -1305,8 +1304,7 @@ KERN_SUCCESS
 )
 {
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -1323,8 +1321,7 @@ ip
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -1341,8 +1338,7 @@ sp
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast

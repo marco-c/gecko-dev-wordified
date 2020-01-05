@@ -691,7 +691,7 @@ void
 FillInSample
 (
 TickSample
-*
+&
 aSample
 ucontext_t
 *
@@ -699,8 +699,7 @@ aContext
 )
 {
 aSample
--
->
+.
 mContext
 =
 aContext
@@ -734,8 +733,7 @@ defined
 GP_ARCH_x86
 )
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -752,8 +750,7 @@ REG_EIP
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -770,8 +767,7 @@ REG_ESP
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast
@@ -794,8 +790,7 @@ defined
 GP_ARCH_amd64
 )
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -812,8 +807,7 @@ REG_RIP
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -830,8 +824,7 @@ REG_RSP
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast
@@ -854,8 +847,7 @@ defined
 GP_ARCH_arm
 )
 aSample
--
->
+.
 mPC
 =
 reinterpret_cast
@@ -869,8 +861,7 @@ arm_pc
 )
 ;
 aSample
--
->
+.
 mSP
 =
 reinterpret_cast
@@ -884,8 +875,7 @@ arm_sp
 )
 ;
 aSample
--
->
+.
 mFP
 =
 reinterpret_cast
@@ -899,8 +889,7 @@ arm_fp
 )
 ;
 aSample
--
->
+.
 mLR
 =
 reinterpret_cast
@@ -2761,7 +2750,7 @@ PS
 LockRef
 aLock
 TickSample
-*
+&
 aSample
 )
 {
@@ -2801,8 +2790,7 @@ int
 sampleeTid
 =
 aSample
--
->
+.
 mThreadId
 ;
 MOZ_RELEASE_ASSERT
@@ -3999,6 +3987,7 @@ aContext
 {
 FillInSample
 (
+*
 this
 aContext
 )
