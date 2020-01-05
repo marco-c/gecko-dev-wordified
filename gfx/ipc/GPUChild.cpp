@@ -540,13 +540,13 @@ this
 ;
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 mProfilerController
 =
+MakeUnique
+<
 CrossProcessProfilerController
-:
-:
-ForProtocol
+>
 (
 this
 )
@@ -1559,7 +1559,7 @@ nullptr
 }
 #
 ifdef
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 mProfilerController
 =
 nullptr
