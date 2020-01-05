@@ -433,6 +433,11 @@ nsIURI
 aURI
 )
 ;
+void
+NotifyNonBlankPaint
+(
+)
+;
 DOMTimeMilliSec
 TimeStampToDOM
 (
@@ -517,6 +522,12 @@ mozilla
 :
 TimeStamp
 mNavigationStartTimeStamp
+;
+mozilla
+:
+:
+TimeStamp
+mNonBlankPaintTimeStamp
 ;
 DOMTimeMilliSec
 DurationFromStart
