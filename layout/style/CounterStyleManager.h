@@ -634,6 +634,17 @@ nsSubstring
 aContent
 )
 ;
+AnonymousCounterStyle
+(
+uint8_t
+aSystem
+nsTArray
+<
+nsString
+>
+aSymbols
+)
+;
 explicit
 AnonymousCounterStyle
 (
