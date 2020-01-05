@@ -832,9 +832,12 @@ let
 mut
 output
 =
-~
-[
-]
+Vec
+:
+:
+new
+(
+)
 ;
 loop
 {
@@ -898,6 +901,10 @@ str
 from_utf8
 (
 output
+.
+as_slice
+(
+)
 )
 ;
 let

@@ -467,10 +467,10 @@ same
 size
 buffers
 :
-~
-[
+Vec
+<
 T
-]
+>
 /
 /
 /
@@ -712,9 +712,10 @@ BufferValue
 {
 buffers
 :
-~
-[
-]
+vec
+!
+(
+)
 last_action
 :
 *

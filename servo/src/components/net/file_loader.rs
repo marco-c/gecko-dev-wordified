@@ -154,10 +154,8 @@ let
 mut
 buf
 =
-Vec
-:
-:
-new
+vec
+!
 (
 )
 ;

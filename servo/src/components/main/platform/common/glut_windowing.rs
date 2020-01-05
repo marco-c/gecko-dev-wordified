@@ -360,10 +360,10 @@ event_queue
 :
 RefCell
 <
-~
-[
+Vec
+<
 WindowEvent
-]
+>
 >
 pub
 drag_origin
@@ -497,9 +497,10 @@ RefCell
 :
 new
 (
-~
-[
-]
+vec
+!
+(
+)
 )
 drag_origin
 :

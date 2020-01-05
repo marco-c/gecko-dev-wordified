@@ -630,10 +630,10 @@ Result
 <
 (
 Metadata
-~
-[
+Vec
+<
 u8
-]
+>
 )
 (
 )
@@ -673,9 +673,10 @@ let
 mut
 buf
 =
-~
-[
-]
+vec
+!
+(
+)
 ;
 loop
 {
