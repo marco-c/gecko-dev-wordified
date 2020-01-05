@@ -407,6 +407,9 @@ keyword
 =
 None
                  
+predefined_type
+=
+None
 custom_cascade
 =
 False
@@ -437,6 +440,12 @@ self
 keyword
 =
 keyword
+        
+self
+.
+predefined_type
+=
+predefined_type
         
 self
 .
