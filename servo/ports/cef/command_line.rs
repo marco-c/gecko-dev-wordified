@@ -315,7 +315,10 @@ cl
 .
 get_switch_value
 =
+Some
+(
 command_line_get_switch_value
+)
 ;
 GLOBAL_CMDLINE
 =
@@ -667,7 +670,10 @@ cl
 .
 get_switch_value
 =
+Some
+(
 command_line_get_switch_value
+)
 ;
 mem
 :

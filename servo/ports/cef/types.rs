@@ -359,6 +359,8 @@ size_t
 pub
 dtor
 :
+Option
+<
 extern
 "
 C
@@ -371,6 +373,7 @@ str
 mut
 u8
 )
+>
 }
 pub
 type
@@ -401,6 +404,8 @@ size_t
 pub
 dtor
 :
+Option
+<
 extern
 "
 C
@@ -413,6 +418,7 @@ str
 mut
 c_ushort
 )
+>
 }
 pub
 type
@@ -443,6 +449,8 @@ size_t
 pub
 dtor
 :
+Option
+<
 extern
 "
 C
@@ -455,6 +463,7 @@ str
 mut
 wchar_t
 )
+>
 }
 pub
 type
@@ -2293,6 +2302,8 @@ false
 pub
 is_valid
 :
+Option
+<
 extern
 "
 C
@@ -2308,6 +2319,7 @@ cef_process_message
 -
 >
 c_int
+>
 /
 /
 /
@@ -2346,6 +2358,8 @@ objects
 pub
 is_read_only
 :
+Option
+<
 extern
 "
 C
@@ -2361,6 +2375,7 @@ cef_process_message
 -
 >
 c_int
+>
 /
 /
 /
@@ -2380,6 +2395,8 @@ object
 pub
 copy
 :
+Option
+<
 extern
 "
 C
@@ -2397,6 +2414,7 @@ cef_process_message
 *
 mut
 cef_process_message
+>
 /
 /
 /
@@ -2427,6 +2445,8 @@ cef_string_userfree_free
 pub
 get_name
 :
+Option
+<
 extern
 "
 C
@@ -2444,6 +2464,7 @@ cef_process_message
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -2461,6 +2482,8 @@ arguments
 pub
 get_argument_list
 :
+Option
+<
 extern
 "
 C
@@ -2478,6 +2501,7 @@ cef_process_message
 *
 mut
 cef_list_value
+>
 }
 /
 /
@@ -4315,6 +4339,8 @@ count
 pub
 add_ref
 :
+Option
+<
 extern
 "
 C
@@ -4330,6 +4356,7 @@ cef_base
 -
 >
 c_int
+>
 /
 /
 /
@@ -4356,6 +4383,8 @@ remain
 pub
 release
 :
+Option
+<
 extern
 "
 C
@@ -4371,6 +4400,7 @@ cef_base
 -
 >
 c_int
+>
 /
 /
 /
@@ -4389,6 +4419,8 @@ references
 pub
 get_refct
 :
+Option
+<
 extern
 "
 C
@@ -4404,6 +4436,7 @@ cef_base
 -
 >
 c_int
+>
 }
 /
 /
@@ -4605,6 +4638,8 @@ false
 pub
 is_valid
 :
+Option
+<
 extern
 "
 C
@@ -4617,6 +4652,7 @@ cmd
 mut
 cef_command_line
 )
+>
 /
 /
 /
@@ -4655,6 +4691,8 @@ objects
 pub
 is_read_only
 :
+Option
+<
 extern
 "
 C
@@ -4667,6 +4705,7 @@ cmd
 mut
 cef_command_line
 )
+>
 /
 /
 /
@@ -4686,6 +4725,8 @@ object
 pub
 copy
 :
+Option
+<
 extern
 "
 C
@@ -4703,6 +4744,7 @@ cef_command_line
 *
 mut
 cef_command_line
+>
 /
 /
 /
@@ -4756,6 +4798,8 @@ platforms
 pub
 init_from_argv
 :
+Option
+<
 extern
 "
 C
@@ -4776,6 +4820,7 @@ argv
 const
 u8
 )
+>
 /
 /
 /
@@ -4811,6 +4856,8 @@ Windows
 pub
 init_from_string
 :
+Option
+<
 extern
 "
 C
@@ -4828,6 +4875,7 @@ command_line
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -4856,6 +4904,8 @@ unchanged
 pub
 reset
 :
+Option
+<
 extern
 "
 C
@@ -4868,6 +4918,7 @@ cmd
 mut
 cef_command_line
 )
+>
 /
 /
 /
@@ -4924,6 +4975,8 @@ argument
 pub
 get_argv
 :
+Option
+<
 extern
 "
 C
@@ -4941,6 +4994,7 @@ argv
 mut
 cef_string_list_t
 )
+>
 /
 /
 /
@@ -4987,6 +5041,8 @@ cef_string_userfree_free
 pub
 get_command_line_string
 :
+Option
+<
 extern
 "
 C
@@ -5004,6 +5060,7 @@ cef_command_line
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -5044,6 +5101,8 @@ cef_string_userfree_free
 pub
 get_program
 :
+Option
+<
 extern
 "
 C
@@ -5061,6 +5120,7 @@ cef_command_line
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -5087,6 +5147,8 @@ item
 pub
 set_program
 :
+Option
+<
 extern
 "
 C
@@ -5104,6 +5166,7 @@ name
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -5127,6 +5190,8 @@ switches
 pub
 has_switches
 :
+Option
+<
 extern
 "
 C
@@ -5142,6 +5207,7 @@ cef_command_line
 -
 >
 c_int
+>
 /
 /
 /
@@ -5167,6 +5233,8 @@ switch
 pub
 has_switch
 :
+Option
+<
 extern
 "
 C
@@ -5187,6 +5255,7 @@ cef_string_t
 -
 >
 c_int
+>
 /
 /
 /
@@ -5241,6 +5310,8 @@ cef_string_userfree_free
 pub
 get_switch_value
 :
+Option
+<
 extern
 "
 C
@@ -5263,6 +5334,7 @@ cef_string_t
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -5297,6 +5369,8 @@ returned
 pub
 get_switches
 :
+Option
+<
 extern
 "
 C
@@ -5312,6 +5386,7 @@ switches
 :
 cef_string_map_t
 )
+>
 /
 /
 /
@@ -5348,6 +5423,8 @@ string
 pub
 append_switch
 :
+Option
+<
 extern
 "
 C
@@ -5365,6 +5442,7 @@ name
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -5391,6 +5469,8 @@ line
 pub
 append_switch_with_value
 :
+Option
+<
 extern
 "
 C
@@ -5413,6 +5493,7 @@ value
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -5433,6 +5514,8 @@ arguments
 pub
 has_arguments
 :
+Option
+<
 extern
 "
 C
@@ -5448,6 +5531,7 @@ cef_command_line
 -
 >
 c_int
+>
 /
 /
 /
@@ -5466,6 +5550,8 @@ arguments
 pub
 get_arguments
 :
+Option
+<
 extern
 "
 C
@@ -5483,6 +5569,7 @@ arguments
 mut
 cef_string_list_t
 )
+>
 /
 /
 /
@@ -5505,6 +5592,8 @@ line
 pub
 append_argument
 :
+Option
+<
 extern
 "
 C
@@ -5522,6 +5611,7 @@ argument
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -5558,6 +5648,8 @@ args
 pub
 prepend_wrapper
 :
+Option
+<
 extern
 "
 C
@@ -5575,6 +5667,7 @@ wrapper
 const
 cef_string_t
 )
+>
 }
 /
 /
@@ -6269,8 +6362,11 @@ false
 /
 /
 /
-_add_custom_scheme
+pub
+add_custom_scheme
 :
+Option
+<
 extern
 "
 C
@@ -6297,6 +6393,7 @@ is_display_isolated
 :
 c_int
 )
+>
 }
 /
 /
@@ -6427,6 +6524,8 @@ h
 pub
 get_localized_string
 :
+Option
+<
 extern
 "
 C
@@ -6450,6 +6549,7 @@ cef_string_t
 -
 >
 c_int
+>
 /
 /
 /
@@ -6547,6 +6647,8 @@ h
 pub
 get_data_resource
 :
+Option
+<
 extern
 "
 C
@@ -6577,6 +6679,7 @@ size_t
 -
 >
 c_int
+>
 }
 /
 /
@@ -6665,6 +6768,8 @@ false
 pub
 is_valid
 :
+Option
+<
 extern
 "
 C
@@ -6680,6 +6785,7 @@ cef_list_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -6706,6 +6812,8 @@ object
 pub
 is_owned
 :
+Option
+<
 extern
 "
 C
@@ -6721,6 +6829,7 @@ cef_list_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -6759,6 +6868,8 @@ objects
 pub
 is_read_only
 :
+Option
+<
 extern
 "
 C
@@ -6774,6 +6885,7 @@ cef_list_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -6793,6 +6905,8 @@ object
 pub
 copy
 :
+Option
+<
 extern
 "
 C
@@ -6810,6 +6924,7 @@ cef_list_value
 *
 mut
 cef_list_value
+>
 /
 /
 /
@@ -6854,6 +6969,8 @@ success
 pub
 set_size
 :
+Option
+<
 extern
 "
 C
@@ -6872,6 +6989,7 @@ size_t
 -
 >
 c_int
+>
 /
 /
 /
@@ -6889,6 +7007,8 @@ values
 pub
 get_size
 :
+Option
+<
 extern
 "
 C
@@ -6904,6 +7024,7 @@ cef_list_value
 -
 >
 size_t
+>
 /
 /
 /
@@ -6927,6 +7048,8 @@ success
 pub
 clear
 :
+Option
+<
 extern
 "
 C
@@ -6942,6 +7065,7 @@ cef_list_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -6961,6 +7085,8 @@ index
 pub
 remove
 :
+Option
+<
 extern
 "
 C
@@ -6976,6 +7102,7 @@ cef_list_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -6996,6 +7123,8 @@ index
 pub
 get_type
 :
+Option
+<
 extern
 "
 C
@@ -7014,6 +7143,7 @@ c_int
 -
 >
 cef_value_type_t
+>
 /
 /
 /
@@ -7036,6 +7166,8 @@ bool
 pub
 get_bool
 :
+Option
+<
 extern
 "
 C
@@ -7054,6 +7186,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -7076,6 +7209,8 @@ int
 pub
 get_int
 :
+Option
+<
 extern
 "
 C
@@ -7094,6 +7229,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -7116,6 +7252,8 @@ double
 pub
 get_double
 :
+Option
+<
 extern
 "
 C
@@ -7134,6 +7272,7 @@ c_int
 -
 >
 c_double
+>
 /
 /
 /
@@ -7170,6 +7309,8 @@ cef_string_userfree_free
 pub
 get_string
 :
+Option
+<
 extern
 "
 C
@@ -7190,6 +7331,7 @@ c_int
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -7212,6 +7354,8 @@ binary
 pub
 get_binary
 :
+Option
+<
 extern
 "
 C
@@ -7232,6 +7376,7 @@ c_int
 *
 mut
 cef_binary_value
+>
 /
 /
 /
@@ -7254,6 +7399,8 @@ dictionary
 pub
 get_dictionary
 :
+Option
+<
 extern
 "
 C
@@ -7274,6 +7421,7 @@ c_int
 *
 mut
 cef_dictionary_value
+>
 /
 /
 /
@@ -7296,6 +7444,8 @@ list
 pub
 get_list
 :
+Option
+<
 extern
 "
 C
@@ -7316,6 +7466,7 @@ c_int
 *
 mut
 cef_list_value
+>
 /
 /
 /
@@ -7352,6 +7503,8 @@ successfully
 pub
 set_null
 :
+Option
+<
 extern
 "
 C
@@ -7370,6 +7523,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -7406,6 +7560,8 @@ successfully
 pub
 set_bool
 :
+Option
+<
 extern
 "
 C
@@ -7427,6 +7583,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -7463,6 +7620,8 @@ successfully
 pub
 set_int
 :
+Option
+<
 extern
 "
 C
@@ -7484,6 +7643,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -7520,6 +7680,8 @@ successfully
 pub
 set_double
 :
+Option
+<
 extern
 "
 C
@@ -7541,6 +7703,7 @@ c_double
 -
 >
 c_int
+>
 /
 /
 /
@@ -7577,6 +7740,8 @@ successfully
 pub
 set_string
 :
+Option
+<
 extern
 "
 C
@@ -7600,6 +7765,7 @@ cef_string_t
 -
 >
 c_int
+>
 /
 /
 /
@@ -7703,6 +7869,8 @@ invalidated
 pub
 set_binary
 :
+Option
+<
 extern
 "
 C
@@ -7726,6 +7894,7 @@ cef_binary_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -7829,6 +7998,8 @@ invalidated
 pub
 set_dictionary
 :
+Option
+<
 extern
 "
 C
@@ -7852,6 +8023,7 @@ cef_dictionary_value
 -
 >
 c_int
+>
 /
 /
 /
@@ -7955,6 +8127,8 @@ invalidated
 pub
 set_list
 :
+Option
+<
 extern
 "
 C
@@ -7978,6 +8152,7 @@ cef_list_value
 -
 >
 c_int
+>
 }
 /
 /
@@ -8071,6 +8246,8 @@ initialized
 pub
 on_context_initialized
 :
+Option
+<
 extern
 "
 C
@@ -8083,6 +8260,7 @@ browser_handler
 mut
 cef_browser_process_handler
 )
+>
 /
 /
 /
@@ -8164,6 +8342,8 @@ function
 pub
 on_before_child_process_launch
 :
+Option
+<
 extern
 "
 C
@@ -8181,6 +8361,7 @@ command_line
 mut
 cef_command_line
 )
+>
 /
 /
 /
@@ -8257,6 +8438,8 @@ function
 pub
 on_render_process_thread_created
 :
+Option
+<
 extern
 "
 C
@@ -8274,6 +8457,7 @@ extra_info
 mut
 cef_list_value
 )
+>
 }
 /
 /
@@ -8395,6 +8579,8 @@ NULL
 pub
 cont
 :
+Option
+<
 extern
 "
 C
@@ -8417,6 +8603,7 @@ file_paths
 mut
 cef_string_list_t
 )
+>
 }
 /
 /
@@ -8518,6 +8705,8 @@ object
 pub
 get_browser
 :
+Option
+<
 extern
 "
 C
@@ -8535,6 +8724,7 @@ cef_browser_host
 *
 mut
 cef_browser
+>
 /
 /
 /
@@ -8592,6 +8782,8 @@ information
 pub
 parent_window_will_close
 :
+Option
+<
 extern
 "
 C
@@ -8604,6 +8796,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -8738,6 +8931,8 @@ information
 pub
 close_browser
 :
+Option
+<
 extern
 "
 C
@@ -8753,6 +8948,7 @@ force_close
 :
 c_int
 )
+>
 /
 /
 /
@@ -8796,6 +8992,8 @@ removed
 pub
 set_focus
 :
+Option
+<
 extern
 "
 C
@@ -8811,6 +9009,7 @@ force_close
 :
 c_int
 )
+>
 /
 /
 /
@@ -8830,6 +9029,8 @@ browser
 pub
 get_window_handle
 :
+Option
+<
 extern
 "
 C
@@ -8847,6 +9048,7 @@ cef_browser_host
 *
 mut
 cef_window_handle_t
+>
 /
 /
 /
@@ -8897,6 +9099,8 @@ windows
 pub
 get_opener_window_handle
 :
+Option
+<
 extern
 "
 C
@@ -8914,6 +9118,7 @@ cef_browser_host
 *
 mut
 cef_window_handle_t
+>
 /
 /
 /
@@ -8932,6 +9137,8 @@ browser
 pub
 get_client
 :
+Option
+<
 extern
 "
 C
@@ -8949,6 +9156,7 @@ cef_browser_host
 *
 mut
 cef_client_t
+>
 /
 /
 /
@@ -8968,6 +9176,8 @@ browser
 pub
 get_request_context
 :
+Option
+<
 extern
 "
 C
@@ -8985,6 +9195,7 @@ cef_browser_host
 *
 mut
 cef_request_context_t
+>
 /
 /
 /
@@ -9024,6 +9235,8 @@ thread
 pub
 get_zoom_level
 :
+Option
+<
 extern
 "
 C
@@ -9039,6 +9252,7 @@ cef_browser_host
 -
 >
 c_double
+>
 /
 /
 /
@@ -9098,6 +9312,8 @@ thread
 pub
 set_zoom_level
 :
+Option
+<
 extern
 "
 C
@@ -9113,6 +9329,7 @@ zoomLevel
 :
 c_double
 )
+>
 /
 /
 /
@@ -9287,6 +9504,8 @@ thread
 pub
 run_file_dialog
 :
+Option
+<
 extern
 "
 C
@@ -9322,6 +9541,7 @@ callback
 mut
 cef_run_file_dialog_callback
 )
+>
 /
 /
 /
@@ -9343,6 +9563,8 @@ cef_download_handler_t
 pub
 start_download
 :
+Option
+<
 extern
 "
 C
@@ -9360,6 +9582,7 @@ url
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -9377,6 +9600,8 @@ contents
 pub
 print
 :
+Option
+<
 extern
 "
 C
@@ -9389,6 +9614,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -9470,6 +9696,8 @@ up
 pub
 find
 :
+Option
+<
 extern
 "
 C
@@ -9499,6 +9727,7 @@ findNext
 :
 c_int
 )
+>
 /
 /
 /
@@ -9519,6 +9748,8 @@ on
 pub
 stop_finding
 :
+Option
+<
 extern
 "
 C
@@ -9534,6 +9765,7 @@ clearSelection
 :
 c_int
 )
+>
 /
 /
 /
@@ -9553,6 +9785,8 @@ window
 pub
 show_dev_tools
 :
+Option
+<
 extern
 "
 C
@@ -9580,6 +9814,7 @@ settings
 const
 cef_browser_settings_t
 )
+>
 /
 /
 /
@@ -9607,6 +9842,8 @@ instance
 pub
 close_dev_tools
 :
+Option
+<
 extern
 "
 C
@@ -9619,6 +9856,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -9638,6 +9876,8 @@ disabled
 pub
 set_mouse_cursor_change_disabled
 :
+Option
+<
 extern
 "
 C
@@ -9653,6 +9893,7 @@ disabled
 :
 c_int
 )
+>
 /
 /
 /
@@ -9676,6 +9917,8 @@ disabled
 pub
 is_mouse_cursor_change_disabled
 :
+Option
+<
 extern
 "
 C
@@ -9691,6 +9934,7 @@ cef_browser_host
 -
 >
 c_int
+>
 /
 /
 /
@@ -9713,6 +9957,8 @@ disabled
 pub
 is_window_rendering_disabled
 :
+Option
+<
 extern
 "
 C
@@ -9728,6 +9974,7 @@ cef_browser_host
 -
 >
 c_int
+>
 /
 /
 /
@@ -9793,6 +10040,8 @@ disabled
 pub
 was_resized
 :
+Option
+<
 extern
 "
 C
@@ -9805,6 +10054,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -9857,6 +10107,8 @@ disabled
 pub
 was_hidden
 :
+Option
+<
 extern
 "
 C
@@ -9872,6 +10124,7 @@ hidden
 :
 c_int
 )
+>
 /
 /
 /
@@ -9956,6 +10209,8 @@ disabled
 pub
 notify_screen_info_changed
 :
+Option
+<
 extern
 "
 C
@@ -9968,6 +10223,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -10018,6 +10274,8 @@ disabled
 pub
 invalidate
 :
+Option
+<
 extern
 "
 C
@@ -10038,6 +10296,7 @@ t
 :
 cef_paint_element_type_t
 )
+>
 /
 /
 /
@@ -10057,6 +10316,8 @@ browser
 pub
 send_key_event
 :
+Option
+<
 extern
 "
 C
@@ -10074,6 +10335,7 @@ event
 const
 cef_key_event
 )
+>
 /
 /
 /
@@ -10117,6 +10379,8 @@ view
 pub
 send_mouse_click_event
 :
+Option
+<
 extern
 "
 C
@@ -10143,6 +10407,7 @@ clickCount
 :
 c_int
 )
+>
 /
 /
 /
@@ -10186,6 +10451,8 @@ view
 pub
 send_mouse_move_event
 :
+Option
+<
 extern
 "
 C
@@ -10206,6 +10473,7 @@ mouseLeave
 :
 c_int
 )
+>
 /
 /
 /
@@ -10296,6 +10564,8 @@ properly
 pub
 send_mouse_wheel_event
 :
+Option
+<
 extern
 "
 C
@@ -10319,6 +10589,7 @@ deltaY
 :
 c_int
 )
+>
 /
 /
 /
@@ -10338,6 +10609,8 @@ browser
 pub
 send_focus_event
 :
+Option
+<
 extern
 "
 C
@@ -10353,6 +10626,7 @@ setFocus
 :
 c_int
 )
+>
 /
 /
 /
@@ -10373,6 +10647,8 @@ browser
 pub
 send_capture_lost_event
 :
+Option
+<
 extern
 "
 C
@@ -10385,6 +10661,7 @@ browser_host
 mut
 cef_browser_host
 )
+>
 /
 /
 /
@@ -10413,6 +10690,8 @@ disabled
 pub
 get_nstext_input_context
 :
+Option
+<
 extern
 "
 C
@@ -10428,6 +10707,7 @@ cef_browser_host
 -
 >
 cef_text_input_context_t
+>
 /
 /
 /
@@ -10454,6 +10734,8 @@ machinery
 pub
 handle_key_event_before_text_input_client
 :
+Option
+<
 extern
 "
 C
@@ -10471,6 +10753,7 @@ key_event
 mut
 cef_event_handle_t
 )
+>
 /
 /
 /
@@ -10492,6 +10775,8 @@ event
 pub
 handle_key_event_after_text_input_client
 :
+Option
+<
 extern
 "
 C
@@ -10509,6 +10794,7 @@ key_event
 mut
 cef_event_handle_t
 )
+>
 }
 /
 /
@@ -10631,6 +10917,8 @@ process
 pub
 get_host
 :
+Option
+<
 extern
 "
 C
@@ -10648,6 +10936,7 @@ cef_browser
 *
 mut
 cef_browser_host
+>
 /
 /
 /
@@ -10671,6 +10960,8 @@ backwards
 pub
 can_go_back
 :
+Option
+<
 extern
 "
 C
@@ -10686,6 +10977,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -10700,6 +10992,8 @@ backwards
 pub
 go_back
 :
+Option
+<
 extern
 "
 C
@@ -10712,6 +11006,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -10735,6 +11030,8 @@ forwards
 pub
 can_go_forward
 :
+Option
+<
 extern
 "
 C
@@ -10750,6 +11047,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -10764,6 +11062,8 @@ forwards
 pub
 go_forward
 :
+Option
+<
 extern
 "
 C
@@ -10776,6 +11076,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -10799,6 +11100,8 @@ loading
 pub
 is_loading
 :
+Option
+<
 extern
 "
 C
@@ -10814,6 +11117,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -10830,6 +11134,8 @@ page
 pub
 reload
 :
+Option
+<
 extern
 "
 C
@@ -10842,6 +11148,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -10862,6 +11169,8 @@ data
 pub
 reload_ignore_cache
 :
+Option
+<
 extern
 "
 C
@@ -10874,6 +11183,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -10890,6 +11200,8 @@ page
 pub
 stop_load
 :
+Option
+<
 extern
 "
 C
@@ -10902,6 +11214,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -10922,6 +11235,8 @@ browser
 pub
 get_identifier
 :
+Option
+<
 extern
 "
 C
@@ -10937,6 +11252,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -10970,6 +11286,8 @@ object
 pub
 is_same
 :
+Option
+<
 extern
 "
 C
@@ -10990,6 +11308,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -11014,6 +11333,8 @@ window
 pub
 is_popup
 :
+Option
+<
 extern
 "
 C
@@ -11029,6 +11350,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -11055,6 +11377,8 @@ browser
 pub
 has_document
 :
+Option
+<
 extern
 "
 C
@@ -11070,6 +11394,7 @@ cef_browser
 -
 >
 c_int
+>
 /
 /
 /
@@ -11095,6 +11420,8 @@ window
 pub
 get_main_frame
 :
+Option
+<
 extern
 "
 C
@@ -11112,6 +11439,7 @@ cef_browser
 *
 mut
 cef_frame
+>
 /
 /
 /
@@ -11132,6 +11460,8 @@ window
 pub
 get_focused_frame
 :
+Option
+<
 extern
 "
 C
@@ -11149,6 +11479,7 @@ cef_browser
 *
 mut
 cef_frame
+>
 /
 /
 /
@@ -11173,6 +11504,8 @@ found
 pub
 get_frame_byident
 :
+Option
+<
 extern
 "
 C
@@ -11193,6 +11526,7 @@ c_longlong
 *
 mut
 cef_frame
+>
 /
 /
 /
@@ -11217,6 +11551,8 @@ found
 pub
 get_frame
 :
+Option
+<
 extern
 "
 C
@@ -11239,6 +11575,7 @@ cef_string_t
 *
 mut
 cef_frame
+>
 /
 /
 /
@@ -11259,6 +11596,8 @@ exist
 pub
 get_frame_count
 :
+Option
+<
 extern
 "
 C
@@ -11274,6 +11613,7 @@ cef_browser
 -
 >
 size_t
+>
 /
 /
 /
@@ -11293,6 +11633,8 @@ frames
 pub
 get_frame_identifiers
 :
+Option
+<
 extern
 "
 C
@@ -11315,6 +11657,7 @@ identifiers
 mut
 c_longlong
 )
+>
 /
 /
 /
@@ -11334,6 +11677,8 @@ frames
 pub
 get_frame_names
 :
+Option
+<
 extern
 "
 C
@@ -11351,6 +11696,7 @@ names
 mut
 cef_string_list_t
 )
+>
 /
 /
 /
@@ -11385,6 +11731,8 @@ successfully
 pub
 send_process_message
 :
+Option
+<
 extern
 "
 C
@@ -11408,6 +11756,7 @@ cef_process_message
 -
 >
 c_int
+>
 }
 /
 /
@@ -11535,6 +11884,8 @@ function
 pub
 on_render_thread_created
 :
+Option
+<
 extern
 "
 C
@@ -11552,6 +11903,7 @@ extra_info
 mut
 cef_list_value
 )
+>
 /
 /
 /
@@ -11570,6 +11922,8 @@ initialized
 pub
 on_web_kit_initialized
 :
+Option
+<
 extern
 "
 C
@@ -11582,6 +11936,7 @@ render_handler
 mut
 cef_render_process_handler
 )
+>
 /
 /
 /
@@ -11627,6 +11982,8 @@ destroyed
 pub
 on_browser_created
 :
+Option
+<
 extern
 "
 C
@@ -11644,6 +12001,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -11662,6 +12020,8 @@ destroyed
 pub
 on_browser_destroyed
 :
+Option
+<
 extern
 "
 C
@@ -11679,6 +12039,7 @@ browser
 mut
 cef_browser
 )
+>
 /
 /
 /
@@ -11699,6 +12060,8 @@ events
 pub
 get_load_handler
 :
+Option
+<
 extern
 "
 C
@@ -11716,6 +12079,7 @@ cef_render_process_handler
 *
 mut
 cef_load_handler
+>
 /
 /
 /
@@ -11769,6 +12133,8 @@ callback
 pub
 on_before_navigation
 :
+Option
+<
 extern
 "
 C
@@ -11807,6 +12173,7 @@ c_int
 -
 >
 c_int
+>
 /
 /
 /
@@ -11897,6 +12264,8 @@ function
 pub
 on_context_created
 :
+Option
+<
 extern
 "
 C
@@ -11924,6 +12293,7 @@ context
 mut
 cef_v8context
 )
+>
 /
 /
 /
@@ -11963,6 +12333,8 @@ called
 pub
 on_context_released
 :
+Option
+<
 extern
 "
 C
@@ -11990,6 +12362,7 @@ context
 mut
 cef_v8context
 )
+>
 /
 /
 /
@@ -12031,6 +12404,8 @@ uncaught_exception_stack_size
 pub
 on_uncaught_exception
 :
+Option
+<
 extern
 "
 C
@@ -12068,6 +12443,7 @@ stackTrace
 mut
 cef_v8stack_trace
 )
+>
 /
 /
 /
@@ -12169,6 +12545,8 @@ function
 pub
 on_focused_node_changed
 :
+Option
+<
 extern
 "
 C
@@ -12196,6 +12574,7 @@ node
 mut
 cef_domnode
 )
+>
 /
 /
 /
@@ -12257,6 +12636,8 @@ callback
 pub
 on_process_message_received
 :
+Option
+<
 extern
 "
 C
@@ -12285,6 +12666,7 @@ cef_process_message
 -
 >
 c_int
+>
 }
 /
 /
@@ -12482,6 +12864,8 @@ crashes
 pub
 on_before_command_line_processing
 :
+Option
+<
 extern
 "
 C
@@ -12504,6 +12888,7 @@ command_line
 mut
 cef_command_line
 )
+>
 /
 /
 /
@@ -12564,6 +12949,8 @@ processes
 pub
 on_register_custom_schemes
 :
+Option
+<
 extern
 "
 C
@@ -12581,6 +12968,7 @@ registrar
 mut
 cef_scheme_registrar
 )
+>
 /
 /
 /
@@ -12648,6 +13036,8 @@ threads
 pub
 get_resource_bundle_handler
 :
+Option
+<
 extern
 "
 C
@@ -12665,6 +13055,7 @@ cef_app_t
 *
 mut
 cef_resource_bundle_handler
+>
 /
 /
 /
@@ -12701,6 +13092,8 @@ process
 pub
 get_browser_process_handler
 :
+Option
+<
 extern
 "
 C
@@ -12718,6 +13111,7 @@ cef_app_t
 *
 mut
 cef_browser_process_handler
+>
 /
 /
 /
@@ -12753,6 +13147,8 @@ thread
 pub
 get_render_process_handler
 :
+Option
+<
 extern
 "
 C
@@ -12770,6 +13166,7 @@ cef_app_t
 *
 mut
 cef_render_process_handler
+>
 }
 /
 /
@@ -12912,6 +13309,8 @@ modified
 pub
 get_request
 :
+Option
+<
 extern
 "
 C
@@ -12929,6 +13328,7 @@ cef_urlrequest
 *
 mut
 cef_request_t
+>
 /
 /
 /
@@ -12944,6 +13344,8 @@ client
 pub
 get_client
 :
+Option
+<
 extern
 "
 C
@@ -12961,6 +13363,7 @@ cef_urlrequest
 *
 mut
 cef_urlrequest_client_t
+>
 /
 /
 /
@@ -12977,6 +13380,8 @@ status
 pub
 get_request_status
 :
+Option
+<
 extern
 "
 C
@@ -12992,6 +13397,7 @@ cef_urlrequest
 -
 >
 cef_urlrequest_status_t
+>
 /
 /
 /
@@ -13019,6 +13425,8 @@ otherwise
 pub
 get_request_error
 :
+Option
+<
 extern
 "
 C
@@ -13034,6 +13442,7 @@ cef_urlrequest
 -
 >
 cef_errorcode_t
+>
 /
 /
 /
@@ -13086,6 +13495,8 @@ modified
 pub
 get_response
 :
+Option
+<
 extern
 "
 C
@@ -13103,6 +13514,7 @@ cef_urlrequest
 *
 mut
 cef_response_t
+>
 /
 /
 /
@@ -13118,6 +13530,8 @@ request
 pub
 cancel
 :
+Option
+<
 extern
 "
 C
@@ -13130,6 +13544,7 @@ url_req
 mut
 cef_urlrequest
 )
+>
 }
 /
 /
@@ -13215,6 +13630,8 @@ only
 pub
 is_read_only
 :
+Option
+<
 extern
 "
 C
@@ -13230,6 +13647,7 @@ cef_post_data_element
 -
 >
 c_int
+>
 /
 /
 /
@@ -13250,6 +13668,8 @@ element
 pub
 set_to_empty
 :
+Option
+<
 extern
 "
 C
@@ -13262,6 +13682,7 @@ post_data_element
 mut
 cef_post_data_element
 )
+>
 /
 /
 /
@@ -13282,6 +13703,8 @@ file
 pub
 set_to_file
 :
+Option
+<
 extern
 "
 C
@@ -13299,6 +13722,7 @@ fileName
 const
 cef_string_t
 )
+>
 /
 /
 /
@@ -13328,6 +13752,8 @@ copied
 pub
 set_to_bytes
 :
+Option
+<
 extern
 "
 C
@@ -13348,6 +13774,7 @@ bytes
 const
 c_void
 )
+>
 /
 /
 /
@@ -13368,6 +13795,8 @@ element
 pub
 get_type
 :
+Option
+<
 extern
 "
 C
@@ -13383,6 +13812,7 @@ cef_post_data_element
 -
 >
 cef_postdataelement_type_t
+>
 /
 /
 /
@@ -13413,6 +13843,8 @@ cef_string_userfree_free
 pub
 get_file
 :
+Option
+<
 extern
 "
 C
@@ -13430,6 +13862,7 @@ cef_post_data_element
 *
 mut
 cef_string_userfree_t
+>
 /
 /
 /
@@ -13447,6 +13880,8 @@ bytes
 pub
 get_bytes_count
 :
+Option
+<
 extern
 "
 C
@@ -13462,6 +13897,7 @@ cef_post_data_element
 -
 >
 size_t
+>
 /
 /
 /
@@ -13495,6 +13931,8 @@ read
 pub
 get_bytes
 :
+Option
+<
 extern
 "
 C
@@ -13518,6 +13956,7 @@ c_void
 -
 >
 size_t
+>
 }
 /
 /
@@ -13601,6 +14040,8 @@ only
 pub
 is_read_only
 :
+Option
+<
 extern
 "
 C
@@ -13616,6 +14057,7 @@ cef_post_data
 -
 >
 c_int
+>
 /
 /
 /
@@ -13636,6 +14078,8 @@ elements
 pub
 get_element_count
 :
+Option
+<
 extern
 "
 C
@@ -13651,6 +14095,7 @@ cef_post_data
 -
 >
 size_t
+>
 /
 /
 /
@@ -13668,6 +14113,8 @@ elements
 pub
 get_elements
 :
+Option
+<
 extern
 "
 C
@@ -13692,6 +14139,7 @@ mut
 mut
 cef_post_data_element
 )
+>
 /
 /
 /
@@ -13722,6 +14170,8 @@ succeeds
 pub
 remove_element
 :
+Option
+<
 extern
 "
 C
@@ -13742,6 +14192,7 @@ cef_post_data_element
 -
 >
 c_int
+>
 /
 /
 /
@@ -13770,6 +14221,8 @@ succeeds
 pub
 add_element
 :
+Option
+<
 extern
 "
 C
@@ -13790,6 +14243,7 @@ cef_post_data_element
 -
 >
 c_int
+>
 /
 /
 /
@@ -13808,6 +14262,8 @@ elements
 pub
 remove_elements
 :
+Option
+<
 extern
 "
 C
@@ -13820,4 +14276,5 @@ post_data
 mut
 cef_post_data
 )
+>
 }
