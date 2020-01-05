@@ -1051,15 +1051,10 @@ output
 }
 catch
 (
-RemoteException
+Exception
 e
 )
 {
-/
-/
-Dead
-recipient
-.
 e
 .
 printStackTrace

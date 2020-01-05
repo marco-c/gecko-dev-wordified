@@ -891,9 +891,7 @@ dispose
 }
 catch
 (
-RemoteException
-|
-IOException
+Exception
 e
 )
 {
