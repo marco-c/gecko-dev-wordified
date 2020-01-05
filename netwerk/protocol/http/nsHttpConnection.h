@@ -624,12 +624,7 @@ SetFastOpen
 bool
 aFastOpen
 )
-{
-mFastOpen
-=
-aFastOpen
 ;
-}
 /
 /
 Close
