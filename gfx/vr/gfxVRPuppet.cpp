@@ -859,8 +859,6 @@ interested
 in
 the
 eye
-and
-mount
 info
 of
 the
@@ -874,14 +872,6 @@ mEyeResolution
 aDisplayInfo
 .
 mEyeResolution
-;
-mDisplayInfo
-.
-mIsMounted
-=
-aDisplayInfo
-.
-mIsMounted
 ;
 memcpy
 (
