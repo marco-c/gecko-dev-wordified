@@ -677,6 +677,16 @@ OS
                         
 continue
                     
+if
+arg
+in
+self
+.
+BUILTINS
+:
+                        
+continue
+                    
 return
 True
         
