@@ -399,7 +399,7 @@ url
 url
 )
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 url
 )
@@ -692,7 +692,7 @@ CHANNEL
 url
 )
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 url
 )

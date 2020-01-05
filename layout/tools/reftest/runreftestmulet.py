@@ -971,22 +971,6 @@ url
 "
 "
         
-prefs
-[
-"
-app
-.
-update
-.
-url
-.
-override
-"
-]
-=
-"
-"
-        
 #
 Disable
 webapp
