@@ -3205,6 +3205,25 @@ s_artifact
 .
 py
 '
+        
+'
+debug
+-
+artifact
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_debug_artifact
+.
+py
+'
     
 }
     
