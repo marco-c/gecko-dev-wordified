@@ -164,6 +164,12 @@ padding
 :
 2px
 ;
+pointer
+-
+events
+:
+auto
+;
 }
 *
 |
