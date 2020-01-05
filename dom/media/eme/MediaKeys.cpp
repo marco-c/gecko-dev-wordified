@@ -360,10 +360,6 @@ nsAString
 &
 aKeySystem
 const
-nsAString
-&
-aCDMVersion
-const
 MediaKeySystemConfiguration
 &
 aConfig
@@ -376,10 +372,6 @@ aParent
 mKeySystem
 (
 aKeySystem
-)
-mCDMVersion
-(
-aCDMVersion
 )
 mCreatePromiseId
 (
@@ -3136,7 +3128,6 @@ GetParentObject
 )
 this
 mKeySystem
-mCDMVersion
 aSessionType
 aRv
 )

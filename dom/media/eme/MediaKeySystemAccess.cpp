@@ -404,10 +404,6 @@ nsAString
 &
 aKeySystem
 const
-nsAString
-&
-aCDMVersion
-const
 MediaKeySystemConfiguration
 &
 aConfig
@@ -420,10 +416,6 @@ aParent
 mKeySystem
 (
 aKeySystem
-)
-mCDMVersion
-(
-aCDMVersion
 )
 mConfig
 (
@@ -548,7 +540,6 @@ MediaKeys
 (
 mParent
 mKeySystem
-mCDMVersion
 mConfig
 )
 )
