@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+unittest
+import
+skip
 import
 contextlib
 import
@@ -69,6 +73,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_mobile
 WindowManagerMixin
 def
 inline
@@ -363,7 +368,7 @@ assertRaisesRegexp
                 
 errors
 .
-MarionetteException
+UnsupportedOperationException
 "
 Cannot
 navigate
@@ -371,7 +376,7 @@ in
 chrome
 context
 "
-                                    
+                
 self
 .
 marionette
@@ -954,14 +959,16 @@ undefined
 )
 )
     
-"
-"
+skip
+(
 "
 Disabled
 due
 to
 Bug
 977899
+"
+)
     
 def
 test_navigate_frame
@@ -1065,9 +1072,13 @@ get_url
 )
 )
     
-"
-"
-"
+skip_if_mobile
+#
+Bug
+1323755
+-
+Socket
+timeout
     
 def
 test_invalid_protocol
@@ -1458,6 +1469,17 @@ sandbox
 None
 )
 )
+    
+skip_if_mobile
+#
+Fennec
+doesn
+'
+t
+support
+other
+chrome
+windows
     
 def
 test_about_blank_for_new_docshell
