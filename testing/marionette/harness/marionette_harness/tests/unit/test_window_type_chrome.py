@@ -59,7 +59,7 @@ import
 MarionetteTestCase
 WindowManagerMixin
 class
-TestTitleChrome
+TestWindowTypeChrome
 (
 WindowManagerMixin
 MarionetteTestCase
@@ -75,7 +75,7 @@ self
         
 super
 (
-TestTitleChrome
+TestWindowTypeChrome
 self
 )
 .
@@ -109,7 +109,7 @@ close_all_windows
         
 super
 (
-TestTitleChrome
+TestWindowTypeChrome
 self
 )
 .
@@ -118,7 +118,7 @@ tearDown
 )
     
 def
-test_get_chrome_title
+test_get_window_type
 (
 self
 )
@@ -191,7 +191,7 @@ switch_to_window
 win
 )
         
-title
+window_type
 =
 self
 .
@@ -211,7 +211,7 @@ documentElement
 getAttribute
 (
 '
-title
+windowtype
 '
 )
 ;
@@ -222,10 +222,12 @@ self
 .
 assertEqual
 (
-title
+window_type
 self
 .
 marionette
 .
-title
+get_window_type
+(
+)
 )
