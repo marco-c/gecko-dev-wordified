@@ -647,6 +647,11 @@ clickedView
 getContext
 (
 )
+ActivityStreamContextMenu
+.
+MenuMode
+.
+TOPSITE
 title
 .
 getText

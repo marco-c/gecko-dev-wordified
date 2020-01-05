@@ -401,6 +401,11 @@ show
 getActivity
 (
 )
+ActivityStreamContextMenu
+.
+MenuMode
+.
+HIGHLIGHT
 "
 foobar
 "
