@@ -423,15 +423,8 @@ WebRenderLayerManager
 *
 manager
 =
-static_cast
-<
-WebRenderLayerManager
-*
->
+WrManager
 (
-Manager
-(
-)
 )
 ;
 MOZ_ASSERT

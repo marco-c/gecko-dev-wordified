@@ -603,7 +603,7 @@ key
 )
 )
 ;
-Manager
+WrManager
 (
 )
 -
@@ -655,7 +655,7 @@ GetForwarder
 )
 {
 return
-Manager
+WrManager
 (
 )
 -
