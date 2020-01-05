@@ -8444,9 +8444,6 @@ JS
 :
 AutoAssertGCCallback
 inCallback
-(
-obj
-)
 ;
 cache
 -
@@ -8486,9 +8483,6 @@ JS
 :
 AutoAssertGCCallback
 inCallback
-(
-obj
-)
 ;
 nsWrapperCache
 *

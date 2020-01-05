@@ -46795,8 +46795,6 @@ HeapState
 Idle
 ;
 }
-#
-endif
 JS
 :
 :
@@ -46805,9 +46803,6 @@ AutoAssertGCCallback
 :
 AutoAssertGCCallback
 (
-JSObject
-*
-obj
 )
 :
 AutoSuppressGCAnalysis
@@ -46825,6 +46820,8 @@ CurrentThreadIsHeapCollecting
 )
 ;
 }
+#
+endif
 JS_FRIEND_API
 (
 const
