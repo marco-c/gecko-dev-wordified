@@ -211,13 +211,13 @@ let
 compute_width
 =
 |
+&
 width
 |
 {
 match
 width
 {
-&
 specified
 :
 :
@@ -231,7 +231,6 @@ value
 =
 >
 value
-&
 specified
 :
 :
@@ -297,7 +296,6 @@ initial_font_size
 initial_font_size
 )
 }
-&
 specified
 :
 :

@@ -6183,9 +6183,9 @@ in
 list
 {
 match
+*
 operation
 {
-&
 TransformOperation
 :
 :
@@ -6221,7 +6221,6 @@ identity
 )
 ;
 }
-&
 TransformOperation
 :
 :
@@ -6252,7 +6251,6 @@ Skew
 )
 ;
 }
-&
 TransformOperation
 :
 :
@@ -6293,7 +6291,6 @@ Au
 )
 ;
 }
-&
 TransformOperation
 :
 :
@@ -6327,7 +6324,6 @@ Scale
 )
 ;
 }
-&
 TransformOperation
 :
 :
@@ -6367,7 +6363,6 @@ Angle
 )
 ;
 }
-&
 TransformOperation
 :
 :

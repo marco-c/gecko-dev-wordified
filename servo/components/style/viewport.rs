@@ -332,9 +332,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 Zoom
 :
 :
@@ -354,7 +354,6 @@ dest
 "
 number
 )
-&
 Zoom
 :
 :
@@ -378,7 +377,6 @@ percentage
 100
 .
 )
-&
 Zoom
 :
 :
@@ -558,9 +556,9 @@ f32
 >
 {
 match
+*
 self
 {
-&
 Zoom
 :
 :
@@ -576,7 +574,6 @@ number
 as
 f32
 )
-&
 Zoom
 :
 :
@@ -592,7 +589,6 @@ percentage
 as
 f32
 )
-&
 Zoom
 :
 :
@@ -1418,10 +1414,6 @@ ViewportRule
 pub
 fn
 parse
-<
-'
-a
->
 (
 input
 :
@@ -1431,8 +1423,6 @@ Parser
 context
 :
 &
-'
-a
 ParserContext
 )
 -
