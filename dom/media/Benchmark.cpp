@@ -671,7 +671,7 @@ QueueObject
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 )
