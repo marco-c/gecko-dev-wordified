@@ -864,10 +864,6 @@ prefix
 (
 )
 .
-as_ref
-(
-)
-.
 map_or
 (
 namespace_prefix

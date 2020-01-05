@@ -672,15 +672,6 @@ DOMString
 )
 {
 let
-global
-=
-self
-.
-global
-(
-)
-;
-let
 rule
 =
 Keyframe

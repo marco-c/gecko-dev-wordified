@@ -431,6 +431,10 @@ range
 ;
 extern
 crate
+ref_filter_map
+;
+extern
+crate
 ref_slice
 ;
 extern

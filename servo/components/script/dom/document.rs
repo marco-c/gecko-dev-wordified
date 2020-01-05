@@ -1450,9 +1450,12 @@ Forwarded
 [
 derive
 (
+Clone
+Copy
+Debug
+HeapSizeOf
 JSTraceable
 PartialEq
-HeapSizeOf
 )
 ]
 pub
