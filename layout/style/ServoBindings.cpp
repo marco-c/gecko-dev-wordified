@@ -7821,8 +7821,8 @@ aLoader
 ServoStyleSheet
 *
 aParent
-RawServoImportRuleBorrowed
-aImportRule
+RawServoStyleSheetBorrowed
+aChildSheet
 RawGeckoURLExtraData
 *
 aBaseURLData
@@ -8106,7 +8106,7 @@ aParent
 uri
 media
 nullptr
-aImportRule
+aChildSheet
 nullptr
 )
 ;
