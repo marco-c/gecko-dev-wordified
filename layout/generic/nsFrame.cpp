@@ -431,13 +431,6 @@ h
 #
 include
 "
-nsHtml5Atoms
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h
