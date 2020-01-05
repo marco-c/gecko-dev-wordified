@@ -68,6 +68,7 @@ prototype
 .
 toString
 should
+not
 normalise
 line
 terminator

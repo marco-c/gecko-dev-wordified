@@ -202,9 +202,6 @@ BTN
 BWP
 :
 2
-BYR
-:
-0
 BZD
 :
 2
