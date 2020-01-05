@@ -8236,7 +8236,10 @@ mozilla
 dom
 :
 :
-DOMStringList
+Sequence
+<
+nsString
+>
 *
 aTextList
 uint32_t
