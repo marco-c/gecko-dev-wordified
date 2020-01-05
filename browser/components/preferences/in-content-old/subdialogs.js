@@ -154,8 +154,6 @@ skin
 in
 -
 content
--
-old
 /
 common
 .
