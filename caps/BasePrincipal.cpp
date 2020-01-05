@@ -1769,6 +1769,11 @@ aAttrs
 mFirstPartyDomain
 ;
 }
+/
+*
+static
+*
+/
 bool
 OriginAttributes
 :
