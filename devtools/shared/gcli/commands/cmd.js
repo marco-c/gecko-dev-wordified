@@ -78,7 +78,6 @@ chrome
 const
 {
 OS
-TextDecoder
 }
 =
 Cu
