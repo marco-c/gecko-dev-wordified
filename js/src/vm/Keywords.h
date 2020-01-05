@@ -458,6 +458,13 @@ public_
 TOK_STRICT_RESERVED
 )
 \
+macro
+(
+await
+await
+TOK_AWAIT
+)
+\
 /
 *
 \

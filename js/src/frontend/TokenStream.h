@@ -3368,6 +3368,11 @@ hitOOM
 }
 }
 ;
+bool
+awaitIsKeyword
+=
+false
+;
 public
 :
 typedef
