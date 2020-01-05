@@ -977,6 +977,8 @@ dom
 ipc
 .
 keepProcessesAlive
+.
+web
 "
 processCount
 )
