@@ -314,6 +314,7 @@ DeneuteredWindowRegion
 {
 public
 :
+explicit
 DeneuteredWindowRegion
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -338,6 +339,7 @@ SuppressedNeuteringRegion
 {
 public
 :
+explicit
 SuppressedNeuteringRegion
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
