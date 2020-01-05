@@ -1937,6 +1937,17 @@ minidump_stackwalk_path
 }
 )
         
+env
+[
+'
+RUST_BACKTRACE
+'
+]
+=
+'
+1
+'
+        
 if
 self
 .
