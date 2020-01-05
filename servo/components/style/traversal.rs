@@ -1560,6 +1560,16 @@ N
 >
 bool
 {
+opts
+:
+:
+get
+(
+)
+.
+nonincremental_layout
+|
+|
 node
 .
 is_dirty
