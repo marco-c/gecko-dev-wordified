@@ -1548,11 +1548,11 @@ remove
 (
 )
 ;
-goNext
-(
+}
 )
 ;
-}
+goNext
+(
 )
 ;
 }
