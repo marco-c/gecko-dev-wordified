@@ -4605,6 +4605,7 @@ error
 e
 )
 ;
+let
 msg
 =
 appender
@@ -5156,6 +5157,7 @@ recognized
 as
 errors
 .
+let
 err
 =
 new
@@ -5171,6 +5173,7 @@ ERROR_FILE
 28
 )
 ;
+let
 str
 =
 pFormat

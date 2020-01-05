@@ -106,6 +106,9 @@ var
 gPrefs
 ;
 var
+gParamBlock
+;
+var
 gPrintSetInterface
 =
 Components
@@ -3010,7 +3013,7 @@ QueryInterface
 gPrintSetInterface
 )
 ;
-paramBlock
+gParamBlock
 =
 window
 .
@@ -3052,7 +3055,7 @@ null
 ;
 if
 (
-paramBlock
+gParamBlock
 =
 =
 null
@@ -3077,7 +3080,7 @@ is
 "
 cancel
 "
-paramBlock
+gParamBlock
 .
 SetInt
 (
@@ -3497,7 +3500,7 @@ n
 }
 if
 (
-paramBlock
+gParamBlock
 )
 {
 /
@@ -3509,7 +3512,7 @@ to
 "
 ok
 "
-paramBlock
+gParamBlock
 .
 SetInt
 (

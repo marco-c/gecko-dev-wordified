@@ -1494,6 +1494,16 @@ globals
 :
 {
 "
+ChromeWorker
+"
+:
+false
+"
+ChromeUtils
+"
+:
+false
+"
 Components
 "
 :
@@ -1503,6 +1513,11 @@ dump
 "
 :
 true
+"
+KeyEvent
+"
+:
+false
 "
 openDialog
 "
@@ -1514,7 +1529,7 @@ sizeToContent
 :
 false
 "
-ChromeWorker
+SharedArrayBuffer
 "
 :
 false
