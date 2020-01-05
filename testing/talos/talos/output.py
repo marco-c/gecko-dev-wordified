@@ -1440,7 +1440,7 @@ file
         
 if
 '
-spsProfile
+geckoProfile
 '
 not
 in

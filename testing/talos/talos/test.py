@@ -642,19 +642,19 @@ reinstall
 |
         
 '
-sps_profile
+gecko_profile
 '
         
 '
-sps_profile_interval
+gecko_profile_interval
 '
         
 '
-sps_profile_entries
+gecko_profile_entries
 '
         
 '
-sps_profile_startup
+gecko_profile_startup
 '
         
 '
@@ -842,11 +842,11 @@ timeout
 =
 150
     
-sps_profile_startup
+gecko_profile_startup
 =
 True
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -1013,11 +1013,11 @@ timeout
 =
 1000000
     
-sps_profile_startup
+gecko_profile_startup
 =
 True
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -1288,11 +1288,11 @@ timeout
 =
 300
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 2000000
     
@@ -1396,11 +1396,11 @@ timeout
 =
 150
     
-sps_profile_interval
+gecko_profile_interval
 =
 2
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -1588,14 +1588,14 @@ resolution
 cycles
 '
 '
-sps_profile
+gecko_profile
 '
 '
-sps_profile_interval
+gecko_profile_interval
 '
             
 '
-sps_profile_entries
+gecko_profile_entries
 '
 '
 tptimeout
@@ -1749,7 +1749,7 @@ tppagecycles
 =
 20
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -1930,7 +1930,7 @@ tppagecycles
 =
 5
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -2359,11 +2359,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -2677,11 +2677,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -2858,11 +2858,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -3034,11 +3034,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 2000000
     
@@ -3624,11 +3624,11 @@ responsiveness
 =
 True
     
-sps_profile_interval
+gecko_profile_interval
 =
 2
     
-sps_profile_entries
+gecko_profile_entries
 =
 4000000
     
@@ -3718,11 +3718,11 @@ tppagecycles
 =
 12
     
-sps_profile_interval
+gecko_profile_interval
 =
 2
     
-sps_profile_entries
+gecko_profile_entries
 =
 2000000
     
@@ -3910,11 +3910,11 @@ v8
 manifest
 '
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -4026,13 +4026,13 @@ tppagecycles
 =
 1
     
-sps_profile_interval
+gecko_profile_interval
 =
 0
 .
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -4116,11 +4116,11 @@ timeout
 =
 10000
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 2000000
     
@@ -4304,11 +4304,11 @@ timeout
 =
 900
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 2500000
     
@@ -4460,11 +4460,11 @@ benchmark
 "
 "
     
-sps_profile_interval
+gecko_profile_interval
 =
 2
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -4554,11 +4554,11 @@ benchmark
 "
 "
     
-sps_profile_interval
+gecko_profile_interval
 =
 2
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -4650,11 +4650,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -4782,11 +4782,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 10
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     
@@ -4914,11 +4914,11 @@ tpmozafterpaint
 =
 True
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -5004,11 +5004,11 @@ tpmozafterpaint
 =
 True
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 10000000
     
@@ -5090,11 +5090,11 @@ tpmozafterpaint
 =
 False
     
-sps_profile_interval
+gecko_profile_interval
 =
 1
     
-sps_profile_entries
+gecko_profile_entries
 =
 1000000
     

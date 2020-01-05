@@ -950,7 +950,7 @@ default
 if
 setup
 .
-sps_profile
+gecko_profile
 :
                 
 #
@@ -1014,14 +1014,14 @@ profiling_info
 (
 setup
 .
-sps_profile
+gecko_profile
 .
 profiling_info
                                 
 if
 setup
 .
-sps_profile
+gecko_profile
 else
 None
 )
@@ -1579,12 +1579,12 @@ None
 if
 setup
 .
-sps_profile
+gecko_profile
 :
                 
 setup
 .
-sps_profile
+gecko_profile
 .
 symbolicate
 (
