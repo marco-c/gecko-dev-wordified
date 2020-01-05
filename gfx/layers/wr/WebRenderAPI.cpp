@@ -118,17 +118,6 @@ mozilla
 /
 layers
 /
-WebRenderBridgeParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorThread
 .
 h
@@ -163,7 +152,7 @@ NewRenderer
 WrRenderer
 *
 aWrRenderer
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 aBridge
 RefPtr
@@ -308,7 +297,7 @@ WrRenderer
 *
 mWrRenderer
 ;
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 mBridge
 ;
@@ -391,7 +380,7 @@ Create
 (
 bool
 aEnableProfiler
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 aBridge
 RefPtr

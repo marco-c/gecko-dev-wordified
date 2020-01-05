@@ -181,7 +181,7 @@ namespace
 layers
 {
 class
-WebRenderBridgeParent
+CompositorBridgeParentBase
 ;
 /
 /
@@ -282,7 +282,7 @@ gfx
 :
 WindowId
 aWindowId
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 aBridge
 )
@@ -375,7 +375,7 @@ aWindowId
 WrRenderer
 *
 aWrRenderer
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 aBridge
 )
@@ -408,7 +408,7 @@ WrRenderer
 *
 mWrRenderer
 ;
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 mBridge
 ;
