@@ -2251,7 +2251,7 @@ off
 "
 /
 /
-Disallow
+Allow
 comments
 inline
 after
@@ -2266,7 +2266,7 @@ comments
 "
 :
 "
-error
+off
 "
 /
 /
