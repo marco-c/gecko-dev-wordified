@@ -202,7 +202,6 @@ time
 :
 {
 self
-ProfilerCategory
 ProfilerMetadata
 profile
 }
