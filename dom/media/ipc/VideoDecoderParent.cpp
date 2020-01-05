@@ -222,6 +222,12 @@ base
 Thread
 ;
 using
+media
+:
+:
+TimeUnit
+;
+using
 namespace
 ipc
 ;
@@ -891,9 +897,6 @@ data
 >
 mTime
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -915,9 +918,6 @@ data
 >
 mTimecode
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -939,9 +939,6 @@ data
 >
 mDuration
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -1633,9 +1630,6 @@ mDecoder
 >
 SetSeekThreshold
 (
-media
-:
-:
 TimeUnit
 :
 :

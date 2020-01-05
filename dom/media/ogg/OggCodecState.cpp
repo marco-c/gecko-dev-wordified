@@ -285,6 +285,12 @@ gMediaDecoderLog
 type
 msg
 )
+using
+media
+:
+:
+TimeUnit
+;
 /
 *
 *
@@ -1576,9 +1582,6 @@ sample
 >
 mTimecode
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -1595,9 +1598,6 @@ sample
 >
 mTime
 =
-media
-:
-:
 TimeUnit
 :
 :
@@ -1613,9 +1613,6 @@ sample
 >
 mDuration
 =
-media
-:
-:
 TimeUnit
 :
 :

@@ -238,6 +238,12 @@ PlanarYCbCrImage
 namespace
 mozilla
 {
+using
+media
+:
+:
+TimeUnit
+;
 /
 *
 *
@@ -2358,9 +2364,6 @@ aSample
 >
 mOffset
 pts
-media
-:
-:
 TimeUnit
 :
 :
@@ -2472,9 +2475,6 @@ empty
 >
 mTimecode
 =
-media
-:
-:
 TimeUnit
 :
 :
