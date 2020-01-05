@@ -552,6 +552,9 @@ AsyncCompositionManager
 explicit
 AsyncCompositionManager
 (
+CompositorBridgeParent
+*
+aParent
 HostLayerManager
 *
 aManager
@@ -1739,6 +1742,10 @@ mPreviousFrameTimeStamp
 ;
 AnimationMetricsTracker
 mAnimationMetricsTracker
+;
+CompositorBridgeParent
+*
+mCompositorBridge
 ;
 #
 ifdef

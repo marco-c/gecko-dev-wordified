@@ -784,9 +784,9 @@ IPCResult
 RecvGetAnimationOpacity
 (
 const
-LayerHandle
+uint64_t
 &
-aLayerHandle
+aCompositorAnimationsId
 float
 *
 aOpacity
@@ -807,9 +807,9 @@ IPCResult
 RecvGetAnimationTransform
 (
 const
-LayerHandle
+uint64_t
 &
-aLayerHandle
+aCompositorAnimationsId
 MaybeTransform
 *
 aTransform
