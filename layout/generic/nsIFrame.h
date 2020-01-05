@@ -27885,6 +27885,7 @@ class
 WeakFrame
 ;
 class
+MOZ_NONHEAP_CLASS
 AutoWeakFrame
 {
 public
@@ -28211,6 +28212,7 @@ AutoWeakFrame
 *
 /
 class
+MOZ_HEAP_CLASS
 WeakFrame
 {
 public
