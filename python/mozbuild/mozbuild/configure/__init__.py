@@ -4919,6 +4919,8 @@ available
 there
 .
             
+self
+.
 wraps
 (
 template
@@ -5078,6 +5080,8 @@ args
                         
 ret
 =
+self
+.
 wraps
 (
 args
@@ -5119,6 +5123,20 @@ wrapper
         
 return
 wrapper
+    
+def
+wraps
+(
+self
+func
+)
+:
+        
+return
+wraps
+(
+func
+)
     
 RE_MODULE
 =
@@ -7344,6 +7362,8 @@ func_closure
         
 new_func
 =
+self
+.
 wraps
 (
 func
@@ -7373,6 +7393,8 @@ closure
 )
 )
         
+self
+.
 wraps
 (
 new_func
