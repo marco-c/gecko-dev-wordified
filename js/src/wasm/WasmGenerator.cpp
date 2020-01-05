@@ -727,6 +727,16 @@ isAsmJS
 )
 )
 ;
+metadataTier_
+=
+&
+asmJSMetadata
+-
+>
+tier
+(
+)
+;
 metadata_
 =
 asmJSMetadata
@@ -889,6 +899,23 @@ isAsmJS
 )
 )
 ;
+metadataTier_
+=
+js_new
+<
+MetadataTier
+>
+(
+)
+;
+if
+(
+!
+metadataTier_
+)
+return
+false
+;
 metadata_
 =
 js_new
@@ -896,6 +923,7 @@ js_new
 Metadata
 >
 (
+metadataTier_
 )
 ;
 if
@@ -1849,7 +1877,7 @@ CodeRange
 &
 cr
 =
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -2287,7 +2315,7 @@ false
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -2455,7 +2483,7 @@ false
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -2531,7 +2559,7 @@ Uint32Vector
 &
 jumps
 =
-metadata_
+metadataTier_
 -
 >
 debugTrapFarJumpOffsets
@@ -2658,7 +2686,7 @@ false
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -3005,7 +3033,7 @@ function
 uint32_t
 funcCodeRangeIndex
 =
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -3017,7 +3045,7 @@ length
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -3908,7 +3936,7 @@ begin
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -3978,7 +4006,7 @@ begin
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4029,7 +4057,7 @@ begin
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4077,7 +4105,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4108,7 +4136,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4135,7 +4163,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4162,7 +4190,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4189,7 +4217,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -4216,7 +4244,7 @@ offsetInWhole
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -6416,7 +6444,7 @@ false
 uint32_t
 codeRangeIndex
 =
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -6428,7 +6456,7 @@ length
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -7174,7 +7202,7 @@ Module
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 callSites
@@ -7204,7 +7232,7 @@ accesses
 during
 codegen
 .
-metadata_
+metadataTier_
 -
 >
 memoryAccesses
@@ -7341,7 +7369,7 @@ metadata_
 >
 debugEnabled
 )
-metadata_
+metadataTier_
 -
 >
 debugFuncToCodeRange
@@ -7374,7 +7402,7 @@ down
 to
 size
 .
-metadata_
+metadataTier_
 -
 >
 memoryAccesses
@@ -7383,7 +7411,7 @@ podResizeToFit
 (
 )
 ;
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -7392,7 +7420,7 @@ podResizeToFit
 (
 )
 ;
-metadata_
+metadataTier_
 -
 >
 callSites
@@ -7401,7 +7429,7 @@ podResizeToFit
 (
 )
 ;
-metadata_
+metadataTier_
 -
 >
 debugTrapFarJumpOffsets
@@ -7410,7 +7438,7 @@ podResizeToFit
 (
 )
 ;
-metadata_
+metadataTier_
 -
 >
 debugFuncToCodeRange
@@ -7493,7 +7521,7 @@ CodeRange
 &
 codeRange
 :
-metadata_
+metadataTier_
 -
 >
 codeRanges
@@ -7542,7 +7570,7 @@ for
 uint32_t
 debugTrapFarJumpOffset
 :
-metadata_
+metadataTier_
 -
 >
 debugTrapFarJumpOffsets
