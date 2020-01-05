@@ -2866,9 +2866,6 @@ _form
 .
 consoleActor
 [
-"
-NetworkActivity
-"
 ]
 onConsoleAttached
 )
