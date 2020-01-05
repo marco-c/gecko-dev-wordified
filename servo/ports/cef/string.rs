@@ -479,8 +479,9 @@ unsafe
 libc
 :
 :
-malloc
+calloc
 (
+1
 mem
 :
 :
@@ -570,8 +571,9 @@ str
 libc
 :
 :
-malloc
+calloc
 (
+1
 src_len
 +
 1
@@ -1120,8 +1122,9 @@ unsafe
 libc
 :
 :
-malloc
+calloc
 (
+1
 mem
 :
 :
@@ -1211,8 +1214,9 @@ str
 libc
 :
 :
-malloc
+calloc
 (
+1
 (
 src_len
 +
@@ -1594,8 +1598,9 @@ unsafe
 libc
 :
 :
-malloc
+calloc
 (
+1
 mem
 :
 :
@@ -1685,8 +1690,9 @@ str
 libc
 :
 :
-malloc
+calloc
 (
+1
 (
 src_len
 +
