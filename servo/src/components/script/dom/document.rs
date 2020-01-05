@@ -2434,6 +2434,13 @@ children
 (
 )
 {
+if
+child
+.
+is_text
+(
+)
+{
 let
 text
 :
@@ -2470,6 +2477,7 @@ as_slice
 )
 )
 ;
+}
 }
 }
 )
