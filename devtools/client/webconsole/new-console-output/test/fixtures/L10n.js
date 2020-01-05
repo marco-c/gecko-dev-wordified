@@ -104,10 +104,12 @@ Learn
 More
 "
 ;
-}
+default
+:
 return
 str
 ;
+}
 }
 getFormatStr
 (
