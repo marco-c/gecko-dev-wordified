@@ -170,7 +170,7 @@ let
 *
 /
 var
-name
+n
 =
 '
 outside
@@ -184,7 +184,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;
@@ -228,12 +228,12 @@ var
 func
 =
 function
-name
+n
 (
 )
 {
 let
-name
+n
 =
 '
 inside
@@ -246,7 +246,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;

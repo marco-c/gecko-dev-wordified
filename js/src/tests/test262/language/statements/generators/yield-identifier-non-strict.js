@@ -37,7 +37,7 @@ non
 -
 strict
 /
-statement
+declaration
 .
 template
 /

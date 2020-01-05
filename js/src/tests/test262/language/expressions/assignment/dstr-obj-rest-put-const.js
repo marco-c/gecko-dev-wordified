@@ -90,7 +90,9 @@ es6id
 features
 :
 [
-const
+object
+-
+rest
 destructuring
 -
 binding

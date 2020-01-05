@@ -155,7 +155,7 @@ localEnv
 *
 /
 var
-name
+n
 =
 '
 outside
@@ -169,7 +169,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;
@@ -213,7 +213,7 @@ var
 func
 =
 function
-name
+n
 (
 )
 {
@@ -258,7 +258,7 @@ BindingIdentifier
 )
 .
 var
-name
+n
 ;
 probeBody
 =
@@ -267,7 +267,7 @@ function
 )
 {
 return
-name
+n
 ;
 }
 ;

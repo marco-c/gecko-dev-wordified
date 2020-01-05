@@ -289,11 +289,6 @@ prototype
 Return
 A
 .
-features
-:
-[
-Reflect
-]
 includes
 :
 [
@@ -305,6 +300,7 @@ features
 :
 [
 SharedArrayBuffer
+Reflect
 ]
 -
 -

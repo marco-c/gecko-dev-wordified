@@ -341,7 +341,7 @@ buffer
 )
 ;
 var
-length
+len
 =
 distinctNaNs
 .
@@ -503,7 +503,7 @@ idx
 ;
 idx
 <
-length
+len
 ;
 +
 +
@@ -518,7 +518,7 @@ jdx
 ;
 jdx
 <
-length
+len
 ;
 +
 +

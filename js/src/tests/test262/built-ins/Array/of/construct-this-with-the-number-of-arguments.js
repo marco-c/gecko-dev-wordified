@@ -137,7 +137,7 @@ len
 *
 /
 var
-length
+len
 ;
 var
 hits
@@ -147,12 +147,12 @@ hits
 function
 C
 (
-len
+length
 )
 {
-length
-=
 len
+=
+length
 ;
 hits
 +
@@ -172,7 +172,7 @@ assert
 .
 sameValue
 (
-length
+len
 0
 '
 Array
@@ -226,7 +226,7 @@ assert
 .
 sameValue
 (
-length
+len
 2
 '
 Array
@@ -285,7 +285,7 @@ assert
 .
 sameValue
 (
-length
+len
 3
 '
 Array

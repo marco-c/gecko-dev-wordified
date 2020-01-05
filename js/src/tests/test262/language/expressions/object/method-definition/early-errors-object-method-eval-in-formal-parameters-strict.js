@@ -89,7 +89,7 @@ onlyStrict
 -
 *
 /
-!
+(
 {
 async
 foo
@@ -99,3 +99,4 @@ eval
 {
 }
 }
+)

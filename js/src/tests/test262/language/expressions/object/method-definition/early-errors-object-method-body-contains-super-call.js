@@ -78,7 +78,7 @@ SyntaxError
 -
 *
 /
-!
+(
 {
 async
 foo
@@ -90,3 +90,4 @@ super
 )
 }
 }
+)

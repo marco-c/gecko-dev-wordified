@@ -97,6 +97,9 @@ es6id
 features
 :
 [
+object
+-
+rest
 destructuring
 -
 binding

@@ -4,7 +4,6 @@ Copyright
 (
 C
 )
-Copyright
 2016
 the
 V8

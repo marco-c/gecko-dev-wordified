@@ -79,7 +79,7 @@ SyntaxError
 -
 *
 /
-!
+(
 {
 async
 foo
@@ -93,3 +93,4 @@ super
 {
 }
 }
+)

@@ -97,7 +97,7 @@ CHECK
 #
 1
 function
-MyFunction
+ReturnThis
 (
 )
 {
@@ -106,7 +106,7 @@ this
 }
 if
 (
-MyFunction
+ReturnThis
 (
 )
 !
@@ -122,14 +122,14 @@ ERROR
 1
 :
 function
-MyFunction
+ReturnThis
 (
 )
 {
 return
 this
 }
-MyFunction
+ReturnThis
 (
 )
 =
@@ -142,7 +142,7 @@ Actual
 '
 +
 (
-MyFunction
+ReturnThis
 (
 )
 )
@@ -155,7 +155,7 @@ CHECK
 #
 2
 function
-MyFunction
+ReturnEvalThis
 (
 )
 {
@@ -169,7 +169,7 @@ this
 }
 if
 (
-MyFunction
+ReturnEvalThis
 (
 )
 !
@@ -185,7 +185,7 @@ ERROR
 2
 :
 function
-MyFunction
+ReturnEvalThis
 (
 )
 {
@@ -197,7 +197,7 @@ this
 "
 )
 }
-MyFunction
+ReturnEvalThis
 (
 )
 =
@@ -210,7 +210,7 @@ Actual
 '
 +
 (
-MyFunction
+ReturnEvalThis
 (
 )
 )

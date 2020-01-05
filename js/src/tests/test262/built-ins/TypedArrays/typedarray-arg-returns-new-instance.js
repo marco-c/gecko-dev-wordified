@@ -121,7 +121,7 @@ js
 *
 /
 var
-length
+len
 =
 10
 ;
@@ -131,7 +131,7 @@ typedArraySample
 new
 Int8Array
 (
-length
+len
 )
 ;
 testWithTypedArrayConstructors
@@ -165,7 +165,7 @@ sameValue
 typedArray
 .
 length
-length
+len
 )
 ;
 assert

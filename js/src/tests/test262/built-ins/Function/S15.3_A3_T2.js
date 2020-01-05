@@ -84,7 +84,7 @@ red
 "
 ;
 var
-name
+planet
 =
 "
 mars
@@ -149,7 +149,7 @@ null
 return
 this
 .
-name
+planet
 ;
 "
 )

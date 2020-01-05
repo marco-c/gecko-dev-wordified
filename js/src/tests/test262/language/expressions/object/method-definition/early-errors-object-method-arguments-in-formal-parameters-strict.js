@@ -86,7 +86,7 @@ onlyStrict
 -
 *
 /
-!
+(
 {
 async
 foo
@@ -96,3 +96,4 @@ arguments
 {
 }
 }
+)

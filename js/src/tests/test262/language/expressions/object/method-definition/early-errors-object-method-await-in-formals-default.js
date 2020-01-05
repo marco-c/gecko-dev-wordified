@@ -79,7 +79,7 @@ SyntaxError
 -
 *
 /
-!
+(
 {
 async
 foo
@@ -91,3 +91,4 @@ await
 {
 }
 }
+)

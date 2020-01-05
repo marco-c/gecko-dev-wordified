@@ -57,7 +57,7 @@ Rest
 object
 contains
 just
-soruce
+source
 object
 '
 s
@@ -103,6 +103,9 @@ es6id
 features
 :
 [
+object
+-
+rest
 destructuring
 -
 binding
@@ -111,13 +114,6 @@ flags
 :
 [
 generated
-]
-includes
-:
-[
-propertyHelper
-.
-js
 ]
 info
 :

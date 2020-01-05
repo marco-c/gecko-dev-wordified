@@ -298,8 +298,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 thrower
 counter
@@ -338,8 +339,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 thrower
@@ -379,8 +381,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 0
@@ -421,8 +424,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 0
@@ -464,8 +468,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 0
@@ -508,8 +513,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 0
@@ -553,8 +559,9 @@ function
 (
 )
 {
-new
 Date
+.
+UTC
 (
 0
 0

@@ -106,7 +106,7 @@ Symbol
 )
 ;
 var
-length
+len
 =
 {
 valueOf
@@ -139,7 +139,7 @@ function
 substr
 (
 0
-length
+len
 )
 ;
 }

@@ -84,7 +84,7 @@ generators
 *
 /
 var
-name
+m
 =
 Symbol
 (
@@ -99,7 +99,7 @@ method
 {
 *
 [
-name
+m
 ]
 (
 )
@@ -107,7 +107,7 @@ name
 }
 }
 [
-name
+m
 ]
 ;
 assert

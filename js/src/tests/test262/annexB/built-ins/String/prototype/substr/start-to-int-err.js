@@ -130,7 +130,7 @@ Test262Error
 }
 ;
 var
-length
+len
 =
 {
 valueOf
@@ -162,7 +162,7 @@ function
 substr
 (
 start
-length
+len
 )
 ;
 }
@@ -183,7 +183,7 @@ function
 substr
 (
 symbol
-length
+len
 )
 ;
 }

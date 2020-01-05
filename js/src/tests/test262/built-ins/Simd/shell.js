@@ -1402,6 +1402,7 @@ mulFn
 :
 binaryMul
 }
+;
 var
 bool64x2
 =
@@ -1432,6 +1433,7 @@ true
 false
 ]
 }
+;
 float64x2
 .
 boolType

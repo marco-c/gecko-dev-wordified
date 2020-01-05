@@ -83,7 +83,7 @@ SyntaxError
 -
 *
 /
-!
+(
 {
 async
 function
@@ -97,3 +97,4 @@ bar
 ;
 }
 }
+)

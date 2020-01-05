@@ -69,7 +69,7 @@ in
 F
 set
 as
-false
+true
 -
 -
 -
@@ -116,7 +116,7 @@ length
 delete
 obj
 .
-caller
+length
 ;
 canConfigurable
 =
@@ -143,13 +143,14 @@ true
 )
 ;
 assert
-.
-sameValue
 (
 canConfigurable
-false
 '
 canConfigurable
+!
+=
+=
+true
 '
 )
 ;

@@ -179,7 +179,7 @@ SharedArrayBuffer
 )
 ;
 var
-length
+s
 =
 Symbol
 (
@@ -202,7 +202,7 @@ DataView
 (
 buffer
 0
-length
+s
 )
 ;
 }
