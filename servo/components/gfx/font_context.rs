@@ -424,7 +424,7 @@ azure
 font
 (
 per
-render
+paint
 task
 )
 that
@@ -440,7 +440,7 @@ text
 runs
 .
 struct
-RenderFontCacheEntry
+PaintFontCacheEntry
 {
 pt_size
 :
@@ -493,7 +493,7 @@ and
 /
 /
 /
-render
+paint
 code
 .
 It
@@ -562,7 +562,7 @@ Strong
 reference
 as
 the
-render
+paint
 FontContext
 is
 (
@@ -587,11 +587,11 @@ redraw
 is
 done
 .
-render_font_cache
+paint_font_cache
 :
 Vec
 <
-RenderFontCacheEntry
+PaintFontCacheEntry
 >
 last_style
 :
@@ -657,7 +657,7 @@ vec
 !
 (
 )
-render_font_cache
+paint_font_cache
 :
 vec
 !
@@ -731,7 +731,7 @@ small
 caps
 /
 /
-rendering
+painting
 .
 We
 should
@@ -1573,7 +1573,7 @@ font_group
 /
 Create
 a
-render
+paint
 font
 for
 use
@@ -1598,7 +1598,7 @@ context
 .
 pub
 fn
-get_render_font_from_template
+get_paint_font_from_template
 (
 &
 mut
@@ -1629,7 +1629,7 @@ cached_font
 in
 self
 .
-render_font_cache
+paint_font_cache
 .
 iter
 (
@@ -1665,7 +1665,7 @@ clone
 }
 }
 let
-render_font
+paint_font
 =
 Rc
 :
@@ -1687,15 +1687,15 @@ pt_size
 ;
 self
 .
-render_font_cache
+paint_font_cache
 .
 push
 (
-RenderFontCacheEntry
+PaintFontCacheEntry
 {
 font
 :
-render_font
+paint_font
 .
 clone
 (
@@ -1715,7 +1715,7 @@ clone
 }
 )
 ;
-render_font
+paint_font
 }
 /
 /

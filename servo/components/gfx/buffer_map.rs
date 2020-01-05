@@ -159,7 +159,7 @@ use
 /
 /
 The
-render
+paint
 task
 can
 quickly

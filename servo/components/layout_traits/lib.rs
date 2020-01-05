@@ -182,10 +182,10 @@ use
 gfx
 :
 :
-render_task
+paint_task
 :
 :
-RenderChan
+PaintChan
 ;
 use
 servo_msg
@@ -356,9 +356,9 @@ Failure
 script_chan
 :
 ScriptControlChan
-render_chan
+paint_chan
 :
-RenderChan
+PaintChan
 resource_task
 :
 ResourceTask

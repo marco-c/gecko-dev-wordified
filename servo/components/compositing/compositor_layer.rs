@@ -151,7 +151,7 @@ use
 gfx
 :
 :
-render_task
+paint_task
 :
 :
 UnusedBufferMsg
@@ -558,7 +558,7 @@ buffers
 back
 to
 the
-renderer
+painter
 to
 be
 destroyed
@@ -596,7 +596,7 @@ the
 /
 /
 /
-renderer
+painter
 to
 be
 destroyed
@@ -632,7 +632,7 @@ the
 /
 /
 /
-renderer
+painter
 .
 You
 must
@@ -641,7 +641,7 @@ this
 only
 when
 the
-render
+paint
 task
 is
 destined
@@ -674,7 +674,7 @@ when
 we
 know
 the
-render
+paint
 task
 is
 going
@@ -1496,7 +1496,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
@@ -1575,7 +1575,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
@@ -1626,7 +1626,7 @@ a
 race
 whether
 the
-render
+paint
 task
 is
 even
@@ -1645,7 +1645,7 @@ leaking
 .
 If
 the
-render
+paint
 task
 died
 then
@@ -1688,7 +1688,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
@@ -1721,7 +1721,7 @@ the
 /
 /
 /
-renderer
+painter
 to
 be
 destroyed
@@ -1784,7 +1784,7 @@ the
 /
 /
 /
-renderer
+painter
 .
 You
 must
@@ -1793,7 +1793,7 @@ this
 only
 when
 the
-render
+paint
 task
 is
 destined
@@ -1826,7 +1826,7 @@ when
 we
 know
 the
-render
+paint
 task
 is
 going

@@ -322,10 +322,10 @@ use
 gfx
 :
 :
-render_task
+paint_task
 :
 :
-RenderLayer
+PaintLayer
 ;
 use
 servo_msg
@@ -5771,7 +5771,7 @@ Option
 <
 Arc
 <
-RenderLayer
+PaintLayer
 >
 >
 )
@@ -6110,7 +6110,7 @@ Arc
 :
 new
 (
-RenderLayer
+PaintLayer
 :
 :
 new
@@ -6232,7 +6232,7 @@ Option
 <
 Arc
 <
-RenderLayer
+PaintLayer
 >
 >
 )

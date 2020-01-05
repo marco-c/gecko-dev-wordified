@@ -123,7 +123,7 @@ the
 /
 /
 /
-render
+paint
 functions
 that
 create

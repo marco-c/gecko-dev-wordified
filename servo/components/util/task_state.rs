@@ -148,7 +148,7 @@ LAYOUT
 =
 0x02
 const
-RENDER
+PAINT
 =
 0x04
 const
@@ -250,9 +250,9 @@ is_layout
 =
 LAYOUT
 ;
-is_render
+is_paint
 =
-RENDER
+PAINT
 ;
 }
 #

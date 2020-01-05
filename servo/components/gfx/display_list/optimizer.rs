@@ -74,7 +74,7 @@ cheaper
 -
 to
 -
-render
+paint
 one
 .
 use
@@ -141,7 +141,7 @@ cheaper
 -
 to
 -
-render
+paint
 one
 .
 pub

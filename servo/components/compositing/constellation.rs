@@ -121,7 +121,7 @@ use
 gfx
 :
 :
-render_task
+paint_task
 ;
 use
 layers
@@ -230,7 +230,7 @@ constellation_msg
 {
 NavigationType
 PipelineId
-RendererReadyMsg
+PainterReadyMsg
 ResizedWindowMsg
 }
 ;
@@ -3201,7 +3201,7 @@ direction
 /
 Notification
 that
-rendering
+painting
 has
 finished
 and
@@ -3211,7 +3211,7 @@ permission
 to
 paint
 .
-RendererReadyMsg
+PainterReadyMsg
 (
 pipeline_id
 )
@@ -3224,7 +3224,7 @@ debug
 "
 constellation
 got
-renderer
+painter
 ready
 message
 "
@@ -3232,7 +3232,7 @@ message
 ;
 self
 .
-handle_renderer_ready_msg
+handle_painter_ready_msg
 (
 pipeline_id
 )
@@ -3644,11 +3644,11 @@ _
 =
 old_pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
-render_task
+paint_task
 :
 :
 ExitMsg
@@ -5817,7 +5817,7 @@ mods
 ;
 }
 fn
-handle_renderer_ready_msg
+handle_painter_ready_msg
 (
 &
 mut
@@ -5831,7 +5831,7 @@ debug
 !
 (
 "
-Renderer
+Painter
 {
 }
 ready

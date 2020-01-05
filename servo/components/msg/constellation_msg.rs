@@ -625,7 +625,7 @@ NavigateMsg
 (
 NavigationDirection
 )
-RendererReadyMsg
+PainterReadyMsg
 (
 PipelineId
 )

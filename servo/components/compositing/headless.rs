@@ -86,8 +86,8 @@ compositor_task
 {
 SetLayerOrigin
 ShutdownComplete
-ChangeRenderState
-RenderMsgDiscarded
+ChangePaintState
+PaintMsgDiscarded
 }
 ;
 use
@@ -621,7 +621,7 @@ ChangeReadyState
 .
 )
 |
-ChangeRenderState
+ChangePaintState
 (
 .
 .
@@ -635,7 +635,7 @@ ScrollFragmentPoint
 |
 LoadComplete
 |
-RenderMsgDiscarded
+PaintMsgDiscarded
 (
 .
 .

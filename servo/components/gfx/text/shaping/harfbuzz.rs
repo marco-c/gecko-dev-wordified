@@ -1296,7 +1296,7 @@ the
 given
 text
 when
-rendered
+painted
 in
 a
 specific

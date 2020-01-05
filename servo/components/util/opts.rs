@@ -225,7 +225,7 @@ to
 use
 for
 CPU
-rendering
+painting
 (
 -
 t
@@ -249,12 +249,12 @@ currently
 used
 .
 All
-rendering
+painting
 is
 sequential
 .
 pub
-n_render_threads
+n_paint_threads
 :
 uint
 /
@@ -728,7 +728,7 @@ layout
 /
 /
 and
-render
+paint
 .
 pub
 trace_layout
@@ -1249,7 +1249,7 @@ set_exit_status
 Always
 use
 CPU
-rendering
+painting
 on
 android
 .
@@ -1309,7 +1309,7 @@ vec
 !
 (
 )
-n_render_threads
+n_paint_threads
 :
 1
 gpu_painting
@@ -1560,7 +1560,7 @@ threads
 "
 Number
 of
-render
+paint
 threads
 "
 "
@@ -2204,7 +2204,7 @@ unwrap
 ;
 let
 mut
-n_render_threads
+n_paint_threads
 :
 uint
 =
@@ -2220,13 +2220,13 @@ t
 {
 Some
 (
-n_render_threads_str
+n_paint_threads_str
 )
 =
 >
 from_str
 (
-n_render_threads_str
+n_paint_threads_str
 .
 as_slice
 (
@@ -2458,7 +2458,7 @@ layout
 if
 trace_layout
 {
-n_render_threads
+n_paint_threads
 =
 1
 ;
@@ -2659,9 +2659,9 @@ Opts
 urls
 :
 urls
-n_render_threads
+n_paint_threads
 :
-n_render_threads
+n_paint_threads
 gpu_painting
 :
 gpu_painting
