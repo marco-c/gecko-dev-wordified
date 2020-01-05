@@ -4833,7 +4833,7 @@ false
 )
 )
 {
-GeckoAppShell
+GeckoApp
 .
 launchOrBringToFront
 (
