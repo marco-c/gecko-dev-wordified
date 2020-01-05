@@ -293,7 +293,7 @@ specified
 :
 :
 {
-Length
+NoCalcLength
 LengthOrPercentageOrAuto
 ViewportPercentageLength
 }
@@ -1064,7 +1064,7 @@ width
 specified
 !
 (
-Length
+NoCalcLength
 :
 :
 ViewportPercentage
@@ -1096,7 +1096,7 @@ height
 specified
 !
 (
-Length
+NoCalcLength
 :
 :
 ViewportPercentage
@@ -1142,7 +1142,7 @@ n
 specified
 !
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1179,7 +1179,7 @@ _
 specified
 !
 (
-Length
+NoCalcLength
 :
 :
 from_px

@@ -114,6 +114,7 @@ BorderStyle
 BorderWidth
 CSSColor
 Length
+NoCalcLength
 }
 ;
 pub
@@ -255,7 +256,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -286,7 +287,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -317,7 +318,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -866,7 +867,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -994,7 +995,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1017,7 +1018,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1142,7 +1143,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1165,7 +1166,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1188,7 +1189,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1310,7 +1311,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1333,7 +1334,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1356,7 +1357,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1379,7 +1380,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1498,7 +1499,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -1521,7 +1522,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -5377,7 +5378,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -5974,7 +5975,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6007,7 +6008,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6107,7 +6108,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6122,7 +6123,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6409,7 +6410,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6442,7 +6443,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6542,7 +6543,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6557,7 +6558,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6841,7 +6842,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -6874,7 +6875,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7456,7 +7457,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7482,7 +7483,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7528,7 +7529,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7543,7 +7544,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7851,7 +7852,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7877,7 +7878,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7923,7 +7924,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
@@ -7938,7 +7939,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 from_px
