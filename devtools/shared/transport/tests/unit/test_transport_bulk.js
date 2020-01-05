@@ -470,7 +470,7 @@ onPacket
 :
 function
 (
-aPacket
+packet
 )
 {
 /
@@ -486,7 +486,7 @@ up
 packet
 do_check_eq
 (
-aPacket
+packet
 .
 from
 "

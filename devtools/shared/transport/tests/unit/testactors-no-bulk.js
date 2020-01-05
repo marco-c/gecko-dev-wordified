@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 RootActor
@@ -81,7 +86,7 @@ trait
 function
 createRootActor
 (
-aConnection
+connection
 )
 {
 let
@@ -90,7 +95,7 @@ root
 new
 RootActor
 (
-aConnection
+connection
 {
 globalActorFactories
 :

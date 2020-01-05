@@ -122,13 +122,6 @@ transportFactory
 )
 {
 let
-deferred
-=
-defer
-(
-)
-;
-let
 transport
 =
 yield
