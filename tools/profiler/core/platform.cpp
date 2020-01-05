@@ -14259,7 +14259,7 @@ threads
 const
 char
 *
-threadFilters
+filters
 [
 ]
 =
@@ -14658,10 +14658,10 @@ MOZ_ARRAY_LENGTH
 (
 features
 )
-threadFilters
+filters
 MOZ_ARRAY_LENGTH
 (
-threadFilters
+filters
 )
 )
 ;
@@ -14695,10 +14695,10 @@ MOZ_ARRAY_LENGTH
 (
 features
 )
-threadFilters
+filters
 MOZ_ARRAY_LENGTH
 (
-threadFilters
+filters
 )
 )
 ;

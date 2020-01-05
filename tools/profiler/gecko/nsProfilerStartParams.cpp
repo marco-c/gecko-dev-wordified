@@ -127,7 +127,7 @@ nsTArray
 nsCString
 >
 &
-aThreadFilterNames
+aFilters
 )
 :
 mEntries
@@ -142,9 +142,9 @@ mFeatures
 (
 aFeatures
 )
-mThreadFilterNames
+mFilters
 (
-aThreadFilterNames
+aFilters
 )
 {
 }
@@ -233,11 +233,11 @@ nsCString
 nsProfilerStartParams
 :
 :
-GetThreadFilterNames
+GetFilters
 (
 )
 {
 return
-mThreadFilterNames
+mFilters
 ;
 }
