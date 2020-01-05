@@ -1458,9 +1458,9 @@ token_slice
 .
 ends_with
 (
-"
+'
 *
-"
+'
 )
 {
 "

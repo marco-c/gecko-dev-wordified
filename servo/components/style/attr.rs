@@ -3836,9 +3836,9 @@ value
 .
 starts_with
 (
-"
+'
 +
-"
+'
 )
 {
 value
