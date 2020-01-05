@@ -10913,6 +10913,10 @@ nsGkAtoms
 font
 &
 attr
+.
+AsString
+(
+)
 nullptr
 &
 first
@@ -11129,6 +11133,10 @@ nsGkAtoms
 font
 &
 colorStr
+.
+AsString
+(
+)
 nullptr
 &
 first
