@@ -335,9 +335,6 @@ arguments
 .
 CallbackInterface
 (
-JSContext
-*
-aCx
 JS
 :
 :
@@ -357,7 +354,6 @@ FastCallbackConstructor
 :
 CallbackObject
 (
-aCx
 aCallable
 aIncumbentGlobal
 FastCallbackConstructor

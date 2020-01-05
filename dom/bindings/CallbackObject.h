@@ -1524,9 +1524,6 @@ happens
 !
 CallbackObject
 (
-JSContext
-*
-aCx
 JS
 :
 :
