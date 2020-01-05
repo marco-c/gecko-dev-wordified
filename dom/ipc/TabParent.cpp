@@ -5179,7 +5179,13 @@ DocAccessibleParent
 aParentDoc
 )
 ;
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 added
 =
 parentDoc
@@ -5232,10 +5238,7 @@ added
 )
 {
 return
-IPC_FAIL_NO_REASON
-(
-this
-)
+added
 ;
 }
 return

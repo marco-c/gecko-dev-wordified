@@ -675,7 +675,10 @@ document
 .
 *
 /
-bool
+ipc
+:
+:
+IPCResult
 AddChildDoc
 (
 DocAccessibleParent
