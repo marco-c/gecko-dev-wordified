@@ -358,18 +358,6 @@ use
 cleanup
     
 "
-components
-/
-style
-/
-properties
-/
-mod
-.
-rs
-"
-    
-"
 target
 /
 *
