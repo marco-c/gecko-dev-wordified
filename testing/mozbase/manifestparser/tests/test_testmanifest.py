@@ -613,7 +613,7 @@ bar
 }
         
 #
-7
+6
 tests
 total
         
@@ -639,7 +639,7 @@ len
 (
 tests
 )
-7
+6
 )
         
 #
@@ -694,8 +694,8 @@ tests
         
 #
 only
-2
-tests
+1
+test
 for
 subsuite
 baz
@@ -749,7 +749,7 @@ len
 (
 tests
 )
-2
+1
 )
         
 tests
@@ -786,7 +786,7 @@ len
 (
 tests
 )
-2
+1
 )
         
 #
