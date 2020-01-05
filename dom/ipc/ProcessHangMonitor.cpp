@@ -1760,11 +1760,11 @@ if
 tabChild
 )
 {
-JS
+js
 :
 :
-AutoAssertNoGC
-nogc
+AutoAssertNoContentJS
+nojs
 (
 mContext
 )
