@@ -139,7 +139,7 @@ marionette
 _send_message
 (
 "
-quitApplication
+quit
 "
 body
 )
@@ -284,7 +284,7 @@ marionette
 _send_message
 (
 "
-quitApplication
+quit
 "
 typ
 )

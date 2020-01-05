@@ -8911,7 +8911,7 @@ inside
         
 #
 the
-quitApplication
+quit
 command
 as
 part
@@ -9161,6 +9161,28 @@ list
 flags
 )
 }
+        
+#
+quitApplication
+was
+renamed
+quit
+in
+bug
+1337743
+        
+#
+and
+this
+can
+safely
+be
+renamed
+when
+Firefox
+56
+becomes
+stable
         
 self
 .
