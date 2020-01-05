@@ -215,6 +215,12 @@ AtomicsIsLockFree
 \
 _
 (
+IntlIsPluralRules
+)
+\
+\
+_
+(
 MathAbs
 )
 \
