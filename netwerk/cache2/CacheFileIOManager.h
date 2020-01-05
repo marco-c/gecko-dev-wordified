@@ -2146,6 +2146,14 @@ const
 bool
 *
 aHasAltData
+const
+uint16_t
+*
+aOnStartTime
+const
+uint16_t
+*
+aOnStopTime
 )
 ;
 static
