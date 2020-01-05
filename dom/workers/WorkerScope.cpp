@@ -2667,15 +2667,12 @@ Value
 >
 aMessage
 const
-Optional
-<
 Sequence
 <
 JS
 :
 :
 Value
->
 >
 &
 aTransferable
