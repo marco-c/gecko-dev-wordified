@@ -8044,6 +8044,8 @@ Gecko_FontFamilyList_AppendNamed
 list
 name
 .
+0
+.
 as_ptr
 (
 )
