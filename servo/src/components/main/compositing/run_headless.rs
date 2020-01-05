@@ -256,6 +256,11 @@ ChangeRenderState
 (
 *
 )
+|
+SetUnRenderedColor
+(
+*
+)
 =
 >
 (

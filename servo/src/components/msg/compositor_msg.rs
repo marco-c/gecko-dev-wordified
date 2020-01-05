@@ -75,6 +75,15 @@ size
 Size2D
 ;
 use
+azure
+:
+:
+azure_hl
+:
+:
+Color
+;
+use
 layers
 :
 :
@@ -533,7 +542,7 @@ uint
 )
 ;
 fn
-set_layer_page_size
+set_layer_page_size_and_color
 (
 &
 self
@@ -543,6 +552,7 @@ Size2D
 uint
 >
 Epoch
+Color
 )
 ;
 fn
