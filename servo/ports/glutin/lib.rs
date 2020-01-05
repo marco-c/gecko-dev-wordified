@@ -81,7 +81,6 @@ in
 feature
 (
 box_syntax
-result_expect
 )
 ]
 #

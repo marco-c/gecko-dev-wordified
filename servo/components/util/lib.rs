@@ -77,14 +77,6 @@ box_syntax
 [
 feature
 (
-box_raw
-)
-]
-#
-!
-[
-feature
-(
 core_intrinsics
 )
 ]

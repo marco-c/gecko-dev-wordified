@@ -61,14 +61,6 @@ MPL
 [
 feature
 (
-arc_unique
-)
-]
-#
-!
-[
-feature
-(
 box_syntax
 )
 ]

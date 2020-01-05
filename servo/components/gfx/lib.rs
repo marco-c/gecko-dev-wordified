@@ -61,15 +61,7 @@ MPL
 [
 feature
 (
-arc_weak
-)
-]
-#
-!
-[
-feature
-(
-box_raw
+alloc
 )
 ]
 #
@@ -229,6 +221,10 @@ log
 extern
 crate
 serde
+;
+extern
+crate
+alloc
 ;
 extern
 crate
