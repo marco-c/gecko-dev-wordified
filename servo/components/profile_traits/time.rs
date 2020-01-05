@@ -273,6 +273,7 @@ LayoutSelectorMatch
 LayoutTreeBuilder
 LayoutDamagePropagate
 LayoutGeneratedContent
+LayoutDisplayListSorting
 LayoutMain
 LayoutParallelWarmup
 LayoutDispListBuild
