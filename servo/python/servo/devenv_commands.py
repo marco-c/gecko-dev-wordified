@@ -1482,7 +1482,7 @@ build_env
 Command
 (
 '
-wpt
+wptrunner
 -
 upgrade
 '
@@ -1508,6 +1508,14 @@ upgrade_wpt_runner
 self
 )
 :
+        
+env
+=
+self
+.
+build_env
+(
+)
         
 with
 cd
@@ -1548,11 +1556,7 @@ init
 ]
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
             
 if
@@ -1561,6 +1565,45 @@ code
                 
 return
 code
+            
+#
+No
+need
+to
+report
+an
+error
+if
+this
+fails
+as
+it
+will
+for
+the
+first
+use
+            
+call
+(
+[
+"
+git
+"
+"
+remote
+"
+"
+rm
+"
+"
+upstream
+"
+]
+env
+=
+env
+)
             
 code
 =
@@ -1598,11 +1641,7 @@ git
 ]
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
             
 if
@@ -1629,11 +1668,7 @@ upstream
 ]
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
             
 if
@@ -1669,11 +1704,7 @@ master
 ]
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
             
 if
@@ -1702,11 +1733,7 @@ git
 ]
 env
 =
-self
-.
-build_env
-(
-)
+env
 )
             
 if
