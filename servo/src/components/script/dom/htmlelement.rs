@@ -843,7 +843,6 @@ on
 )
 {
 let
-mut
 window
 =
 window_from_node

@@ -1548,7 +1548,6 @@ DOMString
 )
 {
 let
-mut
 window
 =
 self
@@ -1642,7 +1641,6 @@ is_null
 )
 ;
 let
-mut
 raw_doc
 =
 reflect_dom_object
@@ -6430,7 +6428,6 @@ map_or
 (
 false
 |
-mut
 attr
 |
 {
@@ -7370,7 +7367,6 @@ Location
 >
 {
 let
-mut
 window
 =
 self

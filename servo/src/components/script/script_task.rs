@@ -4148,7 +4148,6 @@ document
 objects
 .
 let
-mut
 window
 =
 Window
@@ -5342,7 +5341,6 @@ root
 {
 Some
 (
-mut
 window
 )
 =

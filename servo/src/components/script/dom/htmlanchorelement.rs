@@ -522,7 +522,6 @@ self
 )
 ;
 let
-mut
 doc
 =
 node
