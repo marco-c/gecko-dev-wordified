@@ -1125,6 +1125,12 @@ true
 ;
 }
 }
+exports
+.
+TabTarget
+=
+TabTarget
+;
 TabTarget
 .
 prototype
