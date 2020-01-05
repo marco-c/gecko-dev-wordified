@@ -354,12 +354,12 @@ actorBridgeWithSpec
 isActive
 "
 )
-sharedLibraries
+getSharedLibraryInformation
 :
 actorBridgeWithSpec
 (
 "
-sharedLibraries
+getSharedLibraryInformation
 "
 )
 registerEventNotifications
