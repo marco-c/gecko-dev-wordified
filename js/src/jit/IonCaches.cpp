@@ -24719,12 +24719,13 @@ canAttachStub
 {
 oldGroup
 =
-obj
--
->
+JSObject
+:
+:
 getGroup
 (
 cx
+obj
 )
 ;
 if

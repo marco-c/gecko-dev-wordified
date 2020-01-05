@@ -604,8 +604,7 @@ NewFullyAllocatedArrayTryReuseGroup
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 size_t
 length
@@ -623,8 +622,7 @@ NewPartlyAllocatedArrayTryReuseGroup
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 size_t
 length
