@@ -460,7 +460,12 @@ mCairoSurface
 )
 ;
 return
-NS_OK
+PrintTarget
+:
+:
+EndPage
+(
+)
 ;
 }
 void
