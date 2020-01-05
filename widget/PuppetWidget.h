@@ -758,7 +758,8 @@ concept
 of
 titles
 .
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

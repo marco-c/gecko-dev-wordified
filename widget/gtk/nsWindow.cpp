@@ -9250,7 +9250,7 @@ nsPluginNativeWindowGtk
 aVal
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

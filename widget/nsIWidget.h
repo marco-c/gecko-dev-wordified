@@ -7907,7 +7907,8 @@ the
 widget
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 SetTitle
 (
 const

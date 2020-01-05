@@ -24178,7 +24178,7 @@ text
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
