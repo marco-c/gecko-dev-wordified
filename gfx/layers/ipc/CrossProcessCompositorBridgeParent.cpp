@@ -2168,6 +2168,12 @@ root
 WindowState
 (
 )
+root
+-
+>
+Compositor
+(
+)
 )
 ;
 parent
