@@ -4328,9 +4328,6 @@ ModuleGenerator
 :
 finishLinkData
 (
-Bytes
-&
-code
 )
 {
 /
@@ -7624,7 +7621,6 @@ if
 !
 finishLinkData
 (
-code
 )
 )
 return

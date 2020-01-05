@@ -1380,9 +1380,6 @@ MOZ_MUST_USE
 bool
 finishLinkData
 (
-Bytes
-&
-code
 )
 ;
 MOZ_MUST_USE

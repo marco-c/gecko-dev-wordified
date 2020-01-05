@@ -3871,7 +3871,7 @@ setFramePushed
 Argument
 types
 for
-Module
+Instance
 :
 :
 callImport_
@@ -4131,7 +4131,7 @@ for
 the
 call
 to
-Module
+Instance
 :
 :
 callImport_
