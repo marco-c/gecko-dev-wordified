@@ -1593,6 +1593,9 @@ Auto
 boxed
 =
 True
+ignored_when_colors_disabled
+=
+True
 products
 =
 "

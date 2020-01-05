@@ -119,6 +119,11 @@ animation_value_type
 "
 IntermediateRGBA
 "
+ignored_when_colors_disabled
+=
+"
+True
+"
 spec
 =
 "

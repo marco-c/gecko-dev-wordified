@@ -166,6 +166,9 @@ True
 need_clone
 =
 True
+ignored_when_colors_disabled
+=
+True
 spec
 =
 "

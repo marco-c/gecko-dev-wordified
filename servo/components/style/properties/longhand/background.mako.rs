@@ -168,6 +168,9 @@ IntermediateColor
 complex_color
 =
 True
+ignored_when_colors_disabled
+=
+True
 allow_quirks
 =
 True
@@ -257,6 +260,11 @@ gecko
 else
 "
 False
+"
+ignored_when_colors_disabled
+=
+"
+True
 "
 )
 }
