@@ -823,9 +823,6 @@ only
 /
 snapshots
 .
-Flags
-mContains
-;
 nsTArray
 <
 ServoAttrSnapshot
@@ -834,6 +831,9 @@ mAttrs
 ;
 ServoStateType
 mState
+;
+Flags
+mContains
 ;
 bool
 mIsHTMLElementInHTMLDocument
