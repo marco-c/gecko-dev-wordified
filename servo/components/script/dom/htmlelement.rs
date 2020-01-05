@@ -392,6 +392,15 @@ window
 WindowHelpers
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+FocusType
+;
+use
 util
 :
 :
@@ -1276,6 +1285,10 @@ document
 .
 commit_focus_transaction
 (
+FocusType
+:
+:
+Element
 )
 ;
 }
@@ -1405,6 +1418,10 @@ r
 .
 commit_focus_transaction
 (
+FocusType
+:
+:
+Element
 )
 ;
 }
