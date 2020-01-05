@@ -171,16 +171,6 @@ public
 :
 AndroidNativeWindow
 (
-)
-:
-mNativeWindow
-(
-nullptr
-)
-{
-}
-AndroidNativeWindow
-(
 java
 :
 :
