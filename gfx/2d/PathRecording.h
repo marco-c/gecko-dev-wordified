@@ -799,8 +799,10 @@ std
 :
 vector
 <
+RefPtr
+<
 DrawEventRecorderPrivate
-*
+>
 >
 mStoredRecorders
 ;
