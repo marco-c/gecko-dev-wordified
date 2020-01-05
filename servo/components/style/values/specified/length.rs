@@ -8854,6 +8854,10 @@ dest
 impl
 LengthOrPercentage
 {
+#
+[
+inline
+]
 /
 /
 /

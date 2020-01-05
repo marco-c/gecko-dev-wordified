@@ -175,6 +175,15 @@ LengthOrPercentage
 LengthOrPercentageOrNone
 }
 ;
+use
+style
+:
+:
+values
+:
+:
+generics
+;
 /
 /
 /
@@ -3319,6 +3328,9 @@ Au
 >
 {
 let
+generics
+:
+:
 BorderRadiusSize
 (
 size
