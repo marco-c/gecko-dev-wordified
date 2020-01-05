@@ -166,6 +166,7 @@ Either
 FONT_MEDIUM_PX
 HasViewportPercentage
 None_
+Normal
 }
 ;
 use
@@ -7576,6 +7577,16 @@ Either
 <
 Length
 None_
+>
+;
+pub
+type
+LengthOrNormal
+=
+Either
+<
+Length
+Normal
 >
 ;
 pub
