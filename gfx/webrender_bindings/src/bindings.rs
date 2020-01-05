@@ -896,9 +896,6 @@ false
 enable_subpixel_aa
 :
 false
-enable_msaa
-:
-false
 enable_profiler
 :
 enable_profiler
@@ -923,7 +920,7 @@ false
 clear_framebuffer
 :
 true
-clear_empty_tiles
+render_target_debug
 :
 false
 clear_color
@@ -2564,9 +2561,6 @@ true
 enable_subpixel_aa
 :
 true
-enable_msaa
-:
-false
 enable_profiler
 :
 enable_profiler
@@ -2591,7 +2585,7 @@ false
 clear_framebuffer
 :
 true
-clear_empty_tiles
+render_target_debug
 :
 false
 clear_color
