@@ -629,6 +629,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 rules
 -
@@ -654,6 +656,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 rules
@@ -835,6 +839,8 @@ whatwg
 .
 org
 /
+multipage
+/
 #
 rules
 -
@@ -912,6 +918,8 @@ spec
 whatwg
 .
 org
+/
+multipage
 /
 #
 rules
