@@ -672,6 +672,10 @@ nsHtml5ElementName
 *
 tagName
 ;
+nsHtml5ElementName
+*
+nonInternedTagName
+;
 protected
 :
 nsHtml5AttributeName
