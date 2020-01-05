@@ -8210,6 +8210,9 @@ static
 void
 StreamNameAndThreadId
 (
+JSONWriter
+&
+aWriter
 const
 char
 *
@@ -8449,6 +8452,7 @@ i
 ;
 StreamNameAndThreadId
 (
+aWriter
 info
 -
 >
@@ -8513,6 +8517,7 @@ i
 ;
 StreamNameAndThreadId
 (
+aWriter
 info
 -
 >
