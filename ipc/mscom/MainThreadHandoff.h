@@ -396,8 +396,11 @@ override
 STDMETHODIMP
 GetHandler
 (
+NotNull
+<
 CLSID
 *
+>
 aHandlerClsid
 )
 override
@@ -405,8 +408,11 @@ override
 STDMETHODIMP
 GetHandlerPayloadSize
 (
+NotNull
+<
 DWORD
 *
+>
 aOutPayloadSize
 )
 override
@@ -414,8 +420,11 @@ override
 STDMETHODIMP
 WriteHandlerPayload
 (
+NotNull
+<
 IStream
 *
+>
 aStream
 )
 override
