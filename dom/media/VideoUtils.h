@@ -367,11 +367,6 @@ const
 nsLiteralCString
 kEMEKeySystemWidevine
 ;
-extern
-const
-nsLiteralCString
-kEMEKeySystemPrimetime
-;
 /
 *
 *
