@@ -5312,6 +5312,13 @@ yet
 "
 )
 ;
+aProgressTracker
+-
+>
+SetIsMultipart
+(
+)
+;
 result
 .
 mImage
