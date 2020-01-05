@@ -3400,10 +3400,7 @@ try
 listener
 .
 changeListener
-.
-call
 (
-listener
 date
 change
 state

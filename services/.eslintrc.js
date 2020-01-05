@@ -188,17 +188,6 @@ finally
 "
 warn
 "
-"
-no
--
-useless
--
-call
-"
-:
-"
-warn
-"
 }
 }
 ;

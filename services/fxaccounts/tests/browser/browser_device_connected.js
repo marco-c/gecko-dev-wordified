@@ -130,10 +130,7 @@ directly
 clickCallback
 .
 observe
-.
-call
 (
-clickCallback
 null
 "
 alertclickcallback
