@@ -4683,10 +4683,6 @@ expired_animations
 read
 (
 )
-.
-unwrap
-(
-)
 ;
 let
 animations_to_expire
@@ -4781,10 +4777,6 @@ context
 expired_animations
 .
 write
-(
-)
-.
-unwrap
 (
 )
 .

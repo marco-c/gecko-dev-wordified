@@ -107,6 +107,12 @@ StyleSharingCandidateCache
 }
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 selector_matching
 :
 :
@@ -140,7 +146,6 @@ sync
 {
 Arc
 Mutex
-RwLock
 }
 ;
 use

@@ -227,6 +227,10 @@ extern
 crate
 ordered_float
 ;
+extern
+crate
+parking_lot
+;
 #
 [
 macro_use

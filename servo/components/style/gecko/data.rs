@@ -137,6 +137,12 @@ parallel
 WorkQueueData
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 selector_matching
 :
 :
@@ -170,10 +176,7 @@ std
 sync
 :
 :
-{
 Arc
-RwLock
-}
 ;
 use
 std
