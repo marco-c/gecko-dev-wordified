@@ -164,7 +164,15 @@ virtual
 bool
 Init
 (
+int
+aArgc
+char
+*
+aArgv
+[
+]
 )
+override
 ;
 }
 ;
