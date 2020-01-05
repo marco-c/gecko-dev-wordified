@@ -2459,7 +2459,7 @@ boolean
 [
 strict
 =
-false
+true
 ]
 *
 If
