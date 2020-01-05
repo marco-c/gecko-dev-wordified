@@ -4071,6 +4071,11 @@ NonTSPseudoClass
 :
 :
 ReadWrite
+|
+NonTSPseudoClass
+:
+:
+PlaceholderShown
 =
 >
 self
