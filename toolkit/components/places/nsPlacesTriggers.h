@@ -1784,6 +1784,15 @@ url
 NEW
 .
 url
+"
+\
+"
+AND
+userContextId
+=
+NEW
+.
+userContextId
 ;
 "
 \
