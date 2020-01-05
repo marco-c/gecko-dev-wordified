@@ -196,6 +196,7 @@ style
 in
 CSS
 eDOMClassInfo_CSSCounterStyleRule_id
+eDOMClassInfo_CSSFontFeatureValuesRule_id
 eDOMClassInfo_XULControlElement_id
 eDOMClassInfo_XULLabeledControlElement_id
 eDOMClassInfo_XULButtonElement_id
