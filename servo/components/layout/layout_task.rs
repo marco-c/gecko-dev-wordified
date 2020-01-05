@@ -104,7 +104,6 @@ context
 :
 {
 SharedLayoutContext
-SharedLayoutContextWrapper
 heap_size_of_local_context
 }
 ;
@@ -967,7 +966,7 @@ Option
 <
 WorkQueue
 <
-SharedLayoutContextWrapper
+SharedLayoutContext
 WorkQueueData
 >
 >
