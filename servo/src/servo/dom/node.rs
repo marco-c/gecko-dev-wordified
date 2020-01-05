@@ -35,6 +35,15 @@ dom
 bindings
 :
 :
+codegen
+;
+use
+dom
+:
+:
+bindings
+:
+:
 utils
 :
 :
@@ -2272,7 +2281,7 @@ unused
 false
 ;
 assert
-bindings
+codegen
 :
 :
 ClientRectBinding
@@ -2296,7 +2305,7 @@ unused
 )
 ;
 assert
-bindings
+codegen
 :
 :
 ClientRectListBinding
