@@ -851,7 +851,9 @@ one
 void
 SetLastPrincipalHandle
 (
+const
 PrincipalHandle
+&
 aLastPrincipalHandle
 )
 {

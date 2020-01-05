@@ -1920,6 +1920,7 @@ static
 void
 Iteration
 (
+const
 RefPtr
 <
 GenericPromise
@@ -1927,6 +1928,7 @@ GenericPromise
 :
 Private
 >
+&
 aPromise
 Work
 aLocalWork

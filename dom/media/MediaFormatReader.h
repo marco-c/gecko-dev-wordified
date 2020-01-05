@@ -3120,6 +3120,10 @@ aKnowsCompositor
 mKnowsCompositor
 =
 aKnowsCompositor
+.
+forget
+(
+)
 ;
 }
 void
