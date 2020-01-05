@@ -287,7 +287,7 @@ binding_detail
 :
 RecordEntry
 <
-nsString
+KeyType
 ValueType
 >
 EntryType

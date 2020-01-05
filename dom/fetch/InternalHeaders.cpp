@@ -1707,12 +1707,9 @@ Entries
 {
 Append
 (
-NS_ConvertUTF16toUTF8
-(
 entry
 .
 mKey
-)
 entry
 .
 mValue
