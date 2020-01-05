@@ -384,6 +384,13 @@ WebRenderBridgeChild
 :
 DPEnd
 (
+const
+gfx
+:
+:
+IntSize
+&
+aSize
 bool
 aIsSync
 uint64_t
@@ -411,6 +418,7 @@ this
 >
 SendDPSyncEnd
 (
+aSize
 mCommands
 mDestroyedActors
 GetFwdTransactionId
@@ -427,6 +435,7 @@ this
 >
 SendDPEnd
 (
+aSize
 mCommands
 mDestroyedActors
 GetFwdTransactionId

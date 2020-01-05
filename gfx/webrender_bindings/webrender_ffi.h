@@ -2102,10 +2102,6 @@ WrState
 *
 wr_state_new
 (
-uint32_t
-width
-uint32_t
-height
 WrPipelineId
 pipeline_id
 )
@@ -2215,12 +2211,7 @@ wr_dp_end
 (
 WrState
 *
-builder
-WrAPI
-*
-api
-WrEpoch
-epoch
+wrState
 )
 WR_FUNC
 ;
