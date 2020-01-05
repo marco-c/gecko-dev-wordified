@@ -4491,6 +4491,12 @@ bin
         
 self
 .
+client
+=
+None
+        
+self
+.
 instance
 =
 None
@@ -10193,6 +10199,15 @@ window
 =
 None
             
+if
+self
+.
+client
+is
+not
+None
+:
+                
 self
 .
 client
