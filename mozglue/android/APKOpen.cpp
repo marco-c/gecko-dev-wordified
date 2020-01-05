@@ -2797,8 +2797,8 @@ char
 *
 int
 const
-StaticXREAppData
-&
+nsXREAppData
+*
 )
 ;
 typedef
@@ -2896,6 +2896,7 @@ GeckoStart
 jenv
 argv
 argc
+&
 sAppData
 )
 ;
