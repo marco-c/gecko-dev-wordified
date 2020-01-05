@@ -378,6 +378,28 @@ True
     
 }
     
+'
+pine
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+pine_tasks
+'
+        
+'
+optimize_target_tasks
+'
+:
+True
+    
+}
+    
 #
 the
 default
