@@ -934,16 +934,6 @@ ICU
 '
 unicode
 /
-uchar
-.
-h
-'
-#
-ICU
-    
-'
-unicode
-/
 uclean
 .
 h
