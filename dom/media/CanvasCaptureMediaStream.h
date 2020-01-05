@@ -692,6 +692,10 @@ Image
 >
 &
 aImage
+const
+TimeStamp
+&
+aTime
 )
 ;
 /
