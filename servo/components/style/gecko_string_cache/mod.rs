@@ -1395,9 +1395,6 @@ with
 <
 F
 R
-:
-'
-static
 >
 (
 ptr
@@ -1407,8 +1404,6 @@ mut
 nsIAtom
 callback
 :
-&
-mut
 F
 )
 -
@@ -1417,7 +1412,7 @@ R
 where
 F
 :
-FnMut
+FnOnce
 (
 &
 Atom

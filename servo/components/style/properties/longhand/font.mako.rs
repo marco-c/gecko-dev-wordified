@@ -5723,8 +5723,6 @@ nsIAtom
 >
 (
 )
-&
-mut
 |
 atom
 |
