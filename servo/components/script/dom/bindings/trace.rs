@@ -2883,6 +2883,7 @@ vec
 )
 }
 }
+unsafe
 fn
 remove
 <
@@ -2978,6 +2979,7 @@ idx
 )
 ;
 }
+unsafe
 fn
 add
 <
@@ -3291,6 +3293,8 @@ a
 T
 >
 {
+unsafe
+{
 RootedTraceableSet
 :
 :
@@ -3299,6 +3303,7 @@ add
 traceable
 )
 ;
+}
 RootedTraceable
 {
 ptr
@@ -3332,6 +3337,8 @@ mut
 self
 )
 {
+unsafe
+{
 RootedTraceableSet
 :
 :
@@ -3342,6 +3349,7 @@ self
 ptr
 )
 ;
+}
 }
 }
 /
@@ -3462,6 +3470,8 @@ libc
 c_void
 }
 ;
+unsafe
+{
 RootedVec
 :
 :
@@ -3469,6 +3479,7 @@ new_with_destination_address
 (
 addr
 )
+}
 }
 /
 /
@@ -3493,6 +3504,7 @@ for
 RootTraceableSet
 .
 pub
+unsafe
 fn
 new_with_destination_address
 (
@@ -3511,8 +3523,6 @@ RootedVec
 <
 T
 >
-{
-unsafe
 {
 RootedTraceableSet
 :
@@ -3538,7 +3548,6 @@ _
 )
 )
 ;
-}
 RootedVec
 :
 :
@@ -3611,10 +3620,13 @@ mem
 transmute
 (
 &
-*
 self
 .
 v
+[
+.
+.
+]
 )
 }
 }
@@ -3640,6 +3652,8 @@ mut
 self
 )
 {
+unsafe
+{
 RootedTraceableSet
 :
 :
@@ -3648,6 +3662,7 @@ remove
 self
 )
 ;
+}
 }
 }
 impl
@@ -3794,13 +3809,13 @@ let
 mut
 vec
 =
+unsafe
+{
 RootedVec
 :
 :
 new_with_destination_address
 (
-unsafe
-{
 return_address
 (
 )
@@ -3811,8 +3826,8 @@ libc
 :
 :
 c_void
-}
 )
+}
 ;
 vec
 .

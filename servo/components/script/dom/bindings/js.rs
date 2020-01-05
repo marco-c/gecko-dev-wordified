@@ -3693,10 +3693,6 @@ GC
 Exact_Stack_Rooting
 )
 .
-#
-[
-no_move
-]
 pub
 struct
 RootCollection
