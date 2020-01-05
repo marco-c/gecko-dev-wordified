@@ -4421,6 +4421,14 @@ rollback
 of
 ice
 restart
+unsigned
+long
+mIceRestartCount
+;
+unsigned
+long
+mIceRollbackCount
+;
 #
 if
 !
