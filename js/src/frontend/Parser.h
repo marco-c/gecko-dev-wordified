@@ -3391,6 +3391,7 @@ SetterNoExpressionClosure
 Method
 GeneratorMethod
 AsyncMethod
+AsyncGeneratorMethod
 Constructor
 DerivedConstructor
 }
