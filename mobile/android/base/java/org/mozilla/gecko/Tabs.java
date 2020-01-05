@@ -6332,6 +6332,7 @@ tab
 .
 *
 /
+RobocopTarget
 public
 Tab
 getFirstTabForUrl
