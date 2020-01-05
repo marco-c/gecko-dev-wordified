@@ -6320,6 +6320,9 @@ PipelineId
 aPipelineId
 TextureFactoryIdentifier
 *
+uint32_t
+*
+aIdNamespace
 )
 {
 WebRenderBridgeChild
@@ -6330,6 +6333,8 @@ new
 WebRenderBridgeChild
 (
 aPipelineId
+*
+aIdNamespace
 )
 ;
 child
