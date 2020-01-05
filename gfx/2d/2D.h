@@ -10064,6 +10064,12 @@ GetD2D1Device
 )
 ;
 static
+uint32_t
+GetD2D1DeviceSeq
+(
+)
+;
+static
 IDWriteFactory
 *
 GetDWriteFactory
