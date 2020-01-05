@@ -2707,10 +2707,6 @@ compositor
 page
 :
 page
-.
-clone
-(
-)
 location
 :
 None
