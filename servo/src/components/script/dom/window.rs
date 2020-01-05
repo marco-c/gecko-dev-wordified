@@ -533,10 +533,14 @@ chan
 |
 chan
 .
-send
+send_opt
 (
 (
 )
+)
+.
+ok
+(
 )
 )
 ;
