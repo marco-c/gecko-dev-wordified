@@ -147,8 +147,8 @@ mem
 :
 :
 {
-MemoryReporter
-MemoryReportsChan
+Reporter
+ReportsChan
 }
 ;
 use
@@ -402,9 +402,9 @@ the
 supplied
 channel
 .
-CollectMemoryReports
+CollectReports
 (
-MemoryReportsChan
+ReportsChan
 )
 /
 /
@@ -554,6 +554,7 @@ LayoutTaskData
 2
 )
 small
+/
 /
 /
 3
@@ -1076,7 +1077,7 @@ chan
 }
 }
 impl
-MemoryReporter
+Reporter
 for
 LayoutChan
 {
@@ -1102,7 +1103,7 @@ collect_reports
 self
 reports_chan
 :
-MemoryReportsChan
+ReportsChan
 )
 -
 >
@@ -1125,7 +1126,7 @@ send
 Msg
 :
 :
-CollectMemoryReports
+CollectReports
 (
 reports_chan
 )

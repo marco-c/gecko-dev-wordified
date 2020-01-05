@@ -343,7 +343,7 @@ logical_geometry
 ;
 pub
 mod
-memory
+mem
 ;
 pub
 mod

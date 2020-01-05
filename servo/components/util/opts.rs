@@ -419,7 +419,7 @@ m
 )
 .
 pub
-memory_profiler_period
+mem_profiler_period
 :
 Option
 <
@@ -1500,7 +1500,7 @@ None
 time_profiler_period
 :
 None
-memory_profiler_period
+mem_profiler_period
 :
 None
 enable_experimental
@@ -2565,7 +2565,7 @@ unwrap
 )
 ;
 let
-memory_profiler_period
+mem_profiler_period
 =
 opt_match
 .
@@ -2888,9 +2888,9 @@ device_pixels_per_px
 time_profiler_period
 :
 time_profiler_period
-memory_profiler_period
+mem_profiler_period
 :
-memory_profiler_period
+mem_profiler_period
 enable_experimental
 :
 opt_match
