@@ -4449,6 +4449,12 @@ nsStyleColumn
 nsStyleContent
 "
 "
+nsStyleContentData
+"
+"
+nsStyleContentType
+"
+"
 nsStyleContext
 "
 "
