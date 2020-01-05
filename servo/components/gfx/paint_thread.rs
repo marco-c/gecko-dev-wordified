@@ -2741,6 +2741,13 @@ c
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 start
 (

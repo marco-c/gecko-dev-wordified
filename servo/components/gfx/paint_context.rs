@@ -14478,6 +14478,13 @@ ScaledFontExtensionMethods
 for
 ScaledFont
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 draw_text
 (

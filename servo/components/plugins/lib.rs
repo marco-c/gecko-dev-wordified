@@ -213,6 +213,14 @@ slice_patterns
 )
 ]
 #
+!
+[
+deny
+(
+unsafe_code
+)
+]
+#
 [
 cfg
 (

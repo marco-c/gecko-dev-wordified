@@ -93,6 +93,14 @@ crate_type
 rlib
 "
 ]
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 extern
 crate
 azure
