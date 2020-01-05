@@ -133,7 +133,7 @@ setup_marionette_argument_parser
 :
     
 from
-marionette
+marionette_harness
 .
 runtests
 import
@@ -185,7 +185,7 @@ import
 commandline
     
 from
-marionette
+marionette_harness
 .
 runtests
 import
