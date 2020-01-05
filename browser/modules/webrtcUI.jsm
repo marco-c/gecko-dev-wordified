@@ -2379,12 +2379,6 @@ perms
 add
 (
 uri
-sharingScreen
-?
-"
-screen
-"
-:
 "
 camera
 "
