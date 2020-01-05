@@ -3162,6 +3162,12 @@ mozilla
 TimeStamp
 mSuspendTimestamp
 ;
+mozilla
+:
+:
+TimeStamp
+mOnCacheEntryCheckTimestamp
+;
 /
 /
 Total
