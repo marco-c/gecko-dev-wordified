@@ -1021,6 +1021,12 @@ specified
 Length
 ;
 use
+time
+:
+:
+Duration
+;
+use
 url
 :
 :
@@ -1114,6 +1120,12 @@ no_jsmanaged_fields
 !
 (
 Reflector
+)
+;
+no_jsmanaged_fields
+!
+(
+Duration
 )
 ;
 /
