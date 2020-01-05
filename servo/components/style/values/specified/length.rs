@@ -1003,11 +1003,11 @@ root_font_size
 =
 context
 .
-style
-(
-)
+device
 .
 root_font_size
+(
+)
 ;
 match
 *
