@@ -708,6 +708,8 @@ wrWindow
 wrstate
 *
 wrState
+uint32_t
+epoch
 )
 WR_FUNC
 ;
