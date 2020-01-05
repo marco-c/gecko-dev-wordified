@@ -20263,7 +20263,7 @@ formautofill
 .
 enabled
 "
-false
+true
 )
 ;
 pref
