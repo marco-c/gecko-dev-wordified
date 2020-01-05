@@ -207,7 +207,7 @@ display_list
 :
 :
 {
-BOX_SHADOW_INFLATION_FACTOR
+BLUR_INFLATION_FACTOR
 OpaqueNode
 }
 ;
@@ -15092,7 +15092,7 @@ box_shadow
 .
 blur_radius
 *
-BOX_SHADOW_INFLATION_FACTOR
+BLUR_INFLATION_FACTOR
 ;
 overflow
 =
