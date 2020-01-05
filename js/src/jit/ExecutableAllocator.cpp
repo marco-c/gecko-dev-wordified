@@ -2141,7 +2141,7 @@ preventBackedgePatching
 rt
 -
 >
-unsafeContextFromAnyThread
+activeContext
 (
 )
 -

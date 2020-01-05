@@ -1343,9 +1343,9 @@ token
 void
 cancelParseTask
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 ParseTaskKind
 kind
 void

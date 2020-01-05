@@ -1753,6 +1753,7 @@ JSContext
 activeContext
 (
 )
+const
 {
 return
 activeContext_
