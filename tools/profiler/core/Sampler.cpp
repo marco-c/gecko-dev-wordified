@@ -1234,10 +1234,6 @@ interval_
 (
 aInterval
 )
-profiling_
-(
-true
-)
 paused_
 (
 false
