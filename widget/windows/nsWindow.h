@@ -2575,6 +2575,15 @@ ResizeState
 aNewState
 )
 ;
+nsIntPoint
+GetTouchCoordinates
+(
+WPARAM
+wParam
+LPARAM
+lParam
+)
+;
 /
 *
 *
