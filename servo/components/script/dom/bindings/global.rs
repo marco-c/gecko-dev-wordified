@@ -234,7 +234,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 PanicMsg
 PipelineId
 }
@@ -787,14 +786,13 @@ time_profiler_chan
 /
 Get
 a
-ConstellationChan
+IpcSender
 to
 send
 messages
 to
 the
 constellation
-channel
 when
 available
 .
@@ -808,7 +806,7 @@ self
 -
 >
 &
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >

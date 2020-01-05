@@ -61,15 +61,12 @@ ipc_channel
 :
 :
 ipc
-;
-use
-msg
 :
 :
-constellation_msg
-:
-:
-ConstellationChan
+{
+self
+IpcSender
+}
 ;
 use
 script_traits
@@ -134,7 +131,7 @@ String
 impl
 ClipboardProvider
 for
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
@@ -168,8 +165,6 @@ unwrap
 )
 ;
 self
-.
-0
 .
 send
 (
@@ -208,8 +203,6 @@ String
 )
 {
 self
-.
-0
 .
 send
 (

@@ -539,7 +539,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 LoadData
 PanicMsg
 PipelineId
@@ -1862,7 +1861,7 @@ hard
 ]
 constellation_chan
 :
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
@@ -3600,8 +3599,6 @@ self
 constellation_chan
 (
 )
-.
-0
 .
 send
 (
@@ -9462,8 +9459,6 @@ constellation_chan
 (
 )
 .
-0
-.
 send
 (
 event
@@ -10764,7 +10759,7 @@ self
 -
 >
 &
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
@@ -11822,7 +11817,7 @@ ScriptToDevtoolsControlMsg
 >
 constellation_chan
 :
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >

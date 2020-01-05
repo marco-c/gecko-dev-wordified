@@ -286,7 +286,6 @@ constellation_msg
 :
 :
 {
-ConstellationChan
 PanicMsg
 PipelineId
 }
@@ -490,7 +489,7 @@ DevtoolScriptControlMsg
 pub
 constellation_chan
 :
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
@@ -806,7 +805,7 @@ std
 ]
 constellation_chan
 :
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
@@ -1138,7 +1137,7 @@ self
 -
 >
 &
-ConstellationChan
+IpcSender
 <
 ConstellationMsg
 >
