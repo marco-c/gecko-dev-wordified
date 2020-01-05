@@ -23210,6 +23210,14 @@ eMouseClick
 ;
 _ASSIGN_eventName
 (
+eMouseAuxClick
+"
+eMouseAuxClick
+"
+)
+;
+_ASSIGN_eventName
+(
 eMouseDoubleClick
 "
 eMouseDoubleClick
