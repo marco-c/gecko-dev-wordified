@@ -61,14 +61,6 @@ MPL
 [
 feature
 (
-ascii
-)
-]
-#
-!
-[
-feature
-(
 as_unsafe_cell
 )
 ]
