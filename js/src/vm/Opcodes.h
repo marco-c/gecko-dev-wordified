@@ -6040,7 +6040,7 @@ Variables
 *
 Operands
 :
-uint32_t
+uint24_t
 localno
 *
 Stack
@@ -6094,7 +6094,7 @@ Variables
 *
 Operands
 :
-uint32_t
+uint24_t
 localno
 *
 Stack
@@ -10682,7 +10682,7 @@ Variables
 *
 Operands
 :
-uint32_t
+uint24_t
 localno
 *
 Stack
@@ -10739,7 +10739,7 @@ Variables
 *
 Operands
 :
-uint32_t
+uint24_t
 localno
 *
 Stack
@@ -12998,7 +12998,7 @@ Variables
 *
 Operands
 :
-uint32_t
+uint24_t
 localno
 *
 Stack
