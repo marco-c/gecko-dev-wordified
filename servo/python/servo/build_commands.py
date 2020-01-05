@@ -1517,6 +1517,9 @@ build_env
 target
 =
 target
+is_build
+=
+True
 )
         
 if
@@ -2315,6 +2318,9 @@ self
 .
 build_env
 (
+is_build
+=
+True
 )
 verbose
 =
@@ -2570,6 +2576,9 @@ self
 .
 build_env
 (
+is_build
+=
+True
 )
         
 env

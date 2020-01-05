@@ -3005,6 +3005,9 @@ None
 target
 =
 None
+is_build
+=
+False
 )
 :
         
@@ -4375,6 +4378,8 @@ isdir
 git
 '
 )
+and
+is_build
 :
             
 git_sha
