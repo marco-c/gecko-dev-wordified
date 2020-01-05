@@ -444,6 +444,7 @@ Port
 <
 ControlMsg
 >
++
 loaders
 :
 ~
@@ -534,6 +535,7 @@ self
 .
 get_loader_factory
 (
+&
 url
 )
 {
@@ -614,6 +616,7 @@ get_loader_factory
 (
 url
 :
+&
 Url
 )
 -
