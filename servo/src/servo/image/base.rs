@@ -16,7 +16,7 @@ stb_image
 stb_image
 :
 :
-image
+Image
 ;
 /
 /
@@ -46,7 +46,7 @@ Image
 stb_image
 :
 :
-image
+Image
 ;
 fn
 Image
@@ -72,10 +72,7 @@ u8
 >
 Image
 {
-stb_image
-:
-:
-image
+Image
 (
 width
 height
@@ -283,10 +280,7 @@ len
 (
 )
 ;
-stb_image
-:
-:
-image
+Image
 (
 image
 .
