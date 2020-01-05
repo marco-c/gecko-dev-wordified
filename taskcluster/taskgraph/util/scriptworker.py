@@ -1775,7 +1775,7 @@ beta
 '
 :
 '
-production
+rollout
 '
     
 '
@@ -1908,6 +1908,12 @@ project
     
 '
 release
+'
+:
+10
+    
+'
+beta
 '
 :
 10
