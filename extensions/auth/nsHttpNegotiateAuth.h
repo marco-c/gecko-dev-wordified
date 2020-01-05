@@ -248,14 +248,10 @@ nsCSubstring
 host
 int32_t
 port
+nsDependentCSubstring
 const
-char
-*
-baseStart
-const
-char
-*
-baseEnd
+&
+url
 )
 ;
 /
