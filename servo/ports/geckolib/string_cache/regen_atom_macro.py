@@ -255,7 +255,7 @@ use
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 nsIAtom
