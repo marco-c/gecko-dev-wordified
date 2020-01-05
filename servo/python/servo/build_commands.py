@@ -961,6 +961,39 @@ CommandArgument
 '
 -
 -
+features
+'
+                     
+default
+=
+None
+                     
+help
+=
+'
+Space
+-
+separated
+list
+of
+features
+to
+also
+build
+'
+                     
+nargs
+=
+'
++
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
 android
 '
                      
@@ -1087,6 +1120,9 @@ jobs
 =
 None
               
+features
+=
+None
 android
 =
 None
@@ -1124,15 +1160,17 @@ android
 "
 ]
         
-opts
+features
 =
-params
+features
 or
 [
 ]
         
-features
+opts
 =
+params
+or
 [
 ]
         
