@@ -1188,15 +1188,6 @@ use
 util
 :
 :
-prefs
-:
-:
-get_pref
-;
-use
-util
-:
-:
 str
 :
 :
