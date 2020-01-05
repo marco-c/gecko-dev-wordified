@@ -270,9 +270,12 @@ inline
 void
 freeAllAfterMinorGC
 (
-JSRuntime
+JS
+:
+:
+Zone
 *
-rt
+zone
 )
 ;
 #
