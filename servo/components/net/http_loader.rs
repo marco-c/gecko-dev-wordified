@@ -114,8 +114,8 @@ hsts
 :
 :
 {
-HSTSEntry
-HSTSList
+HstsEntry
+HstsList
 secure_url
 }
 ;
@@ -1167,7 +1167,7 @@ Arc
 <
 RwLock
 <
-HSTSList
+HstsList
 >
 >
 pub
@@ -1221,7 +1221,7 @@ RwLock
 :
 new
 (
-HSTSList
+HstsList
 :
 :
 new
@@ -3134,7 +3134,7 @@ Arc
 <
 RwLock
 <
-HSTSList
+HstsList
 >
 >
 )
@@ -3229,7 +3229,7 @@ Some
 entry
 )
 =
-HSTSEntry
+HstsEntry
 :
 :
 new
@@ -3973,7 +3973,7 @@ Arc
 <
 RwLock
 <
-HSTSList
+HstsList
 >
 >
 )
@@ -4585,7 +4585,7 @@ Arc
 <
 RwLock
 <
-HSTSList
+HstsList
 >
 >
 load_data
