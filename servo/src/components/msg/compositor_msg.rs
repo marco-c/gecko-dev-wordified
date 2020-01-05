@@ -378,11 +378,11 @@ new_layer
 (
 &
 self
+PipelineId
 Size2D
 <
 uint
 >
-uint
 )
 ;
 fn
@@ -390,6 +390,7 @@ resize_layer
 (
 &
 self
+PipelineId
 Size2D
 <
 uint
@@ -401,6 +402,7 @@ delete_layer
 (
 &
 self
+PipelineId
 )
 ;
 fn
@@ -419,12 +421,6 @@ arc
 ARC
 <
 LayerBufferSet
->
-new_size
-:
-Size2D
-<
-uint
 >
 )
 ;
