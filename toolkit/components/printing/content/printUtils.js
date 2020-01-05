@@ -3185,7 +3185,6 @@ print
 .
 use_global_printsettings
 "
-false
 )
 ;
 gSavePrintSettings
@@ -3199,7 +3198,6 @@ print
 .
 save_print_settings
 "
-false
 )
 ;
 }
