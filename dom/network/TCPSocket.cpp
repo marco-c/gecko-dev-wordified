@@ -5067,6 +5067,7 @@ mSocketInputStream
 0
 0
 false
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
