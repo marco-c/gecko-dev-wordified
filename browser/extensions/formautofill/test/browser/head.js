@@ -3,12 +3,12 @@
 exported
 MANAGE_PROFILES_DIALOG_URL
 EDIT_PROFILE_DIALOG_URL
-TEST_PROFILE_1
-TEST_PROFILE_2
-TEST_PROFILE_3
-getProfiles
-saveProfile
-removeProfiles
+TEST_ADDRESS_1
+TEST_ADDRESS_2
+TEST_ADDRESS_3
+getAddresses
+saveAddress
+removeAddresses
 *
 /
 "
@@ -51,7 +51,7 @@ xhtml
 "
 ;
 const
-TEST_PROFILE_1
+TEST_ADDRESS_1
 =
 {
 "
@@ -159,7 +159,7 @@ org
 }
 ;
 const
-TEST_PROFILE_2
+TEST_ADDRESS_2
 =
 {
 "
@@ -180,7 +180,7 @@ US
 }
 ;
 const
-TEST_PROFILE_3
+TEST_ADDRESS_3
 =
 {
 "
@@ -205,7 +205,7 @@ code
 }
 ;
 function
-getProfiles
+getAddresses
 (
 )
 {
@@ -226,7 +226,7 @@ addMessageListener
 "
 FormAutofill
 :
-Profiles
+Addresses
 "
 function
 getResult
@@ -243,7 +243,7 @@ removeMessageListener
 "
 FormAutofill
 :
-Profiles
+Addresses
 "
 getResult
 )
@@ -267,7 +267,7 @@ sendAsyncMessage
 "
 FormAutofill
 :
-GetProfiles
+GetAddresses
 "
 {
 }
@@ -278,9 +278,9 @@ GetProfiles
 ;
 }
 function
-saveProfile
+saveAddress
 (
-profile
+address
 )
 {
 Services
@@ -292,10 +292,10 @@ sendAsyncMessage
 "
 FormAutofill
 :
-SaveProfile
+SaveAddress
 "
 {
-profile
+address
 }
 )
 ;
@@ -315,7 +315,7 @@ changed
 ;
 }
 function
-removeProfiles
+removeAddresses
 (
 guids
 )
@@ -329,7 +329,7 @@ sendAsyncMessage
 "
 FormAutofill
 :
-RemoveProfiles
+RemoveAddresses
 "
 {
 guids

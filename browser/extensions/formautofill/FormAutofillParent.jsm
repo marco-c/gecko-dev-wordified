@@ -521,7 +521,7 @@ addMessageListener
 "
 FormAutofill
 :
-GetProfiles
+GetAddresses
 "
 this
 )
@@ -535,7 +535,7 @@ addMessageListener
 "
 FormAutofill
 :
-SaveProfile
+SaveAddress
 "
 this
 )
@@ -549,7 +549,7 @@ addMessageListener
 "
 FormAutofill
 :
-RemoveProfiles
+RemoveAddresses
 "
 this
 )
@@ -1204,13 +1204,13 @@ case
 "
 FormAutofill
 :
-GetProfiles
+GetAddresses
 "
 :
 {
 this
 .
-_getProfiles
+_getAddresses
 (
 data
 target
@@ -1223,7 +1223,7 @@ case
 "
 FormAutofill
 :
-SaveProfile
+SaveAddress
 "
 :
 {
@@ -1247,7 +1247,7 @@ data
 guid
 data
 .
-profile
+address
 )
 ;
 }
@@ -1263,7 +1263,7 @@ add
 (
 data
 .
-profile
+address
 )
 ;
 }
@@ -1274,7 +1274,7 @@ case
 "
 FormAutofill
 :
-RemoveProfiles
+RemoveAddresses
 "
 :
 {
@@ -1411,7 +1411,7 @@ removeMessageListener
 "
 FormAutofill
 :
-GetProfiles
+GetAddresses
 "
 this
 )
@@ -1425,7 +1425,7 @@ removeMessageListener
 "
 FormAutofill
 :
-SaveProfile
+SaveAddress
 "
 this
 )
@@ -1439,7 +1439,7 @@ removeMessageListener
 "
 FormAutofill
 :
-RemoveProfiles
+RemoveAddresses
 "
 this
 )
@@ -1477,17 +1477,18 @@ this
 *
 Get
 the
-profile
+address
 data
 from
 profile
 store
 and
 return
-profiles
+addresses
 back
 to
 content
+*
 process
 .
 *
@@ -1510,7 +1511,7 @@ filtering
 out
 the
 matched
-profile
+address
 .
 *
 param
@@ -1544,7 +1545,7 @@ manager
 .
 *
 /
-_getProfiles
+_getAddresses
 (
 {
 searchString
@@ -1554,7 +1555,7 @@ target
 )
 {
 let
-profiles
+addresses
 =
 [
 ]
@@ -1569,7 +1570,7 @@ info
 fieldName
 )
 {
-profiles
+addresses
 =
 this
 .
@@ -1586,7 +1587,7 @@ info
 }
 else
 {
-profiles
+addresses
 =
 this
 .
@@ -1604,9 +1605,9 @@ sendAsyncMessage
 "
 FormAutofill
 :
-Profiles
+Addresses
 "
-profiles
+addresses
 )
 ;
 }
@@ -1666,7 +1667,7 @@ getAll
 forEach
 (
 (
-profile
+address
 )
 =
 >
@@ -1675,7 +1676,7 @@ Object
 .
 keys
 (
-profile
+address
 )
 .
 forEach
@@ -1689,7 +1690,7 @@ fieldName
 if
 (
 !
-profile
+address
 [
 fieldName
 ]

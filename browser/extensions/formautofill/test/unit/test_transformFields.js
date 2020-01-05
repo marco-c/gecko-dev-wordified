@@ -75,9 +75,9 @@ description
 :
 "
 Empty
-profile
+address
 "
-profile
+address
 :
 {
 }
@@ -97,7 +97,7 @@ Has
 split
 names
 "
-profile
+address
 :
 {
 "
@@ -193,7 +193,7 @@ with
 single
 line
 "
-profile
+address
 :
 {
 "
@@ -247,7 +247,7 @@ with
 multiple
 lines
 "
-profile
+address
 :
 {
 "
@@ -328,7 +328,7 @@ line2
 is
 omitted
 "
-profile
+address
 :
 {
 "
@@ -404,7 +404,7 @@ with
 4
 lines
 "
-profile
+address
 :
 {
 "
@@ -484,9 +484,9 @@ description
 :
 "
 Empty
-profile
+address
 "
-profile
+address
 :
 {
 }
@@ -515,7 +515,7 @@ names
 are
 omitted
 "
-profile
+address
 :
 {
 "
@@ -579,7 +579,7 @@ and
 split
 names
 "
-profile
+address
 :
 {
 "
@@ -672,7 +672,7 @@ names
 are
 omitted
 "
-profile
+address
 :
 {
 "
@@ -744,7 +744,7 @@ address
 is
 omitted
 "
-profile
+address
 :
 {
 "
@@ -817,7 +817,7 @@ address
 \
 "
 "
-profile
+address
 :
 {
 "
@@ -899,7 +899,7 @@ address
 \
 "
 "
-profile
+address
 :
 {
 "
@@ -976,7 +976,7 @@ address
 \
 "
 "
-profile
+address
 :
 {
 "
@@ -1036,11 +1036,11 @@ line
 ]
 ;
 let
-do_check_profile_matches
+do_check_record_matches
 =
 (
-expectedProfile
-profile
+expectedRecord
+record
 )
 =
 >
@@ -1050,16 +1050,16 @@ for
 let
 key
 in
-expectedProfile
+expectedRecord
 )
 {
 do_check_eq
 (
-expectedProfile
+expectedRecord
 [
 key
 ]
-profile
+record
 [
 key
 ]
@@ -1119,7 +1119,7 @@ add
 (
 testcase
 .
-profile
+address
 )
 )
 ;
@@ -1146,7 +1146,7 @@ initialize
 )
 ;
 let
-profiles
+addresses
 =
 profileStorage
 .
@@ -1159,7 +1159,7 @@ for
 let
 i
 in
-profiles
+addresses
 )
 {
 do_print
@@ -1178,7 +1178,7 @@ i
 description
 )
 ;
-do_check_profile_matches
+do_check_record_matches
 (
 COMPUTE_TESTCASES
 [
@@ -1186,7 +1186,7 @@ i
 ]
 .
 expectedResult
-profiles
+addresses
 [
 i
 ]
@@ -1200,7 +1200,7 @@ add_task
 (
 function
 *
-test_normalizeProfile
+test_normalizeFields
 (
 )
 {
@@ -1243,7 +1243,7 @@ add
 (
 testcase
 .
-profile
+address
 )
 )
 ;
@@ -1270,7 +1270,7 @@ initialize
 )
 ;
 let
-profiles
+addresses
 =
 profileStorage
 .
@@ -1283,7 +1283,7 @@ for
 let
 i
 in
-profiles
+addresses
 )
 {
 do_print
@@ -1302,7 +1302,7 @@ i
 description
 )
 ;
-do_check_profile_matches
+do_check_record_matches
 (
 NORMALIZE_TESTCASES
 [
@@ -1310,7 +1310,7 @@ i
 ]
 .
 expectedResult
-profiles
+addresses
 [
 i
 ]
