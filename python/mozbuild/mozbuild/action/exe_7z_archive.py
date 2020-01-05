@@ -294,7 +294,7 @@ os
 chmod
 (
 package
-755
+0755
 )
 def
 main
