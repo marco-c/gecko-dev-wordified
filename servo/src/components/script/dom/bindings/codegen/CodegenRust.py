@@ -37604,7 +37604,10 @@ val
 JS_GetReservedSlot
 (
 obj
-0
+dom_object_slot
+(
+obj
+)
 )
 ;
 let

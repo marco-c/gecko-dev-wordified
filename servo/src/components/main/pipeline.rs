@@ -1218,7 +1218,7 @@ self
 .
 render_chan
 .
-send
+try_send
 (
 PaintPermissionGranted
 )
