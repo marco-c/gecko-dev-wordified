@@ -136,6 +136,7 @@ restyling
 .
 "
 ]
+pub
 flags
 RestyleDamage
 :
@@ -409,6 +410,7 @@ RECONSTRUCT_FLOW
 bitflags
 !
 {
+pub
 flags
 SpecialRestyleDamage
 :

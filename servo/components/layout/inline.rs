@@ -14329,6 +14329,7 @@ InlineFragmentNodeFlags
 bitflags
 !
 {
+pub
 flags
 InlineFragmentNodeFlags
 :

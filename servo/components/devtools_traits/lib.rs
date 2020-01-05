@@ -1410,6 +1410,7 @@ Deserialize
 Serialize
 )
 ]
+pub
 flags
 CachedConsoleMessageTypes
 :

@@ -233,6 +233,7 @@ unnecessary
 bitflags
 !
 {
+pub
 flags
 RestyleHint
 :

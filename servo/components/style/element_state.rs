@@ -79,6 +79,7 @@ derive
 HeapSizeOf
 )
 ]
+pub
 flags
 ElementState
 :

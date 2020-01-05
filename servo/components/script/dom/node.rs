@@ -1207,6 +1207,7 @@ JSTraceable
 HeapSizeOf
 )
 ]
+pub
 flags
 NodeFlags
 :

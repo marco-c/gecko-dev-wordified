@@ -3830,7 +3830,6 @@ FloatedBlockInfo
 Various
 flags
 .
-pub
 flags
 :
 BlockFlowFlags

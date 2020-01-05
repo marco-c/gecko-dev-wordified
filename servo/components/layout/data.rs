@@ -316,6 +316,7 @@ empty
 bitflags
 !
 {
+pub
 flags
 LayoutDataFlags
 :
