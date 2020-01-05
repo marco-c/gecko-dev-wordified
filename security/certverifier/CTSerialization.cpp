@@ -168,6 +168,16 @@ mozilla
 :
 pkix
 ;
+typedef
+mozilla
+:
+:
+pkix
+:
+:
+Result
+Result
+;
 /
 /
 Note

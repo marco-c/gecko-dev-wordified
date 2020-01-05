@@ -209,13 +209,6 @@ pkix
 :
 test
 ;
-using
-namespace
-mozilla
-:
-:
-psm
-;
 template
 <
 size_t
@@ -356,6 +349,12 @@ static
 void
 PutAndGet
 (
+mozilla
+:
+:
+psm
+:
+:
 OCSPCache
 &
 cache

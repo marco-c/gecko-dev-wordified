@@ -142,6 +142,16 @@ mozilla
 namespace
 psm
 {
+typedef
+mozilla
+:
+:
+pkix
+:
+:
+Result
+Result
+;
 class
 OCSPVerificationTrustDomain
 :
