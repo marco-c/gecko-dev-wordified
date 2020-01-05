@@ -94,8 +94,11 @@ separators
 :
 '
 )
-             
 strict
+=
+True
+             
+handle_defaults
 =
 True
 )
@@ -198,6 +201,17 @@ be
 strict
 about
 parsing
+    
+-
+handle_defaults
+:
+whether
+to
+incorporate
+defaults
+into
+each
+section
     
 "
 "
@@ -819,9 +833,20 @@ variables
 ]
     
 #
-interpret
+Interpret
 the
 variables
+in
+the
+context
+of
+inherited
+defaults
+if
+    
+#
+requested
+.
     
 def
 interpret_variables
@@ -830,6 +855,14 @@ global_dict
 local_dict
 )
 :
+        
+if
+not
+handle_defaults
+:
+            
+return
+local_dict
         
 variables
 =

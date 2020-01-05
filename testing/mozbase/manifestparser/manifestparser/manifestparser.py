@@ -258,6 +258,9 @@ None
 finder
 =
 None
+handle_defaults
+=
+True
 )
 :
         
@@ -466,6 +469,46 @@ mozpack
 .
 files
         
+:
+param
+handle_defaults
+:
+If
+not
+set
+do
+not
+propagate
+manifest
+defaults
+to
+individual
+                                
+test
+objects
+.
+Callers
+are
+expected
+to
+manage
+per
+-
+manifest
+                                
+defaults
+themselves
+via
+the
+manifest_defaults
+member
+                                
+variable
+in
+this
+case
+.
+        
 "
 "
 "
@@ -523,6 +566,12 @@ self
 finder
 =
 finder
+        
+self
+.
+_handle_defaults
+=
+handle_defaults
         
 if
 manifests
@@ -1041,6 +1090,12 @@ strict
 self
 .
 strict
+                            
+handle_defaults
+=
+self
+.
+_handle_defaults
 )
         
 self
