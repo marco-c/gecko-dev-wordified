@@ -278,6 +278,10 @@ Content
 .
 panelContent
 {
+direction
+:
+ltr
+;
 overflow
 -
 y
