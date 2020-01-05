@@ -1514,6 +1514,12 @@ Serialize
 BlobImpl
 *
 aBlobImpl
+mozilla
+:
+:
+ipc
+:
+:
 PBackgroundChild
 *
 aManager
@@ -1542,6 +1548,12 @@ Serialize
 BlobImpl
 *
 aBlobImpl
+mozilla
+:
+:
+ipc
+:
+:
 PBackgroundParent
 *
 aManager
