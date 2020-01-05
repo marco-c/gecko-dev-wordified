@@ -453,7 +453,6 @@ pub
 struct
 Attr
 {
-pub
 reflector_
 :
 Reflector
@@ -495,7 +494,6 @@ owns
 this
 attribute
 .
-pub
 owner
 :
 Cell

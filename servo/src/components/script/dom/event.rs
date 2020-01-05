@@ -316,7 +316,6 @@ pub
 type_id
 :
 EventTypeId
-pub
 reflector_
 :
 Reflector
@@ -445,7 +444,6 @@ Cell
 bool
 >
 >
-pub
 timestamp
 :
 u64

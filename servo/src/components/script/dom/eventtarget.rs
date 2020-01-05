@@ -405,7 +405,6 @@ pub
 type_id
 :
 EventTargetTypeId
-pub
 reflector_
 :
 Reflector

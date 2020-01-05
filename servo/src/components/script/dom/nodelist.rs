@@ -164,15 +164,12 @@ pub
 struct
 NodeList
 {
-pub
 list_type
 :
 NodeListType
-pub
 reflector_
 :
 Reflector
-pub
 window
 :
 JS

@@ -305,15 +305,12 @@ pub
 struct
 HTMLCollection
 {
-pub
 collection
 :
 CollectionTypeId
-pub
 reflector_
 :
 Reflector
-pub
 window
 :
 JS

@@ -267,7 +267,6 @@ pub
 struct
 FormData
 {
-pub
 data
 :
 Traceable
@@ -284,18 +283,15 @@ FormDatum
 >
 >
 >
-pub
 reflector_
 :
 Reflector
-pub
 window
 :
 JS
 <
 Window
 >
-pub
 form
 :
 Option

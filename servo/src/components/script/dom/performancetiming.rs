@@ -122,15 +122,12 @@ pub
 struct
 PerformanceTiming
 {
-pub
 reflector_
 :
 Reflector
-pub
 navigationStart
 :
 u64
-pub
 navigationStartPrecise
 :
 f64

@@ -132,11 +132,9 @@ pub
 struct
 ClientRectList
 {
-pub
 reflector_
 :
 Reflector
-pub
 rects
 :
 Vec
@@ -146,7 +144,6 @@ JS
 ClientRect
 >
 >
-pub
 window
 :
 JS

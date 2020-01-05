@@ -132,11 +132,9 @@ pub
 struct
 ValidityState
 {
-pub
 reflector_
 :
 Reflector
-pub
 window
 :
 Cell
@@ -146,7 +144,6 @@ JS
 Window
 >
 >
-pub
 state
 :
 u8

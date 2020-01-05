@@ -212,7 +212,6 @@ pub
 event
 :
 Event
-pub
 view
 :
 Cell
@@ -225,7 +224,6 @@ Window
 >
 >
 >
-pub
 detail
 :
 Traceable
