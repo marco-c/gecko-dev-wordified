@@ -1903,7 +1903,7 @@ begin
 fragment_index
 range
 .
-length
+end
 (
 )
 .
@@ -1944,7 +1944,7 @@ begin
 char_index
 range
 .
-length
+end
 (
 )
 .
