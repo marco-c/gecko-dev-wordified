@@ -8861,7 +8861,7 @@ nullptr
 ;
 nsDataHashtable
 <
-nsPtrHashKey
+nsRefPtrHashKey
 <
 DOMIntersectionObserver
 >

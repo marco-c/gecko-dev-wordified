@@ -7771,9 +7771,9 @@ Array
 of
 intersection
 observers
-nsTArray
+nsTHashtable
 <
-RefPtr
+nsPtrHashKey
 <
 mozilla
 :
