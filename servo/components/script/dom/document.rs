@@ -12300,6 +12300,7 @@ averse
 document
 -
 object
+pub
 fn
 is_cookie_averse
 (
