@@ -161,7 +161,7 @@ l10n
 ;
 const
 {
-getDisplayedRequestsSummary
+getSummary
 }
 =
 require
@@ -196,8 +196,8 @@ triggerSummary
 let
 {
 count
-bytes
-millis
+totalBytes
+totalMillis
 }
 =
 summary
@@ -260,7 +260,7 @@ L10N
 .
 numberWithDecimals
 (
-bytes
+totalBytes
 /
 1024
 CONTENT_SIZE_DECIMALS
@@ -277,7 +277,7 @@ L10N
 .
 numberWithDecimals
 (
-millis
+totalMillis
 /
 1000
 REQUEST_TIME_DECIMALS
@@ -391,7 +391,7 @@ state
 {
 summary
 :
-getDisplayedRequestsSummary
+getSummary
 (
 state
 )

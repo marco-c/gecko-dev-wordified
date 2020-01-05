@@ -159,7 +159,7 @@ all
 true
 }
 )
-text
+url
 :
 "
 "
@@ -409,11 +409,11 @@ state
 set
 (
 "
-text
+url
 "
 action
 .
-text
+url
 )
 ;
 default

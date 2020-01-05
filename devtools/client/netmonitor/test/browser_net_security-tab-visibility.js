@@ -366,6 +366,8 @@ RequestsMenu
 .
 selectedItem
 .
+attachment
+.
 securityState
 undefined
 "
@@ -467,6 +469,8 @@ ok
 RequestsMenu
 .
 selectedItem
+.
+attachment
 .
 securityState
 "

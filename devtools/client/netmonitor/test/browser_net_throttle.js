@@ -180,7 +180,9 @@ uploadBPSMax
 let
 client
 =
-NetMonitorController
+monitor
+.
+_controller
 .
 webConsoleClient
 ;
@@ -271,6 +273,8 @@ const
 reportedOneSecond
 =
 requestItem
+.
+attachment
 .
 eventTimings
 .

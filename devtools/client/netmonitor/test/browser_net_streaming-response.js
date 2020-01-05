@@ -246,7 +246,6 @@ i
 verifyRequestItemTarget
 (
 RequestsMenu
-RequestsMenu
 .
 getItemAtIndex
 (
