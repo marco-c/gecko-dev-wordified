@@ -2292,7 +2292,7 @@ cx
 ;
 inline
 TokenStream
-*
+&
 tokenStream
 (
 )
