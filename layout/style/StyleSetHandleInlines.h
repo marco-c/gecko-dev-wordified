@@ -449,7 +449,7 @@ aParentContext
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext
-&
+*
 aTreeMatchContext
 )
 {
@@ -460,6 +460,11 @@ IsGecko
 )
 )
 {
+MOZ_ASSERT
+(
+aTreeMatchContext
+)
+;
 return
 AsGecko
 (
@@ -471,6 +476,7 @@ ResolveStyleFor
 aElement
 aParentContext
 aMayCompute
+*
 aTreeMatchContext
 )
 ;
@@ -1195,7 +1201,7 @@ nsStyleContext
 *
 aParentContext
 TreeMatchContext
-&
+*
 aTreeMatchContext
 dom
 :
@@ -1212,6 +1218,11 @@ IsGecko
 )
 )
 {
+MOZ_ASSERT
+(
+aTreeMatchContext
+)
+;
 return
 AsGecko
 (
@@ -1223,6 +1234,7 @@ ProbePseudoElementStyle
 aParentElement
 aType
 aParentContext
+*
 aTreeMatchContext
 aPseudoElement
 )

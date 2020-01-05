@@ -21960,6 +21960,7 @@ TreeMatchContext
 AutoAncestorPusher
 pusher
 (
+&
 mTreeMatchContext
 )
 ;
@@ -22146,6 +22147,7 @@ TreeMatchContext
 AutoAncestorPusher
 insertionPointPusher
 (
+&
 mTreeMatchContext
 )
 ;
@@ -23424,6 +23426,7 @@ TreeMatchContext
 AutoAncestorPusher
 ancestorPusher
 (
+&
 mTreeMatchContext
 )
 ;
@@ -23636,6 +23639,7 @@ TreeMatchContext
 AutoAncestorPusher
 insertionPointPusher
 (
+&
 mTreeMatchContext
 )
 ;
