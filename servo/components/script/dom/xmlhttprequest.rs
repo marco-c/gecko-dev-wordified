@@ -4800,7 +4800,7 @@ r
 get_url
 (
 )
-referer_url
+referrer_url
 :
 self
 .

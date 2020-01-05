@@ -12519,7 +12519,7 @@ to_vec
 }
 }
 fn
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 origin_info
 :
@@ -12582,7 +12582,7 @@ origin_info
 ;
 let
 mut
-referer_headers
+referrer_headers
 =
 Headers
 :
@@ -12591,7 +12591,7 @@ new
 (
 )
 ;
-referer_headers
+referrer_headers
 .
 set
 (
@@ -12636,7 +12636,7 @@ AssertMustIncludeHeadersRequestFactory
 {
 expected_headers
 :
-referer_headers
+referrer_headers
 body
 :
 <
@@ -12671,7 +12671,7 @@ None
 ;
 }
 fn
-assert_referer_header_not_included
+assert_referrer_header_not_included
 (
 origin_info
 :
@@ -12808,7 +12808,7 @@ None
 test
 ]
 fn
-test_referer_set_to_origin_with_origin_policy
+test_referrer_set_to_origin_with_origin_policy
 (
 )
 {
@@ -12885,7 +12885,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -12899,7 +12899,7 @@ expected_referrer
 test
 ]
 fn
-test_referer_set_to_ref_url_with_sameorigin_policy_same_orig
+test_referrer_set_to_ref_url_with_sameorigin_policy_same_orig
 (
 )
 {
@@ -12979,7 +12979,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -12993,7 +12993,7 @@ expected_referrer
 test
 ]
 fn
-test_no_referer_set_with_sameorigin_policy_cross_orig
+test_no_referrer_set_with_sameorigin_policy_cross_orig
 (
 )
 {
@@ -13056,7 +13056,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_not_included
+assert_referrer_header_not_included
 (
 &
 origin_info
@@ -13069,7 +13069,7 @@ request_url
 test
 ]
 fn
-test_referer_set_to_stripped_url_with_unsafeurl_policy
+test_referrer_set_to_stripped_url_with_unsafeurl_policy
 (
 )
 {
@@ -13149,7 +13149,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13163,7 +13163,7 @@ expected_referrer
 test
 ]
 fn
-test_referer_with_originwhencrossorigin_policy_cross_orig
+test_referrer_with_originwhencrossorigin_policy_cross_orig
 (
 )
 {
@@ -13240,7 +13240,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13254,7 +13254,7 @@ expected_referrer
 test
 ]
 fn
-test_referer_with_originwhencrossorigin_policy_same_orig
+test_referrer_with_originwhencrossorigin_policy_same_orig
 (
 )
 {
@@ -13334,7 +13334,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13348,7 +13348,7 @@ expected_referrer
 test
 ]
 fn
-test_http_to_https_considered_cross_origin_for_referer_header_logic
+test_http_to_https_considered_cross_origin_for_referrer_header_logic
 (
 )
 {
@@ -13420,7 +13420,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13434,7 +13434,7 @@ expected_referrer
 test
 ]
 fn
-test_referer_set_to_ref_url_with_noreferrerwhendowngrade_policy_https_to_https
+test_referrer_set_to_ref_url_with_noreferrerwhendowngrade_policy_https_to_https
 (
 )
 {
@@ -13514,7 +13514,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13528,7 +13528,7 @@ expected_referrer
 test
 ]
 fn
-test_no_referer_set_with_noreferrerwhendowngrade_policy_https_to_http
+test_no_referrer_set_with_noreferrerwhendowngrade_policy_https_to_http
 (
 )
 {
@@ -13591,7 +13591,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_not_included
+assert_referrer_header_not_included
 (
 &
 origin_info
@@ -13603,7 +13603,7 @@ request_url
 test
 ]
 fn
-test_referer_set_to_ref_url_with_noreferrerwhendowngrade_policy_http_to_https
+test_referrer_set_to_ref_url_with_noreferrerwhendowngrade_policy_http_to_https
 (
 )
 {
@@ -13683,7 +13683,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13697,7 +13697,7 @@ expected_referrer
 test
 ]
 fn
-test_referer_set_to_ref_url_with_noreferrerwhendowngrade_policy_http_to_http
+test_referrer_set_to_ref_url_with_noreferrerwhendowngrade_policy_http_to_http
 (
 )
 {
@@ -13777,7 +13777,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13865,7 +13865,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -13936,7 +13936,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_not_included
+assert_referrer_header_not_included
 (
 &
 origin_info
@@ -14023,7 +14023,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -14111,7 +14111,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_matches
+assert_referrer_header_matches
 (
 &
 origin_info
@@ -14125,7 +14125,7 @@ expected_referrer
 test
 ]
 fn
-test_no_referer_set_with_noreferrer_policy
+test_no_referrer_set_with_noreferrer_policy
 (
 )
 {
@@ -14179,7 +14179,7 @@ referrer_policy
 referrer_policy
 }
 ;
-assert_referer_header_not_included
+assert_referrer_header_not_included
 (
 &
 origin_info

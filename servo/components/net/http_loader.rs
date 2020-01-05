@@ -4915,7 +4915,7 @@ if
 let
 Some
 (
-referer_val
+referrer_val
 )
 =
 referrer_url
@@ -4930,7 +4930,7 @@ set
 (
 Referer
 (
-referer_val
+referrer_val
 .
 into_string
 (
