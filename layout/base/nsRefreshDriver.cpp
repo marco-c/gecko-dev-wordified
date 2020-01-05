@@ -3143,8 +3143,9 @@ private
 RefreshDriverVsyncObserver
 (
 )
-{
-}
+=
+default
+;
 void
 RecordTelemetryProbes
 (
@@ -5106,8 +5107,9 @@ virtual
 VsyncChildCreateCallback
 (
 )
-{
-}
+=
+default
+;
 void
 ActorCreated
 (
