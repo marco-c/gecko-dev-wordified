@@ -2913,6 +2913,7 @@ GetCDMProxy
 LoadSession
 (
 pid
+mSessionType
 aSessionId
 )
 ;
