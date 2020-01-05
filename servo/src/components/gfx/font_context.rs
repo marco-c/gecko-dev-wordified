@@ -316,6 +316,10 @@ template
 .
 ctfont
 .
+get_ref
+(
+)
+.
 copy_to_CGFont
 (
 )

@@ -995,6 +995,11 @@ FontCacheTask
 :
 new
 (
+resource_task
+.
+clone
+(
+)
 )
 ;
 let
