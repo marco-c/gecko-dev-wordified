@@ -1722,6 +1722,17 @@ useAtStart
 false
 )
 ;
+inline
+LInt64Allocation
+useInt64FixedAtStart
+(
+MDefinition
+*
+mir
+Register64
+regs
+)
+;
 LInt64Allocation
 useInt64RegisterAtStart
 (
