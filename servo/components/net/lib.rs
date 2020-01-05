@@ -186,6 +186,10 @@ collections
 ;
 extern
 crate
+flate2
+;
+extern
+crate
 geom
 ;
 extern
