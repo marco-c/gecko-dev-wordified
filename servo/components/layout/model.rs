@@ -3027,9 +3027,6 @@ self
 -
 >
 Matrix4
-<
-f32
->
 ;
 }
 impl
@@ -3046,9 +3043,6 @@ self
 -
 >
 Matrix4
-<
-f32
->
 {
 Matrix4
 {
