@@ -481,6 +481,8 @@ mut
 rules
 &
 namespaces
+&
+base_url
 )
 }
 AtRule
@@ -672,6 +674,8 @@ mut
 rules
 &
 namespaces
+&
+base_url
 )
 }
 }
@@ -718,6 +722,10 @@ namespaces
 :
 &
 NamespaceMap
+base_url
+:
+&
+Url
 )
 {
 let
@@ -798,6 +806,7 @@ block
 move_iter
 (
 )
+base_url
 )
 }
 )
@@ -860,6 +869,10 @@ namespaces
 :
 &
 NamespaceMap
+base_url
+:
+&
+Url
 )
 {
 match
@@ -875,6 +888,7 @@ parse_media_rule
 rule
 parent_rules
 namespaces
+base_url
 )
 _
 =

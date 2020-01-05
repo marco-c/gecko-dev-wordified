@@ -106,6 +106,15 @@ namespaces
 :
 NamespaceMap
 ;
+use
+extra
+:
+:
+url
+:
+:
+Url
+;
 pub
 struct
 MediaRule
@@ -251,6 +260,10 @@ namespaces
 :
 &
 NamespaceMap
+base_url
+:
+&
+Url
 )
 {
 let
@@ -337,6 +350,7 @@ rule
 mut
 rules
 namespaces
+base_url
 )
 AtRule
 (
@@ -358,6 +372,7 @@ rule
 mut
 rules
 namespaces
+base_url
 )
 }
 }
