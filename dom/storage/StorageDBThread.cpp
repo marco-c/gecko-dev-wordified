@@ -337,7 +337,7 @@ schema
 #
 define
 CURRENT_SCHEMA_VERSION
-1
+2
 namespace
 mozilla
 {
