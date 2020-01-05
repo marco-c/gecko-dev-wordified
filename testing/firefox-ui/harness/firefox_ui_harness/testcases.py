@@ -361,36 +361,6 @@ pop
 update_target_version
 '
 )
-        
-#
-Bug
-604364
--
-Preparation
-to
-test
-multiple
-update
-steps
-        
-self
-.
-current_update_index
-=
-0
-        
-self
-.
-download_duration
-=
-None
-        
-self
-.
-updates
-=
-[
-]
     
 def
 setUp
@@ -422,6 +392,12 @@ self
 .
 marionette
 )
+        
+self
+.
+download_duration
+=
+None
         
 #
 If
@@ -650,9 +626,8 @@ update
         
 self
 .
-updates
+update_status
 =
-[
 {
             
 '
@@ -691,7 +666,6 @@ success
 False
         
 }
-]
         
 #
 Check
@@ -775,12 +749,7 @@ update
             
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
+update_status
 [
 '
 update_log
@@ -812,7 +781,7 @@ pformat
 (
 self
 .
-updates
+update_status
 )
             
 self
@@ -1126,18 +1095,9 @@ correctly
 "
 "
         
-update
-=
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
-        
-update
+update_status
 [
 '
 build_post
@@ -1206,7 +1166,9 @@ release
 format
 (
                                  
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1304,7 +1266,9 @@ arguments
 script_args
 =
 [
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1315,7 +1279,10 @@ build_post
 version
 '
 ]
-update
+                              
+self
+.
+update_status
 [
 '
 build_pre
@@ -1376,7 +1343,9 @@ self
 .
 assertEqual
 (
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1411,7 +1380,9 @@ self
 .
 assertEqual
 (
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1422,7 +1393,10 @@ build_post
 buildid
 '
 ]
-update
+                             
+self
+.
+update_status
 [
 '
 patch
@@ -1461,7 +1435,9 @@ self
 .
 assertEqual
 (
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1491,7 +1467,9 @@ self
 .
 assertEqual
 (
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1502,7 +1480,10 @@ build_post
 locale
 '
 ]
-update
+                             
+self
+.
+update_status
 [
 '
 build_pre
@@ -1533,7 +1514,9 @@ self
 .
 assertEqual
 (
-update
+self
+.
+update_status
 [
 '
 build_post
@@ -1545,7 +1528,9 @@ disabled_addons
 '
 ]
                              
-update
+self
+.
+update_status
 [
 '
 build_pre
@@ -1558,7 +1543,9 @@ disabled_addons
 ]
 )
             
-update
+self
+.
+update_status
 [
 '
 success
@@ -2307,12 +2294,7 @@ finally
             
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
+update_status
 [
 '
 patch
@@ -2442,12 +2424,7 @@ used
 if
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
+update_status
 [
 '
 patch
@@ -2568,12 +2545,7 @@ about_window
                     
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
+update_status
 [
 '
 patch
@@ -2626,12 +2598,7 @@ finally
                 
 self
 .
-updates
-[
-self
-.
-current_update_index
-]
+update_status
 [
 '
 patch
