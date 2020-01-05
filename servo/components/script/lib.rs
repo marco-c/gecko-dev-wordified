@@ -91,13 +91,9 @@ const_fn
 #
 !
 [
-cfg_attr
-(
-debug_assertions
 feature
 (
 core_intrinsics
-)
 )
 ]
 #
