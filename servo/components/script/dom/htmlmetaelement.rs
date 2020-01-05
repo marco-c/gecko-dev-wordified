@@ -229,6 +229,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 std
 :
 :
@@ -715,7 +721,13 @@ Arc
 :
 new
 (
+RwLock
+:
+:
+new
+(
 translated_rule
+)
 )
 )
 ]
