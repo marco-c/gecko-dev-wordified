@@ -532,6 +532,8 @@ void
 *
 *
 aPluginAPI
+uint32_t
+aDecryptorId
 )
 {
 Log
