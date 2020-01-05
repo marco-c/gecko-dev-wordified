@@ -410,8 +410,11 @@ DocumentFragment
 :
 new
 (
-*
 document
+.
+r
+(
+)
 )
 )
 }
@@ -479,8 +482,11 @@ HTMLCollection
 :
 children
 (
-*
 window
+.
+r
+(
+)
 NodeCast
 :
 :

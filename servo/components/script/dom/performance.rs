@@ -377,6 +377,10 @@ root
 (
 )
 .
+r
+(
+)
+.
 NavigationStartPrecise
 (
 )

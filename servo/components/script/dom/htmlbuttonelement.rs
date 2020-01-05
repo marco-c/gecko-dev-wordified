@@ -462,8 +462,11 @@ ValidityState
 :
 new
 (
-*
 window
+.
+r
+(
+)
 )
 }
 /

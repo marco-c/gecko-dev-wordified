@@ -364,8 +364,11 @@ EventCast
 :
 from_ref
 (
-*
 ev
+.
+r
+(
+)
 )
 ;
 event
@@ -382,8 +385,11 @@ Temporary
 :
 from_rooted
 (
-*
 ev
+.
+r
+(
+)
 )
 }
 pub

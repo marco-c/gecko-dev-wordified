@@ -385,6 +385,10 @@ root
 ;
 ev
 .
+r
+(
+)
+.
 InitCustomEvent
 (
 global
@@ -403,8 +407,11 @@ Temporary
 :
 from_rooted
 (
-*
 ev
+.
+r
+(
+)
 )
 }
 pub

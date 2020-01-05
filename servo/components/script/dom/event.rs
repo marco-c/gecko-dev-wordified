@@ -613,6 +613,10 @@ root
 ;
 event
 .
+r
+(
+)
+.
 InitEvent
 (
 type_
@@ -637,8 +641,11 @@ Temporary
 :
 from_rooted
 (
-*
 event
+.
+r
+(
+)
 )
 }
 pub

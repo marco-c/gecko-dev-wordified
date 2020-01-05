@@ -510,6 +510,10 @@ e
 |
 e
 .
+r
+(
+)
+.
 value
 (
 )
@@ -1017,6 +1021,15 @@ self
 )
 .
 root
+(
+)
+;
+let
+window
+=
+window
+.
+r
 (
 )
 ;

@@ -595,6 +595,10 @@ root
 ;
 ev
 .
+r
+(
+)
+.
 InitMouseEvent
 (
 type_
@@ -619,8 +623,11 @@ Temporary
 :
 from_rooted
 (
-*
 ev
+.
+r
+(
+)
 )
 }
 pub
@@ -692,7 +699,7 @@ parent
 .
 view
 .
-root_ref
+r
 (
 )
 init
@@ -741,7 +748,7 @@ init
 .
 relatedTarget
 .
-root_ref
+r
 (
 )
 )

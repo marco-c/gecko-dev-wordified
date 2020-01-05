@@ -673,8 +673,11 @@ NodeCast
 :
 from_ref
 (
-*
 htmlelem_root
+.
+r
+(
+)
 )
 ;
 assert

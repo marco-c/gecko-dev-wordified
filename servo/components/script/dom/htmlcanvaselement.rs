@@ -722,8 +722,11 @@ GlobalRef
 :
 Window
 (
-*
 window
+.
+r
+(
+)
 )
 self
 Size2D
@@ -949,6 +952,10 @@ root
 (
 )
 .
+r
+(
+)
+.
 recreate
 (
 Size2D
@@ -1154,6 +1161,10 @@ context
 context
 .
 root
+(
+)
+.
+r
 (
 )
 .

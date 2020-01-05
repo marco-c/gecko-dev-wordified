@@ -612,8 +612,11 @@ HTMLCollection
 :
 create
 (
-*
 window
+.
+r
+(
+)
 node
 filter
 )
@@ -647,8 +650,11 @@ ValidityState
 :
 new
 (
-*
 window
+.
+r
+(
+)
 )
 }
 /

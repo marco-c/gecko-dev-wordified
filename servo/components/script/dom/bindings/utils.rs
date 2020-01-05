@@ -4048,6 +4048,10 @@ root
 ;
 win
 .
+r
+(
+)
+.
 browser_context
 (
 )

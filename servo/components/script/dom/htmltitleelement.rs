@@ -696,6 +696,10 @@ root
 ;
 document
 .
+r
+(
+)
+.
 send_title_to_compositor
 (
 )

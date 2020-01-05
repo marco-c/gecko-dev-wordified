@@ -483,8 +483,11 @@ ValidityState
 :
 new
 (
-*
 window
+.
+r
+(
+)
 )
 }
 /

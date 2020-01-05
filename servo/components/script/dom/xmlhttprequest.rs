@@ -1565,6 +1565,10 @@ root
 ;
 xhr
 .
+r
+(
+)
+.
 process_partial_response
 (
 progress
@@ -2676,7 +2680,7 @@ root
 (
 )
 .
-root_ref
+r
 (
 )
 .
@@ -3869,7 +3873,6 @@ Step
 let
 upload_target
 =
-*
 self
 .
 upload
@@ -3892,6 +3895,10 @@ EventTargetCast
 from_ref
 (
 upload_target
+.
+r
+(
+)
 )
 ;
 if
@@ -4063,7 +4070,7 @@ resource_task
 =
 global
 .
-root_ref
+r
 (
 )
 .
@@ -4475,7 +4482,7 @@ root
 (
 )
 .
-root_ref
+r
 (
 )
 .
@@ -4854,7 +4861,7 @@ script_chan
 =
 global
 .
-root_ref
+r
 (
 )
 .
@@ -4924,7 +4931,7 @@ root
 (
 )
 .
-root_ref
+r
 (
 )
 .
@@ -6006,7 +6013,7 @@ new
 (
 global
 .
-root_ref
+r
 (
 )
 "
@@ -6050,8 +6057,11 @@ target
 .
 dispatch_event
 (
-*
 event
+.
+r
+(
+)
 )
 ;
 }
@@ -7080,7 +7090,6 @@ root
 let
 upload_target
 =
-*
 self
 .
 upload
@@ -7099,7 +7108,7 @@ new
 (
 global
 .
-root_ref
+r
 (
 )
 type_
@@ -7140,6 +7149,10 @@ EventTargetCast
 from_ref
 (
 upload_target
+.
+r
+(
+)
 )
 }
 else
@@ -7166,8 +7179,11 @@ EventCast
 :
 from_ref
 (
-*
 progressevent
+.
+r
+(
+)
 )
 ;
 target
@@ -8036,6 +8052,10 @@ usp
 usp
 .
 root
+(
+)
+.
+r
 (
 )
 .
