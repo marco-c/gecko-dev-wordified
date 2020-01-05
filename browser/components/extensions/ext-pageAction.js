@@ -88,7 +88,7 @@ jsm
 ;
 var
 {
-EventManager
+SingletonEventManager
 IconDetails
 }
 =
@@ -1752,7 +1752,7 @@ pageAction
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1775,6 +1775,8 @@ tab
 >
 {
 fire
+.
+async
 (
 TabManager
 .

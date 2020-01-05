@@ -203,7 +203,7 @@ jsm
 ;
 var
 {
-EventManager
+SingletonEventManager
 IconDetails
 }
 =
@@ -3102,7 +3102,7 @@ browserAction
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -3130,6 +3130,8 @@ TabManager
 activeTab
 ;
 fire
+.
+async
 (
 TabManager
 .
