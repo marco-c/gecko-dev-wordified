@@ -602,6 +602,12 @@ dropReference
 (
 )
 ;
+static
+int32_t
+liveBuffers
+(
+)
+;
 }
 ;
 /
