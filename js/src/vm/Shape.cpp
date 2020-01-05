@@ -627,6 +627,16 @@ listp
 =
 nullptr
 ;
+obj
+-
+>
+shape_
+-
+>
+clearCachedBigEnoughForShapeTable
+(
+)
+;
 }
 void
 Shape
