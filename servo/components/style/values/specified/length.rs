@@ -9899,6 +9899,10 @@ pub
 fn
 parse_non_negative
 (
+_context
+:
+&
+ParserContext
 input
 :
 &
