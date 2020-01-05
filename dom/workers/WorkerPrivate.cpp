@@ -1616,6 +1616,7 @@ rv2
 }
 ;
 struct
+MOZ_RAII
 WindowAction
 {
 nsPIDOMWindowInner
