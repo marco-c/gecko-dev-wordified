@@ -433,6 +433,7 @@ Navigate
 SameOrigin
 NoCors
 CorsMode
+WebSocket
 }
 /
 /
