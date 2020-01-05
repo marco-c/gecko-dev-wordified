@@ -638,6 +638,10 @@ self
 .
 worker_url
 .
+deref
+(
+)
+.
 clone
 (
 )
@@ -846,6 +850,10 @@ match
 self
 .
 js_context
+.
+deref
+(
+)
 .
 evaluate_script
 (

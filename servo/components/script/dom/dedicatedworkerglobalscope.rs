@@ -880,6 +880,10 @@ global
 .
 receiver
 .
+deref
+(
+)
+.
 recv_opt
 (
 )

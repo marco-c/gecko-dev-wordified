@@ -376,6 +376,10 @@ self
 .
 renderer
 .
+deref
+(
+)
+.
 send
 (
 Recreate
@@ -471,6 +475,10 @@ self
 .
 renderer
 .
+deref
+(
+)
+.
 send
 (
 FillRect
@@ -528,6 +536,10 @@ self
 .
 renderer
 .
+deref
+(
+)
+.
 send
 (
 ClearRect
@@ -584,6 +596,10 @@ f32
 self
 .
 renderer
+.
+deref
+(
+)
 .
 send
 (
