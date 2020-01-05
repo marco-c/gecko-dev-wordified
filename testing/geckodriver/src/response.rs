@@ -21,7 +21,7 @@ Nullable
 ;
 #
 [
-deriving
+derive
 (
 Show
 )
@@ -95,7 +95,7 @@ DeleteSession
 "
 "
 .
-into_string
+to_string
 (
 )
 WebDriverResponse
@@ -175,7 +175,7 @@ Void
 "
 "
 .
-into_string
+to_string
 (
 )
 }
@@ -183,7 +183,7 @@ into_string
 }
 #
 [
-deriving
+derive
 (
 Encodable
 Show
@@ -237,7 +237,7 @@ session_id
 }
 #
 [
-deriving
+derive
 (
 Encodable
 Show
@@ -282,7 +282,7 @@ value
 }
 #
 [
-deriving
+derive
 (
 Encodable
 Show
@@ -330,7 +330,7 @@ height
 }
 #
 [
-deriving
+derive
 (
 Encodable
 Show
@@ -396,7 +396,7 @@ height
 }
 #
 [
-deriving
+derive
 (
 Encodable
 PartialEq
@@ -481,7 +481,7 @@ be
 optional
 #
 [
-deriving
+derive
 (
 Encodable
 PartialEq
@@ -602,7 +602,7 @@ http_only
 }
 #
 [
-deriving
+derive
 (
 Encodable
 Show
