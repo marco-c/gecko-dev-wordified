@@ -1620,7 +1620,7 @@ config_dir
 :
 Option
 <
-String
+PathBuf
 >
 /
 /
@@ -7391,6 +7391,14 @@ config
 -
 dir
 "
+)
+.
+map
+(
+Into
+:
+:
+into
 )
 full_backtraces
 :
