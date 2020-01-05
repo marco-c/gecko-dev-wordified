@@ -1457,7 +1457,12 @@ TransactionIdAllocator
 aAllocator
 )
 override
+{
+mTransactionIdAllocator
+=
+aAllocator
 ;
+}
 virtual
 uint64_t
 GetLastTransactionId

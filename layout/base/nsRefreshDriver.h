@@ -2008,12 +2008,6 @@ aTransactionId
 )
 override
 ;
-void
-ClearPendingTransactions
-(
-)
-override
-;
 mozilla
 :
 :
