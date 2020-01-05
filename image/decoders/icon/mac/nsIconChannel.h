@@ -176,6 +176,13 @@ nsIURI
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 class
 nsIFile
 ;

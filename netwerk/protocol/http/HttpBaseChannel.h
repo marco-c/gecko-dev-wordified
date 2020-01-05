@@ -769,6 +769,15 @@ aLoadInfo
 override
 ;
 NS_IMETHOD
+GetIsDocument
+(
+bool
+*
+aIsDocument
+)
+override
+;
+NS_IMETHOD
 GetNotificationCallbacks
 (
 nsIInterfaceRequestor
