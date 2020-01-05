@@ -247,6 +247,8 @@ aIdx
 char
 *
 aDataStr
+int32_t
+lineLen
 )
 ;
 struct
