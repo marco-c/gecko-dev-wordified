@@ -3823,7 +3823,7 @@ HEADER_HSTS
 mInfoObject
 -
 >
-GetHostNameRaw
+GetHostName
 (
 )
 mProviderFlags
@@ -3892,7 +3892,7 @@ HEADER_HPKP
 mInfoObject
 -
 >
-GetHostNameRaw
+GetHostName
 (
 )
 mProviderFlags

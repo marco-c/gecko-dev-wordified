@@ -685,8 +685,8 @@ nsIURI
 *
 aSourceURI
 const
-char
-*
+nsCString
+&
 aHeader
 nsISSLStatus
 *
@@ -711,8 +711,8 @@ nsIURI
 *
 aSourceURI
 const
-char
-*
+nsCString
+&
 aHeader
 uint32_t
 flags
@@ -734,8 +734,8 @@ nsIURI
 *
 aSourceURI
 const
-char
-*
+nsCString
+&
 aHeader
 nsISSLStatus
 *

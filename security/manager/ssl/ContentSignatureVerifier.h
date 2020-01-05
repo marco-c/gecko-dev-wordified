@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 ScopedNSSTypes
 .
 h
