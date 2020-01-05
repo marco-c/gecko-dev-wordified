@@ -848,14 +848,6 @@ chrome
 try
 :
             
-self
-.
-prefs
-.
-restore_all_prefs
-(
-)
-            
 #
 This
 code

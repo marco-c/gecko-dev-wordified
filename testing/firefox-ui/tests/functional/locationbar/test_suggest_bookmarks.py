@@ -313,6 +313,17 @@ places
 restore_default_bookmarks
 (
 )
+            
+self
+.
+marionette
+.
+clear_pref
+(
+self
+.
+PREF_SUGGEST_SEARCHES
+)
         
 finally
 :

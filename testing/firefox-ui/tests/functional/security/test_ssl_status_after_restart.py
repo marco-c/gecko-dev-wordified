@@ -324,6 +324,21 @@ force
 =
 True
 )
+            
+self
+.
+marionette
+.
+clear_pref
+(
+'
+browser
+.
+startup
+.
+page
+'
+)
         
 finally
 :
