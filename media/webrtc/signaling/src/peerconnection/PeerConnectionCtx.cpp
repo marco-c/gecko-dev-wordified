@@ -1570,7 +1570,7 @@ if
 (
 s
 .
-mMozRtt
+mRoundTripTime
 .
 WasPassed
 (
@@ -1598,7 +1598,7 @@ Accumulate
 id
 s
 .
-mMozRtt
+mRoundTripTime
 .
 Value
 (
