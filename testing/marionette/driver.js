@@ -9050,14 +9050,14 @@ parameters
 ;
 assert
 .
-positiveInteger
+integer
 (
 x
 )
 ;
 assert
 .
-positiveInteger
+integer
 (
 y
 )
