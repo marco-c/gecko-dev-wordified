@@ -2785,7 +2785,7 @@ hash
 )
 ;
 auto
-cacheDuration
+cacheDurationSec
 =
 m
 .
@@ -2816,7 +2816,7 @@ length
 )
 )
 tableNames
-cacheDuration
+cacheDurationSec
 )
 ;
 Telemetry
@@ -2828,7 +2828,9 @@ Telemetry
 :
 :
 URLCLASSIFIER_POSITIVE_CACHE_DURATION
-cacheDuration
+cacheDurationSec
+*
+PR_MSEC_PER_SEC
 )
 ;
 }
@@ -2845,7 +2847,7 @@ minimum_wait_duration
 )
 ;
 auto
-negCacheDuration
+negCacheDurationSec
 =
 r
 .
@@ -2863,7 +2865,7 @@ aCallback
 OnResponseParsed
 (
 minWaitDuration
-negCacheDuration
+negCacheDurationSec
 )
 ;
 Telemetry
@@ -2891,7 +2893,9 @@ Telemetry
 :
 :
 URLCLASSIFIER_NEGATIVE_CACHE_DURATION
-negCacheDuration
+negCacheDurationSec
+*
+PR_MSEC_PER_SEC
 )
 ;
 return
