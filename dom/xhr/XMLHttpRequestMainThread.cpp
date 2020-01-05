@@ -15222,6 +15222,18 @@ this
 is
 not
 critical
+.
+Use
+text
+/
+xml
+as
+fallback
+/
+/
+MIME
+type
+.
 nsAutoCString
 contentType
 ;
@@ -15262,7 +15274,7 @@ SetContentType
 NS_LITERAL_CSTRING
 (
 "
-application
+text
 /
 xml
 "
