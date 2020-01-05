@@ -293,7 +293,7 @@ include
 "
 mozilla
 /
-StackWalk_windows
+ScopeExit
 .
 h
 "
@@ -302,7 +302,7 @@ include
 "
 mozilla
 /
-ScopeExit
+StackWalk_windows
 .
 h
 "
