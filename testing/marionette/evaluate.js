@@ -878,7 +878,7 @@ opts
 )
 {
 let
-timeoutId
+scriptTimeoutID
 timeoutHandler
 unloadHandler
 ;
@@ -1201,7 +1201,7 @@ timeout
 and
 unload
 handlers
-timeoutId
+scriptTimeoutID
 =
 setTimeout
 (
@@ -1313,13 +1313,9 @@ res
 =
 >
 {
-sb
-.
-window
-.
 clearTimeout
 (
-timeoutId
+scriptTimeoutID
 )
 ;
 sb
