@@ -1094,16 +1094,6 @@ GetShadowRoot
 :
 nullptr
 ;
-OwnerDoc
-(
-)
--
->
-UnregisterPendingLinkUpdate
-(
-this
-)
-;
 CreateAndDispatchEvent
 (
 oldDoc
