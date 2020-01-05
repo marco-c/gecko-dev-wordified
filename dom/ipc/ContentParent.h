@@ -735,6 +735,10 @@ ContentParent
 aOpener
 =
 nullptr
+bool
+aFreshProcess
+=
+false
 )
 ;
 /
@@ -813,6 +817,10 @@ aFrameElement
 ContentParent
 *
 aOpenerContentParent
+bool
+aFreshProcess
+=
+false
 )
 ;
 static
@@ -2620,6 +2628,15 @@ ContentParent
 >
 *
 sNonAppContentParents
+;
+static
+nsTArray
+<
+ContentParent
+*
+>
+*
+sLargeAllocationContentParents
 ;
 static
 nsTArray
