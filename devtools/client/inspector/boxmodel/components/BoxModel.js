@@ -200,6 +200,13 @@ PropTypes
 func
 .
 isRequired
+onToggleGeometryEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 mixins
 :
@@ -219,6 +226,7 @@ showBoxModelProperties
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onToggleGeometryEditor
 }
 =
 this
@@ -252,6 +260,7 @@ BoxModelInfo
 (
 {
 boxModel
+onToggleGeometryEditor
 }
 )
 showBoxModelProperties

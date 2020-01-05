@@ -238,6 +238,7 @@ let
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onToggleGeometryEditor
 }
 =
 this
@@ -347,6 +348,7 @@ onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 onShowGridAreaHighlight
 onShowGridCellHighlight
+onToggleGeometryEditor
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines

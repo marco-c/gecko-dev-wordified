@@ -4122,6 +4122,7 @@ let
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onToggleGeometryEditor
 }
 =
 this
@@ -4156,6 +4157,7 @@ false
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onToggleGeometryEditor
 }
 )
 )
