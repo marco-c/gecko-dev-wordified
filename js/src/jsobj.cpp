@@ -655,10 +655,13 @@ get
 )
 ;
 }
+JS_PUBLIC_API
+(
 const
 char
 *
-js
+)
+JS
 :
 :
 InformalValueTypeName
