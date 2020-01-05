@@ -223,6 +223,13 @@ void
 RawGeckoElementBorrowed
 node
 )
+SERVO_BINDING_FUNC
+(
+Servo_Element_ShouldTraverse
+bool
+RawGeckoElementBorrowed
+node
+)
 /
 /
 Styleset
