@@ -1250,9 +1250,9 @@ placeInfo
 await
 PlacesUtils
 .
-promisePlaceInfo
-(
-uri
+history
+.
+fetch
 (
 "
 http
@@ -1263,7 +1263,6 @@ example
 .
 com
 "
-)
 )
 ;
 do_check_eq

@@ -4353,7 +4353,9 @@ placeInfo
 await
 PlacesUtils
 .
-promisePlaceInfo
+history
+.
+fetch
 (
 uri
 )
