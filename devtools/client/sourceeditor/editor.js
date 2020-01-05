@@ -1718,7 +1718,15 @@ ch
 num
 -
 =
-1
+cm
+.
+getCursor
+(
+)
+.
+ch
+%
+num
 ;
 }
 cm
