@@ -464,7 +464,9 @@ static
 bool
 isMarkableTaggedPointer
 (
+const
 TaggedProto
+&
 proto
 )
 {
@@ -480,7 +482,9 @@ static
 bool
 isMarkable
 (
+const
 TaggedProto
+&
 proto
 )
 {

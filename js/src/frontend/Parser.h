@@ -8820,6 +8820,7 @@ checkDestructuringPattern
 (
 Node
 pattern
+const
 mozilla
 :
 :
@@ -8827,6 +8828,7 @@ Maybe
 <
 DeclarationKind
 >
+&
 maybeDecl
 PossibleError
 *
@@ -8894,6 +8896,7 @@ checkDestructuringArray
 (
 Node
 arrayPattern
+const
 mozilla
 :
 :
@@ -8901,6 +8904,7 @@ Maybe
 <
 DeclarationKind
 >
+&
 maybeDecl
 )
 ;
@@ -8909,6 +8913,7 @@ checkDestructuringObject
 (
 Node
 objectPattern
+const
 mozilla
 :
 :
@@ -8916,6 +8921,7 @@ Maybe
 <
 DeclarationKind
 >
+&
 maybeDecl
 )
 ;
