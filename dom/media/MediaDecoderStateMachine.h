@@ -2300,7 +2300,10 @@ returned
 stream
 time
 .
-int64_t
+media
+:
+:
+TimeUnit
 GetClock
 (
 TimeStamp
