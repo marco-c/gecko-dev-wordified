@@ -16578,7 +16578,7 @@ defineProperty
 :
 Some
 (
-defineProperty
+defineProperty_
 )
   
 getOwnPropertyNames
@@ -28231,6 +28231,14 @@ treatNullAs
 argument
 .
 treatNullAs
+                
+exceptionCode
+=
+"
+return
+false
+;
+"
 )
             
 templateValues
@@ -33173,6 +33181,15 @@ m
 isStatic
 (
 )
+\
+                        
+and
+not
+m
+.
+isIdentifierLess
+(
+)
 :
                     
 name
@@ -33436,6 +33453,14 @@ getExtendedAttributes
 operation
 )
                     
+if
+operation
+.
+isGetter
+(
+)
+:
+                        
 arguments
 =
 method_arguments
@@ -33452,6 +33477,17 @@ mut
 bool
 "
 )
+)
+                    
+else
+:
+                        
+arguments
+=
+method_arguments
+(
+rettype
+arguments
 )
                     
 rettype
@@ -37751,7 +37787,7 @@ proxyhandler
 :
 {
 _obj_toString
-defineProperty
+defineProperty_
 }
 '
             
