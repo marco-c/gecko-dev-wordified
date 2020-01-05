@@ -324,7 +324,7 @@ aStr
 override
 ;
 nsresult
-GetOriginInternal
+GetOriginNoSuffixInternal
 (
 nsACString
 &
