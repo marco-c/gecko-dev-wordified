@@ -4834,6 +4834,14 @@ is_ok
 )
 ;
 }
+if
+!
+title
+.
+is_empty
+(
+)
+{
 let
 new_text
 =
@@ -4875,6 +4883,7 @@ is_ok
 )
 )
 ;
+}
 }
 None
 =
@@ -4921,6 +4930,14 @@ from_ref
 new_title
 )
 ;
+if
+!
+title
+.
+is_empty
+(
+)
+{
 let
 new_text
 =
@@ -4962,6 +4979,7 @@ is_ok
 )
 )
 ;
+}
 assert
 !
 (
