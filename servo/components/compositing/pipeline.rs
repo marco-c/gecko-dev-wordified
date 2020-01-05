@@ -539,6 +539,10 @@ Vec
 <
 FrameId
 >
+pub
+is_private
+:
+bool
 }
 /
 /
@@ -1954,6 +1958,9 @@ size
 :
 size
 running_animations
+:
+false
+is_private
 :
 false
 }
