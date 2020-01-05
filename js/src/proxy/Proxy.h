@@ -133,6 +133,9 @@ h
 namespace
 js
 {
+class
+RegExpGuard
+;
 /
 *
 *
@@ -622,12 +625,9 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandle
-<
-RegExpShared
+RegExpGuard
 *
->
-shared
+g
 )
 ;
 static

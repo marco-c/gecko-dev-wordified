@@ -242,7 +242,7 @@ JS
 Value
 ;
 class
-RegExpShared
+RegExpGuard
 ;
 class
 JS_FRIEND_API
@@ -2737,15 +2737,9 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandle
-<
-js
-:
-:
-RegExpShared
+RegExpGuard
 *
->
-shared
+g
 )
 const
 ;

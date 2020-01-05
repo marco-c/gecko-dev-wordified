@@ -180,13 +180,6 @@ jscntxtinlines
 .
 h
 "
-#
-include
-"
-jsgcinlines
-.
-h
-"
 namespace
 js
 {

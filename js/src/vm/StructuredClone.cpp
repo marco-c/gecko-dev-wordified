@@ -8511,7 +8511,7 @@ ESClass
 RegExp
 )
 {
-RootedRegExpShared
+RegExpGuard
 re
 (
 context

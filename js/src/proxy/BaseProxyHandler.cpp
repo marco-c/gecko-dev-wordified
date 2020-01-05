@@ -2059,8 +2059,9 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleRegExpShared
-shared
+RegExpGuard
+*
+g
 )
 const
 {

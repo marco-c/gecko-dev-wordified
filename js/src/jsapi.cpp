@@ -34564,7 +34564,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RootedRegExpShared
+RegExpGuard
 shared
 (
 cx
@@ -34586,6 +34586,10 @@ false
 ;
 return
 shared
+.
+re
+(
+)
 -
 >
 getFlags
@@ -34616,7 +34620,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RootedRegExpShared
+RegExpGuard
 shared
 (
 cx
@@ -34638,6 +34642,10 @@ nullptr
 ;
 return
 shared
+.
+re
+(
+)
 -
 >
 getSource

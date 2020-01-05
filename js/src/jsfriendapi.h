@@ -6915,6 +6915,9 @@ cx
 ;
 #
 endif
+class
+RegExpGuard
+;
 extern
 JS_FRIEND_API
 (
@@ -6930,14 +6933,8 @@ JS
 :
 HandleObject
 regexp
-JS
-:
-:
-MutableHandle
-<
-RegExpShared
+RegExpGuard
 *
->
 shared
 )
 ;
