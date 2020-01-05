@@ -4863,8 +4863,6 @@ Atom
 :
 from
 (
-&
-*
 name
 )
 }
@@ -7201,8 +7199,6 @@ Atom
 :
 from
 (
-&
-*
 name
 )
 }
@@ -7398,8 +7394,6 @@ Atom
 :
 from
 (
-&
-*
 name
 )
 ;
@@ -9835,8 +9829,6 @@ Atom
 :
 from
 (
-&
-*
 local_name
 )
 )
@@ -10049,8 +10041,6 @@ Atom
 :
 from
 (
-&
-*
 qualified_name
 )
 ;
@@ -10604,8 +10594,6 @@ Atom
 :
 from
 (
-&
-*
 local_name
 )
 ;

@@ -3003,8 +3003,6 @@ Atom
 :
 from
 (
-&
-*
 to_snake_case
 (
 local_name
@@ -3101,8 +3099,6 @@ Atom
 :
 from
 (
-&
-*
 to_snake_case
 (
 local_name

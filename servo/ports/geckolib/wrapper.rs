@@ -2800,8 +2800,6 @@ Atom
 :
 from
 (
-&
-*
 String
 :
 :
@@ -2886,8 +2884,6 @@ Atom
 :
 from
 (
-&
-*
 String
 :
 :

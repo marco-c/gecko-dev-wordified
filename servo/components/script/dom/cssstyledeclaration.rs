@@ -1191,8 +1191,6 @@ Atom
 :
 from
 (
-&
-*
 property
 )
 ;
@@ -1466,8 +1464,6 @@ Atom
 :
 from
 (
-&
-*
 property
 )
 ;

@@ -547,8 +547,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -701,8 +699,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -792,8 +788,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -853,8 +847,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -976,8 +968,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -1114,8 +1104,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0
@@ -1226,8 +1214,6 @@ Atom
 :
 from
 (
-&
-*
 name
 .
 0

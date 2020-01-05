@@ -536,8 +536,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 init

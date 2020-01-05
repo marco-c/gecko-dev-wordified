@@ -2877,10 +2877,8 @@ ty
 =
 =
 &
-Atom
-:
-:
-from
+atom
+!
 (
 "
 error
@@ -3694,8 +3692,6 @@ Atom
 :
 from
 (
-&
-*
 ty
 )
 )
@@ -3866,8 +3862,6 @@ Atom
 :
 from
 (
-&
-*
 ty
 )
 )

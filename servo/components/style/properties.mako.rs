@@ -13007,8 +13007,6 @@ Atom
 :
 from
 (
-&
-*
 value
 )
 )

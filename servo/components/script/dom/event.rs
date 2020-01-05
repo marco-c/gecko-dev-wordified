@@ -704,8 +704,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 bubbles
@@ -1632,8 +1630,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 bubbles

@@ -722,8 +722,6 @@ Atom
 :
 from
 (
-&
-*
 type_
 )
 can_bubble
