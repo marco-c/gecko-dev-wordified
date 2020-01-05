@@ -6893,6 +6893,16 @@ data
 is_object
 (
 )
+|
+|
+data
+[
+3
+]
+.
+is_array
+(
+)
 {
 data
 [
