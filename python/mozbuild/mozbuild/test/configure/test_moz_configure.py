@@ -288,7 +288,7 @@ browser
 '
                           
 '
-MOZ_PROFILING
+MOZ_VTUNE
 =
 1
 '
@@ -307,7 +307,7 @@ browser
 '
                                          
 '
-MOZ_PROFILING
+MOZ_VTUNE
 =
 1
 '
@@ -324,7 +324,7 @@ environ
 =
 {
 '
-MOZ_PROFILING
+MOZ_VTUNE
 '
 :
 '
@@ -358,7 +358,7 @@ enable
 project
 =
 js
-MOZ_PROFILING
+MOZ_VTUNE
 =
 1
 '
