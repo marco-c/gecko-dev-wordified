@@ -11146,6 +11146,9 @@ layout_debug_scope
 !
 (
 "
+block
+:
+:
 bubble_inline_sizes
 {
 :
