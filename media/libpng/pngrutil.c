@@ -22,9 +22,9 @@ libpng
 .
 27
 [
-December
-29
-2016
+January
+5
+2017
 ]
 *
 Copyright

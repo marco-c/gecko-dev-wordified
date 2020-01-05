@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-24
+28
 [
-August
-4
-2016
+January
+5
+2017
 ]
 *
 Copyright
@@ -37,7 +37,7 @@ c
 2004
 2006
 -
-2016
+2017
 Glenn
 Randers
 -
@@ -2815,7 +2815,7 @@ Options
 #
 ifdef
 PNG_SET_OPTION_SUPPORTED
-png_byte
+png_uint_32
 options
 ;
 /
@@ -2827,7 +2827,7 @@ state
 (
 up
 to
-4
+16
 options
 )
 *
