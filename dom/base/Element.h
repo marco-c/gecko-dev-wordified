@@ -9763,10 +9763,13 @@ nsIFrame
 aStyledFrame
 =
 nullptr
-bool
-aFlushLayout
+FlushType
+aFlushType
 =
-true
+FlushType
+:
+:
+Layout
 )
 ;
 /
