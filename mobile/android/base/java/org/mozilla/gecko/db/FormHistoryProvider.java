@@ -86,7 +86,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+EventDispatcher
 ;
 import
 org
@@ -674,9 +674,13 @@ initGecko
 (
 )
 {
-GeckoAppShell
+EventDispatcher
 .
-notifyObservers
+getInstance
+(
+)
+.
+dispatch
 (
 "
 FormHistory

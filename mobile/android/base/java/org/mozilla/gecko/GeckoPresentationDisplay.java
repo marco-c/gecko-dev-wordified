@@ -99,9 +99,13 @@ gecko
 import
 org
 .
-json
+mozilla
 .
-JSONObject
+gecko
+.
+util
+.
+EventCallback
 ;
 import
 org
@@ -112,7 +116,7 @@ gecko
 .
 util
 .
-EventCallback
+GeckoBundle
 ;
 /
 *
@@ -152,8 +156,8 @@ null
 .
 *
 /
-JSONObject
-toJSON
+GeckoBundle
+toBundle
 (
 )
 ;
