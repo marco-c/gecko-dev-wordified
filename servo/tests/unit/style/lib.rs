@@ -84,6 +84,14 @@ plugin
 string_cache_plugin
 )
 ]
+#
+!
+[
+plugin
+(
+plugins
+)
+]
 extern
 crate
 app_units

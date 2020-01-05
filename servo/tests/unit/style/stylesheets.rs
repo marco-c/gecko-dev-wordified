@@ -120,12 +120,6 @@ Origin
 Stylesheet
 }
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test
@@ -212,10 +206,8 @@ blue
 let
 url
 =
-Url
-:
-:
-parse
+url
+!
 (
 "
 about
@@ -223,10 +215,6 @@ about
 :
 test
 "
-)
-.
-unwrap
-(
 )
 ;
 let

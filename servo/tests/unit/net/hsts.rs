@@ -89,12 +89,6 @@ IncludeSubdomains
 use
 time
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test
@@ -117,7 +111,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 include_subdomains
@@ -168,7 +162,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 include_subdomains
@@ -228,7 +222,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 include_subdomains
@@ -305,7 +299,7 @@ ff00
 8329
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -362,7 +356,7 @@ new
 4
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -423,7 +417,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -457,7 +451,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -524,7 +518,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -557,7 +551,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -618,7 +612,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -666,7 +660,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -730,7 +724,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -761,7 +755,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -863,7 +857,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -893,7 +887,7 @@ bugzilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -995,7 +989,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1296,7 +1290,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1358,7 +1352,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1422,7 +1416,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1487,7 +1481,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1552,7 +1546,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 IncludeSubdomains
@@ -1613,7 +1607,7 @@ mozilla
 org
 "
 .
-to_string
+to_owned
 (
 )
 include_subdomains
@@ -1709,10 +1703,8 @@ test_secure_url_does_not_change_explicit_port
 let
 url
 =
-Url
-:
-:
-parse
+url
+!
 (
 "
 http
@@ -1726,10 +1718,6 @@ org
 8080
 /
 "
-)
-.
-unwrap
-(
 )
 ;
 let
@@ -1771,10 +1759,8 @@ test_secure_url_does_not_affect_non_http_schemas
 let
 url
 =
-Url
-:
-:
-parse
+url
+!
 (
 "
 file
@@ -1785,10 +1771,6 @@ mozilla
 .
 org
 "
-)
-.
-unwrap
-(
 )
 ;
 let
@@ -1825,10 +1807,8 @@ test_secure_url_forces_an_http_host_in_list_to_https
 let
 url
 =
-Url
-:
-:
-parse
+url
+!
 (
 "
 http
@@ -1839,10 +1819,6 @@ mozilla
 .
 org
 "
-)
-.
-unwrap
-(
 )
 ;
 let
