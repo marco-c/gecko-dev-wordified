@@ -2216,6 +2216,14 @@ delay
 ;
 }
 yield
+SimpleTest
+.
+promiseFocus
+(
+win
+)
+;
+yield
 testPopupSize
 (
 true
