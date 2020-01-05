@@ -2987,11 +2987,6 @@ LiveResizeStopped
 )
 override
 ;
-void
-DispatchTabChildNotReadyEvent
-(
-)
-;
 protected
 :
 bool
