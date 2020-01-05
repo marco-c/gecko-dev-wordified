@@ -313,6 +313,14 @@ port
 )
 override
 ;
+void
+ThrottleResponse
+(
+bool
+aThrottle
+)
+override
+;
 /
 /
 When
