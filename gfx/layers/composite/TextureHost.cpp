@@ -2776,7 +2776,7 @@ it
 it
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -4060,7 +4060,7 @@ it
 it
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 mCompositor
 )
