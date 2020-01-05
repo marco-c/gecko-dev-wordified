@@ -21315,12 +21315,13 @@ arrayProto
 |
 |
 !
-arrayProto
--
->
+JSObject
+:
+:
 setDelegate
 (
 cx
+arrayProto
 )
 |
 |

@@ -19674,12 +19674,13 @@ isQualifiedVarObj
 if
 (
 !
-env
--
->
+JSObject
+:
+:
 setQualifiedVarObj
 (
 cx
+env
 )
 )
 return

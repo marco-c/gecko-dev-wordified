@@ -433,12 +433,13 @@ id
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 setWatched
 (
 cx
+obj
 )
 )
 return
