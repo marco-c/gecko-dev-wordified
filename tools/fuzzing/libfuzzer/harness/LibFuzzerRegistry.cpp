@@ -100,13 +100,7 @@ LibFuzzerRegistry
 .
 h
 "
-extern
-"
-C
-"
-{
 void
-MOZ_EXPORT
 XRE_LibFuzzerGetFuncs
 (
 const
@@ -165,7 +159,6 @@ funcs
 .
 second
 ;
-}
 }
 namespace
 mozilla
