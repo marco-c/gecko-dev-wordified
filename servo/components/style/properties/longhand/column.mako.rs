@@ -1101,6 +1101,11 @@ experimental
 "
 True
 "
+products
+=
+"
+servo
+"
 animatable
 =
 "

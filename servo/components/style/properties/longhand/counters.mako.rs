@@ -1485,6 +1485,11 @@ counter
 -
 increment
 "
+products
+=
+"
+servo
+"
 animatable
 =
 "
@@ -1987,6 +1992,11 @@ name
 counter
 -
 reset
+"
+products
+=
+"
+servo
 "
 animatable
 =
