@@ -586,7 +586,7 @@ generate_unique_debug_id
 )
 -
 >
-uint
+u16
 {
 unsafe
 {
@@ -597,6 +597,8 @@ fetch_add
 1
 SeqCst
 )
+as
+u16
 }
 }
 /

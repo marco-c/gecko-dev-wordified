@@ -3503,6 +3503,9 @@ build_debug_borders_around_text_fragments
 (
 display_list
 flow_origin
+&
+*
+*
 text_fragment
 clip_rect
 )
@@ -3910,6 +3913,9 @@ self
 .
 finalize_position_and_size_of_iframe
 (
+&
+*
+*
 iframe_fragment
 absolute_fragment_bounds
 .
