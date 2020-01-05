@@ -253,6 +253,7 @@ false
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -261,6 +262,7 @@ nsIURI
 uri
 )
 ;
+MOZ_MUST_USE
 nsresult
 InitSrcdoc
 (

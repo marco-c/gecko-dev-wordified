@@ -780,6 +780,12 @@ plain
 nsAutoCString
 type
 ;
+mozilla
+:
+:
+Unused
+<
+<
 viewSourceChannel
 -
 >

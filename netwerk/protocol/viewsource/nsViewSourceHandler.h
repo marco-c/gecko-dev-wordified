@@ -170,6 +170,7 @@ specified
 by
 srcdoc
 .
+MOZ_MUST_USE
 nsresult
 NewSrcdocChannel
 (
