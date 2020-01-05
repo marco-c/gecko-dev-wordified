@@ -3472,7 +3472,7 @@ Maybe
 wasm
 :
 :
-TrapOffset
+BytecodeOffset
 >
 trapOffset_
 ;
@@ -3496,7 +3496,7 @@ mozilla
 :
 Maybe
 <
-TrapOffset
+BytecodeOffset
 >
 &
 trapOffset
@@ -3749,7 +3749,7 @@ return
 trapOffset_
 ;
 }
-TrapOffset
+BytecodeOffset
 trapOffset
 (
 )
@@ -4054,7 +4054,7 @@ path
 struct
 TrapDesc
 :
-TrapOffset
+BytecodeOffset
 {
 enum
 Kind
@@ -4074,7 +4074,7 @@ framePushed
 ;
 TrapDesc
 (
-TrapOffset
+BytecodeOffset
 offset
 Trap
 trap
@@ -4086,7 +4086,7 @@ kind
 Jump
 )
 :
-TrapOffset
+BytecodeOffset
 (
 offset
 )

@@ -738,8 +738,8 @@ rejoin
 wasm
 :
 :
-TrapOffset
-trapOffs
+BytecodeOffset
+trapOffset
 )
 ;
 /

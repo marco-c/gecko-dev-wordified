@@ -8737,8 +8737,8 @@ sign
 wasm
 :
 :
-TrapOffset
-trapOffset
+BytecodeOffset
+bytecodeOffset
 )
 {
 MIRType
@@ -8775,7 +8775,7 @@ alloc
 obj
 toType
 sign
-trapOffset
+bytecodeOffset
 )
 ;
 addTo
@@ -9516,7 +9516,7 @@ alloc
 obj
 toType
 sign
-trapOffset
+bytecodeOffset
 )
 ;
 addTo

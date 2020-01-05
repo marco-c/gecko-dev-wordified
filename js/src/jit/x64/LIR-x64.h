@@ -593,8 +593,8 @@ canBeNegativeOverflow
 wasm
 :
 :
-TrapOffset
-trapOffset
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -635,7 +635,7 @@ toMod
 )
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 ;
@@ -648,7 +648,7 @@ toDiv
 )
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 ;
@@ -866,8 +866,8 @@ canBeDivideByZero
 wasm
 :
 :
-TrapOffset
-trapOffset
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -908,7 +908,7 @@ toMod
 )
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 ;
@@ -921,7 +921,7 @@ toDiv
 )
 -
 >
-trapOffset
+bytecodeOffset
 (
 )
 ;

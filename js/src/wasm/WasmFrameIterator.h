@@ -235,9 +235,6 @@ FuncOffsets
 struct
 CallableOffsets
 ;
-struct
-TrapOffset
-;
 /
 /
 Iterates

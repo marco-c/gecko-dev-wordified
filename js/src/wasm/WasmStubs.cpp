@@ -7227,6 +7227,12 @@ dst
 )
 ;
 }
+AssertStackAlignment
+(
+masm
+ABIStackAlignment
+)
+;
 masm
 .
 call
