@@ -221,7 +221,6 @@ ImageHolder
 {
 url
 :
-move
 url
 image
 :
@@ -330,7 +329,6 @@ holder
 url
 )
 ;
-move
 holder
 }
 /
@@ -578,7 +576,6 @@ recv
 {
 ImageReady
 (
-move
 image
 )
 =
@@ -590,7 +587,6 @@ image
 =
 Some
 (
-move
 image
 )
 ;
@@ -710,12 +706,10 @@ mut
 self
 .
 image
-move
 image
 )
 ;
 return
-move
 result
 ;
 }

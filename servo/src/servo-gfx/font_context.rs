@@ -691,18 +691,15 @@ Font
 )
 font_list
 :
-move
 font_list
 handle
 :
-move
 handle
 backend
 :
 backend
 generic_fonts
 :
-move
 generic_fonts
 }
 }
@@ -918,11 +915,9 @@ family
 None
 =
 >
-move
 family
 Some
 (
-move
 mapped_family
 )
 =
@@ -1381,7 +1376,6 @@ dvec
 :
 unwrap
 (
-move
 fonts
 )
 )
@@ -1485,7 +1479,6 @@ result
 :
 chain
 (
-move
 result_handle
 |
 handle
@@ -1500,7 +1493,6 @@ new_from_adopted_handle
 (
 &
 self
-move
 handle
 &
 desc

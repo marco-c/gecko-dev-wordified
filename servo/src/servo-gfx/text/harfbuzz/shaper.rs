@@ -1183,7 +1183,6 @@ advance
 x_advance
 offset
 :
-move
 offset
 }
 }
@@ -3487,7 +3486,6 @@ dvec
 :
 unwrap
 (
-move
 datas
 )
 )

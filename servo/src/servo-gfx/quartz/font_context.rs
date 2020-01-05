@@ -104,9 +104,9 @@ ctx
 }
 pub
 impl
-QuartzFontContextHandle
-:
 FontContextHandleMethods
+for
+QuartzFontContextHandle
 {
 pure
 fn
@@ -166,7 +166,6 @@ font
 :
 new_from_name
 (
-move
 name
 style
 .
@@ -179,7 +178,6 @@ result
 :
 chain
 (
-move
 ctfont_result
 )
 |
@@ -193,7 +191,6 @@ new_from_CTFont
 (
 &
 self
-move
 ctfont
 )
 }
