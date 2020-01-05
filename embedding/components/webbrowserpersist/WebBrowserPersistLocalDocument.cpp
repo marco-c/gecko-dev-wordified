@@ -4564,10 +4564,12 @@ aBuffer
 .
 AppendLiteral
 (
+R
 "
+(
 =
-\
 "
+)
 "
 )
 ;
