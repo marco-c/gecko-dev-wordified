@@ -410,8 +410,7 @@ self
 _get
 (
 "
-page
-load
+pageLoad
 "
 )
     
@@ -463,8 +462,7 @@ self
 _set
 (
 "
-page
-load
+pageLoad
 "
 sec
 )
