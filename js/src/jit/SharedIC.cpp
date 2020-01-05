@@ -9232,7 +9232,7 @@ ToInt32
 ;
 masm
 .
-storeCallResult
+storeCallWordResult
 (
 scratchReg
 )
@@ -10139,7 +10139,7 @@ ToInt32
 ;
 masm
 .
-storeCallResult
+storeCallWordResult
 (
 scratchReg
 )

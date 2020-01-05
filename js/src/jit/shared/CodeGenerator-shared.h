@@ -2779,7 +2779,7 @@ reg
 {
 masm
 .
-storeCallResult
+storeCallWordResult
 (
 reg
 )
