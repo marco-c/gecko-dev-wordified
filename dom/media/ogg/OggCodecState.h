@@ -2770,6 +2770,15 @@ aPage
 )
 override
 ;
+already_AddRefed
+<
+MediaRawData
+>
+PacketOutAsMediaRawData
+(
+)
+override
+;
 /
 /
 Returns
