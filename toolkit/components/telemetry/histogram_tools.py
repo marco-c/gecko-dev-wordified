@@ -289,6 +289,7 @@ else
         
 raise
 BaseException
+(
 "
 don
 '
@@ -306,6 +307,7 @@ s
 "
 %
 kind
+)
 class
 DefinitionException
 (
@@ -655,6 +657,7 @@ e
             
 raise
 BaseException
+(
 '
 error
 parsing
@@ -666,6 +669,7 @@ s
 '
 %
 whitelist_path
+)
 except
 IOError
 :
@@ -1126,6 +1130,7 @@ datasets
             
 raise
 DefinitionException
+(
 "
 unknown
 release
@@ -1136,6 +1141,7 @@ for
 "
 +
 name
+)
         
 self
 .
@@ -1975,6 +1981,7 @@ name
             
 raise
 ValueError
+(
 '
 "
 #
@@ -1988,6 +1995,7 @@ s
 %
 (
 name
+)
 )
         
 #
@@ -2019,6 +2027,7 @@ LABELS_
             
 raise
 ValueError
+(
 "
 Histogram
 name
@@ -2035,6 +2044,7 @@ LABELS_
 %
 (
 name
+)
 )
         
 #
@@ -2131,6 +2141,7 @@ IGNORECASE
                 
 raise
 ValueError
+(
 "
 Histogram
 name
@@ -2152,6 +2163,7 @@ s
 (
 name
 pattern
+)
 )
     
 def
@@ -2239,6 +2251,7 @@ expiry_default
             
 raise
 ValueError
+(
 '
 New
 histogram
@@ -2260,6 +2273,7 @@ value
 (
 name
 field
+)
 )
         
 if
@@ -2391,6 +2405,7 @@ invalid
             
 raise
 ValueError
+(
 '
 Label
 values
@@ -2408,8 +2423,7 @@ d
 s
 '
 %
-\
-                              
+                             
 (
 name
 MAX_LABEL_LENGTH
@@ -2419,6 +2433,7 @@ MAX_LABEL_LENGTH
 join
 (
 invalid
+)
 )
 )
         
@@ -2433,6 +2448,7 @@ MAX_LABEL_COUNT
             
 raise
 ValueError
+(
 '
 Label
 count
@@ -2446,11 +2462,11 @@ of
 d
 '
 %
-\
-                              
+                             
 (
 name
 MAX_LABEL_COUNT
+)
 )
         
 #
@@ -2539,6 +2555,7 @@ invalid
             
 raise
 ValueError
+(
 '
 Label
 values
@@ -2558,8 +2575,7 @@ s
 s
 '
 %
-\
-                              
+                             
 (
 name
 pattern
@@ -2569,6 +2585,7 @@ pattern
 join
 (
 invalid
+)
 )
 )
     
@@ -2703,6 +2720,7 @@ field
                 
 raise
 KeyError
+(
 '
 New
 histogram
@@ -2722,6 +2740,7 @@ field
 (
 name
 field
+)
 )
             
 if
@@ -2765,11 +2784,13 @@ json
                 
 raise
 KeyError
+(
 msg
 %
 (
 name
 field
+)
 )
     
 def
@@ -3120,16 +3141,13 @@ Histogram
 1
 }
 "
-'
-                                   
-'
 should
 be
 {
 2
 }
 '
-)
+                                 
 .
 format
 (
@@ -3138,6 +3156,7 @@ name
 nice_type_name
 (
 key_type
+)
 )
 )
         
@@ -3200,16 +3219,13 @@ Histogram
 1
 }
 "
-'
-                                   
-'
 should
 be
 {
 2
 }
 '
-)
+                                 
 .
 format
 (
@@ -3218,6 +3234,7 @@ name
 nice_type_name
 (
 key_type
+)
 )
 )
     
@@ -3251,6 +3268,7 @@ allowed_keys
                 
 raise
 KeyError
+(
 '
 %
 s
@@ -3264,6 +3282,7 @@ s
 (
 key
 name
+)
 )
     
 def
@@ -3351,7 +3370,7 @@ than
 buckets
 .
 '
-                                 
+                               
 '
 Histograms
 with
@@ -3367,7 +3386,7 @@ of
 resources
 .
 '
-                                 
+                               
 '
 Contact
 the
@@ -3689,6 +3708,7 @@ e
             
 raise
 BaseException
+(
 "
 error
 parsing
@@ -3706,6 +3726,7 @@ filename
 e
 .
 message
+)
 )
     
 return
@@ -4070,6 +4091,7 @@ OrderedDict
             
 raise
 BaseException
+(
 "
 histogram
 parser
@@ -4080,6 +4102,7 @@ provide
 an
 OrderedDict
 "
+)
         
 for
 (
@@ -4105,6 +4128,7 @@ name
                 
 raise
 DefinitionException
+(
 "
 duplicate
 histogram
@@ -4114,6 +4138,7 @@ s
 "
 %
 name
+)
             
 all_histograms
 [
@@ -4214,6 +4239,7 @@ use_counter_indices
             
 raise
 DefinitionException
+(
 "
 use
 counter
@@ -4226,6 +4252,7 @@ a
 contiguous
 block
 "
+)
     
 #
 Check
@@ -4320,6 +4347,7 @@ s
             
 raise
 BaseException
+(
 msg
 %
 (
@@ -4331,6 +4359,7 @@ join
 sorted
 (
 orphaned
+)
 )
 )
 )

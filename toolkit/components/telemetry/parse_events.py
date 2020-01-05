@@ -431,6 +431,7 @@ _args
                 
 raise
 ValueError
+(
 "
 %
 s
@@ -453,12 +454,11 @@ got
 s
 "
 %
-\
-                                  
+                                 
 (
 identifier
 key
-                                   
+                                  
 nice_type_name
 (
 self
@@ -468,7 +468,7 @@ _args
 0
 ]
 )
-                                   
+                                  
 nice_type_name
 (
 self
@@ -478,12 +478,13 @@ _args
 1
 ]
 )
-                                   
+                                  
 nice_type_name
 (
 type
 (
 value
+)
 )
 )
 )
@@ -511,6 +512,7 @@ _kind
             
 raise
 ValueError
+(
 "
 %
 s
@@ -530,24 +532,24 @@ got
 s
 "
 %
-\
-                              
+                             
 (
 identifier
 key
-                               
+                              
 nice_type_name
 (
 self
 .
 _kind
 )
-                               
+                              
 nice_type_name
 (
 type
 (
 value
+)
 )
 )
 )
@@ -580,6 +582,7 @@ value
                 
 raise
 ValueError
+(
 "
 %
 s
@@ -600,6 +603,7 @@ empty
 (
 identifier
 key
+)
 )
             
 for
@@ -624,6 +628,7 @@ _args
                     
 raise
 ValueError
+(
 "
 %
 s
@@ -646,12 +651,11 @@ got
 s
 "
 %
-\
-                                      
+                                     
 (
 identifier
 key
-                                       
+                                      
 nice_type_name
 (
 self
@@ -661,12 +665,13 @@ _args
 0
 ]
 )
-                                       
+                                      
 nice_type_name
 (
 type
 (
 x
+)
 )
 )
 )
@@ -705,6 +710,7 @@ keys
                     
 raise
 ValueError
+(
 "
 %
 s
@@ -725,6 +731,7 @@ empty
 (
 identifier
 key
+)
 )
             
 for
@@ -753,6 +760,7 @@ _args
                     
 raise
 ValueError
+(
 "
 %
 s
@@ -775,12 +783,11 @@ got
 s
 "
 %
-\
-                                      
+                                     
 (
 identifier
 key
-                                       
+                                      
 nice_type_name
 (
 self
@@ -790,12 +797,13 @@ _args
 0
 ]
 )
-                                       
+                                      
 nice_type_name
 (
 type
 (
 x
+)
 )
 )
 )
@@ -827,6 +835,7 @@ _args
                     
 raise
 ValueError
+(
 "
 %
 s
@@ -853,12 +862,11 @@ got
 s
 "
 %
-\
-                                      
+                                     
 (
 identifier
 key
-                                       
+                                      
 nice_type_name
 (
 self
@@ -868,14 +876,15 @@ _args
 1
 ]
 )
-                                       
+                                      
 k
-                                       
+                                      
 nice_type_name
 (
 type
 (
 x
+)
 )
 )
 )
@@ -1314,6 +1323,7 @@ value
         
 raise
 ValueError
+(
 '
 %
 s
@@ -1337,13 +1347,13 @@ s
 "
 '
 %
-\
-                          
+                         
 (
 identifier
 value
 field
 regex
+)
 )
 class
 EventData
@@ -1524,6 +1534,7 @@ allowed_rcc
             
 raise
 ValueError
+(
 "
 %
 s
@@ -1541,8 +1552,7 @@ of
 s
 "
 %
-\
-                              
+                             
 (
 self
 .
@@ -1554,6 +1564,7 @@ rcc_key
 join
 (
 allowed_rcc
+)
 )
 )
         
@@ -1641,6 +1652,7 @@ MAX_EXTRA_KEYS_COUNT
             
 raise
 ValueError
+(
 "
 %
 s
@@ -1654,13 +1666,13 @@ limit
 d
 "
 %
-\
-                              
+                             
 (
 self
 .
 identifier
 MAX_EXTRA_KEYS_COUNT
+)
 )
         
 for
@@ -1722,6 +1734,7 @@ definition
             
 raise
 KeyError
+(
 "
 %
 s
@@ -1740,12 +1753,12 @@ is
 required
 "
 %
-\
-                            
+                           
 (
 self
 .
 identifier
+)
 )
         
 expiry_date
@@ -1789,6 +1802,7 @@ expiry_date
                 
 raise
 ValueError
+(
 "
 %
 s
@@ -1813,13 +1827,13 @@ format
 s
 "
 %
-\
-                                  
+                                 
 (
 self
 .
 identifier
 DATE_PATTERN
+)
 )
             
 #
