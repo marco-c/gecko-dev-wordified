@@ -605,9 +605,6 @@ devtools
 responsive
 -
 container
-split
--
-box
 "
 initialWidth
 :

@@ -106,10 +106,8 @@ NetMonitorPanel
 prototype
 =
 {
-open
-:
 async
-function
+open
 (
 )
 {
@@ -165,10 +163,8 @@ return
 this
 ;
 }
-destroy
-:
 async
-function
+destroy
 (
 )
 {
