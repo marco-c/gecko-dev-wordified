@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIRDFDataSource
 .
 h
@@ -4006,7 +3999,7 @@ FileSystemDataSource
 :
 IsCommandEnabled
 (
-nsISupportsArray
+nsISupports
 /
 *
 <
@@ -4019,7 +4012,7 @@ aSources
 nsIRDFResource
 *
 aCommand
-nsISupportsArray
+nsISupports
 /
 *
 <
@@ -4046,7 +4039,7 @@ FileSystemDataSource
 :
 DoCommand
 (
-nsISupportsArray
+nsISupports
 /
 *
 <
@@ -4059,7 +4052,7 @@ aSources
 nsIRDFResource
 *
 aCommand
-nsISupportsArray
+nsISupports
 /
 *
 <
