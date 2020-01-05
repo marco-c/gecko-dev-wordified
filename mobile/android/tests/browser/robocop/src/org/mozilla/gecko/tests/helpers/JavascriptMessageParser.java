@@ -156,7 +156,7 @@ in
 a
 Robocop
 :
-JS
+Java
 event
 .
 *
@@ -170,7 +170,7 @@ EVENT_TYPE
 "
 Robocop
 :
-JS
+Java
 "
 ;
 /

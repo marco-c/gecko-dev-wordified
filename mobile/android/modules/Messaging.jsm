@@ -1183,7 +1183,7 @@ formattedStack
 }
 }
 ;
-const
+var
 EventDispatcher
 =
 {
