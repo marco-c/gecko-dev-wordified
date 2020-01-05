@@ -361,6 +361,8 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
+uint32_t
+unique_id
 bool
 flush
 )
@@ -372,6 +374,8 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
+uint32_t
+unique_id
 bool
 flush
 )
@@ -381,8 +385,8 @@ Servo_StyleSet_RemoveStyleSheet
 void
 RawServoStyleSetBorrowed
 set
-RawServoStyleSheetBorrowed
-sheet
+uint32_t
+unique_id
 bool
 flush
 )
@@ -394,8 +398,10 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
-RawServoStyleSheetBorrowed
-reference
+uint32_t
+unique_id
+uint32_t
+before_unique_id
 bool
 flush
 )
