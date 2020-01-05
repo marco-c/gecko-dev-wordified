@@ -1082,7 +1082,7 @@ this
 )
 ;
 }
-uint32_t
+bool
 mSpecialBSizeReflow
 :
 1
@@ -1115,7 +1115,7 @@ not
 have
 computed
 bsizes
-uint32_t
+bool
 mNextInFlowUntouched
 :
 1
@@ -1142,7 +1142,7 @@ descendants
 /
 is
 changing
-uint32_t
+bool
 mIsTopOfPage
 :
 1
@@ -1189,7 +1189,7 @@ avoid
 infinite
 loops
 .
-uint32_t
+bool
 mAssumingHScrollbar
 :
 1
@@ -1210,7 +1210,7 @@ assuming
 a
 horizontal
 scrollbar
-uint32_t
+bool
 mAssumingVScrollbar
 :
 1
@@ -1231,7 +1231,7 @@ assuming
 a
 vertical
 scrollbar
-uint32_t
+bool
 mIsIResize
 :
 1
@@ -1259,7 +1259,7 @@ size
 than
 before
 ?
-uint32_t
+bool
 mIsBResize
 :
 1
@@ -1309,7 +1309,7 @@ different
 /
 basis
 ?
-uint32_t
+bool
 mTableIsSplittable
 :
 1
@@ -1334,7 +1334,7 @@ insider
 a
 column
 frame
-uint32_t
+bool
 mHeightDependsOnAncestorCell
 :
 1
@@ -1354,7 +1354,7 @@ table
 -
 cell
 ?
-uint32_t
+bool
 mIsColumnBalancing
 :
 1
@@ -1365,7 +1365,7 @@ nsColumnSetFrame
 is
 balancing
 columns
-uint32_t
+bool
 mIsFlexContainerMeasuringHeight
 :
 1
@@ -1387,7 +1387,7 @@ its
 intrinsic
 height
 .
-uint32_t
+bool
 mDummyParentReflowInput
 :
 1
@@ -1415,7 +1415,7 @@ of
 a
 real
 one
-uint32_t
+bool
 mMustReflowPlaceholders
 :
 1
@@ -1474,7 +1474,7 @@ its
 placeholder
 children
 .
-uint32_t
+bool
 mShrinkWrap
 :
 1
@@ -1486,7 +1486,7 @@ the
 COMPUTE_SIZE_SHRINK_WRAP
 ctor
 flag
-uint32_t
+bool
 mUseAutoBSize
 :
 1
@@ -1498,7 +1498,7 @@ the
 COMPUTE_SIZE_USE_AUTO_BSIZE
 ctor
 flag
-uint32_t
+bool
 mStaticPosIsCBOrigin
 :
 1
@@ -1509,7 +1509,7 @@ the
 STATIC_POS_IS_CB_ORIGIN
 ctor
 flag
-uint32_t
+bool
 mIClampMarginBoxMinSize
 :
 1
@@ -1520,7 +1520,7 @@ the
 I_CLAMP_MARGIN_BOX_MIN_SIZE
 ctor
 flag
-uint32_t
+bool
 mBClampMarginBoxMinSize
 :
 1
@@ -1759,12 +1759,12 @@ to
 these
 bits
 .
-uint32_t
+bool
 mIOffsetsNeedCSSAlign
 :
 1
 ;
-uint32_t
+bool
 mBOffsetsNeedCSSAlign
 :
 1
