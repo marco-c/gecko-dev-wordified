@@ -2975,7 +2975,7 @@ MozBrowserEvent
 :
 LocationChange
 (
-uri
+url
 can_go_back
 can_go_forward
 )
@@ -2984,7 +2984,7 @@ can_go_forward
 {
 BrowserElementLocationChangeEventDetail
 {
-uri
+url
 :
 Some
 (
@@ -2993,7 +2993,7 @@ DOMString
 :
 from
 (
-uri
+url
 )
 )
 canGoBack
