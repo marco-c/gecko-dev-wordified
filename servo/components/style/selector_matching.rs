@@ -66,6 +66,12 @@ SourcePosition
 }
 ;
 use
+dom
+:
+:
+TElement
+;
+use
 log
 ;
 use
@@ -91,12 +97,6 @@ constellation_msg
 :
 :
 PipelineId
-;
-use
-node
-:
-:
-TElementAttributes
 ;
 use
 properties
@@ -1795,6 +1795,8 @@ pub
 fn
 push_applicable_declarations
 <
+'
+le
 E
 V
 >
@@ -1839,7 +1841,11 @@ E
 :
 Element
 +
-TElementAttributes
+TElement
+<
+'
+le
+>
 V
 :
 VecLike

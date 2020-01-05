@@ -113,7 +113,7 @@ dom
 node
 :
 :
-LayoutData
+OpaqueStyleAndLayoutData
 ;
 use
 euclid
@@ -507,9 +507,9 @@ avoid
 message
 traffic
 .
-ReapLayoutData
+ReapStyleAndLayoutData
 (
-LayoutData
+OpaqueStyleAndLayoutData
 )
 /
 /
