@@ -103,7 +103,7 @@ selectors
 matching
 :
 :
-matches_compound_selector
+matches_complex_selector
 ;
 use
 selectors
@@ -115,7 +115,7 @@ parser
 {
 AttrSelector
 Combinator
-CompoundSelector
+ComplexSelector
 SimpleSelector
 SelectorImpl
 }
@@ -2525,7 +2525,7 @@ selector
 :
 Arc
 <
-CompoundSelector
+ComplexSelector
 <
 TheSelectorImpl
 >
@@ -2628,7 +2628,7 @@ selector
 &
 Arc
 <
-CompoundSelector
+ComplexSelector
 <
 TheSelectorImpl
 >
@@ -2671,7 +2671,7 @@ in
 &
 cur
 .
-simple_selectors
+compound_selector
 {
 sensitivities
 .
@@ -2950,7 +2950,7 @@ snapshot
 let
 matched_then
 =
-matches_compound_selector
+matches_complex_selector
 (
 &
 *
@@ -2973,7 +2973,7 @@ empty
 let
 matches_now
 =
-matches_compound_selector
+matches_complex_selector
 (
 &
 *
