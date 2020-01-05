@@ -16805,15 +16805,6 @@ JitOptions
 disableCacheIR
 )
 {
-mozilla
-:
-:
-Maybe
-<
-CacheIRWriter
->
-writer
-;
 GetPropIRGenerator
 gen
 (
@@ -16834,7 +16825,6 @@ gen
 .
 tryAttachStub
 (
-writer
 )
 )
 return
@@ -16856,9 +16846,9 @@ newStub
 AttachBaselineCacheIRStub
 (
 cx
-writer
+gen
 .
-ref
+writerRef
 (
 )
 CacheKind
