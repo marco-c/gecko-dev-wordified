@@ -225,8 +225,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -258,9 +256,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 /
 /
@@ -741,8 +736,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -774,9 +767,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 /
 /

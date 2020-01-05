@@ -226,8 +226,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -1112,6 +1110,7 @@ level2
 }
 /
 /
+city
 {
 "
 section
@@ -1143,9 +1142,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "

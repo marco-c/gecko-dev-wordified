@@ -82,8 +82,6 @@ family
 name
 "
 }
-/
-/
 {
 "
 section
@@ -111,12 +109,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -204,8 +196,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -237,9 +227,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "
@@ -594,8 +581,6 @@ csc
 }
 *
 /
-/
-/
 {
 "
 section
@@ -623,12 +608,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -716,8 +695,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -749,10 +726,7 @@ level1
 }
 /
 /
-TODO
-:
-select
-country
+state
 {
 "
 section

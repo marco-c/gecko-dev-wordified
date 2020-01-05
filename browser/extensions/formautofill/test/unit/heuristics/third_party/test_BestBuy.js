@@ -149,8 +149,6 @@ level2
 /
 /
 city
-/
-/
 {
 "
 section
@@ -182,9 +180,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "
@@ -480,8 +475,6 @@ level2
 /
 /
 city
-/
-/
 {
 "
 section
@@ -513,9 +506,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "

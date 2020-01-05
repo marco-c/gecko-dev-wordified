@@ -148,8 +148,6 @@ fieldName
 organization
 "
 }
-/
-/
 {
 "
 section
@@ -177,12 +175,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -273,8 +265,6 @@ level2
 /
 /
 city
-/
-/
 {
 "
 section
@@ -306,9 +296,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "
@@ -515,8 +502,6 @@ fieldName
 organization
 "
 }
-/
-/
 {
 "
 section
@@ -544,12 +529,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -640,8 +619,6 @@ level2
 /
 /
 city
-/
-/
 {
 "
 section
@@ -673,9 +650,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "
@@ -1137,8 +1111,6 @@ fieldName
 organization
 "
 }
-/
-/
 {
 "
 section
@@ -1166,12 +1138,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -1262,8 +1228,6 @@ level2
 /
 /
 city
-/
-/
 {
 "
 section
@@ -1295,9 +1259,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "
@@ -1504,8 +1465,6 @@ fieldName
 organization
 "
 }
-/
-/
 {
 "
 section
@@ -1533,12 +1492,6 @@ fieldName
 country
 "
 }
-/
-/
-TODO
-:
-select
-country
 {
 "
 section
@@ -1626,8 +1579,6 @@ address
 level2
 "
 }
-/
-/
 {
 "
 section
@@ -1659,9 +1610,6 @@ level1
 }
 /
 /
-TODO
-:
-select
 state
 {
 "

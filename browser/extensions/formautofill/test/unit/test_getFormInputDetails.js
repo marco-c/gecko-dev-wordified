@@ -80,7 +80,7 @@ level2
 "
 >
 <
-input
+select
 id
 =
 "
@@ -91,6 +91,10 @@ autocomplete
 "
 country
 "
+>
+<
+/
+select
 >
 <
 input
@@ -131,7 +135,7 @@ street
 addr
 "
 "
-country
+email
 "
 ]
 expectedResult
@@ -345,7 +349,7 @@ fieldName
 "
 :
 "
-country
+email
 "
 }
 formId
@@ -556,7 +560,7 @@ level2
 "
 >
 <
-input
+select
 id
 =
 "
@@ -567,6 +571,10 @@ autocomplete
 "
 country
 "
+>
+<
+/
+select
 >
 <
 /
@@ -1152,8 +1160,13 @@ the
 exact
 reference
 of
-the
+<
 input
+>
+/
+<
+select
+>
 /
 /
 element
@@ -1164,7 +1177,7 @@ g
 #
 form1
 >
-input
+*
 [
 autocomplete
 =
@@ -1192,7 +1205,7 @@ formId
 +
 "
 >
-input
+*
 [
 autocomplete
 =

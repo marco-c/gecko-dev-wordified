@@ -171,6 +171,7 @@ level2
 }
 /
 /
+city
 {
 "
 section
@@ -202,7 +203,7 @@ level1
 }
 /
 /
-select
+state
 {
 "
 section
@@ -639,6 +640,7 @@ level2
 }
 /
 /
+city
 {
 "
 section
@@ -670,7 +672,7 @@ level1
 }
 /
 /
-select
+state
 {
 "
 section
