@@ -637,10 +637,10 @@ mVariationFont
 /
 true
 if
+font
+has
+OpenType
 variations
-are
-in
-effect
 }
 ;
 #

@@ -345,6 +345,11 @@ mRequiresAAT
 ;
 }
 bool
+HasVariations
+(
+)
+;
+bool
 IsCFF
 (
 )
@@ -408,6 +413,12 @@ mIsCFF
 ;
 bool
 mIsCFFInitialized
+;
+bool
+mHasVariations
+;
+bool
+mHasVariationsInitialized
 ;
 nsTHashtable
 <
