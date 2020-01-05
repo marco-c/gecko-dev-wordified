@@ -516,7 +516,7 @@ Constructor
 global
 :
 GlobalRef
-scriptURL
+script_url
 :
 DOMString
 )
@@ -560,7 +560,7 @@ get_url
 .
 parse
 (
-scriptURL
+script_url
 .
 as_slice
 (

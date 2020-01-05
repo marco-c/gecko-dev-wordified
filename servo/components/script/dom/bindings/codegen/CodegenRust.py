@@ -14211,7 +14211,7 @@ from_raw
 (
 &
 *
-aObject
+object
 )
 ;
 \
@@ -14270,7 +14270,7 @@ PrivateValue
 (
 squirrel_away_unique
 (
-aObject
+object
 )
 as
 *
@@ -14286,7 +14286,7 @@ obj
 =
 with_compartment
 (
-aCx
+cx
 proto
 |
 |
@@ -14294,7 +14294,7 @@ proto
     
 NewProxyObject
 (
-aCx
+cx
 handler
                    
 &
@@ -14363,7 +14363,7 @@ obj
 =
 create_dom_global
 (
-aCx
+cx
 &
 Class
 .
@@ -14398,7 +14398,7 @@ obj
 =
 with_compartment
 (
-aCx
+cx
 proto
 |
 |
@@ -14410,7 +14410,7 @@ n
 "
 JS_NewObject
 (
-aCx
+cx
 &
 Class
 .
@@ -14478,7 +14478,7 @@ PrivateValue
 (
 squirrel_away_unique
 (
-aObject
+object
 )
 as
 *
@@ -14566,7 +14566,7 @@ mut
 JSContext
 '
 '
-aCx
+cx
 '
 )
 Argument
@@ -14575,7 +14575,7 @@ Argument
 GlobalRef
 '
 '
-aScope
+scope
 '
 )
                     
@@ -14593,7 +14593,7 @@ descriptor
 .
 concreteType
 '
-aObject
+object
 '
 mutable
 =
@@ -14615,7 +14615,7 @@ mut
 JSContext
 '
 '
-aCx
+cx
 '
 )
                     
@@ -14633,7 +14633,7 @@ descriptor
 .
 concreteType
 '
-aObject
+object
 '
 mutable
 =
@@ -14699,7 +14699,7 @@ CGGeneric
 let
 scope
 =
-aScope
+scope
 .
 reflector
 (
@@ -14746,13 +14746,13 @@ proto
 =
 with_compartment
 (
-aCx
+cx
 scope
 |
 |
 GetProtoObject
 (
-aCx
+cx
 scope
 scope
 )
@@ -14818,7 +14818,7 @@ CGGeneric
 s
 with_compartment
 (
-aCx
+cx
 obj
 |
 |
@@ -14829,7 +14829,7 @@ proto
 =
 GetProtoObject
 (
-aCx
+cx
 obj
 obj
 )
@@ -14837,7 +14837,7 @@ obj
     
 JS_SetPrototype
 (
-aCx
+cx
 obj
 proto
 )
@@ -14860,7 +14860,7 @@ RegisterBindings
 :
 Register
 (
-aCx
+cx
 obj
 )
 ;
@@ -15557,7 +15557,7 @@ mut
 JSContext
 '
 '
-aCx
+cx
 '
 )
 Argument
@@ -15568,7 +15568,7 @@ mut
 JSObject
 '
 '
-aGlobal
+global
 '
 )
                 
@@ -15580,7 +15580,7 @@ mut
 JSObject
 '
 '
-aReceiver
+receiver
 '
 )
 ]
@@ -15638,8 +15638,8 @@ getParentProto
 "
 JS_GetObjectPrototype
 (
-aCx
-aGlobal
+cx
+global
 )
 "
         
@@ -15668,9 +15668,9 @@ s
 :
 GetProtoObject
 (
-aCx
-aGlobal
-aReceiver
+cx
+global
+receiver
 )
 "
 %
@@ -15686,7 +15686,7 @@ getParentProto
 (
 "
 let
-parentProto
+parent_proto
 :
 *
 mut
@@ -15704,7 +15704,7 @@ assert
 !
 (
 !
-parentProto
+parent_proto
 .
 is_null
 (
@@ -15877,10 +15877,10 @@ call
 return
 do_create_interface_objects
 (
-aCx
-aGlobal
-aReceiver
-parentProto
+cx
+global
+receiver
+parent_proto
                                    
 &
 PrototypeClass
@@ -15995,7 +15995,7 @@ mut
 JSContext
 '
 '
-aCx
+cx
 '
 )
 Argument
@@ -16006,7 +16006,7 @@ mut
 JSObject
 '
 '
-aGlobal
+global
 '
 )
                 
@@ -16018,7 +16018,7 @@ mut
 JSObject
 '
 '
-aReceiver
+receiver
 '
 )
 ]
@@ -16075,9 +16075,9 @@ CGGeneric
 "
 /
 *
-aGlobal
+global
 and
-aReceiver
+receiver
 are
 usually
 the
@@ -16116,14 +16116,14 @@ global
 In
 that
 case
-aReceiver
+receiver
 is
 the
 xray
    
 wrapper
 and
-aGlobal
+global
 is
 the
 sandbox
@@ -16142,7 +16142,7 @@ assert
 *
 JS_GetClass
 (
-aGlobal
+global
 )
 )
 .
@@ -16170,22 +16170,22 @@ installed
 *
 /
 let
-protoOrIfaceArray
+proto_or_iface_array
 =
 get_proto_or_iface_array
 (
-aGlobal
+global
 )
 ;
 let
-cachedObject
+cached_object
 :
 *
 mut
 JSObject
 =
 *
-protoOrIfaceArray
+proto_or_iface_array
 .
 offset
 (
@@ -16196,7 +16196,7 @@ int
 )
 ;
 if
-cachedObject
+cached_object
 .
 is_null
 (
@@ -16212,9 +16212,9 @@ JSObject
 =
 CreateInterfaceObjects
 (
-aCx
-aGlobal
-aReceiver
+cx
+global
+receiver
 )
 ;
     
@@ -16231,7 +16231,7 @@ is_null
 ;
     
 *
-protoOrIfaceArray
+proto_or_iface_array
 .
 offset
 (
@@ -16249,7 +16249,7 @@ tmp
 else
 {
     
-cachedObject
+cached_object
 }
 "
 "
