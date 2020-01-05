@@ -17424,6 +17424,15 @@ intl_GetCalendarInfo
 JS_FN
 (
 "
+intl_ComputeDisplayNames
+"
+intl_ComputeDisplayNames
+3
+0
+)
+JS_FN
+(
+"
 intl_IsValidTimeZoneName
 "
 intl_IsValidTimeZoneName
