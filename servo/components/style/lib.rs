@@ -522,6 +522,17 @@ pub
 mod
 gecko_string_cache
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+servo
+"
+)
+]
 extern
 crate
 heapsize
