@@ -667,13 +667,11 @@ the
 message
 used
 by
-ToIntegerIndex
+NonStandardToIndex
 for
 its
 initial
 range
-/
-/
 checking
 .
 JS_ReportErrorNumberASCII
@@ -828,10 +826,7 @@ index
 if
 (
 !
-js
-:
-:
-ToIntegerIndex
+NonStandardToIndex
 (
 cx
 v

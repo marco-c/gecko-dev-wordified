@@ -9753,7 +9753,7 @@ arg
 if
 (
 !
-ToIntegerIndex
+NonStandardToIndex
 (
 cx
 v
@@ -9931,7 +9931,7 @@ index
 if
 (
 !
-ToIntegerIndex
+NonStandardToIndex
 (
 cx
 args
