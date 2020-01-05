@@ -2576,7 +2576,7 @@ on
 *
 param
 {
-RTCSessionDescription
+RTCSessionDescriptionInit
 }
 desc
 *
@@ -3003,7 +3003,7 @@ on
 *
 param
 {
-RTCSessionDescription
+RTCSessionDescriptionInit
 }
 desc
 *
@@ -7091,7 +7091,7 @@ object
 }
 desc
 *
-RTCSessionDescription
+RTCSessionDescriptionInit
 for
 the
 local
@@ -7182,7 +7182,7 @@ object
 }
 desc
 *
-RTCSessionDescription
+RTCSessionDescriptionInit
 for
 the
 local
@@ -7284,7 +7284,7 @@ object
 }
 desc
 *
-RTCSessionDescription
+RTCSessionDescriptionInit
 for
 the
 remote
@@ -7413,7 +7413,7 @@ object
 }
 desc
 *
-RTCSessionDescription
+RTCSessionDescriptionInit
 for
 the
 remote
