@@ -5485,6 +5485,12 @@ ms
 lower_is_better
 =
 True
+    
+alert_threshold
+=
+5
+.
+0
 register_test
 (
 )
@@ -5569,3 +5575,9 @@ ms
 lower_is_better
 =
 True
+    
+alert_threshold
+=
+5
+.
+0
