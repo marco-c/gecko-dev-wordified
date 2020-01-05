@@ -8713,7 +8713,7 @@ if
 mParserContext
 )
 return
-kInvalidParserContext
+NS_ERROR_HTMLPARSER_INVALIDPARSERCONTEXT
 ;
 if
 (
@@ -10669,7 +10669,7 @@ given
 nsresult
 result
 =
-kBadURL
+NS_ERROR_HTMLPARSER_BADURL
 ;
 mObserver
 =
@@ -12552,7 +12552,7 @@ theIterationIsOk
 theTokenizerResult
 !
 =
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 &
 &
 result
@@ -12747,7 +12747,7 @@ result
 theTokenizerResult
 =
 =
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 )
 |
 |
@@ -12921,7 +12921,7 @@ if
 theTokenizerResult
 =
 =
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 |
 |
 result
@@ -15584,7 +15584,7 @@ RewindToMark
 ;
 if
 (
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 =
 =
 result

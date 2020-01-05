@@ -1847,7 +1847,7 @@ aChar
 0
 ;
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 }
 aChar
@@ -1928,7 +1928,7 @@ mEndPosition
 )
 {
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 }
 if
@@ -1946,7 +1946,7 @@ mCountRemaining
 aOffset
 )
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 nsScannerIterator
 pos
@@ -2006,7 +2006,7 @@ mEndPosition
 )
 {
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 }
 nsScannerIterator
@@ -2029,7 +2029,7 @@ aOffset
 )
 {
 return
-kEOF
+NS_ERROR_HTMLPARSER_EOF
 ;
 }
 if
