@@ -1054,7 +1054,7 @@ const
 uint32_t
 kMaxEventRecords
 =
-10000
+1000
 ;
 /
 /
@@ -1075,7 +1075,7 @@ const
 uint32_t
 kMaxValueByteLength
 =
-100
+80
 ;
 /
 /
@@ -1099,7 +1099,7 @@ const
 uint32_t
 kMaxExtraValueByteLength
 =
-100
+80
 ;
 typedef
 nsDataHashtable
