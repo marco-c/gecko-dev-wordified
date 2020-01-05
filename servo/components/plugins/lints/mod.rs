@@ -58,6 +58,10 @@ MPL
 /
 pub
 mod
+ban
+;
+pub
+mod
 inheritance_integrity
 ;
 pub
