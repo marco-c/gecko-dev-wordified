@@ -428,6 +428,14 @@ Forget
 (
 )
 {
+RefPtr
+<
+DecodedStreamGraphListener
+>
+self
+=
+this
+;
 mAbstractMainThread
 -
 >
@@ -436,7 +444,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 [
-this
+self
 ]
 (
 )
@@ -448,6 +456,9 @@ NS_IsMainThread
 )
 )
 ;
+self
+-
+>
 mFinishPromise
 .
 ResolveIfExists
