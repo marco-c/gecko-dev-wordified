@@ -238,6 +238,14 @@ T
 {
 private
 final
+TreeBuilder
+<
+T
+>
+treeBuilder
+;
+private
+final
 Auto
 StackNode
 <
@@ -346,6 +354,11 @@ quirks
 /
 StateSnapshot
 (
+TreeBuilder
+<
+T
+>
+treeBuilder
 StackNode
 <
 T
@@ -382,6 +395,12 @@ boolean
 quirks
 )
 {
+this
+.
+treeBuilder
+=
+treeBuilder
+;
 this
 .
 stack
@@ -889,6 +908,7 @@ i
 .
 release
 (
+treeBuilder
 )
 ;
 }
@@ -928,6 +948,7 @@ i
 .
 release
 (
+treeBuilder
 )
 ;
 }

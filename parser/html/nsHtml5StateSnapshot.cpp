@@ -406,6 +406,9 @@ nsHtml5StateSnapshot
 :
 nsHtml5StateSnapshot
 (
+nsHtml5TreeBuilder
+*
+treeBuilder
 jArray
 <
 nsHtml5StackNode
@@ -447,6 +450,10 @@ bool
 quirks
 )
 :
+treeBuilder
+(
+treeBuilder
+)
 stack
 (
 stack
@@ -728,6 +735,7 @@ i
 >
 release
 (
+treeBuilder
 )
 ;
 }
@@ -765,6 +773,7 @@ i
 >
 release
 (
+treeBuilder
 )
 ;
 }
