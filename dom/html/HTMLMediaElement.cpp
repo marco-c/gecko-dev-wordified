@@ -18767,6 +18767,10 @@ nullptr
 }
 if
 (
+!
+aCaptureAudio
+&
+&
 ContainsRestrictedContent
 (
 )
