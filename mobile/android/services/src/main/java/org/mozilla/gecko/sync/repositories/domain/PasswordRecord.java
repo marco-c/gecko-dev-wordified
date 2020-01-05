@@ -1464,7 +1464,7 @@ definitions
 :
 *
 *
-http
+https
 :
 /
 /

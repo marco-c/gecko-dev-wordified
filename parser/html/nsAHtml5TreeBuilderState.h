@@ -92,7 +92,7 @@ documentation
 please
 see
 *
-http
+https
 :
 /
 /

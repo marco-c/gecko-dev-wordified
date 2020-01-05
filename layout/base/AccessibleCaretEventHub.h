@@ -538,7 +538,7 @@ diagram
 :
 /
 /
-http
+https
 :
 /
 /
@@ -577,7 +577,7 @@ diagram
 :
 /
 /
-http
+https
 :
 /
 /
