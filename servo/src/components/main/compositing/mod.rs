@@ -1114,6 +1114,9 @@ Port
 <
 Msg
 >
+constellation_chan
+:
+ConstellationChan
 profiler_chan
 :
 ProfilerChan
@@ -1141,6 +1144,9 @@ Port
 <
 Msg
 >
+constellation_chan
+:
+ConstellationChan
 profiler_chan
 :
 ProfilerChan
@@ -1164,6 +1170,9 @@ opts
 port
 :
 port
+constellation_chan
+:
+constellation_chan
 profiler_chan
 :
 profiler_chan
