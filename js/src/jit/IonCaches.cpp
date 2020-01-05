@@ -3989,6 +3989,17 @@ JSFunction
 ;
 if
 (
+getter
+.
+isNative
+(
+)
+)
+return
+false
+;
+if
+(
 !
 getter
 .
