@@ -29763,6 +29763,7 @@ forceInitialBrowserNonRemote
 :
 function
 (
+aOpener
 )
 {
 let
@@ -29787,6 +29788,7 @@ updateBrowserRemoteness
 (
 initBrowser
 false
+aOpener
 )
 ;
 }
@@ -34046,6 +34048,9 @@ Ci
 nsIScriptSecurityManager
 .
 DEFAULT_USER_CONTEXT_ID
+aOpener
+=
+null
 )
 {
 let
@@ -34240,6 +34245,9 @@ loadInBackground
 forceNotRemote
 :
 aForceNotRemote
+opener
+:
+aOpener
 }
 )
 ;
@@ -34870,6 +34878,7 @@ isPrivate
 isExternal
 forceNotRemote
 userContextId
+aOpener
 )
 ;
 if

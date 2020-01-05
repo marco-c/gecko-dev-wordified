@@ -638,6 +638,9 @@ aChromeFlags
 nsITabParent
 *
 aOpeningTab
+mozIDOMWindowProxy
+*
+aOpenerWindow
 nsIXULWindow
 *
 *
@@ -652,6 +655,9 @@ aChromeFlags
 nsITabParent
 *
 aOpeningTab
+mozIDOMWindowProxy
+*
+aOpenerWindow
 nsIXULWindow
 *
 *

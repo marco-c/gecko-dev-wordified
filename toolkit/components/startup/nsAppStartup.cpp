@@ -3313,6 +3313,7 @@ aParent
 aChromeFlags
 0
 nullptr
+nullptr
 &
 cancel
 _retval
@@ -3387,6 +3388,9 @@ aContextFlags
 nsITabParent
 *
 aOpeningTab
+mozIDOMWindowProxy
+*
+aOpener
 bool
 *
 aCancel
@@ -3508,6 +3512,7 @@ CreateNewWindow
 (
 aChromeFlags
 aOpeningTab
+aOpener
 getter_AddRefs
 (
 newWindow
@@ -3646,6 +3651,7 @@ nsIAppShellService
 :
 SIZE_TO_CONTENT
 aOpeningTab
+aOpener
 getter_AddRefs
 (
 newWindow

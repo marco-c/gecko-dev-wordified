@@ -243,6 +243,9 @@ aIsHiddenWindow
 nsITabParent
 *
 aOpeningTab
+mozIDOMWindowProxy
+*
+aOpenerWindow
 nsWebShellWindow
 *
 *
