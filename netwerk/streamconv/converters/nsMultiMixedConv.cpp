@@ -4560,7 +4560,7 @@ aStatus
 }
 mPartChannel
 =
-0
+nullptr
 ;
 return
 rv

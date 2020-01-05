@@ -336,7 +336,7 @@ destroyed
 .
 mDeathGrip
 =
-0
+nullptr
 ;
 }
 virtual

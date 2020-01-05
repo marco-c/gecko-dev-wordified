@@ -5043,7 +5043,7 @@ else
 .
 mChannel
 =
-0
+nullptr
 ;
 /
 /

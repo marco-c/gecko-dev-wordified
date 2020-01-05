@@ -8147,7 +8147,7 @@ namespaces
 ;
 mEvictionFunction
 =
-0
+nullptr
 ;
 mStatement_CacheSize
 =

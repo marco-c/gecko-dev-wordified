@@ -1403,7 +1403,7 @@ self
 >
 delayed_task_
 =
-NULL
+nullptr
 ;
 /
 /

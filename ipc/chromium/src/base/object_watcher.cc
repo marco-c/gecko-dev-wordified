@@ -425,7 +425,7 @@ ObjectWatcher
 :
 watch_
 (
-NULL
+nullptr
 )
 {
 }
@@ -859,7 +859,7 @@ NULL
 ;
 watch_
 =
-NULL
+nullptr
 ;
 MessageLoop
 :

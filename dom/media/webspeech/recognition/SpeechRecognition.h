@@ -1268,11 +1268,11 @@ mAudioSegment
 )
 mRecognitionResultList
 (
-0
+nullptr
 )
 mError
 (
-0
+nullptr
 )
 mRecognition
 (

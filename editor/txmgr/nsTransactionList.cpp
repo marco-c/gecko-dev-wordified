@@ -196,7 +196,7 @@ aTxnStack
 )
 mTxnItem
 (
-0
+nullptr
 )
 {
 if
@@ -259,7 +259,7 @@ mTxnStack
 ;
 mTxnItem
 =
-0
+nullptr
 ;
 }
 NS_IMETHODIMP
