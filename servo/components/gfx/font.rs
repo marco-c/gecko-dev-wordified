@@ -659,12 +659,6 @@ SpecifiedFontStyle
 FontStyle
 ;
 pub
-type
-UsedFontStyle
-=
-FontStyle
-;
-pub
 struct
 Font
 {
