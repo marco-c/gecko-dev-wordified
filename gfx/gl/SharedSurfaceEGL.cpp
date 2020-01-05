@@ -1523,13 +1523,6 @@ GetHandle
 (
 )
 mSize
-false
-/
-*
-NOT
-continuous
-*
-/
 )
 ;
 return
