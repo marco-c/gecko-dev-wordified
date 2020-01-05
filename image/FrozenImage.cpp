@@ -438,6 +438,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 {
 return
@@ -455,6 +457,7 @@ FRAME_FIRST
 aSamplingFilter
 aSVGContext
 aFlags
+aOpacity
 )
 ;
 }

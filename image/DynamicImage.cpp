@@ -804,6 +804,9 @@ Nothing
 (
 )
 aFlags
+1
+.
+0
 )
 ;
 return
@@ -916,6 +919,8 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+float
+aOpacity
 )
 {
 MOZ_ASSERT
@@ -966,6 +971,7 @@ SurfaceFormat
 :
 B8G8R8A8
 aSamplingFilter
+aOpacity
 )
 ;
 return
@@ -1065,6 +1071,7 @@ SurfaceFormat
 :
 B8G8R8A8
 aSamplingFilter
+aOpacity
 )
 ;
 return
