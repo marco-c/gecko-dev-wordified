@@ -275,7 +275,10 @@ bindings
 str
 :
 :
+{
 USVString
+is_token
+}
 ;
 use
 dom
@@ -509,10 +512,7 @@ util
 str
 :
 :
-{
 DOMString
-is_token
-}
 ;
 use
 websocket
