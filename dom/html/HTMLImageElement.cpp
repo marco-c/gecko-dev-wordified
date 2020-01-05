@@ -1760,10 +1760,6 @@ RemoveImageElementFromTable
 (
 this
 tmp
-HTMLFormElement
-:
-:
-AttributeUpdated
 )
 ;
 }
@@ -4746,10 +4742,6 @@ RemoveImageElementFromTable
 (
 this
 nameVal
-HTMLFormElement
-:
-:
-ElementRemoved
 )
 ;
 }
@@ -4770,10 +4762,6 @@ RemoveImageElementFromTable
 (
 this
 idVal
-HTMLFormElement
-:
-:
-ElementRemoved
 )
 ;
 }
