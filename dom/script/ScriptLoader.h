@@ -2609,6 +2609,12 @@ IsBytecodeCacheEnabled
 (
 )
 ;
+static
+bool
+IsEagerBytecodeCache
+(
+)
+;
 nsresult
 CreateModuleScript
 (
