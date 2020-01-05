@@ -3080,8 +3080,10 @@ past
 .
 MOZ_ASSERT
 (
-!
-ObjectIsMarkedGray
+JS
+:
+:
+ObjectIsNotGray
 (
 obj
 )

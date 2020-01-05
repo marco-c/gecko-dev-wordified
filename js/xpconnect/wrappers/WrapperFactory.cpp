@@ -765,8 +765,10 @@ obj
 }
 MOZ_ASSERT
 (
-!
-ObjectIsMarkedGray
+JS
+:
+:
+ObjectIsNotGray
 (
 waiver
 )
@@ -2675,8 +2677,10 @@ object
 ;
 MOZ_ASSERT
 (
-!
-ObjectIsMarkedGray
+JS
+:
+:
+ObjectIsNotGray
 (
 obj
 )

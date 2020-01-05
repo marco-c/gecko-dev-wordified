@@ -959,11 +959,10 @@ const
 {
 MOZ_ASSERT
 (
-!
 JS
 :
 :
-ObjectIsMarkedGray
+ObjectIsNotGray
 (
 mCallback
 )
