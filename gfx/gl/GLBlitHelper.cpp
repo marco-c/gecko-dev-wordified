@@ -4730,6 +4730,7 @@ surf
 >
 CGLTexImageIOSurface2D
 (
+mGL
 gl
 :
 :
@@ -4815,6 +4816,7 @@ surf
 >
 CGLTexImageIOSurface2D
 (
+mGL
 gl
 :
 :
