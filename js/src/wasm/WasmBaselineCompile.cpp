@@ -34623,6 +34623,12 @@ unused_value
 return
 false
 ;
+iter_
+.
+popEnd
+(
+)
+;
 switch
 (
 kind
