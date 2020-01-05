@@ -624,6 +624,7 @@ p
 dummy
 children
 :
+~
 [
 dummy
 ]
@@ -632,6 +633,7 @@ dummy
 let
 children
 =
+~
 [
 new_dummy
 (

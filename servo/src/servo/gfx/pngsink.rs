@@ -24,6 +24,7 @@ bufsink
 will
 output
 a
+~
 [
 u8
 ]
@@ -277,6 +278,7 @@ output
 :
 chan
 <
+~
 [
 u8
 ]
@@ -425,6 +427,7 @@ output
 :
 chan
 <
+~
 [
 u8
 ]
@@ -442,6 +445,7 @@ data_ch
 :
 chan
 <
+~
 [
 u8
 ]
@@ -475,6 +479,7 @@ p
 *
 chan
 <
+~
 [
 u8
 ]
@@ -576,6 +581,7 @@ let
 mut
 result
 =
+~
 [
 ]
 ;
@@ -665,6 +671,7 @@ sink
 let
 dlist
 =
+~
 [
 ]
 ;

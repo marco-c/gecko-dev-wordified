@@ -72,6 +72,7 @@ Selector
 Element
 (
 str
+~
 [
 Attr
 ]
@@ -102,10 +103,12 @@ type
 Rule
 =
 (
+~
 [
 ~
 Selector
 ]
+~
 [
 StyleDeclaration
 ]
@@ -114,6 +117,7 @@ StyleDeclaration
 type
 Stylesheet
 =
+~
 [
 ~
 Rule
