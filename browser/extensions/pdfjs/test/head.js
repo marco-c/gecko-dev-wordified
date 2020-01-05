@@ -11,9 +11,9 @@ Runs
 tests
 after
 all
-'
+"
 load
-'
+"
 event
 handlers
 have
@@ -29,7 +29,7 @@ url
 function
 *
 (
-url
+contentUrl
 )
 {
 yield
@@ -99,7 +99,7 @@ content
 .
 location
 =
-url
+contentUrl
 ;
 }
 )
