@@ -1565,9 +1565,9 @@ public
 :
 JitProfilingFrameIterator
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 JS
 :
