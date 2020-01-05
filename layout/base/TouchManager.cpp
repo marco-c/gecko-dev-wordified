@@ -144,6 +144,13 @@ nsView
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -282,9 +289,6 @@ nsIContent
 *
 GetNonAnonymousAncestor
 (
-dom
-:
-:
 EventTarget
 *
 aTarget
@@ -342,9 +346,6 @@ EvictTouchPoint
 (
 RefPtr
 <
-dom
-:
-:
 Touch
 >
 &
@@ -602,9 +603,6 @@ Next
 {
 RefPtr
 <
-dom
-:
-:
 Touch
 >
 &
@@ -863,9 +861,6 @@ Length
 i
 )
 {
-dom
-:
-:
 Touch
 *
 touch
@@ -1025,9 +1020,6 @@ i
 -
 i
 ;
-dom
-:
-:
 Touch
 *
 touch
@@ -1095,9 +1087,6 @@ continue
 }
 RefPtr
 <
-dom
-:
-:
 Touch
 >
 oldTouch
@@ -1132,9 +1121,6 @@ true
 }
 nsCOMPtr
 <
-dom
-:
-:
 EventTarget
 >
 targetPtr
@@ -1506,9 +1492,6 @@ Length
 i
 )
 {
-dom
-:
-:
 Touch
 *
 touch
@@ -1753,9 +1736,6 @@ Next
 {
 RefPtr
 <
-dom
-:
-:
 Touch
 >
 &
@@ -1774,9 +1754,6 @@ if
 touch
 )
 {
-dom
-:
-:
 EventTarget
 *
 target
@@ -1845,9 +1822,6 @@ static
 /
 already_AddRefed
 <
-dom
-:
-:
 Touch
 >
 TouchManager
@@ -1861,9 +1835,6 @@ aId
 {
 RefPtr
 <
-dom
-:
-:
 Touch
 >
 touch
