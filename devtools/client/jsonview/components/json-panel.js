@@ -904,6 +904,11 @@ className
 :
 "
 jsonPanelBox
+tab
+-
+panel
+-
+inner
 "
 }
 JsonToolbar

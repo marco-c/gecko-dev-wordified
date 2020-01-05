@@ -293,6 +293,11 @@ className
 :
 "
 headersPanelBox
+tab
+-
+panel
+-
+inner
 "
 }
 HeadersToolbar
