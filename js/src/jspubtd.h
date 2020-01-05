@@ -357,7 +357,7 @@ enumeration
 enum
 JSType
 {
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 /
 *
 undefined

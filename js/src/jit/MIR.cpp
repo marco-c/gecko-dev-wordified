@@ -26365,7 +26365,7 @@ Undefined
 :
 type
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 ;
 break
 ;
@@ -30158,7 +30158,7 @@ toString
 =
 TypeName
 (
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 names
 )
 )

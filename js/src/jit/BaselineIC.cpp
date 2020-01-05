@@ -33849,7 +33849,7 @@ type_
 )
 {
 case
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 :
 masm
 .

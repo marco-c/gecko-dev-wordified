@@ -20498,7 +20498,7 @@ str
 hint
 =
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 ?
 "
 primitive
@@ -20557,7 +20557,7 @@ JSTYPE_STRING
 hint
 =
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 )
 ;
 Rooted
@@ -21047,7 +21047,7 @@ MOZ_ASSERT
 preferredType
 =
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 |
 |
 preferredType

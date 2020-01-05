@@ -8627,7 +8627,7 @@ MOZ_ASSERT
 hint
 =
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 |
 |
 hint
@@ -8786,7 +8786,7 @@ match
 *
 result
 =
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 ;
 return
 true

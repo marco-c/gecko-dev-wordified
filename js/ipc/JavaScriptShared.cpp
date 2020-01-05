@@ -1164,7 +1164,7 @@ from
 )
 {
 case
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 :
 *
 to

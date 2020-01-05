@@ -11370,10 +11370,10 @@ be
 JSTYPE_STRING
 JSTYPE_NUMBER
 or
-JSTYPE_VOID
+*
+JSTYPE_UNDEFINED
 (
 no
-*
 hint
 )
 .
@@ -11449,13 +11449,12 @@ default
 "
 set
 *
-*
 result
 to
 JSTYPE_STRING
 JSTYPE_NUMBER
 or
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 accordingly
 and
 *

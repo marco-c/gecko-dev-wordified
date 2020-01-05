@@ -17229,7 +17229,7 @@ toString
 =
 TypeName
 (
-JSTYPE_VOID
+JSTYPE_UNDEFINED
 names
 )
 )
