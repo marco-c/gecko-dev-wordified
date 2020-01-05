@@ -832,7 +832,7 @@ WrBridge
 )
 -
 >
-AddWebRenderCommand
+AddWebRenderParentCommand
 (
 OpAddExternalImage
 (

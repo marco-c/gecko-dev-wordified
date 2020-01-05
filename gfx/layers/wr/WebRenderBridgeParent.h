@@ -576,7 +576,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &
@@ -633,7 +633,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &
@@ -1007,7 +1007,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 commands
@@ -1073,7 +1073,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &

@@ -1112,7 +1112,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &
@@ -1268,7 +1268,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &
@@ -1352,7 +1352,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 &
@@ -1430,7 +1430,7 @@ IntSize
 aSize
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 &
 aCommands
@@ -1487,7 +1487,7 @@ for
 (
 InfallibleTArray
 <
-WebRenderCommand
+WebRenderParentCommand
 >
 :
 :
@@ -1510,7 +1510,7 @@ i
 )
 {
 const
-WebRenderCommand
+WebRenderParentCommand
 &
 cmd
 =
@@ -1529,7 +1529,7 @@ type
 )
 {
 case
-WebRenderCommand
+WebRenderParentCommand
 :
 :
 TOpAddExternalImage
@@ -1765,7 +1765,7 @@ break
 ;
 }
 case
-WebRenderCommand
+WebRenderParentCommand
 :
 :
 TCompositableOperation
