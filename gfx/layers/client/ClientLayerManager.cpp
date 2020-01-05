@@ -4960,10 +4960,10 @@ HasShadow
 )
 )
 {
-ShadowLayerChild
+PLayerChild
 :
 :
-Destroy
+Send__delete__
 (
 GetShadow
 (
