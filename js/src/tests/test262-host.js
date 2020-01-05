@@ -120,6 +120,7 @@ newGlobal
 ;
 global
 .
+262
 =
 {
 __proto__
@@ -166,6 +167,7 @@ this
 return
 newGlobalObject
 .
+262
 ;
 }
 detachArrayBuffer
