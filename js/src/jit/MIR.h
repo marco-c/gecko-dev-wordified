@@ -2393,8 +2393,6 @@ AssertBasicGraphCoherency
 MIRGraph
 &
 graph
-bool
-force
 )
 ;
 /
@@ -64144,8 +64142,6 @@ AssertBasicGraphCoherency
 MIRGraph
 &
 graph
-bool
-force
 )
 ;
 /
