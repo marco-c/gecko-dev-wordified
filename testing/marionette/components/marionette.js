@@ -522,9 +522,6 @@ enabled
 (
 )
 {
-#
-ifdef
-ENABLE_MARIONETTE
 let
 fallback
 =
@@ -555,13 +552,6 @@ enabled
 fallback
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 get
 port
