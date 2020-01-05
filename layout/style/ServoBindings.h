@@ -2594,6 +2594,17 @@ nsStyleFont
 aSource
 )
 ;
+nscoord
+Gecko_nsStyleFont_GetBaseSize
+(
+const
+nsStyleFont
+*
+font
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 const
 nsMediaFeature
 *
