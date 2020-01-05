@@ -13021,7 +13021,7 @@ ifdef
 MOZ_TASK_TRACER
 if
 (
-mTaskTracer
+gTaskTracer
 )
 {
 mozilla
@@ -13944,7 +13944,7 @@ ifdef
 MOZ_TASK_TRACER
 if
 (
-mTaskTracer
+gTaskTracer
 )
 {
 mozilla
