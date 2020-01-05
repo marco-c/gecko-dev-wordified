@@ -321,6 +321,9 @@ AUDIO_GLOBALS
 =
 [
 "
+BaseAudioContext
+"
+"
 AudioContext
 "
 "
@@ -2700,7 +2703,7 @@ simple
 interaction
 with
 an
-AudioContext
+BaseAudioContext
 *
 high
 -
@@ -3224,8 +3227,8 @@ is
 called
 like
 an
-AudioContext
 *
+BaseAudioContext
 method
 or
 an
