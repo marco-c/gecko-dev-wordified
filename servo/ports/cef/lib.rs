@@ -148,6 +148,10 @@ script
 ;
 extern
 crate
+unicode
+;
+extern
+crate
 net
 ;
 extern
