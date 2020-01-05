@@ -1275,8 +1275,8 @@ virtual
 ScalarBase
 (
 )
-=
-default
+{
+}
 ;
 /
 /
@@ -1581,9 +1581,8 @@ mStorage
 ScalarUnsigned
 (
 )
-override
-=
-default
+{
+}
 ;
 ScalarResult
 SetValue
@@ -2246,9 +2245,8 @@ EmptyString
 ScalarString
 (
 )
-override
-=
-default
+{
+}
 ;
 ScalarResult
 SetValue
@@ -2685,9 +2683,8 @@ false
 ScalarBoolean
 (
 )
-override
-=
-default
+{
+}
 ;
 ScalarResult
 SetValue
@@ -3198,8 +3195,8 @@ aScalarKind
 KeyedScalar
 (
 )
-=
-default
+{
+}
 ;
 /
 /

@@ -324,9 +324,8 @@ protected
 nsCommandLine
 (
 )
-=
-default
-;
+{
+}
 typedef
 nsresult
 (

@@ -155,9 +155,8 @@ nsFindService
 nsFindService
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsFindService

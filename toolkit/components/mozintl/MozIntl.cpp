@@ -150,9 +150,8 @@ MozIntl
 MozIntl
 (
 )
-=
-default
-;
+{
+}
 MozIntl
 :
 :
@@ -160,9 +159,8 @@ MozIntl
 MozIntl
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 MozIntl
 :
