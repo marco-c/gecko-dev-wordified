@@ -361,7 +361,6 @@ inheritance
 {
 Castable
 CharacterDataTypeId
-ElementTypeId
 }
 ;
 use
@@ -376,7 +375,6 @@ inheritance
 :
 {
 EventTargetTypeId
-HTMLElementTypeId
 NodeTypeId
 }
 ;
