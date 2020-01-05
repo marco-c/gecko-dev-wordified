@@ -360,12 +360,6 @@ aRestyleHint
 &
 !
 aMinChangeHint
-&
-&
-!
-HasPendingRestyles
-(
-)
 )
 {
 return
