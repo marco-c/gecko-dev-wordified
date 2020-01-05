@@ -1255,6 +1255,9 @@ SERVO_BINDING_FUNC
 (
 Servo_Initialize
 void
+RawGeckoURLExtraData
+*
+dummy_url_data
 )
 /
 /
