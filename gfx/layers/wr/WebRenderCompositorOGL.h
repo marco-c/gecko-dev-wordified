@@ -715,6 +715,11 @@ aScheduler
 ;
 private
 :
+void
+CleanupResources
+(
+)
+;
 RefPtr
 <
 GLContext

@@ -526,6 +526,11 @@ aWhy
 )
 override
 ;
+void
+Destroy
+(
+)
+;
 /
 /
 CompositorVsyncSchedulerOwner
@@ -662,6 +667,9 @@ nsUint64HashKey
 uint64_t
 >
 mExternalImageIds
+;
+bool
+mDestroyed
 ;
 }
 ;
