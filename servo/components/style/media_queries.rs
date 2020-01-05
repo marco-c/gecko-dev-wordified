@@ -106,10 +106,7 @@ use
 values
 :
 :
-{
-computed
 specified
-}
 ;
 #
 [
@@ -558,12 +555,10 @@ get_initial_value
 ;
 Ok
 (
-computed
-:
-:
-compute_Au_with_font_size
-(
 length
+.
+to_computed_value_with_font_size
+(
 initial_font_size
 initial_font_size
 )
