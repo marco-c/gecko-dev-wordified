@@ -779,6 +779,10 @@ bk_intrinsic
 size
 )
 }
+es_unknown
+{
+bk_inline
+}
 }
 }
 }
