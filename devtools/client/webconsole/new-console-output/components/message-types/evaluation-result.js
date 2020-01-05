@@ -163,8 +163,6 @@ message
 const
 GripMessageBody
 =
-createFactory
-(
 require
 (
 "
@@ -188,7 +186,6 @@ message
 -
 body
 "
-)
 )
 ;
 EvaluationResult
@@ -218,6 +215,13 @@ PropTypes
 number
 .
 isRequired
+timestampsVisible
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 EvaluationResult
@@ -241,6 +245,7 @@ const
 message
 serviceContainer
 indent
+timestampsVisible
 }
 =
 props
@@ -367,9 +372,9 @@ mozilla
 "
 ]
 ;
-const
-childProps
-=
+return
+Message
+(
 {
 source
 type
@@ -389,12 +394,8 @@ frame
 timeStamp
 parameters
 notes
+timestampsVisible
 }
-;
-return
-Message
-(
-childProps
 )
 ;
 }

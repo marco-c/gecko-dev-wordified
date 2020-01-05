@@ -189,13 +189,16 @@ function
 VariablesViewLink
 (
 props
+.
+.
+.
+children
 )
 {
 const
 {
 className
 object
-children
 }
 =
 props
@@ -282,6 +285,9 @@ draggable
 :
 false
 }
+.
+.
+.
 children
 )
 )

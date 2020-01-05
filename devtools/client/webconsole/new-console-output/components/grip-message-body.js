@@ -165,7 +165,6 @@ loader
 React
 const
 {
-createFactory
 PropTypes
 }
 =
@@ -187,8 +186,6 @@ react
 const
 VariablesViewLink
 =
-createFactory
-(
 require
 (
 "
@@ -212,7 +209,6 @@ view
 -
 link
 "
-)
 )
 ;
 const
@@ -519,13 +515,6 @@ mode
 )
 ;
 }
-function
-cleanupStyle
-(
-userProvidedStyle
-createElement
-)
-{
 /
 /
 Regular
@@ -724,6 +713,13 @@ file
 gi
 ]
 ;
+function
+cleanupStyle
+(
+userProvidedStyle
+createElement
+)
+{
 /
 /
 Use
