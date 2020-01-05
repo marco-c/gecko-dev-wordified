@@ -549,7 +549,7 @@ mem
 :
 {
 forget
-min_align_of
+align_of
 size_of
 transmute
 }
@@ -3259,7 +3259,7 @@ buffer
 allocate
 (
 size
-min_align_of
+align_of
 :
 :
 <
@@ -3696,7 +3696,7 @@ as
 mut
 u8
 size
-min_align_of
+align_of
 :
 :
 <

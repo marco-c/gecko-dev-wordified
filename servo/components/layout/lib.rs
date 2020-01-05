@@ -93,14 +93,6 @@ filling_drop
 [
 feature
 (
-float_consts
-)
-]
-#
-!
-[
-feature
-(
 hashmap_hasher
 )
 ]

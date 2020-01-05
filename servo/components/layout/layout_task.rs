@@ -609,12 +609,6 @@ use
 std
 :
 :
-ptr
-;
-use
-std
-:
-:
 sync
 :
 :
