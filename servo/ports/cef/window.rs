@@ -219,15 +219,6 @@ use
 euclid
 :
 :
-rect
-:
-:
-Rect
-;
-use
-euclid
-:
-:
 scale_factor
 :
 :
@@ -1967,7 +1958,7 @@ set_inner_size
 (
 &
 self
-size
+_size
 :
 Size2D
 <
@@ -1981,7 +1972,7 @@ set_position
 (
 &
 self
-point
+_point
 :
 Point2D
 <
