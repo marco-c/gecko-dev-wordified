@@ -4910,6 +4910,17 @@ GlobalObject
 global
 )
 ;
+static
+bool
+addPluralRulesConstructor
+(
+JSContext
+*
+cx
+HandleObject
+intl
+)
+;
 /
 /
 Implemented
