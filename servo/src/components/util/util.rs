@@ -221,6 +221,10 @@ geometry
 ;
 pub
 mod
+logical_geometry
+;
+pub
+mod
 memory
 ;
 pub
