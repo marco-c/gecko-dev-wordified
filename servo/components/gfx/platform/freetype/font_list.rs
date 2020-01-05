@@ -390,9 +390,10 @@ FcPatternCreate
 assert
 !
 (
+!
 pattern
 .
-is_not_null
+is_null
 (
 )
 )
@@ -457,9 +458,10 @@ FcObjectSetCreate
 assert
 !
 (
+!
 object_set
 .
-is_not_null
+is_null
 (
 )
 )

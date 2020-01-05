@@ -318,11 +318,12 @@ self
 assert
 !
 (
+!
 self
 .
 ctx
 .
-is_not_null
+is_null
 (
 )
 )

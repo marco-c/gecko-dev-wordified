@@ -509,9 +509,10 @@ application
 )
 ;
 if
+!
 handler
 .
-is_not_null
+is_null
 (
 )
 {
