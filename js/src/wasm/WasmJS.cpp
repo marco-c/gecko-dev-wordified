@@ -2776,7 +2776,9 @@ cx
 HandleObject
 obj
 uint32_t
-max
+maxInitial
+uint32_t
+maxMaximum
 const
 char
 *
@@ -2851,7 +2853,7 @@ ToNonWrappingUint32
 (
 cx
 initialVal
-max
+maxInitial
 kind
 "
 initial
@@ -2959,7 +2961,7 @@ ToNonWrappingUint32
 (
 cx
 maxVal
-max
+maxMaximum
 kind
 "
 maximum
@@ -8471,9 +8473,8 @@ GetLimits
 (
 cx
 obj
-UINT32_MAX
-/
-PageSize
+MaxMemoryInitialPages
+MaxMemoryMaximumPages
 "
 Memory
 "
@@ -10305,6 +10306,7 @@ GetLimits
 (
 cx
 obj
+MaxTableInitialLength
 UINT32_MAX
 "
 Table
