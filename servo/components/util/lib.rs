@@ -255,6 +255,8 @@ rand
 extern
 crate
 "
+rustc
+-
 serialize
 "
 as

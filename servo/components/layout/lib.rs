@@ -251,14 +251,12 @@ script_traits
 extern
 crate
 "
+rustc
+-
 serialize
 "
 as
 rustc_serialize
-;
-extern
-crate
-serialize
 ;
 extern
 crate

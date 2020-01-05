@@ -131,14 +131,6 @@ int_uint
 #
 !
 [
-feature
-(
-rustc_private
-)
-]
-#
-!
-[
 allow
 (
 non_snake_case
@@ -159,6 +151,8 @@ msg
 extern
 crate
 "
+rustc
+-
 serialize
 "
 as

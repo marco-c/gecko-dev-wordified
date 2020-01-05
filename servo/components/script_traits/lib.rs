@@ -83,14 +83,6 @@ libc
 #
 !
 [
-feature
-(
-rustc_private
-)
-]
-#
-!
-[
 allow
 (
 missing_copy_implementations
@@ -123,10 +115,6 @@ util
 extern
 crate
 url
-;
-extern
-crate
-serialize
 ;
 /
 /

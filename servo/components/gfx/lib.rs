@@ -259,6 +259,8 @@ script_traits
 extern
 crate
 "
+rustc
+-
 serialize
 "
 as

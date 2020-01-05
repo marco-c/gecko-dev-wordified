@@ -514,7 +514,7 @@ use
 libc
 ;
 use
-serialize
+rustc_serialize
 :
 :
 base64

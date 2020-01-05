@@ -158,7 +158,7 @@ protocol
 JsonPacketStream
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json

@@ -518,7 +518,7 @@ display_list
 ClippingRegion
 ;
 use
-serialize
+rustc_serialize
 :
 :
 {

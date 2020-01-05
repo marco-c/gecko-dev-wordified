@@ -96,7 +96,7 @@ JSON_Packets
 )
 .
 use
-serialize
+rustc_serialize
 :
 :
 {
@@ -105,7 +105,7 @@ Encodable
 }
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json
@@ -468,7 +468,7 @@ packet
 return
 Ok
 (
-json
+Json
 :
 :
 from_str

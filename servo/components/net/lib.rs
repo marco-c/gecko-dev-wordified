@@ -188,7 +188,7 @@ rustc
 serialize
 "
 as
-serialize
+rustc_serialize
 ;
 extern
 crate
