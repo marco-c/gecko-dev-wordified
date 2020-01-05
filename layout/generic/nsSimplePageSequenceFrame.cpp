@@ -4319,7 +4319,7 @@ renderingContext
 dc
 -
 >
-CreateRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

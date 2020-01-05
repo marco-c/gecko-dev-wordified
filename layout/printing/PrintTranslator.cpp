@@ -203,7 +203,7 @@ context
 mDeviceContext
 -
 >
-CreateRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;
