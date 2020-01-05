@@ -958,7 +958,7 @@ mOwnerRule
 ;
 }
 void
-AppendStyleSheet
+PrependStyleSheet
 (
 StyleSheet
 *
