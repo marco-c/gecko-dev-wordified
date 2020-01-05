@@ -321,7 +321,9 @@ kind
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -542,7 +544,9 @@ function
 extras
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -741,7 +745,9 @@ json
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -853,7 +859,9 @@ json
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -932,7 +940,9 @@ function
 (
 )
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
@@ -1001,7 +1011,9 @@ function
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1100,7 +1112,9 @@ function
 )
 {
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -1176,7 +1190,9 @@ Account
 ;
 }
 return
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
