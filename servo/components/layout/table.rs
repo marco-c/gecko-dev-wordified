@@ -114,9 +114,10 @@ flow
 :
 :
 {
-TableFlowClass
-FlowClass
 Flow
+FlowClass
+IMPACTED_BY_LEFT_FLOATS
+IMPACTED_BY_RIGHT_FLOATS
 ImmutableFlowUtils
 }
 ;
@@ -125,8 +126,7 @@ flow
 :
 :
 {
-IMPACTED_BY_LEFT_FLOATS
-IMPACTED_BY_RIGHT_FLOATS
+TableFlowClass
 }
 ;
 use

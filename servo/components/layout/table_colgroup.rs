@@ -93,6 +93,7 @@ flow
 :
 {
 BaseFlow
+ForceNonfloated
 TableColGroupFlowClass
 FlowClass
 Flow
@@ -320,6 +321,7 @@ clone
 )
 )
 writing_mode
+ForceNonfloated
 )
 fragment
 :
