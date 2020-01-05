@@ -459,7 +459,7 @@ layout
 wrapper
 :
 :
-LayoutNode
+ThreadSafeLayoutNode
 ;
 use
 extra
@@ -3985,7 +3985,7 @@ id
 int
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >

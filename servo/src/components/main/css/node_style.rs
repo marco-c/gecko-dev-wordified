@@ -89,7 +89,7 @@ layout
 wrapper
 :
 :
-LayoutNode
+ThreadSafeLayoutNode
 ;
 use
 extra
@@ -162,7 +162,7 @@ ln
 >
 StyledNode
 for
-LayoutNode
+ThreadSafeLayoutNode
 <
 '
 ln
