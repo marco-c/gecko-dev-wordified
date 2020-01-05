@@ -3908,7 +3908,7 @@ media
 :
 :
 TimeUnit
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 ;
 /
 /
@@ -3936,7 +3936,7 @@ decoding
 If
 we
 increase
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 we
 '
 ll
@@ -3953,7 +3953,7 @@ don
 '
 t
 want
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 /
 /
 to

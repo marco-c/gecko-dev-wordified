@@ -773,9 +773,7 @@ has
 less
 than
 this
-many
-usecs
-of
+much
 decoded
 audio
 we
@@ -831,7 +829,7 @@ decode
 static
 constexpr
 auto
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 =
 TimeUnit
 :
@@ -876,7 +874,7 @@ threshold
 see
 /
 /
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 above
 )
 we
@@ -1066,7 +1064,7 @@ threshold
 "
 (
 see
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 above
 )
 we
@@ -4868,7 +4866,7 @@ adjustedTime
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -4887,7 +4885,7 @@ HasLowBufferedData
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 =
 TimeUnit
 :
@@ -4922,7 +4920,7 @@ THRESHOLD_FACTOR
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -4956,7 +4954,7 @@ PRId64
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -13731,7 +13729,7 @@ GetDecodedAudioDuration
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -15807,12 +15805,12 @@ mPlaybackRate
 .
 0
 )
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 (
 detail
 :
 :
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 )
 mAmpleAudioThresholdUsecs
 (
