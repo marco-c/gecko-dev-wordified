@@ -433,7 +433,7 @@ pixelType
 gl
 tiu
 wtu
-false
+true
 )
 ;
 setCanvasTo257x257
@@ -453,7 +453,7 @@ pixelType
 gl
 tiu
 wtu
-false
+true
 )
 ;
 finishTest

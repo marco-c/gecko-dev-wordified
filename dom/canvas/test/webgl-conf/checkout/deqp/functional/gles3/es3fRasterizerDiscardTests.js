@@ -1827,9 +1827,7 @@ isOk
 )
 )
 {
-console
-.
-log
+bufferedLogToConsole
 (
 this
 .
@@ -1926,9 +1924,7 @@ false
 var
 vertices
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Case
@@ -2006,9 +2002,7 @@ gl
 drawingBufferHeight
 )
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Scissor
@@ -2366,9 +2360,7 @@ gl
 RASTERIZER_DISCARD
 )
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Rasterizer
@@ -2611,9 +2603,7 @@ gl
 RASTERIZER_DISCARD
 )
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Rasterizer
@@ -3066,9 +3056,7 @@ IterateResult
 STOP
 ;
 }
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Primitive
@@ -4987,9 +4975,7 @@ tests
 false
 )
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 err
 )

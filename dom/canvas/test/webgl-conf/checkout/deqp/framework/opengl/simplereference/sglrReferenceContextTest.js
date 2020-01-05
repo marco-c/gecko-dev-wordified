@@ -1554,9 +1554,7 @@ RENDERBUFFER
 rbo
 )
 ;
-console
-.
-log
+bufferedLogToConsole
 (
 '
 Framebuffer

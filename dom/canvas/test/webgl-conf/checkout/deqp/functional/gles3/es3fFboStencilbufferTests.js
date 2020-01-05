@@ -678,6 +678,14 @@ this
 m_format
 )
 ;
+return
+true
+;
+/
+/
+No
+exception
+thrown
 }
 ;
 /

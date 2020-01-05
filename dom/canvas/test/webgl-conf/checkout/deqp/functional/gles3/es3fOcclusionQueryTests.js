@@ -5713,6 +5713,7 @@ run
 function
 (
 context
+range
 )
 {
 gl
@@ -5781,6 +5782,17 @@ getDescription
 ;
 try
 {
+if
+(
+range
+)
+state
+.
+setRange
+(
+range
+)
+;
 /
 /
 Run

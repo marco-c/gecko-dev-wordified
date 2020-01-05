@@ -4785,7 +4785,11 @@ gl
 .
 TRANSFORM_FEEDBACK_BUFFER
 0
+new
+Uint8Array
+(
 result
+)
 )
 ;
 /

@@ -3489,7 +3489,7 @@ var
 readBuffer
 =
 new
-ArrayBuffer
+Uint8Array
 (
 offset
 +
@@ -3534,11 +3534,7 @@ bufferData
 gl
 .
 ARRAY_BUFFER
-new
-Uint8Array
-(
 readBuffer
-)
 gl
 .
 STATIC_DRAW

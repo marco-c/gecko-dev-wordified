@@ -1210,9 +1210,7 @@ when
 the
 test
 fails
-console
-.
-log
+bufferedLogToConsole
 (
 '
 ShaderBuildInConstantCase

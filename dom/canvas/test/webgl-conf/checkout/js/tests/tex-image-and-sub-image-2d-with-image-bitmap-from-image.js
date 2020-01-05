@@ -408,6 +408,17 @@ function
 (
 )
 {
+bufferedLogToConsole
+(
+"
+Source
+image
+has
+been
+loaded
+"
+)
+;
 runImageBitmapTest
 (
 image

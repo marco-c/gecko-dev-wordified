@@ -1306,7 +1306,7 @@ InputType
 .
 HALF
 '
-usigned_int2_10_10_10
+unsigned_int2_10_10_10
 '
 /
 /
