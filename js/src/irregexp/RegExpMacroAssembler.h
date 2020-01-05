@@ -395,6 +395,9 @@ public
 :
 RegExpMacroAssembler
 (
+JSContext
+*
+cx
 LifoAlloc
 &
 alloc
@@ -427,6 +430,7 @@ numSavedRegisters
 )
 shared
 (
+cx
 shared
 )
 {
@@ -1800,8 +1804,7 @@ reg
 }
 public
 :
-RegExpShared
-*
+RootedRegExpShared
 shared
 ;
 }
@@ -1858,6 +1861,9 @@ public
 :
 InterpretedRegExpMacroAssembler
 (
+JSContext
+*
+cx
 LifoAlloc
 *
 alloc
