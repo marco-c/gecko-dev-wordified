@@ -12364,7 +12364,7 @@ true
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 EditorBase
 :
 :
@@ -14258,7 +14258,7 @@ node
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 EditorBase
 :
 :

@@ -1937,7 +1937,7 @@ changed
 .
 *
 /
-NS_IMETHOD
+nsresult
 NotifyDocumentListeners
 (
 TDocumentListenerNotification
@@ -2065,7 +2065,7 @@ match
 .
 *
 /
-NS_IMETHOD
+nsresult
 ScrollSelectionIntoView
 (
 bool
