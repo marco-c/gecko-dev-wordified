@@ -1082,7 +1082,9 @@ Updates
 the
 current
 subpage
-id
+and
+pipeline
+IDs
 of
 a
 given
@@ -1092,6 +1094,7 @@ UpdateSubpageId
 PipelineId
 SubpageId
 SubpageId
+PipelineId
 )
 /
 /

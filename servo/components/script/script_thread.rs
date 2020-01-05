@@ -6605,6 +6605,7 @@ UpdateSubpageId
 containing_pipeline_id
 old_subpage_id
 new_subpage_id
+new_pipeline_id
 )
 =
 >
@@ -6615,6 +6616,7 @@ handle_update_subpage_id
 containing_pipeline_id
 old_subpage_id
 new_subpage_id
+new_pipeline_id
 )
 ConstellationControlMsg
 :
@@ -9351,6 +9353,9 @@ SubpageId
 new_subpage_id
 :
 SubpageId
+new_pipeline_id
+:
+PipelineId
 )
 {
 let
@@ -9405,6 +9410,7 @@ unwrap
 update_subpage_id
 (
 new_subpage_id
+new_pipeline_id
 )
 ;
 }
