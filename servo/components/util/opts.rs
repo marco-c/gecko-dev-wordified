@@ -2883,7 +2883,6 @@ Ok
 )
 }
 }
-pub
 fn
 print_debug_usage
 (
