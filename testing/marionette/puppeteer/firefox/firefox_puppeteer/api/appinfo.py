@@ -278,11 +278,9 @@ mozilla
 .
 org
 /
-chrome
+intl
 /
-chrome
--
-registry
+localeservice
 ;
 1
 "
@@ -295,15 +293,12 @@ Components
 .
 interfaces
 .
-nsIXULChromeRegistry
+mozILocaleService
 )
                                
 .
-getSelectedLocale
+getAppLocaleAsLangTag
 (
-"
-global
-"
 )
 ;
             
