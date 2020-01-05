@@ -1268,7 +1268,7 @@ in
 GLUT
 now
 .
-0f32
+1f32
 }
 }
 impl
