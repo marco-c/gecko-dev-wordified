@@ -280,6 +280,7 @@ Copy
 Hash
 Deserialize
 Serialize
+HeapSizeOf
 )
 ]
 pub
@@ -421,6 +422,7 @@ Copy
 Deserialize
 Serialize
 Debug
+HeapSizeOf
 )
 ]
 pub

@@ -574,15 +574,6 @@ stacking_context
 in
 stacking_contexts
 {
-if
-stacking_context
-.
-layer
-.
-is_none
-(
-)
-{
 /
 /
 Transform
@@ -748,7 +739,6 @@ clone
 (
 )
 )
-}
 }
 }
 }
