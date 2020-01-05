@@ -329,6 +329,7 @@ LayoutQueryCategory
 LayoutPerformCategory
 LayoutAuxInitCategory
 LayoutSelectorMatchCategory
+LayoutSelectorCascadeCategory
 LayoutTreeBuilderCategory
 LayoutMainCategory
 LayoutParallelWarmupCategory
@@ -468,6 +469,16 @@ buckets
 .
 insert
 (
+LayoutSelectorCascadeCategory
+~
+[
+]
+)
+;
+buckets
+.
+insert
+(
 LayoutTreeBuilderCategory
 ~
 [
@@ -593,6 +604,8 @@ self
 LayoutAuxInitCategory
 |
 LayoutSelectorMatchCategory
+|
+LayoutSelectorCascadeCategory
 |
 LayoutTreeBuilderCategory
 |
