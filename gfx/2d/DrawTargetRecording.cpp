@@ -2223,7 +2223,11 @@ FillGlyphs
 (
 aFont
 aBuffer
+*
+AdjustedPattern
+(
 aPattern
+)
 aOptions
 aRenderingOptions
 )
