@@ -2348,9 +2348,9 @@ void
 CodeGeneratorX86Shared
 :
 :
-visitAsmSelect
+visitWasmSelect
 (
-LAsmSelect
+LWasmSelect
 *
 ins
 )
@@ -2628,7 +2628,7 @@ MOZ_CRASH
 unhandled
 type
 in
-visitAsmSelect
+visitWasmSelect
 !
 "
 )

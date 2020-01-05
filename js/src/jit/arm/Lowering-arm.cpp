@@ -3899,9 +3899,9 @@ void
 LIRGeneratorARM
 :
 :
-visitAsmSelect
+visitWasmSelect
 (
-MAsmSelect
+MWasmSelect
 *
 ins
 )
@@ -3932,7 +3932,7 @@ alloc
 (
 )
 )
-LAsmSelectI64
+LWasmSelectI64
 (
 useInt64RegisterAtStart
 (
@@ -3967,7 +3967,7 @@ defineInt64ReuseInput
 (
 lir
 ins
-LAsmSelectI64
+LWasmSelectI64
 :
 :
 TrueExprIndex
@@ -3986,7 +3986,7 @@ alloc
 (
 )
 )
-LAsmSelect
+LWasmSelect
 (
 useRegisterAtStart
 (
@@ -4021,7 +4021,7 @@ defineReuseInput
 (
 lir
 ins
-LAsmSelect
+LWasmSelect
 :
 :
 TrueExprIndex

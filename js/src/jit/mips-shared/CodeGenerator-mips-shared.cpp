@@ -16956,9 +16956,9 @@ void
 CodeGeneratorMIPSShared
 :
 :
-visitAsmSelect
+visitWasmSelect
 (
-LAsmSelect
+LWasmSelect
 *
 ins
 )
@@ -17175,7 +17175,7 @@ MOZ_CRASH
 unhandled
 type
 in
-visitAsmSelect
+visitWasmSelect
 !
 "
 )
@@ -17251,7 +17251,7 @@ MOZ_CRASH
 unhandled
 type
 in
-visitAsmSelect
+visitWasmSelect
 !
 "
 )

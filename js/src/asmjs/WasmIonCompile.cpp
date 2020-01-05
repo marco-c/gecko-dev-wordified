@@ -4278,7 +4278,7 @@ auto
 *
 ins
 =
-MAsmSelect
+MWasmSelect
 :
 :
 New

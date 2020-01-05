@@ -1029,9 +1029,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmSelect
+visitWasmSelect
 (
-MAsmSelect
+MWasmSelect
 *
 ins
 )
@@ -1039,7 +1039,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmSelect
+visitWasmSelect
 "
 )
 ;

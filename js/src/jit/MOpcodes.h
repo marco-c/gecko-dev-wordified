@@ -1524,7 +1524,7 @@ WasmCall
 \
 _
 (
-AsmSelect
+WasmSelect
 )
 \
 _

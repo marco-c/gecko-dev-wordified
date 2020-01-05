@@ -1615,9 +1615,9 @@ ins
 )
 ;
 void
-visitAsmSelect
+visitWasmSelect
 (
-LAsmSelect
+LWasmSelect
 *
 ins
 )

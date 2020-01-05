@@ -35042,7 +35042,7 @@ size_t
 Ops
 >
 class
-LAsmSelectBase
+LWasmSelectBase
 :
 public
 LInstructionHelper
@@ -35063,7 +35063,7 @@ Base
 ;
 public
 :
-MAsmSelect
+MWasmSelect
 *
 mir
 (
@@ -35077,7 +35077,7 @@ Base
 mir_
 -
 >
-toAsmSelect
+toWasmSelect
 (
 )
 ;
@@ -35085,10 +35085,10 @@ toAsmSelect
 }
 ;
 class
-LAsmSelect
+LWasmSelect
 :
 public
-LAsmSelectBase
+LWasmSelectBase
 <
 1
 3
@@ -35098,7 +35098,7 @@ public
 :
 LIR_HEADER
 (
-AsmSelect
+WasmSelect
 )
 ;
 static
@@ -35122,7 +35122,7 @@ CondIndex
 =
 2
 ;
-LAsmSelect
+LWasmSelect
 (
 const
 LAllocation
@@ -35202,10 +35202,10 @@ CondIndex
 }
 ;
 class
-LAsmSelectI64
+LWasmSelectI64
 :
 public
-LAsmSelectBase
+LWasmSelectBase
 <
 INT64_PIECES
 2
@@ -35219,7 +35219,7 @@ public
 :
 LIR_HEADER
 (
-AsmSelectI64
+WasmSelectI64
 )
 ;
 static
@@ -35245,7 +35245,7 @@ INT64_PIECES
 *
 2
 ;
-LAsmSelectI64
+LWasmSelectI64
 (
 const
 LInt64Allocation

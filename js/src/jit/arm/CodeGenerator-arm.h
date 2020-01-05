@@ -1325,9 +1325,9 @@ lir
 ;
 virtual
 void
-visitAsmSelectI64
+visitWasmSelectI64
 (
-LAsmSelectI64
+LWasmSelectI64
 *
 lir
 )
@@ -1691,9 +1691,9 @@ lir
 )
 ;
 void
-visitAsmSelect
+visitWasmSelect
 (
-LAsmSelect
+LWasmSelect
 *
 ins
 )
