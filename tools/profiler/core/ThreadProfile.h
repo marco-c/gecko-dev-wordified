@@ -209,6 +209,7 @@ GetPseudoStack
 (
 )
 ;
+mozilla
 :
 :
 Mutex
@@ -565,6 +566,9 @@ mozilla
 :
 UniquePtr
 <
+mozilla
+:
+:
 Mutex
 >
 mMutex

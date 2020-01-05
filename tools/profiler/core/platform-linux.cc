@@ -2223,8 +2223,6 @@ IsPaused
 )
 )
 {
-:
-:
 MutexAutoLock
 lock
 (

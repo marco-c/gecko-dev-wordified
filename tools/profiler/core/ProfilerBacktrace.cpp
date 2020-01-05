@@ -203,8 +203,6 @@ UniqueStacks
 aUniqueStacks
 )
 {
-:
-:
 MutexAutoLock
 lock
 (

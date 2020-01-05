@@ -824,6 +824,7 @@ IsPaused
 )
 )
 {
+mozilla
 :
 :
 MutexAutoLock

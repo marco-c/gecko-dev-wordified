@@ -1540,8 +1540,6 @@ ignore
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -1666,8 +1664,6 @@ for
 all
 threads
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -1978,8 +1974,6 @@ threads
 "
 )
 ;
-:
-:
 MutexAutoLock
 lock
 (
@@ -3397,8 +3391,6 @@ true
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -3471,8 +3463,6 @@ for
 pending
 delete
 .
-:
-:
 MutexAutoLock
 lock
 (
@@ -3702,8 +3692,6 @@ true
 )
 ;
 {
-:
-:
 MutexAutoLock
 lock
 (
@@ -3820,8 +3808,6 @@ aContext
 continue
 ;
 }
-:
-:
 MutexAutoLock
 lock
 (
