@@ -144,7 +144,9 @@ selectNodeAndWaitForAnimations
 (
 "
 .
-animated
+compositor
+-
+all
 "
 inspector
 )
