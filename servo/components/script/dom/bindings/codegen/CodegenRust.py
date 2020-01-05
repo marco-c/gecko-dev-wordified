@@ -14969,6 +14969,22 @@ getTypesFromDictionary
 type
 )
             
+if
+type
+.
+isSequence
+(
+)
+:
+                
+return
+componentTypes
+(
+type
+.
+inner
+)
+            
 return
 [
 type

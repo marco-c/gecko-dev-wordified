@@ -2523,6 +2523,10 @@ bluetoothdevice
 ;
 pub
 mod
+bluetoothpermissionresult
+;
+pub
+mod
 bluetoothremotegattcharacteristic
 ;
 pub
@@ -3163,6 +3167,14 @@ performance
 pub
 mod
 performancetiming
+;
+pub
+mod
+permissions
+;
+pub
+mod
+permissionstatus
 ;
 pub
 mod
