@@ -1398,15 +1398,6 @@ Services
 appinfo
 .
 processID
-"
-version
-"
-:
-Services
-.
-appinfo
-.
-version
 }
 ;
 this
