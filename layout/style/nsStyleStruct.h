@@ -13774,10 +13774,7 @@ see
 nsStyleConsts
 .
 h
-mozilla
-:
-:
-StyleHyphens
+uint8_t
 mHyphens
 ;
 /
@@ -23952,6 +23949,10 @@ struct
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleVariables
 {
+nsStyleVariables
+(
+)
+;
 explicit
 nsStyleVariables
 (
