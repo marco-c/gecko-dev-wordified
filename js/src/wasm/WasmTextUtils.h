@@ -226,14 +226,6 @@ template
 class
 T
 >
-class
-Raw
-;
-template
-<
-class
-T
->
 MOZ_MUST_USE
 bool
 RenderNaN
@@ -241,10 +233,7 @@ RenderNaN
 StringBuffer
 &
 sb
-Raw
-<
 T
->
 num
 )
 ;
