@@ -350,3 +350,13 @@ stub
 cef_visit_web_plugin_info
 )
 ;
+/
+/
+from
+skia
+stub
+!
+(
+gluCheckExtension
+)
+;
