@@ -7190,6 +7190,13 @@ if
 profileDir
 )
 {
+profileDir
+-
+>
+Normalize
+(
+)
+;
 rv
 =
 profileDir
