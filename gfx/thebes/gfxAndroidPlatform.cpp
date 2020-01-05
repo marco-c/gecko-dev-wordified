@@ -2192,6 +2192,14 @@ CreateHardwareVsyncSource
 {
 if
 (
+jni
+:
+:
+IsAvailable
+(
+)
+&
+&
 java
 :
 :
