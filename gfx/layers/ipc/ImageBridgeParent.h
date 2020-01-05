@@ -526,11 +526,13 @@ const
 TextureInfo
 &
 aInfo
+const
+uint64_t
+&
+aID
 PImageContainerParent
 *
 aImageContainer
-uint64_t
-*
 )
 override
 ;
