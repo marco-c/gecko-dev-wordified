@@ -395,7 +395,7 @@ fixture
 scope
 =
 "
-module
+function
 "
 )
     
