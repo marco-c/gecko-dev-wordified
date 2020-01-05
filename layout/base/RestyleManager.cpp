@@ -154,6 +154,8 @@ RestyleManager
 :
 RestyleManager
 (
+StyleBackendType
+aType
 nsPresContext
 *
 aPresContext
@@ -170,6 +172,10 @@ mRestyleGeneration
 mHoverGeneration
 (
 0
+)
+mType
+(
+aType
 )
 mObservingRefreshDriver
 (
