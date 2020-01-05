@@ -487,7 +487,7 @@ node
 :
 {
 LayoutView
-PostorderNodeTraversal
+PostorderNodeMutTraversal
 TextNodeTypeId
 }
 ;
@@ -1473,6 +1473,7 @@ layout_context
 &
 '
 self
+mut
 LayoutContext
 /
 /
@@ -1552,6 +1553,7 @@ layout_context
 &
 '
 a
+mut
 LayoutContext
 )
 -
@@ -1650,6 +1652,7 @@ fn
 build_box_info_for_image
 (
 &
+mut
 self
 node
 :
@@ -1790,6 +1793,7 @@ fn
 build_box_for_node
 (
 &
+mut
 self
 node
 :
@@ -1936,6 +1940,7 @@ fn
 flush_inline_boxes_to_flow
 (
 &
+mut
 self
 boxes
 :
@@ -2057,6 +2062,7 @@ fn
 flush_inline_boxes_to_flow_if_necessary
 (
 &
+mut
 self
 opt_boxes
 :
@@ -2170,6 +2176,7 @@ fn
 build_children_of_block_flow
 (
 &
+mut
 self
 flow
 :
@@ -2630,6 +2637,7 @@ fn
 build_flow_for_block
 (
 &
+mut
 self
 node
 :
@@ -2736,6 +2744,7 @@ fn
 build_flow_for_floated_block
 (
 &
+mut
 self
 node
 :
@@ -2860,6 +2869,7 @@ fn
 build_boxes_for_nonreplaced_inline_content
 (
 &
+mut
 self
 node
 :
@@ -3228,6 +3238,7 @@ fn
 build_boxes_for_replaced_inline_content
 (
 &
+mut
 self
 node
 :
@@ -3313,6 +3324,7 @@ fn
 build_boxes_for_inline
 (
 &
+mut
 self
 node
 :
@@ -3397,7 +3409,7 @@ impl
 '
 self
 >
-PostorderNodeTraversal
+PostorderNodeMutTraversal
 for
 FlowConstructor
 <
@@ -3449,6 +3461,7 @@ fn
 process
 (
 &
+mut
 self
 node
 :
