@@ -707,14 +707,6 @@ sizeOfIncludingThisCompartmentCallback
 (
 nullptr
 )
-destroyZoneCallback
-(
-nullptr
-)
-sweepZoneCallback
-(
-nullptr
-)
 compartmentNameCallback
 (
 nullptr

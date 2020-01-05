@@ -8756,7 +8756,7 @@ JSStringFinalizer
 fin
 bool
 *
-isExternal
+allocatedExternal
 )
 ;
 JS_STATIC_ASSERT
