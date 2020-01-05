@@ -2161,6 +2161,10 @@ nsACString
 local_addr
 uint16_t
 local_port
+const
+nsACString
+&
+tls_host
 )
 ;
 void
