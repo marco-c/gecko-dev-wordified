@@ -10381,7 +10381,7 @@ baselineScript
 )
 -
 >
-noteArrayWriteHole
+noteHasDenseAdd
 (
 script
 -
