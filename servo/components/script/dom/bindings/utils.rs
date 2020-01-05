@@ -6002,6 +6002,16 @@ proto_id
 as
 u8
 }
+#
+[
+allow
+(
+missing_docs
+)
+]
+/
+/
+FIXME
 pub
 const
 DOM_CALLBACKS
