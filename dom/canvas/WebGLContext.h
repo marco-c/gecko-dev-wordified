@@ -7940,6 +7940,12 @@ GLenum
 type
 WebGLintptr
 byteOffset
+const
+char
+*
+funcName
+=
+nullptr
 )
 ;
 void
