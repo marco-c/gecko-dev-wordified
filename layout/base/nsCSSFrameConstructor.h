@@ -6512,9 +6512,6 @@ const
 nsFrameConstructorState
 &
 aState
-nsIAtom
-*
-aContainerType
 bool
 aIsWebkitBox
 )
@@ -6570,9 +6567,6 @@ const
 nsFrameConstructorState
 &
 aState
-nsIAtom
-*
-aContainerType
 bool
 aIsWebkitBox
 )
@@ -7579,9 +7573,6 @@ const
 nsFrameConstructorState
 &
 aState
-nsIAtom
-*
-aContainerType
 bool
 aIsWebkitBox
 )
