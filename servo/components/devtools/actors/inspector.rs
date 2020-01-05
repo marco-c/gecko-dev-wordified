@@ -390,7 +390,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 _msg
 :
 &
@@ -416,9 +416,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "
@@ -538,7 +535,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 msg
 :
 &
@@ -564,9 +561,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "
@@ -1270,7 +1264,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 msg
 :
 &
@@ -1296,9 +1290,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "
@@ -1905,7 +1896,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 msg
 :
 &
@@ -1931,9 +1922,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "
@@ -2486,7 +2474,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 _msg
 :
 &
@@ -2512,9 +2500,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "

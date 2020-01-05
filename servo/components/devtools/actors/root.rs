@@ -305,7 +305,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 _msg
 :
 &
@@ -331,9 +331,6 @@ bool
 Ok
 (
 match
-&
-*
-*
 msg_type
 {
 "

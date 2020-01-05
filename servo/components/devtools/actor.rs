@@ -192,7 +192,7 @@ ActorRegistry
 msg_type
 :
 &
-String
+str
 msg
 :
 &
