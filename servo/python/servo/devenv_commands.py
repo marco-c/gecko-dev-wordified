@@ -965,14 +965,24 @@ tests
 )
         
 #
-Remove
+Directories
+to
+be
+excluded
+under
+tests
+/
+        
+excluded_tests_dirs
+=
+[
 '
 wpt
 '
-from
-obtained
-dir
-list
+'
+jquery
+'
+]
         
 tests_dirs
 =
@@ -982,11 +992,9 @@ lambda
 dir
 :
 dir
-!
-=
-'
-wpt
-'
+not
+in
+excluded_tests_dirs
 tests_dirs
 )
         
@@ -1097,6 +1105,7 @@ subprocess
 .
 call
 (
+            
 [
 "
 git
@@ -1119,6 +1128,21 @@ params
 ]
 +
 grep_paths
++
+[
+'
+:
+(
+exclude
+)
+*
+.
+min
+.
+js
+'
+]
+            
 env
 =
 self
