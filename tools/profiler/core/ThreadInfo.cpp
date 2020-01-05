@@ -260,11 +260,6 @@ MOZ_COUNT_DTOR
 ThreadInfo
 )
 ;
-free
-(
-mName
-)
-;
 if
 (
 mProfile
