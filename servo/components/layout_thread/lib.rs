@@ -6815,15 +6815,6 @@ pipeline_id
 )
 ;
 let
-root_scroll_layer_id
-=
-frame_builder
-.
-next_scroll_layer_id
-(
-)
-;
-let
 sc_id
 =
 rw_data
@@ -6847,10 +6838,6 @@ self
 webrender_api
 pipeline_id
 epoch
-Some
-(
-root_scroll_layer_id
-)
 &
 mut
 frame_builder
