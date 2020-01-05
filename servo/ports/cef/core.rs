@@ -99,6 +99,15 @@ servo_util
 opts
 ;
 use
+servo_util
+:
+:
+opts
+:
+:
+OpenGL
+;
+use
 types
 :
 :
@@ -405,6 +414,9 @@ false
 validate_display_list_geometry
 :
 false
+render_api
+:
+OpenGL
 }
 )
 ;
