@@ -248,7 +248,10 @@ gecko
 global_style_data
 :
 :
+{
 GLOBAL_STYLE_DATA
+GlobalStyleData
+}
 ;
 use
 style
@@ -1527,6 +1530,10 @@ create_shared_context
 a
 >
 (
+global_style_data
+:
+&
+GlobalStyleData
 guard
 :
 &
@@ -1573,6 +1580,15 @@ stylist
 per_doc_data
 .
 stylist
+.
+clone
+(
+)
+options
+:
+global_style_data
+.
+options
 .
 clone
 (
@@ -1870,6 +1886,8 @@ shared_style_context
 =
 create_shared_context
 (
+&
+global_style_data
 &
 guard
 &
@@ -3468,6 +3486,8 @@ shared_context
 &
 create_shared_context
 (
+&
+global_style_data
 &
 guard
 &
@@ -12752,6 +12772,8 @@ shared
 =
 create_shared_context
 (
+&
+global_style_data
 &
 guard
 &
