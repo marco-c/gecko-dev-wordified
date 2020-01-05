@@ -1326,6 +1326,16 @@ output_file
 is_some
 (
 )
+|
+|
+opts
+:
+:
+get
+(
+)
+.
+exit_after_load
 ;
 match
 (
