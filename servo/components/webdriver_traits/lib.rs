@@ -151,6 +151,16 @@ String
 >
 >
 )
+GetActiveElement
+(
+Sender
+<
+Option
+<
+String
+>
+>
+)
 GetElementTagName
 (
 String
