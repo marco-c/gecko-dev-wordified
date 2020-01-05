@@ -719,6 +719,13 @@ size
 height
 )
 ;
+rect
+=
+RelativeToVisible
+(
+rect
+)
+;
 Rect
 clip
 =
