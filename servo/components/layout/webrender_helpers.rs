@@ -2211,6 +2211,7 @@ to_rectf
 (
 )
 clip
+&
 glyphs
 item
 .
