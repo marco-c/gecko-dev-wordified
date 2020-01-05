@@ -662,7 +662,7 @@ h
 #
 include
 "
-GeckoSampler
+ThreadProfile
 .
 h
 "

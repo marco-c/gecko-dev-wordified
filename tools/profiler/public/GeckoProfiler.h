@@ -2516,7 +2516,7 @@ min
 #
 endif
 class
-GeckoSampler
+Sampler
 ;
 class
 nsISupports
@@ -2533,7 +2533,7 @@ PseudoStack
 tlsPseudoStack
 ;
 extern
-GeckoSampler
+Sampler
 *
 gSampler
 ;

@@ -81,7 +81,7 @@ nsIFile
 h
 "
 class
-GeckoSampler
+Sampler
 ;
 namespace
 mozilla
@@ -100,7 +100,7 @@ NS_DECL_NSIOBSERVER
 explicit
 ProfileGatherer
 (
-GeckoSampler
+Sampler
 *
 aSampler
 )
@@ -209,7 +209,7 @@ nsIFile
 >
 mFile
 ;
-GeckoSampler
+Sampler
 *
 mSampler
 ;

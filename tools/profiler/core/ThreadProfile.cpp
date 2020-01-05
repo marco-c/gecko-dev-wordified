@@ -148,6 +148,9 @@ mMutex
 (
 MakeUnique
 <
+mozilla
+:
+:
 Mutex
 >
 (
@@ -1254,6 +1257,7 @@ Unlock
 )
 ;
 }
+mozilla
 :
 :
 Mutex

@@ -91,13 +91,6 @@ h
 #
 include
 "
-GeckoSampler
-.
-h
-"
-#
-include
-"
 nsLocalFile
 .
 h
@@ -106,6 +99,13 @@ h
 include
 "
 nsIFileStreams
+.
+h
+"
+#
+include
+"
+platform
 .
 h
 "
@@ -213,7 +213,7 @@ ProfileGatherer
 :
 ProfileGatherer
 (
-GeckoSampler
+Sampler
 *
 aSampler
 )
@@ -1221,7 +1221,7 @@ Cancel
 /
 /
 The
-GeckoSampler
+Sampler
 is
 going
 away
@@ -1234,9 +1234,9 @@ Promise
 in
 flight
 we
-/
-/
 should
+/
+/
 reject
 it
 .
@@ -1267,7 +1267,7 @@ nullptr
 Clear
 out
 the
-GeckoSampler
+Sampler
 reference
 since
 it

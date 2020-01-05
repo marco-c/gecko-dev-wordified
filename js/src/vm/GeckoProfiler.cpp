@@ -453,7 +453,7 @@ profiler
 makes
 a
 new
-GeckoSampler
+Sampler
 /
 /
 (
