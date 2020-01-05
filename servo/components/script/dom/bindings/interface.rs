@@ -1098,6 +1098,9 @@ static
 [
 u8
 ]
+rval
+:
+MutableHandleObject
 )
 {
 assert
@@ -1111,15 +1114,10 @@ is_empty
 )
 )
 ;
-let
-interface_object
-=
-RootedObject
-:
-:
-new
+rval
+.
+set
 (
-cx
 JS_NewObject
 (
 cx
@@ -1136,7 +1134,7 @@ assert
 !
 (
 !
-interface_object
+rval
 .
 ptr
 .
@@ -1148,7 +1146,7 @@ is_null
 define_constants
 (
 cx
-interface_object
+rval
 .
 handle
 (
@@ -1159,7 +1157,7 @@ constants
 define_name
 (
 cx
-interface_object
+rval
 .
 handle
 (
@@ -1172,7 +1170,7 @@ define_on_global_object
 cx
 receiver
 name
-interface_object
+rval
 .
 handle
 (
