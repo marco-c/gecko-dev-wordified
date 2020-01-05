@@ -749,7 +749,15 @@ false
 ;
 events
 =
+(
 events
+.
+default
+|
+|
+[
+]
+)
 .
 filter
 (
