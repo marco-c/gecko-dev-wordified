@@ -865,6 +865,13 @@ gfxCriticalNote
 <
 aMessage
 ;
+gfxPlatform
+:
+:
+NotifyGPUProcessDisabled
+(
+)
+;
 DestroyProcess
 (
 )
