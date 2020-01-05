@@ -280,7 +280,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 page
 :
 Rc

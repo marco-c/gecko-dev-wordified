@@ -184,7 +184,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 )
 -
 >

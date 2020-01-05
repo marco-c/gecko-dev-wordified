@@ -233,10 +233,6 @@ clone
 rects
 )
 window
-.
-get
-(
-)
 ClientRectListBinding
 :
 :

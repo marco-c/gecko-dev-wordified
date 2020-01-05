@@ -272,10 +272,6 @@ clone
 elements
 )
 window
-.
-get
-(
-)
 HTMLCollectionBinding
 :
 :

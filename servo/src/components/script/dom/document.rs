@@ -691,8 +691,11 @@ fn
 (
 *
 JSContext
-*
-JSObject
+&
+JS
+<
+Window
+>
 ~
 D
 )
@@ -733,10 +736,6 @@ reflect_dom_object
 (
 document
 window
-.
-get
-(
-)
 wrap_fn
 )
 ;

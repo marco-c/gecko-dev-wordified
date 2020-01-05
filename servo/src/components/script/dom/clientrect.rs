@@ -283,10 +283,6 @@ reflect_dom_object
 ~
 rect
 window
-.
-get
-(
-)
 ClientRectBinding
 :
 :

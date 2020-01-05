@@ -160,7 +160,10 @@ new
 window
 :
 &
+JS
+<
 Window
+>
 )
 -
 >

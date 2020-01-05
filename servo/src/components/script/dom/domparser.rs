@@ -257,10 +257,6 @@ clone
 )
 )
 owner
-.
-get
-(
-)
 DOMParserBinding
 :
 :

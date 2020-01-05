@@ -214,6 +214,7 @@ new
 (
 window
 :
+&
 JS
 <
 Window
@@ -245,10 +246,6 @@ clone
 list_type
 )
 window
-.
-get
-(
-)
 NodeListBinding
 :
 :
@@ -289,10 +286,6 @@ NodeList
 new
 (
 window
-.
-clone
-(
-)
 Simple
 (
 elements
@@ -331,10 +324,6 @@ NodeList
 new
 (
 window
-.
-clone
-(
-)
 Children
 (
 node
