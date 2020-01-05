@@ -58687,8 +58687,10 @@ return
 nullptr
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT_IF
 (
+!
+mIsChrome
 (
 principal
 -
