@@ -39,7 +39,7 @@ uninstallURL
 let
 browser
 =
-WindowManager
+windowTracker
 .
 topWindow
 .
@@ -76,7 +76,7 @@ extension
 let
 window
 =
-WindowManager
+windowTracker
 .
 topWindow
 ;

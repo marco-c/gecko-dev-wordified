@@ -703,7 +703,7 @@ Management
 global
 :
 {
-WindowManager
+windowTracker
 }
 }
 }
@@ -732,7 +732,7 @@ jsm
 let
 winId1
 =
-WindowManager
+windowTracker
 .
 getId
 (
@@ -742,7 +742,7 @@ win1
 let
 winId2
 =
-WindowManager
+windowTracker
 .
 getId
 (

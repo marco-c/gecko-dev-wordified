@@ -495,7 +495,7 @@ Management
 global
 :
 {
-WindowManager
+windowTracker
 }
 }
 }
@@ -529,7 +529,7 @@ window
 let
 currentWindowId
 =
-WindowManager
+windowTracker
 .
 getId
 (

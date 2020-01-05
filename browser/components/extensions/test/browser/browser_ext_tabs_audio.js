@@ -1599,7 +1599,7 @@ Management
 global
 :
 {
-TabManager
+tabTracker
 }
 }
 }
@@ -1628,7 +1628,7 @@ jsm
 let
 tab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -1820,7 +1820,7 @@ tab
 done
 "
 tabId
-TabManager
+tabTracker
 .
 getId
 (

@@ -1551,7 +1551,7 @@ Management
 global
 :
 {
-TabManager
+tabTracker
 }
 }
 }
@@ -1595,7 +1595,7 @@ zoom
 let
 tab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -1633,7 +1633,7 @@ zoom
 let
 tab
 =
-TabManager
+tabTracker
 .
 getTab
 (

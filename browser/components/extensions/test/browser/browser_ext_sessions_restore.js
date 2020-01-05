@@ -452,8 +452,8 @@ Management
 global
 :
 {
-WindowManager
-TabManager
+windowTracker
+tabTracker
 }
 }
 }
@@ -489,7 +489,7 @@ expectedUrl
 let
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -841,7 +841,7 @@ again
 let
 window
 =
-WindowManager
+windowTracker
 .
 getWindow
 (
@@ -1049,7 +1049,7 @@ again
 .
 window
 =
-WindowManager
+windowTracker
 .
 getWindow
 (
@@ -1232,7 +1232,7 @@ again
 let
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (
@@ -1378,7 +1378,7 @@ again
 .
 realTab
 =
-TabManager
+tabTracker
 .
 getTab
 (

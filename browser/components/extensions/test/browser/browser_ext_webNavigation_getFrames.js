@@ -86,7 +86,7 @@ the
 id
 assigned
 by
-TabManager
+tabTracker
 (
 defined
 in
@@ -155,7 +155,7 @@ the
 id
 assigned
 by
-TabManager
+tabTracker
 (
 defined
 in

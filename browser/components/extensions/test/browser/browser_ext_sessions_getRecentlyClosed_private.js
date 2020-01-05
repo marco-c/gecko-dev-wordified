@@ -222,7 +222,7 @@ Management
 global
 :
 {
-WindowManager
+windowTracker
 }
 }
 }
@@ -251,7 +251,7 @@ jsm
 let
 privateWinId
 =
-WindowManager
+windowTracker
 .
 getId
 (

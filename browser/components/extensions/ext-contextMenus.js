@@ -717,7 +717,7 @@ contextData
 .
 tab
 =
-TabManager
+tabTracker
 .
 activeTab
 ;
@@ -2200,12 +2200,9 @@ this
 .
 tabManager
 =
-TabManager
-.
-for
-(
 extension
-)
+.
+tabManager
 ;
 this
 .
@@ -3476,7 +3473,7 @@ for
 const
 window
 of
-WindowListManager
+windowTracker
 .
 browserWindows
 (
@@ -3491,7 +3488,7 @@ window
 )
 ;
 }
-WindowListManager
+windowTracker
 .
 addOpenListener
 (
@@ -3526,7 +3523,7 @@ for
 const
 window
 of
-WindowListManager
+windowTracker
 .
 browserWindows
 (
@@ -3558,7 +3555,7 @@ this
 )
 ;
 }
-WindowListManager
+windowTracker
 .
 removeOpenListener
 (
@@ -3666,7 +3663,7 @@ tab
 ?
 trigger
 :
-TabManager
+tabTracker
 .
 activeTab
 ;
