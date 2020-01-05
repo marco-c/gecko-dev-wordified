@@ -198,7 +198,6 @@ enum
 GreekStates
 {
 kStart
-kInWord
 kAlpha
 kEpsilon
 kEta
@@ -209,7 +208,6 @@ kOmega
 kAlphaAcc
 kEpsilonAcc
 kEtaAcc
-kEtaAccMarked
 kIotaAcc
 kOmicronAcc
 kUpsilonAcc
@@ -286,12 +284,6 @@ aCh
 State
 &
 aState
-bool
-&
-aMarkEtaPos
-bool
-&
-aUpdateMarkedEta
 )
 ;
 }
