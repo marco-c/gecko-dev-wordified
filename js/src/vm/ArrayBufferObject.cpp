@@ -2708,7 +2708,7 @@ of
 the
 buffer
 .
-Acesses
+Accesses
 in
 the
 *
@@ -2722,6 +2722,7 @@ succeed
 May
 only
 increase
+.
 *
 *
 -
@@ -2756,7 +2757,13 @@ that
 constant
 offset
 is
-0
+64k
+(
+wasm
+:
+:
+GuardSize
+)
 .
 *
 *
@@ -2816,7 +2823,7 @@ the
 layout
 of
 the
-wams
+wasm
 heap
 .
 The
@@ -2855,7 +2862,6 @@ at
 *
 its
 end
-.
 (
 i
 .
