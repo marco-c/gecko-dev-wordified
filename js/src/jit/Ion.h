@@ -177,7 +177,6 @@ enum
 AbortReason
 {
 AbortReason_Alloc
-AbortReason_Inlining
 AbortReason_PreliminaryObjects
 AbortReason_Disable
 AbortReason_Error
