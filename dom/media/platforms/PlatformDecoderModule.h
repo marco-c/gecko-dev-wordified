@@ -231,6 +231,13 @@ ImageContainer
 /
 namespace
 layers
+namespace
+dom
+{
+class
+RemoteDecoderModule
+;
+}
 class
 MediaDataDecoder
 ;
@@ -1002,6 +1009,13 @@ H264Converter
 friend
 class
 PDMFactory
+;
+friend
+class
+dom
+:
+:
+RemoteDecoderModule
 ;
 /
 /
