@@ -572,6 +572,7 @@ g
 )
 :
 null
+;
 commands
 .
 set
