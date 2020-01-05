@@ -381,11 +381,6 @@ SetProp_NativeAdd
 \
 _
 (
-SetProp_TypedObject
-)
-\
-_
-(
 SetProp_CallScripted
 )
 \
