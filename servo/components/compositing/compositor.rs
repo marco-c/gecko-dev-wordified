@@ -324,7 +324,7 @@ constellation_msg
 :
 {
 LoadData
-NavigationDirection
+TraversalDirection
 PipelineId
 }
 ;
@@ -12120,7 +12120,7 @@ WindowNavigateMsg
 Forward
 =
 >
-NavigationDirection
+TraversalDirection
 :
 :
 Forward
@@ -12136,7 +12136,7 @@ WindowNavigateMsg
 Back
 =
 >
-NavigationDirection
+TraversalDirection
 :
 :
 Back
@@ -12151,7 +12151,7 @@ msg
 ConstellationMsg
 :
 :
-Navigate
+TraverseHistory
 (
 None
 direction

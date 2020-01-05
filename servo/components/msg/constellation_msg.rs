@@ -637,7 +637,7 @@ Serialize
 ]
 pub
 enum
-NavigationDirection
+TraversalDirection
 {
 Forward
 (
@@ -660,6 +660,8 @@ Hash
 Debug
 Deserialize
 Serialize
+PartialOrd
+Ord
 )
 ]
 pub
