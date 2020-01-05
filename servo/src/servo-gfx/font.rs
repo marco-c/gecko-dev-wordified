@@ -597,6 +597,7 @@ tag_to_str
 >
 ~
 str
+{
 unsafe
 {
 let
@@ -655,6 +656,7 @@ char_at
 ]
 )
 ;
+}
 }
 }
 #

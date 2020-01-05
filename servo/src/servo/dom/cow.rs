@@ -649,6 +649,7 @@ T
 A
 >
 drop
+{
 unsafe
 {
 for
@@ -669,6 +670,7 @@ free_handle
 h
 )
 ;
+}
 }
 }
 }
@@ -794,6 +796,7 @@ read_ptr
 >
 *
 T
+{
 unsafe
 {
 (
@@ -804,6 +807,7 @@ self
 .
 read_ptr
 }
+}
 fn
 write_ptr
 (
@@ -813,6 +817,7 @@ write_ptr
 *
 mut
 T
+{
 unsafe
 {
 (
@@ -823,6 +828,7 @@ self
 .
 write_ptr
 }
+}
 fn
 read_aux
 (
@@ -831,6 +837,7 @@ read_aux
 >
 *
 A
+{
 unsafe
 {
 (
@@ -840,6 +847,7 @@ self
 )
 .
 read_aux
+}
 }
 fn
 next_dirty
@@ -852,6 +860,7 @@ Handle
 T
 A
 >
+{
 unsafe
 {
 (
@@ -862,6 +871,7 @@ self
 .
 next_dirty
 }
+}
 fn
 set_read_ptr
 (
@@ -870,6 +880,7 @@ t
 *
 T
 )
+{
 unsafe
 {
 (
@@ -883,6 +894,7 @@ read_ptr
 t
 ;
 }
+}
 fn
 set_write_ptr
 (
@@ -892,6 +904,7 @@ t
 mut
 T
 )
+{
 unsafe
 {
 (
@@ -905,6 +918,7 @@ write_ptr
 t
 ;
 }
+}
 fn
 set_read_aux
 (
@@ -913,6 +927,7 @@ t
 *
 A
 )
+{
 unsafe
 {
 (
@@ -925,6 +940,7 @@ read_aux
 =
 t
 ;
+}
 }
 fn
 set_next_dirty
@@ -937,6 +953,7 @@ T
 A
 >
 )
+{
 unsafe
 {
 (
@@ -949,6 +966,7 @@ next_dirty
 =
 h
 ;
+}
 }
 pure
 fn
@@ -1034,6 +1052,7 @@ U
 -
 >
 U
+{
 unsafe
 {
 f
@@ -1046,6 +1065,7 @@ read_ptr
 (
 )
 )
+}
 }
 /
 /
@@ -1066,6 +1086,7 @@ has_aux
 -
 >
 bool
+{
 unsafe
 {
 self
@@ -1077,6 +1098,7 @@ read_aux
 is_not_null
 (
 )
+}
 }
 /
 *
@@ -1115,6 +1137,7 @@ p
 :
 A
 )
+{
 unsafe
 {
 (
@@ -1135,6 +1158,7 @@ to_unsafe_ptr
 p
 )
 ;
+}
 }
 /
 /
@@ -1167,6 +1191,7 @@ U
 -
 >
 U
+{
 unsafe
 {
 assert
@@ -1186,6 +1211,7 @@ read_aux
 (
 )
 )
+}
 }
 }
 impl
@@ -1293,6 +1319,7 @@ T
 >
 *
 T
+{
 unsafe
 {
 let
@@ -1406,6 +1433,7 @@ reinterpret_cast
 n
 )
 ;
+}
 }
 }
 unsafe
@@ -1736,7 +1764,6 @@ fn
 reader_joined
 (
 )
-unsafe
 {
 assert
 self
@@ -1746,11 +1773,19 @@ d
 layout_active
 ;
 if
+(
+/
+*
+bad
+*
+/
+copy
 self
 .
 d
 .
 first_dirty
+)
 .
 is_not_null
 (
@@ -1775,6 +1810,8 @@ handle
 is_not_null
 (
 )
+{
+unsafe
 {
 free
 (
@@ -1825,6 +1862,7 @@ handle
 =
 next_handle
 ;
+}
 }
 self
 .
@@ -1885,7 +1923,6 @@ U
 -
 >
 U
-unsafe
 {
 /
 /
@@ -1905,6 +1942,8 @@ read_ptr
 or
 may
 not
+unsafe
+{
 f
 (
 &
@@ -1915,6 +1954,7 @@ write_ptr
 (
 )
 )
+}
 }
 fn
 write
@@ -1944,6 +1984,7 @@ U
 -
 >
 U
+{
 unsafe
 {
 let
@@ -2060,6 +2101,7 @@ write_ptr
 )
 )
 }
+}
 /
 /
 FIXME
@@ -2097,6 +2139,7 @@ Handle
 T
 A
 >
+{
 unsafe
 {
 debug
@@ -2268,6 +2311,7 @@ v
 return
 h
 ;
+}
 }
 }
 #

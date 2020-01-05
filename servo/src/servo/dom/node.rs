@@ -571,6 +571,7 @@ self
 >
 ~
 str
+{
 unsafe
 {
 do
@@ -592,6 +593,7 @@ n
 .
 kind
 )
+}
 }
 }
 }

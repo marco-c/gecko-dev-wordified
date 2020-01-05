@@ -919,6 +919,7 @@ JSContext
 >
 *
 Content
+{
 unsafe
 {
 cast
@@ -932,6 +933,7 @@ JS_GetContextPrivate
 cx
 )
 )
+}
 }
 #
 [
