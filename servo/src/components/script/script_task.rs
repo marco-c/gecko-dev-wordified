@@ -475,7 +475,10 @@ servo_util
 tree
 :
 :
+{
 TreeNodeRef
+ElementLike
+}
 ;
 use
 servo_util

@@ -240,6 +240,9 @@ color
 Color
 ;
 use
+servo_util
+:
+:
 geometry
 :
 :

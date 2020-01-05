@@ -531,7 +531,7 @@ display_list
 DisplayList
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

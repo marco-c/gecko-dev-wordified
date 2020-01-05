@@ -84,7 +84,7 @@ rect
 Rect
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

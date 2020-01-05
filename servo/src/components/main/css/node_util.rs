@@ -104,6 +104,15 @@ AbstractNode
 LayoutView
 }
 ;
+use
+servo_util
+:
+:
+tree
+:
+:
+TreeNodeRef
+;
 pub
 trait
 NodeUtil

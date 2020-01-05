@@ -241,7 +241,7 @@ FontWeight300
 }
 ;
 use
-gfx
+servo_util
 :
 :
 geometry
@@ -441,6 +441,18 @@ range
 :
 :
 *
+;
+use
+servo_util
+:
+:
+tree
+:
+:
+{
+TreeNodeRef
+ElementLike
+}
 ;
 use
 extra

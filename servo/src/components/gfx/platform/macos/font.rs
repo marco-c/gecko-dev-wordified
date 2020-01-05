@@ -124,6 +124,9 @@ SpecifiedFontStyle
 }
 ;
 use
+servo_util
+:
+:
 geometry
 :
 :
@@ -133,6 +136,9 @@ px_to_pt
 }
 ;
 use
+servo_util
+:
+:
 geometry
 ;
 use

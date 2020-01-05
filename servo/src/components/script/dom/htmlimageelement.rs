@@ -103,7 +103,7 @@ url
 Url
 ;
 use
-gfx
+servo_util
 :
 :
 geometry
@@ -143,6 +143,15 @@ url
 :
 :
 make_url
+;
+use
+servo_util
+:
+:
+tree
+:
+:
+ElementLike
 ;
 pub
 struct

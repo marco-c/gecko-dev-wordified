@@ -83,7 +83,7 @@ side_offsets
 SideOffsets2D
 ;
 use
-gfx
+servo_util
 :
 :
 geometry
