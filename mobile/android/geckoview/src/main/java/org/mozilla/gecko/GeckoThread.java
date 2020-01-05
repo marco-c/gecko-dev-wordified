@@ -2154,6 +2154,7 @@ size
 )
 ;
 }
+RobocopTarget
 public
 static
 GeckoProfile
