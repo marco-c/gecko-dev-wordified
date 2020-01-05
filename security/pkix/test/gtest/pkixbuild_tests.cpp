@@ -1064,6 +1064,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 override
 {
@@ -1801,6 +1804,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 override
 {
@@ -2540,6 +2546,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 override
 {

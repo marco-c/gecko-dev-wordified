@@ -2073,6 +2073,7 @@ IsChainValid
 (
 chain
 time
+requiredPolicy
 )
 ;
 }

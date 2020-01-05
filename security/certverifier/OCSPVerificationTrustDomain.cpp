@@ -232,6 +232,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 {
 /

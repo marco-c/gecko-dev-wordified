@@ -798,6 +798,9 @@ const
 DERArray
 &
 Time
+const
+CertPolicyId
+&
 )
 override
 {
