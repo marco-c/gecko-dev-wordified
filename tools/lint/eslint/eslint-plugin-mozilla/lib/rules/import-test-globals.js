@@ -303,7 +303,17 @@ EventUtils
 js
 "
 "
+MockObjects
+.
+js
+"
+"
 SimpleTest
+.
+js
+"
+"
+WindowSnapshot
 .
 js
 "
