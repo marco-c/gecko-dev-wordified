@@ -2843,6 +2843,12 @@ compose
 *
 /
 setup_masks_hangul
+NULL
+/
+*
+disable_otl
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 /

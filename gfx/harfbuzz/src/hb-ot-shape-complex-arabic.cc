@@ -4290,6 +4290,12 @@ compose
 *
 /
 setup_masks_arabic
+NULL
+/
+*
+disable_otl
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true
 /

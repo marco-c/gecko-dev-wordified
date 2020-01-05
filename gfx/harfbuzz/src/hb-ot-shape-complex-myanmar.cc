@@ -3105,6 +3105,12 @@ NULL
 setup_masks
 *
 /
+NULL
+/
+*
+disable_otl
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true
 /
@@ -3162,6 +3168,12 @@ compose
 *
 /
 setup_masks_myanmar
+NULL
+/
+*
+disable_otl
+*
+/
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_EARLY
 false
 /

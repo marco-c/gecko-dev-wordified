@@ -480,6 +480,13 @@ compile
 hb_ot_shape_plan_t
 &
 plan
+const
+int
+*
+coords
+unsigned
+int
+num_coords
 )
 {
 plan
@@ -501,6 +508,8 @@ compile
 plan
 .
 map
+coords
+num_coords
 )
 ;
 plan
