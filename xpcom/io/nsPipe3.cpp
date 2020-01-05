@@ -5622,11 +5622,16 @@ AppendNewSegment
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+if
 (
+!
 seg
 )
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 LOG
 (
 (
