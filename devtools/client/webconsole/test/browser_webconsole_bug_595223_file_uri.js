@@ -211,9 +211,9 @@ about
 :
 blank
 "
-E10SUtils
-.
-FILE_REMOTE_TYPE
+"
+file
+"
 )
 ;
 hud
