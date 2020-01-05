@@ -150,6 +150,10 @@ net_traits
 ;
 extern
 crate
+gfx_traits
+;
+extern
+crate
 style
 ;
 #

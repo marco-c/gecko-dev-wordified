@@ -69,6 +69,9 @@ Moz2D
 Azure
 .
 use
+gfx_traits
+:
+:
 color
 ;
 use

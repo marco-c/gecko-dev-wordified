@@ -438,10 +438,7 @@ script_task
 ScriptChan
 ;
 use
-canvas
-:
-:
-canvas_paint_task
+canvas_traits
 :
 :
 {
@@ -451,10 +448,7 @@ RadialGradientStyle
 }
 ;
 use
-canvas
-:
-:
-canvas_paint_task
+canvas_traits
 :
 :
 {

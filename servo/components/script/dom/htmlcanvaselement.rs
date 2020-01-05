@@ -57,10 +57,7 @@ MPL
 *
 /
 use
-canvas
-:
-:
-canvas_msg
+canvas_traits
 :
 :
 CanvasMsg
