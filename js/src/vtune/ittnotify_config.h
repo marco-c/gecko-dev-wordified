@@ -1482,11 +1482,11 @@ ITT_PLATFORM
 ITT_PLATFORM_WIN
 #
 include
-<
-windows
+"
+jswin
 .
 h
->
+"
 typedef
 HMODULE
 lib_t

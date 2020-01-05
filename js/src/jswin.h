@@ -167,6 +167,9 @@ undef
 GetProp
 #
 undef
+MemoryBarrier
+#
+undef
 SetProp
 #
 undef
