@@ -838,6 +838,12 @@ wr
 :
 GradientExtendMode
 aExtendMode
+const
+WrSize
+aTileSize
+const
+WrSize
+aTileSpacing
 )
 ;
 void
@@ -871,6 +877,12 @@ wr
 :
 GradientExtendMode
 aExtendMode
+const
+WrSize
+aTileSize
+const
+WrSize
+aTileSpacing
 )
 ;
 void

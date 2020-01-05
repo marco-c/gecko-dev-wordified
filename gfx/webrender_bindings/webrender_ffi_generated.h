@@ -2477,6 +2477,10 @@ size_t
 stops_count
 WrGradientExtendMode
 extend_mode
+WrSize
+tile_size
+WrSize
+tile_spacing
 )
 WR_FUNC
 ;
@@ -2503,6 +2507,10 @@ size_t
 stops_count
 WrGradientExtendMode
 extend_mode
+WrSize
+tile_size
+WrSize
+tile_spacing
 )
 WR_FUNC
 ;
