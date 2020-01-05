@@ -605,27 +605,6 @@ dependencies
 )
 :
         
-memoize
-        
-wraps
-(
-func
-)
-        
-def
-wrapper
-(
-*
-args
-)
-:
-            
-return
-func
-(
-args
-)
-        
 flatten_deps
 =
 [
@@ -647,9 +626,8 @@ and
 d
 .
 _func
-=
-=
-wrapper
+is
+func
 :
                 
 for
@@ -755,7 +733,7 @@ __init__
 (
             
 sandbox
-wrapper
+func
 flatten_deps
 )
     
@@ -833,7 +811,6 @@ self
 .
 _func
 (
-*
 resolved_args
 )
     
@@ -859,8 +836,7 @@ and
 self
 .
 _func
-=
-=
+is
 other
 .
 _func
