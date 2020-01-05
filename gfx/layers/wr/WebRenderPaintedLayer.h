@@ -117,6 +117,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+WebRenderBridgeChild
+.
+h
+"
+#
+include
+"
 WebRenderLayerManager
 .
 h
