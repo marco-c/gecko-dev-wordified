@@ -382,8 +382,11 @@ sCaretRatio
 bool
 sMenuSupportsDrag
 ;
+bool
+mInitialized
+;
 void
-Init
+EnsureInit
 (
 )
 ;
