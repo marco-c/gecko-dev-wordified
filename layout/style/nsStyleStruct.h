@@ -17960,9 +17960,9 @@ a
 stacking
 context
 .
-nsTArray
+nsCOMArray
 <
-nsString
+nsIAtom
 >
 mWillChange
 ;
