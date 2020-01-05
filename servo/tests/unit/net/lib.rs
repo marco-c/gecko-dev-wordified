@@ -64,6 +64,10 @@ cookie_rs
 ;
 extern
 crate
+devtools_traits
+;
+extern
+crate
 flate2
 ;
 extern
