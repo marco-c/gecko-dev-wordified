@@ -143,6 +143,9 @@ undef
 nsTString_CharT
 #
 undef
+nsTStringRepr_CharT
+#
+undef
 nsTFixedString_CharT
 #
 undef
