@@ -17393,7 +17393,7 @@ ReservedRooted
 JSObject
 *
 >
-obj
+env
 (
 &
 rootObject0
@@ -17447,10 +17447,10 @@ stackHandleAt
 if
 (
 !
-GetPropertyForNameLookup
+GetNameBoundInEnvironment
 (
 cx
-obj
+env
 id
 rval
 )
