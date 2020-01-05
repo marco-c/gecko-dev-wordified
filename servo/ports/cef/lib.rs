@@ -204,10 +204,6 @@ stb_image
 ;
 extern
 crate
-native
-;
-extern
-crate
 rustrt
 ;
 extern

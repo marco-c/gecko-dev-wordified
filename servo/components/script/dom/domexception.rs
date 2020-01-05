@@ -181,6 +181,7 @@ uint
 [
 deriving
 (
+Copy
 Show
 )
 ]

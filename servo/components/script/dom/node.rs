@@ -755,6 +755,9 @@ ComputedValues
 }
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -1062,6 +1065,13 @@ items
 #
 [
 jstraceable
+]
+#
+[
+deriving
+(
+Copy
+)
 ]
 flags
 NodeFlags
@@ -1599,6 +1609,13 @@ concept
 node
 -
 remove
+#
+[
+deriving
+(
+Copy
+)
+]
 enum
 SuppressObserver
 {
@@ -2102,6 +2119,7 @@ nodes
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )
@@ -8317,6 +8335,7 @@ not
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
@@ -16110,6 +16129,7 @@ deriving
 Clone
 PartialEq
 Eq
+Copy
 )
 ]
 pub
@@ -17062,7 +17082,7 @@ get_attributes
 name
 )
 .
-iter
+into_iter
 (
 )
 .
@@ -17605,6 +17625,7 @@ node
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )

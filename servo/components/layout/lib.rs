@@ -213,10 +213,6 @@ libc
 ;
 extern
 crate
-sync
-;
-extern
-crate
 url
 ;
 /

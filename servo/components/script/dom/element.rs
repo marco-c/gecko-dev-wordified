@@ -897,6 +897,7 @@ false
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )
@@ -4790,7 +4791,7 @@ get_attributes
 local_name
 )
 .
-iter
+into_iter
 (
 )
 .
@@ -7164,7 +7165,7 @@ as_slice
 )
 )
 .
-into_maybe_owned
+into_cow
 (
 )
 }
@@ -7179,7 +7180,7 @@ as_slice
 (
 )
 .
-into_maybe_owned
+into_cow
 (
 )
 }
@@ -10917,7 +10918,7 @@ get_attributes
 attr
 )
 .
-iter
+into_iter
 (
 )
 .

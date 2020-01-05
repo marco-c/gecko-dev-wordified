@@ -22184,6 +22184,7 @@ uint
 deriving
 (
 PartialEq
+Copy
 )
 ]
 #
@@ -38799,6 +38800,7 @@ decorators
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]
@@ -42995,6 +42997,7 @@ deriving
 =
 "
 PartialEq
+Copy
 "
 )
             
@@ -43011,6 +43014,7 @@ deriving
 =
 "
 PartialEq
+Copy
 "
 )
         

@@ -84,6 +84,9 @@ hash
 Hash
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -210,6 +213,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -4136,6 +4141,15 @@ from
 d1
 "
 .
+#
+[
+deriving
+(
+PartialEq
+Eq
+Copy
+)
+]
 enum
 SelectorMatchingResult
 {
@@ -4994,6 +5008,13 @@ _
 bitflags
 !
 {
+#
+[
+deriving
+(
+Copy
+)
+]
 flags
 CommonStyleAffectingAttributes
 :
@@ -5034,6 +5055,13 @@ mode
 :
 CommonStyleAffectingAttributeMode
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 CommonStyleAffectingAttributeMode
@@ -7588,6 +7616,9 @@ mod
 tests
 {
 use
+std
+:
+:
 sync
 :
 :
@@ -7835,6 +7866,7 @@ rules_list
 =
 get_mock_rules
 (
+&
 [
 "
 a
@@ -7931,6 +7963,7 @@ rules_list
 =
 get_mock_rules
 (
+&
 [
 "
 .
@@ -8007,6 +8040,7 @@ rules_list
 =
 get_mock_rules
 (
+&
 [
 "
 .
@@ -8087,6 +8121,7 @@ rules_list
 =
 get_mock_rules
 (
+&
 [
 "
 img
@@ -8247,6 +8282,7 @@ rules_list
 =
 get_mock_rules
 (
+&
 [
 "
 .

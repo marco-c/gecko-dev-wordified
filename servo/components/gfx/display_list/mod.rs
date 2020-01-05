@@ -465,6 +465,9 @@ computed_values
 cursor
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -667,6 +670,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -4521,6 +4525,7 @@ over
 deriving
 (
 Clone
+Copy
 )
 ]
 pub
@@ -5148,6 +5153,7 @@ Clone
 Default
 PartialEq
 Show
+Copy
 )
 ]
 pub

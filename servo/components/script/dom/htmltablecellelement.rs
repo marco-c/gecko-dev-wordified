@@ -190,6 +190,7 @@ Cell
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )

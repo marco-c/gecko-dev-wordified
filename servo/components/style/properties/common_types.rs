@@ -162,6 +162,7 @@ Clone
 Eq
 PartialEq
 FromPrimitive
+Copy
 )
 ]
 pub
@@ -991,6 +992,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -1793,6 +1795,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -2181,6 +2184,8 @@ false
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -2606,6 +2611,8 @@ false
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -3063,6 +3070,8 @@ position
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -3474,6 +3483,7 @@ deriving
 Clone
 PartialEq
 PartialOrd
+Copy
 )
 ]
 pub
@@ -3899,6 +3909,8 @@ try
 write
 !
 (
+&
+mut
 CssStringWriter
 :
 :
@@ -4417,6 +4429,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -5708,6 +5721,19 @@ url
 :
 Url
 ;
+#
+[
+allow
+(
+missing_copy_implementations
+)
+]
+/
+/
+It
+s
+kinda
+big
 pub
 struct
 Context
@@ -6170,6 +6196,7 @@ deriving
 (
 PartialEq
 Clone
+Copy
 )
 ]
 pub
@@ -6343,6 +6370,7 @@ deriving
 (
 PartialEq
 Clone
+Copy
 )
 ]
 pub
@@ -6545,6 +6573,7 @@ deriving
 (
 PartialEq
 Clone
+Copy
 )
 ]
 pub
@@ -7016,6 +7045,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub

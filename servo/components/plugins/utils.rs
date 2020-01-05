@@ -78,21 +78,6 @@ def
 }
 ;
 use
-rustc
-:
-:
-middle
-:
-:
-typeck
-:
-:
-astconv
-:
-:
-AstConv
-;
-use
 syntax
 :
 :
@@ -230,7 +215,6 @@ seg
 .
 .
 }
-_
 _
 )
 =
@@ -454,7 +438,6 @@ if
 let
 TyPath
 (
-_
 _
 ty_id
 )

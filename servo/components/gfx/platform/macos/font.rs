@@ -251,6 +251,9 @@ std
 ptr
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -630,6 +633,9 @@ return
 font_weight
 :
 :
+T
+:
+:
 Weight100
 ;
 }
@@ -642,6 +648,9 @@ normalized
 {
 return
 font_weight
+:
+:
+T
 :
 :
 Weight200
@@ -658,6 +667,9 @@ return
 font_weight
 :
 :
+T
+:
+:
 Weight300
 ;
 }
@@ -670,6 +682,9 @@ normalized
 {
 return
 font_weight
+:
+:
+T
 :
 :
 Weight400
@@ -686,6 +701,9 @@ return
 font_weight
 :
 :
+T
+:
+:
 Weight500
 ;
 }
@@ -698,6 +716,9 @@ normalized
 {
 return
 font_weight
+:
+:
+T
 :
 :
 Weight600
@@ -714,6 +735,9 @@ return
 font_weight
 :
 :
+T
+:
+:
 Weight700
 ;
 }
@@ -728,11 +752,17 @@ return
 font_weight
 :
 :
+T
+:
+:
 Weight800
 ;
 }
 return
 font_weight
+:
+:
+T
 :
 :
 Weight900
@@ -1353,8 +1383,6 @@ Font
 metrics
 (
 {
-:
-f
 }
 pt
 )

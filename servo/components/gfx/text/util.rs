@@ -70,6 +70,8 @@ CharIndex
 deriving
 (
 PartialEq
+Eq
+Copy
 )
 ]
 pub

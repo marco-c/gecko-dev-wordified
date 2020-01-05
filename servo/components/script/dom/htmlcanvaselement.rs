@@ -958,7 +958,6 @@ get
 {
 Some
 (
-ref
 context
 )
 =
@@ -1170,7 +1169,6 @@ get
 {
 Some
 (
-ref
 context
 )
 =

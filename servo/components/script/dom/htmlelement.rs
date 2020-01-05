@@ -1314,7 +1314,10 @@ ch
 =
 '
 \
-u002d
+u
+{
+2d
+}
 '
 )
 .
@@ -1743,6 +1746,7 @@ into_string
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )

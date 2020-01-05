@@ -210,7 +210,6 @@ constellation_msg
 Key
 KeyState
 KeyModifiers
-Pressed
 }
 ;
 use
@@ -261,7 +260,7 @@ fmt
 :
 :
 {
-FormatError
+Error
 Formatter
 Show
 }
@@ -772,6 +771,9 @@ if
 state
 =
 =
+KeyState
+:
+:
 Pressed
 {
 self
@@ -803,6 +805,13 @@ the
 compositor
 keeps
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 LayerProperties
@@ -1802,7 +1811,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 match

@@ -93,6 +93,9 @@ font_template
 FontTemplateData
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -159,6 +162,7 @@ parameters
 deriving
 (
 Clone
+Copy
 )
 ]
 pub

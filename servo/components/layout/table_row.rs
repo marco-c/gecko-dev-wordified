@@ -192,6 +192,9 @@ computed_values
 LengthOrPercentageOrAuto
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -285,6 +288,7 @@ cell
 deriving
 (
 Encodable
+Copy
 )
 ]
 pub

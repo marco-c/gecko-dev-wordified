@@ -230,6 +230,9 @@ table_layout
 }
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -440,6 +443,9 @@ table_layout
 table_layout
 :
 :
+T
+:
+:
 fixed
 {
 TableLayout
@@ -534,6 +540,9 @@ table_layout
 =
 =
 table_layout
+:
+:
+T
 :
 :
 fixed
@@ -634,6 +643,9 @@ table_layout
 =
 =
 table_layout
+:
+:
+T
 :
 :
 fixed
@@ -3096,6 +3108,7 @@ deriving
 Clone
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -3414,6 +3427,7 @@ eventually
 deriving
 (
 Encodable
+Copy
 )
 ]
 pub

@@ -406,6 +406,7 @@ XHR
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]

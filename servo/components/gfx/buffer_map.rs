@@ -289,6 +289,7 @@ buffer
 deriving
 (
 Eq
+Copy
 )
 ]
 struct

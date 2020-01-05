@@ -202,6 +202,13 @@ time
 [
 jstraceable
 ]
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 EventPhase

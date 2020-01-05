@@ -373,6 +373,7 @@ hidpi_factor
 deriving
 (
 Show
+Copy
 )
 ]
 pub
@@ -531,6 +532,7 @@ deriving
 (
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -639,6 +641,7 @@ deriving
 (
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -776,12 +779,12 @@ type
 deriving
 (
 Clone
+Copy
 Hash
 PartialEq
 PartialOrd
 Eq
 Ord
-Zero
 )
 ]
 pub

@@ -238,6 +238,8 @@ chan
 deriving
 (
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -270,6 +272,7 @@ struct
 deriving
 (
 Clone
+Copy
 )
 ]
 pub
@@ -288,6 +291,13 @@ Option
 SubpageId
 >
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 WindowSizeData
@@ -398,6 +408,9 @@ f32
 deriving
 (
 PartialEq
+Eq
+Copy
+Clone
 )
 ]
 pub
@@ -426,6 +439,10 @@ rs
 deriving
 (
 Show
+PartialEq
+Eq
+Copy
+Clone
 )
 ]
 pub
@@ -556,6 +573,13 @@ Menu
 bitflags
 !
 {
+#
+[
+deriving
+(
+Copy
+)
+]
 flags
 KeyModifiers
 :
@@ -820,6 +844,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 Hash
 Show
 )
@@ -852,6 +878,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 Hash
 Show
 )
@@ -870,6 +898,7 @@ deriving
 Clone
 PartialEq
 Eq
+Copy
 Hash
 Show
 )
@@ -889,6 +918,7 @@ deriving
 Clone
 PartialEq
 Eq
+Copy
 Hash
 Show
 )
@@ -927,6 +957,13 @@ on
 process
 termination
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 PipelineExitType

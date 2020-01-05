@@ -153,6 +153,13 @@ SignedInt
 [
 jstraceable
 ]
+#
+[
+deriving
+(
+Copy
+)
+]
 struct
 TextPoint
 {

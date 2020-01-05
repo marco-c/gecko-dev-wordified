@@ -289,7 +289,7 @@ std
 str
 :
 :
-MaybeOwned
+CowString
 ;
 use
 url
@@ -979,7 +979,7 @@ mut
 self
 msg
 :
-MaybeOwned
+CowString
 <
 '
 static

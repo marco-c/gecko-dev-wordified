@@ -151,6 +151,7 @@ EventTargetTypeId
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]

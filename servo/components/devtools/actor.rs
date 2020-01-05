@@ -210,7 +210,7 @@ msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -1373,7 +1373,7 @@ msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -1397,14 +1397,9 @@ msg
 .
 get
 (
-&
 "
 to
 "
-.
-to_string
-(
-)
 )
 .
 unwrap
@@ -1469,14 +1464,9 @@ msg
 .
 get
 (
-&
 "
 type
 "
-.
-to_string
-(
-)
 )
 .
 unwrap

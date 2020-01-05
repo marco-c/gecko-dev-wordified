@@ -127,10 +127,6 @@ serialize
 ;
 extern
 crate
-sync
-;
-extern
-crate
 text_writer
 ;
 extern

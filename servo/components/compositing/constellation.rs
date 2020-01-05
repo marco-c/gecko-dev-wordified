@@ -141,7 +141,7 @@ script_traits
 :
 :
 {
-mod
+CompositorEvent
 ConstellationControlMsg
 }
 ;
@@ -185,7 +185,7 @@ constellation_msg
 :
 {
 IFrameSandboxState
-IFrameUnsandboxed
+NavigationDirection
 }
 ;
 use
@@ -196,7 +196,6 @@ constellation_msg
 :
 :
 {
-KeyEvent
 Key
 KeyState
 KeyModifiers
@@ -283,13 +282,10 @@ servo_net
 storage_task
 :
 :
+{
 StorageTask
-;
-use
-servo_net
-:
-:
-storage_task
+StorageTaskMsg
+}
 ;
 use
 servo_util
@@ -713,6 +709,13 @@ identify
 a
 frame
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 FrameId
@@ -3708,6 +3711,9 @@ send
 resource_task
 :
 :
+ControlMsg
+:
+:
 Exit
 )
 ;
@@ -3744,7 +3750,7 @@ storage_task
 .
 send
 (
-storage_task
+StorageTaskMsg
 :
 :
 Exit
@@ -4195,7 +4201,7 @@ clone
 None
 )
 )
-constellation_msg
+NavigationType
 :
 :
 Load
@@ -4368,7 +4374,7 @@ clone
 None
 )
 )
-constellation_msg
+NavigationType
 :
 :
 Load
@@ -5285,6 +5291,9 @@ port
 sandbox
 =
 =
+IFrameSandboxState
+:
+:
 IFrameUnsandboxed
 ;
 /
@@ -5857,7 +5866,7 @@ clone
 )
 )
 )
-constellation_msg
+NavigationType
 :
 :
 Load
@@ -5964,7 +5973,7 @@ destination_frame
 match
 direction
 {
-constellation_msg
+NavigationDirection
 :
 :
 Forward
@@ -6050,7 +6059,7 @@ self
 compositor_proxy
 )
 }
-constellation_msg
+NavigationDirection
 :
 :
 Back
@@ -6161,7 +6170,7 @@ self
 grant_paint_permission
 (
 destination_frame
-constellation_msg
+NavigationType
 :
 :
 Navigate
@@ -6263,7 +6272,7 @@ frame
 pipeline
 .
 id
-script_traits
+CompositorEvent
 :
 :
 KeyEvent
@@ -7671,7 +7680,7 @@ loading
 match
 navigation_type
 {
-constellation_msg
+NavigationType
 :
 :
 Load

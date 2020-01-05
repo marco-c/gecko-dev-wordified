@@ -117,6 +117,13 @@ std
 :
 comm
 ;
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 CanvasMsg

@@ -295,9 +295,7 @@ compositor_msg
 :
 :
 {
-Blank
 Epoch
-FinishedLoading
 LayerId
 }
 ;
@@ -311,7 +309,7 @@ compositor_msg
 {
 ReadyState
 PaintState
-Scrollable
+ScrollPolicy
 }
 ;
 use
@@ -322,8 +320,8 @@ constellation_msg
 :
 :
 {
-mod
 ConstellationChan
+NavigationDirection
 }
 ;
 use
@@ -1064,6 +1062,7 @@ CompositeNow
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )
@@ -2410,6 +2409,9 @@ len
 0
 {
 return
+ReadyState
+:
+:
 Blank
 ;
 }
@@ -2424,6 +2426,9 @@ values
 .
 fold
 (
+ReadyState
+:
+:
 FinishedLoading
 |
 a
@@ -3018,6 +3023,9 @@ new
 )
 scroll_policy
 :
+ScrollPolicy
+:
+:
 Scrollable
 }
 ;
@@ -3197,6 +3205,9 @@ frame_tree
 pipeline
 .
 id
+ReadyState
+:
+:
 Blank
 )
 ;
@@ -5738,7 +5749,7 @@ WindowNavigateMsg
 Forward
 =
 >
-constellation_msg
+NavigationDirection
 :
 :
 Forward
@@ -5751,7 +5762,7 @@ WindowNavigateMsg
 Back
 =
 >
-constellation_msg
+NavigationDirection
 :
 :
 Back
@@ -5812,7 +5823,7 @@ chan
 .
 send
 (
-constellation_msg
+ConstellationMsg
 :
 :
 KeyEvent
@@ -6579,6 +6590,9 @@ get_earliest_pipeline_ready_state
 )
 !
 =
+ReadyState
+:
+:
 FinishedLoading
 {
 return
@@ -7249,6 +7263,9 @@ u32
 pixels
 :
 png
+:
+:
+PixelsByColorType
 :
 :
 RGB8

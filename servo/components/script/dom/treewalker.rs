@@ -2202,6 +2202,7 @@ previous
 match
 (
 result
+&
 sibling_op
 )
 {
@@ -2218,6 +2219,7 @@ _
 |
 (
 _
+&
 None
 )
 =

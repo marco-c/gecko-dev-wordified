@@ -163,6 +163,13 @@ for
 a
 call
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 ExceptionHandling
@@ -254,6 +261,7 @@ types
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )
@@ -329,6 +337,7 @@ types
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )
@@ -376,6 +385,7 @@ raw_pointer_deriving
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )

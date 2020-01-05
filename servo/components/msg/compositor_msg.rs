@@ -152,7 +152,9 @@ painter
 deriving
 (
 PartialEq
+Eq
 Clone
+Copy
 )
 ]
 pub
@@ -172,6 +174,7 @@ PartialEq
 PartialOrd
 Clone
 Show
+Copy
 )
 ]
 pub
@@ -272,7 +275,9 @@ conditions
 deriving
 (
 PartialEq
+Eq
 Show
+Copy
 )
 ]
 pub
@@ -320,6 +325,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -439,6 +446,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -507,6 +516,13 @@ the
 layer
 itself
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 LayerMetadata

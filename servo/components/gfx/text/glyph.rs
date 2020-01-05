@@ -258,6 +258,7 @@ deriving
 (
 Clone
 Show
+Copy
 )
 ]
 struct
@@ -615,6 +616,7 @@ flags
 deriving
 (
 PartialEq
+Copy
 )
 ]
 pub
@@ -1677,6 +1679,7 @@ deriving
 (
 Clone
 Show
+Copy
 )
 ]
 struct
@@ -1777,6 +1780,7 @@ PartialEq
 Clone
 Eq
 Show
+Copy
 )
 ]
 struct
@@ -2713,6 +2717,13 @@ reference
 to
 GlyphStore
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 GlyphData
@@ -2867,6 +2878,13 @@ using
 provided
 offsets
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 GlyphInfo

@@ -182,12 +182,6 @@ SeqCst
 }
 ;
 use
-std
-:
-:
-sync
-:
-:
 deque
 :
 :

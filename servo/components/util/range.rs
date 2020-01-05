@@ -235,6 +235,7 @@ PartialOrd
 Eq
 Ord
 Show
+Copy
 )
 ]
 (
@@ -1295,6 +1296,7 @@ deriving
 (
 Clone
 Encodable
+Copy
 )
 ]
 pub

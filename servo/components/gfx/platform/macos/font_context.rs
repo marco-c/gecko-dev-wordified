@@ -72,13 +72,6 @@ ctx
 (
 )
 }
-#
-[
-deriving
-(
-Clone
-)
-]
 impl
 FontContextHandle
 {

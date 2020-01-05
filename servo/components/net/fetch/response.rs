@@ -131,6 +131,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -178,6 +179,7 @@ reason
 deriving
 (
 Clone
+Copy
 )
 ]
 pub

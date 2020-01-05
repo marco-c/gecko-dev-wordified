@@ -125,6 +125,7 @@ expr
 deriving
 (
 Clone
+Copy
 PartialEq
 Eq
 FromPrimitive

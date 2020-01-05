@@ -249,6 +249,13 @@ rooted
 global
 object
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 GlobalRef
