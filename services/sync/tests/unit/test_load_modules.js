@@ -188,11 +188,6 @@ status
 js
 "
 "
-userapi
-.
-js
-"
-"
 util
 .
 js
