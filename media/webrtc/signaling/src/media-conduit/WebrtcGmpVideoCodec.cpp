@@ -3088,6 +3088,8 @@ nals
 ;
 uint32_t
 size
+=
+0
 ;
 /
 /
