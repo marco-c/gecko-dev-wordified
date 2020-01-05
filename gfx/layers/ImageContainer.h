@@ -3835,8 +3835,6 @@ EnsureActiveImage
 void
 EnsureImageClient
 (
-bool
-aCreate
 )
 ;
 /
@@ -4102,6 +4100,9 @@ RefPtr
 ImageClient
 >
 mImageClient
+;
+bool
+mIsAsync
 ;
 CompositableHandle
 mAsyncContainerHandle
