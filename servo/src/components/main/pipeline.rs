@@ -1038,7 +1038,7 @@ self
 .
 url
 .
-get
+borrow
 (
 )
 .

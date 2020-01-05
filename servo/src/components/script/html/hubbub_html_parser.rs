@@ -2020,11 +2020,12 @@ next_subpage_id
 :
 SubpageId
 =
+*
 page
 .
 next_subpage_id
 .
-get
+borrow
 (
 )
 ;
@@ -3082,9 +3083,10 @@ Id
 let
 subpage_id
 =
+*
 next_subpage_id
 .
-get
+borrow
 (
 )
 ;
