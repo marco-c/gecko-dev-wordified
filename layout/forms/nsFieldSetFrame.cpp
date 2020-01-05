@@ -256,10 +256,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-FieldSet
 )
 mLegendRect
 (

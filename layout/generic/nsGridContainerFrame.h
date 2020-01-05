@@ -1403,13 +1403,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-GridContainer
 )
 mCachedMinISize
 (

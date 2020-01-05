@@ -250,10 +250,6 @@ nsFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGView
 )
 {
 AddStateBits

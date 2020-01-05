@@ -195,10 +195,6 @@ nsHTMLButtonControlFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-GfxButtonControl
 )
 {
 }

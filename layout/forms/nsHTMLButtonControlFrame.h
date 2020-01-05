@@ -157,13 +157,6 @@ nsHTMLButtonControlFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-HTMLButtonControl
 )
 {
 }
@@ -584,11 +577,6 @@ nsIFrame
 :
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 ;
 virtual

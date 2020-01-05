@@ -181,10 +181,6 @@ nsAtomicContainerFrame
 (
 aContext
 aID
-LayoutFrameType
-:
-:
-FormControl
 )
 {
 }

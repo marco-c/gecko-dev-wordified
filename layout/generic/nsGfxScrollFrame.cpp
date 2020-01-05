@@ -951,8 +951,6 @@ nsIFrame
 :
 ClassID
 aID
-LayoutFrameType
-aType
 bool
 aIsRoot
 )
@@ -961,7 +959,6 @@ nsContainerFrame
 (
 aContext
 aID
-aType
 )
 mHelper
 (
@@ -8295,10 +8292,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Scroll
 aIsRoot
 )
 mHelper

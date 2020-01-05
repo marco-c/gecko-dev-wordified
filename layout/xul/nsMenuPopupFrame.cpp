@@ -699,10 +699,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-MenuPopup
 )
 mCurrentMenu
 (

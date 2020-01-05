@@ -2685,14 +2685,11 @@ nsStyleContext
 aContext
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsBox
 (
 aID
-aType
 )
 {
 MOZ_COUNT_CTOR

@@ -642,10 +642,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Root
 true
 )
 mPopupSetFrame

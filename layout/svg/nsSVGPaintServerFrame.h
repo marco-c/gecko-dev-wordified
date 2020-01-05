@@ -285,7 +285,6 @@ gfx
 DrawTarget
 DrawTarget
 ;
-explicit
 nsSVGPaintServerFrame
 (
 nsStyleContext
@@ -293,18 +292,12 @@ nsStyleContext
 aContext
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 :
 nsSVGContainerFrame
 (
 aContext
 aID
-aType
 )
 {
 AddStateBits

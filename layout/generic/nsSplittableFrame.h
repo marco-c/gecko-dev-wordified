@@ -573,7 +573,6 @@ aFrame
 ;
 protected
 :
-explicit
 nsSplittableFrame
 (
 nsStyleContext
@@ -581,18 +580,12 @@ nsStyleContext
 aContext
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 :
 nsFrame
 (
 aContext
 aID
-aType
 )
 mPrevContinuation
 (

@@ -363,10 +363,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGForeignObject
 )
 mInReflow
 (

@@ -282,13 +282,6 @@ nsSVGContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGMask
 )
 mInUse
 (

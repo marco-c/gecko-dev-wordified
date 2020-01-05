@@ -209,13 +209,6 @@ nsSVGContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGFilter
 )
 mLoopFlag
 (

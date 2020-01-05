@@ -367,10 +367,6 @@ SVGGeometryFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGImage
 )
 mReflowCallbackPosted
 (

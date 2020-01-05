@@ -911,14 +911,11 @@ nsBox
 (
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsIFrame
 (
 aID
-aType
 )
 {
 MOZ_COUNT_CTOR

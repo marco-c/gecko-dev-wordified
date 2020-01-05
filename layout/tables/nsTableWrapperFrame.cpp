@@ -329,10 +329,6 @@ nsContainerFrame
 (
 aContext
 aID
-LayoutFrameType
-:
-:
-TableWrapper
 )
 {
 }

@@ -191,10 +191,6 @@ nsSVGGFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGSwitch
 )
 {
 }

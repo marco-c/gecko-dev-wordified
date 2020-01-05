@@ -4394,11 +4394,6 @@ nsIFrame
 (
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 :
 mRect

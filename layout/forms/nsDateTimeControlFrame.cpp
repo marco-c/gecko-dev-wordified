@@ -302,10 +302,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-DateTimeControl
 )
 {
 }

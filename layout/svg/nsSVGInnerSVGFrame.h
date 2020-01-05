@@ -168,13 +168,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGInnerSVG
 )
 {
 }

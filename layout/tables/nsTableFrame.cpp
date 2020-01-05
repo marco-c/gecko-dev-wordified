@@ -1318,10 +1318,6 @@ nsContainerFrame
 (
 aContext
 aID
-LayoutFrameType
-:
-:
-Table
 )
 mCellMap
 (

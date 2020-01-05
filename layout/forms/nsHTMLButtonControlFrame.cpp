@@ -212,15 +212,12 @@ nsIFrame
 :
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsContainerFrame
 (
 aContext
 aID
-aType
 )
 {
 }

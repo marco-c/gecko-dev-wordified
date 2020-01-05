@@ -233,10 +233,6 @@ nsHTMLButtonControlFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ColorControl
 )
 {
 }

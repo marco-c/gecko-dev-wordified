@@ -158,13 +158,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Scrollbar
 )
 mIncrement
 (

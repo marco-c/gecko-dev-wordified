@@ -157,13 +157,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-PopupSet
 )
 {
 }

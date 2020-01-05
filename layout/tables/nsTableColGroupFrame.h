@@ -1506,13 +1506,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-TableColGroup
 )
 mColCount
 (

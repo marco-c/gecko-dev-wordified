@@ -189,13 +189,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGGenericContainer
 )
 {
 }

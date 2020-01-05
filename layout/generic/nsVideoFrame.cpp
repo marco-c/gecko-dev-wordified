@@ -543,10 +543,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-HTMLVideo
 )
 {
 EnableVisibilityTracking

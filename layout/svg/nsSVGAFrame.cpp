@@ -201,10 +201,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGA
 )
 {
 }

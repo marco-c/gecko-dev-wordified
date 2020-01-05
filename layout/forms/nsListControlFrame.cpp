@@ -869,10 +869,6 @@ nsHTMLScrollFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ListControl
 false
 )
 mView

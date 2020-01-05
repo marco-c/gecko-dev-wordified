@@ -1137,13 +1137,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGText
 )
 mTrailingUndisplayedCharacters
 (

@@ -300,13 +300,6 @@ nsInlineFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Ruby
 )
 {
 }

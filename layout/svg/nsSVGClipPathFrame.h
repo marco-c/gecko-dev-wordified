@@ -199,13 +199,6 @@ nsSVGContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGClipPath
 )
 mIsBeingProcessed
 (

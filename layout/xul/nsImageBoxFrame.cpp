@@ -878,10 +878,6 @@ nsLeafBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ImageBox
 )
 mIntrinsicSize
 (

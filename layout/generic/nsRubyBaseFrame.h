@@ -222,13 +222,6 @@ nsRubyContentFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-RubyBase
 )
 {
 }

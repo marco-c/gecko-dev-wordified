@@ -251,10 +251,6 @@ nsSVGContainerFrame
 :
 :
 kClassID
-LayoutFrameType
-:
-:
-None
 )
 ;
 /

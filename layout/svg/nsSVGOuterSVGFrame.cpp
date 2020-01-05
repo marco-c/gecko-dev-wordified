@@ -561,10 +561,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGOuterSVG
 )
 mCallingReflowSVG
 (

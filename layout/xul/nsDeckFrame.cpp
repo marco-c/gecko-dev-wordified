@@ -292,10 +292,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Deck
 )
 mIndex
 (

@@ -286,13 +286,6 @@ nsRubyContentFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-RubyText
 )
 {
 }

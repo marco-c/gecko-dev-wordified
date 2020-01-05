@@ -359,10 +359,6 @@ nsSVGPaintServerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGPattern
 )
 mSource
 (

@@ -231,13 +231,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-HTMLCanvas
 )
 mBorderPadding
 (

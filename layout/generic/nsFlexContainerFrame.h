@@ -865,13 +865,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-FlexContainer
 )
 mBaselineFromLastReflow
 (

@@ -233,13 +233,6 @@ nsSVGContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGMarker
 )
 mMarkedFrame
 (
@@ -815,13 +808,6 @@ nsSVGDisplayContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGMarkerAnonChild
 )
 {
 }

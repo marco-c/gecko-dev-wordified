@@ -346,15 +346,12 @@ nsTableFrame
 aTableFrame
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsContainerFrame
 (
 aContext
 aID
-aType
 )
 mDesiredSize
 (
@@ -6735,10 +6732,6 @@ nsTableCellFrame
 aContext
 aTableFrame
 kClassID
-LayoutFrameType
-:
-:
-BCTableCell
 )
 {
 mBStartBorder

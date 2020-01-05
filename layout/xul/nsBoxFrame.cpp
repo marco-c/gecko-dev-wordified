@@ -887,8 +887,6 @@ nsStyleContext
 aContext
 ClassID
 aID
-LayoutFrameType
-aType
 bool
 aIsRoot
 nsBoxLayout
@@ -900,7 +898,6 @@ nsContainerFrame
 (
 aContext
 aID
-aType
 )
 mFlex
 (

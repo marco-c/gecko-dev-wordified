@@ -1290,10 +1290,6 @@ nsLeafFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-None
 )
 {
 }
@@ -1514,10 +1510,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-FrameSet
 )
 {
 mNumRows
@@ -9080,10 +9072,6 @@ nsLeafFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-None
 )
 mWidth
 (

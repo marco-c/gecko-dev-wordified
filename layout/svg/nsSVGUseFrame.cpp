@@ -186,10 +186,6 @@ nsSVGGFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SVGUse
 )
 mHasValidDimensions
 (

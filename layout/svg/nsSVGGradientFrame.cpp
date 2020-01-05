@@ -293,15 +293,12 @@ nsStyleContext
 aContext
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsSVGPaintServerFrame
 (
 aContext
 aID
-aType
 )
 mSource
 (
