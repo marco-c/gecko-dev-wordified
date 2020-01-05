@@ -6340,6 +6340,11 @@ GetLayerManager
 (
 )
 ;
+if
+(
+layerManager
+)
+{
 return
 layerManager
 -
@@ -6348,6 +6353,7 @@ GetCompositorBackendType
 (
 )
 ;
+}
 }
 return
 LayersBackend
