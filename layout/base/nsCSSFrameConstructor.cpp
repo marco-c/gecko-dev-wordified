@@ -13629,6 +13629,14 @@ newFrame
 innerFrame
 )
 ;
+innerFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 /
 /
 Put
