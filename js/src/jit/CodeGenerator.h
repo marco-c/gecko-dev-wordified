@@ -318,9 +318,6 @@ class
 OutOfLineUpdateCache
 ;
 class
-OutOfLineICFallback
-;
-class
 OutOfLineCallPostWriteBarrier
 ;
 class
@@ -3123,14 +3120,6 @@ ool
 )
 ;
 void
-visitOutOfLineICFallback
-(
-OutOfLineICFallback
-*
-ool
-)
-;
-void
 visitGetPropertyCacheV
 (
 LGetPropertyCacheV
@@ -3428,8 +3417,6 @@ ConstantOrRegister
 id
 TypedOrValueRegister
 output
-Register
-maybeTemp
 bool
 monitoredResult
 bool
