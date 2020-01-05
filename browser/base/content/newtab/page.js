@@ -659,7 +659,7 @@ this
 .
 _scheduleUpdateTimeout
 =
-setTimeout
+requestIdleCallback
 (
 (
 )
@@ -696,7 +696,11 @@ _scheduleUpdateTimeout
 null
 ;
 }
+{
+timeout
+:
 SCHEDULE_UPDATE_TIMEOUT_MS
+}
 )
 ;
 }
@@ -1475,7 +1479,7 @@ this
 _scheduleUpdateTimeout
 )
 {
-clearTimeout
+cancelIdleCallback
 (
 this
 .
