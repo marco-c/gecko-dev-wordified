@@ -449,7 +449,7 @@ int
 aThreadId
 )
 :
-profiled_thread_
+mProfiledThread
 (
 mach_thread_self
 (
@@ -480,7 +480,7 @@ mach_port_deallocate
 mach_task_self
 (
 )
-profiled_thread_
+mProfiledThread
 )
 ;
 MOZ_COUNT_DTOR
@@ -490,12 +490,12 @@ PlatformData
 ;
 }
 thread_act_t
-profiled_thread
+ProfiledThread
 (
 )
 {
 return
-profiled_thread_
+mProfiledThread
 ;
 }
 private
@@ -505,14 +505,14 @@ private
 Note
 :
 for
-profiled_thread_
+mProfiledThread
 Mach
 primitives
 are
 used
 instead
 of
-PThread
+pthread
 '
 s
 /
@@ -547,7 +547,7 @@ Section
 3
 .
 thread_act_t
-profiled_thread_
+mProfiledThread
 ;
 }
 ;
@@ -882,7 +882,7 @@ aSample
 mPlatformData
 -
 >
-profiled_thread
+ProfiledThread
 (
 )
 ;
