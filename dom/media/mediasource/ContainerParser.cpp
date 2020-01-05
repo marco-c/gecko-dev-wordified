@@ -622,7 +622,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-bool
+MediaResult
 ContainerParser
 :
 :
@@ -640,7 +640,7 @@ aEnd
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 bool
@@ -1298,7 +1298,7 @@ content
 )
 ;
 }
-bool
+MediaResult
 ParseStartAndEndTimestamps
 (
 MediaByteBuffer
@@ -1427,7 +1427,7 @@ one
 )
 ;
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 if
@@ -1683,7 +1683,7 @@ Super
 unlikely
 OOM
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 mCompleteInitSegmentRange
@@ -1787,7 +1787,7 @@ IsEmpty
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 /
@@ -1962,7 +1962,7 @@ reset
 )
 ;
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 if
@@ -2225,7 +2225,7 @@ s
 duration
 .
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 uint64_t
@@ -2359,7 +2359,7 @@ mEnd
 )
 ;
 return
-true
+NS_OK
 ;
 }
 int64_t
@@ -3284,7 +3284,7 @@ mLastInvalidBox
 ;
 public
 :
-bool
+MediaResult
 ParseStartAndEndTimestamps
 (
 MediaByteBuffer
@@ -3416,7 +3416,7 @@ mParser
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 mResource
@@ -3514,7 +3514,7 @@ Super
 unlikely
 OOM
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 char
@@ -3674,7 +3674,7 @@ SuppressException
 )
 ;
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 if
@@ -3687,7 +3687,7 @@ IsNull
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 aStart
@@ -3718,7 +3718,7 @@ aEnd
 )
 ;
 return
-true
+NS_OK
 ;
 }
 /
@@ -4520,7 +4520,7 @@ return
 NS_OK
 ;
 }
-bool
+MediaResult
 ParseStartAndEndTimestamps
 (
 MediaByteBuffer
@@ -4554,7 +4554,7 @@ header
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 mHasInitData
@@ -4685,7 +4685,7 @@ Length
 )
 ;
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 mCompleteMediaSegmentRange
@@ -4761,7 +4761,7 @@ timestamps
 regardless
 .
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 /
