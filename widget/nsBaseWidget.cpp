@@ -2238,6 +2238,7 @@ clm
 UpdateTextureFactoryIdentifier
 (
 identifier
+aSeqNo
 )
 ;
 ImageBridgeChild
@@ -9273,6 +9274,7 @@ clm
 UpdateTextureFactoryIdentifier
 (
 textureFactoryIdentifier
+0
 )
 ;
 }
