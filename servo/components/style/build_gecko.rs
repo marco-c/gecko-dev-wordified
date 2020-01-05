@@ -2922,6 +2922,9 @@ binding_danger
 :
 AssertAndSuppressCleanupPolicy
 "
+"
+RawServoAnimationValueBorrowedListBorrowed
+"
 ]
 ;
 let
@@ -3753,9 +3756,6 @@ RawGeckoAnimationValueList
 RawServoAnimationValue
 "
 "
-RawServoAnimationValueList
-"
-"
 RawGeckoPresContext
 "
 "
@@ -3953,6 +3953,12 @@ Loader
 "
 ServoStyleSheet
 "
+"
+EffectCompositor_CascadeLevel
+"
+"
+RawServoAnimationValueBorrowedListBorrowed
+"
 ]
 ;
 struct
@@ -4099,9 +4105,6 @@ nsCSSValue
 "
 "
 RawGeckoAnimationValueList
-"
-"
-RawServoAnimationValueList
 "
 ]
 ;
