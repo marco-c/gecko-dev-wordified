@@ -1599,7 +1599,13 @@ aRv
 Overrides
 PFileSystemRequestChild
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Recv__delete__
 (
 const

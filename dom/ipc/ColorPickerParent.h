@@ -175,7 +175,13 @@ aInitialColor
 {
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvOpen
 (
 )

@@ -221,7 +221,13 @@ DeviceStorageRequestChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 DeviceStorageRequestChild
 :
 :
@@ -883,7 +889,9 @@ break
 }
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

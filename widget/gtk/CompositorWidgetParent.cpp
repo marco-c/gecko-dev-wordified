@@ -216,7 +216,13 @@ return
 mVsyncObserver
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 CompositorWidgetParent
 :
 :
@@ -234,7 +240,9 @@ aClientSize
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

@@ -447,7 +447,13 @@ PrivilegedJunkScope
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 JavaScriptChild
 :
 :
@@ -466,7 +472,9 @@ upToObjId
 1
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 PJavaScriptChild

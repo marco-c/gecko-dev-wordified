@@ -175,7 +175,13 @@ PVsyncBridgeParent
 aEndpoint
 )
 ;
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNotifyVsync
 (
 const

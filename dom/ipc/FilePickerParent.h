@@ -256,7 +256,13 @@ aData
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvOpen
 (
 const

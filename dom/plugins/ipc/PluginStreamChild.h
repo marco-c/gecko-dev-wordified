@@ -167,7 +167,13 @@ false
 ;
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Answer__delete__
 (
 const

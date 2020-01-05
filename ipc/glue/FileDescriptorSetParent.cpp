@@ -201,7 +201,13 @@ me
 Bug
 1005157
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 FileDescriptorSetParent
 :
 :
@@ -221,7 +227,9 @@ aFileDescriptor
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

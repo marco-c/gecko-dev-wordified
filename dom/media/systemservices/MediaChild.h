@@ -303,7 +303,13 @@ Child
 (
 )
 ;
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvGetOriginKeyResponse
 (
 const

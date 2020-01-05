@@ -1497,7 +1497,13 @@ mMode
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 FilePickerParent
 :
 :
@@ -1567,7 +1573,9 @@ returnCancel
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 mFilePicker
@@ -1707,7 +1715,9 @@ mCallback
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

@@ -390,7 +390,13 @@ mInitialDate
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 DatePickerParent
 :
 :
@@ -416,7 +422,9 @@ mInitialDate
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 mCallback
@@ -436,7 +444,9 @@ mCallback
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 ;

@@ -517,7 +517,13 @@ TestFailedCtorSubChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 TestFailedCtorChild
 :
 :
@@ -593,7 +599,10 @@ process
 to
 die
 return
-false
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
 }
 bool

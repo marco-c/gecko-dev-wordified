@@ -339,7 +339,13 @@ me
 Bug
 1005139
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 DocumentRendererParent
 :
 :
@@ -362,6 +368,8 @@ data
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }

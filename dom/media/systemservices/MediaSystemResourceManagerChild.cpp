@@ -135,7 +135,13 @@ MediaSystemResourceManagerChild
 )
 {
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 MediaSystemResourceManagerChild
 :
 :
@@ -167,7 +173,9 @@ aSuccess
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

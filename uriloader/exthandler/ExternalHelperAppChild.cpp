@@ -865,7 +865,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 ExternalHelperAppChild
 :
 :
@@ -882,7 +888,9 @@ mStatus
 aStatus
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

@@ -491,7 +491,13 @@ why
 override
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNotifyCompositorTransaction
 (
 )

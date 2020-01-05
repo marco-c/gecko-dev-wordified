@@ -125,7 +125,13 @@ aPromise
 private
 :
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvReplyGamepadIndex
 (
 const

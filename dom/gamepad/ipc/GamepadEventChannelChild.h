@@ -100,7 +100,13 @@ GamepadEventChannelChild
 {
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvGamepadUpdate
 (
 const

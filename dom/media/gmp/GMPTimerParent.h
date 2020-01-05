@@ -187,7 +187,13 @@ Shutdown
 ;
 protected
 :
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvSetTimer
 (
 const

@@ -247,7 +247,13 @@ DNSRequestChild
 {
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvLookupCompleted
 (
 const

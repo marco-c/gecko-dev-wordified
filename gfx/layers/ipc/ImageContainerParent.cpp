@@ -181,7 +181,13 @@ nullptr
 ;
 }
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 ImageContainerParent
 :
 :
@@ -201,7 +207,9 @@ this
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

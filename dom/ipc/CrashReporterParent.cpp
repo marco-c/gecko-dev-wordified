@@ -278,7 +278,13 @@ me
 Bug
 1005155
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 CrashReporterParent
 :
 :
@@ -298,7 +304,9 @@ data
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 CrashReporterParent

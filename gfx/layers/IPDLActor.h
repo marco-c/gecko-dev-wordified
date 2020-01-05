@@ -243,7 +243,13 @@ Destroy
 {
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvDestroy
 (
 )
@@ -265,7 +271,9 @@ this
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 typedef

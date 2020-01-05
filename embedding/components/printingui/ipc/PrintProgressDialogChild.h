@@ -121,7 +121,13 @@ aOpenObserver
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvDialogOpened
 (
 )

@@ -590,7 +590,13 @@ mActorDestroyed
 true
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Child
 :
 :
@@ -626,7 +632,10 @@ mgr
 )
 {
 return
-false
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
 }
 RefPtr
@@ -663,7 +672,9 @@ aKey
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 PMediaChild

@@ -590,7 +590,13 @@ TestCrashCleanupChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 TestCrashCleanupChild
 :
 :
@@ -611,7 +617,10 @@ unreached
 )
 ;
 return
-false
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
 }
 }

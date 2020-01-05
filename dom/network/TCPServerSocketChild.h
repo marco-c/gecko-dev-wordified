@@ -271,7 +271,13 @@ Close
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvCallbackAccept
 (
 PTCPSocketChild

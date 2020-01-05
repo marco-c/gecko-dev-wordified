@@ -891,7 +891,13 @@ aActor
 override
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvCreatedFromKnownBlob
 (
 )

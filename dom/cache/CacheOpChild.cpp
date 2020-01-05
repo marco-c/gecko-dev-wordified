@@ -532,7 +532,13 @@ RemoveWorkerHolder
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 CacheOpChild
 :
 :
@@ -639,7 +645,9 @@ mPromise
 nullptr
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 switch
@@ -945,7 +953,9 @@ mPromise
 nullptr
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

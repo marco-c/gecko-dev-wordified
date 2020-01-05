@@ -315,7 +315,13 @@ return
 GMPNoErr
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 GMPTimerChild
 :
 :
@@ -375,7 +381,9 @@ task
 ;
 }
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

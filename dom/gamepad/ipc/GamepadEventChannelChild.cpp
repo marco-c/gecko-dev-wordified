@@ -155,7 +155,13 @@ mEvent
 /
 /
 namespace
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 GamepadEventChannelChild
 :
 :
@@ -195,7 +201,9 @@ failed
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 }

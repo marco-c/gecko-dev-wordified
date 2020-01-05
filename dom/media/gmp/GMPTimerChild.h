@@ -195,7 +195,13 @@ protected
 /
 /
 GMPTimerChild
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvTimerExpired
 (
 const

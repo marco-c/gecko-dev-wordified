@@ -236,7 +236,13 @@ FileDescriptorSetChild
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAddFileDescriptor
 (
 const

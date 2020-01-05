@@ -402,7 +402,13 @@ override
 /
 PFilePickerChild
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Recv__delete__
 (
 const

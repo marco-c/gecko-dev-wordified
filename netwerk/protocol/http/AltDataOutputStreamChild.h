@@ -187,7 +187,13 @@ next
 call
 .
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvError
 (
 const

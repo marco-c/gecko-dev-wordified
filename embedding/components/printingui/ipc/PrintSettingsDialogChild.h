@@ -98,7 +98,13 @@ PrintSettingsDialogChild
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 Recv__delete__
 (
 const

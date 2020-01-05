@@ -173,7 +173,13 @@ ImageContainerParent
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAsyncDelete
 (
 )

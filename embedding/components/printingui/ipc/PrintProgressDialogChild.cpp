@@ -197,7 +197,13 @@ PrintProgressDialogChild
 )
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 PrintProgressDialogChild
 :
 :
@@ -254,7 +260,9 @@ nullptr
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 /

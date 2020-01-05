@@ -155,7 +155,13 @@ why
 override
 {
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvOpenHeapSnapshotTempFile
 (
 OpenHeapSnapshotTempFileResponse

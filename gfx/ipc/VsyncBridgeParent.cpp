@@ -306,7 +306,13 @@ mOpen
 true
 ;
 }
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 VsyncBridgeParent
 :
 :
@@ -332,7 +338,9 @@ aLayersId
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void

@@ -175,7 +175,13 @@ aInitialDate
 {
 }
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvOpen
 (
 )

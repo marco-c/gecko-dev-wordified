@@ -307,7 +307,13 @@ aReason
 override
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNoteClosed
 (
 const
