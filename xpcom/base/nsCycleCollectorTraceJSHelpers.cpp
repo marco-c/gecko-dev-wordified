@@ -187,7 +187,7 @@ get
 ;
 }
 void
-nsScriptObjectTracer
+nsCycleCollectionParticipant
 :
 :
 NoteJSChild

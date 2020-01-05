@@ -719,7 +719,7 @@ suppress
 aTracer
 -
 >
-Traverse
+TraverseNativeAndJS
 (
 aScriptObjectHolder
 callback
