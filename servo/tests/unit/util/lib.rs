@@ -63,7 +63,7 @@ feature
 (
 plugin
 custom_derive
-custom_attributes
+alloc
 )
 ]
 #
@@ -77,6 +77,10 @@ plugins
 extern
 crate
 util
+;
+extern
+crate
+libc
 ;
 extern
 crate
