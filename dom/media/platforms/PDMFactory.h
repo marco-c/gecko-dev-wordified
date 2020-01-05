@@ -388,7 +388,7 @@ CreatePDMs
 )
 ;
 void
-CreateBlankPDM
+CreateNullPDM
 (
 )
 ;
@@ -478,7 +478,7 @@ RefPtr
 <
 PlatformDecoderModule
 >
-mBlankPDM
+mNullPDM
 ;
 bool
 mWMFFailedToLoad
