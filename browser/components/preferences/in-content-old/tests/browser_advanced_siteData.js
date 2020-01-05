@@ -861,6 +861,8 @@ resolve
 (
 request
 .
+result
+.
 usage
 )
 )
