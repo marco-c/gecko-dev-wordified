@@ -60,10 +60,18 @@ std
 arc
 :
 :
-{
 ARC
+;
+use
+clone_arc
+=
+std
+:
+:
+arc
+:
+:
 clone
-}
 ;
 use
 dvec
@@ -333,6 +341,7 @@ data
 {
 ImageData
 (
+ref
 img
 )
 =
@@ -343,7 +352,10 @@ ctx
 self
 .
 bounds
+clone_arc
+(
 img
+)
 )
 _
 =
@@ -411,6 +423,7 @@ Rect
 <
 au
 >
++
 run
 :
 ~
@@ -475,6 +488,7 @@ Rect
 <
 au
 >
++
 image
 :
 ARC
@@ -513,11 +527,7 @@ data
 :
 ImageData
 (
-clone
-(
-&
 image
-)
 )
 }
 }

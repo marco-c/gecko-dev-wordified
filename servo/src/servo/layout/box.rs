@@ -2208,7 +2208,14 @@ dl
 Image
 (
 bounds
+arc
+:
+:
+clone
+(
+&
 image
+)
 )
 )
 /
