@@ -4974,13 +4974,6 @@ emitIteratorNext
 ParseNode
 *
 pn
-IteratorKind
-kind
-=
-IteratorKind
-:
-:
-Sync
 bool
 allowSelfHosted
 =
