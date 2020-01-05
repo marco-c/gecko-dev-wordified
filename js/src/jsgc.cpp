@@ -29607,7 +29607,10 @@ obj
 )
 ;
 return
-1
+CrossCompartmentWrapperObject
+:
+:
+GrayLinkReservedSlot
 ;
 }
 #

@@ -183,6 +183,15 @@ CrossCompartmentWrapperObject
 public
 WrapperObject
 {
+public
+:
+static
+const
+unsigned
+GrayLinkReservedSlot
+=
+1
+;
 }
 ;
 }
