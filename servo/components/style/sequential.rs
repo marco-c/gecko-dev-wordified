@@ -179,7 +179,7 @@ context
 .
 should_process
 (
-node
+kid
 )
 {
 doit

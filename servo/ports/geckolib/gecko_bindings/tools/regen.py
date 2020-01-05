@@ -756,6 +756,12 @@ h
 For
 NodeFlags
 .
+            
+"
+UniquePtr
+.
+h
+"
         
 ]
         
@@ -823,6 +829,10 @@ FastComputedTimingProperties
 "
 nsINode
 "
+            
+"
+HasPointerType
+"
         
 ]
         
@@ -884,6 +894,35 @@ nsDataHashtable
 "
 imgIRequest
 "
+            
+"
+Maybe
+"
+#
+<
+-
+AlignedStorage
+which
+means
+templated
+union
+which
+                      
+#
+means
+impossible
+to
+represent
+in
+stable
+rust
+as
+of
+                      
+#
+right
+now
+.
         
 ]
     
@@ -1143,6 +1182,9 @@ FontFamilyType
 "
 "
 nsIAtom
+"
+"
+nsStyleContext
 "
         
 ]

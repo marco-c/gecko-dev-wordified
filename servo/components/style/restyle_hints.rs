@@ -348,7 +348,7 @@ descendants
 const
 RESTYLE_LATER_SIBLINGS
 =
-0x04
+0x08
 }
 }
 /
