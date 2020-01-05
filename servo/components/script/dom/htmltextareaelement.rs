@@ -1025,6 +1025,9 @@ make_bool_getter
 !
 (
 Disabled
+"
+disabled
+"
 )
 ;
 /
@@ -1128,6 +1131,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -1187,6 +1193,9 @@ make_getter
 !
 (
 Placeholder
+"
+placeholder
+"
 )
 ;
 /
@@ -1246,6 +1255,9 @@ make_bool_getter
 !
 (
 ReadOnly
+"
+readonly
+"
 )
 ;
 /
@@ -1305,6 +1317,9 @@ make_bool_getter
 !
 (
 Required
+"
+required
+"
 )
 ;
 /
@@ -1428,6 +1443,9 @@ make_getter
 !
 (
 Wrap
+"
+wrap
+"
 )
 ;
 /

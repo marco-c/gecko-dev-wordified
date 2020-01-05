@@ -740,6 +740,9 @@ make_getter
 !
 (
 Coords
+"
+coords
+"
 )
 ;
 /
@@ -799,6 +802,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -858,6 +864,9 @@ make_getter
 !
 (
 Rev
+"
+rev
+"
 )
 ;
 /
@@ -917,6 +926,9 @@ make_getter
 !
 (
 Shape
+"
+shape
+"
 )
 ;
 /

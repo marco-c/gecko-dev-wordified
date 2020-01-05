@@ -681,6 +681,9 @@ make_url_or_base_getter
 !
 (
 Action
+"
+action
+"
 )
 ;
 /
@@ -740,6 +743,9 @@ make_enumerated_getter
 !
 (
 Autocomplete
+"
+autocomplete
+"
 "
 on
 "
@@ -807,6 +813,9 @@ make_enumerated_getter
 !
 (
 Enctype
+"
+enctype
+"
 "
 application
 /
@@ -972,6 +981,9 @@ make_enumerated_getter
 (
 Method
 "
+method
+"
+"
 get
 "
 (
@@ -1044,6 +1056,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -1103,6 +1118,9 @@ make_bool_getter
 !
 (
 NoValidate
+"
+novalidate
+"
 )
 ;
 /
@@ -1162,6 +1180,9 @@ make_getter
 !
 (
 Target
+"
+target
+"
 )
 ;
 /

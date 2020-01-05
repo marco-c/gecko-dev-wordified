@@ -2575,6 +2575,9 @@ make_url_getter
 !
 (
 Href
+"
+href
+"
 )
 ;
 /
@@ -2634,6 +2637,9 @@ make_getter
 !
 (
 Rel
+"
+rel
+"
 )
 ;
 /
@@ -2693,6 +2699,9 @@ make_getter
 !
 (
 Media
+"
+media
+"
 )
 ;
 /
@@ -2752,6 +2761,9 @@ make_getter
 !
 (
 Hreflang
+"
+hreflang
+"
 )
 ;
 /
@@ -2811,6 +2823,9 @@ make_getter
 !
 (
 Type
+"
+type
+"
 )
 ;
 /
@@ -2934,6 +2949,9 @@ make_getter
 !
 (
 Charset
+"
+charset
+"
 )
 ;
 /
@@ -2993,6 +3011,9 @@ make_getter
 !
 (
 Rev
+"
+rev
+"
 )
 ;
 /
@@ -3052,6 +3073,9 @@ make_getter
 !
 (
 Target
+"
+target
+"
 )
 ;
 /

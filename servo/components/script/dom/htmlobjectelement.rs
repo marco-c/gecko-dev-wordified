@@ -680,6 +680,9 @@ make_getter
 !
 (
 Type
+"
+type
+"
 )
 ;
 /

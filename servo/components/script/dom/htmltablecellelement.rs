@@ -414,6 +414,9 @@ make_getter
 !
 (
 BgColor
+"
+bgcolor
+"
 )
 ;
 /

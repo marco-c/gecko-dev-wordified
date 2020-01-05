@@ -1413,6 +1413,9 @@ make_getter
 !
 (
 Alt
+"
+alt
+"
 )
 ;
 /
@@ -1472,6 +1475,9 @@ make_url_getter
 !
 (
 Src
+"
+src
+"
 )
 ;
 /
@@ -1531,6 +1537,9 @@ make_getter
 !
 (
 UseMap
+"
+usemap
+"
 )
 ;
 /
@@ -1590,6 +1599,9 @@ make_bool_getter
 !
 (
 IsMap
+"
+ismap
+"
 )
 ;
 /
@@ -2020,6 +2032,9 @@ make_getter
 !
 (
 Name
+"
+name
+"
 )
 ;
 /
@@ -2079,6 +2094,9 @@ make_getter
 !
 (
 Align
+"
+align
+"
 )
 ;
 /
@@ -2138,6 +2156,9 @@ make_uint_getter
 !
 (
 Hspace
+"
+hspace
+"
 )
 ;
 /
@@ -2197,6 +2218,9 @@ make_uint_getter
 !
 (
 Vspace
+"
+vspace
+"
 )
 ;
 /
@@ -2256,6 +2280,9 @@ make_getter
 !
 (
 LongDesc
+"
+longdesc
+"
 )
 ;
 /
@@ -2315,6 +2342,9 @@ make_getter
 !
 (
 Border
+"
+border
+"
 )
 ;
 /

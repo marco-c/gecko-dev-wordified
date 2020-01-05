@@ -327,6 +327,9 @@ make_getter
 !
 (
 Color
+"
+color
+"
 )
 ;
 /
@@ -386,6 +389,9 @@ make_getter
 !
 (
 Width
+"
+width
+"
 )
 ;
 /
