@@ -12158,12 +12158,11 @@ DOMWindowCreated
 "
 function
 (
-aEvent
 )
 {
 if
 (
-aEvent
+event
 .
 target
 !
