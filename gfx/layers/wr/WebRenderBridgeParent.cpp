@@ -2053,6 +2053,7 @@ mCompositor
 EndFrame
 (
 )
+;
 mCompositor
 -
 >
