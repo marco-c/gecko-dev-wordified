@@ -544,6 +544,20 @@ Compartments
 )
 ]
 )
+JoinParallelTasksPhaseKind
+=
+PhaseKind
+(
+"
+JOIN_PARALLEL_TASKS
+"
+"
+Join
+Parallel
+Tasks
+"
+67
+)
 PhaseKindGraphRoots
 =
 [
@@ -1059,6 +1073,8 @@ arena
             
 ]
 )
+            
+JoinParallelTasksPhaseKind
         
 ]
 )
@@ -1172,6 +1188,8 @@ Deallocate
 39
 )
         
+JoinParallelTasksPhaseKind
+        
 ]
 )
     
@@ -1224,6 +1242,8 @@ Cells
 "
 43
 )
+            
+JoinParallelTasksPhaseKind
         
 ]
 )
