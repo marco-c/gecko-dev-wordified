@@ -12024,6 +12024,9 @@ new
 PromptService
 (
 this
+getAppEventDispatcher
+(
+)
 )
 ;
 /
