@@ -352,9 +352,5 @@ extern
 CustomTypeAnnotation
 NonTemporaryClass
 ;
-extern
-CustomTypeAnnotation
-NonParam
-;
 #
 endif
