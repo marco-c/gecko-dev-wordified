@@ -287,7 +287,7 @@ mod
 storage_task
 ;
 mod
-sniffer_task
+mime_classifier
 ;
 /
 /
