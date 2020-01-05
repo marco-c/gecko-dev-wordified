@@ -5130,6 +5130,7 @@ style_context
 )
 ;
 let
+mut
 context
 =
 StyleContext
@@ -5198,6 +5199,7 @@ clear_data
 resolve_style
 (
 &
+mut
 context
 element
 &
