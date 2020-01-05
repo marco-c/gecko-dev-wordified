@@ -2382,7 +2382,6 @@ fn
 Implementation
 (
 &
-mut
 self
 )
 -
@@ -2924,7 +2923,6 @@ fn
 Location
 (
 &
-mut
 self
 )
 -
@@ -3013,7 +3011,6 @@ fn
 Implementation
 (
 &
-mut
 self
 )
 -
@@ -7111,7 +7108,6 @@ fn
 Location
 (
 &
-mut
 self
 )
 -

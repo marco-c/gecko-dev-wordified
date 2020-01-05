@@ -888,7 +888,6 @@ fn
 Location
 (
 &
-mut
 self
 )
 -
@@ -902,7 +901,6 @@ fn
 Console
 (
 &
-mut
 self
 )
 -
@@ -916,7 +914,6 @@ fn
 Navigator
 (
 &
-mut
 self
 )
 -
@@ -1022,7 +1019,6 @@ fn
 Performance
 (
 &
-mut
 self
 )
 -
@@ -1264,7 +1260,6 @@ fn
 Location
 (
 &
-mut
 self
 )
 -
@@ -1353,7 +1348,6 @@ fn
 Console
 (
 &
-mut
 self
 )
 -
@@ -1426,7 +1420,6 @@ fn
 Navigator
 (
 &
-mut
 self
 )
 -
@@ -1684,7 +1677,6 @@ fn
 Performance
 (
 &
-mut
 self
 )
 -
