@@ -3198,7 +3198,7 @@ EnsureUniqueInnerOnCSSSheets
 /
 Called
 by
-CSSStyleSheet
+StyleSheet
 :
 :
 EnsureUniqueInner
