@@ -231,7 +231,7 @@ index
 /
 Should
 be
-selected
+active
 by
 default
 .
@@ -243,7 +243,7 @@ assertTrue
 (
 tab
 .
-selected
+active
 )
 ;
 browser

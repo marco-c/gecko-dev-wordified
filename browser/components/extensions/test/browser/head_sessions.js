@@ -188,9 +188,6 @@ prop
 of
 [
 "
-selected
-"
-"
 highlighted
 "
 "
