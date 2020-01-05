@@ -549,9 +549,6 @@ prompt
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 promise
@@ -1342,9 +1339,6 @@ streams
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 }
@@ -1855,9 +1849,6 @@ streams
 yield
 closeStream
 (
-false
-0
-2
 )
 ;
 }
