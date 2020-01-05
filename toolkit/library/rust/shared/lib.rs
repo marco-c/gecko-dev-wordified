@@ -81,5 +81,5 @@ quantum_render
 ]
 extern
 crate
-webrender
+webrender_bindings
 ;
