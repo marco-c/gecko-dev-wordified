@@ -3286,7 +3286,7 @@ fake
 MBasicBlock
 :
 :
-NewAsmJS
+New
 (
 graph_
 block
