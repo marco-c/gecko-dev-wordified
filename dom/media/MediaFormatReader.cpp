@@ -14347,6 +14347,14 @@ GetNextRandomAccessPoint
 nextKeyframe
 )
 )
+&
+&
+!
+nextKeyframe
+.
+IsInfinite
+(
+)
 )
 {
 SkipVideoDemuxToNextKeyFrame
