@@ -3431,9 +3431,6 @@ BaseTypeInferenceMagic
 ifdef
 JS_CRASH_DIAGNOSTICS
 extern
-MOZ_NORETURN
-MOZ_COLD
-MOZ_NEVER_INLINE
 void
 ReportMagicWordFailure
 (
