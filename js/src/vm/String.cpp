@@ -475,6 +475,9 @@ to
 cause
 GC
 .
+JS
+:
+:
 AutoSuppressGCAnalysis
 nogc
 ;
