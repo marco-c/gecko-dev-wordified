@@ -2087,6 +2087,11 @@ TCPReadyState
 aReadyState
 )
 {
+if
+(
+mIPCOpen
+)
+{
 mozilla
 :
 :
@@ -2112,6 +2117,7 @@ aReadyState
 )
 )
 ;
+}
 }
 void
 TCPSocketParent
