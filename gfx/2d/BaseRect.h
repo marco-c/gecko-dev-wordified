@@ -2861,7 +2861,7 @@ YMost
 Point
 AtCorner
 (
-int
+Corner
 aCorner
 )
 const
@@ -2872,10 +2872,7 @@ aCorner
 )
 {
 case
-RectCorner
-:
-:
-TopLeft
+eCornerTopLeft
 :
 return
 TopLeft
@@ -2883,10 +2880,7 @@ TopLeft
 )
 ;
 case
-RectCorner
-:
-:
-TopRight
+eCornerTopRight
 :
 return
 TopRight
@@ -2894,10 +2888,7 @@ TopRight
 )
 ;
 case
-RectCorner
-:
-:
-BottomRight
+eCornerBottomRight
 :
 return
 BottomRight
@@ -2905,10 +2896,7 @@ BottomRight
 )
 ;
 case
-RectCorner
-:
-:
-BottomLeft
+eCornerBottomLeft
 :
 return
 BottomLeft
