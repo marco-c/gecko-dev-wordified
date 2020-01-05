@@ -32809,13 +32809,6 @@ updateState
 (
 )
 ;
-UITour
-.
-onLocationChange
-(
-location
-)
-;
 gTabletModePageCounter
 .
 inc
