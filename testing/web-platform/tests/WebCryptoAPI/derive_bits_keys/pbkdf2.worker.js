@@ -1,3 +1,11 @@
+/
+/
+<
+meta
+>
+timeout
+=
+long
 importScripts
 (
 "
