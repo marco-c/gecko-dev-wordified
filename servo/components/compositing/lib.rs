@@ -83,14 +83,6 @@ plugin
 #
 !
 [
-feature
-(
-plugin
-)
-]
-#
-!
-[
 plugin
 (
 plugins
