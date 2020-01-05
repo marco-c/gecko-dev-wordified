@@ -411,6 +411,6 @@ selfxss
 .
 count
 "
-0
+5
 )
 ;
