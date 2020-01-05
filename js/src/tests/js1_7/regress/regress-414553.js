@@ -165,6 +165,12 @@ BUGNUMBER
 =
 414553
 ;
+var
+summary
+=
+'
+'
+;
 printBugNumber
 (
 BUGNUMBER
