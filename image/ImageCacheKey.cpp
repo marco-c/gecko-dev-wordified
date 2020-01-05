@@ -860,10 +860,8 @@ the
 URI
 to
 support
--
-moz
--
-samplesize
+media
+fragments
 which
 /
 /
