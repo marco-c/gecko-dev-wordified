@@ -1307,9 +1307,13 @@ pc
 .
 storeOrAddIceCandidate
 (
+new
+RTCIceCandidate
+(
 message
 .
 ice_candidate
+)
 )
 ;
 }
