@@ -182,9 +182,11 @@ devices
 isRequired
 displayPixelRatio
 :
-PropTypes
+Types
 .
-number
+pixelRatio
+.
+value
 .
 isRequired
 networkThrottling
@@ -222,7 +224,12 @@ selectedPixelRatio
 :
 PropTypes
 .
-number
+shape
+(
+Types
+.
+pixelRatio
+)
 .
 isRequired
 touchSimulation

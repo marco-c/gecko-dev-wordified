@@ -307,9 +307,11 @@ func
 isRequired
 displayPixelRatio
 :
-PropTypes
+Types
 .
-number
+pixelRatio
+.
+value
 .
 isRequired
 location
@@ -797,7 +799,11 @@ selectedDevice
 let
 selectedPixelRatio
 =
+{
+value
+:
 0
+}
 ;
 if
 (

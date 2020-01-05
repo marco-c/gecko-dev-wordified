@@ -210,9 +210,11 @@ devices
 isRequired
 displayPixelRatio
 :
-PropTypes
+Types
 .
-number
+pixelRatio
+.
+value
 .
 isRequired
 selectedDevice
@@ -226,7 +228,12 @@ selectedPixelRatio
 :
 PropTypes
 .
-number
+shape
+(
+Types
+.
+pixelRatio
+)
 .
 isRequired
 onChangeViewportPixelRatio
@@ -486,6 +493,8 @@ devicePixelRatio
 if
 (
 selectedPixelRatio
+.
+value
 )
 {
 selectorClass
@@ -582,6 +591,8 @@ select
 value
 :
 selectedPixelRatio
+.
+value
 |
 |
 displayPixelRatio
