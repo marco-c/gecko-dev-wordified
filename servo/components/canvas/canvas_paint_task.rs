@@ -2443,7 +2443,8 @@ Canvas2dMsg
 :
 SetShadowColor
 (
-rgba
+ref
+color
 )
 =
 >
@@ -2451,7 +2452,11 @@ painter
 .
 set_shadow_color
 (
-rgba
+color
+.
+to_azcolor
+(
+)
 )
 }
 }
