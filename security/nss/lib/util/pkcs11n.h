@@ -546,14 +546,6 @@ CKA_NSS
 +
 33
 )
-#
-define
-CKA_NSS_MOZILLA_CA_POLICY
-(
-CKA_NSS
-+
-34
-)
 /
 *
 *
