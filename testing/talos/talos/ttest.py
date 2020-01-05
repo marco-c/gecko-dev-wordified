@@ -1156,6 +1156,26 @@ None
                 
 )
             
+except
+:
+                
+self
+.
+check_for_crashes
+(
+browser_config
+minidump_dir
+                                       
+test_config
+[
+'
+name
+'
+]
+)
+                
+raise
+            
 finally
 :
                 
