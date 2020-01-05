@@ -1558,7 +1558,7 @@ animation_frame_ident
 :
 Cell
 <
-i32
+u32
 >
 /
 /
@@ -1611,7 +1611,7 @@ RefCell
 <
 HashMap
 <
-i32
+u32
 Box
 <
 FnBox
@@ -7309,7 +7309,7 @@ f64
 )
 -
 >
-i32
+u32
 {
 let
 window
@@ -7455,7 +7455,7 @@ cancel_animation_frame
 self
 ident
 :
-i32
+u32
 )
 {
 self

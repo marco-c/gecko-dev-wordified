@@ -4520,7 +4520,7 @@ FrameRequestCallback
 )
 -
 >
-i32
+u32
 {
 let
 doc
@@ -4642,7 +4642,7 @@ CancelAnimationFrame
 self
 ident
 :
-i32
+u32
 )
 {
 let
