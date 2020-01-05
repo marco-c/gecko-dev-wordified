@@ -3,7 +3,7 @@
 Timing
 functions
 .
-import
+use
 std
 :
 :

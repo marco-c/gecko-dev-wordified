@@ -30,7 +30,7 @@ ResourceTask
 ResourceManager
 LoaderTaskFactory
 ;
-import
+use
 comm
 :
 :
@@ -39,7 +39,7 @@ Chan
 Port
 }
 ;
-import
+use
 task
 :
 :
@@ -48,7 +48,7 @@ spawn
 spawn_listener
 }
 ;
-import
+use
 std
 :
 :
@@ -57,7 +57,7 @@ net
 :
 url
 ;
-import
+use
 std
 :
 :

@@ -10,7 +10,7 @@ load_from_memory
 export
 test_image_bin
 ;
-import
+use
 stb_image
 =
 stb_image

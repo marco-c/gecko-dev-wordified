@@ -10,7 +10,7 @@ matching
 .
 "
 ]
-import
+use
 dom
 :
 :
@@ -21,13 +21,13 @@ base
 LayoutData
 }
 ;
-import
+use
 dom
 :
 :
 base
 ;
-import
+use
 base
 :
 :
@@ -37,13 +37,13 @@ Node
 Text
 }
 ;
-import
+use
 values
 :
 :
 *
 ;
-import
+use
 styles
 :
 :
@@ -1360,7 +1360,7 @@ test
 mod
 test
 {
-import
+use
 dom
 :
 :
@@ -1374,7 +1374,7 @@ HTMLHeadElement
 HTMLImageElement
 }
 ;
-import
+use
 dom
 :
 :
@@ -1386,7 +1386,7 @@ NodeScope
 UnknownElement
 }
 ;
-import
+use
 dvec
 :
 :
