@@ -102,7 +102,7 @@ action
 "
 :
 "
-store
+store_true
 "
       
 "
