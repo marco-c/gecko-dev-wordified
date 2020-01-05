@@ -302,6 +302,10 @@ aDisplayDirectory
 const
 nsString
 &
+aDisplaySpecialDirectory
+const
+nsString
+&
 aOkButtonLabel
 )
 override

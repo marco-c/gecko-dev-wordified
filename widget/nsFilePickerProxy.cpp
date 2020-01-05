@@ -604,6 +604,7 @@ mDefaultExtension
 mFilters
 mFilterNames
 displayDirectory
+mDisplaySpecialDirectory
 mOkButtonLabel
 )
 ;
