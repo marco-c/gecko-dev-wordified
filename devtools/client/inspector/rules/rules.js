@@ -7390,7 +7390,7 @@ inheritedSource
 =
 rule
 .
-inheritedSource
+inherited
 ;
 if
 (
@@ -7433,6 +7433,8 @@ div
 .
 textContent
 =
+rule
+.
 inheritedSource
 ;
 lastInheritedSource
@@ -10789,6 +10791,8 @@ column
 )
 ;
 }
+return
+;
 }
 )
 ;
