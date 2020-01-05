@@ -1563,7 +1563,7 @@ current
 media
 segment
 .
-uint32_t
+uint64_t
 mProcessedInput
 ;
 Maybe
