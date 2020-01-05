@@ -857,10 +857,6 @@ borrow_mut
 )
 =
 data
-.
-into_owned
-(
-)
 ;
 /
 /

@@ -1206,10 +1206,10 @@ Option
 <
 LayoutChan
 >
-shared_data
+_shared_data
 :
 SharedLayoutData
-data
+_data
 :
 *
 (
@@ -11967,10 +11967,6 @@ as_slice
 Some
 (
 content
-.
-into_owned
-(
-)
 )
 }
 CommentNodeTypeId
