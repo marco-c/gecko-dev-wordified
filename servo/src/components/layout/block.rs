@@ -8251,7 +8251,6 @@ base
 absolute_position_info
 .
 relative_containing_block_size
-None
 )
 ;
 /
@@ -8335,7 +8334,6 @@ writing_mode
 container_size
 )
 background_border_level
-None
 )
 ;
 let
@@ -11027,7 +11025,6 @@ fragment
 .
 intrinsic_inline_sizes
 (
-None
 )
 ;
 intrinsic_inline_sizes
@@ -12252,7 +12249,6 @@ base
 absolute_position_info
 .
 relative_containing_block_size
-None
 )
 ;
 if
@@ -13321,7 +13317,6 @@ fragment
 compute_border_padding_margins
 (
 containing_block_inline_size
-None
 )
 ;
 let
@@ -16813,7 +16808,6 @@ fragment
 assign_replaced_inline_size_if_necessary
 (
 containing_block_inline_size
-None
 )
 ;
 /
@@ -17151,7 +17145,6 @@ fragment
 assign_replaced_inline_size_if_necessary
 (
 parent_flow_inline_size
-None
 )
 ;
 /
@@ -17570,7 +17563,6 @@ fragment
 assign_replaced_inline_size_if_necessary
 (
 parent_flow_inline_size
-None
 )
 ;
 /
