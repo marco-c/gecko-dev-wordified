@@ -439,15 +439,12 @@ true
 endif
 {
 mOriginAttributes
-.
-Inherit
-(
+=
 aPrincipal
 -
 >
 OriginAttributesRef
 (
-)
 )
 ;
 if

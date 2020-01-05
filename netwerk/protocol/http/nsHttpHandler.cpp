@@ -15294,15 +15294,12 @@ aPrincipal
 )
 {
 originAttributes
-.
-Inherit
-(
+=
 aPrincipal
 -
 >
 OriginAttributesRef
 (
-)
 )
 ;
 }

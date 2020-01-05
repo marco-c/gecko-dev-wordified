@@ -279,16 +279,6 @@ nsIChannel
 aChannel
 )
 {
-OriginAttributes
-attrs
-;
-attrs
-.
-Inherit
-(
-aAttrs
-)
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -301,7 +291,7 @@ BasePrincipal
 CreateCodebasePrincipal
 (
 aHostURI
-attrs
+aAttrs
 )
 ;
 if
