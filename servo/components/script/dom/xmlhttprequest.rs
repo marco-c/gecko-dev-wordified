@@ -9836,13 +9836,6 @@ None
 }
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 fn
 final_mime_type
 (
