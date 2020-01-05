@@ -1847,7 +1847,7 @@ complexity
 "
 :
 "
-warn
+error
 "
 /
 /
