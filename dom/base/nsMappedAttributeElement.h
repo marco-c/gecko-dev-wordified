@@ -268,9 +268,6 @@ virtual
 bool
 SetMappedAttribute
 (
-nsIDocument
-*
-aDocument
 nsIAtom
 *
 aName
@@ -280,6 +277,16 @@ aValue
 nsresult
 *
 aRetval
+)
+override
+;
+virtual
+void
+NodeInfoChanged
+(
+nsIDocument
+*
+aOldDoc
 )
 override
 ;
