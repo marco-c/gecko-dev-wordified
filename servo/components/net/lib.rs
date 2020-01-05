@@ -63,7 +63,6 @@ feature
 (
 default_type_params
 globs
-managed_boxes
 phase
 )
 ]
