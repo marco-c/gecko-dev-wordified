@@ -307,6 +307,17 @@ LateWriteChecks
 .
 h
 "
+#
+if
+defined
+(
+MOZ_STACKWALKING
+)
+#
+define
+OBSERVE_LATE_WRITES
+#
+endif
 using
 namespace
 mozilla
@@ -773,6 +784,9 @@ Observation
 aOb
 )
 {
+#
+ifdef
+OBSERVE_LATE_WRITES
 /
 /
 Crash
@@ -1563,6 +1577,8 @@ get
 )
 )
 ;
+#
+endif
 }
 /
 *

@@ -12769,6 +12769,12 @@ level
 ;
 #
 endif
+#
+if
+defined
+(
+MOZ_STACKWALKING
+)
 /
 /
 This
@@ -12849,6 +12855,8 @@ stackTraceDepth
 0
 )
 ;
+#
+endif
 #
 endif
 #

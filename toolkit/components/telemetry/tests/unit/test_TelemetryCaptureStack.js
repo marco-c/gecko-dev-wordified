@@ -84,6 +84,11 @@ ENABLE_TESTS
 AppConstants
 .
 MOZ_ENABLE_PROFILER_SPS
+&
+&
+AppConstants
+.
+MOZ_STACKWALKING
 ;
 /
 *
