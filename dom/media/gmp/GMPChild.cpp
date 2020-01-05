@@ -1949,10 +1949,7 @@ this
 ;
 mGMPLoader
 =
-GMPProcessChild
-:
-:
-GetGMPLoader
+CreateGMPLoader
 (
 )
 ;
