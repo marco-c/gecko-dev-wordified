@@ -30331,9 +30331,9 @@ Get
 (
 aHorizontalAxis
 ?
-eSideTop
+NS_SIDE_TOP
 :
-eSideLeft
+NS_SIDE_LEFT
 )
 ;
 const
@@ -30347,9 +30347,9 @@ Get
 (
 aHorizontalAxis
 ?
-eSideBottom
+NS_SIDE_BOTTOM
 :
-eSideRight
+NS_SIDE_RIGHT
 )
 ;
 nscoord
@@ -44460,6 +44460,9 @@ IsCornerAdjacentToSide
 (
 uint8_t
 aCorner
+css
+:
+:
 Side
 aSide
 )
@@ -44469,7 +44472,7 @@ static_assert
 (
 int
 )
-eSideTop
+NS_SIDE_TOP
 =
 =
 NS_CORNER_TOP_LEFT
@@ -44486,7 +44489,7 @@ static_assert
 (
 int
 )
-eSideRight
+NS_SIDE_RIGHT
 =
 =
 NS_CORNER_TOP_RIGHT
@@ -44503,7 +44506,7 @@ static_assert
 (
 int
 )
-eSideBottom
+NS_SIDE_BOTTOM
 =
 =
 NS_CORNER_BOTTOM_RIGHT
@@ -44520,7 +44523,7 @@ static_assert
 (
 int
 )
-eSideLeft
+NS_SIDE_LEFT
 =
 =
 NS_CORNER_BOTTOM_LEFT
@@ -44537,7 +44540,7 @@ static_assert
 (
 int
 )
-eSideTop
+NS_SIDE_TOP
 =
 =
 (
@@ -44562,7 +44565,7 @@ static_assert
 (
 int
 )
-eSideRight
+NS_SIDE_RIGHT
 =
 =
 (
@@ -44587,7 +44590,7 @@ static_assert
 (
 int
 )
-eSideBottom
+NS_SIDE_BOTTOM
 =
 =
 (
@@ -44612,7 +44615,7 @@ static_assert
 (
 int
 )
-eSideLeft
+NS_SIDE_LEFT
 =
 =
 (
@@ -44668,6 +44671,9 @@ const
 nsStyleCorners
 &
 aCorners
+css
+:
+:
 Side
 aSide
 )
@@ -46852,6 +46858,11 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
+|
+imgIContainer
+:
+:
+FLAG_ASYNC_NOTIFY
 ;
 if
 (
