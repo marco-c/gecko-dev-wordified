@@ -12592,7 +12592,7 @@ StartDecoding
 imgIContainer
 :
 :
-FLAG_ASYNC_NOTIFY
+FLAG_NONE
 )
 ;
 }
