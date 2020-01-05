@@ -459,12 +459,14 @@ buf
 =
 hex
 [
+(
 aBytes
 [
 i
 ]
 &
 0xf0
+)
 >
 >
 4
