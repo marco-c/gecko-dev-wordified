@@ -57,9 +57,9 @@ new
 LocalizationHelper
 (
 "
-toolkit
+global
 /
-locales
+locale
 /
 layout_errors
 .

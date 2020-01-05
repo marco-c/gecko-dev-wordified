@@ -122,9 +122,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 components
 .

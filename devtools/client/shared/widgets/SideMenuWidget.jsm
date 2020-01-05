@@ -127,9 +127,7 @@ SHARED_STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 shared
 .
