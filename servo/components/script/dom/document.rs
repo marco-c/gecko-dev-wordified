@@ -841,9 +841,6 @@ Document
 node
 :
 Node
-reflector_
-:
-Reflector
 window
 :
 JS
@@ -2369,14 +2366,6 @@ Node
 new_without_doc
 (
 DocumentNodeTypeId
-)
-reflector_
-:
-Reflector
-:
-:
-new
-(
 )
 window
 :
