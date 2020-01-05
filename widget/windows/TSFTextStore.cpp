@@ -10563,7 +10563,7 @@ RefPtr
 <
 nsWindowBase
 >
-kungFuDeathGrip
+widget
 (
 mWidget
 )
@@ -10785,10 +10785,10 @@ selectionSet
 (
 true
 eSetSelection
-mWidget
+widget
 )
 ;
-mWidget
+widget
 -
 >
 InitEvent
@@ -10939,7 +10939,7 @@ this
 WidgetEventTime
 eventTime
 =
-mWidget
+widget
 -
 >
 CurrentMessageWidgetEventTime
@@ -11028,10 +11028,10 @@ IsComposingInContent
 if
 (
 !
-mWidget
+widget
 |
 |
-mWidget
+widget
 -
 >
 Destroyed
@@ -11298,7 +11298,7 @@ this
 WidgetEventTime
 eventTime
 =
-mWidget
+widget
 -
 >
 CurrentMessageWidgetEventTime
@@ -11533,7 +11533,7 @@ this
 WidgetEventTime
 eventTime
 =
-mWidget
+widget
 -
 >
 CurrentMessageWidgetEventTime
@@ -11743,7 +11743,7 @@ selectionSet
 (
 true
 eSetSelection
-mWidget
+widget
 )
 ;
 selectionSet
@@ -11799,11 +11799,11 @@ type
 }
 if
 (
-mWidget
+widget
 &
 &
 !
-mWidget
+widget
 -
 >
 Destroyed

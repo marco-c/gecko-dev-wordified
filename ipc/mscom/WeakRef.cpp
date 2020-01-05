@@ -287,14 +287,7 @@ IUnknown
 >
 kungFuDeathGrip
 (
-static_cast
-<
-IUnknown
-*
->
-(
 this
-)
 )
 ;
 if

@@ -150,6 +150,15 @@ include
 "
 mozilla
 /
+Unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mscom
 /
 COMApartmentRegion
@@ -266,6 +275,11 @@ MOZ_ASSERT
 (
 thread
 )
+;
+Unused
+<
+<
+thread
 ;
 }
 template
