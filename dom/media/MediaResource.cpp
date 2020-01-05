@@ -8872,16 +8872,9 @@ if
 fc
 |
 |
-(
 IsBlobURI
 (
 uri
-)
-&
-&
-XRE_IsParentProcess
-(
-)
 )
 )
 {
