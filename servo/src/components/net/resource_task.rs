@@ -533,8 +533,8 @@ Result
 <
 (
 )
-(
-)
+~
+str
 >
 )
 }
@@ -635,8 +635,8 @@ Vec
 u8
 >
 )
-(
-)
+~
+str
 >
 {
 let
@@ -1190,6 +1190,14 @@ Done
 (
 Err
 (
+"
+no
+loader
+for
+scheme
+"
+.
+to_owned
 (
 )
 )
