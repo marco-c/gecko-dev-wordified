@@ -86,6 +86,9 @@ Animation
 }
 ;
 use
+arc_ptr_eq
+;
+use
 cache
 :
 :
@@ -246,12 +249,6 @@ string_cache
 Atom
 Namespace
 }
-;
-use
-util
-:
-:
-arc_ptr_eq
 ;
 use
 util
