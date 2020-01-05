@@ -12604,6 +12604,14 @@ null
 (
 )
 ;
+AutoAwaitIsKeyword
+awaitIsKeyword
+(
+&
+tokenStream
+true
+)
+;
 ParseNode
 *
 pn
