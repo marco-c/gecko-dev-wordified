@@ -140,6 +140,29 @@ dependencies
 build
 "
 ]
+and
+                
+config
+.
+get
+(
+'
+kind
+-
+dependencies
+'
+[
+]
+)
+!
+=
+[
+"
+nightly
+-
+l10n
+"
+]
 )
 :
             
@@ -153,6 +176,9 @@ must
 depend
 on
 builds
+or
+l10n
+repacks
 "
 )
         
