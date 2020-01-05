@@ -1963,11 +1963,10 @@ PrepareAndTraverseSubtree
 (
 RawGeckoElementBorrowed
 aRoot
-mozilla
-:
-:
 TraversalRootBehavior
 aRootBehavior
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 ;
 /
