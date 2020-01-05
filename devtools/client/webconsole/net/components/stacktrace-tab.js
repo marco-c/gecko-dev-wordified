@@ -143,21 +143,6 @@ func
 isRequired
 }
 )
-/
-/
-Service
-to
-enable
-the
-source
-map
-feature
-.
-sourceMapService
-:
-PropTypes
-.
-object
 }
 render
 (
@@ -179,7 +164,6 @@ cause
 let
 {
 actions
-sourceMapService
 }
 =
 this
@@ -204,7 +188,6 @@ StackTrace
 {
 stacktrace
 onViewSourceInDebugger
-sourceMapService
 }
 )
 ;

@@ -199,11 +199,6 @@ PropTypes
 bool
 .
 isRequired
-serviceContainer
-:
-PropTypes
-.
-object
 }
 ;
 PageError

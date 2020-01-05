@@ -243,11 +243,6 @@ PropTypes
 func
 .
 isRequired
-sourceMapService
-:
-PropTypes
-.
-object
 }
 )
 autoscroll
