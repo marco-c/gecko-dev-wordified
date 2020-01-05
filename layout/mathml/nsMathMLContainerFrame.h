@@ -287,11 +287,14 @@ nsMathMLContainerFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 )
 :
 nsContainerFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -3461,6 +3464,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 )
 {
 /
@@ -3882,6 +3886,7 @@ aContext
 nsInlineFrame
 (
 aContext
+kClassID
 )
 {
 }

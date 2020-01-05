@@ -6333,6 +6333,7 @@ aIsRoot
 nsHTMLScrollFrame
 (
 aContext
+kClassID
 mozilla
 :
 :
@@ -6349,6 +6350,11 @@ nsHTMLScrollFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 mozilla
 :
 :

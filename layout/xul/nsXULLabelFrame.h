@@ -242,6 +242,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

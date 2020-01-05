@@ -155,6 +155,9 @@ nsTitleBarFrame
 nsStyleContext
 *
 aContext
+ClassID
+=
+kClassID
 )
 ;
 virtual

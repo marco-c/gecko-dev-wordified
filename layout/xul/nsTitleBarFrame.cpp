@@ -251,11 +251,14 @@ nsTitleBarFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 )
 :
 nsBoxFrame
 (
 aContext
+aID
 false
 )
 {

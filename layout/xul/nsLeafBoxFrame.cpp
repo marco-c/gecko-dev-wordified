@@ -269,6 +269,8 @@ nsLeafBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 LayoutFrameType
 aType
 )
@@ -276,6 +278,7 @@ aType
 nsLeafFrame
 (
 aContext
+aID
 aType
 )
 {

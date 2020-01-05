@@ -225,6 +225,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 )
 {
 nsCOMPtr

@@ -946,6 +946,11 @@ nsHTMLScrollFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 LayoutFrameType
 aType
 bool
@@ -955,6 +960,7 @@ aIsRoot
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 mHelper
@@ -8288,6 +8294,7 @@ aClipAllDescendants
 nsBoxFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

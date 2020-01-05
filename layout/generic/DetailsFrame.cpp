@@ -222,6 +222,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

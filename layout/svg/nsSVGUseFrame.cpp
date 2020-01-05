@@ -185,6 +185,7 @@ aContext
 nsSVGGFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

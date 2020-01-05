@@ -172,6 +172,7 @@ aContext
 nsButtonBoxFrame
 (
 aContext
+kClassID
 )
 mCursorOnThis
 (

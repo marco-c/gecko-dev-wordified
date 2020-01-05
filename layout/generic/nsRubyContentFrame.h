@@ -250,6 +250,8 @@ nsRubyContentFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -260,6 +262,7 @@ aType
 nsInlineFrame
 (
 aContext
+aID
 aType
 )
 {

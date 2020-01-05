@@ -253,6 +253,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mWidthSign
 (

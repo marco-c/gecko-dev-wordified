@@ -148,6 +148,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 )
 {
 }

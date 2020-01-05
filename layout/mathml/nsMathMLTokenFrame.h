@@ -307,11 +307,16 @@ nsMathMLTokenFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsMathMLContainerFrame
 (
 aContext
+aID
 )
 {
 }

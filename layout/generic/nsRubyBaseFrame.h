@@ -221,6 +221,7 @@ aContext
 nsRubyContentFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

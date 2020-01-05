@@ -322,6 +322,7 @@ aContext
 nsContainerFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :
@@ -4918,6 +4919,7 @@ aContext
 nsLeafFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

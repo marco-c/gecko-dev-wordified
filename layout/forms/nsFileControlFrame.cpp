@@ -334,6 +334,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 )
 {
 AddStateBits

@@ -321,6 +321,8 @@ nsSVGContainerFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -331,6 +333,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 {
@@ -717,6 +720,11 @@ nsSVGDisplayContainerFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 mozilla
 :
 :
@@ -727,6 +735,7 @@ aType
 nsSVGContainerFrame
 (
 aContext
+aID
 aType
 )
 {
@@ -739,7 +748,11 @@ NS_FRAME_MAY_BE_TRANSFORMED
 public
 :
 NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_QUERYFRAME_TARGET
+(
+nsSVGDisplayContainerFrame
+)
+NS_DECL_ABSTRACT_FRAME
 (
 nsSVGDisplayContainerFrame
 )

@@ -1136,6 +1136,7 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

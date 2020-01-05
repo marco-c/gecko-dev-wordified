@@ -266,6 +266,7 @@ aContext
 nsTableWrapperFrame
 (
 aContext
+kClassID
 )
 {
 }
@@ -807,6 +808,7 @@ aContext
 nsTableFrame
 (
 aContext
+kClassID
 )
 mFrameSpacingX
 (
@@ -1105,6 +1107,7 @@ aContext
 nsTableRowFrame
 (
 aContext
+kClassID
 )
 {
 }
@@ -1299,6 +1302,7 @@ nsTableCellFrame
 (
 aContext
 aTableFrame
+kClassID
 )
 {
 }

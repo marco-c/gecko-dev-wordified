@@ -232,6 +232,7 @@ aContext
 nsSVGContainerFrame
 (
 aContext
+kClassID
 mozilla
 :
 :
@@ -813,6 +814,7 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

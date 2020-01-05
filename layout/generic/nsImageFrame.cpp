@@ -979,6 +979,8 @@ nsImageFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 LayoutFrameType
 aType
 )
@@ -986,6 +988,7 @@ aType
 nsAtomicContainerFrame
 (
 aContext
+aID
 aType
 )
 mComputedSize

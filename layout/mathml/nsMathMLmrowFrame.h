@@ -315,6 +315,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 {
 }

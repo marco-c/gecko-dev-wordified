@@ -215,6 +215,7 @@ aContext
 nsSplittableFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

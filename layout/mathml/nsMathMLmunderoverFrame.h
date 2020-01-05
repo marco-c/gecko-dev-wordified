@@ -269,6 +269,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mIncrementUnder
 (

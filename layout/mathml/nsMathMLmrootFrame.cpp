@@ -212,6 +212,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mSqrChar
 (

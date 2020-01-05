@@ -380,11 +380,16 @@ nsImageFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsImageFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -966,6 +971,7 @@ nsImageFrame
 nsStyleContext
 *
 aContext
+ClassID
 mozilla
 :
 :

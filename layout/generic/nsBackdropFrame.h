@@ -159,6 +159,7 @@ aContext
 nsFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

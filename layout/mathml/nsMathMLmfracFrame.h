@@ -604,6 +604,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mLineRect
 (

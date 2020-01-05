@@ -3809,6 +3809,10 @@ nsTableFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 ;
 /

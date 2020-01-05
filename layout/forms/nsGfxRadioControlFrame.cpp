@@ -208,6 +208,7 @@ aContext
 nsFormControlFrame
 (
 aContext
+kClassID
 )
 {
 }

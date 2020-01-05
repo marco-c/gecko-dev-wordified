@@ -291,6 +291,8 @@ nsSVGGradientFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 LayoutFrameType
 aType
 )
@@ -298,6 +300,7 @@ aType
 nsSVGPaintServerFrame
 (
 aContext
+aID
 aType
 )
 mSource

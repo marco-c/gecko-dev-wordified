@@ -219,6 +219,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 )
 mBSizeOfARow
 (

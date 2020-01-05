@@ -243,6 +243,8 @@ nsSVGGradientFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -888,6 +890,7 @@ aContext
 nsSVGGradientFrame
 (
 aContext
+kClassID
 mozilla
 :
 :
@@ -1215,6 +1218,7 @@ aContext
 nsSVGGradientFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

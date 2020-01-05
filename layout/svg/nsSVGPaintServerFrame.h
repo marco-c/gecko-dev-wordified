@@ -291,6 +291,8 @@ nsSVGPaintServerFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -301,6 +303,7 @@ aType
 nsSVGContainerFrame
 (
 aContext
+aID
 aType
 )
 {

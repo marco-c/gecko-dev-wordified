@@ -433,6 +433,7 @@ aContext
 nsAtomicContainerFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

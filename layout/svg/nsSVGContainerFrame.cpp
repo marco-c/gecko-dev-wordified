@@ -247,6 +247,10 @@ aPresShell
 nsSVGContainerFrame
 (
 aContext
+nsSVGContainerFrame
+:
+:
+kClassID
 LayoutFrameType
 :
 :
@@ -305,10 +309,6 @@ frame
 NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGContainerFrame
-)
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsSVGDisplayContainerFrame
 )
 void
 nsSVGContainerFrame

@@ -2814,6 +2814,8 @@ nsBlockFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -2824,6 +2826,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 mMinWidth
@@ -2851,11 +2854,16 @@ nsBlockFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsBlockFrame
 (
 aContext
+aID
 mozilla
 :
 :

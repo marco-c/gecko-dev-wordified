@@ -8080,6 +8080,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 )
 {
 /

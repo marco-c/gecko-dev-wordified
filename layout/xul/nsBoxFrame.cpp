@@ -824,6 +824,10 @@ aPresShell
 nsBoxFrame
 (
 aContext
+nsBoxFrame
+:
+:
+kClassID
 aIsRoot
 aLayoutManager
 )
@@ -881,6 +885,8 @@ nsBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 LayoutFrameType
 aType
 bool
@@ -893,6 +899,7 @@ aLayoutManager
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 mFlex

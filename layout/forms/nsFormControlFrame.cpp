@@ -170,11 +170,17 @@ nsFormControlFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 )
 :
 nsAtomicContainerFrame
 (
 aContext
+aID
 LayoutFrameType
 :
 :

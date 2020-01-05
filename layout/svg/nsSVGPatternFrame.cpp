@@ -358,6 +358,7 @@ aContext
 nsSVGPaintServerFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

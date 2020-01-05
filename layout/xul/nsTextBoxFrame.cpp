@@ -602,6 +602,7 @@ aContext
 nsLeafBoxFrame
 (
 aContext
+kClassID
 )
 mAccessKeyInfo
 (

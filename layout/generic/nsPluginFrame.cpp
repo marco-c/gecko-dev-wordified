@@ -799,6 +799,7 @@ aContext
 nsFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

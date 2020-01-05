@@ -290,6 +290,7 @@ aContext
 nsMathMLSelectedFrame
 (
 aContext
+kClassID
 )
 {
 }
