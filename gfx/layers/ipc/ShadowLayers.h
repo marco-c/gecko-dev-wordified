@@ -1633,6 +1633,12 @@ all
 attributes
 when
 any
+of
+the
+appropriate
+attribute
+*
+set
 is
 mutated
 .
@@ -1640,6 +1646,14 @@ mutated
 /
 void
 Mutated
+(
+ShadowableLayer
+*
+aMutant
+)
+;
+void
+MutatedSimple
 (
 ShadowableLayer
 *

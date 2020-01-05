@@ -570,6 +570,16 @@ aLayer
 override
 ;
 virtual
+void
+MutatedSimple
+(
+Layer
+*
+aLayer
+)
+override
+;
+virtual
 already_AddRefed
 <
 PaintedLayer
