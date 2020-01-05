@@ -205,6 +205,11 @@ pref_initPhase
 phase
 )
 ;
+pref_initPhase
+pref_GetInitPhase
+(
+)
+;
 void
 pref_SetWatchingPref
 (

@@ -2274,6 +2274,12 @@ pref_initPhase
 phase
 )
 ;
+static
+pref_initPhase
+InitPhase
+(
+)
+;
 #
 endif
 static
