@@ -956,6 +956,7 @@ headers
 derive
 (
 Clone
+Debug
 Deserialize
 Serialize
 )
