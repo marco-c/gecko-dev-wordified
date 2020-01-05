@@ -15219,6 +15219,11 @@ animatable
 "
 False
 "
+gecko_ffi_name
+=
+"
+mBinding
+"
 spec
 =
 "
