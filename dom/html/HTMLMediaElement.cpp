@@ -41761,6 +41761,9 @@ Visibility
 :
 :
 APPROXIMATELY_VISIBLE
+IsInUncomposedDoc
+(
+)
 )
 ;
 }
