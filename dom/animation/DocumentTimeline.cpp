@@ -555,10 +555,8 @@ IsNull
 )
 )
 {
-RefPtr
-<
 nsDOMNavigationTiming
->
+*
 timing
 =
 mDocument
@@ -684,10 +682,8 @@ return
 result
 ;
 }
-RefPtr
-<
 nsDOMNavigationTiming
->
+*
 timing
 =
 mDocument
