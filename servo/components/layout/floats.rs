@@ -1583,8 +1583,11 @@ collisions
 for
 the
 given
-vertical
 range
+in
+the
+block
+direction
 .
 for
 float
