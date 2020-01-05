@@ -1115,6 +1115,11 @@ mCrossOrigin
 :
 1
 ;
+uint32_t
+mConnectionBased
+:
+1
+;
 RefPtr
 <
 nsHttpHandler

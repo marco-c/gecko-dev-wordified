@@ -680,6 +680,12 @@ userCancel
 )
 override
 ;
+NS_IMETHOD
+CloseStickyConnection
+(
+)
+override
+;
 /
 /
 Functions
