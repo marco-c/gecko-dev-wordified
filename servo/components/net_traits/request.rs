@@ -117,11 +117,9 @@ use
 url
 :
 :
-{
 Origin
 as
 UrlOrigin
-}
 ;
 /
 /
