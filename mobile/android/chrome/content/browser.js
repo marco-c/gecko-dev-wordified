@@ -16302,7 +16302,7 @@ async
 function
 notifyManifestStatus
 (
-tab
+browser
 )
 {
 try
@@ -16315,8 +16315,6 @@ Manifests
 .
 getManifest
 (
-tab
-.
 browser
 )
 ;
@@ -16352,11 +16350,6 @@ sendRequest
 type
 :
 evtType
-tabId
-:
-tab
-.
-id
 }
 )
 ;
@@ -32155,6 +32148,8 @@ message
 notifyManifestStatus
 (
 this
+.
+browser
 )
 ;
 if
