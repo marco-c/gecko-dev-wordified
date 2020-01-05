@@ -704,7 +704,7 @@ key
 "
 searchResults
 .
-needHelp
+needHelp2
 "
 type
 :
