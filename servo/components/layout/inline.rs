@@ -196,6 +196,12 @@ use
 gfx_traits
 :
 :
+ScrollRootId
+;
+use
+gfx_traits
+:
+:
 print_tree
 :
 :
@@ -12874,6 +12880,9 @@ parent
 &
 mut
 StackingContext
+parent_scroll_root_id
+:
+ScrollRootId
 )
 {
 self
@@ -12881,6 +12890,7 @@ self
 collect_stacking_contexts_for_inline
 (
 parent
+parent_scroll_root_id
 )
 ;
 }

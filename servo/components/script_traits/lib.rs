@@ -307,7 +307,7 @@ use
 gfx_traits
 :
 :
-StackingContextId
+ScrollRootId
 ;
 use
 heapsize
@@ -4837,13 +4837,13 @@ The
 ID
 of
 the
-stacking
-context
+scroll
+root
 .
 pub
-stacking_context_id
+scroll_root_id
 :
-StackingContextId
+ScrollRootId
 /
 /
 /

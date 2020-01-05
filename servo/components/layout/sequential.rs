@@ -157,6 +157,12 @@ StackingContext
 }
 ;
 use
+gfx_traits
+:
+:
+ScrollRootId
+;
+use
 script_layout_interface
 :
 :
@@ -515,6 +521,12 @@ flow_root
 collect_stacking_contexts
 (
 root_stacking_context
+ScrollRootId
+:
+:
+root
+(
+)
 )
 ;
 let

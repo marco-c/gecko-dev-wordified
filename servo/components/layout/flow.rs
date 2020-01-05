@@ -448,7 +448,10 @@ use
 gfx_traits
 :
 :
+{
+ScrollRootId
 StackingContextId
+}
 ;
 use
 gfx_traits
@@ -2152,6 +2155,9 @@ _parent
 &
 mut
 StackingContext
+parent_scroll_root_id
+:
+ScrollRootId
 )
 ;
 /
@@ -7797,6 +7803,10 @@ pub
 stacking_context_id
 :
 StackingContextId
+pub
+scroll_root_id
+:
+ScrollRootId
 }
 impl
 fmt
@@ -9116,6 +9126,14 @@ new
 (
 0
 )
+scroll_root_id
+:
+ScrollRootId
+:
+:
+root
+(
+)
 }
 }
 /
@@ -9291,6 +9309,9 @@ parent
 &
 mut
 StackingContext
+parent_scroll_root_id
+:
+ScrollRootId
 )
 {
 for
@@ -9309,6 +9330,7 @@ kid
 collect_stacking_contexts
 (
 parent
+parent_scroll_root_id
 )
 ;
 }

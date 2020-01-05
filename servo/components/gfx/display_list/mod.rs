@@ -295,6 +295,7 @@ gfx_traits
 :
 {
 ScrollPolicy
+ScrollRootId
 StackingContextId
 }
 ;
@@ -1781,6 +1782,17 @@ if
 let
 Some
 (
+scroll_root_id
+)
+=
+stacking_context
+.
+overflow_scroll_id
+{
+if
+let
+Some
+(
 scroll_offset
 )
 =
@@ -1789,9 +1801,7 @@ scroll_offsets
 get
 (
 &
-stacking_context
-.
-id
+scroll_root_id
 )
 {
 translated_point
@@ -1824,6 +1834,7 @@ scroll_offset
 y
 )
 ;
+}
 }
 }
 self
@@ -2829,7 +2840,7 @@ overflow_scroll_id
 :
 Option
 <
-StackingContextId
+ScrollRootId
 >
 }
 impl
@@ -2905,11 +2916,11 @@ bool
 scroll_policy
 :
 ScrollPolicy
-scroll_id
+scroll_root_id
 :
 Option
 <
-StackingContextId
+ScrollRootId
 >
 )
 -
@@ -2963,7 +2974,7 @@ new
 )
 overflow_scroll_id
 :
-scroll_id
+scroll_root_id
 }
 }
 pub
@@ -8481,7 +8492,7 @@ ScrollOffsetMap
 =
 HashMap
 <
-StackingContextId
+ScrollRootId
 Point2D
 <
 f32
