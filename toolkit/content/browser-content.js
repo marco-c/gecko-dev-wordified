@@ -2912,6 +2912,9 @@ windowID
 data
 .
 simplifiedMode
+data
+.
+defaultPrinterName
 )
 ;
 break
@@ -3037,6 +3040,9 @@ windowID
 data
 .
 simplifiedMode
+data
+.
+defaultPrinterName
 )
 ;
 break
@@ -3046,6 +3052,7 @@ break
 }
 getPrintSettings
 (
+defaultPrinterName
 )
 {
 try
@@ -3096,8 +3103,6 @@ printSettings
 .
 printerName
 =
-PSSVC
-.
 defaultPrinterName
 ;
 }
@@ -4253,6 +4258,7 @@ enterPrintPreview
 (
 contentWindow
 simplifiedMode
+defaultPrinterName
 )
 {
 /
@@ -4437,6 +4443,7 @@ this
 .
 getPrintSettings
 (
+defaultPrinterName
 )
 ;
 /
@@ -4579,6 +4586,7 @@ print
 (
 contentWindow
 simplifiedMode
+defaultPrinterName
 )
 {
 let
@@ -4588,6 +4596,7 @@ this
 .
 getPrintSettings
 (
+defaultPrinterName
 )
 ;
 /
