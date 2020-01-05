@@ -267,6 +267,8 @@ testParamsTab1
 a
 "
 '
+"
+"
 '
 '
 {
@@ -280,6 +282,8 @@ bar
 }
 '
 '
+"
+"
 '
 )
 ;
@@ -339,7 +343,9 @@ testParamsTab1
 a
 "
 '
+"
 b
+"
 '
 '
 {
@@ -353,6 +359,8 @@ bar
 }
 '
 '
+"
+"
 '
 )
 ;
@@ -412,14 +420,18 @@ testParamsTab1
 a
 "
 '
+"
 b
+"
 '
 "
 ?
 foo
 "
 '
+"
 bar
+"
 '
 )
 ;
@@ -486,6 +498,8 @@ testParamsTab2
 a
 "
 '
+"
+"
 '
 '
 {
@@ -566,7 +580,9 @@ testParamsTab2
 a
 "
 '
+"
 b
+"
 '
 '
 {
@@ -714,7 +730,9 @@ testParamsTab2
 a
 "
 '
+"
 b
+"
 '
 "
 ?
