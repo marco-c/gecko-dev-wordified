@@ -158,7 +158,7 @@ shared
 /
 fronts
 /
-reflow
+layout
 "
 )
 ;
@@ -204,7 +204,9 @@ STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 shared
 .
@@ -216,10 +218,10 @@ STRINGS_INSPECTOR
 =
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 styleinspector
 .

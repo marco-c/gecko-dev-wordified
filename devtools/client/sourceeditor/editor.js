@@ -469,7 +469,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 sourceeditor
 .

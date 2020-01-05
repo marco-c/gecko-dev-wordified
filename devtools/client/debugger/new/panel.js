@@ -99,7 +99,9 @@ DBG_STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 debugger
 .

@@ -381,9 +381,9 @@ new
 LocalizationHelper
 (
 "
-global
+toolkit
 /
-locale
+locales
 /
 intl
 .

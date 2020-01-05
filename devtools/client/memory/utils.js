@@ -92,7 +92,9 @@ STRINGS_URI
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 memory
 .
