@@ -203,7 +203,7 @@ aCx
 nsIGlobalObject
 *
 aGlobal
-FileCallback
+BlobCallback
 &
 aCallback
 const
@@ -248,7 +248,7 @@ EncodeCallback
 nsIGlobalObject
 *
 aGlobal
-FileCallback
+BlobCallback
 *
 aCallback
 )
@@ -257,7 +257,7 @@ mGlobal
 (
 aGlobal
 )
-mFileCallback
+mBlobCallback
 (
 aCallback
 )
@@ -367,7 +367,7 @@ Impl
 )
 )
 ;
-mFileCallback
+mBlobCallback
 -
 >
 Call
@@ -381,7 +381,7 @@ mGlobal
 =
 nullptr
 ;
-mFileCallback
+mBlobCallback
 =
 nullptr
 ;
@@ -401,9 +401,9 @@ mGlobal
 ;
 RefPtr
 <
-FileCallback
+BlobCallback
 >
-mFileCallback
+mBlobCallback
 ;
 }
 ;

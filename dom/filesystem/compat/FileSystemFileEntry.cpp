@@ -159,7 +159,7 @@ dom
 namespace
 {
 class
-BlobCallbackRunnable
+FileCallbackRunnable
 final
 :
 public
@@ -167,9 +167,9 @@ Runnable
 {
 public
 :
-BlobCallbackRunnable
+FileCallbackRunnable
 (
-BlobCallback
+FileCallback
 *
 aCallback
 File
@@ -208,6 +208,7 @@ mCallback
 >
 HandleEvent
 (
+*
 mFile
 )
 ;
@@ -219,7 +220,7 @@ private
 :
 RefPtr
 <
-BlobCallback
+FileCallback
 >
 mCallback
 ;
@@ -519,7 +520,7 @@ FileSystemFileEntry
 :
 GetFile
 (
-BlobCallback
+FileCallback
 &
 aSuccessCallback
 const
@@ -537,12 +538,12 @@ const
 {
 RefPtr
 <
-BlobCallbackRunnable
+FileCallbackRunnable
 >
 runnable
 =
 new
-BlobCallbackRunnable
+FileCallbackRunnable
 (
 &
 aSuccessCallback
