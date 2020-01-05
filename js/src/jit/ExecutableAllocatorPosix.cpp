@@ -378,9 +378,6 @@ jit
 :
 AllocateExecutableMemory
 (
-void
-*
-addr
 size_t
 bytes
 unsigned
@@ -409,7 +406,7 @@ p
 =
 MozTaggedAnonymousMmap
 (
-addr
+nullptr
 bytes
 permissions
 MAP_PRIVATE
@@ -507,7 +504,6 @@ allocation
 =
 AllocateExecutableMemory
 (
-nullptr
 n
 initialProtectionFlags
 (

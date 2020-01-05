@@ -596,6 +596,12 @@ HandleObject
 obj
 )
 ;
+extern
+uint64_t
+GenerateRandomSeed
+(
+)
+;
 /
 /
 Fill

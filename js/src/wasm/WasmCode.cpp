@@ -516,7 +516,6 @@ p
 =
 AllocateExecutableMemory
 (
-nullptr
 totalLength
 permissions
 "
