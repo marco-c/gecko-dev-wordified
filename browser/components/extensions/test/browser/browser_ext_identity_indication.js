@@ -93,8 +93,6 @@ identity
 icon
 .
 svg
-#
-normal
 \
 "
 )
@@ -264,8 +262,6 @@ identity
 icon
 .
 svg
-#
-normal
 \
 "
 )
