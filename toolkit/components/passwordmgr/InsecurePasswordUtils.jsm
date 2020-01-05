@@ -243,7 +243,7 @@ utils
 "
 )
 .
-Utils
+WebConsoleUtils
 ;
 }
 )
