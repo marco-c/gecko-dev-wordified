@@ -1224,6 +1224,11 @@ ready
 "
 fxaccounts
 :
+onverified
+"
+"
+fxaccounts
+:
 onlogin
 "
 "
