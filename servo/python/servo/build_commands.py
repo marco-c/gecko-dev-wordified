@@ -558,9 +558,6 @@ features
 =
 [
 "
-glutin_app
-"
-"
 headless
 "
 ]
@@ -1135,7 +1132,6 @@ features
 features
 "
 "
-glutin_app
 headless
 "
 ]

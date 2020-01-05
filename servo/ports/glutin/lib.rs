@@ -64,7 +64,7 @@ simple
 application
 that
 uses
-GLFW
+glutin
 to
 open
 a

@@ -101,8 +101,6 @@ a
 platform
 toolkit
 (
-GLFW
-or
 Glutin
 )
 .
