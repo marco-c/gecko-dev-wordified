@@ -195,6 +195,15 @@ use
 std
 :
 :
+old_io
+:
+:
+TcpStream
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -295,6 +304,10 @@ pub
 enum
 DevtoolsControlMsg
 {
+AddClient
+(
+TcpStream
+)
 NewGlobal
 (
 PipelineId
