@@ -3900,6 +3900,12 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 mProviderFlags
+mInfoObject
+-
+>
+GetOriginAttributes
+(
+)
 nullptr
 &
 strictTransportSecurityEnabled
@@ -3964,6 +3970,12 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 mProviderFlags
+mInfoObject
+-
+>
+GetOriginAttributes
+(
+)
 nullptr
 &
 hasPinningInformation

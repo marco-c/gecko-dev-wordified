@@ -1227,6 +1227,8 @@ uri
 header
 sslStatus
 0
+{
+}
 maxAge
 includeSubdomains
 )

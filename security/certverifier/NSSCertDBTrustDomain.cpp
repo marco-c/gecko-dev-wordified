@@ -6030,6 +6030,7 @@ certList
 mHostname
 time
 enforceTestMode
+mOriginAttributes
 chainHasValidPins
 mPinningTelemetryInfo
 )

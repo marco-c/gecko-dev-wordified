@@ -188,6 +188,8 @@ dummyUri
 header
 sslStatus
 0
+{
+}
 maxAge
 includeSubdomains
 )
@@ -289,6 +291,8 @@ dummyUri
 header
 sslStatus
 0
+{
+}
 maxAge
 includeSubdomains
 )
