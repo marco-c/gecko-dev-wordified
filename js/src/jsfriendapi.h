@@ -18276,17 +18276,6 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
-(
-bool
-)
-AllowGCBarriers
-(
-JSContext
-*
-cx
-)
-;
 }
 /
 *
