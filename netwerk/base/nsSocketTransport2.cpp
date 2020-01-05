@@ -9464,6 +9464,7 @@ mFastOpenCallback
 >
 StartFastOpen
 (
+fd
 )
 ;
 status
@@ -9479,7 +9480,7 @@ fastOpenNotSupported
 =
 false
 ;
-TCPFastOpenConnectResult
+TCPFastOpenFinish
 (
 fd
 &

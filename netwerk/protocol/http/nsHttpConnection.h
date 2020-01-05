@@ -621,7 +621,8 @@ pri
 void
 SetFastOpen
 (
-bool
+PRFileDesc
+*
 aFastOpen
 )
 {
@@ -2531,7 +2532,8 @@ thread
 bool
 mResumeRecvOnUnthrottle
 ;
-bool
+PRFileDesc
+*
 mFastOpen
 ;
 }
