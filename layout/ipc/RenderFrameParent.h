@@ -525,6 +525,12 @@ CompositorOptions
 aCompositorOptions
 )
 ;
+LayerManager
+*
+AttachLayerManager
+(
+)
+;
 protected
 :
 void
@@ -693,6 +699,12 @@ RefPtr
 ContainerLayer
 >
 mContainer
+;
+RefPtr
+<
+LayerManager
+>
+mLayerManager
 ;
 /
 /
