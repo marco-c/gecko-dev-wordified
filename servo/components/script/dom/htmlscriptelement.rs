@@ -458,13 +458,7 @@ string_cache
 Atom
 ;
 use
-url
-:
-:
-Url
-;
-use
-util
+style
 :
 :
 str
@@ -474,6 +468,12 @@ str
 HTML_SPACE_CHARACTERS
 StaticStringVec
 }
+;
+use
+url
+:
+:
+Url
 ;
 #
 [

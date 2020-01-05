@@ -78,8 +78,5 @@ mod
 prefs
 ;
 mod
-str
-;
-mod
 thread
 ;

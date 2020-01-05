@@ -193,7 +193,7 @@ string_cache
 Atom
 ;
 use
-util
+style
 :
 :
 str

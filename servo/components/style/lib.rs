@@ -676,7 +676,14 @@ sink
 ;
 pub
 mod
+str
+;
+pub
+mod
 stylesheets
+;
+mod
+tid
 ;
 pub
 mod
