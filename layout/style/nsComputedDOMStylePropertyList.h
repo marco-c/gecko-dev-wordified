@@ -855,6 +855,11 @@ CaptionSide
 )
 COMPUTED_STYLE_PROP
 (
+caret_color
+CaretColor
+)
+COMPUTED_STYLE_PROP
+(
 clear
 Clear
 )

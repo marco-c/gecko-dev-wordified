@@ -3180,6 +3180,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetCaretColor
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetCursor
 (
 )
