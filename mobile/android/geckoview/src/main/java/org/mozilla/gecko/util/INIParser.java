@@ -311,7 +311,6 @@ printStackTrace
 )
 ;
 }
-final
 BufferedWriter
 writer
 =
@@ -328,6 +327,12 @@ write
 writer
 )
 ;
+writer
+.
+close
+(
+)
+;
 }
 catch
 (
@@ -339,16 +344,6 @@ e
 .
 printStackTrace
 (
-)
-;
-}
-finally
-{
-IOUtils
-.
-safeStreamClose
-(
-writer
 )
 ;
 }
