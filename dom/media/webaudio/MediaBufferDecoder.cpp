@@ -1004,14 +1004,6 @@ mBuffer
 mLength
 principal
 mContainerType
-.
-Type
-(
-)
-.
-AsString
-(
-)
 )
 ;
 MOZ_ASSERT

@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsString
+MediaContainerType
 .
 h
 "
@@ -168,7 +168,7 @@ explicit
 ContainerParser
 (
 const
-nsACString
+MediaContainerType
 &
 aType
 )
@@ -598,7 +598,7 @@ ContainerParser
 CreateForMIMEType
 (
 const
-nsACString
+MediaContainerType
 &
 aType
 )
@@ -630,7 +630,7 @@ MediaByteRange
 mCompleteMediaSegmentRange
 ;
 const
-nsCString
+MediaContainerType
 mType
 ;
 }

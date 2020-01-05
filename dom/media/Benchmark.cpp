@@ -369,13 +369,16 @@ sizeof
 sWebMSample
 )
 nullptr
-NS_LITERAL_CSTRING
+MediaContainerType
+(
+MEDIAMIMETYPE
 (
 "
 video
 /
 webm
 "
+)
 )
 )
 )

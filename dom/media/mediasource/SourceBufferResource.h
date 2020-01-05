@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -266,7 +259,7 @@ explicit
 SourceBufferResource
 (
 const
-nsACString
+MediaContainerType
 &
 aType
 )
@@ -663,7 +656,7 @@ NS_OK
 ;
 }
 const
-nsCString
+MediaContainerType
 &
 GetContentType
 (
@@ -706,7 +699,7 @@ size
 =
 mType
 .
-SizeOfExcludingThisIfUnshared
+SizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -952,7 +945,7 @@ aMayBlock
 )
 ;
 const
-nsCString
+MediaContainerType
 mType
 ;
 /

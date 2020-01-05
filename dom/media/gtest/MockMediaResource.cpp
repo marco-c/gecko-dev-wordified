@@ -94,9 +94,9 @@ char
 *
 aFileName
 const
-nsACString
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 :
 mFileHandle
@@ -107,9 +107,9 @@ mFileName
 (
 aFileName
 )
-mContentType
+mContainerType
 (
-aContentType
+aContainerType
 )
 {
 }

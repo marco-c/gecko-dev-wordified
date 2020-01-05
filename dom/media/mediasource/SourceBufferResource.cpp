@@ -222,7 +222,11 @@ arg
 this
 mType
 .
-get
+OriginalString
+(
+)
+.
+Data
 (
 )
 __func__
@@ -272,7 +276,11 @@ arg
 this
 mType
 .
-get
+OriginalString
+(
+)
+.
+Data
 (
 )
 __func__
@@ -1079,7 +1087,7 @@ SourceBufferResource
 SourceBufferResource
 (
 const
-nsACString
+MediaContainerType
 &
 aType
 )

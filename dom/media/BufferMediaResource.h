@@ -191,9 +191,9 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsACString
+MediaContainerType
 &
-aContentType
+aContainerType
 )
 :
 mBuffer
@@ -212,9 +212,9 @@ mPrincipal
 (
 aPrincipal
 )
-mContentType
+mContainerType
 (
-aContentType
+aContainerType
 )
 {
 }
@@ -643,7 +643,7 @@ true
 ;
 }
 const
-nsCString
+MediaContainerType
 &
 GetContentType
 (
@@ -652,7 +652,7 @@ const
 override
 {
 return
-mContentType
+mContainerType
 ;
 }
 size_t
@@ -691,9 +691,9 @@ aMallocSizeOf
 size
 +
 =
-mContentType
+mContainerType
 .
-SizeOfExcludingThisIfUnshared
+SizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -743,8 +743,8 @@ nsIPrincipal
 mPrincipal
 ;
 const
-nsCString
-mContentType
+MediaContainerType
+mContainerType
 ;
 }
 ;
