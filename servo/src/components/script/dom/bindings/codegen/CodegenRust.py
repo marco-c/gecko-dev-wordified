@@ -10892,6 +10892,7 @@ JSValConvertible
 :
 from_jsval
 (
+cx
 {
 val
 }
@@ -11028,6 +11029,7 @@ JSValConvertible
 :
 from_jsval
 (
+cx
 {
 val
 }
