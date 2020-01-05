@@ -124,6 +124,8 @@ null
 bm
 .
 dateAdded
+*
+1000
 bm
 .
 guid
@@ -247,6 +249,8 @@ title
 bm
 .
 dateAdded
+*
+1000
 bm
 .
 guid
@@ -362,6 +366,8 @@ null
 bm
 .
 dateAdded
+*
+1000
 bm
 .
 guid
@@ -503,6 +509,8 @@ title
 bm
 .
 dateAdded
+*
+1000
 bm
 .
 guid
@@ -636,6 +644,8 @@ null
 bm
 .
 dateAdded
+*
+1000
 bm
 .
 guid
@@ -874,6 +884,8 @@ null
 tag
 .
 dateAdded
+*
+1000
 tag
 .
 guid
@@ -906,6 +918,8 @@ false
 bm
 .
 lastModified
+*
+1000
 bm
 .
 type
@@ -1071,6 +1085,8 @@ lastModified
 bm
 .
 lastModified
+*
+1000
 bm
 .
 type
@@ -1232,6 +1248,8 @@ title
 bm
 .
 lastModified
+*
+1000
 bm
 .
 type
@@ -1401,6 +1419,8 @@ href
 bm
 .
 lastModified
+*
+1000
 bm
 .
 type
@@ -2545,6 +2565,8 @@ false
 bm
 .
 lastModified
+*
+1000
 bm
 .
 type

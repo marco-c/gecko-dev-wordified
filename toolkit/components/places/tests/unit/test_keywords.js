@@ -1889,6 +1889,8 @@ keyword
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -2032,6 +2034,8 @@ false
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -3357,6 +3361,8 @@ false
 bookmark1
 .
 lastModified
+*
+1000
 bookmark1
 .
 type
@@ -3416,6 +3422,8 @@ keyword
 bookmark2
 .
 lastModified
+*
+1000
 bookmark2
 .
 type
@@ -3605,6 +3613,8 @@ false
 bookmark2
 .
 lastModified
+*
+1000
 bookmark2
 .
 type
@@ -3999,6 +4009,8 @@ keyword
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -4168,6 +4180,8 @@ keyword2
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -4439,6 +4453,8 @@ false
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -4830,6 +4846,8 @@ keyword
 bookmark2
 .
 lastModified
+*
+1000
 bookmark2
 .
 type
@@ -4889,6 +4907,8 @@ keyword
 bookmark1
 .
 lastModified
+*
+1000
 bookmark1
 .
 type
@@ -5022,6 +5042,8 @@ false
 bookmark2
 .
 lastModified
+*
+1000
 bookmark2
 .
 type
@@ -5080,6 +5102,8 @@ false
 bookmark1
 .
 lastModified
+*
+1000
 bookmark1
 .
 type

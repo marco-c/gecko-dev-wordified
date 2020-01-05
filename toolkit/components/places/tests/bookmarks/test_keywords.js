@@ -734,6 +734,8 @@ keyword
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
@@ -1079,6 +1081,8 @@ false
 bookmark1
 .
 lastModified
+*
+1000
 bookmark1
 .
 type
@@ -1128,6 +1132,8 @@ keyword
 bookmark2
 .
 lastModified
+*
+1000
 bookmark2
 .
 type
@@ -1392,6 +1398,8 @@ bookmarks
 ]
 .
 lastModified
+*
+1000
 bookmarks
 [
 0
@@ -1469,6 +1477,8 @@ bookmarks
 ]
 .
 lastModified
+*
+1000
 bookmarks
 [
 1
@@ -1818,6 +1828,8 @@ bookmarks
 ]
 .
 lastModified
+*
+1000
 bookmarks
 [
 0
@@ -1894,6 +1906,8 @@ bookmarks
 ]
 .
 lastModified
+*
+1000
 bookmarks
 [
 1
@@ -1970,6 +1984,8 @@ bookmarks
 ]
 .
 lastModified
+*
+1000
 bookmarks
 [
 2
@@ -2178,6 +2194,8 @@ keyword
 bookmark
 .
 lastModified
+*
+1000
 bookmark
 .
 type
