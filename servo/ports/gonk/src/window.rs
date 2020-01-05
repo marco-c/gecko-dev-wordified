@@ -144,7 +144,6 @@ compositor_msg
 :
 :
 {
-Blank
 ReadyState
 PaintState
 }
@@ -957,6 +956,13 @@ u8
 repr
 (
 C
+)
+]
+#
+[
+deriving
+(
+Copy
 )
 ]
 pub
@@ -4828,6 +4834,9 @@ Cell
 :
 new
 (
+ReadyState
+:
+:
 Blank
 )
 paint_state

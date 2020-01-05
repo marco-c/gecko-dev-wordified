@@ -123,12 +123,6 @@ servo_util
 opts
 ;
 use
-servo_util
-:
-:
-rtinstrument
-;
-use
 servo
 :
 :
@@ -349,13 +343,6 @@ browser
 browser
 .
 shutdown
-(
-)
-;
-rtinstrument
-:
-:
-teardown
 (
 )
 ;
