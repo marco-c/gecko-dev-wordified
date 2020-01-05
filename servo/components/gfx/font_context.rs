@@ -288,7 +288,7 @@ new
 BackendType
 :
 :
-SkiaBackend
+Skia
 FontInfo
 :
 :
@@ -364,7 +364,7 @@ new
 BackendType
 :
 :
-SkiaBackend
+Skia
 &
 cgfont
 pt_size
