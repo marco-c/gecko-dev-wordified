@@ -747,47 +747,28 @@ files
 :
             
 name
+ext
 =
 os
 .
 path
 .
-basename
+splitext
 (
 f
 )
             
 if
-not
-name
-.
-endswith
-(
+ext
+!
+=
 '
 .
 lint
-.
-py
 '
-)
 :
                 
 continue
-            
-name
-=
-name
-.
-rsplit
-(
-'
-.
-'
-2
-)
-[
-0
-]
             
 if
 linters
