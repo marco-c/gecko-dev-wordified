@@ -2903,6 +2903,13 @@ bool
 use_user_font_set
 )
 ;
+int32_t
+Gecko_GetAppUnitsPerPhysicalInch
+(
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 void
 InitializeServo
 (
