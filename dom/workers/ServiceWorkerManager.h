@@ -337,9 +337,6 @@ nsTObserverArray
 h
 "
 class
-mozIApplicationClearPrivateDataParams
-;
-class
 nsIConsoleReportCollector
 ;
 namespace

@@ -94,13 +94,6 @@ h
 #
 include
 "
-mozIApplicationClearPrivateDataParams
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h

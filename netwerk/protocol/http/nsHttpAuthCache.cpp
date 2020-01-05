@@ -150,13 +150,6 @@ h
 #
 include
 "
-mozIApplicationClearPrivateDataParams
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
