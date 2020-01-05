@@ -167,6 +167,7 @@ Landscape
 [
 derive
 (
+Clone
 Debug
 PartialEq
 Deserialize
@@ -540,6 +541,7 @@ derive
 Copy
 Clone
 Debug
+HeapSizeOf
 PartialEq
 )
 ]
