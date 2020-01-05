@@ -471,6 +471,7 @@ return
 }
 if
 (
+(
 [
 "
 getCharPref
@@ -486,13 +487,18 @@ clearUserPref
 "
 ]
 .
-includes
+indexOf
 (
 callee
 .
 property
 .
 name
+)
+!
+=
+-
+1
 )
 &
 &
