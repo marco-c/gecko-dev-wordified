@@ -2090,6 +2090,8 @@ ScreenOrientation
 :
 GetAngle
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -2098,8 +2100,12 @@ const
 {
 if
 (
-ShouldResistFingerprinting
+nsContentUtils
+:
+:
+ResistFingerprinting
 (
+aCallerType
 )
 )
 {
