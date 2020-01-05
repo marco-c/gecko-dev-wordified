@@ -3207,7 +3207,9 @@ l10n_file
 missing
               
 skips
-p
+ctx
+canMerge
+encoding
 )
 :
         
@@ -3263,8 +3265,6 @@ outdir
         
 if
 not
-p
-.
 canMerge
 :
             
@@ -3412,8 +3412,6 @@ outfile
 '
 wb
 '
-p
-.
 encoding
 )
             
@@ -3437,7 +3435,7 @@ f
 .
 write
 (
-p
+ctx
 .
 contents
 [
@@ -3461,7 +3459,7 @@ f
 .
 write
 (
-p
+ctx
 .
 contents
 [
@@ -3493,8 +3491,6 @@ outfile
 '
 ab
 '
-p
-.
 encoding
 )
         
@@ -3820,6 +3816,12 @@ p
 parse
 (
 )
+            
+l10n_ctx
+=
+p
+.
+ctx
         
 except
 Exception
@@ -3841,102 +3843,6 @@ e
 )
             
 return
-        
-lines
-=
-[
-]
-        
-def
-_getLine
-(
-offset
-)
-:
-            
-if
-not
-lines
-:
-                
-lines
-.
-append
-(
-0
-)
-                
-for
-m
-in
-self
-.
-nl
-.
-finditer
-(
-p
-.
-contents
-)
-:
-                    
-lines
-.
-append
-(
-m
-.
-end
-(
-)
-)
-            
-for
-i
-in
-xrange
-(
-len
-(
-lines
-)
-0
--
-1
-)
-:
-                
-if
-offset
->
-=
-lines
-[
-i
--
-1
-]
-:
-                    
-return
-(
-i
-offset
--
-lines
-[
-i
--
-1
-]
-)
-            
-return
-(
-1
-offset
-)
         
 l10n_list
 =
@@ -4155,7 +4061,17 @@ val
 +
 junk
 .
-span
+position
+(
+)
++
+junk
+.
+position
+(
+-
+1
+)
                     
 self
 .
@@ -4173,10 +4089,21 @@ content
 %
 s
 "
-at
+from
+line
 %
 d
--
+colum
+%
+d
+'
+                                
+'
+to
+line
+%
+d
+column
 %
 d
 '
@@ -4369,19 +4296,6 @@ col
 needs
 adjustment
                         
-_l
-_offset
-=
-_getLine
-(
-l10nent
-.
-val_span
-[
-0
-]
-)
-                        
 if
 isinstance
 (
@@ -4389,6 +4303,15 @@ pos
 tuple
 )
 :
+                            
+_l
+col
+=
+l10nent
+.
+value_position
+(
+)
                             
 #
 line
@@ -4406,12 +4329,12 @@ pos
                                 
 col
 =
+col
++
 pos
 [
 1
 ]
-+
-_offset
                             
 else
 :
@@ -4422,7 +4345,7 @@ pos
 [
 1
 ]
-                            
+                                
 _l
 +
 =
@@ -4439,18 +4362,13 @@ else
 _l
 col
 =
-_getLine
-(
 l10nent
 .
-val_span
-[
-0
-]
-+
+value_position
+(
 pos
 )
-                            
+                        
 #
 skip
 error
@@ -4551,6 +4469,7 @@ self
 .
 merge
 (
+                
 ref
 [
 0
@@ -4560,10 +4479,18 @@ ref
 1
 ]
 ref_file
+                
 l10n
 missings
 skips
+l10n_ctx
+                
 p
+.
+canMerge
+p
+.
+encoding
 )
         
 if
