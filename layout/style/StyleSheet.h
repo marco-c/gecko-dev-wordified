@@ -772,7 +772,11 @@ GetParentSheet
 (
 )
 const
+{
+return
+mParent
 ;
+}
 inline
 void
 AppendStyleSheet
@@ -1532,6 +1536,14 @@ EnabledStateChanged
 (
 )
 ;
+StyleSheet
+*
+mParent
+;
+/
+/
+weak
+ref
 nsString
 mTitle
 ;
