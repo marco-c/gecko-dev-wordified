@@ -1206,6 +1206,10 @@ send
 (
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 ConstellationMsg
@@ -1342,6 +1346,10 @@ self
 id
 )
 )
+.
+unwrap
+(
+)
 ;
 continue
 ;
@@ -1414,6 +1422,10 @@ self
 .
 id
 )
+)
+.
+unwrap
+(
 )
 ;
 self

@@ -628,6 +628,10 @@ clone
 )
 )
 )
+.
+unwrap
+(
+)
 ;
 return
 port
@@ -664,6 +668,10 @@ ImageResponseMsg
 :
 :
 ImageNotReady
+)
+.
+unwrap
+(
 )
 ;
 return
@@ -716,6 +724,10 @@ ImageResponseMsg
 :
 :
 ImageFailed
+)
+.
+unwrap
+(
 )
 ;
 return
@@ -1034,6 +1046,10 @@ chan
 send
 (
 response
+)
+.
+unwrap
+(
 )
 ;
 return

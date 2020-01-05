@@ -1560,6 +1560,10 @@ send
 (
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 ConstellationMsg
@@ -2916,6 +2920,10 @@ LayoutRPC
 Send
 >
 )
+.
+unwrap
+(
+)
 ;
 }
 Msg
@@ -3137,6 +3145,10 @@ send
 (
 (
 )
+)
+.
+unwrap
+(
 )
 ;
 loop
@@ -6257,6 +6269,10 @@ send
 (
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 ScriptControlChan
@@ -6285,6 +6301,10 @@ data
 .
 id
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -7305,6 +7325,10 @@ SetCursor
 (
 cursor
 )
+)
+.
+unwrap
+(
 )
 ;
 }

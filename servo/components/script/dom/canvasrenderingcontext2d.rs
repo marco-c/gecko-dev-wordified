@@ -378,6 +378,10 @@ Recreate
 size
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 }
@@ -528,6 +532,10 @@ FillRect
 rect
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -584,6 +592,10 @@ ClearRect
 rect
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 fn
@@ -639,6 +651,10 @@ StrokeRect
 (
 rect
 )
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -667,6 +683,10 @@ renderer
 send
 (
 Close
+)
+.
+unwrap
+(
 )
 ;
 }

@@ -1010,6 +1010,10 @@ InitLoadUrl
 url
 )
 )
+.
+unwrap
+(
+)
 ;
 }
 /
@@ -1026,6 +1030,10 @@ result_chan
 send
 (
 constellation_chan
+)
+.
+unwrap
+(
 )
 ;
 }
