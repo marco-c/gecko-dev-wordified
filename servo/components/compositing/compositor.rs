@@ -317,7 +317,7 @@ msg
 constellation_msg
 :
 :
-Msg
+CompositorMsg
 as
 ConstellationMsg
 ;
@@ -1213,6 +1213,9 @@ constellation
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 /
 /
 /
@@ -4599,6 +4602,9 @@ Sender
 new_constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 {
 response_chan

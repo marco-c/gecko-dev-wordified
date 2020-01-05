@@ -642,6 +642,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 PipelineId
 SubpageId
@@ -2278,6 +2289,9 @@ no_jsmanaged_fields
 !
 (
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 ;
 no_jsmanaged_fields

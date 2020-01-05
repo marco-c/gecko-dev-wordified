@@ -967,7 +967,7 @@ msg
 constellation_msg
 :
 :
-Msg
+ScriptMsg
 as
 ConstellationMsg
 ;

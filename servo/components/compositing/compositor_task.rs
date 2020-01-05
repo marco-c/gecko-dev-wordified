@@ -153,6 +153,17 @@ msg
 constellation_msg
 :
 :
+CompositorMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 AnimationState
 ConstellationChan
@@ -1510,6 +1521,9 @@ Sender
 )
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 /
 /
@@ -2707,6 +2721,9 @@ pub
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 /
 /
 /

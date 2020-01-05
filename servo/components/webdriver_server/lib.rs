@@ -193,7 +193,7 @@ msg
 constellation_msg
 :
 :
-Msg
+CompositorMsg
 as
 ConstellationMsg
 ;
@@ -545,6 +545,9 @@ u16
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 {
 let
@@ -635,6 +638,9 @@ WebDriverSession
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 script_timeout
 :
 u32
@@ -1537,6 +1543,9 @@ new
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 -
 >

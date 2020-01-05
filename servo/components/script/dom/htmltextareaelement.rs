@@ -335,6 +335,17 @@ constellation_msg
 ConstellationChan
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+ScriptMsg
+as
+ConstellationMsg
+;
+use
 script_task
 :
 :
@@ -422,6 +433,9 @@ DOMRefCell
 TextInput
 <
 ConstellationChan
+<
+ConstellationMsg
+>
 >
 >
 cols

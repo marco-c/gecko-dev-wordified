@@ -78,7 +78,7 @@ msg
 constellation_msg
 :
 :
-Msg
+ScriptMsg
 as
 ConstellationMsg
 ;
@@ -150,6 +150,9 @@ impl
 ClipboardProvider
 for
 ConstellationChan
+<
+ConstellationMsg
+>
 {
 fn
 clipboard_contents

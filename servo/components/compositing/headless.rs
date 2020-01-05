@@ -108,7 +108,7 @@ msg
 constellation_msg
 :
 :
-Msg
+CompositorMsg
 as
 ConstellationMsg
 ;
@@ -229,6 +229,9 @@ constellation
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 /
 /
 /

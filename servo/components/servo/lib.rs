@@ -314,6 +314,9 @@ constellation_msg
 :
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 {
 webdriver_server
@@ -359,6 +362,9 @@ constellation_msg
 :
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 {
 }
@@ -430,7 +436,9 @@ msg
 constellation_msg
 :
 :
-ConstellationChan
+CompositorMsg
+as
+ConstellationMsg
 ;
 use
 msg
@@ -439,9 +447,7 @@ msg
 constellation_msg
 :
 :
-Msg
-as
-ConstellationMsg
+ConstellationChan
 ;
 use
 net
@@ -1296,6 +1302,9 @@ bool
 -
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 {
 let
 resource_task

@@ -166,6 +166,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 ConstellationChan
 Failure
@@ -696,6 +707,9 @@ pub
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 /
 /
 /
@@ -2280,6 +2294,9 @@ SubpageId
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 scheduler_chan
 :
 IpcSender

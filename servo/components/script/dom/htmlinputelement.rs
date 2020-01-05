@@ -373,6 +373,17 @@ constellation_msg
 ConstellationChan
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+ScriptMsg
+as
+ConstellationMsg
+;
+use
 selectors
 :
 :
@@ -564,6 +575,9 @@ DOMRefCell
 TextInput
 <
 ConstellationChan
+<
+ConstellationMsg
+>
 >
 >
 activation_state

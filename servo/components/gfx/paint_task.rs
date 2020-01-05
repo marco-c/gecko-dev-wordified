@@ -231,7 +231,7 @@ msg
 constellation_msg
 :
 :
-Msg
+ScriptMsg
 as
 ConstellationMsg
 ;
@@ -1440,6 +1440,9 @@ C
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 /
 /
 /
@@ -1662,6 +1665,9 @@ C
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 font_cache_task
 :
 FontCacheTask
@@ -1787,14 +1793,6 @@ clone
 )
 )
 ;
-/
-/
-FIXME
-:
-rust
-/
-#
-5967
 let
 mut
 paint_task

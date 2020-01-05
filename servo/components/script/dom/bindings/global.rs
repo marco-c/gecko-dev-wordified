@@ -230,6 +230,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 ConstellationChan
 PipelineId
@@ -793,6 +804,9 @@ self
 -
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 {
 match
 *
