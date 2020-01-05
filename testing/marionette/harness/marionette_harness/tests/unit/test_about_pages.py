@@ -69,6 +69,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip_if_mobile
 WindowManagerMixin
 class
 TestAboutPages
@@ -182,6 +183,17 @@ self
 tearDown
 (
 )
+    
+skip_if_mobile
+#
+Bug
+1323185
+-
+Add
+Fennec
+support
+to
+getWindowHandles
     
 def
 test_back_forward
@@ -320,6 +332,17 @@ self
 start_tab
 )
     
+skip_if_mobile
+#
+Bug
+1323185
+-
+Add
+Fennec
+support
+to
+getWindowHandles
+    
 def
 test_navigate_non_remote_about_pages
 (
@@ -454,6 +477,15 @@ self
 start_tab
 )
     
+skip_if_mobile
+#
+On
+Android
+no
+shortcuts
+are
+available
+    
 def
 test_navigate_shortcut_key
 (
@@ -572,6 +604,17 @@ self
 .
 start_tab
 )
+    
+skip_if_mobile
+#
+Bug
+1323185
+-
+Add
+Fennec
+support
+to
+getWindowHandles
     
 def
 test_type_to_non_remote_tab
@@ -736,6 +779,17 @@ self
 start_tab
 )
     
+skip_if_mobile
+#
+Interacting
+with
+chrome
+elements
+not
+available
+for
+Fennec
+    
 def
 test_type_to_remote_tab
 (
@@ -825,6 +879,17 @@ self
 .
 remote_uri
 )
+    
+skip_if_mobile
+#
+Bug
+1323185
+-
+Add
+Fennec
+support
+to
+getWindowHandles
     
 def
 test_hang
