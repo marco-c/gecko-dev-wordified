@@ -304,14 +304,6 @@ aStr
 )
 override
 ;
-void
-SetURI
-(
-nsIURI
-*
-aURI
-)
-;
 /
 *
 *
