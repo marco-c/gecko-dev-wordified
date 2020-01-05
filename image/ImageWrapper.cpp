@@ -417,6 +417,8 @@ ImageWrapper
 :
 OnSurfaceDiscarded
 (
+SurfaceKey
+aSurfaceKey
 )
 {
 return
@@ -425,6 +427,7 @@ mInnerImage
 >
 OnSurfaceDiscarded
 (
+aSurfaceKey
 )
 ;
 }
