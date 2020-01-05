@@ -48547,16 +48547,6 @@ MOZ_ASSERT
 parent
 )
 ;
-if
-(
-parent
--
->
-HasServoData
-(
-)
-)
-{
 styleSet
 -
 >
@@ -48565,7 +48555,6 @@ StyleNewChildren
 parent
 )
 ;
-}
 }
 }
 }
