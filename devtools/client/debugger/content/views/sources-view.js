@@ -821,7 +821,7 @@ L10N
 getStr
 (
 "
-blackBoxCheckboxTooltip
+blackboxCheckboxTooltip2
 "
 )
 ;

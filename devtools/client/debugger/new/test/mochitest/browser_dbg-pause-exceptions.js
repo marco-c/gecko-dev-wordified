@@ -130,14 +130,6 @@ an
 uncaught
 exception
 yield
-togglePauseOnExceptions
-(
-dbg
-false
-false
-)
-;
-yield
 uncaughtException
 (
 )
