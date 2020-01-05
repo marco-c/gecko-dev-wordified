@@ -237,7 +237,10 @@ util
 str
 :
 :
+{
 DOMString
+slice_chars
+}
 ;
 use
 std
@@ -646,10 +649,11 @@ count
 ;
 Ok
 (
-data
-.
 slice_chars
 (
+&
+*
+data
 offset
 as
 usize
@@ -928,6 +932,10 @@ let
 mut
 data
 =
+slice_chars
+(
+&
+*
 self
 .
 data
@@ -935,9 +943,6 @@ data
 borrow
 (
 )
-.
-slice_chars
-(
 0
 offset
 as
@@ -960,7 +965,10 @@ data
 .
 push_str
 (
+slice_chars
+(
 &
+*
 self
 .
 data
@@ -968,9 +976,6 @@ data
 borrow
 (
 )
-.
-slice_chars
-(
 (
 offset
 +

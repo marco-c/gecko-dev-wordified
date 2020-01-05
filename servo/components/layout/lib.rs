@@ -149,14 +149,6 @@ raw
 [
 feature
 (
-slice_chars
-)
-]
-#
-!
-[
-feature
-(
 step_by
 )
 ]
