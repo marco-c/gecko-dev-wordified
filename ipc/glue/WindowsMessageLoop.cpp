@@ -193,6 +193,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ProtocolUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PaintTracker
 .
 h
