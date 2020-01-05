@@ -1762,7 +1762,8 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 NotifyIME
 (
 const

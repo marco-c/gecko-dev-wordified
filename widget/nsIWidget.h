@@ -10829,7 +10829,8 @@ NS_SUCCESS_EVENT_CONSUMED
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 NotifyIME
 (
 const

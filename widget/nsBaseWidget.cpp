@@ -11526,7 +11526,7 @@ aShowFocusRings
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBaseWidget
 :
 :

@@ -467,7 +467,10 @@ false
 }
 /
 /
-NS_IMETHOD
+virtual
+nsresult
+/
+/
 NotifyIME
 (
 const
