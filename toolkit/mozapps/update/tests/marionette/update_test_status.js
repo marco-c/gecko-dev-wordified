@@ -214,7 +214,7 @@ testBadXml
 (
 )
 {
-setPref
+setDefaultPref
 (
 "
 app
@@ -222,8 +222,6 @@ app
 update
 .
 url
-.
-override
 "
 TEST_URL
 +
@@ -255,7 +253,7 @@ testAccessDenied
 (
 )
 {
-setPref
+setDefaultPref
 (
 "
 app
@@ -263,8 +261,6 @@ app
 update
 .
 url
-.
-override
 "
 TEST_URL
 +
@@ -302,7 +298,7 @@ testNoUpdateXml
 (
 )
 {
-setPref
+setDefaultPref
 (
 "
 app
@@ -310,8 +306,6 @@ app
 update
 .
 url
-.
-override
 "
 TEST_URL
 +
@@ -343,7 +337,7 @@ testInternalServerError
 (
 )
 {
-setPref
+setDefaultPref
 (
 "
 app
@@ -351,8 +345,6 @@ app
 update
 .
 url
-.
-override
 "
 TEST_URL
 +
@@ -390,7 +382,7 @@ testBadHostStatus
 (
 )
 {
-setPref
+setDefaultPref
 (
 "
 app
@@ -398,8 +390,6 @@ app
 update
 .
 url
-.
-override
 "
 "
 http
