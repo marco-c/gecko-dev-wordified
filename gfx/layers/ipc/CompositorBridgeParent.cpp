@@ -1075,11 +1075,6 @@ TextureFlags
 RECYCLE
 )
 {
-SendFenceHandleIfPresent
-(
-aTexture
-)
-;
 uint64_t
 textureId
 =

@@ -687,14 +687,6 @@ const
 override
 ;
 void
-SendFenceHandleToNonRecycle
-(
-PTextureParent
-*
-aTexture
-)
-;
-void
 NotifyNotUsedToNonRecycle
 (
 PTextureParent

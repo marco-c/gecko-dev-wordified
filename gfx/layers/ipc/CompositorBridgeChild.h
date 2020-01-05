@@ -1159,16 +1159,6 @@ uint64_t
 aFwdTransactionId
 )
 ;
-void
-DeliverFence
-(
-uint64_t
-aTextureId
-FenceHandle
-&
-aReleaseFenceHandle
-)
-;
 virtual
 void
 CancelWaitForRecycle

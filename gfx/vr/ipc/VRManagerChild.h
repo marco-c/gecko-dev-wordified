@@ -921,16 +921,6 @@ FireDOMVRDisplayPresentChangeEventInternal
 (
 )
 ;
-void
-DeliverFence
-(
-uint64_t
-aTextureId
-FenceHandle
-&
-aReleaseFenceHandle
-)
-;
 /
 *
 *
