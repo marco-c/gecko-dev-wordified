@@ -1060,6 +1060,14 @@ ancestor
 |
 ancestor
 .
+root
+(
+)
+.
+r
+(
+)
+.
 is_htmlfieldsetelement
 (
 )
