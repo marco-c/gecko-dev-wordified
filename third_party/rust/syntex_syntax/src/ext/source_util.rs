@@ -1128,7 +1128,7 @@ ret
 SmallVector
 :
 :
-zero
+new
 (
 )
 ;

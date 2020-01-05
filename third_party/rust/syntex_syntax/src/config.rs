@@ -2319,7 +2319,7 @@ return
 SmallVector
 :
 :
-zero
+new
 (
 )
 }
