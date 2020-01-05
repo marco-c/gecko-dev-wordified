@@ -2832,7 +2832,7 @@ chan
 =
 window
 .
-script_chan
+user_interaction_task_source
 (
 )
 ;

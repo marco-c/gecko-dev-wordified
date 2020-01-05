@@ -8094,7 +8094,7 @@ r
 (
 )
 .
-script_chan
+networking_task_source
 (
 )
 )
@@ -8655,7 +8655,7 @@ get_cx
 self
 global
 .
-script_chan
+networking_task_source
 (
 )
 )
@@ -8759,7 +8759,7 @@ else
 (
 global
 .
-script_chan
+networking_task_source
 (
 )
 None

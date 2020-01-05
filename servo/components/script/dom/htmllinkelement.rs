@@ -1665,7 +1665,7 @@ script_chan
 =
 window
 .
-script_chan
+networking_task_source
 (
 )
 ;

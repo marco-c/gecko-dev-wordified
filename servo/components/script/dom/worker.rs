@@ -702,7 +702,7 @@ r
 )
 global
 .
-script_chan
+dom_manipulation_task_source
 (
 )
 )
@@ -884,7 +884,7 @@ devtools_receiver
 worker_ref
 global
 .
-script_chan
+dom_manipulation_task_source
 (
 )
 sender
@@ -1340,7 +1340,7 @@ r
 (
 )
 .
-script_chan
+dom_manipulation_task_source
 (
 )
 .
