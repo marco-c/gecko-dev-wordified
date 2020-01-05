@@ -70,6 +70,9 @@ Ci
 nsIUrlClassifierDBService
 )
 ;
+var
+timer
+;
 function
 setTimeout
 (
@@ -77,7 +80,6 @@ callback
 delay
 )
 {
-let
 timer
 =
 Cc
