@@ -4167,7 +4167,7 @@ I
 suppose
 *
 /
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4245,7 +4245,7 @@ break
 ;
 default
 :
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4801,7 +4801,7 @@ netscape
 com
 *
 /
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -6412,7 +6412,7 @@ UINTN
 }
 else
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -6444,7 +6444,7 @@ I
 suppose
 *
 /
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -6620,7 +6620,7 @@ it
 #
 if
 0
-PR_ASSERT
+MOZ_ASSERT
 (
 0
 )

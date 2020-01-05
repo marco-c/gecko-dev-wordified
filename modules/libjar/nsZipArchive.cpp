@@ -4052,7 +4052,7 @@ value
 from
 RegExpValid
 !
-PR_ASSERT
+MOZ_ASSERT
 (
 false
 )
