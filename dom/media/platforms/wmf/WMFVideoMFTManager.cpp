@@ -5680,6 +5680,8 @@ VideoData
 CreateFromImage
 (
 mVideoInfo
+.
+mDisplay
 aStreamOffset
 pts
 .
@@ -5699,7 +5701,6 @@ forget
 false
 -
 1
-pictureRegion
 )
 ;
 v
@@ -5867,6 +5868,8 @@ VideoData
 CreateFromImage
 (
 mVideoInfo
+.
+mDisplay
 aStreamOffset
 pts
 .
@@ -5886,7 +5889,6 @@ forget
 false
 -
 1
-pictureRegion
 )
 ;
 NS_ENSURE_TRUE
