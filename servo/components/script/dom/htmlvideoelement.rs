@@ -225,7 +225,6 @@ HTMLVideoElementTypeId
 impl
 HTMLVideoElement
 {
-pub
 fn
 new_inherited
 (

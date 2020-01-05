@@ -252,7 +252,6 @@ ProgressEventTypeId
 impl
 ProgressEvent
 {
-pub
 fn
 new_inherited
 (

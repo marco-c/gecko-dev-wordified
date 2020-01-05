@@ -225,7 +225,6 @@ HTMLAppletElementTypeId
 impl
 HTMLAppletElement
 {
-pub
 fn
 new_inherited
 (

@@ -206,7 +206,6 @@ Reflector
 impl
 NodeList
 {
-pub
 fn
 new_inherited
 (

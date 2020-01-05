@@ -225,7 +225,6 @@ HTMLHRElementTypeId
 impl
 HTMLHRElement
 {
-pub
 fn
 new_inherited
 (

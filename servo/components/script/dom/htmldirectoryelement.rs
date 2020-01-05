@@ -225,7 +225,6 @@ HTMLDirectoryElementTypeId
 impl
 HTMLDirectoryElement
 {
-pub
 fn
 new_inherited
 (

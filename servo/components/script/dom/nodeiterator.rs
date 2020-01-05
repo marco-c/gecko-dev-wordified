@@ -152,7 +152,6 @@ Reflector
 impl
 NodeIterator
 {
-pub
 fn
 new_inherited
 (

@@ -193,7 +193,6 @@ Reflector
 impl
 Range
 {
-pub
 fn
 new_inherited
 (

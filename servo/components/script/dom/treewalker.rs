@@ -357,7 +357,6 @@ Filter
 impl
 TreeWalker
 {
-pub
 fn
 new_inherited
 (

@@ -225,7 +225,6 @@ HTMLAudioElementTypeId
 impl
 HTMLAudioElement
 {
-pub
 fn
 new_inherited
 (

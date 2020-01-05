@@ -368,7 +368,6 @@ ScriptChan
 impl
 Worker
 {
-pub
 fn
 new_inherited
 (

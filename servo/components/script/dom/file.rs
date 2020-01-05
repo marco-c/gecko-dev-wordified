@@ -182,7 +182,6 @@ BlobType
 impl
 File
 {
-pub
 fn
 new_inherited
 (

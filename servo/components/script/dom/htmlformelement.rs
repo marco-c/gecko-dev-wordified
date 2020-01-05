@@ -225,7 +225,6 @@ HTMLFormElementTypeId
 impl
 HTMLFormElement
 {
-pub
 fn
 new_inherited
 (

@@ -225,7 +225,6 @@ HTMLDataElementTypeId
 impl
 HTMLDataElement
 {
-pub
 fn
 new_inherited
 (

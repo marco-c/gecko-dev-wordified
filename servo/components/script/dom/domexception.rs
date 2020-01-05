@@ -509,7 +509,6 @@ Reflector
 impl
 DOMException
 {
-pub
 fn
 new_inherited
 (

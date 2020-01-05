@@ -225,7 +225,6 @@ HTMLParagraphElementTypeId
 impl
 HTMLParagraphElement
 {
-pub
 fn
 new_inherited
 (

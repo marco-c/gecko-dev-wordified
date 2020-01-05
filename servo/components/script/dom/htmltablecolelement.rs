@@ -225,7 +225,6 @@ HTMLTableColElementTypeId
 impl
 HTMLTableColElement
 {
-pub
 fn
 new_inherited
 (

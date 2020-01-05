@@ -273,7 +273,6 @@ HTMLStyleElementTypeId
 impl
 HTMLStyleElement
 {
-pub
 fn
 new_inherited
 (

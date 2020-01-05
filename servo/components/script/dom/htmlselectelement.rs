@@ -335,7 +335,6 @@ HTMLSelectElementTypeId
 impl
 HTMLSelectElement
 {
-pub
 fn
 new_inherited
 (

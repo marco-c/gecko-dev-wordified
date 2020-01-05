@@ -225,7 +225,6 @@ HTMLOListElementTypeId
 impl
 HTMLOListElement
 {
-pub
 fn
 new_inherited
 (

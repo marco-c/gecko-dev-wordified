@@ -225,7 +225,6 @@ HTMLParamElementTypeId
 impl
 HTMLParamElement
 {
-pub
 fn
 new_inherited
 (

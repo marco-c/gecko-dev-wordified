@@ -284,7 +284,6 @@ HTMLTableElementTypeId
 impl
 HTMLTableElement
 {
-pub
 fn
 new_inherited
 (

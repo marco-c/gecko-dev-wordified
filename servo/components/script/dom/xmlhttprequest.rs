@@ -1126,7 +1126,6 @@ Error
 impl
 XMLHttpRequest
 {
-pub
 fn
 new_inherited
 (

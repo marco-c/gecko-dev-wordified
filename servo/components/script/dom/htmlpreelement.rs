@@ -225,7 +225,6 @@ HTMLPreElementTypeId
 impl
 HTMLPreElement
 {
-pub
 fn
 new_inherited
 (

@@ -289,7 +289,6 @@ HTMLTextAreaElementTypeId
 impl
 HTMLTextAreaElement
 {
-pub
 fn
 new_inherited
 (

@@ -244,7 +244,6 @@ HTMLHeadingElementTypeId
 impl
 HTMLHeadingElement
 {
-pub
 fn
 new_inherited
 (

@@ -225,7 +225,6 @@ HTMLFrameElementTypeId
 impl
 HTMLFrameElement
 {
-pub
 fn
 new_inherited
 (

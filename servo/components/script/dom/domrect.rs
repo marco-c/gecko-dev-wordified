@@ -181,7 +181,6 @@ f32
 impl
 DOMRect
 {
-pub
 fn
 new_inherited
 (

@@ -225,7 +225,6 @@ HTMLTableDataCellElementTypeId
 impl
 HTMLTableDataCellElement
 {
-pub
 fn
 new_inherited
 (

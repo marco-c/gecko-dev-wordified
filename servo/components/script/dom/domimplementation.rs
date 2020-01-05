@@ -329,7 +329,6 @@ Reflector
 impl
 DOMImplementation
 {
-pub
 fn
 new_inherited
 (

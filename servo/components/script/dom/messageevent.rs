@@ -297,7 +297,6 @@ MessageEventTypeId
 impl
 MessageEvent
 {
-pub
 fn
 new_inherited
 (

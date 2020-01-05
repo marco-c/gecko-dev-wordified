@@ -225,7 +225,6 @@ HTMLEmbedElementTypeId
 impl
 HTMLEmbedElement
 {
-pub
 fn
 new_inherited
 (

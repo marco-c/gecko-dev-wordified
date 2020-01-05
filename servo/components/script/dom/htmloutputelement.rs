@@ -253,7 +253,6 @@ HTMLOutputElementTypeId
 impl
 HTMLOutputElement
 {
-pub
 fn
 new_inherited
 (

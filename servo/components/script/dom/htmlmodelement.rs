@@ -225,7 +225,6 @@ HTMLModElementTypeId
 impl
 HTMLModElement
 {
-pub
 fn
 new_inherited
 (

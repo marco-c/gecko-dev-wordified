@@ -161,7 +161,6 @@ Reflector
 impl
 Console
 {
-pub
 fn
 new_inherited
 (

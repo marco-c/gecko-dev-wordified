@@ -225,7 +225,6 @@ HTMLTrackElementTypeId
 impl
 HTMLTrackElement
 {
-pub
 fn
 new_inherited
 (

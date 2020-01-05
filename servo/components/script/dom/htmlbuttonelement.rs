@@ -299,7 +299,6 @@ HTMLButtonElementTypeId
 impl
 HTMLButtonElement
 {
-pub
 fn
 new_inherited
 (

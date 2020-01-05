@@ -262,7 +262,6 @@ HTMLAreaElementTypeId
 impl
 HTMLAreaElement
 {
-pub
 fn
 new_inherited
 (

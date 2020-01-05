@@ -328,7 +328,6 @@ HTMLFieldSetElementTypeId
 impl
 HTMLFieldSetElement
 {
-pub
 fn
 new_inherited
 (

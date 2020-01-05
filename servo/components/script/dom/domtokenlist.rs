@@ -244,7 +244,6 @@ str
 impl
 DOMTokenList
 {
-pub
 fn
 new_inherited
 (

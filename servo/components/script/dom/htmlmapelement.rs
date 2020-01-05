@@ -225,7 +225,6 @@ HTMLMapElementTypeId
 impl
 HTMLMapElement
 {
-pub
 fn
 new_inherited
 (

@@ -225,7 +225,6 @@ HTMLLabelElementTypeId
 impl
 HTMLLabelElement
 {
-pub
 fn
 new_inherited
 (

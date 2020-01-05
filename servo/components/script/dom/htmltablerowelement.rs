@@ -225,7 +225,6 @@ HTMLTableRowElementTypeId
 impl
 HTMLTableRowElement
 {
-pub
 fn
 new_inherited
 (

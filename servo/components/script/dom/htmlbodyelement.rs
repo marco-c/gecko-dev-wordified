@@ -317,7 +317,6 @@ HTMLBodyElementTypeId
 impl
 HTMLBodyElement
 {
-pub
 fn
 new_inherited
 (

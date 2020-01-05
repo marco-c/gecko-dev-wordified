@@ -2191,7 +2191,6 @@ href
 impl
 Document
 {
-pub
 fn
 new_inherited
 (

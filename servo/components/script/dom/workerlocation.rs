@@ -202,7 +202,6 @@ Url
 impl
 WorkerLocation
 {
-pub
 fn
 new_inherited
 (

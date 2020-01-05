@@ -316,7 +316,6 @@ HTMLScriptElementTypeId
 impl
 HTMLScriptElement
 {
-pub
 fn
 new_inherited
 (

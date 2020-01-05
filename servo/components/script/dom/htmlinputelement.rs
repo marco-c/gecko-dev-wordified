@@ -289,7 +289,6 @@ HTMLInputElementTypeId
 impl
 HTMLInputElement
 {
-pub
 fn
 new_inherited
 (

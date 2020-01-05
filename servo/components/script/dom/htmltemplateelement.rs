@@ -225,7 +225,6 @@ HTMLTemplateElementTypeId
 impl
 HTMLTemplateElement
 {
-pub
 fn
 new_inherited
 (

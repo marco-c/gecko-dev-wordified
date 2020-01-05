@@ -361,7 +361,6 @@ HTMLAnchorElementTypeId
 impl
 HTMLAnchorElement
 {
-pub
 fn
 new_inherited
 (

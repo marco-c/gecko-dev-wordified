@@ -645,7 +645,6 @@ img_url
 impl
 HTMLImageElement
 {
-pub
 fn
 new_inherited
 (

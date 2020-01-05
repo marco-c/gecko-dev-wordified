@@ -304,7 +304,6 @@ a
 new
 DocumentFragment
 .
-pub
 fn
 new_inherited
 (

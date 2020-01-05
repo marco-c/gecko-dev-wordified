@@ -225,7 +225,6 @@ HTMLProgressElementTypeId
 impl
 HTMLProgressElement
 {
-pub
 fn
 new_inherited
 (

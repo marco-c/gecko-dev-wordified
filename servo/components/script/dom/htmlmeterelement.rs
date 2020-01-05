@@ -225,7 +225,6 @@ HTMLMeterElementTypeId
 impl
 HTMLMeterElement
 {
-pub
 fn
 new_inherited
 (

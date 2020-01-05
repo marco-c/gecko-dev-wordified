@@ -178,7 +178,6 @@ Reflector
 impl
 WorkerNavigator
 {
-pub
 fn
 new_inherited
 (

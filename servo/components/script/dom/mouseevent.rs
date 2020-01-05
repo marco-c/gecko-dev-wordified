@@ -401,7 +401,6 @@ MouseEventTypeId
 impl
 MouseEvent
 {
-pub
 fn
 new_inherited
 (
