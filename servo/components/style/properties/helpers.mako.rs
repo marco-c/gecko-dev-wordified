@@ -220,6 +220,17 @@ app_units
 :
 Au
 ;
+use
+cssparser
+:
+:
+{
+Color
+as
+CSSParserColor
+RGBA
+}
+;
 pub
 type
 SpecifiedValue
