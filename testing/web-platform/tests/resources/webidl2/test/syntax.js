@@ -38,8 +38,6 @@ require
 (
 "
 expect
-.
-js
 "
 )
 pth
@@ -386,9 +384,7 @@ expect
 diff
 )
 .
-to
-.
-be
+toBe
 (
 undefined
 )

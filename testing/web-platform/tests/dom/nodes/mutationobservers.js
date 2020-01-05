@@ -37,7 +37,7 @@ expectedRecord
 if
 properties
 are
-ommitted
+omitted
 they
 get
 default

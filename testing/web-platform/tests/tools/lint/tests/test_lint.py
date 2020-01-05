@@ -34,6 +34,7 @@ import
 filter_whitelist_errors
 parse_whitelist
 lint
+parse_args
 _dummy_repo
 =
 os
@@ -861,7 +862,7 @@ expected_ignored
 def
 test_lint_no_files
 (
-capsys
+caplog
 )
 :
     
@@ -872,7 +873,9 @@ lint
 _dummy_repo
 [
 ]
-False
+"
+normal
+"
 False
 )
     
@@ -882,24 +885,10 @@ rv
 =
 0
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -907,7 +896,7 @@ err
 def
 test_lint_ignored_file
 (
-capsys
+caplog
 )
 :
     
@@ -945,7 +934,9 @@ broken_ignored
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -967,24 +958,10 @@ mocked_check_file_contents
 .
 called
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -992,7 +969,7 @@ err
 def
 test_lint_not_existing_file
 (
-capsys
+caplog
 )
 :
     
@@ -1047,7 +1024,9 @@ _dummy_repo
 [
 name
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1069,24 +1048,10 @@ mocked_check_file_contents
 .
 called
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -1094,7 +1059,7 @@ err
 def
 test_lint_passing
 (
-capsys
+caplog
 )
 :
     
@@ -1132,7 +1097,9 @@ okay
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1158,24 +1125,10 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -1183,7 +1136,7 @@ err
 def
 test_lint_failing
 (
-capsys
+caplog
 )
 :
     
@@ -1221,7 +1174,9 @@ broken
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1247,22 +1202,15 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 TRAILING
 WHITESPACE
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1273,18 +1221,13 @@ html
 1
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_ref_existent_relative
 (
-capsys
+caplog
 )
 :
     
@@ -1324,7 +1267,9 @@ existent_relative
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1350,24 +1295,10 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -1375,7 +1306,7 @@ err
 def
 test_ref_existent_root_relative
 (
-capsys
+caplog
 )
 :
     
@@ -1415,7 +1346,9 @@ existent_root_relative
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1441,24 +1374,10 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -1466,7 +1385,7 @@ err
 def
 test_ref_non_existent_relative
 (
-capsys
+caplog
 )
 :
     
@@ -1506,7 +1425,9 @@ non_existent_relative
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1532,15 +1453,6 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 NON
@@ -1550,7 +1462,9 @@ EXISTENT
 REF
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1561,7 +1475,9 @@ non_existent_relative
 html
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1570,18 +1486,13 @@ non_existent_file
 html
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_ref_non_existent_root_relative
 (
-capsys
+caplog
 )
 :
     
@@ -1621,7 +1532,9 @@ non_existent_root_relative
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1647,15 +1560,6 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 NON
@@ -1665,7 +1569,9 @@ EXISTENT
 REF
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1676,7 +1582,9 @@ non_existent_root_relative
 html
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1686,18 +1594,13 @@ non_existent_file
 html
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_ref_absolute_url
 (
-capsys
+caplog
 )
 :
     
@@ -1737,7 +1640,9 @@ absolute
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1763,15 +1668,6 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 ABSOLUTE
@@ -1781,7 +1677,9 @@ URL
 REF
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1798,7 +1696,9 @@ reference
 html
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1809,18 +1709,13 @@ absolute
 html
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_ref_same_file_empty
 (
-capsys
+caplog
 )
 :
     
@@ -1860,7 +1755,9 @@ same_file_empty
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1886,15 +1783,6 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 SAME
@@ -1904,7 +1792,9 @@ FILE
 REF
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -1913,18 +1803,13 @@ same_file_empty
 html
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_ref_same_file_path
 (
-capsys
+caplog
 )
 :
     
@@ -1964,7 +1849,9 @@ same_file_path
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -1990,15 +1877,6 @@ call_count
 =
 1
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 SAME
@@ -2008,7 +1886,9 @@ FILE
 REF
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -2017,18 +1897,13 @@ same_file_path
 html
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_lint_passing_and_failing
 (
-capsys
+caplog
 )
 :
     
@@ -2071,7 +1946,9 @@ okay
 html
 "
 ]
-False
+"
+normal
+"
 False
 )
             
@@ -2097,22 +1974,15 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 TRAILING
 WHITESPACE
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -2123,7 +1993,9 @@ html
 1
 "
 in
-out
+caplog
+.
+text
     
 assert
 "
@@ -2133,18 +2005,13 @@ html
 "
 not
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_check_css_globally_unique_identical_test
 (
-capsys
+caplog
 )
 :
     
@@ -2197,7 +2064,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2223,24 +2092,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -2248,7 +2103,7 @@ err
 def
 test_check_css_globally_unique_different_test
 (
-capsys
+caplog
 )
 :
     
@@ -2303,7 +2158,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2329,15 +2186,6 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
-    
 assert
 "
 CSS
@@ -2349,18 +2197,13 @@ TEST
 NAME
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_check_css_globally_unique_different_spec_test
 (
-capsys
+caplog
 )
 :
     
@@ -2413,7 +2256,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2439,24 +2284,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -2464,7 +2295,7 @@ err
 def
 test_check_css_globally_unique_support_ignored
 (
-capsys
+caplog
 )
 :
     
@@ -2521,7 +2352,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2547,24 +2380,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -2572,7 +2391,7 @@ err
 def
 test_check_css_globally_unique_support_identical
 (
-capsys
+caplog
 )
 :
     
@@ -2629,7 +2448,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2655,24 +2476,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -2680,7 +2487,7 @@ err
 def
 test_check_css_globally_unique_support_different
 (
-capsys
+caplog
 )
 :
     
@@ -2739,7 +2546,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2764,15 +2573,6 @@ call_count
 =
 =
 2
-    
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
     
 assert
 "
@@ -2785,18 +2585,13 @@ SUPPORT
 NAME
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_check_css_globally_unique_test_support
 (
-capsys
+caplog
 )
 :
     
@@ -2849,7 +2644,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2875,24 +2672,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -2900,7 +2683,7 @@ err
 def
 test_check_css_globally_unique_ref_identical
 (
-capsys
+caplog
 )
 :
     
@@ -2957,7 +2740,9 @@ ref
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -2983,24 +2768,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -3008,7 +2779,7 @@ err
 def
 test_check_css_globally_unique_ref_different
 (
-capsys
+caplog
 )
 :
     
@@ -3067,7 +2838,9 @@ ref
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -3092,15 +2865,6 @@ call_count
 =
 =
 2
-    
-out
-err
-=
-capsys
-.
-readouterr
-(
-)
     
 assert
 "
@@ -3113,18 +2877,13 @@ REF
 NAME
 "
 in
-out
-    
-assert
-err
-=
-=
-"
-"
+caplog
+.
+text
 def
 test_check_css_globally_unique_test_ref
 (
-capsys
+caplog
 )
 :
     
@@ -3177,7 +2936,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -3203,24 +2964,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -3228,7 +2975,7 @@ err
 def
 test_check_css_globally_unique_ignored
 (
-capsys
+caplog
 )
 :
     
@@ -3287,7 +3034,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -3313,24 +3062,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -3338,7 +3073,7 @@ err
 def
 test_check_css_globally_unique_ignored_dir
 (
-capsys
+caplog
 )
 :
     
@@ -3399,7 +3134,9 @@ a
 html
 "
 ]
-False
+"
+normal
+"
 True
 )
             
@@ -3425,24 +3162,10 @@ call_count
 =
 2
     
-out
-err
-=
-capsys
+assert
+caplog
 .
-readouterr
-(
-)
-    
-assert
-out
-=
-=
-"
-"
-    
-assert
-err
+text
 =
 =
 "
@@ -3635,6 +3358,14 @@ lint_mod
 .
 main
 (
+*
+*
+vars
+(
+parse_args
+(
+)
+)
 )
             
 m
@@ -3653,7 +3384,9 @@ b
 c
 '
 ]
-False
+"
+normal
+"
 False
 )
     
@@ -3731,6 +3464,14 @@ lint_mod
 .
 main
 (
+*
+*
+vars
+(
+parse_args
+(
+)
+)
 )
                 
 m
@@ -3746,7 +3487,9 @@ foo
 bar
 '
 ]
-False
+"
+normal
+"
 False
 )
     

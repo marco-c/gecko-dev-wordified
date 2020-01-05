@@ -1574,7 +1574,8 @@ op
 ;
 promise_test
 (
-t
+(
+)
 =
 >
 {

@@ -914,6 +914,10 @@ error
 error1
 )
 ;
+resolveStart
+(
+)
+;
 return
 Promise
 .
@@ -978,10 +982,6 @@ have
 been
 called
 '
-)
-;
-resolveStart
-(
 )
 ;
 }

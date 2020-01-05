@@ -162,9 +162,7 @@ expect
 diff
 )
 .
-to
-.
-be
+toBe
 (
 undefined
 )
@@ -348,11 +346,7 @@ expect
 error
 )
 .
-to
-.
-be
-.
-ok
+toExist
 (
 )
 ;
@@ -363,9 +357,7 @@ error
 message
 )
 .
-to
-.
-equal
+toEqual
 (
 err
 .
@@ -379,9 +371,7 @@ error
 line
 )
 .
-to
-.
-equal
+toEqual
 (
 err
 .

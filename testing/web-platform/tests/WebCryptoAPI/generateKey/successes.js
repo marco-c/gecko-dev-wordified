@@ -2,6 +2,7 @@ function
 run_test
 (
 algorithmNames
+slowTest
 )
 {
 var
@@ -747,6 +748,7 @@ allNameVariants
 vector
 .
 name
+slowTest
 )
 .
 forEach

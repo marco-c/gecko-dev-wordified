@@ -66,8 +66,6 @@ require
 (
 "
 expect
-.
-js
 "
 )
 pth
@@ -353,11 +351,7 @@ expect
 error
 )
 .
-to
-.
-be
-.
-ok
+toExist
 (
 )
 ;
@@ -368,9 +362,7 @@ error
 message
 )
 .
-to
-.
-equal
+toEqual
 (
 err
 .
@@ -384,9 +376,7 @@ error
 line
 )
 .
-to
-.
-equal
+toEqual
 (
 err
 .

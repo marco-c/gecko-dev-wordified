@@ -5902,7 +5902,7 @@ type
 selector
 matching
 the
-thrid
+third
 last
 em
 element
@@ -19103,7 +19103,7 @@ type
 selector
 matching
 the
-thrid
+third
 last
 em
 element
