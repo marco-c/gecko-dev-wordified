@@ -557,6 +557,7 @@ indices
 deriving
 (
 Clone
+Encodable
 )
 ]
 pub

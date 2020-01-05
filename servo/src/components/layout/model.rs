@@ -1548,6 +1548,13 @@ minimum
 and
 preferred
 .
+#
+[
+deriving
+(
+Encodable
+)
+]
 pub
 struct
 IntrinsicISizes

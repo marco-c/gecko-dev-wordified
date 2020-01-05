@@ -114,6 +114,13 @@ Zero
 bitflags
 !
 (
+#
+[
+deriving
+(
+Encodable
+)
+]
 flags
 WritingMode
 :
@@ -562,6 +569,7 @@ ndebug
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -584,6 +592,7 @@ ndebug
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -838,6 +847,7 @@ dimensions
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -1707,6 +1717,7 @@ dimensions
 deriving
 (
 PartialEq
+Encodable
 Eq
 Clone
 )
@@ -2984,6 +2995,7 @@ rectangle
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone
@@ -4690,6 +4702,7 @@ dimensions
 [
 deriving
 (
+Encodable
 PartialEq
 Eq
 Clone

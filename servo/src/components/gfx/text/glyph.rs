@@ -3489,6 +3489,13 @@ int_range_index
 {
 #
 [
+deriving
+(
+Encodable
+)
+]
+#
+[
 doc
 =
 "

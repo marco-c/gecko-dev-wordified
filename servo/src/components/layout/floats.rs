@@ -135,6 +135,7 @@ right
 deriving
 (
 Clone
+Encodable
 )
 ]
 pub
