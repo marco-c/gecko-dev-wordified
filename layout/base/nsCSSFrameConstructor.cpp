@@ -20265,6 +20265,14 @@ aParentFrame
 comboboxFrame
 )
 ;
+comboboxFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 aState
 .
 AddChild
