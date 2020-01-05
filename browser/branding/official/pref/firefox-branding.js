@@ -401,7 +401,8 @@ button
 .
 default
 =
-immediately
+4
+days
 pref
 (
 "
@@ -411,7 +412,7 @@ update
 .
 badgeWaitTime
 "
-0
+345600
 )
 ;
 /
