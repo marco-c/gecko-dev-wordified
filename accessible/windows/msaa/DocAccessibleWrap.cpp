@@ -1086,6 +1086,16 @@ MOZ_ASSERT
 tab
 )
 ;
+if
+(
+!
+tab
+)
+{
+return
+nullptr
+;
+}
 return
 reinterpret_cast
 <
