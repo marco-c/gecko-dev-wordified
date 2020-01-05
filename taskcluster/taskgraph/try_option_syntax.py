@@ -4502,12 +4502,32 @@ in
 JOB_KINDS
 :
             
+#
+This
+will
+add
+'
+job
+'
+tasks
+to
+the
+target
+set
+even
 if
+no
+try
+syntax
+was
+specified
+.
+            
+if
+not
 self
 .
 jobs
-is
-None
 :
                 
 return
