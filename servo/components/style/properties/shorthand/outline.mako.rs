@@ -331,8 +331,6 @@ impl
 '
 a
 >
-ToCss
-for
 LonghandsToSerialize
 <
 '
@@ -340,7 +338,7 @@ a
 >
 {
 fn
-to_css
+to_css_declared
 <
 W
 >
@@ -694,8 +692,6 @@ impl
 '
 a
 >
-ToCss
-for
 LonghandsToSerialize
 <
 '
@@ -703,7 +699,7 @@ a
 >
 {
 fn
-to_css
+to_css_declared
 <
 W
 >

@@ -550,6 +550,10 @@ matches
 ;
 extern
 crate
+num_integer
+;
+extern
+crate
 num_traits
 ;
 extern
