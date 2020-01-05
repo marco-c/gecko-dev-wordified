@@ -174,7 +174,7 @@ Bindings
 CanvasRenderingContext2DBinding
 :
 :
-CanvasRenderingContext2DMethods
+CanvasFillRule
 ;
 use
 dom
@@ -192,7 +192,7 @@ Bindings
 CanvasRenderingContext2DBinding
 :
 :
-CanvasWindingRule
+CanvasRenderingContext2DMethods
 ;
 use
 dom
@@ -5386,7 +5386,7 @@ Fill
 self
 _
 :
-CanvasWindingRule
+CanvasFillRule
 )
 {
 /
@@ -5394,7 +5394,7 @@ CanvasWindingRule
 TODO
 :
 Process
-winding
+fill
 rule
 self
 .
@@ -5516,7 +5516,7 @@ Clip
 self
 _
 :
-CanvasWindingRule
+CanvasFillRule
 )
 {
 /
@@ -5524,7 +5524,7 @@ CanvasWindingRule
 TODO
 :
 Process
-winding
+fill
 rule
 self
 .
