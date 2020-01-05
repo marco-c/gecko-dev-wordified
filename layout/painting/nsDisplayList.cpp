@@ -22200,6 +22200,7 @@ BuildWebRenderDisplayItemsForStyleImageLayer
 (
 params
 aBuilder
+aParentCommands
 aLayer
 )
 ;
