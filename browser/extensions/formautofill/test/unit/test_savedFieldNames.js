@@ -129,6 +129,12 @@ _updateSavedFieldNames
 "
 )
 ;
+formAutofillParent
+.
+init
+(
+)
+;
 /
 /
 profile
