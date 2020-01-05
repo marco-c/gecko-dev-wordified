@@ -7448,6 +7448,9 @@ schemeHash
 /
 sad
 face
+#
+if
+IS_ORIGIN_IS_FULL_SPEC_DEFINED
 bool
 hasFlag
 ;
@@ -7520,6 +7523,8 @@ return
 specHash
 ;
 }
+#
+endif
 nsAutoCString
 host
 ;
@@ -8012,6 +8017,9 @@ rv
 filesAreEqual
 ;
 }
+#
+if
+IS_ORIGIN_IS_FULL_SPEC_DEFINED
 bool
 hasFlag
 ;
@@ -8100,6 +8108,8 @@ sourceSpec
 )
 ;
 }
+#
+endif
 /
 /
 Compare
