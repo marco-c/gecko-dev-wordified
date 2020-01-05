@@ -177,6 +177,7 @@ nsILoadContext
 }
 ;
 function
+*
 getChannels
 (
 )
