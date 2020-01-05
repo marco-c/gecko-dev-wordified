@@ -688,7 +688,7 @@ nsITelemetry
 SCALAR_STRING
 :
 {
-nsString
+nsAutoString
 val
 ;
 nsresult
@@ -999,7 +999,7 @@ nsITelemetry
 SCALAR_STRING
 :
 {
-nsString
+nsAutoString
 data
 ;
 /
