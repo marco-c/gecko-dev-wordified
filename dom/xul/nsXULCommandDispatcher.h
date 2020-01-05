@@ -302,6 +302,15 @@ nsAString
 aElement
 )
 ;
+bool
+mLocked
+;
+nsTArray
+<
+nsString
+>
+mPendingUpdates
+;
 }
 ;
 #
