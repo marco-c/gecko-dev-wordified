@@ -345,7 +345,13 @@ endif
 elif
 defined
 (
-__sparc64__
+__sparc__
+)
+&
+&
+defined
+(
+__arch64__
 )
 #
 define
