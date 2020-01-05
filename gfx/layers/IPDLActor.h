@@ -272,7 +272,13 @@ typedef
 ipc
 :
 :
+IProtocolManager
+<
+ipc
+:
+:
 IProtocol
+>
 :
 :
 ActorDestroyReason
