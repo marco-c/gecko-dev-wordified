@@ -6913,7 +6913,7 @@ MOZ_ASSERT
 length
 <
 =
-MaxTableLength
+MaxTableInitialLength
 )
 ;
 MOZ_ASSERT

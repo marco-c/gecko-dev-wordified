@@ -1818,7 +1818,7 @@ MaxElemSegments
 static
 const
 unsigned
-MaxTableLength
+MaxTableInitialLength
 =
 10000000
 ;
@@ -1849,6 +1849,17 @@ unsigned
 MaxBrTableElems
 =
 1000000
+;
+static
+const
+unsigned
+MaxMemoryInitialBytes
+=
+1024
+*
+1024
+*
+1024
 ;
 static
 const
