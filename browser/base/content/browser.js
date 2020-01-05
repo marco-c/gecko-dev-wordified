@@ -7795,7 +7795,7 @@ init
 (
 )
 ;
-DevEdition
+CompactTheme
 .
 init
 (
@@ -11754,7 +11754,7 @@ uninit
 (
 )
 ;
-DevEdition
+CompactTheme
 .
 uninit
 (

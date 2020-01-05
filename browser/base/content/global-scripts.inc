@@ -351,7 +351,7 @@ content
 /
 browser
 -
-devedition
+compacttheme
 .
 js
 "

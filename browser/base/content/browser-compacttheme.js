@@ -63,7 +63,7 @@ MPL
 Listeners
 for
 the
-DevEdition
+compact
 theme
 .
 This
@@ -91,7 +91,7 @@ applied
 *
 /
 var
-DevEdition
+CompactTheme
 =
 {
 _devtoolsThemePrefName
@@ -112,7 +112,7 @@ browser
 /
 skin
 /
-devedition
+compacttheme
 .
 css
 "
@@ -831,7 +831,7 @@ null
 /
 If
 the
-DevEdition
+compact
 theme
 is
 going
@@ -866,7 +866,8 @@ is
 applied
 while
 the
-DevEdition
+compact
+theme
 stylesheet
 is
 loading
@@ -889,12 +890,12 @@ appShell
 hiddenDOMWindow
 &
 &
-DevEdition
+CompactTheme
 .
 isThemeCurrentlyApplied
 )
 {
-DevEdition
+CompactTheme
 .
 createStyleSheet
 (
