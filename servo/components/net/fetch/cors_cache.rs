@@ -295,7 +295,12 @@ s
 )
 =
 >
+(
+&
+*
+*
 s
+)
 .
 eq_ignore_ascii_case
 (

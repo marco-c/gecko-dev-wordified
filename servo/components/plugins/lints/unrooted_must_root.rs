@@ -907,8 +907,6 @@ node_id_to_type
 (
 field
 .
-node
-.
 id
 )
 false
@@ -1083,8 +1081,6 @@ get
 &
 ty
 .
-node
-.
 id
 )
 .
@@ -1108,8 +1104,6 @@ span_lint
 (
 UNROOTED_MUST_ROOT
 ty
-.
-node
 .
 ty
 .
