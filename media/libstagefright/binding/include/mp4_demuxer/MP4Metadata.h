@@ -485,6 +485,11 @@ Crypto
 )
 const
 ;
+using
+ResultAndIndice
+=
+ResultAndType
+<
 mozilla
 :
 :
@@ -492,6 +497,9 @@ UniquePtr
 <
 IndiceWrapper
 >
+>
+;
+ResultAndIndice
 GetTrackIndice
 (
 mozilla
