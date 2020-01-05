@@ -712,7 +712,13 @@ Clobbers
 elif
 defined
 (
-__sparc64__
+__sparc__
+)
+&
+&
+defined
+(
+__arch64__
 )
 JEMALLOC_INLINE
 void
