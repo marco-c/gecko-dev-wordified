@@ -932,6 +932,14 @@ Instruction
 i
 )
 ;
+Instruction
+*
+offsetToInstruction
+(
+CodeOffset
+offs
+)
+;
 /
 /
 ALU
