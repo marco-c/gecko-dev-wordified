@@ -1274,6 +1274,13 @@ for
 style
 sharing
 .
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 new
 <
