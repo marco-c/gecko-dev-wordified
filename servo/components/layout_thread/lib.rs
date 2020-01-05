@@ -5423,6 +5423,9 @@ shutdown
 (
 )
 }
+let
+_
+=
 self
 .
 paint_chan
@@ -5433,10 +5436,6 @@ LayoutToPaintMsg
 :
 :
 Exit
-)
-.
-unwrap
-(
 )
 ;
 }
