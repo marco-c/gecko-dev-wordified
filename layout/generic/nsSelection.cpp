@@ -19562,7 +19562,7 @@ Selection
 (
 )
 {
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 -
 1
@@ -20086,7 +20086,7 @@ void
 Selection
 :
 :
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 int32_t
 indx
@@ -23100,7 +23100,7 @@ nsPresContext
 aPresContext
 )
 {
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 -
 1
@@ -28912,7 +28912,7 @@ rangeIndex
 return
 ;
 }
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 rangeIndex
 )
@@ -29582,7 +29582,7 @@ are
 no
 ranges
 .
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 cnt
 -
@@ -30432,7 +30432,7 @@ result
 return
 ;
 }
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 0
 )
@@ -31289,7 +31289,7 @@ res
 return
 res
 ;
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 aOutIndex
 )
@@ -31435,7 +31435,7 @@ SetIsGenerated
 true
 )
 ;
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 0
 )
@@ -31465,7 +31465,7 @@ SetIsGenerated
 false
 )
 ;
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 RangeCount
 (
