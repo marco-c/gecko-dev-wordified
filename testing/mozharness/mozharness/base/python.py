@@ -4321,12 +4321,6 @@ as
 optional
 .
             
-#
-TODO
-support
-Windows
-.
-            
 try
 :
                 
