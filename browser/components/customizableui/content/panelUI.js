@@ -348,6 +348,15 @@ contents
 -
 scroller
 "
+addonNotificationContainer
+:
+"
+PanelUI
+-
+footer
+-
+addons
+"
 overflowFixedList
 :
 gPhotonStructure
