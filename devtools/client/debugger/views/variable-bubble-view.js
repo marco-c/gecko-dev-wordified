@@ -387,7 +387,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 this
@@ -402,7 +401,6 @@ mouseout
 this
 .
 _onMouseOut
-false
 )
 ;
 this
@@ -543,7 +541,6 @@ mousemove
 this
 .
 _onMouseMove
-false
 )
 ;
 this
@@ -558,7 +555,6 @@ mouseout
 this
 .
 _onMouseOut
-false
 )
 ;
 }

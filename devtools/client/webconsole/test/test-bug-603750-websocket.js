@@ -196,6 +196,5 @@ close
 }
 ;
 }
-false
 )
 ;

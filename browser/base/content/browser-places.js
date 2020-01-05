@@ -149,7 +149,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 element
@@ -160,7 +159,6 @@ addEventListener
 mouseout
 "
 this
-false
 )
 ;
 element
@@ -171,7 +169,6 @@ addEventListener
 mousemove
 "
 this
-false
 )
 ;
 element
@@ -182,7 +179,6 @@ addEventListener
 popuphidden
 "
 this
-false
 )
 ;
 element
@@ -193,7 +189,6 @@ addEventListener
 popupshown
 "
 this
-false
 )
 ;
 return

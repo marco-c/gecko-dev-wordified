@@ -651,7 +651,6 @@ removeEventListener
 load
 "
 listener
-false
 )
 ;
 if
@@ -697,7 +696,6 @@ windowListener
 )
 ;
 }
-false
 )
 ;
 }

@@ -87,7 +87,6 @@ removeEventListener
 SSWindowClosing
 "
 onWindowClosing
-false
 )
 ;
 eventReceived
@@ -95,7 +94,6 @@ eventReceived
 true
 ;
 }
-false
 )
 ;
 BrowserTestUtils
@@ -183,7 +181,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 executeSoon
@@ -199,7 +196,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

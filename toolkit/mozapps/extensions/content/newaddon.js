@@ -718,7 +718,6 @@ aAddon
 markAsSeen
 (
 )
-false
 )
 ;
 }

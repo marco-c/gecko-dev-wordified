@@ -244,7 +244,6 @@ addEventListener
 keypress
 "
 preventDefault
-false
 )
 ;
 var
@@ -1191,7 +1190,6 @@ removeEventListener
 keypress
 "
 preventDefault
-false
 )
 ;
 SimpleTest
@@ -3275,7 +3273,6 @@ addEventListener
 keydown
 "
 keydownListener
-false
 )
 ;
 window
@@ -3286,7 +3283,6 @@ addEventListener
 keypress
 "
 keypressListener
-false
 )
 ;
 synthesizeKeyExpectEvent
@@ -6171,7 +6167,6 @@ removeEventListener
 keydown
 "
 keydownListener
-false
 )
 ;
 window
@@ -6182,7 +6177,6 @@ removeEventListener
 keypress
 "
 keypressListener
-false
 )
 ;
 is
@@ -11196,7 +11190,6 @@ addEventListener
 wheel
 "
 wheelListener
-false
 )
 ;
 deltaModes
@@ -11317,7 +11310,6 @@ removeEventListener
 wheel
 "
 wheelListener
-false
 )
 ;
 is

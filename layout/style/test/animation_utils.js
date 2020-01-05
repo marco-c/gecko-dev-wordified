@@ -457,7 +457,6 @@ addEventListener
 animationstart
 "
 listener
-false
 )
 ;
 gElem
@@ -468,7 +467,6 @@ addEventListener
 animationiteration
 "
 listener
-false
 )
 ;
 gElem
@@ -479,7 +477,6 @@ addEventListener
 animationend
 "
 listener
-false
 )
 ;
 }

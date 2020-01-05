@@ -1447,7 +1447,6 @@ unload
 this
 .
 destroy
-false
 )
 ;
 /
@@ -2557,7 +2556,6 @@ unload
 this
 .
 destroy
-false
 )
 ;
 this

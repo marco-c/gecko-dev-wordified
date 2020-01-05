@@ -2470,7 +2470,6 @@ addEventListener
 click
 "
 onPanelClick
-false
 )
 ;
 /

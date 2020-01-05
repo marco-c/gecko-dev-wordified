@@ -558,7 +558,6 @@ addEventListener
 blur
 "
 this
-false
 )
 ;
 this
@@ -571,7 +570,6 @@ addEventListener
 focus
 "
 this
-false
 )
 ;
 this
@@ -586,7 +584,6 @@ addEventListener
 unload
 "
 this
-false
 )
 ;
 this
@@ -789,7 +786,6 @@ removeEventListener
 blur
 "
 this
-false
 )
 ;
 this
@@ -802,7 +798,6 @@ removeEventListener
 focus
 "
 this
-false
 )
 ;
 this
@@ -817,7 +812,6 @@ removeEventListener
 unload
 "
 this
-false
 )
 ;
 if

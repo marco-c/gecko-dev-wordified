@@ -502,7 +502,6 @@ bind
 (
 this
 )
-false
 )
 ;
 xhr
@@ -536,7 +535,6 @@ unknown
 }
 }
 )
-false
 )
 ;
 xhr
@@ -797,7 +795,6 @@ status
 }
 }
 )
-false
 )
 ;
 xhr
@@ -825,7 +822,6 @@ false
 }
 }
 )
-false
 )
 ;
 xhr
@@ -960,7 +956,6 @@ status
 }
 }
 )
-false
 )
 ;
 xhr
@@ -988,7 +983,6 @@ false
 }
 }
 )
-false
 )
 ;
 xhr

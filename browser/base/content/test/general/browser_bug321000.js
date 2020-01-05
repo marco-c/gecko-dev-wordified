@@ -373,7 +373,6 @@ event
 .
 type
 this
-false
 )
 ;
 is
@@ -427,7 +426,6 @@ addEventListener
 input
 "
 inputListener
-false
 )
 ;
 /
@@ -495,7 +493,6 @@ focus
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -556,7 +553,6 @@ true
 )
 ;
 }
-false
 )
 ;
 element

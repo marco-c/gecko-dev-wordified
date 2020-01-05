@@ -220,7 +220,6 @@ addEventListener
 popupshown
 "
 contextMenuOpened
-false
 )
 ;
 BrowserTestUtils

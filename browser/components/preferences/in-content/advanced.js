@@ -293,7 +293,6 @@ removeEventListener
 unload
 "
 onUnload
-false
 )
 ;
 Services
@@ -326,7 +325,6 @@ addEventListener
 unload
 "
 onUnload
-false
 )
 ;
 Services

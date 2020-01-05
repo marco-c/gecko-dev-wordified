@@ -155,7 +155,6 @@ removeEventListener
 SSWindowClosing
 "
 onclosing
-false
 )
 ;
 executeSoon
@@ -188,7 +187,6 @@ stored
 )
 ;
 }
-false
 )
 ;
 BrowserTestUtils

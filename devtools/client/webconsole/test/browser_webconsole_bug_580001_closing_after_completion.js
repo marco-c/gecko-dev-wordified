@@ -211,7 +211,6 @@ addEventListener
 error
 "
 errorListener
-false
 )
 ;
 /
@@ -257,7 +256,6 @@ removeEventListener
 error
 "
 errorListener
-false
 )
 ;
 is

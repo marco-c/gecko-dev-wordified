@@ -497,7 +497,6 @@ open
 .
 dom
 onTabOpen
-false
 )
 ;
 /
@@ -517,7 +516,6 @@ activate
 .
 dom
 onTabSelect
-false
 )
 ;
 }
@@ -850,7 +848,6 @@ open
 .
 dom
 onTabOpen
-false
 )
 ;
 window
@@ -867,7 +864,6 @@ activate
 .
 dom
 onTabSelect
-false
 )
 ;
 }

@@ -165,7 +165,6 @@ TabSelect
 arguments
 .
 callee
-false
 )
 ;
 /
@@ -205,7 +204,6 @@ visibleTabs
 length
 ;
 }
-false
 )
 ;
 gBrowser

@@ -391,7 +391,6 @@ DOMAttrModified
 this
 .
 _listener
-false
 )
 ;
 }
@@ -770,7 +769,6 @@ DOMAttrModified
 this
 .
 _listener
-false
 )
 ;
 this

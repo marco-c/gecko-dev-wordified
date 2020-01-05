@@ -184,7 +184,6 @@ load
 healthReportWrapper
 .
 initRemotePage
-false
 )
 ;
 iframe
@@ -1097,7 +1096,6 @@ e
 )
 ;
 }
-false
 )
 ;
 healthReportWrapper

@@ -483,7 +483,6 @@ handleEvent
 event
 prefVal
 )
-false
 )
 ;
 /

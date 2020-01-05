@@ -2089,7 +2089,6 @@ addEventListener
 load
 "
 onWindowLoaded
-false
 )
 ;
 }

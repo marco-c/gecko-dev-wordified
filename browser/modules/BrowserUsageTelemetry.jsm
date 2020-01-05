@@ -3700,7 +3700,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 /
@@ -3830,7 +3829,6 @@ addEventListener
 load
 "
 onLoad
-false
 )
 ;
 }

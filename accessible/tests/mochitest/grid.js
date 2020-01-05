@@ -377,7 +377,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 this
@@ -390,7 +389,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 }

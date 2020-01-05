@@ -290,7 +290,6 @@ preventDefault
 )
 ;
 }
-false
 )
 }
 )
@@ -350,7 +349,6 @@ preventDefault
 )
 ;
 }
-false
 )
 }
 )
@@ -432,7 +430,6 @@ colIndex
 )
 ;
 }
-false
 )
 }
 )

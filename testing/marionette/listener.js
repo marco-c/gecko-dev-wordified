@@ -2494,7 +2494,6 @@ addEventListener
 mozbrowsershowmodalprompt
 "
 modalHandler
-false
 )
 ;
 content
@@ -2505,7 +2504,6 @@ addEventListener
 unload
 "
 waitForReady
-false
 )
 ;
 }
@@ -3284,7 +3282,6 @@ removeEventListener
 mozbrowsershowmodalprompt
 "
 modalHandler
-false
 )
 ;
 }

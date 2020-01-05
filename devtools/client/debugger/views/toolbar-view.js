@@ -629,7 +629,6 @@ mousedown
 this
 .
 _onTogglePanesActivated
-false
 )
 ;
 this
@@ -644,7 +643,6 @@ keydown
 this
 .
 _onTogglePanesPressed
-false
 )
 ;
 this
@@ -659,7 +657,6 @@ mousedown
 this
 .
 _onResumePressed
-false
 )
 ;
 this
@@ -674,7 +671,6 @@ mousedown
 this
 .
 _onStepOverPressed
-false
 )
 ;
 this
@@ -689,7 +685,6 @@ mousedown
 this
 .
 _onStepInPressed
-false
 )
 ;
 this
@@ -704,7 +699,6 @@ mousedown
 this
 .
 _onStepOutPressed
-false
 )
 ;
 this
@@ -809,7 +803,6 @@ mousedown
 this
 .
 _onTogglePanesActivated
-false
 )
 ;
 this
@@ -824,7 +817,6 @@ keydown
 this
 .
 _onTogglePanesPressed
-false
 )
 ;
 this
@@ -839,7 +831,6 @@ mousedown
 this
 .
 _onResumePressed
-false
 )
 ;
 this
@@ -854,7 +845,6 @@ mousedown
 this
 .
 _onStepOverPressed
-false
 )
 ;
 this
@@ -869,7 +859,6 @@ mousedown
 this
 .
 _onStepInPressed
-false
 )
 ;
 this
@@ -884,7 +873,6 @@ mousedown
 this
 .
 _onStepOutPressed
-false
 )
 ;
 }

@@ -1240,7 +1240,6 @@ addEventListener
 error
 "
 fail
-false
 )
 ;
 request
@@ -1251,7 +1250,6 @@ addEventListener
 abort
 "
 fail
-false
 )
 ;
 request
@@ -1262,7 +1260,6 @@ addEventListener
 timeout
 "
 fail
-false
 )
 ;
 request
@@ -1273,7 +1270,6 @@ addEventListener
 load
 "
 success
-false
 )
 ;
 logger

@@ -1466,7 +1466,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 DownloadsCommon
@@ -1528,7 +1527,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 DownloadsCommon

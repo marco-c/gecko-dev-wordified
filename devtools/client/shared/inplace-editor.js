@@ -1275,7 +1275,6 @@ stopPropagation
 ;
 }
 }
-false
 )
 ;
 /
@@ -1452,7 +1451,6 @@ removeEventListener
 mouseup
 "
 cleanup
-false
 )
 ;
 element
@@ -1463,7 +1461,6 @@ removeEventListener
 mouseout
 "
 cleanup
-false
 )
 ;
 }
@@ -1492,7 +1489,6 @@ addEventListener
 mouseup
 "
 cleanup
-false
 )
 ;
 element
@@ -1503,12 +1499,10 @@ addEventListener
 mouseout
 "
 cleanup
-false
 )
 ;
 }
 }
-false
 )
 ;
 /
@@ -2271,7 +2265,6 @@ blur
 this
 .
 _onBlur
-false
 )
 ;
 this
@@ -2286,7 +2279,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 this
@@ -2301,7 +2293,6 @@ input
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -2316,7 +2307,6 @@ dblclick
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2331,7 +2321,6 @@ click
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2346,7 +2335,6 @@ mousedown
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2361,7 +2349,6 @@ contextmenu
 this
 .
 _onContextMenu
-false
 )
 ;
 this
@@ -2378,7 +2365,6 @@ blur
 this
 .
 _onWindowBlur
-false
 )
 ;
 this
@@ -2408,7 +2394,6 @@ keyup
 this
 .
 _onKeyup
-false
 )
 ;
 }
@@ -2660,7 +2645,6 @@ blur
 this
 .
 _onBlur
-false
 )
 ;
 this
@@ -2675,7 +2659,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 this
@@ -2690,7 +2673,6 @@ keyup
 this
 .
 _onKeyup
-false
 )
 ;
 this
@@ -2705,7 +2687,6 @@ input
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -2720,7 +2701,6 @@ dblclick
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2735,7 +2715,6 @@ click
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2750,7 +2729,6 @@ mousedown
 this
 .
 _stopEventPropagation
-false
 )
 ;
 this
@@ -2765,7 +2743,6 @@ contextmenu
 this
 .
 _onContextMenu
-false
 )
 ;
 this
@@ -2782,7 +2759,6 @@ blur
 this
 .
 _onWindowBlur
-false
 )
 ;
 this

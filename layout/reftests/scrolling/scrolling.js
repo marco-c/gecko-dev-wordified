@@ -267,7 +267,6 @@ doScroll
 )
 ;
 }
-false
 )
 ;
 }
@@ -322,7 +321,6 @@ doScroll
 )
 ;
 }
-false
 )
 ;
 }

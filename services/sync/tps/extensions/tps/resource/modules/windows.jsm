@@ -263,7 +263,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 fn
@@ -274,7 +273,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

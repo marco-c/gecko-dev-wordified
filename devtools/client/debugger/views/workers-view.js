@@ -291,7 +291,6 @@ select
 this
 .
 _onWorkerSelect
-false
 )
 ;
 }

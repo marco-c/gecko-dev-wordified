@@ -457,7 +457,6 @@ removeEventListener
 message
 "
 loadListener
-false
 )
 ;
 client
@@ -519,7 +518,6 @@ break
 ;
 }
 }
-false
 )
 ;
 return

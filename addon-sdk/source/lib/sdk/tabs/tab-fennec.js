@@ -419,7 +419,6 @@ ready
 .
 dom
 onReady
-false
 )
 ;
 /
@@ -451,7 +450,6 @@ pageshow
 .
 dom
 onPageShow
-false
 )
 ;
 /
@@ -517,7 +515,6 @@ close
 .
 dom
 onClose
-false
 )
 ;
 unload
@@ -1351,7 +1348,6 @@ dom
 tabInternals
 .
 onReady
-false
 )
 ;
 tabInternals
@@ -1370,7 +1366,6 @@ dom
 tabInternals
 .
 onPageShow
-false
 )
 ;
 tabInternals
@@ -1429,7 +1424,6 @@ dom
 tabInternals
 .
 onClose
-false
 )
 ;
 tabInternals

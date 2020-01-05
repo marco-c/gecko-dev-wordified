@@ -721,7 +721,6 @@ addEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 yield
@@ -740,7 +739,6 @@ removeEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 ok
@@ -2824,7 +2822,6 @@ addEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 promise
@@ -2914,7 +2911,6 @@ removeEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 textbox
@@ -3133,7 +3129,6 @@ addEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 promise
@@ -3223,7 +3218,6 @@ removeEventListener
 popupshowing
 "
 listener
-false
 )
 ;
 textbox

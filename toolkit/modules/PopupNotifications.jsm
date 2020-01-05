@@ -1716,7 +1716,6 @@ removeEventListener
 click
 "
 this
-false
 )
 ;
 this
@@ -1729,7 +1728,6 @@ removeEventListener
 keypress
 "
 this
-false
 )
 ;
 }
@@ -1752,7 +1750,6 @@ addEventListener
 click
 "
 this
-false
 )
 ;
 iconBox
@@ -1763,7 +1760,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 }

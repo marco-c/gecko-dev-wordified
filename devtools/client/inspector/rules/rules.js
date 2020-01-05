@@ -6810,7 +6810,6 @@ showPseudoElements
 )
 ;
 }
-false
 )
 ;
 twisty
@@ -6839,7 +6838,6 @@ showPseudoElements
 )
 ;
 }
-false
 )
 ;
 if

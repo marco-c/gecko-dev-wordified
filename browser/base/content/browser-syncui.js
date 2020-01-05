@@ -540,7 +540,6 @@ removeEventListener
 unload
 "
 onUnload
-false
 )
 ;
 Services
@@ -608,7 +607,6 @@ topic
 ;
 }
 }
-false
 )
 ;
 }

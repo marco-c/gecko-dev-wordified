@@ -590,7 +590,6 @@ contentFrame
 )
 ;
 }
-false
 )
 ;
 frames

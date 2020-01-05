@@ -1190,6 +1190,5 @@ addEventListener
 DOMContentLoaded
 "
 init
-false
 )
 ;

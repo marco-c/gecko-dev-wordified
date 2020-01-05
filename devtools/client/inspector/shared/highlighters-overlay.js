@@ -498,7 +498,6 @@ mousemove
 this
 .
 onMouseMove
-false
 )
 ;
 el
@@ -511,7 +510,6 @@ mouseout
 this
 .
 onMouseOut
-false
 )
 ;
 el
@@ -528,7 +526,6 @@ mouseout
 this
 .
 onMouseOut
-false
 )
 ;
 this
@@ -652,7 +649,6 @@ mousemove
 this
 .
 onMouseMove
-false
 )
 ;
 el
@@ -665,7 +661,6 @@ mouseout
 this
 .
 onMouseOut
-false
 )
 ;
 this

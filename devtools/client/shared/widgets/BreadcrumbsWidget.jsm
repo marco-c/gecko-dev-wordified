@@ -417,7 +417,6 @@ keyPress
 "
 e
 )
-false
 )
 ;
 this
@@ -441,7 +440,6 @@ mousePress
 "
 e
 )
-false
 )
 ;
 this
@@ -513,7 +511,6 @@ bind
 (
 this
 )
-false
 )
 ;
 this
@@ -533,7 +530,6 @@ bind
 (
 this
 )
-false
 )
 ;
 /

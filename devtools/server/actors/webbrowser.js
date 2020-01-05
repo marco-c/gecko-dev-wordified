@@ -4471,7 +4471,6 @@ removeEventListener
 load
 "
 handleLoad
-false
 )
 ;
 if
@@ -4514,7 +4513,6 @@ addEventListener
 TabOpen
 "
 this
-false
 )
 ;
 window
@@ -4525,7 +4523,6 @@ addEventListener
 TabSelect
 "
 this
-false
 )
 ;
 window
@@ -4536,7 +4533,6 @@ addEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 }
@@ -4555,7 +4551,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 window
@@ -4566,7 +4561,6 @@ addEventListener
 TabRemotenessChange
 "
 this
-false
 )
 ;
 }
@@ -4723,7 +4717,6 @@ addEventListener
 load
 "
 handleLoad
-false
 )
 ;
 }

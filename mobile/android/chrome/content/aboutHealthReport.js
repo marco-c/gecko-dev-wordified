@@ -345,7 +345,6 @@ load
 healthReportWrapper
 .
 initRemotePage
-false
 )
 ;
 let
@@ -1180,7 +1179,6 @@ e
 )
 ;
 }
-false
 )
 ;
 healthReportWrapper
@@ -1283,7 +1281,6 @@ bind
 (
 healthReportWrapper
 )
-false
 )
 ;
 window
@@ -1301,6 +1298,5 @@ bind
 (
 healthReportWrapper
 )
-false
 )
 ;

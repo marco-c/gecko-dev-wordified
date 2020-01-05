@@ -316,7 +316,6 @@ removeEventListener
 TabOpen
 "
 onOpen
-false
 )
 ;
 ok
@@ -351,7 +350,6 @@ removeEventListener
 DOMContentLoaded
 "
 onTabLoad
-false
 )
 ;
 /
@@ -375,11 +373,9 @@ spec
 )
 ;
 }
-false
 )
 ;
 }
-false
 )
 ;
 }

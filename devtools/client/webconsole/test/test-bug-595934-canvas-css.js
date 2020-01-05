@@ -118,6 +118,5 @@ foobarCanvasCssParser
 "
 ;
 }
-false
 )
 ;

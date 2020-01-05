@@ -162,7 +162,6 @@ removeEventListener
 load
 "
 newWindowHandler
-false
 )
 ;
 is
@@ -215,7 +214,6 @@ windowWasHandled
 true
 ;
 }
-false
 )
 ;
 }

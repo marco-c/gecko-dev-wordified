@@ -696,7 +696,6 @@ addEventListener
 dialogaccept
 "
 allowInstall
-false
 )
 ;
 }

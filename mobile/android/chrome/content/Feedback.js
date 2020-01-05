@@ -277,7 +277,6 @@ removeEventListener
 DOMContentLoaded
 "
 loadListener
-false
 )
 ;
 browser
@@ -304,7 +303,6 @@ addEventListener
 DOMContentLoaded
 "
 loadListener
-false
 )
 ;
 }

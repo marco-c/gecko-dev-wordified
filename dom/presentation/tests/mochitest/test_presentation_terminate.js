@@ -560,7 +560,6 @@ receiverListener
 ;
 }
 }
-false
 )
 ;
 var

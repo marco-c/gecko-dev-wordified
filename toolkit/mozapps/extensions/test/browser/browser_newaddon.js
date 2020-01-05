@@ -106,7 +106,6 @@ AddonDisplayed
 arguments
 .
 callee
-false
 )
 ;
 aCallback

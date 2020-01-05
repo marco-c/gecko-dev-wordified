@@ -556,7 +556,6 @@ pointerId
 )
 ;
 }
-false
 )
 ;
 }

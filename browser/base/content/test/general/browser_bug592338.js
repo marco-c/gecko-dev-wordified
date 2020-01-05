@@ -120,7 +120,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 aCallback
@@ -131,7 +130,6 @@ panel
 )
 ;
 }
-false
 )
 ;
 }
@@ -271,7 +269,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -355,7 +352,6 @@ runNextTest
 )
 ;
 }
-false
 )
 ;
 }
@@ -491,7 +487,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 BrowserTestUtils
@@ -615,7 +610,6 @@ runNextTest
 )
 ;
 }
-false
 )
 ;
 }
@@ -806,7 +800,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -986,7 +979,6 @@ selectedBrowser
 )
 ;
 }
-false
 )
 ;
 }

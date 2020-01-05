@@ -294767,7 +294767,6 @@ onGutterContextMenu
 (
 event
 )
-false
 )
 ;
 }

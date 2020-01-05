@@ -495,7 +495,6 @@ of
 +
 test
 )
-false
 )
 ;
 xhr

@@ -382,7 +382,6 @@ keyPress
 "
 e
 )
-false
 )
 ;
 this
@@ -406,7 +405,6 @@ mousePress
 "
 e
 )
-false
 )
 ;
 this

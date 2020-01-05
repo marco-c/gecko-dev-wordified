@@ -5511,7 +5511,6 @@ addEventListener
 (
 type
 handler
-false
 )
 ;
 return
@@ -5600,7 +5599,6 @@ removeEventListener
 (
 type
 eventHandler
-false
 )
 ;
 let

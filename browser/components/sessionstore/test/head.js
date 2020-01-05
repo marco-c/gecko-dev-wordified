@@ -1072,7 +1072,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -1141,7 +1140,6 @@ true
 )
 ;
 }
-false
 )
 ;
 }
@@ -1993,7 +1991,6 @@ removeEventListener
 load
 "
 windowLoadListener
-false
 )
 ;
 executeSoon
@@ -2012,7 +2009,6 @@ aWindow
 )
 ;
 }
-false
 )
 ;
 }

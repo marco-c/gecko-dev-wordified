@@ -138,7 +138,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -223,7 +222,6 @@ message
 ;
 }
 }
-false
 )
 ;
 }

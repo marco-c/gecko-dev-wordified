@@ -19597,7 +19597,6 @@ mouseover
 this
 .
 highlightDomNode
-false
 )
 ;
 this
@@ -19625,7 +19624,6 @@ mouseout
 this
 .
 unhighlightDomNode
-false
 )
 ;
 this
@@ -20065,7 +20063,6 @@ mouseover
 this
 .
 highlightDomNode
-false
 )
 ;
 this
@@ -20080,7 +20077,6 @@ mouseout
 this
 .
 unhighlightDomNode
-false
 )
 ;
 this

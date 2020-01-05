@@ -871,7 +871,6 @@ removeEventListener
 DOMContentLoaded
 "
 onReady
-false
 )
 ;
 /
@@ -1005,7 +1004,6 @@ addEventListener
 DOMContentLoaded
 "
 onReady
-false
 )
 ;
 }

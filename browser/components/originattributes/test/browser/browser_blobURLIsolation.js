@@ -401,7 +401,6 @@ removeEventListener
 message
 "
 listenFunction
-false
 )
 ;
 worker
@@ -427,7 +426,6 @@ addEventListener
 message
 "
 listenFunction
-false
 )
 ;
 }

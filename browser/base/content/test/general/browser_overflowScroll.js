@@ -343,7 +343,6 @@ addEventListener
 overflow
 "
 runOverflowTests
-false
 )
 ;
 }
@@ -380,7 +379,6 @@ removeEventListener
 overflow
 "
 runOverflowTests
-false
 )
 ;
 var

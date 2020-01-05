@@ -1477,7 +1477,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 currentBrowser
@@ -1557,7 +1556,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 this

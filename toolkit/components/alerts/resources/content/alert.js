@@ -1470,7 +1470,6 @@ removeEventListener
 animationend
 "
 hideAlert
-false
 )
 ;
 window
@@ -1481,7 +1480,6 @@ close
 ;
 }
 }
-false
 )
 ;
 alertBox

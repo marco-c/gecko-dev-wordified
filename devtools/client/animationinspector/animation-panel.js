@@ -960,7 +960,6 @@ keydown
 this
 .
 onKeyDown
-false
 )
 ;
 gToolbox
@@ -1132,7 +1131,6 @@ keydown
 this
 .
 onKeyDown
-false
 )
 ;
 gToolbox

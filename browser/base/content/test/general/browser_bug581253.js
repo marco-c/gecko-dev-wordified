@@ -346,7 +346,6 @@ addEventListener
 popupshown
 "
 onPanelShown
-false
 )
 ;
 BookmarkingUI
@@ -388,7 +387,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 let
@@ -436,7 +434,6 @@ addEventListener
 popuphidden
 "
 onPanelHidden
-false
 )
 ;
 let
@@ -489,7 +486,6 @@ popuphidden
 arguments
 .
 callee
-false
 )
 ;
 executeSoon

@@ -1218,7 +1218,6 @@ overflow
 this
 .
 _onTabBoxOverflow
-false
 )
 ;
 tabs
@@ -1231,7 +1230,6 @@ underflow
 this
 .
 _onTabBoxUnderflow
-false
 )
 ;
 /
@@ -1340,7 +1338,6 @@ overflow
 this
 .
 _onTabBoxOverflow
-false
 )
 ;
 tabs
@@ -1353,7 +1350,6 @@ underflow
 this
 .
 _onTabBoxUnderflow
-false
 )
 ;
 /
@@ -1681,7 +1677,6 @@ selectedTab
 tab
 ;
 }
-false
 )
 ;
 tab

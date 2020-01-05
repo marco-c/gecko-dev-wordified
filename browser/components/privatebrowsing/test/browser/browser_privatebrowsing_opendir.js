@@ -124,7 +124,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 windowsToClose
@@ -140,7 +139,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

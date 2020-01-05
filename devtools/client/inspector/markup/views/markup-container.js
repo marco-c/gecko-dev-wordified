@@ -496,7 +496,6 @@ mousedown
 this
 .
 _onMouseDown
-false
 )
 ;
 this
@@ -541,7 +540,6 @@ dblclick
 this
 .
 _onToggle
-false
 )
 ;
 if
@@ -563,7 +561,6 @@ click
 this
 .
 _onToggle
-false
 )
 ;
 }
@@ -4551,7 +4548,6 @@ mousedown
 this
 .
 _onMouseDown
-false
 )
 ;
 this
@@ -4566,7 +4562,6 @@ dblclick
 this
 .
 _onToggle
-false
 )
 ;
 this
@@ -4653,7 +4648,6 @@ click
 this
 .
 _onToggle
-false
 )
 ;
 }

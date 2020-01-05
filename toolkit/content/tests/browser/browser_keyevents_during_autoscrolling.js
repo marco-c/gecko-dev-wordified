@@ -373,7 +373,6 @@ addEventListener
 keydown
 "
 onKey
-false
 )
 ;
 window
@@ -384,7 +383,6 @@ addEventListener
 keypress
 "
 onKey
-false
 )
 ;
 window
@@ -395,7 +393,6 @@ addEventListener
 keyup
 "
 onKey
-false
 )
 ;
 /
@@ -629,7 +626,6 @@ removeEventListener
 keydown
 "
 onKey
-false
 )
 ;
 window
@@ -640,7 +636,6 @@ removeEventListener
 keypress
 "
 onKey
-false
 )
 ;
 window
@@ -651,7 +646,6 @@ removeEventListener
 keyup
 "
 onKey
-false
 )
 ;
 /

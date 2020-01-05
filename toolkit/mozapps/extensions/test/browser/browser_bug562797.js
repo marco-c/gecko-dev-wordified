@@ -2824,7 +2824,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -2917,7 +2916,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -3012,7 +3010,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -3105,7 +3102,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -3154,28 +3150,24 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }
 )
 ;
 }
-false
 )
 ;
 }
 )
 ;
 }
-false
 )
 ;
 }
 )
 ;
 }
-false
 )
 ;
 }
@@ -4002,7 +3994,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -4095,7 +4086,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -4200,14 +4190,12 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }
 )
 ;
 }
-false
 )
 ;
 }
@@ -4401,7 +4389,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -4490,7 +4477,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }
@@ -4665,7 +4651,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 wait_for_view_load
@@ -4754,7 +4739,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }

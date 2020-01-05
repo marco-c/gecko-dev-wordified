@@ -630,7 +630,6 @@ addEventListener
 load
 "
 onpageloaded
-false
 )
 ;
 }

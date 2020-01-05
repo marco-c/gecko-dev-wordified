@@ -732,7 +732,6 @@ observe
 )
 ;
 }
-false
 )
 ;
 function

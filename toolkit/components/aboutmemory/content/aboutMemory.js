@@ -11170,7 +11170,6 @@ preventDefault
 )
 ;
 }
-false
 )
 ;
 /

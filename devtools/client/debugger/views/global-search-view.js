@@ -3115,7 +3115,6 @@ click
 aCallbacks
 .
 onHeaderClick
-false
 )
 ;
 let
@@ -3897,7 +3896,6 @@ click
 aCallbacks
 .
 onMatchClick
-false
 )
 ;
 firstMatch
@@ -3952,7 +3950,6 @@ click
 aCallbacks
 .
 onLineClick
-false
 )
 ;
 let

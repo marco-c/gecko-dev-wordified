@@ -514,7 +514,6 @@ removeEventListener
 unload
 "
 onUnload
-false
 )
 ;
 try
@@ -575,7 +574,6 @@ removeEventListener
 unload
 "
 onUnload
-false
 )
 ;
 this
@@ -616,7 +614,6 @@ addEventListener
 unload
 "
 onUnload
-false
 )
 ;
 xps
@@ -952,7 +949,6 @@ gSyncPane
 )
 ;
 }
-false
 )
 ;
 XPCOMUtils

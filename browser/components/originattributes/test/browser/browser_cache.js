@@ -1377,7 +1377,6 @@ addEventListener
 load
 "
 trackListener
-false
 )
 ;
 audio
@@ -1388,7 +1387,6 @@ addEventListener
 canplaythrough
 "
 audioListener
-false
 )
 ;
 /
@@ -1554,7 +1552,6 @@ addEventListener
 canplaythrough
 "
 listener
-false
 )
 ;
 /

@@ -2594,7 +2594,6 @@ click
 this
 .
 _disableJSClicked
-false
 )
 ;
 }

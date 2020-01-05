@@ -695,7 +695,6 @@ addEventListener
 play
 "
 testPlay
-false
 )
 ;
 }
@@ -713,7 +712,6 @@ removeEventListener
 play
 "
 testPlay
-false
 )
 ;
 let
@@ -785,7 +783,6 @@ addEventListener
 pause
 "
 testPause
-false
 )
 ;
 }
@@ -807,7 +804,6 @@ removeEventListener
 pause
 "
 testPause
-false
 )
 ;
 /

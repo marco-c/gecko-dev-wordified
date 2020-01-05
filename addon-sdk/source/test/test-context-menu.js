@@ -2141,7 +2141,6 @@ removeEventListener
 TabOpen
 "
 tablistener
-false
 )
 ;
 let
@@ -2311,7 +2310,6 @@ addEventListener
 TabOpen
 "
 tablistener
-false
 )
 ;
 }

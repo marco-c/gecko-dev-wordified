@@ -560,7 +560,6 @@ addEventListener
 message
 "
 handleMessageEvents
-false
 )
 ;
 }

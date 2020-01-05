@@ -3820,7 +3820,6 @@ addEventListener
 TabSelect
 "
 this
-false
 )
 ;
 tabContainer
@@ -3831,7 +3830,6 @@ addEventListener
 TabOpen
 "
 this
-false
 )
 ;
 tabContainer
@@ -3842,7 +3840,6 @@ addEventListener
 TabClose
 "
 this
-false
 )
 ;
 tabContainer
@@ -3853,7 +3850,6 @@ addEventListener
 TabPinned
 "
 this
-false
 )
 ;
 tabContainer
@@ -3864,7 +3860,6 @@ addEventListener
 TabUnpinned
 "
 this
-false
 )
 ;
 }
@@ -5100,7 +5095,6 @@ removeEventListener
 TabSelect
 "
 this
-false
 )
 ;
 tabContainer
@@ -5111,7 +5105,6 @@ removeEventListener
 TabOpen
 "
 this
-false
 )
 ;
 tabContainer
@@ -5122,7 +5115,6 @@ removeEventListener
 TabClose
 "
 this
-false
 )
 ;
 tabContainer
@@ -5133,7 +5125,6 @@ removeEventListener
 TabPinned
 "
 this
-false
 )
 ;
 tabContainer
@@ -5144,7 +5135,6 @@ removeEventListener
 TabUnpinned
 "
 this
-false
 )
 ;
 }

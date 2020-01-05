@@ -2787,7 +2787,6 @@ bind
 (
 this
 )
-false
 )
 ;
 xhr

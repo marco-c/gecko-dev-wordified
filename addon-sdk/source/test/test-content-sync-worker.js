@@ -5650,7 +5650,6 @@ removeEventListener
 pagehide
 "
 onpagehide
-false
 )
 ;
 /
@@ -5879,7 +5878,6 @@ goForward
 )
 ;
 }
-false
 )
 ;
 }

@@ -2410,7 +2410,6 @@ cleanup
 ;
 }
 }
-false
 )
 ;
 let

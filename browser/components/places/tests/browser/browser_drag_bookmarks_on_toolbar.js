@@ -542,7 +542,6 @@ dragstart
 arguments
 .
 callee
-false
 )
 ;
 /
@@ -583,7 +582,6 @@ addEventListener
 click
 "
 prevent
-false
 )
 ;
 EventUtils
@@ -622,7 +620,6 @@ removeEventListener
 click
 "
 prevent
-false
 )
 ;
 /
@@ -658,7 +655,6 @@ aCallback
 (
 )
 }
-false
 )
 ;
 var

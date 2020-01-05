@@ -253,7 +253,6 @@ msg
 ;
 }
 }
-false
 )
 ;
 worker

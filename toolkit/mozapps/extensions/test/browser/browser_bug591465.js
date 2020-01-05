@@ -949,7 +949,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -972,7 +971,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1096,7 +1094,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1119,7 +1116,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1244,7 +1240,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1267,7 +1262,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1371,7 +1365,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1394,7 +1387,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1519,7 +1511,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1542,7 +1533,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1648,7 +1638,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1671,7 +1660,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1780,7 +1768,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1803,7 +1790,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -1913,7 +1899,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -1936,7 +1921,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2057,7 +2041,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2080,7 +2063,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2220,7 +2202,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2269,7 +2250,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2403,7 +2383,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2426,7 +2405,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2559,7 +2537,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2582,7 +2559,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2715,7 +2691,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2738,7 +2713,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -2871,7 +2845,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -2894,7 +2867,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -3027,7 +2999,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -3050,7 +3021,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -3291,7 +3261,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -3314,7 +3283,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info
@@ -3434,7 +3402,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 check_contextmenu
@@ -3499,7 +3466,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 info

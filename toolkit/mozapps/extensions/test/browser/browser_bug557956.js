@@ -849,7 +849,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 info
@@ -901,7 +900,6 @@ addEventListener
 pageshow
 "
 page_shown
-false
 )
 ;
 win
@@ -925,7 +923,6 @@ unload
 arguments
 .
 callee
-false
 )
 ;
 win
@@ -936,7 +933,6 @@ removeEventListener
 pageshow
 "
 page_shown
-false
 )
 ;
 info
@@ -949,7 +945,6 @@ closed
 )
 ;
 }
-false
 )
 ;
 aCallback
@@ -958,7 +953,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }
@@ -990,7 +984,6 @@ unload
 arguments
 .
 callee
-false
 )
 ;
 aCallback
@@ -998,7 +991,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 }
@@ -1043,7 +1035,6 @@ pageshow
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -1061,7 +1052,6 @@ aWindow
 )
 ;
 }
-false
 )
 ;
 }

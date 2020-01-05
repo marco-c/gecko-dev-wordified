@@ -981,7 +981,6 @@ removeEventListener
 SSTabRestoring
 "
 onSSTabRestoring
-false
 )
 ;
 gBrowser
@@ -1007,7 +1006,6 @@ removeEventListener
 TabOpen
 "
 onTabOpen
-false
 )
 ;
 /
@@ -1104,7 +1102,6 @@ addEventListener
 SSTabRestoring
 "
 onSSTabRestoring
-false
 )
 ;
 gBrowser
@@ -1130,7 +1127,6 @@ addEventListener
 TabOpen
 "
 onTabOpen
-false
 )
 ;
 /

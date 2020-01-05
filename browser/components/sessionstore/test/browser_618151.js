@@ -367,7 +367,6 @@ removeEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 runNextTest
@@ -385,7 +384,6 @@ addEventListener
 SSTabRestored
 "
 onSSTabRestored
-false
 )
 ;
 ss

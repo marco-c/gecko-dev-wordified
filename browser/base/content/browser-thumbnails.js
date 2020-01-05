@@ -237,7 +237,6 @@ addEventListener
 (
 aEvent
 this
-false
 )
 ;
 }
@@ -306,7 +305,6 @@ removeEventListener
 (
 aEvent
 this
-false
 )
 ;
 }
@@ -769,7 +767,6 @@ removeEventListener
 scroll
 "
 this
-false
 )
 ;
 clearTimeout

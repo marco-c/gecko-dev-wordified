@@ -871,7 +871,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 /
@@ -1019,7 +1018,6 @@ iframe
 )
 ;
 }
-false
 )
 ;
 }

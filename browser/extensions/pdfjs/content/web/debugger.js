@@ -3030,7 +3030,6 @@ removeEventListener
 keydown
 '
 listener
-false
 )
 ;
 self
@@ -3071,7 +3070,6 @@ removeEventListener
 keydown
 '
 listener
-false
 )
 ;
 var
@@ -3114,7 +3112,6 @@ addEventListener
 keydown
 '
 listener
-false
 )
 ;
 self

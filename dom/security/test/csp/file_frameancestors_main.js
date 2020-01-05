@@ -1008,6 +1008,5 @@ addEventListener
 load
 '
 setupFrames
-false
 )
 ;

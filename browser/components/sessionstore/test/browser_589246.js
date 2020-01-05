@@ -1171,7 +1171,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 promiseBrowserLoaded
@@ -1233,7 +1232,6 @@ unload
 arguments
 .
 callee
-false
 )
 ;
 onWindowUnloaded
@@ -1241,7 +1239,6 @@ onWindowUnloaded
 )
 ;
 }
-false
 )
 ;
 /
@@ -1435,7 +1432,6 @@ BrowserTryToCloseWindow
 )
 ;
 }
-false
 )
 ;
 }
@@ -1664,7 +1660,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 newWin
@@ -1727,7 +1722,6 @@ true
 )
 ;
 }
-false
 )
 ;
 }

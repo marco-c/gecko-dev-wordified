@@ -1520,7 +1520,6 @@ select
 this
 .
 _onProgramSelect
-false
 )
 ;
 this
@@ -1535,7 +1534,6 @@ check
 this
 .
 _onProgramCheck
-false
 )
 ;
 this
@@ -1602,7 +1600,6 @@ select
 this
 .
 _onProgramSelect
-false
 )
 ;
 this
@@ -1617,7 +1614,6 @@ check
 this
 .
 _onProgramCheck
-false
 )
 ;
 this

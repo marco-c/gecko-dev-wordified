@@ -244,7 +244,6 @@ chromeGlobal
 )
 ;
 }
-false
 )
 ;
 chromeGlobal
@@ -269,7 +268,6 @@ chromeGlobal
 )
 ;
 }
-false
 )
 ;
 }

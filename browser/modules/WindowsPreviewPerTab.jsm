@@ -1357,7 +1357,6 @@ addEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 XPCOMUtils
@@ -1428,7 +1427,6 @@ removeEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 /
@@ -2594,7 +2592,6 @@ tabEvents
 i
 ]
 this
-false
 )
 ;
 for
@@ -2629,7 +2626,6 @@ winEvents
 i
 ]
 this
-false
 )
 ;
 this
@@ -2796,7 +2792,6 @@ winEvents
 i
 ]
 this
-false
 )
 ;
 for
@@ -2833,7 +2828,6 @@ tabEvents
 i
 ]
 this
-false
 )
 ;
 for

@@ -211,7 +211,6 @@ removeEventListener
 PageLoaded
 "
 page_loaded
-false
 )
 ;
 resolve
@@ -253,7 +252,6 @@ addEventListener
 InstallTriggered
 "
 page_loaded
-false
 )
 ;
 }

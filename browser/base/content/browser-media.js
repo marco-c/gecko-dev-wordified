@@ -2804,6 +2804,5 @@ gDecoderDoctorHandler
 )
 ;
 }
-false
 )
 ;

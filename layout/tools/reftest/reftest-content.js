@@ -3224,7 +3224,6 @@ removeEventListener
 DOMAttrModified
 "
 AttrModifiedListener
-false
 )
 ;
 }
@@ -4296,7 +4295,6 @@ addEventListener
 DOMAttrModified
 "
 AttrModifiedListener
-false
 )
 ;
 }

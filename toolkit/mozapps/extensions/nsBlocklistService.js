@@ -4505,7 +4505,6 @@ onXMLError
 (
 event
 )
-false
 )
 ;
 request
@@ -4524,7 +4523,6 @@ onXMLLoad
 (
 event
 )
-false
 )
 ;
 request
@@ -10651,7 +10649,6 @@ addEventListener
 unload
 "
 blocklistUnloadHandler
-false
 )
 ;
 }

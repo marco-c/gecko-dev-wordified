@@ -1269,7 +1269,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 /
@@ -1548,7 +1547,6 @@ unload
 this
 .
 onWindowUnload
-false
 )
 ;
 /
@@ -3452,7 +3450,6 @@ addEventListener
 keydown
 "
 this
-false
 )
 ;
 /
@@ -3488,7 +3485,6 @@ addEventListener
 keypress
 "
 this
-false
 )
 ;
 /
@@ -3509,7 +3505,6 @@ addEventListener
 popupshown
 "
 this
-false
 )
 ;
 }
@@ -3551,7 +3546,6 @@ removeEventListener
 keydown
 "
 this
-false
 )
 ;
 this
@@ -3564,7 +3558,6 @@ removeEventListener
 keypress
 "
 this
-false
 )
 ;
 this
@@ -3577,7 +3570,6 @@ removeEventListener
 popupshown
 "
 this
-false
 )
 ;
 }

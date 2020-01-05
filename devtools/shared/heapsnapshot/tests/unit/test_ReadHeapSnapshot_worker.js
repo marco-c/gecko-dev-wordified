@@ -245,7 +245,6 @@ removeEventListener
 message
 "
 listener
-false
 )
 ;
 resolve
@@ -254,7 +253,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }

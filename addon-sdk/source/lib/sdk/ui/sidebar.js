@@ -865,7 +865,6 @@ self
 )
 ;
 }
-false
 )
 ;
 function
@@ -1130,7 +1129,6 @@ removeEventListener
 DOMContentLoaded
 '
 onWebPanelSidebarReady
-false
 )
 ;
 windowNS
@@ -1171,7 +1169,6 @@ addEventListener
 DOMContentLoaded
 '
 onWebPanelSidebarReady
-false
 )
 ;
 function
@@ -1533,7 +1530,6 @@ window
 )
 .
 onWebPanelSidebarReady
-false
 )
 ;
 windowNS

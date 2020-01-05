@@ -1087,7 +1087,6 @@ addEventListener
 mousedown
 "
 nonCapturingHandler
-false
 )
 ;
 const
@@ -1248,7 +1247,6 @@ removeEventListener
 mousedown
 "
 nonCapturingHandler
-false
 )
 ;
 removeTab

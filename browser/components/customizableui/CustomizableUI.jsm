@@ -9494,7 +9494,6 @@ addEventListener
 command
 "
 commandHandler
-false
 )
 ;
 let
@@ -9519,7 +9518,6 @@ addEventListener
 click
 "
 clickHandler
-false
 )
 ;
 /
@@ -9681,7 +9679,6 @@ aWidget
 [
 handler
 ]
-false
 )
 ;
 }
@@ -16954,7 +16951,6 @@ widget
 [
 handler
 ]
-false
 )
 ;
 }

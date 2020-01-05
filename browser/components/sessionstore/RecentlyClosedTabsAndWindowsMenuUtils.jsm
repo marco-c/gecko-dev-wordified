@@ -1344,7 +1344,6 @@ click
 RecentlyClosedTabsAndWindowsMenuUtils
 .
 _undoCloseMiddleClick
-false
 )
 ;
 }

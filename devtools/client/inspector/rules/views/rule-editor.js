@@ -1192,7 +1192,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 editableField
@@ -1581,7 +1580,6 @@ _ruleViewIsEditing
 false
 ;
 }
-false
 )
 ;
 this
@@ -1609,7 +1607,6 @@ focus
 )
 ;
 }
-false
 )
 ;
 /
@@ -3434,7 +3431,6 @@ rule
 .
 cssProperties
 )
-false
 )
 ;
 }

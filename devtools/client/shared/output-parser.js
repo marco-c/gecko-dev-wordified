@@ -2482,7 +2482,6 @@ mousedown
 this
 .
 _onAngleSwatchMouseDown
-false
 )
 ;
 /
@@ -2573,7 +2572,6 @@ stopPropagation
 ;
 }
 }
-false
 )
 ;
 EventEmitter
@@ -2919,7 +2917,6 @@ mousedown
 this
 .
 _onColorSwatchMouseDown
-false
 )
 ;
 EventEmitter

@@ -3779,7 +3779,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -3808,7 +3807,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }
@@ -5149,7 +5147,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 is
@@ -5178,7 +5175,6 @@ run_next_test
 )
 ;
 }
-false
 )
 ;
 }

@@ -271,7 +271,6 @@ addEventListener
 DOMContentLoaded
 "
 onDOMReady
-false
 )
 ;
 function

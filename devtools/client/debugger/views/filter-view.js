@@ -654,7 +654,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 this
@@ -669,7 +668,6 @@ select
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -684,7 +682,6 @@ input
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -699,7 +696,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 this
@@ -714,7 +710,6 @@ blur
 this
 .
 _onBlur
-false
 )
 ;
 let
@@ -1001,7 +996,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 this
@@ -1016,7 +1010,6 @@ select
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -1031,7 +1024,6 @@ input
 this
 .
 _onInput
-false
 )
 ;
 this
@@ -1046,7 +1038,6 @@ keypress
 this
 .
 _onKeyPress
-false
 )
 ;
 this
@@ -1061,7 +1052,6 @@ blur
 this
 .
 _onBlur
-false
 )
 ;
 this
@@ -3952,7 +3942,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -3967,7 +3956,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 }
@@ -4013,7 +4001,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -4028,7 +4015,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 this
@@ -4939,7 +4925,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -4954,7 +4939,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 }
@@ -5000,7 +4984,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 this
@@ -5015,7 +4998,6 @@ click
 this
 .
 _onClick
-false
 )
 ;
 this

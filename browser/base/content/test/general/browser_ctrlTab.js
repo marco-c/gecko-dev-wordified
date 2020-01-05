@@ -577,7 +577,6 @@ addEventListener
 keypress
 "
 detectKeyEvent
-false
 )
 ;
 yield
@@ -593,7 +592,6 @@ removeEventListener
 keypress
 "
 detectKeyEvent
-false
 )
 ;
 ok

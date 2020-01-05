@@ -198,7 +198,6 @@ DOMUpdatePageReport
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -294,7 +293,6 @@ popupshown
 arguments
 .
 callee
-false
 )
 ;
 if
@@ -372,7 +370,6 @@ n
 )
 ;
 }
-false
 )
 ;
 dump
@@ -417,7 +414,6 @@ doCommand
 )
 ;
 }
-false
 )
 ;
 aWindow

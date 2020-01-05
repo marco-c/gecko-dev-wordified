@@ -1298,7 +1298,6 @@ removeEventListener
 load
 "
 _load
-false
 )
 ;
 domwindow
@@ -1321,7 +1320,6 @@ removeEventListener
 unload
 "
 _unload
-false
 )
 ;
 info
@@ -1348,7 +1346,6 @@ next
 )
 ;
 }
-false
 )
 ;
 is
@@ -1449,7 +1446,6 @@ doCommand
 )
 ;
 }
-false
 )
 ;
 }

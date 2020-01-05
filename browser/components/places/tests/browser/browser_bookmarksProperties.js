@@ -2420,7 +2420,6 @@ DOMAttrModified
 arguments
 .
 callee
-false
 )
 ;
 executeSoon
@@ -2552,7 +2551,6 @@ cancelDialog
 )
 ;
 }
-false
 )
 ;
 foldersExpander

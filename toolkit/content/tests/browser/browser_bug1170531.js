@@ -111,7 +111,6 @@ removeEventListener
 popuphidden
 "
 onPopupHidden
-false
 )
 ;
 executeSoon
@@ -120,7 +119,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 executeSoon
@@ -250,7 +248,6 @@ removeEventListener
 popupshown
 "
 onPopupShown
-false
 )
 ;
 executeSoon
@@ -259,7 +256,6 @@ aCallback
 )
 ;
 }
-false
 )
 ;
 executeSoon

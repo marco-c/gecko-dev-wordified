@@ -476,7 +476,6 @@ click
 this
 .
 hide
-false
 )
 ;
 this
@@ -489,7 +488,6 @@ addEventListener
 click
 "
 stopPropagation
-false
 )
 ;
 this
@@ -1131,7 +1129,6 @@ click
 this
 .
 hide
-false
 )
 ;
 this
@@ -1144,7 +1141,6 @@ removeEventListener
 click
 "
 stopPropagation
-false
 )
 ;
 this

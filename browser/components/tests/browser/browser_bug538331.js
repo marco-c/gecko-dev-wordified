@@ -1244,7 +1244,6 @@ load
 arguments
 .
 callee
-false
 )
 ;
 gWindowCatcher
@@ -1255,7 +1254,6 @@ win
 )
 ;
 }
-false
 )
 ;
 }

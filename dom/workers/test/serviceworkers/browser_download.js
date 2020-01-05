@@ -273,7 +273,6 @@ removeEventListener
 load
 '
 onLoadWindow
-false
 )
 ;
 if
@@ -346,7 +345,6 @@ acceptDialog
 ;
 }
 }
-false
 )
 ;
 }

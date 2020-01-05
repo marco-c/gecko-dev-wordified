@@ -259,7 +259,6 @@ removeEventListener
 load
 "
 listener
-false
 )
 ;
 if
@@ -294,7 +293,6 @@ win
 ;
 }
 }
-false
 )
 ;
 }

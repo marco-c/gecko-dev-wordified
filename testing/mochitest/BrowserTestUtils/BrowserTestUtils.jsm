@@ -6773,7 +6773,6 @@ removeEventListener
 AboutTabCrashedReady
 "
 onCrash
-false
 )
 ;
 dump

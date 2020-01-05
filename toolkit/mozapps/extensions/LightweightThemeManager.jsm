@@ -1706,7 +1706,6 @@ currentTheme
 newData
 ;
 }
-false
 )
 ;
 req

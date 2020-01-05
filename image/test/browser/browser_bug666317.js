@@ -346,7 +346,6 @@ removeEventListener
 message
 '
 handlePostMessage
-false
 )
 ;
 aCallback
@@ -363,7 +362,6 @@ addEventListener
 message
 '
 handlePostMessage
-false
 )
 ;
 /

@@ -246,7 +246,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 if
@@ -317,7 +316,6 @@ state
 ;
 }
 }
-false
 )
 ;
 }

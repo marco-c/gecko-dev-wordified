@@ -590,7 +590,6 @@ _showContextMenu
 (
 e
 )
-false
 )
 ;
 this
@@ -614,7 +613,6 @@ keyPress
 "
 e
 )
-false
 )
 ;
 this
@@ -638,7 +636,6 @@ mousePress
 "
 e
 )
-false
 )
 ;
 this
@@ -4540,7 +4537,6 @@ stopPropagation
 )
 ;
 }
-false
 )
 ;
 /
@@ -4620,7 +4616,6 @@ checked
 )
 ;
 }
-false
 )
 ;
 aParentNode

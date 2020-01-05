@@ -1098,7 +1098,6 @@ mousedown
 this
 .
 _onMouseDown
-false
 )
 ;
 this
@@ -1113,7 +1112,6 @@ select
 this
 .
 _onSourceSelect
-false
 )
 ;
 this
@@ -1128,7 +1126,6 @@ click
 this
 .
 _onStopBlackBoxing
-false
 )
 ;
 this
@@ -1143,7 +1140,6 @@ popupshowing
 this
 .
 _onConditionalPopupShowing
-false
 )
 ;
 this
@@ -1158,7 +1154,6 @@ popupshown
 this
 .
 _onConditionalPopupShown
-false
 )
 ;
 this
@@ -1173,7 +1168,6 @@ popuphiding
 this
 .
 _onConditionalPopupHiding
-false
 )
 ;
 this
@@ -1188,7 +1182,6 @@ popuphidden
 this
 .
 _onConditionalPopupHidden
-false
 )
 ;
 this
@@ -1203,7 +1196,6 @@ keypress
 this
 .
 _onConditionalTextboxKeyPress
-false
 )
 ;
 this
@@ -1218,7 +1210,6 @@ command
 this
 .
 _onCopyUrlCommand
-false
 )
 ;
 this
@@ -1233,7 +1224,6 @@ command
 this
 .
 _onNewTabCommand
-false
 )
 ;
 this
@@ -1438,7 +1428,6 @@ select
 this
 .
 _onSourceSelect
-false
 )
 ;
 this
@@ -1453,7 +1442,6 @@ click
 this
 .
 _onStopBlackBoxing
-false
 )
 ;
 this
@@ -1468,7 +1456,6 @@ popupshowing
 this
 .
 _onConditionalPopupShowing
-false
 )
 ;
 this
@@ -1483,7 +1470,6 @@ popupshown
 this
 .
 _onConditionalPopupShown
-false
 )
 ;
 this
@@ -1498,7 +1484,6 @@ popuphiding
 this
 .
 _onConditionalPopupHiding
-false
 )
 ;
 this
@@ -1513,7 +1498,6 @@ popuphidden
 this
 .
 _onConditionalPopupHidden
-false
 )
 ;
 this
@@ -1528,7 +1512,6 @@ keypress
 this
 .
 _onConditionalTextboxKeyPress
-false
 )
 ;
 this
@@ -1543,7 +1526,6 @@ command
 this
 .
 _onCopyUrlCommand
-false
 )
 ;
 this
@@ -1558,7 +1540,6 @@ command
 this
 .
 _onNewTabCommand
-false
 )
 ;
 this
@@ -4890,7 +4871,6 @@ removeEventListener
 popuphidden
 "
 openPopup
-false
 )
 ;
 }
@@ -4924,7 +4904,6 @@ addEventListener
 popuphidden
 "
 openPopup
-false
 )
 ;
 }
@@ -5558,7 +5537,6 @@ click
 this
 .
 _onBreakpointClick
-false
 )
 ;
 checkbox
@@ -5571,7 +5549,6 @@ click
 this
 .
 _onBreakpointCheckboxClick
-false
 )
 ;
 container
@@ -6113,7 +6090,6 @@ func
 (
 location
 )
-false
 )
 ;
 menuitem

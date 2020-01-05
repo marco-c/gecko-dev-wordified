@@ -6545,7 +6545,6 @@ addEventListener
 (
 type
 eventHandler
-false
 )
 ;
 return
@@ -6627,7 +6626,6 @@ removeEventListener
 (
 type
 aEventHandler
-false
 )
 ;
 var
@@ -12130,7 +12128,6 @@ addEventListener
 dragstart
 "
 trapDrag
-false
 )
 ;
 synthesizeMouse
@@ -12206,7 +12203,6 @@ removeEventListener
 dragstart
 "
 trapDrag
-false
 )
 ;
 synthesizeMouse

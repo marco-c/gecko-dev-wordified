@@ -4804,7 +4804,6 @@ keypress
 this
 .
 _splitConsoleOnKeypress
-false
 )
 ;
 this
@@ -4890,7 +4889,6 @@ keypress
 this
 .
 _splitConsoleOnKeypress
-false
 )
 ;
 this

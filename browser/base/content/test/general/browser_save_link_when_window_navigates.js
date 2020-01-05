@@ -821,7 +821,6 @@ removeEventListener
 load
 "
 onLoad
-false
 )
 ;
 if
@@ -881,7 +880,6 @@ dialog
 ;
 }
 }
-false
 )
 ;
 }

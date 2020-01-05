@@ -397,7 +397,6 @@ removeEventListener
 DOMContentLoaded
 '
 ready
-false
 )
 ;
 assert
@@ -438,7 +437,6 @@ done
 )
 ;
 }
-false
 )
 ;
 }
@@ -565,7 +563,6 @@ removeEventListener
 DOMContentLoaded
 '
 ready
-false
 )
 ;
 assert
@@ -605,7 +602,6 @@ done
 )
 ;
 }
-false
 )
 ;
 }

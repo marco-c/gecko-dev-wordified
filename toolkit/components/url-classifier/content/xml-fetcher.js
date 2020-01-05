@@ -570,7 +570,6 @@ self
 )
 ;
 }
-false
 )
 ;
 this

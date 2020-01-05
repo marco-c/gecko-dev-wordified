@@ -1798,7 +1798,6 @@ dataChoicesTab
 ;
 }
 }
-false
 )
 ;
 }
@@ -2016,7 +2015,6 @@ this
 onPingSourceChanged
 (
 )
-false
 )
 ;
 }
@@ -2060,7 +2058,6 @@ this
 onPingDisplayChanged
 (
 )
-false
 )
 ;
 }
@@ -2132,7 +2129,6 @@ _updateArchivedPingData
 )
 ;
 }
-false
 )
 ;
 document
@@ -2164,7 +2160,6 @@ _updateArchivedPingData
 (
 )
 }
-false
 )
 ;
 document
@@ -2194,7 +2189,6 @@ _movePingIndex
 -
 1
 )
-false
 )
 ;
 document
@@ -2223,7 +2217,6 @@ _movePingIndex
 (
 1
 )
-false
 )
 ;
 document
@@ -2250,7 +2243,6 @@ displayPingData
 (
 gPingData
 )
-false
 )
 ;
 document
@@ -2277,7 +2269,6 @@ displayPingData
 (
 gPingData
 )
-false
 )
 ;
 document
@@ -2306,7 +2297,6 @@ displayPingData
 (
 gPingData
 )
-false
 )
 ;
 document
@@ -2333,7 +2323,6 @@ displayPingData
 (
 gPingData
 )
-false
 )
 ;
 document
@@ -2362,7 +2351,6 @@ displayPingData
 (
 gPingData
 )
-false
 )
 ;
 }
@@ -4368,7 +4356,6 @@ addEventListener
 click
 "
 toggleSection
-false
 )
 ;
 /
@@ -4442,7 +4429,6 @@ addEventListener
 click
 "
 toggleSection
-false
 )
 ;
 /
@@ -13008,7 +12994,6 @@ detachObservers
 )
 ;
 }
-false
 )
 ;
 document
@@ -13085,7 +13070,6 @@ fetchSymbols
 )
 ;
 }
-false
 )
 ;
 document
@@ -13129,7 +13113,6 @@ gPingData
 )
 ;
 }
-false
 )
 ;
 document
@@ -13208,7 +13191,6 @@ fetchSymbols
 )
 ;
 }
-false
 )
 ;
 document
@@ -13252,7 +13234,6 @@ gPingData
 )
 ;
 }
-false
 )
 ;
 document
@@ -13326,7 +13307,6 @@ fetchSymbols
 )
 ;
 }
-false
 )
 ;
 document
@@ -13374,7 +13354,6 @@ lateWrites
 )
 ;
 }
-false
 )
 ;
 /
@@ -13418,7 +13397,6 @@ addEventListener
 click
 "
 toggleSection
-false
 )
 ;
 }
@@ -13468,7 +13446,6 @@ addEventListener
 click
 "
 toggleSection
-false
 )
 ;
 }
@@ -15434,7 +15411,6 @@ input
 Histogram
 .
 histogramFilterChanged
-false
 )
 ;
 if
@@ -15861,6 +15837,5 @@ addEventListener
 load
 "
 onLoad
-false
 )
 ;

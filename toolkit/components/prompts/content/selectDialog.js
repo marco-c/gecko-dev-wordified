@@ -305,7 +305,6 @@ addEventListener
 dblclick
 "
 dialogDoubleClick
-false
 )
 ;
 }

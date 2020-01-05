@@ -454,7 +454,6 @@ scroll
 this
 .
 onScroll
-false
 )
 ;
 this
@@ -469,7 +468,6 @@ mousedown
 this
 .
 onStartBtnClick
-false
 )
 ;
 this
@@ -484,7 +482,6 @@ mousedown
 this
 .
 onEndBtnClick
-false
 )
 ;
 this
@@ -499,7 +496,6 @@ dblclick
 this
 .
 onStartBtnDblClick
-false
 )
 ;
 this
@@ -514,7 +510,6 @@ dblclick
 this
 .
 onEndBtnDblClick
-false
 )
 ;
 /
@@ -538,7 +533,6 @@ underflow
 this
 .
 onUnderflow
-false
 )
 ;
 this
@@ -553,7 +547,6 @@ overflow
 this
 .
 onOverflow
-false
 )
 ;
 }
@@ -754,7 +747,6 @@ removeEventListener
 mouseout
 "
 cancelHold
-false
 )
 ;
 container
@@ -765,7 +757,6 @@ removeEventListener
 mouseup
 "
 handleClick
-false
 )
 ;
 }
@@ -797,7 +788,6 @@ addEventListener
 mouseout
 "
 cancelHold
-false
 )
 ;
 container
@@ -808,7 +798,6 @@ addEventListener
 mouseup
 "
 handleClick
-false
 )
 ;
 timer
@@ -2160,7 +2149,6 @@ scroll
 this
 .
 onScroll
-false
 )
 ;
 this
@@ -2175,7 +2163,6 @@ mousedown
 this
 .
 onStartBtnClick
-false
 )
 ;
 this
@@ -2190,7 +2177,6 @@ mousedown
 this
 .
 onEndBtnClick
-false
 )
 ;
 this
@@ -2205,7 +2191,6 @@ dblclick
 this
 .
 onStartBtnDblClick
-false
 )
 ;
 this
@@ -2220,7 +2205,6 @@ dblclick
 this
 .
 onRightBtnDblClick
-false
 )
 ;
 /
@@ -2244,7 +2228,6 @@ underflow
 this
 .
 onUnderflow
-false
 )
 ;
 this
@@ -2259,7 +2242,6 @@ overflow
 this
 .
 onOverflow
-false
 )
 ;
 }

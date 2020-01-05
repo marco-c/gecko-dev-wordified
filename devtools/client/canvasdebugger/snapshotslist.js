@@ -288,7 +288,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 }
@@ -348,7 +347,6 @@ select
 this
 .
 _onSelect
-false
 )
 ;
 }
@@ -573,7 +571,6 @@ click
 this
 .
 _onSaveButtonClick
-false
 )
 ;
 let

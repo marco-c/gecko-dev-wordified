@@ -171,7 +171,6 @@ addEventListener
 DOMContentLoaded
 "
 testPageReload
-false
 )
 ;
 content
@@ -196,7 +195,6 @@ addEventListener
 DOMContentLoaded
 "
 onLoad
-false
 )
 ;
 }
@@ -213,7 +211,6 @@ removeEventListener
 DOMContentLoaded
 "
 testPageReload
-false
 )
 ;
 let

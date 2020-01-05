@@ -2817,7 +2817,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 /
@@ -2861,7 +2860,6 @@ FakeMozAfterSizeChange
 this
 .
 handleMozAfterSizeChange
-false
 )
 ;
 /
@@ -2956,7 +2954,6 @@ MozAfterPaint
 this
 .
 handleMozAfterPaint
-false
 )
 ;
 /
@@ -3000,7 +2997,6 @@ FakeMozAfterSizeChange
 this
 .
 handleMozAfterSizeChange
-false
 )
 ;
 /

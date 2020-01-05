@@ -98,7 +98,6 @@ addEventListener
 TabOpen
 "
 onTabAdded
-false
 )
 ;
 yield
@@ -410,7 +409,6 @@ removeEventListener
 TabOpen
 "
 onTabAdded
-false
 )
 ;
 }

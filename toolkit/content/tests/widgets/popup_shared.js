@@ -375,7 +375,6 @@ addEventListener
 popupshowing
 "
 eventOccurred
-false
 )
 ;
 document
@@ -386,7 +385,6 @@ addEventListener
 popupshown
 "
 eventOccurred
-false
 )
 ;
 document
@@ -397,7 +395,6 @@ addEventListener
 popuphiding
 "
 eventOccurred
-false
 )
 ;
 document
@@ -408,7 +405,6 @@ addEventListener
 popuphidden
 "
 eventOccurred
-false
 )
 ;
 document
@@ -419,7 +415,6 @@ addEventListener
 command
 "
 eventOccurred
-false
 )
 ;
 document
@@ -430,7 +425,6 @@ addEventListener
 DOMMenuItemActive
 "
 eventOccurred
-false
 )
 ;
 document
@@ -441,7 +435,6 @@ addEventListener
 DOMMenuItemInactive
 "
 eventOccurred
-false
 )
 ;
 document
@@ -452,7 +445,6 @@ addEventListener
 DOMMenuInactive
 "
 eventOccurred
-false
 )
 ;
 document
@@ -463,7 +455,6 @@ addEventListener
 DOMMenuBarActive
 "
 eventOccurred
-false
 )
 ;
 document
@@ -474,7 +465,6 @@ addEventListener
 DOMMenuBarInactive
 "
 eventOccurred
-false
 )
 ;
 gPopupTests

@@ -365,7 +365,6 @@ click
 this
 .
 _onGraphClick
-false
 )
 ;
 window
@@ -492,7 +491,6 @@ click
 this
 .
 _onGraphClick
-false
 )
 ;
 window
