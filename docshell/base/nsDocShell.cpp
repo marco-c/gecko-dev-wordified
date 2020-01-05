@@ -44929,6 +44929,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 mozilla
 :
 :
@@ -44947,6 +44952,7 @@ GetOriginAttributes
 )
 )
 ;
+}
 }
 return
 NS_OK
