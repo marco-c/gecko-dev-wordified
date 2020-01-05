@@ -4551,7 +4551,9 @@ rect
 =
 page
 .
-layout_rpc
+layout
+(
+)
 .
 content_box
 (
@@ -4618,7 +4620,9 @@ rects
 =
 page
 .
-layout_rpc
+layout
+(
+)
 .
 content_boxes
 (
