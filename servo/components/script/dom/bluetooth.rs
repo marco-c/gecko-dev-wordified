@@ -1124,6 +1124,7 @@ to_string
 )
 ;
 if
+!
 uuid_is_blacklisted
 (
 uuid
@@ -1137,12 +1138,6 @@ Blacklist
 All
 )
 {
-return
-Err
-(
-Security
-)
-}
 optional_services
 .
 push
@@ -1150,6 +1145,7 @@ push
 uuid
 )
 ;
+}
 }
 }
 Ok
