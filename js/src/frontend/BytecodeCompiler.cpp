@@ -2437,6 +2437,7 @@ fun
 enclosingScope
 formals
 generatorKind
+SyncFunction
 directives
 &
 newDirectives
@@ -3685,6 +3686,12 @@ lazy
 -
 >
 generatorKind
+(
+)
+lazy
+-
+>
+asyncKind
 (
 )
 )

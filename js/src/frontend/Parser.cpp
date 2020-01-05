@@ -14138,6 +14138,8 @@ PropertyNameVector
 formals
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 Directives
 inheritedDirectives
 Directives
@@ -14207,7 +14209,7 @@ fn
 fun
 inheritedDirectives
 generatorKind
-SyncFunction
+asyncKind
 /
 *
 tryAnnexB
@@ -15648,6 +15650,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 HandleObject
 proto
 )
@@ -19008,6 +19012,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 InvokedPrediction
 invoked
 )
@@ -19249,6 +19255,7 @@ newFunction
 funName
 kind
 generatorKind
+asyncKind
 proto
 )
 )
@@ -19398,6 +19405,7 @@ inHandling
 yieldHandling
 kind
 generatorKind
+asyncKind
 tryAnnexB
 directives
 &
@@ -19541,6 +19549,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 Directives
@@ -19762,7 +19772,7 @@ pn
 fun
 inheritedDirectives
 generatorKind
-SyncFunction
+asyncKind
 tryAnnexB
 )
 ;
@@ -19997,6 +20007,7 @@ inHandling
 yieldHandling
 kind
 generatorKind
+asyncKind
 tryAnnexB
 inheritedDirectives
 newDirectives
@@ -20027,6 +20038,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 Directives
@@ -20061,6 +20074,7 @@ inHandling
 yieldHandling
 kind
 generatorKind
+asyncKind
 tryAnnexB
 inheritedDirectives
 newDirectives
@@ -20241,6 +20255,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 bool
 tryAnnexB
 Directives
@@ -20322,7 +20338,7 @@ pn
 fun
 inheritedDirectives
 generatorKind
-SyncFunction
+asyncKind
 tryAnnexB
 )
 ;
@@ -20461,6 +20477,8 @@ bool
 strict
 GeneratorKind
 generatorKind
+FunctionAsyncKind
+asyncKind
 )
 {
 MOZ_ASSERT
@@ -20503,7 +20521,7 @@ pn
 fun
 directives
 generatorKind
-SyncFunction
+asyncKind
 /
 *
 tryAnnexB
@@ -21887,6 +21905,7 @@ newYieldHandling
 name
 Statement
 generatorKind
+SyncFunction
 PredictUninvoked
 )
 ;
@@ -22103,6 +22122,7 @@ yieldHandling
 name
 Expression
 generatorKind
+SyncFunction
 invoked
 )
 ;
@@ -45508,6 +45528,7 @@ yieldHandling
 nullptr
 Arrow
 NotGenerator
+SyncFunction
 )
 ;
 if
@@ -47561,6 +47582,7 @@ atom
 nullptr
 Expression
 StarGenerator
+SyncFunction
 proto
 )
 )
@@ -55025,6 +55047,7 @@ yieldHandling
 funName
 kind
 generatorKind
+SyncFunction
 )
 ;
 }
