@@ -32,6 +32,8 @@ FlowContextTraversals
 fn
 traverse_preorder
 (
+mut
+self
 preorder_cb
 :
 &
@@ -45,6 +47,8 @@ FlowContext
 fn
 traverse_postorder
 (
+mut
+self
 postorder_cb
 :
 &
@@ -59,12 +63,13 @@ FlowContext
 impl
 FlowContextTraversals
 for
-mut
 FlowContext
 {
 fn
 traverse_preorder
 (
+mut
+self
 preorder_cb
 :
 &
@@ -104,6 +109,8 @@ true
 fn
 traverse_postorder
 (
+mut
+self
 postorder_cb
 :
 &

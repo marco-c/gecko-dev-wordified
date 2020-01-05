@@ -814,7 +814,9 @@ load_variations_for_family
 self
 )
 ;
-assert
+fail_unless
+!
+(
 self
 .
 entries
@@ -824,6 +826,7 @@ len
 )
 >
 0
+)
 ;
 }
 fn

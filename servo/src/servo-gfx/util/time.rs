@@ -25,6 +25,7 @@ msg
 str
 callback
 :
+&
 fn
 (
 )

@@ -81,11 +81,14 @@ CompleteStyle
 &
 self
 {
-assert
+fail_unless
+!
+(
 self
 .
 is_element
 (
+)
 )
 ;
 /

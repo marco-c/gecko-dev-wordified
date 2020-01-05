@@ -84,15 +84,6 @@ use
 core
 :
 :
-dvec
-:
-:
-DVec
-;
-use
-core
-:
-:
 either
 :
 :

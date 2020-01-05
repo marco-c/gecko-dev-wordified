@@ -426,6 +426,8 @@ C
 fn
 run
 (
+&
+self
 )
 {
 while
@@ -454,6 +456,8 @@ on
 fn
 handle_request
 (
+&
+self
 request
 :
 Msg

@@ -186,10 +186,11 @@ DOMException
 {
 INVALID_CHARACTER_ERR
 }
-enum
+struct
 Element
-=
+(
 int
+)
 ;
 /
 *
@@ -794,7 +795,9 @@ specs
 _len
 |
 {
-assert
+fail_unless
+!
+(
 JS_DefineProperties
 (
 compartment
@@ -810,6 +813,7 @@ specs
 =
 =
 1
+)
 ;
 }
 )

@@ -760,11 +760,14 @@ result
 =
 >
 {
-assert
+fail_unless
+!
+(
 result
 .
 is_err
 (
+)
 )
 }
 _
@@ -909,7 +912,9 @@ chan
 )
 )
 ;
-assert
+fail_unless
+!
+(
 progress
 .
 recv
@@ -921,8 +926,11 @@ Payload
 (
 payload
 )
+)
 ;
-assert
+fail_unless
+!
+(
 progress
 .
 recv
@@ -935,6 +943,7 @@ Done
 Ok
 (
 (
+)
 )
 )
 )

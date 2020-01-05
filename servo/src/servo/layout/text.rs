@@ -107,7 +107,9 @@ Range
 mut
 RenderBox
 {
-assert
+fail_unless
+!
+(
 range
 .
 begin
@@ -119,8 +121,11 @@ run
 char_len
 (
 )
+)
 ;
-assert
+fail_unless
+!
+(
 range
 .
 end
@@ -133,8 +138,11 @@ run
 char_len
 (
 )
+)
 ;
-assert
+fail_unless
+!
+(
 range
 .
 length
@@ -142,6 +150,7 @@ length
 )
 >
 0
+)
 ;
 debug
 !

@@ -66,15 +66,6 @@ use
 core
 :
 :
-dvec
-:
-:
-DVec
-;
-use
-core
-:
-:
 libc
 :
 :
@@ -306,7 +297,8 @@ cx
 vp
 )
 ;
-assert
+fail_unless
+!
 (
 argc
 =
@@ -407,7 +399,8 @@ cx
 vp
 )
 ;
-assert
+fail_unless
+!
 (
 argc
 >
