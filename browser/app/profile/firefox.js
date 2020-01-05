@@ -342,6 +342,16 @@ webextPermissionPrompts
 true
 )
 ;
+pref
+(
+"
+extensions
+.
+webextOptionalPermissionPrompts
+"
+true
+)
+;
 /
 /
 Preferences
