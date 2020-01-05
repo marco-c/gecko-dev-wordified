@@ -773,6 +773,13 @@ mask_lut
 5
 ]
 ;
+static
+const
+uchar_t
+limit
+=
+0x110000
+;
 public
 :
 typedef
@@ -1225,6 +1232,12 @@ seq_sz
 |
 |
 toolong
+|
+|
+u
+>
+=
+limit
 )
 {
 l

@@ -2967,6 +2967,10 @@ Slot
 *
 slot
 const
+SlotCollision
+*
+cslot
+const
 Position
 &
 currShift
@@ -3131,6 +3135,8 @@ getBoundingBBox
 gid
 )
 ;
+/
+/
 SlotCollision
 *
 cslot
@@ -6274,6 +6280,13 @@ origin
 exclOrigin
 )
 ;
+SlotCollision
+exclInfo
+(
+seg
+exclSlot
+)
+;
 res
 &
 =
@@ -6281,6 +6294,8 @@ mergeSlot
 (
 seg
 exclSlot
+&
+exclInfo
 currShift
 isAfter
 sameCluster

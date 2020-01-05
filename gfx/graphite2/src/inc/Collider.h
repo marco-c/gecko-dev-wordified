@@ -951,6 +951,10 @@ Slot
 *
 slot
 const
+SlotCollision
+*
+cinfo
+const
 Position
 &
 currShift
