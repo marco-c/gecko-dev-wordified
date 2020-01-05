@@ -495,6 +495,12 @@ virtualenv
 '
                 
 '
+setup
+-
+mitmproxy
+'
+                
+'
 run
 -
 tests
