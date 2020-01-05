@@ -2897,6 +2897,16 @@ nsStyleFont
 aSource
 )
 ;
+void
+Gecko_nsStyleFont_FixupNoneGeneric
+(
+nsStyleFont
+*
+font
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 FontSizePrefs
 Gecko_GetBaseSize
 (
