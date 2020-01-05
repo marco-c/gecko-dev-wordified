@@ -318,7 +318,7 @@ print
 '
 Usage
 :
-7z_exe_archive
+exe_7z_archive
 .
 py
 <
