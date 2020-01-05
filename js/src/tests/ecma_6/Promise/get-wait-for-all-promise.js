@@ -43,16 +43,6 @@ quit
 )
 ;
 }
-let
-GetWaitForAllPromise
-=
-getSelfHostedValue
-(
-'
-GetWaitForAllPromise
-'
-)
-;
 function
 onResolved
 (
@@ -95,7 +85,7 @@ shouldn
 '
 t
 affect
-GetWaitForAllPromise
+getWaitForAllPromise
 .
 let
 originalThen
@@ -125,7 +115,7 @@ shouldn
 '
 t
 affect
-GetWaitForAllPromise
+getWaitForAllPromise
 .
 Promise
 [
@@ -148,7 +138,7 @@ shouldn
 '
 t
 affect
-GetWaitForAllPromise
+getWaitForAllPromise
 .
 let
 PromiseCtor
@@ -171,7 +161,7 @@ shouldn
 '
 t
 affect
-GetWaitForAllPromise
+getWaitForAllPromise
 .
 Array
 .
@@ -262,7 +252,7 @@ p
 let
 allPromise
 =
-GetWaitForAllPromise
+getWaitForAllPromise
 (
 promises
 )
@@ -333,7 +323,7 @@ originalThen
 .
 call
 (
-GetWaitForAllPromise
+getWaitForAllPromise
 (
 [
 ]
@@ -390,7 +380,7 @@ originalThen
 .
 call
 (
-GetWaitForAllPromise
+getWaitForAllPromise
 (
 [
 ]
