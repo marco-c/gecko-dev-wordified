@@ -115,6 +115,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 vector
 >
@@ -288,7 +297,8 @@ Timestamp
 const
 override
 ;
-void
+MOZ_MUST_USE
+bool
 InitToBlack
 (
 uint32_t
