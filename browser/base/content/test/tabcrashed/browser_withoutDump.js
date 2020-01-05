@@ -172,9 +172,14 @@ tabRemovedPromise
 =
 BrowserTestUtils
 .
-tabRemoved
+removeTab
 (
 tab
+{
+dontRemove
+:
+true
+}
 )
 ;
 yield
