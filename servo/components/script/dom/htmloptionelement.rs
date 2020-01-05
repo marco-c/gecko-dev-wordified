@@ -255,6 +255,7 @@ element
 {
 AttributeHandlers
 Element
+ElementHelpers
 HTMLOptionElementTypeId
 }
 ;

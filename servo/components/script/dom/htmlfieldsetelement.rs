@@ -193,6 +193,7 @@ element
 {
 AttributeHandlers
 Element
+ElementHelpers
 HTMLFieldSetElementTypeId
 HTMLButtonElementTypeId
 }

@@ -899,7 +899,7 @@ ns
 :
 elem
 .
-get_namespace
+namespace
 (
 )
 .
@@ -910,7 +910,7 @@ local
 :
 elem
 .
-get_local_name
+local_name
 (
 )
 .
