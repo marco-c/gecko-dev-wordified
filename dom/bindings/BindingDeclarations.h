@@ -2852,6 +2852,8 @@ type
 enum
 class
 CallerType
+:
+uint32_t
 {
 System
 NonSystem

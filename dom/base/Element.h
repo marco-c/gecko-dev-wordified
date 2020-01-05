@@ -470,6 +470,12 @@ ElementOrCSSPseudoElement
 class
 UnrestrictedDoubleOrKeyframeAnimationOptions
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 }
 /
 /
@@ -4489,6 +4495,8 @@ nullptr
 void
 RequestFullscreen
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -4497,6 +4505,8 @@ aError
 void
 RequestPointerLock
 (
+CallerType
+aCallerType
 )
 ;
 Attr
