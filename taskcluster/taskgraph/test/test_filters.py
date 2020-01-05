@@ -324,12 +324,16 @@ retained
 if
 servo
 /
+components
+/
+style
+/
 present
 .
         
 os
 .
-mkdir
+makedirs
 (
 os
 .
@@ -342,6 +346,12 @@ self
 _tmpdir
 '
 servo
+'
+'
+components
+'
+'
+style
 '
 )
 )

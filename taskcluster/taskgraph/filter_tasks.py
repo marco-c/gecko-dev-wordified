@@ -276,6 +276,12 @@ GECKO
 '
 servo
 '
+'
+components
+'
+'
+style
+'
 )
 )
 :
