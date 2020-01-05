@@ -5111,9 +5111,7 @@ nsIThreadManager
 ;
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -5268,13 +5266,6 @@ funcName
 }
 }
 }
-Components
-.
-interfaces
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

@@ -616,16 +616,9 @@ true
 ;
 threadManager
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 dispatcher
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

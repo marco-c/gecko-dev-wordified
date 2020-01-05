@@ -509,9 +509,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 function
@@ -534,11 +532,6 @@ bind
 (
 this
 )
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

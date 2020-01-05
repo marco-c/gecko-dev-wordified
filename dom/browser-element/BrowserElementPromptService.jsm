@@ -2221,16 +2221,9 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 runnable
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

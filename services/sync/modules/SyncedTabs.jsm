@@ -1525,9 +1525,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -1591,11 +1589,6 @@ ex
 ;
 }
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }
