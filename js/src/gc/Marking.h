@@ -1752,7 +1752,7 @@ const
 gc
 :
 :
-TenuredCell
+Cell
 *
 cell
 )
