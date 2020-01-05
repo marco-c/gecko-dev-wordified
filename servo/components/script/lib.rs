@@ -246,6 +246,10 @@ bluetooth_traits
 ;
 extern
 crate
+byteorder
+;
+extern
+crate
 canvas_traits
 ;
 extern
