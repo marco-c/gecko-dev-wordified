@@ -2625,6 +2625,10 @@ CSSPseudoElementType
 aType
 )
 {
+PreTraverseSync
+(
+)
+;
 nsIAtom
 *
 pseudoTag
