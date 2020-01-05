@@ -711,16 +711,6 @@ layers
 WebRenderDisplayItemLayer
 *
 aLayer
-Rect
-aClipRect
-=
-Rect
-(
-0
-0
-0
-0
-)
 )
 ;
 /
