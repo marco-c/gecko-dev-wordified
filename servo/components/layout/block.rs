@@ -10164,8 +10164,8 @@ contains
 (
 IS_ABSOLUTELY_POSITIONED
 )
-|
-|
+&
+&
 !
 kid_base
 .
