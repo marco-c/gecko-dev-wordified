@@ -260,6 +260,11 @@ target_os
 "
 linux
 "
+target_os
+=
+"
+windows
+"
 )
 )
 ]

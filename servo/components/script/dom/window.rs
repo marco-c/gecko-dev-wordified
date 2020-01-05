@@ -1097,6 +1097,11 @@ target_os
 "
 linux
 "
+target_os
+=
+"
+windows
+"
 )
 )
 ]
@@ -2751,6 +2756,11 @@ target_os
 "
 linux
 "
+target_os
+=
+"
+windows
+"
 )
 )
 ]
@@ -2798,6 +2808,11 @@ target_os
 "
 linux
 "
+target_os
+=
+"
+windows
+"
 )
 )
 )
@@ -2817,7 +2832,7 @@ tinyfiledialogs
 not
 supported
 on
-Windows
+Android
 }
 /
 /
