@@ -1480,7 +1480,7 @@ serde
 rename
 =
 "
-type
+_type
 "
 )
 ]
@@ -1556,7 +1556,7 @@ serde
 rename
 =
 "
-type
+_type
 "
 )
 ]
