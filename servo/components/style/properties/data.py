@@ -1108,16 +1108,9 @@ boxed
 =
 False
                  
-creates_stacking_context
+flags
 =
-False
-fixpos_cb
-=
-False
-abspos_cb
-=
-False
-                 
+None
 allowed_in_page_rule
 =
 False
@@ -1337,30 +1330,18 @@ boxed
         
 self
 .
-creates_stacking_context
+flags
 =
-arg_to_bool
-(
-creates_stacking_context
-)
-        
-self
+flags
 .
-fixpos_cb
-=
-arg_to_bool
+split
 (
-fixpos_cb
 )
-        
-self
-.
-abspos_cb
-=
-arg_to_bool
-(
-abspos_cb
-)
+if
+flags
+else
+[
+]
         
 self
 .
@@ -1687,6 +1668,9 @@ None
 allowed_in_page_rule
 =
 False
+flags
+=
+None
 )
 :
         
@@ -1820,6 +1804,21 @@ arg_to_bool
 (
 allowed_in_page_rule
 )
+        
+self
+.
+flags
+=
+flags
+.
+split
+(
+)
+if
+flags
+else
+[
+]
         
 #
 https
