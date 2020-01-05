@@ -195,12 +195,11 @@ PostResult
 (
 DecryptStatus
 aResult
-const
-nsTArray
+Span
 <
+const
 uint8_t
 >
-&
 aDecryptedData
 )
 {
