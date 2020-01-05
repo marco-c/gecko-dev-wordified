@@ -2949,9 +2949,6 @@ if
 (
 FAILED
 (
-WinUtils
-:
-:
 SHCreateItemFromParsingName
 (
 NS_ConvertASCIItoUTF16

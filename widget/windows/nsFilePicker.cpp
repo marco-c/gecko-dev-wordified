@@ -1875,9 +1875,6 @@ if
 (
 SUCCEEDED
 (
-WinUtils
-:
-:
 SHCreateItemFromParsingName
 (
 aInitialDir
@@ -2622,9 +2619,6 @@ if
 (
 SUCCEEDED
 (
-WinUtils
-:
-:
 SHCreateItemFromParsingName
 (
 aInitialDir
