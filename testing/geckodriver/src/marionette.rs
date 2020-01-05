@@ -2770,6 +2770,8 @@ capabilities
 consume
 (
 "
+moz
+:
 firefoxOptions
 "
 )
@@ -2799,6 +2801,8 @@ ErrorStatus
 InvalidArgument
 "
 '
+moz
+:
 firefoxOptions
 '
 capability
@@ -4056,6 +4060,8 @@ location
 \
 no
 '
+moz
+:
 firefoxOptions
 .
 binary

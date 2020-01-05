@@ -1716,6 +1716,8 @@ required
 insert
 (
 "
+moz
+:
 firefoxOptions
 "
 .
@@ -1951,6 +1953,8 @@ required
 insert
 (
 "
+moz
+:
 firefoxOptions
 "
 .
