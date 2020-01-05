@@ -12291,9 +12291,6 @@ MOZ_ASSERT
 mDPI
 >
 0
-|
-|
-mFrameElement
 "
 Must
 not
@@ -12347,9 +12344,6 @@ mDefaultScale
 scale
 >
 0
-|
-|
-mFrameElement
 "
 Must
 not
@@ -12403,9 +12397,6 @@ MOZ_ASSERT
 mRounding
 >
 0
-|
-|
-mFrameElement
 "
 Must
 not
@@ -13652,9 +13643,14 @@ widget
 nsContentUtils
 :
 :
-WidgetForContent
+WidgetForDocument
 (
 mFrameElement
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 return
