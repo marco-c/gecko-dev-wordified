@@ -551,6 +551,12 @@ nsBoxFrame
 (
 aContext
 )
+mRatio
+(
+0
+.
+0f
+)
 mCurPos
 (
 0

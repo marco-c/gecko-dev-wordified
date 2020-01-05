@@ -842,6 +842,14 @@ mInstanceOwner
 (
 nullptr
 )
+mInnerView
+(
+nullptr
+)
+mBackgroundSink
+(
+nullptr
+)
 mReflowCallbackPosted
 (
 false

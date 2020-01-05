@@ -585,6 +585,14 @@ nsFrame
 (
 aContext
 )
+mPrevContinuation
+(
+nullptr
+)
+mNextContinuation
+(
+nullptr
+)
 {
 }
 /

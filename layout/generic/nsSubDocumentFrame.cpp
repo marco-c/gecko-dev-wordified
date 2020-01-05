@@ -434,6 +434,10 @@ nsAtomicContainerFrame
 (
 aContext
 )
+mInnerView
+(
+nullptr
+)
 mIsInline
 (
 false

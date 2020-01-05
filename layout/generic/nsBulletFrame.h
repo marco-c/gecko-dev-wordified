@@ -286,6 +286,10 @@ GetWritingMode
 (
 )
 )
+mOrdinal
+(
+0
+)
 mRequestRegistered
 (
 false
