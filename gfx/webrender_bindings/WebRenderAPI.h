@@ -295,6 +295,15 @@ aux_size
 )
 ;
 void
+ClearRootDisplayList
+(
+Epoch
+aEpoch
+WrPipelineId
+pipeline_id
+)
+;
+void
 SetRootPipeline
 (
 wr
