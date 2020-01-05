@@ -146,6 +146,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 PerformanceTiming
@@ -230,10 +234,14 @@ new_inherited
 (
 window
 .
-navigationStart
+navigation_start
+(
+)
 window
 .
-navigationStartPrecise
+navigation_start_precise
+(
+)
 )
 ;
 reflect_dom_object

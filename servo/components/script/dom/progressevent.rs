@@ -209,6 +209,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 ProgressEvent
@@ -241,9 +245,12 @@ self
 >
 bool
 {
+*
 self
 .
 type_id
+(
+)
 =
 =
 ProgressEventTypeId

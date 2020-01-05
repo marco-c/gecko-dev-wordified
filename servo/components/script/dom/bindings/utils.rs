@@ -4847,8 +4847,6 @@ root
 win
 .
 browser_context
-.
-borrow
 (
 )
 .

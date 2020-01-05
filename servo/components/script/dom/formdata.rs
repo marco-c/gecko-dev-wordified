@@ -283,6 +283,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 FormData
@@ -1025,6 +1029,8 @@ inner
 inner
 .
 name
+(
+)
 .
 clone
 (

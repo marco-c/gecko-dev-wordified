@@ -166,6 +166,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 XMLHttpRequestUpload
@@ -279,9 +283,12 @@ self
 >
 bool
 {
+*
 self
 .
 type_id
+(
+)
 =
 =
 XMLHttpRequestTargetTypeId

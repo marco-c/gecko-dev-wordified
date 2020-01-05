@@ -140,11 +140,14 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 NodeIterator
 {
-pub
 reflector_
 :
 Reflector

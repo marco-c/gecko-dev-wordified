@@ -284,11 +284,14 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 HTMLFieldSetElement
 {
-pub
 htmlelement
 :
 HTMLElement
@@ -308,9 +311,12 @@ self
 >
 bool
 {
+*
 self
 .
 type_id
+(
+)
 =
 =
 NodeTargetTypeId
@@ -583,6 +589,8 @@ tag_name
 elem
 .
 local_name
+(
+)
 .
 as_slice
 (

@@ -297,11 +297,14 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 HTMLObjectElement
 {
-pub
 htmlelement
 :
 HTMLElement
@@ -321,9 +324,12 @@ self
 >
 bool
 {
+*
 self
 .
 type_id
+(
+)
 =
 =
 NodeTargetTypeId
@@ -985,6 +991,8 @@ process_data_url
 window
 .
 image_cache_task
+(
+)
 .
 clone
 (

@@ -239,6 +239,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 MessageEvent
@@ -271,9 +275,12 @@ self
 >
 bool
 {
+*
 self
 .
 type_id
+(
+)
 =
 =
 MessageEventTypeId

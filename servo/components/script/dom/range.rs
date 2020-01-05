@@ -182,6 +182,10 @@ jstraceable
 [
 must_root
 ]
+#
+[
+privatize
+]
 pub
 struct
 Range
@@ -237,6 +241,8 @@ window
 document
 .
 window
+(
+)
 .
 root
 (
