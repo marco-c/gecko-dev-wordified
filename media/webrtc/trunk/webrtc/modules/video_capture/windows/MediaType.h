@@ -188,6 +188,7 @@ MediaType
 (
 )
 ;
+explicit
 MediaType
 (
 const
@@ -196,6 +197,7 @@ AM_MEDIA_TYPE
 aMediaType
 )
 ;
+explicit
 MediaType
 (
 const

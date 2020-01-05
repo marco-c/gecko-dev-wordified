@@ -195,6 +195,7 @@ RefCounted
 {
 public
 :
+explicit
 VideoDecoder
 (
 GMPVideoHost

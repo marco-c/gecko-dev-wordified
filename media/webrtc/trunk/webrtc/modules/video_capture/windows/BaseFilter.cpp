@@ -282,6 +282,7 @@ IEnumPins
 {
 public
 :
+explicit
 EnumPins
 (
 BaseFilter
@@ -303,6 +304,7 @@ Reset
 )
 ;
 }
+explicit
 EnumPins
 (
 EnumPins
