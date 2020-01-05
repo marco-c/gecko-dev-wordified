@@ -813,7 +813,7 @@ PushScrollLayer
 const
 WrRect
 &
-aBounds
+aContentRect
 /
 /
 TODO
@@ -828,7 +828,7 @@ rects
 const
 WrRect
 &
-aOverflow
+aClipRect
 const
 WrImageMask
 *

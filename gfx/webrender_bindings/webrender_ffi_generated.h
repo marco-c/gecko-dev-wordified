@@ -2869,9 +2869,9 @@ WrState
 *
 state
 WrRect
-bounds
+content_rect
 WrRect
-overflow
+clip_rect
 const
 WrImageMask
 *
