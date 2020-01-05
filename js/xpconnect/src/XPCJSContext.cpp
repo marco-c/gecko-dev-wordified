@@ -2426,7 +2426,7 @@ true
 ;
 /
 /
-nsExpandedPrincipal
+ExpandedPrincipal
 gets
 a
 free

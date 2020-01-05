@@ -10101,7 +10101,7 @@ if
 aPrincipal
 is
 an
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 *
 /
@@ -10127,7 +10127,7 @@ the
 system
 or
 an
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 *
 /

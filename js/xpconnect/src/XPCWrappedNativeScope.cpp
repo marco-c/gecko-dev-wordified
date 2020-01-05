@@ -162,7 +162,7 @@ h
 #
 include
 "
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 h
 "
@@ -1979,7 +1979,7 @@ global
 /
 Use
 an
-nsExpandedPrincipal
+ExpandedPrincipal
 to
 create
 asymmetric
@@ -2026,11 +2026,11 @@ principal
 ;
 RefPtr
 <
-nsExpandedPrincipal
+ExpandedPrincipal
 >
 ep
 =
-nsExpandedPrincipal
+ExpandedPrincipal
 :
 :
 Create

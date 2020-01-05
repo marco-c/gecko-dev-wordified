@@ -216,7 +216,7 @@ h
 #
 include
 "
-nsExpandedPrincipal
+ExpandedPrincipal
 .
 h
 "
@@ -9574,11 +9574,11 @@ isObject
 }
 RefPtr
 <
-nsExpandedPrincipal
+ExpandedPrincipal
 >
 result
 =
-nsExpandedPrincipal
+ExpandedPrincipal
 :
 :
 Create

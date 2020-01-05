@@ -919,7 +919,7 @@ e
 .
 /
 /
-nsExpandedPrincipal
+ExpandedPrincipal
 and
 System
 Principal
