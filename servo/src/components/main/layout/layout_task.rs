@@ -2093,9 +2093,6 @@ new
 DisplayList
 :
 :
-new
-:
-:
 <
 AbstractNode
 <
@@ -2103,6 +2100,9 @@ AbstractNode
 )
 >
 >
+:
+:
+new
 (
 )
 )

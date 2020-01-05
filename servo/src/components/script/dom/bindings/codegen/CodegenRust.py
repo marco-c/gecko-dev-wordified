@@ -10999,12 +10999,6 @@ JSValConvertible
 :
 :
 from_jsval
-:
-:
-<
-%
-s
->
 (
 {
 val
@@ -11045,7 +11039,6 @@ n
 "
 %
 (
-typeName
 dataLoc
 )
 )

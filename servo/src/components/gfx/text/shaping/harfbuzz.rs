@@ -584,6 +584,8 @@ self
 count
 )
 ;
+unsafe
+{
 let
 glyph_info_i
 =
@@ -600,8 +602,6 @@ as
 int
 )
 ;
-unsafe
-{
 (
 *
 glyph_info_i
