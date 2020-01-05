@@ -1028,7 +1028,6 @@ constellation_msg
 :
 {
 MouseButton
-MouseEventType
 MozBrowserEvent
 SubpageId
 }
@@ -1077,6 +1076,12 @@ script_thread
 MainThreadScriptMsg
 Runnable
 }
+;
+use
+script_traits
+:
+:
+MouseEventType
 ;
 use
 script_traits
