@@ -3082,6 +3082,12 @@ View
 VISIBLE
 )
 ;
+progressBar
+.
+pinDynamicToolbar
+(
+)
+;
 }
 else
 {
@@ -3092,6 +3098,12 @@ setVisibility
 View
 .
 GONE
+)
+;
+progressBar
+.
+unpinDynamicToolbar
+(
 )
 ;
 }
