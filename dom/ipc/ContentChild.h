@@ -3152,10 +3152,9 @@ const
 nsCString
 &
 aURI
-const
-IPCBlob
-&
-aBlob
+PBlobChild
+*
+aBlobChild
 const
 IPC
 :
