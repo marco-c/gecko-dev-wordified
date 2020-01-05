@@ -4959,8 +4959,9 @@ as_ref
 (
 )
 .
-map
+map_or
 (
+false
 |
 url
 |
@@ -5050,11 +5051,6 @@ canvas_over_area
 html
 "
 )
-)
-.
-unwrap_or
-(
-false
 )
 ;
 let

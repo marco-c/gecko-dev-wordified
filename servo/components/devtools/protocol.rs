@@ -165,8 +165,6 @@ JsonPacketStream
 fn
 write_json_packet
 <
-'
-a
 T
 :
 Encodable
@@ -208,8 +206,6 @@ TcpStream
 fn
 write_json_packet
 <
-'
-a
 T
 :
 Encodable
@@ -287,10 +283,6 @@ unwrap
 }
 fn
 read_json_packet
-<
-'
-a
->
 (
 &
 mut

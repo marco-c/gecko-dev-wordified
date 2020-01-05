@@ -6485,11 +6485,9 @@ None
 )
 ;
 }
-return
 self
 .
 last_child_layer_info
-;
 }
 #
 [

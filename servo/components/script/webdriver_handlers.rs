@@ -1699,15 +1699,7 @@ GetTextContent
 (
 )
 .
-map
-(
-String
-:
-:
-from
-)
-.
-unwrap_or
+map_or
 (
 "
 "
@@ -1715,6 +1707,10 @@ unwrap_or
 to_owned
 (
 )
+String
+:
+:
+from
 )
 )
 }

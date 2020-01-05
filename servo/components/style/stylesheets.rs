@@ -1546,9 +1546,8 @@ handle
 conditional
 group
 rules
-match
-rule
-{
+if
+let
 &
 CSSRule
 :
@@ -1559,7 +1558,7 @@ ref
 rule
 )
 =
->
+rule
 {
 if
 let
@@ -1618,12 +1617,6 @@ iter
 )
 )
 ;
-}
-}
-_
-=
->
-{
 }
 }
 return

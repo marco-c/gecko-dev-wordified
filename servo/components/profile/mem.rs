@@ -4961,17 +4961,6 @@ they
 do
 not
 .
-let
-segs
-:
-Vec
-<
-(
-String
-usize
-)
->
-=
 seg_map
 .
 into_iter
@@ -4981,8 +4970,6 @@ into_iter
 collect
 (
 )
-;
-segs
 }
 #
 [

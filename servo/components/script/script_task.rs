@@ -14843,8 +14843,8 @@ contains
 (
 target
 )
-{
-if
+&
+&
 target
 .
 is
@@ -14891,7 +14891,6 @@ unwrap
 ;
 break
 ;
-}
 }
 }
 /
@@ -16102,7 +16101,6 @@ unwrap
 let
 listener
 =
-box
 NetworkListener
 {
 context

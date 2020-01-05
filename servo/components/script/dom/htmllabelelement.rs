@@ -372,9 +372,7 @@ self
 >
 bool
 {
-return
 true
-;
 }
 /
 /

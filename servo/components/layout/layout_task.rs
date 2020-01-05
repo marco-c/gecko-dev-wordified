@@ -4688,9 +4688,9 @@ as_ref
 )
 ;
 let
-ref
 formatted_url
 =
+&
 format
 !
 (
@@ -5215,12 +5215,6 @@ crash
 .
 fn
 exit_now
-<
-'
-a
-'
-b
->
 (
 &
 mut

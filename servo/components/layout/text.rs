@@ -386,11 +386,8 @@ fragment
 in
 fragments
 {
-match
-fragment
-.
-specific
-{
+if
+let
 SpecificFragmentInfo
 :
 :
@@ -400,7 +397,9 @@ ref
 info
 )
 =
->
+fragment
+.
+specific
 {
 if
 fragment
@@ -446,12 +445,6 @@ n
 )
 )
 ;
-}
-}
-_
-=
->
-{
 }
 }
 }

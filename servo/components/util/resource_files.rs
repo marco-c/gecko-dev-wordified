@@ -314,10 +314,6 @@ current_exe
 (
 )
 .
-ok
-(
-)
-.
 expect
 (
 "

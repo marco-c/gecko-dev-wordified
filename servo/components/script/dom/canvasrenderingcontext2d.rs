@@ -2637,8 +2637,8 @@ result
 is_ok
 (
 )
-{
-if
+&
+&
 !
 self
 .
@@ -2652,7 +2652,6 @@ self
 set_origin_unclean
 (
 )
-}
 }
 result
 }

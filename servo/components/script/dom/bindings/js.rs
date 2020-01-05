@@ -3822,10 +3822,6 @@ based
 root
 fn
 root
-<
-'
-b
->
 (
 &
 self
@@ -3915,8 +3911,6 @@ found
 fn
 unroot
 <
-'
-b
 T
 :
 Reflectable

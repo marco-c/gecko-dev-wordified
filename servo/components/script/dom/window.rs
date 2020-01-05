@@ -2405,7 +2405,6 @@ ParseErrorReporter
 Send
 >
 {
-return
 self
 .
 error_reporter
@@ -2413,7 +2412,6 @@ error_reporter
 clone
 (
 )
-;
 }
 }
 /
@@ -6692,8 +6690,11 @@ get
 (
 )
 .
-map
+map_or
 (
+1
+.
+0f32
 |
 data
 |
@@ -6704,13 +6705,6 @@ device_pixel_ratio
 get
 (
 )
-)
-.
-unwrap_or
-(
-1
-.
-0f32
 )
 ;
 Finite
@@ -7657,8 +7651,9 @@ Auto
 {
 element
 .
-map
+map_or
 (
+false
 |
 _element
 |
@@ -7675,11 +7670,6 @@ CSS
 property
 true
 }
-)
-.
-unwrap_or
-(
-false
 )
 }
 ScrollBehavior

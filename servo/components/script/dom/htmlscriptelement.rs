@@ -2296,7 +2296,6 @@ unwrap
 let
 listener
 =
-box
 NetworkListener
 {
 context
@@ -2779,12 +2778,10 @@ suspend
 ;
 }
 }
-return
 NextParserState
 :
 :
 Suspend
-;
 }
 pub
 fn
