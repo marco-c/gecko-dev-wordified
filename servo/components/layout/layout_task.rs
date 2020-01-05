@@ -1318,6 +1318,8 @@ x
 }
 "
 node_address
+.
+0
 as
 uint
 )
