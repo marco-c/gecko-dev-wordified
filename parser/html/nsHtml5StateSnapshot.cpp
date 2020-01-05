@@ -728,6 +728,7 @@ i
 >
 release
 (
+nullptr
 )
 ;
 }
@@ -765,6 +766,7 @@ i
 >
 release
 (
+nullptr
 )
 ;
 }
