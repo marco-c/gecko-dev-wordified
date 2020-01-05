@@ -724,10 +724,8 @@ const
 char16_t
 *
 aStr
-std
-:
-:
-string
+char
+*
 *
 aDst
 )
