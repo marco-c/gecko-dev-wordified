@@ -1438,6 +1438,13 @@ GuardAgainstReentrancy
 true
 /
 *
+DetectPoison
+=
+*
+/
+true
+/
+*
 InitialLowerBound
 =
 *
