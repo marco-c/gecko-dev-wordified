@@ -11495,6 +11495,7 @@ eForceQuit
 )
 ;
 }
+true
 )
 ;
 }
@@ -11837,6 +11838,7 @@ function
 (
 aItems
 callback
+aShutdown
 )
 {
 let
@@ -11953,7 +11955,7 @@ function
 (
 )
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -11967,6 +11969,13 @@ Finished
 "
 success
 :
+true
+shutdown
+:
+aShutdown
+=
+=
+=
 true
 }
 )
@@ -11991,7 +12000,7 @@ function
 err
 )
 {
-Messaging
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -12009,6 +12018,13 @@ err
 success
 :
 false
+shutdown
+:
+aShutdown
+=
+=
+=
+true
 }
 )
 ;
