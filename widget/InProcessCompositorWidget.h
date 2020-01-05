@@ -303,7 +303,7 @@ RealWidget
 )
 override
 ;
-private
+protected
 :
 nsBaseWidget
 *
