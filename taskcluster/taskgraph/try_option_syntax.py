@@ -1348,7 +1348,7 @@ Ubuntu
 :
 [
 '
-linux
+linux32
 '
 '
 linux64
