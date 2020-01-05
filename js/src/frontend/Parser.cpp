@@ -55091,7 +55091,15 @@ false
 null
 (
 )
-JSMSG_BAD_PROP_ID
+JSMSG_UNEXPECTED_TOKEN
+"
+property
+name
+"
+TokenKindToDesc
+(
+ltok
+)
 )
 ;
 return
