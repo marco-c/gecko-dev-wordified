@@ -1761,6 +1761,8 @@ REFLOW_OUT_OF_FLOW
 |
 REFLOW
 )
+&
+&
 /
 /
 The
@@ -1775,8 +1777,6 @@ Flow
 :
 fragment
 recursively
-&
-&
 !
 base
 .
