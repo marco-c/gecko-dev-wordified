@@ -7920,6 +7920,12 @@ aProperty
 =
 =
 eCSSProperty_UNKNOWN
+|
+|
+aProperty
+=
+=
+eCSSProperty_DOM
 "
 property
 ID
@@ -15319,6 +15325,12 @@ aProperty
 |
 |
 eCSSProperty_border_image_outset
+=
+=
+aProperty
+|
+|
+eCSSProperty_DOM
 =
 =
 aProperty
