@@ -1184,6 +1184,7 @@ context
 *
 /
 void
+NO_SANITIZE_ALIGNMENT
 SHA1_End
 (
 SHA1Context
