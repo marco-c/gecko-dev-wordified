@@ -106,6 +106,12 @@ FontWeight900
 }
 ;
 use
+font_context
+:
+:
+FontContextHandleMethods
+;
+use
 servo_util
 :
 :
@@ -517,10 +523,6 @@ FT_Library
 fctx
 .
 ctx
-.
-get
-(
-)
 .
 ctx
 ;
@@ -2090,10 +2092,6 @@ fctx
 .
 ctx
 .
-get
-(
-)
-.
 ctx
 ;
 if
@@ -2264,10 +2262,6 @@ FT_Library
 fctx
 .
 ctx
-.
-get
-(
-)
 .
 ctx
 ;

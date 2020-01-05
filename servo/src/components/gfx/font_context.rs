@@ -230,6 +230,16 @@ trait
 FontContextHandleMethods
 {
 fn
+clone
+(
+&
+self
+)
+-
+>
+FontContextHandle
+;
+fn
 create_font_from_identifier
 (
 &
