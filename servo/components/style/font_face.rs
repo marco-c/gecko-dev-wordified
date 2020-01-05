@@ -271,7 +271,7 @@ dest
 write_str
 (
 "
-local
+url
 (
 \
 "
@@ -310,7 +310,7 @@ dest
 write_str
 (
 "
-url
+local
 (
 \
 "

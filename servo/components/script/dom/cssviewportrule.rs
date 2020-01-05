@@ -204,8 +204,11 @@ new_inherited
 (
 parent
 :
+Option
+<
 &
 CSSStyleSheet
+>
 viewportrule
 :
 Arc
@@ -253,8 +256,11 @@ window
 Window
 parent
 :
+Option
+<
 &
 CSSStyleSheet
+>
 viewportrule
 :
 Arc
