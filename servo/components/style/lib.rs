@@ -558,6 +558,10 @@ ordered_float
 ;
 extern
 crate
+quickersort
+;
+extern
+crate
 rand
 ;
 extern

@@ -103,6 +103,15 @@ use
 std
 :
 :
+fmt
+:
+:
+Debug
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -2681,6 +2690,8 @@ Clone
 Copy
 +
 Sized
++
+Debug
 +
 :
 :
