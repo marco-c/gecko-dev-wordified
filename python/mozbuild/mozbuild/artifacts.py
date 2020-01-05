@@ -4247,7 +4247,7 @@ firefox
 )
 \
 .
-mac64
+mac
 \
 .
 dmg
