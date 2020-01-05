@@ -23008,7 +23008,10 @@ NS_STYLE_IME_MODE_AUTO
 )
 mWindowDragging
 (
-NS_STYLE_WINDOW_DRAGGING_DEFAULT
+StyleWindowDragging
+:
+:
+Default
 )
 mWindowShadow
 (

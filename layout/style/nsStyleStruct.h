@@ -21105,7 +21105,10 @@ mIMEMode
 [
 reset
 ]
-uint8_t
+mozilla
+:
+:
+StyleWindowDragging
 mWindowDragging
 ;
 /
