@@ -1470,6 +1470,10 @@ getState
 requests
 .
 requests
+.
+valueSeq
+(
+)
 ;
 statisticsView
 .
