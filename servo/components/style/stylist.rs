@@ -2959,7 +2959,7 @@ servo
 ]
 pub
 fn
-style_for_anonymous_box
+style_for_anonymous
 (
 &
 self
@@ -3016,6 +3016,11 @@ pseudo
 PseudoElement
 :
 :
+ServoText
+|
+PseudoElement
+:
+:
 ServoInputText
 =
 >
@@ -3049,6 +3054,16 @@ PseudoElement
 :
 :
 ServoTableWrapper
+|
+PseudoElement
+:
+:
+ServoInlineBlockWrapper
+|
+PseudoElement
+:
+:
+ServoInlineAbsolute
 =
 >
 true
