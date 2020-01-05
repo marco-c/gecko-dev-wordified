@@ -309,6 +309,10 @@ string_multimap
 ;
 pub
 mod
+switches
+;
+pub
+mod
 task
 ;
 pub
