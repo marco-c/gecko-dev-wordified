@@ -4403,6 +4403,16 @@ mStyleContext
 }
 if
 (
+HasCSSAnimations
+(
+)
+|
+|
+HasCSSTransitions
+(
+)
+|
+|
 EffectSet
 :
 :
