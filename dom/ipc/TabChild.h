@@ -2043,10 +2043,6 @@ mozilla
 WidgetKeyboardEvent
 &
 aEvent
-const
-MaybeNativeKeyBinding
-&
-aBindings
 )
 override
 ;
