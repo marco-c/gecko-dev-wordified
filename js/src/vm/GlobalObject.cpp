@@ -4256,6 +4256,10 @@ ctor_
 JSObject
 *
 proto_
+unsigned
+prototypeAttrs
+unsigned
+constructorAttrs
 )
 {
 RootedObject
@@ -4308,9 +4312,7 @@ prototype
 protoVal
 nullptr
 nullptr
-JSPROP_PERMANENT
-|
-JSPROP_READONLY
+prototypeAttrs
 )
 &
 &
@@ -4329,7 +4331,7 @@ constructor
 ctorVal
 nullptr
 nullptr
-0
+constructorAttrs
 )
 ;
 }
