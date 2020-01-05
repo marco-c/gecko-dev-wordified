@@ -1943,6 +1943,20 @@ self
 secure_tls
 )
             
+self
+.
+assertFalse
+(
+self
+.
+capabilities
+[
+"
+acceptInsecureCerts
+"
+]
+)
+            
 yield
 self
 .
@@ -1989,6 +2003,20 @@ desired_capabilities
 self
 .
 insecure_tls
+)
+            
+self
+.
+assertTrue
+(
+self
+.
+capabilities
+[
+"
+acceptInsecureCerts
+"
+]
 )
             
 yield
