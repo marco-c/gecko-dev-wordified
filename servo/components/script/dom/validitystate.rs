@@ -79,6 +79,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -188,7 +191,7 @@ ValidityState
 new_inherited
 (
 )
-global
+GlobalRef
 :
 :
 Window

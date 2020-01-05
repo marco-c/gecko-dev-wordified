@@ -124,6 +124,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -781,7 +784,7 @@ namespace
 prefix
 owner
 )
-global
+GlobalRef
 :
 :
 Window

@@ -97,6 +97,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -200,7 +203,7 @@ Screen
 new_inherited
 (
 )
-global
+GlobalRef
 :
 :
 Window

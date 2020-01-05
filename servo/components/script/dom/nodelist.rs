@@ -97,6 +97,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -256,7 +259,7 @@ new_inherited
 (
 list_type
 )
-global
+GlobalRef
 :
 :
 Window

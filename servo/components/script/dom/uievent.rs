@@ -156,15 +156,6 @@ dom
 bindings
 :
 :
-global
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -369,7 +360,7 @@ EventTypeId
 :
 UIEvent
 )
-global
+GlobalRef
 :
 :
 Window

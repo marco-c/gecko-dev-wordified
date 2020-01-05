@@ -160,15 +160,6 @@ dom
 bindings
 :
 :
-global
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -528,7 +519,7 @@ KeyboardEvent
 new_inherited
 (
 )
-global
+GlobalRef
 :
 :
 Window

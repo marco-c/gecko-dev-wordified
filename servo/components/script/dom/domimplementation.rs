@@ -180,7 +180,7 @@ bindings
 global
 :
 :
-Window
+GlobalRef
 ;
 use
 dom
@@ -438,6 +438,9 @@ new_inherited
 (
 document
 )
+GlobalRef
+:
+:
 Window
 (
 *

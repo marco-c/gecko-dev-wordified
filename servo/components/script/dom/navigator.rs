@@ -97,6 +97,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -218,7 +221,7 @@ Navigator
 new_inherited
 (
 )
-global
+GlobalRef
 :
 :
 Window

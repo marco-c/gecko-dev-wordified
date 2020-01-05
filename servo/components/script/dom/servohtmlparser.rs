@@ -126,6 +126,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -536,7 +539,7 @@ reflect_dom_object
 (
 box
 parser
-global
+GlobalRef
 :
 :
 Window

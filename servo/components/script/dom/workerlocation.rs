@@ -114,7 +114,7 @@ bindings
 global
 :
 :
-Worker
+GlobalRef
 ;
 use
 dom
@@ -240,6 +240,9 @@ new_inherited
 (
 url
 )
+GlobalRef
+:
+:
 Worker
 (
 global

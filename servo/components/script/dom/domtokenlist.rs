@@ -141,7 +141,7 @@ bindings
 global
 :
 :
-Window
+GlobalRef
 ;
 use
 dom
@@ -330,6 +330,9 @@ clone
 (
 )
 )
+GlobalRef
+:
+:
 Window
 (
 *

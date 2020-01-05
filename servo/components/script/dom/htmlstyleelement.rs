@@ -205,8 +205,8 @@ layout_interface
 :
 :
 {
-AddStylesheetMsg
 LayoutChan
+Msg
 }
 ;
 use
@@ -530,7 +530,10 @@ layout_chan
 .
 send
 (
-AddStylesheetMsg
+Msg
+:
+:
+AddStylesheet
 (
 sheet
 )

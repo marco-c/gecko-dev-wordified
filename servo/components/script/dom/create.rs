@@ -319,9 +319,6 @@ htmlheadingelement
 :
 :
 HeadingLevel
-:
-:
-*
 ;
 use
 dom
@@ -1553,6 +1550,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading1
 )
 atom
@@ -1568,6 +1568,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading2
 )
 atom
@@ -1583,6 +1586,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading3
 )
 atom
@@ -1598,6 +1604,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading4
 )
 atom
@@ -1613,6 +1622,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading5
 )
 atom
@@ -1628,6 +1640,9 @@ make
 !
 (
 HTMLHeadingElement
+HeadingLevel
+:
+:
 Heading6
 )
 atom

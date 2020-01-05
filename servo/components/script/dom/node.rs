@@ -389,15 +389,6 @@ dom
 bindings
 :
 :
-global
-;
-use
-dom
-:
-:
-bindings
-:
-:
 js
 :
 :
@@ -626,7 +617,7 @@ layout_interface
 :
 {
 LayoutChan
-ReapLayoutDataMsg
+Msg
 }
 ;
 use
@@ -8302,7 +8293,7 @@ root
 reflect_dom_object
 (
 node
-global
+GlobalRef
 :
 :
 Window
@@ -11629,7 +11620,10 @@ chan
 .
 send
 (
-ReapLayoutDataMsg
+Msg
+:
+:
+ReapLayoutData
 (
 layout_data
 )

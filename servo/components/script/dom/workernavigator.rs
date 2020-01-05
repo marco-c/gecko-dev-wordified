@@ -99,7 +99,7 @@ bindings
 global
 :
 :
-Worker
+GlobalRef
 ;
 use
 dom
@@ -221,6 +221,9 @@ WorkerNavigator
 new_inherited
 (
 )
+GlobalRef
+:
+:
 Worker
 (
 global

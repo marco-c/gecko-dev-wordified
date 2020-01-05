@@ -106,6 +106,9 @@ bindings
 :
 :
 global
+:
+:
+GlobalRef
 ;
 use
 dom
@@ -250,7 +253,7 @@ new_inherited
 (
 elem
 )
-global
+GlobalRef
 :
 :
 Window

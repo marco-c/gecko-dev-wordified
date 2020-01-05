@@ -220,7 +220,7 @@ bindings
 global
 :
 :
-Window
+GlobalRef
 ;
 use
 dom
@@ -459,6 +459,9 @@ root_node
 what_to_show
 filter
 )
+GlobalRef
+:
+:
 Window
 (
 *

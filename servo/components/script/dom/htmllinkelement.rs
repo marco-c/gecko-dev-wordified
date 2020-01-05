@@ -256,7 +256,7 @@ layout_interface
 :
 {
 LayoutChan
-LoadStylesheetMsg
+Msg
 }
 ;
 use
@@ -1088,7 +1088,10 @@ layout_chan
 .
 send
 (
-LoadStylesheetMsg
+Msg
+:
+:
+LoadStylesheet
 (
 url
 )
