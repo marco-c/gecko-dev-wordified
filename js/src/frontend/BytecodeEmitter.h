@@ -679,6 +679,12 @@ uint32_t
 >
 list
 ;
+uint32_t
+numYields
+;
+uint32_t
+numAwaits
+;
 explicit
 CGYieldAndAwaitOffsetList
 (
@@ -690,6 +696,14 @@ cx
 list
 (
 cx
+)
+numYields
+(
+0
+)
+numAwaits
+(
+0
 )
 {
 }
