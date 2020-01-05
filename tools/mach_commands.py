@@ -2204,9 +2204,9 @@ clang
 -
 format
 -
-3
+4
 .
-5
+0
 "
         
 fmt_diff
@@ -2218,9 +2218,9 @@ format
 -
 diff
 -
-3
+4
 .
-5
+0
 "
         
 #
@@ -2228,20 +2228,14 @@ We
 are
 currently
 using
-a
-modified
-version
+an
+unmodified
+snapshot
 of
+upstream
 clang
 -
 format
-hosted
-on
-people
-.
-mozilla
-.
-org
 .
         
 #
@@ -2252,28 +2246,16 @@ temporary
 work
 around
 until
-we
-upstream
-the
-necessary
-changes
-and
-we
-can
-use
-        
-#
-a
-system
-version
-of
 clang
--
-format
+4
 .
-See
-bug
-961541
+0
+has
+been
+released
+with
+our
+changes
 .
         
 if
@@ -2574,6 +2556,13 @@ diff
 "
 "
 -
+-
+no
+-
+color
+"
+"
+-
 U0
 "
 "
@@ -2765,6 +2754,9 @@ root
 )
 :
         
+import
+urllib2
+        
 target
 =
 os
@@ -2814,7 +2806,7 @@ mozilla
 org
 /
 ~
-ajones
+sledru
 /
 clang
 -
