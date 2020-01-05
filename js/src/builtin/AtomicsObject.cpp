@@ -7750,12 +7750,13 @@ RootedObject
 objProto
 (
 cx
-global
--
->
+GlobalObject
+:
+:
 getOrCreateObjectPrototype
 (
 cx
+global
 )
 )
 ;

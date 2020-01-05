@@ -149,8 +149,7 @@ initClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 ;
