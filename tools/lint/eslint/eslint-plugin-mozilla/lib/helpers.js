@@ -2301,7 +2301,7 @@ helpers
 .
 getIsHeadFile
 (
-this
+context
 )
 *
 *
@@ -2401,7 +2401,7 @@ helpers
 .
 getIsHeadFile
 (
-this
+context
 )
 *
 *
@@ -2733,7 +2733,7 @@ helpers
 .
 getIsHeadFile
 (
-this
+context
 )
 *
 *
@@ -2865,7 +2865,7 @@ helpers
 .
 getIsTest
 (
-this
+context
 )
 *
 *
@@ -2978,7 +2978,7 @@ helpers
 .
 getIsHeadFile
 (
-this
+context
 )
 *
 *
