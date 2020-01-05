@@ -10096,8 +10096,9 @@ mAnimationMetricsTracker
 .
 UpdateAnimationInProgress
 (
-wantNextFrame
+animationProcess
 layerAreaAnimated
+aVsyncRate
 )
 ;
 if
