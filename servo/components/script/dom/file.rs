@@ -258,6 +258,10 @@ new_inherited
 (
 blob_impl
 typeString
+.
+to_owned
+(
+)
 )
 name
 :

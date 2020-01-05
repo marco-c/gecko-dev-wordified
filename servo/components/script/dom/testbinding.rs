@@ -1119,6 +1119,10 @@ new_from_empty_slice
 )
 "
 "
+.
+to_owned
+(
+)
 )
 }
 fn
@@ -2206,6 +2210,10 @@ new_from_empty_slice
 )
 "
 "
+.
+to_owned
+(
+)
 )
 )
 }
@@ -2819,6 +2827,10 @@ new_from_empty_slice
 )
 "
 "
+.
+to_owned
+(
+)
 )
 }
 fn
@@ -3103,6 +3115,10 @@ new_from_empty_slice
 )
 "
 "
+.
+to_owned
+(
+)
 )
 ]
 }
@@ -3499,6 +3515,10 @@ new_from_empty_slice
 )
 "
 "
+.
+to_owned
+(
+)
 )
 )
 }

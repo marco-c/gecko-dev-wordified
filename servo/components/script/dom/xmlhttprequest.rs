@@ -8858,7 +8858,6 @@ new_from_slice
 (
 slice
 )
-&
 mime
 )
 ;
