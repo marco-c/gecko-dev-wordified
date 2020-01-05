@@ -1034,6 +1034,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 viewElemOffset
 viewElemLengthOverride
@@ -1114,6 +1115,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 viewElemOffset
 viewElemLengthOverride
@@ -1302,6 +1304,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 &
 out_error
@@ -1360,6 +1363,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 view
 viewElemOffset
 )
@@ -1520,6 +1524,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 anySrc
 &
 out_error
@@ -1619,6 +1624,7 @@ const
 TexImageSourceAdapter
 src
 (
+&
 srcView
 srcElemOffset
 )
