@@ -298,12 +298,12 @@ null
 function
 check_icons
 (
-addon_copy
+addon
 )
 {
 deepEqual
 (
-addon_copy
+addon
 .
 icons
 {

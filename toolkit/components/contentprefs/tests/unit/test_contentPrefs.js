@@ -1806,7 +1806,6 @@ c
 Site
 -
 Specificity
-{
 /
 /
 These
@@ -1833,7 +1832,7 @@ for
 the
 others
 .
-let
+var
 uri1
 =
 ContentPrefTest
@@ -1854,7 +1853,7 @@ com
 "
 )
 ;
-let
+var
 uri2
 =
 ContentPrefTest
@@ -1875,7 +1874,7 @@ com
 "
 )
 ;
-let
+var
 uri3
 =
 ContentPrefTest
@@ -1894,7 +1893,7 @@ com
 "
 )
 ;
-let
+var
 uri4
 =
 ContentPrefTest
@@ -2211,7 +2210,6 @@ uri4
 )
 )
 ;
-}
 /
 /
 Observers

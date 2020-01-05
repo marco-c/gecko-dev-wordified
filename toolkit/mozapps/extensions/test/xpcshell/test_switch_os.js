@@ -212,7 +212,7 @@ gExtensionsJSON
 for
 (
 let
-addonInstance
+addon
 of
 jData
 .
@@ -221,7 +221,7 @@ addons
 {
 if
 (
-addonInstance
+addon
 .
 id
 =
@@ -243,7 +243,7 @@ descriptor
 for
 this
 platform
-addonInstance
+addon
 .
 descriptor
 =

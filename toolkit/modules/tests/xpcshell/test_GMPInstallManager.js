@@ -1244,7 +1244,7 @@ test_checkForAddons_abort
 )
 {
 let
-overriddenXhr
+xhr
 =
 overrideXHR
 (
@@ -1275,7 +1275,7 @@ checkForAddons
 (
 )
 ;
-overriddenXhr
+xhr
 .
 abort
 (

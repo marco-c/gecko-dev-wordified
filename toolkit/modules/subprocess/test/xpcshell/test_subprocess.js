@@ -1347,15 +1347,15 @@ COUNT
 for
 (
 let
-j
+i
 =
 0
 ;
-j
+i
 <
 COUNT
 ;
-j
+i
 +
 +
 )
@@ -3380,7 +3380,7 @@ options
 )
 ;
 let
-pwdOutput
+pwd
 =
 read
 (
@@ -3414,7 +3414,7 @@ code
 )
 ;
 return
-pwdOutput
+pwd
 ;
 }
 let

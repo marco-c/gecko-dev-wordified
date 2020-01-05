@@ -349,7 +349,7 @@ num
 )
 ;
 let
-insertStmt
+stmt
 =
 db
 .
@@ -370,7 +370,7 @@ id
 "
 )
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -385,19 +385,19 @@ mozilla
 org
 "
 ;
-insertStmt
+stmt
 .
 execute
 (
 )
 ;
-insertStmt
+stmt
 .
 finalize
 (
 )
 ;
-insertStmt
+stmt
 =
 db
 .
@@ -426,7 +426,7 @@ caption
 "
 )
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -434,7 +434,7 @@ addon_internal_id
 =
 1
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -442,7 +442,7 @@ num
 =
 0
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -462,7 +462,7 @@ full1
 png
 "
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -482,7 +482,7 @@ thumbnail1
 png
 "
 ;
-insertStmt
+stmt
 .
 params
 .
@@ -495,13 +495,13 @@ Caption
 1
 "
 ;
-insertStmt
+stmt
 .
 execute
 (
 )
 ;
-insertStmt
+stmt
 .
 finalize
 (
@@ -870,7 +870,7 @@ incompatible
 )
 ;
 let
-selectStmt
+stmt
 =
 db
 .
@@ -889,7 +889,7 @@ compatibility_override
 "
 )
 ;
-selectStmt
+stmt
 .
 executeStep
 (
@@ -897,7 +897,7 @@ executeStep
 ;
 do_check_eq
 (
-selectStmt
+stmt
 .
 row
 .
@@ -905,7 +905,7 @@ count
 1
 )
 ;
-selectStmt
+stmt
 .
 reset
 (
@@ -922,7 +922,7 @@ addon
 "
 )
 ;
-selectStmt
+stmt
 .
 executeStep
 (
@@ -930,7 +930,7 @@ executeStep
 ;
 do_check_eq
 (
-selectStmt
+stmt
 .
 row
 .
@@ -938,7 +938,7 @@ count
 0
 )
 ;
-selectStmt
+stmt
 .
 finalize
 (
