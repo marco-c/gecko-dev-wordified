@@ -1005,8 +1005,6 @@ error
 *
 /
 _constructError
-:
-function
 (
 restResponse
 error
@@ -1016,8 +1014,6 @@ let
 errorObj
 =
 {
-error
-:
 error
 /
 /
@@ -1350,8 +1346,6 @@ protection
 *
 /
 _updateClockOffset
-:
-function
 (
 dateString
 )
@@ -1510,8 +1504,6 @@ milliseconds
 *
 /
 now
-:
-function
 (
 )
 {
@@ -1651,8 +1643,6 @@ response
 *
 /
 request
-:
-function
 (
 path
 method
@@ -2261,7 +2251,6 @@ response
 )
 ;
 }
-;
 function
 onComplete
 (
@@ -2511,8 +2500,6 @@ been
 requested
 .
 _maybeNotifyBackoff
-:
-function
 (
 response
 headerName
@@ -2628,8 +2615,6 @@ for
 testing
 .
 newHAWKAuthenticatedRESTRequest
-:
-function
 (
 uri
 credentials

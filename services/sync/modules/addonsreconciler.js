@@ -3010,13 +3010,7 @@ record
 =
 {
 id
-:
-id
 guid
-:
-guid
-enabled
-:
 enabled
 installed
 :

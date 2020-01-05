@@ -4482,8 +4482,6 @@ Sync
 Resource
 "
 getInterface
-:
-function
 (
 aIID
 )
@@ -4498,8 +4496,6 @@ aIID
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )

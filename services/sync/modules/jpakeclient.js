@@ -4430,8 +4430,6 @@ payload
 :
 {
 ciphertext
-:
-ciphertext
 IV
 :
 iv
@@ -4784,13 +4782,9 @@ payload
 :
 {
 ciphertext
-:
-ciphertext
 IV
 :
 iv
-hmac
-:
 hmac
 }
 }

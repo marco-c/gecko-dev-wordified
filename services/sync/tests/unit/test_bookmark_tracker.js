@@ -1585,8 +1585,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {
@@ -1754,8 +1752,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {
@@ -1767,8 +1763,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {
@@ -1994,8 +1988,6 @@ runInBatchMode
 (
 {
 runBatched
-:
-function
 (
 )
 {

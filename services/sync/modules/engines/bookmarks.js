@@ -3614,8 +3614,6 @@ false
 ;
 }
 _processIncoming
-:
-function
 (
 newitems
 )
@@ -5578,8 +5576,6 @@ _stmts
 {
 }
 _getStmt
-:
-function
 (
 query
 )
@@ -6245,8 +6241,6 @@ persistChangedIDs
 :
 false
 startTracking
-:
-function
 (
 )
 {
@@ -6310,8 +6304,6 @@ this
 ;
 }
 stopTracking
-:
-function
 (
 )
 {
@@ -7301,8 +7293,6 @@ _upScore
 ;
 }
 onItemRemoved
-:
-function
 (
 itemId
 parentId
@@ -7975,8 +7965,6 @@ _upScore
 ;
 }
 onBeginUpdateBatch
-:
-function
 (
 )
 {
@@ -7988,8 +7976,6 @@ _batchDepth
 ;
 }
 onEndUpdateBatch
-:
-function
 (
 )
 {
@@ -8027,8 +8013,6 @@ false
 }
 }
 onItemVisited
-:
-function
 (
 )
 {

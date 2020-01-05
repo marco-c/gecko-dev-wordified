@@ -3320,8 +3320,6 @@ been
 requested
 .
 _maybeNotifyBackoff
-:
-function
 (
 response
 headerName
@@ -3433,8 +3431,6 @@ for
 testing
 .
 newRESTRequest
-:
-function
 (
 url
 )

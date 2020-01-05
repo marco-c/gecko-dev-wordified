@@ -192,8 +192,6 @@ nothing
 *
 /
 Add
-:
-function
 (
 uri
 fn
@@ -402,8 +400,6 @@ false
 *
 /
 Find
-:
-function
 (
 uri
 title

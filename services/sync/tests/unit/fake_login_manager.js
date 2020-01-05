@@ -291,8 +291,6 @@ logins
 =
 {
 removeAllLogins
-:
-function
 (
 )
 {
@@ -305,8 +303,6 @@ fakeLogins
 ;
 }
 getAllLogins
-:
-function
 (
 )
 {
@@ -317,8 +313,6 @@ fakeLogins
 ;
 }
 addLogin
-:
-function
 (
 login
 )

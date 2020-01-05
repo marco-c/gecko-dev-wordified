@@ -923,8 +923,6 @@ for
 an
 engine
 resetScore
-:
-function
 (
 )
 {
@@ -1012,8 +1010,6 @@ persisted
 to
 disk
 ignoreID
-:
-function
 (
 id
 )
@@ -1036,8 +1032,6 @@ id
 ;
 }
 unignoreID
-:
-function
 (
 id
 )
@@ -1119,8 +1113,6 @@ _saveChangedIDs
 ;
 }
 addChangedID
-:
-function
 (
 id
 when
@@ -1252,8 +1244,6 @@ true
 ;
 }
 removeChangedID
-:
-function
 (
 .
 .
@@ -1393,8 +1383,6 @@ true
 ;
 }
 clearChangedIDs
-:
-function
 (
 )
 {
@@ -1454,22 +1442,16 @@ your
 subclasses
 .
 startTracking
-:
-function
 (
 )
 {
 }
 stopTracking
-:
-function
 (
 )
 {
 }
 engineIsEnabled
-:
-function
 (
 )
 {
@@ -1510,8 +1492,6 @@ enabled
 ;
 }
 onEngineEnabledChanged
-:
-function
 (
 engineEnabled
 )
@@ -1570,8 +1550,6 @@ clearChangedIDs
 }
 }
 observe
-:
-function
 (
 subject
 topic
@@ -1731,8 +1709,6 @@ enabled
 )
 ;
 }
-return
-;
 }
 }
 }
@@ -2210,8 +2186,6 @@ cleanly
 *
 /
 applyIncomingBatch
-:
-function
 (
 records
 )
@@ -2353,7 +2327,6 @@ id
 ;
 }
 }
-;
 return
 failed
 ;
@@ -2446,8 +2419,6 @@ apply
 *
 /
 applyIncoming
-:
-function
 (
 record
 )
@@ -2563,8 +2534,6 @@ from
 *
 /
 create
-:
-function
 (
 record
 )
@@ -2641,8 +2610,6 @@ from
 *
 /
 remove
-:
-function
 (
 record
 )
@@ -2717,8 +2684,6 @@ from
 *
 /
 update
-:
-function
 (
 record
 )
@@ -2784,8 +2749,6 @@ locally
 *
 /
 itemExists
-:
-function
 (
 id
 )
@@ -2894,8 +2857,6 @@ engine
 *
 /
 createRecord
-:
-function
 (
 id
 collection
@@ -2944,8 +2905,6 @@ ID
 *
 /
 changeItemID
-:
-function
 (
 oldID
 newID
@@ -2997,8 +2956,6 @@ ignored
 *
 /
 getAllIDs
-:
-function
 (
 )
 {
@@ -3081,8 +3038,6 @@ state
 *
 /
 wipe
-:
-function
 (
 )
 {
@@ -3196,8 +3151,6 @@ prototype
 =
 {
 get
-:
-function
 (
 name
 )
@@ -3346,8 +3299,6 @@ engine
 ;
 }
 getAll
-:
-function
 (
 )
 {
@@ -3406,8 +3357,6 @@ list
 *
 /
 getEnabled
-:
-function
 (
 )
 {
@@ -3472,8 +3421,6 @@ name
 ;
 }
 persistDeclined
-:
-function
 (
 )
 {
@@ -3514,8 +3461,6 @@ array
 *
 /
 getDeclined
-:
-function
 (
 )
 {
@@ -3531,8 +3476,6 @@ _declined
 ;
 }
 setDeclined
-:
-function
 (
 engines
 )
@@ -3555,8 +3498,6 @@ persistDeclined
 ;
 }
 isDeclined
-:
-function
 (
 engineName
 )
@@ -3586,8 +3527,6 @@ array
 *
 /
 decline
-:
-function
 (
 engines
 )
@@ -3618,8 +3557,6 @@ persistDeclined
 ;
 }
 undecline
-:
-function
 (
 engines
 )
@@ -3676,8 +3613,6 @@ setup
 *
 /
 declineDisabled
-:
-function
 (
 )
 {
@@ -3786,8 +3721,6 @@ failed
 *
 /
 register
-:
-function
 (
 engineObject
 )
@@ -3935,8 +3868,6 @@ engineObject
 }
 }
 unregister
-:
-function
 (
 val
 )
@@ -3970,8 +3901,6 @@ name
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -4427,8 +4356,6 @@ tracker
 ;
 }
 sync
-:
-function
 (
 )
 {
@@ -4496,8 +4423,6 @@ data
 *
 /
 resetClient
-:
-function
 (
 )
 {
@@ -4541,8 +4466,6 @@ _resetClient
 ;
 }
 _wipeClient
-:
-function
 (
 )
 {
@@ -4600,8 +4523,6 @@ clearChangedIDs
 ;
 }
 wipeClient
-:
-function
 (
 )
 {
@@ -4672,8 +4593,6 @@ null
 *
 /
 getValidator
-:
-function
 (
 )
 {
@@ -5202,8 +5121,6 @@ toString
 ;
 }
 resetLastSync
-:
-function
 (
 )
 {
@@ -5391,8 +5308,6 @@ _toFetchDelay
 ;
 }
 loadToFetch
-:
-function
 (
 )
 {
@@ -5584,8 +5499,6 @@ _previousFailedDelay
 ;
 }
 loadPreviousFailed
-:
-function
 (
 )
 {
@@ -5759,8 +5672,6 @@ items
 *
 /
 getChangedIDs
-:
-function
 (
 )
 {
@@ -5788,8 +5699,6 @@ crypto
 fields
 .
 _createRecord
-:
-function
 (
 id
 )
@@ -5843,8 +5752,6 @@ each
 sync
 .
 _syncStartup
-:
-function
 (
 )
 {
@@ -6164,7 +6071,6 @@ _resetClient
 )
 ;
 }
-;
 /
 /
 Delete
@@ -6457,8 +6363,6 @@ application
 *
 /
 itemSource
-:
-function
 (
 )
 {
@@ -6511,8 +6415,6 @@ impossible
 *
 /
 _processIncoming
-:
-function
 (
 newitems
 )
@@ -8519,8 +8421,6 @@ false
 ;
 }
 _noteApplyFailure
-:
-function
 (
 )
 {
@@ -8540,8 +8440,6 @@ telemetry
 .
 }
 _noteApplyNewFailure
-:
-function
 (
 )
 {
@@ -8600,8 +8498,6 @@ otherwise
 *
 /
 _findDupe
-:
-function
 (
 item
 )
@@ -8728,8 +8624,6 @@ true
 ;
 }
 _deleteId
-:
-function
 (
 id
 )
@@ -8969,8 +8863,6 @@ not
 *
 /
 _reconcile
-:
-function
 (
 item
 )
@@ -10442,8 +10334,6 @@ outgoing
 records
 .
 _uploadOutgoing
-:
-function
 (
 )
 {
@@ -11144,8 +11034,6 @@ at
 next
 sync
 _syncFinish
-:
-function
 (
 )
 {
@@ -11332,8 +11220,6 @@ slice
 }
 }
 _syncCleanup
-:
-function
 (
 )
 {
@@ -11385,8 +11271,6 @@ clear
 }
 }
 _sync
-:
-function
 (
 )
 {
@@ -11468,8 +11352,6 @@ _syncCleanup
 }
 }
 canDecrypt
-:
-function
 (
 )
 {
@@ -11578,11 +11460,6 @@ canDecrypt
 true
 ;
 }
-.
-bind
-(
-this
-)
 ;
 /
 /
@@ -11664,8 +11541,6 @@ canDecrypt
 ;
 }
 _resetClient
-:
-function
 (
 )
 {
@@ -11691,8 +11566,6 @@ toFetch
 ;
 }
 wipeServer
-:
-function
 (
 )
 {
@@ -11744,8 +11617,6 @@ _resetClient
 ;
 }
 removeClientData
-:
-function
 (
 )
 {
@@ -11891,8 +11762,6 @@ enumeration
 *
 /
 handleHMACMismatch
-:
-function
 (
 item
 mayRetry

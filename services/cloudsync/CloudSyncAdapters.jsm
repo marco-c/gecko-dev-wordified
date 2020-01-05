@@ -170,11 +170,6 @@ true
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 let
 resume
@@ -211,11 +206,6 @@ false
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 let
 eventSource
@@ -392,8 +382,6 @@ observer
 =
 {
 observe
-:
-function
 (
 subject
 topic

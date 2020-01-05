@@ -157,8 +157,6 @@ Store
 .
 prototype
 wipe
-:
-function
 (
 )
 {
@@ -251,8 +249,6 @@ _trackerObj
 :
 SteamTracker
 _resetClient
-:
-function
 (
 )
 {
@@ -264,8 +260,6 @@ true
 ;
 }
 _sync
-:
-function
 (
 )
 {
@@ -287,8 +281,6 @@ topics
 [
 ]
 observe
-:
-function
 (
 subject
 topic
@@ -314,8 +306,6 @@ topic
 ;
 }
 reset
-:
-function
 (
 )
 {

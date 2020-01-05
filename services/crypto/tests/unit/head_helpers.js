@@ -210,8 +210,6 @@ platformVersion
 "
 "
 OS
-:
-OS
 }
 )
 ;

@@ -584,8 +584,6 @@ remote
 :
 base
 bucket
-:
-bucket
 adapter
 :
 FirefoxAdapter
@@ -801,8 +799,6 @@ signature_encoding
 rs_base64url
 "
 signature
-:
-signature
 hash_algorithm
 :
 "
@@ -828,8 +824,6 @@ comment
 {
 return
 {
-comment
-:
 comment
 sampleHeaders
 :

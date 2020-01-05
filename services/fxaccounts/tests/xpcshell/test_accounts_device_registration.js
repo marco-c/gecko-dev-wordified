@@ -834,8 +834,6 @@ test
 8888
 "
 getKey
-:
-function
 (
 type
 )
@@ -3932,7 +3930,6 @@ thirtytwo_hex
 thirtytwo_hex
 ;
 }
-;
 function
 expandBytes
 (
@@ -3951,7 +3948,6 @@ two_hex
 )
 ;
 }
-;
 function
 getTestUser
 (

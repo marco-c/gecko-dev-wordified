@@ -1578,8 +1578,6 @@ mockTSC
 /
 TokenServerClient
 getTokenFromBrowserIDAssertion
-:
-function
 (
 uri
 assertion

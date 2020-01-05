@@ -2870,8 +2870,6 @@ true
 ;
 }
 _updateEnabledFromMeta
-:
-function
 (
 meta
 numClients
@@ -3729,8 +3727,6 @@ false
 ;
 }
 _updateEnabledEngines
-:
-function
 (
 )
 {

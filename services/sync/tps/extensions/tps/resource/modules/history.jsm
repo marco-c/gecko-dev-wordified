@@ -746,8 +746,6 @@ nothing
 *
 /
 Add
-:
-function
 (
 item
 usSinceEpoch
@@ -810,8 +808,6 @@ let
 place
 =
 {
-uri
-:
 uri
 visits
 :
@@ -1041,8 +1037,6 @@ false
 *
 /
 Find
-:
-function
 (
 item
 usSinceEpoch
@@ -1299,8 +1293,6 @@ nothing
 *
 /
 Delete
-:
-function
 (
 item
 usSinceEpoch

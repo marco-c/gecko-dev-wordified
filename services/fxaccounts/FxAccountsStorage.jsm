@@ -3900,15 +3900,12 @@ filename
 )
 ;
 }
-;
 JSONStorage
 .
 prototype
 =
 {
 set
-:
-function
 (
 contents
 )
@@ -4020,8 +4017,6 @@ result
 ;
 }
 get
-:
-function
 (
 )
 {
