@@ -2769,9 +2769,6 @@ EARLY_ACCEPTED
 }
 mEarlyDataDisposition
 ;
-nsresult
-mTransportStatus
-;
 }
 ;
 }
