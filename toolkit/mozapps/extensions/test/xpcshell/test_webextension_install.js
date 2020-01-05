@@ -2579,7 +2579,7 @@ org
 "
 ;
 let
-apps
+minStarApps
 =
 {
 applications
@@ -2598,18 +2598,18 @@ version
 }
 }
 let
-testManifest
+minStarTestManifest
 =
 Object
 .
 assign
 (
-apps
+minStarApps
 MANIFEST
 )
 ;
 let
-extension
+minStarExtension
 =
 ExtensionTestUtils
 .
@@ -2618,7 +2618,7 @@ loadExtension
 {
 manifest
 :
-testManifest
+minStarTestManifest
 useAddonManager
 :
 "
@@ -2632,7 +2632,7 @@ Assert
 .
 rejects
 (
-extension
+minStarExtension
 .
 startup
 (
@@ -2666,7 +2666,7 @@ exception
 )
 ;
 let
-addon
+minStarAddon
 =
 yield
 promiseAddonByID
@@ -2676,7 +2676,7 @@ newId
 ;
 equal
 (
-addon
+minStarAddon
 null
 "
 Add

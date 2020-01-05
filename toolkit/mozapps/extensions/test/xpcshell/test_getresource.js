@@ -653,7 +653,7 @@ callback_soon
 (
 function
 (
-aInstall
+aInstall_2
 )
 {
 do_check_false
@@ -672,7 +672,7 @@ png
 ;
 do_check_true
 (
-aInstall
+aInstall_2
 .
 addon
 .

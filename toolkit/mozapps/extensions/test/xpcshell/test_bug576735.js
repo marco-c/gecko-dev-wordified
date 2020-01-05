@@ -313,8 +313,8 @@ org
 function
 (
 [
-a1
-a2
+a1_2
+a2_2
 ]
 )
 {
@@ -328,7 +328,7 @@ be
 installed
 do_check_eq
 (
-a1
+a1_2
 null
 )
 ;
@@ -341,7 +341,7 @@ been
 detected
 do_check_neq
 (
-a2
+a2_2
 null
 )
 ;

@@ -308,7 +308,7 @@ in
 the
 profile
 var
-profile
+gProfile
 =
 do_get_profile
 (
@@ -339,7 +339,7 @@ default
 var
 blockFile
 =
-profile
+gProfile
 .
 clone
 (
@@ -517,15 +517,15 @@ amo
 "
 ;
 var
-revocations
+gRevocations
 =
-profile
+gProfile
 .
 clone
 (
 )
 ;
-revocations
+gRevocations
 .
 append
 (
@@ -539,7 +539,7 @@ txt
 if
 (
 !
-revocations
+gRevocations
 .
 exists
 (
@@ -565,7 +565,7 @@ existing
 .
 copyTo
 (
-profile
+gProfile
 "
 revocations
 .
@@ -2830,7 +2830,7 @@ op
 let
 lastModified
 =
-revocations
+gRevocations
 .
 lastModifiedTime
 ;
@@ -2863,7 +2863,7 @@ saveEntries
 let
 newModified
 =
-revocations
+gRevocations
 .
 lastModifiedTime
 ;

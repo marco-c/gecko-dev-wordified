@@ -16099,17 +16099,6 @@ test_launchWhenSucceeded_deleteTempFileOnExit
 (
 )
 {
-const
-kDeleteTempFileOnExit
-=
-"
-browser
-.
-helperApps
-.
-deleteTempFileOnExit
-"
-;
 let
 customLauncherPath
 =

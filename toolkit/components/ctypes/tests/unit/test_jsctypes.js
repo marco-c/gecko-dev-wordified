@@ -2852,7 +2852,7 @@ TypeError
 )
 ;
 let
-i
+int64
 =
 ctypes
 .
@@ -2863,7 +2863,7 @@ Int64
 ;
 do_check_true
 (
-i
+int64
 .
 __proto__
 =
@@ -2878,7 +2878,7 @@ prototype
 ;
 do_check_true
 (
-i
+int64
 instanceof
 ctypes
 .
@@ -2899,7 +2899,7 @@ radix
 .
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -2927,7 +2927,7 @@ radix
 )
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -2944,7 +2944,7 @@ function
 (
 )
 {
-i
+int64
 .
 toString
 (
@@ -2961,7 +2961,7 @@ function
 (
 )
 {
-i
+int64
 .
 toString
 (
@@ -2978,7 +2978,7 @@ function
 (
 )
 {
-i
+int64
 .
 toString
 (
@@ -2995,7 +2995,7 @@ function
 (
 )
 {
-i
+int64
 .
 toString
 (
@@ -3018,7 +3018,7 @@ toSource
 .
 do_check_eq
 (
-i
+int64
 .
 toSource
 (
@@ -3043,7 +3043,7 @@ function
 (
 )
 {
-i
+int64
 .
 toSource
 (
@@ -3054,7 +3054,7 @@ toSource
 TypeError
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3067,12 +3067,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3082,7 +3082,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3095,7 +3095,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3108,7 +3108,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3121,7 +3121,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toSource
 (
@@ -3135,7 +3135,7 @@ Int64
 "
 "
 +
-i
+int64
 .
 toString
 (
@@ -3149,7 +3149,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3163,12 +3163,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3178,7 +3178,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3192,7 +3192,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3206,7 +3206,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3220,7 +3220,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toSource
 (
@@ -3234,7 +3234,7 @@ Int64
 "
 "
 +
-i
+int64
 .
 toString
 (
@@ -3248,7 +3248,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3262,12 +3262,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3277,7 +3277,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3291,7 +3291,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3305,7 +3305,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3319,7 +3319,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toSource
 (
@@ -3333,7 +3333,7 @@ Int64
 "
 "
 +
-i
+int64
 .
 toString
 (
@@ -3357,7 +3357,7 @@ double
 )
 constructor
 .
-i
+int64
 =
 ctypes
 .
@@ -3369,7 +3369,7 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3379,7 +3379,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3390,12 +3390,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3405,7 +3405,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3418,7 +3418,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3431,7 +3431,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3442,7 +3442,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3454,12 +3454,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3469,7 +3469,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3483,7 +3483,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3497,7 +3497,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3518,7 +3518,7 @@ string
 )
 constructor
 .
-i
+int64
 =
 ctypes
 .
@@ -3531,12 +3531,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3546,7 +3546,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3559,7 +3559,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3572,7 +3572,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3583,7 +3583,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3597,12 +3597,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3612,7 +3612,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3626,7 +3626,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3640,7 +3640,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3652,7 +3652,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3665,12 +3665,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3680,7 +3680,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3693,7 +3693,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3706,7 +3706,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3717,7 +3717,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3731,12 +3731,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3746,7 +3746,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3760,7 +3760,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3774,7 +3774,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3796,7 +3796,7 @@ Int64
 )
 constructor
 .
-i
+int64
 =
 ctypes
 .
@@ -3812,7 +3812,7 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3822,7 +3822,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3840,12 +3840,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3855,7 +3855,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3868,7 +3868,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3881,7 +3881,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3892,7 +3892,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -3911,12 +3911,12 @@ Int64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -3926,7 +3926,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3940,7 +3940,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3954,7 +3954,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -3976,7 +3976,7 @@ UInt64
 )
 constructor
 .
-i
+int64
 =
 ctypes
 .
@@ -3992,7 +3992,7 @@ UInt64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -4002,7 +4002,7 @@ toString
 "
 )
 ;
-i
+int64
 =
 ctypes
 .
@@ -4020,12 +4020,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
 )
-i
+int64
 .
 toString
 (
@@ -4035,7 +4035,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -4048,7 +4048,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -4061,7 +4061,7 @@ toString
 ;
 do_check_eq
 (
-i
+int64
 .
 toString
 (
@@ -5040,7 +5040,7 @@ TypeError
 )
 ;
 let
-i
+uint64
 =
 ctypes
 .
@@ -5051,7 +5051,7 @@ UInt64
 ;
 do_check_true
 (
-i
+uint64
 .
 __proto__
 =
@@ -5066,7 +5066,7 @@ prototype
 ;
 do_check_true
 (
-i
+uint64
 instanceof
 ctypes
 .
@@ -5087,7 +5087,7 @@ radix
 .
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5115,7 +5115,7 @@ radix
 )
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5132,7 +5132,7 @@ function
 (
 )
 {
-i
+uint64
 .
 toString
 (
@@ -5149,7 +5149,7 @@ function
 (
 )
 {
-i
+uint64
 .
 toString
 (
@@ -5166,7 +5166,7 @@ function
 (
 )
 {
-i
+uint64
 .
 toString
 (
@@ -5183,7 +5183,7 @@ function
 (
 )
 {
-i
+uint64
 .
 toString
 (
@@ -5206,7 +5206,7 @@ toSource
 .
 do_check_eq
 (
-i
+uint64
 .
 toSource
 (
@@ -5231,7 +5231,7 @@ function
 (
 )
 {
-i
+uint64
 .
 toSource
 (
@@ -5242,7 +5242,7 @@ toSource
 TypeError
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5255,12 +5255,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5270,7 +5270,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5283,7 +5283,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5296,7 +5296,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5309,7 +5309,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toSource
 (
@@ -5323,7 +5323,7 @@ UInt64
 "
 "
 +
-i
+uint64
 .
 toString
 (
@@ -5337,7 +5337,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5350,12 +5350,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5365,7 +5365,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5378,7 +5378,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5391,7 +5391,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5404,7 +5404,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toSource
 (
@@ -5418,7 +5418,7 @@ UInt64
 "
 "
 +
-i
+uint64
 .
 toString
 (
@@ -5442,7 +5442,7 @@ double
 )
 constructor
 .
-i
+uint64
 =
 ctypes
 .
@@ -5454,7 +5454,7 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5464,7 +5464,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5475,12 +5475,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5490,7 +5490,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5503,7 +5503,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5516,7 +5516,7 @@ fffffffffffff000
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5536,7 +5536,7 @@ string
 )
 constructor
 .
-i
+uint64
 =
 ctypes
 .
@@ -5549,12 +5549,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5564,7 +5564,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5577,7 +5577,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5590,7 +5590,7 @@ ffffffffffffffff
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5601,7 +5601,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5614,12 +5614,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5629,7 +5629,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5642,7 +5642,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5655,7 +5655,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5666,7 +5666,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5679,12 +5679,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5694,7 +5694,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5707,7 +5707,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5720,7 +5720,7 @@ ffffffffffffffff
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5731,7 +5731,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5744,7 +5744,7 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5764,7 +5764,7 @@ UInt64
 )
 constructor
 .
-i
+uint64
 =
 ctypes
 .
@@ -5780,7 +5780,7 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5790,7 +5790,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5808,12 +5808,12 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5823,7 +5823,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5836,7 +5836,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5849,7 +5849,7 @@ ffffffffffffffff
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5860,7 +5860,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5878,7 +5878,7 @@ UInt64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5898,7 +5898,7 @@ Int64
 )
 constructor
 .
-i
+uint64
 =
 ctypes
 .
@@ -5914,7 +5914,7 @@ Int64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5924,7 +5924,7 @@ toString
 "
 )
 ;
-i
+uint64
 =
 ctypes
 .
@@ -5942,12 +5942,12 @@ Int64
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
 )
-i
+uint64
 .
 toString
 (
@@ -5957,7 +5957,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5970,7 +5970,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -5983,7 +5983,7 @@ toString
 ;
 do_check_eq
 (
-i
+uint64
 .
 toString
 (
@@ -9930,14 +9930,14 @@ correctly
 function
 test_roundtrip
 (
-t
+tFn
 val
 )
 {
 let
 f1
 =
-t
+tFn
 (
 val
 )
@@ -17708,7 +17708,7 @@ contents
 '
 .
 let
-i
+int32_t
 =
 ctypes
 .
@@ -17719,7 +17719,7 @@ int32_t
 ;
 p
 =
-i
+int32_t
 .
 address
 (
@@ -17730,7 +17730,7 @@ do_check_eq
 p
 .
 contents
-i
+int32_t
 .
 value
 )
@@ -17748,7 +17748,7 @@ int32_t
 ;
 do_check_eq
 (
-i
+int32_t
 .
 value
 12

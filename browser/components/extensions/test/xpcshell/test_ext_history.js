@@ -557,7 +557,7 @@ getTime
 function
 pushVisit
 (
-visits
+subvisits
 )
 {
 visitDate
@@ -565,7 +565,7 @@ visitDate
 =
 1000
 ;
-visits
+subvisits
 .
 push
 (
@@ -1532,7 +1532,7 @@ REFERENCE_DATE
 function
 background
 (
-REFERENCE_DATE
+BGSCRIPT_REFERENCE_DATE
 )
 {
 const
@@ -1699,12 +1699,12 @@ text
 "
 startTime
 :
-REFERENCE_DATE
+BGSCRIPT_REFERENCE_DATE
 -
 2000
 endTime
 :
-REFERENCE_DATE
+BGSCRIPT_REFERENCE_DATE
 -
 1000
 }
