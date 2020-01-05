@@ -1437,7 +1437,7 @@ postMessage
 name
 :
 "
-TimePickerPopupChanged
+PickerPopupChanged
 "
 detail
 :
@@ -1592,7 +1592,7 @@ name
 {
 case
 "
-TimePickerSetValue
+PickerSetValue
 "
 :
 {
@@ -1612,7 +1612,7 @@ break
 }
 case
 "
-TimePickerInit
+PickerInit
 "
 :
 {

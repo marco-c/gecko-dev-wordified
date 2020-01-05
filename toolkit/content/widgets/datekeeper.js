@@ -97,7 +97,7 @@ month
 {
 Number
 }
-date
+day
 *
 }
 *
@@ -144,7 +144,7 @@ DateKeeper
 {
 year
 month
-date
+day
 }
 {
 firstDayOfWeek
@@ -209,7 +209,7 @@ _update
 (
 year
 month
-date
+day
 )
 ;
 }
@@ -294,13 +294,13 @@ this
 state
 .
 month
-date
+day
 =
 this
 .
 state
 .
-date
+day
 }
 )
 {
@@ -310,7 +310,7 @@ _update
 (
 year
 month
-date
+day
 )
 ;
 }
@@ -379,7 +379,7 @@ month
 Makes
 sure
 the
-date
+day
 is
 <
 =
@@ -442,7 +442,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -458,7 +458,7 @@ year
 Makes
 sure
 the
-date
+day
 is
 <
 =
@@ -521,7 +521,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -539,7 +539,7 @@ offset
 Makes
 sure
 the
-date
+day
 is
 <
 =
@@ -614,7 +614,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -651,7 +651,7 @@ param
 {
 Number
 }
-date
+day
 [
 description
 ]
@@ -661,7 +661,7 @@ _update
 (
 year
 month
-date
+day
 )
 {
 /
@@ -689,7 +689,7 @@ setUTCFullYear
 (
 year
 month
-date
+day
 )
 ;
 this
@@ -728,7 +728,7 @@ this
 .
 state
 .
-date
+day
 =
 this
 .
@@ -1343,7 +1343,7 @@ headers
 ]
 ;
 let
-day
+dayOfWeek
 =
 firstDayOfWeek
 ;
@@ -1370,7 +1370,7 @@ push
 {
 textContent
 :
-day
+dayOfWeek
 %
 DAYS_IN_A_WEEK
 classNames
@@ -1383,7 +1383,7 @@ weekends
 .
 includes
 (
-day
+dayOfWeek
 %
 DAYS_IN_A_WEEK
 )
@@ -1399,7 +1399,7 @@ weekend
 }
 )
 ;
-day
+dayOfWeek
 +
 +
 ;
