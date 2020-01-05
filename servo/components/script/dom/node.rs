@@ -15768,21 +15768,18 @@ DisabledStateHelpers
 fn
 check_ancestors_disabled_state_for_form_control
 (
-&
 self
 )
 ;
 fn
 check_parent_disabled_state_for_option
 (
-&
 self
 )
 ;
 fn
 check_disabled_attribute
 (
-&
 self
 )
 ;
@@ -15804,7 +15801,6 @@ Node
 fn
 check_ancestors_disabled_state_for_form_control
 (
-&
 self
 )
 {
@@ -15855,7 +15851,6 @@ ancestor
 .
 is_parent_of
 (
-*
 self
 )
 {
@@ -15965,7 +15960,6 @@ return
 fn
 check_parent_disabled_state_for_option
 (
-&
 self
 )
 {
@@ -16036,7 +16030,6 @@ _
 fn
 check_disabled_attribute
 (
-&
 self
 )
 {
@@ -16055,7 +16048,6 @@ ElementCast
 :
 to_ref
 (
-*
 self
 )
 .
