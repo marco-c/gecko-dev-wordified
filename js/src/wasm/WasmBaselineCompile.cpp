@@ -32968,6 +32968,13 @@ deadCode_
 {
 masm
 .
+nopAlign
+(
+CodeAlignment
+)
+;
+masm
+.
 bind
 (
 &
