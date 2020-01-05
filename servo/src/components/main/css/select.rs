@@ -72,9 +72,6 @@ use
 style
 :
 :
-selector_matching
-:
-:
 UserAgentOrigin
 ;
 pub

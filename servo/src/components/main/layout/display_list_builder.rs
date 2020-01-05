@@ -443,7 +443,7 @@ for
 style
 :
 :
-properties
+computed_values
 :
 :
 RGBA

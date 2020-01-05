@@ -69,7 +69,14 @@ use
 cssparser
 :
 :
-*
+ast
+:
+:
+{
+ComponentValue
+Ident
+SkipWhitespaceIterable
+}
 ;
 pub
 fn

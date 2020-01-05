@@ -60,6 +60,9 @@ use
 cssparser
 :
 :
+ast
+:
+:
 {
 SyntaxError
 SourceLocation
