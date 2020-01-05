@@ -407,13 +407,6 @@ n
 test_message
 gTestMessage
 ;
-/
-*
-.
-.
-.
-*
-/
 void
 IFoo
 :
