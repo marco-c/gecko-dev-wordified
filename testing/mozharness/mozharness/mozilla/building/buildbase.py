@@ -7957,6 +7957,12 @@ UPLOAD_HOST
 '
 in
 mach_env
+and
+'
+stage_server
+'
+in
+c
 :
                 
 mach_env
@@ -7994,6 +8000,12 @@ UPLOAD_USER
 '
 in
 mach_env
+and
+'
+stage_username
+'
+in
+c
 :
                 
 mach_env
@@ -8031,6 +8043,12 @@ UPLOAD_SSH_KEY
 '
 in
 mach_env
+and
+'
+stage_ssh_key
+'
+in
+c
 :
                 
 mach_env
