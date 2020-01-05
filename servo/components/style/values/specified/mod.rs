@@ -217,8 +217,10 @@ align
 :
 :
 {
+AlignItems
 AlignJustifyContent
 AlignJustifySelf
+JustifyItems
 }
 ;
 pub
