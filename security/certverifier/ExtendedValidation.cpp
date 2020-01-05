@@ -185,37 +185,6 @@ prerror
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gPIPNSSLog
-;
-#
-define
-CONST_OID
-static
-const
-unsigned
-char
-#
-define
-OI
-(
-x
-)
-{
-siDEROID
-(
-unsigned
-char
-*
-)
-x
-sizeof
-x
-}
 struct
 nsMyTrustedEVInfo
 {
@@ -271,9 +240,6 @@ a
 dummy
 entry
 )
-SECOidTag
-oid_tag
-;
 unsigned
 char
 ev_root_sha256_fingerprint
@@ -498,8 +464,9 @@ new
 section
 consists
 of
-8
-lines
+the
+following
+components
 :
 /
 /
@@ -653,25 +620,6 @@ be
 sure
 )
 .
-/
-/
--
-the
-constant
-SEC_OID_UNKNOWN
-/
-/
-(
-it
-will
-be
-replaced
-at
-runtime
-with
-another
-identifier
-)
 /
 /
 -
@@ -899,6 +847,7 @@ NUM_TEST_EV_ROOTS
 #
 endif
 static
+const
 struct
 nsMyTrustedEVInfo
 myTrustedEVInfos
@@ -1170,7 +1119,6 @@ DEBUGtesting
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xE4
 0xFB
@@ -1371,7 +1319,6 @@ DEBUGtesting
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x49
 0x46
@@ -1462,7 +1409,6 @@ SECOM
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xA2
 0x2D
@@ -1551,7 +1497,6 @@ Cybertrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x96
 0x0A
@@ -1640,7 +1585,6 @@ SwissSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x62
 0xDD
@@ -1736,7 +1680,6 @@ StartCom
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xC7
 0x66
@@ -1836,7 +1779,6 @@ StartCom
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xE1
 0x78
@@ -1931,7 +1873,6 @@ StartCom
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xC7
 0xBA
@@ -2049,7 +1990,6 @@ VeriSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x9A
 0xCF
@@ -2148,7 +2088,6 @@ GeoTrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x37
 0xD5
@@ -2259,7 +2198,6 @@ Thawte
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x8D
 0x72
@@ -2367,7 +2305,6 @@ Trustwave
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xCE
 0xCD
@@ -2461,7 +2398,6 @@ Trustwave
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xF1
 0xC1
@@ -2552,7 +2488,6 @@ Trustwave
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x42
 0x00
@@ -2655,7 +2590,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x17
 0x93
@@ -2760,7 +2694,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x0C
 0x2C
@@ -2862,7 +2795,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x68
 0x7F
@@ -2980,7 +2912,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x6E
 0xA5
@@ -3091,7 +3022,6 @@ EV
 OID
 a
 "
-SEC_OID_UNKNOWN
 {
 0xC3
 0x84
@@ -3198,7 +3128,6 @@ EV
 OID
 a
 "
-SEC_OID_UNKNOWN
 {
 0x45
 0x14
@@ -3298,7 +3227,6 @@ EV
 OID
 b
 "
-SEC_OID_UNKNOWN
 {
 0x14
 0x65
@@ -3404,7 +3332,6 @@ EV
 OID
 b
 "
-SEC_OID_UNKNOWN
 {
 0x2C
 0xE1
@@ -3503,7 +3430,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x74
 0x31
@@ -3601,7 +3527,6 @@ Vadis
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x85
 0xA0
@@ -3701,7 +3626,6 @@ Solutions
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x15
 0xF0
@@ -3818,7 +3742,6 @@ Entrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x73
 0xC1
@@ -3917,7 +3840,6 @@ GlobalSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xEB
 0xD4
@@ -4004,7 +3926,6 @@ GlobalSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xCA
 0x42
@@ -4090,7 +4011,6 @@ GlobalSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xCB
 0xB5
@@ -4177,7 +4097,6 @@ Buypass
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xED
 0xF7
@@ -4270,7 +4189,6 @@ Certplus
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x0F
 0x99
@@ -4390,7 +4308,6 @@ EV
 OID
 a
 "
-SEC_OID_UNKNOWN
 {
 0x06
 0x3E
@@ -4512,7 +4429,6 @@ EV
 OID
 b
 "
-SEC_OID_UNKNOWN
 {
 0x13
 0x63
@@ -4605,7 +4521,6 @@ EV
 OID
 a
 "
-SEC_OID_UNKNOWN
 {
 0x03
 0x76
@@ -4691,7 +4606,6 @@ EV
 OID
 b
 "
-SEC_OID_UNKNOWN
 {
 0x0A
 0x81
@@ -4777,7 +4691,6 @@ EV
 OID
 c
 "
-SEC_OID_UNKNOWN
 {
 0x70
 0xA7
@@ -4864,7 +4777,6 @@ EV
 OID
 d
 "
-SEC_OID_UNKNOWN
 {
 0xBD
 0x71
@@ -4962,7 +4874,6 @@ Certum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x5C
 0x58
@@ -5061,7 +4972,6 @@ Certum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xB6
 0x76
@@ -5159,7 +5069,6 @@ EV
 OID
 1
 "
-SEC_OID_UNKNOWN
 {
 0x25
 0x30
@@ -5257,7 +5166,6 @@ EV
 OID
 2
 "
-SEC_OID_UNKNOWN
 {
 0x25
 0x30
@@ -5367,7 +5275,6 @@ Systems
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xFD
 0x73
@@ -5466,7 +5373,6 @@ CNNIC
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x1C
 0x01
@@ -5565,7 +5471,6 @@ TWCA
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xBF
 0xD8
@@ -5669,7 +5574,6 @@ TRUST
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xEE
 0xC5
@@ -5757,7 +5661,6 @@ Swisscom
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xD9
 0x5F
@@ -5873,7 +5776,6 @@ VeriSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x23
 0x99
@@ -5983,7 +5885,6 @@ GeoTrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xB4
 0x78
@@ -6103,7 +6004,6 @@ Thawte
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x4B
 0x03
@@ -6202,7 +6102,6 @@ Firmaprofesional
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x04
 0x04
@@ -6300,7 +6199,6 @@ TWCA
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x59
 0x76
@@ -6409,7 +6307,6 @@ ETugra
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xB0
 0xBF
@@ -6509,7 +6406,6 @@ Actalis
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x55
 0x92
@@ -6599,7 +6495,6 @@ WoSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x4B
 0x22
@@ -6697,7 +6592,6 @@ WoSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xD6
 0xF0
@@ -6792,7 +6686,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x7D
 0x05
@@ -6892,7 +6785,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x7E
 0x37
@@ -6991,7 +6883,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xCB
 0x3C
@@ -7084,7 +6975,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x31
 0xAD
@@ -7177,7 +7067,6 @@ DigiCert
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x55
 0x2F
@@ -7276,7 +7165,6 @@ QuoVadis
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x8F
 0xE4
@@ -7377,7 +7265,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x52
 0xF0
@@ -7486,7 +7373,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xE7
 0x93
@@ -7593,7 +7479,6 @@ Comodo
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x4F
 0xF4
@@ -7686,7 +7571,6 @@ GlobalSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xBE
 0xC9
@@ -7777,7 +7661,6 @@ GlobalSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x17
 0x9F
@@ -7894,7 +7777,6 @@ Entrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x6D
 0xC4
@@ -7992,7 +7874,6 @@ Nederlanden
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x4D
 0x24
@@ -8110,7 +7991,6 @@ Entrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x43
 0xDF
@@ -8241,7 +8121,6 @@ Entrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x02
 0xED
@@ -8335,7 +8214,6 @@ CFCA
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x5C
 0xC3
@@ -8424,7 +8302,6 @@ WoSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xD4
 0x87
@@ -8510,7 +8387,6 @@ WoSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x8B
 0x45
@@ -8601,7 +8477,6 @@ SECOM
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x51
 0x3B
@@ -8693,7 +8568,6 @@ WISeKey
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x6B
 0x9C
@@ -8789,7 +8663,6 @@ EV
 OID
 1
 "
-SEC_OID_UNKNOWN
 {
 0x15
 0x2A
@@ -8882,7 +8755,6 @@ EV
 OID
 2
 "
-SEC_OID_UNKNOWN
 {
 0x6C
 0xC0
@@ -8980,7 +8852,6 @@ EV
 OID
 3
 "
-SEC_OID_UNKNOWN
 {
 0x56
 0xC7
@@ -9069,7 +8940,6 @@ EV
 OID
 3
 "
-SEC_OID_UNKNOWN
 {
 0x27
 0x99
@@ -9162,7 +9032,6 @@ EV
 OID
 3
 "
-SEC_OID_UNKNOWN
 {
 0xB7
 0xC3
@@ -9281,7 +9150,6 @@ VeriSign
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x69
 0xDD
@@ -9375,7 +9243,6 @@ Forum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x8E
 0xCD
@@ -9459,7 +9326,6 @@ Forum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x1B
 0xA5
@@ -9543,7 +9409,6 @@ Forum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x18
 0xCE
@@ -9627,7 +9492,6 @@ Forum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0xE3
 0x5D
@@ -9725,7 +9589,6 @@ Forum
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x56
 0x8D
@@ -9820,7 +9683,6 @@ LuxTrust
 EV
 OID
 "
-SEC_OID_UNKNOWN
 {
 0x54
 0x45
@@ -9869,6 +9731,76 @@ u7E
 "
 }
 }
+;
+static
+SECOidTag
+sEVInfoOIDTags
+[
+mozilla
+:
+:
+ArrayLength
+(
+myTrustedEVInfos
+)
+]
+;
+static_assert
+(
+SEC_OID_UNKNOWN
+=
+=
+0
+"
+We
+depend
+on
+zero
+-
+initialized
+globals
+being
+interpreted
+as
+SEC_OID_UNKNOWN
+.
+"
+)
+;
+static_assert
+(
+mozilla
+:
+:
+ArrayLength
+(
+sEVInfoOIDTags
+)
+=
+=
+mozilla
+:
+:
+ArrayLength
+(
+myTrustedEVInfos
+)
+"
+These
+arrays
+are
+used
+in
+parallel
+and
+must
+have
+the
+same
+length
+.
+"
+)
 ;
 static
 SECOidTag
@@ -9974,11 +9906,11 @@ true
 for
 (
 const
-nsMyTrustedEVInfo
+SECOidTag
 &
-entry
+oidTag
 :
-myTrustedEVInfos
+sEVInfoOIDTags
 )
 {
 if
@@ -9986,9 +9918,7 @@ if
 policyOIDTag
 =
 =
-entry
-.
-oid_tag
+oidTag
 )
 {
 return
@@ -10098,14 +10028,36 @@ sCABForumEVOIDTag
 ;
 for
 (
+size_t
+iEV
+=
+0
+;
+iEV
+<
+mozilla
+:
+:
+ArrayLength
+(
+myTrustedEVInfos
+)
+;
++
++
+iEV
+)
+{
 const
 nsMyTrustedEVInfo
 &
 entry
-:
+=
 myTrustedEVInfos
-)
-{
+[
+iEV
+]
+;
 /
 /
 This
@@ -10211,9 +10163,10 @@ oidData
 =
 SECOID_FindOIDByTag
 (
-entry
-.
-oid_tag
+sEVInfoOIDTags
+[
+iEV
+]
 )
 ;
 if
@@ -10365,6 +10318,7 @@ myTrustedEVInfos
 iEV
 )
 {
+const
 nsMyTrustedEVInfo
 &
 entry
@@ -10872,9 +10826,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-entry
-.
-oid_tag
+sEVInfoOIDTags
+[
+iEV
+]
 =
 RegisterOID
 (
@@ -10886,9 +10841,10 @@ oid_name
 ;
 if
 (
-entry
-.
-oid_tag
+sEVInfoOIDTags
+[
+iEV
+]
 =
 =
 SEC_OID_UNKNOWN
