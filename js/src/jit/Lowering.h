@@ -1439,6 +1439,14 @@ ins
 )
 ;
 void
+visitSetFunName
+(
+MSetFunName
+*
+ins
+)
+;
+void
 visitKeepAliveObject
 (
 MKeepAliveObject

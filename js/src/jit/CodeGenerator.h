@@ -970,6 +970,14 @@ lir
 )
 ;
 void
+visitSetFunName
+(
+LSetFunName
+*
+lir
+)
+;
+void
 visitPointer
 (
 LPointer

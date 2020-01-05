@@ -487,6 +487,11 @@ JSOP_LAMBDA_ARROW
 \
 _
 (
+JSOP_SETFUNNAME
+)
+\
+_
+(
 JSOP_BITOR
 )
 \
