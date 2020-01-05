@@ -328,13 +328,6 @@ h
 #
 include
 "
-nsParserConstants
-.
-h
-"
-#
-include
-"
 nsCharsetSource
 .
 h

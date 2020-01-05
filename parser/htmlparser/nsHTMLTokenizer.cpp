@@ -196,13 +196,6 @@ nsIParser
 .
 h
 "
-#
-include
-"
-nsParserConstants
-.
-h
-"
 /
 *
 *
