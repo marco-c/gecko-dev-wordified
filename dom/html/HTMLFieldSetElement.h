@@ -259,7 +259,7 @@ NS_DECL_NSIDOMHTMLFIELDSETELEMENT
 nsIContent
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

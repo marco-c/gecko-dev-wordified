@@ -4260,7 +4260,7 @@ nsresult
 nsIContent
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

@@ -339,7 +339,7 @@ interface
 NS_DECL_NSIDOMATTR
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

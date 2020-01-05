@@ -273,7 +273,7 @@ interface
 methods
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

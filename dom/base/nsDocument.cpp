@@ -41884,7 +41884,7 @@ nsresult
 nsDocument
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

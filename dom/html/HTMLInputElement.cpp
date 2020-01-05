@@ -20241,7 +20241,7 @@ nsresult
 HTMLInputElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -20351,7 +20351,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -21200,7 +21200,7 @@ as
 nsGenericHTMLFormElementWithState
 :
 :
-PreHandleEvent
+GetEventTargetParent
 calls
 /
 /
@@ -21819,7 +21819,7 @@ rv
 nsGenericHTMLFormElementWithState
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -21835,7 +21835,7 @@ the
 base
 class
 '
-PreHandleEvent
+GetEventTargetParent
 so
 that
 /
@@ -21843,7 +21843,7 @@ that
 nsIContent
 :
 :
-PreHandleEvent
+GetEventTargetParent
 doesn
 '
 t
@@ -21853,6 +21853,8 @@ change
 we
 make
 to
+/
+/
 mCanHandle
 .
 if

@@ -229,7 +229,7 @@ the
 chain
 by
 calling
-PreHandleEvent
+GetEventTargetParent
 *
 on
 each
@@ -287,7 +287,7 @@ be
 set
 in
 *
-PreHandleEvent
+GetEventTargetParent
 .
 *
 *
@@ -506,7 +506,7 @@ chain
 *
 Set
 in
-PreHandleEvent
+GetEventTargetParent
 (
 )
 and
@@ -585,7 +585,7 @@ chain
 *
 Set
 in
-PreHandleEvent
+GetEventTargetParent
 (
 )
 and
@@ -761,7 +761,7 @@ must
 be
 set
 in
-PreHandleEvent
+GetEventTargetParent
 by
 event
 targets
@@ -769,8 +769,8 @@ targets
 If
 set
 to
-false
 *
+false
 indicates
 that
 this
@@ -938,7 +938,7 @@ is
 set
 before
 calling
-PreHandleEvent
+GetEventTargetParent
 on
 event
 targets
@@ -994,7 +994,7 @@ listener
 manager
 *
 when
-PreHandleEvent
+GetEventTargetParent
 is
 called
 set

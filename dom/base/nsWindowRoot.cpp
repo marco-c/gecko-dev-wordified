@@ -902,7 +902,7 @@ nsresult
 nsWindowRoot
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

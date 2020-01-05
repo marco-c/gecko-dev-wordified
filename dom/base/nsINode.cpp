@@ -7114,7 +7114,7 @@ nsresult
 nsINode
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

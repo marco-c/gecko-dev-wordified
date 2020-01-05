@@ -636,7 +636,7 @@ nsresult
 SVGAElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -649,7 +649,7 @@ rv
 Element
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -661,7 +661,7 @@ rv
 )
 ;
 return
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 aVisitor
 )

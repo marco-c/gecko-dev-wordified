@@ -3541,7 +3541,7 @@ nsresult
 SVGSVGElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -3625,7 +3625,7 @@ return
 SVGSVGElementBase
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

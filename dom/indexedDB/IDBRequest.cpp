@@ -2061,7 +2061,7 @@ nsresult
 IDBRequest
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

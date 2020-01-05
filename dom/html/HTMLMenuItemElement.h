@@ -217,7 +217,7 @@ nsIDOMHTMLMenuItemElement
 NS_DECL_NSIDOMHTMLMENUITEMELEMENT
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

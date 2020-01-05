@@ -1220,7 +1220,7 @@ nsresult
 HTMLAnchorElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1228,7 +1228,7 @@ aVisitor
 )
 {
 return
-PreHandleEventForAnchors
+GetEventTargetParentForAnchors
 (
 aVisitor
 )

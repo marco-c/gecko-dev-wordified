@@ -395,7 +395,7 @@ nsresult
 HTMLAreaElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -403,7 +403,7 @@ aVisitor
 )
 {
 return
-PreHandleEventForAnchors
+GetEventTargetParentForAnchors
 (
 aVisitor
 )

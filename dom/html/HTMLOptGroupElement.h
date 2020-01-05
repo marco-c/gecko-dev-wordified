@@ -226,7 +226,7 @@ override
 nsIContent
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

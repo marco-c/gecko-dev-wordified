@@ -17271,7 +17271,7 @@ nsresult
 Element
 :
 :
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 EventChainPreVisitor
 &
@@ -17387,15 +17387,15 @@ status
 bar
 updates
 in
-PreHandleEvent
+GetEventTargetParent
 so
 that
 the
 status
 bar
+/
+/
 gets
-/
-/
 updated
 even
 if
@@ -17410,6 +17410,8 @@ a
 chance
 to
 set
+/
+/
 it
 .
 switch

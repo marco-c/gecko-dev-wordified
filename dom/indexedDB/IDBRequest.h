@@ -441,7 +441,7 @@ NextSerialNumber
 nsIDOMEventTarget
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

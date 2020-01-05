@@ -333,7 +333,7 @@ override
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

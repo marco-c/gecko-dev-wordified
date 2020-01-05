@@ -546,7 +546,7 @@ DOMEventTargetHelper
 nsIDOMEventTarget
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

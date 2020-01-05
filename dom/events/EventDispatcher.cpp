@@ -1338,7 +1338,7 @@ aVisitor
 object
 and
 calls
-PreHandleEvent
+GetEventTargetParent
 .
 *
 Copies
@@ -1353,7 +1353,7 @@ EventTargetChainItem
 *
 /
 void
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1742,7 +1742,7 @@ void
 EventTargetChainItem
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -1761,7 +1761,7 @@ Unused
 mTarget
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -2337,16 +2337,6 @@ mEvent
 mFlags
 .
 mInSystemGroup
-&
-&
-aVisitor
-.
-mEvent
--
->
-IsAllowedToDispatchInSystemGroup
-(
-)
 )
 {
 /
@@ -3780,7 +3770,7 @@ dispatching
 .
 /
 /
-PreHandleEvent
+GetEventTargetParent
 for
 the
 original
@@ -3809,7 +3799,7 @@ isInAnon
 targetEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -3884,7 +3874,7 @@ targetEtci
 targetEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -4072,7 +4062,7 @@ mEventTargetAtParent
 parentEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )
@@ -4168,7 +4158,7 @@ parentEtci
 parentEtci
 -
 >
-PreHandleEvent
+GetEventTargetParent
 (
 preVisitor
 )

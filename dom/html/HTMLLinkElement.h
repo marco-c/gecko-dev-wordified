@@ -255,7 +255,7 @@ UpdateImport
 nsIDOMEventTarget
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

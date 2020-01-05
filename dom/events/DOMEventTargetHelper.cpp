@@ -1674,7 +1674,7 @@ nsresult
 DOMEventTargetHelper
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

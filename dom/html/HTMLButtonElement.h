@@ -316,7 +316,7 @@ override
 nsIDOMEventTarget
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

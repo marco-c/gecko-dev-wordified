@@ -347,7 +347,7 @@ nsresult
 ArchiveRequest
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

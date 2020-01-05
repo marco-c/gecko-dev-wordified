@@ -381,7 +381,7 @@ nsresult
 IDBFileRequest
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

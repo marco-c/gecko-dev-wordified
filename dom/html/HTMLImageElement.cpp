@@ -2143,7 +2143,7 @@ nsresult
 HTMLImageElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -2230,7 +2230,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

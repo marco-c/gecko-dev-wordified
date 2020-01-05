@@ -630,7 +630,7 @@ tweak
 our
 /
 /
-PreHandleEvent
+GetEventTargetParent
 implementation
 .
 nsCOMPtr
@@ -1260,7 +1260,7 @@ nsresult
 nsInProcessTabChildGlobal
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &

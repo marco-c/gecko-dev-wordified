@@ -1498,7 +1498,7 @@ doesn
 '
 t
 forward
-PreHandleEvent
+GetEventTargetParent
 because
 sometimes
 subclasses
@@ -1512,7 +1512,7 @@ it
 /
 #
 define
-NS_FORWARD_NSIDOMEVENTTARGET_NOPREHANDLEEVENT
+NS_FORWARD_NSIDOMEVENTTARGET_NOGETEVENTTARGETPARENT
 (
 _to
 )

@@ -8167,7 +8167,7 @@ cancelled
 *
 /
 nsresult
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 EventChainPreVisitor
 &

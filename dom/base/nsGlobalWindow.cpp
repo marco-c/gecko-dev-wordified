@@ -20018,7 +20018,7 @@ nsresult
 nsGlobalWindow
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -20031,7 +20031,7 @@ IsInnerWindow
 (
 )
 "
-PreHandleEvent
+GetEventTargetParent
 is
 used
 on
@@ -21387,7 +21387,7 @@ see
 nsDocument
 :
 :
-PreHandleEvent
+GetEventTargetParent
 .
 mIsDocumentLoaded
 =

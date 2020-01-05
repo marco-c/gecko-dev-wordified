@@ -1773,7 +1773,7 @@ nsStyledElement
 nsINode
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

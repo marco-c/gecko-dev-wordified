@@ -3900,7 +3900,7 @@ nsresult
 nsGenericHTMLElement
 :
 :
-PreHandleEventForAnchors
+GetEventTargetParentForAnchors
 (
 EventChainPreVisitor
 &
@@ -3913,7 +3913,7 @@ rv
 nsGenericHTMLElementBase
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )
@@ -3938,7 +3938,7 @@ NS_OK
 ;
 }
 return
-PreHandleEventForLinks
+GetEventTargetParentForLinks
 (
 aVisitor
 )
@@ -12511,7 +12511,7 @@ nsresult
 nsGenericHTMLFormElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 EventChainPreVisitor
 &
@@ -12673,7 +12673,7 @@ return
 nsGenericHTMLElement
 :
 :
-PreHandleEvent
+GetEventTargetParent
 (
 aVisitor
 )

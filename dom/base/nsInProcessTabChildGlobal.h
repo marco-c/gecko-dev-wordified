@@ -577,7 +577,7 @@ override
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :
@@ -925,7 +925,7 @@ sent
 so
 it
 affects
-PreHandleEvent
+GetEventTargetParent
 .
 bool
 mIsBrowserFrame

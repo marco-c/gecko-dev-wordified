@@ -1562,7 +1562,7 @@ aDest
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :

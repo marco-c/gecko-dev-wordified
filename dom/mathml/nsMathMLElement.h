@@ -432,7 +432,7 @@ aRuleData
 ;
 virtual
 nsresult
-PreHandleEvent
+GetEventTargetParent
 (
 mozilla
 :
