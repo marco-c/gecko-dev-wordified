@@ -345,6 +345,9 @@ bool
 disableLoopUnrolling
 ;
 bool
+disableOptimizationTracking
+;
+bool
 disablePgo
 ;
 bool
