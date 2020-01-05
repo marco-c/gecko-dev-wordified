@@ -727,7 +727,7 @@ releases
 /
 mozilla
 -
-aurora
+beta
 '
 )
 class
