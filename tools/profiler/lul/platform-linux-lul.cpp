@@ -258,12 +258,6 @@ defined
 (
 GP_OS_android
 )
-|
-|
-defined
-(
-GP_OS_darwin
-)
 SharedLibraryInfo
 info
 =
@@ -322,7 +316,7 @@ GetNativeDebugPath
 if
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
 /
 /

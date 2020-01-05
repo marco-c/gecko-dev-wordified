@@ -382,7 +382,7 @@ endif
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 #
 include
@@ -611,7 +611,7 @@ prof
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 class
 GeckoJavaSampler
@@ -1656,7 +1656,7 @@ profiler_get_available_features
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 if
 (
@@ -10366,7 +10366,7 @@ Data
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 static
 void
@@ -10987,7 +10987,7 @@ aSinceTime
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 if
 (
@@ -13909,7 +13909,7 @@ features
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 ProfilerFeature
 :
@@ -14061,7 +14061,7 @@ endif
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 if
 (
@@ -15272,7 +15272,7 @@ if
 !
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 ProfilerFeature
 :
@@ -15875,7 +15875,7 @@ endif
 if
 defined
 (
-PROFILE_JAVA
+GP_OS_android
 )
 if
 (

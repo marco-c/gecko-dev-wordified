@@ -191,7 +191,7 @@ h
 if
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
 #
 include
@@ -753,7 +753,7 @@ true
 if
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
 /
 /
@@ -1399,5 +1399,5 @@ endif
 /
 defined
 (
-USE_FAULTY_LIB
+GP_OS_android
 )
