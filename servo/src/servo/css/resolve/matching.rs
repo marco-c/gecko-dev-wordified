@@ -1526,7 +1526,9 @@ attr
 ~
 Attr
 (
+move
 name
+move
 val
 )
 ;
@@ -1536,6 +1538,7 @@ attrs
 .
 push
 (
+move
 attr
 )
 ;
@@ -1552,6 +1555,7 @@ node
 :
 Element
 (
+move
 elmt
 )
 )
@@ -1623,6 +1627,7 @@ node
 matches_selector
 (
 ~
+move
 sel
 )
 ;
@@ -1691,6 +1696,7 @@ node
 matches_selector
 (
 ~
+move
 sel
 )
 ;
@@ -1760,6 +1766,7 @@ node
 matches_selector
 (
 ~
+move
 sel
 )
 ;
@@ -1830,6 +1837,7 @@ node
 matches_selector
 (
 ~
+move
 sel
 )
 ;
@@ -1917,6 +1925,7 @@ node
 matches_selector
 (
 ~
+move
 sel1
 )
 ;
@@ -1927,6 +1936,7 @@ node
 matches_selector
 (
 ~
+move
 sel2
 )
 ;
@@ -2025,6 +2035,7 @@ node2
 matches_selector
 (
 ~
+move
 sel
 )
 ;
@@ -2284,6 +2295,7 @@ gggchild
 matches_selector
 (
 ~
+move
 sel1
 )
 ;
@@ -2408,6 +2420,7 @@ gggchild
 matches_selector
 (
 ~
+move
 sel2
 )
 ;
@@ -2500,6 +2513,7 @@ gggchild
 matches_selector
 (
 ~
+move
 sel3
 )
 ;
@@ -2613,6 +2627,7 @@ gggchild
 matches_selector
 (
 ~
+move
 sel4
 )
 ;

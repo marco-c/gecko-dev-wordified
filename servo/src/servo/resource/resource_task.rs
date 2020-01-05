@@ -873,6 +873,7 @@ loader_factories
 "
 snicklefritz
 "
+move
 loader_factory
 )
 ]
@@ -882,6 +883,7 @@ resource_task
 =
 create_resource_task_with_loaders
 (
+move
 loader_factories
 )
 ;
@@ -934,6 +936,7 @@ recv
 =
 Payload
 (
+move
 payload
 )
 ;
