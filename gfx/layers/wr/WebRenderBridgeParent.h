@@ -493,6 +493,13 @@ aWhy
 )
 override
 ;
+void
+SetWebRenderProfilerEnabled
+(
+bool
+aEnabled
+)
+;
 /
 /
 CompositorVsyncSchedulerOwner
