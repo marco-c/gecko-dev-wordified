@@ -6939,6 +6939,15 @@ Generic
 SpecificFragmentInfo
 :
 :
+GeneratedContent
+(
+.
+.
+)
+|
+SpecificFragmentInfo
+:
+:
 Iframe
 (
 .
