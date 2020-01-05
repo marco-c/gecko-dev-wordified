@@ -706,6 +706,9 @@ class
 ClientLayerManager
 ;
 class
+HostLayerManager
+;
+class
 Layer
 ;
 class
@@ -1529,6 +1532,17 @@ virtual
 BasicLayerManager
 *
 AsBasicLayerManager
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+HostLayerManager
+*
+AsHostLayerManager
 (
 )
 {

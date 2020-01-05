@@ -2700,9 +2700,6 @@ invalid
 regions
 properly
 .
-mCompositor
--
->
 SetCompositionTime
 (
 aTimeStamp

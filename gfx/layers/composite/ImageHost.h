@@ -373,6 +373,9 @@ Compositor
 struct
 EffectChain
 ;
+class
+HostLayerManager
+;
 /
 *
 *

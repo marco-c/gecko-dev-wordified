@@ -878,9 +878,9 @@ const
 SurfaceDescriptorTiles
 &
 aTileDescriptors
-Compositor
+HostLayerManager
 *
-aCompositor
+aLayerManager
 ISurfaceAllocator
 *
 aAllocator
