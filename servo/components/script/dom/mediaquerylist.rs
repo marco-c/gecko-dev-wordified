@@ -987,13 +987,6 @@ MediaQueryList
 >
 >
 }
-#
-[
-allow
-(
-unsafe_code
-)
-]
 impl
 WeakMediaQueryListVec
 {
@@ -1188,13 +1181,6 @@ change
 }
 }
 }
-#
-[
-allow
-(
-unsafe_code
-)
-]
 impl
 JSTraceable
 for
