@@ -1167,7 +1167,7 @@ if
 (
 StringBeginsWith
 (
-prefToken
+table
 NS_LITERAL_CSTRING
 (
 "
@@ -1181,7 +1181,7 @@ if
 (
 StringEndsWith
 (
-prefToken
+table
 NS_LITERAL_CSTRING
 (
 "
