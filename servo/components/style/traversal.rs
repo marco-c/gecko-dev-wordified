@@ -5561,7 +5561,7 @@ hint
 >
 {
 let
-_rule_nodes_changed
+rules_changed
 =
 element
 .
@@ -5582,6 +5582,11 @@ context
 &
 mut
 data
+rules_changed
+.
+important_rules_changed
+(
+)
 )
 ;
 }
@@ -5597,6 +5602,7 @@ context
 &
 mut
 data
+false
 )
 ;
 }

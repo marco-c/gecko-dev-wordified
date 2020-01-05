@@ -19655,8 +19655,8 @@ convert_transform
 (
 input
 :
-Vec
-<
+&
+[
 longhands
 :
 :
@@ -19667,7 +19667,7 @@ computed_value
 :
 :
 ComputedOperation
->
+]
 output
 :
 &
@@ -19854,6 +19854,7 @@ vector
 unsafe
 {
 match
+*
 servo
 {
 {
@@ -20108,6 +20109,7 @@ Self
 :
 convert_transform
 (
+&
 vec
 &
 mut
