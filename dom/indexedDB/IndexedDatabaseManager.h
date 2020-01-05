@@ -474,6 +474,12 @@ DataThreshold
 (
 )
 ;
+static
+uint32_t
+MaxSerializedMsgSize
+(
+)
+;
 void
 ClearBackgroundActor
 (
