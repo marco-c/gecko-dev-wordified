@@ -1846,6 +1846,10 @@ nsProfiler
 :
 GatheredOOPProfile
 (
+const
+nsACString
+&
+aProfile
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1869,6 +1873,7 @@ mGatherer
 >
 GatheredOOPProfile
 (
+aProfile
 )
 ;
 }

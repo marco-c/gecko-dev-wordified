@@ -219,9 +219,6 @@ ProfilerObserver
 >
 mObserver
 ;
-nsCString
-mProfile
-;
 }
 ;
 }
