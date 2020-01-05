@@ -287,13 +287,6 @@ aSample
 )
 ;
 }
-mDecoderCallback
--
->
-WaitingForKey
-(
-)
-;
 caps
 .
 NotifyWhenKeyIdUsable
