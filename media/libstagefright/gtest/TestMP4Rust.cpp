@@ -405,7 +405,7 @@ rust
 MP4MetadataEmpty
 )
 {
-mp4parse_error
+mp4parse_status
 rv
 ;
 mp4parse_io
@@ -434,7 +434,7 @@ nullptr
 EXPECT_EQ
 (
 rv
-MP4PARSE_ERROR_BADARG
+mp4parse_status_BAD_ARG
 )
 ;
 /
@@ -568,7 +568,7 @@ context
 EXPECT_EQ
 (
 rv
-MP4PARSE_ERROR_IO
+mp4parse_status_IO
 )
 ;
 mp4parse_free
@@ -621,7 +621,7 @@ context
 EXPECT_EQ
 (
 rv
-MP4PARSE_ERROR_INVALID
+mp4parse_status_INVALID
 )
 ;
 mp4parse_free
@@ -662,7 +662,7 @@ context
 EXPECT_EQ
 (
 rv
-MP4PARSE_ERROR_INVALID
+mp4parse_status_INVALID
 )
 ;
 mp4parse_free
@@ -705,7 +705,7 @@ context
 EXPECT_EQ
 (
 rv
-MP4PARSE_ERROR_UNSUPPORTED
+mp4parse_status_UNSUPPORTED
 )
 ;
 mp4parse_free
@@ -837,7 +837,7 @@ nullptr
 context
 )
 ;
-mp4parse_error
+mp4parse_status
 rv
 =
 mp4parse_read
@@ -847,7 +847,7 @@ context
 ;
 EXPECT_EQ
 (
-MP4PARSE_OK
+mp4parse_status_OK
 rv
 )
 ;
@@ -867,7 +867,7 @@ tracks
 ;
 EXPECT_EQ
 (
-MP4PARSE_OK
+mp4parse_status_OK
 rv
 )
 ;
