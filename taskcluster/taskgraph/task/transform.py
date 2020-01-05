@@ -627,22 +627,30 @@ self
 dependencies
 =
 task
-[
+.
+get
+(
 '
 dependencies
 '
-]
+{
+}
+)
         
 self
 .
 when
 =
 task
-[
+.
+get
+(
 '
 when
 '
-]
+{
+}
+)
         
 super
 (
