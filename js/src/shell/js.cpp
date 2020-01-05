@@ -49248,11 +49248,6 @@ runtime
 )
 -
 >
-zoneGroupFromMainThread
-(
-)
--
->
 profilingScripts
 =
 enableCodeCoverage
@@ -49525,11 +49520,6 @@ cx
 -
 >
 runtime
-(
-)
--
->
-zoneGroupFromMainThread
 (
 )
 -

@@ -808,6 +808,14 @@ defaultVersion_
 (
 JSVERSION_DEFAULT
 )
+profilingScripts
+(
+false
+)
+scriptAndCountsVector
+(
+nullptr
+)
 lcovOutput_
 (
 )
@@ -1712,11 +1720,6 @@ profiled
 .
 *
 /
-zoneGroupFromMainThread
-(
-)
--
->
 profilingScripts
 =
 false
