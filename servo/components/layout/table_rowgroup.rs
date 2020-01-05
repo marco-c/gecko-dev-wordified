@@ -1047,7 +1047,7 @@ assign_inline_sizes
 &
 mut
 self
-ctx
+layout_context
 :
 &
 LayoutContext
@@ -1187,7 +1187,7 @@ mut
 self
 .
 block_flow
-ctx
+layout_context
 containing_block_inline_size
 )
 ;
@@ -1197,6 +1197,7 @@ block_flow
 .
 propagate_assigned_inline_size_to_children
 (
+layout_context
 inline_start_content_edge
 content_inline_size
 Some

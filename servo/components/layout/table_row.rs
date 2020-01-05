@@ -1754,6 +1754,7 @@ block_flow
 .
 propagate_assigned_inline_size_to_children
 (
+layout_context
 inline_start_content_edge
 containing_block_inline_size
 Some
