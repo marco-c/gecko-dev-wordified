@@ -1079,6 +1079,16 @@ IPCDoc
 (
 )
 ;
+if
+(
+!
+ipcDoc
+)
+{
+return
+nullptr
+;
+}
 HWND
 hWnd
 =
