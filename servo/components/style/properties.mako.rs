@@ -3111,9 +3111,6 @@ direction
 ltr
 rtl
 "
-experimental
-=
-True
 )
 }
 /
