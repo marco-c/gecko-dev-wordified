@@ -84,7 +84,7 @@ pub
 struct
 HTMLVideoElement
 {
-htmlelement
+htmlmediaelement
 :
 HTMLMediaElement
 }
