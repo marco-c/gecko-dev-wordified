@@ -470,6 +470,13 @@ return
 true
 ;
 }
+virtual
+void
+ClearCachedResources
+(
+)
+{
+}
 /
 *
 *
@@ -887,6 +894,13 @@ SetForwarder
 ShadowLayerForwarder
 *
 aFwd
+)
+override
+;
+virtual
+void
+ClearCachedResources
+(
 )
 override
 ;
