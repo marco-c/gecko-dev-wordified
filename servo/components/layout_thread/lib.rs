@@ -1019,6 +1019,7 @@ traversal
 {
 DomTraversal
 TraversalDriver
+TraversalFlags
 }
 ;
 /
@@ -3686,6 +3687,9 @@ quirks_mode
 unwrap
 (
 )
+animation_only_restyle
+:
+false
 }
 image_cache_thread
 :
@@ -8318,13 +8322,12 @@ pre_traverse
 (
 element
 stylist
-/
-*
-skip_root
-=
-*
-/
-false
+TraversalFlags
+:
+:
+empty
+(
+)
 )
 }
 ;
