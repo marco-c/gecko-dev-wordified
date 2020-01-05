@@ -124,6 +124,7 @@ path
 :
 PathBuf
 ;
+pub
 const
 TEST_PROVIDER
 :
@@ -135,6 +136,7 @@ TestProvider
 &
 TestProvider
 ;
+pub
 struct
 TestProvider
 ;
