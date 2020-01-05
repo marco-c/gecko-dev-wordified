@@ -620,6 +620,7 @@ iter
 CreateWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 )
 ;

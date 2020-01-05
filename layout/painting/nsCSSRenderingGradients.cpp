@@ -8465,6 +8465,13 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+layers
+:
+:
+StackingContextHelper
+&
+aSc
 layers
 :
 :

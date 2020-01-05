@@ -1122,6 +1122,7 @@ nsDisplayBoxShadowInner
 CreateInsetBoxShadowWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 mFrame
 buttonRect
@@ -1133,6 +1134,7 @@ mBorderRenderer
 CreateWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 )
 ;
@@ -1994,6 +1996,7 @@ mBorderRenderer
 CreateWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 )
 ;

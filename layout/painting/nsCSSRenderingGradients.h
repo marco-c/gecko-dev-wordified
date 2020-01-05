@@ -147,6 +147,9 @@ namespace
 layers
 {
 class
+StackingContextHelper
+;
+class
 WebRenderDisplayItemLayer
 ;
 }
@@ -539,6 +542,13 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+layers
+:
+:
+StackingContextHelper
+&
+aSc
 layers
 :
 :

@@ -22357,6 +22357,7 @@ BuildWebRenderDisplayItemsForStyleImageLayer
 (
 params
 aBuilder
+aSc
 aParentCommands
 aLayer
 )
@@ -27009,6 +27010,7 @@ mBorderRenderer
 CreateWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 clip
 )
@@ -30215,6 +30217,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 nsTArray
 <
 WebRenderParentCommand
@@ -31081,6 +31087,7 @@ mBorderImageRenderer
 CreateBorderImageWebRenderCommands
 (
 aBuilder
+aSc
 aParentCommands
 aLayer
 )
@@ -31158,6 +31165,7 @@ mBorderRenderer
 CreateWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 clip
 )
@@ -33936,6 +33944,10 @@ wr
 DisplayListBuilder
 &
 aBuilder
+const
+StackingContextHelper
+&
+aSc
 WebRenderDisplayItemLayer
 *
 aLayer
@@ -34393,6 +34405,7 @@ nsDisplayBoxShadowInner
 CreateInsetBoxShadowWebRenderCommands
 (
 aBuilder
+aSc
 aLayer
 mFrame
 borderRect
