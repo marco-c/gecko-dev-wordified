@@ -1639,8 +1639,6 @@ rval
 .
 setNumber
 (
-uint32_t
-(
 cx
 -
 >
@@ -1656,6 +1654,9 @@ stats
 getMaxGCPauseSinceClear
 (
 )
+.
+ToMicroseconds
+(
 )
 )
 ;
@@ -1694,8 +1695,6 @@ rval
 .
 setNumber
 (
-uint32_t
-(
 cx
 -
 >
@@ -1711,6 +1710,9 @@ stats
 clearMaxGCPauseAccumulator
 (
 )
+.
+ToMicroseconds
+(
 )
 )
 ;
