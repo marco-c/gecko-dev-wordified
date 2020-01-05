@@ -14350,10 +14350,9 @@ LookupList
 table
 *
 /
-OffsetTo
+LOffsetTo
 <
 FeatureVariations
-ULONG
 >
 featureVars
 ;

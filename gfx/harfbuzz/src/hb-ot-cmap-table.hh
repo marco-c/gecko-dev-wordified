@@ -2148,10 +2148,9 @@ selector
 .
 *
 /
-OffsetTo
+LOffsetTo
 <
 DefaultUVS
-ULONG
 >
 defaultUVS
 ;
@@ -2169,10 +2168,9 @@ be
 .
 *
 /
-OffsetTo
+LOffsetTo
 <
 NonDefaultUVS
-ULONG
 >
 nonDefaultUVS
 ;
@@ -2789,10 +2787,9 @@ ID
 .
 *
 /
-OffsetTo
+LOffsetTo
 <
 CmapSubtable
-ULONG
 >
 subtable
 ;

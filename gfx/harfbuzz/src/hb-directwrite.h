@@ -197,7 +197,7 @@ h
 HB_BEGIN_DECLS
 HB_EXTERN
 hb_bool_t
-hb_shape_dwrite_experimental_width
+hb_directwrite_shape_experimental_width
 (
 hb_font_t
 *

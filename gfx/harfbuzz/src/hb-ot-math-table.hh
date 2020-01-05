@@ -198,10 +198,10 @@ Wang
 /
 #
 ifndef
-HB_OT_LAYOUT_MATH_TABLE_HH
+HB_OT_MATH_TABLE_HH
 #
 define
-HB_OT_LAYOUT_MATH_TABLE_HH
+HB_OT_MATH_TABLE_HH
 #
 include
 "
@@ -3832,7 +3832,7 @@ DEFINE_SIZE_STATIC
 }
 /
 *
-mathspace
+namespace
 OT
 *
 /
@@ -3840,6 +3840,6 @@ OT
 endif
 /
 *
-HB_OT_LAYOUT_MATH_TABLE_HH
+HB_OT_MATH_TABLE_HH
 *
 /

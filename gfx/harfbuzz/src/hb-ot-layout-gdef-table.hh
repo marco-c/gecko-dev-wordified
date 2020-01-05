@@ -1591,10 +1591,9 @@ format
 /
 ArrayOf
 <
-OffsetTo
+LOffsetTo
 <
 Coverage
-ULONG
 >
 >
 coverage
@@ -2630,10 +2629,9 @@ version
 .
 *
 /
-OffsetTo
+LOffsetTo
 <
 VariationStore
-ULONG
 >
 varStore
 ;

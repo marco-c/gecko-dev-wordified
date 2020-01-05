@@ -485,10 +485,6 @@ data
 :
 *
 destroy
-(
-closure
-data
-)
 :
 *
 replace

@@ -803,10 +803,9 @@ Header
 /
 ArrayOf
 <
-OffsetTo
+LOffsetTo
 <
 OffsetTable
-ULONG
 >
 ULONG
 >

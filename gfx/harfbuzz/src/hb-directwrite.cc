@@ -3495,7 +3495,7 @@ GetGlyphs
 textString
 textLength
 fontFace
-FALSE
+false
 isRightToLeft
 &
 runHead
@@ -3770,7 +3770,7 @@ glyphProperties
 glyphCount
 fontFace
 fontEmSize
-FALSE
+false
 isRightToLeft
 &
 runHead
@@ -4837,7 +4837,7 @@ API
 *
 /
 hb_bool_t
-hb_shape_dwrite_experimental_width
+hb_directwrite_shape_experimental_width
 (
 hb_font_t
 *
