@@ -665,7 +665,7 @@ ExceptionHandling
 CallSetup
 {
 let
-win
+global
 =
 global_object_for_js_object
 (
@@ -683,9 +683,9 @@ root
 let
 cx
 =
-win
+global
 .
-deref
+root_ref
 (
 )
 .

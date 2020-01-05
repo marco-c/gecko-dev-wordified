@@ -278,6 +278,10 @@ bindings
 {
 pub
 mod
+global
+;
+pub
+mod
 js
 ;
 pub

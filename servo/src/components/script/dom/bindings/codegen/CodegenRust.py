@@ -14324,10 +14324,7 @@ Argument
 (
 '
 &
-JSRef
-<
-Window
->
+GlobalRef
 '
 '
 aScope
@@ -17290,8 +17287,11 @@ throw_dom_exception
 (
 cx
 &
-*
 global
+.
+root_ref
+(
+)
 e
 )
 ;
@@ -36497,6 +36497,19 @@ dom
 :
 :
 bindings
+'
+            
+'
+dom
+:
+:
+bindings
+:
+:
+global
+:
+:
+GlobalRef
 '
             
 '
