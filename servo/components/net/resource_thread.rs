@@ -862,7 +862,7 @@ no_sniff
 NoSniffFlag
 :
 :
-OFF
+Off
 ;
 let
 mut
@@ -871,7 +871,7 @@ check_for_apache_bug
 ApacheBugFlag
 :
 :
-OFF
+Off
 ;
 if
 let
@@ -977,7 +977,7 @@ no_sniff
 NoSniffFlag
 :
 :
-ON
+On
 }
 }
 }
