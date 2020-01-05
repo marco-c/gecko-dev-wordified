@@ -6764,6 +6764,13 @@ host
 return
 ;
 }
+let
+contentPrincipal
+=
+browser
+.
+contentPrincipal
+;
 /
 /
 At
@@ -7637,6 +7644,9 @@ Services
 tm
 .
 mainThread
+contentPrincipal
+.
+originAttributes
 )
 ;
 }

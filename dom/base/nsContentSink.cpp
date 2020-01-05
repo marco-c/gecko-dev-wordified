@@ -5081,6 +5081,17 @@ nsHTMLDNSPrefetch
 PrefetchLow
 (
 hostname
+mDocument
+-
+>
+NodePrincipal
+(
+)
+-
+>
+OriginAttributesRef
+(
+)
 )
 ;
 }

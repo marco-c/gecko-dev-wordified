@@ -1002,6 +1002,9 @@ resolve_flags
 =
 0
 ;
+OriginAttributes
+attrs
+;
 if
 (
 resource
@@ -1123,7 +1126,7 @@ NS_FAILED
 dns_
 -
 >
-AsyncResolve
+AsyncResolveNative
 (
 nsAutoCString
 (
@@ -1135,6 +1138,7 @@ domain_name
 resolve_flags
 pr
 sts_thread_
+attrs
 getter_AddRefs
 (
 pr

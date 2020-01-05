@@ -3749,6 +3749,7 @@ nsHTMLDNSPrefetch
 Prefetch
 (
 hostname
+aOriginAttributes
 flags
 )
 ;
@@ -3794,6 +3795,7 @@ nsHTMLDNSPrefetch
 CancelPrefetch
 (
 hostname
+aOriginAttributes
 flags
 reason
 )

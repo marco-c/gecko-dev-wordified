@@ -6132,6 +6132,8 @@ Services
 tm
 .
 mainThread
+{
+}
 )
 ;
 }
