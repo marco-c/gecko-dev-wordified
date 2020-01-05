@@ -262,11 +262,6 @@ ipc_channel
 pub
 extern
 crate
-layers
-;
-pub
-extern
-crate
 layout
 ;
 pub
