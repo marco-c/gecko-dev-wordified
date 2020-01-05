@@ -1344,6 +1344,12 @@ bootstrap
 addon
 parameter
 .
+if
+(
+addon
+.
+webExtension
+)
 require
 (
 "

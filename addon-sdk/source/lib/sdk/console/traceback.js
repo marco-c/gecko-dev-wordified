@@ -103,13 +103,9 @@ loader
 "
 )
 ;
-const
-{
-readURISync
-}
-=
-require
+lazyRequire
 (
+this
 "
 .
 .
@@ -117,6 +113,9 @@ require
 net
 /
 url
+"
+"
+readURISync
 "
 )
 ;

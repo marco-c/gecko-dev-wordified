@@ -87,13 +87,9 @@ chrome
 "
 )
 ;
-const
-{
-open
-}
-=
-require
+lazyRequire
 (
+this
 "
 .
 .
@@ -101,6 +97,9 @@ require
 event
 /
 dom
+"
+"
+open
 "
 )
 ;

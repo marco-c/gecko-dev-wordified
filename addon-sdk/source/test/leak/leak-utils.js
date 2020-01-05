@@ -397,6 +397,12 @@ turn
 it
 off
 .
+if
+(
+SelfSupportBackend
+.
+_log
+)
 SelfSupportBackend
 .
 uninit
