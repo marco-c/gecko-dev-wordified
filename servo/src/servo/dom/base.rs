@@ -159,7 +159,7 @@ layout
 base
 :
 :
-Box
+RenderBox
 ;
 use
 layout
@@ -1002,7 +1002,7 @@ well
 as
 the
 primary
-Box
+RenderBox
 .
 Note
 that
@@ -1031,7 +1031,7 @@ box
 :
 Option
 <
-Box
+RenderBox
 >
 }
 ;
