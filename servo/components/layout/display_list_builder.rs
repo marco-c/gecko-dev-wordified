@@ -653,7 +653,7 @@ use
 style_traits
 :
 :
-PagePx
+CSSPixel
 ;
 use
 style_traits
@@ -1401,7 +1401,7 @@ PipelineId
 TypedSize2D
 <
 f32
-PagePx
+CSSPixel
 >
 )
 >
