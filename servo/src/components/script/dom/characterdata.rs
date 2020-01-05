@@ -100,6 +100,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -150,6 +159,9 @@ data
 :
 ~
 str
+document
+:
+AbstractDocument
 )
 -
 >
@@ -165,6 +177,7 @@ Node
 new
 (
 id
+document
 )
 data
 :

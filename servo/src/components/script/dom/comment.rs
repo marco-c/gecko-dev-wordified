@@ -85,6 +85,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -139,6 +148,9 @@ text
 :
 ~
 str
+document
+:
+AbstractDocument
 )
 -
 >
@@ -155,6 +167,7 @@ new
 (
 CommentNodeTypeId
 text
+document
 )
 }
 }
@@ -220,6 +233,11 @@ Comment
 new
 (
 s
+owner
+.
+Document
+(
+)
 )
 ;
 Ok

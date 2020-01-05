@@ -104,6 +104,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 element
 :
 :
@@ -165,6 +174,9 @@ tag_name
 :
 ~
 str
+document
+:
+AbstractDocument
 )
 -
 >
@@ -181,6 +193,7 @@ new
 (
 type_id
 tag_name
+document
 )
 }
 }

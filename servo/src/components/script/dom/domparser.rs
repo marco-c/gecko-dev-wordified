@@ -438,6 +438,7 @@ HTMLHtmlElementTypeId
 "
 html
 "
+document
 )
 }
 ;

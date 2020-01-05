@@ -60,6 +60,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 element
 :
 :
@@ -382,6 +391,7 @@ tag
 to_str
 (
 )
+document
 )
 (
 field
@@ -454,6 +464,7 @@ tag
 to_str
 (
 )
+document
 )
 ;
 unsafe
@@ -523,6 +534,7 @@ tag
 to_str
 (
 )
+document
 )
 }
 ;
@@ -1327,6 +1339,9 @@ tag
 :
 &
 str
+document
+:
+AbstractDocument
 )
 -
 >
@@ -2436,6 +2451,7 @@ tag
 to_str
 (
 )
+document
 )
 }
 ;
@@ -2459,6 +2475,9 @@ cx
 :
 *
 JSContext
+document
+:
+AbstractDocument
 url
 :
 Url
@@ -2864,6 +2883,7 @@ HTMLHtmlElementTypeId
 "
 html
 "
+document
 )
 }
 ;
@@ -3019,6 +3039,7 @@ Comment
 new
 (
 data
+document
 )
 ;
 unsafe
@@ -3093,6 +3114,7 @@ name
 public_id
 system_id
 force_quirks
+document
 )
 ;
 unsafe
@@ -3141,6 +3163,7 @@ cx
 tag
 .
 name
+document
 )
 ;
 debug
@@ -3708,6 +3731,7 @@ Text
 new
 (
 data
+document
 )
 ;
 unsafe
