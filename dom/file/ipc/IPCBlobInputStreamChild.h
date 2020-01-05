@@ -252,6 +252,9 @@ StreamNeeded
 IPCBlobInputStream
 *
 aStream
+nsIEventTarget
+*
+aEventTarget
 )
 ;
 mozilla
@@ -384,9 +387,9 @@ mStream
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 }
 ;
