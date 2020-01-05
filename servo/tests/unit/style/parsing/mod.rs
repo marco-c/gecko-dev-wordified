@@ -615,6 +615,9 @@ mod
 image
 ;
 mod
+inherited_text
+;
+mod
 mask
 ;
 mod
