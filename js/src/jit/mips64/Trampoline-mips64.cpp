@@ -3767,6 +3767,9 @@ UndefinedValue
 ;
 MOZ_ASSERT
 (
+mozilla
+:
+:
 IsPowerOfTwo
 (
 JitStackValueAlignment
