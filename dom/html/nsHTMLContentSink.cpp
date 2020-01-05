@@ -739,6 +739,7 @@ HTML_TAG
 (
 _tag
 _classname
+_interfacename
 )
 NS_NewHTML
 #
@@ -747,13 +748,6 @@ _classname
 #
 #
 Element
-#
-define
-HTML_HTMLELEMENT_TAG
-(
-_tag
-)
-NS_NewHTMLElement
 #
 define
 HTML_OTHER
@@ -780,9 +774,6 @@ h
 #
 undef
 HTML_TAG
-#
-undef
-HTML_HTMLELEMENT_TAG
 #
 undef
 HTML_OTHER
