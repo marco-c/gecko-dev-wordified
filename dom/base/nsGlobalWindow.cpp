@@ -4032,7 +4032,7 @@ ClearTimeout
 aRequest
 -
 >
-Handle
+GetTimeoutHandle
 (
 )
 Timeout
