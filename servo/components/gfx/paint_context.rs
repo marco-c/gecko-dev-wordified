@@ -393,7 +393,6 @@ self
 MAX_RECT
 PagePx
 ScreenPx
-ZERO_POINT
 }
 ;
 use
@@ -11185,7 +11184,12 @@ y
 )
 )
 ;
-ZERO_POINT
+Point2D
+:
+:
+zero
+(
+)
 }
 SidewaysRight
 =
@@ -11249,7 +11253,12 @@ y
 )
 )
 ;
-ZERO_POINT
+Point2D
+:
+:
+zero
+(
+)
 }
 }
 ;
