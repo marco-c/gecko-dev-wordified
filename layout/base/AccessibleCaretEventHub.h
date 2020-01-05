@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsIDocumentActivity
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -636,6 +643,8 @@ class
 AccessibleCaretEventHub
 :
 public
+nsIDocumentActivity
+public
 nsIReflowObserver
 public
 nsIScrollObserver
@@ -692,6 +701,7 @@ aIsLeavingDocument
 )
 ;
 NS_DECL_ISUPPORTS
+NS_DECL_NSIDOCUMENTACTIVITY
 NS_DECL_NSIREFLOWOBSERVER
 NS_DECL_NSISELECTIONLISTENER
 /
