@@ -1909,6 +1909,16 @@ limit
 0
         
 '
+app
+.
+update
+.
+badge
+'
+:
+False
+        
+'
 lightweightThemes
 .
 selectedThemeID

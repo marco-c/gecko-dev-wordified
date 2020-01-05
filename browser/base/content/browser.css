@@ -8149,14 +8149,12 @@ customizing
 =
 true
 ]
-.
+#
 PanelUI
 -
-notification
+update
 -
-menu
--
-item
+status
 {
 display
 :
