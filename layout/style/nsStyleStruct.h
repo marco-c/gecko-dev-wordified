@@ -9616,7 +9616,7 @@ s
 comment
 .
 )
-nsStyleCoord
+nscoord
 mOutlineWidth
 ;
 /
