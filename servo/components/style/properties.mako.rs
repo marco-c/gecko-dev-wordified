@@ -43950,6 +43950,7 @@ derive
 (
 Clone
 HeapSizeOf
+Debug
 )
 ]
 %

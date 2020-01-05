@@ -615,6 +615,7 @@ derive
 (
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
@@ -693,6 +694,7 @@ derive
 (
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
@@ -2386,6 +2388,7 @@ derive
 Clone
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
