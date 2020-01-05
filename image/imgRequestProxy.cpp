@@ -3041,6 +3041,9 @@ currentPrincipal
 ;
 RefPtr
 <
+mozilla
+:
+:
 image
 :
 :
