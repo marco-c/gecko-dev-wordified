@@ -2455,9 +2455,7 @@ aElement
 RawServoDeclarationBlock
 *
 aDeclaration
-const
-ServoComputedValuesWithParent
-&
+ServoComputedValuesBorrowed
 aComputedValues
 )
 ;

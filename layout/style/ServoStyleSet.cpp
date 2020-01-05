@@ -5941,9 +5941,7 @@ aElement
 RawServoDeclarationBlock
 *
 aDeclarations
-const
-ServoComputedValuesWithParent
-&
+ServoComputedValuesBorrowed
 aComputedValues
 )
 {
@@ -5953,8 +5951,6 @@ Servo_AnimationValue_Compute
 aElement
 aDeclarations
 aComputedValues
-.
-mCurrentStyle
 mRawSet
 .
 get
