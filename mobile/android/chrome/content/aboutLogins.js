@@ -3136,11 +3136,14 @@ type
 "
 Favicon
 :
-CacheLoad
+Request
 "
 url
 :
 aHostname
+skipNetwork
+:
+true
 }
 )
 .
