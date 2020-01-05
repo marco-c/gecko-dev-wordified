@@ -2342,11 +2342,8 @@ _
 =
 load
 (
+&
 load_data
-.
-clone
-(
-)
 &
 ui_provider
 &
@@ -2426,11 +2423,8 @@ _
 =
 load
 (
+&
 load_data
-.
-clone
-(
-)
 &
 ui_provider
 &
@@ -2588,11 +2582,8 @@ _
 =
 load
 (
+&
 load_data
-.
-clone
-(
-)
 &
 ui_provider
 &
@@ -2914,6 +2905,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -3518,6 +3510,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -3793,6 +3786,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -4027,6 +4021,7 @@ response
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -4280,6 +4275,7 @@ response
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -4574,6 +4570,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -4776,6 +4773,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -5004,6 +5002,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -5273,6 +5272,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -5548,6 +5548,7 @@ _
 =
 load
 (
+&
 load_data
 .
 clone
@@ -5918,6 +5919,7 @@ _
 =
 load
 (
+&
 load_data
 .
 clone
@@ -6197,6 +6199,7 @@ _
 =
 load
 (
+&
 load_data
 .
 clone
@@ -6444,6 +6447,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -6688,6 +6692,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -6958,6 +6963,7 @@ _
 =
 load
 (
+&
 load_data
 .
 clone
@@ -7165,6 +7171,7 @@ _
 =
 load
 (
+&
 load_data
 .
 clone
@@ -7394,6 +7401,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -7668,6 +7676,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -7874,6 +7883,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -8081,6 +8091,7 @@ _
 =
 load
 (
+&
 load_data
 &
 ui_provider
@@ -8354,6 +8365,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -8628,6 +8640,7 @@ redirect_limit
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -8954,6 +8967,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -9167,6 +9181,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -9300,6 +9315,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -9627,6 +9643,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -10175,6 +10192,7 @@ HTTP
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -10567,6 +10585,7 @@ new
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -10818,11 +10837,8 @@ _
 =
 load
 (
+&
 load_data
-.
-clone
-(
-)
 &
 ui_provider
 &
@@ -10996,11 +11012,8 @@ None
 match
 load
 (
+&
 load_data
-.
-clone
-(
-)
 &
 ui_provider
 &
