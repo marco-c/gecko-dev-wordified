@@ -651,7 +651,7 @@ REMEMBER_BUTTON
 const
 NEVER_BUTTON
 =
-1
+2
 ;
 const
 CHANGE_BUTTON
@@ -830,7 +830,7 @@ mainAction
 .
 label
 "
-Remember
+Save
 "
 "
 Main

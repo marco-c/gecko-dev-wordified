@@ -3629,7 +3629,7 @@ comes
 from
 the
 localized
-saveLoginText
+saveLoginMsg
 string
 .
 let
@@ -3652,9 +3652,13 @@ BRAND_SHORT_NAME
 +
 "
 to
-remember
+save
 this
 login
+for
+example
+.
+com
 ?
 "
 ;
@@ -3804,7 +3808,7 @@ comes
 from
 the
 localized
-saveLoginTextNoUser
+saveLoginMsgNoUser
 string
 .
 let
@@ -3827,9 +3831,13 @@ BRAND_SHORT_NAME
 +
 "
 to
-remember
+save
 this
 password
+for
+example
+.
+com
 ?
 "
 ;
