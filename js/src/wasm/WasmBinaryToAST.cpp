@@ -11883,6 +11883,10 @@ if
 (
 !
 result
+|
+|
+!
+result
 -
 >
 init
