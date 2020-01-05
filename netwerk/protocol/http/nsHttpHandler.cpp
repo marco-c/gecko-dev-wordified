@@ -2291,15 +2291,15 @@ mAppName
 .
 StripChars
 (
+R
 "
+(
 (
 )
 <
 >
 ;
 :
-\
-\
 \
 "
 /
@@ -2309,6 +2309,7 @@ StripChars
 =
 {
 }
+)
 "
 )
 ;
