@@ -3768,6 +3768,7 @@ display
 ~
 HTMLImageElement
 (
+ref
 d
 )
 _

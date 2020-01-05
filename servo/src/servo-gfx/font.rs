@@ -1394,11 +1394,13 @@ other
 &
 SelectorPlatformIdentifier
 (
+ref
 a
 )
 &
 SelectorPlatformIdentifier
 (
+ref
 b
 )
 )
