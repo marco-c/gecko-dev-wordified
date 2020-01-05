@@ -1955,9 +1955,6 @@ rules
 "
 )
 ;
-uint32_t
-retval
-;
 nsresult
 rv
 =
@@ -1974,8 +1971,6 @@ InsertRuleIntoGroup
 aRule
 this
 aIndex
-&
-retval
 )
 ;
 if
@@ -1998,7 +1993,7 @@ return
 ;
 }
 return
-retval
+aIndex
 ;
 }
 nsresult

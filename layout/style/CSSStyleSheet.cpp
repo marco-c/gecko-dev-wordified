@@ -5395,9 +5395,6 @@ GroupRule
 aGroup
 uint32_t
 aIndex
-uint32_t
-*
-_retval
 )
 {
 NS_ASSERTION
@@ -5754,11 +5751,6 @@ rule
 )
 ;
 }
-*
-_retval
-=
-aIndex
-;
 return
 NS_OK
 ;

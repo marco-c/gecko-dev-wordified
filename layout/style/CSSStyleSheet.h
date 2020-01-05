@@ -709,9 +709,6 @@ GroupRule
 aGroup
 uint32_t
 aIndex
-uint32_t
-*
-_retval
 )
 ;
 void
