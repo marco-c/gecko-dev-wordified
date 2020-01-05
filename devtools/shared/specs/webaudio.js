@@ -114,6 +114,9 @@ createDelay
 createBiquadFilter
 "
 "
+createIIRFilter
+"
+"
 createWaveShaper
 "
 "
@@ -136,6 +139,9 @@ createOscillator
 "
 "
 createStereoPanner
+"
+"
+createConstantSource
 "
 ]
 ;
