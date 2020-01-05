@@ -8683,6 +8683,11 @@ gfxPrefs
 LayerScopeEnabled
 (
 )
+|
+|
+XRE_IsGPUProcess
+(
+)
 )
 {
 return
