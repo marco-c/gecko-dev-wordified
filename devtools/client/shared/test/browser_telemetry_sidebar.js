@@ -220,6 +220,9 @@ ruleview
 computedview
 "
 "
+layoutview
+"
+"
 fontinspector
 "
 "
