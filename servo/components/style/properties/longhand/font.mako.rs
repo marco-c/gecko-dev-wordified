@@ -4364,6 +4364,11 @@ animatable
 "
 False
 "
+extra_prefixes
+=
+"
+moz
+"
 spec
 =
 "
@@ -5320,6 +5325,11 @@ animatable
 =
 "
 False
+"
+extra_prefixes
+=
+"
+moz
 "
 spec
 =

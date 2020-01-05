@@ -1306,6 +1306,11 @@ gecko
 animatable
 =
 False
+extra_prefixes
+=
+"
+moz
+"
 spec
 =
 "

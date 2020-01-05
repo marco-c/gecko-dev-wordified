@@ -249,6 +249,16 @@ products
 "
 gecko
 "
+alias
+=
+"
+-
+webkit
+-
+user
+-
+select
+"
 gecko_ffi_name
 =
 "

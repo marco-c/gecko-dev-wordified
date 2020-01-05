@@ -101,6 +101,11 @@ experimental
 "
 True
 "
+extra_prefixes
+=
+"
+moz
+"
 spec
 =
 "
@@ -462,6 +467,11 @@ products
 =
 "
 gecko
+"
+extra_prefixes
+=
+"
+moz
 "
 sub_properties
 =
