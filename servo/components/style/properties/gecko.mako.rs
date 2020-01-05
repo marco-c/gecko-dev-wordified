@@ -9352,6 +9352,18 @@ computed_value
 :
 T
 {
+use
+values
+:
+:
+computed
+:
+:
+position
+:
+:
+Position
+;
 let
 position
 =
@@ -9378,6 +9390,8 @@ computed_value
 :
 :
 T
+(
+Position
 {
 horizontal
 :
@@ -9398,6 +9412,7 @@ into
 (
 )
 }
+)
 }
 pub
 fn
@@ -9443,6 +9458,8 @@ mXPosition
 =
 v
 .
+0
+.
 horizontal
 .
 into
@@ -9454,6 +9471,8 @@ position
 mYPosition
 =
 v
+.
+0
 .
 vertical
 .
