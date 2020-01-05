@@ -83,11 +83,6 @@ strip_server
 from
 .
 .
-import
-webdriver
-from
-.
-.
 testrunner
 import
 Stop
@@ -126,6 +121,8 @@ do_delayed_imports
 global
 webdriver
     
+from
+tools
 import
 webdriver
 class

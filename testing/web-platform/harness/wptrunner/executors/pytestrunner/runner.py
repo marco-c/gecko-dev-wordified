@@ -281,6 +281,8 @@ plugins
 recorder
                
 fixtures
+               
+fixtures
 .
 Session
 (

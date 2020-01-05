@@ -88,6 +88,9 @@ None
 marionette
 =
 None
+pytestrunner
+=
+None
 webdriver
 =
 None
@@ -111,10 +114,6 @@ __file__
 0
 ]
 )
-from
-.
-import
-pytestrunner
 from
 .
 base
@@ -184,7 +183,6 @@ do_delayed_imports
 global
 errors
 marionette
-webdriver
     
 #
 Marionette
@@ -225,9 +223,6 @@ marionette_driver
 import
 marionette
 errors
-    
-import
-webdriver
 class
 MarionetteProtocol
 (
@@ -4077,6 +4072,12 @@ None
 )
 :
         
+self
+.
+do_delayed_imports
+(
+)
+        
 WdspecExecutor
 .
 __init__
@@ -4243,3 +4244,22 @@ return
 harness_result
 subtest_results
 )
+    
+def
+do_delayed_imports
+(
+self
+)
+:
+        
+global
+pytestrunner
+webdriver
+        
+from
+.
+import
+pytestrunner
+        
+import
+webdriver

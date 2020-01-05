@@ -265,11 +265,11 @@ product_list
 =
 [
 "
-b2g
+chrome
 "
                 
 "
-chrome
+edge
 "
                 
 "

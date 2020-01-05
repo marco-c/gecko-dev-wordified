@@ -84,27 +84,6 @@ TestCase
 :
     
 def
-parse
-(
-self
-input_str
-)
-:
-        
-return
-self
-.
-parser
-.
-parse
-(
-StringIO
-(
-input_str
-)
-)
-    
-def
 compile
 (
 self
