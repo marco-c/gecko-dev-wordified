@@ -8023,36 +8023,11 @@ XPCOM
 interface
 .
         
-#
-Allow
-null
-pointers
-for
-nullable
-types
-and
-old
--
-binding
-classes
-        
 argIsPointer
 =
 type
 .
 nullable
-(
-)
-or
-type
-.
-unroll
-(
-)
-.
-inner
-.
-isExternal
 (
 )
         
@@ -13448,17 +13423,6 @@ wrappingCode
 "
         
 if
-(
-not
-descriptor
-.
-interface
-.
-isExternal
-(
-)
-and
-            
 not
 descriptor
 .
@@ -13466,7 +13430,6 @@ interface
 .
 isCallback
 (
-)
 )
 :
             
@@ -22040,18 +22003,6 @@ in
 descriptors
 :
         
-if
-d
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-continue
-        
 for
 t
 in
@@ -22298,18 +22249,6 @@ d
 in
 descriptors
 :
-        
-if
-d
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-continue
         
 def
 addUnionTypes
@@ -32686,35 +32625,10 @@ descriptor
 nativeType
 )
         
-#
-Allow
-null
-pointers
-for
-nullable
-types
-and
-old
--
-binding
-classes
-        
 if
 type
 .
 nullable
-(
-)
-or
-type
-.
-unroll
-(
-)
-.
-inner
-.
-isExternal
 (
 )
 :
@@ -44392,16 +44306,6 @@ descriptor
             
 if
 (
-not
-descriptor
-.
-interface
-.
-isExternal
-(
-)
-and
-                
 descriptor
 .
 interface
@@ -47388,10 +47292,6 @@ getDescriptors
 hasInterfaceObject
 =
 True
-                                                        
-isExternal
-=
-False
                                                         
 register
 =
@@ -50500,12 +50400,6 @@ argIsPointer
 type
 .
 nullable
-(
-)
-or
-iface
-.
-isExternal
 (
 )
             
