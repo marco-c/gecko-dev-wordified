@@ -808,6 +808,17 @@ Event
 ProfilerCategory
 :
 :
+ScriptPlannedNavigation
+=
+>
+"
+Script
+Planned
+Navigation
+"
+ProfilerCategory
+:
+:
 ScriptResize
 =
 >
