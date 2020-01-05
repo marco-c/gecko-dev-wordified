@@ -4504,6 +4504,12 @@ variant
 '
 stylo
 '
+or
+'
+stylo
+-
+sequential
+'
 :
             
 buildername
