@@ -375,9 +375,14 @@ Length
 Calc
 (
 val
+range
 )
 =
 >
+range
+.
+clamp
+(
 val
 .
 compute_from_viewport_and_font_size
@@ -389,6 +394,7 @@ initial_font_size
 .
 length
 (
+)
 )
 specified
 :
