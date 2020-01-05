@@ -1409,9 +1409,10 @@ contentsReflowStatus
 ;
 MOZ_ASSERT
 (
-NS_FRAME_IS_COMPLETE
-(
 contentsReflowStatus
+.
+IsComplete
+(
 )
 "
 We

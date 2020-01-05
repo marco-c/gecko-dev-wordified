@@ -67558,9 +67558,10 @@ status
 ;
 NS_ASSERTION
 (
-NS_FRAME_IS_COMPLETE
-(
 status
+.
+IsComplete
+(
 )
 "
 bad

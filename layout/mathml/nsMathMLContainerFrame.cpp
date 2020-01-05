@@ -6363,9 +6363,10 @@ childStatus
 /
 NS_ASSERTION
 (
-NS_FRAME_IS_COMPLETE
-(
 childStatus
+.
+IsComplete
+(
 )
 "
 bad
