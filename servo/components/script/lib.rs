@@ -338,6 +338,10 @@ canvas_traits
 ;
 extern
 crate
+caseless
+;
+extern
+crate
 core
 ;
 extern
