@@ -231,6 +231,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -253,6 +259,7 @@ new_inherited
 (
 HTMLModElementTypeId
 localName
+prefix
 document
 )
 }
@@ -271,6 +278,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -294,6 +307,7 @@ HTMLModElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

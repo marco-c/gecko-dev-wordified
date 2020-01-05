@@ -236,6 +236,12 @@ ElementTypeId
 tag_name
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -258,6 +264,7 @@ new_inherited
 (
 type_id
 tag_name
+prefix
 document
 )
 }

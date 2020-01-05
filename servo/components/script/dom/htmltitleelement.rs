@@ -281,6 +281,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -303,6 +309,7 @@ new_inherited
 (
 HTMLTitleElementTypeId
 localName
+prefix
 document
 )
 }
@@ -321,6 +328,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -344,6 +357,7 @@ HTMLTitleElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

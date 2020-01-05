@@ -250,6 +250,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -275,6 +281,7 @@ new_inherited
 (
 HTMLHeadingElementTypeId
 localName
+prefix
 document
 )
 level
@@ -296,6 +303,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -322,6 +335,7 @@ HTMLHeadingElement
 new_inherited
 (
 localName
+prefix
 document
 level
 )

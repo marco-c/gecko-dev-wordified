@@ -349,6 +349,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -371,6 +377,7 @@ new_inherited
 (
 HTMLAnchorElementTypeId
 localName
+prefix
 document
 )
 }
@@ -389,6 +396,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -412,6 +425,7 @@ HTMLAnchorElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

@@ -313,6 +313,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -335,6 +341,7 @@ new_inherited
 (
 HTMLScriptElementTypeId
 localName
+prefix
 document
 )
 }
@@ -353,6 +360,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -376,6 +389,7 @@ HTMLScriptElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

@@ -259,6 +259,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -281,6 +287,7 @@ new_inherited
 (
 HTMLOutputElementTypeId
 localName
+prefix
 document
 )
 }
@@ -299,6 +306,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -322,6 +335,7 @@ HTMLOutputElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

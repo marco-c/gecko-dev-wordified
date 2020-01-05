@@ -4031,6 +4031,7 @@ ns
 (
 HTML
 )
+None
 self
 )
 )
@@ -4448,6 +4449,19 @@ to_string
 (
 )
 ns
+prefix_from_qname
+.
+map
+(
+|
+s
+|
+s
+.
+to_string
+(
+)
+)
 self
 )
 )
@@ -5729,6 +5743,7 @@ title
 to_string
 (
 )
+None
 self
 )
 .

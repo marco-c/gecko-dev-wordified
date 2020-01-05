@@ -320,6 +320,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -342,6 +348,7 @@ new_inherited
 (
 HTMLBodyElementTypeId
 localName
+prefix
 document
 )
 }
@@ -360,6 +367,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -383,6 +396,7 @@ HTMLBodyElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;

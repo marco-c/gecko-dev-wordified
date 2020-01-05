@@ -356,6 +356,12 @@ ElementTypeId
 tag_name
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -383,7 +389,7 @@ ns
 (
 HTML
 )
-None
+prefix
 document
 )
 }
@@ -402,6 +408,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -426,6 +438,7 @@ new_inherited
 (
 HTMLElementTypeId
 localName
+prefix
 document
 )
 ;

@@ -302,6 +302,12 @@ new_inherited
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -324,6 +330,7 @@ new_inherited
 (
 HTMLButtonElementTypeId
 localName
+prefix
 document
 )
 }
@@ -342,6 +349,12 @@ new
 localName
 :
 DOMString
+prefix
+:
+Option
+<
+DOMString
+>
 document
 :
 JSRef
@@ -365,6 +378,7 @@ HTMLButtonElement
 new_inherited
 (
 localName
+prefix
 document
 )
 ;
