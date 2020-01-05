@@ -273,8 +273,7 @@ be
 loaded
 with
 *
-a
-null
+codebase
 principal
 .
 So
@@ -380,7 +379,6 @@ Assert
 .
 ok
 (
-!
 content
 .
 document
@@ -399,7 +397,6 @@ about
 :
 blank
 should
-not
 be
 a
 codebase
