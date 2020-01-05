@@ -2792,11 +2792,6 @@ errors
 like
 unsupported
 scheme
-load
-/
-/
-/
-cancellation
 connection
 errors
 etc
@@ -2805,6 +2800,7 @@ Internal
 (
 String
 )
+LoadCancelled
 /
 /
 /
