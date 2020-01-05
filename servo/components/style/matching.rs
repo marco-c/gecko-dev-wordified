@@ -5165,15 +5165,6 @@ start_transitions_if_applicable
 (
 new_animations_sender
 this_opaque
-self
-.
-as_node
-(
-)
-.
-to_unsafe
-(
-)
 &
 *
 *
@@ -5886,7 +5877,6 @@ Animation
 :
 Transition
 (
-_
 _
 _
 ref

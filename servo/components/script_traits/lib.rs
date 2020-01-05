@@ -500,10 +500,7 @@ use
 style_traits
 :
 :
-{
 CSSPixel
-UnsafeNode
-}
 ;
 use
 webdriver_msg
@@ -2168,7 +2165,7 @@ transition
 end
 TransitionEnd
 (
-UnsafeNode
+UntrustedNodeAddress
 String
 f64
 )

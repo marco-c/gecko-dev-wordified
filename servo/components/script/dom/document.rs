@@ -7292,6 +7292,13 @@ OtherNodeDamage
 )
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 handle_mouse_event
@@ -7417,6 +7424,8 @@ is
 node_address
 )
 ;
+unsafe
+{
 node
 :
 :
@@ -7425,6 +7434,7 @@ from_untrusted_node_address
 js_runtime
 node_address
 )
+}
 }
 None
 =
@@ -8407,6 +8417,13 @@ click_pos
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 handle_touchpad_pressure_event
@@ -8452,6 +8469,8 @@ node_address
 )
 =
 >
+unsafe
+{
 node
 :
 :
@@ -8460,6 +8479,7 @@ from_untrusted_node_address
 js_runtime
 node_address
 )
+}
 None
 =
 >
@@ -9065,6 +9085,13 @@ target
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 handle_mouse_move_event
@@ -9174,6 +9201,8 @@ address
 let
 node
 =
+unsafe
+{
 node
 :
 :
@@ -9182,6 +9211,7 @@ from_untrusted_node_address
 js_runtime
 address
 )
+}
 ;
 node
 .
@@ -9812,6 +9842,13 @@ MouseEvent
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 handle_touch_event
@@ -9912,6 +9949,8 @@ node_address
 )
 =
 >
+unsafe
+{
 node
 :
 :
@@ -9920,6 +9959,7 @@ from_untrusted_node_address
 js_runtime
 node_address
 )
+}
 None
 =
 >
@@ -28009,6 +28049,8 @@ get_cx
 let
 node
 =
+unsafe
+{
 node
 :
 :
@@ -28017,6 +28059,7 @@ from_untrusted_node_address
 js_runtime
 untrusted_node_address
 )
+}
 ;
 let
 parent_node
@@ -28309,6 +28352,8 @@ untrusted_node_address
 let
 node
 =
+unsafe
+{
 node
 :
 :
@@ -28317,6 +28362,7 @@ from_untrusted_node_address
 js_runtime
 untrusted_node_address
 )
+}
 ;
 Root
 :
