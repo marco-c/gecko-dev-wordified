@@ -27861,7 +27861,7 @@ startup
 "
 BOOTSTRAP_REASONS
 .
-ADDON_ENABLE
+ADDON_INSTALL
 )
 ;
 AddonManagerPrivate
