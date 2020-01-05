@@ -986,6 +986,16 @@ aCallback
 override
 ;
 virtual
+already_AddRefed
+<
+nsIScreen
+>
+GetWidgetScreen
+(
+)
+override
+;
+virtual
 nsresult
 MakeFullScreen
 (
