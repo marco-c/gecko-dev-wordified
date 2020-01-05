@@ -3132,6 +3132,7 @@ r
 }
 ;
 for
+ref
 r
 in
 iter
@@ -6592,6 +6593,7 @@ old_checked
 {
 Some
 (
+ref
 o
 )
 =
@@ -7558,6 +7560,7 @@ submit_button
 {
 Some
 (
+ref
 button
 )
 =

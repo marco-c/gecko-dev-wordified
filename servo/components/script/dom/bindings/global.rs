@@ -332,6 +332,10 @@ a
 global
 object
 .
+#
+[
+no_move
+]
 pub
 enum
 GlobalRoot

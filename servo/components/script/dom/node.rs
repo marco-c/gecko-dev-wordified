@@ -2477,6 +2477,10 @@ root
 ;
 parent
 .
+r
+(
+)
+.
 map
 (
 |
@@ -2486,10 +2490,6 @@ vtable_for
 (
 &
 parent
-.
-r
-(
-)
 )
 .
 child_inserted
@@ -2801,6 +2801,7 @@ new_child
 }
 Some
 (
+ref
 prev_sibling
 )
 =
@@ -2927,6 +2928,7 @@ new_child
 )
 Some
 (
+ref
 last_child
 )
 =
@@ -3138,6 +3140,7 @@ get
 }
 Some
 (
+ref
 prev_sibling
 )
 =
@@ -3199,6 +3202,7 @@ get
 }
 Some
 (
+ref
 next_sibling
 )
 =
@@ -7286,6 +7290,7 @@ root
 {
 Some
 (
+ref
 parent
 )
 =
@@ -10116,6 +10121,7 @@ root
 {
 Some
 (
+ref
 parent
 )
 =
@@ -13024,6 +13030,7 @@ root
 )
 ;
 for
+ref
 attr
 in
 node_elem
@@ -19559,6 +19566,7 @@ is_htmllegendelement
 {
 Some
 (
+ref
 legend
 )
 =

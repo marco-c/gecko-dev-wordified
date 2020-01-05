@@ -6183,6 +6183,7 @@ borrow
 )
 ;
 for
+ref
 attr
 in
 attrs
@@ -8370,6 +8371,7 @@ attribute
 {
 Some
 (
+ref
 attribute
 )
 =
@@ -12663,6 +12665,7 @@ if
 let
 Some
 (
+ref
 attr
 )
 =
@@ -12796,6 +12799,7 @@ if
 let
 Some
 (
+ref
 attr
 )
 =
@@ -14840,6 +14844,7 @@ e
 {
 Some
 (
+ref
 el
 )
 =

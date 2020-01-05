@@ -4763,6 +4763,10 @@ GC
 Exact_Stack_Rooting
 )
 .
+#
+[
+no_move
+]
 pub
 struct
 RootCollection
@@ -5137,6 +5141,10 @@ to
 incorrect
 ordering
 .
+#
+[
+no_move
+]
 pub
 struct
 Root
