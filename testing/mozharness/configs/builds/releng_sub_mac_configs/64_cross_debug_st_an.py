@@ -124,6 +124,14 @@ mozbuild
 )
         
 '
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
+        
+'
 HG_SHARE_BASE_DIR
 '
 :
