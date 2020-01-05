@@ -3364,6 +3364,13 @@ color
 )
 )
 ;
+list
+.
+put_back
+(
+l
+)
+;
 /
 /
 debug
