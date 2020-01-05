@@ -452,6 +452,11 @@ max
 {
 if
 (
+object
+.
+preview
+&
+&
 Object
 .
 keys
