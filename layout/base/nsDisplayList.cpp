@@ -45022,13 +45022,13 @@ return
 false
 ;
 }
-nsSVGIntegrationUtils
+nsSVGUtils
 :
 :
 MaskUsage
 maskUsage
 ;
-nsSVGIntegrationUtils
+nsSVGUtils
 :
 :
 DetermineMaskUsage
