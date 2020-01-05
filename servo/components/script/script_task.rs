@@ -293,7 +293,13 @@ dom
 event
 :
 :
+{
 Event
+Bubbles
+DoesNotBubble
+Cancelable
+NotCancelable
+}
 ;
 use
 dom
@@ -6820,8 +6826,8 @@ load
 to_string
 (
 )
-false
-false
+DoesNotBubble
+NotCancelable
 )
 .
 root
@@ -7900,8 +7906,8 @@ click
 to_string
 (
 )
-true
-true
+Bubbles
+Cancelable
 )
 .
 root
