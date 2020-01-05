@@ -254,6 +254,15 @@ SetContentProcessSandbox
 (
 int
 aBrokerFd
+std
+:
+:
+vector
+<
+int
+>
+&
+aSyscallWhitelist
 )
 ;
 #
