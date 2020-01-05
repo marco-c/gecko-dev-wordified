@@ -1248,6 +1248,8 @@ ReturnOutput
 calls
 on
 the
+/
+/
 stack
 .
 if
@@ -1865,6 +1867,8 @@ haven
 t
 altered
 level
+/
+/
 unexpectedly
 .
 MOZ_ASSERT
@@ -1897,6 +1901,8 @@ frame
 and
 complete
 the
+/
+/
 reset
 .
 if
