@@ -1060,6 +1060,9 @@ TextureHost
 class
 TextureReadLock
 ;
+class
+WebRenderCompositorOGL
+;
 enum
 SurfaceInitMode
 {
@@ -3164,6 +3167,17 @@ return
 nullptr
 ;
 }
+virtual
+WebRenderCompositorOGL
+*
+AsWebRenderCompositorOGL
+(
+)
+{
+return
+nullptr
+;
+}
 /
 *
 *
@@ -3586,6 +3600,7 @@ TimeStamp
 ;
 }
 }
+virtual
 void
 CompositeUntil
 (
