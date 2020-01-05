@@ -1002,7 +1002,7 @@ frame
 static
 nsIFrame
 *
-GetNearestSVGParent
+GetNearestSVGViewport
 (
 nsIFrame
 *

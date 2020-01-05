@@ -1538,7 +1538,7 @@ svgFrame
 nsSVGUtils
 :
 :
-GetNearestSVGParent
+GetNearestSVGViewport
 (
 mTargetFrame
 )

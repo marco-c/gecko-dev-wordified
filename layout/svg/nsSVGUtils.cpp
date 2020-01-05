@@ -842,7 +842,7 @@ nsIFrame
 nsSVGUtils
 :
 :
-GetNearestSVGParent
+GetNearestSVGViewport
 (
 nsIFrame
 *
