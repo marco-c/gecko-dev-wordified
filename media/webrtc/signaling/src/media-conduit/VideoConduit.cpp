@@ -3587,15 +3587,6 @@ max_qp
 =
 kQpMax
 ;
-video_stream
-.
-SetRid
-(
-simulcastEncoding
-.
-rid
-)
-;
 simulcast_config
 .
 jsScaleDownBy

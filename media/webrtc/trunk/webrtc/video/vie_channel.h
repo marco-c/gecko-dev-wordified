@@ -2408,15 +2408,6 @@ GUARDED_BY
 crit_
 )
 ;
-int
-rid_extension_id_
-;
-/
-/
-RtpStreamId
-(
-RID
-)
 /
 /
 RtpRtcp
