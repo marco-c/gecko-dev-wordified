@@ -4705,13 +4705,15 @@ scale
 empty_duration
 .
 0
+as
+i64
 -
 media_time
 .
 0
-)
 as
 i64
+)
 *
 scale
 .
@@ -4769,9 +4771,9 @@ scale
 media_time
 .
 0
-)
 as
 i64
+)
 *
 scale
 .
