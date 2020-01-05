@@ -201,7 +201,7 @@ style
 After
 Before
 ComputedValues
-MatchedProperty
+DeclarationBlock
 Stylist
 TElement
 TNode
@@ -223,21 +223,21 @@ normal
 :
 SmallVec16
 <
-MatchedProperty
+DeclarationBlock
 >
 pub
 before
 :
 Vec
 <
-MatchedProperty
+DeclarationBlock
 >
 pub
 after
 :
 Vec
 <
-MatchedProperty
+DeclarationBlock
 >
 /
 /
@@ -366,7 +366,7 @@ declarations
 :
 Vec
 <
-MatchedProperty
+DeclarationBlock
 >
 }
 impl
@@ -379,7 +379,7 @@ slice
 :
 &
 [
-MatchedProperty
+DeclarationBlock
 ]
 )
 -
@@ -529,7 +529,7 @@ declarations
 '
 a
 [
-MatchedProperty
+DeclarationBlock
 ]
 }
 impl
@@ -552,7 +552,7 @@ declarations
 '
 a
 [
-MatchedProperty
+DeclarationBlock
 ]
 )
 -
@@ -865,7 +865,7 @@ declarations
 :
 &
 [
-MatchedProperty
+DeclarationBlock
 ]
 )
 -
@@ -929,7 +929,7 @@ declarations
 :
 &
 [
-MatchedProperty
+DeclarationBlock
 ]
 style
 :
@@ -1921,7 +1921,7 @@ applicable_declarations
 :
 &
 [
-MatchedProperty
+DeclarationBlock
 ]
 style
 :
@@ -2003,7 +2003,7 @@ applicable_declarations
 :
 &
 [
-MatchedProperty
+DeclarationBlock
 ]
 style
 :
