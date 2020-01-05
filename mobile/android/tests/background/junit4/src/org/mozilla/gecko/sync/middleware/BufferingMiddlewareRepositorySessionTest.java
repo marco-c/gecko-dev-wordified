@@ -539,7 +539,6 @@ bufferingSession
 .
 doMergeBuffer
 (
-123L
 )
 ;
 verify
@@ -553,7 +552,6 @@ times
 .
 storeDone
 (
-123L
 )
 ;
 verify
@@ -695,7 +693,6 @@ bufferingSession
 .
 doMergeBuffer
 (
-123L
 )
 ;
 /
@@ -774,7 +771,6 @@ times
 .
 storeDone
 (
-123L
 )
 ;
 /

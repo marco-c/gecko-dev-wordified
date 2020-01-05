@@ -1262,8 +1262,6 @@ public
 void
 storeDone
 (
-long
-end
 )
 {
 /
@@ -1289,6 +1287,14 @@ callbacks
 have
 completed
 !
+final
+long
+end
+=
+now
+(
+)
+;
 if
 (
 stats

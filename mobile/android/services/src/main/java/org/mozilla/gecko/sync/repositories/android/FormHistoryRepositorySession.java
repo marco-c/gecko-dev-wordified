@@ -3155,7 +3155,14 @@ flushInsertQueue
 )
 ;
 }
-storeDone
+storeDelegate
+.
+deferredStoreDelegate
+(
+storeWorkQueue
+)
+.
+onStoreCompleted
 (
 now
 (
@@ -3174,6 +3181,11 @@ e
 XXX
 TODO
 storeDelegate
+.
+deferredStoreDelegate
+(
+storeWorkQueue
+)
 .
 onRecordStoreFailed
 (

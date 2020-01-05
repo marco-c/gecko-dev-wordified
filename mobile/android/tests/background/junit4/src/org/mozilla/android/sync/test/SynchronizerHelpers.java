@@ -1075,7 +1075,9 @@ storeDone
 "
 )
 ;
-storeDone
+storeDelegate
+.
+onStoreCompleted
 (
 now
 (
