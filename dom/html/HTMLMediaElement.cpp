@@ -14660,6 +14660,16 @@ getter
 out
 -
 >
+mStream
+-
+>
+SetInactiveOnFinish
+(
+)
+;
+out
+-
+>
 mFinishWhenEnded
 =
 aFinishWhenEnded
