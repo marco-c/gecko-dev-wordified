@@ -1949,7 +1949,9 @@ data
 =
 text_node
 .
-text
+parent
+.
+data
 .
 to_str
 (

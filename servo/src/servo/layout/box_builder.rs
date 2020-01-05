@@ -1746,6 +1746,9 @@ builder
 &
 mut
 LayoutTreeBuilder
+node
+:
+AbstractNode
 )
 -
 >
@@ -1759,6 +1762,7 @@ builder
 make_flow
 (
 flow_type
+node
 )
 ;
 self
@@ -1795,6 +1799,9 @@ builder
 &
 mut
 LayoutTreeBuilder
+node
+:
+AbstractNode
 )
 -
 >
@@ -1822,6 +1829,7 @@ builder
 make_flow
 (
 Flow_Inline
+node
 )
 ;
 let
@@ -1872,6 +1880,9 @@ builder
 &
 mut
 LayoutTreeBuilder
+node
+:
+AbstractNode
 )
 -
 >
@@ -1904,6 +1915,7 @@ self
 make_inline_collector
 (
 builder
+node
 )
 }
 }
@@ -2127,6 +2139,7 @@ create_child_flow_of_type
 (
 Flow_Block
 builder
+node
 )
 }
 None
@@ -2163,6 +2176,7 @@ create_child_flow_of_type
 (
 Flow_Block
 builder
+node
 )
 }
 (
@@ -2207,6 +2221,7 @@ self
 get_inline_collector
 (
 builder
+node
 )
 (
 CSSDisplayInlineBlock
@@ -2222,6 +2237,7 @@ self
 get_inline_collector
 (
 builder
+node
 )
 _
 =
@@ -2571,9 +2587,9 @@ mut
 FlowContext
 |
 {
-for
-(
-copy
+let
+node
+=
 child_flow
 .
 d
@@ -2581,13 +2597,7 @@ d
 )
 .
 node
-)
-.
-each
-|
-node
-|
-{
+;
 assert
 !
 (
@@ -2612,7 +2622,6 @@ Some
 child_flow
 )
 ;
-}
 }
 }
 /
@@ -3222,6 +3231,7 @@ self
 make_flow
 (
 Flow_Root
+root
 )
 ;
 let
@@ -3283,6 +3293,9 @@ self
 ty
 :
 FlowContextType
+node
+:
+AbstractNode
 )
 -
 >
@@ -3299,6 +3312,7 @@ self
 next_flow_id
 (
 )
+node
 )
 ;
 let
@@ -3772,7 +3786,9 @@ string
 =
 text_node
 .
-text
+parent
+.
+data
 .
 to_str
 (

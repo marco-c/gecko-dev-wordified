@@ -507,7 +507,11 @@ transmute
 JS_malloc
 (
 cx
+(
 nchars
++
+1
+)
 as
 u64
 *

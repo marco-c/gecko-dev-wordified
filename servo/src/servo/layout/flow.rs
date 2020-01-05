@@ -519,10 +519,7 @@ FlowData
 {
 node
 :
-Option
-<
 AbstractNode
->
 /
 *
 reference
@@ -614,6 +611,9 @@ FlowData
 id
 :
 int
+node
+:
+AbstractNode
 )
 -
 >
@@ -623,7 +623,7 @@ FlowData
 {
 node
 :
-None
+node
 tree
 :
 tree
