@@ -270,6 +270,9 @@ void
 addr
 size_t
 size
+bool
+*
+commit
 )
 ;
 void
@@ -295,6 +298,9 @@ size_t
 leadsize
 size_t
 size
+bool
+*
+commit
 )
 ;
 bool
@@ -325,6 +331,12 @@ void
 addr
 size_t
 size
+)
+;
+void
+pages_boot
+(
+void
 )
 ;
 #

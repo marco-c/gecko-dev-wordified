@@ -521,6 +521,9 @@ static
 bool
 prof_dump_header_intercept
 (
+tsdn_t
+*
+tsdn
 bool
 propagate_err
 const
