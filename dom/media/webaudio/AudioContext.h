@@ -177,6 +177,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1810,7 +1819,7 @@ mListener
 ;
 nsTArray
 <
-RefPtr
+UniquePtr
 <
 WebAudioDecodeJob
 >
