@@ -942,15 +942,6 @@ Startup
 (
 )
 ;
-private
-:
-static
-const
-int
-msPerSecond
-=
-1000
-;
 }
 ;
 /
