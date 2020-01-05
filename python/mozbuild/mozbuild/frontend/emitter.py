@@ -620,19 +620,6 @@ test
     
 (
 '
-TestTXMgr
-'
-'
-editor
-/
-txmgr
-/
-tests
-'
-)
-    
-(
-'
 test_IHistory
 '
 '
