@@ -531,14 +531,7 @@ mDocShellNode
 >
 FindChildWithName
 (
-PromiseFlatString
-(
 aName
-)
-.
-get
-(
-)
 false
 false
 nullptr

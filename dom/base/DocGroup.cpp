@@ -616,8 +616,8 @@ TabGroup
 FindItemWithName
 (
 const
-char16_t
-*
+nsAString
+&
 aName
 nsIDocShellTreeItem
 *
@@ -641,19 +641,10 @@ aFoundItem
 =
 nullptr
 ;
-#
-ifdef
-DEBUG
-nsDependentString
-name
-(
-aName
-)
-;
 MOZ_ASSERT
 (
 !
-name
+aName
 .
 LowerCaseEqualsLiteral
 (
@@ -664,7 +655,7 @@ _blank
 &
 &
 !
-name
+aName
 .
 LowerCaseEqualsLiteral
 (
@@ -675,7 +666,7 @@ _top
 &
 &
 !
-name
+aName
 .
 LowerCaseEqualsLiteral
 (
@@ -686,7 +677,7 @@ _parent
 &
 &
 !
-name
+aName
 .
 LowerCaseEqualsLiteral
 (
@@ -696,8 +687,6 @@ _self
 )
 )
 ;
-#
-endif
 for
 (
 nsPIDOMWindowOuter

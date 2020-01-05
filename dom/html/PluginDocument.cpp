@@ -908,10 +908,12 @@ dsti
 >
 NameEquals
 (
-u
+NS_LITERAL_STRING
+(
 "
 messagepane
 "
+)
 &
 isMsgPane
 )

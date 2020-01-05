@@ -834,8 +834,8 @@ nsresult
 FindItemWithName
 (
 const
-char16_t
-*
+nsAString
+&
 aName
 nsIDocShellTreeItem
 *
