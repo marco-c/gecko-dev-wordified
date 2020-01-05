@@ -327,7 +327,7 @@ devtools
 toolbar
 devtools
 -
-status
+toolbar
 -
 bottom
 "
