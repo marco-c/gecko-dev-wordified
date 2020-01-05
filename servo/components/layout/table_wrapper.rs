@@ -1521,7 +1521,7 @@ solution
 ;
 FloatNonReplaced
 .
-set_flow_x_coord_if_necessary
+set_inline_position_of_flow_if_necessary
 (
 &
 mut
@@ -1564,7 +1564,7 @@ solution
 ;
 BlockNonReplaced
 .
-set_flow_x_coord_if_necessary
+set_inline_position_of_flow_if_necessary
 (
 &
 mut
