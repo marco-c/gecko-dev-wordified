@@ -5759,6 +5759,17 @@ ErrorResult
 aRv
 )
 ;
+void
+GetAppLocales
+(
+nsTArray
+<
+nsString
+>
+&
+aLocales
+)
+;
 protected
 :
 bool
