@@ -5901,7 +5901,7 @@ scratch1
 0
 )
 ;
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 cx_
 masm
@@ -7517,7 +7517,7 @@ scratch2
 Label
 fail
 ;
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 cx_
 masm

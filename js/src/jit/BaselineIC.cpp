@@ -7585,7 +7585,7 @@ typename
 T
 >
 void
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 JSContext
 *
@@ -8004,7 +8004,7 @@ done
 }
 template
 void
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 JSContext
 *
@@ -8034,7 +8034,7 @@ failure
 ;
 template
 void
-BaselineStoreToTypedArray
+StoreToTypedArray
 (
 JSContext
 *
