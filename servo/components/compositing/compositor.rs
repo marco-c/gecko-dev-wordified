@@ -168,6 +168,7 @@ gfx_traits
 :
 {
 color
+Epoch
 LayerId
 LayerKind
 LayerProperties
@@ -302,10 +303,7 @@ msg
 compositor_msg
 :
 :
-{
-Epoch
 FrameTreeId
-}
 ;
 use
 msg

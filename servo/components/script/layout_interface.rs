@@ -137,7 +137,10 @@ use
 gfx_traits
 :
 :
+{
+Epoch
 LayerId
+}
 ;
 use
 ipc_channel
@@ -150,15 +153,6 @@ ipc
 IpcReceiver
 IpcSender
 }
-;
-use
-msg
-:
-:
-compositor_msg
-:
-:
-Epoch
 ;
 use
 msg
