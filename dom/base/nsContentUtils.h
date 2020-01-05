@@ -8019,7 +8019,7 @@ for
 dispatching
 a
 "
-DOMWindowFocus
+DOMServiceWorkerFocusClient
 "
 event
 to
