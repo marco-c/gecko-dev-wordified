@@ -10817,6 +10817,7 @@ load
 listener
 self
 )
+;
 }
 pub
 fn
