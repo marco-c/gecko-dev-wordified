@@ -1183,6 +1183,7 @@ request
 &
 mut
 None
+&
 context
 )
 ;
@@ -2338,6 +2339,7 @@ cache
 &
 mut
 None
+&
 new_fetch_context
 (
 None
@@ -2360,6 +2362,7 @@ cache
 &
 mut
 None
+&
 new_fetch_context
 (
 None

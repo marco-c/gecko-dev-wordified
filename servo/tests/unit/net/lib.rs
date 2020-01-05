@@ -590,6 +590,7 @@ Some
 (
 target
 )
+&
 new_fetch_context
 (
 dc
@@ -632,6 +633,7 @@ request
 &
 mut
 None
+&
 new_fetch_context
 (
 dc
