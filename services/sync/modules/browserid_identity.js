@@ -3082,6 +3082,9 @@ value
 )
 {
 throw
+new
+Error
+(
 "
 basicPassword
 setter
@@ -3092,6 +3095,7 @@ used
 in
 BrowserIDManager
 "
+)
 ;
 }
 /

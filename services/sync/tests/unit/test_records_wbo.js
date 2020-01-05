@@ -763,10 +763,6 @@ Trace
 "
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 test_toJSON
 (
 )
