@@ -27495,20 +27495,6 @@ indent
         
 self
 .
-defaultVisibility
-=
-'
-pub
-'
-if
-isStruct
-else
-'
-priv
-'
-        
-self
-.
 decorators
 =
 decorators
