@@ -5943,6 +5943,7 @@ pub
 fn
 intersect_with_rounded_rect
 (
+&
 mut
 self
 rect
@@ -5960,9 +5961,6 @@ BorderRadii
 Au
 >
 )
--
->
-ClippingRegion
 {
 self
 .
@@ -5983,7 +5981,6 @@ radii
 }
 )
 ;
-self
 }
 /
 /
