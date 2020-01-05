@@ -427,6 +427,19 @@ parent
 view
 border
 .
+/
+/
+The
+shrunk
+size
+just
+nee
+to
+cover
+the
+text
+itself
+.
 final
 float
 top
@@ -436,7 +449,7 @@ center
 getTextSize
 (
 )
-+
+/
 2
 ;
 final
@@ -448,7 +461,7 @@ center
 getTextSize
 (
 )
--
+/
 2
 ;
 canvas
