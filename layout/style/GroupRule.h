@@ -498,6 +498,7 @@ nsAString
 &
 aCssText
 )
+const
 ;
 /
 /
