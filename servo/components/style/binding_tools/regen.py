@@ -1361,16 +1361,6 @@ raw_lines
 "
 :
 [
-            
-"
-use
-heapsize
-:
-:
-HeapSizeOf
-;
-"
-        
 ]
         
 "
@@ -1584,15 +1574,9 @@ nsChangeHint
 "
 SheetParsingMode
 "
-"
-nsMainThreadPtrHandle
-"
             
 "
 nsMainThreadPtrHolder
-"
-"
-nscolor
 "
 "
 nsFont
@@ -1625,12 +1609,6 @@ nsCSSShadowArray
 "
             
 "
-nsINode
-"
-"
-nsIDocument
-"
-"
 nsIPrincipal
 "
 "
@@ -1647,9 +1625,6 @@ RawGeckoElement
 RawGeckoDocument
 "
             
-"
-ServoNodeData
-"
 "
 nsString
 "

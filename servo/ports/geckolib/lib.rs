@@ -57,6 +57,14 @@ MPL
 *
 /
 #
+!
+[
+deny
+(
+warnings
+)
+]
+#
 [
 macro_use
 ]

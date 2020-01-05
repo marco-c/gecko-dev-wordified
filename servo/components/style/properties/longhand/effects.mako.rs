@@ -9432,6 +9432,7 @@ pub
 struct
 OriginParseResult
 {
+pub
 horizontal
 :
 Option
@@ -9441,6 +9442,7 @@ specified
 :
 LengthOrPercentage
 >
+pub
 vertical
 :
 Option
@@ -9450,6 +9452,7 @@ specified
 :
 LengthOrPercentage
 >
+pub
 depth
 :
 Option
