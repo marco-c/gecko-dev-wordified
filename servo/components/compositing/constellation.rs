@@ -6469,6 +6469,10 @@ mozbrowser
 .
 enabled
 "
+)
+.
+unwrap_or
+(
 false
 )
 )
@@ -10196,6 +10200,10 @@ mozbrowser
 .
 enabled
 "
+)
+.
+unwrap_or
+(
 false
 )
 {
