@@ -857,6 +857,7 @@ matching
 :
 {
 ElementFlags
+MatchingReason
 matches
 }
 ;
@@ -15850,6 +15851,10 @@ from_ref
 self
 )
 None
+MatchingReason
+:
+:
+Other
 )
 )
 }
@@ -16019,6 +16024,10 @@ selectors
 &
 element
 None
+MatchingReason
+:
+:
+Other
 )
 {
 return

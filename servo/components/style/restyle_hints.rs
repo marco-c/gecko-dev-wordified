@@ -111,7 +111,7 @@ selectors
 matching
 :
 :
-StyleRelations
+matches_complex_selector
 ;
 use
 selectors
@@ -120,7 +120,10 @@ selectors
 matching
 :
 :
-matches_complex_selector
+{
+MatchingReason
+StyleRelations
+}
 ;
 use
 selectors
@@ -3406,6 +3409,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 let
@@ -3427,6 +3434,10 @@ StyleRelations
 empty
 (
 )
+MatchingReason
+:
+:
+Other
 )
 ;
 if

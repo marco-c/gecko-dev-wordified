@@ -779,7 +779,10 @@ selectors
 matching
 :
 :
+{
+MatchingReason
 matches
+}
 ;
 use
 selectors
@@ -2715,6 +2718,10 @@ selectors
 &
 element
 None
+MatchingReason
+:
+:
+Other
 )
 {
 return
@@ -5433,6 +5440,10 @@ matches
 selectors
 element
 None
+MatchingReason
+:
+:
+Other
 )
 }
 )
