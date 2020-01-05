@@ -14718,8 +14718,6 @@ NotifyWaitingForData
 aTrack
 )
 ;
-return
-;
 }
 MOZ_ASSERT
 (
