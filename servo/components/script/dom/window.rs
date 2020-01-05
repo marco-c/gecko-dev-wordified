@@ -311,7 +311,7 @@ use
 dom
 :
 :
-browsercontext
+browsingcontext
 :
 :
 BrowsingContext
