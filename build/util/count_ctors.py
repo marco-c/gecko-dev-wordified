@@ -465,7 +465,7 @@ name
 "
 :
 "
-num_constructors
+num_static_constructors
 "
                     
 "
