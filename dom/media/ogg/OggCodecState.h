@@ -1494,7 +1494,7 @@ valid
 granulepos
 .
 virtual
-RefPtr
+already_AddRefed
 <
 MediaRawData
 >
