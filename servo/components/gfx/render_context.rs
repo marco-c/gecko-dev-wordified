@@ -3802,6 +3802,7 @@ None
 ;
 }
 }
+pub
 trait
 ToAzurePoint
 {
@@ -3863,6 +3864,7 @@ AzFloat
 )
 }
 }
+pub
 trait
 ToAzureRect
 {
