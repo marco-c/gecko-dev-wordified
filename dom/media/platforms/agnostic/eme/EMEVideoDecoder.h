@@ -221,17 +221,6 @@ GetNodeId
 )
 override
 ;
-uint32_t
-DecryptorId
-(
-)
-const
-override
-{
-return
-mDecryptorId
-;
-}
 GMPUniquePtr
 <
 GMPVideoEncodedFrame
@@ -249,9 +238,6 @@ RefPtr
 CDMProxy
 >
 mProxy
-;
-uint32_t
-mDecryptorId
 ;
 }
 ;
