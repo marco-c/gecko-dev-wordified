@@ -48991,6 +48991,12 @@ initParent
 "
 parent
 :
+{
+\
+n
+"
+                          
+"
 match
 try
 !
@@ -49079,6 +49085,12 @@ n
 \
 n
 "
+                          
+"
+}
+\
+n
+"
 %
 (
 self
@@ -49089,7 +49101,7 @@ d
 .
 parent
 )
-                                            
+                                    
 self
 .
 makeClassName
@@ -50142,7 +50154,7 @@ CGGeneric
 (
 s
 )
-8
+12
 )
 .
 define
@@ -50426,6 +50438,9 @@ n
 }
 \
 n
+"
+            
+"
 }
 "
 )
