@@ -146,8 +146,9 @@ close
 var
 domFile
 =
-new
 File
+.
+createFromNsIFile
 (
 testFile
 )

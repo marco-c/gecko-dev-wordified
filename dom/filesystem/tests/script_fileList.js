@@ -783,8 +783,9 @@ opened
 {
 file
 :
-new
 File
+.
+createFromNsIFile
 (
 testFile
 )

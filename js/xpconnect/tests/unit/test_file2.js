@@ -155,8 +155,9 @@ file
 var
 f1
 =
-new
 File
+.
+createFromFileName
 (
 file
 .
@@ -171,8 +172,9 @@ nsIFiles
 var
 f2
 =
-new
 File
+.
+createFromNsIFile
 (
 file
 )
@@ -431,6 +433,8 @@ var
 f7
 =
 File
+.
+createFromNsIFile
 (
 dir
 )

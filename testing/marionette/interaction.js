@@ -1391,8 +1391,9 @@ try
 {
 file
 =
-new
 File
+.
+createFromFileName
 (
 path
 )

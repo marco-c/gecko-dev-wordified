@@ -5021,8 +5021,9 @@ reader
 .
 readAsText
 (
-new
 File
+.
+createFromFileName
 (
 aFilename
 )

@@ -2134,8 +2134,9 @@ append
 "
 upload_file_minidump
 "
-new
 File
+.
+createFromFileName
 (
 this
 .
@@ -2159,8 +2160,9 @@ append
 "
 memory_report
 "
-new
 File
+.
+createFromFileName
 (
 this
 .
@@ -2218,8 +2220,9 @@ upload_file_minidump_
 i
 .
 name
-new
 File
+.
+createFromFileName
 (
 i
 .

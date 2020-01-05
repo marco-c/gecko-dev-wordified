@@ -826,8 +826,9 @@ f
 ;
 }
 return
-new
 File
+.
+createFromNsIFile
 (
 f
 )
@@ -894,8 +895,9 @@ file
 ;
 }
 return
-new
 File
+.
+createFromNsIFile
 (
 file
 )

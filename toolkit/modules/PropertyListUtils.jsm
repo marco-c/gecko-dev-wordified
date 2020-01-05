@@ -1036,8 +1036,9 @@ exist
 ;
 file
 =
-new
 File
+.
+createFromNsIFile
 (
 file
 )
