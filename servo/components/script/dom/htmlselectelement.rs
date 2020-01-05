@@ -1606,9 +1606,9 @@ DOMString
 AttrValue
 {
 match
+*
 local_name
 {
-&
 atom
 !
 (

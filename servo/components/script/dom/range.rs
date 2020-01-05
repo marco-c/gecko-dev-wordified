@@ -6631,7 +6631,6 @@ inclusive_ancestors
 )
 ;
 let
-ref
 child
 =
 b_ancestors

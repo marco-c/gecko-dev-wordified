@@ -2061,13 +2061,13 @@ mutation
 )
 ;
 match
+*
 attr
 .
 local_name
 (
 )
 {
-&
 atom
 !
 (
@@ -2148,7 +2148,6 @@ check_ancestors_disabled_state_for_form_control
 }
 }
 }
-&
 atom
 !
 (
@@ -2196,7 +2195,6 @@ DEFAULT_COLS
 )
 ;
 }
-&
 atom
 !
 (
@@ -2317,9 +2315,9 @@ DOMString
 AttrValue
 {
 match
+*
 name
 {
-&
 atom
 !
 (
@@ -2337,7 +2335,6 @@ from_limited_u32
 value
 DEFAULT_COLS
 )
-&
 atom
 !
 (

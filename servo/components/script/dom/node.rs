@@ -6488,9 +6488,9 @@ n
 |
 {
 match
+*
 n
 {
-&
 NodeOrString
 :
 :

@@ -782,13 +782,13 @@ mutation
 )
 ;
 match
+*
 attr
 .
 local_name
 (
 )
 {
-&
 atom
 !
 (
@@ -833,7 +833,6 @@ ok
 )
 ;
 }
-&
 atom
 !
 (
@@ -875,7 +874,6 @@ as_uint
 )
 ;
 }
-&
 atom
 !
 (
@@ -954,9 +952,9 @@ DOMString
 AttrValue
 {
 match
+*
 local_name
 {
-&
 atom
 !
 (
