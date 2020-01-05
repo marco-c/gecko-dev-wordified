@@ -279,6 +279,13 @@ highlighterSettings
 )
 .
 isRequired
+showBoxModelProperties
+:
+PropTypes
+.
+bool
+.
+isRequired
 onShowBoxModelEditor
 :
 PropTypes
