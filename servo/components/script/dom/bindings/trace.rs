@@ -752,11 +752,11 @@ use
 net_traits
 :
 :
-image_cache_thread
+image_cache
 :
 :
 {
-ImageCacheThread
+ImageCache
 PendingImageId
 }
 ;
@@ -2616,7 +2616,7 @@ unsafe_no_jsmanaged_fields
 (
 Image
 ImageMetadata
-ImageCacheThread
+ImageCache
 PendingImageId
 )
 ;
