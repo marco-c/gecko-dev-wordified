@@ -1100,6 +1100,11 @@ timeStamp
 pageError
 .
 timeStamp
+notes
+:
+pageError
+.
+notes
 }
 )
 ;
@@ -1177,6 +1182,7 @@ parameters
 timestamp
 :
 timeStamp
+notes
 }
 =
 packet
@@ -1215,6 +1221,7 @@ parameters
 exceptionDocURL
 frame
 timeStamp
+notes
 }
 )
 ;
