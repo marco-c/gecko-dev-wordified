@@ -2046,7 +2046,6 @@ next_subpage_id
 :
 SubpageId
 =
-*
 page
 .
 next_subpage_id
@@ -2055,7 +2054,7 @@ deref
 (
 )
 .
-borrow
+get
 (
 )
 ;
