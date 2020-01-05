@@ -1443,11 +1443,13 @@ pub
 fn
 fill_property_descriptor
 (
+mut
 desc
 :
-&
-mut
+MutableHandle
+<
 PropertyDescriptor
+>
 obj
 :
 *
