@@ -159,6 +159,13 @@ SurfaceCache
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 namespace
 mozilla
 {
