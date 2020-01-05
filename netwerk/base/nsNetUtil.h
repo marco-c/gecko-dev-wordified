@@ -1503,6 +1503,11 @@ bool
 closeWhenDone
 =
 false
+nsIEventTarget
+*
+mainThreadTarget
+=
+nullptr
 )
 ;
 /

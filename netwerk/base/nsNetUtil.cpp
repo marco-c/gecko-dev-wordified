@@ -3594,6 +3594,15 @@ closeWhenDone
 false
 *
 /
+nsIEventTarget
+*
+mainThreadTarget
+/
+*
+=
+nullptr
+*
+/
 )
 {
 nsresult
@@ -3633,6 +3642,7 @@ streamLen
 segsize
 segcount
 closeWhenDone
+mainThreadTarget
 )
 ;
 if
