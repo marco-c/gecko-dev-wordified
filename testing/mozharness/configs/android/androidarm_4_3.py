@@ -3697,6 +3697,9 @@ path
 join
 (
 "
+harness
+"
+"
 marionette
 "
 "
