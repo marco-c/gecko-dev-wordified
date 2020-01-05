@@ -63,7 +63,6 @@ Constructs
 display
 lists
 from
-render
 boxes
 .
 use
@@ -73,10 +72,7 @@ layout
 box
 :
 :
-{
-RenderBox
-RenderBoxUtils
-}
+Box
 ;
 use
 layout
@@ -174,7 +170,7 @@ new
 box
 :
 &
-RenderBox
+Box
 )
 -
 >
@@ -203,7 +199,7 @@ new
 box
 :
 &
-RenderBox
+Box
 )
 -
 >
@@ -218,10 +214,6 @@ unsafe
 transmute
 (
 box
-.
-base
-(
-)
 .
 node
 )
@@ -239,7 +231,7 @@ new
 _
 :
 &
-RenderBox
+Box
 )
 -
 >
@@ -252,7 +244,7 @@ Nothing
 impl
 ExtraDisplayListData
 for
-RenderBox
+Box
 {
 fn
 new
@@ -260,11 +252,11 @@ new
 box
 :
 &
-RenderBox
+Box
 )
 -
 >
-RenderBox
+Box
 {
 *
 box
