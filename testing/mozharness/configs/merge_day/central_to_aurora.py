@@ -747,6 +747,18 @@ all
 -
 locales
 "
+        
+"
+mobile
+/
+locales
+/
+l10n
+-
+changesets
+.
+json
+"
     
 ]
     
