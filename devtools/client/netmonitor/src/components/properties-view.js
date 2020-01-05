@@ -230,7 +230,7 @@ require
 "
 .
 /
-Editor
+editor
 "
 )
 )

@@ -195,7 +195,9 @@ require
 "
 .
 /
-MDNLink
+mdn
+-
+link
 "
 )
 )
@@ -210,7 +212,9 @@ require
 "
 .
 /
-PropertiesView
+properties
+-
+view
 "
 )
 )
