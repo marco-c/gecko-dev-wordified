@@ -255,6 +255,7 @@ aLength
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 SendBinaryStream
 (
