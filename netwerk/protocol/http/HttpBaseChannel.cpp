@@ -14867,6 +14867,9 @@ NS_ERROR_NOT_AVAILABLE
 uint32_t
 lastMod
 ;
+nsresult
+rv
+=
 mResponseHead
 -
 >
@@ -14874,6 +14877,12 @@ GetLastModifiedValue
 (
 &
 lastMod
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 *

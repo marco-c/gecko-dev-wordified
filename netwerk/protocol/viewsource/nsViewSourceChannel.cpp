@@ -4497,6 +4497,8 @@ NS_SUCCEEDED
 rv
 )
 )
+{
+return
 aVisitor
 -
 >
@@ -4506,6 +4508,7 @@ contentTypeStr
 contentType
 )
 ;
+}
 return
 NS_OK
 ;

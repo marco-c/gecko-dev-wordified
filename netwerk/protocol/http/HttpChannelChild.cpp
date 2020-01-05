@@ -11048,9 +11048,17 @@ if
 mCallOnResume
 )
 {
+rv
+=
 AsyncCall
 (
 mCallOnResume
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mCallOnResume
