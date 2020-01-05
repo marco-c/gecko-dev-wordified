@@ -149,14 +149,6 @@ heap_api
 [
 feature
 (
-iter_cmp
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
@@ -489,9 +481,6 @@ font_template
 /
 Misc
 .
-mod
-buffer_map
-;
 mod
 filters
 ;
