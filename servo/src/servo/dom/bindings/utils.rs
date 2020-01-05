@@ -296,7 +296,7 @@ is_null
 (
 )
 {
-ret
+return
 err
 (
 (
@@ -326,7 +326,7 @@ len
 )
 )
 ;
-ret
+return
 if
 chars
 .

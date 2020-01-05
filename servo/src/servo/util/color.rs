@@ -129,7 +129,7 @@ Color
 >
 bool
 {
-ret
+return
 self
 .
 red
@@ -226,7 +226,7 @@ u8
 >
 Color
 {
-ret
+return
 rgba
 (
 r
@@ -415,7 +415,7 @@ to
 .
 0
 {
-ret
+return
 m1
 +
 (
@@ -447,7 +447,7 @@ to
 .
 0
 {
-ret
+return
 m2
 ;
 }
@@ -467,7 +467,7 @@ to
 .
 0
 {
-ret
+return
 m1
 +
 (
@@ -501,7 +501,7 @@ to
 .
 0
 {
-ret
+return
 m1
 ;
 }
@@ -592,7 +592,7 @@ as
 c_double
 )
 ;
-ret
+return
 rgba
 (
 r
@@ -625,7 +625,7 @@ float
 >
 Color
 {
-ret
+return
 hsla
 (
 h
@@ -721,7 +721,7 @@ s
 col
 ]
 ;
-ret
+return
 none
 ;
 }
@@ -918,7 +918,7 @@ aqua
 }
 _
 {
-ret
+return
 fail_unrecognized
 (
 color
@@ -926,7 +926,7 @@ color
 }
 }
 ;
-ret
+return
 some
 (
 col
@@ -1024,7 +1024,7 @@ len
 =
 3u
 {
-ret
+return
 fail_unrecognized
 (
 color
@@ -1191,7 +1191,7 @@ len
 =
 4u
 {
-ret
+return
 fail_unrecognized
 (
 color
@@ -1372,7 +1372,7 @@ len
 =
 3u
 {
-ret
+return
 fail_unrecognized
 (
 color
@@ -1531,7 +1531,7 @@ len
 =
 4u
 {
-ret
+return
 fail_unrecognized
 (
 color

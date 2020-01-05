@@ -172,7 +172,7 @@ transmute
 b
 )
 ;
-ret
+return
 new_box
 ;
 }
@@ -227,7 +227,7 @@ transmute
 b
 )
 ;
-ret
+return
 new_box
 ;
 }
@@ -707,7 +707,7 @@ box
 Box
 )
 {
-ret
+return
 ;
 }
 #

@@ -364,7 +364,7 @@ tag
 }
 Eof
 {
-ret
+return
 none
 ;
 }
@@ -446,7 +446,7 @@ break
 }
 Eof
 {
-ret
+return
 none
 ;
 }
@@ -497,7 +497,7 @@ description
 }
 }
 }
-ret
+return
 some
 (
 ~
@@ -572,7 +572,7 @@ elmt
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -644,7 +644,7 @@ new_sel
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -685,7 +685,7 @@ new_sel
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -726,7 +726,7 @@ new_sel
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -804,7 +804,7 @@ tok
 }
 Eof
 {
-ret
+return
 none
 ;
 }
@@ -867,7 +867,7 @@ tok
 }
 }
 }
-ret
+return
 some
 (
 sel_list
@@ -1127,7 +1127,7 @@ res
 }
 Eof
 {
-ret
+return
 none
 ;
 }
@@ -1169,7 +1169,7 @@ tok
 }
 }
 }
-ret
+return
 some
 (
 desc_list
@@ -1211,7 +1211,7 @@ list
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -1260,7 +1260,7 @@ list
 }
 none
 {
-ret
+return
 none
 ;
 }
@@ -1278,7 +1278,7 @@ desc_list
 desc_list
 )
 ;
-ret
+return
 some
 (
 ~
@@ -1365,7 +1365,7 @@ break
 }
 }
 }
-ret
+return
 rule_list
 ;
 }

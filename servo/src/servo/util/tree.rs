@@ -176,7 +176,7 @@ p
 {
 none
 {
-ret
+return
 ;
 }
 some
@@ -191,7 +191,7 @@ f
 c
 )
 {
-ret
+return
 ;
 }
 p
@@ -678,7 +678,7 @@ c
 )
 ;
 }
-ret
+return
 {
 p
 :

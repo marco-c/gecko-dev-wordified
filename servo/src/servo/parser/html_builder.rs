@@ -1812,7 +1812,7 @@ send
 js_exit
 )
 ;
-ret
+return
 (
 cur_node
 style_port
