@@ -1912,7 +1912,7 @@ rect
 =
 node
 .
-get_bounding_content_box
+bounding_content_box
 (
 )
 ;
@@ -2029,7 +2029,7 @@ rect
 =
 node
 .
-get_bounding_content_box
+bounding_content_box
 (
 )
 ;

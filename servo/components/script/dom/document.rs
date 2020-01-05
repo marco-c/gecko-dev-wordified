@@ -3361,7 +3361,7 @@ Node
 (
 )
 .
-get_has_dirty_descendants
+has_dirty_descendants
 (
 )
 |
