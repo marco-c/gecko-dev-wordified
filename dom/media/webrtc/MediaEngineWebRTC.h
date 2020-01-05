@@ -1090,6 +1090,12 @@ free
 )
 cubeb_device_collection_destroy
 (
+CubebUtils
+:
+:
+GetCubebContext
+(
+)
 mDevices
 )
 ;
