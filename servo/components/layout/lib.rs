@@ -428,6 +428,10 @@ parallel
 ;
 pub
 mod
+query
+;
+pub
+mod
 sequential
 ;
 pub
