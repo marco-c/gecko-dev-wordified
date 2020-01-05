@@ -14197,17 +14197,6 @@ Pop
 PreBarrierReg
 )
 ;
-jump
-(
-&
-done
-)
-;
-haltingAlign
-(
-8
-)
-;
 bind
 (
 &
