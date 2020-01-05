@@ -774,7 +774,7 @@ be
 requested
 :
 *
-BAND_FROM_POINT
+BandFromPoint
 :
 returns
 the
@@ -900,7 +900,7 @@ be
 negative
 .
 *
-WIDTH_WITHIN_HEIGHT
+WidthWithinHeight
 :
 This
 returns
@@ -1145,10 +1145,11 @@ translation
 *
 /
 enum
+class
 BandInfoType
 {
-BAND_FROM_POINT
-WIDTH_WITHIN_HEIGHT
+BandFromPoint
+WidthWithinHeight
 }
 ;
 nsFlowAreaRect
@@ -1161,10 +1162,10 @@ WritingMode
 aWM
 nscoord
 aBCoord
-BandInfoType
-aInfoType
 nscoord
 aBSize
+BandInfoType
+aBandInfoType
 mozilla
 :
 :
