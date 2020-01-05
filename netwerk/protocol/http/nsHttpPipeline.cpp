@@ -1492,6 +1492,16 @@ MOZ_ASSERT
 ci
 )
 ;
+if
+(
+!
+ci
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 bool
 pipeliningBefore
 =
@@ -1556,6 +1566,7 @@ SupportsPipelining
 ci
 )
 )
+{
 /
 /
 The
@@ -1585,6 +1596,7 @@ ProcessPendingQForEntry
 ci
 )
 ;
+}
 return
 rv
 ;
