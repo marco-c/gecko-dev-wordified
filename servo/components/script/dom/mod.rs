@@ -2324,6 +2324,14 @@ browsercontext
 ;
 pub
 mod
+canvasgradient
+;
+pub
+mod
+canvaspattern
+;
+pub
+mod
 canvasrenderingcontext2d
 ;
 pub
