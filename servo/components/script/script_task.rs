@@ -12229,6 +12229,9 @@ the
 same
 TLD
 .
+let
+parent_page
+=
 parent_page
 .
 find
