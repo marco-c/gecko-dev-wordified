@@ -1603,6 +1603,10 @@ FilterOp
 Opacity
 (
 amount
+.
+into
+(
+)
 )
 )
 Filter
@@ -2757,7 +2761,6 @@ clip
 stacking_context
 .
 z_index
-&
 LayoutTransform
 :
 :
@@ -2768,7 +2771,10 @@ stacking_context
 .
 transform
 )
-&
+.
+into
+(
+)
 LayoutTransform
 :
 :
