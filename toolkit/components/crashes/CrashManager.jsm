@@ -4086,9 +4086,6 @@ null
 )
 }
 {
-retentionDays
-:
-180
 addClientId
 :
 true
