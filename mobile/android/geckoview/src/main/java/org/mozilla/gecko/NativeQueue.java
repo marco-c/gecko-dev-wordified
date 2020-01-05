@@ -33,6 +33,17 @@ nil
 *
 -
 *
+vim
+:
+ts
+=
+4
+sw
+=
+4
+expandtab
+:
+*
 This
 Source
 Code
