@@ -13141,6 +13141,8 @@ numActualArgs
 bool
 construct
 bool
+ignoresReturnValue
+bool
 isDOMCall
 )
 {
@@ -13210,6 +13212,7 @@ MCall
 wrappedTarget
 numActualArgs
 construct
+ignoresReturnValue
 )
 ;
 }

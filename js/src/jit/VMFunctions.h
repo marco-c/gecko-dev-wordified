@@ -4594,6 +4594,8 @@ HandleObject
 obj0
 bool
 constructing
+bool
+ignoresReturnValue
 uint32_t
 argc
 Value
