@@ -223,10 +223,6 @@ encoding
 ;
 extern
 crate
-green
-;
-extern
-crate
 libc
 ;
 extern
