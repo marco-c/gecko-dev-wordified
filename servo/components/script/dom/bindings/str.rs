@@ -298,7 +298,7 @@ self
 )
 -
 >
-uint
+usize
 {
 let
 ByteString

@@ -1679,7 +1679,7 @@ Url
 no_jsmanaged_fields
 !
 (
-uint
+usize
 u8
 u16
 u32
@@ -1689,7 +1689,7 @@ u64
 no_jsmanaged_fields
 !
 (
-int
+isize
 i8
 i16
 i32

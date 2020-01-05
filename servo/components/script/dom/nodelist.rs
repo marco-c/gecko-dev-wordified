@@ -522,7 +522,7 @@ elems
 [
 index
 as
-uint
+usize
 ]
 .
 clone
@@ -564,7 +564,7 @@ nth
 (
 index
 as
-uint
+usize
 )
 .
 map

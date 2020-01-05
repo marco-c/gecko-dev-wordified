@@ -494,7 +494,7 @@ strings
 [
 ty
 as
-uint
+usize
 ]
 .
 to_owned
