@@ -232,7 +232,7 @@ formautofill
 /
 content
 /
-FormAutofillContent
+FormAutofillFrameScript
 .
 js
 "

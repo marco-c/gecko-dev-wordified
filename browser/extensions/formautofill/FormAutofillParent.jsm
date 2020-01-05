@@ -513,7 +513,7 @@ _onStatusChanged
 ;
 Services
 .
-mm
+ppmm
 .
 addMessageListener
 (
@@ -725,7 +725,7 @@ _enabled
 {
 Services
 .
-mm
+ppmm
 .
 addMessageListener
 (
@@ -739,7 +739,7 @@ this
 ;
 Services
 .
-mm
+ppmm
 .
 addMessageListener
 (
@@ -756,7 +756,7 @@ else
 {
 Services
 .
-mm
+ppmm
 .
 removeMessageListener
 (
@@ -770,7 +770,7 @@ this
 ;
 Services
 .
-mm
+ppmm
 .
 removeMessageListener
 (
@@ -785,7 +785,7 @@ this
 }
 Services
 .
-mm
+ppmm
 .
 broadcastAsyncMessage
 (
@@ -961,11 +961,11 @@ FormAutofill
 getEnabledStatus
 "
 :
-target
+Services
 .
-messageManager
+ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 FormAutofill
@@ -1081,7 +1081,7 @@ null
 }
 Services
 .
-mm
+ppmm
 .
 removeMessageListener
 (
@@ -1095,7 +1095,7 @@ this
 ;
 Services
 .
-mm
+ppmm
 .
 removeMessageListener
 (
@@ -1387,8 +1387,6 @@ getAll
 ;
 }
 target
-.
-messageManager
 .
 sendAsyncMessage
 (
