@@ -981,15 +981,6 @@ font_style
 (
 )
 ;
-let
-decoration
-=
-old_fragment
-.
-text_decoration
-(
-)
-;
 /
 /
 TODO
@@ -1154,7 +1145,6 @@ transformed_text
 clone
 (
 )
-decoration
 )
 ;
 debug
@@ -1376,15 +1366,6 @@ get_layout_font_group_for_style
 (
 &
 font_style
-)
-;
-let
-decoration
-=
-in_fragment
-.
-text_decoration
-(
 )
 ;
 /
@@ -1885,7 +1866,6 @@ run_str
 to_string
 (
 )
-decoration
 )
 )
 )
