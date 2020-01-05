@@ -18855,6 +18855,12 @@ defined
 (
 HAVE_NATIVE_UNWIND
 )
+|
+|
+defined
+(
+USE_LUL_STACKWALK
+)
 #
 if
 defined
