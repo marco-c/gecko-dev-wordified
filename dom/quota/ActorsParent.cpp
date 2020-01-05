@@ -24758,7 +24758,7 @@ bool
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 const
 nsACString
@@ -24771,20 +24771,12 @@ aOrigin
 The
 first
 prompt
-and
-quota
-tracking
 is
 not
 required
 for
 these
 origins
-in
-/
-/
-persistent
-storage
 .
 if
 (
@@ -31325,7 +31317,7 @@ mGetAll
 aQuotaManager
 -
 >
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 origin
 )
@@ -38918,7 +38910,7 @@ persistent
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 originProps
 .
@@ -39588,7 +39580,7 @@ rv
 /
 /
 Move
-whitelisted
+internal
 origins
 to
 new
@@ -39600,7 +39592,7 @@ if
 QuotaManager
 :
 :
-IsOriginWhitelistedForPersistentStorage
+IsOriginInternal
 (
 aOriginProps
 .
