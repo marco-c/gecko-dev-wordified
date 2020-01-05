@@ -1614,9 +1614,12 @@ is_null
 {
 Ok
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 }
 else

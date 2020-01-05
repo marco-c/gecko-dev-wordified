@@ -362,9 +362,12 @@ upload
 None
 response_url
 :
-~
 "
 "
+.
+to_owned
+(
+)
 status
 :
 0
@@ -385,9 +388,12 @@ response_type
 _empty
 response_text
 :
-~
 "
 "
+.
+to_owned
+(
+)
 response_xml
 :
 None

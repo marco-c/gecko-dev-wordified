@@ -364,9 +364,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetCite

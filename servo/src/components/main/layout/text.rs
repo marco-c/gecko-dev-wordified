@@ -1673,9 +1673,12 @@ run_str
 ~
 str
 =
-~
 "
 "
+.
+to_owned
+(
+)
 ;
 let
 mut

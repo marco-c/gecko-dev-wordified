@@ -469,9 +469,12 @@ DOMString
 {
 Ok
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 }
 }

@@ -488,9 +488,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetMedia
@@ -522,9 +525,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetType

@@ -2636,9 +2636,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetStringAttribute
@@ -3198,9 +3201,12 @@ DOMString
 {
 Some
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 }
 fn

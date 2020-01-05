@@ -382,9 +382,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetAlign

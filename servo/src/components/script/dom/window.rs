@@ -1201,9 +1201,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetName
@@ -1226,9 +1229,12 @@ self
 >
 DOMString
 {
-~
 "
 "
+.
+to_owned
+(
+)
 }
 fn
 SetStatus
