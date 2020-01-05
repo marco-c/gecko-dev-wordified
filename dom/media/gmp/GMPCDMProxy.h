@@ -215,6 +215,9 @@ const
 nsAString
 &
 aGMPName
+nsIEventTarget
+*
+aMainThread
 )
 override
 ;
