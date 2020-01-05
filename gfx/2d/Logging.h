@@ -840,6 +840,7 @@ UnbalancedClipStack
 ProcessingError
 InvalidDrawTarget
 NativeFontResourceNotFound
+UnscaledFontNotFound
 /
 /
 End
