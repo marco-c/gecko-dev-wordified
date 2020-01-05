@@ -160,7 +160,7 @@ FetchRequest
 etc
 )
 use
-http
+hyper
 :
 :
 method

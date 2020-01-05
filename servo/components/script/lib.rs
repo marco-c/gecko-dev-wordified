@@ -169,7 +169,7 @@ encoding
 ;
 extern
 crate
-http
+hyper
 ;
 extern
 crate
