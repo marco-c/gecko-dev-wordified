@@ -129,6 +129,10 @@ head_rev
 '
     
 '
+include_nightly
+'
+    
+'
 level
 '
     
