@@ -83,12 +83,14 @@ getLogger
 (
 __name__
 )
-class
-PostBuildTask
+def
+get_inputs
 (
-transform
-.
-TransformTask
+kind
+path
+config
+params
+loaded_tasks
 )
 :
     
@@ -96,19 +98,18 @@ TransformTask
 "
 "
     
-A
-task
+Generate
+tasks
 implementing
-a
 post
 -
 build
-job
+jobs
 .
 These
 depend
 on
-jobs
+builds
 and
 perform
     
@@ -117,6 +118,7 @@ followup
 tasks
 after
 a
+that
 build
 has
 completed
@@ -207,20 +209,6 @@ platform
 "
 "
     
-classmethod
-    
-def
-get_inputs
-(
-cls
-kind
-path
-config
-params
-loaded_tasks
-)
-:
-        
 if
 config
 .
@@ -242,7 +230,7 @@ build
 "
 ]
 :
-            
+        
 raise
 Exception
 (
@@ -255,7 +243,7 @@ on
 builds
 "
 )
-        
+    
 only_platforms
 =
 config
@@ -272,7 +260,7 @@ build
 platforms
 '
 )
-        
+    
 prototype
 =
 load_yaml
@@ -289,13 +277,13 @@ template
 '
 )
 )
-        
+    
 for
 task
 in
 loaded_tasks
 :
-            
+        
 if
 task
 .
@@ -306,9 +294,9 @@ kind
 build
 '
 :
-                
+            
 continue
-            
+        
 build_platform
 =
 task
@@ -321,7 +309,7 @@ get
 build_platform
 '
 )
-            
+        
 build_type
 =
 task
@@ -334,7 +322,7 @@ get
 build_type
 '
 )
-            
+        
 if
 not
 build_platform
@@ -342,9 +330,9 @@ or
 not
 build_type
 :
-                
-continue
             
+continue
+        
 platform
 =
 "
@@ -360,7 +348,7 @@ format
 build_platform
 build_type
 )
-            
+        
 if
 only_platforms
 and
@@ -369,9 +357,9 @@ not
 in
 only_platforms
 :
-                
-continue
             
+continue
+        
 post_task
 =
 copy
@@ -380,7 +368,7 @@ deepcopy
 (
 prototype
 )
-            
+        
 post_task
 [
 '
@@ -393,7 +381,7 @@ label
 task
 .
 label
-            
+        
 post_task
 [
 '
@@ -404,7 +392,7 @@ platform
 ]
 =
 platform
-            
+        
 post_task
 [
 '
@@ -415,6 +403,38 @@ task
 ]
 =
 task
-            
+        
 yield
 post_task
+def
+load_tasks
+(
+kind
+path
+config
+params
+loaded_tasks
+)
+:
+    
+return
+transform
+.
+transform_inputs
+(
+            
+get_inputs
+(
+kind
+path
+config
+params
+loaded_tasks
+)
+            
+kind
+path
+config
+params
+loaded_tasks
+)

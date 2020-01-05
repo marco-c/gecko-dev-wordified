@@ -151,31 +151,23 @@ config
 config
     
 def
-_get_impl_class
+_get_loader
 (
 self
 )
 :
         
-#
-load
-the
-class
-defined
-by
-implementation
-        
 try
 :
             
-impl
+loader
 =
 self
 .
 config
 [
 '
-implementation
+loader
 '
 ]
         
@@ -194,7 +186,7 @@ r
 does
 not
 define
-implementation
+loader
 "
 .
 format
@@ -208,7 +200,7 @@ path
 return
 find_object
 (
-impl
+loader
 )
     
 def
@@ -220,11 +212,11 @@ loaded_tasks
 )
 :
         
-impl_class
+loader
 =
 self
 .
-_get_impl_class
+_get_loader
 (
 )
         
@@ -295,9 +287,7 @@ args
 None
         
 return
-impl_class
-.
-load_tasks
+loader
 (
 self
 .
@@ -306,7 +296,6 @@ self
 .
 path
 config
-                                     
 parameters
 loaded_tasks
 )
