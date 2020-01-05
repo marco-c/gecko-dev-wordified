@@ -8151,6 +8151,7 @@ mut
 cef_dictionary_value_t
 keys
 :
+&
 types
 :
 :
@@ -11193,6 +11194,7 @@ get_keys
 self
 keys
 :
+&
 Vec
 <
 String

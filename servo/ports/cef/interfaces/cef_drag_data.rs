@@ -1290,6 +1290,7 @@ mut
 cef_drag_data_t
 names
 :
+&
 types
 :
 :
@@ -3632,6 +3633,7 @@ get_file_names
 self
 names
 :
+&
 Vec
 <
 String

@@ -3076,6 +3076,7 @@ mut
 cef_context_menu_params_t
 suggestions
 :
+&
 types
 :
 :
@@ -5362,6 +5363,7 @@ get_dictionary_suggestions
 self
 suggestions
 :
+&
 Vec
 <
 String

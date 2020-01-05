@@ -688,6 +688,7 @@ interfaces
 cef_browser_t
 icon_urls
 :
+&
 types
 :
 :
@@ -1750,6 +1751,7 @@ interfaces
 CefBrowser
 icon_urls
 :
+&
 Vec
 <
 String

@@ -617,6 +617,7 @@ mut
 cef_cookie_manager_t
 schemes
 :
+&
 types
 :
 :
@@ -2035,6 +2036,7 @@ set_supported_schemes
 self
 schemes
 :
+&
 Vec
 <
 String

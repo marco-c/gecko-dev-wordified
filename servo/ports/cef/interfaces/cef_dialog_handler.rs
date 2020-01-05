@@ -623,6 +623,7 @@ libc
 c_int
 file_paths
 :
+&
 types
 :
 :
@@ -1225,6 +1226,7 @@ libc
 c_int
 file_paths
 :
+&
 Vec
 <
 String
@@ -1931,6 +1933,7 @@ types
 cef_string_t
 accept_filters
 :
+&
 types
 :
 :
@@ -2731,6 +2734,7 @@ u16
 ]
 accept_filters
 :
+&
 Vec
 <
 String
