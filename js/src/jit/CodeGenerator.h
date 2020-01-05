@@ -1951,14 +1951,6 @@ ins
 )
 ;
 void
-visitArraySplice
-(
-LArraySplice
-*
-splice
-)
-;
-void
 visitSetPropertyPolymorphicT
 (
 LSetPropertyPolymorphicT

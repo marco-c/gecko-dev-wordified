@@ -4892,14 +4892,6 @@ CallInfo
 callInfo
 )
 ;
-InliningResult
-inlineArraySplice
-(
-CallInfo
-&
-callInfo
-)
-;
 /
 /
 Math
