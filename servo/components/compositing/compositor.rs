@@ -284,10 +284,7 @@ use
 layout_traits
 :
 :
-{
 LayoutControlChan
-LayoutControlMsg
-}
 ;
 use
 msg
@@ -401,6 +398,7 @@ script_traits
 :
 {
 ConstellationControlMsg
+LayoutControlMsg
 ScriptControlChan
 }
 ;
