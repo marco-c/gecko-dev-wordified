@@ -721,17 +721,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderCompositorOGL
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layout
 /
 RenderFrameParent

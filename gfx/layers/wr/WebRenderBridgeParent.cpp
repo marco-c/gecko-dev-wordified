@@ -245,17 +245,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderCompositorOGL
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 RenderThread
