@@ -1310,6 +1310,7 @@ issue
 85
 )
 .
+pub
 fn
 build_element_from_tag
 (
