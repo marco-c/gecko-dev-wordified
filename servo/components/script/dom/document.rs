@@ -769,7 +769,10 @@ parse
 html
 :
 :
+{
 build_element_from_tag
+ScriptCreated
+}
 ;
 use
 servo_util
@@ -4343,6 +4346,7 @@ build_element_from_tag
 name
 None
 self
+ScriptCreated
 )
 )
 }
@@ -4782,6 +4786,7 @@ to_string
 )
 )
 self
+ScriptCreated
 )
 )
 }
