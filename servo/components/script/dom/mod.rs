@@ -3142,6 +3142,14 @@ mouseevent
 ;
 pub
 mod
+mutationobserver
+;
+pub
+mod
+mutationrecord
+;
+pub
+mod
 namednodemap
 ;
 pub
