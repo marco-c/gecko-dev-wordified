@@ -3150,7 +3150,9 @@ IsShutdown
 )
 )
 ;
-mOwner
+GetOwner
+(
+)
 -
 >
 UpdateReadyState
