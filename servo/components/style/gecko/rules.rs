@@ -168,7 +168,7 @@ data
 .
 family
 .
-0
+name
 )
 ;
 macro_rules
@@ -546,7 +546,7 @@ Source
 Local
 (
 ref
-name
+family
 )
 =
 >
@@ -559,9 +559,9 @@ next
 set_local_font
 (
 &
-name
+family
 .
-0
+name
 )
 ;
 }
