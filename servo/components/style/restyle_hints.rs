@@ -855,7 +855,7 @@ is_none
 (
 )
 {
-error
+warn
 !
 (
 "
