@@ -297,7 +297,7 @@ WEBGL_compressed_texture_atc
 )
 WEBGL_EXTENSION_IDENTIFIER
 (
-WEBGL_compressed_texture_es3_0
+WEBGL_compressed_texture_etc
 )
 WEBGL_EXTENSION_IDENTIFIER
 (
@@ -622,7 +622,7 @@ case
 WebGLExtensionID
 :
 :
-WEBGL_compressed_texture_es3_0
+WEBGL_compressed_texture_etc
 :
 return
 gl
@@ -2130,7 +2130,7 @@ case
 WebGLExtensionID
 :
 :
-WEBGL_compressed_texture_es3_0
+WEBGL_compressed_texture_etc
 :
 obj
 =
