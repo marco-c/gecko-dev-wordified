@@ -21477,17 +21477,6 @@ inherited
 images
 and
 coords
-mozilla
-:
-:
-StyleComplexColor
-mCaretColor
-;
-/
-/
-[
-inherited
-]
 inline
 uint8_t
 GetEffectivePointerEvents
