@@ -462,12 +462,8 @@ id
 var
 checkPingsSaved
 =
-Task
-.
 async
-(
 function
-*
 (
 pingIds
 )
@@ -509,7 +505,7 @@ try
 {
 exists
 =
-yield
+await
 OS
 .
 File
@@ -562,7 +558,6 @@ return
 allFound
 ;
 }
-)
 ;
 function
 histogramValueCount
