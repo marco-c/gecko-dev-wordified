@@ -155,7 +155,7 @@ True
 %
 helpers
 :
-longhand
+gecko_autoarray_longhand
 name
 =
 "
@@ -640,7 +640,7 @@ context
 %
 helpers
 :
-longhand
+gecko_autoarray_longhand
 >
 <
 %
