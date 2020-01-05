@@ -1425,7 +1425,8 @@ HasCachedSelection
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 GetSelectionRange
 (
 int32_t
@@ -1434,6 +1435,9 @@ aSelectionStart
 int32_t
 *
 aSelectionEnd
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -1769,15 +1773,8 @@ MaybeLoadImage
 )
 ;
 void
-SetSelectionProperties
+SetSelectionCached
 (
-const
-nsTextEditorState
-:
-:
-SelectionProperties
-&
-aProps
 )
 {
 MOZ_ASSERT
@@ -1791,10 +1788,6 @@ NS_FORM_INPUT_NUMBER
 mSelectionCached
 =
 true
-;
-mSelectionProperties
-=
-aProps
 ;
 }
 bool
