@@ -1991,7 +1991,7 @@ state
 .
 m_targetStreamListener
 =
-0
+nullptr
 ;
 mContentType
 .

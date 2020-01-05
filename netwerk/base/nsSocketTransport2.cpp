@@ -11627,7 +11627,7 @@ n
 ;
 mDNSRequest
 =
-0
+nullptr
 ;
 if
 (
@@ -13050,7 +13050,7 @@ NS_ERROR_ABORT
 ;
 mDNSRequest
 =
-0
+nullptr
 ;
 }
 /

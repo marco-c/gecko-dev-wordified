@@ -2098,7 +2098,7 @@ NS_OK
 ;
 mNextListener
 =
-0
+nullptr
 ;
 /
 *

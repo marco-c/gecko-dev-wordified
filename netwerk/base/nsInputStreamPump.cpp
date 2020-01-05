@@ -2470,7 +2470,7 @@ mAsyncStream
 .
 mStream
 =
-0
+nullptr
 ;
 /
 /
@@ -4821,11 +4821,11 @@ Close
 ;
 mAsyncStream
 =
-0
+nullptr
 ;
 mTargetThread
 =
-0
+nullptr
 ;
 mIsPending
 =
@@ -4892,11 +4892,11 @@ Enter
 }
 mListener
 =
-0
+nullptr
 ;
 mListenerContext
 =
-0
+nullptr
 ;
 if
 (

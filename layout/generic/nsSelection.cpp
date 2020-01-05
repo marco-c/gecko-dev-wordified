@@ -1784,7 +1784,7 @@ Cancel
 ;
 mTimer
 =
-0
+nullptr
 ;
 }
 mContent

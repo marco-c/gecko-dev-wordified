@@ -6248,7 +6248,7 @@ nullptr
 ;
 mLastBlockParent
 =
-0
+nullptr
 ;
 ResetAll
 (

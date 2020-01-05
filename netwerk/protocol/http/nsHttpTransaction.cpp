@@ -8009,7 +8009,7 @@ state
 .
 mSecurityInfo
 =
-0
+nullptr
 ;
 if
 (

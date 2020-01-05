@@ -2843,7 +2843,7 @@ a
 ;
 uri
 =
-0
+nullptr
 ;
 }
 else

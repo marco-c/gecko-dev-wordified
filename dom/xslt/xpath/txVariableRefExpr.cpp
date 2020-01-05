@@ -245,7 +245,7 @@ _empty
 )
 mPrefix
 =
-0
+nullptr
 ;
 }
 /

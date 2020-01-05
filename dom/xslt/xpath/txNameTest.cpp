@@ -174,7 +174,7 @@ _empty
 )
 mPrefix
 =
-0
+nullptr
 ;
 NS_ASSERTION
 (

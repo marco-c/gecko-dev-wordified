@@ -218,7 +218,7 @@ nullptr
 ;
 mInputTee
 =
-0
+nullptr
 ;
 }
 /
@@ -258,7 +258,7 @@ else
 {
 mSink
 =
-0
+nullptr
 ;
 }
 nsresult
@@ -290,7 +290,7 @@ status
 ;
 mObserver
 =
-0
+nullptr
 ;
 return
 rv

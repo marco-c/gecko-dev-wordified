@@ -2904,7 +2904,7 @@ invalidateCachedFile
 )
 mFile
 =
-0
+nullptr
 ;
 if
 (
@@ -20296,7 +20296,7 @@ mFile
 )
 mFile
 =
-0
+nullptr
 ;
 }
 }

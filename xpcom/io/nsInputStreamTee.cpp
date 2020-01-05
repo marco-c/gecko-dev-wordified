@@ -1065,7 +1065,7 @@ stream
 ;
 mSink
 =
-0
+nullptr
 ;
 break
 ;
@@ -1259,11 +1259,11 @@ Close
 ;
 mSource
 =
-0
+nullptr
 ;
 mSink
 =
-0
+nullptr
 ;
 return
 rv

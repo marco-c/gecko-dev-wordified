@@ -5054,7 +5054,7 @@ sooner
 .
 mCacheEntry
 =
-0
+nullptr
 ;
 /
 /

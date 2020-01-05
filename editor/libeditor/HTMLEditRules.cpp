@@ -3382,7 +3382,7 @@ selection
 ;
 mNewBlock
 =
-0
+nullptr
 ;
 }
 /
@@ -20749,7 +20749,7 @@ rv
 ;
 prevListItem
 =
-0
+nullptr
 ;
 continue
 ;
@@ -20993,7 +20993,7 @@ newBlock
 }
 prevListItem
 =
-0
+nullptr
 ;
 continue
 ;
@@ -21676,7 +21676,7 @@ curNode
 in
 prevListItem
 =
-0
+nullptr
 ;
 }
 /

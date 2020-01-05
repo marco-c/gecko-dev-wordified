@@ -1421,7 +1421,7 @@ aStatus
 ;
 mNextListener
 =
-0
+nullptr
 ;
 return
 rv

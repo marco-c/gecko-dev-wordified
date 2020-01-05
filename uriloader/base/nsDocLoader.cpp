@@ -1925,7 +1925,7 @@ Compact
 ;
 mDocumentRequest
 =
-0
+nullptr
 ;
 if
 (
@@ -4071,7 +4071,7 @@ mDocumentRequest
 ;
 mDocumentRequest
 =
-0
+nullptr
 ;
 mIsLoadingDocument
 =

@@ -957,7 +957,7 @@ status
 ;
 mSocket
 =
-0
+nullptr
 ;
 mSocketInput
 -

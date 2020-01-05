@@ -1593,11 +1593,11 @@ statusCode
 ;
 mListener
 =
-0
+nullptr
 ;
 mListenerContext
 =
-0
+nullptr
 ;
 if
 (
@@ -1615,11 +1615,11 @@ mStatus
 ;
 mCallbacks
 =
-0
+nullptr
 ;
 mProgressSink
 =
-0
+nullptr
 ;
 }
 if
