@@ -7961,7 +7961,18 @@ event
 STATE_TRANSFERRING
 |
 .
+/
+/
+Use
+Element
+to
+support
+both
 HTMLIFrameElement
+and
+nsXULElement
+.
+Element
 *
 frame
 =
@@ -7972,7 +7983,7 @@ rv
 =
 UNWRAP_OBJECT
 (
-HTMLIFrameElement
+Element
 obj
 frame
 )

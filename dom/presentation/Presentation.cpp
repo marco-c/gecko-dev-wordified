@@ -681,6 +681,15 @@ docShell
 GetIsInMozBrowserOrApp
 (
 )
+&
+&
+!
+docShell
+-
+>
+GetIsTopLevelContentDocShell
+(
+)
 )
 {
 return
