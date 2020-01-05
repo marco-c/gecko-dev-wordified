@@ -208,6 +208,14 @@ plugin
 plugins
 )
 ]
+#
+!
+[
+plugin
+(
+script_plugins
+)
+]
 extern
 crate
 angle

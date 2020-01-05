@@ -69,7 +69,7 @@ plugin
 [
 plugin
 (
-plugins
+script_plugins
 )
 ]
 extern
