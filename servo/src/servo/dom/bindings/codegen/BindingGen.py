@@ -341,7 +341,6 @@ outputprefix
 webidlfile
 )
     
-#
 root2
 =
 CGBindingRoot
@@ -351,7 +350,6 @@ outputprefix
 webidlfile
 )
     
-#
 if
 replaceFileIfChanged
 (
@@ -370,13 +368,14 @@ define
 )
 :
     
+#
 if
 replaceFileIfChanged
 (
 filename
 root
 .
-define
+declare
 (
 )
 )
