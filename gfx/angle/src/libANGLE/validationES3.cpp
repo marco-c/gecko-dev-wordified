@@ -6387,7 +6387,6 @@ formatInfo
 .
 computeCompressedImageSize
 (
-GL_UNSIGNED_BYTE
 gl
 :
 :
@@ -7936,7 +7935,6 @@ formatInfo
 .
 computeCompressedImageSize
 (
-GL_UNSIGNED_BYTE
 gl
 :
 :
