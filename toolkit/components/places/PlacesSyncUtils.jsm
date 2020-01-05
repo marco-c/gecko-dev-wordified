@@ -6384,6 +6384,12 @@ item
 {
 if
 (
+!
+item
+.
+kind
+|
+|
 item
 .
 kind
