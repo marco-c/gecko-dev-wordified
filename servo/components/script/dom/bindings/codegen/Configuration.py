@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-file
 #
+file
 You
 can
 obtain
@@ -192,7 +192,6 @@ self
 maxProtoChainLength
 =
 0
-;
         
 for
 thing
@@ -372,6 +371,7 @@ descriptors
 .
 extend
 (
+                
 [
 Descriptor
 (
@@ -921,8 +921,8 @@ len
 (
 descriptors
 )
-is
-not
+!
+=
 1
 :
             
@@ -944,7 +944,7 @@ str
 (
 len
 (
-matches
+descriptors
 )
 )
 +
@@ -952,7 +952,6 @@ matches
 matches
 "
 )
-;
         
 return
 descriptors

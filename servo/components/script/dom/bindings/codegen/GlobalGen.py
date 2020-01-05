@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-file
 #
+file
 You
 can
 obtain
@@ -107,15 +107,13 @@ ply
 import
 os
 import
-cStringIO
-import
 WebIDL
 import
 cPickle
 from
 Configuration
 import
-*
+Configuration
 from
 CodegenRust
 import

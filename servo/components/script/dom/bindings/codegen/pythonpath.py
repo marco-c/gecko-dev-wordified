@@ -366,6 +366,7 @@ globals
 )
 import
 sys
+import
 os
 if
 __name__

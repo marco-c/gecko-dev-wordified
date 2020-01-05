@@ -31,8 +31,8 @@ not
 distributed
 with
 this
-file
 #
+file
 You
 can
 obtain
@@ -210,7 +210,6 @@ argv
 r
 "
 )
-;
 idlTemplate
 =
 idlFile
@@ -218,13 +217,11 @@ idlFile
 read
 (
 )
-;
 idlFile
 .
 close
 (
 )
-;
 print
 (
 "
