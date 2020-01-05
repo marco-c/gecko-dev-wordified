@@ -710,6 +710,15 @@ height
 >
 <
 img
+class
+=
+"
+devtools
+-
+tooltip
+-
+tiles
+"
 style
 =
 "
