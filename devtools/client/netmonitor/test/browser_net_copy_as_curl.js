@@ -448,6 +448,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyAsCurl
 (
 )

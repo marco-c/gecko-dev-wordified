@@ -124,6 +124,8 @@ wait
 yield
 RequestsMenu
 .
+contextMenu
+.
 copyAllAsHar
 (
 )

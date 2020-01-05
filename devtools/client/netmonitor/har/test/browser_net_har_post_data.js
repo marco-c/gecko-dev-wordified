@@ -182,6 +182,8 @@ jsonString
 yield
 RequestsMenu
 .
+contextMenu
+.
 copyAllAsHar
 (
 )

@@ -159,6 +159,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyUrl
 (
 )
