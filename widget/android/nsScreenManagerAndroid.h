@@ -267,17 +267,6 @@ GetDensity
 (
 )
 ;
-protected
-:
-virtual
-void
-ApplyMinimumBrightness
-(
-uint32_t
-aBrightness
-)
-override
-;
 private
 :
 uint32_t
