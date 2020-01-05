@@ -310,7 +310,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -319,7 +319,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "

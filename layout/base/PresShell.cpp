@@ -1364,7 +1364,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -1373,7 +1373,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -17410,7 +17410,8 @@ construction
 +
 mChangeNestCount
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -22477,7 +22478,8 @@ bool
 aFlushOnHoverChange
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -27304,7 +27306,8 @@ restyle
 return
 ;
 }
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext
@@ -35899,12 +35902,10 @@ DecApproximateVisibleCount
 VisibleFrames
 &
 aFrames
-const
 Maybe
 <
 OnNonvisible
 >
-&
 aNonvisibleAction
 /
 *
@@ -36307,12 +36308,10 @@ PresShell
 :
 ClearApproximatelyVisibleFramesList
 (
-const
 Maybe
 <
 OnNonvisible
 >
-&
 aNonvisibleAction
 /
 *
@@ -58980,7 +58979,8 @@ scriptBlocker
 +
 mChangeNestCount
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 mPresContext

@@ -338,6 +338,15 @@ h
 #
 include
 "
+mozilla
+/
+RestyleManagerInlines
+.
+h
+"
+#
+include
+"
 imgIRequest
 .
 h

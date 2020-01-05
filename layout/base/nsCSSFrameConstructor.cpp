@@ -702,7 +702,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -711,7 +711,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -2995,7 +2995,8 @@ static
 void
 ReparentFrame
 (
-RestyleManagerHandle
+RestyleManager
+*
 aRestyleManager
 nsContainerFrame
 *
@@ -3038,7 +3039,8 @@ nsFrameList
 aFrameList
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aFrameConstructor
@@ -48088,11 +48090,6 @@ RestyleManager
 )
 -
 >
-AsBase
-(
-)
--
->
 IsInStyleRefresh
 (
 )
@@ -51279,11 +51276,6 @@ IsStyledByServo
 &
 !
 RestyleManager
-(
-)
--
->
-AsBase
 (
 )
 -

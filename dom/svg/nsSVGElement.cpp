@@ -498,7 +498,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -507,7 +507,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -5893,7 +5893,8 @@ the
 SMILOverrideStyle
 .
 )
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aRuleWalker

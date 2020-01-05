@@ -174,7 +174,7 @@ use
 with
 objects
 like
-RestyleManagerHandle
+StyleSheetHandle
 *
 where
 the

@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -182,7 +182,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -2278,7 +2278,8 @@ nsIFrame
 aParentFrame
 )
 {
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aPresContext
@@ -3407,7 +3408,8 @@ aFlags
 eForDestroy
 )
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 PresContext
@@ -3805,7 +3807,8 @@ GetInFirstLine
 (
 )
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 aPresContext

@@ -180,7 +180,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandle
+RestyleManager
 .
 h
 "
@@ -189,7 +189,7 @@ include
 "
 mozilla
 /
-RestyleManagerHandleInlines
+RestyleManagerInlines
 .
 h
 "
@@ -491,7 +491,8 @@ function
 "
 )
 ;
-RestyleManagerHandle
+RestyleManager
+*
 restyleManager
 =
 PresContext
