@@ -356,7 +356,7 @@ h
 #
 include
 "
-nsIIncrementalRunnable
+nsIIdleRunnable
 .
 h
 "
@@ -7105,7 +7105,7 @@ aEvent
 {
 nsCOMPtr
 <
-nsIIncrementalRunnable
+nsIIdleRunnable
 >
 incrementalEvent
 (

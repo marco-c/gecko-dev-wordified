@@ -3578,7 +3578,7 @@ nsICancelableRunnable
 public
 nsINamed
 public
-nsIIncrementalRunnable
+nsIIdleRunnable
 {
 public
 :
@@ -4040,7 +4040,7 @@ nsINamed
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIIncrementalRunnable
+nsIIdleRunnable
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
