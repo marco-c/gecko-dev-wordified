@@ -254,8 +254,6 @@ bool
 *
 /
 check
-:
-function
 (
 url
 )
@@ -353,8 +351,6 @@ site
 *
 /
 canSave
-:
-function
 (
 {
 isHttps
