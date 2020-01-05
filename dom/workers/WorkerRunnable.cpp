@@ -3178,15 +3178,6 @@ ThrowUncatchableException
 )
 ;
 }
-/
-/
-Telemetry
-is
-apparently
-not
-threadsafe
-/
-/
 Telemetry
 :
 :
@@ -3197,8 +3188,6 @@ Telemetry
 :
 SYNC_WORKER_OPERATION
 mTelemetryKey
-/
-/
 static_cast
 <
 uint32_t
@@ -3214,8 +3203,6 @@ NowLoRes
 -
 startTime
 )
-/
-/
 .
 ToMilliseconds
 (
