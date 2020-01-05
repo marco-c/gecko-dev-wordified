@@ -6972,6 +6972,13 @@ ontouchcancel
 )
 GK_ATOM
 (
+ontransitioncancel
+"
+ontransitioncancel
+"
+)
+GK_ATOM
+(
 ontransitionend
 "
 ontransitionend
