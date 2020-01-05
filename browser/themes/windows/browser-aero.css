@@ -180,6 +180,9 @@ color
 graytext
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 -
@@ -240,14 +243,6 @@ lwtheme
 browserContainer
 >
 findbar
-{
-background
--
-color
-:
-customToolbarColor
-;
-}
 .
 tab
 -
@@ -277,6 +272,8 @@ customToolbarColor
 ;
 }
 }
+%
+endif
 }
 media
 (

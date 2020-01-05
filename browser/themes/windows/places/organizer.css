@@ -1000,6 +1000,9 @@ color
 EEF3FA
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 placesToolbar
 {
@@ -1014,6 +1017,8 @@ color
 black
 ;
 }
+%
+endif
 #
 detailsDeck
 {
