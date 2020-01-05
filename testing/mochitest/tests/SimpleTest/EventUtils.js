@@ -5170,6 +5170,19 @@ window
 object
 .
 *
+aCallback
+is
+optional
+use
+the
+callback
+for
+receiving
+notifications
+of
+TIP
+.
+*
 /
 function
 synthesizeKey
@@ -5179,6 +5192,7 @@ aEvent
 aWindow
 =
 window
+aCallback
 )
 {
 var
@@ -5187,6 +5201,7 @@ TIP
 _getTIP
 (
 aWindow
+aCallback
 )
 ;
 if
