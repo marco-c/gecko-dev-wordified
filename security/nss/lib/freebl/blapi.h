@@ -11454,6 +11454,13 @@ size_t
 len
 )
 ;
+extern
+SECStatus
+RNG_ResetForFuzzing
+(
+void
+)
+;
 /
 *
 Destroy

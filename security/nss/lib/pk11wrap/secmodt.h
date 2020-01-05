@@ -2392,6 +2392,7 @@ failed
 attempt
 to
 authenticate
+\
 *
 has
 already
@@ -2399,6 +2400,7 @@ been
 made
 just
 retry
+\
 *
 the
 operation
@@ -2417,12 +2419,14 @@ successful
 attempt
 to
 authenticate
+\
 *
 has
 completed
 .
 Continue
 without
+\
 *
 another
 call
@@ -2487,6 +2491,7 @@ prompt
 has
 been
 presented
+\
 *
 to
 the
@@ -2494,6 +2499,7 @@ user
 initiate
 a
 C_Login
+\
 *
 to
 authenticate

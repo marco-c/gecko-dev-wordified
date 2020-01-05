@@ -151,23 +151,6 @@ MP_ASSEMBLY_SQUARE
 endif
 #
 if
-defined
-(
-_MSC_VER
-)
-&
-&
-_MSC_VER
-<
-1900
-#
-define
-inline
-__inline
-#
-endif
-#
-if
 MP_LOGTAB
 /
 *
@@ -16640,7 +16623,6 @@ be
 zeroes
 *
 /
-inline
 void
 s_mp_setz
 (
@@ -16739,7 +16721,6 @@ to
 dp
 *
 /
-inline
 void
 s_mp_copy
 (
@@ -16848,7 +16829,6 @@ to
 that
 *
 /
-inline
 void
 *
 s_mp_alloc
@@ -16904,7 +16884,6 @@ by
 ptr
 *
 /
-inline
 void
 s_mp_free
 (
@@ -16962,7 +16941,6 @@ given
 value
 *
 /
-inline
 void
 s_mp_clamp
 (

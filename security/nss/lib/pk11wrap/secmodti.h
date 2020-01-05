@@ -1444,6 +1444,9 @@ PK11SlotInfo
 *
 slot
 ;
+PRBool
+owner
+;
 CK_OBJECT_HANDLE
 objectID
 ;
