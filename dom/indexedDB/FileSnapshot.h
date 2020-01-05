@@ -293,7 +293,7 @@ aName
 }
 virtual
 void
-GetPath
+GetDOMPath
 (
 nsAString
 &
@@ -305,7 +305,7 @@ override
 mBlobImpl
 -
 >
-GetPath
+GetDOMPath
 (
 aPath
 )
@@ -313,7 +313,7 @@ aPath
 }
 virtual
 void
-SetPath
+SetDOMPath
 (
 const
 nsAString
@@ -325,7 +325,7 @@ override
 mBlobImpl
 -
 >
-SetPath
+SetDOMPath
 (
 aPath
 )

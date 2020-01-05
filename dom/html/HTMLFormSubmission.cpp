@@ -2876,14 +2876,14 @@ file
 )
 {
 nsAutoString
-path
+relativePath
 ;
 file
 -
 >
-GetPath
+GetRelativePath
 (
-path
+relativePath
 )
 ;
 if
@@ -2899,7 +2899,7 @@ nullptr
 &
 &
 !
-path
+relativePath
 .
 IsEmpty
 (
@@ -2908,7 +2908,7 @@ IsEmpty
 {
 filename16
 =
-path
+relativePath
 ;
 }
 if

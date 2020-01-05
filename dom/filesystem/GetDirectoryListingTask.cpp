@@ -1357,7 +1357,7 @@ name
 blobImpl
 -
 >
-SetPath
+SetDOMPath
 (
 filePath
 )
