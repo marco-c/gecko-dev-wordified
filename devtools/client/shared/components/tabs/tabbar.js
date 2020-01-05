@@ -248,11 +248,6 @@ toolbox
 PropTypes
 .
 object
-renderOnlySelected
-:
-PropTypes
-.
-bool
 }
 getDefaultProps
 :
@@ -1342,13 +1337,6 @@ onAllTabsMenuClick
 this
 .
 onAllTabsMenuClick
-renderOnlySelected
-:
-this
-.
-props
-.
-renderOnlySelected
 showAllTabsMenu
 :
 this
