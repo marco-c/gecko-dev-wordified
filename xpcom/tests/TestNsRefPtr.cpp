@@ -467,13 +467,6 @@ n
 test_message
 gTestMessage
 ;
-/
-*
-.
-.
-.
-*
-/
 void
 Foo
 :
