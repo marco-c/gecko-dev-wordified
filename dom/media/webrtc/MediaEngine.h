@@ -1837,6 +1837,9 @@ nsString
 &
 aDeviceId
 const
+mozilla
+:
+:
 ipc
 :
 :
