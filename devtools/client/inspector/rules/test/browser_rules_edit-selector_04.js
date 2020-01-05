@@ -461,10 +461,12 @@ ok
 !
 view
 .
-highlightedSelector
+highlighters
+.
+selectorHighlighterShown
 "
 The
-selectorhighlighter
+selectorHighlighterShown
 instance
 was
 removed
