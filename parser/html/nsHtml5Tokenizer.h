@@ -387,9 +387,6 @@ class
 nsHtml5ElementName
 ;
 class
-nsHtml5HtmlAttributes
-;
-class
 nsHtml5UTF16Buffer
 ;
 class
@@ -687,6 +684,10 @@ attributeName
 ;
 private
 :
+nsHtml5AttributeName
+*
+nonInternedAttributeName
+;
 nsIAtom
 *
 doctypeName

@@ -377,13 +377,6 @@ h
 #
 include
 "
-nsHtml5HtmlAttributes
-.
-h
-"
-#
-include
-"
 nsHtml5UTF16Buffer
 .
 h
