@@ -533,13 +533,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h

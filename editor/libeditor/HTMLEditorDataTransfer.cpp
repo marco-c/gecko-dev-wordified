@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsIEditorMailSupport
 .
 h

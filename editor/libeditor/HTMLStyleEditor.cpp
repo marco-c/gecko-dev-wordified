@@ -275,13 +275,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsIEditRules
 .
 h
