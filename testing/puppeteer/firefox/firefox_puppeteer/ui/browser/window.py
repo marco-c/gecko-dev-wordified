@@ -1975,7 +1975,7 @@ marionette
 session_capabilities
 [
 '
-platform
+platformName
 '
 ]
 =
