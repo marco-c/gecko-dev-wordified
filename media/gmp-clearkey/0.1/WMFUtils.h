@@ -1292,13 +1292,6 @@ IMFTransform
 aOutMFT
 )
 ;
-enum
-CodecType
-{
-H264
-AAC
-}
-;
 /
 /
 Returns
@@ -1315,8 +1308,6 @@ decode
 H
 .
 264
-or
-AAC
 on
 /
 /
@@ -1333,10 +1324,8 @@ on
 const
 char
 *
-WMFDecoderDllNameFor
+WMFDecoderDllName
 (
-CodecType
-aCodec
 )
 ;
 /
