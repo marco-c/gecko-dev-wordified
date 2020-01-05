@@ -31286,7 +31286,7 @@ eStyleAnimType_Corner_BottomLeft
 {
 static_assert
 (
-NS_CORNER_TOP_LEFT
+eCornerTopLeft
 =
 =
 eStyleAnimType_Corner_TopLeft
@@ -31294,7 +31294,7 @@ eStyleAnimType_Corner_TopLeft
 eStyleAnimType_Corner_TopLeft
 &
 &
-NS_CORNER_TOP_RIGHT
+eCornerTopRight
 =
 =
 eStyleAnimType_Corner_TopRight
@@ -31302,7 +31302,7 @@ eStyleAnimType_Corner_TopRight
 eStyleAnimType_Corner_TopLeft
 &
 &
-NS_CORNER_BOTTOM_RIGHT
+eCornerBottomRight
 =
 =
 eStyleAnimType_Corner_BottomRight
@@ -31310,7 +31310,7 @@ eStyleAnimType_Corner_BottomRight
 eStyleAnimType_Corner_TopLeft
 &
 &
-NS_CORNER_BOTTOM_LEFT
+eCornerBottomLeft
 =
 =
 eStyleAnimType_Corner_BottomLeft

@@ -402,7 +402,10 @@ corner
 )
 {
 case
-NS_CORNER_TOP_LEFT
+mozilla
+:
+:
+eCornerTopLeft
 :
 return
 TopLeft
@@ -410,7 +413,10 @@ TopLeft
 )
 ;
 case
-NS_CORNER_TOP_RIGHT
+mozilla
+:
+:
+eCornerTopRight
 :
 return
 TopRight
@@ -418,7 +424,10 @@ TopRight
 )
 ;
 case
-NS_CORNER_BOTTOM_RIGHT
+mozilla
+:
+:
+eCornerBottomRight
 :
 return
 BottomRight
@@ -426,7 +435,10 @@ BottomRight
 )
 ;
 case
-NS_CORNER_BOTTOM_LEFT
+mozilla
+:
+:
+eCornerBottomLeft
 :
 return
 BottomLeft
