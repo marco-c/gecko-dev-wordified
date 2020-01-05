@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 uuidGenerator
 =
@@ -108,6 +113,7 @@ OS
 "
 Darwin
 "
+;
 }
 function
 isWin
@@ -125,6 +131,7 @@ OS
 "
 WINNT
 "
+;
 }
 function
 isLinux
@@ -142,6 +149,7 @@ OS
 "
 Linux
 "
+;
 }
 function
 isNightly
@@ -676,7 +684,7 @@ dir
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -686,7 +694,7 @@ file
 local
 ;
 1
-'
+"
 ]
 .
 createInstance
