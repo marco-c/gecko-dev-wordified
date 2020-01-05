@@ -9512,17 +9512,6 @@ info
 )
 ;
 bool
-ValidateTextureTargetEnum
-(
-GLenum
-target
-const
-char
-*
-info
-)
-;
-bool
 ValidateComparisonEnum
 (
 GLenum
