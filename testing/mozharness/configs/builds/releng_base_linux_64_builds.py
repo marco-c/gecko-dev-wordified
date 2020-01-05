@@ -902,21 +902,6 @@ enable_unittest_sendchange
 :
 True
     
-'
-skip_balrog_uploads
-'
-:
-True
-#
-If
-True
-rely
-on
-Funsize
-to
-update
-Balrog
-    
 #
 #
 #
