@@ -272,7 +272,10 @@ create_window
 (
 parent
 :
+Option
+<
 WindowID
+>
 )
 -
 >
