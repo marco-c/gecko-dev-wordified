@@ -3482,16 +3482,6 @@ a
 &
 mut
 self
-layout_context
-:
-&
-'
-a
-LayoutContext
-<
-'
-a
->
 )
 {
 self
@@ -3500,7 +3490,6 @@ block_flow
 .
 place_float_if_applicable
 (
-layout_context
 )
 }
 fn

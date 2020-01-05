@@ -6049,7 +6049,6 @@ kid
 .
 place_float_if_applicable
 (
-layout_context
 )
 ;
 if
@@ -6283,7 +6282,6 @@ kid
 .
 place_float_if_applicable
 (
-layout_context
 )
 ;
 let
@@ -13506,16 +13504,6 @@ a
 &
 mut
 self
-_
-:
-&
-'
-a
-LayoutContext
-<
-'
-a
->
 )
 {
 if

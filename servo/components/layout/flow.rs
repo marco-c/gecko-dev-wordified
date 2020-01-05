@@ -2189,16 +2189,6 @@ a
 &
 mut
 self
-_
-:
-&
-'
-a
-LayoutContext
-<
-'
-a
->
 )
 {
 }
