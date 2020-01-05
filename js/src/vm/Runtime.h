@@ -2102,10 +2102,10 @@ the
 active
 context
 .
-mozilla
+js
 :
 :
-Atomic
+ActiveThreadData
 <
 size_t
 >
@@ -2131,10 +2131,10 @@ endSingleThreadedExecution
 (
 )
 .
-mozilla
+js
 :
 :
-Atomic
+ActiveThreadData
 <
 size_t
 >
