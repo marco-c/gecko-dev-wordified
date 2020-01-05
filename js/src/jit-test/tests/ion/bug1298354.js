@@ -24,7 +24,8 @@ buf
 new
 Uint8ClampedArray
 (
-a
+-
+1
 )
 ;
 }
