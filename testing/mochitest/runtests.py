@@ -17057,6 +17057,9 @@ urlOpts
         
 return
 status
+self
+.
+lastTestSeen
     
 def
 initializeLooping
@@ -19664,6 +19667,7 @@ n
 )
                 
 ret
+_
 =
 self
 .
