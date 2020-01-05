@@ -6943,6 +6943,40 @@ JSTrue
 ;
 "
         
+transmute
+=
+"
+mem
+:
+:
+transmute
+(
+index
+)
+"
+        
+if
+isMember
+=
+=
+'
+Dictionary
+'
+:
+            
+transmute
+=
+'
+unsafe
+{
+'
++
+transmute
++
+'
+}
+'
+        
 template
 =
 (
@@ -7034,16 +7068,11 @@ n
 "
             
 "
-unsafe
-{
-mem
-:
-:
-transmute
+%
 (
-index
+transmute
 )
-}
+s
 \
 n
 "
@@ -7077,6 +7106,12 @@ exceptionCode
 "
 :
 exceptionCode
+                   
+"
+transmute
+"
+:
+transmute
                    
 "
 handleInvalidEnumValueCode
@@ -12759,56 +12794,12 @@ ignored_warnings
 =
 [
                 
-#
-Allow
-unreachable_code
-because
-we
-use
-'
-break
-'
-in
-a
-way
-that
-                
-#
-sometimes
-produces
-two
-'
-break
-'
-s
-in
-a
-row
-.
-See
-for
-example
-                
-#
-CallbackMember
-.
-getArgConversions
-.
-                
-'
-unreachable_code
-'
-                
 '
 non_camel_case_types
 '
                 
 '
 non_upper_case_globals
-'
-                
-'
-unused_parens
 '
                 
 '
@@ -12820,19 +12811,7 @@ unused_variables
 '
                 
 '
-unused_unsafe
-'
-                
-'
-unused_mut
-'
-                
-'
 unused_assignments
-'
-                
-'
-dead_code
 '
             
 ]
@@ -15727,7 +15706,7 @@ None
                  
 unsafe
 =
-True
+False
 )
 :
         
@@ -16173,7 +16152,6 @@ create
 =
 "
 let
-mut
 raw
 =
 Box
@@ -16688,9 +16666,6 @@ concreteType
 '
 object
 '
-mutable
-=
-True
 )
 ]
         
@@ -16728,9 +16703,6 @@ concreteType
 '
 object
 '
-mutable
-=
-True
 )
 ]
         
@@ -16759,7 +16731,11 @@ Wrap
 '
 retval
 args
+                                  
 pub
+=
+True
+unsafe
 =
 True
 )
@@ -17819,6 +17795,12 @@ protoChain
 1
 :
             
+self
+.
+unsafe
+=
+True
+            
 getParentProto
 =
 "
@@ -18419,6 +18401,9 @@ args
 pub
 =
 pub
+unsafe
+=
+True
 )
         
 self
@@ -18959,6 +18944,7 @@ descriptor
 '
 DefineProxyHandler
 '
+                                  
 '
 *
 const
@@ -18969,7 +18955,11 @@ c_void
 '
 [
 ]
+                                  
 pub
+=
+True
+unsafe
 =
 True
 )
@@ -21946,7 +21936,6 @@ CGGeneric
 (
 "
 let
-mut
 args
 =
 CallArgs
@@ -22375,7 +22364,6 @@ CGGeneric
 (
 "
 let
-mut
 args
 =
 CallArgs
@@ -22788,12 +22776,10 @@ n
             
 "
 if
-(
 argc
 =
 =
 0
-)
 {
 \
 n
@@ -31533,7 +31519,11 @@ descriptor
 .
 concreteType
 args
+                                  
 alwaysInline
+=
+True
+unsafe
 =
 True
 )
@@ -33518,7 +33508,6 @@ as_ptr
 ;
                     
 let
-mut
 rooted
 =
 RootedString
@@ -34547,7 +34536,6 @@ getNamed
 (
 "
 if
-(
 RUST_JSID_IS_STRING
 (
 id
@@ -34555,7 +34543,6 @@ id
 !
 =
 0
-)
 {
 \
 n
@@ -44553,13 +44540,11 @@ define
 "
 else
 if
-(
 argc
 =
 =
 %
 d
-)
 {
 \
 n
@@ -44853,6 +44838,32 @@ getArgcDecl
 self
 )
 :
+        
+if
+self
+.
+argCount
+<
+=
+1
+:
+            
+return
+CGGeneric
+(
+"
+let
+argc
+=
+%
+s
+;
+"
+%
+self
+.
+argCountStr
+)
         
 return
 CGGeneric
