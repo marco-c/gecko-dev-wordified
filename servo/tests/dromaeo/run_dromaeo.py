@@ -65,8 +65,6 @@ MPL
 import
 os
 import
-re
-import
 subprocess
 import
 sys
@@ -74,10 +72,6 @@ import
 BaseHTTPServer
 import
 SimpleHTTPServer
-import
-SocketServer
-import
-threading
 import
 urlparse
 import
