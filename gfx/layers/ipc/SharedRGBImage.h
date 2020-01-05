@@ -325,6 +325,12 @@ TextureClient
 >
 mTextureClient
 ;
+nsCountedRef
+<
+nsMainThreadSourceSurfaceRef
+>
+mSourceSurface
+;
 }
 ;
 }
