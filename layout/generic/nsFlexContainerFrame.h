@@ -502,7 +502,7 @@ FlexboxAxisTracker
 struct
 StrutInfo
 ;
-struct
+class
 CachedMeasuringReflowResult
 ;
 /
