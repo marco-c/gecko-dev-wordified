@@ -1233,6 +1233,15 @@ PHASE_SWEEP
 59
 }
 {
+PHASE_SWEEP_REGEXP_SHARED
+"
+Sweep
+RegExpShared
+"
+PHASE_SWEEP
+61
+}
+{
 PHASE_SWEEP_SHAPE
 "
 Sweep
@@ -1467,7 +1476,7 @@ PHASE_NO_PARENT
 PHASE_LIMIT
 nullptr
 PHASE_NO_PARENT
-60
+61
 }
 /
 /
@@ -1476,7 +1485,7 @@ number
 of
 telemetryBuckets
 is
-60
+61
 .
 If
 you

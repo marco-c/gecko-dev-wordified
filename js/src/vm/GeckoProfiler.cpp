@@ -203,6 +203,13 @@ StringBuffer
 .
 h
 "
+#
+include
+"
+jsgcinlines
+.
+h
+"
 using
 namespace
 js
