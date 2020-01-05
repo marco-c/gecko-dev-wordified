@@ -473,7 +473,7 @@ test
 resolution
 relies
 on
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 .
 '
 )
@@ -909,7 +909,7 @@ just
 run
 everything
 in
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
                     
 test_objects
 =
@@ -955,7 +955,7 @@ message
 (
 Not
 in
-PYTHON_UNIT_TESTS
+PYTHON_UNITTEST_MANIFESTS
 ?
 Try
 -

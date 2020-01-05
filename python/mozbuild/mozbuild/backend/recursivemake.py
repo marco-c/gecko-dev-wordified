@@ -456,11 +456,6 @@ PROGRAM
     
 b
 '
-PYTHON_UNIT_TESTS
-'
-    
-b
-'
 RESOURCE_FILES
 '
     

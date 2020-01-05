@@ -2372,6 +2372,21 @@ ui
 False
 )
     
+PYTHON_UNITTEST
+=
+(
+'
+python
+'
+'
+python
+'
+'
+.
+'
+False
+)
+    
 #
 marionette
 tests
@@ -2605,13 +2620,6 @@ list
 (
 WEB_PLATFORM_TESTS_FLAVORS
 )
-+
-            
-[
-'
-python
-'
-]
 )
 class
 TestInstallInfo
