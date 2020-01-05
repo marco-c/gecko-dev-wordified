@@ -82,6 +82,8 @@ import
 logging
 import
 unittest
+import
+mozunit
 def
 banner
 (
@@ -1949,7 +1951,7 @@ argv
 [
 ]
     
-unittest
+mozunit
 .
 main
 (
