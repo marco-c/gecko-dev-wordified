@@ -374,10 +374,6 @@ HTMLTableRowElementBinding
 Wrap
 )
 }
-}
-impl
-HTMLTableRowElement
-{
 pub
 fn
 get_background_color

@@ -563,10 +563,6 @@ CSSStyleDeclarationBinding
 Wrap
 )
 }
-}
-impl
-CSSStyleDeclaration
-{
 fn
 get_computed_style
 (

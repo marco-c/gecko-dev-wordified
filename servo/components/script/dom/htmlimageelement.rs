@@ -1149,10 +1149,6 @@ responder_sender
 }
 }
 }
-}
-impl
-HTMLImageElement
-{
 fn
 new_inherited
 (

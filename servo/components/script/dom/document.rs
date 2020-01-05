@@ -8880,10 +8880,6 @@ r
 }
 document
 }
-}
-impl
-Document
-{
 fn
 create_node_list
 <

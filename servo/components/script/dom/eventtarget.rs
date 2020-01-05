@@ -1110,10 +1110,6 @@ self
 .
 type_id
 }
-}
-impl
-EventTarget
-{
 pub
 fn
 dispatch_event_with_target

@@ -379,10 +379,6 @@ HTMLTableSectionElementBinding
 Wrap
 )
 }
-}
-impl
-HTMLTableSectionElement
-{
 pub
 fn
 get_background_color

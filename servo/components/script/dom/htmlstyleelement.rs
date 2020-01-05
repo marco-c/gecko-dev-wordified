@@ -402,10 +402,6 @@ HTMLStyleElementBinding
 Wrap
 )
 }
-}
-impl
-HTMLStyleElement
-{
 pub
 fn
 parse_own_css
