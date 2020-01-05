@@ -22706,7 +22706,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-DOMServiceWorkerFocusClient
+DOMWindowFocus
 "
 )
 true
