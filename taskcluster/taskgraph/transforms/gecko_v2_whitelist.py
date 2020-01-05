@@ -638,7 +638,9 @@ in
 the
 whitelist
 in
-__file__
+gecko_v2_whitelist
+.
+py
 .
 If
 this
