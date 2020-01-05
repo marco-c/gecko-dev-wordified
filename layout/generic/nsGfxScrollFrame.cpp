@@ -1120,6 +1120,8 @@ aListID
 aChildList
 )
 ;
+mHelper
+.
 ReloadChildFrames
 (
 )
@@ -1160,6 +1162,8 @@ nullptr
 aFrameList
 )
 ;
+mHelper
+.
 ReloadChildFrames
 (
 )
@@ -1230,6 +1234,8 @@ aPrevFrame
 aFrameList
 )
 ;
+mHelper
+.
 ReloadChildFrames
 (
 )
@@ -1269,6 +1275,8 @@ DestroyFrame
 aOldFrame
 )
 ;
+mHelper
+.
 ReloadChildFrames
 (
 )
