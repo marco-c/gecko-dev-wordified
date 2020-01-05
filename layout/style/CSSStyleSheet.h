@@ -299,6 +299,9 @@ mozilla
 class
 CSSStyleSheet
 ;
+struct
+ChildSheetListBuilder
+;
 namespace
 css
 {
@@ -992,7 +995,7 @@ css
 Rule
 *
 aRule
-void
+ChildSheetListBuilder
 *
 aBuilder
 )
