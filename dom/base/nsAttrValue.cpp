@@ -8533,7 +8533,7 @@ decl
 ServoDeclarationBlock
 :
 :
-FromStyleAttribute
+FromCssText
 (
 aString
 )
