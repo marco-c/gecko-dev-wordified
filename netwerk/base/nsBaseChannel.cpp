@@ -1836,7 +1836,6 @@ classifier
 new
 nsChannelClassifier
 (
-this
 )
 ;
 if
@@ -1849,6 +1848,7 @@ classifier
 >
 Start
 (
+this
 )
 ;
 }
