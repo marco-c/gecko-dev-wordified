@@ -1048,6 +1048,17 @@ aApzcId
 )
 override
 ;
+virtual
+bool
+IsRemote
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 class

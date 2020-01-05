@@ -2677,6 +2677,16 @@ NS_IsMainThread
 )
 ;
 }
+PaintTiming
+&
+GetPaintTiming
+(
+)
+{
+return
+mPaintTiming
+;
+}
 /
 /
 Returns
@@ -2930,6 +2940,9 @@ CompositableClient
 *
 >
 mCompositables
+;
+PaintTiming
+mPaintTiming
 ;
 }
 ;
