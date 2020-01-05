@@ -7195,7 +7195,9 @@ the
 next
 page
 (
-NS_FRAME_IS_TRUNCATED
+IsTruncated
+(
+)
 or
 /
 /
@@ -7268,9 +7270,10 @@ wm
 )
 |
 |
-NS_FRAME_IS_TRUNCATED
-(
 reflowStatus
+.
+IsTruncated
+(
 )
 |
 |
