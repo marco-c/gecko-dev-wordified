@@ -2202,7 +2202,7 @@ send
 ScriptMsg
 :
 :
-TriggerLoad
+Navigate
 (
 win
 .
