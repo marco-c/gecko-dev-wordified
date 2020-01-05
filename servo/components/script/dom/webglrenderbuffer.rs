@@ -483,6 +483,9 @@ set
 true
 )
 ;
+let
+_
+=
 self
 .
 renderer
@@ -504,10 +507,6 @@ self
 id
 )
 )
-)
-.
-unwrap
-(
 )
 ;
 }
