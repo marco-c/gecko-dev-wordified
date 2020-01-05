@@ -425,6 +425,12 @@ defined
 (
 __x86_64__
 )
+|
+|
+defined
+(
+__aarch64__
+)
 static_assert
 (
 sizeof
