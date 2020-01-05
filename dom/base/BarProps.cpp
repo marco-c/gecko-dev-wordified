@@ -376,6 +376,8 @@ bool
 aVisible
 uint32_t
 aChromeFlag
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -398,13 +400,13 @@ browserChrome
 ;
 if
 (
+aCallerType
 !
-nsContentUtils
+=
+CallerType
 :
 :
-IsCallerChrome
-(
-)
+System
 )
 {
 return
@@ -593,6 +595,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_MENUBAR
+aCallerType
 aRv
 )
 ;
@@ -683,6 +686,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_TOOLBAR
+aCallerType
 aRv
 )
 ;
@@ -773,6 +777,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_LOCATIONBAR
+aCallerType
 aRv
 )
 ;
@@ -863,6 +868,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_PERSONAL_TOOLBAR
+aCallerType
 aRv
 )
 ;
@@ -954,6 +960,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_STATUSBAR
+aCallerType
 aRv
 )
 ;
