@@ -1413,7 +1413,7 @@ should_process
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1424,7 +1424,7 @@ process
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1440,7 +1440,7 @@ mut_base
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1583,7 +1583,7 @@ mut_base
 (
 parent
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1776,7 +1776,7 @@ should_process
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1794,7 +1794,7 @@ process
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -1817,7 +1817,7 @@ child_iter
 (
 flow
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -2589,10 +2589,6 @@ layout_context
 }
 ;
 root
-.
-get_mut
-(
-)
 .
 traverse_postorder
 (

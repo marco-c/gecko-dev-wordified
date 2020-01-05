@@ -3629,10 +3629,6 @@ tree
 ;
 flow
 .
-get_mut
-(
-)
-.
 mark_as_root
 (
 )
@@ -4599,10 +4595,6 @@ clone
 {
 layout_root
 .
-get_mut
-(
-)
-.
 propagate_restyle_damage
 (
 )
@@ -4653,10 +4645,6 @@ opts
 incremental_layout
 {
 layout_root
-.
-get_mut
-(
-)
 .
 nonincremental_reset
 (
@@ -4755,10 +4743,6 @@ opts
 dump_flow_tree
 {
 layout_root
-.
-get_mut
-(
-)
 .
 dump
 (
@@ -4919,7 +4903,7 @@ base
 (
 layout_root
 .
-get
+deref
 (
 )
 )
@@ -4972,7 +4956,7 @@ base
 (
 layout_root
 .
-get
+deref
 (
 )
 )
@@ -4994,7 +4978,7 @@ mut_base
 (
 layout_root
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -5115,7 +5099,7 @@ base
 (
 layout_root
 .
-get
+deref
 (
 )
 )
@@ -5140,7 +5124,7 @@ mut_base
 (
 layout_root
 .
-get_mut
+deref_mut
 (
 )
 )
@@ -5359,7 +5343,7 @@ base
 (
 layout_root
 .
-get
+deref
 (
 )
 )
@@ -5411,10 +5395,6 @@ RenderLayer
 id
 :
 layout_root
-.
-get
-(
-)
 .
 layer_id
 (
@@ -5530,7 +5510,7 @@ mut_base
 (
 layout_root
 .
-get_mut
+deref_mut
 (
 )
 )
