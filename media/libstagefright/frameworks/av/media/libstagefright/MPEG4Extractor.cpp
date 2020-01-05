@@ -10403,8 +10403,8 @@ D263
 box
 size
 %
-lld
 "
+PRId64
 chunk_data_size
 )
 ;
