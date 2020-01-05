@@ -747,12 +747,12 @@ GainNodeEngine
 :
 :
 GAIN
-1
-.
-0f
 "
 gain
 "
+1
+.
+0f
 )
 )
 {
