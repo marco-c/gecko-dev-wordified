@@ -2997,7 +2997,7 @@ android
 -
 ndk
 -
-r11b
+r11c
 }
 .
         
@@ -3090,7 +3090,7 @@ android
 -
 ndk
 -
-r11b
+r11c
 '
 )
 )
