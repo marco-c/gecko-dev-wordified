@@ -437,7 +437,7 @@ LoadUrlMsg
 PipelineId
 LoadData
 )
-LoadIframeUrlMsg
+ScriptLoadedURLInIFrameMsg
 (
 Url
 PipelineId
