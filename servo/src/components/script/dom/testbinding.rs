@@ -1719,8 +1719,6 @@ DOMString
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalEnum
@@ -1754,8 +1752,6 @@ Blob
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalUnion
@@ -2026,8 +2022,6 @@ TestEnum
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableInterface
@@ -2049,8 +2043,6 @@ Blob
 )
 {
 }
-/
-/
 pub
 fn
 PassOptionalNullableUnion

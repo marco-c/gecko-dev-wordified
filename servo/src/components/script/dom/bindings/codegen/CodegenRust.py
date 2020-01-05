@@ -687,9 +687,6 @@ self
 descriptor
 source
 codeOnFailure
-isOptional
-=
-False
 )
 :
         
@@ -779,23 +776,6 @@ codeOnFailure
 define
 (
 )
-                              
-"
-unwrapped_val
-"
-:
-"
-Some
-(
-val
-)
-"
-if
-isOptional
-else
-"
-val
-"
 }
     
 def
@@ -834,9 +814,7 @@ val
 )
 =
 >
-{
-unwrapped_val
-}
+val
   
 Err
 (
@@ -951,7 +929,6 @@ __init__
 self
 descriptor
 source
-isOptional
 )
 :
         
@@ -978,8 +955,6 @@ rv
 )
 ;
 "
-                                         
-isOptional
 )
 class
 CGThing
@@ -4219,6 +4194,70 @@ return
 ;
 "
     
+def
+handleOptional
+(
+template
+declType
+isOptional
+)
+:
+        
+if
+isOptional
+:
+            
+template
+=
+"
+Some
+(
+%
+s
+)
+"
+%
+template
+            
+declType
+=
+CGWrapper
+(
+declType
+pre
+=
+"
+Option
+<
+"
+post
+=
+"
+>
+"
+)
+            
+initialValue
+=
+"
+None
+"
+        
+else
+:
+            
+initialValue
+=
+None
+        
+return
+(
+template
+declType
+isOptional
+initialValue
+)
+    
 #
 Unfortunately
 .
@@ -4990,17 +5029,11 @@ None
 )
         
 return
+handleOptional
 (
 templateBody
 declType
 isOptional
-"
-None
-"
-if
-isOptional
-else
-None
 )
     
 if
@@ -5110,11 +5143,11 @@ failureCode
 )
             
 return
+handleOptional
 (
 template
 declType
 isOptional
-None
 )
         
 templateBody
@@ -5188,14 +5221,6 @@ to_object
 "
                     
 failureCode
-                    
-isOptional
-or
-type
-.
-nullable
-(
-)
 )
 )
         
@@ -5222,26 +5247,7 @@ to_object
 (
 )
 "
-                    
-isOptional
-or
-type
-.
-nullable
-(
 )
-)
-)
-        
-templateBody
-=
-wrapObjectTemplate
-(
-templateBody
-isDefinitelyObject
-                                          
-type
-failureCode
 )
         
 declType
@@ -5259,9 +5265,19 @@ type
 nullable
 (
 )
-or
-isOptional
 :
+            
+templateBody
+=
+"
+Some
+(
+%
+s
+)
+"
+%
+templateBody
             
 declType
 =
@@ -5281,18 +5297,23 @@ post
 "
 )
         
+templateBody
+=
+wrapObjectTemplate
+(
+templateBody
+isDefinitelyObject
+                                          
+type
+failureCode
+)
+        
 return
+handleOptional
 (
 templateBody
 declType
 isOptional
-"
-None
-"
-if
-isOptional
-else
-None
 )
     
 if
@@ -5410,33 +5431,8 @@ treatNullAs
 def
 getConversionCode
 (
-isOptional
-=
-False
 )
 :
-            
-strval
-=
-"
-strval
-"
-            
-if
-isOptional
-:
-                
-strval
-=
-"
-Some
-(
-%
-s
-)
-"
-%
-strval
             
 conversionCode
 =
@@ -5468,8 +5464,7 @@ strval
 )
 =
 >
-%
-s
+strval
 \
 n
 "
@@ -5495,7 +5490,6 @@ n
 %
 (
 nullBehavior
-strval
 exceptionCode
 )
 )
@@ -5665,10 +5659,6 @@ declType
 DOMString
 "
         
-initialValue
-=
-None
-        
 if
 type
 .
@@ -5689,40 +5679,17 @@ s
 %
 declType
         
-if
-isOptional
-:
-            
-declType
-=
-"
-Option
-<
-%
-s
->
-"
-%
-declType
-            
-initialValue
-=
-"
-None
-"
-        
 return
+handleOptional
 (
 getConversionCode
 (
-isOptional
 )
 CGGeneric
 (
 declType
 )
-False
-initialValue
+isOptional
 )
     
 if
@@ -5995,6 +5962,7 @@ value
 )
         
 return
+handleOptional
 (
 template
 CGGeneric
@@ -6002,7 +5970,6 @@ CGGeneric
 enum
 )
 isOptional
-None
 )
     
 if
@@ -6219,66 +6186,15 @@ JSVal
 "
 )
         
-value
+templateBody
 =
-CGGeneric
+handleDefaultNull
 (
 "
 {
 val
 }
 "
-)
-        
-if
-isOptional
-:
-            
-declType
-=
-CGWrapper
-(
-declType
-pre
-=
-"
-Option
-<
-"
-post
-=
-"
->
-"
-)
-            
-value
-=
-CGWrapper
-(
-value
-pre
-=
-"
-Some
-(
-"
-post
-=
-"
-)
-"
-)
-        
-templateBody
-=
-handleDefaultNull
-(
-value
-.
-define
-(
-)
 "
 NullValue
 (
@@ -6287,17 +6203,11 @@ NullValue
 )
         
 return
+handleOptional
 (
 templateBody
 declType
 isOptional
-"
-None
-"
-if
-isOptional
-else
-None
 )
     
 if
@@ -6540,11 +6450,11 @@ val
 )
         
 return
+handleOptional
 (
 template
 declType
-False
-None
+isOptional
 )
     
 if
@@ -6638,12 +6548,6 @@ return
 0
 '
     
-value
-=
-"
-v
-"
-    
 declType
 =
 CGGeneric
@@ -6665,40 +6569,6 @@ nullable
 (
 )
 :
-        
-declType
-=
-CGWrapper
-(
-declType
-pre
-=
-"
-Option
-<
-"
-post
-=
-"
->
-"
-)
-    
-if
-isOptional
-:
-        
-value
-=
-"
-Some
-(
-%
-s
-)
-"
-%
-value
         
 declType
 =
@@ -6754,8 +6624,7 @@ v
 )
 =
 >
-%
-s
+v
 \
 n
 "
@@ -6779,10 +6648,7 @@ n
 }
 "
 %
-(
-value
 exceptionCode
-)
 )
     
 if
@@ -6911,17 +6777,11 @@ define
 )
     
 return
+handleOptional
 (
 template
 declType
 isOptional
-"
-None
-"
-if
-isOptional
-else
-None
 )
 def
 instantiateJSToNativeConversionTemplate
