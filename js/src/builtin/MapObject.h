@@ -666,6 +666,11 @@ const
 Class
 class_
 ;
+static
+const
+Class
+protoClass_
+;
 enum
 {
 NurseryKeysSlot
@@ -1567,6 +1572,11 @@ static
 const
 Class
 class_
+;
+static
+const
+Class
+protoClass_
 ;
 enum
 {
