@@ -484,10 +484,7 @@ dom
 browsingcontext
 :
 :
-{
 BrowsingContext
-IterableContext
-}
 ;
 use
 dom
