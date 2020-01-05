@@ -728,7 +728,7 @@ selector_parser
 NonTSPseudoClass
 PseudoElement
 RestyleDamage
-ServoSelectorImpl
+SelectorImpl
 }
 ;
 use
@@ -3903,7 +3903,7 @@ le
 type
 Impl
 =
-ServoSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr
@@ -3918,7 +3918,7 @@ attr
 &
 AttrSelector
 <
-ServoSelectorImpl
+SelectorImpl
 >
 test
 :
@@ -7616,7 +7616,7 @@ le
 type
 Impl
 =
-ServoSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr
@@ -7631,7 +7631,7 @@ attr
 &
 AttrSelector
 <
-ServoSelectorImpl
+SelectorImpl
 >
 test
 :

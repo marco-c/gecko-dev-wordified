@@ -915,7 +915,7 @@ This
 is
 specific
 for
-ServoSelectorImpl
+SelectorImpl
 since
 the
 layout
@@ -926,7 +926,7 @@ the
 /
 flows
 are
-ServoSelectorImpl
+SelectorImpl
 specific
 too
 .

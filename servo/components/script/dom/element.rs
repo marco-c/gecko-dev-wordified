@@ -886,7 +886,6 @@ parser
 {
 AttrSelector
 NamespaceConstraint
-parse_author_origin_selector_list_from_str
 }
 ;
 use
@@ -1086,7 +1085,8 @@ selector_parser
 {
 NonTSPseudoClass
 RestyleDamage
-ServoSelectorImpl
+SelectorImpl
+SelectorParser
 }
 ;
 use
@@ -15054,7 +15054,10 @@ bool
 >
 {
 match
-parse_author_origin_selector_list_from_str
+SelectorParser
+:
+:
+parse_author_origin_no_namespace
 (
 &
 selectors
@@ -15076,7 +15079,6 @@ Syntax
 )
 Ok
 (
-ref
 selectors
 )
 =
@@ -15086,7 +15088,10 @@ Ok
 (
 matches
 (
+&
 selectors
+.
+0
 &
 Root
 :
@@ -15191,7 +15196,10 @@ Element
 >
 {
 match
-parse_author_origin_selector_list_from_str
+SelectorParser
+:
+:
+parse_author_origin_no_namespace
 (
 &
 selectors
@@ -15213,7 +15221,6 @@ Syntax
 )
 Ok
 (
-ref
 selectors
 )
 =
@@ -15265,7 +15272,10 @@ element
 if
 matches
 (
+&
 selectors
+.
+0
 &
 element
 None
@@ -17011,7 +17021,7 @@ Element
 type
 Impl
 =
-ServoSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr
@@ -17026,7 +17036,7 @@ attr
 &
 AttrSelector
 <
-ServoSelectorImpl
+SelectorImpl
 >
 test
 :

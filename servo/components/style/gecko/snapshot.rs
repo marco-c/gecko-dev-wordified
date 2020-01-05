@@ -113,7 +113,7 @@ use
 selector_parser
 :
 :
-TheSelectorImpl
+SelectorImpl
 ;
 use
 selectors
@@ -282,7 +282,7 @@ GeckoElementSnapshot
 type
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr_has
@@ -294,7 +294,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 )
 -
@@ -339,7 +339,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -400,7 +400,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -461,7 +461,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -515,7 +515,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -569,7 +569,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -623,7 +623,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -677,7 +677,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :

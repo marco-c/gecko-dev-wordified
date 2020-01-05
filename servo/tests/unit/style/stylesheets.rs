@@ -63,6 +63,8 @@ cssparser
 {
 self
 Parser
+as
+CssParser
 SourcePosition
 }
 ;
@@ -588,6 +590,8 @@ StyleRule
 {
 selectors
 :
+SelectorList
+(
 vec
 !
 [
@@ -760,6 +764,7 @@ specificity
 )
 }
 ]
+)
 block
 :
 Arc
@@ -862,6 +867,8 @@ StyleRule
 {
 selectors
 :
+SelectorList
+(
 vec
 !
 [
@@ -1086,6 +1093,7 @@ specificity
 )
 }
 ]
+)
 block
 :
 Arc
@@ -1163,6 +1171,8 @@ StyleRule
 {
 selectors
 :
+SelectorList
+(
 vec
 !
 [
@@ -1341,6 +1351,7 @@ specificity
 )
 }
 ]
+)
 block
 :
 Arc
@@ -2117,7 +2128,7 @@ input
 :
 &
 mut
-Parser
+CssParser
 position
 :
 SourcePosition

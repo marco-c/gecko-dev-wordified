@@ -209,7 +209,7 @@ selector_parser
 PseudoElement
 PseudoElementCascadeType
 RestyleDamage
-ServoSelectorImpl
+SelectorImpl
 }
 ;
 #
@@ -1026,7 +1026,7 @@ Element
 <
 Impl
 =
-ServoSelectorImpl
+SelectorImpl
 >
 ;
 type
@@ -2057,7 +2057,7 @@ Element
 <
 Impl
 =
-ServoSelectorImpl
+SelectorImpl
 >
 +
 GetLayoutData
