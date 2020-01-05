@@ -194,7 +194,7 @@ nsACString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -218,7 +218,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -242,7 +242,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -270,7 +270,7 @@ char16_t
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -297,7 +297,7 @@ bool
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -321,7 +321,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -345,7 +345,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -369,7 +369,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -393,7 +393,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -417,7 +417,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -442,7 +442,7 @@ nsIX509Cert
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -466,7 +466,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -491,7 +491,7 @@ nsIArray
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -515,7 +515,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -539,7 +539,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -563,7 +563,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -587,7 +587,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -611,7 +611,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -635,7 +635,7 @@ nsAString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -662,7 +662,7 @@ uint8_t
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -687,7 +687,7 @@ nsIX509CertValidity
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -736,7 +736,7 @@ nsIASN1Object
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -762,7 +762,7 @@ bool
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -786,7 +786,7 @@ nsACString
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1329,7 +1329,7 @@ int
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1353,7 +1353,7 @@ bool
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1375,10 +1375,9 @@ GetIsBuiltInRoot
 (
 bool
 *
-aIsBuiltInRoot
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1407,7 +1406,7 @@ char16_t
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1430,7 +1429,7 @@ GetCert
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1461,7 +1460,7 @@ char
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1483,7 +1482,7 @@ MarkForPermDeletion
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1546,7 +1545,7 @@ nsIX509Cert
 aCert
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1571,7 +1570,7 @@ nsIX509Cert
 aCert
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1594,7 +1593,7 @@ GetRawCertList
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1619,7 +1618,7 @@ nsISimpleEnumerator
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented
@@ -1645,7 +1644,7 @@ bool
 *
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unimplemented

@@ -549,7 +549,7 @@ NS_IsMainThread
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsCertOverrideService
