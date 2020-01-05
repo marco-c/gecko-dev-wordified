@@ -244,9 +244,11 @@ NS_IMETEXTTXN_IID
 param
 aTextNode
 The
+start
+node
+of
 text
 content
-node
 .
 *
 param
