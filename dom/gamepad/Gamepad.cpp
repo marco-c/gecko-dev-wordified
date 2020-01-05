@@ -547,6 +547,10 @@ SetPoseState
 aPose
 )
 ;
+UpdateTimestamp
+(
+)
+;
 }
 void
 Gamepad
