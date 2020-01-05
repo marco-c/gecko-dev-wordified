@@ -8877,11 +8877,16 @@ Error
 (
 l10n
 .
-getStr
+getFormatStr
 (
 timer
 .
 error
+[
+timer
+.
+name
+]
 )
 )
 )
