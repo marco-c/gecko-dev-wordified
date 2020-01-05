@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsDeviceContextAndroid_h__
+#
+define
+nsDeviceContextAndroid_h__
+#
 include
 "
 nsIDeviceContextSpec
@@ -209,3 +215,8 @@ mTempFile
 ;
 }
 ;
+#
+endif
+/
+/
+nsDeviceContextAndroid_h__
