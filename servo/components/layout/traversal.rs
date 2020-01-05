@@ -1596,15 +1596,12 @@ for
 all
 layout
 objects
+and
 computes
 /
 /
 /
 positions
-and
-computes
-overflow
-regions
 .
 In
 Gecko
@@ -1612,11 +1609,6 @@ this
 corresponds
 to
 Reflow
-and
-/
-/
-/
-FinishAndStoreOverflow
 .
 #
 [
@@ -1628,7 +1620,7 @@ Clone
 ]
 pub
 struct
-AssignBSizesAndStoreOverflow
+AssignBSizes
 <
 '
 a
@@ -1653,7 +1645,7 @@ a
 >
 PostorderFlowTraversal
 for
-AssignBSizesAndStoreOverflow
+AssignBSizes
 <
 '
 a

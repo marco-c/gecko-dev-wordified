@@ -176,7 +176,7 @@ traversal
 :
 :
 {
-AssignBSizesAndStoreOverflow
+AssignBSizes
 AssignISizes
 }
 ;
@@ -353,7 +353,7 @@ assign_inline_sizes
 AssignISizes
 assign_block_sizes
 :
-AssignBSizesAndStoreOverflow
+AssignBSizes
 )
 {
 if
@@ -485,7 +485,7 @@ layout_context
 let
 assign_block_sizes
 =
-AssignBSizesAndStoreOverflow
+AssignBSizes
 {
 layout_context
 :
