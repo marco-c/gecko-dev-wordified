@@ -5176,7 +5176,7 @@ Error
 code
 :
 %
-u
+lu
 "
 GetLastError
 (
@@ -5288,7 +5288,7 @@ Error
 code
 :
 %
-u
+lu
 "
 GetLastError
 (
@@ -5400,7 +5400,7 @@ Error
 code
 :
 %
-u
+lu
 "
 GetLastError
 (
