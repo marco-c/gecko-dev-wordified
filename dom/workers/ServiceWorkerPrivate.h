@@ -957,6 +957,11 @@ aWhy
 nsIRunnable
 *
 aLoadFailedRunnable
+bool
+*
+aNewWorkerCreated
+=
+nullptr
 nsILoadGroup
 *
 aLoadGroup
