@@ -452,6 +452,7 @@ UnionTypes
 :
 StringOrFormData
 ;
+pub
 type
 SendParam
 =
@@ -2157,7 +2158,7 @@ Step
 2
 }
 let
-data
+_data
 =
 match
 self
@@ -2297,7 +2298,6 @@ url
 else
 {
 let
-mut
 builder
 =
 task
@@ -2344,6 +2344,9 @@ proc
 (
 )
 {
+let
+_
+=
 XMLHttpRequest
 :
 :
@@ -2433,7 +2436,7 @@ GetResponseHeader
 (
 &
 self
-name
+_name
 :
 ByteString
 )
@@ -2480,6 +2483,20 @@ write_all
 &
 mut
 writer
+)
+.
+ok
+(
+)
+.
+expect
+(
+"
+Writing
+response
+headers
+failed
+"
 )
 ;
 ByteString
