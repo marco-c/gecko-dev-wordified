@@ -258,8 +258,6 @@ length
 storage
 [
 length
-+
-1
 ]
 =
 '
