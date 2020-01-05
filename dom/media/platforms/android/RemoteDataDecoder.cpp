@@ -916,7 +916,7 @@ mDecoder
 >
 mConfig
 .
-mDisplay
+mImage
 gl
 :
 :
