@@ -442,7 +442,6 @@ display_list
 {
 ClippingRegion
 StackingContext
-StackingContextId
 }
 ;
 use
@@ -452,6 +451,7 @@ gfx_traits
 {
 LayerId
 LayerType
+StackingContextId
 }
 ;
 use

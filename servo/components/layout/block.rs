@@ -494,14 +494,16 @@ display_list
 {
 ClippingRegion
 StackingContext
-StackingContextId
 }
 ;
 use
 gfx_traits
 :
 :
+{
 LayerId
+StackingContextId
+}
 ;
 use
 incremental

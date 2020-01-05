@@ -109,7 +109,6 @@ display_list
 {
 LayerInfo
 StackingContext
-StackingContextId
 StackingContextType
 }
 ;
@@ -157,6 +156,12 @@ font_context
 :
 :
 FontContext
+;
+use
+gfx_traits
+:
+:
+StackingContextId
 ;
 use
 gfx_traits
