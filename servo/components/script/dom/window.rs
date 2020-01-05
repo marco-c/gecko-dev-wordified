@@ -707,7 +707,6 @@ cell
 {
 Cell
 Ref
-RefCell
 }
 ;
 use
@@ -1248,7 +1247,7 @@ HashSet
 ]
 devtools_markers
 :
-RefCell
+DOMRefCell
 <
 HashSet
 <
@@ -1267,7 +1266,7 @@ hard
 ]
 devtools_marker_sender
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -1704,7 +1703,7 @@ hard
 ]
 webdriver_script_chan
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -10415,7 +10414,7 @@ Alive
 )
 devtools_marker_sender
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -10424,7 +10423,7 @@ None
 )
 devtools_markers
 :
-RefCell
+DOMRefCell
 :
 :
 new
@@ -10447,7 +10446,7 @@ false
 )
 webdriver_script_chan
 :
-RefCell
+DOMRefCell
 :
 :
 new

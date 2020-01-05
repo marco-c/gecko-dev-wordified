@@ -459,10 +459,7 @@ std
 cell
 :
 :
-{
 Cell
-RefCell
-}
 ;
 use
 std
@@ -668,7 +665,7 @@ loaded
 from
 load
 :
-RefCell
+DOMRefCell
 <
 Option
 <
@@ -816,7 +813,7 @@ document
 )
 load
 :
-RefCell
+DOMRefCell
 :
 :
 new

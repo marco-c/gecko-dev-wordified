@@ -1056,7 +1056,6 @@ cell
 {
 Cell
 Ref
-RefCell
 RefMut
 }
 ;
@@ -1778,7 +1777,7 @@ hard
 ]
 animation_frame_list
 :
-RefCell
+DOMRefCell
 <
 HashMap
 <
@@ -10213,7 +10212,7 @@ new
 )
 animation_frame_list
 :
-RefCell
+DOMRefCell
 :
 :
 new
