@@ -94,14 +94,6 @@ box_syntax
 [
 feature
 (
-custom_derive
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]

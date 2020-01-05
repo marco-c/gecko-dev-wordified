@@ -85,14 +85,6 @@ conservative_impl_trait
 [
 feature
 (
-custom_derive
-)
-]
-#
-!
-[
-feature
-(
 nonzero
 )
 ]

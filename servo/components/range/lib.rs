@@ -69,14 +69,6 @@ proc_macro
 [
 feature
 (
-rustc_attrs
-)
-]
-#
-!
-[
-feature
-(
 step_trait
 )
 ]

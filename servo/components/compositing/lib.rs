@@ -69,14 +69,6 @@ box_syntax
 [
 feature
 (
-custom_derive
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]

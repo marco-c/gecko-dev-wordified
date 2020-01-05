@@ -142,8 +142,6 @@ unsafe_code
 feature
 (
 proc_macro
-rustc_attrs
-structural_match
 )
 ]
 #
