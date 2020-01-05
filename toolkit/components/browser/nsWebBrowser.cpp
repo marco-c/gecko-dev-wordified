@@ -3648,6 +3648,9 @@ aExtraHeaderStream
 nsIURI
 *
 aBaseURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 NS_ENSURE_STATE
@@ -3668,6 +3671,7 @@ aReferrerPolicy
 aPostDataStream
 aExtraHeaderStream
 aBaseURI
+aTriggeringPrincipal
 )
 ;
 }
