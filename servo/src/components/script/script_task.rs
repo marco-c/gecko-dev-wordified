@@ -1167,7 +1167,6 @@ confirming
 completion
 reply
 .
-pub
 last_reflow_id
 :
 Traceable
@@ -1247,7 +1246,6 @@ is
 not
 running
 .
-pub
 layout_join_port
 :
 Untraceable
@@ -1277,7 +1275,6 @@ dirty
 if
 any
 .
-pub
 damage
 :
 Traceable
@@ -1302,7 +1299,6 @@ window
 in
 pixels
 .
-pub
 window_size
 :
 Untraceable
@@ -1315,7 +1311,6 @@ uint
 >
 >
 >
-pub
 js_info
 :
 Traceable
@@ -1384,7 +1379,6 @@ required
 when
 reloading
 .
-pub
 url
 :
 Untraceable
@@ -1400,7 +1394,6 @@ bool
 >
 >
 >
-pub
 next_subpage_id
 :
 Untraceable
@@ -1419,7 +1412,6 @@ event
 if
 any
 .
-pub
 resize_event
 :
 Untraceable
@@ -1445,7 +1437,6 @@ fragment
 event
 if
 any
-pub
 fragment_node
 :
 Traceable
@@ -1959,20 +1950,6 @@ vec
 )
 }
 }
-fn
-id
-(
-&
-self
-)
--
->
-PipelineId
-{
-self
-.
-id
-}
 /
 /
 must
@@ -2069,8 +2046,6 @@ page_tree
 page_tree
 .
 id
-(
-)
 =
 =
 id
@@ -4291,7 +4266,6 @@ pertaining
 to
 page
 layout
-pub
 page
 :
 RefCell
@@ -4312,7 +4286,6 @@ image
 cache
 task
 .
-pub
 image_cache_task
 :
 ImageCacheTask
@@ -4326,7 +4299,6 @@ the
 resource
 task
 .
-pub
 resource_task
 :
 ResourceTask
@@ -4349,7 +4321,6 @@ exit
 etc
 .
 )
-pub
 port
 :
 Receiver
@@ -4385,7 +4356,6 @@ the
 script
 task
 .
-pub
 chan
 :
 ScriptChan
@@ -4400,7 +4370,6 @@ messages
 to
 the
 constellation
-pub
 constellation_chan
 :
 ConstellationChan
@@ -4418,7 +4387,6 @@ ready
 state
 messages
 .
-pub
 compositor
 :
 Box
@@ -4432,7 +4400,6 @@ The
 JavaScript
 runtime
 .
-pub
 js_runtime
 :
 js
@@ -4448,7 +4415,6 @@ rt
 The
 JSContext
 .
-pub
 js_context
 :
 RefCell
@@ -4461,7 +4427,6 @@ Cx
 >
 >
 >
-pub
 mouse_over_targets
 :
 RefCell
