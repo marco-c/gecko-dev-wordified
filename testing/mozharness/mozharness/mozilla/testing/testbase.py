@@ -2580,27 +2580,6 @@ expected_length
 3
 ]
             
-if
-buildbot_prop_branch
-.
-startswith
-(
-'
-gaia
--
-try
-'
-)
-:
-                
-expected_length
-=
-range
-(
-1
-1000
-)
-            
 actual_length
 =
 len
