@@ -305,11 +305,6 @@ nsITimer
 >
 mRepeatTimer
 ;
-static
-nsRepeatService
-*
-gInstance
-;
 }
 ;
 /
