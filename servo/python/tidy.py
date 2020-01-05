@@ -2049,9 +2049,6 @@ xml
 rs
 "
 "
-gl_generator
-"
-"
 byteorder
 "
 "

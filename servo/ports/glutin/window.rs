@@ -1736,10 +1736,8 @@ Event
 :
 MouseMoved
 (
-(
 x
 y
-)
 )
 =
 >
