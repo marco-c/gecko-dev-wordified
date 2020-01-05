@@ -658,7 +658,7 @@ get
 selectedId
 )
 :
-null
+undefined
 )
 ;
 function
