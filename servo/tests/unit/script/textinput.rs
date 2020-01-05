@@ -503,6 +503,10 @@ textinput
 get_sorted_selection
 (
 )
+.
+unwrap
+(
+)
 ;
 assert_eq
 !
@@ -549,6 +553,10 @@ end
 textinput
 .
 get_sorted_selection
+(
+)
+.
+unwrap
 (
 )
 ;
