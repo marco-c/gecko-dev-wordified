@@ -855,16 +855,6 @@ notify_output
 '
 1
 ]
-[
-'
-dom
-.
-mozSettings
-.
-enabled
-'
-true
-]
 ]
 ;
 prefs
