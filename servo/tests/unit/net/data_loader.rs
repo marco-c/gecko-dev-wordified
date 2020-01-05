@@ -61,6 +61,12 @@ crate
 hyper
 ;
 use
+ipc_channel
+:
+:
+ipc
+;
+use
 net_traits
 :
 :
@@ -189,7 +195,14 @@ start_chan
 start_port
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;

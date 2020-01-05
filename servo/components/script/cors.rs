@@ -155,7 +155,6 @@ net_traits
 :
 :
 {
-AsyncResponseTarget
 AsyncResponseListener
 ResponseAction
 Metadata
@@ -1186,7 +1185,7 @@ response
 ;
 listener
 .
-invoke_with_listener
+notify
 (
 ResponseAction
 :

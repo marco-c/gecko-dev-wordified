@@ -102,6 +102,12 @@ resource_task
 ResourceManager
 ;
 use
+ipc_channel
+:
+:
+ipc
+;
+use
 std
 :
 :
@@ -152,7 +158,14 @@ tx
 _
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;
