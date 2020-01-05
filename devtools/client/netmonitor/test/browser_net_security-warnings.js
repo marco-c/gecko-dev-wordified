@@ -73,7 +73,7 @@ com
 CORS_SJS_PATH
 warnCipher
 :
-false
+null
 }
 ]
 ;
@@ -313,9 +313,6 @@ TAB_UPDATED
 is
 (
 cipher
-.
-hidden
-!
 test
 .
 warnCipher
