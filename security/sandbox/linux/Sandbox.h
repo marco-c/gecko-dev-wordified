@@ -136,6 +136,11 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+<
+vector
+>
 /
 /
 This
