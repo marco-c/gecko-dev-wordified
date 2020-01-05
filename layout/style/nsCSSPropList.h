@@ -3781,7 +3781,7 @@ used
 by
 list
 parsing
-kImageLayerOriginKTable
+kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
@@ -8182,7 +8182,7 @@ used
 by
 list
 parsing
-kImageLayerOriginKTable
+kMaskClipKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
@@ -8278,7 +8278,7 @@ used
 by
 list
 parsing
-kImageLayerOriginKTable
+kMaskOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
 )
