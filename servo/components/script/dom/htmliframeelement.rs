@@ -884,12 +884,12 @@ doc
 ReadyState
 (
 )
-!
+=
 =
 DocumentReadyStateValues
 :
 :
-Complete
+Loading
 {
 /
 /
