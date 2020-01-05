@@ -1290,6 +1290,19 @@ Remove
 temporary
 files
         
+if
+os
+.
+path
+.
+isdir
+(
+self
+.
+tempdir
+)
+:
+            
 shutil
 .
 rmtree
