@@ -324,7 +324,7 @@ root_pipeline_id
 :
 PipelineId
 pub
-root_dl_builder
+dl_builder
 :
 webrender_traits
 :
@@ -351,7 +351,7 @@ WebRenderFrameBuilder
 root_pipeline_id
 :
 root_pipeline_id
-root_dl_builder
+dl_builder
 :
 webrender_traits
 :
@@ -1429,7 +1429,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 list
 .
@@ -1505,7 +1505,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_stacking_context
 (
@@ -1622,7 +1622,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_stacking_context
 (
@@ -1702,7 +1702,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 pop_stacking_context
 (
@@ -2106,7 +2106,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 pop_stacking_context
 (
@@ -2144,7 +2144,7 @@ aux_builder
 =
 fb
 .
-root_dl_builder
+dl_builder
 .
 finalize
 (
@@ -2176,7 +2176,7 @@ f32
 )
 fb
 .
-root_dl_builder
+dl_builder
 )
 ;
 return
@@ -2551,7 +2551,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 new_clip_region
 (
@@ -2574,7 +2574,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_rect
 (
@@ -2661,7 +2661,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 new_clip_region
 (
@@ -2719,7 +2719,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_border
 (
@@ -2801,7 +2801,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 new_clip_region
 (
@@ -2851,7 +2851,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_iframe
 (
@@ -3238,7 +3238,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 new_clip_region
 (
@@ -3257,7 +3257,7 @@ state
 .
 frame_builder
 .
-root_dl_builder
+dl_builder
 .
 push_image
 (
