@@ -8094,6 +8094,14 @@ to
 CommonBackend
 .
         
+for
+source
+in
+obj
+.
+source_relpaths
+:
+            
 self
 .
 backend_input_files
@@ -8107,10 +8115,8 @@ join
 obj
 .
 topsrcdir
-            
-obj
-.
-manifest_relpath
+                
+source
 )
 )
         

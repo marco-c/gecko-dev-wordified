@@ -3861,6 +3861,23 @@ manifest_obj_relpath
 '
         
 #
+The
+relative
+paths
+to
+all
+source
+files
+for
+this
+manifest
+.
+        
+'
+source_relpaths
+'
+        
+#
 If
 this
 manifest
@@ -3907,6 +3924,11 @@ None
 relpath
 =
 None
+sources
+=
+(
+)
+            
 dupe_manifest
 =
 False
@@ -3974,6 +3996,12 @@ self
 manifest_obj_relpath
 =
 relpath
+        
+self
+.
+source_relpaths
+=
+sources
         
 self
 .
