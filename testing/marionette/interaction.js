@@ -1379,6 +1379,7 @@ interaction
 uploadFile
 =
 function
+*
 (
 el
 path
