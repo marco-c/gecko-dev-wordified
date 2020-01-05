@@ -462,7 +462,7 @@ ScrollPolicy
 }
 pub
 struct
-ReRenderRequest
+RenderRequest
 {
 pub
 buffer_requests
@@ -488,18 +488,18 @@ pub
 enum
 Msg
 {
-RenderMsg
+RenderInitMsg
 (
 SmallVec1
 <
 RenderLayer
 >
 )
-ReRenderMsg
+RenderMsg
 (
 Vec
 <
-ReRenderRequest
+RenderRequest
 >
 )
 UnusedBufferMsg
@@ -1356,7 +1356,7 @@ recv
 (
 )
 {
-RenderMsg
+RenderInitMsg
 (
 render_layers
 )
@@ -1445,7 +1445,7 @@ as_slice
 )
 ;
 }
-ReRenderMsg
+RenderMsg
 (
 requests
 )
@@ -1498,7 +1498,7 @@ self
 .
 compositor
 .
-rerendermsg_discarded
+render_msg_discarded
 (
 )
 ;
@@ -1526,7 +1526,7 @@ new
 )
 ;
 for
-ReRenderRequest
+RenderRequest
 {
 buffer_requests
 scale

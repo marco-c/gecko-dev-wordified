@@ -818,7 +818,7 @@ rect
 }
 }
 fn
-rerendermsg_discarded
+render_msg_discarded
 (
 &
 self
@@ -830,7 +830,7 @@ chan
 .
 send
 (
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 )
 ;
 }
@@ -1348,12 +1348,12 @@ the
 compositor
 that
 the
-ReRenderMsg
+RenderMsg
 has
 been
 discarded
 .
-ReRenderMsgDiscarded
+RenderMsgDiscarded
 /
 /
 /
