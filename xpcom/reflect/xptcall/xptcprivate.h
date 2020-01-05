@@ -373,11 +373,6 @@ mEntry
 aEntry
 )
 {
-MOZ_COUNT_CTOR
-(
-nsXPTCStubBase
-)
-;
 }
 nsIXPTCProxy
 *
@@ -392,11 +387,6 @@ nsXPTCStubBase
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsXPTCStubBase
-)
-;
 }
 }
 ;

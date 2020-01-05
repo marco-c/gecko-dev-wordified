@@ -345,11 +345,6 @@ mStopped
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-MediaStreamTrackSource
-)
-;
 }
 /
 *
@@ -914,11 +909,6 @@ MediaStreamTrackSource
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-MediaStreamTrackSource
-)
-;
 }
 /
 *

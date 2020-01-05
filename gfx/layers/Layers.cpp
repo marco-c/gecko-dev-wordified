@@ -1380,11 +1380,6 @@ mAnimationGeneration
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-Layer
-)
-;
 }
 Layer
 :
@@ -1394,11 +1389,6 @@ Layer
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-Layer
-)
-;
 }
 Animation
 *
@@ -7164,11 +7154,6 @@ EventRegionsOverride
 NoOverride
 )
 {
-MOZ_COUNT_CTOR
-(
-ContainerLayer
-)
-;
 mContentFlags
 =
 0
@@ -7187,11 +7172,6 @@ ContainerLayer
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-ContainerLayer
-)
-;
 }
 bool
 ContainerLayer

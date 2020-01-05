@@ -762,11 +762,6 @@ mInFontFaceSet
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-FontFace
-)
-;
 }
 FontFace
 :
@@ -776,11 +771,6 @@ FontFace
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-FontFace
-)
-;
 SetUserFontEntry
 (
 nullptr

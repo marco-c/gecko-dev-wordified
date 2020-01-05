@@ -2711,11 +2711,6 @@ mFrame
 aFrame
 )
 {
-MOZ_COUNT_CTOR
-(
-nsResizeDropdownAtFinalPosition
-)
-;
 }
 protected
 :
@@ -2724,11 +2719,6 @@ nsResizeDropdownAtFinalPosition
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsResizeDropdownAtFinalPosition
-)
-;
 }
 public
 :

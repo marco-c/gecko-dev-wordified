@@ -115,11 +115,6 @@ mActive
 true
 )
 {
-MOZ_COUNT_CTOR
-(
-PrintProgressDialogParent
-)
-;
 }
 PrintProgressDialogParent
 :
@@ -129,11 +124,6 @@ PrintProgressDialogParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-PrintProgressDialogParent
-)
-;
 }
 void
 PrintProgressDialogParent

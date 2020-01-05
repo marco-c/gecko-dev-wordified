@@ -214,11 +214,6 @@ mEncoding
 aEncoding
 )
 {
-MOZ_COUNT_CTOR
-(
-ArchiveZipItem
-)
-;
 }
 ArchiveZipItem
 :
@@ -228,11 +223,6 @@ ArchiveZipItem
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-ArchiveZipItem
-)
-;
 }
 nsresult
 ArchiveZipItem

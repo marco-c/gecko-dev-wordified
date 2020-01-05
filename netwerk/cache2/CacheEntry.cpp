@@ -293,11 +293,6 @@ mEntry
 aEntry
 )
 {
-MOZ_COUNT_CTOR
-(
-CacheEntryHandle
-)
-;
 #
 ifdef
 DEBUG
@@ -417,11 +412,6 @@ mEntry
 OnHandleClosed
 (
 this
-)
-;
-MOZ_COUNT_DTOR
-(
-CacheEntryHandle
 )
 ;
 }
@@ -10517,11 +10507,6 @@ mEntry
 aEntry
 )
 {
-MOZ_COUNT_CTOR
-(
-CacheOutputCloseListener
-)
-;
 }
 CacheOutputCloseListener
 :
@@ -10531,11 +10516,6 @@ CacheOutputCloseListener
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-CacheOutputCloseListener
-)
-;
 }
 void
 CacheOutputCloseListener

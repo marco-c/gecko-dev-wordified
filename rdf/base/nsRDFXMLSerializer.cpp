@@ -756,11 +756,6 @@ nsRDFXMLSerializer
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-nsRDFXMLSerializer
-)
-;
 }
 nsRDFXMLSerializer
 :
@@ -770,11 +765,6 @@ nsRDFXMLSerializer
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsRDFXMLSerializer
-)
-;
 if
 (
 -

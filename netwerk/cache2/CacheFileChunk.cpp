@@ -1237,11 +1237,6 @@ this
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-NotifyUpdateListenerEvent
-)
-;
 }
 protected
 :
@@ -1270,11 +1265,6 @@ p
 "
 this
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-NotifyUpdateListenerEvent
 )
 ;
 }
@@ -1761,11 +1751,6 @@ aInitByWriter
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-CacheFileChunk
-)
-;
 mBuf
 =
 new
@@ -1803,11 +1788,6 @@ p
 "
 this
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-CacheFileChunk
 )
 ;
 }

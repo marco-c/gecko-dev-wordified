@@ -299,11 +299,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-CompositorThreadHolder
-)
-;
 }
 CompositorThreadHolder
 :
@@ -318,11 +313,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-CompositorThreadHolder
 )
 ;
 DestroyCompositorThread

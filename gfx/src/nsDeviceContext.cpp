@@ -520,11 +520,6 @@ nsFontCache
 (
 )
 {
-MOZ_COUNT_CTOR
-(
-nsFontCache
-)
-;
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
@@ -586,11 +581,6 @@ nsFontCache
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsFontCache
-)
-;
 }
 nsDeviceContext
 *

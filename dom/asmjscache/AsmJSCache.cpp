@@ -2010,11 +2010,6 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_COUNT_CTOR
-(
-ParentRunnable
-)
-;
 }
 private
 :
@@ -2041,11 +2036,6 @@ mDirectoryLock
 MOZ_ASSERT
 (
 mActorDestroyed
-)
-;
-MOZ_COUNT_DTOR
-(
-ParentRunnable
 )
 ;
 }
@@ -6070,11 +6060,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-ChildRunnable
-)
-;
 }
 JS
 :
@@ -6301,11 +6286,6 @@ eFinished
 MOZ_ASSERT
 (
 mActorDestroyed
-)
-;
-MOZ_COUNT_DTOR
-(
-ChildRunnable
 )
 ;
 }
