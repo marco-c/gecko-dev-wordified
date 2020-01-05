@@ -1162,6 +1162,11 @@ enable_profiler
 opts
 .
 webrender_stats
+debug
+:
+opts
+.
+webrender_debug
 }
 )
 ;
