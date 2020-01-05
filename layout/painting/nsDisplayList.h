@@ -19645,14 +19645,6 @@ nsStyleContext
 aStyleContext
 =
 nullptr
-const
-nsRect
-&
-aBackgroundOriginRect
-=
-nsRect
-(
-)
 )
 ;
 virtual
