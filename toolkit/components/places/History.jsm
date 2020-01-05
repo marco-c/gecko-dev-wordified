@@ -4875,6 +4875,10 @@ DELETE
 FROM
 moz_icons
 WHERE
+root
+=
+0
+AND
 id
 NOT
 IN

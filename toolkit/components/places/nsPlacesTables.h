@@ -1382,6 +1382,15 @@ DEFAULT
 "
 \
 "
+root
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 color
 INTEGER
 "

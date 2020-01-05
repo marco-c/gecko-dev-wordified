@@ -525,6 +525,10 @@ status
 (
 ICON_STATUS_UNKNOWN
 )
+rootIcon
+(
+0
+)
 {
 }
 nsCString
@@ -552,6 +556,9 @@ ICON_STATUS_
 defines
 above
 .
+uint8_t
+rootIcon
+;
 nsTArray
 <
 IconPayload
