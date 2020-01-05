@@ -181,13 +181,6 @@ index
 "
 )
 ;
-const
-gStore
-=
-window
-.
-gStore
-;
 /
 *
 *
@@ -365,6 +358,8 @@ resolve
 =
 >
 {
+window
+.
 gStore
 .
 dispatch
@@ -1605,6 +1600,8 @@ request
 =
 getDisplayedRequestById
 (
+window
+.
 gStore
 .
 getState
@@ -1630,6 +1627,8 @@ request
 is
 visible
 .
+window
+.
 gStore
 .
 dispatch
@@ -1648,6 +1647,8 @@ request
 =
 getDisplayedRequestById
 (
+window
+.
 gStore
 .
 getState
@@ -1696,6 +1697,8 @@ REQUEST_ADDED
 inspector
 )
 ;
+window
+.
 gStore
 .
 dispatch
@@ -2409,6 +2412,8 @@ TIMELINE_EVENT
 marker
 )
 ;
+window
+.
 gStore
 .
 dispatch
@@ -2527,6 +2532,8 @@ fromServiceWorker
 =
 data
 ;
+window
+.
 gStore
 .
 dispatch
@@ -2608,6 +2615,8 @@ true
 )
 ;
 await
+window
+.
 gStore
 .
 dispatch
@@ -2634,6 +2643,8 @@ request
 =
 getRequestById
 (
+window
+.
 gStore
 .
 getState
@@ -2677,6 +2688,8 @@ headers
 )
 {
 await
+window
+.
 gStore
 .
 dispatch
@@ -2732,6 +2745,8 @@ headers
 )
 {
 await
+window
+.
 gStore
 .
 dispatch
@@ -2839,6 +2854,8 @@ responseContent
 responseContent
 ;
 await
+window
+.
 gStore
 .
 dispatch
@@ -3014,6 +3031,8 @@ headersSize
 }
 ;
 await
+window
+.
 gStore
 .
 dispatch
@@ -3172,6 +3191,8 @@ length
 )
 {
 await
+window
+.
 gStore
 .
 dispatch
@@ -3296,6 +3317,8 @@ length
 )
 {
 await
+window
+.
 gStore
 .
 dispatch
