@@ -334,9 +334,6 @@ nsIASN1Sequence
 *
 *
 retSequence
-nsINSSComponent
-*
-nssComponent
 )
 ;
 nsresult
