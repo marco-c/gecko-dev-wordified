@@ -1748,9 +1748,12 @@ command
 to
 run
         
+Required
+(
 '
 command
 '
+)
 :
 [
 taskref_or_string
@@ -1765,6 +1768,8 @@ run
 in
 seconds
         
+Required
+(
 '
 max
 -
@@ -1772,6 +1777,7 @@ run
 -
 time
 '
+)
 :
 int
         
@@ -1828,9 +1834,12 @@ to
 run
 sequentially
         
+Required
+(
 '
 command
 '
+)
 :
 [
 taskref_or_string
@@ -1999,6 +2008,8 @@ run
 in
 seconds
         
+Required
+(
 '
 max
 -
@@ -2006,6 +2017,7 @@ run
 -
 time
 '
+)
 :
 int
         
@@ -2081,15 +2093,21 @@ payload
 .
 yml
         
+Required
+(
 '
 buildername
 '
+)
 :
 basestring
         
+Required
+(
 '
 sourcestamp
 '
+)
 :
 {
             
@@ -2128,9 +2146,12 @@ basestring
         
 }
         
+Required
+(
 '
 properties
 '
+)
 :
 {
             
