@@ -1645,7 +1645,6 @@ media
 NewRunnableFrom
 (
 [
-this
 that
 cap
 ]
@@ -1653,6 +1652,9 @@ cap
 )
 mutable
 {
+that
+-
+>
 mSettings
 .
 mWidth
@@ -1665,6 +1667,9 @@ cap
 .
 width
 ;
+that
+-
+>
 mSettings
 .
 mHeight
@@ -1677,6 +1682,9 @@ cap
 .
 height
 ;
+that
+-
+>
 mSettings
 .
 mFrameRate
