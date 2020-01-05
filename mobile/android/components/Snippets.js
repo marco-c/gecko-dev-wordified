@@ -2053,6 +2053,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

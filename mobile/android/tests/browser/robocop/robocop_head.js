@@ -5263,6 +5263,7 @@ usage
 add_task
 (
 function
+*
 test
 (
 )
@@ -5316,6 +5317,7 @@ value
 add_task
 (
 function
+*
 test_early_return
 (
 )
