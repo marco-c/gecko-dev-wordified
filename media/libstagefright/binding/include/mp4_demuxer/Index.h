@@ -179,6 +179,12 @@ Get
 (
 )
 ;
+CencSampleEncryptionInfoEntry
+*
+GetSampleEncryptionEntry
+(
+)
+;
 void
 Next
 (
