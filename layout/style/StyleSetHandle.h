@@ -220,6 +220,9 @@ dom
 /
 namespace
 mozilla
+class
+nsCSSCounterStyleRule
+;
 struct
 nsFontFaceRuleContainer
 ;
@@ -1064,6 +1067,16 @@ nsFontFaceRuleContainer
 >
 &
 aArray
+)
+;
+inline
+nsCSSCounterStyleRule
+*
+CounterStyleRuleForName
+(
+nsIAtom
+*
+aName
 )
 ;
 private
