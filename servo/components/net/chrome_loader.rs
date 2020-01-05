@@ -187,6 +187,16 @@ canonicalize
 resources_dir_path
 (
 )
+.
+expect
+(
+"
+Error
+finding
+resource
+folder
+"
+)
 )
 .
 expect
