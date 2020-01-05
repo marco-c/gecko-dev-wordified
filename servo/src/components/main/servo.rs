@@ -841,12 +841,7 @@ opts
 :
 from_cmdline_args
 (
-os
-:
-:
 args
-(
-)
 )
 .
 map
