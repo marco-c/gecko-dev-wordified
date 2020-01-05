@@ -820,6 +820,16 @@ false
 user_pref
 (
 "
+test
+.
+force_register_touch_windows
+"
+true
+)
+;
+user_pref
+(
+"
 dom
 .
 webcomponents
