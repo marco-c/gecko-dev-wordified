@@ -4695,7 +4695,7 @@ Ok
 EventCast
 :
 :
-from_unrooted
+from_temporary
 (
 UIEvent
 :
@@ -4722,7 +4722,7 @@ Ok
 EventCast
 :
 :
-from_unrooted
+from_temporary
 (
 MouseEvent
 :

@@ -45803,7 +45803,7 @@ always
 ]
   
 fn
-from_unrooted
+from_temporary
 <
 T
 :

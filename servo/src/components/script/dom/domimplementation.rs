@@ -1148,7 +1148,7 @@ doc_html
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 HTMLHtmlElement
 :
@@ -1203,7 +1203,7 @@ doc_head
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 HTMLHeadElement
 :
@@ -1279,7 +1279,7 @@ doc_title
 NodeCast
 :
 :
-from_unrooted
+from_temporary
 (
 HTMLTitleElement
 :

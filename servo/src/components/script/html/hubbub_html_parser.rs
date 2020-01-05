@@ -403,7 +403,7 @@ return
 ElementCast
 :
 :
-from_unrooted
+from_temporary
 (
 ctor
 :
@@ -1986,7 +1986,7 @@ return
 ElementCast
 :
 :
-from_unrooted
+from_temporary
 (
 HTMLUnknownElement
 :
