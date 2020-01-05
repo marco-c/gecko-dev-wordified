@@ -540,14 +540,7 @@ nsIContent
 *
 aContent
 )
-{
-return
-mFocusedContent
-=
-=
-aContent
 ;
-}
 void
 FlushBeforeEventHandlingIfNeeded
 (
