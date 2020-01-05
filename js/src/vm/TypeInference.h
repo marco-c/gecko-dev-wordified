@@ -5146,6 +5146,12 @@ maybeSingleton
 (
 )
 ;
+ObjectKey
+*
+maybeSingleObject
+(
+)
+;
 /
 *
 Whether
