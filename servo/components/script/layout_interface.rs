@@ -163,7 +163,7 @@ constellation_msg
 :
 {
 ConstellationChan
-Failure
+PanicMsg
 PipelineId
 }
 ;
@@ -1880,9 +1880,12 @@ ConstellationChan
 ConstellationMsg
 >
 pub
-failure
+panic_chan
 :
-Failure
+ConstellationChan
+<
+PanicMsg
+>
 pub
 script_chan
 :
