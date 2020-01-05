@@ -403,14 +403,6 @@ self
 .
 timing
 .
-root
-(
-)
-.
-r
-(
-)
-.
 NavigationStartPrecise
 (
 )

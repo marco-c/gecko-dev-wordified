@@ -9196,10 +9196,6 @@ GlobalRef
 Window
 (
 window
-.
-r
-(
-)
 )
 wrap_fn
 )
@@ -11725,10 +11721,6 @@ Document
 new
 (
 window
-.
-r
-(
-)
 Some
 (
 (
@@ -13732,10 +13724,6 @@ NodeList
 new_child_list
 (
 window
-.
-r
-(
-)
 self
 )
 }
@@ -17534,6 +17522,11 @@ document_from_node
 derived
 )
 ;
+Root
+:
+:
+from_ref
+(
 document
 .
 r
@@ -17542,6 +17535,7 @@ r
 .
 window
 (
+)
 )
 }
 impl
