@@ -581,7 +581,7 @@ AssertOnManagerThread
 ;
 mInitPromise
 .
-Resolve
+ResolveIfExists
 (
 TrackInfo
 :
@@ -632,7 +632,7 @@ AssertOnManagerThread
 ;
 mInitPromise
 .
-Reject
+RejectIfExists
 (
 aReason
 __func__
