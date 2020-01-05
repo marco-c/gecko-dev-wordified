@@ -351,7 +351,7 @@ container_as_bytes
 let
 (
 string
-used_encoding
+_
 )
 =
 decode_stylesheet_bytes
@@ -376,7 +376,6 @@ as_slice
 (
 )
 base_url
-used_encoding
 )
 }
 pub
@@ -390,9 +389,6 @@ str
 base_url
 :
 Url
-encoding
-:
-EncodingRef
 )
 -
 >

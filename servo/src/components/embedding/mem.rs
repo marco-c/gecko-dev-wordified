@@ -132,6 +132,13 @@ c_void
 )
 ;
 }
+#
+[
+allow
+(
+experimental
+)
+]
 pub
 fn
 newarray0
@@ -225,6 +232,13 @@ mut
 T
 }
 }
+#
+[
+allow
+(
+experimental
+)
+]
 pub
 fn
 new0

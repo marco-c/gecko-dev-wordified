@@ -239,10 +239,7 @@ servo_net
 image_cache_task
 :
 :
-{
 ImageCacheTask
-SyncImageCacheTask
-}
 ;
 #
 [
@@ -885,7 +882,10 @@ is_some
 (
 )
 {
-SyncImageCacheTask
+ImageCacheTask
+:
+:
+new_sync
 (
 resource_task
 .
@@ -897,6 +897,9 @@ clone
 else
 {
 ImageCacheTask
+:
+:
+new
 (
 resource_task
 .

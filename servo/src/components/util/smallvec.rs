@@ -897,10 +897,10 @@ end
 )
 )
 ;
-mem
+ptr
 :
 :
-overwrite
+write
 (
 end
 value
