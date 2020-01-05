@@ -2229,13 +2229,12 @@ Paints
 one
 layer
 and
-sends
+places
 the
+painted
 tiles
-back
-to
-the
-layer
+in
+replies
 .
 fn
 paint
@@ -2272,6 +2271,9 @@ layer_id
 LayerId
 )
 {
+time
+:
+:
 profile
 (
 time
@@ -3676,6 +3678,9 @@ the
 display
 list
 .
+time
+:
+:
 profile
 (
 time

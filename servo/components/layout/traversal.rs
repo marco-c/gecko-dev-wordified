@@ -1513,6 +1513,14 @@ layout_context
 applicable_declarations_cache
 (
 )
+&
+self
+.
+layout_context
+.
+shared
+.
+new_animations_sender
 )
 ;
 }

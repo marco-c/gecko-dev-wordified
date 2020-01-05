@@ -239,6 +239,7 @@ ExitNowMsg
 (
 PipelineExitType
 )
+TickAnimationsMsg
 }
 /
 /
