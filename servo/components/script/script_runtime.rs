@@ -1435,7 +1435,7 @@ C
 fn
 enqueue_job
 (
-_cx
+cx
 :
 *
 mut
@@ -1500,6 +1500,7 @@ PromiseJobCallback
 :
 new
 (
+cx
 job
 .
 get

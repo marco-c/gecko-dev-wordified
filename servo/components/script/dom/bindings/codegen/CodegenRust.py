@@ -6203,6 +6203,7 @@ s
 :
 new
 (
+cx
 {
 val
 }
@@ -17864,6 +17865,7 @@ s
 :
 new
 (
+cx
 {
 val
 }
@@ -36394,6 +36396,8 @@ callback
 )
 =
 >
+unsafe
+{
 callback
 .
 parent
@@ -36402,7 +36406,10 @@ init
 (
 %
 s
+%
+s
 )
+}
 \
 n
 "
@@ -36444,11 +36451,20 @@ join
 (
 initializers
 )
+                          
 self
 .
 args
 [
 0
+]
+.
+name
+self
+.
+args
+[
+1
 ]
 .
 name
@@ -52037,6 +52053,12 @@ JSTraceable
 PartialEq
 )
 ]
+\
+n
+#
+[
+allow_unrooted_interior
+]
 "
 )
     
@@ -52053,6 +52075,17 @@ ClassConstructor
 (
             
 [
+Argument
+(
+"
+*
+mut
+JSContext
+"
+"
+aCx
+"
+)
 Argument
 (
 "
@@ -52886,9 +52919,15 @@ type
 }
 {
     
+unsafe
 fn
 new
 (
+cx
+:
+*
+mut
+JSContext
 callback
 :
 *
@@ -52912,6 +52951,7 @@ type
 :
 new
 (
+cx
 callback
 )
     
