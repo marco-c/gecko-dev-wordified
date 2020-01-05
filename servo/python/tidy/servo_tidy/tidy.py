@@ -293,6 +293,9 @@ ports
 geckolib
 "
 "
+gecko_bindings
+"
+"
 bindings
 .
 rs
@@ -315,7 +318,10 @@ ports
 geckolib
 "
 "
-gecko_style_structs
+gecko_bindings
+"
+"
+structs
 .
 rs
 "
@@ -803,6 +809,9 @@ ports
 "
 "
 geckolib
+"
+"
+gecko_bindings
 "
 "
 tools
