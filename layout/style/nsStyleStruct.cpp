@@ -19321,9 +19321,17 @@ if
 DefinitelyEqualURIsAndPrincipal
 (
 mBinding
+.
+ForceGet
+(
+)
 aNewData
 .
 mBinding
+.
+ForceGet
+(
+)
 )
 |
 |
