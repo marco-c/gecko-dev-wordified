@@ -4228,7 +4228,7 @@ list
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 <
@@ -4305,7 +4305,7 @@ list
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 <
