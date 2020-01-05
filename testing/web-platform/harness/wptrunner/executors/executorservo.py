@@ -134,9 +134,6 @@ WdspecRun
 pytestrunner
 =
 None
-render_arg
-=
-None
 webdriver
 =
 None
@@ -145,23 +142,6 @@ extra_timeout
 5
 #
 seconds
-def
-do_delayed_imports
-(
-)
-:
-    
-global
-render_arg
-    
-from
-.
-.
-browsers
-.
-servo
-import
-render_arg
 hosts_text
 =
 "
@@ -444,14 +424,7 @@ Event
 args
 =
 [
-render_arg
-(
-self
-.
-browser
-.
-render_backend
-)
+            
 "
 -
 -
@@ -468,7 +441,7 @@ Servo
 /
 wptrunner
 "
-                
+            
 "
 -
 Z
@@ -488,6 +461,7 @@ test_url
 (
 test
 )
+        
 ]
         
 for
@@ -1327,14 +1301,7 @@ self
 binary
                 
 [
-render_arg
-(
-self
-.
-browser
-.
-render_backend
-)
+                    
 "
 -
 -
@@ -1347,7 +1314,7 @@ fail
 -
 exit
 "
-                 
+                    
 "
 -
 u
@@ -1357,6 +1324,7 @@ Servo
 /
 wptrunner
 "
+                    
 "
 -
 Z
@@ -1376,7 +1344,7 @@ replace
 -
 surrogates
 "
-                 
+                    
 "
 -
 -
@@ -1388,6 +1356,7 @@ s
 %
 output_path
 full_url
+                
 ]
 +
 self
@@ -1942,13 +1911,6 @@ self
 browser
 .
 binary_args
-render_backend
-=
-self
-.
-browser
-.
-render_backend
 )
             
 self

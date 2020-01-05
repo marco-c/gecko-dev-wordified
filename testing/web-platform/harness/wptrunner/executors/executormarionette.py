@@ -91,9 +91,6 @@ None
 pytestrunner
 =
 None
-webdriver
-=
-None
 here
 =
 os
@@ -1918,12 +1915,6 @@ browser
         
 self
 .
-session
-=
-None
-        
-self
-.
 webdriver_binary
 =
 executor
@@ -1932,11 +1923,19 @@ webdriver_binary
         
 self
 .
-marionette_port
+capabilities
 =
-browser
+self
 .
-marionette_port
+executor
+.
+capabilities
+        
+self
+.
+session_config
+=
+None
         
 self
 .
@@ -1981,9 +1980,6 @@ GeckoDriverServer
 self
 .
 logger
-self
-.
-marionette_port
 binary
 =
 self
@@ -2028,53 +2024,37 @@ url
             
 self
 .
-logger
-.
-info
-(
-                
-"
-Establishing
-new
-WebDriver
-session
-with
-%
-s
-"
-%
-self
-.
-server
-.
-url
-)
-            
-self
-.
-session
+session_config
 =
-webdriver
-.
-Session
-(
-                
+{
+"
+host
+"
+:
 self
 .
 server
 .
 host
+                                   
+"
+port
+"
+:
 self
 .
 server
 .
 port
+                                   
+"
+capabilities
+"
+:
 self
 .
-server
-.
-base_path
-)
+capabilities
+}
         
 except
 Exception
@@ -2128,34 +2108,6 @@ teardown
 self
 )
 :
-        
-try
-:
-            
-if
-self
-.
-session
-.
-session_id
-is
-not
-None
-:
-                
-self
-.
-session
-.
-end
-(
-)
-        
-except
-Exception
-:
-            
-pass
         
 if
 self
@@ -4070,6 +4022,10 @@ True
 debug_info
 =
 None
+                 
+capabilities
+=
+None
 )
 :
         
@@ -4101,6 +4057,12 @@ self
 webdriver_binary
 =
 webdriver_binary
+        
+self
+.
+capabilities
+=
+capabilities
         
 self
 .
@@ -4169,7 +4131,7 @@ self
 .
 protocol
 .
-session
+session_config
                                   
 test
 .
@@ -4212,7 +4174,7 @@ def
 do_wdspec
 (
 self
-session
+session_config
 path
 timeout
 )
@@ -4233,12 +4195,14 @@ pytestrunner
 .
 run
 (
-            
 path
-session
+                                           
 self
 .
-server_url
+server_config
+                                           
+session_config
+                                           
 timeout
 =
 timeout
@@ -4259,12 +4223,8 @@ self
         
 global
 pytestrunner
-webdriver
         
 from
 .
 import
 pytestrunner
-        
-import
-webdriver
