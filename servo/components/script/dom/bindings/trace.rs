@@ -3145,13 +3145,10 @@ JSTracer
 for
 info
 in
+&
 self
 .
 set
-.
-iter
-(
-)
 {
 (
 info

@@ -1873,10 +1873,6 @@ for
 ctor
 in
 named_constructors
-.
-iter
-(
-)
 {
 let
 (
@@ -2400,10 +2396,6 @@ for
 spec
 in
 constants
-.
-iter
-(
-)
 {
 let
 value

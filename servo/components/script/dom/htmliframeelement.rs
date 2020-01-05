@@ -3029,11 +3029,8 @@ tokens
 for
 token
 in
+*
 tokens
-.
-iter
-(
-)
 {
 modes
 |

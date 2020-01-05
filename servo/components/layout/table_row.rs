@@ -2342,13 +2342,10 @@ iter
 for
 cell_intrinsic_inline_size
 in
+&
 self
 .
 cell_intrinsic_inline_sizes
-.
-iter
-(
-)
 {
 /
 /

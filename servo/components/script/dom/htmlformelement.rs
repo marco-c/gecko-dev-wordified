@@ -3012,11 +3012,9 @@ collect
 for
 datum
 in
+&
+mut
 ret
-.
-iter_mut
-(
-)
 {
 match
 &

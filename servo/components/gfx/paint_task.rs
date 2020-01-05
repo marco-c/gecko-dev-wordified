@@ -1125,13 +1125,11 @@ down
 for
 worker_thread
 in
+&
+mut
 paint_task
 .
 worker_threads
-.
-iter_mut
-(
-)
 {
 worker_thread
 .

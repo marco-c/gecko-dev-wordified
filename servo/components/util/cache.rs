@@ -1226,13 +1226,11 @@ self
 for
 slot
 in
+&
+mut
 self
 .
 entries
-.
-iter_mut
-(
-)
 {
 *
 slot

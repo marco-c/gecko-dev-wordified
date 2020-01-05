@@ -322,11 +322,8 @@ collect
 for
 line
 in
+&
 lines
-.
-iter
-(
-)
 {
 let
 ip_host

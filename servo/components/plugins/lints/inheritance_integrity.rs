@@ -674,11 +674,8 @@ here
 for
 span
 in
+&
 dom_spans
-.
-iter
-(
-)
 {
 sess
 .
@@ -771,11 +768,8 @@ Allow
 for
 span
 in
+&
 dom_spans
-.
-iter
-(
-)
 {
 cx
 .

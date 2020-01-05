@@ -2631,13 +2631,10 @@ values
 for
 declaration
 in
+&
 rule
 .
 declarations
-.
-iter
-(
-)
 {
 match
 declaration

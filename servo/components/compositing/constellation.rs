@@ -8481,13 +8481,10 @@ iter
 .
 chain
 (
+&
 frame
 .
 next
-.
-iter
-(
-)
 )
 {
 let

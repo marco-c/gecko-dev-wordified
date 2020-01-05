@@ -460,11 +460,8 @@ cur_target
 for
 listener
 in
+&
 listeners
-.
-iter
-(
-)
 {
 /
 /
@@ -690,11 +687,8 @@ cur_target
 for
 listener
 in
+&
 listeners
-.
-iter
-(
-)
 {
 /
 /

@@ -1320,13 +1320,11 @@ mut
 data
 )
 in
+&
+mut
 self
 .
 buckets
-.
-iter_mut
-(
-)
 {
 data
 .

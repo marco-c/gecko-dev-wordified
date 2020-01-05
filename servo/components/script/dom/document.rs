@@ -6397,11 +6397,8 @@ new
 for
 node_address
 in
+&
 mouse_over_addresses
-.
-iter
-(
-)
 {
 let
 node

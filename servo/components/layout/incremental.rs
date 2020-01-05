@@ -739,11 +739,8 @@ damage
 damage_str
 )
 in
+&
 to_iter
-.
-iter
-(
-)
 {
 if
 self

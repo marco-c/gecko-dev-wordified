@@ -3031,10 +3031,6 @@ for
 root
 in
 collection
-.
-iter
-(
-)
 {
 trace_reflector
 (

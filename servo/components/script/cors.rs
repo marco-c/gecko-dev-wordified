@@ -2230,10 +2230,6 @@ for
 m
 in
 methods
-.
-iter
-(
-)
 {
 let
 cache_match

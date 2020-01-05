@@ -2576,10 +2576,6 @@ for
 cookie
 in
 cookies
-.
-iter
-(
-)
 {
 if
 let
@@ -3291,10 +3287,6 @@ for
 encoding
 in
 encodings
-.
-iter
-(
-)
 {
 if
 let

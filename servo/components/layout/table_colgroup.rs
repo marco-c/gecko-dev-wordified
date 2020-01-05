@@ -431,13 +431,10 @@ debug_id
 for
 fragment
 in
+&
 self
 .
 cols
-.
-iter
-(
-)
 {
 /
 /
