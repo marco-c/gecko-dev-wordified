@@ -315,7 +315,7 @@ _getState
 ;
 /
 /
-frames
+Frames
 is
 null
 when
@@ -324,6 +324,7 @@ debugger
 is
 not
 paused
+.
 if
 (
 !
@@ -341,6 +342,7 @@ selected
 -
 1
 }
+;
 }
 frames
 =
