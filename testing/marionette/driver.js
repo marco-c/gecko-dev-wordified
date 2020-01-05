@@ -9370,6 +9370,11 @@ return
 this
 .
 windowHandles
+.
+map
+(
+String
+)
 ;
 }
 /
@@ -9570,6 +9575,11 @@ return
 this
 .
 chromeWindowHandles
+.
+map
+(
+String
+)
 ;
 }
 /
