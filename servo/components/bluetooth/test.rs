@@ -709,7 +709,7 @@ TwoHeartRateServicesAdapter
 "
 ;
 const
-BLACKLIST_TEST_ADAPTER
+BLOCKLIST_TEST_ADAPTER
 :
 &
 '
@@ -717,7 +717,7 @@ static
 str
 =
 "
-BlacklistTestAdapter
+BlocklistTestAdapter
 "
 ;
 /
@@ -967,7 +967,7 @@ str
 Service
 UUIDs
 const
-BLACKLIST_TEST_SERVICE_UUID
+BLOCKLIST_TEST_SERVICE_UUID
 :
 &
 '
@@ -1287,7 +1287,7 @@ str
 Characteristic
 UUIDs
 const
-BLACKLIST_EXCLUDE_READS_CHARACTERISTIC_UUID
+BLOCKLIST_EXCLUDE_READS_CHARACTERISTIC_UUID
 :
 &
 '
@@ -1570,7 +1570,7 @@ str
 Descriptor
 UUIDs
 const
-BLACKLIST_EXCLUDE_READS_DESCRIPTOR_UUID
+BLOCKLIST_EXCLUDE_READS_DESCRIPTOR_UUID
 :
 &
 '
@@ -1590,7 +1590,7 @@ aaaa
 "
 ;
 const
-BLACKLIST_DESCRIPTOR_UUID
+BLOCKLIST_DESCRIPTOR_UUID
 :
 &
 '
@@ -3448,7 +3448,7 @@ Ok
 )
 }
 fn
-create_blacklisted_device
+create_blocklisted_device
 (
 adapter
 :
@@ -3489,7 +3489,7 @@ to_owned
 vec
 !
 [
-BLACKLIST_TEST_SERVICE_UUID
+BLOCKLIST_TEST_SERVICE_UUID
 .
 to_owned
 (
@@ -3519,7 +3519,7 @@ to_owned
 )
 ;
 let
-blacklist_test_service
+blocklist_test_service
 =
 try
 !
@@ -3528,7 +3528,7 @@ create_service
 (
 &
 connectable_device
-BLACKLIST_TEST_SERVICE_UUID
+BLOCKLIST_TEST_SERVICE_UUID
 .
 to_owned
 (
@@ -3537,7 +3537,7 @@ to_owned
 )
 ;
 let
-blacklist_exclude_reads_characteristic
+blocklist_exclude_reads_characteristic
 =
 try
 !
@@ -3545,8 +3545,8 @@ try
 create_characteristic
 (
 &
-blacklist_test_service
-BLACKLIST_EXCLUDE_READS_CHARACTERISTIC_UUID
+blocklist_test_service
+BLOCKLIST_EXCLUDE_READS_CHARACTERISTIC_UUID
 .
 to_owned
 (
@@ -3557,7 +3557,7 @@ to_owned
 try
 !
 (
-blacklist_exclude_reads_characteristic
+blocklist_exclude_reads_characteristic
 .
 set_flags
 (
@@ -3579,7 +3579,7 @@ to_string
 )
 ;
 let
-_blacklist_exclude_reads_descriptor
+_blocklist_exclude_reads_descriptor
 =
 try
 !
@@ -3587,8 +3587,8 @@ try
 create_descriptor_with_value
 (
 &
-blacklist_exclude_reads_characteristic
-BLACKLIST_EXCLUDE_READS_DESCRIPTOR_UUID
+blocklist_exclude_reads_characteristic
+BLOCKLIST_EXCLUDE_READS_DESCRIPTOR_UUID
 .
 to_owned
 (
@@ -3604,7 +3604,7 @@ vec
 )
 ;
 let
-_blacklist_descriptor
+_blocklist_descriptor
 =
 try
 !
@@ -3612,8 +3612,8 @@ try
 create_descriptor_with_value
 (
 &
-blacklist_exclude_reads_characteristic
-BLACKLIST_DESCRIPTOR_UUID
+blocklist_exclude_reads_characteristic
+BLOCKLIST_DESCRIPTOR_UUID
 .
 to_owned
 (
@@ -4232,7 +4232,7 @@ adapter
 )
 ;
 }
-BLACKLIST_TEST_ADAPTER
+BLOCKLIST_TEST_ADAPTER
 =
 >
 {
@@ -4242,7 +4242,7 @@ try
 set_adapter
 (
 adapter
-BLACKLIST_TEST_ADAPTER
+BLOCKLIST_TEST_ADAPTER
 .
 to_owned
 (
@@ -4256,7 +4256,7 @@ _
 try
 !
 (
-create_blacklisted_device
+create_blocklisted_device
 (
 adapter
 )
