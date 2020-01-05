@@ -231,7 +231,6 @@ jsapi
 :
 {
 JS_GetClass
-JS_GetPrototype
 JS_LinkConstructorAndPrototype
 }
 ;
@@ -296,7 +295,6 @@ jsapi
 :
 {
 JSContext
-JSVal
 JSObject
 JSBool
 jsid
@@ -723,7 +721,6 @@ function
 +
 name
 +
-~
 "
 (
 )

@@ -60,7 +60,7 @@ use
 servo_msg
 :
 :
-compositor
+compositor_msg
 :
 :
 LayerBuffer

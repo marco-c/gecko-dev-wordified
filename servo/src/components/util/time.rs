@@ -972,11 +972,7 @@ fmt
 15s
 "
 "
-_category
-(
-ms
-)
-_
+_category_
 "
 "
 _mean

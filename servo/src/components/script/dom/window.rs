@@ -91,7 +91,7 @@ script_task
 ExitMsg
 FireTimerMsg
 ScriptChan
-ScriptContext
+ScriptTask
 }
 ;
 use
@@ -230,11 +230,11 @@ TimerControlMsg
 script_chan
 :
 ScriptChan
-script_context
+script_task
 :
 *
 mut
-ScriptContext
+ScriptTask
 wrapper
 :
 WrapperCache
@@ -573,7 +573,7 @@ unsafe
 *
 self
 .
-script_context
+script_task
 )
 .
 reflow_all
@@ -589,11 +589,11 @@ new
 script_chan
 :
 ScriptChan
-script_context
+script_task
 :
 *
 mut
-ScriptContext
+ScriptTask
 )
 -
 >
@@ -696,9 +696,9 @@ ExitMsg
 }
 timer_chan
 }
-script_context
+script_task
 :
-script_context
+script_task
 }
 ;
 unsafe
@@ -708,7 +708,7 @@ compartment
 =
 (
 *
-script_context
+script_task
 )
 .
 js_compartment

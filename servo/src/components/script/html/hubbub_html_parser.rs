@@ -2401,7 +2401,6 @@ element
 .
 get_attr
 (
-~
 "
 rel
 "
@@ -2410,7 +2409,6 @@ element
 .
 get_attr
 (
-~
 "
 href
 "
@@ -2434,7 +2432,6 @@ if
 rel
 =
 =
-~
 "
 stylesheet
 "
@@ -2520,7 +2517,6 @@ parent
 .
 get_attr
 (
-~
 "
 src
 "
@@ -3092,7 +3088,6 @@ script
 .
 get_attr
 (
-~
 "
 src
 "
