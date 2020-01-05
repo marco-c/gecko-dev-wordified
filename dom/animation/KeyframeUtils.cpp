@@ -9124,6 +9124,13 @@ i
 ;
 while
 (
+j
++
+1
+<
+n
+&
+&
 aEntries
 [
 j
