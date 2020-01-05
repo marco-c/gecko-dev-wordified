@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+StyleSetHandle
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h
@@ -1300,8 +1309,7 @@ mRuleProcessors
 ;
 nsTArray
 <
-nsStyleSet
-*
+StyleSetHandle
 >
 mStyleSets
 ;
