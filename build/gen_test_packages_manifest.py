@@ -121,6 +121,10 @@ talos
 '
     
 '
+awsy
+'
+    
+'
 gtest
 '
 ]
@@ -152,6 +156,10 @@ platform
     
 '
 talos
+'
+    
+'
+awsy
 '
 ]
 #
