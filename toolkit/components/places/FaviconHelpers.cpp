@@ -1172,15 +1172,6 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
-(
-aIcon
-.
-expiration
->
-0
-)
-;
 /
 /
 There
@@ -3780,6 +3771,12 @@ Length
 )
 |
 |
+(
+mIcon
+.
+expiration
+&
+&
 PR_Now
 (
 )
@@ -3787,6 +3784,7 @@ PR_Now
 mIcon
 .
 expiration
+)
 ;
 bool
 fetchIconFromNetwork
