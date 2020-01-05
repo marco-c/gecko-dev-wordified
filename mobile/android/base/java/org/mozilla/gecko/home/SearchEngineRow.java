@@ -2902,6 +2902,11 @@ String
 (
 )
 ;
+if
+(
+searchSuggestionsEnabled
+)
+{
 for
 (
 String
@@ -2928,6 +2933,7 @@ add
 suggestion
 )
 ;
+}
 }
 /
 /
