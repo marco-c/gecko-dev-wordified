@@ -103,8 +103,7 @@ IsMainThread
 return
 ;
 }
-ProfilerBacktrace
-*
+UniqueProfilerBacktrace
 stack
 =
 profiler_get_backtrace
@@ -162,7 +161,10 @@ aObservation
 End
 (
 )
+Move
+(
 stack
+)
 )
 ;
 PROFILER_MARKER_PAYLOAD

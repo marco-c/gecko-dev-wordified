@@ -2767,12 +2767,10 @@ RefreshDriverTimer
 *
 mActiveTimer
 ;
-ProfilerBacktrace
-*
+UniqueProfilerBacktrace
 mReflowCause
 ;
-ProfilerBacktrace
-*
+UniqueProfilerBacktrace
 mStyleCause
 ;
 /

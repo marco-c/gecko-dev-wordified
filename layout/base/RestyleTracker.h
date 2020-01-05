@@ -796,10 +796,7 @@ defined
 (
 MOZ_ENABLE_PROFILER_SPS
 )
-UniquePtr
-<
-ProfilerBacktrace
->
+UniqueProfilerBacktrace
 mBacktrace
 ;
 #
@@ -1752,12 +1749,9 @@ rd
 -
 >
 mBacktrace
-.
-reset
-(
+=
 profiler_get_backtrace
 (
-)
 )
 ;
 }
