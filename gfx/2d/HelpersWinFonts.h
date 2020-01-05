@@ -90,6 +90,13 @@ MPL
 .
 *
 /
+#
+include
+"
+gfxPrefs
+.
+h
+"
 namespace
 mozilla
 {

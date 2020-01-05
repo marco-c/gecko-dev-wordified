@@ -111,6 +111,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 WebRenderLayersLogging
 .
 h

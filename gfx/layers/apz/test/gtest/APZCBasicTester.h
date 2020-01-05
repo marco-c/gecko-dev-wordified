@@ -141,6 +141,13 @@ APZTestCommon
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 class
 APZCBasicTester
 :

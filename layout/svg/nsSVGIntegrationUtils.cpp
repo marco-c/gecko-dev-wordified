@@ -128,6 +128,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h

@@ -124,6 +124,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GPUProcessHost
 .
 h

@@ -150,6 +150,13 @@ APZTestCommon
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 /
 *
 The
