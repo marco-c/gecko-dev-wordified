@@ -980,7 +980,10 @@ std
 time
 :
 :
+{
 SystemTime
+Instant
+}
 ;
 use
 string_cache
@@ -2704,6 +2707,12 @@ no_jsmanaged_fields
 !
 (
 SystemTime
+)
+;
+no_jsmanaged_fields
+!
+(
+Instant
 )
 ;
 no_jsmanaged_fields
