@@ -2131,4 +2131,13 @@ container
 )
 )
 ;
+EXPECT_TRUE
+(
+encoder
+.
+IsEncodingComplete
+(
+)
+)
+;
 }
