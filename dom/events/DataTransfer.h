@@ -201,6 +201,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 File
 .
 h
@@ -902,6 +913,8 @@ MozTypesAt
 (
 uint32_t
 aIndex
+CallerType
+aCallerType
 mozilla
 :
 :
