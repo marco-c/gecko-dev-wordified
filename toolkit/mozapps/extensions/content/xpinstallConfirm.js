@@ -499,8 +499,6 @@ installMap
 set
 (
 install
-.
-wrapped
 installItem
 )
 ;
