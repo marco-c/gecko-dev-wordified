@@ -957,17 +957,6 @@ IonOsrTempData
 cx
 -
 >
-runtime
-(
-)
--
->
-getJitRuntime
-(
-cx
-)
--
->
 allocateOsrTempData
 (
 totalSpace
@@ -1343,6 +1332,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 enabled
 (
@@ -1920,6 +1911,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 addressOfEnabled
 (
@@ -1955,11 +1948,6 @@ void
 )
 &
 cx
--
->
-runtime
-(
-)
 -
 >
 jitActivation
@@ -16878,6 +16866,8 @@ cx
 -
 >
 caches
+(
+)
 .
 envCoordinateNameCache
 script

@@ -189,7 +189,7 @@ AutoKeepShapeTables
 :
 AutoKeepShapeTables
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -256,7 +256,7 @@ StackBaseShape
 :
 StackBaseShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -285,7 +285,7 @@ Shape
 :
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 jsid
@@ -308,7 +308,7 @@ Shape
 :
 maybeCreateTableForLookup
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -383,7 +383,7 @@ Shape
 :
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -515,7 +515,7 @@ Shape
 :
 search
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -621,7 +621,7 @@ Shape
 :
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -763,7 +763,7 @@ EmptyShape
 :
 ensureInitialCustomShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -1041,7 +1041,7 @@ Inner
 :
 Inner
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t
@@ -1078,7 +1078,7 @@ AutoRooterGetterSetter
 :
 AutoRooterGetterSetter
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t
@@ -1121,7 +1121,7 @@ AutoRooterGetterSetter
 :
 AutoRooterGetterSetter
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint8_t

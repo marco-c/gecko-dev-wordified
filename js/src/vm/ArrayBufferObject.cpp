@@ -2492,9 +2492,6 @@ JS
 :
 AutoCheckCannotGC
 nogc
-(
-cx
-)
 ;
 uint8_t
 *
@@ -9568,16 +9565,27 @@ overlap
 this
 one
 .
-trc
+Nursery
+&
+nursery
+=
+obj
 -
 >
-runtime
+zoneFromAnyThread
 (
 )
 -
 >
-gc
-.
+group
+(
+)
+-
+>
+nursery
+(
+)
+;
 nursery
 .
 maybeSetForwardingPointer
@@ -10443,7 +10451,6 @@ obj
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -10649,7 +10656,6 @@ nbytes
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -10695,7 +10701,6 @@ data
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -10779,7 +10784,6 @@ data
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -11013,7 +11017,6 @@ obj
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -11222,7 +11225,6 @@ objArg
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -11463,7 +11465,6 @@ data
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -11793,7 +11794,6 @@ isSharedMemory
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST

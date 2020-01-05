@@ -2035,7 +2035,7 @@ zone
 explicit
 AutoEnterAnalysis
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2078,15 +2078,9 @@ zone
 :
 suppressGC
 (
-zone
--
->
-runtimeFromMainThread
-(
-)
--
->
-contextFromMainThread
+TlsContext
+.
+get
 (
 )
 )
@@ -2496,7 +2490,7 @@ inline
 bool
 TrackPropertyTypes
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2842,7 +2836,7 @@ value
 void
 AddTypePropertyId
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup
@@ -2863,7 +2857,7 @@ type
 void
 AddTypePropertyId
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup
@@ -2898,7 +2892,7 @@ inline
 void
 AddTypePropertyId
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2948,7 +2942,7 @@ inline
 void
 AddTypePropertyId
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -2997,7 +2991,7 @@ inline
 void
 MarkObjectGroupFlags
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3051,7 +3045,7 @@ inline
 void
 MarkObjectGroupUnknownProperties
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup
@@ -3082,7 +3076,7 @@ inline
 void
 MarkTypePropertyNonData
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3128,7 +3122,7 @@ inline
 void
 MarkTypePropertyNonWritable
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3187,7 +3181,7 @@ inline
 void
 MarkObjectStateChange
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3943,12 +3937,12 @@ pc
 {
 MOZ_ASSERT
 (
-CurrentThreadCanAccessRuntime
+CurrentThreadCanAccessZone
 (
 script
 -
 >
-runtimeFromMainThread
+zone
 (
 )
 )
@@ -6675,9 +6669,9 @@ HeapTypeSet
 :
 newPropertyState
 (
-ExclusiveContext
+JSContext
 *
-cxArg
+cx
 )
 {
 checkMagic
@@ -6697,14 +6691,11 @@ constraints
 /
 if
 (
-JSContext
-*
+!
 cx
-=
-cxArg
 -
 >
-maybeJSContext
+helperThread
 (
 )
 )
@@ -6761,7 +6752,7 @@ HeapTypeSet
 :
 setNonDataProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -6796,7 +6787,7 @@ HeapTypeSet
 :
 setNonWritableProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -6831,7 +6822,7 @@ HeapTypeSet
 :
 setNonConstantProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -7422,7 +7413,7 @@ ObjectGroup
 :
 getProperty
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject

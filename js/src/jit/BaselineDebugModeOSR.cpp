@@ -2877,6 +2877,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 enabled
 (
@@ -5808,11 +5810,6 @@ MOZ_ASSERT
 cx
 -
 >
-runtime
-(
-)
--
->
 isProfilerSamplingEnabled
 (
 )
@@ -7092,6 +7089,10 @@ raw
 )
 :
 baselineDebugModeOSRHandlerNoFrameRegPopAddr_
+.
+ref
+(
+)
 ;
 }
 static

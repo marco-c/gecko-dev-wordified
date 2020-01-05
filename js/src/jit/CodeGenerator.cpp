@@ -1819,7 +1819,7 @@ bool
 StringToNumberFn
 )
 (
-ExclusiveContext
+JSContext
 *
 JSString
 *
@@ -6303,7 +6303,7 @@ JSFlatString
 IntToStringFn
 )
 (
-ExclusiveContext
+JSContext
 *
 int
 )
@@ -6415,7 +6415,7 @@ JSString
 DoubleToStringFn
 )
 (
-ExclusiveContext
+JSContext
 *
 double
 )
@@ -23040,7 +23040,7 @@ bool
 CopyElementsForWriteFn
 )
 (
-ExclusiveContext
+JSContext
 *
 NativeObject
 *
@@ -51075,7 +51075,7 @@ JSString
 ConcatStringsFn
 )
 (
-ExclusiveContext
+JSContext
 *
 HandleString
 HandleString
@@ -70939,14 +70939,19 @@ toObject
 cx
 -
 >
-runtime
+zone
 (
 )
 -
 >
-gc
-.
+group
+(
+)
+-
+>
 storeBuffer
+(
+)
 .
 putWholeCell
 (

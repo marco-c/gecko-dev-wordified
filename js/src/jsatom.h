@@ -231,7 +231,7 @@ char
 *
 AtomToPrintableString
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSAtom
@@ -406,7 +406,7 @@ JSAtom
 *
 asPtr
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1288,7 +1288,7 @@ JSAtom
 *
 Atomize
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1319,7 +1319,7 @@ JSAtom
 *
 AtomizeChars
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -1361,7 +1361,7 @@ JSAtom
 *
 AtomizeString
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSString
@@ -1389,7 +1389,7 @@ JSAtom
 *
 ToAtom
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename

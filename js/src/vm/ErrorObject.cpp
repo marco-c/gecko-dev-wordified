@@ -228,7 +228,7 @@ ErrorObject
 :
 assignInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -1699,6 +1699,11 @@ false
 if
 (
 cx
+-
+>
+runtime
+(
+)
 -
 >
 stackFormat

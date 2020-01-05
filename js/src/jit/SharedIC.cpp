@@ -4677,9 +4677,9 @@ Register
 scratch
 LiveGeneralRegisterSet
 saveRegs
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 Label
@@ -4797,7 +4797,12 @@ movePtr
 (
 ImmPtr
 (
-rt
+cx
+-
+>
+runtime
+(
+)
 )
 scratch
 )

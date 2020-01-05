@@ -496,7 +496,7 @@ uint8_t
 *
 AllocateCodeSegment
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -602,7 +602,7 @@ const
 LinkData
 &
 linkData
-ExclusiveContext
+JSContext
 *
 cx
 )

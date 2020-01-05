@@ -765,6 +765,16 @@ unlock
 (
 )
 ;
+#
+ifdef
+DEBUG
+bool
+isLockedByCurrentThread
+(
+)
+;
+#
+endif
 enum
 CondVar
 {
@@ -1682,15 +1692,6 @@ core
 struct
 HelperThread
 {
-mozilla
-:
-:
-Maybe
-<
-PerThreadData
->
-threadData
-;
 mozilla
 :
 :
@@ -2825,7 +2826,7 @@ token
 bool
 StartOffThreadCompression
 (
-ExclusiveContext
+JSContext
 *
 cx
 SourceCompressionTask
@@ -2920,7 +2921,7 @@ ParseTask
 ParseTaskKind
 kind
 ;
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -3145,7 +3146,7 @@ ParseTask
 (
 ParseTaskKind
 kind
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3174,7 +3175,7 @@ ParseTask
 (
 ParseTaskKind
 kind
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3279,7 +3280,7 @@ ParseTask
 {
 ScriptParseTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3320,7 +3321,7 @@ ParseTask
 {
 ModuleParseTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3361,7 +3362,7 @@ ParseTask
 {
 ScriptDecodeTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -3514,7 +3515,7 @@ this
 off
 thread
 !
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -3588,7 +3589,7 @@ public
 explicit
 SourceCompressionTask
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

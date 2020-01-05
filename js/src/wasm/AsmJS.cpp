@@ -3766,7 +3766,7 @@ inline
 bool
 IsNormalObjectField
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3813,7 +3813,7 @@ PropertyName
 *
 ObjectNormalFieldName
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3865,7 +3865,7 @@ ParseNode
 *
 ObjectNormalFieldInitializer
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -3948,7 +3948,7 @@ inline
 bool
 IsIgnoredDirectiveName
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSAtom
@@ -3975,7 +3975,7 @@ inline
 bool
 IsIgnoredDirective
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
@@ -8959,7 +8959,7 @@ ArrayView
 >
 ArrayViewVector
 ;
-ExclusiveContext
+JSContext
 *
 cx_
 ;
@@ -9428,7 +9428,7 @@ public
 :
 ModuleValidator
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser
@@ -10398,7 +10398,7 @@ return
 true
 ;
 }
-ExclusiveContext
+JSContext
 *
 cx
 (
@@ -17713,7 +17713,7 @@ return
 m_
 ;
 }
-ExclusiveContext
+JSContext
 *
 cx
 (
@@ -48071,7 +48071,7 @@ static
 SharedModule
 CheckModule
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser
@@ -53226,7 +53226,7 @@ JSFunction
 *
 NewAsmJSModuleFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSFunction
@@ -55016,7 +55016,7 @@ true
 struct
 ScopedCacheEntryOpenedForWrite
 {
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -55033,7 +55033,7 @@ handle
 ;
 ScopedCacheEntryOpenedForWrite
 (
-ExclusiveContext
+JSContext
 *
 cx
 size_t
@@ -55088,7 +55088,7 @@ handle
 struct
 ScopedCacheEntryOpenedForRead
 {
-ExclusiveContext
+JSContext
 *
 cx
 ;
@@ -55106,7 +55106,7 @@ handle
 explicit
 ScopedCacheEntryOpenedForRead
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -55173,7 +55173,7 @@ parser
 Module
 &
 module
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -55494,7 +55494,7 @@ static
 bool
 LookupAsmJSModuleInCache
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser
@@ -56090,28 +56090,22 @@ static
 bool
 NoExceptionPending
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
 {
 return
-!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 |
 |
 !
 cx
--
->
-asJSContext
-(
-)
 -
 >
 isExceptionPending
@@ -56184,7 +56178,7 @@ static
 bool
 EstablishPreconditions
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser
@@ -56366,7 +56360,7 @@ static
 UniqueChars
 BuildConsoleMessage
 (
-ExclusiveContext
+JSContext
 *
 cx
 unsigned
@@ -56685,7 +56679,7 @@ js
 :
 CompileAsmJS
 (
-ExclusiveContext
+JSContext
 *
 cx
 AsmJSParser

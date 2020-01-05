@@ -399,6 +399,10 @@ runtimeFromMainThread
 -
 >
 externalStringSizeofCallback
+.
+ref
+(
+)
 )
 {
 /
@@ -1967,7 +1971,7 @@ JSRope
 :
 copyLatin1CharsZ
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopedJSFreePtr
@@ -1997,7 +2001,7 @@ JSRope
 :
 copyTwoByteCharsZ
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopedJSFreePtr
@@ -2027,7 +2031,7 @@ JSRope
 :
 copyLatin1Chars
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopedJSFreePtr
@@ -2057,7 +2061,7 @@ JSRope
 :
 copyTwoByteChars
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopedJSFreePtr
@@ -2092,7 +2096,7 @@ JSRope
 :
 copyCharsInternal
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopedJSFreePtr
@@ -2696,7 +2700,7 @@ JSRope
 :
 flattenInternal
 (
-ExclusiveContext
+JSContext
 *
 maybecx
 )
@@ -4329,7 +4333,7 @@ JSRope
 :
 flattenInternal
 (
-ExclusiveContext
+JSContext
 *
 maybecx
 )
@@ -4368,7 +4372,7 @@ JSRope
 :
 flatten
 (
-ExclusiveContext
+JSContext
 *
 maybecx
 )
@@ -4387,10 +4391,11 @@ if
 maybecx
 &
 &
+!
 maybecx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -4399,11 +4404,6 @@ entry
 emplace
 (
 maybecx
--
->
-asJSContext
-(
-)
 -
 >
 runtime
@@ -4457,7 +4457,7 @@ JSLinearString
 *
 EnsureLinear
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
@@ -4534,7 +4534,7 @@ js
 :
 ConcatStrings
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
@@ -4740,10 +4740,11 @@ if
 canUseInline
 &
 &
+!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -5013,7 +5014,7 @@ ConcatStrings
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleString
@@ -5033,7 +5034,7 @@ ConcatStrings
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSString
@@ -8420,7 +8421,7 @@ JSInlineString
 *
 NewInlineStringDeflated
 (
-ExclusiveContext
+JSContext
 *
 cx
 mozilla
@@ -8539,7 +8540,7 @@ JSFlatString
 *
 TryEmptyOrStaticString
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -8659,7 +8660,7 @@ JSFlatString
 *
 NewStringDeflated
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -8855,7 +8856,7 @@ JSFlatString
 *
 NewStringDeflated
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -8895,7 +8896,7 @@ js
 :
 NewStringDontDeflate
 (
-ExclusiveContext
+JSContext
 *
 cx
 CharT
@@ -9040,7 +9041,7 @@ NewStringDontDeflate
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 char16_t
@@ -9061,7 +9062,7 @@ NewStringDontDeflate
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 char16_t
@@ -9082,7 +9083,7 @@ NewStringDontDeflate
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 Latin1Char
@@ -9103,7 +9104,7 @@ NewStringDontDeflate
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 Latin1Char
@@ -9127,7 +9128,7 @@ js
 :
 NewString
 (
-ExclusiveContext
+JSContext
 *
 cx
 CharT
@@ -9229,7 +9230,7 @@ NewString
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 char16_t
@@ -9250,7 +9251,7 @@ NewString
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 char16_t
@@ -9271,7 +9272,7 @@ NewString
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 Latin1Char
@@ -9292,7 +9293,7 @@ NewString
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 Latin1Char
@@ -9316,7 +9317,7 @@ JSFlatString
 *
 NewStringCopyNDontDeflate
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9484,7 +9485,7 @@ NewStringCopyNDontDeflate
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9503,7 +9504,7 @@ NewStringCopyNDontDeflate
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9522,7 +9523,7 @@ NewStringCopyNDontDeflate
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9541,7 +9542,7 @@ NewStringCopyNDontDeflate
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9556,7 +9557,7 @@ JSFlatString
 *
 NewLatin1StringZ
 (
-ExclusiveContext
+JSContext
 *
 cx
 UniqueChars
@@ -9627,7 +9628,7 @@ JSFlatString
 *
 NewStringCopyN
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9687,7 +9688,7 @@ NewStringCopyN
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9706,7 +9707,7 @@ NewStringCopyN
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9725,7 +9726,7 @@ NewStringCopyN
 CanGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -9744,7 +9745,7 @@ NewStringCopyN
 NoGC
 >
 (
-ExclusiveContext
+JSContext
 *
 cx
 const

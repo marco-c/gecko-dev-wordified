@@ -306,7 +306,7 @@ using
 js
 :
 :
-FutexRuntime
+FutexThread
 ;
 InitState
 JS
@@ -648,15 +648,12 @@ CheckMessageParameterCounts
 ;
 #
 endif
-using
+RETURN_IF_FAIL
+(
 js
 :
 :
-TlsPerThreadData
-;
-RETURN_IF_FAIL
-(
-TlsPerThreadData
+TlsContext
 .
 init
 (
@@ -828,7 +825,7 @@ CreateHelperThreadsState
 ;
 RETURN_IF_FAIL
 (
-FutexRuntime
+FutexThread
 :
 :
 initialize
@@ -970,7 +967,7 @@ n
 }
 #
 endif
-FutexRuntime
+FutexThread
 :
 :
 destroy

@@ -6054,6 +6054,8 @@ cx
 -
 >
 caches
+(
+)
 .
 nativeIterCache
 .
@@ -6370,6 +6372,8 @@ cx
 -
 >
 caches
+(
+)
 .
 nativeIterCache
 .
@@ -6479,7 +6483,6 @@ somewhere
 .
 AssertHeapIsIdle
 (
-cx
 )
 ;
 RootedObject

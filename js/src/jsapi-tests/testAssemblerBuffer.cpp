@@ -4580,6 +4580,11 @@ alloc
 cx
 -
 >
+runtime
+(
+)
+-
+>
 getJitRuntime
 (
 cx

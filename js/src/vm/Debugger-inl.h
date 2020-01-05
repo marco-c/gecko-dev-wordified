@@ -393,11 +393,6 @@ isDebuggee
 cx
 -
 >
-runtime
-(
-)
--
->
 noExecuteDebuggerTop
 )
 return

@@ -513,7 +513,7 @@ Shape
 *
 EmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -578,7 +578,7 @@ Shape
 *
 NextEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -691,6 +691,8 @@ zone
 -
 >
 propertyTree
+(
+)
 .
 getChild
 (
@@ -705,7 +707,7 @@ Shape
 *
 CreateEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 BindingIter
@@ -859,7 +861,7 @@ Data
 >
 CopyScopeData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -1082,7 +1084,7 @@ Data
 >
 CopyScopeData
 (
-ExclusiveContext
+JSContext
 *
 cx
 BindingIter
@@ -1268,7 +1270,7 @@ Data
 >
 NewEmptyScopeData
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -1358,7 +1360,7 @@ BindingName
 bindingName
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1459,7 +1461,7 @@ BindingName
 bindingName
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1586,7 +1588,7 @@ MOZ_ASSERT
 data
 )
 ;
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1766,7 +1768,7 @@ Scope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -1827,7 +1829,7 @@ Scope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -3079,7 +3081,7 @@ LexicalScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -3332,7 +3334,7 @@ LexicalScope
 :
 getEmptyExtensibleEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -3394,7 +3396,7 @@ MutableHandleScope
 scope
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -3722,7 +3724,7 @@ FunctionScope
 :
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -3799,7 +3801,7 @@ FunctionScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4125,7 +4127,7 @@ FunctionScope
 :
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool
@@ -4432,7 +4434,7 @@ MutableHandleScope
 scope
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -4827,7 +4829,7 @@ VarScope
 :
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4915,7 +4917,7 @@ VarScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -5122,7 +5124,7 @@ VarScope
 :
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -5225,7 +5227,7 @@ MutableHandleScope
 scope
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -5560,7 +5562,7 @@ GlobalScope
 :
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -5659,7 +5661,7 @@ GlobalScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -5938,7 +5940,7 @@ XDR_DECODE
 scope
 )
 ;
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -6205,7 +6207,7 @@ WithScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -6273,7 +6275,7 @@ EvalScope
 :
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -6364,7 +6366,7 @@ EvalScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -6643,7 +6645,7 @@ EvalScope
 :
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -6702,7 +6704,7 @@ MutableHandleScope
 scope
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -6927,7 +6929,7 @@ ModuleScope
 :
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -6993,7 +6995,7 @@ ModuleScope
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -7242,7 +7244,7 @@ ModuleScope
 :
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -7544,7 +7546,7 @@ WasmFunctionScope
 :
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

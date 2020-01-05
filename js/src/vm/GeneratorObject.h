@@ -305,7 +305,7 @@ inline
 ResumeKind
 getResumeKind
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSAtom

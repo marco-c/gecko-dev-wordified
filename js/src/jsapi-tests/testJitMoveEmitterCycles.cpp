@@ -1100,6 +1100,11 @@ alloc
 cx
 -
 >
+runtime
+(
+)
+-
+>
 getJitRuntime
 (
 cx
@@ -1551,6 +1556,11 @@ alloc
 )
 ;
 cx
+-
+>
+runtime
+(
+)
 -
 >
 getJitRuntime
@@ -2983,6 +2993,11 @@ alloc
 )
 ;
 cx
+-
+>
+runtime
+(
+)
 -
 >
 getJitRuntime
@@ -4619,6 +4634,11 @@ alloc
 )
 ;
 cx
+-
+>
+runtime
+(
+)
 -
 >
 getJitRuntime

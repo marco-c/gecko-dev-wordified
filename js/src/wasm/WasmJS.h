@@ -480,7 +480,7 @@ methods
 bool
 HasCompilerSupport
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -499,7 +499,7 @@ platform
 bool
 HasSupport
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -847,7 +847,7 @@ WasmModuleObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 wasm
@@ -1485,7 +1485,7 @@ WasmMemoryObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle

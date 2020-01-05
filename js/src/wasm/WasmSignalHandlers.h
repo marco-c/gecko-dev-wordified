@@ -219,6 +219,9 @@ Thread
 h
 "
 struct
+JSContext
+;
+struct
 JSRuntime
 ;
 namespace
@@ -387,7 +390,7 @@ thread
 /
 /
 per
-JSRuntime
+JSContext
 (
 upon
 the
@@ -399,7 +402,7 @@ asm
 js
 in
 the
-JSRuntime
+JSContext
 )
 .
 This
@@ -419,7 +422,7 @@ owned
 /
 /
 by
-JSRuntime
+JSContext
 .
 class
 MachExceptionHandler

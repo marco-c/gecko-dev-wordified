@@ -154,12 +154,12 @@ h
 class
 JSString
 ;
+struct
+JSContext
+;
 namespace
 js
 {
-class
-ExclusiveContext
-;
 class
 LifoAlloc
 ;
@@ -205,7 +205,7 @@ buffer
 allocated
 with
 an
-ExclusiveContext
+JSContext
 or
 a
 link
@@ -481,7 +481,7 @@ checkInvariants
 }
 }
 ;
-ExclusiveContext
+JSContext
 *
 context
 ;
@@ -576,7 +576,7 @@ public
 explicit
 Sprinter
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool
@@ -1154,7 +1154,7 @@ using
 an
 /
 /
-ExclusiveContext
+JSContext
 to
 allocate
 strings
@@ -1585,7 +1585,7 @@ JSString
 *
 QuoteString
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSString

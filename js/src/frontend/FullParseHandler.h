@@ -666,7 +666,7 @@ node
 }
 FullParseHandler
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -786,7 +786,7 @@ const
 TokenPos
 &
 pos
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -5849,7 +5849,7 @@ isEvalAnyParentheses
 ParseNode
 *
 node
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -5888,7 +5888,7 @@ nameIsArgumentsEvalAnyParentheses
 ParseNode
 *
 node
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -5952,7 +5952,7 @@ isAsyncKeyword
 ParseNode
 *
 node
-ExclusiveContext
+JSContext
 *
 cx
 )

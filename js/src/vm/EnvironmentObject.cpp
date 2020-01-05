@@ -3269,7 +3269,7 @@ ModuleEnvironmentObject
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleModuleObject
@@ -24645,6 +24645,8 @@ cx
 -
 >
 caches
+(
+)
 .
 envCoordinateNameCache
 script

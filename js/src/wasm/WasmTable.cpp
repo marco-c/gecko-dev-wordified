@@ -205,6 +205,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance
@@ -1089,6 +1096,11 @@ JSRuntime
 rt
 =
 cx
+-
+>
+runtime
+(
+)
 ;
 /
 /

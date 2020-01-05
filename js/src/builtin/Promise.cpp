@@ -17689,6 +17689,11 @@ promise
 runtime_
 (
 cx
+-
+>
+runtime
+(
+)
 )
 promise_
 (
@@ -17733,6 +17738,11 @@ cx
 MOZ_ASSERT
 (
 cx
+-
+>
+runtime
+(
+)
 =
 =
 runtime_
@@ -17826,6 +17836,11 @@ cx
 MOZ_ASSERT
 (
 cx
+-
+>
+runtime
+(
+)
 =
 =
 runtime_

@@ -489,7 +489,7 @@ endif
 bool
 insertChild
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape
@@ -586,7 +586,7 @@ Shape
 *
 getChild
 (
-ExclusiveContext
+JSContext
 *
 cx
 Shape

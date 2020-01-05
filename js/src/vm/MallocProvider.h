@@ -374,13 +374,8 @@ GC
 .
 *
 -
-ThreadsafeContext
->
-ExclusiveContext
->
 JSContext
 :
-*
 Dispatches
 directly
 to

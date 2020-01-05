@@ -482,9 +482,9 @@ necessary
 explicit
 RegExpStackScope
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /

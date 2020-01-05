@@ -328,7 +328,7 @@ ArrayObject
 JS_FASTCALL
 NewDenseUnallocatedArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -382,7 +382,7 @@ ArrayObject
 JS_FASTCALL
 NewDensePartlyAllocatedArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -426,7 +426,7 @@ ArrayObject
 JS_FASTCALL
 NewDenseFullyAllocatedArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -463,7 +463,7 @@ ArrayObject
 *
 NewDenseCopiedArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -569,7 +569,7 @@ JSObject
 *
 NewFullyAllocatedArrayTryUseGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -587,7 +587,7 @@ JSObject
 *
 NewPartlyAllocatedArrayTryUseGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -670,7 +670,7 @@ extern
 bool
 MaybeAnalyzeBeforeCreatingLargeArray
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -688,7 +688,7 @@ JSObject
 *
 NewCopiedArrayTryUseGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup

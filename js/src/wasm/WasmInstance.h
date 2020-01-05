@@ -381,7 +381,7 @@ void
 AddressOf
 (
 SymbolicAddress
-ExclusiveContext
+JSContext
 *
 )
 ;

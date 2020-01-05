@@ -15114,7 +15114,6 @@ closure
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -15197,7 +15196,6 @@ transferable
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST
@@ -15282,7 +15280,6 @@ closure
 {
 AssertHeapIsIdle
 (
-cx
 )
 ;
 CHECK_REQUEST

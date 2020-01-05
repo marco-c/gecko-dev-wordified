@@ -6278,7 +6278,7 @@ bindings
 firstFrameSlot
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -6650,7 +6650,7 @@ createScope
 funbox
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -6994,7 +6994,7 @@ createScope
 firstFrameSlot
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -7654,7 +7654,7 @@ createScope
 funbox
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -8028,7 +8028,7 @@ funbox
 firstFrameSlot
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -8407,7 +8407,7 @@ createScope
 [
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -8679,7 +8679,7 @@ createScope
 globalsc
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -8826,7 +8826,7 @@ createScope
 evalsc
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -9470,7 +9470,7 @@ createScope
 modulesc
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -9584,7 +9584,7 @@ createScope
 [
 ]
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -21097,7 +21097,7 @@ BytecodeEmitter
 :
 tellDebuggerAboutCompiledScript
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -21131,11 +21131,10 @@ thread
 .
 if
 (
-!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -21181,22 +21180,15 @@ LazyFunction
 !
 parent
 )
-{
 Debugger
 :
 :
 onNewScript
 (
 cx
--
->
-asJSContext
-(
-)
 script
 )
 ;
-}
 }
 inline
 TokenStream
@@ -38061,7 +38053,7 @@ ParseNode
 :
 getConstantValue
 (
-ExclusiveContext
+JSContext
 *
 cx
 AllowConstantObjects
@@ -54447,7 +54439,7 @@ SelfHostedCallFunctionName
 JSAtom
 *
 name
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -65194,7 +65186,7 @@ static
 bool
 AllocSrcNote
 (
-ExclusiveContext
+JSContext
 *
 cx
 SrcNotesVector

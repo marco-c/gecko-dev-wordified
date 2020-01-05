@@ -2121,6 +2121,11 @@ range
 init
 (
 cx
+-
+>
+runtime
+(
+)
 ptr
 JS
 :
@@ -2860,6 +2865,11 @@ EdgeVectorTracer
 tracer
 (
 cx
+-
+>
+runtime
+(
+)
 &
 edges
 wantNames
@@ -2888,7 +2898,6 @@ noGC
 .
 emplace
 (
-cx
 )
 ;
 return
@@ -2913,6 +2922,11 @@ EdgeVectorTracer
 tracer
 (
 cx
+-
+>
+runtime
+(
+)
 &
 allRootEdges
 wantNames
@@ -3133,7 +3147,6 @@ noGC
 .
 emplace
 (
-cx
 )
 ;
 return

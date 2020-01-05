@@ -1650,6 +1650,8 @@ runtime
 gc
 .
 stats
+(
+)
 .
 getMaxGCPauseSinceClear
 (
@@ -1706,6 +1708,8 @@ runtime
 gc
 .
 stats
+(
+)
 .
 clearMaxGCPauseAccumulator
 (

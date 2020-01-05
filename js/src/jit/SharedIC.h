@@ -7965,9 +7965,9 @@ Register
 scratch
 LiveGeneralRegisterSet
 saveRegs
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 class

@@ -2317,11 +2317,6 @@ return
 cx
 -
 >
-runtime
-(
-)
--
->
 interpreterStack
 (
 )
@@ -2348,11 +2343,6 @@ cx
 {
 return
 cx
--
->
-runtime
-(
-)
 -
 >
 interpreterStack
@@ -2461,13 +2451,6 @@ so
 cx
 -
 >
-runtime
-(
-)
--
->
-gc
-.
 verifyIsSafeToGC
 (
 )
@@ -13117,6 +13100,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 exit
 (
@@ -18798,6 +18783,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 updatePC
 (
@@ -19082,6 +19069,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 updatePC
 (
@@ -21298,6 +21287,8 @@ cx
 -
 >
 caches
+(
+)
 .
 envCoordinateNameCache
 script
@@ -32109,6 +32100,8 @@ cx
 -
 >
 caches
+(
+)
 .
 envCoordinateNameCache
 script

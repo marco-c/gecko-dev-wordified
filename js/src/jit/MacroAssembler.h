@@ -5170,13 +5170,13 @@ of
 the
 stack
 into
-PerThreadData
+JSontext
 :
 :
 jitTop
 of
 the
-main
+current
 thread
 /
 /

@@ -386,6 +386,13 @@ MatchPairs
 .
 h
 "
+#
+include
+"
+jscntxtinlines
+.
+h
+"
 using
 namespace
 js

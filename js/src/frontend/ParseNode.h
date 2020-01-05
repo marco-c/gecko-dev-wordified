@@ -5127,7 +5127,7 @@ MOZ_MUST_USE
 bool
 getConstantValue
 (
-ExclusiveContext
+JSContext
 *
 cx
 AllowConstantObjects
@@ -7502,7 +7502,7 @@ MOZ_MUST_USE
 bool
 getRawArrayValue
 (
-ExclusiveContext
+JSContext
 *
 cx
 MutableHandleValue
@@ -8161,7 +8161,7 @@ public
 explicit
 ParseNodeAllocator
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -8216,7 +8216,7 @@ pn
 ;
 private
 :
-ExclusiveContext
+JSContext
 *
 cx
 ;

@@ -372,16 +372,6 @@ temp
 ;
 JitContext
 (
-ExclusiveContext
-*
-cx
-TempAllocator
-*
-temp
-)
-;
-JitContext
-(
 CompileRuntime
 *
 rt

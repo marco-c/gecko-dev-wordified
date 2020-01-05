@@ -176,7 +176,7 @@ JSScript
 *
 CompileGlobalScript
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -208,7 +208,7 @@ JSScript
 *
 CompileEvalScript
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -258,7 +258,7 @@ ModuleObject
 *
 CompileModule
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -549,7 +549,7 @@ ScriptSourceObject
 *
 CreateScriptSourceObject
 (
-ExclusiveContext
+JSContext
 *
 cx
 const

@@ -440,7 +440,7 @@ ObjectGroup
 :
 setShouldPreTenure
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

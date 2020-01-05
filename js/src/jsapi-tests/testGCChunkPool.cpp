@@ -211,6 +211,11 @@ Chunk
 allocate
 (
 cx
+-
+>
+runtime
+(
+)
 )
 ;
 CHECK
@@ -533,6 +538,11 @@ AutoLockGC
 lock
 (
 cx
+-
+>
+runtime
+(
+)
 )
 ;
 for

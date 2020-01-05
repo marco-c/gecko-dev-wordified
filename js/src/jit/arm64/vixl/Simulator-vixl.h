@@ -470,10 +470,6 @@ if
 cx
 -
 >
-mainThread
-(
-)
-.
 simulator
 (
 )

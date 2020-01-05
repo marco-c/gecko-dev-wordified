@@ -394,10 +394,7 @@ Symbol
 *
 newInternal
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 SymbolCode
@@ -425,10 +422,7 @@ Symbol
 *
 new_
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 SymbolCode
@@ -443,10 +437,7 @@ Symbol
 *
 for_
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 js

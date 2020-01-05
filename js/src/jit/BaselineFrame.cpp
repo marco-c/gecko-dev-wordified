@@ -934,7 +934,9 @@ JSContext
 *
 cx
 =
-GetJSContextFromMainThread
+TlsContext
+.
+get
 (
 )
 ;

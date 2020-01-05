@@ -225,15 +225,6 @@ onMainThread
 (
 )
 ;
-js
-:
-:
-PerThreadData
-*
-mainThread
-(
-)
-;
 /
 /
 &

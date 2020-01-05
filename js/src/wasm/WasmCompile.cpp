@@ -641,7 +641,7 @@ CompileArgs
 :
 initFromContext
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScriptedCaller

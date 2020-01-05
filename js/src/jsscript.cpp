@@ -559,7 +559,7 @@ MutableHandleValue
 vp
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1217,7 +1217,7 @@ LazyScript
 lazy
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1428,7 +1428,7 @@ numInnerFunctions
 )
 )
 ;
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -1961,7 +1961,7 @@ bodyScopeIndex
 =
 0
 ;
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -3405,11 +3405,6 @@ xdr
 cx
 (
 )
--
->
-asJSContext
-(
-)
 )
 ;
 (
@@ -3631,11 +3626,6 @@ ScriptSourceObject
 initFromOptions
 (
 cx
--
->
-asJSContext
-(
-)
 sourceObject
 *
 options
@@ -6197,10 +6187,11 @@ if
 fun
 &
 &
+!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 )
@@ -6210,11 +6201,6 @@ Debugger
 onNewScript
 (
 cx
--
->
-asJSContext
-(
-)
 script
 )
 ;
@@ -6290,7 +6276,7 @@ LazyScript
 lazy
 )
 {
-ExclusiveContext
+JSContext
 *
 cx
 =
@@ -8745,6 +8731,8 @@ runtime
 -
 >
 lcovOutput
+(
+)
 .
 isEnabled
 (
@@ -8902,7 +8890,7 @@ ScriptSourceObject
 :
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScriptSource
@@ -9397,6 +9385,10 @@ runtime
 -
 >
 sourceHook
+.
+ref
+(
+)
 |
 |
 !
@@ -10282,6 +10274,8 @@ cx
 -
 >
 caches
+(
+)
 .
 uncompressedSourceCache
 .
@@ -10450,6 +10444,8 @@ cx
 -
 >
 caches
+(
+)
 .
 uncompressedSourceCache
 .
@@ -11252,7 +11248,7 @@ ScriptSource
 :
 setSource
 (
-ExclusiveContext
+JSContext
 *
 cx
 mozilla
@@ -11392,7 +11388,7 @@ ScriptSource
 :
 setCompressedSource
 (
-ExclusiveContext
+JSContext
 *
 cx
 mozilla
@@ -11581,7 +11577,7 @@ ScriptSource
 :
 setSourceCopy
 (
-ExclusiveContext
+JSContext
 *
 cx
 SourceBufferHolder
@@ -12576,7 +12572,7 @@ ScriptSource
 :
 xdrEncodeTopLevel
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -12710,7 +12706,7 @@ ScriptSource
 :
 xdrEncodeFunction
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -13845,7 +13841,7 @@ char
 *
 FormatIntroducedFilename
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -14093,7 +14089,7 @@ ScriptSource
 :
 initFromOptions
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -14295,7 +14291,7 @@ ScriptSource
 :
 setFilename
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -14331,7 +14327,7 @@ ScriptSource
 :
 setDisplayURL
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -14373,10 +14369,11 @@ bug
 .
 if
 (
+!
 cx
 -
 >
-isJSContext
+helperThread
 (
 )
 &
@@ -14385,11 +14382,6 @@ isJSContext
 JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
--
->
-asJSContext
-(
-)
 JSREPORT_WARNING
 GetErrorMessage
 nullptr
@@ -14454,7 +14446,7 @@ ScriptSource
 :
 setSourceMapURL
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -14523,7 +14515,7 @@ SharedScriptData
 :
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -14721,7 +14713,7 @@ JSScript
 :
 createScriptData
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -14893,7 +14885,7 @@ JSScript
 :
 shareScriptData
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -16504,7 +16496,7 @@ JSScript
 :
 initCompartment
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -16514,7 +16506,9 @@ compartment_
 cx
 -
 >
-compartment_
+compartment
+(
+)
 ;
 }
 /
@@ -16529,7 +16523,7 @@ JSScript
 :
 Create
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -16759,7 +16753,7 @@ JSScript
 :
 partiallyInit
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScript
@@ -17459,7 +17453,7 @@ JSScript
 :
 initFunctionPrototype
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -17760,7 +17754,7 @@ JSScript
 :
 initFromFunctionBox
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScript
@@ -18065,7 +18059,7 @@ JSScript
 :
 initFromModuleContext
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScript
@@ -18177,7 +18171,7 @@ JSScript
 :
 fullyInitFromEmitter
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScript
@@ -19667,6 +19661,8 @@ runtime
 -
 >
 lcovOutput
+(
+)
 .
 isEnabled
 (
@@ -19699,6 +19695,8 @@ runtime
 -
 >
 geckoProfiler
+(
+)
 .
 onScriptFinalized
 (
@@ -19769,20 +19767,19 @@ decRefCount
 (
 )
 ;
-fop
--
->
-runtime
+zone
 (
 )
 -
 >
-contextFromMainThread
+group
 (
 )
 -
 >
 caches
+(
+)
 .
 lazyScriptCache
 .
@@ -20302,6 +20299,8 @@ cx
 -
 >
 caches
+(
+)
 .
 gsnCache
 script
@@ -27519,7 +27518,7 @@ LazyScript
 :
 CreateRaw
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -27709,7 +27708,7 @@ LazyScript
 :
 Create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction
@@ -28002,7 +28001,7 @@ LazyScript
 :
 Create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleFunction

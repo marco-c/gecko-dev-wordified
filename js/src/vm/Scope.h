@@ -1023,7 +1023,7 @@ Scope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -1046,7 +1046,7 @@ Scope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -1845,7 +1845,7 @@ LexicalScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -1979,7 +1979,7 @@ Shape
 *
 getEmptyExtensibleEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2553,7 +2553,7 @@ FunctionScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -2624,7 +2624,7 @@ Data
 >
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -2748,7 +2748,7 @@ Shape
 *
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 bool
@@ -3093,7 +3093,7 @@ VarScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -3144,7 +3144,7 @@ Data
 >
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -3224,7 +3224,7 @@ Shape
 *
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -3606,7 +3606,7 @@ GlobalScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -3624,7 +3624,7 @@ GlobalScope
 *
 createEmpty
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -3688,7 +3688,7 @@ Data
 >
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -3866,7 +3866,7 @@ WithScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleScope
@@ -4219,7 +4219,7 @@ EvalScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -4266,7 +4266,7 @@ Data
 >
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScopeKind
@@ -4437,7 +4437,7 @@ Shape
 *
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -4790,7 +4790,7 @@ ModuleScope
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4818,7 +4818,7 @@ Data
 >
 copyData
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -4912,7 +4912,7 @@ Shape
 *
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -5136,7 +5136,7 @@ Shape
 *
 getEmptyEnvironmentShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 )

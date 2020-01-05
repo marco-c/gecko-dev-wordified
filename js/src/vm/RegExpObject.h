@@ -456,7 +456,7 @@ RegExpObject
 *
 RegExpAlloc
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObject
@@ -1460,7 +1460,7 @@ public
 explicit
 RegExpGuard
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1477,7 +1477,7 @@ nullptr
 }
 RegExpGuard
 (
-ExclusiveContext
+JSContext
 *
 cx
 RegExpShared
@@ -2364,7 +2364,7 @@ RegExpObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -2391,7 +2391,7 @@ RegExpObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleAtom
@@ -2451,7 +2451,7 @@ Shape
 *
 assignInitialShape
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -2565,7 +2565,7 @@ d
 void
 zeroLastIndex
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2914,7 +2914,7 @@ HandleAtom
 source
 RegExpFlag
 flags
-ExclusiveContext
+JSContext
 *
 cx
 )

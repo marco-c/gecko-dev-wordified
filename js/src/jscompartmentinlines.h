@@ -240,7 +240,7 @@ AutoCompartment
 :
 AutoCompartment
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSObject
@@ -269,7 +269,9 @@ origin_
 cx
 -
 >
-compartment_
+compartment
+(
+)
 )
 maybeLock_
 (
@@ -299,7 +301,7 @@ AutoCompartment
 :
 AutoCompartment
 (
-ExclusiveContext
+JSContext
 *
 cx
 JSCompartment
@@ -328,7 +330,9 @@ origin_
 cx_
 -
 >
-compartment_
+compartment
+(
+)
 )
 maybeLock_
 (

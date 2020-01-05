@@ -319,7 +319,7 @@ default
 bool
 initFromContext
 (
-ExclusiveContext
+JSContext
 *
 cx
 ScriptedCaller

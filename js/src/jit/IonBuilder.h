@@ -7036,16 +7036,6 @@ compartment
 runtime
 (
 )
--
->
-mainThread
-(
-)
--
->
-runtimeFromMainThread
-(
-)
 )
 ;
 }

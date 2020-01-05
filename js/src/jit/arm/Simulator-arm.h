@@ -3427,11 +3427,6 @@ if
 cx
 -
 >
-runtime
-(
-)
--
->
 simulator
 (
 )

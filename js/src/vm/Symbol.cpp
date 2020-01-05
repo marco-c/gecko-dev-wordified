@@ -191,7 +191,7 @@ Symbol
 :
 newInternal
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -295,7 +295,7 @@ Symbol
 :
 new_
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -434,10 +434,7 @@ Symbol
 :
 for_
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 HandleString

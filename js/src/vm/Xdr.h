@@ -156,7 +156,7 @@ public
 :
 XDRBuffer
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -185,7 +185,7 @@ cursor
 )
 {
 }
-ExclusiveContext
+JSContext
 *
 cx
 (
@@ -387,7 +387,7 @@ cursor_
 }
 private
 :
-ExclusiveContext
+JSContext
 *
 const
 context_
@@ -810,7 +810,7 @@ public
 :
 XDRState
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS
@@ -848,7 +848,7 @@ XDRState
 {
 }
 ;
-ExclusiveContext
+JSContext
 *
 cx
 (
@@ -943,7 +943,7 @@ XDR
 void
 postProcessContextErrors
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -1860,7 +1860,7 @@ Note
 when
 providing
 an
-ExclusiveContext
+JSContext
 where
 isJSContext
 is
@@ -1931,7 +1931,7 @@ pointers
 .
 XDROffThreadDecoder
 (
-ExclusiveContext
+JSContext
 *
 cx
 LifoAlloc
@@ -2538,7 +2538,7 @@ public
 :
 XDRIncrementalEncoder
 (
-ExclusiveContext
+JSContext
 *
 cx
 JS

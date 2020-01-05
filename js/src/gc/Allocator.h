@@ -237,7 +237,7 @@ T
 *
 Allocate
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -254,7 +254,7 @@ JSObject
 *
 Allocate
 (
-ExclusiveContext
+JSContext
 *
 cx
 gc

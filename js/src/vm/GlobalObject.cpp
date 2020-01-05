@@ -4856,7 +4856,7 @@ GlobalObject
 :
 getRegExpStatics
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
@@ -5755,6 +5755,8 @@ zone
 -
 >
 propertyTree
+(
+)
 .
 getChild
 (

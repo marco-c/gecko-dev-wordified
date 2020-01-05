@@ -2541,7 +2541,7 @@ CharBuffer
 ;
 TokenStream
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -3593,7 +3593,7 @@ JSAtom
 *
 atomize
 (
-ExclusiveContext
+JSContext
 *
 cx
 CharBuffer
@@ -6253,7 +6253,7 @@ public
 :
 SourceCoords
 (
-ExclusiveContext
+JSContext
 *
 cx
 uint32_t
@@ -6400,7 +6400,7 @@ names
 )
 ;
 }
-ExclusiveContext
+JSContext
 *
 context
 (
@@ -6579,7 +6579,7 @@ public
 :
 TokenBuf
 (
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -7661,7 +7661,7 @@ definitely
 terminate
 exprs
 ?
-ExclusiveContext
+JSContext
 *
 const
 cx

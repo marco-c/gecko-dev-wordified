@@ -160,7 +160,7 @@ CharT
 *
 ExtractWellSized
 (
-ExclusiveContext
+JSContext
 *
 cx
 Buffer
@@ -492,7 +492,7 @@ JSFlatString
 *
 FinishStringFlat
 (
-ExclusiveContext
+JSContext
 *
 cx
 StringBuffer

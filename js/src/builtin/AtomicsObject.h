@@ -512,7 +512,7 @@ value
 )
 ;
 class
-FutexRuntime
+FutexThread
 {
 friend
 class
@@ -545,7 +545,7 @@ unlock
 (
 )
 ;
-FutexRuntime
+FutexThread
 (
 )
 ;
@@ -745,10 +745,10 @@ result
 Wake
 the
 thread
-represented
-by
 this
-Runtime
+is
+associated
+with
 .
 /
 /
@@ -928,11 +928,11 @@ disabled
 /
 on
 the
-runtime
+thread
 to
 which
 the
-FutexRuntime
+FutexThread
 belongs
 .
 bool
@@ -1156,7 +1156,10 @@ waiting
 is
 allowed
 .
+ThreadLocalData
+<
 bool
+>
 canWait_
 ;
 }

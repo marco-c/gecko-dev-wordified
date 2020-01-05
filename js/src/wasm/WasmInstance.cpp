@@ -2544,6 +2544,9 @@ cx
 >
 stackLimitAddressForJitCode
 (
+JS
+:
+:
 StackForUntrustedScript
 )
 ;
@@ -5768,6 +5771,11 @@ code_
 ensureProfilingState
 (
 cx
+-
+>
+runtime
+(
+)
 newProfilingEnabled
 )
 )

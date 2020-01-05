@@ -153,10 +153,7 @@ JSString
 *
 BooleanToString
 (
-js
-:
-:
-ExclusiveContext
+JSContext
 *
 cx
 bool

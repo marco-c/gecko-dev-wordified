@@ -2680,11 +2680,6 @@ ac
 context
 (
 )
--
->
-asJSContext
-(
-)
 ;
 /
 /

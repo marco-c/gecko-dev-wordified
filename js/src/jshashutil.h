@@ -213,7 +213,7 @@ Lookup
 DependentAddPtr
 (
 const
-ExclusiveContext
+JSContext
 *
 cx
 const
@@ -283,7 +283,7 @@ ValueInput
 bool
 add
 (
-ExclusiveContext
+JSContext
 *
 cx
 T
@@ -340,7 +340,7 @@ KeyInput
 void
 remove
 (
-ExclusiveContext
+JSContext
 *
 cx
 T
@@ -441,7 +441,7 @@ KeyInput
 void
 refreshAddPtr
 (
-ExclusiveContext
+JSContext
 *
 cx
 T
@@ -526,7 +526,7 @@ auto
 MakeDependentAddPtr
 (
 const
-ExclusiveContext
+JSContext
 *
 cx
 T

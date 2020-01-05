@@ -494,7 +494,7 @@ WasmReportOverRecursed
 {
 ReportOverRecursed
 (
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -518,7 +518,7 @@ WasmActivation
 *
 activation
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -611,7 +611,7 @@ WasmActivation
 *
 activation
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1072,7 +1072,7 @@ WasmActivation
 *
 activation
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1332,7 +1332,7 @@ JSContext
 *
 cx
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1517,7 +1517,7 @@ JSContext
 *
 cx
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1548,7 +1548,7 @@ JSContext
 *
 cx
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1581,7 +1581,7 @@ JSContext
 *
 cx
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -1636,7 +1636,7 @@ JSContext
 *
 cx
 =
-JSRuntime
+JSContext
 :
 :
 innermostWasmActivation
@@ -2211,7 +2211,7 @@ AddressOf
 (
 SymbolicAddress
 imm
-ExclusiveContext
+JSContext
 *
 cx
 )
@@ -2231,7 +2231,12 @@ return
 cx
 -
 >
-contextAddressForJit
+runtime
+(
+)
+-
+>
+unsafeContextFromAnyThread
 (
 )
 ;
@@ -2242,12 +2247,21 @@ SymbolicAddress
 InterruptUint32
 :
 return
+&
 cx
 -
 >
-runtimeAddressOfInterruptUint32
+runtime
 (
 )
+-
+>
+unsafeContextFromAnyThread
+(
+)
+-
+>
+interrupt_
 ;
 case
 SymbolicAddress
@@ -4947,7 +4961,7 @@ Assumptions
 :
 initBuildIdFromContext
 (
-ExclusiveContext
+JSContext
 *
 cx
 )
