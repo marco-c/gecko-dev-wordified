@@ -878,6 +878,9 @@ connector
 :
 create_http_connector
 (
+"
+certs
+"
 )
 }
 ;
@@ -951,6 +954,9 @@ connector
 :
 create_http_connector
 (
+"
+certs
+"
 )
 }
 ;

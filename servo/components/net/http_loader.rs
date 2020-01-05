@@ -709,6 +709,10 @@ pub
 fn
 new
 (
+certificate_path
+:
+&
+str
 )
 -
 >
@@ -790,6 +794,7 @@ connector_pool
 :
 create_http_connector
 (
+certificate_path
 )
 }
 }
