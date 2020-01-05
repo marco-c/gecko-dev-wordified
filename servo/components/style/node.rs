@@ -92,12 +92,6 @@ properties
 PropertyDeclaration
 ;
 use
-smallvec
-:
-:
-VecLike
-;
-use
 selectors
 :
 :
@@ -105,6 +99,12 @@ matching
 :
 :
 DeclarationBlock
+;
+use
+smallvec
+:
+:
+VecLike
 ;
 use
 string_cache

@@ -80,6 +80,12 @@ as
 SelectorParserContext
 ;
 use
+stylesheets
+:
+:
+Origin
+;
+use
 url
 :
 :
@@ -87,12 +93,6 @@ url
 Url
 UrlParser
 }
-;
-use
-stylesheets
-:
-:
-Origin
 ;
 pub
 struct

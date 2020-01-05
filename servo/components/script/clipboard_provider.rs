@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+ipc_channel
+:
+:
+ipc
+;
+use
 msg
 :
 :
@@ -75,12 +81,6 @@ constellation_msg
 Msg
 as
 ConstellationMsg
-;
-use
-ipc_channel
-:
-:
-ipc
 ;
 use
 std

@@ -175,6 +175,12 @@ window
 Window
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 util
 :
 :
@@ -182,12 +188,6 @@ str
 :
 :
 DOMString
-;
-use
-string_cache
-:
-:
-Atom
 ;
 #
 [

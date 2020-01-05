@@ -90,12 +90,6 @@ font_template
 FontTemplateData
 ;
 use
-string_cache
-:
-:
-Atom
-;
-use
 std
 :
 :
@@ -106,6 +100,12 @@ sync
 Arc
 Weak
 }
+;
+use
+string_cache
+:
+:
+Atom
 ;
 use
 style

@@ -82,12 +82,6 @@ UnscannedTextFragmentInfo
 }
 ;
 use
-inline
-:
-:
-InlineFragments
-;
-use
 gfx
 :
 :
@@ -161,6 +155,12 @@ util
 self
 CompressionMode
 }
+;
+use
+inline
+:
+:
+InlineFragments
 ;
 use
 std

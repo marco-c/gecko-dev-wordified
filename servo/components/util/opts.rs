@@ -80,12 +80,6 @@ line
 arguments
 .
 use
-geometry
-:
-:
-ScreenPx
-;
-use
 euclid
 :
 :
@@ -96,6 +90,12 @@ size
 Size2D
 TypedSize2D
 }
+;
+use
+geometry
+:
+:
+ScreenPx
 ;
 use
 getopts

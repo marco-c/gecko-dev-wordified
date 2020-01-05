@@ -85,6 +85,9 @@ html
 /
 rfc6265
 use
+cookie_rs
+;
+use
 net_traits
 :
 :
@@ -95,9 +98,6 @@ pub_domains
 :
 :
 PUB_DOMAINS
-;
-use
-cookie_rs
 ;
 use
 std
