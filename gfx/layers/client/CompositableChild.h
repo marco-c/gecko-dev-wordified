@@ -211,8 +211,6 @@ Init
 CompositableClient
 *
 aCompositable
-uint64_t
-aAsyncID
 )
 ;
 virtual
@@ -247,16 +245,6 @@ AsAsyncCompositableChild
 {
 return
 nullptr
-;
-}
-uint64_t
-GetAsyncID
-(
-)
-const
-{
-return
-mAsyncID
 ;
 }
 /
@@ -304,9 +292,6 @@ protected
 CompositableClient
 *
 mCompositableClient
-;
-uint64_t
-mAsyncID
 ;
 bool
 mCanSend

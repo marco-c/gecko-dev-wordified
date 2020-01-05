@@ -314,6 +314,10 @@ AssertInForwarderThread
 (
 )
 ;
+mAsyncID
+=
+aAsyncID
+;
 mCompositableChild
 =
 static_cast
@@ -331,7 +335,6 @@ mCompositableChild
 Init
 (
 this
-aAsyncID
 )
 ;
 }
@@ -422,6 +425,10 @@ aForwarder
 mTextureFlags
 (
 aTextureFlags
+)
+mAsyncID
+(
+0
 )
 {
 }
@@ -668,12 +675,7 @@ mCompositableChild
 )
 {
 return
-mCompositableChild
--
->
-GetAsyncID
-(
-)
+mAsyncID
 ;
 }
 return
