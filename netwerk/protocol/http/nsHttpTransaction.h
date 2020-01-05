@@ -1396,6 +1396,14 @@ return
 mTopLevelOuterContentWindowId
 ;
 }
+void
+SetFastOpenStatus
+(
+uint8_t
+aStatus
+)
+override
+;
 private
 :
 friend
@@ -2782,6 +2790,9 @@ EARLY_SENT
 EARLY_ACCEPTED
 }
 mEarlyDataDisposition
+;
+uint8_t
+mFastOpenStatus
 ;
 }
 ;

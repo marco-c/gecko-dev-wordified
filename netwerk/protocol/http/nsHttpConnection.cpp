@@ -15484,6 +15484,14 @@ if
 mSpdySession
 )
 {
+mTransaction
+-
+>
+SetFastOpenStatus
+(
+TFO_FAILED
+)
+;
 Unused
 <
 <

@@ -1833,6 +1833,15 @@ aAlpnChanged
 override
 final
 ;
+void
+SetFastOpenStatus
+(
+uint8_t
+aStatus
+)
+override
+final
+;
 /
 /
 For
