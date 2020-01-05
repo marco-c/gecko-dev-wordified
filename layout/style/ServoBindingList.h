@@ -1209,6 +1209,11 @@ extra_data
 MediaList
 SERVO_BINDING_FUNC
 (
+Servo_MediaList_Create
+RawServoMediaListStrong
+)
+SERVO_BINDING_FUNC
+(
 Servo_MediaList_GetText
 void
 RawServoMediaListBorrowed
