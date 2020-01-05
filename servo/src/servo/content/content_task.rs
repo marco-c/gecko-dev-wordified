@@ -2060,6 +2060,7 @@ ResizeEvent
 (
 new_width
 new_height
+response_chan
 )
 =
 >
@@ -2142,6 +2143,14 @@ get
 ;
 }
 }
+response_chan
+.
+send
+(
+(
+)
+)
+;
 return
 true
 ;
