@@ -362,7 +362,7 @@ tab
 .
 mTabStrip
 .
-assertTabCount
+assertTabCountIs
 (
 1
 )
