@@ -198,6 +198,11 @@ GuardIsProxy
 \
 _
 (
+GuardIsCrossCompartmentWrapper
+)
+\
+_
+(
 GuardNotDOMProxy
 )
 \
@@ -239,6 +244,11 @@ LoadProto
 _
 (
 LoadEnclosingEnvironment
+)
+\
+_
+(
+LoadWrapperTarget
 )
 \
 _
@@ -319,6 +329,11 @@ LoadUnboxedArrayElementResult
 _
 (
 LoadTypedElementResult
+)
+\
+_
+(
+WrapResult
 )
 /
 /
