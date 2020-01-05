@@ -1023,6 +1023,15 @@ c_str
 )
 )
 ;
+NS_SetCurrentThreadName
+(
+name_
+.
+c_str
+(
+)
+)
+;
 message_loop
 .
 set_thread_name
