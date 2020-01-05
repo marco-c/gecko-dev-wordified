@@ -1141,6 +1141,9 @@ addLogin
 loginClone
 )
 ;
+return
+loginClone
+;
 }
 removeLogin
 (
