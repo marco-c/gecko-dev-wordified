@@ -1472,6 +1472,9 @@ cargo
 exceptions
 =
 [
+"
+libc
+"
 ]
     
 while

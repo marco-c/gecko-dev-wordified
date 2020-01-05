@@ -191,6 +191,8 @@ match
 def
 .
 fields
+(
+)
 .
 iter
 (
@@ -398,6 +400,8 @@ field_name
 def
 .
 fields
+(
+)
 [
 0
 ]

@@ -370,8 +370,6 @@ utf16_chars
 len
 (
 )
-as
-u64
 value
 1
 )
