@@ -124,10 +124,7 @@ properties
 longhands
 ;
 use
-util
-:
-:
-geometry
+style_traits
 :
 :
 ViewportPx

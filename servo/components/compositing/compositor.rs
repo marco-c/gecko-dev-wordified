@@ -499,6 +499,15 @@ viewport
 ViewportConstraints
 ;
 use
+style_traits
+:
+:
+{
+PagePx
+ViewportPx
+}
+;
+use
 surface_map
 :
 :
@@ -535,11 +544,7 @@ util
 geometry
 :
 :
-{
-PagePx
 ScreenPx
-ViewportPx
-}
 ;
 use
 util
