@@ -743,6 +743,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+AndroidCompositorWidget
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

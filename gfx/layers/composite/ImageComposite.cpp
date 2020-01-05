@@ -97,6 +97,16 @@ ImageComposite
 .
 h
 "
+/
+/
+this
+is
+also
+defined
+in
+ImageHost
+.
+cpp
 #
 define
 BIAS_TIME_MS
@@ -859,3 +869,6 @@ layers
 /
 namespace
 mozilla
+#
+undef
+BIAS_TIME_MS
