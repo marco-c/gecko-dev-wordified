@@ -2193,8 +2193,6 @@ popupURL
 if
 (
 !
-this
-.
 blockParser
 )
 {
