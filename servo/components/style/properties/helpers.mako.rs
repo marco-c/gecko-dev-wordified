@@ -3462,8 +3462,6 @@ gecko
 :
 _cx
 .
-style
-.
 cached_system_font
 .
 as_ref
