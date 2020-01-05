@@ -10208,12 +10208,6 @@ getAppEventDispatcher
 )
 ;
 public
-String
-getDefaultUAString
-(
-)
-;
-public
 void
 addPluginView
 (
