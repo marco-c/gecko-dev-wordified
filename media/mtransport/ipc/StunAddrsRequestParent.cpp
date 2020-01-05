@@ -244,9 +244,6 @@ STS
 thread
 NrIceStunAddrArray
 addrs
-;
-/
-/
 =
 NrIceCtx
 :
