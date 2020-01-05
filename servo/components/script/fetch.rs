@@ -1221,8 +1221,7 @@ process_response_chunk
 &
 mut
 self
-mut
-chunk
+_chunk
 :
 Vec
 <
@@ -1260,7 +1259,7 @@ process_response_eof
 &
 mut
 self
-response
+_response
 :
 Result
 <
