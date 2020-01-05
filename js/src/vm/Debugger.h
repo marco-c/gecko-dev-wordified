@@ -11534,6 +11534,13 @@ firstBreakpoint
 )
 const
 ;
+virtual
+~
+BreakpointSite
+(
+)
+{
+}
 bool
 hasBreakpoint
 (
