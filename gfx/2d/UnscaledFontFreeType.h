@@ -197,7 +197,10 @@ if
 mOwnsFace
 )
 {
-FT_Done_Face
+Factory
+:
+:
+ReleaseFTFace
 (
 mFace
 )
