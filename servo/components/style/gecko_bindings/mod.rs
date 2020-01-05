@@ -69,10 +69,6 @@ pub
 mod
 bindings
 ;
-pub
-mod
-ptr
-;
 /
 /
 FIXME

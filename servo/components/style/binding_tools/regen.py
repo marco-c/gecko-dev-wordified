@@ -1642,6 +1642,9 @@ RawGeckoDocument
 "
 nsString
 "
+"
+nsStyleQuoteValues
+"
         
 ]
         
