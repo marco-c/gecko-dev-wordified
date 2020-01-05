@@ -135,6 +135,13 @@ util
 .
 Log
 ;
+import
+java
+.
+util
+.
+Arrays
+;
 /
 /
 BaseTable
@@ -324,7 +331,12 @@ log
 query
 "
 +
+Arrays
+.
+toString
+(
 columns
+)
 +
 "
 in
