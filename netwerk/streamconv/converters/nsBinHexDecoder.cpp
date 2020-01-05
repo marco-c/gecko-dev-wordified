@@ -1568,6 +1568,17 @@ break
 case
 BINHEX_STATE_FNAME
 :
+if
+(
+mCount
+<
+mName
+.
+Length
+(
+)
+)
+{
 mName
 .
 BeginWriting
@@ -1579,6 +1590,7 @@ mCount
 =
 c
 ;
+}
 if
 (
 +
