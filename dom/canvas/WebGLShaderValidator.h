@@ -142,7 +142,7 @@ ShHandle
 mHandle
 ;
 const
-int
+ShCompileOptions
 mCompileOptions
 ;
 const
@@ -169,7 +169,7 @@ const
 ShBuiltInResources
 &
 resources
-int
+ShCompileOptions
 compileOptions
 )
 ;
@@ -179,7 +179,7 @@ ShaderValidator
 (
 ShHandle
 handle
-int
+ShCompileOptions
 compileOptions
 int
 maxVaryingVectors
