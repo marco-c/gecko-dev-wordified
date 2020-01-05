@@ -469,12 +469,6 @@ RangeOffset
 )
 const
 ;
-bool
-IsChar
-(
-)
-const
-;
 protected
 :
 ~
