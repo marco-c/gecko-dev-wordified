@@ -1254,6 +1254,16 @@ key
 )
 )
 ;
+Manager
+(
+)
+-
+>
+AddImageKeyForDiscard
+(
+key
+)
+;
 gfx
 :
 :

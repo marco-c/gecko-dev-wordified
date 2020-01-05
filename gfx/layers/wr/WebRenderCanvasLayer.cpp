@@ -623,6 +623,16 @@ key
 )
 )
 ;
+Manager
+(
+)
+-
+>
+AddImageKeyForDiscard
+(
+key
+)
+;
 aBuilder
 .
 PushStackingContext

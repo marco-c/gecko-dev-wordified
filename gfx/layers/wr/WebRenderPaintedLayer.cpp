@@ -1386,6 +1386,16 @@ PopStackingContext
 (
 )
 ;
+Manager
+(
+)
+-
+>
+AddImageKeyForDiscard
+(
+key
+)
+;
 }
 }
 /
