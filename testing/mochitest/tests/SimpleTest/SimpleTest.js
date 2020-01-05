@@ -5587,7 +5587,6 @@ SimpleTest
 promiseFocus
 =
 function
-*
 (
 targetWindow
 expectBlankPage

@@ -1435,9 +1435,7 @@ let
 message
 =
 await
-(
 setUpPage
-)
 (
 )
 ;
@@ -1682,9 +1680,7 @@ clock
 message
 =
 await
-(
 setUpPage
-)
 (
 )
 ;
@@ -1861,9 +1857,7 @@ clock
 message
 =
 await
-(
 setUpPage
-)
 (
 )
 ;
@@ -1945,9 +1939,7 @@ clock
 message
 =
 await
-(
 setUpPage
-)
 (
 )
 ;

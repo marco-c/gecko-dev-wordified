@@ -1221,9 +1221,7 @@ function
 )
 {
 return
-(
 step
-)
 (
 )
 ;

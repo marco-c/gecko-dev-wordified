@@ -866,13 +866,9 @@ contentSetUp
 )
 ;
 await
-(
 runTests
 (
 newTabBrowser
-)
-)
-(
 )
 ;
 await

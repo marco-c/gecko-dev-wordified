@@ -723,9 +723,7 @@ listener
 )
 ;
 await
-(
 task
-)
 (
 )
 ;

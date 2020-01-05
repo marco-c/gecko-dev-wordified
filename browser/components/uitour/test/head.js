@@ -308,9 +308,7 @@ name
 )
 ;
 return
-(
 fun
-)
 (
 )
 .
@@ -3019,8 +3017,15 @@ funcPromise
 =
 (
 func
-)
 (
+)
+|
+|
+Promise
+.
+resolve
+(
+)
 )
 .
 then

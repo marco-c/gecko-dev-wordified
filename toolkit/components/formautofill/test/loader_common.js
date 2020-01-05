@@ -804,9 +804,7 @@ gTerminationTasks
 try
 {
 await
-(
 taskFn
-)
 (
 )
 ;

@@ -3721,15 +3721,11 @@ desc
 )
 ;
 await
-(
 testCase
 .
 run
 (
 browser
-)
-)
-(
 )
 ;
 await

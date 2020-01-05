@@ -410,13 +410,9 @@ current
 test
 .
 await
-(
 gTests
 .
 shift
-(
-)
-)
 (
 )
 ;

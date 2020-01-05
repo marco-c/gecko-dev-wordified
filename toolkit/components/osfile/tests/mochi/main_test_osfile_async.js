@@ -1378,6 +1378,7 @@ test
 {
 return
 (
+async
 function
 (
 )
