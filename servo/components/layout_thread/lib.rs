@@ -411,6 +411,7 @@ incremental
 {
 LayoutDamageComputation
 REFLOW_ENTIRE_DOCUMENT
+RelayoutMode
 }
 ;
 use
@@ -5705,6 +5706,10 @@ traverse_flow_tree_preorder
 (
 layout_root
 layout_context
+RelayoutMode
+:
+:
+Incremental
 )
 ;
 }
