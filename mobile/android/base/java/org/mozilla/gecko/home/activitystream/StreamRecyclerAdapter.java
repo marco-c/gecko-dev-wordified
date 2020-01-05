@@ -767,6 +767,7 @@ holder
 bind
 (
 highlightsCursor
+cursorPosition
 tilesWidth
 tilesHeight
 )
