@@ -1344,6 +1344,9 @@ seconds
 TableFreshnessMap
 mTableFreshness
 ;
+TableFreshnessMap
+mNewTableFreshness
+;
 /
 /
 In
