@@ -158,7 +158,7 @@ alloc_jemalloc
 ;
 extern
 crate
-hbs_pow
+heartbeats_simple
 ;
 extern
 crate
