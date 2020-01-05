@@ -5304,7 +5304,6 @@ FrameTree
 {
 pipeline
 :
-ref
 pipeline
 _
 }
