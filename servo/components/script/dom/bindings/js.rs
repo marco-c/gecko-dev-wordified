@@ -1598,6 +1598,7 @@ pub
 fn
 root
 (
+&
 self
 )
 -
