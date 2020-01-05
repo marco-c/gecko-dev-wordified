@@ -134,6 +134,10 @@ OSX
 '
     
 '
+SunOS
+'
+    
+'
 WINNT
 '
 )
@@ -170,6 +174,10 @@ NetBSD
     
 '
 OpenBSD
+'
+    
+'
+SunOS
 '
     
 '
@@ -564,6 +572,14 @@ OpenBSD
 :
 '
 __OpenBSD__
+'
+    
+'
+SunOS
+'
+:
+'
+__sun__
 '
     
 '

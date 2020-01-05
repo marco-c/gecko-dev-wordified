@@ -140,8 +140,11 @@ float
 h
 >
 #
-ifdef
-SOLARIS
+if
+defined
+(
+XP_SOLARIS
+)
 #
 include
 <
