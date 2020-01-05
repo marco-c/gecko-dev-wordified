@@ -1804,7 +1804,7 @@ Load
 >
 {
 let
-_evicted
+evicted
 =
 self
 .
@@ -1815,19 +1815,6 @@ navigate
 id
 )
 ;
-/
-*
-FIXME
-(
-tkuehn
-)
-:
-the
-following
-code
-causes
-a
-segfault
 for
 evicted
 .
@@ -1854,8 +1841,6 @@ exit
 )
 ;
 }
-*
-/
 }
 _
 =
