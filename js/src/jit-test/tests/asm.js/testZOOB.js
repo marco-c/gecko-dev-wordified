@@ -27,6 +27,17 @@ js
 "
 )
 ;
+if
+(
+!
+isAsmJSCompilationAvailable
+(
+)
+)
+quit
+(
+)
+;
 var
 ab
 =

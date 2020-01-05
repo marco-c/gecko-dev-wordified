@@ -100,6 +100,12 @@ SIMD
 '
 undefined
 '
+|
+|
+!
+isAsmJSCompilationAvailable
+(
+)
 )
 {
 DEBUG
