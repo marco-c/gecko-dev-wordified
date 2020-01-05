@@ -265,6 +265,7 @@ Clone
 PartialEq
 Eq
 Copy
+Hash
 )
 ]
 pub
