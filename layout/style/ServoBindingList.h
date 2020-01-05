@@ -365,6 +365,8 @@ Servo_StyleSet_RebuildData
 void
 RawServoStyleSetBorrowed
 set
+RawGeckoElementBorrowedOrNull
+doc_elem
 )
 SERVO_BINDING_FUNC
 (
@@ -423,6 +425,8 @@ Servo_StyleSet_FlushStyleSheets
 void
 RawServoStyleSetBorrowed
 set
+RawGeckoElementBorrowedOrNull
+doc_elem
 )
 SERVO_BINDING_FUNC
 (
