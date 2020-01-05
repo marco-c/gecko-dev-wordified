@@ -443,6 +443,14 @@ nsString
 >
 &
 aRetval
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 private

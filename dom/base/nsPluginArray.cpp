@@ -1487,6 +1487,8 @@ nsString
 >
 &
 aRetval
+CallerType
+aCallerType
 )
 {
 aRetval
@@ -1500,6 +1502,15 @@ if
 !
 AllowPlugins
 (
+)
+|
+|
+nsContentUtils
+:
+:
+ResistFingerprinting
+(
+aCallerType
 )
 )
 {
