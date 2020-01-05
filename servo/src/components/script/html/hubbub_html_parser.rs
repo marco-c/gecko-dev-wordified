@@ -122,7 +122,6 @@ HTMLItalicElement
 HTMLLinkElement
 HTMLListItemElement
 HTMLMetaElement
-HTMLOListElement
 HTMLOptionElement
 HTMLParagraphElement
 HTMLSectionElement
@@ -199,6 +198,15 @@ htmlimageelement
 :
 :
 HTMLImageElement
+;
+use
+dom
+:
+:
+htmlolistelement
+:
+:
+HTMLOListElement
 ;
 use
 dom
