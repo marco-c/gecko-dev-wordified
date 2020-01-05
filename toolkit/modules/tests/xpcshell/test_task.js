@@ -294,9 +294,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -308,11 +306,6 @@ resolve
 (
 aValue
 )
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 return

@@ -3502,16 +3502,9 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 callback
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

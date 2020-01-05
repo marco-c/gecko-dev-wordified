@@ -1511,16 +1511,9 @@ name
 P
 gThreadManager
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 writeData
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

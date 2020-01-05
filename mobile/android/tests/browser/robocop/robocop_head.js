@@ -1622,9 +1622,7 @@ nsIThreadManager
 ;
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -1804,13 +1802,6 @@ do_test_finished
 }
 }
 }
-Components
-.
-interfaces
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

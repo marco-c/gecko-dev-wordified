@@ -493,16 +493,9 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 resolve
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

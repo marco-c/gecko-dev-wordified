@@ -13853,9 +13853,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 function
@@ -13913,11 +13911,6 @@ telemetry
 ;
 }
 )
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 break

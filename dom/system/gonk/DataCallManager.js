@@ -8077,9 +8077,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -8137,11 +8135,6 @@ notifyRILNetworkInterface
 ;
 }
 }
-Ci
-.
-nsIEventTarget
-.
-DISPATCH_NORMAL
 )
 ;
 return
@@ -8993,9 +8986,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -9082,11 +9073,6 @@ resetLinkInfo
 }
 }
 }
-Ci
-.
-nsIEventTarget
-.
-DISPATCH_NORMAL
 )
 ;
 }

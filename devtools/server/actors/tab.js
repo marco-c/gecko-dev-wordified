@@ -5993,9 +5993,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 DevToolsUtils
 .
@@ -6075,7 +6073,6 @@ delayed
 body
 "
 )
-0
 )
 ;
 return
@@ -6127,9 +6124,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 DevToolsUtils
 .
@@ -6163,7 +6158,6 @@ delayed
 body
 "
 )
-0
 )
 ;
 return
