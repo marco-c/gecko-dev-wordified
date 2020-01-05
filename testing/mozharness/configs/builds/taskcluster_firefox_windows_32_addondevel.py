@@ -190,14 +190,6 @@ build
 '
         
 '
-generate
--
-build
--
-stats
-'
-        
-'
 check
 -
 test

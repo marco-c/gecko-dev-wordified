@@ -49,15 +49,6 @@ mock
 build
 '
         
-#
-'
-generate
--
-build
--
-stats
-'
-        
 '
 update
 '

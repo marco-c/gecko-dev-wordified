@@ -186,14 +186,6 @@ build
 '
         
 '
-generate
--
-build
--
-stats
-'
-        
-'
 upload
 -
 files
