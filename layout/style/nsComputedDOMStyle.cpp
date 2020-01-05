@@ -3353,6 +3353,7 @@ servoSet
 ResolveTransientStyle
 (
 aElement
+aPseudo
 type
 )
 ;
