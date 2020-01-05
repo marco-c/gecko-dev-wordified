@@ -2926,16 +2926,6 @@ EnqueueFirstFrameLoadedEvent
 (
 )
 ;
-void
-DispatchAudioDecodeTaskIfNeeded
-(
-)
-;
-void
-DispatchVideoDecodeTaskIfNeeded
-(
-)
-;
 /
 /
 Dispatch
