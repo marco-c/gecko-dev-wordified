@@ -305,21 +305,6 @@ test
     
 (
 '
-mediaconduit_unittests
-'
-'
-media
-/
-webrtc
-/
-signaling
-/
-test
-'
-)
-    
-(
-'
 mediapipeline_unittest
 '
 '
