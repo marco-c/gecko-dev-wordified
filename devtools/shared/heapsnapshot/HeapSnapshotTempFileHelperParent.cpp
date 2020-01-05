@@ -228,6 +228,9 @@ rv
 nsAutoString
 filePath
 ;
+nsAutoString
+snapshotId
+;
 nsCOMPtr
 <
 nsIFile
@@ -242,6 +245,7 @@ CreateUniqueCoreDumpFile
 rv
 start
 filePath
+snapshotId
 )
 ;
 if
@@ -360,6 +364,7 @@ outResponse
 OpenedFile
 (
 filePath
+snapshotId
 fd
 )
 ;

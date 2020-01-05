@@ -860,6 +860,9 @@ now
 nsAString
 &
 outFilePath
+nsAString
+&
+outSnapshotId
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
