@@ -836,6 +836,13 @@ block
 s
 content
 area
+narrowed
+by
+any
+floats
+on
+this
+line
 .
 *
 /
@@ -1408,6 +1415,13 @@ block
 s
 content
 area
+narrowed
+by
+any
+floats
+on
+this
+line
 .
 *
 /
