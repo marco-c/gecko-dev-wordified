@@ -242,6 +242,17 @@ nsString
 aStates
 )
 ;
+void
+GetAttributes
+(
+nsTArray
+<
+nsString
+>
+&
+aAttributes
+)
+;
 nsINode
 *
 GetDOMNode
