@@ -3464,7 +3464,7 @@ gl
 getExtension
 (
 "
-MOZ_debug
+MOZ_debug_get
 "
 )
 ;
