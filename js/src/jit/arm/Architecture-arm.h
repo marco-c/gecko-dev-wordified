@@ -5402,6 +5402,11 @@ endif
 }
 #
 endif
+bool
+ForceDoubleCacheFlush
+(
+)
+;
 /
 /
 In
