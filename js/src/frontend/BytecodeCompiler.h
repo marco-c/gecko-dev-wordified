@@ -179,7 +179,7 @@ namespace
 frontend
 {
 class
-TokenStream
+TokenStreamBase
 ;
 class
 FunctionBox
@@ -846,7 +846,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStream
+TokenStreamBase
 &
 tokenStream
 )
@@ -860,7 +860,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStream
+TokenStreamBase
 &
 tokenStream
 FunctionBox
@@ -877,7 +877,7 @@ const
 TraceLoggerTextId
 id
 const
-TokenStream
+TokenStreamBase
 &
 tokenStream
 ParseNode
