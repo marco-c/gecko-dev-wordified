@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h
@@ -731,7 +724,7 @@ full
 Unicode
 range
 return
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

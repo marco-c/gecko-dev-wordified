@@ -656,9 +656,6 @@ values
 *
 /
 const
-nsIUGenCategory
-:
-:
 nsUGenCategory
 sDetailedToGeneralCategory
 [
@@ -702,7 +699,7 @@ h
 CONTROL
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -711,7 +708,7 @@ kOther
 FORMAT
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -720,7 +717,7 @@ kOther
 UNASSIGNED
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -729,7 +726,7 @@ kOther
 PRIVATE_USE
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -738,7 +735,7 @@ kOther
 SURROGATE
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -747,7 +744,7 @@ kOther
 LOWERCASE_LETTER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -756,7 +753,7 @@ kLetter
 MODIFIER_LETTER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -765,7 +762,7 @@ kLetter
 OTHER_LETTER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -774,7 +771,7 @@ kLetter
 TITLECASE_LETTER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -783,7 +780,7 @@ kLetter
 UPPERCASE_LETTER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -792,7 +789,7 @@ kLetter
 COMBINING_MARK
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kMark
@@ -801,7 +798,7 @@ kMark
 ENCLOSING_MARK
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kMark
@@ -810,7 +807,7 @@ kMark
 NON_SPACING_MARK
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kMark
@@ -819,7 +816,7 @@ kMark
 DECIMAL_NUMBER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kNumber
@@ -828,7 +825,7 @@ kNumber
 LETTER_NUMBER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kNumber
@@ -837,7 +834,7 @@ kNumber
 OTHER_NUMBER
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kNumber
@@ -846,7 +843,7 @@ kNumber
 CONNECT_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -855,7 +852,7 @@ kPunctuation
 DASH_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -864,7 +861,7 @@ kPunctuation
 CLOSE_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -873,7 +870,7 @@ kPunctuation
 FINAL_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -882,7 +879,7 @@ kPunctuation
 INITIAL_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -891,7 +888,7 @@ kPunctuation
 OTHER_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -900,7 +897,7 @@ kPunctuation
 OPEN_PUNCTUATION
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -909,7 +906,7 @@ kPunctuation
 CURRENCY_SYMBOL
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSymbol
@@ -918,7 +915,7 @@ kSymbol
 MODIFIER_SYMBOL
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSymbol
@@ -927,7 +924,7 @@ kSymbol
 MATH_SYMBOL
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSymbol
@@ -936,7 +933,7 @@ kSymbol
 OTHER_SYMBOL
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSymbol
@@ -945,7 +942,7 @@ kSymbol
 LINE_SEPARATOR
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSeparator
@@ -954,7 +951,7 @@ kSeparator
 PARAGRAPH_SEPARATOR
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSeparator
@@ -963,7 +960,7 @@ kSeparator
 SPACE_SEPARATOR
 *
 /
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSeparator

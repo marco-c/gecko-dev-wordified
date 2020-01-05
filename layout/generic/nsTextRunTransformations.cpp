@@ -1988,9 +1988,6 @@ uint32_t
 1
 )
 ;
-nsIUGenCategory
-:
-:
 nsUGenCategory
 cat
 ;
@@ -2449,7 +2446,7 @@ eLSCB_Irish
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -2811,7 +2808,7 @@ if
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -2963,7 +2960,7 @@ if
 cat
 !
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kMark
@@ -2975,7 +2972,7 @@ prevIsLetter
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

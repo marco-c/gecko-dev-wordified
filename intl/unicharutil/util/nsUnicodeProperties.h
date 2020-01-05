@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsIUGenCategory
+nsUGenCategory
 .
 h
 "
@@ -188,9 +188,6 @@ unicode
 {
 extern
 const
-nsIUGenCategory
-:
-:
 nsUGenCategory
 sDetailedToGeneralCategory
 [
@@ -1069,11 +1066,8 @@ Category
 as
 defined
 in
-nsIUGenCategory
+nsUGenCategory
 inline
-nsIUGenCategory
-:
-:
 nsUGenCategory
 GetGenCategory
 (

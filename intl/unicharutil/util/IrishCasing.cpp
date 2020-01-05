@@ -2140,7 +2140,7 @@ aCh
 )
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

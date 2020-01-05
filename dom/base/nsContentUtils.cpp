@@ -1619,13 +1619,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h
@@ -9863,9 +9856,6 @@ uint32_t
 aChar
 )
 {
-nsIUGenCategory
-:
-:
 nsUGenCategory
 cat
 =
@@ -9885,7 +9875,7 @@ return
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -9894,7 +9884,7 @@ kLetter
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kNumber
