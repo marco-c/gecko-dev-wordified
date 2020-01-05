@@ -547,6 +547,8 @@ MenubarProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -574,6 +576,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -633,6 +637,8 @@ ToolbarProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -660,6 +666,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -719,6 +727,8 @@ LocationbarProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -746,6 +756,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -805,6 +817,8 @@ PersonalbarProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -832,6 +846,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -891,6 +907,8 @@ StatusbarProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -918,6 +936,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -978,6 +998,8 @@ ScrollbarsProp
 :
 GetVisible
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1081,6 +1103,8 @@ SetVisible
 (
 bool
 aVisible
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1088,13 +1112,13 @@ aRv
 {
 if
 (
+aCallerType
 !
-nsContentUtils
+=
+CallerType
 :
 :
-LegacyIsCallerChromeOrNativeCode
-(
-)
+System
 )
 {
 return
