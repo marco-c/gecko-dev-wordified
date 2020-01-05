@@ -59,5 +59,16 @@ browser
 :
 false
 }
+"
+env
+"
+:
+{
+"
+browser
+"
+:
+true
+}
 }
 ;

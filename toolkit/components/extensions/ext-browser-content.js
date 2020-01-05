@@ -252,8 +252,10 @@ ExtensionUtils
 *
 globals
 addMessageListener
+addEventListener
 content
 docShell
+removeEventListener
 sendAsyncMessage
 *
 /

@@ -164,6 +164,13 @@ initWithString
 "
 )
 ;
+/
+*
+globals
+URL
+XMLHttpRequest
+*
+/
 Cu
 .
 importGlobalProperties
