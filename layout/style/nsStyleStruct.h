@@ -5799,6 +5799,17 @@ HasLayerWithImage
 )
 const
 ;
+nsStyleImageLayers
+&
+operator
+=
+(
+const
+nsStyleImageLayers
+&
+aOther
+)
+;
 static
 const
 nsCSSPropertyID
