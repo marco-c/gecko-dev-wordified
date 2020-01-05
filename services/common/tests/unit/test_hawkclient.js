@@ -1616,16 +1616,6 @@ Authorization
 )
 )
 ;
-let
-message
-=
-"
-Delta
-:
-"
-+
-delta
-;
 /
 /
 We
