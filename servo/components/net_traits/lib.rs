@@ -188,6 +188,10 @@ util
 ;
 extern
 crate
+uuid
+;
+extern
+crate
 websocket
 ;
 use
@@ -303,6 +307,10 @@ bluetooth_scanfilter
 pub
 mod
 bluetooth_thread
+;
+pub
+mod
+filemanager_thread
 ;
 pub
 mod

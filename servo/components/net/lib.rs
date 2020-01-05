@@ -77,6 +77,14 @@ fnbox
 [
 feature
 (
+fs_time
+)
+]
+#
+!
+[
+feature
+(
 mpsc_select
 )
 ]
@@ -292,6 +300,10 @@ data_loader
 pub
 mod
 file_loader
+;
+pub
+mod
+filemanager_thread
 ;
 pub
 mod
