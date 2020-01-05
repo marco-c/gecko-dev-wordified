@@ -31,6 +31,11 @@ test_screenshot
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 .
