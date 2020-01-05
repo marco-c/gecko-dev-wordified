@@ -19033,6 +19033,12 @@ InteractionType
 :
 :
 eScrollInteraction
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 PostScrollEvent

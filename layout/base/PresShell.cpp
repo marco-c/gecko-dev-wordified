@@ -49530,6 +49530,10 @@ InteractionType
 :
 :
 eKeyInteraction
+aEvent
+-
+>
+mTimeStamp
 )
 ;
 }
@@ -49558,6 +49562,10 @@ InteractionType
 :
 :
 eClickInteraction
+aEvent
+-
+>
+mTimeStamp
 )
 ;
 break
@@ -49770,6 +49778,10 @@ InteractionType
 :
 :
 eMouseMoveInteraction
+aEvent
+-
+>
+mTimeStamp
 )
 ;
 }
