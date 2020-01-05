@@ -1793,7 +1793,7 @@ class
 FTPDivertDataAvailableEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :
@@ -2179,7 +2179,7 @@ class
 FTPDivertStopRequestEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :
@@ -2457,7 +2457,7 @@ class
 FTPDivertCompleteEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :

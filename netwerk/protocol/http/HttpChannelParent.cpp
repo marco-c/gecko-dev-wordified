@@ -5458,7 +5458,7 @@ class
 DivertDataAvailableEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :
@@ -5878,7 +5878,7 @@ class
 DivertStopRequestEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :
@@ -6173,7 +6173,7 @@ class
 DivertCompleteEvent
 :
 public
-MainThreadChannelEvent
+ChannelEvent
 {
 public
 :
