@@ -140,10 +140,15 @@ paint_thread
 :
 :
 {
-ChromeToPaintMsg
 LayoutToPaintMsg
 PaintThread
 }
+;
+use
+gfx_traits
+:
+:
+ChromeToPaintMsg
 ;
 use
 ipc_channel
