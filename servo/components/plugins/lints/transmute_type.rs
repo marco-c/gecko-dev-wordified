@@ -244,8 +244,6 @@ segment
 |
 segment
 .
-identifier
-.
 name
 .
 as_str
