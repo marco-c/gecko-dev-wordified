@@ -3300,9 +3300,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 dom
 -
@@ -6163,9 +6160,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 accessing
 -

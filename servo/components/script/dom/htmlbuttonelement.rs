@@ -673,9 +673,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 dom
 -
@@ -744,9 +741,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -802,9 +796,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 dom
 -
@@ -836,9 +827,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 htmlbuttonelement
 make_url_or_base_getter
@@ -1454,9 +1442,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 the
 -
@@ -1534,9 +1519,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 the
 -
@@ -1668,9 +1650,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -1755,9 +1734,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 implicit
 -

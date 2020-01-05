@@ -2911,9 +2911,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 read
 -
@@ -3018,9 +3015,6 @@ org
 /
 multipage
 /
-syntax
-.
-html
 #
 parsing
 -

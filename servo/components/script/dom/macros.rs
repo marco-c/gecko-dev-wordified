@@ -962,9 +962,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -1758,9 +1755,6 @@ org
 /
 multipage
 /
-webappapis
-.
-html
 #
 globaleventhandlers
 /

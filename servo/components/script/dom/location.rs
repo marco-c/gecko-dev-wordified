@@ -314,9 +314,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 dom
 -

@@ -364,9 +364,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 same
 -

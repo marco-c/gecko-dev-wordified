@@ -1289,9 +1289,6 @@ org
 /
 multipage
 /
-webappapis
-.
-html
 #
 concept
 -
@@ -2188,9 +2185,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 fully
 -
@@ -3536,9 +3530,6 @@ org
 /
 multipage
 /
-dom
-.
-html
 #
 current
 -
@@ -12325,9 +12316,6 @@ org
 /
 multipage
 /
-dom
-.
-html
 #
 dom
 -
@@ -12367,9 +12355,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 dom
 -
@@ -12414,9 +12399,6 @@ org
 /
 multipage
 /
-dom
-.
-html
 #
 dom
 -
@@ -12559,9 +12541,6 @@ org
 /
 multipage
 /
-dom
-.
-html
 #
 dom
 -

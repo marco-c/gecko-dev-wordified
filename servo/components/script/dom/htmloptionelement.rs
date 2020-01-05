@@ -926,9 +926,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -1012,9 +1009,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -1046,9 +1040,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
@@ -1132,9 +1123,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -
