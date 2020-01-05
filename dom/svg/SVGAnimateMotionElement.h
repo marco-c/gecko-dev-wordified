@@ -304,6 +304,14 @@ aLocalName
 const
 override
 ;
+virtual
+nsSMILTargetAttrType
+GetTargetAttributeType
+(
+)
+const
+override
+;
 /
 /
 nsSVGElement

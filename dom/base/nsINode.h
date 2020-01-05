@@ -2192,6 +2192,10 @@ global
 define
 DOM_USER_DATA
 1
+#
+define
+SMIL_MAPPED_ATTR_ANIMVAL
+2
 /
 /
 IID
