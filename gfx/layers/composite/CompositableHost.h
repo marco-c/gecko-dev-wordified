@@ -439,9 +439,6 @@ TiledContentHost
 class
 CompositableParentManager
 ;
-class
-PCompositableParent
-;
 struct
 EffectChain
 ;
@@ -1491,15 +1488,6 @@ mFlashCounter
 1
 ;
 }
-static
-bool
-DestroyIPDLActor
-(
-PCompositableParent
-*
-actor
-)
-;
 uint64_t
 GetCompositorID
 (

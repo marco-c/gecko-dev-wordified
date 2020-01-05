@@ -398,17 +398,6 @@ mozilla
 /
 layers
 /
-PCompositableChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 PTextureChild
 .
 h
