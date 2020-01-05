@@ -222,6 +222,9 @@ mozilla
 typedef
 MozPromiseRequestHolder
 <
+CDMProxy
+:
+:
 DecryptPromise
 >
 DecryptPromiseRequestHolder
