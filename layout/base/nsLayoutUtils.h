@@ -5417,7 +5417,7 @@ aOutFrames
 an
 array
 to
-add
+append
 all
 the
 frames

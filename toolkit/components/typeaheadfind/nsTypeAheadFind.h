@@ -350,9 +350,7 @@ nsIDOMRange
 *
 aRange
 bool
-aMustBeVisible
-bool
-aGetTopVisibleLeaf
+aFlushLayout
 nsIDOMRange
 *
 *
