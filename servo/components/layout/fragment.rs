@@ -232,7 +232,6 @@ Direction
 IntrinsicISizes
 IntrinsicISizesContribution
 MaybeAuto
-specified
 }
 ;
 use
