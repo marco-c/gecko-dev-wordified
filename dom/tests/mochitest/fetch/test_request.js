@@ -2618,6 +2618,8 @@ URL
 .
 /
 request
+#
+withfragment
 "
 self
 .
@@ -2635,7 +2637,7 @@ url
 should
 be
 serialized
-with
+without
 exclude
 fragment
 flag

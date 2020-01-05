@@ -3074,6 +3074,14 @@ new
 InternalRequest
 (
 url
+/
+*
+aURLFragment
+*
+/
+EmptyCString
+(
+)
 )
 ;
 mPendingReq
