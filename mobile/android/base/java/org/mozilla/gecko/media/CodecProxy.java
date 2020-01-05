@@ -653,6 +653,9 @@ setCallbacks
 mCallbacks
 )
 ;
+if
+(
+!
 remote
 .
 configure
@@ -662,7 +665,12 @@ mOutputSurface
 0
 mRemoteDrmStubId
 )
+)
+{
+return
+false
 ;
+}
 remote
 .
 start
