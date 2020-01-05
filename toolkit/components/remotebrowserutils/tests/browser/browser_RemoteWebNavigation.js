@@ -66,11 +66,7 @@ html
 function
 waitForLoad
 (
-browser
-=
-gBrowser
-.
-selectedBrowser
+uri
 )
 {
 return
@@ -78,7 +74,11 @@ BrowserTestUtils
 .
 browserLoaded
 (
-browser
+gBrowser
+.
+selectedBrowser
+false
+uri
 )
 ;
 }
@@ -206,6 +206,7 @@ null
 yield
 waitForLoad
 (
+DUMMY1
 )
 ;
 yield
@@ -231,6 +232,8 @@ is
 content
 .
 location
+.
+href
 dummy1
 "
 Should
@@ -388,6 +391,7 @@ null
 yield
 waitForLoad
 (
+DUMMY1
 )
 ;
 browser
@@ -410,6 +414,7 @@ null
 yield
 waitForLoad
 (
+DUMMY2
 )
 ;
 yield
@@ -799,6 +804,7 @@ null
 yield
 waitForLoad
 (
+DUMMY1
 )
 ;
 browser
@@ -821,6 +827,7 @@ null
 yield
 waitForLoad
 (
+DUMMY2
 )
 ;
 yield
@@ -857,6 +864,7 @@ null
 yield
 waitForLoad
 (
+DUMMY1
 )
 ;
 yield
