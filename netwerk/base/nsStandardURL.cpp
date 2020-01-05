@@ -9487,7 +9487,7 @@ mLen
 This
 is
 left
-fallible
+infallible
 as
 this
 entire
@@ -9538,7 +9538,7 @@ hostport
 This
 is
 left
-fallible
+infallible
 as
 this
 entire
