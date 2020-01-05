@@ -432,6 +432,10 @@ DiscardImages
 (
 )
 ;
+DiscardCompositorAnimations
+(
+)
+;
 WrBridge
 (
 )
@@ -1724,12 +1728,9 @@ WrBridge
 )
 -
 >
-AddWebRenderParentCommand
-(
-OpRemoveCompositorAnimations
+SendDeleteCompositorAnimations
 (
 id
-)
 )
 ;
 }
