@@ -130,6 +130,10 @@ PodOperations
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsStyleCoord
 :
 :

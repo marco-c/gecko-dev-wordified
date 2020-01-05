@@ -157,6 +157,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 /
 *
 Character
