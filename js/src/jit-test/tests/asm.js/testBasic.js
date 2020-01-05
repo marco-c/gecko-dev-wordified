@@ -1909,7 +1909,7 @@ null
 null
 )
 ;
-assertAsmLinkFail
+assertAsmLinkAlwaysFail
 (
 module
 this
@@ -1917,7 +1917,7 @@ null
 null
 )
 ;
-assertAsmLinkFail
+assertAsmLinkAlwaysFail
 (
 module
 this

@@ -11430,9 +11430,6 @@ JS
 :
 HandleValue
 v
-const
-unsigned
-errorNumber
 uint64_t
 *
 index
@@ -11556,7 +11553,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-errorNumber
+JSMSG_BAD_INDEX
 )
 ;
 return
