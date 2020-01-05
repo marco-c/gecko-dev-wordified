@@ -778,15 +778,6 @@ GetOwnedFrameSelection
 )
 override
 ;
-nsresult
-GetPhonetic
-(
-nsAString
-&
-aPhonetic
-)
-override
-;
 /
 *
 *

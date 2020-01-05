@@ -181,17 +181,6 @@ GetOwnedFrameSelection
 =
 0
 ;
-virtual
-nsresult
-GetPhonetic
-(
-nsAString
-&
-aPhonetic
-)
-=
-0
-;
 /
 *
 *
