@@ -578,8 +578,6 @@ True
 "
 marionette
 .
-defaultPrefs
-.
 enabled
 "
 :
