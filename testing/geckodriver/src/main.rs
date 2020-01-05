@@ -743,7 +743,7 @@ webdriver
 command
 :
 :
-CapabilitiesParameters
+NewSessionParameters
 ;
 use
 rustc_serialize
@@ -944,7 +944,7 @@ encoded_profile
 let
 capabilities
 =
-CapabilitiesParameters
+NewSessionParameters
 {
 desired
 :
