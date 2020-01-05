@@ -135,6 +135,12 @@ window
 Window
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 webrender_traits
 :
 :

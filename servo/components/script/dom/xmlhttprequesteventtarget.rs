@@ -101,6 +101,12 @@ eventtarget
 :
 EventTarget
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

@@ -119,6 +119,12 @@ mimetype
 :
 MimeType
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

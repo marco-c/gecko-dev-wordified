@@ -321,6 +321,12 @@ urlhelper
 UrlHelper
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 hyper
 ;
 use

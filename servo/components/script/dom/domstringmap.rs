@@ -161,6 +161,12 @@ node
 :
 window_from_node
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

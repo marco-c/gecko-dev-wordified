@@ -156,6 +156,12 @@ workerglobalscope
 :
 WorkerGlobalScope
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 /
 /
 https

@@ -140,6 +140,12 @@ node
 :
 Node
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 /
 /
 /

@@ -109,6 +109,12 @@ str
 :
 DOMString
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct
