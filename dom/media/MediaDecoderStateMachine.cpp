@@ -13711,12 +13711,6 @@ DispatchDecodeTasksIfNeeded
 ;
 MOZ_ASSERT
 (
-mMaster
--
->
-mMinimizePreroll
-|
-|
 !
 mMaster
 -
@@ -13744,12 +13738,6 @@ IsWaitingAudioData
 ;
 MOZ_ASSERT
 (
-mMaster
--
->
-mMinimizePreroll
-|
-|
 !
 mMaster
 -
