@@ -1082,6 +1082,9 @@ uint32_t
 productUniqueIdUTF8Length
 *
 /
+pid_t
+*
+pid
 )
 {
 WEBRTC_TRACE
