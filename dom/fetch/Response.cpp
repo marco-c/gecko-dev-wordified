@@ -264,9 +264,6 @@ FetchBody
 Response
 >
 (
-)
-mOwner
-(
 aGlobal
 )
 mInternalResponse

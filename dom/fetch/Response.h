@@ -603,12 +603,6 @@ Response
 (
 )
 ;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mOwner
-;
 RefPtr
 <
 InternalResponse
