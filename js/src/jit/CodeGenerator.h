@@ -2269,6 +2269,14 @@ lir
 )
 ;
 void
+visitToAsyncGen
+(
+LToAsyncGen
+*
+lir
+)
+;
+void
 visitToIdV
 (
 LToIdV
