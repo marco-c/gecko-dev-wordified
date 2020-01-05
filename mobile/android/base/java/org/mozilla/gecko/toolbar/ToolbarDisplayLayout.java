@@ -425,9 +425,11 @@ widget
 ImageButton
 ;
 import
-com
+org
 .
-keepsafe
+mozilla
+.
+gecko
 .
 switchboard
 .

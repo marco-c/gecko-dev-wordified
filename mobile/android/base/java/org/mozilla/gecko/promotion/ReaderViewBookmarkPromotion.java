@@ -113,9 +113,11 @@ content
 SharedPreferences
 ;
 import
-com
+org
 .
-keepsafe
+mozilla
+.
+gecko
 .
 switchboard
 .
