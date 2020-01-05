@@ -1971,8 +1971,8 @@ methods
 is_empty
 (
 )
-|
-|
+&
+&
 preflight
 .
 mode
