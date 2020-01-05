@@ -1778,6 +1778,13 @@ JSContext
 cx
 )
 ;
+inline
+JSContext
+*
+activeContextFromOwnThread
+(
+)
+;
 js
 :
 :

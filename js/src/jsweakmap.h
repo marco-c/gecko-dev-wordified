@@ -423,6 +423,17 @@ WeakMapBase
 (
 )
 ;
+Zone
+*
+zone
+(
+)
+const
+{
+return
+zone_
+;
+}
 /
 /
 Garbage
@@ -869,7 +880,7 @@ JS
 :
 Zone
 *
-zone
+zone_
 ;
 /
 /
@@ -1082,6 +1093,8 @@ return
 false
 ;
 zone
+(
+)
 -
 >
 gcWeakMapList
@@ -2370,6 +2383,8 @@ runtimeFromMainThread
 =
 =
 zone
+(
+)
 -
 >
 runtimeFromMainThread
@@ -2499,6 +2514,8 @@ gc
 IsMarkedUnbarriered
 (
 zone
+(
+)
 -
 >
 runtimeFromMainThread

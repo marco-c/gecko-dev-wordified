@@ -2163,10 +2163,9 @@ runtimeFromAnyThread
 RootedGlobalObject
 global
 (
-rt
--
->
-contextFromMainThread
+TlsContext
+.
+get
 (
 )
 comps
