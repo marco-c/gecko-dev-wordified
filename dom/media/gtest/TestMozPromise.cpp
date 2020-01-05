@@ -1315,7 +1315,6 @@ Then
 queue
 __func__
 [
-queue
 ]
 (
 int
