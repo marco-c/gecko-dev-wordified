@@ -2150,10 +2150,6 @@ pre
 fx21
 let
 active
-;
-try
-{
-active
 =
 Services
 .
@@ -2166,15 +2162,9 @@ social
 .
 active
 "
+false
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 !

@@ -1358,10 +1358,6 @@ locale
 {
 let
 matchOS
-;
-try
-{
-matchOS
 =
 Services
 .
@@ -1370,15 +1366,9 @@ prefs
 getBoolPref
 (
 PREF_MATCH_OS_LOCALE
+false
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 matchOS
