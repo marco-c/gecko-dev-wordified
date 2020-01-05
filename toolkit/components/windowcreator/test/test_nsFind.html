@@ -410,7 +410,8 @@ catch
 e
 )
 {
-e
+let
+wrappedError
 =
 SpecialPowers
 .
@@ -421,7 +422,7 @@ e
 ;
 if
 (
-e
+wrappedError
 .
 result
 =
@@ -443,7 +444,7 @@ null
 else
 {
 throw
-e
+wrappedError
 ;
 }
 }
@@ -489,7 +490,8 @@ catch
 e
 )
 {
-e
+let
+wrappedError
 =
 SpecialPowers
 .
@@ -500,7 +502,7 @@ e
 ;
 if
 (
-e
+wrappedError
 .
 result
 =
@@ -522,7 +524,7 @@ null
 else
 {
 throw
-e
+wrappedError
 ;
 }
 }
@@ -568,7 +570,8 @@ catch
 e
 )
 {
-e
+let
+wrappedError
 =
 SpecialPowers
 .
@@ -579,7 +582,7 @@ e
 ;
 if
 (
-e
+wrappedError
 .
 result
 =
@@ -601,7 +604,7 @@ null
 else
 {
 throw
-e
+wrappedError
 ;
 }
 }
@@ -647,7 +650,8 @@ catch
 e
 )
 {
-e
+let
+wrappedError
 =
 SpecialPowers
 .
@@ -658,7 +662,7 @@ e
 ;
 if
 (
-e
+wrappedError
 .
 result
 =
@@ -680,7 +684,7 @@ null
 else
 {
 throw
-e
+wrappedError
 ;
 }
 }
