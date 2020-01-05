@@ -4900,7 +4900,7 @@ TextureFactoryIdentifier
 LayersBackend
 :
 :
-LAYERS_OPENGL
+LAYERS_WR
 XRE_GetProcessType
 (
 )

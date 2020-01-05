@@ -259,7 +259,7 @@ TextureFactoryIdentifier
 LayersBackend
 :
 :
-LAYERS_OPENGL
+LAYERS_WR
 XRE_GetProcessType
 (
 )
@@ -646,7 +646,7 @@ return
 LayersBackend
 :
 :
-LAYERS_OPENGL
+LAYERS_WR
 ;
 }
 virtual
