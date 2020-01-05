@@ -524,7 +524,7 @@ mImageHost
 mImageHost
 -
 >
-SetTextureSourceProvider
+SetCompositor
 (
 mCompositor
 )
@@ -643,7 +643,7 @@ clipRect
 mImageHost
 -
 >
-SetTextureSourceProvider
+SetCompositor
 (
 mCompositor
 )
@@ -653,7 +653,6 @@ mImageHost
 >
 Composite
 (
-mCompositor
 this
 effectChain
 GetEffectiveOpacity

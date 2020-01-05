@@ -430,9 +430,6 @@ virtual
 void
 Composite
 (
-Compositor
-*
-aCompositor
 LayerComposite
 *
 aLayer
@@ -531,9 +528,9 @@ Attach
 Layer
 *
 aLayer
-TextureSourceProvider
+Compositor
 *
-aProvider
+aCompositor
 AttachFlags
 aFlags
 =
@@ -543,11 +540,11 @@ override
 ;
 virtual
 void
-SetTextureSourceProvider
+SetCompositor
 (
-TextureSourceProvider
+Compositor
 *
-aProvider
+aCompositor
 )
 override
 ;

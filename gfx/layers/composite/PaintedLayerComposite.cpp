@@ -576,7 +576,7 @@ mCompositor
 mBuffer
 -
 >
-SetTextureSourceProvider
+SetCompositor
 (
 mCompositor
 )
@@ -662,7 +662,7 @@ MOZ_ASSERT
 mBuffer
 -
 >
-GetTextureSourceProvider
+GetCompositor
 (
 )
 =
@@ -778,7 +778,6 @@ mBuffer
 >
 Composite
 (
-compositor
 this
 effectChain
 GetEffectiveOpacity

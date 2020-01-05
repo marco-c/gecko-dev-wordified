@@ -428,7 +428,7 @@ mCompositor
 mCompositableHost
 -
 >
-SetTextureSourceProvider
+SetCompositor
 (
 mCompositor
 )
@@ -549,7 +549,6 @@ mCompositableHost
 >
 Composite
 (
-mCompositor
 this
 effectChain
 GetEffectiveOpacity

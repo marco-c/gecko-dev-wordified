@@ -674,7 +674,7 @@ i
 ]
 -
 >
-SetTextureSourceProvider
+SetCompositor
 (
 compositor
 )
