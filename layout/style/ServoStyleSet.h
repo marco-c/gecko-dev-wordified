@@ -245,7 +245,7 @@ struct
 Keyframe
 ;
 struct
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 ;
 }
 /
@@ -1734,7 +1734,7 @@ Element
 *
 aElement
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )

@@ -4265,7 +4265,7 @@ Element
 *
 aElement
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
