@@ -551,7 +551,6 @@ constellation_msg
 :
 {
 ConstellationChan
-DocumentState
 LoadData
 }
 ;
@@ -696,10 +695,18 @@ script_traits
 :
 :
 {
+DocumentState
 MsDuration
 ScriptToCompositorMsg
 TimerEvent
 TimerEventId
+}
+;
+use
+script_traits
+:
+:
+{
 TimerEventRequest
 TimerSource
 }
