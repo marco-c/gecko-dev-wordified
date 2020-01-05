@@ -554,6 +554,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+void
+ReportCanPlayTelemetry
+(
+)
+;
 /
 *
 *
