@@ -2053,6 +2053,11 @@ fraktur
 )
 CSS_KEY
 (
+frames
+frames
+)
+CSS_KEY
+(
 from
 -
 image
