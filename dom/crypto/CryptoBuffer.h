@@ -361,6 +361,7 @@ nsString
 &
 aBase64
 )
+const
 ;
 bool
 ToSECItem

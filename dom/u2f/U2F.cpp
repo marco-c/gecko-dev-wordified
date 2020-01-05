@@ -373,7 +373,7 @@ NS_IsMainThread
 )
 )
 ;
-ClientData
+U2FClientData
 clientDataObject
 ;
 clientDataObject

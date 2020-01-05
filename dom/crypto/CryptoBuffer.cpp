@@ -731,6 +731,7 @@ nsString
 &
 aBase64
 )
+const
 {
 /
 /
