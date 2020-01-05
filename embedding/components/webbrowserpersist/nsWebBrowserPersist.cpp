@@ -11745,7 +11745,7 @@ duplicateCounter
 ;
 while
 (
-1
+true
 )
 {
 /
