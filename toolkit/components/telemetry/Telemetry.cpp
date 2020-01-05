@@ -623,12 +623,6 @@ libraries
 h
 "
 #
-if
-defined
-(
-MOZ_STACKWALKING
-)
-#
 define
 ENABLE_STACK_CAPTURE
 #
@@ -647,11 +641,6 @@ nsPrintfCString
 .
 h
 "
-#
-endif
-/
-/
-MOZ_STACKWALKING
 #
 endif
 /
