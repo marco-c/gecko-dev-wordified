@@ -1016,6 +1016,16 @@ stylesheets
 are
 loaded
 .
+if
+(
+aSheet
+-
+>
+IsGecko
+(
+)
+)
+{
 mResources
 -
 >
@@ -1023,6 +1033,7 @@ GatherRuleProcessor
 (
 )
 ;
+}
 /
 /
 XXX
