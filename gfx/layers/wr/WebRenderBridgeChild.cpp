@@ -197,10 +197,6 @@ mIsInTransaction
 (
 false
 )
-mSyncTransaction
-(
-false
-)
 mIPCOpen
 (
 false
@@ -442,10 +438,6 @@ Clear
 )
 ;
 mIsInTransaction
-=
-false
-;
-mSyncTransaction
 =
 false
 ;
