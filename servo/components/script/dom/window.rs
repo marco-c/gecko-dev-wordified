@@ -846,6 +846,7 @@ WindowResize
 DOMContentLoaded
 DocumentLoaded
 ImageLoaded
+RequestAnimationFrame
 }
 #
 [
@@ -8380,6 +8381,16 @@ ImageLoaded
 "
 \
 tImageLoaded
+"
+ReflowReason
+:
+:
+RequestAnimationFrame
+=
+>
+"
+\
+tRequestAnimationFrame
 "
 }
 )
