@@ -629,6 +629,18 @@ FAILED
 (
 mResult
 )
+&
+&
+mResult
+!
+=
+WAIT_TIMEOUT
+&
+&
+mResult
+!
+=
+WAIT_ABANDONED
 )
 {
 mMutex
@@ -6626,6 +6638,7 @@ mutex
 ;
 {
 AutoTextureLock
+lock
 (
 mutex
 hr

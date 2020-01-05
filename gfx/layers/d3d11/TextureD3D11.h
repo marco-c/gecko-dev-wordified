@@ -182,6 +182,7 @@ namespace
 layers
 {
 class
+MOZ_RAII
 AutoTextureLock
 {
 public

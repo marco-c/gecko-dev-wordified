@@ -468,6 +468,7 @@ false
 }
 {
 AutoTextureLock
+lock
 (
 mutex
 hr
