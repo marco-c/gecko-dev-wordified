@@ -318,15 +318,6 @@ LOCAL_GL_MAX_TEXTURE_SIZE
 mMaxTextureSize
 )
 ;
-wr_gl_init
-(
-gl
-.
-get
-(
-)
-)
-;
 WrRenderer
 *
 wrRenderer
@@ -339,6 +330,11 @@ if
 wr_window_new
 (
 aWindowId
+gl
+.
+get
+(
+)
 this
 -
 >
