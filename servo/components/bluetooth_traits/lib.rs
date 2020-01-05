@@ -487,6 +487,15 @@ IpcSender
 BluetoothResponseResult
 >
 )
+EnableNotification
+(
+String
+bool
+IpcSender
+<
+BluetoothResponseResult
+>
+)
 Test
 (
 String
@@ -566,6 +575,11 @@ Vec
 <
 u8
 >
+)
+EnableNotification
+(
+(
+)
 )
 }
 pub
