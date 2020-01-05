@@ -2009,7 +2009,7 @@ Element
 (
 )
 .
-get_focus_state
+focus_state
 (
 )
 {
@@ -2472,7 +2472,7 @@ Element
 (
 )
 .
-get_state
+state
 (
 )
 .
@@ -3894,7 +3894,7 @@ Element
 (
 )
 .
-get_state
+state
 (
 )
 .
@@ -5607,7 +5607,7 @@ Element
 (
 )
 .
-get_disabled_state
+disabled_state
 (
 )
 |

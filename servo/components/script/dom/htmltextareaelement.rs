@@ -641,7 +641,7 @@ Element
 (
 )
 .
-get_focus_state
+focus_state
 (
 )
 {

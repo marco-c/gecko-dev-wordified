@@ -1857,7 +1857,7 @@ Element
 (
 )
 .
-get_disabled_state
+disabled_state
 (
 )
 {
@@ -2033,7 +2033,7 @@ Element
 (
 )
 .
-get_focus_state
+focus_state
 (
 )
 {
@@ -3931,7 +3931,7 @@ root_element
 =
 element
 .
-get_root_element
+root_element
 (
 )
 ;
