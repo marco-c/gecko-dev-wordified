@@ -3369,7 +3369,7 @@ it
 s
 pending
 .
-profiler_js_operation_callback
+profiler_js_interrupt_callback
 (
 )
 ;
