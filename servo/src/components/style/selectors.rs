@@ -4139,7 +4139,7 @@ LocalNameSelector
 e
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4203,7 +4203,7 @@ ClassSelector
 foo
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4267,7 +4267,7 @@ IDSelector
 bar
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4334,7 +4334,7 @@ LocalNameSelector
 e
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4344,7 +4344,7 @@ ClassSelector
 foo
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4354,7 +4354,7 @@ IDSelector
 bar
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4421,7 +4421,7 @@ IDSelector
 bar
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4445,7 +4445,7 @@ LocalNameSelector
 e
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4455,7 +4455,7 @@ ClassSelector
 foo
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4568,7 +4568,7 @@ name
 Foo
 "
 .
-to_owned
+to_string
 (
 )
 lower_name
@@ -4577,7 +4577,7 @@ lower_name
 foo
 "
 .
-to_owned
+to_string
 (
 )
 namespace
@@ -4697,7 +4697,7 @@ name
 Foo
 "
 .
-to_owned
+to_string
 (
 )
 lower_name
@@ -4706,7 +4706,7 @@ lower_name
 foo
 "
 .
-to_owned
+to_string
 (
 )
 namespace
@@ -4797,7 +4797,7 @@ LocalNameSelector
 e
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -4951,7 +4951,7 @@ LocalNameSelector
 div
 "
 .
-to_owned
+to_string
 (
 )
 )

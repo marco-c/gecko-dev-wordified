@@ -1229,7 +1229,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1237,7 +1237,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1247,7 +1247,7 @@ n
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1256,7 +1256,7 @@ foo
 nbar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1266,7 +1266,7 @@ bar
 nbaz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1275,7 +1275,7 @@ bar
 baz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1286,7 +1286,7 @@ n
 n
 "
 .
-to_owned
+to_string
 (
 )
 ]
@@ -1306,7 +1306,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1314,7 +1314,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1324,7 +1324,7 @@ n
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1333,7 +1333,7 @@ foo
 nbar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1343,7 +1343,7 @@ bar
 nbaz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1352,7 +1352,7 @@ bar
 baz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1363,7 +1363,7 @@ n
 n
 "
 .
-to_owned
+to_string
 (
 )
 ]
@@ -1465,7 +1465,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1473,7 +1473,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1483,7 +1483,7 @@ n
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1492,7 +1492,7 @@ foo
 nbar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1502,7 +1502,7 @@ bar
 nbaz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1511,7 +1511,7 @@ bar
 baz
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1522,7 +1522,7 @@ n
 n
 "
 .
-to_owned
+to_string
 (
 )
 ]
@@ -1542,7 +1542,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1550,7 +1550,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1558,7 +1558,7 @@ foo
 bar
 "
 .
-to_owned
+to_string
 (
 )
 "
@@ -1566,16 +1566,7 @@ foo
 bar
 "
 .
-to_owned
-(
-)
-"
-foo
-bar
-baz
-"
-.
-to_owned
+to_string
 (
 )
 "
@@ -1584,14 +1575,23 @@ bar
 baz
 "
 .
-to_owned
+to_string
+(
+)
+"
+foo
+bar
+baz
+"
+.
+to_string
 (
 )
 "
 foobarbaz
 "
 .
-to_owned
+to_string
 (
 )
 ]

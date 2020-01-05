@@ -352,7 +352,7 @@ new_from_file
 self
 file_name
 .
-to_owned
+to_string
 (
 )
 &
