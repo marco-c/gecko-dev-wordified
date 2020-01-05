@@ -15023,7 +15023,7 @@ Enable
 disable
 this
 component
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -15047,9 +15047,6 @@ bState
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 /

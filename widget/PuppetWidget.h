@@ -639,7 +639,8 @@ is
 supposed
 to
 entail
-NS_IMETHOD
+virtual
+void
 Enable
 (
 bool
@@ -650,9 +651,6 @@ override
 mEnabled
 =
 aState
-;
-return
-NS_OK
 ;
 }
 virtual

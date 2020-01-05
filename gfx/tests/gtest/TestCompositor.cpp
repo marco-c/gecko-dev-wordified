@@ -503,7 +503,8 @@ aRepaint
 override
 {
 }
-NS_IMETHOD
+virtual
+void
 Enable
 (
 bool
@@ -511,9 +512,6 @@ aState
 )
 override
 {
-return
-NS_OK
-;
 }
 virtual
 bool

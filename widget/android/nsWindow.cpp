@@ -10268,7 +10268,7 @@ break
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -10300,9 +10300,6 @@ void
 this
 aState
 )
-;
-return
-NS_OK
 ;
 }
 bool

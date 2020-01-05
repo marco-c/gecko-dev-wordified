@@ -1464,7 +1464,8 @@ void
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Enable
 (
 bool
