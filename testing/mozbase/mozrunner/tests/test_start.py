@@ -12,6 +12,8 @@ time
 import
 sleep
 import
+mozunit
+import
 mozrunnertest
 class
 MozrunnerStartTestCase
@@ -276,4 +278,18 @@ runner
 is_running
 (
 )
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

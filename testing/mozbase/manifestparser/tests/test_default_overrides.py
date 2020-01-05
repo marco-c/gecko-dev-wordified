@@ -66,6 +66,8 @@ import
 os
 import
 unittest
+import
+mozunit
 from
 manifestparser
 import
@@ -1145,7 +1147,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

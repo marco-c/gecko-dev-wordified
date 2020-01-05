@@ -65,6 +65,8 @@ MPL
 import
 mock
 import
+mozunit
+import
 mozrunnertest
 class
 MozrunnerCrashTestCase
@@ -317,4 +319,18 @@ runner
 .
 crashed
 4
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

@@ -19,6 +19,8 @@ import
 os
 import
 random
+import
+mozunit
 from
 manifestparser
 .
@@ -2280,4 +2282,18 @@ self
 run_all_combos
 (
 dirs
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

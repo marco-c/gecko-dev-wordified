@@ -72,6 +72,8 @@ import
 unittest
 import
 re
+import
+mozunit
 here
 =
 os
@@ -396,7 +398,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

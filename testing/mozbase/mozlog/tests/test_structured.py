@@ -35,6 +35,8 @@ ElementTree
 as
 ET
 import
+mozunit
+import
 mozfile
 from
 mozlog
@@ -9727,7 +9729,7 @@ __main__
 "
 :
     
-unittest
+mozunit
 .
 main
 (

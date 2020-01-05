@@ -65,6 +65,8 @@ MPL
 import
 signal
 import
+mozunit
+import
 mozrunnertest
 class
 MozrunnerStopTestCase
@@ -314,4 +316,18 @@ wait
 1
 )
 returncode
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

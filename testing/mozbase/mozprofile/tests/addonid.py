@@ -15,6 +15,8 @@ import
 unittest
 import
 shutil
+import
+mozunit
 from
 mozprofile
 import
@@ -1933,7 +1935,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

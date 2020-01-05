@@ -31,6 +31,8 @@ from
 tempfile
 import
 mkdtemp
+import
+mozunit
 from
 mozprofile
 .
@@ -1768,7 +1770,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -26,6 +26,8 @@ import
 tempfile
 import
 unittest
+import
+mozunit
 from
 mozfile
 import
@@ -413,7 +415,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

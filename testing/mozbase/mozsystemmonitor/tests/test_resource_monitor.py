@@ -59,6 +59,8 @@ import
 time
 import
 unittest
+import
+mozunit
 try
 :
     
@@ -1246,7 +1248,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

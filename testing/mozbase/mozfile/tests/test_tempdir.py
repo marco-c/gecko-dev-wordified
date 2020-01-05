@@ -81,6 +81,8 @@ import
 os
 import
 unittest
+import
+mozunit
 class
 TestTemporaryDirectory
 (
@@ -313,7 +315,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

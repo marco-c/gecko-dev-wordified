@@ -80,6 +80,8 @@ from
 StringIO
 import
 StringIO
+import
+mozunit
 class
 IniParserTest
 (
@@ -542,7 +544,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -59,6 +59,8 @@ import
 time
 import
 unittest
+import
+mozunit
 from
 moztest
 .
@@ -406,7 +408,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -71,6 +71,8 @@ unittest
 import
 zipfile
 import
+mozunit
+import
 mozfile
 from
 mozversion
@@ -633,7 +635,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

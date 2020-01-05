@@ -19,6 +19,8 @@ import
 os
 import
 unittest
+import
+mozunit
 from
 manifestparser
 .
@@ -1403,4 +1405,18 @@ tests
 7
 ]
 tests
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

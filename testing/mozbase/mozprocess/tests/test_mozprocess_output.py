@@ -12,7 +12,7 @@ io
 import
 os
 import
-unittest
+mozunit
 import
 proctest
 from
@@ -339,7 +339,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

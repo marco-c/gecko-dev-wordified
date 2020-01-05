@@ -10,11 +10,11 @@ python
 import
 os
 import
-unittest
-import
 proctest
 import
 mozinfo
+import
+mozunit
 from
 mozprocess
 import
@@ -614,7 +614,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

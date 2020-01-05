@@ -14,6 +14,8 @@ time
 import
 sleep
 import
+mozunit
+import
 mozrunnertest
 class
 RunnerThread
@@ -340,4 +342,18 @@ self
 runner
 .
 process_handler
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

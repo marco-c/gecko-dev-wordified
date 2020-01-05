@@ -74,6 +74,8 @@ import
 tempfile
 import
 unittest
+import
+mozunit
 #
 Store
 file
@@ -1430,7 +1432,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

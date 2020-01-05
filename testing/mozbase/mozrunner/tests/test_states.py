@@ -10,6 +10,8 @@ python
 import
 mozrunner
 import
+mozunit
+import
 mozrunnertest
 class
 MozrunnerStatesTestCase
@@ -95,4 +97,18 @@ self
 runner
 .
 wait
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
 )

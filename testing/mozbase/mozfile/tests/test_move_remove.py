@@ -26,6 +26,8 @@ contextlib
 import
 contextmanager
 import
+mozunit
+import
 mozfile
 import
 mozinfo
@@ -1835,7 +1837,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (

@@ -46,6 +46,8 @@ import
 unittest
 import
 urllib2
+import
+mozunit
 class
 PathTest
 (
@@ -792,7 +794,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (
