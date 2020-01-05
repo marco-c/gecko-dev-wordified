@@ -3498,6 +3498,15 @@ SheetParsingMode
 mozilla
 :
 :
+css
+:
+:
+URLMatchingFunction
+"
+"
+mozilla
+:
+:
 HalfCorner
 "
 "
@@ -5419,6 +5428,9 @@ LengthParsingMode
 "
 "
 InheritTarget
+"
+"
+URLMatchingFunction
 "
 ]
 ;
