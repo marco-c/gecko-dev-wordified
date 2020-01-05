@@ -11258,6 +11258,11 @@ cache
 entry
 "
 ;
+MOZ_RELEASE_ASSERT
+(
+false
+)
+;
 }
 cache
 .
