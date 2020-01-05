@@ -1815,7 +1815,7 @@ element
 /
 nsDataHashtable
 <
-nsPtrHashKey
+nsRefPtrHashKey
 <
 DOMIntersectionObserver
 >
