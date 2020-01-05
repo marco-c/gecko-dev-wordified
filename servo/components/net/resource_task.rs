@@ -2418,6 +2418,12 @@ http
 "
 https
 "
+|
+"
+view
+-
+source
+"
 =
 >
 http_loader
