@@ -55,6 +55,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 hidden
@@ -73,6 +74,7 @@ about
 :
 rights
 "
+triggeringPrincipal_base64
 }
 ]
 hidden

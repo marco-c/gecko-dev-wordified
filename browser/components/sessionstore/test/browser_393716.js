@@ -360,6 +360,7 @@ entries
 url
 :
 URL
+triggeringPrincipal_base64
 }
 ]
 extData

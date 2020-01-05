@@ -42,6 +42,7 @@ about
 :
 robots
 "
+triggeringPrincipal_base64
 children
 :
 [
@@ -53,6 +54,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -261,6 +263,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 }

@@ -93,6 +93,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -108,6 +109,7 @@ about
 :
 rights
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -145,6 +147,7 @@ org
 #
 1
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -177,6 +180,7 @@ org
 #
 2
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -209,6 +213,7 @@ org
 #
 3
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -241,6 +246,7 @@ org
 #
 4
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -282,6 +288,7 @@ com
 #
 1
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -314,6 +321,7 @@ com
 #
 2
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -346,6 +354,7 @@ com
 #
 3
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -378,6 +387,7 @@ com
 #
 4
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -712,6 +722,7 @@ example
 .
 org
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -1427,6 +1438,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 extData
@@ -1457,6 +1469,7 @@ example
 .
 org
 "
+triggeringPrincipal_base64
 }
 ]
 extData

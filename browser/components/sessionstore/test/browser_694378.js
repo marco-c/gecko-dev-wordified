@@ -88,6 +88,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -201,6 +202,7 @@ about
 :
 blank
 "
+triggeringPrincipal_base64
 }
 ]
 }

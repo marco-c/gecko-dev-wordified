@@ -62,6 +62,7 @@ entries
 [
 {
 url
+triggeringPrincipal_base64
 }
 ]
 formdata

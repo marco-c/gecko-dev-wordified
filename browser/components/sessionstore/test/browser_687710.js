@@ -145,6 +145,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 children
 :
 [
@@ -163,6 +164,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -181,6 +183,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 children
 :
 [
@@ -199,6 +202,7 @@ example
 .
 com
 "
+triggeringPrincipal_base64
 }
 ]
 }

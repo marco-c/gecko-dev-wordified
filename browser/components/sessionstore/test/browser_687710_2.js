@@ -90,6 +90,7 @@ com
 ?
 1
 "
+triggeringPrincipal_base64
 children
 :
 [
@@ -110,6 +111,7 @@ com
 ?
 10
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -132,6 +134,7 @@ com
 #
 a
 "
+triggeringPrincipal_base64
 children
 :
 [
@@ -154,6 +157,7 @@ com
 #
 aa
 "
+triggeringPrincipal_base64
 }
 ]
 }

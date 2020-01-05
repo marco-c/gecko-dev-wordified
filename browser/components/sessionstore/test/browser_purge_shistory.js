@@ -60,6 +60,7 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
 }
 {
 url
@@ -69,6 +70,7 @@ about
 :
 robots
 "
+triggeringPrincipal_base64
 }
 ]
 index

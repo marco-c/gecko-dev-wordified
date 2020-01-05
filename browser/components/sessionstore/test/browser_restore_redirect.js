@@ -79,6 +79,7 @@ restore_redirect_http
 .
 html
 "
+triggeringPrincipal_base64
 }
 ]
 }
@@ -263,6 +264,7 @@ restore_redirect_js
 .
 html
 "
+triggeringPrincipal_base64
 }
 ]
 }

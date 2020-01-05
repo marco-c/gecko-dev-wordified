@@ -65,6 +65,7 @@ CRASH_SHENTRY
 url
 :
 CRASH_URL
+triggeringPrincipal_base64
 }
 ;
 const
@@ -130,6 +131,7 @@ TAB_SHENTRY
 url
 :
 TAB_URL
+triggeringPrincipal_base64
 }
 ;
 const
