@@ -155,6 +155,15 @@ Origin
 :
 Unknown
 )
+logOperatorId
+(
+-
+1
+)
+logDisqualificationTime
+(
+UINT64_MAX
+)
 {
 }
 void
