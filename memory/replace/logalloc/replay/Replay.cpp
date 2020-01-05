@@ -1907,13 +1907,6 @@ defined
 (
 _WIN32
 )
-&
-&
-!
-defined
-(
-MOZ_JEMALLOC4
-)
 void
 malloc_init_hard
 (
@@ -2986,13 +2979,6 @@ if
 defined
 (
 _WIN32
-)
-&
-&
-!
-defined
-(
-MOZ_JEMALLOC4
 )
 malloc_init_hard
 (
