@@ -25931,12 +25931,6 @@ field
 )
 inherit
 initial
--
-moz
--
-system
--
-font
 SetValue
 (
 *
@@ -25974,9 +25968,7 @@ none
 /
 0
 Unused
-systemFont
-.
-synthesis
+Unused
 )
 ;
 /
