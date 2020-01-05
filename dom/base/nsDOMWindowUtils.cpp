@@ -18557,9 +18557,6 @@ GetPrimaryFrame
 ;
 if
 (
-frame
-&
-&
 !
 aPseudoElement
 .
@@ -18589,7 +18586,7 @@ nsLayoutUtils
 :
 GetBeforeFrame
 (
-frame
+element
 )
 ;
 }
@@ -18615,7 +18612,7 @@ nsLayoutUtils
 :
 GetAfterFrame
 (
-frame
+element
 )
 ;
 }
