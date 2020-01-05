@@ -1124,12 +1124,6 @@ None
         
 self
 .
-enUS_revision
-=
-None
-        
-self
-.
 revision
 =
 None
