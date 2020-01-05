@@ -133,7 +133,7 @@ Each
 frame
 is
 the
-constrellation
+constellation
 '
 s
 view
@@ -191,13 +191,13 @@ future
 is
 sorted
 reverse
-chronoogically
+chronologically
 :
 /
 /
 /
 in
-partiucular
+particular
 prev
 .
 pop
