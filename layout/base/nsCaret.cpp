@@ -2956,7 +2956,10 @@ userinterface
 mUserModify
 =
 =
-NS_STYLE_USER_MODIFY_READ_ONLY
+StyleUserModify
+:
+:
+ReadOnly
 )
 |
 |

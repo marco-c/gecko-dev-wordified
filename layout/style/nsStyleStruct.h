@@ -21451,7 +21451,10 @@ mUserInput
 [
 inherited
 ]
-uint8_t
+mozilla
+:
+:
+StyleUserModify
 mUserModify
 ;
 /
