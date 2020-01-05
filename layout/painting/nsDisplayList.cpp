@@ -22723,9 +22723,6 @@ bgClipRect
 &
 mBounds
 ;
-image
-:
-:
 DrawResult
 result
 =
@@ -23730,9 +23727,6 @@ bgClipRect
 =
 aClipRect
 ;
-image
-:
-:
 DrawResult
 result
 =
@@ -25344,9 +25338,6 @@ nsDisplayBackgroundGeometry
 UpdateDrawResult
 (
 this
-image
-:
-:
 DrawResult
 :
 :
@@ -31583,9 +31574,6 @@ PaintBorderFlags
 (
 )
 ;
-image
-:
-:
 DrawResult
 result
 =
