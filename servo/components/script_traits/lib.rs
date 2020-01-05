@@ -282,7 +282,6 @@ constellation_msg
 :
 {
 MozBrowserEvent
-PipelineExitType
 PipelineNamespaceId
 }
 ;
@@ -472,9 +471,6 @@ task
 exit
 .
 ExitNow
-(
-PipelineExitType
-)
 /
 /
 /
@@ -984,7 +980,6 @@ closed
 ExitPipeline
 (
 PipelineId
-PipelineExitType
 )
 /
 /

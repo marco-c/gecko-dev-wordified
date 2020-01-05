@@ -837,7 +837,6 @@ constellation_msg
 :
 {
 MozBrowserEvent
-PipelineExitType
 PipelineId
 }
 ;
@@ -6510,7 +6509,6 @@ ConstellationControlMsg
 ExitPipeline
 (
 id
-exit_type
 )
 )
 =
@@ -6522,7 +6520,6 @@ self
 handle_exit_pipeline_msg
 (
 id
-exit_type
 )
 {
 return
@@ -11135,9 +11132,6 @@ self
 id
 :
 PipelineId
-exit_type
-:
-PipelineExitType
 )
 -
 >
@@ -11324,9 +11318,6 @@ Msg
 :
 :
 ExitNow
-(
-exit_type
-)
 )
 .
 ok
@@ -11447,7 +11438,6 @@ shut_down_layout
 (
 &
 page
-exit_type
 )
 ;
 return
@@ -11488,7 +11478,6 @@ shut_down_layout
 &
 *
 child_page
-exit_type
 )
 ;
 }
@@ -15612,9 +15601,6 @@ Rc
 <
 Page
 >
-exit_type
-:
-PipelineExitType
 )
 {
 let
@@ -15816,9 +15802,6 @@ Msg
 :
 :
 ExitNow
-(
-exit_type
-)
 )
 .
 ok

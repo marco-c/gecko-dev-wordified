@@ -179,7 +179,6 @@ constellation_msg
 {
 ConstellationChan
 Failure
-PipelineExitType
 PipelineId
 }
 ;
@@ -680,9 +679,6 @@ will
 crash
 .
 ExitNow
-(
-PipelineExitType
-)
 /
 /
 /

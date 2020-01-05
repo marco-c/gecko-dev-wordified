@@ -267,7 +267,6 @@ constellation_msg
 :
 {
 FrameId
-PipelineExitType
 PipelineId
 }
 ;
@@ -4072,10 +4071,6 @@ pipeline
 .
 exit
 (
-PipelineExitType
-:
-:
-Complete
 )
 ;
 }
@@ -10220,10 +10215,6 @@ pipeline
 .
 exit
 (
-PipelineExitType
-:
-:
-PipelineOnly
 )
 ExitPipelineMode
 :

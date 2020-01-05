@@ -184,7 +184,6 @@ constellation_msg
 {
 LoadData
 MozBrowserEvent
-PipelineExitType
 WindowSizeData
 }
 ;
@@ -1728,9 +1727,6 @@ exit
 (
 &
 self
-exit_type
-:
-PipelineExitType
 )
 {
 debug
@@ -1797,7 +1793,6 @@ ExitPipeline
 self
 .
 id
-exit_type
 )
 )
 .
@@ -1981,10 +1976,6 @@ ExitPipeline
 self
 .
 id
-PipelineExitType
-:
-:
-PipelineOnly
 )
 )
 .
@@ -2005,13 +1996,6 @@ ChromeToPaintMsg
 :
 :
 Exit
-(
-None
-PipelineExitType
-:
-:
-PipelineOnly
-)
 )
 ;
 let
@@ -2036,12 +2020,6 @@ LayoutControlMsg
 :
 :
 ExitNow
-(
-PipelineExitType
-:
-:
-PipelineOnly
-)
 )
 .
 unwrap
