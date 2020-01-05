@@ -117,14 +117,6 @@ io
 [
 feature
 (
-libc
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
