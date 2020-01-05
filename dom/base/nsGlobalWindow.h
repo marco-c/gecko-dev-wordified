@@ -11602,6 +11602,12 @@ TabGroupOuter
 (
 )
 ;
+bool
+IsBackgroundInternal
+(
+)
+const
+;
 public
 :
 /
