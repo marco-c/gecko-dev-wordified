@@ -3712,7 +3712,7 @@ self
 )
 -
 >
-uint
+usize
 ;
 /
 /
@@ -3825,7 +3825,7 @@ dump_with_level
 self
 level
 :
-uint
+u32
 )
 ;
 }
@@ -5124,7 +5124,7 @@ above
 static
 TEXT_ALIGN_SHIFT
 :
-uint
+usize
 =
 11
 ;
@@ -5680,7 +5680,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -9359,7 +9359,7 @@ self
 )
 -
 >
-uint
+usize
 {
 base
 (
@@ -9644,7 +9644,7 @@ dump_with_level
 self
 level
 :
-uint
+u32
 )
 {
 let

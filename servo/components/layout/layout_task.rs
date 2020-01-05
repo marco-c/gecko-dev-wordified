@@ -1548,14 +1548,12 @@ debug
 Dirtying
 {
 :
-x
+p
 }
 "
 node_address
 .
 0
-as
-uint
 )
 ;
 let

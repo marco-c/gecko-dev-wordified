@@ -841,7 +841,7 @@ ConstructionResult
 None
 =
 >
-0u
+0
 &
 ConstructionResult
 :
@@ -852,7 +852,7 @@ _
 )
 =
 >
-0u
+0
 &
 ConstructionResult
 :

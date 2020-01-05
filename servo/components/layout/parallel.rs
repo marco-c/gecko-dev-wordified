@@ -685,7 +685,7 @@ store
 (
 child_count
 as
-int
+isize
 Ordering
 :
 :
@@ -1466,7 +1466,7 @@ len
 (
 )
 as
-int
+isize
 Ordering
 :
 :

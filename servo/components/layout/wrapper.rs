@@ -2845,7 +2845,7 @@ self
 )
 -
 >
-uint
+usize
 {
 let
 opaque
@@ -2869,7 +2869,7 @@ to_untrusted_node_address
 .
 0
 as
-uint
+usize
 }
 }
 impl
@@ -5635,7 +5635,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .

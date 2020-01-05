@@ -2639,7 +2639,7 @@ image
 .
 width
 as
-int
+isize
 )
 Au
 :
@@ -2650,7 +2650,7 @@ image
 .
 height
 as
-int
+isize
 )
 )
 ;
@@ -7249,7 +7249,7 @@ to_px
 w
 )
 as
-uint
+usize
 )
 ;
 let
@@ -7272,7 +7272,7 @@ to_px
 h
 )
 as
-uint
+usize
 )
 ;
 let
@@ -10755,10 +10755,10 @@ end_offset
 f32
 start_index
 :
-uint
+usize
 stop_count
 :
-uint
+usize
 }
 fn
 fmin

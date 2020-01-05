@@ -478,8 +478,6 @@ content_inline_size
 ;
 let
 span
-:
-int
 =
 match
 fragment

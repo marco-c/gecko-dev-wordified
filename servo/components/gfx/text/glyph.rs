@@ -3652,7 +3652,7 @@ glyph
 struct
 CharIndex
 (
-int
+isize
 )
 }
 impl
@@ -3771,7 +3771,7 @@ len
 (
 )
 as
-int
+isize
 )
 }
 pub
@@ -5384,7 +5384,7 @@ char_range
 :
 EachIndex
 <
-int
+isize
 CharIndex
 >
 glyph_range
@@ -5393,7 +5393,7 @@ Option
 <
 EachIndex
 <
-int
+isize
 CharIndex
 >
 >
@@ -5625,7 +5625,7 @@ len
 (
 )
 as
-int
+isize
 )
 )
 )

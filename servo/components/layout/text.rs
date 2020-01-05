@@ -1177,7 +1177,7 @@ count
 (
 )
 as
-int
+isize
 )
 ;
 last_whitespace
@@ -1227,7 +1227,7 @@ count
 (
 )
 as
-int
+isize
 )
 -
 old_length
