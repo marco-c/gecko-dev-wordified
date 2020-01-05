@@ -464,6 +464,13 @@ allocationMetadataBuilder
 (
 nullptr
 )
+varNames_
+(
+zone
+VarNameSet
+(
+)
+)
 lastAnimationTime
 (
 0
