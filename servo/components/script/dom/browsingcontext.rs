@@ -255,7 +255,6 @@ HandleId
 HandleObject
 HandleValue
 JSAutoCompartment
-JSAutoRequest
 }
 ;
 use
@@ -633,17 +632,6 @@ window
 .
 get_cx
 (
-)
-;
-let
-_ar
-=
-JSAutoRequest
-:
-:
-new
-(
-cx
 )
 ;
 let
