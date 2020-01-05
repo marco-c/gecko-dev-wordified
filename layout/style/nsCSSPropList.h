@@ -6317,7 +6317,7 @@ eStyleAnimType_Discrete
 CSS_PROP_DISPLAY
 (
 float
-float
+float_
 CSS_PROP_PUBLIC_OR_PRIVATE
 (
 CssFloat
