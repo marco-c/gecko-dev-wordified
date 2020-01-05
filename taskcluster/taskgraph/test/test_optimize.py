@@ -586,10 +586,7 @@ lambda
 self
 params
 :
-(
 False
-None
-)
 )
         
 optimization
@@ -605,10 +602,7 @@ lambda
 self
 params
 :
-(
 True
-None
-)
 )
         
 optimization
@@ -627,35 +621,7 @@ self
 params
 task
 :
-(
-True
 task
-)
-)
-        
-optimization
-(
-'
-false
--
-with
--
-taskid
-'
-)
-(
-lambda
-self
-params
-:
-(
-False
-'
-some
--
-taskid
-'
-)
 )
     
 def
@@ -857,17 +823,16 @@ t
 .
 label
 :
-(
-t
-.
-optimized
 repl
 (
 t
 .
 task_id
 )
-)
+or
+t
+.
+optimized
 for
 t
 in
@@ -1021,24 +986,15 @@ graph
             
 task1
 =
-(
 False
-None
-)
             
 task2
 =
-(
 False
-None
-)
             
 task3
 =
-(
 False
-None
-)
         
 )
     
@@ -1260,17 +1216,11 @@ graph
             
 task1
 =
-(
 False
-None
-)
             
 task2
 =
-(
 False
-None
-)
         
 )
         
@@ -1420,28 +1370,19 @@ graph
             
 task1
 =
-(
 False
-None
-)
             
 task2
 =
-(
-True
 '
 taskid
 '
-)
             
 task3
 =
-(
-True
 '
 taskid
 '
-)
         
 )
     
