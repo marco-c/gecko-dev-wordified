@@ -561,6 +561,7 @@ fn
 )
 -
 >
+(
 proc
 (
 &
@@ -568,12 +569,16 @@ proc
 u8
 ]
 )
+:
+'
+static
 -
 >
 Option
 <
 Image
 >
+)
 ;
 impl
 ImageCacheTask
@@ -2911,7 +2916,7 @@ Ok
 (
 image_data
 .
-move_iter
+into_iter
 (
 )
 .

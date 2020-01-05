@@ -806,7 +806,7 @@ parse_selector_list
 (
 prelude
 .
-move_iter
+into_iter
 (
 )
 namespaces
@@ -838,7 +838,7 @@ parse_property_declaration_list
 (
 block
 .
-move_iter
+into_iter
 (
 )
 base_url

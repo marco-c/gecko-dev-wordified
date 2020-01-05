@@ -187,8 +187,6 @@ Timespec
 }
 ;
 use
-ResponseHeaderCollection
-=
 http
 :
 :
@@ -199,10 +197,10 @@ response
 :
 :
 HeaderCollection
+as
+ResponseHeaderCollection
 ;
 use
-RequestHeaderCollection
-=
 http
 :
 :
@@ -213,10 +211,10 @@ request
 :
 :
 HeaderCollection
+as
+RequestHeaderCollection
 ;
 use
-RequestHeader
-=
 http
 :
 :
@@ -227,6 +225,8 @@ request
 :
 :
 Header
+as
+RequestHeader
 ;
 use
 http
@@ -1366,7 +1366,6 @@ writer
 .
 headers
 =
-box
 preflight
 .
 headers
@@ -1441,7 +1440,6 @@ cors_response
 .
 headers
 =
-*
 response
 .
 headers
@@ -1546,7 +1544,6 @@ match
 find_header
 (
 &
-*
 response
 .
 headers
@@ -1597,7 +1594,6 @@ match
 find_header
 (
 &
-*
 response
 .
 headers
@@ -1905,7 +1901,6 @@ uint
 find_header
 (
 &
-*
 response
 .
 headers
@@ -2653,7 +2648,7 @@ CORSCacheEntry
 =
 buf
 .
-move_iter
+into_iter
 (
 )
 .
@@ -2744,7 +2739,7 @@ CORSCacheEntry
 =
 buf
 .
-move_iter
+into_iter
 (
 )
 .
@@ -2868,7 +2863,7 @@ entry
 =
 buf
 .
-mut_iter
+iter_mut
 (
 )
 .
@@ -3098,7 +3093,7 @@ entry
 =
 buf
 .
-mut_iter
+iter_mut
 (
 )
 .

@@ -915,7 +915,7 @@ entry
 =
 buf
 .
-mut_iter
+iter_mut
 (
 )
 .
@@ -1069,7 +1069,7 @@ entry
 =
 buf
 .
-mut_iter
+iter_mut
 (
 )
 .
@@ -1228,7 +1228,7 @@ CORSCacheEntry
 =
 buf
 .
-move_iter
+into_iter
 (
 )
 .
@@ -1319,7 +1319,7 @@ CORSCacheEntry
 =
 buf
 .
-move_iter
+into_iter
 (
 )
 .

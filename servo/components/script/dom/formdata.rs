@@ -733,6 +733,8 @@ name
 )
 {
 match
+(
+*
 self
 .
 data
@@ -744,12 +746,10 @@ deref
 borrow
 (
 )
-.
-get
-(
-&
-name
 )
+[
+name
+]
 [
 0
 ]

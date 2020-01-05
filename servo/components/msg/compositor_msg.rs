@@ -825,6 +825,9 @@ self
 Box
 <
 ScriptListener
++
+'
+static
 >
 ;
 }
@@ -847,6 +850,9 @@ for
 Box
 <
 ScriptListener
++
+'
+static
 >
 {
 fn

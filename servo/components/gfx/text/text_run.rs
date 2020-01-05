@@ -772,7 +772,11 @@ self
 .
 clump
 .
-take_unwrap
+take
+(
+)
+.
+unwrap
 (
 )
 ;

@@ -119,8 +119,6 @@ content_type
 MediaType
 ;
 use
-ResponseHeaderCollection
-=
 http
 :
 :
@@ -131,10 +129,10 @@ response
 :
 :
 HeaderCollection
+as
+ResponseHeaderCollection
 ;
 use
-RequestHeaderCollection
-=
 http
 :
 :
@@ -145,6 +143,8 @@ request
 :
 :
 HeaderCollection
+as
+RequestHeaderCollection
 ;
 use
 http
@@ -165,8 +165,6 @@ url
 Url
 ;
 use
-StatusOk
-=
 http
 :
 :
@@ -174,6 +172,8 @@ status
 :
 :
 Ok
+as
+StatusOk
 ;
 use
 http

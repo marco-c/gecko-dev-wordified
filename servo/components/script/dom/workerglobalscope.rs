@@ -669,7 +669,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -714,7 +718,7 @@ url
 in
 url_strings
 .
-move_iter
+into_iter
 (
 )
 {
@@ -780,7 +784,7 @@ url
 in
 urls
 .
-move_iter
+into_iter
 (
 )
 {
@@ -971,7 +975,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .
@@ -1049,7 +1057,11 @@ get
 (
 )
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

@@ -950,7 +950,7 @@ new_buffers
 .
 buffers
 .
-move_iter
+into_iter
 (
 )
 .
@@ -1130,7 +1130,7 @@ buffer
 in
 buffers
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -1346,7 +1346,7 @@ tile
 in
 tiles
 .
-move_iter
+into_iter
 (
 )
 {

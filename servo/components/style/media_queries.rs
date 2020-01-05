@@ -335,7 +335,7 @@ parse_rule_list
 (
 block
 .
-move_iter
+into_iter
 (
 )
 )
@@ -589,7 +589,7 @@ mq
 in
 mq
 .
-move_iter
+into_iter
 (
 )
 {
@@ -622,7 +622,7 @@ mq
 in
 mq
 .
-move_iter
+into_iter
 (
 )
 {

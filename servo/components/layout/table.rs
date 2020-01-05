@@ -674,7 +674,7 @@ self_inline_size
 in
 self_inline_sizes
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -1351,7 +1351,7 @@ self
 .
 col_inline_sizes
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -2067,7 +2067,7 @@ self
 .
 col_inline_sizes
 .
-mut_iter
+iter_mut
 (
 )
 {
@@ -2111,7 +2111,7 @@ self
 .
 col_inline_sizes
 .
-mut_iter
+iter_mut
 (
 )
 {

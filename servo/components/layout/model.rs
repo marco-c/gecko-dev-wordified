@@ -79,12 +79,12 @@ fragment
 Fragment
 ;
 use
-computed
-=
 style
 :
 :
 computed_values
+as
+computed
 ;
 use
 geom

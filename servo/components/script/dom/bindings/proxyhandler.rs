@@ -259,6 +259,7 @@ u32
 0
 ;
 pub
+unsafe
 extern
 fn
 getPropertyDescriptor
@@ -288,8 +289,6 @@ JSPropertyDescriptor
 -
 >
 bool
-{
-unsafe
 {
 let
 handler
@@ -366,7 +365,7 @@ obj
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -386,8 +385,8 @@ desc
 =
 0
 }
-}
 pub
+unsafe
 fn
 defineProperty_
 (
@@ -424,8 +423,6 @@ c_uint
 =
 160
 ;
-unsafe
-{
 /
 /
 FIXME
@@ -525,7 +522,7 @@ RUST_js_GetErrorMessage
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 JSMSG_GETTER_ONLY
@@ -591,8 +588,8 @@ attrs
 0
 ;
 }
-}
 pub
+unsafe
 extern
 fn
 defineProperty
@@ -629,6 +626,7 @@ desc
 )
 }
 pub
+unsafe
 extern
 fn
 delete_
@@ -655,8 +653,6 @@ bool
 -
 >
 bool
-{
-unsafe
 {
 let
 expando
@@ -690,7 +686,6 @@ mut
 bp
 )
 ;
-}
 }
 pub
 fn
@@ -812,7 +807,7 @@ return
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -970,7 +965,7 @@ is_undefined
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 }
@@ -1040,13 +1035,13 @@ cx
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 GetObjectParent
@@ -1066,7 +1061,7 @@ return
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

@@ -13931,6 +13931,15 @@ decorators
 append
 (
 '
+unsafe
+'
+)
+            
+decorators
+.
+append
+(
+'
 extern
 '
 )
@@ -14286,13 +14295,13 @@ s
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -29863,7 +29872,7 @@ obj
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;
@@ -35382,7 +35391,7 @@ new
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 NullValue
@@ -35457,7 +35466,7 @@ n
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 \
@@ -37641,19 +37650,6 @@ Bindings
 :
 :
 *
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-codegen
-:
-:
-RegisterBindings
 '
             
 '
@@ -40842,7 +40838,7 @@ GetContext
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 "
@@ -45845,6 +45841,8 @@ T
 {
 fromBound
 }
++
+Reflectable
 >
 (
 derived
@@ -45897,6 +45895,8 @@ T
 {
 fromBound
 }
++
+Reflectable
 >
 (
 derived

@@ -699,7 +699,7 @@ quicksort_by
 (
 v
 .
-as_mut_slice
+as_slice_mut
 (
 )
 compare_ints

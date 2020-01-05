@@ -919,7 +919,7 @@ glyphs
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 1

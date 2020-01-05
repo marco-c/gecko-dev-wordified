@@ -206,7 +206,7 @@ types
 :
 :
 {
-Encoding
+EncodingRef
 EncodeReplace
 }
 ;
@@ -830,10 +830,7 @@ encoding
 :
 Option
 <
-&
-'
-static
-Encoding
+EncodingRef
 >
 )
 -
@@ -865,10 +862,7 @@ encoding
 :
 Option
 <
-&
-'
-static
-Encoding
+EncodingRef
 >
 )
 -
@@ -907,10 +901,7 @@ value
 DOMString
 encoding
 :
-&
-'
-static
-Encoding
+EncodingRef
 )
 -
 >
@@ -1146,10 +1137,7 @@ unwrap_or
 (
 UTF_8
 as
-&
-'
-static
-Encoding
+EncodingRef
 )
 ;
 let

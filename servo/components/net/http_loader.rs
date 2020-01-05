@@ -554,7 +554,6 @@ writer
 .
 headers
 =
-box
 load_data
 .
 headers
@@ -1028,7 +1027,6 @@ headers
 =
 Some
 (
-*
 response
 .
 headers

@@ -87,8 +87,6 @@ larger
 allocations
 .
 use
-i
-=
 std
 :
 :
@@ -96,6 +94,8 @@ mem
 :
 :
 init
+as
+i
 ;
 use
 std
@@ -191,7 +191,7 @@ T
 )
 ;
 fn
-vec_mut_slice
+vec_slice_mut
 <
 '
 a
@@ -224,7 +224,7 @@ T
 inline
 ]
 fn
-vec_mut_slice_from
+vec_slice_from_mut
 <
 '
 a
@@ -260,7 +260,7 @@ vec_len
 ;
 self
 .
-vec_mut_slice
+vec_slice_mut
 (
 start
 len
@@ -329,7 +329,7 @@ value
 inline
 ]
 fn
-vec_mut_slice
+vec_slice_mut
 <
 '
 a
@@ -359,7 +359,7 @@ T
 {
 self
 .
-mut_slice
+slice_mut
 (
 start
 end
@@ -480,6 +480,11 @@ SmallVecPrivate
 <
 T
 >
+where
+T
+:
+'
+static
 {
 fn
 inline_size
@@ -750,7 +755,7 @@ moving
 it
 .
 fn
-move_iter
+into_iter
 <
 '
 a
@@ -984,7 +989,7 @@ value
 in
 other
 .
-move_iter
+into_iter
 (
 )
 {
@@ -1571,7 +1576,7 @@ len
 )
 }
 fn
-as_mut_slice
+as_slice_mut
 <
 '
 a
@@ -1604,14 +1609,14 @@ len
 ;
 self
 .
-mut_slice
+slice_mut
 (
 0
 len
 )
 }
 fn
-mut_slice
+slice_mut
 <
 '
 a
@@ -1696,7 +1701,7 @@ start
 }
 }
 fn
-mut_slice_from
+slice_from_mut
 <
 '
 a
@@ -1732,7 +1737,7 @@ len
 ;
 self
 .
-mut_slice
+slice_mut
 (
 start
 len
@@ -2114,6 +2119,9 @@ impl
 '
 a
 T
+:
+'
+static
 >
 Iterator
 <
@@ -2231,6 +2239,9 @@ impl
 '
 a
 T
+:
+'
+static
 >
 Drop
 for
@@ -2401,6 +2412,9 @@ size
 impl
 <
 T
+:
+'
+static
 >
 SmallVecPrivate
 <
@@ -2585,6 +2599,9 @@ new_ptr
 impl
 <
 T
+:
+'
+static
 >
 SmallVec
 <
@@ -2640,6 +2657,9 @@ cap
 impl
 <
 T
+:
+'
+static
 >
 VecLike
 <
@@ -2699,7 +2719,7 @@ value
 inline
 ]
 fn
-vec_mut_slice
+vec_slice_mut
 <
 '
 a
@@ -2729,7 +2749,7 @@ T
 {
 self
 .
-mut_slice
+slice_mut
 (
 start
 end
@@ -2739,6 +2759,9 @@ end
 impl
 <
 T
+:
+'
+static
 >
 name
 <
@@ -2857,6 +2880,9 @@ unsafe_destructor
 impl
 <
 T
+:
+'
+static
 >
 Drop
 for
@@ -3064,6 +3090,9 @@ impl
 T
 :
 Clone
++
+'
+static
 >
 Clone
 for

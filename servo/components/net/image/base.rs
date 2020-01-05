@@ -67,11 +67,11 @@ range_step
 ;
 use
 stb_image
-=
-stb_image
 :
 :
 image
+as
+stb_image
 ;
 use
 png

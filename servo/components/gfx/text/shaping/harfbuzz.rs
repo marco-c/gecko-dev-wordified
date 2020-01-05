@@ -1176,7 +1176,7 @@ glyph_func
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 None
@@ -1189,7 +1189,7 @@ glyph_h_advance_func
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 None
@@ -1202,13 +1202,13 @@ glyph_h_kerning_func
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 )
@@ -1374,7 +1374,7 @@ hb_buffer
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 0
@@ -1576,7 +1576,7 @@ have
 glyphs
 let
 mut
-byteToGlyph
+byte_to_glyph
 :
 Vec
 <
@@ -1601,7 +1601,7 @@ byte_max
 =
 char_max
 {
-byteToGlyph
+byte_to_glyph
 =
 Vec
 :
@@ -1617,7 +1617,7 @@ NO_GLYPH
 }
 else
 {
-byteToGlyph
+byte_to_glyph
 =
 Vec
 :
@@ -1643,7 +1643,7 @@ char_indices
 )
 {
 *
-byteToGlyph
+byte_to_glyph
 .
 get_mut
 (
@@ -1719,7 +1719,7 @@ assert
 !
 (
 *
-byteToGlyph
+byte_to_glyph
 .
 get
 (
@@ -1733,7 +1733,7 @@ CONTINUATION_BYTE
 )
 ;
 *
-byteToGlyph
+byte_to_glyph
 .
 get_mut
 (
@@ -1761,7 +1761,7 @@ set
 out
 of
 range
-byteToGlyph
+byte_to_glyph
 :
 idx
 =
@@ -1860,7 +1860,7 @@ d
 i
 ch
 *
-byteToGlyph
+byte_to_glyph
 .
 get
 (
@@ -2186,7 +2186,7 @@ end
 byte_max
 &
 &
-byteToGlyph
+byte_to_glyph
 [
 char_byte_span
 .
@@ -2311,7 +2311,7 @@ each_index
 )
 {
 if
-byteToGlyph
+byte_to_glyph
 [
 i
 as
@@ -2327,7 +2327,7 @@ cmp
 :
 max
 (
-byteToGlyph
+byte_to_glyph
 [
 i
 as
@@ -2760,7 +2760,7 @@ end
 byte_max
 &
 &
-byteToGlyph
+byte_to_glyph
 [
 covered_byte_span
 .
@@ -3771,7 +3771,7 @@ None
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 Some
@@ -3806,7 +3806,7 @@ hb_blob_t
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

@@ -313,7 +313,11 @@ template
 .
 ctfont
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

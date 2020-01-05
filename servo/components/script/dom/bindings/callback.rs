@@ -835,7 +835,7 @@ return
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

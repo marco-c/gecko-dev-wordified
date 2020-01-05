@@ -118,10 +118,6 @@ unused_variable
 ]
 extern
 crate
-std
-;
-extern
-crate
 getopts
 ;
 extern
@@ -248,7 +244,7 @@ parse_config
 (
 args
 .
-move_iter
+into_iter
 (
 )
 .
@@ -882,7 +878,11 @@ prc
 .
 stdout
 .
-get_mut_ref
+as_mut
+(
+)
+.
+unwrap
 (
 )
 .

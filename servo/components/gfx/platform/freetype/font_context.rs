@@ -404,7 +404,7 @@ user
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 alloc
@@ -428,7 +428,7 @@ FT_Library
 ptr
 :
 :
-mut_null
+null_mut
 (
 )
 ;

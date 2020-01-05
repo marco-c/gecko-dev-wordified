@@ -949,7 +949,7 @@ get_jsobject
 (
 )
 as
-uint
+uintptr_t
 ;
 OpaqueNode
 (

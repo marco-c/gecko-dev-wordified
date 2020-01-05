@@ -2237,7 +2237,7 @@ as_mut_slice
 (
 )
 .
-mut_iter
+iter_mut
 (
 )
 {

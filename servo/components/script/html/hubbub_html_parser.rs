@@ -4561,7 +4561,11 @@ html
 "
 base_url
 .
-get_ref
+as_ref
+(
+)
+.
+unwrap
 (
 )
 .

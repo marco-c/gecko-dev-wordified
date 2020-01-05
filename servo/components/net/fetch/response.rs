@@ -75,8 +75,6 @@ UnregisteredStatus
 }
 ;
 use
-StatusOk
-=
 http
 :
 :
@@ -84,6 +82,8 @@ status
 :
 :
 Ok
+as
+StatusOk
 ;
 use
 http
