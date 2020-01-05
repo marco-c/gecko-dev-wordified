@@ -81441,7 +81441,7 @@ nsStyleFilter
 pub
 mType
 :
-i32
+u32
 pub
 mFilterParameter
 :
