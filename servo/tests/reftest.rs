@@ -1013,7 +1013,7 @@ Path
 ]
 id
 :
-uint
+usize
 servo_args
 :
 Vec
@@ -1086,7 +1086,7 @@ render_mode
 RenderMode
 id_offset
 :
-uint
+usize
 )
 -
 >
@@ -1792,7 +1792,7 @@ reftest
 Reftest
 side
 :
-uint
+usize
 )
 -
 >
