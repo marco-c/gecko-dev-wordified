@@ -6776,7 +6776,6 @@ style
 }
 ;
 let
-mut
 lighter_color
 ;
 let
