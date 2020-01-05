@@ -379,6 +379,7 @@ euclid
 :
 :
 {
+Matrix4D
 Point2D
 Rect
 Size2D
@@ -14075,6 +14076,16 @@ transform_matrix
 (
 &
 stacking_relative_border_box
+)
+.
+unwrap_or
+(
+Matrix4D
+:
+:
+identity
+(
+)
 )
 .
 inverse

@@ -387,6 +387,7 @@ euclid
 :
 :
 {
+Matrix4D
 Point2D
 Size2D
 }
@@ -2550,6 +2551,16 @@ transform_matrix
 (
 &
 position
+)
+.
+unwrap_or
+(
+Matrix4D
+:
+:
+identity
+(
+)
 )
 .
 to_2d
