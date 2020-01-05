@@ -198,6 +198,11 @@ URLClassifierParent
 =
 default
 ;
+bool
+mIPCOpen
+=
+true
+;
 }
 ;
 }

@@ -367,6 +367,11 @@ nsresult
 aRv
 )
 {
+if
+(
+mIPCOpen
+)
+{
 Unused
 <
 <
@@ -376,6 +381,7 @@ this
 aRv
 )
 ;
+}
 return
 NS_OK
 ;
@@ -390,4 +396,8 @@ ActorDestroyReason
 aWhy
 )
 {
+mIPCOpen
+=
+false
+;
 }
