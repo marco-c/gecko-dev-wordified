@@ -612,6 +612,12 @@ spx_uint32_t
 unsigned
 int
 #
+define
+speex_assert
+(
+cond
+)
+#
 else
 /
 *
