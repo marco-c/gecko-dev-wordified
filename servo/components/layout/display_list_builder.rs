@@ -6382,11 +6382,11 @@ self
 inline_context
 {
 for
-style
+node
 in
 inline_context
 .
-styles
+nodes
 .
 iter
 (
@@ -6402,7 +6402,8 @@ build_display_list_for_box_shadow_if_applicable
 (
 &
 *
-*
+node
+.
 style
 display_list
 layout_context
@@ -6419,7 +6420,8 @@ build_display_list_for_background_if_applicable
 (
 &
 *
-*
+node
+.
 style
 display_list
 layout_context
@@ -6436,7 +6438,8 @@ build_display_list_for_borders_if_applicable
 (
 &
 *
-*
+node
+.
 style
 border_painting_mode
 display_list
@@ -6453,7 +6456,8 @@ build_display_list_for_outline_if_applicable
 (
 &
 *
-*
+node
+.
 style
 display_list
 &

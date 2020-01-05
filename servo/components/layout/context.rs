@@ -166,6 +166,7 @@ layout_interface
 {
 Animation
 LayoutChan
+ReflowGoal
 }
 ;
 use
@@ -683,6 +684,18 @@ Sender
 <
 Animation
 >
+/
+/
+/
+Why
+is
+this
+reflow
+occurring
+pub
+goal
+:
+ReflowGoal
 }
 pub
 struct

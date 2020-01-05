@@ -778,6 +778,7 @@ reflow
 derive
 (
 PartialEq
+Copy
 Debug
 )
 ]
