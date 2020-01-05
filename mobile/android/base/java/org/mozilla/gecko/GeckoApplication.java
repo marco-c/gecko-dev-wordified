@@ -945,13 +945,12 @@ zerdatime
 +
 SystemClock
 .
-uptimeMillis
+elapsedRealtime
 (
 )
 +
 "
 -
-Fennec
 application
 start
 "
