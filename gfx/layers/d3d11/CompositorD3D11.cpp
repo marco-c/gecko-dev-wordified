@@ -5234,6 +5234,7 @@ textures
 return
 ;
 }
+const
 float
 *
 yuvToRgb
@@ -5241,7 +5242,7 @@ yuvToRgb
 gfxUtils
 :
 :
-Get4x3YuvColorMatrix
+YuvToRgbMatrix4x3RowMajor
 (
 ycbcrEffect
 -
