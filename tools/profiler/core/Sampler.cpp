@@ -8701,11 +8701,6 @@ ThreadId
 )
 )
 ;
-if
-(
-sample
-)
-{
 mozilla
 :
 :
@@ -8736,7 +8731,6 @@ ToMilliseconds
 )
 )
 ;
-}
 PseudoStack
 *
 stack
@@ -8890,9 +8884,6 @@ marker
 }
 if
 (
-sample
-&
-&
 currThreadProfile
 .
 GetThreadResponsiveness
@@ -8960,9 +8951,6 @@ recording
 if
 (
 sample
-&
-&
-sample
 -
 >
 rssMemory
@@ -9009,9 +8997,6 @@ recording
 .
 if
 (
-sample
-&
-&
 sample
 -
 >
