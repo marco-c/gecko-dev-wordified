@@ -1472,6 +1472,11 @@ GetRootScrollFrame
 (
 )
 ;
+if
+(
+rootFrame
+)
+{
 nsPresContext
 *
 presContext
@@ -1555,6 +1560,7 @@ GetScrollPortRect
 (
 )
 ;
+}
 }
 }
 nsMargin
@@ -2071,6 +2077,12 @@ rootRect
 bool
 isInSimilarOriginBrowsingContext
 =
+rootFrame
+&
+&
+targetFrame
+&
+&
 CheckSimilarOrigin
 (
 root
