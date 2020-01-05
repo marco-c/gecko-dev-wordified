@@ -1345,7 +1345,7 @@ mixed_content
 .
 hsts_priming_cache_timeout
 "
-10080
+604800
 )
 ;
 /
