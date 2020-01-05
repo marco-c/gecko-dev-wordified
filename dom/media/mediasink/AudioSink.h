@@ -255,7 +255,7 @@ AudioData
 >
 &
 aAudioQueue
-int64_t
+TimeUnit
 aStartTime
 const
 AudioInfo
@@ -330,12 +330,12 @@ only
 .
 *
 /
-int64_t
+TimeUnit
 GetPosition
 (
 )
 ;
-int64_t
+TimeUnit
 GetEndTime
 (
 )
@@ -536,11 +536,9 @@ frame
 that
 was
 played
-in
-/
-/
-microseconds
 .
+/
+/
 We
 can
 add
@@ -560,7 +558,7 @@ audio
 time
 .
 const
-int64_t
+TimeUnit
 mStartTime
 ;
 /
@@ -609,7 +607,7 @@ of
 MDSM
 only
 .
-int64_t
+TimeUnit
 mLastGoodPosition
 ;
 const
@@ -1021,7 +1019,7 @@ AudioData
 >
 mLastProcessedPacket
 ;
-int64_t
+TimeUnit
 mLastEndTime
 ;
 /
