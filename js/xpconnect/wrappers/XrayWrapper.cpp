@@ -547,6 +547,9 @@ case
 JSProto_Date
 :
 case
+JSProto_DataView
+:
+case
 JSProto_Object
 :
 case
