@@ -11292,15 +11292,6 @@ the
 inline
 fragments
 .
-let
-containing_block_block_size
-=
-self
-.
-base
-.
-block_container_explicit_block_size
-;
 for
 fragment
 in
@@ -11322,7 +11313,6 @@ fragment
 .
 assign_replaced_block_size_if_necessary
 (
-containing_block_block_size
 )
 ;
 }
