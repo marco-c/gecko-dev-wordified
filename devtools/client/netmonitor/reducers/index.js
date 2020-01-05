@@ -93,6 +93,18 @@ filters
 "
 )
 ;
+const
+sidebar
+=
+require
+(
+"
+.
+/
+sidebar
+"
+)
+;
 module
 .
 exports
@@ -101,6 +113,7 @@ combineReducers
 (
 {
 filters
+sidebar
 }
 )
 ;

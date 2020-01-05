@@ -73,6 +73,18 @@ filters
 "
 )
 ;
+const
+sidebar
+=
+require
+(
+"
+.
+/
+sidebar
+"
+)
+;
 module
 .
 exports
@@ -84,5 +96,6 @@ assign
 {
 }
 filters
+sidebar
 )
 ;
