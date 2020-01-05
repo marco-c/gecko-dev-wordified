@@ -2543,8 +2543,6 @@ aParent
 nsIFile
 *
 aFile
-bool
-aTemporary
 )
 {
 RefPtr
@@ -2561,7 +2559,6 @@ new
 BlobImplFile
 (
 aFile
-aTemporary
 )
 )
 ;
