@@ -787,6 +787,12 @@ GetTextRenderer
 >
 RenderText
 (
+aManager
+-
+>
+GetCompositor
+(
+)
 ss
 .
 str
