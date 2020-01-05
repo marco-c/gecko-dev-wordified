@@ -424,6 +424,17 @@ aResult
 ;
 static
 void
+AppendFontTagAsString
+(
+uint32_t
+aTag
+nsAString
+&
+aResult
+)
+;
+static
+void
 AppendFontFeatureSettings
 (
 const
