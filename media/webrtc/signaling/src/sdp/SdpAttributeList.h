@@ -522,6 +522,16 @@ const
 0
 ;
 virtual
+unsigned
+int
+GetSctpPort
+(
+)
+const
+=
+0
+;
+virtual
 const
 SdpSsrcAttributeList
 &

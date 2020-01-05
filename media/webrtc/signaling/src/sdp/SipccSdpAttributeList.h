@@ -494,6 +494,15 @@ GetSctpmap
 const
 override
 ;
+virtual
+unsigned
+int
+GetSctpPort
+(
+)
+const
+override
+;
 /
 /
 These
