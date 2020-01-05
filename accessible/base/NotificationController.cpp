@@ -5099,8 +5099,7 @@ mDocument
 >
 ContentRemoved
 (
-containerElm
-textNode
+textAcc
 )
 ;
 continue
