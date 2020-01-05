@@ -3826,8 +3826,6 @@ optimize_and_draw_into_context
 mut
 paint_context
 &
-tile_bounds
-&
 matrix
 None
 )
