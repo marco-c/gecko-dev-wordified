@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-EVENT_SHOW
-*
-/
 '
 use
 strict

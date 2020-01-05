@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-EVENT_TEXT_INSERTED
-EVENT_TEXT_REMOVED
-nsIAccessibleTextChangeEvent
-*
-/
 '
 use
 strict

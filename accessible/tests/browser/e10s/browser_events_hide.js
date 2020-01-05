@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-EVENT_HIDE
-*
-/
 '
 use
 strict

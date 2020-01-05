@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-EVENT_TEXT_CARET_MOVED
-nsIAccessibleCaretMoveEvent
-*
-/
 '
 use
 strict
