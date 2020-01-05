@@ -1172,6 +1172,10 @@ rtp_header
 extension
 .
 rid
+.
+get
+(
+)
 rid_
 )
 !
@@ -1197,6 +1201,10 @@ rtp_header
 extension
 .
 rid
+.
+get
+(
+)
 )
 +
 1
@@ -1210,6 +1218,10 @@ rtp_header
 extension
 .
 rid
+.
+get
+(
+)
 )
 ;
 }
