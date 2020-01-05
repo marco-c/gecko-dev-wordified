@@ -13793,7 +13793,10 @@ see
 nsStyleConsts
 .
 h
-uint8_t
+mozilla
+:
+:
+StyleHyphens
 mHyphens
 ;
 /
