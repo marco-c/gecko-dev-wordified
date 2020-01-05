@@ -275,7 +275,7 @@ selectedBrowser
 "
 about
 :
-addons
+mozilla
 "
 )
 ;
@@ -331,7 +331,7 @@ robots
 "
 about
 :
-mozilla
+buildconfig
 "
 ]
 )
