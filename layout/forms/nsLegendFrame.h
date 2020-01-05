@@ -117,7 +117,6 @@ h
 "
 class
 nsLegendFrame
-final
 :
 public
 nsBlockFrame
@@ -202,9 +201,6 @@ endif
 int32_t
 GetLogicalAlign
 (
-mozilla
-:
-:
 WritingMode
 aCBWM
 )
