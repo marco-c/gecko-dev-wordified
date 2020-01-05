@@ -502,6 +502,15 @@ include
 "
 mozilla
 /
+StyleAnimationValueInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h

@@ -987,6 +987,15 @@ include
 "
 mozilla
 /
+StyleAnimationValueInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSetHandle
 .
 h
