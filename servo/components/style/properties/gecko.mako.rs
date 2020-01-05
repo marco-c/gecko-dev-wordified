@@ -5316,6 +5316,16 @@ LengthOrNone
 :
 impl_style_coord
 "
+MaxLength
+"
+:
+impl_style_coord
+"
+MinLength
+"
+:
+impl_style_coord
+"
 Number
 "
 :
