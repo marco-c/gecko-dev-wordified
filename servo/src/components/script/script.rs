@@ -133,7 +133,6 @@ feature
 globs
 macro_rules
 struct_variant
-managed_boxes
 phase
 )
 ]

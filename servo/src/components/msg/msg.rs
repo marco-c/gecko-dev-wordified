@@ -104,14 +104,6 @@ rlib
 "
 ]
 ;
-#
-[
-feature
-(
-managed_boxes
-)
-]
-;
 extern
 crate
 azure

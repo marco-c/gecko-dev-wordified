@@ -109,7 +109,6 @@ rlib
 feature
 (
 globs
-managed_boxes
 )
 ]
 ;
