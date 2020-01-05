@@ -273,16 +273,6 @@ tiled
 DrawTarget
 *
 /
-DATA_SHARED
-/
-*
-Data
-surface
-using
-shared
-memory
-*
-/
 }
 ;
 enum
