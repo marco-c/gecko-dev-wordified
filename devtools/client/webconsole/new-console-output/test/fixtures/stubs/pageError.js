@@ -644,6 +644,13 @@ userProvidedStyles
 "
 :
 null
+\
+"
+notes
+\
+"
+:
+null
 }
 "
 "
@@ -961,6 +968,11 @@ default
 "
 "
 userProvidedStyles
+"
+:
+null
+"
+notes
 "
 :
 null
@@ -1376,6 +1388,11 @@ functionName
 null
 }
 ]
+"
+notes
+"
+:
+null
 }
 }
 )
