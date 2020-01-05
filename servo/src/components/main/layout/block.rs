@@ -14479,7 +14479,8 @@ left
 right
 available_width
 static_x_offset
-direction
+.
+.
 }
 =
 input
@@ -15617,7 +15618,8 @@ left
 right
 available_width
 static_x_offset
-direction
+.
+.
 }
 =
 input
