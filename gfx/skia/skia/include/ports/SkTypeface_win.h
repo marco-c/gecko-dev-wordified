@@ -346,6 +346,8 @@ IDWriteFontFace
 aFontFace
 SkFontStyle
 aStyle
+bool
+aForceGDI
 )
 ;
 SK_API
