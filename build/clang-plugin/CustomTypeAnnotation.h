@@ -366,10 +366,6 @@ NonTemporaryClass
 ;
 extern
 CustomTypeAnnotation
-MustUse
-;
-extern
-CustomTypeAnnotation
 NonParam
 ;
 #
