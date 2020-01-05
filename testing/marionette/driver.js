@@ -1372,15 +1372,6 @@ toUpperCase
 proprietary
 extensions
 "
-XULappId
-"
-:
-Services
-.
-appinfo
-.
-ID
-"
 appBuildId
 "
 :
