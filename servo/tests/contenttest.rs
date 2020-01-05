@@ -107,6 +107,15 @@ to
 those
 terms
 .
+#
+!
+[
+deny
+(
+unused_imports
+unused_variable
+)
+]
 extern
 crate
 std

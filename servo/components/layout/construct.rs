@@ -2156,7 +2156,6 @@ clone
 }
 {
 let
-mut
 inline_flow
 =
 inline_flow_ref
