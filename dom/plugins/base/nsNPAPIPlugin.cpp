@@ -2533,6 +2533,12 @@ void
 userData
 )
 :
+Runnable
+(
+"
+nsPluginThreadRunnable
+"
+)
 mInstance
 (
 instance

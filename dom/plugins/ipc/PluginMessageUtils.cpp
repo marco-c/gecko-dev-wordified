@@ -200,6 +200,12 @@ NPObject
 o
 )
 :
+Runnable
+(
+"
+DeferNPObjectReleaseRunnable
+"
+)
 mFuncs
 (
 f

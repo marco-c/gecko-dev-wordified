@@ -285,6 +285,12 @@ uint32_t
 aTimeoutMs
 )
 :
+Runnable
+(
+"
+nsPluginHangUITelemetry
+"
+)
 mResponseCode
 (
 aResponseCode

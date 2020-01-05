@@ -857,6 +857,12 @@ bool
 aFinished
 )
 :
+Runnable
+(
+"
+AsyncPaintWaitEvent
+"
+)
 mContent
 (
 aContent

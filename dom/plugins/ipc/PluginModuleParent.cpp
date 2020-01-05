@@ -1064,6 +1064,12 @@ FinishInjectorInitTask
 (
 )
 :
+CancelableRunnable
+(
+"
+FinishInjectorInitTask
+"
+)
 mMutex
 (
 "
