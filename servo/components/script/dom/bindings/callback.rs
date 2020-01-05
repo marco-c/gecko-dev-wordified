@@ -484,13 +484,6 @@ types
 .
 #
 [
-allow
-(
-raw_pointer_derive
-)
-]
-#
-[
 derive
 (
 JSTraceable

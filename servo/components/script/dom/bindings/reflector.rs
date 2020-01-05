@@ -213,7 +213,6 @@ object
 [
 allow
 (
-raw_pointer_derive
 unrooted_must_root
 )
 ]

@@ -202,13 +202,6 @@ Vec
 [
 dom_struct
 ]
-#
-[
-allow
-(
-raw_pointer_derive
-)
-]
 pub
 struct
 ImageData
