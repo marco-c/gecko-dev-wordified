@@ -337,7 +337,17 @@ long
 time
 profiler_start
 (
+/
+*
+entries
+*
+/
 100
+/
+*
+interval
+*
+/
 10000
 features
 features_size
