@@ -1663,7 +1663,7 @@ dstFormat
 webgl
 -
 >
-GenerateWarning
+GeneratePerfWarning
 (
 "
 %
@@ -1691,7 +1691,7 @@ dstIsPremult
 webgl
 -
 >
-GenerateWarning
+GeneratePerfWarning
 (
 "
 %
@@ -1724,7 +1724,7 @@ dstOrigin
 webgl
 -
 >
-GenerateWarning
+GeneratePerfWarning
 (
 "
 %
@@ -1753,7 +1753,7 @@ dstStride
 webgl
 -
 >
-GenerateWarning
+GeneratePerfWarning
 (
 "
 %
@@ -3814,7 +3814,7 @@ false
 webgl
 -
 >
-GenerateWarning
+GeneratePerfWarning
 (
 "
 %
