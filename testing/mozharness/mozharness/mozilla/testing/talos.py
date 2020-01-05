@@ -155,6 +155,14 @@ WARNING
 from
 mozharness
 .
+base
+.
+python
+import
+Python3Virtualenv
+from
+mozharness
+.
 mozilla
 .
 blob_upload
@@ -880,6 +888,8 @@ TestingMixin
 MercurialScript
 BlobUploadMixin
 TooltoolMixin
+            
+Python3Virtualenv
 )
 :
     
