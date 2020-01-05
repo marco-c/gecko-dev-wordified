@@ -3287,8 +3287,8 @@ LengthOrPercentageOrNumber
 =
 Either
 <
-LengthOrPercentage
 Number
+LengthOrPercentage
 >
 ;
 #

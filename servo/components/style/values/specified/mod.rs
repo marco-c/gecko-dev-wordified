@@ -8268,8 +8268,8 @@ LengthOrPercentageOrNumber
 =
 Either
 <
-LengthOrPercentage
 Number
+LengthOrPercentage
 >
 ;
 impl
@@ -8374,7 +8374,7 @@ Ok
 Either
 :
 :
-Second
+First
 (
 num
 )
@@ -8394,7 +8394,7 @@ map
 Either
 :
 :
-First
+Second
 )
 }
 }
