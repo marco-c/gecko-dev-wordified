@@ -3590,11 +3590,13 @@ let
 font
 :
 *
+mut
 Font
 =
 font_data
 as
 *
+mut
 Font
 ;
 assert
