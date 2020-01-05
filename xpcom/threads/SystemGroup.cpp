@@ -307,6 +307,7 @@ sSingleton
 >
 Shutdown
 (
+true
 )
 ;
 sSingleton
