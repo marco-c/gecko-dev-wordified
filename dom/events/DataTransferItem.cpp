@@ -2071,6 +2071,7 @@ FileSystemDirectoryEntry
 (
 global
 directory
+nullptr
 fs
 )
 ;
@@ -2084,6 +2085,7 @@ FileSystemFileEntry
 (
 global
 file
+nullptr
 fs
 )
 ;

@@ -209,6 +209,9 @@ aGlobal
 Directory
 *
 aDirectory
+FileSystemDirectoryEntry
+*
+aParentEntry
 FileSystem
 *
 aFileSystem
@@ -217,6 +220,7 @@ aFileSystem
 FileSystemEntry
 (
 aGlobal
+aParentEntry
 aFileSystem
 )
 mDirectory
@@ -342,7 +346,6 @@ FileSystemDirectoryEntry
 CreateReader
 (
 )
-const
 {
 MOZ_ASSERT
 (
@@ -358,9 +361,7 @@ reader
 new
 FileSystemDirectoryReader
 (
-GetParentObject
-(
-)
+this
 Filesystem
 (
 )
@@ -412,7 +413,6 @@ aErrorCallback
 GetInternalType
 aType
 )
-const
 {
 MOZ_ASSERT
 (
@@ -554,9 +554,7 @@ handler
 new
 GetEntryHelper
 (
-GetParentObject
-(
-)
+this
 Filesystem
 (
 )

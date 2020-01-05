@@ -138,10 +138,13 @@ namespace
 dom
 {
 class
+BlobCallback
+;
+class
 File
 ;
 class
-BlobCallback
+FileSystemDirectoryEntry
 ;
 class
 FileSystemFileEntry
@@ -166,6 +169,9 @@ aGlobalObject
 File
 *
 aFile
+FileSystemDirectoryEntry
+*
+aParentEntry
 FileSystem
 *
 aFileSystem

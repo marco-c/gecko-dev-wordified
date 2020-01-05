@@ -196,6 +196,7 @@ FileSystemDirectoryEntry
 (
 aGlobal
 nullptr
+nullptr
 aFileSystem
 )
 mEntries
@@ -273,7 +274,6 @@ FileSystemRootDirectoryEntry
 CreateReader
 (
 )
-const
 {
 RefPtr
 <
@@ -284,9 +284,7 @@ reader
 new
 FileSystemRootDirectoryReader
 (
-GetParentObject
-(
-)
+this
 Filesystem
 (
 )
@@ -338,7 +336,6 @@ aErrorCallback
 GetInternalType
 aType
 )
-const
 {
 if
 (

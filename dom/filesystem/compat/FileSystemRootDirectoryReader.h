@@ -151,9 +151,9 @@ FileSystemDirectoryReader
 explicit
 FileSystemRootDirectoryReader
 (
-nsIGlobalObject
+FileSystemDirectoryEntry
 *
-aGlobalObject
+aParentEntry
 FileSystem
 *
 aFileSystem

@@ -308,9 +308,9 @@ FileSystemRootDirectoryReader
 :
 FileSystemRootDirectoryReader
 (
-nsIGlobalObject
+FileSystemDirectoryEntry
 *
-aGlobal
+aParentEntry
 FileSystem
 *
 aFileSystem
@@ -328,7 +328,7 @@ aEntries
 :
 FileSystemDirectoryReader
 (
-aGlobal
+aParentEntry
 aFileSystem
 nullptr
 )
@@ -343,7 +343,7 @@ false
 {
 MOZ_ASSERT
 (
-aGlobal
+aParentEntry
 )
 ;
 MOZ_ASSERT
