@@ -455,6 +455,17 @@ bitflags
 ;
 #
 [
+allow
+(
+unused_extern_crates
+)
+]
+extern
+crate
+byteorder
+;
+#
+[
 cfg
 (
 feature
