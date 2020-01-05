@@ -239,9 +239,6 @@ RestyleTracker
 class
 StyleAnimationValue
 ;
-class
-ServoAnimationRule
-;
 struct
 AnimationPerformanceWarning
 ;

@@ -351,15 +351,6 @@ include
 "
 mozilla
 /
-ServoAnimationRule
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoElementSnapshot
 .
 h
