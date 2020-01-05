@@ -6201,6 +6201,14 @@ aStartIndex
 =
 -
 1
+&
+&
+!
+(
+aOptionsMask
+&
+NO_RESELECT
+)
 )
 {
 optionsSelected
@@ -7240,10 +7248,6 @@ const
 nsAttrValue
 *
 aValue
-const
-nsAttrValue
-*
-aOldValue
 bool
 aNotify
 )
@@ -7337,7 +7341,6 @@ AfterSetAttr
 aNameSpaceID
 aName
 aValue
-aOldValue
 aNotify
 )
 ;
@@ -9031,6 +9034,8 @@ mask
 SET_DISABLED
 |
 NOTIFY
+|
+NO_RESELECT
 ;
 if
 (
@@ -9057,6 +9062,14 @@ SetOptionsSelectedByIndex
 i
 i
 mask
+)
+;
+option
+-
+>
+SetSelectedChanged
+(
+false
 )
 ;
 }
