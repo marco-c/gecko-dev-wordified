@@ -190,12 +190,6 @@ mParent
 aParent
 )
 {
-mRequest
-.
-mFlags
-=
-0
-;
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
@@ -265,10 +259,7 @@ void
 SetRequest
 (
 const
-nsInvalidateRequestList
-:
-:
-Request
+nsRect
 &
 aRequest
 )
@@ -292,10 +283,7 @@ nsIDOMEvent
 >
 mParent
 ;
-nsInvalidateRequestList
-:
-:
-Request
+nsRect
 mRequest
 ;
 }

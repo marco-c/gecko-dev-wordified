@@ -214,7 +214,10 @@ WidgetEvent
 aEvent
 EventMessage
 aEventMessage
-nsInvalidateRequestList
+nsTArray
+<
+nsRect
+>
 *
 aInvalidateRequests
 uint64_t
@@ -374,10 +377,7 @@ SystemCallerGuarantee
 ;
 nsTArray
 <
-nsInvalidateRequestList
-:
-:
-Request
+nsRect
 >
 mInvalidateRequests
 ;
@@ -445,7 +445,10 @@ mozilla
 :
 :
 eVoidEvent
-nsInvalidateRequestList
+nsTArray
+<
+nsRect
+>
 *
 aInvalidateRequests
 =
