@@ -5485,7 +5485,7 @@ return
 /
 Long
 .
-valueOf
+parseLong
 might
 throw
 ;
@@ -5522,7 +5522,7 @@ try
 return
 Long
 .
-valueOf
+parseLong
 (
 timestampStr
 )
