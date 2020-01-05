@@ -215,6 +215,9 @@ nsImageLoadingContent
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -1246,6 +1249,9 @@ nsImageLoadingContent
 ;
 friend
 class
+mozilla
+:
+:
 PresShell
 ;
 nsresult

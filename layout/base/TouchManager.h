@@ -167,14 +167,14 @@ nsRefPtrHashtable
 h
 "
 class
-PresShell
-;
-class
 nsIDocument
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 class
 TouchManager
 {
