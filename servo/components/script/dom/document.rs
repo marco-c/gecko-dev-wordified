@@ -1398,7 +1398,7 @@ style
 selector_impl
 :
 :
-ElementSnapshot
+Snapshot
 ;
 use
 style
@@ -2500,7 +2500,7 @@ JS
 <
 Element
 >
-ElementSnapshot
+Snapshot
 >
 >
 /
@@ -13428,7 +13428,7 @@ LayoutJS
 <
 Element
 >
-ElementSnapshot
+Snapshot
 )
 >
 ;
@@ -13517,7 +13517,7 @@ LayoutJS
 <
 Element
 >
-ElementSnapshot
+Snapshot
 )
 >
 {
@@ -15395,7 +15395,7 @@ or_insert_with
 |
 |
 {
-ElementSnapshot
+Snapshot
 :
 :
 new
@@ -15479,7 +15479,7 @@ or_insert_with
 |
 |
 {
-ElementSnapshot
+Snapshot
 :
 :
 new

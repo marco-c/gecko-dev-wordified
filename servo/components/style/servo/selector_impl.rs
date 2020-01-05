@@ -2267,11 +2267,6 @@ ElementExt
 for
 E
 {
-type
-Snapshot
-=
-ServoElementSnapshot
-;
 fn
 is_link
 (

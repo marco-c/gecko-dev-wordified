@@ -107,12 +107,6 @@ range
 Range
 ;
 use
-restyle_damage
-:
-:
-RestyleDamage
-;
-use
 std
 :
 :
@@ -209,6 +203,7 @@ selector_impl
 {
 PseudoElement
 PseudoElementCascadeType
+RestyleDamage
 ServoSelectorImpl
 }
 ;
