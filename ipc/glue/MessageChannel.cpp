@@ -8168,7 +8168,7 @@ NOTE
 :
 Only
 collect
-IPC_SYNC_LATENCY_MS
+IPC_SYNC_MAIN_LATENCY_MS
 on
 the
 main
@@ -8198,7 +8198,7 @@ Accumulate
 Telemetry
 :
 :
-IPC_SYNC_LATENCY_MS
+IPC_SYNC_MAIN_LATENCY_MS
 nsDependentCString
 (
 msgName
