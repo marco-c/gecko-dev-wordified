@@ -172,33 +172,8 @@ input
 )
 :
     
-#
-There
-'
-s
-a
-check
-in
-old
--
-configure
-.
-in
-under
-the
-system
--
-nss
-handling
-    
-#
-that
-should
-match
-this
-.
-    
-if
+is_darwin
+=
 buildconfig
 .
 substs
@@ -207,54 +182,10 @@ substs
 OS_ARCH
 '
 ]
-not
-in
-(
-'
-Linux
-'
+=
+=
 '
 Darwin
-'
-)
-:
-        
-print
-"
-Error
-:
-unhandled
-OS_ARCH
-%
-s
-"
-%
-buildconfig
-.
-substs
-[
-'
-OS_ARCH
-'
-]
-        
-return
-1
-    
-is_linux
-=
-buildconfig
-.
-substs
-[
-'
-OS_ARCH
-'
-]
-=
-=
-'
-Linux
 '
     
 with
@@ -306,9 +237,8 @@ continue
             
 #
 On
-non
--
-Linux
+OS
+X
 remove
 all
 lines
@@ -319,8 +249,7 @@ containing
 '
             
 if
-not
-is_linux
+is_darwin
 and
 '
 ;
@@ -416,9 +345,8 @@ it
 #
 and
 on
-non
--
-Linux
+OS
+X
 remove
 it
 as
@@ -445,7 +373,7 @@ i
 :
                 
 if
-is_linux
+is_darwin
 :
                     
 line
@@ -454,8 +382,6 @@ line
 [
 :
 i
-+
-1
 ]
                 
 else
@@ -467,13 +393,14 @@ line
 [
 :
 i
++
+1
 ]
             
 #
 On
-non
--
-Linux
+OS
+X
 symbols
 get
 an
@@ -485,8 +412,7 @@ front
 if
 line
 and
-not
-is_linux
+is_darwin
 :
                 
 output
