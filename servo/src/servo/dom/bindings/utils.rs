@@ -170,7 +170,7 @@ rust_box
 T
 >
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -179,7 +179,7 @@ reinterpret_cast
 x
 )
 ;
-unsafe
+cast
 :
 :
 forget
@@ -231,7 +231,7 @@ rust_box
 T
 >
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -240,7 +240,7 @@ reinterpret_cast
 x
 )
 ;
-unsafe
+cast
 :
 :
 forget
@@ -439,7 +439,7 @@ len
 let
 cbuf
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -502,7 +502,7 @@ compartment
 *
 bare_compartment
 =
-unsafe
+cast
 :
 :
 reinterpret_cast
@@ -644,6 +644,7 @@ str
 >
 fn
 (
++
 bare_compartment
 )
 -
@@ -651,6 +652,7 @@ bare_compartment
 JSClass
 {
 |
++
 compartment
 :
 bare_compartment
@@ -928,6 +930,7 @@ u8
 >
 fn
 (
++
 bare_compartment
 )
 -
@@ -935,6 +938,7 @@ bare_compartment
 JSClass
 {
 |
++
 compartment
 :
 bare_compartment

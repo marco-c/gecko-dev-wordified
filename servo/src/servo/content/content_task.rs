@@ -1128,6 +1128,7 @@ evaluate_script
 compartment
 .
 global_obj
+*
 bytes
 ~
 "

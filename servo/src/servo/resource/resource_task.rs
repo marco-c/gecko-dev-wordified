@@ -163,10 +163,9 @@ pure
 fn
 eq
 (
-&
-&
 other
 :
+&
 ProgressMsg
 )
 -
@@ -178,6 +177,7 @@ match
 copy
 self
 copy
+*
 other
 )
 {
@@ -237,10 +237,9 @@ pure
 fn
 ne
 (
-&
-&
 other
 :
+&
 ProgressMsg
 )
 -
@@ -652,6 +651,7 @@ loader_factory
 )
 =
 copy
+*
 scheme_loader
 ;
 if

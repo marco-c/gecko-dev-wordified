@@ -971,8 +971,11 @@ cur_y
 )
 ;
 cur_y
-+
 =
+cur_y
+.
+add
+(
 au
 :
 :
@@ -988,6 +991,7 @@ position
 size
 .
 height
+)
 )
 ;
 }

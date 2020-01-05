@@ -169,7 +169,7 @@ shared_box
 RenderBox
 >
 =
-unsafe
+cast
 :
 :
 transmute
@@ -224,7 +224,7 @@ new_box
 :
 RenderBox
 =
-unsafe
+cast
 :
 :
 transmute
