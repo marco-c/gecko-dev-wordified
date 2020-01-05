@@ -5974,7 +5974,13 @@ locale
 .
 initBytes
 (
+JS
+:
+:
+UniqueChars
+(
 newLocale
+)
 )
 ;
 }

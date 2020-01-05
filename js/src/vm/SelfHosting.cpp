@@ -1988,10 +1988,9 @@ i
 .
 initBytes
 (
-bytes
-.
-release
+Move
 (
+bytes
 )
 )
 ;

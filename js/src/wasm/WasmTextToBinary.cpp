@@ -2734,11 +2734,9 @@ lineStart_
 +
 1
 ;
+*
 error
--
->
-reset
-(
+=
 JS_smprintf
 (
 "
@@ -2754,7 +2752,6 @@ u
 "
 line_
 column
-)
 )
 ;
 }
@@ -2785,11 +2782,9 @@ lineStart_
 +
 1
 ;
+*
 error
--
->
-reset
-(
+=
 JS_smprintf
 (
 "
@@ -2809,7 +2804,6 @@ s
 line_
 column
 msg
-)
 )
 ;
 }
@@ -22002,11 +21996,9 @@ c_str
 )
 )
 ;
+*
 error_
--
->
-reset
-(
+=
 JS_smprintf
 (
 "
@@ -22025,7 +22017,6 @@ utf8Chars
 .
 get
 (
-)
 )
 )
 ;
@@ -22491,11 +22482,9 @@ char
 message
 )
 {
+*
 error_
--
->
-reset
-(
+=
 JS_smprintf
 (
 "
@@ -22503,7 +22492,6 @@ JS_smprintf
 s
 "
 message
-)
 )
 ;
 return

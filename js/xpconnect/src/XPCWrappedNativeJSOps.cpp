@@ -472,8 +472,7 @@ XPCCallContext
 ccx
 )
 {
-char
-*
+UniqueChars
 sz
 ;
 XPCWrappedNative
@@ -491,7 +490,9 @@ if
 wrapper
 )
 sz
-=
+.
+reset
+(
 wrapper
 -
 >
@@ -501,6 +502,7 @@ ccx
 .
 GetTearOff
 (
+)
 )
 )
 ;
@@ -542,11 +544,10 @@ JS_NewStringCopyZ
 (
 ccx
 sz
-)
-;
-JS_smprintf_free
+.
+get
 (
-sz
+)
 )
 ;
 if
