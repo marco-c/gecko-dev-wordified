@@ -1514,7 +1514,6 @@ tab
 crashed
 page
 .
-let
 tabCrashedPagePromise
 =
 BrowserTestUtils

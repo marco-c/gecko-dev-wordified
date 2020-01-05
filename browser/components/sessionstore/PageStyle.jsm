@@ -486,12 +486,12 @@ function
 restoreFrame
 (
 root
-data
+frameData
 )
 {
 if
 (
-data
+frameData
 .
 hasOwnProperty
 (
@@ -507,7 +507,7 @@ document
 .
 selectedStyleSheetSet
 =
-data
+frameData
 .
 pageStyle
 ;
@@ -515,7 +515,7 @@ pageStyle
 if
 (
 !
-data
+frameData
 .
 hasOwnProperty
 (
@@ -535,7 +535,7 @@ root
 .
 frames
 ;
-data
+frameData
 .
 children
 .

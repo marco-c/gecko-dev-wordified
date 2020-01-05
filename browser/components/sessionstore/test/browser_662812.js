@@ -91,7 +91,7 @@ function
 )
 {
 let
-state
+state2
 =
 JSON
 .
@@ -108,7 +108,7 @@ window
 ok
 (
 !
-state
+state2
 .
 windows
 [

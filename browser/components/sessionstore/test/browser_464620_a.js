@@ -204,7 +204,7 @@ addEventListener
 "
 function
 (
-aEvent
+eventTab2
 )
 {
 tab2

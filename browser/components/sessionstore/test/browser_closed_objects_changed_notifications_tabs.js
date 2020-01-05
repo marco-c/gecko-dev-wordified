@@ -252,7 +252,7 @@ callback
 )
 {
 let
-awaitNotification
+notification
 =
 TestUtils
 .
@@ -267,7 +267,7 @@ callback
 )
 ;
 yield
-awaitNotification
+notification
 ;
 }
 add_task

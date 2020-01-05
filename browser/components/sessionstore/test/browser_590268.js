@@ -102,11 +102,6 @@ requestLongerTimeout
 2
 )
 ;
-let
-startedTest
-=
-false
-;
 /
 /
 wasLoaded

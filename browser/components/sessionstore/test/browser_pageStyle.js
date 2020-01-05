@@ -133,7 +133,11 @@ for
 let
 [
 title
+/
+*
 disabled
+*
+/
 ]
 of
 sheets
@@ -163,7 +167,7 @@ tab2
 )
 ;
 let
-sheets
+tab2Sheets
 =
 yield
 getStyleSheets
@@ -176,13 +180,12 @@ linkedBrowser
 let
 enabled
 =
-sheets
+tab2Sheets
 .
 filter
 (
 (
 [
-title
 disabled
 ]
 )

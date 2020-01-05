@@ -378,7 +378,7 @@ tab
 )
 ;
 let
-tabs
+restoredTabs
 =
 testWindow
 .
@@ -389,7 +389,7 @@ tabs
 ok
 (
 !
-tabs
+restoredTabs
 [
 0
 ]
@@ -405,7 +405,7 @@ visible
 ;
 ok
 (
-tabs
+restoredTabs
 [
 1
 ]
@@ -422,7 +422,7 @@ hidden
 ;
 ok
 (
-tabs
+restoredTabs
 [
 2
 ]

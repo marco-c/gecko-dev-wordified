@@ -270,6 +270,18 @@ currentURI
 "
 )
 ;
+/
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
 yield
 ContentTask
 .
@@ -280,7 +292,7 @@ PAGE_2
 function
 *
 (
-PAGE_2
+expectedURL
 )
 {
 docShell
@@ -301,7 +313,7 @@ docShell
 currentURI
 .
 spec
-PAGE_2
+expectedURL
 "
 Content
 should

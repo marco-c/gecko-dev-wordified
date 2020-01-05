@@ -258,8 +258,8 @@ function
 *
 (
 [
-index
-length
+expectedIndex
+expectedLength
 ]
 )
 {
@@ -297,7 +297,7 @@ webNav
 sessionHistory
 .
 index
-index
+expectedIndex
 -
 1
 "
@@ -313,9 +313,9 @@ is
 webNav
 .
 canGoForward
-index
+expectedIndex
 <
-length
+expectedLength
 "
 canGoForward
 is
@@ -328,7 +328,7 @@ is
 webNav
 .
 canGoBack
-index
+expectedIndex
 >
 1
 "

@@ -209,6 +209,18 @@ browser
 snippet
 )
 {
+/
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
 return
 ContentTask
 .
@@ -219,7 +231,7 @@ snippet
 function
 *
 (
-snippet
+codeSnippet
 )
 {
 let
@@ -254,7 +266,7 @@ location
 .
 eval
 (
-snippet
+codeSnippet
 )
 ;
 return

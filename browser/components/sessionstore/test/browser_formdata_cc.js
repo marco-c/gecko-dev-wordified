@@ -483,7 +483,7 @@ formValue
 function
 *
 (
-formValue
+newValue
 )
 {
 content
@@ -499,7 +499,7 @@ txt
 .
 setUserInput
 (
-formValue
+newValue
 )
 ;
 }

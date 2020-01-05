@@ -464,7 +464,6 @@ let
 tabs
 :
 [
-_
 {
 storage
 }

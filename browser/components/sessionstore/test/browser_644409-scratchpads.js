@@ -102,7 +102,7 @@ of
 windows
 opened
 var
-restored
+restoredStates
 =
 [
 ]
@@ -113,7 +113,7 @@ addState
 state
 )
 {
-restored
+restoredStates
 .
 push
 (
@@ -122,7 +122,7 @@ state
 ;
 if
 (
-restored
+restoredStates
 .
 length
 =
@@ -138,7 +138,7 @@ ok
 (
 statesMatch
 (
-restored
+restoredStates
 testState
 .
 scratchpads
