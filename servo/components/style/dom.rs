@@ -153,10 +153,10 @@ matching
 DeclarationBlock
 ;
 use
-smallvec
+sink
 :
 :
-VecLike
+Push
 ;
 use
 std
@@ -1502,7 +1502,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <

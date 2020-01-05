@@ -545,6 +545,15 @@ selector_impl
 :
 ElementExt
 ;
+use
+style
+:
+:
+sink
+:
+:
+Push
+;
 #
 [
 allow
@@ -2606,7 +2615,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <

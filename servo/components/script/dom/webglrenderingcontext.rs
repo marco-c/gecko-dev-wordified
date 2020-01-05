@@ -63,6 +63,7 @@ canvas_traits
 {
 CanvasCommonMsg
 CanvasMsg
+byte_swap
 }
 ;
 use
@@ -521,15 +522,6 @@ cell
 :
 :
 Cell
-;
-use
-util
-:
-:
-vec
-:
-:
-byte_swap
 ;
 use
 webrender_traits

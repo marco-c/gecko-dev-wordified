@@ -131,9 +131,6 @@ traversal
 DomTraversalContext
 ;
 use
-util
-:
-:
 workqueue
 :
 :

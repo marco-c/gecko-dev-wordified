@@ -561,12 +561,6 @@ NamespaceConstraint
 }
 ;
 use
-smallvec
-:
-:
-VecLike
-;
-use
 std
 :
 :
@@ -710,6 +704,15 @@ servo
 PrivateStyleData
 SharedStyleContext
 }
+;
+use
+style
+:
+:
+sink
+:
+:
+Push
 ;
 use
 url
@@ -2549,7 +2552,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <
@@ -6650,7 +6653,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <
