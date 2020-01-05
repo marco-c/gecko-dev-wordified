@@ -487,8 +487,6 @@ mThread
 )
 ;
 }
-protected
-:
 void
 StreamSamplesAndMarkers
 (

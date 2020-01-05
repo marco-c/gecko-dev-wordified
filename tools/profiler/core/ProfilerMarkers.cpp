@@ -117,13 +117,6 @@ h
 #
 include
 "
-SyncProfile
-.
-h
-"
-#
-include
-"
 gfxASurface
 .
 h

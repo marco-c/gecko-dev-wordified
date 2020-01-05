@@ -124,10 +124,10 @@ class
 ProfileBuffer
 ;
 class
-SyncProfile
+SpliceableJSONWriter
 ;
 class
-SpliceableJSONWriter
+ThreadInfo
 ;
 class
 UniqueStacks
@@ -143,9 +143,9 @@ ProfilerBacktrace
 ProfileBuffer
 *
 aBuffer
-SyncProfile
+ThreadInfo
 *
-aProfile
+aThreadInfo
 )
 ;
 ~
@@ -247,9 +247,9 @@ ProfileBuffer
 *
 mBuffer
 ;
-SyncProfile
+ThreadInfo
 *
-mProfile
+mThreadInfo
 ;
 }
 ;
