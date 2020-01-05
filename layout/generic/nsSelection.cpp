@@ -3115,7 +3115,7 @@ nullptr
 aSelection
 -
 >
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -23139,7 +23139,7 @@ SetSelection
 nullptr
 )
 ;
-selectFrames
+SelectFrames
 (
 aPresContext
 mRanges
@@ -25617,7 +25617,7 @@ nsresult
 Selection
 :
 :
-selectFrames
+SelectFrames
 (
 nsPresContext
 *
@@ -27259,7 +27259,7 @@ i
 nsresult
 rv
 =
-selectFrames
+SelectFrames
 (
 aPresContext
 mRanges
@@ -28959,7 +28959,7 @@ GetPresContext
 (
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 &
@@ -29458,7 +29458,7 @@ GetPresContext
 (
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 &
@@ -29537,7 +29537,7 @@ i
 +
 )
 {
-selectFrames
+SelectFrames
 (
 presContext
 affectedRanges
@@ -30437,7 +30437,7 @@ setAnchorFocusRange
 0
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -31329,7 +31329,7 @@ if
 presContext
 )
 {
-selectFrames
+SelectFrames
 (
 presContext
 mAnchorFocusRange
@@ -31341,7 +31341,7 @@ SetAnchorFocusToRange
 aRange
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 mAnchorFocusRange
@@ -32304,7 +32304,7 @@ the
 selection
 removed
 .
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -32462,7 +32462,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -32547,7 +32547,7 @@ Failed
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -32713,7 +32713,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -32743,7 +32743,7 @@ EndOffset
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -32756,6 +32756,8 @@ must
 reselect
 last
 node
+/
+/
 maybe
 more
 }
@@ -32962,7 +32964,7 @@ from
 1
 to
 a
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -33005,7 +33007,7 @@ from
 a
 to
 2
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -33151,7 +33153,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -33177,7 +33179,7 @@ StartOffset
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -33369,7 +33371,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -33412,7 +33414,7 @@ from
 2
 to
 a
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -33546,7 +33548,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -33631,7 +33633,7 @@ IsInSelection
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 range

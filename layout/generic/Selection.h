@@ -2150,7 +2150,7 @@ aSelected
 )
 ;
 nsresult
-selectFrames
+SelectFrames
 (
 nsPresContext
 *
