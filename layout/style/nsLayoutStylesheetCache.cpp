@@ -560,7 +560,7 @@ css
 "
 &
 mScrollbarsSheet
-eAuthorSheetFeatures
+eSafeAgentSheetFeatures
 eCrash
 )
 ;
