@@ -25844,9 +25844,6 @@ BogusTemp
 ;
 if
 (
-EnableIonCacheIR
-&
-&
 ins
 -
 >
