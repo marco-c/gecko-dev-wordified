@@ -1984,7 +1984,7 @@ infallibleAppend
 (
 chars
 .
-start
+begin
 (
 )
 .
@@ -2018,7 +2018,7 @@ Unhex4
 (
 chars
 .
-start
+begin
 (
 )
 +
@@ -2076,7 +2076,7 @@ Unhex2
 (
 chars
 .
-start
+begin
 (
 )
 +
@@ -6215,7 +6215,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .

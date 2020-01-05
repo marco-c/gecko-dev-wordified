@@ -6217,7 +6217,7 @@ cx
 options
 srcChars
 .
-start
+begin
 (
 )
 .
@@ -6483,7 +6483,7 @@ end
 -
 srcChars
 .
-start
+begin
 (
 )
 ;
@@ -12947,7 +12947,7 @@ srcBuf
 (
 chars
 .
-start
+begin
 (
 )
 .

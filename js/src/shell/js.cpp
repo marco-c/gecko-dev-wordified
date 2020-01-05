@@ -10280,7 +10280,7 @@ cx
 options
 chars
 .
-start
+begin
 (
 )
 .
@@ -10376,7 +10376,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -10475,7 +10475,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -11423,7 +11423,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -13746,7 +13746,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -18325,7 +18325,7 @@ JS_AtomizeAndPinUCStringN
 cx
 chars
 .
-start
+begin
 (
 )
 .
@@ -19390,7 +19390,7 @@ src
 =
 chars
 .
-start
+begin
 (
 )
 .
@@ -23580,7 +23580,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -23904,7 +23904,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -24362,7 +24362,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -24698,7 +24698,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -25237,7 +25237,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -25757,7 +25757,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .
@@ -33992,7 +33992,7 @@ twoByteRange
 (
 )
 .
-start
+begin
 (
 )
 .

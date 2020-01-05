@@ -29564,7 +29564,7 @@ CopyChars
 (
 dest
 .
-start
+begin
 (
 )
 .
@@ -35947,7 +35947,7 @@ AtomizeChars
 cx
 chars
 .
-start
+begin
 (
 )
 .

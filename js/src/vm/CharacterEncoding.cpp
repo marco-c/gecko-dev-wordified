@@ -1032,7 +1032,7 @@ str
 =
 chars
 .
-start
+begin
 (
 )
 .
