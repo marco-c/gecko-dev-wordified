@@ -436,9 +436,15 @@ dom
 :
 ParentObject
 (
-GetParentSheet
+static_cast
+<
+nsIDOMCSSStyleSheet
+*
+>
 (
+mParent
 )
+mParent
 )
 ;
 }
