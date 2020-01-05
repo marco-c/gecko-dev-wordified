@@ -132,7 +132,7 @@ zipfile
 import
 urllib2
 def
-host_triple
+host_platform
 (
 )
 :
@@ -337,6 +337,20 @@ os_type
 "
 unknown
 "
+    
+return
+os_type
+def
+host_triple
+(
+)
+:
+    
+os_type
+=
+host_platform
+(
+)
     
 cpu_type
 =
