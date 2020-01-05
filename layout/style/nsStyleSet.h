@@ -2309,6 +2309,13 @@ mozilla
 CSSStyleSheet
 *
 aStyleSheet
+mozilla
+:
+:
+StyleSheet
+:
+:
+ChangeType
 )
 ;
 /
