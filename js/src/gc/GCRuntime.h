@@ -6979,6 +6979,8 @@ gcreason
 :
 Reason
 reason
+bool
+canAllocateMoreCode
 )
 ;
 void
