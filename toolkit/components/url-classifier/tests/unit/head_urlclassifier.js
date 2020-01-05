@@ -3080,3 +3080,16 @@ cleanUp
 (
 )
 ;
+do_register_cleanup
+(
+function
+(
+)
+{
+cleanUp
+(
+)
+;
+}
+)
+;
