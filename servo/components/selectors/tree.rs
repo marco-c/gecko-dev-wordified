@@ -85,7 +85,7 @@ matching
 :
 {
 ElementSelectorFlags
-StyleRelations
+MatchingContext
 }
 ;
 use
@@ -1106,11 +1106,11 @@ SelectorImpl
 :
 :
 NonTSPseudoClass
-relations
+context
 :
 &
 mut
-StyleRelations
+MatchingContext
 flags_setter
 :
 &

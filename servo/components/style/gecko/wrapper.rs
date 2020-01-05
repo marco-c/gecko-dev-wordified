@@ -629,7 +629,7 @@ matching
 :
 {
 ElementSelectorFlags
-StyleRelations
+MatchingContext
 }
 ;
 use
@@ -8366,11 +8366,11 @@ pseudo_class
 :
 &
 NonTSPseudoClass
-relations
+context
 :
 &
 mut
-StyleRelations
+MatchingContext
 flags_setter
 :
 &
@@ -8888,7 +8888,7 @@ matches_complex_selector
 (
 s
 self
-relations
+context
 flags_setter
 )
 }
@@ -9888,10 +9888,10 @@ NonTSPseudoClass
 AnyLink
 &
 mut
-StyleRelations
+MatchingContext
 :
 :
-empty
+default
 (
 )
 &
