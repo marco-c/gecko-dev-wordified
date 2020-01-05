@@ -1199,6 +1199,10 @@ if
 mRuleList
 )
 {
+EnsureUniqueInner
+(
+)
+;
 RefPtr
 <
 ServoCssRules
@@ -1217,6 +1221,11 @@ mSheet
 .
 Consume
 (
+)
+;
+MOZ_ASSERT
+(
+rawRules
 )
 ;
 mRuleList
