@@ -166,8 +166,9 @@ MacIOSurfaceTextureData
 MacIOSurfaceTextureData
 (
 )
-{
-}
+=
+default
+;
 /
 /
 static

@@ -2394,8 +2394,9 @@ nsIMemoryReporter
 SurfaceMemoryReporter
 (
 )
-{
-}
+=
+default
+;
 /
 /
 We

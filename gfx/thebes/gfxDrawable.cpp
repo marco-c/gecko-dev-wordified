@@ -922,8 +922,9 @@ gfxPatternDrawable
 gfxPatternDrawable
 (
 )
-{
-}
+=
+default
+;
 class
 DrawingCallbackFromDrawable
 :
@@ -962,8 +963,9 @@ virtual
 DrawingCallbackFromDrawable
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 operator

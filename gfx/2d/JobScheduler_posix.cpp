@@ -719,8 +719,9 @@ EventObject
 EventObject
 (
 )
-{
-}
+=
+default
+;
 bool
 EventObject
 :

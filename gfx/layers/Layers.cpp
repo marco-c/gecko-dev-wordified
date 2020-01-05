@@ -14692,8 +14692,9 @@ CanvasLayer
 CanvasLayer
 (
 )
-{
-}
+=
+default
+;
 void
 CanvasLayer
 :
