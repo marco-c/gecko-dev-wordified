@@ -13614,7 +13614,6 @@ Password
 Prefs
 Tab
 Addons
-ExtensionStorage
 "
 )
 ;

@@ -547,11 +547,6 @@ prefs
 "
 tabs
 "
-"
-extension
--
-storage
-"
 ]
 )
 ;
