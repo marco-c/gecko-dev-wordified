@@ -22302,10 +22302,6 @@ as
 uint
 ]
 .
-into_string
-(
-)
-.
 to_jsval
 (
 cx
