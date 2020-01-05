@@ -1893,12 +1893,7 @@ CASE
 /
 Validation
 of
-NS_SIDE_TO_
-{
-FULL
-HALF
-}
-_CORNER
+SideToFullCorner
 .
 #
 define
@@ -1911,7 +1906,7 @@ result
 \
 static_assert
 (
-NS_SIDE_TO_FULL_CORNER
+SideToFullCorner
 (
 side
 second
@@ -1921,7 +1916,7 @@ second
 result
 \
 "
-NS_SIDE_TO_FULL_CORNER
+SideToFullCorner
 is
 wrong
 "
