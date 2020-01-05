@@ -136,6 +136,9 @@ Init
 #
 endif
 #
+ifdef
+MOZ_ENABLE_GIO
+#
 include
 "
 nsGIOService
@@ -171,6 +174,8 @@ nsPackageKitService
 Init
 )
 #
+endif
+#
 include
 "
 nsSystemAlertsService
@@ -192,6 +197,9 @@ NS_GCONFSERVICE_CID
 ;
 #
 endif
+#
+ifdef
+MOZ_ENABLE_GIO
 NS_DEFINE_NAMED_CID
 (
 NS_GIOSERVICE_CID
@@ -207,6 +215,8 @@ NS_DEFINE_NAMED_CID
 NS_PACKAGEKITSERVICE_CID
 )
 ;
+#
+endif
 NS_DEFINE_NAMED_CID
 (
 NS_SYSTEMALERTSSERVICE_CID
@@ -238,6 +248,9 @@ nsGConfServiceConstructor
 }
 #
 endif
+#
+ifdef
+MOZ_ENABLE_GIO
 {
 &
 kNS_GIOSERVICE_CID
@@ -259,6 +272,8 @@ false
 nullptr
 nsPackageKitServiceConstructor
 }
+#
+endif
 {
 &
 kNS_SYSTEMALERTSSERVICE_CID
@@ -295,6 +310,9 @@ kNS_GCONFSERVICE_CID
 }
 #
 endif
+#
+ifdef
+MOZ_ENABLE_GIO
 {
 NS_GIOSERVICE_CONTRACTID
 &
@@ -310,6 +328,8 @@ NS_PACKAGEKITSERVICE_CONTRACTID
 &
 kNS_PACKAGEKITSERVICE_CID
 }
+#
+endif
 {
 NS_SYSTEMALERTSERVICE_CONTRACTID
 &
