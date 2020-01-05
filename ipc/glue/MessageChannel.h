@@ -2612,7 +2612,7 @@ Run
 )
 override
 ;
-nsresult
+NS_IMETHOD
 Cancel
 (
 )
