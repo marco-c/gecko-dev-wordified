@@ -1022,6 +1022,11 @@ mon
 mReentrantMonitor
 )
 ;
+EnsureImageClient
+(
+false
+)
+;
 if
 (
 mImageClient
@@ -1069,6 +1074,11 @@ ReentrantMonitorAutoEnter
 mon
 (
 mReentrantMonitor
+)
+;
+EnsureImageClient
+(
+false
 )
 ;
 if
