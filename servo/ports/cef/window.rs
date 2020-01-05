@@ -799,7 +799,7 @@ cursor
 Cursor
 :
 :
-NoCursor
+None
 =
 >
 return
@@ -810,7 +810,7 @@ CT_NONE
 Cursor
 :
 :
-ContextMenuCursor
+ContextMenu
 =
 >
 return
@@ -821,7 +821,7 @@ CT_CONTEXTMENU
 Cursor
 :
 :
-GrabbingCursor
+Grabbing
 =
 >
 return
@@ -832,7 +832,7 @@ CT_GRABBING
 Cursor
 :
 :
-CrosshairCursor
+Crosshair
 =
 >
 return
@@ -843,7 +843,7 @@ CT_CROSS
 Cursor
 :
 :
-CopyCursor
+Copy
 =
 >
 return
@@ -854,7 +854,7 @@ CT_COPY
 Cursor
 :
 :
-AliasCursor
+Alias
 =
 >
 return
@@ -865,7 +865,7 @@ CT_ALIAS
 Cursor
 :
 :
-TextCursor
+Text
 =
 >
 return
@@ -876,12 +876,12 @@ CT_IBEAM
 Cursor
 :
 :
-GrabCursor
+Grab
 |
 Cursor
 :
 :
-AllScrollCursor
+AllScroll
 =
 >
 return
@@ -892,7 +892,7 @@ CT_GRAB
 Cursor
 :
 :
-NoDropCursor
+NoDrop
 =
 >
 return
@@ -903,7 +903,7 @@ CT_NODROP
 Cursor
 :
 :
-NotAllowedCursor
+NotAllowed
 =
 >
 return
@@ -914,7 +914,7 @@ CT_NOTALLOWED
 Cursor
 :
 :
-PointerCursor
+Pointer
 =
 >
 return
@@ -925,7 +925,7 @@ CT_POINTER
 Cursor
 :
 :
-SResizeCursor
+SResize
 =
 >
 return
@@ -936,7 +936,7 @@ CT_SOUTHRESIZE
 Cursor
 :
 :
-WResizeCursor
+WResize
 =
 >
 return
@@ -947,7 +947,7 @@ CT_WESTRESIZE
 Cursor
 :
 :
-EwResizeCursor
+EwResize
 =
 >
 return
@@ -958,7 +958,7 @@ CT_EASTWESTRESIZE
 Cursor
 :
 :
-ColResizeCursor
+ColResize
 =
 >
 return
@@ -969,7 +969,7 @@ CT_COLUMNRESIZE
 Cursor
 :
 :
-EResizeCursor
+EResize
 =
 >
 return
@@ -980,7 +980,7 @@ CT_EASTRESIZE
 Cursor
 :
 :
-NResizeCursor
+NResize
 =
 >
 return
@@ -991,7 +991,7 @@ CT_NORTHRESIZE
 Cursor
 :
 :
-NsResizeCursor
+NsResize
 =
 >
 return
@@ -1002,7 +1002,7 @@ CT_NORTHSOUTHRESIZE
 Cursor
 :
 :
-RowResizeCursor
+RowResize
 =
 >
 return
@@ -1013,7 +1013,7 @@ CT_ROWRESIZE
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 =
 >
 return
@@ -1106,7 +1106,7 @@ cursor
 Cursor
 :
 :
-NoCursor
+None
 =
 >
 return
@@ -1116,7 +1116,7 @@ cef_cursor_handle_t
 Cursor
 :
 :
-ContextMenuCursor
+ContextMenu
 =
 >
 msg_send
@@ -1133,7 +1133,7 @@ contextualMenuCursor
 Cursor
 :
 :
-GrabbingCursor
+Grabbing
 =
 >
 msg_send
@@ -1150,7 +1150,7 @@ closedHandCursor
 Cursor
 :
 :
-CrosshairCursor
+Crosshair
 =
 >
 msg_send
@@ -1167,7 +1167,7 @@ crosshairCursor
 Cursor
 :
 :
-CopyCursor
+Copy
 =
 >
 msg_send
@@ -1184,7 +1184,7 @@ dragCopyCursor
 Cursor
 :
 :
-AliasCursor
+Alias
 =
 >
 msg_send
@@ -1201,7 +1201,7 @@ dragLinkCursor
 Cursor
 :
 :
-TextCursor
+Text
 =
 >
 msg_send
@@ -1218,12 +1218,12 @@ IBeamCursor
 Cursor
 :
 :
-GrabCursor
+Grab
 |
 Cursor
 :
 :
-AllScrollCursor
+AllScroll
 =
 >
 msg_send
@@ -1240,12 +1240,12 @@ openHandCursor
 Cursor
 :
 :
-NoDropCursor
+NoDrop
 |
 Cursor
 :
 :
-NotAllowedCursor
+NotAllowed
 =
 >
 msg_send
@@ -1262,7 +1262,7 @@ operationNotAllowedCursor
 Cursor
 :
 :
-PointerCursor
+Pointer
 =
 >
 msg_send
@@ -1279,7 +1279,7 @@ pointingHandCursor
 Cursor
 :
 :
-SResizeCursor
+SResize
 =
 >
 msg_send
@@ -1296,7 +1296,7 @@ resizeDownCursor
 Cursor
 :
 :
-WResizeCursor
+WResize
 =
 >
 msg_send
@@ -1313,12 +1313,12 @@ resizeLeftCursor
 Cursor
 :
 :
-EwResizeCursor
+EwResize
 |
 Cursor
 :
 :
-ColResizeCursor
+ColResize
 =
 >
 msg_send
@@ -1335,7 +1335,7 @@ resizeLeftRightCursor
 Cursor
 :
 :
-EResizeCursor
+EResize
 =
 >
 msg_send
@@ -1352,7 +1352,7 @@ resizeRightCursor
 Cursor
 :
 :
-NResizeCursor
+NResize
 =
 >
 msg_send
@@ -1369,12 +1369,12 @@ resizeUpCursor
 Cursor
 :
 :
-NsResizeCursor
+NsResize
 |
 Cursor
 :
 :
-RowResizeCursor
+RowResize
 =
 >
 msg_send
@@ -1391,7 +1391,7 @@ resizeUpDownCursor
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 =
 >
 msg_send

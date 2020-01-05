@@ -713,7 +713,7 @@ None
 Cursor
 :
 :
-DefaultCursor
+Default
 Some
 (
 dim

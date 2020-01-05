@@ -8742,7 +8742,7 @@ cursor
 Cursor
 :
 :
-NoCursor
+None
 =
 >
 structs
@@ -8752,7 +8752,7 @@ NS_STYLE_CURSOR_NONE
 Cursor
 :
 :
-DefaultCursor
+Default
 =
 >
 structs
@@ -8762,7 +8762,7 @@ NS_STYLE_CURSOR_DEFAULT
 Cursor
 :
 :
-PointerCursor
+Pointer
 =
 >
 structs
@@ -8772,7 +8772,7 @@ NS_STYLE_CURSOR_POINTER
 Cursor
 :
 :
-ContextMenuCursor
+ContextMenu
 =
 >
 structs
@@ -8782,7 +8782,7 @@ NS_STYLE_CURSOR_CONTEXT_MENU
 Cursor
 :
 :
-HelpCursor
+Help
 =
 >
 structs
@@ -8792,7 +8792,7 @@ NS_STYLE_CURSOR_HELP
 Cursor
 :
 :
-ProgressCursor
+Progress
 =
 >
 structs
@@ -8813,7 +8813,7 @@ yet
 Cursor
 :
 :
-WaitCursor
+Wait
 =
 >
 structs
@@ -8823,7 +8823,7 @@ NS_STYLE_CURSOR_WAIT
 Cursor
 :
 :
-CellCursor
+Cell
 =
 >
 structs
@@ -8833,7 +8833,7 @@ NS_STYLE_CURSOR_CELL
 Cursor
 :
 :
-CrosshairCursor
+Crosshair
 =
 >
 structs
@@ -8843,7 +8843,7 @@ NS_STYLE_CURSOR_CROSSHAIR
 Cursor
 :
 :
-TextCursor
+Text
 =
 >
 structs
@@ -8853,7 +8853,7 @@ NS_STYLE_CURSOR_TEXT
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 =
 >
 structs
@@ -8863,7 +8863,7 @@ NS_STYLE_CURSOR_VERTICAL_TEXT
 Cursor
 :
 :
-AliasCursor
+Alias
 =
 >
 structs
@@ -8873,7 +8873,7 @@ NS_STYLE_CURSOR_ALIAS
 Cursor
 :
 :
-CopyCursor
+Copy
 =
 >
 structs
@@ -8883,7 +8883,7 @@ NS_STYLE_CURSOR_COPY
 Cursor
 :
 :
-MoveCursor
+Move
 =
 >
 structs
@@ -8893,7 +8893,7 @@ NS_STYLE_CURSOR_MOVE
 Cursor
 :
 :
-NoDropCursor
+NoDrop
 =
 >
 structs
@@ -8903,7 +8903,7 @@ NS_STYLE_CURSOR_NO_DROP
 Cursor
 :
 :
-NotAllowedCursor
+NotAllowed
 =
 >
 structs
@@ -8913,7 +8913,7 @@ NS_STYLE_CURSOR_NOT_ALLOWED
 Cursor
 :
 :
-GrabCursor
+Grab
 =
 >
 structs
@@ -8923,7 +8923,7 @@ NS_STYLE_CURSOR_GRAB
 Cursor
 :
 :
-GrabbingCursor
+Grabbing
 =
 >
 structs
@@ -8933,7 +8933,7 @@ NS_STYLE_CURSOR_GRABBING
 Cursor
 :
 :
-EResizeCursor
+EResize
 =
 >
 structs
@@ -8943,7 +8943,7 @@ NS_STYLE_CURSOR_E_RESIZE
 Cursor
 :
 :
-NResizeCursor
+NResize
 =
 >
 structs
@@ -8953,7 +8953,7 @@ NS_STYLE_CURSOR_N_RESIZE
 Cursor
 :
 :
-NeResizeCursor
+NeResize
 =
 >
 structs
@@ -8963,7 +8963,7 @@ NS_STYLE_CURSOR_NE_RESIZE
 Cursor
 :
 :
-NwResizeCursor
+NwResize
 =
 >
 structs
@@ -8973,7 +8973,7 @@ NS_STYLE_CURSOR_NW_RESIZE
 Cursor
 :
 :
-SResizeCursor
+SResize
 =
 >
 structs
@@ -8983,7 +8983,7 @@ NS_STYLE_CURSOR_S_RESIZE
 Cursor
 :
 :
-SeResizeCursor
+SeResize
 =
 >
 structs
@@ -8993,7 +8993,7 @@ NS_STYLE_CURSOR_SE_RESIZE
 Cursor
 :
 :
-SwResizeCursor
+SwResize
 =
 >
 structs
@@ -9003,7 +9003,7 @@ NS_STYLE_CURSOR_SW_RESIZE
 Cursor
 :
 :
-WResizeCursor
+WResize
 =
 >
 structs
@@ -9013,7 +9013,7 @@ NS_STYLE_CURSOR_W_RESIZE
 Cursor
 :
 :
-EwResizeCursor
+EwResize
 =
 >
 structs
@@ -9023,7 +9023,7 @@ NS_STYLE_CURSOR_EW_RESIZE
 Cursor
 :
 :
-NsResizeCursor
+NsResize
 =
 >
 structs
@@ -9033,7 +9033,7 @@ NS_STYLE_CURSOR_NS_RESIZE
 Cursor
 :
 :
-NeswResizeCursor
+NeswResize
 =
 >
 structs
@@ -9043,7 +9043,7 @@ NS_STYLE_CURSOR_NESW_RESIZE
 Cursor
 :
 :
-NwseResizeCursor
+NwseResize
 =
 >
 structs
@@ -9053,7 +9053,7 @@ NS_STYLE_CURSOR_NWSE_RESIZE
 Cursor
 :
 :
-ColResizeCursor
+ColResize
 =
 >
 structs
@@ -9063,7 +9063,7 @@ NS_STYLE_CURSOR_COL_RESIZE
 Cursor
 :
 :
-RowResizeCursor
+RowResize
 =
 >
 structs
@@ -9073,7 +9073,7 @@ NS_STYLE_CURSOR_ROW_RESIZE
 Cursor
 :
 :
-AllScrollCursor
+AllScroll
 =
 >
 structs
@@ -9083,7 +9083,7 @@ NS_STYLE_CURSOR_ALL_SCROLL
 Cursor
 :
 :
-ZoomInCursor
+ZoomIn
 =
 >
 structs
@@ -9093,7 +9093,7 @@ NS_STYLE_CURSOR_ZOOM_IN
 Cursor
 :
 :
-ZoomOutCursor
+ZoomOut
 =
 >
 structs

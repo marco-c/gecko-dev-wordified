@@ -2972,7 +2972,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -4387,7 +4387,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -5410,7 +5410,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -5595,7 +5595,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -5997,7 +5997,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -6306,7 +6306,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -6465,7 +6465,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -6641,7 +6641,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -6747,7 +6747,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -7163,7 +7163,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 display_list_section
 )
@@ -7316,7 +7316,7 @@ cursor
 Cursor
 :
 :
-TextCursor
+Text
 ;
 }
 else
@@ -7365,7 +7365,7 @@ cursor
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 ;
 }
 ;
@@ -8503,7 +8503,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -8660,7 +8660,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -8947,7 +8947,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :
@@ -10868,7 +10868,7 @@ SidewaysLeft
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 )
 }
 else
@@ -10881,7 +10881,7 @@ SidewaysRight
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 )
 }
 }
@@ -10895,7 +10895,7 @@ Upright
 Cursor
 :
 :
-TextCursor
+Text
 )
 }
 ;
@@ -11545,7 +11545,7 @@ get_cursor
 Cursor
 :
 :
-DefaultCursor
+Default
 )
 DisplayListSection
 :

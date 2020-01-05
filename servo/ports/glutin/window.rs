@@ -6073,7 +6073,7 @@ c
 Cursor
 :
 :
-NoCursor
+None
 =
 >
 MouseCursor
@@ -6083,7 +6083,7 @@ NoneCursor
 Cursor
 :
 :
-DefaultCursor
+Default
 =
 >
 MouseCursor
@@ -6093,7 +6093,7 @@ Default
 Cursor
 :
 :
-PointerCursor
+Pointer
 =
 >
 MouseCursor
@@ -6103,7 +6103,7 @@ Hand
 Cursor
 :
 :
-ContextMenuCursor
+ContextMenu
 =
 >
 MouseCursor
@@ -6113,7 +6113,7 @@ ContextMenu
 Cursor
 :
 :
-HelpCursor
+Help
 =
 >
 MouseCursor
@@ -6123,7 +6123,7 @@ Help
 Cursor
 :
 :
-ProgressCursor
+Progress
 =
 >
 MouseCursor
@@ -6133,7 +6133,7 @@ Progress
 Cursor
 :
 :
-WaitCursor
+Wait
 =
 >
 MouseCursor
@@ -6143,7 +6143,7 @@ Wait
 Cursor
 :
 :
-CellCursor
+Cell
 =
 >
 MouseCursor
@@ -6153,7 +6153,7 @@ Cell
 Cursor
 :
 :
-CrosshairCursor
+Crosshair
 =
 >
 MouseCursor
@@ -6163,7 +6163,7 @@ Crosshair
 Cursor
 :
 :
-TextCursor
+Text
 =
 >
 MouseCursor
@@ -6173,7 +6173,7 @@ Text
 Cursor
 :
 :
-VerticalTextCursor
+VerticalText
 =
 >
 MouseCursor
@@ -6183,7 +6183,7 @@ VerticalText
 Cursor
 :
 :
-AliasCursor
+Alias
 =
 >
 MouseCursor
@@ -6193,7 +6193,7 @@ Alias
 Cursor
 :
 :
-CopyCursor
+Copy
 =
 >
 MouseCursor
@@ -6203,7 +6203,7 @@ Copy
 Cursor
 :
 :
-MoveCursor
+Move
 =
 >
 MouseCursor
@@ -6213,7 +6213,7 @@ Move
 Cursor
 :
 :
-NoDropCursor
+NoDrop
 =
 >
 MouseCursor
@@ -6223,7 +6223,7 @@ NoDrop
 Cursor
 :
 :
-NotAllowedCursor
+NotAllowed
 =
 >
 MouseCursor
@@ -6233,7 +6233,7 @@ NotAllowed
 Cursor
 :
 :
-GrabCursor
+Grab
 =
 >
 MouseCursor
@@ -6243,7 +6243,7 @@ Grab
 Cursor
 :
 :
-GrabbingCursor
+Grabbing
 =
 >
 MouseCursor
@@ -6253,7 +6253,7 @@ Grabbing
 Cursor
 :
 :
-EResizeCursor
+EResize
 =
 >
 MouseCursor
@@ -6263,7 +6263,7 @@ EResize
 Cursor
 :
 :
-NResizeCursor
+NResize
 =
 >
 MouseCursor
@@ -6273,7 +6273,7 @@ NResize
 Cursor
 :
 :
-NeResizeCursor
+NeResize
 =
 >
 MouseCursor
@@ -6283,7 +6283,7 @@ NeResize
 Cursor
 :
 :
-NwResizeCursor
+NwResize
 =
 >
 MouseCursor
@@ -6293,7 +6293,7 @@ NwResize
 Cursor
 :
 :
-SResizeCursor
+SResize
 =
 >
 MouseCursor
@@ -6303,7 +6303,7 @@ SResize
 Cursor
 :
 :
-SeResizeCursor
+SeResize
 =
 >
 MouseCursor
@@ -6313,7 +6313,7 @@ SeResize
 Cursor
 :
 :
-SwResizeCursor
+SwResize
 =
 >
 MouseCursor
@@ -6323,7 +6323,7 @@ SwResize
 Cursor
 :
 :
-WResizeCursor
+WResize
 =
 >
 MouseCursor
@@ -6333,7 +6333,7 @@ WResize
 Cursor
 :
 :
-EwResizeCursor
+EwResize
 =
 >
 MouseCursor
@@ -6343,7 +6343,7 @@ EwResize
 Cursor
 :
 :
-NsResizeCursor
+NsResize
 =
 >
 MouseCursor
@@ -6353,7 +6353,7 @@ NsResize
 Cursor
 :
 :
-NeswResizeCursor
+NeswResize
 =
 >
 MouseCursor
@@ -6363,7 +6363,7 @@ NeswResize
 Cursor
 :
 :
-NwseResizeCursor
+NwseResize
 =
 >
 MouseCursor
@@ -6373,7 +6373,7 @@ NwseResize
 Cursor
 :
 :
-ColResizeCursor
+ColResize
 =
 >
 MouseCursor
@@ -6383,7 +6383,7 @@ ColResize
 Cursor
 :
 :
-RowResizeCursor
+RowResize
 =
 >
 MouseCursor
@@ -6393,7 +6393,7 @@ RowResize
 Cursor
 :
 :
-AllScrollCursor
+AllScroll
 =
 >
 MouseCursor
@@ -6403,7 +6403,7 @@ AllScroll
 Cursor
 :
 :
-ZoomInCursor
+ZoomIn
 =
 >
 MouseCursor
@@ -6413,7 +6413,7 @@ ZoomIn
 Cursor
 :
 :
-ZoomOutCursor
+ZoomOut
 =
 >
 MouseCursor
