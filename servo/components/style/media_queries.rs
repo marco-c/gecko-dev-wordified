@@ -682,6 +682,7 @@ Not
 [
 derive
 (
+Clone
 Debug
 PartialEq
 )
@@ -1609,6 +1610,7 @@ Err
 impl
 MediaQuery
 {
+pub
 fn
 parse
 (
