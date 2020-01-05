@@ -551,12 +551,18 @@ pub
 type
 NonOpaqueStyleData
 =
-*
-mut
 RefCell
 <
 PrivateStyleData
 >
+;
+pub
+type
+NonOpaqueStyleDataPtr
+=
+*
+mut
+NonOpaqueStyleData
 ;
 /
 /
@@ -751,7 +757,7 @@ self
 )
 -
 >
-NonOpaqueStyleData
+NonOpaqueStyleDataPtr
 {
 unsafe
 {
@@ -762,7 +768,7 @@ self
 node
 )
 as
-NonOpaqueStyleData
+NonOpaqueStyleDataPtr
 }
 }
 pub
@@ -788,7 +794,7 @@ is_null
 let
 ptr
 :
-NonOpaqueStyleData
+NonOpaqueStyleDataPtr
 =
 Box
 :
