@@ -1027,6 +1027,14 @@ JS_DestroyRuntime
 .
 *
 /
+JS_INIT_CLIST
+(
+&
+onNewGlobalObjectWatchers
+(
+)
+)
+;
 PodZero
 (
 &
