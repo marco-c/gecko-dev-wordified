@@ -2868,9 +2868,6 @@ helpers
 single_keyword
 (
 "
--
-moz
--
 text
 -
 align
@@ -2895,11 +2892,6 @@ gecko_constant_prefix
 =
 "
 NS_STYLE_TEXT_ALIGN
-"
-gecko_ffi_name
-=
-"
-mTextAlignLast
 "
 animatable
 =
