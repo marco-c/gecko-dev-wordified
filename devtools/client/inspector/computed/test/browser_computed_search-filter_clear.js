@@ -372,9 +372,12 @@ boxModelWrapper
 =
 doc
 .
-getElementById
+querySelector
 (
 "
+#
+old
+-
 boxmodel
 -
 wrapper
