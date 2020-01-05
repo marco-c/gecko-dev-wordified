@@ -538,8 +538,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 let
 padding

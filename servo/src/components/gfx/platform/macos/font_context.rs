@@ -154,8 +154,7 @@ create_font_from_identifier
 self
 name
 :
-~
-str
+String
 style
 :
 UsedFontStyle
@@ -181,6 +180,10 @@ font
 new_from_name
 (
 name
+.
+as_slice
+(
+)
 style
 .
 pt_size

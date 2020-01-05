@@ -314,8 +314,6 @@ write
 !
 (
 f
-.
-buf
 "
 bounds
 =
@@ -490,8 +488,6 @@ write
 !
 (
 f
-.
-buf
 "
 max_top
 =
@@ -887,8 +883,6 @@ write
 !
 (
 f
-.
-buf
 "
 size
 =
@@ -1083,8 +1077,6 @@ write
 !
 (
 f
-.
-buf
 "
 [
 empty
@@ -1103,8 +1095,6 @@ write
 !
 (
 f
-.
-buf
 "
 offset
 =

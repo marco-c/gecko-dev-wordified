@@ -975,6 +975,9 @@ grant_paint_permission
 self
 )
 {
+let
+_
+=
 self
 .
 render_chan
@@ -1006,6 +1009,9 @@ permission
 "
 )
 ;
+let
+_
+=
 self
 .
 render_chan
@@ -1136,6 +1142,9 @@ t
 always
 own
 it
+let
+_
+=
 self
 .
 render_shutdown_port
@@ -1144,6 +1153,9 @@ recv_opt
 (
 )
 ;
+let
+_
+=
 self
 .
 layout_shutdown_port

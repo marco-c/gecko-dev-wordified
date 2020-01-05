@@ -516,11 +516,11 @@ value
 JSVal
 convert_fn
 :
+unsafe
 extern
 "
 C
 "
-unsafe
 fn
 (
 *
@@ -1636,7 +1636,7 @@ Ok
 "
 "
 .
-to_owned
+to_string
 (
 )
 )

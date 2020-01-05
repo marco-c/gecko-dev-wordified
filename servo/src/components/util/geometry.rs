@@ -246,8 +246,6 @@ write
 !
 (
 f
-.
-buf
 "
 Au
 (

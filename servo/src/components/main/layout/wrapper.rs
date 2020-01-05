@@ -612,12 +612,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -637,6 +631,12 @@ marker
 :
 :
 ContravariantLifetime
+;
+use
+std
+:
+:
+mem
 ;
 use
 style
@@ -1251,8 +1251,7 @@ self
 )
 -
 >
-~
-str
+String
 ;
 /
 /
@@ -1681,8 +1680,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 unsafe
 {
@@ -2195,10 +2193,10 @@ LayoutElement
 {
 element
 :
-cast
+mem
 :
 :
-transmute_lifetime
+transmute
 (
 element
 )
@@ -3091,8 +3089,7 @@ T
 )
 -
 >
-~
-str
+String
 {
 match
 *
@@ -3154,7 +3151,7 @@ _
 "
 "
 .
-to_owned
+to_string
 (
 )
 }
@@ -3165,7 +3162,7 @@ _
 "
 "
 .
-to_owned
+to_string
 (
 )
 }
@@ -3450,7 +3447,7 @@ Node
 this
 change
 .
-cast
+mem
 :
 :
 transmute
@@ -3621,8 +3618,7 @@ self
 )
 -
 >
-~
-str
+String
 {
 if
 self
@@ -4433,7 +4429,7 @@ LayoutDataWrapper
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -4501,7 +4497,7 @@ LayoutDataWrapper
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -4702,6 +4698,10 @@ unsafe_get
 characterdata
 .
 data
+.
+as_slice
+(
+)
 )
 {
 return
@@ -5389,7 +5389,7 @@ UnsafeLayoutNode
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy

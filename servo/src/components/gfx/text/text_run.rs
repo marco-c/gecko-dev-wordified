@@ -145,8 +145,7 @@ text
 :
 Arc
 <
-~
-str
+String
 >
 pub
 font_descriptor
@@ -720,8 +719,7 @@ mut
 Font
 text
 :
-~
-str
+String
 decoration
 :
 text_decoration
@@ -743,6 +741,10 @@ break_and_shape
 (
 font
 text
+.
+as_slice
+(
+)
 )
 ;
 let
@@ -1026,7 +1028,7 @@ byte_last_boundary
 byte_i
 )
 .
-to_owned
+to_string
 (
 )
 ;
@@ -1120,7 +1122,7 @@ slice_from
 byte_last_boundary
 )
 .
-to_owned
+to_string
 (
 )
 ;

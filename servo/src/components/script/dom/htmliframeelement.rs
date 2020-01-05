@@ -1021,6 +1021,10 @@ sandbox
 =
 =
 name
+.
+as_slice
+(
+)
 {
 let
 mut
@@ -1034,6 +1038,10 @@ for
 word
 in
 value
+.
+as_slice
+(
+)
 .
 split
 (
@@ -1186,6 +1194,10 @@ sandbox
 =
 =
 name
+.
+as_slice
+(
+)
 {
 self
 .

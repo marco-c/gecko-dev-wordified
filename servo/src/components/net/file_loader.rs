@@ -144,8 +144,7 @@ Result
 <
 (
 )
-~
-str
+String
 >
 {
 loop
@@ -162,12 +161,13 @@ vec
 match
 reader
 .
-push_exact
+push_at_least
 (
+READ_SIZE
+READ_SIZE
 &
 mut
 buf
-READ_SIZE
 )
 {
 Ok
@@ -218,7 +218,7 @@ e
 .
 desc
 .
-to_owned
+to_string
 (
 )
 )
@@ -264,6 +264,10 @@ file
 url
 .
 scheme
+.
+as_slice
+(
+)
 )
 ;
 let
@@ -376,7 +380,7 @@ e
 .
 desc
 .
-to_owned
+to_string
 (
 )
 )

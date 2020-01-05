@@ -1372,7 +1372,7 @@ set_inline_event_listener
 (
 ty
 .
-to_owned
+to_string
 (
 )
 event_listener
@@ -1410,7 +1410,7 @@ get_inline_event_listener
 (
 ty
 .
-to_owned
+to_string
 (
 )
 )

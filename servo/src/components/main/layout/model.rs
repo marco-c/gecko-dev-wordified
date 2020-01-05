@@ -1623,8 +1623,6 @@ write
 !
 (
 f
-.
-buf
 "
 min
 =

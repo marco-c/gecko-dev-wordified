@@ -75,10 +75,7 @@ use
 std
 :
 :
-cast
-:
-:
-transmute
+mem
 ;
 use
 std
@@ -294,6 +291,9 @@ buf
 *
 u8
 =
+mem
+:
+:
 transmute
 (
 obj

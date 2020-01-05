@@ -2126,8 +2126,7 @@ fragment
 pub
 text
 :
-~
-str
+String
 }
 impl
 UnscannedTextFragmentInfo
@@ -2214,8 +2213,7 @@ from_text
 (
 text
 :
-~
-str
+String
 )
 -
 >
@@ -9674,6 +9672,10 @@ is_whitespace
 text_fragment_info
 .
 text
+.
+as_slice
+(
+)
 )
 _
 =
@@ -10953,8 +10955,6 @@ write
 !
 (
 f
-.
-buf
 "
 {
 }
@@ -11270,8 +11270,6 @@ write
 !
 (
 f
-.
-buf
 "
 (
 {
@@ -11385,8 +11383,6 @@ write
 !
 (
 f
-.
-buf
 "
 "
 )
@@ -11413,8 +11409,6 @@ write
 !
 (
 f
-.
-buf
 "
 )
 "

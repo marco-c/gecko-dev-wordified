@@ -160,8 +160,7 @@ ResourceTask
 InlineProvenance
 (
 Url
-~
-str
+String
 )
 }
 /
@@ -183,8 +182,7 @@ url
 Url
 data
 :
-~
-str
+String
 )
 -
 >
@@ -415,6 +413,10 @@ Stylesheet
 from_str
 (
 data
+.
+as_slice
+(
+)
 base_url
 environment_encoding
 )

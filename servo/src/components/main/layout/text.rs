@@ -1051,8 +1051,11 @@ whitespace
 =
 transform_text
 (
-*
 text
+.
+as_slice
+(
+)
 compression
 last_whitespace
 &
@@ -1453,8 +1456,7 @@ transformed_strs
 :
 Vec
 <
-~
-str
+String
 >
 =
 Vec
@@ -1599,8 +1601,11 @@ new_whitespace
 =
 transform_text
 (
-*
 in_fragment
+.
+as_slice
+(
+)
 compression
 last_whitespace_in_clump
 &
@@ -1654,7 +1659,7 @@ let
 mut
 run_str
 =
-StrBuf
+String
 :
 :
 new
@@ -1716,6 +1721,10 @@ as
 uint
 )
 .
+as_slice
+(
+)
+.
 char_len
 (
 )
@@ -1741,7 +1750,6 @@ run_str
 .
 push_str
 (
-*
 transformed_strs
 .
 get
@@ -1749,6 +1757,10 @@ get
 i
 as
 uint
+)
+.
+as_slice
+(
 )
 )
 ;

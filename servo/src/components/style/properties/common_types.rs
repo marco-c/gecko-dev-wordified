@@ -1072,7 +1072,7 @@ value
 if
 value
 .
-to_owned
+as_slice
 (
 )
 .
@@ -1343,7 +1343,7 @@ value
 if
 value
 .
-to_owned
+as_slice
 (
 )
 .

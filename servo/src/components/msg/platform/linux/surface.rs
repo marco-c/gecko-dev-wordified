@@ -105,7 +105,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 impl
 NativeSurfaceAzureMethods
@@ -130,7 +130,7 @@ NativeSurface
 :
 from_pixmap
 (
-cast
+mem
 :
 :
 transmute

@@ -78,8 +78,7 @@ SVG
 MathML
 Other
 (
-~
-str
+String
 )
 }
 impl
@@ -236,7 +235,7 @@ Other
 (
 ns
 .
-to_owned
+to_string
 (
 )
 )

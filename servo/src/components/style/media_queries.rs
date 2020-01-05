@@ -378,6 +378,10 @@ as_slice
 to_ascii_lower
 (
 )
+.
+as_slice
+(
+)
 rule
 &
 mut

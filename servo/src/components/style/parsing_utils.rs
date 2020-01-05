@@ -150,8 +150,7 @@ ComponentValue
 >
 Option
 <
-~
-str
+String
 >
 {
 match

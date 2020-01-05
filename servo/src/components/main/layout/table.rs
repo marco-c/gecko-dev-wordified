@@ -2138,8 +2138,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableFlow
 :

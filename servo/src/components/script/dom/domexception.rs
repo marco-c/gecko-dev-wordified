@@ -786,7 +786,7 @@ range
 .
 "
 .
-to_owned
+to_string
 (
 )
 HierarchyRequestError
@@ -804,7 +804,7 @@ tree
 .
 "
 .
-to_owned
+to_string
 (
 )
 WrongDocumentError
@@ -821,7 +821,7 @@ document
 .
 "
 .
-to_owned
+to_string
 (
 )
 InvalidCharacterError
@@ -836,7 +836,7 @@ characters
 .
 "
 .
-to_owned
+to_string
 (
 )
 NoModificationAllowedError
@@ -852,7 +852,7 @@ modified
 .
 "
 .
-to_owned
+to_string
 (
 )
 NotFoundError
@@ -869,7 +869,7 @@ here
 .
 "
 .
-to_owned
+to_string
 (
 )
 NotSupportedError
@@ -884,7 +884,7 @@ supported
 .
 "
 .
-to_owned
+to_string
 (
 )
 InvalidStateError
@@ -901,7 +901,7 @@ state
 .
 "
 .
-to_owned
+to_string
 (
 )
 SyntaxError
@@ -919,7 +919,7 @@ pattern
 .
 "
 .
-to_owned
+to_string
 (
 )
 InvalidModificationError
@@ -938,7 +938,7 @@ way
 .
 "
 .
-to_owned
+to_string
 (
 )
 NamespaceError
@@ -957,7 +957,7 @@ XML
 .
 "
 .
-to_owned
+to_string
 (
 )
 InvalidAccessError
@@ -976,7 +976,7 @@ argument
 .
 "
 .
-to_owned
+to_string
 (
 )
 SecurityError
@@ -990,7 +990,7 @@ insecure
 .
 "
 .
-to_owned
+to_string
 (
 )
 NetworkError
@@ -1004,7 +1004,7 @@ occurred
 .
 "
 .
-to_owned
+to_string
 (
 )
 AbortError
@@ -1018,7 +1018,7 @@ aborted
 .
 "
 .
-to_owned
+to_string
 (
 )
 URLMismatchError
@@ -1036,7 +1036,7 @@ URL
 .
 "
 .
-to_owned
+to_string
 (
 )
 QuotaExceededError
@@ -1051,7 +1051,7 @@ exceeded
 .
 "
 .
-to_owned
+to_string
 (
 )
 TimeoutError
@@ -1065,7 +1065,7 @@ out
 .
 "
 .
-to_owned
+to_string
 (
 )
 InvalidNodeTypeError
@@ -1088,7 +1088,7 @@ operation
 .
 "
 .
-to_owned
+to_string
 (
 )
 DataCloneError
@@ -1104,7 +1104,7 @@ cloned
 .
 "
 .
-to_owned
+to_string
 (
 )
 EncodingError
@@ -1124,7 +1124,7 @@ failed
 .
 "
 .
-to_owned
+to_string
 (
 )
 }

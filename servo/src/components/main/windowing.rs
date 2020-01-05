@@ -262,8 +262,7 @@ loaded
 .
 LoadUrlWindowEvent
 (
-~
-str
+String
 )
 /
 /

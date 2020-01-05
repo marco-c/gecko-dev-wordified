@@ -615,7 +615,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -2449,7 +2449,7 @@ pointer
 :
 uint
 =
-cast
+mem
 :
 :
 transmute
@@ -2512,7 +2512,7 @@ uint
 BaseFlow
 )
 =
-cast
+mem
 :
 :
 transmute
@@ -2615,7 +2615,7 @@ mut
 BaseFlow
 )
 =
-cast
+mem
 :
 :
 transmute
@@ -4741,7 +4741,7 @@ a
 mut
 Flow
 =
-cast
+mem
 :
 :
 transmute
@@ -6802,7 +6802,7 @@ let
 mut
 indent
 =
-StrBuf
+String
 :
 :
 new

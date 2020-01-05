@@ -702,12 +702,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -727,6 +721,12 @@ marker
 :
 :
 ContravariantLifetime
+;
+use
+std
+:
+:
+mem
 ;
 /
 /
@@ -1174,7 +1174,7 @@ Temporary
 To
 >
 {
-cast
+mem
 :
 :
 transmute
@@ -1763,7 +1763,7 @@ self
 mut
 T
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -1899,7 +1899,7 @@ JS
 To
 >
 {
-cast
+mem
 :
 :
 transmute
@@ -1922,7 +1922,7 @@ JS
 To
 >
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -4458,7 +4458,7 @@ a
 To
 >
 {
-cast
+mem
 :
 :
 transmute
@@ -4508,7 +4508,7 @@ a
 To
 >
 {
-cast
+mem
 :
 :
 transmute

@@ -140,8 +140,7 @@ FontFamilyMap
 =
 HashMap
 <
-~
-str
+String
 FontFamily
 >
 ;
@@ -182,8 +181,7 @@ get_last_resort_font_families
 >
 Vec
 <
-~
-str
+String
 >
 ;
 }
@@ -381,8 +379,7 @@ self
 family_name
 :
 &
-~
-str
+String
 style
 :
 &
@@ -590,8 +587,7 @@ get_last_resort_font_families
 >
 Vec
 <
-~
-str
+String
 >
 {
 FontListHandle
@@ -619,8 +615,7 @@ FontFamily
 pub
 family_name
 :
-~
-str
+String
 pub
 entries
 :
@@ -943,8 +938,7 @@ FontEntry
 pub
 face_name
 :
-~
-str
+String
 weight
 :
 font_weight

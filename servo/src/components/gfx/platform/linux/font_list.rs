@@ -395,6 +395,10 @@ FontFamily
 new
 (
 family_name
+.
+as_slice
+(
+)
 )
 ;
 family_map
@@ -913,8 +917,7 @@ get_last_resort_font_families
 >
 Vec
 <
-~
-str
+String
 >
 {
 vec
@@ -924,7 +927,7 @@ vec
 Arial
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -969,8 +972,7 @@ path_from_identifier
 (
 name
 :
-~
-str
+String
 style
 :
 &
@@ -980,8 +982,7 @@ UsedFontStyle
 >
 Result
 <
-~
-str
+String
 (
 )
 >

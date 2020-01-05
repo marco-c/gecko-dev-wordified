@@ -2901,6 +2901,9 @@ old_pipeline
 .
 script_chan
 ;
+let
+_
+=
 old_script
 .
 send_opt
@@ -2913,6 +2916,9 @@ id
 )
 )
 ;
+let
+_
+=
 old_pipeline
 .
 render_chan
@@ -2939,6 +2945,9 @@ old_pipeline
 .
 layout_chan
 ;
+let
+_
+=
 old_layout
 .
 send_opt
@@ -6060,6 +6069,9 @@ pipeline
 .
 script_chan
 ;
+let
+_
+=
 chan
 .
 send_opt
@@ -6154,6 +6166,9 @@ pipeline
 .
 script_chan
 ;
+let
+_
+=
 chan
 .
 send_opt
@@ -6288,6 +6303,9 @@ pipeline
 .
 script_chan
 ;
+let
+_
+=
 chan
 .
 send_opt

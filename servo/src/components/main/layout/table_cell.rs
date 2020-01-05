@@ -899,8 +899,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableCellFlow
 :

@@ -137,12 +137,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 mem
 ;
 use
@@ -798,7 +792,7 @@ unsafe
 mem
 :
 :
-uninit
+uninitialized
 (
 )
 }
@@ -1278,7 +1272,7 @@ QueueData
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -1501,7 +1495,6 @@ channel
 )
 ;
 let
-mut
 pool
 =
 BufferPool

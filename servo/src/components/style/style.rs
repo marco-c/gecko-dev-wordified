@@ -157,6 +157,10 @@ log
 ;
 extern
 crate
+debug
+;
+extern
+crate
 collections
 ;
 extern

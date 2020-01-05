@@ -170,7 +170,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -1136,7 +1136,7 @@ T
 *
 T
 {
-cast
+mem
 :
 :
 transmute

@@ -78,8 +78,7 @@ pub
 type
 DOMString
 =
-~
-str
+String
 ;
 pub
 type
@@ -166,7 +165,7 @@ None
 "
 "
 .
-to_owned
+to_string
 (
 )
 }

@@ -1739,8 +1739,6 @@ write
 !
 (
 f
-.
-buf
 "
 TableRowFlow
 :

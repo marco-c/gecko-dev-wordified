@@ -102,12 +102,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 mem
 ;
 use
@@ -325,7 +319,7 @@ Rawlink
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute
@@ -419,7 +413,7 @@ me
 mut
 Flow
 =
-cast
+mem
 :
 :
 transmute_copy
@@ -888,7 +882,7 @@ get_mut
 ;
 Some
 (
-cast
+mem
 :
 :
 transmute_copy

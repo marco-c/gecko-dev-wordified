@@ -421,6 +421,10 @@ event
 Type
 (
 )
+.
+as_slice
+(
+)
 &
 &
 !

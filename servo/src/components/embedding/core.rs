@@ -96,10 +96,7 @@ use
 std
 :
 :
-cast
-:
-:
-transmute
+mem
 ;
 use
 types
@@ -189,6 +186,9 @@ if
 !
 fptr_is_null
 (
+mem
+:
+:
 transmute
 (
 cb
@@ -224,6 +224,9 @@ if
 !
 fptr_is_null
 (
+mem
+:
+:
 transmute
 (
 hcb
@@ -300,7 +303,7 @@ test
 org
 "
 .
-to_owned
+to_string
 (
 )
 )

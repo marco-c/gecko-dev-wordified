@@ -106,12 +106,6 @@ use
 std
 :
 :
-cast
-;
-use
-std
-:
-:
 mem
 ;
 use
@@ -183,7 +177,7 @@ Flow
 =
 flow
 ;
-cast
+mem
 :
 :
 transmute
@@ -192,7 +186,7 @@ flow_ref
 )
 }
 ;
-cast
+mem
 :
 :
 forget
@@ -225,7 +219,7 @@ Flow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -258,7 +252,7 @@ Flow
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute_copy
@@ -359,7 +353,7 @@ null
 ;
 drop
 (
-cast
+mem
 :
 :
 transmute

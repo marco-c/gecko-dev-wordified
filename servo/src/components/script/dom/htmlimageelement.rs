@@ -469,6 +469,10 @@ img_url
 parse_url
 (
 src
+.
+as_slice
+(
+)
 url
 )
 ;
@@ -1237,6 +1241,10 @@ get_string_attribute
 hspace
 "
 )
+.
+as_slice
+(
+)
 )
 .
 unwrap
@@ -1640,6 +1648,10 @@ get_string_attribute
 hspace
 "
 )
+.
+as_slice
+(
+)
 )
 .
 unwrap
@@ -1724,6 +1736,10 @@ get_string_attribute
 "
 vspace
 "
+)
+.
+as_slice
+(
 )
 )
 .
@@ -2039,6 +2055,10 @@ src
 =
 =
 name
+.
+as_slice
+(
+)
 {
 let
 window
@@ -2138,6 +2158,10 @@ src
 =
 =
 name
+.
+as_slice
+(
+)
 {
 self
 .

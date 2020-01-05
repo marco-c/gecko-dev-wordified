@@ -113,7 +113,7 @@ use
 std
 :
 :
-cast
+mem
 ;
 use
 std
@@ -223,7 +223,7 @@ JSTracer
 {
 unsafe
 {
-cast
+mem
 :
 :
 transmute

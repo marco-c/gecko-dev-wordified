@@ -191,8 +191,7 @@ CharIndex
 -
 >
 (
-~
-str
+String
 bool
 )
 {
@@ -200,7 +199,7 @@ let
 mut
 out_str
 =
-StrBuf
+String
 :
 :
 new
@@ -1220,8 +1219,7 @@ test_strs
 :
 ~
 [
-~
-str
+String
 ]
 =
 ~
@@ -1298,8 +1296,7 @@ oracle_strs
 :
 ~
 [
-~
-str
+String
 ]
 =
 ~
@@ -1458,8 +1455,7 @@ test_strs
 :
 ~
 [
-~
-str
+String
 ]
 =
 ~
@@ -1536,8 +1532,7 @@ oracle_strs
 :
 ~
 [
-~
-str
+String
 ]
 =
 ~
