@@ -1860,6 +1860,11 @@ ExitPresentInternal
 )
 ;
 void
+Shutdown
+(
+)
+;
+void
 UpdateFrameInfo
 (
 )
@@ -1992,6 +1997,9 @@ mHandlingVRNavigationEventStart
 ;
 int32_t
 mVRNavigationEventDepth
+;
+bool
+mShutdown
 ;
 }
 ;
