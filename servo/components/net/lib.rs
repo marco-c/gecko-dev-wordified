@@ -278,6 +278,7 @@ pub
 mod
 storage_task
 ;
+pub
 mod
 mime_classifier
 ;

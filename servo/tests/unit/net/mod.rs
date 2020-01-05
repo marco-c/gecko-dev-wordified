@@ -66,5 +66,8 @@ mod
 image_cache_task
 ;
 mod
+mime_classifier
+;
+mod
 resource_task
 ;
