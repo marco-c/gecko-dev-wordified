@@ -243,6 +243,11 @@ LoadDOMExpandoValue
 \
 _
 (
+LoadDOMExpandoValueIgnoreGeneration
+)
+\
+_
+(
 LoadUndefinedResult
 )
 \
