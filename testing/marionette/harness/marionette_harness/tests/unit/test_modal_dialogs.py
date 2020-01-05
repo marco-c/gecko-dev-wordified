@@ -85,7 +85,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_e10s
 WindowManagerMixin
 class
 BaseAlertTestCase
