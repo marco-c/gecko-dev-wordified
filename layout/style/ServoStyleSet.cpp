@@ -1807,6 +1807,8 @@ to
 update
 CSS
 animations
+or
+transitions
 '
 styles
 .
