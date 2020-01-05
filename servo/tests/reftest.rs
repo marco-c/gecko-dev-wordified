@@ -635,6 +635,7 @@ is_file
 )
 {
 let
+mut
 tests
 =
 parse_lists
@@ -678,13 +679,11 @@ len
 ;
 all_tests
 .
-extend
+append
 (
+&
+mut
 tests
-.
-into_iter
-(
-)
 )
 ;
 }
