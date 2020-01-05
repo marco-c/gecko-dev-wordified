@@ -125,10 +125,10 @@ png
 ColorType
 data
 :
-~
-[
+Vec
+<
 u8
-]
+>
 )
 -
 >
@@ -367,6 +367,10 @@ color_type
 png_image
 .
 pixels
+.
+as_mut_slice
+(
+)
 )
 ;
 Some
@@ -462,6 +466,10 @@ RGBA8
 image
 .
 data
+.
+as_mut_slice
+(
+)
 )
 ;
 Some
