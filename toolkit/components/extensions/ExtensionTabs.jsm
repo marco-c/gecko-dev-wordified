@@ -3464,6 +3464,12 @@ author
 "
 ;
 }
+options
+.
+wantReturnValue
+=
+true
+;
 return
 this
 .
