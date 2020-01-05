@@ -9903,11 +9903,13 @@ fragment
 .
 clip_rect_for_children
 (
+&
 self
 .
 base
 .
 clip_rect
+&
 stacking_relative_position
 )
 ;

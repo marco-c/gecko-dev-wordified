@@ -13806,11 +13806,13 @@ fragment
 .
 clip_rect_for_children
 (
+&
 self
 .
 base
 .
 clip_rect
+&
 origin_for_children
 )
 ;
