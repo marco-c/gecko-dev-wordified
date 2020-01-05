@@ -575,7 +575,6 @@ fn
 SetCancelBubble
 (
 &
-mut
 self
 _val
 :
@@ -888,7 +887,6 @@ fn
 SetCancelBubble
 (
 &
-mut
 self
 _val
 :

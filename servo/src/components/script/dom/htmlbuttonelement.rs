@@ -341,7 +341,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -365,7 +364,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -405,7 +403,6 @@ fn
 SetFormAction
 (
 &
-mut
 self
 _formaction
 :
@@ -429,7 +426,6 @@ fn
 SetFormEnctype
 (
 &
-mut
 self
 _formenctype
 :
@@ -453,7 +449,6 @@ fn
 SetFormMethod
 (
 &
-mut
 self
 _formmethod
 :
@@ -477,7 +472,6 @@ fn
 SetFormNoValidate
 (
 &
-mut
 self
 _novalidate
 :
@@ -501,7 +495,6 @@ fn
 SetFormTarget
 (
 &
-mut
 self
 _formtarget
 :
@@ -525,7 +518,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -549,7 +541,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -573,7 +564,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -597,7 +587,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -631,7 +620,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -655,7 +643,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -693,7 +680,6 @@ fn
 SetAutofocus
 (
 &
-mut
 self
 _autofocus
 :
@@ -725,7 +711,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -780,7 +765,6 @@ fn
 SetFormAction
 (
 &
-mut
 self
 _formaction
 :
@@ -817,7 +801,6 @@ fn
 SetFormEnctype
 (
 &
-mut
 self
 _formenctype
 :
@@ -854,7 +837,6 @@ fn
 SetFormMethod
 (
 &
-mut
 self
 _formmethod
 :
@@ -886,7 +868,6 @@ fn
 SetFormNoValidate
 (
 &
-mut
 self
 _novalidate
 :
@@ -923,7 +904,6 @@ fn
 SetFormTarget
 (
 &
-mut
 self
 _formtarget
 :
@@ -960,7 +940,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -997,7 +976,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -1034,7 +1012,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -1066,7 +1043,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -1130,7 +1106,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -1162,7 +1137,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :

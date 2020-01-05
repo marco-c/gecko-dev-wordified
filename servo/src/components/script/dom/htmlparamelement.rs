@@ -322,7 +322,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -346,7 +345,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -370,7 +368,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -394,7 +391,6 @@ fn
 SetValueType
 (
 &
-mut
 self
 _value_type
 :
@@ -440,7 +436,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -477,7 +472,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -514,7 +508,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -551,7 +544,6 @@ fn
 SetValueType
 (
 &
-mut
 self
 _value_type
 :

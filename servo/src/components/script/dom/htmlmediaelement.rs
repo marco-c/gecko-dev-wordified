@@ -278,7 +278,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -312,7 +311,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -336,7 +334,6 @@ fn
 SetPreload
 (
 &
-mut
 self
 _preload
 :
@@ -400,7 +397,6 @@ fn
 SetCurrentTime
 (
 &
-mut
 self
 _current_time
 :
@@ -444,7 +440,6 @@ fn
 SetDefaultPlaybackRate
 (
 &
-mut
 self
 _default_playback_rate
 :
@@ -468,7 +463,6 @@ fn
 SetPlaybackRate
 (
 &
-mut
 self
 _playback_rate
 :
@@ -502,7 +496,6 @@ fn
 SetAutoplay
 (
 &
-mut
 self
 _autoplay
 :
@@ -526,7 +519,6 @@ fn
 SetLoop
 (
 &
-mut
 self
 _loop
 :
@@ -570,7 +562,6 @@ fn
 SetControls
 (
 &
-mut
 self
 _controls
 :
@@ -594,7 +585,6 @@ fn
 SetVolume
 (
 &
-mut
 self
 _volume
 :
@@ -618,7 +608,6 @@ fn
 SetMuted
 (
 &
-mut
 self
 _muted
 :
@@ -639,7 +628,6 @@ fn
 SetDefaultMuted
 (
 &
-mut
 self
 _default_muted
 :
@@ -685,7 +673,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -739,7 +726,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -776,7 +762,6 @@ fn
 SetPreload
 (
 &
-mut
 self
 _preload
 :
@@ -860,7 +845,6 @@ fn
 SetCurrentTime
 (
 &
-mut
 self
 _current_time
 :
@@ -916,7 +900,6 @@ fn
 SetDefaultPlaybackRate
 (
 &
-mut
 self
 _default_playback_rate
 :
@@ -948,7 +931,6 @@ fn
 SetPlaybackRate
 (
 &
-mut
 self
 _playback_rate
 :
@@ -992,7 +974,6 @@ fn
 SetAutoplay
 (
 &
-mut
 self
 _autoplay
 :
@@ -1024,7 +1005,6 @@ fn
 SetLoop
 (
 &
-mut
 self
 _loop
 :
@@ -1088,7 +1068,6 @@ fn
 SetControls
 (
 &
-mut
 self
 _controls
 :
@@ -1120,7 +1099,6 @@ fn
 SetVolume
 (
 &
-mut
 self
 _volume
 :
@@ -1152,7 +1130,6 @@ fn
 SetMuted
 (
 &
-mut
 self
 _muted
 :
@@ -1176,7 +1153,6 @@ fn
 SetDefaultMuted
 (
 &
-mut
 self
 _default_muted
 :

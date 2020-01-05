@@ -331,7 +331,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -371,7 +370,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :
@@ -395,7 +393,6 @@ fn
 SetDefaultSelected
 (
 &
-mut
 self
 _default_selected
 :
@@ -419,7 +416,6 @@ fn
 SetSelected
 (
 &
-mut
 self
 _selected
 :
@@ -443,7 +439,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -467,7 +462,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -518,7 +512,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -573,7 +566,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :
@@ -605,7 +597,6 @@ fn
 SetDefaultSelected
 (
 &
-mut
 self
 _default_selected
 :
@@ -637,7 +628,6 @@ fn
 SetSelected
 (
 &
-mut
 self
 _selected
 :
@@ -674,7 +664,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -711,7 +700,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :

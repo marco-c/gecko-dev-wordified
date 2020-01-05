@@ -322,7 +322,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -346,7 +345,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :
@@ -387,7 +385,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -424,7 +421,6 @@ fn
 SetLabel
 (
 &
-mut
 self
 _label
 :

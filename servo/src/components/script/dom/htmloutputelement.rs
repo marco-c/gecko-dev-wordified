@@ -357,7 +357,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -391,7 +390,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _value
 :
@@ -415,7 +413,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -439,7 +436,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -473,7 +469,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -497,7 +492,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -558,7 +552,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -612,7 +605,6 @@ fn
 SetDefaultValue
 (
 &
-mut
 self
 _value
 :
@@ -649,7 +641,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -681,7 +672,6 @@ fn
 SetWillValidate
 (
 &
-mut
 self
 _will_validate
 :
@@ -745,7 +735,6 @@ fn
 SetValidationMessage
 (
 &
-mut
 self
 _message
 :
@@ -777,7 +766,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :

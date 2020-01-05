@@ -324,7 +324,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -348,7 +347,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -389,7 +387,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -421,7 +418,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :

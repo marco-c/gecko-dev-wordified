@@ -333,7 +333,6 @@ fn
 DeleteRow
 (
 &
-mut
 self
 _index
 :
@@ -620,7 +619,6 @@ fn
 DeleteRow
 (
 &
-mut
 self
 _index
 :

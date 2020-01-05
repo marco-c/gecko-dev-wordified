@@ -322,7 +322,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -461,7 +460,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 _hspace
 :
@@ -485,7 +483,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -509,7 +506,6 @@ fn
 SetObject
 (
 &
-mut
 self
 _object
 :
@@ -533,7 +529,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 _vspace
 :
@@ -557,7 +552,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -603,7 +597,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -815,7 +808,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 _hspace
 :
@@ -852,7 +844,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -889,7 +880,6 @@ fn
 SetObject
 (
 &
-mut
 self
 _object
 :
@@ -921,7 +911,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 _vspace
 :
@@ -958,7 +947,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :

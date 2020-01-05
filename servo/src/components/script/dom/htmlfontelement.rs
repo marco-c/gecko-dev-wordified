@@ -322,7 +322,6 @@ fn
 SetColor
 (
 &
-mut
 self
 _color
 :
@@ -346,7 +345,6 @@ fn
 SetFace
 (
 &
-mut
 self
 _face
 :
@@ -370,7 +368,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :
@@ -416,7 +413,6 @@ fn
 SetColor
 (
 &
-mut
 self
 _color
 :
@@ -453,7 +449,6 @@ fn
 SetFace
 (
 &
-mut
 self
 _face
 :
@@ -490,7 +485,6 @@ fn
 SetSize
 (
 &
-mut
 self
 _size
 :

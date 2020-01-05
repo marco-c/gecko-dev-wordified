@@ -322,7 +322,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -368,7 +367,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :

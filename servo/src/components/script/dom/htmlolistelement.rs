@@ -345,7 +345,6 @@ fn
 SetStart
 (
 &
-mut
 self
 _start
 :
@@ -369,7 +368,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -464,7 +462,6 @@ fn
 SetStart
 (
 &
-mut
 self
 _start
 :
@@ -501,7 +498,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :

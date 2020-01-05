@@ -389,7 +389,6 @@ fn
 SetHref
 (
 &
-mut
 self
 _href
 :
@@ -528,7 +527,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -552,7 +550,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -576,7 +573,6 @@ fn
 SetCoords
 (
 &
-mut
 self
 _coords
 :
@@ -600,7 +596,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -624,7 +619,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -648,7 +642,6 @@ fn
 SetRev
 (
 &
-mut
 self
 _rev
 :
@@ -672,7 +665,6 @@ fn
 SetShape
 (
 &
-mut
 self
 _shape
 :
@@ -718,7 +710,6 @@ fn
 SetHref
 (
 &
-mut
 self
 _href
 :
@@ -935,7 +926,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -972,7 +962,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -1009,7 +998,6 @@ fn
 SetCoords
 (
 &
-mut
 self
 _coords
 :
@@ -1046,7 +1034,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -1083,7 +1070,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -1120,7 +1106,6 @@ fn
 SetRev
 (
 &
-mut
 self
 _rev
 :
@@ -1157,7 +1142,6 @@ fn
 SetShape
 (
 &
-mut
 self
 _shape
 :

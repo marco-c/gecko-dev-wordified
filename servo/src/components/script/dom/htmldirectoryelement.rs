@@ -322,7 +322,6 @@ fn
 SetCompact
 (
 &
-mut
 self
 _compact
 :
@@ -363,7 +362,6 @@ fn
 SetCompact
 (
 &
-mut
 self
 _compact
 :

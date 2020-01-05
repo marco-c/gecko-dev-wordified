@@ -322,7 +322,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -346,7 +345,6 @@ fn
 SetMin
 (
 &
-mut
 self
 _min
 :
@@ -370,7 +368,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :
@@ -394,7 +391,6 @@ fn
 SetLow
 (
 &
-mut
 self
 _low
 :
@@ -418,7 +414,6 @@ fn
 SetHigh
 (
 &
-mut
 self
 _high
 :
@@ -442,7 +437,6 @@ fn
 SetOptimum
 (
 &
-mut
 self
 _optimum
 :
@@ -485,7 +479,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -519,7 +512,6 @@ fn
 SetMin
 (
 &
-mut
 self
 _min
 :
@@ -553,7 +545,6 @@ fn
 SetMax
 (
 &
-mut
 self
 _max
 :
@@ -587,7 +578,6 @@ fn
 SetLow
 (
 &
-mut
 self
 _low
 :
@@ -621,7 +611,6 @@ fn
 SetHigh
 (
 &
-mut
 self
 _high
 :
@@ -655,7 +644,6 @@ fn
 SetOptimum
 (
 &
-mut
 self
 _optimum
 :

@@ -322,7 +322,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -346,7 +345,6 @@ fn
 SetHttpEquiv
 (
 &
-mut
 self
 _http_equiv
 :
@@ -370,7 +368,6 @@ fn
 SetContent
 (
 &
-mut
 self
 _content
 :
@@ -394,7 +391,6 @@ fn
 SetScheme
 (
 &
-mut
 self
 _scheme
 :
@@ -440,7 +436,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -477,7 +472,6 @@ fn
 SetHttpEquiv
 (
 &
-mut
 self
 _http_equiv
 :
@@ -514,7 +508,6 @@ fn
 SetContent
 (
 &
-mut
 self
 _content
 :
@@ -551,7 +544,6 @@ fn
 SetScheme
 (
 &
-mut
 self
 _scheme
 :

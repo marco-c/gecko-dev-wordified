@@ -312,7 +312,6 @@ fn
 DeleteRow
 (
 &
-mut
 self
 _index
 :
@@ -336,7 +335,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -360,7 +358,6 @@ fn
 SetCh
 (
 &
-mut
 self
 _ch
 :
@@ -384,7 +381,6 @@ fn
 SetChOff
 (
 &
-mut
 self
 _ch_off
 :
@@ -408,7 +404,6 @@ fn
 SetVAlign
 (
 &
-mut
 self
 _v_align
 :
@@ -437,7 +432,6 @@ fn
 DeleteRow
 (
 &
-mut
 self
 _index
 :
@@ -474,7 +468,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -511,7 +504,6 @@ fn
 SetCh
 (
 &
-mut
 self
 _ch
 :
@@ -548,7 +540,6 @@ fn
 SetChOff
 (
 &
-mut
 self
 _ch_off
 :
@@ -585,7 +576,6 @@ fn
 SetVAlign
 (
 &
-mut
 self
 _v_align
 :

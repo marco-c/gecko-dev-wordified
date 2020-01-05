@@ -363,7 +363,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -403,7 +402,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -483,7 +481,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -521,7 +518,6 @@ fn
 SetDisabled
 (
 &
-mut
 self
 _disabled
 :
@@ -576,7 +572,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -886,7 +881,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :

@@ -341,7 +341,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -365,7 +364,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -389,7 +387,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -459,7 +456,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -483,7 +479,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -507,7 +502,6 @@ fn
 SetEvent
 (
 &
-mut
 self
 _event
 :
@@ -531,7 +525,6 @@ fn
 SetHtmlFor
 (
 &
-mut
 self
 _html_for
 :
@@ -596,7 +589,6 @@ fn
 SetSrc
 (
 &
-mut
 self
 _src
 :
@@ -633,7 +625,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -670,7 +661,6 @@ fn
 SetCharset
 (
 &
-mut
 self
 _charset
 :
@@ -769,7 +759,6 @@ fn
 SetCrossOrigin
 (
 &
-mut
 self
 _cross_origin
 :
@@ -806,7 +795,6 @@ fn
 SetText
 (
 &
-mut
 self
 _text
 :
@@ -843,7 +831,6 @@ fn
 SetEvent
 (
 &
-mut
 self
 _event
 :
@@ -880,7 +867,6 @@ fn
 SetHtmlFor
 (
 &
-mut
 self
 _html_for
 :

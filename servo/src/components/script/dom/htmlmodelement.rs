@@ -322,7 +322,6 @@ fn
 SetCite
 (
 &
-mut
 self
 _cite
 :
@@ -346,7 +345,6 @@ fn
 SetDateTime
 (
 &
-mut
 self
 _datetime
 :
@@ -392,7 +390,6 @@ fn
 SetCite
 (
 &
-mut
 self
 _cite
 :
@@ -429,7 +426,6 @@ fn
 SetDateTime
 (
 &
-mut
 self
 _datetime
 :

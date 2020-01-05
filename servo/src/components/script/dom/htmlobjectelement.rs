@@ -436,7 +436,6 @@ fn
 process_data_url
 (
 &
-mut
 self
 image_cache
 :
@@ -501,7 +500,6 @@ fn
 process_data_url
 (
 &
-mut
 self
 image_cache
 :
@@ -663,7 +661,6 @@ fn
 SetData
 (
 &
-mut
 self
 _data
 :
@@ -687,7 +684,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -711,7 +707,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -735,7 +730,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 _use_map
 :
@@ -775,7 +769,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -799,7 +792,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -888,7 +880,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -909,7 +900,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -933,7 +923,6 @@ fn
 SetArchive
 (
 &
-mut
 self
 _archive
 :
@@ -957,7 +946,6 @@ fn
 SetCode
 (
 &
-mut
 self
 _code
 :
@@ -981,7 +969,6 @@ fn
 SetDeclare
 (
 &
-mut
 self
 _declare
 :
@@ -1005,7 +992,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 _hspace
 :
@@ -1029,7 +1015,6 @@ fn
 SetStandby
 (
 &
-mut
 self
 _standby
 :
@@ -1053,7 +1038,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 _vspace
 :
@@ -1077,7 +1061,6 @@ fn
 SetCodeBase
 (
 &
-mut
 self
 _codebase
 :
@@ -1101,7 +1084,6 @@ fn
 SetCodeType
 (
 &
-mut
 self
 _codetype
 :
@@ -1125,7 +1107,6 @@ fn
 SetBorder
 (
 &
-mut
 self
 _border
 :
@@ -1187,7 +1168,6 @@ fn
 SetData
 (
 &
-mut
 self
 _data
 :
@@ -1224,7 +1204,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -1261,7 +1240,6 @@ fn
 SetName
 (
 &
-mut
 self
 _name
 :
@@ -1298,7 +1276,6 @@ fn
 SetUseMap
 (
 &
-mut
 self
 _use_map
 :
@@ -1353,7 +1330,6 @@ fn
 SetWidth
 (
 &
-mut
 self
 _width
 :
@@ -1390,7 +1366,6 @@ fn
 SetHeight
 (
 &
-mut
 self
 _height
 :
@@ -1522,7 +1497,6 @@ fn
 SetCustomValidity
 (
 &
-mut
 self
 _error
 :
@@ -1551,7 +1525,6 @@ fn
 SetAlign
 (
 &
-mut
 self
 _align
 :
@@ -1588,7 +1561,6 @@ fn
 SetArchive
 (
 &
-mut
 self
 _archive
 :
@@ -1625,7 +1597,6 @@ fn
 SetCode
 (
 &
-mut
 self
 _code
 :
@@ -1657,7 +1628,6 @@ fn
 SetDeclare
 (
 &
-mut
 self
 _declare
 :
@@ -1689,7 +1659,6 @@ fn
 SetHspace
 (
 &
-mut
 self
 _hspace
 :
@@ -1726,7 +1695,6 @@ fn
 SetStandby
 (
 &
-mut
 self
 _standby
 :
@@ -1758,7 +1726,6 @@ fn
 SetVspace
 (
 &
-mut
 self
 _vspace
 :
@@ -1795,7 +1762,6 @@ fn
 SetCodeBase
 (
 &
-mut
 self
 _codebase
 :
@@ -1832,7 +1798,6 @@ fn
 SetCodeType
 (
 &
-mut
 self
 _codetype
 :
@@ -1869,7 +1834,6 @@ fn
 SetBorder
 (
 &
-mut
 self
 _border
 :

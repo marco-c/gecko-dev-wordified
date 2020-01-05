@@ -322,7 +322,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -346,7 +345,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
@@ -387,7 +385,6 @@ fn
 SetValue
 (
 &
-mut
 self
 _value
 :
@@ -424,7 +421,6 @@ fn
 SetType
 (
 &
-mut
 self
 _type
 :
