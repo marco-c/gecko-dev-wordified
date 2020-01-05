@@ -1295,6 +1295,8 @@ RawGeckoElementBorrowed
 element
 RawServoStyleSetBorrowed
 set
+bool
+allow_stale
 )
 SERVO_BINDING_FUNC
 (
