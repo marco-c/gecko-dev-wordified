@@ -198,6 +198,10 @@ lazy_static
 ;
 extern
 crate
+num
+;
+extern
+crate
 util
 ;
 pub
@@ -277,6 +281,10 @@ legacy
 pub
 mod
 animation
+;
+pub
+mod
+viewport
 ;
 macro_rules
 !
