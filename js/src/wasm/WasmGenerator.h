@@ -222,6 +222,15 @@ CompileArgs
 class
 FunctionGenerator
 ;
+typedef
+Vector
+<
+UniqueBytes
+0
+SystemAllocPolicy
+>
+UniqueBytesVector
+;
 /
 /
 A
@@ -430,6 +439,9 @@ tasks_
 ;
 IonCompileTaskPtrVector
 freeTasks_
+;
+UniqueBytesVector
+freeBytes_
 ;
 /
 /
@@ -1067,10 +1079,6 @@ ModuleGenerator
 *
 m_
 ;
-IonCompileTask
-*
-task_
-;
 bool
 usesSimd_
 ;
@@ -1100,7 +1108,7 @@ finishFunc
 (
 )
 .
-Bytes
+UniqueBytes
 bytes_
 ;
 Uint32Vector
@@ -1119,10 +1127,6 @@ m_
 (
 nullptr
 )
-task_
-(
-nullptr
-)
 usesSimd_
 (
 false
@@ -1130,6 +1134,10 @@ false
 usesAtomics_
 (
 false
+)
+bytes_
+(
+nullptr
 )
 lineOrBytecode_
 (
@@ -1184,6 +1192,7 @@ bytes
 )
 {
 return
+*
 bytes_
 ;
 }
