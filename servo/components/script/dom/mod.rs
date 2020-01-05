@@ -2683,6 +2683,10 @@ focusevent
 ;
 pub
 mod
+forcetouchevent
+;
+pub
+mod
 formdata
 ;
 pub

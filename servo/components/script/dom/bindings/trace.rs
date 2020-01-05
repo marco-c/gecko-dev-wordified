@@ -742,6 +742,7 @@ LayoutMsg
 ScriptMsg
 TimerEventId
 TimerSource
+TouchpadPressurePhase
 UntrustedNodeAddress
 }
 ;
@@ -2575,6 +2576,12 @@ no_jsmanaged_fields
 !
 (
 HttpsState
+)
+;
+no_jsmanaged_fields
+!
+(
+TouchpadPressurePhase
 )
 ;
 impl
