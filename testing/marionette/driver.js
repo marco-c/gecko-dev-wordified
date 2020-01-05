@@ -1376,11 +1376,6 @@ appName
 B2G
 "
 "
-acceptSslCerts
-"
-:
-false
-"
 proxy
 "
 :
