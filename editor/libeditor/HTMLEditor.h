@@ -2696,6 +2696,17 @@ eNone
 )
 override
 ;
+nsresult
+InsertBR
+(
+nsCOMPtr
+<
+nsIDOMNode
+>
+*
+outBRNode
+)
+;
 /
 /
 Table

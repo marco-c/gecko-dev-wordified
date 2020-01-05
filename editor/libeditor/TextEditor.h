@@ -976,17 +976,6 @@ EDirection
 aSelect
 )
 ;
-nsresult
-InsertBR
-(
-nsCOMPtr
-<
-nsIDOMNode
->
-*
-outBRNode
-)
-;
 /
 *
 *
