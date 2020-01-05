@@ -3650,8 +3650,10 @@ return
 true
 ;
 }
-static
 bool
+jit
+:
+:
 IsCacheableGetPropCallNative
 (
 JSObject

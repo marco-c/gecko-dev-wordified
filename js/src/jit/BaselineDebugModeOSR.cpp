@@ -4673,11 +4673,6 @@ GetElem_NativePrototypeCallScriptedSymbol
 \
 _
 (
-GetProp_CallNative
-)
-\
-_
-(
 GetProp_CallNativeGlobal
 )
 \

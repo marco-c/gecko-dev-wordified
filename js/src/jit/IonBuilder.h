@@ -3188,6 +3188,10 @@ name
 TemporaryTypeSet
 *
 types
+bool
+innerized
+=
+false
 )
 ;
 MOZ_MUST_USE
