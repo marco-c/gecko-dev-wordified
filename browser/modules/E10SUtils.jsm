@@ -573,9 +573,6 @@ aPreferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
 aCurrentUri
-aLargeAllocation
-=
-false
 )
 {
 if
@@ -586,15 +583,6 @@ aMultiProcess
 {
 return
 NOT_REMOTE
-;
-}
-if
-(
-aLargeAllocation
-)
-{
-return
-LARGE_ALLOCATION_REMOTE_TYPE
 ;
 }
 /
