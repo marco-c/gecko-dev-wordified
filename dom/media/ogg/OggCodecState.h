@@ -868,8 +868,7 @@ virtual
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 {
@@ -2144,8 +2143,7 @@ TYPE_VORBIS
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 override
@@ -2649,8 +2647,7 @@ TYPE_THEORA
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 override
@@ -2906,8 +2903,7 @@ TYPE_OPUS
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 override
@@ -3343,8 +3339,7 @@ TYPE_SKELETON
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 override
@@ -4062,8 +4057,7 @@ TYPE_FLAC
 bool
 DecodeHeader
 (
-ogg_packet
-*
+OggPacketPtr
 aPacket
 )
 override
