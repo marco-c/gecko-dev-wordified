@@ -501,6 +501,16 @@ GETRANDOM_NR
 elif
 defined
 (
+__aarch64__
+)
+#
+define
+GETRANDOM_NR
+278
+#
+elif
+defined
+(
 __arm__
 )
 #

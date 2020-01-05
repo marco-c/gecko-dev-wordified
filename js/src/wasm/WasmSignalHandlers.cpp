@@ -11303,6 +11303,13 @@ defined
 (
 ANDROID
 )
+#
+if
+!
+defined
+(
+__aarch64__
+)
 /
 /
 Before
@@ -11414,6 +11421,8 @@ return
 false
 ;
 }
+#
+endif
 #
 if
 defined
