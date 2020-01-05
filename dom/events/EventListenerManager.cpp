@@ -7656,6 +7656,12 @@ GetType
 typeStr
 )
 ;
+NS_LossyConvertUTF16toASCII
+typeCStr
+(
+typeStr
+)
+;
 PROFILER_LABEL_DYNAMIC
 (
 "
@@ -7674,9 +7680,10 @@ Category
 :
 :
 EVENTS
-NS_LossyConvertUTF16toASCII
+typeCStr
+.
+get
 (
-typeStr
 )
 )
 ;

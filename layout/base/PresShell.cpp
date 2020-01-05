@@ -38817,9 +38817,10 @@ Category
 :
 :
 GRAPHICS
-Move
-(
 uriString
+.
+get
+(
 )
 )
 ;
@@ -56423,9 +56424,10 @@ Category
 :
 :
 GRAPHICS
-Move
-(
 uriString
+.
+get
+(
 )
 )
 ;
