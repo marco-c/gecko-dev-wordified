@@ -212,7 +212,13 @@ public
 /
 /
 /
-Compositor
+This
+can
+be
+called
+on
+the
+compositor
 thread
 only
 .
@@ -820,9 +826,11 @@ aFormat
 /
 /
 namespace
+wr
 }
 /
 /
 namespace
+mozilla
 #
 endif

@@ -1786,7 +1786,9 @@ aGlyphSize
 /
 /
 namespace
+wr
 }
 /
 /
 namespace
+mozilla

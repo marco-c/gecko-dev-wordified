@@ -608,4 +608,12 @@ aEnabled
 ;
 }
 }
+/
+/
+namespace
+wr
 }
+/
+/
+namespace
+mozilla

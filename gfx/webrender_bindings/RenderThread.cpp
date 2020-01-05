@@ -949,10 +949,12 @@ transactionId
 /
 /
 namespace
+wr
 }
 /
 /
 namespace
+mozilla
 extern
 "
 C
