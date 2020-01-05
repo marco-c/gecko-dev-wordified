@@ -1713,14 +1713,6 @@ cache
 =
 mNonInheritingStyleContexts
 [
-static_cast
-<
-nsCSSAnonBoxes
-:
-:
-NonInheritingBase
->
-(
 nsCSSAnonBoxes
 :
 :
@@ -1728,7 +1720,6 @@ NonInheriting
 :
 :
 oofPlaceholder
-)
 ]
 ;
 if
