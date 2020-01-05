@@ -1512,9 +1512,11 @@ at
 let
 receivedURI
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 location
 )
@@ -2129,9 +2131,11 @@ at
 let
 receivedURI
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 location
 )

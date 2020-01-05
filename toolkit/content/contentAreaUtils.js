@@ -7045,9 +7045,11 @@ aBaseURI
 )
 {
 return
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 aURL
 aOriginCharset

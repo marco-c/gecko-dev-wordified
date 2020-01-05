@@ -6125,9 +6125,11 @@ nsIRefreshURI
 let
 URI
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 data
 .
@@ -6135,7 +6137,6 @@ URI
 data
 .
 originCharset
-null
 )
 ;
 refreshURI

@@ -376,9 +376,11 @@ false
 false
 ]
 [
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 "
 http
