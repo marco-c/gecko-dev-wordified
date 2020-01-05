@@ -2603,6 +2603,13 @@ nsCSSFontFaceRule
 CSSFontFaceRule
 )
 ;
+RawGeckoElementBorrowedOrNull
+Gecko_GetBody
+(
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 /
 /
 We
