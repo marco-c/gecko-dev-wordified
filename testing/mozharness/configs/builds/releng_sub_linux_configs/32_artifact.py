@@ -350,6 +350,16 @@ enable_unittest_sendchange
 :
 True
     
+'
+perfherder_extra_options
+'
+:
+[
+'
+artifact
+'
+]
+    
 #
 #
 #

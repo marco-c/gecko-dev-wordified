@@ -151,6 +151,18 @@ enable_unittest_sendchange
 :
 False
     
+'
+perfherder_extra_options
+'
+:
+[
+'
+static
+-
+analysis
+'
+]
+    
 #
 #
 #
