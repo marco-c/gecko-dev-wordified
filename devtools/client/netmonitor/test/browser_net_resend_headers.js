@@ -83,7 +83,6 @@ test
 ;
 let
 {
-document
 gStore
 windowRequire
 NetMonitorController
@@ -113,7 +112,6 @@ index
 ;
 let
 {
-getDisplayedRequests
 getSortedRequests
 }
 =

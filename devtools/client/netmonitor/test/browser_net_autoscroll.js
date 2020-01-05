@@ -564,6 +564,7 @@ requestsContainer
 .
 clientHeight
 )
+;
 if
 (
 requestsContainer

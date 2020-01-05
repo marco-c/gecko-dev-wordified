@@ -81,7 +81,6 @@ test
 ;
 let
 {
-document
 gStore
 windowRequire
 }

@@ -81,8 +81,6 @@ test
 let
 {
 document
-gStore
-windowRequire
 }
 =
 monitor

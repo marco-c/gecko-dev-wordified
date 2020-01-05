@@ -459,11 +459,11 @@ controlled
 clientWidth
 modifyFrontend
 :
+function
 (
 value
 )
-=
->
+{
 getDoc
 (
 )
@@ -492,6 +492,8 @@ width
 value
 }
 px
+;
+}
 }
 networkDetailsHeight
 :
@@ -540,11 +542,11 @@ controlled
 clientHeight
 modifyFrontend
 :
+function
 (
 value
 )
-=
->
+{
 getDoc
 (
 )
@@ -573,6 +575,8 @@ height
 value
 }
 px
+;
+}
 }
 /
 *
@@ -743,6 +747,7 @@ networkDetailsWidth
 )
 {
 continue
+;
 }
 let
 currentValue
@@ -897,6 +902,7 @@ networkDetailsWidth
 )
 {
 continue
+;
 }
 let
 currentValue
@@ -1134,6 +1140,7 @@ networkDetailsWidth
 )
 {
 continue
+;
 }
 let
 currentValue
@@ -1336,6 +1343,7 @@ networkDetailsWidth
 )
 {
 continue
+;
 }
 let
 currentValue

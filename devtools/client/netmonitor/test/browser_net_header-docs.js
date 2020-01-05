@@ -136,7 +136,6 @@ index
 ;
 let
 {
-getDisplayedRequests
 getSortedRequests
 }
 =
@@ -292,10 +291,9 @@ testShowLearnMore
 data
 )
 {
-document
-.
-querySelectorAll
-(
+let
+selector
+=
 "
 .
 properties
@@ -306,6 +304,12 @@ treeRow
 .
 stringRow
 "
+;
+document
+.
+querySelectorAll
+(
+selector
 )
 .
 forEach
