@@ -83,6 +83,11 @@ rest
 js
 "
 "
+stringbundle
+.
+js
+"
+"
 utils
 .
 js
