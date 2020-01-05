@@ -139,9 +139,6 @@ const
 nsAString
 &
 aCssText
-css
-:
-:
 URLExtraData
 *
 aExtraData

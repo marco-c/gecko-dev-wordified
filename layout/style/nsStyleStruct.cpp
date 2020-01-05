@@ -11381,9 +11381,6 @@ nsStringBuffer
 aURLBuffer
 already_AddRefed
 <
-css
-:
-:
 URLExtraData
 >
 aExtraData

@@ -6685,17 +6685,11 @@ bug
 )
 RefPtr
 <
-css
-:
-:
 URLExtraData
 >
 data
 =
 new
-css
-:
-:
 URLExtraData
 (
 aDocument

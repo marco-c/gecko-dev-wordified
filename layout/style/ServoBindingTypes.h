@@ -195,17 +195,9 @@ ServoElementSnapshot
 struct
 StyleAnimation
 ;
-namespace
-css
-{
 struct
 URLExtraData
 ;
-}
-/
-/
-namespace
-css
 namespace
 dom
 {
@@ -302,9 +294,6 @@ RawGeckoPresContext
 ;
 typedef
 mozilla
-:
-:
-css
 :
 :
 URLExtraData

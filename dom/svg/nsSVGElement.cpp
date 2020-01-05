@@ -7647,17 +7647,11 @@ to
 servo
 RefPtr
 <
-css
-:
-:
 URLExtraData
 >
 data
 =
 new
-css
-:
-:
 URLExtraData
 (
 mBaseURI
