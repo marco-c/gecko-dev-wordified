@@ -3066,6 +3066,10 @@ deps_path
 '
 features
 '
+        
+'
+target_dir
+'
     
 )
     
@@ -3098,6 +3102,7 @@ crate_type
 dependencies
                  
 features
+target_dir
 *
 *
 args
@@ -3240,12 +3245,19 @@ dependencies
         
 build_dir
 =
+mozpath
+.
+join
+(
+target_dir
+                                 
 cargo_output_directory
 (
 context
 self
 .
 TARGET_SUBST_VAR
+)
 )
         
 self
@@ -3281,6 +3293,12 @@ self
 features
 =
 features
+        
+self
+.
+target_dir
+=
+target_dir
 class
 SharedLibrary
 (
