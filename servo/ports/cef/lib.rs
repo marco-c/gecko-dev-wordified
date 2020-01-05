@@ -101,14 +101,6 @@ thread_local
 [
 feature
 (
-libc
-)
-]
-#
-!
-[
-feature
-(
 unicode
 )
 ]
