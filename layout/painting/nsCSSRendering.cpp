@@ -14048,7 +14048,15 @@ aClipState
 >
 mHasRoundedCorners
 =
-true
+!
+aClipState
+-
+>
+mClippedRadii
+.
+IsEmpty
+(
+)
 ;
 }
 if
