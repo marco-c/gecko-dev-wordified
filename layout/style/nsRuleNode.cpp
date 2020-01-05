@@ -58988,7 +58988,7 @@ SetCounters
 type
 value
 .
-GetThreadSafeArrayValue
+GetArrayValue
 (
 )
 )

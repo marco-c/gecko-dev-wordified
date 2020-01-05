@@ -5203,14 +5203,14 @@ aLen
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 arr
 =
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 :
 :
 Create

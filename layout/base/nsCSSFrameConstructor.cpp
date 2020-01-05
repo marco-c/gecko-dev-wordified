@@ -11286,7 +11286,7 @@ eStyleContentType_Counters
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 counters
 =

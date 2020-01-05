@@ -665,7 +665,7 @@ RefPtr
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 >
 mCounterFunction
 ;
@@ -717,7 +717,7 @@ aPresContext
 nsCSSValue
 :
 :
-ThreadSafeArray
+Array
 *
 aCounterFunction
 uint32_t
