@@ -247,13 +247,6 @@ js
 "
 )
 ;
-const
-nsIDM
-=
-Ci
-.
-nsIDownloadManager
-;
 var
 gTestTargetFile
 =
@@ -1164,7 +1157,7 @@ item
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_FINISHED
 canceled
@@ -1174,7 +1167,7 @@ item
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_CANCELED
 |
@@ -1184,7 +1177,7 @@ item
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_PAUSED
 error
@@ -1194,7 +1187,7 @@ item
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_FAILED
 ?
@@ -1215,7 +1208,7 @@ item
 state
 =
 =
-nsIDM
+DownloadsCommon
 .
 DOWNLOAD_PAUSED
 hasBlockedData
