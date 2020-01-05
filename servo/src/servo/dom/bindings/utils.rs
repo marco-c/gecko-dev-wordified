@@ -246,7 +246,6 @@ cast
 :
 forget
 (
-move
 x
 )
 ;
@@ -686,8 +685,6 @@ compartment
 :
 mut
 Compartment
-move
-name
 |
 {
 JSClass
@@ -993,8 +990,6 @@ compartment
 :
 mut
 Compartment
-move
-name
 |
 {
 JSClass
@@ -1323,12 +1318,10 @@ result
 unwrap
 (
 match
-move
 proto
 {
 Some
 (
-move
 s
 )
 =
@@ -1339,7 +1332,6 @@ new_object_with_proto
 (
 copy
 name
-move
 s
 compartment
 .
@@ -1401,7 +1393,6 @@ compartment
 .
 stash_global_proto
 (
-move
 name
 obj
 )

@@ -278,7 +278,6 @@ name
 to_str
 (
 )
-move
 value
 )
 )
@@ -311,11 +310,9 @@ ElementData
 {
 tag_name
 :
-move
 tag_name
 kind
 :
-move
 kind
 attrs
 :
@@ -358,11 +355,9 @@ Attr
 {
 name
 :
-move
 name
 value
 :
-move
 value
 }
 }

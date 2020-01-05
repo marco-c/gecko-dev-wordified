@@ -60,9 +60,9 @@ LayoutData
 ;
 }
 impl
-Node
-:
 LayoutAuxMethods
+for
+Node
 {
 /
 *

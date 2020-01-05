@@ -396,11 +396,9 @@ clone
 )
 layout_task
 :
-move
 layout_task
 content_task
 :
-move
 content_task
 }
 .
@@ -465,12 +463,10 @@ Msg
 bool
 {
 match
-move
 request
 {
 LoadURLMsg
 (
-move
 url
 )
 =
@@ -497,7 +493,6 @@ send
 (
 ExecuteMsg
 (
-move
 url
 )
 )
@@ -512,7 +507,6 @@ send
 (
 ParseMsg
 (
-move
 url
 )
 )
@@ -523,7 +517,6 @@ true
 }
 ExitMsg
 (
-move
 sender
 )
 =
@@ -577,7 +570,6 @@ render_task
 :
 ExitMsg
 (
-move
 response_chan
 )
 )

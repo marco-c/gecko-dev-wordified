@@ -60,9 +60,9 @@ util
 VoidPtrLike
 ;
 impl
-Node
-:
 VoidPtrLike
+for
+Node
 {
 static
 fn

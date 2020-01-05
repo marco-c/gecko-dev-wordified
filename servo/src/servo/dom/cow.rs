@@ -703,7 +703,6 @@ ScopeResource
 {
 d
 :
-move
 d
 }
 }
@@ -1221,16 +1220,16 @@ T
 Owned
 A
 >
+cmp
+:
+:
+Eq
+for
 Handle
 <
 T
 A
 >
-:
-cmp
-:
-:
-Eq
 {
 pure
 fn
@@ -1452,7 +1451,6 @@ T
 let
 _x
 =
-move
 *
 cast
 :

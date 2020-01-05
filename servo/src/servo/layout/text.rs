@@ -230,9 +230,7 @@ size
 ;
 TextBox
 (
-move
 new_box_data
-move
 new_text_data
 )
 }
@@ -254,9 +252,9 @@ str
 ;
 }
 impl
-RenderBox
-:
 UnscannedMethods
+for
+RenderBox
 {
 pure
 fn

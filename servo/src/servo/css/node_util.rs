@@ -245,7 +245,6 @@ decl
 =
 Cell
 (
-move
 decl
 )
 ;

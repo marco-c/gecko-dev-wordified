@@ -103,12 +103,12 @@ node
 }
 }
 impl
-NodeSelectHandler
-:
 SelectHandler
 <
 Node
 >
+for
+NodeSelectHandler
 {
 fn
 with_node_name

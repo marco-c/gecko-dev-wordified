@@ -1736,8 +1736,6 @@ box
 }
 }
 impl
-FlowTree
-:
 tree
 :
 :
@@ -1745,6 +1743,8 @@ ReadMethods
 <
 FlowContext
 >
+for
+FlowTree
 {
 fn
 with_tree_fields
@@ -1817,8 +1817,6 @@ child
 }
 }
 impl
-FlowTree
-:
 tree
 :
 :
@@ -1826,6 +1824,8 @@ WriteMethods
 <
 FlowContext
 >
+for
+FlowTree
 {
 pure
 fn
@@ -1903,9 +1903,9 @@ tree
 }
 }
 impl
-FlowContext
-:
 BoxedDebugMethods
+for
+FlowContext
 {
 pure
 fn
@@ -2118,7 +2118,6 @@ s
 )
 "
 ;
-move
 s
 }
 BlockFlow

@@ -185,7 +185,6 @@ ResizeRateLimiter
 {
 dom_event_chan
 :
-move
 dom_event_chan
 last_response_port
 :
@@ -420,7 +419,6 @@ ResizeEvent
 (
 width
 height
-move
 chan
 )
 )
@@ -431,7 +429,6 @@ last_response_port
 =
 Some
 (
-move
 port
 )
 ;
