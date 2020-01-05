@@ -17938,10 +17938,9 @@ conditions
 append
 (
 '
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 %
@@ -46482,6 +46481,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 '
             
 '

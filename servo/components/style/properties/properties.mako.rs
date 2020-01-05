@@ -6916,7 +6916,9 @@ util
 prefs
 :
 :
-get_pref
+PREFS
+.
+get
 (
 "
 {
@@ -7082,7 +7084,9 @@ util
 prefs
 :
 :
-get_pref
+PREFS
+.
+get
 (
 "
 {

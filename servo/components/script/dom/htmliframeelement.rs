@@ -633,7 +633,7 @@ util
 prefs
 :
 :
-mozbrowser_enabled
+PREFS
 ;
 use
 util
@@ -1305,7 +1305,9 @@ unwrap
 )
 ;
 if
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 {
@@ -1477,7 +1479,9 @@ events
 assert
 !
 (
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 )

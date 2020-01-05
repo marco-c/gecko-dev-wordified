@@ -544,6 +544,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 use
 util
@@ -6142,10 +6145,9 @@ UIProvider
 let
 max_redirects
 =
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 network

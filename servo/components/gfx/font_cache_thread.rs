@@ -270,6 +270,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 use
 util
@@ -3320,10 +3323,9 @@ bool
 {
 if
 !
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 network

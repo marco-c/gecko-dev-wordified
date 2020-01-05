@@ -280,7 +280,7 @@ util
 prefs
 :
 :
-get_pref
+PREFS
 ;
 #
 [
@@ -1484,7 +1484,9 @@ self
 let
 duration
 =
-get_pref
+PREFS
+.
+get
 (
 "
 js

@@ -359,7 +359,7 @@ util
 prefs
 :
 :
-mozbrowser_enabled
+PREFS
 ;
 #
 [
@@ -4644,7 +4644,9 @@ target
 target
 {
 if
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 &

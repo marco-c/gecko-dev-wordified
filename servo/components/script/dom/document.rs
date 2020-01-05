@@ -1413,7 +1413,7 @@ util
 prefs
 :
 :
-mozbrowser_enabled
+PREFS
 ;
 use
 util
@@ -9992,7 +9992,9 @@ MozBrowserEvent
 )
 {
 if
-mozbrowser_enabled
+PREFS
+.
+is_mozbrowser_enabled
 (
 )
 {

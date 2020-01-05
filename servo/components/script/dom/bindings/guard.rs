@@ -84,7 +84,7 @@ util
 prefs
 :
 :
-get_pref
+PREFS
 ;
 /
 /
@@ -346,7 +346,9 @@ name
 )
 =
 >
-get_pref
+PREFS
+.
+get
 (
 name
 )

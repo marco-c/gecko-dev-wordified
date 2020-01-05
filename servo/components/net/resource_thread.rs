@@ -464,6 +464,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 use
 util
@@ -872,10 +875,9 @@ ProgressSender
 >
 {
 if
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 network

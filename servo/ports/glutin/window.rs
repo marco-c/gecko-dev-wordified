@@ -402,6 +402,9 @@ util
 :
 :
 prefs
+:
+:
+PREFS
 ;
 use
 util
@@ -6885,10 +6888,9 @@ Some
 true
 )
 =
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 shell
@@ -7225,10 +7227,9 @@ Some
 true
 )
 =
-prefs
-:
-:
-get_pref
+PREFS
+.
+get
 (
 "
 shell
