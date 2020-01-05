@@ -2895,14 +2895,6 @@ browsing_context
 ;
 context
 .
-as_ref
-(
-)
-.
-unwrap
-(
-)
-.
 window_proxy
 (
 )
