@@ -678,6 +678,10 @@ mCurrentMenu
 (
 nullptr
 )
+mView
+(
+nullptr
+)
 mPrefSize
 (
 -
