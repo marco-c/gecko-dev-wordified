@@ -431,7 +431,7 @@ a
 generic
 implementation
 of
-rcu
+cow
 :
 :
 Handle
@@ -849,7 +849,7 @@ compartment
 *
 *
 The
-RCU
+COW
 rd_aux
 data
 is
@@ -915,7 +915,7 @@ FlowContext
 type
 Node
 =
-rcu
+cow
 :
 :
 Handle
@@ -927,7 +927,7 @@ LayoutData
 type
 NodeScope
 =
-rcu
+cow
 :
 :
 Scope
@@ -944,7 +944,7 @@ NodeScope
 >
 NodeScope
 {
-rcu
+cow
 :
 :
 Scope

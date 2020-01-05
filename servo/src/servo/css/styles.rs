@@ -603,7 +603,7 @@ auxiliary
 box
 in
 the
-RCU
+COW
 model
 )
 and
@@ -912,7 +912,7 @@ auxiliary
 box
 in
 the
-RCU
+COW
 model
 )
 with
