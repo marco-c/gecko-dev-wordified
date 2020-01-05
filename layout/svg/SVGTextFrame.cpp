@@ -345,6 +345,13 @@ h
 #
 include
 "
+SVGContextPaint
+.
+h
+"
+#
+include
+"
 SVGLengthList
 .
 h

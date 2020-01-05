@@ -121,6 +121,13 @@ order
 #
 include
 "
+DrawResult
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RestyleManagerHandle
@@ -181,6 +188,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+image
 ;
 NS_QUERYFRAME_HEAD
 (

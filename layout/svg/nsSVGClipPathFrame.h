@@ -992,6 +992,12 @@ CreateClipMask
 gfxContext
 &
 aReferenceContext
+mozilla
+:
+:
+gfx
+:
+:
 IntPoint
 &
 aOffset

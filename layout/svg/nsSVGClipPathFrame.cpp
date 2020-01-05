@@ -121,6 +121,13 @@ order
 #
 include
 "
+DrawResult
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -188,6 +195,13 @@ mozilla
 :
 :
 gfx
+;
+using
+namespace
+mozilla
+:
+:
+image
 ;
 /
 /

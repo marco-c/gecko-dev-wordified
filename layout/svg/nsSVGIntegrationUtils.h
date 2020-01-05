@@ -102,6 +102,13 @@ NSSVGINTEGRATIONUTILS_H_
 #
 include
 "
+DrawResult
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h

@@ -136,6 +136,13 @@ order
 #
 include
 "
+DrawResult
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
@@ -256,6 +263,13 @@ mozilla
 :
 :
 gfx
+;
+using
+namespace
+mozilla
+:
+:
+image
 ;
 FilterDescription
 nsFilterInstance
