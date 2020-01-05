@@ -4538,6 +4538,11 @@ isSystem
 addon
 .
 isSystem
+isWebExtension
+:
+addon
+.
+isWebExtension
 }
 ;
 if
