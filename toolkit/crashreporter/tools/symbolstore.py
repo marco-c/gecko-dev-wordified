@@ -3520,7 +3520,12 @@ path
 .
 normpath
 (
+self
+.
+FixFilenameCase
+(
 a
+)
 )
 for
 a
@@ -6609,7 +6614,22 @@ OPEN_EXISTING
                                                     
 3
                                                     
-0
+#
+FILE_FLAG_BACKUP_SEMANTICS
+                                                    
+#
+This
+is
+necessary
+to
+open
+                                                    
+#
+directory
+handles
+.
+                                                    
+0x02000000
                                                     
 None
 )
