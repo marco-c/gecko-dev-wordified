@@ -204,11 +204,6 @@ RollbackIceRestart
 (
 )
 ;
-NrIceStats
-Destroy
-(
-)
-;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 NrIceCtxHandler
@@ -243,7 +238,8 @@ delete
 NrIceCtxHandler
 (
 )
-;
+{
+}
 DISALLOW_COPY_ASSIGN
 (
 NrIceCtxHandler
