@@ -10953,6 +10953,16 @@ a
 new
 document
 ?
+if
+opts
+:
+:
+get
+(
+)
+.
+is_running_problem_test
+{
 println
 !
 (
@@ -10966,6 +10976,7 @@ ready_to_save_state
 "
 )
 ;
+}
 self
 .
 ready_to_save_state
