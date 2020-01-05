@@ -133,17 +133,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-.
-Versions
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAppShell
 ;
 import
