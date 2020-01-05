@@ -3516,6 +3516,12 @@ None
 =
 >
 return
+self
+.
+webgl_error
+(
+InvalidValue
+)
 }
 ;
 if
