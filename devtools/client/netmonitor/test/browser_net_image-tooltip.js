@@ -114,7 +114,7 @@ onEvents
 waitForNetworkEvents
 (
 monitor
-7
+8
 )
 ;
 let
