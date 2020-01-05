@@ -42535,9 +42535,6 @@ SetChooseApplicationCache
 NS_ShouldCheckAppCache
 (
 principal
-UsePrivateBrowsing
-(
-)
 )
 )
 ;
@@ -65278,9 +65275,6 @@ SetChooseApplicationCache
 NS_ShouldCheckAppCache
 (
 principal
-UsePrivateBrowsing
-(
-)
 )
 )
 ;
