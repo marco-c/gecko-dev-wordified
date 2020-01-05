@@ -3174,10 +3174,10 @@ return
 nullptr
 ;
 }
-CheckedInt64
+auto
 duration
 =
-FramesToUsecs
+FramesToTimeUnit
 (
 frames
 mOutputRate
@@ -3188,7 +3188,7 @@ if
 !
 duration
 .
-isValid
+IsValid
 (
 )
 )
@@ -3228,15 +3228,7 @@ aReference
 -
 >
 mTime
-.
-ToMicroseconds
-(
-)
 duration
-.
-value
-(
-)
 frames
 Move
 (
