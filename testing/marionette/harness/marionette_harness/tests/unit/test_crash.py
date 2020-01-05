@@ -755,6 +755,17 @@ get_url
 )
     
 run_if_e10s
+(
+"
+Content
+crashes
+only
+exist
+in
+e10s
+mode
+"
+)
     
 def
 test_crash_content_process
