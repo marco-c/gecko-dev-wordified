@@ -109,7 +109,7 @@ use
 gfx
 ;
 use
-newcss
+style
 ;
 /
 /
@@ -430,13 +430,13 @@ Color
 impl
 ToGfxColor
 for
-newcss
+style
 :
 :
-color
+properties
 :
 :
-Color
+RGBA
 {
 fn
 to_gfx_color
@@ -474,8 +474,6 @@ blue
 self
 .
 alpha
-as
-f64
 )
 }
 }

@@ -81,13 +81,10 @@ cell
 Cell
 ;
 use
-newcss
+style
 :
 :
-complete
-:
-:
-CompleteSelectResults
+ComputedValues
 ;
 use
 script
@@ -131,7 +128,7 @@ self
 &
 '
 self
-CompleteSelectResults
+ComputedValues
 ;
 fn
 set_css_select_results
@@ -139,7 +136,7 @@ set_css_select_results
 self
 decl
 :
-CompleteSelectResults
+ComputedValues
 )
 ;
 fn
@@ -259,7 +256,7 @@ self
 &
 '
 self
-CompleteSelectResults
+ComputedValues
 {
 do
 self
@@ -375,7 +372,7 @@ set_css_select_results
 self
 decl
 :
-CompleteSelectResults
+ComputedValues
 )
 {
 let

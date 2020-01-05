@@ -83,13 +83,10 @@ incremental
 RestyleDamage
 ;
 use
-newcss
+style
 :
 :
-complete
-:
-:
-CompleteStyle
+ComputedValues
 ;
 use
 script
@@ -139,7 +136,8 @@ self
 )
 -
 >
-CompleteStyle
+&
+ComputedValues
 ;
 fn
 restyle_damage
@@ -168,7 +166,8 @@ self
 )
 -
 >
-CompleteStyle
+&
+ComputedValues
 {
 assert
 !
@@ -197,10 +196,6 @@ get_css_select_results
 )
 ;
 results
-.
-computed_style
-(
-)
 }
 fn
 restyle_damage
