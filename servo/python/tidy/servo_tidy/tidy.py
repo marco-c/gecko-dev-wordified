@@ -6481,6 +6481,30 @@ splitlines
 )
 :
             
+if
+os
+.
+path
+.
+join
+(
+'
+.
+'
+os
+.
+path
+.
+dirname
+(
+f
+)
+)
+not
+in
+ignored_dirs
+:
+                
 yield
 os
 .
@@ -6567,7 +6591,7 @@ name
 for
 name
 in
-ignored_dirs
+exclude_dirs
 )
 ]
             
