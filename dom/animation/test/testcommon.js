@@ -2026,8 +2026,6 @@ elem
 var
 cs
 =
-window
-.
 getComputedStyle
 (
 elem
