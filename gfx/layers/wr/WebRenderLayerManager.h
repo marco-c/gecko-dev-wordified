@@ -725,7 +725,7 @@ NeedsWidgetInvalidation
 override
 {
 return
-true
+false
 ;
 }
 virtual
