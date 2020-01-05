@@ -128,6 +128,17 @@ CompositorBridgeParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+CompositorThread
+.
+h
+"
 namespace
 mozilla
 {

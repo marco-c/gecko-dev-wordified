@@ -1358,11 +1358,9 @@ LayerTreeState
 >
 LayerTreeMap
 ;
-static
 LayerTreeMap
 sIndirectLayerTrees
 ;
-static
 StaticAutoPtr
 <
 mozilla
@@ -8475,7 +8473,6 @@ IPC_OK
 )
 ;
 }
-static
 void
 EraseLayerState
 (
@@ -10094,7 +10091,6 @@ return
 true
 ;
 }
-static
 void
 UpdateIndirectTree
 (
