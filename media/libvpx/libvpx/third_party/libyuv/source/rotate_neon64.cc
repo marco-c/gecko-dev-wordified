@@ -192,8 +192,6 @@ const
 uint8
 *
 src_temp
-=
-NULL
 ;
 int64
 width64
@@ -2224,7 +2222,8 @@ n
 "
 :
 "
-+
+=
+&
 r
 "
 (
@@ -2438,8 +2437,6 @@ const
 uint8
 *
 src_temp
-=
-NULL
 ;
 int64
 width64
@@ -5168,7 +5165,8 @@ n
 "
 :
 "
-+
+=
+&
 r
 "
 (

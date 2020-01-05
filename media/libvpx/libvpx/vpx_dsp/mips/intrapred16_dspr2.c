@@ -137,6 +137,11 @@ tmp14
 tmp15
 tmp16
 ;
+(
+void
+)
+above
+;
 __asm__
 __volatile__
 (

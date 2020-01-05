@@ -236,7 +236,7 @@ t
 endif
 /
 /
-should
+Should
 we
 apply
 any
@@ -639,7 +639,7 @@ mask
 }
 /
 /
-is
+Is
 there
 high
 edge
@@ -876,6 +876,7 @@ we
 '
 ll
 set
+it
 to
 adjust
 by
@@ -892,6 +893,8 @@ we
 '
 d
 round
+it
+by
 3
 the
 other
@@ -3217,7 +3220,7 @@ s
 }
 }
 void
-vpx_lpf_horizontal_edge_8_c
+vpx_lpf_horizontal_16_c
 (
 uint8_t
 *
@@ -3250,7 +3253,7 @@ thresh
 ;
 }
 void
-vpx_lpf_horizontal_edge_16_c
+vpx_lpf_horizontal_16_dual_c
 (
 uint8_t
 *
@@ -4390,6 +4393,7 @@ we
 '
 ll
 set
+it
 to
 adjust
 by
@@ -4406,6 +4410,8 @@ we
 '
 d
 round
+it
+by
 3
 the
 other
@@ -6883,7 +6889,7 @@ s
 }
 }
 void
-vpx_highbd_lpf_horizontal_edge_8_c
+vpx_highbd_lpf_horizontal_16_c
 (
 uint16_t
 *
@@ -6919,7 +6925,7 @@ bd
 ;
 }
 void
-vpx_highbd_lpf_horizontal_edge_16_c
+vpx_highbd_lpf_horizontal_16_dual_c
 (
 uint16_t
 *

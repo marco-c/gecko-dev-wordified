@@ -123,6 +123,11 @@ tmp2
 tmp3
 tmp4
 ;
+(
+void
+)
+above
+;
 __asm__
 __volatile__
 (

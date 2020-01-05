@@ -2130,8 +2130,11 @@ pkt
 {
 if
 (
-!
 frame0_psnr_
+=
+=
+0
+.
 )
 frame0_psnr_
 =
@@ -4132,8 +4135,11 @@ pkt
 {
 if
 (
-!
 frame0_psnr_
+=
+=
+0
+.
 )
 frame0_psnr_
 =

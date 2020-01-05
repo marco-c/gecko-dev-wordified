@@ -1492,6 +1492,7 @@ the
 next
 call
 to
+*
 vpx_codec_decode
 .
 *
@@ -2764,6 +2765,7 @@ n
 \
 union
 {
+\
 struct
 vpx_codec_pkt_list
 head
@@ -2771,6 +2773,7 @@ head
 \
 struct
 {
+\
 struct
 vpx_codec_pkt_list
 head
@@ -2783,9 +2786,11 @@ pkts
 n
 ]
 ;
+\
 }
 alloc
 ;
+\
 }
 #
 define

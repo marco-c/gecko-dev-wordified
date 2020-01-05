@@ -244,20 +244,6 @@ commits
 /
 /
 *
-enable
-/
-disable
-frame
--
-based
-threading
-*
-/
-int
-use_frame_threads
-;
-/
-*
 decoder
 instances
 *
@@ -595,6 +581,7 @@ CHECK_MEM_ERROR
 lval
 expr
 )
+\
 do
 {
 \
@@ -637,8 +624,8 @@ s
 %
 d
 "
-\
 __FILE__
+\
 __LINE__
 )
 ;
@@ -657,6 +644,7 @@ CHECK_MEM_ERROR
 lval
 expr
 )
+\
 do
 {
 \

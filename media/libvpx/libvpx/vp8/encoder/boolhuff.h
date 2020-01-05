@@ -427,10 +427,13 @@ len
 <
 end
 )
+{
 return
 1
 ;
+}
 else
+{
 vpx_internal_error
 (
 error
@@ -444,6 +447,7 @@ partition
 "
 )
 ;
+}
 return
 0
 ;

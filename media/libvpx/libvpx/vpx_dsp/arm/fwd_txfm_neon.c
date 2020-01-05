@@ -617,6 +617,9 @@ v_t0_lo
 vmulq_n_s32
 (
 v_t0_lo
+(
+int32_t
+)
 cospi_16_64
 )
 ;
@@ -625,6 +628,9 @@ v_t0_hi
 vmulq_n_s32
 (
 v_t0_hi
+(
+int32_t
+)
 cospi_16_64
 )
 ;
@@ -633,6 +639,9 @@ v_t1_lo
 vmulq_n_s32
 (
 v_t1_lo
+(
+int32_t
+)
 cospi_16_64
 )
 ;
@@ -641,6 +650,9 @@ v_t1_hi
 vmulq_n_s32
 (
 v_t1_hi
+(
+int32_t
+)
 cospi_16_64
 )
 ;

@@ -2756,8 +2756,9 @@ src
 ;
 }
 }
+static
 void
-vpx_lpf_horizontal_16_dual_msa
+mb_lpf_horizontal_edge_dual
 (
 uint8_t
 *
@@ -3050,7 +3051,7 @@ q3
 flat
 )
 ;
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0
@@ -4566,7 +4567,7 @@ src
 }
 else
 {
-vpx_lpf_horizontal_16_dual_msa
+mb_lpf_horizontal_edge_dual
 (
 src
 pitch
@@ -4579,7 +4580,7 @@ count
 }
 }
 void
-vpx_lpf_horizontal_edge_8_msa
+vpx_lpf_horizontal_16_msa
 (
 uint8_t
 *
@@ -4612,7 +4613,7 @@ thresh_ptr
 ;
 }
 void
-vpx_lpf_horizontal_edge_16_msa
+vpx_lpf_horizontal_16_dual_msa
 (
 uint8_t
 *
@@ -5734,7 +5735,7 @@ flat
 filter4
 *
 /
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0

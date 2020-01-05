@@ -302,8 +302,6 @@ val
 ]
 )
 ;
-return
-;
 }
 static
 INLINE
@@ -344,8 +342,6 @@ vdup_n_s16
 (
 cospi_24_64
 )
-;
-return
 ;
 }
 static
@@ -398,8 +394,6 @@ vdup_n_s16
 (
 sinpi_4_9
 )
-;
-return
 ;
 }
 static
@@ -554,7 +548,7 @@ d2s16
 ;
 d26s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q13s32
 14
@@ -562,7 +556,7 @@ q13s32
 ;
 d27s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q14s32
 14
@@ -570,7 +564,7 @@ q14s32
 ;
 d29s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q15s32
 14
@@ -578,7 +572,7 @@ q15s32
 ;
 d28s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q10s32
 14
@@ -638,8 +632,6 @@ q9s16
 /
 /
 vswp
-return
-;
 }
 static
 INLINE
@@ -889,7 +881,7 @@ q12s32
 ;
 d16s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q13s32
 14
@@ -897,7 +889,7 @@ q13s32
 ;
 d17s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q14s32
 14
@@ -905,7 +897,7 @@ q14s32
 ;
 d18s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q15s32
 14
@@ -913,7 +905,7 @@ q15s32
 ;
 d19s16
 =
-vqrshrn_n_s32
+vrshrn_n_s32
 (
 q10s32
 14
@@ -937,8 +929,6 @@ d18s16
 d19s16
 )
 ;
-return
-;
 }
 void
 vp9_iht4x4_16_add_neon
@@ -951,7 +941,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 int
 tx_type
 )
@@ -1037,13 +1027,11 @@ vp9_iht4x4_16_add_c
 (
 input
 dest
-dest_stride
+stride
 tx_type
 )
 ;
 return
-;
-break
 ;
 case
 1
@@ -1344,7 +1332,7 @@ d26u32
 dest
 +
 =
-dest_stride
+stride
 ;
 d26u32
 =
@@ -1363,7 +1351,7 @@ d26u32
 dest
 +
 =
-dest_stride
+stride
 ;
 d27u32
 =
@@ -1382,7 +1370,7 @@ d27u32
 dest
 +
 =
-dest_stride
+stride
 ;
 d27u32
 =
@@ -1463,7 +1451,7 @@ d27u8
 dest
 -
 =
-dest_stride
+stride
 ;
 vst1_lane_u32
 (
@@ -1482,7 +1470,7 @@ d27u8
 dest
 -
 =
-dest_stride
+stride
 ;
 vst1_lane_u32
 (
@@ -1501,7 +1489,7 @@ d26u8
 dest
 -
 =
-dest_stride
+stride
 ;
 vst1_lane_u32
 (
@@ -1516,7 +1504,5 @@ d26u8
 )
 0
 )
-;
-return
 ;
 }

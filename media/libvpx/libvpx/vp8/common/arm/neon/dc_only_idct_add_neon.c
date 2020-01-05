@@ -92,6 +92,15 @@ arm_neon
 .
 h
 >
+#
+include
+"
+.
+/
+vp8_rtcd
+.
+h
+"
 void
 vp8_dc_only_idct_add_neon
 (
@@ -162,9 +171,9 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
 {
 d2u32

@@ -266,7 +266,7 @@ q3
 flat
 )
 ;
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0
@@ -1425,7 +1425,7 @@ flat
 filter4
 *
 /
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0

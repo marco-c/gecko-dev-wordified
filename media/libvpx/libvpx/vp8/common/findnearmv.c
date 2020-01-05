@@ -526,6 +526,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -534,6 +535,7 @@ CNT_INTRA
 =
 2
 ;
+}
 }
 /
 *
@@ -639,6 +641,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -647,6 +650,7 @@ CNT_INTRA
 =
 1
 ;
+}
 }
 /
 *
@@ -867,6 +871,7 @@ cnt
 CNT_INTRA
 ]
 )
+{
 near_mvs
 [
 CNT_INTRA
@@ -877,6 +882,7 @@ near_mvs
 CNT_NEAREST
 ]
 ;
+}
 /
 *
 Set

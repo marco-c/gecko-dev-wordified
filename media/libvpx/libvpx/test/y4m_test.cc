@@ -962,6 +962,11 @@ protected
 Y4mVideoWriteTest
 (
 )
+:
+tmpfile_
+(
+NULL
+)
 {
 }
 virtual

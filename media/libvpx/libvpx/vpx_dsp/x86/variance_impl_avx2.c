@@ -113,6 +113,14 @@ mem
 .
 h
 "
+/
+*
+clang
+-
+format
+off
+*
+/
 DECLARE_ALIGNED
 (
 32
@@ -384,6 +392,14 @@ bilinear_filters_avx2
 14
 }
 ;
+/
+*
+clang
+-
+format
+on
+*
+/
 void
 vpx_get16x16var_avx2
 (
@@ -1675,7 +1691,6 @@ __m256i
 const
 *
 )
-\
 (
 src
 +
@@ -1721,7 +1736,6 @@ __m256i
 const
 *
 )
-\
 (
 src
 +

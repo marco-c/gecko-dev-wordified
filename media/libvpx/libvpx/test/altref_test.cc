@@ -237,7 +237,11 @@ BeginPassHook
 (
 unsigned
 int
+/
+*
 pass
+*
+/
 )
 {
 altref_count_
@@ -588,6 +592,9 @@ VP8E_SET_ENABLEAUTOALTREF
 1
 )
 ;
+#
+if
+CONFIG_VP9_ENCODER
 /
 /
 override
@@ -599,9 +606,6 @@ columns
 if
 necessary
 .
-#
-if
-CONFIG_VP9_ENCODER
 if
 (
 GET_PARAM

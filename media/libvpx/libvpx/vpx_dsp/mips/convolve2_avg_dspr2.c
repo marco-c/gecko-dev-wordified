@@ -1362,7 +1362,6 @@ filter_y
 uint32_t
 filter45
 ;
-;
 filter45
 =
 (

@@ -250,7 +250,6 @@ ref_frame
 =
 INTRA_FRAME
 )
-\
 {
 \
 mvx
@@ -312,7 +311,6 @@ ref_frame
 =
 INTRA_FRAME
 )
-\
 {
 \
 mvx
@@ -363,9 +361,9 @@ mbmi
 .
 ref_frame
 ]
-\
 !
 =
+\
 cm
 -
 >
@@ -379,7 +377,6 @@ mbmi
 ref_frame
 ]
 )
-\
 {
 \
 mvx
@@ -595,9 +592,9 @@ i
 <
 MAX_REF_FRAMES
 ;
++
++
 i
-+
-+
 )
 store_info
 -
@@ -681,9 +678,9 @@ cm
 >
 mb_rows
 ;
++
++
 mb_row
-+
-+
 )
 {
 tmp
@@ -703,9 +700,9 @@ cm
 >
 mb_cols
 ;
++
++
 mb_col
-+
-+
 )
 {
 int
@@ -1178,9 +1175,9 @@ i
 <
 cnt
 ;
++
++
 i
-+
-+
 )
 {
 if

@@ -139,11 +139,11 @@ VP9_INTERP_EXTEND
 #
 define
 RIGHT_BOTTOM_MARGIN
+\
 (
 (
 VP9_ENC_BORDER_IN_PIXELS
 -
-\
 VP9_INTERP_EXTEND
 )
 <
@@ -1624,7 +1624,6 @@ mbmi
 )
 &
 &
-\
 (
 mbmi
 )

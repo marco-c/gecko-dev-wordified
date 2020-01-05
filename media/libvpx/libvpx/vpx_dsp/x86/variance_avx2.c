@@ -425,6 +425,9 @@ return
 sse
 -
 (
+uint32_t
+)
+(
 (
 (
 int64_t
@@ -483,6 +486,9 @@ return
 *
 sse
 -
+(
+uint32_t
+)
 (
 (
 (
@@ -543,6 +549,9 @@ return
 sse
 -
 (
+uint32_t
+)
+(
 (
 (
 int64_t
@@ -601,6 +610,9 @@ return
 *
 sse
 -
+(
+uint32_t
+)
 (
 (
 (
@@ -770,6 +782,9 @@ return
 sse
 -
 (
+uint32_t
+)
+(
 (
 (
 int64_t
@@ -830,6 +845,9 @@ return
 *
 sse
 -
+(
+uint32_t
+)
 (
 (
 (
@@ -947,6 +965,9 @@ return
 sse
 -
 (
+uint32_t
+)
+(
 (
 (
 int64_t
@@ -1021,6 +1042,9 @@ return
 *
 sse
 -
+(
+uint32_t
+)
 (
 (
 (

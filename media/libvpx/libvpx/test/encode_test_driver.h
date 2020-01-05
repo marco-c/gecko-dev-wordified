@@ -175,6 +175,7 @@ kTwoPassBest
 #
 define
 ALL_TEST_MODES
+\
 :
 :
 testing
@@ -188,7 +189,6 @@ libvpx_test
 :
 :
 kRealTime
-\
 :
 :
 libvpx_test
@@ -202,7 +202,6 @@ libvpx_test
 :
 :
 kOnePassBest
-\
 :
 :
 libvpx_test
@@ -220,6 +219,7 @@ kTwoPassBest
 #
 define
 ONE_PASS_TEST_MODES
+\
 :
 :
 testing
@@ -233,7 +233,6 @@ libvpx_test
 :
 :
 kRealTime
-\
 :
 :
 libvpx_test
@@ -251,6 +250,7 @@ kOnePassBest
 #
 define
 TWO_PASS_TEST_MODES
+\
 :
 :
 testing
@@ -264,7 +264,6 @@ libvpx_test
 :
 :
 kTwoPassGood
-\
 :
 :
 libvpx_test

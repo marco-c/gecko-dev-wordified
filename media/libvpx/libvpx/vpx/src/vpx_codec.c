@@ -614,7 +614,7 @@ entry
 ;
 res
 =
-VPX_CODEC_ERROR
+VPX_CODEC_INCAPABLE
 ;
 for
 (

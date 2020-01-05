@@ -223,6 +223,7 @@ and
 4
 lines
 post
+const
 int
 intermediate_height
 =
@@ -260,8 +261,8 @@ implementation
 will
 ignore
 the
-*
 given
+*
 height
 and
 filter
@@ -276,9 +277,9 @@ this
 goes
 in
 to
-*
 the
 temp
+*
 buffer
 which
 has
@@ -290,9 +291,9 @@ and
 is
 subsequently
 discarded
-*
 this
 is
+*
 safe
 if
 somewhat
@@ -311,7 +312,7 @@ src_stride
 3
 src_stride
 temp
-64
+w
 filter_x
 x_step_q4
 filter_y
@@ -341,10 +342,10 @@ vpx_convolve8_vert_neon
 (
 temp
 +
-64
+w
 *
 3
-64
+w
 dst
 dst_stride
 filter_x
@@ -400,6 +401,7 @@ temp
 ]
 )
 ;
+const
 int
 intermediate_height
 =
@@ -459,7 +461,7 @@ src_stride
 3
 src_stride
 temp
-64
+w
 filter_x
 x_step_q4
 filter_y
@@ -472,10 +474,10 @@ vpx_convolve8_avg_vert_neon
 (
 temp
 +
-64
+w
 *
 3
-64
+w
 dst
 dst_stride
 filter_x

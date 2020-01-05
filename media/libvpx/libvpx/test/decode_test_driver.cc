@@ -483,7 +483,6 @@ CreateDecoder
 (
 dec_cfg
 flags_
-0
 )
 ;
 ASSERT_TRUE
@@ -732,6 +731,7 @@ Next
 )
 )
 )
+{
 DecompressedFrameHook
 (
 *
@@ -744,6 +744,7 @@ frame_number
 )
 )
 ;
+}
 }
 delete
 decoder

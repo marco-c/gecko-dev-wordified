@@ -717,10 +717,12 @@ common
 .
 refresh_alt_ref_frame
 )
+{
 min_filter_level
 =
 0
 ;
+}
 else
 {
 if
@@ -730,10 +732,12 @@ base_qindex
 =
 6
 )
+{
 min_filter_level
 =
 0
 ;
+}
 else
 if
 (
@@ -742,11 +746,14 @@ base_qindex
 =
 16
 )
+{
 min_filter_level
 =
 1
 ;
+}
 else
+{
 min_filter_level
 =
 (
@@ -755,6 +762,7 @@ base_qindex
 8
 )
 ;
+}
 }
 return
 min_filter_level
@@ -849,6 +857,7 @@ section_intra_rating
 >
 8
 )
+{
 max_filter_level
 =
 MAX_LOOP_FILTER
@@ -857,6 +866,7 @@ MAX_LOOP_FILTER
 /
 4
 ;
+}
 return
 max_filter_level
 ;
@@ -964,6 +974,7 @@ frame_type
 =
 KEY_FRAME
 )
+{
 cm
 -
 >
@@ -971,7 +982,9 @@ sharpness_level
 =
 0
 ;
+}
 else
+{
 cm
 -
 >
@@ -984,6 +997,7 @@ oxcf
 .
 Sharpness
 ;
+}
 if
 (
 cm
@@ -1053,6 +1067,7 @@ filter_level
 <
 min_filter_level
 )
+{
 cm
 -
 >
@@ -1060,6 +1075,7 @@ filter_level
 =
 min_filter_level
 ;
+}
 else
 if
 (
@@ -1070,6 +1086,7 @@ filter_level
 >
 max_filter_level
 )
+{
 cm
 -
 >
@@ -1077,6 +1094,7 @@ filter_level
 =
 max_filter_level
 ;
+}
 filt_val
 =
 cm
@@ -1260,8 +1278,10 @@ filt_val
 ;
 }
 else
+{
 break
 ;
+}
 /
 *
 Adjust
@@ -1462,8 +1482,10 @@ filt_val
 ;
 }
 else
+{
 break
 ;
+}
 /
 *
 Adjust
@@ -1826,6 +1848,7 @@ frame_type
 =
 KEY_FRAME
 )
+{
 cm
 -
 >
@@ -1833,7 +1856,9 @@ sharpness_level
 =
 0
 ;
+}
 else
+{
 cm
 -
 >
@@ -1846,6 +1871,7 @@ oxcf
 .
 Sharpness
 ;
+}
 /
 *
 Start
@@ -1881,10 +1907,12 @@ filt_mid
 <
 min_filter_level
 )
+{
 filt_mid
 =
 min_filter_level
 ;
+}
 else
 if
 (
@@ -1892,10 +1920,12 @@ filt_mid
 >
 max_filter_level
 )
+{
 filt_mid
 =
 max_filter_level
 ;
+}
 /
 *
 Define
@@ -2029,6 +2059,7 @@ section_intra_rating
 <
 20
 )
+{
 Bias
 =
 Bias
@@ -2042,6 +2073,7 @@ section_intra_rating
 /
 20
 ;
+}
 filt_high
 =
 (
@@ -2168,6 +2200,7 @@ filt_err
 ;
 }
 else
+{
 filt_err
 =
 ss_err
@@ -2175,6 +2208,7 @@ ss_err
 filt_low
 ]
 ;
+}
 /
 *
 If
@@ -2323,6 +2357,7 @@ filt_err
 ;
 }
 else
+{
 filt_err
 =
 ss_err
@@ -2330,6 +2365,7 @@ ss_err
 filt_high
 ]
 ;
+}
 /
 *
 Was

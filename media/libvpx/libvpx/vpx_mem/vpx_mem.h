@@ -169,17 +169,6 @@ size
 )
 ;
 void
-*
-vpx_realloc
-(
-void
-*
-memblk
-size_t
-size
-)
-;
-void
 vpx_free
 (
 void

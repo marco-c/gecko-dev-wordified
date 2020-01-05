@@ -343,6 +343,7 @@ DeterministicSeed
 /
 Sum
 Pixels
+static
 unsigned
 int
 ReferenceAverage8x8
@@ -376,6 +377,7 @@ h
 +
 h
 )
+{
 for
 (
 int
@@ -403,6 +405,7 @@ pitch
 w
 ]
 ;
+}
 return
 (
 (
@@ -416,6 +419,7 @@ average
 )
 ;
 }
+static
 unsigned
 int
 ReferenceAverage4x4
@@ -449,6 +453,7 @@ h
 +
 h
 )
+{
 for
 (
 int
@@ -476,6 +481,7 @@ pitch
 w
 ]
 ;
+}
 return
 (
 (
@@ -651,6 +657,15 @@ CheckAverages
 (
 )
 {
+const
+int
+block_size
+=
+GET_PARAM
+(
+3
+)
+;
 unsigned
 int
 expected
@@ -659,10 +674,7 @@ expected
 ;
 if
 (
-GET_PARAM
-(
-3
-)
+block_size
 =
 =
 8
@@ -685,10 +697,7 @@ source_stride_
 else
 if
 (
-GET_PARAM
-(
-3
-)
+block_size
 =
 =
 4

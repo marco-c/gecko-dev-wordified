@@ -360,9 +360,9 @@ Q
 <
 QINDEX_RANGE
 ;
++
++
 Q
-+
-+
 )
 {
 pc
@@ -582,6 +582,7 @@ mb_segement_abs_delta
 =
 SEGMENT_ABSDATA
 )
+{
 QIndex
 =
 xd
@@ -604,7 +605,9 @@ Delta
 Value
 *
 /
+}
 else
+{
 QIndex
 =
 pc
@@ -626,6 +629,7 @@ mbmi
 segment_id
 ]
 ;
+}
 QIndex
 =
 (
@@ -660,6 +664,7 @@ range
 /
 }
 else
+{
 QIndex
 =
 pc
@@ -667,6 +672,7 @@ pc
 >
 base_qindex
 ;
+}
 /
 *
 Set
@@ -754,9 +760,9 @@ i
 <
 16
 ;
++
++
 i
-+
-+
 )
 {
 xd
@@ -1339,9 +1345,9 @@ i
 <
 16
 ;
++
++
 i
-+
-+
 )
 {
 BLOCKD
@@ -2032,9 +2038,9 @@ int
 )
 Border
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2128,9 +2134,9 @@ int
 Border
 )
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2212,9 +2218,9 @@ int
 Border
 )
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2358,9 +2364,9 @@ int
 )
 Border
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2469,9 +2475,9 @@ int
 Border
 )
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2561,9 +2567,9 @@ int
 Border
 )
 ;
++
++
 i
-+
-+
 )
 {
 memcpy
@@ -2734,9 +2740,9 @@ i
 <
 plane_height
 ;
++
++
 i
-+
-+
 )
 {
 memset
@@ -2881,9 +2887,9 @@ i
 <
 plane_height
 ;
++
++
 i
-+
-+
 )
 {
 memset
@@ -3005,9 +3011,9 @@ i
 <
 plane_height
 ;
++
++
 i
-+
-+
 )
 {
 memset
@@ -3210,9 +3216,9 @@ i
 <
 MAX_REF_FRAMES
 ;
++
++
 i
-+
-+
 )
 {
 YV12_BUFFER_CONFIG
@@ -3409,9 +3415,9 @@ pc
 >
 mb_rows
 ;
++
++
 mb_row
-+
-+
 )
 {
 if
@@ -3781,9 +3787,9 @@ pc
 >
 mb_cols
 ;
++
++
 mb_col
-+
-+
 )
 {
 /
@@ -4427,6 +4433,7 @@ filter_type
 =
 NORMAL_LOOPFILTER
 )
+{
 vp8_loop_filter_row_normal
 (
 pc
@@ -4450,7 +4457,9 @@ lf_dst
 ]
 )
 ;
+}
 else
+{
 vp8_loop_filter_row_simple
 (
 pc
@@ -4474,6 +4483,7 @@ lf_dst
 ]
 )
 ;
+}
 if
 (
 mb_row
@@ -4661,6 +4671,7 @@ filter_type
 =
 NORMAL_LOOPFILTER
 )
+{
 vp8_loop_filter_row_normal
 (
 pc
@@ -4684,7 +4695,9 @@ lf_dst
 ]
 )
 ;
+}
 else
+{
 vp8_loop_filter_row_simple
 (
 pc
@@ -4708,6 +4721,7 @@ lf_dst
 ]
 )
 ;
+}
 yv12_extend_frame_left_right_c
 (
 yv12_fb_new
@@ -5032,6 +5046,7 @@ partition_size_ptr
 first_fragment_end
 )
 )
+{
 partition_size
 =
 read_partition_size
@@ -5040,6 +5055,7 @@ pbi
 partition_size_ptr
 )
 ;
+}
 else
 if
 (
@@ -5048,6 +5064,7 @@ pbi
 >
 ec_active
 )
+{
 partition_size
 =
 (
@@ -5056,7 +5073,9 @@ int
 )
 bytes_left
 ;
+}
 else
+{
 vpx_internal_error
 (
 &
@@ -5074,7 +5093,9 @@ data
 )
 ;
 }
+}
 else
+{
 partition_size
 =
 (
@@ -5083,6 +5104,7 @@ int
 )
 bytes_left
 ;
+}
 /
 *
 Validate
@@ -5145,6 +5167,7 @@ pbi
 >
 ec_active
 )
+{
 partition_size
 =
 (
@@ -5153,7 +5176,9 @@ int
 )
 bytes_left
 ;
+}
 else
+{
 vpx_internal_error
 (
 &
@@ -5179,6 +5204,7 @@ i
 1
 )
 ;
+}
 }
 return
 partition_size
@@ -5283,6 +5309,7 @@ mbc
 ]
 )
 )
+{
 pbi
 -
 >
@@ -5292,6 +5319,7 @@ multi_token_partition
 =
 multi_token_partition
 ;
+}
 num_token_partitions
 =
 1
@@ -5725,6 +5753,7 @@ pbi
 decrypt_state
 )
 )
+{
 vpx_internal_error
 (
 &
@@ -5747,6 +5776,7 @@ d
 partition_idx
 )
 ;
+}
 bool_decoder
 +
 +
@@ -5775,6 +5805,7 @@ num_token_partitions
 -
 1
 )
+{
 pbi
 -
 >
@@ -5784,6 +5815,54 @@ num_token_partitions
 -
 1
 ;
+}
+if
+(
+(
+int
+)
+pbi
+-
+>
+decoding_thread_count
+>
+pbi
+-
+>
+common
+.
+mb_rows
+-
+1
+)
+{
+assert
+(
+pbi
+-
+>
+common
+.
+mb_rows
+>
+0
+)
+;
+pbi
+-
+>
+decoding_thread_count
+=
+pbi
+-
+>
+common
+.
+mb_rows
+-
+1
+;
+}
 #
 endif
 }
@@ -6137,6 +6216,7 @@ pbi
 >
 ec_active
 )
+{
 pbi
 -
 >
@@ -6144,6 +6224,7 @@ ec_active
 =
 1
 ;
+}
 }
 xd
 -
@@ -6640,6 +6721,7 @@ first_partition_length_in_bytes
 data
 )
 )
+{
 vpx_internal_error
 (
 &
@@ -6659,6 +6741,7 @@ length
 "
 )
 ;
+}
 data
 +
 =
@@ -6760,6 +6843,7 @@ clear
 =
 0x2a
 )
+{
 vpx_internal_error
 (
 &
@@ -6776,6 +6860,7 @@ code
 "
 )
 ;
+}
 }
 /
 *
@@ -6995,6 +7080,7 @@ pbi
 decrypt_state
 )
 )
+{
 vpx_internal_error
 (
 &
@@ -7013,6 +7099,7 @@ decoder
 "
 )
 ;
+}
 if
 (
 pc
@@ -7091,6 +7178,7 @@ is
 being
 explicitly
 updated
+*
 this
 frame
 .
@@ -7187,9 +7275,9 @@ i
 <
 MB_LVL_MAX
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -7202,9 +7290,9 @@ j
 <
 MAX_MB_SEGMENTS
 ;
++
++
 j
-+
-+
 )
 {
 /
@@ -7253,6 +7341,7 @@ vp8_read_bit
 bc
 )
 )
+{
 xd
 -
 >
@@ -7277,7 +7366,9 @@ j
 ]
 ;
 }
+}
 else
+{
 xd
 -
 >
@@ -7291,6 +7382,7 @@ j
 =
 0
 ;
+}
 }
 }
 }
@@ -7357,9 +7449,9 @@ i
 <
 MB_FEATURE_TREE_PROBS
 ;
++
++
 i
-+
-+
 )
 {
 /
@@ -7385,6 +7477,7 @@ vp8_read_bit
 bc
 )
 )
+{
 xd
 -
 >
@@ -7402,6 +7495,7 @@ bc
 8
 )
 ;
+}
 }
 }
 }
@@ -7495,6 +7589,7 @@ on
 mode
 or
 ref
+*
 frame
 .
 *
@@ -7577,9 +7672,9 @@ i
 <
 MAX_REF_LF_DELTAS
 ;
++
++
 i
-+
-+
 )
 {
 if
@@ -7626,6 +7721,7 @@ vp8_read_bit
 bc
 )
 )
+{
 /
 *
 Apply
@@ -7651,6 +7747,7 @@ i
 -
 1
 ;
+}
 }
 }
 /
@@ -7669,9 +7766,9 @@ i
 <
 MAX_MODE_LF_DELTAS
 ;
++
++
 i
-+
-+
 )
 {
 if
@@ -7718,6 +7815,7 @@ vp8_read_bit
 bc
 )
 )
+{
 /
 *
 Apply
@@ -7743,6 +7841,7 @@ i
 -
 1
 ;
+}
 }
 }
 }
@@ -8135,6 +8234,7 @@ pc
 >
 refresh_golden_frame
 )
+{
 pc
 -
 >
@@ -8146,6 +8246,7 @@ bc
 2
 )
 ;
+}
 #
 if
 CONFIG_ERROR_CONCEALMENT
@@ -8215,6 +8316,7 @@ pc
 >
 refresh_alt_ref_frame
 )
+{
 pc
 -
 >
@@ -8226,6 +8328,7 @@ bc
 2
 )
 ;
+}
 #
 if
 CONFIG_ERROR_CONCEALMENT
@@ -8585,10 +8688,11 @@ i
 <
 BLOCK_TYPES
 ;
++
++
 i
-+
-+
 )
+{
 for
 (
 j
@@ -8599,10 +8703,11 @@ j
 <
 COEF_BANDS
 ;
++
++
 j
-+
-+
 )
+{
 for
 (
 k
@@ -8613,10 +8718,11 @@ k
 <
 PREV_COEF_CONTEXTS
 ;
++
++
 k
-+
-+
 )
+{
 for
 (
 l
@@ -8627,9 +8733,9 @@ l
 <
 ENTROPY_NODES
 ;
++
++
 l
-+
-+
 )
 {
 vp8_prob
@@ -8721,6 +8827,7 @@ k
 l
 ]
 )
+{
 pbi
 -
 >
@@ -8728,6 +8835,10 @@ independent_partitions
 =
 0
 ;
+}
+}
+}
+}
 }
 }
 /
@@ -8903,6 +9014,7 @@ decoding_thread_count
 +
 thread
 )
+{
 corrupt_tokens
 |
 =
@@ -8918,6 +9030,7 @@ mbd
 .
 corrupted
 ;
+}
 }
 else
 #
@@ -9014,6 +9127,7 @@ yv12_fb_new
 >
 corrupted
 )
+{
 pbi
 -
 >
@@ -9021,7 +9135,9 @@ decoded_key_frame
 =
 1
 ;
+}
 else
+{
 vpx_internal_error
 (
 &
@@ -9046,6 +9162,7 @@ frame
 )
 ;
 }
+}
 /
 *
 vpx_log
@@ -9061,6 +9178,7 @@ Roughly
 %
 d
 bytes
+*
 \
 n
 "

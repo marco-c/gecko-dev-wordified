@@ -356,7 +356,7 @@ this
 file
 .
 void
-vpx_highbd_lpf_horizontal_edge_8_sse2
+vpx_highbd_lpf_horizontal_16_sse2
 (
 uint16_t
 *
@@ -4248,7 +4248,7 @@ q0
 ;
 }
 void
-vpx_highbd_lpf_horizontal_edge_16_sse2
+vpx_highbd_lpf_horizontal_16_dual_sse2
 (
 uint16_t
 *
@@ -4271,7 +4271,7 @@ int
 bd
 )
 {
-vpx_highbd_lpf_horizontal_edge_8_sse2
+vpx_highbd_lpf_horizontal_16_sse2
 (
 s
 p
@@ -4281,7 +4281,7 @@ _thresh
 bd
 )
 ;
-vpx_highbd_lpf_horizontal_edge_8_sse2
+vpx_highbd_lpf_horizontal_16_sse2
 (
 s
 +
@@ -9612,7 +9612,7 @@ dst
 /
 Loop
 filtering
-vpx_highbd_lpf_horizontal_edge_8_sse2
+vpx_highbd_lpf_horizontal_16_sse2
 (
 t_dst
 +
@@ -9750,7 +9750,7 @@ t_dst
 /
 Loop
 filtering
-vpx_highbd_lpf_horizontal_edge_16_sse2
+vpx_highbd_lpf_horizontal_16_dual_sse2
 (
 t_dst
 +

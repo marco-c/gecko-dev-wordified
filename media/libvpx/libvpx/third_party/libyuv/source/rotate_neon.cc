@@ -188,8 +188,6 @@ const
 uint8
 *
 src_temp
-=
-NULL
 ;
 asm
 volatile
@@ -251,13 +249,6 @@ majority
 of
 the
 plane
-"
-.
-p2align
-2
-\
-n
-"
 "
 1
 :
@@ -1988,7 +1979,8 @@ n
 "
 :
 "
-+
+=
+&
 r
 "
 (
@@ -2137,8 +2129,6 @@ const
 uint8
 *
 src_temp
-=
-NULL
 ;
 asm
 volatile
@@ -2200,13 +2190,6 @@ majority
 of
 the
 plane
-"
-.
-p2align
-2
-\
-n
-"
 "
 1
 :
@@ -4602,7 +4585,8 @@ n
 "
 :
 "
-+
+=
+&
 r
 "
 (

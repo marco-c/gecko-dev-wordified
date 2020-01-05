@@ -132,18 +132,6 @@ findnearmv
 .
 h
 "
-#
-if
-CONFIG_DEBUG
-#
-include
-<
-assert
-.
-h
->
-#
-endif
 static
 B_PREDICTION_MODE
 read_bmode
@@ -580,6 +568,7 @@ x
 ;
 }
 else
+{
 /
 *
 small
@@ -596,6 +585,7 @@ p
 MVPshort
 )
 ;
+}
 if
 (
 x
@@ -1011,6 +1001,7 @@ common
 .
 mb_no_coeff_skip
 )
+{
 pbi
 -
 >
@@ -1025,6 +1016,7 @@ bc
 8
 )
 ;
+}
 if
 (
 pbi
@@ -1406,9 +1398,6 @@ configuration
 )
 *
 /
-int
-num_p
-;
 /
 *
 number
@@ -1424,6 +1413,9 @@ vp8_mbsplit_count
 )
 *
 /
+int
+num_p
+;
 int
 j
 =
@@ -1557,6 +1549,7 @@ mode
 =
 SPLITMV
 )
+{
 leftmv
 .
 as_int
@@ -1570,7 +1563,9 @@ mv
 .
 as_int
 ;
+}
 else
+{
 leftmv
 .
 as_int
@@ -1594,7 +1589,9 @@ mv
 as_int
 ;
 }
+}
 else
+{
 leftmv
 .
 as_int
@@ -1615,6 +1612,7 @@ mv
 .
 as_int
 ;
+}
 if
 (
 !
@@ -1650,6 +1648,7 @@ mode
 =
 SPLITMV
 )
+{
 abovemv
 .
 as_int
@@ -1663,7 +1662,9 @@ mv
 .
 as_int
 ;
+}
 else
+{
 abovemv
 .
 as_int
@@ -1687,7 +1688,9 @@ mv
 as_int
 ;
 }
+}
 else
+{
 abovemv
 .
 as_int
@@ -1708,6 +1711,7 @@ mv
 .
 as_int
 ;
+}
 prob
 =
 get_sub_mv_ref_prob
@@ -2410,6 +2414,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -2418,6 +2423,7 @@ CNT_INTRA
 =
 2
 ;
+}
 }
 /
 *
@@ -2526,6 +2532,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -2534,6 +2541,7 @@ CNT_INTRA
 =
 1
 ;
+}
 }
 if
 (
@@ -3619,6 +3627,7 @@ mb_segment_tree_probs
 ]
 )
 )
+{
 mi
 -
 >
@@ -3644,7 +3653,9 @@ mb_segment_tree_probs
 )
 )
 ;
+}
 else
+{
 mi
 -
 >
@@ -3668,6 +3679,7 @@ mb_segment_tree_probs
 )
 )
 ;
+}
 }
 }
 static
@@ -3738,6 +3750,7 @@ mb
 .
 update_mb_segmentation_map
 )
+{
 read_mb_features
 (
 &
@@ -3760,6 +3773,7 @@ pbi
 mb
 )
 ;
+}
 else
 if
 (
@@ -3773,6 +3787,7 @@ frame_type
 =
 KEY_FRAME
 )
+{
 mi
 -
 >
@@ -3782,6 +3797,7 @@ segment_id
 =
 0
 ;
+}
 /
 *
 Read
@@ -3812,6 +3828,7 @@ common
 .
 mb_no_coeff_skip
 )
+{
 mi
 -
 >
@@ -3835,7 +3852,9 @@ pbi
 prob_skip_false
 )
 ;
+}
 else
+{
 mi
 -
 >
@@ -3845,6 +3864,7 @@ mb_skip_coeff
 =
 0
 ;
+}
 mi
 -
 >
@@ -3866,13 +3886,16 @@ frame_type
 =
 KEY_FRAME
 )
+{
 read_kf_modes
 (
 pbi
 mi
 )
 ;
+}
 else
+{
 read_mb_modes_mv
 (
 pbi
@@ -3884,6 +3907,7 @@ mi
 mbmi
 )
 ;
+}
 }
 void
 vp8_decode_mode_mvs

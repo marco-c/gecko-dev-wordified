@@ -178,9 +178,9 @@ i
 <
 4
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -193,9 +193,9 @@ j
 <
 4
 ;
++
++
 j
-+
-+
 )
 {
 if
@@ -207,6 +207,7 @@ eobs
 >
 1
 )
+{
 vp8_dequant_idct_add_c
 (
 q
@@ -215,6 +216,7 @@ dst
 stride
 )
 ;
+}
 else
 {
 vp8_dc_only_idct_add_c
@@ -310,9 +312,9 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -325,9 +327,9 @@ j
 <
 2
 ;
++
++
 j
-+
-+
 )
 {
 if
@@ -339,6 +341,7 @@ eobs
 >
 1
 )
+{
 vp8_dequant_idct_add_c
 (
 q
@@ -347,6 +350,7 @@ dstu
 stride
 )
 ;
+}
 else
 {
 vp8_dc_only_idct_add_c
@@ -413,9 +417,9 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -428,9 +432,9 @@ j
 <
 2
 ;
++
++
 j
-+
-+
 )
 {
 if
@@ -442,6 +446,7 @@ eobs
 >
 1
 )
+{
 vp8_dequant_idct_add_c
 (
 q
@@ -450,6 +455,7 @@ dstv
 stride
 )
 ;
+}
 else
 {
 vp8_dc_only_idct_add_c

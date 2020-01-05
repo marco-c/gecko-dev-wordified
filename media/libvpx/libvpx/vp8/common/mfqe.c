@@ -282,9 +282,9 @@ r
 <
 block_size
 ;
++
++
 r
-+
-+
 )
 {
 for
@@ -297,9 +297,9 @@ c
 <
 block_size
 ;
++
++
 c
-+
-+
 )
 {
 dst
@@ -1470,6 +1470,7 @@ udp
 =
 uvd_stride
 )
+{
 memcpy
 (
 udp
@@ -1477,6 +1478,7 @@ up
 uvblksize
 )
 ;
+}
 for
 (
 vp
@@ -1505,6 +1507,7 @@ vdp
 =
 uvd_stride
 )
+{
 memcpy
 (
 vdp
@@ -1512,6 +1515,7 @@ vp
 uvblksize
 )
 ;
+}
 }
 }
 }
@@ -1537,6 +1541,7 @@ mbmi
 .
 mb_skip_coeff
 )
+{
 map
 [
 0
@@ -1559,6 +1564,7 @@ map
 =
 1
 ;
+}
 else
 if
 (
@@ -1656,6 +1662,7 @@ j
 +
 j
 )
+{
 map
 [
 i
@@ -1711,6 +1718,7 @@ col
 2
 )
 ;
+}
 }
 }
 else
@@ -1988,9 +1996,9 @@ cm
 >
 mb_rows
 ;
++
++
 mb_row
-+
-+
 )
 {
 for
@@ -2006,9 +2014,9 @@ cm
 >
 mb_cols
 ;
++
++
 mb_col
-+
-+
 )
 {
 /
@@ -2032,6 +2040,7 @@ frame_type
 =
 INTER_FRAME
 )
+{
 totmap
 =
 qualify_inter_mb
@@ -2040,7 +2049,9 @@ mode_info_context
 map
 )
 ;
+}
 else
+{
 totmap
 =
 (
@@ -2054,6 +2065,7 @@ KEY_FRAME
 0
 )
 ;
+}
 if
 (
 totmap
@@ -2084,6 +2096,7 @@ i
 +
 i
 )
+{
 for
 (
 j
@@ -2409,6 +2422,7 @@ vp
 4
 )
 ;
+}
 }
 }
 }

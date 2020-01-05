@@ -155,6 +155,7 @@ vp8_copy
 Dest
 Src
 )
+\
 {
 \
 assert
@@ -204,6 +205,7 @@ Dest
 Src
 N
 )
+\
 {
 \
 assert

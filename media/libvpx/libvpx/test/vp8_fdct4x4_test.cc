@@ -729,6 +729,7 @@ j
 +
 j
 )
+{
 test_input_block
 [
 j
@@ -746,6 +747,7 @@ Rand8
 (
 )
 ;
+}
 vp8_short_fdct4x4_c
 (
 test_input_block
@@ -778,6 +780,7 @@ j
 <
 0
 )
+{
 +
 +
 count_sign_block
@@ -788,6 +791,7 @@ j
 0
 ]
 ;
+}
 else
 if
 (
@@ -798,6 +802,7 @@ j
 >
 0
 )
+{
 +
 +
 count_sign_block
@@ -808,6 +813,7 @@ j
 1
 ]
 ;
+}
 }
 }
 bool
@@ -830,6 +836,7 @@ j
 +
 j
 )
+{
 bias_acceptable
 =
 bias_acceptable
@@ -858,6 +865,7 @@ j
 10000
 )
 ;
+}
 EXPECT_EQ
 (
 true
@@ -943,6 +951,7 @@ j
 +
 j
 )
+{
 test_input_block
 [
 j
@@ -970,6 +979,7 @@ Rand8
 4
 )
 ;
+}
 vp8_short_fdct4x4_c
 (
 test_input_block
@@ -1002,6 +1012,7 @@ j
 <
 0
 )
+{
 +
 +
 count_sign_block
@@ -1012,6 +1023,7 @@ j
 0
 ]
 ;
+}
 else
 if
 (
@@ -1022,6 +1034,7 @@ j
 >
 0
 )
+{
 +
 +
 count_sign_block
@@ -1032,6 +1045,7 @@ j
 1
 ]
 ;
+}
 }
 }
 bias_acceptable
@@ -1053,6 +1067,7 @@ j
 +
 j
 )
+{
 bias_acceptable
 =
 bias_acceptable
@@ -1081,6 +1096,7 @@ j
 100000
 )
 ;
+}
 EXPECT_EQ
 (
 true
@@ -1209,6 +1225,7 @@ j
 +
 j
 )
+{
 test_input_block
 [
 j
@@ -1226,6 +1243,7 @@ Rand8
 (
 )
 ;
+}
 const
 int
 pitch

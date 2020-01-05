@@ -155,6 +155,7 @@ DCT_CONST_ROUND_SHIFT_TWICE_COSPI_16_64
 (
 input
 )
+\
 (
 {
 \
@@ -180,14 +181,13 @@ input
 __asm__
 __volatile__
 (
-\
 /
 *
 out
 =
 dct_const_round_shift
 (
-input_dc
+dc
 *
 cospi_16_64
 )
@@ -202,6 +202,9 @@ mtlo
 dct_cost_rounding
 ]
 ac1
+"
+\
+"
 \
 n
 \
@@ -212,6 +215,9 @@ t
 mthi
 zero
 ac1
+"
+\
+"
 \
 n
 \
@@ -225,6 +231,9 @@ ac1
 [
 in
 ]
+"
+\
+"
 %
 [
 cospi_16_64
@@ -242,6 +251,9 @@ extp
 tmp
 ]
 ac1
+"
+\
+"
 31
 \
 n
@@ -271,6 +283,9 @@ mtlo
 dct_cost_rounding
 ]
 ac2
+"
+\
+"
 \
 n
 \
@@ -281,6 +296,9 @@ t
 mthi
 zero
 ac2
+"
+\
+"
 \
 n
 \
@@ -294,6 +312,9 @@ ac2
 [
 tmp
 ]
+"
+\
+"
 %
 [
 cospi_16_64
@@ -311,6 +332,9 @@ extp
 out
 ]
 ac2
+"
+\
+"
 31
 \
 n
@@ -372,12 +396,12 @@ r
 (
 cospi_16_64
 )
-\
 )
 ;
 \
 out
 ;
+\
 }
 )
 void
@@ -390,7 +414,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 )
 ;
 void
@@ -415,7 +439,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 )
 ;
 void
@@ -454,7 +478,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 )
 ;
 void
@@ -493,7 +517,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 )
 ;
 void

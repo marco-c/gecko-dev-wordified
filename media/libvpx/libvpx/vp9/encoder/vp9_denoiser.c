@@ -3891,13 +3891,6 @@ denoiser
 int
 i
 ;
-denoiser
--
->
-frame_buffer_initialized
-=
-0
-;
 if
 (
 denoiser
@@ -3909,6 +3902,13 @@ NULL
 return
 ;
 }
+denoiser
+-
+>
+frame_buffer_initialized
+=
+0
+;
 for
 (
 i

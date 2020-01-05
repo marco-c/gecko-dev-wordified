@@ -590,6 +590,7 @@ to
 step
 on
 in
+*
 source
 .
 *
@@ -639,6 +640,7 @@ to
 step
 on
 in
+*
 destination
 .
 *
@@ -649,6 +651,7 @@ dest_scale
 Scale
 for
 destination
+*
 (
 UNUSED
 )
@@ -1039,6 +1042,7 @@ to
 step
 on
 in
+*
 source
 .
 *
@@ -1088,6 +1092,7 @@ to
 step
 on
 in
+*
 destination
 .
 *
@@ -1098,6 +1103,7 @@ dest_scale
 Scale
 for
 destination
+*
 (
 UNUSED
 )
@@ -1423,6 +1429,7 @@ to
 step
 on
 in
+*
 source
 .
 *
@@ -1469,6 +1476,7 @@ to
 step
 on
 in
+*
 destination
 .
 *
@@ -1721,6 +1729,7 @@ dest_length
 )
 *
 source_scale
+*
 )
 ;
 *
@@ -1909,6 +1918,7 @@ to
 data
 to
 be
+*
 scaled
 .
 *
@@ -1950,6 +1960,7 @@ Pointer
 to
 output
 data
+*
 array
 .
 *
@@ -1959,6 +1970,7 @@ dest_pitch
 Stride
 of
 destination
+*
 image
 .
 *
@@ -1979,6 +1991,7 @@ dest_height
 Height
 of
 destination
+*
 image
 .
 *
@@ -2012,6 +2025,7 @@ hscale
 Horizontal
 scale
 factor
+*
 numerator
 .
 *
@@ -2022,6 +2036,7 @@ hratio
 Horizontal
 scale
 factor
+*
 denominator
 .
 *
@@ -2032,6 +2047,7 @@ vscale
 Vertical
 scale
 factor
+*
 numerator
 .
 *
@@ -2042,6 +2058,7 @@ vratio
 Vertical
 scale
 factor
+*
 denominator
 .
 *
@@ -2352,41 +2369,6 @@ char
 *
 source_base
 ;
-/
-*
-=
-(
-unsigned
-char
-*
-)
-(
-(
-source_pitch
->
-=
-0
-)
-?
-source
-:
-(
-source
-+
-(
-(
-source_height
--
-1
-)
-*
-source_pitch
-)
-)
-)
-;
-*
-/
 unsigned
 char
 *
@@ -3146,6 +3128,7 @@ row
 ahead
 for
 vertical
+*
 zoom
 *
 /
@@ -3503,6 +3486,7 @@ to
 frame
 to
 be
+*
 scaled
 .
 *
@@ -3515,6 +3499,7 @@ to
 buffer
 to
 hold
+*
 scaled
 frame
 .
@@ -3549,6 +3534,7 @@ hscale
 Horizontal
 scale
 factor
+*
 numerator
 .
 *
@@ -3559,6 +3545,7 @@ hratio
 Horizontal
 scale
 factor
+*
 denominator
 .
 *
@@ -3569,6 +3556,7 @@ vscale
 Vertical
 scale
 factor
+*
 numerator
 .
 *
@@ -3579,6 +3567,7 @@ vratio
 Vertical
 scale
 factor
+*
 denominator
 .
 *

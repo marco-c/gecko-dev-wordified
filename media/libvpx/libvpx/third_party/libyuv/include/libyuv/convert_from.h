@@ -311,14 +311,6 @@ int
 height
 )
 ;
-/
-/
-TODO
-(
-fbarchard
-)
-:
-I420ToM420
 LIBYUV_API
 int
 I420ToNV12

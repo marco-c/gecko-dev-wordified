@@ -564,6 +564,7 @@ we
 '
 ll
 set
+it
 to
 adjust
 by
@@ -579,6 +580,8 @@ we
 '
 d
 round
+it
+by
 3
 the
 other
@@ -2503,6 +2506,7 @@ if
 (
 u_ptr
 )
+{
 vp8_mbloop_filter_horizontal_edge_c
 (
 u_ptr
@@ -2522,10 +2526,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_mbloop_filter_horizontal_edge_c
 (
 v_ptr
@@ -2545,6 +2551,7 @@ hev_thr
 1
 )
 ;
+}
 }
 /
 *
@@ -2600,6 +2607,7 @@ if
 (
 u_ptr
 )
+{
 vp8_mbloop_filter_vertical_edge_c
 (
 u_ptr
@@ -2619,10 +2627,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_mbloop_filter_vertical_edge_c
 (
 v_ptr
@@ -2642,6 +2652,7 @@ hev_thr
 1
 )
 ;
+}
 }
 /
 *
@@ -2747,6 +2758,7 @@ if
 (
 u_ptr
 )
+{
 vp8_loop_filter_horizontal_edge_c
 (
 u_ptr
@@ -2770,10 +2782,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_loop_filter_horizontal_edge_c
 (
 v_ptr
@@ -2797,6 +2811,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_bhs_c
@@ -2946,6 +2961,7 @@ if
 (
 u_ptr
 )
+{
 vp8_loop_filter_vertical_edge_c
 (
 u_ptr
@@ -2967,10 +2983,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_loop_filter_vertical_edge_c
 (
 v_ptr
@@ -2992,6 +3010,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_bvs_c

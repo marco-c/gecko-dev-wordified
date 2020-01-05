@@ -415,6 +415,7 @@ simd_caps
 HAS_SSSE3
 )
 )
+{
 append_negative_gtest_filter
 (
 "
@@ -429,6 +430,7 @@ SSSE3
 "
 )
 ;
+}
 if
 (
 !
@@ -438,6 +440,7 @@ simd_caps
 HAS_SSE4_1
 )
 )
+{
 append_negative_gtest_filter
 (
 "
@@ -452,6 +455,7 @@ SSE4_1
 "
 )
 ;
+}
 if
 (
 !

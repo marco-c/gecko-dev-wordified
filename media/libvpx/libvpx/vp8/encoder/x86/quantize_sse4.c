@@ -202,7 +202,6 @@ if
 (
 cmp
 )
-\
 break
 ;
 \

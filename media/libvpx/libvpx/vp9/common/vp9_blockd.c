@@ -643,6 +643,8 @@ visit
 (
 plane
 i
+r
+c
 plane_bsize
 tx_size
 arg

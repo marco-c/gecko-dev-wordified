@@ -227,7 +227,6 @@ LOCAL_GCC_PREREQ
 maj
 min
 )
-\
 (
 LOCAL_GCC_VERSION
 >

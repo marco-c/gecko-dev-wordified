@@ -160,10 +160,11 @@ ybf
 >
 y_height
 ;
++
++
 i
-+
-+
 )
+{
 ybf
 -
 >
@@ -185,6 +186,7 @@ char
 )
 129
 ;
+}
 memset
 (
 ybf
@@ -220,10 +222,11 @@ ybf
 >
 uv_height
 ;
++
++
 i
-+
-+
 )
+{
 ybf
 -
 >
@@ -245,6 +248,7 @@ char
 )
 129
 ;
+}
 memset
 (
 ybf
@@ -280,10 +284,11 @@ ybf
 >
 uv_height
 ;
++
++
 i
-+
-+
 )
+{
 ybf
 -
 >
@@ -305,6 +310,7 @@ char
 )
 129
 ;
+}
 }
 void
 vp8_setup_intra_recon_top_line

@@ -120,7 +120,7 @@ block
 h
 "
 int
-vp8_mbblock_error_xmm_impl
+vp8_mbblock_error_sse2_impl
 (
 short
 *
@@ -133,7 +133,7 @@ dc
 )
 ;
 int
-vp8_mbblock_error_xmm
+vp8_mbblock_error_sse2
 (
 MACROBLOCK
 *
@@ -173,7 +173,7 @@ block
 dqcoeff
 ;
 return
-vp8_mbblock_error_xmm_impl
+vp8_mbblock_error_sse2_impl
 (
 coeff_ptr
 dcoef_ptr
@@ -182,7 +182,7 @@ dc
 ;
 }
 int
-vp8_mbuverror_xmm_impl
+vp8_mbuverror_sse2_impl
 (
 short
 *
@@ -193,7 +193,7 @@ d_ptr
 )
 ;
 int
-vp8_mbuverror_xmm
+vp8_mbuverror_sse2
 (
 MACROBLOCK
 *
@@ -229,7 +229,7 @@ dqcoeff
 ]
 ;
 return
-vp8_mbuverror_xmm_impl
+vp8_mbuverror_sse2_impl
 (
 s_ptr
 d_ptr

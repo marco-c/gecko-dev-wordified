@@ -1483,6 +1483,12 @@ info
 =
 {
 0
+0
+0
+{
+0
+0
+}
 }
 ;
 VpxVideoWriter
@@ -1635,6 +1641,9 @@ argv
 ;
 max_frames
 =
+(
+int
+)
 strtol
 (
 argv
@@ -1679,6 +1688,9 @@ info
 .
 frame_width
 =
+(
+int
+)
 strtol
 (
 width_arg
@@ -1690,6 +1702,9 @@ info
 .
 frame_height
 =
+(
+int
+)
 strtol
 (
 height_arg
@@ -1808,6 +1823,9 @@ image
 }
 keyframe_interval
 =
+(
+int
+)
 strtol
 (
 keyframe_interval_arg
@@ -1936,7 +1954,10 @@ cfg
 .
 g_error_resilient
 =
-strtol
+(
+vpx_codec_er_flags_t
+)
+strtoul
 (
 argv
 [
@@ -2126,7 +2147,6 @@ writer
 )
 {
 }
-;
 printf
 (
 "

@@ -189,6 +189,7 @@ vp9_copy
 dest
 src
 )
+\
 {
 \
 assert
@@ -236,6 +237,7 @@ dest
 src
 n
 )
+\
 {
 \
 assert
@@ -343,6 +345,7 @@ cm
 lval
 expr
 )
+\
 do
 {
 \
@@ -362,7 +365,9 @@ lval
 vpx_internal_error
 (
 &
+(
 cm
+)
 -
 >
 error
@@ -383,8 +388,8 @@ s
 %
 d
 "
-\
 __FILE__
+\
 __LINE__
 )
 ;
@@ -404,6 +409,7 @@ cm
 lval
 expr
 )
+\
 do
 {
 \
@@ -423,7 +429,9 @@ lval
 vpx_internal_error
 (
 &
+(
 cm
+)
 -
 >
 error

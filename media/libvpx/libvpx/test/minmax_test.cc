@@ -822,7 +822,6 @@ b_stride
 <
 b_stride
 ;
-;
 EXPECT_EQ
 (
 min_ref
@@ -848,7 +847,6 @@ b_stride
 <
 <
 b_stride
-;
 ;
 }
 }

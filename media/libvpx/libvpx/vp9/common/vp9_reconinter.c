@@ -1568,6 +1568,9 @@ subsampling_y
 ;
 #
 if
+0
+/
+/
 CONFIG_BETTER_HW_COMPATIBILITY
 assert
 (

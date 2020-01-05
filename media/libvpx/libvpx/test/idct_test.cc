@@ -326,6 +326,7 @@ i
 +
 +
 )
+{
 if
 (
 (
@@ -364,6 +365,7 @@ i
 )
 ;
 }
+}
 TEST_P
 (
 IDCTTest
@@ -399,6 +401,7 @@ i
 +
 +
 )
+{
 if
 (
 (
@@ -453,6 +456,7 @@ i
 <
 i
 ;
+}
 }
 TEST_P
 (
@@ -496,6 +500,7 @@ i
 +
 +
 )
+{
 if
 (
 (
@@ -550,6 +555,7 @@ i
 <
 i
 ;
+}
 }
 TEST_P
 (
@@ -614,6 +620,7 @@ i
 +
 +
 )
+{
 if
 (
 (
@@ -671,6 +678,7 @@ i
 i
 ;
 }
+}
 TEST_P
 (
 IDCTTest
@@ -727,6 +735,7 @@ i
 +
 +
 )
+{
 if
 (
 (
@@ -875,6 +884,7 @@ i
 i
 ;
 }
+}
 INSTANTIATE_TEST_CASE_P
 (
 C
@@ -890,6 +900,26 @@ vp8_short_idct4x4llm_c
 )
 )
 ;
+#
+if
+HAVE_NEON
+INSTANTIATE_TEST_CASE_P
+(
+NEON
+IDCTTest
+:
+:
+testing
+:
+:
+Values
+(
+vp8_short_idct4x4llm_neon
+)
+)
+;
+#
+endif
 #
 if
 HAVE_MMX

@@ -224,7 +224,7 @@ mask
 flat
 )
 ;
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0
@@ -682,7 +682,7 @@ mask
 flat
 )
 ;
-VP9_LPF_FILTER4_8W
+VP9_LPF_FILTER4_4W
 (
 p1
 p0
