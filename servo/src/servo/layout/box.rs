@@ -1388,6 +1388,7 @@ flow
 .
 *
 /
+pure
 fn
 content_box
 (
@@ -1416,17 +1417,8 @@ size
 =
 i
 .
-get_size
+size
 (
-)
-.
-get_default
-(
-Size2D
-(
-0
-0
-)
 )
 ;
 Rect
