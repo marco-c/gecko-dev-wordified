@@ -278,13 +278,6 @@ h
 #
 include
 "
-MainThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
