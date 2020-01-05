@@ -1863,12 +1863,11 @@ loadGroup
 ;
 chromeChannel
 .
-asyncOpen
+asyncOpen2
 (
 this
 .
 _listener
-null
 )
 ;
 }
