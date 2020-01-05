@@ -65,7 +65,6 @@ const
 {
 addons
 createClass
-createFactory
 DOM
 :
 dom
@@ -136,14 +135,11 @@ reps
 )
 ;
 const
+{
 Rep
+}
 =
-createFactory
-(
 REPS
-.
-Rep
-)
 ;
 const
 ElementNode

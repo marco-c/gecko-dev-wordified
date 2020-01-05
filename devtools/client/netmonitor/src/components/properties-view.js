@@ -120,14 +120,11 @@ reps
 )
 ;
 const
+{
 Rep
+}
 =
-createFactory
-(
 REPS
-.
-Rep
-)
 ;
 const
 {

@@ -237,14 +237,11 @@ view
 )
 ;
 const
+{
 Rep
+}
 =
-createFactory
-(
 REPS
-.
-Rep
-)
 ;
 const
 {
