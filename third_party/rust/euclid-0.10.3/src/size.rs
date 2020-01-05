@@ -640,14 +640,14 @@ new
 (
 self
 .
-width
+height
 .
 ceil
 (
 )
 self
 .
-height
+width
 .
 ceil
 (
