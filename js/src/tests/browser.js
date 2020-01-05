@@ -214,6 +214,11 @@ global
 parent
 )
 {
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -1534,6 +1539,11 @@ function
 global
 )
 {
+"
+use
+strict
+"
+;
 /
 *
 *
