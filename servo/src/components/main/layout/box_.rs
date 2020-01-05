@@ -9713,14 +9713,6 @@ character
 let
 left_box
 =
-if
-left_range
-.
-length
-(
-)
->
-0
 {
 let
 new_text_box_info
@@ -9788,10 +9780,6 @@ Some
 (
 new_box
 )
-}
-else
-{
-None
 }
 ;
 /
