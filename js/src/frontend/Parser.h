@@ -853,7 +853,7 @@ pc
 >
 tokenStream_
 .
-reportError
+reportErrorNoOffset
 (
 JSMSG_NEED_DIET
 js_script_str
@@ -1522,7 +1522,7 @@ for
 error
 reporting
 .
-TokenStream
+TokenStreamBase
 &
 tokenStream_
 ;
