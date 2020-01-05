@@ -262,10 +262,10 @@ use
 azure
 :
 :
-azure
+azure_hl
 :
 :
-AzColor
+Color
 ;
 use
 euclid
@@ -372,7 +372,6 @@ FragmentType
 ScrollPolicy
 ScrollRootId
 StackingContextId
-color
 }
 ;
 use
@@ -10498,7 +10497,7 @@ Flow
 )
 -
 >
-AzColor
+Color
 {
 if
 !
@@ -10509,7 +10508,7 @@ is_block_like
 )
 {
 return
-color
+Color
 :
 :
 transparent
@@ -10547,7 +10546,7 @@ None
 =
 >
 return
-color
+Color
 :
 :
 transparent
@@ -10571,7 +10570,7 @@ is_block_like
 )
 {
 return
-color
+Color
 :
 :
 transparent

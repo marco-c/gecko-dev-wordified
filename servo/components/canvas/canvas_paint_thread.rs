@@ -63,10 +63,7 @@ azure
 azure
 :
 :
-{
-AzColor
 AzFloat
-}
 ;
 use
 azure
@@ -106,6 +103,7 @@ azure_hl
 :
 :
 {
+Color
 ColorPattern
 DrawSurfaceOptions
 Filter
@@ -153,12 +151,6 @@ size
 :
 :
 Size2D
-;
-use
-gfx_traits
-:
-:
-color
 ;
 use
 ipc_channel
@@ -636,7 +628,7 @@ shadow_blur
 f64
 shadow_color
 :
-AzColor
+Color
 }
 impl
 <
@@ -713,7 +705,7 @@ ColorPattern
 :
 new
 (
-color
+Color
 :
 :
 black
@@ -733,7 +725,7 @@ ColorPattern
 :
 new
 (
-color
+Color
 :
 :
 black
@@ -791,7 +783,7 @@ shadow_blur
 0
 shadow_color
 :
-color
+Color
 :
 :
 transparent
@@ -5403,7 +5395,7 @@ mut
 self
 value
 :
-AzColor
+Color
 )
 {
 self
