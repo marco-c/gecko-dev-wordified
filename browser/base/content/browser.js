@@ -10488,16 +10488,6 @@ originPrincipal
 (
 nsIPrincipal
 )
-/
-/
-[
-8
-]
-:
-triggeringPrincipal
-(
-nsIPrincipal
-)
 let
 referrerURI
 =
@@ -10662,12 +10652,6 @@ window
 arguments
 [
 7
-]
-window
-.
-arguments
-[
-8
 ]
 )
 ;
@@ -16435,7 +16419,6 @@ referrerPolicy
 userContextId
 originPrincipal
 forceAboutBlankViewerInCurrent
-triggeringPrincipal
 )
 {
 try
@@ -16455,7 +16438,6 @@ postData
 allowThirdPartyFixup
 userContextId
 originPrincipal
-triggeringPrincipal
 forceAboutBlankViewerInCurrent
 }
 )
@@ -40653,11 +40635,6 @@ linkHasNoReferrer
 linkNode
 )
 originPrincipal
-:
-doc
-.
-nodePrincipal
-triggeringPrincipal
 :
 doc
 .

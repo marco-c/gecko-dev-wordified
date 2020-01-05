@@ -650,11 +650,6 @@ originPrincipal
 json
 .
 originPrincipal
-triggeringPrincipal
-:
-json
-.
-triggeringPrincipal
 frameOuterWindowID
 :
 json
