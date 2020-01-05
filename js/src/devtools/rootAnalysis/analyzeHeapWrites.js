@@ -1668,6 +1668,15 @@ aDest
 "
 null
 ]
+[
+"
+Gecko_StyleTransition_SetUnsupportedProperty
+"
+"
+aTransition
+"
+null
+]
 ]
 ;
 for

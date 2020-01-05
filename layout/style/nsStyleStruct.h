@@ -15253,6 +15253,16 @@ aPropertyString
 )
 ;
 void
+SetUnknownProperty
+(
+nsCSSPropertyID
+aProperty
+nsIAtom
+*
+aPropertyString
+)
+;
+void
 CopyPropertyFrom
 (
 const
