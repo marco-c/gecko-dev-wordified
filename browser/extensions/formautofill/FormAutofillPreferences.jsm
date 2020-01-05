@@ -621,6 +621,16 @@ vbox
 "
 )
 ;
+savedProfilesBtn
+.
+className
+=
+"
+accessory
+-
+button
+"
+;
 }
 this
 .
