@@ -433,12 +433,6 @@ PBackgroundIDBDatabaseFileChild
 >
 mFileActors
 ;
-nsTHashtable
-<
-nsISupportsHashKey
->
-mReceivedBlobs
-;
 RefPtr
 <
 Observer
@@ -757,14 +751,6 @@ indexedDB
 PBackgroundIDBDatabaseFileChild
 *
 aFileActor
-)
-;
-void
-NoteReceivedBlob
-(
-Blob
-*
-aBlob
 )
 ;
 void
