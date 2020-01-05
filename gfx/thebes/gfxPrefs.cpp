@@ -1330,10 +1330,6 @@ RegisterCallback
 OnGfxPrefChanged
 aPrefname
 aPref
-Preferences
-:
-:
-ExactMatch
 )
 ;
 }
@@ -1380,10 +1376,6 @@ UnregisterCallback
 OnGfxPrefChanged
 aPrefname
 aPref
-Preferences
-:
-:
-ExactMatch
 )
 ;
 }
