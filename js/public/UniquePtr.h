@@ -146,10 +146,10 @@ UniquePtr
 that
 defaults
 to
-JS
+js
 :
 :
-DeletePolicy
+DefaultDelete
 .
 template
 <
