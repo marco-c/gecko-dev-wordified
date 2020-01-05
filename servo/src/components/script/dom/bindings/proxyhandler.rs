@@ -680,11 +680,14 @@ null
 let
 result
 =
-~
 "
 [
 object
 "
+.
+to_owned
+(
+)
 +
 name
 +

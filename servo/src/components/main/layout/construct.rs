@@ -4594,9 +4594,12 @@ UnscannedTextBoxInfo
 :
 from_text
 (
-~
 "
 "
+.
+to_owned
+(
+)
 )
 )
 ;

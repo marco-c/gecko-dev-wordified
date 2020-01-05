@@ -1235,10 +1235,13 @@ Url
 :
 new
 (
-~
 "
 data
 "
+.
+to_owned
+(
+)
 None
 "
 "

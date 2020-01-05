@@ -419,11 +419,14 @@ str
 let
 txt
 =
-~
 "
 TableCaptionFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .

@@ -884,11 +884,14 @@ str
 let
 txt
 =
-~
 "
 TableCellFlow
 :
 "
+.
+to_owned
+(
+)
 ;
 txt
 .
