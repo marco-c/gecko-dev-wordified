@@ -295,6 +295,14 @@ mCanceled
 ;
 public
 :
+explicit
+UsageRequest
+(
+nsIQuotaUsageCallback
+*
+aCallback
+)
+;
 UsageRequest
 (
 nsIPrincipal
