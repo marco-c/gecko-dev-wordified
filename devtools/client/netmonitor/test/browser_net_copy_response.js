@@ -181,6 +181,8 @@ setup
 {
 RequestsMenu
 .
+contextMenu
+.
 copyResponse
 (
 )
