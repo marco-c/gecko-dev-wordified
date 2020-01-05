@@ -2370,9 +2370,6 @@ NS_EVENT_MESSAGE
 (
 eMediaRecorderStop
 )
-#
-ifdef
-MOZ_GAMEPAD
 /
 /
 Gamepad
@@ -2404,8 +2401,6 @@ eGamepadEvent
 eGamepadButtonDown
 eGamepadDisconnected
 )
-#
-endif
 /
 /
 input

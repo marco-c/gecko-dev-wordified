@@ -2980,14 +2980,6 @@ EventMessage
 aMessage
 )
 {
-#
-ifndef
-MOZ_GAMEPAD
-return
-false
-;
-#
-else
 return
 aMessage
 =
@@ -3006,8 +2998,6 @@ aMessage
 =
 eGamepadAxisMove
 ;
-#
-endif
 }
 nsresult
 EventStateManager

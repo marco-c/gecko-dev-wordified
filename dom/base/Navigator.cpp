@@ -324,9 +324,6 @@ DeviceStorageAreaListener
 h
 "
 #
-ifdef
-MOZ_GAMEPAD
-#
 include
 "
 mozilla
@@ -337,8 +334,6 @@ GamepadServiceTest
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1281,15 +1276,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPresentation
 )
-#
-ifdef
-MOZ_GAMEPAD
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mGamepadServiceTest
 )
-#
-endif
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mVRGetDisplaysPromises
@@ -1598,9 +1588,6 @@ mDeviceStorageAreaListener
 nullptr
 ;
 }
-#
-ifdef
-MOZ_GAMEPAD
 if
 (
 mGamepadServiceTest
@@ -1618,8 +1605,6 @@ mGamepadServiceTest
 nullptr
 ;
 }
-#
-endif
 mVRGetDisplaysPromises
 .
 Clear
@@ -8634,9 +8619,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_GAMEPAD
 void
 Navigator
 :
@@ -8742,8 +8724,6 @@ return
 mGamepadServiceTest
 ;
 }
-#
-endif
 already_AddRefed
 <
 Promise

@@ -4098,9 +4098,6 @@ ShowSlowScriptDialog
 (
 )
 ;
-#
-ifdef
-MOZ_GAMEPAD
 /
 /
 Inner
@@ -4183,8 +4180,6 @@ SyncGamepadState
 (
 )
 ;
-#
-endif
 /
 /
 Inner
@@ -11780,9 +11775,6 @@ mHasVREvents
 :
 1
 ;
-#
-ifdef
-MOZ_GAMEPAD
 nsCheapSet
 <
 nsUint32HashKey
@@ -11805,8 +11797,6 @@ mGamepads
 bool
 mHasSeenGamepadInput
 ;
-#
-endif
 /
 /
 whether
