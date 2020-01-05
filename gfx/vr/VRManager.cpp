@@ -549,7 +549,6 @@ AppendElement
 mgr
 )
 ;
-}
 controllerMgr
 =
 VRControllerManagerOpenVR
@@ -571,6 +570,7 @@ AppendElement
 controllerMgr
 )
 ;
+}
 }
 /
 /
