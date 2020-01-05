@@ -73657,13 +73657,6 @@ PrincipalFlashClassification
 nsresult
 rv
 ;
-bool
-isThirdPartyDoc
-=
-IsThirdParty
-(
-)
-;
 /
 /
 If
@@ -73680,7 +73673,9 @@ sites
 being
 /
 /
-whitelisted
+on
+neither
+list
 .
 if
 (
@@ -73704,7 +73699,7 @@ return
 FlashClassification
 :
 :
-Allowed
+Unknown
 ;
 }
 nsCOMPtr
@@ -73859,6 +73854,13 @@ MaybeAddTableToTableList
 (
 denyExceptionsTables
 tables
+)
+;
+bool
+isThirdPartyDoc
+=
+IsThirdParty
+(
 )
 ;
 if
