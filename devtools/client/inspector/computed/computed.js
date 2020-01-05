@@ -2449,6 +2449,11 @@ of
 node
 .
 childNodes
+[
+0
+]
+.
+childNodes
 )
 {
 if
@@ -2683,6 +2688,8 @@ name
 "
 )
 .
+firstChild
+.
 textContent
 value
 :
@@ -2749,6 +2756,8 @@ property
 name
 "
 )
+.
+firstChild
 .
 textContent
 value
@@ -7351,9 +7360,6 @@ statusText
 }
 )
 ;
-let
-keyDiv
-=
 createChild
 (
 status
