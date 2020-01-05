@@ -48,13 +48,6 @@ use
 strict
 "
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 this
 .
 devtools_network

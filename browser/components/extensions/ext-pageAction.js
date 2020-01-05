@@ -91,7 +91,6 @@ jsm
 ;
 var
 {
-SingletonEventManager
 IconDetails
 }
 =

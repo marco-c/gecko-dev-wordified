@@ -122,7 +122,6 @@ jsm
 ;
 var
 {
-SingletonEventManager
 promiseObserved
 }
 =

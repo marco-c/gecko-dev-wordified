@@ -129,13 +129,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 /
 /
 WeakMap

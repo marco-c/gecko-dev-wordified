@@ -48,13 +48,6 @@ use
 strict
 "
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 XPCOMUtils
 .
 defineLazyModuleGetter

@@ -97,7 +97,6 @@ jsm
 var
 {
 normalizeTime
-SingletonEventManager
 }
 =
 ExtensionUtils

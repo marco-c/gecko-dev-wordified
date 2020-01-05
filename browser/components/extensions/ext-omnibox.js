@@ -71,13 +71,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 this
 .
 omnibox

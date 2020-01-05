@@ -56,13 +56,6 @@ DEFAULT_STORE
 PRIVATE_STORE
 *
 /
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 function
 convert
 (

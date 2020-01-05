@@ -51,7 +51,6 @@ strict
 var
 {
 promiseObserved
-SingletonEventManager
 }
 =
 ExtensionUtils

@@ -50,7 +50,6 @@ strict
 ;
 var
 {
-SingletonEventManager
 PlatformInfo
 }
 =

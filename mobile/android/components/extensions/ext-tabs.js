@@ -166,13 +166,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 /
 /
 This

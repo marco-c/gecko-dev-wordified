@@ -166,13 +166,6 @@ jsm
 "
 )
 ;
-var
-{
-SingletonEventManager
-}
-=
-ExtensionUtils
-;
 let
 tabListener
 =
