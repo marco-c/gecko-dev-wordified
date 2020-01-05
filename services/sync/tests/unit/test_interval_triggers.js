@@ -130,7 +130,7 @@ js
 ;
 Svc
 .
-DefaultPrefs
+Prefs
 .
 set
 (
