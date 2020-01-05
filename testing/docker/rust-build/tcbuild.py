@@ -48,15 +48,6 @@ requests
 packages
 .
 urllib3
-requests
-.
-packages
-.
-urllib3
-.
-disable_warnings
-(
-)
 import
 argparse
 import
@@ -1300,7 +1291,9 @@ local_gecko_clone
     
 platform
 =
+'
 linux
+'
     
 manifest_dir
 =
