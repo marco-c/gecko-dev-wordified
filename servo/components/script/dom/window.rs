@@ -258,6 +258,7 @@ js
 :
 :
 {
+Rootable
 RootedReference
 Temporary
 }

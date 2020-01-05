@@ -39033,9 +39033,8 @@ js
 :
 :
 {
+OptionalOptionalRootable
 OptionalRootable
-OptionalRootedRootable
-ResultRootable
 }
 '
             
@@ -39051,7 +39050,8 @@ js
 :
 {
 OptionalRootedReference
-OptionalOptionalRootedRootable
+ResultRootable
+Rootable
 }
 '
             
@@ -44932,6 +44932,7 @@ js
 JS
 JSRef
 LayoutJS
+Rootable
 Temporary
 }
 ;

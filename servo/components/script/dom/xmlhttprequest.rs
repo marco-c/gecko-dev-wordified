@@ -278,7 +278,7 @@ js
 JS
 JSRef
 MutNullableHeap
-Temporary
+OptionalRootable
 }
 ;
 use
@@ -291,7 +291,10 @@ bindings
 js
 :
 :
-OptionalRootedRootable
+{
+Rootable
+Temporary
+}
 ;
 use
 dom
@@ -3783,7 +3786,7 @@ XMLHttpRequestUpload
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .
@@ -5966,7 +5969,7 @@ map
 Temporary
 :
 :
-new
+from_rooted
 )
 }
 }

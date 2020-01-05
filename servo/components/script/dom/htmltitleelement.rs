@@ -156,6 +156,7 @@ js
 :
 {
 JSRef
+Rootable
 Temporary
 }
 ;

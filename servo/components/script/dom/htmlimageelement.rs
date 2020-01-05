@@ -168,6 +168,7 @@ js
 {
 JSRef
 LayoutJS
+Rootable
 Temporary
 }
 ;

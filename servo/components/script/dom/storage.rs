@@ -117,6 +117,7 @@ js
 {
 JSRef
 Temporary
+Rootable
 RootedReference
 }
 ;

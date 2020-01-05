@@ -98,7 +98,10 @@ bindings
 js
 :
 :
+{
 OptionalRootable
+Rootable
+}
 ;
 use
 dom

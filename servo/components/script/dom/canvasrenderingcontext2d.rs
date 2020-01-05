@@ -216,6 +216,7 @@ js
 JS
 JSRef
 LayoutJS
+Rootable
 Temporary
 }
 ;
@@ -2814,7 +2815,7 @@ HTMLCanvasElement
 Temporary
 :
 :
-new
+from_rooted
 (
 self
 .

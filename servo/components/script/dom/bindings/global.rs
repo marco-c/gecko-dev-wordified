@@ -120,6 +120,7 @@ js
 {
 JS
 JSRef
+Rootable
 Root
 Unrooted
 }

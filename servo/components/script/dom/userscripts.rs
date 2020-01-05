@@ -120,6 +120,7 @@ js
 {
 JSRef
 OptionalRootable
+Rootable
 RootedReference
 }
 ;

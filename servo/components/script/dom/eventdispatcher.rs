@@ -121,6 +121,7 @@ js
 JS
 JSRef
 OptionalRootable
+Rootable
 }
 ;
 use

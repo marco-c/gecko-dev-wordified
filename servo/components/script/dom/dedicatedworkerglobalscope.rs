@@ -206,8 +206,9 @@ js
 :
 {
 JSRef
-Temporary
 RootCollection
+Rootable
+Temporary
 }
 ;
 use

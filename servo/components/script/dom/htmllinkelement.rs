@@ -158,6 +158,7 @@ js
 JS
 JSRef
 MutNullableHeap
+Rootable
 Temporary
 }
 ;

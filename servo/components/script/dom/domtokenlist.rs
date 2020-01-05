@@ -159,8 +159,9 @@ js
 {
 JS
 JSRef
-Temporary
 OptionalRootable
+Rootable
+Temporary
 }
 ;
 use

@@ -106,6 +106,7 @@ js
 JSRef
 Temporary
 OptionalRootable
+Rootable
 }
 ;
 use
