@@ -626,7 +626,7 @@ GetImageData
 (
 Rect
 <
-f64
+i32
 >
 Size2D
 <
