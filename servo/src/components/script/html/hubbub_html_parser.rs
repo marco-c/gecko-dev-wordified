@@ -3211,17 +3211,6 @@ clone
 )
 )
 ;
-iframe_element
-.
-set_frame
-(
-iframe_url
-.
-clone
-(
-)
-)
-;
 /
 /
 Subpage
