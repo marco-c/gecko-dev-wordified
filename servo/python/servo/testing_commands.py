@@ -2697,12 +2697,6 @@ ensure_bootstrapped
 (
 )
         
-self
-.
-ensure_wpt_virtualenv
-(
-)
-        
 run_file
 =
 path
