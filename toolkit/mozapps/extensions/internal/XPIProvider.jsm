@@ -5757,6 +5757,16 @@ ALLOW_NON_MPC
 &
 aAddon
 .
+type
+=
+=
+"
+extension
+"
+&
+&
+aAddon
+.
 multiprocessCompatible
 !
 =
