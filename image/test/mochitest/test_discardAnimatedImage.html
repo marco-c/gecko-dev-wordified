@@ -356,6 +356,11 @@ waitForExplicitFinish
 )
 ;
 var
+gFinished
+=
+false
+;
+var
 gNumDiscards
 =
 0
@@ -883,6 +888,14 @@ checkIfFinished
 {
 if
 (
+gFinished
+)
+{
+return
+;
+}
+if
+(
 (
 gNumFrameUpdates
 [
@@ -937,6 +950,10 @@ frame
 updates
 "
 )
+;
+gFinished
+=
+true
 ;
 SimpleTest
 .
