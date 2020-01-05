@@ -2892,12 +2892,12 @@ implementation
 of
 /
 /
-IgnoreImplicit
+IgnoreTrivials
 .
 const
 Stmt
 *
-IgnoreImplicit
+IgnoreTrivials
 (
 const
 Stmt
@@ -3052,7 +3052,7 @@ s
 const
 Expr
 *
-IgnoreImplicit
+IgnoreTrivials
 (
 const
 Expr
@@ -3066,7 +3066,7 @@ cast
 Expr
 >
 (
-IgnoreImplicit
+IgnoreTrivials
 (
 static_cast
 <
@@ -3791,7 +3791,7 @@ E
 E
 -
 >
-IgnoreImplicit
+IgnoreTrivials
 (
 )
 ;
@@ -14181,7 +14181,7 @@ Expr
 *
 E
 =
-IgnoreImplicit
+IgnoreTrivials
 (
 D
 -
@@ -14329,7 +14329,7 @@ we
 repeatedly
 /
 /
-IgnoreImplicit
+IgnoreTrivials
 then
 look
 at
@@ -14382,7 +14382,7 @@ getNumArgs
 {
 E
 =
-IgnoreImplicit
+IgnoreTrivials
 (
 CE
 -
