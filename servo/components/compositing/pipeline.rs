@@ -637,6 +637,7 @@ mut
 STF
 >
 id
+parent_info
 compositor_proxy
 .
 clone_compositor_proxy
