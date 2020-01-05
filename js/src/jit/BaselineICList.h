@@ -298,11 +298,6 @@ _
 GetElem_Fallback
 )
 \
-_
-(
-GetElem_TypedArray
-)
-\
 \
 _
 (
