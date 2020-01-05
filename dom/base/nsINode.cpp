@@ -8004,7 +8004,7 @@ if
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 |
@@ -8054,7 +8054,7 @@ currentDoc
 currentDoc
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 )
@@ -8113,7 +8113,7 @@ UnoptimizableCCNode
 parent
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 )

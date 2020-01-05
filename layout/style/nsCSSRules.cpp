@@ -545,7 +545,7 @@ const
 {
 if
 (
-IsBlack
+HasKnownLiveWrapper
 (
 )
 )

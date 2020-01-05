@@ -361,7 +361,7 @@ if
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 |
@@ -399,7 +399,7 @@ if
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 &
@@ -447,7 +447,7 @@ return
 tmp
 -
 >
-IsBlack
+HasKnownLiveWrapper
 (
 )
 ;
