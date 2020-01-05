@@ -216,12 +216,6 @@ dom
 :
 NodeInfo
 ;
-static
-bool
-IsDetailsEnabled
-(
-)
-;
 explicit
 HTMLDetailsElement
 (

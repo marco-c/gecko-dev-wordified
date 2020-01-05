@@ -12785,16 +12785,6 @@ for
 summary
 elements
 .
-if
-(
-HTMLDetailsElement
-:
-:
-IsDetailsEnabled
-(
-)
-)
-{
 HTMLSummaryElement
 *
 summary
@@ -12828,7 +12818,6 @@ IsMainSummary
 return
 false
 ;
-}
 }
 bool
 kidRenumberedABullet
