@@ -4154,6 +4154,8 @@ Throw
 NS_ERROR_FAILURE
 )
 ;
+return
+;
 }
 aGlobal
 .
