@@ -2830,6 +2830,13 @@ highlightNodeFront
 (
 nodeFront
 )
+.
+catch
+(
+this
+.
+_handleRejectionIfNotDestroyed
+)
 ;
 }
 /
@@ -2909,6 +2916,13 @@ highlighterUtils
 unhighlight
 (
 forceHide
+)
+.
+catch
+(
+this
+.
+_handleRejectionIfNotDestroyed
 )
 ;
 }
