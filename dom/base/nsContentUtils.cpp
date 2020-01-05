@@ -29437,7 +29437,7 @@ RemoveScriptBlocker
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
