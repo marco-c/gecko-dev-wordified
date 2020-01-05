@@ -1787,7 +1787,7 @@ rhs
 index_
 ;
 }
-constexpr
+MOZ_SPAN_GCC_CONSTEXPR
 friend
 bool
 operator
@@ -1813,7 +1813,7 @@ lhs
 )
 ;
 }
-constexpr
+MOZ_SPAN_GCC_CONSTEXPR
 friend
 bool
 operator
@@ -1835,7 +1835,7 @@ rhs
 lhs
 ;
 }
-constexpr
+MOZ_SPAN_GCC_CONSTEXPR
 friend
 bool
 operator
