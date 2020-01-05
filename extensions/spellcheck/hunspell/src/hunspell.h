@@ -456,10 +456,10 @@ BLOCK
 /
 #
 ifndef
-_MYSPELLMGR_H_
+MYSPELLMGR_H_
 #
 define
-_MYSPELLMGR_H_
+MYSPELLMGR_H_
 #
 include
 "
