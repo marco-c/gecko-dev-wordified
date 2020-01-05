@@ -145,6 +145,52 @@ flags
             
 "
 -
+-
+allow
+-
+unknown
+-
+types
+"
+"
+-
+-
+no
+-
+unstable
+-
+rust
+"
+            
+"
+-
+-
+no
+-
+type
+-
+renaming
+"
+"
+-
+-
+no
+-
+namespaced
+-
+constants
+"
+        
+]
+        
+"
+clang_flags
+"
+:
+[
+            
+"
+-
 x
 "
 "
@@ -160,40 +206,6 @@ c
 +
 +
 14
-"
-            
-"
--
-allow
--
-unknown
--
-types
-"
-"
--
-no
--
-unstable
--
-rust
-"
-            
-"
--
-no
--
-type
--
-renaming
-"
-"
--
-no
--
-namespaced
--
-constants
 "
             
 "
@@ -325,12 +337,14 @@ flags
             
 "
 -
+-
 ignore
 -
 functions
 "
             
 "
+-
 -
 ignore
 -
@@ -426,7 +440,7 @@ debug
 {
                 
 "
-flags
+clang_flags
 "
 :
 [
@@ -1002,6 +1016,7 @@ flags
 [
             
 "
+-
 -
 ignore
 -
@@ -2197,15 +2212,6 @@ flags
 [
 ]
     
-flags
-.
-extend
-(
-platform_dependent_defines
-(
-)
-)
-    
 if
 "
 flags
@@ -2224,6 +2230,40 @@ current_target
 flags
 "
 ]
+)
+    
+clang_flags
+=
+[
+]
+    
+if
+"
+clang_flags
+"
+in
+current_target
+:
+        
+clang_flags
+.
+extend
+(
+current_target
+[
+"
+clang_flags
+"
+]
+)
+    
+clang_flags
+.
+extend
+(
+platform_dependent_defines
+(
+)
 )
     
 if
@@ -2250,6 +2290,7 @@ flags
 append
 (
 "
+-
 -
 raw
 -
@@ -2283,7 +2324,7 @@ search_dirs
 ]
 :
             
-flags
+clang_flags
 .
 append
 (
@@ -2293,7 +2334,7 @@ I
 "
 )
             
-flags
+clang_flags
 .
 append
 (
@@ -2324,7 +2365,7 @@ includes
 ]
 :
             
-flags
+clang_flags
 .
 append
 (
@@ -2334,7 +2375,7 @@ include
 "
 )
             
-flags
+clang_flags
 .
 append
 (
@@ -2370,6 +2411,7 @@ flags
 append
 (
 "
+-
 -
 match
 "
@@ -2412,6 +2454,7 @@ append
 (
 "
 -
+-
 blacklist
 -
 type
@@ -2450,6 +2493,7 @@ append
 (
 "
 -
+-
 opaque
 -
 type
@@ -2487,6 +2531,7 @@ flags
 append
 (
 "
+-
 -
 raw
 -
@@ -2540,6 +2585,7 @@ append
 (
 "
 -
+-
 blacklist
 -
 type
@@ -2567,6 +2613,7 @@ flags
 append
 (
 "
+-
 -
 raw
 -
@@ -2642,6 +2689,7 @@ flags
 append
 (
 "
+-
 -
 raw
 -
@@ -2742,6 +2790,7 @@ append
 (
 "
 -
+-
 blacklist
 -
 type
@@ -2764,6 +2813,7 @@ flags
 append
 (
 "
+-
 -
 raw
 -
@@ -2877,6 +2927,7 @@ extend
                     
 "
 -
+-
 raw
 -
 line
@@ -2906,6 +2957,7 @@ ty_fragments
                     
 "
 -
+-
 raw
 -
 line
@@ -2934,6 +2986,7 @@ ty_fragments
 )
                     
 "
+-
 -
 raw
 -
@@ -3026,7 +3079,7 @@ files
 =
 1
     
-flags
+clang_flags
 .
 append
 (
@@ -3051,6 +3104,15 @@ flags
 bindgen
 +
 flags
++
+[
+"
+-
+-
+"
+]
++
+clang_flags
     
 output
 =
