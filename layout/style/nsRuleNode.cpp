@@ -9479,12 +9479,6 @@ StyleOrient
 Inline
 Vertical
 )
-DEFINE_ENUM_CLASS_SETTER
-(
-StyleGeometryBox
-Border
-View
-)
 #
 ifdef
 MOZ_XUL
@@ -44994,10 +44988,7 @@ parentDisplay
 -
 >
 mTransformBox
-StyleGeometryBox
-:
-:
-Border
+NS_STYLE_TRANSFORM_BOX_BORDER_BOX
 )
 ;
 /

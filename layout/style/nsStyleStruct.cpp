@@ -18188,10 +18188,7 @@ NS_STYLE_TRANSFORM_STYLE_FLAT
 )
 mTransformBox
 (
-StyleGeometryBox
-:
-:
-Border
+NS_STYLE_TRANSFORM_BOX_BORDER_BOX
 )
 mSpecifiedTransform
 (
