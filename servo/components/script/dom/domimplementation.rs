@@ -723,6 +723,7 @@ IsHTMLDocument
 :
 NonHTMLDocument
 None
+None
 DocumentSource
 :
 :
@@ -1052,6 +1053,7 @@ IsHTMLDocument
 :
 :
 HTMLDocument
+None
 None
 DocumentSource
 :
