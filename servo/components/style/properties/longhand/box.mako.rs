@@ -19749,7 +19749,7 @@ mAppearance
 gecko_constant_prefix
 =
 "
-NS_THEME
+ThemeWidgetType_NS_THEME
 "
 products
 =
