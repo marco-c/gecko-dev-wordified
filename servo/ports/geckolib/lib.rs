@@ -96,10 +96,6 @@ extern
 crate
 selectors
 ;
-extern
-crate
-servo_url
-;
 #
 [
 macro_use

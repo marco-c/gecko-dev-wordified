@@ -114,10 +114,7 @@ style
 parser
 :
 :
-{
 ParserContext
-ParserContextExtraData
-}
 ;
 use
 style
@@ -307,12 +304,6 @@ shared_lock
 None
 &
 error_reporter
-ParserContextExtraData
-:
-:
-default
-(
-)
 )
 )
 }

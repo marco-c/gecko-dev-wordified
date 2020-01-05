@@ -105,15 +105,6 @@ use
 style
 :
 :
-parser
-:
-:
-ParserContextExtraData
-;
-use
-style
-:
-:
 properties
 :
 :
@@ -374,9 +365,6 @@ new
 None
 &
 ErrorringErrorReporter
-ParserContextExtraData
-{
-}
 )
 ;
 let

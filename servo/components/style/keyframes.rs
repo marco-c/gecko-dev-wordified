@@ -112,7 +112,6 @@ parser
 :
 {
 ParserContext
-ParserContextExtraData
 log_css_error
 }
 ;
@@ -1026,9 +1025,6 @@ parent_stylesheet
 :
 &
 Stylesheet
-extra_data
-:
-ParserContextExtraData
 )
 -
 >
@@ -1056,7 +1052,7 @@ context
 ParserContext
 :
 :
-new_with_extra_data
+new
 (
 parent_stylesheet
 .
@@ -1064,10 +1060,9 @@ origin
 &
 parent_stylesheet
 .
-base_url
+url_data
 &
 error_reporter
-extra_data
 )
 ;
 let

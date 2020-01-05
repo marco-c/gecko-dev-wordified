@@ -625,7 +625,6 @@ parser
 {
 Parse
 ParserContext
-ParserContextExtraData
 }
 ;
 use
@@ -1598,7 +1597,6 @@ parser
 {
 Parse
 ParserContext
-ParserContextExtraData
 }
 ;
 use
@@ -2818,11 +2816,11 @@ into_owned
 first_token_type
 :
 first_token_type
-base_url
+url_data
 :
 context
 .
-base_url
+url_data
 .
 clone
 (
@@ -4411,11 +4409,11 @@ into_owned
 first_token_type
 :
 first_token_type
-base_url
+url_data
 :
 context
 .
-base_url
+url_data
 .
 clone
 (
