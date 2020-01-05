@@ -143,9 +143,6 @@ pk11pub
 .
 h
 "
-namespace
-nss_test
-{
 struct
 ScopedDelete
 {
@@ -444,10 +441,8 @@ SECKEYPrivateKey
 #
 undef
 SCOPED
-}
-/
-/
-namespace
-nss_test
 #
 endif
+/
+/
+scoped_ptrs_h__
