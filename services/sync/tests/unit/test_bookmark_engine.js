@@ -1920,10 +1920,11 @@ pullNewChanges
 ;
 deepEqual
 (
-changes
+Object
 .
-ids
+keys
 (
+changes
 )
 .
 sort
@@ -2180,10 +2181,11 @@ pullNewChanges
 ;
 deepEqual
 (
-changes
+Object
 .
-ids
+keys
 (
+changes
 )
 .
 sort
