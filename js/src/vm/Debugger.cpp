@@ -6633,7 +6633,7 @@ compartment
 )
 -
 >
-putWrapper
+putNewWrapper
 (
 cx
 key
@@ -7199,7 +7199,7 @@ compartment
 )
 -
 >
-putWrapper
+putNewWrapper
 (
 cx
 key
@@ -36529,7 +36529,7 @@ compartment
 )
 -
 >
-putWrapper
+putNewWrapper
 (
 cx
 key

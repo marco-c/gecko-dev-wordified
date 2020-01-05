@@ -4967,7 +4967,7 @@ compartment
 )
 -
 >
-putWrapper
+putWrapperMaybeUpdate
 (
 cx
 CrossCompartmentKey
@@ -4977,10 +4977,12 @@ newIdentity
 origv
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 }
 /
 /
