@@ -278,6 +278,15 @@ const
 =
 0
 ;
+virtual
+int64_t
+CalculateNewCurrentTime
+(
+)
+const
+=
+0
+;
 const
 SeekTarget
 &
