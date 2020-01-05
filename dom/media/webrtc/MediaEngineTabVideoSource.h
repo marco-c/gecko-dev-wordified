@@ -132,7 +132,7 @@ MediaEngineTabVideoSource
 void
 GetName
 (
-nsAString_internal
+nsAString
 &
 )
 const
@@ -141,7 +141,7 @@ override
 void
 GetUUID
 (
-nsACString_internal
+nsACString
 &
 )
 const

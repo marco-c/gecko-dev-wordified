@@ -214,7 +214,7 @@ h
 /
 /
 for
-nsAString_internal
+nsAString
 :
 :
 IsEmpty

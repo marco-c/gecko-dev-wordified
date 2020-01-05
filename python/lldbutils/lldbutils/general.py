@@ -870,7 +870,7 @@ HandleCommand
 type
 summary
 add
-nsAString_internal
+nsAString
 -
 F
 lldbutils
@@ -889,7 +889,7 @@ HandleCommand
 type
 summary
 add
-nsACString_internal
+nsACString
 -
 F
 lldbutils
