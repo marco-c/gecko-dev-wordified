@@ -1085,9 +1085,9 @@ value
 "
 )
 ;
-}
 ok
 (
+!
 newWindow
 .
 gFindBar
@@ -1113,6 +1113,7 @@ buttons
 "
 )
 ;
+}
 newWindow
 .
 close
