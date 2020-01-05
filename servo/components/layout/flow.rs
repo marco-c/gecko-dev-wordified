@@ -5091,6 +5091,11 @@ FlowClass
 :
 :
 TableWrapper
+|
+FlowClass
+:
+:
+Flex
 =
 >
 true
