@@ -56,16 +56,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
-no
--
-undef
-:
-2
-*
-/
 Components
 .
 utils

@@ -10,16 +10,6 @@ exports
 {
 /
 /
-eslint
--
-disable
--
-line
-no
--
-undef
-/
-/
 mochitest
 -
 chrome
