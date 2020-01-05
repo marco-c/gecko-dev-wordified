@@ -191,6 +191,17 @@ aCssText
 ;
 RawServoDeclarationBlock
 *
+Raw
+(
+)
+const
+{
+return
+mRaw
+;
+}
+RawServoDeclarationBlock
+*
 const
 *
 RefRaw
