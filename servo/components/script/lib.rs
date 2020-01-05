@@ -366,6 +366,10 @@ ref_slice
 ;
 extern
 crate
+regex
+;
+extern
+crate
 rustc_serialize
 ;
 extern
