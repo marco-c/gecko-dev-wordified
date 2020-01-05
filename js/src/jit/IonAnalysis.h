@@ -1013,8 +1013,7 @@ AnalyzeNewScriptDefiniteProperties
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 ObjectGroup
 *

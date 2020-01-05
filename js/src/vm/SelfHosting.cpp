@@ -21104,12 +21104,13 @@ RootedScript
 sourceScript
 (
 cx
-sourceFun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+sourceFun
 )
 )
 ;

@@ -11212,12 +11212,13 @@ JSScript
 *
 script
 =
-fun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+fun
 )
 ;
 if
