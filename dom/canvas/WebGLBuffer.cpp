@@ -170,6 +170,14 @@ mByteLength
 (
 0
 )
+mTFBindCount
+(
+0
+)
+mNonTFBindCount
+(
+0
+)
 {
 mContext
 -

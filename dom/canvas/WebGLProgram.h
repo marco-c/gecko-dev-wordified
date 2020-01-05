@@ -414,6 +414,10 @@ WebGLProgram
 const
 prog
 ;
+const
+GLenum
+transformFeedbackBufferMode
+;
 std
 :
 :
