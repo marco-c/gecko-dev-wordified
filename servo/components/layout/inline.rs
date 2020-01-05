@@ -3637,9 +3637,6 @@ LayoutContext
 >
 Au
 {
-Au
-:
-:
 max
 (
 self
@@ -7877,7 +7874,7 @@ space_per_expansion_opportunity
 =
 slack_inline_size
 .
-to_subpx
+to_f64_px
 (
 )
 /
@@ -12231,9 +12228,6 @@ InlineMetrics
 {
 block_size_above_baseline
 :
-Au
-:
-:
 max
 (
 self
@@ -12244,9 +12238,6 @@ other
 block_size_above_baseline
 )
 depth_below_baseline
-:
-Au
-:
 :
 max
 (
@@ -12258,9 +12249,6 @@ other
 depth_below_baseline
 )
 ascent
-:
-Au
-:
 :
 max
 (

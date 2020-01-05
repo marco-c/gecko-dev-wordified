@@ -355,11 +355,9 @@ bytes
 )
 pt_size
 .
-to_subpx
+to_f32_px
 (
 )
-as
-AzFloat
 )
 }
 #
@@ -423,11 +421,9 @@ Skia
 cgfont
 pt_size
 .
-to_subpx
+to_f32_px
 (
 )
-as
-AzFloat
 )
 }
 static

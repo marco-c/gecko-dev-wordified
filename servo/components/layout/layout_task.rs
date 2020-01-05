@@ -6029,7 +6029,7 @@ Size2D
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 viewport_size
 .
@@ -6042,7 +6042,7 @@ get
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 viewport_size
 .
@@ -7705,7 +7705,7 @@ Point2D
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 point
 .
@@ -7714,7 +7714,7 @@ x
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 point
 .
@@ -7901,7 +7901,7 @@ Point2D
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 point
 .
@@ -7910,7 +7910,7 @@ x
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 point
 .

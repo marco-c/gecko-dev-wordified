@@ -1342,7 +1342,7 @@ expr
 {
 viewport_dimension
 .
-to_frac32_px
+to_f32_px
 (
 )
 /
@@ -1456,7 +1456,7 @@ height
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 value
 )
@@ -1712,7 +1712,7 @@ px
 "
 length
 .
-to_frac32_px
+to_f32_px
 (
 )
 )
@@ -8219,13 +8219,13 @@ length
 Au
 :
 :
-from_frac32_px
+from_f32_px
 (
 self
 .
 length
 .
-to_frac32_px
+to_f32_px
 (
 )
 *

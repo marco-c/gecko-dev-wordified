@@ -895,7 +895,7 @@ x_offset
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 x_offset
 )
@@ -906,7 +906,7 @@ y_offset
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 y_offset
 )
@@ -917,7 +917,7 @@ x_advance
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 x_advance
 )
@@ -928,7 +928,7 @@ y_advance
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 y_advance
 )
@@ -1245,7 +1245,7 @@ font
 .
 actual_pt_size
 .
-to_subpx
+to_f64_px
 (
 )
 ;
@@ -3859,7 +3859,7 @@ advance
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 tab_size
 *

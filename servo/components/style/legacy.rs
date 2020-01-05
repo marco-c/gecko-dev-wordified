@@ -921,7 +921,7 @@ from_px
 (
 length
 as
-isize
+i32
 )
 )
 ;
@@ -1544,7 +1544,7 @@ from_px
 (
 length
 as
-isize
+i32
 )
 )
 ;

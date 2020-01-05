@@ -421,7 +421,7 @@ s
 >
 s
 .
-to_subpx
+to_f64_px
 (
 )
 None
@@ -1236,7 +1236,7 @@ em_size
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 self
 .
@@ -1353,7 +1353,7 @@ advance
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 advance
 )
@@ -1477,13 +1477,8 @@ f64
 )
 strikeout_size
 :
-geometry
-:
-:
-from_pt
+Au
 (
-0
-.
 0
 )
 /
@@ -1496,13 +1491,8 @@ Issue
 )
 strikeout_offset
 :
-geometry
-:
-:
-from_pt
+Au
 (
-0
-.
 0
 )
 /
@@ -1575,7 +1565,7 @@ line_gap
 Au
 :
 :
-from_frac_px
+from_f64_px
 (
 line_gap
 )

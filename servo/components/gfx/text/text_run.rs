@@ -122,7 +122,10 @@ std
 cmp
 :
 :
+{
 Ordering
+max
+}
 ;
 use
 std
@@ -2285,9 +2288,6 @@ slice
 range
 )
 ;
-Au
-:
-:
 max
 (
 max_piece_width
