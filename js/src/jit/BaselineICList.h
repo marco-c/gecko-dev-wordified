@@ -351,16 +351,6 @@ _
 GetName_Fallback
 )
 \
-_
-(
-GetName_GlobalLexical
-)
-\
-_
-(
-GetName_Global
-)
-\
 \
 _
 (
