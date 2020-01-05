@@ -5107,6 +5107,14 @@ SliceBudget
 budget
 )
 ;
+bool
+canChangeActiveContext
+(
+JSContext
+*
+cx
+)
+;
 void
 triggerFullGCForAtoms
 (
