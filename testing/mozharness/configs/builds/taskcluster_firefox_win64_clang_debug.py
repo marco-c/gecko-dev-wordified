@@ -709,6 +709,10 @@ stage_platform
 '
 win64
 -
+st
+-
+an
+-
 debug
 '
     

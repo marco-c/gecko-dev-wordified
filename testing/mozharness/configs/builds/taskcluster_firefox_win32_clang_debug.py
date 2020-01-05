@@ -707,6 +707,10 @@ stage_platform
 '
 win32
 -
+st
+-
+an
+-
 debug
 '
     
