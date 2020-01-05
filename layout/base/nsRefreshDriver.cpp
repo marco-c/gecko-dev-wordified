@@ -2112,7 +2112,7 @@ tracer
 Paint
 "
 "
-RD
+RefreshDriverTick
 "
 )
 ;
@@ -12633,7 +12633,7 @@ tracer
 Paint
 "
 "
-RD
+RefreshDriverTick
 "
 )
 ;
