@@ -1520,15 +1520,6 @@ true
 skipAnimation
 :
 true
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 }
 )
 )

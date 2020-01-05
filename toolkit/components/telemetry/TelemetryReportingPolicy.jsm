@@ -3130,15 +3130,6 @@ firstRunPolicyURL
 inBackground
 :
 true
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 }
 )
 ;

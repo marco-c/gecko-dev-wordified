@@ -18013,9 +18013,6 @@ StartPrerenderingDocument
 (
 aHref
 referrer
-NodePrincipal
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
