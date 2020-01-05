@@ -10145,12 +10145,6 @@ init
 (
 )
 ;
-SidebarUI
-.
-startDelayedLoad
-(
-)
-;
 UpdateUrlbarSearchSplitterState
 (
 )
@@ -11502,6 +11496,12 @@ needed
 RestoreLastSessionObserver
 .
 init
+(
+)
+;
+SidebarUI
+.
+startDelayedLoad
 (
 )
 ;
