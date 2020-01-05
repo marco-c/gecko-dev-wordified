@@ -905,7 +905,7 @@ struct
 WrRenderer
 ;
 struct
-WRState
+WrState
 ;
 WR_INLINE
 void
@@ -1007,7 +1007,7 @@ wr_window_remove_pipeline
 wrwindowstate
 *
 window
-WRState
+WrState
 *
 state
 )
@@ -1118,7 +1118,7 @@ wr_api_set_root_display_list
 WrAPI
 *
 api
-WRState
+WrState
 *
 state
 uint32_t
@@ -1197,7 +1197,7 @@ nullptr
 WR_FUNC
 ;
 WR_INLINE
-WRState
+WrState
 *
 wr_state_new
 (
@@ -1214,7 +1214,7 @@ WR_INLINE
 void
 wr_state_delete
 (
-WRState
+WrState
 *
 state
 )
@@ -1227,9 +1227,9 @@ wr_destroy
 wrwindowstate
 *
 wrWindow
-WRState
+WrState
 *
-WRState
+WrState
 )
 WR_FUNC
 ;
@@ -1363,7 +1363,7 @@ WR_INLINE
 void
 wr_dp_push_stacking_context
 (
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1395,7 +1395,7 @@ WR_INLINE
 void
 wr_dp_pop_stacking_context
 (
-WRState
+WrState
 *
 wrState
 )
@@ -1405,7 +1405,7 @@ WR_INLINE
 void
 wr_dp_begin
 (
-WRState
+WrState
 *
 wrState
 uint32_t
@@ -1422,7 +1422,7 @@ wr_window_dp_begin
 wrwindowstate
 *
 wrWindow
-WRState
+WrState
 *
 wrState
 uint32_t
@@ -1439,7 +1439,7 @@ wr_window_dp_end
 wrwindowstate
 *
 wrWindow
-WRState
+WrState
 *
 wrState
 )
@@ -1449,7 +1449,7 @@ WR_INLINE
 void
 wr_dp_end
 (
-WRState
+WrState
 *
 builder
 WrAPI
@@ -1474,7 +1474,7 @@ WR_INLINE
 void
 wr_dp_push_rect
 (
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1496,7 +1496,7 @@ WR_INLINE
 void
 wr_dp_push_text
 (
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1522,7 +1522,7 @@ WR_INLINE
 void
 wr_dp_push_border
 (
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1552,7 +1552,7 @@ WR_INLINE
 void
 wr_dp_push_image
 (
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1583,7 +1583,7 @@ wr_window_dp_push_iframe
 wrwindowstate
 *
 wrWindow
-WRState
+WrState
 *
 wrState
 WrRect
@@ -1599,7 +1599,7 @@ WR_INLINE
 void
 wr_dp_push_iframe
 (
-WRState
+WrState
 *
 wrState
 WrRect
