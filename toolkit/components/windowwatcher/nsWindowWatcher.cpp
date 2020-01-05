@@ -2752,6 +2752,8 @@ aOpeningTabParent
 mozIDOMWindowProxy
 *
 aOpener
+uint64_t
+aNextTabParentId
 nsIWebBrowserChrome
 *
 *
@@ -2860,6 +2862,7 @@ aParentChrome
 aChromeFlags
 aOpeningTabParent
 aOpener
+aNextTabParentId
 &
 cancel
 getter_AddRefs
@@ -3130,6 +3133,8 @@ bool
 aCalledFromJS
 float
 aOpenerFullZoom
+uint64_t
+aNextTabParentId
 nsITabParent
 *
 *
@@ -3520,6 +3525,7 @@ parentChrome
 chromeFlags
 aOpeningTabParent
 nullptr
+aNextTabParentId
 getter_AddRefs
 (
 newWindowChrome
@@ -6042,6 +6048,7 @@ parentChrome
 chromeFlags
 nullptr
 openerWindow
+0
 getter_AddRefs
 (
 newChrome

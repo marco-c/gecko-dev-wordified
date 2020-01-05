@@ -1018,6 +1018,8 @@ aOpenerContentParent
 TabParent
 *
 aSameTabGroupAs
+uint64_t
+aNextTabParentId
 )
 ;
 static
@@ -3532,6 +3534,8 @@ const
 float
 &
 aFullZoom
+uint64_t
+aNextTabParentId
 nsresult
 &
 aResult
@@ -6894,6 +6898,19 @@ mCrashReporter
 ;
 #
 endif
+static
+uint64_t
+sNextTabParentId
+;
+static
+nsDataHashtable
+<
+nsUint64HashKey
+TabParent
+*
+>
+sNextTabParents
+;
 }
 ;
 }
