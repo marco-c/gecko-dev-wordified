@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -67,10 +59,4 @@ test262
 '
 3
 '
-;
-reportCompare
-(
-0
-0
-)
 ;

@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -165,11 +157,5 @@ B
 '
 undefined
 '
-)
-;
-reportCompare
-(
-0
-0
 )
 ;

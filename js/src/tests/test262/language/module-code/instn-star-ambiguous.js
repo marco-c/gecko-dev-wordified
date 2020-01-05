@@ -9,14 +9,6 @@ skip
 has
 YAML
 errors
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright

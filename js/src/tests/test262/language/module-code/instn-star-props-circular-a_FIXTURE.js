@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -72,10 +64,4 @@ js
 export
 var
 fromA
-;
-reportCompare
-(
-0
-0
-)
 ;

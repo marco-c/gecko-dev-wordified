@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -61,10 +53,4 @@ var
 both
 =
 null
-;
-reportCompare
-(
-0
-0
-)
 ;

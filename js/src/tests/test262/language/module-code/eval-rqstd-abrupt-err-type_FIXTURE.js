@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -54,11 +46,5 @@ throw
 new
 TypeError
 (
-)
-;
-reportCompare
-(
-0
-0
 )
 ;

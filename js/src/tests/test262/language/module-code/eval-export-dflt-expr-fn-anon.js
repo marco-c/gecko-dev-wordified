@@ -3,17 +3,7 @@
 |
 reftest
 |
-skip
--
--
-jstests
-don
-'
-t
-yet
-support
 module
-tests
 /
 /
 Copyright

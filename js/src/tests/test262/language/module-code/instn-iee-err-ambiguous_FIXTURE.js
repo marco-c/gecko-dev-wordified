@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -87,10 +79,4 @@ ambiguous
 .
 js
 '
-;
-reportCompare
-(
-0
-0
-)
 ;

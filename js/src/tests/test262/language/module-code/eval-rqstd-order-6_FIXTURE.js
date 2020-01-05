@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -71,10 +63,4 @@ test262
 export
 default
 null
-;
-reportCompare
-(
-0
-0
-)
 ;

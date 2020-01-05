@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -74,10 +66,4 @@ def_FIXTURE
 .
 js
 '
-;
-reportCompare
-(
-0
-0
-)
 ;

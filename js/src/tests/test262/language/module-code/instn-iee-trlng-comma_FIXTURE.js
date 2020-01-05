@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -55,10 +47,4 @@ var
 a
 =
 333
-;
-reportCompare
-(
-0
-0
-)
 ;

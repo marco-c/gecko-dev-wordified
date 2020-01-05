@@ -10,14 +10,6 @@ not
 a
 test
 file
-jstests
-don
-'
-t
-yet
-support
-module
-tests
 /
 /
 Copyright
@@ -57,10 +49,4 @@ indirectIdName
 export
 var
 starIndirectIdName
-;
-reportCompare
-(
-0
-0
-)
 ;
