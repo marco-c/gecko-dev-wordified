@@ -81,6 +81,15 @@ h
 #
 include
 "
+vm
+/
+ProxyObject
+.
+h
+"
+#
+include
+"
 jscompartmentinlines
 .
 h

@@ -206,6 +206,15 @@ include
 "
 vm
 /
+RegExpObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h

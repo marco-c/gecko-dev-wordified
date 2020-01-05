@@ -152,15 +152,6 @@ h
 #
 include
 "
-builtin
-/
-RegExp
-.
-h
-"
-#
-include
-"
 js
 /
 Vector
