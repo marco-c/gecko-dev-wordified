@@ -2590,6 +2590,9 @@ frames
 .
 bool
 mDidPushItemsBitMayLie
+{
+false
+}
 ;
 #
 endif
