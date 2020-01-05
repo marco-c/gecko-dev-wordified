@@ -171,6 +171,9 @@ class
 RendererOGL
 ;
 class
+NewRenderer
+;
+class
 WebRenderAPI
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -238,7 +241,7 @@ WindowId
 aId
 )
 :
-mApi
+mWrApi
 (
 aRawApi
 )
@@ -255,13 +258,17 @@ WebRenderAPI
 ;
 WrAPI
 *
-mApi
+mWrApi
 ;
 gfx
 :
 :
 WindowId
 mId
+;
+friend
+class
+NewRenderer
 ;
 }
 ;
