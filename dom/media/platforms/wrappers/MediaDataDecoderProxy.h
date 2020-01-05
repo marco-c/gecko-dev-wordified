@@ -333,16 +333,6 @@ SupportDecoderRecycling
 const
 override
 ;
-void
-ConfigurationChanged
-(
-const
-TrackInfo
-&
-aConfig
-)
-override
-;
 ConversionRequired
 NeedsConversion
 (
