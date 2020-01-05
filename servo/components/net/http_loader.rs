@@ -879,16 +879,13 @@ len
 =
 >
 {
-unsafe
-{
 buf
 .
-set_len
+truncate
 (
 len
 )
 ;
-}
 Ok
 (
 ReadResult

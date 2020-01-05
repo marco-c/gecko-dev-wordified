@@ -580,13 +580,6 @@ Sender
 >
 )
 }
-unsafe
-impl
-Send
-for
-Command
-{
-}
 /
 /
 /
@@ -617,13 +610,6 @@ FontTemplateData
 >
 >
 )
-}
-unsafe
-impl
-Send
-for
-Reply
-{
 }
 /
 /
