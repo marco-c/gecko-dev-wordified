@@ -1147,7 +1147,7 @@ GetExpirationState
 (
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 state
@@ -1335,7 +1335,7 @@ GetExpirationState
 (
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 state
 -
@@ -1381,7 +1381,7 @@ state
 >
 mIndexInGeneration
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 generation
 .
@@ -1466,6 +1466,18 @@ generation
 .
 RemoveElementAt
 (
+last
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+generation
+.
+Length
+(
+)
+=
+=
 last
 )
 ;
