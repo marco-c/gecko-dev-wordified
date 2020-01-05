@@ -74,6 +74,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 console
 .
 log
