@@ -853,7 +853,7 @@ link
 function
 frame_script
 (
-uri
+frameUri
 )
 {
 let
@@ -873,7 +873,7 @@ href
 '
 "
 +
-uri
+frameUri
 +
 "
 '

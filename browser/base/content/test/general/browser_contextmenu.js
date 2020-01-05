@@ -2560,8 +2560,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -2644,8 +2642,6 @@ true
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -2673,8 +2669,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -2850,8 +2844,6 @@ doCommand
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -2902,8 +2894,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -3068,8 +3058,6 @@ doCommand
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -3097,8 +3085,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -3243,8 +3229,6 @@ true
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -5008,8 +4992,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -5179,8 +5161,6 @@ select
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -5208,8 +5188,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -5476,8 +5454,6 @@ removeAllRanges
 }
 )
 ;
-*
-/
 }
 )
 ;
@@ -5959,8 +5935,6 @@ bug
 ;
 return
 ;
-/
-*
 yield
 test_contextmenu
 (
@@ -6031,8 +6005,6 @@ true
 ]
 )
 ;
-*
-/
 }
 )
 ;
@@ -6090,7 +6062,7 @@ remoteClientsFixture
 )
 ;
 let
-plainTextItems
+plainTextItemsWithSendPage
 =
 [
 "
@@ -6240,7 +6212,7 @@ test
 -
 text
 "
-plainTextItems
+plainTextItemsWithSendPage
 {
 *
 onContextMenuShown
@@ -6570,7 +6542,7 @@ selector
 function
 *
 (
-selector
+contentSelector
 )
 {
 info
@@ -6579,7 +6551,7 @@ Selecting
 text
 of
 {
-selector
+contentSelector
 }
 )
 ;
@@ -6623,7 +6595,7 @@ doc
 .
 querySelector
 (
-selector
+contentSelector
 )
 ;
 Assert

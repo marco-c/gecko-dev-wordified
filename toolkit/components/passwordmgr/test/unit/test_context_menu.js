@@ -608,7 +608,7 @@ items
 function
 findDuplicates
 (
-loginList
+unfilteredLoginList
 )
 {
 var
@@ -632,7 +632,7 @@ for
 let
 login
 of
-loginList
+unfilteredLoginList
 )
 {
 if

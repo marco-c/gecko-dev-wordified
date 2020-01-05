@@ -473,10 +473,10 @@ popupTabs
 .
 every
 (
-tab
+aTab
 =
 >
-tab
+aTab
 .
 linkedBrowser
 .

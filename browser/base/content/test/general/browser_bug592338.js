@@ -1177,8 +1177,6 @@ onInstallEnded
 :
 function
 (
-aInstall
-aAddon
 )
 {
 AddonManager

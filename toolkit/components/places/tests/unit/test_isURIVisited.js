@@ -415,8 +415,8 @@ isURIVisited
 uri
 function
 (
-aURI
-aIsVisited
+aURI2
+aIsVisited2
 )
 {
 do_check_true
@@ -425,7 +425,7 @@ uri
 .
 equals
 (
-aURI
+aURI2
 )
 )
 ;
@@ -443,7 +443,7 @@ do_check_false
 ;
 checker
 (
-aIsVisited
+aIsVisited2
 )
 ;
 PlacesTestUtils
@@ -465,8 +465,8 @@ isURIVisited
 uri
 function
 (
-aURI
-aIsVisited
+aURI3
+aIsVisited3
 )
 {
 do_check_true
@@ -475,13 +475,13 @@ uri
 .
 equals
 (
-aURI
+aURI3
 )
 )
 ;
 do_check_false
 (
-aIsVisited
+aIsVisited3
 )
 ;
 gRunner

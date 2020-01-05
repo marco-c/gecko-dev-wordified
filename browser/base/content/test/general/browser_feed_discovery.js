@@ -148,7 +148,7 @@ feeds
 function
 *
 (
-feeds
+contentFeeds
 )
 {
 for
@@ -216,7 +216,7 @@ title
 ok
 (
 !
-feeds
+contentFeeds
 [
 aLink
 .
@@ -239,7 +239,7 @@ else
 {
 ok
 (
-feeds
+contentFeeds
 [
 aLink
 .

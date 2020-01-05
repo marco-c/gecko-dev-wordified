@@ -462,9 +462,6 @@ tld
 ;
 try
 {
-let
-placeInfo
-=
 yield
 PlacesUtils
 .

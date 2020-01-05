@@ -204,7 +204,7 @@ expectRefresh
 function
 *
 (
-expectRefresh
+contentExpectRefresh
 )
 {
 let
@@ -250,7 +250,7 @@ equal
 refresher
 .
 refreshPending
-expectRefresh
+contentExpectRefresh
 "
 Got
 the

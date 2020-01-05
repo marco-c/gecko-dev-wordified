@@ -3373,14 +3373,14 @@ function
 for
 (
 let
-test
+testCase
 of
 gTests
 )
 {
 info
 (
-test
+testCase
 .
 desc
 )
@@ -3388,7 +3388,7 @@ desc
 try
 {
 yield
-test
+testCase
 .
 run
 (
@@ -3398,7 +3398,7 @@ run
 finally
 {
 yield
-test
+testCase
 .
 teardown
 (

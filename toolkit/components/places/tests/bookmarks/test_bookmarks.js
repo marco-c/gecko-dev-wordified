@@ -1270,9 +1270,6 @@ bad
 input
 try
 {
-let
-title
-=
 bs
 .
 getItemTitle
@@ -2710,7 +2707,6 @@ query
 output
 try
 {
-let
 options
 =
 hs
@@ -2719,7 +2715,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs
@@ -3013,7 +3008,6 @@ title
 /
 /
 query
-let
 options
 =
 hs
@@ -3022,7 +3016,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs
@@ -3773,7 +3766,6 @@ title
 ZZZXXXYYY
 try
 {
-let
 options
 =
 hs
@@ -3798,7 +3790,6 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_BOOKMARKS
 ;
-let
 query
 =
 hs
@@ -3920,7 +3911,6 @@ search
 query
 try
 {
-let
 options
 =
 hs
@@ -3945,7 +3935,6 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_BOOKMARKS
 ;
-let
 query
 =
 hs
@@ -4088,7 +4077,6 @@ folder
 query
 try
 {
-let
 options
 =
 hs
@@ -4097,7 +4085,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 query
 =
 hs
