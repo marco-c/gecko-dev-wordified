@@ -298,6 +298,13 @@ devices
 )
 .
 isRequired
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 displayPixelRatio
 :
 PropTypes
