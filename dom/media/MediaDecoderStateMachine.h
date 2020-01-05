@@ -3770,7 +3770,10 @@ in
 decoded
 data
 .
-int64_t
+media
+:
+:
+TimeUnit
 mDecodedAudioEndTime
 ;
 /
@@ -3799,7 +3802,10 @@ decoded
 video
 data
 .
-int64_t
+media
+:
+:
+TimeUnit
 mDecodedVideoEndTime
 ;
 /
