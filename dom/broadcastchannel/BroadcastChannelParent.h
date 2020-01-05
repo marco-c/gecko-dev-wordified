@@ -181,17 +181,6 @@ ipc
 PrincipalInfo
 PrincipalInfo
 ;
-public
-:
-void
-Deliver
-(
-const
-ClonedMessageData
-&
-aData
-)
-;
 private
 :
 explicit
