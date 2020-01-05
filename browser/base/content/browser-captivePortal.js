@@ -836,6 +836,8 @@ visible
 false
 )
 ;
+return
+;
 }
 this
 .
@@ -1119,6 +1121,12 @@ portal
 return
 ;
 }
+self
+.
+_showNotification
+(
+)
+;
 if
 (
 time
@@ -1384,7 +1392,7 @@ GetStringFromName
 "
 captivePortal
 .
-showLoginPage2
+showLoginPage
 "
 )
 callback
@@ -1432,7 +1440,7 @@ GetStringFromName
 "
 captivePortal
 .
-infoMessage3
+infoMessage2
 "
 )
 ;
