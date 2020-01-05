@@ -5156,11 +5156,16 @@ Promise
 aPromise
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mExtensionsHandler
 )
+{
+return
+false
 ;
+}
 return
 mExtensionsHandler
 -
