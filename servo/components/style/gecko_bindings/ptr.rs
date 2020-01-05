@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+gecko_bindings
+:
+:
 bindings
 :
 :

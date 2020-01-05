@@ -172,7 +172,10 @@ gecko
 ]
 pub
 use
-gecko_selector_impl
+gecko
+:
+:
+selector_impl
 :
 :
 *
@@ -190,7 +193,10 @@ gecko
 ]
 pub
 use
-gecko_selector_impl
+gecko
+:
+:
+selector_impl
 :
 :
 {

@@ -75,12 +75,6 @@ structs
 nsIAtom
 ;
 use
-gecko_string_cache
-:
-:
-Atom
-;
-use
 std
 :
 :
@@ -88,6 +82,12 @@ std
 ptr
 slice
 }
+;
+use
+string_cache
+:
+:
+Atom
 ;
 pub
 type

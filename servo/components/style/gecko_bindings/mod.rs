@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-extern
-crate
-heapsize
-;
 #
 [
 allow
