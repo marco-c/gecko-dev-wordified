@@ -105,10 +105,6 @@ unsafe_code
 ]
 extern
 crate
-azure
-;
-extern
-crate
 heapsize
 ;
 #
