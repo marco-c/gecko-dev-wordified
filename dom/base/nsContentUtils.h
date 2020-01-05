@@ -17931,6 +17931,16 @@ Value
 aValue
 )
 ;
+static
+bool
+IsWebComponentsEnabled
+(
+)
+{
+return
+sIsWebComponentsEnabled
+;
+}
 private
 :
 static
@@ -18412,6 +18422,10 @@ sIsFrameTimingPrefEnabled
 static
 bool
 sIsExperimentalAutocompleteEnabled
+;
+static
+bool
+sIsWebComponentsEnabled
 ;
 static
 bool
