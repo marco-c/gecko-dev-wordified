@@ -142,7 +142,7 @@ wasm
 -
 function
 [
-0
+1
 ]
 (
 "

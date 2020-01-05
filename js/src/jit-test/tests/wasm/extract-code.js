@@ -112,7 +112,7 @@ funcs
 0
 ]
 .
-funcDefIndex
+funcIndex
 0
 )
 ;

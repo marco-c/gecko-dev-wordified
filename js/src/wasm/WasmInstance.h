@@ -817,7 +817,7 @@ JSContext
 *
 cx
 uint32_t
-funcDefIndex
+funcIndex
 CallArgs
 args
 )

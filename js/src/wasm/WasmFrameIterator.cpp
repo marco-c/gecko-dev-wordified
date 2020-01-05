@@ -1074,13 +1074,13 @@ atom
 code_
 -
 >
-getFuncDefAtom
+getFuncAtom
 (
 cx
 codeRange_
 -
 >
-funcDefIndex
+funcIndex
 (
 )
 )
@@ -5401,7 +5401,7 @@ profilingLabel
 codeRange_
 -
 >
-funcDefIndex
+funcIndex
 (
 )
 )
@@ -5616,7 +5616,7 @@ kind
 CallSite
 :
 :
-FuncDef
+Func
 )
 return
 ;

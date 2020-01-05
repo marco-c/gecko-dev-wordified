@@ -516,7 +516,7 @@ AstModule
 module_
 ;
 AstIndexVector
-funcSigs_
+funcDefSigs_
 ;
 AstDecodeExprIter
 *
@@ -585,7 +585,7 @@ module_
 (
 module
 )
-funcSigs_
+funcDefSigs_
 (
 lifo
 )
@@ -634,12 +634,12 @@ module_
 }
 AstIndexVector
 &
-funcSigs
+funcDefSigs
 (
 )
 {
 return
-funcSigs_
+funcDefSigs_
 ;
 }
 AstDecodeExprIter
@@ -1868,7 +1868,7 @@ c
 )
 {
 uint32_t
-calleeIndex
+funcIndex
 ;
 if
 (
@@ -1882,7 +1882,7 @@ iter
 readCall
 (
 &
-calleeIndex
+funcIndex
 )
 )
 return
@@ -1912,7 +1912,7 @@ funcRef
 ;
 if
 (
-calleeIndex
+funcIndex
 <
 c
 .
@@ -1943,7 +1943,7 @@ imports
 (
 )
 [
-calleeIndex
+funcIndex
 ]
 ;
 sigIndex
@@ -1977,7 +1977,7 @@ else
 uint32_t
 funcDefIndex
 =
-calleeIndex
+funcIndex
 -
 c
 .
@@ -2000,7 +2000,7 @@ funcDefIndex
 =
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 .
@@ -2030,7 +2030,7 @@ sigIndex
 =
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 [
@@ -2050,7 +2050,7 @@ u
 func
 "
 )
-calleeIndex
+funcIndex
 &
 funcRef
 )
@@ -9032,7 +9032,7 @@ if
 !
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 .
@@ -9069,7 +9069,7 @@ c
 &
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 [
@@ -11225,7 +11225,7 @@ AstDecodeContext
 &
 c
 uint32_t
-funcIndex
+funcDefIndex
 AstFunc
 *
 *
@@ -11339,11 +11339,11 @@ sigIndex
 =
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 [
-funcIndex
+funcDefIndex
 ]
 ;
 const
@@ -11482,7 +11482,7 @@ length
 (
 )
 +
-funcIndex
+funcDefIndex
 &
 funcName
 )
@@ -11968,7 +11968,7 @@ if
 (
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 .
@@ -12035,7 +12035,7 @@ numFuncBodies
 =
 c
 .
-funcSigs
+funcDefSigs
 (
 )
 .
@@ -12066,15 +12066,15 @@ count
 for
 (
 uint32_t
-funcIndex
+funcDefIndex
 =
 0
 ;
-funcIndex
+funcDefIndex
 <
 numFuncBodies
 ;
-funcIndex
+funcDefIndex
 +
 +
 )
@@ -12089,7 +12089,7 @@ if
 AstDecodeFunctionBody
 (
 c
-funcIndex
+funcDefIndex
 &
 func
 )

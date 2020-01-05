@@ -557,7 +557,7 @@ into
 the
 /
 /
-FuncDefExportVector
+FuncExportVector
 in
 Metadata
 .
