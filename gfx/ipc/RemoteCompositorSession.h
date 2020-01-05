@@ -248,6 +248,11 @@ Shutdown
 override
 ;
 void
+NotifyDeviceReset
+(
+)
+;
+void
 NotifySessionLost
 (
 )

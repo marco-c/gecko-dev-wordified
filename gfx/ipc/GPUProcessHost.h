@@ -336,6 +336,16 @@ aHost
 )
 {
 }
+virtual
+void
+OnProcessDeviceReset
+(
+GPUProcessHost
+*
+aHost
+)
+{
+}
 }
 ;
 public

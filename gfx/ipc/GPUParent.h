@@ -193,6 +193,11 @@ Channel
 aChannel
 )
 ;
+void
+NotifyDeviceReset
+(
+)
+;
 bool
 RecvInit
 (
