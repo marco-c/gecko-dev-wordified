@@ -2232,7 +2232,7 @@ value
 RawServoAnimationValueBorrowed
 list
 :
-&
+*
 mut
 structs
 :
@@ -2289,7 +2289,13 @@ clone
 unwrap
 (
 )
+unsafe
+{
+&
+mut
+*
 list
+}
 )
 ;
 }
