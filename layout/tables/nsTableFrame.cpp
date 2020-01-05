@@ -43189,9 +43189,7 @@ mCellMap
 WritingMode
 mTableWM
 ;
-const
-nsStyleBackground
-*
+nscolor
 mTableBgColor
 ;
 nsTableFrame
@@ -44043,6 +44041,9 @@ bgFrame
 StyleBackground
 (
 )
+-
+>
+mBackgroundColor
 ;
 }
 bool

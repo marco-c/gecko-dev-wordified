@@ -4209,9 +4209,7 @@ uint8_t
 aBorderStyle
 nscolor
 aBorderColor
-const
-nsStyleBackground
-*
+nscolor
 aBGColor
 const
 nsRect
