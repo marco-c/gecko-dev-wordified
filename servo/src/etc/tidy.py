@@ -325,12 +325,6 @@ platform
 "
 src
 /
-compiler
-"
-    
-"
-src
-/
 test
 /
 wpt
