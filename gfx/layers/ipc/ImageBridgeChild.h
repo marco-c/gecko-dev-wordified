@@ -1632,6 +1632,9 @@ aTask
 Shmem
 *
 aShmem
+bool
+*
+aResult
 )
 ;
 public
@@ -2037,7 +2040,7 @@ thread
 *
 /
 virtual
-void
+bool
 DeallocShmem
 (
 mozilla

@@ -5211,6 +5211,9 @@ ipc
 Shmem
 *
 aShmem
+bool
+*
+aResult
 )
 {
 AutoCompleteTask
@@ -5230,6 +5233,9 @@ CanSend
 return
 ;
 }
+*
+aResult
+=
 DeallocShmem
 (
 *
@@ -5237,7 +5243,7 @@ aShmem
 )
 ;
 }
-void
+bool
 ImageBridgeChild
 :
 :
@@ -5267,8 +5273,10 @@ CanSend
 )
 {
 return
+false
 ;
 }
+return
 PImageBridgeChild
 :
 :
@@ -5276,8 +5284,6 @@ DeallocShmem
 (
 aShmem
 )
-;
-return
 ;
 }
 SynchronousTask
@@ -5288,6 +5294,11 @@ AllocatorProxy
 Dealloc
 "
 )
+;
+bool
+result
+=
+false
 ;
 RefPtr
 <
@@ -5313,6 +5324,8 @@ ProxyDeallocShmemNow
 task
 &
 aShmem
+&
+result
 )
 ;
 GetMessageLoop
@@ -5334,6 +5347,9 @@ task
 Wait
 (
 )
+;
+return
+result
 ;
 }
 PTextureChild

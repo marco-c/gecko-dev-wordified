@@ -1291,7 +1291,7 @@ aShmem
 override
 ;
 virtual
-void
+bool
 DeallocShmem
 (
 mozilla

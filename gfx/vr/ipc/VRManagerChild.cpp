@@ -1883,7 +1883,7 @@ aShmem
 )
 ;
 }
-void
+bool
 VRManagerChild
 :
 :
@@ -1897,6 +1897,7 @@ Shmem
 aShmem
 )
 {
+return
 PVRManagerChild
 :
 :

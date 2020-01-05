@@ -863,7 +863,7 @@ aShmem
 override
 ;
 virtual
-void
+bool
 DeallocShmem
 (
 ipc
