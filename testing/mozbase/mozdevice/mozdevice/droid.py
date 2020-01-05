@@ -1327,6 +1327,19 @@ None
 try
 :
             
+#
+Increased
+timeout
+to
+60
+seconds
+after
+intermittent
+timeouts
+at
+30
+.
+            
 data
 =
 self
@@ -1347,9 +1360,7 @@ windows
 ]
 timeout
 =
-self
-.
-short_timeout
+60
 )
         
 except
