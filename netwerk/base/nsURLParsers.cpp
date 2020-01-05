@@ -2629,12 +2629,6 @@ is
 an
 authority
 section
-#
-if
-defined
-(
-XP_WIN
-)
 /
 /
 if
@@ -2793,8 +2787,6 @@ pos
 break
 ;
 }
-#
-endif
 /
 /
 Ignore
