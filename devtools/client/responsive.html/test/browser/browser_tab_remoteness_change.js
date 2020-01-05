@@ -284,6 +284,12 @@ synchronously
 yield
 clientClosed
 ;
+yield
+removeTab
+(
+tab
+)
+;
 }
 )
 ;
