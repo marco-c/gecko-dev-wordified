@@ -1193,7 +1193,7 @@ WRBridge
 )
 -
 >
-SendDestroy
+Destroy
 (
 )
 ;
