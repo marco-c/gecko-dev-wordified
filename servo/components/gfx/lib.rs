@@ -519,6 +519,10 @@ time
 ;
 extern
 crate
+unicode_bidi
+;
+extern
+crate
 unicode_script
 ;
 extern
