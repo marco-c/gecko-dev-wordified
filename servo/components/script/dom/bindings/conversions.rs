@@ -2467,6 +2467,7 @@ a
 DOM
 object
 .
+pub
 fn
 is_dom_class
 (

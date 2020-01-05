@@ -411,6 +411,7 @@ window
 {
 Window
 WindowHelpers
+ScriptHelpers
 }
 ;
 use
@@ -6542,7 +6543,7 @@ r
 (
 )
 .
-evaluate_js_with_result
+evaluate_js_on_global_with_result
 (
 evalstr
 )
