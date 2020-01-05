@@ -27334,7 +27334,7 @@ it
 .
 *
 /
-MOZ_ASSERT_IF
+if
 (
 bitmap
 -
@@ -27344,6 +27344,9 @@ isMarked
 cell
 BLACK
 )
+)
+MOZ_RELEASE_ASSERT
+(
 incBitmap
 -
 >
@@ -27395,7 +27398,7 @@ GC
 .
 *
 /
-MOZ_ASSERT_IF
+if
 (
 !
 bitmap
@@ -27406,6 +27409,9 @@ isMarked
 cell
 GRAY
 )
+)
+MOZ_RELEASE_ASSERT
+(
 !
 incBitmap
 -
