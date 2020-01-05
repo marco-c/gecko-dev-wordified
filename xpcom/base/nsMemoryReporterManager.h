@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsTHashtable
+nsDataHashtable
 .
 h
 "
