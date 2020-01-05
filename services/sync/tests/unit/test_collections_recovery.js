@@ -103,9 +103,8 @@ js
 "
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_missing_crypto_collection

@@ -196,9 +196,8 @@ run_next_test
 )
 ;
 }
-add_identity_test
+add_task
 (
-this
 async
 function
 test_resetLocalData
