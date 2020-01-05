@@ -4834,7 +4834,7 @@ LogLevel
 Warning
 (
 "
-mp4parse_get_track_audio_info
+mp4parse_get_track_video_info
 returned
 error
 %
