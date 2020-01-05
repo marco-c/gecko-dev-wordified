@@ -106,15 +106,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
