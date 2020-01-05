@@ -923,6 +923,26 @@ of
 right
 now
 .
+            
+#
+Union
+handling
+falls
+over
+for
+templated
+types
+.
+            
+"
+StyleShapeSource
+"
+"
+StyleClipPath
+"
+"
+StyleShapeOutside
+"
         
 ]
     
