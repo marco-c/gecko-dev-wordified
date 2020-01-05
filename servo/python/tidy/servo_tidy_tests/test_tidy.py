@@ -1915,6 +1915,26 @@ next
         
 self
 .
+assertEqual
+(
+'
+extra
+space
+after
+test_fun
+'
+errors
+.
+next
+(
+)
+[
+2
+]
+)
+        
+self
+.
 assertNoMoreErrors
 (
 errors
