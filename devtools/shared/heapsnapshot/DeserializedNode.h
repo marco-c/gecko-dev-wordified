@@ -613,10 +613,12 @@ EdgeVector
 &
 &
 edges
+const
 Maybe
 <
 StackFrameId
 >
+&
 allocationStack
 const
 char

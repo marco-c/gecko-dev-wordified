@@ -6761,7 +6761,9 @@ TableDesc
 (
 TableKind
 kind
+const
 Limits
+&
 limits
 )
 :

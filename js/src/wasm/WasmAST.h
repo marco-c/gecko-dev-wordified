@@ -3146,11 +3146,13 @@ ValType
 type
 bool
 isMutable
+const
 Maybe
 <
 AstExpr
 *
 >
+&
 init
 =
 Maybe
@@ -3328,7 +3330,9 @@ AstName
 field
 DefinitionKind
 kind
+const
 Limits
+&
 limits
 )
 :
@@ -3362,7 +3366,9 @@ AstName
 module
 AstName
 field
+const
 AstGlobal
+&
 global
 )
 :
@@ -3803,7 +3809,9 @@ imported
 ;
 AstResizable
 (
+const
 Limits
+&
 limits
 bool
 imported
@@ -4018,7 +4026,9 @@ addMemory
 (
 AstName
 name
+const
 Limits
+&
 memory
 )
 {
@@ -4069,7 +4079,9 @@ addTable
 (
 AstName
 name
+const
 Limits
+&
 table
 )
 {

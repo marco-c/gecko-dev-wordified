@@ -6658,6 +6658,7 @@ HandleFunction
 fun
 HandleScope
 enclosingScope
+const
 mozilla
 :
 :
@@ -6665,6 +6666,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 GeneratorKind
 generatorKind
@@ -6789,6 +6791,7 @@ Node
 pn
 FunctionSyntaxKind
 kind
+const
 mozilla
 :
 :
@@ -6796,6 +6799,7 @@ Maybe
 <
 uint32_t
 >
+&
 parameterListEnd
 =
 mozilla
@@ -9026,6 +9030,7 @@ checkDestructuringName
 (
 Node
 expr
+const
 mozilla
 :
 :
@@ -9033,6 +9038,7 @@ Maybe
 <
 DeclarationKind
 >
+&
 maybeDecl
 )
 ;

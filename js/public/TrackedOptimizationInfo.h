@@ -1656,6 +1656,7 @@ const
 char
 *
 location
+const
 mozilla
 :
 :
@@ -1663,6 +1664,7 @@ Maybe
 <
 unsigned
 >
+&
 lineno
 )
 =

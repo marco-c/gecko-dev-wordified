@@ -4640,6 +4640,7 @@ MDefinition
 *
 base
 MemoryAccessDesc
+*
 access
 ValType
 result
@@ -4663,7 +4664,8 @@ nullptr
 if
 (
 access
-.
+-
+>
 isPlainAsmJS
 (
 )
@@ -4672,7 +4674,8 @@ isPlainAsmJS
 MOZ_ASSERT
 (
 access
-.
+-
+>
 offset
 (
 )
@@ -4693,7 +4696,8 @@ alloc
 )
 base
 access
-.
+-
+>
 type
 (
 )
@@ -4704,7 +4708,6 @@ else
 {
 checkOffsetAndBounds
 (
-&
 access
 &
 base
@@ -4721,6 +4724,7 @@ alloc
 (
 )
 base
+*
 access
 ToMIRType
 (
@@ -4748,6 +4752,7 @@ MDefinition
 *
 base
 MemoryAccessDesc
+*
 access
 MDefinition
 *
@@ -4771,7 +4776,8 @@ nullptr
 if
 (
 access
-.
+-
+>
 isPlainAsmJS
 (
 )
@@ -4780,7 +4786,8 @@ isPlainAsmJS
 MOZ_ASSERT
 (
 access
-.
+-
+>
 offset
 (
 )
@@ -4801,7 +4808,8 @@ alloc
 )
 base
 access
-.
+-
+>
 type
 (
 )
@@ -4813,7 +4821,6 @@ else
 {
 checkOffsetAndBounds
 (
-&
 access
 &
 base
@@ -4830,6 +4837,7 @@ alloc
 (
 )
 base
+*
 access
 v
 )
@@ -4852,6 +4860,7 @@ MDefinition
 *
 base
 MemoryAccessDesc
+*
 access
 MDefinition
 *
@@ -4872,7 +4881,6 @@ nullptr
 ;
 checkOffsetAndBounds
 (
-&
 access
 &
 base
@@ -4891,6 +4899,7 @@ alloc
 (
 )
 base
+*
 access
 oldv
 newv
@@ -4917,6 +4926,7 @@ MDefinition
 *
 base
 MemoryAccessDesc
+*
 access
 MDefinition
 *
@@ -4934,7 +4944,6 @@ nullptr
 ;
 checkOffsetAndBounds
 (
-&
 access
 &
 base
@@ -4953,6 +4962,7 @@ alloc
 (
 )
 base
+*
 access
 value
 tlsPointer_
@@ -4986,6 +4996,7 @@ MDefinition
 *
 base
 MemoryAccessDesc
+*
 access
 MDefinition
 *
@@ -5003,7 +5014,6 @@ nullptr
 ;
 checkOffsetAndBounds
 (
-&
 access
 &
 base
@@ -5023,6 +5033,7 @@ alloc
 )
 op
 base
+*
 access
 v
 tlsPointer_
@@ -14129,6 +14140,7 @@ load
 addr
 .
 base
+&
 access
 type
 )
@@ -14217,6 +14229,7 @@ store
 addr
 .
 base
+&
 access
 value
 )
@@ -14304,6 +14317,7 @@ store
 addr
 .
 base
+&
 access
 value
 )
@@ -14464,6 +14478,7 @@ store
 addr
 .
 base
+&
 access
 value
 )
@@ -14846,6 +14861,7 @@ load
 addr
 .
 base
+&
 access
 ValType
 :
@@ -14936,6 +14952,7 @@ store
 addr
 .
 base
+&
 access
 value
 )
@@ -15047,6 +15064,7 @@ op
 addr
 .
 base
+&
 access
 value
 )
@@ -15145,6 +15163,7 @@ atomicCompareExchangeHeap
 addr
 .
 base
+&
 access
 oldValue
 newValue
@@ -15238,6 +15257,7 @@ atomicExchangeHeap
 addr
 .
 base
+&
 access
 value
 )
@@ -16580,6 +16600,7 @@ load
 addr
 .
 base
+&
 access
 resultType
 )
@@ -16694,6 +16715,7 @@ store
 addr
 .
 base
+&
 access
 value
 )

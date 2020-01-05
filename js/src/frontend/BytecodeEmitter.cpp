@@ -11374,10 +11374,12 @@ public
 bool
 emitFinally
 (
+const
 Maybe
 <
 uint32_t
 >
+&
 finallyPos
 =
 Nothing
@@ -31366,10 +31368,12 @@ BytecodeEmitter
 :
 emitIteratorClose
 (
+const
 Maybe
 <
 JumpTarget
 >
+&
 yieldStarTryStart
 bool
 allowSelfHosted
