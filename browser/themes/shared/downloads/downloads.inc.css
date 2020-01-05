@@ -862,10 +862,6 @@ padding
 0
 12px
 ;
-cursor
-:
-pointer
-;
 -
 moz
 -
@@ -1426,10 +1422,6 @@ margin
 bottom
 )
 ;
-cursor
-:
-inherit
-;
 }
 .
 downloadTarget
@@ -1498,10 +1490,6 @@ details
 -
 opacity
 )
-;
-cursor
-:
-inherit
 ;
 }
 item
