@@ -547,6 +547,9 @@ mod
 image
 ;
 mod
+inherited_box
+;
+mod
 inherited_text
 ;
 mod
