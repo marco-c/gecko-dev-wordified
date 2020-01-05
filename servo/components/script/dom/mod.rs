@@ -3176,6 +3176,10 @@ virtualmethods
 ;
 pub
 mod
+webgl_validations
+;
+pub
+mod
 webglactiveinfo
 ;
 pub
