@@ -2612,7 +2612,6 @@ SharedTrackInfo
 )
 {
 }
-;
 UniquePtr
 <
 TrackInfo

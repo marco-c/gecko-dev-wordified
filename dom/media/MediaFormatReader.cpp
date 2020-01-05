@@ -870,6 +870,8 @@ MainThread
 is
 fine
 for
+/
+/
 ClearOnShutdown
 (
 )
@@ -2923,7 +2925,7 @@ MediaDataDemuxer
 aDemuxer
 AbstractThread
 *
-mainThread
+aMainThread
 )
 :
 mTaskQueue
@@ -2938,7 +2940,7 @@ MediaThreadType
 :
 PLATFORM_DECODER
 )
-mainThread
+aMainThread
 )
 )
 mData
@@ -16817,6 +16819,8 @@ in
 :
 %
 llu
+"
+"
 out
 :
 %
@@ -17058,6 +17062,8 @@ in
 :
 %
 llu
+"
+"
 out
 :
 %
