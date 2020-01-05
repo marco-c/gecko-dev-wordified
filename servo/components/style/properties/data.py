@@ -812,6 +812,9 @@ False
 logical
 =
 False
+alias
+=
+None
 )
 :
         
@@ -986,6 +989,21 @@ arg_to_bool
 (
 logical
 )
+        
+self
+.
+alias
+=
+alias
+.
+split
+(
+)
+if
+alias
+else
+[
+]
         
 #
 https
@@ -1214,6 +1232,9 @@ False
 allowed_in_keyframe_block
 =
 True
+alias
+=
+None
 )
 :
         
@@ -1308,6 +1329,21 @@ self
 internal
 =
 internal
+        
+self
+.
+alias
+=
+alias
+.
+split
+(
+)
+if
+alias
+else
+[
+]
         
 #
 https
