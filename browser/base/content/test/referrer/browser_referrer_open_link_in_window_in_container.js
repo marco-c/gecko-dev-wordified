@@ -98,12 +98,9 @@ function
 aNewWindow
 )
 {
-BrowserTestUtils
-.
-firstBrowserLoaded
+someTabLoaded
 (
 aNewWindow
-false
 )
 .
 then
