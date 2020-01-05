@@ -382,9 +382,6 @@ data
 {
 engineName
 searchString
-[
-remoteTimeout
-]
 }
 *
 GetState
@@ -1857,9 +1854,6 @@ function
 engineName
 searchString
 browser
-remoteTimeout
-=
-null
 )
 {
 let
@@ -1942,15 +1936,6 @@ ok
 MAX_SUGGESTIONS
 :
 0
-;
-controller
-.
-remoteTimeout
-=
-remoteTimeout
-|
-|
-undefined
 ;
 let
 priv
