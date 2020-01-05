@@ -2893,6 +2893,9 @@ uint32_t
 aSize
 FontType
 aType
+void
+*
+aFontContext
 )
 {
 switch
@@ -3019,6 +3022,13 @@ Create
 (
 aData
 aSize
+static_cast
+<
+FT_Library
+>
+(
+aFontContext
+)
 )
 ;
 #
