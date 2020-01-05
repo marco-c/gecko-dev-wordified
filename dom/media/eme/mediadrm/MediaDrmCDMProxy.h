@@ -266,8 +266,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsing
 )
 override
 ;

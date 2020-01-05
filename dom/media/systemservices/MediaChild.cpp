@@ -209,8 +209,6 @@ nsCString
 &
 aOrigin
 bool
-aPrivateBrowsing
-bool
 aPersist
 )
 {
@@ -285,7 +283,6 @@ RecvGetOriginKey
 (
 id
 aOrigin
-aPrivateBrowsing
 aPersist
 )
 ;
@@ -304,7 +301,6 @@ SendGetOriginKey
 (
 id
 aOrigin
-aPrivateBrowsing
 aPersist
 )
 ;

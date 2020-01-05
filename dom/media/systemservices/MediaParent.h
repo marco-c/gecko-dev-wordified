@@ -241,10 +241,6 @@ aOrigin
 const
 bool
 &
-aPrivateBrowsing
-const
-bool
-&
 aPersist
 )
 =
@@ -353,10 +349,6 @@ const
 nsCString
 &
 aOrigin
-const
-bool
-&
-aPrivateBrowsing
 const
 bool
 &

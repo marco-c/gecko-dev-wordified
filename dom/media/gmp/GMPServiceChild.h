@@ -222,8 +222,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsingMode
 UniquePtr
 <
 GetNodeIdCallback

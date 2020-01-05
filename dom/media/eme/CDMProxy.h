@@ -583,8 +583,6 @@ const
 nsAString
 &
 aName
-bool
-aInPrivateBrowsing
 )
 =
 0

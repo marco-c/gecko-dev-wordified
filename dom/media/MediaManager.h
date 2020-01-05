@@ -1257,15 +1257,6 @@ MediaDevice
 >
 SourceSet
 ;
-static
-bool
-IsPrivateBrowsing
-(
-nsPIDOMWindowInner
-*
-window
-)
-;
 virtual
 int
 AddDeviceChangeCallback

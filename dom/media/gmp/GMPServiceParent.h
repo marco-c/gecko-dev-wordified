@@ -264,8 +264,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsingMode
 UniquePtr
 <
 GetNodeIdCallback
@@ -488,8 +486,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsing
 nsACString
 &
 aOutId
@@ -1265,10 +1261,6 @@ const
 nsString
 &
 aGMPName
-const
-bool
-&
-aInPrivateBrowsing
 nsCString
 *
 aID

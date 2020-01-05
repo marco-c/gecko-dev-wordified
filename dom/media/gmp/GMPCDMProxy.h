@@ -227,8 +227,6 @@ const
 nsAString
 &
 aGMPName
-bool
-aInPrivateBrowsing
 )
 override
 ;
@@ -594,9 +592,6 @@ RefPtr
 GMPCrashHelper
 >
 mCrashHelper
-;
-bool
-mInPrivateBrowsing
 ;
 }
 ;
