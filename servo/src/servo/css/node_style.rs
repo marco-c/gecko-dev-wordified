@@ -22,7 +22,7 @@ dom
 node
 :
 :
-Node
+AbstractNode
 ;
 use
 newcss
@@ -66,7 +66,7 @@ self
 impl
 StyledNode
 for
-Node
+AbstractNode
 {
 fn
 style

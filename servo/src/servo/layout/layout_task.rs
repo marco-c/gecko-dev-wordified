@@ -67,7 +67,7 @@ node
 :
 :
 {
-Node
+AbstractNode
 LayoutData
 }
 ;
@@ -384,7 +384,7 @@ LayoutQuery
 {
 ContentBox
 (
-Node
+AbstractNode
 )
 }
 pub
@@ -419,6 +419,7 @@ Stylesheet
 )
 BuildMsg
 (
+~
 BuildData
 )
 QueryMsg
@@ -546,7 +547,7 @@ BuildData
 {
 node
 :
-Node
+AbstractNode
 url
 :
 Url
@@ -663,14 +664,13 @@ is
 used
 to
 root
-auxilliary
-RCU
 reader
 data
 layout_refs
 :
 DVec
 <
+mut
 LayoutData
 >
 css_select_ctx
@@ -955,6 +955,7 @@ handle_build
 (
 data
 :
+&
 BuildData
 )
 {
@@ -1599,16 +1600,12 @@ node
 let
 response
 =
-do
+match
 node
 .
-aux
-|
-a
-|
-{
-match
-a
+layout_data
+(
+)
 .
 flow
 {
@@ -1743,7 +1740,6 @@ ContentSize
 size
 )
 )
-}
 }
 }
 }

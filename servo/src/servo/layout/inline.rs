@@ -8,7 +8,7 @@ dom
 node
 :
 :
-Node
+AbstractNode
 ;
 use
 layout
@@ -358,7 +358,7 @@ NodeRange
 {
 node
 :
-Node
+AbstractNode
 range
 :
 Range
@@ -374,7 +374,7 @@ new
 (
 node
 :
-Node
+AbstractNode
 range
 :
 &
@@ -436,7 +436,7 @@ add_mapping
 (
 node
 :
-Node
+AbstractNode
 range
 :
 &
