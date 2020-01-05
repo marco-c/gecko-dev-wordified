@@ -3543,7 +3543,7 @@ typedef
 void
 (
 *
-JSWeakPointerZoneGroupCallback
+JSWeakPointerZonesCallback
 )
 (
 JSContext
@@ -10584,7 +10584,7 @@ embedder
 structures
 .
 The
-WeakPointerZoneGroupCallback
+WeakPointerZonesCallback
 is
 *
 called
@@ -10760,12 +10760,12 @@ JS_PUBLIC_API
 (
 bool
 )
-JS_AddWeakPointerZoneGroupCallback
+JS_AddWeakPointerZonesCallback
 (
 JSContext
 *
 cx
-JSWeakPointerZoneGroupCallback
+JSWeakPointerZonesCallback
 cb
 void
 *
@@ -10777,12 +10777,12 @@ JS_PUBLIC_API
 (
 void
 )
-JS_RemoveWeakPointerZoneGroupCallback
+JS_RemoveWeakPointerZonesCallback
 (
 JSContext
 *
 cx
-JSWeakPointerZoneGroupCallback
+JSWeakPointerZonesCallback
 cb
 )
 ;

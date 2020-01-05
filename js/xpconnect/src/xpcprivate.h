@@ -3890,7 +3890,7 @@ data
 ;
 static
 void
-WeakPointerZoneGroupCallback
+WeakPointerZonesCallback
 (
 JSContext
 *

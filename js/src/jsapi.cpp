@@ -7530,12 +7530,12 @@ JS_PUBLIC_API
 (
 bool
 )
-JS_AddWeakPointerZoneGroupCallback
+JS_AddWeakPointerZonesCallback
 (
 JSContext
 *
 cx
-JSWeakPointerZoneGroupCallback
+JSWeakPointerZonesCallback
 cb
 void
 *
@@ -7557,7 +7557,7 @@ runtime
 >
 gc
 .
-addWeakPointerZoneGroupCallback
+addWeakPointerZonesCallback
 (
 cb
 data
@@ -7568,12 +7568,12 @@ JS_PUBLIC_API
 (
 void
 )
-JS_RemoveWeakPointerZoneGroupCallback
+JS_RemoveWeakPointerZonesCallback
 (
 JSContext
 *
 cx
-JSWeakPointerZoneGroupCallback
+JSWeakPointerZonesCallback
 cb
 )
 {
@@ -7587,7 +7587,7 @@ runtime
 >
 gc
 .
-removeWeakPointerZoneGroupCallback
+removeWeakPointerZonesCallback
 (
 cb
 )

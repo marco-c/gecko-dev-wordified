@@ -312,7 +312,7 @@ randomHashCodeScrambler
 (
 )
 )
-gcZoneGroupEdges_
+gcSweepGroupEdges_
 (
 group
 )
@@ -383,7 +383,7 @@ false
 #
 ifdef
 DEBUG
-gcLastZoneGroupIndex
+gcLastSweepGroupIndex
 (
 group
 0
@@ -653,7 +653,7 @@ init
 )
 &
 &
-gcZoneGroupEdges
+gcSweepGroupEdges
 (
 )
 .
@@ -1088,12 +1088,12 @@ swept
 in
 the
 same
-zone
+sweep
 group
 except
+/
+/
 if
-/
-/
 the
 breakpoint
 was
@@ -1102,7 +1102,7 @@ after
 we
 computed
 the
-zone
+sweep
 /
 /
 groups

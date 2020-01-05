@@ -1001,7 +1001,7 @@ if
 delegateZone
 -
 >
-gcZoneGroupEdges
+gcSweepGroupEdges
 (
 )
 .

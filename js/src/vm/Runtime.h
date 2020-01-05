@@ -3531,7 +3531,7 @@ containers
 to
 sweep
 during
-beginSweepingZoneGroup
+beginSweepingSweepGroup
 .
 js
 :
