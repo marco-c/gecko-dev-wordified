@@ -2812,7 +2812,7 @@ asyncKindBits_
 /
 *
 The
-FunctionAsyncKing
+FunctionAsyncKind
 of
 this
 function
