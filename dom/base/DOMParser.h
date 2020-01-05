@@ -504,6 +504,10 @@ mAttemptedInit
 (
 false
 )
+mOriginalPrincipalWasSystem
+(
+false
+)
 {
 MOZ_ASSERT
 (
