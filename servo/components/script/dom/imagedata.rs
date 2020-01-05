@@ -285,9 +285,12 @@ u8
 )
 -
 >
+Fallible
+<
 Root
 <
 ImageData
+>
 >
 {
 let
@@ -416,10 +419,6 @@ get
 (
 )
 )
-)
-.
-unwrap
-(
 )
 }
 }

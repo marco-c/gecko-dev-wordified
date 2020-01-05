@@ -8299,8 +8299,6 @@ unwrap
 )
 )
 ;
-Ok
-(
 ImageData
 :
 :
@@ -8315,7 +8313,6 @@ global
 sw
 sh
 None
-)
 )
 }
 /
@@ -8362,8 +8359,6 @@ ImageData
 >
 >
 {
-Ok
-(
 ImageData
 :
 :
@@ -8386,7 +8381,6 @@ Height
 (
 )
 None
-)
 )
 }
 /
@@ -8827,8 +8821,6 @@ usize
 ]
 ;
 }
-Ok
-(
 ImageData
 :
 :
@@ -8845,7 +8837,6 @@ sh
 Some
 (
 data
-)
 )
 )
 }
