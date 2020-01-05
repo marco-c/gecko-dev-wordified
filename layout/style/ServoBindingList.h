@@ -1110,6 +1110,17 @@ value
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_SetNumberValue
+void
+RawServoDeclarationBlockBorrowed
+declarations
+nsCSSPropertyID
+property
+float
+value
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_SetPercentValue
 void
 RawServoDeclarationBlockBorrowed

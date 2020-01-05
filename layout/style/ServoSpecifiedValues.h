@@ -309,6 +309,15 @@ aValue
 }
 }
 void
+SetNumberValue
+(
+nsCSSPropertyID
+aId
+float
+aValue
+)
+;
+void
 SetPercentValue
 (
 nsCSSPropertyID
