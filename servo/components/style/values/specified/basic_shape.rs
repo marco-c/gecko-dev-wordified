@@ -5783,7 +5783,7 @@ BorderRadius
 fn
 parse
 (
-context
+_context
 :
 &
 ParserContext
@@ -5811,7 +5811,6 @@ try
 (
 parse_one_set_of_border_values
 (
-context
 input
 )
 )
@@ -5847,7 +5846,6 @@ try
 (
 parse_one_set_of_border_values
 (
-context
 input
 )
 )
@@ -5997,10 +5995,6 @@ take
 fn
 parse_one_set_of_border_values
 (
-context
-:
-&
-ParserContext
 mut
 input
 :
@@ -6030,9 +6024,8 @@ try
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 input
 )
 )
@@ -6057,9 +6050,8 @@ i
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 i
 )
 )
@@ -6112,9 +6104,8 @@ i
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 i
 )
 )
@@ -6160,9 +6151,8 @@ i
 LengthOrPercentage
 :
 :
-parse
+parse_non_negative
 (
-context
 i
 )
 )
