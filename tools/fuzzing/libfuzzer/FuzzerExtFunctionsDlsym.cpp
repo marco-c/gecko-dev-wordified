@@ -308,6 +308,13 @@ h
 "
 #
 include
+"
+FuzzerIO
+.
+h
+"
+#
+include
 <
 dlfcn
 .

@@ -264,6 +264,13 @@ if
 LIBFUZZER_APPLE
 #
 include
+"
+FuzzerIO
+.
+h
+"
+#
+include
 <
 mutex
 >
@@ -1286,6 +1293,10 @@ ProcessStatus
 ;
 }
 }
+/
+/
+namespace
+fuzzer
 #
 endif
 /

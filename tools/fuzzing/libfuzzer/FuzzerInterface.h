@@ -615,7 +615,7 @@ to
 be
 used
 inside
-LLVMFuzzerTestOneInput
+LLVMFuzzerCustomMutator
 .
 /
 /
