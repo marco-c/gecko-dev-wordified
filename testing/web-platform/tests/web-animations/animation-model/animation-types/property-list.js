@@ -4124,6 +4124,9 @@ filter
 types
 :
 [
+'
+filterList
+'
 ]
 }
 '
