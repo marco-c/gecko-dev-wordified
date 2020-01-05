@@ -1327,6 +1327,12 @@ basic_shape
 :
 BorderRadius
 ;
+use
+parser
+:
+:
+Parse
+;
 pub
 fn
 parse_value

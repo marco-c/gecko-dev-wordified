@@ -626,6 +626,7 @@ parser
 :
 :
 {
+Parse
 ParserContext
 ParserContextExtraData
 }
@@ -1432,6 +1433,7 @@ parser
 :
 :
 {
+Parse
 ParserContext
 ParserContextExtraData
 }
@@ -1470,12 +1472,6 @@ error_reporting
 :
 :
 ParseErrorReporter
-;
-use
-parser
-:
-:
-Parse
 ;
 use
 properties
