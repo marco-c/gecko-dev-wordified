@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsIUGenCategory
-.
-h
-"
-#
-include
-"
 nsSpecialCasingData
 .
 h
@@ -251,6 +244,13 @@ h
 include
 "
 nsTextRunTransformations
+.
+h
+"
+#
+include
+"
+nsUGenCategory
 .
 h
 "
@@ -4577,7 +4577,7 @@ aCh
 )
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
