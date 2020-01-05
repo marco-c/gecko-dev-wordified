@@ -414,7 +414,7 @@ length
 :
 {
 MaxLength
-MinLength
+MozLength
 }
 ;
 pub
