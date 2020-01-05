@@ -420,7 +420,7 @@ CoreResourceMsg
 :
 {
 GetCookiesDataForUrl
-SetCookiesForUrlWithData
+SetCookieForUrl
 }
 ;
 use
@@ -2275,7 +2275,7 @@ resource_threads
 .
 send
 (
-SetCookiesForUrlWithData
+SetCookieForUrl
 (
 url
 cookie
@@ -2320,7 +2320,7 @@ resource_threads
 .
 send
 (
-SetCookiesForUrlWithData
+SetCookieForUrl
 (
 url
 cookie
