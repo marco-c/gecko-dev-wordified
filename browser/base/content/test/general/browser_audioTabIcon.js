@@ -99,7 +99,6 @@ true
 ;
 }
 return
-await
 BrowserTestUtils
 .
 waitForEvent
@@ -440,15 +439,6 @@ pause
 "
 )
 ;
-let
-awaitTabPausedAttrModified
-=
-wait_for_tab_playing_event
-(
-tab
-false
-)
-;
 await
 ContentTask
 .
@@ -586,7 +576,11 @@ DOMAudioPlaybackStopped
 ;
 }
 await
-awaitTabPausedAttrModified
+wait_for_tab_playing_event
+(
+tab
+false
+)
 ;
 ok
 (
