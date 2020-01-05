@@ -5301,7 +5301,7 @@ the
 data
 at
 the
-begging
+beginning
 of
 an
 evbuffer

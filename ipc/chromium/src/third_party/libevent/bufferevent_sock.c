@@ -2840,7 +2840,7 @@ bev_p
 >
 dns_error
 ;
-BEV_LOCK
+BEV_UNLOCK
 (
 bev
 )

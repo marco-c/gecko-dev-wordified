@@ -897,10 +897,8 @@ buf
 cbuf
 sizeof
 (
-buf
+cbuf
 )
--
-1
 )
 ;
 if
@@ -1819,7 +1817,7 @@ n
 #
 ifdef
 WIN32
-CloseHandle
+FindClose
 (
 d
 )

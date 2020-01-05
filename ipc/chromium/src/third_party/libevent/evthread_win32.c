@@ -640,7 +640,7 @@ InitializeConditionVariable
 ;
 LOAD
 (
-SleepConditionVariable
+SleepConditionVariableCS
 )
 ;
 LOAD

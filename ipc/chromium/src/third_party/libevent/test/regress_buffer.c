@@ -1792,10 +1792,10 @@ sizeof
 (
 buffer
 )
+)
 !
 =
 0
-)
 )
 tt_abort_msg
 (

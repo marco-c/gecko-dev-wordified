@@ -406,7 +406,6 @@ its
 input
 buffer
 and
-and
 call
 the
 read
@@ -428,9 +427,12 @@ its
 file
 descriptor
 when
-writing
-is
-enabled
+the
+output
+buffer
+has
+enough
+data
 and
 call
 the
