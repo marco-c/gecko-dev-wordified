@@ -2371,7 +2371,7 @@ aFrame
 )
 ;
 }
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -2386,7 +2386,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGForeignObject
@@ -2413,7 +2413,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGOuterSVG
@@ -8092,7 +8092,7 @@ return
 false
 ;
 }
-FrameType
+LayoutFrameType
 type
 =
 aFrame
@@ -8107,7 +8107,7 @@ if
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGImage
@@ -8116,7 +8116,7 @@ SVGImage
 type
 !
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGGeometry
@@ -8168,7 +8168,7 @@ if
 type
 =
 =
-FrameType
+LayoutFrameType
 :
 :
 SVGImage
