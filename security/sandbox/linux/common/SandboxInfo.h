@@ -565,6 +565,7 @@ are
 cleared
 .
 static
+MOZ_EXPORT
 void
 ThreadingCheck
 (
