@@ -6424,6 +6424,8 @@ webrenderAttribs
 {
 LOCAL_GLX_DEPTH_SIZE
 24
+LOCAL_GLX_DOUBLEBUFFER
+True
 0
 }
 ;
