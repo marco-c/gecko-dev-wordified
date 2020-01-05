@@ -1112,6 +1112,9 @@ ServoElementSnapshot
 "
             
 "
+nsChangeHint
+"
+"
 SheetParsingMode
 "
 "
@@ -1758,6 +1761,14 @@ Cargo
 toml
 "
 )
+"
+-
+-
+features
+"
+"
+llvm_stable
+"
 "
 -
 -
