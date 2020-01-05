@@ -215,8 +215,6 @@ calllogStartDesc
 "
 )
 exec
-:
-function
 (
 args
 context
@@ -344,8 +342,6 @@ calllogStartReply
 ;
 }
 callDescription
-:
-function
 (
 frame
 )
@@ -457,8 +453,6 @@ args
 ;
 }
 valueToString
-:
-function
 (
 value
 )
@@ -533,8 +527,6 @@ calllogStopDesc
 "
 )
 exec
-:
-function
 (
 args
 context
@@ -714,8 +706,6 @@ calllogChromeSourceTypeManual
 }
 ]
 exec
-:
-function
 (
 args
 context
@@ -1176,8 +1166,6 @@ calllogChromeStartReply
 ;
 }
 valueToString
-:
-function
 (
 value
 )
@@ -1224,8 +1212,6 @@ class
 ;
 }
 callDescription
-:
-function
 (
 frame
 )
@@ -1325,8 +1311,6 @@ hiddenByChromePref
 ;
 }
 exec
-:
-function
 (
 args
 context

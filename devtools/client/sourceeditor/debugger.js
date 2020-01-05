@@ -1610,8 +1610,6 @@ push
 (
 {
 line
-:
-line
 condition
 :
 meta

@@ -174,13 +174,7 @@ type
 rpc
 "
 method
-:
-method
 params
-:
-params
-id
-:
 id
 }
 )

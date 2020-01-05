@@ -451,8 +451,6 @@ done
 *
 /
 build
-:
-function
 (
 )
 {
@@ -563,8 +561,6 @@ resolve
 (
 {
 log
-:
-log
 }
 )
 )
@@ -577,8 +573,6 @@ promise
 /
 Helpers
 buildLog
-:
-function
 (
 )
 {
@@ -627,8 +621,6 @@ entries
 ;
 }
 buildPage
-:
-function
 (
 file
 )
@@ -693,8 +685,6 @@ page
 ;
 }
 getPage
-:
-function
 (
 log
 file
@@ -758,8 +748,6 @@ page
 ;
 }
 buildEntry
-:
-function
 (
 log
 file
@@ -951,8 +939,6 @@ entry
 ;
 }
 buildPageTimings
-:
-function
 (
 page
 file
@@ -986,8 +972,6 @@ timings
 ;
 }
 buildRequest
-:
-function
 (
 file
 )
@@ -1208,8 +1192,6 @@ object
 *
 /
 buildHeaders
-:
-function
 (
 input
 )
@@ -1237,8 +1219,6 @@ headers
 ;
 }
 appendHeadersPostData
-:
-function
 (
 input
 =
@@ -1312,8 +1292,6 @@ input
 ;
 }
 buildCookies
-:
-function
 (
 input
 )
@@ -1341,8 +1319,6 @@ cookies
 ;
 }
 buildNameValuePairs
-:
-function
 (
 entries
 )
@@ -1430,8 +1406,6 @@ entry
 .
 name
 value
-:
-value
 }
 )
 ;
@@ -1446,8 +1420,6 @@ result
 ;
 }
 buildPostData
-:
-function
 (
 file
 )
@@ -1695,8 +1667,6 @@ postData
 ;
 }
 buildResponse
-:
-function
 (
 file
 )
@@ -1946,8 +1916,6 @@ response
 ;
 }
 buildContent
-:
-function
 (
 file
 )
@@ -2112,8 +2080,6 @@ content
 ;
 }
 buildCache
-:
-function
 (
 file
 )
@@ -2193,8 +2159,6 @@ cache
 ;
 }
 buildCacheEntry
-:
-function
 (
 cacheEntry
 )
@@ -2255,8 +2219,6 @@ cache
 ;
 }
 getBlockingEndTime
-:
-function
 (
 file
 )
@@ -2330,8 +2292,6 @@ waitingForTime
 RDP
 Helpers
 fetchData
-:
-function
 (
 string
 )

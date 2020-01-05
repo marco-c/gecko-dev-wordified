@@ -383,8 +383,6 @@ synthesizeMouse
 (
 {
 selector
-:
-selector
 center
 :
 true

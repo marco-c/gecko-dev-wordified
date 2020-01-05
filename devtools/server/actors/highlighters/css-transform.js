@@ -259,8 +259,6 @@ transform
 -
 "
 _buildMarkup
-:
-function
 (
 )
 {
@@ -781,8 +779,6 @@ listeners
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -807,8 +803,6 @@ destroy
 ;
 }
 getElement
-:
-function
 (
 id
 )
@@ -842,8 +836,6 @@ node
 *
 /
 _show
-:
-function
 (
 )
 {
@@ -895,8 +887,6 @@ inline
 *
 /
 _isTransformed
-:
-function
 (
 node
 )
@@ -938,8 +928,6 @@ inline
 ;
 }
 _setPolygonPoints
-:
-function
 (
 quad
 id
@@ -1018,8 +1006,6 @@ join
 ;
 }
 _setLinePoints
-:
-function
 (
 p1
 p2
@@ -1209,8 +1195,6 @@ change
 *
 /
 _update
-:
-function
 (
 )
 {
@@ -1444,8 +1428,6 @@ infobar
 *
 /
 _hide
-:
-function
 (
 )
 {
@@ -1476,8 +1458,6 @@ documentElement
 ;
 }
 _hideShapes
-:
-function
 (
 )
 {
@@ -1502,8 +1482,6 @@ true
 ;
 }
 _showShapes
-:
-function
 (
 )
 {

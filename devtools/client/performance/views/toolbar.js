@@ -372,8 +372,6 @@ view
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -464,8 +462,6 @@ popup
 *
 /
 _buildMarkersFilterPopup
-:
-function
 (
 )
 {
@@ -636,8 +632,6 @@ popup
 *
 /
 _updateHiddenMarkersPopup
-:
-function
 (
 )
 {
@@ -846,8 +840,6 @@ isEnabled
 *
 /
 _toggleExperimentalUI
-:
-function
 (
 isEnabled
 )
@@ -949,8 +941,6 @@ show
 *
 /
 _onFilterPopupShowing
-:
-function
 (
 )
 {
@@ -991,8 +981,6 @@ hide
 *
 /
 _onFilterPopupHiding
-:
-function
 (
 )
 {
@@ -1035,8 +1023,6 @@ unchecked
 *
 /
 _onHiddenMarkersChanged
-:
-function
 (
 )
 {
@@ -1126,8 +1112,6 @@ PerformanceController
 *
 /
 _onPrefChanged
-:
-function
 (
 _
 prefName

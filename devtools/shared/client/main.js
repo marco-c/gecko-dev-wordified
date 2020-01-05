@@ -2256,8 +2256,6 @@ RootActor
 *
 /
 connect
-:
-function
 (
 onConnected
 )
@@ -2440,8 +2438,6 @@ closed
 *
 /
 close
-:
-function
 (
 onClosed
 )
@@ -2743,8 +2739,6 @@ listTabs
 *
 /
 listTabs
-:
-function
 (
 onResponse
 )
@@ -2792,8 +2786,6 @@ listAddons
 *
 /
 listAddons
-:
-function
 (
 onResponse
 )
@@ -2810,8 +2802,6 @@ onResponse
 ;
 }
 getTab
-:
-function
 (
 filter
 )
@@ -2878,8 +2868,6 @@ error
 *
 /
 attachTab
-:
-function
 (
 tabActor
 onResponse
@@ -3032,8 +3020,6 @@ tabClient
 ;
 }
 attachWorker
-:
-function
 (
 workerActor
 onResponse
@@ -3236,8 +3222,6 @@ error
 *
 /
 attachAddon
-:
-function
 (
 addonActor
 onResponse
@@ -3390,8 +3374,6 @@ error
 *
 /
 attachConsole
-:
-function
 (
 consoleActor
 listeners
@@ -3412,8 +3394,6 @@ type
 "
 startListeners
 "
-listeners
-:
 listeners
 }
 ;
@@ -3579,8 +3559,6 @@ not
 *
 /
 attachThread
-:
-function
 (
 threadActor
 onResponse
@@ -3769,8 +3747,6 @@ error
 *
 /
 attachTracer
-:
-function
 (
 traceActor
 onResponse
@@ -3959,8 +3935,6 @@ is
 *
 /
 getProcess
-:
-function
 (
 id
 )
@@ -4520,8 +4494,6 @@ js
 *
 /
 request
-:
-function
 (
 packet
 onResponse
@@ -5607,8 +5579,6 @@ js
 *
 /
 startBulkRequest
-:
-function
 (
 request
 )
@@ -6227,8 +6197,6 @@ sent
 *
 /
 expectReply
-:
-function
 (
 actor
 request
@@ -6374,8 +6342,6 @@ packet
 *
 /
 onPacket
-:
-function
 (
 packet
 )
@@ -7388,8 +7354,6 @@ js
 *
 /
 onBulkPacket
-:
-function
 (
 packet
 )
@@ -7595,8 +7559,6 @@ stream
 *
 /
 onClosed
-:
-function
 (
 )
 {
@@ -8710,8 +8672,6 @@ waitForRequestsToSettle
 ;
 }
 registerClient
-:
-function
 (
 client
 )
@@ -8902,8 +8862,6 @@ client
 ;
 }
 unregisterClient
-:
-function
 (
 client
 )
@@ -9009,8 +8967,6 @@ __pools
 ;
 }
 addActorPool
-:
-function
 (
 pool
 )
@@ -9026,8 +8982,6 @@ pool
 ;
 }
 removeActorPool
-:
-function
 (
 pool
 )
@@ -9043,8 +8997,6 @@ pool
 ;
 }
 getActor
-:
-function
 (
 actorID
 )
@@ -9073,8 +9025,6 @@ null
 ;
 }
 poolFor
-:
-function
 (
 actorID
 )
@@ -9149,8 +9099,6 @@ prototype
 =
 {
 on
-:
-function
 (
 type
 listener
@@ -9167,8 +9115,6 @@ listener
 ;
 }
 off
-:
-function
 (
 type
 listener
@@ -9185,8 +9131,6 @@ listener
 ;
 }
 once
-:
-function
 (
 type
 listener
@@ -9203,8 +9147,6 @@ listener
 ;
 }
 emit
-:
-function
 (
 type
 .
@@ -9484,8 +9426,6 @@ error
 *
 /
 attachThread
-:
-function
 (
 options
 =
@@ -9661,8 +9601,6 @@ detach
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -9688,8 +9626,6 @@ packet
 ;
 }
 after
-:
-function
 (
 response
 )
@@ -9778,8 +9714,6 @@ cache
 *
 /
 reload
-:
-function
 (
 options
 =
@@ -9939,8 +9873,6 @@ listWorkers
 }
 )
 attachWorker
-:
-function
 (
 workerActor
 onResponse
@@ -10192,8 +10124,6 @@ detach
 }
 {
 after
-:
-function
 (
 response
 )
@@ -10233,8 +10163,6 @@ response
 }
 )
 attachThread
-:
-function
 (
 options
 =
@@ -10469,8 +10397,6 @@ null
 ;
 }
 _onClose
-:
-function
 (
 )
 {
@@ -10522,8 +10448,6 @@ true
 ;
 }
 reconfigure
-:
-function
 (
 )
 {
@@ -10658,8 +10582,6 @@ detach
 }
 {
 after
-:
-function
 (
 response
 )
@@ -11179,8 +11101,6 @@ tab
 *
 /
 getTab
-:
-function
 (
 filter
 )
@@ -11738,8 +11658,6 @@ _transport
 ;
 }
 _assertPaused
-:
-function
 (
 command
 )
@@ -11879,8 +11797,6 @@ arg
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -11993,8 +11909,6 @@ packet
 ;
 }
 after
-:
-function
 (
 response
 )
@@ -12169,8 +12083,6 @@ thread
 *
 /
 resume
-:
-function
 (
 onResponse
 )
@@ -12210,8 +12122,6 @@ packet
 *
 /
 resumeThenPause
-:
-function
 (
 onResponse
 )
@@ -12257,8 +12167,6 @@ packet
 *
 /
 stepOver
-:
-function
 (
 onResponse
 )
@@ -12304,8 +12212,6 @@ packet
 *
 /
 stepIn
-:
-function
 (
 onResponse
 )
@@ -12352,8 +12258,6 @@ packet
 *
 /
 stepOut
-:
-function
 (
 onResponse
 )
@@ -12399,8 +12303,6 @@ packet
 *
 /
 interrupt
-:
-function
 (
 onResponse
 )
@@ -12445,8 +12347,6 @@ packet
 *
 /
 breakOnNext
-:
-function
 (
 onResponse
 )
@@ -12557,8 +12457,6 @@ packet
 *
 /
 pauseOnExceptions
-:
-function
 (
 pauseOnExceptions
 ignoreCaughtExceptions
@@ -12766,8 +12664,6 @@ loop
 *
 /
 pauseOnDOMEvents
-:
-function
 (
 events
 onResponse
@@ -12992,8 +12888,6 @@ arg
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -13050,8 +12944,6 @@ packet
 ;
 }
 after
-:
-function
 (
 response
 )
@@ -13129,8 +13021,6 @@ detach
 }
 {
 after
-:
-function
 (
 response
 )
@@ -13401,8 +13291,6 @@ sent
 *
 /
 _clearScripts
-:
-function
 (
 )
 {
@@ -13738,8 +13626,6 @@ expected
 *
 /
 fillFrames
-:
-function
 (
 total
 callback
@@ -13987,8 +13873,6 @@ sent
 *
 /
 _clearFrames
-:
-function
 (
 )
 {
@@ -14055,8 +13939,6 @@ protocol
 *
 /
 pauseGrip
-:
-function
 (
 grip
 )
@@ -14171,8 +14053,6 @@ in
 *
 /
 _longString
-:
-function
 (
 grip
 gripCacheName
@@ -14272,8 +14152,6 @@ protocol
 *
 /
 pauseLongString
-:
-function
 (
 grip
 )
@@ -14332,8 +14210,6 @@ protocol
 *
 /
 threadLongString
-:
-function
 (
 grip
 )
@@ -14386,8 +14262,6 @@ clear
 *
 /
 _clearObjectClients
-:
-function
 (
 gripCacheName
 )
@@ -14448,8 +14322,6 @@ clients
 *
 /
 _clearPauseGrips
-:
-function
 (
 )
 {
@@ -14486,8 +14358,6 @@ clients
 *
 /
 _clearThreadGrips
-:
-function
 (
 )
 {
@@ -14523,8 +14393,6 @@ listeners
 *
 /
 _onThreadState
-:
-function
 (
 packet
 )
@@ -14642,8 +14510,6 @@ packet
 ;
 }
 getLastPausePacket
-:
-function
 (
 )
 {
@@ -14671,8 +14537,6 @@ form
 *
 /
 environment
-:
-function
 (
 form
 )
@@ -14707,8 +14571,6 @@ form
 *
 /
 source
-:
-function
 (
 form
 )
@@ -15043,8 +14905,6 @@ detach
 }
 {
 after
-:
-function
 (
 response
 )
@@ -15150,8 +15010,6 @@ arg
 }
 {
 after
-:
-function
 (
 response
 )
@@ -15285,8 +15143,6 @@ arg
 }
 {
 after
-:
-function
 (
 response
 )
@@ -15490,8 +15346,6 @@ definitionSite
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -15605,8 +15459,6 @@ parameterNames
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -15887,8 +15739,6 @@ arg
 }
 {
 after
-:
-function
 (
 response
 )
@@ -15974,8 +15824,6 @@ enumEntries
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -16034,8 +15882,6 @@ packet
 ;
 }
 after
-:
-function
 (
 response
 )
@@ -16254,8 +16100,6 @@ scope
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -16329,8 +16173,6 @@ dependentPromises
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -16408,8 +16250,6 @@ allocationStack
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -16484,8 +16324,6 @@ fulfillmentStack
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -16563,8 +16401,6 @@ rejectionStack
 }
 {
 before
-:
-function
 (
 packet
 )
@@ -17419,8 +17255,6 @@ blackbox
 }
 {
 after
-:
-function
 (
 response
 )
@@ -17516,8 +17350,6 @@ unblackbox
 }
 {
 after
-:
-function
 (
 response
 )
@@ -17595,8 +17427,6 @@ server
 *
 /
 getExecutableLines
-:
-function
 (
 cb
 =
@@ -17672,8 +17502,6 @@ source
 *
 /
 source
-:
-function
 (
 callback
 =
@@ -17742,8 +17570,6 @@ text
 *
 /
 prettyPrint
-:
-function
 (
 indent
 callback
@@ -17850,8 +17676,6 @@ text
 *
 /
 disablePrettyPrint
-:
-function
 (
 callback
 =
@@ -17941,8 +17765,6 @@ callback
 ;
 }
 _onSourceResponse
-:
-function
 (
 response
 callback
@@ -18051,8 +17873,6 @@ resp
 .
 substring
 contentType
-:
-contentType
 }
 ;
 callback
@@ -18123,8 +17943,6 @@ response
 *
 /
 setBreakpoint
-:
-function
 (
 {
 line
@@ -18741,8 +18559,6 @@ condition
 *
 /
 hasCondition
-:
-function
 (
 )
 {
@@ -18860,8 +18676,6 @@ code
 *
 /
 getCondition
-:
-function
 (
 )
 {
@@ -18908,8 +18722,6 @@ breakpoint
 *
 /
 setCondition
-:
-function
 (
 gThreadClient
 condition
@@ -18960,8 +18772,6 @@ this
 location
 .
 column
-condition
-:
 condition
 }
 ;

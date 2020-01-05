@@ -809,8 +809,6 @@ string
 )
 }
 getDefaultProps
-:
-function
 (
 )
 {
@@ -842,8 +840,6 @@ columns
 ;
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -870,8 +866,6 @@ columns
 ;
 }
 componentWillReceiveProps
-:
-function
 (
 nextProps
 )
@@ -910,8 +904,6 @@ expand
 /
 collapse
 toggle
-:
-function
 (
 nodePath
 )
@@ -986,8 +978,6 @@ nodes
 ;
 }
 isExpanded
-:
-function
 (
 nodePath
 )
@@ -1010,8 +1000,6 @@ nodePath
 Event
 Handlers
 onClickRow
-:
-function
 (
 nodePath
 event
@@ -1071,8 +1059,6 @@ false
 *
 /
 onFilter
-:
-function
 (
 object
 )
@@ -1098,8 +1084,6 @@ true
 ;
 }
 onSort
-:
-function
 (
 parent
 children
@@ -1153,8 +1137,6 @@ object
 *
 /
 getMembers
-:
-function
 (
 parent
 level
@@ -1479,8 +1461,6 @@ CSS
 customization
 )
 type
-:
-type
 /
 /
 Class
@@ -1514,8 +1494,6 @@ top
 0
 )
 level
-:
-level
 /
 /
 True
@@ -1525,8 +1503,6 @@ node
 has
 children
 .
-hasChildren
-:
 hasChildren
 /
 /
@@ -1543,8 +1519,6 @@ the
 data
 provider
 )
-value
-:
 value
 /
 /
@@ -1611,8 +1585,6 @@ nodes
 *
 /
 renderRows
-:
-function
 (
 parent
 level
@@ -1779,8 +1751,6 @@ key
 member
 .
 path
-member
-:
 member
 columns
 :
@@ -1966,8 +1936,6 @@ rows
 ;
 }
 render
-:
-function
 (
 )
 {

@@ -521,8 +521,6 @@ synthesizeMouse
 (
 {
 selector
-:
-selector
 options
 :
 {

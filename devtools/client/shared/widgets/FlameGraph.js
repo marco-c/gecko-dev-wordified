@@ -1672,8 +1672,6 @@ data
 *
 /
 ready
-:
-function
 (
 )
 {
@@ -2119,8 +2117,6 @@ px
 *
 /
 setData
-:
-function
 (
 {
 data
@@ -2251,8 +2247,6 @@ boolean
 *
 /
 hasData
-:
-function
 (
 )
 {
@@ -2294,8 +2288,6 @@ end
 *
 /
 setOuterBounds
-:
-function
 (
 {
 startTime
@@ -2362,8 +2354,6 @@ number
 *
 /
 setViewRange
-:
-function
 (
 {
 startTime
@@ -2441,8 +2431,6 @@ number
 *
 /
 getOuterBounds
-:
-function
 (
 )
 {
@@ -2502,8 +2490,6 @@ number
 *
 /
 getViewRange
-:
-function
 (
 )
 {
@@ -2558,8 +2544,6 @@ window
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -2604,8 +2588,6 @@ everything
 *
 /
 refresh
-:
-function
 (
 options
 =
@@ -2850,8 +2832,6 @@ effects
 *
 /
 setTheme
-:
-function
 (
 theme
 )
@@ -3010,8 +2990,6 @@ driver
 *
 /
 _onAnimationFrame
-:
-function
 (
 )
 {
@@ -3069,8 +3047,6 @@ etc
 *
 /
 _drawWidget
-:
-function
 (
 )
 {
@@ -3399,8 +3375,6 @@ keyboard
 *
 /
 _keyboardUpdateLoop
-:
-function
 (
 )
 {
@@ -3979,8 +3953,6 @@ visualization
 *
 /
 _drawHeader
-:
-function
 (
 dataOffset
 dataScale
@@ -4115,8 +4087,6 @@ visualization
 *
 /
 _drawTicks
-:
-function
 (
 dataOffset
 dataScale
@@ -4428,8 +4398,6 @@ visualization
 *
 /
 _drawPyramid
-:
-function
 (
 dataSource
 verticalOffset
@@ -4534,8 +4502,6 @@ _drawPyramid
 *
 /
 _drawPyramidFill
-:
-function
 (
 dataSource
 verticalOffset
@@ -4612,8 +4578,6 @@ _drawPyramid
 *
 /
 _drawPyramidText
-:
-function
 (
 blocksInfo
 verticalOffset
@@ -4799,8 +4763,6 @@ visibleBlocksInfoStore
 *
 /
 _drawBlocksFill
-:
-function
 (
 color
 blocks
@@ -5075,8 +5037,6 @@ push
 (
 {
 block
-:
-block
 rect
 :
 {
@@ -5233,8 +5193,6 @@ visualization
 *
 /
 _drawBlockText
-:
-function
 (
 block
 rect
@@ -5531,8 +5489,6 @@ width
 *
 /
 _getTextWidth
-:
-function
 (
 text
 )
@@ -5629,8 +5585,6 @@ width
 *
 /
 _getTextWidthApprox
-:
-function
 (
 text
 )
@@ -5697,8 +5651,6 @@ width
 *
 /
 _calcAverageCharWidth
-:
-function
 (
 )
 {
@@ -5837,8 +5789,6 @@ text
 *
 /
 _getFittedText
-:
-function
 (
 text
 maxWidth
@@ -5970,8 +5920,6 @@ container
 *
 /
 _onKeyDown
-:
-function
 (
 e
 )
@@ -6068,8 +6016,6 @@ container
 *
 /
 _onKeyUp
-:
-function
 (
 e
 )
@@ -6139,8 +6085,6 @@ container
 *
 /
 _onKeyPress
-:
-function
 (
 e
 )
@@ -6174,8 +6118,6 @@ container
 *
 /
 _onMouseMove
-:
-function
 (
 e
 )
@@ -6572,8 +6514,6 @@ container
 *
 /
 _onMouseDown
-:
-function
 (
 e
 )
@@ -6697,8 +6637,6 @@ container
 *
 /
 _onMouseUp
-:
-function
 (
 )
 {
@@ -6775,8 +6713,6 @@ container
 *
 /
 _onMouseWheel
-:
-function
 (
 e
 )
@@ -6980,8 +6916,6 @@ width
 *
 /
 _normalizeSelectionBounds
-:
-function
 (
 )
 {
@@ -7155,8 +7089,6 @@ range
 *
 /
 _normalizeVerticalOffset
-:
-function
 (
 )
 {
@@ -7203,8 +7135,6 @@ number
 *
 /
 _findOptimalTickInterval
-:
-function
 (
 dataScale
 )
@@ -7324,8 +7254,6 @@ offset
 *
 /
 _getContainerOffset
-:
-function
 (
 )
 {
@@ -7408,8 +7336,6 @@ mouseY
 *
 /
 _getRelativeEventCoordinates
-:
-function
 (
 e
 )
@@ -7545,8 +7471,6 @@ node
 *
 /
 _onResize
-:
-function
 (
 )
 {
@@ -7706,8 +7630,6 @@ FlameGraph
 *
 /
 createFlameGraphDataFromThread
-:
-function
 (
 thread
 options
@@ -8896,8 +8818,6 @@ source
 *
 /
 removeFromCache
-:
-function
 (
 source
 )
@@ -8942,8 +8862,6 @@ number
 *
 /
 _getStringHash
-:
-function
 (
 input
 )
@@ -9059,8 +8977,6 @@ string
 *
 /
 _formatLabel
-:
-function
 (
 key
 frame

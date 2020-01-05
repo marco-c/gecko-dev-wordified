@@ -133,8 +133,6 @@ FrontClassWithSpec
 frameSnapshotSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -398,8 +396,6 @@ FrontClassWithSpec
 canvasSpec
 {
 initialize
-:
-function
 (
 client
 {

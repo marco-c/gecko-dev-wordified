@@ -571,8 +571,6 @@ jsbUnescapeStringsManual
 }
 ]
 exec
-:
-function
 (
 args
 context

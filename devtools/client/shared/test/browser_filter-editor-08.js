@@ -546,8 +546,6 @@ modifier
 :
 true
 preventDefault
-:
-function
 (
 )
 {

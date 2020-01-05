@@ -653,25 +653,11 @@ colorUtils
 =
 {
 CssColor
-:
-CssColor
-rgbToHsl
-:
 rgbToHsl
 setAlpha
-:
-setAlpha
-classifyColor
-:
 classifyColor
 rgbToColorName
-:
-rgbToColorName
 colorToRGBA
-:
-colorToRGBA
-isValidCSSColor
-:
 isValidCSSColor
 }
 ;
@@ -784,8 +770,6 @@ cssColor4
 :
 false
 _setColorUnitUppercase
-:
-function
 (
 color
 )
@@ -978,8 +962,6 @@ use
 *
 /
 setAuthoredUnitFromColor
-:
-function
 (
 color
 )
@@ -2229,8 +2211,6 @@ special
 *
 /
 _getInvalidOrSpecialValue
-:
-function
 (
 )
 {
@@ -2285,8 +2265,6 @@ string
 *
 /
 newColor
-:
-function
 (
 color
 )
@@ -2355,8 +2333,6 @@ this
 ;
 }
 nextColorUnit
-:
-function
 (
 )
 {
@@ -2518,8 +2494,6 @@ COLOR_UNIT_PREF
 *
 /
 toString
-:
-function
 (
 )
 {
@@ -2672,8 +2646,6 @@ appropriate
 *
 /
 _getRGBATuple
-:
-function
 (
 )
 {
@@ -2711,8 +2683,6 @@ tuple
 ;
 }
 _hsl
-:
-function
 (
 maybeAlpha
 )
@@ -2867,8 +2837,6 @@ using
 *
 /
 valueOf
-:
-function
 (
 )
 {

@@ -246,8 +246,6 @@ binding
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -503,8 +501,6 @@ events
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -637,8 +633,6 @@ milliseconds
 *
 /
 render
-:
-function
 (
 interval
 =
@@ -755,8 +749,6 @@ view
 *
 /
 _onMarkerSelected
-:
-function
 (
 event
 marker
@@ -861,8 +853,6 @@ resized
 *
 /
 _onResize
-:
-function
 (
 )
 {
@@ -909,8 +899,6 @@ changed
 *
 /
 _onObservedPrefChange
-:
-function
 (
 _
 prefName
@@ -977,8 +965,6 @@ source
 *
 /
 _onViewSource
-:
-function
 (
 _
 data
@@ -1016,8 +1002,6 @@ allocations
 *
 /
 _onShowAllocations
-:
-function
 (
 _
 data
@@ -1265,8 +1249,6 @@ tree
 *
 /
 _prepareWaterfallTree
-:
-function
 (
 markers
 )
@@ -1371,8 +1353,6 @@ resized
 *
 /
 _recalculateBounds
-:
-function
 (
 )
 {
@@ -1407,8 +1387,6 @@ tree
 *
 /
 _populateWaterfallTree
-:
-function
 (
 rootMarkerNode
 interval

@@ -117,8 +117,6 @@ FrontClassWithSpec
 promisesSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -154,8 +152,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {

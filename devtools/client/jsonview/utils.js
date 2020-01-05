@@ -663,8 +663,6 @@ createObjectIn
 win
 {
 defineAs
-:
-defineAs
 }
 )
 ;

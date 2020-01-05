@@ -1355,8 +1355,6 @@ deflateThread
 (
 {
 samples
-:
-samples
 markers
 :
 [

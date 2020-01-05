@@ -1145,8 +1145,6 @@ indentUnit
 :
 tabSize
 tabSize
-:
-tabSize
 contextMenu
 :
 null
@@ -2007,8 +2005,6 @@ promise
 *
 /
 appendTo
-:
-function
 (
 el
 env
@@ -2264,8 +2260,6 @@ promise
 ;
 }
 appendToLocalElement
-:
-function
 (
 el
 )
@@ -2325,8 +2319,6 @@ etc
 *
 /
 _setup
-:
-function
 (
 el
 doc
@@ -3065,8 +3057,6 @@ head
 =
 {
 line
-:
-line
 ch
 :
 0
@@ -3076,8 +3066,6 @@ let
 tail
 =
 {
-line
-:
 line
 ch
 :
@@ -3362,8 +3350,6 @@ cases
 *
 /
 isAppended
-:
-function
 (
 )
 {
@@ -3403,8 +3389,6 @@ modes
 *
 /
 getMode
-:
-function
 (
 )
 {
@@ -3436,8 +3420,6 @@ window
 *
 /
 loadScript
-:
-function
 (
 url
 )
@@ -3512,8 +3494,6 @@ Doc
 *
 /
 createDocument
-:
-function
 (
 )
 {
@@ -3544,8 +3524,6 @@ document
 *
 /
 replaceDocument
-:
-function
 (
 doc
 )
@@ -3598,8 +3576,6 @@ modes
 *
 /
 setMode
-:
-function
 (
 value
 )
@@ -3702,8 +3678,6 @@ line
 *
 /
 getText
-:
-function
 (
 line
 )
@@ -3785,8 +3759,6 @@ argument
 *
 /
 setText
-:
-function
 (
 value
 )
@@ -3848,8 +3820,6 @@ change
 *
 /
 reloadPreferences
-:
-function
 (
 )
 {
@@ -4001,8 +3971,6 @@ should
 *
 /
 resetIndentUnit
-:
-function
 (
 )
 {
@@ -4153,8 +4121,6 @@ needed
 *
 /
 replaceText
-:
-function
 (
 value
 from
@@ -4257,8 +4223,6 @@ necessary
 *
 /
 insertText
-:
-function
 (
 value
 at
@@ -4298,8 +4262,6 @@ area
 *
 /
 dropSelection
-:
-function
 (
 )
 {
@@ -4348,8 +4310,6 @@ editor
 *
 /
 hasMultipleSelections
-:
-function
 (
 )
 {
@@ -4392,8 +4352,6 @@ editor
 *
 /
 getFirstVisibleLine
-:
-function
 (
 )
 {
@@ -4441,8 +4399,6 @@ line
 *
 /
 setFirstVisibleLine
-:
-function
 (
 line
 )
@@ -4467,8 +4423,6 @@ cm
 charCoords
 (
 {
-line
-:
 line
 ch
 :
@@ -4539,8 +4493,6 @@ value
 *
 /
 setCursor
-:
-function
 (
 {
 line
@@ -4573,10 +4525,6 @@ setCursor
 (
 {
 line
-:
-line
-ch
-:
 ch
 }
 )
@@ -4632,8 +4580,6 @@ bottom
 *
 /
 alignLine
-:
-function
 (
 line
 align
@@ -4898,8 +4844,6 @@ gutter
 *
 /
 hasMarker
-:
-function
 (
 line
 gutterName
@@ -4978,8 +4922,6 @@ list
 *
 /
 addMarker
-:
-function
 (
 line
 gutterName
@@ -5117,8 +5059,6 @@ gutter
 *
 /
 removeMarker
-:
-function
 (
 line
 gutterName
@@ -5213,8 +5153,6 @@ marker
 *
 /
 addContentMarker
-:
-function
 (
 line
 gutterName
@@ -5317,8 +5255,6 @@ gutter
 *
 /
 removeContentMarker
-:
-function
 (
 line
 gutterName
@@ -5366,8 +5302,6 @@ null
 ;
 }
 getMarker
-:
-function
 (
 line
 gutterName
@@ -5446,8 +5380,6 @@ name
 *
 /
 removeAllMarkers
-:
-function
 (
 gutterName
 )
@@ -5553,8 +5485,6 @@ markers
 *
 /
 setMarkerListeners
-:
-function
 (
 line
 gutterName
@@ -5657,8 +5587,6 @@ name
 *
 /
 hasLineClass
-:
-function
 (
 line
 className
@@ -5743,8 +5671,6 @@ gutter
 *
 /
 addLineClass
-:
-function
 (
 line
 className
@@ -5784,8 +5710,6 @@ addLineClass
 *
 /
 removeLineClass
-:
-function
 (
 line
 className
@@ -5861,8 +5785,6 @@ mark
 *
 /
 markText
-:
-function
 (
 from
 to
@@ -6029,8 +5951,6 @@ array
 *
 /
 getPosition
-:
-function
 (
 .
 .
@@ -6119,8 +6039,6 @@ otherwise
 *
 /
 getOffset
-:
-function
 (
 .
 .
@@ -6196,8 +6114,6 @@ coordinates
 *
 /
 getPositionFromCoords
-:
-function
 (
 {
 left
@@ -6222,10 +6138,6 @@ coordsChar
 (
 {
 left
-:
-left
-top
-:
 top
 }
 )
@@ -6262,8 +6174,6 @@ number
 *
 /
 getCoordsFromPosition
-:
-function
 (
 {
 line
@@ -6321,8 +6231,6 @@ otherwise
 *
 /
 canUndo
-:
-function
 (
 )
 {
@@ -6368,8 +6276,6 @@ otherwise
 *
 /
 canRedo
-:
-function
 (
 )
 {
@@ -6415,8 +6321,6 @@ number
 *
 /
 setClean
-:
-function
 (
 )
 {
@@ -6494,8 +6398,6 @@ version
 *
 /
 isClean
-:
-function
 (
 )
 {
@@ -6553,8 +6455,6 @@ line
 *
 /
 jumpToLine
-:
-function
 (
 )
 {
@@ -6887,8 +6787,6 @@ line
 *
 /
 moveLineUp
-:
-function
 (
 )
 {
@@ -7179,8 +7077,6 @@ line
 *
 /
 moveLineDown
-:
-function
 (
 )
 {
@@ -7471,8 +7367,6 @@ input
 *
 /
 findOrReplace
-:
-function
 (
 node
 isReplaceAll
@@ -7678,8 +7572,6 @@ search
 *
 /
 findNextOrPrev
-:
-function
 (
 node
 isFindPrev
@@ -7882,8 +7774,6 @@ pixels
 *
 /
 getFontSize
-:
-function
 (
 )
 {
@@ -7952,8 +7842,6 @@ area
 *
 /
 setFontSize
-:
-function
 (
 size
 )
@@ -8031,8 +7919,6 @@ instance
 *
 /
 setOption
-:
-function
 (
 o
 v
@@ -8217,8 +8103,6 @@ instance
 *
 /
 getOption
-:
-function
 (
 o
 )
@@ -8336,8 +8220,6 @@ off
 *
 /
 setupAutoCompletion
-:
-function
 (
 )
 {
@@ -8556,8 +8438,6 @@ Mozilla
 *
 /
 extend
-:
-function
 (
 funcs
 )
@@ -8593,10 +8473,6 @@ ed
 :
 this
 cm
-:
-cm
-Editor
-:
 Editor
 }
 ;
@@ -8643,8 +8519,6 @@ ctx
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -8777,8 +8651,6 @@ destroy
 ;
 }
 updateCodeFoldingGutter
-:
-function
 (
 )
 {
@@ -9017,8 +8889,6 @@ shortcuts
 *
 /
 _initShortcuts
-:
-function
 (
 win
 )
@@ -9166,8 +9036,6 @@ listener
 *
 /
 _onShortcut
-:
-function
 (
 name
 event
@@ -9373,8 +9241,6 @@ textarea
 *
 /
 _isInputOrTextarea
-:
-function
 (
 element
 )
@@ -9953,10 +9819,6 @@ keySet
 propertyKeywords
 )
 colorKeywords
-:
-colorKeywords
-valueKeywords
-:
 valueKeywords
 }
 ;

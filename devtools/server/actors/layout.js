@@ -258,8 +258,6 @@ element
 *
 /
 initialize
-:
-function
 (
 layoutActor
 containerEl
@@ -295,8 +293,6 @@ walker
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -331,8 +327,6 @@ null
 ;
 }
 form
-:
-function
 (
 detail
 )
@@ -447,8 +441,6 @@ ActorClassWithSpec
 layoutSpec
 {
 initialize
-:
-function
 (
 conn
 tabActor
@@ -509,8 +501,6 @@ onNavigate
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -609,8 +599,6 @@ objects
 *
 /
 getGrids
-:
-function
 (
 rootNode
 )
@@ -757,8 +745,6 @@ objects
 *
 /
 getAllGrids
-:
-function
 (
 rootNode
 traverseFrames
@@ -827,8 +813,6 @@ grids
 ;
 }
 onNavigate
-:
-function
 (
 )
 {

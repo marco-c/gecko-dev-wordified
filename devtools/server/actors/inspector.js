@@ -1639,8 +1639,6 @@ ActorClassWithSpec
 nodeSpec
 {
 initialize
-:
-function
 (
 walker
 node
@@ -1710,8 +1708,6 @@ isDisplayed
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1779,8 +1775,6 @@ conn
 ;
 }
 isDocumentElement
-:
-function
 (
 )
 {
@@ -1808,8 +1802,6 @@ rawNode
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1889,8 +1881,6 @@ the
 wire
 .
 form
-:
-function
 (
 detail
 )
@@ -2276,8 +2266,6 @@ API
 *
 /
 watchDocument
-:
-function
 (
 callback
 )
@@ -2876,8 +2864,6 @@ false
 ;
 }
 writeAttrs
-:
-function
 (
 )
 {
@@ -2937,8 +2923,6 @@ value
 ;
 }
 writePseudoClassLocks
-:
-function
 (
 )
 {
@@ -3046,8 +3030,6 @@ listeners
 *
 /
 getEventListeners
-:
-function
 (
 node
 )
@@ -3379,8 +3361,6 @@ false
 *
 /
 processHandlerForEvent
-:
-function
 (
 node
 listenerArray
@@ -4347,8 +4327,6 @@ value
 *
 /
 getNodeValue
-:
-function
 (
 )
 {
@@ -4389,8 +4367,6 @@ string
 *
 /
 setNodeValue
-:
-function
 (
 value
 )
@@ -4420,8 +4396,6 @@ node
 *
 /
 getUniqueSelector
-:
-function
 (
 )
 {
@@ -4465,8 +4439,6 @@ view
 *
 /
 scrollIntoView
-:
-function
 (
 )
 {
@@ -4601,8 +4573,6 @@ smaller
 *
 /
 getImageData
-:
-function
 (
 maxDim
 )
@@ -4664,8 +4634,6 @@ node
 *
 /
 getEventListenerInfo
-:
-function
 (
 )
 {
@@ -4852,8 +4820,6 @@ made
 *
 /
 modifyAttributes
-:
-function
 (
 modifications
 )
@@ -5023,8 +4989,6 @@ uri
 *
 /
 getFontFamilyDataURL
-:
-function
 (
 font
 fillStyle
@@ -5054,8 +5018,6 @@ previewFontSize
 :
 FONT_FAMILY_PREVIEW_TEXT_SIZE
 fillStyle
-:
-fillStyle
 }
 ;
 let
@@ -5082,8 +5044,6 @@ this
 conn
 dataURL
 )
-size
-:
 size
 }
 ;
@@ -5128,8 +5088,6 @@ typeName
 domnodelist
 "
 initialize
-:
-function
 (
 walker
 nodeList
@@ -5166,8 +5124,6 @@ nodeList
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -5240,8 +5196,6 @@ walker
 *
 /
 marshallPool
-:
-function
 (
 )
 {
@@ -5265,8 +5219,6 @@ the
 wire
 .
 form
-:
-function
 (
 )
 {
@@ -5309,8 +5261,6 @@ list
 *
 /
 item
-:
-function
 (
 index
 )
@@ -5349,8 +5299,6 @@ list
 *
 /
 items
-:
-function
 (
 start
 =
@@ -5409,8 +5357,6 @@ items
 ;
 }
 release
-:
-function
 (
 )
 {
@@ -5459,8 +5405,6 @@ connection
 *
 /
 initialize
-:
-function
 (
 conn
 tabActor
@@ -5838,8 +5782,6 @@ nsIEventListenerChange
 *
 /
 _onEventListenerChange
-:
-function
 (
 changesEnum
 )
@@ -5952,8 +5894,6 @@ the
 wire
 .
 form
-:
-function
 (
 )
 {
@@ -6093,8 +6033,6 @@ true
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -6114,8 +6052,6 @@ actorID
 ;
 }
 getDocumentWalker
-:
-function
 (
 node
 whatToShow
@@ -6162,8 +6098,6 @@ nodeFilter
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -6406,15 +6340,11 @@ e
 }
 }
 release
-:
-function
 (
 )
 {
 }
 unmanage
-:
-function
 (
 actor
 )
@@ -6508,8 +6438,6 @@ Boolean
 *
 /
 hasNode
-:
-function
 (
 rawNode
 )
@@ -6561,8 +6489,6 @@ NodeActor
 *
 /
 getNode
-:
-function
 (
 rawNode
 )
@@ -6579,8 +6505,6 @@ rawNode
 ;
 }
 _ref
-:
-function
 (
 node
 )
@@ -6680,8 +6604,6 @@ actor
 ;
 }
 _onReflows
-:
-function
 (
 reflows
 )
@@ -6828,8 +6750,6 @@ front
 *
 /
 _onResize
-:
-function
 (
 )
 {
@@ -7020,22 +6940,16 @@ targets
 *
 /
 pick
-:
-function
 (
 )
 {
 }
 cancelPick
-:
-function
 (
 )
 {
 }
 highlight
-:
-function
 (
 node
 )
@@ -7089,8 +7003,6 @@ type
 *
 /
 attachElement
-:
-function
 (
 node
 )
@@ -7118,8 +7030,6 @@ nodes
 [
 0
 ]
-newParents
-:
 newParents
 }
 ;
@@ -7176,8 +7086,6 @@ type
 *
 /
 attachElements
-:
-function
 (
 nodes
 )
@@ -7393,8 +7301,6 @@ root
 *
 /
 document
-:
-function
 (
 node
 )
@@ -7466,8 +7372,6 @@ document
 *
 /
 documentElement
-:
-function
 (
 node
 )
@@ -7581,8 +7485,6 @@ docshells
 *
 /
 parents
-:
-function
 (
 node
 options
@@ -7708,8 +7610,6 @@ parents
 ;
 }
 parentNode
-:
-function
 (
 node
 )
@@ -7795,8 +7695,6 @@ node
 *
 /
 inlineTextChild
-:
-function
 (
 node
 )
@@ -8087,8 +7985,6 @@ means
 *
 /
 retainNode
-:
-function
 (
 node
 )
@@ -8128,8 +8024,6 @@ it
 *
 /
 unretainNode
-:
-function
 (
 node
 )
@@ -8187,8 +8081,6 @@ nodes
 *
 /
 releaseNode
-:
-function
 (
 node
 options
@@ -8356,8 +8248,6 @@ client
 *
 /
 ensurePathToRoot
-:
-function
 (
 node
 newParents
@@ -8717,8 +8607,6 @@ request
 *
 /
 children
-:
-function
 (
 node
 options
@@ -9227,8 +9115,6 @@ rawNode
 =
 lastChild
 nodes
-:
-nodes
 }
 ;
 }
@@ -9493,8 +9379,6 @@ request
 *
 /
 siblings
-:
-function
 (
 node
 options
@@ -9679,8 +9563,6 @@ NodeFilter
 *
 /
 nextSibling
-:
-function
 (
 node
 options
@@ -9813,8 +9695,6 @@ NodeFilter
 *
 /
 previousSibling
-:
-function
 (
 node
 options
@@ -9904,8 +9784,6 @@ node
 *
 /
 _readForward
-:
-function
 (
 walker
 count
@@ -9993,8 +9871,6 @@ node
 *
 /
 _readBackward
-:
-function
 (
 walker
 count
@@ -10110,8 +9986,6 @@ selector
 *
 /
 querySelector
-:
-function
 (
 baseNode
 selector
@@ -10215,8 +10089,6 @@ selector
 *
 /
 querySelectorAll
-:
-function
 (
 baseNode
 selector
@@ -10312,8 +10184,6 @@ Array
 *
 /
 _multiFrameQuerySelectorAll
-:
-function
 (
 selector
 )
@@ -10420,8 +10290,6 @@ selector
 *
 /
 multiFrameQuerySelectorAll
-:
-function
 (
 selector
 )
@@ -10515,8 +10383,6 @@ list
 *
 /
 search
-:
-function
 (
 query
 )
@@ -10630,8 +10496,6 @@ null
 *
 /
 getSuggestionsForQuery
-:
-function
 (
 query
 completing
@@ -11682,8 +11546,6 @@ slice
 return
 {
 query
-:
-query
 suggestions
 :
 result
@@ -11777,8 +11639,6 @@ nodes
 *
 /
 addPseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -11918,8 +11778,6 @@ pseudo
 }
 }
 _queuePseudoClassMutation
-:
-function
 (
 node
 )
@@ -11951,8 +11809,6 @@ writePseudoClassLocks
 ;
 }
 _addPseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -12010,8 +11866,6 @@ true
 ;
 }
 _installHelperSheet
-:
-function
 (
 node
 )
@@ -12126,8 +11980,6 @@ style
 }
 }
 hideNode
-:
-function
 (
 node
 )
@@ -12163,8 +12015,6 @@ HIDDEN_CLASS
 ;
 }
 unhideNode
-:
-function
 (
 node
 )
@@ -12278,8 +12128,6 @@ nodes
 *
 /
 removePseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -12442,8 +12290,6 @@ pseudo
 }
 }
 _removePseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -12545,8 +12391,6 @@ on
 *
 /
 clearPseudoClassLocks
-:
-function
 (
 node
 )
@@ -12651,8 +12495,6 @@ property
 *
 /
 innerHTML
-:
-function
 (
 node
 )
@@ -12728,8 +12570,6 @@ content
 *
 /
 setInnerHTML
-:
-function
 (
 node
 value
@@ -12816,8 +12656,6 @@ node
 *
 /
 outerHTML
-:
-function
 (
 node
 )
@@ -12893,8 +12731,6 @@ content
 *
 /
 setOuterHTML
-:
-function
 (
 node
 value
@@ -13332,8 +13168,6 @@ content
 *
 /
 insertAdjacentHTML
-:
-function
 (
 node
 position
@@ -13739,8 +13573,6 @@ duplicate
 *
 /
 duplicateNode
-:
-function
 (
 {
 rawNode
@@ -13818,8 +13650,6 @@ element
 *
 /
 isDocumentOrDocumentElementNode
-:
-function
 (
 node
 )
@@ -13905,8 +13735,6 @@ removed
 *
 /
 removeNode
-:
-function
 (
 node
 )
@@ -14008,8 +13836,6 @@ remove
 *
 /
 removeNodes
-:
-function
 (
 nodes
 )
@@ -14111,8 +13937,6 @@ DOM
 *
 /
 insertBefore
-:
-function
 (
 node
 parent
@@ -14317,8 +14141,6 @@ changes
 *
 /
 editTagName
-:
-function
 (
 node
 tagName
@@ -14916,8 +14738,6 @@ request
 *
 /
 getMutations
-:
-function
 (
 options
 =
@@ -15007,8 +14827,6 @@ pending
 ;
 }
 queueMutation
-:
-function
 (
 mutation
 )
@@ -15157,8 +14975,6 @@ MutationRecord
 *
 /
 onMutations
-:
-function
 (
 mutations
 )
@@ -15268,8 +15084,6 @@ let
 mutation
 =
 {
-type
-:
 type
 target
 :
@@ -15742,8 +15556,6 @@ mutation
 *
 /
 _maybeQueueInlineTextChildMutation
-:
-function
 (
 mutation
 )
@@ -15923,8 +15735,6 @@ undefined
 ;
 }
 onFrameLoad
-:
-function
 (
 {
 window
@@ -16199,8 +16009,6 @@ a
 subframe
 .
 _childOfWindow
-:
-function
 (
 window
 domNode
@@ -16247,8 +16055,6 @@ false
 ;
 }
 onFrameUnload
-:
-function
 (
 {
 window
@@ -16618,8 +16424,6 @@ fragment
 *
 /
 _isInDOMTree
-:
-function
 (
 rawNode
 )
@@ -16742,8 +16546,6 @@ _isInDomTree
 *
 /
 isInDOMTree
-:
-function
 (
 node
 )
@@ -16804,8 +16606,6 @@ NodeActor
 *
 /
 getNodeActorFromObjectActor
-:
-function
 (
 objectActorID
 )
@@ -16983,8 +16783,6 @@ instead
 *
 /
 getStyleSheetOwnerNode
-:
-function
 (
 styleSheetActorID
 )
@@ -17306,8 +17104,6 @@ found
 *
 /
 getNodeFromActor
-:
-function
 (
 actorID
 path
@@ -17410,8 +17206,6 @@ LayoutActor
 *
 /
 getLayoutInspector
-:
-function
 (
 )
 {
@@ -17486,8 +17280,6 @@ ActorClassWithSpec
 inspectorSpec
 {
 initialize
-:
-function
 (
 conn
 tabActor
@@ -17554,8 +17346,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -17623,8 +17413,6 @@ window
 ;
 }
 getWalker
-:
-function
 (
 options
 =
@@ -17799,8 +17587,6 @@ _walkerPromise
 ;
 }
 getPageStyle
-:
-function
 (
 )
 {
@@ -17967,8 +17753,6 @@ HighlighterActor
 *
 /
 getHighlighter
-:
-function
 (
 autohide
 )
@@ -18138,8 +17922,6 @@ highlighter
 *
 /
 getHighlighterByType
-:
-function
 (
 typeName
 )
@@ -18285,8 +18067,6 @@ smaller
 *
 /
 getImageDataFromURL
-:
-function
 (
 url
 maxDim
@@ -18430,8 +18210,6 @@ url
 *
 /
 resolveRelativeURL
-:
-function
 (
 url
 node
@@ -18541,8 +18319,6 @@ navigation
 *
 /
 createEyeDropper
-:
-function
 (
 )
 {
@@ -18601,8 +18377,6 @@ instance
 *
 /
 destroyEyeDropper
-:
-function
 (
 )
 {
@@ -18706,8 +18480,6 @@ options
 *
 /
 pickColorFromPage
-:
-function
 (
 options
 )
@@ -18834,8 +18606,6 @@ method
 *
 /
 cancelPickColorFromPage
-:
-function
 (
 )
 {
@@ -18957,8 +18727,6 @@ error
 *
 /
 supportsHighlighters
-:
-function
 (
 )
 {
@@ -19039,8 +18807,6 @@ true
 ;
 }
 _onColorPicked
-:
-function
 (
 e
 color
@@ -19061,8 +18827,6 @@ color
 ;
 }
 _onColorPickCanceled
-:
-function
 (
 )
 {
@@ -19556,8 +19320,6 @@ val
 ;
 }
 parentNode
-:
-function
 (
 )
 {
@@ -19572,8 +19334,6 @@ parentNode
 ;
 }
 nextNode
-:
-function
 (
 )
 {
@@ -19642,8 +19402,6 @@ nextNode
 ;
 }
 firstChild
-:
-function
 (
 )
 {
@@ -19712,8 +19470,6 @@ firstChild
 ;
 }
 lastChild
-:
-function
 (
 )
 {
@@ -19782,8 +19538,6 @@ lastChild
 ;
 }
 previousSibling
-:
-function
 (
 )
 {
@@ -19833,8 +19587,6 @@ node
 ;
 }
 nextSibling
-:
-function
 (
 )
 {

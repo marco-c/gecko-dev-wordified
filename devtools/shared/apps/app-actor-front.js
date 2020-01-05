@@ -1228,8 +1228,6 @@ startBulkRequest
 (
 {
 actor
-:
-actor
 type
 :
 "
@@ -1583,8 +1581,6 @@ type
 install
 "
 appId
-:
-appId
 upload
 :
 fileActor
@@ -1830,13 +1826,7 @@ type
 install
 "
 appId
-:
-appId
 metadata
-:
-metadata
-manifest
-:
 manifest
 }
 ;
@@ -2017,8 +2007,6 @@ type
 getAppActor
 "
 manifestURL
-:
-manifestURL
 }
 ;
 client
@@ -2060,8 +2048,6 @@ form
 res
 .
 actor
-client
-:
 client
 chrome
 :
@@ -2275,8 +2261,6 @@ type
 launch
 "
 manifestURL
-:
-manifestURL
 }
 )
 ;
@@ -2310,8 +2294,6 @@ type
 close
 "
 manifestURL
-:
-manifestURL
 }
 )
 ;
@@ -2341,10 +2323,6 @@ options
 =
 {
 form
-:
-form
-client
-:
 client
 chrome
 :
@@ -2478,8 +2456,6 @@ prototype
 =
 {
 getForm
-:
-function
 (
 )
 {
@@ -2558,8 +2534,6 @@ _form
 ;
 }
 getTarget
-:
-function
 (
 )
 {
@@ -2653,8 +2627,6 @@ _target
 ;
 }
 launch
-:
-function
 (
 )
 {
@@ -2676,8 +2648,6 @@ manifestURL
 ;
 }
 reload
-:
-function
 (
 )
 {
@@ -2699,8 +2669,6 @@ manifestURL
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -2722,8 +2690,6 @@ manifestURL
 ;
 }
 getIcon
-:
-function
 (
 )
 {
@@ -3109,8 +3075,6 @@ object
 *
 /
 _getApp
-:
-function
 (
 manifestURL
 )
@@ -3270,8 +3234,6 @@ attributes
 *
 /
 watchApps
-:
-function
 (
 listener
 )
@@ -3659,8 +3621,6 @@ _loadingPromise
 ;
 }
 fetchIcons
-:
-function
 (
 )
 {
@@ -3736,8 +3696,6 @@ null
 ;
 }
 _listenAppEvents
-:
-function
 (
 listener
 )
@@ -3852,8 +3810,6 @@ request
 ;
 }
 _unlistenAppEvents
-:
-function
 (
 listener
 )
@@ -4032,8 +3988,6 @@ request
 ;
 }
 _clientListener
-:
-function
 (
 type
 message
@@ -4375,8 +4329,6 @@ break
 ;
 }
 _notifyListeners
-:
-function
 (
 type
 app
@@ -4403,8 +4355,6 @@ app
 ;
 }
 unwatchApps
-:
-function
 (
 listener
 )
@@ -4474,8 +4424,6 @@ send
 *
 /
 installPackaged
-:
-function
 (
 packagePath
 appId
@@ -4552,8 +4500,6 @@ request
 ;
 }
 _onInstallProgress
-:
-function
 (
 progress
 )
@@ -4572,8 +4518,6 @@ progress
 ;
 }
 _install
-:
-function
 (
 request
 )
@@ -4652,8 +4596,6 @@ deferred
 resolve
 (
 {
-app
-:
 app
 appId
 :
@@ -4902,8 +4844,6 @@ send
 *
 /
 installHosted
-:
-function
 (
 appId
 metadata
@@ -4963,8 +4903,6 @@ appId
 response
 .
 appId
-manifestURL
-:
 manifestURL
 }
 )

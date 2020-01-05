@@ -416,8 +416,6 @@ milliseconds
 *
 /
 render
-:
-function
 (
 interval
 =
@@ -621,8 +619,6 @@ FlameGraph
 *
 /
 _onRangeChangeInGraph
-:
-function
 (
 )
 {
@@ -710,8 +706,6 @@ rerendered
 *
 /
 _onRerenderPrefChanged
-:
-function
 (
 )
 {
@@ -765,8 +759,6 @@ changes
 *
 /
 _onThemeChanged
-:
-function
 (
 _
 theme

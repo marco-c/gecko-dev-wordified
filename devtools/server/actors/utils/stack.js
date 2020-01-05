@@ -149,8 +149,6 @@ object
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -185,8 +183,6 @@ frames
 *
 /
 initFrames
-:
-function
 (
 )
 {
@@ -251,8 +247,6 @@ state
 *
 /
 clearFrames
-:
-function
 (
 )
 {
@@ -315,8 +309,6 @@ frame
 *
 /
 addFrame
-:
-function
 (
 frame
 )
@@ -414,8 +406,6 @@ packet
 *
 /
 updateFramePacket
-:
-function
 (
 packet
 )
@@ -807,8 +797,6 @@ null
 *
 /
 makeEvent
-:
-function
 (
 )
 {
@@ -949,8 +937,6 @@ to
 *
 /
 _assignFrameIndices
-:
-function
 (
 frame
 )
@@ -1050,8 +1036,6 @@ for
 *
 /
 _createFrameForms
-:
-function
 (
 frame
 )

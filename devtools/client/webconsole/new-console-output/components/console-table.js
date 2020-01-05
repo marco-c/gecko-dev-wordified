@@ -270,8 +270,6 @@ string
 isRequired
 }
 componentWillMount
-:
-function
 (
 )
 {
@@ -355,8 +353,6 @@ dataType
 ;
 }
 getHeaders
-:
-function
 (
 columns
 )
@@ -397,8 +393,6 @@ headerItems
 ;
 }
 getRows
-:
-function
 (
 columns
 items
@@ -477,8 +471,6 @@ cells
 ;
 }
 render
-:
-function
 (
 )
 {

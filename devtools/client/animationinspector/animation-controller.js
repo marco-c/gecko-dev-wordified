@@ -1425,8 +1425,6 @@ resolver
 }
 )
 startListeners
-:
-function
 (
 )
 {
@@ -1502,8 +1500,6 @@ onPanelVisibilityChange
 ;
 }
 stopListeners
-:
-function
 (
 )
 {
@@ -1575,8 +1571,6 @@ onAnimationMutations
 }
 }
 isPanelVisible
-:
-function
 (
 )
 {
@@ -1810,8 +1804,6 @@ target
 *
 /
 toggleAll
-:
-function
 (
 )
 {
@@ -2457,8 +2449,6 @@ true
 }
 )
 onAnimationMutations
-:
-function
 (
 changes
 )
@@ -2701,8 +2691,6 @@ time
 ;
 }
 destroyAnimationPlayers
-:
-function
 (
 )
 {

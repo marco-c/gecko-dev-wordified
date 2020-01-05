@@ -247,8 +247,6 @@ tests
 *
 /
 OVERVIEW_UPDATE_INTERVAL
-:
-OVERVIEW_UPDATE_INTERVAL
 /
 *
 *
@@ -264,8 +262,6 @@ binding
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -786,8 +782,6 @@ panel
 *
 /
 disable
-:
-function
 (
 )
 {
@@ -822,8 +816,6 @@ boolean
 *
 /
 isDisabled
-:
-function
 (
 )
 {
@@ -866,8 +858,6 @@ milliseconds
 *
 /
 setTimeInterval
-:
-function
 (
 interval
 options
@@ -1024,8 +1014,6 @@ milliseconds
 *
 /
 getTimeInterval
-:
-function
 (
 )
 {
@@ -1416,8 +1404,6 @@ _onRecordingTick
 *
 /
 _prepareNextTick
-:
-function
 (
 )
 {
@@ -1722,8 +1708,6 @@ graph
 *
 /
 _startPolling
-:
-function
 (
 )
 {
@@ -1758,8 +1742,6 @@ graph
 *
 /
 _stopPolling
-:
-function
 (
 )
 {
@@ -1798,8 +1780,6 @@ rendering
 *
 /
 isRendering
-:
-function
 (
 )
 {
@@ -1903,8 +1883,6 @@ events
 *
 /
 _onGraphSelecting
-:
-function
 (
 )
 {
@@ -1934,8 +1912,6 @@ getTimeInterval
 ;
 }
 _onGraphRendered
-:
-function
 (
 _
 graphName
@@ -2135,8 +2111,6 @@ break
 }
 )
 _setGraphVisibilityFromRecordingFeatures
-:
-function
 (
 recording
 )
@@ -2205,8 +2179,6 @@ boolean
 *
 /
 isRealtimeRenderingEnabled
-:
-function
 (
 )
 {
@@ -2267,8 +2239,6 @@ recording
 *
 /
 _showGraphsPanel
-:
-function
 (
 recording
 )
@@ -2312,8 +2282,6 @@ completely
 *
 /
 _hideGraphsPanel
-:
-function
 (
 )
 {
@@ -2350,8 +2318,6 @@ changes
 *
 /
 _onThemeChanged
-:
-function
 (
 _
 theme

@@ -591,8 +591,6 @@ prototype
 =
 {
 init
-:
-function
 (
 containerEl
 )
@@ -877,8 +875,6 @@ onWindowResize
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1062,8 +1058,6 @@ handlers
 *
 /
 destroySubComponents
-:
-function
 (
 name
 handlers
@@ -1120,8 +1114,6 @@ name
 ;
 }
 unrender
-:
-function
 (
 )
 {
@@ -1214,8 +1206,6 @@ innerHTML
 ;
 }
 onWindowResize
-:
-function
 (
 )
 {
@@ -1297,8 +1287,6 @@ TIMELINE_BACKGROUND_RESIZE_DEBOUNCE_TIMER
 ;
 }
 onAnimationSelected
-:
-function
 (
 e
 animation
@@ -1490,8 +1478,6 @@ position
 *
 /
 onFrameSelected
-:
-function
 (
 e
 {
@@ -1509,8 +1495,6 @@ true
 ;
 }
 onScrubberMouseDown
-:
-function
 (
 e
 )
@@ -1582,8 +1566,6 @@ preventDefault
 ;
 }
 onScrubberMouseUp
-:
-function
 (
 )
 {
@@ -1595,8 +1577,6 @@ cancelTimeHeaderDragging
 ;
 }
 onScrubberMouseOut
-:
-function
 (
 e
 )
@@ -1646,8 +1626,6 @@ cancelTimeHeaderDragging
 }
 }
 cancelTimeHeaderDragging
-:
-function
 (
 )
 {
@@ -1695,8 +1673,6 @@ onScrubberMouseMove
 ;
 }
 onScrubberMouseMove
-:
-function
 (
 e
 )
@@ -1712,8 +1688,6 @@ pageX
 ;
 }
 moveScrubberTo
-:
-function
 (
 pageX
 noOffset
@@ -1858,15 +1832,11 @@ isUserDrag
 :
 true
 time
-:
-time
 }
 )
 ;
 }
 getCompositorStatusClassName
-:
-function
 (
 state
 )
@@ -1935,8 +1905,6 @@ className
 ;
 }
 render
-:
-function
 (
 animations
 documentCurrentTime
@@ -2482,8 +2450,6 @@ documentCurrentTime
 }
 }
 isAtLeastOneAnimationPlaying
-:
-function
 (
 )
 {
@@ -2514,8 +2480,6 @@ running
 ;
 }
 wasRewound
-:
-function
 (
 )
 {
@@ -2552,8 +2516,6 @@ currentTime
 ;
 }
 hasInfiniteAnimations
-:
-function
 (
 )
 {
@@ -2579,8 +2541,6 @@ iterationCount
 ;
 }
 startAnimatingScrubber
-:
-function
 (
 time
 )
@@ -2858,8 +2818,6 @@ now
 ;
 }
 stopAnimatingScrubber
-:
-function
 (
 )
 {
@@ -2890,8 +2848,6 @@ null
 }
 }
 onAnimationStateChanged
-:
-function
 (
 )
 {
@@ -2930,8 +2886,6 @@ animations
 ;
 }
 drawHeaderAndBackground
-:
-function
 (
 )
 {

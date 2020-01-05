@@ -397,8 +397,6 @@ tree
 *
 /
 onFilter
-:
-function
 (
 object
 )
@@ -453,8 +451,6 @@ content
 *
 /
 render
-:
-function
 (
 )
 {
@@ -587,10 +583,6 @@ MODE
 .
 SHORT
 columns
-:
-columns
-renderValue
-:
 renderValue
 onFilter
 :

@@ -441,8 +441,6 @@ sent
 *
 /
 setOriginalListener
-:
-function
 (
 originalListener
 )
@@ -466,8 +464,6 @@ onStartRequest
 *
 /
 onStartRequest
-:
-function
 (
 request
 context
@@ -505,8 +501,6 @@ onStopRequest
 *
 /
 onStopRequest
-:
-function
 (
 request
 context
@@ -548,8 +542,6 @@ onDataAvailable
 *
 /
 onDataAvailable
-:
-function
 (
 request
 context
@@ -749,8 +741,6 @@ sent
 *
 /
 sendSomeData
-:
-function
 (
 bytesPermitted
 )
@@ -980,8 +970,6 @@ listener
 *
 /
 pendingCount
-:
-function
 (
 )
 {
@@ -1022,8 +1010,6 @@ moment
 *
 /
 addActivityCallback
-:
-function
 (
 callback
 httpActivity
@@ -1104,8 +1090,6 @@ ended
 *
 /
 responseStart
-:
-function
 (
 )
 {
@@ -1202,8 +1186,6 @@ introducing
 *
 /
 maybeEmitEvents
-:
-function
 (
 )
 {
@@ -1300,8 +1282,6 @@ defined
 *
 /
 maybeEmit
-:
-function
 (
 code
 )
@@ -1544,8 +1524,6 @@ max
 *
 /
 random
-:
-function
 (
 mean
 max
@@ -1616,8 +1594,6 @@ elapsed
 *
 /
 allowDataFrom
-:
-function
 (
 throttleListener
 )
@@ -1746,8 +1722,6 @@ listener
 *
 /
 start
-:
-function
 (
 throttleListener
 )
@@ -1857,8 +1831,6 @@ available
 *
 /
 dataAvailable
-:
-function
 (
 throttleListener
 )
@@ -1912,8 +1884,6 @@ data
 *
 /
 pump
-:
-function
 (
 )
 {
@@ -2536,8 +2506,6 @@ done
 *
 /
 manage
-:
-function
 (
 channel
 )
@@ -2612,8 +2580,6 @@ manage
 *
 /
 manageUpload
-:
-function
 (
 channel
 )

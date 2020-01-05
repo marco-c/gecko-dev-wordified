@@ -963,8 +963,6 @@ CSSCompleter
 (
 {
 walker
-:
-walker
 cssProperties
 :
 getClientCssProperties

@@ -243,8 +243,6 @@ listeners
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -281,8 +279,6 @@ node
 *
 /
 show
-:
-function
 (
 node
 )
@@ -361,8 +357,6 @@ infobar
 *
 /
 hide
-:
-function
 (
 )
 {

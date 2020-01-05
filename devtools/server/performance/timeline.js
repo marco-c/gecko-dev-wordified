@@ -454,8 +454,6 @@ actor
 *
 /
 initialize
-:
-function
 (
 tabActor
 )
@@ -562,8 +560,6 @@ first
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -833,8 +829,6 @@ any
 *
 /
 _pullTimelineData
-:
-function
 (
 )
 {
@@ -1331,8 +1325,6 @@ currently
 *
 /
 isRecording
-:
-function
 (
 )
 {
@@ -2052,8 +2044,6 @@ recording
 *
 /
 _onWindowReady
-:
-function
 (
 {
 window
@@ -2189,8 +2179,6 @@ garbage
 *
 /
 _onGarbageCollection
-:
-function
 (
 {
 collections
@@ -2271,8 +2259,6 @@ GarbageCollection
 causeName
 :
 reason
-nonincrementalReason
-:
 nonincrementalReason
 cycle
 :

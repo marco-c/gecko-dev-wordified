@@ -3083,8 +3083,6 @@ performEOFFixup
 *
 /
 performEOFFixup
-:
-function
 (
 aInputString
 aPreserveBackslash
@@ -3226,8 +3224,6 @@ nextToken
 *
 /
 nextToken
-:
-function
 (
 )
 {
@@ -3556,8 +3552,6 @@ input
 *
 /
 Peek
-:
-function
 (
 n
 =
@@ -3670,8 +3664,6 @@ instead
 *
 /
 Advance
-:
-function
 (
 n
 =
@@ -3741,8 +3733,6 @@ boundary
 *
 /
 AdvanceLine
-:
-function
 (
 )
 {
@@ -3896,8 +3886,6 @@ position
 *
 /
 SkipWhitespace
-:
-function
 (
 )
 {
@@ -3981,8 +3969,6 @@ position
 *
 /
 SkipComment
-:
-function
 (
 )
 {
@@ -4182,8 +4168,6 @@ tokens
 *
 /
 GatherEscape
-:
-function
 (
 aOutput
 aInString
@@ -4831,8 +4815,6 @@ otherwise
 *
 /
 GatherText
-:
-function
 (
 aClass
 aText
@@ -5081,8 +5063,6 @@ sequence
 *
 /
 ScanIdent
-:
-function
 (
 aToken
 )
@@ -5226,8 +5206,6 @@ identifier
 *
 /
 ScanAtKeyword
-:
-function
 (
 aToken
 )
@@ -5346,8 +5324,6 @@ characters
 *
 /
 ScanHash
-:
-function
 (
 aToken
 )
@@ -5537,8 +5513,6 @@ encounters
 *
 /
 ScanNumber
-:
-function
 (
 aToken
 )
@@ -6511,8 +6485,6 @@ Next
 *
 /
 ScanString
-:
-function
 (
 aToken
 )
@@ -6887,8 +6859,6 @@ form
 *
 /
 ScanURange
-:
-function
 (
 aResult
 )
@@ -7242,8 +7212,6 @@ true
 ;
 }
 SetEOFCharacters
-:
-function
 (
 aEOFCharacters
 )
@@ -7256,8 +7224,6 @@ aEOFCharacters
 ;
 }
 AddEOFCharacters
-:
-function
 (
 aEOFCharacters
 )
@@ -7274,8 +7240,6 @@ aEOFCharacters
 ;
 }
 AppendImpliedEOFCharacters
-:
-function
 (
 aEOFCharacters
 aResult
@@ -7423,8 +7387,6 @@ context
 *
 /
 NextURL
-:
-function
 (
 aToken
 )
@@ -7738,8 +7700,6 @@ EOF
 *
 /
 Next
-:
-function
 (
 aToken
 aSkip

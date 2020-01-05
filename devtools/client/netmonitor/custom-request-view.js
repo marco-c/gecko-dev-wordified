@@ -170,8 +170,6 @@ started
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -238,8 +236,6 @@ closed
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -492,8 +488,6 @@ updated
 *
 /
 onUpdate
-:
-function
 (
 field
 )
@@ -816,8 +810,6 @@ from
 *
 /
 updateCustomQuery
-:
-function
 (
 url
 )
@@ -918,8 +910,6 @@ field
 *
 /
 updateCustomUrl
-:
-function
 (
 queryText
 )
@@ -1257,10 +1247,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )

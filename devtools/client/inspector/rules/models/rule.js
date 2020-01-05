@@ -1002,8 +1002,6 @@ string
 *
 /
 getOriginalSourceStrings
-:
-function
 (
 )
 {
@@ -1092,8 +1090,6 @@ shortSource
 (
 {
 href
-:
-href
 }
 )
 +
@@ -1146,8 +1142,6 @@ documentation
 *
 /
 matches
-:
-function
 (
 options
 )
@@ -1282,8 +1276,6 @@ added
 *
 /
 createProperty
-:
-function
 (
 name
 value
@@ -1460,8 +1452,6 @@ store
 *
 /
 _applyPropertiesNoAuthored
-:
-function
 (
 modifications
 )
@@ -1816,8 +1806,6 @@ setRuleText
 *
 /
 _applyPropertiesAuthored
-:
-function
 (
 modifications
 )
@@ -2047,8 +2035,6 @@ complete
 *
 /
 applyProperties
-:
-function
 (
 modifier
 )
@@ -2252,8 +2238,6 @@ top
 *
 /
 setPropertyName
-:
-function
 (
 property
 name
@@ -2395,8 +2379,6 @@ string
 *
 /
 setPropertyValue
-:
-function
 (
 property
 value
@@ -2557,8 +2539,6 @@ string
 *
 /
 previewPropertyValue
-:
-function
 (
 property
 value
@@ -2670,8 +2650,6 @@ value
 *
 /
 setPropertyEnabled
-:
-function
 (
 property
 value
@@ -2774,8 +2752,6 @@ removed
 *
 /
 removeProperty
-:
-function
 (
 property
 )
@@ -2871,8 +2847,6 @@ authoredText
 *
 /
 _getTextProperties
-:
-function
 (
 )
 {
@@ -3121,8 +3095,6 @@ rule
 *
 /
 _getDisabledProperties
-:
-function
 (
 )
 {
@@ -3262,8 +3234,6 @@ needed
 *
 /
 refresh
-:
-function
 (
 options
 )
@@ -3705,8 +3675,6 @@ updated
 *
 /
 _updateTextProperty
-:
-function
 (
 newProp
 )
@@ -4091,8 +4059,6 @@ number
 *
 /
 editClosestTextProperty
-:
-function
 (
 textProperty
 direction
@@ -4306,8 +4272,6 @@ rule
 *
 /
 stringifyRule
-:
-function
 (
 )
 {
@@ -4441,8 +4405,6 @@ invisible
 *
 /
 hasAnyVisibleProperties
-:
-function
 (
 )
 {

@@ -425,8 +425,6 @@ PropTypes
 func
 }
 getDefaultProps
-:
-function
 (
 )
 {
@@ -442,8 +440,6 @@ false
 ;
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -590,8 +586,6 @@ false
 ;
 }
 componentDidMount
-:
-function
 (
 )
 {
@@ -735,8 +729,6 @@ index
 }
 }
 componentWillReceiveProps
-:
-function
 (
 newProps
 )
@@ -825,8 +817,6 @@ newProps
 .
 tabActive
 created
-:
-created
 }
 )
 )
@@ -834,8 +824,6 @@ created
 }
 }
 componentWillUnmount
-:
-function
 (
 )
 {
@@ -902,8 +890,6 @@ false
 DOM
 Events
 onOverflow
-:
-function
 (
 event
 )
@@ -940,8 +926,6 @@ true
 }
 }
 onUnderflow
-:
-function
 (
 event
 )
@@ -978,8 +962,6 @@ false
 }
 }
 onKeyDown
-:
-function
 (
 event
 )
@@ -1111,8 +1093,6 @@ tabActive
 }
 }
 onClickTab
-:
-function
 (
 index
 event
@@ -1133,8 +1113,6 @@ preventDefault
 ;
 }
 onAllTabsMenuClick
-:
-function
 (
 event
 )
@@ -1163,8 +1141,6 @@ event
 /
 API
 setActive
-:
-function
 (
 index
 )
@@ -1247,8 +1223,6 @@ tabActive
 :
 index
 created
-:
-created
 }
 )
 ;
@@ -1327,8 +1301,6 @@ index
 /
 Rendering
 renderMenuItems
-:
-function
 (
 )
 {
@@ -1588,8 +1560,6 @@ li
 (
 {
 ref
-:
-ref
 key
 :
 index
@@ -1777,8 +1747,6 @@ allTabsMenu
 ;
 }
 renderPanels
-:
-function
 (
 )
 {
@@ -2017,8 +1985,6 @@ panel
 +
 index
 style
-:
-style
 className
 :
 "
@@ -2088,8 +2054,6 @@ panels
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -2204,8 +2168,6 @@ element
 isRequired
 }
 render
-:
-function
 (
 )
 {

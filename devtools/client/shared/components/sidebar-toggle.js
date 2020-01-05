@@ -240,8 +240,6 @@ func
 isRequired
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -261,8 +259,6 @@ collapsed
 /
 Events
 onClick
-:
-function
 (
 event
 )
@@ -281,8 +277,6 @@ event
 /
 Rendering
 render
-:
-function
 (
 )
 {
@@ -358,8 +352,6 @@ join
 "
 "
 )
-title
-:
 title
 onClick
 :

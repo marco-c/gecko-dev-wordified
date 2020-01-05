@@ -2355,8 +2355,6 @@ available
 *
 /
 setContent
-:
-function
 (
 content
 {
@@ -3199,8 +3197,6 @@ height
 *
 /
 _getViewportRect
-:
-function
 (
 )
 {
@@ -3317,8 +3313,6 @@ getBoundingClientRect
 ;
 }
 _measureContainerWidth
-:
-function
 (
 )
 {
@@ -3653,8 +3647,6 @@ visible
 *
 /
 isVisible
-:
-function
 (
 )
 {
@@ -3701,8 +3693,6 @@ document
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -3738,8 +3728,6 @@ remove
 }
 }
 _createContainer
-:
-function
 (
 )
 {
@@ -3868,8 +3856,6 @@ container
 ;
 }
 _onClick
-:
-function
 (
 e
 )
@@ -3941,8 +3927,6 @@ stopPropagation
 }
 }
 _isInTooltipContainer
-:
-function
 (
 node
 )
@@ -4123,8 +4107,6 @@ false
 ;
 }
 _onXulPanelHidden
-:
-function
 (
 )
 {
@@ -4170,8 +4152,6 @@ it
 *
 /
 _maybeFocusTooltip
-:
-function
 (
 )
 {
@@ -4258,8 +4238,6 @@ focus
 }
 }
 _getTopWindow
-:
-function
 (
 )
 {
@@ -4293,8 +4271,6 @@ document
 *
 /
 _isXUL
-:
-function
 (
 )
 {
@@ -4313,8 +4289,6 @@ XUL_NS
 ;
 }
 _createXulPanelWrapper
-:
-function
 (
 )
 {
@@ -4475,8 +4449,6 @@ panel
 ;
 }
 _showXulWrapperAt
-:
-function
 (
 left
 top
@@ -4525,8 +4497,6 @@ onPanelShown
 ;
 }
 _hideXulWrapper
-:
-function
 (
 )
 {
@@ -4648,8 +4618,6 @@ edges
 *
 /
 _convertToScreenRect
-:
-function
 (
 {
 left
@@ -4750,8 +4718,6 @@ it
 *
 /
 _applyStylesheet
-:
-function
 (
 url
 )

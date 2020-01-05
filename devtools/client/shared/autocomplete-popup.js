@@ -823,8 +823,6 @@ _list
 :
 null
 onSelect
-:
-function
 (
 e
 )
@@ -846,8 +844,6 @@ e
 }
 }
 onClick
-:
-function
 (
 e
 )
@@ -1023,8 +1019,6 @@ select
 *
 /
 openPopup
-:
-function
 (
 anchor
 xOffset
@@ -1170,8 +1164,6 @@ select
 *
 /
 selectItemAtIndex
-:
-function
 (
 index
 )
@@ -1249,8 +1241,6 @@ panel
 *
 /
 hidePopup
-:
-function
 (
 )
 {
@@ -1391,8 +1381,6 @@ cleanup
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1543,8 +1531,6 @@ index
 *
 /
 getItemAtIndex
-:
-function
 (
 index
 )
@@ -1583,8 +1569,6 @@ items
 *
 /
 getItems
-:
-function
 (
 )
 {
@@ -1667,8 +1651,6 @@ select
 *
 /
 setItems
-:
-function
 (
 items
 index
@@ -1811,8 +1793,6 @@ content
 *
 /
 _updateSize
-:
-function
 (
 )
 {
@@ -1876,8 +1856,6 @@ selectedItem
 }
 }
 _scrollElementIntoViewIfNeeded
-:
-function
 (
 element
 )
@@ -2010,8 +1988,6 @@ list
 *
 /
 clearItems
-:
-function
 (
 )
 {
@@ -2434,8 +2410,6 @@ suggestion
 *
 /
 _setActiveDescendant
-:
-function
 (
 id
 )
@@ -2568,8 +2542,6 @@ element
 *
 /
 _clearActiveDescendant
-:
-function
 (
 )
 {
@@ -2739,8 +2711,6 @@ label
 *
 /
 appendItem
-:
-function
 (
 item
 )
@@ -3065,8 +3035,6 @@ removed
 *
 /
 removeItem
-:
-function
 (
 item
 )
@@ -3365,8 +3333,6 @@ object
 *
 /
 selectNextItem
-:
-function
 (
 )
 {
@@ -3438,8 +3404,6 @@ object
 *
 /
 selectPreviousItem
-:
-function
 (
 )
 {
@@ -3522,8 +3486,6 @@ object
 *
 /
 selectNextPageItem
-:
-function
 (
 )
 {
@@ -3604,8 +3566,6 @@ object
 *
 /
 selectPreviousPageItem
-:
-function
 (
 )
 {
@@ -3661,8 +3621,6 @@ pref
 *
 /
 _handleThemeChange
-:
-function
 (
 )
 {

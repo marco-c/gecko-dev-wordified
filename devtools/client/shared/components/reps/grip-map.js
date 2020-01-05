@@ -340,8 +340,6 @@ PropTypes
 func
 }
 getTitle
-:
-function
 (
 object
 )
@@ -382,8 +380,6 @@ objectLink
 (
 {
 object
-:
-object
 }
 title
 )
@@ -394,8 +390,6 @@ title
 ;
 }
 safeEntriesIterator
-:
-function
 (
 object
 max
@@ -449,8 +443,6 @@ return
 ;
 }
 entriesIterator
-:
-function
 (
 object
 max
@@ -697,8 +689,6 @@ objectLink
 (
 {
 object
-:
-object
 }
 {
 mapEntries
@@ -760,8 +750,6 @@ PropRep
 *
 /
 getEntries
-:
-function
 (
 entries
 indexes
@@ -989,8 +977,6 @@ map
 *
 /
 getEntriesIndexes
-:
-function
 (
 entries
 max
@@ -1217,8 +1203,6 @@ className
 objectLeftBrace
 "
 object
-:
-object
 }
 "
 "
@@ -1256,8 +1240,6 @@ className
 objectLeftBrace
 "
 object
-:
-object
 }
 "
 {
@@ -1272,8 +1254,6 @@ className
 "
 objectRightBrace
 "
-object
-:
 object
 }
 "
@@ -1342,8 +1322,6 @@ GripMap
 rep
 :
 GripMap
-supportsObject
-:
 supportsObject
 }
 ;

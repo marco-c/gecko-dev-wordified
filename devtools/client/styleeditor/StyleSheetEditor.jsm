@@ -1556,8 +1556,6 @@ generated
 *
 /
 linkCSSFile
-:
-function
 (
 )
 {
@@ -1864,8 +1862,6 @@ text
 *
 /
 _getSourceTextAndPrettify
-:
-function
 (
 )
 {
@@ -1997,8 +1993,6 @@ error
 *
 /
 fetchSource
-:
-function
 (
 )
 {
@@ -2164,8 +2158,6 @@ optional
 *
 /
 addUnusedRegion
-:
-function
 (
 region
 )
@@ -2250,8 +2242,6 @@ regions
 *
 /
 addUnusedRegions
-:
-function
 (
 regions
 )
@@ -2289,8 +2279,6 @@ addUnusedRegion
 *
 /
 removeAllUnusedRegions
-:
-function
 (
 )
 {
@@ -2366,8 +2354,6 @@ sheet
 *
 /
 _onPropertyChange
-:
-function
 (
 property
 value
@@ -2401,8 +2387,6 @@ changes
 *
 /
 _onStyleApplied
-:
-function
 (
 )
 {
@@ -2584,8 +2568,6 @@ sheet
 *
 /
 _onMediaRulesChanged
-:
-function
 (
 rules
 )
@@ -2701,8 +2683,6 @@ stylesheet
 *
 /
 _onMediaRuleMatchesChange
-:
-function
 (
 )
 {
@@ -2752,8 +2732,6 @@ errorCode
 *
 /
 _onError
-:
-function
 (
 event
 data
@@ -2829,8 +2807,6 @@ loaded
 *
 /
 load
-:
-function
 (
 inputElement
 cssProperties
@@ -3143,8 +3119,6 @@ editor
 *
 /
 getSourceEditor
-:
-function
 (
 )
 {
@@ -3216,8 +3190,6 @@ input
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -3263,8 +3235,6 @@ shown
 *
 /
 onShow
-:
-function
 (
 )
 {
@@ -3325,8 +3295,6 @@ stylesheet
 *
 /
 toggleDisabled
-:
-function
 (
 )
 {
@@ -3371,8 +3339,6 @@ sheet
 *
 /
 updateStyleSheet
-:
-function
 (
 )
 {
@@ -3438,8 +3404,6 @@ modifications
 *
 /
 _updateStyleSheet
-:
-function
 (
 )
 {
@@ -3613,8 +3577,6 @@ everytime
 *
 /
 _onMouseMove
-:
-function
 (
 e
 )
@@ -3983,8 +3945,6 @@ savedFile
 *
 /
 saveToFile
-:
-function
 (
 file
 callback
@@ -4238,8 +4198,6 @@ disk
 *
 /
 onFileSaved
-:
-function
 (
 returnFile
 )
@@ -4368,8 +4326,6 @@ sheet
 *
 /
 checkLinkedFileForChanges
-:
-function
 (
 )
 {
@@ -4542,8 +4498,6 @@ file
 *
 /
 markLinkedFileBroken
-:
-function
 (
 error
 )
@@ -4642,8 +4596,6 @@ contents
 *
 /
 updateLinkedStyleSheet
-:
-function
 (
 )
 {
@@ -4751,8 +4703,6 @@ editor
 *
 /
 _getKeyBindings
-:
-function
 (
 )
 {
@@ -4846,8 +4796,6 @@ editor
 *
 /
 destroy
-:
-function
 (
 )
 {

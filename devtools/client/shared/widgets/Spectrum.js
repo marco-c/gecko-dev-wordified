@@ -1858,8 +1858,6 @@ rgb
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -1956,8 +1954,6 @@ updateUI
 ;
 }
 onElementClick
-:
-function
 (
 e
 )
@@ -1970,8 +1966,6 @@ stopPropagation
 ;
 }
 onSliderMove
-:
-function
 (
 dragX
 dragY
@@ -2006,8 +2000,6 @@ onChange
 ;
 }
 onDraggerMove
-:
-function
 (
 dragX
 dragY
@@ -2059,8 +2051,6 @@ onChange
 ;
 }
 onAlphaSliderMove
-:
-function
 (
 dragX
 dragY
@@ -2093,8 +2083,6 @@ onChange
 ;
 }
 onChange
-:
-function
 (
 )
 {
@@ -2115,8 +2103,6 @@ rgbCssString
 ;
 }
 updateHelperLocations
-:
-function
 (
 )
 {
@@ -2389,8 +2375,6 @@ px
 ;
 }
 updateUI
-:
-function
 (
 )
 {
@@ -2559,8 +2543,6 @@ alphaGradient
 ;
 }
 destroy
-:
-function
 (
 )
 {

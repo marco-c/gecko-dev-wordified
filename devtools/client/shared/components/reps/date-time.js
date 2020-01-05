@@ -232,8 +232,6 @@ PropTypes
 func
 }
 getTitle
-:
-function
 (
 grip
 )
@@ -422,8 +420,6 @@ DateTime
 rep
 :
 DateTime
-supportsObject
-:
 supportsObject
 }
 ;

@@ -2344,8 +2344,6 @@ object
 *
 /
 getInfo
-:
-function
 (
 options
 )
@@ -2425,8 +2423,6 @@ null
 *
 /
 hasOptimizations
-:
-function
 (
 )
 {
@@ -2970,8 +2966,6 @@ optimizationSite
 *
 /
 _addOptimizations
-:
-function
 (
 site
 implementation
@@ -3082,8 +3076,6 @@ time
 ;
 }
 _clone
-:
-function
 (
 samples
 size
@@ -3118,8 +3110,6 @@ newNode
 ;
 }
 _merge
-:
-function
 (
 otherNode
 samples
@@ -3454,8 +3444,6 @@ specified
 *
 /
 getInfo
-:
-function
 (
 options
 )
@@ -3495,8 +3483,6 @@ Boolean
 *
 /
 hasOptimizations
-:
-function
 (
 )
 {
@@ -3544,8 +3530,6 @@ null
 *
 /
 getOptimizations
-:
-function
 (
 )
 {
@@ -3596,8 +3580,6 @@ object
 *
 /
 getTierData
-:
-function
 (
 )
 {

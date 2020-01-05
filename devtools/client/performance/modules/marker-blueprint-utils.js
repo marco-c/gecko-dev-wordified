@@ -153,8 +153,6 @@ boolean
 *
 /
 shouldDisplayMarker
-:
-function
 (
 marker
 hiddenMarkerNames
@@ -297,8 +295,6 @@ object
 *
 /
 getBlueprintFor
-:
-function
 (
 marker
 )
@@ -345,8 +341,6 @@ string
 *
 /
 getMarkerLabel
-:
-function
 (
 marker
 )
@@ -442,8 +436,6 @@ string
 *
 /
 getMarkerGenericName
-:
-function
 (
 markerName
 )
@@ -650,8 +642,6 @@ object
 *
 /
 getMarkerFields
-:
-function
 (
 marker
 )

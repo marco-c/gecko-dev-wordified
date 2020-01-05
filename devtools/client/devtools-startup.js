@@ -220,8 +220,6 @@ prototype
 =
 {
 handle
-:
-function
 (
 cmdLine
 )
@@ -463,8 +461,6 @@ false
 ;
 }
 initDevTools
-:
-function
 (
 )
 {
@@ -534,8 +530,6 @@ browser
 ;
 }
 handleConsoleFlag
-:
-function
 (
 cmdLine
 )
@@ -706,8 +700,6 @@ starts
 up
 .
 handleDevToolsFlag
-:
-function
 (
 window
 )
@@ -939,8 +931,6 @@ remoteDebuggingEnabled
 ;
 }
 handleDebuggerFlag
-:
-function
 (
 cmdLine
 )
@@ -1192,8 +1182,6 @@ port
 *
 /
 handleDebuggerServerFlag
-:
-function
 (
 cmdLine
 portOrPath

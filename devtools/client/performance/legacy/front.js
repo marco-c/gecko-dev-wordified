@@ -353,8 +353,6 @@ false
 }
 }
 initialize
-:
-function
 (
 target
 )
@@ -918,8 +916,6 @@ them
 *
 /
 _registerListeners
-:
-function
 (
 )
 {
@@ -1024,8 +1020,6 @@ actors
 *
 /
 _unregisterListeners
-:
-function
 (
 )
 {
@@ -1634,8 +1628,6 @@ bug
 *
 /
 _onProfilerUnexpectedlyStopped
-:
-function
 (
 )
 {
@@ -1696,8 +1688,6 @@ sessions
 *
 /
 _onTimelineData
-:
-function
 (
 _
 .
@@ -1760,8 +1750,6 @@ status
 *
 /
 _onProfilerStatus
-:
-function
 (
 _
 data
@@ -2621,8 +2609,6 @@ profilerData
 .
 currentTime
 timelineEndTime
-:
-timelineEndTime
 systemHost
 systemClient
 }
@@ -2686,8 +2672,6 @@ LegacyPerformanceRecording
 *
 /
 importRecording
-:
-function
 (
 file
 )
@@ -2730,8 +2714,6 @@ Boolean
 *
 /
 isRecording
-:
-function
 (
 )
 {
@@ -2801,8 +2783,6 @@ number
 *
 /
 getBufferUsageForRecording
-:
-function
 (
 recording
 )
@@ -2991,8 +2971,6 @@ itself
 *
 /
 _pipeToFront
-:
-function
 (
 eventName
 .
@@ -3037,8 +3015,6 @@ tests
 *
 /
 _request
-:
-function
 (
 actorName
 method
@@ -3125,8 +3101,6 @@ tests
 *
 /
 setProfilerStatusInterval
-:
-function
 (
 n
 )

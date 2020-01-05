@@ -482,10 +482,8 @@ selector
 #
 noevents
 "
-beforeTest
-:
-function
 *
+beforeTest
 (
 inspector
 testActor
@@ -595,10 +593,8 @@ selector
 #
 noevents
 "
-beforeTest
-:
-function
 *
+beforeTest
 (
 inspector
 testActor

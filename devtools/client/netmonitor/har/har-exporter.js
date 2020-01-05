@@ -232,8 +232,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -597,8 +595,6 @@ entries
 *
 /
 save
-:
-function
 (
 options
 )
@@ -812,8 +808,6 @@ description
 *
 /
 copy
-:
-function
 (
 options
 )
@@ -850,8 +844,6 @@ jsonString
 /
 Helpers
 fetchHarData
-:
-function
 (
 options
 )
@@ -1229,8 +1221,6 @@ strings
 *
 /
 buildHarData
-:
-function
 (
 options
 )
@@ -1277,8 +1267,6 @@ object
 *
 /
 stringify
-:
-function
 (
 har
 )

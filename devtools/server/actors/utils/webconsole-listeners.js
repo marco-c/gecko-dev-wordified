@@ -386,8 +386,6 @@ listener
 *
 /
 init
-:
-function
 (
 )
 {
@@ -451,8 +449,6 @@ nsIConsoleService
 *
 /
 observe
-:
-function
 (
 message
 )
@@ -616,8 +612,6 @@ otherwise
 *
 /
 isCategoryAllowed
-:
-function
 (
 category
 )
@@ -765,8 +759,6 @@ nsIConsoleMessage
 *
 /
 getCachedMessages
-:
-function
 (
 includePrivate
 =
@@ -1006,8 +998,6 @@ listener
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1364,8 +1354,6 @@ observer
 *
 /
 init
-:
-function
 (
 )
 {
@@ -1475,8 +1463,6 @@ service
 *
 /
 observe
-:
-function
 (
 message
 topic
@@ -1608,8 +1594,6 @@ message
 *
 /
 isMessageRelevant
-:
-function
 (
 message
 )
@@ -1966,8 +1950,6 @@ messages
 *
 /
 getCachedMessages
-:
-function
 (
 includePrivate
 =
@@ -2177,8 +2159,6 @@ listener
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -2379,8 +2359,6 @@ interruptible
 *
 /
 sendReflow
-:
-function
 (
 start
 end
@@ -2470,13 +2448,7 @@ onReflowActivity
 (
 {
 interruptible
-:
-interruptible
 start
-:
-start
-end
-:
 end
 sourceURL
 :
@@ -2522,8 +2494,6 @@ end
 *
 /
 reflow
-:
-function
 (
 start
 end
@@ -2558,8 +2528,6 @@ end
 *
 /
 reflowInterruptible
-:
-function
 (
 start
 end
@@ -2585,8 +2553,6 @@ listener
 *
 /
 destroy
-:
-function
 (
 )
 {

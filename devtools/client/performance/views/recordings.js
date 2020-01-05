@@ -134,8 +134,6 @@ started
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -536,8 +534,6 @@ React
 *
 /
 _renderList
-:
-function
 (
 )
 {
@@ -679,8 +675,6 @@ closed
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -788,8 +782,6 @@ fired
 *
 /
 _onNewRecording
-:
-function
 (
 _
 recording
@@ -856,8 +848,6 @@ started
 *
 /
 _onRecordingStateChange
-:
-function
 (
 _
 state
@@ -1039,8 +1029,6 @@ recordings
 *
 /
 _onRecordingDeleted
-:
-function
 (
 _
 recording
@@ -1184,8 +1172,6 @@ container
 *
 /
 _onSaveButtonClick
-:
-function
 (
 recording
 )
@@ -1332,8 +1318,6 @@ file
 ;
 }
 _onRecordingExported
-:
-function
 (
 _
 recording

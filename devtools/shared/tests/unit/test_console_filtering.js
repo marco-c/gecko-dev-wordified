@@ -102,8 +102,6 @@ callback
 =
 {
 onConsoleAPICall
-:
-function
 (
 message
 )

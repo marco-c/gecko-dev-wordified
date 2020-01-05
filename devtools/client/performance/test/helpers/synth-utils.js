@@ -703,8 +703,6 @@ AbstractTreeItem
 prototype
 {
 _displaySelf
-:
-function
 (
 document
 arrowNode
@@ -768,8 +766,6 @@ node
 ;
 }
 _populateSelf
-:
-function
 (
 children
 )

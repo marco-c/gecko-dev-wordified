@@ -676,8 +676,6 @@ true
 }
 )
 _checkRecordingStatus
-:
-function
 (
 )
 {

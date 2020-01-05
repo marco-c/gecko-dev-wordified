@@ -187,8 +187,6 @@ FrontClassWithSpec
 profilerSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -250,8 +248,6 @@ _onProfilerEvent
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -385,8 +381,6 @@ profiler
 *
 /
 _onProfilerEvent
-:
-function
 (
 eventName
 data

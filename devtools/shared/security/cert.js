@@ -333,8 +333,6 @@ getOrCreateCert
 localCertName
 {
 handleCert
-:
-function
 (
 cert
 rv
@@ -414,8 +412,6 @@ removeCert
 localCertName
 {
 handleCert
-:
-function
 (
 rv
 )

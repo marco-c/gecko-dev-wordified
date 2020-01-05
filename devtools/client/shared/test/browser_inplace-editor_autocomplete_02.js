@@ -436,8 +436,6 @@ done
 :
 resolve
 popup
-:
-popup
 }
 doc
 )

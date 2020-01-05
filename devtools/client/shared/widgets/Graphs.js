@@ -1379,8 +1379,6 @@ data
 *
 /
 ready
-:
-function
 (
 )
 {
@@ -1756,8 +1754,6 @@ method
 *
 /
 buildBackgroundImage
-:
-function
 (
 )
 {
@@ -1806,8 +1802,6 @@ changes
 *
 /
 buildGraphImage
-:
-function
 (
 )
 {
@@ -1870,8 +1864,6 @@ method
 *
 /
 buildMaskImage
-:
-function
 (
 )
 {
@@ -1952,8 +1944,6 @@ subclasses
 *
 /
 setData
-:
-function
 (
 data
 )
@@ -2100,8 +2090,6 @@ args
 *
 /
 setMask
-:
-function
 (
 mask
 .
@@ -2201,8 +2189,6 @@ values
 *
 /
 setRegions
-:
-function
 (
 regions
 )
@@ -2339,8 +2325,6 @@ boolean
 *
 /
 hasData
-:
-function
 (
 )
 {
@@ -2373,8 +2357,6 @@ boolean
 *
 /
 hasMask
-:
-function
 (
 )
 {
@@ -2406,8 +2388,6 @@ boolean
 *
 /
 hasRegions
-:
-function
 (
 )
 {
@@ -2495,8 +2475,6 @@ values
 *
 /
 setSelection
-:
-function
 (
 selection
 )
@@ -2625,8 +2603,6 @@ values
 *
 /
 getSelection
-:
-function
 (
 )
 {
@@ -2784,8 +2760,6 @@ axis
 *
 /
 setMappedSelection
-:
-function
 (
 selection
 mapping
@@ -3127,8 +3101,6 @@ values
 *
 /
 getMappedSelection
-:
-function
 (
 mapping
 =
@@ -3392,10 +3364,6 @@ endTime
 return
 {
 min
-:
-min
-max
-:
 max
 }
 ;
@@ -3411,8 +3379,6 @@ selection
 *
 /
 dropSelection
-:
-function
 (
 )
 {
@@ -3489,8 +3455,6 @@ boolean
 *
 /
 hasSelection
-:
-function
 (
 )
 {
@@ -3550,8 +3514,6 @@ boolean
 *
 /
 hasSelectionInProgress
-:
-function
 (
 )
 {
@@ -3638,8 +3600,6 @@ position
 *
 /
 setCursor
-:
-function
 (
 cursor
 )
@@ -3759,8 +3719,6 @@ values
 *
 /
 getCursor
-:
-function
 (
 )
 {
@@ -3794,8 +3752,6 @@ cursor
 *
 /
 dropCursor
-:
-function
 (
 )
 {
@@ -3856,8 +3812,6 @@ boolean
 *
 /
 hasCursor
-:
-function
 (
 )
 {
@@ -3916,8 +3870,6 @@ values
 *
 /
 isSelectionDifferent
-:
-function
 (
 other
 )
@@ -4001,8 +3953,6 @@ values
 *
 /
 isCursorDifferent
-:
-function
 (
 other
 )
@@ -4081,8 +4031,6 @@ width
 *
 /
 getSelectionWidth
-:
-function
 (
 )
 {
@@ -4151,8 +4099,6 @@ values
 *
 /
 getHoveredRegion
-:
-function
 (
 )
 {
@@ -4268,8 +4214,6 @@ everything
 *
 /
 refresh
-:
-function
 (
 options
 =
@@ -4722,8 +4666,6 @@ height
 *
 /
 _getNamedCanvas
-:
-function
 (
 name
 width
@@ -4833,10 +4775,6 @@ renderTarget
 =
 {
 canvas
-:
-canvas
-ctx
-:
 ctx
 }
 ;
@@ -4921,8 +4859,6 @@ driver
 *
 /
 _onAnimationFrame
-:
-function
 (
 )
 {
@@ -4980,8 +4916,6 @@ etc
 *
 /
 _drawWidget
-:
-function
 (
 )
 {
@@ -5206,8 +5140,6 @@ necessary
 *
 /
 _drawCliphead
-:
-function
 (
 )
 {
@@ -5307,8 +5239,6 @@ necessary
 *
 /
 _drawSelection
-:
-function
 (
 )
 {
@@ -5609,8 +5539,6 @@ set
 *
 /
 _bakeRegions
-:
-function
 (
 regions
 destination
@@ -5753,8 +5681,6 @@ boolean
 *
 /
 _isHoveringStartBoundary
-:
-function
 (
 )
 {
@@ -5841,8 +5767,6 @@ boolean
 *
 /
 _isHoveringEndBoundary
-:
-function
 (
 )
 {
@@ -5925,8 +5849,6 @@ boolean
 *
 /
 _isHoveringSelectionContents
-:
-function
 (
 )
 {
@@ -6026,8 +5948,6 @@ boolean
 *
 /
 _isHoveringSelectionContentsOrBoundaries
-:
-function
 (
 )
 {
@@ -6070,8 +5990,6 @@ boolean
 *
 /
 _isHoveringRegion
-:
-function
 (
 )
 {
@@ -6110,8 +6028,6 @@ mouseY
 *
 /
 _getRelativeEventCoordinates
-:
-function
 (
 e
 )
@@ -6631,8 +6547,6 @@ container
 *
 /
 _onMouseMove
-:
-function
 (
 e
 )
@@ -7157,8 +7071,6 @@ container
 *
 /
 _onMouseDown
-:
-function
 (
 e
 )
@@ -7449,8 +7361,6 @@ container
 *
 /
 _onMouseUp
-:
-function
 (
 )
 {
@@ -7759,8 +7669,6 @@ container
 *
 /
 _onMouseWheel
-:
-function
 (
 e
 )
@@ -8223,8 +8131,6 @@ happening
 *
 /
 _onMouseOut
-:
-function
 (
 e
 )
@@ -8294,8 +8200,6 @@ node
 *
 /
 _onResize
-:
-function
 (
 )
 {
@@ -9091,8 +8995,6 @@ another
 *
 /
 linkSelection
-:
-function
 (
 graph1
 graph2
@@ -9301,8 +9203,6 @@ task
 *
 /
 _performTaskInWorker
-:
-function
 (
 task
 data

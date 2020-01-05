@@ -360,8 +360,6 @@ filter
 ;
 }
 onClickMessagesClear
-:
-function
 (
 )
 {
@@ -378,8 +376,6 @@ messagesClear
 ;
 }
 onClickFilterBarToggle
-:
-function
 (
 )
 {
@@ -398,8 +394,6 @@ filterBarToggle
 ;
 }
 onClickFiltersClear
-:
-function
 (
 )
 {
@@ -416,8 +410,6 @@ filtersClear
 ;
 }
 onSearchInput
-:
-function
 (
 e
 )

@@ -245,8 +245,6 @@ PropTypes
 string
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -256,8 +254,6 @@ return
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -363,8 +359,6 @@ object
 /
 Commands
 onPrettify
-:
-function
 (
 event
 )
@@ -381,8 +375,6 @@ onPrettify
 ;
 }
 onSave
-:
-function
 (
 event
 )
@@ -399,8 +391,6 @@ onSaveJson
 ;
 }
 onCopy
-:
-function
 (
 event
 )
@@ -417,8 +407,6 @@ onCopyJson
 ;
 }
 render
-:
-function
 (
 )
 {

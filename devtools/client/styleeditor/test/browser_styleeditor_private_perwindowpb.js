@@ -383,8 +383,6 @@ prototype
 =
 {
 onCacheStorageInfo
-:
-function
 (
 num
 )
@@ -406,8 +404,6 @@ entries
 ;
 }
 onCacheEntryInfo
-:
-function
 (
 uri
 )
@@ -436,8 +432,6 @@ host
 ;
 }
 onCacheEntryVisitCompleted
-:
-function
 (
 )
 {

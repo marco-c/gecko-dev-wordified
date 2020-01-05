@@ -1116,8 +1116,6 @@ name
 ;
 }
 name
-:
-name
 primitive
 :
 !
@@ -1552,8 +1550,6 @@ category
 "
 dict
 "
-specializations
-:
 specializations
 read
 :
@@ -3096,8 +3092,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 index
 type
@@ -3122,8 +3116,6 @@ type
 ;
 }
 write
-:
-function
 (
 arg
 ctx
@@ -3142,8 +3134,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -3169,8 +3159,6 @@ ctx
 ;
 }
 describe
-:
-function
 (
 )
 {
@@ -3303,8 +3291,6 @@ extends
 :
 Arg
 initialize
-:
-function
 (
 index
 type
@@ -3325,8 +3311,6 @@ type
 ;
 }
 write
-:
-function
 (
 arg
 ctx
@@ -3389,8 +3373,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -3457,8 +3439,6 @@ ctx
 ;
 }
 describe
-:
-function
 (
 )
 {
@@ -3526,8 +3506,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 type
 )
@@ -3545,8 +3523,6 @@ type
 ;
 }
 write
-:
-function
 (
 v
 ctx
@@ -3565,8 +3541,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -3585,8 +3559,6 @@ ctx
 ;
 }
 describe
-:
-function
 (
 )
 {
@@ -3877,8 +3849,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 template
 =
@@ -3954,8 +3924,6 @@ packet
 *
 /
 write
-:
-function
 (
 fnArgs
 ctx
@@ -4061,8 +4029,6 @@ array
 *
 /
 read
-:
-function
 (
 packet
 ctx
@@ -4130,8 +4096,6 @@ fnArgs
 ;
 }
 describe
-:
-function
 (
 )
 {
@@ -4177,8 +4141,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 template
 =
@@ -4294,8 +4256,6 @@ response
 *
 /
 write
-:
-function
 (
 ret
 ctx
@@ -4381,8 +4341,6 @@ response
 *
 /
 read
-:
-function
 (
 packet
 ctx
@@ -4424,8 +4382,6 @@ ctx
 ;
 }
 describe
-:
-function
 (
 )
 {
@@ -4538,8 +4494,6 @@ constructor
 *
 /
 initialize
-:
-function
 (
 conn
 )
@@ -4572,8 +4526,6 @@ client
 *
 /
 parent
-:
-function
 (
 )
 {
@@ -4617,8 +4569,6 @@ default
 *
 /
 marshallPool
-:
-function
 (
 )
 {
@@ -4726,8 +4676,6 @@ pool
 *
 /
 manage
-:
-function
 (
 actor
 )
@@ -4794,8 +4742,6 @@ pool
 *
 /
 unmanage
-:
-function
 (
 actor
 )
@@ -4831,8 +4777,6 @@ the
 pool
 .
 has
-:
-function
 (
 actorID
 )
@@ -4867,8 +4811,6 @@ in
 this
 pool
 actor
-:
-function
 (
 actorID
 )
@@ -4912,8 +4854,6 @@ remove
 this
 .
 get
-:
-function
 (
 actorID
 )
@@ -4946,8 +4886,6 @@ no
 children
 .
 isEmpty
-:
-function
 (
 )
 {
@@ -4982,10 +4920,8 @@ of
 the
 pool
 .
-poolChildren
-:
-function
 *
+poolChildren
 (
 )
 {
@@ -5074,8 +5010,6 @@ necessary
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -5253,8 +5187,6 @@ eventually
 *
 /
 cleanup
-:
-function
 (
 )
 {
@@ -5355,8 +5287,6 @@ constructor
 *
 /
 initialize
-:
-function
 (
 conn
 )
@@ -5458,8 +5388,6 @@ args
 }
 }
 toString
-:
-function
 (
 )
 {
@@ -5487,8 +5415,6 @@ actorID
 ;
 }
 _sendEvent
-:
-function
 (
 name
 .
@@ -5610,8 +5536,6 @@ packet
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -5671,8 +5595,6 @@ object
 *
 /
 form
-:
-function
 (
 hint
 )
@@ -5688,8 +5610,6 @@ actorID
 ;
 }
 writeError
-:
-function
 (
 error
 )
@@ -5748,8 +5668,6 @@ message
 ;
 }
 _queueResponse
-:
-function
 (
 create
 )
@@ -7202,8 +7120,6 @@ constructor
 *
 /
 initialize
-:
-function
 (
 conn
 =
@@ -7342,8 +7258,6 @@ context
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -7468,8 +7382,6 @@ null
 ;
 }
 manage
-:
-function
 (
 front
 )
@@ -7552,8 +7464,6 @@ represents
 *
 /
 actor
-:
-function
 (
 )
 {
@@ -7569,8 +7479,6 @@ actorID
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -7618,8 +7526,6 @@ this
 *
 /
 form
-:
-function
 (
 form
 )
@@ -7639,8 +7545,6 @@ connection
 *
 /
 send
-:
-function
 (
 packet
 )
@@ -7731,8 +7635,6 @@ connection
 *
 /
 request
-:
-function
 (
 packet
 )
@@ -7815,8 +7717,6 @@ actor
 *
 /
 onPacket
-:
-function
 (
 packet
 )
@@ -9187,10 +9087,6 @@ request
 type
 {
 name
-:
-name
-request
-:
 request
 pre
 :

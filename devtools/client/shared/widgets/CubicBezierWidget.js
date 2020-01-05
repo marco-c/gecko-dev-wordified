@@ -573,8 +573,6 @@ slice
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1088,8 +1086,6 @@ coordinates
 *
 /
 offsetsToCoordinates
-:
-function
 (
 element
 )
@@ -1229,8 +1225,6 @@ coordinates
 *
 /
 plot
-:
-function
 (
 settings
 =
@@ -2050,8 +2044,6 @@ prototype
 =
 {
 _initMarkup
-:
-function
 (
 )
 {
@@ -2243,8 +2235,6 @@ curve
 ;
 }
 _removeMarkup
-:
-function
 (
 )
 {
@@ -2268,8 +2258,6 @@ remove
 ;
 }
 _initEvents
-:
-function
 (
 )
 {
@@ -2361,8 +2349,6 @@ _onNewCoordinates
 ;
 }
 _removeEvents
-:
-function
 (
 )
 {
@@ -2454,8 +2440,6 @@ _onNewCoordinates
 ;
 }
 _onPointMouseDown
-:
-function
 (
 event
 )
@@ -2651,8 +2635,6 @@ null
 ;
 }
 _onPointKeyDown
-:
-function
 (
 event
 )
@@ -2828,8 +2810,6 @@ _updateFromPoints
 }
 }
 _onCurveClick
-:
-function
 (
 event
 )
@@ -2998,8 +2978,6 @@ _updateFromPoints
 ;
 }
 _onNewCoordinates
-:
-function
 (
 event
 coordinates
@@ -3030,8 +3008,6 @@ match
 *
 /
 _updateFromPoints
-:
-function
 (
 )
 {
@@ -3118,8 +3094,6 @@ coordinates
 *
 /
 _redraw
-:
-function
 (
 coordinates
 )
@@ -3402,8 +3376,6 @@ coordinates
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3700,8 +3672,6 @@ preset
 *
 /
 _initMarkup
-:
-function
 (
 )
 {
@@ -3885,8 +3855,6 @@ preset
 return
 {
 presetPane
-:
-presetPane
 presets
 :
 allPresets
@@ -3897,8 +3865,6 @@ allCategories
 ;
 }
 _createCategory
-:
-function
 (
 categoryLabel
 )
@@ -3973,8 +3939,6 @@ category
 ;
 }
 _normalizeCategoryLabel
-:
-function
 (
 categoryLabel
 )
@@ -3996,8 +3960,6 @@ g
 ;
 }
 _createPresetList
-:
-function
 (
 categoryLabel
 )
@@ -4092,8 +4054,6 @@ presetList
 ;
 }
 _createPreset
-:
-function
 (
 categoryLabel
 presetLabel
@@ -4298,8 +4258,6 @@ preset
 ;
 }
 _normalizePresetLabel
-:
-function
 (
 categoryLabel
 presetLabel
@@ -4333,8 +4291,6 @@ g
 ;
 }
 _initEvents
-:
-function
 (
 )
 {
@@ -4386,8 +4342,6 @@ _onPresetClick
 }
 }
 _removeEvents
-:
-function
 (
 )
 {
@@ -4439,8 +4393,6 @@ _onPresetClick
 }
 }
 _onPresetClick
-:
-function
 (
 event
 )
@@ -4471,8 +4423,6 @@ currentTarget
 ;
 }
 _onCategoryClick
-:
-function
 (
 event
 )
@@ -4487,8 +4437,6 @@ target
 ;
 }
 _setActivePresetList
-:
-function
 (
 presetListId
 )
@@ -4671,8 +4619,6 @@ l
 *
 /
 refreshMenu
-:
-function
 (
 coordinates
 )
@@ -4879,8 +4825,6 @@ preset
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -4985,8 +4929,6 @@ PREVIEW_DURATION
 :
 1000
 _initMarkup
-:
-function
 (
 )
 {
@@ -5096,8 +5038,6 @@ container
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -5190,8 +5130,6 @@ value
 *
 /
 preview
-:
-function
 (
 value
 )
@@ -5280,8 +5218,6 @@ beginning
 *
 /
 restartAnimation
-:
-function
 (
 )
 {

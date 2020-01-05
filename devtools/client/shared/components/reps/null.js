@@ -286,8 +286,6 @@ rep
 :
 Null
 supportsObject
-:
-supportsObject
 }
 ;
 }

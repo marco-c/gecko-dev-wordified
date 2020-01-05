@@ -489,8 +489,6 @@ started
 *
 /
 initialize
-:
-function
 (
 store
 )
@@ -2464,8 +2462,6 @@ textboxes
 *
 /
 toggleRawHeaders
-:
-function
 (
 )
 {
@@ -2639,8 +2635,6 @@ form
 *
 /
 sendCustomRequest
-:
-function
 (
 )
 {

@@ -486,8 +486,6 @@ getTab
 (
 {
 tab
-:
-tab
 }
 )
 .

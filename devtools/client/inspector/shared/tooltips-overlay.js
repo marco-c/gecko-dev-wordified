@@ -584,8 +584,6 @@ needed
 *
 /
 addToView
-:
-function
 (
 )
 {
@@ -839,8 +837,6 @@ tooltips
 *
 /
 removeFromView
-:
-function
 (
 )
 {
@@ -996,8 +992,6 @@ null
 *
 /
 _getTooltipType
-:
-function
 (
 {
 type
@@ -1994,8 +1988,6 @@ naturalHeight
 }
 )
 _onNewSelection
-:
-function
 (
 )
 {
@@ -2096,8 +2088,6 @@ view
 *
 /
 destroy
-:
-function
 (
 )
 {

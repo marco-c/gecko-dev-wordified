@@ -378,8 +378,6 @@ PropTypes
 object
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -389,8 +387,6 @@ return
 ;
 }
 componentDidMount
-:
-function
 (
 )
 {
@@ -409,8 +405,6 @@ true
 ;
 }
 componentWillUnmount
-:
-function
 (
 )
 {
@@ -429,8 +423,6 @@ true
 ;
 }
 onKeyPress
-:
-function
 (
 e
 )
@@ -452,8 +444,6 @@ Bug
 .
 }
 onFilter
-:
-function
 (
 object
 )
@@ -513,8 +503,6 @@ toLowerCase
 ;
 }
 getExpandedNodes
-:
-function
 (
 object
 path
@@ -712,8 +700,6 @@ cropLimit
 ;
 }
 renderTree
-:
-function
 (
 )
 {
@@ -834,23 +820,17 @@ this
 .
 onFilter
 columns
-:
-columns
 renderValue
 :
 this
 .
 renderValue
 expandedNodes
-:
-expandedNodes
 }
 )
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -1017,8 +997,6 @@ object
 /
 Commands
 onSave
-:
-function
 (
 event
 )
@@ -1035,8 +1013,6 @@ onSaveJson
 ;
 }
 onCopy
-:
-function
 (
 event
 )
@@ -1053,8 +1029,6 @@ onCopyJson
 ;
 }
 render
-:
-function
 (
 )
 {

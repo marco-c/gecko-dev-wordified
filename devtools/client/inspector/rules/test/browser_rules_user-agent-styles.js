@@ -1015,8 +1015,6 @@ matchedSelectors
 :
 true
 filter
-:
-filter
 }
 )
 ;

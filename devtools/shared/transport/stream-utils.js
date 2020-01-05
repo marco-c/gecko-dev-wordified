@@ -879,8 +879,6 @@ prototype
 =
 {
 copy
-:
-function
 (
 )
 {
@@ -962,8 +960,6 @@ this
 ;
 }
 _copy
-:
-function
 (
 )
 {
@@ -1186,8 +1182,6 @@ currentThread
 ;
 }
 _emitProgress
-:
-function
 (
 )
 {
@@ -1218,8 +1212,6 @@ _length
 ;
 }
 _flush
-:
-function
 (
 )
 {
@@ -1327,8 +1319,6 @@ resolve
 ;
 }
 _destroy
-:
-function
 (
 )
 {
@@ -1367,8 +1357,6 @@ null
 /
 nsIInputStreamCallback
 onInputStreamReady
-:
-function
 (
 )
 {
@@ -1383,8 +1371,6 @@ _streamReadyCallback
 /
 nsIOutputStreamCallback
 onOutputStreamReady
-:
-function
 (
 )
 {
@@ -1396,8 +1382,6 @@ _streamReadyCallback
 ;
 }
 _debug
-:
-function
 (
 msg
 )
@@ -1757,10 +1741,6 @@ exports
 =
 {
 copyStream
-:
-copyStream
-delimitedRead
-:
 delimitedRead
 }
 ;

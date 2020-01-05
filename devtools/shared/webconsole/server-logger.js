@@ -224,8 +224,6 @@ trace
 =
 {
 log
-:
-function
 (
 )
 {
@@ -441,8 +439,6 @@ instance
 *
 /
 initialize
-:
-function
 (
 win
 owner
@@ -546,8 +542,6 @@ actor
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -823,8 +817,6 @@ Parent
 Child
 Relationship
 attachParentProcess
-:
-function
 (
 )
 {
@@ -1144,8 +1136,6 @@ method
 HTTP
 Observer
 onExamineHeaders
-:
-function
 (
 event
 )
@@ -1376,10 +1366,6 @@ push
 (
 {
 header
-:
-header
-value
-:
 value
 }
 )
@@ -1396,8 +1382,6 @@ onExamineHeaders
 data
 :
 {
-headers
-:
 headers
 }
 }
@@ -1460,8 +1444,6 @@ otherwise
 *
 /
 _matchRequest
-:
-function
 (
 channel
 )
@@ -1703,8 +1685,6 @@ techspecs
 *
 /
 parse
-:
-function
 (
 header
 value
@@ -2036,10 +2016,6 @@ logs
 :
 rawLogs
 location
-:
-location
-type
-:
 type
 }
 )
@@ -2050,8 +2026,6 @@ parsedMessage
 ;
 }
 getColumnMap
-:
-function
 (
 data
 )
@@ -2100,8 +2074,6 @@ columnMap
 ;
 }
 sendMessage
-:
-function
 (
 msg
 )
@@ -2177,8 +2149,6 @@ category
 "
 server
 "
-innerID
-:
 innerID
 level
 :

@@ -992,8 +992,6 @@ data
 :
 result
 id
-:
-id
 }
 )
 ;

@@ -442,8 +442,6 @@ menu
 *
 /
 UnknownLabel
-:
-function
 (
 marker
 =
@@ -483,8 +481,6 @@ pipeline
 *
 /
 StylesFields
-:
-function
 (
 marker
 )
@@ -549,8 +545,6 @@ JS
 *
 /
 DOMEventFields
-:
-function
 (
 marker
 )
@@ -711,8 +705,6 @@ fields
 ;
 }
 JSLabel
-:
-function
 (
 marker
 =
@@ -762,8 +754,6 @@ generic
 ;
 }
 JSFields
-:
-function
 (
 marker
 )
@@ -832,8 +822,6 @@ null
 ;
 }
 GCLabel
-:
-function
 (
 marker
 )
@@ -925,8 +913,6 @@ incremental
 ;
 }
 GCFields
-:
-function
 (
 marker
 )
@@ -1037,8 +1023,6 @@ fields
 ;
 }
 MinorGCFields
-:
-function
 (
 marker
 )
@@ -1141,8 +1125,6 @@ fields
 ;
 }
 CycleCollectionFields
-:
-function
 (
 marker
 )
@@ -1188,8 +1170,6 @@ label
 ;
 }
 WorkerFields
-:
-function
 (
 marker
 )
@@ -1247,8 +1227,6 @@ null
 ;
 }
 MessagePortFields
-:
-function
 (
 marker
 )

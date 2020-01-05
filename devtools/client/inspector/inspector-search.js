@@ -510,8 +510,6 @@ walker
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -597,8 +595,6 @@ destroy
 ;
 }
 _onSearch
-:
-function
 (
 reverse
 =
@@ -863,8 +859,6 @@ result
 }
 )
 _onInput
-:
-function
 (
 )
 {
@@ -911,8 +905,6 @@ false
 }
 }
 _onKeyDown
-:
-function
 (
 event
 )
@@ -997,8 +989,6 @@ preventDefault
 }
 }
 _onClearSearch
-:
-function
 (
 )
 {
@@ -2432,8 +2422,6 @@ references
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -2522,8 +2510,6 @@ box
 *
 /
 _onSearchKeypress
-:
-function
 (
 event
 )
@@ -2842,8 +2828,6 @@ popup
 *
 /
 _onSearchPopupClick
-:
-function
 (
 event
 )
@@ -2924,8 +2908,6 @@ changed
 *
 /
 _onMarkupMutation
-:
-function
 (
 )
 {
@@ -2980,8 +2962,6 @@ hidden
 *
 /
 _showPopup
-:
-function
 (
 list
 firstPart
@@ -3607,8 +3587,6 @@ necessary
 *
 /
 hidePopup
-:
-function
 (
 )
 {
@@ -3665,8 +3643,6 @@ searchbox
 *
 /
 showSuggestions
-:
-function
 (
 )
 {

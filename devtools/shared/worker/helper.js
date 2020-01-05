@@ -848,8 +848,6 @@ errorString
 return
 {
 createTask
-:
-createTask
 }
 ;
 }

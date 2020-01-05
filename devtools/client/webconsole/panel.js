@@ -264,8 +264,6 @@ it
 *
 /
 focusInput
-:
-function
 (
 )
 {
@@ -311,8 +309,6 @@ opening
 *
 /
 open
-:
-function
 (
 )
 {
@@ -694,8 +690,6 @@ _isReady
 ;
 }
 destroy
-:
-function
 (
 )
 {

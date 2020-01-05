@@ -556,8 +556,6 @@ swatch
 *
 /
 show
-:
-function
 (
 )
 {
@@ -706,8 +704,6 @@ resolve
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -870,8 +866,6 @@ tooltip
 *
 /
 addSwatch
-:
-function
 (
 swatchEl
 callbacks
@@ -965,8 +959,6 @@ set
 swatchEl
 {
 callbacks
-:
-callbacks
 }
 )
 ;
@@ -985,8 +977,6 @@ false
 ;
 }
 removeSwatch
-:
-function
 (
 swatchEl
 )
@@ -1052,8 +1042,6 @@ swatchEl
 }
 }
 _onSwatchClick
-:
-function
 (
 event
 )
@@ -1146,8 +1134,6 @@ classes
 *
 /
 preview
-:
-function
 (
 value
 )
@@ -1202,8 +1188,6 @@ keypress
 *
 /
 revert
-:
-function
 (
 )
 {
@@ -1279,8 +1263,6 @@ keypress
 *
 /
 commit
-:
-function
 (
 )
 {
@@ -1316,8 +1298,6 @@ onCommit
 }
 }
 destroy
-:
-function
 (
 )
 {

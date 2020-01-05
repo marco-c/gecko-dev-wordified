@@ -234,8 +234,6 @@ height
 "
 ]
 allProps
-:
-function
 (
 )
 {
@@ -257,8 +255,6 @@ SIZES
 ;
 }
 isSide
-:
-function
 (
 name
 )
@@ -280,8 +276,6 @@ name
 ;
 }
 isSize
-:
-function
 (
 name
 )
@@ -303,8 +297,6 @@ name
 ;
 }
 containsSide
-:
-function
 (
 names
 )
@@ -334,8 +326,6 @@ name
 ;
 }
 containsSize
-:
-function
 (
 names
 )
@@ -365,8 +355,6 @@ name
 ;
 }
 isHorizontal
-:
-function
 (
 name
 )
@@ -400,8 +388,6 @@ width
 ;
 }
 isInverted
-:
-function
 (
 name
 )
@@ -426,8 +412,6 @@ bottom
 ;
 }
 mainAxisStart
-:
-function
 (
 name
 )
@@ -450,8 +434,6 @@ top
 ;
 }
 crossAxisStart
-:
-function
 (
 name
 )
@@ -474,8 +456,6 @@ left
 ;
 }
 mainAxisSize
-:
-function
 (
 name
 )
@@ -498,8 +478,6 @@ height
 ;
 }
 crossAxisSize
-:
-function
 (
 name
 )
@@ -522,8 +500,6 @@ width
 ;
 }
 axis
-:
-function
 (
 name
 )
@@ -546,8 +522,6 @@ y
 ;
 }
 crossAxis
-:
-function
 (
 name
 )
@@ -1681,8 +1655,6 @@ editor
 -
 "
 _buildMarkup
-:
-function
 (
 )
 {
@@ -2379,8 +2351,6 @@ container
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2484,8 +2454,6 @@ null
 ;
 }
 handleEvent
-:
-function
 (
 event
 id
@@ -3033,8 +3001,6 @@ break
 }
 }
 getElement
-:
-function
 (
 id
 )
@@ -3055,8 +3021,6 @@ id
 ;
 }
 _show
-:
-function
 (
 )
 {
@@ -3163,8 +3127,6 @@ true
 ;
 }
 _update
-:
-function
 (
 )
 {
@@ -3441,8 +3403,6 @@ hidden
 *
 /
 updateOffsetParent
-:
-function
 (
 )
 {
@@ -3842,8 +3802,6 @@ true
 }
 }
 updateCurrentNode
-:
-function
 (
 )
 {
@@ -3955,8 +3913,6 @@ hidden
 ;
 }
 _hide
-:
-function
 (
 )
 {
@@ -4054,8 +4010,6 @@ documentElement
 ;
 }
 hideArrows
-:
-function
 (
 )
 {
@@ -4138,8 +4092,6 @@ true
 }
 }
 updateArrows
-:
-function
 (
 )
 {
@@ -4696,8 +4648,6 @@ side
 }
 }
 updateArrow
-:
-function
 (
 side
 mainStart

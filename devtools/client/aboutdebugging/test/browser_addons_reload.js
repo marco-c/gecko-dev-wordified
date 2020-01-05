@@ -109,8 +109,6 @@ listener
 [
 event
 ]
-:
-function
 (
 .
 .

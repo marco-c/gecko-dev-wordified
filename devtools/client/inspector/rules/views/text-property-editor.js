@@ -743,8 +743,6 @@ DOM
 *
 /
 _create
-:
-function
 (
 )
 {
@@ -2263,8 +2261,6 @@ TextProperty
 *
 /
 update
-:
-function
 (
 )
 {
@@ -3252,8 +3248,6 @@ this
 ;
 }
 _onStartEditing
-:
-function
 (
 )
 {
@@ -3325,8 +3319,6 @@ property
 *
 /
 updatePropertyState
-:
-function
 (
 )
 {
@@ -3542,8 +3534,6 @@ visible
 *
 /
 _updateComputed
-:
-function
 (
 )
 {
@@ -3643,8 +3633,6 @@ styles
 *
 /
 _populateComputed
-:
-function
 (
 )
 {
@@ -3928,8 +3916,6 @@ property
 *
 /
 _onEnableClicked
-:
-function
 (
 event
 )
@@ -4069,8 +4055,6 @@ user
 *
 /
 _onExpandClicked
-:
-function
 (
 event
 )
@@ -4234,8 +4218,6 @@ filter
 *
 /
 expandForFilter
-:
-function
 (
 )
 {
@@ -4311,8 +4293,6 @@ filtering
 *
 /
 collapseForFilter
-:
-function
 (
 )
 {
@@ -4435,8 +4415,6 @@ number
 *
 /
 _onNameDone
-:
-function
 (
 value
 commit
@@ -4756,8 +4734,6 @@ number
 *
 /
 remove
-:
-function
 (
 direction
 )
@@ -4980,8 +4956,6 @@ number
 *
 /
 _onValueDone
-:
-function
 (
 value
 =
@@ -5389,8 +5363,6 @@ change
 *
 /
 _onSwatchCommit
-:
-function
 (
 )
 {
@@ -5432,8 +5404,6 @@ change
 *
 /
 _onSwatchPreview
-:
-function
 (
 )
 {
@@ -5478,8 +5448,6 @@ editing
 *
 /
 _onSwatchRevert
-:
-function
 (
 )
 {
@@ -5638,8 +5606,6 @@ priority
 *
 /
 _getValueAndExtraProperties
-:
-function
 (
 value
 )
@@ -5890,10 +5856,6 @@ slice
 return
 {
 propertiesToAdd
-:
-propertiesToAdd
-firstValue
-:
 firstValue
 }
 ;
@@ -5947,8 +5909,6 @@ value
 *
 /
 _previewValue
-:
-function
 (
 value
 reverting
@@ -6088,8 +6048,6 @@ otherwise
 *
 /
 isValid
-:
-function
 (
 )
 {
@@ -6139,8 +6097,6 @@ declaration
 *
 /
 isDisplayGrid
-:
-function
 (
 )
 {

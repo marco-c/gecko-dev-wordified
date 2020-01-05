@@ -122,8 +122,6 @@ FrontClassWithSpec
 framerateSpec
 {
 initialize
-:
-function
 (
 client
 {

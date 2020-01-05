@@ -350,8 +350,6 @@ center
 :
 true
 selector
-:
-selector
 }
 )
 ;

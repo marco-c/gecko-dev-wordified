@@ -121,8 +121,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -330,8 +328,6 @@ prototype
 /
 Connection
 start
-:
-function
 (
 )
 {
@@ -365,8 +361,6 @@ onNetworkEventUpdate
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -400,8 +394,6 @@ onNetworkEventUpdate
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -469,8 +461,6 @@ requests
 ;
 }
 waitForHarLoad
-:
-function
 (
 )
 {
@@ -566,8 +556,6 @@ promise
 ;
 }
 waitForResponses
-:
-function
 (
 )
 {
@@ -857,8 +845,6 @@ pageLoadedTimeout
 *
 /
 waitForTimeout
-:
-function
 (
 )
 {
@@ -992,8 +978,6 @@ promise
 ;
 }
 onPageLoadTimeout
-:
-function
 (
 )
 {
@@ -1033,8 +1017,6 @@ resolve
 ;
 }
 resetPageLoadTimeout
-:
-function
 (
 )
 {
@@ -1114,8 +1096,6 @@ null
 Collected
 Data
 getFile
-:
-function
 (
 actorId
 )
@@ -1132,8 +1112,6 @@ actorId
 ;
 }
 getItems
-:
-function
 (
 )
 {
@@ -1148,8 +1126,6 @@ items
 Event
 Handlers
 onNetworkEvent
-:
-function
 (
 type
 packet
@@ -1305,13 +1281,7 @@ startedMillis
 :
 startTime
 method
-:
-method
 url
-:
-url
-isXHR
-:
 isXHR
 }
 ;
@@ -1344,8 +1314,6 @@ file
 ;
 }
 onNetworkEventUpdate
-:
-function
 (
 type
 packet
@@ -1719,8 +1687,6 @@ resetPageLoadTimeout
 ;
 }
 getData
-:
-function
 (
 actor
 method
@@ -1892,8 +1858,6 @@ server
 *
 /
 onRequestHeaders
-:
-function
 (
 response
 )
@@ -1957,8 +1921,6 @@ server
 *
 /
 onRequestCookies
-:
-function
 (
 response
 )
@@ -2022,8 +1984,6 @@ server
 *
 /
 onRequestPostData
-:
-function
 (
 response
 )
@@ -2141,8 +2101,6 @@ server
 *
 /
 onResponseHeaders
-:
-function
 (
 response
 )
@@ -2206,8 +2164,6 @@ server
 *
 /
 onResponseCookies
-:
-function
 (
 response
 )
@@ -2271,8 +2227,6 @@ server
 *
 /
 onResponseContent
-:
-function
 (
 response
 )
@@ -2377,8 +2331,6 @@ server
 *
 /
 onEventTimings
-:
-function
 (
 response
 )
@@ -2573,8 +2525,6 @@ wrong
 *
 /
 getString
-:
-function
 (
 stringGrip
 )

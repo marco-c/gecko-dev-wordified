@@ -530,8 +530,6 @@ listenProtocolDesc
 }
 ]
 exec
-:
-function
 (
 args
 context
@@ -706,8 +704,6 @@ unlistenManual
 "
 )
 exec
-:
-function
 (
 args
 context

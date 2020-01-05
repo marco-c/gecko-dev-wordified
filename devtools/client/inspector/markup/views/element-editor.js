@@ -841,8 +841,6 @@ value
 }
 }
 flashAttribute
-:
-function
 (
 attrName
 )
@@ -975,8 +973,6 @@ node
 *
 /
 getInfoAtNode
-:
-function
 (
 node
 )
@@ -1094,8 +1090,6 @@ node
 *
 /
 update
-:
-function
 (
 )
 {
@@ -1474,8 +1468,6 @@ node
 *
 /
 updateTextEditor
-:
-function
 (
 )
 {
@@ -1633,8 +1625,6 @@ update
 }
 }
 _startModifyingAttributes
-:
-function
 (
 )
 {
@@ -1691,8 +1681,6 @@ DOMNode
 *
 /
 getAttributeElement
-:
-function
 (
 attrName
 )
@@ -1764,8 +1752,6 @@ remove
 *
 /
 removeAttribute
-:
-function
 (
 attrName
 )
@@ -1805,8 +1791,6 @@ remove
 }
 }
 _createAttribute
-:
-function
 (
 attribute
 before
@@ -2149,8 +2133,6 @@ true
 selectAll
 :
 false
-initial
-:
 initial
 multiline
 :
@@ -2978,8 +2960,6 @@ them
 *
 /
 _applyAttributes
-:
-function
 (
 value
 attrNode
@@ -3080,8 +3060,6 @@ list
 *
 /
 _saveAttribute
-:
-function
 (
 name
 undoMods
@@ -3183,8 +3161,6 @@ list
 *
 /
 refocusOnEdit
-:
-function
 (
 attrName
 attrNode
@@ -3838,8 +3814,6 @@ editing
 *
 /
 onTagEdit
-:
-function
 (
 newTagName
 isCommit
@@ -3968,8 +3942,6 @@ cancelReselectOnRemoved
 ;
 }
 destroy
-:
-function
 (
 )
 {

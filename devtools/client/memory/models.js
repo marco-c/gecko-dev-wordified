@@ -3209,8 +3209,6 @@ of
 view
 .
 view
-:
-function
 (
 app
 )

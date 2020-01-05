@@ -411,8 +411,6 @@ msg
 name
 {
 text
-:
-text
 }
 )
 ;

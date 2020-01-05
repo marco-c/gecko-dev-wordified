@@ -1504,8 +1504,6 @@ events
 *
 /
 onChange
-:
-function
 (
 type
 data
@@ -1626,8 +1624,6 @@ change
 .
 newValue
 items
-:
-items
 }
 ;
 /
@@ -1702,8 +1698,6 @@ change
 ;
 }
 onEditorDestroyed
-:
-function
 (
 )
 {
@@ -1802,8 +1796,6 @@ event
 *
 /
 onEditorTab
-:
-function
 (
 event
 )
@@ -2497,8 +2489,6 @@ event
 *
 /
 getEditedCellOnTab
-:
-function
 (
 event
 column
@@ -2926,8 +2916,6 @@ row
 *
 /
 onRowRemoved
-:
-function
 (
 event
 row
@@ -3039,8 +3027,6 @@ lost
 *
 /
 onEditorTargetLost
-:
-function
 (
 )
 {
@@ -3095,8 +3081,6 @@ rows
 *
 /
 onKeydown
-:
-function
 (
 event
 )
@@ -3432,8 +3416,6 @@ clicked
 *
 /
 onMousedown
-:
-function
 (
 {
 target
@@ -3523,8 +3505,6 @@ names
 *
 /
 makeFieldsEditable
-:
-function
 (
 editableColumns
 )
@@ -3664,8 +3644,6 @@ onTriggerEvent
 dblclick
 "
 selectors
-:
-selectors
 }
 )
 ;
@@ -3738,8 +3716,6 @@ _editableFieldsEngine
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -3911,8 +3887,6 @@ empty
 *
 /
 setPlaceholderText
-:
-function
 (
 text
 )
@@ -3979,8 +3953,6 @@ table
 *
 /
 setupHeadersContextMenu
-:
-function
 (
 )
 {
@@ -4171,8 +4143,6 @@ rows
 *
 /
 populateMenuPopup
-:
-function
 (
 privateColumns
 =
@@ -4422,8 +4392,6 @@ menu
 *
 /
 onPopupCommand
-:
-function
 (
 event
 )
@@ -4726,8 +4694,6 @@ rows
 *
 /
 setColumns
-:
-function
 (
 columns
 sortOn
@@ -5011,8 +4977,6 @@ table
 *
 /
 isSelected
-:
-function
 (
 item
 )
@@ -5073,8 +5037,6 @@ json
 *
 /
 selectRow
-:
-function
 (
 id
 )
@@ -5109,8 +5071,6 @@ selected
 *
 /
 selectNextRow
-:
-function
 (
 )
 {
@@ -5161,8 +5121,6 @@ selected
 *
 /
 selectPreviousRow
-:
-function
 (
 )
 {
@@ -5200,8 +5158,6 @@ row
 *
 /
 clearSelection
-:
-function
 (
 )
 {
@@ -5299,8 +5255,6 @@ row
 *
 /
 push
-:
-function
 (
 item
 suppressFlash
@@ -5549,8 +5503,6 @@ object
 *
 /
 remove
-:
-function
 (
 item
 )
@@ -5721,8 +5673,6 @@ value
 *
 /
 update
-:
-function
 (
 item
 )
@@ -5871,8 +5821,6 @@ table
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -5975,8 +5923,6 @@ sorted
 *
 /
 sortBy
-:
-function
 (
 column
 )
@@ -6319,8 +6265,6 @@ scrolling
 *
 /
 onScroll
-:
-function
 (
 )
 {
@@ -6368,8 +6312,6 @@ scrolled
 *
 /
 afterScroll
-:
-function
 (
 )
 {
@@ -7587,8 +7529,6 @@ by
 *
 /
 onColumnSorted
-:
-function
 (
 event
 column
@@ -7656,8 +7596,6 @@ updateZebra
 ;
 }
 onTableFiltered
-:
-function
 (
 event
 itemsToHide
@@ -7783,8 +7721,6 @@ row
 *
 /
 onRowUpdated
-:
-function
 (
 event
 id
@@ -7937,8 +7873,6 @@ updateZebra
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -8077,8 +8011,6 @@ index
 *
 /
 selectRowAt
-:
-function
 (
 index
 )
@@ -8182,8 +8114,6 @@ id
 *
 /
 selectRow
-:
-function
 (
 id
 )
@@ -8228,8 +8158,6 @@ selected
 *
 /
 selectNextRow
-:
-function
 (
 )
 {
@@ -8299,8 +8227,6 @@ selected
 *
 /
 selectPreviousRow
-:
-function
 (
 )
 {
@@ -8410,8 +8336,6 @@ item
 *
 /
 push
-:
-function
 (
 item
 )
@@ -8623,8 +8547,6 @@ table
 *
 /
 insertAt
-:
-function
 (
 item
 index
@@ -8784,8 +8706,6 @@ visible
 *
 /
 toggleColumn
-:
-function
 (
 event
 id
@@ -8897,8 +8817,6 @@ column
 *
 /
 remove
-:
-function
 (
 item
 )
@@ -9003,8 +8921,6 @@ column
 *
 /
 update
-:
-function
 (
 item
 )
@@ -9088,8 +9004,6 @@ cells
 *
 /
 _updateItems
-:
-function
 (
 )
 {
@@ -9159,8 +9073,6 @@ column
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -9237,8 +9149,6 @@ column
 *
 /
 sort
-:
-function
 (
 items
 )
@@ -9677,8 +9587,6 @@ sorting
 *
 /
 onClick
-:
-function
 (
 event
 )
@@ -9764,8 +9672,6 @@ rows
 *
 /
 onMousedown
-:
-function
 (
 event
 )
@@ -10447,8 +10353,6 @@ _value
 ;
 }
 toggleClass
-:
-function
 (
 className
 condition
@@ -10504,8 +10408,6 @@ flashed
 *
 /
 flash
-:
-function
 (
 )
 {
@@ -10636,8 +10538,6 @@ out
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -10651,8 +10551,6 @@ focus
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -11193,8 +11091,6 @@ target
 *
 /
 onTrigger
-:
-function
 (
 {
 target
@@ -11292,8 +11188,6 @@ event
 *
 /
 onKeydown
-:
-function
 (
 event
 )
@@ -11402,8 +11296,6 @@ edited
 *
 /
 edit
-:
-function
 (
 target
 )
@@ -11553,8 +11445,6 @@ select
 ;
 }
 completeEdit
-:
-function
 (
 )
 {
@@ -11647,10 +11537,6 @@ this
 .
 currentTarget
 oldValue
-:
-oldValue
-newValue
-:
 newValue
 }
 }
@@ -11678,8 +11564,6 @@ edit
 *
 /
 cancelEdit
-:
-function
 (
 )
 {
@@ -11733,8 +11617,6 @@ changes
 *
 /
 blur
-:
-function
 (
 )
 {
@@ -11801,8 +11683,6 @@ to
 *
 /
 copyStyles
-:
-function
 (
 source
 destination
@@ -11938,8 +11818,6 @@ document
 *
 /
 destroy
-:
-function
 (
 )
 {

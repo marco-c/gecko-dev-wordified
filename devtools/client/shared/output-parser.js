@@ -608,8 +608,6 @@ etc
 *
 /
 parseCssProperty
-:
-function
 (
 name
 value
@@ -875,8 +873,6 @@ call
 *
 /
 _collectFunctionText
-:
-function
 (
 initialToken
 text
@@ -1091,8 +1087,6 @@ fragment
 *
 /
 _parse
-:
-function
 (
 text
 options
@@ -1927,8 +1921,6 @@ _mergeOptions
 *
 /
 _appendCubicBezier
-:
-function
 (
 bezier
 options
@@ -2088,8 +2080,6 @@ _mergeOptions
 *
 /
 _appendGrid
-:
-function
 (
 grid
 options
@@ -2218,8 +2208,6 @@ _mergeOptions
 *
 /
 _appendAngle
-:
-function
 (
 angle
 options
@@ -2491,8 +2479,6 @@ check
 *
 /
 _cssPropertySupportsValue
-:
-function
 (
 name
 value
@@ -2549,8 +2535,6 @@ transparent
 *
 /
 _isValidColor
-:
-function
 (
 colorObj
 )
@@ -2629,8 +2613,6 @@ _mergeOptions
 *
 /
 _appendColor
-:
-function
 (
 color
 options
@@ -2916,8 +2898,6 @@ nodes
 *
 /
 _wrapFilter
-:
-function
 (
 filters
 options
@@ -3017,8 +2997,6 @@ container
 ;
 }
 _onColorSwatchMouseDown
-:
-function
 (
 event
 )
@@ -3103,8 +3081,6 @@ val
 ;
 }
 _onAngleSwatchMouseDown
-:
-function
 (
 event
 )
@@ -3193,8 +3169,6 @@ URL
 *
 /
 _sanitizeURL
-:
-function
 (
 url
 )
@@ -3326,8 +3300,6 @@ _mergeOptions
 *
 /
 _appendURL
-:
-function
 (
 match
 url
@@ -3600,8 +3572,6 @@ options
 .
 urlClass
 href
-:
-href
 }
 body
 )
@@ -3726,8 +3696,6 @@ Node
 *
 /
 _createNode
-:
-function
 (
 tagName
 attributes
@@ -3913,8 +3881,6 @@ tags
 *
 /
 _appendNode
-:
-function
 (
 tagName
 attributes
@@ -3991,8 +3957,6 @@ append
 *
 /
 _appendTextNode
-:
-function
 (
 text
 )
@@ -4083,8 +4047,6 @@ Fragment
 *
 /
 _toDOM
-:
-function
 (
 )
 {
@@ -4474,8 +4436,6 @@ object
 *
 /
 _mergeOptions
-:
-function
 (
 overrides
 )

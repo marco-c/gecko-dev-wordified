@@ -631,8 +631,6 @@ message
 *
 /
 _showError
-:
-function
 (
 event
 data
@@ -847,8 +845,6 @@ used
 *
 /
 selectStyleSheet
-:
-function
 (
 href
 line
@@ -906,8 +902,6 @@ editor
 *
 /
 destroy
-:
-function
 (
 )
 {

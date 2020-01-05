@@ -452,8 +452,6 @@ InspectorTabPanel
 /
 Rendering
 render
-:
-function
 (
 )
 {
@@ -592,8 +590,6 @@ selected
 *
 /
 addTab
-:
-function
 (
 id
 title
@@ -689,8 +685,6 @@ selected
 *
 /
 addExistingTab
-:
-function
 (
 id
 title
@@ -706,8 +700,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -716,8 +708,6 @@ TABPANEL_ID_PREFIX
 key
 :
 id
-title
-:
 title
 }
 )
@@ -820,8 +810,6 @@ selected
 *
 /
 addFrameTab
-:
-function
 (
 id
 title
@@ -838,8 +826,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -849,10 +835,6 @@ key
 :
 id
 title
-:
-title
-url
-:
 url
 onMount
 :
@@ -879,8 +861,6 @@ selected
 ;
 }
 onSidePanelMounted
-:
-function
 (
 content
 props
@@ -1201,8 +1181,6 @@ hidden
 *
 /
 toggleTab
-:
-function
 (
 isVisible
 id
@@ -1231,8 +1209,6 @@ tab
 *
 /
 select
-:
-function
 (
 id
 )
@@ -1262,8 +1238,6 @@ tab
 *
 /
 getCurrentTabID
-:
-function
 (
 )
 {
@@ -1301,8 +1275,6 @@ DOMNode
 *
 /
 getTabPanel
-:
-function
 (
 id
 )
@@ -1367,8 +1339,6 @@ handler
 *
 /
 handleSelectionChange
-:
-function
 (
 id
 )
@@ -1503,8 +1473,6 @@ select
 *
 /
 show
-:
-function
 (
 id
 )
@@ -1592,8 +1560,6 @@ sidebar
 *
 /
 hide
-:
-function
 (
 )
 {
@@ -1636,8 +1602,6 @@ content
 *
 /
 getWindowForTab
-:
-function
 (
 id
 )

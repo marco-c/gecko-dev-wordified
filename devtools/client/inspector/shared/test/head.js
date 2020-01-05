@@ -2366,10 +2366,6 @@ prop
 =
 {
 nameSpan
-:
-nameSpan
-valueSpan
-:
 valueSpan
 }
 ;
@@ -3975,10 +3971,6 @@ prop
 =
 {
 nameSpan
-:
-nameSpan
-valueSpan
-:
 valueSpan
 }
 ;
@@ -4134,8 +4126,6 @@ _contextmenu
 _openMenu
 (
 {
-target
-:
 target
 }
 )

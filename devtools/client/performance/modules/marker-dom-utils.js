@@ -214,8 +214,6 @@ nsIDOMNode
 *
 /
 buildFields
-:
-function
 (
 doc
 marker
@@ -284,8 +282,6 @@ nsIDOMNode
 *
 /
 buildTitle
-:
-function
 (
 doc
 marker
@@ -447,8 +443,6 @@ nsIDOMNode
 *
 /
 buildDuration
-:
-function
 (
 doc
 marker
@@ -620,8 +614,6 @@ nsIDOMNode
 *
 /
 buildNameValueLabel
-:
-function
 (
 doc
 field
@@ -820,8 +812,6 @@ frames
 *
 /
 buildStackTrace
-:
-function
 (
 doc
 {
@@ -1355,10 +1345,6 @@ stringify
 (
 {
 url
-:
-url
-line
-:
 line
 action
 :
@@ -1497,8 +1483,6 @@ nsIDOMNode
 *
 /
 buildCustom
-:
-function
 (
 doc
 marker

@@ -685,8 +685,6 @@ h
 return
 {
 getContext
-:
-function
 (
 )
 {

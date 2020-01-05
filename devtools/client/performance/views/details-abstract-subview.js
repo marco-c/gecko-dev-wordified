@@ -136,8 +136,6 @@ binding
 *
 /
 initialize
-:
-function
 (
 )
 {
@@ -331,8 +329,6 @@ events
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -719,8 +715,6 @@ selected
 *
 /
 _onRecordingStoppedOrSelected
-:
-function
 (
 _
 state
@@ -842,8 +836,6 @@ OverviewView
 *
 /
 _onOverviewRangeChange
-:
-function
 (
 _
 interval
@@ -977,8 +969,6 @@ DetailsView
 *
 /
 _onDetailsViewSelected
-:
-function
 (
 )
 {
@@ -1037,8 +1027,6 @@ changed
 *
 /
 _onPrefChanged
-:
-function
 (
 _
 prefName

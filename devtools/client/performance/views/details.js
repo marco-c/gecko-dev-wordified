@@ -925,8 +925,6 @@ boolean
 *
 /
 _isViewSupported
-:
-function
 (
 viewName
 )
@@ -1217,8 +1215,6 @@ enabled
 *
 /
 selectDefaultView
-:
-function
 (
 )
 {
@@ -1344,8 +1340,6 @@ boolean
 *
 /
 isViewSelected
-:
-function
 (
 viewObject
 )
@@ -1639,8 +1633,6 @@ selected
 *
 /
 _onRecordingStoppedOrSelected
-:
-function
 (
 _
 state
@@ -1695,8 +1687,6 @@ clicked
 *
 /
 _onViewToggle
-:
-function
 (
 e
 )

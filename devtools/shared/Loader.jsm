@@ -266,8 +266,6 @@ prototype
 =
 {
 load
-:
-function
 (
 )
 {
@@ -836,8 +834,6 @@ id
 ;
 }
 unload
-:
-function
 (
 reason
 )
@@ -955,8 +951,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 reason
 =
@@ -1105,8 +1099,6 @@ setProvider
 *
 /
 require
-:
-function
 (
 )
 {
@@ -1161,8 +1153,6 @@ plugin
 *
 /
 isLoaderPluginId
-:
-function
 (
 id
 )
@@ -1195,8 +1185,6 @@ tools
 *
 /
 setProvider
-:
-function
 (
 provider
 )
@@ -1543,8 +1531,6 @@ preferences
 *
 /
 _loadProvider
-:
-function
 (
 )
 {
@@ -1585,8 +1571,6 @@ unloaded
 *
 /
 observe
-:
-function
 (
 subject
 topic

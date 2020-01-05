@@ -249,8 +249,6 @@ PropTypes
 number
 }
 getDefaultProps
-:
-function
 (
 )
 {
@@ -442,8 +440,6 @@ StringRep
 rep
 :
 StringRep
-supportsObject
-:
 supportsObject
 }
 ;

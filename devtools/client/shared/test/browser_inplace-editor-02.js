@@ -213,11 +213,7 @@ multiline
 :
 true
 initial
-:
-initial
 start
-:
-function
 (
 editor
 )
@@ -337,14 +333,10 @@ createInplaceEditorAndClick
 (
 {
 initial
-:
-initial
 multiline
 :
 true
 start
-:
-function
 (
 editor
 )

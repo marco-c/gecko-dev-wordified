@@ -996,8 +996,6 @@ prototype
 =
 {
 _initMarkup
-:
-function
 (
 )
 {
@@ -1382,8 +1380,6 @@ _populateFilterSelect
 ;
 }
 _destroyMarkup
-:
-function
 (
 )
 {
@@ -1439,8 +1435,6 @@ null
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1476,8 +1470,6 @@ filterList
 *
 /
 _populateFilterSelect
-:
-function
 (
 )
 {
@@ -1554,8 +1546,6 @@ render
 *
 /
 _buildFilterItemMarkup
-:
-function
 (
 )
 {
@@ -1800,8 +1790,6 @@ base
 ;
 }
 _buildPresetItemMarkup
-:
-function
 (
 )
 {
@@ -1918,8 +1906,6 @@ base
 ;
 }
 _addEventListeners
-:
-function
 (
 )
 {
@@ -2126,8 +2112,6 @@ _input
 ;
 }
 _removeEventListeners
-:
-function
 (
 )
 {
@@ -2308,8 +2292,6 @@ _input
 ;
 }
 _getFilterElementIndex
-:
-function
 (
 el
 )
@@ -2333,8 +2315,6 @@ el
 ;
 }
 _keyDown
-:
-function
 (
 e
 )
@@ -2776,8 +2756,6 @@ preventDefault
 ;
 }
 _input
-:
-function
 (
 e
 )
@@ -2872,8 +2850,6 @@ value
 ;
 }
 _mouseDown
-:
-function
 (
 e
 )
@@ -3035,8 +3011,6 @@ true
 }
 }
 _addButtonClick
-:
-function
 (
 )
 {
@@ -3081,8 +3055,6 @@ render
 ;
 }
 _removeButtonClick
-:
-function
 (
 e
 )
@@ -3148,8 +3120,6 @@ index
 ;
 }
 _mouseMove
-:
-function
 (
 e
 )
@@ -3187,8 +3157,6 @@ e
 }
 }
 _dragFilterElement
-:
-function
 (
 e
 )
@@ -3536,8 +3504,6 @@ delta
 ;
 }
 _dragLabel
-:
-function
 (
 e
 )
@@ -3707,8 +3673,6 @@ value
 ;
 }
 _mouseUp
-:
-function
 (
 )
 {
@@ -3829,8 +3793,6 @@ render
 ;
 }
 _presetClick
-:
-function
 (
 e
 )
@@ -4000,8 +3962,6 @@ ex
 ;
 }
 _togglePresets
-:
-function
 (
 )
 {
@@ -4031,8 +3991,6 @@ render
 ;
 }
 _savePreset
-:
-function
 (
 e
 )
@@ -4221,8 +4179,6 @@ Bug
 *
 /
 _resetFocus
-:
-function
 (
 )
 {
@@ -4266,8 +4222,6 @@ method
 *
 /
 render
-:
-function
 (
 )
 {
@@ -4716,8 +4670,6 @@ render
 ;
 }
 renderPresets
-:
-function
 (
 )
 {
@@ -4947,8 +4899,6 @@ definition
 *
 /
 _definition
-:
-function
 (
 name
 )
@@ -5009,8 +4959,6 @@ parsed
 *
 /
 setCssValue
-:
-function
 (
 cssValue
 )
@@ -5348,8 +5296,6 @@ true
 *
 /
 add
-:
-function
 (
 name
 value
@@ -5728,8 +5674,6 @@ filter
 *
 /
 getValueAt
-:
-function
 (
 index
 )
@@ -5954,8 +5898,6 @@ g
 ;
 }
 removeAt
-:
-function
 (
 index
 )
@@ -6032,8 +5974,6 @@ filters
 *
 /
 getCssValue
-:
-function
 (
 )
 {
@@ -6148,8 +6088,6 @@ determined
 *
 /
 updateValueAt
-:
-function
 (
 index
 value
@@ -6267,8 +6205,6 @@ getCssValue
 ;
 }
 getPresets
-:
-function
 (
 )
 {
@@ -6316,8 +6252,6 @@ e
 ;
 }
 setPresets
-:
-function
 (
 presets
 )
@@ -6728,8 +6662,6 @@ trim
 (
 )
 quote
-:
-quote
 }
 )
 ;
@@ -6803,8 +6735,6 @@ filters
 push
 (
 {
-name
-:
 name
 value
 :

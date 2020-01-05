@@ -436,8 +436,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -1252,8 +1250,6 @@ set
 content
 {
 editor
-:
-editor
 handler
 :
 listener
@@ -1343,8 +1339,6 @@ destroy
 ;
 }
 _addContentListeners
-:
-function
 (
 header
 )
@@ -1363,8 +1357,6 @@ _headerClicked
 ;
 }
 _headerClicked
-:
-function
 (
 event
 )
@@ -1706,8 +1698,6 @@ ready
 }
 }
 _debugClicked
-:
-function
 (
 event
 )
@@ -1861,8 +1851,6 @@ line
 }
 }
 destroy
-:
-function
 (
 )
 {

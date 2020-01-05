@@ -603,8 +603,6 @@ asyncConvertData
 *
 /
 convert
-:
-function
 (
 fromStream
 fromType
@@ -617,8 +615,6 @@ fromStream
 ;
 }
 asyncConvertData
-:
-function
 (
 fromType
 toType
@@ -634,8 +630,6 @@ listener
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 context
@@ -761,8 +755,6 @@ value
 }
 }
 onStartRequest
-:
-function
 (
 request
 context
@@ -945,8 +937,6 @@ listener
 *
 /
 onStopRequest
-:
-function
 (
 request
 context
@@ -1103,8 +1093,6 @@ visitResponseHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -1118,10 +1106,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )
@@ -1136,8 +1120,6 @@ visitRequestHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -1151,10 +1133,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )
@@ -1400,8 +1378,6 @@ null
 ;
 }
 htmlEncode
-:
-function
 (
 t
 )
@@ -1476,8 +1452,6 @@ gt
 ;
 }
 toHTML
-:
-function
 (
 json
 headers
@@ -1975,8 +1949,6 @@ html
 ;
 }
 toErrorPage
-:
-function
 (
 error
 data
@@ -2269,8 +2241,6 @@ Chrome
 Content
 communication
 onContentMessage
-:
-function
 (
 e
 )
@@ -2383,8 +2353,6 @@ value
 }
 }
 copyHeaders
-:
-function
 (
 headers
 )
@@ -2549,8 +2517,6 @@ Factory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid
@@ -2647,10 +2613,6 @@ JsonViewService
 =
 {
 register
-:
-register
-unregister
-:
 unregister
 }
 ;

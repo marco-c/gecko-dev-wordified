@@ -1081,8 +1081,6 @@ boolean
 *
 /
 isConnected
-:
-function
 (
 )
 {
@@ -1113,8 +1111,6 @@ number
 *
 /
 getCurrentActivity
-:
-function
 (
 )
 {
@@ -1201,8 +1197,6 @@ mode
 *
 /
 triggerActivity
-:
-function
 (
 type
 )
@@ -1721,8 +1715,6 @@ finishes
 *
 /
 inspectRequest
-:
-function
 (
 requestId
 )
@@ -2564,8 +2556,6 @@ target
 *
 /
 connect
-:
-function
 (
 )
 {
@@ -2642,8 +2632,6 @@ target
 *
 /
 disconnect
-:
-function
 (
 )
 {
@@ -2752,8 +2740,6 @@ server
 *
 /
 _onTabNavigated
-:
-function
 (
 type
 packet
@@ -2912,8 +2898,6 @@ closed
 *
 /
 _onTabDetached
-:
-function
 (
 )
 {
@@ -3128,8 +3112,6 @@ client
 *
 /
 connect
-:
-function
 (
 )
 {
@@ -3216,8 +3198,6 @@ client
 *
 /
 disconnect
-:
-function
 (
 )
 {
@@ -3313,8 +3293,6 @@ cache
 *
 /
 _displayCachedEvents
-:
-function
 (
 )
 {
@@ -3421,8 +3399,6 @@ marker
 *
 /
 _onDocLoadingMarker
-:
-function
 (
 marker
 )
@@ -3484,8 +3460,6 @@ information
 *
 /
 _onNetworkEvent
-:
-function
 (
 type
 networkInfo
@@ -3584,8 +3558,6 @@ information
 *
 /
 _onNetworkEventUpdate
-:
-function
 (
 type
 {
@@ -4009,8 +3981,6 @@ server
 *
 /
 _onRequestHeaders
-:
-function
 (
 response
 )
@@ -4085,8 +4055,6 @@ server
 *
 /
 _onRequestCookies
-:
-function
 (
 response
 )
@@ -4161,8 +4129,6 @@ server
 *
 /
 _onRequestPostData
-:
-function
 (
 response
 )
@@ -4237,8 +4203,6 @@ server
 *
 /
 _onSecurityInfo
-:
-function
 (
 response
 )
@@ -4315,8 +4279,6 @@ server
 *
 /
 _onResponseHeaders
-:
-function
 (
 response
 )
@@ -4391,8 +4353,6 @@ server
 *
 /
 _onResponseCookies
-:
-function
 (
 response
 )
@@ -4467,8 +4427,6 @@ server
 *
 /
 _onResponseContent
-:
-function
 (
 response
 )
@@ -4543,8 +4501,6 @@ server
 *
 /
 _onEventTimings
-:
-function
 (
 response
 )
@@ -4675,8 +4631,6 @@ wrong
 *
 /
 getString
-:
-function
 (
 stringGrip
 )
@@ -4821,8 +4775,6 @@ gNetwork
 :
 {
 get
-:
-function
 (
 )
 {

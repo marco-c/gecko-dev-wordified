@@ -493,8 +493,6 @@ element
 :
 null
 destroy
-:
-function
 (
 )
 {
@@ -566,8 +564,6 @@ methods
 *
 /
 _changed
-:
-function
 (
 )
 {
@@ -638,8 +634,6 @@ ready
 *
 /
 populate
-:
-function
 (
 )
 {
@@ -926,8 +920,6 @@ others
 *
 /
 _sortRulesForPseudoElement
-:
-function
 (
 )
 {
@@ -1065,8 +1057,6 @@ rule
 *
 /
 _maybeAddRule
-:
-function
 (
 options
 existingRules
@@ -1306,8 +1296,6 @@ elements
 *
 /
 markOverriddenAll
-:
-function
 (
 )
 {
@@ -1398,8 +1386,6 @@ element
 *
 /
 markOverridden
-:
-function
 (
 pseudo
 =
@@ -2166,8 +2152,6 @@ changed
 *
 /
 _updatePropertyOverridden
-:
-function
 (
 prop
 )
@@ -2370,8 +2354,6 @@ otherwise
 *
 /
 getProperty
-:
-function
 (
 style
 name
@@ -2487,8 +2469,6 @@ set
 *
 /
 setProperty
-:
-function
 (
 style
 bame
@@ -2611,8 +2591,6 @@ check
 *
 /
 contains
-:
-function
 (
 style
 name
@@ -2654,8 +2632,6 @@ entry
 ;
 }
 getKey
-:
-function
 (
 style
 name
@@ -2674,8 +2650,6 @@ name
 ;
 }
 clear
-:
-function
 (
 )
 {

@@ -284,8 +284,6 @@ started
 *
 /
 initialize
-:
-function
 (
 store
 )
@@ -420,8 +418,6 @@ closed
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -451,8 +447,6 @@ container
 *
 /
 displayPlaceholderCharts
-:
-function
 (
 )
 {
@@ -544,8 +538,6 @@ _sanitizeChartDataSource
 *
 /
 createPrimedCacheChart
-:
-function
 (
 items
 )
@@ -634,8 +626,6 @@ _sanitizeChartDataSource
 *
 /
 createEmptyCacheChart
-:
-function
 (
 items
 )
@@ -994,8 +984,6 @@ details
 *
 /
 _createChart
-:
-function
 (
 {
 id
@@ -1073,16 +1061,8 @@ getStr
 title
 )
 data
-:
-data
-strings
-:
 strings
 totals
-:
-totals
-sorted
-:
 sorted
 }
 )
@@ -1217,8 +1197,6 @@ disabled
 *
 /
 _sanitizeChartDataSource
-:
-function
 (
 items
 emptyCache

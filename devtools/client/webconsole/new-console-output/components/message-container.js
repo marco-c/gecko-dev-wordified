@@ -338,8 +338,6 @@ number
 isRequired
 }
 getDefaultProps
-:
-function
 (
 )
 {

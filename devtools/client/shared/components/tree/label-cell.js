@@ -225,8 +225,6 @@ object
 isRequired
 }
 render
-:
-function
 (
 )
 {

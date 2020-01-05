@@ -3815,8 +3815,6 @@ tabResponse
 (
 {
 registrar
-:
-registrar
 form
 :
 tabResponse

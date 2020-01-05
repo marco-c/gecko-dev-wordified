@@ -2862,8 +2862,6 @@ configuration
 *
 /
 _validateOptions
-:
-function
 (
 )
 {
@@ -2986,8 +2984,6 @@ connections
 *
 /
 open
-:
-function
 (
 )
 {
@@ -3259,8 +3255,6 @@ close
 ;
 }
 _advertise
-:
-function
 (
 )
 {
@@ -3319,8 +3313,6 @@ advertisement
 ;
 }
 _createSocketInstance
-:
-function
 (
 )
 {
@@ -3495,8 +3487,6 @@ SocketListeners
 *
 /
 close
-:
-function
 (
 )
 {
@@ -3784,8 +3774,6 @@ onSocketAccepted
 "
 )
 onStopListening
-:
-function
 (
 socket
 status

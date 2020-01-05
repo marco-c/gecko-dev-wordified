@@ -832,8 +832,6 @@ Filters
 =
 {
 all
-:
-all
 html
 :
 isHtml

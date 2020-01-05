@@ -211,15 +211,11 @@ expanded
 :
 true
 update
-:
-function
 (
 )
 {
 }
 destroy
-:
-function
 (
 )
 {
@@ -259,8 +255,6 @@ null
 *
 /
 getChildContainers
-:
-function
 (
 )
 {
@@ -319,8 +313,6 @@ value
 *
 /
 setExpanded
-:
-function
 (
 )
 {
@@ -344,8 +336,6 @@ node
 *
 /
 setChildrenRole
-:
-function
 (
 )
 {
@@ -371,8 +361,6 @@ subtree
 *
 /
 updateLevel
-:
-function
 (
 )
 {

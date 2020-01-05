@@ -569,8 +569,6 @@ level1
 2
 "
 node
-:
-node
 attachment
 :
 {

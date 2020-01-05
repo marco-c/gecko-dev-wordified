@@ -848,8 +848,6 @@ synthesizeMouseAtCenter
 node
 {
 button
-:
-button
 type
 :
 "

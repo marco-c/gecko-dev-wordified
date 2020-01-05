@@ -153,8 +153,6 @@ func
 isRequired
 }
 onClick
-:
-function
 (
 )
 {

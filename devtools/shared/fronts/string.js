@@ -130,8 +130,6 @@ FrontClassWithSpec
 longStringSpec
 {
 initialize
-:
-function
 (
 client
 )
@@ -152,8 +150,6 @@ client
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -190,8 +186,6 @@ this
 ;
 }
 form
-:
-function
 (
 form
 )
@@ -222,8 +216,6 @@ length
 ;
 }
 string
-:
-function
 (
 )
 {

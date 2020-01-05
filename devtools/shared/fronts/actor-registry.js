@@ -158,8 +158,6 @@ FrontClassWithSpec
 actorActorSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -337,8 +335,6 @@ FrontClassWithSpec
 actorRegistrySpec
 {
 initialize
-:
-function
 (
 client
 form

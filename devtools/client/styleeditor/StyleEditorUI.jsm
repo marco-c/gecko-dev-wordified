@@ -1327,8 +1327,6 @@ handlers
 *
 /
 createUI
-:
-function
 (
 )
 {
@@ -1720,8 +1718,6 @@ settings
 *
 /
 _onOptionsPopupShowing
-:
-function
 (
 )
 {
@@ -1796,8 +1792,6 @@ event
 *
 /
 _onOptionsPopupHiding
-:
-function
 (
 )
 {
@@ -1852,8 +1846,6 @@ sheet
 *
 /
 _onNewDocument
-:
-function
 (
 )
 {
@@ -2026,8 +2018,6 @@ indicator
 *
 /
 _clear
-:
-function
 (
 )
 {
@@ -2091,8 +2081,6 @@ _styleSheetToSelect
 stylesheet
 :
 href
-line
-:
 line
 col
 :
@@ -2718,8 +2706,6 @@ picker
 *
 /
 _importFromFile
-:
-function
 (
 file
 parentWindow
@@ -2907,8 +2893,6 @@ it
 *
 /
 _onStyleSheetCreated
-:
-function
 (
 styleSheet
 file
@@ -2958,8 +2942,6 @@ data
 *
 /
 _onError
-:
-function
 (
 event
 data
@@ -2989,8 +2971,6 @@ pref
 *
 /
 _toggleOrigSources
-:
-function
 (
 )
 {
@@ -3038,8 +3018,6 @@ editor
 *
 /
 _toggleMediaSidebar
-:
-function
 (
 )
 {
@@ -3086,8 +3064,6 @@ setting
 *
 /
 _onMediaPrefChanged
-:
-function
 (
 )
 {
@@ -3196,8 +3172,6 @@ menu
 *
 /
 _updateOpenLinkItem
-:
-function
 (
 )
 {
@@ -3258,8 +3232,6 @@ tab
 *
 /
 _openLinkNewTab
-:
-function
 (
 )
 {
@@ -3316,8 +3288,6 @@ remove
 *
 /
 _removeStyleSheetEditor
-:
-function
 (
 editor
 )
@@ -3439,8 +3409,6 @@ UI
 *
 /
 _clearStyleSheetEditors
-:
-function
 (
 )
 {
@@ -3510,8 +3478,6 @@ for
 *
 /
 _sourceLoaded
-:
-function
 (
 editor
 )
@@ -3562,16 +3528,12 @@ data
 :
 {
 editor
-:
-editor
 }
 disableAnimations
 :
 this
 .
 _alwaysDisableAnimations
-ordinal
-:
 ordinal
 onCreate
 :
@@ -4408,8 +4370,6 @@ selected
 *
 /
 switchToSelectedSheet
-:
-function
 (
 )
 {
@@ -4574,8 +4534,6 @@ test
 *
 /
 _isEditorToSelect
-:
-function
 (
 editor
 )
@@ -4722,8 +4680,6 @@ used
 *
 /
 _selectEditor
-:
-function
 (
 editor
 line
@@ -4767,8 +4723,6 @@ sourceEditor
 setCursor
 (
 {
-line
-:
 line
 ch
 :
@@ -4827,8 +4781,6 @@ summaryPromise
 ;
 }
 getEditorSummary
-:
-function
 (
 editor
 )
@@ -4919,8 +4871,6 @@ promise
 ;
 }
 getEditorDetails
-:
-function
 (
 editor
 )
@@ -5041,8 +4991,6 @@ identified
 *
 /
 getStyleSheetIdentifier
-:
-function
 (
 styleSheet
 )
@@ -5201,8 +5149,6 @@ used
 *
 /
 selectStyleSheet
-:
-function
 (
 stylesheet
 line
@@ -5215,13 +5161,7 @@ _styleSheetToSelect
 =
 {
 stylesheet
-:
-stylesheet
 line
-:
-line
-col
-:
 col
 }
 ;
@@ -5304,8 +5244,6 @@ changed
 *
 /
 _summaryChange
-:
-function
 (
 editor
 )
@@ -5368,8 +5306,6 @@ used
 *
 /
 _updateSummaryForEditor
-:
-function
 (
 editor
 summary
@@ -5756,8 +5692,6 @@ of
 *
 /
 _updateMediaList
-:
-function
 (
 editor
 )
@@ -5877,10 +5811,6 @@ location
 =
 {
 line
-:
-line
-column
-:
 column
 source
 :
@@ -6319,8 +6249,6 @@ object
 *
 /
 _onMediaConditionClick
-:
-function
 (
 e
 )
@@ -6571,8 +6499,6 @@ properties
 *
 /
 _jumpToLocation
-:
-function
 (
 location
 )
@@ -6608,8 +6534,6 @@ column
 ;
 }
 destroy
-:
-function
 (
 )
 {

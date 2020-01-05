@@ -1537,8 +1537,6 @@ PerformanceController
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1781,8 +1779,6 @@ soon
 *
 /
 enableFrontEventListeners
-:
-function
 (
 )
 {
@@ -1811,8 +1807,6 @@ listeners
 *
 /
 disableFrontEventListeners
-:
-function
 (
 )
 {
@@ -1842,8 +1836,6 @@ theme
 *
 /
 getTheme
-:
-function
 (
 )
 {
@@ -1905,8 +1897,6 @@ boolean
 *
 /
 getOption
-:
-function
 (
 prefName
 )
@@ -1961,8 +1951,6 @@ any
 *
 /
 getPref
-:
-function
 (
 prefName
 )
@@ -2016,8 +2004,6 @@ prefValue
 *
 /
 setPref
-:
-function
 (
 prefName
 prefValue
@@ -2925,8 +2911,6 @@ recording
 *
 /
 setCurrentRecording
-:
-function
 (
 recording
 )
@@ -2976,8 +2960,6 @@ PerformanceRecording
 *
 /
 getCurrentRecording
-:
-function
 (
 )
 {
@@ -3011,8 +2993,6 @@ PerformanceRecording
 *
 /
 getLatestManualRecording
-:
-function
 (
 )
 {
@@ -3116,8 +3096,6 @@ listen
 *
 /
 _onRecordingSelectFromView
-:
-function
 (
 _
 recording
@@ -3152,8 +3130,6 @@ value
 *
 /
 _onPrefChanged
-:
-function
 (
 _
 prefName
@@ -3186,8 +3162,6 @@ changes
 *
 /
 _onThemeChanged
-:
-function
 (
 )
 {
@@ -3240,8 +3214,6 @@ here
 *
 /
 _onFrontEvent
-:
-function
 (
 eventName
 .
@@ -3350,8 +3322,6 @@ recording
 *
 /
 _addRecordingIfUnknown
-:
-function
 (
 recording
 )
@@ -3422,8 +3392,6 @@ used
 *
 /
 getBufferUsageForRecording
-:
-function
 (
 recording
 )
@@ -3458,8 +3426,6 @@ not
 *
 /
 isRecording
-:
-function
 (
 )
 {
@@ -3496,8 +3462,6 @@ models
 *
 /
 getRecordings
-:
-function
 (
 )
 {
@@ -3520,8 +3484,6 @@ front
 *
 /
 getTraits
-:
-function
 (
 )
 {
@@ -3621,8 +3583,6 @@ boolean
 *
 /
 isFeatureSupported
-:
-function
 (
 features
 )
@@ -3755,8 +3715,6 @@ recordings
 *
 /
 populateWithRecordings
-:
-function
 (
 recordings
 =
@@ -3836,8 +3794,6 @@ object
 *
 /
 getMultiprocessStatus
-:
-function
 (
 )
 {
@@ -4130,8 +4086,6 @@ set
 *
 /
 _setMultiprocessAttributes
-:
-function
 (
 )
 {
@@ -4241,8 +4195,6 @@ PerformanceController
 *
 /
 _pipe
-:
-function
 (
 eventName
 .

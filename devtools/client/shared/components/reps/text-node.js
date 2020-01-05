@@ -300,8 +300,6 @@ PropTypes
 func
 }
 getTextContent
-:
-function
 (
 grip
 )
@@ -318,8 +316,6 @@ textContent
 ;
 }
 getTitle
-:
-function
 (
 grip
 )
@@ -583,8 +579,6 @@ TextNode
 rep
 :
 TextNode
-supportsObject
-:
 supportsObject
 }
 ;

@@ -164,8 +164,6 @@ number
 isRequired
 }
 render
-:
-function
 (
 )
 {

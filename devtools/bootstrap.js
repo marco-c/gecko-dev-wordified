@@ -336,8 +336,6 @@ keyListener
 return
 {
 start
-:
-function
 (
 )
 {
@@ -407,8 +405,6 @@ observer
 ;
 }
 stop
-:
-function
 (
 )
 {

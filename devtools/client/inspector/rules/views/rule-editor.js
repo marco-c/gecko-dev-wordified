@@ -679,8 +679,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -825,8 +823,6 @@ isAnonymous
 ;
 }
 _create
-:
-function
 (
 )
 {
@@ -1669,8 +1665,6 @@ StyleRuleActor
 *
 /
 _locationChanged
-:
-function
 (
 )
 {
@@ -1682,8 +1676,6 @@ updateSourceLink
 ;
 }
 updateSourceLink
-:
-function
 (
 )
 {
@@ -2236,8 +2228,6 @@ rule
 *
 /
 populate
-:
-function
 (
 )
 {
@@ -2763,8 +2753,6 @@ property
 *
 /
 addProperty
-:
-function
 (
 name
 value
@@ -3026,8 +3014,6 @@ added
 *
 /
 addProperties
-:
-function
 (
 properties
 siblingProp
@@ -3194,8 +3180,6 @@ rule
 *
 /
 newProperty
-:
-function
 (
 )
 {
@@ -3484,8 +3468,6 @@ committed
 *
 /
 _onNewProperty
-:
-function
 (
 value
 commit
@@ -3644,8 +3626,6 @@ state
 *
 /
 _newPropertyDestroy
-:
-function
 (
 )
 {
@@ -4396,8 +4376,6 @@ number
 *
 /
 _moveSelectorFocus
-:
-function
 (
 direction
 )

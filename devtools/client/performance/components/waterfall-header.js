@@ -197,8 +197,6 @@ ticksSpacingMin
 :
 WATERFALL_HEADER_TICKS_SPACING_MIN
 dataScale
-:
-dataScale
 }
 )
 ;

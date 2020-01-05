@@ -328,8 +328,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 node
 )
@@ -349,8 +347,6 @@ modifications
 ;
 }
 apply
-:
-function
 (
 )
 {
@@ -373,8 +369,6 @@ ret
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -392,8 +386,6 @@ null
 ;
 }
 setAttributeNS
-:
-function
 (
 ns
 name
@@ -421,8 +413,6 @@ value
 ;
 }
 setAttribute
-:
-function
 (
 name
 value
@@ -439,8 +429,6 @@ value
 ;
 }
 removeAttributeNS
-:
-function
 (
 ns
 name
@@ -457,8 +445,6 @@ undefined
 ;
 }
 removeAttribute
-:
-function
 (
 name
 )
@@ -608,8 +594,6 @@ FrontClassWithSpec
 nodeSpec
 {
 initialize
-:
-function
 (
 conn
 form
@@ -726,8 +710,6 @@ destroyed
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -757,8 +739,6 @@ the
 wire
 .
 form
-:
-function
 (
 form
 detail
@@ -1028,8 +1008,6 @@ NodeFront
 *
 /
 parentNode
-:
-function
 (
 )
 {
@@ -1094,8 +1072,6 @@ date
 *
 /
 updateMutation
-:
-function
 (
 change
 )
@@ -1793,8 +1769,6 @@ systemId
 ;
 }
 getAttribute
-:
-function
 (
 name
 )
@@ -1820,8 +1794,6 @@ null
 ;
 }
 hasAttribute
-:
-function
 (
 name
 )
@@ -1905,8 +1877,6 @@ pseudoClassLocks
 ;
 }
 hasPseudoClassLock
-:
-function
 (
 pseudo
 )
@@ -2127,8 +2097,6 @@ form
 properties
 .
 getFormProperty
-:
-function
 (
 name
 )
@@ -2153,8 +2121,6 @@ null
 ;
 }
 hasFormProperty
-:
-function
 (
 name
 )
@@ -2207,8 +2173,6 @@ node
 *
 /
 startModifyingAttributes
-:
-function
 (
 )
 {
@@ -2220,8 +2184,6 @@ this
 ;
 }
 _cacheAttributes
-:
-function
 (
 )
 {
@@ -2272,8 +2234,6 @@ attr
 }
 }
 _getAttribute
-:
-function
 (
 name
 )
@@ -2336,8 +2296,6 @@ request
 *
 /
 reparent
-:
-function
 (
 parent
 )
@@ -2504,8 +2462,6 @@ node
 *
 /
 treeChildren
-:
-function
 (
 )
 {
@@ -2599,8 +2555,6 @@ not
 *
 /
 isLocalToBeDeprecated
-:
-function
 (
 )
 {
@@ -2666,8 +2620,6 @@ soon
 *
 /
 rawNode
-:
-function
 (
 rawNode
 )
@@ -2803,8 +2755,6 @@ FrontClassWithSpec
 nodeListSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -2825,8 +2775,6 @@ form
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2843,8 +2791,6 @@ this
 ;
 }
 marshallPool
-:
-function
 (
 )
 {
@@ -2870,8 +2816,6 @@ the
 wire
 .
 form
-:
-function
 (
 json
 )
@@ -3078,8 +3022,6 @@ _pick
 }
 )
 initialize
-:
-function
 (
 client
 form
@@ -3124,8 +3066,6 @@ Set
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3155,8 +3095,6 @@ the
 wire
 .
 form
-:
-function
 (
 json
 )
@@ -3276,8 +3214,6 @@ set
 *
 /
 getRootNode
-:
-function
 (
 )
 {
@@ -3313,8 +3249,6 @@ resolution
 *
 /
 _createRootNodePromise
-:
-function
 (
 )
 {
@@ -3448,8 +3382,6 @@ deserialization
 *
 /
 ensureParentFront
-:
-function
 (
 id
 )
@@ -3841,8 +3773,6 @@ this
 _releaseNode
 (
 {
-actorID
-:
 actorID
 }
 )
@@ -4520,8 +4450,6 @@ type
 :
 searchType
 node
-:
-node
 resultsLength
 :
 nodeList
@@ -4545,8 +4473,6 @@ _search
 }
 )
 _releaseFront
-:
-function
 (
 node
 force
@@ -5773,8 +5699,6 @@ catch
 }
 )
 isLocal
-:
-function
 (
 )
 {
@@ -5817,8 +5741,6 @@ works
 locally
 .
 frontForRawNode
-:
-function
 (
 rawNode
 )
@@ -6098,10 +6020,6 @@ node
 return
 {
 previousSibling
-:
-previousSibling
-nextSibling
-:
 nextSibling
 }
 ;
@@ -6158,8 +6076,6 @@ FrontClassWithSpec
 inspectorSpec
 {
 initialize
-:
-function
 (
 client
 tabForm
@@ -6230,8 +6146,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {

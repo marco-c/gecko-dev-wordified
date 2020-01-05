@@ -269,8 +269,6 @@ scrollToMessage
 autoscroll
 serviceContainer
 indent
-:
-indent
 }
 ;
 return

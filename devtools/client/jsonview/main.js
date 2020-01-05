@@ -241,8 +241,6 @@ JsonView
 =
 {
 initialize
-:
-function
 (
 )
 {
@@ -359,8 +357,6 @@ onSaveListener
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -415,8 +411,6 @@ process
 *
 /
 onSave
-:
-function
 (
 message
 )

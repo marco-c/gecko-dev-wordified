@@ -360,8 +360,6 @@ prototype
 =
 {
 initialize
-:
-function
 (
 )
 {
@@ -446,8 +444,6 @@ false
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -492,8 +488,6 @@ break
 }
 }
 onShutdown
-:
-function
 (
 )
 {
@@ -523,8 +517,6 @@ shutdown
 ;
 }
 onPrefChanged
-:
-function
 (
 )
 {
@@ -555,8 +547,6 @@ unregister
 }
 }
 register
-:
-function
 (
 )
 {
@@ -574,8 +564,6 @@ register
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -593,8 +581,6 @@ unregister
 ;
 }
 isEnabled
-:
-function
 (
 )
 {

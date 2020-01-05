@@ -1593,8 +1593,6 @@ terminates
 *
 /
 spawn
-:
-function
 (
 task
 )
@@ -1916,8 +1914,6 @@ promise
 *
 /
 async
-:
-function
 (
 task
 )
@@ -2011,8 +2007,6 @@ Value
 *
 /
 Result
-:
-function
 (
 value
 )
@@ -2595,8 +2589,6 @@ any
 *
 /
 _run
-:
-function
 (
 sendResolved
 sendValue
@@ -3053,8 +3045,6 @@ handle
 *
 /
 _handleResultValue
-:
-function
 (
 value
 )
@@ -3257,8 +3247,6 @@ handle
 *
 /
 _handleException
-:
-function
 (
 exception
 )
@@ -3886,8 +3874,6 @@ line
 *
 /
 generateReadableStack
-:
-function
 (
 topStack
 prefix

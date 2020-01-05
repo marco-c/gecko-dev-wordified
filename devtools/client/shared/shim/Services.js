@@ -349,16 +349,8 @@ prototype
 =
 {
 PREF_INVALID
-:
-PREF_INVALID
-PREF_STRING
-:
 PREF_STRING
 PREF_INT
-:
-PREF_INT
-PREF_BOOL
-:
 PREF_BOOL
 /
 *
@@ -392,8 +384,6 @@ getPrefType
 *
 /
 getPrefType
-:
-function
 (
 prefName
 )
@@ -420,8 +410,6 @@ getBoolPref
 *
 /
 getBoolPref
-:
-function
 (
 prefName
 )
@@ -481,8 +469,6 @@ setBoolPref
 *
 /
 setBoolPref
-:
-function
 (
 prefName
 value
@@ -573,8 +559,6 @@ getCharPref
 *
 /
 getCharPref
-:
-function
 (
 prefName
 )
@@ -634,8 +618,6 @@ setCharPref
 *
 /
 setCharPref
-:
-function
 (
 prefName
 value
@@ -726,8 +708,6 @@ getIntPref
 *
 /
 getIntPref
-:
-function
 (
 prefName
 )
@@ -787,8 +767,6 @@ setIntPref
 *
 /
 setIntPref
-:
-function
 (
 prefName
 value
@@ -878,8 +856,6 @@ clearUserPref
 *
 /
 clearUserPref
-:
-function
 (
 prefName
 )
@@ -911,8 +887,6 @@ prefHasUserValue
 *
 /
 prefHasUserValue
-:
-function
 (
 prefName
 )
@@ -943,8 +917,6 @@ addObserver
 *
 /
 addObserver
-:
-function
 (
 domain
 observer
@@ -1017,8 +989,6 @@ removeObserver
 *
 /
 removeObserver
-:
-function
 (
 domain
 observer
@@ -1087,8 +1057,6 @@ savePrefFile
 *
 /
 savePrefFile
-:
-function
 (
 file
 )
@@ -1138,8 +1106,6 @@ getBranch
 *
 /
 getBranch
-:
-function
 (
 prefRoot
 )
@@ -1256,8 +1222,6 @@ type
 *
 /
 _get
-:
-function
 (
 )
 {
@@ -1328,8 +1292,6 @@ value
 *
 /
 _set
-:
-function
 (
 value
 )
@@ -1409,8 +1371,6 @@ value
 *
 /
 _setDefault
-:
-function
 (
 value
 )
@@ -1477,8 +1437,6 @@ notification
 *
 /
 _clearUserValue
-:
-function
 (
 )
 {
@@ -1536,8 +1494,6 @@ notification
 *
 /
 _saveAndNotify
-:
-function
 (
 )
 {
@@ -1776,8 +1732,6 @@ valid
 *
 /
 _storageUpdated
-:
-function
 (
 type
 userValue
@@ -1906,8 +1860,6 @@ object
 *
 /
 _findPref
-:
-function
 (
 prefName
 )
@@ -2023,8 +1975,6 @@ branch
 *
 /
 _notify
-:
-function
 (
 relativeName
 )
@@ -2264,8 +2214,6 @@ branch
 *
 /
 _createBranch
-:
-function
 (
 branchList
 )
@@ -2494,8 +2442,6 @@ prefs
 *
 /
 _findOrCreatePref
-:
-function
 (
 keyName
 userValue
@@ -2722,8 +2668,6 @@ change
 *
 /
 _onStorageChange
-:
-function
 (
 event
 )
@@ -2860,8 +2804,6 @@ PrefBranch
 *
 /
 _initializeRoot
-:
-function
 (
 )
 {
@@ -3430,8 +3372,6 @@ telemetry
 :
 {
 getHistogramById
-:
-function
 (
 name
 )
@@ -3450,8 +3390,6 @@ add
 ;
 }
 getKeyedHistogramById
-:
-function
 (
 name
 )
@@ -3554,8 +3492,6 @@ activeElement
 ;
 }
 moveFocus
-:
-function
 (
 window
 startElement
@@ -3670,8 +3606,6 @@ NodeFilter
 SHOW_ELEMENT
 {
 acceptNode
-:
-function
 (
 node
 )
@@ -3810,8 +3744,6 @@ wm
 :
 {
 getMostRecentWindow
-:
-function
 (
 )
 {
@@ -3834,8 +3766,6 @@ purposes
 return
 {
 openUILinkIn
-:
-function
 (
 url
 )
