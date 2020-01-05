@@ -164,6 +164,12 @@ IMPL_EVENT_HANDLER
 (
 audioprocess
 )
+using
+EventTarget
+:
+:
+EventListenerAdded
+;
 void
 EventListenerAdded
 (
@@ -172,6 +178,12 @@ nsIAtom
 aType
 )
 override
+;
+using
+EventTarget
+:
+:
+EventListenerRemoved
 ;
 void
 EventListenerRemoved
