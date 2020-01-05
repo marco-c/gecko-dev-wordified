@@ -130,16 +130,6 @@ test_platform
 '
 :
 tp
-.
-split
-(
-'
-/
-'
-)
-[
-0
-]
         
 '
 build_type
@@ -187,16 +177,6 @@ test_platform
 '
 :
 tp
-.
-split
-(
-'
-/
-'
-)
-[
-0
-]
         
 '
 build_type
@@ -347,7 +327,11 @@ linux64
 unittest_task
 (
 '
-extra3
+mochitest
+-
+browser
+-
+chrome
 '
 '
 linux
@@ -359,7 +343,13 @@ opt
 unittest_task
 (
 '
-extra4
+mochitest
+-
+browser
+-
+chrome
+-
+e10s
 '
 '
 linux64
@@ -371,7 +361,9 @@ debug
 unittest_task
 (
 '
-extra5
+mochitest
+-
+chrome
 '
 '
 linux
@@ -383,7 +375,9 @@ this
 unittest_task
 (
 '
-extra6
+mochitest
+-
+webgl
 '
 '
 linux
@@ -395,7 +389,9 @@ that
 unittest_task
 (
 '
-extra7
+crashtest
+-
+e10s
 '
 '
 linux
@@ -407,7 +403,7 @@ other
 unittest_task
 (
 '
-extra8
+gtest
 '
 '
 linux64
@@ -419,7 +415,7 @@ asan
 talos_task
 (
 '
-extra9
+dromaeojs
 '
 '
 linux64
