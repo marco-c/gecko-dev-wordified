@@ -2424,6 +2424,11 @@ cur
 "
 )
 ;
+if
+(
+curData
+)
+{
 curData
 -
 >
@@ -2434,6 +2439,7 @@ AppendElement
 aElement
 )
 ;
+}
 }
 }
 mHaveLaterSiblingRestyles
