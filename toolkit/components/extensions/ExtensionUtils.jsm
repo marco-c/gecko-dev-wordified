@@ -8753,6 +8753,7 @@ getConsole
 getInnerWindowID
 getMessageManager
 getUniqueId
+filterStack
 ignoreEvent
 injectAPI
 instanceOf
