@@ -45640,6 +45640,11 @@ baseName
 }
 {
   
+#
+[
+inline
+]
+  
 fn
 {
 fname
