@@ -1370,13 +1370,6 @@ device
 "
 ;
 const
-deviceType
-=
-"
-desktop
-"
-;
-const
 credentials
 =
 getTestUser
@@ -2866,13 +2859,6 @@ deviceName
 =
 "
 foo
-"
-;
-const
-deviceType
-=
-"
-bar
 "
 ;
 const

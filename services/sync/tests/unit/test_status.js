@@ -93,14 +93,13 @@ login
 LOGIN_SUCCEEDED
 )
 ;
-for
+if
 (
-let
-name
-in
 Status
 .
 engines
+.
+length
 )
 {
 do_throw

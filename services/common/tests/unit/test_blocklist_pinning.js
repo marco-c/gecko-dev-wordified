@@ -816,9 +816,6 @@ an
 empty
 db
 populates
-let
-result
-=
 yield
 PinningPreloadClient
 .
@@ -954,8 +951,6 @@ a
 later
 lastModified
 value
-result
-=
 yield
 PinningPreloadClient
 .

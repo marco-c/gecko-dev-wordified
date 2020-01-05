@@ -1157,7 +1157,6 @@ let
 [
 capp
 dapp
-fapps
 ]
 =
 getAppenders
