@@ -10199,7 +10199,7 @@ if
 we
 know
 the
-compartment
+global
 is
 live
 .
@@ -10211,7 +10211,7 @@ compartment
 )
 -
 >
-trace
+traceGlobal
 (
 trc
 )

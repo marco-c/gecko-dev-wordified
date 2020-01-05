@@ -4804,7 +4804,7 @@ live
 *
 /
 void
-trace
+traceGlobal
 (
 JSTracer
 *
@@ -4831,8 +4831,10 @@ regardless
 of
 whether
 the
-JSCompartment
-itself
+compartment
+'
+s
+global
 is
 still
 live
@@ -4995,6 +4997,11 @@ sweepCrossCompartmentWrappers
 ;
 void
 sweepSavedStacks
+(
+)
+;
+void
+sweepTemplateLiteralMap
 (
 )
 ;
