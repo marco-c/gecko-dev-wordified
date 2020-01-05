@@ -1053,7 +1053,7 @@ iterator
 )
 ThrowTypeError
 (
-JSMSG_NOT_ITERABLE
+JSMSG_NOT_ITERATOR
 ToString
 (
 iterator
