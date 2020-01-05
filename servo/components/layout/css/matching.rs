@@ -835,7 +835,7 @@ iter
 let
 ptr
 :
-uint
+usize
 =
 unsafe
 {
@@ -861,7 +861,7 @@ state
 static
 APPLICABLE_DECLARATIONS_CACHE_SIZE
 :
-uint
+usize
 =
 32
 ;
@@ -2127,7 +2127,7 @@ true
 static
 STYLE_SHARING_CANDIDATE_CACHE_SIZE
 :
-uint
+usize
 =
 40
 ;
@@ -2244,7 +2244,7 @@ mut
 self
 index
 :
-uint
+usize
 )
 {
 self
@@ -2342,7 +2342,7 @@ done
 .
 StyleWasShared
 (
-uint
+usize
 RestyleDamage
 )
 }

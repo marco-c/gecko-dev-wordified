@@ -751,7 +751,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -846,10 +846,10 @@ self
 -
 >
 (
-uint
+usize
 Option
 <
-uint
+usize
 >
 )
 {
@@ -949,10 +949,10 @@ self
 -
 >
 (
-uint
+usize
 Option
 <
-uint
+usize
 >
 )
 {
