@@ -2811,9 +2811,6 @@ Entry
 >
 mEntries
 ;
-int32_t
-mBatching
-;
 uint32_t
 mUniqueIDCounter
 ;
