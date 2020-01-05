@@ -1361,9 +1361,15 @@ mIsMediaSource
 ;
 Maybe
 <
-nsIntSize
+uint32_t
 >
-mLastSeenFrameSize
+mLastSeenFrameWidth
+;
+Maybe
+<
+uint32_t
+>
+mLastSeenFrameHeight
 ;
 /
 /
