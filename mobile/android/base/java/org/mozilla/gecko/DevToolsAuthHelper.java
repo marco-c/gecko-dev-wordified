@@ -204,7 +204,8 @@ static
 void
 scan
 (
-Context
+final
+Activity
 context
 final
 EventCallback
@@ -341,8 +342,9 @@ return
 }
 ActivityHandlerHelper
 .
-startIntent
+startIntentForActivity
 (
+context
 intent
 new
 ActivityResultHandler

@@ -2799,17 +2799,6 @@ this
 }
 Override
 public
-Activity
-getActivity
-(
-)
-{
-return
-this
-;
-}
-Override
-public
 void
 addAppStateListener
 (

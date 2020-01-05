@@ -19247,10 +19247,6 @@ onStart
 /
 Stop
 .
-getActivity
-(
-)
-.
 getWindow
 (
 )
