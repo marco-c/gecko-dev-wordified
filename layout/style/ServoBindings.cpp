@@ -2202,6 +2202,15 @@ IsInComposedDoc
 )
 )
 {
+const
+ServoComputedValuesWithParent
+servoValues
+=
+{
+aComputedValues
+aParentComputedValues
+}
+;
 presContext
 -
 >
@@ -2224,8 +2233,7 @@ Element
 aElement
 )
 aPseudoTagOrNull
-aComputedValues
-aParentComputedValues
+servoValues
 )
 ;
 }
