@@ -220,6 +220,7 @@ Service
 )
 ;
 }
+async
 function
 clean
 (
@@ -272,6 +273,13 @@ clearChangedIDs
 (
 )
 ;
+await
+engine
+.
+finalize
+(
+)
+;
 }
 async
 function
@@ -281,6 +289,7 @@ engine
 server
 )
 {
+await
 clean
 (
 engine
@@ -301,6 +310,7 @@ engine
 server
 )
 {
+await
 clean
 (
 engine

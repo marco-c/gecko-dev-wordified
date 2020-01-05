@@ -534,6 +534,9 @@ __proto__
 Tracker
 .
 prototype
+persistChangedIDs
+:
+false
 }
 ;
 this
