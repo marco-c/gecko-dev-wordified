@@ -2556,6 +2556,9 @@ history
 passwords
 "
 "
+recentHistory
+"
+"
 tabs
 "
 }
