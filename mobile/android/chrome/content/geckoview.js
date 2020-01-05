@@ -215,7 +215,7 @@ now
 +
 "
 -
-geckoivew
+geckoview
 chrome
 startup
 finished
