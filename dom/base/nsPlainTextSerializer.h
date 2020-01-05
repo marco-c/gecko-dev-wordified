@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIContentSerializer
 .
 h

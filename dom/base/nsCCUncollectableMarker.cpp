@@ -298,6 +298,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
