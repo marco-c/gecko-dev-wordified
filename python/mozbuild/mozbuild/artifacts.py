@@ -3977,11 +3977,6 @@ public
 build
 /
 target
--
-(
-.
-*
-)
 \
 .
 common
