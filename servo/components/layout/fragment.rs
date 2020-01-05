@@ -12647,7 +12647,9 @@ self
 .
 border_padding
 .
-block_end
+block_start_end
+(
+)
 }
 }
 SpecificFragmentInfo
