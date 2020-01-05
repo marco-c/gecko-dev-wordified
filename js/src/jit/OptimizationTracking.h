@@ -153,6 +153,15 @@ h
 #
 include
 "
+jit
+/
+JitSpewer
+.
+h
+"
+#
+include
+"
 js
 /
 TrackedOptimizationInfo
