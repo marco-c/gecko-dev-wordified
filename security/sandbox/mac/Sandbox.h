@@ -104,6 +104,13 @@ include
 <
 string
 >
+#
+include
+"
+SandboxPolicies
+.
+h
+"
 enum
 MacSandboxType
 {
