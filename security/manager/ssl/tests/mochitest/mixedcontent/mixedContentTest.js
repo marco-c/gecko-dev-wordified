@@ -1169,9 +1169,6 @@ message
 )
 +
 "
-"
-+
-"
 expected
 "
 +

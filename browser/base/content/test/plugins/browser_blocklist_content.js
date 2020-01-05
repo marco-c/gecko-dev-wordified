@@ -686,9 +686,6 @@ gChromeRoot
 blocklist_proxy
 .
 js
-"
-+
-"
 \
 n
 "
