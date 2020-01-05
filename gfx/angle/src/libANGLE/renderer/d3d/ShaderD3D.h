@@ -137,7 +137,7 @@ ShaderD3D
 /
 ShaderImpl
 implementation
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std
@@ -458,7 +458,7 @@ int
 >
 mInterfaceBlockRegisterMap
 ;
-int
+ShCompileOptions
 mAdditionalOptions
 ;
 }

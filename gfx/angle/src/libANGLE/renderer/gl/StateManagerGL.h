@@ -735,6 +735,13 @@ enabled
 )
 ;
 void
+setDitherEnabled
+(
+bool
+enabled
+)
+;
+void
 setMultisamplingStateEnabled
 (
 bool
@@ -1275,6 +1282,9 @@ mClearStencil
 ;
 bool
 mFramebufferSRGBEnabled
+;
+bool
+mDitherEnabled
 ;
 bool
 mTextureCubemapSeamlessEnabled

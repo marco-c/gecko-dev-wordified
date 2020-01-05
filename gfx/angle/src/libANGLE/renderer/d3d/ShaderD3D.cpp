@@ -639,7 +639,7 @@ return
 mCompilerOutputType
 ;
 }
-int
+ShCompileOptions
 ShaderD3D
 :
 :
@@ -663,7 +663,7 @@ uncompile
 (
 )
 ;
-int
+ShCompileOptions
 additionalOptions
 =
 0

@@ -1294,7 +1294,7 @@ std
 string
 sourcePath
 ;
-int
+ShCompileOptions
 additionalOptions
 =
 mImplementation
@@ -1308,7 +1308,7 @@ sourceStream
 sourcePath
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 (

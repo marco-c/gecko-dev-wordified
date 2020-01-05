@@ -125,7 +125,7 @@ ShCompile
 options
 .
 virtual
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std
