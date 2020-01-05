@@ -264,9 +264,14 @@ _WINNT
 #
 define
 #
+ifndef
+DWM_SIT_DISPLAYFRAME
+#
 define
 DWM_SIT_DISPLAYFRAME
 0x1
+#
+endif
 namespace
 mozilla
 {

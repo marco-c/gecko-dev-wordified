@@ -3090,8 +3090,10 @@ systemScale
 ;
 }
 #
-ifndef
-WM_DPICHANGED
+if
+WINVER
+<
+0x603
 typedef
 enum
 {
