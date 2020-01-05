@@ -46891,6 +46891,12 @@ interruptCallbackRequested
 =
 false
 ;
+stats
+.
+suspendPhases
+(
+)
+;
 JS
 :
 :
@@ -46938,4 +46944,10 @@ cx
 )
 ;
 }
+stats
+.
+resumePhases
+(
+)
+;
 }
