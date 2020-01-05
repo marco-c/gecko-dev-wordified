@@ -279,7 +279,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Printf
 .
 h
 "
@@ -5967,7 +5969,10 @@ char
 *
 buf
 =
-PR_smprintf
+mozilla
+:
+:
+Smprintf
 (
 format
 info
@@ -5987,7 +5992,10 @@ mOscpu
 =
 buf
 ;
-PR_smprintf_free
+mozilla
+:
+:
+SmprintfFree
 (
 buf
 )
