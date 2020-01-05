@@ -3364,6 +3364,14 @@ maybeMoveSyncedTabsButton
 (
 )
 {
+if
+(
+gPhotonStructure
+)
+{
+return
+;
+}
 const
 prefName
 =
