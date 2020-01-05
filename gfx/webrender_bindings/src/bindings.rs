@@ -2019,6 +2019,14 @@ set_flush_notifier
 flush_notifier
 )
 ;
+if
+!
+external_image_handler
+.
+is_null
+(
+)
+{
 renderer
 .
 set_external_image_handler
@@ -2061,6 +2069,7 @@ release_func
 )
 )
 ;
+}
 let
 pipeline_id
 =
