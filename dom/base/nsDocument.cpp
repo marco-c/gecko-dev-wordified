@@ -8143,6 +8143,7 @@ nsDocument
 IsAboutPage
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -8150,7 +8151,7 @@ nsIPrincipal
 >
 principal
 =
-GetPrincipal
+NodePrincipal
 (
 )
 ;
