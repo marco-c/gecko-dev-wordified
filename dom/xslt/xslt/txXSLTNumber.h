@@ -258,7 +258,7 @@ position
 *
 /
 static
-int32_t
+nsresult
 getSiblingCount
 (
 txXPathTreeWalker
@@ -270,6 +270,9 @@ aCountPattern
 txIMatchContext
 *
 aContext
+int32_t
+*
+aCount
 )
 ;
 static

@@ -232,7 +232,7 @@ aResult
 )
 ;
 }
-bool
+nsresult
 txForwardContext
 :
 :
@@ -242,6 +242,9 @@ const
 txXPathNode
 &
 aNode
+bool
+&
+aAllowed
 )
 {
 NS_ASSERTION
@@ -264,6 +267,7 @@ mInner
 isStripSpaceAllowed
 (
 aNode
+aAllowed
 )
 ;
 }
