@@ -1980,7 +1980,7 @@ aChildNode
 {
 ContentRemoved
 (
-GetAccessibleOrContainer
+AccessibleOrTrueContainer
 (
 aContainerNode
 )
