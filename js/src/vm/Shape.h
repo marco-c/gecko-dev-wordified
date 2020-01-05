@@ -8573,7 +8573,7 @@ hash
 4
 )
 ^
-JSID_BITS
+HashId
 (
 propid
 )
