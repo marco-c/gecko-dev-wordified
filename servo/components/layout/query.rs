@@ -4453,7 +4453,7 @@ style
 traversal
 :
 :
-ensure_node_styled
+ensure_element_styled
 ;
 /
 /
@@ -4515,9 +4515,17 @@ ensure_node_data_initialized
 requested_node
 )
 ;
-ensure_node_styled
+ensure_element_styled
 (
 requested_node
+.
+as_element
+(
+)
+.
+unwrap
+(
+)
 style_context
 )
 ;

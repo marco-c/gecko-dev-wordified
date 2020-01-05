@@ -637,15 +637,10 @@ pub
 enum
 LayoutNodeType
 {
-Comment
-Document
-DocumentFragment
-DocumentType
 Element
 (
 LayoutElementType
 )
-ProcessingInstruction
 Text
 }
 #
