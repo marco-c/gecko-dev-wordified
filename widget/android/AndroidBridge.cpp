@@ -4473,6 +4473,16 @@ nsAndroidBridge
 (
 )
 {
+if
+(
+jni
+:
+:
+IsAvailable
+(
+)
+)
+{
 RefPtr
 <
 widget
@@ -4516,6 +4526,7 @@ mEventDispatcher
 =
 dispatcher
 ;
+}
 AddObservers
 (
 )
