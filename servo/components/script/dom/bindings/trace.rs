@@ -669,7 +669,6 @@ constellation_msg
 FrameType
 PipelineId
 SubpageId
-WindowSizeData
 WindowSizeType
 ReferrerPolicy
 }
@@ -808,6 +807,7 @@ TimerEventId
 TimerSource
 TouchpadPressurePhase
 UntrustedNodeAddress
+WindowSizeData
 }
 ;
 use

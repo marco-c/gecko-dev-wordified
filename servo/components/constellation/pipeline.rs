@@ -212,7 +212,6 @@ constellation_msg
 {
 PipelineNamespaceId
 SubpageId
-WindowSizeData
 }
 ;
 use
@@ -281,6 +280,7 @@ script_traits
 {
 ScriptThreadFactory
 TimerEventRequest
+WindowSizeData
 }
 ;
 use
