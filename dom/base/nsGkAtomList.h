@@ -15834,13 +15834,6 @@ LabelMouseDownPtProperty
 )
 GK_ATOM
 (
-baseURIProperty
-"
-baseURIProperty
-"
-)
-GK_ATOM
-(
 lockedStyleStates
 "
 lockedStyleStates
