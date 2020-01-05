@@ -1483,6 +1483,10 @@ mCache
 Clear
 (
 this
+StorageCache
+:
+:
+E10sPropagated
 )
 ;
 return
@@ -1515,6 +1519,10 @@ RemoveItem
 this
 key
 old
+StorageCache
+:
+:
+E10sPropagated
 )
 ;
 return
@@ -1538,6 +1546,10 @@ this
 key
 value
 old
+StorageCache
+:
+:
+E10sPropagated
 )
 ;
 }
