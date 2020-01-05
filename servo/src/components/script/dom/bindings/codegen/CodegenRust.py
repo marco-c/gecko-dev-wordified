@@ -42644,6 +42644,7 @@ element
 :
 {
 HTMLDivElement
+HTMLSpanElement
 }
 '
 #
