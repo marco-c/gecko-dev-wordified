@@ -324,6 +324,18 @@ activation_behavior
 (
 &
 self
+event
+:
+JSRef
+<
+Event
+>
+target
+:
+JSRef
+<
+EventTarget
+>
 )
 ;
 /
@@ -650,6 +662,8 @@ self
 .
 activation_behavior
 (
+event
+target
 )
 ;
 }
