@@ -253,6 +253,7 @@ aIntegrity
 ;
 RefPtr
 <
+const
 RawServoStyleSheet
 >
 mSheet
@@ -391,6 +392,7 @@ LoadFailed
 (
 )
 ;
+const
 RawServoStyleSheet
 *
 RawSheet
@@ -410,6 +412,7 @@ mSheet
 void
 SetSheetForImport
 (
+const
 RawServoStyleSheet
 *
 aSheet
