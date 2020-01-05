@@ -3765,7 +3765,10 @@ result
 *
 result
 =
-0
+nsIAboutModule
+:
+:
+URI_SAFE_FOR_UNTRUSTED_CONTENT
 ;
 return
 NS_OK
