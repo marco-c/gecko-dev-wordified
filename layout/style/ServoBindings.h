@@ -1318,7 +1318,7 @@ aElement
 nsIAtom
 *
 aPseudoTagOrNull
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 aComputedValues
 ServoComputedValuesBorrowedOrNull
 aParentComputedValues
