@@ -1165,7 +1165,7 @@ void
 CollapseJS
 (
 nsINode
-&
+*
 aNode
 uint32_t
 aOffset
