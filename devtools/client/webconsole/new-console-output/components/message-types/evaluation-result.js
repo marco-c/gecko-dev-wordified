@@ -255,6 +255,7 @@ id
 messageId
 exceptionDocURL
 frame
+timeStamp
 }
 =
 message
@@ -325,6 +326,7 @@ autoscroll
 serviceContainer
 exceptionDocURL
 frame
+timeStamp
 }
 ;
 return
