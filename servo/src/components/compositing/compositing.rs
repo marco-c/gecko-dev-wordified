@@ -207,7 +207,7 @@ layers
 ;
 extern
 crate
-layout
+layout_traits
 ;
 extern
 crate
