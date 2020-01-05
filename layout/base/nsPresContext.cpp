@@ -1474,10 +1474,6 @@ mBodyTextColor
 (
 mDefaultColor
 )
-mViewportScrollbarOverrideNode
-(
-nullptr
-)
 mViewportStyleScrollbar
 (
 NS_STYLE_OVERFLOW_AUTO
@@ -8495,7 +8491,9 @@ NS_STYLE_OVERFLOW_AUTO
 NS_STYLE_OVERFLOW_AUTO
 )
 ;
-mViewportScrollbarOverrideNode
+nsIContent
+*
+propagatedFrom
 =
 nullptr
 ;
@@ -8522,7 +8520,7 @@ IsPaginated
 )
 )
 {
-mViewportScrollbarOverrideNode
+propagatedFrom
 =
 GetPropagatedScrollbarStylesForViewport
 (
@@ -8631,7 +8629,7 @@ GetRootElement
 fullscreenElement
 !
 =
-mViewportScrollbarOverrideNode
+propagatedFrom
 )
 {
 mViewportStyleScrollbar
@@ -8645,7 +8643,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 }
 }
 return
-mViewportScrollbarOverrideNode
+propagatedFrom
 ;
 }
 bool
