@@ -1545,13 +1545,6 @@ override
 ;
 virtual
 bool
-RecvNotifyGMPsChanged
-(
-)
-override
-;
-virtual
-bool
 RecvNotifyEmptyHTTPCache
 (
 )
