@@ -2668,11 +2668,15 @@ flavor
 '
 ]
 test
-[
+.
+get
+(
 '
 subsuite
 '
-]
+'
+'
+)
 )
             
 if
@@ -2726,11 +2730,13 @@ subsuite
                 
 if
 test
-[
+.
+get
+(
 '
 subsuite
 '
-]
+)
 :
                     
 unsupported
@@ -2746,11 +2752,15 @@ elif
 subsuite
 and
 test
-[
+.
+get
+(
 '
 subsuite
 '
-]
+'
+'
+)
 !
 =
 subsuite
