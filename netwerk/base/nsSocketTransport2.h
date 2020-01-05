@@ -3068,6 +3068,9 @@ mFastOpenCallback
 bool
 mFastOpenLayerHasBufferedData
 ;
+bool
+mDoNotRetryToConnect
+;
 }
 ;
 }

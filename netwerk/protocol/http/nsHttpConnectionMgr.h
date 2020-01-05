@@ -2840,6 +2840,8 @@ void
 SetFastOpenConnected
 (
 nsresult
+bool
+aWillRetry
 )
 override
 ;
