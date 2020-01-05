@@ -222,12 +222,9 @@ CanvasGradientStop
 }
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Clone
 )
 ]

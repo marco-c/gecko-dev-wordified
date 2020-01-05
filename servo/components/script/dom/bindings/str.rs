@@ -127,14 +127,11 @@ type
 [
 derive
 (
+JSTraceable
 Clone
 Eq
 PartialEq
 )
-]
-#
-[
-jstraceable
 ]
 pub
 struct

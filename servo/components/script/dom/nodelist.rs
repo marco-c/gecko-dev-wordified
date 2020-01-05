@@ -154,7 +154,10 @@ Window
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

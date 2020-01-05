@@ -2527,7 +2527,10 @@ blank
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [
@@ -3572,7 +3575,10 @@ Equal
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

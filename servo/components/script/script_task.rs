@@ -1327,7 +1327,10 @@ etc
 )
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 struct
 InProgressLoad
@@ -2020,7 +2023,10 @@ task
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -2283,7 +2289,10 @@ frames
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

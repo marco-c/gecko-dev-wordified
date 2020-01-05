@@ -410,14 +410,11 @@ Client
 [
 derive
 (
+JSTraceable
 PartialEq
 Copy
 Clone
 )
-]
-#
-[
-jstraceable
 ]
 enum
 WebSocketRequestState

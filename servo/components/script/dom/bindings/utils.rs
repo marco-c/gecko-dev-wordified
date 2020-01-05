@@ -691,7 +691,10 @@ raw_pointer_derive
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 /
 /

@@ -360,14 +360,11 @@ Rc
 [
 derive
 (
+JSTraceable
 Copy
 Clone
 PartialEq
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

@@ -212,12 +212,9 @@ time
 ;
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Copy
 Clone
 )
@@ -262,12 +259,9 @@ BUBBLING_PHASE
 [
 derive
 (
+JSTraceable
 PartialEq
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

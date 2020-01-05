@@ -188,7 +188,10 @@ dom_struct
 implies
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 )
 annotation
@@ -3035,7 +3038,10 @@ this
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -3199,7 +3205,10 @@ no_move
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

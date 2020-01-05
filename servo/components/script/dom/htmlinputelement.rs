@@ -536,12 +536,9 @@ Reset
 ;
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 PartialEq
 Copy
 Clone
@@ -669,7 +666,10 @@ other
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

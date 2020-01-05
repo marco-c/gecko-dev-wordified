@@ -175,14 +175,11 @@ u16
 [
 derive
 (
+JSTraceable
 Copy
 Clone
 Debug
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

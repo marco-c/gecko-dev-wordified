@@ -163,7 +163,10 @@ DOMString
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 enum

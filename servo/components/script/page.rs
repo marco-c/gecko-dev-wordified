@@ -162,7 +162,10 @@ tree
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -876,7 +879,10 @@ context
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

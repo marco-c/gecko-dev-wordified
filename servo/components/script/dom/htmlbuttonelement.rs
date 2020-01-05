@@ -326,12 +326,9 @@ Cell
 ;
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 PartialEq
 Copy
 Clone

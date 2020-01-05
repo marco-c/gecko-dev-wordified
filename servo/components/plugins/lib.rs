@@ -107,7 +107,10 @@ private
 -
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 :
 Auto
@@ -172,7 +175,10 @@ privatize
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 and
 #
@@ -286,7 +292,10 @@ deriving
 for
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 mod
@@ -387,7 +396,7 @@ register_syntax_extension
 intern
 (
 "
-jstraceable
+derive_JSTraceable
 "
 )
 MultiDecorator

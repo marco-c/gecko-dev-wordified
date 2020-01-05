@@ -407,7 +407,10 @@ HTMLCollection
 {
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 struct
 HTMLDataListOptionsFilter

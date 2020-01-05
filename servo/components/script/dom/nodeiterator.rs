@@ -1652,7 +1652,10 @@ root_node
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 enum

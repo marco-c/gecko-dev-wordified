@@ -500,12 +500,9 @@ alive
 [
 derive
 (
+JSTraceable
 Clone
 )
-]
-#
-[
-jstraceable
 ]
 pub
 struct

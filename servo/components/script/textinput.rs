@@ -173,12 +173,9 @@ NotSelected
 }
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Copy
 Clone
 )
@@ -232,7 +229,10 @@ control
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

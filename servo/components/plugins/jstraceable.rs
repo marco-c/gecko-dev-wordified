@@ -238,7 +238,10 @@ quote_attr
 cx
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 )
 )
@@ -361,7 +364,10 @@ to
 expand
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 into
 an

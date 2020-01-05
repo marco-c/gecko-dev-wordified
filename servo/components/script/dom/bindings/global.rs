@@ -424,7 +424,10 @@ structures
 .
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

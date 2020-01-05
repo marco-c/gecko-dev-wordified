@@ -1663,7 +1663,10 @@ types
 Use
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 on
 JS
