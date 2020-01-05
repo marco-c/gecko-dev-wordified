@@ -1613,6 +1613,12 @@ Clear
 (
 )
 ;
+mWasmModuleArray
+.
+Clear
+(
+)
+;
 mClonedSurfaces
 .
 Clear
