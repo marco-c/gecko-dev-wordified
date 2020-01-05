@@ -794,8 +794,9 @@ yield
 onVisibilityChange
 ;
 yield
-waitForTick
+waitForTime
 (
+5
 )
 ;
 info
