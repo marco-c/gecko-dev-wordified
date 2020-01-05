@@ -1092,7 +1092,7 @@ alloc
 +
 source
 .
-dash_count
+max_clip_count
 )
 ;
 border_corners
@@ -1211,7 +1211,7 @@ is_aligned
 =
 transform
 .
-can_losslessly_transform_and_perspective_project_a_2d_rect
+preserves_2d_axis_alignment
 (
 )
 ;
@@ -1874,13 +1874,16 @@ BorderCorner
 }
 for
 &
+mut
 (
 ref
+mut
 source
 gpu_address
 )
 in
 &
+mut
 self
 .
 border_corners
@@ -1901,7 +1904,7 @@ gpu_address
 +
 source
 .
-dash_count
+max_clip_count
 )
 ;
 source

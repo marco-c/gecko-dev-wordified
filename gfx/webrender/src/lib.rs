@@ -588,6 +588,9 @@ mod
 prim_store
 ;
 mod
+print_tree
+;
+mod
 profiler
 ;
 mod
@@ -982,7 +985,7 @@ byteorder
 ;
 extern
 crate
-threadpool
+rayon
 ;
 extern
 crate

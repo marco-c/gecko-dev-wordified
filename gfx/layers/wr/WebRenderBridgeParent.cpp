@@ -1642,6 +1642,10 @@ uint64_t
 &
 aTransactionId
 const
+WrSize
+&
+aContentSize
+const
 ByteBuffer
 &
 dl
@@ -1745,6 +1749,7 @@ NewEpoch
 (
 mWrEpoch
 )
+aContentSize
 dl
 dlDesc
 )
@@ -2184,6 +2189,10 @@ uint64_t
 &
 aTransactionId
 const
+WrSize
+&
+aContentSize
+const
 ByteBuffer
 &
 dl
@@ -2210,6 +2219,7 @@ aToDestroy
 )
 aFwdTransactionId
 aTransactionId
+aContentSize
 dl
 dlDesc
 aScrollData
@@ -2263,6 +2273,10 @@ uint64_t
 &
 aTransactionId
 const
+WrSize
+&
+aContentSize
+const
 ByteBuffer
 &
 dl
@@ -2289,6 +2303,7 @@ aToDestroy
 )
 aFwdTransactionId
 aTransactionId
+aContentSize
 dl
 dlDesc
 aScrollData
@@ -2326,6 +2341,10 @@ wr
 Epoch
 &
 aEpoch
+const
+WrSize
+&
+aContentSize
 const
 ByteBuffer
 &
@@ -3191,6 +3210,7 @@ aSize
 height
 )
 mPipelineId
+aContentSize
 dlDesc
 dl
 .
