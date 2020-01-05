@@ -678,6 +678,16 @@ set
 RawGeckoComputedKeyframeValuesListBorrowedMut
 result
 )
+SERVO_BINDING_FUNC
+(
+Servo_AnimationValueMap_Push
+void
+RawServoAnimationValueMapBorrowed
+nsCSSPropertyID
+property
+RawServoAnimationValueBorrowed
+value
+)
 /
 /
 AnimationValues
