@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-is
-isnot
-registerCleanupFunction
-add_task
-*
-/
 "
 use
 strict

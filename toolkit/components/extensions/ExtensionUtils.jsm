@@ -364,12 +364,6 @@ nsIStyleSheetService
 "
 )
 ;
-/
-*
-globals
-IDBKeyRange
-*
-/
 function
 getConsole
 (
@@ -6036,12 +6030,6 @@ args
 )
 ;
 }
-/
-*
-globals
-uneval
-*
-/
 Cu
 .
 reportError

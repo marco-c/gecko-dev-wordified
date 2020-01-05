@@ -49,6 +49,11 @@ CSSValueList
 "
 :
 false
+"
+CheckerboardReportService
+"
+:
+false
 /
 /
 Specific
@@ -224,6 +229,11 @@ StopIteration
 false
 "
 WebAssembly
+"
+:
+false
+"
+WebrtcGlobalInformation
 "
 :
 false

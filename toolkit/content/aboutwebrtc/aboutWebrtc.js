@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-WebrtcGlobalInformation
-document
-*
-/
 var
 Cu
 =

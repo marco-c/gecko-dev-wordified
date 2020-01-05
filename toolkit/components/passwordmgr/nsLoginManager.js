@@ -183,12 +183,6 @@ jsm
 "
 )
 ;
-/
-*
-global
-UserAutoCompleteResult
-*
-/
 XPCOMUtils
 .
 defineLazyModuleGetter

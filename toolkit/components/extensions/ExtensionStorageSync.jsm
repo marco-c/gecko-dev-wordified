@@ -129,13 +129,6 @@ global
 =
 this
 ;
-/
-*
-globals
-atob
-btoa
-*
-/
 Cu
 .
 importGlobalProperties
@@ -796,13 +789,6 @@ runSafeSyncWithoutClone
 =
 ExtensionUtils
 ;
-/
-*
-globals
-prefPermitsStorageSync
-prefStorageSyncServerURL
-*
-/
 /
 /
 Map

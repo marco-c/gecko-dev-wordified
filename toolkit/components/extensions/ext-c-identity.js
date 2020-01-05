@@ -43,12 +43,6 @@ tw
 :
 *
 /
-/
-*
-global
-redirectDomain
-*
-/
 "
 use
 strict
@@ -152,13 +146,6 @@ initWithString
 "
 )
 ;
-/
-*
-globals
-URL
-XMLHttpRequest
-*
-/
 Cu
 .
 importGlobalProperties

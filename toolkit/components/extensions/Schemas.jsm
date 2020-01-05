@@ -274,13 +274,6 @@ appinfo
 .
 PROCESS_TYPE_DEFAULT
 ;
-/
-*
-globals
-Schemas
-URL
-*
-/
 function
 readJSON
 (
