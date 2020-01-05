@@ -138,15 +138,6 @@ MP4Metadata
 )
 ;
 static
-bool
-HasCompleteMetadata
-(
-Stream
-*
-aSource
-)
-;
-static
 already_AddRefed
 <
 mozilla
