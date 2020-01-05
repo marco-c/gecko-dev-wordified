@@ -689,6 +689,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
