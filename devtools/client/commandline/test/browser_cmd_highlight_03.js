@@ -34,6 +34,16 @@ strict
 "
 ;
 /
+*
+eslint
+key
+-
+spacing
+:
+0
+*
+/
+/
 /
 Tests
 the
