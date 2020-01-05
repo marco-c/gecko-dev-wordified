@@ -2382,6 +2382,33 @@ parallel
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+release
+'
+default
+=
+False
+action
+=
+"
+store_true
+"
+                     
+help
+=
+"
+Build
+tests
+with
+release
+mode
+"
+)
+    
 def
 build_tests
 (
@@ -2389,6 +2416,9 @@ self
 jobs
 =
 None
+release
+=
+False
 )
 :
         
@@ -2442,6 +2472,21 @@ features
 "
 "
 headless
+"
+]
+        
+if
+release
+:
+            
+args
++
+=
+[
+"
+-
+-
+release
 "
 ]
         

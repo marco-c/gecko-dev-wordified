@@ -248,6 +248,9 @@ def
 ensure_built_tests
 (
 self
+release
+=
+False
 )
 :
         
@@ -267,6 +270,7 @@ Registrar
 .
 dispatch
 (
+            
 '
 build
 -
@@ -277,6 +281,9 @@ context
 self
 .
 context
+release
+=
+release
 )
         
 if
@@ -303,8 +310,23 @@ find_test
 (
 self
 prefix
+release
+=
+False
 )
 :
+        
+build_mode
+=
+"
+release
+"
+if
+release
+else
+"
+debug
+"
         
 target_contents
 =
@@ -322,9 +344,7 @@ self
 get_target_dir
 (
 )
-"
-debug
-"
+build_mode
 )
 )
         
@@ -359,9 +379,7 @@ self
 get_target_dir
 (
 )
-"
-debug
-"
+build_mode
 filename
 )
                 
@@ -396,6 +414,9 @@ args
 =
 [
 ]
+release
+=
+False
 )
 :
         
@@ -406,6 +427,9 @@ self
 find_test
 (
 prefix
+release
+=
+release
 )
         
 if
@@ -1275,6 +1299,36 @@ CommandArgument
 '
 -
 -
+release
+'
+'
+-
+r
+'
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Run
+with
+a
+release
+build
+of
+Servo
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
 name
 '
 default
@@ -1362,6 +1416,10 @@ None
 servo_params
 =
 None
+                 
+release
+=
+False
 )
 :
         
@@ -1375,6 +1433,9 @@ self
 .
 ensure_built_tests
 (
+release
+=
+release
 )
         
 assert
@@ -1593,6 +1654,9 @@ run_test
 reftest
 "
 test_args
+release
+=
+release
 )
             
 error
