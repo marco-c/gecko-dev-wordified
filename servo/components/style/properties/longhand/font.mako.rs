@@ -13433,7 +13433,7 @@ byteorder
 :
 {
 WriteBytesExt
-NativeEndian
+BigEndian
 }
 ;
 let
@@ -13456,7 +13456,7 @@ write_u32
 :
 :
 <
-NativeEndian
+BigEndian
 >
 (
 self
@@ -13648,7 +13648,7 @@ byteorder
 :
 {
 ReadBytesExt
-NativeEndian
+BigEndian
 }
 ;
 let
@@ -13749,7 +13749,7 @@ read_u32
 :
 :
 <
-NativeEndian
+BigEndian
 >
 (
 )
