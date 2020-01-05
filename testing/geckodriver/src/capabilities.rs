@@ -1569,6 +1569,15 @@ unzip_path
 )
 )
 ;
+if
+file
+.
+size
+(
+)
+>
+0
+{
 let
 mut
 writer
@@ -1598,6 +1607,7 @@ writer
 )
 )
 ;
+}
 }
 }
 Ok
