@@ -24665,7 +24665,7 @@ true
 replaces
 =
 "
-UniquePtr
+mozilla_UniquePtr
 "
 >
 *
