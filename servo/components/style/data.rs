@@ -275,9 +275,17 @@ node
 .
 #
 [
+cfg_attr
+(
+feature
+=
+"
+servo
+"
 derive
 (
 HeapSizeOf
+)
 )
 ]
 pub

@@ -74,9 +74,17 @@ states
 ]
 #
 [
+cfg_attr
+(
+feature
+=
+"
+servo
+"
 derive
 (
 HeapSizeOf
+)
 )
 ]
 pub

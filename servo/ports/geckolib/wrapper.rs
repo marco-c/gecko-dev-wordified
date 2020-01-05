@@ -798,7 +798,11 @@ Box
 :
 into_raw
 (
-box
+Box
+:
+:
+new
+(
 RefCell
 :
 :
@@ -809,6 +813,7 @@ PrivateStyleData
 :
 new
 (
+)
 )
 )
 )

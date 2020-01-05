@@ -330,7 +330,6 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 )
 ]
 pub
@@ -490,7 +489,6 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 )
 ]
 pub
@@ -600,7 +598,6 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 )
 ]
 pub
@@ -608,6 +605,15 @@ enum
 PagePx
 {
 }
+known_heap_size
+!
+(
+0
+ScreenPx
+ViewportPx
+PagePx
+)
+;
 /
 /
 In

@@ -1137,13 +1137,6 @@ style_struct
 )
 "
 >
-#
-[
-derive
-(
-HeapSizeOf
-)
-]
 pub
 struct
 {
