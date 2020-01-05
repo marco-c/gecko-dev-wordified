@@ -442,6 +442,10 @@ CommandArgument
 -
 dev
 '
+'
+-
+d
+'
 action
 =
 '
@@ -904,6 +908,10 @@ CommandArgument
 -
 -
 dev
+'
+'
+-
+d
 '
 action
 =
