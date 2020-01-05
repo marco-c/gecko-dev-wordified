@@ -2977,6 +2977,17 @@ message
 str
 )
 {
+if
+!
+opts
+:
+:
+get
+(
+)
+.
+headless
+{
 tinyfiledialogs
 :
 :
@@ -2993,6 +3004,7 @@ MessageBoxIcon
 Warning
 )
 ;
+}
 }
 #
 [
