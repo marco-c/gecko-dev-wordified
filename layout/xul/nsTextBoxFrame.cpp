@@ -611,6 +611,10 @@ mCropType
 (
 CropRight
 )
+mAscent
+(
+0
+)
 mNeedsReflowCallback
 (
 false
