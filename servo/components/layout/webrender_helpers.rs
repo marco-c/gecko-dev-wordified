@@ -2025,8 +2025,6 @@ in
 self
 .
 children
-.
-iter
 (
 )
 {
