@@ -37,6 +37,7 @@ jsm
 "
 )
 ;
+async
 function
 openAndCloseTab
 (
@@ -56,7 +57,7 @@ addTab
 url
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -66,7 +67,7 @@ true
 url
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -76,15 +77,15 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
 )
 ;
 }
+async
 function
-*
 openWindow
 (
 url
@@ -93,7 +94,7 @@ url
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -119,7 +120,7 @@ url
 flags
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 win
@@ -135,13 +136,14 @@ return
 win
 ;
 }
+async
 function
 closeWindow
 (
 win
 )
 {
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -165,7 +167,7 @@ the
 closed
 window
 .
-yield
+await
 new
 Promise
 (
