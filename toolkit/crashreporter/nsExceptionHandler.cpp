@@ -20923,6 +20923,9 @@ GetEnabled
 return
 false
 ;
+AutoIOInterposerDisable
+disableIOInterposition
+;
 xpstring
 dump_path
 ;
@@ -21052,6 +21055,9 @@ return
 false
 ;
 }
+AutoIOInterposerDisable
+disableIOInterposition
+;
 #
 ifdef
 XP_MACOSX
