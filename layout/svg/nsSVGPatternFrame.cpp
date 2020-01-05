@@ -1513,6 +1513,15 @@ nsSVGUtils
 GetBBox
 (
 aTarget
+nsSVGUtils
+:
+:
+eUseFrameBoundsForOuterSVG
+|
+nsSVGUtils
+:
+:
+eBBoxIncludeFillGeometry
 )
 ;
 /
