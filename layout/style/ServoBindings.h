@@ -1558,6 +1558,14 @@ nsStyleImage
 other
 )
 ;
+void
+Gecko_InitializeImageCropRect
+(
+nsStyleImage
+*
+image
+)
+;
 nsStyleGradient
 *
 Gecko_CreateGradient
