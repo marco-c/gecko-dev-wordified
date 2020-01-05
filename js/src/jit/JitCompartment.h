@@ -2096,7 +2096,7 @@ return
 rt
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

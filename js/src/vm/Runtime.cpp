@@ -1048,7 +1048,7 @@ emptyString
 (
 nullptr
 )
-spsProfiler
+geckoProfiler
 (
 thisFromCtor
 (
@@ -1867,7 +1867,7 @@ false
 if
 (
 !
-spsProfiler
+geckoProfiler
 .
 init
 (
@@ -5040,7 +5040,7 @@ return
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

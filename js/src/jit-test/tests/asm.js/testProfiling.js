@@ -544,7 +544,7 @@ enable
 +
 1
 )
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -566,7 +566,7 @@ enable
 -
 1
 )
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -723,7 +723,7 @@ of
 the
 tests
 .
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

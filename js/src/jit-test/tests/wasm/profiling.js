@@ -497,7 +497,7 @@ importObj
 expect
 )
 {
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -532,7 +532,7 @@ disableSingleStepProfiling
 expect
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -825,7 +825,7 @@ error
 expect
 )
 {
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -861,7 +861,7 @@ disableSingleStepProfiling
 expect
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1211,7 +1211,7 @@ get
 13
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1257,7 +1257,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1301,7 +1301,7 @@ get
 13
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1347,7 +1347,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1391,7 +1391,7 @@ foo
 42
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1459,7 +1459,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1563,7 +1563,7 @@ tbl
 .
 exports
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1614,11 +1614,11 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1669,11 +1669,11 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1724,7 +1724,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1854,7 +1854,7 @@ e1
 .
 exports
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -1904,7 +1904,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;
@@ -1924,7 +1924,7 @@ Instantiate
 while
 active
 :
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;
@@ -2001,7 +2001,7 @@ disableSingleStepProfiling
 ]
 )
 ;
-disableSPSProfiling
+disableGeckoProfiling
 (
 )
 ;

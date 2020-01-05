@@ -43,7 +43,7 @@ function
 "
 )
 ;
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

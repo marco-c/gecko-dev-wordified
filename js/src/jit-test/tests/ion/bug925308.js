@@ -30,7 +30,7 @@ lfcode
 push
 (
 "
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

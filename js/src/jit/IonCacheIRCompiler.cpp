@@ -2643,7 +2643,7 @@ if
 cx_
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

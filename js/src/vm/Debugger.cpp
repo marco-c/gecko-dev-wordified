@@ -342,7 +342,7 @@ include
 "
 vm
 /
-GeneratorObject
+GeckoProfiler
 .
 h
 "
@@ -351,7 +351,7 @@ include
 "
 vm
 /
-SPSProfiler
+GeneratorObject
 .
 h
 "

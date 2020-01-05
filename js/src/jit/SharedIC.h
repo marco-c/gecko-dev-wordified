@@ -7496,8 +7496,8 @@ stubs
 need
 to
 emit
-SPS
-profiler
+Gecko
+Profiler
 updates
 .
 This

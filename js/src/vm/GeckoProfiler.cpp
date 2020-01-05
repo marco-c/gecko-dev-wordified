@@ -113,7 +113,7 @@ include
 "
 vm
 /
-SPSProfiler
+GeckoProfiler
 .
 h
 "
@@ -211,10 +211,10 @@ mozilla
 :
 DebugOnly
 ;
-SPSProfiler
+GeckoProfiler
 :
 :
-SPSProfiler
+GeckoProfiler
 (
 JSRuntime
 *
@@ -230,7 +230,7 @@ strings
 mutexid
 :
 :
-SPSProfilerStrings
+GeckoProfilerStrings
 )
 stack_
 (
@@ -267,7 +267,7 @@ nullptr
 ;
 }
 bool
-SPSProfiler
+GeckoProfiler
 :
 :
 init
@@ -301,7 +301,7 @@ true
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 setProfilingStack
@@ -360,7 +360,7 @@ max
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 setEventMarker
@@ -383,7 +383,7 @@ fn
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 enable
@@ -593,7 +593,8 @@ enabled
 /
 *
 Toggle
-SPS
+Gecko
+Profiler
 -
 related
 jumps
@@ -835,7 +836,7 @@ necessary
 const
 char
 *
-SPSProfiler
+GeckoProfiler
 :
 :
 profileString
@@ -937,7 +938,7 @@ get
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 onScriptFinalized
@@ -1060,7 +1061,7 @@ entry
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 markEvent
@@ -1097,7 +1098,7 @@ event
 }
 }
 bool
-SPSProfiler
+GeckoProfiler
 :
 :
 enter
@@ -1282,7 +1283,7 @@ true
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 exit
@@ -1598,7 +1599,7 @@ nullptr
 endif
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 beginPseudoJS
@@ -1706,7 +1707,7 @@ current
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 push
@@ -1951,7 +1952,7 @@ current
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 pop
@@ -2036,7 +2037,7 @@ allocProfileString
 *
 /
 UniqueChars
-SPSProfiler
+GeckoProfiler
 :
 :
 allocProfileString
@@ -2404,7 +2405,7 @@ cstr
 ;
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 trace
@@ -2457,7 +2458,7 @@ trc
 }
 }
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 fixupStringsMapAfterMovingGC
@@ -2557,7 +2558,7 @@ script
 ifdef
 JSGC_HASH_TABLE_CHECKS
 void
-SPSProfiler
+GeckoProfiler
 :
 :
 checkStringsMapAfterMovingGC
@@ -2710,10 +2711,10 @@ s
 ;
 }
 }
-SPSEntryMarker
+GeckoProfilerEntryMarker
 :
 :
-SPSEntryMarker
+GeckoProfilerEntryMarker
 (
 JSRuntime
 *
@@ -2730,7 +2731,7 @@ profiler
 rt
 -
 >
-spsProfiler
+geckoProfiler
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -2824,11 +2825,11 @@ false
 )
 ;
 }
-SPSEntryMarker
+GeckoProfilerEntryMarker
 :
 :
 ~
-SPSEntryMarker
+GeckoProfilerEntryMarker
 (
 )
 {
@@ -2868,10 +2869,10 @@ size_
 )
 ;
 }
-AutoSPSEntry
+AutoGeckoProfilerEntry
 :
 :
-AutoSPSEntry
+AutoGeckoProfilerEntry
 (
 JSRuntime
 *
@@ -2894,7 +2895,7 @@ profiler_
 rt
 -
 >
-spsProfiler
+geckoProfiler
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -2954,11 +2955,11 @@ category
 )
 ;
 }
-AutoSPSEntry
+AutoGeckoProfilerEntry
 :
 :
 ~
-AutoSPSEntry
+AutoGeckoProfilerEntry
 (
 )
 {
@@ -2996,16 +2997,16 @@ size_
 )
 ;
 }
-SPSBaselineOSRMarker
+GeckoProfilerBaselineOSRMarker
 :
 :
-SPSBaselineOSRMarker
+GeckoProfilerBaselineOSRMarker
 (
 JSRuntime
 *
 rt
 bool
-hasSPSFrame
+hasProfilerFrame
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
@@ -3015,7 +3016,7 @@ profiler
 rt
 -
 >
-spsProfiler
+geckoProfiler
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -3023,7 +3024,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 if
 (
 !
-hasSPSFrame
+hasProfilerFrame
 |
 |
 !
@@ -3118,11 +3119,11 @@ setOSR
 )
 ;
 }
-SPSBaselineOSRMarker
+GeckoProfilerBaselineOSRMarker
 :
 :
 ~
-SPSBaselineOSRMarker
+GeckoProfilerBaselineOSRMarker
 (
 )
 {
@@ -3478,7 +3479,7 @@ max
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 setProfilingStack
 (
@@ -3507,7 +3508,7 @@ enabled
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 enable
 (
@@ -3544,7 +3545,7 @@ MOZ_ASSERT
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -3554,7 +3555,7 @@ enabled
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 setEventMarker
 (
@@ -3587,7 +3588,7 @@ return
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 ipToPC
 (

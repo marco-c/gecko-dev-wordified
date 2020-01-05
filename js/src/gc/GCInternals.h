@@ -342,7 +342,7 @@ JS
 HeapState
 prevState
 ;
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 ;
 }

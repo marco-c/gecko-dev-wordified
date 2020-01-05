@@ -8715,7 +8715,8 @@ it
 modifies
 /
 /
-SPS
+Gecko
+Profiler
 instrumentation
 to
 add
@@ -8727,10 +8728,10 @@ current
 top
 -
 most
+/
+/
 script
 .
-/
-/
 When
 codegen
 gets

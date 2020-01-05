@@ -899,7 +899,7 @@ newProfilingEnabled
 cx
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

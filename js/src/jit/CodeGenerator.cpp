@@ -69813,7 +69813,9 @@ getSkipArgCheckEntryOffset
 /
 /
 If
-SPS
+the
+Gecko
+Profiler
 is
 enabled
 mark
@@ -69821,9 +69823,11 @@ IonScript
 as
 having
 been
+/
+/
 instrumented
-with
-SPS
+accordingly
+.
 if
 (
 isProfilerInstrumentationEnabled

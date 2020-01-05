@@ -7613,7 +7613,7 @@ return
 false
 )
 ;
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -9392,7 +9392,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -13248,7 +13248,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -13577,7 +13577,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -14204,7 +14204,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -14595,7 +14595,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -15777,7 +15777,7 @@ bool
 returnValueIsUsed
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx
@@ -18856,7 +18856,7 @@ Value
 vp
 )
 {
-AutoSPSEntry
+AutoGeckoProfilerEntry
 pseudoFrame
 (
 cx

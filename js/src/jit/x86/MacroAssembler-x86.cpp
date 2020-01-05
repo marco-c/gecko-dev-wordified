@@ -2092,7 +2092,7 @@ GetJitContext
 runtime
 -
 >
-spsProfiler
+geckoProfiler
 (
 )
 .

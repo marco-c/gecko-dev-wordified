@@ -2366,7 +2366,9 @@ tracking
 information
 gathered
 by
-SPS
+the
+Gecko
+profiler
 .
 "
 "
@@ -2374,7 +2376,7 @@ SPS
 Note
 :
 call
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 in

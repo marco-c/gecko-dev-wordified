@@ -224,7 +224,7 @@ include
 "
 vm
 /
-SPSProfiler
+GeckoProfiler
 .
 h
 "
@@ -4731,7 +4731,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -5201,7 +5201,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

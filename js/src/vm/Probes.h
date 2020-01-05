@@ -539,7 +539,7 @@ JSScript
 JSFunction
 *
 bool
-popSPSFrame
+popProfilerFrame
 )
 ;
 /

@@ -118,7 +118,7 @@ namespace
 js
 {
 class
-SPSProfiler
+GeckoProfiler
 ;
 namespace
 jit
@@ -127,7 +127,7 @@ class
 MacroAssembler
 ;
 typedef
-SPSInstrumentation
+GeckoProfilerInstrumentation
 <
 MacroAssembler
 Register
@@ -144,7 +144,7 @@ public
 :
 IonInstrumentation
 (
-SPSProfiler
+GeckoProfiler
 *
 profiler
 jsbytecode

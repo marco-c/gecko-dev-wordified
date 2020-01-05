@@ -8,7 +8,7 @@ test
 allow
 -
 oom
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

@@ -1032,7 +1032,8 @@ overwriting
 /
 /
 the
-SPS
+Gecko
+Profiler
 mark
 pushed
 above

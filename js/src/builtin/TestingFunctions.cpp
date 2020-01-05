@@ -10989,7 +10989,7 @@ false
 }
 static
 bool
-ReadSPSProfilingStack
+ReadGeckoProfilingStack
 (
 JSContext
 *
@@ -11044,7 +11044,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -28421,13 +28421,13 @@ dialog
 JS_FN_HELP
 (
 "
-readSPSProfilingStack
+readGeckoProfilingStack
 "
-ReadSPSProfilingStack
+ReadGeckoProfilingStack
 0
 0
 "
-readSPSProfilingStack
+readGeckoProfilingStack
 (
 )
 "

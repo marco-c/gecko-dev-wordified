@@ -2542,7 +2542,7 @@ defined
 (
 MOZ_HAVE_RDTSC
 )
-SPSEntryMarker
+GeckoProfilerEntryMarker
 marker
 (
 cx
@@ -12977,7 +12977,7 @@ Method_Compiled
 )
 {
 bool
-wasSPS
+wasProfiler
 =
 REGS
 .
@@ -12986,7 +12986,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 ;
@@ -12997,8 +12997,8 @@ JitExecStatus
 maybeOsr
 ;
 {
-SPSBaselineOSRMarker
-spsOSR
+GeckoProfilerBaselineOSRMarker
+osr
 (
 cx
 -
@@ -13006,7 +13006,7 @@ cx
 runtime
 (
 )
-wasSPS
+wasProfiler
 )
 ;
 maybeOsr
@@ -13073,7 +13073,7 @@ JitExec_Ok
 /
 Pop
 the
-SPS
+profiler
 frame
 pushed
 by
@@ -13083,11 +13083,11 @@ interpreter
 (
 The
 compiled
+/
+/
 version
 of
 the
-/
-/
 function
 popped
 a
@@ -13098,13 +13098,15 @@ frame
 pushed
 by
 the
+/
+/
 OSR
 trampoline
 .
 )
 if
 (
-wasSPS
+wasProfiler
 )
 cx
 -
@@ -13114,7 +13116,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 exit
 (
@@ -18783,7 +18785,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -18795,7 +18797,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 updatePC
 (
@@ -19067,7 +19069,7 @@ fp
 )
 -
 >
-hasPushedSPSFrame
+hasPushedGeckoProfilerFrame
 (
 )
 )
@@ -19079,7 +19081,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 updatePC
 (

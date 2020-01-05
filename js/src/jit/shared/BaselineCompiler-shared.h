@@ -346,7 +346,7 @@ inCall_
 #
 endif
 CodeOffset
-spsPushToggleOffset_
+profilerPushToggleOffset_
 ;
 CodeOffset
 profilerEnterFrameToggleOffset_

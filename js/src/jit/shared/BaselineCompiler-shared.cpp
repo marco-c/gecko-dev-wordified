@@ -285,7 +285,7 @@ false
 )
 #
 endif
-spsPushToggleOffset_
+profilerPushToggleOffset_
 (
 )
 profilerEnterFrameToggleOffset_

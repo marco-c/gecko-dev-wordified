@@ -8,7 +8,7 @@ test
 error
 :
 InternalError
-enableSPSProfiling
+enableGeckoProfiling
 (
 )
 ;

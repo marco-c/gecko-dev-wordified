@@ -15707,7 +15707,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (

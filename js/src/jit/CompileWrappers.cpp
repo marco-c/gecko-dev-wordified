@@ -456,12 +456,12 @@ jitRuntime
 )
 ;
 }
-SPSProfiler
+GeckoProfiler
 &
 CompileRuntime
 :
 :
-spsProfiler
+geckoProfiler
 (
 )
 {
@@ -471,7 +471,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 ;
 }
 bool
@@ -1265,7 +1265,7 @@ cloneSingletons_
 (
 false
 )
-spsSlowAssertionsEnabled_
+profilerSlowAssertionsEnabled_
 (
 false
 )
@@ -1303,7 +1303,7 @@ cloneSingletons
 (
 )
 ;
-spsSlowAssertionsEnabled_
+profilerSlowAssertionsEnabled_
 =
 cx
 -
@@ -1313,7 +1313,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 enabled
 (
@@ -1328,7 +1328,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 slowAssertionsEnabled
 (

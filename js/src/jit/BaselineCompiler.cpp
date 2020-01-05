@@ -24192,7 +24192,7 @@ runtime
 )
 -
 >
-spsProfiler
+geckoProfiler
 .
 addressOfEnabled
 (

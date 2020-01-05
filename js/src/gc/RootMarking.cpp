@@ -2731,12 +2731,14 @@ traceOrMark
 /
 /
 Trace
-SPS
+the
+Gecko
+Profiler
 .
 rt
 -
 >
-spsProfiler
+geckoProfiler
 .
 trace
 (
