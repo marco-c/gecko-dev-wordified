@@ -652,23 +652,17 @@ passed
 -
 in
 descriptor
-and
-storing
-it
-in
+.
+Stringifies
+to
 a
-variable
+Rust
+expression
+of
     
-called
-by
 the
-name
-in
-the
-"
-target
-"
-argument
+appropriate
+type
 .
     
 codeOnFailure
@@ -692,7 +686,6 @@ __init__
 self
 descriptor
 source
-target
 codeOnFailure
 isOptional
 =
@@ -771,12 +764,6 @@ source
 source
                               
 "
-target
-"
-:
-target
-                              
-"
 codeOnFailure
 "
 :
@@ -847,10 +834,6 @@ val
 )
 =
 >
-{
-target
-}
-=
 {
 unwrapped_val
 }
@@ -968,7 +951,6 @@ __init__
 self
 descriptor
 source
-target
 isOptional
 )
 :
@@ -980,7 +962,6 @@ __init__
 self
 descriptor
 source
-target
                                          
 "
 return
@@ -5023,6 +5004,10 @@ templateBody
 CGGeneric
 (
 "
+{
+declName
+}
+=
 match
 %
 s
@@ -5063,10 +5048,6 @@ value
 )
 =
 >
-{
-declName
-}
-=
 %
 s
 \
@@ -5075,6 +5056,7 @@ n
                                  
 "
 }
+;
 "
 %
 (
@@ -5327,6 +5309,15 @@ identifier
 name
 )
         
+templateBody
+=
+"
+{
+declName
+}
+=
+"
+        
 if
 failureCode
 is
@@ -5354,12 +5345,6 @@ val
 to_object
 (
 )
-"
-                    
-"
-{
-declName
-}
 "
                     
 failureCode
@@ -5399,12 +5384,6 @@ to_object
 )
 "
                     
-"
-{
-declName
-}
-"
-                    
 isOptional
 or
 type
@@ -5414,6 +5393,15 @@ nullable
 )
 )
 )
+        
+templateBody
++
+=
+"
+;
+\
+n
+"
         
 templateBody
 =
@@ -5626,6 +5614,10 @@ conversionCode
 (
                 
 "
+{
+declName
+}
+=
 match
 FromJSValConvertible
 :
@@ -5651,10 +5643,6 @@ strval
 )
 =
 >
-{
-declName
-}
-=
 %
 s
 \
@@ -5678,6 +5666,7 @@ n
                 
 "
 }
+;
 "
 %
 (
@@ -6988,6 +6977,10 @@ template
 (
         
 "
+{
+declName
+}
+=
 match
 FromJSValConvertible
 :
@@ -7013,10 +7006,6 @@ v
 )
 =
 >
-{
-declName
-}
-=
 %
 s
 \
@@ -7040,6 +7029,7 @@ n
         
 "
 }
+;
 "
 %
 (
@@ -21054,11 +21044,6 @@ FailureFatalCastableObjectUnwrapper
         
 unwrapThis
 =
-CGIndenter
-(
-CGGeneric
-(
-            
 str
 (
 CastableObjectUnwrapper
@@ -21074,52 +21059,14 @@ descriptor
 "
 obj
 "
-"
-this
-"
 self
 .
 unwrapFailureCode
 )
 )
-)
-)
         
-return
-CGList
-(
-[
-self
-.
-getThis
-(
-)
 unwrapThis
-                        
-self
-.
-generate_code
-(
-)
-]
-"
-\
-n
-"
-)
-.
-define
-(
-)
-    
-def
-getThis
-(
-self
-)
-:
-        
-return
+=
 CGIndenter
 (
             
@@ -21188,15 +21135,44 @@ JS
 %
 s
 >
+=
+%
+s
 ;
+\
+n
 "
 %
+(
 self
 .
 descriptor
 .
 concreteType
+unwrapThis
 )
+)
+)
+        
+return
+CGList
+(
+[
+unwrapThis
+self
+.
+generate_code
+(
+)
+]
+"
+\
+n
+"
+)
+.
+define
+(
 )
     
 def
