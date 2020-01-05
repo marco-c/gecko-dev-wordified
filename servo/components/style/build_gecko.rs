@@ -3573,6 +3573,9 @@ nsStyleGradient
 nsStyleGradientStop
 "
 "
+nsStyleGridTemplate
+"
+"
 nsStyleImage
 "
 "
@@ -5056,6 +5059,9 @@ nsStyleGradient
 "
 "
 nsStyleGradientStop
+"
+"
+nsStyleGridTemplate
 "
 "
 nsStyleImage
