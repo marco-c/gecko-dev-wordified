@@ -1848,6 +1848,10 @@ rendering
 of
 Ahem
 font
+and
+the
+HTML
+canvas
 for
 reftests
 .
@@ -1866,6 +1870,11 @@ arg
 disable
 -
 text
+-
+aa
+disable
+-
+canvas
 -
 aa
 "

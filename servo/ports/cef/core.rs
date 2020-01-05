@@ -516,6 +516,12 @@ true
 ;
 temp_opts
 .
+enable_canvas_antialiasing
+=
+true
+;
+temp_opts
+.
 resources_path
 =
 None
