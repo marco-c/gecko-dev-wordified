@@ -295,6 +295,7 @@ Runnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 TracedRunnable
 (
 already_AddRefed
@@ -528,6 +529,7 @@ mTask
 ;
 public
 :
+explicit
 AutoRunTask
 (
 VirtualTask
