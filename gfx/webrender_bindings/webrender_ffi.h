@@ -1738,6 +1738,9 @@ void
 aGLContext
 bool
 enable_profiler
+WrExternalImageIdHandler
+*
+handler
 WrAPI
 *
 *
