@@ -460,7 +460,7 @@ multiples
 of
 16
 .
-int32_t
+size_t
 I420FrameBufferSizePadded
 (
 int32_t
