@@ -168,10 +168,7 @@ use
 wrapper
 :
 :
-{
-TLayoutNode
 ThreadSafeLayoutNode
-}
 ;
 use
 euclid

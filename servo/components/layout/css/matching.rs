@@ -98,10 +98,7 @@ use
 data
 :
 :
-{
-LayoutDataAccess
 LayoutDataWrapper
-}
 ;
 use
 incremental
@@ -131,7 +128,6 @@ wrapper
 {
 LayoutElement
 LayoutNode
-TLayoutNode
 }
 ;
 use
@@ -4307,8 +4303,6 @@ type_id
 (
 )
 {
-Some
-(
 NodeTypeId
 :
 :
@@ -4318,7 +4312,6 @@ CharacterDataTypeId
 :
 :
 Text
-)
 )
 =
 >

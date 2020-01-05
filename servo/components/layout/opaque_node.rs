@@ -132,7 +132,6 @@ wrapper
 :
 {
 LayoutNode
-TLayoutNode
 ThreadSafeLayoutNode
 }
 ;
