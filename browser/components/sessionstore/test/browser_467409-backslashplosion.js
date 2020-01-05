@@ -256,6 +256,9 @@ about
 :
 mozilla
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 }
 ]
 }
@@ -324,6 +327,9 @@ about
 :
 sessionrestore
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 }
 ]
 formdata

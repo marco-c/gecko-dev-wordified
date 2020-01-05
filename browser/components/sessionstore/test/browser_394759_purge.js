@@ -325,6 +325,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 }
 ]
 }
@@ -364,6 +367,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
@@ -387,6 +393,9 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 FORGET
@@ -436,6 +445,9 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 FORGET
@@ -459,6 +471,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
@@ -482,6 +497,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
@@ -505,6 +523,9 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 FORGET
@@ -528,6 +549,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
@@ -570,6 +594,9 @@ example
 com
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
@@ -603,6 +630,9 @@ mozilla
 org
 /
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 FORGET
@@ -621,6 +651,9 @@ org
 /
 again
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 "
@@ -658,6 +691,9 @@ example
 .
 com
 "
+triggeringPrincipal_base64
+:
+triggeringPrincipal
 title
 :
 REMEMBER
