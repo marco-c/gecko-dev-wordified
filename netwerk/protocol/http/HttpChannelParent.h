@@ -799,6 +799,14 @@ uint32_t
 &
 loadFlags
 const
+uint32_t
+&
+referrerPolicy
+const
+OptionalURIParams
+&
+aReferrerURI
+const
 OptionalURIParams
 &
 apiRedirectUri

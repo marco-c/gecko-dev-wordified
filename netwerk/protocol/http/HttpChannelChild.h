@@ -430,6 +430,17 @@ HttpBaseChannel
 :
 nsIHttpChannel
 NS_IMETHOD
+SetReferrerWithPolicy
+(
+nsIURI
+*
+referrer
+uint32_t
+referrerPolicy
+)
+override
+;
+NS_IMETHOD
 SetRequestHeader
 (
 const
