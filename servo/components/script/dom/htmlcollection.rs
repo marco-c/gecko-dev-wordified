@@ -315,6 +315,13 @@ Collection
 impl
 HTMLCollection
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 new_inherited
 (
@@ -341,6 +348,13 @@ collection
 collection
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

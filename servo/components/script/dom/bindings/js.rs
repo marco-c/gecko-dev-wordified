@@ -2357,6 +2357,13 @@ types
 like
 Temporary
 .
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 unsafe
 fn
@@ -2412,6 +2419,13 @@ out
 of
 this
 object
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 get

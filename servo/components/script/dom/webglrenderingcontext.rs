@@ -868,6 +868,13 @@ None
 }
 )
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new

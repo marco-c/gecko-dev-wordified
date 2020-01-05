@@ -191,6 +191,13 @@ File
 impl
 FileList
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 new_inherited
 (
@@ -223,6 +230,13 @@ list
 files
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new
