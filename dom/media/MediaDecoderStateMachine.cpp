@@ -9706,7 +9706,7 @@ it
 mMaster
 -
 >
-Push
+PushAudio
 (
 aAudio
 )
@@ -9756,7 +9756,7 @@ it
 mMaster
 -
 >
-Push
+PushVideo
 (
 aVideo
 )
@@ -13378,6 +13378,13 @@ mMaster
 ScheduleStateMachineIn
 (
 USECS_PER_S
+)
+;
+mMaster
+-
+>
+DispatchDecodeTasksIfNeeded
+(
 )
 ;
 return
