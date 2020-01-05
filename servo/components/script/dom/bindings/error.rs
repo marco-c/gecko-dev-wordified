@@ -110,7 +110,11 @@ bindings
 conversions
 :
 :
-root_from_object
+{
+ConversionResult
+FromJSValConvertible
+ToJSValConvertible
+}
 ;
 use
 dom
@@ -122,11 +126,7 @@ bindings
 conversions
 :
 :
-{
-ConversionResult
-FromJSValConvertible
-ToJSValConvertible
-}
+root_from_object
 ;
 use
 dom

@@ -145,12 +145,6 @@ use
 cssparser
 :
 :
-ToCss
-;
-use
-cssparser
-:
-:
 {
 AtRuleParser
 DeclarationListParser
@@ -158,6 +152,12 @@ DeclarationParser
 Parser
 parse_important
 }
+;
+use
+cssparser
+:
+:
+ToCss
 ;
 use
 euclid

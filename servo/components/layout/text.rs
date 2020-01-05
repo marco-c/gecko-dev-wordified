@@ -91,8 +91,8 @@ fragment
 :
 :
 {
-ScannedTextFragmentInfo
 SELECTED
+ScannedTextFragmentInfo
 SpecificFragmentInfo
 UnscannedTextFragmentInfo
 }
@@ -240,7 +240,12 @@ style
 computed_values
 :
 :
-white_space
+{
+line_height
+text_orientation
+text_rendering
+text_transform
+}
 ;
 use
 style
@@ -249,12 +254,7 @@ style
 computed_values
 :
 :
-{
-line_height
-text_orientation
-text_rendering
-text_transform
-}
+white_space
 ;
 use
 style
@@ -300,8 +300,8 @@ unicode_script
 :
 :
 {
-get_script
 Script
+get_script
 }
 ;
 /

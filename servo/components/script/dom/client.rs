@@ -72,7 +72,10 @@ Bindings
 ClientBinding
 :
 :
-FrameType
+{
+ClientMethods
+Wrap
+}
 ;
 use
 dom
@@ -90,10 +93,7 @@ Bindings
 ClientBinding
 :
 :
-{
-ClientMethods
-Wrap
-}
+FrameType
 ;
 use
 dom

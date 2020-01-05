@@ -192,7 +192,10 @@ bindings
 js
 :
 :
-Root
+{
+JS
+MutHeap
+}
 ;
 use
 dom
@@ -204,10 +207,7 @@ bindings
 js
 :
 :
-{
-JS
-MutHeap
-}
+Root
 ;
 use
 dom

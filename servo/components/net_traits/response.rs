@@ -109,6 +109,12 @@ concept
 fetch
 )
 use
+{
+Metadata
+NetworkError
+}
+;
+use
 hyper
 :
 :
@@ -174,12 +180,6 @@ url
 :
 :
 Url
-;
-use
-{
-Metadata
-NetworkError
-}
 ;
 /
 /

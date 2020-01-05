@@ -105,7 +105,10 @@ Bindings
 BluetoothBinding
 :
 :
-RequestDeviceOptions
+{
+BluetoothMethods
+BluetoothScanFilter
+}
 ;
 use
 dom
@@ -123,10 +126,7 @@ Bindings
 BluetoothBinding
 :
 :
-{
-BluetoothScanFilter
-BluetoothMethods
-}
+RequestDeviceOptions
 ;
 use
 dom

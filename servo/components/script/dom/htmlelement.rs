@@ -207,7 +207,11 @@ bindings
 inheritance
 :
 :
-Castable
+{
+ElementTypeId
+HTMLElementTypeId
+NodeTypeId
+}
 ;
 use
 dom
@@ -219,11 +223,7 @@ bindings
 inheritance
 :
 :
-{
-ElementTypeId
-HTMLElementTypeId
-NodeTypeId
-}
+Castable
 ;
 use
 dom

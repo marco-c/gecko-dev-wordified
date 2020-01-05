@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+{
+PagePx
+ViewportPx
+}
+;
+use
 cssparser
 :
 :
@@ -106,12 +112,6 @@ specified
 :
 :
 AllowedNumericType
-;
-use
-{
-PagePx
-ViewportPx
-}
 ;
 define_css_keyword_enum
 !

@@ -186,7 +186,10 @@ bindings
 js
 :
 :
-RootedReference
+{
+JS
+Root
+}
 ;
 use
 dom
@@ -198,10 +201,7 @@ bindings
 js
 :
 :
-{
-JS
-Root
-}
+RootedReference
 ;
 use
 dom

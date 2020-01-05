@@ -72,7 +72,10 @@ Bindings
 ServiceWorkerContainerBinding
 :
 :
-RegistrationOptions
+{
+ServiceWorkerContainerMethods
+Wrap
+}
 ;
 use
 dom
@@ -90,10 +93,7 @@ Bindings
 ServiceWorkerContainerBinding
 :
 :
-{
-ServiceWorkerContainerMethods
-Wrap
-}
+RegistrationOptions
 ;
 use
 dom

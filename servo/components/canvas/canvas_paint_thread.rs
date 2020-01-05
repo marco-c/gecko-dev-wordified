@@ -167,7 +167,10 @@ ipc_channel
 ipc
 :
 :
-IpcSharedMemory
+{
+self
+IpcSender
+}
 ;
 use
 ipc_channel
@@ -176,10 +179,7 @@ ipc_channel
 ipc
 :
 :
-{
-self
-IpcSender
-}
+IpcSharedMemory
 ;
 use
 num_traits

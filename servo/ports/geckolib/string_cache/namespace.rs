@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+{
+Atom
+WeakAtom
+}
+;
+use
 gecko_bindings
 :
 :
@@ -97,12 +103,6 @@ ops
 :
 :
 Deref
-;
-use
-{
-Atom
-WeakAtom
-}
 ;
 #
 [

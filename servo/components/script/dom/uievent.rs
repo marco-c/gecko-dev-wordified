@@ -153,7 +153,11 @@ bindings
 js
 :
 :
-Root
+{
+JS
+MutNullableHeap
+RootedReference
+}
 ;
 use
 dom
@@ -165,11 +169,7 @@ bindings
 js
 :
 :
-{
-JS
-MutNullableHeap
-RootedReference
-}
+Root
 ;
 use
 dom

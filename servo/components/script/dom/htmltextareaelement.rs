@@ -201,7 +201,10 @@ dom
 element
 :
 :
-RawLayoutElementHelpers
+{
+AttributeMutation
+Element
+}
 ;
 use
 dom
@@ -210,10 +213,7 @@ dom
 element
 :
 :
-{
-AttributeMutation
-Element
-}
+RawLayoutElementHelpers
 ;
 use
 dom
@@ -386,8 +386,8 @@ textinput
 {
 KeyReaction
 Lines
-TextInput
 SelectionDirection
+TextInput
 }
 ;
 #

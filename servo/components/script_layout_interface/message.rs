@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+{
+OpaqueStyleAndLayoutData
+TrustedNodeAddress
+}
+;
+use
 app_units
 :
 :
@@ -226,12 +232,6 @@ ipc
 :
 :
 OptionalOpaqueIpcSender
-;
-use
-{
-OpaqueStyleAndLayoutData
-TrustedNodeAddress
-}
 ;
 /
 /
