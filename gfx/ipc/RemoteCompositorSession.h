@@ -235,6 +235,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 TextureFactoryIdentifier
 *
 aOutIdentifier
@@ -250,6 +252,8 @@ override
 void
 NotifyDeviceReset
 (
+uint64_t
+aSeqNo
 )
 ;
 void

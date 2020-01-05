@@ -3435,6 +3435,8 @@ occurred
 void
 OnRenderingDeviceReset
 (
+uint64_t
+aSeqNo
 )
 ;
 bool

@@ -278,6 +278,8 @@ RemoteCompositorSession
 :
 NotifyDeviceReset
 (
+uint64_t
+aSeqNo
 )
 {
 MOZ_ASSERT
@@ -290,6 +292,7 @@ mWidget
 >
 OnRenderingDeviceReset
 (
+aSeqNo
 )
 ;
 }
@@ -461,6 +464,8 @@ LayersBackend
 >
 &
 aBackendHints
+uint64_t
+aSeqNo
 TextureFactoryIdentifier
 *
 aOutIdentifier
@@ -478,6 +483,7 @@ mCompositorBridgeChild
 SendReset
 (
 aBackendHints
+aSeqNo
 &
 didReset
 aOutIdentifier

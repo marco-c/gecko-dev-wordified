@@ -585,6 +585,10 @@ const
 TextureFactoryIdentifier
 &
 aNewIdentifier
+const
+uint64_t
+&
+aSeqNo
 )
 override
 ;

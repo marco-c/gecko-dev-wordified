@@ -1941,6 +1941,8 @@ nsBaseWidget
 :
 OnRenderingDeviceReset
 (
+uint64_t
+aSeqNo
 )
 {
 if
@@ -2105,6 +2107,7 @@ mCompositorSession
 Reset
 (
 backendHints
+aSeqNo
 &
 identifier
 )
