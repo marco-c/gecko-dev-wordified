@@ -1332,14 +1332,6 @@ RGBA8
 pixels
 :
 pixels
-.
-move_iter
-(
-)
-.
-collect
-(
-)
 }
 ;
 let
