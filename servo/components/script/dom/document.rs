@@ -4392,6 +4392,15 @@ make
 that
 workable
 .
+self
+.
+stylesheets_changed_since_reflow
+.
+get
+(
+)
+|
+|
 match
 self
 .
