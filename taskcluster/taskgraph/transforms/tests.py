@@ -3971,6 +3971,14 @@ opt
 '
                                          
 '
+linux32
+-
+devedition
+/
+opt
+'
+                                         
+'
 linux64
 /
 opt
@@ -3994,6 +4002,14 @@ debug
 linux64
 -
 pgo
+/
+opt
+'
+                                         
+'
+linux64
+-
+devedition
 /
 opt
 '
