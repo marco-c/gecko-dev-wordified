@@ -981,9 +981,9 @@ void
 SetConfirmedTargetAPZC
 (
 const
-LayerTransactionParent
-*
-aLayerTree
+uint64_t
+&
+aLayersId
 const
 uint64_t
 &

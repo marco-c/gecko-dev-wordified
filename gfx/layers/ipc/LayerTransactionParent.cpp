@@ -5751,7 +5751,9 @@ mCompositorBridge
 >
 SetConfirmedTargetAPZC
 (
-this
+GetId
+(
+)
 aBlockId
 aTargets
 )
