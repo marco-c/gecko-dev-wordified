@@ -611,7 +611,9 @@ SpdyPushCache
 :
 RegisterPushedStreamHttp2
 (
+const
 nsCString
+&
 key
 Http2PushedStream
 *
@@ -713,7 +715,9 @@ SpdyPushCache
 :
 RemovePushedStreamHttp2
 (
+const
 nsCString
+&
 key
 )
 {

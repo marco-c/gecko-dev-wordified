@@ -1446,10 +1446,12 @@ static
 void
 ReleaseTransportFlow
 (
+const
 RefPtr
 <
 TransportFlow
 >
+&
 aFlow
 )
 {

@@ -305,7 +305,9 @@ webSocketData
 uint32_t
 IndexOf
 (
+const
 nsCString
+&
 hostname
 uint32_t
 mSerial

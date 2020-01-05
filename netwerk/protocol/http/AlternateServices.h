@@ -642,7 +642,9 @@ AltSvcMapping
 void
 SyncString
 (
+const
 nsCString
+&
 val
 )
 ;
