@@ -1209,6 +1209,9 @@ MediaTrackConstraints
 &
 aConstraints
 const
+mozilla
+:
+:
 ipc
 :
 :
@@ -1248,6 +1251,9 @@ public
 NormalizedConstraints
 mConstraints
 ;
+mozilla
+:
+:
 ipc
 :
 :
