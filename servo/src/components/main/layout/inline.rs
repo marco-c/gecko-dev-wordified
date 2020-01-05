@@ -5891,7 +5891,7 @@ bottom
 value
 of
 '
-vertex
+vertical
 -
 align
 '
@@ -6077,7 +6077,7 @@ bottom
 value
 of
 '
-vertex
+vertical
 -
 align
 '
