@@ -1433,6 +1433,18 @@ MAKEFLAGS
 -
 j6
 '
++
+(
+'
+'
+if
+AUTOMATION
+else
+'
+-
+s
+'
+)
 )
 UNAME_M
 =
@@ -2996,8 +3008,6 @@ run_command
 (
 '
 %
-s
--
 s
 -
 w
