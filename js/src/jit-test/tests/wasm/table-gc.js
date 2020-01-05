@@ -331,14 +331,6 @@ makeFinalizeObserver
 (
 )
 ;
-e
-.
-edge
-=
-makeFinalizeObserver
-(
-)
-;
 t
 .
 edge
@@ -431,7 +423,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 t
@@ -447,7 +439,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 i
@@ -463,7 +455,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 assertEq
@@ -487,7 +479,7 @@ assertEq
 finalizeCount
 (
 )
-5
+4
 )
 ;
 /
@@ -582,14 +574,6 @@ makeFinalizeObserver
 (
 )
 ;
-e
-.
-edge
-=
-makeFinalizeObserver
-(
-)
-;
 t
 .
 edge
@@ -637,7 +621,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 f
@@ -653,7 +637,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 i
@@ -669,7 +653,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 t
@@ -685,7 +669,7 @@ assertEq
 finalizeCount
 (
 )
-4
+3
 )
 ;
 /
@@ -750,14 +734,6 @@ makeFinalizeObserver
 (
 )
 ;
-e
-.
-edge
-=
-makeFinalizeObserver
-(
-)
-;
 t
 .
 edge
@@ -797,7 +773,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 i
@@ -813,7 +789,7 @@ assertEq
 finalizeCount
 (
 )
-2
+1
 )
 ;
 t
@@ -829,7 +805,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 /
