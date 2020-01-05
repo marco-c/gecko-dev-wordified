@@ -196,10 +196,10 @@ Error
 :
 :
 {
+self
 InvalidModification
 Network
 Security
-Type
 }
 ;
 use
@@ -834,7 +834,10 @@ error
 return
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )
@@ -1050,7 +1053,10 @@ error
 {
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )

@@ -130,8 +130,8 @@ Error
 :
 :
 {
+self
 Security
-Type
 }
 ;
 use
@@ -665,7 +665,10 @@ error
 {
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )
@@ -805,7 +808,10 @@ error
 {
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )
@@ -1030,7 +1036,10 @@ error
 {
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )
@@ -1312,7 +1321,10 @@ error
 {
 Err
 (
-Type
+Error
+:
+:
+from
 (
 error
 )
