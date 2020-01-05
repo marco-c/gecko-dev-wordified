@@ -2997,7 +2997,7 @@ if
 id
 =
 =
-XPCJSContext
+XPCJSRuntime
 :
 :
 Get

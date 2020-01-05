@@ -8741,10 +8741,9 @@ UndefinedValue
 )
 )
 ;
-XPCJSContext
-:
-:
-Get
+mCallContext
+.
+GetContext
 (
 )
 -
