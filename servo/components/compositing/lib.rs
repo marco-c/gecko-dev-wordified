@@ -209,10 +209,7 @@ use
 compositor_thread
 :
 :
-{
 CompositorProxy
-CompositorThread
-}
 ;
 pub
 use

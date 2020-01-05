@@ -439,7 +439,6 @@ compositing
 :
 {
 CompositorProxy
-CompositorThread
 IOCompositor
 }
 ;
@@ -1243,7 +1242,7 @@ somewhere
 let
 compositor
 =
-CompositorThread
+IOCompositor
 :
 :
 create
