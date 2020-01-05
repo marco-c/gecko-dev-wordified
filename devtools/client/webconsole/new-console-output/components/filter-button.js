@@ -227,6 +227,17 @@ dom
 button
 (
 {
+"
+aria
+-
+pressed
+"
+:
+active
+=
+=
+=
+true
 className
 :
 classList
