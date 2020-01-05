@@ -1731,6 +1731,14 @@ uint32_t
 NONE
 VERTICAL
 HORIZONTAL
+SENTINEL
+/
+*
+for
+IPC
+serialization
+*
+/
 }
 ;
 }
