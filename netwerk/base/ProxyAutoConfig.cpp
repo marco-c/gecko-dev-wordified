@@ -5004,7 +5004,7 @@ t
 /
 /
 use
-nsIRUI
+nsIURI
 scheme
 methods
 bool
