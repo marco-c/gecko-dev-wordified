@@ -1451,6 +1451,27 @@ is
 INOUT
     
 def
+hasReply
+(
+self
+)
+:
+return
+len
+(
+self
+.
+returns
+)
+or
+IPDLType
+.
+hasReply
+(
+self
+)
+    
+def
 hasImplicitActorParam
 (
 self
@@ -8033,33 +8054,30 @@ pname
 )
         
 if
+(
+mtype
+.
+isCtor
+(
+)
+or
+mtype
+.
+isDtor
+(
+)
+)
+and
 mtype
 .
 isAsync
 (
 )
 and
-len
-(
 mtype
 .
 returns
-)
 :
-            
-#
-XXX
-/
-cjones
-could
-modify
-grammar
-to
-disallow
-this
-.
-.
-.
             
 self
 .
@@ -8069,6 +8087,9 @@ loc
                        
 "
 asynchronous
+ctor
+/
+dtor
 message
 %
 s
@@ -8080,6 +8101,7 @@ values
                        
 mname
 )
+;
         
 if
 (
