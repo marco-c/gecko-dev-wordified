@@ -496,6 +496,7 @@ RestyleHintData
 aRestyleHintData
 =
 nullptr
+const
 mozilla
 :
 :
@@ -504,6 +505,7 @@ Maybe
 Element
 *
 >
+&
 aRestyleRoot
 =
 mozilla
@@ -2087,6 +2089,7 @@ const
 RestyleHintData
 *
 aRestyleHintData
+const
 mozilla
 :
 :
@@ -2095,6 +2098,7 @@ Maybe
 Element
 *
 >
+&
 aRestyleRoot
 )
 {
