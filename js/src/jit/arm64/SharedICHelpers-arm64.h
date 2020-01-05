@@ -1602,7 +1602,7 @@ lr
 is
 clobbered
 by
-patchableCallPreBarrier
+guardedCallPreBarrier
 .
 Save
 it
@@ -1617,7 +1617,7 @@ lr
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 addr
 type

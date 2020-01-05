@@ -11294,7 +11294,7 @@ offsetAdjustment
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 address
 MIRType
@@ -11320,7 +11320,7 @@ offsetAdjustment
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 address
 MIRType
@@ -11343,7 +11343,7 @@ address
 {
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 address
 MIRType

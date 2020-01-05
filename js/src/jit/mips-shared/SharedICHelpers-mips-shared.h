@@ -1746,7 +1746,7 @@ ra
 is
 clobbered
 by
-patchableCallPreBarrier
+guardedCallPreBarrier
 .
 Save
 it
@@ -1761,7 +1761,7 @@ ra
 ;
 masm
 .
-patchableCallPreBarrier
+guardedCallPreBarrier
 (
 addr
 type

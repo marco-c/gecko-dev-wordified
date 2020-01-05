@@ -2284,13 +2284,6 @@ cx
 )
 ;
 void
-toggleBarriers
-(
-bool
-enabled
-)
-;
-void
 sweep
 (
 FreeOp
@@ -3207,13 +3200,6 @@ kind
 addr
 ;
 }
-void
-toggleBarriers
-(
-bool
-enabled
-)
-;
 JitCompartment
 (
 )
