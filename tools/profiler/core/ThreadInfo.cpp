@@ -172,9 +172,6 @@ aPseudoStack
 )
 mPlatformData
 (
-Sampler
-:
-:
 AllocPlatformData
 (
 aThreadId

@@ -313,9 +313,6 @@ PseudoStack
 *
 mPseudoStack
 ;
-Sampler
-:
-:
 UniquePlatformData
 mPlatformData
 ;
