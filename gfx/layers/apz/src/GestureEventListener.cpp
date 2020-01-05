@@ -154,6 +154,17 @@ AsyncPanZoomController
 #
 include
 "
+InputBlockState
+.
+h
+"
+/
+/
+for
+TouchBlockState
+#
+include
+"
 base
 /
 task
