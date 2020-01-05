@@ -843,6 +843,17 @@ return
 e
 ;
 }
+\
+static
+LayerType
+Type
+(
+)
+{
+return
+e
+;
+}
 /
 /
 Defined
