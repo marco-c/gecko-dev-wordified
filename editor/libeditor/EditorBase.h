@@ -4505,7 +4505,7 @@ IsActiveInDOMWindow
 *
 Whether
 the
-aEvent
+aGUIEvent
 should
 be
 handled
@@ -4519,9 +4519,9 @@ When
 this
 *
 returns
-FALSE
+false
 The
-aEvent
+aGUIEvent
 shouldn
 '
 t
@@ -4536,7 +4536,7 @@ i
 e
 .
 The
-aEvent
+aGUIEvent
 should
 be
 handled
@@ -4555,9 +4555,9 @@ virtual
 bool
 IsAcceptableInputEvent
 (
-nsIDOMEvent
+WidgetGUIEvent
 *
-aEvent
+aGUIEvent
 )
 ;
 /
