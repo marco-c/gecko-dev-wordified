@@ -290,12 +290,6 @@ use
 std
 :
 :
-libc
-;
-use
-std
-:
-:
 rt
 :
 :

@@ -725,7 +725,7 @@ render_state
 )
 SetUnRenderedColor
 (
-id
+_id
 color
 )
 =
