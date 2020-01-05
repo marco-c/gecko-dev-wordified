@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsIRemoteOpenFileListener
-.
-h
-"
-#
-include
-"
 nsIZipReader
 .
 h
@@ -343,8 +336,6 @@ IObserver
 public
 nsIStreamListener
 public
-nsIRemoteOpenFileListener
-public
 nsIThreadRetargetableRequest
 public
 nsIThreadRetargetableStreamListener
@@ -359,7 +350,6 @@ NS_DECL_NSICHANNEL
 NS_DECL_NSIJARCHANNEL
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-NS_DECL_NSIREMOTEOPENFILELISTENER
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 nsJARChannel
@@ -416,14 +406,6 @@ FireOnProgress
 (
 uint64_t
 aProgress
-)
-;
-nsresult
-SetRemoteNSPRFileDesc
-(
-PRFileDesc
-*
-fd
 )
 ;
 virtual
@@ -571,9 +553,6 @@ mIsPending
 ;
 bool
 mIsUnsafe
-;
-bool
-mOpeningRemote
 ;
 mozilla
 :
