@@ -568,6 +568,7 @@ constellation_msg
 PipelineId
 SubpageId
 WindowSizeData
+WorkerId
 }
 ;
 use
@@ -1917,6 +1918,12 @@ no_jsmanaged_fields
 SubpageId
 WindowSizeData
 PipelineId
+)
+;
+no_jsmanaged_fields
+!
+(
+WorkerId
 )
 ;
 no_jsmanaged_fields
