@@ -972,7 +972,7 @@ real
 (
 DataView
 39
-InitDataViewClass
+InitViaClassSpec
 OCLASP
 (
 DataView
