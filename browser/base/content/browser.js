@@ -46000,6 +46000,8 @@ _identityPopupMultiView
 )
 {
 delete
+this
+.
 _identityPopupMultiView
 ;
 return
