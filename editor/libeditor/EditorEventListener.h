@@ -360,7 +360,7 @@ aMouseEvent
 nsresult
 Focus
 (
-WidgetEvent
+InternalFocusEvent
 *
 aFocusEvent
 )
@@ -368,7 +368,7 @@ aFocusEvent
 nsresult
 Blur
 (
-WidgetEvent
+InternalFocusEvent
 *
 aBlurEvent
 )
