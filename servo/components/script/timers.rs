@@ -1257,7 +1257,6 @@ id
 (
 )
 {
-;
 match
 control_port
 .
