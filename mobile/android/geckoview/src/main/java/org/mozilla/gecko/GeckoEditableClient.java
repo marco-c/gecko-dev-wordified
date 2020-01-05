@@ -97,6 +97,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
+import
 android
 .
 os
@@ -199,6 +210,7 @@ composing
 character
 rects
 .
+WrapForJNI
 public
 static
 final
@@ -226,6 +238,7 @@ call
 updateCompositionRects
 (
 )
+WrapForJNI
 public
 static
 final
@@ -245,6 +258,7 @@ composing
 character
 rects
 .
+WrapForJNI
 public
 static
 final
