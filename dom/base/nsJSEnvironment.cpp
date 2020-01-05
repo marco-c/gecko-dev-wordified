@@ -5598,12 +5598,6 @@ nsISupportsPrimitive
 :
 TYPE_PRTIME
 :
-case
-nsISupportsPrimitive
-:
-:
-TYPE_VOID
-:
 {
 NS_WARNING
 (
