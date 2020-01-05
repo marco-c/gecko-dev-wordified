@@ -8723,6 +8723,7 @@ mWRBridge
 new
 WebRenderBridgeParent
 (
+this
 aPipelineId
 mWidget
 glc
