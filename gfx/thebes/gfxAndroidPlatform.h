@@ -153,12 +153,6 @@ dom
 :
 FontListEntry
 ;
-typedef
-struct
-FT_LibraryRec_
-*
-FT_Library
-;
 class
 gfxAndroidPlatform
 :
@@ -368,6 +362,7 @@ FT_Library
 GetFTLibrary
 (
 )
+override
 ;
 virtual
 bool

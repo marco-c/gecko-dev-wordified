@@ -498,6 +498,12 @@ FlushContentDrawing
 )
 override
 ;
+FT_Library
+GetFTLibrary
+(
+)
+override
+;
 #
 if
 (
