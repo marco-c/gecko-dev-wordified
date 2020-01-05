@@ -515,7 +515,7 @@ None
 Msg
 :
 :
-SetIds
+SetFrameTree
 (
 _
 response_chan
@@ -584,12 +584,12 @@ response
 like
 /
 /
-SetIds
+SetFrameTree
 .
 Msg
 :
 :
-CreateOrUpdateRootLayer
+CreateOrUpdateBaseLayer
 (
 .
 .
@@ -616,7 +616,7 @@ SetLayerOrigin
 Msg
 :
 :
-Paint
+AssignPaintedBuffers
 (
 .
 .

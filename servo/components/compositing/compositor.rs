@@ -903,12 +903,12 @@ bool
 Whether
 we
 have
-gotten
+received
 a
-SetIds
+SetFrameTree
 message
 .
-got_set_ids_message
+got_set_frame_tree_message
 :
 bool
 /
@@ -1329,7 +1329,7 @@ new
 got_load_complete_message
 :
 false
-got_set_ids_message
+got_set_frame_tree_message
 :
 false
 constellation_chan
@@ -1724,7 +1724,7 @@ remove_outstanding_paint_msg
 Msg
 :
 :
-SetIds
+SetFrameTree
 (
 frame_tree
 response_chan
@@ -1793,7 +1793,7 @@ send
 Msg
 :
 :
-CreateOrUpdateRootLayer
+CreateOrUpdateBaseLayer
 (
 layer_properties
 )
@@ -1807,7 +1807,7 @@ NotShuttingDown
 {
 self
 .
-create_or_update_root_layer
+create_or_update_base_layer
 (
 layer_properties
 )
@@ -1902,7 +1902,7 @@ origin
 Msg
 :
 :
-Paint
+AssignPaintedBuffers
 (
 pipeline_id
 epoch
@@ -1930,7 +1930,7 @@ into_iter
 {
 self
 .
-paint
+assign_painted_buffers
 (
 pipeline_id
 layer_id
@@ -2928,7 +2928,7 @@ send_window_size
 ;
 self
 .
-got_set_ids_message
+got_set_frame_tree_message
 =
 true
 ;
@@ -3436,7 +3436,7 @@ false
 }
 }
 fn
-create_or_update_root_layer
+create_or_update_base_layer
 (
 &
 mut
@@ -3447,7 +3447,7 @@ LayerProperties
 )
 {
 let
-need_new_root_layer
+need_new_base_layer
 =
 !
 self
@@ -3458,7 +3458,7 @@ layer_properties
 )
 ;
 if
-need_new_root_layer
+need_new_base_layer
 {
 let
 root_layer
@@ -3497,7 +3497,7 @@ clone
 )
 ;
 let
-first_child
+base_layer
 =
 CompositorData
 :
@@ -3528,9 +3528,6 @@ tile_size
 /
 Add
 the
-first
-child
-/
 base
 layer
 to
@@ -3542,9 +3539,9 @@ child
 list
 so
 that
-/
-/
 child
+/
+/
 iframe
 layers
 are
@@ -3569,10 +3566,10 @@ creating
 the
 layer
 tree
+/
+/
 skeleton
 in
-/
-/
 create_frame_tree_root_layers
 .
 root_layer
@@ -3584,7 +3581,7 @@ children
 insert
 (
 0
-first_child
+base_layer
 )
 ;
 }
@@ -4102,7 +4099,7 @@ send_buffer_requests_for_all_layers
 ;
 }
 fn
-paint
+assign_painted_buffers
 (
 &
 mut
@@ -4141,7 +4138,7 @@ layer
 >
 self
 .
-paint_to_layer
+assign_painted_buffers_to_layer
 (
 layer
 new_layer_buffer_set
@@ -4221,7 +4218,7 @@ pipeline
 }
 }
 fn
-paint_to_layer
+assign_painted_buffers_to_layer
 (
 &
 mut
@@ -6626,7 +6623,7 @@ if
 !
 self
 .
-got_set_ids_message
+got_set_frame_tree_message
 {
 return
 false
@@ -8295,7 +8292,7 @@ recv_compositor_msg
 )
 ;
 let
-is_paint
+received_new_buffers
 =
 match
 msg
@@ -8303,7 +8300,7 @@ msg
 Msg
 :
 :
-Paint
+AssignPaintedBuffers
 (
 .
 .
@@ -8328,7 +8325,7 @@ msg
 )
 ;
 if
-is_paint
+received_new_buffers
 {
 self
 .
@@ -8418,8 +8415,9 @@ i
 .
 e
 .
-SetIds
+SetFrameTree
 )
+.
 while
 self
 .
