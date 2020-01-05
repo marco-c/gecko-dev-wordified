@@ -589,7 +589,7 @@ Node
 :
 new
 (
-CommentNodeTypeId
+TextNodeTypeId
 )
 text
 :
@@ -1044,6 +1044,15 @@ prev_sibling
 parent_n
 .
 last_child
+;
+parent_n
+.
+last_child
+=
+Some
+(
+child
+)
 ;
 }
 }
