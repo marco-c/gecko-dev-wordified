@@ -3524,12 +3524,13 @@ properties
 :
 apply_declarations
 (
-&
 context
 .
 stylist
 .
 device
+(
+)
 /
 *
 is_root

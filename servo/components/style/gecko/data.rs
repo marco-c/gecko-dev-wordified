@@ -788,13 +788,13 @@ Arc
 :
 get_mut
 (
-&
-mut
 self
 .
 stylist
 .
-device
+device_mut
+(
+)
 )
 .
 unwrap
@@ -975,6 +975,8 @@ self
 stylist
 .
 device
+(
+)
 .
 default_computed_values_arc
 (
