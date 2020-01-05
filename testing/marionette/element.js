@@ -2143,6 +2143,7 @@ nsIDOMXPathResult
 FIRST_ORDERED_NODE_TYPE
 null
 )
+;
 return
 iter
 .
@@ -3044,6 +3045,8 @@ value
 )
 ;
 }
+break
+;
 case
 element
 .
@@ -3109,7 +3112,6 @@ using
 ;
 }
 }
-;
 /
 *
 *
