@@ -970,6 +970,13 @@ ShouldEnableInkCollector
 (
 )
 ;
+bool
+ShouldRollupOnPointerEvent
+(
+WPARAM
+aWParam
+)
+;
 private
 :
 /
