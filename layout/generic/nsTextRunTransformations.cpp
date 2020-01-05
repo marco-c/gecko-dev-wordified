@@ -193,6 +193,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 /
 /
 Unicode
