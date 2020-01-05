@@ -2296,6 +2296,17 @@ GetSize
 )
 ;
 }
+if
+(
+images
+.
+Length
+(
+)
+>
+0
+)
+{
 mContainer
 -
 >
@@ -2319,6 +2330,7 @@ mDisplay
 images
 )
 ;
+}
 }
 void
 VideoSink
