@@ -102,6 +102,14 @@ azure
 ;
 extern
 crate
+canvas
+;
+extern
+crate
+canvas_traits
+;
+extern
+crate
 devtools_traits
 ;
 extern
@@ -123,6 +131,10 @@ layers
 extern
 crate
 layout_traits
+;
+extern
+crate
+offscreen_gl_context
 ;
 extern
 crate

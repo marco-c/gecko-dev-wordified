@@ -339,7 +339,10 @@ msg
 constellation_msg
 :
 :
+{
+ConstellationChan
 PipelineId
+}
 ;
 use
 devtools_traits
@@ -958,6 +961,9 @@ Runtime
 resource_task
 :
 ResourceTask
+constellation_chan
+:
+ConstellationChan
 parent_sender
 :
 Box
@@ -1007,6 +1013,7 @@ runtime
 resource_task
 mem_profiler_chan
 devtools_chan
+constellation_chan
 )
 id
 :
@@ -1062,6 +1069,9 @@ Runtime
 resource_task
 :
 ResourceTask
+constellation_chan
+:
+ConstellationChan
 parent_sender
 :
 Box
@@ -1115,6 +1125,7 @@ clone
 (
 )
 resource_task
+constellation_chan
 parent_sender
 own_sender
 receiver
@@ -1165,6 +1176,9 @@ TrustedWorkerAddress
 resource_task
 :
 ResourceTask
+constellation_chan
+:
+ConstellationChan
 parent_sender
 :
 Box
@@ -1397,6 +1411,7 @@ clone
 (
 )
 resource_task
+constellation_chan
 parent_sender
 own_sender
 receiver
