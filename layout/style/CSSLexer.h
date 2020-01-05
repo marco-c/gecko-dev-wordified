@@ -126,6 +126,17 @@ CSSLexerBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+NonRefcountedDOMObject
+.
+h
+"
 namespace
 mozilla
 {

@@ -117,6 +117,15 @@ nsStringFwd
 .
 h
 "
+#
+include
+"
+mozilla
+/
+CSSEnabledState
+.
+h
+"
 /
 /
 The
