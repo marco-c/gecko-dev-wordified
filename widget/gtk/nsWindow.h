@@ -1531,6 +1531,12 @@ OnCheckResize
 void
 )
 ;
+void
+OnCompositedChanged
+(
+void
+)
+;
 #
 ifdef
 MOZ_X11
@@ -2450,6 +2456,12 @@ nsIWidgetListener
 GetListener
 (
 )
+;
+bool
+IsComposited
+(
+)
+const
 ;
 GtkWidget
 *
