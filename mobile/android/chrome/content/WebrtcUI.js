@@ -1157,13 +1157,6 @@ audioDevices
 [
 audioId
 ]
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 let
@@ -1205,13 +1198,6 @@ videoDevices
 [
 videoId
 ]
-/
-*
-weak
-=
-*
-/
-false
 )
 ;
 let

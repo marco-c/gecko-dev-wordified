@@ -1170,7 +1170,6 @@ typeArray
 appendElement
 (
 type
-false
 )
 ;
 /

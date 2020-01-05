@@ -2754,7 +2754,6 @@ possibleApplicationHandlers
 appendElement
 (
 handler
-false
 )
 ;
 /
