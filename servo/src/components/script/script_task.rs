@@ -324,6 +324,12 @@ use
 std
 :
 :
+str
+;
+use
+std
+:
+:
 task
 :
 :
@@ -3879,7 +3885,13 @@ evaluate_script
 compartment
 .
 global_obj
+str
+:
+:
+from_utf8
+(
 bytes
+)
 url
 .
 path
