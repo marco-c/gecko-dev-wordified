@@ -1731,7 +1731,7 @@ isCall
 gen
 -
 >
-setPerformsCall
+setNeedsStaticStackAlignment
 (
 )
 ;

@@ -680,7 +680,7 @@ if
 gen
 -
 >
-performsCall
+needsStaticStackAlignment
 (
 )
 )
@@ -10105,7 +10105,7 @@ frameSize
 gen
 -
 >
-performsCall
+needsOverrecursedCheck
 (
 )
 ;

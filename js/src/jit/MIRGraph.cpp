@@ -259,7 +259,11 @@ wasmMaxStackArgBytes_
 (
 0
 )
-performsCall_
+needsOverrecursedCheck_
+(
+false
+)
+needsStaticStackAlignment_
 (
 false
 )
