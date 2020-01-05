@@ -158,11 +158,6 @@ js
 updates
 .
 js
-/
-/
-UpdatePrompt
-.
-js
 etc
 .
 )
