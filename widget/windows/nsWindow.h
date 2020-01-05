@@ -803,7 +803,9 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginResizeDrag
 (
 mozilla
@@ -1141,7 +1143,9 @@ aDoCapture
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetAttention
 (
 int32_t
@@ -1186,7 +1190,9 @@ LAYER_MANAGER_CURRENT
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 OnDefaultButtonLoaded
 (
 const

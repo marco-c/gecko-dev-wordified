@@ -10120,7 +10120,7 @@ nullptr
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -36215,7 +36215,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -36325,7 +36325,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

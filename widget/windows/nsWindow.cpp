@@ -10318,6 +10318,9 @@ mWnd
 SW_SHOWNOACTIVATE
 )
 ;
+Unused
+<
+<
 GetAttention
 (
 2
@@ -13326,7 +13329,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -25885,7 +25888,7 @@ comes
 to
 foreground
 .
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -26896,7 +26899,7 @@ button
 *
 *
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

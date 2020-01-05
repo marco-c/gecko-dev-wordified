@@ -8536,7 +8536,9 @@ foreground
 .
 *
 /
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetAttention
 (
 int32_t
@@ -8940,7 +8942,9 @@ in
 .
 *
 /
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginResizeDrag
 (
 mozilla
@@ -8975,7 +8979,9 @@ in
 .
 *
 /
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginMoveDrag
 (
 mozilla
@@ -11225,7 +11231,9 @@ event
 .
 *
 /
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 AttachNativeKeyEvent
 (
 mozilla
@@ -11346,7 +11354,9 @@ aButtonRect
 .
 *
 /
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 OnDefaultButtonLoaded
 (
 const

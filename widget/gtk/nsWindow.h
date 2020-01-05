@@ -926,7 +926,9 @@ aDoCapture
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetAttention
 (
 int32_t
@@ -1523,7 +1525,9 @@ static
 guint32
 sLastButtonPressTime
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginResizeDrag
 (
 mozilla
@@ -1539,7 +1543,9 @@ aVertical
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 BeginMoveDrag
 (
 mozilla
