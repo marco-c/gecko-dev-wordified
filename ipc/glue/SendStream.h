@@ -617,7 +617,7 @@ you
 /
 /
 use
-AutoIPCStreamChild
+AutoIPCStream
 this
 is
 handled
@@ -658,7 +658,7 @@ parent
 If
 you
 use
-AutoIPCStreamChild
+AutoIPCStream
 this
 is
 handled
