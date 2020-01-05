@@ -211,7 +211,6 @@ resolve
 }
 )
 ;
-let
 notification
 =
 aWindow

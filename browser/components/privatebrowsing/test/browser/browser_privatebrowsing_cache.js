@@ -170,9 +170,6 @@ sanitizeCache
 (
 )
 ;
-let
-nrEntriesR1
-=
 getStorageEntryCount
 (
 "
