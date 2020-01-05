@@ -5921,13 +5921,6 @@ true
 "
 )
 ;
-this
-.
-_setNotificationUIState
-(
-popupnotification
-)
-;
 }
 this
 .
