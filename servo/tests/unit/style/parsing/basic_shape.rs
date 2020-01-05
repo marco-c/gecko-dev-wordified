@@ -1733,8 +1733,8 @@ bottom
 circle
 (
 at
-right
-5
+left
+95
 %
 bottom
 1px
