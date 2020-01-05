@@ -246,7 +246,7 @@ z
 }
 }
 fn
-int_to_au
+px_to_au
 (
 i
 :
@@ -264,7 +264,7 @@ i
 )
 }
 fn
-au_to_int
+au_to_px
 (
 au
 :
