@@ -328,13 +328,6 @@ pub
 mod
 panicking
 ;
-#
-[
-allow
-(
-unsafe_code
-)
-]
 pub
 mod
 prefs
@@ -343,13 +336,6 @@ pub
 mod
 print_tree
 ;
-#
-[
-allow
-(
-unsafe_code
-)
-]
 pub
 mod
 resource_files
