@@ -9830,6 +9830,10 @@ MakeUnique
 MetadataTier
 >
 (
+CompileMode
+:
+:
+Ion
 )
 ;
 if
@@ -55978,6 +55982,10 @@ MakeUnique
 MetadataTier
 >
 (
+CompileMode
+:
+:
+Ion
 )
 ;
 if

@@ -650,6 +650,17 @@ cursor
 )
 const
 {
+MOZ_ASSERT
+(
+mode
+=
+=
+CompileMode
+:
+:
+Ion
+)
+;
 cursor
 =
 WriteBytes
@@ -782,6 +793,8 @@ LinkData
 :
 initTier
 (
+CompileMode
+mode
 )
 {
 MOZ_ASSERT
@@ -800,6 +813,7 @@ MakeUnique
 LinkDataTier
 >
 (
+mode
 )
 ;
 return
@@ -1489,6 +1503,10 @@ linkData
 .
 initTier
 (
+CompileMode
+:
+:
+Ion
 )
 )
 return
@@ -5631,6 +5649,10 @@ CodeSegment
 :
 create
 (
+CompileMode
+:
+:
+Baseline
 *
 unlinkedCodeForDebugging_
 *
