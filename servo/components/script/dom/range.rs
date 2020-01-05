@@ -6565,6 +6565,9 @@ NodeTypeId
 :
 :
 Document
+(
+_
+)
 |
 NodeTypeId
 :

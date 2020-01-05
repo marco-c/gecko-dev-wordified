@@ -3108,6 +3108,10 @@ workernavigator
 ;
 pub
 mod
+xmldocument
+;
+pub
+mod
 xmlhttprequest
 ;
 pub

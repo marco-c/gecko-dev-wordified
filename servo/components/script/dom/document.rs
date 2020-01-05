@@ -10849,6 +10849,7 @@ layout_drain
 impl
 Document
 {
+pub
 fn
 new_inherited
 (
