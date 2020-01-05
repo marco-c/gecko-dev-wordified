@@ -263,6 +263,16 @@ mDragStartSequenceNumber
 CSSCoord
 mScrollbarDragOffset
 ;
+/
+/
+relative
+to
+the
+thumb
+'
+s
+start
+offset
 ScrollDirection
 mDirection
 ;

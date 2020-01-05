@@ -197,6 +197,8 @@ aDirection
 float
 aThumbRatio
 CSSCoord
+aThumbStart
+CSSCoord
 aThumbLength
 bool
 aIsAsyncDraggable
@@ -213,6 +215,10 @@ aDirection
 mThumbRatio
 (
 aThumbRatio
+)
+mThumbStart
+(
+aThumbStart
 )
 mThumbLength
 (
@@ -288,6 +294,9 @@ float
 mThumbRatio
 ;
 CSSCoord
+mThumbStart
+;
+CSSCoord
 mThumbLength
 ;
 /
@@ -337,6 +346,14 @@ mThumbRatio
 aOther
 .
 mThumbRatio
+&
+&
+mThumbStart
+=
+=
+aOther
+.
+mThumbStart
 &
 &
 mThumbLength
