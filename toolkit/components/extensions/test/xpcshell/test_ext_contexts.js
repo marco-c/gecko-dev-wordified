@@ -417,7 +417,7 @@ context
 "
 onSingleton
 "
-callback
+fire
 =
 >
 {
@@ -428,15 +428,10 @@ fireSingleton
 =
 >
 {
-Promise
+fire
 .
-resolve
+async
 (
-)
-.
-then
-(
-callback
 )
 ;
 }

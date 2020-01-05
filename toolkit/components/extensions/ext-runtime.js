@@ -227,6 +227,8 @@ APP_STARTUP
 )
 {
 fire
+.
+sync
 (
 )
 ;
@@ -310,6 +312,8 @@ browserUpdated
 )
 {
 fire
+.
+sync
 (
 {
 reason
@@ -329,6 +333,8 @@ ADDON_INSTALL
 "
 :
 fire
+.
+sync
 (
 {
 reason
@@ -347,6 +353,8 @@ ADDON_UPGRADE
 "
 :
 fire
+.
+sync
 (
 {
 reason
@@ -446,11 +454,10 @@ upgrade
 version
 }
 ;
-context
-.
-runSafe
-(
 fire
+.
+sync
+(
 details
 )
 ;
