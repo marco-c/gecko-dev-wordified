@@ -876,14 +876,7 @@ continue
 if
 defined
 (
-ANDROID
-)
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
+PROFILE_JAVA
 )
 /
 /
@@ -932,8 +925,10 @@ cache
 =
 0
 )
+{
 continue
 ;
+}
 #
 else
 if
