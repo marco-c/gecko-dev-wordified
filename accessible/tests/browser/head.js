@@ -801,8 +801,6 @@ tests
 /
 browser
 /
-e10s
-/
 events
 .
 js
