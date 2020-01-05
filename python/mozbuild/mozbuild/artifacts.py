@@ -9486,6 +9486,21 @@ revset
 '
 )
         
+#
+Include
+try
+in
+our
+search
+to
+allow
+pulling
+from
+a
+specific
+push
+.
+        
 pushheads
 =
 [
@@ -9494,6 +9509,12 @@ list
 (
 CANDIDATE_TREES
 )
++
+[
+'
+try
+'
+]
 revision
 )
 ]
