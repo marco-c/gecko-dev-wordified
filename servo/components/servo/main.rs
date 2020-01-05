@@ -380,6 +380,15 @@ app
 :
 create_window
 (
+std
+:
+:
+ptr
+:
+:
+null_mut
+(
+)
 )
 )
 }

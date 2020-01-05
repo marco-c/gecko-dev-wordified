@@ -723,6 +723,14 @@ glutin_app
 :
 create_window
 (
+window_info
+.
+parent_window
+as
+glutin_app
+:
+:
+WindowID
 )
 ;
 let
