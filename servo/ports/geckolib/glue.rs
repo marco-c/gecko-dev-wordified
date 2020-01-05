@@ -1590,12 +1590,17 @@ debug
 has
 unstyled
 parent
+{
+:
+?
+}
 -
 ignoring
 call
 to
 traverse_subtree
 "
+element
 parent
 )
 ;
