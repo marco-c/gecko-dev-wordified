@@ -1903,8 +1903,6 @@ is
 needed
 by
 remote
-and
-b2g
 xpcshell
 to
 extend
