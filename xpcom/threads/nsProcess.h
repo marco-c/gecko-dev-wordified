@@ -375,6 +375,9 @@ mShutdown
 bool
 mBlocking
 ;
+bool
+mStartHidden
+;
 nsCOMPtr
 <
 nsIFile
