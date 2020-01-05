@@ -2195,13 +2195,6 @@ root
 "
 )
         
-self
-.
-set_use_stable_rust
-(
-False
-)
-        
 if
 not
 self
@@ -2328,6 +2321,25 @@ mode
 "
 "
 "
+)
+        
+self
+.
+config
+[
+"
+build
+"
+]
+.
+setdefault
+(
+"
+llvm
+-
+assertions
+"
+True
 )
         
 self
@@ -2512,6 +2524,13 @@ linux
 androideabi
 "
 )
+        
+self
+.
+set_use_stable_rust
+(
+False
+)
     
 _use_stable_rust
 =
@@ -2659,9 +2678,33 @@ host_triple
 )
 )
         
-else
+if
+not
+self
+.
+config
+[
+"
+build
+"
+]
+[
+"
+llvm
+-
+assertions
+"
+]
 :
             
+version
++
+=
+"
+-
+alt
+"
+        
 return
 os
 .
@@ -2737,9 +2780,9 @@ else
 "
 rust
 -
-nightly
+commit
 -
-date
+hash
 "
 )
             

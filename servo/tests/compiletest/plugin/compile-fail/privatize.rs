@@ -84,9 +84,10 @@ DenyPublicFields
 ~
 ^
 ERROR
-custom
+proc
+-
+macro
 derive
-attribute
 panicked
 struct
 Foo
