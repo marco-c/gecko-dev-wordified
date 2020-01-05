@@ -1018,6 +1018,16 @@ US
 '
         
 '
+browser
+.
+urlbar
+.
+userMadeSearchSuggestionsChoice
+'
+:
+True
+        
+'
 extensions
 .
 update
