@@ -170,6 +170,9 @@ class
 ServoDeclarationBlock
 ;
 class
+ServoStyleRule
+;
+class
 ServoStyleRuleDeclaration
 final
 :
