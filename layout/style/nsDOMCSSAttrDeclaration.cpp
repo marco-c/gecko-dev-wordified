@@ -492,6 +492,13 @@ declaration
 "
 )
 ;
+aDecl
+-
+>
+SetDirty
+(
+)
+;
 return
 mIsSMILOverride
 ?
