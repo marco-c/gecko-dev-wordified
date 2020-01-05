@@ -2093,7 +2093,7 @@ name
 {
 testFile
 .
-append
+appendRelativePath
 (
 request
 .
@@ -2187,13 +2187,13 @@ data
 length
 )
 ;
+}
 outStream
 .
 close
 (
 )
 ;
-}
 filePaths
 .
 push
