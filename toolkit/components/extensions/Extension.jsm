@@ -6568,6 +6568,15 @@ ready
 this
 )
 ;
+this
+.
+emit
+(
+"
+ready
+"
+)
+;
 }
 catch
 (
