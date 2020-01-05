@@ -365,6 +365,15 @@ LOAD_DEVICE_LIST_END
 /
 /
 Remove
+a
+device
+.
+"
+REMOVE_DEVICE
+"
+/
+/
+Remove
 the
 viewport
 '

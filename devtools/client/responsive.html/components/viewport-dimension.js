@@ -138,14 +138,14 @@ viewport
 )
 .
 isRequired
-onRemoveDeviceAssociation
+onChangeSize
 :
 PropTypes
 .
 func
 .
 isRequired
-onResizeViewport
+onRemoveDeviceAssociation
 :
 PropTypes
 .
@@ -589,7 +589,7 @@ this
 .
 props
 .
-onResizeViewport
+onChangeSize
 (
 parseInt
 (
