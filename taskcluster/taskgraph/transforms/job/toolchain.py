@@ -272,7 +272,7 @@ basestring
 }
 )
 def
-add_index_paths
+add_optimizations
 (
 config
 run
@@ -400,16 +400,14 @@ files
     
 }
     
-index_paths
+optimizations
 =
 taskdesc
 .
 setdefault
 (
 '
-index
--
-paths
+optimizations
 '
 [
 ]
@@ -477,10 +475,16 @@ level
 =
 level
         
-index_paths
+optimizations
 .
 append
 (
+[
+'
+index
+-
+search
+'
 TOOLCHAIN_INDEX
 .
 format
@@ -489,6 +493,7 @@ format
 *
 subs
 )
+]
 )
     
 #
@@ -1042,7 +1047,7 @@ script
     
 ]
     
-add_index_paths
+add_optimizations
 (
 config
 run
@@ -1494,7 +1499,7 @@ script
     
 ]
     
-add_index_paths
+add_optimizations
 (
 config
 run
