@@ -523,13 +523,6 @@ RecvDPGetSnapshot
 PTextureParent
 *
 aTexture
-const
-gfx
-:
-:
-IntRect
-&
-aRect
 )
 override
 ;

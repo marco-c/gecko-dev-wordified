@@ -1781,7 +1781,6 @@ texture
 GetIPDLActor
 (
 )
-bounds
 )
 )
 {
@@ -1964,6 +1963,16 @@ is
 rightside
 up
 .
+/
+/
+Webrender
+always
+does
+a
+full
+screen
+readback
+.
 SurfacePattern
 pattern
 (
@@ -1991,7 +2000,7 @@ PostTranslate
 0
 .
 0
-bounds
+aSize
 .
 height
 )

@@ -1955,10 +1955,6 @@ RecvDPGetSnapshot
 PTextureParent
 *
 aTexture
-const
-IntRect
-&
-aRect
 )
 {
 if
