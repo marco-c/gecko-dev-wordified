@@ -2015,6 +2015,8 @@ contain
 mNumLongHMetrics
 records
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -2022,6 +2024,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >
@@ -2189,6 +2193,8 @@ contain
 mNumLongVMetrics
 records
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -2196,6 +2202,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >
@@ -2824,6 +2832,8 @@ return
 ;
 }
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -2831,6 +2841,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >

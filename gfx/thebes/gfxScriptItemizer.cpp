@@ -500,6 +500,13 @@ hb
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+unicode
+;
 #
 define
 MOD
