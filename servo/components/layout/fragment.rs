@@ -5831,6 +5831,8 @@ new
 .
 scan_for_runs
 (
+&
+mut
 layout_context
 .
 font_context
@@ -6851,6 +6853,8 @@ text
 :
 font_metrics_for_style
 (
+&
+mut
 layout_context
 .
 font_context
@@ -12791,6 +12795,8 @@ text
 :
 font_metrics_for_style
 (
+&
+mut
 layout_context
 .
 font_context

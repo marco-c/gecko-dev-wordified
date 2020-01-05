@@ -1365,6 +1365,8 @@ someone
 let
 style_sharing_candidate_cache
 =
+&
+mut
 self
 .
 layout_context
@@ -1519,6 +1521,8 @@ shared
 parent_opt
 &
 applicable_declarations
+&
+mut
 self
 .
 layout_context

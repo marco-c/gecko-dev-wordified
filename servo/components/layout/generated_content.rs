@@ -3869,6 +3869,8 @@ new
 .
 scan_for_runs
 (
+&
+mut
 layout_context
 .
 font_context
