@@ -7956,7 +7956,6 @@ hint
 .
 insert
 (
-&
 StoredRestyleHint
 :
 :
@@ -8153,7 +8152,6 @@ hint
 .
 insert
 (
-&
 StoredRestyleHint
 :
 :
@@ -8505,7 +8503,6 @@ hint
 .
 insert
 (
-&
 restyle
 .
 hint
