@@ -543,17 +543,6 @@ hbs
 ProfilerCategory
 :
 :
-ScriptXhrEvent
-)
-;
-maybe_create_heartbeat
-(
-&
-mut
-hbs
-ProfilerCategory
-:
-:
 ApplicationHeartbeat
 )
 ;

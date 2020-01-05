@@ -2014,7 +2014,6 @@ UpdateReplacedElement
 SetViewport
 WebSocketEvent
 WorkerEvent
-XhrEvent
 }
 /
 /
@@ -7143,16 +7142,6 @@ ProfilerCategory
 :
 :
 ScriptWorkerEvent
-ScriptTaskEventCategory
-:
-:
-XhrEvent
-=
->
-ProfilerCategory
-:
-:
-ScriptXhrEvent
 }
 ;
 profile

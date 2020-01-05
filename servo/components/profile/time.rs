@@ -872,17 +872,6 @@ Event
 ProfilerCategory
 :
 :
-ScriptXhrEvent
-=
->
-"
-Script
-Xhr
-Event
-"
-ProfilerCategory
-:
-:
 ApplicationHeartbeat
 =
 >
