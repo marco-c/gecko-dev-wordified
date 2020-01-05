@@ -1407,8 +1407,9 @@ script
 |
 script
 .
-mark_already_started
+set_already_started
 (
+true
 )
 )
 ;
