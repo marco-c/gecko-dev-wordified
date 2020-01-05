@@ -177,10 +177,7 @@ bindings
 js
 :
 :
-{
-JS
 Root
-}
 ;
 use
 dom

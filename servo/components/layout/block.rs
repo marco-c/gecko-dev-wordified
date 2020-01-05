@@ -509,15 +509,6 @@ MaybeAuto
 }
 ;
 use
-model
-:
-:
-{
-specified
-specified_or_none
-}
-;
-use
 sequential
 ;
 use
@@ -2539,7 +2530,7 @@ from_option
 (
 calc
 .
-to_computed
+to_used_value
 (
 block_container_block_size
 )
@@ -2646,7 +2637,7 @@ _
 {
 calc
 .
-to_computed
+to_used_value
 (
 block_container_block_size
 )
@@ -2743,7 +2734,7 @@ _
 {
 calc
 .
-to_computed
+to_used_value
 (
 block_container_block_size
 )
@@ -8814,7 +8805,7 @@ _
 {
 calc
 .
-to_computed
+to_used_value
 (
 containing_block_size
 )
@@ -10732,8 +10723,6 @@ as_mut_inline
 .
 first_line_indentation
 =
-specified
-(
 self
 .
 fragment
@@ -10747,6 +10736,9 @@ get_inheritedtext
 )
 .
 text_indent
+.
+to_used_value
+(
 containing_block_size
 )
 ;
@@ -11641,8 +11633,6 @@ inline_start_end
 let
 max_inline_size
 =
-specified_or_none
-(
 self
 .
 fragment
@@ -11654,6 +11644,9 @@ style
 max_inline_size
 (
 )
+.
+to_used_value
+(
 self
 .
 base
@@ -11669,8 +11662,6 @@ MAX_AU
 let
 min_inline_size
 =
-specified
-(
 self
 .
 fragment
@@ -11682,6 +11673,9 @@ style
 min_inline_size
 (
 )
+.
+to_used_value
+(
 self
 .
 base
@@ -18029,8 +18023,6 @@ size
 '
 .
 match
-specified_or_none
-(
 block
 .
 fragment
@@ -18044,6 +18036,9 @@ style
 max_inline_size
 (
 )
+.
+to_used_value
+(
 containing_block_inline_size
 )
 {
@@ -18146,8 +18141,6 @@ size
 let
 computed_min_inline_size
 =
-specified
-(
 block
 .
 fragment
@@ -18161,6 +18154,9 @@ style
 min_inline_size
 (
 )
+.
+to_used_value
+(
 containing_block_inline_size
 )
 ;

@@ -274,6 +274,8 @@ mLength
 other
 .
 length
+(
+)
 .
 0
 mPercent
@@ -333,10 +335,11 @@ else
 None
 }
 ;
-CalcLengthOrPercentage
-{
-length
+Self
 :
+:
+new
+(
 Au
 (
 other
@@ -344,9 +347,7 @@ other
 mLength
 )
 percentage
-:
-percentage
-}
+)
 }
 }
 impl

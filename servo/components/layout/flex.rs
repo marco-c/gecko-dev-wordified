@@ -170,15 +170,6 @@ SizeConstraint
 }
 ;
 use
-model
-:
-:
-{
-specified
-specified_or_none
-}
-;
-use
 std
 :
 :
@@ -465,7 +456,7 @@ calc
 match
 calc
 .
-to_computed
+to_used_value
 (
 content_size
 )
@@ -695,7 +686,7 @@ from_option
 (
 calc
 .
-to_computed
+to_used_value
 (
 containing_length
 )
@@ -1412,8 +1403,6 @@ self
 .
 max_size
 =
-specified_or_none
-(
 block
 .
 fragment
@@ -1423,6 +1412,9 @@ style
 max_inline_size
 (
 )
+.
+to_used_value
+(
 containing_length
 )
 .
@@ -1435,8 +1427,6 @@ self
 .
 min_size
 =
-specified
-(
 block
 .
 fragment
@@ -1446,6 +1436,9 @@ style
 min_inline_size
 (
 )
+.
+to_used_value
+(
 containing_length
 )
 ;
@@ -1535,8 +1528,6 @@ self
 .
 max_size
 =
-specified_or_none
-(
 block
 .
 fragment
@@ -1546,6 +1537,9 @@ style
 max_block_size
 (
 )
+.
+to_used_value
+(
 containing_length
 )
 .
@@ -1558,8 +1552,6 @@ self
 .
 min_size
 =
-specified
-(
 block
 .
 fragment
@@ -1569,6 +1561,9 @@ style
 min_block_size
 (
 )
+.
+to_used_value
+(
 containing_length
 )
 ;
