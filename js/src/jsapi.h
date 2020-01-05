@@ -37585,7 +37585,7 @@ See
 the
 comment
 in
-ReadOnlyCompileOptions
+TransitiveCompileOptions
 .
 bool
 isMuted

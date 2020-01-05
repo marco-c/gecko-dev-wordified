@@ -273,6 +273,9 @@ class
 AutoUnlockHelperThreadState
 ;
 class
+CompileError
+;
+class
 PromiseTask
 ;
 struct
@@ -3249,9 +3252,6 @@ script
 .
 Vector
 <
-frontend
-:
-:
 CompileError
 *
 0
