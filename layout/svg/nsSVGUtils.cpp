@@ -6133,7 +6133,7 @@ if
 Factory
 :
 :
-CheckSurfaceSize
+AllowedSurfaceSize
 (
 surfaceSize
 )
