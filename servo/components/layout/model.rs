@@ -3603,6 +3603,7 @@ derive
 Debug
 Clone
 Copy
+PartialEq
 )
 ]
 pub
