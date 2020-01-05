@@ -8965,11 +8965,6 @@ nsContentUtils
 eAutocompleteAttrState_Unknown
 ;
 }
-UpdateState
-(
-aNotify
-)
-;
 }
 return
 nsGenericHTMLFormElementWithState

@@ -2415,11 +2415,6 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
-UpdateState
-(
-aNotify
-)
-;
 }
 }
 return
