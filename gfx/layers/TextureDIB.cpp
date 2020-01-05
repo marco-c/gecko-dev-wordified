@@ -845,6 +845,10 @@ get
 )
 ;
 mSurface
+.
+get
+(
+)
 -
 >
 AddRef

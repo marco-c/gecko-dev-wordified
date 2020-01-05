@@ -589,8 +589,10 @@ aTargetInterface
 IID
 mIID
 ;
+RefPtr
+<
 IUnknown
-*
+>
 mInterceptor
 ;
 IUnknown

@@ -3425,6 +3425,10 @@ aOutDescriptor
 )
 {
 mTexture
+.
+get
+(
+)
 -
 >
 AddRef
@@ -4544,6 +4548,10 @@ mTexture
 )
 ;
 mTexture
+.
+get
+(
+)
 -
 >
 Release
