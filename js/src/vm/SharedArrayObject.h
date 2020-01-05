@@ -591,7 +591,8 @@ return
 refcount_
 ;
 }
-void
+MOZ_MUST_USE
+bool
 addReference
 (
 )
