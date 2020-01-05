@@ -3121,7 +3121,7 @@ Histogram
 }
 "
 '
-                        
+                                   
 '
 should
 be
@@ -3201,7 +3201,7 @@ Histogram
 }
 "
 '
-                        
+                                   
 '
 should
 be
@@ -3351,7 +3351,7 @@ than
 buckets
 .
 '
-                                
+                                 
 '
 Histograms
 with
@@ -3367,7 +3367,7 @@ of
 resources
 .
 '
-                                
+                                 
 '
 Contact
 the
