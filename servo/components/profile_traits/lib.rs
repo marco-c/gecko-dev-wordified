@@ -137,6 +137,10 @@ serde
 ;
 pub
 mod
+energy
+;
+pub
+mod
 mem
 ;
 pub
