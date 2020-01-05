@@ -3857,6 +3857,15 @@ appropriate
 there
 .
             
+cargo_bin
+=
+self
+.
+win_to_msys_path
+(
+cargo_bin
+)
+            
 cmd
 =
 '
@@ -3869,12 +3878,7 @@ s
 PATH
 '
 %
-self
-.
-win_to_msys_path
-(
 cargo_bin
-)
         
 print
 (
