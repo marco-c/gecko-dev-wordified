@@ -237,7 +237,7 @@ AgileReference
 namespace
 {
 class
-MOZ_NONHEAP_CLASS
+MOZ_NON_TEMPORARY_CLASS
 InParamWalker
 :
 private
