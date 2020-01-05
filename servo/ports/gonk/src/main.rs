@@ -77,6 +77,14 @@ unused_variables
 [
 feature
 (
+box_syntax
+)
+]
+#
+!
+[
+feature
+(
 int_uint
 )
 ]

@@ -61,6 +61,14 @@ MPL
 [
 feature
 (
+box_syntax
+)
+]
+#
+!
+[
+feature
+(
 collections
 )
 ]

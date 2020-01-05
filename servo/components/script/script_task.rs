@@ -8800,11 +8800,7 @@ clone
 let
 handler
 =
-Box
-:
-:
-new
-(
+box
 DocumentProgressHandler
 :
 :
@@ -8819,7 +8815,6 @@ DocumentProgressTask
 :
 :
 DOMContentLoaded
-)
 )
 ;
 self
@@ -8906,11 +8901,7 @@ step
 let
 handler
 =
-Box
-:
-:
-new
-(
+box
 DocumentProgressHandler
 :
 :
@@ -8921,7 +8912,6 @@ DocumentProgressTask
 :
 :
 Load
-)
 )
 ;
 self
