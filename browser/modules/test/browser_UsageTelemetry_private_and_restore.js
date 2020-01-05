@@ -246,11 +246,7 @@ recorded
 const
 scalars
 =
-Services
-.
-telemetry
-.
-snapshotScalars
+getParentProcessScalars
 (
 Ci
 .
@@ -676,11 +672,7 @@ recorded
 const
 scalars
 =
-Services
-.
-telemetry
-.
-snapshotScalars
+getParentProcessScalars
 (
 Ci
 .
