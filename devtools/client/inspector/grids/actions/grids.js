@@ -129,7 +129,7 @@ color
 to
 use
 for
-thie
+this
 nodeFront
 '
 s
