@@ -1213,7 +1213,7 @@ nsXULPrototypeCache
 :
 PutStyleSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aStyleSheet
 )
