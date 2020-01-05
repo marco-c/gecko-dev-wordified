@@ -17706,7 +17706,7 @@ case
 27
 occurs
 in
-URLImageDataTable
+UrlMetadataTable
 .
 onUpgrade
 case

@@ -108,7 +108,7 @@ gecko
 .
 db
 .
-URLImageDataTable
+URLMetadataTable
 .
 TILE_COLOR_COLUMN
 ;
@@ -122,7 +122,7 @@ gecko
 .
 db
 .
-URLImageDataTable
+URLMetadataTable
 .
 TILE_IMAGE_URL_COLUMN
 ;

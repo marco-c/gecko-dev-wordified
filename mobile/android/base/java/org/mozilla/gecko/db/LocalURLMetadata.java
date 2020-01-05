@@ -310,7 +310,7 @@ DBUtils
 appendProfileWithDefault
 (
 mProfile
-URLImageDataTable
+URLMetadataTable
 .
 CONTENT_URI
 )
@@ -370,7 +370,7 @@ tempModel
 .
 add
 (
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
@@ -379,7 +379,7 @@ tempModel
 .
 add
 (
-URLImageDataTable
+URLMetadataTable
 .
 TILE_IMAGE_URL_COLUMN
 )
@@ -388,7 +388,7 @@ tempModel
 .
 add
 (
-URLImageDataTable
+URLMetadataTable
 .
 TILE_COLOR_COLUMN
 )
@@ -397,7 +397,7 @@ tempModel
 .
 add
 (
-URLImageDataTable
+URLMetadataTable
 .
 TOUCH_ICON_COLUMN
 )
@@ -806,7 +806,7 @@ data
 .
 put
 (
-URLImageDataTable
+URLMetadataTable
 .
 TOUCH_ICON_COLUMN
 iconURL
@@ -1434,7 +1434,7 @@ urlsToQuery
 size
 (
 )
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
@@ -1476,7 +1476,7 @@ columns
 .
 contains
 (
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
@@ -1527,7 +1527,7 @@ columns
 .
 add
 (
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
@@ -1631,7 +1631,7 @@ cursor
 .
 getColumnIndexOrThrow
 (
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
@@ -1846,7 +1846,7 @@ update
 (
 uri
 values
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 +
@@ -1866,7 +1866,7 @@ data
 .
 get
 (
-URLImageDataTable
+URLMetadataTable
 .
 URL_COLUMN
 )
