@@ -1955,6 +1955,10 @@ if
 (
 !
 maskSurface
+|
+|
+!
+maskSurface
 -
 >
 Map
