@@ -268,10 +268,6 @@ RemoveTimer
 nsTimerImpl
 *
 aTimer
-bool
-aDisable
-=
-false
 )
 ;
 void
