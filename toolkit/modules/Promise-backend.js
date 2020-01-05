@@ -3011,10 +3011,7 @@ STATUS_REJECTED
 try
 {
 aExecutor
-.
-call
 (
-undefined
 resolve
 reject
 )

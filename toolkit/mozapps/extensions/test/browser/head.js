@@ -9219,10 +9219,7 @@ listener
 [
 aMethod
 ]
-.
-call
 (
-listener
 this
 this
 .
