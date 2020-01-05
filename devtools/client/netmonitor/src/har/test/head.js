@@ -75,6 +75,9 @@ from
 .
 .
 /
+.
+.
+/
 test
 /
 head
@@ -161,6 +164,8 @@ devtools
 client
 /
 netmonitor
+/
+src
 /
 har
 /
