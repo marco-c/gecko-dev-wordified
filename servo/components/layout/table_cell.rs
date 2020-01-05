@@ -346,15 +346,9 @@ pub
 fn
 from_node_fragment_and_visibility_flag
 <
-'
-ln
 N
 :
 ThreadSafeLayoutNode
-<
-'
-ln
->
 >
 (
 node

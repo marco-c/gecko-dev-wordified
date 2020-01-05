@@ -1731,8 +1731,6 @@ pub
 fn
 push_applicable_declarations
 <
-'
-le
 E
 V
 >
@@ -1786,10 +1784,6 @@ Impl
 >
 +
 TElement
-<
-'
-le
->
 V
 :
 VecLike
