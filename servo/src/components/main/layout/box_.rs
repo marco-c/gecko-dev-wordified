@@ -301,7 +301,6 @@ style
 ComputedValues
 TElement
 TNode
-cascade
 }
 ;
 use

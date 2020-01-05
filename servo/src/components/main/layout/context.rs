@@ -73,7 +73,10 @@ extra
 arc
 :
 :
+{
+Arc
 MutexArc
+}
 ;
 use
 green
@@ -311,7 +314,7 @@ nodes
 .
 dom_leaf_set
 :
-MutexArc
+Arc
 <
 DomLeafSet
 >
@@ -340,7 +343,7 @@ flows
 .
 flow_leaf_set
 :
-MutexArc
+Arc
 <
 FlowLeafSet
 >
