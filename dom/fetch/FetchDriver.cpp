@@ -2562,6 +2562,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 loadInfo
 -
 >
@@ -2571,6 +2576,7 @@ unsafeHeaders
 false
 )
 ;
+}
 }
 rv
 =

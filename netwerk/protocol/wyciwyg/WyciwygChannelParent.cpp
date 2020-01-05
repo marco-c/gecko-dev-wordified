@@ -967,6 +967,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 rv
 =
 loadInfo
@@ -977,6 +982,7 @@ SetPrincipalToInherit
 principalToInherit
 )
 ;
+}
 if
 (
 NS_FAILED

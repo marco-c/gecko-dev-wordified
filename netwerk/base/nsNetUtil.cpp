@@ -6007,6 +6007,16 @@ loadinfo
 "
 )
 ;
+if
+(
+!
+loadInfo
+)
+{
+return
+false
+;
+}
 /
 /
 TYPE_DOCUMENT

@@ -1787,6 +1787,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 mShouldFireLoadEvent
 =
 loadInfo
@@ -1839,6 +1844,7 @@ rv
 )
 )
 ;
+}
 /
 /
 no

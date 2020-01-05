@@ -4610,6 +4610,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 rv
 =
 loadInfo
@@ -4620,6 +4625,7 @@ SetOriginAttributes
 attrs
 )
 ;
+}
 }
 }
 else
@@ -4819,6 +4825,11 @@ GetLoadInfo
 (
 )
 ;
+if
+(
+loadInfo
+)
+{
 rv
 =
 loadInfo
@@ -4829,6 +4840,7 @@ SetOriginAttributes
 attrs
 )
 ;
+}
 }
 if
 (

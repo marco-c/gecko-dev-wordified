@@ -1659,6 +1659,11 @@ rv
 rv
 )
 ;
+if
+(
+loadInfo
+)
+{
 *
 aPolicyType
 =
@@ -1669,6 +1674,7 @@ InternalContentPolicyType
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -2326,6 +2332,11 @@ rv
 rv
 )
 ;
+if
+(
+loadInfo
+)
+{
 *
 aPolicyType
 =
@@ -2336,6 +2347,7 @@ InternalContentPolicyType
 (
 )
 ;
+}
 return
 NS_OK
 ;

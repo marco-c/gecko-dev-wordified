@@ -4823,6 +4823,16 @@ rv
 false
 )
 ;
+if
+(
+!
+loadInfo
+)
+{
+return
+false
+;
+}
 /
 /
 lets

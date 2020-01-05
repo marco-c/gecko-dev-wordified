@@ -1130,6 +1130,10 @@ GetLoadInfo
 if
 (
 !
+loadInfo
+|
+|
+!
 CSPPermitsResponse
 (
 loadInfo
