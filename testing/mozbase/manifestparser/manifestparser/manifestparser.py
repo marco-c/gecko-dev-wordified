@@ -1123,28 +1123,6 @@ in
 sections
 :
             
-subsuite
-=
-'
-'
-            
-if
-'
-subsuite
-'
-in
-data
-:
-                
-subsuite
-=
-data
-[
-'
-subsuite
-'
-]
-            
 #
 In
 case
@@ -1706,15 +1684,6 @@ relpath
 path
 rootdir
 )
-            
-test
-[
-'
-subsuite
-'
-]
-=
-subsuite
             
 test
 [
