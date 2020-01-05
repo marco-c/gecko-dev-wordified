@@ -413,8 +413,8 @@ script_task
 :
 :
 {
-ScriptMsg
 ScriptChan
+CommonScriptMsg
 }
 ;
 use
@@ -1297,7 +1297,7 @@ though
 let
 msg
 =
-ScriptMsg
+CommonScriptMsg
 :
 :
 RefcountCleanup

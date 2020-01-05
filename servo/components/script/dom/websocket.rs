@@ -330,13 +330,10 @@ use
 script_task
 :
 :
+{
 Runnable
-;
-use
-script_task
-:
-:
-ScriptMsg
+CommonScriptMsg
+}
 ;
 use
 net_traits
@@ -1537,7 +1534,7 @@ sender
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -1598,7 +1595,7 @@ sender
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -1771,7 +1768,7 @@ sender
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
@@ -1818,7 +1815,7 @@ sender
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg

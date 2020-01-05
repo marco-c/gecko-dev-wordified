@@ -140,8 +140,8 @@ script_task
 :
 {
 ScriptChan
-ScriptMsg
 TimerSource
+CommonScriptMsg
 }
 ;
 use
@@ -980,7 +980,7 @@ it
 will
 dispatch
 the
-ScriptMsg
+CommonScriptMsg
 :
 :
 FireTimer
@@ -1216,7 +1216,7 @@ script_chan
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 FireTimer

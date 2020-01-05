@@ -202,7 +202,7 @@ script_task
 {
 ScriptChan
 ScriptPort
-ScriptMsg
+CommonScriptMsg
 ScriptTask
 }
 ;
@@ -1392,7 +1392,7 @@ process_event
 self
 msg
 :
-ScriptMsg
+CommonScriptMsg
 )
 {
 match

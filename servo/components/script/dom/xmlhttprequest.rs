@@ -426,9 +426,9 @@ script_task
 :
 {
 ScriptChan
-ScriptMsg
 Runnable
 ScriptPort
+CommonScriptMsg
 }
 ;
 use
@@ -8258,7 +8258,7 @@ timeout_target
 .
 send
 (
-ScriptMsg
+CommonScriptMsg
 :
 :
 RunnableMsg
