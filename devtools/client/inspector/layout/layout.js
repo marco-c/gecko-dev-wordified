@@ -158,7 +158,7 @@ require
 /
 components
 /
-app
+App
 "
 )
 )
