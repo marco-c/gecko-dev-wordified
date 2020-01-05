@@ -5568,10 +5568,7 @@ imgCacheEntry
 entry
 )
 {
-queueContainer
-:
-:
-iterator
+auto
 it
 =
 find
