@@ -231,14 +231,10 @@ querySelector
 (
 "
 .
-old
--
 boxmodel
 -
 padding
 .
-old
--
 boxmodel
 -
 top
