@@ -442,6 +442,12 @@ BackgroundThread
 (
 )
 ;
+static
+bool
+ShutdownHasStarted
+(
+)
+;
 private
 :
 /
