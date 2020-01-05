@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+servo_msg
+:
+:
 compositor
 :
 :
