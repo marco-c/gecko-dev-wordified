@@ -330,7 +330,8 @@ Yes
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -916,7 +917,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 border_
 {
@@ -1283,7 +1285,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -1810,7 +1813,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 border_top_left_radius
 :
@@ -2493,7 +2497,8 @@ Err
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for

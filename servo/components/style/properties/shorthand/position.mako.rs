@@ -284,7 +284,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 flex_direction
 :
@@ -584,7 +585,8 @@ is_ok
 return
 Ok
 (
-Longhands
+expanded
+!
 {
 flex_grow
 :
@@ -741,7 +743,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 flex_grow
 :
@@ -1040,7 +1043,8 @@ clone
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 grid_row_gap
 :
@@ -1434,7 +1438,8 @@ line
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 grid_
 {
@@ -1972,7 +1977,8 @@ line
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 grid_row_start
 :
@@ -2274,7 +2280,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 align_content
 :
@@ -2552,7 +2559,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 align_self
 :
@@ -2866,7 +2874,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 align_items
 :

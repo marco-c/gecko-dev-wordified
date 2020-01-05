@@ -358,7 +358,8 @@ else
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 column_count
 :
@@ -681,7 +682,8 @@ any
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 column_rule_width
 :

@@ -181,7 +181,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 marker_start
 :

@@ -591,7 +591,8 @@ None
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 list_style_position
 :
@@ -633,7 +634,8 @@ image
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 list_style_position
 :
@@ -663,7 +665,8 @@ None
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 list_style_position
 :
@@ -700,7 +703,8 @@ None
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 list_style_position
 :
@@ -739,7 +743,8 @@ image
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 list_style_position
 :

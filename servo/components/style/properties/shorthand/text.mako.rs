@@ -389,7 +389,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 text_decoration_line
 :

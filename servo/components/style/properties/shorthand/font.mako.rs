@@ -558,7 +558,8 @@ parse
 return
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -1014,7 +1015,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -2008,7 +2010,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 font_variant_caps
 :
