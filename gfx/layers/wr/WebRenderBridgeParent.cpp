@@ -1281,7 +1281,7 @@ ScheduleComposition
 {
 if
 (
-mWidget
+mCompositorScheduler
 )
 {
 mCompositorScheduler
@@ -1293,6 +1293,10 @@ ScheduleComposition
 ;
 }
 else
+if
+(
+mParent
+)
 {
 mParent
 -
