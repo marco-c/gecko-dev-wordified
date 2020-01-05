@@ -377,6 +377,9 @@ GetUseTrackingProtection
 mUseTrackingProtection
 )
 ;
+if
+(
+!
 aLoadContext
 -
 >
@@ -384,7 +387,17 @@ GetOriginAttributes
 (
 mOriginAttributes
 )
+)
+{
+NS_WARNING
+(
+"
+GetOriginAttributes
+failed
+"
+)
 ;
+}
 }
 else
 {
