@@ -42,6 +42,11 @@ markers
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -74,9 +79,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -88,13 +90,6 @@ doc_force_gc
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (
@@ -331,6 +326,7 @@ name
 marker
 has
 later
+\
 start
 time
 (

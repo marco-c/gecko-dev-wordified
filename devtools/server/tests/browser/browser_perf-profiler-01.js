@@ -65,6 +65,11 @@ stopped
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -86,7 +91,6 @@ performance
 const
 {
 pmmIsProfilerActive
-pmmStopProfiler
 pmmLoadFrameScripts
 }
 =
@@ -118,9 +122,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -132,13 +133,6 @@ doc_perf
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (

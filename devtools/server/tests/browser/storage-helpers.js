@@ -27,6 +27,13 @@ zero
 /
 *
 /
+/
+*
+exported
+openTabAndSetupStorage
+clearStorage
+*
+/
 "
 use
 strict

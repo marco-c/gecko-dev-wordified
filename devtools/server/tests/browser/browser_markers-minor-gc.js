@@ -50,6 +50,11 @@ objects
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -93,9 +98,6 @@ requestLongerTimeout
 2
 )
 ;
-let
-doc
-=
 yield
 addTab
 (

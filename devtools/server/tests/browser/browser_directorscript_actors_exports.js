@@ -106,9 +106,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -124,13 +121,6 @@ target
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (

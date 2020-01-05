@@ -58,6 +58,11 @@ collection
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -101,9 +106,6 @@ requestLongerTimeout
 2
 )
 ;
-let
-browser
-=
 yield
 addTab
 (
@@ -115,13 +117,6 @@ doc_force_cc
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (

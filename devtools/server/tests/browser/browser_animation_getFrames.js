@@ -75,17 +75,6 @@ in
 the
 animation
 .
-const
-URL
-=
-MAIN_DOMAIN
-+
-"
-animation
-.
-html
-"
-;
 add_task
 (
 function

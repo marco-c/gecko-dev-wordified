@@ -44,6 +44,11 @@ front
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -69,9 +74,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -83,13 +85,6 @@ doc_allocations
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (
@@ -236,10 +231,8 @@ rec
 ;
 let
 {
-frames
 timestamps
 sizes
-sites
 }
 =
 rec

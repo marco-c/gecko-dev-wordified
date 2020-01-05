@@ -43,6 +43,11 @@ markers
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 PerformanceFront
@@ -76,9 +81,6 @@ function
 (
 )
 {
-let
-browser
-=
 yield
 addTab
 (
@@ -90,13 +92,6 @@ doc_innerHTML
 html
 "
 )
-;
-let
-doc
-=
-browser
-.
-contentDocument
 ;
 initDebuggerServer
 (
