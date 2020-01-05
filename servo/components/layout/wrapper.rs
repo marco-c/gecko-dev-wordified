@@ -1750,11 +1750,11 @@ characterdata
 (
 )
 .
-data
+data_for_layout
 (
 )
 .
-clone
+to_string
 (
 )
 }
@@ -5532,11 +5532,7 @@ characterdata
 (
 )
 .
-data
-(
-)
-.
-as_slice
+data_for_layout
 (
 )
 )
