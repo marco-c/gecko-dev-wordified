@@ -2695,13 +2695,6 @@ EXCEPTION
 "
 in
 line
-or
-"
-FATAL
-EXCEPTION
-"
-in
-line
 :
             
 #
