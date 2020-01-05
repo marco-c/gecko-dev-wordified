@@ -180,7 +180,7 @@ content
 /
 test
 /
-sync
+general
 /
 "
 ;
@@ -329,7 +329,7 @@ content
 /
 test
 /
-sync
+general
 /
 accounts_testRemoteCommands
 .

@@ -2891,7 +2891,7 @@ getPanelBrowser
 (
 )
 ;
-gSync
+gFxAccounts
 .
 populateSendTabToDevicesMenu
 (
@@ -3351,7 +3351,7 @@ popup
 onpopupshowing
 =
 "
-gSync
+gFxAccounts
 .
 populateSendTabToDevicesMenu
 (

@@ -211,7 +211,7 @@ content
 /
 test
 /
-sync
+general
 /
 browser_fxa_web_channel
 .

@@ -6140,7 +6140,7 @@ test_plaintext_sendpagetodevice
 if
 (
 !
-gSync
+gFxAccounts
 .
 sendTabToDeviceEnabled
 )
@@ -6355,7 +6355,7 @@ test_link_sendlinktodevice
 if
 (
 !
-gSync
+gFxAccounts
 .
 sendTabToDeviceEnabled
 )

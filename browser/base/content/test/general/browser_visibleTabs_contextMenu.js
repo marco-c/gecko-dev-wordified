@@ -214,7 +214,7 @@ enabled
 ;
 if
 (
-gSync
+gFxAccounts
 .
 sendTabToDeviceEnabled
 )
@@ -222,11 +222,11 @@ sendTabToDeviceEnabled
 const
 origIsSendableURI
 =
-gSync
+gFxAccounts
 .
 isSendableURI
 ;
-gSync
+gFxAccounts
 .
 isSendableURI
 =
@@ -390,7 +390,7 @@ present
 "
 )
 ;
-gSync
+gFxAccounts
 .
 isSendableURI
 =
@@ -433,7 +433,7 @@ restoreRemoteClients
 oldGetter
 )
 ;
-gSync
+gFxAccounts
 .
 isSendableURI
 =
