@@ -236,7 +236,10 @@ node
 ast
 :
 :
-TyPath
+TyKind
+:
+:
+Path
 (
 _
 ast
@@ -621,7 +624,10 @@ node
 ast
 :
 :
-MetaNameValue
+MetaItemKind
+:
+:
+NameValue
 (
 ref
 name
@@ -649,7 +655,10 @@ node
 ast
 :
 :
-LitStr
+LitKind
+:
+:
+Str
 (
 ref
 v

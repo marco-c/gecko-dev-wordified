@@ -2691,10 +2691,25 @@ False
 )
 :
         
+targets
+=
+[
+"
+arm
+-
+linux
+-
+androideabi
+"
+]
+        
 self
 .
 ensure_bootstrapped
 (
+targets
+=
+targets
 )
         
 opts
