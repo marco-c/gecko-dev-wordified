@@ -26417,12 +26417,12 @@ bug
 )
 .
 nscoord
-cbISize
+availISize
 =
 INFINITE_ISIZE_COORD
 ;
 nscoord
-cbBSize
+availBSize
 =
 NS_UNCONSTRAINEDSIZE
 ;
@@ -26503,7 +26503,7 @@ if
 isOrthogonal
 )
 {
-cbBSize
+availBSize
 =
 sz
 ;
@@ -26530,7 +26530,7 @@ sz
 }
 else
 {
-cbISize
+availISize
 =
 sz
 ;
@@ -26585,8 +26585,8 @@ LogicalSize
 availableSize
 (
 childWM
-cbISize
-cbBSize
+availISize
+availBSize
 )
 ;
 size
