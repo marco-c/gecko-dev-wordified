@@ -417,7 +417,6 @@ Base64
 byte
 output
 .
-var
 der_key
 =
 Utils
