@@ -2255,6 +2255,9 @@ IBM
 !
 =
 1
+#
+error
+"
 Exactly
 one
 of
@@ -2267,6 +2270,7 @@ should
 be
 defined
 .
+"
 #
 endif
 typedef
