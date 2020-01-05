@@ -1670,6 +1670,11 @@ arguments
 hostInfo
 .
 path
+context
+.
+extension
+.
+id
 ]
 workdir
 :
