@@ -1068,19 +1068,6 @@ self
 log
 =
 log
-        
-#
-needed
-for
-b2gautomation
-.
-py
-        
-self
-.
-suite_finished
-=
-False
     
 def
 __call__
@@ -1156,26 +1143,6 @@ action
 in
 data
 :
-            
-if
-data
-[
-'
-action
-'
-]
-=
-=
-'
-suite_end
-'
-:
-                
-self
-.
-suite_finished
-=
-True
             
 self
 .
