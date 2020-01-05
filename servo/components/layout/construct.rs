@@ -1967,14 +1967,6 @@ Some
 (
 ElementNodeTypeId
 (
-HTMLInputElementTypeId
-)
-)
-|
-Some
-(
-ElementNodeTypeId
-(
 HTMLTableDataCellElementTypeId
 )
 )
