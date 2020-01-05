@@ -5487,11 +5487,6 @@ self
 .
 descendant_links
 .
-slice_from_mut
-(
-0
-)
-.
 iter_mut
 (
 )
@@ -5544,11 +5539,6 @@ self
 .
 descendant_links
 .
-slice_from_mut
-(
-0
-)
-.
 iter_mut
 (
 )
@@ -5561,11 +5551,6 @@ zip
 self
 .
 static_block_offsets
-.
-slice_from_mut
-(
-0
-)
 .
 iter_mut
 (
