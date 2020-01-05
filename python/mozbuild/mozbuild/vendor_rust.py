@@ -110,27 +110,6 @@ self
 try
 :
             
-#
-If
-the
-build
-isn
-'
-t
--
--
-enable
--
-rust
-then
-CARGO
-won
-'
-t
-be
-set
-.
-            
 return
 self
 .
