@@ -2099,6 +2099,11 @@ grep
 bin
 /
 java
+*
+/
+bin
+/
+lsb_release
 '
 )
              
@@ -2166,7 +2171,7 @@ leak
 -
 check
 =
-full
+summary
 '
             
 '
