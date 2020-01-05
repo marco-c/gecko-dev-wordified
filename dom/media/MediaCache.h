@@ -2321,6 +2321,10 @@ return
 mClosed
 &
 &
+!
+mIsPrivateBrowsing
+&
+&
 (
 !
 mDidNotifyDataEnded
