@@ -853,6 +853,19 @@ WrTextureFilter
 :
 Linear
 ;
+WrMixBlendMode
+mixBlendMode
+=
+wr
+:
+:
+ToWrMixBlendMode
+(
+GetMixBlendMode
+(
+)
+)
+;
 WrBridge
 (
 )
@@ -881,6 +894,7 @@ GetAnimations
 (
 )
 transform
+mixBlendMode
 FrameMetrics
 :
 :

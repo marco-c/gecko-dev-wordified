@@ -1829,6 +1829,11 @@ op
 matrix
 (
 )
+op
+.
+mixBlendMode
+(
+)
 )
 ;
 break

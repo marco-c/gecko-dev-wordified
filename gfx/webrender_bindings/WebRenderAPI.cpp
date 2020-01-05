@@ -1599,6 +1599,10 @@ gfx
 Matrix4x4
 &
 aTransform
+const
+WrMixBlendMode
+&
+aMixBlendMode
 )
 {
 wr_dp_push_stacking_context
@@ -1614,6 +1618,7 @@ components
 [
 0
 ]
+aMixBlendMode
 )
 ;
 }

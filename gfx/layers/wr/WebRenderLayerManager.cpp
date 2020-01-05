@@ -1325,6 +1325,10 @@ GetAnimations
 (
 )
 identity
+WrMixBlendMode
+:
+:
+Normal
 fm
 .
 GetScrollId
