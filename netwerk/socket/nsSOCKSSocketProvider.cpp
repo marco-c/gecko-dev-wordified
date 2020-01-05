@@ -133,6 +133,12 @@ nsError
 .
 h
 "
+using
+mozilla
+:
+:
+NeckoOriginAttributes
+;
 /
 /
 /
@@ -344,9 +350,9 @@ nsIProxyInfo
 *
 proxy
 const
-nsACString
+NeckoOriginAttributes
 &
-firstPartyDomain
+originAttributes
 uint32_t
 flags
 PRFileDesc
@@ -471,9 +477,9 @@ nsIProxyInfo
 *
 proxy
 const
-nsACString
+NeckoOriginAttributes
 &
-firstPartyDomain
+originAttributes
 uint32_t
 flags
 PRFileDesc
