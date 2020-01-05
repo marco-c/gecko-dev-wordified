@@ -952,7 +952,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 h
 "
@@ -10105,7 +10105,7 @@ if
 wrapper
 )
 {
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 Get

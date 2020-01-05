@@ -1351,6 +1351,16 @@ OnLargeAllocationFailure
 (
 )
 ;
+JSRuntime
+*
+Runtime
+(
+)
+{
+return
+mJSRuntime
+;
+}
 public
 :
 void
