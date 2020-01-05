@@ -281,6 +281,10 @@ mInputStream
 (
 aInputStream
 )
+mIsDirectory
+(
+false
+)
 {
 mImmutable
 =
@@ -329,6 +333,10 @@ aStart
 aLength
 )
 )
+mIsDirectory
+(
+false
+)
 {
 mImmutable
 =
@@ -367,6 +375,10 @@ aLastModifiedDate
 mInputStream
 (
 aInputStream
+)
+mIsDirectory
+(
+false
 )
 {
 mImmutable
