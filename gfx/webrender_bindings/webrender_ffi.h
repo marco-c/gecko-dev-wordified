@@ -492,10 +492,10 @@ WrByteSlice
 {
 uint8_t
 *
-mBuffer
+buffer
 ;
 size_t
-mLength
+len
 ;
 }
 ;

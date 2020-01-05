@@ -2491,10 +2491,10 @@ uint8_t
 (
 aWrSlice
 .
-mBuffer
+buffer
 aWrSlice
 .
-mLength
+len
 )
 ;
 }
