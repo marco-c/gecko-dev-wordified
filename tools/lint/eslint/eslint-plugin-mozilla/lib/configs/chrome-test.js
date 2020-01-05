@@ -8,6 +8,11 @@ all
 mochitest
 files
 .
+"
+use
+strict
+"
+;
 module
 .
 exports
