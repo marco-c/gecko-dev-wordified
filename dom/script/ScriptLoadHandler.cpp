@@ -217,6 +217,12 @@ aScriptLoader
 ScriptLoadRequest
 *
 aRequest
+mozilla
+:
+:
+dom
+:
+:
 SRICheckDataVerifier
 *
 aSRIDataVerifier
