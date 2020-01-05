@@ -547,6 +547,7 @@ window
 Window
 WindowHelpers
 ScriptHelpers
+ReflowReason
 }
 ;
 use
@@ -5492,6 +5493,10 @@ force_reflow
 &
 *
 page
+ReflowReason
+:
+:
+Viewport
 )
 ;
 }
@@ -6134,6 +6139,10 @@ force_reflow
 &
 *
 page
+ReflowReason
+:
+:
+CachedPageNeededReflow
 )
 ;
 }
@@ -8298,6 +8307,10 @@ ReflowQueryType
 :
 :
 NoQuery
+ReflowReason
+:
+:
+FirstLoad
 )
 ;
 /
@@ -8816,6 +8829,9 @@ page
 :
 &
 Page
+reason
+:
+ReflowReason
 )
 {
 let
@@ -8873,6 +8889,7 @@ ReflowQueryType
 :
 :
 NoQuery
+reason
 )
 ;
 }
@@ -9315,6 +9332,10 @@ force_reflow
 (
 &
 page
+ReflowReason
+:
+:
+MouseEvent
 )
 }
 }
@@ -9614,6 +9635,10 @@ force_reflow
 &
 *
 page
+ReflowReason
+:
+:
+WindowResize
 )
 ;
 let
@@ -9873,6 +9898,10 @@ force_reflow
 &
 *
 page
+ReflowReason
+:
+:
+ReceivedReflowEvent
 )
 ;
 }

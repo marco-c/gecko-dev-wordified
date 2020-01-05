@@ -790,6 +790,7 @@ window
 {
 Window
 WindowHelpers
+ReflowReason
 }
 ;
 use
@@ -4433,6 +4434,10 @@ ReflowQueryType
 :
 :
 NoQuery
+ReflowReason
+:
+:
+MouseEvent
 )
 ;
 }
@@ -5728,6 +5733,10 @@ ReflowQueryType
 :
 :
 NoQuery
+ReflowReason
+:
+:
+KeyEvent
 )
 ;
 }
