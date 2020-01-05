@@ -1444,9 +1444,6 @@ aMsg
 }
 RefPtr
 <
-MediaDrmCDMProxy
-:
-:
 DecryptPromise
 >
 MediaDrmCDMProxy
