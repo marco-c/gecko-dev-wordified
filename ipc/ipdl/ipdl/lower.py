@@ -33330,6 +33330,25 @@ msgvar
 actorvar
 )
         
+failif
+=
+StmtIf
+(
+ExprNot
+(
+sendok
+)
+)
+        
+failif
+.
+addifstmt
+(
+StmtReturn
+.
+FALSE
+)
+        
 method
 .
 addstmts
@@ -33367,6 +33386,7 @@ sendstmts
             
 +
 [
+failif
 Whitespace
 .
 NL
