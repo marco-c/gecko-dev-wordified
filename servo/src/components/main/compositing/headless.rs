@@ -523,12 +523,6 @@ Paint
 .
 )
 |
-InvalidateRect
-(
-.
-.
-)
-|
 ChangeReadyState
 (
 .
