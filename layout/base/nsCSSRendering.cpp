@@ -11060,9 +11060,6 @@ GetDrawTarget
 (
 )
 ;
-nsContextBoxBlur
-blurringArea
-;
 /
 /
 Clip
@@ -42472,10 +42469,13 @@ aDestinationCtx
 transformedDestRect
 transformedShadowClipRect
 blurRadius
-spreadRadius
 aShadowColor
 aHasBorderRadius
+?
+&
 aInnerClipRectRadii
+:
+nullptr
 transformedSkipRect
 aShadowOffset
 )
