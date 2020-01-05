@@ -75,9 +75,6 @@ use
 rustc
 :
 :
-middle
-:
-:
 ty
 ;
 use
