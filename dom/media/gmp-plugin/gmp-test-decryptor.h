@@ -267,6 +267,8 @@ aBuffer
 GMPEncryptedBufferMetadata
 *
 aMetadata
+uint64_t
+aDurationUses
 )
 override
 {

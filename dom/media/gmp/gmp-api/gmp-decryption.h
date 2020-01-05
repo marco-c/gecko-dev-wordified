@@ -2162,6 +2162,8 @@ aBuffer
 GMPEncryptedBufferMetadata
 *
 aMetadata
+uint64_t
+aDurationUsecs
 )
 =
 0
