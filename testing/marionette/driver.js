@@ -18436,7 +18436,7 @@ hidden
 {
 throw
 new
-ElementNotVisibleError
+ElementNotInteractableError
 (
 "
 This

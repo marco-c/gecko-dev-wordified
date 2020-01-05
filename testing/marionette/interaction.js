@@ -443,10 +443,10 @@ Otherwise
 pointer
 -
 interactability
+*
 checks
 will
 be
-*
 performed
 .
 If
@@ -455,11 +455,11 @@ of
 these
 fail
 an
+*
 {
 code
-ElementNotVisibleError
+ElementNotInteractableError
 }
-*
 is
 returned
 .
@@ -561,7 +561,7 @@ definition
 *
 throws
 {
-ElementNotVisibleError
+ElementNotInteractable
 }
 *
 If
@@ -733,7 +733,7 @@ interactable
 {
 throw
 new
-ElementNotVisibleError
+ElementNotInteractableError
 (
 )
 ;

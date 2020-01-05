@@ -8387,7 +8387,7 @@ else
 {
 throw
 new
-ElementNotVisibleError
+ElementNotInteractableError
 (
 "
 Element
