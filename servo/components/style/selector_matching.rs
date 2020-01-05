@@ -119,10 +119,7 @@ selectors
 tree
 :
 :
-{
 TNode
-TElement
-}
 ;
 use
 util

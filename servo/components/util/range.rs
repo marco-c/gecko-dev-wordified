@@ -972,7 +972,7 @@ Self_
 {
 n
 .
-to_int
+to_isize
 (
 )
 .

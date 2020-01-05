@@ -93,14 +93,6 @@ core
 [
 feature
 (
-hash
-)
-]
-#
-!
-[
-feature
-(
 int_uint
 )
 ]
@@ -124,7 +116,7 @@ android
 )
 feature
 (
-io
+old_io
 )
 )
 ]
@@ -148,7 +140,7 @@ android
 )
 feature
 (
-path
+old_path
 )
 )
 ]

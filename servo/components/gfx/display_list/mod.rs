@@ -238,7 +238,7 @@ primitives
 [
 deny
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 use
