@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+IFrameLoadInfo
+;
+use
 canvas_traits
 :
 :
@@ -99,7 +102,6 @@ constellation_msg
 {
 AnimationState
 DocumentState
-IframeLoadInfo
 NavigationDirection
 }
 ;
@@ -721,7 +723,7 @@ IFrame
 .
 ScriptLoadedURLInIFrame
 (
-IframeLoadInfo
+IFrameLoadInfo
 )
 /
 /
