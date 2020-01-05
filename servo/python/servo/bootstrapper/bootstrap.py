@@ -92,6 +92,7 @@ def
 __init__
 (
 self
+context
 )
 :
         
@@ -178,6 +179,14 @@ cls
 *
 args
 )
+        
+self
+.
+instance
+.
+context
+=
+context
     
 def
 bootstrap

@@ -153,10 +153,11 @@ path
 .
 join
 (
-"
+self
 .
-servo
-"
+context
+.
+sharedir
 "
 msvc
 -
