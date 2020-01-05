@@ -350,11 +350,9 @@ e
 if
 (
 /
-size
-and
-count
-too
-large
+invalid
+array
+length
 /
 .
 test
