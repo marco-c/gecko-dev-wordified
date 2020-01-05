@@ -13581,7 +13581,10 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-double
+mozilla
+:
+:
+TimeStamp
 when
 GlobalObject
 :
@@ -13938,7 +13941,10 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-double
+mozilla
+:
+:
+TimeStamp
 when
 )
 {
