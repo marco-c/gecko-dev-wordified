@@ -913,9 +913,6 @@ GetUserAgent
 nsPIDOMWindowInner
 *
 aWindow
-nsIURI
-*
-aURI
 bool
 aIsCallerChrome
 nsAString
