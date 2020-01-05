@@ -4025,9 +4025,10 @@ LayersDumpTexture
 |
 profiler_feature_active
 (
-"
-layersdump
-"
+ProfilerFeature
+:
+:
+LayersDump
 )
 )
 {

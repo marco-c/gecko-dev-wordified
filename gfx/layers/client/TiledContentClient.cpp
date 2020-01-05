@@ -9561,9 +9561,10 @@ if
 (
 profiler_feature_active
 (
-"
-displaylistdump
-"
+ProfilerFeature
+:
+:
+DisplayListDump
 )
 )
 {

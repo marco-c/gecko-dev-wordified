@@ -139,9 +139,10 @@ if
 !
 profiler_feature_active
 (
-"
-gpu
-"
+ProfilerFeature
+:
+:
+GPU
 )
 )
 {

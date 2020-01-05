@@ -1897,9 +1897,10 @@ if
 (
 profiler_feature_active
 (
-"
-restyle
-"
+ProfilerFeature
+:
+:
+Restyle
 )
 )
 {
@@ -2700,9 +2701,10 @@ if
 (
 profiler_feature_active
 (
-"
-restyle
-"
+ProfilerFeature
+:
+:
+Restyle
 )
 )
 {

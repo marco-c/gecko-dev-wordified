@@ -136,12 +136,7 @@ uint32_t
 aEntries
 double
 aInterval
-const
-nsTArray
-<
-nsCString
->
-&
+uint32_t
 aFeatures
 const
 nsTArray
@@ -166,10 +161,7 @@ mEntries
 double
 mInterval
 ;
-nsTArray
-<
-nsCString
->
+uint32_t
 mFeatures
 ;
 nsTArray
