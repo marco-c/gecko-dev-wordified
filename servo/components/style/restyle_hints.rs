@@ -2580,7 +2580,6 @@ fn
 contains
 (
 &
-mut
 self
 other
 :

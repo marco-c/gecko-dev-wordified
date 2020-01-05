@@ -11074,6 +11074,9 @@ Servo_StyleSet_FlushStyleSheets
 set
 :
 RawServoStyleSetBorrowed
+doc_elem
+:
+RawGeckoElementBorrowedOrNull
 )
 ;
 }
