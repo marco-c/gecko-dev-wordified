@@ -1032,7 +1032,6 @@ saver
 .
 onTransferFinished
 (
-aRequest
 Cr
 .
 NS_ERROR_ABORT
@@ -1197,7 +1196,6 @@ saver
 .
 onTransferFinished
 (
-aRequest
 aStatus
 )
 ;
@@ -1365,7 +1363,6 @@ saver
 .
 onTransferFinished
 (
-aRequest
 aStatus
 )
 ;
