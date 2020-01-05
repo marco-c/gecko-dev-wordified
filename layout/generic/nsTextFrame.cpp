@@ -2217,10 +2217,6 @@ StyleText
 -
 >
 mWebkitTextStrokeWidth
-.
-GetCoordValue
-(
-)
 ;
 return
 mFrame
@@ -38156,10 +38152,6 @@ StyleText
 -
 >
 mWebkitTextStrokeWidth
-.
-GetCoordValue
-(
-)
 ;
 if
 (

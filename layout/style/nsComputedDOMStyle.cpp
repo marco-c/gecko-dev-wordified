@@ -22909,10 +22909,6 @@ StyleText
 -
 >
 mWebkitTextStrokeWidth
-.
-GetCoordValue
-(
-)
 )
 ;
 return

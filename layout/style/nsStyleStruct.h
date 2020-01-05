@@ -13881,7 +13881,7 @@ inherited
 coord
 percent
 calc
-nsStyleCoord
+nscoord
 mWebkitTextStrokeWidth
 ;
 /
@@ -14083,10 +14083,6 @@ const
 {
 return
 mWebkitTextStrokeWidth
-.
-GetCoordValue
-(
-)
 >
 0
 ;
