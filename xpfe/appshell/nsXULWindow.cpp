@@ -6038,14 +6038,8 @@ aTitle
 ;
 mTitle
 .
-StripChars
+StripCRLF
 (
-"
-\
-n
-\
-r
-"
 )
 ;
 NS_ENSURE_SUCCESS
