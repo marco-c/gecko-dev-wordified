@@ -130,16 +130,6 @@ Start
 (
 double
 aSinceTime
-nsIFile
-*
-aFile
-)
-;
-void
-Start
-(
-double
-aSinceTime
 const
 nsACString
 &
