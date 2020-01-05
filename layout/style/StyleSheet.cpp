@@ -2302,7 +2302,9 @@ StyleSheet
 :
 AddStyleSet
 (
+const
 StyleSetHandle
+&
 aStyleSet
 )
 {
@@ -2337,7 +2339,9 @@ StyleSheet
 :
 DropStyleSet
 (
+const
 StyleSetHandle
+&
 aStyleSet
 )
 {
