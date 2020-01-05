@@ -8014,7 +8014,10 @@ length
 UniqueTwoByteChars
 buf
 (
-js_pod_malloc
+cx
+-
+>
+pod_malloc
 <
 char16_t
 >
@@ -8022,6 +8025,14 @@ char16_t
 len
 )
 )
+;
+if
+(
+!
+buf
+)
+return
+false
 ;
 if
 (
