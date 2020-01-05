@@ -80,13 +80,10 @@ use
 dom
 :
 :
-bindings
+globalscope
 :
 :
-global
-:
-:
-GlobalRef
+GlobalScope
 ;
 use
 script_thread
@@ -171,7 +168,8 @@ T
 >
 global
 :
-GlobalRef
+&
+GlobalScope
 )
 -
 >

@@ -2741,6 +2741,10 @@ formdata
 ;
 pub
 mod
+globalscope
+;
+pub
+mod
 hashchangeevent
 ;
 pub
