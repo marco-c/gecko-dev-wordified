@@ -207,7 +207,7 @@ let
 stubs
 =
 {
-updateAppMenuItem
+updateUI
 (
 )
 {
@@ -215,7 +215,7 @@ return
 unstubs
 [
 "
-updateAppMenuItem
+updateUI
 "
 ]
 .
@@ -243,7 +243,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 null
 )
@@ -689,7 +689,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 )
 ;
@@ -891,7 +891,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 )
 ;
@@ -1034,7 +1034,7 @@ test_verifiedUserEmptyProfile
 We
 see
 2
-updateAppMenuItem
+updateUI
 (
 )
 calls
@@ -1086,7 +1086,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 2
 )
@@ -1247,7 +1247,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 2
 )
@@ -1390,7 +1390,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 1
 )
@@ -2049,7 +2049,7 @@ test
 :
 browser_fxaccounts
 :
-updateAppMenuItem
+updateUI
 "
 )
 ;
