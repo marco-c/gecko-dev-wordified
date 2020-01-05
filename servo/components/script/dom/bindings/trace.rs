@@ -752,7 +752,10 @@ net_traits
 request
 :
 :
+{
 Request
+RequestInit
+}
 ;
 use
 net_traits
@@ -2735,6 +2738,12 @@ no_jsmanaged_fields
 !
 (
 Request
+)
+;
+no_jsmanaged_fields
+!
+(
+RequestInit
 )
 ;
 no_jsmanaged_fields

@@ -325,6 +325,10 @@ extern
 crate
 html5ever_atoms
 ;
+#
+[
+macro_use
+]
 extern
 crate
 hyper
