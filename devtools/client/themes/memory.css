@@ -797,6 +797,16 @@ end
 :
 5px
 ;
+display
+:
+flex
+;
+align
+-
+items
+:
+center
+;
 }
 #
 select
