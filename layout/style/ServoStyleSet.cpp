@@ -3501,7 +3501,7 @@ call
 to
 Servo_StyleSet_AppendStyleSheet
 .
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -3510,7 +3510,7 @@ aType
 aSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 AppendSheetOfType
@@ -3664,7 +3664,7 @@ call
 to
 Servo_StyleSet_PrependStyleSheet
 .
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -3673,7 +3673,7 @@ aType
 aSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 PrependSheetOfType
@@ -3755,7 +3755,7 @@ aType
 )
 )
 ;
-uint32_t
+uint64_t
 uniqueID
 =
 RemoveSheetOfType
@@ -3953,7 +3953,7 @@ sheet
 aNewSheets
 )
 {
-uint32_t
+uint64_t
 uniqueID
 =
 AppendSheetOfType
@@ -4105,7 +4105,7 @@ sheet
 "
 )
 ;
-uint32_t
+uint64_t
 beforeUniqueID
 =
 FindSheetOfType
@@ -4167,7 +4167,7 @@ call
 to
 Servo_StyleSet_InsertStyleSheetBefore
 .
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -4176,7 +4176,7 @@ aType
 aNewSheet
 )
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 InsertSheetOfType
@@ -4378,7 +4378,7 @@ strong
 aSheet
 )
 ;
-uint32_t
+uint64_t
 oldUniqueID
 =
 RemoveSheetOfType
@@ -4433,7 +4433,7 @@ is
 insert
 before
 .
-uint32_t
+uint64_t
 beforeUniqueID
 =
 mEntries
@@ -4449,7 +4449,7 @@ index
 .
 uniqueID
 ;
-uint32_t
+uint64_t
 newUniqueID
 =
 InsertSheetOfType
@@ -4513,7 +4513,7 @@ case
 is
 append
 .
-uint32_t
+uint64_t
 newUniqueID
 =
 AppendSheetOfType
@@ -5968,7 +5968,7 @@ mStylistMayNeedRebuild
 false
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -6015,7 +6015,7 @@ return
 0
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -6026,7 +6026,7 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -6071,7 +6071,7 @@ entry
 uniqueID
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -6082,7 +6082,7 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -6126,7 +6126,7 @@ entry
 uniqueID
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -6137,9 +6137,9 @@ aType
 ServoStyleSheet
 *
 aSheet
-uint32_t
+uint64_t
 aBeforeUniqueID
-uint32_t
+uint64_t
 aReuseUniqueID
 )
 {
@@ -6228,7 +6228,7 @@ return
 0
 ;
 }
-uint32_t
+uint64_t
 ServoStyleSet
 :
 :
@@ -6280,7 +6280,7 @@ sheet
 aSheet
 )
 {
-uint32_t
+uint64_t
 uniqueID
 =
 mEntries
