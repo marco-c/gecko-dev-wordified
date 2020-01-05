@@ -1557,9 +1557,16 @@ return
 tab
 &
 &
+(
 tab
 .
 linkedBrowser
+|
+|
+tab
+.
+browser
+)
 .
 messageManager
 ;
