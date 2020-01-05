@@ -7709,6 +7709,14 @@ aDispatcher
 mDOMWindow
 )
 ;
+mGeckoViewWindow
+-
+>
+OnReattach
+(
+aView
+)
+;
 }
 void
 nsWindow
