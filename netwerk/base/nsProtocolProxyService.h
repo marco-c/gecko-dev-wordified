@@ -1537,8 +1537,8 @@ void
 LoadHostFilters
 (
 const
-char
-*
+nsACString
+&
 hostFilters
 )
 ;
