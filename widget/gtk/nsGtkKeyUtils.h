@@ -292,6 +292,7 @@ aGdkKeyEvent
 .
 *
 /
+static
 KeyNameIndex
 ComputeDOMKeyNameIndex
 (
