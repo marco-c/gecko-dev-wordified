@@ -454,8 +454,6 @@ const
 float
 *
 matrix
-uint64_t
-scrollId
 )
 WR_FUNC
 ;
