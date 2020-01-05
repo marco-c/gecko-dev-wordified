@@ -8,6 +8,12 @@ by
 most
 test
 harnesses
+/
+*
+globals
+user_pref
+*
+/
 user_pref
 (
 "
