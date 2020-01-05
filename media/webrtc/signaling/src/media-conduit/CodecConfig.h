@@ -426,6 +426,9 @@ mRembFbSet
 bool
 mFECFbSet
 ;
+uint32_t
+mTias
+;
 EncodingConstraints
 mEncodingConstraints
 ;
@@ -579,6 +582,14 @@ aRhs
 mFECFbSet
 |
 |
+mTias
+!
+=
+aRhs
+.
+mTias
+|
+|
 !
 (
 mEncodingConstraints
@@ -682,6 +693,10 @@ name
 mFECFbSet
 (
 false
+)
+mTias
+(
+0
 )
 mEncodingConstraints
 (
