@@ -346,7 +346,7 @@ false
 /
 Give
 an
-insane
+invalid
 value
 to
 facilitate
@@ -359,7 +359,12 @@ starts
 .
 mPlayDuration
 (
-INT64_MAX
+TimeUnit
+:
+:
+Invalid
+(
+)
 )
 mAudioEnded
 (
@@ -522,7 +527,7 @@ IsCurrentThreadIn
 )
 ;
 }
-int64_t
+TimeUnit
 GetVideoPosition
 (
 TimeStamp
@@ -569,7 +574,7 @@ mParams
 TimeStamp
 mPlayStartTime
 ;
-int64_t
+TimeUnit
 mPlayDuration
 ;
 bool
