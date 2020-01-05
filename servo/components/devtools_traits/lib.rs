@@ -1081,7 +1081,10 @@ GetRootNode
 PipelineId
 IpcSender
 <
+Option
+<
 NodeInfo
+>
 >
 )
 /
@@ -1104,7 +1107,10 @@ GetDocumentElement
 PipelineId
 IpcSender
 <
+Option
+<
 NodeInfo
+>
 >
 )
 /
@@ -1132,9 +1138,12 @@ PipelineId
 String
 IpcSender
 <
+Option
+<
 Vec
 <
 NodeInfo
+>
 >
 >
 )
@@ -1161,7 +1170,10 @@ PipelineId
 String
 IpcSender
 <
+Option
+<
 ComputedNodeLayout
+>
 >
 )
 /
