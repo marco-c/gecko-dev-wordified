@@ -44,10 +44,11 @@ blank
 function
 checkContentProcess
 (
+newBrowser
 uri
 )
 {
-yield
+return
 ContentTask
 .
 spawn
@@ -283,8 +284,10 @@ the
 content
 process
 .
+yield
 checkContentProcess
 (
+newBrowser
 uri
 )
 ;
@@ -386,8 +389,10 @@ the
 content
 process
 .
+yield
 checkContentProcess
 (
+newBrowser
 uri
 )
 ;
