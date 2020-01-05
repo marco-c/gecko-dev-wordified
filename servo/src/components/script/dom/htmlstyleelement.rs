@@ -263,7 +263,6 @@ mut
 self
 _media
 :
-&
 DOMString
 )
 -
@@ -300,7 +299,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -

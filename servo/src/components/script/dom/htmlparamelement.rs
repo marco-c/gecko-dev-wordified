@@ -238,7 +238,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -275,7 +274,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 -
@@ -312,7 +310,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -349,7 +346,6 @@ mut
 self
 _value_type
 :
-&
 DOMString
 )
 -

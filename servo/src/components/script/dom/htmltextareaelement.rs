@@ -373,7 +373,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -410,7 +409,6 @@ mut
 self
 _placeholder
 :
-&
 DOMString
 )
 -
@@ -548,7 +546,6 @@ mut
 self
 _wrap
 :
-&
 DOMString
 )
 -
@@ -585,7 +582,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 {
@@ -614,7 +610,6 @@ mut
 self
 _default_value
 :
-&
 DOMString
 )
 -
@@ -651,7 +646,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 {
@@ -759,7 +753,6 @@ SetCustomValidity
 self
 _error
 :
-&
 DOMString
 )
 {
@@ -880,7 +873,6 @@ SetSelectionDirection
 self
 _selection_direction
 :
-&
 DOMString
 )
 -
@@ -901,7 +893,6 @@ SetRangeText
 self
 _replacement
 :
-&
 DOMString
 )
 {

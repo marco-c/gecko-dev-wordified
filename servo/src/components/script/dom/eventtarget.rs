@@ -849,7 +849,6 @@ mut
 self
 ty
 :
-&
 DOMString
 listener
 :
@@ -952,7 +951,6 @@ mut
 self
 ty
 :
-&
 DOMString
 listener
 :
@@ -985,6 +983,7 @@ handlers
 .
 find_mut
 (
+&
 ty
 )
 ;

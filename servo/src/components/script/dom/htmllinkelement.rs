@@ -264,7 +264,6 @@ mut
 self
 _href
 :
-&
 DOMString
 )
 -
@@ -301,7 +300,6 @@ mut
 self
 _cross_origin
 :
-&
 DOMString
 )
 -
@@ -338,7 +336,6 @@ mut
 self
 _rel
 :
-&
 DOMString
 )
 -
@@ -375,7 +372,6 @@ mut
 self
 _media
 :
-&
 DOMString
 )
 -
@@ -412,7 +408,6 @@ mut
 self
 _href
 :
-&
 DOMString
 )
 -
@@ -449,7 +444,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -486,7 +480,6 @@ mut
 self
 _charset
 :
-&
 DOMString
 )
 -
@@ -523,7 +516,6 @@ mut
 self
 _rev
 :
-&
 DOMString
 )
 -
@@ -560,7 +552,6 @@ mut
 self
 _target
 :
-&
 DOMString
 )
 -

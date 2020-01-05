@@ -310,7 +310,6 @@ SetAlign
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -346,7 +345,6 @@ SetCh
 self
 _ch
 :
-&
 DOMString
 )
 -
@@ -382,7 +380,6 @@ SetChOff
 self
 _ch_off
 :
-&
 DOMString
 )
 -
@@ -418,7 +415,6 @@ SetVAlign
 self
 _v_align
 :
-&
 DOMString
 )
 -
@@ -454,7 +450,6 @@ SetBgColor
 self
 _bg_color
 :
-&
 DOMString
 )
 -

@@ -478,11 +478,9 @@ mut
 self
 name
 :
-&
 DOMString
 _value
 :
-&
 DOMString
 )
 {
@@ -492,7 +490,6 @@ src
 "
 =
 =
-*
 name
 {
 let
@@ -591,7 +588,6 @@ mut
 self
 _alt
 :
-&
 DOMString
 )
 -
@@ -640,7 +636,6 @@ ScriptView
 >
 src
 :
-&
 DOMString
 )
 -
@@ -704,7 +699,6 @@ mut
 self
 _cross_origin
 :
-&
 DOMString
 )
 -
@@ -741,7 +735,6 @@ mut
 self
 _use_map
 :
-&
 DOMString
 )
 -
@@ -1136,7 +1129,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -1173,7 +1165,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -1278,7 +1269,6 @@ mut
 self
 _longdesc
 :
-&
 DOMString
 )
 -
@@ -1315,7 +1305,6 @@ mut
 self
 _border
 :
-&
 DOMString
 )
 -

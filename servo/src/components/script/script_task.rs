@@ -5314,7 +5314,6 @@ mut_event
 .
 InitEvent
 (
-&
 ~
 "
 load

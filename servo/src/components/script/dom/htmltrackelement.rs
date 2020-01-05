@@ -238,7 +238,6 @@ mut
 self
 _kind
 :
-&
 DOMString
 )
 -
@@ -275,7 +274,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -312,7 +310,6 @@ mut
 self
 _srclang
 :
-&
 DOMString
 )
 -
@@ -349,7 +346,6 @@ mut
 self
 _label
 :
-&
 DOMString
 )
 -

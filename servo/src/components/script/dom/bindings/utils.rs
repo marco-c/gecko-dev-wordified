@@ -939,7 +939,6 @@ vp
 domstring_to_jsval
 (
 cx
-&
 retval
 )
 ;
@@ -1959,7 +1958,6 @@ cx
 JSContext
 string
 :
-&
 DOMString
 )
 -
@@ -2041,7 +2039,6 @@ cx
 JSContext
 string
 :
-&
 Option
 <
 DOMString
@@ -2054,15 +2051,12 @@ JSVal
 match
 string
 {
-&
 None
 =
 >
 JSVAL_NULL
-&
 Some
 (
-ref
 s
 )
 =

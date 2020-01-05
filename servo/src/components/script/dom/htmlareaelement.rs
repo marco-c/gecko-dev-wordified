@@ -237,7 +237,6 @@ SetAlt
 self
 _alt
 :
-&
 DOMString
 )
 -
@@ -273,7 +272,6 @@ SetCoords
 self
 _coords
 :
-&
 DOMString
 )
 -
@@ -309,7 +307,6 @@ SetShape
 self
 _shape
 :
-&
 DOMString
 )
 -
@@ -345,7 +342,6 @@ SetHref
 self
 _href
 :
-&
 DOMString
 )
 -
@@ -381,7 +377,6 @@ SetTarget
 self
 _target
 :
-&
 DOMString
 )
 -
@@ -417,7 +412,6 @@ SetDownload
 self
 _download
 :
-&
 DOMString
 )
 -
@@ -453,7 +447,6 @@ SetPing
 self
 _ping
 :
-&
 DOMString
 )
 -

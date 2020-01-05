@@ -320,7 +320,6 @@ _cx
 JSContext
 _name
 :
-&
 DOMString
 )
 -
@@ -390,7 +389,6 @@ _cx
 JSContext
 _name
 :
-&
 Option
 <
 DOMString

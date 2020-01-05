@@ -229,7 +229,6 @@ mut
 Window
 text
 :
-&
 DOMString
 )
 -

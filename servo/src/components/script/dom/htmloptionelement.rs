@@ -291,7 +291,6 @@ mut
 self
 _label
 :
-&
 DOMString
 )
 -
@@ -396,7 +395,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 -
@@ -433,7 +431,6 @@ mut
 self
 _text
 :
-&
 DOMString
 )
 -

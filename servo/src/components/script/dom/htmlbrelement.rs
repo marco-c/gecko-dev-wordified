@@ -238,7 +238,6 @@ mut
 self
 _text
 :
-&
 DOMString
 )
 -

@@ -1274,7 +1274,6 @@ GetElementsByTagName
 self
 tag
 :
-&
 DOMString
 )
 -
@@ -1294,7 +1293,6 @@ eq_slice
 elem
 .
 tag_name
-*
 tag
 )
 )
@@ -1307,14 +1305,12 @@ GetElementsByTagNameNS
 self
 _ns
 :
-&
 Option
 <
 DOMString
 >
 _tag
 :
-&
 DOMString
 )
 -
@@ -1343,7 +1339,6 @@ GetElementsByClassName
 self
 _class
 :
-&
 DOMString
 )
 -
@@ -1372,7 +1367,6 @@ GetElementById
 self
 id
 :
-&
 DOMString
 )
 -
@@ -1429,6 +1423,7 @@ idmap
 .
 find_equiv
 (
+&
 id
 )
 {
@@ -1460,7 +1455,6 @@ abstract_self
 AbstractDocument
 local_name
 :
-&
 DOMString
 )
 -
@@ -1476,7 +1470,6 @@ ScriptView
 if
 xml_name_type
 (
-*
 local_name
 )
 =
@@ -1544,7 +1537,6 @@ abstract_self
 AbstractDocument
 data
 :
-&
 DOMString
 )
 -
@@ -1560,10 +1552,6 @@ Text
 new
 (
 data
-.
-clone
-(
-)
 abstract_self
 )
 }
@@ -1578,7 +1566,6 @@ abstract_self
 AbstractDocument
 data
 :
-&
 DOMString
 )
 -
@@ -1594,10 +1581,6 @@ Comment
 new
 (
 data
-.
-clone
-(
-)
 abstract_self
 )
 }
@@ -1609,7 +1592,6 @@ CreateEvent
 self
 interface
 :
-&
 DOMString
 )
 -
@@ -1880,7 +1862,6 @@ abstract_self
 AbstractDocument
 title
 :
-&
 DOMString
 )
 -
@@ -2017,6 +1998,10 @@ CreateTextNode
 (
 abstract_self
 title
+.
+clone
+(
+)
 )
 )
 ;
@@ -2052,6 +2037,10 @@ CreateTextNode
 (
 abstract_self
 title
+.
+clone
+(
+)
 )
 )
 ;
@@ -2084,7 +2073,6 @@ GetElementsByName
 self
 name
 :
-&
 DOMString
 )
 -
@@ -2127,7 +2115,6 @@ name
 unwrap
 (
 )
-*
 name
 )
 )

@@ -266,7 +266,6 @@ ParseFromString
 self
 _s
 :
-&
 DOMString
 ty
 :

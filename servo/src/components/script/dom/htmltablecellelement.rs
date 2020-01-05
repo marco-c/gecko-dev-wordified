@@ -236,7 +236,6 @@ SetHeaders
 self
 _headers
 :
-&
 DOMString
 )
 -
@@ -305,7 +304,6 @@ SetAbbr
 self
 _abbr
 :
-&
 DOMString
 )
 -
@@ -341,7 +339,6 @@ SetScope
 self
 _abbr
 :
-&
 DOMString
 )
 -
@@ -377,7 +374,6 @@ SetAlign
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -413,7 +409,6 @@ SetAxis
 self
 _axis
 :
-&
 DOMString
 )
 -
@@ -449,7 +444,6 @@ SetHeight
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -485,7 +479,6 @@ SetWidth
 self
 _width
 :
-&
 DOMString
 )
 -
@@ -521,7 +514,6 @@ SetCh
 self
 _ch
 :
-&
 DOMString
 )
 -
@@ -557,7 +549,6 @@ SetChOff
 self
 _ch_off
 :
-&
 DOMString
 )
 -
@@ -626,7 +617,6 @@ SetVAlign
 self
 _valign
 :
-&
 DOMString
 )
 -
@@ -662,7 +652,6 @@ SetBgColor
 self
 _bg_color
 :
-&
 DOMString
 )
 -

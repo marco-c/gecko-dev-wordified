@@ -238,7 +238,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -275,7 +274,6 @@ mut
 self
 _color
 :
-&
 DOMString
 )
 -
@@ -345,7 +343,6 @@ mut
 self
 _size
 :
-&
 DOMString
 )
 -
@@ -382,7 +379,6 @@ mut
 self
 _width
 :
-&
 DOMString
 )
 -

@@ -228,7 +228,6 @@ mut
 Window
 data
 :
-&
 DOMString
 )
 -
@@ -249,10 +248,6 @@ Comment
 new
 (
 data
-.
-clone
-(
-)
 owner
 .
 Document

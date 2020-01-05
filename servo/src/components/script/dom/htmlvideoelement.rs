@@ -332,7 +332,6 @@ mut
 self
 _poster
 :
-&
 DOMString
 )
 -

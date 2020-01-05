@@ -239,7 +239,6 @@ mut
 self
 _accept
 :
-&
 DOMString
 )
 -
@@ -276,7 +275,6 @@ mut
 self
 _alt
 :
-&
 DOMString
 )
 -
@@ -313,7 +311,6 @@ mut
 self
 _autocomple
 :
-&
 DOMString
 )
 -
@@ -478,7 +475,6 @@ mut
 self
 _form_action
 :
-&
 DOMString
 )
 -
@@ -515,7 +511,6 @@ mut
 self
 _form_enctype
 :
-&
 DOMString
 )
 -
@@ -552,7 +547,6 @@ mut
 self
 _form_method
 :
-&
 DOMString
 )
 -
@@ -623,7 +617,6 @@ mut
 self
 _form_target
 :
-&
 DOMString
 )
 -
@@ -720,7 +713,6 @@ mut
 self
 _input_mode
 :
-&
 DOMString
 )
 -
@@ -757,7 +749,6 @@ mut
 self
 _max
 :
-&
 DOMString
 )
 -
@@ -828,7 +819,6 @@ mut
 self
 _min
 :
-&
 DOMString
 )
 -
@@ -899,7 +889,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -936,7 +925,6 @@ mut
 self
 _pattern
 :
-&
 DOMString
 )
 -
@@ -973,7 +961,6 @@ mut
 self
 _placeholder
 :
-&
 DOMString
 )
 -
@@ -1112,7 +1099,6 @@ mut
 self
 _src
 :
-&
 DOMString
 )
 -
@@ -1149,7 +1135,6 @@ mut
 self
 _step
 :
-&
 DOMString
 )
 -
@@ -1186,7 +1171,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -1223,7 +1207,6 @@ mut
 self
 _default_value
 :
-&
 DOMString
 )
 -
@@ -1260,7 +1243,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 -
@@ -1366,7 +1348,6 @@ SetCustomValidity
 self
 _error
 :
-&
 DOMString
 )
 {
@@ -1490,7 +1471,6 @@ mut
 self
 _selection_direction
 :
-&
 DOMString
 )
 -
@@ -1527,7 +1507,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -1564,7 +1543,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -

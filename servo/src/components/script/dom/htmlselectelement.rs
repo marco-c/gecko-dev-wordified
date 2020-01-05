@@ -368,7 +368,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -528,7 +527,6 @@ NamedItem
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -679,7 +677,6 @@ mut
 self
 _value
 :
-&
 DOMString
 )
 {
@@ -789,7 +786,6 @@ mut
 self
 _message
 :
-&
 DOMString
 )
 -
@@ -824,7 +820,6 @@ mut
 self
 _error
 :
-&
 DOMString
 )
 {

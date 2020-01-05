@@ -256,7 +256,6 @@ mut
 self
 _data
 :
-&
 DOMString
 )
 -
@@ -293,7 +292,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -
@@ -330,7 +328,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -367,7 +364,6 @@ mut
 self
 _use_map
 :
-&
 DOMString
 )
 -
@@ -423,7 +419,6 @@ mut
 self
 _width
 :
-&
 DOMString
 )
 -
@@ -460,7 +455,6 @@ mut
 self
 _height
 :
-&
 DOMString
 )
 -
@@ -597,7 +591,6 @@ mut
 self
 _error
 :
-&
 DOMString
 )
 {
@@ -626,7 +619,6 @@ mut
 self
 _align
 :
-&
 DOMString
 )
 -
@@ -663,7 +655,6 @@ mut
 self
 _archive
 :
-&
 DOMString
 )
 -
@@ -700,7 +691,6 @@ mut
 self
 _code
 :
-&
 DOMString
 )
 -
@@ -805,7 +795,6 @@ mut
 self
 _standby
 :
-&
 DOMString
 )
 -
@@ -876,7 +865,6 @@ mut
 self
 _codebase
 :
-&
 DOMString
 )
 -
@@ -913,7 +901,6 @@ mut
 self
 _codetype
 :
-&
 DOMString
 )
 -
@@ -950,7 +937,6 @@ mut
 self
 _border
 :
-&
 DOMString
 )
 -

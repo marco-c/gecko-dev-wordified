@@ -238,7 +238,6 @@ mut
 self
 _cite
 :
-&
 DOMString
 )
 -
@@ -275,7 +274,6 @@ mut
 self
 _datetime
 :
-&
 DOMString
 )
 -

@@ -309,7 +309,6 @@ mut
 self
 _name
 :
-&
 DOMString
 )
 -
@@ -472,7 +471,6 @@ mut
 self
 _error
 :
-&
 DOMString
 )
 {

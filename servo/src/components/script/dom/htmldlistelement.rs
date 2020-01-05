@@ -272,7 +272,6 @@ mut
 self
 _type
 :
-&
 DOMString
 )
 -

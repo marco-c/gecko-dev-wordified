@@ -105,7 +105,6 @@ from_str
 (
 url
 :
-&
 Option
 <
 DOMString
@@ -118,6 +117,7 @@ Namespace
 match
 null_str_as_empty_ref
 (
+&
 url
 )
 {
