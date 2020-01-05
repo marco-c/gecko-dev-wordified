@@ -450,10 +450,6 @@ property
 "
 name
 "
-"
-%
-s
-"
 CacheKindNames
 [
 uint8_t
@@ -471,10 +467,6 @@ property
 (
 "
 file
-"
-"
-%
-s
 "
 gen
 .
@@ -545,7 +537,7 @@ column
 ;
 j
 .
-property
+formatProperty
 (
 "
 pc
@@ -875,10 +867,6 @@ property
 "
 type
 "
-"
-%
-s
-"
 type
 )
 ;
@@ -1029,7 +1017,7 @@ isObject
 {
 j
 .
-property
+formatProperty
 (
 "
 value
@@ -1103,10 +1091,6 @@ property
 (
 "
 attached
-"
-"
-%
-s
 "
 name
 )
