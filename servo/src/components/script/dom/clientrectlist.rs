@@ -396,12 +396,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 ClientRectListBinding
 :
 :
@@ -410,9 +404,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

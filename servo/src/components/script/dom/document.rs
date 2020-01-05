@@ -1458,12 +1458,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 DocumentBinding
 :
 :
@@ -1472,9 +1466,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

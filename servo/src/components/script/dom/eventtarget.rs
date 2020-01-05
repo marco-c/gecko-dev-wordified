@@ -248,12 +248,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 EventTargetBinding
 :
 :
@@ -262,9 +256,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

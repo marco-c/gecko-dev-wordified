@@ -206,12 +206,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 DOMParserBinding
 :
 :
@@ -220,9 +214,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

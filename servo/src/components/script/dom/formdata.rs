@@ -419,12 +419,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 FormDataBinding
 :
 :
@@ -433,9 +427,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

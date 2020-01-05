@@ -884,12 +884,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 WindowBinding
 :
 :
@@ -898,9 +892,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }

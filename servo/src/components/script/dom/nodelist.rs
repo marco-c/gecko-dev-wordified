@@ -587,12 +587,6 @@ JSObject
 *
 JSObject
 {
-let
-mut
-unused
-=
-false
-;
 NodeListBinding
 :
 :
@@ -601,9 +595,6 @@ Wrap
 cx
 scope
 self
-&
-mut
-unused
 )
 }
 }
