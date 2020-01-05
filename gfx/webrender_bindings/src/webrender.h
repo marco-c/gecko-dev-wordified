@@ -777,6 +777,9 @@ WR_INLINE
 void
 wr_dp_push_iframe
 (
+wrwindowstate
+*
+wrWindow
 wrstate
 *
 wrState
