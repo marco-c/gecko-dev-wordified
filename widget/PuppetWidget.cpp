@@ -1756,7 +1756,7 @@ InitEvent
 (
 WidgetGUIEvent
 &
-event
+aEvent
 LayoutDeviceIntPoint
 *
 aPoint
@@ -1770,7 +1770,7 @@ nullptr
 aPoint
 )
 {
-event
+aEvent
 .
 mRefPoint
 =
@@ -1791,7 +1791,7 @@ point
 override
 if
 provided
-event
+aEvent
 .
 mRefPoint
 =
@@ -1799,7 +1799,7 @@ mRefPoint
 aPoint
 ;
 }
-event
+aEvent
 .
 mTime
 =
@@ -1818,7 +1818,7 @@ DispatchEvent
 (
 WidgetGUIEvent
 *
-event
+aEvent
 nsEventStatus
 &
 aStatus
@@ -1830,11 +1830,11 @@ DEBUG
 debug_DumpEvent
 (
 stdout
-event
+aEvent
 -
 >
 mWidget
-event
+aEvent
 "
 PuppetWidget
 "
@@ -1873,7 +1873,7 @@ this
 if
 (
 (
-event
+aEvent
 -
 >
 mFlags
@@ -1881,7 +1881,7 @@ mFlags
 mIsSynthesizedForTests
 |
 |
-event
+aEvent
 -
 >
 mFlags
@@ -1898,7 +1898,7 @@ WidgetKeyboardEvent
 *
 keyEvent
 =
-event
+aEvent
 -
 >
 AsKeyboardEvent
@@ -1924,7 +1924,7 @@ keyEvent
 }
 if
 (
-event
+aEvent
 -
 >
 mClass
@@ -1963,7 +1963,7 @@ WidgetCompositionEvent
 *
 compositionEvent
 =
-event
+aEvent
 -
 >
 AsCompositionEvent
@@ -2074,7 +2074,7 @@ GetCurrentWidgetListener
 >
 HandleEvent
 (
-event
+aEvent
 mUseAttachedEvents
 )
 ;

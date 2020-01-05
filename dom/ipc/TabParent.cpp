@@ -5958,7 +5958,7 @@ SendRealMouseEvent
 (
 WidgetMouseEvent
 &
-event
+aEvent
 )
 {
 if
@@ -5970,7 +5970,7 @@ return
 false
 ;
 }
-event
+aEvent
 .
 mRefPoint
 +
@@ -6025,7 +6025,7 @@ if
 eMouseEnterIntoWidget
 =
 =
-event
+aEvent
 .
 mMessage
 )
@@ -6079,7 +6079,7 @@ if
 eMouseExitFromWidget
 =
 =
-event
+aEvent
 .
 mMessage
 )
@@ -6110,14 +6110,14 @@ if
 eMouseMove
 =
 =
-event
+aEvent
 .
 mMessage
 )
 {
 if
 (
-event
+aEvent
 .
 mReason
 =
@@ -6131,7 +6131,7 @@ eSynthesized
 return
 SendSynthMouseMoveEvent
 (
-event
+aEvent
 guid
 blockId
 )
@@ -6142,7 +6142,7 @@ else
 return
 SendRealMouseMoveEvent
 (
-event
+aEvent
 guid
 blockId
 )
@@ -6152,7 +6152,7 @@ blockId
 return
 SendRealMouseButtonEvent
 (
-event
+aEvent
 guid
 blockId
 )
@@ -6264,7 +6264,7 @@ SendRealDragEvent
 (
 WidgetDragEvent
 &
-event
+aEvent
 uint32_t
 aDragAction
 uint32_t
@@ -6280,7 +6280,7 @@ return
 false
 ;
 }
-event
+aEvent
 .
 mRefPoint
 +
@@ -6295,7 +6295,7 @@ PBrowserParent
 :
 SendRealDragEvent
 (
-event
+aEvent
 aDragAction
 aDropEffect
 )
@@ -6332,7 +6332,7 @@ SendMouseWheelEvent
 (
 WidgetWheelEvent
 &
-event
+aEvent
 )
 {
 if
@@ -6359,7 +6359,7 @@ blockId
 nullptr
 )
 ;
-event
+aEvent
 .
 mRefPoint
 +
@@ -6374,7 +6374,7 @@ PBrowserParent
 :
 SendMouseWheelEvent
 (
-event
+aEvent
 guid
 blockId
 )
@@ -7666,7 +7666,7 @@ SendRealKeyEvent
 (
 WidgetKeyboardEvent
 &
-event
+aEvent
 )
 {
 if
@@ -7678,7 +7678,7 @@ return
 false
 ;
 }
-event
+aEvent
 .
 mRefPoint
 +
@@ -7698,7 +7698,7 @@ void_t
 ;
 if
 (
-event
+aEvent
 .
 mMessage
 =
@@ -7755,7 +7755,7 @@ nsIWidget
 :
 :
 NativeKeyBindingsForSingleLineEditor
-event
+aEvent
 DoCommandCallback
 &
 singleLine
@@ -7770,7 +7770,7 @@ nsIWidget
 :
 :
 NativeKeyBindingsForMultiLineEditor
-event
+aEvent
 DoCommandCallback
 &
 multiLine
@@ -7785,7 +7785,7 @@ nsIWidget
 :
 :
 NativeKeyBindingsForRichTextEditor
-event
+aEvent
 DoCommandCallback
 &
 richText
@@ -7834,7 +7834,7 @@ PBrowserParent
 :
 SendRealKeyEvent
 (
-event
+aEvent
 bindings
 )
 ;
@@ -7847,7 +7847,7 @@ SendRealTouchEvent
 (
 WidgetTouchEvent
 &
-event
+aEvent
 )
 {
 if
@@ -7911,7 +7911,7 @@ not
 .
 if
 (
-event
+aEvent
 .
 mMessage
 =
@@ -7919,7 +7919,7 @@ mMessage
 eTouchEnd
 |
 |
-event
+aEvent
 .
 mMessage
 =
@@ -7932,7 +7932,7 @@ for
 int
 i
 =
-event
+aEvent
 .
 mTouches
 .
@@ -7955,7 +7955,7 @@ i
 if
 (
 !
-event
+aEvent
 .
 mTouches
 [
@@ -7966,7 +7966,7 @@ i
 mChanged
 )
 {
-event
+aEvent
 .
 mTouches
 .
@@ -8022,7 +8022,7 @@ i
 ;
 i
 <
-event
+aEvent
 .
 mTouches
 .
@@ -8035,7 +8035,7 @@ i
 +
 )
 {
-event
+aEvent
 .
 mTouches
 [
@@ -8051,7 +8051,7 @@ offset
 }
 return
 (
-event
+aEvent
 .
 mMessage
 =
@@ -8064,7 +8064,7 @@ PBrowserParent
 :
 SendRealTouchMoveEvent
 (
-event
+aEvent
 guid
 blockId
 apzResponse
@@ -8075,7 +8075,7 @@ PBrowserParent
 :
 SendRealTouchEvent
 (
-event
+aEvent
 guid
 blockId
 apzResponse
@@ -10502,7 +10502,7 @@ RecvReplyKeyEvent
 const
 WidgetKeyboardEvent
 &
-event
+aEvent
 )
 {
 NS_ENSURE_TRUE
@@ -10516,7 +10516,7 @@ IPC_OK
 WidgetKeyboardEvent
 localEvent
 (
-event
+aEvent
 )
 ;
 /
@@ -10909,7 +10909,7 @@ SendCompositionEvent
 (
 WidgetCompositionEvent
 &
-event
+aEvent
 )
 {
 if
@@ -10928,7 +10928,7 @@ mContentCache
 .
 OnCompositionEvent
 (
-event
+aEvent
 )
 )
 {
@@ -10942,7 +10942,7 @@ PBrowserParent
 :
 SendCompositionEvent
 (
-event
+aEvent
 )
 ;
 }
@@ -10954,7 +10954,7 @@ SendSelectionEvent
 (
 WidgetSelectionEvent
 &
-event
+aEvent
 )
 {
 if
@@ -10990,7 +10990,7 @@ mContentCache
 .
 OnSelectionEvent
 (
-event
+aEvent
 )
 ;
 if
@@ -11003,7 +11003,7 @@ PBrowserParent
 :
 SendSelectionEvent
 (
-event
+aEvent
 )
 )
 )
@@ -11012,7 +11012,7 @@ return
 false
 ;
 }
-event
+aEvent
 .
 mSucceeded
 =

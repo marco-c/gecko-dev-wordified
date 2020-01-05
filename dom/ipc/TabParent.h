@@ -2405,7 +2405,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-event
+aEvent
 )
 ;
 bool
@@ -2431,7 +2431,7 @@ mozilla
 :
 WidgetWheelEvent
 &
-event
+aEvent
 )
 ;
 bool
@@ -2442,7 +2442,7 @@ mozilla
 :
 WidgetKeyboardEvent
 &
-event
+aEvent
 )
 ;
 bool
@@ -2450,7 +2450,7 @@ SendRealTouchEvent
 (
 WidgetTouchEvent
 &
-event
+aEvent
 )
 ;
 bool
@@ -2620,7 +2620,7 @@ mozilla
 :
 WidgetCompositionEvent
 &
-event
+aEvent
 )
 ;
 bool
@@ -2631,7 +2631,7 @@ mozilla
 :
 WidgetSelectionEvent
 &
-event
+aEvent
 )
 ;
 bool
