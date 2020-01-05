@@ -720,6 +720,76 @@ sys
 .
 stderr
 )
+def
+call
+(
+*
+args
+*
+*
+kwargs
+)
+:
+    
+"
+"
+"
+Wrap
+subprocess
+.
+call
+printing
+the
+command
+if
+verbose
+=
+True
+.
+"
+"
+"
+    
+verbose
+=
+kwargs
+.
+pop
+(
+'
+verbose
+'
+False
+)
+    
+if
+verbose
+:
+        
+print
+(
+'
+'
+.
+join
+(
+args
+[
+0
+]
+)
+)
+    
+subprocess
+.
+call
+(
+*
+args
+*
+*
+kwargs
+)
 CommandProvider
 class
 MachCommands
@@ -1370,8 +1440,6 @@ builder
 )
 :
                 
-subprocess
-.
 call
 (
 [
@@ -1389,6 +1457,9 @@ self
 build_env
 (
 )
+verbose
+=
+verbose
 )
             
 opts
@@ -1574,8 +1645,6 @@ android_support_dir
                 
 status
 =
-subprocess
-.
 call
 (
                     
@@ -1600,6 +1669,10 @@ self
 build_env
 (
 )
+                    
+verbose
+=
+verbose
 )
                 
 if
@@ -1670,8 +1743,6 @@ TRUE
         
 status
 =
-subprocess
-.
 call
 (
             
@@ -1696,6 +1767,9 @@ self
 servo_crate
 (
 )
+verbose
+=
+verbose
 )
         
 elapsed
@@ -1955,8 +2029,6 @@ cef
             
 ret
 =
-subprocess
-.
 call
 (
 [
@@ -1969,7 +2041,7 @@ build
 ]
 +
 opts
-                                  
+                       
 env
 =
 self
@@ -1977,6 +2049,9 @@ self
 build_env
 (
 )
+verbose
+=
+verbose
 )
         
 elapsed
@@ -2264,8 +2339,6 @@ gonk
             
 ret
 =
-subprocess
-.
 call
 (
 [
@@ -2281,6 +2354,9 @@ opts
 env
 =
 env
+verbose
+=
+verbose
 )
         
 elapsed
@@ -2416,6 +2492,9 @@ self
 jobs
 =
 None
+verbose
+=
+False
 release
 =
 False
@@ -2491,8 +2570,6 @@ release
 ]
         
 return
-subprocess
-.
 call
 (
             
@@ -2512,6 +2589,9 @@ self
 servo_crate
 (
 )
+verbose
+=
+verbose
 )
     
 Command
@@ -2683,8 +2763,6 @@ opts
 params
         
 return
-subprocess
-.
 call
 (
 [
@@ -2697,7 +2775,7 @@ clean
 ]
 +
 opts
-                               
+                    
 env
 =
 self
@@ -2712,4 +2790,7 @@ self
 servo_crate
 (
 )
+verbose
+=
+verbose
 )
