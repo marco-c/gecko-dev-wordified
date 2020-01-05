@@ -2852,7 +2852,7 @@ mRecvCodecList
 /
 /
 protects
-mCurSendCodecConfig
+mCurrSendCodecConfig
 mInReconfig
 mVideoSend
 /
