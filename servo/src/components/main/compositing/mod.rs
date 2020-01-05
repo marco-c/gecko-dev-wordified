@@ -76,7 +76,7 @@ event
 :
 :
 {
-Event
+Event_
 ClickEvent
 MouseDownEvent
 MouseUpEvent
@@ -3100,7 +3100,7 @@ mouse_window_event
 let
 event
 :
-Event
+Event_
 ;
 let
 world_mouse_point

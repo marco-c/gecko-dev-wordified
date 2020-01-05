@@ -119,7 +119,7 @@ dom
 event
 :
 :
-Event_
+Event
 ;
 use
 dom
@@ -167,7 +167,7 @@ UIEvent
 {
 parent
 :
-Event_
+Event
 can_bubble
 :
 bool
@@ -194,6 +194,7 @@ new
 (
 type_
 :
+&
 DOMString
 can_bubble
 :
@@ -220,7 +221,7 @@ UIEvent
 {
 parent
 :
-Event_
+Event
 :
 :
 new
@@ -276,6 +277,7 @@ mut
 Window
 type_
 :
+&
 DOMString
 init
 :
@@ -363,6 +365,7 @@ mut
 self
 type_
 :
+&
 DOMString
 can_bubble
 :

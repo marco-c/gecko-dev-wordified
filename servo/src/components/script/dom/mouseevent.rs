@@ -209,6 +209,7 @@ new
 (
 type_
 :
+&
 DOMString
 can_bubble
 :
@@ -350,6 +351,7 @@ mut
 Window
 type_
 :
+&
 DOMString
 init
 :
@@ -601,6 +603,7 @@ GetModifierState
 self
 _keyArg
 :
+&
 DOMString
 )
 -
@@ -621,6 +624,7 @@ mut
 self
 typeArg
 :
+&
 DOMString
 canBubbleArg
 :

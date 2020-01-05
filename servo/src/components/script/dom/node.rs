@@ -120,7 +120,7 @@ dom
 document
 :
 :
-Document
+AbstractDocument
 ;
 use
 dom
@@ -646,8 +646,7 @@ owner_doc
 :
 Option
 <
-mut
-Document
+AbstractDocument
 >
 /
 /
@@ -3006,8 +3005,7 @@ mut
 self
 doc
 :
-mut
-Document
+AbstractDocument
 )
 {
 self

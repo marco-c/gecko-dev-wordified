@@ -319,6 +319,7 @@ _cx
 JSContext
 _name
 :
+&
 DOMString
 rv
 :

@@ -780,6 +780,13 @@ return
 ;
 }
 }
+#
+[
+deriving
+(
+Clone
+)
+]
 pub
 enum
 DOMString
@@ -3960,7 +3967,7 @@ as
 JSObject
 .
 .
-23
+24
 ]
 )
 ;
