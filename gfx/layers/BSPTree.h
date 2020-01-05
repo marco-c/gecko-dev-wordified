@@ -185,7 +185,7 @@ aLayer
 gfx
 :
 :
-Polygon3D
+Polygon
 &
 &
 aGeometry
@@ -214,7 +214,7 @@ nsTArray
 gfx
 :
 :
-Point3D
+Point4D
 >
 &
 &
@@ -223,7 +223,7 @@ const
 gfx
 :
 :
-Point3D
+Point4D
 &
 aNormal
 )
@@ -239,7 +239,7 @@ Some
 gfx
 :
 :
-Polygon3D
+Polygon
 (
 Move
 (
@@ -260,7 +260,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 geometry
 ;
@@ -355,7 +355,7 @@ const
 gfx
 :
 :
-Polygon3D
+Polygon
 &
 First
 (

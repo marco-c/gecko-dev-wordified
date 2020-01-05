@@ -195,7 +195,7 @@ h
 /
 /
 for
-Polygon3D
+Polygon
 #
 include
 "
@@ -2165,7 +2165,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
@@ -2210,7 +2210,7 @@ Maybe
 gfx
 :
 :
-Polygon3D
+Polygon
 >
 &
 aGeometry
