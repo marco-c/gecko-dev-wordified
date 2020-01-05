@@ -592,13 +592,7 @@ color
 )
 )
 "
-rgba
-(
-0
-0
-0
-0
-)
+transparent
 "
 "
 After
