@@ -953,6 +953,14 @@ aRv
 )
 ;
 }
+void
+GetAutocompleteInfo
+(
+AutocompleteInfo
+&
+aInfo
+)
+;
 bool
 Disabled
 (
