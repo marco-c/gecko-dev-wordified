@@ -208,8 +208,9 @@ ServerListener
 ServerListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ServerListener
 :
@@ -379,8 +380,9 @@ ClientInputCallback
 ClientInputCallback
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ClientInputCallback
 :

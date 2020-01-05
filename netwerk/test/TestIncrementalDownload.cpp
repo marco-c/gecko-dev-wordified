@@ -297,8 +297,9 @@ nsIProgressEventSink
 FetchObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

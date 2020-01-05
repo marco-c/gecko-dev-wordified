@@ -2204,8 +2204,9 @@ NetAddrElement
 NetAddrElement
 (
 )
-{
-}
+=
+default
+;
 AddrInfo
 :
 :

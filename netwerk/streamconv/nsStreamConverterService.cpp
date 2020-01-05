@@ -631,8 +631,9 @@ nsStreamConverterService
 nsStreamConverterService
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Builds

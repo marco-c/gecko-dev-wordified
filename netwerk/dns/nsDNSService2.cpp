@@ -638,8 +638,9 @@ virtual
 nsDNSRecord
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsHostRecord
@@ -1900,8 +1901,9 @@ nsICancelable
 nsDNSAsyncRequest
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -2472,8 +2474,9 @@ virtual
 nsDNSSyncRequest
 (
 )
-{
-}
+=
+default
+;
 void
 OnLookupComplete
 (
@@ -2887,8 +2890,9 @@ nsDNSService
 nsDNSService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsDNSService

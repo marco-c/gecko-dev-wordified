@@ -4073,8 +4073,9 @@ nsHostResolver
 nsHostResolver
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsHostResolver
 :

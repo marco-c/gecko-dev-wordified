@@ -359,8 +359,9 @@ virtual
 myDNSListener
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mHost
 ;
