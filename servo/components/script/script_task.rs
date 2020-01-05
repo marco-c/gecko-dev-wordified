@@ -1112,7 +1112,7 @@ ScriptMsg
 >
 )
 ;
-untraceable
+no_jsmanaged_fields
 !
 (
 ScriptChan

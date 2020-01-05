@@ -1403,7 +1403,7 @@ managed
 types
 macro_rules
 !
-untraceable
+no_jsmanaged_fields
 (
 (
 (
