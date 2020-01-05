@@ -195,6 +195,11 @@ blockForReady
 {
 blockForEvent
 (
+Actions
+.
+EventType
+.
+GECKO
 "
 Gecko
 :
@@ -242,6 +247,11 @@ blockForDelayedStartup
 {
 blockForEvent
 (
+Actions
+.
+EventType
+.
+UI
 "
 Gecko
 :
@@ -256,6 +266,11 @@ void
 blockForEvent
 (
 final
+Actions
+.
+EventType
+type
+final
 String
 eventName
 )
@@ -266,8 +281,9 @@ eventExpecter
 =
 sActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+type
 eventName
 )
 ;

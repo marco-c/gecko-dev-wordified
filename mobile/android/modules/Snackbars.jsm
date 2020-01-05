@@ -111,7 +111,7 @@ defineLazyModuleGetter
 (
 this
 "
-Messaging
+EventDispatcher
 "
 "
 resource
@@ -277,7 +277,9 @@ action
 label
 ;
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequestForResult
 (
@@ -301,7 +303,9 @@ callback
 }
 else
 {
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (

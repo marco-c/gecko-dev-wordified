@@ -892,7 +892,7 @@ Reader
 SystemUIVisibility
 "
 :
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (

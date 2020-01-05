@@ -657,7 +657,7 @@ _currentPermissions
 =
 permissions
 ;
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (

@@ -998,7 +998,7 @@ this
 .
 _receivingOOB
 =
-Messaging
+WindowEventDispatcher
 .
 sendRequestForResult
 (

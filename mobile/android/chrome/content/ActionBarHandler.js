@@ -3693,7 +3693,7 @@ element
 win
 )
 {
-Messaging
+WindowEventDispatcher
 .
 sendRequest
 (
