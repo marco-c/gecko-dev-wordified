@@ -1438,7 +1438,6 @@ from_raw
 raw
 :
 *
-mut
 T
 )
 -
@@ -1453,9 +1452,6 @@ JS
 ptr
 :
 raw
-as
-*
-T
 }
 }
 /

@@ -14373,7 +14373,6 @@ JS
 from_raw
 (
 &
-mut
 *
 aObject
 )
@@ -20064,7 +20063,6 @@ Argument
 (
 '
 *
-mut
 %
 s
 '
@@ -20508,7 +20506,6 @@ Argument
 (
 '
 *
-mut
 %
 s
 '
@@ -21056,7 +21053,6 @@ Argument
 (
 '
 *
-mut
 %
 s
 '
@@ -28651,7 +28647,6 @@ UnwrapProxy
 "
 '
 *
-mut
 '
 +
 descriptor
@@ -28719,17 +28714,7 @@ obj
   
 let
 box_
-:
-*
-mut
-%
-s
 =
-cast
-:
-:
-transmute
-(
 GetProxyPrivate
 (
 obj
@@ -28738,7 +28723,10 @@ obj
 to_private
 (
 )
-)
+as
+*
+%
+s
 ;
   
 return
@@ -32126,7 +32114,6 @@ let
 this
 :
 *
-mut
 %
 s
 =
