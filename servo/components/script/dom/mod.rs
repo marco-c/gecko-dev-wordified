@@ -2937,3 +2937,7 @@ pub
 mod
 testbinding
 ;
+pub
+mod
+testbindingproxy
+;
