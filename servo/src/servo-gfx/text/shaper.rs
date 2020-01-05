@@ -47,8 +47,6 @@ harfbuzz
 pub
 type
 Shaper
-/
-&
 =
 harfbuzz
 :
@@ -113,7 +111,6 @@ pub
 impl
 Shaper
 {
-static
 pub
 fn
 new

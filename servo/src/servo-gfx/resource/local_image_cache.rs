@@ -63,11 +63,7 @@ core
 comm
 :
 :
-{
 Port
-Chan
-stream
-}
 ;
 use
 resource
@@ -716,7 +712,7 @@ clone
 (
 )
 ;
-fail_unless
+assert
 !
 (
 self
@@ -899,6 +895,7 @@ state
 )
 =
 >
+*
 state
 None
 =

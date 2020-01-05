@@ -21,7 +21,6 @@ Ord
 Eq
 >
 {
-pure
 fn
 binary_search
 (
@@ -37,12 +36,11 @@ T
 Option
 <
 &
+'
 self
-/
 T
 >
 ;
-pure
 fn
 binary_search_index
 (
@@ -83,7 +81,6 @@ self
 T
 ]
 {
-pure
 fn
 binary_search
 (
@@ -99,8 +96,8 @@ T
 Option
 <
 &
+'
 self
-/
 T
 >
 {
@@ -132,7 +129,6 @@ i
 )
 }
 }
-pure
 fn
 binary_search_index
 (
@@ -343,7 +339,7 @@ len
 (
 )
 {
-fail_unless
+assert
 !
 (
 test_match
@@ -445,7 +441,7 @@ i
 res
 )
 ;
-fail_unless
+assert
 !
 (
 !

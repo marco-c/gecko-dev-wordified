@@ -28,6 +28,10 @@ transmute
 pub
 trait
 NodeUtil
+<
+'
+self
+>
 {
 fn
 get_css_select_results
@@ -37,8 +41,8 @@ self
 -
 >
 &
+'
 self
-/
 CompleteSelectResults
 ;
 fn
@@ -135,8 +139,8 @@ self
 -
 >
 &
+'
 self
-/
 CompleteSelectResults
 {
 if

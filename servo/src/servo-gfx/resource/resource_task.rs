@@ -54,15 +54,6 @@ net
 :
 :
 url
-;
-use
-std
-:
-:
-net
-:
-:
-url
 :
 :
 {
@@ -117,7 +108,10 @@ Load
 message
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 enum
@@ -478,8 +472,11 @@ self
 .
 load
 (
-copy
 url
+.
+clone
+(
+)
 progress_chan
 )
 }
@@ -760,7 +757,7 @@ result
 =
 >
 {
-fail_unless
+assert
 !
 (
 result
@@ -912,7 +909,7 @@ chan
 )
 )
 ;
-fail_unless
+assert
 !
 (
 progress
@@ -928,7 +925,7 @@ payload
 )
 )
 ;
-fail_unless
+assert
 !
 (
 progress

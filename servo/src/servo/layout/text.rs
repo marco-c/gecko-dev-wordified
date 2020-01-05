@@ -65,7 +65,6 @@ TextRun
 range
 :
 &
-const
 Range
 )
 -
@@ -99,7 +98,6 @@ TextRun
 range
 :
 &
-const
 Range
 )
 -
@@ -107,7 +105,7 @@ Range
 mut
 RenderBox
 {
-fail_unless
+assert
 !
 (
 range
@@ -123,7 +121,7 @@ char_len
 )
 )
 ;
-fail_unless
+assert
 !
 (
 range
@@ -140,7 +138,7 @@ char_len
 )
 )
 ;
-fail_unless
+assert
 !
 (
 range
@@ -251,7 +249,6 @@ pub
 trait
 UnscannedMethods
 {
-pure
 fn
 raw_text
 (
@@ -270,7 +267,6 @@ UnscannedMethods
 for
 RenderBox
 {
-pure
 fn
 raw_text
 (

@@ -1,12 +1,3 @@
-use
-core
-:
-:
-cmp
-:
-:
-*
-;
 pub
 trait
 Cache
@@ -21,7 +12,6 @@ V
 Copy
 >
 {
-static
 fn
 new
 (
@@ -78,7 +68,6 @@ K
 blk
 :
 &
-pure
 fn
 (
 &
@@ -142,7 +131,6 @@ K
 V
 >
 {
-static
 fn
 new
 (
@@ -263,7 +251,6 @@ K
 blk
 :
 &
-pure
 fn
 (
 &
@@ -408,7 +395,7 @@ insert
 one
 )
 ;
-fail_unless
+assert
 !
 (
 cache
@@ -424,7 +411,7 @@ is_some
 )
 )
 ;
-fail_unless
+assert
 !
 (
 cache
@@ -454,7 +441,7 @@ two
 }
 )
 ;
-fail_unless
+assert
 !
 (
 cache
@@ -470,7 +457,7 @@ is_some
 )
 )
 ;
-fail_unless
+assert
 !
 (
 cache

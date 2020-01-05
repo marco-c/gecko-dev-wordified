@@ -15,6 +15,10 @@ c_void
 through
 this
 trait
+extern
+mod
+netsurfcss
+;
 use
 dom
 :
@@ -46,10 +50,6 @@ can
 t
 reexport
 VoidPtrLike
-extern
-mod
-netsurfcss
-;
 use
 css
 :
@@ -70,7 +70,6 @@ VoidPtrLike
 for
 AbstractNode
 {
-static
 fn
 from_void_ptr
 (
@@ -86,7 +85,7 @@ c_void
 >
 AbstractNode
 {
-fail_unless
+assert
 !
 (
 node

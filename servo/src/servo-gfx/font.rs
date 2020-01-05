@@ -77,17 +77,6 @@ azure
 {
 AzFloat
 AzScaledFontRef
-struct__AzDrawOptions
-struct__AzGlyph
-}
-;
-use
-azure
-:
-:
-{
-struct__AzGlyphBuffer
-struct__AzPoint
 }
 ;
 use
@@ -221,8 +210,6 @@ macos
 pub
 type
 FontHandle
-/
-&
 =
 quartz
 :
@@ -246,8 +233,6 @@ linux
 pub
 type
 FontHandle
-/
-&
 =
 freetype_impl
 :
@@ -273,7 +258,6 @@ recreate
 this
 FontHandle
 .
-pure
 fn
 face_identifier
 (
@@ -285,7 +269,6 @@ self
 ~
 str
 ;
-pure
 fn
 family_name
 (
@@ -297,7 +280,6 @@ self
 ~
 str
 ;
-pure
 fn
 face_name
 (
@@ -309,7 +291,6 @@ self
 ~
 str
 ;
-pure
 fn
 is_italic
 (
@@ -320,7 +301,6 @@ self
 >
 bool
 ;
-pure
 fn
 boldness
 (
@@ -469,7 +449,6 @@ macos
 "
 )
 ]
-static
 pub
 fn
 new_from_buffer
@@ -528,7 +507,6 @@ linux
 "
 )
 ]
-static
 pub
 fn
 new_from_buffer
@@ -609,7 +587,6 @@ trait
 FontTableTagConversions
 {
 pub
-pure
 fn
 tag_to_str
 (
@@ -628,7 +605,6 @@ for
 FontTableTag
 {
 pub
-pure
 fn
 tag_to_str
 (
@@ -714,8 +690,6 @@ macos
 pub
 type
 FontTable
-/
-&
 =
 quartz
 :
@@ -739,8 +713,6 @@ linux
 pub
 type
 FontTable
-/
-&
 =
 freetype_impl
 :
@@ -820,7 +792,10 @@ weight
 '
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 enum
@@ -841,7 +816,6 @@ impl
 CSSFontWeight
 {
 pub
-pure
 fn
 is_bold
 (
@@ -940,7 +914,10 @@ a
 typedef
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 struct
@@ -1069,7 +1046,10 @@ tasks
 .
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 struct
@@ -1086,8 +1066,6 @@ pub
 impl
 FontDescriptor
 {
-static
-pure
 fn
 new
 (
@@ -1130,7 +1108,10 @@ names
 .
 #
 [
-deriving_eq
+deriving
+(
+Eq
+)
 ]
 pub
 enum
@@ -1276,7 +1257,6 @@ pub
 impl
 FontGroup
 {
-static
 fn
 new
 (
@@ -1328,7 +1308,7 @@ str
 >
 TextRun
 {
-fail_unless
+assert
 !
 (
 self
@@ -1520,7 +1500,6 @@ pub
 impl
 Font
 {
-static
 fn
 new_from_buffer
 (
@@ -1657,7 +1636,6 @@ backend
 )
 ;
 }
-static
 fn
 new_from_adopted_handle
 (
@@ -1715,7 +1693,6 @@ backend
 backend
 }
 }
-static
 fn
 new_from_existing_handle
 (
@@ -2105,6 +2082,9 @@ priv
 fn
 create_azure_font
 (
+&
+mut
+self
 )
 -
 >
@@ -2221,7 +2201,6 @@ TextRun
 range
 :
 &
-const
 Range
 baseline_origin
 :
@@ -2260,11 +2239,8 @@ azure
 :
 :
 {
-AzDrawOptions
 struct__AzDrawOptions
-AzGlyph
 struct__AzGlyph
-AzGlyphBuffer
 struct__AzGlyphBuffer
 struct__AzPoint
 }
@@ -2280,35 +2256,7 @@ bindgen
 :
 :
 {
-AzCreateColorPattern
-}
-;
-use
-azure
-:
-:
-azure
-:
-:
-bindgen
-:
-:
-{
 AzDrawTargetFillGlyphs
-}
-;
-use
-azure
-:
-:
-azure
-:
-:
-bindgen
-:
-:
-{
-AzReleaseColorPattern
 }
 ;
 let
@@ -2344,7 +2292,7 @@ pattern
 .
 azure_color_pattern
 ;
-fail_unless
+assert
 !
 (
 azure_pattern
@@ -2636,7 +2584,6 @@ TextRun
 range
 :
 &
-const
 Range
 )
 -
@@ -3078,7 +3025,7 @@ w
 '
 )
 ;
-fail_unless
+assert
 !
 (
 glyph_idx
@@ -3144,7 +3091,7 @@ as
 GlyphIndex
 )
 ;
-fail_unless
+assert
 !
 (
 x
@@ -3259,7 +3206,7 @@ as
 GlyphIndex
 )
 ;
-fail_unless
+assert
 !
 (
 x

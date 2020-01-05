@@ -11,7 +11,6 @@ Eq
 for
 CompressionMode
 {
-pure
 fn
 eq
 (
@@ -68,7 +67,6 @@ _
 false
 }
 }
-pure
 fn
 ne
 (
