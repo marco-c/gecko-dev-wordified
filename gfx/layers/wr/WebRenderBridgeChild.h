@@ -241,13 +241,6 @@ AllocExternalImageId
 (
 uint64_t
 aAsyncContainerID
-gfx
-:
-:
-IntSize
-aSize
-SurfaceFormat
-aFormat
 )
 ;
 uint64_t
@@ -256,13 +249,6 @@ AllocExternalImageIdForCompositable
 CompositableClient
 *
 aCompositable
-gfx
-:
-:
-IntSize
-aSize
-SurfaceFormat
-aFormat
 )
 ;
 void
