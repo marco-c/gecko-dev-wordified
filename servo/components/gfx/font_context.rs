@@ -1553,12 +1553,9 @@ platform
 if
 fonts
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 let
 mut

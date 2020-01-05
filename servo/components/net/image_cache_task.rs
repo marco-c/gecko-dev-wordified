@@ -1132,12 +1132,9 @@ self
 .
 pending_loads
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 exit_sender
 .

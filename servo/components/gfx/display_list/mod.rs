@@ -4387,12 +4387,9 @@ string
 if
 indentation
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 indentation
 =

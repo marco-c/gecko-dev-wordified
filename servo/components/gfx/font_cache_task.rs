@@ -1418,12 +1418,9 @@ s
 .
 templates
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 get_variations_for_family
 (

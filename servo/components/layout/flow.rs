@@ -10112,12 +10112,9 @@ self
 .
 children
 .
-len
+is_empty
 (
 )
-=
-=
-0
 }
 /
 /

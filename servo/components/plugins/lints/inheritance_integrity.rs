@@ -803,12 +803,9 @@ else
 if
 dom_spans
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 cx
 .

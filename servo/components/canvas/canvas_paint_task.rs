@@ -5964,12 +5964,9 @@ f32
 if
 image_data
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 }

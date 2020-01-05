@@ -1008,12 +1008,9 @@ if
 smm
 )
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 ;

@@ -8239,12 +8239,9 @@ borrow
 (
 )
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 let
 window
