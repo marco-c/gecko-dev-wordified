@@ -1193,7 +1193,7 @@ return
 nullptr
 ;
 }
-nsresult
+void
 nsFrameManager
 :
 :
@@ -1204,7 +1204,7 @@ nsPlaceholderFrame
 aPlaceholderFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPlaceholderFrame
 "
@@ -1214,7 +1214,7 @@ unexpected
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nsGkAtoms
 :
@@ -1254,19 +1254,10 @@ aPlaceholderFrame
 GetOutOfFlowFrame
 (
 )
-fallible
 )
 )
 ;
-if
-(
-!
-entry
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 entry
@@ -1295,9 +1286,6 @@ entry
 placeholderFrame
 =
 aPlaceholderFrame
-;
-return
-NS_OK
 ;
 }
 void
