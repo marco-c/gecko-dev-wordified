@@ -2229,14 +2229,6 @@ genPropDesc
 dirxml
 '
 )
-markTimeline
-:
-genPropDesc
-(
-'
-markTimeline
-'
-)
 timeStamp
 :
 genPropDesc
