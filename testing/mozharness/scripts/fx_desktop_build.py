@@ -616,16 +616,6 @@ s
 '
                 
 '
-influx_credentials_file
-'
-:
-'
-oauth
-.
-txt
-'
-                
-'
 build_resources_path
 '
 :
