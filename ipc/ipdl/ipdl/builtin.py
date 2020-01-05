@@ -209,6 +209,14 @@ nsCString
 '
     
 '
+nsDependentSubstring
+'
+    
+'
+nsDependentCSubstring
+'
+    
+'
 mozilla
 :
 :

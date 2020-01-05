@@ -3664,14 +3664,11 @@ kMaxMessageSize
 ;
 SendWriteToCacheEntry
 (
-PromiseFlatString
-(
 Substring
 (
 aData
 curIndex
 chunkSize
-)
 )
 )
 ;
