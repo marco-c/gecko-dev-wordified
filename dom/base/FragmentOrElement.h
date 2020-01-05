@@ -1496,7 +1496,7 @@ properties
 )
 *
 see
-nsIContent
+Element
 :
 :
 GetSMILOverrideStyle

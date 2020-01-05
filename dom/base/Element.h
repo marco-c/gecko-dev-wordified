@@ -2025,7 +2025,6 @@ nsStyledElement
 .
 *
 /
-virtual
 nsICSSDeclaration
 *
 GetSMILOverrideStyle
