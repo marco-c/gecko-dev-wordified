@@ -319,8 +319,6 @@ nsIIOService
 newURI
 (
 PSEUDOURI
-null
-null
 )
 ;
 var
