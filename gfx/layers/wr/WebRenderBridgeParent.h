@@ -688,6 +688,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 override
 ;
@@ -745,6 +749,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 override
 ;
@@ -1207,6 +1215,10 @@ const
 WrAuxiliaryListsDescriptor
 &
 auxDesc
+const
+WebRenderScrollData
+&
+aScrollData
 )
 ;
 void
