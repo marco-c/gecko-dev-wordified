@@ -678,8 +678,6 @@ return
 CANPLAY_YES
 ;
 }
-else
-{
 /
 /
 We
@@ -711,7 +709,6 @@ invalid
 return
 CANPLAY_NO
 ;
-}
 }
 if
 (
@@ -742,8 +739,6 @@ return
 CANPLAY_YES
 ;
 }
-else
-{
 /
 /
 We
@@ -775,7 +770,6 @@ invalid
 return
 CANPLAY_NO
 ;
-}
 }
 #
 if
@@ -810,8 +804,6 @@ return
 CANPLAY_YES
 ;
 }
-else
-{
 /
 /
 We
@@ -843,7 +835,6 @@ invalid
 return
 CANPLAY_NO
 ;
-}
 }
 #
 endif
@@ -884,8 +875,6 @@ return
 CANPLAY_YES
 ;
 }
-else
-{
 /
 /
 We
@@ -917,7 +906,6 @@ invalid
 return
 CANPLAY_NO
 ;
-}
 }
 #
 endif
