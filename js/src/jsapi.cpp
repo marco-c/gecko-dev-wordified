@@ -34133,8 +34133,7 @@ ExecuteRegExpLegacy
 cx
 res
 reobj
--
->
+.
 as
 <
 RegExpObject
@@ -34211,8 +34210,7 @@ ExecuteRegExpLegacy
 cx
 nullptr
 obj
--
->
+.
 as
 <
 RegExpObject
