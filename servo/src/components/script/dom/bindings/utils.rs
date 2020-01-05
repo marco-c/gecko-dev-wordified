@@ -1062,7 +1062,7 @@ proto_depth
 pub
 unsafe
 fn
-squirrel_away_unboxed
+squirrel_away_unique
 <
 T
 >
@@ -2539,7 +2539,7 @@ unsafe
 let
 box_
 =
-squirrel_away_unboxed
+squirrel_away_unique
 (
 protoArray
 )
