@@ -306,7 +306,10 @@ unwrap
 )
 ;
 let
+(
 resource_thread
+_
+)
 =
 new_core_resource_thread
 (
@@ -395,7 +398,10 @@ unwrap
 )
 ;
 let
+(
 resource_thread
+_
+)
 =
 new_core_resource_thread
 (
@@ -2681,7 +2687,10 @@ unwrap
 )
 ;
 let
+(
 resource_thread
+_
+)
 =
 new_core_resource_thread
 (
