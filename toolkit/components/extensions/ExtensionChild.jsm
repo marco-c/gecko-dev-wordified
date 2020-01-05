@@ -6309,7 +6309,7 @@ new
 CanOfAPIs
 (
 this
-apiManager
+devtoolsAPIManager
 localApis
 )
 ;
