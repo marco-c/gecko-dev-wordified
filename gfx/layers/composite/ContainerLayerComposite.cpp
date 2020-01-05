@@ -3353,7 +3353,7 @@ GetCompositor
 )
 -
 >
-DrawQuad
+DrawGeometry
 (
 gfx
 :
@@ -3379,6 +3379,9 @@ layer
 -
 >
 GetEffectiveTransform
+(
+)
+Nothing
 (
 )
 )
