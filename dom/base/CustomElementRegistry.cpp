@@ -4851,9 +4851,9 @@ rootedv
 {
 aRv
 .
-Throw
+StealExceptionFromJSContext
 (
-NS_ERROR_FAILURE
+cx
 )
 ;
 return
