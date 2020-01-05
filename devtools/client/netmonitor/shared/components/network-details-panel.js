@@ -206,7 +206,6 @@ activeTabId
 cloneSelectedRequest
 request
 selectTab
-toolbox
 }
 )
 {
@@ -246,7 +245,6 @@ TabboxPanel
 activeTabId
 request
 selectTab
-toolbox
 }
 )
 :
@@ -301,13 +299,6 @@ selectTab
 PropTypes
 .
 func
-.
-isRequired
-toolbox
-:
-PropTypes
-.
-object
 .
 isRequired
 }

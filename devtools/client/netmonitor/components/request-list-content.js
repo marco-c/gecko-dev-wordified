@@ -406,11 +406,9 @@ HTMLTooltip
 (
 window
 .
-NetMonitorController
+parent
 .
-_toolbox
-.
-doc
+document
 {
 type
 :

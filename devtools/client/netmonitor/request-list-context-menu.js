@@ -1512,11 +1512,15 @@ popup
 (
 screenX
 screenY
+{
+doc
+:
 window
 .
-NetMonitorController
+parent
 .
-_toolbox
+document
+}
 )
 ;
 return
