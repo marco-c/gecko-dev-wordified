@@ -2108,6 +2108,8 @@ Done
 )
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2261,6 +2263,8 @@ least
 two
 segments
 .
+gDummy
+=
 v
 .
 Append
@@ -2268,6 +2272,8 @@ Append
 1
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2275,6 +2281,8 @@ Append
 1
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2282,6 +2290,8 @@ Append
 1
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2505,6 +2515,8 @@ IterFromLast
 (
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2512,6 +2524,8 @@ Append
 2
 )
 ;
+gDummy
+=
 v
 .
 Append
@@ -2519,6 +2533,8 @@ Append
 3
 )
 ;
+gDummy
+=
 v
 .
 Append
