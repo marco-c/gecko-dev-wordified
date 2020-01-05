@@ -846,8 +846,6 @@ repeat
 x
 ;
 }
-%
-endif
 #
 urlbar
 :
@@ -893,6 +891,8 @@ opacity
 9
 ;
 }
+%
+endif
 #
 navigator
 -

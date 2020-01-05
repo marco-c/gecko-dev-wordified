@@ -2407,12 +2407,12 @@ rgba
 )
 ;
 }
-#
-urlbar
-{
 %
 ifndef
 MOZ_PHOTON_THEME
+#
+urlbar
+{
 border
 -
 inline
@@ -2423,8 +2423,6 @@ none
 !
 important
 ;
-%
-endif
 opacity
 :
 1
@@ -2585,6 +2583,8 @@ start
 0
 ;
 }
+%
+endif
 #
 urlbar
 -
