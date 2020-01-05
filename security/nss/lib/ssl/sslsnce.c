@@ -11546,11 +11546,6 @@ ssl_session_ticket_keys
 macKey
 )
 {
-PORT_SetError
-(
-SEC_ERROR_LIBRARY_FAILURE
-)
-;
 return
 SECFailure
 ;
