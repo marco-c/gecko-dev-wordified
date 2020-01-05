@@ -382,6 +382,8 @@ getVibrantColor
 (
 DEFAULT_COLOR
 )
+&
+0x7FFFFFFF
 )
 ;
 }
