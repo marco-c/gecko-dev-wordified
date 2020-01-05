@@ -456,6 +456,9 @@ class
 ServiceWorkerClientInfo
 ;
 class
+WorkerControlEventTarget
+;
+class
 WorkerControlRunnable
 ;
 class
