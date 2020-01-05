@@ -17686,7 +17686,10 @@ self
 .
 get_attribute
 (
+&
 ns
+.
+url
 local_name
 )
 .

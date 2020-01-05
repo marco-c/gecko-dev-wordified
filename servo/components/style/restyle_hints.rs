@@ -1752,7 +1752,7 @@ SelectorImpl
 >
 :
 :
-BorrowedNamespace
+BorrowedNamespaceUrl
 {
 self
 .
