@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-RefPtr
+ReentrantMonitor
 .
 h
 "
@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RefPtr
 .
 h
 "
@@ -709,6 +709,8 @@ returns
 .
 bool
 mMFTProvidesOutputSamples
+=
+false
 ;
 /
 /
@@ -727,6 +729,8 @@ discontinuity
 .
 bool
 mDiscontinuity
+=
+true
 ;
 }
 ;

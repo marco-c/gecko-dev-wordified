@@ -125,13 +125,6 @@ DXVA2Manager_h_
 #
 include
 "
-WMF
-.
-h
-"
-#
-include
-"
 MediaInfo
 .
 h
@@ -139,7 +132,7 @@ h
 #
 include
 "
-nsAutoPtr
+WMF
 .
 h
 "
@@ -149,6 +142,13 @@ include
 mozilla
 /
 Mutex
+.
+h
+"
+#
+include
+"
+nsAutoPtr
 .
 h
 "
@@ -460,6 +460,8 @@ const
 ;
 bool
 mIsAMDPreUVD4
+=
+false
 ;
 }
 ;
