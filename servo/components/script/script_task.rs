@@ -7389,6 +7389,9 @@ ConstellationMsg
 :
 :
 LoadComplete
+(
+pipeline
+)
 )
 .
 unwrap

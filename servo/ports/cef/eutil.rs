@@ -764,6 +764,10 @@ c_object
 )
 ;
 }
+#
+[
+no_mangle
+]
 pub
 extern
 "

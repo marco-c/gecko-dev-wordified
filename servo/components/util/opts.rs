@@ -209,7 +209,10 @@ load
 pub
 url
 :
+Option
+<
 Url
+>
 /
 /
 /
@@ -1735,6 +1738,8 @@ Opts
 {
 url
 :
+Some
+(
 Url
 :
 :
@@ -1749,6 +1754,7 @@ blank
 .
 unwrap
 (
+)
 )
 paint_threads
 :
@@ -3248,7 +3254,10 @@ Opts
 {
 url
 :
+Some
+(
 url
+)
 paint_threads
 :
 paint_threads
