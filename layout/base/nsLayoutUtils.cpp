@@ -1271,7 +1271,7 @@ Tick
 #
 define
 DEFAULT_IDLE_PERIOD_TIME_LIMIT
-3
+1
 .
 0f
 #
