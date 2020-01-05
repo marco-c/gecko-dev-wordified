@@ -1598,9 +1598,9 @@ mGCThingCycleCollectorGlobal
 JSZoneParticipant
 mJSZoneCycleCollectorGlobal
 ;
-JSContext
+JSRuntime
 *
-mJSContext
+mJSRuntime
 ;
 JS
 :
