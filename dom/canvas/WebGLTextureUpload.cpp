@@ -1161,6 +1161,8 @@ ArrayBufferView
 view
 GLuint
 viewElemOffset
+GLuint
+viewElemLengthOverride
 )
 {
 const
@@ -1198,7 +1200,7 @@ funcName
 *
 view
 viewElemOffset
-0
+viewElemLengthOverride
 const_cast
 <
 uint8_t
@@ -2600,6 +2602,9 @@ mView
 src
 .
 mViewElemOffset
+src
+.
+mViewElemLengthOverride
 )
 ;
 }
@@ -9418,6 +9423,9 @@ mView
 src
 .
 mViewElemOffset
+src
+.
+mViewElemLengthOverride
 )
 ;
 }
