@@ -617,6 +617,10 @@ cast_type
 '
 u8
 '
+                 
+has_uncacheable_values
+=
+False
 )
 :
         
@@ -702,6 +706,12 @@ self
 need_index
 =
 need_index
+        
+self
+.
+has_uncacheable_values
+=
+has_uncacheable_values
         
 self
 .

@@ -1687,6 +1687,10 @@ nsStyleImageLayers_LayerType
 "
             
 "
+nsStyleImageRequest
+"
+            
+"
 nsStyleList
 "
             
