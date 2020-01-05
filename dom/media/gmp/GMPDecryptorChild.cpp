@@ -723,7 +723,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 GMPTimestamp
-aMillisecondsSinceEpoch
+aExpiryTime
 )
 {
 CALL_ON_GMP_THREAD
@@ -734,9 +734,7 @@ nsCString
 aSessionId
 aSessionIdLength
 )
-aMillisecondsSinceEpoch
-/
-1e3
+aExpiryTime
 )
 ;
 }
