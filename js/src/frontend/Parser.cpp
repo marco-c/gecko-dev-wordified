@@ -25433,12 +25433,10 @@ noteDeclaredName
 name
 *
 maybeDecl
-handler
-.
-getPosition
-(
 expr
-)
+-
+>
+pn_pos
 )
 ;
 }
