@@ -143,6 +143,7 @@ import
 CommandBase
 cd
 call
+BIN_SUFFIX
 def
 notify_linux
 (
@@ -1724,15 +1725,21 @@ OPENSSL_STATIC
 TRUE
 '
         
+cargo_binary
+=
+"
+cargo
+"
++
+BIN_SUFFIX
+        
 status
 =
 call
 (
             
 [
-"
-cargo
-"
+cargo_binary
 "
 build
 "
