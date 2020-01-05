@@ -1693,7 +1693,7 @@ precise_time_s
 pub
 start_time
 :
-f32
+f64
 /
 /
 /
@@ -1716,7 +1716,7 @@ precise_time_s
 pub
 end_time
 :
-f32
+f64
 }
 impl
 Animation
@@ -1746,7 +1746,7 @@ self
 )
 -
 >
-f32
+f64
 {
 self
 .
