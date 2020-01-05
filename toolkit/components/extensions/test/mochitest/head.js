@@ -82,14 +82,6 @@ extensions
 )
 )
 {
-add_task
-(
-(
-)
-=
->
-{
-return
 SpecialPowers
 .
 pushPrefEnv
@@ -119,9 +111,6 @@ remote
 true
 ]
 ]
-}
-)
-;
 }
 )
 ;
