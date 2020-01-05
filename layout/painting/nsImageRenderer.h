@@ -1329,7 +1329,7 @@ parameters
 .
 *
 /
-void
+DrawResult
 BuildWebRenderDisplayItemsForLayer
 (
 nsPresContext
@@ -1910,7 +1910,7 @@ parameters
 .
 *
 /
-void
+DrawResult
 BuildWebRenderDisplayItems
 (
 nsPresContext
