@@ -1545,13 +1545,6 @@ fail
 ;
 }
 yield
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -1586,10 +1579,6 @@ Ci
 nsIFile
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

@@ -78,15 +78,6 @@ setup
 )
 {
 yield
-new
-Promise
-(
-(
-resolve
-)
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -118,10 +109,6 @@ open_newwindow
 2
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

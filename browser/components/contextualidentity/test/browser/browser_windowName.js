@@ -94,13 +94,6 @@ is
 enabled
 .
 yield
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -132,10 +125,6 @@ open_newwindow
 3
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

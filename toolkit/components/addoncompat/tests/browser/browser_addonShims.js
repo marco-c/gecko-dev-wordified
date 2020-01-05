@@ -360,13 +360,6 @@ test_addon_shims
 )
 {
 yield
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -388,10 +381,6 @@ enabledWarnings
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

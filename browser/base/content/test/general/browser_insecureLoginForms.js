@@ -140,12 +140,6 @@ test_simple
 )
 {
 yield
-new
-Promise
-(
-resolve
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -170,8 +164,6 @@ true
 ]
 ]
 }
-resolve
-)
 )
 ;
 for
@@ -757,12 +749,6 @@ test_mixedcontent
 )
 {
 yield
-new
-Promise
-(
-resolve
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -785,8 +771,6 @@ false
 ]
 ]
 }
-resolve
-)
 )
 ;
 /

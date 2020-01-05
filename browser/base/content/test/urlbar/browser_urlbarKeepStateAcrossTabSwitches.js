@@ -269,12 +269,6 @@ question
 "
 ;
 yield
-new
-Promise
-(
-resolve
-=
->
 SpecialPowers
 .
 pushPrefEnv
@@ -293,8 +287,6 @@ false
 ]
 ]
 }
-resolve
-)
 )
 ;
 let

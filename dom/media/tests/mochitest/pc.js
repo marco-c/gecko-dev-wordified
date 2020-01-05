@@ -13203,13 +13203,6 @@ enableHttpProxy
 enable
 =
 >
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -13232,10 +13225,6 @@ disable_http_proxy
 enable
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;
