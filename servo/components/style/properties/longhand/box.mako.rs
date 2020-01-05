@@ -525,6 +525,13 @@ if
 value
 in
 experimental_values
+and
+product
+=
+=
+"
+servo
+"
 :
 if
 !

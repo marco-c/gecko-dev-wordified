@@ -3558,6 +3558,17 @@ unwrap_or
 (
 false
 )
+|
+|
+cfg
+!
+(
+feature
+=
+"
+gecko
+"
+)
 {
 Ok
 (
