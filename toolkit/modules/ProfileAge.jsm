@@ -521,6 +521,8 @@ path
 *
 /
 getPath
+:
+function
 (
 file
 )
@@ -568,6 +570,8 @@ possible
 *
 /
 getTimes
+:
+function
 (
 file
 =
@@ -653,6 +657,8 @@ profile
 *
 /
 readTimes
+:
+function
 (
 file
 =
@@ -700,6 +706,8 @@ profile
 *
 /
 writeTimes
+:
+function
 (
 contents
 file
@@ -753,6 +761,8 @@ naturally
 *
 /
 computeAndPersistCreated
+:
+function
 (
 existingContents
 file
@@ -867,6 +877,8 @@ timestamp
 *
 /
 getOldestProfileTimestamp
+:
+function
 (
 )
 {
@@ -1320,6 +1332,8 @@ written
 *
 /
 recordProfileReset
+:
+function
 (
 time
 =

@@ -97,6 +97,8 @@ callback
 :
 null
 checkDisplayed
+:
+function
 (
 aExpected
 )
@@ -130,6 +132,8 @@ null
 ;
 }
 checkNotDisplayed
+:
+function
 (
 )
 {
@@ -160,6 +164,8 @@ lastHidden
 :
 null
 checkHidden
+:
+function
 (
 aExpected
 )
@@ -193,6 +199,8 @@ null
 ;
 }
 checkNotHidden
+:
+function
 (
 )
 {
@@ -220,6 +228,8 @@ fired
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -454,6 +464,8 @@ addListener
 (
 {
 onInstallEnded
+:
+function
 (
 )
 {

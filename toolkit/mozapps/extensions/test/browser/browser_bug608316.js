@@ -133,6 +133,8 @@ listener
 =
 {
 onUninstalling
+:
+function
 (
 aAddon
 aRestartRequired

@@ -349,6 +349,8 @@ process
 *
 /
 init
+:
+function
 (
 )
 {
@@ -436,6 +438,8 @@ win
 *
 /
 terminateScript
+:
+function
 (
 win
 )
@@ -484,6 +488,8 @@ win
 *
 /
 debugScript
+:
+function
 (
 win
 )
@@ -605,6 +611,8 @@ processes
 *
 /
 terminatePlugin
+:
+function
 (
 win
 )
@@ -648,6 +656,8 @@ type
 *
 /
 stopIt
+:
+function
 (
 win
 )
@@ -749,6 +759,8 @@ notify
 *
 /
 waitLonger
+:
+function
 (
 win
 )
@@ -1037,6 +1049,8 @@ it
 *
 /
 handleUserInput
+:
+function
 (
 win
 func
@@ -1081,6 +1095,8 @@ report
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -1307,6 +1323,8 @@ element
 *
 /
 findActiveReport
+:
+function
 (
 browser
 )
@@ -1374,6 +1392,8 @@ element
 *
 /
 findPausedReport
+:
+function
 (
 browser
 )
@@ -1448,6 +1468,8 @@ it
 *
 /
 removeActiveReport
+:
+function
 (
 report
 )
@@ -1493,6 +1515,8 @@ it
 *
 /
 removePausedReport
+:
+function
 (
 report
 )
@@ -1581,6 +1605,8 @@ displayed
 *
 /
 updateWindows
+:
+function
 (
 )
 {
@@ -1692,6 +1718,8 @@ it
 *
 /
 updateWindow
+:
+function
 (
 win
 )
@@ -1749,6 +1777,8 @@ hang
 *
 /
 showNotification
+:
+function
 (
 win
 report
@@ -1837,6 +1867,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -1879,6 +1911,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -1944,6 +1978,8 @@ accessKey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2019,6 +2055,8 @@ win
 *
 /
 hideNotification
+:
+function
 (
 win
 )
@@ -2101,6 +2139,8 @@ displayed
 *
 /
 trackWindow
+:
+function
 (
 win
 )
@@ -2137,6 +2177,8 @@ true
 ;
 }
 untrackWindow
+:
+function
 (
 win
 )
@@ -2173,6 +2215,8 @@ true
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -2279,6 +2323,8 @@ windows
 *
 /
 reportHang
+:
+function
 (
 report
 )
@@ -2511,6 +2557,8 @@ updateWindows
 ;
 }
 clearHang
+:
+function
 (
 report
 )

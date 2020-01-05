@@ -1084,6 +1084,8 @@ asyncOpen2
 (
 {
 onStartRequest
+:
+function
 (
 aRequest
 )
@@ -1115,6 +1117,8 @@ NS_BINDING_ABORTED
 ;
 }
 onStopRequest
+:
+function
 (
 aRequest
 aContext
@@ -1156,6 +1160,8 @@ received
 }
 }
 onDataAvailable
+:
+function
 (
 )
 {

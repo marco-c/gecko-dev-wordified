@@ -1179,6 +1179,8 @@ _combined
 =
 {
 QueryInterface
+:
+function
 (
 )
 {

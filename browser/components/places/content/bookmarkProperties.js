@@ -4016,6 +4016,8 @@ parentGuid
 :
 folderGuid
 index
+:
+index
 }
 )
 ;

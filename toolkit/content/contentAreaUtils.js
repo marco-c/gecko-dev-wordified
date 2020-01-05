@@ -1667,6 +1667,8 @@ startPersistence
 aOuterWindowID
 {
 onDocumentReady
+:
+function
 (
 document
 )
@@ -1679,6 +1681,8 @@ aSkipPrompt
 ;
 }
 onError
+:
+function
 (
 status
 )
@@ -3161,13 +3165,19 @@ fpTitleKey
 :
 aFilePickerTitleKey
 fileInfo
+:
+fileInfo
 contentType
 :
 aContentType
 saveMode
+:
+saveMode
 saveAsType
 :
 kSaveAsType_Complete
+file
+:
 file
 }
 ;
@@ -3446,6 +3456,8 @@ persistArgs
 =
 {
 sourceURI
+:
+sourceURI
 sourceReferrer
 :
 aReferrer
@@ -3491,6 +3503,8 @@ null
 bypassCache
 :
 aShouldBypassCache
+isPrivate
+:
 isPrivate
 }
 ;
@@ -6133,6 +6147,8 @@ filepickerParams
 =
 {
 fileInfo
+:
+fileInfo
 saveMode
 :
 SAVEMODE_FILEONLY
@@ -6189,6 +6205,8 @@ source
 url
 :
 aURL
+isPrivate
+:
 isPrivate
 }
 target
@@ -9267,6 +9285,8 @@ uriListener
 =
 {
 onStartURIOpen
+:
+function
 (
 uri
 )
@@ -9276,6 +9296,8 @@ false
 ;
 }
 doContent
+:
+function
 (
 ctype
 preferred
@@ -9288,6 +9310,8 @@ false
 ;
 }
 isPreferred
+:
+function
 (
 ctype
 desired
@@ -9298,6 +9322,8 @@ false
 ;
 }
 canHandleContent
+:
+function
 (
 ctype
 preferred
@@ -9315,6 +9341,8 @@ parentContentListener
 :
 null
 getInterface
+:
+function
 (
 iid
 )
@@ -9368,6 +9396,8 @@ NetUtil
 newChannel
 (
 {
+uri
+:
 uri
 loadUsingSystemPrincipal
 :

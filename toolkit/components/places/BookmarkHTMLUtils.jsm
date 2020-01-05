@@ -7309,6 +7309,8 @@ _converterOut
 :
 null
 _write
+:
+function
 (
 aText
 )
@@ -7328,6 +7330,8 @@ aText
 ;
 }
 _writeAttribute
+:
+function
 (
 aName
 aValue
@@ -7356,6 +7360,8 @@ aValue
 ;
 }
 _writeLine
+:
+function
 (
 aText
 )
@@ -7374,6 +7380,8 @@ n
 ;
 }
 _writeHeader
+:
+function
 (
 )
 {
@@ -7852,6 +7860,8 @@ localIndent
 }
 }
 _writeSeparator
+:
+function
 (
 aItem
 aIndent
@@ -7916,6 +7926,8 @@ _write
 ;
 }
 _writeLivemark
+:
+function
 (
 aItem
 aIndent
@@ -8286,6 +8298,8 @@ aIndent
 ;
 }
 _writeDateAttributes
+:
+function
 (
 aItem
 )
@@ -8479,6 +8493,8 @@ faviconContents
 }
 }
 _writeDescription
+:
+function
 (
 aItem
 aIndent

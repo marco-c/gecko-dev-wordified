@@ -122,6 +122,8 @@ fakePromptServiceFactory
 =
 {
 createInstance
+:
+function
 (
 aOuter
 aIid
@@ -167,6 +169,8 @@ nsIPromptService
 ]
 )
 alert
+:
+function
 (
 )
 {
@@ -279,6 +283,8 @@ _runCount
 :
 0
 onStateChange
+:
+function
 (
 aBrowser
 aWebProgress

@@ -703,6 +703,10 @@ Sqlite3
 =
 {
 Constants
+:
+Constants
+Type
+:
 Type
 }
 ;

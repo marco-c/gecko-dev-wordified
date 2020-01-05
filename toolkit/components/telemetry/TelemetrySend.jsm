@@ -1150,6 +1150,8 @@ buffer
 "
 "
 onStreamComplete
+:
+function
 (
 loader
 context
@@ -1410,6 +1412,8 @@ finished
 *
 /
 setup
+:
+function
 (
 testing
 =
@@ -1473,6 +1477,8 @@ finished
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -1564,6 +1570,8 @@ saved
 *
 /
 submitPing
+:
+function
 (
 ping
 )
@@ -1625,6 +1633,8 @@ servers
 *
 /
 notifyCanUpload
+:
+function
 (
 )
 {
@@ -1659,6 +1669,8 @@ restart
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -1682,6 +1694,8 @@ tests
 *
 /
 setServer
+:
+function
 (
 server
 )
@@ -1716,6 +1730,8 @@ requests
 *
 /
 clearCurrentPings
+:
+function
 (
 )
 {
@@ -1745,6 +1761,8 @@ pings
 *
 /
 testWaitOnOutgoingPings
+:
+function
 (
 )
 {
@@ -1779,6 +1797,8 @@ builds
 *
 /
 setTestModeEnabled
+:
+function
 (
 testing
 )
@@ -1810,6 +1830,8 @@ diagnostics
 *
 /
 getShutdownState
+:
+function
 (
 )
 {
@@ -1889,6 +1911,8 @@ otherwise
 *
 /
 promiseWaitOnTimeout
+:
+function
 (
 timeoutMs
 )
@@ -1941,6 +1965,8 @@ promise
 ;
 }
 _onTimeout
+:
+function
 (
 )
 {
@@ -1975,6 +2001,8 @@ null
 }
 }
 cancelTimeout
+:
+function
 (
 )
 {
@@ -2174,6 +2202,8 @@ _logger
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -2212,6 +2242,8 @@ _sendTask
 ;
 }
 start
+:
+function
 (
 )
 {
@@ -2264,6 +2296,8 @@ restart
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -2334,6 +2368,8 @@ tick
 *
 /
 notifySendsFailed
+:
+function
 (
 )
 {
@@ -2395,6 +2431,8 @@ throttled
 *
 /
 isThrottled
+:
+function
 (
 )
 {
@@ -2430,6 +2468,8 @@ getTime
 ;
 }
 waitOnSendTask
+:
+function
 (
 )
 {
@@ -2445,6 +2485,8 @@ _sendTask
 ;
 }
 triggerSendingPings
+:
+function
 (
 immediately
 )
@@ -3552,6 +3594,8 @@ pings
 *
 /
 _getNextPingSendTime
+:
+function
 (
 now
 )
@@ -3731,6 +3775,8 @@ midnightPingFuzzingDelay
 ;
 }
 getShutdownState
+:
+function
 (
 )
 {
@@ -3956,6 +4002,8 @@ size
 ;
 }
 setTestModeEnabled
+:
+function
 (
 testing
 )
@@ -4495,6 +4543,8 @@ _persistCurrentPings
 }
 )
 reset
+:
+function
 (
 )
 {
@@ -4590,6 +4640,8 @@ servers
 *
 /
 notifyCanUpload
+:
+function
 (
 )
 {
@@ -4620,6 +4672,8 @@ promisePendingPingActivity
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -4646,6 +4700,8 @@ break
 }
 }
 submitPing
+:
+function
 (
 ping
 )
@@ -4851,6 +4907,8 @@ tests
 *
 /
 setServer
+:
+function
 (
 server
 )
@@ -5091,6 +5149,8 @@ true
 }
 )
 _cancelOutgoingRequests
+:
+function
 (
 )
 {
@@ -5181,6 +5241,8 @@ clear
 ;
 }
 sendPings
+:
+function
 (
 currentPings
 persistedPingIds
@@ -5655,6 +5717,8 @@ promise
 }
 )
 _onPingRequestFinished
+:
+function
 (
 success
 startTime
@@ -5809,6 +5873,8 @@ resolve
 ;
 }
 _getSubmissionPath
+:
+function
 (
 ping
 )
@@ -6077,6 +6143,8 @@ slug
 ;
 }
 _doPing
+:
+function
 (
 ping
 id
@@ -7322,6 +7390,8 @@ otherwise
 *
 /
 sendingEnabled
+:
+function
 (
 ping
 =
@@ -7486,6 +7556,8 @@ activity
 *
 /
 _trackPendingPingTask
+:
+function
 (
 promise
 )
@@ -7563,6 +7635,8 @@ resolved
 *
 /
 promisePendingPingActivity
+:
+function
 (
 )
 {
@@ -7752,6 +7826,8 @@ first
 *
 /
 getUnpersistedPings
+:
+function
 (
 )
 {
@@ -7782,6 +7858,8 @@ current
 ;
 }
 getShutdownState
+:
+function
 (
 )
 {

@@ -230,6 +230,8 @@ line
 *
 /
 dumpLn
+:
+function
 (
 .
 .
@@ -287,6 +289,8 @@ mode
 *
 /
 restartApplication
+:
+function
 (
 )
 {
@@ -546,6 +550,8 @@ passed
 *
 /
 urlSecurityCheck
+:
+function
 (
 aURL
 aPrincipal
@@ -950,6 +956,8 @@ aURL
 *
 /
 makeURI
+:
+function
 (
 aURL
 aOriginCharset
@@ -970,6 +978,8 @@ aBaseURI
 ;
 }
 makeFileURI
+:
+function
 (
 aFile
 )
@@ -986,6 +996,8 @@ aFile
 ;
 }
 makeURIFromCPOW
+:
+function
 (
 aCPOWURI
 )
@@ -1065,6 +1077,8 @@ screen
 *
 /
 getElementBoundingScreenRect
+:
+function
 (
 aElement
 )
@@ -1137,6 +1151,8 @@ instead
 *
 /
 getElementBoundingRect
+:
+function
 (
 aElement
 aInScreenCoords
@@ -1355,6 +1371,8 @@ rect
 ;
 }
 onBeforeLinkTraversal
+:
+function
 (
 originalTarget
 linkURI
@@ -1617,6 +1635,8 @@ string
 *
 /
 makeNicePluginName
+:
+function
 (
 aName
 )
@@ -1890,6 +1910,8 @@ attribute
 *
 /
 linkHasNoReferrer
+:
+function
 (
 linkNode
 )
@@ -2058,6 +2080,8 @@ check
 *
 /
 mimeTypeIsTextBased
+:
+function
 (
 mimeType
 )
@@ -2185,6 +2209,8 @@ focused
 *
 /
 shouldFastFind
+:
+function
 (
 elt
 win
@@ -2307,6 +2333,8 @@ focused
 *
 /
 canFastFind
+:
+function
 (
 win
 )
@@ -2810,6 +2838,8 @@ nsIDOMWindow
 ;
 }
 getSelectionDetails
+:
+function
 (
 topWindow
 aCharLen

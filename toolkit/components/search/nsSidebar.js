@@ -144,6 +144,8 @@ prototype
 =
 {
 init
+:
+function
 (
 window
 )
@@ -221,6 +223,8 @@ detection
 scripts
 .
 addSearchEngine
+:
+function
 (
 engineURL
 iconURL
@@ -301,6 +305,8 @@ therefore
 important
 .
 AddSearchProvider
+:
+function
 (
 engineURL
 )
@@ -407,6 +413,8 @@ be
 implemented
 .
 IsSearchProviderInstalled
+:
+function
 (
 engineURL
 )

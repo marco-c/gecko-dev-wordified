@@ -363,6 +363,8 @@ addTestListener
 (
 {
 onInstallEnded
+:
+function
 (
 )
 {

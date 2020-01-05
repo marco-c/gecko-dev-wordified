@@ -727,6 +727,8 @@ promise
 ;
 }
 _updateEnabledState
+:
+function
 (
 enable
 )
@@ -764,6 +766,8 @@ the
 current
 provider
 _updateProviderCache
+:
+function
 (
 providers
 )
@@ -814,6 +818,8 @@ length
 ;
 }
 _getProviderFromOrigin
+:
+function
 (
 origin
 )
@@ -848,6 +854,8 @@ null
 ;
 }
 getManifestByOrigin
+:
+function
 (
 origin
 )
@@ -862,6 +870,8 @@ origin
 ;
 }
 installProvider
+:
+function
 (
 data
 installCallback
@@ -882,6 +892,8 @@ options
 ;
 }
 uninstallProvider
+:
+function
 (
 origin
 aCallback
@@ -901,6 +913,8 @@ aCallback
 Activation
 functionality
 activateFromOrigin
+:
+function
 (
 origin
 callback
@@ -1700,6 +1714,8 @@ OpenGraphBuilder
 =
 {
 generateEndpointURL
+:
+function
 (
 URLTemplate
 pageData

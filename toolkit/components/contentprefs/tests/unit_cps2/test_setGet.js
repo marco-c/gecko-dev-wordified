@@ -1483,6 +1483,8 @@ foo
 null
 {
 handleCompletion
+:
+function
 (
 )
 {
@@ -1583,6 +1585,8 @@ foo
 null
 {
 handleResult
+:
+function
 (
 pref
 )
@@ -1593,6 +1597,8 @@ pref
 ;
 }
 handleCompletion
+:
+function
 (
 )
 {

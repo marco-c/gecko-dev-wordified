@@ -2208,6 +2208,8 @@ compatible
 *
 /
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -2293,6 +2295,8 @@ for
 *
 /
 findUpdates
+:
+function
 (
 aListener
 aReason
@@ -2347,6 +2351,8 @@ this
 ;
 }
 toJSON
+:
+function
 (
 )
 {
@@ -2915,6 +2921,8 @@ database
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -2940,6 +2948,8 @@ false
 ;
 }
 metadataAge
+:
+function
 (
 )
 {
@@ -3007,6 +3017,8 @@ lastUpdate
 ;
 }
 isMetadataStale
+:
+function
 (
 )
 {
@@ -3305,6 +3317,8 @@ complete
 *
 /
 repopulateCache
+:
+function
 (
 aTimeout
 )
@@ -3343,6 +3357,8 @@ deleted
 *
 /
 _clearCache
+:
+function
 (
 )
 {
@@ -3747,6 +3763,8 @@ complete
 *
 /
 cacheAddons
+:
+function
 (
 aIds
 aCallback
@@ -4065,6 +4083,8 @@ blank
 *
 /
 getRecommendedURL
+:
+function
 (
 )
 {
@@ -4147,6 +4167,8 @@ repository
 *
 /
 getSearchURL
+:
+function
 (
 aSearchTerms
 )
@@ -4211,6 +4233,8 @@ nothing
 *
 /
 cancelSearch
+:
+function
 (
 )
 {
@@ -4301,6 +4325,8 @@ to
 *
 /
 getAddonsByIDs
+:
+function
 (
 aIDs
 aCallback
@@ -4401,6 +4427,8 @@ server
 *
 /
 _beginGetAddons
+:
+function
 (
 aIDs
 aCallback
@@ -4422,6 +4450,8 @@ let
 params
 =
 {
+API_VERSION
+:
 API_VERSION
 IDS
 :
@@ -4888,6 +4918,8 @@ result
 =
 {
 addon
+:
+addon
 xpiURL
 :
 null
@@ -5009,6 +5041,8 @@ complete
 *
 /
 backgroundUpdateCheck
+:
+function
 (
 )
 {
@@ -5072,6 +5106,8 @@ to
 *
 /
 retrieveRecommendedAddons
+:
+function
 (
 aMaxResults
 aCallback
@@ -5086,6 +5122,8 @@ _formatURLPref
 (
 PREF_GETADDONS_GETRECOMMENDED
 {
+API_VERSION
+:
 API_VERSION
 /
 /
@@ -5213,6 +5251,8 @@ to
 *
 /
 searchAddons
+:
+function
 (
 aSearchTerms
 aMaxResults
@@ -5256,6 +5296,8 @@ let
 substitutions
 =
 {
+API_VERSION
+:
 API_VERSION
 TERMS
 :
@@ -5346,6 +5388,8 @@ to
 the
 callback
 _reportSuccess
+:
+function
 (
 aResults
 aTotalResults
@@ -5427,6 +5471,8 @@ of
 a
 failure
 _reportFailure
+:
+function
 (
 )
 {
@@ -5495,6 +5541,8 @@ tag
 name
 .
 _getUniqueDescendant
+:
+function
 (
 aElement
 aTagName
@@ -5549,6 +5597,8 @@ tag
 name
 .
 _getUniqueDirectDescendant
+:
+function
 (
 aElement
 aTagName
@@ -5609,6 +5659,8 @@ content
 empty
 .
 _getTextContent
+:
+function
 (
 aElement
 )
@@ -5663,6 +5715,8 @@ parsing
 unsuccessful
 .
 _getDescendantTextContent
+:
+function
 (
 aElement
 aTagName
@@ -5726,6 +5780,8 @@ parsing
 unsuccessful
 .
 _getDirectDescendantTextContent
+:
+function
 (
 aElement
 aTagName
@@ -5845,6 +5901,8 @@ null
 *
 /
 _parseAddon
+:
+function
 (
 aElement
 aSkip
@@ -5937,6 +5995,8 @@ let
 result
 =
 {
+addon
+:
 addon
 xpiURL
 :
@@ -7428,6 +7488,8 @@ result
 ;
 }
 _parseAddons
+:
+function
 (
 aElements
 aTotalResults
@@ -8103,6 +8165,8 @@ compatibility
 overrides
 .
 _parseAddonCompatElement
+:
+function
 (
 aResultObj
 aElement
@@ -8267,6 +8331,8 @@ let
 appRange
 =
 {
+appID
+:
 appID
 appMinVersion
 :
@@ -8616,6 +8682,8 @@ addon_compatibility
 elements
 .
 _parseAddonCompatData
+:
+function
 (
 aElements
 )
@@ -8660,6 +8728,8 @@ t
 currently
 executing
 _beginSearch
+:
+function
 (
 aURI
 aMaxResults
@@ -9073,6 +9143,8 @@ results
 to
 aCallback
 _getLocalAddonIds
+:
+function
 (
 aCallback
 )
@@ -9206,6 +9278,8 @@ does
 not
 exist
 _formatURLPref
+:
+function
 (
 aPreference
 aSubstitutions
@@ -9329,6 +9403,8 @@ platform
 version
 .
 findMatchingCompatOverride
+:
+function
 (
 aAddonVersion
 aCompatOverrides
@@ -9457,6 +9533,8 @@ null
 ;
 }
 flush
+:
+function
 (
 )
 {
@@ -9558,6 +9636,8 @@ database
 *
 /
 openConnection
+:
+function
 (
 )
 {
@@ -10061,6 +10141,8 @@ afterwards
 *
 /
 shutdown
+:
+function
 (
 aSkipFlush
 )
@@ -10154,6 +10236,8 @@ deleted
 *
 /
 delete
+:
+function
 (
 aCallback
 )
@@ -10282,6 +10366,8 @@ _deleting
 ;
 }
 toJSON
+:
+function
 (
 )
 {
@@ -10448,6 +10534,8 @@ completes
 *
 /
 flush
+:
+function
 (
 )
 {
@@ -10509,6 +10597,8 @@ database
 *
 /
 retrieveStoredData
+:
+function
 (
 )
 {
@@ -10578,6 +10668,8 @@ complete
 *
 /
 repopulate
+:
+function
 (
 aAddons
 aCallback
@@ -10844,6 +10936,8 @@ complete
 *
 /
 _insertAddon
+:
+function
 (
 aAddon
 )
@@ -10938,6 +11032,8 @@ object
 *
 /
 _parseAddon
+:
+function
 (
 aObj
 )
@@ -11541,6 +11637,8 @@ completed
 *
 /
 _saveDBToDisk
+:
+function
 (
 )
 {
@@ -11608,6 +11706,8 @@ developer
 *
 /
 _makeDeveloper
+:
+function
 (
 aObj
 )
@@ -11673,6 +11773,8 @@ screenshot
 *
 /
 _makeScreenshot
+:
+function
 (
 aObj
 )
@@ -11777,6 +11879,8 @@ CompatibilityOverride
 *
 /
 _makeCompatOverride
+:
+function
 (
 aObj
 )

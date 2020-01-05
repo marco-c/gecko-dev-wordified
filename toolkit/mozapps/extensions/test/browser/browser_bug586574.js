@@ -592,6 +592,8 @@ listener
 =
 {
 onPropertyChanged
+:
+function
 (
 aAddon
 aProperties
@@ -1426,6 +1428,8 @@ listener
 =
 {
 onPropertyChanged
+:
+function
 (
 aAddon
 aProperties

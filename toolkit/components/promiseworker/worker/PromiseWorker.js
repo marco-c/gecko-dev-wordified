@@ -665,6 +665,8 @@ discard
 all
 messages
 log
+:
+function
 (
 )
 {
@@ -680,6 +682,8 @@ message
 *
 /
 handleMessage
+:
+function
 (
 msg
 )
@@ -1025,6 +1029,10 @@ result
 .
 data
 id
+:
+id
+durationMs
+:
 durationMs
 }
 result
@@ -1048,6 +1056,10 @@ result
 .
 data
 id
+:
+id
+durationMs
+:
 durationMs
 }
 )
@@ -1091,6 +1103,10 @@ ok
 :
 result
 id
+:
+id
+durationMs
+:
 durationMs
 }
 )
@@ -1230,6 +1246,10 @@ fail
 :
 error
 id
+:
+id
+durationMs
+:
 durationMs
 }
 )
@@ -1296,6 +1316,10 @@ fail
 :
 error
 id
+:
+id
+durationMs
+:
 durationMs
 }
 )
@@ -1404,6 +1428,10 @@ fail
 :
 msg
 id
+:
+id
+durationMs
+:
 durationMs
 }
 )

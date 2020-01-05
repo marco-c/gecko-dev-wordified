@@ -2793,6 +2793,8 @@ loadURIWithFlags
 url
 {
 flags
+:
+flags
 referrerURI
 :
 aNoReferrer

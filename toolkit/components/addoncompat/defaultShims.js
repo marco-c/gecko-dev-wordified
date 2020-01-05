@@ -191,6 +191,8 @@ nsISupportsWeakReference
 ]
 )
 getWhitelist
+:
+function
 (
 )
 {
@@ -200,6 +202,8 @@ return
 ;
 }
 interposeProperty
+:
+function
 (
 addon
 target
@@ -212,6 +216,8 @@ null
 ;
 }
 interposeCall
+:
+function
 (
 addonId
 originalFunc

@@ -218,6 +218,8 @@ nsISupportsWeakReference
 /
 nsIObserver
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -355,6 +357,8 @@ this
 /
 nsIFrameMessageListener
 receiveMessage
+:
+function
 (
 aMessage
 )

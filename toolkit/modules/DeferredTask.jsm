@@ -1254,6 +1254,8 @@ construction
 *
 /
 _startTimer
+:
+function
 (
 )
 {
@@ -1484,6 +1486,8 @@ shutdown
 *
 /
 arm
+:
+function
 (
 )
 {
@@ -1647,6 +1651,8 @@ again
 *
 /
 disarm
+:
+function
 (
 )
 {
@@ -1894,6 +1900,8 @@ Never
 *
 /
 finalize
+:
+function
 (
 )
 {
@@ -2032,6 +2040,8 @@ task
 *
 /
 _timerCallback
+:
+function
 (
 )
 {

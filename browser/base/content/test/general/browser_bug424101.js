@@ -223,6 +223,8 @@ test
 .
 type
 index
+:
+index
 }
 function
 *

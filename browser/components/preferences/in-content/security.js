@@ -119,6 +119,8 @@ UI
 *
 /
 init
+:
+function
 (
 )
 {
@@ -327,6 +329,8 @@ displayed
 *
 /
 readWarnAddonInstall
+:
+function
 (
 )
 {
@@ -398,6 +402,8 @@ warnings
 *
 /
 showAddonExceptions
+:
+function
 (
 )
 {
@@ -595,6 +601,8 @@ it
 *
 /
 readSavePasswords
+:
+function
 (
 )
 {
@@ -706,6 +714,8 @@ saved
 *
 /
 showPasswordExceptions
+:
+function
 (
 )
 {
@@ -858,6 +868,8 @@ bindings
 *
 /
 _initMasterPasswordUI
+:
+function
 (
 )
 {
@@ -1470,6 +1482,8 @@ set
 *
 /
 updateMasterPasswordButton
+:
+function
 (
 )
 {
@@ -1641,6 +1655,8 @@ updated
 *
 /
 _removeMasterPassword
+:
+function
 (
 )
 {
@@ -1799,6 +1815,8 @@ changed
 *
 /
 changeMasterPassword
+:
+function
 (
 )
 {
@@ -1861,6 +1879,8 @@ information
 *
 /
 showPasswords
+:
+function
 (
 )
 {

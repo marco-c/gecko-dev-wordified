@@ -145,6 +145,8 @@ LinkClickCallback
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -186,6 +188,8 @@ this
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -227,6 +231,8 @@ this
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -252,6 +258,8 @@ uninit
 }
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -558,6 +566,8 @@ a
 disabled
 plugin
 managePlugins
+:
+function
 (
 )
 {
@@ -603,6 +613,8 @@ an
 update
 )
 openPluginUpdatePage
+:
+function
 (
 pluginTag
 )
@@ -707,6 +719,8 @@ page
 "
 link
 reloadPage
+:
+function
 (
 browser
 )
@@ -728,6 +742,8 @@ the
 help
 icon
 openHelpPage
+:
+function
 (
 )
 {
@@ -918,6 +934,8 @@ block
 *
 /
 _updatePluginPermission
+:
+function
 (
 aNotification
 aPluginInfo
@@ -1353,6 +1371,8 @@ aNewState
 ;
 }
 showClickToPlayNotification
+:
+function
 (
 browser
 plugins
@@ -1850,6 +1870,10 @@ primaryPlugin
 :
 primaryPluginPermission
 pluginData
+:
+pluginData
+principal
+:
 principal
 }
 ;
@@ -1896,6 +1920,8 @@ NotificationShown
 ;
 }
 removeNotification
+:
+function
 (
 browser
 name
@@ -1925,6 +1951,8 @@ notification
 ;
 }
 hideNotificationBar
+:
+function
 (
 browser
 name
@@ -1964,6 +1992,8 @@ true
 ;
 }
 updateHiddenPluginUI
+:
+function
 (
 browser
 haveInsecure
@@ -2590,6 +2620,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2658,6 +2690,8 @@ accesskey
 "
 )
 callback
+:
+function
 (
 )
 {
@@ -2812,6 +2846,8 @@ showNotification
 }
 }
 contextMenuCommand
+:
+function
 (
 browser
 plugin
@@ -2831,8 +2867,12 @@ ContextMenuCommand
 "
 {
 command
+:
+command
 }
 {
+plugin
+:
 plugin
 }
 )
@@ -2862,6 +2902,8 @@ plugin
 instances
 .
 NPAPIPluginCrashed
+:
+function
 (
 subject
 topic
@@ -3256,6 +3298,8 @@ runID
 *
 /
 showPluginCrashedNotification
+:
+function
 (
 browser
 messageString
@@ -3390,6 +3434,8 @@ popup
 :
 null
 callback
+:
+function
 (
 )
 {

@@ -286,6 +286,8 @@ withNewTab
 (
 {
 gBrowser
+:
+gBrowser
 url
 :
 "

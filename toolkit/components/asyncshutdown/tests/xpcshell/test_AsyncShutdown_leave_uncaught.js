@@ -234,6 +234,8 @@ function
 return
 {
 toJSON
+:
+function
 (
 )
 {

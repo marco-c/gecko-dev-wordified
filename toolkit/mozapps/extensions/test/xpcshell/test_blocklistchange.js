@@ -2412,6 +2412,8 @@ WindowWatcher
 =
 {
 openWindow
+:
+function
 (
 parent
 url
@@ -2508,6 +2510,8 @@ null
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )
@@ -2569,6 +2573,8 @@ InstallConfirm
 =
 {
 confirm
+:
+function
 (
 aWindow
 aUrl
@@ -2596,6 +2602,8 @@ install
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )
@@ -2939,6 +2947,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 aInstall
 )
@@ -2949,6 +2959,8 @@ installCount
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 )

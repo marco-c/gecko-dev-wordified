@@ -310,6 +310,8 @@ MockedFont3
 "
 ]
 EnumerateFonts
+:
+function
 (
 lang
 type
@@ -323,6 +325,8 @@ _list
 ;
 }
 EnumerateAllFonts
+:
+function
 (
 )
 {
@@ -333,6 +337,8 @@ _list
 ;
 }
 getDefaultFont
+:
+function
 (
 )
 {
@@ -341,6 +347,8 @@ null
 ;
 }
 getStandardFamilyName
+:
+function
 (
 name
 )

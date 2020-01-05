@@ -291,6 +291,8 @@ test
 6
 {
 searchSucceeded
+:
+function
 (
 aAddons
 )
@@ -335,6 +337,8 @@ run_test_2
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -398,6 +402,8 @@ test
 6
 {
 searchSucceeded
+:
+function
 (
 aAddons
 )
@@ -442,6 +448,8 @@ run_test_3
 ;
 }
 searchFailed
+:
+function
 (
 )
 {
@@ -500,6 +508,8 @@ test
 6
 {
 searchSucceeded
+:
+function
 (
 aAddons
 )
@@ -544,6 +554,8 @@ end_test
 ;
 }
 searchFailed
+:
+function
 (
 )
 {

@@ -487,6 +487,8 @@ val
 ;
 }
 promiseGuid
+:
+function
 (
 )
 {
@@ -6044,6 +6046,10 @@ Untag
 (
 {
 uri
+:
+uri
+tag
+:
 tag
 }
 )
@@ -6204,6 +6210,8 @@ PlacesTransactions
 Untag
 (
 {
+tag
+:
 tag
 uris
 :
@@ -8997,6 +9005,8 @@ Tag
 (
 {
 uris
+:
+uris
 tag
 :
 ip
@@ -10643,6 +10653,8 @@ otherwise
 *
 /
 canMoveUnwrappedNode
+:
+function
 (
 aUnwrappedNode
 )
@@ -11317,6 +11329,8 @@ Tag
 (
 {
 uri
+:
+uri
 tag
 :
 tagName
@@ -11534,6 +11548,8 @@ drop
 *
 /
 disallowInsertion
+:
+function
 (
 aContainer
 )

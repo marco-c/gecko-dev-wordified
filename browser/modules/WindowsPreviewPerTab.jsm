@@ -852,6 +852,8 @@ newChannel
 (
 {
 uri
+:
+uri
 loadUsingSystemPrincipal
 :
 true
@@ -1415,6 +1417,8 @@ nsIDOMEventListener
 ]
 )
 destroy
+:
+function
 (
 )
 {
@@ -1483,6 +1487,8 @@ its
 memory
 .
 resetCanvasPreview
+:
+function
 (
 )
 {
@@ -1515,6 +1521,8 @@ dimensions
 *
 /
 resizeCanvasPreview
+:
+function
 (
 aRequestedWidth
 aRequestedHeight
@@ -1660,6 +1668,8 @@ getBoundingClientRect
 ;
 }
 cacheBrowserDims
+:
+function
 (
 )
 {
@@ -1688,6 +1698,8 @@ height
 ;
 }
 testCacheBrowserDims
+:
+function
 (
 )
 {
@@ -1751,6 +1763,8 @@ image
 *
 /
 updateCanvasPreview
+:
+function
 (
 aFullScale
 aCallback
@@ -1845,6 +1859,8 @@ resetCacheTimer
 ;
 }
 updateTitleAndTooltip
+:
+function
 (
 )
 {
@@ -2005,6 +2021,8 @@ callback
 *
 /
 requestPreview
+:
+function
 (
 aTaskbarCallback
 )
@@ -2333,6 +2351,8 @@ thumbnail
 *
 /
 requestThumbnail
+:
+function
 (
 aTaskbarCallback
 aRequestedWidth
@@ -2375,6 +2395,8 @@ false
 Event
 handling
 onClose
+:
+function
 (
 )
 {
@@ -2393,6 +2415,8 @@ tab
 ;
 }
 onActivate
+:
+function
 (
 )
 {
@@ -2434,6 +2458,8 @@ true
 /
 nsIDOMEventListener
 handleEvent
+:
+function
 (
 evt
 )
@@ -2737,6 +2763,8 @@ resize
 "
 ]
 destroy
+:
+function
 (
 )
 {
@@ -2923,6 +2951,8 @@ innerHeight
 ;
 }
 cacheDims
+:
+function
 (
 )
 {
@@ -2944,6 +2974,8 @@ height
 ;
 }
 testCacheDims
+:
+function
 (
 )
 {
@@ -2981,6 +3013,8 @@ to
 this
 window
 newTab
+:
+function
 (
 tab
 )
@@ -3071,6 +3105,8 @@ updateTitleAndTooltip
 ;
 }
 createTabPreview
+:
+function
 (
 controller
 )
@@ -3174,6 +3210,8 @@ tab
 is
 closed
 removeTab
+:
+function
 (
 tab
 )
@@ -3330,6 +3368,8 @@ updateTabOrdering
 ;
 }
 previewFromTab
+:
+function
 (
 tab
 )
@@ -3346,6 +3386,8 @@ tab
 ;
 }
 updateTabOrdering
+:
+function
 (
 )
 {
@@ -3537,6 +3579,8 @@ null
 /
 nsIDOMEventListener
 handleEvent
+:
+function
 (
 evt
 )
@@ -3665,6 +3709,8 @@ thumbnails
 soon
 .
 setInvalidationTimer
+:
+function
 (
 )
 {
@@ -3806,6 +3852,8 @@ TYPE_ONE_SHOT
 ;
 }
 onResize
+:
+function
 (
 )
 {
@@ -3895,6 +3943,8 @@ setInvalidationTimer
 ;
 }
 invalidateTabPreview
+:
+function
 (
 aBrowser
 )
@@ -3939,6 +3989,8 @@ Browser
 progress
 listener
 onLocationChange
+:
+function
 (
 aBrowser
 )
@@ -3978,6 +4030,8 @@ aBrowser
 ;
 }
 onStateChange
+:
+function
 (
 aBrowser
 aWebProgress
@@ -4036,6 +4090,8 @@ about
 ]
 )
 onLinkIconAvailable
+:
+function
 (
 aBrowser
 aIconURL
@@ -4365,6 +4421,8 @@ cacheLifespan
 :
 20
 initialize
+:
+function
 (
 )
 {
@@ -4854,6 +4912,8 @@ window
 }
 }
 addPreview
+:
+function
 (
 preview
 )
@@ -4875,6 +4935,8 @@ checkPreviewCount
 ;
 }
 removePreview
+:
+function
 (
 preview
 )
@@ -4909,6 +4971,8 @@ checkPreviewCount
 ;
 }
 checkPreviewCount
+:
+function
 (
 )
 {
@@ -4940,6 +5004,8 @@ maxpreviews
 ;
 }
 onOpenWindow
+:
+function
 (
 win
 )
@@ -4986,6 +5052,8 @@ win
 ;
 }
 onCloseWindow
+:
+function
 (
 win
 )
@@ -5052,6 +5120,8 @@ destroy
 ;
 }
 resetCacheTimer
+:
+function
 (
 )
 {
@@ -5087,6 +5157,8 @@ TYPE_ONE_SHOT
 /
 nsIObserver
 observe
+:
+function
 (
 aSubject
 aTopic

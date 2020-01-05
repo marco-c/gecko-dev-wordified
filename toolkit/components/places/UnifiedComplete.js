@@ -3062,6 +3062,8 @@ userContextId
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -5976,6 +5978,8 @@ set
 *
 /
 setBehavior
+:
+function
 (
 type
 )
@@ -6081,6 +6085,8 @@ otherwise
 *
 /
 hasBehavior
+:
+function
 (
 type
 )
@@ -6159,6 +6165,8 @@ _sleepDeferred
 :
 null
 _sleep
+:
+function
 (
 aTimeMs
 )
@@ -6309,6 +6317,8 @@ with
 *
 /
 filterTokens
+:
+function
 (
 tokens
 )
@@ -8669,8 +8679,10 @@ looksLikeUrl
 )
 ;
 }
-*
 _matchKnownUrl
+:
+function
+*
 (
 conn
 )
@@ -8935,8 +8947,10 @@ return
 gotResult
 ;
 }
-*
 _matchExtensionHeuristicResult
+:
+function
+*
 (
 )
 {
@@ -9004,8 +9018,10 @@ return
 false
 ;
 }
-*
 _matchPlacesKeyword
+:
+function
+*
 (
 )
 {
@@ -9228,8 +9244,10 @@ return
 true
 ;
 }
-*
 _matchSearchEngineUrl
+:
+function
+*
 (
 )
 {
@@ -9591,6 +9609,8 @@ _addMatch
 (
 {
 value
+:
+value
 comment
 :
 match
@@ -9623,8 +9643,10 @@ return
 true
 ;
 }
-*
 _matchSearchEngineAlias
+:
+function
+*
 (
 )
 {
@@ -9704,8 +9726,10 @@ return
 true
 ;
 }
-*
 _matchCurrentSearchEngine
+:
+function
+*
 (
 )
 {
@@ -9896,6 +9920,8 @@ this
 _addMatch
 (
 {
+value
+:
 value
 comment
 :
@@ -10244,8 +10270,10 @@ isn
 t
 specificed
 .
-*
 _matchUnknownUrl
+:
+function
+*
 (
 )
 {
@@ -10628,6 +10656,8 @@ match
 =
 {
 value
+:
+value
 comment
 :
 displayURL
@@ -10708,6 +10738,8 @@ true
 ;
 }
 _onResultRow
+:
+function
 (
 row
 )
@@ -10868,6 +10900,8 @@ StopIteration
 ;
 }
 _maybeRestyleSearchMatch
+:
+function
 (
 match
 )
@@ -11594,6 +11628,8 @@ index
 ;
 }
 _processHostRow
+:
+function
 (
 row
 )
@@ -11801,6 +11837,8 @@ match
 ;
 }
 _processUrlRow
+:
+function
 (
 row
 )
@@ -12127,6 +12165,8 @@ match
 ;
 }
 _processRow
+:
+function
 (
 row
 )
@@ -13961,6 +14001,8 @@ ongoing
 *
 /
 notifyResults
+:
+function
 (
 searchOngoing
 )
@@ -14181,6 +14223,8 @@ exception
 *
 /
 getDatabaseHandle
+:
+function
 (
 )
 {
@@ -14476,6 +14520,8 @@ userContextId
 /
 nsIAutoCompleteSearch
 startSearch
+:
+function
 (
 searchString
 searchParam
@@ -14742,6 +14788,8 @@ true
 ;
 }
 stopSearch
+:
+function
 (
 )
 {
@@ -14834,6 +14882,8 @@ not
 *
 /
 finishSearch
+:
+function
 (
 notify
 =
@@ -15007,6 +15057,8 @@ false
 /
 nsIAutoCompleteSimpleResultListener
 onValueRemoved
+:
+function
 (
 result
 spec

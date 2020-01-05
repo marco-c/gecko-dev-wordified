@@ -297,6 +297,8 @@ prompt
 =
 {
 confirm
+:
+function
 (
 )
 {

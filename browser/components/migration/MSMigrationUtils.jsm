@@ -5990,6 +5990,8 @@ MIGRATION_TYPE_EDGE
 :
 2
 CtypesKernelHelpers
+:
+CtypesKernelHelpers
 getBookmarksMigrator
 (
 migrationType

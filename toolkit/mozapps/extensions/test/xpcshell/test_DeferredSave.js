@@ -511,6 +511,8 @@ quickTimer
 =
 {
 initWithCallback
+:
+function
 (
 aFunction
 aDelay
@@ -537,6 +539,8 @@ aFunction
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -730,6 +734,8 @@ isCancelled
 :
 false
 initWithCallback
+:
+function
 (
 aFunction
 aDelay
@@ -790,6 +796,8 @@ this
 ;
 }
 cancel
+:
+function
 (
 )
 {

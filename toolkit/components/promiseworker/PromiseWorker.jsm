@@ -384,6 +384,8 @@ EXCEPTION_CONSTRUCTORS
 =
 {
 EvalError
+:
+function
 (
 error
 )
@@ -418,6 +420,8 @@ result
 ;
 }
 InternalError
+:
+function
 (
 error
 )
@@ -452,6 +456,8 @@ result
 ;
 }
 RangeError
+:
+function
 (
 error
 )
@@ -486,6 +492,8 @@ result
 ;
 }
 ReferenceError
+:
+function
 (
 error
 )
@@ -520,6 +528,8 @@ result
 ;
 }
 SyntaxError
+:
+function
 (
 error
 )
@@ -554,6 +564,8 @@ result
 ;
 }
 TypeError
+:
+function
 (
 error
 )
@@ -588,6 +600,8 @@ result
 ;
 }
 URIError
+:
+function
 (
 error
 )
@@ -622,6 +636,8 @@ result
 ;
 }
 StopIteration
+:
+function
 (
 )
 {
@@ -1024,6 +1040,8 @@ prototype
 =
 {
 log
+:
+function
 (
 )
 {
@@ -1785,6 +1803,8 @@ promise
 *
 /
 post
+:
+function
 (
 fun
 args
@@ -1952,7 +1972,13 @@ message
 =
 {
 fun
+:
+fun
 args
+:
+args
+id
+:
 id
 }
 ;
@@ -2088,7 +2114,13 @@ push
 (
 {
 deferred
+:
+deferred
 closure
+:
+closure
+id
+:
 id
 }
 )

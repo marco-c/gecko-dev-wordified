@@ -329,6 +329,8 @@ listener
 =
 {
 onWidgetDestroyed
+:
+function
 (
 widgetid
 )

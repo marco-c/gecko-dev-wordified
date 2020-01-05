@@ -223,6 +223,8 @@ nsIPropertyBag
 to
 JS
 toObject
+:
+function
 (
 bag
 )
@@ -318,6 +320,8 @@ result
 ;
 }
 toValue
+:
+function
 (
 property
 )
@@ -391,6 +395,8 @@ JS
 to
 nsIPropertyBag
 fromObject
+:
+function
 (
 obj
 )
@@ -493,6 +499,8 @@ bag
 ;
 }
 fromValue
+:
+function
 (
 value
 )
@@ -691,6 +699,8 @@ prototype
 =
 {
 _getPromisified
+:
+function
 (
 xpcomBlocker
 )
@@ -741,6 +751,8 @@ null
 ;
 }
 _setPromisified
+:
+function
 (
 xpcomBlocker
 moduleBlocker
@@ -828,6 +840,8 @@ name
 ;
 }
 _deletePromisified
+:
+function
 (
 xpcomBlocker
 )
@@ -905,6 +919,8 @@ name
 ;
 }
 addBlocker
+:
+function
 (
 /
 *
@@ -1127,12 +1143,18 @@ filename
 :
 fileName
 lineNumber
+:
+lineNumber
+stack
+:
 stack
 }
 )
 ;
 }
 removeBlocker
+:
+function
 (
 xpcomBlocker
 )
@@ -1346,6 +1368,8 @@ _client
 ;
 }
 wait
+:
+function
 (
 onReady
 )
@@ -1517,6 +1541,8 @@ configurable
 :
 true
 get
+:
+function
 (
 )
 {
@@ -1605,6 +1631,8 @@ prototype
 =
 {
 makeBarrier
+:
+function
 (
 name
 )

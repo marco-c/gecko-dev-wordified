@@ -274,6 +274,8 @@ check
 *
 /
 isPluginHidden
+:
+function
 (
 aPlugin
 )
@@ -399,6 +401,8 @@ check
 *
 /
 _isPluginSupported
+:
+function
 (
 aPlugin
 )
@@ -523,6 +527,8 @@ true
 ;
 }
 _is32bitModeMacOS
+:
+function
 (
 )
 {
@@ -624,6 +630,8 @@ check
 *
 /
 _isPluginVisible
+:
+function
 (
 aPlugin
 )
@@ -692,6 +700,8 @@ check
 *
 /
 _isPluginForceSupported
+:
+function
 (
 aPlugin
 )
@@ -1041,6 +1051,8 @@ exists
 *
 /
 get
+:
+function
 (
 aKey
 aDefaultValue
@@ -1174,6 +1186,8 @@ to
 *
 /
 set
+:
+function
 (
 aKey
 aVal
@@ -1251,6 +1265,8 @@ otherwise
 *
 /
 isSet
+:
+function
 (
 aKey
 aPlugin
@@ -1314,6 +1330,8 @@ to
 *
 /
 reset
+:
+function
 (
 aKey
 aPlugin
@@ -1382,6 +1400,8 @@ plugin
 *
 /
 getPrefKey
+:
+function
 (
 aKey
 aPlugin

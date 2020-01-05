@@ -510,6 +510,8 @@ _paths
 {
 }
 init
+:
+function
 (
 )
 {
@@ -548,6 +550,8 @@ _paths
 ;
 }
 add
+:
+function
 (
 path
 )
@@ -632,12 +636,18 @@ ChangeNotification
 "
 {
 path
+:
+path
+count
+:
 count
 }
 )
 ;
 }
 remove
+:
+function
 (
 path
 )
@@ -707,6 +717,8 @@ Addons
 ChangeNotification
 "
 {
+path
+:
 path
 count
 :
@@ -917,6 +929,8 @@ ContentPolicyParent
 =
 {
 init
+:
+function
 (
 )
 {
@@ -968,6 +982,8 @@ Map
 ;
 }
 addContentPolicy
+:
+function
 (
 addon
 name
@@ -1000,6 +1016,8 @@ addon
 ;
 }
 removeContentPolicy
+:
+function
 (
 addon
 name
@@ -1030,6 +1048,8 @@ addon
 ;
 }
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -1069,6 +1089,8 @@ undefined
 ;
 }
 shouldLoad
+:
+function
 (
 aData
 aObjects
@@ -1492,6 +1514,8 @@ AboutProtocolParent
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1555,6 +1579,8 @@ _protocols
 ;
 }
 registerFactory
+:
+function
 (
 addon
 class_
@@ -1571,6 +1597,10 @@ push
 (
 {
 contractID
+:
+contractID
+factory
+:
 factory
 }
 )
@@ -1592,6 +1622,8 @@ addon
 ;
 }
 unregisterFactory
+:
+function
 (
 addon
 class_
@@ -1671,6 +1703,8 @@ break
 }
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1722,6 +1756,8 @@ undefined
 ;
 }
 getURIFlags
+:
+function
 (
 msg
 )
@@ -1815,6 +1851,8 @@ the
 child
 .
 openChannel
+:
+function
 (
 msg
 )
@@ -1828,6 +1866,8 @@ cpow
 return
 {
 getInterface
+:
+function
 (
 intf
 )
@@ -2162,6 +2202,8 @@ available
 ;
 return
 {
+data
+:
 data
 contentType
 :
@@ -2499,6 +2541,8 @@ ObserverParent
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2541,6 +2585,8 @@ this
 ;
 }
 addObserver
+:
+function
 (
 addon
 observer
@@ -2579,6 +2625,8 @@ addon
 ;
 }
 removeObserver
+:
+function
 (
 addon
 observer
@@ -2615,6 +2663,8 @@ addon
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -2661,6 +2711,8 @@ break
 }
 }
 notify
+:
+function
 (
 subject
 topic
@@ -2977,6 +3029,8 @@ EventTargetParent
 =
 {
 init
+:
+function
 (
 )
 {
@@ -3138,6 +3192,8 @@ window
 itself
 .
 redirectEventTarget
+:
+function
 (
 target
 )
@@ -3308,6 +3364,8 @@ of
 redirectEventTarget
 .
 getTargets
+:
+function
 (
 browser
 )
@@ -3329,6 +3387,8 @@ window
 ;
 }
 addEventListener
+:
+function
 (
 addon
 target
@@ -3525,15 +3585,27 @@ push
 (
 {
 listener
+:
+listener
+target
+:
 target
 wantsUntrusted
+:
+wantsUntrusted
 useCapture
+:
+useCapture
+delayedWarning
+:
 delayedWarning
 }
 )
 ;
 }
 removeEventListener
+:
+function
 (
 addon
 target
@@ -3684,6 +3756,8 @@ break
 }
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -3741,6 +3815,8 @@ break
 }
 }
 dispatch
+:
+function
 (
 browser
 type
@@ -3905,6 +3981,8 @@ EventProxy
 =
 {
 get
+:
+function
 (
 knownProps
 name
@@ -3947,7 +4025,11 @@ target
 :
 eventTarget
 type
+:
+type
 QueryInterface
+:
+function
 (
 iid
 )
@@ -4814,6 +4896,8 @@ WeakMap
 (
 )
 makeContentSandbox
+:
+function
 (
 addon
 chromeGlobal
@@ -5100,6 +5184,8 @@ sandbox
 ;
 }
 evalInSandbox
+:
+function
 (
 code
 sandbox
@@ -6563,6 +6649,8 @@ ListenerHandler
 =
 {
 get
+:
+function
 (
 target
 name
@@ -7146,6 +7234,8 @@ RemoteAddonsParent
 =
 {
 init
+:
+function
 (
 )
 {
@@ -7214,6 +7304,8 @@ WeakMap
 ;
 }
 getInterfaceInterpositions
+:
+function
 (
 )
 {
@@ -7285,6 +7377,8 @@ result
 ;
 }
 getTaggedInterpositions
+:
+function
 (
 )
 {
@@ -7362,6 +7456,8 @@ result
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )

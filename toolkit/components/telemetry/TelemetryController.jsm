@@ -1180,7 +1180,13 @@ freeze
 (
 {
 PREF_LOG_LEVEL
+:
+PREF_LOG_LEVEL
 PREF_LOG_DUMP
+:
+PREF_LOG_DUMP
+PREF_SERVER
+:
 PREF_SERVER
 }
 )
@@ -1197,6 +1203,8 @@ purposes
 *
 /
 testInitLogging
+:
+function
 (
 )
 {
@@ -1218,6 +1226,8 @@ purposes
 *
 /
 testReset
+:
+function
 (
 )
 {
@@ -1242,6 +1252,8 @@ purposes
 *
 /
 testSetup
+:
+function
 (
 )
 {
@@ -1267,6 +1279,8 @@ purposes
 *
 /
 testShutdown
+:
+function
 (
 )
 {
@@ -1291,6 +1305,8 @@ purposes
 *
 /
 testSetupContent
+:
+function
 (
 )
 {
@@ -1314,6 +1330,8 @@ notification
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1598,6 +1616,8 @@ sent
 *
 /
 submitExternalPing
+:
+function
 (
 aType
 aPayload
@@ -1696,6 +1716,8 @@ otherwise
 *
 /
 getCurrentPingData
+:
+function
 (
 aSubsession
 =
@@ -1876,6 +1898,8 @@ disk
 *
 /
 addPendingPing
+:
+function
 (
 aType
 aPayload
@@ -1980,6 +2004,8 @@ saved
 *
 /
 checkAbortedSessionPing
+:
+function
 (
 )
 {
@@ -2041,6 +2067,8 @@ saved
 *
 /
 saveAbortedSessionPing
+:
+function
 (
 aPayload
 )
@@ -2087,6 +2115,8 @@ removed
 *
 /
 removeAbortedSessionPing
+:
+function
 (
 )
 {
@@ -2293,6 +2323,8 @@ disk
 *
 /
 savePing
+:
+function
 (
 aType
 aPayload
@@ -2383,6 +2415,8 @@ available
 *
 /
 getSessionRecorder
+:
+function
 (
 )
 {
@@ -2434,6 +2468,8 @@ completed
 *
 /
 promiseInitialized
+:
+function
 (
 )
 {
@@ -2713,6 +2749,8 @@ ping
 *
 /
 _getApplicationSection
+:
+function
 (
 )
 {
@@ -3150,6 +3188,8 @@ _getApplicationSection
 (
 )
 payload
+:
+payload
 }
 ;
 if
@@ -3227,6 +3267,8 @@ activity
 *
 /
 _trackPendingPingTask
+:
+function
 (
 aPromise
 )
@@ -4885,6 +4927,8 @@ saved
 *
 /
 saveAbortedSessionPing
+:
+function
 (
 aPayload
 )
@@ -4934,6 +4978,8 @@ pingData
 ;
 }
 removeAbortedSessionPing
+:
+function
 (
 )
 {
@@ -5918,6 +5964,8 @@ otherwise
 *
 /
 setupContentTelemetry
+:
+function
 (
 testing
 =
@@ -6171,6 +6219,8 @@ false
 }
 )
 shutdown
+:
+function
 (
 )
 {
@@ -6344,6 +6394,8 @@ telemetry
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -6538,6 +6590,8 @@ diagnostics
 *
 /
 _getState
+:
+function
 (
 )
 {
@@ -6620,6 +6674,8 @@ ping
 *
 /
 _onUploadPrefChange
+:
+function
 (
 )
 {
@@ -6803,6 +6859,8 @@ p
 ;
 }
 _attachObservers
+:
+function
 (
 )
 {
@@ -6851,6 +6909,8 @@ leaks
 *
 /
 _detachObservers
+:
+function
 (
 )
 {
@@ -6910,6 +6970,8 @@ completed
 *
 /
 promiseInitialized
+:
+function
 (
 )
 {
@@ -6922,6 +6984,8 @@ promise
 ;
 }
 getCurrentPingData
+:
+function
 (
 aSubsession
 )

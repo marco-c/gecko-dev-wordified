@@ -182,6 +182,8 @@ ContentClick
 =
 {
 init
+:
+function
 (
 )
 {
@@ -222,6 +224,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -256,6 +260,8 @@ break
 }
 }
 contentAreaClick
+:
+function
 (
 json
 browser

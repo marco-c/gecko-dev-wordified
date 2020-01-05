@@ -1384,6 +1384,8 @@ prototype
 /
 nsIChannelEventSink
 asyncOnChannelRedirect
+:
+function
 (
 oldChannel
 newChannel
@@ -1487,6 +1489,8 @@ NS_OK
 /
 nsIInterfaceRequestor
 getInterface
+:
+function
 (
 iid
 )
@@ -1504,6 +1508,8 @@ iid
 /
 nsISupports
 QueryInterface
+:
+function
 (
 iid
 )

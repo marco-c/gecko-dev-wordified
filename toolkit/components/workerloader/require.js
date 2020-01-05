@@ -496,6 +496,8 @@ moduleStack
 "
 {
 get
+:
+function
 (
 )
 {
@@ -542,6 +544,8 @@ moduleName
 "
 {
 get
+:
+function
 (
 )
 {
@@ -771,6 +775,10 @@ id
 :
 path
 uri
+:
+uri
+exports
+:
 exports
 }
 ;

@@ -885,6 +885,8 @@ on
 startup
 :
 onViewShowing
+:
+function
 (
 )
 {
@@ -901,6 +903,8 @@ arguments
 ;
 }
 onViewHiding
+:
+function
 (
 )
 {
@@ -917,6 +921,8 @@ arguments
 ;
 }
 onBeforeCreated
+:
+function
 (
 doc
 )
@@ -1449,6 +1455,8 @@ PocketContextMenu
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1471,6 +1479,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -1570,6 +1580,8 @@ remove
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -2114,6 +2126,8 @@ update
 ;
 }
 startup
+:
+function
 (
 )
 {
@@ -2177,6 +2191,8 @@ this
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -2223,6 +2239,8 @@ true
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -2320,6 +2338,8 @@ mark
 }
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -2569,6 +2589,8 @@ window
 return
 {
 get
+:
+function
 (
 )
 {
@@ -2650,6 +2672,8 @@ PocketOverlay
 =
 {
 startup
+:
+function
 (
 reason
 )
@@ -2759,6 +2783,8 @@ win
 }
 }
 shutdown
+:
+function
 (
 reason
 )
@@ -2978,6 +3004,8 @@ shutdown
 ;
 }
 onWindowOpened
+:
+function
 (
 window
 )
@@ -3018,6 +3046,8 @@ window
 ;
 }
 setWindowScripts
+:
+function
 (
 window
 )
@@ -3137,6 +3167,8 @@ it
 is
 opened
 updateWindow
+:
+function
 (
 window
 )
@@ -3629,6 +3661,8 @@ sib
 }
 }
 onWidgetAfterDOMChange
+:
+function
 (
 aWidgetNode
 )
@@ -3747,6 +3781,8 @@ hidden
 ;
 }
 addStyles
+:
+function
 (
 win
 )
@@ -3784,6 +3820,8 @@ _sheetType
 ;
 }
 removeStyles
+:
+function
 (
 win
 )

@@ -667,6 +667,8 @@ nsIObserver
 ]
 )
 STARTUP_RETRY_INTERVAL_MS
+:
+STARTUP_RETRY_INTERVAL_MS
 get
 _currentIndex
 (
@@ -808,6 +810,8 @@ activeTicks
 ;
 }
 incrementActiveTicks
+:
+function
 (
 )
 {
@@ -878,6 +882,8 @@ totalTime
 ;
 }
 updateTotalTime
+:
+function
 (
 )
 {
@@ -1144,6 +1150,8 @@ value
 ;
 }
 getPreviousSessions
+:
+function
 (
 )
 {
@@ -1205,6 +1213,8 @@ result
 ;
 }
 getPreviousSession
+:
+function
 (
 index
 )
@@ -1250,6 +1260,8 @@ date
 *
 /
 pruneOldSessions
+:
+function
 (
 date
 )
@@ -1348,6 +1360,8 @@ i
 }
 }
 recordStartupFields
+:
+function
 (
 )
 {
@@ -1574,6 +1588,8 @@ TYPE_REPEATING_SLACK
 }
 }
 _clearStartupTimer
+:
+function
 (
 )
 {
@@ -1629,6 +1645,8 @@ handler
 *
 /
 onStartup
+:
+function
 (
 )
 {
@@ -1826,6 +1844,8 @@ activity
 *
 /
 onActivity
+:
+function
 (
 active
 )
@@ -1868,6 +1888,8 @@ incrementActiveTicks
 }
 }
 onShutdown
+:
+function
 (
 )
 {
@@ -2029,6 +2051,8 @@ onStartup
 )
 .
 _moveCurrentToPrevious
+:
+function
 (
 )
 {
@@ -2243,6 +2267,8 @@ pref
 }
 }
 _deserialize
+:
+function
 (
 s
 )
@@ -2331,6 +2357,8 @@ in
 tests
 .
 _getStartupInfo
+:
+function
 (
 )
 {
@@ -2365,6 +2393,8 @@ getStartupInfo
 ;
 }
 observe
+:
+function
 (
 subject
 topic

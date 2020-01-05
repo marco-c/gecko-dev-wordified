@@ -3128,6 +3128,8 @@ change
 *
 /
 addObserver
+:
+function
 (
 aObserver
 )
@@ -3816,6 +3818,8 @@ callback
 =
 {
 handleResult
+:
+function
 (
 aResultSet
 )
@@ -3892,8 +3896,16 @@ push
 (
 {
 url
+:
+url
+title
+:
 title
 frecency
+:
+frecency
+lastVisitDate
+:
 lastVisitDate
 type
 :
@@ -3907,6 +3919,8 @@ history
 }
 }
 handleError
+:
+function
 (
 aError
 )
@@ -3928,6 +3942,8 @@ aCallback
 ;
 }
 handleCompletion
+:
+function
 (
 aReason
 )
@@ -4395,6 +4411,8 @@ service
 *
 /
 onBeginUpdateBatch
+:
+function
 (
 )
 {
@@ -4407,6 +4425,8 @@ _batchProcessingDepth
 ;
 }
 onEndUpdateBatch
+:
+function
 (
 )
 {
@@ -4485,6 +4505,8 @@ spec
 ;
 }
 onClearHistory
+:
+function
 (
 )
 {
@@ -5082,6 +5104,8 @@ updates
 *
 /
 addObserver
+:
+function
 (
 aObserver
 )
@@ -5885,6 +5909,8 @@ url
 ;
 }
 _incrementSiteMap
+:
+function
 (
 map
 link
@@ -5948,6 +5974,8 @@ site
 ;
 }
 _decrementSiteMap
+:
+function
 (
 map
 link
@@ -6115,6 +6143,8 @@ siteMap
 *
 /
 _adjustSiteMapAndNotify
+:
+function
 (
 aLink
 increment
@@ -6209,6 +6239,8 @@ aLink
 ;
 }
 onLinkBlocked
+:
+function
 (
 aLink
 )
@@ -6223,6 +6255,8 @@ false
 ;
 }
 onLinkUnblocked
+:
+function
 (
 aLink
 )
@@ -6236,6 +6270,8 @@ aLink
 ;
 }
 populateProviderCache
+:
+function
 (
 provider
 callback
@@ -6344,6 +6380,8 @@ filled
 *
 /
 _populateProviderCache
+:
+function
 (
 aProvider
 aCallback
@@ -8729,6 +8767,8 @@ false
 ;
 }
 getProviderLinks
+:
+function
 (
 aProvider
 )
@@ -8767,6 +8807,8 @@ return
 ;
 }
 isTopSiteGivenProvider
+:
+function
 (
 aSite
 aProvider
@@ -8810,6 +8852,8 @@ false
 ;
 }
 isTopPlacesSite
+:
+function
 (
 aSite
 )

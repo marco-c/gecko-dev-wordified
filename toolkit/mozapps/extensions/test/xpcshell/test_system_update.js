@@ -1169,8 +1169,10 @@ installed
 blank
 :
 {
-*
 setup
+:
+function
+*
 (
 )
 {
@@ -1246,8 +1248,10 @@ installed
 withAppSet
 :
 {
-*
 setup
+:
+function
+*
 (
 )
 {
@@ -1331,8 +1335,10 @@ installed
 withProfileSet
 :
 {
-*
 setup
+:
+function
+*
 (
 )
 {
@@ -1419,8 +1425,10 @@ installed
 withBothSets
 :
 {
-*
 setup
+:
+function
+*
 (
 )
 {

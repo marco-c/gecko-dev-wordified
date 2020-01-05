@@ -216,6 +216,8 @@ visit
 ;
 }
 handleResult
+:
+function
 (
 aPlaceInfo
 )

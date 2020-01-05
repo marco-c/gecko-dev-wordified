@@ -215,6 +215,8 @@ found
 *
 /
 getAddonById
+:
+function
 (
 id
 )
@@ -289,6 +291,8 @@ restartRequired
 *
 /
 uninstallAddonByID
+:
+function
 (
 id
 )
@@ -348,6 +352,8 @@ listener
 =
 {
 onUninstalling
+:
+function
 (
 addon
 needsRestart
@@ -388,6 +394,8 @@ true
 }
 }
 onUninstalled
+:
+function
 (
 addon
 )
@@ -421,6 +429,8 @@ false
 ;
 }
 onOperationCancelled
+:
+function
 (
 addon
 )
@@ -509,6 +519,8 @@ addon
 *
 /
 installXPIFromURL
+:
+function
 (
 url
 hash
@@ -581,6 +593,8 @@ onInstallFailed
 :
 fail
 onInstallEnded
+:
+function
 (
 install
 addon

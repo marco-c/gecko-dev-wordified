@@ -3746,6 +3746,8 @@ complete
 *
 /
 eraseEverything
+:
+function
 (
 options
 =
@@ -6078,6 +6080,8 @@ query
 =
 {
 query
+:
+query
 }
 ;
 }
@@ -6809,6 +6813,8 @@ AND
 highIndex
 {
 sign
+:
+sign
 newParentId
 :
 newParent
@@ -6972,6 +6978,8 @@ newParentId
 newParent
 .
 _id
+newIndex
+:
 newIndex
 }
 )

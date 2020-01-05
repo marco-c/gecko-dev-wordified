@@ -288,6 +288,8 @@ type
 loadStopped
 "
 url
+:
+url
 }
 )
 ;
@@ -336,6 +338,8 @@ listener
 =
 {
 onStateChange
+:
+function
 (
 webProg
 req

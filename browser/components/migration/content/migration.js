@@ -192,6 +192,8 @@ _autoMigrate
 :
 null
 init
+:
+function
 (
 )
 {
@@ -485,6 +487,8 @@ onImportSourcePageShow
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -591,6 +595,8 @@ finishMigration
 Import
 Source
 onImportSourcePageShow
+:
+function
 (
 )
 {
@@ -1074,6 +1080,8 @@ false
 }
 }
 onImportSourcePageAdvanced
+:
+function
 (
 )
 {
@@ -1377,6 +1385,8 @@ Profile
 Selection
 ]
 onSelectProfilePageShow
+:
+function
 (
 )
 {
@@ -1585,6 +1595,8 @@ firstChild
 ;
 }
 onSelectProfilePageRewound
+:
+function
 (
 )
 {
@@ -1632,6 +1644,8 @@ null
 ;
 }
 onSelectProfilePageAdvanced
+:
+function
 (
 )
 {
@@ -1721,6 +1735,8 @@ homePageImport
 -
 ImportItems
 onImportItemsPageShow
+:
+function
 (
 )
 {
@@ -1887,6 +1903,8 @@ true
 }
 }
 onImportItemsPageRewound
+:
+function
 (
 )
 {
@@ -1906,6 +1924,8 @@ onImportItemsPageAdvanced
 ;
 }
 onImportItemsPageAdvanced
+:
+function
 (
 )
 {
@@ -1988,6 +2008,8 @@ id
 }
 }
 onImportItemCommand
+:
+function
 (
 )
 {
@@ -2073,6 +2095,8 @@ Home
 Page
 Selection
 onHomePageMigrationPageShow
+:
+function
 (
 )
 {
@@ -2423,6 +2447,8 @@ advance
 }
 }
 onHomePageMigrationPageAdvanced
+:
+function
 (
 )
 {
@@ -2479,6 +2505,8 @@ ex
 -
 Migrating
 onMigratingPageShow
+:
+function
 (
 )
 {
@@ -2579,6 +2607,8 @@ onMigratingMigrate
 ;
 }
 onMigratingMigrate
+:
+function
 (
 )
 {
@@ -2694,6 +2724,8 @@ exp
 }
 }
 _listItems
+:
+function
 (
 aID
 )
@@ -2870,6 +2902,8 @@ break
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -3552,6 +3586,8 @@ break
 }
 }
 onDonePageShow
+:
+function
 (
 )
 {

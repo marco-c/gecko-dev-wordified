@@ -211,6 +211,8 @@ length
 ;
 }
 getSearchAt
+:
+function
 (
 aIndex
 )
@@ -225,11 +227,15 @@ aIndex
 ;
 }
 onSearchBegin
+:
+function
 (
 )
 {
 }
 onSearchComplete
+:
+function
 (
 )
 {
@@ -241,12 +247,16 @@ popup
 :
 {
 setSelectedIndex
+:
+function
 (
 aIndex
 )
 {
 }
 invalidate
+:
+function
 (
 )
 {
@@ -256,6 +266,8 @@ invalidate
 nsISupports
 implementation
 QueryInterface
+:
+function
 (
 iid
 )
@@ -298,6 +310,8 @@ NS_ERROR_NO_INTERFACE
 nsISupports
 implementation
 QueryInterface
+:
+function
 (
 iid
 )
@@ -449,6 +463,8 @@ length
 ;
 }
 getValueAt
+:
+function
 (
 aIndex
 )
@@ -463,6 +479,8 @@ aIndex
 ;
 }
 getLabelAt
+:
+function
 (
 aIndex
 )
@@ -477,6 +495,8 @@ aIndex
 ;
 }
 getCommentAt
+:
+function
 (
 aIndex
 )
@@ -491,6 +511,8 @@ aIndex
 ;
 }
 getStyleAt
+:
+function
 (
 aIndex
 )
@@ -505,6 +527,8 @@ aIndex
 ;
 }
 getImageAt
+:
+function
 (
 aIndex
 )
@@ -515,6 +539,8 @@ return
 ;
 }
 getFinalCompleteValueAt
+:
+function
 (
 aIndex
 )
@@ -529,6 +555,8 @@ aIndex
 ;
 }
 removeValueAt
+:
+function
 (
 aRowIndex
 aRemoveFromDb
@@ -540,6 +568,8 @@ aRemoveFromDb
 nsISupports
 implementation
 QueryInterface
+:
+function
 (
 iid
 )
@@ -654,6 +684,8 @@ search
 *
 /
 startSearch
+:
+function
 (
 aSearchString
 aSearchParam
@@ -673,6 +705,8 @@ _result
 ;
 }
 stopSearch
+:
+function
 (
 )
 {
@@ -682,6 +716,8 @@ stopSearch
 nsISupports
 implementation
 QueryInterface
+:
+function
 (
 iid
 )
@@ -733,6 +769,8 @@ NS_ERROR_NO_INTERFACE
 nsIFactory
 implementation
 createInstance
+:
+function
 (
 outer
 iid

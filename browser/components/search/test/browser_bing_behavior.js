@@ -212,6 +212,8 @@ form
 MOZCON
 "
 run
+:
+function
 (
 )
 {
@@ -270,6 +272,8 @@ form
 MOZLBR
 "
 run
+:
+function
 (
 )
 {
@@ -321,6 +325,8 @@ form
 MOZLBR
 "
 run
+:
+function
 (
 )
 {
@@ -371,6 +377,8 @@ form
 MOZSBR
 "
 run
+:
+function
 (
 )
 {
@@ -443,6 +451,8 @@ form
 MOZTSB
 "
 run
+:
+function
 (
 )
 {

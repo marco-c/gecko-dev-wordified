@@ -537,6 +537,8 @@ listener
 =
 {
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -654,6 +656,8 @@ run_next_test
 ;
 }
 onInstallEnded
+:
+function
 (
 )
 {

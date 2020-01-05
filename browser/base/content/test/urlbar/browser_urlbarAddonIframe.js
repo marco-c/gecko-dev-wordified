@@ -1554,9 +1554,13 @@ sendAsyncMessage
 testMsgName
 {
 type
+:
+type
 messageID
 :
 msgID
+data
+:
 data
 }
 )
@@ -1615,7 +1619,13 @@ stringify
 (
 {
 type
+:
+type
 msgID
+:
+msgID
+ackIndex
+:
 ackIndex
 }
 )
@@ -1755,6 +1765,8 @@ stringify
 (
 {
 type
+:
+type
 msgID
 :
 msg
@@ -1762,6 +1774,8 @@ msg
 data
 .
 messageID
+ackIndex
+:
 ackIndex
 }
 )

@@ -117,6 +117,8 @@ type
 button
 '
 onClick
+:
+function
 (
 )
 {

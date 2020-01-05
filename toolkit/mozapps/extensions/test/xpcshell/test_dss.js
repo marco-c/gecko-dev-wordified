@@ -206,6 +206,8 @@ LightweightThemeObserver
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

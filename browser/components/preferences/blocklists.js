@@ -180,6 +180,8 @@ _rowCount
 ;
 }
 getCellText
+:
+function
 (
 row
 column
@@ -251,6 +253,8 @@ return
 ;
 }
 isSeparator
+:
+function
 (
 index
 )
@@ -260,6 +264,8 @@ false
 ;
 }
 isSorted
+:
+function
 (
 )
 {
@@ -268,6 +274,8 @@ false
 ;
 }
 isContainer
+:
+function
 (
 index
 )
@@ -277,12 +285,16 @@ false
 ;
 }
 setTree
+:
+function
 (
 tree
 )
 {
 }
 getImageSrc
+:
+function
 (
 row
 column
@@ -290,6 +302,8 @@ column
 {
 }
 getProgressMode
+:
+function
 (
 row
 column
@@ -297,6 +311,8 @@ column
 {
 }
 getCellValue
+:
+function
 (
 row
 column
@@ -328,12 +344,16 @@ undefined
 ;
 }
 cycleHeader
+:
+function
 (
 column
 )
 {
 }
 getRowProperties
+:
+function
 (
 row
 )
@@ -344,6 +364,8 @@ return
 ;
 }
 getColumnProperties
+:
+function
 (
 column
 )
@@ -354,6 +376,8 @@ return
 ;
 }
 getCellProperties
+:
+function
 (
 row
 column
@@ -384,6 +408,8 @@ return
 }
 }
 onWindowKeyPress
+:
+function
 (
 event
 )
@@ -429,6 +455,8 @@ onApplyChanges
 }
 }
 onLoad
+:
+function
 (
 )
 {
@@ -464,6 +492,8 @@ params
 ;
 }
 init
+:
+function
 (
 params
 )
@@ -623,11 +653,15 @@ _loadBlockLists
 ;
 }
 uninit
+:
+function
 (
 )
 {
 }
 onListSelected
+:
+function
 (
 )
 {
@@ -671,6 +705,8 @@ _updateTree
 ;
 }
 onApplyChanges
+:
+function
 (
 )
 {
@@ -969,6 +1005,8 @@ close
 ;
 }
 _loadBlockLists
+:
+function
 (
 )
 {
@@ -1054,6 +1092,8 @@ _updateTree
 ;
 }
 _createOrUpdateBlockList
+:
+function
 (
 itemName
 )
@@ -1225,6 +1265,8 @@ list
 ;
 }
 _updateTree
+:
+function
 (
 )
 {
@@ -1265,6 +1307,8 @@ _view
 ;
 }
 _getActiveList
+:
+function
 (
 )
 {

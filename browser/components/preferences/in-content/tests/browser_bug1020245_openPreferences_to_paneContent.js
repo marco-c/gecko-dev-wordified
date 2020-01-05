@@ -412,6 +412,8 @@ resolve
 (
 {
 selectedPane
+:
+selectedPane
 }
 )
 ;

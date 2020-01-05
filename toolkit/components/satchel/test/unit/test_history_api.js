@@ -131,6 +131,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
@@ -160,6 +162,8 @@ resolve
 ;
 }
 handleError
+:
+function
 (
 error
 )
@@ -186,6 +190,8 @@ reject
 ;
 }
 handleCompletion
+:
+function
 (
 )
 {
@@ -255,6 +261,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
@@ -283,6 +291,8 @@ resolve
 ;
 }
 handleError
+:
+function
 (
 error
 )
@@ -309,6 +319,8 @@ reject
 ;
 }
 handleCompletion
+:
+function
 (
 )
 {
@@ -340,6 +352,8 @@ var
 change
 =
 {
+op
+:
 op
 }
 ;
@@ -487,6 +501,8 @@ push
 result
 )
 handleError
+:
+function
 (
 error
 )
@@ -514,6 +530,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -982,12 +1000,16 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
 {
 }
 handleError
+:
+function
 (
 error
 )
@@ -1009,6 +1031,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 )
 {
@@ -1221,6 +1245,8 @@ checkNotExists
 result
 )
 handleError
+:
+function
 (
 error
 )
@@ -1241,6 +1267,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -2339,6 +2367,8 @@ op
 update
 "
 guid
+:
+guid
 value
 :
 "
@@ -2861,6 +2891,8 @@ op
 bump
 "
 guid
+:
+guid
 timesUsed
 :
 20
@@ -3019,6 +3051,8 @@ op
 "
 remove
 "
+guid
+:
 guid
 }
 )

@@ -1039,6 +1039,8 @@ GUID
 *
 /
 fetch
+:
+function
 (
 guidOrURI
 )
@@ -1400,6 +1402,8 @@ transition
 *
 /
 insert
+:
+function
 (
 pageInfo
 )
@@ -1851,6 +1855,8 @@ transition
 *
 /
 insertMany
+:
+function
 (
 pageInfos
 onResult
@@ -2194,6 +2200,8 @@ array
 *
 /
 remove
+:
+function
 (
 pages
 onResult
@@ -2336,6 +2344,10 @@ normalizedPages
 =
 {
 guids
+:
+guids
+urls
+:
 urls
 }
 ;
@@ -2639,6 +2651,8 @@ empty
 *
 /
 removeVisitsByFilter
+:
+function
 (
 filter
 onResult
@@ -3077,6 +3091,8 @@ URI
 *
 /
 hasVisits
+:
+function
 (
 page
 onResult
@@ -6494,6 +6510,8 @@ onResultData
 push
 (
 {
+guid
+:
 guid
 title
 :

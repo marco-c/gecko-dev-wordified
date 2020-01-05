@@ -713,6 +713,8 @@ observer
 =
 {
 reflow
+:
+function
 (
 start
 end
@@ -972,6 +974,8 @@ pathWithLineNumbers
 ;
 }
 reflowInterruptible
+:
+function
 (
 start
 end

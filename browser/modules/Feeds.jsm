@@ -575,6 +575,8 @@ performed
 *
 /
 isValidFeed
+:
+function
 (
 aLink
 aPrincipal

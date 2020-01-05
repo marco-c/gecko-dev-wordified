@@ -277,6 +277,8 @@ nsISupports
 ]
 )
 swapBrowser
+:
+function
 (
 aBrowser
 )
@@ -352,6 +354,8 @@ canGoForward
 :
 false
 goBack
+:
+function
 (
 )
 {
@@ -370,6 +374,8 @@ GoBack
 ;
 }
 goForward
+:
+function
 (
 )
 {
@@ -388,6 +394,8 @@ GoForward
 ;
 }
 gotoIndex
+:
+function
 (
 aIndex
 )
@@ -410,6 +418,8 @@ aIndex
 ;
 }
 loadURI
+:
+function
 (
 aURI
 aLoadFlags
@@ -437,6 +447,8 @@ null
 ;
 }
 loadURIWithOptions
+:
+function
 (
 aURI
 aLoadFlags
@@ -509,6 +521,8 @@ null
 ;
 }
 setOriginAttributesBeforeLoading
+:
+function
 (
 aOriginAttributes
 )
@@ -531,6 +545,8 @@ aOriginAttributes
 ;
 }
 reload
+:
+function
 (
 aReloadFlags
 )
@@ -553,6 +569,8 @@ aReloadFlags
 ;
 }
 stop
+:
+function
 (
 aStopFlags
 )
@@ -689,6 +707,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 _sendMessage
+:
+function
 (
 aMessage
 aData

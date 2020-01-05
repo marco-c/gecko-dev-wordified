@@ -1163,6 +1163,8 @@ cb
 =
 {
 unregisterSucceeded
+:
+function
 (
 )
 {
@@ -1207,6 +1209,8 @@ active
 }
 }
 unregisterFailed
+:
+function
 (
 )
 {

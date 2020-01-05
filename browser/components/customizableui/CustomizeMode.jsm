@@ -1065,6 +1065,8 @@ CustomizationHandler
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -1088,6 +1090,8 @@ this
 }
 }
 toggle
+:
+function
 (
 )
 {
@@ -1144,6 +1148,8 @@ enter
 }
 }
 _updateLWThemeButtonIcon
+:
+function
 (
 )
 {
@@ -1215,6 +1221,8 @@ iconURL
 ;
 }
 setTab
+:
+function
 (
 aTab
 )
@@ -1351,6 +1359,8 @@ enter
 }
 }
 enter
+:
+function
 (
 )
 {
@@ -2840,6 +2850,8 @@ this
 ;
 }
 exit
+:
+function
 (
 )
 {
@@ -4191,6 +4203,8 @@ mode
 *
 /
 _doTransition
+:
+function
 (
 aEntering
 )
@@ -4558,6 +4572,8 @@ customizeTransitionEndPromise
 ;
 }
 updateLWTStyling
+:
+function
 (
 aData
 )
@@ -4967,6 +4983,8 @@ color
 ;
 }
 removeLWTStyling
+:
+function
 (
 )
 {
@@ -5111,6 +5129,8 @@ white
 }
 }
 _getHeaderImageRef
+:
+function
 (
 aData
 )
@@ -5148,6 +5168,8 @@ g
 ;
 }
 maybeShowTip
+:
+function
 (
 aAnchor
 )
@@ -5490,6 +5512,8 @@ true
 ;
 }
 hideTip
+:
+function
 (
 )
 {
@@ -5503,6 +5527,8 @@ hidePopup
 ;
 }
 _getCustomizableChildForNode
+:
+function
 (
 aNode
 )
@@ -5726,6 +5752,8 @@ null
 ;
 }
 addToToolbar
+:
+function
 (
 aNode
 )
@@ -5795,6 +5823,8 @@ customizationchange
 }
 }
 addToPanel
+:
+function
 (
 aNode
 )
@@ -5864,6 +5894,8 @@ customizationchange
 }
 }
 removeFromArea
+:
+function
 (
 aNode
 )
@@ -5930,6 +5962,8 @@ customizationchange
 }
 }
 populatePalette
+:
+function
 (
 )
 {
@@ -6114,6 +6148,8 @@ for
 overlays
 .
 makePaletteItem
+:
+function
 (
 aWidget
 aPlace
@@ -6221,6 +6257,8 @@ wrapper
 ;
 }
 depopulatePalette
+:
+function
 (
 )
 {
@@ -6464,6 +6502,8 @@ error
 ;
 }
 isCustomizableItem
+:
+function
 (
 aNode
 )
@@ -6520,6 +6560,8 @@ toolbarspacer
 ;
 }
 isWrappedToolbarItem
+:
+function
 (
 aNode
 )
@@ -6536,6 +6578,8 @@ toolbarpaletteitem
 ;
 }
 deferredWrapToolbarItem
+:
+function
 (
 aNode
 aPlace
@@ -6580,6 +6624,8 @@ wrapper
 ;
 }
 wrapToolbarItem
+:
+function
 (
 aNode
 aPlace
@@ -6725,6 +6771,8 @@ wrapper
 ;
 }
 createOrUpdateWrapper
+:
+function
 (
 aNode
 aPlace
@@ -7444,6 +7492,8 @@ wrapper
 ;
 }
 deferredUnwrapToolbarItem
+:
+function
 (
 aWrapper
 )
@@ -7506,6 +7556,8 @@ item
 ;
 }
 unwrapToolbarItem
+:
+function
 (
 aWrapper
 )
@@ -7859,8 +7911,10 @@ return
 toolbarItem
 ;
 }
-*
 _wrapToolbarItem
+:
+function
+*
 (
 aArea
 )
@@ -7972,6 +8026,8 @@ target
 ;
 }
 _wrapToolbarItemSync
+:
+function
 (
 aArea
 )
@@ -8092,8 +8148,10 @@ return
 target
 ;
 }
-*
 _wrapToolbarItems
+:
+function
+*
 (
 )
 {
@@ -8118,6 +8176,8 @@ area
 }
 }
 _addDragHandlers
+:
+function
 (
 aTarget
 )
@@ -8179,6 +8239,8 @@ true
 ;
 }
 _wrapItemsInArea
+:
+function
 (
 target
 )
@@ -8220,6 +8282,8 @@ child
 }
 }
 _removeDragHandlers
+:
+function
 (
 aTarget
 )
@@ -8281,6 +8345,8 @@ true
 ;
 }
 _unwrapItemsInArea
+:
+function
 (
 target
 )
@@ -8316,6 +8382,8 @@ toolbarItem
 }
 }
 _unwrapToolbarItems
+:
+function
 (
 )
 {
@@ -8403,6 +8471,8 @@ error
 ;
 }
 _removeExtraToolbarsIfEmpty
+:
+function
 (
 )
 {
@@ -8471,6 +8541,8 @@ id
 }
 }
 persistCurrentSets
+:
+function
 (
 aSetBeforePersisting
 )
@@ -8561,6 +8633,8 @@ currentset
 }
 }
 reset
+:
+function
 (
 )
 {
@@ -8738,6 +8812,8 @@ error
 ;
 }
 undoReset
+:
+function
 (
 )
 {
@@ -8851,6 +8927,8 @@ error
 ;
 }
 _onToolbarVisibilityChange
+:
+function
 (
 aEvent
 )
@@ -8925,6 +9003,8 @@ updateLWTStyling
 ;
 }
 onWidgetMoved
+:
+function
 (
 aWidgetId
 aArea
@@ -8940,6 +9020,8 @@ _onUIChange
 ;
 }
 onWidgetAdded
+:
+function
 (
 aWidgetId
 aArea
@@ -8954,6 +9036,8 @@ _onUIChange
 ;
 }
 onWidgetRemoved
+:
+function
 (
 aWidgetId
 aArea
@@ -8967,6 +9051,8 @@ _onUIChange
 ;
 }
 onWidgetBeforeDOMChange
+:
+function
 (
 aNodeToChange
 aSecondaryNode
@@ -9073,6 +9159,8 @@ parentNode
 }
 }
 onWidgetAfterDOMChange
+:
+function
 (
 aNodeToChange
 aSecondaryNode
@@ -9304,6 +9392,8 @@ _showPanelCustomizationPlaceholders
 }
 }
 onWidgetDestroyed
+:
+function
 (
 aWidgetId
 )
@@ -9363,6 +9453,8 @@ _showPanelCustomizationPlaceholders
 }
 }
 onWidgetAfterCreation
+:
+function
 (
 aWidgetId
 aArea
@@ -9467,6 +9559,8 @@ palette
 }
 }
 onAreaNodeRegistered
+:
+function
 (
 aArea
 aContainer
@@ -9521,6 +9615,8 @@ aContainer
 }
 }
 onAreaNodeUnregistered
+:
+function
 (
 aArea
 aContainer
@@ -9584,6 +9680,8 @@ aContainer
 }
 }
 openAddonsManagerThemes
+:
+function
 (
 aEvent
 )
@@ -9619,6 +9717,8 @@ theme
 ;
 }
 getMoreThemes
+:
+function
 (
 aEvent
 )
@@ -9665,6 +9765,8 @@ tab
 ;
 }
 onLWThemesMenuShowing
+:
+function
 (
 aEvent
 )
@@ -10507,6 +10609,8 @@ this
 ;
 }
 _clearLWThemesMenu
+:
+function
 (
 panel
 )
@@ -10608,6 +10712,8 @@ height
 ;
 }
 _onUIChange
+:
+function
 (
 )
 {
@@ -10655,6 +10761,8 @@ customizationchange
 ;
 }
 _updateEmptyPaletteNotice
+:
+function
 (
 )
 {
@@ -10686,6 +10794,8 @@ length
 ;
 }
 _updateResetButton
+:
+function
 (
 )
 {
@@ -10717,6 +10827,8 @@ inDefaultState
 ;
 }
 _updateUndoResetButton
+:
+function
 (
 )
 {
@@ -10751,6 +10863,8 @@ canUndoReset
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -10952,6 +11066,8 @@ break
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -11057,6 +11173,8 @@ break
 }
 }
 _updateTitlebarButton
+:
+function
 (
 )
 {
@@ -11161,6 +11279,8 @@ true
 }
 }
 toggleTitlebar
+:
+function
 (
 aShouldShowTitlebar
 )
@@ -11204,6 +11324,8 @@ aShouldShowTitlebar
 ;
 }
 _onDragStart
+:
+function
 (
 aEvent
 )
@@ -11648,6 +11770,8 @@ _initializeDragAfterMove
 ;
 }
 _onDragOver
+:
+function
 (
 aEvent
 )
@@ -12357,6 +12481,8 @@ stopPropagation
 ;
 }
 _onDragDrop
+:
+function
 (
 aEvent
 )
@@ -12700,6 +12826,8 @@ _showPanelCustomizationPlaceholders
 ;
 }
 _applyDrop
+:
+function
 (
 aEvent
 aTargetArea
@@ -13684,6 +13812,8 @@ parentNode
 }
 }
 _onDragExit
+:
+function
 (
 aEvent
 )
@@ -13841,6 +13971,8 @@ fired
 *
 /
 _onDragEnd
+:
+function
 (
 aEvent
 )
@@ -14052,6 +14184,8 @@ stop
 ;
 }
 _isUnwantedDragDrop
+:
+function
 (
 aEvent
 )
@@ -14218,6 +14352,8 @@ window
 ;
 }
 _setDragActive
+:
+function
 (
 aItem
 aValue
@@ -14570,6 +14706,8 @@ notransition
 }
 }
 _cancelDragActive
+:
+function
 (
 aItem
 aNextItem
@@ -14814,6 +14952,8 @@ aNoTransition
 }
 }
 _setGridDragActive
+:
+function
 (
 aDragOverNode
 aDraggedItem
@@ -14910,6 +15050,8 @@ targetArea
 ;
 }
 _getDragItemSize
+:
+function
 (
 aDragOverNode
 aDraggedItem
@@ -15347,6 +15489,8 @@ size
 ;
 }
 _getCustomizableParent
+:
+function
 (
 aElement
 )
@@ -15402,6 +15546,8 @@ null
 ;
 }
 _getDragOverNode
+:
+function
 (
 aEvent
 aAreaElement
@@ -15799,6 +15945,8 @@ target
 ;
 }
 _onMouseDown
+:
+function
 (
 aEvent
 )
@@ -15906,6 +16054,8 @@ true
 }
 }
 _onMouseUp
+:
+function
 (
 aEvent
 )
@@ -15983,6 +16133,8 @@ mousedown
 }
 }
 _getWrapper
+:
+function
 (
 aElement
 )
@@ -16028,6 +16180,8 @@ aElement
 ;
 }
 _showPanelCustomizationPlaceholders
+:
+function
 (
 )
 {
@@ -16300,6 +16454,8 @@ remove
 }
 }
 _removePanelCustomizationPlaceholders
+:
+function
 (
 )
 {
@@ -16420,6 +16576,8 @@ areas
 *
 /
 _updateToolbarCustomizationOutline
+:
+function
 (
 aWindow
 aToolbarArea
@@ -16548,6 +16706,8 @@ true
 }
 }
 _findVisiblePreviousSiblingNode
+:
+function
 (
 aReferenceNode
 )

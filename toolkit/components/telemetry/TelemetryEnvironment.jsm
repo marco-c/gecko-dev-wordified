@@ -584,6 +584,8 @@ currentEnvironment
 ;
 }
 onInitialized
+:
+function
 (
 )
 {
@@ -598,6 +600,8 @@ onInitialized
 ;
 }
 delayedInit
+:
+function
 (
 )
 {
@@ -612,6 +616,8 @@ delayedInit
 ;
 }
 registerChangeListener
+:
+function
 (
 name
 listener
@@ -630,6 +636,8 @@ listener
 ;
 }
 unregisterChangeListener
+:
+function
 (
 name
 )
@@ -646,6 +654,8 @@ name
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -705,6 +715,8 @@ prefs
 Testing
 method
 testWatchPreferences
+:
+function
 (
 prefMap
 )
@@ -785,6 +797,8 @@ TelemetryEnvironment
 *
 /
 testReset
+:
+function
 (
 )
 {
@@ -812,6 +826,8 @@ only
 *
 /
 testCleanRestart
+:
+function
 (
 )
 {
@@ -3358,6 +3374,8 @@ complete
 *
 /
 init
+:
+function
 (
 )
 {
@@ -3500,6 +3518,8 @@ changes
 *
 /
 watchForChanges
+:
+function
 (
 )
 {
@@ -3532,6 +3552,8 @@ false
 /
 AddonListener
 onEnabled
+:
+function
 (
 )
 {
@@ -3543,6 +3565,8 @@ _onAddonChange
 ;
 }
 onDisabled
+:
+function
 (
 )
 {
@@ -3554,6 +3578,8 @@ _onAddonChange
 ;
 }
 onInstalled
+:
+function
 (
 )
 {
@@ -3565,6 +3591,8 @@ _onAddonChange
 ;
 }
 onUninstalling
+:
+function
 (
 )
 {
@@ -3576,6 +3604,8 @@ _onAddonChange
 ;
 }
 _onAddonChange
+:
+function
 (
 )
 {
@@ -3608,6 +3638,8 @@ changed
 /
 nsIObserver
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -3644,6 +3676,8 @@ changed
 ;
 }
 _checkForChanges
+:
+function
 (
 changeReason
 )
@@ -3761,6 +3795,8 @@ err
 ;
 }
 _shutdownBlocker
+:
+function
 (
 )
 {
@@ -4689,6 +4725,8 @@ data
 *
 /
 _getActivePlugins
+:
+function
 (
 )
 {
@@ -5101,6 +5139,8 @@ data
 *
 /
 _getActiveExperiment
+:
+function
 (
 )
 {
@@ -5423,6 +5463,8 @@ _addonBuilder
 =
 {
 watchForChanges
+:
+function
 (
 )
 {
@@ -5672,6 +5714,8 @@ object
 *
 /
 onInitialized
+:
+function
 (
 )
 {
@@ -5715,6 +5759,8 @@ completes
 *
 /
 delayedInit
+:
+function
 (
 )
 {
@@ -5790,6 +5836,8 @@ change
 *
 /
 registerChangeListener
+:
+function
 (
 name
 listener
@@ -5882,6 +5930,8 @@ remove
 *
 /
 unregisterChangeListener
+:
+function
 (
 name
 )
@@ -5935,6 +5985,8 @@ name
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -5986,6 +6038,8 @@ policy
 *
 /
 _watchPreferences
+:
+function
 (
 aPreferences
 )
@@ -6063,6 +6117,8 @@ values
 *
 /
 _getPrefData
+:
+function
 (
 )
 {
@@ -6207,6 +6263,8 @@ preferences
 *
 /
 _startWatchingPrefs
+:
+function
 (
 )
 {
@@ -6272,6 +6330,8 @@ this
 }
 }
 _onPrefChanged
+:
+function
 (
 )
 {
@@ -6336,6 +6396,8 @@ preferences
 *
 /
 _stopWatchingPrefs
+:
+function
 (
 )
 {
@@ -6396,6 +6458,8 @@ this
 }
 }
 _addObservers
+:
+function
 (
 )
 {
@@ -6478,6 +6542,8 @@ false
 ;
 }
 _removeObservers
+:
+function
 (
 )
 {
@@ -6552,6 +6618,8 @@ SEARCH_SERVICE_TOPIC
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -6857,6 +6925,8 @@ found
 *
 /
 _getDefaultSearchEngine
+:
+function
 (
 )
 {
@@ -6958,6 +7028,8 @@ value
 *
 /
 _updateSearchEngine
+:
+function
 (
 )
 {
@@ -7149,6 +7221,8 @@ change
 *
 /
 _onSearchEngineChange
+:
+function
 (
 )
 {
@@ -7254,6 +7328,8 @@ compositing
 *
 /
 _onCompositorProcessAborted
+:
+function
 (
 )
 {
@@ -7323,6 +7399,8 @@ object
 *
 /
 _updateGraphicsFeatures
+:
+function
 (
 )
 {
@@ -7412,6 +7490,8 @@ prefs
 *
 /
 _updatePartner
+:
+function
 (
 )
 {
@@ -7451,6 +7531,8 @@ data
 *
 /
 _getBuild
+:
+function
 (
 )
 {
@@ -7662,6 +7744,8 @@ otherwise
 *
 /
 _isDefaultBrowser
+:
+function
 (
 )
 {
@@ -7923,6 +8007,8 @@ data
 *
 /
 _updateSettings
+:
+function
 (
 )
 {
@@ -8333,6 +8419,8 @@ data
 *
 /
 _getPartner
+:
+function
 (
 )
 {
@@ -8450,6 +8538,8 @@ data
 *
 /
 _getCpuData
+:
+function
 (
 )
 {
@@ -8674,6 +8764,8 @@ device
 *
 /
 _getDeviceData
+:
+function
 (
 )
 {
@@ -8762,6 +8854,8 @@ data
 *
 /
 _getOSData
+:
+function
 (
 )
 {
@@ -9087,6 +9181,8 @@ data
 *
 /
 _getHDDData
+:
+function
 (
 )
 {
@@ -9208,6 +9304,8 @@ data
 *
 /
 _getGFXData
+:
+function
 (
 )
 {
@@ -9615,6 +9713,8 @@ data
 *
 /
 _getSystem
+:
+function
 (
 )
 {
@@ -9734,6 +9834,8 @@ data
 =
 {
 memoryMB
+:
+memoryMB
 virtualMaxMB
 :
 virtualMB
@@ -9829,6 +9931,8 @@ data
 ;
 }
 _onEnvironmentChange
+:
+function
 (
 what
 oldEnvironment
@@ -9960,6 +10064,8 @@ e
 }
 }
 reset
+:
+function
 (
 )
 {

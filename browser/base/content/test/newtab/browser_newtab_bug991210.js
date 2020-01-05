@@ -76,6 +76,8 @@ afterLoadProvider
 =
 {
 getLinks
+:
+function
 (
 callback
 )
@@ -88,6 +90,8 @@ callback
 ;
 }
 addObserver
+:
+function
 (
 )
 {

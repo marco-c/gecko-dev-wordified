@@ -1500,6 +1500,8 @@ prototype
 =
 {
 handleEvent
+:
+function
 (
 evt
 )
@@ -1624,6 +1626,8 @@ available
 *
 /
 _setupVoices
+:
+function
 (
 )
 {
@@ -1989,6 +1993,8 @@ length
 ;
 }
 _getVoicePref
+:
+function
 (
 )
 {
@@ -2034,6 +2040,8 @@ voicePref
 }
 }
 _onRateInput
+:
+function
 (
 evt
 )
@@ -2078,6 +2086,8 @@ value
 ;
 }
 _onVoiceChange
+:
+function
 (
 )
 {
@@ -2156,6 +2166,8 @@ voicePref
 ;
 }
 _onButtonClick
+:
+function
 (
 evt
 )
@@ -2316,6 +2328,8 @@ break
 }
 }
 _updateSpeechControls
+:
+function
 (
 speaking
 )
@@ -2470,6 +2484,8 @@ this
 }
 }
 _createVoiceLabel
+:
+function
 (
 voice
 )
@@ -2703,6 +2719,8 @@ lang
 }
 }
 _getLanguageName
+:
+function
 (
 lang
 )
@@ -2801,6 +2819,8 @@ return
 }
 }
 _convertRate
+:
+function
 (
 rate
 )

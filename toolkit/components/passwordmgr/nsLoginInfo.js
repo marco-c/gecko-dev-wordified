@@ -195,6 +195,8 @@ passwordField
 :
 null
 init
+:
+function
 (
 aHostname
 aFormSubmitURL
@@ -268,6 +270,8 @@ ignorePassword
 ;
 }
 equals
+:
+function
 (
 aLogin
 )
@@ -351,6 +355,8 @@ true
 ;
 }
 clone
+:
+function
 (
 )
 {

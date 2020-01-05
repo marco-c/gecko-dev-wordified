@@ -1521,6 +1521,8 @@ onContentPrefsRemovalFinished
 (
 )
 handleError
+:
+function
 (
 )
 {

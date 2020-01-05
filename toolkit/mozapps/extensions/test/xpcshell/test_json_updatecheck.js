@@ -416,6 +416,8 @@ onUpdateCheckComplete
 :
 resolve
 onUpdateCheckError
+:
+function
 (
 status
 )
@@ -2487,6 +2489,8 @@ yield
 checkUpdates
 (
 {
+id
+:
 id
 version
 :

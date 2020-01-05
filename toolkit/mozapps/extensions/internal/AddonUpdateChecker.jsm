@@ -724,6 +724,8 @@ references
 *
 /
 escapeEntities
+:
+function
 (
 aString
 )
@@ -855,6 +857,8 @@ elements
 *
 /
 serializeContainerItems
+:
+function
 (
 aDs
 aContainer
@@ -1058,6 +1062,8 @@ serialized
 *
 /
 serializeResourceProperties
+:
+function
 (
 aDs
 aResource
@@ -1507,6 +1513,8 @@ resource
 *
 /
 serializeResource
+:
+function
 (
 aDs
 aResource
@@ -3199,6 +3207,8 @@ id
 :
 aId
 version
+:
+version
 multiprocessCompatible
 :
 getBooleanProperty
@@ -3944,6 +3954,8 @@ id
 :
 aId
 version
+:
+version
 multiprocessCompatible
 :
 getProperty
@@ -4562,6 +4574,8 @@ loaded
 *
 /
 onLoad
+:
+function
 (
 )
 {
@@ -5108,6 +5122,8 @@ out
 *
 /
 onTimeout
+:
+function
 (
 )
 {
@@ -5174,6 +5190,8 @@ load
 *
 /
 onError
+:
+function
 (
 )
 {
@@ -5371,6 +5389,8 @@ occured
 *
 /
 notifyError
+:
+function
 (
 aStatus
 )
@@ -5435,6 +5455,8 @@ check
 *
 /
 cancel
+:
+function
 (
 )
 {
@@ -6050,6 +6072,8 @@ not
 *
 /
 getCompatibilityUpdate
+:
+function
 (
 aUpdates
 aVersion
@@ -6292,6 +6316,8 @@ not
 *
 /
 getNewestCompatibleUpdate
+:
+function
 (
 aUpdates
 aAppVersion
@@ -6538,6 +6564,8 @@ requests
 *
 /
 checkForUpdates
+:
+function
 (
 aId
 aUpdateKey

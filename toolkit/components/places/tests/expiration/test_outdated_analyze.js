@@ -386,6 +386,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 aResultSet
 )
@@ -412,6 +414,8 @@ getResultByIndex
 ;
 }
 handleError
+:
+function
 (
 aError
 )
@@ -440,6 +444,8 @@ message
 ;
 }
 handleCompletion
+:
+function
 (
 aReason
 )

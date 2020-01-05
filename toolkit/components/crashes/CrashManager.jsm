@@ -1758,6 +1758,8 @@ Array
 *
 /
 pendingDumps
+:
+function
 (
 )
 {
@@ -1892,6 +1894,8 @@ Array
 *
 /
 submittedDumps
+:
+function
 (
 )
 {
@@ -2027,6 +2031,8 @@ examined
 *
 /
 aggregateEventsFiles
+:
+function
 (
 )
 {
@@ -2462,6 +2468,8 @@ pruned
 *
 /
 pruneOldCrashes
+:
+function
 (
 date
 )
@@ -2524,6 +2532,8 @@ performed
 *
 /
 runMaintenanceTasks
+:
+function
 (
 )
 {
@@ -2613,6 +2623,8 @@ occur
 *
 /
 scheduleMaintenance
+:
+function
 (
 delay
 )
@@ -2771,6 +2783,8 @@ saved
 *
 /
 addCrash
+:
+function
 (
 processType
 crashType
@@ -3562,6 +3576,8 @@ newest
 *
 /
 _getUnprocessedEventsFiles
+:
+function
 (
 )
 {
@@ -3669,6 +3685,8 @@ format
 specification
 .
 _processEventFile
+:
+function
 (
 entry
 )
@@ -3884,6 +3902,8 @@ this
 ;
 }
 _filterAnnotations
+:
+function
 (
 annotations
 )
@@ -3931,6 +3951,8 @@ filteredAnnotations
 ;
 }
 _sendCrashPing
+:
+function
 (
 crashId
 type
@@ -4067,10 +4089,16 @@ MM
 -
 DD
 sessionId
+:
+sessionId
+crashId
+:
 crashId
 processType
 :
 type
+stackTraces
+:
 stackTraces
 metadata
 :
@@ -4103,6 +4131,8 @@ crashEnvironment
 ;
 }
 _handleEventFilePayload
+:
+function
 (
 store
 entry
@@ -4466,6 +4496,8 @@ file
 *
 /
 _getDirectoryEntries
+:
+function
 (
 path
 re
@@ -4691,6 +4723,8 @@ this
 ;
 }
 _getStore
+:
+function
 (
 )
 {
@@ -5063,6 +5097,8 @@ only
 *
 /
 getCrashes
+:
+function
 (
 )
 {
@@ -5101,6 +5137,8 @@ this
 ;
 }
 getCrashCountsByDay
+:
+function
 (
 )
 {
@@ -5628,6 +5666,8 @@ Promise
 *
 /
 load
+:
+function
 (
 )
 {
@@ -6393,6 +6433,8 @@ null
 *
 /
 save
+:
+function
 (
 )
 {
@@ -6843,6 +6885,8 @@ input
 *
 /
 _normalize
+:
+function
 (
 o
 )
@@ -6928,6 +6972,8 @@ form
 *
 /
 _denormalize
+:
+function
 (
 o
 )
@@ -7090,6 +7136,8 @@ pruned
 *
 /
 pruneOldCrashes
+:
+function
 (
 date
 )
@@ -7319,6 +7367,8 @@ unknown
 *
 /
 getCrash
+:
+function
 (
 id
 )
@@ -7353,6 +7403,8 @@ null
 ;
 }
 _ensureCountsForDay
+:
+function
 (
 day
 )
@@ -7499,6 +7551,8 @@ record
 *
 /
 _ensureCrashRecord
+:
+function
 (
 processType
 crashType
@@ -7738,9 +7792,13 @@ set
 id
 {
 id
+:
+id
 remoteID
 :
 null
+type
+:
 type
 crashDate
 :
@@ -7755,6 +7813,8 @@ classifications
 :
 [
 ]
+metadata
+:
 metadata
 }
 )
@@ -7880,6 +7940,8 @@ not
 *
 /
 addCrash
+:
+function
 (
 processType
 crashType
@@ -7924,6 +7986,8 @@ not
 *
 /
 setRemoteCrashID
+:
+function
 (
 crashID
 remoteID
@@ -7968,6 +8032,8 @@ true
 ;
 }
 getCrashesOfType
+:
+function
 (
 processType
 crashType
@@ -8035,6 +8101,8 @@ crash
 *
 /
 _ensureSubmissionRecord
+:
+function
 (
 crashID
 submissionID
@@ -8132,6 +8200,8 @@ recorded
 *
 /
 addSubmissionAttempt
+:
+function
 (
 crashID
 submissionID
@@ -8207,6 +8277,8 @@ recorded
 *
 /
 addSubmissionResult
+:
+function
 (
 crashID
 submissionID
@@ -8320,6 +8392,8 @@ set
 *
 /
 setCrashClassifications
+:
+function
 (
 crashID
 classifications
@@ -8595,6 +8669,8 @@ type
 ;
 }
 isOfType
+:
+function
 (
 processType
 crashType

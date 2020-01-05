@@ -1013,6 +1013,8 @@ done
 :
 do_test_finished
 error
+:
+function
 (
 err
 )
@@ -1093,6 +1095,8 @@ err
 }
 }
 consoleError
+:
+function
 (
 scriptErr
 )

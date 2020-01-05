@@ -453,6 +453,8 @@ nsIObserver
 ]
 )
 notify
+:
+function
 (
 timer
 )
@@ -522,6 +524,8 @@ updateManifest
 }
 }
 _delayedInit
+:
+function
 (
 )
 {
@@ -553,6 +557,8 @@ effects
 }
 }
 observe
+:
+function
 (
 subject
 topic

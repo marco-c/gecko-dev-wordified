@@ -965,6 +965,8 @@ _index
 :
 0
 hasMoreElements
+:
+function
 (
 )
 {
@@ -981,6 +983,8 @@ length
 ;
 }
 getNext
+:
+function
 (
 )
 {
@@ -1285,6 +1289,8 @@ Ci
 nsICategoryManager
 )
 element
+:
+function
 (
 aID
 )
@@ -1456,6 +1462,8 @@ possibleApplicationHandlers
 ;
 }
 addPossibleApplicationHandler
+:
+function
 (
 aNewHandler
 )
@@ -1508,6 +1516,8 @@ false
 ;
 }
 removePossibleApplicationHandler
+:
+function
 (
 aHandler
 )
@@ -2601,6 +2611,8 @@ type
 ;
 }
 _getDisabledPluginTypes
+:
+function
 (
 )
 {
@@ -2684,6 +2696,8 @@ return
 ;
 }
 disablePluginType
+:
+function
 (
 )
 {
@@ -2769,6 +2783,8 @@ false
 ;
 }
 enablePluginType
+:
+function
 (
 )
 {
@@ -2873,6 +2889,8 @@ true
 /
 Storage
 store
+:
+function
 (
 )
 {
@@ -2906,6 +2924,8 @@ _getIcon
 ;
 }
 _getIcon
+:
+function
 (
 aSize
 )
@@ -3648,6 +3668,8 @@ _removed
 [
 ]
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -3706,6 +3728,8 @@ length
 ;
 }
 enumerate
+:
+function
 (
 )
 {
@@ -3720,6 +3744,8 @@ _inner
 ;
 }
 appendElement
+:
+function
 (
 aHandlerApp
 aWeak
@@ -3736,6 +3762,8 @@ aHandlerApp
 ;
 }
 removeElementAt
+:
+function
 (
 aIndex
 )
@@ -3766,6 +3794,8 @@ aIndex
 ;
 }
 queryElementAt
+:
+function
 (
 aIndex
 aInterface
@@ -4831,6 +4861,8 @@ gets
 called
 ?
 store
+:
+function
 (
 )
 {
@@ -5209,6 +5241,8 @@ this
 handler
 .
 store
+:
+function
 (
 )
 {
@@ -5676,6 +5710,8 @@ Initialization
 &
 Destruction
 init
+:
+function
 (
 )
 {
@@ -6405,6 +6441,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -6564,6 +6602,8 @@ this
 /
 nsISupports
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -6612,6 +6652,8 @@ NS_ERROR_NO_INTERFACE
 /
 nsIObserver
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -6750,6 +6792,8 @@ _rebuildView
 /
 nsIDOMEventListener
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -6780,6 +6824,8 @@ Composed
 Model
 Construction
 _loadData
+:
+function
 (
 )
 {
@@ -6809,6 +6855,8 @@ _loadApplicationHandlers
 ;
 }
 _loadFeedHandler
+:
+function
 (
 )
 {
@@ -6884,6 +6932,8 @@ menu
 *
 /
 _loadInternalHandlers
+:
+function
 (
 )
 {
@@ -7118,6 +7168,8 @@ enabled
 *
 /
 _loadPluginHandlers
+:
+function
 (
 )
 {
@@ -7243,6 +7295,8 @@ datastore
 *
 /
 _loadApplicationHandlers
+:
+function
 (
 )
 {
@@ -7343,6 +7397,8 @@ false
 View
 Construction
 _rebuildVisibleTypes
+:
+function
 (
 )
 {
@@ -7639,6 +7695,8 @@ description
 }
 }
 _rebuildView
+:
+function
 (
 )
 {
@@ -7843,6 +7901,8 @@ _selectLastSelectedType
 ;
 }
 _matchesFilter
+:
+function
 (
 aType
 )
@@ -7991,6 +8051,8 @@ type
 *
 /
 _describeType
+:
+function
 (
 aHandlerInfo
 )
@@ -8133,6 +8195,8 @@ action
 *
 /
 _describePreferredAction
+:
+function
 (
 aHandlerInfo
 )
@@ -8554,6 +8618,8 @@ preferredAction
 }
 }
 _selectLastSelectedType
+:
+function
 (
 )
 {
@@ -8726,6 +8792,8 @@ valid
 *
 /
 isValidHandlerApp
+:
+function
 (
 aHandlerApp
 )
@@ -8787,6 +8855,8 @@ false
 ;
 }
 _isValidHandlerExecutable
+:
+function
 (
 aExecutable
 )
@@ -8949,6 +9019,8 @@ selected
 *
 /
 rebuildActionsMenu
+:
+function
 (
 )
 {
@@ -10469,6 +10541,8 @@ header
 *
 /
 sort
+:
+function
 (
 event
 )
@@ -10620,6 +10694,8 @@ direction
 *
 /
 _sortVisibleTypes
+:
+function
 (
 )
 {
@@ -10801,6 +10877,8 @@ field
 *
 /
 filter
+:
+function
 (
 )
 {
@@ -10812,6 +10890,8 @@ _rebuildView
 ;
 }
 focusFilterBox
+:
+function
 (
 )
 {
@@ -10836,6 +10916,8 @@ select
 /
 Changes
 onSelectAction
+:
+function
 (
 aActionItem
 )
@@ -10867,6 +10949,8 @@ false
 }
 }
 _storeAction
+:
+function
 (
 aActionItem
 )
@@ -11193,6 +11277,8 @@ handlerInfo
 }
 }
 manageApp
+:
+function
 (
 aEvent
 )
@@ -11382,6 +11468,8 @@ onComplete
 ;
 }
 chooseApp
+:
+function
 (
 aEvent
 )
@@ -12079,6 +12167,8 @@ the
 prefpane
 .
 onSelectionChanged
+:
+function
 (
 )
 {
@@ -12115,6 +12205,8 @@ type
 ;
 }
 _setIconClassForPreferredAction
+:
+function
 (
 aHandlerInfo
 aElement
@@ -12305,6 +12397,8 @@ false
 ;
 }
 _getIconURLForPreferredAction
+:
+function
 (
 aHandlerInfo
 )
@@ -12402,6 +12496,8 @@ ICON_URL_APP
 }
 }
 _getIconURLForHandlerApp
+:
+function
 (
 aHandlerApp
 )
@@ -12477,6 +12573,8 @@ return
 ;
 }
 _getIconURLForFile
+:
+function
 (
 aFile
 )
@@ -12533,6 +12631,8 @@ size
 ;
 }
 _getIconURLForWebApp
+:
+function
 (
 aWebAppURITemplate
 )
@@ -12703,6 +12803,8 @@ return
 ;
 }
 _getIconURLForSystemDefault
+:
+function
 (
 aHandlerInfo
 )

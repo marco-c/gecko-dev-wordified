@@ -1797,6 +1797,8 @@ _GetCurrentProcess
 :
 null
 getCounters
+:
+function
 (
 )
 {
@@ -1839,6 +1841,8 @@ null
 ;
 }
 getCounters_Windows
+:
+function
 (
 )
 {
@@ -2211,6 +2215,8 @@ pings
 *
 /
 init
+:
+function
 (
 )
 {
@@ -2360,6 +2366,8 @@ scheduler
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -2476,6 +2484,8 @@ true
 ;
 }
 _clearTimeout
+:
+function
 (
 )
 {
@@ -2509,6 +2519,8 @@ timer
 *
 /
 _rescheduleTimeout
+:
+function
 (
 )
 {
@@ -2710,6 +2722,8 @@ timeout
 ;
 }
 _sentDailyPingToday
+:
+function
 (
 nowDate
 )
@@ -2822,6 +2836,8 @@ otherwise
 *
 /
 _isDailyPingDue
+:
+function
 (
 nowDate
 )
@@ -3027,6 +3043,8 @@ saved
 *
 /
 _saveAbortedPing
+:
+function
 (
 now
 competingPayload
@@ -3080,6 +3098,8 @@ handler
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -3273,6 +3293,8 @@ completes
 *
 /
 _onSchedulerTick
+:
+function
 (
 )
 {
@@ -3461,6 +3483,8 @@ tests
 *
 /
 _schedulerTickLogic
+:
+function
 (
 )
 {
@@ -3786,6 +3810,8 @@ changed
 *
 /
 reschedulePings
+:
+function
 (
 reason
 competingPayload
@@ -3980,6 +4006,8 @@ freeze
 (
 {
 PREF_PREVIOUS_BUILDID
+:
+PREF_PREVIOUS_BUILDID
 }
 )
 /
@@ -4002,6 +4030,8 @@ testing
 *
 /
 testPing
+:
+function
 (
 )
 {
@@ -4051,6 +4081,8 @@ Object
 *
 /
 getPayload
+:
+function
 (
 reason
 clearSubsession
@@ -4167,6 +4199,8 @@ Promise
 *
 /
 getChildThreadHangs
+:
+function
 (
 )
 {
@@ -4201,6 +4235,8 @@ purposes
 *
 /
 testSavePendingPing
+:
+function
 (
 )
 {
@@ -4226,6 +4262,8 @@ startup
 *
 /
 gatherStartup
+:
+function
 (
 )
 {
@@ -4260,6 +4298,8 @@ AddOns
 *
 /
 setAddOns
+:
+function
 (
 aAddOns
 )
@@ -4310,6 +4350,8 @@ object
 *
 /
 getMetadata
+:
+function
 (
 reason
 )
@@ -4336,6 +4378,8 @@ purposes
 *
 /
 testReset
+:
+function
 (
 )
 {
@@ -4417,6 +4461,8 @@ module
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -4444,6 +4490,8 @@ process
 *
 /
 setupContent
+:
+function
 (
 testing
 =
@@ -4472,6 +4520,8 @@ purposes
 *
 /
 testUninstall
+:
+function
 (
 )
 {
@@ -4512,6 +4562,8 @@ starts
 *
 /
 earlyInit
+:
+function
 (
 aTesting
 =
@@ -4564,6 +4616,8 @@ completes
 *
 /
 delayedInit
+:
+function
 (
 )
 {
@@ -4586,6 +4640,8 @@ notification
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -6162,6 +6218,8 @@ DATASET_
 *
 /
 getDatasetType
+:
+function
 (
 )
 {
@@ -6495,6 +6553,8 @@ ret
 ;
 }
 getKeyedHistograms
+:
+function
 (
 subsession
 clearSubsession
@@ -6828,6 +6888,8 @@ object
 *
 /
 getScalars
+:
+function
 (
 subsession
 clearSubsession
@@ -7016,6 +7078,8 @@ ret
 ;
 }
 getEvents
+:
+function
 (
 isSubsession
 clearSubsession
@@ -7311,6 +7375,8 @@ ret
 =
 {
 reason
+:
+reason
 revision
 :
 AppConstants
@@ -7412,6 +7478,10 @@ this
 .
 _profileSubsessionCounter
 sessionStartDate
+:
+sessionStartDate
+subsessionStartDate
+:
 subsessionStartDate
 /
 /
@@ -8408,6 +8478,8 @@ startTime
 ;
 }
 handleMemoryReport
+:
+function
 (
 id
 units
@@ -8757,6 +8829,8 @@ respectively
 *
 /
 assemblePayloadWithMeasurements
+:
+function
 (
 simpleMeasurements
 info
@@ -8903,6 +8977,8 @@ payloadObj
 ver
 :
 PAYLOAD_VERSION
+simpleMeasurements
+:
 simpleMeasurements
 }
 ;
@@ -9633,6 +9709,8 @@ subsession
 *
 /
 startNewSubsession
+:
+function
 (
 )
 {
@@ -10217,6 +10295,8 @@ starts
 *
 /
 earlyInit
+:
+function
 (
 testing
 )
@@ -10644,6 +10724,8 @@ completes
 *
 /
 delayedInit
+:
+function
 (
 )
 {
@@ -11285,6 +11367,8 @@ _childTelemetry
 push
 (
 {
+source
+:
 source
 payload
 :
@@ -11961,6 +12045,8 @@ disk
 *
 /
 saveShutdownPings
+:
+function
 (
 )
 {
@@ -13074,6 +13160,8 @@ telemetry
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -13836,6 +13924,8 @@ pings
 *
 /
 shutdownChromeProcess
+:
+function
 (
 )
 {
@@ -14091,6 +14181,8 @@ sent
 *
 /
 _sendDailyPing
+:
+function
 (
 )
 {
@@ -14457,6 +14549,8 @@ disk
 *
 /
 _getSessionDataObject
+:
+function
 (
 )
 {
@@ -14481,6 +14575,8 @@ _profileSubsessionCounter
 ;
 }
 _onEnvironmentChange
+:
+function
 (
 reason
 oldEnvironment
@@ -14609,6 +14705,8 @@ options
 ;
 }
 _isClassicReason
+:
+function
 (
 reason
 )
@@ -14652,6 +14750,8 @@ diagnostics
 *
 /
 _getState
+:
+function
 (
 )
 {
@@ -14737,6 +14837,8 @@ gathered
 *
 /
 _saveAbortedSessionPing
+:
+function
 (
 aProvidedPayload
 =

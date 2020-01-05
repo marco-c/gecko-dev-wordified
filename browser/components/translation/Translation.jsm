@@ -368,6 +368,8 @@ _defaultTargetLanguage
 ;
 }
 documentStateReceived
+:
+function
 (
 aBrowser
 aData
@@ -589,6 +591,8 @@ showTranslationInfoBar
 ;
 }
 openProviderAttribution
+:
+function
 (
 )
 {
@@ -1015,6 +1019,8 @@ aBrowser
 ;
 }
 translate
+:
+function
 (
 aFrom
 aTo
@@ -1173,6 +1179,8 @@ aTo
 ;
 }
 showURLBarIcon
+:
+function
 (
 )
 {
@@ -1439,6 +1447,8 @@ originalShown
 :
 true
 showOriginalContent
+:
+function
 (
 )
 {
@@ -1477,6 +1487,8 @@ recordShowOriginalContent
 ;
 }
 showTranslatedContent
+:
+function
 (
 )
 {
@@ -1531,6 +1543,8 @@ browser
 ;
 }
 showTranslationInfoBar
+:
+function
 (
 )
 {
@@ -1571,6 +1585,8 @@ notif
 ;
 }
 shouldShowInfoBar
+:
+function
 (
 aURI
 )
@@ -1719,6 +1735,8 @@ true
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1838,6 +1856,8 @@ break
 }
 }
 infobarClosed
+:
+function
 (
 )
 {
@@ -1904,6 +1924,8 @@ TranslationTelemetry
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2141,6 +2163,8 @@ page
 *
 /
 recordTranslationOpportunity
+:
+function
 (
 language
 )
@@ -2200,6 +2224,8 @@ page
 *
 /
 recordMissedTranslationOpportunity
+:
+function
 (
 language
 )
@@ -2295,6 +2321,8 @@ offer
 *
 /
 recordAutoRejectedTranslationOffer
+:
+function
 (
 )
 {
@@ -2364,6 +2392,8 @@ translated
 *
 /
 recordTranslation
+:
+function
 (
 langFrom
 langTo
@@ -2524,6 +2554,8 @@ passed
 *
 /
 recordDetectedLanguageChange
+:
+function
 (
 beforeFirstTranslation
 )
@@ -2595,6 +2627,8 @@ UI
 *
 /
 recordTargetLanguageChange
+:
+function
 (
 )
 {
@@ -2633,6 +2667,8 @@ offer
 *
 /
 recordDeniedTranslationOffer
+:
+function
 (
 )
 {
@@ -2674,6 +2710,8 @@ use
 *
 /
 recordShowOriginalContent
+:
+function
 (
 )
 {
@@ -2713,6 +2751,8 @@ preferences
 *
 /
 recordPreferences
+:
+function
 (
 )
 {
@@ -2779,6 +2819,8 @@ add
 }
 }
 _recordOpportunity
+:
+function
 (
 language
 success
@@ -2837,6 +2879,8 @@ preference
 *
 /
 _canRecord
+:
+function
 (
 )
 {

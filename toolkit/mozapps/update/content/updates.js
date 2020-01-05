@@ -1053,6 +1053,8 @@ displayed
 *
 /
 _submitTelemetry
+:
+function
 (
 aPageID
 )
@@ -1089,6 +1091,8 @@ null
 *
 /
 _setButton
+:
+function
 (
 button
 string
@@ -1598,6 +1602,8 @@ finish
 *
 /
 setButtons
+:
+function
 (
 extra1ButtonString
 extra2ButtonString
@@ -1873,6 +1879,8 @@ true
 ;
 }
 getAUSString
+:
+function
 (
 key
 strings
@@ -1905,6 +1913,8 @@ key
 ;
 }
 never
+:
+function
 (
 )
 {
@@ -2147,6 +2157,8 @@ page
 *
 /
 onWizardFinish
+:
+function
 (
 )
 {
@@ -2229,6 +2241,8 @@ page
 *
 /
 onWizardCancel
+:
+function
 (
 )
 {
@@ -2311,6 +2325,8 @@ page
 *
 /
 onWizardNext
+:
+function
 (
 )
 {
@@ -2483,6 +2499,8 @@ _setButton
 *
 /
 _cacheButtonStrings
+:
+function
 (
 buttonName
 )
@@ -2536,6 +2554,8 @@ loaded
 *
 /
 onLoad
+:
+function
 (
 )
 {
@@ -2781,6 +2801,8 @@ unloaded
 *
 /
 onUnload
+:
+function
 (
 )
 {
@@ -2972,6 +2994,8 @@ to
 *
 /
 getStartPageID
+:
+function
 (
 aCallback
 )
@@ -3550,6 +3574,8 @@ object
 *
 /
 setUpdate
+:
+function
 (
 update
 )
@@ -3652,6 +3678,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -3928,6 +3956,8 @@ updates
 *
 /
 onWizardCancel
+:
+function
 (
 )
 {
@@ -3977,6 +4007,8 @@ nsIUpdateCheckListener
 *
 /
 onCheckComplete
+:
+function
 (
 request
 updates
@@ -4172,6 +4204,8 @@ nsIUpdateCheckListener
 *
 /
 onError
+:
+function
 (
 request
 update
@@ -4222,6 +4256,8 @@ idl
 *
 /
 QueryInterface
+:
+function
 (
 aIID
 )
@@ -4287,6 +4323,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -4426,6 +4464,8 @@ gManualUpdatePage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -4537,6 +4577,8 @@ gUnsupportedPage
 =
 {
 onPageShow
+:
+function
 (
 )
 {
@@ -4652,6 +4694,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -4907,6 +4951,8 @@ updateTitle
 ;
 }
 onExtra1
+:
+function
 (
 )
 {
@@ -4920,6 +4966,8 @@ cancel
 ;
 }
 onExtra2
+:
+function
 (
 )
 {
@@ -5075,6 +5123,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -5561,6 +5611,8 @@ message
 *
 /
 _setStatus
+:
+function
 (
 status
 )
@@ -5700,6 +5752,8 @@ status
 *
 /
 _updateDownloadStatus
+:
+function
 (
 aCurr
 aMax
@@ -5808,6 +5862,8 @@ paused
 *
 /
 _setUIState
+:
+function
 (
 paused
 )
@@ -6021,6 +6077,8 @@ background
 *
 /
 _setUpdateApplying
+:
+function
 (
 )
 {
@@ -6101,6 +6159,8 @@ wizard
 *
 /
 cleanUp
+:
+function
 (
 )
 {
@@ -6183,6 +6243,8 @@ button
 *
 /
 onPause
+:
+function
 (
 )
 {
@@ -6329,6 +6391,8 @@ progress
 *
 /
 onWizardCancel
+:
+function
 (
 )
 {
@@ -6366,6 +6430,8 @@ button
 *
 /
 onHide
+:
+function
 (
 )
 {
@@ -6763,6 +6829,8 @@ data
 *
 /
 onStartRequest
+:
+function
 (
 request
 context
@@ -6889,6 +6957,8 @@ transferred
 *
 /
 onProgress
+:
+function
 (
 request
 context
@@ -7204,6 +7274,8 @@ status
 *
 /
 onStatus
+:
+function
 (
 request
 context
@@ -7259,6 +7331,8 @@ cessation
 *
 /
 onStopRequest
+:
+function
 (
 request
 context
@@ -7664,6 +7738,8 @@ idl
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -7833,6 +7909,8 @@ idl
 *
 /
 QueryInterface
+:
+function
 (
 iid
 )
@@ -7923,6 +8001,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -8074,6 +8154,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -8213,6 +8295,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -8230,6 +8314,8 @@ true
 ;
 }
 onWizardNext
+:
+function
 (
 )
 {
@@ -8334,6 +8420,8 @@ Initialize
 *
 /
 onPageShow
+:
+function
 (
 )
 {
@@ -8458,6 +8546,8 @@ Event
 *
 /
 onPageShowBackground
+:
+function
 (
 )
 {
@@ -8791,6 +8881,8 @@ clicked
 *
 /
 onWizardFinish
+:
+function
 (
 )
 {
@@ -9256,6 +9348,8 @@ downloaded
 *
 /
 onExtra1
+:
+function
 (
 )
 {

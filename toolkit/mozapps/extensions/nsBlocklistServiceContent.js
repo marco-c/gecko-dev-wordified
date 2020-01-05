@@ -239,6 +239,8 @@ nsIBlocklistService
 ]
 )
 init
+:
+function
 (
 )
 {
@@ -273,6 +275,8 @@ false
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -307,6 +311,8 @@ false
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -342,6 +348,8 @@ manager
 message
 handlers
 receiveMessage
+:
+function
 (
 aMsg
 )
@@ -475,6 +483,8 @@ this
 *
 /
 flattenObject
+:
+function
 (
 aTag
 )
@@ -568,6 +578,8 @@ calls
 getPluginBlocklistState
 .
 isAddonBlocklisted
+:
+function
 (
 aAddon
 aAppVersion
@@ -579,6 +591,8 @@ true
 ;
 }
 getAddonBlocklistState
+:
+function
 (
 aAddon
 aAppVersion
@@ -610,6 +624,8 @@ on
 this
 .
 getPluginBlocklistState
+:
+function
 (
 aPluginTag
 aAppVersion
@@ -651,6 +667,8 @@ aToolkitVersion
 ;
 }
 getAddonBlocklistURL
+:
+function
 (
 aAddon
 aAppVersion
@@ -666,6 +684,8 @@ kMissingAPIMessage
 ;
 }
 getPluginBlocklistURL
+:
+function
 (
 aPluginTag
 )
@@ -679,6 +699,8 @@ kMissingAPIMessage
 ;
 }
 getPluginInfoURL
+:
+function
 (
 aPluginTag
 )

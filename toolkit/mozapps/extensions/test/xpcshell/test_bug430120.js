@@ -218,6 +218,8 @@ timerService
 =
 {
 hasTimer
+:
+function
 (
 id
 )
@@ -331,6 +333,8 @@ false
 ;
 }
 fireTimer
+:
+function
 (
 id
 )
@@ -353,6 +357,8 @@ null
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

@@ -225,6 +225,8 @@ PAGE_lastSet_AnnoName
 "
 "
 onPageAnnotationSet
+:
+function
 (
 aURI
 aName
@@ -254,6 +256,8 @@ ITEM_lastSet_AnnoName
 "
 "
 onItemAnnotationSet
+:
+function
 (
 aItemId
 aName
@@ -281,6 +285,8 @@ PAGE_lastRemoved_AnnoName
 "
 "
 onPageAnnotationRemoved
+:
+function
 (
 aURI
 aName
@@ -310,6 +316,8 @@ ITEM_lastRemoved_AnnoName
 "
 "
 onItemAnnotationRemoved
+:
+function
 (
 aItemId
 aName

@@ -874,6 +874,8 @@ policy
 *
 /
 onUserNotifyComplete
+:
+function
 (
 )
 {
@@ -918,6 +920,8 @@ wrong
 *
 /
 onUserNotifyFailed
+:
+function
 (
 error
 )
@@ -1000,6 +1004,8 @@ policy
 *
 /
 setup
+:
+function
 (
 )
 {
@@ -1024,6 +1030,8 @@ policy
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -1101,6 +1109,8 @@ otherwise
 *
 /
 canUpload
+:
+function
 (
 )
 {
@@ -1126,6 +1136,8 @@ policy
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -1160,6 +1172,8 @@ tests
 *
 /
 testIsUserNotified
+:
+function
 (
 )
 {
@@ -1190,6 +1204,8 @@ tests
 *
 /
 testInfobarShown
+:
+function
 (
 )
 {
@@ -1972,6 +1988,8 @@ policy
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -2000,6 +2018,8 @@ policy
 *
 /
 setup
+:
+function
 (
 )
 {
@@ -2068,6 +2088,8 @@ policy
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -2114,6 +2136,8 @@ setup
 *
 /
 _detachObservers
+:
+function
 (
 )
 {
@@ -2200,6 +2224,8 @@ otherwise
 *
 /
 canUpload
+:
+function
 (
 )
 {
@@ -2297,6 +2323,8 @@ needed
 *
 /
 _migratePreferences
+:
+function
 (
 )
 {
@@ -2362,6 +2390,8 @@ enabled
 *
 /
 _showInfobar
+:
+function
 (
 )
 {
@@ -2586,6 +2616,8 @@ policy
 *
 /
 _recordNotificationData
+:
+function
 (
 )
 {
@@ -3026,6 +3058,8 @@ true
 ;
 }
 observe
+:
+function
 (
 aSubject
 aTopic

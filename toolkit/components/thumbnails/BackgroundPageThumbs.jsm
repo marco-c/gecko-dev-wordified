@@ -525,6 +525,8 @@ seconds
 *
 /
 capture
+:
+function
 (
 url
 options
@@ -1116,6 +1118,8 @@ _ensureBrowser
 *
 /
 renewThumbnailBrowser
+:
+function
 (
 )
 {
@@ -1174,6 +1178,8 @@ completed
 *
 /
 _ensureParentWindowReady
+:
+function
 (
 )
 {
@@ -1408,6 +1414,8 @@ called
 *
 /
 _destroy
+:
+function
 (
 )
 {
@@ -1493,6 +1501,8 @@ exist
 *
 /
 _ensureBrowser
+:
+function
 (
 )
 {
@@ -2179,6 +2189,8 @@ browser
 ;
 }
 _destroyBrowser
+:
+function
 (
 )
 {
@@ -2230,6 +2242,8 @@ initialized
 *
 /
 _processCaptureQueue
+:
+function
 (
 )
 {
@@ -2343,6 +2357,8 @@ crashes
 *
 /
 _onCaptureOrTimeout
+:
+function
 (
 capture
 )
@@ -2766,6 +2782,8 @@ browser
 *
 /
 start
+:
+function
 (
 messageManager
 )
@@ -2960,6 +2978,8 @@ called
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -3068,6 +3088,8 @@ is
 received
 .
 receiveMessage
+:
+function
 (
 msg
 )
@@ -3194,6 +3216,8 @@ timer
 fires
 .
 notify
+:
+function
 (
 )
 {
@@ -3207,6 +3231,8 @@ TEL_CAPTURE_DONE_TIMEOUT
 ;
 }
 _done
+:
+function
 (
 data
 reason

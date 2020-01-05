@@ -483,6 +483,8 @@ _started
 ;
 }
 registerPingHandler
+:
+function
 (
 handler
 )
@@ -513,6 +515,8 @@ wrapped
 ;
 }
 resetPingHandler
+:
+function
 (
 )
 {
@@ -568,6 +572,8 @@ request
 ;
 }
 start
+:
+function
 (
 )
 {
@@ -610,6 +616,8 @@ resetPingHandler
 ;
 }
 stop
+:
+function
 (
 )
 {
@@ -641,6 +649,8 @@ false
 ;
 }
 clearRequests
+:
+function
 (
 )
 {
@@ -664,6 +674,8 @@ _currentDeferred
 ;
 }
 promiseNextRequest
+:
+function
 (
 )
 {
@@ -739,6 +751,8 @@ DISPATCH_NORMAL
 ;
 }
 promiseNextPing
+:
+function
 (
 )
 {
@@ -814,6 +828,8 @@ results
 }
 )
 promiseNextPings
+:
+function
 (
 count
 )
@@ -960,6 +976,8 @@ buffer
 "
 "
 onStreamComplete
+:
+function
 (
 loader
 context

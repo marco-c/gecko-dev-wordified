@@ -3953,6 +3953,8 @@ command
 *
 /
 getTransactionForData
+:
+function
 (
 aData
 aType
@@ -4228,6 +4230,8 @@ aData
 .
 uri
 )
+title
+:
 title
 parentGuid
 :
@@ -5506,6 +5510,8 @@ otherwise
 *
 /
 canUserRemove
+:
+function
 (
 aNode
 )
@@ -5947,6 +5953,8 @@ otherwise
 *
 /
 isContentsReadOnly
+:
+function
 (
 aNodeOrItemId
 )
@@ -9854,6 +9862,8 @@ queryName
 ;
 }
 shouldShowTabsFromOtherComputersMenuitem
+:
+function
 (
 )
 {
@@ -11595,6 +11605,8 @@ object
 *
 /
 setLoadInSidebar
+:
+function
 (
 aItemId
 aLoadInSidebar
@@ -11683,6 +11695,8 @@ object
 *
 /
 editItemDescription
+:
+function
 (
 aItemId
 aDescription

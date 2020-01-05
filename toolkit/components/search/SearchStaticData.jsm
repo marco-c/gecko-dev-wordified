@@ -1266,6 +1266,8 @@ modified
 *
 /
 getAlternateDomains
+:
+function
 (
 aDomain
 )

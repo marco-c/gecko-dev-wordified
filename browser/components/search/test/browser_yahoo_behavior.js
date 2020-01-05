@@ -224,6 +224,8 @@ yhs
 005
 "
 run
+:
+function
 (
 )
 {
@@ -284,6 +286,8 @@ yhs
 002
 "
 run
+:
+function
 (
 )
 {
@@ -337,6 +341,8 @@ yhs
 002
 "
 run
+:
+function
 (
 )
 {
@@ -389,6 +395,8 @@ yhs
 001
 "
 run
+:
+function
 (
 )
 {
@@ -463,6 +471,8 @@ yhs
 004
 "
 run
+:
+function
 (
 )
 {

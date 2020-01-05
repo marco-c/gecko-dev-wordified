@@ -392,6 +392,8 @@ prototype
 =
 {
 create
+:
+function
 (
 )
 {
@@ -1012,6 +1014,8 @@ prototype
 =
 {
 init
+:
+function
 (
 )
 {
@@ -1057,6 +1061,8 @@ true
 ;
 }
 addMessageListener
+:
+function
 (
 messageId
 callback
@@ -1075,6 +1081,8 @@ callback
 ;
 }
 sendMessage
+:
+function
 (
 messageId
 payload
@@ -1095,6 +1103,8 @@ callback
 ;
 }
 create
+:
+function
 (
 )
 {

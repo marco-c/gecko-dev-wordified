@@ -4118,6 +4118,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -4128,6 +4130,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -6045,6 +6049,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -6055,6 +6061,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -8371,6 +8379,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -8381,6 +8391,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -9052,6 +9064,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -9062,6 +9076,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -9845,6 +9861,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -9855,6 +9873,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -10743,6 +10763,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -10753,6 +10775,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -11519,6 +11543,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -11529,6 +11555,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -12426,6 +12454,8 @@ Number
 )
 {
 toString
+:
+function
 (
 )
 {
@@ -12436,6 +12466,8 @@ return
 }
 {
 valueOf
+:
+function
 (
 )
 {
@@ -23458,6 +23490,8 @@ undefined
 }
 {
 toString
+:
+function
 (
 )
 {

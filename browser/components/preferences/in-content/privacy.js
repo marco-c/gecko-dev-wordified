@@ -226,6 +226,8 @@ link
 *
 /
 _initTrackingProtection
+:
+function
 (
 )
 {
@@ -354,6 +356,8 @@ UI
 *
 /
 _initTrackingProtectionPBM
+:
+function
 (
 )
 {
@@ -422,6 +426,8 @@ sync
 *
 /
 _initAutocomplete
+:
+function
 (
 )
 {
@@ -479,6 +485,8 @@ pref
 *
 /
 _initBrowserContainers
+:
+function
 (
 )
 {
@@ -582,6 +590,8 @@ enabled
 ;
 }
 _checkBrowserContainers
+:
+function
 (
 event
 )
@@ -876,6 +886,8 @@ button
 *
 /
 init
+:
+function
 (
 )
 {
@@ -1863,6 +1875,8 @@ otherwise
 *
 /
 _checkHistoryValues
+:
+function
 (
 aPrefs
 )
@@ -1922,6 +1936,9 @@ preferences
 *
 /
 initializeHistoryMode
+:
+function
+PPP_initializeHistoryMode
 (
 )
 {
@@ -2040,6 +2057,9 @@ menulist
 *
 /
 updateHistoryModePane
+:
+function
+PPP_updateHistoryModePane
 (
 )
 {
@@ -2161,6 +2181,9 @@ menulist
 *
 /
 updateHistoryModePrefs
+:
+function
+PPP_updateHistoryModePrefs
 (
 )
 {
@@ -2396,6 +2419,9 @@ checkbox
 *
 /
 updatePrivacyMicroControls
+:
+function
+PPP_updatePrivacyMicroControls
 (
 )
 {
@@ -2793,6 +2819,9 @@ reverter
 *
 /
 initAutoStartPrivateBrowsingReverter
+:
+function
+PPP_initAutoStartPrivateBrowsingReverter
 (
 )
 {
@@ -2849,6 +2878,9 @@ _lastCheckState
 :
 null
 updateAutostart
+:
+function
+PPP_updateAutostart
 (
 )
 {
@@ -3302,6 +3334,8 @@ protection
 *
 /
 showBlockLists
+:
+function
 (
 )
 {
@@ -3628,6 +3662,8 @@ enabled
 *
 /
 readAcceptCookies
+:
+function
 (
 )
 {
@@ -3788,6 +3824,8 @@ unchecked
 *
 /
 writeAcceptCookies
+:
+function
 (
 )
 {
@@ -3874,6 +3912,8 @@ UI
 *
 /
 readAcceptThirdPartyCookies
+:
+function
 (
 )
 {
@@ -3940,6 +3980,8 @@ undefined
 }
 }
 writeAcceptThirdPartyCookies
+:
+function
 (
 )
 {
@@ -4013,6 +4055,8 @@ cookies
 *
 /
 showCookieExceptions
+:
+function
 (
 )
 {
@@ -4114,6 +4158,8 @@ dialog
 *
 /
 showCookies
+:
+function
 (
 aCategory
 )
@@ -4198,6 +4244,8 @@ dialog
 *
 /
 showClearPrivateDataSettings
+:
+function
 (
 )
 {
@@ -4250,6 +4298,8 @@ cleared
 *
 /
 clearPrivateDataNow
+:
+function
 (
 aClearEverything
 )
@@ -4385,6 +4435,8 @@ value
 *
 /
 _updateSanitizeSettingsButton
+:
+function
 (
 )
 {
@@ -4467,6 +4519,8 @@ containers
 *
 /
 readBrowserContainersCheckbox
+:
+function
 (
 )
 {

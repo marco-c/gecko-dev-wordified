@@ -219,6 +219,8 @@ new
 tab
 otherwise
 _openLink
+:
+function
 (
 url
 )
@@ -522,6 +524,8 @@ duringSetup
 ;
 }
 changePassword
+:
+function
 (
 )
 {
@@ -546,6 +550,8 @@ ChangePassword
 ;
 }
 resetPassphrase
+:
+function
 (
 duringSetup
 )
@@ -572,6 +578,8 @@ duringSetup
 ;
 }
 updatePassphrase
+:
+function
 (
 )
 {
@@ -596,6 +604,8 @@ UpdatePassphrase
 ;
 }
 resetPassword
+:
+function
 (
 )
 {
@@ -649,6 +659,8 @@ termsURL
 ;
 }
 openToS
+:
+function
 (
 )
 {
@@ -700,6 +712,8 @@ privacyURL
 ;
 }
 openPrivacyPolicy
+:
+function
 (
 )
 {
@@ -766,6 +780,8 @@ loaded
 *
 /
 _preparePPiframe
+:
+function
 (
 elid
 callback
@@ -1049,6 +1065,8 @@ passphrase
 *
 /
 passphrasePrint
+:
+function
 (
 elid
 )
@@ -1206,6 +1224,8 @@ passphrase
 *
 /
 passphraseSave
+:
+function
 (
 elid
 )
@@ -1543,6 +1563,8 @@ errorString
 *
 /
 validatePassword
+:
+function
 (
 el1
 el2

@@ -138,6 +138,8 @@ ScrollbarSampler
 =
 {
 getSystemScrollbarWidth
+:
+function
 (
 )
 {
@@ -197,6 +199,8 @@ gSystemScrollbarWidth
 ;
 }
 resetSystemScrollbarWidth
+:
+function
 (
 )
 {
@@ -206,6 +210,8 @@ null
 ;
 }
 _sampleSystemScrollbarWidth
+:
+function
 (
 )
 {

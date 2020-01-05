@@ -64,6 +64,8 @@ setCalledNum
 :
 0
 onContentPrefSet
+:
+function
 (
 aGroup
 aName
@@ -81,6 +83,8 @@ removedCalledNum
 :
 0
 onContentPrefRemoved
+:
+function
 (
 aGroup
 aName

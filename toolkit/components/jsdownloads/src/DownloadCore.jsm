@@ -4217,6 +4217,8 @@ failed
 *
 /
 unblock
+:
+function
 (
 )
 {
@@ -4468,6 +4470,8 @@ failed
 *
 /
 confirmBlock
+:
+function
 (
 )
 {
@@ -4726,6 +4730,8 @@ file
 *
 /
 launch
+:
+function
 (
 )
 {
@@ -5663,6 +5669,8 @@ completed
 *
 /
 removePartialData
+:
+function
 (
 )
 {
@@ -6115,6 +6123,8 @@ Never
 *
 /
 refresh
+:
+function
 (
 )
 {
@@ -6619,6 +6629,8 @@ data
 *
 /
 finalize
+:
+function
 (
 aRemovePartialData
 )
@@ -7340,6 +7352,8 @@ JSON
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -7676,6 +7690,8 @@ state
 *
 /
 getSerializationHash
+:
+function
 (
 )
 {
@@ -8596,6 +8612,8 @@ JSON
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -9710,6 +9728,8 @@ JSON
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -10934,6 +10954,8 @@ JSON
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -11584,6 +11606,8 @@ private
 *
 /
 addToHistory
+:
+function
 (
 )
 {
@@ -11818,6 +11842,8 @@ JSON
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -11854,6 +11880,8 @@ exists
 *
 /
 getSha256Hash
+:
+function
 (
 )
 {
@@ -11870,6 +11898,8 @@ implemented
 ;
 }
 getSignatureInfo
+:
+function
 (
 )
 {
@@ -12806,6 +12836,8 @@ observer
 =
 {
 onTargetChange
+:
+function
 (
 )
 {
@@ -13252,6 +13284,8 @@ keepPartialData
 ;
 }
 onStatus
+:
+function
 (
 )
 {
@@ -14725,6 +14759,8 @@ removePartialData
 *
 /
 removePartialData
+:
+function
 (
 )
 {
@@ -14823,6 +14859,8 @@ toSerializable
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -14899,6 +14937,8 @@ getSha256Hash
 *
 /
 getSha256Hash
+:
+function
 (
 )
 {
@@ -14919,6 +14959,8 @@ getSignatureInfo
 *
 /
 getSignatureInfo
+:
+function
 (
 )
 {
@@ -14939,6 +14981,8 @@ getRedirects
 *
 /
 getRedirects
+:
+function
 (
 )
 {
@@ -15665,6 +15709,8 @@ false
 *
 /
 onTransferStarted
+:
+function
 (
 aRequest
 aAlreadyAddedToHistory
@@ -16843,6 +16889,8 @@ this
 ;
 }
 _checkReputationAndMove
+:
+function
 (
 )
 {
@@ -16988,6 +17036,8 @@ removePartialData
 *
 /
 removePartialData
+:
+function
 (
 )
 {
@@ -17058,6 +17108,8 @@ toSerializable
 *
 /
 toSerializable
+:
+function
 (
 )
 {
@@ -17134,6 +17186,8 @@ getSha256Hash
 *
 /
 getSha256Hash
+:
+function
 (
 )
 {
@@ -17178,6 +17232,8 @@ available
 *
 /
 setSha256Hash
+:
+function
 (
 hash
 )
@@ -17203,6 +17259,8 @@ getSignatureInfo
 *
 /
 getSignatureInfo
+:
+function
 (
 )
 {
@@ -17247,6 +17305,8 @@ available
 *
 /
 setSignatureInfo
+:
+function
 (
 signatureInfo
 )
@@ -17272,6 +17332,8 @@ getRedirects
 *
 /
 getRedirects
+:
+function
 (
 )
 {
@@ -17318,6 +17380,8 @@ available
 *
 /
 setRedirects
+:
+function
 (
 redirects
 )
@@ -17556,6 +17620,8 @@ execute
 *
 /
 execute
+:
+function
 (
 aSetProgressBytesFn
 aSetPropertiesFn
@@ -17890,6 +17956,8 @@ print
 printSettings
 {
 onStateChange
+:
+function
 (
 webProgress
 request
@@ -17946,6 +18014,8 @@ resolve
 }
 }
 onProgressChange
+:
+function
 (
 webProgress
 request
@@ -17964,16 +18034,22 @@ false
 ;
 }
 onLocationChange
+:
+function
 (
 )
 {
 }
 onStatusChange
+:
+function
 (
 )
 {
 }
 onSecurityChange
+:
+function
 (
 )
 {
@@ -18093,6 +18169,8 @@ toSerializable
 *
 /
 toSerializable
+:
+function
 (
 )
 {

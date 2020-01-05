@@ -7750,6 +7750,8 @@ val
 ;
 }
 getRowProperties
+:
+function
 (
 )
 {
@@ -8286,6 +8288,8 @@ properties
 ;
 }
 getColumnProperties
+:
+function
 (
 aColumn
 )
@@ -9603,6 +9607,8 @@ false
 ;
 }
 getLevel
+:
+function
 (
 aRow
 )
@@ -9672,6 +9678,8 @@ icon
 ;
 }
 getProgressMode
+:
+function
 (
 aRow
 aColumn
@@ -9679,6 +9687,8 @@ aColumn
 {
 }
 getCellValue
+:
+function
 (
 aRow
 aColumn
@@ -11538,11 +11548,15 @@ COLUMN_TYPE_TITLE
 }
 }
 selectionChanged
+:
+function
 (
 )
 {
 }
 cycleCell
+:
+function
 (
 aRow
 aColumn
@@ -11550,6 +11564,8 @@ aColumn
 {
 }
 isSelectable
+:
+function
 (
 aRow
 aColumn
@@ -11560,12 +11576,16 @@ false
 ;
 }
 performAction
+:
+function
 (
 aAction
 )
 {
 }
 performActionOnRow
+:
+function
 (
 aAction
 aRow
@@ -11573,6 +11593,8 @@ aRow
 {
 }
 performActionOnCell
+:
+function
 (
 aAction
 aRow

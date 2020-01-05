@@ -127,6 +127,8 @@ openListener
 =
 {
 onWindowOpened
+:
+function
 (
 window
 )
@@ -282,6 +284,8 @@ closeListener
 =
 {
 onWindowClosed
+:
+function
 (
 window
 )

@@ -1044,6 +1044,8 @@ nsIObserver
 ]
 )
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -1399,10 +1401,14 @@ provId
 =
 {
 identity
+:
+identity
 idpParams
 :
 TEST_IDPPARAMS
 callback
+:
+function
 (
 err
 )
@@ -1433,6 +1439,8 @@ the
 iframe
 sandbox
 free
+:
+function
 (
 )
 {

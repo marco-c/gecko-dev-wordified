@@ -606,6 +606,8 @@ df7c505370f8
 "
 )
 QueryInterface
+:
+function
 (
 iid
 )
@@ -838,6 +840,8 @@ mIndex
 :
 0
 hasMoreElements
+:
+function
 (
 )
 {
@@ -856,6 +860,8 @@ length
 ;
 }
 getNext
+:
+function
 (
 )
 {
@@ -1212,6 +1218,8 @@ methods
 *
 /
 init
+:
+function
 (
 parent
 title
@@ -1238,6 +1246,8 @@ mode
 ;
 }
 appendFilters
+:
+function
 (
 filterMask
 )
@@ -1559,6 +1569,8 @@ allFilter
 }
 }
 appendFilter
+:
+function
 (
 title
 extensions
@@ -1584,6 +1596,8 @@ extensions
 ;
 }
 open
+:
+function
 (
 aFilePickerShownCallback
 )
@@ -1685,6 +1699,8 @@ DISPATCH_NORMAL
 ;
 }
 show
+:
+function
 (
 )
 {

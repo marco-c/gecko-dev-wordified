@@ -1215,6 +1215,8 @@ changed
 *
 /
 _notifyAllViews
+:
+function
 (
 aMethodName
 aDownload
@@ -1901,6 +1903,8 @@ exception
 *
 /
 add
+:
+function
 (
 aDownload
 )
@@ -2044,6 +2048,8 @@ exception
 *
 /
 remove
+:
+function
 (
 aDownload
 )
@@ -2084,6 +2090,8 @@ aDownload
 DownloadList
 view
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -2109,6 +2117,8 @@ aDownload
 ;
 }
 onDownloadChanged
+:
+function
 (
 aDownload
 )
@@ -2125,6 +2135,8 @@ aDownload
 ;
 }
 onDownloadRemoved
+:
+function
 (
 aDownload
 )
@@ -2360,6 +2372,8 @@ exception
 *
 /
 bindToList
+:
+function
 (
 aList
 )
@@ -2569,6 +2583,8 @@ exception
 *
 /
 addView
+:
+function
 (
 aView
 )
@@ -2684,6 +2700,8 @@ exception
 *
 /
 removeView
+:
+function
 (
 aView
 )
@@ -2872,6 +2890,8 @@ different
 *
 /
 _onListChanged
+:
+function
 (
 )
 {
@@ -3078,6 +3098,8 @@ ex
 DownloadList
 view
 onDownloadAdded
+:
+function
 (
 aDownload
 )
@@ -3107,6 +3129,8 @@ _onListChanged
 }
 }
 onDownloadChanged
+:
+function
 (
 aDownload
 )
@@ -3119,6 +3143,8 @@ _onListChanged
 ;
 }
 onDownloadRemoved
+:
+function
 (
 aDownload
 )

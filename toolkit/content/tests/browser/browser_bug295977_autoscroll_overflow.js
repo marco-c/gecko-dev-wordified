@@ -2575,6 +2575,10 @@ gBrowser
 selectedBrowser
 {
 scrollVert
+:
+scrollVert
+scrollHori
+:
 scrollHori
 elemid
 :

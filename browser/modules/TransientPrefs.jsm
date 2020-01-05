@@ -137,6 +137,8 @@ TransientPrefs
 =
 {
 prefShouldBeVisible
+:
+function
 (
 prefName
 )

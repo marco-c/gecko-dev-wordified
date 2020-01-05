@@ -285,6 +285,8 @@ UpdateReaderButton
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -332,6 +334,8 @@ this
 }
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -412,6 +416,8 @@ Reader
 ArticleData
 "
 {
+article
+:
 article
 }
 )
@@ -665,6 +671,8 @@ break
 }
 }
 updateReaderButton
+:
+function
 (
 browser
 )
@@ -1075,6 +1083,8 @@ false
 }
 }
 forceShowReaderIcon
+:
+function
 (
 browser
 )
@@ -1120,6 +1130,8 @@ event
 ;
 }
 toggleReaderMode
+:
+function
 (
 event
 )

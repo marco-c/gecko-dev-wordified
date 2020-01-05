@@ -333,6 +333,8 @@ id
 show_checkbox
 "
 run
+:
+function
 (
 )
 {
@@ -378,6 +380,8 @@ notifyObj
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -420,6 +424,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 )
 {
@@ -440,6 +446,8 @@ id
 checkbox_checked
 "
 run
+:
+function
 (
 )
 {
@@ -486,6 +494,8 @@ notifyObj
 ;
 }
 onShown
+:
+function
 (
 popup
 )
@@ -527,6 +537,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 )
 {
@@ -549,6 +561,8 @@ id
 checkbox_passCheckboxChecked_mainAction
 "
 run
+:
+function
 (
 )
 {
@@ -614,8 +628,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -690,6 +706,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 )
 {
@@ -730,6 +748,8 @@ id
 checkbox_passCheckboxChecked_secondaryAction
 "
 run
+:
+function
 (
 )
 {
@@ -810,8 +830,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -887,6 +909,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 )
 {
@@ -930,6 +954,8 @@ id
 checkbox_reopen
 "
 run
+:
+function
 (
 )
 {
@@ -987,8 +1013,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -1051,6 +1079,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 popup
 )
@@ -1188,6 +1218,8 @@ unchecked
 '
 }
 run
+:
+function
 (
 )
 {
@@ -1221,6 +1253,8 @@ a
 checkbox
 "
 checked
+:
+checked
 [
 state
 ]
@@ -1248,8 +1282,10 @@ notifyObj
 )
 ;
 }
-*
 onShown
+:
+function
+*
 (
 popup
 )
@@ -1425,6 +1461,8 @@ popup
 ;
 }
 onHidden
+:
+function
 (
 )
 {

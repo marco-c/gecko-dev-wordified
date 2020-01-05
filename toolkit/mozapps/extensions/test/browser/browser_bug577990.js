@@ -213,6 +213,8 @@ addTestListener
 (
 {
 onInstallEnded
+:
+function
 (
 aInstall
 )

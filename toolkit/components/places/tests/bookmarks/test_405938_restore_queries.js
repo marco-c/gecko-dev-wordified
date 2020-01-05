@@ -666,6 +666,8 @@ _queryTitle3
 ;
 }
 clean
+:
+function
 (
 )
 {

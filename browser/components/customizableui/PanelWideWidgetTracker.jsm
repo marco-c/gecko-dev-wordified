@@ -209,6 +209,8 @@ they
 change
 :
 onWidgetAdded
+:
+function
 (
 aWidgetId
 aArea
@@ -254,6 +256,8 @@ moveForward
 }
 }
 onWidgetMoved
+:
+function
 (
 aWidgetId
 aArea
@@ -300,6 +304,8 @@ moveForward
 }
 }
 onWidgetRemoved
+:
+function
 (
 aWidgetId
 aPrevArea
@@ -333,6 +339,8 @@ false
 }
 }
 onWidgetReset
+:
+function
 (
 aWidgetId
 )
@@ -403,6 +411,8 @@ XUL
 ones
 .
 onWidgetAfterDOMChange
+:
+function
 (
 aNode
 aNextNode
@@ -476,6 +486,8 @@ care
 about
 :
 onWidgetDestroyed
+:
+function
 (
 aWidgetId
 )
@@ -496,6 +508,8 @@ aWidgetId
 ;
 }
 shouldMoveForward
+:
+function
 (
 aWidgetId
 aPosition
@@ -654,6 +668,8 @@ rv
 ;
 }
 adjustWidgets
+:
+function
 (
 aWidgetId
 aMoveForwards
@@ -894,6 +910,8 @@ single
 column
 widgets
 adjustPosition
+:
+function
 (
 aWidgetId
 aMoveForwards
@@ -1177,6 +1195,8 @@ windows
 *
 /
 checkWidgetStatus
+:
+function
 (
 aWidgetId
 )
@@ -1295,6 +1315,8 @@ real
 ;
 }
 init
+:
+function
 (
 )
 {

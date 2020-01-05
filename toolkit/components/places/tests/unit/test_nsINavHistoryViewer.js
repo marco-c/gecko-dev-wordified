@@ -133,6 +133,8 @@ insertedNode
 :
 null
 nodeInserted
+:
+function
 (
 parent
 node
@@ -150,6 +152,8 @@ removedNode
 :
 null
 nodeRemoved
+:
+function
 (
 parent
 node
@@ -164,6 +168,8 @@ node
 ;
 }
 nodeAnnotationChanged
+:
+function
 (
 )
 {
@@ -176,6 +182,8 @@ nodeChangedByTitle
 :
 null
 nodeTitleChanged
+:
+function
 (
 node
 newTitle
@@ -204,6 +212,8 @@ nodeChangedByHistoryDetails
 :
 null
 nodeHistoryDetailsChanged
+:
+function
 (
 node
 updatedVisitDate
@@ -232,6 +242,8 @@ movedNode
 :
 null
 nodeMoved
+:
+function
 (
 node
 oldParent
@@ -254,6 +266,8 @@ closedContainer
 :
 null
 containerStateChanged
+:
+function
 (
 aNode
 aOldState
@@ -304,6 +318,8 @@ invalidatedContainer
 :
 null
 invalidateContainer
+:
+function
 (
 node
 )
@@ -319,6 +335,8 @@ sortingMode
 :
 null
 sortingChanged
+:
+function
 (
 sortingMode
 )
@@ -334,6 +352,8 @@ inBatchMode
 :
 false
 batching
+:
+function
 (
 aToggleMode
 )
@@ -357,6 +377,8 @@ result
 :
 null
 reset
+:
+function
 (
 )
 {
@@ -804,6 +826,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -833,6 +857,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -1245,6 +1271,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -1274,6 +1302,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -1429,6 +1459,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )
@@ -1458,6 +1490,8 @@ runInBatchMode
 (
 {
 runBatched
+:
+function
 (
 aUserData
 )

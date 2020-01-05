@@ -130,6 +130,8 @@ security
 =
 {
 init
+:
+function
 (
 uri
 windowInfo
@@ -158,6 +160,8 @@ certificate
 static
 )
 viewCert
+:
+function
 (
 )
 {
@@ -176,6 +180,8 @@ cert
 ;
 }
 _getSecurityInfo
+:
+function
 (
 )
 {
@@ -396,6 +402,8 @@ retval
 =
 {
 hostName
+:
+hostName
 cAName
 :
 issuerName
@@ -409,8 +417,16 @@ version
 :
 undefined
 isBroken
+:
+isBroken
+isMixed
+:
 isMixed
 isEV
+:
+isEV
+cert
+:
 cert
 certificateTransparency
 :
@@ -659,6 +675,8 @@ retval
 return
 {
 hostName
+:
+hostName
 cAName
 :
 "
@@ -675,7 +693,13 @@ version
 "
 "
 isBroken
+:
+isBroken
 isMixed
+:
+isMixed
+isEV
+:
 isEV
 cert
 :
@@ -697,6 +721,8 @@ if
 present
 )
 _getSecurityUI
+:
+function
 (
 )
 {
@@ -756,6 +782,8 @@ C
 +
 code
 mapIssuerOrganization
+:
+function
 (
 name
 )
@@ -809,6 +837,8 @@ window
 *
 /
 viewCookies
+:
+function
 (
 )
 {
@@ -1004,6 +1034,8 @@ window
 *
 /
 viewPasswords
+:
+function
 (
 )
 {

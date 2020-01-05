@@ -548,6 +548,8 @@ _discoveryMethods
 [
 ]
 _forceTrailingSlash
+:
+function
 (
 aURL
 )
@@ -596,6 +598,8 @@ aURL
 nsIUDPSocketListener
 implementation
 onPacketReceived
+:
+function
 (
 aSocket
 aMessage
@@ -788,6 +792,8 @@ e
 }
 }
 onStopListening
+:
+function
 (
 aSocket
 aStatus
@@ -972,6 +978,8 @@ cancel
 ;
 }
 _usingLAN
+:
+function
 (
 )
 {
@@ -1794,6 +1802,8 @@ _stopExternalDiscovery
 ;
 }
 getSupportedExtensions
+:
+function
 (
 )
 {
@@ -1856,6 +1866,8 @@ pos
 ;
 }
 getSupportedMimeTypes
+:
+function
 (
 )
 {
@@ -2835,6 +2847,8 @@ if
 it
 failed
 _addService
+:
+function
 (
 service
 )
@@ -2914,6 +2928,8 @@ true
 ;
 }
 addService
+:
+function
 (
 service
 )
@@ -3007,6 +3023,8 @@ _searchTimestamp
 ;
 }
 removeService
+:
+function
 (
 uuid
 )
@@ -3033,6 +3051,8 @@ uuid
 ;
 }
 updateService
+:
+function
 (
 service
 )
@@ -3081,6 +3101,8 @@ _searchTimestamp
 ;
 }
 addExternalDiscovery
+:
+function
 (
 discovery
 )
@@ -3096,6 +3118,8 @@ discovery
 ;
 }
 _startExternalDiscovery
+:
+function
 (
 )
 {
@@ -3118,6 +3142,8 @@ startDiscovery
 }
 }
 _stopExternalDiscovery
+:
+function
 (
 )
 {

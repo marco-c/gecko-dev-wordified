@@ -1606,6 +1606,8 @@ instance
 *
 /
 instance
+:
+function
 (
 )
 {
@@ -1735,6 +1737,8 @@ prototype
 =
 {
 now
+:
+function
 (
 )
 {
@@ -1746,6 +1750,8 @@ Date
 ;
 }
 random
+:
+function
 (
 )
 {
@@ -1835,6 +1841,8 @@ random
 ;
 }
 futureDate
+:
+function
 (
 offset
 )
@@ -1858,6 +1866,8 @@ offset
 ;
 }
 oneshotTimer
+:
+function
 (
 callback
 timeout
@@ -1878,6 +1888,8 @@ name
 ;
 }
 updatechannel
+:
+function
 (
 )
 {
@@ -1888,6 +1900,8 @@ UpdateChannel
 ;
 }
 locale
+:
+function
 (
 )
 {
@@ -1959,6 +1973,8 @@ function
 *
 /
 delayCacheWrite
+:
+function
 (
 promise
 )
@@ -2605,6 +2621,8 @@ _shutdown
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -3193,6 +3211,8 @@ debugging
 purposes
 .
 _getState
+:
+function
 (
 )
 {
@@ -3361,6 +3381,8 @@ state
 ;
 }
 _addToForensicsLog
+:
+function
 (
 what
 string
@@ -3413,6 +3435,8 @@ string
 ;
 }
 _registerWithAddonManager
+:
+function
 (
 previousExperimentsProvider
 )
@@ -3536,6 +3560,8 @@ TYPE_UI_HIDE_EMPTY
 }
 }
 _unregisterWithAddonManager
+:
+function
 (
 )
 {
@@ -3678,6 +3704,8 @@ only
 *
 /
 _setPreviousExperimentsProvider
+:
+function
 (
 provider
 )
@@ -3714,6 +3742,8 @@ down
 *
 /
 _checkForShutdown
+:
+function
 (
 )
 {
@@ -3913,6 +3943,8 @@ clear
 }
 )
 _telemetryStatusChanged
+:
+function
 (
 )
 {
@@ -4042,6 +4074,8 @@ objects
 *
 /
 getExperiments
+:
+function
 (
 )
 {
@@ -4107,6 +4141,8 @@ list
 push
 (
 {
+id
+:
 id
 name
 :
@@ -4205,6 +4241,8 @@ none
 *
 /
 getActiveExperiment
+:
+function
 (
 )
 {
@@ -4638,6 +4676,8 @@ now
 *
 /
 _dateIsTodayUTC
+:
+function
 (
 d
 )
@@ -4731,6 +4771,8 @@ object
 *
 /
 lastActiveToday
+:
+function
 (
 )
 {
@@ -4823,6 +4865,8 @@ this
 ;
 }
 _run
+:
+function
 (
 )
 {
@@ -5001,8 +5045,10 @@ this
 _mainTask
 ;
 }
-*
 _main
+:
+function
+*
 (
 )
 {
@@ -5118,8 +5164,10 @@ _dirty
 )
 ;
 }
-*
 _loadManifest
+:
+function
+*
 (
 )
 {
@@ -5305,6 +5353,8 @@ updated
 *
 /
 updateManifest
+:
+function
 (
 )
 {
@@ -5384,6 +5434,8 @@ _run
 ;
 }
 notify
+:
+function
 (
 timer
 )
@@ -5424,6 +5476,8 @@ ADD
 ON
 LISTENERS
 onUninstalled
+:
+function
 (
 addon
 )
@@ -5536,6 +5590,8 @@ install
 *
 /
 onInstallStarted
+:
+function
 (
 install
 )
@@ -5906,6 +5962,8 @@ ON
 LISTENERS
 .
 _getExperimentByAddonId
+:
+function
 (
 addonId
 )
@@ -5972,6 +6030,8 @@ complete
 *
 /
 _httpGetRequest
+:
+function
 (
 url
 )
@@ -6411,8 +6471,10 @@ _main
 .
 *
 /
-*
 _saveToCache
+:
+function
+*
 (
 )
 {
@@ -6724,6 +6786,8 @@ e
 }
 )
 _populateFromCache
+:
+function
 (
 data
 )
@@ -6937,6 +7001,8 @@ manifest
 *
 /
 _updateExperiments
+:
+function
 (
 manifestObject
 )
@@ -7243,6 +7309,8 @@ true
 ;
 }
 getActiveExperimentID
+:
+function
 (
 )
 {
@@ -7284,6 +7352,8 @@ id
 ;
 }
 getActiveExperimentBranch
+:
+function
 (
 )
 {
@@ -7325,6 +7395,8 @@ branch
 ;
 }
 _getActiveExperiment
+:
+function
 (
 )
 {
@@ -7452,6 +7524,8 @@ failed
 *
 /
 disableExperiment
+:
+function
 (
 reason
 )
@@ -7599,8 +7673,10 @@ candidate
 .
 *
 /
-*
 _evaluateExperiments
+:
+function
+*
 (
 )
 {
@@ -8559,6 +8635,8 @@ needed
 *
 /
 _scheduleNextRun
+:
+function
 (
 )
 {
@@ -9277,6 +9355,8 @@ succeeded
 *
 /
 initFromManifestData
+:
+function
 (
 data
 )
@@ -9508,6 +9588,8 @@ succeeded
 *
 /
 initFromCacheData
+:
+function
 (
 data
 )
@@ -9789,6 +9871,8 @@ object
 *
 /
 toJSON
+:
+function
 (
 )
 {
@@ -9917,6 +10001,8 @@ succeeded
 *
 /
 updateFromManifestData
+:
+function
 (
 data
 )
@@ -10107,6 +10193,8 @@ reason
 *
 /
 isApplicable
+:
+function
 (
 )
 {
@@ -13072,6 +13160,8 @@ null
 *
 /
 _getAddon
+:
+function
 (
 )
 {
@@ -13138,6 +13228,8 @@ addon
 ;
 }
 _logTermination
+:
+function
 (
 terminationKind
 terminationReason
@@ -13240,6 +13332,8 @@ stopped
 *
 /
 shouldStop
+:
+function
 (
 )
 {
@@ -13312,6 +13406,8 @@ shouldStop
 :
 true
 reason
+:
+reason
 }
 )
 )
@@ -13339,6 +13435,8 @@ age
 *
 /
 shouldDiscard
+:
+function
 (
 )
 {
@@ -13411,6 +13509,8 @@ one
 *
 /
 getScheduleTime
+:
+function
 (
 )
 {
@@ -13502,6 +13602,8 @@ data
 *
 /
 _isManifestDataValid
+:
+function
 (
 data
 )
@@ -13850,6 +13952,8 @@ name
 PreviousExperimentProvider
 "
 startup
+:
+function
 (
 )
 {
@@ -13879,6 +13983,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -13926,6 +14032,8 @@ Mulet
 }
 }
 observe
+:
+function
 (
 subject
 topic
@@ -13951,6 +14059,8 @@ break
 }
 }
 getAddonByID
+:
+function
 (
 id
 cb
@@ -13996,6 +14106,8 @@ null
 ;
 }
 getAddonsByTypes
+:
+function
 (
 types
 cb
@@ -14057,6 +14169,8 @@ e
 ;
 }
 _updateExperimentList
+:
+function
 (
 )
 {
@@ -14676,6 +14790,8 @@ BEGIN
 REQUIRED
 METHODS
 isCompatibleWith
+:
+function
 (
 appVersion
 platformVersion
@@ -14686,6 +14802,8 @@ true
 ;
 }
 findUpdates
+:
+function
 (
 listener
 reason

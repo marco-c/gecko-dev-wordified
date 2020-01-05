@@ -229,6 +229,8 @@ provider
 =
 {
 getFile
+:
+function
 (
 prop
 persistent
@@ -299,6 +301,8 @@ NS_ERROR_FAILURE
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

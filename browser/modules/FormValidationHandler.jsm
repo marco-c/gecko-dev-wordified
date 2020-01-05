@@ -142,6 +142,8 @@ apis
 *
 /
 init
+:
+function
 (
 )
 {
@@ -194,6 +196,8 @@ this
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -258,6 +262,8 @@ null
 ;
 }
 hidePopup
+:
+function
 (
 )
 {
@@ -275,6 +281,8 @@ Events
 *
 /
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -385,6 +393,8 @@ break
 }
 }
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -399,6 +409,8 @@ _hidePopup
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -461,6 +473,8 @@ Internal
 *
 /
 _onPopupHiding
+:
+function
 (
 aEvent
 )
@@ -673,6 +687,8 @@ text
 *
 /
 _showPopup
+:
+function
 (
 aWindow
 aPanelData
@@ -946,6 +962,8 @@ visible
 *
 /
 _hidePopup
+:
+function
 (
 )
 {

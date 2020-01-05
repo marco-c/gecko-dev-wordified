@@ -431,6 +431,8 @@ length
 ;
 }
 _checkIndexBounds
+:
+function
 (
 index
 )
@@ -498,6 +500,8 @@ index
 *
 /
 getValueAt
+:
+function
 (
 index
 )
@@ -519,6 +523,8 @@ index
 ;
 }
 getLabelAt
+:
+function
 (
 index
 )
@@ -578,6 +584,8 @@ index
 *
 /
 getCommentAt
+:
+function
 (
 index
 )
@@ -634,6 +642,8 @@ index
 *
 /
 getStyleAt
+:
+function
 (
 index
 )
@@ -736,6 +746,8 @@ index
 *
 /
 getImageAt
+:
+function
 (
 index
 )
@@ -779,6 +791,8 @@ index
 *
 /
 getFinalCompleteValueAt
+:
+function
 (
 index
 )
@@ -815,6 +829,8 @@ remove
 *
 /
 removeValueAt
+:
+function
 (
 index
 removeFromDatabase

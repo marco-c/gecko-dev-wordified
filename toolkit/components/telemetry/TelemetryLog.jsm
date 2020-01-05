@@ -121,6 +121,8 @@ freeze
 (
 {
 log
+:
+function
 (
 id
 data
@@ -225,6 +227,8 @@ entry
 ;
 }
 entries
+:
+function
 (
 )
 {

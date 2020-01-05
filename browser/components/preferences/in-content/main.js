@@ -228,6 +228,8 @@ this
 *
 /
 init
+:
+function
 (
 )
 {
@@ -1042,6 +1044,8 @@ null
 ;
 }
 enableE10SChange
+:
+function
 (
 )
 {
@@ -1231,6 +1235,8 @@ value
 }
 }
 separateProfileModeChange
+:
+function
 (
 )
 {
@@ -1534,6 +1540,8 @@ return
 }
 }
 onGetStarted
+:
+function
 (
 aEvent
 )
@@ -1814,6 +1822,8 @@ preserved
 *
 /
 syncFromHomePref
+:
+function
 (
 )
 {
@@ -2029,6 +2039,8 @@ undefined
 ;
 }
 syncToHomePref
+:
+function
 (
 value
 )
@@ -2114,6 +2126,8 @@ this
 *
 /
 setHomePageToCurrent
+:
+function
 (
 )
 {
@@ -2251,6 +2265,8 @@ preference
 *
 /
 setHomePageToBookmark
+:
+function
 (
 )
 {
@@ -2307,6 +2323,8 @@ rv
 ;
 }
 _setHomePageToBookmarkClosed
+:
+function
 (
 rv
 aEvent
@@ -2406,6 +2424,8 @@ forms
 *
 /
 _updateUseCurrentButton
+:
+function
 (
 )
 {
@@ -2521,6 +2541,8 @@ tabs
 length
 }
 _getTabsForHomePage
+:
+function
 (
 )
 {
@@ -2674,6 +2696,8 @@ preferences
 *
 /
 isNotAboutPreferences
+:
+function
 (
 aElement
 aIndex
@@ -2720,6 +2744,8 @@ page
 *
 /
 restoreDefaultHomePage
+:
+function
 (
 )
 {
@@ -3039,6 +3065,8 @@ used
 *
 /
 readUseDownloadDir
+:
+function
 (
 )
 {
@@ -4027,6 +4055,8 @@ form
 *
 /
 _getDisplayNameOfFile
+:
+function
 (
 aFolder
 )
@@ -4523,6 +4553,8 @@ pref
 *
 /
 updateBrowserStartupLastSession
+:
+function
 (
 )
 {
@@ -4897,6 +4929,8 @@ tabs
 *
 /
 readLinkTarget
+:
+function
 (
 )
 {
@@ -4968,6 +5002,8 @@ tabs
 *
 /
 writeLinkTarget
+:
+function
 (
 )
 {
@@ -5058,6 +5094,8 @@ browser
 *
 /
 updateSetDefaultBrowser
+:
+function
 (
 )
 {
@@ -5181,6 +5219,8 @@ browser
 *
 /
 setDefaultBrowser
+:
+function
 (
 )
 {

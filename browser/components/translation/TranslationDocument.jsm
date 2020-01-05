@@ -294,6 +294,8 @@ translated
 *
 /
 _init
+:
+function
 (
 document
 )
@@ -680,6 +682,8 @@ object
 *
 /
 _createItemForNode
+:
+function
 (
 node
 id
@@ -924,6 +928,8 @@ TranslationItem
 *
 /
 generateTextForItem
+:
+function
 (
 item
 )
@@ -1341,6 +1347,8 @@ content
 *
 /
 showTranslation
+:
+function
 (
 )
 {
@@ -1377,6 +1385,8 @@ content
 *
 /
 showOriginal
+:
+function
 (
 )
 {
@@ -1436,6 +1446,8 @@ original
 *
 /
 _swapDocumentContent
+:
+function
 (
 target
 )
@@ -1898,6 +1910,8 @@ isSimpleRoot
 :
 false
 toString
+:
+function
 (
 )
 {
@@ -2147,6 +2161,8 @@ doc
 *
 /
 parseResult
+:
+function
 (
 result
 )
@@ -2271,6 +2287,8 @@ found
 *
 /
 getChildById
+:
+function
 (
 id
 )
@@ -2349,6 +2367,8 @@ original
 *
 /
 swapText
+:
+function
 (
 target
 )
@@ -2444,6 +2464,8 @@ TranslationItem_NodePlaceholder
 =
 {
 toString
+:
+function
 (
 )
 {

@@ -150,6 +150,8 @@ CrashObserver
 =
 {
 observe
+:
+function
 (
 subject
 topic

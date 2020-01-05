@@ -426,6 +426,8 @@ selectedIndex
 -
 1
 invalidate
+:
+function
 (
 )
 {
@@ -491,6 +493,8 @@ length
 ;
 }
 getSearchAt
+:
+function
 (
 aIndex
 )
@@ -542,6 +546,8 @@ _selEnd
 ;
 }
 selectTextRange
+:
+function
 (
 aStart
 aEnd
@@ -561,11 +567,15 @@ aEnd
 ;
 }
 onSearchBegin
+:
+function
 (
 )
 {
 }
 onSearchComplete
+:
+function
 (
 )
 {

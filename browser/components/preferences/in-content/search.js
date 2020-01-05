@@ -163,6 +163,8 @@ sync
 *
 /
 _initAutocomplete
+:
+function
 (
 )
 {
@@ -198,6 +200,8 @@ mozIPlacesAutoComplete
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -574,6 +578,8 @@ permanentPB
 ;
 }
 buildDefaultEngineDropDown
+:
+function
 (
 )
 {
@@ -790,6 +796,8 @@ item
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -1201,6 +1209,8 @@ break
 }
 }
 observe
+:
+function
 (
 aEngine
 aTopic
@@ -1420,6 +1430,8 @@ break
 }
 }
 onInputBlur
+:
+function
 (
 aEvent
 )
@@ -1478,6 +1490,8 @@ accept
 ;
 }
 onTreeSelect
+:
+function
 (
 )
 {
@@ -1501,6 +1515,8 @@ isEngineSelectedAndRemovable
 ;
 }
 onTreeKeyPress
+:
+function
 (
 aEvent
 )
@@ -1743,6 +1759,8 @@ originalEngine
 }
 }
 onRestoreDefaults
+:
+function
 (
 )
 {
@@ -1773,6 +1791,8 @@ invalidate
 ;
 }
 showRestoreDefaults
+:
+function
 (
 aEnable
 )
@@ -1793,6 +1813,8 @@ aEnable
 ;
 }
 remove
+:
+function
 (
 aEngine
 )
@@ -2111,6 +2133,8 @@ true
 }
 )
 saveOneClickEnginesList
+:
+function
 (
 )
 {
@@ -2174,6 +2198,8 @@ join
 ;
 }
 setDefaultEngine
+:
+function
 (
 )
 {
@@ -2459,6 +2485,9 @@ val
 ;
 }
 _getIndexForEngine
+:
+function
+ES_getIndexForEngine
 (
 aEngine
 )
@@ -2475,6 +2504,9 @@ aEngine
 ;
 }
 _getEngineByName
+:
+function
+ES_getEngineByName
 (
 aName
 )
@@ -2499,6 +2531,9 @@ aName
 ;
 }
 _cloneEngine
+:
+function
+ES_cloneEngine
 (
 aEngine
 )
@@ -2576,6 +2611,9 @@ some
 (
 )
 _isSameEngine
+:
+function
+ES_isSameEngine
 (
 aEngineClone
 )
@@ -2592,6 +2630,9 @@ originalEngine
 ;
 }
 addEngine
+:
+function
+ES_addEngine
 (
 aEngine
 )
@@ -2612,6 +2653,9 @@ aEngine
 ;
 }
 moveEngine
+:
+function
+ES_moveEngine
 (
 aEngine
 aNewIndex
@@ -2742,6 +2786,9 @@ aNewIndex
 ;
 }
 removeEngine
+:
+function
+ES_removeEngine
 (
 aEngine
 )
@@ -2865,6 +2912,9 @@ index
 ;
 }
 restoreDefaultEngines
+:
+function
+ES_restoreDefaultEngines
 (
 )
 {
@@ -3061,6 +3111,9 @@ added
 ;
 }
 changeEngine
+:
+function
+ES_changeEngine
 (
 aEngine
 aProp
@@ -3119,6 +3172,9 @@ aNewValue
 ;
 }
 reloadIcons
+:
+function
+ES_reloadIcons
 (
 )
 {
@@ -3258,6 +3314,8 @@ selectedIndex
 /
 Helpers
 rowCountChanged
+:
+function
 (
 index
 count
@@ -3275,6 +3333,8 @@ count
 ;
 }
 invalidate
+:
+function
 (
 )
 {
@@ -3288,6 +3348,8 @@ invalidate
 ;
 }
 ensureRowIsVisible
+:
+function
 (
 index
 )
@@ -3303,6 +3365,8 @@ index
 ;
 }
 getSourceIndexFromDrag
+:
+function
 (
 dataTransfer
 )
@@ -3320,6 +3384,8 @@ ENGINE_FLAVOR
 ;
 }
 isCheckBox
+:
+function
 (
 index
 column
@@ -3337,6 +3403,8 @@ engineShown
 ;
 }
 isEngineSelectedAndRemovable
+:
+function
 (
 )
 {
@@ -3377,6 +3445,8 @@ length
 ;
 }
 getImageSrc
+:
+function
 (
 index
 column
@@ -3475,6 +3545,8 @@ return
 ;
 }
 getCellText
+:
+function
 (
 index
 column
@@ -3533,6 +3605,8 @@ return
 ;
 }
 setTree
+:
+function
 (
 tree
 )
@@ -3545,6 +3619,8 @@ tree
 ;
 }
 canDrop
+:
+function
 (
 targetIndex
 orientation
@@ -3586,6 +3662,8 @@ orientation
 ;
 }
 drop
+:
+function
 (
 dropIndex
 orientation
@@ -3709,6 +3787,8 @@ selection
 :
 null
 getRowProperties
+:
+function
 (
 index
 )
@@ -3719,6 +3799,8 @@ return
 ;
 }
 getCellProperties
+:
+function
 (
 index
 column
@@ -3730,6 +3812,8 @@ return
 ;
 }
 getColumnProperties
+:
+function
 (
 column
 )
@@ -3740,6 +3824,8 @@ return
 ;
 }
 isContainer
+:
+function
 (
 index
 )
@@ -3749,6 +3835,8 @@ false
 ;
 }
 isContainerOpen
+:
+function
 (
 index
 )
@@ -3758,6 +3846,8 @@ false
 ;
 }
 isContainerEmpty
+:
+function
 (
 index
 )
@@ -3767,6 +3857,8 @@ false
 ;
 }
 isSeparator
+:
+function
 (
 index
 )
@@ -3776,6 +3868,8 @@ false
 ;
 }
 isSorted
+:
+function
 (
 index
 )
@@ -3785,6 +3879,8 @@ false
 ;
 }
 getParentIndex
+:
+function
 (
 index
 )
@@ -3795,6 +3891,8 @@ return
 ;
 }
 hasNextSibling
+:
+function
 (
 parentIndex
 index
@@ -3805,6 +3903,8 @@ false
 ;
 }
 getLevel
+:
+function
 (
 index
 )
@@ -3814,6 +3914,8 @@ return
 ;
 }
 getProgressMode
+:
+function
 (
 index
 column
@@ -3821,6 +3923,8 @@ column
 {
 }
 getCellValue
+:
+function
 (
 index
 column
@@ -3854,23 +3958,31 @@ undefined
 ;
 }
 toggleOpenState
+:
+function
 (
 index
 )
 {
 }
 cycleHeader
+:
+function
 (
 column
 )
 {
 }
 selectionChanged
+:
+function
 (
 )
 {
 }
 cycleCell
+:
+function
 (
 row
 column
@@ -3878,6 +3990,8 @@ column
 {
 }
 isEditable
+:
+function
 (
 index
 column
@@ -3895,6 +4009,8 @@ engineName
 ;
 }
 isSelectable
+:
+function
 (
 index
 column
@@ -3905,6 +4021,8 @@ false
 ;
 }
 setCellValue
+:
+function
 (
 index
 column
@@ -3956,6 +4074,8 @@ saveOneClickEnginesList
 }
 }
 setCellText
+:
+function
 (
 index
 column
@@ -4021,12 +4141,16 @@ column
 }
 }
 performAction
+:
+function
 (
 action
 )
 {
 }
 performActionOnRow
+:
+function
 (
 action
 index
@@ -4034,6 +4158,8 @@ index
 {
 }
 performActionOnCell
+:
+function
 (
 action
 index

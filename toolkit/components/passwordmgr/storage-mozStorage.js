@@ -275,6 +275,8 @@ prototype
 =
 {
 commit
+:
+function
 (
 )
 {
@@ -294,6 +296,8 @@ commitTransaction
 ;
 }
 rollback
+:
+function
 (
 )
 {
@@ -361,6 +365,8 @@ nsIInterfaceRequestor
 ]
 )
 getInterface
+:
+function
 (
 aIID
 )
@@ -932,6 +938,8 @@ location
 *
 /
 initWithFile
+:
+function
 (
 aDBFile
 )
@@ -954,6 +962,8 @@ initialize
 ;
 }
 initialize
+:
+function
 (
 )
 {
@@ -1187,6 +1197,8 @@ instance
 *
 /
 terminate
+:
+function
 (
 )
 {
@@ -1199,6 +1211,8 @@ resolve
 ;
 }
 addLogin
+:
+function
 (
 login
 )
@@ -1514,6 +1528,8 @@ loginClone
 .
 guid
 encType
+:
+encType
 timeCreated
 :
 loginClone
@@ -1646,6 +1662,8 @@ loginClone
 ;
 }
 removeLogin
+:
+function
 (
 login
 )
@@ -1837,6 +1855,8 @@ storedLogin
 ;
 }
 modifyLogin
+:
+function
 (
 oldLogin
 newLoginData
@@ -2183,6 +2203,8 @@ newLogin
 .
 guid
 encType
+:
+encType
 timeCreated
 :
 newLogin
@@ -2316,6 +2338,8 @@ nsILoginInfo
 *
 /
 getAllLogins
+:
+function
 (
 count
 )
@@ -2428,6 +2452,8 @@ decrypted
 *
 /
 searchLogins
+:
+function
 (
 count
 matchData
@@ -2659,6 +2685,8 @@ database
 *
 /
 _searchLogins
+:
+function
 (
 matchData
 aOptions
@@ -3394,6 +3422,8 @@ table
 *
 /
 storeDeletedLogin
+:
+function
 (
 aLogin
 )
@@ -3518,6 +3548,8 @@ storage
 *
 /
 removeAllLogins
+:
+function
 (
 )
 {
@@ -3698,6 +3730,8 @@ null
 ;
 }
 findLogins
+:
+function
 (
 count
 hostname
@@ -3710,7 +3744,13 @@ loginData
 =
 {
 hostname
+:
+hostname
 formSubmitURL
+:
+formSubmitURL
+httpRealm
+:
 httpRealm
 }
 ;
@@ -3826,6 +3866,8 @@ logins
 ;
 }
 countLogins
+:
+function
 (
 hostname
 formSubmitURL
@@ -4117,6 +4159,8 @@ values
 *
 /
 _getIdForLogin
+:
+function
 (
 login
 )
@@ -4365,6 +4409,8 @@ match
 *
 /
 _buildConditionsAndParams
+:
+function
 (
 hostname
 formSubmitURL
@@ -4563,6 +4609,8 @@ exists
 *
 /
 _isGuidUnique
+:
+function
 (
 guid
 )
@@ -4591,6 +4639,8 @@ let
 params
 =
 {
+guid
+:
 guid
 }
 ;
@@ -4710,6 +4760,8 @@ entry
 *
 /
 _encryptLogin
+:
+function
 (
 login
 )
@@ -4852,6 +4904,8 @@ password
 *
 /
 _decryptLogins
+:
+function
 (
 logins
 )
@@ -5007,6 +5061,8 @@ reused
 *
 /
 _dbCreateStatement
+:
+function
 (
 query
 params
@@ -5145,6 +5201,8 @@ run
 *
 /
 _dbInit
+:
+function
 (
 )
 {
@@ -5331,6 +5389,8 @@ isFirstRun
 ;
 }
 observe
+:
+function
 (
 subject
 topic
@@ -5378,6 +5438,8 @@ break
 }
 }
 _dbCreate
+:
+function
 (
 )
 {
@@ -5407,6 +5469,8 @@ DB_VERSION
 ;
 }
 _dbCreateSchema
+:
+function
 (
 )
 {
@@ -5424,6 +5488,8 @@ _dbCreateIndices
 ;
 }
 _dbCreateTables
+:
+function
 (
 )
 {
@@ -5467,6 +5533,8 @@ name
 ;
 }
 _dbCreateIndices
+:
+function
 (
 )
 {
@@ -5555,6 +5623,8 @@ statement
 }
 }
 _dbMigrate
+:
+function
 (
 oldVersion
 )
@@ -5900,6 +5970,8 @@ GUID
 *
 /
 _dbMigrateToVersion2
+:
+function
 (
 )
 {
@@ -6122,6 +6194,8 @@ params
 =
 {
 id
+:
+id
 guid
 :
 this
@@ -6210,6 +6284,8 @@ column
 *
 /
 _dbMigrateToVersion3
+:
+function
 (
 )
 {
@@ -6591,6 +6667,8 @@ columns
 *
 /
 _dbMigrateToVersion4
+:
+function
 (
 )
 {
@@ -6919,6 +6997,8 @@ table
 *
 /
 _dbMigrateToVersion5
+:
+function
 (
 )
 {
@@ -6978,6 +7058,8 @@ manager
 *
 /
 _dbMigrateToVersion6
+:
+function
 (
 )
 {
@@ -7177,6 +7259,8 @@ using
 *
 /
 _dbAreExpectedColumnsPresent
+:
+function
 (
 )
 {
@@ -7397,6 +7481,8 @@ exists
 *
 /
 _dbColumnExists
+:
+function
 (
 columnName
 )
@@ -7466,6 +7552,8 @@ false
 }
 }
 _dbClose
+:
+function
 (
 )
 {
@@ -7598,6 +7686,8 @@ file
 *
 /
 _dbCleanup
+:
+function
 (
 backup
 )

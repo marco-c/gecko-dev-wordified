@@ -295,6 +295,8 @@ findUpdates
 (
 {
 onUpdateFinished
+:
+function
 (
 addon
 )

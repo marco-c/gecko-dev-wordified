@@ -139,6 +139,8 @@ gContentPane
 =
 {
 init
+:
+function
 (
 )
 {
@@ -760,6 +762,8 @@ aPreferenceID
 *
 /
 updateButtons
+:
+function
 (
 aButtonID
 aPreferenceID
@@ -986,6 +990,8 @@ set
 *
 /
 showPopupExceptions
+:
+function
 (
 )
 {
@@ -1096,6 +1102,8 @@ UI
 *
 /
 _rebuildFonts
+:
+function
 (
 )
 {
@@ -1185,6 +1193,8 @@ serif
 *
 /
 _selectDefaultLanguageGroup
+:
+function
 (
 aLanguageGroup
 aIsSerif
@@ -1590,6 +1600,8 @@ aLanguageGroup
 *
 /
 _readDefaultFontTypeForLanguage
+:
+function
 (
 aLanguageGroup
 )
@@ -1738,6 +1750,8 @@ configured
 *
 /
 configureFonts
+:
+function
 (
 )
 {
@@ -1794,6 +1808,8 @@ configured
 *
 /
 configureColors
+:
+function
 (
 )
 {
@@ -1849,6 +1865,8 @@ set
 *
 /
 showLanguages
+:
+function
 (
 )
 {
@@ -1898,6 +1916,8 @@ set
 *
 /
 showTranslationExceptions
+:
+function
 (
 )
 {
@@ -1924,6 +1944,8 @@ xul
 ;
 }
 openTranslationProviderAttribution
+:
+function
 (
 )
 {
@@ -1957,6 +1979,8 @@ openProviderAttribution
 ;
 }
 toggleDoNotDisturbNotifications
+:
+function
 (
 event
 )

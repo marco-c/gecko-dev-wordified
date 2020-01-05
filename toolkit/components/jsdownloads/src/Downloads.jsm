@@ -1030,6 +1030,8 @@ failed
 *
 /
 fetch
+:
+function
 (
 aSource
 aTarget
@@ -1259,6 +1261,8 @@ exception
 *
 /
 getList
+:
+function
 (
 aType
 )
@@ -1681,6 +1685,8 @@ exception
 *
 /
 getSummary
+:
+function
 (
 aType
 )

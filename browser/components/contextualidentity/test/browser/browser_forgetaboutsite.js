@@ -752,6 +752,8 @@ _appCache
 :
 null
 QueryInterface
+:
+function
 (
 iid
 )
@@ -793,6 +795,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 onCacheEntryCheck
+:
+function
 (
 entry
 appCache
@@ -807,6 +811,8 @@ ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
+:
+function
 (
 entry
 isnew
@@ -820,6 +826,8 @@ resolve
 ;
 }
 run
+:
+function
 (
 )
 {

@@ -603,6 +603,8 @@ Manager
 *
 /
 importFromPrefs
+:
+function
 (
 aPrefBranch
 aPermission

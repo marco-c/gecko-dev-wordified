@@ -563,6 +563,8 @@ bubbles
 :
 true
 reason
+:
+reason
 }
 )
 ;
@@ -1026,6 +1028,8 @@ honored
 *
 /
 collectFormFields
+:
+function
 (
 )
 {
@@ -1240,6 +1244,8 @@ fieldName
 info
 .
 fieldName
+element
+:
 element
 }
 )
@@ -1514,6 +1520,8 @@ updated
 *
 /
 autofillFormFields
+:
+function
 (
 aAutofillResult
 )
@@ -1637,6 +1645,8 @@ promise
 *
 /
 waitForTick
+:
+function
 (
 )
 {
@@ -1748,6 +1758,8 @@ nsIFormAutofillContentService
 /
 nsIFormAutofillContentService
 requestAutocomplete
+:
+function
 (
 aForm
 aWindow

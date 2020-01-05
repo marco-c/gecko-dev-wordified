@@ -182,6 +182,8 @@ sha1
 36FFB0ACFD9C6E9682473AAEBAAB394D38B473C9
 "
 toString
+:
+function
 (
 )
 {

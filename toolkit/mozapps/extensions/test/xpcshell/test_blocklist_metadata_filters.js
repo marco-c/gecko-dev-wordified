@@ -222,6 +222,8 @@ WindowWatcher
 =
 {
 openWindow
+:
+function
 (
 parent
 url
@@ -318,6 +320,8 @@ null
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

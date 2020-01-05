@@ -1322,6 +1322,8 @@ hostPort
 ;
 }
 _createPopupContent
+:
+function
 (
 )
 {
@@ -1641,6 +1643,8 @@ is
 called
 .
 promptDeviceSelection
+:
+function
 (
 aRequest
 )
@@ -1726,6 +1730,8 @@ prompt
 ;
 }
 _loadDevices
+:
+function
 (
 )
 {

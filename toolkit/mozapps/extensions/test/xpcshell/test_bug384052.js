@@ -210,6 +210,8 @@ paramHandlerFactory
 =
 {
 QueryInterface
+:
+function
 (
 iid
 )
@@ -247,6 +249,8 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 createInstance
+:
+function
 (
 outer
 iid
@@ -634,6 +638,8 @@ findUpdates
 (
 {
 onCompatibilityUpdateAvailable
+:
+function
 (
 addon
 )
@@ -653,6 +659,8 @@ update
 ;
 }
 onUpdateAvailable
+:
+function
 (
 addon
 install
@@ -673,6 +681,8 @@ update
 ;
 }
 onUpdateFinished
+:
+function
 (
 addon
 error

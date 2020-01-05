@@ -431,6 +431,8 @@ prototype
 =
 {
 receiveMessage
+:
+function
 (
 message
 )
@@ -487,6 +489,8 @@ status
 }
 }
 enabled
+:
+function
 (
 url
 )
@@ -516,6 +520,8 @@ params
 ;
 }
 install
+:
+function
 (
 installs
 principal
@@ -764,6 +770,8 @@ installs
 ;
 }
 _addCallback
+:
+function
 (
 callback
 urls
@@ -1000,6 +1008,8 @@ this
 implementation
 .
 init
+:
+function
 (
 window
 )
@@ -1100,6 +1110,8 @@ this
 ;
 }
 enabled
+:
+function
 (
 )
 {
@@ -1119,6 +1131,8 @@ spec
 ;
 }
 updateEnabled
+:
+function
 (
 )
 {
@@ -1131,6 +1145,8 @@ enabled
 ;
 }
 install
+:
+function
 (
 installs
 callback
@@ -1399,6 +1415,8 @@ _window
 ;
 }
 startSoftwareUpdate
+:
+function
 (
 url
 flags
@@ -1456,6 +1474,8 @@ args
 ;
 }
 installChrome
+:
+function
 (
 type
 url
@@ -1472,6 +1492,8 @@ url
 ;
 }
 _resolveURL
+:
+function
 (
 url
 )
@@ -1492,6 +1514,8 @@ _url
 ;
 }
 _checkLoadURIFromScript
+:
+function
 (
 uri
 )

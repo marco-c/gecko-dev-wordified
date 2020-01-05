@@ -246,6 +246,8 @@ UpdatePicker
 "
 ]
 init
+:
+function
 (
 )
 {
@@ -272,6 +274,8 @@ this
 }
 }
 uninit
+:
+function
 (
 )
 {
@@ -301,6 +305,8 @@ this
 /
 nsIMessageListener
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -409,6 +415,8 @@ break
 /
 nsIDOMEventListener
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -520,6 +528,8 @@ about
 it
 .
 updateInputBoxValue
+:
+function
 (
 aEvent
 )
@@ -619,6 +629,8 @@ input
 box
 .
 showPicker
+:
+function
 (
 aBrowser
 aData
@@ -908,6 +920,8 @@ some
 cleanup
 .
 close
+:
+function
 (
 )
 {
@@ -948,6 +962,8 @@ s
 event
 .
 addPickerListeners
+:
+function
 (
 )
 {
@@ -998,6 +1014,8 @@ s
 event
 .
 removePickerListeners
+:
+function
 (
 )
 {

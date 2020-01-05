@@ -100,6 +100,8 @@ _gotResult
 :
 false
 handleResult
+:
+function
 (
 aResultSet
 )
@@ -112,6 +114,8 @@ true
 ;
 }
 handleError
+:
+function
 (
 aError
 )
@@ -140,6 +144,8 @@ message
 ;
 }
 handleCompletion
+:
+function
 (
 aReason
 )

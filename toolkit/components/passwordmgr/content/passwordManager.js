@@ -303,6 +303,8 @@ signonReloadDisplay
 =
 {
 observe
+:
+function
 (
 subject
 topic

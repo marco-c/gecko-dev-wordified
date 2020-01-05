@@ -295,6 +295,8 @@ prototype
 =
 {
 init
+:
+function
 (
 global
 )
@@ -584,6 +586,8 @@ false
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -806,6 +810,8 @@ content
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -1160,6 +1166,8 @@ document
 }
 }
 onPageShow
+:
+function
 (
 event
 )
@@ -1258,6 +1266,8 @@ reshowClickToPlayNotification
 }
 }
 onPageHide
+:
+function
 (
 event
 )
@@ -1318,6 +1328,8 @@ false
 ;
 }
 getPluginUI
+:
+function
 (
 plugin
 anonid
@@ -1339,6 +1351,8 @@ anonid
 ;
 }
 _getPluginInfo
+:
+function
 (
 pluginElement
 )
@@ -1712,9 +1726,19 @@ mimetype
 :
 tagMimetype
 pluginName
+:
+pluginName
+pluginTag
+:
 pluginTag
 permissionString
+:
+permissionString
 fallbackType
+:
+fallbackType
+blocklistState
+:
 blocklistState
 }
 ;
@@ -1772,6 +1796,8 @@ bug
 *
 /
 _getPluginInfoForTag
+:
+function
 (
 pluginTag
 tagMimetype
@@ -2002,7 +2028,13 @@ mimetype
 :
 tagMimetype
 pluginName
+:
+pluginName
 pluginTag
+:
+pluginTag
+permissionString
+:
 permissionString
 /
 /
@@ -2057,6 +2089,8 @@ nsIObjectLoadingContent
 .
 PLUGIN_CLICK_TO_PLAY
 blocklistState
+:
+blocklistState
 }
 ;
 }
@@ -2075,6 +2109,8 @@ overlay
 *
 /
 setVisibility
+:
+function
 (
 plugin
 overlay
@@ -2171,6 +2207,8 @@ invisible
 *
 /
 shouldShowOverlay
+:
+function
 (
 plugin
 overlay
@@ -2528,6 +2566,8 @@ true
 ;
 }
 addLinkClickCallback
+:
+function
 (
 linkNode
 callbackName
@@ -2738,6 +2778,8 @@ a
 plugin
 object
 _getBindingType
+:
+function
 (
 plugin
 )
@@ -2864,6 +2906,8 @@ null
 }
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -4002,6 +4046,8 @@ false
 }
 }
 _recordFlashPluginTelemetry
+:
+function
 (
 eventType
 plugin
@@ -4206,6 +4252,8 @@ state
 }
 }
 _finishRecordingFlashPluginTelemetry
+:
+function
 (
 )
 {
@@ -4244,6 +4292,8 @@ flashPluginStats
 }
 }
 isKnownPlugin
+:
+function
 (
 objLoadingContent
 )
@@ -4269,6 +4319,8 @@ TYPE_PLUGIN
 ;
 }
 canActivatePlugin
+:
+function
 (
 objLoadingContent
 )
@@ -4427,6 +4479,8 @@ isFallbackTypeValid
 ;
 }
 hideClickToPlayOverlay
+:
+function
 (
 plugin
 )
@@ -4475,6 +4529,8 @@ chrome
 process
 .
 forwardCallback
+:
+function
 (
 name
 pluginTag
@@ -4674,6 +4730,8 @@ submitURLOptIn
 ;
 }
 reloadPage
+:
+function
 (
 )
 {
@@ -4703,6 +4761,8 @@ play
 plugins
 .
 _handleClickToPlayEvent
+:
+function
 (
 plugin
 )
@@ -4917,6 +4977,8 @@ true
 }
 }
 onOverlayClick
+:
+function
 (
 event
 )
@@ -5060,6 +5122,8 @@ preventDefault
 }
 }
 reshowClickToPlayNotification
+:
+function
 (
 )
 {
@@ -5188,6 +5252,8 @@ specified
 *
 /
 activatePlugins
+:
+function
 (
 pluginInfo
 newState
@@ -5516,6 +5582,8 @@ updateNotificationUI
 ;
 }
 _showClickToPlayNotification
+:
+function
 (
 plugin
 showNow
@@ -5919,6 +5987,10 @@ values
 )
 ]
 showNow
+:
+showNow
+location
+:
 location
 }
 null
@@ -6012,6 +6084,8 @@ document
 *
 /
 updateNotificationUI
+:
+function
 (
 document
 )
@@ -6450,6 +6524,8 @@ UpdateHiddenPluginUI
 "
 {
 haveInsecure
+:
+haveInsecure
 actions
 :
 [
@@ -6463,6 +6539,8 @@ values
 )
 ]
 location
+:
+location
 }
 null
 principal
@@ -6470,6 +6548,8 @@ principal
 ;
 }
 removeNotification
+:
+function
 (
 name
 )
@@ -6487,11 +6567,15 @@ RemoveNotification
 "
 {
 name
+:
+name
 }
 )
 ;
 }
 clearPluginCaches
+:
+function
 (
 )
 {
@@ -6513,6 +6597,8 @@ clear
 ;
 }
 hideNotificationBar
+:
+function
 (
 name
 )
@@ -6529,6 +6615,8 @@ PluginContent
 HideNotificationBar
 "
 {
+name
+:
 name
 }
 )
@@ -6617,6 +6705,8 @@ otherwise
 *
 /
 isWithinFullScreenElement
+:
+function
 (
 fullScreenElement
 domElement
@@ -6842,6 +6932,8 @@ in
 *
 /
 onPluginCrashed
+:
+function
 (
 target
 aEvent
@@ -7040,6 +7132,8 @@ message
 ;
 }
 NPAPIPluginProcessCrashed
+:
+function
 (
 {
 pluginName
@@ -7337,6 +7431,10 @@ set
 runID
 {
 state
+:
+state
+message
+:
 message
 instances
 :
@@ -7374,6 +7472,8 @@ plugin
 }
 }
 setCrashedNPAPIPluginState
+:
+function
 (
 {
 plugin
@@ -7922,6 +8022,8 @@ false
 }
 }
 NPAPIPluginCrashReportSubmitted
+:
+function
 (
 {
 runID
@@ -8025,6 +8127,8 @@ state
 }
 }
 GMPCrashed
+:
+function
 (
 aEvent
 )

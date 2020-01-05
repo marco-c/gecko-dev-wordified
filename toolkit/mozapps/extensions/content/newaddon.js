@@ -152,6 +152,8 @@ EnableListener
 =
 {
 onEnabling
+:
+function
 (
 aAddon
 )

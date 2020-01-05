@@ -555,6 +555,8 @@ ID
 *
 /
 getClientID
+:
+function
 (
 )
 {
@@ -619,6 +621,8 @@ otherwise
 *
 /
 getCachedClientID
+:
+function
 (
 )
 {
@@ -656,6 +660,8 @@ file
 *
 /
 _reset
+:
+function
 (
 )
 {
@@ -687,6 +693,8 @@ _logger
 :
 null
 _loadClientID
+:
+function
 (
 )
 {
@@ -1211,6 +1219,8 @@ ID
 *
 /
 getClientID
+:
+function
 (
 )
 {
@@ -1294,6 +1304,8 @@ otherwise
 *
 /
 getCachedClientID
+:
+function
 (
 )
 {
@@ -1510,6 +1522,8 @@ otherwise
 *
 /
 updateClientID
+:
+function
 (
 id
 )

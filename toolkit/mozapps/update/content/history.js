@@ -126,6 +126,8 @@ Interface
 *
 /
 onLoad
+:
+function
 (
 )
 {
@@ -453,6 +455,8 @@ string
 *
 /
 _formatDate
+:
+function
 (
 seconds
 )

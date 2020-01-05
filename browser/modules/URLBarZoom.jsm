@@ -120,6 +120,8 @@ URLBarZoom
 =
 {
 init
+:
+function
 (
 aWindow
 )

@@ -338,6 +338,8 @@ canvas
 *
 /
 createCanvas
+:
+function
 (
 aWindow
 aWidth
@@ -503,6 +505,8 @@ calculate
 *
 /
 getThumbnailSize
+:
+function
 (
 aWindow
 =
@@ -919,6 +923,8 @@ bars
 *
 /
 getContentSize
+:
+function
 (
 aWindow
 )
@@ -1289,6 +1295,8 @@ window
 *
 /
 createSnapshotThumbnail
+:
+function
 (
 aWindow
 aDestCanvas
@@ -1829,6 +1837,8 @@ scale
 *
 /
 determineCropSize
+:
+function
 (
 aWindow
 aCanvas
@@ -2114,6 +2124,8 @@ scale
 ;
 }
 shouldStoreContentThumbnail
+:
+function
 (
 aDocument
 aDocShell
@@ -2531,6 +2543,8 @@ otherwise
 *
 /
 isChannelErrorResponse
+:
+function
 (
 channel
 )

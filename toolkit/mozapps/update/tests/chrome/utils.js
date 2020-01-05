@@ -6520,6 +6520,8 @@ to
 *
 /
 init
+:
+function
 (
 aObservePref
 aMaxErrorPref

@@ -314,6 +314,8 @@ certDBFactory
 =
 {
 createInstance
+:
+function
 (
 outer
 iid

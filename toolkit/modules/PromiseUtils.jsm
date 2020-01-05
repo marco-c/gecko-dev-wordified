@@ -148,6 +148,8 @@ state
 *
 /
 defer
+:
+function
 (
 )
 {

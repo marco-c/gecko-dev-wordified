@@ -401,6 +401,8 @@ nsISupportsWeakReference
 ]
 )
 observe
+:
+function
 (
 subject
 topic
@@ -829,6 +831,8 @@ break
 }
 }
 receiveMessage
+:
+function
 (
 message
 )

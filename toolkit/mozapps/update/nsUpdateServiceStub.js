@@ -342,6 +342,8 @@ prototype
 =
 {
 observe
+:
+function
 (
 )
 {

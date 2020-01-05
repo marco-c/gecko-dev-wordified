@@ -397,6 +397,8 @@ false
 }
 )
 dispose
+:
+function
 (
 )
 {
@@ -1007,6 +1009,8 @@ prototype
 =
 {
 unregister
+:
+function
 (
 )
 {
@@ -1086,6 +1090,8 @@ n
 ;
 }
 reset
+:
+function
 (
 )
 {
@@ -1319,6 +1325,8 @@ addonId
 "
 {
 get
+:
+function
 (
 )
 {

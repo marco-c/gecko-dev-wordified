@@ -327,6 +327,8 @@ arguments
 *
 /
 parseSync
+:
+function
 (
 aURI
 )
@@ -442,6 +444,10 @@ push
 (
 {
 type
+:
+type
+baseURI
+:
 baseURI
 args
 :
@@ -562,6 +568,8 @@ data
 ;
 }
 _readFromJar
+:
+function
 (
 aURI
 )
@@ -864,6 +872,8 @@ data
 ;
 }
 _readFromFile
+:
+function
 (
 aURI
 )
@@ -1043,6 +1053,8 @@ manifest
 *
 /
 hasType
+:
+function
 (
 aManifest
 aType

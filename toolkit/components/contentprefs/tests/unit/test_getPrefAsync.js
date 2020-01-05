@@ -168,6 +168,8 @@ asynctest
 "
 {
 onResult
+:
+function
 (
 aValue
 )

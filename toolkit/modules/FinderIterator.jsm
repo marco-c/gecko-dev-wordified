@@ -2579,8 +2579,10 @@ nsIDOMRange
 }
 *
 /
-*
 _yieldResult
+:
+function
+*
 (
 listener
 rangeSource
@@ -3935,8 +3937,10 @@ nsIDOMRange
 }
 *
 /
-*
 _iterateDocument
+:
+function
+*
 (
 {
 caseSensitive

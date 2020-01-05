@@ -588,6 +588,8 @@ install
 *
 /
 checkAllDownloaded
+:
+function
 (
 )
 {
@@ -1261,6 +1263,8 @@ observers
 *
 /
 checkAllInstalled
+:
+function
 (
 )
 {
@@ -1406,6 +1410,8 @@ null
 ;
 }
 onDownloadCancelled
+:
+function
 (
 aInstall
 )
@@ -1425,6 +1431,8 @@ checkAllDownloaded
 ;
 }
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -1444,6 +1452,8 @@ checkAllDownloaded
 ;
 }
 onDownloadEnded
+:
+function
 (
 aInstall
 )
@@ -1459,6 +1469,8 @@ false
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -1478,6 +1490,8 @@ checkAllInstalled
 ;
 }
 onInstallFailed
+:
+function
 (
 aInstall
 )
@@ -1497,6 +1511,8 @@ checkAllInstalled
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 )
@@ -1607,6 +1623,8 @@ idl
 *
 /
 onWebInstallDisabled
+:
+function
 (
 aBrowser
 aUri
@@ -1669,6 +1687,8 @@ idl
 *
 /
 onWebInstallOriginBlocked
+:
+function
 (
 aBrowser
 aUri
@@ -1689,6 +1709,8 @@ installs
 :
 aInstalls
 install
+:
+function
 (
 )
 {
@@ -1741,6 +1763,8 @@ idl
 *
 /
 onWebInstallBlocked
+:
+function
 (
 aBrowser
 aUri
@@ -1761,6 +1785,8 @@ installs
 :
 aInstalls
 install
+:
+function
 (
 )
 {
@@ -1825,6 +1851,8 @@ idl
 *
 /
 onWebInstallRequested
+:
+function
 (
 aBrowser
 aUri

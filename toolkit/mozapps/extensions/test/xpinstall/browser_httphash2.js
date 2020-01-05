@@ -229,6 +229,8 @@ URL
 :
 url
 toString
+:
+function
 (
 )
 {

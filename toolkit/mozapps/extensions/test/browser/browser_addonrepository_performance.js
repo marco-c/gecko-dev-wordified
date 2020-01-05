@@ -700,6 +700,8 @@ org
 ]
 {
 searchFailed
+:
+function
 (
 )
 {

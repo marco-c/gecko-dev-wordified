@@ -6492,8 +6492,10 @@ CrawlIterator
 prototype
 =
 {
-*
 __iterator__
+:
+function
+*
 (
 )
 {

@@ -244,8 +244,10 @@ about
 profile
 changes
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -323,6 +325,8 @@ withNewTab
 (
 {
 gBrowser
+:
+gBrowser
 url
 :
 TEST_BASE_URL
@@ -361,8 +365,10 @@ the
 fxAccounts
 object
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -503,6 +509,8 @@ helpers
 :
 {
 login
+:
+login
 }
 }
 )
@@ -516,6 +524,8 @@ BrowserTestUtils
 withNewTab
 (
 {
+gBrowser
+:
 gBrowser
 url
 :
@@ -552,8 +562,10 @@ messages
 should
 respond
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -749,6 +761,8 @@ withNewTab
 (
 {
 gBrowser
+:
+gBrowser
 url
 :
 properUrl
@@ -782,8 +796,10 @@ the
 fxAccounts
 object
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -848,6 +864,8 @@ helpers
 :
 {
 logout
+:
+logout
 }
 }
 )
@@ -861,6 +879,8 @@ BrowserTestUtils
 withNewTab
 (
 {
+gBrowser
+:
 gBrowser
 url
 :
@@ -900,8 +920,10 @@ the
 fxAccounts
 object
 "
-*
 run
+:
+function
+*
 (
 )
 {
@@ -966,6 +988,8 @@ helpers
 :
 {
 logout
+:
+logout
 }
 }
 )
@@ -979,6 +1003,8 @@ BrowserTestUtils
 withNewTab
 (
 {
+gBrowser
+:
 gBrowser
 url
 :

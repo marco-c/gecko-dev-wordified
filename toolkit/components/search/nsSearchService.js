@@ -2756,6 +2756,8 @@ bug
 /
 nsIHttpEventSink
 onRedirect
+:
+function
 (
 aChannel
 aNewChannel
@@ -2766,6 +2768,8 @@ aNewChannel
 /
 nsIProgressEventSink
 onProgress
+:
+function
 (
 aRequest
 aContext
@@ -2775,6 +2779,8 @@ aProgressMax
 {
 }
 onStatus
+:
+function
 (
 aRequest
 aContext
@@ -10892,6 +10898,8 @@ newChannel
 (
 {
 uri
+:
+uri
 loadUsingSystemPrincipal
 :
 true
@@ -11339,6 +11347,8 @@ NetUtil
 newChannel
 (
 {
+uri
+:
 uri
 loadUsingSystemPrincipal
 :
@@ -13337,6 +13347,8 @@ NetUtil
 newChannel
 (
 {
+uri
+:
 uri
 loadUsingSystemPrincipal
 :
@@ -18245,6 +18257,8 @@ _buildParseSubmissionMap
 *
 /
 getURLParsingInfo
+:
+function
 (
 )
 {
@@ -18369,6 +18383,8 @@ filePath
 toLowerCase
 (
 )
+termsParameterName
+:
 termsParameterName
 }
 ;
@@ -22271,6 +22287,8 @@ done
 }
 )
 _asyncReInit
+:
+function
 (
 )
 {
@@ -25304,6 +25322,8 @@ engines
 }
 )
 _convertChannelToFile
+:
+function
 (
 chan
 )
@@ -30778,6 +30798,8 @@ result
 ;
 }
 _recordEngineTelemetry
+:
+function
 (
 )
 {
@@ -31185,6 +31207,8 @@ mapValueForEngine
 =
 {
 engine
+:
+engine
 termsParameterName
 :
 urlParsingInfo
@@ -31437,6 +31461,8 @@ params
 *
 /
 hasEngineWithURL
+:
+function
 (
 method
 template

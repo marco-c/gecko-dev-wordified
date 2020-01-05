@@ -1748,6 +1748,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -1784,6 +1786,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -1819,6 +1823,8 @@ key
 "
 VK_DOWN
 "
+modifiers
+:
 modifiers
 }
 )
@@ -1857,6 +1863,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -1892,6 +1900,8 @@ key
 "
 VK_UP
 "
+modifiers
+:
 modifiers
 }
 )
@@ -1930,6 +1940,8 @@ key
 VK_UP
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -1966,6 +1978,8 @@ key
 VK_UP
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -2001,6 +2015,8 @@ key
 "
 VK_UP
 "
+modifiers
+:
 modifiers
 }
 )
@@ -2242,6 +2258,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -2278,6 +2296,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -2314,6 +2334,8 @@ key
 VK_DOWN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -2348,6 +2370,8 @@ key
 "
 VK_UP
 "
+modifiers
+:
 modifiers
 }
 )
@@ -2384,6 +2408,8 @@ key
 "
 VK_UP
 "
+modifiers
+:
 modifiers
 }
 )
@@ -2420,6 +2446,8 @@ key
 "
 VK_UP
 "
+modifiers
+:
 modifiers
 }
 )
@@ -2549,6 +2577,8 @@ key
 VK_UP
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -2615,6 +2645,8 @@ key
 "
 VK_DOWN
 "
+modifiers
+:
 modifiers
 }
 )
@@ -3845,6 +3877,8 @@ key
 VK_RETURN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -3985,6 +4019,8 @@ key
 VK_RETURN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -4128,6 +4164,8 @@ key
 VK_RETURN
 "
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -4251,6 +4289,8 @@ eltIdx
 -
 1
 modifiers
+:
+modifiers
 }
 )
 ;
@@ -4357,6 +4397,8 @@ click
 eltIdx
 :
 1
+modifiers
+:
 modifiers
 }
 )
@@ -4473,6 +4515,8 @@ click
 eltIdx
 :
 3
+modifiers
+:
 modifiers
 }
 )
@@ -4603,6 +4647,8 @@ click
 eltIdx
 :
 3
+modifiers
+:
 modifiers
 }
 )
@@ -4744,6 +4790,8 @@ key
 "
 VK_RETURN
 "
+modifiers
+:
 modifiers
 }
 )
@@ -4921,6 +4969,8 @@ key
 "
 VK_RETURN
 "
+modifiers
+:
 modifiers
 }
 )
@@ -5207,6 +5257,8 @@ click
 eltIdx
 :
 1
+modifiers
+:
 modifiers
 }
 )
@@ -5740,6 +5792,10 @@ sendAsyncMessage
 TEST_MSG
 {
 type
+:
+type
+data
+:
 data
 }
 )

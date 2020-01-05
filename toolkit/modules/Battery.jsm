@@ -479,6 +479,8 @@ Battery
 prop
 {
 get
+:
+function
 (
 )
 {
@@ -530,6 +532,8 @@ prop
 ;
 }
 set
+:
+function
 (
 fakeSetting
 )

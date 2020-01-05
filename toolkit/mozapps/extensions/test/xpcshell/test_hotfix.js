@@ -494,6 +494,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 )
 {
@@ -747,6 +749,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 )
 {
@@ -838,6 +842,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 )
 {
@@ -1003,6 +1009,8 @@ addInstallListener
 (
 {
 onNewInstall
+:
+function
 (
 )
 {

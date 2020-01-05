@@ -565,6 +565,8 @@ sourceProfiles
 "
 {
 get
+:
+function
 (
 )
 {
@@ -976,6 +978,8 @@ type
 :
 aMigrationType
 migrate
+:
+function
 (
 aCallback
 )
@@ -1182,6 +1186,8 @@ types
 .
 SESSION
 migrate
+:
+function
 (
 aCallback
 )

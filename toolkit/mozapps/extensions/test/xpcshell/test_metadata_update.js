@@ -318,6 +318,8 @@ expected
 :
 false
 openWindow
+:
+function
 (
 parent
 url
@@ -356,6 +358,8 @@ false
 ;
 }
 QueryInterface
+:
+function
 (
 iid
 )

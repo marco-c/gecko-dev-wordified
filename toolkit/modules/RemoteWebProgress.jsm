@@ -398,6 +398,8 @@ _loadType
 ;
 }
 addProgressListener
+:
+function
 (
 aListener
 )
@@ -413,6 +415,8 @@ aListener
 ;
 }
 removeProgressListener
+:
+function
 (
 aListener
 )
@@ -632,6 +636,8 @@ prototype
 =
 {
 swapBrowser
+:
+function
 (
 aBrowser
 )
@@ -839,6 +845,8 @@ _topLevelWebProgress
 ;
 }
 addProgressListener
+:
+function
 (
 aListener
 )
@@ -866,6 +874,8 @@ listener
 ;
 }
 removeProgressListener
+:
+function
 (
 aListener
 )
@@ -891,6 +901,8 @@ aListener
 ;
 }
 _fixSSLStatusAndState
+:
+function
 (
 aStatus
 aState
@@ -961,6 +973,8 @@ aState
 ;
 }
 setCurrentURI
+:
+function
 (
 aURI
 )
@@ -1034,6 +1048,8 @@ aURI
 }
 }
 _callProgressListeners
+:
+function
 (
 methodName
 .
@@ -1109,6 +1125,8 @@ n
 }
 }
 receiveMessage
+:
+function
 (
 aMessage
 )

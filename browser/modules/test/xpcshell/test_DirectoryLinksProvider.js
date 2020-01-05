@@ -1782,6 +1782,8 @@ event
 =
 {
 notify
+:
+function
 (
 )
 {
@@ -7849,6 +7851,8 @@ getEnhancedLink
 (
 {
 url
+:
+url
 }
 )
 ;
@@ -11016,6 +11020,8 @@ com
 "
 }
 isPinned
+:
+function
 (
 )
 {
@@ -11276,6 +11282,8 @@ TRANSITION_LINK
 }
 {
 handleError
+:
+function
 (
 )
 {
@@ -11286,11 +11294,15 @@ false
 ;
 }
 handleResult
+:
+function
 (
 )
 {
 }
 handleCompletion
+:
+function
 (
 )
 {
@@ -13431,6 +13443,8 @@ reportSitesAction
 [
 {
 isPinned
+:
+function
 (
 )
 {

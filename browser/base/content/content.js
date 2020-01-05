@@ -935,6 +935,10 @@ subject
 =
 {
 event
+:
+event
+addonInfo
+:
 addonInfo
 }
 ;
@@ -1587,12 +1591,18 @@ isRemote
 :
 false
 event
+:
+event
 popupNode
 :
 event
 .
 target
 browser
+:
+browser
+addonInfo
+:
 addonInfo
 documentURIObject
 :
@@ -1600,11 +1610,25 @@ doc
 .
 documentURIObject
 docLocation
+:
+docLocation
+charSet
+:
 charSet
 referrer
+:
+referrer
+referrerPolicy
+:
 referrerPolicy
 contentType
+:
+contentType
 contentDisposition
+:
+contentDisposition
+selectionInfo
+:
 selectionInfo
 disableSetDesktopBackground
 :
@@ -1899,6 +1923,8 @@ AboutNetAndCertErrorListener
 =
 {
 init
+:
+function
 (
 chromeGlobal
 )
@@ -2027,6 +2053,8 @@ certerror
 ;
 }
 receiveMessage
+:
+function
 (
 msg
 )
@@ -2450,6 +2478,8 @@ AboutNetErrorCaptivePortalFreed
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -2551,6 +2581,8 @@ break
 }
 }
 changedCertPrefs
+:
+function
 (
 )
 {
@@ -2584,6 +2616,8 @@ false
 ;
 }
 onPageLoad
+:
+function
 (
 evt
 )
@@ -2684,6 +2718,8 @@ changedCertPrefs
 (
 )
 automatic
+:
+automatic
 }
 )
 }
@@ -2706,6 +2742,8 @@ TLS_ERROR_REPORT_TELEMETRY_UI_SHOWN
 ;
 }
 openCaptivePortalPage
+:
+function
 (
 evt
 )
@@ -2721,6 +2759,8 @@ OpenCaptivePortalPage
 ;
 }
 onResetPreferences
+:
+function
 (
 evt
 )
@@ -2736,6 +2776,8 @@ ResetSSLPreferences
 ;
 }
 onSetAutomatic
+:
+function
 (
 evt
 )
@@ -2815,6 +2857,8 @@ docShell
 }
 }
 onOverride
+:
+function
 (
 evt
 )
@@ -2900,6 +2944,8 @@ true
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -3191,6 +3237,8 @@ null
 bookmark
 :
 false
+referrerPolicy
+:
 referrerPolicy
 originAttributes
 :
@@ -3526,6 +3574,8 @@ json
 }
 }
 onCertError
+:
+function
 (
 targetElement
 ownerDoc
@@ -3610,6 +3660,8 @@ docShell
 ;
 }
 onAboutBlocked
+:
+function
 (
 targetElement
 ownerDoc
@@ -3685,6 +3737,8 @@ location
 .
 href
 reason
+:
+reason
 elementId
 :
 targetElement
@@ -3715,6 +3769,8 @@ defaultView
 ;
 }
 onAboutNetError
+:
+function
 (
 event
 documentURI
@@ -3932,6 +3988,8 @@ t
 *
 /
 _hrefAndLinkNodeForClickEvent
+:
+function
 (
 event
 )
@@ -4438,6 +4496,8 @@ response
 StartBrowserSharing
 "
 {
+windowID
+:
 windowID
 }
 )
@@ -5906,6 +5966,8 @@ Result
 "
 {
 isErrorPage
+:
+isErrorPage
 description
 :
 PlacesUIUtils
@@ -5928,6 +5990,8 @@ _previewWindow
 :
 null
 init
+:
+function
 (
 )
 {
@@ -5963,6 +6027,8 @@ true
 ;
 }
 handleEvent
+:
+function
 (
 event
 )
@@ -6147,6 +6213,8 @@ break
 }
 }
 _resetPreviewWindow
+:
+function
 (
 )
 {
@@ -6487,6 +6555,8 @@ PageInfoListener
 =
 {
 init
+:
+function
 (
 )
 {
@@ -6502,6 +6572,8 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
 message
 )
@@ -6679,6 +6751,8 @@ strings
 ;
 }
 getImageInfo
+:
+function
 (
 imageElement
 )
@@ -6729,6 +6803,8 @@ imageInfo
 ;
 }
 getMetaInfo
+:
+function
 (
 document
 )
@@ -6804,6 +6880,8 @@ metaViewRows
 ;
 }
 getWindowInfo
+:
+function
 (
 window
 )
@@ -6858,6 +6936,8 @@ windowInfo
 ;
 }
 getDocumentInfo
+:
+function
 (
 document
 )
@@ -6984,6 +7064,8 @@ docInfo
 ;
 }
 getFeedsInfo
+:
+function
 (
 document
 strings
@@ -7220,6 +7302,8 @@ content
 page
 .
 getMediaInfo
+:
+function
 (
 document
 window
@@ -7257,6 +7341,8 @@ strings
 ;
 }
 goThroughFrames
+:
+function
 (
 document
 window
@@ -7346,8 +7432,10 @@ return
 frameList
 ;
 }
-*
 processFrames
+:
+function
+*
 (
 document
 frameList
@@ -7519,6 +7607,8 @@ true
 ;
 }
 getMediaItems
+:
+function
 (
 document
 strings
@@ -8314,6 +8404,8 @@ preview
 *
 /
 serializeElementInfo
+:
+function
 (
 document
 url
@@ -8893,6 +8985,8 @@ of
 the
 node
 getValueText
+:
+function
 (
 node
 )
@@ -9175,6 +9269,8 @@ alt
 tag
 .
 getAltText
+:
+function
 (
 node
 )
@@ -9308,6 +9404,8 @@ single
 space
 .
 stripWS
+:
+function
 (
 text
 )

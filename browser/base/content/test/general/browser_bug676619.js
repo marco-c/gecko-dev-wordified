@@ -493,6 +493,8 @@ addListener
 (
 {
 onOpenWindow
+:
+function
 (
 aXULWindow
 )
@@ -574,12 +576,16 @@ domwindow
 ;
 }
 onCloseWindow
+:
+function
 (
 aXULWindow
 )
 {
 }
 onWindowTitleChange
+:
+function
 (
 aXULWindow
 aNewTitle
@@ -691,6 +697,8 @@ browser
 :
 null
 handleEvent
+:
+function
 (
 event
 )

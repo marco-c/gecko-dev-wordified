@@ -178,6 +178,8 @@ errorListener
 =
 {
 observe
+:
+function
 (
 aMessage
 )

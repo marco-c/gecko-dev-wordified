@@ -2338,6 +2338,8 @@ Promise
 *
 /
 executeBeforeShutdown
+:
+function
 (
 parent
 name
@@ -2881,6 +2883,8 @@ this
 ;
 }
 close
+:
+function
 (
 )
 {
@@ -2967,6 +2971,8 @@ _finalize
 ;
 }
 clone
+:
+function
 (
 readOnly
 =
@@ -3004,6 +3010,8 @@ this
 .
 _dbConn
 readOnly
+:
+readOnly
 }
 ;
 if
@@ -3028,6 +3036,8 @@ options
 ;
 }
 _getOperationId
+:
+function
 (
 )
 {
@@ -3040,6 +3050,8 @@ _operationsCounter
 ;
 }
 _finalize
+:
+function
 (
 )
 {
@@ -3379,6 +3391,8 @@ promise
 ;
 }
 executeCached
+:
+function
 (
 sql
 params
@@ -3541,6 +3555,8 @@ ex
 ;
 }
 execute
+:
+function
 (
 sql
 params
@@ -3748,6 +3764,8 @@ _hasInProgressTransaction
 ;
 }
 executeTransaction
+:
+function
 (
 func
 type
@@ -4593,6 +4611,8 @@ promise
 ;
 }
 shrinkMemory
+:
+function
 (
 )
 {
@@ -4641,6 +4661,8 @@ onShrunk
 ;
 }
 discardCachedStatements
+:
+function
 (
 )
 {
@@ -4727,6 +4749,8 @@ reflection
 *
 /
 _bindParameters
+:
+function
 (
 statement
 params
@@ -4964,6 +4988,8 @@ params
 ;
 }
 _executeStatement
+:
+function
 (
 sql
 statement
@@ -5196,6 +5222,8 @@ executeAsync
 (
 {
 handleResult
+:
+function
 (
 resultSet
 )
@@ -5325,6 +5353,8 @@ e
 }
 }
 handleError
+:
+function
 (
 error
 )
@@ -5366,6 +5396,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -5629,6 +5661,8 @@ promise
 ;
 }
 ensureOpen
+:
+function
 (
 )
 {
@@ -5656,6 +5690,8 @@ open
 }
 }
 _clearIdleShrinkTimer
+:
+function
 (
 )
 {
@@ -5680,6 +5716,8 @@ cancel
 ;
 }
 _startIdleShrinkTimer
+:
+function
 (
 )
 {
@@ -8113,6 +8151,8 @@ int
 *
 /
 getSchemaVersion
+:
+function
 (
 )
 {
@@ -8168,6 +8208,8 @@ getInt32
 ;
 }
 setSchemaVersion
+:
+function
 (
 value
 )
@@ -8343,6 +8385,8 @@ Promise
 *
 /
 close
+:
+function
 (
 )
 {
@@ -8527,6 +8571,8 @@ OpenedConnection
 *
 /
 clone
+:
+function
 (
 readOnly
 =
@@ -8545,6 +8591,8 @@ readOnly
 ;
 }
 executeBeforeShutdown
+:
+function
 (
 name
 task
@@ -9073,6 +9121,8 @@ result
 *
 /
 executeCached
+:
+function
 (
 sql
 params
@@ -9224,6 +9274,8 @@ row
 *
 /
 execute
+:
+function
 (
 sql
 params
@@ -9751,6 +9803,8 @@ type
 *
 /
 executeTransaction
+:
+function
 (
 func
 type
@@ -9852,6 +9906,8 @@ bool
 *
 /
 tableExists
+:
+function
 (
 name
 )
@@ -9963,6 +10019,8 @@ bool
 *
 /
 indexExists
+:
+function
 (
 name
 )
@@ -10060,6 +10118,8 @@ Promise
 *
 /
 shrinkMemory
+:
+function
 (
 )
 {
@@ -10143,6 +10203,8 @@ discarded
 *
 /
 discardCachedStatements
+:
+function
 (
 )
 {
@@ -10165,7 +10227,13 @@ Sqlite
 =
 {
 openConnection
+:
+openConnection
 cloneStorageConnection
+:
+cloneStorageConnection
+wrapStorageConnection
+:
 wrapStorageConnection
 /
 *

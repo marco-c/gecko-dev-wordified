@@ -173,6 +173,8 @@ saveHttpsForms
 :
 true
 init
+:
+function
 (
 )
 {
@@ -222,6 +224,8 @@ false
 ;
 }
 updatePrefs
+:
+function
 (
 )
 {
@@ -307,6 +311,8 @@ wiki
 /
 Luhn_algorithm
 isValidCCNumber
+:
+function
 (
 ccNumber
 )
@@ -472,6 +478,8 @@ total
 ;
 }
 log
+:
+function
 (
 message
 )
@@ -531,6 +539,8 @@ handler
 *
 /
 handleEvent
+:
+function
 (
 e
 )
@@ -614,6 +624,8 @@ interface
 *
 /
 observe
+:
+function
 (
 subject
 topic
@@ -669,6 +681,8 @@ interfaces
 *
 /
 notify
+:
+function
 (
 form
 domWin
@@ -1203,6 +1217,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )

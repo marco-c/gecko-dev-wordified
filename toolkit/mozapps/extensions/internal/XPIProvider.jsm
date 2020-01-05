@@ -2665,6 +2665,8 @@ gGlobalScope
 name
 {
 get
+:
+function
 (
 )
 {
@@ -3317,6 +3319,8 @@ _createdDirs
 :
 null
 _installFile
+:
+function
 (
 aFile
 aTargetDirectory
@@ -3496,12 +3500,18 @@ push
 (
 {
 oldFile
+:
+oldFile
+newFile
+:
 newFile
 }
 )
 ;
 }
 _installDirectory
+:
+function
 (
 aDirectory
 aTargetDirectory
@@ -3889,6 +3899,8 @@ newDir
 ;
 }
 _installDirEntry
+:
+function
 (
 aDirEntry
 aTargetDirectory
@@ -4163,6 +4175,8 @@ directory
 *
 /
 moveUnder
+:
+function
 (
 aFile
 aTargetDirectory
@@ -4255,6 +4269,8 @@ file
 *
 /
 moveTo
+:
+function
 (
 aOldLocation
 aNewLocation
@@ -4298,6 +4314,10 @@ push
 (
 {
 oldFile
+:
+oldFile
+newFile
+:
 newFile
 isMoveTo
 :
@@ -4388,6 +4408,8 @@ directory
 *
 /
 copy
+:
+function
 (
 aFile
 aTargetDirectory
@@ -4457,6 +4479,8 @@ state
 *
 /
 rollback
+:
+function
 (
 )
 {
@@ -12465,6 +12489,8 @@ callback
 =
 {
 openSignedAppFileFinished
+:
+function
 (
 aRv
 aZipReader
@@ -12697,6 +12723,8 @@ callback
 =
 {
 verifySignedDirectoryFinished
+:
+function
 (
 aRv
 aCert
@@ -14678,6 +14706,8 @@ aFile
 .
 path
 e
+:
+e
 }
 )
 ;
@@ -15558,6 +15588,8 @@ location
 "
 {
 id
+:
+id
 location
 :
 location
@@ -15697,6 +15729,8 @@ location
 "
 {
 id
+:
+id
 location
 :
 location
@@ -15726,6 +15760,8 @@ location
 }
 "
 {
+id
+:
 id
 location
 :
@@ -16997,6 +17033,8 @@ ID
 *
 /
 sortBootstrappedAddons
+:
+function
 (
 )
 {
@@ -17187,6 +17225,8 @@ ID
 *
 /
 setTelemetry
+:
+function
 (
 aId
 aName
@@ -17245,6 +17285,8 @@ _inProgress
 [
 ]
 doing
+:
+function
 (
 aCancellable
 )
@@ -17260,6 +17302,8 @@ aCancellable
 ;
 }
 done
+:
+function
 (
 aCancellable
 )
@@ -17304,6 +17348,8 @@ false
 ;
 }
 cancelAll
+:
+function
 (
 )
 {
@@ -17439,6 +17485,8 @@ map
 *
 /
 _addURIMapping
+:
+function
 (
 aID
 aFile
@@ -17528,6 +17576,8 @@ nsIFileURL
 *
 /
 _resolveURIToFile
+:
+function
 (
 aURI
 )
@@ -17919,6 +17969,8 @@ unknown
 *
 /
 startup
+:
+function
 (
 aAppChanged
 aOldAppVersion
@@ -19421,6 +19473,8 @@ addObserver
 (
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -19670,6 +19724,8 @@ addObserver
 (
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -19869,6 +19925,8 @@ otherwise
 *
 /
 shutdown
+:
+function
 (
 )
 {
@@ -20177,6 +20235,8 @@ preferences
 *
 /
 applyThemeChange
+:
+function
 (
 )
 {
@@ -20384,6 +20444,8 @@ performed
 *
 /
 shouldForceUpdateCheck
+:
+function
 (
 aAppChanged
 )
@@ -20627,6 +20689,8 @@ updates
 *
 /
 showUpgradeUI
+:
+function
 (
 aAddonIDs
 )
@@ -21882,6 +21946,8 @@ signed
 *
 /
 verifySignatures
+:
+function
 (
 )
 {
@@ -22123,6 +22189,8 @@ pref
 *
 /
 persistBootstrappedAddons
+:
+function
 (
 )
 {
@@ -22228,6 +22296,8 @@ report
 *
 /
 addAddonsToCrashReporter
+:
+function
 (
 )
 {
@@ -22464,6 +22534,8 @@ uninstalled
 *
 /
 processPendingFileChanges
+:
+function
 (
 aManifests
 )
@@ -23753,6 +23825,8 @@ uninstall
 uninstallReason
 {
 newVersion
+:
+newVersion
 }
 )
 ;
@@ -24052,6 +24126,8 @@ installed
 *
 /
 installDistributionAddons
+:
+function
 (
 aManifests
 aAppChanged
@@ -24777,6 +24853,8 @@ later
 *
 /
 importPermissions
+:
+function
 (
 )
 {
@@ -24790,6 +24868,8 @@ XPI_PERMISSION
 ;
 }
 getDependentAddons
+:
+function
 (
 aAddon
 )
@@ -24973,6 +25053,8 @@ detected
 *
 /
 checkForChanges
+:
+function
 (
 aAppChanged
 aOldAppVersion
@@ -26207,6 +26289,8 @@ xpinstall
 *
 /
 supportsMimetype
+:
+function
 (
 aMimetype
 )
@@ -26251,6 +26335,8 @@ enabled
 *
 /
 isInstallEnabled
+:
+function
 (
 )
 {
@@ -26310,6 +26396,8 @@ whitelisted
 *
 /
 isDirectRequestWhitelisted
+:
+function
 (
 )
 {
@@ -26369,6 +26457,8 @@ whitelisted
 *
 /
 isFileRequestWhitelisted
+:
+function
 (
 )
 {
@@ -26434,6 +26524,8 @@ allowed
 *
 /
 isInstallAllowed
+:
+function
 (
 aInstallingPrincipal
 )
@@ -26645,6 +26737,8 @@ install
 IDs
 .
 isTemporaryInstallID
+:
+function
 (
 id
 )
@@ -26748,6 +26842,8 @@ to
 *
 /
 getInstallForURL
+:
+function
 (
 aUrl
 aHash
@@ -26909,6 +27005,8 @@ to
 *
 /
 getInstallForFile
+:
+function
 (
 aFile
 aCallback
@@ -27011,6 +27109,8 @@ value
 *
 /
 installTemporaryAddon
+:
+function
 (
 aFile
 )
@@ -27913,6 +28013,8 @@ specified
 *
 /
 getAddonByInstanceID
+:
+function
 (
 aInstanceID
 )
@@ -28069,6 +28171,8 @@ remove
 *
 /
 removeActiveInstall
+:
+function
 (
 aInstall
 )
@@ -28125,6 +28229,8 @@ to
 *
 /
 getAddonByID
+:
+function
 (
 aId
 aCallback
@@ -28204,6 +28310,8 @@ to
 *
 /
 getAddonsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -28293,6 +28401,8 @@ found
 *
 /
 getAddonBySyncGUID
+:
+function
 (
 aGUID
 aCallback
@@ -28371,6 +28481,8 @@ to
 *
 /
 getAddonsWithOperationsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -28511,6 +28623,8 @@ to
 *
 /
 getInstallsByTypes
+:
+function
 (
 aTypes
 aCallback
@@ -28665,6 +28779,8 @@ mapURIToAddonID
 *
 /
 mapURIToAddonID
+:
+function
 (
 aURI
 )
@@ -28776,6 +28892,8 @@ restart
 *
 /
 addonChanged
+:
+function
 (
 aId
 aType
@@ -29108,6 +29226,8 @@ ons
 *
 /
 updateAddonAppDisabledStates
+:
+function
 (
 )
 {
@@ -29167,6 +29287,8 @@ complete
 *
 /
 updateAddonRepositoryData
+:
+function
 (
 aCallback
 )
@@ -29340,6 +29462,8 @@ theme
 *
 /
 enableDefaultTheme
+:
+function
 (
 )
 {
@@ -29521,6 +29645,8 @@ theme
 }
 }
 onDebugConnectionChange
+:
+function
 (
 aEvent
 aWhat
@@ -29595,6 +29721,8 @@ nsIObserver
 *
 /
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -29809,6 +29937,8 @@ e10s
 *
 /
 isBlockingE10s
+:
+function
 (
 aAddon
 )
@@ -30062,6 +30192,8 @@ restart
 *
 /
 e10sBlocksEnabling
+:
+function
 (
 aAddon
 )
@@ -30169,6 +30301,8 @@ restart
 *
 /
 enableRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -30404,6 +30538,8 @@ restart
 *
 /
 disableRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -30729,6 +30865,8 @@ restart
 *
 /
 installRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -31101,6 +31239,8 @@ restart
 *
 /
 uninstallRequiresRestart
+:
+function
 (
 aAddon
 )
@@ -31381,6 +31521,8 @@ scope
 *
 /
 loadBootstrapScope
+:
+function
 (
 aId
 aFile
@@ -32163,6 +32305,8 @@ ID
 *
 /
 unloadBootstrapScope
+:
+function
 (
 aId
 )
@@ -32376,6 +32520,8 @@ argument
 *
 /
 callBootstrapMethod
+:
+function
 (
 aAddon
 aFile
@@ -33359,6 +33505,8 @@ DBAddonInternal
 *
 /
 updateAddonDisabledState
+:
+function
 (
 aAddon
 aUserDisabled
@@ -33625,6 +33773,8 @@ aAddon
 userDisabled
 :
 aUserDisabled
+appDisabled
+:
 appDisabled
 softDisabled
 :
@@ -34248,6 +34398,8 @@ it
 *
 /
 uninstallAddon
+:
+function
 (
 aAddon
 aForcePending
@@ -35204,6 +35356,8 @@ for
 *
 /
 cancelUninstallAddon
+:
+function
 (
 aAddon
 )
@@ -44315,6 +44469,8 @@ handler
 ;
 }
 install
+:
+function
 (
 )
 {
@@ -44329,6 +44485,8 @@ install
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -44343,6 +44501,8 @@ cancel
 ;
 }
 addListener
+:
+function
 (
 listener
 )
@@ -44359,6 +44519,8 @@ listener
 ;
 }
 removeListener
+:
+function
 (
 listener
 )
@@ -44429,6 +44591,8 @@ prototype
 aProp
 {
 get
+:
+function
 (
 )
 {
@@ -44813,6 +44977,8 @@ listener
 *
 /
 callListener
+:
+function
 (
 aMethod
 .
@@ -44903,6 +45069,8 @@ on
 *
 /
 onUpdateCheckComplete
+:
+function
 (
 aUpdates
 )
@@ -45518,6 +45686,8 @@ status
 *
 /
 onUpdateCheckError
+:
+function
 (
 aError
 )
@@ -45601,6 +45771,8 @@ check
 *
 /
 cancel
+:
+function
 (
 )
 {
@@ -46345,6 +46517,8 @@ needsABI
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -46853,6 +47027,8 @@ wrapper
 ;
 }
 applyCompatibilityUpdate
+:
+function
 (
 aUpdate
 aSyncCompatibility
@@ -47001,6 +47177,8 @@ it
 *
 /
 getDataDirectory
+:
+function
 (
 callback
 )
@@ -47214,6 +47392,8 @@ setters
 *
 /
 toJSON
+:
+function
 (
 aKey
 )
@@ -47395,6 +47575,8 @@ metadata
 *
 /
 importMetadata
+:
+function
 (
 aObj
 )
@@ -47451,6 +47633,8 @@ this
 ;
 }
 permissions
+:
+function
 (
 )
 {
@@ -47783,6 +47967,8 @@ hasEmbeddedWebExtension
 ;
 }
 markAsSeen
+:
+function
 (
 )
 {
@@ -49752,6 +49938,8 @@ KEY_APP_PROFILE
 ;
 }
 isCompatibleWith
+:
+function
 (
 aAppVersion
 aPlatformVersion
@@ -49771,6 +49959,8 @@ aPlatformVersion
 ;
 }
 uninstall
+:
+function
 (
 alwaysAllowUndo
 )
@@ -49793,6 +49983,8 @@ alwaysAllowUndo
 ;
 }
 cancelUninstall
+:
+function
 (
 )
 {
@@ -49813,6 +50005,8 @@ addon
 ;
 }
 findUpdates
+:
+function
 (
 aListener
 aReason
@@ -49899,6 +50093,8 @@ update
 to
 cancel
 cancelUpdate
+:
+function
 (
 )
 {
@@ -49934,6 +50130,8 @@ false
 ;
 }
 hasResource
+:
+function
 (
 aPath
 )
@@ -50239,6 +50437,8 @@ Promise
 *
 /
 reload
+:
+function
 (
 )
 {
@@ -50471,6 +50671,8 @@ nsIURI
 *
 /
 getResourceURI
+:
+function
 (
 aPath
 )
@@ -52009,6 +52211,8 @@ directory
 *
 /
 _readDirectoryFromFile
+:
+function
 (
 aFile
 )
@@ -52359,6 +52563,8 @@ location
 *
 /
 _readAddons
+:
+function
 (
 )
 {
@@ -52744,6 +52950,8 @@ location
 *
 /
 getAddonLocations
+:
+function
 (
 )
 {
@@ -52841,6 +53049,8 @@ installed
 *
 /
 getLocationForID
+:
+function
 (
 aId
 )
@@ -52920,6 +53130,8 @@ addon
 *
 /
 isLinkedAddon
+:
+function
 (
 aId
 )
@@ -53087,6 +53299,8 @@ nsIFile
 *
 /
 getStagingDir
+:
+function
 (
 )
 {
@@ -53113,6 +53327,8 @@ dir
 ;
 }
 requestStagingDir
+:
+function
 (
 )
 {
@@ -53225,6 +53441,8 @@ e
 ;
 }
 releaseStagingDir
+:
+function
 (
 )
 {
@@ -53318,6 +53536,8 @@ empty
 *
 /
 cleanStagingDir
+:
+function
 (
 aLeafNames
 =
@@ -53515,6 +53735,8 @@ nsIFile
 *
 /
 getTrashDir
+:
+function
 (
 )
 {
@@ -53738,6 +53960,8 @@ to
 *
 /
 installAddon
+:
+function
 (
 {
 id
@@ -54375,6 +54599,8 @@ installed
 *
 /
 uninstallAddon
+:
+function
 (
 aId
 )
@@ -54954,6 +55180,8 @@ empty
 *
 /
 cleanStagingDir
+:
+function
 (
 aLeafNames
 =
@@ -55134,6 +55362,8 @@ upgrades
 *
 /
 getStagingDir
+:
+function
 (
 )
 {
@@ -55224,6 +55454,8 @@ dir
 ;
 }
 requestStagingDir
+:
+function
 (
 )
 {
@@ -55381,6 +55613,8 @@ e
 ;
 }
 releaseStagingDir
+:
+function
 (
 )
 {
@@ -55437,6 +55671,8 @@ ons
 *
 /
 _loadAddonSet
+:
+function
 (
 )
 {
@@ -55567,6 +55803,8 @@ versions
 *
 /
 _saveAddonSet
+:
+function
 (
 aAddonSet
 )
@@ -55586,6 +55824,8 @@ aAddonSet
 ;
 }
 getAddonLocations
+:
+function
 (
 )
 {
@@ -55695,6 +55935,8 @@ expected
 *
 /
 isActive
+:
+function
 (
 )
 {
@@ -55708,6 +55950,8 @@ null
 ;
 }
 isValidAddon
+:
+function
 (
 aAddon
 )
@@ -55870,6 +56114,8 @@ expected
 *
 /
 isValid
+:
+function
 (
 aAddons
 )
@@ -56042,6 +56288,8 @@ used
 *
 /
 resetAddonSet
+:
+function
 (
 )
 {
@@ -57398,6 +57646,8 @@ nsIFile
 *
 /
 getTrashDir
+:
+function
 (
 )
 {
@@ -57541,6 +57791,8 @@ to
 *
 /
 installAddon
+:
+function
 (
 {
 id
@@ -58270,6 +58522,8 @@ mapping
 *
 /
 _readAddons
+:
+function
 (
 aKey
 )
@@ -58442,6 +58696,8 @@ location
 *
 /
 getAddonLocations
+:
+function
 (
 )
 {
@@ -58494,6 +58750,8 @@ DirectoryInstallLocation
 *
 /
 isLinkedAddon
+:
+function
 (
 aId
 )

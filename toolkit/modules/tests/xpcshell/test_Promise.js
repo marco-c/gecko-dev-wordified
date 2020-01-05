@@ -6186,6 +6186,8 @@ error
 stack
 ]
 error
+:
+error
 }
 ;
 }

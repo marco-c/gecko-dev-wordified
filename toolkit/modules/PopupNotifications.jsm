@@ -867,6 +867,8 @@ anchorElement
 ;
 }
 reshow
+:
+function
 (
 )
 {
@@ -3617,6 +3619,8 @@ changed
 *
 /
 anchorVisibilityChange
+:
+function
 (
 )
 {
@@ -3725,6 +3729,8 @@ notifications
 }
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -4285,6 +4291,8 @@ popup
 *
 /
 _clearPanel
+:
+function
 (
 )
 {
@@ -7744,6 +7752,8 @@ anchors
 ;
 }
 _isActiveBrowser
+:
+function
 (
 browser
 )
@@ -8711,6 +8721,8 @@ _update
 ;
 }
 _dismissOrRemoveCurrentNotifications
+:
+function
 (
 )
 {

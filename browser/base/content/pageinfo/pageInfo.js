@@ -230,6 +230,8 @@ rows
 ;
 }
 setTree
+:
+function
 (
 tree
 )
@@ -242,6 +244,8 @@ tree
 ;
 }
 getCellText
+:
+function
 (
 row
 column
@@ -319,6 +323,8 @@ index
 ;
 }
 setCellValue
+:
+function
 (
 row
 column
@@ -327,6 +333,8 @@ value
 {
 }
 setCellText
+:
+function
 (
 row
 column
@@ -349,6 +357,8 @@ value
 ;
 }
 addRow
+:
+function
 (
 row
 )
@@ -411,6 +421,8 @@ select
 }
 }
 addRows
+:
+function
 (
 rows
 )
@@ -433,6 +445,8 @@ row
 }
 }
 rowCountChanged
+:
+function
 (
 index
 count
@@ -450,6 +464,8 @@ count
 ;
 }
 invalidate
+:
+function
 (
 )
 {
@@ -463,6 +479,8 @@ invalidate
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -500,6 +518,8 @@ data
 ;
 }
 handleCopy
+:
+function
 (
 row
 )
@@ -541,6 +561,8 @@ copycol
 ;
 }
 performActionOnRow
+:
+function
 (
 action
 row
@@ -584,6 +606,8 @@ data
 }
 }
 onPageMediaSort
+:
+function
 (
 columnname
 )
@@ -755,6 +779,8 @@ index
 ;
 }
 getRowProperties
+:
+function
 (
 row
 )
@@ -765,6 +791,8 @@ return
 ;
 }
 getCellProperties
+:
+function
 (
 row
 column
@@ -776,6 +804,8 @@ return
 ;
 }
 getColumnProperties
+:
+function
 (
 column
 )
@@ -786,6 +816,8 @@ return
 ;
 }
 isContainer
+:
+function
 (
 index
 )
@@ -795,6 +827,8 @@ false
 ;
 }
 isContainerOpen
+:
+function
 (
 index
 )
@@ -804,6 +838,8 @@ false
 ;
 }
 isSeparator
+:
+function
 (
 index
 )
@@ -813,6 +849,8 @@ false
 ;
 }
 isSorted
+:
+function
 (
 )
 {
@@ -825,6 +863,8 @@ sortcol
 1
 }
 canDrop
+:
+function
 (
 index
 orientation
@@ -835,6 +875,8 @@ false
 ;
 }
 drop
+:
+function
 (
 row
 orientation
@@ -845,6 +887,8 @@ false
 ;
 }
 getParentIndex
+:
+function
 (
 index
 )
@@ -854,6 +898,8 @@ return
 ;
 }
 hasNextSibling
+:
+function
 (
 index
 after
@@ -864,6 +910,8 @@ false
 ;
 }
 getLevel
+:
+function
 (
 index
 )
@@ -873,6 +921,8 @@ return
 ;
 }
 getImageSrc
+:
+function
 (
 row
 column
@@ -880,6 +930,8 @@ column
 {
 }
 getProgressMode
+:
+function
 (
 row
 column
@@ -887,6 +939,8 @@ column
 {
 }
 getCellValue
+:
+function
 (
 row
 column
@@ -894,23 +948,31 @@ column
 {
 }
 toggleOpenState
+:
+function
 (
 index
 )
 {
 }
 cycleHeader
+:
+function
 (
 col
 )
 {
 }
 selectionChanged
+:
+function
 (
 )
 {
 }
 cycleCell
+:
+function
 (
 row
 column
@@ -918,6 +980,8 @@ column
 {
 }
 isEditable
+:
+function
 (
 row
 column
@@ -928,6 +992,8 @@ false
 ;
 }
 isSelectable
+:
+function
 (
 row
 column
@@ -938,12 +1004,16 @@ false
 ;
 }
 performAction
+:
+function
 (
 action
 )
 {
 }
 performActionOnCell
+:
+function
 (
 action
 row
@@ -2752,6 +2822,8 @@ strings
 :
 gStrings
 frameOuterWindowID
+:
+frameOuterWindowID
 }
 {
 imageElement
@@ -3758,6 +3830,8 @@ checkCacheListener
 =
 {
 onCacheEntryCheck
+:
+function
 (
 entry
 appCache
@@ -3774,6 +3848,8 @@ ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
+:
+function
 (
 entry
 isNew
@@ -7267,6 +7343,8 @@ imagePermissionObserver
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic

@@ -269,6 +269,8 @@ change
 {
 panels
 isUpdatable
+:
+isUpdatable
 }
 )
 ;

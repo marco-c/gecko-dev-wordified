@@ -576,6 +576,8 @@ break
 /
 nsIObserver
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -981,6 +983,8 @@ name
 ctxt
 {
 handleResult
+:
+function
 (
 )
 {
@@ -1452,6 +1456,8 @@ name
 ctxt
 {
 handleResult
+:
+function
 (
 resultPref
 )
@@ -1698,6 +1704,8 @@ level
 *
 /
 setZoom
+:
+function
 (
 value
 browser
@@ -3306,6 +3314,8 @@ browser
 )
 {
 handleResult
+:
+function
 (
 pref
 )

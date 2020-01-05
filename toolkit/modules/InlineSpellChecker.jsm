@@ -157,6 +157,8 @@ a
 given
 editor
 init
+:
+function
 (
 aEditor
 )
@@ -220,6 +222,8 @@ null
 }
 }
 initFromRemote
+:
+function
 (
 aSpellInfo
 )
@@ -292,6 +296,8 @@ to
 clear
 state
 uninit
+:
+function
 (
 )
 {
@@ -412,6 +418,8 @@ cursor
 is
 over
 initFromEvent
+:
+function
 (
 rangeParent
 rangeOffset
@@ -791,6 +799,8 @@ suggestions
 inserted
 .
 addSuggestionsToMenu
+:
+function
 (
 menu
 insertBefore
@@ -1110,6 +1120,8 @@ popup
 hiding
 )
 clearSuggestionsFromMenu
+:
+function
 (
 )
 {
@@ -1157,6 +1169,8 @@ mSuggestionItems
 ;
 }
 sortDictionaryList
+:
+function
 (
 list
 )
@@ -1286,6 +1300,8 @@ the
 given
 menu
 addDictionaryListToMenu
+:
+function
 (
 menu
 insertBefore
@@ -1709,6 +1725,8 @@ localized
 names
 .
 getDictionaryDisplayName
+:
+function
 (
 dictionaryName
 )
@@ -2340,6 +2358,8 @@ popup
 hiding
 )
 clearDictionaryListFromMenu
+:
+function
 (
 )
 {
@@ -2394,6 +2414,8 @@ selecting
 a
 dictionary
 selectDictionary
+:
+function
 (
 index
 )
@@ -2485,6 +2507,8 @@ a
 suggested
 replacement
 replaceMisspelling
+:
+function
 (
 index
 )
@@ -2571,6 +2595,8 @@ or
 disabling
 spellchecking
 toggleEnabled
+:
+function
 (
 )
 {
@@ -2619,6 +2645,8 @@ user
 defined
 dictionary
 addToDictionary
+:
+function
 (
 )
 {
@@ -2708,6 +2736,8 @@ dictionary
 LIFO
 fashion
 undoAddToDictionary
+:
+function
 (
 )
 {
@@ -2761,6 +2791,8 @@ word
 }
 }
 canUndo
+:
+function
 (
 )
 {
@@ -2788,6 +2820,8 @@ length
 ;
 }
 ignoreWord
+:
+function
 (
 )
 {

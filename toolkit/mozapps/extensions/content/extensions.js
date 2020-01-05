@@ -2540,6 +2540,8 @@ canGoForward
 ;
 }
 back
+:
+function
 (
 )
 {
@@ -2571,6 +2573,8 @@ cmd_forward
 ;
 }
 forward
+:
+function
 (
 )
 {
@@ -2602,6 +2606,8 @@ cmd_forward
 ;
 }
 pushState
+:
+function
 (
 aState
 )
@@ -2620,6 +2626,8 @@ title
 ;
 }
 replaceState
+:
+function
 (
 aState
 )
@@ -2638,6 +2646,8 @@ title
 ;
 }
 popState
+:
+function
 (
 )
 {
@@ -2836,6 +2846,8 @@ length
 ;
 }
 back
+:
+function
 (
 )
 {
@@ -2903,6 +2915,8 @@ cmd_forward
 ;
 }
 forward
+:
+function
 (
 )
 {
@@ -2978,6 +2992,8 @@ cmd_forward
 ;
 }
 pushState
+:
+function
 (
 aState
 )
@@ -3015,6 +3031,8 @@ aState
 ;
 }
 replaceState
+:
+function
 (
 aState
 )
@@ -3032,6 +3050,8 @@ aState
 ;
 }
 popState
+:
+function
 (
 )
 {
@@ -3185,6 +3205,8 @@ _installListeners
 [
 ]
 initialize
+:
+function
 (
 )
 {
@@ -3697,6 +3719,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -3723,6 +3747,8 @@ this
 ;
 }
 registerAddonListener
+:
+function
 (
 aListener
 aAddonId
@@ -3784,6 +3810,8 @@ aListener
 ;
 }
 unregisterAddonListener
+:
+function
 (
 aListener
 aAddonId
@@ -3842,6 +3870,8 @@ index
 ;
 }
 registerInstallListener
+:
+function
 (
 aListener
 )
@@ -3874,6 +3904,8 @@ aListener
 ;
 }
 unregisterInstallListener
+:
+function
 (
 aListener
 )
@@ -3912,6 +3944,8 @@ i
 ;
 }
 delegateAddonEvent
+:
+function
 (
 aEvent
 aParams
@@ -4010,6 +4044,8 @@ e
 }
 }
 delegateInstallEvent
+:
+function
 (
 aEvent
 aParams
@@ -4139,6 +4175,8 @@ e
 }
 }
 refreshGlobalWarning
+:
+function
 (
 )
 {
@@ -4242,6 +4280,8 @@ warning
 ;
 }
 refreshAutoUpdateDefault
+:
+function
 (
 )
 {
@@ -4339,6 +4379,8 @@ autoUpdateDefault
 ;
 }
 onCompatibilityModeChanged
+:
+function
 (
 )
 {
@@ -4350,6 +4392,8 @@ refreshGlobalWarning
 ;
 }
 onCheckUpdateSecurityChanged
+:
+function
 (
 )
 {
@@ -4361,6 +4405,8 @@ refreshGlobalWarning
 ;
 }
 onUpdateModeChanged
+:
+function
 (
 )
 {
@@ -4405,6 +4451,8 @@ lastHistoryIndex
 -
 1
 initialize
+:
+function
 (
 )
 {
@@ -4573,6 +4621,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -4668,6 +4718,8 @@ this
 ;
 }
 updateState
+:
+function
 (
 state
 )
@@ -4775,6 +4827,8 @@ gViewDefault
 }
 }
 parseViewId
+:
+function
 (
 aViewId
 )
@@ -4864,6 +4918,8 @@ loading
 ;
 }
 loadView
+:
+function
 (
 aViewId
 )
@@ -4993,6 +5049,8 @@ to
 match
 .
 replaceView
+:
+function
 (
 aViewId
 )
@@ -5038,6 +5096,8 @@ state
 ;
 }
 loadInitialView
+:
+function
 (
 aViewId
 )
@@ -5173,6 +5233,8 @@ node
 }
 }
 loadViewInternal
+:
+function
 (
 aViewId
 aPreviousView
@@ -5451,6 +5513,8 @@ current
 history
 entry
 popState
+:
+function
 (
 aCallback
 )
@@ -5469,6 +5533,8 @@ popState
 ;
 }
 notifyViewChanged
+:
+function
 (
 )
 {
@@ -5545,6 +5611,8 @@ cmd_back
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5555,6 +5623,8 @@ canGoBack
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5570,6 +5640,8 @@ cmd_forward
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5580,6 +5652,8 @@ canGoForward
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5602,6 +5676,8 @@ isEnabled
 >
 true
 doCommand
+:
+function
 (
 )
 {
@@ -5617,6 +5693,8 @@ cmd_restartApp
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5625,6 +5703,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5737,6 +5817,8 @@ cmd_enableCheckCompatibility
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5745,6 +5827,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5760,6 +5844,8 @@ cmd_enableUpdateSecurity
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5768,6 +5854,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5783,6 +5871,8 @@ cmd_toggleAutoUpdateDefault
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5791,6 +5881,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5920,6 +6012,8 @@ cmd_resetAddonAutoUpdate
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5928,6 +6022,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -5974,6 +6070,8 @@ cmd_goToDiscoverPane
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -5984,6 +6082,8 @@ enabled
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -6007,6 +6107,8 @@ cmd_goToRecentUpdates
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -6015,6 +6117,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -6039,6 +6143,8 @@ cmd_goToAvailableUpdates
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -6047,6 +6153,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -6071,6 +6179,8 @@ cmd_showItemDetails
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -6092,6 +6202,8 @@ gDetailView
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 aScrollToPreferences
@@ -6139,6 +6251,8 @@ inProgress
 :
 false
 isEnabled
+:
+function
 (
 )
 {
@@ -6150,6 +6264,8 @@ inProgress
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -6408,6 +6524,8 @@ updateInstallListener
 =
 {
 onDownloadFailed
+:
+function
 (
 )
 {
@@ -6421,6 +6539,8 @@ updateStatus
 ;
 }
 onInstallFailed
+:
+function
 (
 )
 {
@@ -6434,6 +6554,8 @@ updateStatus
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 aAddon
@@ -6475,6 +6597,8 @@ updateCheckListener
 =
 {
 onUpdateAvailable
+:
+function
 (
 aAddon
 aInstall
@@ -6534,6 +6658,8 @@ updateStatus
 }
 }
 onNoUpdateAvailable
+:
+function
 (
 aAddon
 )
@@ -6548,6 +6674,8 @@ updateStatus
 ;
 }
 onUpdateFinished
+:
+function
 (
 aAddon
 aError
@@ -6634,6 +6762,8 @@ cmd_findItemUpdates
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -6657,6 +6787,8 @@ upgrade
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -6666,6 +6798,8 @@ listener
 =
 {
 onUpdateAvailable
+:
+function
 (
 aAddon
 aInstall
@@ -6701,6 +6835,8 @@ install
 ;
 }
 onNoUpdateAvailable
+:
+function
 (
 aAddon
 )
@@ -6748,6 +6884,8 @@ cmd_showItemPreferences
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -6837,6 +6975,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7027,6 +7167,8 @@ cmd_showItemAbout
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7053,6 +7195,8 @@ aAddon
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7115,6 +7259,8 @@ cmd_enableItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7164,6 +7310,8 @@ enable
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7176,6 +7324,8 @@ false
 ;
 }
 getTooltip
+:
+function
 (
 aAddon
 )
@@ -7229,6 +7379,8 @@ cmd_disableItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7278,6 +7430,8 @@ disable
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7290,6 +7444,8 @@ true
 ;
 }
 getTooltip
+:
+function
 (
 aAddon
 )
@@ -7343,6 +7499,8 @@ cmd_installItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7374,6 +7532,8 @@ STATE_AVAILABLE
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7428,6 +7588,8 @@ cmd_purchaseItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7449,6 +7611,8 @@ purchaseURL
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7466,6 +7630,8 @@ cmd_uninstallItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7489,6 +7655,8 @@ uninstall
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7540,6 +7708,8 @@ uninstall
 ;
 }
 getTooltip
+:
+function
 (
 aAddon
 )
@@ -7593,6 +7763,8 @@ cmd_cancelUninstallItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7616,6 +7788,8 @@ uninstall
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -7632,6 +7806,8 @@ cmd_installFromFile
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -7640,6 +7816,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -7890,6 +8068,8 @@ cmd_debugAddons
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -7898,6 +8078,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -7938,6 +8120,8 @@ cmd_cancelOperation
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -7962,6 +8146,8 @@ PENDING_NONE
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -8072,6 +8258,8 @@ cmd_contribute
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -8100,6 +8288,8 @@ contributionURL
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -8117,6 +8307,8 @@ cmd_askToActivateItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -8165,6 +8357,8 @@ ask_to_activate
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -8183,6 +8377,8 @@ cmd_alwaysActivateItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -8231,6 +8427,8 @@ enable
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -8247,6 +8445,8 @@ cmd_neverActivateItem
 :
 {
 isEnabled
+:
+function
 (
 aAddon
 )
@@ -8295,6 +8495,8 @@ disable
 ;
 }
 doCommand
+:
+function
 (
 aAddon
 )
@@ -8311,6 +8513,8 @@ cmd_experimentsLearnMore
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -8333,6 +8537,8 @@ mainWindow
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -8365,6 +8571,8 @@ cmd_experimentsOpenTelemetryPreferences
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -8377,6 +8585,8 @@ getMainWindowWithPreferencesPane
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -8402,6 +8612,8 @@ cmd_showUnsignedExtensions
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -8410,6 +8622,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -8438,6 +8652,8 @@ cmd_showAllExtensions
 :
 {
 isEnabled
+:
+function
 (
 )
 {
@@ -8446,6 +8662,8 @@ true
 ;
 }
 doCommand
+:
+function
 (
 )
 {
@@ -8468,6 +8686,8 @@ extension
 }
 }
 supportsCommand
+:
+function
 (
 aCommand
 )
@@ -8483,6 +8703,8 @@ commands
 ;
 }
 isCommandEnabled
+:
+function
 (
 aCommand
 )
@@ -8526,6 +8748,8 @@ addon
 ;
 }
 updateCommands
+:
+function
 (
 )
 {
@@ -8576,6 +8800,8 @@ addon
 ;
 }
 updateCommand
+:
+function
 (
 aCommandId
 aAddon
@@ -8683,6 +8909,8 @@ tooltiptext
 }
 }
 doCommand
+:
+function
 (
 aCommand
 aAddon
@@ -8746,6 +8974,8 @@ aAddon
 ;
 }
 onEvent
+:
+function
 (
 )
 {
@@ -10369,6 +10599,8 @@ _search
 :
 null
 initialize
+:
+function
 (
 )
 {
@@ -10666,6 +10898,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -10678,6 +10912,8 @@ this
 ;
 }
 _insertCategory
+:
+function
 (
 aId
 aName
@@ -10959,6 +11195,8 @@ node
 ;
 }
 _removeCategory
+:
+function
 (
 aId
 )
@@ -11028,6 +11266,8 @@ category
 ;
 }
 onTypeAdded
+:
+function
 (
 aType
 )
@@ -11266,6 +11506,8 @@ registerInstallListener
 (
 {
 onDownloadStarted
+:
+function
 (
 aInstall
 )
@@ -11279,6 +11521,8 @@ aInstall
 ;
 }
 onInstallStarted
+:
+function
 (
 aInstall
 )
@@ -11292,6 +11536,8 @@ aInstall
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 aAddon
@@ -11306,6 +11552,8 @@ aAddon
 ;
 }
 onExternalInstall
+:
+function
 (
 aAddon
 aExistingAddon
@@ -11398,6 +11646,8 @@ startHidden
 ;
 }
 onTypeRemoved
+:
+function
 (
 aType
 )
@@ -11436,6 +11686,8 @@ null
 ;
 }
 select
+:
+function
 (
 aId
 aPreviousView
@@ -11639,6 +11891,8 @@ maybeHideSearch
 }
 }
 get
+:
+function
 (
 aId
 )
@@ -11673,6 +11927,8 @@ null
 ;
 }
 setBadge
+:
+function
 (
 aId
 aCount
@@ -11700,6 +11956,8 @@ aCount
 ;
 }
 maybeHideSearch
+:
+function
 (
 )
 {
@@ -11749,6 +12007,8 @@ _dest
 "
 "
 initialize
+:
+function
 (
 )
 {
@@ -11904,6 +12164,8 @@ updateNavButtonVisibility
 ;
 }
 focusSearchBox
+:
+function
 (
 )
 {
@@ -11917,6 +12179,8 @@ focus
 ;
 }
 onKeyPress
+:
+function
 (
 aEvent
 )
@@ -12240,6 +12504,8 @@ hideHeader
 :
 true
 initialize
+:
+function
 (
 )
 {
@@ -12659,6 +12925,8 @@ list
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -12695,6 +12963,8 @@ registered
 }
 }
 show
+:
+function
 (
 aParam
 aRequest
@@ -12921,6 +13191,8 @@ gViewController
 ;
 }
 canRefresh
+:
+function
 (
 )
 {
@@ -12956,6 +13228,8 @@ true
 ;
 }
 refresh
+:
+function
 (
 aParam
 aRequest
@@ -12974,11 +13248,15 @@ true
 ;
 }
 hide
+:
+function
 (
 )
 {
 }
 showError
+:
+function
 (
 )
 {
@@ -12994,6 +13272,8 @@ _error
 ;
 }
 _loadURL
+:
+function
 (
 aURL
 aKeepHistory
@@ -13069,6 +13349,8 @@ flags
 ;
 }
 onLocationChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -13332,6 +13614,8 @@ NS_BINDING_ABORTED
 ;
 }
 onSecurityChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -13423,6 +13707,8 @@ NS_BINDING_ABORTED
 ;
 }
 onStateChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -13754,11 +14040,15 @@ listener
 ;
 }
 onProgressChange
+:
+function
 (
 )
 {
 }
 onStatusChange
+:
+function
 (
 )
 {
@@ -13779,6 +14069,8 @@ nsISupportsWeakReference
 ]
 )
 getSelectedAddon
+:
+function
 (
 )
 {
@@ -13829,6 +14121,8 @@ _pendingSearches
 :
 0
 initialize
+:
+function
 (
 )
 {
@@ -14047,6 +14341,8 @@ false
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -14077,6 +14373,8 @@ _pendingSearches
 ;
 }
 show
+:
+function
 (
 aQuery
 aRequest
@@ -14658,6 +14956,8 @@ createdCount
 ;
 }
 showLoading
+:
+function
 (
 aLoading
 )
@@ -14681,6 +14981,8 @@ aLoading
 ;
 }
 updateView
+:
+function
 (
 )
 {
@@ -14867,6 +15169,8 @@ updateCommands
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -14886,6 +15190,8 @@ _listBox
 ;
 }
 getMatchScore
+:
+function
 (
 aObj
 aQuery
@@ -14929,6 +15235,8 @@ score
 ;
 }
 calculateMatchScore
+:
+function
 (
 aStr
 aQuery
@@ -15147,6 +15455,8 @@ aMultiplier
 ;
 }
 showEmptyNotice
+:
+function
 (
 aShow
 )
@@ -15170,6 +15480,8 @@ aShow
 ;
 }
 showAllResultsLink
+:
+function
 (
 aTotalResults
 )
@@ -15271,6 +15583,8 @@ false
 ;
 }
 updateListAttributes
+:
+function
 (
 )
 {
@@ -15554,6 +15868,8 @@ true
 }
 }
 onSortChanged
+:
+function
 (
 aSortBy
 aAscending
@@ -15603,6 +15919,8 @@ footer
 ;
 }
 onDownloadCancelled
+:
+function
 (
 aInstall
 )
@@ -15616,6 +15934,8 @@ aInstall
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -15629,6 +15949,8 @@ aInstall
 ;
 }
 removeInstall
+:
+function
 (
 aInstall
 )
@@ -15670,6 +15992,8 @@ return
 }
 }
 getSelectedAddon
+:
+function
 (
 )
 {
@@ -15696,6 +16020,8 @@ null
 ;
 }
 getListItemForID
+:
+function
 (
 aId
 )
@@ -15773,6 +16099,8 @@ _type
 :
 null
 initialize
+:
+function
 (
 )
 {
@@ -16188,6 +16516,8 @@ true
 }
 }
 show
+:
+function
 (
 aType
 aRequest
@@ -16476,6 +16806,8 @@ notifyViewChanged
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -16495,6 +16827,8 @@ _listBox
 ;
 }
 filterDisabledUnsigned
+:
+function
 (
 aFilter
 =
@@ -16609,6 +16943,8 @@ aFilter
 ;
 }
 showEmptyNotice
+:
+function
 (
 aShow
 )
@@ -16632,6 +16968,8 @@ aShow
 ;
 }
 onSortChanged
+:
+function
 (
 aSortBy
 aAscending
@@ -16648,6 +16986,8 @@ aAscending
 ;
 }
 onExternalInstall
+:
+function
 (
 aAddon
 aExistingAddon
@@ -16689,6 +17029,8 @@ aAddon
 ;
 }
 onDownloadStarted
+:
+function
 (
 aInstall
 )
@@ -16703,6 +17045,8 @@ true
 ;
 }
 onInstallStarted
+:
+function
 (
 aInstall
 )
@@ -16717,6 +17061,8 @@ true
 ;
 }
 onDownloadCancelled
+:
+function
 (
 aInstall
 )
@@ -16731,6 +17077,8 @@ true
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -16745,6 +17093,8 @@ true
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 )
@@ -16829,6 +17179,8 @@ addon
 }
 }
 addItem
+:
+function
 (
 aObj
 aIsInstall
@@ -16928,6 +17280,8 @@ false
 ;
 }
 removeItem
+:
+function
 (
 aObj
 aIsInstall
@@ -16998,6 +17352,8 @@ return
 }
 }
 getSelectedAddon
+:
+function
 (
 )
 {
@@ -17024,6 +17380,8 @@ null
 ;
 }
 getListItemForID
+:
+function
 (
 aId
 )
@@ -17101,6 +17459,8 @@ _autoUpdate
 :
 null
 initialize
+:
+function
 (
 )
 {
@@ -17166,6 +17526,8 @@ true
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -17178,6 +17540,8 @@ this
 ;
 }
 onUpdateModeChanged
+:
+function
 (
 )
 {
@@ -17194,6 +17558,8 @@ applyBackgroundUpdates
 ;
 }
 _updateView
+:
+function
 (
 aAddon
 aIsRemote
@@ -18970,6 +19336,8 @@ this
 ;
 }
 show
+:
+function
 (
 aAddonId
 aRequest
@@ -19228,6 +19596,8 @@ gViewDefault
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -19343,6 +19713,8 @@ null
 }
 }
 updateState
+:
+function
 (
 )
 {
@@ -20805,6 +21177,8 @@ isActive
 ;
 }
 clearLoading
+:
+function
 (
 )
 {
@@ -20844,6 +21218,8 @@ extended
 ;
 }
 emptySettingsRows
+:
+function
 (
 )
 {
@@ -20885,6 +21261,8 @@ lastChild
 ;
 }
 fillSettingsRows
+:
+function
 (
 aScrollToPreferences
 aCallback
@@ -21714,6 +22092,8 @@ aCallback
 }
 }
 scrollToPreferencesRows
+:
+function
 (
 )
 {
@@ -22162,6 +22542,8 @@ optionsURL
 }
 )
 getSelectedAddon
+:
+function
 (
 )
 {
@@ -22172,6 +22554,8 @@ _addon
 ;
 }
 onEnabling
+:
+function
 (
 )
 {
@@ -22183,6 +22567,8 @@ updateState
 ;
 }
 onEnabled
+:
+function
 (
 )
 {
@@ -22200,6 +22586,8 @@ fillSettingsRows
 ;
 }
 onDisabling
+:
+function
 (
 aNeedsRestart
 )
@@ -22244,6 +22632,8 @@ id
 }
 }
 onDisabled
+:
+function
 (
 )
 {
@@ -22261,6 +22651,8 @@ emptySettingsRows
 ;
 }
 onUninstalling
+:
+function
 (
 )
 {
@@ -22272,6 +22664,8 @@ updateState
 ;
 }
 onUninstalled
+:
+function
 (
 )
 {
@@ -22283,6 +22677,8 @@ popState
 ;
 }
 onOperationCancelled
+:
+function
 (
 )
 {
@@ -22294,6 +22690,8 @@ updateState
 ;
 }
 onPropertyChanged
+:
+function
 (
 aProperties
 )
@@ -22407,6 +22805,8 @@ updateState
 ;
 }
 onExternalInstall
+:
+function
 (
 aAddon
 aExistingAddon
@@ -22467,6 +22867,8 @@ updateState
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -22518,6 +22920,8 @@ _categoryItem
 :
 null
 initialize
+:
+function
 (
 )
 {
@@ -22673,6 +23077,8 @@ this
 ;
 }
 shutdown
+:
+function
 (
 )
 {
@@ -22692,6 +23098,8 @@ this
 ;
 }
 show
+:
+function
 (
 aType
 aRequest
@@ -22806,6 +23214,8 @@ aRequest
 ;
 }
 hide
+:
+function
 (
 )
 {
@@ -22841,6 +23251,8 @@ _listBox
 ;
 }
 _showRecentUpdates
+:
+function
 (
 aRequest
 )
@@ -22996,6 +23408,8 @@ notifyViewChanged
 ;
 }
 _showAvailableUpdates
+:
+function
 (
 aIsRefresh
 aRequest
@@ -23289,6 +23703,8 @@ notifyViewChanged
 ;
 }
 showEmptyNotice
+:
+function
 (
 aShow
 )
@@ -23312,6 +23728,8 @@ aShow
 ;
 }
 isManualUpdate
+:
+function
 (
 aInstall
 aOnlyAvailable
@@ -23356,6 +23774,8 @@ isManual
 ;
 }
 maybeRefresh
+:
+function
 (
 )
 {
@@ -23391,6 +23811,8 @@ updateAvailableCount
 ;
 }
 updateAvailableCount
+:
+function
 (
 aInitializing
 )
@@ -23486,6 +23908,8 @@ notifyInitialized
 ;
 }
 maybeDisableUpdateSelected
+:
+function
 (
 )
 {
@@ -23530,6 +23954,8 @@ true
 ;
 }
 installSelected
+:
+function
 (
 )
 {
@@ -23568,6 +23994,8 @@ true
 ;
 }
 getSelectedAddon
+:
+function
 (
 )
 {
@@ -23594,6 +24022,8 @@ null
 ;
 }
 getListItemForID
+:
+function
 (
 aId
 )
@@ -23638,6 +24068,8 @@ null
 ;
 }
 onSortChanged
+:
+function
 (
 aSortBy
 aAscending
@@ -23654,6 +24086,8 @@ aAscending
 ;
 }
 onNewInstall
+:
+function
 (
 aInstall
 )
@@ -23678,6 +24112,8 @@ maybeRefresh
 ;
 }
 onInstallStarted
+:
+function
 (
 aInstall
 )
@@ -23690,6 +24126,8 @@ updateAvailableCount
 ;
 }
 onInstallCancelled
+:
+function
 (
 aInstall
 )
@@ -23714,6 +24152,8 @@ maybeRefresh
 ;
 }
 onPropertyChanged
+:
+function
 (
 aAddon
 aProperties
@@ -23748,6 +24188,8 @@ gDragDrop
 =
 {
 onDragOver
+:
+function
 (
 aEvent
 )
@@ -23816,6 +24258,8 @@ preventDefault
 ;
 }
 onDrop
+:
+function
 (
 aEvent
 )

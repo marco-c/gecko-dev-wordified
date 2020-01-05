@@ -153,6 +153,8 @@ prototype
 =
 {
 getAssertion
+:
+function
 (
 audience
 )
@@ -178,6 +180,8 @@ result
 ;
 }
 signOut
+:
+function
 (
 )
 {
@@ -197,6 +201,8 @@ null
 ;
 }
 signIn
+:
+function
 (
 user
 )

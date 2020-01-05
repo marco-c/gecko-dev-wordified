@@ -1161,6 +1161,8 @@ tests
 =
 {
 testShareDisabledOnActivation
+:
+function
 (
 next
 )
@@ -1348,6 +1350,8 @@ next
 ;
 }
 testShareEnabledOnActivation
+:
+function
 (
 next
 )
@@ -1547,6 +1551,8 @@ next
 ;
 }
 testSharePage
+:
+function
 (
 next
 )
@@ -1854,6 +1860,8 @@ runOneTest
 ;
 }
 testShareMicroformats
+:
+function
 (
 next
 )
@@ -2666,6 +2674,8 @@ target
 ;
 }
 testSharePanelActivation
+:
+function
 (
 next
 )
@@ -3074,6 +3084,8 @@ sharePage
 ;
 }
 testSharePanelDialog
+:
+function
 (
 next
 )

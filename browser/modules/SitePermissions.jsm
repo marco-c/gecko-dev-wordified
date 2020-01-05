@@ -231,6 +231,8 @@ bug
 *
 /
 getAllByURI
+:
+function
 (
 aURI
 )
@@ -458,6 +460,8 @@ state
 *
 /
 getPermissionItem
+:
+function
 (
 aId
 aState
@@ -566,6 +570,8 @@ object
 *
 /
 getPermissionDetailsByURI
+:
+function
 (
 aURI
 )
@@ -654,6 +660,8 @@ them
 *
 /
 isSupportedURI
+:
+function
 (
 aURI
 )
@@ -692,6 +700,8 @@ IDs
 *
 /
 listPermissions
+:
+function
 (
 )
 {
@@ -730,6 +740,8 @@ ID
 *
 /
 getAvailableStates
+:
+function
 (
 aPermissionID
 )
@@ -808,6 +820,8 @@ permission
 *
 /
 getDefault
+:
+function
 (
 aPermissionID
 )
@@ -859,6 +873,8 @@ URI
 *
 /
 get
+:
+function
 (
 aURI
 aPermissionID
@@ -942,6 +958,8 @@ URI
 *
 /
 set
+:
+function
 (
 aURI
 aPermissionID
@@ -1011,6 +1029,8 @@ URI
 *
 /
 remove
+:
+function
 (
 aURI
 aPermissionID
@@ -1066,6 +1086,8 @@ permissions
 *
 /
 getPermissionLabel
+:
+function
 (
 aPermissionID
 )
@@ -1127,6 +1149,8 @@ permissions
 *
 /
 getStateLabel
+:
+function
 (
 aPermissionID
 aState
@@ -1381,6 +1405,8 @@ image
 :
 {
 getDefault
+:
+function
 (
 )
 {
@@ -1432,6 +1458,8 @@ SitePermissions
 BLOCK
 ]
 getDefault
+:
+function
 (
 )
 {
@@ -1544,6 +1572,8 @@ popup
 :
 {
 getDefault
+:
+function
 (
 )
 {
@@ -1577,6 +1607,8 @@ install
 :
 {
 getDefault
+:
+function
 (
 )
 {

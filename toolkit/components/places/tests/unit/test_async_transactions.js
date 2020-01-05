@@ -171,6 +171,8 @@ Set
 (
 )
 reset
+:
+function
 (
 )
 {
@@ -224,6 +226,8 @@ false
 ;
 }
 onBeginUpdateBatch
+:
+function
 (
 )
 {
@@ -235,6 +239,8 @@ true
 ;
 }
 onEndUpdateBatch
+:
+function
 (
 )
 {
@@ -246,6 +252,8 @@ true
 ;
 }
 onItemAdded
+:
+function
 (
 aItemId
 aParentId
@@ -340,6 +348,8 @@ aURI
 ;
 }
 onItemRemoved
+:
+function
 (
 aItemId
 aParentId
@@ -385,6 +395,8 @@ aItemType
 ;
 }
 onItemChanged
+:
+function
 (
 aItemId
 aProperty
@@ -493,6 +505,8 @@ isAnnoProperty
 :
 aIsAnnoProperty
 newValue
+:
+newValue
 lastModified
 :
 aLastModified
@@ -519,6 +533,8 @@ onItemVisited
 {
 }
 onItemMoved
+:
+function
 (
 aItemId
 aOldParent
@@ -9152,6 +9168,8 @@ Annotate
 (
 {
 guid
+:
+guid
 annotations
 :
 annos
@@ -9203,6 +9221,8 @@ Annotate
 (
 {
 guid
+:
+guid
 annotation
 :
 {
@@ -9231,6 +9251,8 @@ PT
 Annotate
 (
 {
+guid
+:
 guid
 annotation
 :

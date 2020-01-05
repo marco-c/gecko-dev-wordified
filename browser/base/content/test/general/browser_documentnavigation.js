@@ -576,6 +576,8 @@ FocusChanged
 "
 {
 details
+:
+details
 }
 )
 ;

@@ -372,6 +372,8 @@ push
 result
 )
 handleError
+:
+function
 (
 error
 )
@@ -392,6 +394,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -515,6 +519,8 @@ count
 =
 result
 handleError
+:
+function
 (
 error
 )
@@ -535,6 +541,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )
@@ -583,6 +591,8 @@ var
 obj
 =
 {
+op
+:
 op
 }
 ;
@@ -672,6 +682,8 @@ fieldname
 :
 name
 value
+:
+value
 timesUsed
 :
 1
@@ -718,6 +730,8 @@ update
 changes
 {
 handleError
+:
+function
 (
 error
 )
@@ -738,6 +752,8 @@ error
 ;
 }
 handleCompletion
+:
+function
 (
 reason
 )

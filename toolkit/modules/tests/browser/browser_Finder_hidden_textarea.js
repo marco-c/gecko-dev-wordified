@@ -190,6 +190,8 @@ listener
 =
 {
 onFindResult
+:
+function
 (
 )
 {

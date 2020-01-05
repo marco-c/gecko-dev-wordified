@@ -1295,6 +1295,8 @@ CustomizableUIInternal
 =
 {
 initialize
+:
+function
 (
 )
 {
@@ -2126,6 +2128,8 @@ toolbars
 ;
 }
 _defineBuiltInWidgets
+:
+function
 (
 )
 {
@@ -2147,6 +2151,8 @@ widgetDefinition
 }
 }
 _introduceNewBuiltinWidgets
+:
+function
 (
 )
 {
@@ -2524,6 +2530,8 @@ state
 *
 /
 _markObsoleteBuiltinButtonsSeen
+:
+function
 (
 )
 {
@@ -2598,6 +2606,8 @@ true
 }
 }
 _placeNewDefaultWidgetsInArea
+:
+function
 (
 aArea
 )
@@ -3080,6 +3090,8 @@ saveState
 ;
 }
 wrapWidget
+:
+function
 (
 aWidgetId
 )
@@ -3210,6 +3222,8 @@ wrapper
 ;
 }
 registerArea
+:
+function
 (
 aName
 aProperties
@@ -3942,6 +3956,8 @@ aName
 }
 }
 unregisterArea
+:
+function
 (
 aName
 aDestroyPlacements
@@ -4224,6 +4240,8 @@ true
 }
 }
 registerToolbarNode
+:
+function
 (
 aToolbar
 aExistingChildren
@@ -4813,6 +4831,8 @@ endBatchUpdate
 }
 }
 buildArea
+:
+function
 (
 aArea
 aPlacements
@@ -5784,6 +5804,8 @@ endBatchUpdate
 }
 }
 addPanelCloseListeners
+:
+function
 (
 aPanel
 )
@@ -5861,6 +5883,8 @@ aPanel
 ;
 }
 removePanelCloseListeners
+:
+function
 (
 aPanel
 )
@@ -5926,6 +5950,8 @@ aPanel
 }
 }
 ensureButtonContextMenu
+:
+function
 (
 aNode
 aAreaNode
@@ -6040,6 +6066,8 @@ contextmenu
 }
 }
 getWidgetProvider
+:
+function
 (
 aWidgetId
 )
@@ -6193,6 +6221,8 @@ PROVIDER_XUL
 ;
 }
 getWidgetNode
+:
+function
 (
 aWidgetId
 aWindow
@@ -6413,6 +6443,8 @@ null
 ;
 }
 registerMenuPanel
+:
+function
 (
 aPanelContents
 )
@@ -6602,6 +6634,8 @@ aPanelContents
 ;
 }
 onWidgetAdded
+:
+function
 (
 aWidgetId
 aArea
@@ -6633,6 +6667,8 @@ _clearPreviousUIState
 }
 }
 onWidgetRemoved
+:
+function
 (
 aWidgetId
 aArea
@@ -7036,6 +7072,8 @@ _clearPreviousUIState
 }
 }
 onWidgetMoved
+:
+function
 (
 aWidgetId
 aArea
@@ -7067,6 +7105,8 @@ _clearPreviousUIState
 }
 }
 onCustomizeEnd
+:
+function
 (
 aWindow
 )
@@ -7079,6 +7119,8 @@ _clearPreviousUIState
 ;
 }
 registerBuildArea
+:
+function
 (
 aArea
 aNode
@@ -7240,6 +7282,8 @@ target
 ;
 }
 registerBuildWindow
+:
+function
 (
 aWindow
 )
@@ -7300,6 +7344,8 @@ aWindow
 }
 }
 unregisterBuildWindow
+:
+function
 (
 aWindow
 )
@@ -7552,6 +7598,8 @@ aWindow
 ;
 }
 setLocationAttributes
+:
+function
 (
 aNode
 aArea
@@ -7670,6 +7718,8 @@ anchorid
 }
 }
 removeLocationAttributes
+:
+function
 (
 aNode
 )
@@ -7698,6 +7748,8 @@ anchorid
 ;
 }
 insertNode
+:
+function
 (
 aWidgetId
 aArea
@@ -7810,6 +7862,8 @@ isNew
 }
 }
 insertNodeInWindow
+:
+function
 (
 aWidgetId
 aAreaNode
@@ -8028,6 +8082,8 @@ join
 }
 }
 findInsertionPoints
+:
+function
 (
 aNode
 aAreaNode
@@ -8192,6 +8248,8 @@ null
 ;
 }
 insertWidgetBefore
+:
+function
 (
 aNode
 aNextNode
@@ -8241,6 +8299,8 @@ aContainer
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -8319,6 +8379,8 @@ break
 }
 }
 _originalEventInPanel
+:
+function
 (
 aEvent
 )
@@ -8394,6 +8456,8 @@ node
 ;
 }
 isSpecialWidget
+:
+function
 (
 aId
 )
@@ -8440,6 +8504,8 @@ spacer
 ;
 }
 ensureSpecialWidgetId
+:
+function
 (
 aId
 )
@@ -8517,6 +8583,8 @@ aId
 ;
 }
 createSpecialWidget
+:
+function
 (
 aId
 aDocument
@@ -8622,6 +8690,8 @@ widget
 *
 /
 findWidgetInWindow
+:
+function
 (
 aId
 aWindow
@@ -9074,6 +9144,8 @@ null
 ;
 }
 buildWidget
+:
+function
 (
 aDocument
 aWidget
@@ -9839,6 +9911,8 @@ node
 ;
 }
 getLocalizedProperty
+:
+function
 (
 aWidget
 aProp
@@ -10164,6 +10238,8 @@ def
 ;
 }
 addShortcut
+:
+function
 (
 aShortcutNode
 aTargetNode
@@ -10292,6 +10368,8 @@ shortcut
 ;
 }
 handleWidgetCommand
+:
+function
 (
 aWidget
 aNode
@@ -10495,6 +10573,8 @@ area
 }
 }
 handleWidgetClick
+:
+function
 (
 aWidget
 aNode
@@ -10580,6 +10660,8 @@ id
 }
 }
 _getPanelForNode
+:
+function
 (
 aNode
 )
@@ -10677,6 +10759,8 @@ menu
 *
 /
 _isOnInteractiveElement
+:
+function
 (
 aEvent
 )
@@ -11634,6 +11718,8 @@ inItem
 ;
 }
 hidePanelForNode
+:
+function
 (
 aNode
 )
@@ -11662,6 +11748,8 @@ hidePopup
 }
 }
 maybeAutoHidePanel
+:
+function
 (
 aEvent
 )
@@ -12081,6 +12169,8 @@ target
 ;
 }
 getUnusedWidgets
+:
+function
 (
 aWindowPalette
 )
@@ -12308,6 +12398,8 @@ widgets
 ;
 }
 getPlacementOfWidget
+:
+function
 (
 aWidgetId
 aOnlyRegistered
@@ -12383,6 +12475,8 @@ index
 return
 {
 area
+:
+area
 position
 :
 index
@@ -12395,6 +12489,8 @@ null
 ;
 }
 widgetExists
+:
+function
 (
 aWidgetId
 )
@@ -12482,6 +12578,8 @@ true
 ;
 }
 addWidgetToArea
+:
+function
 (
 aWidgetId
 aArea
@@ -12977,6 +13075,8 @@ aPosition
 ;
 }
 removeWidgetFromArea
+:
+function
 (
 aWidgetId
 )
@@ -13118,6 +13218,8 @@ area
 ;
 }
 moveWidgetWithinArea
+:
+function
 (
 aWidgetId
 aPosition
@@ -13434,6 +13536,8 @@ this
 API
 .
 loadSavedState
+:
+function
 (
 )
 {
@@ -13658,6 +13762,8 @@ newElementCount
 ;
 }
 restoreStateForArea
+:
+function
 (
 aArea
 aLegacyState
@@ -14105,6 +14211,8 @@ endBatchUpdate
 }
 }
 saveState
+:
+function
 (
 )
 {
@@ -14309,6 +14417,8 @@ false
 ;
 }
 serializerHelper
+:
+function
 (
 aKey
 aValue
@@ -14401,6 +14511,8 @@ aValue
 ;
 }
 beginBatchUpdate
+:
+function
 (
 )
 {
@@ -14410,6 +14522,8 @@ gInBatchStack
 ;
 }
 endBatchUpdate
+:
+function
 (
 aForceDirty
 )
@@ -14477,6 +14591,8 @@ number
 }
 }
 addListener
+:
+function
 (
 aListener
 )
@@ -14490,6 +14606,8 @@ aListener
 ;
 }
 removeListener
+:
+function
 (
 aListener
 )
@@ -14514,6 +14632,8 @@ aListener
 ;
 }
 notifyListeners
+:
+function
 (
 aEvent
 .
@@ -14600,6 +14720,8 @@ lineNumber
 }
 }
 _dispatchToolboxEventToWindow
+:
+function
 (
 aEventType
 aDetails
@@ -14639,6 +14761,8 @@ evt
 ;
 }
 dispatchToolboxEvent
+:
+function
 (
 aEventType
 aDetails
@@ -14689,6 +14813,8 @@ win
 }
 }
 createWidget
+:
+function
 (
 aProperties
 )
@@ -15477,6 +15603,8 @@ id
 ;
 }
 createBuiltinWidget
+:
+function
 (
 aData
 )
@@ -15753,6 +15881,8 @@ yet
 )
 .
 isAreaLazy
+:
+function
 (
 aArea
 )
@@ -15806,6 +15936,8 @@ to
 scratch
 .
 normalizeWidget
+:
+function
 (
 aData
 aSource
@@ -16511,6 +16643,8 @@ widget
 ;
 }
 wrapWidgetEventHandler
+:
+function
 (
 aEventName
 aWidget
@@ -16667,6 +16801,8 @@ undefined
 ;
 }
 destroyWidget
+:
+function
 (
 aWidgetId
 )
@@ -17112,6 +17248,8 @@ aWidgetId
 ;
 }
 getCustomizeTargetForArea
+:
+function
 (
 aArea
 aWindow
@@ -17173,6 +17311,8 @@ null
 ;
 }
 reset
+:
+function
 (
 )
 {
@@ -17263,6 +17403,8 @@ false
 ;
 }
 _resetUIState
+:
+function
 (
 )
 {
@@ -17430,6 +17572,8 @@ areaId
 }
 }
 _resetExtraToolbars
+:
+function
 (
 aFilter
 =
@@ -17600,6 +17744,8 @@ false
 }
 }
 _rebuildRegisteredAreas
+:
+function
 (
 )
 {
@@ -17745,6 +17891,8 @@ reset
 *
 /
 undoReset
+:
+function
 (
 )
 {
@@ -17940,6 +18088,8 @@ false
 ;
 }
 _clearPreviousUIState
+:
+function
 (
 )
 {
@@ -17970,6 +18120,8 @@ null
 ;
 }
 removeExtraToolbar
+:
+function
 (
 aToolbarId
 )
@@ -18019,6 +18171,8 @@ removable
 *
 /
 isWidgetRemovable
+:
+function
 (
 aWidget
 )
@@ -18309,6 +18463,8 @@ true
 ;
 }
 canWidgetMoveToArea
+:
+function
 (
 aWidgetId
 aArea
@@ -18419,6 +18575,8 @@ true
 ;
 }
 ensureWidgetPlacedInWindow
+:
+function
 (
 aWidgetId
 aWindow
@@ -19255,6 +19413,8 @@ true
 ;
 }
 setToolbarVisibility
+:
+function
 (
 aToolbarId
 aIsVisible
@@ -20837,6 +20997,8 @@ case
 *
 /
 addListener
+:
+function
 (
 aListener
 )
@@ -20870,6 +21032,8 @@ remove
 *
 /
 removeListener
+:
+function
 (
 aListener
 )
@@ -21088,6 +21252,8 @@ state
 *
 /
 registerArea
+:
+function
 (
 aName
 aProperties
@@ -21275,6 +21441,8 @@ registered
 *
 /
 registerToolbarNode
+:
+function
 (
 aToolbar
 aExistingChildren
@@ -21329,6 +21497,8 @@ registered
 *
 /
 registerMenuPanel
+:
+function
 (
 aPanel
 )
@@ -21549,6 +21719,8 @@ too
 *
 /
 unregisterArea
+:
+function
 (
 aName
 aDestroyPlacements
@@ -21754,6 +21926,8 @@ area
 *
 /
 addWidgetToArea
+:
+function
 (
 aWidgetId
 aArea
@@ -21840,6 +22014,8 @@ remove
 *
 /
 removeWidgetFromArea
+:
+function
 (
 aWidgetId
 )
@@ -21976,6 +22152,8 @@ position
 *
 /
 moveWidgetWithinArea
+:
+function
 (
 aWidgetId
 aPosition
@@ -22146,6 +22324,8 @@ anyway
 *
 /
 ensureWidgetPlacedInWindow
+:
+function
 (
 aWidgetId
 aWindow
@@ -22277,6 +22457,8 @@ block
 *
 /
 beginBatchUpdate
+:
+function
 (
 )
 {
@@ -22392,6 +22574,8 @@ finished
 *
 /
 endBatchUpdate
+:
+function
 (
 aForceDirty
 )
@@ -23177,6 +23361,8 @@ getWidget
 *
 /
 createWidget
+:
+function
 (
 aProperties
 )
@@ -23284,6 +23470,8 @@ destroy
 *
 /
 destroyWidget
+:
+function
 (
 aWidgetId
 )
@@ -23932,6 +24120,8 @@ not
 *
 /
 getWidget
+:
+function
 (
 aWidgetId
 )
@@ -24059,6 +24249,8 @@ getWidget
 *
 /
 getUnusedWidgets
+:
+function
 (
 aWindowPalette
 )
@@ -24187,6 +24379,8 @@ CustomizableUI
 *
 /
 getWidgetIdsInArea
+:
+function
 (
 aArea
 )
@@ -24437,6 +24631,8 @@ CustomizableUI
 *
 /
 getWidgetsInArea
+:
+function
 (
 aArea
 )
@@ -24601,6 +24797,8 @@ unknown
 *
 /
 getAreaType
+:
+function
 (
 aArea
 )
@@ -24692,6 +24890,8 @@ user
 *
 /
 isToolbarDefaultCollapsed
+:
+function
 (
 aArea
 )
@@ -24982,6 +25182,8 @@ aWindow
 *
 /
 getCustomizeTargetForArea
+:
+function
 (
 aArea
 aWindow
@@ -25053,6 +25255,8 @@ mode
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -25097,6 +25301,8 @@ complete
 *
 /
 undoReset
+:
+function
 (
 )
 {
@@ -25169,6 +25375,8 @@ remove
 *
 /
 removeExtraToolbar
+:
+function
 (
 aToolbarId
 )
@@ -25384,6 +25592,8 @@ palette
 *
 /
 getPlacementOfWidget
+:
+function
 (
 aWidgetId
 aOnlyRegistered
@@ -25578,6 +25788,8 @@ otherwise
 *
 /
 isWidgetRemovable
+:
+function
 (
 aWidgetId
 )
@@ -25688,6 +25900,8 @@ open
 *
 /
 canWidgetMoveToArea
+:
+function
 (
 aWidgetId
 aArea
@@ -25846,6 +26060,8 @@ visible
 *
 /
 setToolbarVisibility
+:
+function
 (
 aToolbarId
 aIsVisible
@@ -26067,6 +26283,8 @@ string
 *
 /
 getLocalizedProperty
+:
+function
 (
 aWidget
 aProp
@@ -26158,6 +26376,8 @@ aShortcutNode
 *
 /
 addShortcut
+:
+function
 (
 aShortcutNode
 aTargetNode
@@ -26210,6 +26430,8 @@ closed
 *
 /
 hidePanelForNode
+:
+function
 (
 aNode
 )
@@ -26269,6 +26491,8 @@ otherwise
 *
 /
 isSpecialWidget
+:
+function
 (
 aWidgetId
 )
@@ -26331,6 +26555,8 @@ attached
 *
 /
 addPanelCloseListeners
+:
+function
 (
 aPanel
 )
@@ -26395,6 +26621,8 @@ removed
 *
 /
 removePanelCloseListeners
+:
+function
 (
 aPanel
 )
@@ -26472,6 +26700,8 @@ dragged
 *
 /
 onWidgetDrag
+:
+function
 (
 aWidgetId
 aArea
@@ -26526,6 +26756,8 @@ mode
 *
 /
 notifyStartCustomizing
+:
+function
 (
 aWindow
 )
@@ -26578,6 +26810,8 @@ mode
 *
 /
 notifyEndCustomizing
+:
+function
 (
 aWindow
 )
@@ -26670,6 +26904,8 @@ event
 *
 /
 dispatchToolboxEvent
+:
+function
 (
 aEvent
 aDetails
@@ -26731,6 +26967,8 @@ otherwise
 *
 /
 isAreaOverflowable
+:
+function
 (
 aAreaId
 )
@@ -26874,6 +27112,8 @@ otherwise
 *
 /
 getPlaceForItem
+:
+function
 (
 aElement
 )
@@ -26989,6 +27229,8 @@ check
 *
 /
 isBuiltinToolbar
+:
+function
 (
 aToolbarId
 )
@@ -28893,6 +29135,8 @@ _forceOnOverflow
 :
 false
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -28952,6 +29196,8 @@ init
 }
 }
 init
+:
+function
 (
 )
 {
@@ -29172,6 +29418,8 @@ true
 ;
 }
 uninit
+:
+function
 (
 )
 {
@@ -29358,6 +29606,8 @@ _panel
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )
@@ -29490,6 +29740,8 @@ aEvent
 }
 }
 show
+:
+function
 (
 )
 {
@@ -29675,6 +29927,8 @@ resolve
 ;
 }
 _onClickChevron
+:
+function
 (
 aEvent
 )
@@ -29716,6 +29970,8 @@ show
 }
 }
 _onPanelHiding
+:
+function
 (
 aEvent
 )
@@ -29794,6 +30050,8 @@ true
 ;
 }
 onOverflow
+:
+function
 (
 aEvent
 )
@@ -30058,6 +30316,8 @@ UpdateUrlbarSearchSplitterState
 ;
 }
 _onResize
+:
+function
 (
 aEvent
 )
@@ -30099,6 +30359,8 @@ arm
 ;
 }
 _moveItemsBackToTheirOrigin
+:
+function
 (
 shouldMoveAllItems
 )
@@ -30425,6 +30687,8 @@ this
 }
 }
 _onLazyResize
+:
+function
 (
 )
 {
@@ -30471,6 +30735,8 @@ _moveItemsBackToTheirOrigin
 }
 }
 _disable
+:
+function
 (
 )
 {
@@ -30505,6 +30771,8 @@ disarm
 }
 }
 _enable
+:
+function
 (
 )
 {
@@ -30522,6 +30790,8 @@ onOverflow
 ;
 }
 onWidgetBeforeDOMChange
+:
+function
 (
 aNode
 aNextNode
@@ -30705,6 +30975,8 @@ nextSibling
 }
 }
 onWidgetAfterDOMChange
+:
+function
 (
 aNode
 aNextNode
@@ -31211,6 +31483,8 @@ _moveItemsBackToTheirOrigin
 }
 }
 findOverflowedInsertionPoints
+:
+function
 (
 aNode
 )
@@ -31450,6 +31724,8 @@ null
 ;
 }
 getContainerFor
+:
+function
 (
 aNode
 )
@@ -31487,6 +31763,8 @@ _hideTimeoutId
 :
 null
 _showWithTimeout
+:
+function
 (
 )
 {

@@ -143,6 +143,8 @@ _langGroupSupported
 :
 false
 buildFontList
+:
+function
 (
 aLanguage
 aFontType

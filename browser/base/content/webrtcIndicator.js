@@ -893,6 +893,8 @@ threshold
 :
 10
 adjustPosition
+:
+function
 (
 )
 {
@@ -1087,6 +1089,8 @@ screenX
 }
 }
 setXPosition
+:
+function
 (
 desiredX
 )
@@ -1155,6 +1159,8 @@ availTop
 ;
 }
 handleEvent
+:
+function
 (
 aEvent
 )

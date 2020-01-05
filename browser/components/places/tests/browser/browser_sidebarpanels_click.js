@@ -239,6 +239,8 @@ _itemID
 :
 null
 init
+:
+function
 (
 aCallback
 )
@@ -289,11 +291,15 @@ aCallback
 ;
 }
 prepare
+:
+function
 (
 )
 {
 }
 selectNode
+:
+function
 (
 tree
 )
@@ -311,6 +317,8 @@ _itemID
 ;
 }
 cleanup
+:
+function
 (
 aCallback
 )
@@ -354,6 +362,8 @@ push
 (
 {
 init
+:
+function
 (
 aCallback
 )
@@ -381,6 +391,8 @@ addVisits
 (
 {
 uri
+:
+uri
 visitDate
 :
 Date
@@ -407,6 +419,8 @@ aCallback
 ;
 }
 prepare
+:
+function
 (
 )
 {
@@ -427,6 +441,8 @@ doCommand
 ;
 }
 selectNode
+:
+function
 (
 tree
 )
@@ -484,6 +500,8 @@ bookmarked
 ;
 }
 cleanup
+:
+function
 (
 aCallback
 )

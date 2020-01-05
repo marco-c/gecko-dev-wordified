@@ -287,6 +287,8 @@ fake
 site
 "
 visits
+:
+visits
 }
 ;
 return
@@ -329,11 +331,15 @@ visit
 )
 )
 handleResult
+:
+function
 (
 )
 {
 }
 handleCompletion
+:
+function
 (
 )
 {

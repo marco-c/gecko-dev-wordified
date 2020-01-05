@@ -447,6 +447,8 @@ prototype
 =
 {
 observe
+:
+function
 (
 aSubject
 aTopic
@@ -513,6 +515,8 @@ idl
 *
 /
 mapURIToAddonID
+:
+function
 (
 uri
 id
@@ -548,6 +552,8 @@ idl
 *
 /
 isInstallEnabled
+:
+function
 (
 aMimetype
 aReferer
@@ -573,6 +579,8 @@ idl
 *
 /
 installAddonsFromWebpage
+:
+function
 (
 aMimetype
 aBrowser
@@ -732,6 +740,8 @@ addListener
 (
 {
 onDownloadCancelled
+:
+function
 (
 aInstall
 )
@@ -744,6 +754,8 @@ USER_CANCELLED
 ;
 }
 onDownloadFailed
+:
+function
 (
 aInstall
 )
@@ -774,6 +786,8 @@ DOWNLOAD_ERROR
 ;
 }
 onInstallFailed
+:
+function
 (
 aInstall
 )
@@ -786,6 +800,8 @@ EXECUTION_ERROR
 ;
 }
 onInstallEnded
+:
+function
 (
 aInstall
 aStatus
@@ -853,6 +869,8 @@ retval
 ;
 }
 notify
+:
+function
 (
 aTimer
 )
@@ -1182,6 +1200,8 @@ callbacks
 *
 /
 receiveMessage
+:
+function
 (
 aMessage
 )
@@ -1246,6 +1266,8 @@ callback
 =
 {
 onInstallEnded
+:
+function
 (
 url
 status
@@ -1263,6 +1285,10 @@ payload
 .
 callbackID
 url
+:
+url
+status
+:
 status
 }
 )
@@ -1551,6 +1577,8 @@ _xpcom_factory
 :
 {
 createInstance
+:
+function
 (
 aOuter
 aIid

@@ -381,6 +381,8 @@ selectedIndex
 :
 0
 getValueAt
+:
+function
 (
 )
 {

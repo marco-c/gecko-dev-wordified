@@ -302,6 +302,8 @@ nsIObserver
 ]
 )
 observe
+:
+function
 (
 subject
 topic
@@ -439,6 +441,8 @@ consoleListener
 =
 {
 observe
+:
+function
 (
 m
 )

@@ -207,6 +207,8 @@ pane
 .
 "
 run
+:
+function
 (
 )
 {

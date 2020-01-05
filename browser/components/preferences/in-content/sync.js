@@ -342,6 +342,8 @@ serverURL
 ;
 }
 needsUpdate
+:
+function
 (
 )
 {
@@ -390,6 +392,8 @@ error
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -627,6 +631,8 @@ ensureLoaded
 ;
 }
 _showLoadPage
+:
+function
 (
 xps
 )
@@ -775,6 +781,8 @@ PAGE_HAS_ACCOUNT
 }
 }
 _init
+:
+function
 (
 )
 {
@@ -1303,6 +1311,8 @@ _initProfileImageUI
 ;
 }
 _toggleComputerNameControls
+:
+function
 (
 editMode
 )
@@ -1369,6 +1379,8 @@ editMode
 ;
 }
 _focusComputerNameTextbox
+:
+function
 (
 )
 {
@@ -1409,6 +1421,8 @@ valLength
 ;
 }
 _blurComputerNameTextbox
+:
+function
 (
 )
 {
@@ -1427,6 +1441,8 @@ blur
 ;
 }
 _focusAfterComputerNameTextbox
+:
+function
 (
 )
 {
@@ -1475,6 +1491,8 @@ MOVEFOCUS_FORWARD
 ;
 }
 _updateComputerNameValue
+:
+function
 (
 save
 )
@@ -1524,6 +1542,8 @@ localName
 ;
 }
 _setupEventListeners
+:
+function
 (
 )
 {
@@ -2233,6 +2253,8 @@ click
 ;
 }
 _initProfileImageUI
+:
+function
 (
 )
 {
@@ -2281,6 +2303,8 @@ e
 }
 }
 updateWeavePrefs
+:
+function
 (
 )
 {
@@ -3355,6 +3379,8 @@ _usingCustomServer
 }
 }
 startOver
+:
+function
 (
 showDialog
 )
@@ -3486,6 +3512,8 @@ updateWeavePrefs
 ;
 }
 updatePass
+:
+function
 (
 )
 {
@@ -3517,6 +3545,8 @@ updatePassphrase
 ;
 }
 resetPass
+:
+function
 (
 )
 {
@@ -3548,6 +3578,8 @@ resetPassphrase
 ;
 }
 _getEntryPoint
+:
+function
 (
 )
 {
@@ -3603,6 +3635,8 @@ preferences
 ;
 }
 _openAboutAccounts
+:
+function
 (
 action
 )
@@ -3716,6 +3750,8 @@ sync
 *
 /
 openSetup
+:
+function
 (
 wizardType
 )
@@ -3831,6 +3867,8 @@ wizardType
 }
 }
 openContentInBrowser
+:
+function
 (
 url
 options
@@ -3993,6 +4031,8 @@ url
 ;
 }
 signUp
+:
+function
 (
 )
 {
@@ -4007,6 +4047,8 @@ signup
 ;
 }
 signIn
+:
+function
 (
 )
 {
@@ -4021,6 +4063,8 @@ signin
 ;
 }
 reSignIn
+:
+function
 (
 )
 {
@@ -4035,6 +4079,8 @@ reauth
 ;
 }
 clickOrSpaceOrEnterPressed
+:
+function
 (
 event
 )
@@ -4123,6 +4169,8 @@ DOM_VK_RETURN
 ;
 }
 openChangeProfileImage
+:
+function
 (
 event
 )
@@ -4192,6 +4240,8 @@ preventDefault
 }
 }
 openManageFirefoxAccount
+:
+function
 (
 event
 )
@@ -4232,6 +4282,8 @@ preventDefault
 }
 }
 manageFirefoxAccount
+:
+function
 (
 )
 {
@@ -4269,6 +4321,8 @@ true
 ;
 }
 verifyFirefoxAccount
+:
+function
 (
 )
 {
@@ -4434,6 +4488,8 @@ onError
 ;
 }
 openOldSyncSupportPage
+:
+function
 (
 )
 {
@@ -4470,6 +4526,8 @@ url
 ;
 }
 unlinkFirefoxAccount
+:
+function
 (
 confirm
 )
@@ -4735,6 +4793,8 @@ updateWeavePrefs
 ;
 }
 openAddDevice
+:
+function
 (
 )
 {
@@ -4811,6 +4871,8 @@ no
 ;
 }
 resetSync
+:
+function
 (
 )
 {

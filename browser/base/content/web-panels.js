@@ -125,6 +125,8 @@ panelProgressListener
 =
 {
 onProgressChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -136,6 +138,8 @@ aMaxTotalProgress
 {
 }
 onStateChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -268,6 +272,8 @@ loading
 }
 }
 onLocationChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -286,6 +292,8 @@ webNavigation
 ;
 }
 onStatusChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -295,6 +303,8 @@ aMessage
 {
 }
 onSecurityChange
+:
+function
 (
 aWebProgress
 aRequest
@@ -303,6 +313,8 @@ aState
 {
 }
 QueryInterface
+:
+function
 (
 aIID
 )
