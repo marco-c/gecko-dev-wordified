@@ -235,6 +235,16 @@ GetAsSourceSurface
 (
 )
 {
+if
+(
+!
+mContainer
+)
+{
+return
+nullptr
+;
+}
 AutoLockImage
 autoLock
 (
