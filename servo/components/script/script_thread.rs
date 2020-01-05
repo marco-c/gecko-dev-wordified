@@ -7705,7 +7705,7 @@ DevtoolScriptControlMsg
 :
 GetCachedMessages
 (
-pipeline_id
+id
 message_types
 reply
 )
@@ -7716,7 +7716,7 @@ devtools
 :
 handle_get_cached_messages
 (
-pipeline_id
+id
 message_types
 reply
 )
@@ -7814,7 +7814,7 @@ DevtoolScriptControlMsg
 :
 SetTimelineMarkers
 (
-_pipeline_id
+id
 marker_types
 reply
 )
@@ -7827,6 +7827,7 @@ handle_set_timeline_markers
 (
 &
 context
+id
 marker_types
 reply
 )
@@ -7835,7 +7836,7 @@ DevtoolScriptControlMsg
 :
 DropTimelineMarkers
 (
-_pipeline_id
+id
 marker_types
 )
 =
@@ -7847,6 +7848,7 @@ handle_drop_timeline_markers
 (
 &
 context
+id
 marker_types
 )
 DevtoolScriptControlMsg
@@ -7854,7 +7856,7 @@ DevtoolScriptControlMsg
 :
 RequestAnimationFrame
 (
-pipeline_id
+id
 name
 )
 =
@@ -7866,7 +7868,7 @@ handle_request_animation_frame
 (
 &
 context
-pipeline_id
+id
 name
 )
 DevtoolScriptControlMsg
@@ -7874,7 +7876,7 @@ DevtoolScriptControlMsg
 :
 Reload
 (
-pipeline_id
+id
 )
 =
 >
@@ -7885,7 +7887,7 @@ handle_reload
 (
 &
 context
-pipeline_id
+id
 )
 }
 }
