@@ -13972,13 +13972,6 @@ Intent
 externalIntent
 )
 {
-super
-.
-onNewIntent
-(
-externalIntent
-)
-;
 final
 SafeIntent
 intent
