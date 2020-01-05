@@ -2026,8 +2026,12 @@ SHAPED_WORD_TIMEOUT_SECONDS
 60
 }
 ;
+explicit
 gfxFontCache
 (
+nsIEventTarget
+*
+aEventTarget
 )
 ;
 ~
