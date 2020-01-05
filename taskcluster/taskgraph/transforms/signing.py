@@ -488,6 +488,26 @@ treeherder
 ]
     
 #
+Routes
+specific
+to
+this
+task
+if
+defined
+    
+Optional
+(
+'
+routes
+'
+)
+:
+[
+basestring
+]
+    
+#
 If
 True
 adds
@@ -1115,6 +1135,21 @@ treeherder
 '
 :
 treeherder
+            
+'
+routes
+'
+:
+job
+.
+get
+(
+'
+routes
+'
+[
+]
+)
         
 }
         
@@ -1140,8 +1175,9 @@ task
 routes
 '
 ]
-=
-[
+.
+append
+(
 "
 index
 .
@@ -1186,7 +1222,7 @@ level
 '
 ]
 )
-]
+)
         
 yield
 task
