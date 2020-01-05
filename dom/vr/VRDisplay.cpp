@@ -3212,6 +3212,14 @@ mRightViewMatrix
 nullptr
 )
 {
+mozilla
+:
+:
+HoldJSObjects
+(
+this
+)
+;
 mPose
 =
 new
