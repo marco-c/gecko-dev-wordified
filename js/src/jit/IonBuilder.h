@@ -3753,6 +3753,9 @@ key
 JSObject
 *
 protoObject
+bool
+*
+onProto
 )
 ;
 AbortReasonOr
