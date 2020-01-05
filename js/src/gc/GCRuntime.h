@@ -6517,6 +6517,15 @@ NotFinished
 Finished
 }
 ;
+enum
+IncrementalResult
+{
+Reset
+=
+0
+Ok
+}
+;
 /
 /
 For
@@ -6765,9 +6774,11 @@ int64_t
 millis
 )
 ;
-void
+IncrementalResult
 budgetIncrementalGC
 (
+bool
+nonincrementalByAPI
 JS
 :
 :
@@ -6784,7 +6795,7 @@ AutoLockForExclusiveAccess
 lock
 )
 ;
-void
+IncrementalResult
 resetIncrementalGC
 (
 AbortReason
@@ -6883,7 +6894,7 @@ reason
 JS_HAZ_GC_CALL
 ;
 MOZ_MUST_USE
-bool
+IncrementalResult
 gcCycle
 (
 bool
