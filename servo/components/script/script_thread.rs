@@ -1857,7 +1857,7 @@ load
 Ordering
 :
 :
-Relaxed
+SeqCst
 )
 }
 fn
@@ -15814,6 +15814,9 @@ chan
 clone
 (
 )
+wrapper
+:
+None
 }
 ;
 ROUTER
