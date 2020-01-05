@@ -289,7 +289,7 @@ depends
 on
 xpcom
 /
-glue
+base
 /
 nsISupportsImpl
 .

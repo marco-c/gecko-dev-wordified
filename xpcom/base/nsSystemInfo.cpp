@@ -515,6 +515,13 @@ gUserUmask
 =
 0
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 #
 if
 defined
