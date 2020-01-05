@@ -101,6 +101,14 @@ cell_extras
 [
 feature
 (
+const_fn
+)
+]
+#
+!
+[
+feature
+(
 core
 )
 ]
@@ -803,7 +811,7 @@ jsapi
 JS_Init
 (
 )
-1
+true
 )
 ;
 }

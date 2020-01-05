@@ -887,6 +887,7 @@ unwrap
 )
 ;
 if
+!
 JS_GetProperty
 (
 cx
@@ -906,9 +907,6 @@ handle_mut
 (
 )
 )
-=
-=
-0
 {
 return
 Err
@@ -931,6 +929,7 @@ is_object
 )
 |
 |
+!
 IsCallable
 (
 callable
@@ -941,9 +940,6 @@ to_object
 (
 )
 )
-=
-=
-0
 {
 return
 Err
@@ -1057,14 +1053,12 @@ is_null
 unsafe
 {
 if
+!
 JS_WrapObject
 (
 cx
 rval
 )
-=
-=
-0
 {
 rval
 .
@@ -1417,9 +1411,6 @@ self
 cx
 )
 }
-!
-=
-0
 ;
 if
 need_to_deal_with_exception
@@ -1453,9 +1444,6 @@ self
 .
 cx
 )
-!
-=
-0
 ;
 {
 let

@@ -1598,10 +1598,6 @@ source
 as_ptr
 (
 )
-as
-*
-const
-i16
 source
 .
 len
@@ -1618,10 +1614,8 @@ handle_mut
 }
 ;
 if
+!
 rv
-=
-=
-0
 |
 |
 handler

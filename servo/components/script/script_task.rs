@@ -4972,9 +4972,9 @@ JSObject
 )
 -
 >
-u8
+bool
 {
-1
+true
 }
 SetDOMProxyInformation
 (
