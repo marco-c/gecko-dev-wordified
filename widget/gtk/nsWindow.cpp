@@ -4150,7 +4150,7 @@ GetDPIScale
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4183,7 +4183,6 @@ illegally
 )
 ;
 return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 nsCOMPtr
@@ -4259,7 +4258,6 @@ widget
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -4346,9 +4344,6 @@ oldContainer
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsWindow
@@ -5706,7 +5701,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5812,7 +5807,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeResize
 (
@@ -5851,10 +5845,9 @@ DispatchResized
 ;
 }
 return
-NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5963,7 +5956,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeMoveResize
 (
@@ -5991,7 +5983,6 @@ DispatchResized
 ;
 }
 return
-NS_OK
 ;
 }
 void
@@ -6082,7 +6073,7 @@ SetAllocation
 }
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6095,9 +6086,6 @@ aState
 mEnabled
 =
 aState
-;
-return
-NS_OK
 ;
 }
 bool
@@ -6113,7 +6101,7 @@ return
 mEnabled
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6271,7 +6259,6 @@ mWindowType
 eWindowType_popup
 )
 return
-NS_OK
 ;
 /
 /
@@ -6302,7 +6289,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeMove
 (
@@ -6311,9 +6297,6 @@ NativeMove
 NotifyRollupGeometryChange
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -9430,7 +9413,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -9448,7 +9431,6 @@ if
 mShell
 )
 return
-NS_OK
 ;
 nsAutoCString
 iconName
@@ -9796,9 +9778,6 @@ get
 )
 ;
 }
-return
-NS_OK
-;
 }
 LayoutDeviceIntPoint
 nsWindow
@@ -10120,7 +10099,7 @@ nullptr
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -28526,7 +28505,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -28565,7 +28544,6 @@ if
 topWidget
 )
 return
-NS_ERROR_FAILURE
 ;
 nsWindow
 *
@@ -28582,9 +28560,7 @@ if
 topWindow
 )
 return
-NS_ERROR_FAILURE
 ;
-return
 topWindow
 -
 >
@@ -28592,6 +28568,8 @@ HideWindowChrome
 (
 aShouldHide
 )
+;
+return
 ;
 }
 /
@@ -28777,9 +28755,6 @@ endif
 MOZ_X11
 *
 /
-return
-NS_OK
-;
 }
 bool
 nsWindow
@@ -36231,7 +36206,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -36341,7 +36316,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

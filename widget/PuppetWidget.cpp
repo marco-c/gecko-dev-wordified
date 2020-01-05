@@ -1215,7 +1215,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -1256,7 +1256,6 @@ if
 mChild
 )
 {
-return
 mChild
 -
 >
@@ -1266,6 +1265,8 @@ aWidth
 aHeight
 aRepaint
 )
+;
+return
 ;
 }
 /
@@ -1431,9 +1432,6 @@ height
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 PuppetWidget
@@ -3492,7 +3490,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
