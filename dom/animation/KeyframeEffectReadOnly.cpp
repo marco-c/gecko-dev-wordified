@@ -3279,6 +3279,8 @@ aOptions
 nsAString
 &
 aInvalidPacedProperty
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -3322,6 +3324,7 @@ result
 .
 mPacedProperty
 aInvalidPacedProperty
+aCallerType
 aRv
 )
 ;
@@ -3357,6 +3360,7 @@ AnimationUtils
 :
 IsCoreAPIEnabledForCaller
 (
+aCallerType
 )
 )
 {
@@ -3674,6 +3678,11 @@ KeyframeEffectParamsFromUnion
 (
 aOptions
 invalidPacedProperty
+aGlobal
+.
+CallerType
+(
+)
 aRv
 )
 ;

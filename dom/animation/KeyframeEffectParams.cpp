@@ -699,6 +699,11 @@ aPacedProperty
 nsAString
 &
 aInvalidPacedProperty
+dom
+:
+:
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -740,6 +745,7 @@ AnimationUtils
 :
 IsCoreAPIEnabledForCaller
 (
+aCallerType
 )
 )
 {

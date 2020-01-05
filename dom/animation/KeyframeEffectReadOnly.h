@@ -267,6 +267,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h
