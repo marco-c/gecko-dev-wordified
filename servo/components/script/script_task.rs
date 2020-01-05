@@ -5902,7 +5902,7 @@ pages
 match
 page
 .
-remove
+find
 (
 id
 )
@@ -5930,6 +5930,13 @@ js_runtime
 .
 ptr
 exit_type
+)
+;
+page
+.
+remove
+(
+id
 )
 ;
 false
@@ -10675,6 +10682,7 @@ page
 .
 layout_chan
 ;
+if
 chan
 .
 send
@@ -10691,10 +10699,10 @@ response_chan
 )
 )
 .
-unwrap
+is_ok
 (
 )
-;
+{
 response_port
 .
 recv
@@ -10705,6 +10713,7 @@ unwrap
 (
 )
 ;
+}
 }
 /
 /
@@ -10856,7 +10865,7 @@ exit_type
 )
 )
 .
-unwrap
+ok
 (
 )
 ;
