@@ -3635,6 +3635,8 @@ false
 ;
 while
 (
+NS_SUCCEEDED
+(
 dirIterator
 -
 >
@@ -3643,6 +3645,9 @@ HasMoreElements
 &
 hasMore
 )
+)
+&
+&
 hasMore
 )
 {
@@ -5491,6 +5496,8 @@ more
 ;
 while
 (
+NS_SUCCEEDED
+(
 dir
 -
 >
@@ -5499,6 +5506,9 @@ HasMoreElements
 &
 more
 )
+)
+&
+&
 more
 )
 {
