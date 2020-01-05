@@ -7645,9 +7645,6 @@ base
 uri
 to
 servo
-nsCString
-baseString
-;
 RefPtr
 <
 css
@@ -7671,14 +7668,6 @@ mElement
 NodePrincipal
 (
 )
-)
-;
-mBaseURI
--
->
-GetSpec
-(
-baseString
 )
 ;
 /
@@ -7714,8 +7703,6 @@ propertyID
 &
 value
 false
-&
-baseString
 data
 )
 ;
