@@ -25227,6 +25227,11 @@ tabID
 this
 .
 id
+tabType
+:
+"
+BROWSING
+"
 uri
 :
 truncate

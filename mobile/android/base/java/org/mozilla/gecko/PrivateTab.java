@@ -142,6 +142,8 @@ int
 parentId
 String
 title
+TabType
+type
 )
 {
 super
@@ -152,6 +154,7 @@ url
 external
 parentId
 title
+type
 )
 ;
 }
