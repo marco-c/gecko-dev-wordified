@@ -4842,6 +4842,13 @@ python3_path
 version
 '
 ]
+env
+=
+self
+.
+query_env
+(
+)
 )
         
 return

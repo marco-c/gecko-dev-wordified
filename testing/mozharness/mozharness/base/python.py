@@ -6751,6 +6751,13 @@ py3_python_path
 version
 '
 ]
+env
+=
+self
+.
+query_env
+(
+)
 )
 .
 split
@@ -7058,6 +7065,14 @@ VirtualenvErrorList
 halt_on_failure
 =
 True
+                
+env
+=
+self
+.
+query_env
+(
+)
 )
     
 py3_venv_initialized
@@ -7123,6 +7138,13 @@ self
 .
 py3_pip_path
 m
+)
+env
+=
+self
+.
+query_env
+(
 )
 )
     
@@ -7431,12 +7453,13 @@ self
 .
 run_command
 (
-'
-'
-.
-join
-(
 cmd
+env
+=
+self
+.
+query_env
+(
 )
 )
 #
