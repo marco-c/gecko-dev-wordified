@@ -704,15 +704,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLFormElementMethods
 for
-&
-'
-a
 HTMLFormElement
 {
 /
@@ -1019,6 +1012,7 @@ encoding
 fn
 Encoding
 (
+&
 self
 )
 -
@@ -1056,6 +1050,7 @@ encoding
 fn
 SetEncoding
 (
+&
 self
 value
 :
@@ -1328,6 +1323,7 @@ submit
 fn
 Submit
 (
+&
 self
 )
 {
@@ -1374,6 +1370,7 @@ reset
 fn
 Reset
 (
+&
 self
 )
 {

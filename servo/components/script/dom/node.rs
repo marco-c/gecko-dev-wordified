@@ -13558,15 +13558,8 @@ prefix
 }
 }
 impl
-<
-'
-a
->
 NodeMethods
 for
-&
-'
-a
 Node
 {
 /
@@ -13592,6 +13585,7 @@ nodetype
 fn
 NodeType
 (
+&
 self
 )
 -
@@ -13719,6 +13713,7 @@ nodename
 fn
 NodeName
 (
+&
 self
 )
 -
@@ -13932,6 +13927,7 @@ baseuri
 fn
 BaseURI
 (
+&
 self
 )
 -
@@ -13971,6 +13967,7 @@ ownerdocument
 fn
 GetOwnerDocument
 (
+&
 self
 )
 -
@@ -14057,6 +14054,7 @@ parentnode
 fn
 GetParentNode
 (
+&
 self
 )
 -
@@ -14108,6 +14106,7 @@ parentelement
 fn
 GetParentElement
 (
+&
 self
 )
 -
@@ -14157,6 +14156,7 @@ haschildnodes
 fn
 HasChildNodes
 (
+&
 self
 )
 -
@@ -14198,6 +14198,7 @@ childnodes
 fn
 ChildNodes
 (
+&
 self
 )
 -
@@ -14276,6 +14277,7 @@ firstchild
 fn
 GetFirstChild
 (
+&
 self
 )
 -
@@ -14327,6 +14329,7 @@ lastchild
 fn
 GetLastChild
 (
+&
 self
 )
 -
@@ -14378,6 +14381,7 @@ previoussibling
 fn
 GetPreviousSibling
 (
+&
 self
 )
 -
@@ -14429,6 +14433,7 @@ nextsibling
 fn
 GetNextSibling
 (
+&
 self
 )
 -
@@ -14480,6 +14485,7 @@ nodevalue
 fn
 GetNodeValue
 (
+&
 self
 )
 -
@@ -14532,6 +14538,7 @@ nodevalue
 fn
 SetNodeValue
 (
+&
 self
 val
 :
@@ -14587,6 +14594,7 @@ textcontent
 fn
 GetTextContent
 (
+&
 self
 )
 -
@@ -14714,6 +14722,7 @@ textcontent
 fn
 SetTextContent
 (
+&
 self
 value
 :
@@ -14941,6 +14950,7 @@ insertbefore
 fn
 InsertBefore
 (
+&
 self
 node
 :
@@ -14997,6 +15007,7 @@ appendchild
 fn
 AppendChild
 (
+&
 self
 node
 :
@@ -15046,6 +15057,7 @@ replace
 fn
 ReplaceChild
 (
+&
 self
 node
 :
@@ -15900,6 +15912,7 @@ removechild
 fn
 RemoveChild
 (
+&
 self
 node
 :
@@ -15948,6 +15961,7 @@ normalize
 fn
 Normalize
 (
+&
 self
 )
 {
@@ -16155,6 +16169,7 @@ clonenode
 fn
 CloneNode
 (
+&
 self
 deep
 :
@@ -16214,6 +16229,7 @@ isequalnode
 fn
 IsEqualNode
 (
+&
 self
 maybe_node
 :
@@ -17153,6 +17169,7 @@ comparedocumentposition
 fn
 CompareDocumentPosition
 (
+&
 self
 other
 :
@@ -17440,6 +17457,7 @@ contains
 fn
 Contains
 (
+&
 self
 maybe_other
 :
@@ -17497,6 +17515,7 @@ lookupprefix
 fn
 LookupPrefix
 (
+&
 self
 namespace
 :
@@ -17686,6 +17705,7 @@ lookupnamespaceuri
 fn
 LookupNamespaceURI
 (
+&
 self
 prefix
 :
@@ -17775,6 +17795,7 @@ isdefaultnamespace
 fn
 IsDefaultNamespace
 (
+&
 self
 namespace
 :

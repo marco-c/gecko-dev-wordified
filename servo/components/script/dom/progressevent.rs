@@ -490,15 +490,8 @@ ev
 }
 }
 impl
-<
-'
-a
->
 ProgressEventMethods
 for
-&
-'
-a
 ProgressEvent
 {
 /
@@ -524,6 +517,7 @@ lengthcomputable
 fn
 LengthComputable
 (
+&
 self
 )
 -
@@ -557,6 +551,7 @@ loaded
 fn
 Loaded
 (
+&
 self
 )
 -
@@ -590,6 +585,7 @@ total
 fn
 Total
 (
+&
 self
 )
 -

@@ -258,15 +258,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 ConsoleMethods
 for
-&
-'
-a
 Console
 {
 /
@@ -297,6 +290,7 @@ log
 fn
 Log
 (
+&
 self
 messages
 :
@@ -363,6 +357,7 @@ Console
 fn
 Debug
 (
+&
 self
 messages
 :
@@ -431,6 +426,7 @@ info
 fn
 Info
 (
+&
 self
 messages
 :
@@ -499,6 +495,7 @@ warn
 fn
 Warn
 (
+&
 self
 messages
 :
@@ -567,6 +564,7 @@ error
 fn
 Error
 (
+&
 self
 messages
 :
@@ -635,6 +633,7 @@ assert
 fn
 Assert
 (
+&
 self
 condition
 :

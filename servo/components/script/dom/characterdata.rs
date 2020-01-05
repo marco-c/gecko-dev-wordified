@@ -392,15 +392,8 @@ data
 }
 }
 impl
-<
-'
-a
->
 CharacterDataMethods
 for
-&
-'
-a
 CharacterData
 {
 /
@@ -426,6 +419,7 @@ data
 fn
 Data
 (
+&
 self
 )
 -
@@ -467,6 +461,7 @@ data
 fn
 SetData
 (
+&
 self
 data
 :
@@ -508,6 +503,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -557,6 +553,7 @@ count
 fn
 SubstringData
 (
+&
 self
 offset
 :
@@ -689,6 +686,7 @@ appenddatadata
 fn
 AppendData
 (
+&
 self
 data
 :
@@ -730,6 +728,7 @@ data
 fn
 InsertData
 (
+&
 self
 offset
 :
@@ -776,6 +775,7 @@ count
 fn
 DeleteData
 (
+&
 self
 offset
 :
@@ -829,6 +829,7 @@ data
 fn
 ReplaceData
 (
+&
 self
 offset
 :
@@ -1042,6 +1043,7 @@ before
 fn
 Before
 (
+&
 self
 nodes
 :
@@ -1090,6 +1092,7 @@ after
 fn
 After
 (
+&
 self
 nodes
 :
@@ -1138,6 +1141,7 @@ replacewith
 fn
 ReplaceWith
 (
+&
 self
 nodes
 :
@@ -1186,6 +1190,7 @@ remove
 fn
 Remove
 (
+&
 self
 )
 {
@@ -1230,6 +1235,7 @@ previouselementsibling
 fn
 GetPreviousElementSibling
 (
+&
 self
 )
 -
@@ -1289,6 +1295,7 @@ nextelementsibling
 fn
 GetNextElementSibling
 (
+&
 self
 )
 -

@@ -806,15 +806,8 @@ event
 }
 }
 impl
-<
-'
-a
->
 MouseEventMethods
 for
-&
-'
-a
 MouseEvent
 {
 /
@@ -840,6 +833,7 @@ screenX
 fn
 ScreenX
 (
+&
 self
 )
 -
@@ -877,6 +871,7 @@ screenY
 fn
 ScreenY
 (
+&
 self
 )
 -
@@ -914,6 +909,7 @@ clientX
 fn
 ClientX
 (
+&
 self
 )
 -
@@ -951,6 +947,7 @@ clientY
 fn
 ClientY
 (
+&
 self
 )
 -
@@ -988,6 +985,7 @@ ctrlKey
 fn
 CtrlKey
 (
+&
 self
 )
 -
@@ -1025,6 +1023,7 @@ shiftKey
 fn
 ShiftKey
 (
+&
 self
 )
 -
@@ -1062,6 +1061,7 @@ altKey
 fn
 AltKey
 (
+&
 self
 )
 -
@@ -1099,6 +1099,7 @@ metaKey
 fn
 MetaKey
 (
+&
 self
 )
 -
@@ -1136,6 +1137,7 @@ button
 fn
 Button
 (
+&
 self
 )
 -
@@ -1173,6 +1175,7 @@ relatedTarget
 fn
 GetRelatedTarget
 (
+&
 self
 )
 -
@@ -1284,6 +1287,7 @@ which
 fn
 Which
 (
+&
 self
 )
 -
@@ -1340,6 +1344,7 @@ initMouseEvent
 fn
 InitMouseEvent
 (
+&
 self
 typeArg
 :

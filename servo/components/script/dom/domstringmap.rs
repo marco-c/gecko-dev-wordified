@@ -293,15 +293,8 @@ org
 #
 domstringmap
 impl
-<
-'
-a
->
 DOMStringMapMethods
 for
-&
-'
-a
 DOMStringMap
 {
 /
@@ -329,6 +322,7 @@ additem
 fn
 NamedCreator
 (
+&
 self
 name
 :
@@ -374,6 +368,7 @@ removeitem
 fn
 NamedDeleter
 (
+&
 self
 name
 :
@@ -427,6 +422,7 @@ setitem
 fn
 NamedSetter
 (
+&
 self
 name
 :
@@ -487,6 +483,7 @@ nameditem
 fn
 NamedGetter
 (
+&
 self
 name
 :
@@ -581,6 +578,7 @@ domstringmap
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -

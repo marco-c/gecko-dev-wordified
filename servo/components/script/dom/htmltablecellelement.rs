@@ -472,15 +472,8 @@ htmlelement
 }
 }
 impl
-<
-'
-a
->
 HTMLTableCellElementMethods
 for
-&
-'
-a
 HTMLTableCellElement
 {
 /

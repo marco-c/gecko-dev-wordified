@@ -572,15 +572,8 @@ fatal
 }
 }
 impl
-<
-'
-a
->
 TextDecoderMethods
 for
-&
-'
-a
 TextDecoder
 {
 /
@@ -606,6 +599,7 @@ encoding
 fn
 Encoding
 (
+&
 self
 )
 -
@@ -651,6 +645,7 @@ fatal
 fn
 Fatal
 (
+&
 self
 )
 -
@@ -691,6 +686,7 @@ decode
 fn
 Decode
 (
+&
 self
 _cx
 :

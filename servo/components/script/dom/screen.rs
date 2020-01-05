@@ -212,15 +212,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 ScreenMethods
 for
-&
-'
-a
 Screen
 {
 /
@@ -248,6 +241,7 @@ colordepth
 fn
 ColorDepth
 (
+&
 self
 )
 -
@@ -281,6 +275,7 @@ pixeldepth
 fn
 PixelDepth
 (
+&
 self
 )
 -

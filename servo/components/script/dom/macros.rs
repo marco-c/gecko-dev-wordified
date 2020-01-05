@@ -78,6 +78,7 @@ expr
 fn
 attr
 (
+&
 self
 )
 -
@@ -180,6 +181,7 @@ expr
 fn
 attr
 (
+&
 self
 )
 -
@@ -300,6 +302,7 @@ expr
 fn
 attr
 (
+&
 self
 )
 -
@@ -439,6 +442,7 @@ expr
 fn
 attr
 (
+&
 self
 )
 -
@@ -571,6 +575,7 @@ expr
 fn
 attr
 (
+&
 self
 )
 -
@@ -722,6 +727,7 @@ pat
 fn
 attr
 (
+&
 self
 )
 -
@@ -946,6 +952,7 @@ expr
 fn
 attr
 (
+&
 self
 value
 :
@@ -1041,6 +1048,7 @@ expr
 fn
 attr
 (
+&
 self
 value
 :
@@ -1139,6 +1147,7 @@ expr
 fn
 attr
 (
+&
 self
 value
 :
@@ -1273,6 +1282,7 @@ expr
 fn
 attr
 (
+&
 self
 value
 :
@@ -1478,6 +1488,7 @@ expr
 fn
 attr
 (
+&
 self
 value
 :
@@ -1763,6 +1774,7 @@ ident
 fn
 getter
 (
+&
 self
 )
 -
@@ -1808,6 +1820,7 @@ event_type
 fn
 setter
 (
+&
 self
 listener
 :

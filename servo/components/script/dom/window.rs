@@ -2826,15 +2826,8 @@ InvalidCharacter
 }
 }
 impl
-<
-'
-a
->
 WindowMethods
 for
-&
-'
-a
 Window
 {
 /
@@ -2858,6 +2851,7 @@ alert
 fn
 Alert
 (
+&
 self
 s
 :
@@ -2995,6 +2989,7 @@ close
 fn
 Close
 (
+&
 self
 )
 {
@@ -3051,6 +3046,7 @@ document
 fn
 Document
 (
+&
 self
 )
 -
@@ -3099,6 +3095,7 @@ location
 fn
 Location
 (
+&
 self
 )
 -
@@ -3143,6 +3140,7 @@ sessionstorage
 fn
 SessionStorage
 (
+&
 self
 )
 -
@@ -3201,6 +3199,7 @@ localstorage
 fn
 LocalStorage
 (
+&
 self
 )
 -
@@ -3264,6 +3263,7 @@ Console
 fn
 Console
 (
+&
 self
 )
 -
@@ -3332,6 +3332,7 @@ GlobalCrypto
 fn
 Crypto
 (
+&
 self
 )
 -
@@ -3385,6 +3386,7 @@ frameelement
 fn
 GetFrameElement
 (
+&
 self
 )
 -
@@ -3436,6 +3438,7 @@ navigator
 fn
 Navigator
 (
+&
 self
 )
 -
@@ -3485,6 +3488,7 @@ settimeout
 fn
 SetTimeout
 (
+&
 self
 _cx
 :
@@ -3575,6 +3579,7 @@ settimeout
 fn
 SetTimeout_
 (
+&
 self
 _cx
 :
@@ -3662,6 +3667,7 @@ cleartimeout
 fn
 ClearTimeout
 (
+&
 self
 handle
 :
@@ -3701,6 +3707,7 @@ setinterval
 fn
 SetInterval
 (
+&
 self
 _cx
 :
@@ -3791,6 +3798,7 @@ setinterval
 fn
 SetInterval_
 (
+&
 self
 _cx
 :
@@ -3878,6 +3886,7 @@ clearinterval
 fn
 ClearInterval
 (
+&
 self
 handle
 :
@@ -3915,6 +3924,7 @@ window
 fn
 Window
 (
+&
 self
 )
 -
@@ -3955,6 +3965,7 @@ self
 fn
 Self_
 (
+&
 self
 )
 -
@@ -3991,6 +4002,7 @@ frames
 fn
 Frames
 (
+&
 self
 )
 -
@@ -4029,6 +4041,7 @@ parent
 fn
 Parent
 (
+&
 self
 )
 -
@@ -4076,6 +4089,7 @@ top
 fn
 Top
 (
+&
 self
 )
 -
@@ -4157,6 +4171,7 @@ attribute
 fn
 Performance
 (
+&
 self
 )
 -
@@ -4240,6 +4255,7 @@ screen
 fn
 Screen
 (
+&
 self
 )
 -
@@ -4291,6 +4307,7 @@ btoa
 fn
 Btoa
 (
+&
 self
 btoa
 :
@@ -4333,6 +4350,7 @@ atob
 fn
 Atob
 (
+&
 self
 atob
 :
@@ -4376,6 +4394,7 @@ requestanimationframe
 fn
 RequestAnimationFrame
 (
+&
 self
 callback
 :
@@ -4504,6 +4523,7 @@ cancelanimationframe
 fn
 CancelAnimationFrame
 (
+&
 self
 ident
 :
@@ -4556,6 +4576,7 @@ captureevents
 fn
 CaptureEvents
 (
+&
 self
 )
 {
@@ -4592,6 +4613,7 @@ releaseevents
 fn
 ReleaseEvents
 (
+&
 self
 )
 {
@@ -4617,6 +4639,7 @@ line
 fn
 Debug
 (
+&
 self
 message
 :
@@ -4644,6 +4667,7 @@ unsafe_code
 fn
 Gc
 (
+&
 self
 )
 {
@@ -4666,6 +4690,7 @@ get_cx
 fn
 Trap
 (
+&
 self
 )
 {
@@ -4677,6 +4702,7 @@ breakpoint
 fn
 WebdriverCallback
 (
+&
 self
 cx
 :
@@ -4737,6 +4763,7 @@ unwrap
 fn
 WebdriverTimeout
 (
+&
 self
 )
 {
@@ -4806,6 +4833,7 @@ getcomputedstyle
 fn
 GetComputedStyle
 (
+&
 self
 element
 :

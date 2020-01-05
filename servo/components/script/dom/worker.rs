@@ -1311,15 +1311,8 @@ target
 }
 }
 impl
-<
-'
-a
->
 WorkerMethods
 for
-&
-'
-a
 Worker
 {
 /
@@ -1347,6 +1340,7 @@ postmessage
 fn
 PostMessage
 (
+&
 self
 cx
 :

@@ -346,15 +346,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 CanvasGradientMethods
 for
-&
-'
-a
 CanvasGradient
 {
 /
@@ -382,6 +375,7 @@ addcolorstop
 fn
 AddColorStop
 (
+&
 self
 offset
 :

@@ -322,15 +322,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 CryptoMethods
 for
-&
-'
-a
 Crypto
 {
 #
@@ -378,6 +371,7 @@ getRandomValues
 fn
 GetRandomValues
 (
+&
 self
 _cx
 :

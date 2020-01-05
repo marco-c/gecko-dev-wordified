@@ -1329,15 +1329,8 @@ next
 }
 }
 impl
-<
-'
-a
->
 HTMLCollectionMethods
 for
-&
-'
-a
 HTMLCollection
 {
 /
@@ -1363,6 +1356,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -1404,6 +1398,7 @@ item
 fn
 Item
 (
+&
 self
 index
 :
@@ -1455,6 +1450,7 @@ nameditem
 fn
 NamedItem
 (
+&
 self
 key
 :
@@ -1571,6 +1567,7 @@ item
 fn
 IndexedGetter
 (
+&
 self
 index
 :
@@ -1626,6 +1623,7 @@ line
 fn
 NamedGetter
 (
+&
 self
 name
 :
@@ -1688,6 +1686,7 @@ htmlcollection
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -

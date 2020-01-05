@@ -593,15 +593,8 @@ value
 }
 }
 impl
-<
-'
-a
->
 HTMLOptionElementMethods
 for
-&
-'
-a
 HTMLOptionElement
 {
 /
@@ -653,6 +646,7 @@ disabled
 fn
 SetDisabled
 (
+&
 self
 disabled
 :
@@ -708,6 +702,7 @@ text
 fn
 Text
 (
+&
 self
 )
 -
@@ -795,6 +790,7 @@ text
 fn
 SetText
 (
+&
 self
 value
 :
@@ -847,6 +843,7 @@ value
 fn
 Value
 (
+&
 self
 )
 -
@@ -956,6 +953,7 @@ label
 fn
 Label
 (
+&
 self
 )
 -

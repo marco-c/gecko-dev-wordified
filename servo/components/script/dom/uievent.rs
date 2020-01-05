@@ -633,15 +633,8 @@ event
 }
 }
 impl
-<
-'
-a
->
 UIEventMethods
 for
-&
-'
-a
 UIEvent
 {
 /
@@ -667,6 +660,7 @@ view
 fn
 GetView
 (
+&
 self
 )
 -
@@ -718,6 +712,7 @@ detail
 fn
 Detail
 (
+&
 self
 )
 -
@@ -755,6 +750,7 @@ initUIEvent
 fn
 InitUIEvent
 (
+&
 self
 type_
 :

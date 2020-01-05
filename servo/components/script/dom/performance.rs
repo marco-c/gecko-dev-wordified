@@ -291,15 +291,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 PerformanceMethods
 for
-&
-'
-a
 Performance
 {
 /
@@ -340,6 +333,7 @@ attribute
 fn
 Timing
 (
+&
 self
 )
 -
@@ -395,6 +389,7 @@ now
 fn
 Now
 (
+&
 self
 )
 -

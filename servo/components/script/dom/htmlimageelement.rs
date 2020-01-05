@@ -1509,15 +1509,8 @@ clone
 }
 }
 impl
-<
-'
-a
->
 HTMLImageElementMethods
 for
-&
-'
-a
 HTMLImageElement
 {
 make_getter
@@ -1596,6 +1589,7 @@ ismap
 fn
 SetIsMap
 (
+&
 self
 is_map
 :
@@ -1657,6 +1651,7 @@ width
 fn
 Width
 (
+&
 self
 )
 -
@@ -1720,6 +1715,7 @@ width
 fn
 SetWidth
 (
+&
 self
 width
 :
@@ -1777,6 +1773,7 @@ height
 fn
 Height
 (
+&
 self
 )
 -
@@ -1840,6 +1837,7 @@ height
 fn
 SetHeight
 (
+&
 self
 height
 :
@@ -1897,6 +1895,7 @@ naturalwidth
 fn
 NaturalWidth
 (
+&
 self
 )
 -
@@ -1959,6 +1958,7 @@ naturalheight
 fn
 NaturalHeight
 (
+&
 self
 )
 -
@@ -2021,6 +2021,7 @@ complete
 fn
 Complete
 (
+&
 self
 )
 -

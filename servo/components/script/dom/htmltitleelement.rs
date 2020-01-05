@@ -401,15 +401,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLTitleElementMethods
 for
-&
-'
-a
 HTMLTitleElement
 {
 /
@@ -435,6 +428,7 @@ text
 fn
 Text
 (
+&
 self
 )
 -
@@ -551,6 +545,7 @@ text
 fn
 SetText
 (
+&
 self
 value
 :

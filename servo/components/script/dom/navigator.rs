@@ -227,15 +227,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 NavigatorMethods
 for
-&
-'
-a
 Navigator
 {
 /
@@ -263,6 +256,7 @@ product
 fn
 Product
 (
+&
 self
 )
 -
@@ -301,6 +295,7 @@ taintenabled
 fn
 TaintEnabled
 (
+&
 self
 )
 -
@@ -339,6 +334,7 @@ appname
 fn
 AppName
 (
+&
 self
 )
 -
@@ -377,6 +373,7 @@ appcodename
 fn
 AppCodeName
 (
+&
 self
 )
 -
@@ -415,6 +412,7 @@ platform
 fn
 Platform
 (
+&
 self
 )
 -
@@ -453,6 +451,7 @@ useragent
 fn
 UserAgent
 (
+&
 self
 )
 -
@@ -491,6 +490,7 @@ appversion
 fn
 AppVersion
 (
+&
 self
 )
 -

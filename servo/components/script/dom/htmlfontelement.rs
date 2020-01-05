@@ -399,15 +399,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLFontElementMethods
 for
-&
-'
-a
 HTMLFontElement
 {
 make_getter

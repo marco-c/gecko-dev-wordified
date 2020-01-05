@@ -250,15 +250,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 PerformanceTimingMethods
 for
-&
-'
-a
 PerformanceTiming
 {
 /
@@ -301,6 +294,7 @@ navigationstart
 fn
 NavigationStart
 (
+&
 self
 )
 -

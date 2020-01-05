@@ -426,15 +426,8 @@ node
 }
 }
 impl
-<
-'
-a
->
 NodeListMethods
 for
-&
-'
-a
 NodeList
 {
 /
@@ -460,6 +453,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -528,6 +522,7 @@ item
 fn
 Item
 (
+&
 self
 index
 :
@@ -624,6 +619,7 @@ item
 fn
 IndexedGetter
 (
+&
 self
 index
 :

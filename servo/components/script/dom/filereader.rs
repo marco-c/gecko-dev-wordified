@@ -1736,15 +1736,8 @@ output
 }
 }
 impl
-<
-'
-a
->
 FileReaderMethods
 for
-&
-'
-a
 FileReader
 {
 event_handler
@@ -1835,6 +1828,7 @@ readAsDataURL
 fn
 ReadAsDataURL
 (
+&
 self
 blob
 :
@@ -1878,6 +1872,7 @@ readAsText
 fn
 ReadAsText
 (
+&
 self
 blob
 :
@@ -1927,6 +1922,7 @@ abort
 fn
 Abort
 (
+&
 self
 )
 {
@@ -2090,6 +2086,7 @@ error
 fn
 GetError
 (
+&
 self
 )
 -
@@ -2143,6 +2140,7 @@ result
 fn
 GetResult
 (
+&
 self
 )
 -
@@ -2185,6 +2183,7 @@ readyState
 fn
 ReadyState
 (
+&
 self
 )
 -

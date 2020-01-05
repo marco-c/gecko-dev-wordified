@@ -441,15 +441,8 @@ storage_task
 }
 }
 impl
-<
-'
-a
->
 StorageMethods
 for
-&
-'
-a
 Storage
 {
 /
@@ -477,6 +470,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -566,6 +560,7 @@ key
 fn
 Key
 (
+&
 self
 index
 :
@@ -660,6 +655,7 @@ getitem
 fn
 GetItem
 (
+&
 self
 name
 :
@@ -759,6 +755,7 @@ setitem
 fn
 SetItem
 (
+&
 self
 name
 :
@@ -890,6 +887,7 @@ removeitem
 fn
 RemoveItem
 (
+&
 self
 name
 :
@@ -1011,6 +1009,7 @@ clear
 fn
 Clear
 (
+&
 self
 )
 {
@@ -1096,6 +1095,7 @@ line
 fn
 NamedGetter
 (
+&
 self
 name
 :
@@ -1137,6 +1137,7 @@ item
 fn
 NamedSetter
 (
+&
 self
 name
 :
@@ -1158,6 +1159,7 @@ value
 fn
 NamedCreator
 (
+&
 self
 name
 :
@@ -1179,6 +1181,7 @@ value
 fn
 NamedDeleter
 (
+&
 self
 name
 :
@@ -1196,6 +1199,7 @@ name
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -

@@ -351,6 +351,7 @@ expr
 fn
 getter
 (
+&
 self
 )
 -
@@ -371,6 +372,7 @@ to_owned
 fn
 setter
 (
+&
 self
 value
 :
@@ -681,15 +683,8 @@ property
 }
 }
 impl
-<
-'
-a
->
 CSSStyleDeclarationMethods
 for
-&
-'
-a
 CSSStyleDeclaration
 {
 /
@@ -717,6 +712,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -821,6 +817,7 @@ item
 fn
 Item
 (
+&
 self
 index
 :
@@ -1008,6 +1005,7 @@ getpropertyvalue
 fn
 GetPropertyValue
 (
+&
 self
 property
 :
@@ -1305,6 +1303,7 @@ getpropertypriority
 fn
 GetPropertyPriority
 (
+&
 self
 property
 :
@@ -1520,6 +1519,7 @@ setproperty
 fn
 SetProperty
 (
+&
 self
 property
 :
@@ -1853,6 +1853,7 @@ setpropertypriority
 fn
 SetPropertyPriority
 (
+&
 self
 property
 :
@@ -2086,6 +2087,7 @@ setpropertyvalue
 fn
 SetPropertyValue
 (
+&
 self
 property
 :
@@ -2137,6 +2139,7 @@ removeproperty
 fn
 RemoveProperty
 (
+&
 self
 property
 :
@@ -2307,6 +2310,7 @@ cssfloat
 fn
 CssFloat
 (
+&
 self
 )
 -
@@ -2351,6 +2355,7 @@ cssfloat
 fn
 SetCssFloat
 (
+&
 self
 value
 :
@@ -2399,6 +2404,7 @@ interface
 fn
 IndexedGetter
 (
+&
 self
 index
 :

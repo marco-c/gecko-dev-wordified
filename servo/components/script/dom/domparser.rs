@@ -403,15 +403,8 @@ as_window
 }
 }
 impl
-<
-'
-a
->
 DOMParserMethods
 for
-&
-'
-a
 DOMParser
 {
 /
@@ -437,6 +430,7 @@ interface
 fn
 ParseFromString
 (
+&
 self
 s
 :

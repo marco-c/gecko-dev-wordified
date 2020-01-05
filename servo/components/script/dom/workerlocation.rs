@@ -281,15 +281,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 WorkerLocationMethods
 for
-&
-'
-a
 WorkerLocation
 {
 /
@@ -315,6 +308,7 @@ hash
 fn
 Hash
 (
+&
 self
 )
 -
@@ -355,6 +349,7 @@ host
 fn
 Host
 (
+&
 self
 )
 -
@@ -395,6 +390,7 @@ hostname
 fn
 Hostname
 (
+&
 self
 )
 -
@@ -435,6 +431,7 @@ href
 fn
 Href
 (
+&
 self
 )
 -
@@ -475,6 +472,7 @@ pathname
 fn
 Pathname
 (
+&
 self
 )
 -
@@ -515,6 +513,7 @@ port
 fn
 Port
 (
+&
 self
 )
 -
@@ -555,6 +554,7 @@ protocol
 fn
 Protocol
 (
+&
 self
 )
 -
@@ -595,6 +595,7 @@ search
 fn
 Search
 (
+&
 self
 )
 -
@@ -635,6 +636,7 @@ behavior
 fn
 Stringifier
 (
+&
 self
 )
 -

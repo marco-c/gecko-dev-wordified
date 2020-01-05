@@ -316,15 +316,8 @@ name
 }
 }
 impl
-<
-'
-a
->
 FileMethods
 for
-&
-'
-a
 File
 {
 /
@@ -348,6 +341,7 @@ name
 fn
 Name
 (
+&
 self
 )
 -

@@ -344,15 +344,8 @@ target
 }
 }
 impl
-<
-'
-a
->
 ProcessingInstructionMethods
 for
-&
-'
-a
 ProcessingInstruction
 {
 /
@@ -378,6 +371,7 @@ target
 fn
 Target
 (
+&
 self
 )
 -

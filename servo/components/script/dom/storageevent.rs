@@ -665,15 +665,8 @@ event
 }
 }
 impl
-<
-'
-a
->
 StorageEventMethods
 for
-&
-'
-a
 StorageEvent
 {
 /
@@ -701,6 +694,7 @@ key
 fn
 GetKey
 (
+&
 self
 )
 -
@@ -747,6 +741,7 @@ oldvalue
 fn
 GetOldValue
 (
+&
 self
 )
 -
@@ -793,6 +788,7 @@ newvalue
 fn
 GetNewValue
 (
+&
 self
 )
 -
@@ -839,6 +835,7 @@ url
 fn
 Url
 (
+&
 self
 )
 -
@@ -882,6 +879,7 @@ storagearea
 fn
 GetStorageArea
 (
+&
 self
 )
 -

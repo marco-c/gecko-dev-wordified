@@ -288,15 +288,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 NamedNodeMapMethods
 for
-&
-'
-a
 NamedNodeMap
 {
 /
@@ -322,6 +315,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -410,6 +404,7 @@ item
 fn
 Item
 (
+&
 self
 index
 :
@@ -520,6 +515,7 @@ getnameditem
 fn
 GetNamedItem
 (
+&
 self
 name
 :
@@ -607,6 +603,7 @@ getnameditemns
 fn
 GetNamedItemNS
 (
+&
 self
 namespace
 :
@@ -718,6 +715,7 @@ removenameditem
 fn
 RemoveNamedItem
 (
+&
 self
 name
 :
@@ -824,6 +822,7 @@ removenameditemns
 fn
 RemoveNamedItemNS
 (
+&
 self
 namespace
 :
@@ -943,6 +942,7 @@ item
 fn
 IndexedGetter
 (
+&
 self
 index
 :
@@ -998,6 +998,7 @@ line
 fn
 NamedGetter
 (
+&
 self
 name
 :
@@ -1042,6 +1043,7 @@ item
 fn
 SupportedPropertyNames
 (
+&
 self
 )
 -

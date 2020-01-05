@@ -640,15 +640,8 @@ value
 }
 }
 impl
-<
-'
-a
->
 HTMLAnchorElementMethods
 for
-&
-'
-a
 HTMLAnchorElement
 {
 /
@@ -676,6 +669,7 @@ text
 fn
 Text
 (
+&
 self
 )
 -
@@ -728,6 +722,7 @@ text
 fn
 SetText
 (
+&
 self
 value
 :
@@ -780,6 +775,7 @@ rellist
 fn
 RelList
 (
+&
 self
 )
 -

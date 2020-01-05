@@ -474,15 +474,8 @@ org
 #
 domtokenlist
 impl
-<
-'
-a
->
 DOMTokenListMethods
 for
-&
-'
-a
 DOMTokenList
 {
 /
@@ -508,6 +501,7 @@ length
 fn
 Length
 (
+&
 self
 )
 -
@@ -594,6 +588,7 @@ item
 fn
 Item
 (
+&
 self
 index
 :
@@ -695,6 +690,7 @@ contains
 fn
 Contains
 (
+&
 self
 token
 :
@@ -811,6 +807,7 @@ add
 fn
 Add
 (
+&
 self
 tokens
 :
@@ -946,6 +943,7 @@ remove
 fn
 Remove
 (
+&
 self
 tokens
 :
@@ -1086,6 +1084,7 @@ toggle
 fn
 Toggle
 (
+&
 self
 token
 :
@@ -1289,6 +1288,7 @@ behavior
 fn
 Stringifier
 (
+&
 self
 )
 -
@@ -1342,6 +1342,7 @@ line
 fn
 IndexedGetter
 (
+&
 self
 index
 :

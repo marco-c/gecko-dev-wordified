@@ -542,15 +542,8 @@ value
 }
 }
 impl
-<
-'
-a
->
 HTMLAreaElementMethods
 for
-&
-'
-a
 HTMLAreaElement
 {
 /
@@ -578,6 +571,7 @@ rellist
 fn
 RelList
 (
+&
 self
 )
 -

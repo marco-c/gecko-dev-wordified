@@ -1668,15 +1668,8 @@ e
 }
 }
 impl
-<
-'
-a
->
 HTMLLinkElementMethods
 for
-&
-'
-a
 HTMLLinkElement
 {
 make_url_getter
@@ -1779,6 +1772,7 @@ rellist
 fn
 RelList
 (
+&
 self
 )
 -

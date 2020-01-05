@@ -2692,15 +2692,8 @@ msg
 }
 }
 impl
-<
-'
-a
->
 DedicatedWorkerGlobalScopeMethods
 for
-&
-'
-a
 DedicatedWorkerGlobalScope
 {
 /
@@ -2728,6 +2721,7 @@ postmessage
 fn
 PostMessage
 (
+&
 self
 cx
 :

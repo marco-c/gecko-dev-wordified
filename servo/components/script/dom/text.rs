@@ -478,15 +478,8 @@ r
 }
 }
 impl
-<
-'
-a
->
 TextMethods
 for
-&
-'
-a
 Text
 {
 /
@@ -512,6 +505,7 @@ splittextoffset
 fn
 SplitText
 (
+&
 self
 offset
 :
@@ -781,6 +775,7 @@ wholetext
 fn
 WholeText
 (
+&
 self
 )
 -

@@ -473,15 +473,8 @@ clone
 }
 }
 impl
-<
-'
-a
->
 CloseEventMethods
 for
-&
-'
-a
 CloseEvent
 {
 /
@@ -509,6 +502,7 @@ wasclean
 fn
 WasClean
 (
+&
 self
 )
 -
@@ -544,6 +538,7 @@ code
 fn
 Code
 (
+&
 self
 )
 -
@@ -579,6 +574,7 @@ reason
 fn
 Reason
 (
+&
 self
 )
 -

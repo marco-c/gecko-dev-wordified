@@ -482,15 +482,8 @@ detail
 }
 }
 impl
-<
-'
-a
->
 CustomEventMethods
 for
-&
-'
-a
 CustomEvent
 {
 /
@@ -516,6 +509,7 @@ detail
 fn
 Detail
 (
+&
 self
 _cx
 :
@@ -558,6 +552,7 @@ initcustomevent
 fn
 InitCustomEvent
 (
+&
 self
 _cx
 :

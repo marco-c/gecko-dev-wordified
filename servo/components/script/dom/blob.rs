@@ -727,15 +727,8 @@ unwrap
 }
 }
 impl
-<
-'
-a
->
 BlobMethods
 for
-&
-'
-a
 Blob
 {
 /
@@ -763,6 +756,7 @@ size
 fn
 Size
 (
+&
 self
 )
 -
@@ -819,6 +813,7 @@ type
 fn
 Type
 (
+&
 self
 )
 -
@@ -860,6 +855,7 @@ algo
 fn
 Slice
 (
+&
 self
 start
 :
@@ -1206,6 +1202,7 @@ isClosed
 fn
 IsClosed
 (
+&
 self
 )
 -
@@ -1245,6 +1242,7 @@ close
 fn
 Close
 (
+&
 self
 )
 {

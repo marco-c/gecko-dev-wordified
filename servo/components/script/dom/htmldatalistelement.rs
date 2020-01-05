@@ -382,15 +382,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLDataListElementMethods
 for
-&
-'
-a
 HTMLDataListElement
 {
 /
@@ -418,6 +411,7 @@ options
 fn
 Options
 (
+&
 self
 )
 -

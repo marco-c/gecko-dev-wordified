@@ -720,15 +720,8 @@ type_
 )
 }
 impl
-<
-'
-a
->
 HTMLObjectElementMethods
 for
-&
-'
-a
 HTMLObjectElement
 {
 /
@@ -756,6 +749,7 @@ validity
 fn
 Validity
 (
+&
 self
 )
 -

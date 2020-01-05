@@ -7174,15 +7174,8 @@ is_some
 }
 }
 impl
-<
-'
-a
->
 KeyboardEventMethods
 for
-&
-'
-a
 KeyboardEvent
 {
 /
@@ -7208,6 +7201,7 @@ initKeyboardEvent
 fn
 InitKeyboardEvent
 (
+&
 self
 typeArg
 :
@@ -7338,6 +7332,7 @@ key
 fn
 Key
 (
+&
 self
 )
 -
@@ -7379,6 +7374,7 @@ code
 fn
 Code
 (
+&
 self
 )
 -
@@ -7420,6 +7416,7 @@ location
 fn
 Location
 (
+&
 self
 )
 -
@@ -7457,6 +7454,7 @@ ctrlKey
 fn
 CtrlKey
 (
+&
 self
 )
 -
@@ -7494,6 +7492,7 @@ shiftKey
 fn
 ShiftKey
 (
+&
 self
 )
 -
@@ -7531,6 +7530,7 @@ altKey
 fn
 AltKey
 (
+&
 self
 )
 -
@@ -7568,6 +7568,7 @@ metaKey
 fn
 MetaKey
 (
+&
 self
 )
 -
@@ -7605,6 +7606,7 @@ repeat
 fn
 Repeat
 (
+&
 self
 )
 -
@@ -7642,6 +7644,7 @@ isComposing
 fn
 IsComposing
 (
+&
 self
 )
 -
@@ -7694,6 +7697,7 @@ getModifierState
 fn
 GetModifierState
 (
+&
 self
 keyArg
 :
@@ -7826,6 +7830,7 @@ charCode
 fn
 CharCode
 (
+&
 self
 )
 -
@@ -7868,6 +7873,7 @@ keyCode
 fn
 KeyCode
 (
+&
 self
 )
 -
@@ -7905,6 +7911,7 @@ which
 fn
 Which
 (
+&
 self
 )
 -

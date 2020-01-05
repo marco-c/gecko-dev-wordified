@@ -801,15 +801,8 @@ event
 }
 }
 impl
-<
-'
-a
->
 ErrorEventMethods
 for
-&
-'
-a
 ErrorEvent
 {
 /
@@ -837,6 +830,7 @@ lineno
 fn
 Lineno
 (
+&
 self
 )
 -
@@ -876,6 +870,7 @@ colno
 fn
 Colno
 (
+&
 self
 )
 -
@@ -915,6 +910,7 @@ message
 fn
 Message
 (
+&
 self
 )
 -
@@ -958,6 +954,7 @@ filename
 fn
 Filename
 (
+&
 self
 )
 -
@@ -1001,6 +998,7 @@ error
 fn
 Error
 (
+&
 self
 _cx
 :

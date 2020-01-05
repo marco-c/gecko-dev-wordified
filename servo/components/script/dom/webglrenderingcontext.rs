@@ -1082,15 +1082,8 @@ unwrap
 }
 }
 impl
-<
-'
-a
->
 WebGLRenderingContextMethods
 for
-&
-'
-a
 WebGLRenderingContext
 {
 /
@@ -1126,6 +1119,7 @@ latest
 fn
 Canvas
 (
+&
 self
 )
 -
@@ -1176,6 +1170,7 @@ latest
 fn
 DrawingBufferWidth
 (
+&
 self
 )
 -
@@ -1267,6 +1262,7 @@ latest
 fn
 DrawingBufferHeight
 (
+&
 self
 )
 -
@@ -1358,6 +1354,7 @@ latest
 fn
 GetParameter
 (
+&
 self
 cx
 :
@@ -1500,6 +1497,7 @@ latest
 fn
 GetError
 (
+&
 self
 )
 -
@@ -1631,6 +1629,7 @@ latest
 fn
 GetContextAttributes
 (
+&
 self
 )
 -
@@ -1789,6 +1788,7 @@ latest
 fn
 GetExtension
 (
+&
 self
 _cx
 :
@@ -1872,6 +1872,7 @@ latest
 fn
 ActiveTexture
 (
+&
 self
 texture
 :
@@ -1937,6 +1938,7 @@ latest
 fn
 BlendColor
 (
+&
 self
 r
 :
@@ -2014,6 +2016,7 @@ latest
 fn
 BlendEquation
 (
+&
 self
 mode
 :
@@ -2079,6 +2082,7 @@ latest
 fn
 BlendEquationSeparate
 (
+&
 self
 mode_rgb
 :
@@ -2148,6 +2152,7 @@ latest
 fn
 BlendFunc
 (
+&
 self
 src_factor
 :
@@ -2217,6 +2222,7 @@ latest
 fn
 BlendFuncSeparate
 (
+&
 self
 src_rgb
 :
@@ -2294,6 +2300,7 @@ latest
 fn
 AttachShader
 (
+&
 self
 program
 :
@@ -2377,6 +2384,7 @@ latest
 fn
 BindBuffer
 (
+&
 self
 target
 :
@@ -2506,6 +2514,7 @@ latest
 fn
 BindFramebuffer
 (
+&
 self
 target
 :
@@ -2630,6 +2639,7 @@ latest
 fn
 BindRenderbuffer
 (
+&
 self
 target
 :
@@ -2746,6 +2756,7 @@ latest
 fn
 BindTexture
 (
+&
 self
 target
 :
@@ -2926,6 +2937,7 @@ latest
 fn
 BufferData
 (
+&
 self
 _cx
 :
@@ -3136,6 +3148,7 @@ latest
 fn
 Clear
 (
+&
 self
 mask
 :
@@ -3207,6 +3220,7 @@ latest
 fn
 ClearColor
 (
+&
 self
 red
 :
@@ -3283,6 +3297,7 @@ latest
 fn
 ClearDepth
 (
+&
 self
 depth
 :
@@ -3349,6 +3364,7 @@ latest
 fn
 ClearStencil
 (
+&
 self
 stencil
 :
@@ -3413,6 +3429,7 @@ latest
 fn
 ColorMask
 (
+&
 self
 r
 :
@@ -3489,6 +3506,7 @@ latest
 fn
 CullFace
 (
+&
 self
 mode
 :
@@ -3582,6 +3600,7 @@ latest
 fn
 FrontFace
 (
+&
 self
 mode
 :
@@ -3670,6 +3689,7 @@ latest
 fn
 DepthFunc
 (
+&
 self
 func
 :
@@ -3788,6 +3808,7 @@ latest
 fn
 DepthMask
 (
+&
 self
 flag
 :
@@ -3852,6 +3873,7 @@ latest
 fn
 DepthRange
 (
+&
 self
 near
 :
@@ -3924,6 +3946,7 @@ latest
 fn
 Enable
 (
+&
 self
 cap
 :
@@ -4047,6 +4070,7 @@ latest
 fn
 Disable
 (
+&
 self
 cap
 :
@@ -4170,6 +4194,7 @@ latest
 fn
 CompileShader
 (
+&
 self
 shader
 :
@@ -4257,6 +4282,7 @@ latest
 fn
 CreateBuffer
 (
+&
 self
 )
 -
@@ -4327,6 +4353,7 @@ latest
 fn
 CreateFramebuffer
 (
+&
 self
 )
 -
@@ -4397,6 +4424,7 @@ latest
 fn
 CreateRenderbuffer
 (
+&
 self
 )
 -
@@ -4467,6 +4495,7 @@ latest
 fn
 CreateTexture
 (
+&
 self
 )
 -
@@ -4537,6 +4566,7 @@ latest
 fn
 CreateProgram
 (
+&
 self
 )
 -
@@ -4637,6 +4667,7 @@ latest
 fn
 CreateShader
 (
+&
 self
 shader_type
 :
@@ -4711,6 +4742,7 @@ latest
 fn
 DeleteBuffer
 (
+&
 self
 buffer
 :
@@ -4770,6 +4802,7 @@ latest
 fn
 DeleteFramebuffer
 (
+&
 self
 framebuffer
 :
@@ -4829,6 +4862,7 @@ latest
 fn
 DeleteRenderbuffer
 (
+&
 self
 renderbuffer
 :
@@ -4888,6 +4922,7 @@ latest
 fn
 DeleteTexture
 (
+&
 self
 texture
 :
@@ -4947,6 +4982,7 @@ latest
 fn
 DeleteProgram
 (
+&
 self
 program
 :
@@ -5006,6 +5042,7 @@ latest
 fn
 DeleteShader
 (
+&
 self
 shader
 :
@@ -5065,6 +5102,7 @@ latest
 fn
 DrawArrays
 (
+&
 self
 mode
 :
@@ -5244,6 +5282,7 @@ latest
 fn
 EnableVertexAttribArray
 (
+&
 self
 attrib_id
 :
@@ -5308,6 +5347,7 @@ latest
 fn
 GetAttribLocation
 (
+&
 self
 program
 :
@@ -5391,6 +5431,7 @@ latest
 fn
 GetShaderInfoLog
 (
+&
 self
 shader
 :
@@ -5460,6 +5501,7 @@ latest
 fn
 GetShaderParameter
 (
+&
 self
 _
 :
@@ -5584,6 +5626,7 @@ latest
 fn
 GetUniformLocation
 (
+&
 self
 program
 :
@@ -5691,6 +5734,7 @@ latest
 fn
 Hint
 (
+&
 self
 target
 :
@@ -5809,6 +5853,7 @@ latest
 fn
 LineWidth
 (
+&
 self
 width
 :
@@ -5919,6 +5964,7 @@ latest
 fn
 PixelStorei
 (
+&
 self
 param_name
 :
@@ -6192,6 +6238,7 @@ latest
 fn
 PolygonOffset
 (
+&
 self
 factor
 :
@@ -6260,6 +6307,7 @@ latest
 fn
 LinkProgram
 (
+&
 self
 program
 :
@@ -6319,6 +6367,7 @@ latest
 fn
 ShaderSource
 (
+&
 self
 shader
 :
@@ -6382,6 +6431,7 @@ latest
 fn
 GetShaderSource
 (
+&
 self
 shader
 :
@@ -6458,6 +6508,7 @@ latest
 fn
 Uniform4fv
 (
+&
 self
 _cx
 :
@@ -6615,6 +6666,7 @@ latest
 fn
 UseProgram
 (
+&
 self
 program
 :
@@ -6674,6 +6726,7 @@ latest
 fn
 VertexAttribPointer
 (
+&
 self
 attrib_id
 :
@@ -6789,6 +6842,7 @@ latest
 fn
 Viewport
 (
+&
 self
 x
 :
@@ -6865,6 +6919,7 @@ latest
 fn
 TexImage2D
 (
+&
 self
 target
 :
@@ -7341,6 +7396,7 @@ latest
 fn
 TexParameterf
 (
+&
 self
 target
 :
@@ -7478,6 +7534,7 @@ latest
 fn
 TexParameteri
 (
+&
 self
 target
 :

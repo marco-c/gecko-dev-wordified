@@ -352,15 +352,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLOutputElementMethods
 for
-&
-'
-a
 HTMLOutputElement
 {
 /
@@ -388,6 +381,7 @@ validity
 fn
 Validity
 (
+&
 self
 )
 -

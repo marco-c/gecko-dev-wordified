@@ -412,15 +412,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLFieldSetElementMethods
 for
-&
-'
-a
 HTMLFieldSetElement
 {
 /
@@ -446,6 +439,7 @@ elements
 fn
 Elements
 (
+&
 self
 )
 -
@@ -620,6 +614,7 @@ validity
 fn
 Validity
 (
+&
 self
 )
 -

@@ -653,15 +653,8 @@ target
 }
 }
 impl
-<
-'
-a
->
 MessageEventMethods
 for
-&
-'
-a
 MessageEvent
 {
 /
@@ -689,6 +682,7 @@ data
 fn
 Data
 (
+&
 self
 _cx
 :
@@ -733,6 +727,7 @@ origin
 fn
 Origin
 (
+&
 self
 )
 -
@@ -772,6 +767,7 @@ lasteventid
 fn
 LastEventId
 (
+&
 self
 )
 -

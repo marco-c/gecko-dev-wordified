@@ -262,15 +262,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 WebGLShaderPrecisionFormatMethods
 for
-&
-'
-a
 WebGLShaderPrecisionFormat
 {
 /
@@ -304,6 +297,7 @@ specs
 fn
 RangeMin
 (
+&
 self
 )
 -
@@ -345,6 +339,7 @@ specs
 fn
 RangeMax
 (
+&
 self
 )
 -
@@ -386,6 +381,7 @@ specs
 fn
 Precision
 (
+&
 self
 )
 -

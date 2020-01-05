@@ -1580,15 +1580,8 @@ get
 }
 }
 impl
-<
-'
-a
->
 HTMLInputElementMethods
 for
-&
-'
-a
 HTMLInputElement
 {
 /
@@ -1733,6 +1726,7 @@ checked
 fn
 Checked
 (
+&
 self
 )
 -
@@ -1772,6 +1766,7 @@ checked
 fn
 SetChecked
 (
+&
 self
 checked
 :
@@ -2108,6 +2103,7 @@ value
 fn
 Value
 (
+&
 self
 )
 -
@@ -2151,6 +2147,7 @@ value
 fn
 SetValue
 (
+&
 self
 value
 :
@@ -2669,6 +2666,7 @@ indeterminate
 fn
 Indeterminate
 (
+&
 self
 )
 -
@@ -2708,6 +2706,7 @@ indeterminate
 fn
 SetIndeterminate
 (
+&
 self
 val
 :

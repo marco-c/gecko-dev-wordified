@@ -510,15 +510,8 @@ query
 }
 }
 impl
-<
-'
-a
->
 URLSearchParamsMethods
 for
-&
-'
-a
 URLSearchParams
 {
 /
@@ -544,6 +537,7 @@ append
 fn
 Append
 (
+&
 self
 name
 :
@@ -609,6 +603,7 @@ delete
 fn
 Delete
 (
+&
 self
 name
 :
@@ -680,6 +675,7 @@ get
 fn
 Get
 (
+&
 self
 name
 :
@@ -771,6 +767,7 @@ has
 fn
 Has
 (
+&
 self
 name
 :
@@ -842,6 +839,7 @@ set
 fn
 Set
 (
+&
 self
 name
 :
@@ -990,6 +988,7 @@ behavior
 fn
 Stringifier
 (
+&
 self
 )
 -

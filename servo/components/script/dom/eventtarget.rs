@@ -1953,15 +1953,8 @@ is_empty
 }
 }
 impl
-<
-'
-a
->
 EventTargetMethods
 for
-&
-'
-a
 EventTarget
 {
 /
@@ -1987,6 +1980,7 @@ addeventlistener
 fn
 AddEventListener
 (
+&
 self
 ty
 :
@@ -2153,6 +2147,7 @@ removeeventlistener
 fn
 RemoveEventListener
 (
+&
 self
 ty
 :
@@ -2317,6 +2312,7 @@ dispatchevent
 fn
 DispatchEvent
 (
+&
 self
 event
 :

@@ -2261,15 +2261,8 @@ unwrap
 }
 }
 impl
-<
-'
-a
->
 XMLHttpRequestMethods
 for
-&
-'
-a
 XMLHttpRequest
 {
 event_handler
@@ -2303,6 +2296,7 @@ readystate
 fn
 ReadyState
 (
+&
 self
 )
 -
@@ -2344,6 +2338,7 @@ method
 fn
 Open
 (
+&
 self
 method
 :
@@ -2956,6 +2951,7 @@ method
 fn
 Open_
 (
+&
 self
 method
 :
@@ -3026,6 +3022,7 @@ method
 fn
 SetRequestHeader
 (
+&
 self
 name
 :
@@ -3470,6 +3467,7 @@ attribute
 fn
 Timeout
 (
+&
 self
 )
 -
@@ -3507,6 +3505,7 @@ attribute
 fn
 SetTimeout
 (
+&
 self
 timeout
 :
@@ -3679,6 +3678,7 @@ attribute
 fn
 WithCredentials
 (
+&
 self
 )
 -
@@ -3716,6 +3716,7 @@ withcredentials
 fn
 SetWithCredentials
 (
+&
 self
 with_credentials
 :
@@ -3847,6 +3848,7 @@ attribute
 fn
 Upload
 (
+&
 self
 )
 -
@@ -3889,6 +3891,7 @@ method
 fn
 Send
 (
+&
 self
 data
 :
@@ -5062,6 +5065,7 @@ method
 fn
 Abort
 (
+&
 self
 )
 {
@@ -5221,6 +5225,7 @@ attribute
 fn
 ResponseURL
 (
+&
 self
 )
 -
@@ -5258,6 +5263,7 @@ attribute
 fn
 Status
 (
+&
 self
 )
 -
@@ -5295,6 +5301,7 @@ attribute
 fn
 StatusText
 (
+&
 self
 )
 -
@@ -5338,6 +5345,7 @@ method
 fn
 GetResponseHeader
 (
+&
 self
 name
 :
@@ -5437,6 +5445,7 @@ method
 fn
 GetAllResponseHeaders
 (
+&
 self
 )
 -
@@ -5486,6 +5495,7 @@ attribute
 fn
 ResponseType
 (
+&
 self
 )
 -
@@ -5523,6 +5533,7 @@ attribute
 fn
 SetResponseType
 (
+&
 self
 response_type
 :
@@ -5660,6 +5671,7 @@ attribute
 fn
 Response
 (
+&
 self
 cx
 :
@@ -5941,6 +5953,7 @@ attribute
 fn
 GetResponseText
 (
+&
 self
 )
 -
@@ -6039,6 +6052,7 @@ attribute
 fn
 GetResponseXML
 (
+&
 self
 )
 -

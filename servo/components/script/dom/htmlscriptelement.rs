@@ -4283,15 +4283,8 @@ mark_already_started
 }
 }
 impl
-<
-'
-a
->
 HTMLScriptElementMethods
 for
-&
-'
-a
 HTMLScriptElement
 {
 make_url_getter
@@ -4332,6 +4325,7 @@ text
 fn
 Text
 (
+&
 self
 )
 -
@@ -4379,6 +4373,7 @@ text
 fn
 SetText
 (
+&
 self
 value
 :

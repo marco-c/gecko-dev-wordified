@@ -1160,15 +1160,8 @@ inner
 }
 }
 impl
-<
-'
-a
->
 RangeMethods
 for
-&
-'
-a
 Range
 {
 /
@@ -1194,6 +1187,7 @@ startcontainer
 fn
 StartContainer
 (
+&
 self
 )
 -
@@ -1242,6 +1236,7 @@ startoffset
 fn
 StartOffset
 (
+&
 self
 )
 -
@@ -1285,6 +1280,7 @@ endcontainer
 fn
 EndContainer
 (
+&
 self
 )
 -
@@ -1333,6 +1329,7 @@ endoffset
 fn
 EndOffset
 (
+&
 self
 )
 -
@@ -1376,6 +1373,7 @@ collapsed
 fn
 Collapsed
 (
+&
 self
 )
 -
@@ -1427,6 +1425,7 @@ commonancestorcontainer
 fn
 CommonAncestorContainer
 (
+&
 self
 )
 -
@@ -1475,6 +1474,7 @@ offset
 fn
 SetStart
 (
+&
 self
 node
 :
@@ -1588,6 +1588,7 @@ offset
 fn
 SetEnd
 (
+&
 self
 node
 :
@@ -1699,6 +1700,7 @@ setstartbeforenode
 fn
 SetStartBefore
 (
+&
 self
 node
 :
@@ -1769,6 +1771,7 @@ setstartafternode
 fn
 SetStartAfter
 (
+&
 self
 node
 :
@@ -1841,6 +1844,7 @@ setendbeforenode
 fn
 SetEndBefore
 (
+&
 self
 node
 :
@@ -1911,6 +1915,7 @@ setendafternode
 fn
 SetEndAfter
 (
+&
 self
 node
 :
@@ -1983,6 +1988,7 @@ collapsetostart
 fn
 Collapse
 (
+&
 self
 to_start
 :
@@ -2028,6 +2034,7 @@ selectnodenode
 fn
 SelectNode
 (
+&
 self
 node
 :
@@ -2076,6 +2083,7 @@ selectnodecontentsnode
 fn
 SelectNodeContents
 (
+&
 self
 node
 :
@@ -2126,6 +2134,7 @@ sourcerange
 fn
 CompareBoundaryPoints
 (
+&
 self
 how
 :
@@ -2444,6 +2453,7 @@ clonerange
 fn
 CloneRange
 (
+&
 self
 )
 -
@@ -2567,6 +2577,7 @@ offset
 fn
 IsPointInRange
 (
+&
 self
 node
 :
@@ -2696,6 +2707,7 @@ offset
 fn
 ComparePoint
 (
+&
 self
 node
 :
@@ -2786,6 +2798,7 @@ intersectsnode
 fn
 IntersectsNode
 (
+&
 self
 node
 :
@@ -3059,6 +3072,7 @@ clone
 fn
 CloneContents
 (
+&
 self
 )
 -
@@ -4022,6 +4036,7 @@ extract
 fn
 ExtractContents
 (
+&
 self
 )
 -
@@ -5143,6 +5158,7 @@ detach
 fn
 Detach
 (
+&
 self
 )
 {
@@ -5198,6 +5214,7 @@ insert
 fn
 InsertNode
 (
+&
 self
 node
 :

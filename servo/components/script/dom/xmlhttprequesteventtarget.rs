@@ -240,15 +240,8 @@ false
 }
 }
 impl
-<
-'
-a
->
 XMLHttpRequestEventTargetMethods
 for
-&
-'
-a
 XMLHttpRequestEventTarget
 {
 event_handler

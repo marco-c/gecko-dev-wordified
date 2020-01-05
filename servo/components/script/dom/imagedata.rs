@@ -535,15 +535,8 @@ i32
 }
 }
 impl
-<
-'
-a
->
 ImageDataMethods
 for
-&
-'
-a
 ImageData
 {
 /
@@ -571,6 +564,7 @@ width
 fn
 Width
 (
+&
 self
 )
 -
@@ -606,6 +600,7 @@ height
 fn
 Height
 (
+&
 self
 )
 -
@@ -641,6 +636,7 @@ data
 fn
 Data
 (
+&
 self
 _
 :

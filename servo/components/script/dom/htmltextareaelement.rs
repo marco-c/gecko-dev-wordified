@@ -907,15 +907,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLTextAreaElementMethods
 for
-&
-'
-a
 HTMLTextAreaElement
 {
 /
@@ -1393,6 +1386,7 @@ type
 fn
 Type
 (
+&
 self
 )
 -
@@ -1432,6 +1426,7 @@ defaultvalue
 fn
 DefaultValue
 (
+&
 self
 )
 -
@@ -1484,6 +1479,7 @@ defaultvalue
 fn
 SetDefaultValue
 (
+&
 self
 value
 :
@@ -1589,6 +1585,7 @@ value
 fn
 Value
 (
+&
 self
 )
 -
@@ -1632,6 +1629,7 @@ value
 fn
 SetValue
 (
+&
 self
 value
 :

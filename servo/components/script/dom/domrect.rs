@@ -309,15 +309,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 DOMRectMethods
 for
-&
-'
-a
 DOMRect
 {
 /
@@ -343,6 +336,7 @@ top
 fn
 Top
 (
+&
 self
 )
 -
@@ -385,6 +379,7 @@ bottom
 fn
 Bottom
 (
+&
 self
 )
 -
@@ -427,6 +422,7 @@ left
 fn
 Left
 (
+&
 self
 )
 -
@@ -469,6 +465,7 @@ right
 fn
 Right
 (
+&
 self
 )
 -
@@ -511,6 +508,7 @@ width
 fn
 Width
 (
+&
 self
 )
 -
@@ -568,6 +566,7 @@ height
 fn
 Height
 (
+&
 self
 )
 -

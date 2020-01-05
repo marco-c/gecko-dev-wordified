@@ -540,15 +540,8 @@ to_owned
 }
 }
 impl
-<
-'
-a
->
 TextEncoderMethods
 for
-&
-'
-a
 TextEncoder
 {
 /
@@ -574,6 +567,7 @@ encoding
 fn
 Encoding
 (
+&
 self
 )
 -
@@ -618,6 +612,7 @@ encode
 fn
 Encode
 (
+&
 self
 cx
 :

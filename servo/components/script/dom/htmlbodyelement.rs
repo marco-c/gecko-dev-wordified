@@ -566,15 +566,8 @@ Wrap
 }
 }
 impl
-<
-'
-a
->
 HTMLBodyElementMethods
 for
-&
-'
-a
 HTMLBodyElement
 {
 /
@@ -641,6 +634,7 @@ element
 fn
 GetOnunload
 (
+&
 self
 )
 -
@@ -696,6 +690,7 @@ element
 fn
 SetOnunload
 (
+&
 self
 listener
 :
