@@ -72,6 +72,15 @@ simpletest
 :
 true
 }
+"
+plugins
+"
+:
+[
+"
+mozilla
+"
+]
 /
 /
 All
