@@ -3784,6 +3784,10 @@ JSObject
 impl
 Reflector
 {
+#
+[
+inline
+]
 pub
 fn
 get_jsobject
