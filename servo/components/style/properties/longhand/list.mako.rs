@@ -500,6 +500,17 @@ Second
 None_
 )
 "
+initial_specified_value
+=
+"
+Either
+:
+:
+Second
+(
+None_
+)
+"
 animatable
 =
 False

@@ -128,6 +128,16 @@ transparent
 )
 )
 "
+initial_specified_value
+=
+"
+SpecifiedValue
+:
+:
+transparent
+(
+)
+"
 spec
 =
 "
