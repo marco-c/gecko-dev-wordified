@@ -495,7 +495,7 @@ window
 openPreferences
 (
 "
-advanced
+privacy
 -
 reports
 "
