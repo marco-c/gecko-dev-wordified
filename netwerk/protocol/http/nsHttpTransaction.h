@@ -1813,7 +1813,11 @@ of
 consumed
 content
 bytes
+Atomic
+<
 int64_t
+ReleaseAcquire
+>
 mTransferSize
 ;
 /
