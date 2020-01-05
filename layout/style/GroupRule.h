@@ -236,13 +236,6 @@ GroupRule
 Rule
 )
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-implement
-part
-of
-Rule
-DECL_STYLE_RULE_INHERIT_NO_DOMRULE
 #
 ifdef
 DEBUG
