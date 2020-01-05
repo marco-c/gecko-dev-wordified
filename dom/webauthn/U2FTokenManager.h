@@ -288,6 +288,7 @@ Register
 WebAuthnTransactionParent
 *
 aTransactionParent
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -299,6 +300,7 @@ Sign
 WebAuthnTransactionParent
 *
 aTransactionParent
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
