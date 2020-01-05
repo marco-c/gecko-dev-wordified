@@ -360,6 +360,10 @@ aCpID
 const
 bool
 &
+aIsForApp
+const
+bool
+&
 aIsForBrowser
 )
 =
@@ -456,6 +460,10 @@ const
 ContentParentId
 &
 aCpId
+const
+bool
+&
+aIsForApp
 const
 bool
 &

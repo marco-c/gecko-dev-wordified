@@ -12272,7 +12272,7 @@ browserFrame
 browserFrame
 -
 >
-GetReallyIsBrowser
+GetReallyIsBrowserOrApp
 (
 )
 )

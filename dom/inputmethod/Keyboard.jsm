@@ -1218,13 +1218,13 @@ aren
 t
 from
 a
-Browser
+BrowserOrApp
 if
 (
 !
 frameLoader
 .
-ownerIsMozBrowserFrame
+ownerIsMozBrowserOrAppFrame
 )
 {
 return

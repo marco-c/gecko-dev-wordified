@@ -286,7 +286,7 @@ if
 !
 docShell
 .
-isMozBrowser
+isMozBrowserOrApp
 )
 {
 return
@@ -300,7 +300,7 @@ topDocShell
 =
 docShell
 .
-getSameTypeRootTreeItemIgnoreBrowserBoundaries
+getSameTypeRootTreeItemIgnoreBrowserAndAppBoundaries
 (
 )
 ;
@@ -568,7 +568,7 @@ if
 !
 docShell
 .
-isMozBrowser
+isMozBrowserOrApp
 )
 {
 return
@@ -582,7 +582,7 @@ parentDocShell
 =
 docShell
 .
-getSameTypeParentIgnoreBrowserBoundaries
+getSameTypeParentIgnoreBrowserAndAppBoundaries
 (
 )
 ;

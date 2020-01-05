@@ -300,6 +300,13 @@ h
 #
 include
 "
+mozIApplication
+.
+h
+"
+#
+include
+"
 nsIEffectiveTLDService
 .
 h

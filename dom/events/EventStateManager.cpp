@@ -7582,6 +7582,8 @@ frame
 /
 iframe
 mozbrowser
+/
+mozapp
 >
 nsCOMPtr
 <
@@ -7602,7 +7604,7 @@ browserFrame
 browserFrame
 -
 >
-GetReallyIsBrowser
+GetReallyIsBrowserOrApp
 (
 )
 )

@@ -1924,12 +1924,6 @@ index
 continue
 ;
 }
-mozilla
-:
-:
-dom
-:
-:
 BorrowedAttrInfo
 info
 =

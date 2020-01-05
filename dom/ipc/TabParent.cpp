@@ -145,6 +145,13 @@ AppProcessChecker
 h
 "
 #
+include
+"
+mozIApplication
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -15075,6 +15082,13 @@ NS_IMETHOD
 GetIsInIsolatedMozBrowserElement
 (
 bool
+*
+)
+NO_IMPL
+NS_IMETHOD
+GetAppId
+(
+uint32_t
 *
 )
 NO_IMPL

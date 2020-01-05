@@ -207,13 +207,6 @@ Logging
 .
 h
 "
-#
-include
-"
-nsPIDOMWindow
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 ThirdPartyUtil
@@ -860,6 +853,8 @@ consider
 <
 iframe
 mozbrowser
+/
+mozapp
 >
 to
 be

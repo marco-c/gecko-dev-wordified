@@ -439,6 +439,13 @@ h
 #
 include
 "
+mozIApplication
+.
+h
+"
+#
+include
+"
 mozIApplicationClearPrivateDataParams
 .
 h

@@ -952,6 +952,13 @@ any
 )
 GK_ATOM
 (
+mozapp
+"
+mozapp
+"
+)
+GK_ATOM
+(
 applet
 "
 applet
@@ -7348,6 +7355,13 @@ GK_ATOM
 parent
 "
 parent
+"
+)
+GK_ATOM
+(
+parentapp
+"
+parentapp
 "
 )
 GK_ATOM

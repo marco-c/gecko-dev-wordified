@@ -3602,6 +3602,11 @@ DestroyWindow
 )
 ;
 void
+SetProcessNameToAppName
+(
+)
+;
+void
 ApplyShowInfo
 (
 const

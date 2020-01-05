@@ -2413,7 +2413,7 @@ aren
 t
 from
 a
-Browser
+BrowserOrApp
 let
 frameLoader
 =
@@ -2431,7 +2431,7 @@ if
 !
 frameLoader
 .
-ownerIsMozBrowserFrame
+ownerIsMozBrowserOrAppFrame
 )
 {
 return
