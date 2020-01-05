@@ -1567,7 +1567,7 @@ adjust
 +
 remaining
 as
-int
+isize
 +
 1
 select
@@ -1591,7 +1591,7 @@ edit_point
 .
 index
 as
-int
+isize
 +
 adjust
 )
@@ -1680,7 +1680,7 @@ adjust
 -
 remaining
 as
-int
+isize
 -
 1
 select

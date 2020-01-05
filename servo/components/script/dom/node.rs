@@ -3850,7 +3850,7 @@ dump_indent
 self
 indent
 :
-uint
+u32
 )
 ;
 fn
@@ -4124,7 +4124,7 @@ dump_indent
 self
 indent
 :
-uint
+u32
 )
 {
 let
@@ -4141,11 +4141,10 @@ new
 for
 _
 in
-range
-(
 0
+.
+.
 indent
-)
 {
 s
 .
@@ -4222,7 +4221,7 @@ dump_indent
 (
 indent
 +
-1u
+1
 )
 }
 }
@@ -6441,7 +6440,7 @@ NodeType
 (
 )
 as
-uint
+usize
 namespaceURI
 :
 "
@@ -6480,7 +6479,7 @@ Length
 (
 )
 as
-uint
+usize
 /
 /
 FIXME

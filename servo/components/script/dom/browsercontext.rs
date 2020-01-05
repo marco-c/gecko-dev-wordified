@@ -344,7 +344,7 @@ SessionHistoryEntry
 >
 active_index
 :
-uint
+usize
 window_proxy
 :
 *

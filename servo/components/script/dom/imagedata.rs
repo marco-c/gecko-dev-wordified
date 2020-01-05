@@ -530,7 +530,7 @@ from_raw_parts
 data
 len
 as
-uint
+usize
 )
 .
 to_vec
