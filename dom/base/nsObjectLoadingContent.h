@@ -4325,7 +4325,7 @@ this
 object
 .
 bool
-mContentBlockingDisabled
+mContentBlockingEnabled
 :
 1
 ;
