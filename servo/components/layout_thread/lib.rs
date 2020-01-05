@@ -8690,6 +8690,18 @@ node
 )
 }
 ;
+let
+layout_context
+=
+LayoutContext
+:
+:
+new
+(
+&
+shared_layout_context
+)
+;
 rw_data
 .
 resolved_style_response
@@ -8697,6 +8709,8 @@ resolved_style_response
 process_resolved_style_request
 (
 node
+&
+layout_context
 pseudo
 property
 &

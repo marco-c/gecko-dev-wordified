@@ -998,11 +998,8 @@ RestyleDamage
 :
 compute
 (
-Some
-(
 &
 old_style
-)
 &
 fragment
 .

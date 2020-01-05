@@ -636,13 +636,6 @@ F
 :
 FnMut
 (
-<
-Self
-as
-SelectorImpl
->
-:
-:
 PseudoElement
 )
 {
@@ -698,13 +691,6 @@ F
 :
 FnMut
 (
-<
-Self
-as
-SelectorImpl
->
-:
-:
 PseudoElement
 )
 {
