@@ -61,8 +61,6 @@ MPL
 [
 feature
 (
-env
-os
 start
 )
 ]
