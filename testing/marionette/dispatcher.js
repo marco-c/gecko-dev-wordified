@@ -426,7 +426,7 @@ this
 .
 driver
 .
-sessionTearDown
+deleteSession
 (
 )
 ;
