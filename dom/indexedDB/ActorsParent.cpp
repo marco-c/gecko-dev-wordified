@@ -26346,7 +26346,7 @@ Start
 const
 TransactionBase
 *
-aConnection
+aTransaction
 )
 ;
 nsresult
