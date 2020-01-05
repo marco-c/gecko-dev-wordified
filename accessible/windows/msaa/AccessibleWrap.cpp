@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsWindowsHelpers
+.
+h
+"
+#
+include
+"
 nsWinUtils
 .
 h
@@ -9090,9 +9097,9 @@ interferes
 with
 Gecko
 caret
-HBITMAP
+nsAutoBitmap
 caretBitMap
-=
+(
 CreateBitmap
 (
 1
@@ -9102,6 +9109,7 @@ height
 1
 1
 nullptr
+)
 )
 ;
 if
@@ -9163,13 +9171,6 @@ y
 windowRect
 .
 top
-)
-;
-:
-:
-DeleteObject
-(
-caretBitMap
 )
 ;
 }
