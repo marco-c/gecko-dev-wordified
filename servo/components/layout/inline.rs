@@ -13275,7 +13275,6 @@ mut
 clip
 &
 stacking_relative_border_box
-false
 )
 ;
 let

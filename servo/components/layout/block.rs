@@ -14818,16 +14818,6 @@ mut
 clip
 &
 stacking_relative_border_box
-self
-.
-base
-.
-flags
-.
-contains
-(
-IS_ABSOLUTELY_POSITIONED
-)
 )
 ;
 /

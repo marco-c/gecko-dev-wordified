@@ -1808,9 +1808,6 @@ Rect
 <
 Au
 >
-is_absolutely_positioned
-:
-bool
 )
 ;
 /
@@ -10177,9 +10174,6 @@ Rect
 <
 Au
 >
-is_absolutely_positioned
-:
-bool
 )
 {
 /

@@ -17055,6 +17055,19 @@ true
 ;
 continue
 }
+/
+/
+Finished
+processing
+leading
+control
+chars
+and
+whitespace
+.
+if
+modified
+{
 new_text_string
 .
 push_str
@@ -17070,6 +17083,7 @@ i
 ]
 )
 ;
+}
 break
 }
 if
