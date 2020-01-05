@@ -121,6 +121,13 @@ ProfileBuffer
 .
 h
 "
+#
+include
+"
+ProfilerMarker
+.
+h
+"
 ProfileBuffer
 :
 :
