@@ -287,7 +287,7 @@ use
 net
 :
 :
-http_loader
+test
 :
 :
 HttpState

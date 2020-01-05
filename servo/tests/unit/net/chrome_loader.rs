@@ -60,7 +60,7 @@ use
 net
 :
 :
-chrome_loader
+test
 :
 :
 resolve_chrome_url
