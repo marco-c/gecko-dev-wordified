@@ -7985,7 +7985,7 @@ funcName
 /
 /
 texture
-TexImageTarget
+GLenum
 texImageTarget
 =
 LOCAL_GL_TEXTURE_3D
@@ -8063,10 +8063,6 @@ get
 switch
 (
 texImageTarget
-.
-get
-(
-)
 )
 {
 case
