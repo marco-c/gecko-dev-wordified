@@ -134,8 +134,8 @@ wr
 {
 static
 inline
-WRColor
-ToWRColor
+WrColor
+ToWrColor
 (
 const
 gfx
@@ -146,7 +146,7 @@ Color
 color
 )
 {
-WRColor
+WrColor
 c
 ;
 c
@@ -215,7 +215,7 @@ bs
 .
 color
 =
-ToWRColor
+ToWrColor
 (
 color
 )
