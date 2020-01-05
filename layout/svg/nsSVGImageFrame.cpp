@@ -2518,7 +2518,6 @@ viewBox
 const
 Maybe
 <
-const
 SVGImageContext
 >
 context

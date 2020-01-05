@@ -43149,7 +43149,6 @@ aDirty
 const
 Maybe
 <
-const
 SVGImageContext
 >
 &
@@ -43320,7 +43319,6 @@ imageSpaceToDeviceSpace
 ;
 Maybe
 <
-const
 SVGImageContext
 >
 fallbackContext
@@ -43662,7 +43660,6 @@ aDirty
 const
 Maybe
 <
-const
 SVGImageContext
 >
 &
