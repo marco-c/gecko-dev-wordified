@@ -123,7 +123,7 @@ mozilla_dom_SVGEllipseElement_h
 #
 include
 "
-nsSVGPathGeometryElement
+SVGGeometryElement
 .
 h
 "
@@ -163,7 +163,7 @@ namespace
 dom
 {
 typedef
-nsSVGPathGeometryElement
+SVGGeometryElement
 SVGEllipseElementBase
 ;
 class
@@ -256,7 +256,7 @@ override
 ;
 /
 /
-nsSVGPathGeometryElement
+SVGGeometryElement
 methods
 :
 virtual

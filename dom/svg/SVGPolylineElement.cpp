@@ -455,7 +455,7 @@ SVGPolylineElement
 -
 /
 /
-nsSVGPathGeometryElement
+SVGGeometryElement
 methods
 already_AddRefed
 <

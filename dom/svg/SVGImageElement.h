@@ -137,14 +137,14 @@ h
 #
 include
 "
-nsSVGPathGeometryElement
+nsSVGString
 .
 h
 "
 #
 include
 "
-nsSVGString
+SVGGeometryElement
 .
 h
 "
@@ -177,10 +177,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-typedef
-nsSVGPathGeometryElement
-SVGImageElementBase
-;
 class
 nsSVGImageFrame
 ;
@@ -192,6 +188,10 @@ dom
 {
 class
 DOMSVGAnimatedPreserveAspectRatio
+;
+typedef
+SVGGeometryElement
+SVGImageElementBase
 ;
 class
 SVGImageElement
@@ -374,7 +374,7 @@ override
 ;
 /
 /
-nsSVGPathGeometryElement
+SVGGeometryElement
 methods
 :
 virtual

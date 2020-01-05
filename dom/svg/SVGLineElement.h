@@ -123,7 +123,7 @@ mozilla_dom_SVGLineElement_h
 #
 include
 "
-nsSVGPathGeometryElement
+SVGGeometryElement
 .
 h
 "
@@ -163,7 +163,7 @@ namespace
 dom
 {
 typedef
-nsSVGPathGeometryElement
+SVGGeometryElement
 SVGLineElementBase
 ;
 class
@@ -318,7 +318,7 @@ override
 ;
 /
 /
-nsSVGPathGeometryElement
+SVGGeometryElement
 methods
 :
 virtual

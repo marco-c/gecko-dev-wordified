@@ -15120,6 +15120,13 @@ SVGGenericContainerFrame
 )
 GK_ATOM
 (
+svgGeometryFrame
+"
+SVGGeometryFrame
+"
+)
+GK_ATOM
+(
 svgGFrame
 "
 SVGGFrame
@@ -15186,13 +15193,6 @@ GK_ATOM
 svgOuterSVGAnonChildFrame
 "
 SVGOuterSVGAnonChildFrame
-"
-)
-GK_ATOM
-(
-svgPathGeometryFrame
-"
-SVGPathGeometryFrame
 "
 )
 GK_ATOM
