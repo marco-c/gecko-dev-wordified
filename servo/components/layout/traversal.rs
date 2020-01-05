@@ -2078,13 +2078,6 @@ false
 ;
 node
 .
-set_dirty_siblings
-(
-false
-)
-;
-node
-.
 set_dirty_descendants
 (
 false

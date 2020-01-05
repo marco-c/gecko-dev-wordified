@@ -10642,13 +10642,6 @@ true
 ;
 node
 .
-set_dirty_siblings
-(
-true
-)
-;
-node
-.
 set_dirty_descendants
 (
 true
