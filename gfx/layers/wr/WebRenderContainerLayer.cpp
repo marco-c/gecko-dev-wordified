@@ -819,12 +819,12 @@ RefLayer
 rect
 )
 ;
-WrClipRegion
+WrClipRegionToken
 clipRegion
 =
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 aSc
 .

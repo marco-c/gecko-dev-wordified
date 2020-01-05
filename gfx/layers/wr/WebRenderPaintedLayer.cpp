@@ -653,12 +653,12 @@ BuildWrMaskLayer
 sc
 )
 ;
-WrClipRegion
+WrClipRegionToken
 clip
 =
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 sc
 .

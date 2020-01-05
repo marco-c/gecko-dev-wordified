@@ -29067,12 +29067,12 @@ i
 )
 ;
 }
-WrClipRegion
+WrClipRegionToken
 clipRegion
 =
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 transformedRect
 )

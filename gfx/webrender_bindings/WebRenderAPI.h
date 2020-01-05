@@ -323,13 +323,6 @@ uint8_t
 dl_data
 size_t
 dl_size
-WrAuxiliaryListsDescriptor
-aux_descriptor
-uint8_t
-*
-aux_data
-size_t
-aux_size
 )
 ;
 void
@@ -876,8 +869,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrColor
@@ -893,8 +885,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrPoint
@@ -932,8 +923,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrPoint
@@ -971,8 +961,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 wr
 :
@@ -994,8 +983,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrSize
@@ -1025,8 +1013,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 wr
 :
@@ -1055,8 +1042,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 wr
 :
@@ -1080,8 +1066,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 wr
 :
@@ -1098,8 +1083,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrBorderWidths
@@ -1135,8 +1119,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrBorderWidths
@@ -1173,8 +1156,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrBorderWidths
@@ -1214,8 +1196,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrBorderWidths
@@ -1255,8 +1236,7 @@ WrRect
 &
 aBounds
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 gfx
@@ -1288,8 +1268,7 @@ WrRect
 &
 aRect
 const
-WrClipRegion
-&
+WrClipRegionToken
 aClip
 const
 WrRect
@@ -1321,8 +1300,8 @@ WrBoxShadowClipMode
 aClipMode
 )
 ;
-WrClipRegion
-BuildClipRegion
+WrClipRegionToken
+PushClipRegion
 (
 const
 WrRect
@@ -1336,8 +1315,8 @@ aMask
 nullptr
 )
 ;
-WrClipRegion
-BuildClipRegion
+WrClipRegionToken
+PushClipRegion
 (
 const
 WrRect

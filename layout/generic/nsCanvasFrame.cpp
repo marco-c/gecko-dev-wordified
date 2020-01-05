@@ -1973,7 +1973,7 @@ PushRect
 transformedRect
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 transformedRect
 )

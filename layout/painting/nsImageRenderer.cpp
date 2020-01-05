@@ -4170,7 +4170,7 @@ PushImage
 fill
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 clip
 )

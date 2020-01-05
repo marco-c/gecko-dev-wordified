@@ -29233,7 +29233,7 @@ PushRect
 caret
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 caret
 )
@@ -29263,7 +29263,7 @@ PushRect
 hook
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 hook
 )
@@ -30876,7 +30876,7 @@ PushBorderImage
 dest
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 clip
 )
@@ -31156,7 +31156,7 @@ PushBorderGradient
 dest
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 clip
 )
@@ -31232,7 +31232,7 @@ PushBorderRadialGradient
 dest
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 clip
 )
@@ -33379,7 +33379,7 @@ PushRect
 deviceBoxRect
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 deviceClipRect
 clips
@@ -33403,7 +33403,7 @@ PushRect
 deviceBoxRect
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 deviceClipRect
 )
@@ -33427,7 +33427,7 @@ PushBoxShadow
 deviceBoxRect
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 deviceClipRect
 )
@@ -34465,7 +34465,7 @@ deviceBoxRect
 )
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 deviceClipRect
 )
