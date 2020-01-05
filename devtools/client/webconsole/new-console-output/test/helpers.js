@@ -302,6 +302,7 @@ setupStore
 (
 input
 hud
+options
 )
 {
 const
@@ -310,6 +311,7 @@ store
 configureStore
 (
 hud
+options
 )
 ;
 /
