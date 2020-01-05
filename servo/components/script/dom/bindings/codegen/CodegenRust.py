@@ -37250,6 +37250,19 @@ dom
 bindings
 :
 :
+global
+:
+:
+global_object_for_js_object
+'
+            
+'
+dom
+:
+:
+bindings
+:
+:
 js
 :
 :
@@ -37321,10 +37334,7 @@ bindings
 utils
 :
 :
-{
 ConstantSpec
-cx_for_dom_object
-}
 '
             
 '
@@ -37421,19 +37431,6 @@ utils
 {
 jsid_to_str
 }
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-utils
-:
-:
-global_object_for_js_object
 '
             
 '
