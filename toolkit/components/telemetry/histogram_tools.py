@@ -521,6 +521,7 @@ __file__
 )
 )
 )
+                                  
 '
 histogram
 -
@@ -603,6 +604,7 @@ whitelists
 None
     
 print
+(
 '
 Unable
 to
@@ -621,7 +623,9 @@ acceptable
 .
 '
 %
+          
 whitelist_path
+)
 class
 Histogram
 :
@@ -1921,6 +1925,7 @@ LABELS_
 .
 '
 %
+                              
 (
 name
 )
@@ -2042,6 +2047,7 @@ s
 "
 '
 %
+                                  
 (
 name
 pattern
@@ -2935,6 +2941,10 @@ for
 s
 "
 in
+'
+\
+                      
+'
 histogram
 -
 whitelists
@@ -3385,12 +3395,14 @@ should
 be
 of
 type
+'
+                                  
+'
 {
 2
 }
 .
 '
-                                  
 .
 format
 (
@@ -3524,6 +3536,7 @@ n_buckets
 raise
 ParserError
 (
+                    
 '
 New
 histogram
@@ -3544,7 +3557,7 @@ buckets
 \
 n
 '
-                                  
+                    
 '
 Histograms
 with
@@ -3555,13 +3568,13 @@ buckets
 use
 disproportionately
 high
+'
+                    
+'
 amounts
 of
 resources
 .
-'
-                                  
-'
 Contact
 a
 Telemetry
@@ -3575,6 +3588,9 @@ in
 #
 telemetry
 )
+'
+                    
+'
 if
 you
 think
@@ -3588,7 +3604,7 @@ made
 \
 n
 '
-                                  
+                    
 '
 https
 :
@@ -3606,11 +3622,12 @@ Toolkit
 #
 Telemetry
 '
-                                  
+                    
 %
 self
 .
 _name
+                    
 )
     
 staticmethod
@@ -3730,6 +3747,8 @@ with
 the
 pipeline
 not
+        
+#
 supporting
 bucket
 changes
@@ -4018,6 +4037,9 @@ Unknown
 value
 for
 releaseChannelCollection
+'
+                              
+'
 policy
 for
 histogram
@@ -4771,6 +4793,8 @@ Histograms
 json
 etc
 .
+    
+#
 are
 also
 removed
@@ -4839,6 +4863,10 @@ should
 be
 removed
 from
+'
+\
+                  
+'
 histogram
 -
 whitelists

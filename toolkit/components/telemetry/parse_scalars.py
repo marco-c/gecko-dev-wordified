@@ -1038,6 +1038,7 @@ fields
 :
 '
 +
+                              
 '
 '
 .
@@ -1186,6 +1187,7 @@ definition
 keys
 (
 )
+                            
 if
 not
 isinstance
