@@ -404,7 +404,7 @@ getAttribute
 value
 "
 )
-42
+44
 "
 Should
 have

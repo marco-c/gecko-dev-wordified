@@ -331,7 +331,7 @@ paused
 waitForCaretAndScopes
 (
 aPanel
-48
+47
 )
 ;
 generateMouseClickInTab
