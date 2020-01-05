@@ -76,7 +76,7 @@ commands
 to
 /
 /
-/
+!
 perform
 .
 Using
@@ -94,7 +94,7 @@ transforms
 hit
 /
 /
-/
+!
 testing
 and
 invalidation
@@ -113,7 +113,7 @@ also
 allows
 /
 /
-/
+!
 Servo
 to
 aggressively
@@ -133,7 +133,7 @@ overdraw
 .
 /
 /
-/
+!
 Finally
 display
 lists
@@ -151,7 +151,7 @@ rendered
 in
 /
 /
-/
+!
 parallel
 (
 although
@@ -169,10 +169,10 @@ rendering
 .
 /
 /
+!
 /
 /
-/
-/
+!
 Display
 items
 describe
@@ -189,7 +189,7 @@ entire
 borders
 /
 /
-/
+!
 and
 shadows
 instead
@@ -209,7 +209,7 @@ required
 .
 /
 /
-/
+!
 They
 are
 therefore
@@ -226,7 +226,7 @@ consist
 of
 /
 /
-/
+!
 low
 -
 level
