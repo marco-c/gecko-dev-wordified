@@ -236,6 +236,9 @@ extern
 crate
 util
 ;
+mod
+custom_properties
+;
 pub
 mod
 stylesheets
