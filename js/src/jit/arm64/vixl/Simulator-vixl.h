@@ -5560,6 +5560,9 @@ public
 explicit
 Simulator
 (
+JSContext
+*
+cx
 Decoder
 *
 decoder
@@ -14155,6 +14158,11 @@ state
 -
 -
 -
+JSContext
+*
+const
+cx_
+;
 /
 /
 Simulated

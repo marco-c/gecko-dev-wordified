@@ -13422,13 +13422,6 @@ fail
 )
 ;
 void
-loadWasmActivationFromTls
-(
-Register
-dest
-)
-;
-void
 loadWasmTlsRegFromFrame
 (
 Register
