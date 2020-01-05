@@ -1001,7 +1001,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 mItem
@@ -1103,7 +1102,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 mItem
