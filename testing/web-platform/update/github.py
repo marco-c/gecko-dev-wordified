@@ -371,6 +371,18 @@ json
 else
 :
             
+print
+method
+path
+resp
+.
+status_code
+resp
+.
+json
+(
+)
+            
 raise
 GitHubError
 (
@@ -1053,7 +1065,7 @@ merge_method
 "
 :
 "
-rebase
+merge
 "
 }
                          
