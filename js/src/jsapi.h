@@ -26200,6 +26200,10 @@ allowHTMLComments
 (
 true
 )
+isProbablySystemOrAddonCode
+(
+false
+)
 introductionType
 (
 nullptr
@@ -26407,6 +26411,9 @@ sourceIsLazy
 ;
 bool
 allowHTMLComments
+;
+bool
+isProbablySystemOrAddonCode
 ;
 /
 /
