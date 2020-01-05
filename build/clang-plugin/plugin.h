@@ -146,17 +146,6 @@ clang
 /
 Frontend
 /
-FrontendPluginRegistry
-.
-h
-"
-#
-include
-"
-clang
-/
-Frontend
-/
 MultiplexConsumer
 .
 h
