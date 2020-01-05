@@ -2877,6 +2877,14 @@ u32
 parsing_mode
 :
 SheetParsingMode
+base_bytes
+:
+*
+const
+u8
+base_length
+:
+u32
 base
 :
 *
