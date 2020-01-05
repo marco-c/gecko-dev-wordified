@@ -443,7 +443,7 @@ event
 bool
 NotifyIMEOfMouseButtonEvent
 (
-nsIDOMMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 )
