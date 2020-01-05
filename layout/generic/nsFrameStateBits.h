@@ -1392,6 +1392,17 @@ for
 more
 details
 .
+(
+this
+is
+only
+set
+on
+nsBlockFrame
+/
+nsInlineFrame
+frames
+)
 FRAME_STATE_BIT
 (
 Generic
