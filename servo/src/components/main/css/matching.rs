@@ -836,7 +836,6 @@ pub
 struct
 ApplicableDeclarationsCache
 {
-pub
 cache
 :
 SimpleHashCache
@@ -956,8 +955,6 @@ ComputedValues
 >
 )
 {
-drop
-(
 self
 .
 cache
@@ -972,7 +969,6 @@ new
 declarations
 )
 style
-)
 )
 }
 }
@@ -2093,9 +2089,6 @@ parent_style
 >
 {
 let
-cached_computed_values
-;
-let
 cache_entry
 =
 applicable_declarations_cache
@@ -2105,14 +2098,15 @@ find
 applicable_declarations
 )
 ;
+let
+cached_computed_values
+=
 match
 cache_entry
 {
 None
 =
 >
-cached_computed_values
-=
 None
 Some
 (
@@ -2121,8 +2115,6 @@ style
 )
 =
 >
-cached_computed_values
-=
 Some
 (
 &
@@ -2131,6 +2123,7 @@ Some
 style
 )
 }
+;
 let
 (
 the_style
