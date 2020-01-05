@@ -86,6 +86,17 @@ createEnum
 /
 Update
 the
+grid
+highlighted
+state
+.
+"
+UPDATE_GRID_HIGHLIGHTED
+"
+/
+/
+Update
+the
 entire
 grids
 state
