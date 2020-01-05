@@ -5591,6 +5591,10 @@ get_jsmanaged
 (
 )
 )
+.
+unwrap
+(
+)
 ;
 if
 !

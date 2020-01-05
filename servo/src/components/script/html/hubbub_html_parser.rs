@@ -3028,6 +3028,10 @@ to
 &
 element
 )
+.
+unwrap
+(
+)
 ;
 let
 sandboxed
@@ -3877,6 +3881,10 @@ to
 &
 child
 )
+.
+unwrap
+(
+)
 ;
 data
 .
@@ -4065,6 +4073,10 @@ to
 (
 &
 child
+)
+.
+unwrap
+(
 )
 ;
 data
