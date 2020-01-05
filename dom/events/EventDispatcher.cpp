@@ -2337,6 +2337,16 @@ mEvent
 mFlags
 .
 mInSystemGroup
+&
+&
+aVisitor
+.
+mEvent
+-
+>
+IsAllowedToDispatchInSystemGroup
+(
+)
 )
 {
 /
