@@ -167,6 +167,17 @@ TestRunner
 import
 org
 .
+mozilla
+.
+gecko
+.
+mozglue
+.
+SafeIntent
+;
+import
+org
+.
 robolectric
 .
 RuntimeEnvironment
@@ -363,9 +374,12 @@ pendingIntent
 tinted
 )
 ;
-Intent
+SafeIntent
 intent
 =
+new
+SafeIntent
+(
 builder
 .
 build
@@ -373,6 +387,7 @@ build
 )
 .
 intent
+)
 ;
 Assert
 .
@@ -464,9 +479,12 @@ Builder
 (
 )
 ;
-Intent
+SafeIntent
 intent
 =
+new
+SafeIntent
+(
 builder
 .
 build
@@ -474,6 +492,7 @@ build
 )
 .
 intent
+)
 ;
 Assert
 .
@@ -596,9 +615,12 @@ exitRes
 )
 ;
 final
-Intent
+SafeIntent
 i
 =
+new
+SafeIntent
+(
 builder
 .
 build
@@ -606,6 +628,7 @@ build
 )
 .
 intent
+)
 ;
 Assert
 .
@@ -681,9 +704,12 @@ Builder
 )
 ;
 final
-Intent
+SafeIntent
 i
 =
+new
+SafeIntent
+(
 builder
 .
 build
@@ -691,6 +717,7 @@ build
 )
 .
 intent
+)
 ;
 Assert
 .
@@ -876,9 +903,12 @@ intent2
 )
 ;
 final
-Intent
+SafeIntent
 intent
 =
+new
+SafeIntent
+(
 builder
 .
 build
@@ -886,6 +916,7 @@ build
 )
 .
 intent
+)
 ;
 List
 <
@@ -1068,6 +1099,9 @@ IntentUtil
 .
 getToolbarColor
 (
+new
+SafeIntent
+(
 builder
 .
 build
@@ -1075,6 +1109,7 @@ build
 )
 .
 intent
+)
 )
 IntentUtil
 .
@@ -1101,6 +1136,9 @@ IntentUtil
 .
 getToolbarColor
 (
+new
+SafeIntent
+(
 builder
 .
 build
@@ -1108,6 +1146,7 @@ build
 )
 .
 intent
+)
 )
 0xFFFF0000
 )
@@ -1127,6 +1166,9 @@ IntentUtil
 .
 getToolbarColor
 (
+new
+SafeIntent
+(
 builder
 .
 build
@@ -1134,6 +1176,7 @@ build
 )
 .
 intent
+)
 )
 0xFFFF0000
 )
@@ -1167,6 +1210,9 @@ IntentUtil
 .
 getToolbarColor
 (
+new
+SafeIntent
+(
 builder
 .
 build
@@ -1174,6 +1220,7 @@ build
 )
 .
 intent
+)
 )
 0xFF00FF00
 )
@@ -1207,6 +1254,9 @@ IntentUtil
 .
 hasShareItem
 (
+new
+SafeIntent
+(
 builderNoShareItem
 .
 build
@@ -1214,6 +1264,7 @@ build
 )
 .
 intent
+)
 )
 )
 ;
@@ -1244,6 +1295,9 @@ IntentUtil
 .
 hasShareItem
 (
+new
+SafeIntent
+(
 builderHasShareItem
 .
 build
@@ -1251,6 +1305,7 @@ build
 )
 .
 intent
+)
 )
 )
 ;

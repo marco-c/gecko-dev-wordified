@@ -108,13 +108,6 @@ PendingIntent
 import
 android
 .
-content
-.
-Intent
-;
-import
-android
-.
 graphics
 .
 Bitmap
@@ -168,6 +161,17 @@ support
 customtabs
 .
 CustomTabsIntent
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+SafeIntent
 ;
 import
 java
@@ -368,7 +372,7 @@ boolean
 hasActionButton
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -469,7 +473,7 @@ boolean
 hasShareItem
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -530,7 +534,7 @@ Bitmap
 getActionButtonIcon
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -622,7 +626,7 @@ boolean
 hasToolbarColor
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -690,7 +694,7 @@ int
 getToolbarColor
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -786,7 +790,7 @@ String
 getActionButtonDescription
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -864,7 +868,7 @@ PendingIntent
 getActionButtonPendingIntent
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -951,7 +955,7 @@ boolean
 isActionButtonTinted
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1016,7 +1020,7 @@ Bundle
 getActionButtonBundle
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1111,7 +1115,7 @@ String
 getAnimationPackageName
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1221,7 +1225,7 @@ String
 getMenuItemsTitle
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1361,7 +1365,7 @@ PendingIntent
 getMenuItemsPendingIntent
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1472,7 +1476,7 @@ boolean
 hasExitAnimation
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1600,7 +1604,7 @@ int
 getEnterAnimationRes
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1705,7 +1709,7 @@ int
 getExitAnimationRes
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1787,7 +1791,7 @@ Bundle
 getAnimationBundle
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1884,7 +1888,7 @@ Bundle
 getMenuItemsBundle
 (
 NonNull
-Intent
+SafeIntent
 intent
 )
 {
@@ -1895,6 +1899,10 @@ Bundle
 extra
 =
 intent
+.
+getUnsafe
+(
+)
 .
 getParcelableArrayListExtra
 (
