@@ -938,14 +938,12 @@ map
 |
 index
 |
-{
 atoms
 .
 remove
 (
 index
 )
-}
 )
 ;
 }

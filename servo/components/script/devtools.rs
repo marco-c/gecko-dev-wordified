@@ -106,9 +106,7 @@ Bindings
 DOMRectBinding
 :
 :
-{
 DOMRectMethods
-}
 ;
 use
 dom
@@ -144,9 +142,7 @@ Bindings
 ElementBinding
 :
 :
-{
 ElementMethods
-}
 ;
 use
 dom
@@ -948,13 +944,11 @@ map
 |
 child
 |
-{
 child
 .
 summarize
 (
 )
-}
 )
 .
 collect

@@ -630,9 +630,7 @@ util
 str
 :
 :
-{
 DOMString
-}
 ;
 pub
 use

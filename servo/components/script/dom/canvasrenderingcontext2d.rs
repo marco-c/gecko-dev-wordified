@@ -2378,6 +2378,7 @@ Error
 :
 InvalidState
 )
+;
 }
 let
 canvas_size
@@ -2517,6 +2518,7 @@ Error
 :
 IndexSize
 )
+;
 }
 let
 smoothing_enabled
@@ -2849,6 +2851,7 @@ Error
 :
 IndexSize
 )
+;
 }
 let
 smoothing_enabled
@@ -2992,6 +2995,7 @@ None
 {
 return
 None
+;
 }
 }
 ;
@@ -7496,6 +7500,7 @@ Error
 :
 IndexSize
 )
+;
 }
 let
 sw
@@ -7761,6 +7766,7 @@ Error
 :
 IndexSize
 )
+;
 }
 if
 sw

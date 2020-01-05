@@ -1295,8 +1295,8 @@ new
 (
 vec
 !
-(
-)
+[
+]
 )
 id_attribute
 :
@@ -2201,7 +2201,6 @@ map
 |
 attr
 |
-{
 attr
 .
 value_tokens_forever
@@ -2211,7 +2210,6 @@ value_tokens_forever
 unwrap
 (
 )
-}
 )
 }
 #
@@ -4260,6 +4258,7 @@ HTML
 {
 return
 false
+;
 }
 self
 .
@@ -5336,13 +5335,13 @@ Important
 (
 vec
 !
-(
+[
 property_decl
-)
+]
 vec
 !
-(
-)
+[
+]
 )
 }
 else
@@ -5350,13 +5349,13 @@ else
 (
 vec
 !
-(
-)
+[
+]
 vec
 !
-(
+[
 property_decl
-)
+]
 )
 }
 ;
@@ -6660,7 +6659,6 @@ find
 |
 attr
 |
-{
 attr
 .
 local_name
@@ -6679,7 +6677,6 @@ namespace
 =
 =
 namespace
-}
 )
 .
 map
@@ -7188,6 +7185,7 @@ None
 |
 attr
 |
+{
 *
 attr
 .
@@ -7213,6 +7211,7 @@ ns
 "
 "
 )
+}
 )
 ;
 Ok
@@ -7692,6 +7691,7 @@ rhs
 &
 Atom
 |
+{
 match
 quirks_mode
 {
@@ -7714,6 +7714,7 @@ eq_ignore_ascii_case
 &
 rhs
 )
+}
 }
 ;
 self
@@ -7742,7 +7743,6 @@ map
 |
 attr
 |
-{
 attr
 .
 value
@@ -7768,7 +7768,6 @@ name
 atom
 )
 )
-}
 )
 .
 unwrap_or
@@ -7884,7 +7883,6 @@ any
 |
 attr
 |
-{
 attr
 .
 local_name
@@ -7909,7 +7907,6 @@ ns
 "
 "
 )
-}
 )
 }
 pub
@@ -8450,7 +8447,6 @@ all
 |
 ch
 |
-{
 !
 ch
 .
@@ -8467,7 +8463,6 @@ to_ascii_lowercase
 =
 =
 ch
-}
 )
 )
 ;
@@ -8532,7 +8527,6 @@ AttrValue
 :
 UInt
 :
-\
 implement
 parse_plain_attribute
 "
@@ -14290,6 +14284,7 @@ from_ref
 node
 )
 )
+;
 }
 }
 }
@@ -14676,6 +14671,7 @@ which
 value
 {
 return
+;
 }
 let
 node

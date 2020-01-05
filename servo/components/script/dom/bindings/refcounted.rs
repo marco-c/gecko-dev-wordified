@@ -1800,6 +1800,9 @@ LIVE_REFERENCES
 pub
 unsafe
 extern
+"
+C
+"
 fn
 trace_refcounted_objects
 (

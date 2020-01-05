@@ -364,7 +364,7 @@ history
 :
 vec
 !
-(
+[
 SessionHistoryEntry
 :
 :
@@ -372,7 +372,7 @@ new
 (
 document
 )
-)
+]
 active_index
 :
 0
@@ -865,8 +865,8 @@ children
 :
 vec
 !
-(
-)
+[
+]
 }
 }
 }
@@ -993,6 +993,9 @@ unsafe_code
 ]
 unsafe
 extern
+"
+C
+"
 fn
 getOwnPropertyDescriptor
 (
@@ -1209,6 +1212,9 @@ unsafe_code
 ]
 unsafe
 extern
+"
+C
+"
 fn
 defineProperty
 (
@@ -1367,6 +1373,9 @@ unsafe_code
 ]
 unsafe
 extern
+"
+C
+"
 fn
 hasOwn
 (
@@ -1481,6 +1490,9 @@ unsafe_code
 ]
 unsafe
 extern
+"
+C
+"
 fn
 get
 (
@@ -1581,6 +1593,9 @@ unsafe_code
 ]
 unsafe
 extern
+"
+C
+"
 fn
 set
 (

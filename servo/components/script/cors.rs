@@ -851,8 +851,8 @@ path
 =
 vec
 !
-(
-)
+[
+]
 _
 =
 >
@@ -1591,8 +1591,8 @@ header_names
 =
 vec
 !
-(
-)
+[
+]
 ;
 for
 header
@@ -2196,8 +2196,8 @@ CORSCache
 (
 vec
 !
-(
-)
+[
+]
 )
 ;
 for
@@ -2951,6 +2951,7 @@ find
 |
 e
 |
+{
 e
 .
 origin
@@ -3019,6 +3020,7 @@ match_header
 (
 header_name
 )
+}
 )
 ;
 entry
@@ -3181,6 +3183,7 @@ find
 |
 e
 |
+{
 e
 .
 origin
@@ -3249,6 +3252,7 @@ match_method
 (
 method
 )
+}
 )
 ;
 entry
