@@ -506,6 +506,16 @@ Document
 IsHTMLDocument
 DocumentHelpers
 DocumentProgressHandler
+}
+;
+use
+dom
+:
+:
+document
+:
+:
+{
 DocumentProgressTask
 DocumentSource
 MouseEventType

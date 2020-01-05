@@ -80,6 +80,16 @@ LogicalSize
 LogicalPoint
 LogicalMargin
 LogicalRect
+}
+;
+use
+util
+:
+:
+logical_geometry
+:
+:
+{
 FLAG_RTL
 FLAG_VERTICAL
 FLAG_VERTICAL_LR
