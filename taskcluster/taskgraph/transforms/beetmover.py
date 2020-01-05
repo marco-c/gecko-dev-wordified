@@ -365,6 +365,20 @@ US
 /
 target
 .
+crashreporter
+-
+symbols
+.
+zip
+"
+    
+"
+en
+-
+US
+/
+target
+.
 json
 "
     
