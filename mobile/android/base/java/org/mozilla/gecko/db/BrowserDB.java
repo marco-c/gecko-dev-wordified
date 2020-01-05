@@ -68,13 +68,6 @@ db
 import
 java
 .
-io
-.
-File
-;
-import
-java
-.
 util
 .
 Collection
@@ -207,6 +200,15 @@ android
 net
 .
 Uri
+;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
 ;
 import
 android
@@ -764,6 +766,7 @@ long
 parentId
 )
 ;
+Nullable
 public
 abstract
 Cursor
@@ -775,6 +778,7 @@ String
 url
 )
 ;
+Nullable
 public
 abstract
 Cursor
@@ -786,6 +790,7 @@ String
 partialUrl
 )
 ;
+Nullable
 public
 abstract
 Cursor
@@ -795,6 +800,16 @@ ContentResolver
 cr
 long
 id
+)
+;
+Nullable
+public
+abstract
+Cursor
+getAllBookmarkFolders
+(
+ContentResolver
+cr
 )
 ;
 public
@@ -922,6 +937,7 @@ code
 .
 *
 /
+Nullable
 public
 abstract
 Cursor
@@ -1158,6 +1174,7 @@ null
 .
 *
 /
+Nullable
 public
 abstract
 Cursor
@@ -1436,6 +1453,7 @@ return
 .
 *
 /
+Nullable
 public
 abstract
 Cursor
