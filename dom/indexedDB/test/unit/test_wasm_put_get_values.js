@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -92,8 +93,7 @@ finishTest
 (
 )
 ;
-yield
-undefined
+return
 ;
 }
 getWasmBinary
@@ -382,8 +382,5 @@ undefined
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

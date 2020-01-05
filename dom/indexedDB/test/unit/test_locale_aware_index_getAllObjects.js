@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -893,7 +894,7 @@ length
 {
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -2113,8 +2114,5 @@ weight
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

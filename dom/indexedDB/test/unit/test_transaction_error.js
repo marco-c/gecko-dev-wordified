@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -880,8 +881,5 @@ error
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

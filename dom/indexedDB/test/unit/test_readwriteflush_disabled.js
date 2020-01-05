@@ -54,6 +54,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -322,8 +323,5 @@ message
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

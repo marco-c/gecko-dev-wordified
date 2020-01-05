@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -391,8 +392,5 @@ keyPath
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -588,7 +589,7 @@ length
 {
 testGenerator
 .
-send
+next
 (
 event
 )
@@ -937,8 +938,5 @@ people
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

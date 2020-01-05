@@ -785,6 +785,7 @@ oldCanRecord
 gOldContentCanRecord
 }
 function
+*
 (
 arg
 )
@@ -1161,12 +1162,8 @@ gather
 var
 check_use_counter_iframe
 =
-Task
-.
 async
-(
 function
-*
 (
 file
 use_counter_middlefix
@@ -1247,7 +1244,7 @@ histogram_docs_before
 histogram_toplevel_docs_before
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -1268,7 +1265,7 @@ html
 "
 )
 ;
-yield
+await
 waitForPageLoad
 (
 gBrowser
@@ -1292,7 +1289,7 @@ newly
 loaded
 page
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -1540,7 +1537,7 @@ force
 document
 destruction
 .
-yield
+await
 waitForDestroyedDocuments
 (
 )
@@ -1561,7 +1558,7 @@ histogram_docs_after
 histogram_toplevel_docs_after
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -1635,17 +1632,12 @@ correct
 ;
 }
 }
-)
 ;
 var
 check_use_counter_img
 =
-Task
-.
 async
-(
 function
-*
 (
 file
 use_counter_middlefix
@@ -1725,7 +1717,7 @@ histogram_docs_before
 histogram_toplevel_docs_before
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -1746,7 +1738,7 @@ html
 "
 )
 ;
-yield
+await
 waitForPageLoad
 (
 gBrowser
@@ -1770,7 +1762,7 @@ newly
 loaded
 page
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -1784,6 +1776,7 @@ file
 file
 }
 function
+*
 (
 opts
 )
@@ -2021,7 +2014,7 @@ force
 document
 destruction
 .
-yield
+await
 waitForDestroyedDocuments
 (
 )
@@ -2042,7 +2035,7 @@ histogram_docs_after
 histogram_toplevel_docs_after
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -2153,17 +2146,12 @@ correct
 )
 ;
 }
-)
 ;
 var
 check_use_counter_direct
 =
-Task
-.
 async
-(
 function
-*
 (
 file
 use_counter_middlefix
@@ -2244,7 +2232,7 @@ histogram_docs_before
 histogram_toplevel_docs_before
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -2261,7 +2249,7 @@ gHttpTestRoot
 file
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2422,7 +2410,7 @@ force
 document
 destruction
 .
-yield
+await
 waitForDestroyedDocuments
 (
 )
@@ -2443,7 +2431,7 @@ histogram_docs_after
 histogram_toplevel_docs_after
 ]
 =
-yield
+await
 grabHistogramsFromContent
 (
 use_counter_middlefix
@@ -2539,5 +2527,4 @@ correct
 )
 ;
 }
-)
 ;

@@ -295,7 +295,7 @@ preventDefault
 ;
 testGenerator
 .
-send
+next
 (
 false
 )
@@ -406,7 +406,7 @@ db
 ;
 testGenerator
 .
-send
+next
 (
 true
 )
@@ -593,7 +593,7 @@ preventDefault
 ;
 testGenerator
 .
-send
+next
 (
 false
 )
@@ -704,7 +704,7 @@ db
 ;
 testGenerator
 .
-send
+next
 (
 true
 )

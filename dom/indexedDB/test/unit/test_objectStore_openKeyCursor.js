@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -2336,8 +2337,5 @@ matched
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

@@ -74,6 +74,7 @@ transaction
 ;
 }
 function
+*
 testSteps
 (
 )
@@ -2602,8 +2603,5 @@ fired
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

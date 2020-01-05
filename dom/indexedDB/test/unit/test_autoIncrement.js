@@ -248,6 +248,7 @@ continueToNextStepSync
 }
 }
 function
+*
 testSteps
 (
 )
@@ -4103,8 +4104,5 @@ undefined
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }

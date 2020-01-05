@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -795,7 +796,4 @@ Bug
 943409
 workaround
 .
-yield
-undefined
-;
 }

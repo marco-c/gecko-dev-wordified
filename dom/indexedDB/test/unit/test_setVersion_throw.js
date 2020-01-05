@@ -38,6 +38,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
@@ -353,8 +354,5 @@ AbortError
 finishTest
 (
 )
-;
-yield
-undefined
 ;
 }
