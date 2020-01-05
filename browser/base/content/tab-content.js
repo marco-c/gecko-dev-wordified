@@ -1134,7 +1134,7 @@ sendAsyncMessage
 "
 AboutHome
 :
-MaybeShowAutoMigrationUndoNotification
+MaybeShowMigrateMessage
 "
 )
 ;
