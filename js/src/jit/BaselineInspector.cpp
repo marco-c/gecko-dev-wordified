@@ -6128,12 +6128,6 @@ case
 ICStub
 :
 :
-GetElem_Dense
-:
-case
-ICStub
-:
-:
 GetElem_TypedArray
 :
 case
