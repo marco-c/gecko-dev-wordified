@@ -170,6 +170,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 Performance
@@ -249,9 +253,9 @@ Temporary
 Performance
 >
 {
-let
-performance
-=
+reflect_dom_object
+(
+box
 Performance
 :
 :
@@ -259,11 +263,6 @@ new_inherited
 (
 window
 )
-;
-reflect_dom_object
-(
-box
-performance
 &
 Window
 (

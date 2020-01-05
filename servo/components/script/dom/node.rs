@@ -772,6 +772,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 Node
@@ -6500,6 +6504,10 @@ v
 }
 }
 }
+#
+[
+must_root
+]
 pub
 struct
 NodeIterator

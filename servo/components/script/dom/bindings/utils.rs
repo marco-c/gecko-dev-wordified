@@ -3417,6 +3417,7 @@ object
 allow
 (
 raw_pointer_deriving
+unrooted_must_root
 )
 ]
 #
@@ -3425,6 +3426,10 @@ deriving
 (
 PartialEq
 )
+]
+#
+[
+must_root
 ]
 pub
 struct
@@ -4921,6 +4926,13 @@ was
 created
 in
 .
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 global_object_for_js_object
@@ -5096,6 +5108,13 @@ object
 is
 on
 .
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 cx_for_dom_reflector
 (

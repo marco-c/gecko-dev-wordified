@@ -291,6 +291,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 enum
 GlobalField

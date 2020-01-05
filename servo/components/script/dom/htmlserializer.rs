@@ -252,6 +252,13 @@ servo_util
 :
 namespace
 ;
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 serialize

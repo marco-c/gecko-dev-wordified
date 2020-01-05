@@ -801,6 +801,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 Document
@@ -2634,6 +2638,9 @@ Document
 let
 document
 =
+reflect_dom_object
+(
+box
 Document
 :
 :
@@ -2644,14 +2651,6 @@ url
 doctype
 content_type
 )
-;
-let
-document
-=
-reflect_dom_object
-(
-box
-document
 &
 Window
 (

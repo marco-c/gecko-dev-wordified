@@ -167,6 +167,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 NamedNodeMap

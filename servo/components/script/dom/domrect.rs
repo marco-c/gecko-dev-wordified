@@ -157,6 +157,10 @@ deriving
 Encodable
 )
 ]
+#
+[
+must_root
+]
 pub
 struct
 DOMRect
@@ -280,9 +284,9 @@ Temporary
 DOMRect
 >
 {
-let
-rect
-=
+reflect_dom_object
+(
+box
 DOMRect
 :
 :
@@ -293,11 +297,6 @@ bottom
 left
 right
 )
-;
-reflect_dom_object
-(
-box
-rect
 &
 Window
 (
