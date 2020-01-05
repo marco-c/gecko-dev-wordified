@@ -214,7 +214,7 @@ set
 '
 source
 -
-check
+test
 '
     
 '
