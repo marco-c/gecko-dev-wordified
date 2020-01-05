@@ -228,7 +228,6 @@ static
 constexpr
 Register
 zero
-=
 {
 Registers
 :
@@ -240,7 +239,6 @@ static
 constexpr
 Register
 at
-=
 {
 Registers
 :
@@ -252,7 +250,6 @@ static
 constexpr
 Register
 v0
-=
 {
 Registers
 :
@@ -264,7 +261,6 @@ static
 constexpr
 Register
 v1
-=
 {
 Registers
 :
@@ -276,7 +272,6 @@ static
 constexpr
 Register
 a0
-=
 {
 Registers
 :
@@ -288,7 +283,6 @@ static
 constexpr
 Register
 a1
-=
 {
 Registers
 :
@@ -300,7 +294,6 @@ static
 constexpr
 Register
 a2
-=
 {
 Registers
 :
@@ -312,7 +305,6 @@ static
 constexpr
 Register
 a3
-=
 {
 Registers
 :
@@ -324,7 +316,6 @@ static
 constexpr
 Register
 a4
-=
 {
 Registers
 :
@@ -336,7 +327,6 @@ static
 constexpr
 Register
 a5
-=
 {
 Registers
 :
@@ -348,7 +338,6 @@ static
 constexpr
 Register
 a6
-=
 {
 Registers
 :
@@ -360,7 +349,6 @@ static
 constexpr
 Register
 a7
-=
 {
 Registers
 :
@@ -372,7 +360,6 @@ static
 constexpr
 Register
 t0
-=
 {
 Registers
 :
@@ -384,7 +371,6 @@ static
 constexpr
 Register
 t1
-=
 {
 Registers
 :
@@ -396,7 +382,6 @@ static
 constexpr
 Register
 t2
-=
 {
 Registers
 :
@@ -408,7 +393,6 @@ static
 constexpr
 Register
 t3
-=
 {
 Registers
 :
@@ -420,7 +404,6 @@ static
 constexpr
 Register
 t4
-=
 {
 Registers
 :
@@ -432,7 +415,6 @@ static
 constexpr
 Register
 t5
-=
 {
 Registers
 :
@@ -444,7 +426,6 @@ static
 constexpr
 Register
 t6
-=
 {
 Registers
 :
@@ -456,7 +437,6 @@ static
 constexpr
 Register
 t7
-=
 {
 Registers
 :
@@ -468,7 +448,6 @@ static
 constexpr
 Register
 s0
-=
 {
 Registers
 :
@@ -480,7 +459,6 @@ static
 constexpr
 Register
 s1
-=
 {
 Registers
 :
@@ -492,7 +470,6 @@ static
 constexpr
 Register
 s2
-=
 {
 Registers
 :
@@ -504,7 +481,6 @@ static
 constexpr
 Register
 s3
-=
 {
 Registers
 :
@@ -516,7 +492,6 @@ static
 constexpr
 Register
 s4
-=
 {
 Registers
 :
@@ -528,7 +503,6 @@ static
 constexpr
 Register
 s5
-=
 {
 Registers
 :
@@ -540,7 +514,6 @@ static
 constexpr
 Register
 s6
-=
 {
 Registers
 :
@@ -552,7 +525,6 @@ static
 constexpr
 Register
 s7
-=
 {
 Registers
 :
@@ -564,7 +536,6 @@ static
 constexpr
 Register
 t8
-=
 {
 Registers
 :
@@ -576,7 +547,6 @@ static
 constexpr
 Register
 t9
-=
 {
 Registers
 :
@@ -588,7 +558,6 @@ static
 constexpr
 Register
 k0
-=
 {
 Registers
 :
@@ -600,7 +569,6 @@ static
 constexpr
 Register
 k1
-=
 {
 Registers
 :
@@ -612,7 +580,6 @@ static
 constexpr
 Register
 gp
-=
 {
 Registers
 :
@@ -624,7 +591,6 @@ static
 constexpr
 Register
 sp
-=
 {
 Registers
 :
@@ -636,7 +602,6 @@ static
 constexpr
 Register
 fp
-=
 {
 Registers
 :
@@ -648,7 +613,6 @@ static
 constexpr
 Register
 ra
-=
 {
 Registers
 :
@@ -887,7 +851,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 Registers
 :

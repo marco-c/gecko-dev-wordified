@@ -275,7 +275,6 @@ static
 constexpr
 Register
 r0
-=
 {
 Registers
 :
@@ -287,7 +286,6 @@ static
 constexpr
 Register
 r1
-=
 {
 Registers
 :
@@ -299,7 +297,6 @@ static
 constexpr
 Register
 r2
-=
 {
 Registers
 :
@@ -311,7 +308,6 @@ static
 constexpr
 Register
 r3
-=
 {
 Registers
 :
@@ -323,7 +319,6 @@ static
 constexpr
 Register
 r4
-=
 {
 Registers
 :
@@ -335,7 +330,6 @@ static
 constexpr
 Register
 r5
-=
 {
 Registers
 :
@@ -347,7 +341,6 @@ static
 constexpr
 Register
 r6
-=
 {
 Registers
 :
@@ -359,7 +352,6 @@ static
 constexpr
 Register
 r7
-=
 {
 Registers
 :
@@ -371,7 +363,6 @@ static
 constexpr
 Register
 r8
-=
 {
 Registers
 :
@@ -383,7 +374,6 @@ static
 constexpr
 Register
 r9
-=
 {
 Registers
 :
@@ -395,7 +385,6 @@ static
 constexpr
 Register
 r10
-=
 {
 Registers
 :
@@ -407,7 +396,6 @@ static
 constexpr
 Register
 r11
-=
 {
 Registers
 :
@@ -419,7 +407,6 @@ static
 constexpr
 Register
 r12
-=
 {
 Registers
 :
@@ -431,7 +418,6 @@ static
 constexpr
 Register
 ip
-=
 {
 Registers
 :
@@ -443,7 +429,6 @@ static
 constexpr
 Register
 sp
-=
 {
 Registers
 :
@@ -455,7 +440,6 @@ static
 constexpr
 Register
 r14
-=
 {
 Registers
 :
@@ -467,7 +451,6 @@ static
 constexpr
 Register
 lr
-=
 {
 Registers
 :
@@ -479,7 +462,6 @@ static
 constexpr
 Register
 pc
-=
 {
 Registers
 :
@@ -491,7 +473,6 @@ static
 constexpr
 Register
 ScratchRegister
-=
 {
 Registers
 :
@@ -991,7 +972,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 Registers
 :

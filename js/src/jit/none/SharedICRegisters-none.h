@@ -133,7 +133,6 @@ static
 constexpr
 Register
 BaselineFrameReg
-=
 {
 Registers
 :
@@ -145,7 +144,6 @@ static
 constexpr
 Register
 BaselineStackReg
-=
 {
 Registers
 :
@@ -178,7 +176,6 @@ static
 constexpr
 Register
 ICTailCallReg
-=
 {
 Registers
 :
@@ -190,7 +187,6 @@ static
 constexpr
 Register
 ICStubReg
-=
 {
 Registers
 :
@@ -202,7 +198,6 @@ static
 constexpr
 Register
 ExtractTemp0
-=
 {
 Registers
 :
@@ -214,7 +209,6 @@ static
 constexpr
 Register
 ExtractTemp1
-=
 {
 Registers
 :

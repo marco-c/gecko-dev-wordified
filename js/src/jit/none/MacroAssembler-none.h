@@ -155,7 +155,6 @@ static
 constexpr
 Register
 StackPointer
-=
 {
 Registers
 :
@@ -167,7 +166,6 @@ static
 constexpr
 Register
 FramePointer
-=
 {
 Registers
 :
@@ -179,7 +177,6 @@ static
 constexpr
 Register
 ReturnReg
-=
 {
 Registers
 :
@@ -275,7 +272,6 @@ static
 constexpr
 Register
 OsrFrameReg
-=
 {
 Registers
 :
@@ -287,7 +283,6 @@ static
 constexpr
 Register
 ArgumentsRectifierReg
-=
 {
 Registers
 :
@@ -299,7 +294,6 @@ static
 constexpr
 Register
 PreBarrierReg
-=
 {
 Registers
 :
@@ -311,7 +305,6 @@ static
 constexpr
 Register
 CallTempReg0
-=
 {
 Registers
 :
@@ -323,7 +316,6 @@ static
 constexpr
 Register
 CallTempReg1
-=
 {
 Registers
 :
@@ -335,7 +327,6 @@ static
 constexpr
 Register
 CallTempReg2
-=
 {
 Registers
 :
@@ -347,7 +338,6 @@ static
 constexpr
 Register
 CallTempReg3
-=
 {
 Registers
 :
@@ -359,7 +349,6 @@ static
 constexpr
 Register
 CallTempReg4
-=
 {
 Registers
 :
@@ -371,7 +360,6 @@ static
 constexpr
 Register
 CallTempReg5
-=
 {
 Registers
 :
@@ -383,7 +371,6 @@ static
 constexpr
 Register
 InvalidReg
-=
 {
 Registers
 :
@@ -395,7 +382,6 @@ static
 constexpr
 Register
 IntArgReg0
-=
 {
 Registers
 :
@@ -407,7 +393,6 @@ static
 constexpr
 Register
 IntArgReg1
-=
 {
 Registers
 :
@@ -419,7 +404,6 @@ static
 constexpr
 Register
 IntArgReg2
-=
 {
 Registers
 :
@@ -431,7 +415,6 @@ static
 constexpr
 Register
 IntArgReg3
-=
 {
 Registers
 :
@@ -443,7 +426,6 @@ static
 constexpr
 Register
 HeapReg
-=
 {
 Registers
 :
@@ -455,7 +437,6 @@ static
 constexpr
 Register
 WasmIonExitRegCallee
-=
 {
 Registers
 :
@@ -467,7 +448,6 @@ static
 constexpr
 Register
 WasmIonExitRegE0
-=
 {
 Registers
 :
@@ -479,7 +459,6 @@ static
 constexpr
 Register
 WasmIonExitRegE1
-=
 {
 Registers
 :
@@ -491,7 +470,6 @@ static
 constexpr
 Register
 WasmIonExitRegReturnData
-=
 {
 Registers
 :
@@ -503,7 +481,6 @@ static
 constexpr
 Register
 WasmIonExitRegReturnType
-=
 {
 Registers
 :
@@ -515,7 +492,6 @@ static
 constexpr
 Register
 WasmIonExitRegD0
-=
 {
 Registers
 :
@@ -527,7 +503,6 @@ static
 constexpr
 Register
 WasmIonExitRegD1
-=
 {
 Registers
 :
@@ -539,7 +514,6 @@ static
 constexpr
 Register
 WasmIonExitRegD2
-=
 {
 Registers
 :
@@ -551,7 +525,6 @@ static
 constexpr
 Register
 RegExpTesterRegExpReg
-=
 {
 Registers
 :
@@ -563,7 +536,6 @@ static
 constexpr
 Register
 RegExpTesterStringReg
-=
 {
 Registers
 :
@@ -575,7 +547,6 @@ static
 constexpr
 Register
 RegExpTesterLastIndexReg
-=
 {
 Registers
 :
@@ -587,7 +558,6 @@ static
 constexpr
 Register
 RegExpTesterStickyReg
-=
 {
 Registers
 :
@@ -599,7 +569,6 @@ static
 constexpr
 Register
 RegExpMatcherRegExpReg
-=
 {
 Registers
 :
@@ -611,7 +580,6 @@ static
 constexpr
 Register
 RegExpMatcherStringReg
-=
 {
 Registers
 :
@@ -623,7 +591,6 @@ static
 constexpr
 Register
 RegExpMatcherLastIndexReg
-=
 {
 Registers
 :
@@ -635,7 +602,6 @@ static
 constexpr
 Register
 RegExpMatcherStickyReg
-=
 {
 Registers
 :
@@ -647,7 +613,6 @@ static
 constexpr
 Register
 JSReturnReg_Type
-=
 {
 Registers
 :
@@ -659,7 +624,6 @@ static
 constexpr
 Register
 JSReturnReg_Data
-=
 {
 Registers
 :
@@ -671,7 +635,6 @@ static
 constexpr
 Register
 JSReturnReg
-=
 {
 Registers
 :
@@ -739,7 +702,6 @@ static
 constexpr
 Register
 ABINonArgReg0
-=
 {
 Registers
 :
@@ -751,7 +713,6 @@ static
 constexpr
 Register
 ABINonArgReg1
-=
 {
 Registers
 :
@@ -763,7 +724,6 @@ static
 constexpr
 Register
 ABINonArgReturnReg0
-=
 {
 Registers
 :
@@ -775,7 +735,6 @@ static
 constexpr
 Register
 ABINonArgReturnReg1
-=
 {
 Registers
 :
@@ -787,7 +746,6 @@ static
 constexpr
 Register
 WasmTableCallScratchReg
-=
 {
 Registers
 :
@@ -799,7 +757,6 @@ static
 constexpr
 Register
 WasmTableCallSigReg
-=
 {
 Registers
 :
@@ -811,7 +768,6 @@ static
 constexpr
 Register
 WasmTableCallIndexReg
-=
 {
 Registers
 :
@@ -823,7 +779,6 @@ static
 constexpr
 Register
 WasmTlsReg
-=
 {
 Registers
 :
