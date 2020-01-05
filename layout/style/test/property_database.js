@@ -80304,14 +80304,14 @@ initial_values
 :
 [
 "
-auto
+none
 "
 ]
 other_values
 :
 [
 "
-none
+auto
 "
 ]
 invalid_values

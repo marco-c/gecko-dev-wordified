@@ -18788,7 +18788,7 @@ NS_THEME_NONE
 )
 mAppearance
 (
-NS_THEME_AUTO
+NS_THEME_NONE
 )
 mPosition
 (
