@@ -290,9 +290,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
@@ -372,9 +370,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
@@ -458,9 +454,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
@@ -1554,9 +1548,7 @@ specified
 (
 style
 .
-Padding
-.
-get
+get_padding
 (
 )
 .
@@ -1573,9 +1565,7 @@ specified
 (
 style
 .
-Padding
-.
-get
+get_padding
 (
 )
 .
@@ -1590,9 +1580,7 @@ border_left
 =
 style
 .
-Border
-.
-get
+get_border
 (
 )
 .
@@ -1603,9 +1591,7 @@ border_right
 =
 style
 .
-Border
-.
-get
+get_border
 (
 )
 .

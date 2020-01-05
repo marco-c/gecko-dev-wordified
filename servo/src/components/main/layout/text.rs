@@ -2377,9 +2377,7 @@ font_families
 =
 style
 .
-Font
-.
-get
+get_font
 (
 )
 .
@@ -2445,9 +2443,7 @@ font_size
 =
 style
 .
-Font
-.
-get
+get_font
 (
 )
 .
@@ -2494,9 +2490,7 @@ weight
 :
 style
 .
-Font
-.
-get
+get_font
 (
 )
 .
@@ -2505,9 +2499,7 @@ style
 :
 style
 .
-Font
-.
-get
+get_font
 (
 )
 .
@@ -2584,9 +2576,7 @@ from_inline
 match
 style
 .
-InheritedBox
-.
-get
+get_inheritedbox
 (
 )
 .
@@ -2638,9 +2628,7 @@ minimum
 =
 style
 .
-InheritedBox
-.
-get
+get_inheritedbox
 (
 )
 .

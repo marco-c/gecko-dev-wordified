@@ -7220,9 +7220,7 @@ line_height_from_style
 style
 style
 .
-Font
-.
-get
+get_font
 (
 )
 .
@@ -8377,9 +8375,7 @@ style
 (
 )
 .
-Font
-.
-get
+get_font
 (
 )
 .

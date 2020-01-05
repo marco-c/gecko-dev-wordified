@@ -665,9 +665,7 @@ style
 (
 )
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -698,9 +696,7 @@ style
 (
 )
 .
-Box
-.
-get
+get_box
 (
 )
 .
@@ -2015,9 +2011,7 @@ border_style
 =
 style
 .
-Border
-.
-get
+get_border
 (
 )
 ;
@@ -2068,9 +2062,7 @@ padding_style
 =
 style
 .
-Padding
-.
-get
+get_padding
 (
 )
 ;

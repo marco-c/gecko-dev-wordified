@@ -351,9 +351,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
@@ -445,9 +443,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
@@ -543,9 +539,7 @@ style
 (
 )
 .
-Table
-.
-get
+get_table
 (
 )
 .
