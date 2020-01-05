@@ -226,6 +226,12 @@ origin
 Origin
 ;
 use
+script_traits
+:
+:
+DocumentActivity
+;
+use
 servo_url
 :
 :
@@ -300,6 +306,9 @@ Option
 <
 String
 >
+activity
+:
+DocumentActivity
 source
 :
 DocumentSource
@@ -327,6 +336,7 @@ origin
 is_html_document
 content_type
 last_modified
+activity
 source
 doc_loader
 None
@@ -373,6 +383,9 @@ Option
 <
 String
 >
+activity
+:
+DocumentActivity
 source
 :
 DocumentSource
@@ -405,6 +418,7 @@ origin
 doctype
 content_type
 last_modified
+activity
 source
 doc_loader
 )

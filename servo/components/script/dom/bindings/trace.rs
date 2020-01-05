@@ -865,6 +865,7 @@ script_traits
 :
 :
 {
+DocumentActivity
 TimerEventId
 TimerSource
 TouchpadPressurePhase
@@ -2657,6 +2658,7 @@ structs
 unsafe_no_jsmanaged_fields
 !
 (
+DocumentActivity
 FrameId
 FrameType
 WindowSizeData

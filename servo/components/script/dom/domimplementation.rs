@@ -305,6 +305,12 @@ xmldocument
 :
 XMLDocument
 ;
+use
+script_traits
+:
+:
+DocumentActivity
+;
 /
 /
 https
@@ -696,6 +702,10 @@ content_type
 )
 )
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :
@@ -980,6 +990,10 @@ IsHTMLDocument
 HTMLDocument
 None
 None
+DocumentActivity
+:
+:
+Inactive
 DocumentSource
 :
 :
