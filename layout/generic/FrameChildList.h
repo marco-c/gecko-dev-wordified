@@ -282,7 +282,9 @@ operator
 !
 =
 (
+const
 FrameChildListIDs
+&
 aOther
 )
 const
@@ -662,6 +664,7 @@ layout
 :
 FrameChildListID
 aLeftOp
+const
 mozilla
 :
 :
@@ -669,6 +672,7 @@ layout
 :
 :
 FrameChildListIDs
+&
 aRightOp
 )
 {
