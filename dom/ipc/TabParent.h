@@ -1982,6 +1982,11 @@ nsIURI
 aURI
 )
 ;
+void
+InitRenderFrame
+(
+)
+;
 /
 /
 XXX
