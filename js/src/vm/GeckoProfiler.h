@@ -1487,7 +1487,8 @@ size_
 nullptr
 ;
 }
-void
+MOZ_MUST_USE
+bool
 enable
 (
 bool
