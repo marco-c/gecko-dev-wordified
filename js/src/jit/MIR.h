@@ -63651,6 +63651,16 @@ return
 barrierKind_
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 bool
 alwaysBails
 (
