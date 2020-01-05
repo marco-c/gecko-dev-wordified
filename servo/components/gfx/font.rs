@@ -1073,6 +1073,14 @@ contains
 (
 IS_WHITESPACE_SHAPING_FLAG
 )
+options
+.
+flags
+.
+contains
+(
+RTL_FLAG
+)
 )
 ;
 shaper
