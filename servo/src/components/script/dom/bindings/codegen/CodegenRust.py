@@ -13491,7 +13491,7 @@ obj
 s
 as
 mut
-CacheableWrapper
+Reflectable
 {
 jsvalPtr
 }
@@ -13769,7 +13769,7 @@ obj
 s
 as
 mut
-CacheableWrapper
+Reflectable
 {
 jsvalPtr
 }
@@ -22808,7 +22808,7 @@ handler
 /
 /
 let
-cache
+reflector
 =
 ptr
 :
@@ -22817,7 +22817,7 @@ to_unsafe_ptr
 (
 aObject
 .
-get_wrappercache
+reflector
 (
 )
 )
@@ -23303,7 +23303,7 @@ null
 }
   
 let
-cache
+reflector
 =
 ptr
 :
@@ -23312,7 +23312,7 @@ to_mut_unsafe_ptr
 (
 aObject
 .
-get_wrappercache
+reflector
 (
 )
 )
@@ -23330,10 +23330,10 @@ aObject
   
 (
 *
-cache
+reflector
 )
 .
-set_wrapper
+set_jsobject
 (
 obj
 )
@@ -23366,7 +23366,7 @@ return
 "
 "
 let
-cache
+reflector
 =
 ptr
 :
@@ -23375,7 +23375,7 @@ to_mut_unsafe_ptr
 (
 aObject
 .
-get_wrappercache
+reflector
 (
 )
 )
@@ -23404,10 +23404,10 @@ proto
   
 (
 *
-cache
+reflector
 )
 .
-set_wrapper
+set_jsobject
 (
 obj
 )
@@ -38048,11 +38048,11 @@ obj
 =
 global
 .
-get_wrappercache
+reflector
 (
 )
 .
-get_wrapper
+get_jsobject
 (
 )
 ;

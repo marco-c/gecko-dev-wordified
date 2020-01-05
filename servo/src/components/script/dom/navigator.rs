@@ -67,9 +67,9 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 BindingObject
-CacheableWrapper
+Reflectable
 }
 ;
 use
@@ -129,9 +129,9 @@ pub
 struct
 Navigator
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 }
 impl
 Navigator
@@ -149,9 +149,9 @@ Navigator
 mut
 Navigator
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -470,12 +470,12 @@ true
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 Navigator
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -485,7 +485,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -497,7 +497,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -560,7 +560,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -589,7 +589,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

@@ -79,8 +79,8 @@ utils
 :
 :
 {
-WrapperCache
-CacheableWrapper
+Reflector
+Reflectable
 BindingObject
 }
 ;
@@ -121,9 +121,9 @@ pub
 struct
 ClientRectList
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 rects
 :
 ~
@@ -166,9 +166,9 @@ list
 mut
 ClientRectList
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -328,12 +328,12 @@ index
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 ClientRectList
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -343,7 +343,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -355,7 +355,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -418,7 +418,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -447,7 +447,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

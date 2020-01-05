@@ -97,7 +97,7 @@ utils
 :
 :
 {
-WrapperCache
+Reflector
 DOMString
 ErrorResult
 Fallible
@@ -117,7 +117,7 @@ utils
 :
 {
 BindingObject
-CacheableWrapper
+Reflectable
 null_str_as_empty
 }
 ;
@@ -575,14 +575,14 @@ View
 /
 The
 JavaScript
-wrapper
+reflector
 for
 this
 node
 .
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 /
 /
 /
@@ -1202,7 +1202,7 @@ self
 -
 >
 mut
-CacheableWrapper
+Reflectable
 {
 match
 self
@@ -1234,7 +1234,7 @@ obj
 node
 as
 mut
-CacheableWrapper
+Reflectable
 }
 _
 =
@@ -3314,9 +3314,9 @@ ScriptView
 {
 Node
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -4952,7 +4952,7 @@ self
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 Node
 <
@@ -4960,7 +4960,7 @@ ScriptView
 >
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -4970,7 +4970,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -4983,7 +4983,7 @@ transmute
 mut
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -5043,7 +5043,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 match

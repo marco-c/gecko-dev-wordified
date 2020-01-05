@@ -79,8 +79,8 @@ utils
 :
 :
 {
-CacheableWrapper
-WrapperCache
+Reflectable
+Reflector
 BindingObject
 DerivedWrapper
 }
@@ -123,9 +123,9 @@ pub
 struct
 EventTarget
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 }
 impl
 EventTarget
@@ -143,9 +143,9 @@ EventTarget
 ~
 EventTarget
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -180,12 +180,12 @@ scope
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 EventTarget
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -195,7 +195,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -207,7 +207,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -270,7 +270,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -319,7 +319,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

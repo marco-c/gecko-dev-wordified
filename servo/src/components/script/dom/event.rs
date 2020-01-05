@@ -97,7 +97,7 @@ utils
 :
 :
 {
-CacheableWrapper
+Reflectable
 BindingObject
 DerivedWrapper
 }
@@ -116,7 +116,7 @@ utils
 DOMString
 ErrorResult
 Fallible
-WrapperCache
+Reflector
 }
 ;
 use
@@ -201,9 +201,9 @@ pub
 struct
 Event
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 type_
 :
 DOMString
@@ -238,9 +238,9 @@ Event
 {
 Event
 {
-wrapper
+reflector_
 :
-WrapperCache
+Reflector
 :
 :
 new
@@ -564,12 +564,12 @@ type_
 }
 }
 impl
-CacheableWrapper
+Reflectable
 for
 Event
 {
 fn
-get_wrappercache
+reflector
 (
 &
 mut
@@ -579,7 +579,7 @@ self
 >
 &
 mut
-WrapperCache
+Reflector
 {
 unsafe
 {
@@ -591,7 +591,7 @@ transmute
 &
 self
 .
-wrapper
+reflector_
 )
 }
 }
@@ -654,7 +654,7 @@ JSContext
 Option
 <
 mut
-CacheableWrapper
+Reflectable
 >
 {
 let
@@ -683,7 +683,7 @@ get_ref
 window
 as
 mut
-CacheableWrapper
+Reflectable
 )
 }
 }

@@ -128,7 +128,7 @@ utils
 :
 :
 {
-CacheableWrapper
+Reflectable
 GlobalStaticData
 }
 ;
@@ -4951,11 +4951,11 @@ initialize_js_info
 cx
 window
 .
-get_wrappercache
+reflector
 (
 )
 .
-get_wrapper
+get_jsobject
 (
 )
 )
