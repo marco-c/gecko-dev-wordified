@@ -6739,6 +6739,15 @@ pItemIDList
 =
 nullptr
 ;
+DWORD
+flags
+=
+KF_FLAG_SIMPLE_IDLIST
+|
+KF_FLAG_DONT_VERIFY
+|
+KF_FLAG_NO_ALIAS
+;
 if
 (
 SUCCEEDED
@@ -6746,9 +6755,7 @@ SUCCEEDED
 SHGetKnownFolderIDList
 (
 folder
-KF_FLAG_SIMPLE_IDLIST
-|
-KF_FLAG_DONT_VERIFY
+flags
 NULL
 &
 pItemIDList
