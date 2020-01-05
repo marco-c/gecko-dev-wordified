@@ -293,16 +293,6 @@ org
 "
 ]
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 add_task
 (
 function
@@ -371,6 +361,9 @@ page
 )
 visitDate
 :
+new
+Date
+(
 noon
 -
 (
@@ -380,8 +373,7 @@ length
 -
 pageIndex
 )
-*
-1000
+)
 }
 )
 ;
