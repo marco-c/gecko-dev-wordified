@@ -264,7 +264,7 @@ unwrap
 (
 obj
 .
-func
+_func
 )
         
 loc
@@ -542,7 +542,7 @@ unwrap
 (
 obj
 .
-func
+_func
 )
             
 #
