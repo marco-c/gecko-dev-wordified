@@ -5402,7 +5402,7 @@ C
 +
 +
 interp
-ImportNativeExit
+BuiltinNativeExit
 /
 /
 fast
@@ -5653,7 +5653,7 @@ kind
 )
 =
 =
-ImportNativeExit
+BuiltinNativeExit
 ;
 }
 bool
