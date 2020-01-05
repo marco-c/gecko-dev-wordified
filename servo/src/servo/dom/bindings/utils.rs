@@ -397,6 +397,8 @@ alt
 str
 {
 null_string
+=
+>
 {
 JSVAL_NULL
 }
@@ -404,6 +406,8 @@ str
 (
 s
 )
+=
+>
 {
 str
 :

@@ -90,6 +90,13 @@ current
 url
 *
 /
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 fn
 make_url
 (
@@ -288,6 +295,7 @@ path
 +
 ~
 [
+copy
 str_url
 ]
 )
@@ -317,6 +325,7 @@ path
 }
 else
 {
+copy
 str_url
 }
 ;
