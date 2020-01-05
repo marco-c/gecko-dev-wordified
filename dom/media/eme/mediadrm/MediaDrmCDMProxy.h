@@ -615,6 +615,14 @@ override
 ;
 #
 endif
+const
+nsString
+&
+GetMediaDrmStubId
+(
+)
+const
+;
 private
 :
 virtual
