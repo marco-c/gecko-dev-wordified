@@ -550,6 +550,18 @@ required
 '
 :
 False
+        
+'
+services
+.
+sync
+.
+testing
+.
+tps
+'
+:
+True
     
 }
     

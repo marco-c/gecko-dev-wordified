@@ -1280,6 +1280,10 @@ in
 item
 )
 {
+Async
+.
+promiseSpinningly
+(
 PlacesUtils
 .
 history
@@ -1289,6 +1293,7 @@ remove
 item
 .
 uri
+)
 )
 ;
 }
