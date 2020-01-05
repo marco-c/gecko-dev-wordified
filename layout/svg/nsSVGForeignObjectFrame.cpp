@@ -1508,7 +1508,7 @@ return
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 ;
 }
 nsRect

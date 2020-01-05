@@ -2122,7 +2122,7 @@ MakePair
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 RefPtr
 <
 SourceSurface
@@ -2350,7 +2350,7 @@ MakePair
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 RefPtr
 <
 SourceSurface
@@ -2410,7 +2410,7 @@ MakePair
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 RefPtr
 <
 SourceSurface

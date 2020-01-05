@@ -2060,7 +2060,7 @@ return
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 ;
 }
 uint32_t
