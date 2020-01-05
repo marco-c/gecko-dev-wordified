@@ -33,16 +33,6 @@ use
 strict
 "
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-generateURIsFromDirTree
-"
-]
-;
 const
 {
 classes
