@@ -244,6 +244,9 @@ f
 close
 (
 )
+    
+return
+True
 def
 toStringBool
 (
