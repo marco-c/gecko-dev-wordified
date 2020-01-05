@@ -214,6 +214,14 @@ BackendType
 :
 :
 SKIA
+|
+|
+dt
+-
+>
+IsRecording
+(
+)
 )
 {
 /
