@@ -2085,11 +2085,6 @@ self
 index
 :
 u32
-found
-:
-&
-mut
-bool
 )
 -
 >
@@ -2115,7 +2110,6 @@ elements
 IndexedGetter
 (
 index
-found
 )
 }
 }
