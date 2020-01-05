@@ -9925,6 +9925,11 @@ DEVTOOLS_JAVASCRIPT_ERROR_DISPLAYED
 scriptError
 .
 errorMessageName
+|
+|
+"
+Unknown
+"
 true
 )
 ;
