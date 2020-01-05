@@ -95,6 +95,16 @@ serialVersionUID
 public
 InactiveSessionException
 (
+)
+{
+super
+(
+)
+;
+}
+public
+InactiveSessionException
+(
 Exception
 ex
 )

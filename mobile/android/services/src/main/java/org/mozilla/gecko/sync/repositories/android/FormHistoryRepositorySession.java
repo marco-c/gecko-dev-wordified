@@ -828,7 +828,6 @@ onGuidsSinceFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;
@@ -1633,9 +1632,7 @@ onFetchFailed
 new
 InactiveSessionException
 (
-null
 )
-null
 )
 ;
 return
@@ -1704,7 +1701,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 return

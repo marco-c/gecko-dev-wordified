@@ -1481,7 +1481,6 @@ onGuidsSinceFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;
@@ -1888,7 +1887,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -1917,7 +1915,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 return
@@ -2033,9 +2030,7 @@ onFetchFailed
 new
 InactiveSessionException
 (
-null
 )
-null
 )
 ;
 return
@@ -2077,9 +2072,7 @@ onFetchFailed
 new
 InvalidRequestException
 (
-null
 )
-null
 )
 ;
 return
@@ -2118,7 +2111,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -2286,9 +2278,7 @@ onFetchFailed
 new
 InactiveSessionException
 (
-null
 )
-null
 )
 ;
 return
@@ -2327,7 +2317,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 return

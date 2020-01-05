@@ -1151,7 +1151,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 return

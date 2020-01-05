@@ -97,17 +97,13 @@ public
 interface
 RepositorySessionFetchRecordsDelegate
 {
-public
 void
 onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 ;
-public
 void
 onFetchedRecord
 (
@@ -190,7 +186,6 @@ header
 .
 *
 /
-public
 void
 onFetchCompleted
 (

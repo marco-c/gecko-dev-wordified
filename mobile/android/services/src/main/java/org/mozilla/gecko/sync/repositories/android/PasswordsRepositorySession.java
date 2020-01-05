@@ -672,7 +672,6 @@ onGuidsSinceFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;
@@ -1018,9 +1017,7 @@ onFetchFailed
 new
 InactiveSessionException
 (
-null
 )
-null
 )
 ;
 return
@@ -1199,7 +1196,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -1347,9 +1343,7 @@ onFetchFailed
 new
 InactiveSessionException
 (
-null
 )
-null
 )
 ;
 return
@@ -1514,7 +1508,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 }
@@ -2741,7 +2734,6 @@ onWipeFailed
 new
 InactiveSessionException
 (
-null
 )
 )
 ;
@@ -3660,7 +3652,6 @@ delegate
 onFetchFailed
 (
 e
-null
 )
 ;
 return
@@ -4231,20 +4222,6 @@ cur
 Cursor
 from
 query
-.
-*
-param
-deleted
-*
-true
-if
-creating
-a
-deleted
-Record
-false
-if
-otherwise
 .
 *
 return

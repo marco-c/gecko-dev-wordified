@@ -229,8 +229,6 @@ onFetchFailed
 (
 Exception
 ex
-Record
-record
 )
 {
 performNotify
