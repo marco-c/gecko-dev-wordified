@@ -759,6 +759,7 @@ this
 .
 _timers
 )
+{
 delete
 this
 .
@@ -767,6 +768,7 @@ _timers
 timerID
 ]
 ;
+}
 this
 .
 _timers
@@ -868,10 +870,12 @@ delay
 <
 nextDelay
 )
+{
 nextDelay
 =
 delay
 ;
+}
 }
 /
 /
@@ -1007,10 +1011,12 @@ earliestIntendedTime
 =
 null
 )
+{
 skippedFirings
 =
 true
 ;
+}
 }
 /
 /
@@ -1103,6 +1109,7 @@ if
 !
 selected
 )
+{
 updateNextDelay
 (
 intendedTime
@@ -1110,6 +1117,7 @@ intendedTime
 now
 )
 ;
+}
 }
 var
 catMan
@@ -1392,10 +1400,12 @@ lastUpdateTime
 >
 now
 )
+{
 lastUpdateTime
 =
 0
 ;
+}
 if
 (
 lastUpdateTime
@@ -1403,6 +1413,7 @@ lastUpdateTime
 =
 0
 )
+{
 Services
 .
 prefs
@@ -1413,6 +1424,7 @@ prefLastUpdate
 lastUpdateTime
 )
 ;
+}
 tryFire
 (
 function
@@ -1800,10 +1812,12 @@ if
 (
 callbackToFire
 )
+{
 callbackToFire
 (
 )
 ;
+}
 if
 (
 nextDelay
@@ -1817,6 +1831,7 @@ if
 (
 skippedFirings
 )
+{
 timer
 .
 delay
@@ -1825,7 +1840,9 @@ this
 .
 _timerMinimumDelay
 ;
+}
 else
+{
 timer
 .
 delay
@@ -1842,6 +1859,7 @@ this
 _timerMinimumDelay
 )
 ;
+}
 this
 .
 lastTimerReset
@@ -1909,8 +1927,10 @@ this
 .
 _canEnsureTimer
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -2218,10 +2238,12 @@ lastUpdateTime
 >
 now
 )
+{
 lastUpdateTime
 =
 0
 ;
+}
 if
 (
 lastUpdateTime
@@ -2229,6 +2251,7 @@ lastUpdateTime
 =
 0
 )
+{
 Services
 .
 prefs
@@ -2239,6 +2262,7 @@ prefLastUpdate
 lastUpdateTime
 )
 ;
+}
 this
 .
 _timers
