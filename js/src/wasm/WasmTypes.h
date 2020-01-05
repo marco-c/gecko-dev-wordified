@@ -6902,14 +6902,6 @@ RoundingMode
 mode
 )
 ;
-void
-*
-AddressOf
-(
-SymbolicAddress
-imm
-)
-;
 /
 /
 Assumptions
