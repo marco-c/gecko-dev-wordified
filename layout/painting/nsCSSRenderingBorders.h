@@ -1961,6 +1961,10 @@ mRepeatModeVertical
 uint8_t
 mFill
 ;
+friend
+class
+nsDisplayBorder
+;
 }
 ;
 namespace
