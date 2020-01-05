@@ -1178,7 +1178,9 @@ tab
 toolId2
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 icon
@@ -1195,7 +1197,7 @@ not
 have
 the
 invertable
-attribute
+class
 "
 )
 ;
@@ -1216,7 +1218,9 @@ inspector
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 icon
@@ -1233,7 +1237,7 @@ do
 have
 the
 invertable
-attribute
+class
 "
 )
 ;

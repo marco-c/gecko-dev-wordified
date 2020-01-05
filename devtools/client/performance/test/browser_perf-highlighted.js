@@ -223,7 +223,9 @@ waitUntil
 >
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted
@@ -235,7 +237,9 @@ ok
 (
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted
@@ -247,10 +251,10 @@ tab
 is
 highlighted
 during
-recording
 "
 +
 "
+recording
 from
 console
 .
@@ -281,7 +285,9 @@ waitUntil
 !
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted
@@ -294,7 +300,9 @@ ok
 !
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted
@@ -344,7 +352,9 @@ ok
 (
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted
@@ -376,7 +386,9 @@ ok
 !
 tab
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 highlighted

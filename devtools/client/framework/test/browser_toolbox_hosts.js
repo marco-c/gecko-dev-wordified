@@ -991,9 +991,10 @@ iframe
 .
 contentDocument
 .
-getElementById
+querySelector
 (
 "
+.
 toolbox
 -
 tabs
