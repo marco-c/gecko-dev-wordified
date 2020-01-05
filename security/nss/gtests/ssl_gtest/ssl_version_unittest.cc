@@ -1507,6 +1507,14 @@ EnsureTlsSetup
 client_
 -
 >
+SetExpectedAlertReceivedCount
+(
+1
+)
+;
+client_
+-
+>
 StartConnect
 (
 )

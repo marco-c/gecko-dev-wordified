@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-tls_client_socket_h__
+tls_socket_h__
 #
 define
-tls_client_socket_h__
+tls_socket_h__
 #
 include
 "
@@ -160,4 +160,4 @@ len_
 endif
 /
 /
-tls_client_socket_h__
+tls_socket_h__

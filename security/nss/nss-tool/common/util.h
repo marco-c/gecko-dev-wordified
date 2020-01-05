@@ -120,6 +120,12 @@ void
 )
 ;
 bool
+ChangeSlotPassword
+(
+void
+)
+;
+bool
 DBLoginIfNeeded
 (
 const
