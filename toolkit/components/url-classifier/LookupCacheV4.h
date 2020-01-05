@@ -207,6 +207,13 @@ aConfirmed
 )
 override
 ;
+virtual
+bool
+IsEmpty
+(
+)
+override
+;
 nsresult
 Build
 (
