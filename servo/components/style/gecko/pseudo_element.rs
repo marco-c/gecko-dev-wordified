@@ -435,7 +435,6 @@ self
 >
 bool
 {
-!
 matches
 !
 (
