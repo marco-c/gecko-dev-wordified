@@ -161,6 +161,10 @@ location
 cookies
 "
 "
+https
+:
+/
+/
 sectest1
 .
 example

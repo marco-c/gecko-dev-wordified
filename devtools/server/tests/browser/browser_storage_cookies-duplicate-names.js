@@ -135,6 +135,10 @@ TESTDATA
 =
 {
 "
+http
+:
+/
+/
 test1
 .
 example

@@ -339,6 +339,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -418,6 +422,10 @@ org
 cookies
 "
 "
+https
+:
+/
+/
 sectest1
 .
 example
@@ -536,6 +544,10 @@ performDelete
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -585,6 +597,10 @@ deleted
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -631,6 +647,10 @@ org
 cookies
 "
 "
+https
+:
+/
+/
 sectest1
 .
 example
@@ -744,6 +764,10 @@ performDelete
 cookies
 "
 "
+http
+:
+/
+/
 sectest1
 .
 example
@@ -801,6 +825,10 @@ test1
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -817,6 +845,10 @@ org
 cookies
 "
 "
+https
+:
+/
+/
 sectest1
 .
 example

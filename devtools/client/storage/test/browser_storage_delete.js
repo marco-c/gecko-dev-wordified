@@ -149,6 +149,10 @@ name
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example

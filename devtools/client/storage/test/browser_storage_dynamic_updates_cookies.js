@@ -385,6 +385,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -524,6 +528,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -661,6 +669,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -841,6 +853,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -1020,6 +1036,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -1192,6 +1212,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -1315,6 +1339,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -1419,6 +1447,10 @@ checkState
 cookies
 "
 "
+http
+:
+/
+/
 test1
 .
 example

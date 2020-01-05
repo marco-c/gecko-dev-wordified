@@ -79,6 +79,10 @@ cookies
 :
 [
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -86,6 +90,10 @@ example
 org
 "
 "
+https
+:
+/
+/
 sectest1
 .
 example
@@ -265,6 +273,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -436,6 +448,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -606,6 +622,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -892,6 +912,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -985,6 +1009,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
@@ -1155,6 +1183,10 @@ cookies
 :
 {
 "
+http
+:
+/
+/
 test1
 .
 example
