@@ -84,6 +84,9 @@ null
 _box
 :
 null
+_openedURL
+:
+null
 _injectedStyleSheets
 :
 [
