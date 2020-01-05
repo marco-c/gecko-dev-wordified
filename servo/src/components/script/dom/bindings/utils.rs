@@ -4419,6 +4419,7 @@ was
 created
 in
 .
+pub
 fn
 global_object_for_js_object
 (
@@ -4429,8 +4430,7 @@ JSObject
 )
 -
 >
-*
-Box
+JS
 <
 window
 :
@@ -4502,6 +4502,7 @@ unwrap_object
 :
 <
 *
+mut
 Box
 <
 window
@@ -4528,7 +4529,13 @@ win
 )
 =
 >
+JS
+:
+:
+from_box
+(
 win
+)
 Err
 (
 _
@@ -4567,8 +4574,6 @@ JSObject
 *
 JSContext
 {
-unsafe
-{
 let
 win
 =
@@ -4580,12 +4585,11 @@ obj
 let
 js_info
 =
-(
-*
 win
-)
 .
-data
+get
+(
+)
 .
 page
 (
@@ -4636,7 +4640,6 @@ global
 )
 }
 }
-}
 /
 /
 /
@@ -4672,8 +4675,7 @@ T
 )
 -
 >
-*
-Box
+JS
 <
 window
 :
