@@ -4661,14 +4661,6 @@ if
 IsSuspended
 (
 )
-&
-&
-mOwner
--
->
-Paused
-(
-)
 )
 {
 MOZ_LOG
