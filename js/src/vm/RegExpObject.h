@@ -708,17 +708,6 @@ nullptr
 )
 {
 }
-~
-RegExpCompilation
-(
-)
-{
-js_free
-(
-byteCode
-)
-;
-}
 bool
 compiled
 (
