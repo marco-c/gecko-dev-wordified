@@ -2835,8 +2835,12 @@ DataChannelParent
 actor
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
+DebugOnly
+<
+bool
+>
+rv
+=
 p
 -
 >
@@ -2844,6 +2848,10 @@ Init
 (
 channelId
 )
+;
+MOZ_ASSERT
+(
+rv
 )
 ;
 return
