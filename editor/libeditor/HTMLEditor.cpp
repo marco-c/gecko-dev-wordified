@@ -19061,6 +19061,8 @@ aNode
 ;
 if
 (
+NS_WARN_IF
+(
 !
 IsModifiableNode
 (
@@ -19072,6 +19074,7 @@ aNode
 IsMozEditorBogusNode
 (
 content
+)
 )
 )
 {
