@@ -537,6 +537,8 @@ K
 }
 }
 contentSetup
+:
+function
 (
 )
 {
@@ -680,6 +682,8 @@ browser_action
 }
 }
 contentSetup
+:
+function
 (
 )
 {
@@ -1034,6 +1038,8 @@ contextMenus
 ]
 }
 contentSetup
+:
+function
 (
 )
 {

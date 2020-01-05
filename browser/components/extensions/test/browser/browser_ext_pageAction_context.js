@@ -285,6 +285,8 @@ png
 imageBuffer
 }
 getTests
+:
+function
 (
 tabs
 )
