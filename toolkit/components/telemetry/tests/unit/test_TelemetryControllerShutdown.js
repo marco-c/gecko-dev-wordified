@@ -416,7 +416,7 @@ test_sendTelemetryShutsDownWithinReasonableTimeout
 const
 CRASH_TIMEOUT_MS
 =
-5
+10
 *
 1000
 ;
@@ -476,7 +476,7 @@ minute
 standard
 )
 to
-10
+20
 seconds
 to
 avoid
