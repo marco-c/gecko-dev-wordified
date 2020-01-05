@@ -177,6 +177,12 @@ Performance
 let
 timing
 =
+JS
+:
+:
+from_rooted
+(
+&
 PerformanceTiming
 :
 :
@@ -192,9 +198,6 @@ root
 root_ref
 (
 )
-.
-unrooted
-(
 )
 ;
 Performance

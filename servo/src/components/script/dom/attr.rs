@@ -583,10 +583,12 @@ Cell
 :
 new
 (
-owner
-.
-unrooted
+JS
+:
+:
+from_rooted
 (
+owner
 )
 )
 }

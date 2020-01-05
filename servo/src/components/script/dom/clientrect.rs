@@ -239,10 +239,12 @@ new
 )
 window
 :
-window
-.
-unrooted
+JS
+:
+:
+from_rooted
 (
+window
 )
 }
 }
