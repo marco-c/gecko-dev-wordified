@@ -484,7 +484,7 @@ h
 #
 include
 "
-LulPlatformMacros
+PlatformMacros
 .
 h
 "
@@ -513,7 +513,7 @@ files
 if
 defined
 (
-LUL_OS_android
+SPS_OS_android
 )
 /
 /

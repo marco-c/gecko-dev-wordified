@@ -597,7 +597,7 @@ h
 #
 include
 "
-LulPlatformMacros
+PlatformMacros
 .
 h
 "
@@ -633,7 +633,7 @@ h
 if
 defined
 (
-LUL_PLAT_arm_android
+SPS_PLAT_arm_android
 )
 &
 &
