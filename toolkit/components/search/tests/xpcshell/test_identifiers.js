@@ -194,9 +194,6 @@ xml
 "
 )
 ;
-let
-search
-=
 Services
 .
 search

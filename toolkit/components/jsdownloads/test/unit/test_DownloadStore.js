@@ -784,7 +784,6 @@ test_save_empty
 {
 let
 [
-list
 store
 ]
 =

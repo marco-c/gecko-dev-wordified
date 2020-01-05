@@ -1506,9 +1506,6 @@ test_sendDateHeader
 (
 )
 {
-let
-now
-=
 fakeNow
 (
 new

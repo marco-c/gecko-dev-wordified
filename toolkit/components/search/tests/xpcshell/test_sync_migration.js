@@ -109,9 +109,6 @@ search
 isInitialized
 )
 ;
-let
-engines
-=
 Services
 .
 search

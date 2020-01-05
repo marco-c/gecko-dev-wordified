@@ -1377,9 +1377,7 @@ cache
 {
 let
 [
-index
 obj
-has
 propValue
 ]
 =
@@ -1615,7 +1613,6 @@ cache
 {
 let
 [
-index
 obj
 result
 ]
@@ -1977,7 +1974,6 @@ cache
 {
 let
 [
-index
 obj
 .
 .

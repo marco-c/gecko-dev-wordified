@@ -1285,9 +1285,6 @@ RECENT_PINGS
 }
 ]
 ;
-let
-recentPings
-=
 yield
 createSavedPings
 (

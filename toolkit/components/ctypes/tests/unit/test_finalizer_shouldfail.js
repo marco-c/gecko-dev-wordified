@@ -619,9 +619,6 @@ false
 ;
 try
 {
-let
-v
-=
 ctypes
 .
 CDataFinalizer

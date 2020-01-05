@@ -15502,8 +15502,7 @@ txt
 "
 )
 {
-targetFile
-:
+isPrivate
 targetFile
 }
 )
@@ -15521,6 +15520,9 @@ createDownload
 {
 source
 :
+{
+url
+:
 httpUrl
 (
 "
@@ -15529,6 +15531,8 @@ source
 txt
 "
 )
+isPrivate
+}
 target
 :
 targetFile

@@ -1666,9 +1666,6 @@ the
 user
 notified
 .
-let
-now
-=
 fakeNow
 (
 2012

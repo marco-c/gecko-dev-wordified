@@ -388,9 +388,6 @@ check
 the
 timezone
 .
-let
-engines
-=
 Services
 .
 search

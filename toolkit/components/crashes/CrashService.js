@@ -420,9 +420,6 @@ singleton
 is
 instantiated
 .
-let
-m
-=
 Services
 .
 crashmanager

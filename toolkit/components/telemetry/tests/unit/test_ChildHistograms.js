@@ -811,9 +811,6 @@ it
 to
 finish
 .
-let
-childPromise
-=
 run_test_in_child
 (
 "

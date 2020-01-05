@@ -1530,7 +1530,6 @@ contentWindow
 .
 document
 ;
-let
 forcedCharSet
 =
 utils
@@ -1895,11 +1894,6 @@ source
 "
 +
 URL
-;
-let
-loadFromURL
-=
-false
 ;
 if
 (

@@ -3637,13 +3637,6 @@ topic
 }
 )
 ;
-let
-barrier
-=
-this
-.
-_barrier
-;
 Services
 .
 obs
