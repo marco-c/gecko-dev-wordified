@@ -191,11 +191,9 @@ mime
 :
 :
 {
-Attr
 Mime
 SubLevel
 TopLevel
-Value
 }
 ;
 use
