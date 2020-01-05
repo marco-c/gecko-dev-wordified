@@ -5730,6 +5730,7 @@ we
 want
 to
 clear
+.
 final
 ArrayList
 <
@@ -5768,7 +5769,7 @@ if
 (
 checkedItemPositions
 .
-get
+valueAt
 (
 i
 )
@@ -5778,7 +5779,12 @@ permissionsToClear
 .
 add
 (
+checkedItemPositions
+.
+keyAt
+(
 i
+)
 )
 ;
 }
