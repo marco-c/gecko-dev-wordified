@@ -62,9 +62,5 @@ ban
 ;
 pub
 mod
-inheritance_integrity
-;
-pub
-mod
 unrooted_must_root
 ;
