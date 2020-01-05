@@ -15239,7 +15239,7 @@ layerizes
 .
 pub
 fn
-needs_layer
+needs_layered_stacking_context
 (
 &
 self
@@ -15286,14 +15286,6 @@ SpecificFragmentInfo
 :
 :
 Canvas
-(
-_
-)
-|
-SpecificFragmentInfo
-:
-:
-Iframe
 (
 _
 )
@@ -15483,7 +15475,7 @@ auto
 if
 self
 .
-needs_layer
+needs_layered_stacking_context
 (
 )
 {
