@@ -17332,6 +17332,12 @@ IPC_OK
 )
 ;
 }
+nsCOMPtr
+<
+nsISupports
+>
+promise
+;
 if
 (
 NS_FAILED
@@ -17342,6 +17348,10 @@ frameLoader
 RequestGroupedHistoryNavigation
 (
 aGlobalIndex
+getter_AddRefs
+(
+promise
+)
 )
 )
 )
