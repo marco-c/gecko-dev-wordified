@@ -1877,3 +1877,16 @@ aCapture
 )
 ;
 }
+bool
+AudioChannelAgent
+:
+:
+IsPlayingStarted
+(
+)
+const
+{
+return
+mIsRegToService
+;
+}

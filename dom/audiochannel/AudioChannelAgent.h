@@ -273,6 +273,12 @@ InnerWindowID
 )
 const
 ;
+bool
+IsPlayingStarted
+(
+)
+const
+;
 private
 :
 virtual
