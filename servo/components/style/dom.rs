@@ -81,9 +81,9 @@ properties
 :
 :
 {
+ComputedValues
 PropertyDeclaration
 PropertyDeclarationBlock
-TComputedValues
 }
 ;
 use
@@ -405,7 +405,7 @@ Copy
 type
 ConcreteComputedValues
 :
-TComputedValues
+ComputedValues
 ;
 fn
 compute
@@ -502,7 +502,7 @@ ConcreteComputedValues
 type
 ConcreteComputedValues
 :
-TComputedValues
+ComputedValues
 ;
 fn
 to_unsafe

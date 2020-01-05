@@ -100,8 +100,8 @@ properties
 :
 :
 {
+ComputedValues
 PropertyDeclaration
-TComputedValues
 cascade
 }
 ;
@@ -1011,7 +1011,7 @@ ApplicableDeclarationsCache
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 cache
@@ -1029,7 +1029,7 @@ impl
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 ApplicableDeclarationsCache
 <
@@ -1207,7 +1207,7 @@ StyleSharingCandidateCache
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 cache
@@ -1235,7 +1235,7 @@ StyleSharingCandidate
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 {
 pub
@@ -1295,7 +1295,7 @@ impl
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 PartialEq
 for
@@ -1398,7 +1398,7 @@ impl
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 StyleSharingCandidate
 <
@@ -2208,7 +2208,7 @@ impl
 <
 C
 :
-TComputedValues
+ComputedValues
 >
 StyleSharingCandidateCache
 <

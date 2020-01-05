@@ -274,7 +274,7 @@ style
 properties
 :
 :
-TComputedValues
+ComputedValues
 ;
 use
 style

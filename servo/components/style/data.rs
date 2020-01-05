@@ -60,7 +60,7 @@ use
 properties
 :
 :
-TComputedValues
+ComputedValues
 ;
 use
 selectors
@@ -119,7 +119,7 @@ Impl
 SelectorImpl
 ConcreteComputedValues
 :
-TComputedValues
+ComputedValues
 >
 {
 /
@@ -215,7 +215,7 @@ Impl
 SelectorImpl
 ConcreteComputedValues
 :
-TComputedValues
+ComputedValues
 {
 pub
 fn
