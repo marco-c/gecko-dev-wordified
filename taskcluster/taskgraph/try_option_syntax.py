@@ -2294,15 +2294,10 @@ dest
 '
 talos
 '
-const
-=
-'
-all
-'
 default
 =
 '
-all
+none
 '
 )
         
