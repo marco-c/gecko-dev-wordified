@@ -6249,6 +6249,11 @@ IPCDoc
 (
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+parentIPCDoc
+)
+;
 uint64_t
 id
 =
@@ -6265,7 +6270,7 @@ UniqueID
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 id
 )
@@ -6320,11 +6325,6 @@ defined
 (
 XP_WIN
 )
-MOZ_ASSERT
-(
-parentIPCDoc
-)
-;
 parentIPCDoc
 -
 >
@@ -6369,11 +6369,6 @@ if
 tabChild
 )
 {
-MOZ_ASSERT
-(
-parentIPCDoc
-)
-;
 static_cast
 <
 TabChild
