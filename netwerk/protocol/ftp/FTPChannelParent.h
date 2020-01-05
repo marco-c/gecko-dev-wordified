@@ -415,7 +415,7 @@ nsCString
 &
 aEntityID
 const
-OptionalInputStreamParams
+OptionalIPCStream
 &
 aUploadStream
 const
