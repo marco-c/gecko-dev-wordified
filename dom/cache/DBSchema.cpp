@@ -2657,6 +2657,15 @@ TYPE_INTERNAL_IMAGE_FAVICON
 =
 =
 41
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
+=
+=
+42
 "
 nsContentPolicyType
 values

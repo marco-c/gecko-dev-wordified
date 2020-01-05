@@ -1455,6 +1455,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_SERVICE_WORKER
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
+:
 context
 =
 RequestContext
