@@ -113,20 +113,8 @@ sync_path
 )
 )
     
-try
-:
-        
 from
 tools
-import
-localpaths
-    
-except
-ImportError
-:
-        
-from
-wpt_tools
 import
 localpaths
 class

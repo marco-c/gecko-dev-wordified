@@ -77,7 +77,7 @@ if
 !
 document
 .
-documentElement
+body
 .
 classList
 .
