@@ -2130,6 +2130,16 @@ unit
 )
 )
 )
+-
+set
+(
+[
+'
+.
+DS_Store
+'
+]
+)
         
 packages
 .
@@ -3185,6 +3195,16 @@ compiletest
 "
 )
 )
+)
+-
+set
+(
+[
+'
+.
+DS_Store
+'
+]
 )
         
 packages
