@@ -5715,12 +5715,9 @@ execPath
 nsresult
 rv
 =
-NS_NewNativeLocalFile
-(
-NS_ConvertUTF16toUTF8
+NS_NewLocalFile
 (
 gAbsoluteArgv0Path
-)
 true
 getter_AddRefs
 (
