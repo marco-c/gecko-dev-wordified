@@ -13235,6 +13235,11 @@ TextureFlags
 ORIGIN_BOTTOM_LEFT
 )
 ;
+if
+(
+factory
+)
+{
 screen
 -
 >
@@ -13246,6 +13251,7 @@ factory
 )
 )
 ;
+}
 return
 true
 ;

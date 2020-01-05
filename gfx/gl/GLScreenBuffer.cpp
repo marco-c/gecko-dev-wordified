@@ -2392,9 +2392,16 @@ SurfaceFactory
 newFactory
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newFactory
+"
+newFactory
+must
+not
+be
+null
+"
 )
 ;
 mFactory
