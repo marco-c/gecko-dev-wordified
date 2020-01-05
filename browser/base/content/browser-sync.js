@@ -2167,6 +2167,14 @@ title
 )
 )
 ;
+gPageActionButton
+.
+panel
+.
+hidePopup
+(
+)
+;
 }
 function
 addTargetDevice
