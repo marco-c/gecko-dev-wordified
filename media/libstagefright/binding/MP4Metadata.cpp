@@ -1284,7 +1284,12 @@ aSource
 )
 mPreferRust
 (
-false
+MediaPrefs
+:
+:
+EnableRustMP4Parser
+(
+)
 )
 mReportedAudioTrackTelemetry
 (
