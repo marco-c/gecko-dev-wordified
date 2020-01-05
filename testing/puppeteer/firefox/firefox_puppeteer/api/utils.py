@@ -117,8 +117,6 @@ _permissions
 =
 Permissions
 (
-lambda
-:
 self
 .
 marionette

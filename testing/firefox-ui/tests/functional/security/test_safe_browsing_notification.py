@@ -275,6 +275,8 @@ html
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -292,6 +294,8 @@ True
 )
         
 self
+.
+puppeteer
 .
 prefs
 .
@@ -430,6 +434,8 @@ try
 :
             
 self
+.
+puppeteer
 .
 utils
 .
@@ -909,6 +915,8 @@ this
 function
         
 self
+.
+puppeteer
 .
 utils
 .

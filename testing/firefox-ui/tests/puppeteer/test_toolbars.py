@@ -154,6 +154,8 @@ check
 why
 self
 .
+puppeteer
+.
 places
 .
 remove_all_history

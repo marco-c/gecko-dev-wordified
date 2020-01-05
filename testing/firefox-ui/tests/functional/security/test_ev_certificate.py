@@ -156,6 +156,8 @@ True
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all
@@ -295,6 +297,8 @@ certificate
 address
 =
 self
+.
+puppeteer
 .
 security
 .

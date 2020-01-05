@@ -623,8 +623,6 @@ _navbar
 =
 NavBar
 (
-lambda
-:
 self
 .
 marionette
@@ -770,8 +768,6 @@ BaseNotification
 )
 (
                 
-lambda
-:
 self
 .
 marionette
@@ -1064,8 +1060,6 @@ _tabbar
 =
 TabBar
 (
-lambda
-:
 self
 .
 marionette

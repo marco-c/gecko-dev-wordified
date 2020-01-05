@@ -104,8 +104,6 @@ l10n
 =
 L10n
 (
-lambda
-:
 self
 .
 marionette

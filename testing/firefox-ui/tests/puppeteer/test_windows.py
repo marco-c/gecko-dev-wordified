@@ -237,6 +237,8 @@ self
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -307,6 +309,8 @@ try
 :
             
 self
+.
+puppeteer
 .
 windows
 .
@@ -393,6 +397,8 @@ windows
 =
 self
 .
+puppeteer
+.
 windows
 .
 all
@@ -416,6 +422,8 @@ the
 window
         
 self
+.
+puppeteer
 .
 windows
 .
@@ -494,6 +502,8 @@ URL
         
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -564,6 +574,8 @@ url
         
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -590,6 +602,8 @@ current_chrome_window_handle
         
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -615,6 +629,8 @@ NoSuchWindowException
                           
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -631,6 +647,8 @@ NoSuchWindowException
                           
 self
 .
+puppeteer
+.
 windows
 .
 switch_to
@@ -641,6 +659,8 @@ False
 )
         
 self
+.
+puppeteer
 .
 windows
 .
@@ -668,6 +688,8 @@ assertEqual
 len
 (
 self
+.
+puppeteer
 .
 windows
 .
@@ -797,6 +819,8 @@ try
             
 self
 .
+puppeteer
+.
 windows
 .
 close_all
@@ -834,8 +858,6 @@ win1
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -929,30 +951,11 @@ self
 .
 assertRaises
 (
-TypeError
-                          
-BaseWindow
-self
-.
-marionette
-self
-.
-browser
-.
-handle
-)
-        
-self
-.
-assertRaises
-(
 errors
 .
 UnknownWindowError
                           
 BaseWindow
-lambda
-:
 self
 .
 marionette
@@ -997,8 +1000,6 @@ win1
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1040,8 +1041,6 @@ win2
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1250,8 +1249,6 @@ win2
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1316,6 +1313,8 @@ BaseWindow
         
 self
 .
+puppeteer
+.
 windows
 .
 close_all
@@ -1341,8 +1340,6 @@ win1
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1384,8 +1381,6 @@ win2
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1416,6 +1411,8 @@ win2
 .
 handle
 self
+.
+puppeteer
 .
 windows
 .
@@ -1536,6 +1533,8 @@ win2
 handle
 self
 .
+puppeteer
+.
 windows
 .
 focused_chrome_window_handle
@@ -1598,6 +1597,8 @@ try
 :
             
 self
+.
+puppeteer
 .
 windows
 .
@@ -1737,6 +1738,8 @@ assertEquals
 win2
 self
 .
+puppeteer
+.
 windows
 .
 current
@@ -1797,6 +1800,8 @@ assertEquals
 win2
 self
 .
+puppeteer
+.
 windows
 .
 current
@@ -1854,6 +1859,8 @@ assertEquals
 win2
 self
 .
+puppeteer
+.
 windows
 .
 current
@@ -1909,6 +1916,8 @@ assertEquals
 win2
 self
 .
+puppeteer
+.
 windows
 .
 current
@@ -1951,6 +1960,8 @@ assertEquals
 (
 win2
 self
+.
+puppeteer
 .
 windows
 .

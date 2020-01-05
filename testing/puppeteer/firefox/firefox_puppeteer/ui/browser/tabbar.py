@@ -178,8 +178,6 @@ instance
 return
 MenuPanel
 (
-lambda
-:
 self
 .
 marionette
@@ -315,8 +313,6 @@ return
 [
 Tab
 (
-lambda
-:
 self
 .
 marionette
@@ -1595,7 +1591,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 window
 element
 )
@@ -1606,7 +1602,7 @@ UIBaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 window
 element
 )
@@ -1617,8 +1613,6 @@ _security
 =
 Security
 (
-lambda
-:
 self
 .
 marionette

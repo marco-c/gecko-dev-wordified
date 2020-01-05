@@ -114,6 +114,8 @@ com
         
 self
 .
+puppeteer
+.
 utils
 .
 sanitize
@@ -182,6 +184,8 @@ Possible_values_and_their_effects
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -199,6 +203,8 @@ min
 )
         
 self
+.
+puppeteer
 .
 prefs
 .

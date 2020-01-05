@@ -337,6 +337,8 @@ library
 if
 self
 .
+puppeteer
+.
 platform
 =
 =

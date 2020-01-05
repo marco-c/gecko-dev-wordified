@@ -183,6 +183,8 @@ address
 =
 self
 .
+puppeteer
+.
 security
 .
 get_address_from_certificate

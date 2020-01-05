@@ -822,8 +822,6 @@ windows_map
 window_type
 ]
 (
-lambda
-:
 self
 .
 marionette
@@ -837,8 +835,6 @@ window
 =
 BaseWindow
 (
-lambda
-:
 self
 .
 marionette
@@ -1572,7 +1568,7 @@ def
 __init__
 (
 self
-marionette_getter
+marionette
 window_handle
 )
 :
@@ -1582,7 +1578,7 @@ BaseLib
 __init__
 (
 self
-marionette_getter
+marionette
 )
         
 self
@@ -1593,7 +1589,7 @@ L10n
 (
 self
 .
-get_marionette
+marionette
 )
         
 self
@@ -1604,7 +1600,7 @@ Preferences
 (
 self
 .
-get_marionette
+marionette
 )
         
 self
@@ -1615,7 +1611,7 @@ Windows
 (
 self
 .
-get_marionette
+marionette
 )
         
 if

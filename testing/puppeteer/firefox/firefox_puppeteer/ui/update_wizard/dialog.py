@@ -282,8 +282,6 @@ updates
 return
 Wizard
 (
-lambda
-:
 self
 .
 marionette

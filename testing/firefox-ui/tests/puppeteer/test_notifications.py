@@ -107,6 +107,8 @@ self
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -140,6 +142,8 @@ extensions
 )
         
 self
+.
+puppeteer
 .
 utils
 .
@@ -198,6 +202,8 @@ required
 )
             
 self
+.
+puppeteer
 .
 utils
 .
@@ -565,6 +571,8 @@ will
 fail
         
 self
+.
+puppeteer
 .
 prefs
 .

@@ -136,6 +136,8 @@ mozilla
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref

@@ -134,6 +134,8 @@ try
             
 self
 .
+puppeteer
+.
 places
 .
 restore_default_bookmarks
@@ -141,6 +143,8 @@ restore_default_bookmarks
 )
             
 self
+.
+puppeteer
 .
 places
 .
@@ -342,6 +346,8 @@ removed
         
 self
 .
+puppeteer
+.
 places
 .
 clear_plugin_data
@@ -422,10 +428,13 @@ marionette
 .
 until
 (
+                
 lambda
 _
 :
 self
+.
+puppeteer
 .
 places
 .
@@ -454,6 +463,8 @@ _
 :
 self
 .
+puppeteer
+.
 places
 .
 is_bookmarked
@@ -465,6 +476,8 @@ url
 ids
 =
 self
+.
+puppeteer
 .
 places
 .
@@ -494,6 +507,8 @@ ids
 ]
 self
 .
+puppeteer
+.
 places
 .
 bookmark_folders
@@ -514,6 +529,8 @@ gone
         
 self
 .
+puppeteer
+.
 places
 .
 restore_default_bookmarks
@@ -533,6 +550,8 @@ self
 assertFalse
 (
 self
+.
+puppeteer
 .
 places
 .
@@ -613,6 +632,8 @@ url
         
 self
 .
+puppeteer
+.
 places
 .
 wait_for_visited
@@ -650,6 +671,8 @@ the
 remove_all_history
         
 self
+.
+puppeteer
 .
 places
 .

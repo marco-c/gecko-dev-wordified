@@ -124,6 +124,8 @@ history
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -136,6 +138,8 @@ False
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -147,6 +151,8 @@ False
 )
         
 self
+.
+puppeteer
 .
 places
 .
@@ -307,6 +313,8 @@ test_urls
 )
         
 self
+.
+puppeteer
 .
 places
 .

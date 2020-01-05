@@ -365,8 +365,6 @@ _locationbar
 =
 LocationBar
 (
-lambda
-:
 self
 .
 marionette
@@ -626,8 +624,6 @@ _autocomplete_results
 =
 AutocompleteResults
 (
-lambda
-:
 self
 .
 marionette
@@ -1628,8 +1624,6 @@ _identity_popup
 =
 IdentityPopup
 (
-lambda
-:
 self
 .
 marionette
@@ -3335,8 +3329,6 @@ _view
 =
 IdentityPopupMultiView
 (
-lambda
-:
 self
 .
 marionette
@@ -3460,8 +3452,6 @@ view_id
 IdentityPopupView
 )
 (
-lambda
-:
 self
 .
 marionette

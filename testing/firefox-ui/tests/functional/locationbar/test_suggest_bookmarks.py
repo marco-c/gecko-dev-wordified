@@ -194,6 +194,8 @@ bookmarks
         
 self
 .
+puppeteer
+.
 prefs
 .
 set_pref
@@ -231,6 +233,8 @@ blank
 )
         
 self
+.
+puppeteer
 .
 places
 .
@@ -307,6 +311,8 @@ close
 )
             
 self
+.
+puppeteer
 .
 places
 .
@@ -408,6 +414,8 @@ as
 visited
         
 self
+.
+puppeteer
 .
 places
 .
@@ -579,6 +587,8 @@ blank
 )
         
 self
+.
+puppeteer
 .
 places
 .

@@ -535,6 +535,8 @@ windows
 =
 self
 .
+puppeteer
+.
 windows
 .
 all

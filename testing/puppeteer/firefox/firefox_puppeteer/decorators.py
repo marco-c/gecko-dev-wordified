@@ -245,7 +245,7 @@ cls_name
 (
 cls
 .
-get_marionette
+marionette
 )
                 
 setattr
