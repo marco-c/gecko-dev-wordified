@@ -7146,6 +7146,10 @@ mType
 (
 aType
 )
+mFallbackType
+(
+eStyleSVGFallbackType_NotSet
+)
 mFallbackColor
 (
 NS_RGB
@@ -7289,6 +7293,10 @@ eStyleSVGPaintType_ContextFill
 case
 eStyleSVGPaintType_ContextStroke
 :
+mFallbackType
+=
+eStyleSVGFallbackType_NotSet
+;
 mFallbackColor
 =
 NS_RGB
