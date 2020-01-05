@@ -183,14 +183,6 @@ channel
 {
             
 '
-dest
-'
-:
-'
-update_channel
-'
-            
-'
 metavar
 '
 :
@@ -231,14 +223,6 @@ only
 {
             
 '
-dest
-'
-:
-'
-update_direct_only
-'
-            
-'
 default
 '
 :
@@ -282,14 +266,6 @@ only
 {
             
 '
-dest
-'
-:
-'
-update_fallback_only
-'
-            
-'
 default
 '
 :
@@ -325,20 +301,10 @@ update
 -
 update
 -
-override
--
 url
 '
 ]
 {
-            
-'
-dest
-'
-:
-'
-update_override_url
-'
             
 '
 metavar
@@ -382,14 +348,6 @@ version
 {
             
 '
-dest
-'
-:
-'
-update_target_version
-'
-            
-'
 metavar
 '
 :
@@ -426,14 +384,6 @@ buildid
 '
 ]
 {
-            
-'
-dest
-'
-:
-'
-update_target_buildid
-'
             
 '
 metavar
