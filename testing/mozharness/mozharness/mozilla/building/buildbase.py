@@ -17434,6 +17434,8 @@ if
 self
 .
 query_is_nightly
+(
+)
 :
             
 for
