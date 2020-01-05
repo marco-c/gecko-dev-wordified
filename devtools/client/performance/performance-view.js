@@ -1896,8 +1896,6 @@ _recordingControlsState
 .
 isRecording
 =
-!
-!
 activate
 ;
 this
@@ -1947,6 +1945,8 @@ this
 .
 _toggleRecordButtons
 (
+!
+!
 recordings
 .
 find
@@ -1974,6 +1974,8 @@ this
 .
 _lockRecordButtons
 (
+!
+!
 recordings
 .
 find
