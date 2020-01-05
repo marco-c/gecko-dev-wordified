@@ -160,15 +160,6 @@ h
 #
 include
 "
-mozilla
-/
-StyleSheet
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -193,6 +184,9 @@ nsIURI
 namespace
 mozilla
 {
+class
+StyleSheet
+;
 class
 PreloadedStyleSheet
 :
