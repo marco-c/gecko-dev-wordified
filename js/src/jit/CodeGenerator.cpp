@@ -1141,7 +1141,7 @@ compilingWasm
 )
 masm
 .
-numWasmSymbolicAccesses
+numSymbolicAccesses
 (
 )
 =
