@@ -145,6 +145,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsISelection
 .
 h
@@ -937,8 +946,10 @@ int32_t
 aContentOffset
 int32_t
 aContentLength
+UniquePtr
+<
 SelectionDetails
-*
+>
 *
 aReturnDetails
 SelectionType
