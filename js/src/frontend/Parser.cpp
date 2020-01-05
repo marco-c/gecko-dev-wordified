@@ -23549,7 +23549,7 @@ maybeParseDirective
 Node
 list
 Node
-pn
+possibleDirective
 bool
 *
 cont
@@ -23566,7 +23566,7 @@ handler
 .
 isStringExprStatement
 (
-pn
+possibleDirective
 &
 directivePos
 )
@@ -23731,9 +23731,9 @@ first
 .
 handler
 .
-setPrologue
+setInDirectivePrologue
 (
-pn
+possibleDirective
 )
 ;
 if
@@ -24005,11 +24005,13 @@ list
 )
 ;
 return
-reportWithNode
+reportWithOffset
 (
 ParseWarning
 false
-pn
+directivePos
+.
+begin
 JSMSG_USE_ASM_DIRECTIVE_FAIL
 )
 ;

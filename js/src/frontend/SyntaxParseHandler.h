@@ -3658,7 +3658,7 @@ mode
 .
 }
 void
-setPrologue
+setInDirectivePrologue
 (
 Node
 pn
