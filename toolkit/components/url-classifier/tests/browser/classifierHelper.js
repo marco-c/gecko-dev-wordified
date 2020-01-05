@@ -1115,7 +1115,7 @@ Promise
 .
 classifierHelper
 .
-resetDB
+resetDatabase
 =
 function
 (
@@ -1514,7 +1514,7 @@ resolve
 return
 classifierHelper
 .
-resetDB
+resetDatabase
 (
 )
 ;
