@@ -1303,6 +1303,17 @@ Event
 ProfilerCategory
 :
 :
+ScriptWorkletEvent
+=
+>
+"
+Script
+Worklet
+Event
+"
+ProfilerCategory
+:
+:
 ApplicationHeartbeat
 =
 >

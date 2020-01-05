@@ -596,6 +596,7 @@ TimerEvent
 UpdateReplacedElement
 WebSocketEvent
 WorkerEvent
+WorkletEvent
 ServiceWorkerEvent
 EnterFullscreen
 ExitFullscreen
