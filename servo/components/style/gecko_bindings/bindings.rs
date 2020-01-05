@@ -9703,6 +9703,9 @@ RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
+unique_id
+:
+u32
 flush
 :
 bool
@@ -9724,6 +9727,9 @@ RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
+unique_id
+:
+u32
 flush
 :
 bool
@@ -9742,9 +9748,9 @@ Servo_StyleSet_RemoveStyleSheet
 set
 :
 RawServoStyleSetBorrowed
-sheet
+unique_id
 :
-RawServoStyleSheetBorrowed
+u32
 flush
 :
 bool
@@ -9766,9 +9772,12 @@ RawServoStyleSetBorrowed
 sheet
 :
 RawServoStyleSheetBorrowed
-reference
+unique_id
 :
-RawServoStyleSheetBorrowed
+u32
+before_unique_id
+:
+u32
 flush
 :
 bool
