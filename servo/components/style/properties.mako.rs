@@ -4544,7 +4544,7 @@ specified
 LengthOrPercentage
 :
 :
-parse_non_negative
+parse
 )
 .
 map
