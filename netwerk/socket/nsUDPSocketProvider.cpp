@@ -70,12 +70,6 @@ nspr
 .
 h
 "
-using
-mozilla
-:
-:
-NeckoOriginAttributes
-;
 NS_IMPL_ISUPPORTS
 (
 nsUDPSocketProvider
@@ -108,9 +102,9 @@ nsIProxyInfo
 *
 aProxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 uint32_t
 aFlags
 PRFileDesc
@@ -172,9 +166,9 @@ nsIProxyInfo
 *
 aProxy
 const
-NeckoOriginAttributes
+nsACString
 &
-originAttributes
+firstPartyDomain
 uint32_t
 aFlags
 struct
