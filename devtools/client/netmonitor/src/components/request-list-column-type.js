@@ -105,7 +105,6 @@ utils
 const
 {
 div
-span
 }
 =
 DOM
@@ -159,7 +158,7 @@ render
 (
 )
 {
-const
+let
 {
 mimeType
 }
@@ -198,7 +197,7 @@ requests
 -
 list
 -
-subitem
+column
 requests
 -
 list
@@ -209,19 +208,7 @@ title
 :
 mimeType
 }
-span
-(
-{
-className
-:
-"
-subitem
--
-label
-"
-}
 abbrevType
-)
 )
 )
 ;
