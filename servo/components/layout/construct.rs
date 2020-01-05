@@ -6641,8 +6641,6 @@ let
 mut
 style
 =
-(
-*
 node
 .
 style
@@ -6651,7 +6649,6 @@ self
 .
 style_context
 (
-)
 )
 )
 .
