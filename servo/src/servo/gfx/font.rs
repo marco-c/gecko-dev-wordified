@@ -69,7 +69,7 @@ azure
 azure_hl
 :
 :
-CairoBackend
+BackendType
 ;
 use
 core
@@ -1573,6 +1573,9 @@ UsedFontStyle
 metrics
 :
 FontMetrics
+backend
+:
+BackendType
 drop
 {
 use
@@ -1634,6 +1637,9 @@ FontHandle
 style
 :
 UsedFontStyle
+backend
+:
+BackendType
 )
 -
 >
@@ -1671,6 +1677,9 @@ metrics
 :
 move
 metrics
+backend
+:
+backend
 }
 }
 priv
@@ -1813,7 +1822,9 @@ ScaledFont
 :
 new
 (
-CairoBackend
+self
+.
+backend
 ct_font
 size
 )
