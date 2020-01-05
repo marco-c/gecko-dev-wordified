@@ -1357,6 +1357,9 @@ function
 runTestInNewWindow
 (
 aFile
+aSuppressPointerIdCheck
+=
+false
 )
 {
 var
@@ -1450,6 +1453,12 @@ function
 (
 )
 {
+testWindow
+.
+suppressPointerIdCheck
+=
+aSuppressPointerIdCheck
+;
 var
 e
 =
