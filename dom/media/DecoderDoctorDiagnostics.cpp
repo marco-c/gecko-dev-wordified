@@ -1605,6 +1605,17 @@ nullptr
 }
 }
 }
+/
+/
+Note
+:
+ReportStringIds
+are
+limited
+to
+alphanumeric
+only
+.
 static
 const
 NotificationAndReportStringId
