@@ -435,7 +435,7 @@ calls
 AddRef
 )
 {
-IFoo
+auto
 *
 foop
 =
@@ -754,7 +754,7 @@ calls
 AddRef
 )
 {
-IBar
+auto
 *
 barp
 =
@@ -1527,7 +1527,7 @@ DontAddRef
 )
 {
 {
-IFoo
+auto
 *
 raw_foo1p
 =
@@ -1541,7 +1541,7 @@ AddRef
 (
 )
 ;
-IFoo
+auto
 *
 raw_foo2p
 =

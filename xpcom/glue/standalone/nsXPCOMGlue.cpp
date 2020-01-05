@@ -577,7 +577,7 @@ LibHandleType
 aLibHandle
 )
 {
-DependentLib
+auto
 *
 d
 =

@@ -251,7 +251,7 @@ of
 the
 program
 .
-char
+auto
 *
 buffer
 =

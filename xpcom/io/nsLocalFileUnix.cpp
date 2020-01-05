@@ -4234,7 +4234,7 @@ create
 the
 file
 .
-nsLocalFile
+auto
 *
 newFile
 =
@@ -5434,7 +5434,7 @@ if
 aRecursive
 )
 {
-nsDirEnumeratorUnix
+auto
 *
 dir
 =

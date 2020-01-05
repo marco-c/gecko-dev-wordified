@@ -1170,7 +1170,7 @@ aFirstEnumerator
 }
 else
 {
-nsUnionEnumerator
+auto
 *
 enumer
 =
