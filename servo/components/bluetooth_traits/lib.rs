@@ -441,6 +441,13 @@ IpcSender
 bool
 >
 )
+GetAvailability
+(
+IpcSender
+<
+BluetoothResponseResult
+>
+)
 Test
 (
 String
@@ -518,5 +525,9 @@ WatchAdvertisements
 (
 (
 )
+)
+GetAvailability
+(
+bool
 )
 }
