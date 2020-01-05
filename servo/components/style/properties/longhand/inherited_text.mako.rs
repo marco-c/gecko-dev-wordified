@@ -3379,11 +3379,6 @@ animatable
 "
 False
 "
-boxed
-=
-"
-True
-"
 spec
 =
 "
@@ -7762,9 +7757,6 @@ True
 need_clone
 =
 True
-boxed
-=
-True
 spec
 =
 "
@@ -7921,9 +7913,6 @@ True
 need_clone
 =
 True
-boxed
-=
-True
 spec
 =
 "
@@ -7988,9 +7977,6 @@ complex_color
 =
 True
 need_clone
-=
-True
-boxed
 =
 True
 spec

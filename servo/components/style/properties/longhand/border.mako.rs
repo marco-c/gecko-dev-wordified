@@ -306,9 +306,6 @@ side
 [
 1
 ]
-boxed
-=
-True
 )
 }
 %

@@ -411,10 +411,7 @@ color
 &
 DeclaredValue
 <
-Box
-<
 CSSColor
->
 >
 )
 -
