@@ -833,10 +833,10 @@ purple
 )
 }
 "
-fuschia
+fuchsia
 "
 {
-fuschia
+fuchsia
 (
 )
 }
@@ -1871,7 +1871,7 @@ PURPLE
 )
 ;
 assert
-fuschia
+fuchsia
 (
 )
 .
@@ -1880,7 +1880,7 @@ eq
 parse_color
 (
 "
-FUSCHIA
+FUCHSIA
 "
 )
 )
@@ -2425,7 +2425,7 @@ hsl
 )
 ;
 assert
-fuschia
+fuchsia
 (
 )
 .
@@ -2795,7 +2795,7 @@ alpha
 )
 }
 fn
-fuschia
+fuchsia
 (
 )
 -
