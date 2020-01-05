@@ -209,6 +209,10 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGEMANAGER
 public
 :
+LocalStorageManager
+(
+)
+;
 /
 /
 Reads
@@ -290,10 +294,6 @@ aOriginNoSuffix
 ;
 private
 :
-LocalStorageManager
-(
-)
-;
 ~
 LocalStorageManager
 (
