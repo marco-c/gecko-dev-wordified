@@ -3117,6 +3117,10 @@ is_root
 false
 iter
 previous_style
+&
+context
+.
+default_computed_values
 /
 *
 cascade_info

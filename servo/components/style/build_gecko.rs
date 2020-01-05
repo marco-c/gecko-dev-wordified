@@ -3032,6 +3032,16 @@ it
 conditionally
 .
 "
+RawGeckoPresContext
+"
+/
+/
+Just
+passing
+it
+through
+.
+"
 JS
 :
 :
@@ -3578,6 +3588,9 @@ RawGeckoElement
 RawGeckoNode
 "
 "
+RawGeckoPresContext
+"
+"
 ThreadSafeURIHolder
 "
 "
@@ -3894,6 +3907,9 @@ RawGeckoDocument
 "
 "
 RawServoDeclarationBlockStrong
+"
+"
+RawGeckoPresContext
 "
 ]
 ;

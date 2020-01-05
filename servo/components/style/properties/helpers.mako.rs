@@ -1648,6 +1648,13 @@ inherited_style
 :
 &
 ComputedValues
+default_style
+:
+&
+Arc
+<
+ComputedValues
+>
 context
 :
 &
@@ -2062,12 +2069,7 @@ get_initial_value
 let
 initial_struct
 =
-ComputedValues
-:
-:
-initial_values
-(
-)
+default_style
 .
 get_
 {
