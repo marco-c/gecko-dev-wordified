@@ -670,9 +670,8 @@ nsXRemoteService
 nsXRemoteService
 (
 )
-=
-default
-;
+{
+}
 void
 nsXRemoteService
 :

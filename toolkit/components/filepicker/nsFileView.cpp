@@ -354,9 +354,8 @@ private
 nsFileResult
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -1035,9 +1034,8 @@ nsIAutoCompleteSearch
 nsFileComplete
 (
 )
-=
-default
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
