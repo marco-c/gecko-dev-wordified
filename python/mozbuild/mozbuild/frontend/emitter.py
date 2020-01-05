@@ -190,6 +190,8 @@ Program
     
 RustLibrary
     
+HostRustLibrary
+    
 RustProgram
     
 SdkFiles
@@ -2990,6 +2992,9 @@ self
 context
 libname
 static_args
+cls
+=
+RustLibrary
 )
 :
         
@@ -3419,9 +3424,9 @@ context
 .
 get
 (
-'
-RUST_LIBRARY_FEATURES
-'
+cls
+.
+FEATURES_VAR
 [
 ]
 )
@@ -3473,14 +3478,14 @@ context
 )
         
 return
-RustLibrary
+cls
 (
 context
 libname
 cargo_file
 crate_type
-                           
 dependencies
+                   
 features
 *
 *
@@ -4095,6 +4100,39 @@ value
 context
 )
             
+is_rust_library
+=
+context
+.
+get
+(
+'
+IS_RUST_LIBRARY
+'
+)
+            
+if
+is_rust_library
+:
+                
+lib
+=
+self
+.
+_rust_library
+(
+context
+host_libname
+{
+}
+cls
+=
+HostRustLibrary
+)
+            
+else
+:
+                
 lib
 =
 HostLibrary

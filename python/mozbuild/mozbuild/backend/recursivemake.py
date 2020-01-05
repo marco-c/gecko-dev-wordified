@@ -193,6 +193,8 @@ Program
     
 RustLibrary
     
+HostRustLibrary
+    
 RustProgram
     
 SharedLibrary
@@ -9574,12 +9576,45 @@ backend_file
 )
 :
         
+lib_var
+=
+'
+RUST_LIBRARY_FILE
+'
+        
+feature_var
+=
+'
+RUST_LIBRARY_FEATURES
+'
+        
+if
+isinstance
+(
+libdef
+HostRustLibrary
+)
+:
+            
+lib_var
+=
+'
+HOST_RUST_LIBRARY_FILE
+'
+            
+feature_var
+=
+'
+HOST_RUST_LIBRARY_FEATURES
+'
+        
 backend_file
 .
 write_once
 (
 '
-RUST_LIBRARY_FILE
+%
+s
 :
 =
 %
@@ -9588,9 +9623,14 @@ s
 n
 '
 %
+(
+libdef
+.
+LIB_FILE_VAR
 libdef
 .
 import_name
+)
 )
         
 backend_file
@@ -9624,7 +9664,8 @@ backend_file
 write
 (
 '
-RUST_LIBRARY_FEATURES
+%
+s
 :
 =
 %
@@ -9633,6 +9674,10 @@ s
 n
 '
 %
+(
+libdef
+.
+FEATURES_VAR
 '
 '
 .
@@ -9641,6 +9686,7 @@ join
 libdef
 .
 features
+)
 )
 )
     
@@ -10155,7 +10201,10 @@ assert
 isinstance
 (
 lib
+(
 HostLibrary
+HostRustLibrary
+)
 )
                 
 backend_file
