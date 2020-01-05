@@ -3837,6 +3837,7 @@ gl
 CreateContextFlags
 flags
 =
+(
 gl
 :
 :
@@ -3844,6 +3845,15 @@ CreateContextFlags
 :
 :
 NO_VALIDATION
+|
+gl
+:
+:
+CreateContextFlags
+:
+:
+PREFER_ROBUSTNESS
+)
 ;
 bool
 tryNativeGL

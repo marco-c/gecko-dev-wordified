@@ -2653,6 +2653,16 @@ push_back
 ;
 if
 (
+flags
+&
+CreateContextFlags
+:
+:
+PREFER_ROBUSTNESS
+)
+{
+if
+(
 sEGLLibrary
 .
 IsExtensionSupported
@@ -2735,6 +2745,7 @@ push_back
 LOCAL_EGL_TRUE
 )
 ;
+}
 }
 for
 (
