@@ -4796,7 +4796,7 @@ segment
 MaskSegment
 :
 :
-Corner_TopLeft
+TopLeftCorner
 as
 i32
 .
@@ -4816,7 +4816,7 @@ segment
 MaskSegment
 :
 :
-Corner_TopRight
+TopRightCorner
 as
 i32
 .
@@ -4836,7 +4836,7 @@ segment
 MaskSegment
 :
 :
-Corner_BottomLeft
+BottomLeftCorner
 as
 i32
 .
@@ -4856,7 +4856,7 @@ segment
 MaskSegment
 :
 :
-Corner_BottomRight
+BottomRightCorner
 as
 i32
 .
@@ -4898,6 +4898,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 self

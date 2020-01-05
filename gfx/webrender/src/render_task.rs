@@ -432,8 +432,6 @@ match
 the
 SEGMENT_
 values
-/
-/
 in
 clip_shared
 .
@@ -442,10 +440,10 @@ glsl
 All
 =
 0
-Corner_TopLeft
-Corner_TopRight
-Corner_BottomLeft
-Corner_BottomRight
+TopLeftCorner
+TopRightCorner
+BottomLeftCorner
+BottomRightCorner
 }
 #
 [

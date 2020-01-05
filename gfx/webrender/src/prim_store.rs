@@ -220,6 +220,7 @@ webrender_traits
 {
 ExtendMode
 GradientStop
+TileOffset
 }
 ;
 pub
@@ -881,6 +882,10 @@ Image
 (
 ImageKey
 ImageRendering
+Option
+<
+TileOffset
+>
 LayerSize
 )
 WebGL
@@ -4961,6 +4966,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 let
@@ -5356,6 +5362,7 @@ Image
 (
 image_key
 image_rendering
+tile_offset
 _
 )
 =
@@ -5474,6 +5481,7 @@ get_cached_image
 (
 image_key
 image_rendering
+tile_offset
 )
 ;
 (
@@ -5734,6 +5742,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 image_cpu
@@ -5786,6 +5795,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 image_cpu
@@ -5838,6 +5848,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 image_cpu
@@ -6341,6 +6352,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 prim_needs_resolve
@@ -7272,6 +7284,7 @@ Image
 (
 image_key
 image_rendering
+tile_offset
 tile_spacing
 )
 =
@@ -7283,6 +7296,7 @@ request_image
 (
 image_key
 image_rendering
+tile_offset
 )
 ;
 /
@@ -7443,6 +7457,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 resource_cache
@@ -7456,6 +7471,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 resource_cache
@@ -7469,6 +7485,7 @@ ImageRendering
 :
 :
 Auto
+None
 )
 ;
 /
