@@ -5453,7 +5453,7 @@ indefinitely
 uint64_t
 animationGeneration
 =
-GeckoRestyleManager
+RestyleManager
 :
 :
 GetAnimationGenerationForFrame
