@@ -145,6 +145,10 @@ look
 next
 door
 in
+components
+/
+servo
+/
 lib
 .
 rs

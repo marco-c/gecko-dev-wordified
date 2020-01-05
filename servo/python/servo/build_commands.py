@@ -1551,8 +1551,6 @@ features
 =
 [
 "
-script
-/
 debugmozjs
 "
 ]
@@ -3085,15 +3083,6 @@ s
 .
 join
 (
-"
-servo
-/
-"
-+
-x
-for
-x
-in
 servo_features
 )
 ]
