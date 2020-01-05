@@ -104,18 +104,6 @@ heritage
 )
 ;
 const
-{
-resolve
-}
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Services
 =
 require
@@ -787,6 +775,8 @@ autoExport
 )
 {
 return
+Promise
+.
 resolve
 (
 )
