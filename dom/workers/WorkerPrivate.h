@@ -2515,6 +2515,11 @@ nsIChannel
 aChannel
 )
 ;
+bool
+PrincipalURIMatchesScriptURL
+(
+)
+;
 #
 endif
 bool
