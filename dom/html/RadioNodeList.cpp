@@ -261,6 +261,8 @@ GetValue
 nsString
 &
 retval
+CallerType
+aCallerType
 )
 {
 for
@@ -312,6 +314,7 @@ maybeRadio
 GetValue
 (
 retval
+aCallerType
 )
 ;
 return
@@ -335,6 +338,8 @@ const
 nsAString
 &
 value
+CallerType
+aCallerType
 )
 {
 for
@@ -389,6 +394,7 @@ maybeRadio
 GetValue
 (
 curval
+aCallerType
 )
 ;
 if

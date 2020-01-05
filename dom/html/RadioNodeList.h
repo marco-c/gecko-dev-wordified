@@ -142,6 +142,17 @@ HTMLFormElement
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
+#
 define
 MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 \
@@ -215,6 +226,8 @@ GetValue
 nsString
 &
 retval
+CallerType
+aCallerType
 )
 ;
 void
@@ -224,6 +237,8 @@ const
 nsAString
 &
 value
+CallerType
+aCallerType
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
