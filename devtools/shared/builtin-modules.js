@@ -389,6 +389,8 @@ object
 name
 {
 get
+:
+function
 (
 )
 {
@@ -1545,6 +1547,10 @@ Cu
 .
 reportError
 atob
+:
+atob
+btoa
+:
 btoa
 URL
 loader
@@ -1559,6 +1565,8 @@ defineLazyModuleGetter
 lazyServiceGetter
 :
 defineLazyServiceGetter
+lazyRequireGetter
+:
 lazyRequireGetter
 /
 /
@@ -1582,6 +1590,8 @@ right
 thing
 .
 XMLHttpRequest
+:
+function
 (
 )
 {
@@ -1879,6 +1889,8 @@ globals
 name
 {
 get
+:
+function
 (
 )
 {

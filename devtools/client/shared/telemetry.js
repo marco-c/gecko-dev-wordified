@@ -951,6 +951,8 @@ histogram
 *
 /
 toolOpened
+:
+function
 (
 id
 )
@@ -1061,6 +1063,8 @@ id
 ;
 }
 toolClosed
+:
+function
 (
 id
 )
@@ -1135,6 +1139,8 @@ stored
 *
 /
 startTimer
+:
+function
 (
 histogramId
 )
@@ -1206,6 +1212,8 @@ histogram
 *
 /
 stopTimer
+:
+function
 (
 histogramId
 key
@@ -1320,6 +1328,8 @@ store
 *
 /
 log
+:
+function
 (
 histogramId
 value
@@ -1447,6 +1457,8 @@ store
 *
 /
 logKeyed
+:
+function
 (
 histogramId
 key
@@ -1574,6 +1586,8 @@ stored
 *
 /
 logOncePerBrowserVersion
+:
+function
 (
 perUserHistogram
 value
@@ -1673,6 +1687,8 @@ value
 }
 }
 destroy
+:
+function
 (
 )
 {

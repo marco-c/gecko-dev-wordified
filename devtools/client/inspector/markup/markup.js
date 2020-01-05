@@ -1433,6 +1433,8 @@ requests
 *
 /
 _handleRejectionIfNotDestroyed
+:
+function
 (
 e
 )
@@ -1455,6 +1457,8 @@ e
 }
 }
 _initTooltips
+:
+function
 (
 )
 {
@@ -1525,6 +1529,8 @@ _enableImagePreviewTooltip
 ;
 }
 _enableImagePreviewTooltip
+:
+function
 (
 )
 {
@@ -1544,6 +1550,8 @@ _isImagePreviewTarget
 ;
 }
 _disableImagePreviewTooltip
+:
+function
 (
 )
 {
@@ -1557,6 +1565,8 @@ stopTogglingOnHover
 ;
 }
 _onToolboxPickerHover
+:
+function
 (
 event
 nodeFront
@@ -1624,6 +1634,8 @@ element
 *
 /
 _onToolboxPickerCanceled
+:
+function
 (
 )
 {
@@ -1651,6 +1663,8 @@ isDragging
 :
 false
 _onMouseMove
+:
+function
 (
 event
 )
@@ -1842,6 +1856,8 @@ keyboard
 *
 /
 _onBlur
+:
+function
 (
 event
 )
@@ -1943,6 +1959,8 @@ in
 *
 /
 _autoScroll
+:
+function
 (
 event
 )
@@ -2197,6 +2215,8 @@ requestAnimationFrame
 *
 /
 _runUpdateLoop
+:
+function
 (
 update
 )
@@ -2234,6 +2254,8 @@ loop
 ;
 }
 _onMouseClick
+:
+function
 (
 event
 )
@@ -2353,6 +2375,8 @@ eventDetailsTooltip
 }
 }
 _onMouseUp
+:
+function
 (
 )
 {
@@ -2391,6 +2415,8 @@ _autoScrollAnimationFrame
 }
 }
 _onCollapseAttributesPrefChange
+:
+function
 (
 )
 {
@@ -2428,6 +2454,8 @@ update
 ;
 }
 cancelDragging
+:
+function
 (
 )
 {
@@ -2538,6 +2566,8 @@ hovered
 *
 /
 _showContainerAsHovered
+:
+function
 (
 nodeFront
 )
@@ -2631,6 +2661,8 @@ showcontainerhovered
 ;
 }
 _onMouseOut
+:
+function
 (
 event
 )
@@ -2799,6 +2831,8 @@ up
 *
 /
 _showBoxModel
+:
+function
 (
 nodeFront
 )
@@ -2877,6 +2911,8 @@ up
 *
 /
 _hideBoxModel
+:
+function
 (
 forceHide
 )
@@ -2898,6 +2934,8 @@ _briefBoxModelTimer
 :
 null
 _clearBriefBoxModelTimer
+:
+function
 (
 )
 {
@@ -2938,6 +2976,8 @@ null
 }
 }
 _brieflyShowBoxModel
+:
+function
 (
 nodeFront
 )
@@ -3018,6 +3058,8 @@ promise
 ;
 }
 template
+:
+function
 (
 name
 dest
@@ -3098,6 +3140,8 @@ exists
 *
 /
 getContainer
+:
+function
 (
 node
 )
@@ -3114,6 +3158,8 @@ node
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -3595,6 +3641,8 @@ highlighted
 *
 /
 _shouldNewSelectionBeHighlighted
+:
+function
 (
 )
 {
@@ -3703,6 +3751,8 @@ view
 *
 /
 _onNewSelection
+:
+function
 (
 )
 {
@@ -3974,6 +4024,8 @@ selected
 *
 /
 maybeNavigateToNewSelection
+:
+function
 (
 )
 {
@@ -4153,6 +4205,8 @@ selection
 *
 /
 _selectionWalker
+:
+function
 (
 start
 )
@@ -4234,6 +4288,8 @@ walker
 ;
 }
 _onCopy
+:
+function
 (
 evt
 )
@@ -4312,6 +4368,8 @@ shortcuts
 *
 /
 _initShortcuts
+:
+function
 (
 )
 {
@@ -5202,6 +5260,8 @@ textarea
 *
 /
 _isInputOrTextarea
+:
+function
 (
 element
 )
@@ -5301,6 +5361,8 @@ one
 *
 /
 deleteNodeOrAttribute
+:
+function
 (
 moveBackward
 )
@@ -5447,6 +5509,8 @@ one
 *
 /
 deleteNode
+:
+function
 (
 node
 moveBackward
@@ -5825,6 +5889,8 @@ container
 *
 /
 _onFocus
+:
+function
 (
 event
 )
@@ -5911,6 +5977,8 @@ to
 *
 /
 navigate
+:
+function
 (
 container
 )
@@ -6002,6 +6070,8 @@ element
 *
 /
 importNode
+:
+function
 (
 node
 flashNode
@@ -6231,6 +6301,8 @@ nodes
 *
 /
 _mutationObserver
+:
+function
 (
 mutations
 )
@@ -6697,6 +6769,8 @@ nodeFronts
 *
 /
 _onDisplayChange
+:
+function
 (
 nodes
 )
@@ -6759,6 +6833,8 @@ attention
 *
 /
 _flashMutatedNodes
+:
+function
 (
 mutations
 )
@@ -7098,6 +7174,8 @@ screen
 *
 /
 showNode
+:
+function
 (
 node
 centered
@@ -7232,6 +7310,8 @@ children
 *
 /
 _expandContainer
+:
+function
 (
 container
 )
@@ -7315,6 +7395,8 @@ children
 *
 /
 expandNode
+:
+function
 (
 node
 )
@@ -7365,6 +7447,8 @@ expand
 *
 /
 _expandAll
+:
+function
 (
 container
 )
@@ -7480,6 +7564,8 @@ top
 *
 /
 expandAll
+:
+function
 (
 node
 )
@@ -7521,6 +7607,8 @@ children
 *
 /
 collapseNode
+:
+function
 (
 node
 )
@@ -7615,6 +7703,8 @@ innerHTML
 *
 /
 _getNodeHTML
+:
+function
 (
 node
 isOuter
@@ -7746,6 +7836,8 @@ outerHTML
 *
 /
 getNodeOuterHTML
+:
+function
 (
 node
 )
@@ -7804,6 +7896,8 @@ innerHTML
 *
 /
 getNodeInnerHTML
+:
+function
 (
 node
 )
@@ -7879,6 +7973,8 @@ removed
 *
 /
 reselectOnRemoved
+:
+function
 (
 removedNode
 reason
@@ -8291,6 +8387,8 @@ failed
 *
 /
 cancelReselectOnRemoved
+:
+function
 (
 )
 {
@@ -8423,6 +8521,8 @@ updated
 *
 /
 updateNodeOuterHTML
+:
+function
 (
 node
 newValue
@@ -8607,6 +8707,8 @@ updated
 *
 /
 updateNodeInnerHTML
+:
+function
 (
 node
 newValue
@@ -8793,6 +8895,8 @@ inserted
 *
 /
 insertAdjacentHTMLToNode
+:
+function
 (
 node
 position
@@ -8946,6 +9050,8 @@ edit
 *
 /
 beginEditingOuterHTML
+:
+function
 (
 node
 )
@@ -9200,6 +9306,8 @@ too
 *
 /
 setNodeExpanded
+:
+function
 (
 node
 expanded
@@ -9327,6 +9435,8 @@ otherwise
 *
 /
 markNodeAsSelected
+:
+function
 (
 node
 reason
@@ -9494,6 +9604,8 @@ children
 *
 /
 _ensureVisible
+:
+function
 (
 node
 )
@@ -9596,6 +9708,8 @@ selected
 *
 /
 unmarkSelectedNode
+:
+function
 (
 )
 {
@@ -9678,6 +9792,8 @@ any
 *
 /
 _checkSelectionVisible
+:
+function
 (
 container
 )
@@ -9934,6 +10050,8 @@ immediately
 *
 /
 _updateChildren
+:
+function
 (
 container
 options
@@ -10796,6 +10914,8 @@ updatePromise
 ;
 }
 _waitForChildren
+:
+function
 (
 )
 {
@@ -10855,6 +10975,8 @@ container
 *
 /
 _getVisibleChildren
+:
+function
 (
 container
 centered
@@ -10920,6 +11042,8 @@ panel
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -11340,6 +11464,8 @@ DOMNode
 *
 /
 findClosestDragDropTarget
+:
+function
 (
 el
 )
@@ -11411,6 +11537,8 @@ target
 *
 /
 indicateDropTarget
+:
+function
 (
 el
 )
@@ -11505,6 +11633,8 @@ place
 *
 /
 indicateDragTarget
+:
+function
 (
 el
 )

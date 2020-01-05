@@ -293,6 +293,8 @@ changed
 "
 {
 target
+:
+target
 }
 )
 ;
@@ -309,6 +311,8 @@ emit
 changed
 "
 {
+target
+:
 target
 }
 )
@@ -740,8 +744,10 @@ paintflashingChromeDesc
 ]
 }
 ]
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -889,8 +895,10 @@ paintflashingChromeDesc
 ]
 }
 ]
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -1073,8 +1081,10 @@ lookup
 paintflashingManual
 "
 )
-*
 exec
+:
+function
+*
 (
 args
 context
@@ -1172,6 +1182,8 @@ returnType
 paintFlashingState
 "
 exec
+:
+function
 (
 args
 context

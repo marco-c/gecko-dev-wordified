@@ -316,6 +316,8 @@ offset
 "
 ]
 init
+:
+function
 (
 containerEl
 )
@@ -328,6 +330,8 @@ containerEl
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -351,6 +355,8 @@ null
 ;
 }
 unrender
+:
+function
 (
 )
 {
@@ -414,6 +420,8 @@ remove
 }
 }
 getPerfDataForProperty
+:
+function
 (
 animation
 propertyName
@@ -1278,6 +1286,10 @@ tracks
 propertyName
 ]
 propertyName
+:
+propertyName
+animation
+:
 animation
 }
 )
@@ -1309,6 +1321,8 @@ keyframesComponent
 }
 )
 onFrameSelected
+:
+function
 (
 e
 args

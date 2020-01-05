@@ -195,6 +195,8 @@ FrontClassWithSpec
 pageStyleSpec
 {
 initialize
+:
+function
 (
 conn
 form
@@ -229,6 +231,8 @@ parent
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -262,6 +266,8 @@ form
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -605,6 +611,8 @@ FrontClassWithSpec
 styleRuleSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -629,6 +637,8 @@ detail
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -645,6 +655,8 @@ this
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -817,6 +829,8 @@ RuleModificationList
 *
 /
 startModifyingProperties
+:
+function
 (
 cssProperties
 )
@@ -1249,6 +1263,8 @@ column
 ;
 }
 _clearOriginalLocation
+:
+function
 (
 )
 {
@@ -1260,6 +1276,8 @@ null
 ;
 }
 getOriginalLocation
+:
+function
 (
 )
 {
@@ -1372,6 +1390,10 @@ href
 :
 source
 line
+:
+line
+column
+:
 column
 mediaText
 :
@@ -1705,6 +1727,8 @@ rule
 *
 /
 initialize
+:
+function
 (
 rule
 )
@@ -1765,6 +1789,8 @@ modifyProperties
 *
 /
 apply
+:
+function
 (
 )
 {
@@ -1887,6 +1913,8 @@ important
 *
 /
 setProperty
+:
+function
 (
 index
 name
@@ -1907,7 +1935,13 @@ type
 set
 "
 name
+:
+name
 value
+:
+value
+priority
+:
 priority
 }
 )
@@ -1990,6 +2024,8 @@ remove
 *
 /
 removeProperty
+:
+function
 (
 index
 name
@@ -2007,6 +2043,8 @@ type
 "
 remove
 "
+name
+:
 name
 }
 )
@@ -2145,6 +2183,8 @@ property
 *
 /
 renameProperty
+:
+function
 (
 index
 name
@@ -2276,6 +2316,8 @@ disabled
 *
 /
 setPropertyEnabled
+:
+function
 (
 index
 name
@@ -2468,6 +2510,8 @@ disabled
 *
 /
 createProperty
+:
+function
 (
 )
 {

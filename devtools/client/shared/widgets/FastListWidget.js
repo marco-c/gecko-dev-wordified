@@ -581,6 +581,8 @@ item
 *
 /
 insertItemAt
+:
+function
 (
 index
 contents
@@ -703,6 +705,8 @@ dom
 *
 /
 flush
+:
+function
 (
 )
 {
@@ -735,6 +739,8 @@ container
 *
 /
 removeAllItems
+:
+function
 (
 )
 {
@@ -798,6 +804,8 @@ item
 *
 /
 removeChild
+:
+function
 (
 child
 )
@@ -997,6 +1005,8 @@ item
 *
 /
 getItemAtIndex
+:
+function
 (
 index
 )
@@ -1052,6 +1062,8 @@ value
 *
 /
 setAttribute
+:
+function
 (
 name
 value
@@ -1111,6 +1123,8 @@ attribute
 *
 /
 removeAttribute
+:
+function
 (
 name
 )
@@ -1168,6 +1182,8 @@ visible
 *
 /
 ensureElementIsVisible
+:
+function
 (
 element
 )
@@ -1301,6 +1317,8 @@ empty
 *
 /
 _showEmptyText
+:
+function
 (
 )
 {
@@ -1399,6 +1417,8 @@ empty
 *
 /
 _removeEmptyText
+:
+function
 (
 )
 {

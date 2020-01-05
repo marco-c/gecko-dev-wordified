@@ -444,6 +444,8 @@ prototype
 =
 {
 init
+:
+function
 (
 containerEl
 )
@@ -470,6 +472,8 @@ onClick
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -507,6 +511,8 @@ null
 ;
 }
 unrender
+:
+function
 (
 )
 {
@@ -532,6 +538,8 @@ remove
 }
 }
 render
+:
+function
 (
 animation
 )
@@ -1741,6 +1749,8 @@ endDelayW
 }
 }
 getTooltipText
+:
+function
 (
 state
 )
@@ -2411,6 +2421,8 @@ text
 ;
 }
 onClick
+:
+function
 (
 e
 )
@@ -4531,6 +4543,8 @@ asOriginalBehavior
 :
 true
 getSegment
+:
+function
 (
 time
 )

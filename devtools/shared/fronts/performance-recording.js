@@ -224,6 +224,8 @@ merge
 (
 {
 form
+:
+function
 (
 form
 detail
@@ -468,6 +470,8 @@ true
 }
 }
 initialize
+:
+function
 (
 client
 form
@@ -540,6 +544,8 @@ sizes
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -584,6 +590,8 @@ into
 *
 /
 exportRecording
+:
+function
 (
 file
 )
@@ -624,6 +632,8 @@ ticks
 *
 /
 _addTimelineData
+:
+function
 (
 eventName
 data

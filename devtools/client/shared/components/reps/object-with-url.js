@@ -229,6 +229,8 @@ PropTypes
 func
 }
 getTitle
+:
+function
 (
 grip
 )
@@ -282,6 +284,8 @@ return
 ;
 }
 getType
+:
+function
 (
 grip
 )
@@ -293,6 +297,8 @@ class
 ;
 }
 getDescription
+:
+function
 (
 grip
 )
@@ -432,6 +438,8 @@ ObjectWithURL
 rep
 :
 ObjectWithURL
+supportsObject
+:
 supportsObject
 }
 ;

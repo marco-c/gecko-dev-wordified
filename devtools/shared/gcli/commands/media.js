@@ -241,6 +241,8 @@ tv
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -293,6 +295,8 @@ mediaResetDesc
 "
 )
 exec
+:
+function
 (
 args
 context

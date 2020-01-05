@@ -389,6 +389,8 @@ view
 *
 /
 initialize
+:
+function
 (
 )
 {
@@ -522,6 +524,8 @@ view
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -600,6 +604,8 @@ panes
 *
 /
 _initializePanes
+:
+function
 (
 )
 {
@@ -892,6 +898,8 @@ pane
 *
 /
 toggleDetailsPane
+:
+function
 (
 flags
 tabIndex
@@ -1104,6 +1112,8 @@ Statistics
 *
 /
 toggleFrontendMode
+:
+function
 (
 )
 {
@@ -1154,6 +1164,8 @@ mode
 *
 /
 showNetworkInspectorView
+:
+function
 (
 )
 {
@@ -1192,6 +1204,8 @@ mode
 *
 /
 showNetworkStatisticsView
+:
+function
 (
 )
 {
@@ -1408,6 +1422,8 @@ requests
 ;
 }
 reloadPage
+:
+function
 (
 )
 {

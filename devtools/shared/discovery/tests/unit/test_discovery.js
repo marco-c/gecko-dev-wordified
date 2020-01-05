@@ -277,6 +277,8 @@ prototype
 =
 {
 send
+:
+function
 (
 object
 port
@@ -354,6 +356,8 @@ message
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -370,6 +374,8 @@ port
 /
 nsIUDPSocketListener
 onPacketReceived
+:
+function
 (
 socket
 message
@@ -432,6 +438,8 @@ object
 ;
 }
 onStopListening
+:
+function
 (
 socket
 status
@@ -481,6 +489,8 @@ name
 "
 {
 get
+:
+function
 (
 )
 {

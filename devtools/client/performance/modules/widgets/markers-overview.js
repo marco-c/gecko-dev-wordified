@@ -536,6 +536,8 @@ graph
 *
 /
 setFilter
+:
+function
 (
 filter
 )
@@ -745,6 +747,8 @@ graph
 *
 /
 clearView
+:
+function
 (
 )
 {
@@ -798,6 +802,8 @@ buildGraphImage
 *
 /
 buildGraphImage
+:
+function
 (
 )
 {
@@ -1187,6 +1193,8 @@ ticksSpacingMin
 :
 OVERVIEW_HEADER_TICKS_SPACING_MIN
 dataScale
+:
+dataScale
 }
 )
 ;
@@ -1549,6 +1557,8 @@ effects
 *
 /
 setTheme
+:
+function
 (
 theme
 )

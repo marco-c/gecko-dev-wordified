@@ -1063,6 +1063,8 @@ React
 *
 /
 _renderRecordingControls
+:
+function
 (
 )
 {
@@ -1256,6 +1258,8 @@ recorded
 *
 /
 setState
+:
+function
 (
 state
 )
@@ -1557,6 +1561,8 @@ PerformanceView
 *
 /
 getState
+:
+function
 (
 )
 {
@@ -1579,6 +1585,8 @@ status
 *
 /
 updateBufferStatus
+:
+function
 (
 )
 {
@@ -1829,6 +1837,8 @@ lock
 *
 /
 _lockRecordButtons
+:
+function
 (
 lock
 )
@@ -1874,6 +1884,8 @@ activate
 *
 /
 _toggleRecordButtons
+:
+function
 (
 activate
 )
@@ -1906,6 +1918,8 @@ started
 *
 /
 _onRecordingStateChange
+:
+function
 (
 )
 {
@@ -2063,6 +2077,8 @@ failed
 *
 /
 _onNewRecordingFailed
+:
+function
 (
 e
 )
@@ -2096,6 +2112,8 @@ button
 *
 /
 _onClearButtonClick
+:
+function
 (
 e
 )
@@ -2124,6 +2142,8 @@ button
 *
 /
 _onRecordButtonClick
+:
+function
 (
 e
 )
@@ -2188,6 +2208,8 @@ button
 *
 /
 _onImportButtonClick
+:
+function
 (
 e
 )
@@ -2331,6 +2353,8 @@ state
 *
 /
 _onRecordingSelected
+:
+function
 (
 _
 recording
@@ -2444,6 +2468,8 @@ shown
 *
 /
 _onProfilerStatusUpdated
+:
+function
 (
 _
 profilerStatus

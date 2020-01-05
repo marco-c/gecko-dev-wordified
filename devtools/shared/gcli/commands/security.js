@@ -484,6 +484,8 @@ returnType
 securityCSPInfo
 "
 exec
+:
+function
 (
 args
 context
@@ -919,6 +921,8 @@ to
 view
 "
 exec
+:
+function
 (
 cspInfo
 context
@@ -1496,6 +1500,8 @@ returnType
 securityReferrerPolicyInfo
 "
 exec
+:
+function
 (
 args
 context
@@ -2007,6 +2013,8 @@ to
 view
 "
 exec
+:
+function
 (
 referrerPolicyInfo
 context

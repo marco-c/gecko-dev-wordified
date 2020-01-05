@@ -503,6 +503,8 @@ class
 *
 /
 addInstance
+:
+function
 (
 instance
 )
@@ -551,6 +553,8 @@ class
 *
 /
 removeInstance
+:
+function
 (
 instance
 )
@@ -699,6 +703,8 @@ object
 *
 /
 start
+:
+function
 (
 options
 =
@@ -920,6 +926,8 @@ module
 *
 /
 stop
+:
+function
 (
 )
 {
@@ -1211,6 +1219,8 @@ RDP
 *
 /
 getProfile
+:
+function
 (
 options
 )
@@ -1248,6 +1258,8 @@ startTime
 ;
 return
 {
+profile
+:
 profile
 currentTime
 :
@@ -1300,6 +1312,8 @@ object
 *
 /
 getFeatures
+:
+function
 (
 )
 {
@@ -1360,6 +1374,8 @@ object
 *
 /
 getBufferInfo
+:
+function
 (
 )
 {
@@ -1447,6 +1463,8 @@ object
 *
 /
 getStartOptions
+:
+function
 (
 )
 {
@@ -1494,6 +1512,8 @@ object
 *
 /
 isActive
+:
+function
 (
 )
 {
@@ -1580,6 +1600,8 @@ stopped
 *
 /
 getSharedLibraryInformation
+:
+function
 (
 )
 {
@@ -2060,6 +2082,8 @@ in
 *
 /
 registerEventListeners
+:
+function
 (
 )
 {
@@ -2112,6 +2136,8 @@ events
 *
 /
 unregisterEventListeners
+:
+function
 (
 )
 {
@@ -2190,6 +2216,8 @@ data
 *
 /
 emitEvent
+:
+function
 (
 eventName
 data
@@ -2274,6 +2302,8 @@ interval
 *
 /
 setProfilerStatusInterval
+:
+function
 (
 interval
 )
@@ -2302,6 +2332,8 @@ interval
 }
 }
 subscribeToProfilerStatusEvents
+:
+function
 (
 )
 {
@@ -2319,6 +2351,8 @@ _updateProfilerStatusPolling
 ;
 }
 unsubscribeToProfilerStatusEvents
+:
+function
 (
 )
 {
@@ -2367,6 +2401,8 @@ recording
 *
 /
 _updateProfilerStatusPolling
+:
+function
 (
 )
 {
@@ -2454,6 +2490,8 @@ disarm
 }
 }
 _emitProfilerStatus
+:
+function
 (
 )
 {
@@ -2523,6 +2561,8 @@ extends
 :
 EventTarget
 initialize
+:
+function
 (
 )
 {
@@ -2544,6 +2584,8 @@ this
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -2590,6 +2632,8 @@ start
 *
 /
 start
+:
+function
 (
 options
 )
@@ -2614,6 +2658,8 @@ stop
 *
 /
 stop
+:
+function
 (
 )
 {
@@ -2636,6 +2682,8 @@ getProfile
 *
 /
 getProfile
+:
+function
 (
 request
 =
@@ -2663,6 +2711,8 @@ getFeatures
 *
 /
 getFeatures
+:
+function
 (
 )
 {
@@ -2685,6 +2735,8 @@ getBufferInfo
 *
 /
 getBufferInfo
+:
+function
 (
 )
 {
@@ -2707,6 +2759,8 @@ getStartOptions
 *
 /
 getStartOptions
+:
+function
 (
 )
 {
@@ -2729,6 +2783,8 @@ isActive
 *
 /
 isActive
+:
+function
 (
 )
 {
@@ -2751,6 +2807,8 @@ isActive
 *
 /
 getSharedLibraryInformation
+:
+function
 (
 )
 {
@@ -2773,6 +2831,8 @@ setProfilerStatusInterval
 *
 /
 setProfilerStatusInterval
+:
+function
 (
 interval
 )
@@ -2855,6 +2915,8 @@ object
 *
 /
 registerEventNotifications
+:
+function
 (
 data
 =
@@ -2984,6 +3046,8 @@ object
 *
 /
 unregisterEventNotifications
+:
+function
 (
 data
 =

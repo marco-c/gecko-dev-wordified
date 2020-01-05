@@ -429,6 +429,8 @@ ready
 *
 /
 setFilterContent
+:
+function
 (
 filter
 )
@@ -619,6 +621,8 @@ ready
 }
 )
 _onUpdate
+:
+function
 (
 event
 filters
@@ -707,6 +711,8 @@ preview
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -836,6 +842,8 @@ set
 *
 /
 addSwatch
+:
+function
 (
 swatchEl
 callbacks

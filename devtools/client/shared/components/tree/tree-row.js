@@ -560,6 +560,8 @@ faster
 *
 /
 shouldComponentUpdate
+:
+function
 (
 nextProps
 )
@@ -626,6 +628,8 @@ false
 ;
 }
 getRowClass
+:
+function
 (
 object
 )
@@ -713,6 +717,8 @@ classNames
 ;
 }
 render
+:
+function
 (
 )
 {

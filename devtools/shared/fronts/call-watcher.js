@@ -120,6 +120,8 @@ FrontClassWithSpec
 functionCallSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -162,6 +164,8 @@ roundtrips
 *
 /
 form
+:
+function
 (
 form
 )
@@ -276,6 +280,8 @@ FrontClassWithSpec
 callWatcherSpec
 {
 initialize
+:
+function
 (
 client
 {

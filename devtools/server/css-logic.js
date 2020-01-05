@@ -626,6 +626,8 @@ properties
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -717,6 +719,8 @@ Inspector
 *
 /
 highlight
+:
+function
 (
 viewedElement
 )
@@ -1246,6 +1250,8 @@ property
 *
 /
 getPropertyInfo
+:
+function
 (
 property
 )
@@ -1322,6 +1328,8 @@ private
 *
 /
 _cacheSheets
+:
+function
 (
 )
 {
@@ -1458,6 +1466,8 @@ cache
 *
 /
 _cacheSheet
+:
+function
 (
 domSheet
 )
@@ -1845,6 +1855,8 @@ object
 *
 /
 getSheet
+:
+function
 (
 domSheet
 index
@@ -2132,6 +2144,8 @@ executes
 *
 /
 forEachSheet
+:
+function
 (
 callback
 scope
@@ -2513,6 +2527,8 @@ executes
 *
 /
 processMatchedSelectors
+:
+function
 (
 callback
 scope
@@ -2833,6 +2849,8 @@ returned
 *
 /
 selectorMatchesElement
+:
+function
 (
 domRule
 idx
@@ -2966,6 +2984,8 @@ booleans
 *
 /
 hasMatchedSelectors
+:
+function
 (
 properties
 )
@@ -3173,6 +3193,8 @@ private
 *
 /
 _buildMatchedRules
+:
+function
 (
 )
 {
@@ -3653,6 +3675,8 @@ otherwise
 *
 /
 mediaMatches
+:
+function
 (
 domObject
 )
@@ -4164,6 +4188,10 @@ after
 return
 {
 bindingElement
+:
+bindingElement
+pseudo
+:
 pseudo
 }
 ;
@@ -5118,6 +5146,8 @@ object
 *
 /
 getRule
+:
+function
 (
 domRule
 )
@@ -5266,6 +5296,8 @@ rule
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -5809,6 +5841,8 @@ value
 *
 /
 getPropertyValue
+:
+function
 (
 property
 )
@@ -5871,6 +5905,8 @@ priority
 *
 /
 getPropertyPriority
+:
+function
 (
 property
 )
@@ -6034,6 +6070,8 @@ _selectors
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -6739,6 +6777,8 @@ _specificity
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -7237,6 +7277,8 @@ private
 *
 /
 _findMatchedSelectors
+:
+function
 (
 )
 {
@@ -7429,6 +7471,8 @@ status
 *
 /
 _processMatchedSelector
+:
+function
 (
 selector
 status
@@ -7542,6 +7586,8 @@ private
 *
 /
 _refilterSelectors
+:
+function
 (
 )
 {
@@ -7617,6 +7663,8 @@ false
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -8349,6 +8397,8 @@ this
 *
 /
 compareTo
+:
+function
 (
 that
 )
@@ -8591,6 +8641,8 @@ return
 ;
 }
 toString
+:
+function
 (
 )
 {

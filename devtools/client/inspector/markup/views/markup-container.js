@@ -290,6 +290,8 @@ container
 *
 /
 initialize
+:
+function
 (
 markupView
 node
@@ -582,6 +584,8 @@ updateIsDisplayed
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -602,6 +606,8 @@ node
 ;
 }
 isPreviewable
+:
+function
 (
 )
 {
@@ -736,6 +742,8 @@ displayed
 *
 /
 updateIsDisplayed
+:
+function
 (
 )
 {
@@ -1076,6 +1084,8 @@ focus
 *
 /
 clearFocus
+:
+function
 (
 )
 {
@@ -1284,6 +1294,8 @@ mustExpand
 ;
 }
 updateExpander
+:
+function
 (
 )
 {
@@ -1442,6 +1454,8 @@ view
 *
 /
 setChildrenRole
+:
+function
 (
 )
 {
@@ -1489,6 +1503,8 @@ subtree
 *
 /
 updateLevel
+:
+function
 (
 )
 {
@@ -1622,6 +1638,8 @@ children
 *
 /
 getChildContainers
+:
+function
 (
 )
 {
@@ -1710,6 +1728,8 @@ collapsed
 ;
 }
 setExpanded
+:
+function
 (
 value
 )
@@ -2090,6 +2110,8 @@ expanded
 }
 }
 parentContainer
+:
+function
 (
 )
 {
@@ -2408,6 +2430,8 @@ draggable
 *
 /
 isDraggable
+:
+function
 (
 )
 {
@@ -2568,6 +2592,8 @@ any
 *
 /
 _wrapMoveFocus
+:
+function
 (
 current
 back
@@ -2659,6 +2685,8 @@ next
 ;
 }
 _onKeyDown
+:
+function
 (
 event
 )
@@ -2946,6 +2974,8 @@ stopPropagation
 ;
 }
 _onMouseDown
+:
+function
 (
 event
 )
@@ -3393,6 +3423,8 @@ target
 *
 /
 _onMouseMove
+:
+function
 (
 event
 )
@@ -3680,6 +3712,8 @@ el
 }
 }
 cancelDragging
+:
+function
 (
 )
 {
@@ -3741,6 +3775,8 @@ mutations
 *
 /
 flashMutation
+:
+function
 (
 )
 {
@@ -4249,6 +4285,8 @@ node
 *
 /
 update
+:
+function
 (
 )
 {
@@ -4333,6 +4371,8 @@ editor
 *
 /
 focus
+:
+function
 (
 )
 {
@@ -4384,6 +4424,8 @@ focus
 }
 }
 _onToggle
+:
+function
 (
 event
 )
@@ -4487,6 +4529,8 @@ needed
 *
 /
 destroy
+:
+function
 (
 )
 {

@@ -257,6 +257,8 @@ PropTypes
 object
 }
 getInitialState
+:
+function
 (
 )
 {
@@ -270,6 +272,8 @@ data
 ;
 }
 render
+:
+function
 (
 )
 {
@@ -317,6 +321,8 @@ panelContent
 Headers
 (
 {
+data
+:
 data
 }
 )
@@ -376,6 +382,8 @@ object
 /
 Commands
 onCopy
+:
+function
 (
 event
 )
@@ -392,6 +400,8 @@ onCopyHeaders
 ;
 }
 render
+:
+function
 (
 )
 {

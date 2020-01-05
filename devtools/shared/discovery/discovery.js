@@ -734,6 +734,8 @@ to
 *
 /
 send
+:
+function
 (
 object
 port
@@ -828,6 +830,8 @@ e
 }
 }
 destroy
+:
+function
 (
 )
 {
@@ -844,6 +848,8 @@ close
 /
 nsIUDPSocketListener
 onPacketReceived
+:
+function
 (
 socket
 message
@@ -956,6 +962,8 @@ object
 ;
 }
 onStopListening
+:
+function
 (
 )
 {
@@ -1141,6 +1149,8 @@ prototype
 =
 {
 _get
+:
+function
 (
 )
 {
@@ -1317,6 +1327,8 @@ needed
 *
 /
 _generate
+:
+function
 (
 )
 {
@@ -1577,6 +1589,8 @@ app
 *
 /
 observe
+:
+function
 (
 subject
 topic
@@ -1822,6 +1836,8 @@ _factories
 =
 {
 Transport
+:
+Transport
 }
 ;
 this
@@ -1935,6 +1951,8 @@ devices
 *
 /
 addService
+:
+function
 (
 service
 info
@@ -2008,6 +2026,8 @@ service
 *
 /
 removeService
+:
+function
 (
 service
 )
@@ -2061,6 +2081,8 @@ devices
 *
 /
 scan
+:
+function
 (
 )
 {
@@ -2115,6 +2137,8 @@ w
 *
 /
 getRemoteDevices
+:
+function
 (
 )
 {
@@ -2187,6 +2211,8 @@ service
 *
 /
 getRemoteDevicesWithService
+:
+function
 (
 service
 )
@@ -2242,6 +2268,8 @@ device
 *
 /
 getRemoteService
+:
+function
 (
 service
 device
@@ -2269,6 +2297,8 @@ device
 ;
 }
 _waitForReplies
+:
+function
 (
 )
 {
@@ -2328,6 +2358,8 @@ Transport
 ;
 }
 _startListeningForScan
+:
+function
 (
 )
 {
@@ -2388,6 +2420,8 @@ _onRemoteScan
 ;
 }
 _stopListeningForScan
+:
+function
 (
 )
 {
@@ -2444,6 +2478,8 @@ null
 ;
 }
 _startListeningForUpdate
+:
+function
 (
 )
 {
@@ -2504,6 +2540,8 @@ _onRemoteUpdate
 ;
 }
 _stopListeningForUpdate
+:
+function
 (
 )
 {
@@ -2560,6 +2598,8 @@ null
 ;
 }
 _restartListening
+:
+function
 (
 )
 {
@@ -2676,6 +2716,8 @@ null
 ;
 }
 _sendStatusTo
+:
+function
 (
 port
 )
@@ -2710,6 +2752,8 @@ port
 ;
 }
 _onRemoteScan
+:
+function
 (
 )
 {
@@ -2739,6 +2783,8 @@ UPDATE_PORT
 ;
 }
 _onRemoteUpdate
+:
+function
 (
 e
 update
@@ -3194,6 +3240,8 @@ newDeviceInfo
 }
 }
 _purgeMissingDevices
+:
+function
 (
 )
 {

@@ -606,6 +606,8 @@ highlightKeepManual
 }
 ]
 exec
+:
+function
 (
 args
 context

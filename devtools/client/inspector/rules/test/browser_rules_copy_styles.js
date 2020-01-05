@@ -771,8 +771,10 @@ true
 }
 }
 {
-*
 setup
+:
+function
+*
 (
 )
 {
@@ -978,8 +980,10 @@ true
 }
 }
 {
-*
 setup
+:
+function
+*
 (
 )
 {

@@ -1972,6 +1972,8 @@ toolbox
 *
 /
 getToolPanels
+:
+function
 (
 )
 {
@@ -1999,6 +2001,8 @@ tool
 *
 /
 getPanel
+:
+function
 (
 id
 )
@@ -2118,6 +2122,8 @@ ready
 *
 /
 getPanelWhenReady
+:
+function
 (
 id
 )
@@ -2230,6 +2236,8 @@ visible
 *
 /
 getCurrentPanel
+:
+function
 (
 )
 {
@@ -2689,6 +2697,8 @@ console
 *
 /
 isSplitConsoleFocused
+:
+function
 (
 )
 {
@@ -2752,6 +2762,8 @@ toolbox
 *
 /
 open
+:
+function
 (
 )
 {
@@ -3695,6 +3707,8 @@ id
 for
 telemetry
 _getTelemetryHostId
+:
+function
 (
 )
 {
@@ -3753,6 +3767,8 @@ return
 }
 }
 _pingTelemetry
+:
+function
 (
 )
 {
@@ -4017,6 +4033,8 @@ end
 *
 /
 _createButtonState
+:
+function
 (
 options
 )
@@ -4144,6 +4162,8 @@ button
 ;
 }
 _buildOptions
+:
+function
 (
 )
 {
@@ -4288,6 +4308,8 @@ selectOptions
 ;
 }
 _splitConsoleOnKeypress
+:
+function
 (
 e
 )
@@ -4442,6 +4464,8 @@ active
 *
 /
 useKeyWithSplitConsole
+:
+function
 (
 key
 handler
@@ -4496,6 +4520,8 @@ preventDefault
 ;
 }
 _addReloadKeys
+:
+function
 (
 )
 {
@@ -4601,6 +4627,8 @@ preventDefault
 ;
 }
 _addHostListeners
+:
+function
 (
 )
 {
@@ -4825,6 +4853,8 @@ true
 ;
 }
 _removeHostListeners
+:
+function
 (
 )
 {
@@ -4919,6 +4949,8 @@ send
 a
 message
 _onBrowserMessage
+:
+function
 (
 event
 )
@@ -5024,6 +5056,8 @@ break
 }
 }
 _registerOverlays
+:
+function
 (
 )
 {
@@ -5034,6 +5068,8 @@ this
 ;
 }
 _saveSplitConsoleHeight
+:
+function
 (
 )
 {
@@ -5171,6 +5207,8 @@ height
 *
 /
 _refreshConsoleDisplay
+:
+function
 (
 )
 {
@@ -5353,6 +5391,8 @@ mode
 *
 /
 _addKeysToWindow
+:
+function
 (
 )
 {
@@ -5775,6 +5815,8 @@ current
 *
 /
 fireCustomKey
+:
+function
 (
 toolId
 )
@@ -5982,6 +6024,8 @@ changes
 *
 /
 _buildDockButtons
+:
+function
 (
 )
 {
@@ -6239,6 +6283,8 @@ hostTypes
 ;
 }
 _onBottomHostMinimized
+:
+function
 (
 )
 {
@@ -6255,6 +6301,8 @@ minimized
 ;
 }
 _onBottomHostMaximized
+:
+function
 (
 )
 {
@@ -6271,6 +6319,8 @@ maximized
 ;
 }
 _onToolSelectWhileMinimized
+:
+function
 (
 )
 {
@@ -6291,6 +6341,8 @@ host
 ;
 }
 postMessage
+:
+function
 (
 msg
 )
@@ -6389,6 +6441,8 @@ msg
 }
 }
 _onBottomHostWillChange
+:
+function
 (
 )
 {
@@ -6423,6 +6477,8 @@ _onToolSelectWhileMinimized
 ;
 }
 _toggleMinimizeMode
+:
+function
 (
 )
 {
@@ -6532,6 +6588,8 @@ render
 *
 /
 _buildTabs
+:
+function
 (
 )
 {
@@ -6700,6 +6758,8 @@ options
 ;
 }
 _mountReactComponent
+:
+function
 (
 )
 {
@@ -6830,6 +6890,8 @@ event
 *
 /
 _onToolbarFocus
+:
+function
 (
 id
 )
@@ -6919,6 +6981,8 @@ event
 *
 /
 _onToolbarArrowKeypress
+:
+function
 (
 event
 )
@@ -7640,6 +7704,8 @@ clicked
 *
 /
 _onPickerClick
+:
+function
 (
 )
 {
@@ -7713,6 +7779,8 @@ console
 *
 /
 _onPickerKeypress
+:
+function
 (
 event
 )
@@ -7755,6 +7823,8 @@ stopImmediatePropagation
 }
 }
 _onPickerStarted
+:
+function
 (
 )
 {
@@ -7775,6 +7845,8 @@ true
 ;
 }
 _onPickerStopped
+:
+function
 (
 )
 {
@@ -7897,6 +7969,8 @@ tab
 *
 /
 _applyCacheSettings
+:
+function
 (
 )
 {
@@ -7941,6 +8015,10 @@ activeTab
 reconfigure
 (
 {
+"
+cacheDisabled
+"
+:
 cacheDisabled
 }
 )
@@ -7977,6 +8055,8 @@ tab
 *
 /
 _applyServiceWorkersTestingSettings
+:
+function
 (
 )
 {
@@ -8026,6 +8106,10 @@ activeTab
 reconfigure
 (
 {
+"
+serviceWorkersTestingEnabled
+"
+:
 serviceWorkersTestingEnabled
 }
 )
@@ -8045,6 +8129,8 @@ toolbox
 *
 /
 getToolbarSpec
+:
+function
 (
 )
 {
@@ -8253,6 +8339,8 @@ value
 *
 /
 _commandIsVisible
+:
+function
 (
 id
 )
@@ -8366,6 +8454,8 @@ for
 *
 /
 _buildPanelForTool
+:
+function
 (
 toolDefinition
 )
@@ -9102,6 +9192,8 @@ load
 *
 /
 loadTool
+:
+function
 (
 id
 )
@@ -10140,6 +10232,8 @@ iframe
 *
 /
 setIframeDocumentDir
+:
+function
 (
 iframe
 )
@@ -10332,6 +10426,8 @@ select
 *
 /
 selectSingleNode
+:
+function
 (
 collection
 id
@@ -10446,6 +10542,8 @@ to
 *
 /
 selectTool
+:
+function
 (
 id
 )
@@ -10904,6 +11002,8 @@ focus
 *
 /
 focusTool
+:
+function
 (
 id
 state
@@ -10968,6 +11068,8 @@ line
 *
 /
 focusConsoleInput
+:
+function
 (
 )
 {
@@ -11038,6 +11140,8 @@ closes
 *
 /
 _onFocus
+:
+function
 (
 {
 originalTarget
@@ -11138,6 +11242,8 @@ focused
 *
 /
 openSplitConsole
+:
+function
 (
 )
 {
@@ -11231,6 +11337,8 @@ closed
 *
 /
 closeSplitConsole
+:
+function
 (
 )
 {
@@ -11340,6 +11448,8 @@ closed
 *
 /
 toggleSplitConsole
+:
+function
 (
 )
 {
@@ -11396,6 +11506,8 @@ reload
 *
 /
 reloadTarget
+:
+function
 (
 force
 )
@@ -11409,6 +11521,8 @@ activeTab
 reload
 (
 {
+force
+:
 force
 }
 )
@@ -11431,6 +11545,8 @@ tool
 *
 /
 selectNextTool
+:
+function
 (
 )
 {
@@ -11527,6 +11643,8 @@ tool
 *
 /
 selectPreviousTool
+:
+function
 (
 )
 {
@@ -11763,6 +11881,8 @@ host
 *
 /
 raise
+:
+function
 (
 )
 {
@@ -11796,6 +11916,8 @@ title
 *
 /
 _refreshHostTitle
+:
+function
 (
 )
 {
@@ -12079,6 +12201,8 @@ DISABLE_AUTOHIDE_PREF
 }
 )
 _listFrames
+:
+function
 (
 event
 )
@@ -12206,6 +12330,8 @@ frames
 *
 /
 showFramesMenu
+:
+function
 (
 event
 )
@@ -12528,6 +12654,8 @@ backend
 *
 /
 onSelectFrame
+:
+function
 (
 frameId
 )
@@ -12716,6 +12844,8 @@ window
 *
 /
 _updateFrames
+:
+function
 (
 event
 data
@@ -13125,6 +13255,8 @@ UI
 *
 /
 switchToPreviousHost
+:
+function
 (
 )
 {
@@ -13187,6 +13319,8 @@ object
 *
 /
 switchHost
+:
+function
 (
 hostType
 )
@@ -13324,6 +13458,8 @@ changed
 ;
 }
 _onSwitchedHost
+:
+function
 (
 {
 hostType
@@ -13490,6 +13626,8 @@ toolbox
 *
 /
 isToolRegistered
+:
+function
 (
 toolId
 )
@@ -13571,6 +13709,8 @@ definition
 *
 /
 getToolDefinition
+:
+function
 (
 toolId
 )
@@ -13659,6 +13799,8 @@ removed
 *
 /
 unloadTool
+:
+function
 (
 toolId
 )
@@ -14032,6 +14174,8 @@ registered
 *
 /
 _toolRegistered
+:
+function
 (
 event
 toolId
@@ -14240,6 +14384,8 @@ unregistered
 *
 /
 _toolUnregistered
+:
+function
 (
 event
 toolId
@@ -14314,6 +14460,8 @@ initialized
 *
 /
 initInspector
+:
+function
 (
 )
 {
@@ -14514,6 +14662,8 @@ destroyed
 *
 /
 destroyInspector
+:
+function
 (
 )
 {
@@ -14917,6 +15067,8 @@ component
 *
 /
 getNotificationBox
+:
+function
 (
 )
 {
@@ -14943,6 +15095,8 @@ up
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -16088,6 +16242,8 @@ _destroyer
 ;
 }
 _highlighterReady
+:
+function
 (
 )
 {
@@ -16104,6 +16260,8 @@ ready
 ;
 }
 _highlighterHidden
+:
+function
 (
 )
 {
@@ -16144,6 +16302,8 @@ Edition
 *
 /
 _showDevEditionPromo
+:
+function
 (
 )
 {
@@ -16203,6 +16363,8 @@ js
 *
 /
 _updateTextBoxMenuItems
+:
+function
 (
 )
 {
@@ -16302,6 +16464,8 @@ y
 *
 /
 openTextBoxContextMenu
+:
+function
 (
 x
 y
@@ -17078,6 +17242,8 @@ js
 *
 /
 viewSourceInStyleEditor
+:
+function
 (
 sourceURL
 sourceLine
@@ -17130,6 +17296,8 @@ js
 *
 /
 viewSourceInDebugger
+:
+function
 (
 sourceURL
 sourceLine
@@ -17232,6 +17400,8 @@ js
 *
 /
 viewSourceInScratchpad
+:
+function
 (
 sourceURL
 sourceLine
@@ -17278,6 +17448,8 @@ js
 *
 /
 viewSource
+:
+function
 (
 sourceURL
 sourceLine

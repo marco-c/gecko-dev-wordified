@@ -537,6 +537,8 @@ graph
 *
 /
 clearView
+:
+function
 (
 )
 {
@@ -600,6 +602,8 @@ effects
 *
 /
 setTheme
+:
+function
 (
 theme
 )
@@ -831,6 +835,8 @@ mainColor
 :
 FRAMERATE_GRAPH_COLOR_NAME
 setPerformanceData
+:
+function
 (
 {
 duration
@@ -931,6 +937,8 @@ mainColor
 :
 MEMORY_GRAPH_COLOR_NAME
 setPerformanceData
+:
+function
 (
 {
 duration
@@ -1284,6 +1292,8 @@ graphName
 *
 /
 get
+:
+function
 (
 graphName
 )
@@ -1647,6 +1657,8 @@ redraw
 *
 /
 setTheme
+:
+function
 (
 options
 =
@@ -1835,6 +1847,8 @@ rendered
 *
 /
 enable
+:
+function
 (
 graphName
 isEnabled
@@ -1990,6 +2004,8 @@ data
 *
 /
 disableAll
+:
+function
 (
 )
 {
@@ -2065,6 +2081,8 @@ sync
 *
 /
 setMappedSelection
+:
+function
 (
 selection
 {
@@ -2121,6 +2139,8 @@ null
 *
 /
 getMappedSelection
+:
+function
 (
 {
 mapStart
@@ -2187,6 +2207,8 @@ currently
 *
 /
 getWidgets
+:
+function
 (
 )
 {
@@ -2225,6 +2247,8 @@ selection
 *
 /
 dropSelection
+:
+function
 (
 )
 {
@@ -2531,6 +2555,8 @@ selection
 *
 /
 _getPrimaryLink
+:
+function
 (
 )
 {
@@ -2558,6 +2584,8 @@ occurs
 *
 /
 _onSelecting
+:
+function
 (
 )
 {
@@ -3077,6 +3105,8 @@ effects
 *
 /
 setTheme
+:
+function
 (
 theme
 )

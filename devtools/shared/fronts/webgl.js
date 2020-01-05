@@ -119,6 +119,8 @@ FrontClassWithSpec
 shaderSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -173,6 +175,8 @@ FrontClassWithSpec
 programSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -227,6 +231,8 @@ FrontClassWithSpec
 webGLSpec
 {
 initialize
+:
+function
 (
 client
 {

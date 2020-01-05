@@ -292,6 +292,8 @@ csscoverage
 properties
 "
 lookup
+:
+function
 (
 msg
 )
@@ -626,6 +628,8 @@ ActorClassWithSpec
 cssUsageSpec
 {
 initialize
+:
+function
 (
 conn
 tabActor
@@ -701,6 +705,8 @@ NOTIFY_STATE_ALL
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -803,6 +809,8 @@ reload
 *
 /
 start
+:
+function
 (
 noreload
 )
@@ -1104,6 +1112,8 @@ data
 *
 /
 stop
+:
+function
 (
 )
 {
@@ -1196,6 +1206,8 @@ doing
 *
 /
 toggle
+:
+function
 (
 )
 {
@@ -1247,6 +1259,8 @@ out
 *
 /
 oneshot
+:
+function
 (
 )
 {
@@ -1342,6 +1356,8 @@ event
 *
 /
 _onTabLoad
+:
+function
 (
 document
 )
@@ -1383,6 +1399,8 @@ document
 *
 /
 _observeMutations
+:
+function
 (
 document
 )
@@ -1502,6 +1520,8 @@ changed
 *
 /
 _onChange
+:
+function
 (
 document
 )
@@ -1574,6 +1594,8 @@ checking
 *
 /
 _populateKnownRules
+:
+function
 (
 document
 )
@@ -1746,6 +1768,8 @@ page
 *
 /
 _updateUsage
+:
+function
 (
 document
 isLoad
@@ -2059,6 +2083,8 @@ column
 *
 /
 createEditorReport
+:
+function
 (
 url
 )
@@ -2145,6 +2171,10 @@ start
 :
 {
 line
+:
+line
+column
+:
 column
 }
 }
@@ -2175,6 +2205,8 @@ ruleReport
 }
 return
 {
+reports
+:
 reports
 }
 ;
@@ -2223,6 +2255,8 @@ generated
 *
 /
 createEditorReportForSheet
+:
+function
 (
 stylesheetActor
 )
@@ -2484,6 +2518,8 @@ rules
 *
 /
 createPageReport
+:
+function
 (
 )
 {
@@ -2797,6 +2833,8 @@ push
 (
 {
 url
+:
+url
 shortUrl
 :
 url
@@ -2813,6 +2851,8 @@ slice
 -
 1
 )
+rules
+:
 rules
 }
 )
@@ -2851,6 +2891,8 @@ let
 page
 =
 {
+url
+:
 url
 shortUrl
 :
@@ -2965,7 +3007,13 @@ page
 return
 {
 summary
+:
+summary
 preload
+:
+preload
+unused
+:
 unused
 }
 ;
@@ -2987,6 +3035,8 @@ visit
 *
 /
 _testOnlyVisitedPages
+:
+function
 (
 )
 {
@@ -3686,6 +3736,8 @@ split
 ;
 return
 {
+url
+:
 url
 line
 :

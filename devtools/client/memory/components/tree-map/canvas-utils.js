@@ -393,6 +393,8 @@ description
 *
 /
 destroy
+:
+function
 (
 )
 {

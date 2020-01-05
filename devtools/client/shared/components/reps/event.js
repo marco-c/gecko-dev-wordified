@@ -226,6 +226,8 @@ object
 isRequired
 }
 getTitle
+:
+function
 (
 props
 )
@@ -756,6 +758,8 @@ Event
 rep
 :
 Event
+supportsObject
+:
 supportsObject
 }
 ;

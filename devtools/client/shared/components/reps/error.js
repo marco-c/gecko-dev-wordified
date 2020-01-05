@@ -483,6 +483,8 @@ rep
 :
 ErrorRep
 supportsObject
+:
+supportsObject
 }
 ;
 }

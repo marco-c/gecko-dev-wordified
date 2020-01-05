@@ -319,6 +319,8 @@ actions
 =
 {
 onCopyJson
+:
+function
 (
 )
 {
@@ -342,6 +344,8 @@ jsonText
 ;
 }
 onSaveJson
+:
+function
 (
 )
 {
@@ -365,6 +369,8 @@ jsonText
 ;
 }
 onCopyHeaders
+:
+function
 (
 )
 {
@@ -382,6 +388,8 @@ headers
 ;
 }
 onSearch
+:
+function
 (
 value
 )
@@ -399,6 +407,8 @@ value
 ;
 }
 onPrettify
+:
+function
 (
 data
 )

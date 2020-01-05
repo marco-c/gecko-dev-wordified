@@ -1461,6 +1461,8 @@ nsIDOMNode
 *
 /
 _displaySelf
+:
+function
 (
 document
 arrowNode
@@ -1758,6 +1760,8 @@ children
 *
 /
 _populateSelf
+:
+function
 (
 children
 )
@@ -1879,6 +1883,8 @@ _displaySelf
 *
 /
 _createCell
+:
+function
 (
 doc
 value
@@ -1967,6 +1973,8 @@ cell
 ;
 }
 _createFunctionCell
+:
+function
 (
 doc
 arrowNode
@@ -2396,6 +2404,8 @@ cell
 ;
 }
 _appendFunctionDetailsCells
+:
+function
 (
 doc
 cell
@@ -2726,6 +2736,8 @@ object
 *
 /
 getDisplayedData
+:
+function
 (
 )
 {
@@ -3008,6 +3020,8 @@ visible
 *
 /
 toggleCategories
+:
+function
 (
 visible
 )
@@ -3074,6 +3088,8 @@ view
 *
 /
 _onUrlClick
+:
+function
 (
 e
 )

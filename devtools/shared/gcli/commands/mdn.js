@@ -199,6 +199,8 @@ mdnCssProp
 }
 ]
 exec
+:
+function
 (
 args
 )
@@ -287,6 +289,8 @@ to
 dom
 "
 exec
+:
+function
 (
 result
 context

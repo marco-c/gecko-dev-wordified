@@ -781,6 +781,8 @@ loop
 *
 /
 schedule
+:
+function
 (
 )
 {
@@ -837,6 +839,8 @@ called
 *
 /
 cancel
+:
+function
 (
 )
 {
@@ -875,6 +879,8 @@ onCancel
 ;
 }
 _timeoutHandler
+:
+function
 (
 )
 {
@@ -943,6 +949,8 @@ e
 }
 }
 _runBatch
+:
+function
 (
 )
 {
@@ -1038,6 +1046,8 @@ ERROR_ITERATION_DONE
 *
 /
 _next
+:
+function
 (
 )
 {
@@ -1943,6 +1953,8 @@ numVisibleProperties
 :
 0
 setPageStyle
+:
+function
 (
 pageStyle
 )
@@ -1968,6 +1980,8 @@ checked
 ;
 }
 _handlePrefChange
+:
+function
 (
 event
 data
@@ -2047,6 +2061,8 @@ complete
 *
 /
 selectElement
+:
+function
 (
 element
 )
@@ -2254,6 +2270,8 @@ about
 *
 /
 getNodeInfo
+:
+function
 (
 node
 )
@@ -2745,6 +2763,8 @@ value
 ;
 }
 _createPropertyViews
+:
+function
 (
 )
 {
@@ -2972,6 +2992,8 @@ content
 *
 /
 refreshPanel
+:
+function
 (
 )
 {
@@ -3400,6 +3422,8 @@ view
 *
 /
 _onShortcut
+:
+function
 (
 name
 event
@@ -3550,6 +3574,8 @@ value
 *
 /
 setFilterStyles
+:
+function
 (
 value
 =
@@ -3602,6 +3628,8 @@ box
 *
 /
 _onFilterStyles
+:
+function
 (
 )
 {
@@ -3793,6 +3821,8 @@ otherwise
 *
 /
 _onClearSearch
+:
+function
 (
 )
 {
@@ -3837,6 +3867,8 @@ checkbox
 *
 /
 _onIncludeBrowserStyles
+:
+function
 (
 )
 {
@@ -3909,6 +3941,8 @@ stylesheets
 *
 /
 refreshSourceFilter
+:
+function
 (
 )
 {
@@ -3940,6 +3974,8 @@ USER
 ;
 }
 _onSourcePrefChanged
+:
+function
 (
 )
 {
@@ -3999,6 +4035,8 @@ UI
 *
 /
 createStyleViews
+:
+function
 (
 )
 {
@@ -4327,6 +4365,8 @@ mousedown
 *
 /
 focusWindow
+:
+function
 (
 )
 {
@@ -4350,6 +4390,8 @@ handler
 *
 /
 _onContextMenu
+:
+function
 (
 event
 )
@@ -4365,6 +4407,8 @@ event
 ;
 }
 _onClick
+:
+function
 (
 event
 )
@@ -4458,6 +4502,8 @@ object
 *
 /
 _onCopy
+:
+function
 (
 event
 )
@@ -4489,6 +4535,8 @@ clipboard
 *
 /
 copySelection
+:
+function
 (
 )
 {
@@ -4695,6 +4743,8 @@ CssComputedView
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -5728,6 +5778,8 @@ Element
 *
 /
 buildMain
+:
+function
 (
 )
 {
@@ -6367,6 +6419,8 @@ element
 ;
 }
 buildSelectorContainer
+:
+function
 (
 )
 {
@@ -6461,6 +6515,8 @@ value
 *
 /
 refresh
+:
+function
 (
 )
 {
@@ -6694,6 +6750,8 @@ rules
 *
 /
 refreshMatchedSelectors
+:
+function
 (
 )
 {
@@ -6929,6 +6987,8 @@ _matchedSelectorResponse
 ;
 }
 _buildMatchedSelectors
+:
+function
 (
 )
 {
@@ -7320,6 +7380,8 @@ files
 *
 /
 updateSourceLinks
+:
+function
 (
 )
 {
@@ -7389,6 +7451,8 @@ event
 *
 /
 onMatchedToggle
+:
+function
 (
 event
 )
@@ -7447,6 +7511,8 @@ property
 *
 /
 mdnLinkClick
+:
+function
 (
 event
 )
@@ -7510,6 +7576,8 @@ listeners
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -7795,6 +7863,8 @@ array
 *
 /
 _cacheStatusNames
+:
+function
 (
 )
 {
@@ -8179,6 +8249,8 @@ not
 *
 /
 updateSourceLink
+:
+function
 (
 )
 {
@@ -8297,6 +8369,8 @@ preference
 *
 /
 updateSource
+:
+function
 (
 )
 {
@@ -8463,6 +8537,8 @@ shortSource
 (
 {
 href
+:
+href
 }
 )
 +
@@ -8591,6 +8667,8 @@ editor
 *
 /
 openStyleEditor
+:
+function
 (
 )
 {
@@ -9095,6 +9173,8 @@ prototype
 =
 {
 isSidebarActive
+:
+function
 (
 )
 {
@@ -9128,6 +9208,8 @@ computedview
 ;
 }
 onSelected
+:
+function
 (
 event
 )
@@ -9346,6 +9428,8 @@ done
 }
 }
 refresh
+:
+function
 (
 )
 {
@@ -9369,6 +9453,8 @@ refreshPanel
 }
 }
 onPanelSelected
+:
+function
 (
 )
 {
@@ -9444,6 +9530,8 @@ styles
 *
 /
 onMutations
+:
+function
 (
 mutations
 )
@@ -9522,6 +9610,8 @@ apply
 *
 /
 onResized
+:
+function
 (
 )
 {
@@ -9533,6 +9623,8 @@ refresh
 ;
 }
 destroy
+:
+function
 (
 )
 {

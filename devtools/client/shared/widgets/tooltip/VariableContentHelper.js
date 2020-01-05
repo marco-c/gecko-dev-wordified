@@ -712,6 +712,8 @@ setSingleVariable
 (
 {
 objectActor
+:
+objectActor
 }
 controllerOptions
 )

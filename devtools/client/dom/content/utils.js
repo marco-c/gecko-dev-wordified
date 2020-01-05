@@ -138,6 +138,8 @@ DefaultL10N
 =
 {
 getStr
+:
+function
 (
 key
 )

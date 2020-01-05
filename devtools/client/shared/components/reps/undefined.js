@@ -288,6 +288,8 @@ rep
 :
 Undefined
 supportsObject
+:
+supportsObject
 }
 ;
 }

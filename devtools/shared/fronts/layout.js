@@ -104,6 +104,8 @@ FrontClassWithSpec
 gridSpec
 {
 form
+:
+function
 (
 form
 detail

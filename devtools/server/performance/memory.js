@@ -405,6 +405,8 @@ StackFrameCache
 *
 /
 initialize
+:
+function
 (
 parent
 frameCache
@@ -527,6 +529,8 @@ _onWindowReady
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -780,6 +784,8 @@ state
 *
 /
 getState
+:
+function
 (
 )
 {
@@ -790,6 +796,8 @@ state
 ;
 }
 _clearDebuggees
+:
+function
 (
 )
 {
@@ -837,6 +845,8 @@ removeAllDebuggees
 }
 }
 _clearFrames
+:
+function
 (
 )
 {
@@ -880,6 +890,8 @@ event
 *
 /
 _onWindowReady
+:
+function
 (
 {
 isTopLevel
@@ -956,6 +968,8 @@ tracked
 *
 /
 isRecordingAllocations
+:
+function
 (
 )
 {
@@ -2367,6 +2381,8 @@ GC
 *
 /
 forceGarbageCollection
+:
+function
 (
 )
 {
@@ -2436,6 +2452,8 @@ What_the_cycle_collector_does
 *
 /
 forceCycleCollection
+:
+function
 (
 )
 {
@@ -2474,6 +2492,8 @@ object
 *
 /
 measure
+:
+function
 (
 )
 {
@@ -2667,6 +2687,8 @@ result
 ;
 }
 residentUnique
+:
+function
 (
 )
 {
@@ -2696,6 +2718,8 @@ instance
 *
 /
 _onGarbageCollection
+:
+function
 (
 data
 )
@@ -2802,6 +2826,8 @@ timer
 *
 /
 _emitAllocations
+:
+function
 (
 )
 {
@@ -2846,6 +2872,8 @@ time
 *
 /
 _getCurrentTime
+:
+function
 (
 )
 {

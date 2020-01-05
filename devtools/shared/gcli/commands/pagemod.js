@@ -383,6 +383,8 @@ regular
 expression
 .
 escapeRegex
+:
+function
 (
 string
 )
@@ -425,6 +427,8 @@ g
 ;
 }
 exec
+:
+function
 (
 args
 context
@@ -912,6 +916,8 @@ pagemodRemoveElementIfEmptyOnlyDesc
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -1209,6 +1215,8 @@ pagemodRemoveAttributeIgnoreCaseDesc
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -1509,6 +1517,8 @@ window
 }
 ]
 exec
+:
+function
 (
 args
 context

@@ -298,6 +298,8 @@ ready
 *
 /
 onInit
+:
+function
 (
 )
 {
@@ -351,6 +353,8 @@ destroyed
 *
 /
 onDestroy
+:
+function
 (
 eventId
 toolbox
@@ -367,6 +371,8 @@ destroyAutomation
 /
 Automation
 initAutomation
+:
+function
 (
 )
 {
@@ -384,6 +390,8 @@ toolbox
 ;
 }
 destroyAutomation
+:
+function
 (
 )
 {

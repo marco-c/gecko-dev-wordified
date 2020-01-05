@@ -165,6 +165,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 tabActor
 )
@@ -177,6 +179,8 @@ tabActor
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -199,6 +203,8 @@ tick
 *
 /
 resetCounts
+:
+function
 (
 )
 {
@@ -257,6 +263,8 @@ values
 *
 /
 getCounts
+:
+function
 (
 )
 {
@@ -331,6 +339,8 @@ info
 *
 /
 handleDrawPrimitive
+:
+function
 (
 functionCall
 )
@@ -396,6 +406,8 @@ numbers
 *
 /
 _processDrawArrays
+:
+function
 (
 args
 )
@@ -625,6 +637,8 @@ numbers
 *
 /
 _processDrawElements
+:
+function
 (
 args
 )

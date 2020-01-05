@@ -230,6 +230,8 @@ trace
 =
 {
 log
+:
+function
 (
 .
 .
@@ -363,6 +365,8 @@ Class
 /
 Initialization
 initialize
+:
+function
 (
 toolbox
 )
@@ -410,6 +414,8 @@ form
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -450,6 +456,8 @@ disconnect
 /
 Automation
 startMonitoring
+:
+function
 (
 client
 tabGrip
@@ -527,6 +535,8 @@ connect
 ;
 }
 pageLoadBegin
+:
+function
 (
 response
 )
@@ -539,6 +549,8 @@ resetCollector
 ;
 }
 resetCollector
+:
+function
 (
 )
 {
@@ -694,6 +706,8 @@ object
 *
 /
 pageLoadDone
+:
+function
 (
 response
 )
@@ -745,6 +759,8 @@ autoExport
 }
 }
 autoExport
+:
+function
 (
 )
 {
@@ -847,6 +863,8 @@ collected
 *
 /
 triggerExport
+:
+function
 (
 data
 )
@@ -898,6 +916,8 @@ data
 *
 /
 clear
+:
+function
 (
 )
 {
@@ -943,6 +963,8 @@ file
 *
 /
 executeExport
+:
+function
 (
 data
 )
@@ -998,6 +1020,8 @@ this
 view
 :
 this
+items
+:
 items
 }
 ;
@@ -1170,6 +1194,8 @@ string
 *
 /
 getString
+:
+function
 (
 stringGrip
 )
@@ -1235,6 +1261,8 @@ prototype
 /
 Connection
 connect
+:
+function
 (
 )
 {
@@ -1270,6 +1298,8 @@ onTabNavigated
 ;
 }
 disconnect
+:
+function
 (
 )
 {
@@ -1356,6 +1386,8 @@ server
 *
 /
 onTabNavigated
+:
+function
 (
 type
 packet

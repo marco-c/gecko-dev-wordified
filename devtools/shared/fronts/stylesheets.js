@@ -179,6 +179,8 @@ FrontClassWithSpec
 originalSourceSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -205,6 +207,8 @@ true
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -303,6 +307,8 @@ FrontClassWithSpec
 mediaRuleSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -351,6 +357,8 @@ _onMatchesChange
 ;
 }
 _onMatchesChange
+:
+function
 (
 matches
 )
@@ -365,6 +373,8 @@ matches
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -532,6 +542,8 @@ FrontClassWithSpec
 styleSheetSpec
 {
 initialize
+:
+function
 (
 conn
 form
@@ -580,6 +592,8 @@ _onPropertyChange
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -611,6 +625,8 @@ this
 ;
 }
 _onPropertyChange
+:
+function
 (
 property
 value
@@ -627,6 +643,8 @@ value
 ;
 }
 form
+:
+function
 (
 form
 detail
@@ -807,6 +825,8 @@ sheet
 *
 /
 guessIndentation
+:
+function
 (
 )
 {
@@ -949,6 +969,8 @@ FrontClassWithSpec
 styleSheetsSpec
 {
 initialize
+:
+function
 (
 client
 tabForm

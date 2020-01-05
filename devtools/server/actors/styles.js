@@ -515,6 +515,8 @@ constructor
 *
 /
 initialize
+:
+function
 (
 inspector
 )
@@ -724,6 +726,8 @@ Set
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -867,6 +871,8 @@ conn
 ;
 }
 form
+:
+function
 (
 detail
 )
@@ -990,6 +996,8 @@ updated
 *
 /
 _styleApplied
+:
+function
 (
 kind
 styleSheet
@@ -1075,6 +1083,8 @@ element
 *
 /
 _styleRef
+:
+function
 (
 item
 )
@@ -1202,6 +1212,8 @@ StyleRuleActor
 *
 /
 updateStyleRef
+:
+function
 (
 oldItem
 item
@@ -1273,6 +1285,8 @@ sheet
 *
 /
 _sheetRef
+:
+function
 (
 sheet
 )
@@ -1477,6 +1491,8 @@ value
 *
 /
 getComputed
+:
+function
 (
 node
 options
@@ -1735,6 +1751,8 @@ node
 *
 /
 getAllUsedFontFaces
+:
+function
 (
 options
 )
@@ -1886,6 +1904,8 @@ node
 *
 /
 getUsedFontFaces
+:
+function
 (
 node
 options
@@ -2270,6 +2290,8 @@ this
 conn
 dataURL
 )
+size
+:
 size
 }
 ;
@@ -2732,6 +2754,8 @@ domsheet
 *
 /
 getMatchedSelectors
+:
+function
 (
 node
 property
@@ -2854,6 +2878,8 @@ push
 (
 {
 rule
+:
+rule
 sourceText
 :
 this
@@ -2902,6 +2928,8 @@ sheets
 return
 {
 matched
+:
+matched
 rules
 :
 [
@@ -2939,6 +2967,8 @@ given
 node
 .
 getSelectorSource
+:
+function
 (
 selectorInfo
 relativeTo
@@ -3229,6 +3259,8 @@ result
 }
 )
 _hasInheritedProps
+:
+function
 (
 style
 )
@@ -3441,6 +3473,8 @@ String
 *
 /
 _getAllElementRules
+:
+function
 (
 node
 inherited
@@ -3820,6 +3854,8 @@ Array
 *
 /
 _getElementRules
+:
+function
 (
 node
 pseudo
@@ -4014,6 +4050,10 @@ rule
 :
 ruleActor
 inherited
+:
+inherited
+isSystem
+:
 isSystem
 pseudoElement
 :
@@ -4128,6 +4168,8 @@ _getAllElementRules
 *
 /
 findEntryMatchingRule
+:
+function
 (
 node
 filterRule
@@ -4421,6 +4463,8 @@ rules
 *
 /
 getAppliedProps
+:
+function
 (
 node
 entries
@@ -4819,6 +4863,8 @@ sheets
 return
 {
 entries
+:
+entries
 rules
 :
 [
@@ -4859,6 +4905,8 @@ sheets
 *
 /
 expandSets
+:
+function
 (
 ruleSet
 sheetSet
@@ -5185,6 +5233,8 @@ Object
 *
 /
 getLayout
+:
+function
 (
 node
 options
@@ -5484,6 +5534,8 @@ properties
 *
 /
 processMargins
+:
+function
 (
 cssLogic
 )
@@ -5592,6 +5644,8 @@ objects
 *
 /
 onFrameUnload
+:
+function
 (
 )
 {
@@ -5640,6 +5694,8 @@ stylesheet
 *
 /
 onStyleSheetAdded
+:
+function
 (
 actor
 )
@@ -5732,6 +5788,8 @@ tag
 *
 /
 getStyleElement
+:
+function
 (
 document
 )
@@ -5844,6 +5902,8 @@ properties
 *
 /
 getNewAppliedProps
+:
+function
 (
 node
 rule
@@ -6322,6 +6382,8 @@ ActorClassWithSpec
 styleRuleSpec
 {
 initialize
+:
+function
 (
 pageStyle
 item
@@ -6541,6 +6603,8 @@ item
 .
 style
 toString
+:
+function
 (
 )
 {
@@ -6578,6 +6642,8 @@ conn
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -6853,6 +6919,8 @@ PreferenceStyleSheet
 ;
 }
 getDocument
+:
+function
 (
 sheet
 )
@@ -6894,6 +6962,8 @@ document
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -6914,6 +6984,8 @@ rawRule
 ;
 }
 form
+:
+function
 (
 detail
 )
@@ -7654,6 +7726,8 @@ number
 *
 /
 _notifyLocationChanged
+:
+function
 (
 line
 column
@@ -7729,6 +7803,8 @@ rules
 *
 /
 _computeRuleIndex
+:
+function
 (
 )
 {
@@ -7912,6 +7988,8 @@ _ruleIndex
 *
 /
 _getRuleFromIndex
+:
+function
 (
 parentSheet
 )
@@ -7995,6 +8073,8 @@ event
 *
 /
 _onStyleApplied
+:
+function
 (
 kind
 )
@@ -8300,6 +8380,8 @@ properties
 *
 /
 getAuthoredCssText
+:
+function
 (
 )
 {
@@ -8756,6 +8838,8 @@ properties
 *
 /
 modifyProperties
+:
+function
 (
 modifications
 )
@@ -9803,6 +9887,8 @@ element
 *
 /
 modifySelector2
+:
+function
 (
 node
 value
@@ -10359,6 +10445,8 @@ png
 ;
 return
 {
+dataURL
+:
 dataURL
 size
 :
@@ -11459,6 +11547,8 @@ column
 ;
 return
 {
+offset
+:
 offset
 text
 :

@@ -2476,6 +2476,8 @@ about
 *
 /
 getNodeInfo
+:
+function
 (
 node
 )
@@ -2972,6 +2974,8 @@ node
 *
 /
 _getRuleEditorForNode
+:
+function
 (
 node
 )
@@ -3024,6 +3028,8 @@ handler
 *
 /
 _onContextMenu
+:
+function
 (
 event
 )
@@ -3067,6 +3073,8 @@ object
 *
 /
 _onCopy
+:
+function
 (
 event
 )
@@ -3135,6 +3143,8 @@ action
 *
 /
 copySelection
+:
+function
 (
 target
 )
@@ -3325,6 +3335,8 @@ styles
 *
 /
 _onAddNewRuleNonAuthored
+:
+function
 (
 )
 {
@@ -3536,6 +3548,8 @@ element
 *
 /
 _onAddRule
+:
+function
 (
 )
 {
@@ -3801,6 +3815,8 @@ needed
 *
 /
 refreshAddRuleButtonState
+:
+function
 (
 )
 {
@@ -3845,6 +3861,8 @@ shouldBeDisabled
 ;
 }
 setPageStyle
+:
+function
 (
 pageStyle
 )
@@ -3912,6 +3930,8 @@ length
 ;
 }
 _handlePrefChange
+:
+function
 (
 pref
 )
@@ -3996,6 +4016,8 @@ changes
 *
 /
 _onSourcePrefChanged
+:
+function
 (
 )
 {
@@ -4086,6 +4108,8 @@ value
 *
 /
 setFilterStyles
+:
+function
 (
 value
 =
@@ -4138,6 +4162,8 @@ box
 *
 /
 _onFilterStyles
+:
+function
 (
 )
 {
@@ -4741,6 +4767,8 @@ otherwise
 *
 /
 _onClearSearch
+:
+function
 (
 )
 {
@@ -4770,6 +4798,8 @@ false
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -5196,6 +5226,8 @@ shows
 *
 /
 _startSelectingElement
+:
+function
 (
 )
 {
@@ -5236,6 +5268,8 @@ interaction
 *
 /
 _stopSelectingElement
+:
+function
 (
 )
 {
@@ -5310,6 +5344,8 @@ time
 *
 /
 selectElement
+:
+function
 (
 element
 allowRefresh
@@ -5729,6 +5765,8 @@ element
 *
 /
 refreshPanel
+:
+function
 (
 )
 {
@@ -5867,6 +5905,8 @@ checkbox
 *
 /
 clearPseudoClassPanel
+:
+function
 (
 )
 {
@@ -5931,6 +5971,8 @@ element
 *
 /
 refreshPseudoClassPanel
+:
+function
 (
 )
 {
@@ -6058,6 +6100,8 @@ break
 }
 }
 _populate
+:
+function
 (
 )
 {
@@ -6197,6 +6241,8 @@ selected
 *
 /
 _showEmpty
+:
+function
 (
 )
 {
@@ -6264,6 +6310,8 @@ rules
 *
 /
 _clearRules
+:
+function
 (
 )
 {
@@ -6289,6 +6337,8 @@ view
 *
 /
 clear
+:
+function
 (
 clearDom
 =
@@ -6370,6 +6420,8 @@ to
 *
 /
 _changed
+:
+function
 (
 )
 {
@@ -6587,6 +6639,8 @@ element
 *
 /
 createExpandableContainer
+:
+function
 (
 label
 isPseudo
@@ -6880,6 +6934,8 @@ displayed
 *
 /
 _toggleContainerVisibility
+:
+function
 (
 twisty
 container
@@ -6991,6 +7047,8 @@ true
 }
 }
 _getRuleViewHeaderClassName
+:
+function
 (
 isPseudo
 )
@@ -7041,6 +7099,8 @@ _elementStyle
 *
 /
 _createEditors
+:
+function
 (
 )
 {
@@ -7632,6 +7692,8 @@ otherwise
 *
 /
 highlightRule
+:
+function
 (
 rule
 )
@@ -7770,6 +7832,8 @@ otherwise
 *
 /
 _highlightRuleSelector
+:
+function
 (
 rule
 )
@@ -7984,6 +8048,8 @@ otherwise
 *
 /
 _highlightStyleSheet
+:
+function
 (
 rule
 )
@@ -8124,6 +8190,8 @@ otherwise
 *
 /
 _highlightProperty
+:
+function
 (
 editor
 )
@@ -8241,6 +8309,8 @@ object
 *
 /
 _updatePropertyHighlight
+:
+function
 (
 editor
 )
@@ -8366,6 +8436,8 @@ otherwise
 *
 /
 _highlightRuleProperty
+:
+function
 (
 editor
 )
@@ -8484,6 +8556,8 @@ otherwise
 *
 /
 _highlightComputedProperty
+:
+function
 (
 editor
 )
@@ -8686,6 +8760,8 @@ otherwise
 *
 /
 _highlightMatches
+:
+function
 (
 element
 propertyName
@@ -8902,6 +8978,8 @@ opened
 *
 /
 _clearHighlight
+:
+function
 (
 element
 )
@@ -9000,6 +9078,8 @@ panel
 *
 /
 _onTogglePseudoClassPanel
+:
+function
 (
 )
 {
@@ -9169,6 +9249,8 @@ element
 *
 /
 _onTogglePseudoClass
+:
+function
 (
 event
 )
@@ -9208,6 +9290,8 @@ view
 *
 /
 _onShortcut
+:
+function
 (
 name
 event
@@ -10149,6 +10233,8 @@ prototype
 =
 {
 isSidebarActive
+:
+function
 (
 )
 {
@@ -10182,6 +10268,8 @@ ruleview
 ;
 }
 onSelected
+:
+function
 (
 event
 )
@@ -10392,6 +10480,8 @@ done
 }
 }
 refresh
+:
+function
 (
 )
 {
@@ -10415,6 +10505,8 @@ refreshPanel
 }
 }
 clearUserProperties
+:
+function
 (
 )
 {
@@ -10456,6 +10548,8 @@ clear
 }
 }
 onPanelSelected
+:
+function
 (
 )
 {
@@ -10496,6 +10590,8 @@ onSelected
 }
 }
 onLinkClicked
+:
+function
 (
 e
 rule
@@ -10698,6 +10794,8 @@ column
 ;
 }
 onPropertyChanged
+:
+function
 (
 )
 {
@@ -10711,6 +10809,8 @@ markDirty
 ;
 }
 onViewRefreshed
+:
+function
 (
 )
 {
@@ -10766,6 +10866,8 @@ styles
 *
 /
 onMutations
+:
+function
 (
 mutations
 )
@@ -10844,6 +10946,8 @@ apply
 *
 /
 onResized
+:
+function
 (
 )
 {
@@ -10855,6 +10959,8 @@ refresh
 ;
 }
 destroy
+:
+function
 (
 )
 {

@@ -403,6 +403,10 @@ resolve
 (
 {
 front
+:
+front
+registrar
+:
 registrar
 }
 )

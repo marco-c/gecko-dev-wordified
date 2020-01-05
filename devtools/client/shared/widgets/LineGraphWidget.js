@@ -1184,6 +1184,8 @@ buildGraphImage
 *
 /
 buildGraphImage
+:
+function
 (
 )
 {
@@ -1675,6 +1677,8 @@ dataScaleY
 *
 /
 _drawOverlays
+:
+function
 (
 ctx
 minValue
@@ -2454,6 +2458,8 @@ nsIDOMNode
 *
 /
 _createGutter
+:
+function
 (
 )
 {
@@ -2529,6 +2535,8 @@ nsIDOMNode
 *
 /
 _createGutterLine
+:
+function
 (
 type
 )
@@ -2606,6 +2614,8 @@ nsIDOMNode
 *
 /
 _createTooltip
+:
+function
 (
 type
 arrow

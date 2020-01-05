@@ -631,6 +631,8 @@ started
 *
 /
 initialize
+:
+function
 (
 store
 )
@@ -1050,6 +1052,8 @@ closed
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -1185,6 +1189,8 @@ view
 *
 /
 populate
+:
+function
 (
 data
 )
@@ -1472,6 +1478,8 @@ event
 *
 /
 _onTabSelect
+:
+function
 (
 )
 {
@@ -1940,6 +1948,8 @@ item
 *
 /
 _setSummary
+:
+function
 (
 data
 )

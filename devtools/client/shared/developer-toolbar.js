@@ -442,6 +442,8 @@ order
 *
 /
 createRequisition
+:
+function
 (
 target
 options
@@ -527,6 +529,8 @@ side
 *
 /
 destroyRequisition
+:
+function
 (
 requisition
 target
@@ -568,6 +572,8 @@ read
 *
 /
 getCommandbarSpec
+:
+function
 (
 pref
 )
@@ -745,6 +751,8 @@ destroyed
 *
 /
 createCommandButtons
+:
+function
 (
 toolbarSpec
 target
@@ -1171,6 +1179,8 @@ onChange
 "
 {
 target
+:
+target
 }
 )
 ;
@@ -1274,6 +1284,8 @@ target
 *
 /
 createEnvironment
+:
+function
 (
 container
 targetProperty
@@ -1905,6 +1917,8 @@ visible
 "
 {
 get
+:
+function
 (
 )
 {
@@ -1957,6 +1971,8 @@ sequenceId
 "
 {
 get
+:
+function
 (
 )
 {

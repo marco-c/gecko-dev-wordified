@@ -849,6 +849,8 @@ resolver
 }
 )
 startListeners
+:
+function
 (
 )
 {
@@ -1019,6 +1021,8 @@ onRateChanged
 }
 }
 stopListeners
+:
+function
 (
 )
 {
@@ -1189,6 +1193,8 @@ onRateChanged
 }
 }
 onKeyDown
+:
+function
 (
 event
 )
@@ -1313,6 +1319,8 @@ preventDefault
 }
 }
 togglePlayers
+:
+function
 (
 isVisible
 )
@@ -1422,6 +1430,8 @@ selectElement
 }
 }
 onPickerStarted
+:
+function
 (
 )
 {
@@ -1441,6 +1451,8 @@ true
 ;
 }
 onPickerStopped
+:
+function
 (
 )
 {
@@ -1457,6 +1469,8 @@ checked
 ;
 }
 onToggleAllClicked
+:
+function
 (
 )
 {
@@ -1541,6 +1555,8 @@ toggleAll
 }
 )
 onTimelinePlayClicked
+:
+function
 (
 )
 {
@@ -1644,6 +1660,8 @@ refreshed
 *
 /
 playPauseTimeline
+:
+function
 (
 )
 {
@@ -1674,6 +1692,8 @@ refreshAnimationsStateAndUI
 ;
 }
 onTimelineRewindClicked
+:
+function
 (
 )
 {
@@ -1736,6 +1756,8 @@ refreshed
 *
 /
 rewindTimeline
+:
+function
 (
 )
 {
@@ -1790,6 +1812,8 @@ rateSelectorEl
 *
 /
 onRateChanged
+:
+function
 (
 e
 rate
@@ -1830,6 +1854,8 @@ ex
 ;
 }
 onTabNavigated
+:
+function
 (
 )
 {
@@ -1848,6 +1874,8 @@ paused
 ;
 }
 onTimelineDataChanged
+:
+function
 (
 e
 data
@@ -2035,6 +2063,8 @@ displayTimelineCurrentTime
 ;
 }
 displayTimelineCurrentTime
+:
+function
 (
 )
 {

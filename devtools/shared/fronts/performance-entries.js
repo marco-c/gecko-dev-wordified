@@ -104,6 +104,8 @@ FrontClassWithSpec
 performanceSpec
 {
 initialize
+:
+function
 (
 client
 form

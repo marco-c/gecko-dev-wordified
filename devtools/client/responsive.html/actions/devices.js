@@ -426,6 +426,8 @@ _loadPreferredDevices
 :
 loadPreferredDevices
 updatePreferredDevices
+:
+updatePreferredDevices
 addDevice
 (
 device

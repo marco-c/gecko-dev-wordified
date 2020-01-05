@@ -980,6 +980,8 @@ configurable
 :
 true
 get
+:
+function
 (
 )
 {
@@ -1006,6 +1008,8 @@ true
 writable
 :
 true
+value
+:
 value
 }
 )
@@ -1730,6 +1734,8 @@ object
 name
 {
 get
+:
+function
 (
 )
 {
@@ -3773,6 +3779,10 @@ contentPolicyType
 :
 policy
 securityFlags
+:
+securityFlags
+uri
+:
 uri
 }
 ;

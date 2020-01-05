@@ -694,6 +694,8 @@ ruleIndex
 :
 0
 name
+:
+name
 }
 )
 ;

@@ -332,6 +332,8 @@ PropTypes
 func
 }
 getTitle
+:
+function
 (
 object
 )
@@ -372,6 +374,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 className
 )
@@ -382,6 +386,8 @@ className
 ;
 }
 safePropIterator
+:
+function
 (
 object
 max
@@ -435,6 +441,8 @@ return
 ;
 }
 propIterator
+:
+function
 (
 object
 max
@@ -712,6 +720,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 (
 Object
@@ -787,6 +797,8 @@ props
 ;
 }
 getProps
+:
+function
 (
 object
 max
@@ -900,6 +912,10 @@ PropRep
 (
 {
 mode
+:
+mode
+name
+:
 name
 object
 :
@@ -1060,6 +1076,8 @@ className
 objectLeftBrace
 "
 object
+:
+object
 }
 "
 {
@@ -1077,6 +1095,8 @@ className
 "
 objectRightBrace
 "
+object
+:
 object
 }
 "
@@ -1116,6 +1136,8 @@ Obj
 rep
 :
 Obj
+supportsObject
+:
 supportsObject
 }
 ;

@@ -313,6 +313,8 @@ returnType
 string
 "
 exec
+:
+function
 (
 args
 context
@@ -432,6 +434,8 @@ returnType
 string
 "
 exec
+:
+function
 (
 args
 context

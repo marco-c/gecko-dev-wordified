@@ -257,6 +257,8 @@ prototype
 =
 {
 destroy
+:
+function
 (
 )
 {
@@ -283,6 +285,8 @@ ElementEditor
 *
 /
 getInfoAtNode
+:
+function
 (
 )
 {

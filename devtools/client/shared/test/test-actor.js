@@ -1461,6 +1461,8 @@ ActorClassWithSpec
 testSpec
 {
 initialize
+:
+function
 (
 conn
 tabActor
@@ -1552,6 +1554,8 @@ iframes
 *
 /
 _querySelector
+:
+function
 (
 selector
 )
@@ -1793,6 +1797,8 @@ selector
 *
 /
 getNumberOfElementMatches
+:
+function
 (
 selector
 root
@@ -1911,6 +1917,8 @@ otherwise
 *
 /
 getHighlighterAttribute
+:
+function
 (
 nodeID
 name
@@ -2007,6 +2015,8 @@ value
 *
 /
 getHighlighterNodeTextContent
+:
+function
 (
 nodeID
 actorID
@@ -2097,6 +2107,8 @@ found
 *
 /
 getSelectorHighlighterBoxNb
+:
+function
 (
 actorID
 )
@@ -2218,6 +2230,8 @@ ID
 *
 /
 changeHighlightedNodeWaitForUpdate
+:
+function
 (
 name
 value
@@ -2323,6 +2337,8 @@ ID
 *
 /
 waitForHighlighterEvent
+:
+function
 (
 event
 actorID
@@ -2420,6 +2436,8 @@ window
 *
 /
 waitForEventOnNode
+:
+function
 (
 eventName
 selector
@@ -2538,6 +2556,8 @@ ID
 *
 /
 changeZoomLevel
+:
+function
 (
 level
 actorID
@@ -2647,6 +2667,8 @@ level
 ;
 }
 assertElementAtPoint
+:
+function
 (
 x
 y
@@ -2783,6 +2805,8 @@ properties
 *
 /
 getAllAdjustedQuads
+:
+function
 (
 selector
 )
@@ -2960,6 +2984,8 @@ options
 *
 /
 synthesizeMouse
+:
+function
 (
 {
 selector
@@ -3070,6 +3096,8 @@ synthesized
 *
 /
 synthesizeKey
+:
+function
 (
 {
 key
@@ -3119,6 +3147,8 @@ view
 *
 /
 scrollIntoView
+:
+function
 (
 selector
 )
@@ -3191,6 +3221,8 @@ Boolean
 *
 /
 hasPseudoClassLock
+:
+function
 (
 selector
 pseudo
@@ -3217,6 +3249,8 @@ pseudo
 ;
 }
 loadAndWaitForCustomEvent
+:
+function
 (
 url
 )
@@ -3316,6 +3350,8 @@ url
 ;
 }
 hasNode
+:
+function
 (
 selector
 )
@@ -3394,6 +3430,8 @@ info
 *
 /
 getBoundingClientRect
+:
+function
 (
 selector
 )
@@ -3521,6 +3559,8 @@ value
 *
 /
 setProperty
+:
+function
 (
 selector
 property
@@ -3588,6 +3628,8 @@ value
 *
 /
 getProperty
+:
+function
 (
 selector
 property
@@ -3652,6 +3694,8 @@ value
 *
 /
 getAttribute
+:
+function
 (
 selector
 attribute
@@ -3718,6 +3762,8 @@ value
 *
 /
 setAttribute
+:
+function
 (
 selector
 attribute
@@ -3776,6 +3822,8 @@ name
 *
 /
 removeAttribute
+:
+function
 (
 selector
 attribute
@@ -3811,6 +3859,8 @@ window
 *
 /
 reload
+:
+function
 (
 )
 {
@@ -3851,6 +3901,8 @@ selector
 *
 /
 reloadFrame
+:
+function
 (
 selector
 )
@@ -3960,6 +4012,8 @@ result
 *
 /
 eval
+:
+function
 (
 js
 )
@@ -4093,6 +4147,8 @@ vertically
 *
 /
 scrollWindow
+:
+function
 (
 x
 y
@@ -4222,6 +4278,8 @@ repaint
 *
 /
 reflow
+:
+function
 (
 )
 {
@@ -4473,6 +4531,8 @@ textContent
 *
 /
 getNodeInfo
+:
+function
 (
 selector
 )
@@ -4666,6 +4726,8 @@ isContentSheet
 *
 /
 getStyleSheetsInfoForNode
+:
+function
 (
 selector
 )
@@ -4772,6 +4834,8 @@ FrontClassWithSpec
 testSpec
 {
 initialize
+:
+function
 (
 client
 {
@@ -4863,6 +4927,8 @@ level
 *
 /
 zoomPageTo
+:
+function
 (
 level
 )
@@ -5012,6 +5078,8 @@ value
 *
 /
 getHighlighterNodeAttribute
+:
+function
 (
 nodeID
 name
@@ -5097,6 +5165,8 @@ page
 *
 /
 isHighlighting
+:
+function
 (
 )
 {
@@ -6427,8 +6497,16 @@ visible
 !
 hidden
 x1
+:
+x1
+y1
+:
 y1
 x2
+:
+x2
+y2
+:
 y2
 }
 ;

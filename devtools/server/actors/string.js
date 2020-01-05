@@ -130,6 +130,8 @@ ActorClassWithSpec
 longStringSpec
 {
 initialize
+:
+function
 (
 conn
 str
@@ -173,6 +175,8 @@ LONG_STRING_LENGTH
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -197,6 +201,8 @@ this
 ;
 }
 form
+:
+function
 (
 )
 {
@@ -249,6 +255,8 @@ LONG_STRING_INITIAL_LENGTH
 ;
 }
 substring
+:
+function
 (
 start
 end
@@ -272,6 +280,8 @@ end
 ;
 }
 release
+:
+function
 (
 )
 {

@@ -213,6 +213,8 @@ messages
 *
 /
 startListening
+:
+function
 (
 )
 {
@@ -272,6 +274,8 @@ messages
 *
 /
 stopListening
+:
+function
 (
 )
 {
@@ -336,6 +340,8 @@ up
 *
 /
 _onContentGlobalCreated
+:
+function
 (
 subject
 topic
@@ -388,6 +394,8 @@ cache
 *
 /
 _onInnerWindowDestroyed
+:
+function
 (
 subject
 topic

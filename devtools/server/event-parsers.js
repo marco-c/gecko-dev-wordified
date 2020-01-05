@@ -198,6 +198,8 @@ jQuery
 events
 "
 getListeners
+:
+function
 (
 node
 )
@@ -371,6 +373,8 @@ eventInfo
 =
 {
 type
+:
+type
 handler
 :
 event
@@ -514,6 +518,8 @@ eventInfo
 =
 {
 type
+:
+type
 handler
 :
 events
@@ -561,6 +567,8 @@ live
 events
 "
 hasListeners
+:
+function
 (
 node
 )
@@ -574,6 +582,8 @@ true
 ;
 }
 getListeners
+:
+function
 (
 node
 )
@@ -587,6 +597,8 @@ false
 ;
 }
 normalizeListener
+:
+function
 (
 handlerDO
 )
@@ -923,6 +935,8 @@ DOM
 events
 "
 hasListeners
+:
+function
 (
 node
 )
@@ -1057,6 +1071,8 @@ false
 ;
 }
 getListeners
+:
+function
 (
 node
 )
@@ -1209,6 +1225,8 @@ React
 events
 "
 hasListeners
+:
+function
 (
 node
 )
@@ -1222,6 +1240,8 @@ true
 ;
 }
 getListeners
+:
+function
 (
 node
 )
@@ -1235,6 +1255,8 @@ false
 ;
 }
 normalizeListener
+:
+function
 (
 handlerDO
 listener
@@ -2512,6 +2534,8 @@ true
 *
 /
 registerEventParser
+:
+function
 (
 parserObj
 )
@@ -2632,6 +2656,8 @@ unregister
 *
 /
 unregisterEventParser
+:
+function
 (
 parserId
 )
@@ -2657,6 +2683,8 @@ parsers
 *
 /
 destroy
+:
+function
 (
 )
 {

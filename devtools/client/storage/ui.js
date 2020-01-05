@@ -1582,6 +1582,8 @@ value
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -1820,6 +1822,8 @@ sidebar
 *
 /
 hideSidebar
+:
+function
 (
 )
 {
@@ -1849,6 +1853,8 @@ clearSelection
 ;
 }
 getCurrentActor
+:
+function
 (
 )
 {
@@ -1898,8 +1904,10 @@ made
 editable
 *
 /
-*
 makeFieldsEditable
+:
+function
+*
 (
 editableFields
 )
@@ -1949,6 +1957,8 @@ destroy
 }
 }
 editItem
+:
+function
 (
 eventType
 data
@@ -2014,6 +2024,8 @@ selected
 *
 /
 removeItemFromTable
+:
+function
 (
 name
 )
@@ -2129,6 +2141,8 @@ cleared
 *
 /
 onCleared
+:
+function
 (
 response
 )
@@ -2565,6 +2579,8 @@ removed
 *
 /
 onUpdate
+:
+function
 (
 {
 changed
@@ -2660,6 +2676,8 @@ docs
 *
 /
 handleAddedItems
+:
+function
 (
 added
 )
@@ -2884,6 +2902,8 @@ docs
 *
 /
 handleDeletedItems
+:
+function
 (
 deleted
 )
@@ -3236,6 +3256,8 @@ docs
 *
 /
 handleChangedItems
+:
+function
 (
 changed
 )
@@ -3804,6 +3826,8 @@ call
 *
 /
 populateStorageTree
+:
+function
 (
 storageTypes
 )
@@ -4729,6 +4753,8 @@ object
 *
 /
 parseItemValue
+:
+function
 (
 name
 originalValue
@@ -5128,6 +5154,8 @@ array
 *
 /
 _extractKeyValPairs
+:
+function
 (
 value
 )
@@ -5566,6 +5594,8 @@ tree
 *
 /
 onHostSelect
+:
+function
 (
 event
 item
@@ -5739,8 +5769,10 @@ type
 .
 *
 /
-*
 resetColumns
+:
+function
+*
 (
 type
 host
@@ -6103,6 +6135,8 @@ file
 *
 /
 populateTable
+:
+function
 (
 data
 reason
@@ -6392,6 +6426,8 @@ event
 *
 /
 handleKeypress
+:
+function
 (
 event
 )
@@ -6516,6 +6552,8 @@ table
 *
 /
 handleScrollEnd
+:
+function
 (
 )
 {
@@ -6645,6 +6683,8 @@ menu
 *
 /
 onTablePopupShowing
+:
+function
 (
 event
 )
@@ -6888,6 +6928,8 @@ true
 }
 }
 onTreePopupShowing
+:
+function
 (
 event
 )
@@ -7212,6 +7254,8 @@ storage
 *
 /
 onRemoveItem
+:
+function
 (
 )
 {
@@ -7322,6 +7366,8 @@ storage
 *
 /
 onRemoveAll
+:
+function
 (
 )
 {
@@ -7449,6 +7495,8 @@ row
 *
 /
 onRemoveAllFrom
+:
+function
 (
 )
 {
@@ -7507,6 +7555,8 @@ host
 ;
 }
 onRemoveTreeItem
+:
+function
 (
 )
 {
@@ -7589,6 +7639,8 @@ path
 }
 }
 removeDatabase
+:
+function
 (
 host
 dbName
@@ -7725,6 +7777,8 @@ PRIORITY_CRITICAL_LOW
 ;
 }
 removeCache
+:
+function
 (
 host
 cacheName

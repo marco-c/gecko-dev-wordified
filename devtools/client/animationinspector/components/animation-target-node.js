@@ -299,6 +299,8 @@ prototype
 =
 {
 init
+:
+function
 (
 containerEl
 )
@@ -320,6 +322,8 @@ false
 ;
 }
 destroy
+:
+function
 (
 )
 {

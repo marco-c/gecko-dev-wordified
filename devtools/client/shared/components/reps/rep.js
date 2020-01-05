@@ -799,6 +799,8 @@ key
 )
 }
 render
+:
+function
 (
 )
 {

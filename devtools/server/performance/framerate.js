@@ -145,6 +145,8 @@ Class
 (
 {
 initialize
+:
+function
 (
 tabActor
 )
@@ -206,6 +208,8 @@ _onGlobalCreated
 ;
 }
 destroy
+:
+function
 (
 conn
 )
@@ -248,6 +252,8 @@ second
 *
 /
 startRecording
+:
+function
 (
 )
 {
@@ -319,6 +325,8 @@ values
 *
 /
 stopRecording
+:
+function
 (
 beginAt
 =
@@ -380,6 +388,8 @@ values
 *
 /
 cancelRecording
+:
+function
 (
 )
 {
@@ -429,6 +439,8 @@ recording
 *
 /
 isRecording
+:
+function
 (
 )
 {
@@ -456,6 +468,8 @@ far
 *
 /
 getPendingTicks
+:
+function
 (
 beginAt
 =
@@ -518,6 +532,8 @@ driver
 *
 /
 _onRefreshDriverTick
+:
+function
 (
 )
 {
@@ -587,6 +603,8 @@ created
 *
 /
 _onGlobalCreated
+:
+function
 (
 win
 )

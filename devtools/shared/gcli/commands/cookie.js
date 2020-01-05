@@ -673,6 +673,8 @@ returnType
 cookies
 "
 exec
+:
+function
 (
 args
 context
@@ -928,6 +930,8 @@ cookieRemoveKeyDesc
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -1111,6 +1115,8 @@ to
 view
 "
 exec
+:
+function
 (
 cookies
 context
@@ -1744,6 +1750,8 @@ allowEval
 true
 }
 cookies
+:
+cookies
 onclick
 :
 context
@@ -2016,6 +2024,8 @@ cookieSetExpiresDesc
 }
 ]
 exec
+:
+function
 (
 args
 context

@@ -471,6 +471,8 @@ any
 *
 /
 updateEditor
+:
+function
 (
 )
 {
@@ -509,6 +511,8 @@ property
 *
 /
 updateComputed
+:
+function
 (
 )
 {
@@ -754,6 +758,8 @@ instance
 *
 /
 set
+:
+function
 (
 prop
 )
@@ -829,6 +835,8 @@ updateEditor
 }
 }
 setValue
+:
+function
 (
 value
 priority
@@ -934,6 +942,8 @@ update
 *
 /
 noticeNewValue
+:
+function
 (
 value
 )
@@ -964,6 +974,8 @@ updateEditor
 }
 }
 setName
+:
+function
 (
 name
 )
@@ -1030,6 +1042,8 @@ updateEditor
 ;
 }
 setEnabled
+:
+function
 (
 value
 )
@@ -1052,6 +1066,8 @@ updateEditor
 ;
 }
 remove
+:
+function
 (
 )
 {
@@ -1081,6 +1097,8 @@ property
 *
 /
 stringifyProperty
+:
+function
 (
 )
 {
@@ -1187,6 +1205,8 @@ otherwise
 *
 /
 isKnownProperty
+:
+function
 (
 )
 {
@@ -1246,6 +1266,8 @@ otherwise
 *
 /
 isValid
+:
+function
 (
 )
 {

@@ -784,6 +784,8 @@ filterText
 ;
 }
 getExpandedNodes
+:
+function
 (
 object
 path

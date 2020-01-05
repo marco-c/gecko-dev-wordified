@@ -246,6 +246,8 @@ center
 :
 true
 selector
+:
+selector
 }
 )
 ;

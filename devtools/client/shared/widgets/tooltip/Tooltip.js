@@ -1348,6 +1348,8 @@ pixels
 *
 /
 show
+:
+function
 (
 anchor
 position
@@ -1398,6 +1400,8 @@ tooltip
 *
 /
 hide
+:
+function
 (
 )
 {
@@ -1419,6 +1423,8 @@ hidePopup
 ;
 }
 isShown
+:
+function
 (
 )
 {
@@ -1455,6 +1461,8 @@ hiding
 ;
 }
 setSize
+:
+function
 (
 width
 height
@@ -1484,6 +1492,8 @@ content
 *
 /
 empty
+:
+function
 (
 )
 {
@@ -1531,6 +1541,8 @@ boolean
 *
 /
 isHidden
+:
+function
 (
 )
 {
@@ -1578,6 +1590,8 @@ boolean
 *
 /
 isEmpty
+:
+function
 (
 )
 {
@@ -1606,6 +1620,8 @@ listeners
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -2061,6 +2077,8 @@ container
 *
 /
 setTextContent
+:
+function
 (
 {
 messages
@@ -2437,6 +2455,8 @@ window
 *
 /
 setIFrameContent
+:
+function
 (
 {
 width

@@ -277,6 +277,8 @@ constructor
 *
 /
 open
+:
+function
 (
 )
 {
@@ -458,6 +460,8 @@ inspector
 *
 /
 destroy
+:
+function
 (
 )
 {

@@ -275,6 +275,8 @@ FrontClassWithSpec
 cssUsageSpec
 {
 initialize
+:
+function
 (
 client
 form
@@ -607,6 +609,8 @@ running
 *
 /
 isRunning
+:
+function
 (
 )
 {

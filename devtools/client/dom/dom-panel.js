@@ -443,6 +443,8 @@ _opening
 /
 Initialization
 initialize
+:
+function
 (
 )
 {
@@ -622,6 +624,8 @@ _destroying
 /
 Events
 refresh
+:
+function
 (
 )
 {
@@ -761,6 +765,8 @@ it
 *
 /
 onTabNavigated
+:
+function
 (
 )
 {
@@ -800,6 +806,8 @@ selected
 *
 /
 onPanelVisibilityChange
+:
+function
 (
 )
 {
@@ -830,6 +838,8 @@ selected
 *
 /
 isPanelVisible
+:
+function
 (
 )
 {
@@ -848,6 +858,8 @@ dom
 ;
 }
 getPrototypeAndProperties
+:
+function
 (
 grip
 )
@@ -1080,6 +1092,8 @@ promise
 ;
 }
 getRootGrip
+:
+function
 (
 )
 {
@@ -1142,6 +1156,8 @@ promise
 ;
 }
 postContentMessage
+:
+function
 (
 type
 args
@@ -1152,6 +1168,10 @@ data
 =
 {
 type
+:
+type
+args
+:
 args
 }
 ;
@@ -1180,6 +1200,8 @@ cancelable
 :
 true
 data
+:
+data
 }
 )
 ;
@@ -1194,6 +1216,8 @@ event
 ;
 }
 onContentMessage
+:
+function
 (
 event
 )
@@ -1273,6 +1297,8 @@ createObjectIn
 (
 win
 {
+defineAs
+:
 defineAs
 }
 )

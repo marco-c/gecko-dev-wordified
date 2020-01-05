@@ -169,7 +169,13 @@ arguments
 return
 {
 resolve
+:
+resolve
 reject
+:
+reject
+promise
+:
 promise
 }
 ;

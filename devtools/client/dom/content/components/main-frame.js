@@ -287,6 +287,8 @@ content
 *
 /
 render
+:
+function
 (
 )
 {

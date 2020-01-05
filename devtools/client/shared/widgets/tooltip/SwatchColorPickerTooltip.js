@@ -507,6 +507,8 @@ spectrum
 *
 /
 setColorPickerContent
+:
+function
 (
 color
 )
@@ -994,6 +996,8 @@ ready
 }
 )
 _onSpectrumColorChange
+:
+function
 (
 event
 rgba
@@ -1009,6 +1013,8 @@ cssColor
 ;
 }
 _selectColor
+:
+function
 (
 color
 )
@@ -1083,6 +1089,8 @@ commit
 }
 }
 _openEyeDropper
+:
+function
 (
 )
 {
@@ -1240,6 +1248,8 @@ _onEyeDropperDone
 ;
 }
 _onEyeDropperDone
+:
+function
 (
 )
 {
@@ -1257,6 +1267,8 @@ null
 ;
 }
 _colorToRgba
+:
+function
 (
 color
 )
@@ -1301,6 +1313,8 @@ a
 ;
 }
 _toDefaultType
+:
+function
 (
 color
 )
@@ -1337,6 +1351,8 @@ toString
 ;
 }
 destroy
+:
+function
 (
 )
 {

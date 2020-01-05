@@ -1195,6 +1195,8 @@ p
 >
 "
 also
+:
+function
 (
 options
 )
@@ -1272,6 +1274,8 @@ data
 :
 {
 adjust
+:
+function
 (
 element
 )
@@ -1737,6 +1741,8 @@ data
 :
 {
 foo
+:
+function
 (
 )
 {

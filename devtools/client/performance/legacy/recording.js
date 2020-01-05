@@ -404,6 +404,8 @@ PerformanceFront
 *
 /
 _populate
+:
+function
 (
 info
 )
@@ -654,6 +656,8 @@ fetched
 *
 /
 _onStoppingRecording
+:
+function
 (
 endTime
 )
@@ -904,6 +908,8 @@ number
 *
 /
 _getProfilerStartTime
+:
+function
 (
 )
 {
@@ -930,6 +936,8 @@ ticks
 *
 /
 _addTimelineData
+:
+function
 (
 eventName
 .

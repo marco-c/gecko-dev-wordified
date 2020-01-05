@@ -588,6 +588,8 @@ command
 *
 /
 generateCommand
+:
+function
 (
 data
 )
@@ -1262,6 +1264,8 @@ otherwise
 *
 /
 isUrlEncodedRequest
+:
+function
 (
 data
 )
@@ -1404,6 +1408,8 @@ otherwise
 *
 /
 isMultipartRequest
+:
+function
 (
 data
 )
@@ -1532,6 +1538,8 @@ parameters
 *
 /
 writePostDataTextParams
+:
+function
 (
 postDataText
 )
@@ -1625,6 +1633,8 @@ found
 *
 /
 findHeader
+:
+function
 (
 headers
 name
@@ -1726,6 +1736,8 @@ request
 *
 /
 getMultipartBoundary
+:
+function
 (
 data
 )
@@ -1921,6 +1933,8 @@ data
 *
 /
 removeBinaryDataFromMultipartText
+:
+function
 (
 multipartText
 boundary
@@ -2198,6 +2212,8 @@ x
 *
 /
 getHeadersFromMultipartText
+:
+function
 (
 multipartText
 )
@@ -2506,6 +2522,8 @@ DevTools
 *
 /
 escapeStringPosix
+:
+function
 (
 str
 )
@@ -2769,6 +2787,8 @@ DevTools
 *
 /
 escapeStringWin
+:
+function
 (
 str
 )

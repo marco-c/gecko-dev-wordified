@@ -194,6 +194,8 @@ trace
 =
 {
 log
+:
+function
 (
 .
 .
@@ -367,6 +369,8 @@ ServerLoggerMonitor
 /
 Initialization
 initialize
+:
+function
 (
 )
 {
@@ -570,6 +574,8 @@ Child
 Message
 Handling
 onChildMessage
+:
+function
 (
 msg
 )
@@ -649,6 +655,8 @@ undefined
 }
 }
 onAttachChild
+:
+function
 (
 event
 )
@@ -771,6 +779,8 @@ target
 ;
 }
 onDetachChild
+:
+function
 (
 event
 )
@@ -1074,6 +1084,10 @@ push
 (
 {
 header
+:
+header
+value
+:
 value
 }
 )
@@ -1117,6 +1131,8 @@ method
 "
 examineHeaders
 "
+headers
+:
 headers
 }
 )

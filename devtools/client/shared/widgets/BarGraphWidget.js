@@ -851,6 +851,8 @@ buildBackgroundImage
 *
 /
 buildBackgroundImage
+:
+function
 (
 )
 {
@@ -958,6 +960,8 @@ buildGraphImage
 *
 /
 buildGraphImage
+:
+function
 (
 )
 {
@@ -1135,6 +1139,10 @@ this
 .
 _data
 dataScaleX
+:
+dataScaleX
+minBarsWidth
+:
 minBarsWidth
 }
 )
@@ -1465,6 +1473,8 @@ push
 (
 {
 type
+:
+type
 start
 :
 prevRight
@@ -1476,6 +1486,8 @@ top
 bottom
 -
 averageHeight
+bottom
+:
 bottom
 }
 )
@@ -1782,6 +1794,8 @@ getMappedSelection
 *
 /
 buildMaskImage
+:
+function
 (
 highlights
 inPixels
@@ -2234,6 +2248,8 @@ graph
 *
 /
 _calcMaxHeight
+:
+function
 (
 {
 data
@@ -2401,6 +2417,8 @@ graph
 *
 /
 _createLegend
+:
+function
 (
 )
 {
@@ -2463,6 +2481,8 @@ graph
 *
 /
 _createLegendItem
+:
+function
 (
 color
 label
@@ -2675,6 +2695,8 @@ hovered
 *
 /
 _onLegendMouseOver
+:
+function
 (
 ev
 )
@@ -2784,6 +2806,8 @@ unhovered
 *
 /
 _onLegendMouseOut
+:
+function
 (
 )
 {
@@ -2857,6 +2881,8 @@ pressed
 *
 /
 _onLegendMouseDown
+:
+function
 (
 ev
 )
@@ -2996,6 +3022,8 @@ released
 *
 /
 _onLegendMouseUp
+:
+function
 (
 e
 )

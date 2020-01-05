@@ -226,6 +226,8 @@ PropTypes
 func
 }
 getLocation
+:
+function
 (
 grip
 )
@@ -252,6 +254,8 @@ location
 ;
 }
 getTitle
+:
+function
 (
 grip
 )
@@ -302,6 +306,8 @@ return
 ;
 }
 getTooltip
+:
+function
 (
 doc
 )
@@ -428,6 +434,8 @@ Document
 rep
 :
 Document
+supportsObject
+:
 supportsObject
 }
 ;

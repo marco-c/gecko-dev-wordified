@@ -347,6 +347,8 @@ OptionsView
 *
 /
 initialize
+:
+function
 (
 )
 {
@@ -658,6 +660,8 @@ observer
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -724,6 +728,8 @@ prefName
 *
 /
 getPref
+:
+function
 (
 prefName
 )
@@ -780,6 +786,8 @@ button
 *
 /
 _onPrefChange
+:
+function
 (
 _
 prefName
@@ -920,6 +928,8 @@ accordingly
 *
 /
 _onOptionChange
+:
+function
 (
 mutations
 )
@@ -1002,6 +1012,8 @@ tests
 *
 /
 _onPopupShown
+:
+function
 (
 )
 {
@@ -1050,6 +1062,8 @@ tests
 *
 /
 _onPopupHidden
+:
+function
 (
 )
 {
@@ -1188,6 +1202,8 @@ name
 *
 /
 get
+:
+function
 (
 prefName
 )
@@ -1230,6 +1246,8 @@ name
 *
 /
 set
+:
+function
 (
 prefName
 value
@@ -1254,6 +1272,8 @@ value
 ;
 }
 register
+:
+function
 (
 )
 {
@@ -1271,6 +1291,8 @@ false
 ;
 }
 unregister
+:
+function
 (
 )
 {
@@ -1287,6 +1309,8 @@ this
 ;
 }
 observe
+:
+function
 (
 subject
 topic

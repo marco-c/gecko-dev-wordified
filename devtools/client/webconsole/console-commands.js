@@ -206,6 +206,8 @@ state
 :
 {
 isChecked
+:
+function
 (
 target
 )
@@ -234,6 +236,8 @@ splitConsole
 ;
 }
 onChange
+:
+function
 (
 target
 changeHandler
@@ -286,6 +290,8 @@ null
 changed
 "
 {
+target
+:
 target
 }
 )
@@ -341,6 +347,8 @@ callback
 }
 }
 exec
+:
+function
 (
 args
 context
@@ -464,6 +472,8 @@ consoleclearDesc
 "
 )
 exec
+:
+function
 (
 args
 context
@@ -580,6 +590,8 @@ consolecloseDesc
 "
 )
 exec
+:
+function
 (
 args
 context
@@ -647,6 +659,8 @@ consoleopenDesc
 "
 )
 exec
+:
+function
 (
 args
 context

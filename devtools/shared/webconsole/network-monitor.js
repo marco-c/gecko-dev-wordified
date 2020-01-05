@@ -2258,6 +2258,8 @@ void
 *
 /
 setAsyncListener
+:
+function
 (
 stream
 listener
@@ -2375,6 +2377,8 @@ count
 *
 /
 onDataAvailable
+:
+function
 (
 request
 context
@@ -2476,6 +2480,8 @@ context
 *
 /
 onStartRequest
+:
+function
 (
 request
 )
@@ -3107,6 +3113,8 @@ NsIRequestObserver
 *
 /
 onStopRequest
+:
+function
 (
 )
 {
@@ -3164,6 +3172,8 @@ encoded
 *
 /
 onProgress
+:
+function
 (
 request
 context
@@ -3214,6 +3224,8 @@ arguments
 ;
 }
 onStatus
+:
+function
 (
 )
 {
@@ -3300,6 +3312,8 @@ private
 *
 /
 _findOpenResponse
+:
+function
 (
 )
 {
@@ -3468,6 +3482,8 @@ void
 *
 /
 onStreamClose
+:
+function
 (
 )
 {
@@ -3664,6 +3680,8 @@ cache
 *
 /
 _onComplete
+:
+function
 (
 data
 )
@@ -3922,6 +3940,8 @@ void
 *
 /
 onInputStreamReady
+:
+function
 (
 stream
 )
@@ -4628,6 +4648,8 @@ initializer
 *
 /
 init
+:
+function
 (
 )
 {
@@ -4831,6 +4853,8 @@ null
 ;
 }
 _getThrottler
+:
+function
 (
 )
 {
@@ -4874,6 +4898,8 @@ _throttler
 ;
 }
 _serviceWorkerRequest
+:
+function
 (
 subject
 topic
@@ -5011,6 +5037,8 @@ void
 *
 /
 _httpResponseExaminer
+:
+function
 (
 subject
 topic
@@ -5152,6 +5180,8 @@ gSequenceId
 (
 )
 channel
+:
+channel
 headers
 :
 [
@@ -5173,6 +5203,8 @@ visitResponseHeaders
 (
 {
 visitHeader
+:
+function
 (
 name
 value
@@ -5212,6 +5244,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
@@ -5452,6 +5488,8 @@ fromCache
 !
 fromServiceWorker
 fromServiceWorker
+:
+fromServiceWorker
 }
 )
 ;
@@ -5578,6 +5616,8 @@ void
 *
 /
 _httpModifyExaminer
+:
+function
 (
 subject
 )
@@ -5694,6 +5734,8 @@ observeActivity
 *
 /
 _dispatchActivity
+:
+function
 (
 httpActivity
 channel
@@ -6169,6 +6211,8 @@ extraStringData
 *
 /
 _createNetworkEvent
+:
+function
 (
 channel
 {
@@ -6614,6 +6658,8 @@ visitRequestHeaders
 (
 {
 visitHeader
+:
+function
 (
 name
 value
@@ -6640,6 +6686,10 @@ push
 (
 {
 name
+:
+name
+value
+:
 value
 }
 )
@@ -6774,6 +6824,8 @@ void
 *
 /
 _onRequestHeader
+:
+function
 (
 channel
 timestamp
@@ -6856,6 +6908,8 @@ found
 *
 /
 _findActivityObject
+:
+function
 (
 channel
 )
@@ -7003,6 +7057,8 @@ object
 *
 /
 createOrGetActivityObject
+:
+function
 (
 channel
 )
@@ -7055,12 +7111,16 @@ gSequenceId
 (
 )
 channel
+:
+channel
 /
 /
 see
 _onRequestBodySent
 (
 )
+charset
+:
 charset
 sentBody
 :
@@ -7198,6 +7258,8 @@ tracking
 *
 /
 _setupResponseListener
+:
+function
 (
 httpActivity
 fromCache
@@ -7486,6 +7548,8 @@ with
 *
 /
 _onRequestBodySent
+:
+function
 (
 httpActivity
 )
@@ -7758,6 +7822,8 @@ headers
 *
 /
 _onResponseHeader
+:
+function
 (
 httpActivity
 extraStringData
@@ -8104,6 +8170,8 @@ with
 *
 /
 _onTransactionClose
+:
+function
 (
 httpActivity
 )
@@ -8269,6 +8337,8 @@ object
 *
 /
 _setupHarTimings
+:
+function
 (
 httpActivity
 fromCache
@@ -8729,6 +8799,8 @@ closed
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -9267,6 +9339,8 @@ _throttleData
 ;
 }
 init
+:
+function
 (
 )
 {
@@ -9580,6 +9654,8 @@ args
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -9959,6 +10035,10 @@ this
 .
 id
 method
+:
+method
+args
+:
 args
 }
 )
@@ -10057,6 +10137,8 @@ id
 this
 .
 id
+event
+:
 event
 }
 )
@@ -10794,6 +10876,8 @@ event
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -11102,6 +11186,8 @@ private
 *
 /
 _init
+:
+function
 (
 )
 {
@@ -11225,6 +11311,8 @@ window
 *
 /
 startMonitor
+:
+function
 (
 monitor
 )
@@ -11327,6 +11415,8 @@ constants
 *
 /
 stopMonitor
+:
+function
 (
 monitor
 )
@@ -11407,6 +11497,8 @@ destroy
 }
 }
 onStateChange
+:
+function
 (
 progress
 request
@@ -11509,6 +11601,8 @@ private
 *
 /
 _checkFileActivity
+:
+function
 (
 progress
 request
@@ -11680,6 +11774,8 @@ private
 *
 /
 _checkLocationChange
+:
+function
 (
 progress
 request
@@ -11826,21 +11922,29 @@ title
 }
 }
 onLocationChange
+:
+function
 (
 )
 {
 }
 onStatusChange
+:
+function
 (
 )
 {
 }
 onProgressChange
+:
+function
 (
 )
 {
 }
 onSecurityChange
+:
+function
 (
 )
 {
@@ -11856,6 +11960,8 @@ ConsoleProgressListener
 *
 /
 destroy
+:
+function
 (
 )
 {

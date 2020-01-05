@@ -573,6 +573,8 @@ server
 *
 /
 _onNetworkEvent
+:
+function
 (
 type
 packet
@@ -765,6 +767,8 @@ server
 *
 /
 _onNetworkEventUpdate
+:
+function
 (
 type
 packet
@@ -1029,6 +1033,8 @@ networkEventUpdate
 "
 {
 packet
+:
+packet
 networkInfo
 }
 )
@@ -1107,6 +1113,8 @@ interfaces
 *
 /
 getCachedMessages
+:
+function
 (
 types
 onResponse
@@ -1199,6 +1207,8 @@ interfaces
 *
 /
 inspectObjectProperties
+:
+function
 (
 actor
 onResponse
@@ -1527,6 +1537,8 @@ interfaces
 *
 /
 evaluateJS
+:
+function
 (
 string
 onResponse
@@ -1614,6 +1626,8 @@ information
 *
 /
 evaluateJSAsync
+:
+function
 (
 string
 onResponse
@@ -1823,6 +1837,8 @@ packet
 *
 /
 onEvaluationResult
+:
+function
 (
 notification
 packet
@@ -2079,6 +2095,8 @@ interfaces
 *
 /
 autocomplete
+:
+function
 (
 string
 cursor
@@ -2104,6 +2122,10 @@ text
 :
 string
 cursor
+:
+cursor
+frameActor
+:
 frameActor
 }
 ;
@@ -2154,6 +2176,8 @@ interfaces
 *
 /
 clearMessagesCache
+:
+function
 (
 )
 {
@@ -2247,6 +2271,8 @@ interfaces
 *
 /
 getPreferences
+:
+function
 (
 preferences
 onResponse
@@ -2266,6 +2292,8 @@ type
 "
 getPreferences
 "
+preferences
+:
 preferences
 }
 ;
@@ -2344,6 +2372,8 @@ interfaces
 *
 /
 setPreferences
+:
+function
 (
 preferences
 onResponse
@@ -2363,6 +2393,8 @@ type
 "
 setPreferences
 "
+preferences
+:
 preferences
 }
 ;
@@ -2431,6 +2463,8 @@ interfaces
 *
 /
 getRequestHeaders
+:
+function
 (
 actor
 onResponse
@@ -2515,6 +2549,8 @@ interfaces
 *
 /
 getRequestCookies
+:
+function
 (
 actor
 onResponse
@@ -2600,6 +2636,8 @@ interfaces
 *
 /
 getRequestPostData
+:
+function
 (
 actor
 onResponse
@@ -2684,6 +2722,8 @@ interfaces
 *
 /
 getResponseHeaders
+:
+function
 (
 actor
 onResponse
@@ -2768,6 +2808,8 @@ interfaces
 *
 /
 getResponseCookies
+:
+function
 (
 actor
 onResponse
@@ -2852,6 +2894,8 @@ interfaces
 *
 /
 getResponseContent
+:
+function
 (
 actor
 onResponse
@@ -2936,6 +2980,8 @@ interfaces
 *
 /
 getEventTimings
+:
+function
 (
 actor
 onResponse
@@ -3020,6 +3066,8 @@ interfaces
 *
 /
 getSecurityInfo
+:
+function
 (
 actor
 onResponse
@@ -3107,6 +3155,8 @@ interfaces
 *
 /
 sendHTTPRequest
+:
+function
 (
 data
 onResponse
@@ -3213,6 +3263,8 @@ interfaces
 *
 /
 startListeners
+:
+function
 (
 listeners
 onResponse
@@ -3232,6 +3284,8 @@ type
 "
 startListeners
 "
+listeners
+:
 listeners
 }
 ;
@@ -3317,6 +3371,8 @@ interfaces
 *
 /
 stopListeners
+:
+function
 (
 listeners
 onResponse
@@ -3336,6 +3392,8 @@ type
 "
 stopListeners
 "
+listeners
+:
 listeners
 }
 ;
@@ -3398,6 +3456,8 @@ grip
 *
 /
 longString
+:
+function
 (
 grip
 )
@@ -3494,6 +3554,8 @@ received
 *
 /
 detach
+:
+function
 (
 onResponse
 )
@@ -3588,6 +3650,8 @@ null
 ;
 }
 clearNetworkRequests
+:
+function
 (
 )
 {
@@ -3687,6 +3751,8 @@ wrong
 *
 /
 getString
+:
+function
 (
 stringGrip
 )

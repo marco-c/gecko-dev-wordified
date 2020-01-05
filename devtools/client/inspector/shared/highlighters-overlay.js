@@ -451,6 +451,8 @@ overlay
 *
 /
 addToView
+:
+function
 (
 view
 )
@@ -603,6 +605,8 @@ overlay
 *
 /
 removeFromView
+:
+function
 (
 view
 )
@@ -1120,6 +1124,8 @@ highlighter
 *
 /
 _getHighlighter
+:
+function
 (
 type
 )
@@ -1247,6 +1253,8 @@ active
 *
 /
 _toggleRuleViewGridIcon
+:
+function
 (
 node
 active
@@ -1328,6 +1336,8 @@ highlighter
 *
 /
 _hideHoveredHighlighter
+:
+function
 (
 )
 {
@@ -1504,6 +1514,8 @@ Boolean
 *
 /
 _isComputedViewTransform
+:
+function
 (
 nodeInfo
 )
@@ -1578,6 +1590,8 @@ Boolean
 *
 /
 _isRuleViewDisplayGrid
+:
+function
 (
 node
 )
@@ -1637,6 +1651,8 @@ Boolean
 *
 /
 _isRuleViewTransform
+:
+function
 (
 nodeInfo
 )
@@ -1703,6 +1719,8 @@ isEnabled
 ;
 }
 onClick
+:
+function
 (
 event
 )
@@ -1758,6 +1776,8 @@ nodeFront
 ;
 }
 onMouseMove
+:
+function
 (
 event
 )
@@ -1980,6 +2000,8 @@ shown
 }
 }
 onMouseOut
+:
+function
 (
 event
 )
@@ -2064,6 +2086,8 @@ navigate
 *
 /
 onWillNavigate
+:
+function
 (
 )
 {
@@ -2109,6 +2133,8 @@ highlighters
 *
 /
 destroy
+:
+function
 (
 )
 {

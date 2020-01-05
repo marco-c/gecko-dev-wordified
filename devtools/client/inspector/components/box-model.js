@@ -464,6 +464,8 @@ value
 *
 /
 getPropertyFromRule
+:
+function
 (
 rule
 property
@@ -592,6 +594,8 @@ string
 *
 /
 getProperty
+:
+function
 (
 property
 )
@@ -834,6 +838,8 @@ rule
 *
 /
 getPropertyIndex
+:
+function
 (
 name
 rule
@@ -1427,6 +1433,8 @@ apply
 }
 )
 destroy
+:
+function
 (
 )
 {
@@ -1638,6 +1646,8 @@ prototype
 =
 {
 init
+:
+function
 (
 )
 {
@@ -2443,6 +2453,8 @@ onGeometryButtonClick
 ;
 }
 initBoxModelHighlighter
+:
+function
 (
 )
 {
@@ -2545,6 +2557,8 @@ tab
 *
 /
 trackReflows
+:
+function
 (
 )
 {
@@ -2634,6 +2648,8 @@ tab
 *
 /
 untrackReflows
+:
+function
 (
 )
 {
@@ -2694,6 +2710,8 @@ view
 *
 /
 initEditor
+:
+function
 (
 element
 event
@@ -2733,6 +2751,8 @@ new
 InplaceEditor
 (
 {
+element
+:
 element
 initial
 :
@@ -2809,6 +2829,8 @@ properties
 name
 :
 property
+value
+:
 value
 }
 ]
@@ -3022,6 +3044,8 @@ Boolean
 *
 /
 isViewVisible
+:
+function
 (
 )
 {
@@ -3080,6 +3104,8 @@ Boolean
 *
 /
 isViewVisibleAndNodeValid
+:
+function
 (
 )
 {
@@ -3127,6 +3153,8 @@ listeners
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -3518,6 +3546,8 @@ null
 }
 }
 onSidebarSelect
+:
+function
 (
 e
 sidebar
@@ -3555,6 +3585,8 @@ handler
 *
 /
 onNewSelection
+:
+function
 (
 )
 {
@@ -3642,6 +3674,8 @@ updated
 *
 /
 onNewNode
+:
+function
 (
 )
 {
@@ -3665,6 +3699,8 @@ update
 ;
 }
 onHighlightMouseOver
+:
+function
 (
 e
 )
@@ -3711,6 +3747,8 @@ true
 ;
 }
 onHighlightMouseOut
+:
+function
 (
 )
 {
@@ -3722,6 +3760,8 @@ hideBoxModel
 ;
 }
 onGeometryButtonClick
+:
+function
 (
 {
 target
@@ -3779,6 +3819,8 @@ showGeometryEditor
 }
 }
 onPickerStarted
+:
+function
 (
 )
 {
@@ -3790,6 +3832,8 @@ hideGeometryEditor
 ;
 }
 onToggleExpander
+:
+function
 (
 )
 {
@@ -3858,6 +3902,8 @@ open
 }
 }
 onMarkupViewLeave
+:
+function
 (
 )
 {
@@ -3870,6 +3916,8 @@ true
 ;
 }
 onMarkupViewNodeHover
+:
+function
 (
 )
 {
@@ -3882,6 +3930,8 @@ false
 ;
 }
 onWillNavigate
+:
+function
 (
 )
 {
@@ -3946,6 +3996,8 @@ wrapper
 *
 /
 onFilterComputedView
+:
+function
 (
 reason
 hidden
@@ -4000,6 +4052,8 @@ isActive
 *
 /
 setActive
+:
+function
 (
 isActive
 )
@@ -4082,6 +4136,8 @@ complete
 *
 /
 update
+:
+function
 (
 )
 {
@@ -4874,6 +4930,8 @@ getApplied
 *
 /
 updateSourceRuleTooltip
+:
+function
 (
 el
 property
@@ -5133,6 +5191,8 @@ actor
 *
 /
 showBoxModel
+:
+function
 (
 options
 =
@@ -5189,6 +5249,8 @@ element
 *
 /
 hideBoxModel
+:
+function
 (
 )
 {
@@ -5256,6 +5318,8 @@ hidden
 *
 /
 showGeometryEditor
+:
+function
 (
 showOnlyIfActive
 =
@@ -5533,6 +5597,8 @@ too
 *
 /
 hideGeometryEditor
+:
+function
 (
 updateButton
 =
@@ -5704,6 +5770,8 @@ hidden
 }
 )
 manageOverflowingText
+:
+function
 (
 span
 )

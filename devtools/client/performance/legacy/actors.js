@@ -1331,6 +1331,8 @@ backend
 *
 /
 _onProfilerEvent
+:
+function
 (
 _
 {
@@ -1766,6 +1768,8 @@ event
 *
 /
 _onTimelineData
+:
+function
 (
 type
 .

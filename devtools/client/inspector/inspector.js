@@ -1538,6 +1538,8 @@ requests
 *
 /
 _handleRejectionIfNotDestroyed
+:
+function
 (
 e
 )
@@ -1573,6 +1575,8 @@ supports
 *
 /
 _detectActorFeatures
+:
+function
 (
 )
 {
@@ -1769,6 +1773,8 @@ e
 ;
 }
 _deferredOpen
+:
+function
 (
 defaultSelection
 )
@@ -2213,6 +2219,8 @@ promise
 ;
 }
 _onBeforeNavigate
+:
+function
 (
 )
 {
@@ -2251,6 +2259,8 @@ null
 ;
 }
 _getPageStyle
+:
+function
 (
 )
 {
@@ -2302,6 +2312,8 @@ selection
 *
 /
 _getDefaultNodeForSelection
+:
+function
 (
 )
 {
@@ -2699,6 +2711,8 @@ notification
 *
 /
 markDirty
+:
+function
 (
 )
 {
@@ -2727,6 +2741,8 @@ suggestions
 *
 /
 setupSearchBox
+:
+function
 (
 )
 {
@@ -2959,6 +2975,8 @@ autocompleter
 ;
 }
 _updateSearchResultsLabel
+:
+function
 (
 event
 result
@@ -3173,6 +3191,8 @@ mode
 *
 /
 useLandscapeMode
+:
+function
 (
 )
 {
@@ -3224,6 +3244,8 @@ panel
 *
 /
 setupSplitter
+:
+function
 (
 )
 {
@@ -3435,6 +3457,8 @@ up
 *
 /
 teardownSplitter
+:
+function
 (
 )
 {
@@ -3524,6 +3548,8 @@ view
 *
 /
 onPanelWindowResize
+:
+function
 (
 )
 {
@@ -3546,6 +3572,8 @@ useLandscapeMode
 ;
 }
 onSidebarShown
+:
+function
 (
 )
 {
@@ -3677,6 +3705,8 @@ height
 ;
 }
 onSidebarHidden
+:
+function
 (
 )
 {
@@ -3751,6 +3781,8 @@ sidebar
 *
 /
 setupSidebar
+:
+function
 (
 )
 {
@@ -4287,6 +4319,8 @@ selected
 *
 /
 addSidebarTab
+:
+function
 (
 id
 title
@@ -4883,6 +4917,8 @@ title
 }
 )
 teardownToolbar
+:
+function
 (
 )
 {
@@ -4964,6 +5000,8 @@ mutation
 *
 /
 onNewRoot
+:
+function
 (
 )
 {
@@ -5321,6 +5359,8 @@ Boolean
 *
 /
 canAddHTMLChild
+:
+function
 (
 )
 {
@@ -5438,6 +5478,8 @@ selected
 *
 /
 onNewSelection
+:
+function
 (
 event
 value
@@ -5730,6 +5772,8 @@ viewing
 *
 /
 updating
+:
+function
 (
 name
 )
@@ -5802,6 +5846,8 @@ Set
 (
 )
 checkDone
+:
+function
 (
 )
 {
@@ -5970,6 +6016,8 @@ updates
 *
 /
 cancelUpdate
+:
+function
 (
 )
 {
@@ -6021,6 +6069,8 @@ selected
 *
 /
 onDetached
+:
+function
 (
 event
 parentNode
@@ -6072,6 +6122,8 @@ inspector
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -6499,6 +6551,8 @@ null
 *
 /
 _getClipboardContentForPaste
+:
+function
 (
 )
 {
@@ -6592,6 +6646,8 @@ null
 ;
 }
 _onContextMenu
+:
+function
 (
 e
 )
@@ -6667,6 +6723,8 @@ e
 *
 /
 onTextBoxContextMenu
+:
+function
 (
 e
 )
@@ -6699,6 +6757,8 @@ screenY
 ;
 }
 _openMenu
+:
+function
 (
 {
 target
@@ -8034,6 +8094,8 @@ menu
 ;
 }
 _getPasteSubmenu
+:
+function
 (
 isEditableElement
 )
@@ -8514,6 +8576,8 @@ pasteSubmenu
 ;
 }
 _getAttributesSubmenu
+:
+function
 (
 isEditableElement
 )
@@ -8810,6 +8874,8 @@ links
 *
 /
 _getNodeLinkMenuItems
+:
+function
 (
 )
 {
@@ -9182,6 +9248,8 @@ linkCopy
 ;
 }
 _initMarkup
+:
+function
 (
 )
 {
@@ -9363,6 +9431,8 @@ markupView
 ;
 }
 _onMarkupFrameLoad
+:
+function
 (
 )
 {
@@ -9431,6 +9501,8 @@ markuploaded
 ;
 }
 _destroyMarkup
+:
+function
 (
 )
 {
@@ -9573,6 +9645,8 @@ tooltip
 *
 /
 onPaneToggleButtonClicked
+:
+function
 (
 e
 )
@@ -9773,6 +9847,8 @@ sidePaneContainer
 ;
 }
 onEyeDropperButtonClicked
+:
+function
 (
 )
 {
@@ -9801,6 +9877,8 @@ showEyeDropper
 ;
 }
 startEyeDropperListeners
+:
+function
 (
 )
 {
@@ -9856,6 +9934,8 @@ onEyeDropperDone
 ;
 }
 stopEyeDropperListeners
+:
+function
 (
 )
 {
@@ -9911,6 +9991,8 @@ onEyeDropperDone
 ;
 }
 onEyeDropperDone
+:
+function
 (
 )
 {
@@ -9958,6 +10040,8 @@ visible
 *
 /
 showEyeDropper
+:
+function
 (
 )
 {
@@ -10089,6 +10173,8 @@ hidden
 *
 /
 hideEyeDropper
+:
+function
 (
 )
 {
@@ -10319,6 +10405,8 @@ class
 *
 /
 togglePseudoClass
+:
+function
 (
 pseudo
 )
@@ -10425,6 +10513,8 @@ properties
 *
 /
 showDOMProperties
+:
+function
 (
 )
 {
@@ -10536,6 +10626,8 @@ variable
 *
 /
 useInConsole
+:
+function
 (
 )
 {
@@ -10704,6 +10796,8 @@ Node
 *
 /
 editHTML
+:
+function
 (
 )
 {
@@ -10766,6 +10860,8 @@ HTML
 *
 /
 pasteOuterHTML
+:
+function
 (
 )
 {
@@ -10861,6 +10957,8 @@ HTML
 *
 /
 pasteInnerHTML
+:
+function
 (
 )
 {
@@ -10987,6 +11085,8 @@ afterEnd
 *
 /
 pasteAdjacentHTML
+:
+function
 (
 position
 )
@@ -11061,6 +11161,8 @@ clipboard
 *
 /
 copyInnerHTML
+:
+function
 (
 )
 {
@@ -11116,6 +11218,8 @@ clipboard
 *
 /
 copyOuterHTML
+:
+function
 (
 )
 {
@@ -11257,6 +11361,8 @@ clipboard
 *
 /
 copyImageDataUri
+:
+function
 (
 )
 {
@@ -11356,6 +11462,8 @@ clipboard
 *
 /
 _copyLongString
+:
+function
 (
 longStringActorPromise
 )
@@ -11446,6 +11554,8 @@ argument
 *
 /
 _getLongString
+:
+function
 (
 longStringActorPromise
 )
@@ -11533,6 +11643,8 @@ clipboard
 *
 /
 copyUniqueSelector
+:
+function
 (
 )
 {
@@ -11603,6 +11715,8 @@ node
 *
 /
 screenshotNode
+:
+function
 (
 )
 {
@@ -11760,6 +11874,8 @@ view
 *
 /
 scrollNodeIntoView
+:
+function
 (
 )
 {
@@ -11800,6 +11916,8 @@ node
 *
 /
 duplicateNode
+:
+function
 (
 )
 {
@@ -11881,6 +11999,8 @@ node
 *
 /
 deleteNode
+:
+function
 (
 )
 {
@@ -12003,6 +12123,8 @@ directly
 *
 /
 onAddAttribute
+:
+function
 (
 )
 {
@@ -12055,6 +12177,8 @@ directly
 *
 /
 onEditAttribute
+:
+function
 (
 )
 {
@@ -12112,6 +12236,8 @@ directly
 *
 /
 onRemoveAttribute
+:
+function
 (
 )
 {
@@ -12144,6 +12270,8 @@ name
 ;
 }
 expandNode
+:
+function
 (
 )
 {
@@ -12162,6 +12290,8 @@ nodeFront
 ;
 }
 collapseNode
+:
+function
 (
 )
 {
@@ -12212,6 +12342,8 @@ menu
 *
 /
 onFollowLink
+:
+function
 (
 )
 {
@@ -12293,6 +12425,8 @@ debugger
 *
 /
 followAttributeLink
+:
+function
 (
 type
 link
@@ -12646,6 +12780,8 @@ menu
 *
 /
 onCopyLink
+:
+function
 (
 )
 {
@@ -12686,6 +12822,8 @@ links
 *
 /
 copyAttributeLink
+:
+function
 (
 link
 )

@@ -162,6 +162,8 @@ binding
 *
 /
 initialize
+:
+function
 (
 )
 {
@@ -222,6 +224,8 @@ events
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -273,6 +277,8 @@ milliseconds
 *
 /
 render
+:
+function
 (
 interval
 =
@@ -370,6 +376,8 @@ container
 *
 /
 _onLink
+:
+function
 (
 _
 treeItem
@@ -457,6 +465,8 @@ tree
 *
 /
 _prepareCallTree
+:
+function
 (
 allocations
 {
@@ -508,6 +518,8 @@ tree
 *
 /
 _populateCallTree
+:
+function
 (
 frameNode
 options
@@ -586,6 +598,8 @@ CallView
 frame
 :
 frameNode
+inverted
+:
 inverted
 /
 /

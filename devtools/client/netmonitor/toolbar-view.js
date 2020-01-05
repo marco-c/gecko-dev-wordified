@@ -204,6 +204,8 @@ started
 *
 /
 initialize
+:
+function
 (
 store
 )
@@ -268,6 +270,8 @@ closed
 *
 /
 destroy
+:
+function
 (
 )
 {

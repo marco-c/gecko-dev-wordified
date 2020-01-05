@@ -208,6 +208,8 @@ null
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -315,6 +317,8 @@ to
 view
 "
 exec
+:
+function
 (
 [
 errors
@@ -443,6 +447,10 @@ data
 :
 {
 errors
+:
+errors
+manifestURI
+:
 manifestURI
 }
 }
@@ -488,6 +496,8 @@ appCacheClearManual
 "
 )
 exec
+:
+function
 (
 args
 context
@@ -605,6 +615,8 @@ null
 }
 ]
 exec
+:
+function
 (
 args
 context
@@ -647,6 +659,8 @@ to
 view
 "
 exec
+:
+function
 (
 entries
 context
@@ -1149,6 +1163,8 @@ data
 :
 {
 entries
+:
+entries
 onclick
 :
 context
@@ -1232,6 +1248,8 @@ null
 }
 ]
 exec
+:
+function
 (
 args
 context

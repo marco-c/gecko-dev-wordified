@@ -983,6 +983,8 @@ object
 *
 /
 addAnimation
+:
+function
 (
 state
 )
@@ -1205,6 +1207,8 @@ scale
 *
 /
 reset
+:
+function
 (
 )
 {
@@ -1253,6 +1257,8 @@ Number
 *
 /
 startTimeToDistance
+:
+function
 (
 time
 )
@@ -1305,6 +1311,8 @@ Number
 *
 /
 durationToDistance
+:
+function
 (
 duration
 )
@@ -1353,6 +1361,8 @@ Number
 *
 /
 distanceToTime
+:
+function
 (
 distance
 )
@@ -1420,6 +1430,8 @@ Number
 *
 /
 distanceToRelativeTime
+:
+function
 (
 distance
 )
@@ -1480,6 +1492,8 @@ string
 *
 /
 formatTime
+:
+function
 (
 time
 )
@@ -1559,6 +1573,8 @@ toFixed
 ;
 }
 getDuration
+:
+function
 (
 )
 {
@@ -1600,6 +1616,8 @@ timeline
 *
 /
 getAnimationDimensions
+:
+function
 (
 {
 state

@@ -2492,6 +2492,8 @@ val
 ;
 }
 _createInput
+:
+function
 (
 )
 {
@@ -2625,6 +2627,8 @@ editor
 *
 /
 _clear
+:
+function
 (
 )
 {
@@ -2892,6 +2896,8 @@ welcome
 *
 /
 _autosize
+:
+function
 (
 )
 {
@@ -3173,6 +3179,8 @@ _autosize
 *
 /
 _stopAutosize
+:
+function
 (
 )
 {
@@ -3217,6 +3225,8 @@ contents
 *
 /
 _updateSize
+:
+function
 (
 )
 {
@@ -3501,6 +3511,8 @@ popup
 *
 /
 _getInputCharDimensions
+:
+function
 (
 )
 {
@@ -3611,6 +3623,8 @@ incremented
 *
 /
 _incrementValue
+:
+function
 (
 increment
 )
@@ -3817,6 +3831,8 @@ end
 *
 /
 _incrementCSSValue
+:
+function
 (
 value
 increment
@@ -4401,6 +4417,8 @@ found
 *
 /
 _findCompatibleUnit
+:
+function
 (
 beforeValue
 afterValue
@@ -4632,6 +4650,8 @@ type
 *
 /
 _parseCSSValue
+:
+function
 (
 value
 offset
@@ -5020,6 +5040,8 @@ m
 .
 length
 type
+:
+type
 }
 ;
 }
@@ -5136,6 +5158,8 @@ end
 *
 /
 _incrementGenericValue
+:
+function
 (
 value
 increment
@@ -5604,6 +5628,8 @@ mid
 +
 last
 start
+:
+start
 end
 :
 start
@@ -5686,6 +5712,8 @@ value
 *
 /
 _incrementRawValue
+:
+function
 (
 rawValue
 increment
@@ -5944,6 +5972,8 @@ selection
 *
 /
 _incHexColor
+:
+function
 (
 rawValue
 increment
@@ -6637,6 +6667,8 @@ popup
 *
 /
 _cycleCSSSuggestion
+:
+function
 (
 reverse
 noSelect
@@ -6932,6 +6964,8 @@ out
 *
 /
 _apply
+:
+function
 (
 event
 direction
@@ -7011,6 +7045,8 @@ opening
 *
 /
 _onWindowBlur
+:
+function
 (
 )
 {
@@ -7080,6 +7116,8 @@ focus
 *
 /
 _onBlur
+:
+function
 (
 event
 )
@@ -7155,6 +7193,8 @@ event
 *
 /
 _onAutocompletePopupClick
+:
+function
 (
 )
 {
@@ -7166,6 +7206,8 @@ _acceptPopupSuggestion
 ;
 }
 _acceptPopupSuggestion
+:
+function
 (
 )
 {
@@ -7557,6 +7599,8 @@ event
 *
 /
 _onKeyPress
+:
+function
 (
 event
 )
@@ -8535,6 +8579,8 @@ preventDefault
 }
 }
 _onContextMenu
+:
+function
 (
 event
 )
@@ -8619,6 +8665,8 @@ selected
 *
 /
 _openAutocompletePopup
+:
+function
 (
 offset
 selectedIndex
@@ -8676,6 +8724,8 @@ popup
 *
 /
 _hideAutocompletePopup
+:
+function
 (
 )
 {
@@ -8725,6 +8775,8 @@ event
 *
 /
 _getIncrement
+:
+function
 (
 event
 )
@@ -8880,6 +8932,8 @@ event
 *
 /
 _onKeyup
+:
+function
 (
 )
 {
@@ -8904,6 +8958,8 @@ text
 *
 /
 _onInput
+:
+function
 (
 )
 {
@@ -8987,6 +9043,8 @@ event
 *
 /
 _stopEventPropagation
+:
+function
 (
 e
 )
@@ -9011,6 +9069,8 @@ input
 *
 /
 _doValidation
+:
+function
 (
 )
 {
@@ -9073,6 +9133,8 @@ suggestion
 *
 /
 _maybeSuggestCompletion
+:
+function
 (
 autoInsert
 )
@@ -10685,6 +10747,8 @@ text
 *
 /
 _isSingleLine
+:
+function
 (
 )
 {
@@ -10761,6 +10825,8 @@ Strings
 *
 /
 _getCSSPropertyList
+:
+function
 (
 )
 {
@@ -10839,6 +10905,8 @@ Strings
 *
 /
 _getCSSValuesForPropertyName
+:
+function
 (
 propertyName
 )

@@ -559,6 +559,8 @@ center
 :
 true
 selector
+:
+selector
 }
 )
 ;

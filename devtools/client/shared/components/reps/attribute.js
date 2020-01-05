@@ -250,6 +250,8 @@ PropTypes
 func
 }
 getTitle
+:
+function
 (
 grip
 )
@@ -411,6 +413,8 @@ Attribute
 rep
 :
 Attribute
+supportsObject
+:
 supportsObject
 }
 ;

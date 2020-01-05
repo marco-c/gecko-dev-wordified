@@ -609,6 +609,8 @@ buildBackgroundImage
 *
 /
 buildBackgroundImage
+:
+function
 (
 )
 {
@@ -689,6 +691,8 @@ buildGraphImage
 *
 /
 buildGraphImage
+:
+function
 (
 )
 {

@@ -233,6 +233,8 @@ PropTypes
 func
 }
 getDefaultProps
+:
+function
 (
 )
 {
@@ -246,6 +248,8 @@ idPrefix
 ;
 }
 componentDidMount
+:
+function
 (
 )
 {
@@ -331,6 +335,8 @@ props
 }
 }
 componentWillUnmount
+:
+function
 (
 )
 {
@@ -387,6 +393,8 @@ firstChild
 ;
 }
 render
+:
+function
 (
 )
 {

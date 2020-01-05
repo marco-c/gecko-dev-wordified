@@ -232,8 +232,10 @@ draggable
 true
 }
 {
-*
 node
+:
+function
+*
 (
 inspector
 )
@@ -289,8 +291,10 @@ draggable
 true
 }
 {
-*
 node
+:
+function
+*
 (
 inspector
 )

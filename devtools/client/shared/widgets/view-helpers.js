@@ -207,6 +207,8 @@ heritage
 *
 /
 extend
+:
+function
 (
 prototype
 properties
@@ -246,6 +248,8 @@ heritage
 *
 /
 getOwnPropertyDescriptors
+:
+function
 (
 object
 )
@@ -788,6 +792,8 @@ preventDefault
 *
 /
 dispatchEvent
+:
+function
 (
 target
 type
@@ -916,6 +922,8 @@ to
 *
 /
 delegateWidgetAttributeMethods
+:
+function
 (
 widget
 node
@@ -1025,6 +1033,8 @@ to
 *
 /
 delegateWidgetEventMethods
+:
+function
 (
 widget
 node
@@ -1109,6 +1119,8 @@ emitter
 *
 /
 isEventEmitter
+:
+function
 (
 object
 )
@@ -1172,6 +1184,8 @@ otherwise
 *
 /
 isNode
+:
+function
 (
 object
 )
@@ -1220,6 +1234,8 @@ prevented
 *
 /
 preventScrolling
+:
+function
 (
 e
 )
@@ -1316,6 +1332,8 @@ element
 *
 /
 isSpaceOrReturn
+:
+function
 (
 event
 )
@@ -1459,6 +1477,8 @@ toggle
 *
 /
 togglePane
+:
+function
 (
 flags
 pane
@@ -2423,6 +2443,8 @@ element
 *
 /
 append
+:
+function
 (
 element
 options
@@ -2605,6 +2627,8 @@ remove
 *
 /
 remove
+:
+function
 (
 item
 )
@@ -2683,6 +2707,8 @@ item
 *
 /
 _entangleItem
+:
+function
 (
 item
 element
@@ -2740,6 +2766,8 @@ element
 *
 /
 _untangleItem
+:
+function
 (
 item
 )
@@ -2821,6 +2849,8 @@ element
 *
 /
 _unlinkItem
+:
+function
 (
 item
 )
@@ -2863,6 +2893,8 @@ string
 *
 /
 stringify
+:
+function
 (
 )
 {
@@ -3814,6 +3846,8 @@ commit
 *
 /
 push
+:
+function
 (
 [
 element
@@ -3893,6 +3927,10 @@ push
 (
 {
 item
+:
+item
+options
+:
 options
 }
 )
@@ -4041,6 +4079,8 @@ them
 *
 /
 commit
+:
+function
 (
 options
 =
@@ -4183,6 +4223,8 @@ remove
 *
 /
 remove
+:
+function
 (
 item
 )
@@ -4288,6 +4330,8 @@ remove
 *
 /
 removeAt
+:
+function
 (
 index
 )
@@ -4323,6 +4367,8 @@ predicate
 *
 /
 removeForPredicate
+:
+function
 (
 predicate
 )
@@ -4367,6 +4413,8 @@ container
 *
 /
 empty
+:
+function
 (
 )
 {
@@ -4483,6 +4531,8 @@ view
 *
 /
 ensureItemIsVisible
+:
+function
 (
 item
 )
@@ -4535,6 +4585,8 @@ view
 *
 /
 ensureIndexIsVisible
+:
+function
 (
 index
 )
@@ -4571,6 +4623,8 @@ container
 *
 /
 ensureSelectedItemIsVisible
+:
+function
 (
 )
 {
@@ -4773,6 +4827,8 @@ visibility
 *
 /
 toggleContents
+:
+function
 (
 visibleFlag
 )
@@ -4863,6 +4919,8 @@ visible
 *
 /
 filterContents
+:
+function
 (
 predicate
 =
@@ -4966,6 +5024,8 @@ value
 *
 /
 sortContents
+:
+function
 (
 predicate
 =
@@ -5069,6 +5129,8 @@ swapped
 *
 /
 swapItems
+:
+function
 (
 first
 second
@@ -5537,6 +5599,8 @@ swapped
 *
 /
 swapItemsAtIndices
+:
+function
 (
 first
 second
@@ -5611,6 +5675,8 @@ otherwise
 *
 /
 containsValue
+:
+function
 (
 value
 )
@@ -5909,6 +5975,8 @@ null
 ;
 }
 _selectItem
+:
+function
 (
 item
 )
@@ -6377,6 +6445,8 @@ selectedItem
 *
 /
 forceSelect
+:
+function
 (
 item
 )
@@ -6772,6 +6842,8 @@ container
 *
 /
 focusFirstVisibleItem
+:
+function
 (
 )
 {
@@ -6802,6 +6874,8 @@ container
 *
 /
 focusLastVisibleItem
+:
+function
 (
 )
 {
@@ -6831,6 +6905,8 @@ container
 *
 /
 focusNextItem
+:
+function
 (
 )
 {
@@ -6858,6 +6934,8 @@ container
 *
 /
 focusPrevItem
+:
+function
 (
 )
 {
@@ -6913,6 +6991,8 @@ change
 *
 /
 focusItemAtDelta
+:
+function
 (
 delta
 )
@@ -7174,6 +7254,8 @@ instead
 *
 /
 _focusChange
+:
+function
 (
 direction
 )
@@ -7491,6 +7573,8 @@ found
 *
 /
 getItemAtIndex
+:
+function
 (
 index
 )
@@ -7557,6 +7641,8 @@ found
 *
 /
 getItemByValue
+:
+function
 (
 value
 )
@@ -7658,6 +7744,8 @@ found
 *
 /
 getItemForElement
+:
+function
 (
 element
 flags
@@ -7797,6 +7885,8 @@ found
 *
 /
 getItemForPredicate
+:
+function
 (
 predicate
 owner
@@ -7953,6 +8043,8 @@ getItemForPredicate
 *
 /
 getItemForAttachment
+:
+function
 (
 predicate
 owner
@@ -8025,6 +8117,8 @@ found
 *
 /
 indexOfItem
+:
+function
 (
 item
 )
@@ -8088,6 +8182,8 @@ found
 *
 /
 _indexOfElement
+:
+function
 (
 element
 )
@@ -8449,6 +8545,8 @@ otherwise
 *
 /
 isUnique
+:
+function
 (
 item
 )
@@ -8562,6 +8660,8 @@ otherwise
 *
 /
 isEligible
+:
+function
 (
 item
 )
@@ -8628,6 +8728,8 @@ index
 *
 /
 _findExpectedIndexFor
+:
+function
 (
 item
 )
@@ -8787,6 +8889,8 @@ rejected
 *
 /
 _insertItemAt
+:
+function
 (
 index
 item
@@ -9070,6 +9174,8 @@ item
 *
 /
 _entangleItem
+:
+function
 (
 item
 element
@@ -9139,6 +9245,8 @@ element
 *
 /
 _untangleItem
+:
+function
 (
 item
 )
@@ -9220,6 +9328,8 @@ element
 *
 /
 _unlinkItem
+:
+function
 (
 item
 )
@@ -9270,6 +9380,8 @@ event
 *
 /
 _onWidgetKeyPress
+:
+function
 (
 name
 event
@@ -9441,6 +9553,8 @@ event
 *
 /
 _onWidgetMousePress
+:
+function
 (
 name
 event
@@ -9597,6 +9711,8 @@ otherwise
 *
 /
 _currentFilterPredicate
+:
+function
 (
 item
 )
@@ -9698,6 +9814,8 @@ first
 *
 /
 _currentSortPredicate
+:
+function
 (
 first
 second
@@ -9792,6 +9910,8 @@ method
 *
 /
 callMethod
+:
+function
 (
 methodName
 .

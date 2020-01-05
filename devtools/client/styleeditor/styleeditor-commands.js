@@ -393,6 +393,8 @@ to
 dom
 "
 exec
+:
+function
 (
 args
 context

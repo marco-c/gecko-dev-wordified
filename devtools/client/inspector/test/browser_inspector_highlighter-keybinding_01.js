@@ -515,6 +515,8 @@ center
 :
 true
 selector
+:
+selector
 }
 )
 ;

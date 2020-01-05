@@ -304,6 +304,8 @@ ticksSpacingMin
 :
 WATERFALL_BACKGROUND_TICKS_SPACING_MIN
 dataScale
+:
+dataScale
 }
 )
 ;

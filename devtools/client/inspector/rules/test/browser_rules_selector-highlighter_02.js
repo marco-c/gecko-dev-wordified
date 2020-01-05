@@ -212,6 +212,8 @@ options
 :
 null
 show
+:
+function
 (
 nodeFront
 options
@@ -237,6 +239,8 @@ true
 ;
 }
 hide
+:
+function
 (
 )
 {

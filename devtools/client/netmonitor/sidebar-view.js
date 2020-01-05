@@ -164,6 +164,8 @@ visibility
 *
 /
 toggle
+:
+function
 (
 visibleFlag
 )

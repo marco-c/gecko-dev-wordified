@@ -307,6 +307,8 @@ PropTypes
 func
 }
 getTitle
+:
+function
 (
 object
 )
@@ -336,6 +338,8 @@ objectLink
 (
 {
 object
+:
+object
 }
 title
 )
@@ -346,6 +350,8 @@ title
 ;
 }
 getProps
+:
+function
 (
 promiseState
 )
@@ -554,6 +560,8 @@ className
 objectLeftBrace
 "
 object
+:
+object
 }
 "
 {
@@ -577,6 +585,8 @@ className
 "
 objectRightBrace
 "
+object
+:
 object
 }
 "
@@ -626,6 +636,8 @@ className
 objectLeftBrace
 "
 object
+:
+object
 }
 "
 {
@@ -643,6 +655,8 @@ className
 "
 objectRightBrace
 "
+object
+:
 object
 }
 "
@@ -704,6 +718,8 @@ PromiseRep
 rep
 :
 PromiseRep
+supportsObject
+:
 supportsObject
 }
 ;

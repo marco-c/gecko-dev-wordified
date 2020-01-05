@@ -773,6 +773,8 @@ private
 *
 /
 _loadHistory
+:
+function
 (
 )
 {
@@ -1015,6 +1017,8 @@ persisted
 *
 /
 clearHistory
+:
+function
 (
 )
 {
@@ -1071,6 +1075,8 @@ persisted
 *
 /
 storeHistory
+:
+function
 (
 )
 {
@@ -1519,6 +1525,8 @@ UI
 *
 /
 init
+:
+function
 (
 )
 {
@@ -1915,6 +1923,8 @@ lastInputValue
 ;
 }
 focus
+:
+function
 (
 )
 {
@@ -1993,6 +2003,8 @@ server
 *
 /
 _executeResultCallback
+:
+function
 (
 callback
 response
@@ -2729,6 +2741,8 @@ displayed
 *
 /
 execute
+:
+function
 (
 executeString
 callback
@@ -2986,6 +3000,8 @@ frame
 this
 .
 SELECTED_FRAME
+selectedNodeActor
+:
 selectedNodeActor
 }
 ;
@@ -3354,6 +3370,8 @@ received
 *
 /
 requestEvaluation
+:
+function
 (
 str
 options
@@ -3440,6 +3458,8 @@ options
 .
 bindObjectActor
 frameActor
+:
+frameActor
 selectedNodeActor
 :
 options
@@ -3509,6 +3529,8 @@ depth
 *
 /
 getFrameActor
+:
+function
 (
 frame
 )
@@ -3786,6 +3808,8 @@ callbacks
 *
 /
 openVariablesView
+:
+function
 (
 options
 )
@@ -3836,6 +3860,8 @@ let
 viewOptions
 =
 {
+container
+:
 container
 hideFilterInput
 :
@@ -4121,6 +4147,8 @@ private
 *
 /
 _createSidebar
+:
+function
 (
 )
 {
@@ -4211,6 +4239,8 @@ tab
 *
 /
 _addVariablesViewSidebarTab
+:
+function
 (
 )
 {
@@ -4408,6 +4438,8 @@ object
 *
 /
 _onKeypressInVariablesView
+:
+function
 (
 event
 )
@@ -4567,6 +4599,8 @@ instance
 *
 /
 _createVariablesView
+:
+function
 (
 options
 )
@@ -4724,7 +4758,13 @@ actor
 ;
 }
 simpleValueEvalMacro
+:
+simpleValueEvalMacro
 overrideValueEvalMacro
+:
+overrideValueEvalMacro
+getterOrSetterEvalMacro
+:
 getterOrSetterEvalMacro
 }
 )
@@ -4853,6 +4893,8 @@ object
 *
 /
 _updateVariablesView
+:
+function
 (
 options
 )
@@ -5197,6 +5239,8 @@ to
 *
 /
 _variablesViewEvaluate
+:
+function
 (
 options
 variableObject
@@ -5330,6 +5374,8 @@ property
 *
 /
 _variablesViewDelete
+:
+function
 (
 options
 variableObject
@@ -5457,6 +5503,8 @@ property
 *
 /
 _variablesViewSwitch
+:
+function
 (
 options
 variableObject
@@ -5672,6 +5720,8 @@ server
 *
 /
 _silentEvalCallback
+:
+function
 (
 callback
 response
@@ -5941,6 +5991,8 @@ Console
 *
 /
 clearOutput
+:
+function
 (
 clearStorage
 )
@@ -6103,6 +6155,8 @@ notification
 *
 /
 clearPrivateMessages
+:
+function
 (
 )
 {
@@ -6185,6 +6239,8 @@ void
 *
 /
 resizeInput
+:
+function
 (
 )
 {
@@ -6333,6 +6389,8 @@ void
 *
 /
 setInputValue
+:
+function
 (
 newValue
 )
@@ -6403,6 +6461,8 @@ string
 *
 /
 getInputValue
+:
+function
 (
 )
 {
@@ -6439,6 +6499,8 @@ private
 *
 /
 _inputEventHandler
+:
+function
 (
 )
 {
@@ -6506,6 +6568,8 @@ private
 *
 /
 _blurEventHandler
+:
+function
 (
 )
 {
@@ -6554,6 +6618,8 @@ event
 *
 /
 _keyPress
+:
+function
 (
 event
 )
@@ -7864,6 +7930,8 @@ private
 *
 /
 _focusEventHandler
+:
+function
 (
 )
 {
@@ -7920,6 +7988,8 @@ otherwise
 *
 /
 historyPeruse
+:
+function
 (
 direction
 )
@@ -8173,6 +8243,8 @@ false
 *
 /
 hasMultilineInput
+:
+function
 (
 )
 {
@@ -8263,6 +8335,8 @@ false
 *
 /
 canCaretGoPrevious
+:
+function
 (
 )
 {
@@ -8401,6 +8475,8 @@ false
 *
 /
 canCaretGoNext
+:
+function
 (
 )
 {
@@ -8824,6 +8900,8 @@ otherwise
 *
 /
 complete
+:
+function
 (
 type
 callback
@@ -9207,6 +9285,8 @@ received
 *
 /
 _updateCompletionResult
+:
+function
 (
 type
 callback
@@ -9586,6 +9666,8 @@ lastCompletion
 =
 {
 requestId
+:
+requestId
 completionType
 :
 type
@@ -9701,6 +9783,8 @@ process
 *
 /
 _receiveAutocompleteProperties
+:
+function
 (
 requestId
 callback
@@ -10167,6 +10251,8 @@ updated
 ;
 }
 onAutocompleteSelect
+:
+function
 (
 )
 {
@@ -10288,6 +10374,8 @@ needed
 *
 /
 clearCompletion
+:
+function
 (
 )
 {
@@ -10378,6 +10466,8 @@ otherwise
 *
 /
 acceptProposedCompletion
+:
+function
 (
 )
 {
@@ -10535,6 +10625,8 @@ value
 *
 /
 updateCompleteNode
+:
+function
 (
 suffix
 )
@@ -10604,6 +10696,8 @@ private
 *
 /
 _sidebarDestroy
+:
+function
 (
 )
 {
@@ -10693,6 +10787,8 @@ leaks
 *
 /
 destroy
+:
+function
 (
 )
 {

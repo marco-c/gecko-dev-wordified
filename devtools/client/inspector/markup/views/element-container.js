@@ -631,6 +631,8 @@ rejected
 *
 /
 _getPreview
+:
+function
 (
 )
 {
@@ -1102,6 +1104,8 @@ true
 }
 )
 copyImageDataUri
+:
+function
 (
 )
 {
@@ -1177,6 +1181,8 @@ str
 ;
 }
 setInlineTextChild
+:
+function
 (
 inlineTextChild
 )
@@ -1197,6 +1203,8 @@ updateTextEditor
 ;
 }
 clearInlineTextChild
+:
+function
 (
 )
 {
@@ -1229,6 +1237,8 @@ input
 *
 /
 addAttribute
+:
+function
 (
 )
 {
@@ -1256,6 +1266,8 @@ editing
 *
 /
 editAttribute
+:
+function
 (
 attrName
 )
@@ -1295,6 +1307,8 @@ action
 *
 /
 removeAttribute
+:
+function
 (
 attrName
 )

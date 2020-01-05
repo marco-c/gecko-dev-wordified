@@ -439,6 +439,8 @@ options
 *
 /
 show
+:
+function
 (
 node
 options
@@ -559,6 +561,8 @@ highlighter
 *
 /
 hide
+:
+function
 (
 )
 {
@@ -682,6 +686,8 @@ Boolean
 *
 /
 _isNodeValid
+:
+function
 (
 node
 )
@@ -723,6 +729,8 @@ currently
 *
 /
 _isSameOptions
+:
+function
 (
 options
 )
@@ -829,6 +837,8 @@ quads
 *
 /
 _updateAdjustedQuads
+:
+function
 (
 )
 {
@@ -902,6 +912,8 @@ Boolean
 *
 /
 _hasMoved
+:
+function
 (
 )
 {
@@ -963,6 +975,8 @@ update
 *
 /
 update
+:
+function
 (
 )
 {
@@ -1007,6 +1021,8 @@ updated
 ;
 }
 _show
+:
+function
 (
 )
 {
@@ -1060,6 +1076,8 @@ method
 ;
 }
 _update
+:
+function
 (
 )
 {
@@ -1121,6 +1139,8 @@ method
 ;
 }
 _hide
+:
+function
 (
 )
 {
@@ -1161,6 +1181,8 @@ method
 ;
 }
 _startRefreshLoop
+:
+function
 (
 )
 {
@@ -1207,6 +1229,8 @@ update
 ;
 }
 _stopRefreshLoop
+:
+function
 (
 )
 {
@@ -1252,6 +1276,8 @@ null
 ;
 }
 destroy
+:
+function
 (
 )
 {

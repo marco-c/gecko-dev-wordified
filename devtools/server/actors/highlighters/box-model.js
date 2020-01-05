@@ -1204,6 +1204,8 @@ model
 -
 "
 _buildMarkup
+:
+function
 (
 )
 {
@@ -1875,6 +1877,8 @@ listeners
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -1915,6 +1919,8 @@ this
 ;
 }
 getElement
+:
+function
 (
 id
 )
@@ -1974,6 +1980,8 @@ Boolean
 *
 /
 _isNodeValid
+:
+function
 (
 node
 )
@@ -2013,6 +2021,8 @@ node
 *
 /
 _show
+:
+function
 (
 )
 {
@@ -2103,6 +2113,8 @@ attributes
 *
 /
 _trackMutations
+:
+function
 (
 )
 {
@@ -2160,6 +2172,8 @@ true
 }
 }
 _untrackMutations
+:
+function
 (
 )
 {
@@ -2236,6 +2250,8 @@ change
 *
 /
 _update
+:
+function
 (
 )
 {
@@ -2411,6 +2427,8 @@ infobar
 *
 /
 _hide
+:
+function
 (
 )
 {
@@ -2462,6 +2480,8 @@ infobar
 *
 /
 _hideInfobar
+:
+function
 (
 )
 {
@@ -2497,6 +2517,8 @@ infobar
 *
 /
 _showInfobar
+:
+function
 (
 )
 {
@@ -2536,6 +2558,8 @@ model
 *
 /
 _hideBoxModel
+:
+function
 (
 )
 {
@@ -2570,6 +2594,8 @@ model
 *
 /
 _showBoxModel
+:
+function
 (
 )
 {
@@ -2702,6 +2728,8 @@ bounds
 *
 /
 _getOuterQuad
+:
+function
 (
 region
 )
@@ -3181,6 +3209,8 @@ highlighted
 *
 /
 _updateBoxModel
+:
+function
 (
 )
 {
@@ -3597,6 +3627,8 @@ true
 ;
 }
 _getBoxPathCoordinates
+:
+function
 (
 boxQuad
 nextBoxQuad
@@ -3977,6 +4009,8 @@ Boolean
 *
 /
 _nodeNeedsHighlighting
+:
+function
 (
 )
 {
@@ -4018,6 +4052,8 @@ length
 ;
 }
 _getOuterBounds
+:
+function
 (
 )
 {
@@ -4196,6 +4232,8 @@ shown
 *
 /
 _showGuides
+:
+function
 (
 region
 )
@@ -4455,6 +4493,8 @@ toShowX
 ;
 }
 _hideGuides
+:
+function
 (
 )
 {
@@ -4555,6 +4595,8 @@ guide
 *
 /
 _updateGuide
+:
+function
 (
 side
 point
@@ -4758,6 +4800,8 @@ class
 *
 /
 _updateInfobar
+:
+function
 (
 )
 {
@@ -5041,6 +5085,8 @@ _moveInfobar
 ;
 }
 _getPseudoClasses
+:
+function
 (
 node
 )
@@ -5107,6 +5153,8 @@ highlighter
 *
 /
 _moveInfobar
+:
+function
 (
 )
 {
@@ -5144,6 +5192,8 @@ win
 ;
 }
 onWillNavigate
+:
+function
 (
 {
 isTopLevel

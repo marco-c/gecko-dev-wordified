@@ -240,6 +240,8 @@ PropTypes
 object
 }
 getDefaultProps
+:
+function
 (
 )
 {
@@ -252,6 +254,8 @@ false
 ;
 }
 getInitialState
+:
+function
 (
 )
 {
@@ -272,6 +276,8 @@ activeTab
 Public
 API
 addTab
+:
+function
 (
 id
 title
@@ -320,6 +326,8 @@ this
 .
 state
 {
+tabs
+:
 tabs
 }
 )
@@ -377,6 +385,8 @@ id
 ;
 }
 toggleTab
+:
+function
 (
 tabId
 isVisible
@@ -432,6 +442,8 @@ index
 ]
 {
 isVisible
+:
+isVisible
 }
 )
 ;
@@ -450,12 +462,16 @@ this
 state
 {
 tabs
+:
+tabs
 }
 )
 )
 ;
 }
 removeTab
+:
+function
 (
 tabId
 )
@@ -516,12 +532,16 @@ this
 state
 {
 tabs
+:
+tabs
 }
 )
 )
 ;
 }
 select
+:
+function
 (
 tabId
 )
@@ -602,6 +622,8 @@ tabId
 /
 Helpers
 getTabIndex
+:
+function
 (
 tabId
 )
@@ -650,6 +672,8 @@ tabIndex
 ;
 }
 getTabId
+:
+function
 (
 index
 )
@@ -668,6 +692,8 @@ id
 ;
 }
 getCurrentTabId
+:
+function
 (
 )
 {
@@ -693,6 +719,8 @@ id
 Event
 Handlers
 onTabChanged
+:
+function
 (
 index
 )
@@ -738,6 +766,8 @@ id
 }
 }
 onAllTabsMenuClick
+:
+function
 (
 event
 )
@@ -972,6 +1002,8 @@ menu
 /
 Rendering
 renderTab
+:
+function
 (
 tab
 )
@@ -1027,6 +1059,8 @@ panel
 ;
 }
 render
+:
+function
 (
 )
 {

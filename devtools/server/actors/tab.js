@@ -7406,6 +7406,10 @@ ready
 "
 {
 window
+:
+window
+isTopLevel
+:
 isTopLevel
 id
 :
@@ -7584,6 +7588,8 @@ destroyed
 "
 {
 window
+:
+window
 isTopLevel
 :
 window
@@ -7601,6 +7607,8 @@ getWindowID
 (
 window
 )
+isFrozen
+:
 isFrozen
 }
 )
@@ -7853,8 +7861,16 @@ navigate
 "
 {
 window
+:
+window
+isTopLevel
+:
 isTopLevel
 newURI
+:
+newURI
+request
+:
 request
 }
 )
@@ -8013,6 +8029,8 @@ state
 start
 "
 isFrameSwitching
+:
+isFrameSwitching
 }
 )
 ;
@@ -8133,6 +8151,10 @@ navigate
 "
 {
 window
+:
+window
+isTopLevel
+:
 isTopLevel
 }
 )
@@ -8259,6 +8281,8 @@ state
 "
 stop
 "
+isFrameSwitching
+:
 isFrameSwitching
 }
 )

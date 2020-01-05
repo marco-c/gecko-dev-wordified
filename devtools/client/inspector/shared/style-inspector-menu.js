@@ -569,6 +569,8 @@ menu
 *
 /
 show
+:
+function
 (
 event
 )
@@ -614,6 +616,8 @@ e
 }
 }
 _openMenu
+:
+function
 (
 {
 target
@@ -1741,6 +1745,8 @@ menu
 ;
 }
 _hasTextSelected
+:
+function
 (
 )
 {
@@ -1854,6 +1860,8 @@ node
 *
 /
 _getClickedNodeInfo
+:
+function
 (
 )
 {
@@ -1928,6 +1936,8 @@ otherwise
 *
 /
 _isColorPopup
+:
+function
 (
 )
 {
@@ -2017,6 +2027,8 @@ true
 ;
 }
 _isPropertyName
+:
+function
 (
 )
 {
@@ -2082,6 +2094,8 @@ url
 *
 /
 _isImageUrl
+:
+function
 (
 )
 {
@@ -2152,6 +2166,8 @@ DOMNode
 *
 /
 _getClickedNode
+:
+function
 (
 )
 {
@@ -2212,6 +2228,8 @@ text
 *
 /
 _onSelectAll
+:
+function
 (
 )
 {
@@ -2255,6 +2273,8 @@ clipboard
 *
 /
 _onCopy
+:
+function
 (
 )
 {
@@ -2289,6 +2309,8 @@ clipboard
 *
 /
 _onCopyColor
+:
+function
 (
 )
 {
@@ -2321,6 +2343,8 @@ clipboard
 *
 /
 _onCopyUrl
+:
+function
 (
 )
 {
@@ -2485,6 +2509,8 @@ property
 *
 /
 _onShowMdnDocs
+:
+function
 (
 )
 {
@@ -2546,6 +2572,8 @@ element
 *
 /
 _onAddNewRule
+:
+function
 (
 )
 {
@@ -2576,6 +2604,8 @@ node
 *
 /
 _onCopyLocation
+:
+function
 (
 )
 {
@@ -2620,6 +2650,8 @@ node
 *
 /
 _onCopyPropertyDeclaration
+:
+function
 (
 )
 {
@@ -2675,6 +2707,8 @@ node
 *
 /
 _onCopyPropertyName
+:
+function
 (
 )
 {
@@ -2721,6 +2755,8 @@ node
 *
 /
 _onCopyPropertyValue
+:
+function
 (
 )
 {
@@ -2765,6 +2801,8 @@ node
 *
 /
 _onCopyRule
+:
+function
 (
 )
 {
@@ -2819,6 +2857,8 @@ node
 *
 /
 _onCopySelector
+:
+function
 (
 )
 {
@@ -2858,6 +2898,8 @@ pref
 *
 /
 _onToggleOrigSources
+:
+function
 (
 )
 {
@@ -2886,6 +2928,8 @@ isEnabled
 ;
 }
 destroy
+:
+function
 (
 )
 {

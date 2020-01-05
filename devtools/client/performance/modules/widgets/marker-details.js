@@ -428,6 +428,8 @@ view
 *
 /
 empty
+:
+function
 (
 )
 {
@@ -509,6 +511,8 @@ optional
 *
 /
 render
+:
+function
 (
 options
 )
@@ -774,6 +778,8 @@ moment
 *
 /
 _onClick
+:
+function
 (
 e
 )
@@ -831,6 +837,8 @@ splitter
 *
 /
 _onSplitterMouseUp
+:
+function
 (
 )
 {

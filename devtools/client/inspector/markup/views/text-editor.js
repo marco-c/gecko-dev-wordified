@@ -503,6 +503,8 @@ update
 ;
 }
 update
+:
+function
 (
 )
 {
@@ -674,6 +676,8 @@ error
 ;
 }
 destroy
+:
+function
 (
 )
 {
@@ -692,6 +696,8 @@ ElementEditor
 *
 /
 getInfoAtNode
+:
+function
 (
 )
 {

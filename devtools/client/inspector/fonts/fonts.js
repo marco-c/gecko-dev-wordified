@@ -215,6 +215,8 @@ prototype
 =
 {
 init
+:
+function
 (
 )
 {
@@ -455,6 +457,8 @@ sidebar
 *
 /
 isActive
+:
+function
 (
 )
 {
@@ -492,6 +496,8 @@ listeners
 *
 /
 destroy
+:
+function
 (
 )
 {
@@ -629,6 +635,8 @@ handler
 *
 /
 onNewNode
+:
+function
 (
 )
 {
@@ -725,6 +733,8 @@ whitespace
 *
 /
 getPreviewText
+:
+function
 (
 )
 {
@@ -774,6 +784,8 @@ handler
 *
 /
 previewTextChanged
+:
+function
 (
 )
 {
@@ -832,6 +844,8 @@ event
 *
 /
 onThemeChanged
+:
+function
 (
 event
 frame
@@ -878,6 +892,8 @@ selected
 *
 /
 dim
+:
+function
 (
 )
 {
@@ -934,6 +950,8 @@ selected
 *
 /
 undim
+:
+function
 (
 )
 {
@@ -979,6 +997,8 @@ list
 *
 /
 clear
+:
+function
 (
 )
 {
@@ -1344,6 +1364,8 @@ font
 *
 /
 render
+:
+function
 (
 font
 )
@@ -1627,6 +1649,8 @@ iframes
 *
 /
 showAll
+:
+function
 (
 )
 {

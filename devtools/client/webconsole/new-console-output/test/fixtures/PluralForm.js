@@ -41,6 +41,8 @@ PluralForm
 :
 {
 get
+:
+function
 (
 occurence
 str

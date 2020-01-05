@@ -118,6 +118,8 @@ the
 wire
 .
 form
+:
+function
 (
 json
 )

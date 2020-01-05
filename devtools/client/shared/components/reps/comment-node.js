@@ -454,6 +454,8 @@ rep
 :
 CommentNode
 supportsObject
+:
+supportsObject
 }
 ;
 }
