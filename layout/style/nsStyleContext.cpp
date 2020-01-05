@@ -9071,12 +9071,13 @@ on
 data
 in
 nsStyleDisplay
-and
 nsStyleEffects
+and
+/
+/
+nsStyleSVGReset
 so
 we
-/
-/
 do
 it
 here
