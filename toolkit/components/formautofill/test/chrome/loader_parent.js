@@ -306,7 +306,7 @@ assert
 .
 ok
 (
-true
+false
 message
 )
 }

@@ -249,6 +249,8 @@ aWindow
 windowState
 =
 =
+window
+.
 STATE_MINIMIZED
 )
 aWindow
@@ -359,6 +361,8 @@ window
 windowState
 =
 =
+window
+.
 STATE_NORMAL
 )
 window

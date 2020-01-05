@@ -113,6 +113,8 @@ deployDir
 .
 /
 "
+;
+var
 exportedSymbol
 =
 '
