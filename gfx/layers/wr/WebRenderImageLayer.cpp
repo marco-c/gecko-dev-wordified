@@ -735,8 +735,9 @@ gfx
 Rect
 rect
 =
-RelativeToVisible
-(
+gfx
+:
+:
 Rect
 (
 0
@@ -747,7 +748,6 @@ width
 size
 .
 height
-)
 )
 ;
 if
@@ -802,6 +802,11 @@ height
 )
 ;
 }
+RelativeToVisible
+(
+rect
+)
+;
 gfx
 :
 :
