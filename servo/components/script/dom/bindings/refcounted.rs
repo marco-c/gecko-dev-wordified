@@ -684,6 +684,10 @@ T
 >
 instance
 .
+#
+[
+allow_unrooted_interior
+]
 pub
 struct
 Trusted
