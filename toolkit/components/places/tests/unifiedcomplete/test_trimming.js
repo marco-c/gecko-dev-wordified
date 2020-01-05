@@ -1047,7 +1047,7 @@ add_task
 (
 function
 *
-test_periority_2
+test_priority_2
 (
 )
 {
@@ -1208,7 +1208,7 @@ add_task
 (
 function
 *
-test_periority_3
+test_priority_3
 (
 )
 {
@@ -1345,7 +1345,7 @@ add_task
 (
 function
 *
-test_periority_4
+test_priority_4
 (
 )
 {
@@ -1438,6 +1438,8 @@ org
 completed
 :
 "
+www
+.
 mozilla
 .
 org
