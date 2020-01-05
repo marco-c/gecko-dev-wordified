@@ -10715,6 +10715,16 @@ size
 1
 )
 ;
+/
+/
+|
+PR_SetEnv
+|
+requires
+str
+to
+leak
+.
 PR_SetEnv
 (
 str
