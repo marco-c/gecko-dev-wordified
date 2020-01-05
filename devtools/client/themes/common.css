@@ -449,6 +449,12 @@ none
 !
 important
 ;
+appearance
+:
+none
+!
+important
+;
 background
 -
 color
@@ -1510,6 +1516,10 @@ button
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
@@ -2749,6 +2759,10 @@ filterinput
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

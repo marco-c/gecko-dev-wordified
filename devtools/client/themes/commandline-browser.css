@@ -684,6 +684,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 padding
 :
 0
@@ -737,6 +741,10 @@ toolbarbutton
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
@@ -1302,6 +1310,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 /
 *
 We
@@ -1424,6 +1436,10 @@ node
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

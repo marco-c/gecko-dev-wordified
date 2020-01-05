@@ -19376,7 +19376,9 @@ mFrame
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 widget
 )
@@ -19757,7 +19759,9 @@ mFrame
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 widget
 )

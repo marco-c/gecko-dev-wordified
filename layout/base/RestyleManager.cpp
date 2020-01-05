@@ -2324,7 +2324,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 ;
 if
 (
