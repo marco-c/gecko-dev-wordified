@@ -185,10 +185,7 @@ T
 (
 name
 :
-&
-'
-static
-str
+String
 state
 :
 task_state
