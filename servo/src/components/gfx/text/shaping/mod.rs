@@ -69,7 +69,7 @@ as
 Harfbuzz
 /
 /
-/
+!
 Uniscribe
 Pango
 or
@@ -77,10 +77,10 @@ Coretext
 .
 /
 /
+!
 /
 /
-/
-/
+!
 Currently
 only
 harfbuzz
