@@ -1238,6 +1238,9 @@ hr
 ;
 }
 InterceptorTargetPtr
+<
+IUnknown
+>
 targetInterface
 ;
 hr
@@ -2371,8 +2374,10 @@ GetHandlerPayloadSize
 (
 REFIID
 aIid
+InterceptorTargetPtr
+<
 IUnknown
-*
+>
 aTarget
 DWORD
 *
@@ -2396,7 +2401,10 @@ mHandlerPayload
 GetHandlerPayloadSize
 (
 aIid
+Move
+(
 aTarget
+)
 aOutPayloadSize
 )
 ;
@@ -2412,8 +2420,10 @@ IStream
 aStream
 REFIID
 aIid
+InterceptorTargetPtr
+<
 IUnknown
-*
+>
 aTarget
 )
 {
@@ -2435,7 +2445,10 @@ WriteHandlerPayload
 (
 aStream
 aIid
+Move
+(
 aTarget
+)
 )
 ;
 }
@@ -2736,6 +2749,9 @@ resulting
 pointers
 .
 InterceptorTargetPtr
+<
+IUnknown
+>
 existingTarget
 ;
 hr

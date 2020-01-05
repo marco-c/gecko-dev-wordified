@@ -299,6 +299,9 @@ GetTargetForIID
 REFIID
 aIid
 InterceptorTargetPtr
+<
+IUnknown
+>
 &
 aTarget
 )
@@ -677,6 +680,9 @@ GetTargetForIID
 REFIID
 aIid
 InterceptorTargetPtr
+<
+IUnknown
+>
 &
 aTarget
 )
