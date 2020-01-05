@@ -546,9 +546,6 @@ tangentialPressure
 bool
 convertToPointer
 ;
-bool
-retargetedByPointerCapture
-;
 WidgetPointerHelper
 (
 )
@@ -576,10 +573,6 @@ tangentialPressure
 convertToPointer
 (
 true
-)
-retargetedByPointerCapture
-(
-false
 )
 {
 }
@@ -624,10 +617,6 @@ aTangentialPressure
 convertToPointer
 (
 true
-)
-retargetedByPointerCapture
-(
-false
 )
 {
 }
@@ -675,12 +664,6 @@ convertToPointer
 aEvent
 .
 convertToPointer
-;
-retargetedByPointerCapture
-=
-aEvent
-.
-retargetedByPointerCapture
 ;
 }
 }
