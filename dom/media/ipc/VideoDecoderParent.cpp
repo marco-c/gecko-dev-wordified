@@ -1292,6 +1292,10 @@ mParent
 >
 StoreImage
 (
+video
+-
+>
+mImage
 texture
 )
 :
