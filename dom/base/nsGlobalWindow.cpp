@@ -53612,15 +53612,8 @@ aTopic
 nsresult
 rv
 =
-Dispatch
+NS_IdleDispatchToCurrentThread
 (
-"
-WindowDestroyedEvent
-"
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget
