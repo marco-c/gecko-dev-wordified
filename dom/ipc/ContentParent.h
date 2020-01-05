@@ -1837,13 +1837,13 @@ mScriptableHelper
 bool
 NeedsPermissionsUpdate
 (
+const
+nsACString
+&
+aPermissionKey
 )
 const
-{
-return
-mSendPermissionUpdates
 ;
-}
 /
 *
 *
@@ -6453,9 +6453,6 @@ through
 .
 bool
 mIsAlive
-;
-bool
-mSendPermissionUpdates
 ;
 bool
 mIsForBrowser
