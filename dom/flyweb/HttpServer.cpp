@@ -1058,13 +1058,6 @@ forget
 )
 ;
 }
-aRv
-.
-Throw
-(
-NS_ERROR_UNEXPECTED
-)
-;
 MOZ_ASSERT
 (
 false
@@ -1072,6 +1065,13 @@ false
 Unknown
 request
 "
+)
+;
+aRv
+.
+Throw
+(
+NS_ERROR_UNEXPECTED
 )
 ;
 return

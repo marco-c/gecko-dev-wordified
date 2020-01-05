@@ -6672,7 +6672,7 @@ result
 ;
 result
 .
-Throw
+ThrowWithCustomCleanup
 (
 rv
 )
