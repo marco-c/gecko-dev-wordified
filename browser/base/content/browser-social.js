@@ -3046,6 +3046,15 @@ sharedURI
 )
 return
 ;
+let
+browserMM
+=
+gBrowser
+.
+selectedBrowser
+.
+messageManager
+;
 /
 /
 the
@@ -3114,7 +3123,7 @@ gBrowser
 currentURI
 )
 {
-messageManager
+browserMM
 .
 addMessageListener
 (
@@ -3131,7 +3140,7 @@ msg
 =
 >
 {
-messageManager
+browserMM
 .
 removeMessageListener
 (
@@ -3203,11 +3212,7 @@ anchor
 }
 )
 ;
-gBrowser
-.
-selectedBrowser
-.
-messageManager
+browserMM
 .
 sendAsyncMessage
 (
@@ -3250,7 +3255,7 @@ microformats
 target
 )
 {
-messageManager
+browserMM
 .
 addMessageListener
 (
@@ -3267,7 +3272,7 @@ msg
 =
 >
 {
-messageManager
+browserMM
 .
 removeMessageListener
 (
@@ -3300,11 +3305,7 @@ anchor
 }
 )
 ;
-gBrowser
-.
-selectedBrowser
-.
-messageManager
+browserMM
 .
 sendAsyncMessage
 (
