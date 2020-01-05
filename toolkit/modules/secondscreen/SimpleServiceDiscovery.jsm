@@ -717,11 +717,6 @@ trim
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 if

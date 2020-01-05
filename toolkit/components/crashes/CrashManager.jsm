@@ -4682,11 +4682,6 @@ return
 entries
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

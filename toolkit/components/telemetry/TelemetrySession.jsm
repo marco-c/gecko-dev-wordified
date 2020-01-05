@@ -13468,11 +13468,6 @@ null
 ;
 }
 )
-.
-bind
-(
-this
-)
 Ci
 .
 nsIThread

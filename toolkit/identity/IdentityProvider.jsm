@@ -1707,11 +1707,6 @@ serializedPublicKey
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

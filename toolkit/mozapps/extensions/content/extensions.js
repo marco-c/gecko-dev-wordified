@@ -21556,11 +21556,6 @@ aCallback
 ;
 }
 )
-.
-bind
-(
-this
-)
 ;
 xhr
 .

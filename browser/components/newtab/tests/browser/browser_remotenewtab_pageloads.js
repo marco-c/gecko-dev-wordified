@@ -443,11 +443,6 @@ return
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

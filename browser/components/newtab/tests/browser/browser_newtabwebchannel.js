@@ -676,11 +676,6 @@ target
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -748,11 +743,6 @@ target
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -994,11 +984,6 @@ target
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

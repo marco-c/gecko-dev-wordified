@@ -2519,11 +2519,6 @@ isPrivate
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 .
 then
@@ -2956,11 +2951,6 @@ aCount
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 .
 then

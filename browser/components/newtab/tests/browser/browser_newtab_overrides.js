@@ -944,11 +944,6 @@ return
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -6307,11 +6307,6 @@ value
 )
 ;
 }
-.
-bind
-(
-this
-)
 true
 )
 ;

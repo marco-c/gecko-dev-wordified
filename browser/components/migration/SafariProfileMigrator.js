@@ -2409,11 +2409,6 @@ changes
 }
 }
 }
-.
-bind
-(
-this
-)
 aCallback
 )
 )

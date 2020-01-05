@@ -10740,11 +10740,6 @@ return
 children
 ;
 }
-.
-bind
-(
-this
-)
 )
 )
 ;
