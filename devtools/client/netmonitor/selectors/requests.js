@@ -622,6 +622,12 @@ transferredSize
 "
 number
 "
+&
+&
+!
+item
+.
+fromCache
 )
 {
 totals
