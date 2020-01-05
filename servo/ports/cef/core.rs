@@ -370,6 +370,9 @@ false
 layout_threads
 :
 1
+incremental_layout
+:
+false
 /
 /
 layout_threads
