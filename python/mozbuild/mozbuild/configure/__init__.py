@@ -876,7 +876,7 @@ False
         
 resolved_args
 =
-[
+(
 self
 .
 sandbox
@@ -893,7 +893,7 @@ in
 self
 .
 dependencies
-]
+)
         
 return
 self
