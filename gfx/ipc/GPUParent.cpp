@@ -638,7 +638,7 @@ work
 gfxPlatform
 :
 :
-InitMoz2D
+InitMoz2DLogging
 (
 )
 ;
