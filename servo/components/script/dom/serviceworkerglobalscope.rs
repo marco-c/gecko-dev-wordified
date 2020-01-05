@@ -310,12 +310,6 @@ RequestType
 }
 ;
 use
-rand
-:
-:
-random
-;
-use
 script_runtime
 :
 :
@@ -347,6 +341,12 @@ prefs
 :
 :
 PREFS
+;
+use
+servo_rand
+:
+:
+random
 ;
 use
 servo_url
