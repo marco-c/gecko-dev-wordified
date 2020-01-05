@@ -515,8 +515,7 @@ mEnd
 }
 }
 return
--
-1
+aOffset
 ;
 }
 nsresult
