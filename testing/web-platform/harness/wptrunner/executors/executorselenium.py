@@ -845,7 +845,7 @@ error
 (
 "
 Lost
-webdriver
+WebDriver
 connection
 "
 )
