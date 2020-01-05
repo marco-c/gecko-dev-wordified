@@ -998,6 +998,7 @@ if
 (
 DEBUG
 )
+{
 Log
 .
 d
@@ -1010,6 +1011,7 @@ flush
 this
 )
 ;
+}
 mRemote
 .
 flush
@@ -1083,6 +1085,7 @@ if
 (
 DEBUG
 )
+{
 Log
 .
 d
@@ -1095,6 +1098,7 @@ release
 this
 )
 ;
+}
 if
 (
 !
@@ -1328,6 +1332,7 @@ DEBUG
 !
 render
 )
+{
 Log
 .
 d
@@ -1346,6 +1351,7 @@ info
 presentationTimeUs
 )
 ;
+}
 try
 {
 mRemote
@@ -1363,6 +1369,27 @@ RemoteException
 e
 )
 {
+Log
+.
+e
+(
+LOGTAG
+"
+remote
+fail
+to
+render
+output
+:
+"
++
+sample
+.
+info
+.
+presentationTimeUs
+)
+;
 e
 .
 printStackTrace
@@ -1385,7 +1412,6 @@ true
 package
 *
 /
-synchronized
 void
 reportError
 (
