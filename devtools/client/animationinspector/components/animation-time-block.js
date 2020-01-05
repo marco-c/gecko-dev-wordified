@@ -167,7 +167,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 animationinspector
 .

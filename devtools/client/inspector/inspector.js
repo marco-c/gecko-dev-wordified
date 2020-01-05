@@ -574,7 +574,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 inspector
 .
@@ -591,7 +593,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 toolbox
 .

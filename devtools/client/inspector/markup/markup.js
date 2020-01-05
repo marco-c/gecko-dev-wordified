@@ -454,7 +454,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 inspector
 .

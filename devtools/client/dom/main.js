@@ -242,7 +242,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 dom
 .

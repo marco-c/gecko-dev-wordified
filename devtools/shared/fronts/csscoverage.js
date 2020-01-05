@@ -124,10 +124,10 @@ LocalizationHelper
 (
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 csscoverage
 .

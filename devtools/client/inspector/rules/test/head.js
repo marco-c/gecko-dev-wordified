@@ -222,10 +222,10 @@ LocalizationHelper
 (
 "
 devtools
--
+/
 shared
 /
-locale
+locales
 /
 styleinspector
 .
