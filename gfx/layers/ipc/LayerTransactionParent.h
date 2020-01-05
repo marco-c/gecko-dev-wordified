@@ -329,6 +329,14 @@ return
 mLayerManager
 ;
 }
+void
+SetLayerManager
+(
+HostLayerManager
+*
+aLayerManager
+)
+;
 uint64_t
 GetId
 (
