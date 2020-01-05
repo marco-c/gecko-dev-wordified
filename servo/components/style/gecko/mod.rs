@@ -96,6 +96,10 @@ media_queries
 ;
 pub
 mod
+pseudo_element
+;
+pub
+mod
 restyle_damage
 ;
 pub

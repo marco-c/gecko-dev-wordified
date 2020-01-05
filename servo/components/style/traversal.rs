@@ -5831,6 +5831,12 @@ trace
 :
 ?
 }
+pseudo
+:
+{
+:
+?
+}
 later_siblings
 :
 {
@@ -5856,6 +5862,11 @@ r
 hint
 )
 propagated_hint
+child
+.
+implemented_pseudo_element
+(
+)
 later_siblings
 )
 ;

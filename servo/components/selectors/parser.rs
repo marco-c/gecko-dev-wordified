@@ -602,7 +602,7 @@ pseudo
 -
 elements
 type
-PseudoElement
+PseudoElementSelector
 :
 (
 CommonBounds
@@ -829,6 +829,11 @@ Cow
 <
 str
 >
+_input
+:
+&
+mut
+CssParser
 )
 -
 >
@@ -844,7 +849,7 @@ SelectorImpl
 >
 :
 :
-PseudoElement
+PseudoElementSelector
 (
 )
 >
@@ -1459,7 +1464,7 @@ Option
 Impl
 :
 :
-PseudoElement
+PseudoElementSelector
 >
 pub
 specificity
@@ -6385,7 +6390,7 @@ Option
 Impl
 :
 :
-PseudoElement
+PseudoElementSelector
 >
 )
 -
@@ -7116,7 +7121,7 @@ Option
 Impl
 :
 :
-PseudoElement
+PseudoElementSelector
 >
 )
 (
@@ -7755,7 +7760,7 @@ PseudoElement
 Impl
 :
 :
-PseudoElement
+PseudoElementSelector
 )
 }
 /
@@ -9236,7 +9241,7 @@ Option
 Impl
 :
 :
-PseudoElement
+PseudoElementSelector
 >
 (
 )
@@ -10165,6 +10170,7 @@ parse_pseudo_element
 (
 parser
 name
+input
 )
 ?
 ;
@@ -10298,6 +10304,7 @@ parse_pseudo_element
 (
 parser
 name
+input
 )
 ?
 ;
@@ -10954,7 +10961,7 @@ NonTSPseudoClass
 PseudoClass
 ;
 type
-PseudoElement
+PseudoElementSelector
 =
 PseudoElement
 ;
@@ -11247,6 +11254,11 @@ Cow
 <
 str
 >
+input
+:
+&
+mut
+CssParser
 )
 -
 >
