@@ -771,6 +771,12 @@ function
 (
 )
 {
+gBrowserThumbnails
+.
+clearTopSiteURLCache
+(
+)
+;
 whenFileExists
 (
 URL
