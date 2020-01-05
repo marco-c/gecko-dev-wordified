@@ -929,8 +929,6 @@ Lock
 (
 OpenMode
 aMode
-FenceHandle
-*
 )
 override
 ;
@@ -1173,8 +1171,6 @@ bool
 Lock
 (
 OpenMode
-FenceHandle
-*
 )
 override
 {

@@ -164,8 +164,6 @@ bool
 Lock
 (
 OpenMode
-FenceHandle
-*
 )
 override
 {

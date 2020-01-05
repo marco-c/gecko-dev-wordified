@@ -413,8 +413,6 @@ Lock
 (
 OpenMode
 aMode
-FenceHandle
-*
 )
 override
 ;
@@ -456,17 +454,6 @@ aAllocFlags
 const
 override
 ;
-/
-/
-TODO
--
-merge
-this
-with
-the
-FenceHandle
-API
-!
 virtual
 void
 SyncWithObject
@@ -712,8 +699,6 @@ bool
 Lock
 (
 OpenMode
-FenceHandle
-*
 )
 override
 {

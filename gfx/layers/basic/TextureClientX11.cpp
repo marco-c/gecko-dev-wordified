@@ -277,8 +277,6 @@ Lock
 (
 OpenMode
 aMode
-FenceHandle
-*
 )
 {
 return

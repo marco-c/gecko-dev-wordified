@@ -3271,8 +3271,6 @@ Lock
 (
 OpenMode
 aMode
-FenceHandle
-*
 )
 {
 if
