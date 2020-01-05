@@ -1723,6 +1723,10 @@ return
 val
 |
 =
+(
+unsigned
+int
+)
 parts
 [
 0
@@ -1770,6 +1774,10 @@ val
 |
 =
 (
+(
+unsigned
+int
+)
 parts
 [
 0
@@ -1780,6 +1788,10 @@ parts
 )
 |
 (
+(
+unsigned
+int
+)
 parts
 [
 1
@@ -1832,6 +1844,10 @@ val
 |
 =
 (
+(
+unsigned
+int
+)
 parts
 [
 0
@@ -1842,6 +1858,10 @@ parts
 )
 |
 (
+(
+unsigned
+int
+)
 parts
 [
 1
@@ -1852,6 +1872,10 @@ parts
 )
 |
 (
+(
+unsigned
+int
+)
 parts
 [
 2
