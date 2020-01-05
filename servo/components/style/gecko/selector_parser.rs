@@ -163,6 +163,16 @@ WeakAtom
 WeakNamespace
 }
 ;
+pub
+use
+gecko
+:
+:
+snapshot
+:
+:
+SnapshotMap
+;
 /
 /
 /
