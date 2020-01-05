@@ -937,7 +937,7 @@ place
 .
 *
 /
-private
+protected
 void
 updateSelectedPosition
 (
