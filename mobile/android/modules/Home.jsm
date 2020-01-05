@@ -1520,7 +1520,9 @@ e
 }
 }
 }
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
