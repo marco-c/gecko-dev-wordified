@@ -401,6 +401,8 @@ fontData
 length
 0
 mSize
+0
+nullptr
 aBaton
 )
 ;
