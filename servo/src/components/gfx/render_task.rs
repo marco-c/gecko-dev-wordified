@@ -956,6 +956,9 @@ compositor
 paint
 (
 layer_buffer_set
+render_layer
+.
+size
 )
 ;
 }

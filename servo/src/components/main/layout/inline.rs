@@ -112,7 +112,10 @@ layout
 display_list_builder
 :
 :
+{
 DisplayListBuilder
+ExtraDisplayListData
+}
 ;
 use
 layout
@@ -1192,7 +1195,7 @@ old_boxes
 old_i
 ]
 .
-with_imm_base
+with_base
 |
 old_box_base
 |
@@ -1203,7 +1206,7 @@ new_boxes
 new_j
 ]
 .
-with_imm_base
+with_base
 |
 new_box_base
 |
@@ -2424,7 +2427,7 @@ new_box
 do
 old_box
 .
-with_imm_base
+with_base
 |
 old_box_base
 |
@@ -3011,7 +3014,7 @@ in_boxes
 i
 ]
 .
-with_imm_base
+with_base
 |
 base
 |
@@ -7098,6 +7101,11 @@ cur_y
 pub
 fn
 build_display_list_inline
+<
+E
+:
+ExtraDisplayListData
+>
 (
 &
 self
@@ -7125,6 +7133,9 @@ list
 Cell
 <
 DisplayList
+<
+E
+>
 >
 )
 {

@@ -408,7 +408,10 @@ layout
 display_list_builder
 :
 :
+{
 DisplayListBuilder
+ExtraDisplayListData
+}
 ;
 use
 layout
@@ -1896,6 +1899,11 @@ id
 pub
 fn
 build_display_list_recurse
+<
+E
+:
+ExtraDisplayListData
+>
 (
 &
 self
@@ -1923,6 +1931,9 @@ list
 Cell
 <
 DisplayList
+<
+E
+>
 >
 )
 {
