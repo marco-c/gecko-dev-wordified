@@ -82,6 +82,14 @@ feature
 core
 )
 ]
+#
+!
+[
+feature
+(
+nonzero
+)
+]
 extern
 crate
 core

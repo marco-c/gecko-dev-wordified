@@ -69,7 +69,7 @@ box_syntax
 [
 feature
 (
-collections
+slice_bytes
 )
 ]
 #
@@ -77,7 +77,7 @@ collections
 [
 feature
 (
-core
+vec_push_all
 )
 ]
 #

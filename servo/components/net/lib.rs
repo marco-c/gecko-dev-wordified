@@ -61,7 +61,7 @@ MPL
 [
 feature
 (
-alloc
+box_raw
 )
 ]
 #
@@ -77,7 +77,7 @@ box_syntax
 [
 feature
 (
-collections
+fnbox
 )
 ]
 #
@@ -85,7 +85,7 @@ collections
 [
 feature
 (
-core
+mpsc_select
 )
 ]
 #
@@ -109,7 +109,7 @@ plugin
 [
 feature
 (
-std_misc
+vec_push_all
 )
 ]
 #
