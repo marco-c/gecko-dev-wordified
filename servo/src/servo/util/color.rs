@@ -115,6 +115,7 @@ eq
 for
 Color
 {
+pure
 fn
 eq
 (
