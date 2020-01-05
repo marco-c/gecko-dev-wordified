@@ -478,6 +478,9 @@ init
 {
 unsafe
 {
+assert_eq
+!
+(
 js
 :
 :
@@ -486,6 +489,8 @@ jsapi
 :
 JS_Init
 (
+)
+1
 )
 ;
 }
