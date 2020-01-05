@@ -2393,6 +2393,8 @@ i
 ]
 as
 uint
++
+1
 max_glyph_idx
 )
 ;
