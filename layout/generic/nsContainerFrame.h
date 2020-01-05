@@ -2356,11 +2356,15 @@ height
 but
 returns
 *
+with
 either
-an
-NS_FRAME_NOT_COMPLETE
+the
+mIncomplete
 or
-NS_FRAME_OVERFLOW_INCOMPLETE
+mOverflowIncomplete
+bit
+set
+in
 reflow
 *
 status
@@ -6548,7 +6552,7 @@ walker
 and
 sets
 the
-NS_FRAME_OVERFLOW_INCOMPLETE
+mOverflowIncomplete
 *
 reflow
 flag
