@@ -3161,6 +3161,9 @@ bMustRevalidate
 =
 false
 ;
+Unused
+<
+<
 httpChannel
 -
 >
@@ -3176,6 +3179,9 @@ if
 bMustRevalidate
 )
 {
+Unused
+<
+<
 httpChannel
 -
 >
@@ -3195,6 +3201,9 @@ bMustRevalidate
 nsAutoCString
 cacheHeader
 ;
+Unused
+<
+<
 httpChannel
 -
 >
