@@ -890,6 +890,8 @@ JSAtom
 name
 DeclarationKind
 kind
+uint32_t
+pos
 )
 {
 return
@@ -906,6 +908,7 @@ name
 DeclaredNameInfo
 (
 kind
+pos
 )
 )
 )
@@ -8845,9 +8848,11 @@ reportRedeclaration
 HandlePropertyName
 name
 DeclarationKind
-kind
+prevKind
 TokenPos
 pos
+uint32_t
+prevPos
 )
 ;
 bool
@@ -8857,6 +8862,8 @@ Node
 fn
 HandlePropertyName
 name
+uint32_t
+beginPos
 bool
 disallowDuplicateParams
 bool
@@ -8895,6 +8902,8 @@ HandlePropertyName
 name
 DeclarationKind
 kind
+uint32_t
+beginPos
 mozilla
 :
 :
@@ -8904,6 +8913,9 @@ DeclarationKind
 >
 *
 redeclaredKind
+uint32_t
+*
+prevPos
 )
 ;
 bool
@@ -8911,6 +8923,8 @@ tryDeclareVarForAnnexBLexicalFunction
 (
 HandlePropertyName
 name
+uint32_t
+beginPos
 bool
 *
 tryAnnexB
