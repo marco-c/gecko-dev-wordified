@@ -2163,10 +2163,6 @@ bubbles
 self
 .
 bubbles
-.
-clone
-(
-)
 ;
 let
 cancelable
@@ -2174,10 +2170,6 @@ cancelable
 self
 .
 cancelable
-.
-clone
-(
-)
 ;
 target
 .
