@@ -6914,8 +6914,6 @@ style
 type
 "
 "
-"
-"
 disc
 none
 circle
@@ -6976,8 +6974,6 @@ open
 disclosure
 -
 closed
-"
-"
 "
 )
 }
