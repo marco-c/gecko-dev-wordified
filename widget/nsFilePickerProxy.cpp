@@ -803,7 +803,9 @@ nsIFile
 >
 file
 ;
-NS_ConvertUTF16toUTF8
+const
+nsAString
+&
 path
 (
 aData
@@ -820,7 +822,7 @@ directoryPath
 nsresult
 rv
 =
-NS_NewNativeLocalFile
+NS_NewLocalFile
 (
 path
 true
