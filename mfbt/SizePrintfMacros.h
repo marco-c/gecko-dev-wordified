@@ -223,6 +223,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 #
 define
 PRIoSIZE
