@@ -76,6 +76,10 @@ argparse
 import
 ArgumentParser
 from
+collections
+import
+defaultdict
+from
 copy
 import
 deepcopy
@@ -6584,15 +6588,48 @@ AssertionError
 message_e10s
 )
         
+tests_by_group
+=
+defaultdict
+(
+list
+)
+        
+for
+test
+in
+self
+.
+tests
+:
+            
+tests_by_group
+[
+test
+[
+'
+group
+'
+]
+]
+.
+append
+(
+test
+[
+'
+filepath
+'
+]
+)
+        
 self
 .
 logger
 .
 suite_start
 (
-self
-.
-tests
+tests_by_group
                                 
 version_info
 =
@@ -7205,6 +7242,11 @@ expected
 '
 pass
 '
+group
+=
+'
+default
+'
 )
 :
         
@@ -7395,6 +7437,10 @@ file_ext
 ini
 '
 :
+            
+group
+=
+filepath
             
 manifest
 =
@@ -7683,37 +7729,6 @@ path
 )
 )
                 
-file_ext
-=
-os
-.
-path
-.
-splitext
-(
-os
-.
-path
-.
-split
-(
-i
-[
-'
-path
-'
-]
-)
-[
--
-1
-]
-)
-[
--
-1
-]
-                
 self
 .
 add_test
@@ -7730,6 +7745,9 @@ i
 expected
 "
 ]
+group
+=
+group
 )
             
 return
@@ -7751,6 +7769,11 @@ expected
 '
 :
 expected
+'
+group
+'
+:
+group
 }
 )
     
