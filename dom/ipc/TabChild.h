@@ -451,6 +451,17 @@ AutoCacheNativeKeyCommands
 namespace
 widget
 namespace
+plugins
+{
+class
+PluginWidgetChild
+;
+}
+/
+/
+namespace
+plugins
+namespace
 dom
 {
 class
@@ -3166,9 +3177,6 @@ aActor
 )
 override
 ;
-#
-ifdef
-XP_WIN
 nsresult
 CreatePluginWidget
 (
@@ -3181,8 +3189,6 @@ nsIWidget
 aOut
 )
 ;
-#
-endif
 LayoutDeviceIntPoint
 GetClientOffset
 (
