@@ -888,7 +888,7 @@ Iterator
 EXPECT_NE
 (
 character_iterator
-reinterpret_cast
+static_cast
 <
 CMapTable
 :
