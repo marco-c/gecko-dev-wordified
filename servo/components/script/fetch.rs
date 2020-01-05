@@ -452,15 +452,6 @@ unsafe_request
 request
 .
 unsafe_request
-same_origin_data
-:
-request
-.
-same_origin_data
-.
-get
-(
-)
 body
 :
 request
