@@ -7,7 +7,7 @@ log_name
 "
 :
 "
-bump_esr45
+bump_esr52
 "
     
 "
@@ -89,7 +89,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 "
         
 "
@@ -107,7 +107,7 @@ dest
 "
 mozilla
 -
-esr45
+esr52
 "
         
 "
@@ -152,7 +152,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 "
     
 "
