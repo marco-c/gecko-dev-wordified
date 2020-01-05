@@ -220,6 +220,16 @@ mod
 .
 rs
 "
+    
+"
+components
+/
+servo
+/
+target
+/
+*
+"
 ]
 def
 collect_file_names
