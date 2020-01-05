@@ -474,6 +474,10 @@ this
 props
 .
 searchFilter
+.
+toLowerCase
+(
+)
 )
 >
 =
