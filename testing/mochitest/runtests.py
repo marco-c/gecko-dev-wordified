@@ -157,6 +157,12 @@ zipfile
 import
 bisection
 from
+ctypes
+.
+util
+import
+find_library
+from
 datetime
 import
 datetime
@@ -4961,13 +4967,12 @@ cdll
 .
 LoadLibrary
 (
-'
-libc
-.
-so
-.
-6
-'
+find_library
+(
+"
+c
+"
+)
 )
     
 O_RDWR
