@@ -3077,6 +3077,15 @@ ShorthandId
 }
 ;
 use
+properties
+:
+:
+declaration_block
+:
+:
+Importance
+;
+use
 std
 :
 :
@@ -3715,7 +3724,10 @@ declarations
 mut
 Vec
 <
+(
 PropertyDeclaration
+Importance
+)
 >
 )
 -
@@ -3823,6 +3835,7 @@ declarations
 .
 push
 (
+(
 PropertyDeclaration
 :
 :
@@ -3862,6 +3875,11 @@ DeclaredValue
 :
 Initial
 }
+)
+Importance
+:
+:
+Normal
 )
 )
 ;
@@ -3916,6 +3934,7 @@ declarations
 .
 push
 (
+(
 PropertyDeclaration
 :
 :
@@ -3967,6 +3986,11 @@ camel_case
 }
 )
 }
+)
+Importance
+:
+:
+Normal
 )
 )
 ;
