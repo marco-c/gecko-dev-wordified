@@ -16217,6 +16217,13 @@ remove
 (
 processLog
 )
+            
+self
+.
+urlOpts
+=
+[
+]
         
 return
 status
