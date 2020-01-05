@@ -10904,8 +10904,6 @@ nsIDocShellTreeItem
 aContentShell
 bool
 aPrimary
-bool
-aTargetable
 const
 nsAString
 &
