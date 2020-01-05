@@ -2273,7 +2273,7 @@ java
 GeckoAppShell
 :
 :
-OpenWindowForNotification
+LaunchOrBringToFront
 (
 )
 ;
