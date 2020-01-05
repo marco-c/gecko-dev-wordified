@@ -2660,6 +2660,15 @@ or_insert_with
 |
 |
 {
+let
+font_key
+=
+webrender_api
+.
+generate_font_key
+(
+)
+;
 match
 (
 template
@@ -2687,6 +2696,7 @@ webrender_api
 .
 add_raw_font
 (
+font_key
 bytes
 )
 (
@@ -2702,6 +2712,7 @@ webrender_api
 .
 add_native_font
 (
+font_key
 native_font
 )
 (
@@ -2714,6 +2725,7 @@ webrender_api
 .
 add_raw_font
 (
+font_key
 template
 .
 bytes
@@ -2725,6 +2737,7 @@ clone
 )
 )
 }
+font_key
 }
 )
 )

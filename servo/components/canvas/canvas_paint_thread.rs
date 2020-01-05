@@ -881,7 +881,7 @@ webrender_image_key
 =
 webrender_api
 .
-alloc_image
+generate_image_key
 (
 )
 ;
@@ -4678,6 +4678,9 @@ ImageFormat
 :
 :
 RGBA8
+offset
+:
+0
 is_opaque
 :
 false
