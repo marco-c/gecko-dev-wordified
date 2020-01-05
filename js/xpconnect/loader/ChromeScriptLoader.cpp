@@ -1552,6 +1552,8 @@ NoteJSContextException
 aCx
 )
 ;
+return
+;
 }
 }
 JS_WrapValue
