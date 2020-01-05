@@ -528,6 +528,10 @@ extern
 crate
 webrender_traits
 ;
+extern
+crate
+xi_unicode
+;
 pub
 use
 paint_context
