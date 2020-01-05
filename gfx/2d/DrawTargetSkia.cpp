@@ -5484,6 +5484,10 @@ MarkChanged
 ;
 if
 (
+!
+aPath
+|
+|
 aPath
 -
 >
