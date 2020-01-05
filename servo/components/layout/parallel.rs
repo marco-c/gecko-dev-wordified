@@ -123,10 +123,7 @@ use
 flow_ref
 :
 :
-{
-self
 FlowRef
-}
 ;
 use
 profile_traits
@@ -1354,7 +1351,7 @@ root
 :
 &
 mut
-FlowRef
+Flow
 profiler_metadata
 :
 Option
@@ -1414,13 +1411,7 @@ layout_context
 layout_context
 }
 ;
-flow_ref
-:
-:
-deref_mut
-(
 root
-)
 .
 traverse_postorder
 (
@@ -1466,7 +1457,7 @@ box
 vec
 !
 [
-mut_owned_flow_to_unsafe_flow
+borrowed_flow_to_unsafe_flow
 (
 root
 )
