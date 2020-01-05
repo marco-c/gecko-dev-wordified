@@ -155,6 +155,12 @@ jsm
 "
 )
 ;
+/
+*
+globals
+extensionStorageSync
+*
+/
 Service
 .
 engineManager
@@ -379,14 +385,14 @@ extension
 let
 oldSync
 =
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 ;
 let
 syncMock
 =
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 =
@@ -432,7 +438,7 @@ storage
 .
 sync
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 set
 (
@@ -462,7 +468,7 @@ _sync
 }
 finally
 {
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 =

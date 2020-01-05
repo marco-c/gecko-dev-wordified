@@ -151,6 +151,12 @@ jsm
 "
 )
 ;
+/
+*
+globals
+extensionStorageSync
+*
+/
 Service
 .
 engineManager
@@ -249,7 +255,7 @@ context
 )
 {
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 set
 (
@@ -294,7 +300,7 @@ context
 )
 {
 yield
-ExtensionStorageSync
+extensionStorageSync
 .
 remove
 (

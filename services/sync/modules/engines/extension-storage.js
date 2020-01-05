@@ -168,7 +168,7 @@ defineLazyModuleGetter
 (
 this
 "
-ExtensionStorageSync
+extensionStorageSync
 "
 "
 resource
@@ -373,7 +373,7 @@ Async
 .
 promiseSpinningly
 (
-ExtensionStorageSync
+extensionStorageSync
 .
 syncAll
 (
