@@ -4494,6 +4494,16 @@ AbortReasonOr
 <
 Ok
 >
+jsop_pushlexicalenv
+(
+uint32_t
+index
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_functionthis
 (
 )

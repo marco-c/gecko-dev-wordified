@@ -3268,7 +3268,7 @@ public
 static
 LexicalEnvironmentObject
 *
-createTemplateObject
+create
 (
 JSContext
 *

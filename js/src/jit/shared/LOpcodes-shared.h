@@ -1678,6 +1678,11 @@ FunctionEnvironment
 \
 _
 (
+NewLexicalEnvironmentObject
+)
+\
+_
+(
 GetPropertyCacheV
 )
 \

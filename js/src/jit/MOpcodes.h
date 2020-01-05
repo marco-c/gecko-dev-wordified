@@ -934,6 +934,11 @@ FunctionEnvironment
 \
 _
 (
+NewLexicalEnvironmentObject
+)
+\
+_
+(
 FilterTypeSet
 )
 \
