@@ -4418,9 +4418,14 @@ xulEl
 nsXULElement
 :
 :
-FromContent
+FromContentOrNull
 (
 sourceNode
+-
+>
+GetParent
+(
+)
 )
 ;
 if
