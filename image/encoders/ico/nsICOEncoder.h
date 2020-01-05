@@ -264,7 +264,7 @@ const
 nsAString
 &
 aOptions
-uint32_t
+uint16_t
 &
 aBppOut
 bool
@@ -302,7 +302,7 @@ mICODirEntry
 void
 InitInfoHeader
 (
-uint32_t
+uint16_t
 aBPP
 uint8_t
 aWidth
