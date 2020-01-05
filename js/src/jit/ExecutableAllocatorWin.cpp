@@ -476,7 +476,7 @@ randomness
 /
 #
 ifdef
-JS_CPU_X64
+HAVE_64BIT_BUILD
 static
 const
 uintptr_t
@@ -495,7 +495,13 @@ mask
 elif
 defined
 (
-JS_CPU_X86
+_M_IX86
+)
+|
+|
+defined
+(
+__i386__
 )
 static
 const
@@ -594,7 +600,7 @@ mask
 }
 #
 ifdef
-JS_CPU_X64
+HAVE_64BIT_BUILD
 static
 js
 :
@@ -1369,7 +1375,7 @@ pageSize
 ;
 #
 ifdef
-JS_CPU_X64
+HAVE_64BIT_BUILD
 if
 (
 sJitExceptionHandler
@@ -1405,7 +1411,7 @@ nullptr
 ;
 #
 ifdef
-JS_CPU_X64
+HAVE_64BIT_BUILD
 if
 (
 sJitExceptionHandler
@@ -1480,7 +1486,7 @@ pageSize
 ;
 #
 ifdef
-JS_CPU_X64
+HAVE_64BIT_BUILD
 if
 (
 sJitExceptionHandler

@@ -402,8 +402,11 @@ Vector
 h
 "
 #
-ifdef
-JS_CPU_SPARC
+if
+defined
+(
+__sparc__
+)
 #
 ifdef
 __linux__
@@ -1830,7 +1833,10 @@ size
 }
 #
 elif
-JS_CPU_SPARC
+defined
+(
+__sparc__
+)
 static
 void
 cacheFlush

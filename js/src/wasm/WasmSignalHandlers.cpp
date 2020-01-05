@@ -2570,7 +2570,7 @@ endif
 if
 defined
 (
-JS_CPU_X64
+__x86_64__
 )
 #
 if
@@ -3146,7 +3146,7 @@ XP_DARWIN
 if
 defined
 (
-JS_CPU_X64
+__x86_64__
 )
 struct
 macos_x64_context
@@ -3167,7 +3167,7 @@ macos_x64_context
 elif
 defined
 (
-JS_CPU_X86
+__i386__
 )
 struct
 macos_x86_context
@@ -3188,7 +3188,7 @@ macos_x86_context
 elif
 defined
 (
-JS_CPU_ARM
+__arm__
 )
 struct
 macos_arm_context
@@ -3225,7 +3225,13 @@ endif
 if
 defined
 (
-JS_CPU_X64
+_M_X64
+)
+|
+|
+defined
+(
+__x86_64__
 )
 #
 define
@@ -3241,7 +3247,13 @@ p
 elif
 defined
 (
-JS_CPU_X86
+_M_IX86
+)
+|
+|
+defined
+(
+__i386__
 )
 #
 define
@@ -3257,7 +3269,7 @@ p
 elif
 defined
 (
-JS_CPU_ARM
+__arm__
 )
 #
 define
@@ -3289,7 +3301,7 @@ p
 elif
 defined
 (
-JS_CPU_MIPS
+__mips__
 )
 #
 define
@@ -7367,7 +7379,7 @@ context
 if
 defined
 (
-JS_CPU_X64
+__x86_64__
 )
 static_assert
 (
@@ -7422,7 +7434,7 @@ __rip
 elif
 defined
 (
-JS_CPU_X86
+__i386__
 )
 static_assert
 (
@@ -7485,7 +7497,7 @@ __eip
 elif
 defined
 (
-JS_CPU_ARM
+__arm__
 )
 static_assert
 (
@@ -7746,7 +7758,7 @@ context
 if
 defined
 (
-JS_CPU_X64
+__x86_64__
 )
 unsigned
 int
@@ -7774,7 +7786,7 @@ x86_FLOAT_STATE64
 elif
 defined
 (
-JS_CPU_X86
+__i386__
 )
 unsigned
 int
@@ -7802,7 +7814,7 @@ x86_FLOAT_STATE
 elif
 defined
 (
-JS_CPU_ARM
+__arm__
 )
 unsigned
 int
