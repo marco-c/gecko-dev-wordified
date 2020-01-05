@@ -500,7 +500,7 @@ maxCharsForSearchSuggestions
 ]
 ;
 const
-PREF_PREFILL_SITES_ENABLED
+PREF_PRELOADED_SITES_ENABLED
 =
 [
 "
@@ -512,7 +512,7 @@ true
 ]
 ;
 const
-PREF_PREFILL_SITES_EXPIRE_DAYS
+PREF_PRELOADED_SITES_EXPIRE_DAYS
 =
 [
 "
@@ -3854,7 +3854,7 @@ PREF_MAX_CHARS_FOR_SUGGEST
 ;
 store
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 =
 prefs
 .
@@ -3863,12 +3863,12 @@ get
 .
 .
 .
-PREF_PREFILL_SITES_ENABLED
+PREF_PRELOADED_SITES_ENABLED
 )
 ;
 store
 .
-prefillSitesExpireDays
+preloadedSitesExpireDays
 =
 prefs
 .
@@ -3877,7 +3877,7 @@ get
 .
 .
 .
-PREF_PREFILL_SITES_EXPIRE_DAYS
+PREF_PRELOADED_SITES_EXPIRE_DAYS
 )
 ;
 store
@@ -4365,11 +4365,11 @@ store
 ;
 /
 /
-Prefill
+Preloaded
 Sites
 related
 function
-PrefillSite
+PreloadedSite
 (
 url
 title
@@ -4453,7 +4453,7 @@ host
 Storage
 object
 for
-Prefill
+Preloaded
 Sites
 .
 *
@@ -4494,7 +4494,7 @@ array
 of
 sites
 (
-PrefillSite
+PreloadedSite
 objects
 )
 *
@@ -4505,7 +4505,7 @@ defineLazyGetter
 (
 this
 "
-PrefillSiteStorage
+PreloadedSiteStorage
 "
 (
 )
@@ -4530,7 +4530,7 @@ let
 site
 =
 new
-PrefillSite
+PreloadedSite
 (
 url
 title
@@ -7553,7 +7553,7 @@ _searchQuery
 /
 Check
 for
-Prefill
+Preloaded
 Sites
 Expiry
 before
@@ -7561,7 +7561,7 @@ Autofill
 yield
 this
 .
-_checkPrefillSitesExpiry
+_checkPreloadedSitesExpiry
 (
 )
 ;
@@ -8012,7 +8012,7 @@ handleInputCancelled
 }
 this
 .
-_matchPrefillSites
+_matchPreloadedSites
 (
 )
 ;
@@ -8053,7 +8053,7 @@ _remoteMatchesPromises
 }
 )
 *
-_checkPrefillSitesExpiry
+_checkPreloadedSitesExpiry
 (
 )
 {
@@ -8062,7 +8062,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 ;
@@ -8093,7 +8093,7 @@ daysSinceProfileCreation
 >
 Prefs
 .
-prefillSitesExpireDays
+preloadedSitesExpireDays
 )
 Services
 .
@@ -8114,7 +8114,7 @@ false
 )
 ;
 }
-_matchPrefillSites
+_matchPreloadedSites
 (
 )
 {
@@ -8123,7 +8123,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 ;
@@ -8231,7 +8231,7 @@ for
 let
 site
 of
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 )
@@ -8276,7 +8276,9 @@ title
 style
 :
 "
-prefill
+preloaded
+-
+top
 -
 site
 "
@@ -8381,7 +8383,7 @@ this
 )
 ;
 }
-_matchPrefillSiteForAutofill
+_matchPreloadedSiteForAutofill
 (
 )
 {
@@ -8390,7 +8392,7 @@ if
 !
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 return
 false
@@ -8561,7 +8563,7 @@ this
 let
 site
 =
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 .
@@ -8610,6 +8612,11 @@ style
 :
 "
 autofill
+preloaded
+-
+top
+-
+site
 "
 finalCompleteValue
 :
@@ -8664,7 +8671,7 @@ www
 .
 "
 in
-prefill
+Preloaded
 -
 sites
 or
@@ -8698,7 +8705,7 @@ this
 }
 site
 =
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 sites
 .
@@ -8750,6 +8757,11 @@ style
 :
 "
 autofill
+preloaded
+-
+top
+-
+site
 "
 /
 /
@@ -9104,7 +9116,7 @@ matched
 =
 this
 .
-_matchPrefillSiteForAutofill
+_matchPreloadedSiteForAutofill
 (
 )
 ;
@@ -15564,7 +15576,7 @@ if
 (
 Prefs
 .
-prefillSitesEnabled
+preloadedSitesEnabled
 )
 {
 /
@@ -15646,7 +15658,7 @@ then
 sites
 =
 >
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 populate
 (
@@ -16030,12 +16042,12 @@ userContextId
 )
 ;
 }
-populatePrefillSiteStorage
+populatePreloadedSiteStorage
 (
 json
 )
 {
-PrefillSiteStorage
+PreloadedSiteStorage
 .
 populate
 (
