@@ -26010,6 +26010,10 @@ sourceIsLazy
 (
 false
 )
+allowHTMLComments
+(
+true
+)
 introductionType
 (
 nullptr
@@ -26231,6 +26235,9 @@ packaged
 app
 bool
 sourceIsLazy
+;
+bool
+allowHTMLComments
 ;
 /
 /
