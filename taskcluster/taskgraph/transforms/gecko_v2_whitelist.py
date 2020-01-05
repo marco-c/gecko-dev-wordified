@@ -570,6 +570,16 @@ opt
 '
     
 '
+macosx64
+-
+add
+-
+on
+-
+devel
+'
+    
+'
 nexus
 -
 5
@@ -709,6 +719,26 @@ sm
 tsan
 -
 opt
+'
+    
+'
+win64
+-
+add
+-
+on
+-
+devel
+'
+    
+'
+win32
+-
+add
+-
+on
+-
+devel
 '
     
 '
