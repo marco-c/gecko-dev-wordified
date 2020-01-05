@@ -370,13 +370,6 @@ case
 "
 )
 ;
-/
-/
-Congratulations
-on
-implementing
-these
-!
 assertEq
 (
 name
@@ -399,6 +392,8 @@ a
 true
 )
 "
+get
+a
 "
 )
 ;
@@ -422,6 +417,8 @@ get
 true
 )
 "
+get
+123
 "
 )
 ;
@@ -448,6 +445,8 @@ a
 false
 )
 "
+set
+a
 "
 )
 ;
@@ -472,6 +471,8 @@ v
 false
 )
 "
+set
+123
 "
 )
 ;
