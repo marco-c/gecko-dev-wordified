@@ -121,12 +121,17 @@ mozilla_mscom_Utils_h
 define
 mozilla_mscom_Utils_h
 #
+ifdef
+ACCESSIBILITY
+#
 include
 <
 guiddef
 .
 h
 >
+#
+endif
 struct
 IUnknown
 ;
@@ -149,6 +154,9 @@ IUnknown
 aUnknown
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 bool
 IsVtableIndexFromParentInterface
 (
@@ -171,6 +179,8 @@ long
 aVtableIndexHint
 )
 ;
+#
+endif
 }
 /
 /
