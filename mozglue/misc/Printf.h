@@ -713,13 +713,7 @@ MFBT_API
 PrintfTarget
 (
 )
-:
-mEmitted
-(
-0
-)
-{
-}
+;
 virtual
 ~
 PrintfTarget
