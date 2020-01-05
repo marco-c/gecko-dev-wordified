@@ -1994,10 +1994,6 @@ Msg
 :
 :
 ShutdownComplete
-(
-.
-.
-)
 =
 >
 write

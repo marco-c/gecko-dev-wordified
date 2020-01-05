@@ -239,6 +239,10 @@ extern
 crate
 rustc_front
 ;
+extern
+crate
+rustc_plugin
+;
 #
 [
 macro_use
@@ -256,10 +260,7 @@ crate
 url
 ;
 use
-rustc
-:
-:
-plugin
+rustc_plugin
 :
 :
 Registry

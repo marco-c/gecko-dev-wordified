@@ -6710,10 +6710,6 @@ CharacterDataTypeId
 :
 :
 Text
-(
-.
-.
-)
 )
 )
 =

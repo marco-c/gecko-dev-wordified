@@ -12439,7 +12439,6 @@ itself
 for
 index
 in
-(
 0
 .
 .
@@ -12451,7 +12450,6 @@ fragments
 .
 len
 (
-)
 )
 {
 let

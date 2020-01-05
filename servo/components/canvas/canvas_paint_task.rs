@@ -5798,7 +5798,6 @@ usize
 for
 _
 in
-(
 0
 .
 .
@@ -5807,7 +5806,6 @@ crop_rect
 size
 .
 height
-)
 {
 let
 row
