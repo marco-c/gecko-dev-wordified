@@ -396,7 +396,7 @@ void
 addTag
 (
 const
-ProfileEntry
+ProfileBufferEntry
 &
 aTag
 )

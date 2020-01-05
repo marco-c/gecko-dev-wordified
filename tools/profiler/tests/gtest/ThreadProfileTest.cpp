@@ -105,7 +105,7 @@ h
 #
 include
 "
-ProfileEntry
+ProfileBufferEntry
 .
 h
 "
@@ -245,7 +245,7 @@ pb
 >
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Time
@@ -285,7 +285,7 @@ kind
 )
 =
 =
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Kind
@@ -398,7 +398,7 @@ pb
 >
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Time
@@ -453,7 +453,7 @@ kind
 )
 =
 =
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Kind
@@ -607,7 +607,7 @@ pb
 >
 addTag
 (
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Time
@@ -667,7 +667,7 @@ kind
 )
 =
 =
-ProfileEntry
+ProfileBufferEntry
 :
 :
 Kind
