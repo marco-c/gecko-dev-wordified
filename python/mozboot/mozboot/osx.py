@@ -189,7 +189,7 @@ https
 /
 raw
 .
-github
+githubusercontent
 .
 com
 /
@@ -197,11 +197,16 @@ Homebrew
 /
 homebrew
 -
-versions
+core
 /
 master
 /
-autoconf213
+Formula
+/
+autoconf
+2
+.
+13
 .
 rb
 '
