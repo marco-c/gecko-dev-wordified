@@ -3990,12 +3990,6 @@ Ci
 .
 nsIWebProgress
 .
-NOTIFY_STATUS
-|
-Ci
-.
-nsIWebProgress
-.
 NOTIFY_STATE_WINDOW
 |
 Ci
