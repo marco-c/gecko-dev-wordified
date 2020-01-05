@@ -113,12 +113,6 @@ basic
 -
 shape
 use
-app_units
-:
-:
-Au
-;
-use
 cssparser
 :
 :
@@ -179,10 +173,7 @@ specified
 position
 :
 :
-{
 Position
-PositionComponent
-}
 ;
 use
 values
@@ -193,7 +184,6 @@ specified
 :
 {
 BorderRadiusSize
-Length
 LengthOrPercentage
 Percentage
 }
