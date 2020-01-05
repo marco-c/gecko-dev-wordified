@@ -7152,8 +7152,9 @@ virtual
 Action
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 Parse
