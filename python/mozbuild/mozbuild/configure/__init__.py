@@ -730,7 +730,7 @@ self
 sandbox
 self
 .
-first_true
+or_impl
                                        
 (
 self
@@ -741,41 +741,43 @@ other
 staticmethod
     
 def
-first_true
+or_impl
 (
 iterable
 )
 :
         
 #
-Like
+Applies
+"
+or
+"
+to
+all
 the
-builtin
-any
-(
-)
-but
-returns
-the
-first
-element
-that
-is
-true
+items
+of
+iterable
+.
         
 #
-instead
-of
-True
+e
 .
-If
-none
-are
-true
+g
+.
+if
+iterable
+contains
+a
+b
+and
+c
 returns
-the
-last
-element
+a
+or
+b
+or
+c
 .
         
 for
