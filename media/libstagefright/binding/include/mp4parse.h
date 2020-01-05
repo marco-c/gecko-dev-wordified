@@ -238,6 +238,9 @@ image_width
 uint16_t
 image_height
 ;
+mp4parse_byte_data
+extra_data
+;
 }
 mp4parse_track_video_info
 ;
