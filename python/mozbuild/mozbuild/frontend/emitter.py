@@ -719,17 +719,6 @@ test
     
 (
 '
-TestStartupCache
-'
-'
-startupcache
-/
-test
-'
-)
-    
-(
-'
 jsep_session_unittest
 '
 '
