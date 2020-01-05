@@ -315,7 +315,7 @@ dlist
 :
 :
 {
-mod
+self
 DList
 }
 ;
@@ -398,7 +398,7 @@ geometry
 :
 :
 {
-mod
+self
 Au
 MAX_RECT
 ZERO_RECT

@@ -193,7 +193,7 @@ str
 :
 :
 {
-mod
+self
 DOMString
 }
 ;

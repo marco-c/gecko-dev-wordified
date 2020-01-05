@@ -82,7 +82,7 @@ incremental
 :
 :
 {
-mod
+self
 RestyleDamage
 }
 ;
@@ -207,7 +207,7 @@ style
 :
 :
 {
-mod
+self
 PseudoElement
 ComputedValues
 DeclarationBlock

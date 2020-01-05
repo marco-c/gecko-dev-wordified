@@ -61,7 +61,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 }
 ;

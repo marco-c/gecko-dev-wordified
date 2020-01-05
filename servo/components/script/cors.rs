@@ -152,7 +152,7 @@ fmt
 :
 :
 {
-mod
+self
 Show
 }
 ;

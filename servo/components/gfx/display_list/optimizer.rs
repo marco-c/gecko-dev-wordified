@@ -113,7 +113,7 @@ geometry
 :
 :
 {
-mod
+self
 Au
 }
 ;

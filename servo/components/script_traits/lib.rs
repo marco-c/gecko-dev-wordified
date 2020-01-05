@@ -351,7 +351,7 @@ layout
 [
 allow
 (
-raw_pointer_deriving
+raw_pointer_derive
 )
 ]
 #

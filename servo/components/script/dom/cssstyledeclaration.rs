@@ -73,7 +73,7 @@ CSSStyleDeclarationBinding
 :
 :
 {
-mod
+self
 CSSStyleDeclarationMethods
 }
 ;

@@ -110,7 +110,7 @@ flow
 :
 :
 {
-mod
+self
 Flow
 ImmutableFlowUtils
 MutableFlowUtils
@@ -151,7 +151,7 @@ parallel
 :
 :
 {
-mod
+self
 UnsafeFlow
 }
 ;

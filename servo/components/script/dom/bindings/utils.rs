@@ -492,7 +492,7 @@ c_void
 [
 allow
 (
-raw_pointer_deriving
+raw_pointer_derive
 )
 ]
 #
@@ -2587,7 +2587,7 @@ order
 [
 allow
 (
-raw_pointer_deriving
+raw_pointer_derive
 unrooted_must_root
 unused_attributes
 )

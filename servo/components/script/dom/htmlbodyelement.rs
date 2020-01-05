@@ -103,7 +103,7 @@ HTMLBodyElementBinding
 :
 :
 {
-mod
+self
 HTMLBodyElementMethods
 }
 ;
@@ -264,7 +264,7 @@ str
 :
 :
 {
-mod
+self
 DOMString
 }
 ;

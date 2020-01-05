@@ -156,7 +156,7 @@ util
 :
 :
 {
-mod
+self
 CompressionMode
 }
 ;

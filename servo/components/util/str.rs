@@ -67,7 +67,7 @@ cssparser
 :
 :
 {
-mod
+self
 RGBA
 Color
 }

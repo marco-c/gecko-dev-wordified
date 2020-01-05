@@ -352,7 +352,7 @@ list_item
 :
 :
 {
-mod
+self
 ListItemFlow
 }
 ;
@@ -559,7 +559,7 @@ style
 :
 :
 {
-mod
+self
 ComputedValues
 }
 ;

@@ -77,7 +77,7 @@ display_list
 :
 :
 {
-mod
+self
 StackingContext
 }
 ;
