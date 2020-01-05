@@ -260,6 +260,15 @@ use
 servo_util
 :
 :
+fnv
+:
+:
+FnvHasher
+;
+use
+servo_util
+:
+:
 str
 :
 :
@@ -453,6 +462,7 @@ Vec
 <
 EventListenerEntry
 >
+FnvHasher
 >
 >
 }
@@ -494,8 +504,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+FnvHasher
 )
 )
 }
