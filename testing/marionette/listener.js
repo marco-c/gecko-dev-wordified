@@ -615,10 +615,10 @@ capabilities
 }
 ;
 var
-actions
+legacyactions
 =
 new
-action
+legacyaction
 .
 Chain
 (
@@ -1247,7 +1247,7 @@ json
 let
 identifier
 =
-actions
+legacyactions
 .
 nextTouchId
 ;
@@ -2596,7 +2596,7 @@ fake
 mouse
 events
 .
-actions
+legacyactions
 .
 inputSource
 =
@@ -3241,7 +3241,7 @@ focus
 (
 )
 ;
-actions
+legacyactions
 .
 touchIds
 =
@@ -3567,7 +3567,7 @@ shadowRoot
 null
 }
 ;
-actions
+legacyactions
 .
 mouseEventsOnly
 =
@@ -3745,7 +3745,7 @@ process
 environment
 curContainer
 =
-actions
+legacyactions
 .
 container
 =
@@ -4399,7 +4399,7 @@ docShell
 asyncPanZoomEnabled
 &
 &
-actions
+legacyactions
 .
 scrolling
 )
@@ -4806,7 +4806,7 @@ document
 createTouch
 )
 {
-actions
+legacyactions
 .
 mouseEventsOnly
 =
@@ -4828,7 +4828,7 @@ cory
 if
 (
 !
-actions
+legacyactions
 .
 mouseEventsOnly
 )
@@ -4836,7 +4836,7 @@ mouseEventsOnly
 let
 touchId
 =
-actions
+legacyactions
 .
 nextTouchId
 +
@@ -4874,7 +4874,7 @@ touch
 )
 ;
 }
-actions
+legacyactions
 .
 mouseTap
 (
@@ -4954,7 +4954,7 @@ screenX
 screenY
 ]
 =
-actions
+legacyactions
 .
 getCoordinateInfo
 (
@@ -5024,7 +5024,7 @@ emitTouchEvent
 emitTouchEvent
 ;
 return
-actions
+legacyactions
 .
 dispatchActions
 (
