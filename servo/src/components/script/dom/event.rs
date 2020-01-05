@@ -116,7 +116,6 @@ utils
 DOMString
 ErrorResult
 Fallible
-null_str_as_word_null
 }
 ;
 use
@@ -995,15 +994,12 @@ self
 >
 DOMString
 {
-Some
-(
 self
 .
 type_
 .
 clone
 (
-)
 )
 }
 pub
@@ -1185,9 +1181,10 @@ self
 .
 type_
 =
-null_str_as_word_null
-(
 type_
+.
+clone
+(
 )
 ;
 self

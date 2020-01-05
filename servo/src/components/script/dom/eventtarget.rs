@@ -84,7 +84,6 @@ utils
 :
 :
 {
-null_str_as_word_null
 InvalidState
 }
 ;
@@ -882,9 +881,10 @@ handlers
 .
 find_or_insert_with
 (
-null_str_as_word_null
-(
 ty
+.
+clone
+(
 )
 |
 _
@@ -985,11 +985,7 @@ handlers
 .
 find_mut
 (
-&
-null_str_as_word_null
-(
 ty
-)
 )
 ;
 for

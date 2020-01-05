@@ -225,7 +225,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -259,7 +261,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn

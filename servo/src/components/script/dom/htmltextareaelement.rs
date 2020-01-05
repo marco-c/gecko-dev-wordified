@@ -360,7 +360,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -395,7 +397,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -531,7 +535,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -566,7 +572,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -593,7 +601,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -628,7 +638,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -722,7 +734,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -853,7 +867,9 @@ DOMString
 {
 Ok
 (
-None
+~
+"
+"
 )
 }
 pub

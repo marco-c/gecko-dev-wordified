@@ -81,7 +81,6 @@ utils
 {
 DOMString
 Fallible
-null_str_as_empty
 }
 ;
 use
@@ -250,9 +249,10 @@ Text
 :
 new
 (
-null_str_as_empty
-(
 text
+.
+clone
+(
 )
 owner
 .
@@ -306,7 +306,9 @@ DOMString
 {
 Ok
 (
-None
+~
+"
+"
 )
 }
 }
