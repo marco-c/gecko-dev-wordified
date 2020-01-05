@@ -122,11 +122,8 @@ parseQueryString
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
+.
+.
 /
 utils
 /
