@@ -199,6 +199,9 @@ IS_ABSOLUTELY_POSITIONED
 ;
 use
 flow_ref
+:
+:
+FlowRef
 ;
 use
 fragment
@@ -14011,7 +14014,7 @@ block_flow
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14047,7 +14050,7 @@ block_flow
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut

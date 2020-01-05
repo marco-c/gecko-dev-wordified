@@ -417,7 +417,6 @@ flow_ref
 :
 :
 {
-self
 FlowRef
 WeakFlowRef
 }
@@ -2083,7 +2082,10 @@ FragmentationContext
 >
 Option
 <
-FlowRef
+Arc
+<
+Flow
+>
 >
 {
 fn
@@ -6669,7 +6671,7 @@ map
 |
 info
 |
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -11026,7 +11028,7 @@ base
 =
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -11068,7 +11070,7 @@ descendant_base
 =
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -11277,7 +11279,7 @@ base
 =
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -11509,7 +11511,7 @@ link
 =
 Some
 (
-Arc
+FlowRef
 :
 :
 downgrade

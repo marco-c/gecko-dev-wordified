@@ -295,10 +295,7 @@ use
 flow_ref
 :
 :
-{
-self
 FlowRef
-}
 ;
 use
 fragment
@@ -2907,9 +2904,12 @@ fragments
 let
 mut
 inline_flow_ref
-:
-FlowRef
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -2933,6 +2933,7 @@ style_context
 )
 .
 writing_mode
+)
 )
 )
 ;
@@ -3118,7 +3119,7 @@ here
 let
 inline_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -4940,9 +4941,12 @@ node
 ;
 let
 flow
-:
-FlowRef
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -4955,6 +4959,7 @@ from_fragment_and_float_kind
 (
 fragment
 float_kind
+)
 )
 )
 ;
@@ -7176,9 +7181,12 @@ layout_context
 let
 mut
 flow
-:
-FlowRef
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -7191,6 +7199,7 @@ from_fragment
 (
 fragment
 float_kind
+)
 )
 )
 ;
@@ -7215,6 +7224,11 @@ layout_context
 let
 column_flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -7226,6 +7240,7 @@ MulticolColumnFlow
 from_fragment
 (
 column_fragment
+)
 )
 )
 ;
@@ -7561,9 +7576,12 @@ float_value
 let
 mut
 wrapper_flow
-:
-FlowRef
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -7576,6 +7594,7 @@ from_fragment_and_float_kind
 (
 wrapper_fragment
 wrapper_float_kind
+)
 )
 )
 ;
@@ -7600,6 +7619,11 @@ layout_context
 let
 table_flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -7611,6 +7635,7 @@ TableFlow
 from_fragment
 (
 table_fragment
+)
 )
 )
 ;
@@ -7975,6 +8000,11 @@ node
 let
 flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -7986,6 +8016,7 @@ TableCaptionFlow
 from_fragment
 (
 fragment
+)
 )
 )
 ;
@@ -8066,6 +8097,11 @@ layout_context
 let
 flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -8077,6 +8113,7 @@ TableRowGroupFlow
 from_fragment
 (
 fragment
+)
 )
 )
 ;
@@ -8155,6 +8192,11 @@ layout_context
 let
 flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -8166,6 +8208,7 @@ TableRowFlow
 from_fragment
 (
 fragment
+)
 )
 )
 ;
@@ -8397,6 +8440,11 @@ fixed
 let
 flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -8411,6 +8459,7 @@ node
 fragment
 !
 hide
+)
 )
 )
 ;
@@ -8969,7 +9018,13 @@ self
 .
 build_flow_for_block_starting_with_fragments
 (
+FlowRef
+:
+:
+new
+(
 flow
+)
 node
 initial_fragments
 )
@@ -9306,9 +9361,12 @@ layout_context
 let
 mut
 flow
-:
-FlowRef
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -9321,6 +9379,7 @@ from_fragments
 (
 fragment
 col_fragments
+)
 )
 )
 ;
@@ -9394,6 +9453,11 @@ node
 let
 flow
 =
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -9406,6 +9470,7 @@ from_fragment
 (
 fragment
 float_kind
+)
 )
 )
 ;
@@ -9856,7 +9921,7 @@ false
 let
 flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -10007,7 +10072,7 @@ inline_block_fragment
 let
 flow_ref
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -10070,7 +10135,7 @@ inline_absolute_hypothetical_fragment
 let
 flow_ref
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -10133,7 +10198,7 @@ inline_absolute_fragment
 let
 flow_ref
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -12053,7 +12118,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -12649,7 +12714,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -12683,7 +12748,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -12848,7 +12913,7 @@ get
 .
 bubble_inline_sizes_separately
 {
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -12865,7 +12930,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14603,7 +14668,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14652,7 +14717,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14714,7 +14779,7 @@ flow
 :
 mut_base
 (
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -15278,6 +15343,11 @@ new_style
 specific_fragment_info
 )
 ;
+FlowRef
+:
+:
+new
+(
 Arc
 :
 :
@@ -15286,6 +15356,7 @@ new
 constructor
 (
 fragment
+)
 )
 )
 }

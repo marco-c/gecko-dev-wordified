@@ -129,10 +129,7 @@ use
 flow_ref
 :
 :
-{
-self
 FlowRef
-}
 ;
 use
 gfx
@@ -14126,7 +14123,7 @@ info
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14203,7 +14200,7 @@ info
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -14287,7 +14284,7 @@ info
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -15108,7 +15105,7 @@ account
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -15184,7 +15181,7 @@ account
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -15251,7 +15248,7 @@ account
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -18039,7 +18036,7 @@ specific
 let
 block_flow
 =
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -18159,7 +18156,7 @@ start
 .
 i
 ;
-flow_ref
+FlowRef
 :
 :
 deref_mut
@@ -18213,7 +18210,7 @@ start
 .
 b
 ;
-flow_ref
+FlowRef
 :
 :
 deref_mut
