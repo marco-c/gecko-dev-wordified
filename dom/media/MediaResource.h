@@ -2775,6 +2775,8 @@ aCallback
 nsIChannel
 *
 aChannel
+bool
+aIsPrivateBrowsing
 )
 ;
 /
@@ -3854,6 +3856,10 @@ const
 MediaContainerType
 &
 aContainerType
+bool
+aIsPrivateBrowsing
+=
+false
 )
 ;
 ~

@@ -479,6 +479,8 @@ const
 MediaContainerType
 &
 aContainerType
+bool
+aIsPrivateBrowsing
 )
 :
 BaseMediaResource
@@ -503,6 +505,7 @@ false
 mCacheStream
 (
 this
+aIsPrivateBrowsing
 )
 mLock
 (
@@ -8727,6 +8730,8 @@ aCallback
 nsIChannel
 *
 aChannel
+bool
+aIsPrivateBrowsing
 )
 {
 NS_ASSERTION
@@ -8898,6 +8903,7 @@ aChannel
 uri
 *
 containerType
+aIsPrivateBrowsing
 )
 ;
 }
