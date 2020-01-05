@@ -793,9 +793,9 @@ payload
 put
 (
 ARCHITECTURE
-AppConstants
+Build
 .
-ANDROID_CPU_ARCH
+CPU_ABI
 )
 ;
 payload
