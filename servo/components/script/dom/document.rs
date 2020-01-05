@@ -2460,7 +2460,8 @@ find_fragment_node
 self
 fragid
 :
-DOMString
+&
+str
 )
 -
 >
@@ -4451,7 +4452,8 @@ find_fragment_node
 self
 fragid
 :
-DOMString
+&
+str
 )
 -
 >
@@ -4469,7 +4471,7 @@ GetElementById
 (
 fragid
 .
-clone
+to_owned
 (
 )
 )
@@ -4544,8 +4546,6 @@ value
 )
 =
 =
-&
-*
 fragid
 }
 )
