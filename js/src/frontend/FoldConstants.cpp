@@ -2074,6 +2074,9 @@ case
 PNK_TYPEOFEXPR
 :
 case
+PNK_AWAIT
+:
+case
 PNK_VOID
 :
 case
@@ -11337,6 +11340,9 @@ inGenexpLambda
 ;
 case
 PNK_YIELD
+:
+case
+PNK_AWAIT
 :
 MOZ_ASSERT
 (

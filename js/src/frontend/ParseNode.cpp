@@ -1696,6 +1696,9 @@ PNK_YIELD_STAR
 case
 PNK_YIELD
 :
+case
+PNK_AWAIT
+:
 {
 MOZ_ASSERT
 (

@@ -668,6 +668,11 @@ F
 BITNOT
 )
 \
+F
+(
+AWAIT
+)
+\
 \
 /
 *
@@ -2115,6 +2120,8 @@ expr
 PNK_NOT
 *
 PNK_BITNOT
+*
+PNK_AWAIT
 *
 PNK_TYPEOFNAME
 unary
