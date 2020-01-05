@@ -1042,6 +1042,13 @@ AddRefAtoms
 (
 )
 ;
+nsTextServicesDocument
+:
+:
+RegisterAtoms
+(
+)
+;
 StartupJSEnvironment
 (
 )
@@ -1285,13 +1292,6 @@ nsMathMLOperators
 :
 :
 AddRefTable
-(
-)
-;
-nsTextServicesDocument
-:
-:
-RegisterAtoms
 (
 )
 ;
