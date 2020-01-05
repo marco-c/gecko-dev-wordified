@@ -411,102 +411,6 @@ src
 )
 )
         
-cpu_type
-=
-subprocess
-.
-check_output
-(
-[
-"
-uname
-"
-"
--
-m
-"
-]
-)
-.
-strip
-(
-)
-.
-lower
-(
-)
-        
-if
-e
-.
-code
-=
-=
-404
-and
-cpu_type
-in
-[
-"
-i386
-"
-"
-i486
-"
-"
-i686
-"
-"
-i768
-"
-"
-x86
-"
-]
-:
-            
-#
-i686
-            
-print
-(
-"
-Note
-:
-Servo
-does
-not
-currently
-bootstrap
-32bit
-snapshots
-of
-Rust
-"
-)
-            
-print
-(
-"
-See
-https
-:
-/
-/
-github
-.
-com
-/
-servo
-/
-servo
-/
-issues
-/
-3899
-"
-)
-        
 sys
 .
 exit
@@ -776,7 +680,6 @@ Download
 the
 Rust
 compiler
-snapshot
 '
              
 category
@@ -812,7 +715,7 @@ download
 even
 if
 a
-snapshot
+copy
 already
 exists
 '
@@ -845,7 +748,7 @@ rust
 "
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 )
@@ -879,7 +782,6 @@ rustc
 print
 (
 "
-Snapshot
 Rust
 compiler
 already
@@ -940,7 +842,7 @@ date
 =
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 .
@@ -1036,7 +938,7 @@ directory
 )
 .
         
-snapshot_url
+rustc_url
 =
 (
 "
@@ -1067,11 +969,11 @@ tar
 .
 gz
 "
-                        
+                     
 %
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 )
@@ -1095,7 +997,7 @@ download_file
 Rust
 compiler
 "
-snapshot_url
+rustc_url
 tgz_file
 )
         
@@ -1227,7 +1129,7 @@ in
 stdlibs
 :
             
-snapshot_url
+std_url
 =
 (
 "
@@ -1267,7 +1169,7 @@ tar
 .
 gz
 "
-                            
+                       
 %
 (
 date
@@ -1311,7 +1213,7 @@ s
 "
 %
 target
-snapshot_url
+std_url
 tgz_file
 )
             
@@ -1438,7 +1340,6 @@ target
 print
 (
 "
-Snapshot
 Rust
 ready
 .
@@ -1563,7 +1464,6 @@ docs_dir
 print
 (
 "
-Snapshot
 Rust
 docs
 already
@@ -1619,7 +1519,7 @@ docs_name
 =
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 .
@@ -1637,7 +1537,7 @@ docs
 "
 )
         
-snapshot_url
+docs_url
 =
 (
 "
@@ -1674,7 +1574,7 @@ tar
 .
 gz
 "
-                        
+                    
 %
 host_triple
 (
@@ -1703,7 +1603,7 @@ download_file
 Rust
 docs
 "
-snapshot_url
+docs_url
 tgz_file
 )
         
@@ -2795,7 +2695,7 @@ Command
 '
 clean
 -
-snapshots
+nightlies
 '
              
 description
@@ -2803,7 +2703,8 @@ description
 '
 Clean
 unused
-snapshots
+nightly
+builds
 of
 Rust
 and
@@ -2845,7 +2746,7 @@ stuff
 )
     
 def
-clean_snapshots
+clean_nightlies
 (
 self
 force
@@ -2858,7 +2759,7 @@ rust_current
 =
 self
 .
-rust_snapshot_path
+rust_path
 (
 )
 .
@@ -3042,7 +2943,7 @@ Run
 mach
 clean
 -
-snapshots
+nightlies
 -
 f
 to
