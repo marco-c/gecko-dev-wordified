@@ -162,6 +162,7 @@ RenderBox
 fn
 bubble_widths_block
 (
+self
 ctx
 :
 &
@@ -171,6 +172,7 @@ LayoutContext
 fn
 assign_widths_block
 (
+self
 ctx
 :
 &
@@ -180,6 +182,7 @@ LayoutContext
 fn
 assign_height_block
 (
+self
 ctx
 :
 &
@@ -189,6 +192,7 @@ LayoutContext
 fn
 build_display_list_block
 (
+self
 a
 :
 &
@@ -490,6 +494,7 @@ blocks
 fn
 bubble_widths_block
 (
+self
 ctx
 :
 &
@@ -740,6 +745,7 @@ contexts
 fn
 assign_widths_block
 (
+self
 _ctx
 :
 &
@@ -917,6 +923,7 @@ remaining_width
 fn
 assign_height_block
 (
+self
 _ctx
 :
 &
@@ -1071,6 +1078,7 @@ get_used_height
 fn
 build_display_list_block
 (
+self
 builder
 :
 &
