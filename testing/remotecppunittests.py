@@ -65,11 +65,10 @@ MPL
 .
 import
 os
+import
 sys
 import
 subprocess
-import
-tempfile
 from
 zipfile
 import
@@ -93,7 +92,6 @@ posixpath
 from
 mozdevice
 import
-devicemanager
 devicemanagerADB
 try
 :
@@ -481,6 +479,7 @@ posixpath
 .
 join
 (
+                            
 self
 .
 remote_bin_dir
@@ -556,6 +555,7 @@ read
 cmd
 =
 [
+                                    
 '
 xz
 '
@@ -719,6 +719,8 @@ sub
 directory
 such
 as
+            
+#
 "
 lib
 /
@@ -822,6 +824,7 @@ posixpath
 .
 join
 (
+                                    
 self
 .
 remote_bin_dir
@@ -870,6 +873,7 @@ posixpath
 .
 join
 (
+                
 self
 .
 remote_bin_dir
@@ -1046,6 +1050,7 @@ log
 .
 warning
 (
+                        
 "
 invalid
 -
@@ -1229,6 +1234,8 @@ CPPUnitTests
 .
 TEST_PROC_TIMEOUT
 *
+\
+            
 timeout_factor
         
 returncode
@@ -1239,6 +1246,7 @@ device
 .
 shell
 (
+            
 [
 remote_bin
 ]
@@ -1251,7 +1259,7 @@ cwd
 self
 .
 remote_home_dir
-                                       
+            
 timeout
 =
 test_timeout
@@ -1728,6 +1736,7 @@ directory
         
 defaults
 [
+            
 "
 local_bin
 "
@@ -1758,7 +1767,7 @@ action
 "
 store
 "
-                    
+                        
 type
 =
 "
@@ -1769,7 +1778,7 @@ dest
 "
 remote_test_root
 "
-                    
+                        
 help
 =
 "
@@ -1857,7 +1866,7 @@ action
 "
 store
 "
-                    
+                        
 type
 =
 "
@@ -1868,7 +1877,7 @@ dest
 "
 with_b2g_emulator
 "
-                    
+                        
 help
 =
 "
@@ -1909,7 +1918,7 @@ x86
 arm
 "
 ]
-                    
+                        
 help
 =
 "
@@ -1939,7 +1948,7 @@ action
 "
 append
 "
-                    
+                        
 type
 =
 "
@@ -1950,7 +1959,7 @@ dest
 "
 add_env
 "
-                    
+                        
 help
 =
 "
@@ -2016,6 +2025,7 @@ runner
 =
 B2GEmulatorRunner
 (
+            
 arch
 =
 options
@@ -2248,6 +2258,7 @@ tester
 .
 run_tests
 (
+            
 progs
 options
 .
@@ -2542,6 +2553,7 @@ args
     
 except
 Exception
+as
 e
 :
         
