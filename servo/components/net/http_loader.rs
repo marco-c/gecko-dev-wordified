@@ -1088,7 +1088,7 @@ verifier
 as
 Box
 <
-FnMut
+Fn
 (
 &
 mut

@@ -416,13 +416,6 @@ window
 bitflags
 !
 {
-#
-[
-derive
-(
-Debug
-)
-]
 flags
 KeyModifiers
 :
