@@ -36762,7 +36762,7 @@ remote
 .
 allowLinkedWebInFileUriProcess
 "
-false
+true
 )
 ;
 /
