@@ -239,6 +239,10 @@ ServoStyleSheet
 (
 )
 {
+UnparentChildren
+(
+)
+;
 DropSheet
 (
 )
