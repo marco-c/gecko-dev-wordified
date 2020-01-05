@@ -264,15 +264,6 @@ parse_xml
 }
 ;
 use
-std
-:
-:
-borrow
-:
-:
-ToOwned
-;
-use
 util
 :
 :
@@ -479,6 +470,9 @@ let
 content_type
 =
 DOMString
+:
+:
+from
 (
 DOMParserBinding
 :
@@ -492,10 +486,6 @@ ty
 as
 usize
 ]
-.
-to_owned
-(
-)
 )
 ;
 let

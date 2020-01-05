@@ -763,7 +763,7 @@ let
 mut
 text
 =
-DOMString
+String
 :
 :
 new
@@ -796,8 +796,6 @@ unwrap
 ;
 text
 .
-0
-.
 push_str
 (
 &
@@ -809,6 +807,12 @@ data
 )
 ;
 }
+DOMString
+:
+:
+from
+(
 text
+)
 }
 }

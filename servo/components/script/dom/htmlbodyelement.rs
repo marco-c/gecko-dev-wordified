@@ -268,15 +268,6 @@ use
 std
 :
 :
-borrow
-:
-:
-ToOwned
-;
-use
-std
-:
-:
 rc
 :
 :
@@ -1599,6 +1590,9 @@ name
 .
 ]
 DOMString
+:
+:
+from
 (
 (
 *

@@ -282,15 +282,6 @@ states
 *
 ;
 use
-std
-:
-:
-borrow
-:
-:
-ToOwned
-;
-use
 string_cache
 :
 :
@@ -1268,6 +1259,9 @@ self
 DOMString
 {
 DOMString
+:
+:
+from
 (
 if
 self
@@ -1290,10 +1284,6 @@ select
 one
 "
 }
-.
-to_owned
-(
-)
 )
 }
 /

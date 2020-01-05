@@ -1684,8 +1684,6 @@ hyperlink_suffix
 {
 href
 .
-0
-.
 push_str
 (
 &

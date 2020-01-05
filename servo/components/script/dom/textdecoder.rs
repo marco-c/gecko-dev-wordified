@@ -604,6 +604,9 @@ self
 DOMString
 {
 DOMString
+:
+:
+from
 (
 self
 .
@@ -614,10 +617,6 @@ whatwg_name
 )
 .
 unwrap
-(
-)
-.
-to_owned
 (
 )
 )
