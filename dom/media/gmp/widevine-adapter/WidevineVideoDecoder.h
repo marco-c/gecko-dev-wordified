@@ -462,12 +462,6 @@ frame
 bool
 mResetInProgress
 ;
-cdm
-:
-:
-Size
-mCodedSize
-;
 }
 ;
 }
