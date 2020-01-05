@@ -860,7 +860,6 @@ getAddonsWithOperationsByTypes
 null
 callback_soon
 (
-async
 function
 (
 pendingAddons
@@ -1132,8 +1131,7 @@ PERM_CAN_DISABLE
 )
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -1947,7 +1945,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 olda2
@@ -1959,8 +1956,7 @@ olda2
 null
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -2606,7 +2602,6 @@ getInstallsByTypes
 null
 callback_soon
 (
-async
 function
 (
 installs
@@ -2633,8 +2628,7 @@ olda2
 pendingUpgrade
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -3157,7 +3151,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 olda3
@@ -3169,8 +3162,7 @@ olda3
 null
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -3407,14 +3399,12 @@ install
 )
 ;
 }
-async
 function
 check_test_8
 (
 )
 {
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

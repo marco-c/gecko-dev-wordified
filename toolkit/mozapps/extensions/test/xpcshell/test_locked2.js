@@ -1035,8 +1035,7 @@ permissions
 0
 ;
 }
-yield
-promiseStartupManager
+startupManager
 (
 false
 )
@@ -1436,8 +1435,7 @@ permissions
 =
 filePermissions
 ;
-yield
-promiseStartupManager
+startupManager
 (
 )
 ;

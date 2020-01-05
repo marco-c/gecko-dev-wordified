@@ -895,8 +895,7 @@ setup
 the
 initial
 state
-yield
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -1712,8 +1711,7 @@ permissions
 0
 ;
 }
-yield
-promiseStartupManager
+startupManager
 (
 false
 )
@@ -2380,8 +2378,7 @@ error
 here
 .
 }
-yield
-promiseStartupManager
+startupManager
 (
 false
 )
@@ -2974,8 +2971,7 @@ permissions
 =
 filePermissions
 ;
-yield
-promiseStartupManager
+startupManager
 (
 false
 )

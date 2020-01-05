@@ -67,7 +67,6 @@ extensions
 "
 )
 ;
-async
 function
 run_test
 (
@@ -234,8 +233,7 @@ maxVersion
 profileDir
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;

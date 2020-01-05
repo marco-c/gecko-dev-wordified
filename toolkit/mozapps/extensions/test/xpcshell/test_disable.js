@@ -251,7 +251,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 a1
@@ -307,8 +306,7 @@ icon
 png
 "
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

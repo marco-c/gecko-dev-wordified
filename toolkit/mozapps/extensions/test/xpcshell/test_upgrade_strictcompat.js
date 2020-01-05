@@ -564,14 +564,12 @@ extensions
 are
 all
 installed
-async
 function
 run_test_1
 (
 )
 {
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -725,7 +723,6 @@ incompatible
 add
 -
 ons
-async
 function
 run_test_2
 (
@@ -802,8 +799,7 @@ dest
 gInstallTime
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 "
 2
@@ -1058,7 +1054,7 @@ application
 is
 changed
 .
-gAddonStartup
+gExtensionsINI
 .
 remove
 (

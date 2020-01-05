@@ -394,9 +394,6 @@ addon
 =
 >
 addon
-&
-&
-addon
 .
 setDebugGlobal
 (
@@ -492,9 +489,6 @@ then
 addon
 =
 >
-addon
-&
-&
 addon
 .
 setDebugGlobal

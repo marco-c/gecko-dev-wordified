@@ -244,7 +244,6 @@ update
 "
 )
 ;
-async
 function
 run_test
 (
@@ -525,8 +524,7 @@ maxVersion
 profileDir
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -1031,14 +1029,12 @@ check_test_1
 )
 ;
 }
-async
 function
 check_test_1
 (
 )
 {
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -1288,7 +1284,6 @@ default
 theme
 installed
 )
-async
 function
 run_test_2
 (
@@ -1327,8 +1322,7 @@ remove
 true
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

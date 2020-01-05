@@ -48,7 +48,6 @@ XPIProvider
 and
 LightweightThemeManager
 .
-async
 function
 run_test
 (
@@ -95,8 +94,7 @@ XPCShell
 "
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
