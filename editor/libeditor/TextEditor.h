@@ -674,9 +674,9 @@ virtual
 nsresult
 UpdateIMEComposition
 (
-nsIDOMEvent
+WidgetCompositionEvent
 *
-aTextEvent
+aCompositionChangeEvet
 )
 override
 ;

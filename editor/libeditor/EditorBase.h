@@ -1316,9 +1316,9 @@ virtual
 nsresult
 UpdateIMEComposition
 (
-nsIDOMEvent
+WidgetCompositionEvent
 *
-aDOMTextEvent
+aCompositionChangeEvet
 )
 =
 0
