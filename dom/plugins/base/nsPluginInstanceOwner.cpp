@@ -3234,14 +3234,10 @@ ifndef
 XP_MACOSX
 /
 /
-Silverlight
-calls
-invalidate
+Invalidate
 for
 windowed
 plugins
-so
-this
 needs
 to
 work

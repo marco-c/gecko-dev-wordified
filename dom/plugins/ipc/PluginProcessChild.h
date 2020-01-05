@@ -338,9 +338,7 @@ Drag
 and
 -
 drop
-and
-Silverlight
-depend
+depends
 on
 the
 host

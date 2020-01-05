@@ -1018,12 +1018,6 @@ codebase
 eSpecialType_Java
 /
 /
-Some
-IPC
-quirks
-eSpecialType_Silverlight
-/
-/
 Native
 widget
 quirks
