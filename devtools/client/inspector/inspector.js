@@ -962,6 +962,13 @@ Inspector
 toolbox
 )
 {
+EventEmitter
+.
+decorate
+(
+this
+)
+;
 this
 .
 _toolbox
@@ -1224,13 +1231,6 @@ this
 .
 _detectActorFeatures
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }
