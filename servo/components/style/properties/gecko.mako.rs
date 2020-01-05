@@ -7521,6 +7521,11 @@ inline
 -
 box
 "
+gecko_enum_prefix
+=
+"
+StyleDisplay
+"
 )
 %
 >

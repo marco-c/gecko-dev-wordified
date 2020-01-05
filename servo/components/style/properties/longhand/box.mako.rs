@@ -893,6 +893,11 @@ gecko_ffi_name
 "
 mBreakType
 "
+gecko_enum_prefix
+=
+"
+StyleClear
+"
 )
 }
 <
