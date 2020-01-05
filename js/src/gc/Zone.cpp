@@ -332,6 +332,10 @@ markedAtoms_
 (
 group
 )
+atomCache_
+(
+group
+)
 usage
 (
 &
@@ -681,6 +685,15 @@ init
 &
 &
 markedAtoms
+(
+)
+.
+init
+(
+)
+&
+&
+atomCache
 (
 )
 .
