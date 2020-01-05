@@ -2016,7 +2016,7 @@ insaneSacrificialGoat
 new
 ServerSocket
 (
-666
+0
 Ci
 .
 nsIServerSocket
