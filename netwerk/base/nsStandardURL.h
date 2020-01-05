@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIUnicodeEncoder
+nsNCRFallbackEncoderWrapper
 .
 h
 "
@@ -936,9 +936,12 @@ of
 the
 segment
 encoder
-nsCOMPtr
+mozilla
+:
+:
+UniquePtr
 <
-nsIUnicodeEncoder
+nsNCRFallbackEncoderWrapper
 >
 mEncoder
 ;
