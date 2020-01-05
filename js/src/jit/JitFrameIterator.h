@@ -3602,17 +3602,6 @@ iter
 ;
 InlineFrameIterator
 (
-JSRuntime
-*
-rt
-const
-JitFrameIterator
-*
-iter
-)
-;
-InlineFrameIterator
-(
 JSContext
 *
 cx
