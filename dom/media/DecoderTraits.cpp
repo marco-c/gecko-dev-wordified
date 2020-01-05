@@ -1967,14 +1967,6 @@ AndroidMediaDecoder
 (
 aOwner
 aType
-.
-Type
-(
-)
-.
-AsString
-(
-)
 )
 ;
 return
@@ -2483,7 +2475,8 @@ new
 AndroidMediaReader
 (
 aDecoder
-aType
+*
+type
 )
 ;
 }

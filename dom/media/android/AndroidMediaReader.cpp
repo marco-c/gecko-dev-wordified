@@ -248,7 +248,7 @@ AbstractMediaDecoder
 *
 aDecoder
 const
-nsACString
+MediaContentType
 &
 aContentType
 )

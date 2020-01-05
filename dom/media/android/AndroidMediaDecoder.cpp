@@ -145,7 +145,7 @@ MediaDecoderOwner
 *
 aOwner
 const
-nsACString
+MediaContentType
 &
 aType
 )

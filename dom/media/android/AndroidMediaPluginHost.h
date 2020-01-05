@@ -235,7 +235,7 @@ MediaResource
 *
 aResource
 const
-nsACString
+MediaContentType
 &
 aMimeType
 )

@@ -1576,7 +1576,7 @@ MediaResource
 *
 aResource
 const
-nsACString
+MediaContentType
 &
 aMimeType
 )
@@ -1620,6 +1620,14 @@ len
 NS_CStringGetData
 (
 aMimeType
+.
+Type
+(
+)
+.
+AsString
+(
+)
 &
 chars
 nullptr

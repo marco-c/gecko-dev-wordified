@@ -136,6 +136,13 @@ AndroidMediaDecoder
 .
 h
 "
+#
+include
+"
+MediaContentType
+.
+h
+"
 namespace
 mozilla
 {
@@ -145,7 +152,7 @@ AndroidMediaDecoder
 public
 MediaDecoder
 {
-nsCString
+MediaContentType
 mType
 ;
 public
@@ -156,7 +163,7 @@ MediaDecoderOwner
 *
 aOwner
 const
-nsACString
+MediaContentType
 &
 aType
 )
