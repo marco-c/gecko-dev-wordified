@@ -46577,13 +46577,6 @@ toStringStart
 directives
 NotGenerator
 SyncFunction
-/
-*
-tryAnnexB
-=
-*
-/
-false
 )
 ;
 if
