@@ -948,9 +948,6 @@ endif
 namespace
 WebCore
 #
-undef
-HAVE_DENORMAL
-#
 endif
 /
 /
