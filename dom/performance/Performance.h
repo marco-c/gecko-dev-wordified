@@ -644,9 +644,11 @@ nsAString
 &
 aName
 )
-=
-0
+{
+return
+false
 ;
+}
 virtual
 DOMHighResTimeStamp
 GetPerformanceTimingFromString
@@ -656,9 +658,11 @@ nsAString
 &
 aTimingName
 )
-=
+{
+return
 0
 ;
+}
 bool
 IsResourceEntryLimitReached
 (

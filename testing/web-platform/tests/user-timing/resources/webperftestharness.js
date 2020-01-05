@@ -125,7 +125,7 @@ tests
 var
 performanceNamespace
 =
-window
+self
 .
 performance
 ;
