@@ -718,6 +718,13 @@ to_object
 {
 /
 /
+FIXME
+(
+#
+347
+)
+/
+/
 ThrowErrorMessage
 (
 cx
