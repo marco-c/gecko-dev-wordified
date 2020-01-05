@@ -302,7 +302,6 @@ CSSPageRule
 {
 public
 :
-explicit
 ServoPageRule
 (
 RefPtr
@@ -310,6 +309,10 @@ RefPtr
 RawServoPageRule
 >
 aRawRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
