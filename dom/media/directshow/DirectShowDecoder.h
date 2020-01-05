@@ -132,6 +132,9 @@ h
 namespace
 mozilla
 {
+class
+MediaContentType
+;
 /
 /
 Decoder
@@ -272,7 +275,7 @@ bool
 GetSupportedCodecs
 (
 const
-nsACString
+MediaContentType
 &
 aType
 char
