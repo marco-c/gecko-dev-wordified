@@ -486,6 +486,7 @@ Import
 BodyLevelFunction
 ModuleBodyLevelFunction
 LexicalFunction
+SloppyLexicalFunction
 VarForAnnexBLexicalFunction
 SimpleCatchParameter
 CatchParameter
@@ -576,6 +577,12 @@ DeclarationKind
 :
 :
 LexicalFunction
+:
+case
+DeclarationKind
+:
+:
+SloppyLexicalFunction
 :
 case
 DeclarationKind
