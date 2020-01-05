@@ -1009,7 +1009,7 @@ matching
 {
 ElementSelectorFlags
 StyleRelations
-matches
+matches_selector_list
 }
 ;
 use
@@ -16338,7 +16338,7 @@ selectors
 {
 Ok
 (
-matches
+matches_selector_list
 (
 &
 selectors
@@ -16518,7 +16518,7 @@ element
 )
 {
 if
-matches
+matches_selector_list
 (
 &
 selectors
