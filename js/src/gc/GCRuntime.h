@@ -7494,6 +7494,14 @@ shouldReleaseObservedTypes
 )
 ;
 void
+sweepDebuggerOnMainThread
+(
+FreeOp
+*
+fop
+)
+;
+void
 endSweepingSweepGroup
 (
 )

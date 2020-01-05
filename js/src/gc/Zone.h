@@ -2040,7 +2040,7 @@ address
 js
 :
 :
-ZoneGroupData
+ZoneGroupOrGCTaskData
 <
 js
 :
