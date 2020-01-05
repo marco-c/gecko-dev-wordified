@@ -195,11 +195,11 @@ org
 )
 ;
 let
-actor
+front
 =
 gUI
 .
-getCurrentActor
+getCurrentFront
 (
 )
 ;
@@ -207,7 +207,7 @@ let
 result
 =
 yield
-actor
+front
 .
 removeDatabase
 (
@@ -421,7 +421,7 @@ try
 result
 =
 yield
-actor
+front
 .
 removeDatabase
 (
