@@ -1636,6 +1636,11 @@ isBuiltinFunctionConstructor
 (
 )
 ;
+bool
+needsPrototypeProperty
+(
+)
+;
 /
 *
 Returns
