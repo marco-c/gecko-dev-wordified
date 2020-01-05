@@ -215,11 +215,7 @@ div
 className
 :
 "
-layout
--
 grid
--
-list
 -
 container
 "
@@ -244,15 +240,6 @@ dom
 ul
 (
 {
-id
-:
-"
-layout
--
-grid
--
-list
-"
 }
 grids
 .
