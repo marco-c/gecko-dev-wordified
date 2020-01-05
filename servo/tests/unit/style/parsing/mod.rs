@@ -732,3 +732,6 @@ supports
 mod
 text_overflow
 ;
+mod
+transition_timing_function
+;
