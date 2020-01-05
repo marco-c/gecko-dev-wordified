@@ -582,6 +582,16 @@ undef
 BASIC_RULE_FUNCS
 SERVO_BINDING_FUNC
 (
+Servo_CssRules_GetFontFaceRuleAt
+nsCSSFontFaceRule
+*
+ServoCssRulesBorrowed
+rules
+uint32_t
+index
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleRule_GetStyle
 RawServoDeclarationBlockStrong
 RawServoStyleRuleBorrowed
