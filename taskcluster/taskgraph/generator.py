@@ -1376,6 +1376,17 @@ scratch_pad
 }
 )
         
+full_task_graph
+.
+for_each_task
+(
+verify_gecko_v2_routes
+scratch_pad
+=
+{
+}
+)
+        
 logger
 .
 info
@@ -1602,17 +1613,6 @@ nodes
 }
             
 target_graph
-)
-        
-target_task_graph
-.
-for_each_task
-(
-verify_gecko_v2_routes
-scratch_pad
-=
-{
-}
 )
         
 yield
