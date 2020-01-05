@@ -251,7 +251,7 @@ active_sw
 ServiceWorker
 scope
 :
-String
+Url
 )
 -
 >
@@ -288,6 +288,14 @@ None
 scope
 :
 scope
+.
+as_str
+(
+)
+.
+to_owned
+(
+)
 }
 }
 #
@@ -309,7 +317,7 @@ script_url
 Url
 scope
 :
-String
+Url
 container
 :
 &
@@ -332,6 +340,11 @@ install_serviceworker
 (
 global
 script_url
+.
+clone
+(
+)
+scope
 .
 clone
 (
