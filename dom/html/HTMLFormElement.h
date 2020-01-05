@@ -3244,7 +3244,7 @@ group
 /
 nsRefPtrHashtable
 <
-nsStringCaseInsensitiveHashKey
+nsStringHashKey
 HTMLInputElement
 >
 mSelectedRadioButtons
