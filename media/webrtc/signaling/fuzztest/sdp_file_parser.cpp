@@ -276,6 +276,9 @@ extern
 C
 "
 .
+class
+PRLogModuleInfo
+;
 namespace
 mozilla
 {
