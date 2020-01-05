@@ -522,7 +522,7 @@ params
 .
 layout
 =
-CUBEB_LAYOUT_MONO
+CUBEB_LAYOUT_UNDEFINED
 ;
 r
 =
