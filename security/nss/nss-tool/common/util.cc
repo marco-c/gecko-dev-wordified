@@ -482,7 +482,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 ReadFromIstream
 (
@@ -499,9 +499,9 @@ std
 :
 vector
 <
-char
+uint8_t
 >
-certData
+data
 ;
 while
 (
@@ -525,11 +525,11 @@ buf
 )
 )
 ;
-certData
+data
 .
 insert
 (
-certData
+data
 .
 end
 (
@@ -546,7 +546,7 @@ gcount
 ;
 }
 return
-certData
+data
 ;
 }
 static
@@ -1278,7 +1278,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 ReadInputData
 (
@@ -1286,7 +1286,6 @@ std
 :
 :
 string
-&
 dataPath
 )
 {
@@ -1295,7 +1294,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 data
 ;

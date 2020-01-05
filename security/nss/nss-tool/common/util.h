@@ -65,6 +65,13 @@ util_h__
 #
 include
 "
+nspr
+.
+h
+"
+#
+include
+"
 scoped_ptrs
 .
 h
@@ -86,6 +93,15 @@ include
 <
 vector
 >
+#
+ifndef
+PORT_Malloc
+#
+define
+PORT_Malloc
+PR_Malloc
+#
+endif
 enum
 PwDataType
 {
@@ -151,7 +167,7 @@ std
 :
 vector
 <
-char
+uint8_t
 >
 ReadInputData
 (
@@ -159,7 +175,6 @@ std
 :
 :
 string
-&
 dataPath
 )
 ;

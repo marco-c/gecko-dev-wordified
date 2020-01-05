@@ -79,8 +79,18 @@ argparse
 .
 h
 "
+#
+include
+"
+tool
+.
+h
+"
 class
 DBTool
+:
+public
+Tool
 {
 public
 :
@@ -101,6 +111,7 @@ string
 &
 arguments
 )
+override
 ;
 private
 :
@@ -108,6 +119,7 @@ void
 Usage
 (
 )
+override
 ;
 bool
 PathHasDBFiles
