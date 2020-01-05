@@ -940,9 +940,6 @@ endif
 nsresult
 ScanStoreDir
 (
-nsIFile
-*
-aDirectory
 nsTArray
 <
 nsCString
