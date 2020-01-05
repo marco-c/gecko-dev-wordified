@@ -557,7 +557,7 @@ instance
 "
 "
     
-marionette
+marionette_class
 =
 MagicMock
 (
@@ -576,7 +576,7 @@ request
 funcargnames
 :
         
-marionette
+marionette_class
 .
 check_for_crash
 .
@@ -594,4 +594,4 @@ has_crashed
 )
     
 return
-marionette
+marionette_class
