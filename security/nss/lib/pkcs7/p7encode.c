@@ -2693,7 +2693,8 @@ p7ecx
 >
 encryptobj
 NULL
-NULL
+&
+outlen
 0
 data
 inlen
