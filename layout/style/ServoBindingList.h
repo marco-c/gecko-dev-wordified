@@ -1430,6 +1430,11 @@ RawServoStyleSetBorrowed
 set
 ServoComputedValuesBorrowedOrNull
 parent_style
+mozilla
+:
+:
+InheritTarget
+target
 )
 /
 /
