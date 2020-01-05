@@ -915,11 +915,11 @@ T
 RepeatKeyword
 :
 :
-NoRepeat
+Repeat
 RepeatKeyword
 :
 :
-NoRepeat
+Repeat
 )
 }
 #
@@ -943,7 +943,7 @@ Other
 RepeatKeyword
 :
 :
-NoRepeat
+Repeat
 None
 )
 }
