@@ -168,9 +168,6 @@ Blob
 name
 :
 DOMString
-type_
-:
-BlobType
 }
 impl
 File
@@ -182,6 +179,9 @@ global
 :
 &
 GlobalRef
+type_
+:
+BlobType
 _file_bits
 :
 JSRef
@@ -206,14 +206,12 @@ Blob
 new_inherited
 (
 global
+type_
 None
 )
 name
 :
 name
-type_
-:
-FileTypeId
 }
 /
 /
@@ -271,6 +269,7 @@ File
 new_inherited
 (
 global
+FileTypeId
 file_bits
 name
 )
