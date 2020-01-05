@@ -2782,7 +2782,7 @@ AtomType
 initAtom
 (
 "
-ftyp
+moov
 "
 )
 ;
