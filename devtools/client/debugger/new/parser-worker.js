@@ -205044,6 +205044,14 @@ path
 )
 {
 return
+t
+.
+isBlockStatement
+(
+path
+)
+|
+|
 isFunction
 (
 path

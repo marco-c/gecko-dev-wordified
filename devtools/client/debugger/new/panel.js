@@ -364,14 +364,6 @@ selected
 }
 ;
 }
-frames
-=
-frames
-.
-toJS
-(
-)
-;
 const
 selectedFrame
 =
