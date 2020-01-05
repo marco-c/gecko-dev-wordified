@@ -62,8 +62,6 @@ re
 import
 sys
 import
-socket
-import
 time
 import
 types
@@ -1933,13 +1931,7 @@ delete_session
 )
                 
 except
-(
-socket
-.
-error
-MarionetteException
 IOError
-)
 :
                     
 #
@@ -1948,33 +1940,6 @@ has
 crashed
 ?
                     
-self
-.
-marionette
-.
-session
-=
-None
-                    
-try
-:
-                        
-self
-.
-marionette
-.
-client
-.
-close
-(
-)
-                    
-except
-socket
-.
-error
-:
-                        
 pass
         
 self
@@ -3793,9 +3758,7 @@ self
 .
 marionette
 .
-check_for_crash
-(
-)
+crashed
 :
             
 try

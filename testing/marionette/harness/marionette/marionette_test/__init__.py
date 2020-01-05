@@ -72,6 +72,8 @@ expectedFailure
     
 parameterized
     
+run_if_e10s
+    
 skip
     
 skip_if_chrome
