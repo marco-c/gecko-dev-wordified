@@ -1020,17 +1020,6 @@ Type
 must
 be
 rooted
-use
-#
-[
-must_root
-]
-on
-the
-fn
-definition
-to
-propagate
 "
 )
 }
