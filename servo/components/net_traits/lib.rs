@@ -120,6 +120,10 @@ extern
 crate
 hyper
 ;
+extern
+crate
+ipc_channel
+;
 #
 [
 macro_use
