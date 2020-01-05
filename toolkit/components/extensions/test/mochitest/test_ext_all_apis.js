@@ -293,6 +293,16 @@ assertFalse
 "
 test
 .
+assertRejects
+"
+"
+test
+.
+assertThrows
+"
+"
+test
+.
 assertTrue
 "
 "
