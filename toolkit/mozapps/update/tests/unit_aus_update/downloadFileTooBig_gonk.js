@@ -62,6 +62,7 @@ KEY_UPDATE_ARCHIVE_DIR
 "
 UpdArchD
 "
+;
 var
 gActiveUpdate
 ;

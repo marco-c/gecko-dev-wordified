@@ -603,6 +603,7 @@ test
 \
 n
 "
+;
 const
 PR_RDWR
 =

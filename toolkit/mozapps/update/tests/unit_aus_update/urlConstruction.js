@@ -542,6 +542,7 @@ force
 =
 1
 "
+;
 /
 /
 Log
@@ -1210,6 +1211,7 @@ osVersion
 }
 return
 osVersion
+;
 }
 function
 getServicePack
@@ -2098,4 +2100,5 @@ return
 "
 NA
 "
+;
 }
