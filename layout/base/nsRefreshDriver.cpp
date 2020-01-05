@@ -3675,6 +3675,11 @@ the
 parent
 responds
 .
+if
+(
+mVsyncRefreshDriverTimer
+)
+{
 mVsyncRate
 =
 mVsyncRefreshDriverTimer
@@ -3687,6 +3692,7 @@ GetVsyncRate
 (
 )
 ;
+}
 }
 #
 endif
