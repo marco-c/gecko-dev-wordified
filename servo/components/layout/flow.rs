@@ -545,7 +545,7 @@ compositor_msg
 LayerId
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -557,7 +557,7 @@ ZERO_RECT
 }
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry

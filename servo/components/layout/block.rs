@@ -565,7 +565,7 @@ constellation_msg
 ConstellationChan
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -577,7 +577,7 @@ MAX_AU
 }
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -590,7 +590,7 @@ LogicalSize
 }
 ;
 use
-servo_util
+util
 :
 :
 opts

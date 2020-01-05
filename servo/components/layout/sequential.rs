@@ -171,7 +171,7 @@ point
 Point2D
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -183,7 +183,7 @@ ZERO_POINT
 }
 ;
 use
-servo_util
+util
 :
 :
 opts

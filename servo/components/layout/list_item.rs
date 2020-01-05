@@ -171,7 +171,7 @@ display_list
 DisplayList
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -180,7 +180,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -189,7 +189,7 @@ logical_geometry
 LogicalRect
 ;
 use
-servo_util
+util
 :
 :
 opts

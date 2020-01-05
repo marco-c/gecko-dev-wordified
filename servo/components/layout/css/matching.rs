@@ -95,7 +95,7 @@ RestyleDamage
 }
 ;
 use
-util
+data
 :
 :
 {
@@ -135,7 +135,7 @@ bloom
 BloomFilter
 ;
 use
-servo_util
+util
 :
 :
 cache
@@ -147,7 +147,7 @@ SimpleHashCache
 }
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -159,7 +159,7 @@ SmallVec16
 }
 ;
 use
-servo_util
+util
 :
 :
 arc_ptr_eq

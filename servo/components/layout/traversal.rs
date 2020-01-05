@@ -183,13 +183,13 @@ bloom
 BloomFilter
 ;
 use
-servo_util
+util
 :
 :
 opts
 ;
 use
-servo_util
+util
 :
 :
 tid

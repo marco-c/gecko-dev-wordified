@@ -141,7 +141,7 @@ Rect
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -150,7 +150,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry

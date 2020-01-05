@@ -215,13 +215,13 @@ glyph
 CharIndex
 ;
 use
-servo_util
+util
 :
 :
 arc_ptr_eq
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -233,7 +233,7 @@ ZERO_RECT
 }
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -246,7 +246,7 @@ WritingMode
 }
 ;
 use
-servo_util
+util
 :
 :
 range
