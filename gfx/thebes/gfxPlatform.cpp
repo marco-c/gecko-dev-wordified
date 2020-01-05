@@ -5044,13 +5044,6 @@ Shutdown
 (
 )
 ;
-gfxFontGroup
-:
-:
-Shutdown
-(
-)
-;
 gfxGradientCache
 :
 :
