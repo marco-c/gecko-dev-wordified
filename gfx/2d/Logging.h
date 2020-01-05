@@ -839,6 +839,7 @@ AlphaWithBasicClient
 UnbalancedClipStack
 ProcessingError
 InvalidDrawTarget
+NativeFontResourceNotFound
 /
 /
 End
