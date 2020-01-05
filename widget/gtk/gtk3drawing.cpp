@@ -8948,7 +8948,7 @@ the
 gap
 we
 use
-gtk_paint_box_gap
+gtk_render_frame_gap
 (
 )
 see
@@ -8960,7 +8960,7 @@ moz_gtk_tabpanels_paint
 )
 .
 This
-box_gap
+gap
 is
 made
 3
@@ -9202,6 +9202,16 @@ gap_loffset
 initial_gap
 ;
 }
+GtkStyleContext
+*
+panelStyle
+=
+ClaimStyleContext
+(
+MOZ_GTK_TABPANELS
+direction
+)
+;
 if
 (
 isBottomTab
@@ -9253,12 +9263,6 @@ gap_voffset
 GTK_POS_TOP
 )
 ;
-gtk_style_context_remove_region
-(
-style
-GTK_STYLE_REGION_TAB
-)
-;
 backRect
 .
 y
@@ -9298,7 +9302,7 @@ not
 /
 gtk_render_background
 (
-style
+panelStyle
 cr
 backRect
 .
@@ -9343,7 +9347,7 @@ cr
 ;
 gtk_render_frame_gap
 (
-style
+panelStyle
 cr
 tabRect
 .
@@ -9423,12 +9427,6 @@ gap_voffset
 GTK_POS_BOTTOM
 )
 ;
-gtk_style_context_remove_region
-(
-style
-GTK_STYLE_REGION_TAB
-)
-;
 backRect
 .
 y
@@ -9470,7 +9468,7 @@ not
 /
 gtk_render_background
 (
-style
+panelStyle
 cr
 backRect
 .
@@ -9515,7 +9513,7 @@ cr
 ;
 gtk_render_frame_gap
 (
-style
+panelStyle
 cr
 tabRect
 .
