@@ -1863,6 +1863,16 @@ Refresh
 )
 ;
 }
+Event
+:
+:
+Closed
+=
+>
+{
+return
+true
+}
 _
 =
 >
