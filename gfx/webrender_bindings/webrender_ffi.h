@@ -2286,7 +2286,6 @@ stopsCount
 WrGradientExtendMode
 extendMode
 )
-;
 WR_FUNC
 ;
 WR_INLINE
@@ -2317,7 +2316,6 @@ stopsCount
 WrGradientExtendMode
 extendMode
 )
-;
 WR_FUNC
 ;
 WR_INLINE
