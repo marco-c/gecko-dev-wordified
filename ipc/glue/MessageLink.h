@@ -598,6 +598,13 @@ override
 ;
 protected
 :
+void
+OnChannelConnectError
+(
+)
+;
+protected
+:
 Transport
 *
 mTransport
