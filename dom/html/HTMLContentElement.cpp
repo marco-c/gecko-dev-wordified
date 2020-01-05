@@ -432,12 +432,8 @@ if
 parentNode
 -
 >
-IsHTMLElement
+IsHTMLContentElement
 (
-nsGkAtoms
-:
-:
-content
 )
 )
 {

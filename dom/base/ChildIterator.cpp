@@ -419,11 +419,10 @@ content
 return
 MatchedNodes
 (
-static_cast
-<
 HTMLContentElement
-*
->
+:
+:
+FromContent
 (
 aContent
 )
