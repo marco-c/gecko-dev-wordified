@@ -75,7 +75,7 @@ properties
 animated_properties
 :
 :
-Interpolate
+Animatable
 ;
 #
 [

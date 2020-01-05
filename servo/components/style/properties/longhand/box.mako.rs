@@ -18312,10 +18312,7 @@ properties
 animated_properties
 :
 :
-{
-ComputeDistance
-Interpolate
-}
+Animatable
 ;
 use
 values
@@ -18372,7 +18369,7 @@ depth
 Length
 }
 impl
-Interpolate
+Animatable
 for
 T
 {
@@ -18463,12 +18460,6 @@ time
 }
 )
 }
-}
-impl
-ComputeDistance
-for
-T
-{
 #
 [
 inline
