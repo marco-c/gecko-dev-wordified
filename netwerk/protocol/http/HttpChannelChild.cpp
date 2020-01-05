@@ -17697,7 +17697,7 @@ HttpChannelChild
 RecvSetPriority
 (
 const
-uint16_t
+int16_t
 &
 aPriority
 )

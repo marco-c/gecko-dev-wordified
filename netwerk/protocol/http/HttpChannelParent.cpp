@@ -2273,7 +2273,7 @@ bool
 &
 uploadStreamHasHeaders
 const
-uint16_t
+int16_t
 &
 priority
 const
@@ -4243,7 +4243,7 @@ HttpChannelParent
 RecvSetPriority
 (
 const
-uint16_t
+int16_t
 &
 priority
 )
@@ -4264,7 +4264,7 @@ p
 priority
 =
 %
-u
+d
 ]
 \
 n

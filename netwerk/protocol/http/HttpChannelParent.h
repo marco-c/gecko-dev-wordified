@@ -635,7 +635,7 @@ bool
 &
 uploadStreamHasHeaders
 const
-uint16_t
+int16_t
 &
 priority
 const
@@ -759,7 +759,7 @@ IPCResult
 RecvSetPriority
 (
 const
-uint16_t
+int16_t
 &
 priority
 )
