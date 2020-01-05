@@ -1316,7 +1316,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 ;
@@ -2087,7 +2090,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 ;

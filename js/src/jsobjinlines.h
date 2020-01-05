@@ -4142,9 +4142,8 @@ JSObject
 *
 pobj
 ;
-Shape
-*
-shape
+PropertyResult
+prop
 ;
 if
 (
@@ -4157,7 +4156,7 @@ id
 &
 pobj
 &
-shape
+prop
 )
 )
 return
@@ -4165,7 +4164,7 @@ false
 ;
 return
 !
-shape
+prop
 ;
 }
 /

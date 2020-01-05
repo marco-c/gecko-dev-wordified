@@ -3924,7 +3924,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 {
@@ -3978,7 +3981,7 @@ env
 ;
 propp
 .
-set
+setNativeProperty
 (
 shape
 )
@@ -5388,7 +5391,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 {
@@ -5434,9 +5440,8 @@ nullptr
 ;
 propp
 .
-set
+setNotFound
 (
-nullptr
 )
 ;
 return
@@ -5516,9 +5521,8 @@ nullptr
 ;
 propp
 .
-set
+setNotFound
 (
-nullptr
 )
 ;
 }
@@ -8023,7 +8027,10 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandleShape
+MutableHandle
+<
+PropertyResult
+>
 propp
 )
 {
