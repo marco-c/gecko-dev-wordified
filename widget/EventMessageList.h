@@ -375,14 +375,6 @@ NS_EVENT_MESSAGE
 (
 eKeyUpOnPlugin
 )
-NS_EVENT_MESSAGE
-(
-eAfterKeyDown
-)
-NS_EVENT_MESSAGE
-(
-eAfterKeyUp
-)
 /
 /
 This

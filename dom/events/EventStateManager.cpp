@@ -4686,13 +4686,7 @@ case
 eKeyDown
 :
 case
-eAfterKeyDown
-:
-case
 eKeyUp
-:
-case
-eAfterKeyUp
 :
 {
 nsIContent
@@ -21711,9 +21705,6 @@ break
 ;
 case
 eKeyUp
-:
-case
-eAfterKeyUp
 :
 break
 ;

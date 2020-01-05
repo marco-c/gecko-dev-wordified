@@ -769,17 +769,6 @@ aStatus
 )
 ;
 void
-DispatchAfterKeyEvent
-(
-nsINode
-*
-aTarget
-WidgetKeyboardEvent
-&
-aEvent
-)
-;
-void
 DispatchToCurrentProcess
 (
 nsIPresShell
