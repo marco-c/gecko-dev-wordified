@@ -5841,6 +5841,7 @@ mShapingState
 ;
 class
 gfxFontGroup
+final
 :
 public
 gfxTextRunFactory
@@ -5924,7 +5925,6 @@ if
 userfont
 not
 loaded
-virtual
 gfxFont
 *
 GetFirstValidFont
@@ -5995,7 +5995,6 @@ return
 mStyle
 ;
 }
-virtual
 gfxFontGroup
 *
 Copy
@@ -6085,7 +6084,6 @@ textrun
 .
 *
 /
-virtual
 already_AddRefed
 <
 gfxTextRun
@@ -6160,7 +6158,6 @@ textrun
 .
 *
 /
-virtual
 already_AddRefed
 <
 gfxTextRun
@@ -6511,13 +6508,11 @@ UNDERLINE_OFFSET_NOT_SET
 INT16_MAX
 }
 ;
-virtual
 gfxFloat
 GetUnderlineOffset
 (
 )
 ;
-virtual
 already_AddRefed
 <
 gfxFont
@@ -6727,7 +6722,6 @@ caches
 need
 updating
 .
-virtual
 void
 UpdateUserFonts
 (
@@ -8030,7 +8024,6 @@ or
 if
 font
 invalid
-virtual
 gfxFont
 *
 GetFontAt
