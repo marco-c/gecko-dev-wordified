@@ -268,7 +268,7 @@ menuButton
 type
 :
 "
-mouseover
+mousemove
 "
 }
 )
