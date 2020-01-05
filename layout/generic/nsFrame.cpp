@@ -14031,6 +14031,8 @@ ShouldPrerenderTransformedContent
 (
 aBuilder
 this
+&
+dirtyRect
 )
 ;
 switch
@@ -14044,10 +14046,6 @@ nsDisplayTransform
 :
 FullPrerender
 :
-dirtyRect
-=
-overflow
-;
 allowAsyncAnimation
 =
 true
