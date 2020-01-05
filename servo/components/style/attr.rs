@@ -140,7 +140,6 @@ str
 DOMString
 LengthOrPercentageOrAuto
 HTML_SPACE_CHARACTERS
-WHITESPACE
 }
 ;
 use
@@ -2140,7 +2139,7 @@ input
 .
 trim_matches
 (
-WHITESPACE
+HTML_SPACE_CHARACTERS
 )
 ;
 /
@@ -3137,7 +3136,7 @@ value
 .
 trim_left_matches
 (
-WHITESPACE
+HTML_SPACE_CHARACTERS
 )
 ;
 /
