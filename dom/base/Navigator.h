@@ -1060,6 +1060,8 @@ aRv
 bool
 JavaEnabled
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

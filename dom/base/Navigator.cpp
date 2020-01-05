@@ -3750,6 +3750,8 @@ Navigator
 :
 JavaEnabled
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -3854,6 +3856,7 @@ mMimeTypes
 NamedItem
 (
 javaMIME
+aCallerType
 )
 ;
 return
