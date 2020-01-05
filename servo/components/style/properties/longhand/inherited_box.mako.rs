@@ -288,6 +288,9 @@ propdef
 -
 direction
 "
+needs_conversion
+=
+True
 )
 }
 <
