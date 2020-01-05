@@ -228,6 +228,13 @@ typedef
 WrExternalImageId
 ExternalImageId
 ;
+typedef
+Maybe
+<
+ExternalImageId
+>
+MaybeExternalImageId
+;
 inline
 WindowId
 NewWindowId

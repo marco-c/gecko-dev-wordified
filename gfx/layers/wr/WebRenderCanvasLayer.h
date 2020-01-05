@@ -243,13 +243,10 @@ override
 ;
 protected
 :
-Maybe
-<
 wr
 :
 :
-ExternalImageId
->
+MaybeExternalImageId
 mExternalImageId
 ;
 }

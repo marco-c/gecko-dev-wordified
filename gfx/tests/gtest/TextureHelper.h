@@ -930,6 +930,16 @@ ToSurfaceDescriptor
 descriptor
 )
 ;
+wr
+:
+:
+MaybeExternalImageId
+id
+=
+Nothing
+(
+)
+;
 return
 TextureHost
 :
@@ -945,6 +955,7 @@ aClient
 GetFlags
 (
 )
+id
 )
 ;
 }

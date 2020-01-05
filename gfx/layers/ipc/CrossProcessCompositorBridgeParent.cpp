@@ -3209,6 +3209,13 @@ const
 uint64_t
 &
 aSerial
+const
+wr
+:
+:
+MaybeExternalImageId
+&
+aExternalImageId
 )
 {
 CompositorBridgeParent
@@ -3421,6 +3428,7 @@ aSharedData
 aLayersBackend
 aFlags
 aSerial
+aExternalImageId
 )
 ;
 }

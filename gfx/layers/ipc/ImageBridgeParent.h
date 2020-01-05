@@ -495,6 +495,13 @@ const
 uint64_t
 &
 aSerial
+const
+wr
+:
+:
+MaybeExternalImageId
+&
+aExternalImageId
 )
 override
 ;
