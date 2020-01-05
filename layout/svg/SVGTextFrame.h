@@ -1419,13 +1419,6 @@ ReflowSVG
 override
 ;
 virtual
-nsRect
-GetCoveredRegion
-(
-)
-override
-;
-virtual
 SVGBBox
 GetBBoxContribution
 (
