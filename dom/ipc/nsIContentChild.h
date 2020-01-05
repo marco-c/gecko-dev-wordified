@@ -565,7 +565,13 @@ aActor
 )
 ;
 virtual
-bool
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvAsyncMessage
 (
 const

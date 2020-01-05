@@ -3549,6 +3549,8 @@ nsIRunnable
 SetupProtoChainRunner
 (
 )
+=
+default
 ;
 public
 :

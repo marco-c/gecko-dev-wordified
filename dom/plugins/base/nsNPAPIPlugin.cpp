@@ -2199,16 +2199,17 @@ void
 userData
 )
 ;
-virtual
 ~
 nsPluginThreadRunnable
 (
 )
+override
 ;
 NS_IMETHOD
 Run
 (
 )
+override
 ;
 bool
 IsForInstance
@@ -3665,7 +3666,7 @@ stream
 )
 )
 {
-nsNPAPIStreamWrapper
+auto
 *
 wrapper
 =
