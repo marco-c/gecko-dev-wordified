@@ -420,15 +420,6 @@ script
 layout_interface
 :
 :
-Animation
-;
-use
-script
-:
-:
-layout_interface
-:
-:
 {
 LayoutRPC
 OffsetParentResponse
@@ -445,7 +436,6 @@ layout_interface
 Msg
 NewLayoutThreadInfo
 Reflow
-ReflowGoal
 ReflowQueryType
 }
 ;
@@ -603,6 +593,15 @@ use
 style
 :
 :
+animation
+:
+:
+Animation
+;
+use
+style
+:
+:
 computed_values
 :
 :
@@ -621,6 +620,7 @@ context
 {
 SharedStyleContext
 StylistWrapper
+ReflowGoal
 }
 ;
 use

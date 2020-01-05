@@ -539,7 +539,6 @@ LayoutChan
 LayoutRPC
 Msg
 Reflow
-ReflowGoal
 ReflowQueryType
 }
 ;
@@ -861,6 +860,15 @@ string_cache
 :
 :
 Atom
+;
+use
+style
+:
+:
+context
+:
+:
+ReflowGoal
 ;
 use
 time

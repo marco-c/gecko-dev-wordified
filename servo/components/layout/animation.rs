@@ -102,15 +102,6 @@ PipelineId
 }
 ;
 use
-script
-:
-:
-layout_interface
-:
-:
-Animation
-;
-use
 script_traits
 :
 :
@@ -158,7 +149,10 @@ style
 animation
 :
 :
+{
+Animation
 update_style_for_animation
+}
 ;
 use
 time

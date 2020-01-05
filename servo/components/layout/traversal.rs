@@ -126,15 +126,6 @@ RestyleDamage
 }
 ;
 use
-script
-:
-:
-layout_interface
-:
-:
-ReflowGoal
-;
-use
 std
 :
 :
@@ -147,7 +138,10 @@ style
 context
 :
 :
+{
 StyleContext
+ReflowGoal
+}
 ;
 use
 style
