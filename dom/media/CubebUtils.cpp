@@ -295,7 +295,7 @@ gCubebLog
 LogLevel
 :
 :
-Verbose
+Error
 (
 "
 %
