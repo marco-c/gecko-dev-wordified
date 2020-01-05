@@ -1042,10 +1042,10 @@ Servo_GetComputedKeyframeValues
 void
 RawGeckoKeyframeListBorrowed
 keyframes
+RawGeckoElementBorrowed
+element
 ServoComputedValuesBorrowed
 style
-ServoComputedValuesBorrowedOrNull
-parent_style
 RawServoStyleSetBorrowed
 set
 RawGeckoComputedKeyframeValuesListBorrowedMut
@@ -1175,12 +1175,12 @@ SERVO_BINDING_FUNC
 (
 Servo_AnimationValue_Compute
 RawServoAnimationValueStrong
+RawGeckoElementBorrowed
+element
 RawServoDeclarationBlockBorrowed
 declarations
 ServoComputedValuesBorrowed
 style
-ServoComputedValuesBorrowedOrNull
-parent_style
 RawServoStyleSetBorrowed
 raw_data
 )

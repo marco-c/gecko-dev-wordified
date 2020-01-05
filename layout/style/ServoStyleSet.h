@@ -2446,6 +2446,12 @@ RawServoAnimationValue
 >
 ComputeAnimationValue
 (
+dom
+:
+:
+Element
+*
+aElement
 RawServoDeclarationBlock
 *
 aDeclaration
