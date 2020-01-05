@@ -210,6 +210,13 @@ EventSourceReadyState
 Connecting
 =
 0
+#
+[
+allow
+(
+dead_code
+)
+]
 Open
 =
 1
