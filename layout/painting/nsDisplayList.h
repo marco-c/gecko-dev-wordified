@@ -25016,6 +25016,13 @@ aBuilder
 ;
 public
 :
+enum
+PrerenderDecision
+{
+NoPrerender
+FullPrerender
+}
+;
 /
 *
 *
@@ -26365,7 +26372,7 @@ nullptr
 *
 *
 Return
-true
+FullPrerender
 when
 we
 should
@@ -26395,7 +26402,7 @@ yet
 *
 /
 static
-bool
+PrerenderDecision
 ShouldPrerenderTransformedContent
 (
 nsDisplayListBuilder
