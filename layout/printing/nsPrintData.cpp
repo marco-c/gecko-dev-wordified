@@ -391,10 +391,6 @@ mDebugFilePtr
 (
 nullptr
 )
-mPrintObject
-(
-nullptr
-)
 mSelectedPO
 (
 nullptr
@@ -782,9 +778,6 @@ rv
 }
 }
 }
-delete
-mPrintObject
-;
 if
 (
 mBrandName
