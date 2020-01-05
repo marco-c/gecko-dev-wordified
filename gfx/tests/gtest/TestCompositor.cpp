@@ -459,7 +459,8 @@ return
 true
 ;
 }
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -469,11 +470,9 @@ aY
 )
 override
 {
-return
-NS_OK
-;
 }
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -485,11 +484,9 @@ aRepaint
 )
 override
 {
-return
-NS_OK
-;
 }
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -505,9 +502,6 @@ aRepaint
 )
 override
 {
-return
-NS_OK
-;
 }
 NS_IMETHOD
 Enable

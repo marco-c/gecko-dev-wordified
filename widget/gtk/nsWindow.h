@@ -699,7 +699,8 @@ aConstraints
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -717,7 +718,8 @@ aState
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -729,7 +731,8 @@ aRepaint
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

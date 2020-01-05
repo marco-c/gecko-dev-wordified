@@ -4102,7 +4102,8 @@ system
 *
 *
 /
-NS_IMETHOD
+virtual
+void
 Move
 (
 double
@@ -4295,9 +4296,9 @@ should
 be
 repainted
 *
-*
 /
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double
@@ -4413,7 +4414,8 @@ changes
 *
 *
 /
-NS_IMETHOD
+virtual
+void
 Resize
 (
 double

@@ -7694,8 +7694,6 @@ doc_y
 =
 0
 ;
-NS_ENSURE_SUCCESS
-(
 mInternalWidget
 -
 >
@@ -7715,8 +7713,6 @@ nsIBaseWindow
 :
 eRepaint
 )
-)
-NS_ERROR_FAILURE
 )
 ;
 }

@@ -5701,7 +5701,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5807,7 +5807,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeResize
 (
@@ -5846,10 +5845,9 @@ DispatchResized
 ;
 }
 return
-NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5958,7 +5956,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeMoveResize
 (
@@ -5986,7 +5983,6 @@ DispatchResized
 ;
 }
 return
-NS_OK
 ;
 }
 void
@@ -6108,7 +6104,7 @@ return
 mEnabled
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -6266,7 +6262,6 @@ mWindowType
 eWindowType_popup
 )
 return
-NS_OK
 ;
 /
 /
@@ -6297,7 +6292,6 @@ if
 mCreated
 )
 return
-NS_OK
 ;
 NativeMove
 (
@@ -6306,9 +6300,6 @@ NativeMove
 NotifyRollupGeometryChange
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

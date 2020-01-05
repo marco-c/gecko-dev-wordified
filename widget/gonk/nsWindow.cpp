@@ -2078,7 +2078,7 @@ return
 mVisible
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -2090,11 +2090,8 @@ double
 aY
 )
 {
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -2108,7 +2105,6 @@ bool
 aRepaint
 )
 {
-return
 Resize
 (
 0
@@ -2119,7 +2115,7 @@ aRepaint
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -2190,9 +2186,6 @@ mBounds
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsWindow
