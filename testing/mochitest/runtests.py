@@ -465,26 +465,6 @@ mozilla
 .
 org
 .
-#
-MOZ_LOG
-=
-"
-signaling
-:
-3
-mtransport
-:
-4
-DataChannel
-:
-4
-jsep
-:
-4
-MediaPipelineFactory
-:
-4
-"
 MOZ_LOG
 =
 "
@@ -3361,7 +3341,7 @@ self
 .
 _log
 .
-info
+error
 (
                 
 "
@@ -9797,7 +9777,7 @@ self
 .
 log
 .
-info
+error
 (
                 
 "
@@ -13645,7 +13625,7 @@ self
 .
 log
 .
-info
+error
 (
                 
 "
@@ -14659,7 +14639,7 @@ self
 .
 log
 .
-info
+error
 (
 "
 TEST
@@ -14673,7 +14653,7 @@ zombiecheck
 child
 process
 "
-                              
+                               
 "
 %
 d
@@ -15899,7 +15879,7 @@ self
 .
 log
 .
-info
+error
 (
                     
 "
@@ -16663,7 +16643,7 @@ self
 .
 log
 .
-info
+error
 (
 "
 TEST
@@ -16678,7 +16658,7 @@ Please
 ignore
 repeats
 "
-                                  
+                                   
 "
 and
 look
@@ -16695,7 +16675,7 @@ the
 end
 of
 "
-                                  
+                                   
 "
 the
 failure
