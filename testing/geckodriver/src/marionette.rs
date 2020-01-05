@@ -3003,7 +3003,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 "
 Expected
 browser
@@ -3091,7 +3091,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 e
 .
 description
@@ -3166,7 +3166,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 format
 !
 (
@@ -3225,7 +3225,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+SessionNotCreated
 format
 !
 (
