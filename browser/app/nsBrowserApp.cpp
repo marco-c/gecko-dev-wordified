@@ -1295,11 +1295,6 @@ appini
 nsresult
 rv
 ;
-uint32_t
-mainFlags
-=
-0
-;
 /
 /
 Allow
@@ -1999,7 +1994,6 @@ XRE_main
 argc
 argv
 appData
-mainFlags
 )
 ;
 }

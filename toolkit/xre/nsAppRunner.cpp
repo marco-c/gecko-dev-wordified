@@ -26792,8 +26792,6 @@ const
 XREAppData
 &
 aAppData
-uint32_t
-aFlags
 )
 {
 XREMain

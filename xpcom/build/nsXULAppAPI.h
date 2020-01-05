@@ -1355,14 +1355,6 @@ run
 .
 *
 *
-param
-aFlags
-Platform
-specific
-flags
-.
-*
-*
 return
 A
 native
@@ -1421,8 +1413,6 @@ mozilla
 XREAppData
 &
 aAppData
-uint32_t
-aFlags
 )
 )
 /

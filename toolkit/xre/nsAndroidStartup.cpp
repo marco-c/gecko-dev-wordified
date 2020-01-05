@@ -322,7 +322,6 @@ XRE_main
 argc
 argv
 appData
-0
 )
 ;
 if
