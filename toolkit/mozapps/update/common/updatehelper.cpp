@@ -1549,6 +1549,8 @@ L
 '
 }
 ;
+if
+(
 GetTempFileNameW
 (
 updateDirPath
@@ -1559,7 +1561,15 @@ svc
 0
 tmpUpdateStatusFilePath
 )
+=
+=
+0
+)
+{
+return
+FALSE
 ;
+}
 HANDLE
 tmpStatusFile
 =

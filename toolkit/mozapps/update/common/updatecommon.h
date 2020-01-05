@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-UPDATELOGGING_H
+UPDATECOMMON_H
 #
 define
-UPDATELOGGING_H
+UPDATECOMMON_H
 #
 include
 "
@@ -175,6 +175,14 @@ MAXPATHLEN
 ]
 ;
 }
+;
+bool
+IsValidFullPath
+(
+NS_tchar
+*
+fullPath
+)
 ;
 #
 define
