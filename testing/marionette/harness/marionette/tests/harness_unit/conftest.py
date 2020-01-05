@@ -461,12 +461,6 @@ socket_timeout
 0
         
 '
-sources
-'
-:
-None
-        
-'
 startup_timeout
 '
 :

@@ -106,8 +106,6 @@ import
     
 CommonTestCase
     
-MarionetteJSTestCase
-    
 MarionetteTestCase
     
 MetaParameterized
