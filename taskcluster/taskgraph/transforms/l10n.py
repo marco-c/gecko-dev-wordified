@@ -435,6 +435,20 @@ _by_platform
 (
 basestring
 )
+        
+#
+Type
+of
+index
+        
+Optional
+(
+'
+type
+'
+)
+:
+basestring
     
 }
     
@@ -2899,6 +2913,27 @@ job
 name
 '
 ]
+                
+'
+type
+'
+:
+job
+[
+'
+index
+'
+]
+.
+get
+(
+'
+type
+'
+'
+generic
+'
+)
             
 }
         
