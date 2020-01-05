@@ -9962,12 +9962,6 @@ max_framerate
 =
 mSendingFramerate
 ;
-unsigned
-int
-out_min
-out_start
-out_max
-;
 SelectBitrates
 (
 video_stream
@@ -9976,7 +9970,13 @@ width
 video_stream
 .
 height
-0
+MinIgnoreZero
+(
+mNegotiatedMaxBitrate
+simStream
+.
+jsMaxBitrate
+)
 mLastFramerateTenths
 video_stream
 )
