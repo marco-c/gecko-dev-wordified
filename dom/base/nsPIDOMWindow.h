@@ -1064,6 +1064,13 @@ MaybeCreateDoc
 ;
 public
 :
+inline
+bool
+IsLoadingOrRunningTimeout
+(
+)
+const
+;
 /
 /
 Check
