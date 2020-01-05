@@ -825,6 +825,14 @@ removeCurrentTab
 (
 )
 ;
+privateWin
+=
+null
+;
+testBrowser
+=
+null
+;
 finishedCallback
 (
 )
