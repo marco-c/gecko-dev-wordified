@@ -119,6 +119,15 @@ use
 dom
 :
 :
+namespace
+:
+:
+Null
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -431,7 +440,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 href
 "
@@ -542,7 +551,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 name
 "
