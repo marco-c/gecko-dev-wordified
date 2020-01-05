@@ -541,6 +541,13 @@ HandleResponse
 (
 )
 ;
+void
+HandleResponse
+(
+bool
+aResponse
+)
+;
 /
 /
 IPDL
