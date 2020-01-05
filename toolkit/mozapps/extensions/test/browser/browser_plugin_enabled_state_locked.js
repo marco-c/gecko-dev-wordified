@@ -91,17 +91,6 @@ Cc
 )
 ;
 const
-gIsOSX
-=
-(
-"
-nsILocalFileMac
-"
-in
-Ci
-)
-;
-const
 gIsLinux
 =
 (

@@ -61,6 +61,15 @@ use
 strict
 "
 ;
+/
+*
+exported
+startup
+shutdown
+install
+uninstall
+*
+/
 Components
 .
 utils

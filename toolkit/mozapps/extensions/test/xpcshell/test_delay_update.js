@@ -102,15 +102,6 @@ extensions
 )
 ;
 const
-tempdir
-=
-gTmpD
-.
-clone
-(
-)
-;
-const
 IGNORE_ID
 =
 "

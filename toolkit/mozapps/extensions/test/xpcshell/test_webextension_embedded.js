@@ -159,7 +159,6 @@ jsm
 const
 {
 EmbeddedExtensionManager
-LegacyExtensionsUtils
 }
 =
 Components

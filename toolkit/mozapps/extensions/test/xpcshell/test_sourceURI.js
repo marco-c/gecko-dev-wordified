@@ -101,15 +101,6 @@ localhost
 +
 PORT
 ;
-const
-DEFAULT_URL
-=
-"
-about
-:
-blank
-"
-;
 var
 addon
 =

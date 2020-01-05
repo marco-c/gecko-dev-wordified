@@ -82,15 +82,6 @@ extensions
 )
 ;
 const
-tempdir
-=
-gTmpD
-.
-clone
-(
-)
-;
-const
 PREF_SYSTEM_ADDON_SET
 =
 "

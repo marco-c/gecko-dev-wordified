@@ -1,3 +1,12 @@
+/
+*
+exported
+startup
+shutdown
+install
+ADDON_ID
+*
+/
 Components
 .
 utils

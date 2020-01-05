@@ -115,11 +115,6 @@ var
 testserver
 ;
 var
-next_test
-=
-null
-;
-var
 gItemsNotChecked
 =
 [
@@ -1016,12 +1011,6 @@ function
 installedItems
 )
 {
-var
-items
-=
-[
-]
-;
 for
 (
 let

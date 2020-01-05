@@ -133,9 +133,6 @@ var
 gUtilsMenu
 ;
 var
-gDropdownMenu
-;
-var
 gSetDefault
 ;
 var

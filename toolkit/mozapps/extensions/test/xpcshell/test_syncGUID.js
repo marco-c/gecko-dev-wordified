@@ -335,13 +335,6 @@ syncGUID
 )
 ;
 let
-oldGUID
-=
-addon
-.
-SyncGUID
-;
-let
 newGUID
 =
 "

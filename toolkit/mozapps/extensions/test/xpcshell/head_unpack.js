@@ -7,6 +7,12 @@ TEST_UNPACKED
 true
 *
 /
+/
+*
+exported
+TEST_UNPACKED
+*
+/
 Services
 .
 prefs

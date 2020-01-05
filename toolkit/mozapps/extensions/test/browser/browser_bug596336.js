@@ -49,9 +49,6 @@ open
 var
 gManagerWindow
 ;
-var
-gCategoryUtilities
-;
 add_task
 (
 function
@@ -78,14 +75,6 @@ list
 /
 extension
 "
-)
-;
-gCategoryUtilities
-=
-new
-CategoryUtilities
-(
-gManagerWindow
 )
 ;
 }

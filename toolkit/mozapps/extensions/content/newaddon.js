@@ -56,6 +56,16 @@ MPL
 .
 *
 /
+/
+*
+exported
+cancelClicked
+continueClicked
+initialize
+restartClicked
+unload
+*
+/
 var
 Cc
 =

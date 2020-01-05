@@ -1,3 +1,12 @@
+/
+*
+exported
+startup
+shutdown
+install
+uninstall
+*
+/
 function
 install
 (

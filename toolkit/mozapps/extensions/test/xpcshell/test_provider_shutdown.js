@@ -326,13 +326,6 @@ inject
 our
 mock
 AddonRepository
-let
-realAddonRepo
-=
-AMscope
-.
-AddonRepository
-;
 /
 /
 the

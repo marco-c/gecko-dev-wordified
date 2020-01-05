@@ -63,9 +63,6 @@ doesn
 '
 t
 exist
-var
-gManagerWindow
-;
 function
 test
 (

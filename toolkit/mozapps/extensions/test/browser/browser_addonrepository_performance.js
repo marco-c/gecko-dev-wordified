@@ -102,9 +102,6 @@ nsITelemetry
 )
 ;
 var
-gManagerWindow
-;
-var
 gProvider
 ;
 function

@@ -718,9 +718,6 @@ variant
 .
 try
 {
-let
-updates
-=
 yield
 checkUpdates
 (

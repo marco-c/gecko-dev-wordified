@@ -108,9 +108,6 @@ identity
 .
 primaryPort
 ;
-var
-COMPATIBILITY_PREF
-;
 /
 /
 register

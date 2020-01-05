@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+/
+*
+exported
+startup
+shutdown
+*
+/
 var
 hunspell
 dir
