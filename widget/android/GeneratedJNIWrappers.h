@@ -268,7 +268,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+CURRENT
 ;
 }
 ;
@@ -399,7 +399,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+CURRENT
 ;
 }
 ;
@@ -506,7 +506,7 @@ jni
 CallingThread
 :
 :
-GECKO
+ANY
 ;
 static
 const
@@ -668,7 +668,7 @@ jni
 DispatchTarget
 :
 :
-GECKO_PRIORITY
+CURRENT
 ;
 }
 ;
