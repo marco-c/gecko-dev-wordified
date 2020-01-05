@@ -2659,6 +2659,8 @@ size
 .
 width
 }
+as
+isize
 )
 }
 /
@@ -2734,6 +2736,8 @@ size
 .
 height
 }
+as
+isize
 )
 }
 /

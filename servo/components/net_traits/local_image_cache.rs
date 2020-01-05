@@ -208,7 +208,7 @@ image_cache_task
 ImageCacheTask
 round_number
 :
-uint
+u32
 on_image_available
 :
 Option
@@ -297,7 +297,7 @@ decoded
 bool
 last_request_round
 :
-uint
+u32
 last_response
 :
 ImageResponseMsg

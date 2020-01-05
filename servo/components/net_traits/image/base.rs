@@ -448,7 +448,7 @@ wants
 static
 FORCE_DEPTH
 :
-uint
+usize
 =
 4
 ;

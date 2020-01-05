@@ -222,7 +222,7 @@ cached_size
 :
 Size2D
 <
-int
+u32
 >
 local_image_cache
 :
@@ -514,7 +514,7 @@ self
 >
 Size2D
 <
-int
+u32
 >
 {
 self
@@ -549,7 +549,7 @@ Option
 <
 Size2D
 <
-int
+u32
 >
 >
 {
@@ -594,13 +594,9 @@ Size2D
 img
 .
 width
-as
-int
 img
 .
 height
-as
-int
 )
 ;
 self
