@@ -662,6 +662,13 @@ kNrIceTransportTcp
 [
 ]
 ;
+extern
+const
+char
+kNrIceTransportTls
+[
+]
+;
 class
 NrIceStunServer
 {
