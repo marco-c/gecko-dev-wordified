@@ -215,7 +215,8 @@ GetOrCreate
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 static
-void
+PProcessHangMonitorParent
+*
 AddProcess
 (
 dom
