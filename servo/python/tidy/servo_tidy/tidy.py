@@ -449,6 +449,22 @@ registry
 /
 webgl
 /
+extensions
+"
+    
+"
+/
+/
+www
+.
+khronos
+.
+org
+/
+registry
+/
+webgl
+/
 specs
 "
     
