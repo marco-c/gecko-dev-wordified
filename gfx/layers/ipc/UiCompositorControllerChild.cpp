@@ -358,7 +358,7 @@ mSurfaceHeight
 }
 sResizeCache
 .
-empty
+clear
 (
 )
 ;
