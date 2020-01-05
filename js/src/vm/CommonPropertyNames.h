@@ -228,6 +228,15 @@ ArrayIteratorNext
 \
 macro
 (
+ArraySort
+ArraySort
+"
+ArraySort
+"
+)
+\
+macro
+(
 ArraySpecies
 ArraySpecies
 "
