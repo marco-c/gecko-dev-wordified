@@ -6031,10 +6031,11 @@ shouldApplyClipPath
 shouldApplyBasicShape
 )
 {
-context
-.
-Save
+gfxContextMatrixAutoSaveRestore
+matSR
 (
+&
+context
 )
 ;
 SetupContextMatrix
@@ -6174,7 +6175,7 @@ shouldApplyBasicShape
 {
 context
 .
-Restore
+PopClip
 (
 )
 ;
