@@ -723,6 +723,7 @@ js_delete
 (
 nonSyntacticLexicalEnvironments_
 )
+;
 js_free
 (
 enumerators
