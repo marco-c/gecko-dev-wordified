@@ -85996,7 +85996,7 @@ old
 protocol
 see
 *
-http
+https
 :
 /
 /
@@ -87098,7 +87098,7 @@ flag
 set
 .
 See
-http
+https
 :
 /
 /
@@ -388493,7 +388493,7 @@ old
 protocol
 see
 *
-http
+https
 :
 /
 /
@@ -389595,7 +389595,7 @@ flag
 set
 .
 See
-http
+https
 :
 /
 /
