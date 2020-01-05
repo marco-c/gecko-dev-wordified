@@ -13763,7 +13763,7 @@ bool
 BaselineCompiler
 :
 :
-emit_JSOP_GETBOUNDNAME
+emit_JSOP_GETXPROP
 (
 )
 {
