@@ -1474,12 +1474,12 @@ element
 .
 *
 /
-virtual
 DeclarationBlock
 *
 GetInlineStyleDeclaration
 (
 )
+const
 ;
 /
 *

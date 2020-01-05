@@ -329,17 +329,6 @@ Element
 interface
 methods
 virtual
-mozilla
-:
-:
-DeclarationBlock
-*
-GetInlineStyleDeclaration
-(
-)
-override
-;
-virtual
 nsresult
 SetInlineStyleDeclaration
 (
