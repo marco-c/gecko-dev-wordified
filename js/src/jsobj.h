@@ -4131,6 +4131,7 @@ report
 JSREPORT_ERROR
 )
 ;
+static
 bool
 reportNotConfigurable
 (
@@ -4145,12 +4146,18 @@ report
 JSREPORT_ERROR
 )
 ;
+static
 bool
 reportNotExtensible
 (
 JSContext
 *
 cx
+js
+:
+:
+HandleObject
+obj
 unsigned
 report
 =

@@ -17132,6 +17132,11 @@ return
 true
 ;
 }
+/
+*
+static
+*
+/
 bool
 JSObject
 :
@@ -17171,6 +17176,11 @@ nullptr
 )
 ;
 }
+/
+*
+static
+*
+/
 bool
 JSObject
 :
@@ -17210,6 +17220,11 @@ nullptr
 )
 ;
 }
+/
+*
+static
+*
+/
 bool
 JSObject
 :
@@ -17219,6 +17234,8 @@ reportNotExtensible
 JSContext
 *
 cx
+HandleObject
+obj
 unsigned
 report
 )
@@ -17230,7 +17247,7 @@ cx
 ObjectValue
 (
 *
-this
+obj
 )
 )
 ;
