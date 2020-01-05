@@ -2018,10 +2018,10 @@ HRESULT
 RegisteredProxy
 :
 :
-GetTypeInfoForGuid
+GetTypeInfoForInterface
 (
-REFGUID
-aGuid
+REFIID
+aIid
 ITypeInfo
 *
 *
@@ -2059,7 +2059,7 @@ lpVtbl
 GetTypeInfoOfGuid
 (
 mTypeLib
-aGuid
+aIid
 aOutTypeInfo
 )
 ;
@@ -2250,7 +2250,7 @@ SUCCEEDED
 proxy
 -
 >
-GetTypeInfoForGuid
+GetTypeInfoForInterface
 (
 aIid
 aTypeInfo
