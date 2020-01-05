@@ -1091,7 +1091,8 @@ GetIMEUpdatePreference
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetCursor
 (
 nsCursor
@@ -1099,7 +1100,8 @@ aCursor
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetCursor
 (
 imgIContainer

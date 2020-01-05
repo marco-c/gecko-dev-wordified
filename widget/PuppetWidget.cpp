@@ -4958,7 +4958,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -5009,7 +5009,6 @@ mUpdateCursor
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -5035,7 +5034,6 @@ mUpdateCursor
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 mCursor
@@ -5046,11 +5044,8 @@ mUpdateCursor
 =
 false
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :

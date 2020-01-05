@@ -5766,7 +5766,7 @@ return
 mCursor
 ;
 }
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -5780,11 +5780,8 @@ mCursor
 =
 aCursor
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 nsBaseWidget
 :
 :

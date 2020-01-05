@@ -19489,7 +19489,7 @@ Set
 this
 component
 cursor
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -20171,9 +20171,6 @@ nullptr
 ;
 }
 }
-return
-NS_OK
-;
 }
 /
 /
@@ -20181,7 +20178,7 @@ Setting
 the
 actual
 cursor
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

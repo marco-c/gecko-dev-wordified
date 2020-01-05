@@ -5619,7 +5619,8 @@ this
 widget
 *
 /
-NS_IMETHOD
+virtual
+void
 SetCursor
 (
 nsCursor
@@ -5732,7 +5733,8 @@ not
 supported
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 SetCursor
 (
 imgIContainer

@@ -931,7 +931,8 @@ aColor
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetCursor
 (
 imgIContainer
@@ -944,7 +945,8 @@ aHotspotY
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetCursor
 (
 nsCursor
