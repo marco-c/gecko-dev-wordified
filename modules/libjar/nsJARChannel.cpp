@@ -5300,6 +5300,9 @@ type
 nsAutoCString
 header
 ;
+Unused
+<
+<
 httpChannel
 -
 >
