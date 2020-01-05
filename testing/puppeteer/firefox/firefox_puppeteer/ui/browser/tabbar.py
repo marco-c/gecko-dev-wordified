@@ -75,10 +75,6 @@ as
 errors
 from
 firefox_puppeteer
-import
-DOMElement
-from
-firefox_puppeteer
 .
 api
 .
@@ -88,9 +84,12 @@ Security
 from
 firefox_puppeteer
 .
-ui_base_lib
+ui
+.
+base
 import
 UIBaseLib
+DOMElement
 class
 TabBar
 (
