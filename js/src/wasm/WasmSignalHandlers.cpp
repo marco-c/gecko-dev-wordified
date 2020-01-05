@@ -5931,7 +5931,7 @@ MOZ_RELEASE_ASSERT
 (
 instance
 .
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -6028,7 +6028,7 @@ ppc
 =
 instance
 .
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -6054,7 +6054,7 @@ pc
 -
 instance
 .
-codeBase
+codeBaseTier
 (
 )
 )
@@ -6147,7 +6147,7 @@ trapOutOfLineCode
 (
 instance
 .
-codeBase
+codeBaseTier
 (
 )
 )
@@ -6234,7 +6234,7 @@ MOZ_RELEASE_ASSERT
 (
 instance
 .
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -7359,7 +7359,7 @@ MOZ_RELEASE_ASSERT
 (
 instance
 .
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -7417,7 +7417,7 @@ ppc
 =
 instance
 .
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -7448,7 +7448,7 @@ trapOutOfLineCode
 (
 instance
 .
-codeBase
+codeBaseTier
 (
 )
 )
@@ -7683,7 +7683,7 @@ if
 code
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -7823,7 +7823,7 @@ pc
 code
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -7843,7 +7843,7 @@ interrupted
 code
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -8815,7 +8815,7 @@ instance
 instance
 -
 >
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -10232,7 +10232,7 @@ instance
 instance
 -
 >
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -10493,7 +10493,7 @@ ppc
 instance
 -
 >
-codeSegment
+codeSegmentTier
 (
 )
 .
@@ -11236,7 +11236,7 @@ code
 code
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -11451,7 +11451,7 @@ context
 code
 -
 >
-segment
+segmentTier
 (
 )
 .

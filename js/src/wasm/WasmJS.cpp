@@ -5254,7 +5254,7 @@ updateJitCodeMallocBytes
 (
 module
 .
-codeLength
+codeLengthTier
 (
 )
 )
@@ -10755,11 +10755,7 @@ code
 =
 instance
 .
-codeSegment
-(
-)
-.
-base
+codeBaseTier
 (
 )
 +

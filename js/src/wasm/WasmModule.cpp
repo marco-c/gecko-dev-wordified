@@ -2355,7 +2355,7 @@ cx
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2391,7 +2391,7 @@ viewDataUnshared
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2401,7 +2401,7 @@ base
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -3131,7 +3131,7 @@ codeBase
 =
 instance
 .
-codeBase
+codeBaseTier
 (
 )
 ;
@@ -3259,7 +3259,7 @@ offset
 i
 exportInstance
 .
-codeBase
+codeBaseTier
 (
 )
 +

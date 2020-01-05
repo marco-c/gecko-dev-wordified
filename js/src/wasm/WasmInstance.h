@@ -751,7 +751,7 @@ debug_
 const
 CodeSegment
 &
-codeSegment
+codeSegmentTier
 (
 )
 const
@@ -760,7 +760,7 @@ return
 code_
 -
 >
-segment
+segmentTier
 (
 )
 ;
@@ -780,7 +780,7 @@ globals_
 }
 uint8_t
 *
-codeBase
+codeBaseTier
 (
 )
 const
@@ -789,7 +789,7 @@ return
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .

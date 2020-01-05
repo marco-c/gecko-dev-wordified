@@ -1346,7 +1346,7 @@ void
 *
 jitExitCode
 =
-codeBase
+codeBaseTier
 (
 )
 +
@@ -2708,11 +2708,7 @@ code
 =
 calleeInstance
 .
-codeSegment
-(
-)
-.
-base
+codeBaseTier
 (
 )
 +
@@ -2795,7 +2791,7 @@ import
 .
 code
 =
-codeBase
+codeBaseTier
 (
 )
 +
@@ -4867,7 +4863,7 @@ funcPtr
 JS_DATA_TO_FUNC_PTR
 (
 ExportFuncPtr
-codeBase
+codeBaseTier
 (
 )
 +
@@ -5803,7 +5799,7 @@ import
 .
 code
 =
-codeBase
+codeBaseTier
 (
 )
 +
