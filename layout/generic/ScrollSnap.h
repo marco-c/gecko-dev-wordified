@@ -252,6 +252,9 @@ locking
 *
 /
 static
+mozilla
+:
+:
 Maybe
 <
 nsPoint

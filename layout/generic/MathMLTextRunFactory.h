@@ -139,6 +139,9 @@ public
 :
 MathMLTextRunFactory
 (
+mozilla
+:
+:
 UniquePtr
 <
 nsTransformingTextRunFactory
@@ -252,6 +255,9 @@ set
 }
 ;
 protected
+:
+mozilla
+:
 :
 UniquePtr
 <

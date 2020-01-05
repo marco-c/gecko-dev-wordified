@@ -550,6 +550,9 @@ aInnerTransformTextRunFactory
 explicit
 nsCaseTransformTextRunFactory
 (
+mozilla
+:
+:
 UniquePtr
 <
 nsTransformingTextRunFactory
