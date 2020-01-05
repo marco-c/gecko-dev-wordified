@@ -373,6 +373,7 @@ file
 test_zero_sized
 :
 function
+_test_zero_sized
 (
 )
 {
@@ -380,7 +381,7 @@ return
 run_one_test
 (
 "
-0_sized_mar
+0_sized
 .
 mar
 "
@@ -408,6 +409,7 @@ file
 test_one_byte
 :
 function
+_test_one_byte
 (
 )
 {
@@ -415,7 +417,7 @@ return
 run_one_test
 (
 "
-1_byte_mar
+1_byte
 .
 mar
 "
@@ -441,6 +443,7 @@ data
 test_binary_data
 :
 function
+_test_binary_data
 (
 )
 {
@@ -448,7 +451,7 @@ return
 run_one_test
 (
 "
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -484,6 +487,7 @@ data
 test_no_pib
 :
 function
+_test_no_pib
 (
 )
 {
@@ -491,7 +495,7 @@ return
 run_one_test
 (
 "
-no_pib_mar
+no_pib
 .
 mar
 "
@@ -531,6 +535,7 @@ data
 test_no_pib_signed
 :
 function
+_test_no_pib_signed
 (
 )
 {
@@ -538,7 +543,7 @@ return
 run_one_test
 (
 "
-signed_no_pib_mar
+signed_no_pib
 .
 mar
 "
@@ -578,6 +583,7 @@ data
 test_pib_signed
 :
 function
+_test_pib_signed
 (
 )
 {
@@ -585,7 +591,7 @@ return
 run_one_test
 (
 "
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -614,6 +620,7 @@ it
 test_multiple_file
 :
 function
+_test_multiple_file
 (
 )
 {
@@ -621,7 +628,7 @@ return
 run_one_test
 (
 "
-multiple_file_mar
+multiple_file
 .
 mar
 "
@@ -661,6 +668,7 @@ exist
 cleanup_per_test
 :
 function
+_cleanup_per_test
 (
 )
 {
