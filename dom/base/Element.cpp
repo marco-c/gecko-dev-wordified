@@ -1506,7 +1506,7 @@ IntrinsicState
 (
 oldState
 &
-EXTERNALLY_MANAGED_STATES
+ESM_MANAGED_STATES
 )
 ;
 if
