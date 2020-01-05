@@ -2159,9 +2159,6 @@ mTheoraSerial
 uint32_t
 mFlacSerial
 ;
-vorbis_info
-mVorbisInfo
-;
 th_info
 mTheoraInfo
 ;
