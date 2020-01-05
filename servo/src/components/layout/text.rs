@@ -1126,7 +1126,7 @@ fontgroup
 =
 font_context
 .
-get_resolved_font_for_style
+get_layout_font_group_for_style
 (
 &
 font_style
@@ -1137,10 +1137,6 @@ run
 =
 box
 fontgroup
-.
-borrow
-(
-)
 .
 create_textrun
 (
@@ -1351,7 +1347,7 @@ fontgroup
 =
 font_context
 .
-get_resolved_font_for_style
+get_layout_font_group_for_style
 (
 &
 font_style
@@ -1849,10 +1845,6 @@ mut
 *
 fontgroup
 .
-borrow
-(
-)
-.
 fonts
 .
 get
@@ -2196,16 +2188,12 @@ fontgroup
 =
 font_context
 .
-get_resolved_font_for_style
+get_layout_font_group_for_style
 (
 font_style
 )
 ;
 fontgroup
-.
-borrow
-(
-)
 .
 fonts
 .
