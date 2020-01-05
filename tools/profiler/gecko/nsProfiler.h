@@ -122,6 +122,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -227,6 +234,9 @@ nsProfiler
 ;
 RefPtr
 <
+mozilla
+:
+:
 ProfileGatherer
 >
 mGatherer
