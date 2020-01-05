@@ -7254,8 +7254,6 @@ TypedObjectBuffer
 obj
 )
 byteLength
-:
-byteLength
 byteOffset
 :
 TypedObjectByteOffset
@@ -8866,13 +8864,7 @@ JSMSG_TYPEDOBJECT_BAD_ARGS
 return
 {
 iterationSpace
-:
-iterationSpace
 grainType
-:
-grainType
-totalLength
-:
 totalLength
 }
 ;
