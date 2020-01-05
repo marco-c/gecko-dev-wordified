@@ -2853,9 +2853,8 @@ nsTransferable
 :
 GetAnyTransferData
 (
-char
-*
-*
+nsACString
+&
 aFlavor
 nsISupports
 *
@@ -2873,9 +2872,6 @@ mInitialized
 ;
 NS_ENSURE_ARG_POINTER
 (
-aFlavor
-&
-&
 aData
 &
 &
@@ -2922,10 +2918,9 @@ IsDataAvailable
 )
 )
 {
-*
 aFlavor
-=
-ToNewCString
+.
+Assign
 (
 data
 .
