@@ -78,9 +78,6 @@ UsedFontStyle
 }
 ;
 use
-font_context
-;
-use
 font_list
 :
 :
