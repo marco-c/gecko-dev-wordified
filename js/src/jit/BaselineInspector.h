@@ -238,12 +238,6 @@ sawOOBTypedArrayWrite
 const
 ;
 bool
-sawDenseWrite
-(
-)
-const
-;
-bool
 sawTypedArrayWrite
 (
 )

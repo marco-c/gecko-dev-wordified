@@ -16151,6 +16151,13 @@ done
 )
 ;
 void
+convertInt32ValueToDouble
+(
+ValueOperand
+val
+)
+;
+void
 convertValueToDouble
 (
 ValueOperand
