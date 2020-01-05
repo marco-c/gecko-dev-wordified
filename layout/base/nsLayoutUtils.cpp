@@ -44889,6 +44889,9 @@ DrawBackgroundImage
 gfxContext
 &
 aContext
+nsIFrame
+*
+aForFrame
 nsPresContext
 *
 aPresContext
@@ -44952,7 +44955,6 @@ Category
 GRAPHICS
 )
 ;
-const
 Maybe
 <
 SVGImageContext
@@ -44969,6 +44971,16 @@ aImageSize
 )
 )
 )
+)
+;
+SVGImageContext
+:
+:
+MaybeStoreContextPaint
+(
+svgContext
+aForFrame
+aImage
 )
 ;
 /
