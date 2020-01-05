@@ -6260,7 +6260,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6332,7 +6333,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6380,7 +6382,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6491,7 +6494,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6551,7 +6555,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6686,7 +6691,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -6917,7 +6923,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -7063,7 +7070,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -7452,7 +7460,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
@@ -7526,7 +7535,8 @@ assert
 (
 unsafe
 {
-is_in_main_thread
+!
+is_in_render_thread
 (
 )
 }
