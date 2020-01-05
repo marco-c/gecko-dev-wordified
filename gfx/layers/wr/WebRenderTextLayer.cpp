@@ -545,14 +545,14 @@ OpDPPushText
 wr
 :
 :
-ToWRRect
+ToWrRect
 (
 rect
 )
 wr
 :
 :
-ToWRRect
+ToWrRect
 (
 clip
 )

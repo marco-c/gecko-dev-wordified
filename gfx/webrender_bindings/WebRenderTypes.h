@@ -273,8 +273,8 @@ T
 >
 static
 inline
-WRRect
-ToWRRect
+WrRect
+ToWrRect
 (
 const
 gfx
@@ -288,7 +288,7 @@ T
 rect
 )
 {
-WRRect
+WrRect
 r
 ;
 r
@@ -334,8 +334,8 @@ T
 >
 static
 inline
-WRRect
-ToWRRect
+WrRect
+ToWrRect
 (
 const
 gfx
@@ -350,7 +350,7 @@ rect
 )
 {
 return
-ToWRRect
+ToWrRect
 (
 IntRectToRect
 (
