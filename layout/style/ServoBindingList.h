@@ -796,6 +796,13 @@ bool
 RawServoAnimationValueBorrowed
 RawServoAnimationValueBorrowed
 )
+SERVO_BINDING_FUNC
+(
+Servo_AnimationValue_Uncompute
+RawServoDeclarationBlockStrong
+RawServoAnimationValueBorrowed
+value
+)
 /
 /
 Style
