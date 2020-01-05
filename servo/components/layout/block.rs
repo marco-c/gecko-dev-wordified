@@ -11726,15 +11726,6 @@ preferred_inline_size
 }
 }
 }
-flags
-.
-union_floated_descendants_flags
-(
-child_base
-.
-flags
-)
-;
 }
 /
 /
