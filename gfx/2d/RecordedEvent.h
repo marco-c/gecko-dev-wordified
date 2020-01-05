@@ -3530,6 +3530,9 @@ SetTransform
 "
 ;
 }
+Matrix
+mTransform
+;
 private
 :
 friend
@@ -3546,9 +3549,6 @@ istream
 &
 aStream
 )
-;
-Matrix
-mTransform
 ;
 }
 ;
