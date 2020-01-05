@@ -674,6 +674,15 @@ typeDescrObjects
 init
 (
 )
+&
+&
+markedAtoms
+(
+)
+.
+init
+(
+)
 ;
 }
 void
