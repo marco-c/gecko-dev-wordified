@@ -300,6 +300,12 @@ FontFamilyType
 :
 uint32_t
 ;
+enum
+class
+CSSPseudoElementType
+:
+uint8_t
+;
 struct
 Keyframe
 ;
@@ -2189,8 +2195,10 @@ nsIAtom
 aPseudoTagOrNull
 )
 ;
-nsIAtom
-*
+mozilla
+:
+:
+CSSPseudoElementType
 Gecko_GetImplementedPseudo
 (
 RawGeckoElementBorrowed

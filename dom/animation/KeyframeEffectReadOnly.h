@@ -2531,9 +2531,8 @@ const
 AnimationProperty
 &
 aProperty
-nsIAtom
-*
-aPseudoAtom
+CSSPseudoElementType
+aPseudoType
 nsPresContext
 *
 aPresContext
