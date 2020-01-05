@@ -2390,11 +2390,6 @@ NS_STYLE_
 *
 "
 "
-NS_CORNER_
-.
-*
-"
-"
 NS_RADIUS_
 .
 *
@@ -2454,6 +2449,12 @@ css
 :
 :
 SheetParsingMode
+"
+"
+mozilla
+:
+:
+HalfCorner
 "
 "
 mozilla
@@ -2552,6 +2553,9 @@ gfxFontVariation
 "
 "
 GridNamedArea
+"
+"
+HalfCorner
 "
 "
 Image
