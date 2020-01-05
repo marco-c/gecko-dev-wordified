@@ -1993,10 +1993,7 @@ style_traits
 ToCss
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

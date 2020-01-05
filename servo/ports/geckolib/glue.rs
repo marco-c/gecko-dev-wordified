@@ -125,10 +125,7 @@ std
 sync
 :
 :
-{
-Arc
 Mutex
-}
 ;
 use
 style
@@ -1021,6 +1018,15 @@ style_adjuster
 :
 :
 StyleAdjuster
+;
+use
+style
+:
+:
+stylearc
+:
+:
+Arc
 ;
 use
 style

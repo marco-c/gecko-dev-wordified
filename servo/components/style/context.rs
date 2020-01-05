@@ -278,10 +278,7 @@ std
 sync
 :
 :
-{
-Arc
 Mutex
-}
 ;
 use
 std
@@ -294,6 +291,12 @@ mpsc
 :
 :
 Sender
+;
+use
+stylearc
+:
+:
+Arc
 ;
 use
 stylist

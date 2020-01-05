@@ -69,10 +69,7 @@ a
 document
 .
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

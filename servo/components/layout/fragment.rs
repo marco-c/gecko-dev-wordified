@@ -80,6 +80,9 @@ unsafe_code
 )
 ]
 use
+StyleArc
+;
+use
 app_units
 :
 :
@@ -378,12 +381,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-style
-:
-:
-arc_ptr_eq
 ;
 use
 style
@@ -993,7 +990,7 @@ fragment
 pub
 style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -1014,7 +1011,7 @@ selected
 pub
 selected_style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -4956,13 +4953,13 @@ PseudoElementType
 >
 style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
 selected_style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -5123,7 +5120,7 @@ create_similar_anonymous_fragment
 self
 style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -13915,6 +13912,8 @@ other_info
 debug_assert
 !
 (
+:
+:
 arc_ptr_eq
 (
 &
@@ -18358,7 +18357,7 @@ self
 new_style
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >

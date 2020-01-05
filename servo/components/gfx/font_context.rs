@@ -225,6 +225,17 @@ properties
 style_structs
 ;
 use
+style
+:
+:
+stylearc
+:
+:
+Arc
+as
+StyleArc
+;
+use
 webrender_traits
 ;
 static
@@ -786,7 +797,7 @@ mut
 self
 style
 :
-Arc
+StyleArc
 <
 style_structs
 :
@@ -1586,7 +1597,7 @@ LayoutFontGroupCacheKey
 {
 pointer
 :
-Arc
+StyleArc
 <
 style_structs
 :

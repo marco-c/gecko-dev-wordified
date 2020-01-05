@@ -1840,10 +1840,7 @@ properties
 style_structs
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc
@@ -5169,10 +5166,7 @@ std
 fmt
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

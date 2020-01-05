@@ -122,10 +122,7 @@ DerefMut
 }
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

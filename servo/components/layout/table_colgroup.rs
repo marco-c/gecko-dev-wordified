@@ -138,15 +138,6 @@ std
 fmt
 ;
 use
-std
-:
-:
-sync
-:
-:
-Arc
-;
-use
 style
 :
 :
@@ -664,7 +655,9 @@ self
 _
 :
 &
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >

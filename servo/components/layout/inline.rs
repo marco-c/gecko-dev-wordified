@@ -65,6 +65,9 @@ unsafe_code
 )
 ]
 use
+StyleArc
+;
+use
 app_units
 :
 :
@@ -268,12 +271,6 @@ sync
 :
 :
 Arc
-;
-use
-style
-:
-:
-arc_ptr_eq
 ;
 use
 style
@@ -3706,6 +3703,8 @@ selected
 )
 &
 &
+:
+:
 arc_ptr_eq
 (
 &
@@ -13048,7 +13047,7 @@ self
 _
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -13620,14 +13619,14 @@ OpaqueNode
 pub
 style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >
 pub
 selected_style
 :
-Arc
+StyleArc
 <
 ServoComputedValues
 >

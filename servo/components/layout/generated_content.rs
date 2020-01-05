@@ -195,15 +195,6 @@ LinkedList
 }
 ;
 use
-std
-:
-:
-sync
-:
-:
-Arc
-;
-use
 style
 :
 :
@@ -3537,7 +3528,9 @@ PseudoElementType
 >
 style
 :
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >
@@ -3905,7 +3898,9 @@ PseudoElementType
 >
 style
 :
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >

@@ -89,6 +89,9 @@ unsafe_code
 )
 ]
 use
+StyleArc
+;
+use
 app_units
 :
 :
@@ -1358,7 +1361,7 @@ self
 new_style
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -1818,7 +1821,7 @@ self
 new_style
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >

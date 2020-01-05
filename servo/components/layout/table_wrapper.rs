@@ -254,15 +254,6 @@ ops
 Add
 ;
 use
-std
-:
-:
-sync
-:
-:
-Arc
-;
-use
 style
 :
 :
@@ -2889,7 +2880,9 @@ self
 new_style
 :
 &
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >

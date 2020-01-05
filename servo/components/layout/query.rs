@@ -521,7 +521,9 @@ resolution
 pub
 stylist
 :
-Arc
+:
+:
+StyleArc
 <
 Stylist
 >

@@ -334,10 +334,7 @@ PreExistingComputedValues
 =
 :
 :
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

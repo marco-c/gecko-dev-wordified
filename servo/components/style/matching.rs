@@ -264,10 +264,7 @@ sink
 ForgetfulSink
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc
@@ -965,9 +962,10 @@ false
 let
 eq
 =
+Arc
 :
 :
-arc_ptr_eq
+ptr_eq
 (
 a
 .
