@@ -964,6 +964,10 @@ windowId
 1
 ;
 }
+return
+-
+1
+;
 }
 get
 tabId
