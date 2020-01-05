@@ -1298,10 +1298,6 @@ get_local_name
 }
 fn
 get_namespace
-<
-'
-b
->
 (
 &
 self

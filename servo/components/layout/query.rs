@@ -4071,13 +4071,7 @@ PseudoElement
 :
 DetailsSummary
 )
-=
->
-layout_node
-.
-get_details_summary_pseudo
-(
-)
+|
 Some
 (
 PseudoElement
@@ -4085,13 +4079,7 @@ PseudoElement
 :
 DetailsContent
 )
-=
->
-layout_node
-.
-get_details_content_pseudo
-(
-)
+|
 Some
 (
 PseudoElement
@@ -4193,7 +4181,7 @@ style
 *
 layout_node
 .
-style
+resolved_style
 (
 )
 ;
@@ -5345,7 +5333,7 @@ style
 *
 layout_node
 .
-style
+resolved_style
 (
 )
 ;
@@ -5414,7 +5402,7 @@ style
 *
 layout_node
 .
-style
+resolved_style
 (
 )
 ;

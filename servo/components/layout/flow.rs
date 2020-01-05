@@ -4385,6 +4385,10 @@ node
 :
 &
 N
+ctx
+:
+&
+LayoutContext
 )
 -
 >
@@ -10273,11 +10277,24 @@ node
 :
 &
 N
+ctx
+:
+&
+LayoutContext
 )
 -
 >
 FlowRef
 {
+let
+style_context
+=
+ctx
+.
+style_context
+(
+)
+;
 let
 mut
 style
@@ -10286,6 +10303,7 @@ node
 .
 style
 (
+style_context
 )
 .
 clone
@@ -10350,6 +10368,7 @@ node
 .
 selected_style
 (
+style_context
 )
 .
 clone
@@ -10426,6 +10445,7 @@ node
 .
 selected_style
 (
+style_context
 )
 .
 clone
@@ -10449,6 +10469,7 @@ node
 .
 style
 (
+style_context
 )
 .
 get_inheritedtable
@@ -10512,6 +10533,7 @@ node
 .
 selected_style
 (
+style_context
 )
 .
 clone
