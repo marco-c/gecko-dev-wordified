@@ -1081,11 +1081,6 @@ GetTopmostMessageRoutingId
 )
 const
 ;
-void
-FlushPendingInterruptQueue
-(
-)
-;
 /
 /
 Unsound_IsClosed
