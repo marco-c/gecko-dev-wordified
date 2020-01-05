@@ -250,10 +250,6 @@ TEST_PLUGIN_DLLS
 [
     
 '
-npctrltest
-'
-    
-'
 npsecondtest
 '
     
@@ -306,15 +302,6 @@ plugin
     
 '
 ThirdTest
-.
-plugin
-/
-*
-*
-'
-    
-'
-npctrltest
 .
 plugin
 /
