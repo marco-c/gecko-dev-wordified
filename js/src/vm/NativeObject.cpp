@@ -17433,7 +17433,7 @@ a
 .
 if
 (
-obj
+pobj
 -
 >
 getElementsHeader
