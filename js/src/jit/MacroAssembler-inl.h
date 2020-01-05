@@ -274,6 +274,15 @@ architecture
 "
 #
 endif
+#
+include
+"
+wasm
+/
+WasmBuiltins
+.
+h
+"
 namespace
 js
 {

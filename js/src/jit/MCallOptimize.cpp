@@ -2383,6 +2383,14 @@ inlineSetTypedObjectOffset
 callInfo
 )
 ;
+case
+InlinableNative
+:
+:
+Limit
+:
+break
+;
 }
 MOZ_CRASH
 (
