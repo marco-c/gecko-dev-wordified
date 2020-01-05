@@ -1840,8 +1840,6 @@ nsIDOMEventListener
 public
 nsIRollupListener
 public
-nsITimerCallback
-public
 nsIObserver
 {
 public
@@ -1868,7 +1866,6 @@ TransitionEnder
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIDOMEVENTLISTENER
 /
 /
