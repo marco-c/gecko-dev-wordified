@@ -11790,7 +11790,6 @@ return
 rv
 ;
 }
-static
 SECStatus
 RSA_Init
 (
@@ -11821,18 +11820,6 @@ SECFailure
 }
 return
 SECSuccess
-;
-}
-SECStatus
-BL_Init
-(
-void
-)
-{
-return
-RSA_Init
-(
-)
 ;
 }
 /
