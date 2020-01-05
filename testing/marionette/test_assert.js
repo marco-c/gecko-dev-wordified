@@ -159,7 +159,7 @@ sessionId
 typ
 }
 )
-InvalidSessionIdError
+InvalidSessionIDError
 )
 ;
 }

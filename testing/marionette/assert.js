@@ -276,7 +276,7 @@ ID
 *
 throws
 {
-InvalidSessionIdError
+InvalidSessionIDError
 }
 *
 If
@@ -314,7 +314,7 @@ sessionID
 >
 sessionID
 msg
-InvalidSessionIdError
+InvalidSessionIDError
 )
 (
 driver
