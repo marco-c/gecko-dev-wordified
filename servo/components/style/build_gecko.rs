@@ -2997,6 +2997,13 @@ bitfield_enum
 nsRestyleHint
 "
 )
+.
+constified_enum
+(
+"
+UpdateAnimationsTasks
+"
+)
 ;
 let
 whitelist_vars
@@ -3126,6 +3133,12 @@ mozilla
 StyleGrid
 .
 *
+"
+"
+mozilla
+:
+:
+UpdateAnimationsTasks
 "
 "
 mozilla
@@ -4928,6 +4941,9 @@ ServoStyleSheet
 "
 "
 EffectCompositor_CascadeLevel
+"
+"
+UpdateAnimationsTasks
 "
 ]
 ;
