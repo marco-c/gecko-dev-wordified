@@ -2277,6 +2277,27 @@ ENOENT
                 
 raise
         
+src
+=
+os
+.
+path
+.
+relpath
+(
+self
+.
+path
+os
+.
+path
+.
+dirname
+(
+dest
+)
+)
+        
 #
 If
 the
@@ -2344,9 +2365,7 @@ if
 link
 =
 =
-self
-.
-path
+src
 :
                 
 return
@@ -2363,9 +2382,7 @@ os
 .
 symlink
 (
-self
-.
-path
+src
 dest
 )
             
@@ -2412,9 +2429,7 @@ os
 .
 symlink
 (
-self
-.
-path
+src
 dest
 )
                 
@@ -2659,9 +2674,7 @@ os
 .
 symlink
 (
-self
-.
-path
+src
 temp_dest
 )
         
