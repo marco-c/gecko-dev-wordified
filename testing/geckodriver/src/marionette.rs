@@ -4432,6 +4432,11 @@ SetTimeouts
 _
 )
 |
+SetWindowPosition
+(
+_
+)
+|
 SetWindowSize
 (
 _
@@ -4552,11 +4557,6 @@ _
 )
 |
 GetElementText
-(
-_
-)
-|
-SetWindowPosition
 (
 _
 )
