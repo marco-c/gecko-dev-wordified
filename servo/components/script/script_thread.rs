@@ -3773,7 +3773,7 @@ ScriptThread
 {
 pub
 fn
-page_fetch_complete
+page_headers_available
 (
 id
 :
@@ -3828,7 +3828,7 @@ unwrap
 ;
 script_thread
 .
-handle_page_fetch_complete
+handle_page_headers_available
 (
 id
 subpage
@@ -9965,7 +9965,7 @@ the
 result
 .
 fn
-handle_page_fetch_complete
+handle_page_headers_available
 (
 &
 self
