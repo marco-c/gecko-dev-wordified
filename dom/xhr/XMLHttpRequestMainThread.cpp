@@ -17671,6 +17671,12 @@ isPrivilegedCaller
 isForbiddenHeader
 )
 {
+NS_ConvertUTF8toUTF16
+name
+(
+aName
+)
+;
 const
 char16_t
 *
@@ -17679,10 +17685,7 @@ params
 ]
 =
 {
-NS_ConvertUTF8toUTF16
-(
-aName
-)
+name
 .
 get
 (
