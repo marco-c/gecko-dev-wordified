@@ -4140,11 +4140,11 @@ gPrefService
 getBoolPref
 (
 "
-browser
+toolkit
 .
-fullscreen
+cosmeticAnimations
 .
-animate
+enabled
 "
 )
 )

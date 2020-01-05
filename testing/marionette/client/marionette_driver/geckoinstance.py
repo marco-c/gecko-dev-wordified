@@ -3595,15 +3595,15 @@ page
         
 #
 Disable
-tab
-animation
+browser
+animations
         
 "
-browser
+toolkit
 .
-tabs
+cosmeticAnimations
 .
-animate
+enabled
 "
 :
 False
