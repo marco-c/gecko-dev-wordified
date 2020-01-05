@@ -118,6 +118,16 @@ invalidVal
 anonymous
 "
 }
+nonce
+:
+"
+string
+"
+integrity
+:
+"
+string
+"
 }
 noscript
 :
