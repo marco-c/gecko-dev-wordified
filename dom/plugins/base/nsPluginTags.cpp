@@ -1924,12 +1924,6 @@ case
 nsPluginHost
 :
 :
-eSpecialType_Unity
-:
-case
-nsPluginHost
-:
-:
 eSpecialType_Test
 :
 mSupportsAsyncInit
