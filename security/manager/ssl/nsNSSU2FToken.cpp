@@ -2214,7 +2214,7 @@ NSS
 /
 initialization
 .
-NS_IMETHODIMP
+nsresult
 nsNSSU2FToken
 :
 :
