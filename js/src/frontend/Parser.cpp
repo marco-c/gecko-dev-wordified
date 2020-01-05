@@ -55797,18 +55797,6 @@ shorthands
 do
 not
 .
-uint32_t
-begin
-=
-handler
-.
-getPosition
-(
-propName
-)
-.
-begin
-;
 if
 (
 !
@@ -55817,6 +55805,8 @@ handler
 addPrototypeMutation
 (
 literal
+namePos
+.
 begin
 propExpr
 )
