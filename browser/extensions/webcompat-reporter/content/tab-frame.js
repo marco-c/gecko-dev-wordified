@@ -56,6 +56,17 @@ MPL
 .
 *
 /
+/
+*
+global
+content
+:
+false
+sendAsyncMessage
+:
+false
+*
+/
 let
 {
 utils

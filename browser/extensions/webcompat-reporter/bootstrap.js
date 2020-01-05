@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+global
+APP_SHUTDOWN
+:
+false
+*
+/
 let
 {
 classes
