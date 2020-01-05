@@ -1,4 +1,5 @@
-use
+extern
+mod
 cocoa
 ;
 export
@@ -432,7 +433,7 @@ do
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 characters
 )
@@ -445,7 +446,7 @@ do
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 glyphs
 )
@@ -597,7 +598,7 @@ do
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 glyphs
 )
@@ -709,7 +710,7 @@ fontprov
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 *
 buf
