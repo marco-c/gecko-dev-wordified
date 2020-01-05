@@ -652,10 +652,26 @@ license
 def
 check_length
 (
+file_name
 idx
 line
 )
 :
+    
+if
+file_name
+.
+endswith
+(
+"
+.
+lock
+"
+)
+:
+        
+raise
+StopIteration
     
 max_length
 =
@@ -957,6 +973,7 @@ chain
             
 check_length
 (
+file_name
 idx
 line
 )
