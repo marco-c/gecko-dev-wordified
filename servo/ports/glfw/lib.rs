@@ -137,6 +137,10 @@ extern
 crate
 util
 ;
+extern
+crate
+opengles
+;
 use
 geom
 :
