@@ -617,6 +617,12 @@ channels
 =
 1
 ;
+input_params
+.
+layout
+=
+CUBEB_LAYOUT_MONO
+;
 output_params
 .
 format
@@ -634,6 +640,12 @@ output_params
 channels
 =
 2
+;
+output_params
+.
+layout
+=
+CUBEB_LAYOUT_STEREO
 ;
 r
 =

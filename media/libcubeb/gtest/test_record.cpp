@@ -501,6 +501,12 @@ channels
 =
 1
 ;
+params
+.
+layout
+=
+CUBEB_LAYOUT_MONO
+;
 r
 =
 cubeb_stream_init
