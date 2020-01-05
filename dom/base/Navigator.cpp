@@ -10223,16 +10223,6 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
-(
-aWindow
--
->
-GetDocShell
-(
-)
-)
-;
 /
 /
 Copy
