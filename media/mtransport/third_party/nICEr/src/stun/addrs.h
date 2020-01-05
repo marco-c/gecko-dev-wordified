@@ -277,10 +277,6 @@ addrs
 int
 maxaddrs
 int
-remove_loopback
-int
-remove_link_local
-int
 *
 count
 )
