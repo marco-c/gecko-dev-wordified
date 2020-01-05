@@ -4661,6 +4661,16 @@ obsolete
 true
 )
 ;
+user_pref
+(
+"
+media
+.
+openUnsupportedTypeWithExternalApp
+"
+false
+)
+;
 /
 /
 Disable
