@@ -431,6 +431,13 @@ data
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 unsafe
 fn

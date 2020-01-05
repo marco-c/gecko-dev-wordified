@@ -250,6 +250,13 @@ empty
 [
 inline
 ]
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 unsafe
 fn
@@ -380,6 +387,13 @@ empty
 #
 [
 inline
+]
+#
+[
+allow
+(
+unsafe_code
+)
 ]
 pub
 unsafe

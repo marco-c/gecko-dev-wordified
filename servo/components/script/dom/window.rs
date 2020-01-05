@@ -3177,7 +3177,7 @@ message
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn
@@ -3660,7 +3660,7 @@ code
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn
@@ -3925,7 +3925,7 @@ None
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn

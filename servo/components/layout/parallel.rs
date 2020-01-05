@@ -95,7 +95,7 @@ audit
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 use

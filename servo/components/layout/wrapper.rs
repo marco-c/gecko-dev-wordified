@@ -371,7 +371,7 @@ html_element_in_html_document_for_layout
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 use

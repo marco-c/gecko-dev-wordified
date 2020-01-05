@@ -76,7 +76,7 @@ tree
 [
 deny
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 use
@@ -1134,6 +1134,13 @@ debug_id
 :
 u16
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 impl
 Send
@@ -1141,6 +1148,13 @@ for
 Fragment
 {
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 impl
 Sync

@@ -1610,7 +1610,7 @@ progress
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn
@@ -5731,7 +5731,7 @@ Ok
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 )
 ]
 fn

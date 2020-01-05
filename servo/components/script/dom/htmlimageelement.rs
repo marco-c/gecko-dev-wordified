@@ -768,6 +768,13 @@ pub
 trait
 LayoutHTMLImageElementHelpers
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 fn
 image
@@ -791,6 +798,13 @@ LayoutJS
 HTMLImageElement
 >
 {
+#
+[
+allow
+(
+unsafe_code
+)
+]
 unsafe
 fn
 image

@@ -61,7 +61,7 @@ MPL
 [
 allow
 (
-unsafe_blocks
+unsafe_code
 unrooted_must_root
 )
 ]
