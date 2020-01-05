@@ -7054,8 +7054,12 @@ HTMLTextAreaElement
 (
 )
 {
+if
 let
+Some
+(
 insertion_point
+)
 =
 unsafe
 {
@@ -7065,7 +7069,7 @@ get_absolute_insertion_point_for_layout
 (
 )
 }
-;
+{
 let
 text
 =
@@ -7095,6 +7099,7 @@ char_indices
 )
 )
 ;
+}
 }
 if
 let
