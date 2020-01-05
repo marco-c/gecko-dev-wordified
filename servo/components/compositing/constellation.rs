@@ -346,6 +346,7 @@ constellation_msg
 {
 SubpageId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -4733,9 +4734,10 @@ Compositor
 FromCompositorMsg
 :
 :
-ResizedWindow
+WindowSize
 (
 new_size
+size_type
 )
 )
 =
@@ -4755,9 +4757,10 @@ message
 ;
 self
 .
-handle_resized_window_msg
+handle_window_size_msg
 (
 new_size
+size_type
 )
 ;
 }
@@ -7059,6 +7062,10 @@ window_size
 .
 device_pixel_ratio
 }
+WindowSizeType
+:
+:
+Initial
 )
 ;
 /
@@ -12375,7 +12382,7 @@ is
 resized
 .
 fn
-handle_resized_window_msg
+handle_window_size_msg
 (
 &
 mut
@@ -12383,13 +12390,16 @@ self
 new_size
 :
 WindowSizeData
+size_type
+:
+WindowSizeType
 )
 {
 debug
 !
 (
 "
-handle_resized_window_msg
+handle_window_size_msg
 :
 {
 :
@@ -12557,6 +12567,7 @@ pipeline
 .
 id
 new_size
+size_type
 )
 )
 ;
@@ -12754,6 +12765,7 @@ pipeline
 .
 id
 new_size
+size_type
 )
 )
 ;

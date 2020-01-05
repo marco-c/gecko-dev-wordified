@@ -346,6 +346,7 @@ constellation_msg
 NavigationDirection
 PipelineId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -2904,6 +2905,10 @@ compositor
 .
 send_window_size
 (
+WindowSizeType
+:
+:
+Initial
 )
 ;
 compositor
@@ -5368,6 +5373,10 @@ self
 .
 send_window_size
 (
+WindowSizeType
+:
+:
+Initial
 )
 ;
 self
@@ -6716,6 +6725,9 @@ send_window_size
 (
 &
 self
+size_type
+:
+WindowSizeType
 )
 {
 let
@@ -6759,7 +6771,7 @@ msg
 ConstellationMsg
 :
 :
-ResizedWindow
+WindowSize
 (
 WindowSizeData
 {
@@ -6773,6 +6785,7 @@ visible_viewport
 :
 visible_viewport
 }
+size_type
 )
 ;
 if
@@ -8112,6 +8125,10 @@ self
 .
 send_window_size
 (
+WindowSizeType
+:
+:
+Resize
 )
 ;
 }
@@ -11243,6 +11260,10 @@ self
 .
 send_window_size
 (
+WindowSizeType
+:
+:
+Resize
 )
 ;
 }
@@ -11299,6 +11320,10 @@ self
 .
 send_window_size
 (
+WindowSizeType
+:
+:
+Resize
 )
 ;
 }

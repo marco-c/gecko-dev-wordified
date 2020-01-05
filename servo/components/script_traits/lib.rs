@@ -293,6 +293,7 @@ ConstellationChan
 PanicMsg
 PipelineId
 WindowSizeData
+WindowSizeType
 }
 ;
 use
@@ -907,6 +908,7 @@ Resize
 (
 PipelineId
 WindowSizeData
+WindowSizeType
 )
 /
 /
@@ -1697,6 +1699,7 @@ resized
 ResizeEvent
 (
 WindowSizeData
+WindowSizeType
 )
 /
 /
