@@ -817,6 +817,10 @@ htmlunknownelement
 ;
 pub
 mod
+keyboardevent
+;
+pub
+mod
 location
 ;
 pub
@@ -966,4 +970,8 @@ script_task
 ;
 mod
 timers
+;
+pub
+mod
+textinput
 ;
