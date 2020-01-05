@@ -192,6 +192,16 @@ final
 public
 nsSVGContainerFrame
 {
+typedef
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+imgDrawingParams
+;
 friend
 class
 nsSVGMarkerAnonChildFrame
@@ -416,7 +426,7 @@ GetContentInsertionFrame
 nsSVGMarkerFrame
 methods
 :
-DrawResult
+void
 PaintMark
 (
 gfxContext
@@ -437,8 +447,9 @@ nsSVGMark
 aMark
 float
 aStrokeWidth
-uint32_t
-aFlags
+imgDrawingParams
+&
+aImgParams
 )
 ;
 SVGBBox

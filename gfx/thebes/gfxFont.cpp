@@ -14340,9 +14340,6 @@ aContext
 devUnitsPerSVGUnit
 )
 ;
-bool
-rv
-=
 GetFontEntry
 (
 )
@@ -14370,7 +14367,7 @@ NewPath
 )
 ;
 return
-rv
+true
 ;
 }
 bool

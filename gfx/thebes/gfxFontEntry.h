@@ -1167,7 +1167,7 @@ gfxRect
 aResult
 )
 ;
-bool
+void
 RenderSVGGlyph
 (
 gfxContext

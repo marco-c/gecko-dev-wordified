@@ -1895,7 +1895,7 @@ aResult
 )
 ;
 }
-bool
+void
 gfxFontEntry
 :
 :
@@ -1931,7 +1931,6 @@ first
 "
 )
 ;
-return
 mSVGGlyphs
 -
 >

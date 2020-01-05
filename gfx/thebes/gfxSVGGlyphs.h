@@ -706,7 +706,7 @@ SVGContextPaint
 .
 *
 /
-bool
+void
 RenderGlyph
 (
 gfxContext
