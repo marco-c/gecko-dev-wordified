@@ -3194,6 +3194,15 @@ wasm
 \
 macro
 (
+wasmcall
+wasmcall
+"
+wasmcall
+"
+)
+\
+macro
+(
 watch
 watch
 "
