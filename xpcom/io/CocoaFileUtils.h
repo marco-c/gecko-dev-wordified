@@ -258,11 +258,6 @@ bool
 isFromWeb
 )
 ;
-CFURLRef
-GetTemporaryFolderCFURLRef
-(
-)
-;
 }
 /
 /
