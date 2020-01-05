@@ -267,11 +267,11 @@ AddWebRenderCommand
 (
 OpDPPushRect
 (
-toWrRect
+ToWRRect
 (
 rect
 )
-toWrRect
+ToWRRect
 (
 clip
 )

@@ -981,11 +981,11 @@ AddWebRenderCommand
 (
 OpDPPushStackingContext
 (
-toWrRect
+ToWRRect
 (
 bounds
 )
-toWrRect
+ToWRRect
 (
 overflow
 )

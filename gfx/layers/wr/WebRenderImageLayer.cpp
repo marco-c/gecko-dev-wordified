@@ -897,11 +897,11 @@ AddWebRenderCommand
 (
 OpDPPushStackingContext
 (
-toWrRect
+ToWRRect
 (
 relBounds
 )
-toWrRect
+ToWRRect
 (
 overflow
 )
@@ -925,11 +925,11 @@ AddWebRenderCommand
 (
 OpDPPushExternalImageId
 (
-toWrRect
+ToWRRect
 (
 rect
 )
-toWrRect
+ToWRRect
 (
 clip
 )
