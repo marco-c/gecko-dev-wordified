@@ -2484,6 +2484,7 @@ StyleData
 nsStyleStructID
 aSID
 )
+MOZ_NONNULL_RETURN
 ;
 /
 *
@@ -2562,6 +2563,7 @@ Style
 name_
 (
 )
+MOZ_NONNULL_RETURN
 {
 \
 return
