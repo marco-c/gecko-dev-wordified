@@ -4340,6 +4340,16 @@ return
 true
 ;
 }
+/
+/
+/
+cbindgen
+:
+function
+-
+postfix
+=
+WR_DESTRUCTOR_SAFE_FUNC
 #
 [
 no_mangle
