@@ -14264,7 +14264,7 @@ if
 (
 aFlags
 &
-eSetValue_MoveCursorToEnd
+eSetValue_MoveCursorToEndIfValueChanged
 )
 {
 props
