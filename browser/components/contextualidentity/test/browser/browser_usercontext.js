@@ -481,9 +481,7 @@ title
 =
 browser
 .
-contentDocument
-.
-title
+contentTitle
 .
 trim
 (
