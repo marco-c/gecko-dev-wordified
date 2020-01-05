@@ -693,6 +693,14 @@ nsGenericHTMLFormElementWithState
 :
 GetForm
 ;
+enum
+class
+FromClone
+{
+no
+yes
+}
+;
 HTMLInputElement
 (
 already_AddRefed
@@ -715,6 +723,13 @@ dom
 :
 FromParser
 aFromParser
+FromClone
+aFromClone
+=
+FromClone
+:
+:
+no
 )
 ;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
@@ -9260,7 +9275,7 @@ mShouldInitChecked
 1
 ;
 bool
-mParserCreating
+mDoneCreating
 :
 1
 ;
