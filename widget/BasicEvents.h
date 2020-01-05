@@ -4496,6 +4496,12 @@ eMouseDoubleClick
 mMessage
 =
 =
+eMouseAuxClick
+|
+|
+mMessage
+=
+=
 eMouseDown
 |
 |

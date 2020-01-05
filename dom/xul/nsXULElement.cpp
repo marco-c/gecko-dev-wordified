@@ -8518,6 +8518,12 @@ aMessage
 =
 =
 eDragStart
+|
+|
+aMessage
+=
+=
+eMouseAuxClick
 )
 )
 ;

@@ -580,6 +580,10 @@ NS_EVENT_MESSAGE
 (
 eMouseClick
 )
+NS_EVENT_MESSAGE
+(
+eMouseAuxClick
+)
 /
 /
 eMouseActivate

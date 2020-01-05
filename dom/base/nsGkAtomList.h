@@ -5326,6 +5326,13 @@ onaudioprocess
 )
 GK_ATOM
 (
+onauxclick
+"
+onauxclick
+"
+)
+GK_ATOM
+(
 onbeforecopy
 "
 onbeforecopy

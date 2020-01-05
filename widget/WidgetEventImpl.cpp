@@ -1636,6 +1636,9 @@ case
 eMouseDoubleClick
 :
 case
+eMouseAuxClick
+:
+case
 eMouseEnterIntoWidget
 :
 case
