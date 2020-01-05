@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+async
 function
 testBody
 (
@@ -79,18 +80,10 @@ setWatchdogEnabled
 defaultBehavior
 )
 ;
+await
 checkWatchdog
 (
 defaultBehavior
-continueTest
 )
-;
-yield
-;
-do_test_finished
-(
-)
-;
-yield
 ;
 }
