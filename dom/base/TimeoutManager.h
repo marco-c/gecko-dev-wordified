@@ -1178,13 +1178,10 @@ mozilla
 :
 LinkedList
 <
-mozilla
-:
-:
-dom
-:
-:
+RefPtr
+<
 Timeout
+>
 >
 TimeoutList
 ;
