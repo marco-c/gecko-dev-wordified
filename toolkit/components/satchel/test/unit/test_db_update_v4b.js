@@ -237,6 +237,7 @@ sqlite
 "
 )
 ;
+let
 dbConnection
 =
 Services

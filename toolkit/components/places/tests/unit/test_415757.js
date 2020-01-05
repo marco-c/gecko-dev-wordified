@@ -750,7 +750,7 @@ annotations
 getPageAnnotation
 (
 testAnnoDeletedURI
-testAnnoName
+testAnnoDeletedName
 )
 ;
 do_throw

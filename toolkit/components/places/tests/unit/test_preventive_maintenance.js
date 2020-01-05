@@ -7777,6 +7777,7 @@ and
 an
 invalid
 one
+let
 stmt
 =
 mDBConn
@@ -8980,6 +8981,7 @@ a
 used
 attribute
 .
+let
 stmt
 =
 mDBConn

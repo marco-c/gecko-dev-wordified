@@ -363,6 +363,12 @@ jsm
 "
 )
 ;
+/
+*
+global
+DownloadIntegration
+*
+/
 Integration
 .
 downloads

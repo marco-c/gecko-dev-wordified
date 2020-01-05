@@ -549,6 +549,7 @@ page
 Observe
 history
 .
+let
 historyObserver
 =
 {

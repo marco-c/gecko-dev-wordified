@@ -2629,6 +2629,7 @@ has
 children
 try
 {
+let
 result
 =
 hs

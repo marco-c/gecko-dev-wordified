@@ -90,7 +90,7 @@ if
 aKey
 )
 {
-FAIL
+do_throw
 (
 "
 getDir

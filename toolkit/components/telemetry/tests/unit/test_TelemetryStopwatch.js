@@ -104,6 +104,7 @@ refObj2
 var
 originalCount1
 originalCount2
+originalCount3
 ;
 function
 run_test

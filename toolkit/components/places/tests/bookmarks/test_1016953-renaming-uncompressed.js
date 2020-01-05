@@ -586,6 +586,7 @@ create
 Force
 compressed
 backup
+let
 mostRecentBackupFile
 =
 yield

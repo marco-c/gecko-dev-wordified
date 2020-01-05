@@ -680,6 +680,12 @@ Ci
 nsIPrintSettingsService
 )
 ;
+/
+*
+global
+DownloadIntegration
+*
+/
 Integration
 .
 downloads

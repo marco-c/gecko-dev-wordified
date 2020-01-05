@@ -270,6 +270,9 @@ debug
 messages
 *
 /
+var
+debug
+;
 const
 LOCAL_FILE_CONTRACTID
 =

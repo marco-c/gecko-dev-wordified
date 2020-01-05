@@ -1473,6 +1473,11 @@ sizeToContent
 "
 :
 false
+"
+ChromeWorker
+"
+:
+false
 }
 }
 ;

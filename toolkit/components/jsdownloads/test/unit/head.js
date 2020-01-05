@@ -465,6 +465,12 @@ Ci
 nsIExternalHelperAppService
 )
 ;
+/
+*
+global
+DownloadIntegration
+*
+/
 Integration
 .
 downloads

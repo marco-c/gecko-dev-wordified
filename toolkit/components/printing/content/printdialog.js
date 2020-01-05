@@ -1126,6 +1126,7 @@ printerList
 ;
 do
 {
+let
 printerNameStr
 =
 aDataObject

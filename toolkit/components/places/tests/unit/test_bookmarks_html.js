@@ -2343,6 +2343,7 @@ function
 {
 for
 (
+let
 prop
 in
 aExpected

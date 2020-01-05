@@ -2290,7 +2290,7 @@ strings
 ;
 checkScalar
 (
-scalar
+scalars
 [
 name
 ]
@@ -2431,7 +2431,7 @@ characters
 ;
 checkScalar
 (
-scalar
+scalars
 [
 name
 ]
@@ -6638,6 +6638,7 @@ known
 stable
 histograms
 .
+let
 checkHistograms
 =
 (
@@ -6742,6 +6743,7 @@ for
 keyed
 histograms
 .
+let
 checkKeyedHistograms
 =
 (
@@ -8028,6 +8030,7 @@ expectedActiveTicks
 =
 activeTicksAtSubsessionStart
 ;
+let
 incrementActiveTicks
 =
 (
