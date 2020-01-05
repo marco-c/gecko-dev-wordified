@@ -174,7 +174,7 @@ return
 dom
 :
 :
-WebGLVertexArrayObjectOESBinding
+WebGLVertexArrayObjectBinding
 :
 :
 Wrap
