@@ -66,10 +66,6 @@ l10n
 import
 L10n
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 By
@@ -79,6 +75,10 @@ marionette_driver
 errors
 import
 MarionetteException
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 TestL10n
 (

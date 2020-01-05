@@ -1199,7 +1199,7 @@ marionette
 harness
 '
 '
-marionette
+marionette_harness
 '
 )
         
@@ -1240,7 +1240,7 @@ marionette
 harness
 '
 '
-marionette
+marionette_harness
 '
 '
 tests

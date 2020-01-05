@@ -68,7 +68,7 @@ software_update
 import
 SoftwareUpdate
 from
-marionette
+marionette_harness
 import
 MarionetteTestCase
 class

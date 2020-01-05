@@ -432,7 +432,7 @@ marionette
 /
 harness
 /
-marionette
+marionette_harness
 /
 runner
 /

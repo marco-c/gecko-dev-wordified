@@ -64,7 +64,7 @@ errors
 import
 NoCertificateError
 from
-marionette
+marionette_harness
 import
 MarionetteTestCase
 class

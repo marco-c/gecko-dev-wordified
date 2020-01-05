@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-marionette
-import
-Marionette
-from
 marionette_driver
 import
 Wait
@@ -67,6 +63,10 @@ marionette_driver
 errors
 import
 TimeoutException
+from
+marionette_harness
+import
+Marionette
 from
 external_media_tests
 .

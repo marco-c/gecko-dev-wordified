@@ -72,10 +72,6 @@ windows
 import
 BaseWindow
 from
-marionette
-import
-MarionetteTestCase
-from
 marionette_driver
 import
 By
@@ -86,6 +82,10 @@ marionette_driver
 errors
 import
 NoSuchWindowException
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 BaseWindowTestCase
 (

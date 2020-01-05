@@ -63,7 +63,7 @@ MPL
 /
 .
 from
-marionette
+marionette_harness
 .
 runtests
 import
