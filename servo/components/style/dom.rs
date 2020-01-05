@@ -2392,7 +2392,7 @@ attributes
 .
 pub
 trait
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 {
 /
 /
@@ -2582,7 +2582,7 @@ Clone
 +
 ElementExt
 +
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 {
 /
 /

@@ -168,7 +168,7 @@ dom
 {
 LayoutIterator
 NodeInfo
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 TNode
 }
 ;
@@ -2391,7 +2391,7 @@ SelectorImpl
 +
 GetLayoutData
 +
-PresentationalHintsSynthetizer
+PresentationalHintsSynthesizer
 {
 type
 ConcreteThreadSafeLayoutNode
