@@ -213,6 +213,10 @@ mConfirmed
 (
 false
 )
+mProtocolV2
+(
+true
+)
 {
 }
 /
@@ -475,6 +479,9 @@ expired
 .
 bool
 mConfirmed
+;
+bool
+mProtocolV2
 ;
 }
 ;
