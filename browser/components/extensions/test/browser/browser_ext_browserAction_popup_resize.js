@@ -56,6 +56,9 @@ extension
 win
 =
 window
+awaitLoad
+=
+false
 )
 {
 clickBrowserAction
@@ -70,7 +73,7 @@ awaitExtensionPanel
 (
 extension
 win
-false
+awaitLoad
 )
 ;
 }
@@ -700,6 +703,7 @@ openPanel
 (
 extension
 browserWin
+true
 )
 ;
 let
