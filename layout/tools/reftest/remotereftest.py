@@ -1932,6 +1932,9 @@ createReftestProfile
 self
 options
 manifest
+startAfter
+=
+None
 )
 :
         
@@ -1958,6 +1961,36 @@ port
 options
 .
 httpPort
+)
+        
+if
+startAfter
+is
+not
+None
+:
+            
+print
+(
+"
+WARNING
+:
+Continuing
+after
+a
+crash
+is
+not
+supported
+for
+remote
+"
+                   
+"
+reftest
+yet
+.
+"
 )
         
 profileDir
