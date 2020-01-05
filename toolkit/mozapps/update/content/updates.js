@@ -8242,6 +8242,12 @@ state
 )
 {
 case
+STATE_APPLIED
+:
+case
+STATE_APPLIED_SERVICE
+:
+case
 STATE_PENDING
 :
 case
