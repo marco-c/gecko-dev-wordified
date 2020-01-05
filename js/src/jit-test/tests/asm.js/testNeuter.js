@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-test
--
-also
--
-noasmjs
 load
 (
 libdir

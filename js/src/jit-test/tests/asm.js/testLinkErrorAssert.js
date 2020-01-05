@@ -1,17 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-test
--
-also
--
-noasmjs
-/
-/
 This
 test
 should
