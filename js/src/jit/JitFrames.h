@@ -1671,7 +1671,7 @@ frame
 )
 ;
 void
-MarkJitActivations
+TraceJitActivations
 (
 JSRuntime
 *
@@ -2784,7 +2784,7 @@ to
 be
 /
 /
-marked
+traced
 .
 static
 JitCode
@@ -5476,7 +5476,7 @@ pcRes
 )
 ;
 CalleeToken
-MarkCalleeToken
+TraceCalleeToken
 (
 JSTracer
 *

@@ -377,7 +377,7 @@ other
 const
 ;
 HashableValue
-mark
+trace
 (
 JSTracer
 *
@@ -1006,7 +1006,7 @@ args
 ;
 static
 void
-mark
+trace
 (
 JSTracer
 *
@@ -1852,7 +1852,7 @@ args
 ;
 static
 void
-mark
+trace
 (
 JSTracer
 *

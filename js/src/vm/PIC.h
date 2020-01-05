@@ -1290,7 +1290,7 @@ canonicalNextFunc_
 ;
 }
 void
-mark
+trace
 (
 JSTracer
 *

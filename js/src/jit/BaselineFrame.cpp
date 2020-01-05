@@ -190,7 +190,7 @@ jit
 ;
 static
 void
-MarkLocals
+TraceLocals
 (
 BaselineFrame
 *
@@ -263,7 +263,7 @@ frameIterator
 {
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 calleeToken
@@ -274,7 +274,7 @@ calleeToken
 ;
 /
 /
-Mark
+Trace
 |
 this
 |
@@ -341,7 +341,7 @@ args
 }
 /
 /
-Mark
+Trace
 environment
 chain
 if
@@ -366,7 +366,7 @@ envchain
 ;
 /
 /
-Mark
+Trace
 return
 value
 .
@@ -444,7 +444,7 @@ obj
 ;
 /
 /
-Mark
+Trace
 locals
 and
 stack
@@ -566,7 +566,7 @@ locals
 are
 live
 .
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -581,11 +581,11 @@ else
 {
 /
 /
-Mark
+Trace
 operand
 stack
 .
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -623,11 +623,11 @@ setUndefined
 ;
 /
 /
-Mark
+Trace
 live
 locals
 .
-MarkLocals
+TraceLocals
 (
 this
 trc
@@ -659,7 +659,7 @@ compartment
 debugEnvs
 -
 >
-markLiveFrame
+traceLiveFrame
 (
 trc
 this

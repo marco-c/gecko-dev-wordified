@@ -959,7 +959,7 @@ JSObject
 )
 >
 void
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
@@ -3843,7 +3843,7 @@ obj
 )
 ;
 void
-markCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
@@ -5788,7 +5788,7 @@ object
 Debugger
 :
 :
-markAllIteratively
+markIteratively
 handles
 the
 last
@@ -5798,8 +5798,8 @@ If
 it
 finds
 any
-*
 Debugger
+*
 objects
 that
 are
@@ -5811,9 +5811,9 @@ yet
 marked
 it
 marks
-*
 them
 and
+*
 returns
 true
 .
@@ -5827,7 +5827,7 @@ false
 /
 static
 void
-markIncomingCrossCompartmentEdges
+traceIncomingCrossCompartmentEdges
 (
 JSTracer
 *
@@ -5837,16 +5837,16 @@ tracer
 static
 MOZ_MUST_USE
 bool
-markAllIteratively
+markIteratively
 (
 GCMarker
 *
-trc
+marker
 )
 ;
 static
 void
-markAll
+traceAll
 (
 JSTracer
 *
@@ -11287,7 +11287,7 @@ live
 Debugger
 :
 :
-markAllIteratively
+markIteratively
 implements
 these
 two

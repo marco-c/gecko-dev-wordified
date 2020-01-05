@@ -1547,7 +1547,7 @@ ForOfPIC
 Chain
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -1836,7 +1836,7 @@ NativeObject
 chain
 -
 >
-mark
+trace
 (
 trc
 )

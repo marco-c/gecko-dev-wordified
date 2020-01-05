@@ -692,8 +692,13 @@ str
 ;
 /
 *
+Trace
+all
 GC
-marking
+things
+reachable
+from
+parser
 .
 Defined
 in
@@ -704,7 +709,7 @@ cpp
 *
 /
 void
-MarkParser
+TraceParser
 (
 JSTracer
 *

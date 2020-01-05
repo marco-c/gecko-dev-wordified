@@ -18854,7 +18854,7 @@ void
 JSRuntime
 :
 :
-markSelfHostingGlobal
+traceSelfHostingGlobal
 (
 JSTracer
 *

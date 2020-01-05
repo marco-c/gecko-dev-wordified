@@ -5955,7 +5955,7 @@ js
 frontend
 :
 :
-MarkParser
+TraceParser
 (
 JSTracer
 *

@@ -292,7 +292,7 @@ void
 WeakMapBase
 :
 :
-markAll
+traceZone
 (
 JS
 :
@@ -365,9 +365,9 @@ JS
 Zone
 *
 zone
-JSTracer
+GCMarker
 *
-tracer
+marker
 )
 {
 bool
@@ -398,9 +398,9 @@ marked
 m
 -
 >
-traceEntries
+markIteratively
 (
-tracer
+marker
 )
 )
 markedAny

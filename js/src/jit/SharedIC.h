@@ -4647,7 +4647,7 @@ Updated
 }
 ;
 void
-markCode
+traceCode
 (
 JSTracer
 *

@@ -726,7 +726,7 @@ HashableValue
 HashableValue
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -1995,7 +1995,7 @@ nullptr
 /
 /
 construct
-mark
+trace
 }
 ;
 const
@@ -2278,7 +2278,7 @@ Range
 >
 static
 void
-MarkKey
+TraceKey
 (
 Range
 &
@@ -2297,7 +2297,7 @@ newKey
 =
 key
 .
-mark
+trace
 (
 trc
 )
@@ -2364,7 +2364,7 @@ void
 MapObject
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -2424,7 +2424,7 @@ popFront
 )
 )
 {
-MarkKey
+TraceKey
 (
 r
 r
@@ -4723,10 +4723,10 @@ args
 MapObject
 :
 :
-mark
+trace
 does
 not
-mark
+trace
 deleted
 entries
 .
@@ -6500,7 +6500,7 @@ nullptr
 /
 /
 construct
-mark
+trace
 }
 ;
 const
@@ -7110,7 +7110,7 @@ void
 SetObject
 :
 :
-mark
+trace
 (
 JSTracer
 *
@@ -7175,7 +7175,7 @@ popFront
 (
 )
 )
-MarkKey
+TraceKey
 (
 r
 r

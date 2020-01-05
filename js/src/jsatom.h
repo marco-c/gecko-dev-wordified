@@ -1232,7 +1232,7 @@ hooks
 *
 /
 void
-MarkAtoms
+TraceAtoms
 (
 JSTracer
 *
@@ -1243,7 +1243,7 @@ lock
 )
 ;
 void
-MarkPermanentAtoms
+TracePermanentAtoms
 (
 JSTracer
 *
@@ -1251,7 +1251,7 @@ trc
 )
 ;
 void
-MarkWellKnownSymbols
+TraceWellKnownSymbols
 (
 JSTracer
 *

@@ -6140,7 +6140,7 @@ ei
 public
 :
 void
-mark
+trace
 (
 JSTracer
 *
@@ -6196,7 +6196,7 @@ not
 collected
 .
 void
-markLiveFrame
+traceLiveFrame
 (
 JSTracer
 *

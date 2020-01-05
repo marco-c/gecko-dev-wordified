@@ -3433,7 +3433,7 @@ void
 JitRuntime
 :
 :
-Mark
+Trace
 (
 JSTracer
 *
@@ -3582,7 +3582,7 @@ void
 JitRuntime
 :
 :
-MarkJitcodeGlobalTableUnconditionally
+TraceJitcodeGlobalTable
 (
 JSTracer
 *
@@ -3655,7 +3655,7 @@ getJitcodeGlobalTable
 )
 -
 >
-markUnconditionally
+trace
 (
 trc
 )
@@ -3673,14 +3673,14 @@ JitRuntime
 :
 MarkJitcodeGlobalTableIteratively
 (
-JSTracer
+GCMarker
 *
-trc
+marker
 )
 {
 if
 (
-trc
+marker
 -
 >
 runtime
@@ -3693,7 +3693,7 @@ hasJitRuntime
 )
 &
 &
-trc
+marker
 -
 >
 runtime
@@ -3712,7 +3712,7 @@ hasJitcodeGlobalTable
 )
 {
 return
-trc
+marker
 -
 >
 runtime
@@ -3732,7 +3732,7 @@ getJitcodeGlobalTable
 >
 markIteratively
 (
-trc
+marker
 )
 ;
 }
@@ -3801,7 +3801,7 @@ void
 JitCompartment
 :
 :
-mark
+trace
 (
 JSTracer
 *

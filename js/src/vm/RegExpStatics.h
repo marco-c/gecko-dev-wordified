@@ -566,7 +566,7 @@ pendingInput
 ;
 }
 void
-mark
+trace
 (
 JSTracer
 *

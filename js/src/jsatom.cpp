@@ -1388,7 +1388,7 @@ void
 js
 :
 :
-MarkAtoms
+TraceAtoms
 (
 JSTracer
 *
@@ -1511,7 +1511,7 @@ void
 js
 :
 :
-MarkPermanentAtoms
+TracePermanentAtoms
 (
 JSTracer
 *
@@ -1537,7 +1537,7 @@ only
 need
 to
 be
-marked
+traced
 in
 the
 runtime
@@ -1663,7 +1663,7 @@ void
 js
 :
 :
-MarkWellKnownSymbols
+TraceWellKnownSymbols
 (
 JSTracer
 *

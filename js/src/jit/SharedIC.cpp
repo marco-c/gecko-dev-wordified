@@ -1196,7 +1196,7 @@ void
 ICStub
 :
 :
-markCode
+traceCode
 (
 JSTracer
 *
@@ -1280,7 +1280,7 @@ JSTracer
 trc
 )
 {
-markCode
+traceCode
 (
 trc
 "
@@ -1303,7 +1303,7 @@ monitored
 fallback
 stub
 then
-mark
+trace
 the
 monitor
 ICs
@@ -5222,9 +5222,9 @@ again
 .
 However
 if
+/
+/
 this
-/
-/
 stub
 can
 make
@@ -5240,10 +5240,10 @@ in
 a
 stub
 frame
+/
+/
 on
 the
-/
-/
 stack
 so
 we
@@ -5258,10 +5258,10 @@ GC
 will
 crash
 when
-marking
+/
+/
+tracing
 this
-/
-/
 pointer
 .
 if

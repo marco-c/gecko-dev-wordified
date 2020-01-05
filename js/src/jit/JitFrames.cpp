@@ -1725,7 +1725,7 @@ used
 by
 GCs
 for
-marking
+tracing
 call
 -
 sites
@@ -5806,7 +5806,7 @@ it
 s
 ignored
 by
-MarkJitExitFrame
+TraceJitExitFrame
 .
 void
 EnsureBareExitFrame
@@ -6011,7 +6011,7 @@ isBareExit
 ;
 }
 CalleeToken
-MarkCalleeToken
+TraceCalleeToken
 (
 JSTracer
 *
@@ -6248,7 +6248,7 @@ a
 endif
 static
 void
-MarkThisAndArguments
+TraceThisAndArguments
 (
 JSTracer
 *
@@ -6261,7 +6261,7 @@ frame
 {
 /
 /
-Mark
+Trace
 |
 this
 |
@@ -6275,10 +6275,10 @@ an
 Ion
 frame
 .
-Marking
+Tracinging
+/
+/
 of
-/
-/
 formal
 arguments
 is
@@ -6311,7 +6311,7 @@ case
 /
 /
 we
-mark
+trace
 them
 as
 well
@@ -6320,15 +6320,15 @@ We
 also
 have
 to
-mark
+trace
 formals
 if
 we
 have
 a
+/
+/
 LazyLink
-/
-/
 frame
 .
 JitFrameLayout
@@ -6545,7 +6545,7 @@ argv
 /
 /
 Always
-mark
+trace
 the
 new
 .
@@ -6685,7 +6685,7 @@ value
 endif
 static
 void
-MarkIonJSFrame
+TraceIonJSFrame
 (
 JSTracer
 *
@@ -6715,7 +6715,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -6807,7 +6807,7 @@ ionScriptFromCalleeToken
 )
 ;
 }
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -7188,7 +7188,7 @@ endif
 }
 static
 void
-MarkBailoutFrame
+TraceBailoutFrame
 (
 JSTracer
 *
@@ -7218,7 +7218,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -7235,7 +7235,7 @@ calleeToken
 We
 have
 to
-mark
+trace
 the
 list
 of
@@ -7253,7 +7253,7 @@ in
 the
 Snapshot
 .
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -7768,7 +7768,7 @@ slots
 }
 static
 void
-MarkJitStubFrame
+TraceJitStubFrame
 (
 JSTracer
 *
@@ -7781,7 +7781,7 @@ frame
 {
 /
 /
-Mark
+Trace
 the
 ICStub
 pointer
@@ -7883,7 +7883,7 @@ trc
 }
 static
 void
-MarkIonAccessorICFrame
+TraceIonAccessorICFrame
 (
 JSTracer
 *
@@ -7994,7 +7994,7 @@ address
 }
 static
 void
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 JSTracer
 *
@@ -8182,7 +8182,7 @@ double
 else
 static
 void
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 JSTracer
 *
@@ -8212,7 +8212,7 @@ platforms
 endif
 static
 void
-MarkJitExitFrame
+TraceJitExitFrame
 (
 JSTracer
 *
@@ -8240,7 +8240,7 @@ footer
 ;
 /
 /
-Mark
+Trace
 the
 code
 of
@@ -8262,7 +8262,7 @@ script
 are
 no
 longer
-marked
+traced
 because
 data
 are
@@ -8353,7 +8353,7 @@ call
 We
 need
 to
-mark
+trace
 the
 argument
 /
@@ -8630,7 +8630,7 @@ The
 fields
 that
 need
-marking
+tracing
 are
 all
 in
@@ -9083,7 +9083,7 @@ layout
 >
 replaceCalleeToken
 (
-MarkCalleeToken
+TraceCalleeToken
 (
 trc
 layout
@@ -9095,7 +9095,7 @@ calleeToken
 )
 )
 ;
-MarkThisAndArguments
+TraceThisAndArguments
 (
 trc
 frame
@@ -9117,7 +9117,7 @@ isBareExit
 /
 Nothing
 to
-mark
+trace
 .
 Fake
 exit
@@ -9131,7 +9131,7 @@ with
 /
 nothing
 to
-mark
+trace
 on
 the
 stack
@@ -9180,7 +9180,7 @@ return
 ;
 /
 /
-Mark
+Trace
 arguments
 of
 the
@@ -9677,7 +9677,7 @@ break
 ;
 }
 }
-MarkJitExitFrameCopiedArguments
+TraceJitExitFrameCopiedArguments
 (
 trc
 f
@@ -9687,7 +9687,7 @@ footer
 }
 static
 void
-MarkRectifierFrame
+TraceRectifierFrame
 (
 JSTracer
 *
@@ -9700,7 +9700,7 @@ frame
 {
 /
 /
-Mark
+Trace
 thisv
 .
 /
@@ -9772,7 +9772,7 @@ thisv
 }
 static
 void
-MarkJitActivation
+TraceJitActivation
 (
 JSTracer
 *
@@ -9851,7 +9851,7 @@ endif
 activation
 -
 >
-markRematerializedFrames
+traceRematerializedFrames
 (
 trc
 )
@@ -9859,7 +9859,7 @@ trc
 activation
 -
 >
-markIonRecovery
+traceIonRecovery
 (
 trc
 )
@@ -9896,7 +9896,7 @@ type
 case
 JitFrame_Exit
 :
-MarkJitExitFrame
+TraceJitExitFrame
 (
 trc
 frames
@@ -9925,7 +9925,7 @@ break
 case
 JitFrame_IonJS
 :
-MarkIonJSFrame
+TraceIonJSFrame
 (
 trc
 frames
@@ -9939,7 +9939,7 @@ JitFrame_BaselineStub
 case
 JitFrame_IonStub
 :
-MarkJitStubFrame
+TraceJitStubFrame
 (
 trc
 frames
@@ -9950,7 +9950,7 @@ break
 case
 JitFrame_Bailout
 :
-MarkBailoutFrame
+TraceBailoutFrame
 (
 trc
 frames
@@ -9961,7 +9961,7 @@ break
 case
 JitFrame_Rectifier
 :
-MarkRectifierFrame
+TraceRectifierFrame
 (
 trc
 frames
@@ -9972,7 +9972,7 @@ break
 case
 JitFrame_IonAccessorIC
 :
-MarkIonAccessorICFrame
+TraceIonAccessorICFrame
 (
 trc
 frames
@@ -9995,7 +9995,7 @@ type
 }
 }
 void
-MarkJitActivations
+TraceJitActivations
 (
 JSRuntime
 *
@@ -10024,7 +10024,7 @@ done
 +
 activations
 )
-MarkJitActivation
+TraceJitActivation
 (
 trc
 activations
@@ -12792,7 +12792,7 @@ the
 JS
 Value
 while
-marking
+tracing
 again
 or
 when

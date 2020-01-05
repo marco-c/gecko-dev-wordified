@@ -4627,7 +4627,7 @@ finishSelfHosting
 )
 ;
 void
-markSelfHostingGlobal
+traceSelfHostingGlobal
 (
 JSTracer
 *

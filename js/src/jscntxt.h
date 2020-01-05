@@ -3352,7 +3352,7 @@ mallocSizeOf
 const
 ;
 void
-mark
+trace
 (
 JSTracer
 *
