@@ -13828,11 +13828,6 @@ frame
 script
 (
 )
--
->
-compartment
-(
-)
 )
 ;
 /

@@ -8339,7 +8339,7 @@ the
 oldest
 frame
 .
-AutoCompartment
+AutoCompartmentUnchecked
 ac
 (
 cx
@@ -8486,7 +8486,7 @@ cx
 )
 ;
 {
-AutoCompartment
+AutoCompartmentUnchecked
 ac
 (
 cx

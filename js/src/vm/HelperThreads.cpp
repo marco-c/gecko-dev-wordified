@@ -2095,14 +2095,9 @@ zone
 cx
 -
 >
-enterCompartment
+enterCompartmentOf
 (
 exclusiveContextGlobal
--
->
-compartment
-(
-)
 )
 ;
 }

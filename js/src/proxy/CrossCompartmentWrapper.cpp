@@ -3748,11 +3748,11 @@ cx
 newTarget
 )
 ;
-AutoCompartment
+AutoCompartmentUnchecked
 ac
 (
 cx
-wobj
+wcompartment
 )
 ;
 if

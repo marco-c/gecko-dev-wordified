@@ -3647,11 +3647,6 @@ ac
 (
 cx
 group
--
->
-compartment
-(
-)
 )
 ;
 group
