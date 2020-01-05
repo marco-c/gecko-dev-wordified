@@ -522,15 +522,6 @@ mLocalRootPath
 bool
 mShutdown
 ;
-#
-ifdef
-DEBUG
-PRThread
-*
-mOwningThread
-;
-#
-endif
 }
 ;
 }

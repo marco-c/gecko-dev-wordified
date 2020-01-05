@@ -2539,15 +2539,6 @@ nsString
 >
 mGroupStack
 ;
-#
-ifdef
-DEBUG
-PRThread
-*
-mOwningThread
-;
-#
-endif
 uint64_t
 mOuterID
 ;
