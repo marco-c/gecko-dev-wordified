@@ -186,6 +186,14 @@ net
 #
 !
 [
+feature
+(
+old_io
+)
+]
+#
+!
+[
 allow
 (
 non_snake_case
