@@ -47388,16 +47388,6 @@ path
 return
 ;
 }
-new
-Promise
-(
-(
-resolve
-reject
-)
-=
->
-{
 AddonManager
 .
 getInstallForFile
@@ -47411,10 +47401,6 @@ entry
 .
 path
 )
-resolve
-)
-;
-}
 )
 .
 then
