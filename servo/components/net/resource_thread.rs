@@ -1332,6 +1332,7 @@ NetworkError
 SslValidation
 (
 url
+reason
 )
 )
 =
@@ -1346,6 +1347,7 @@ NetworkError
 SslValidation
 (
 url
+reason
 )
 ;
 target
