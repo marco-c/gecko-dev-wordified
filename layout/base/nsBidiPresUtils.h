@@ -286,6 +286,9 @@ chain
 nsIFrame
 *
 mFirstVisualFrame
+{
+nullptr
+}
 ;
 /
 *
@@ -322,6 +325,9 @@ otherwise
 /
 uint32_t
 mFrameCount
+{
+0
+}
 ;
 /
 *
@@ -359,6 +365,9 @@ lines
 /
 bool
 mHasContOnPrevLines
+{
+false
+}
 ;
 /
 *
@@ -396,6 +405,9 @@ lines
 /
 bool
 mHasContOnNextLines
+{
+false
+}
 ;
 }
 ;
