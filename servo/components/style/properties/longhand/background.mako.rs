@@ -1566,6 +1566,11 @@ content
 -
 box
 "
+extra_gecko_values
+=
+"
+text
+"
 vector
 =
 True
