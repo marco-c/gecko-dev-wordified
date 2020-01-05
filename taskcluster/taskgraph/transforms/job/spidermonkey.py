@@ -101,7 +101,7 @@ import
     
 docker_worker_add_public_artifacts
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 )
 sm_run_schema
 =
@@ -559,7 +559,7 @@ manifest
 '
 ]
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 (
 config
 job

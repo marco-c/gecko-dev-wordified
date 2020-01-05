@@ -105,7 +105,7 @@ docker_worker_add_tc_vcs_cache
     
 docker_worker_add_gecko_vcs_env_vars
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 )
 from
 taskgraph
@@ -659,7 +659,7 @@ job
 taskdesc
 )
     
-docker_worker_support_vcs_checkout
+support_vcs_checkout
 (
 config
 job

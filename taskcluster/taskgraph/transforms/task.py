@@ -5120,11 +5120,15 @@ expires
     
 }
 worker
-[
+.
+get
+(
 '
 artifacts
 '
+[
 ]
+)
 )
     
 task_def
@@ -5174,11 +5178,14 @@ reboot
 '
 :
 worker
-[
+.
+get
+(
 '
 reboot
 '
-]
+False
+)
         
 '
 artifacts
