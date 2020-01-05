@@ -2147,7 +2147,10 @@ aCompositable
 InitIPDLActor
 (
 child
+CompositableHandle
+(
 id
+)
 )
 ;
 }
@@ -2157,8 +2160,10 @@ ImageBridgeChild
 :
 ForgetImageContainer
 (
-uint64_t
-aAsyncContainerID
+const
+CompositableHandle
+&
+aHandle
 )
 {
 MutexAutoLock
@@ -2171,7 +2176,11 @@ mImageContainers
 .
 Remove
 (
-aAsyncContainerID
+aHandle
+.
+Value
+(
+)
 )
 ;
 }

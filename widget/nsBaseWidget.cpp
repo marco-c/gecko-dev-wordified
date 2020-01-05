@@ -14054,7 +14054,11 @@ return
 mScrollCaptureContainer
 -
 >
-GetAsyncContainerID
+GetAsyncContainerHandle
+(
+)
+.
+Value
 (
 )
 ;
