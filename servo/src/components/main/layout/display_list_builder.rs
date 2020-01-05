@@ -73,7 +73,10 @@ layout
 box
 :
 :
+{
 RenderBox
+RenderBoxUtils
+}
 ;
 use
 layout
@@ -170,6 +173,7 @@ new
 (
 box
 :
+&
 RenderBox
 )
 -
@@ -198,6 +202,7 @@ new
 (
 box
 :
+&
 RenderBox
 )
 -
@@ -214,9 +219,11 @@ transmute
 (
 box
 .
-node
+base
 (
 )
+.
+node
 )
 }
 }
@@ -231,6 +238,7 @@ new
 (
 _
 :
+&
 RenderBox
 )
 -
@@ -251,12 +259,14 @@ new
 (
 box
 :
+&
 RenderBox
 )
 -
 >
 RenderBox
 {
+*
 box
 }
 }
