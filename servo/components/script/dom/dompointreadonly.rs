@@ -370,7 +370,7 @@ DOMPointReadOnly
 {
 /
 /
-http
+https
 :
 /
 /
@@ -412,7 +412,7 @@ get
 }
 /
 /
-http
+https
 :
 /
 /
@@ -454,7 +454,7 @@ get
 }
 /
 /
-http
+https
 :
 /
 /
@@ -496,7 +496,7 @@ get
 }
 /
 /
-http
+https
 :
 /
 /

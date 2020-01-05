@@ -727,7 +727,7 @@ CSSStyleDeclaration
 {
 /
 /
-http
+https
 :
 /
 /
@@ -831,7 +831,7 @@ u32
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1018,7 +1018,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1243,7 +1243,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1420,7 +1420,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -1793,7 +1793,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -2071,7 +2071,7 @@ Ok
 }
 /
 /
-http
+https
 :
 /
 /
@@ -2122,7 +2122,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -2309,7 +2309,7 @@ value
 }
 /
 /
-http
+https
 :
 /
 /
@@ -2353,7 +2353,7 @@ to_owned
 }
 /
 /
-http
+https
 :
 /
 /
@@ -2401,7 +2401,7 @@ value
 }
 /
 /
-http
+https
 :
 /
 /

@@ -56,6 +56,17 @@ MPL
 .
 *
 /
+/
+/
+check
+-
+tidy
+:
+no
+specs
+after
+this
+line
 use
 dom
 :

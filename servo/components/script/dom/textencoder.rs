@@ -577,6 +577,13 @@ clone
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -597,13 +604,6 @@ dom
 textencoder
 -
 encode
-#
-[
-allow
-(
-unsafe_code
-)
-]
 fn
 Encode
 (

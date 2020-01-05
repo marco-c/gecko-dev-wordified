@@ -5516,6 +5516,13 @@ Ok
 }
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -5536,13 +5543,6 @@ the
 response
 -
 attribute
-#
-[
-allow
-(
-unsafe_code
-)
-]
 fn
 Response
 (

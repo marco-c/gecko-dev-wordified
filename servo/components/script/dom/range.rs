@@ -945,7 +945,7 @@ Range
 {
 /
 /
-http
+https
 :
 /
 /
@@ -993,8 +993,7 @@ node
 }
 /
 /
-/
-http
+https
 :
 /
 /
@@ -1037,8 +1036,7 @@ offset
 }
 /
 /
-/
-http
+https
 :
 /
 /
@@ -1086,8 +1084,7 @@ node
 }
 /
 /
-/
-http
+https
 :
 /
 /
@@ -3942,7 +3939,7 @@ fragment
 }
 /
 /
-http
+https
 :
 /
 /
