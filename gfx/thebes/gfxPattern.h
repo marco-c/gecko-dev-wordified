@@ -460,11 +460,6 @@ ExtendMode
 aExtend
 )
 ;
-int
-CairoStatus
-(
-)
-;
 void
 SetSamplingFilter
 (

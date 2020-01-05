@@ -4909,14 +4909,6 @@ if
 (
 !
 pattern
-|
-|
-pattern
--
->
-CairoStatus
-(
-)
 )
 return
 nullptr
