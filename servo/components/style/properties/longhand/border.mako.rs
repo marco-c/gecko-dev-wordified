@@ -1962,6 +1962,9 @@ Either
 Second
 (
 Number
+:
+:
+new
 (
 0
 .
@@ -3983,6 +3986,9 @@ SingleSpecifiedValue
 Number
 (
 Number
+:
+:
+new
 (
 1
 .

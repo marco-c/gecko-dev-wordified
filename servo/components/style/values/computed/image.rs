@@ -3783,7 +3783,7 @@ to_computed_value
 (
 &
 self
-_
+context
 :
 &
 Context
@@ -3812,6 +3812,9 @@ AngleOrCorner
 Angle
 (
 Angle
+:
+:
+from_radians
 (
 PI
 )
@@ -3836,6 +3839,11 @@ AngleOrCorner
 Angle
 (
 angle
+.
+to_computed_value
+(
+context
+)
 )
 }
 specified
@@ -3877,6 +3885,9 @@ AngleOrCorner
 Angle
 (
 Angle
+:
+:
+from_radians
 (
 0
 .
@@ -3903,6 +3914,9 @@ AngleOrCorner
 Angle
 (
 Angle
+:
+:
+from_radians
 (
 PI
 *
@@ -3931,6 +3945,9 @@ AngleOrCorner
 Angle
 (
 Angle
+:
+:
+from_radians
 (
 PI
 )
@@ -3955,6 +3972,9 @@ AngleOrCorner
 Angle
 (
 Angle
+:
+:
+from_radians
 (
 PI
 *
@@ -4027,6 +4047,7 @@ AngleOrCorner
 :
 Angle
 (
+ref
 angle
 )
 =
@@ -4040,7 +4061,16 @@ AngleOrCorner
 :
 Angle
 (
+specified
+:
+:
+Angle
+:
+:
+from_computed_value
+(
 angle
+)
 )
 }
 AngleOrCorner

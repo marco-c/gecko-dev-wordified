@@ -4083,13 +4083,9 @@ SpecifiedValue
 horizontal
 :
 width_value
-.
-clone
-(
-)
 vertical
 :
-width_value
+None
 }
 )
 )
