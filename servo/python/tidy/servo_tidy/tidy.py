@@ -5681,6 +5681,9 @@ collect_errors_for_files
 files_to_check
 checking_functions
 line_checking_functions
+print_text
+=
+True
 )
 :
     
@@ -5702,6 +5705,10 @@ has_element
 raise
 StopIteration
     
+if
+print_text
+:
+        
 print
 '
 \
