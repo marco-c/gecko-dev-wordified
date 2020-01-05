@@ -658,6 +658,14 @@ kwargs
 )
 :
         
+self
+.
+context
+.
+activate_mozharness_venv
+(
+)
+        
 return
 run_mochitest
 (
