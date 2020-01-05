@@ -1316,9 +1316,9 @@ lir
 ;
 virtual
 void
-visitAsmJSPassStackArgI64
+visitWasmStackArgI64
 (
-LAsmJSPassStackArgI64
+LWasmStackArgI64
 *
 lir
 )
@@ -1907,9 +1907,9 @@ ins
 )
 ;
 void
-visitAsmJSPassStackArg
+visitWasmStackArg
 (
-LAsmJSPassStackArg
+LWasmStackArg
 *
 ins
 )

@@ -29668,9 +29668,9 @@ void
 LIRGenerator
 :
 :
-visitAsmJSParameter
+visitWasmParameter
 (
-MAsmJSParameter
+MWasmParameter
 *
 ins
 )
@@ -29717,7 +29717,7 @@ alloc
 (
 )
 )
-LAsmJSParameterI64
+LWasmParameterI64
 ins
 LInt64Allocation
 (
@@ -29763,7 +29763,7 @@ alloc
 (
 )
 )
-LAsmJSParameter
+LWasmParameter
 ins
 LAllocation
 (
@@ -29812,7 +29812,7 @@ alloc
 (
 )
 )
-LAsmJSParameterI64
+LWasmParameterI64
 ins
 #
 if
@@ -29895,7 +29895,7 @@ alloc
 (
 )
 )
-LAsmJSParameter
+LWasmParameter
 ins
 LArgument
 (
@@ -30262,9 +30262,9 @@ void
 LIRGenerator
 :
 :
-visitAsmJSPassStackArg
+visitWasmStackArg
 (
-MAsmJSPassStackArg
+MWasmStackArg
 *
 ins
 )
@@ -30298,7 +30298,7 @@ alloc
 (
 )
 )
-LAsmJSPassStackArgI64
+LWasmStackArgI64
 (
 useInt64OrConstantAtStart
 (
@@ -30373,7 +30373,7 @@ alloc
 (
 )
 )
-LAsmJSPassStackArg
+LWasmStackArg
 (
 useRegisterAtStart
 (
@@ -30399,7 +30399,7 @@ alloc
 (
 )
 )
-LAsmJSPassStackArg
+LWasmStackArg
 (
 useRegisterOrConstantAtStart
 (

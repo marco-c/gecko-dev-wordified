@@ -748,7 +748,7 @@ updated
 .
 Vector
 <
-MAsmJSPassStackArg
+MWasmStackArg
 *
 0
 SystemAllocPolicy
@@ -1046,7 +1046,7 @@ the
 current
 function
 .
-MAsmJSParameter
+MWasmParameter
 *
 tlsPointer_
 ;
@@ -1348,11 +1348,11 @@ i
 +
 )
 {
-MAsmJSParameter
+MWasmParameter
 *
 ins
 =
-MAsmJSParameter
+MWasmParameter
 :
 :
 New
@@ -1426,7 +1426,7 @@ argument
 .
 tlsPointer_
 =
-MAsmJSParameter
+MWasmParameter
 :
 :
 New
@@ -6077,7 +6077,7 @@ auto
 *
 mir
 =
-MAsmJSPassStackArg
+MWasmStackArg
 :
 :
 New
@@ -6409,7 +6409,7 @@ AsmJSStackAlignment
 ;
 for
 (
-MAsmJSPassStackArg
+MWasmStackArg
 *
 stackArg
 :

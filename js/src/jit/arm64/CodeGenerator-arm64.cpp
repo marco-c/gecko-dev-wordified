@@ -2517,9 +2517,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSPassStackArg
+visitWasmStackArg
 (
-LAsmJSPassStackArg
+LWasmStackArg
 *
 ins
 )
@@ -2527,7 +2527,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSPassStackArg
+visitWasmStackArg
 "
 )
 ;

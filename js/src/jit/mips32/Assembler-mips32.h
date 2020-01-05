@@ -223,7 +223,7 @@ expects
 to
 lower
 an
-MAsmJSParameter
+MWasmParameter
 to
 only
 one

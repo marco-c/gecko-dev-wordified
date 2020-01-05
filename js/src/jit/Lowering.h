@@ -2287,9 +2287,9 @@ ins
 )
 ;
 void
-visitAsmJSParameter
+visitWasmParameter
 (
-MAsmJSParameter
+MWasmParameter
 *
 ins
 )
@@ -2311,9 +2311,9 @@ ins
 )
 ;
 void
-visitAsmJSPassStackArg
+visitWasmStackArg
 (
-MAsmJSPassStackArg
+MWasmStackArg
 *
 ins
 )
