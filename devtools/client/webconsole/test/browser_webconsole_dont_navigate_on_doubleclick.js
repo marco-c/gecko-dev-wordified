@@ -373,7 +373,7 @@ click
 function
 onClick
 (
-aEvent
+event
 )
 {
 urlNode
@@ -388,7 +388,7 @@ onClick
 ;
 ok
 (
-aEvent
+event
 .
 defaultPrevented
 "
