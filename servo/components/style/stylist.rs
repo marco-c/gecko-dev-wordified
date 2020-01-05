@@ -4603,6 +4603,13 @@ normal
 relations
 )
 ;
+if
+pseudo_element
+.
+is_none
+(
+)
+{
 /
 /
 Step
@@ -4698,6 +4705,7 @@ preshints
 relations
 )
 ;
+}
 if
 element
 .
