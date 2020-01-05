@@ -72,12 +72,12 @@ layout
 Using
 this
 abstract
+/
+/
+!
 interface
 helps
 reduce
-/
-/
-/
 coupling
 between
 these
@@ -85,6 +85,9 @@ two
 components
 and
 enables
+/
+/
+!
 the
 DOM
 to
@@ -94,9 +97,6 @@ in
 a
 separate
 crate
-/
-/
-/
 from
 layout
 .
