@@ -193,7 +193,7 @@ console
 or
 something
 .
-info
+error
 !
 (
 "
