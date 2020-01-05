@@ -5663,6 +5663,17 @@ LargeAllocStatus
 aStatus
 )
 ;
+bool
+IsTopLevelWindow
+(
+)
+;
+bool
+HadOriginalOpener
+(
+)
+const
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
