@@ -1277,6 +1277,14 @@ MediaCodec
 INFO_OUTPUT_FORMAT_CHANGED
 )
 {
+mOutputBuffers
+=
+mCodec
+.
+getOutputBuffers
+(
+)
+;
 mCallbackSender
 .
 notifyOutputFormat
