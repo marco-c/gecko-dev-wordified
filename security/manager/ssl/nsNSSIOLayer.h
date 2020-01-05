@@ -1059,9 +1059,6 @@ nsACString
 hostname
 )
 ;
-bool
-mFalseStartRequireNPN
-;
 uint16_t
 mVersionFallbackLimit
 ;
