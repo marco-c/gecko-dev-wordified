@@ -17356,10 +17356,6 @@ elementsToCheck
 i
 ]
 sc
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :

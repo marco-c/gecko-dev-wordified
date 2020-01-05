@@ -638,10 +638,6 @@ aParentContext
 mozilla
 :
 :
-ConsumeStyleBehavior
-mozilla
-:
-:
 LazyComputeBehavior
 )
 {
@@ -694,11 +690,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-mozilla
-:
-:
-ConsumeStyleBehavior
-aConsume
 mozilla
 :
 :

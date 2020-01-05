@@ -3594,10 +3594,6 @@ AsElement
 (
 )
 nullptr
-ConsumeStyleBehavior
-:
-:
-DontConsume
 LazyComputeBehavior
 :
 :

@@ -744,8 +744,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )
@@ -760,7 +758,6 @@ CSSPseudoElementType
 :
 :
 NotPseudo
-aConsume
 aMayCompute
 )
 ;
@@ -785,8 +782,6 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 )
@@ -835,7 +830,6 @@ Servo_ResolveStyleLazily
 (
 element
 nullptr
-aConsume
 mRawSet
 .
 get
@@ -855,7 +849,6 @@ computedValues
 ResolveServoStyle
 (
 element
-aConsume
 )
 ;
 }
@@ -972,8 +965,6 @@ aElement
 nsStyleContext
 *
 aParentContext
-ConsumeStyleBehavior
-aConsume
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext
@@ -1021,7 +1012,6 @@ ResolveStyleFor
 (
 aElement
 aParentContext
-aConsume
 aMayCompute
 )
 ;
@@ -1491,10 +1481,6 @@ Servo_ResolveStyleLazily
 (
 aElement
 pseudoTag
-ConsumeStyleBehavior
-:
-:
-DontConsume
 mRawSet
 .
 get
@@ -1931,6 +1917,16 @@ aSheet
 MOZ_ASSERT
 (
 aSheet
+)
+;
+MOZ_ASSERT
+(
+aSheet
+-
+>
+IsApplicable
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -2417,16 +2413,6 @@ nsIDocument
 aDocument
 )
 {
-MOZ_ASSERT
-(
-aSheet
--
->
-IsApplicable
-(
-)
-)
-;
 RefPtr
 <
 StyleSheet
@@ -3222,8 +3208,6 @@ ResolveServoStyle
 Element
 *
 aElement
-ConsumeStyleBehavior
-aConsume
 )
 {
 return
@@ -3235,7 +3219,6 @@ mRawSet
 get
 (
 )
-aConsume
 )
 .
 Consume
