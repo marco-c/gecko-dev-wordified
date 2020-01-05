@@ -1116,6 +1116,8 @@ doStartURLLoad
 nsIRequest
 *
 request
+int32_t
+aExtraFlags
 )
 ;
 void
