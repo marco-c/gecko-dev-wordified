@@ -244,6 +244,18 @@ dom
 bindings
 :
 :
+str
+:
+:
+USVString
+;
+use
+dom
+:
+:
+bindings
+:
+:
 trace
 :
 :
@@ -1532,7 +1544,7 @@ data
 :
 Option
 <
-DOMString
+USVString
 >
 )
 -
@@ -1741,6 +1753,8 @@ data
 unwrap
 (
 )
+.
+0
 )
 )
 ;
@@ -1765,7 +1779,7 @@ reason
 :
 Option
 <
-DOMString
+USVString
 >
 )
 -
@@ -1844,6 +1858,8 @@ reason
 {
 if
 reason
+.
+0
 .
 as_bytes
 (
@@ -2102,6 +2118,8 @@ borrow_mut
 )
 =
 reason
+.
+0
 ;
 }
 self
