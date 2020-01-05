@@ -17613,7 +17613,7 @@ IPCResult
 PluginModuleParent
 :
 :
-AnswerGetKeyState
+RecvGetKeyState
 (
 const
 int32_t
@@ -17641,7 +17641,7 @@ IPCResult
 PluginModuleChromeParent
 :
 :
-AnswerGetKeyState
+RecvGetKeyState
 (
 const
 int32_t
@@ -17679,7 +17679,7 @@ return
 PluginModuleParent
 :
 :
-AnswerGetKeyState
+RecvGetKeyState
 (
 aVirtKey
 aRet
