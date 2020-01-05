@@ -6757,7 +6757,6 @@ FromScriptMsg
 ScrollFragmentPoint
 (
 pipeline_id
-layer_id
 point
 smooth
 )
@@ -6776,7 +6775,6 @@ ToCompositorMsg
 ScrollFragmentPoint
 (
 pipeline_id
-layer_id
 point
 smooth
 )

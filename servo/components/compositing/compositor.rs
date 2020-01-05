@@ -141,7 +141,6 @@ gfx_traits
 Epoch
 FrameTreeId
 FragmentType
-LayerId
 }
 ;
 use
@@ -3238,7 +3237,6 @@ Msg
 ScrollFragmentPoint
 (
 pipeline_id
-layer_id
 point
 _
 )
@@ -3255,7 +3253,6 @@ self
 scroll_fragment_to_point
 (
 pipeline_id
-layer_id
 point
 )
 ;
@@ -5033,9 +5030,6 @@ self
 _pipeline_id
 :
 PipelineId
-_layer_id
-:
-LayerId
 _point
 :
 Point2D
