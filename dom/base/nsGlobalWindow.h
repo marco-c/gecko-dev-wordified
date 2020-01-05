@@ -12007,13 +12007,15 @@ DisableIdleCallbackRequests
 )
 ;
 uint32_t
-IdleRequestHandle
+LastIdleRequestHandle
 (
 )
 const
 {
 return
 mIdleRequestCallbackCounter
+-
+1
 ;
 }
 nsresult
