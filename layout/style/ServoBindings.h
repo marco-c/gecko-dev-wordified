@@ -671,6 +671,13 @@ RawGeckoNodeBorrowed
 node
 )
 ;
+bool
+Gecko_FlattenedTreeParentIsParent
+(
+RawGeckoNodeBorrowed
+node
+)
+;
 RawGeckoNodeBorrowedOrNull
 Gecko_GetParentNode
 (
@@ -704,13 +711,6 @@ Gecko_GetNextSibling
 (
 RawGeckoNodeBorrowed
 node
-)
-;
-RawGeckoElementBorrowedOrNull
-Gecko_GetParentElement
-(
-RawGeckoElementBorrowed
-element
 )
 ;
 RawGeckoElementBorrowedOrNull
