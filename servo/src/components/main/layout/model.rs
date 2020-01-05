@@ -64,6 +64,14 @@ padding
 and
 margins
 .
+#
+!
+[
+deny
+(
+unsafe_block
+)
+]
 use
 layout
 :

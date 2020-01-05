@@ -62,6 +62,14 @@ MPL
 Text
 layout
 .
+#
+!
+[
+deny
+(
+unsafe_block
+)
+]
 use
 layout
 :

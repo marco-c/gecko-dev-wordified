@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+deny
+(
+unsafe_block
+)
+]
 use
 css
 :

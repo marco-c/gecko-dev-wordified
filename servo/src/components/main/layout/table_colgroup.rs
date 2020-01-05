@@ -64,6 +64,14 @@ table
 formatting
 contexts
 .
+#
+!
+[
+deny
+(
+unsafe_block
+)
+]
 use
 layout
 :
