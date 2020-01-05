@@ -6246,9 +6246,6 @@ WrState
 pipeline_id
 :
 WrPipelineId
-z_index
-:
-i32
 frame_builder
 :
 WebRenderFrameBuilder
@@ -6299,9 +6296,6 @@ WrState
 pipeline_id
 :
 pipeline_id
-z_index
-:
-0
 frame_builder
 :
 WebRenderFrameBuilder
@@ -6422,12 +6416,6 @@ clear
 (
 )
 ;
-state
-.
-z_index
-=
-0
-;
 let
 bounds
 =
@@ -6478,7 +6466,6 @@ ScrollPolicy
 :
 Scrollable
 bounds
-0
 None
 TransformStyle
 :
@@ -6727,13 +6714,6 @@ is_in_main_thread
 }
 )
 ;
-state
-.
-z_index
-+
-=
-1
-;
 let
 bounds
 =
@@ -6907,9 +6887,6 @@ ScrollPolicy
 :
 Scrollable
 bounds
-state
-.
-z_index
 Some
 (
 transform_binding

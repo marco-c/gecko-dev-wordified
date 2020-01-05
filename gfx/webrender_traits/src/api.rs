@@ -4268,7 +4268,10 @@ commands
 /
 Receives
 the
-texture_id
+texture
+id
+and
+size
 associated
 to
 the
@@ -4289,11 +4292,14 @@ self
 command
 :
 VRCompositorCommand
-texture_id
+texture
 :
 Option
 <
+(
 u32
+DeviceIntSize
+)
 >
 )
 ;

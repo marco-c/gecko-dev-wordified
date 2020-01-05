@@ -1110,10 +1110,6 @@ scroll_policy
 :
 ScrollPolicy
 pub
-z_index
-:
-i32
-pub
 transform
 :
 Option
@@ -1618,9 +1614,6 @@ new
 scroll_policy
 :
 ScrollPolicy
-z_index
-:
-i32
 transform
 :
 Option
@@ -1663,9 +1656,6 @@ StackingContext
 scroll_policy
 :
 scroll_policy
-z_index
-:
-z_index
 transform
 :
 transform
