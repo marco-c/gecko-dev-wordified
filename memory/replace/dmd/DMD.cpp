@@ -587,6 +587,11 @@ return
 gDMDFuncs
 ;
 }
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 inline
 void
 StatusMsg
@@ -11145,7 +11150,6 @@ undefined
 \
 n
 "
-e
 )
 ;
 }

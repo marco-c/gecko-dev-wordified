@@ -324,6 +324,11 @@ char
 *
 va_list
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 virtual
 void
@@ -2230,6 +2235,11 @@ pid
 Use
 sparingly
 .
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 inline
 void
 StatusMsg
