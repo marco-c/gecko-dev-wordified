@@ -839,7 +839,7 @@ GetFlowArea
 WritingMode
 aWM
 nscoord
-aBOffset
+aBCoord
 BandInfoType
 aInfoType
 nscoord
@@ -898,7 +898,7 @@ size
 nscoord
 blockStart
 =
-aBOffset
+aBCoord
 +
 mBlockStart
 ;
@@ -1058,7 +1058,7 @@ IStart
 (
 aWM
 )
-aBOffset
+aBCoord
 aContentArea
 .
 ISize
