@@ -5660,9 +5660,9 @@ nullptr
 nsresult
 Initialize
 (
-JSContext
+JSRuntime
 *
-aParentContext
+aParentRuntime
 )
 {
 nsresult
@@ -5673,7 +5673,7 @@ CycleCollectedJSContext
 :
 Initialize
 (
-aParentContext
+aParentRuntime
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
 WORKER_DEFAULT_NURSERY_SIZE
 )
@@ -6172,9 +6172,9 @@ WorkerThread
 >
 mThread
 ;
-JSContext
+JSRuntime
 *
-mParentContext
+mParentRuntime
 ;
 class
 FinishedRunnable
@@ -6243,9 +6243,9 @@ aWorkerPrivate
 WorkerThread
 *
 aThread
-JSContext
+JSRuntime
 *
-aParentContext
+aParentRuntime
 )
 :
 mWorkerPrivate
@@ -6256,9 +6256,9 @@ mThread
 (
 aThread
 )
-mParentContext
+mParentRuntime
 (
-aParentContext
+aParentRuntime
 )
 {
 MOZ_ASSERT
@@ -9476,7 +9476,7 @@ WorkerThreadPrimaryRunnable
 (
 aWorkerPrivate
 thread
-JS_GetParentContext
+JS_GetParentRuntime
 (
 cx
 )
@@ -14517,7 +14517,7 @@ context
 .
 Initialize
 (
-mParentContext
+mParentRuntime
 )
 ;
 if

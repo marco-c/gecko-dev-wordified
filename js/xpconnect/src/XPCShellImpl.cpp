@@ -9274,12 +9274,8 @@ creationOptions
 (
 )
 .
-setZone
+setNewZoneInSystemZoneGroup
 (
-JS
-:
-:
-FreshZone
 )
 ;
 if

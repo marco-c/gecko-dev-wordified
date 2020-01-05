@@ -4632,12 +4632,8 @@ creationOptions
 (
 )
 .
-setZone
+setSystemZone
 (
-JS
-:
-:
-SystemZone
 )
 ;
 options

@@ -7486,6 +7486,8 @@ can
 use
 this
 zone
+and
+group
 however
 they
 wish
@@ -7501,6 +7503,13 @@ Zone
 *
 >
 systemZone
+;
+UnprotectedData
+<
+ZoneGroup
+*
+>
+systemZoneGroup
 ;
 /
 /

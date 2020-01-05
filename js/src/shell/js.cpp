@@ -20284,9 +20284,9 @@ true
 struct
 WorkerInput
 {
-JSContext
+JSRuntime
 *
-context
+parentRuntime
 ;
 char16_t
 *
@@ -20297,9 +20297,9 @@ length
 ;
 WorkerInput
 (
-JSContext
+JSRuntime
 *
-context
+parentRuntime
 char16_t
 *
 chars
@@ -20307,9 +20307,9 @@ size_t
 length
 )
 :
-context
+parentRuntime
 (
-context
+parentRuntime
 )
 chars
 (
@@ -20381,7 +20381,7 @@ JS_NewContext
 input
 -
 >
-context
+parentRuntime
 )
 ;
 if
@@ -21084,7 +21084,7 @@ js_new
 WorkerInput
 >
 (
-JS_GetParentContext
+JS_GetParentRuntime
 (
 cx
 )
@@ -29247,7 +29247,7 @@ isObject
 )
 creationOptions
 .
-setSameZoneAs
+setExistingZone
 (
 UncheckedUnwrap
 (
