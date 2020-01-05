@@ -5530,6 +5530,10 @@ GrayBufferState
 :
 Unused
 )
+grayBitsValid
+(
+false
+)
 majorGCTriggerReason
 (
 JS
@@ -33627,13 +33631,9 @@ if
 (
 isFull
 )
-rt
--
->
-setGCGrayBitsValid
-(
+grayBitsValid
+=
 true
-)
 ;
 }
 finishMarkingValidation
