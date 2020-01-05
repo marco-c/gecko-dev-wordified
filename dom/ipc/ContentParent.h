@@ -944,10 +944,6 @@ aOpener
 =
 nullptr
 bool
-aLargeAllocationProcess
-=
-false
-bool
 *
 anew
 =
@@ -1003,10 +999,6 @@ aFrameElement
 ContentParent
 *
 aOpenerContentParent
-bool
-aFreshProcess
-=
-false
 )
 ;
 static
