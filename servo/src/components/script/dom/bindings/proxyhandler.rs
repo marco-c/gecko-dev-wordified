@@ -119,7 +119,6 @@ jsapi
 :
 :
 {
-JSBool
 JS_DefinePropertyById
 JS_NewObjectWithGivenProto
 }
@@ -279,10 +278,7 @@ id
 jsid
 set
 :
-libc
-:
-:
-c_int
+bool
 desc
 :
 *
@@ -291,10 +287,7 @@ JSPropertyDescriptor
 )
 -
 >
-libc
-:
-:
-c_int
+bool
 {
 unsafe
 {
@@ -307,6 +300,7 @@ proxy
 )
 ;
 if
+!
 InvokeGetOwnPropertyDescriptor
 (
 handler
@@ -316,12 +310,9 @@ id
 set
 desc
 )
-=
-=
-0
 {
 return
-0
+false
 ;
 }
 if
@@ -337,7 +328,7 @@ is_not_null
 )
 {
 return
-1
+true
 ;
 }
 /
@@ -380,7 +371,7 @@ mut_null
 )
 ;
 return
-1
+true
 ;
 }
 JS_GetPropertyDescriptorById
@@ -389,14 +380,11 @@ cx
 proto
 id
 JSRESOLVE_QUALIFIED
-mem
-:
-:
-transmute
-(
 desc
 )
-)
+!
+=
+0
 }
 }
 pub
@@ -424,7 +412,7 @@ JSPropertyDescriptor
 )
 -
 >
-JSBool
+bool
 {
 static
 JSMSG_GETTER_ONLY
@@ -542,6 +530,9 @@ mut_null
 )
 JSMSG_GETTER_ONLY
 )
+!
+=
+0
 ;
 }
 let
@@ -561,7 +552,7 @@ is_null
 )
 {
 return
-0
+false
 ;
 }
 return
@@ -595,6 +586,9 @@ desc
 .
 attrs
 )
+!
+=
+0
 ;
 }
 }
@@ -624,7 +618,7 @@ JSPropertyDescriptor
 )
 -
 >
-JSBool
+bool
 {
 defineProperty_
 (
@@ -660,7 +654,7 @@ bool
 )
 -
 >
-JSBool
+bool
 {
 unsafe
 {
@@ -681,7 +675,7 @@ is_null
 )
 {
 return
-0
+false
 ;
 }
 let
@@ -707,7 +701,7 @@ value
 0
 {
 return
-0
+false
 ;
 }
 *
@@ -720,7 +714,7 @@ to_boolean
 )
 ;
 return
-1
+true
 ;
 }
 }
