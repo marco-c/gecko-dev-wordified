@@ -235,11 +235,11 @@ log
 ;
 extern
 crate
-num
+num_cpus
 ;
 extern
 crate
-num_cpus
+num_traits
 ;
 extern
 crate
