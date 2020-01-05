@@ -3446,17 +3446,6 @@ link
         
 (
 '
-unsupported_code_directive
-'
-'
-unsupported
-code
-directive
-'
-)
-        
-(
-'
 unsupported_compiler_option
 '
 '
