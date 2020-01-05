@@ -75,16 +75,11 @@ scale_factor
 ScaleFactor
 ;
 use
-gfx_traits
-:
-:
-DevicePixel
-;
-use
 script_traits
 :
 :
 {
+DevicePixel
 EventResult
 TouchId
 }

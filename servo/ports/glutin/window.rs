@@ -148,12 +148,6 @@ use
 gdi32
 ;
 use
-gfx_traits
-:
-:
-DevicePixel
-;
-use
 gleam
 :
 :
@@ -275,6 +269,7 @@ script_traits
 :
 :
 {
+DevicePixel
 TouchEventType
 TouchpadPressurePhase
 }

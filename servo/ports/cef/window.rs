@@ -228,12 +228,6 @@ TypedSize2D
 }
 ;
 use
-gfx_traits
-:
-:
-DevicePixel
-;
-use
 gleam
 :
 :
@@ -259,6 +253,12 @@ net_error_list
 :
 :
 NetError
+;
+use
+script_traits
+:
+:
+DevicePixel
 ;
 use
 servo_geometry

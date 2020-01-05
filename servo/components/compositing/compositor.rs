@@ -125,17 +125,9 @@ gfx_traits
 :
 :
 {
-DevicePixel
-ScrollRootId
-}
-;
-use
-gfx_traits
-:
-:
-{
 Epoch
 FragmentType
+ScrollRootId
 }
 ;
 use
@@ -254,6 +246,7 @@ script_traits
 :
 {
 ConstellationMsg
+DevicePixel
 LayoutControlMsg
 LoadData
 MouseButton
