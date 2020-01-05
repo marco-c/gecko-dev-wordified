@@ -486,12 +486,6 @@ default_opts
 ;
 temp_opts
 .
-paint_threads
-=
-rendering_threads
-;
-temp_opts
-.
 headless
 =
 false
