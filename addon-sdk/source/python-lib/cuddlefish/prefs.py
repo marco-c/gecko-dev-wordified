@@ -2580,16 +2580,6 @@ enabled
 :
 False
     
-'
-dom
-.
-mozSettings
-.
-enabled
-'
-:
-True
-    
 #
 Make
 sure
