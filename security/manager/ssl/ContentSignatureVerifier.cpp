@@ -969,6 +969,17 @@ if
 node
 |
 |
+CERT_LIST_END
+(
+node
+certCertList
+.
+get
+(
+)
+)
+|
+|
 !
 node
 -
