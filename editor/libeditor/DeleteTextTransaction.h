@@ -340,8 +340,10 @@ basic
 editing
 operations
 .
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 /

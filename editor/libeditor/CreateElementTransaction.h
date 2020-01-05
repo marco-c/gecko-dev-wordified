@@ -321,8 +321,10 @@ will
 be
 inserted
 .
+RefPtr
+<
 EditorBase
-*
+>
 mEditorBase
 ;
 /

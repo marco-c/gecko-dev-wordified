@@ -442,8 +442,10 @@ get
 the
 selection
 .
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RangeUpdater

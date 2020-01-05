@@ -243,9 +243,11 @@ created
 this
 transaction
 .
+RefPtr
+<
 EditorBase
-&
-mEditor
+>
+mEditorBase
 ;
 /
 /
@@ -337,9 +339,11 @@ created
 this
 transaction
 .
+RefPtr
+<
 EditorBase
-&
-mEditor
+>
+mEditorBase
 ;
 /
 /

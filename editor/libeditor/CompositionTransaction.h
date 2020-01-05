@@ -489,8 +489,10 @@ the
 selection
 controller
 .
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 RangeUpdater

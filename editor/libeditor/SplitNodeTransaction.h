@@ -302,8 +302,10 @@ SplitNodeTransaction
 (
 )
 ;
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 /

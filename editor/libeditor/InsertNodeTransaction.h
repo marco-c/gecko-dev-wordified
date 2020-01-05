@@ -304,8 +304,10 @@ for
 this
 transaction
 .
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 }

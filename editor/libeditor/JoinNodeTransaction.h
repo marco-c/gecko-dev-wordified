@@ -343,8 +343,10 @@ override
 NS_DECL_EDITTRANSACTIONBASE
 protected
 :
+RefPtr
+<
 EditorBase
-&
+>
 mEditorBase
 ;
 /
