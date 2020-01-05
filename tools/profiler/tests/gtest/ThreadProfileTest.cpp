@@ -153,7 +153,7 @@ nullptr
 ;
 info
 .
-SetHasProfile
+StartProfiling
 (
 )
 ;
