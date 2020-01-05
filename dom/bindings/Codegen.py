@@ -54975,6 +54975,8 @@ isFallible
 needsSubjectPrincipal
 needsCallerType
                  
+isChromeOnly
+                 
 arguments
 argsPre
 returnType
@@ -55486,6 +55488,27 @@ if
 needsCallerType
 :
             
+if
+isChromeOnly
+:
+                
+args
+.
+append
+(
+CGGeneric
+(
+"
+SystemCallerGuarantee
+(
+)
+"
+)
+)
+            
+else
+:
+                
 args
 .
 append
@@ -59503,6 +59526,11 @@ NeedsSubjectPrincipal
 )
                 
 needsCallerType
+(
+idlNode
+)
+                
+isChromeOnly
 (
 idlNode
 )
