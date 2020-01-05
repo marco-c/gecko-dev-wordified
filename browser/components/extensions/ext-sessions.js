@@ -356,9 +356,7 @@ Promise
 .
 resolve
 (
-[
 sessionObj
-]
 )
 ;
 }
@@ -383,9 +381,7 @@ Promise
 .
 resolve
 (
-[
 sessionObj
-]
 )
 ;
 }
