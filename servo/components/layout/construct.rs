@@ -811,7 +811,8 @@ flows
 that
 have
 a
-CB
+containing
+block
 above
 it
 .
@@ -900,10 +901,10 @@ a
 Flow
 to
 be
-/
-/
-/
 attached
+/
+/
+/
 to
 .
 pub
@@ -1878,10 +1879,10 @@ child
 of
 the
 given
+/
+/
+/
 flow
-/
-/
-/
 or
 pushes
 it
@@ -2280,7 +2281,7 @@ inline_flow_ref
 }
 }
 fn
-build_block_flow_using_children_construction_result
+build_block_flow_using_construction_result_of_child
 (
 &
 mut
@@ -3018,7 +3019,7 @@ children
 nodes
 .
 fn
-build_flow_using_children
+build_flow_for_block
 (
 &
 mut
@@ -3128,7 +3129,7 @@ kid
 }
 self
 .
-build_block_flow_using_children_construction_result
+build_block_flow_using_construction_result_of_child
 (
 &
 mut
@@ -3297,7 +3298,7 @@ descendants
 .
 flow
 .
-set_abs_descendants
+set_absolute_descendants
 (
 abs_descendants
 )
@@ -3405,7 +3406,7 @@ to
 happen
 .
 fn
-build_flow_for_block
+build_flow_for_nonfloated_block
 (
 &
 mut
@@ -3439,7 +3440,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -3522,7 +3523,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -3578,6 +3579,9 @@ consisted
 entirely
 of
 ignorable
+/
+/
+/
 whitespace
 .
 fn
@@ -4304,7 +4308,7 @@ block_flow_result
 =
 self
 .
-build_flow_for_block
+build_flow_for_nonfloated_block
 (
 node
 )
@@ -5001,7 +5005,7 @@ construction_result
 =
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 table_flow
 node
@@ -5178,7 +5182,8 @@ is_positioned
 This
 is
 the
-CB
+containing
+block
 for
 all
 the
@@ -5187,7 +5192,7 @@ descendants
 .
 wrapper_flow
 .
-set_abs_descendants
+set_absolute_descendants
 (
 abs_descendants
 )
@@ -5252,7 +5257,8 @@ yet
 /
 reached
 its
-CB
+containing
+block
 .
 abs_descendants
 .
@@ -5422,7 +5428,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -5519,7 +5525,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -5609,7 +5615,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -5702,7 +5708,7 @@ Flow
 ;
 self
 .
-build_flow_using_children
+build_flow_for_block
 (
 FlowRef
 :
@@ -6595,7 +6601,7 @@ set_flow_construction_result
 (
 self
 .
-build_flow_for_block
+build_flow_for_nonfloated_block
 (
 node
 )
@@ -7005,7 +7011,7 @@ set_flow_construction_result
 (
 self
 .
-build_flow_for_block
+build_flow_for_nonfloated_block
 (
 node
 )
