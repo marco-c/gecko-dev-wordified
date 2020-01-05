@@ -89,6 +89,13 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+:
+:
+net
+;
 nsresult
 nsSyncStreamListener
 :
