@@ -123,14 +123,6 @@ step_by
 #
 !
 [
-feature
-(
-unsafe_no_drop_flag
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code
