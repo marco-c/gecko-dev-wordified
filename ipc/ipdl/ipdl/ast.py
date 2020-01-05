@@ -2694,26 +2694,6 @@ nullable
 0
 #
 bool
-        
-self
-.
-myChmod
-=
-None
-#
-None
-or
-string
-        
-self
-.
-otherChmod
-=
-None
-#
-None
-or
-string
     
 def
 basename
