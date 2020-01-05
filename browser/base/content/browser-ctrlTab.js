@@ -2910,7 +2910,6 @@ e
 label
 busy
 image
-selected
 )
 /
 /
@@ -2950,9 +2949,6 @@ busy
 "
 "
 image
-"
-"
-selected
 "
 ]
 .
