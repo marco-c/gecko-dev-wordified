@@ -1721,6 +1721,13 @@ a
 rooted
 reference
 .
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 from_rooted
