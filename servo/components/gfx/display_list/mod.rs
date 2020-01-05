@@ -1346,7 +1346,7 @@ Serializer
 {
 serializer
 .
-visit_map
+serialize_map
 (
 MapIteratorVisitor
 :
@@ -1427,7 +1427,7 @@ Deserializer
 {
 deserializer
 .
-visit_map
+deserialize_map
 (
 FnvHashMapVisitor
 :

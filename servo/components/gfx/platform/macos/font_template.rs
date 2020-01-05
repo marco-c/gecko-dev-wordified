@@ -988,7 +988,7 @@ Serializer
 {
 serializer
 .
-visit_none
+serialize_none
 (
 )
 }
@@ -1081,7 +1081,7 @@ None
 }
 deserializer
 .
-visit_option
+deserialize_option
 (
 NoneOptionVisitor
 )
