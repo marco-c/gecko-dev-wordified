@@ -259,6 +259,10 @@ pub
 mod
 animation
 ;
+pub
+mod
+attr
+;
 mod
 custom_properties
 ;
