@@ -233,22 +233,12 @@ InternalFormat
 (
 )
 ;
-GLuint
-computePixelBytes
-(
-GLenum
-formatType
-)
-const
-;
 ErrorOrResult
 <
 GLuint
 >
 computeRowPitch
 (
-GLenum
-formatType
 GLsizei
 width
 GLint
@@ -258,6 +248,7 @@ rowLength
 )
 const
 ;
+static
 ErrorOrResult
 <
 GLuint
@@ -271,7 +262,6 @@ imageHeight
 GLuint
 rowPitch
 )
-const
 ;
 ErrorOrResult
 <
@@ -279,8 +269,6 @@ GLuint
 >
 computeDepthPitch
 (
-GLenum
-formatType
 GLsizei
 width
 GLsizei
@@ -300,8 +288,6 @@ GLuint
 >
 computeCompressedImageSize
 (
-GLenum
-formatType
 const
 Extents
 &
@@ -334,8 +320,6 @@ GLuint
 >
 computePackUnpackEndByte
 (
-GLenum
-formatType
 const
 Extents
 &
