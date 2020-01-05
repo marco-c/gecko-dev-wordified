@@ -490,6 +490,24 @@ RUST_BACKTRACE
 1
 "
         
+#
+Make
+-
+-
+debugger
+imply
+-
+-
+debug
+        
+if
+debugger
+:
+            
+debug
+=
+True
+        
 if
 android
 is
