@@ -3292,9 +3292,6 @@ bool
 *
 isTemporarilyUnoptimizable_
 ;
-bool
-emitted_
-;
 enum
 class
 PreliminaryObjectAction
@@ -3307,7 +3304,6 @@ NotePreliminary
 PreliminaryObjectAction
 preliminaryObjectAction_
 ;
-MOZ_MUST_USE
 bool
 tryAttachNative
 (
@@ -3317,7 +3313,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachUnboxed
 (
@@ -3327,7 +3322,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachUnboxedExpando
 (
@@ -3337,7 +3331,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachTypedObject
 (
@@ -3347,7 +3340,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachObjectLength
 (
@@ -3357,7 +3349,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachModuleNamespace
 (
@@ -3367,7 +3358,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachWindowProxy
 (
@@ -3377,7 +3367,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachGenericProxy
 (
@@ -3387,7 +3376,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachDOMProxyShadowed
 (
@@ -3397,7 +3385,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachDOMProxyUnshadowed
 (
@@ -3407,7 +3394,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachProxy
 (
@@ -3417,7 +3403,6 @@ ObjOperandId
 objId
 )
 ;
-MOZ_MUST_USE
 bool
 tryAttachPrimitive
 (
@@ -3469,17 +3454,6 @@ MutableHandleValue
 res
 )
 ;
-bool
-emitted
-(
-)
-const
-{
-return
-emitted_
-;
-}
-MOZ_MUST_USE
 bool
 tryAttachStub
 (
