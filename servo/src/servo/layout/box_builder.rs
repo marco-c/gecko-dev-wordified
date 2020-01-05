@@ -34,7 +34,10 @@ css
 styles
 :
 :
+{
 SpecifiedStyle
+empty_style_for_node_kind
+}
 ;
 use
 css
@@ -87,6 +90,7 @@ Element
 Text
 Node
 NodeTree
+LayoutData
 }
 ;
 use
