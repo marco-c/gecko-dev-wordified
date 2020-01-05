@@ -1293,7 +1293,7 @@ null
 ;
 this
 .
-sessionCapabilities
+capabilities
 =
 new
 session
@@ -1431,7 +1431,7 @@ function
 return
 this
 .
-sessionCapabilities
+capabilities
 .
 get
 (
@@ -3602,7 +3602,7 @@ newSession
 "
 this
 .
-sessionCapabilities
+capabilities
 .
 toJSON
 (
@@ -3635,7 +3635,7 @@ reg
 mainContent
 this
 .
-sessionCapabilities
+capabilities
 .
 toJSON
 (
@@ -3872,7 +3872,7 @@ function
 return
 this
 .
-sessionCapabilities
+capabilities
 .
 get
 (
@@ -3891,7 +3891,7 @@ newTimeouts
 {
 this
 .
-sessionCapabilities
+capabilities
 .
 set
 (
@@ -3926,7 +3926,7 @@ return
 !
 this
 .
-sessionCapabilities
+capabilities
 .
 get
 (
@@ -3959,7 +3959,7 @@ function
 return
 this
 .
-sessionCapabilities
+capabilities
 .
 get
 (
@@ -4052,7 +4052,7 @@ try
 {
 this
 .
-sessionCapabilities
+capabilities
 =
 session
 .
@@ -4088,7 +4088,7 @@ stringify
 (
 this
 .
-sessionCapabilities
+capabilities
 )
 )
 ;
@@ -4751,7 +4751,7 @@ capabilities
 :
 this
 .
-sessionCapabilities
+capabilities
 }
 ;
 }
@@ -4853,7 +4853,7 @@ capabilities
 =
 this
 .
-sessionCapabilities
+capabilities
 ;
 }
 ;
@@ -15505,7 +15505,7 @@ null
 ;
 this
 .
-sessionCapabilities
+capabilities
 =
 new
 session
@@ -18549,7 +18549,7 @@ newSession
 "
 this
 .
-sessionCapabilities
+capabilities
 )
 ;
 this
