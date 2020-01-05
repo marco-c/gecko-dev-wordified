@@ -313,12 +313,10 @@ a
 .
 push
 (
-String
-:
-:
-from_str
-(
 s
+.
+to_owned
+(
 )
 )
 ;
