@@ -186,6 +186,7 @@ self
 group_name
 probe_name
 definition
+strict_type_checks
 )
 :
         
@@ -212,6 +213,12 @@ other
 validation
 functions
 .
+        
+self
+.
+_strict_type_checks
+=
+strict_type_checks
         
 self
 .
@@ -825,6 +832,15 @@ present
 "
 "
 "
+        
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
         
 #
 The
@@ -1523,6 +1539,15 @@ value
 "
 "
 "
+        
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
         
 #
 Validate
@@ -2235,15 +2260,43 @@ in
 "
 "
         
+#
+Before
+we
+added
+content
+process
+support
+in
+bug
+1278556
+we
+only
+recorded
+in
+the
+        
+#
+main
+process
+.
+        
 return
 self
 .
 _definition
-[
+.
+get
+(
 '
 record_in_processes
 '
+[
+"
+main
+"
 ]
+)
     
 property
     
@@ -2440,6 +2493,9 @@ def
 load_scalars
 (
 filename
+strict_type_checks
+=
+True
 )
 :
     
@@ -2762,6 +2818,7 @@ ScalarType
 group_name
 probe_name
 scalar_info
+strict_type_checks
 )
 )
     
