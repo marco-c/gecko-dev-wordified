@@ -1169,6 +1169,12 @@ mIsAttached
 =
 true
 ;
+mSiteIdentityPopup
+.
+registerListeners
+(
+)
+;
 mSiteSecurity
 .
 setOnClickListener
@@ -1293,6 +1299,12 @@ onDetachedFromWindow
 mIsAttached
 =
 false
+;
+mSiteIdentityPopup
+.
+unregisterListeners
+(
+)
 ;
 }
 Override

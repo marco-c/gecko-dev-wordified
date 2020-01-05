@@ -108,15 +108,6 @@ gecko
 GeckoAppShell
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-EventDispatcher
-;
-import
 android
 .
 graphics
@@ -186,8 +177,6 @@ PanZoomTarget
 target
 View
 view
-EventDispatcher
-dispatcher
 )
 {
 return

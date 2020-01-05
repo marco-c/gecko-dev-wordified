@@ -149,15 +149,6 @@ mozilla
 .
 gecko
 .
-EventDispatcher
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 FloatUtils
@@ -704,8 +695,6 @@ Context
 context
 LayerView
 view
-EventDispatcher
-eventDispatcher
 )
 {
 /
@@ -832,7 +821,6 @@ create
 (
 this
 view
-eventDispatcher
 )
 ;
 mView

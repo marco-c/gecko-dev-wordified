@@ -689,6 +689,12 @@ ContentNotificationButtonListener
 (
 )
 ;
+}
+void
+registerListeners
+(
+)
+{
 GeckoApp
 .
 getEventDispatcher
@@ -3685,6 +3691,12 @@ hideDivider
 }
 void
 destroy
+(
+)
+{
+}
+void
+unregisterListeners
 (
 )
 {

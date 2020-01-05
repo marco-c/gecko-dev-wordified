@@ -692,7 +692,7 @@ StaticCall
 (
 ctx
 .
-RawClassRef
+ClassRef
 (
 )
 sID
@@ -909,7 +909,7 @@ CallStaticVoidMethodA
 (
 ctx
 .
-RawClassRef
+ClassRef
 (
 )
 Base
@@ -1110,7 +1110,7 @@ NewObjectA
 (
 ctx
 .
-RawClassRef
+ClassRef
 (
 )
 Base
@@ -1413,7 +1413,7 @@ StaticGet
 (
 ctx
 .
-RawClassRef
+ClassRef
 (
 )
 sID
@@ -1507,7 +1507,7 @@ StaticSet
 (
 ctx
 .
-RawClassRef
+ClassRef
 (
 )
 sID

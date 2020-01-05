@@ -109,13 +109,6 @@ annotation
 .
 RobocopTarget
 ;
-import
-android
-.
-os
-.
-Bundle
-;
 RobocopTarget
 public
 interface
@@ -215,7 +208,7 @@ handleMessage
 (
 String
 event
-Bundle
+GeckoBundle
 message
 EventCallback
 callback

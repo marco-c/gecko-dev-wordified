@@ -170,15 +170,6 @@ mozilla
 .
 gecko
 .
-EventDispatcher
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAccessibility
 ;
 import
@@ -1156,8 +1147,6 @@ public
 void
 initializeView
 (
-EventDispatcher
-eventDispatcher
 )
 {
 mLayerClient
@@ -1169,7 +1158,6 @@ getContext
 (
 )
 this
-eventDispatcher
 )
 ;
 if
