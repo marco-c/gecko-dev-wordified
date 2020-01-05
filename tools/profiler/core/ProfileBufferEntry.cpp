@@ -4380,6 +4380,8 @@ ProfileBuffer
 :
 FindLastSampleOfThread
 (
+int
+aThreadId
 const
 LastSample
 &
@@ -4581,9 +4583,7 @@ entry
 mTagInt
 =
 =
-aLS
-.
-mThreadId
+aThreadId
 ;
 return
 isStillValid
@@ -4652,6 +4652,8 @@ ProfileBuffer
 :
 DuplicateLastSample
 (
+int
+aThreadId
 const
 TimeStamp
 &
@@ -4666,6 +4668,7 @@ lastSampleStartPos
 =
 FindLastSampleOfThread
 (
+aThreadId
 aLS
 )
 ;
@@ -4702,13 +4705,13 @@ lastSampleStartPos
 mTagInt
 =
 =
-aLS
-.
-mThreadId
+aThreadId
 )
 ;
 addTagThreadId
 (
+aThreadId
+&
 aLS
 )
 ;

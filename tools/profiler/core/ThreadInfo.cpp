@@ -243,7 +243,6 @@ false
 )
 mLastSample
 (
-aThreadId
 )
 {
 MOZ_COUNT_CTOR
