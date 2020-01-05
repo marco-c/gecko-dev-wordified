@@ -409,14 +409,6 @@ ScanSourceBuffersForContent
 (
 )
 ;
-RefPtr
-<
-InitPromise
->
-AttemptInit
-(
-)
-;
 TrackBuffersManager
 *
 GetManager
