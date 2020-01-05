@@ -670,6 +670,17 @@ aCSSParseEnv
 )
 override
 ;
+mozilla
+:
+:
+URLExtraData
+*
+GetURLData
+(
+)
+const
+final
+;
 static
 already_AddRefed
 <

@@ -224,6 +224,17 @@ aCSSParseEnv
 )
 override
 ;
+mozilla
+:
+:
+URLExtraData
+*
+GetURLData
+(
+)
+const
+final
+;
 NS_IMETHOD
 GetParentRule
 (

@@ -233,6 +233,14 @@ aCSSParseEnv
 )
 final
 ;
+URLExtraData
+*
+GetURLData
+(
+)
+const
+final
+;
 private
 :
 /
