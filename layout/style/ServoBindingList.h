@@ -815,8 +815,8 @@ set
 mozilla
 :
 :
-SkipRootBehavior
-skip_root
+TraversalRootBehavior
+root_behavior
 )
 /
 /
