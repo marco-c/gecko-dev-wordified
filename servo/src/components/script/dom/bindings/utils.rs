@@ -2556,6 +2556,7 @@ DOMParser
 HTMLCollection
 Event
 EventTarget
+FormData
 _ID_Count
 }
 }
@@ -3628,7 +3629,7 @@ as
 JSObject
 .
 .
-6
+7
 ]
 )
 ;
