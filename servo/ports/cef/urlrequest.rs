@@ -62,6 +62,7 @@ interfaces
 :
 {
 cef_request_t
+cef_request_context_t
 cef_urlrequest_client_t
 cef_urlrequest_t
 }
@@ -88,6 +89,11 @@ _client
 *
 mut
 cef_urlrequest_client_t
+_context
+:
+*
+mut
+cef_request_context_t
 )
 -
 >

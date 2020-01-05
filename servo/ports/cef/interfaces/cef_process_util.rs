@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2014
+2015
 Marshall
 A
 .
@@ -463,6 +463,12 @@ collections
 :
 :
 HashMap
+;
+use
+std
+:
+:
+mem
 ;
 use
 std

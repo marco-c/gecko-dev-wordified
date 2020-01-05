@@ -538,7 +538,7 @@ offset
 :
 *
 const
-usize
+u32
 =
 &
 (
