@@ -234,6 +234,10 @@ style
 ;
 extern
 crate
+sync
+;
+extern
+crate
 servo_msg
 =
 "
