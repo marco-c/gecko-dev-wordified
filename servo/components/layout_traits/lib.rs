@@ -223,15 +223,6 @@ use
 servo_util
 :
 :
-opts
-:
-:
-Opts
-;
-use
-servo_util
-:
-:
 time
 :
 :
@@ -370,9 +361,6 @@ ImageCacheTask
 font_cache_task
 :
 FontCacheTask
-opts
-:
-Opts
 time_profiler_chan
 :
 TimeProfilerChan

@@ -284,9 +284,6 @@ servo_util
 :
 :
 opts
-:
-:
-Opts
 ;
 use
 servo_util
@@ -742,9 +739,6 @@ Box
 <
 FontContext
 >
-opts
-:
-Opts
 /
 /
 /
@@ -1014,9 +1008,6 @@ FontCacheTask
 failure_msg
 :
 Failure
-opts
-:
-Opts
 time_profiler_chan
 :
 TimeProfilerChan
@@ -1100,6 +1091,11 @@ let
 cpu_painting
 =
 opts
+:
+:
+get
+(
+)
 .
 cpu_painting
 ;
@@ -1143,9 +1139,6 @@ clone
 (
 )
 )
-opts
-:
-opts
 time_profiler_chan
 :
 time_profiler_chan
@@ -2221,12 +2214,6 @@ mut
 self
 .
 font_ctx
-opts
-:
-&
-self
-.
-opts
 page_rect
 :
 tile

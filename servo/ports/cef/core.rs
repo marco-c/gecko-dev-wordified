@@ -454,8 +454,6 @@ glfw_app
 :
 create_window
 (
-&
-opts
 )
 )
 ;
@@ -464,7 +462,6 @@ servo
 :
 run
 (
-opts
 window
 )
 ;
