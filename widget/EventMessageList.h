@@ -2426,6 +2426,16 @@ NS_EVENT_MESSAGE
 (
 eToggle
 )
+/
+/
+Dialog
+element
+events
+.
+NS_EVENT_MESSAGE
+(
+eClose
+)
 #
 ifdef
 UNDEF_NS_EVENT_MESSAGE_FIRST_LAST
