@@ -542,7 +542,7 @@ table_cell
 bubble_inline_sizes
 {
 :
-s
+x
 }
 "
 self
@@ -735,7 +735,7 @@ table_cell
 assign_inline_sizes
 {
 :
-s
+x
 }
 "
 self

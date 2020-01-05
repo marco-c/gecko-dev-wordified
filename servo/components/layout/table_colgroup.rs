@@ -354,7 +354,7 @@ table_colgroup
 bubble_inline_sizes
 {
 :
-s
+x
 }
 "
 self
