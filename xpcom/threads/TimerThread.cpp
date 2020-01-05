@@ -1622,7 +1622,10 @@ NS_ERROR_NOT_INITIALIZED
 }
 nsTArray
 <
+UniquePtr
+<
 Entry
+>
 >
 timers
 ;
@@ -1783,7 +1786,8 @@ timers
 [
 i
 ]
-.
+-
+>
 mTimerImpl
 .
 forget
@@ -2229,7 +2233,8 @@ mTimers
 [
 0
 ]
-.
+-
+>
 mTimerImpl
 ;
 if
@@ -2707,7 +2712,8 @@ mTimers
 [
 0
 ]
-.
+-
+>
 mTimerImpl
 ;
 TimeStamp
@@ -3154,7 +3160,8 @@ mTimers
 [
 0
 ]
-.
+-
+>
 mTimerImpl
 =
 =
@@ -3302,7 +3309,10 @@ Now
 (
 )
 ;
+UniquePtr
+<
 Entry
+>
 *
 entry
 =
@@ -3310,7 +3320,10 @@ mTimers
 .
 AppendElement
 (
+MakeUnique
+<
 Entry
+>
 (
 now
 aTimer
@@ -3350,6 +3363,10 @@ mTimers
 end
 (
 )
+Entry
+:
+:
+UniquePtrLessThan
 )
 ;
 #
@@ -3436,7 +3453,8 @@ mTimers
 [
 i
 ]
-.
+-
+>
 mTimerImpl
 =
 =
@@ -3447,7 +3465,8 @@ mTimers
 [
 i
 ]
-.
+-
+>
 mTimerImpl
 =
 nullptr
@@ -3555,7 +3574,8 @@ mTimers
 [
 0
 ]
-.
+-
+>
 mTimerImpl
 )
 {
@@ -3570,6 +3590,10 @@ begin
 (
 )
 sortedEnd
+Entry
+:
+:
+UniquePtrLessThan
 )
 ;
 -
@@ -3707,6 +3731,10 @@ mTimers
 end
 (
 )
+Entry
+:
+:
+UniquePtrLessThan
 )
 ;
 mTimers
