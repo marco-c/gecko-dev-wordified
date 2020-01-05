@@ -114,12 +114,6 @@ px_to_pt
 }
 ;
 use
-util
-:
-:
-geometry
-;
-use
 platform
 :
 :
