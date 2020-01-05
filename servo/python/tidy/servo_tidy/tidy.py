@@ -1047,18 +1047,7 @@ strip
 (
 )
 def
-licensed_mpl
-(
-header
-)
-:
-    
-return
-MPL
-in
-header
-def
-licensed_apache
+is_apache_licensed
 (
 header
 )
@@ -1264,7 +1253,7 @@ append
 line
 )
     
-contents
+header
 =
 "
 "
@@ -1276,14 +1265,13 @@ license_block
     
 valid_license
 =
-licensed_mpl
-(
-contents
-)
+MPL
+in
+header
 or
-licensed_apache
+is_apache_licensed
 (
-contents
+header
 )
     
 acknowledged_bad_license
@@ -1294,7 +1282,7 @@ xfail
 license
 "
 in
-contents
+header
     
 if
 not
@@ -1482,6 +1470,9 @@ shell
 scripting
 .
     
+max_length
+=
+80
 if
 file_name
 .
@@ -1492,17 +1483,7 @@ endswith
 sh
 "
 )
-:
-        
-max_length
-=
-80
-    
 else
-:
-        
-max_length
-=
 120
     
 if
@@ -2805,13 +2786,8 @@ did_shebang_check
 False
     
 if
-len
-(
+not
 lines
-)
-=
-=
-0
 :
         
 yield
@@ -2988,13 +2964,7 @@ this
 .
                 
 if
-len
-(
 required_options
-)
-!
-=
-0
 :
                     
 formatted
@@ -3551,6 +3521,13 @@ merged_lines
 '
         
 #
+Ignore
+attributes
+comments
+and
+imports
+        
+#
 Keep
 track
 of
@@ -3563,13 +3540,6 @@ a
 merged
 import
 block
-        
-#
-Ignore
-attributes
-comments
-and
-imports
         
 if
 import_block
@@ -5276,15 +5246,10 @@ lines
 )
                 
 if
-len
-(
 prev_mod
 [
 indent
 ]
-)
->
-0
 and
 mod
 <
@@ -6349,7 +6314,7 @@ print
 '
 \
 rChecking
-for
+the
 config
 file
 .
@@ -6528,10 +6493,6 @@ split
 =
 "
 )
-        
-key
-=
-key
 [
 0
 ]
@@ -6759,51 +6720,30 @@ packages
 #
 Fix
 the
-necessary
 paths
-if
-we
-'
-re
-in
-Windows
+(
+OS
+-
+dependent
+)
     
-if
-sys
-.
-platform
-=
-=
-"
-win32
-"
-:
-        
-files
-=
-[
-]
-        
-for
-f
-in
 config
 [
-"
+'
 ignore
-"
+'
 ]
 [
-"
+'
 files
-"
+'
 ]
-:
-            
-files
-+
 =
-[
+map
+(
+lambda
+path
+:
 os
 .
 path
@@ -6811,56 +6751,46 @@ path
 join
 (
 *
-f
+path
 .
 split
 (
-"
+'
 /
-"
+'
 )
 )
-]
-        
+                                    
 config
 [
-"
+'
 ignore
-"
+'
 ]
 [
-"
+'
 files
-"
+'
 ]
-=
-files
-        
-dirs
-=
-[
-]
-        
-for
-f
-in
+)
+    
 config
 [
-"
+'
 ignore
-"
+'
 ]
 [
-"
+'
 directories
-"
+'
 ]
-:
-            
-dirs
-+
 =
-[
+map
+(
+lambda
+path
+:
 os
 .
 path
@@ -6868,37 +6798,35 @@ path
 join
 (
 *
-f
+path
 .
 split
 (
-"
+'
 /
-"
+'
 )
 )
-]
-        
+                                          
 config
 [
-"
+'
 ignore
-"
+'
 ]
 [
-"
+'
 directories
-"
+'
 ]
-=
-dirs
+)
     
 #
 Override
 default
 configs
     
-configs
+user_configs
 =
 config_file
 .
@@ -6914,7 +6842,7 @@ configs
 for
 pref
 in
-configs
+user_configs
 :
         
 if
@@ -6928,7 +6856,7 @@ config
 pref
 ]
 =
-configs
+user_configs
 [
 pref
 ]
@@ -7857,7 +7785,6 @@ config_errors
 check_config_file
 (
 CONFIG_FILE_PATH
-progress
 )
     
 #
@@ -7897,7 +7824,7 @@ check_spec
 check_modeline
 )
     
-errors
+file_errors
 =
 collect_errors_for_files
 (
@@ -7939,8 +7866,10 @@ progress
 )
     
 #
-collect
-errors
+chain
+all
+the
+iterators
     
 errors
 =
@@ -7949,7 +7878,7 @@ itertools
 chain
 (
 config_errors
-errors
+file_errors
 dep_license_errors
 wpt_lint_errors
 )
