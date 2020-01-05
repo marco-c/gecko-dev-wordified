@@ -104,6 +104,8 @@ gElements
 {
 /
 /
+keyset
+and
 preferences
 elements
 fail
@@ -134,6 +136,16 @@ OS
 version
 if
 (
+element
+.
+nodeName
+=
+=
+"
+keyset
+"
+|
+|
 element
 .
 nodeName
