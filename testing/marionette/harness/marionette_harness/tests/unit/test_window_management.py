@@ -103,7 +103,7 @@ self
         
 self
 .
-close_all_tabs
+close_all_windows
 (
 )
         
