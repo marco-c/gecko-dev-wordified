@@ -457,12 +457,12 @@ aResult
 )
 override
 ;
-NS_IMETHOD
-DocumentIsEmpty
+NS_IMETHOD_
 (
 bool
-*
-aDocumentIsEmpty
+)
+DocumentIsEmpty
+(
 )
 override
 ;
