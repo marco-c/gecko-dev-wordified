@@ -798,11 +798,12 @@ ScrollableLayerGuid
 std
 :
 :
-map
+unordered_map
 <
 ScrollableLayerGuid
 AsyncPanZoomController
 *
+ScrollableLayerGuidHash
 >
 mApzcMap
 ;
@@ -2672,11 +2673,12 @@ node
 std
 :
 :
-map
+unordered_map
 <
 ScrollableLayerGuid
 HitTestingTreeNode
 *
+ScrollableLayerGuidHash
 >
 httnMap
 ;
