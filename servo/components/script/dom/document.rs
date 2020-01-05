@@ -6574,7 +6574,6 @@ title_elem
 |
 {
 let
-mut
 children
 =
 title_elem

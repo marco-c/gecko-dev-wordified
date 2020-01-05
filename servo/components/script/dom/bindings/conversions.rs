@@ -2220,9 +2220,8 @@ char_vec
 slice
 :
 :
-from_raw_buf
+from_raw_parts
 (
-&
 chars
 length
 as
@@ -2609,9 +2608,8 @@ char_vec
 slice
 :
 :
-from_raw_buf
+from_raw_parts
 (
-&
 chars
 length
 as

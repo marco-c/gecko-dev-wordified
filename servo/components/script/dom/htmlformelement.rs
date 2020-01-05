@@ -3039,7 +3039,6 @@ collect
 )
 ;
 for
-mut
 datum
 in
 ret

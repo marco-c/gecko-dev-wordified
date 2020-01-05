@@ -905,12 +905,13 @@ set_event_handler_uncompiled
 cx
 url
 reflector
+&
 name
-.
-slice_from
-(
+[
 2
-)
+.
+.
+]
 attr
 .
 value

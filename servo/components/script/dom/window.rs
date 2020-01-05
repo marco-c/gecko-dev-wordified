@@ -1383,10 +1383,11 @@ ends_with
 {
 input
 =
+&
 input
+[
 .
-slice_to
-(
+.
 input
 .
 len
@@ -1394,7 +1395,7 @@ len
 )
 -
 2
-)
+]
 }
 else
 if
@@ -1409,10 +1410,11 @@ ends_with
 {
 input
 =
+&
 input
+[
 .
-slice_to
-(
+.
 input
 .
 len
@@ -1420,7 +1422,7 @@ len
 )
 -
 1
-)
+]
 }
 }
 /
