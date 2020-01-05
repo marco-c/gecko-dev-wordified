@@ -214,6 +214,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 /
 /
 -
