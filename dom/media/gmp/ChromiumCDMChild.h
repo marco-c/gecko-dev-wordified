@@ -727,6 +727,12 @@ uint32_t
 >
 mLoadSessionPromiseIds
 ;
+cdm
+:
+:
+Size
+mCodedSize
+;
 bool
 mDecoderInitialized
 =
