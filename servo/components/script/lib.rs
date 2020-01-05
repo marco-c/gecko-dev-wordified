@@ -248,6 +248,10 @@ extern
 crate
 app_units
 ;
+extern
+crate
+audio_video_metadata
+;
 #
 [
 allow
