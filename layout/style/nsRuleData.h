@@ -1317,6 +1317,14 @@ SetTextDecorationColorOverride
 (
 )
 ;
+void
+SetBackgroundImage
+(
+nsAttrValue
+&
+aValue
+)
+;
 private
 :
 inline

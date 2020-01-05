@@ -815,6 +815,15 @@ SetTextDecorationColorOverride
 (
 )
 ;
+inline
+void
+SetBackgroundImage
+(
+nsAttrValue
+&
+value
+)
+;
 const
 mozilla
 :

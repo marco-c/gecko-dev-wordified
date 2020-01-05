@@ -470,6 +470,14 @@ SetTextDecorationColorOverride
 (
 )
 ;
+void
+SetBackgroundImage
+(
+nsAttrValue
+&
+aValue
+)
+;
 private
 :
 RefPtr
