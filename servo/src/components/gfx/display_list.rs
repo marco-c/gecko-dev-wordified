@@ -2583,6 +2583,9 @@ pub
 range
 :
 Range
+<
+int
+>
 /
 /
 /

@@ -2303,6 +2303,9 @@ range
 :
 &
 Range
+<
+int
+>
 baseline_origin
 :
 Point2D
@@ -2442,6 +2445,8 @@ range
 length
 (
 )
+as
+uint
 )
 ;
 for
@@ -2679,6 +2684,9 @@ range
 :
 &
 Range
+<
+int
+>
 )
 -
 >
@@ -2801,6 +2809,9 @@ slice_range
 :
 &
 Range
+<
+int
+>
 )
 -
 >
@@ -2925,6 +2936,8 @@ text
 char_len
 (
 )
+as
+int
 is_whitespace
 )
 ;

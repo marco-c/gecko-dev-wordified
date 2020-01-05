@@ -1004,7 +1004,7 @@ new_line_pos
 :
 Vec
 <
-uint
+int
 >
 }
 /
@@ -1896,6 +1896,9 @@ pub
 range
 :
 Range
+<
+int
+>
 }
 impl
 ScannedTextBoxInfo
@@ -1934,6 +1937,9 @@ TextRun
 range
 :
 Range
+<
+int
+>
 )
 -
 >
@@ -8956,6 +8962,9 @@ right_range
 Option
 <
 Range
+<
+int
+>
 >
 =
 None
@@ -9500,6 +9509,9 @@ None
 range
 :
 Range
+<
+int
+>
 |
 {
 let

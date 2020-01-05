@@ -1684,6 +1684,8 @@ boxes
 len
 (
 )
+as
+int
 ;
 boxes
 .
