@@ -850,6 +850,19 @@ windows
 "
 :
         
+if
+os
+.
+getenv
+(
+"
+MSYSTEM
+"
+)
+is
+None
+:
+            
 os_type
 =
 "
@@ -858,6 +871,19 @@ pc
 windows
 -
 msvc
+"
+        
+else
+:
+            
+os_type
+=
+"
+pc
+-
+windows
+-
+gnu
 "
     
 elif
