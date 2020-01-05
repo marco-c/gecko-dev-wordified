@@ -138,7 +138,6 @@ h
 /
 for
 int32_t
-int64_t
 #
 include
 "
@@ -19219,7 +19218,7 @@ this
 ;
 }
 virtual
-int64_t
+uint64_t
 GetReferentId
 (
 )
