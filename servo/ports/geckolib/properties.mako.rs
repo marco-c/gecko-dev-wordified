@@ -6328,7 +6328,7 @@ gecko
 .
 mVerticalAlign
 .
-set_int
+set_enum
 (
 structs
 :
