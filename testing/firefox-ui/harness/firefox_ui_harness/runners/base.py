@@ -90,11 +90,14 @@ kwargs
 )
 :
         
-BaseMarionetteTestRunner
+super
+(
+FirefoxUITestRunner
+self
+)
 .
 __init__
 (
-self
 *
 *
 kwargs

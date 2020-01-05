@@ -93,11 +93,14 @@ kwargs
 )
 :
         
-BaseMarionetteArguments
+super
+(
+FirefoxUIArguments
+self
+)
 .
 __init__
 (
-self
 *
 *
 kwargs
