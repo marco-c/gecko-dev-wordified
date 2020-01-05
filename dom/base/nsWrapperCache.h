@@ -223,9 +223,6 @@ nsInProcessTabChildGlobal
 class
 nsWindowRoot
 ;
-class
-nsCSSCounterStyleRule
-;
 #
 define
 NS_WRAPPERCACHE_IID
@@ -1664,10 +1661,6 @@ nsInProcessTabChildGlobal
 friend
 class
 nsWindowRoot
-;
-friend
-class
-nsCSSCounterStyleRule
 ;
 void
 SetIsNotDOMBinding
