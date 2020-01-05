@@ -2117,6 +2117,13 @@ string
 ;
 entry
 .
+setDynamicString
+(
+nullptr
+)
+;
+entry
+.
 setCategory
 (
 category
