@@ -366,7 +366,7 @@ offset
 :
 Finite
 <
-f32
+f64
 >
 color
 :
