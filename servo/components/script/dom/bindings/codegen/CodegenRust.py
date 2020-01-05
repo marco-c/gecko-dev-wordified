@@ -23835,16 +23835,9 @@ handle
 (
 )
                                                
-b
-\
-"
 {
 prop
 }
-\
-0
-\
-"
 as
 *
 const
@@ -23869,11 +23862,14 @@ handle_mut
                         
 prop
 =
+str_to_const_array
+(
 m
 .
 identifier
 .
 name
+)
 )
 )
                 
