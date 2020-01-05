@@ -834,6 +834,7 @@ let
 (
 value
 divisor
+chars_skipped
 )
 =
 match
@@ -873,6 +874,7 @@ next
 1f64
 -
 1f64
+1
 )
 }
 Some
@@ -894,6 +896,7 @@ next
 (
 1f64
 1f64
+1
 )
 }
 _
@@ -902,6 +905,7 @@ _
 (
 1f64
 1f64
+0
 )
 }
 ;
@@ -982,6 +986,8 @@ chars
 skip
 (
 value_digits
++
+chars_skipped
 )
 .
 peekable
@@ -1014,6 +1020,8 @@ chars
 skip
 (
 value_digits
++
+chars_skipped
 +
 fraction_digits
 )
