@@ -88,14 +88,6 @@ box_syntax
 [
 feature
 (
-iter_arith
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
