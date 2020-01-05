@@ -522691,7 +522691,7 @@ getStr
 "
 sourceSearch
 .
-search1
+search
 "
 )
 }
@@ -522841,7 +522841,7 @@ L10N
 getFormatStr
 (
 "
-sourceSearch1
+sourceSearch
 .
 resultsSummary
 "
@@ -716986,7 +716986,7 @@ L10N
 getFormatStr
 (
 "
-stepOverTooltip1
+stepOverTooltip
 "
 formatKey
 (
@@ -717012,7 +717012,7 @@ L10N
 getFormatStr
 (
 "
-stepInTooltip1
+stepInTooltip
 "
 formatKey
 (
@@ -717038,7 +717038,7 @@ L10N
 getFormatStr
 (
 "
-stepOutTooltip1
+stepOutTooltip
 "
 formatKey
 (
@@ -717101,7 +717101,7 @@ L10N
 getFormatStr
 (
 "
-resumeButtonTooltip1
+resumeButtonTooltip
 "
 formatKey
 (
@@ -717154,7 +717154,7 @@ L10N
 getFormatStr
 (
 "
-pauseButtonTooltip1
+pauseButtonTooltip
 "
 formatKey
 (
@@ -717745,7 +717745,7 @@ getFormatStr
 "
 welcome
 .
-search1
+search
 "
 formatKeyShortcut
 (
@@ -720827,7 +720827,7 @@ Refresh
 "
 welcome
 .
-search1
+search
 "
 :
 "
@@ -720841,7 +720841,7 @@ sources
 "
 sourceSearch
 .
-search1
+search
 "
 :
 "
@@ -720876,7 +720876,7 @@ key
 G
 "
 "
-sourceSearch1
+sourceSearch
 .
 resultsSummary
 "
@@ -720965,7 +720965,7 @@ ignore
 exceptions
 "
 "
-stepOutTooltip1
+stepOutTooltip
 "
 :
 "
@@ -720975,7 +720975,7 @@ Out
 S
 "
 "
-stepInTooltip1
+stepInTooltip
 "
 :
 "
@@ -720985,7 +720985,7 @@ In
 S
 "
 "
-stepOverTooltip1
+stepOverTooltip
 "
 :
 "
@@ -720995,7 +720995,7 @@ Over
 S
 "
 "
-resumeButtonTooltip1
+resumeButtonTooltip
 "
 :
 "
@@ -721014,7 +721014,7 @@ next
 execution
 "
 "
-pauseButtonTooltip1
+pauseButtonTooltip
 "
 :
 "
