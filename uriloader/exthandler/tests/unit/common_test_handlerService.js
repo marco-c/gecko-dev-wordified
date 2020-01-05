@@ -1858,7 +1858,6 @@ possibleApplicationHandlers
 appendElement
 (
 localHandler
-false
 )
 ;
 handlerInfo2
@@ -1868,7 +1867,6 @@ possibleApplicationHandlers
 appendElement
 (
 webHandler
-false
 )
 ;
 handlerInfo2

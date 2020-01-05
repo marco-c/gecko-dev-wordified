@@ -201,7 +201,6 @@ possibleApplicationHandlers
 appendElement
 (
 handler
-false
 )
 ;
 var
