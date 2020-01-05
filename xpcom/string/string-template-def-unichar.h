@@ -204,5 +204,5 @@ TPromiseFlatString_CharT
 PromiseFlatString
 #
 define
-nsTSubstringSpliiter_CharT
+nsTSubstringSplitter_CharT
 nsSubstringSplitter
