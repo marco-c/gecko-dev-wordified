@@ -2812,6 +2812,9 @@ engine
 "
 )
 ;
+let
+removedEngine
+=
 this
 .
 _engines
@@ -2821,6 +2824,9 @@ splice
 index
 1
 )
+[
+0
+]
 ;
 if
 (
@@ -2833,12 +2839,7 @@ some
 this
 .
 _isSameEngine
-this
-.
-_engines
-[
-index
-]
+removedEngine
 )
 )
 gSearchPane
