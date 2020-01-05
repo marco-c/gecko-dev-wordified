@@ -2893,6 +2893,11 @@ js_context
 clone
 (
 )
+devtools_chan
+.
+clone
+(
+)
 )
 ;
 let
@@ -4987,6 +4992,13 @@ as_ref
 unwrap
 (
 )
+.
+clone
+(
+)
+self
+.
+devtools_chan
 .
 clone
 (
