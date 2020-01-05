@@ -1179,8 +1179,6 @@ png
 imageBuffer
 }
 getTests
-:
-function
 (
 tabs
 expectDefaults
@@ -2570,8 +2568,6 @@ png
 imageBuffer
 }
 getTests
-:
-function
 (
 tabs
 expectDefaults
