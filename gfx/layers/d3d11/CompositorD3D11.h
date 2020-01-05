@@ -688,6 +688,10 @@ virtual
 void
 CancelFrame
 (
+bool
+aNeedFlush
+=
+true
 )
 override
 ;

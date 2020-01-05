@@ -8460,6 +8460,7 @@ mCompositor
 >
 CancelFrame
 (
+false
 )
 ;
 }
