@@ -522,6 +522,12 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIASYNCSHUTDOWNBLOCKER
+static
+void
+InitStatics
+(
+)
+;
 /
 /
 The
@@ -621,6 +627,11 @@ MediaShutdownManager
 virtual
 ~
 MediaShutdownManager
+(
+)
+;
+void
+RemoveBlocker
 (
 )
 ;
