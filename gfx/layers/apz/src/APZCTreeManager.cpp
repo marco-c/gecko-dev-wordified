@@ -3354,7 +3354,7 @@ GetScrollbarDirection
 )
 aLayer
 .
-GetScrollbarSize
+GetScrollThumbLength
 (
 )
 aLayer
@@ -5289,7 +5289,7 @@ GetScrollbarDirection
 )
 aLayer
 .
-GetScrollbarSize
+GetScrollThumbLength
 (
 )
 aLayer

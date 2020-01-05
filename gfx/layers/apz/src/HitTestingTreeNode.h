@@ -759,7 +759,7 @@ Layer
 ScrollDirection
 aDir
 int32_t
-aScrollSize
+aScrollThumbLength
 bool
 aIsScrollContainer
 )
@@ -774,8 +774,8 @@ aDragMetrics
 )
 const
 ;
-int32_t
-GetScrollSize
+LayerIntCoord
+GetScrollThumbLength
 (
 )
 const
@@ -967,7 +967,7 @@ ScrollDirection
 mScrollDir
 ;
 int32_t
-mScrollSize
+mScrollThumbLength
 ;
 bool
 mIsScrollbarContainer
