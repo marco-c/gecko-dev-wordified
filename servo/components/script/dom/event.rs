@@ -195,10 +195,7 @@ time
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 pub
 enum
@@ -242,8 +239,11 @@ int
 deriving
 (
 PartialEq
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum
@@ -259,10 +259,7 @@ UIEventTypeId
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

@@ -219,10 +219,7 @@ node
 .
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

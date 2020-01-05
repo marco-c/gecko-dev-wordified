@@ -176,10 +176,7 @@ Document
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

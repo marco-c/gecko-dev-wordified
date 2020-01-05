@@ -189,10 +189,7 @@ tag
 .
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

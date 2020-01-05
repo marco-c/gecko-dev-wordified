@@ -251,10 +251,7 @@ OwnedStrAsciiExt
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

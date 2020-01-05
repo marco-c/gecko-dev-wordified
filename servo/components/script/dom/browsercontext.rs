@@ -166,10 +166,7 @@ raw_pointer_deriving
 ]
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 pub
 struct
@@ -538,10 +535,7 @@ wrapper
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

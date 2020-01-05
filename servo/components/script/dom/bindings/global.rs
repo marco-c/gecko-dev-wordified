@@ -286,10 +286,7 @@ structures
 .
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

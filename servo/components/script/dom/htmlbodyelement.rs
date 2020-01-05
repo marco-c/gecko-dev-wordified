@@ -270,10 +270,7 @@ DOMString
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

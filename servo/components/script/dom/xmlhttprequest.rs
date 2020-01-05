@@ -721,8 +721,11 @@ StringOrURLSearchParams
 deriving
 (
 PartialEq
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum
@@ -736,8 +739,11 @@ XMLHttpRequestUploadTypeId
 deriving
 (
 PartialEq
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 enum
 XMLHttpRequestState
@@ -877,10 +883,7 @@ ScriptChan
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

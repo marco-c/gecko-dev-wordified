@@ -268,10 +268,7 @@ NullValue
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

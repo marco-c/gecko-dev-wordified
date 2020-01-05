@@ -176,10 +176,7 @@ Rc
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

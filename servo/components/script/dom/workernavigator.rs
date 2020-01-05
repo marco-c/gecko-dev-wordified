@@ -161,10 +161,7 @@ DOMString
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

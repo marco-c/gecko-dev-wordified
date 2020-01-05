@@ -178,10 +178,7 @@ DOMString
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 pub
 enum
@@ -196,10 +193,7 @@ Heading6
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

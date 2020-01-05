@@ -383,10 +383,7 @@ AllowPopups
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
@@ -458,10 +455,7 @@ HTMLIFrameElementTypeId
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 pub
 struct

@@ -240,10 +240,7 @@ Cell
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

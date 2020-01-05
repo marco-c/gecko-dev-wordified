@@ -203,10 +203,7 @@ StrokeRect
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

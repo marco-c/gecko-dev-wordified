@@ -246,10 +246,7 @@ Cell
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

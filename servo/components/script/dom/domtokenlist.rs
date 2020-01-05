@@ -215,10 +215,7 @@ HTML_SPACE_CHARACTERS
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

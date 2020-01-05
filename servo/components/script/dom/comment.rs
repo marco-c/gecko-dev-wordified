@@ -218,10 +218,7 @@ comment
 .
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

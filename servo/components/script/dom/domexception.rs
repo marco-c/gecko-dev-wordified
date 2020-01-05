@@ -192,8 +192,11 @@ uint
 deriving
 (
 Show
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum
@@ -484,10 +487,7 @@ fail
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

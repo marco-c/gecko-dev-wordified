@@ -112,11 +112,14 @@ type
 [
 deriving
 (
-Encodable
 Clone
 Eq
 PartialEq
 )
+]
+#
+[
+jstraceable
 ]
 pub
 struct

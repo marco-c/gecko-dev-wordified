@@ -273,8 +273,11 @@ UrlParser
 deriving
 (
 PartialEq
-Encodable
 )
+]
+#
+[
+jstraceable
 ]
 pub
 enum
@@ -284,10 +287,7 @@ DedicatedGlobalScope
 }
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

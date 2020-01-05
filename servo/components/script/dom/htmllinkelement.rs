@@ -267,10 +267,7 @@ UrlParser
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

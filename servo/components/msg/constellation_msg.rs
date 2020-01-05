@@ -120,12 +120,6 @@ geometry
 DevicePixel
 ;
 use
-serialize
-:
-:
-Encodable
-;
-use
 servo_util
 :
 :
@@ -266,13 +260,6 @@ Option
 SubpageId
 >
 }
-#
-[
-deriving
-(
-Encodable
-)
-]
 pub
 struct
 WindowSizeData
@@ -513,7 +500,6 @@ Clone
 PartialEq
 Eq
 Hash
-Encodable
 )
 ]
 pub
@@ -532,7 +518,6 @@ Clone
 PartialEq
 Eq
 Hash
-Encodable
 )
 ]
 pub

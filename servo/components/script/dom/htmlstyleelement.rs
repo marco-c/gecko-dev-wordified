@@ -226,10 +226,7 @@ Stylesheet
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [

@@ -281,10 +281,7 @@ StaticStringVec
 ;
 #
 [
-deriving
-(
-Encodable
-)
+jstraceable
 ]
 #
 [
@@ -465,6 +462,10 @@ Temporary
 HTMLCollection
 >
 {
+#
+[
+jstraceable
+]
 struct
 ElementsFilter
 ;
