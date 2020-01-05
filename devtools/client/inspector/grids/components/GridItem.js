@@ -115,6 +115,7 @@ Reps
 const
 {
 REPS
+MODE
 }
 =
 require
@@ -839,6 +840,11 @@ Rep
 defaultRep
 :
 ElementNode
+mode
+:
+MODE
+.
+TINY
 object
 :
 this
