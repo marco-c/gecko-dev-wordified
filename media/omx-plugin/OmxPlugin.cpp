@@ -2950,7 +2950,9 @@ LOG
 video
 duration
 %
-lld
+"
+PRId64
+"
 should
 be
 nonnegative
@@ -3156,7 +3158,9 @@ LOG
 audio
 duration
 %
-lld
+"
+PRId64
+"
 should
 be
 nonnegative
@@ -5566,7 +5570,9 @@ LOG
 frame
 time
 %
-lld
+"
+PRId64
+"
 must
 be
 nonnegative
@@ -5935,7 +5941,9 @@ LOG
 frame
 time
 %
-lld
+"
+PRId64
+"
 must
 be
 nonnegative
