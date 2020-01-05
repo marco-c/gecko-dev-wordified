@@ -3951,6 +3951,17 @@ wrapper
 case
 above
 .
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
+wrapper
+)
+{
 *
 aInstancePtr
 =
@@ -3969,6 +3980,7 @@ GetXPTCStub
 (
 )
 ;
+}
 return
 rv
 ;
