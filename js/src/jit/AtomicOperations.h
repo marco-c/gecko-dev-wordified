@@ -2543,7 +2543,9 @@ none
 /
 AtomicOperations
 -
-ppc
+feeling
+-
+lucky
 .
 h
 "
@@ -2562,7 +2564,9 @@ none
 /
 AtomicOperations
 -
-sparc
+feeling
+-
+lucky
 .
 h
 "
@@ -2694,7 +2698,9 @@ none
 /
 AtomicOperations
 -
-ppc
+feeling
+-
+lucky
 .
 h
 "
@@ -2732,7 +2738,9 @@ none
 /
 AtomicOperations
 -
-ppc
+feeling
+-
+lucky
 .
 h
 "
@@ -2751,7 +2759,9 @@ none
 /
 AtomicOperations
 -
-ppc
+feeling
+-
+lucky
 .
 h
 "
@@ -2770,7 +2780,9 @@ none
 /
 AtomicOperations
 -
-ppc
+feeling
+-
+lucky
 .
 h
 "
