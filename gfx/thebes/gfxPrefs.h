@@ -5317,7 +5317,12 @@ outer
 layers
 "
 LayersAllowOuterBoxShadow
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
