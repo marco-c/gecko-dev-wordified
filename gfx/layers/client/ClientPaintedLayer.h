@@ -608,6 +608,15 @@ protected
 void
 PaintThebes
 (
+nsTArray
+<
+ReadbackProcessor
+:
+:
+Update
+>
+*
+aReadbackUpdates
 )
 ;
 virtual

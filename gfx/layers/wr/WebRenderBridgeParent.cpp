@@ -2211,9 +2211,6 @@ WebRenderCommand
 TCompositableOperation
 :
 {
-EditReplyVector
-replyv
-;
 if
 (
 !
@@ -2224,7 +2221,6 @@ cmd
 get_CompositableOperation
 (
 )
-replyv
 )
 )
 {
