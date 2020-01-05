@@ -2643,7 +2643,7 @@ style
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -2787,7 +2787,7 @@ font_variant_caps_custom_consts
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -9056,7 +9056,7 @@ kerning
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -13219,7 +13219,7 @@ position
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -17654,11 +17654,8 @@ smooth
 animation_value_type
 =
 "
-none
+discrete
 "
-need_clone
-=
-True
 )
 }
 {

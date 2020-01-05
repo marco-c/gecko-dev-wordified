@@ -8954,7 +8954,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -9004,7 +9004,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -9084,11 +9084,8 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
-need_clone
-=
-True
 spec
 =
 "
@@ -9155,7 +9152,7 @@ geometricprecision
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

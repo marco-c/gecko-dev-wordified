@@ -1512,7 +1512,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -1591,7 +1591,7 @@ edge
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }

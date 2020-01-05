@@ -4478,7 +4478,7 @@ NS_STYLE_BLEND
 animation_value_type
 =
 "
-none
+discrete
 "
 flags
 =

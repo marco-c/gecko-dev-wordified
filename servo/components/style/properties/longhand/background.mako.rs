@@ -1239,6 +1239,11 @@ else
 vector
 =
 True
+gecko_constant_prefix
+=
+"
+NS_STYLE_IMAGELAYER_ATTACHMENT
+"
 spec
 =
 "
@@ -1266,7 +1271,7 @@ attachment
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -1304,6 +1309,11 @@ extra_prefixes
 "
 webkit
 "
+gecko_enum_prefix
+=
+"
+StyleGeometryBox
+"
 spec
 =
 "
@@ -1331,7 +1341,7 @@ clip
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -1364,6 +1374,11 @@ extra_prefixes
 "
 webkit
 "
+gecko_enum_prefix
+=
+"
+StyleGeometryBox
+"
 spec
 =
 "
@@ -1391,7 +1406,7 @@ origin
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -1539,6 +1554,11 @@ luminosity
 "
 "
 "
+gecko_constant_prefix
+=
+"
+NS_STYLE_BLEND
+"
 vector
 =
 True
@@ -1550,7 +1570,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
