@@ -288,7 +288,7 @@ to
 ARGB
 with
 matrix
-static
+LIBYUV_API
 int
 I420ToARGBMatrix
 (
@@ -1071,7 +1071,7 @@ to
 ARGB
 with
 matrix
-static
+LIBYUV_API
 int
 I422ToARGBMatrix
 (
@@ -1903,7 +1903,7 @@ to
 ARGB
 with
 matrix
-static
+LIBYUV_API
 int
 I444ToARGBMatrix
 (
