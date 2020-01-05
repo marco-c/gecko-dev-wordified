@@ -3221,11 +3221,11 @@ aFlags
 )
 {
 }
-virtual
 ~
 SimpleTransaction
 (
 )
+override
 =
 default
 ;
@@ -3233,6 +3233,7 @@ NS_IMETHOD
 DoTransaction
 (
 )
+override
 {
 /
 /
@@ -3332,6 +3333,7 @@ NS_IMETHOD
 UndoTransaction
 (
 )
+override
 {
 /
 /
@@ -3431,6 +3433,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
+override
 {
 /
 /
@@ -3533,6 +3536,7 @@ bool
 *
 aIsTransient
 )
+override
 {
 if
 (
@@ -3567,6 +3571,7 @@ bool
 *
 aDidMerge
 )
+override
 {
 if
 (
@@ -3730,11 +3735,11 @@ mNumChildrenPerNode
 aNumChildrenPerNode
 ;
 }
-virtual
 ~
 AggregateTransaction
 (
 )
+override
 =
 default
 ;
@@ -3742,6 +3747,7 @@ NS_IMETHOD
 DoTransaction
 (
 )
+override
 {
 if
 (
@@ -4094,6 +4100,7 @@ txmgr
 int32_t
 flags
 )
+override
 {
 return
 (
@@ -4154,7 +4161,6 @@ aFixedFlags
 )
 {
 }
-virtual
 TestTransaction
 *
 create
@@ -4165,6 +4171,7 @@ txmgr
 int32_t
 flags
 )
+override
 {
 return
 (
