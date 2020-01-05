@@ -882,10 +882,11 @@ to
 reflect
 that
 .
-delete
 this
 .
 _openedURL
+=
+null
 ;
 this
 .
