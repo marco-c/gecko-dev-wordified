@@ -3345,11 +3345,12 @@ ports
 port
 ]
 ;
-do
-task
-:
-:
-spawn
+spawn_named
+(
+"
+should_get_glyph_advance_stress
+"
+)
 {
 let
 fctx

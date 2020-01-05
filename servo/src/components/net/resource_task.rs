@@ -898,6 +898,9 @@ chan
 =
 spawn_listener
 (
+"
+ResourceManager
+"
 proc
 (
 from_client
