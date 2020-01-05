@@ -1424,6 +1424,8 @@ GetVersion
 (
 modulePath
 )
+"
+"
 )
 ;
 sharedLibraryInfo
