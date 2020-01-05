@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsIDOMCSSRule
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
