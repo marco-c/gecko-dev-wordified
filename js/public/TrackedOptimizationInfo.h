@@ -591,6 +591,11 @@ OperandNotSimpleArith
 \
 _
 (
+OperandNotEasilyCoercibleToString
+)
+\
+_
+(
 StaticTypedArrayUint32
 )
 \
