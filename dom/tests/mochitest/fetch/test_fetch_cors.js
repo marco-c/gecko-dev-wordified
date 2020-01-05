@@ -5248,9 +5248,14 @@ isUnsafeHeader
 .
 map
 (
-String
+s
+=
+>
+s
 .
 toLowerCase
+(
+)
 )
 .
 sort

@@ -1670,11 +1670,11 @@ c
 )
 {
 return
-String
+c
 .
 charCodeAt
 (
-c
+0
 )
 }
 )
