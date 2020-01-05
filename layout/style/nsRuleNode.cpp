@@ -28060,11 +28060,6 @@ mNext
 {
 gfxFontFeature
 feat
-=
-{
-0
-0
-}
 ;
 MOZ_ASSERT
 (
@@ -28105,6 +28100,11 @@ p
 mXValue
 .
 GetStringValue
+(
+tag
+)
+;
+AssertValidFontTag
 (
 tag
 )
