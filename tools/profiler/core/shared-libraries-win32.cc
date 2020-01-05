@@ -1335,7 +1335,7 @@ pos
 }
 }
 nsAutoString
-moduleName
+moduleNameStr
 (
 modulePath
 )
@@ -1343,7 +1343,7 @@ modulePath
 int32_t
 pos
 =
-moduleName
+moduleNameStr
 .
 RFindChar
 (
@@ -1361,7 +1361,7 @@ pos
 kNotFound
 )
 {
-moduleName
+moduleNameStr
 .
 Cut
 (
@@ -1404,7 +1404,7 @@ offset
 on
 Windows
 breakpadId
-moduleName
+moduleNameStr
 pdbNameStr
 GetVersion
 (
