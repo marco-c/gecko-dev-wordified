@@ -99,10 +99,9 @@ dump
 (
 manifest
 f
-                  
 indent
 =
-0
+2
 separators
 =
 (

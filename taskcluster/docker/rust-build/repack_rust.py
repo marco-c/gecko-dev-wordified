@@ -34,6 +34,8 @@ environment
 '
 '
 import
+argparse
+import
 os
 .
 path
@@ -47,6 +49,24 @@ import
 subprocess
 import
 toml
+def
+log
+(
+msg
+)
+:
+    
+print
+(
+'
+repack
+:
+%
+s
+'
+%
+msg
+)
 def
 fetch_file
 (
@@ -230,7 +250,7 @@ basename
 url
 )
     
-print
+log
 (
 '
 Fetching
@@ -269,19 +289,7 @@ sha256
 '
 )
     
-fetch_file
-(
-url
-+
-'
-.
-asc
-.
-sha256
-'
-)
-    
-print
+log
 (
 '
 Verifying
@@ -325,27 +333,6 @@ subprocess
 check_call
 (
 [
-shasum
-'
--
-c
-'
-base
-+
-'
-.
-asc
-.
-sha256
-'
-]
-)
-    
-subprocess
-.
-check_call
-(
-[
 '
 gpg
 '
@@ -365,7 +352,7 @@ base
 )
     
 if
-False
+True
 :
         
 subprocess
@@ -429,7 +416,7 @@ directory
 '
 '
     
-print
+log
 (
 '
 Unpacking
@@ -483,6 +470,7 @@ in
 1
 .
 15
++
 cargo
 packages
 .
@@ -534,7 +522,7 @@ nightly
 basename
 )
     
-print
+log
 (
 '
 Installing
@@ -607,7 +595,7 @@ check_call
 install_cmd
 )
     
-print
+log
 (
 '
 Cleaning
@@ -730,7 +718,7 @@ pkg
 host
 )
     
-print
+log
 (
 '
 %
@@ -775,7 +763,7 @@ available
 ]
 :
         
-print
+log
 (
 '
 %
@@ -917,7 +905,7 @@ suffix
 )
 :
     
-print
+log
 (
 "
 Repacking
@@ -1005,7 +993,7 @@ version
 '
 :
         
-print
+log
 (
 '
 ERROR
@@ -1018,9 +1006,9 @@ s
 .
 '
 %
+              
 manifest
 [
-            
 '
 manifest
 -
@@ -1031,7 +1019,7 @@ version
         
 return
     
-print
+log
 (
 '
 Using
@@ -1058,7 +1046,7 @@ date
 )
 )
     
-print
+log
 (
 '
 Fetching
@@ -1099,7 +1087,7 @@ manifest
 targets
 )
     
-print
+log
 (
 '
 Installing
@@ -1224,7 +1212,7 @@ install_dir
         
 pass
     
-print
+log
 (
 '
 Tarring
@@ -1290,9 +1278,9 @@ nightly
 )
 :
     
-print
+log
 (
-"
+'
 Repacking
 cargo
 for
@@ -1301,7 +1289,7 @@ s
 .
 .
 .
-"
+'
 %
 host
 )
@@ -1412,7 +1400,7 @@ not
 file
 :
         
-print
+log
 (
 '
 No
@@ -1512,7 +1500,7 @@ True
     
 }
     
-print
+log
 (
 '
 Using
@@ -1527,7 +1515,7 @@ s
 channel
 )
     
-print
+log
 (
 '
 Fetching
@@ -1549,7 +1537,7 @@ cargo
 host
 )
     
-print
+log
 (
 '
 Installing
@@ -1613,7 +1601,7 @@ repack
 %
 host
     
-print
+log
 (
 '
 Tarring
@@ -1751,6 +1739,88 @@ windows
 -
 msvc
 "
+def
+args
+(
+)
+:
+    
+'
+'
+'
+Read
+command
+line
+arguments
+and
+return
+options
+.
+'
+'
+'
+    
+parser
+=
+argparse
+.
+ArgumentParser
+(
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
+channel
+'
+help
+=
+'
+Release
+channel
+to
+use
+:
+'
+                                          
+'
+stable
+beta
+or
+nightly
+'
+)
+    
+args
+=
+parser
+.
+parse_args
+(
+)
+    
+if
+args
+.
+channel
+:
+        
+return
+args
+.
+channel
+    
+else
+:
+        
+return
+'
+stable
+'
 if
 __name__
 =
@@ -1760,6 +1830,12 @@ __main__
 '
 :
     
+channel
+=
+args
+(
+)
+    
 repack
 (
 mac64
@@ -1767,6 +1843,9 @@ mac64
 mac64
 mac32
 ]
+channel
+=
+channel
 )
     
 repack
@@ -1775,6 +1854,9 @@ win32
 [
 win32
 ]
+channel
+=
+channel
 )
     
 repack
@@ -1783,6 +1865,9 @@ win64
 [
 win64
 ]
+channel
+=
+channel
 )
     
 repack
@@ -1792,6 +1877,9 @@ linux64
 linux64
 linux32
 ]
+channel
+=
+channel
 )
     
 repack
@@ -1802,6 +1890,10 @@ linux64
 mac64
 mac32
 ]
+           
+channel
+=
+channel
 suffix
 =
 '
@@ -1819,6 +1911,10 @@ linux64
 android
 android_x86
 ]
+           
+channel
+=
+channel
 suffix
 =
 '
