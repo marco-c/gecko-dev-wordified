@@ -2329,6 +2329,12 @@ dismissSiteIdentityPopup
 (
 )
 ;
+urlEditLayout
+.
+refresh
+(
+)
+;
 }
 public
 boolean
