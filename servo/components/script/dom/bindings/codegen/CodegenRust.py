@@ -39863,12 +39863,6 @@ getBody
 (
 )
 )
-#
-TODO
-(
-Issue
-5876
-)
 class
 CGDOMJSProxyHandler_defineProperty
 (

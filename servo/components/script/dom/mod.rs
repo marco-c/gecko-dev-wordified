@@ -2933,6 +2933,10 @@ htmloptionelement
 ;
 pub
 mod
+htmloptionscollection
+;
+pub
+mod
 htmloutputelement
 ;
 pub
