@@ -145,10 +145,11 @@ tab
 ;
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL_PUBLIC
 )
 ;
@@ -172,10 +173,11 @@ tab
 ;
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

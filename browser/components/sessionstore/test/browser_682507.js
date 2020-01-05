@@ -48,10 +48,11 @@ restore_on_demand
 true
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

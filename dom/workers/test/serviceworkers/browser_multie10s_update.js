@@ -163,10 +163,11 @@ tab
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 ;
@@ -204,10 +205,11 @@ tab
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 ;

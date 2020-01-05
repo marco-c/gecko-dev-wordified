@@ -95,10 +95,11 @@ reshow
 let
 tabB
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :
@@ -124,10 +125,11 @@ linkedBrowser
 let
 tabC
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

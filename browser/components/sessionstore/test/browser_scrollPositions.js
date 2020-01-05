@@ -245,10 +245,11 @@ test_scroll
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;
@@ -613,10 +614,11 @@ test_scroll_nested
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL_FRAMESET
 )
 ;

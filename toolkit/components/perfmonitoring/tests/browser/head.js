@@ -201,10 +201,11 @@ this
 .
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 ;

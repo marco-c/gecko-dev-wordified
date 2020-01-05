@@ -465,10 +465,11 @@ of
 the
 test
 .
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

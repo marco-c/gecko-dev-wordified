@@ -237,10 +237,11 @@ remembering
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 PAGE
 )
 ;

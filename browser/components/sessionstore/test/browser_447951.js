@@ -192,10 +192,11 @@ max_serialize_forward
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 promiseBrowserLoaded

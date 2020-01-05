@@ -838,10 +838,11 @@ one
 let
 bgTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -1174,10 +1175,11 @@ one
 let
 bgTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

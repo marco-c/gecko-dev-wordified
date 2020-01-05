@@ -106,10 +106,11 @@ tab
 let
 baseTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testURL
 )
 ;
@@ -170,10 +171,11 @@ true
 let
 testTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 /

@@ -75,10 +75,11 @@ addons
 let
 blanktab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

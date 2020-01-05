@@ -1628,10 +1628,11 @@ host
 ;
 gTestTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 ;

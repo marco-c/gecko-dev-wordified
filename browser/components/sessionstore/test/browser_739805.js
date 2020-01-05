@@ -157,10 +157,11 @@ restore_on_demand
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

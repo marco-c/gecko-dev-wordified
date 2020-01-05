@@ -1016,10 +1016,11 @@ again
 restore
 the
 tabs
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;

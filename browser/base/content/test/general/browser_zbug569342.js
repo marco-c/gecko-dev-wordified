@@ -42,10 +42,11 @@ cb
 {
 gTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 ;

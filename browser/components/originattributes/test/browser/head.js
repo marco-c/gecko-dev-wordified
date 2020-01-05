@@ -256,10 +256,11 @@ userContextId
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 aURL
 {
 userContextId
@@ -578,10 +579,11 @@ page
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 basicPageURL
 )
 ;

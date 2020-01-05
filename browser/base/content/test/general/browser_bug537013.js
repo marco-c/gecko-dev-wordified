@@ -145,10 +145,11 @@ aCallback
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 data
 :

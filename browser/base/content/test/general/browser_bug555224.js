@@ -200,10 +200,11 @@ changed
 ;
 gBgTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await
@@ -261,10 +262,11 @@ function
 {
 gTestTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

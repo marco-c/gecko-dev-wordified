@@ -180,10 +180,11 @@ test_revive_bg_tabs_on_demand
 let
 newTab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 PAGE_1
 )
 ;
@@ -203,10 +204,11 @@ newTab1
 let
 newTab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 PAGE_2
 )
 ;

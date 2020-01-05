@@ -338,10 +338,11 @@ BrowserTestUtils
 switchTab
 (
 gBrowser
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 )
 ;

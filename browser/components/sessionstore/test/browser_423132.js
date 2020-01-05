@@ -121,10 +121,11 @@ interval
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testURL
 )
 ;

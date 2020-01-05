@@ -53,10 +53,11 @@ waitForExplicitFinish
 ;
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

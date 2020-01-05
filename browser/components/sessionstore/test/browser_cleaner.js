@@ -306,10 +306,11 @@ test_open_and_close
 let
 newTab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL_TAB1
 )
 ;
@@ -324,10 +325,11 @@ linkedBrowser
 let
 newTab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL_TAB2
 )
 ;

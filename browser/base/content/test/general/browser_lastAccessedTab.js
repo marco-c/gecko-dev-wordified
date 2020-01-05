@@ -174,10 +174,11 @@ timestamp
 ;
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

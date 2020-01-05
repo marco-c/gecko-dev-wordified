@@ -140,10 +140,11 @@ url
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TAB_URL
 )
 ;

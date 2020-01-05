@@ -715,10 +715,11 @@ element
 as
 returned
 by
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 *
 -

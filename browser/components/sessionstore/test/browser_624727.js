@@ -127,10 +127,11 @@ far
 /
 /
 setup
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

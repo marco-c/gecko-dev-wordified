@@ -161,10 +161,11 @@ one
 tab
 open
 .
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

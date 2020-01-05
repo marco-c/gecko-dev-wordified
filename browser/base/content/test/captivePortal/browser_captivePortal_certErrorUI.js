@@ -220,10 +220,11 @@ gBrowser
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 BAD_CERT_PAGE
 )
 ;

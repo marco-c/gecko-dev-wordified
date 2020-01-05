@@ -101,10 +101,11 @@ pinned
 let
 pinned
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser
@@ -117,10 +118,11 @@ pinned
 let
 testTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 let

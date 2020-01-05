@@ -138,10 +138,11 @@ visibleTabs
 let
 hiddenTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 is
@@ -203,10 +204,11 @@ hidden
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 let

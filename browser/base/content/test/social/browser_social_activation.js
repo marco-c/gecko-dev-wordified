@@ -1795,10 +1795,11 @@ addons
 let
 addonsTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

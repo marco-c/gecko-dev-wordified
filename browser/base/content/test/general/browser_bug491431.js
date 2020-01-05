@@ -92,10 +92,11 @@ normal
 close
 tabA
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;
@@ -140,10 +141,11 @@ by
 moving
 tabB
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;

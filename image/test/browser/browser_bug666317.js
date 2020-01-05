@@ -488,10 +488,11 @@ selectedTab
 ;
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 '
 data
 :

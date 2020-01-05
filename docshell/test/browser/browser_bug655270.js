@@ -127,10 +127,11 @@ waitForExplicitFinish
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 origURL
 )
 ;

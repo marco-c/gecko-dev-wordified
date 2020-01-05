@@ -224,10 +224,11 @@ restored
 let
 unrestoredTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

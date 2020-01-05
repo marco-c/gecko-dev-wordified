@@ -195,10 +195,11 @@ waitForExplicitFinish
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 doc
 )
 ;

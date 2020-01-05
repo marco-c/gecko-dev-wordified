@@ -65,10 +65,11 @@ waitForExplicitFinish
 ;
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser
@@ -92,10 +93,11 @@ function
 {
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

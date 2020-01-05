@@ -218,10 +218,11 @@ length
 =
 1
 )
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

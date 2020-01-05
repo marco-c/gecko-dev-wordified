@@ -359,10 +359,11 @@ ctx
 .
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPath
 +
 "
@@ -547,10 +548,11 @@ ctx
 .
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPath
 +
 "

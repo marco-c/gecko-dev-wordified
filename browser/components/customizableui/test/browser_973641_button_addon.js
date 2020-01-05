@@ -149,10 +149,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -471,10 +472,11 @@ restore
 the
 initial
 tab
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;

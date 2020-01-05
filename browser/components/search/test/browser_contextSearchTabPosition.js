@@ -267,10 +267,11 @@ TabOpen
 tabAdded
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

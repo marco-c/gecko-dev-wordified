@@ -116,10 +116,11 @@ n
 +
 +
 )
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 }

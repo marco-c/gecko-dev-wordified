@@ -284,10 +284,11 @@ waitForExplicitFinish
 var
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

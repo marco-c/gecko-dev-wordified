@@ -5330,10 +5330,11 @@ test_rotateGestures
 {
 test_imageTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 chrome
 :

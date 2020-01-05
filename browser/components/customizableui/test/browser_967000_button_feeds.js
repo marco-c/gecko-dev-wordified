@@ -460,10 +460,11 @@ restore
 the
 initial
 location
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;
