@@ -406,7 +406,7 @@ return
 }
 }
 void
-GetType
+GetInternalType
 (
 nsAString
 &
@@ -419,6 +419,14 @@ aType
 mType
 ;
 }
+void
+GetType
+(
+nsAString
+&
+aType
+)
+;
 eKind
 Kind
 (
