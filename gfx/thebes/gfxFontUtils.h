@@ -4597,7 +4597,7 @@ aCharacterMap
 ;
 static
 nsresult
-ReadCMAPTableFormat12or13
+ReadCMAPTableFormat12
 (
 const
 uint8_t
@@ -4719,7 +4719,7 @@ aCh
 ;
 static
 uint32_t
-MapCharToGlyphFormat12or13
+MapCharToGlyphFormat12
 (
 const
 uint8_t
