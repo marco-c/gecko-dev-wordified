@@ -125,11 +125,13 @@ blank
 let
 promiseTabLoaded
 =
-promiseTabLoadEvent
+BrowserTestUtils
+.
+browserLoaded
 (
 gBrowser
 .
-selectedTab
+selectedBrowser
 )
 ;
 EventUtils

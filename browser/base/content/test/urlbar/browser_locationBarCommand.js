@@ -398,7 +398,9 @@ window
 Cleanup
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )

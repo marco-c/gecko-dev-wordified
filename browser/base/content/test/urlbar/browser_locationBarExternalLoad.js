@@ -228,7 +228,9 @@ selectedBrowser
 let
 pageshowPromise
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForContentEvent
 (
 browser
 "
@@ -255,7 +257,9 @@ url
 )
 ;
 yield
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForContentEvent
 (
 browser
 "
