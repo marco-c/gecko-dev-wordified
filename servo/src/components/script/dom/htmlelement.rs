@@ -267,6 +267,15 @@ use
 servo_util
 :
 :
+atom
+:
+:
+Atom
+;
+use
+servo_util
+:
+:
 namespace
 ;
 use
@@ -758,7 +767,8 @@ after_set_attr
 self
 name
 :
-DOMString
+&
+Atom
 value
 :
 DOMString
@@ -783,10 +793,6 @@ s
 after_set_attr
 (
 name
-.
-clone
-(
-)
 value
 .
 clone
