@@ -1,8 +1,6 @@
-#
-[
-doc
-=
-"
+/
+*
+!
 The
 content
 task
@@ -18,8 +16,8 @@ spawns
 layout
 tasks
 .
-"
-]
+*
+/
 export
 ContentTask
 ;
@@ -422,11 +420,9 @@ start
 ;
 }
 }
-#
-[
-doc
-=
-"
+/
+/
+/
 Sends
 a
 ping
@@ -437,9 +433,6 @@ waits
 for
 the
 response
-.
-"
-]
 #
 [
 allow
