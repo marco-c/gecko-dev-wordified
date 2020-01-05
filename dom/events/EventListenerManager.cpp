@@ -406,13 +406,6 @@ h
 #
 include
 "
-nsHtml5Atoms
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -10497,7 +10490,7 @@ onDOMMouseScroll
 aEvent
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 onmousewheel

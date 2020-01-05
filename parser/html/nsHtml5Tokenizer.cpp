@@ -336,7 +336,7 @@ h
 #
 include
 "
-nsHtml5Atoms
+nsGkAtoms
 .
 h
 "
@@ -18776,10 +18776,10 @@ clearStrBufAfterUse
 ;
 doctypeName
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
-emptystring
+_empty
 ;
 if
 (
@@ -19530,10 +19530,10 @@ errEofInDoctype
 ;
 doctypeName
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
-emptystring
+_empty
 ;
 if
 (

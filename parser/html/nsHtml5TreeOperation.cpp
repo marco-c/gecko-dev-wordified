@@ -1965,7 +1965,7 @@ isKeygen
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 keygen
@@ -1987,7 +1987,7 @@ isKeygen
 {
 aName
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 select
@@ -2091,7 +2091,7 @@ MOZ_UNLIKELY
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -2100,7 +2100,7 @@ style
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 link
@@ -2240,7 +2240,7 @@ aNodeInfoManager
 >
 GetNodeInfo
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 option
@@ -2514,7 +2514,7 @@ aNs
 kNameSpaceID_XHTML
 &
 &
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 a
@@ -2523,7 +2523,7 @@ a
 aName
 &
 &
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 name

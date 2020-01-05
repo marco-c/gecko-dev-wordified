@@ -686,7 +686,7 @@ kNameSpaceID_XHTML
 :
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 img
@@ -785,7 +785,7 @@ sizes
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 source
@@ -918,7 +918,7 @@ media
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 script
@@ -1092,7 +1092,7 @@ ATTR_DEFER
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 link
@@ -1302,7 +1302,7 @@ crossOrigin
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 video
@@ -1351,7 +1351,7 @@ nullptr
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -1401,7 +1401,7 @@ getLineNumber
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 html
@@ -1440,7 +1440,7 @@ url
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 base
@@ -1485,7 +1485,7 @@ url
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 meta
@@ -1619,7 +1619,7 @@ kNameSpaceID_SVG
 :
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 image
@@ -1668,7 +1668,7 @@ nullptr
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 script
@@ -1803,7 +1803,7 @@ IN_HEAD
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -1943,7 +1943,7 @@ async
 check
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -1993,7 +1993,7 @@ getLineNumber
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 script
@@ -2099,7 +2099,7 @@ kNameSpaceID_XHTML
 {
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 html
@@ -2198,7 +2198,7 @@ EmptyString
 else
 if
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 base
@@ -2382,7 +2382,7 @@ content
 createElement
 (
 kNameSpaceID_XHTML
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 html
@@ -4820,7 +4820,7 @@ MAX_REFLOW_DEPTH
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 script
@@ -4829,7 +4829,7 @@ script
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 table
@@ -4838,7 +4838,7 @@ table
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 thead
@@ -4847,7 +4847,7 @@ thead
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 tfoot
@@ -4856,7 +4856,7 @@ tfoot
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 tbody
@@ -4865,7 +4865,7 @@ tbody
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 tr
@@ -4874,7 +4874,7 @@ tr
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 colgroup
@@ -4883,7 +4883,7 @@ colgroup
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -4911,7 +4911,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 body
@@ -4920,7 +4920,7 @@ body
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 frameset
@@ -4983,7 +4983,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 input
@@ -4992,7 +4992,7 @@ input
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 button
@@ -5043,7 +5043,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 audio
@@ -5052,7 +5052,7 @@ audio
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 video
@@ -5061,7 +5061,7 @@ video
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 menuitem
@@ -5115,7 +5115,7 @@ mSpeculativeLoadStage
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 picture
@@ -5288,7 +5288,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 script
@@ -5450,7 +5450,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 title
@@ -5518,7 +5518,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 style
@@ -5534,7 +5534,7 @@ kNameSpaceID_XHTML
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 link
@@ -5629,7 +5629,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 svg
@@ -5740,7 +5740,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 object
@@ -5749,7 +5749,7 @@ object
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 applet
@@ -5758,7 +5758,7 @@ applet
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 select
@@ -5767,7 +5767,7 @@ select
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 textarea
@@ -5776,7 +5776,7 @@ textarea
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 output
@@ -5844,7 +5844,7 @@ if
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 meta
@@ -5900,7 +5900,7 @@ mSpeculativeLoadStage
 aName
 =
 =
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 picture
