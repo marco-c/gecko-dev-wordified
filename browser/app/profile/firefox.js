@@ -332,6 +332,16 @@ customConfirmationUI
 true
 )
 ;
+pref
+(
+"
+extensions
+.
+webextPermissionPrompts
+"
+true
+)
+;
 /
 /
 Preferences
