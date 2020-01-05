@@ -130,6 +130,9 @@ dromaeo
 /
 web
 /
+index
+.
+html
 ?
 {
 1
