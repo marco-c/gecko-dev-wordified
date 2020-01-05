@@ -2202,6 +2202,9 @@ nsIAudioChannelAgent
 >
 mAudioChannelAgent
 ;
+bool
+mMuted
+;
 }
 ;
 /
