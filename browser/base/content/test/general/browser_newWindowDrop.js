@@ -260,8 +260,15 @@ function
 {
 CustomizableUI
 .
-reset
+removeWidgetFromArea
 (
+"
+new
+-
+window
+-
+button
+"
 )
 ;
 }
