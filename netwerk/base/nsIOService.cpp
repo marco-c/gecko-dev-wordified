@@ -3237,7 +3237,7 @@ rv
 }
 #
 ifdef
-MOZ_ENABLE_GIO
+MOZ_WIDGET_GTK
 /
 /
 check
