@@ -45425,17 +45425,19 @@ checkFn
 true
 =
 >
-unsafe
-{
 Some
 (
-base
-.
+unsafe
+{
+mem
+:
+:
 transmute
 (
-)
+base
 )
 }
+)
             
 false
 =
@@ -45514,17 +45516,19 @@ checkFn
 true
 =
 >
-unsafe
-{
 Some
 (
-base
-.
-transmute_borrowed
+unsafe
+{
+mem
+:
+:
+transmute
 (
-)
+base
 )
 }
+)
             
 false
 =
@@ -45610,10 +45614,12 @@ true
 >
 Some
 (
-base
-.
+mem
+:
+:
 transmute_copy
 (
+base
 )
 )
                 
@@ -45669,28 +45675,16 @@ name
 >
 {
         
-let
-base
-=
+match
 base
 .
 root
 (
 )
-;
-        
-let
-base
-=
-base
 .
 r
 (
 )
-;
-        
-match
-base
 .
 {
 checkFn
@@ -45704,20 +45698,16 @@ true
 >
 Some
 (
-Temporary
-:
-:
-from_rooted
-(
 unsafe
 {
-base
-.
+mem
+:
+:
 transmute
 (
+base
 )
 }
-)
 )
             
 false
@@ -45775,10 +45765,12 @@ name
         
 unsafe
 {
-derived
-.
+mem
+:
+:
 transmute
 (
+derived
 )
 }
     
@@ -45838,10 +45830,12 @@ name
         
 unsafe
 {
-derived
-.
-transmute_borrowed
+mem
+:
+:
+transmute
 (
+derived
 )
 }
     
@@ -45896,10 +45890,12 @@ name
         
 unsafe
 {
-derived
-.
+mem
+:
+:
 transmute_copy
 (
+derived
 )
 }
     
@@ -45945,10 +45941,12 @@ name
         
 unsafe
 {
-derived
-.
+mem
+:
+:
 transmute
 (
+derived
 )
 }
     
