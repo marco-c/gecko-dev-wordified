@@ -1261,14 +1261,7 @@ context
 )
 ;
 TickSample
-sample_obj
-;
-TickSample
-*
 sample
-=
-&
-sample_obj
 ;
 /
 /
@@ -1284,8 +1277,7 @@ avoid
 deadlocks
 .
 sample
--
->
+.
 timestamp
 =
 mozilla
@@ -1299,8 +1291,7 @@ Now
 )
 ;
 sample
--
->
+.
 threadInfo
 =
 aThreadInfo
@@ -1314,8 +1305,7 @@ gProfileMemory
 )
 {
 sample
--
->
+.
 rssMemory
 =
 nsMemoryReporterManager
@@ -1329,8 +1319,7 @@ ResidentFast
 else
 {
 sample
--
->
+.
 rssMemory
 =
 0
@@ -1348,8 +1337,7 @@ on
 Windows
 .
 sample
--
->
+.
 ussMemory
 =
 0
@@ -1511,8 +1499,7 @@ defined
 GP_ARCH_amd64
 )
 sample
--
->
+.
 pc
 =
 reinterpret_cast
@@ -1526,8 +1513,7 @@ Rip
 )
 ;
 sample
--
->
+.
 sp
 =
 reinterpret_cast
@@ -1541,8 +1527,7 @@ Rsp
 )
 ;
 sample
--
->
+.
 fp
 =
 reinterpret_cast
@@ -1558,8 +1543,7 @@ Rbp
 #
 else
 sample
--
->
+.
 pc
 =
 reinterpret_cast
@@ -1573,8 +1557,7 @@ Eip
 )
 ;
 sample
--
->
+.
 sp
 =
 reinterpret_cast
@@ -1588,8 +1571,7 @@ Esp
 )
 ;
 sample
--
->
+.
 fp
 =
 reinterpret_cast
@@ -1605,8 +1587,7 @@ Ebp
 #
 endif
 sample
--
->
+.
 context
 =
 &
@@ -1614,6 +1595,7 @@ context
 ;
 Tick
 (
+&
 sample
 )
 ;
