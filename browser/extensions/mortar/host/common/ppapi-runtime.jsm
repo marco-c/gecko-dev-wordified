@@ -11193,6 +11193,15 @@ js
 :
 getPrintSettings
 "
+{
+url
+:
+this
+.
+info
+.
+url
+}
 )
 ;
 break
