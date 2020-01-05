@@ -632,6 +632,9 @@ to
 figure
 it
 out
+#
+ifndef
+OS_SOLARIS
 timestruct
 .
 tm_gmtoff
@@ -666,6 +669,8 @@ mktime
 /
 timegm
 ignore
+#
+endif
 time_t
 seconds
 ;

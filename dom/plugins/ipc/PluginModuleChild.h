@@ -1425,6 +1425,12 @@ defined
 (
 OS_BSD
 )
+|
+|
+defined
+(
+OS_SOLARIS
+)
 NP_PLUGINUNIXINIT
 mInitializeFunc
 ;
