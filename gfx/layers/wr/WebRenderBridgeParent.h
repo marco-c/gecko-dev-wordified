@@ -492,8 +492,7 @@ ActorDestroyReason
 aWhy
 )
 override
-{
-}
+;
 /
 /
 CompositorVsyncSchedulerOwner
@@ -561,6 +560,11 @@ commands
 ;
 void
 ScheduleComposition
+(
+)
+;
+void
+ClearResources
 (
 )
 ;
