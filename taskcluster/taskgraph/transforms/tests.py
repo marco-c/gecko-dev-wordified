@@ -6023,17 +6023,6 @@ build_type
 :
 attr_build_type
             
-#
-only
-keep
-the
-first
-portion
-of
-the
-test
-platform
-            
 '
 test_platform
 '
@@ -6045,16 +6034,6 @@ test
 -
 platform
 '
-]
-.
-split
-(
-'
-/
-'
-)
-[
-0
 ]
             
 '
