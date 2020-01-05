@@ -765,6 +765,17 @@ events
 )
 .
 *
+*
+XXX
+SVGZoomEvent
+is
+no
+more
+is
+this
+needed
+?
+*
 /
 void
 SetCurrentScaleTranslate
