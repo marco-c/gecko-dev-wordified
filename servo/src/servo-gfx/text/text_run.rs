@@ -81,7 +81,7 @@ GlyphStore
 }
 ;
 use
-servo_gfx_font
+font
 :
 :
 {
@@ -99,6 +99,13 @@ range
 :
 Range
 ;
+/
+/
+/
+A
+text
+run
+.
 pub
 struct
 TextRun
@@ -117,6 +124,7 @@ GlyphStore
 }
 /
 /
+/
 This
 is
 a
@@ -127,8 +135,6 @@ are
 normally
 sendable
 or
-/
-/
 we
 instead
 use
