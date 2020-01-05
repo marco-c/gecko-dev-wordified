@@ -824,9 +824,6 @@ Important
 )
 ]
 )
-normal_count
-:
-0
 important_count
 :
 2
@@ -1116,9 +1113,6 @@ Normal
 )
 ]
 )
-normal_count
-:
-1
 important_count
 :
 0
@@ -1518,9 +1512,6 @@ Normal
 )
 ]
 )
-normal_count
-:
-8
 important_count
 :
 0
