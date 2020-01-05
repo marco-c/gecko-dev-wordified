@@ -4833,6 +4833,12 @@ ParsingMode
 :
 :
 Default
+aDocument
+-
+>
+GetCompatibilityMode
+(
+)
 )
 .
 Consume

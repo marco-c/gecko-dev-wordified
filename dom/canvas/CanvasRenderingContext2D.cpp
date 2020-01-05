@@ -15408,6 +15408,12 @@ ParsingMode
 :
 :
 Default
+aDocument
+-
+>
+GetCompatibilityMode
+(
+)
 )
 .
 Consume
@@ -15493,6 +15499,12 @@ ParsingMode
 :
 :
 Default
+aDocument
+-
+>
+GetCompatibilityMode
+(
+)
 )
 ;
 }

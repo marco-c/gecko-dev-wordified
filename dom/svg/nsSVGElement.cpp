@@ -7688,6 +7688,17 @@ ParsingMode
 :
 :
 AllowUnitlessLength
+mElement
+-
+>
+OwnerDoc
+(
+)
+-
+>
+GetCompatibilityMode
+(
+)
 )
 ;
 }

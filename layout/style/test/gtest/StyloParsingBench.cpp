@@ -254,6 +254,7 @@ eAuthorSheetFeatures
 nullptr
 data
 0
+eCompatibility_FullStandards
 )
 .
 Consume

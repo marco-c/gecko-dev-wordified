@@ -282,6 +282,8 @@ RawGeckoURLExtraData
 extra_data
 uint32_t
 line_number_offset
+nsCompatibility
+quirks_mode
 )
 SERVO_BINDING_FUNC
 (
@@ -799,6 +801,8 @@ mozilla
 :
 ParsingMode
 parsing_mode
+nsCompatibility
+quirks_mode
 )
 SERVO_BINDING_FUNC
 (
@@ -1095,6 +1099,8 @@ mozilla
 :
 ParsingMode
 parsing_mode
+nsCompatibility
+quirks_mode
 )
 SERVO_BINDING_FUNC
 (
@@ -1118,6 +1124,8 @@ mozilla
 :
 ParsingMode
 parsing_mode
+nsCompatibility
+quirks_mode
 )
 SERVO_BINDING_FUNC
 (

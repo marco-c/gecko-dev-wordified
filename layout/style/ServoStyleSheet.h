@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsCompatibility
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -447,6 +454,8 @@ nsIPrincipal
 aSheetPrincipal
 uint32_t
 aLineNumber
+nsCompatibility
+aCompatMode
 )
 ;
 /
