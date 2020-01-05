@@ -322,8 +322,8 @@ kTestServiceCID
 NS_TEST_SERVICE_CID
 )
 ;
-int
-main
+void
+JustTestingCompilation
 (
 )
 {
@@ -603,8 +603,5 @@ myInterfaceRequestor
 &
 myITestService
 )
-;
-return
-0
 ;
 }
