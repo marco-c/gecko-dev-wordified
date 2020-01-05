@@ -441,6 +441,17 @@ set
 RawGeckoFontFaceRuleListBorrowedMut
 list
 )
+SERVO_BINDING_FUNC
+(
+Servo_StyleSet_ResolveForDeclarations
+ServoComputedValuesStrong
+RawServoStyleSetBorrowed
+set
+ServoComputedValuesBorrowedOrNull
+parent_style
+RawServoDeclarationBlockBorrowed
+declarations
+)
 /
 /
 CSSRuleList
