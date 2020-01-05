@@ -637,6 +637,16 @@ float
 aValue
 )
 ;
+inline
+void
+SetLengthValue
+(
+nsCSSPropertyID
+aId
+nsCSSValue
+aValue
+)
+;
 /
 /
 Set
