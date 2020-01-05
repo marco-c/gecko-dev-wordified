@@ -382,8 +382,6 @@ inited
 :
 false
 init
-:
-function
 (
 )
 {
