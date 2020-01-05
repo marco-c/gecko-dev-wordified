@@ -478,8 +478,9 @@ tlsc
 .
 statistics
 .
-compute_traversal_time
+finish
 (
+traversal
 start_time
 .
 unwrap

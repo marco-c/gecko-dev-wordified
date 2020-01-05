@@ -110,7 +110,10 @@ use
 cache
 :
 :
+{
 LRUCache
+LRUCacheMutIterator
+}
 ;
 use
 cascade_info
@@ -262,15 +265,6 @@ hash_map
 :
 :
 Entry
-;
-use
-std
-:
-:
-slice
-:
-:
-IterMut
 ;
 use
 std
@@ -2440,7 +2434,7 @@ self
 )
 -
 >
-IterMut
+LRUCacheMutIterator
 <
 StyleSharingCandidate
 <
