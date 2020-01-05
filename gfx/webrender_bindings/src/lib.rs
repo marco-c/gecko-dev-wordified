@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+deny
+(
+warnings
+)
+]
 extern
 crate
 webrender
