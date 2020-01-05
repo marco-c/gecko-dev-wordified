@@ -1267,6 +1267,13 @@ _
 None
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 get_or_init_webgl_context
@@ -1345,6 +1352,8 @@ ref
 attrs
 )
 =
+unsafe
+{
 WebGLContextAttributes
 :
 :
@@ -1353,6 +1362,7 @@ new
 cx
 webgl_attributes
 )
+}
 {
 From
 :

@@ -1011,6 +1011,13 @@ url
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 dispatch_mozbrowser_event
@@ -1099,6 +1106,11 @@ self
 )
 ;
 let
+custom_event
+=
+unsafe
+{
+let
 cx
 =
 window
@@ -1173,9 +1185,6 @@ handle_mut
 )
 )
 ;
-let
-custom_event
-=
 CustomEvent
 :
 :
@@ -1212,6 +1221,7 @@ handle
 (
 )
 )
+}
 ;
 custom_event
 .
