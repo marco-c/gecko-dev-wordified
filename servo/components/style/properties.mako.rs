@@ -75,11 +75,6 @@ makotemplates
 .
 org
 /
-#
-!
-[
-macro_use
-]
 use
 std
 :
