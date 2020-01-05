@@ -1654,7 +1654,6 @@ onFrecencyChanged
 :
 function
 (
-aURI
 )
 {
 if
