@@ -52,11 +52,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Test

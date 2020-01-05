@@ -61,7 +61,6 @@ MPL
 globals
 addMessageListener
 sendAsyncMessage
-docShell
 *
 /
 "
