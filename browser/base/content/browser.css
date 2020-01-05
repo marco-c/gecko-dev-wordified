@@ -170,7 +170,9 @@ var
 -
 lwt
 -
-textcolor
+text
+-
+color
 )
 !
 important
@@ -203,7 +205,9 @@ var
 -
 lwt
 -
-accentcolor
+accent
+-
+color
 )
 !
 important
@@ -3329,7 +3333,9 @@ var
 -
 lwt
 -
-accentcolor
+accent
+-
+color
 )
 ;
 background
