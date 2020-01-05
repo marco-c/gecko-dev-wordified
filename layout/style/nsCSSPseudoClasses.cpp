@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsIMozBrowserFrame
 .
 h
