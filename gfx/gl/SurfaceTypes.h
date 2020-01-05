@@ -330,7 +330,6 @@ EGLImageShare
 EGLSurfaceANGLE
 DXGLInterop
 DXGLInterop2
-Gralloc
 IOSurface
 GLXDrawable
 SharedGLTexture

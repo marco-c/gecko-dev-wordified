@@ -1033,12 +1033,7 @@ MOZ_WIDGET_ANDROID
 )
 /
 /
-Both
 Android
-and
-b2g
-on
-phones
 are
 guaranteed
 to
@@ -4396,8 +4391,6 @@ is
 only
 respected
 on
-B2G
-and
 OSX
 where
 it

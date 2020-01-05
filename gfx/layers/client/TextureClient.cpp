@@ -2616,14 +2616,6 @@ owns
 our
 data
 .
-This
-is
-specific
-to
-the
-gralloc
-SharedSurface
-.
 bool
 shouldDeallocate
 =

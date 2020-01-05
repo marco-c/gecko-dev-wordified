@@ -216,17 +216,6 @@ mozilla
 /
 layers
 /
-GonkNativeHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersTypes
 .
 h

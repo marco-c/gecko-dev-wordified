@@ -360,8 +360,6 @@ process
 using
 shmem
 or
-gralloc
-or
 other
 platform
 specific

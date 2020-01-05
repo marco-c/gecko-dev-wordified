@@ -1769,11 +1769,6 @@ may
 /
 want
 to
-treat
-it
-like
-B2G
-and
 use
 linear
 zoom
@@ -1781,8 +1776,6 @@ only
 for
 the
 web
-/
-/
 browser
 process
 not

@@ -1800,9 +1800,6 @@ ANDROID
 case
 ConvertSurfaceTexture
 :
-case
-ConvertGralloc
-:
 programPtr
 =
 &
@@ -2612,9 +2609,6 @@ ifdef
 ANDROID
 case
 ConvertSurfaceTexture
-:
-case
-ConvertGralloc
 :
 #
 endif
