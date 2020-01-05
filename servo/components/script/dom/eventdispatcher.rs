@@ -69,7 +69,7 @@ callback
 ExceptionHandling
 :
 :
-ReportExceptions
+Report
 ;
 use
 dom
@@ -521,7 +521,7 @@ r
 (
 )
 event
-ReportExceptions
+Report
 )
 ;
 if
@@ -640,7 +640,7 @@ HandleEvent_
 (
 target
 event
-ReportExceptions
+Report
 )
 ;
 if
@@ -768,7 +768,7 @@ r
 (
 )
 event
-ReportExceptions
+Report
 )
 ;
 if
