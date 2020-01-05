@@ -939,6 +939,11 @@ NewLexicalEnvironmentObject
 \
 _
 (
+CopyLexicalEnvironmentObject
+)
+\
+_
+(
 FilterTypeSet
 )
 \

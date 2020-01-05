@@ -1455,6 +1455,14 @@ ins
 )
 ;
 void
+visitCopyLexicalEnvironmentObject
+(
+MCopyLexicalEnvironmentObject
+*
+ins
+)
+;
+void
 visitKeepAliveObject
 (
 MKeepAliveObject

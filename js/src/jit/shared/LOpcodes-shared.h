@@ -1683,6 +1683,11 @@ NewLexicalEnvironmentObject
 \
 _
 (
+CopyLexicalEnvironmentObject
+)
+\
+_
+(
 GetPropertyCacheV
 )
 \
