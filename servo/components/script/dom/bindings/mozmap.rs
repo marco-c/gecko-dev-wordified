@@ -245,6 +245,13 @@ dictionary
 )
 type
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 MozMap
