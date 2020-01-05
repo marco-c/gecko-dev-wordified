@@ -4330,6 +4330,13 @@ AddDestructionObserver
 this
 )
 ;
+mListener
+-
+>
+SetIsMainThreadProtocol
+(
+)
+;
 if
 (
 !
@@ -4904,6 +4911,13 @@ mWorkerLoop
 AddDestructionObserver
 (
 this
+)
+;
+mListener
+-
+>
+SetIsMainThreadProtocol
+(
 )
 ;
 if
