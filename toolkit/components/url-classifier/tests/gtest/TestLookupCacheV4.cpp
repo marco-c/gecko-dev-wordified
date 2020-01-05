@@ -389,6 +389,9 @@ bool
 has
 complete
 ;
+uint32_t
+matchLength
+;
 nsresult
 rv
 =
@@ -402,6 +405,8 @@ lookupHash
 has
 &
 complete
+&
+matchLength
 )
 ;
 EXPECT_EQ

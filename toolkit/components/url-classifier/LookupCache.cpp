@@ -2436,6 +2436,9 @@ aHas
 bool
 *
 aComplete
+uint32_t
+*
+aMatchLength
 )
 {
 *
@@ -2445,6 +2448,11 @@ aHas
 aComplete
 =
 false
+;
+*
+aMatchLength
+=
+0
 ;
 uint32_t
 prefix
@@ -2511,6 +2519,11 @@ found
 aHas
 =
 true
+;
+*
+aMatchLength
+=
+PREFIX_SIZE
 ;
 }
 if
@@ -2579,6 +2592,11 @@ true
 aHas
 =
 true
+;
+*
+aMatchLength
+=
+COMPLETE_SIZE
 ;
 }
 return

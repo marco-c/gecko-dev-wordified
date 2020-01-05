@@ -181,6 +181,9 @@ aHas
 bool
 *
 aComplete
+uint32_t
+*
+aMatchLength
 )
 override
 ;
