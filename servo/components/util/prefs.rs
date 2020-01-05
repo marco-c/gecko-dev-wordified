@@ -141,7 +141,7 @@ sync
 :
 {
 Arc
-Mutex
+RwLock
 }
 ;
 lazy_static
@@ -162,17 +162,16 @@ read_prefs
 (
 )
 .
+ok
+(
+)
+.
 unwrap_or_else
 (
-|
-_
-|
 HashMap
 :
 :
 new
-(
-)
 )
 ;
 Preferences
@@ -182,7 +181,7 @@ Arc
 :
 new
 (
-Mutex
+RwLock
 :
 :
 new
@@ -1405,7 +1404,7 @@ Preferences
 (
 Arc
 <
-Mutex
+RwLock
 <
 HashMap
 <
@@ -1441,7 +1440,7 @@ self
 .
 0
 .
-lock
+read
 (
 )
 .
@@ -1499,7 +1498,7 @@ self
 .
 0
 .
-lock
+read
 (
 )
 .
@@ -1567,7 +1566,7 @@ self
 .
 0
 .
-lock
+write
 (
 )
 .
@@ -1644,7 +1643,7 @@ self
 .
 0
 .
-lock
+write
 (
 )
 .
@@ -1769,7 +1768,7 @@ self
 .
 0
 .
-lock
+read
 (
 )
 .
@@ -1835,7 +1834,7 @@ self
 .
 0
 .
-lock
+write
 (
 )
 .
