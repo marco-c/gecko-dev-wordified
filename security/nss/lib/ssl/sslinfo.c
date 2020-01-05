@@ -3465,18 +3465,11 @@ SECFailure
 }
 else
 {
-HASH_HashType
-ht
-=
-ssl3_GetTls12HashType
-(
-ss
-)
-;
 rv
 =
 ssl3_TLSPRFWithMasterSecret
 (
+ss
 ss
 -
 >
@@ -3489,7 +3482,6 @@ val
 valLen
 out
 outLen
-ht
 )
 ;
 }
