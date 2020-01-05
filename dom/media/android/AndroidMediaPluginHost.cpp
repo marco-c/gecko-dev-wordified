@@ -124,6 +124,13 @@ h
 #
 include
 "
+MediaContentType
+.
+h
+"
+#
+include
+"
 MediaResource
 .
 h
@@ -1451,7 +1458,7 @@ AndroidMediaPluginHost
 FindDecoder
 (
 const
-nsACString
+MediaContentType
 &
 aMimeType
 const
@@ -1474,6 +1481,14 @@ len
 NS_CStringGetData
 (
 aMimeType
+.
+Type
+(
+)
+.
+AsString
+(
+)
 &
 chars
 nullptr
