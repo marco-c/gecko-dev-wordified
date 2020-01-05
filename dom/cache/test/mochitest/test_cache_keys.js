@@ -638,9 +638,11 @@ HEAD
 should
 be
 allowed
-even
-without
+only
+when
 ignoreMethod
+is
+ture
 return
 c
 .
@@ -661,6 +663,11 @@ HEAD
 "
 }
 )
+{
+ignoreMethod
+:
+true
+}
 )
 ;
 }
