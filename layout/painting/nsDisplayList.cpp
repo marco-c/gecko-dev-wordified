@@ -26787,7 +26787,7 @@ mOuterRect
 )
 ;
 return
-LAYER_INACTIVE
+LAYER_ACTIVE
 ;
 }
 already_AddRefed
