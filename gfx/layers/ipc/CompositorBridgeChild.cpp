@@ -2336,6 +2336,7 @@ IPC_OK
 SendAcknowledgeCompositorUpdate
 (
 aLayersId
+aSeqNo
 )
 ;
 }
