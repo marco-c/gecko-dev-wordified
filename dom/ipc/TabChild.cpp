@@ -490,13 +490,6 @@ h
 #
 include
 "
-mozIApplication
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
