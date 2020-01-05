@@ -367,9 +367,6 @@ mHttpRequestSucceeded
 uint16_t
 mHttpResponseCode
 ;
-nsCString
-mHttpResponseContentType
-;
 const
 uint8_t
 *
@@ -613,11 +610,6 @@ const
 char
 *
 *
-httpResponseContentType
-const
-char
-*
-*
 httpResponseHeaders
 const
 char
@@ -693,11 +685,6 @@ pPollDesc
 uint16_t
 *
 httpResponseCode
-const
-char
-*
-*
-httpResponseContentType
 const
 char
 *
@@ -870,11 +857,6 @@ const
 char
 *
 *
-httpResponseContentType
-const
-char
-*
-*
 httpResponseHeaders
 const
 char
@@ -894,7 +876,6 @@ trySendAndReceiveFcn
 (
 pPollDesc
 httpResponseCode
-httpResponseContentType
 httpResponseHeaders
 httpResponseData
 httpResponseDataLen
