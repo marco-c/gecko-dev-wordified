@@ -2015,7 +2015,28 @@ the
 subsystem
 to
 windows
+but
+only
                     
+#
+on
+release
+builds
+-
+-
+on
+debug
+builds
+it
+hides
+log
+output
+                    
+if
+not
+dev
+:
+                        
 call
 (
 [
@@ -2044,7 +2065,7 @@ exe
 "
 )
 ]
-                         
+                             
 verbose
 =
 verbose
