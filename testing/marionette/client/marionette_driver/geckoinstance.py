@@ -3007,23 +3007,34 @@ override
 True
         
 #
+Bug
+1145668
+1312674
+        
+#
 Turn
 off
-about
-:
-newtab
+once
+Marionette
+can
+correctly
+handle
+error
+pages
 and
-make
-use
-of
+doesn
+'
+t
+        
+#
+hang
+when
 about
 :
 blank
-instead
-for
-new
-opened
-tabs
+gets
+loaded
+twice
         
 "
 browser
@@ -3033,7 +3044,7 @@ newtabpage
 enabled
 "
 :
-False
+True
         
 #
 Assume
