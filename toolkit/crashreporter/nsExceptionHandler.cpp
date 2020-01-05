@@ -18193,7 +18193,7 @@ serverSocketFd
 clientSocketFd
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can
@@ -18332,7 +18332,7 @@ Start
 (
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

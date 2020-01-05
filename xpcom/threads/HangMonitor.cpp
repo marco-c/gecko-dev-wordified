@@ -702,7 +702,7 @@ NS_LITERAL_CSTRING
 }
 #
 endif
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 HangMonitor

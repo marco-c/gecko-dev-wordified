@@ -3718,7 +3718,7 @@ OkToCleanup
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unsafe
@@ -3992,7 +3992,7 @@ OkToCleanup
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unsafe
@@ -8741,7 +8741,7 @@ break
 ;
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected
@@ -10117,7 +10117,7 @@ aXSocketFd
 #
 ifndef
 MOZ_X11
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This
@@ -10346,7 +10346,7 @@ mStream
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Corrupted

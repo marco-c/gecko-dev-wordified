@@ -627,7 +627,7 @@ rv
 ;
 }
 }
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown
@@ -808,7 +808,7 @@ rv
 ;
 }
 }
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown

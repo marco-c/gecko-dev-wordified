@@ -3972,7 +3972,7 @@ break
 }
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -4666,7 +4666,7 @@ return
 }
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Invalid

@@ -2312,7 +2312,7 @@ void
 size_t
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 nsFrame
@@ -39232,7 +39232,7 @@ to
 crash
 anyway
 .
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 trying

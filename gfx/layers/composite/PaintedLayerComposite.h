@@ -401,7 +401,7 @@ aRegion
 )
 override
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 PaintedLayerComposites

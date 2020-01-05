@@ -397,7 +397,7 @@ if
 cpc
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Content
@@ -2057,7 +2057,7 @@ Length
 }
 #
 endif
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 bug836263

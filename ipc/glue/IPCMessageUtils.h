@@ -1601,7 +1601,7 @@ paramType
 aParam
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 FileDescriptor
@@ -1632,7 +1632,7 @@ paramType
 aResult
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 FileDescriptor

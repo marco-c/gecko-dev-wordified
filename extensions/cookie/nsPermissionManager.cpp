@@ -475,7 +475,7 @@ if
 !
 cpc
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Content

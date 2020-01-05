@@ -15259,7 +15259,7 @@ if
 drawFB
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 drawFB
@@ -15289,7 +15289,7 @@ if
 readFB
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 readFB

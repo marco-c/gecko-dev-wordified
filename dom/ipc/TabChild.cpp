@@ -10793,7 +10793,7 @@ nsString
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused
@@ -10852,7 +10852,7 @@ nsString
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused
@@ -10911,7 +10911,7 @@ int16_t
 &
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 unused

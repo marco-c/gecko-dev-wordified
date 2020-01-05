@@ -1290,7 +1290,7 @@ InitStatics
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can
@@ -1452,7 +1452,7 @@ if
 sDeadlockDetector
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 can

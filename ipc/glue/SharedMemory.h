@@ -398,7 +398,7 @@ if
 !
 memStart
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 SharedMemory
@@ -431,7 +431,7 @@ if
 !
 protStart
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 trying
@@ -470,7 +470,7 @@ protEnd
 memEnd
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 attempt

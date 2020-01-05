@@ -7229,7 +7229,7 @@ rv
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can
@@ -7399,7 +7399,7 @@ NS_IsMainThread
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 nsCacheService

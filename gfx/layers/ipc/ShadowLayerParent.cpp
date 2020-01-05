@@ -727,7 +727,7 @@ why
 case
 AncestorDeletion
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 shadow
@@ -803,7 +803,7 @@ break
 case
 FailedConstructor
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 FailedConstructor

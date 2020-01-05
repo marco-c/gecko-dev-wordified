@@ -1398,7 +1398,7 @@ nsIChannel
 channel
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 FTPChannel

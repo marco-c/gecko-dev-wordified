@@ -1610,7 +1610,7 @@ if
 imageLoader
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Why

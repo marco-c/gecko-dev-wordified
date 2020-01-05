@@ -2647,7 +2647,7 @@ in
 our
 code
 .
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 programming

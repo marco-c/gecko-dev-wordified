@@ -5026,7 +5026,7 @@ uint32_t
 1
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Allocation
@@ -5082,7 +5082,7 @@ uint32_t
 1
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Allocation

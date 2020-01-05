@@ -503,7 +503,7 @@ ALIVE
 =
 mState
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected
@@ -642,7 +642,7 @@ ALIVE
 =
 mState
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected
@@ -713,7 +713,7 @@ ALIVE
 =
 mState
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected
@@ -780,7 +780,7 @@ DELETING
 =
 mState
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Bad
@@ -1191,7 +1191,7 @@ mState
 =
 DYING
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 mDestroyPending
@@ -1347,7 +1347,7 @@ mState
 =
 DYING
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unexpected

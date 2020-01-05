@@ -289,7 +289,7 @@ LoggingEnabled
 (
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 you

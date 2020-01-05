@@ -726,7 +726,7 @@ FTPChannelChild
 AsyncOpen
 (
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 AllocPFTPChannelChild

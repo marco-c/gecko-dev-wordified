@@ -991,7 +991,7 @@ Reboot
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Reboot
@@ -1015,7 +1015,7 @@ PowerOff
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 PowerOff
@@ -1043,7 +1043,7 @@ int32_t
 aTimeoutSecs
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 StartForceQuitWatchdog
@@ -1551,7 +1551,7 @@ StartDiskSpaceWatcher
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 StartDiskSpaceWatcher
@@ -1575,7 +1575,7 @@ StopDiskSpaceWatcher
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 StopDiskSpaceWatcher
@@ -1599,7 +1599,7 @@ IsHeadphoneEventFromInputDev
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 IsHeadphoneEventFromInputDev
@@ -1632,7 +1632,7 @@ char
 aArgs
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 System
@@ -1660,7 +1660,7 @@ char
 aSvcName
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 System
@@ -1685,7 +1685,7 @@ char
 aSvcName
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 System

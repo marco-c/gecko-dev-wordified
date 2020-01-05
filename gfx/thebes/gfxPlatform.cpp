@@ -3430,7 +3430,7 @@ if
 gEverInitialized
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Already
@@ -4186,7 +4186,7 @@ rv
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could
@@ -4228,7 +4228,7 @@ gPlatform
 mScreenReferenceSurface
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could
@@ -4281,7 +4281,7 @@ IsValid
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could
@@ -4309,7 +4309,7 @@ rv
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could
@@ -4519,7 +4519,7 @@ if
 imgTools
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could
@@ -13987,7 +13987,7 @@ tell_me_once
 #
 ifdef
 MOZ_WIDGET_ANDROID
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 OpenGL

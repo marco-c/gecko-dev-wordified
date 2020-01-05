@@ -4883,7 +4883,7 @@ IsPainting
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don
@@ -7095,7 +7095,7 @@ from
 this
 condition
 .
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 StackDepth

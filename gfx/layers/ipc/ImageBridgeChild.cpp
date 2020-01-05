@@ -3271,7 +3271,7 @@ Length
 i
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not
@@ -5334,7 +5334,7 @@ power
 user
 "
 ctor
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not

@@ -6867,7 +6867,7 @@ if
 value
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Don

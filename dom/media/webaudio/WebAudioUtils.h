@@ -1158,7 +1158,7 @@ bug
 to
 fix
 .
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 We

@@ -2065,7 +2065,7 @@ if
 gInitialized
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Recursive

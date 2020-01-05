@@ -1890,7 +1890,7 @@ aTileLayerDescriptor
 )
 override
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 should
@@ -1919,7 +1919,7 @@ aUpdatedRegion
 )
 override
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 should

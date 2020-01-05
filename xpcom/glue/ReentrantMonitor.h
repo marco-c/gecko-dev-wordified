@@ -313,7 +313,7 @@ if
 mReentrantMonitor
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can

@@ -7811,7 +7811,7 @@ we
 are
 doomed
 !
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Could

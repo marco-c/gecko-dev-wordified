@@ -3128,7 +3128,7 @@ paramType
 aParam
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 NSCursorInfo
@@ -3159,7 +3159,7 @@ paramType
 aResult
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 NSCursorInfo

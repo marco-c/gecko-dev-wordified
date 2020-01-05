@@ -3425,7 +3425,7 @@ stacklen
 0
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Attempt
@@ -3516,7 +3516,7 @@ type
 aType
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Expected

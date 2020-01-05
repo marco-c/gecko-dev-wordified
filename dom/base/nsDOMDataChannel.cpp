@@ -2176,7 +2176,7 @@ arrayBuf
 }
 else
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown

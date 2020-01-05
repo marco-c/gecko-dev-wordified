@@ -1294,7 +1294,7 @@ nsCString
 headers
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not
@@ -7039,7 +7039,7 @@ AllocPPluginBackgroundDestroyerParent
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 '
@@ -9919,7 +9919,7 @@ mNPP
 =
 this
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Mismatched
@@ -9965,7 +9965,7 @@ mInstance
 =
 this
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Mismatched
@@ -12977,7 +12977,7 @@ instancePtr
 mNPP
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Corrupted

@@ -353,7 +353,7 @@ CreateImageLayer
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Not

@@ -4667,7 +4667,7 @@ Free
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 JS_SetICUMemoryFunctions
@@ -4718,7 +4718,7 @@ NS_IsMainThread
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Shutdown

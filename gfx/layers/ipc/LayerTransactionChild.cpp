@@ -357,7 +357,7 @@ power
 user
 "
 ctor
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 not

@@ -708,7 +708,7 @@ least
 .
 .
 .
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Error
@@ -809,7 +809,7 @@ msg
 }
 #
 endif
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown

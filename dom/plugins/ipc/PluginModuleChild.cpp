@@ -2999,7 +2999,7 @@ ShouldContinueFromReplyTimeout
 #
 ifdef
 XP_WIN
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 terminating
@@ -11917,7 +11917,7 @@ aIdentifiers
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Bad

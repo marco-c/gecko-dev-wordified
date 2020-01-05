@@ -1423,7 +1423,7 @@ T
 )
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 shmem

@@ -7132,7 +7132,7 @@ isValid
 (
 )
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Can
