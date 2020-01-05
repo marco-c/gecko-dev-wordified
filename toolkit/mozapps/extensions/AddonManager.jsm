@@ -14682,6 +14682,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+return
 this
 .
 getAddonByInstanceID
@@ -22803,6 +22804,7 @@ removeUpgradeListener
 aInstanceID
 )
 {
+return
 AddonManagerInternal
 .
 removeUpgradeListener

@@ -4067,6 +4067,11 @@ data
 id
 )
 ;
+if
+(
+extension
+)
+{
 extension
 .
 shutdown
@@ -4080,6 +4085,7 @@ uninitExtension
 extension
 )
 ;
+}
 break
 ;
 }
