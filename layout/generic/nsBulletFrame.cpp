@@ -1671,7 +1671,11 @@ nsLayoutUtils
 GetColor
 (
 this
-eCSSProperty_color
+&
+nsStyleColor
+:
+:
+mColor
 )
 )
 )
@@ -2491,7 +2495,11 @@ nsLayoutUtils
 GetColor
 (
 this
-eCSSProperty_color
+&
+nsStyleColor
+:
+:
+mColor
 )
 )
 )

@@ -4739,7 +4739,11 @@ mFrame
 >
 GetVisitedDependentColor
 (
-eCSSProperty__webkit_text_fill_color
+&
+nsStyleText
+:
+:
+mWebkitTextFillColor
 )
 )
 )

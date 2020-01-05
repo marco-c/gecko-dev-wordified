@@ -501,7 +501,11 @@ ruleColor
 =
 GetVisitedDependentColor
 (
-eCSSProperty_column_rule_color
+&
+nsStyleColumn
+:
+:
+mColumnRuleColor
 )
 ;
 /
