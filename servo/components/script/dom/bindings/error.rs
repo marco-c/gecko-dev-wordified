@@ -200,6 +200,7 @@ method
 deriving
 (
 Show
+Clone
 )
 ]
 pub
