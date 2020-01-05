@@ -738,7 +738,7 @@ smallvec
 :
 {
 SmallVec
-SmallVec16
+SmallVec24
 }
 ;
 use
@@ -5040,7 +5040,7 @@ roots
 :
 UnsafeCell
 <
-SmallVec16
+SmallVec24
 <
 *
 mut
@@ -5108,7 +5108,7 @@ UnsafeCell
 :
 new
 (
-SmallVec16
+SmallVec24
 :
 :
 new
@@ -5190,6 +5190,20 @@ rooting
 untracked
 .
 js_ptr
+)
+;
+assert
+!
+(
+!
+(
+*
+roots
+)
+.
+spilled
+(
+)
 )
 ;
 }
