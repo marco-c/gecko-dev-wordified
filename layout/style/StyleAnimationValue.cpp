@@ -29060,7 +29060,7 @@ true
 ;
 }
 case
-eCSSProperty_image_region
+eCSSProperty__moz_image_region
 :
 {
 const

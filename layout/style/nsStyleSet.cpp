@@ -747,7 +747,7 @@ nsCSSProps
 :
 PropertyIndexInStruct
 (
-eCSSProperty_script_level
+eCSSProperty__moz_script_level
 )
 |
 |
@@ -759,7 +759,7 @@ nsCSSProps
 :
 PropertyIndexInStruct
 (
-eCSSProperty_script_size_multiplier
+eCSSProperty__moz_script_size_multiplier
 )
 |
 |
@@ -771,7 +771,7 @@ nsCSSProps
 :
 PropertyIndexInStruct
 (
-eCSSProperty_script_min_size
+eCSSProperty__moz_script_min_size
 )
 |
 |
@@ -783,7 +783,7 @@ nsCSSProps
 :
 PropertyIndexInStruct
 (
-eCSSProperty_math_variant
+eCSSProperty__moz_math_variant
 )
 |
 |
@@ -795,7 +795,7 @@ nsCSSProps
 :
 PropertyIndexInStruct
 (
-eCSSProperty_math_display
+eCSSProperty__moz_math_display
 )
 )
 {

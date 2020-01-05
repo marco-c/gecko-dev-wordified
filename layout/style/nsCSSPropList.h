@@ -3565,7 +3565,7 @@ CSS_PROP_DISPLAY
 moz
 -
 appearance
-appearance
+_moz_appearance
 CSS_PROP_DOMPROP_PREFIXED
 (
 Appearance
@@ -3906,7 +3906,7 @@ CSS_PROP_DISPLAY
 moz
 -
 binding
-binding
+_moz_binding
 CSS_PROP_DOMPROP_PREFIXED
 (
 Binding
@@ -4218,7 +4218,7 @@ border
 bottom
 -
 colors
-border_bottom_colors
+_moz_border_bottom_colors
 CSS_PROP_DOMPROP_PREFIXED
 (
 BorderBottomColors
@@ -4727,7 +4727,7 @@ border
 left
 -
 colors
-border_left_colors
+_moz_border_left_colors
 CSS_PROP_DOMPROP_PREFIXED
 (
 BorderLeftColors
@@ -4849,7 +4849,7 @@ border
 right
 -
 colors
-border_right_colors
+_moz_border_right_colors
 CSS_PROP_DOMPROP_PREFIXED
 (
 BorderRightColors
@@ -4998,7 +4998,7 @@ border
 top
 -
 colors
-border_top_colors
+_moz_border_top_colors
 CSS_PROP_DOMPROP_PREFIXED
 (
 BorderTopColors
@@ -5173,7 +5173,7 @@ moz
 box
 -
 align
-box_align
+_moz_box_align
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxAlign
@@ -5227,7 +5227,7 @@ moz
 box
 -
 direction
-box_direction
+_moz_box_direction
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxDirection
@@ -5253,7 +5253,7 @@ moz
 box
 -
 flex
-box_flex
+_moz_box_flex
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxFlex
@@ -5287,7 +5287,7 @@ box
 ordinal
 -
 group
-box_ordinal_group
+_moz_box_ordinal_group
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxOrdinalGroup
@@ -5310,7 +5310,7 @@ moz
 box
 -
 orient
-box_orient
+_moz_box_orient
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxOrient
@@ -5336,7 +5336,7 @@ moz
 box
 -
 pack
-box_pack
+_moz_box_pack
 CSS_PROP_DOMPROP_PREFIXED
 (
 BoxPack
@@ -6343,7 +6343,7 @@ moz
 float
 -
 edge
-float_edge
+_moz_float_edge
 CSS_PROP_DOMPROP_PREFIXED
 (
 FloatEdge
@@ -6888,7 +6888,7 @@ broken
 image
 -
 icon
-force_broken_image_icon
+_moz_force_broken_image_icon
 CSS_PROP_DOMPROP_PREFIXED
 (
 ForceBrokenImageIcon
@@ -7449,7 +7449,7 @@ moz
 image
 -
 region
-image_region
+_moz_image_region
 CSS_PROP_DOMPROP_PREFIXED
 (
 ImageRegion
@@ -8415,7 +8415,7 @@ moz
 math
 -
 display
-math_display
+_moz_math_display
 MathDisplay
 CSS_PROPERTY_INTERNAL
 |
@@ -8437,7 +8437,7 @@ moz
 math
 -
 variant
-math_variant
+_moz_math_variant
 MathVariant
 CSS_PROPERTY_INTERNAL
 |
@@ -9001,7 +9001,7 @@ CSS_PROP_DISPLAY
 moz
 -
 orient
-orient
+_moz_orient
 CSS_PROP_DOMPROP_PREFIXED
 (
 Orient
@@ -9024,7 +9024,7 @@ osx
 font
 -
 smoothing
-osx_font_smoothing
+_moz_osx_font_smoothing
 CSS_PROP_DOMPROP_PREFIXED
 (
 OsxFontSmoothing
@@ -9130,7 +9130,7 @@ outline
 radius
 -
 bottomleft
-_moz_outline_radius_bottomLeft
+_moz_outline_radius_bottomleft
 CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomleft
@@ -9161,7 +9161,7 @@ outline
 radius
 -
 bottomright
-_moz_outline_radius_bottomRight
+_moz_outline_radius_bottomright
 CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomright
@@ -9192,7 +9192,7 @@ outline
 radius
 -
 topleft
-_moz_outline_radius_topLeft
+_moz_outline_radius_topleft
 CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopleft
@@ -9223,7 +9223,7 @@ outline
 radius
 -
 topright
-_moz_outline_radius_topRight
+_moz_outline_radius_topright
 CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopright
@@ -10140,7 +10140,7 @@ moz
 script
 -
 level
-script_level
+_moz_script_level
 ScriptLevel
 /
 /
@@ -10248,7 +10248,7 @@ script
 min
 -
 size
-script_min_size
+_moz_script_min_size
 ScriptMinSize
 CSS_PROPERTY_INTERNAL
 |
@@ -10270,7 +10270,7 @@ script
 size
 -
 multiplier
-script_size_multiplier
+_moz_script_size_multiplier
 ScriptSizeMultiplier
 CSS_PROPERTY_INTERNAL
 |
@@ -10617,7 +10617,7 @@ moz
 stack
 -
 sizing
-stack_sizing
+_moz_stack_sizing
 CSS_PROP_DOMPROP_PREFIXED
 (
 StackSizing
@@ -11355,7 +11355,7 @@ text
 size
 -
 adjust
-text_size_adjust
+_moz_text_size_adjust
 CSS_PROP_DOMPROP_PREFIXED
 (
 TextSizeAdjust
@@ -11874,7 +11874,7 @@ moz
 user
 -
 focus
-user_focus
+_moz_user_focus
 CSS_PROP_DOMPROP_PREFIXED
 (
 UserFocus
@@ -11900,7 +11900,7 @@ moz
 user
 -
 input
-user_input
+_moz_user_input
 CSS_PROP_DOMPROP_PREFIXED
 (
 UserInput
@@ -11932,7 +11932,7 @@ moz
 user
 -
 modify
-user_modify
+_moz_user_modify
 CSS_PROP_DOMPROP_PREFIXED
 (
 UserModify
@@ -11958,7 +11958,7 @@ moz
 user
 -
 select
-user_select
+_moz_user_select
 CSS_PROP_DOMPROP_PREFIXED
 (
 UserSelect
