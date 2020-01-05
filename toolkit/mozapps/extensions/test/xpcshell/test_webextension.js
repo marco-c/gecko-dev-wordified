@@ -2001,7 +2001,7 @@ getAddonsByTypes
 (
 [
 "
-apiextension
+extension
 "
 ]
 )
