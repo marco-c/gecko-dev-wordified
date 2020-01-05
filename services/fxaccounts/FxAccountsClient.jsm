@@ -2480,11 +2480,15 @@ ERRNO_ACCOUNT_DOES_NOT_EXIST
 return
 false
 ;
+break
+;
 case
 ERRNO_INCORRECT_PASSWORD
 :
 return
 true
+;
+break
 ;
 default
 :
@@ -2500,6 +2504,8 @@ more
 .
 throw
 expectedError
+;
+break
 ;
 }
 }

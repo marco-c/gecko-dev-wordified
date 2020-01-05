@@ -624,6 +624,7 @@ a
 delete
 '
 action
+var
 bookmarksToDelete
 =
 {

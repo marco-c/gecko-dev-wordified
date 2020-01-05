@@ -2715,6 +2715,8 @@ expected
 )
 ;
 }
+else
+{
 return
 do_check_true
 (
@@ -2730,6 +2732,7 @@ expected
 )
 )
 ;
+}
 }
 throw
 new

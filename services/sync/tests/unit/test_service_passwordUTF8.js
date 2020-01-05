@@ -500,6 +500,13 @@ collectionsHelper
 .
 with_updated_collection
 ;
+let
+collections
+=
+collectionsHelper
+.
+collections
+;
 ensureLegacyIdentityManager
 (
 )

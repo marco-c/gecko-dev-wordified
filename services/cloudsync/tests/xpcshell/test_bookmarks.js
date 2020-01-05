@@ -62,6 +62,12 @@ run_next_test
 )
 ;
 }
+function
+cleanup
+(
+)
+{
+}
 add_task
 (
 function

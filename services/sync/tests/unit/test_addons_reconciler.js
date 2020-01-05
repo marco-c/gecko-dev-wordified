@@ -783,6 +783,13 @@ addon
 .
 id
 ;
+let
+guid
+=
+addon
+.
+syncGUID
+;
 reconciler
 .
 _changes

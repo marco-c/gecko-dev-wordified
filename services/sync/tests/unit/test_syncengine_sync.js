@@ -701,6 +701,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1042,6 +1045,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1171,6 +1177,9 @@ sync_httpd_setup
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1432,6 +1441,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -1718,6 +1730,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -2346,6 +2361,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -5027,6 +5045,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -5691,6 +5712,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -5765,6 +5789,9 @@ _store
 items
 )
 ;
+let
+error
+;
 try
 {
 await
@@ -5780,6 +5807,10 @@ catch
 ex
 )
 {
+error
+=
+ex
+;
 }
 /
 /
@@ -6222,6 +6253,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -6703,6 +6737,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -7097,6 +7134,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -7432,6 +7472,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -8104,6 +8147,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -9248,6 +9294,9 @@ collection
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -10150,6 +10199,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -10612,6 +10664,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -11051,6 +11106,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -11390,6 +11448,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -12153,6 +12214,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -12443,6 +12507,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -12533,6 +12600,9 @@ httpd_setup
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -12769,6 +12839,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -13143,6 +13216,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -13483,6 +13559,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -14080,6 +14159,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -14232,6 +14314,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (
@@ -14401,6 +14486,9 @@ handler
 }
 )
 ;
+let
+syncTesting
+=
 await
 SyncTestingInfrastructure
 (

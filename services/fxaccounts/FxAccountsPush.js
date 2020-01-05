@@ -903,6 +903,8 @@ err
 }
 )
 ;
+break
+;
 default
 :
 break
@@ -1128,6 +1130,8 @@ data
 id
 )
 ;
+break
+;
 case
 ON_PASSWORD_CHANGED_NOTIFICATION
 :
@@ -1140,6 +1144,8 @@ this
 _onPasswordChanged
 (
 )
+;
+break
 ;
 case
 ON_COLLECTION_CHANGED_NOTIFICATION

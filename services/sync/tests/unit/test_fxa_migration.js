@@ -641,6 +641,12 @@ legacy
 sync
 user
 .
+let
+[
+engine
+server
+]
+=
 configureLegacySync
 (
 )
