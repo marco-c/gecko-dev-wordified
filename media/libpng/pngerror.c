@@ -23,10 +23,10 @@ libpng
 .
 6
 .
-24
+26
 [
-August
-4
+October
+20
 2016
 ]
 *
@@ -3466,6 +3466,7 @@ fixed_message
 -
 1
 )
+unsigned
 int
 iin
 ;

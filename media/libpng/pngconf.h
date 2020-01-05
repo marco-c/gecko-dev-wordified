@@ -17,9 +17,9 @@ version
 .
 6
 .
-25
-September
-1
+26
+October
+20
 2016
 *
 *
@@ -3668,7 +3668,7 @@ endif
 if
 UINT_MAX
 >
-4294967294
+4294967294U
 typedef
 unsigned
 int
@@ -3678,7 +3678,7 @@ png_uint_32
 elif
 ULONG_MAX
 >
-4294967294
+4294967294U
 typedef
 unsigned
 long

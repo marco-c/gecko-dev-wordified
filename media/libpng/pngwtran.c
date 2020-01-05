@@ -23,10 +23,10 @@ libpng
 .
 6
 .
-24
+26
 [
-August
-4
+October
+20
 2016
 ]
 *
@@ -805,6 +805,7 @@ shift_dec
 4
 ]
 ;
+unsigned
 int
 channels
 =

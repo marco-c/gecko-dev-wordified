@@ -2079,7 +2079,7 @@ transforms
 /
 #
 if
-PNG_ZLIB_VERNUM
+ZLIB_VERNUM
 >
 =
 0x1240
