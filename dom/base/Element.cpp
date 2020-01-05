@@ -2691,6 +2691,8 @@ sc
 false
 )
 ;
+NS_IF_ADDREF
+(
 *
 aResult
 =
@@ -2703,6 +2705,7 @@ StyleDisplay
 -
 >
 mBinding
+)
 ;
 return
 true
@@ -3243,14 +3246,13 @@ the
 relevant
 presshell
 .
-mozilla
-:
-:
+RefPtr
+<
 css
 :
 :
 URLValue
-*
+>
 bindingURL
 ;
 bool
@@ -3259,8 +3261,10 @@ ok
 GetBindingURL
 (
 doc
-&
+getter_AddRefs
+(
 bindingURL
+)
 )
 ;
 if
