@@ -1016,3 +1016,16 @@ content_child
 makeTestAPI
 )
 ;
+extensions
+.
+registerSchemaAPI
+(
+"
+test
+"
+"
+devtools_child
+"
+makeTestAPI
+)
+;
