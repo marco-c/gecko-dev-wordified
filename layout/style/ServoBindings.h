@@ -294,6 +294,9 @@ mozilla
 ServoElementSnapshot
 ;
 struct
+nsMediaFeature
+;
+struct
 nsStyleList
 ;
 struct
@@ -2107,6 +2110,13 @@ Gecko_PropertyId_IsPrefEnabled
 (
 nsCSSPropertyID
 id
+)
+;
+const
+nsMediaFeature
+*
+Gecko_GetMediaFeatures
+(
 )
 ;
 /
