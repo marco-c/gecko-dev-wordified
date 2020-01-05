@@ -52,6 +52,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -238,6 +243,9 @@ an
 error
 when
 assertions
+"
++
+"
 are
 enabled
 .
