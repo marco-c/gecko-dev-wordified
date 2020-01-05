@@ -10086,6 +10086,16 @@ HasTransformAnimation
 )
 const
 ;
+StyleAnimationValue
+GetBaseAnimationStyle
+(
+)
+const
+{
+return
+mBaseAnimationStyle
+;
+}
 /
 *
 *
@@ -13609,6 +13619,9 @@ log
 .
 nsCString
 mDisplayListLog
+;
+StyleAnimationValue
+mBaseAnimationStyle
 ;
 }
 ;
