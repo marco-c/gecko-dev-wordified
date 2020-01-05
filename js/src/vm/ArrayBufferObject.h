@@ -1676,6 +1676,8 @@ ArrayBufferObject
 *
 >
 toBuffer
+uint32_t
+toIndex
 Handle
 <
 ArrayBufferObject

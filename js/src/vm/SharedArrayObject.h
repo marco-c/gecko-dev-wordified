@@ -946,6 +946,8 @@ SharedArrayBufferObject
 *
 >
 toBuffer
+uint32_t
+toIndex
 Handle
 <
 SharedArrayBufferObject

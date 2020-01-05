@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-#
-include
-"
-TypedObjectConstants
-.
-h
-"
 function
 ViewedArrayBufferIfReified
 (
@@ -10964,6 +10957,7 @@ Steps
 ArrayBufferCopyData
 (
 new_
+0
 O
 first
 |
@@ -11431,6 +11425,7 @@ Steps
 SharedArrayBufferCopyData
 (
 new_
+0
 O
 first
 |

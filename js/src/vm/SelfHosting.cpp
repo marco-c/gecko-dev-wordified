@@ -6852,7 +6852,7 @@ length
 )
 =
 =
-5
+6
 )
 ;
 bool
@@ -6860,7 +6860,7 @@ isWrapped
 =
 args
 [
-4
+5
 ]
 .
 toBoolean
@@ -6969,6 +6969,21 @@ T
 )
 ;
 }
+uint32_t
+toIndex
+=
+uint32_t
+(
+args
+[
+1
+]
+.
+toInt32
+(
+)
+)
+;
 Rooted
 <
 T
@@ -6980,7 +6995,7 @@ cx
 &
 args
 [
-1
+2
 ]
 .
 toObject
@@ -7002,7 +7017,7 @@ uint32_t
 (
 args
 [
-2
+3
 ]
 .
 toInt32
@@ -7017,7 +7032,7 @@ uint32_t
 (
 args
 [
-3
+4
 ]
 .
 toInt32
@@ -7031,6 +7046,7 @@ T
 copyData
 (
 toBuffer
+toIndex
 fromBuffer
 fromIndex
 count
@@ -17515,7 +17531,7 @@ intrinsic_ArrayBufferCopyData
 <
 ArrayBufferObject
 >
-5
+6
 0
 )
 JS_FN
@@ -17551,7 +17567,7 @@ intrinsic_ArrayBufferCopyData
 <
 SharedArrayBufferObject
 >
-5
+6
 0
 )
 JS_FN
