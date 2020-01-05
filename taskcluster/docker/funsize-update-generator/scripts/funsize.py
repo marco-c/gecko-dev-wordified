@@ -1621,7 +1621,6 @@ retry
 (
 lambda
 :
-                    
 sh
 .
 freshclam
@@ -1636,6 +1635,7 @@ stdout
 -
 verbose
 "
+                                            
 _timeout
 =
 300

@@ -18,8 +18,6 @@ argparse
 import
 json
 import
-sys
-import
 hashlib
 import
 requests
