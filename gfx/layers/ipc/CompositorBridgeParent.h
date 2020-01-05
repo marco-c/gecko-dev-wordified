@@ -520,7 +520,7 @@ class
 CompositorVsyncScheduler
 ;
 class
-LayerManagerComposite
+HostLayerManager
 ;
 class
 LayerTransactionParent
@@ -2435,11 +2435,13 @@ APZCTreeManagerParent
 *
 mApzcTreeManagerParent
 ;
+RefPtr
+<
 CompositorBridgeParent
-*
+>
 mParent
 ;
-LayerManagerComposite
+HostLayerManager
 *
 mLayerManager
 ;
@@ -3530,7 +3532,7 @@ aCallback
 ;
 RefPtr
 <
-LayerManagerComposite
+HostLayerManager
 >
 mLayerManager
 ;
