@@ -467,6 +467,8 @@ nsACString
 &
 aFeatures
 bool
+aForceNoOpener
+bool
 *
 aWindowIsNew
 mozIDOMWindowProxy

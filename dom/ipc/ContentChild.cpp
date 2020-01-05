@@ -3585,6 +3585,8 @@ nsACString
 &
 aFeatures
 bool
+aForceNoOpener
+bool
 *
 aWindowIsNew
 mozIDOMWindowProxy
@@ -3606,6 +3608,7 @@ aSizeSpecified
 aURI
 aName
 aFeatures
+aForceNoOpener
 aWindowIsNew
 aReturn
 )
@@ -3644,6 +3647,8 @@ const
 nsACString
 &
 aFeatures
+bool
+aForceNoOpener
 bool
 *
 aWindowIsNew
@@ -4505,6 +4510,10 @@ WebNavigation
 ;
 if
 (
+!
+aForceNoOpener
+&
+&
 windowProxy
 &
 &

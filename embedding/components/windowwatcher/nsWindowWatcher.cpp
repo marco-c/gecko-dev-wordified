@@ -5282,6 +5282,7 @@ SizeSpecified
 uriToLoad
 name
 features
+aForceNoOpener
 &
 windowIsNew
 getter_AddRefs
@@ -6069,6 +6070,16 @@ nsIWindowCreator2
 PARENT_IS_LOADING_OR_RUNNING_TIMEOUT
 ;
 }
+mozIDOMWindowProxy
+*
+openerWindow
+=
+aForceNoOpener
+?
+nullptr
+:
+aParent
+;
 rv
 =
 CreateChromeWindow
@@ -6078,7 +6089,7 @@ parentChrome
 chromeFlags
 contextFlags
 nullptr
-aParent
+openerWindow
 getter_AddRefs
 (
 newChrome
@@ -6156,6 +6167,10 @@ aForceNoOpener
 nullptr
 :
 parentWindow
+.
+get
+(
+)
 ;
 xulBrowserWin
 -
@@ -12813,6 +12828,12 @@ else
 if
 (
 aParent
+&
+&
+aParent
+!
+=
+piOpenedWindow
 )
 {
 MOZ_ASSERT

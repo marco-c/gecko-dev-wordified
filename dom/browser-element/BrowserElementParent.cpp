@@ -1639,6 +1639,8 @@ const
 nsACString
 &
 aFeatures
+bool
+aForceNoOpener
 mozIDOMWindowProxy
 *
 *
@@ -1848,6 +1850,12 @@ spec
 )
 ;
 }
+if
+(
+!
+aForceNoOpener
+)
+{
 ErrorResult
 res
 ;
@@ -1870,6 +1878,7 @@ Failed
 )
 )
 ;
+}
 OpenWindowResult
 opened
 =
