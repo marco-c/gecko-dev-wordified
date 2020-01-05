@@ -186,6 +186,10 @@ extern
 crate
 uuid
 ;
+extern
+crate
+websocket
+;
 pub
 mod
 about_loader
@@ -233,6 +237,10 @@ resource_task
 pub
 mod
 storage_task
+;
+pub
+mod
+websocket_loader
 ;
 /
 /
