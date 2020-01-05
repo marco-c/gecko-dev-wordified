@@ -1751,7 +1751,11 @@ block_flow
 .
 float
 .
-get_mut_ref
+as_mut
+(
+)
+.
+unwrap
 (
 )
 .
