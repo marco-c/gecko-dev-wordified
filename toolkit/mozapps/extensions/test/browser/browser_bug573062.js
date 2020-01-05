@@ -310,7 +310,7 @@ aDisable
 aRemove
 )
 {
-ok
+is
 (
 aItem
 .
@@ -322,12 +322,10 @@ getAttribute
 tooltiptext
 "
 )
-=
-=
 aEnable
 )
 ;
-ok
+is
 (
 aItem
 .
@@ -339,12 +337,10 @@ getAttribute
 tooltiptext
 "
 )
-=
-=
 aDisable
 )
 ;
-ok
+is
 (
 aItem
 .
@@ -356,8 +352,6 @@ getAttribute
 tooltiptext
 "
 )
-=
-=
 aRemove
 )
 ;
@@ -505,6 +499,7 @@ apply
 null
 no_args
 )
+;
 /
 /
 Check
