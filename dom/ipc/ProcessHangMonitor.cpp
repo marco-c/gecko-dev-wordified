@@ -1640,7 +1640,7 @@ for
 microhangs
 *
 /
-8192
+1024
 /
 *
 ms
