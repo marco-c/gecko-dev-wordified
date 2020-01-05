@@ -1739,10 +1739,6 @@ new_resource_threads
 opts
 .
 user_agent
-.
-clone
-(
-)
 devtools_chan
 .
 clone

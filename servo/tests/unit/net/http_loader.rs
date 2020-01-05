@@ -2802,7 +2802,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -2880,7 +2880,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -3041,7 +3041,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -3317,7 +3317,7 @@ devtools_chan
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -4093,7 +4093,7 @@ devtools_chan
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -4389,7 +4389,7 @@ devtools_chan
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -4805,7 +4805,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -5042,7 +5042,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -5298,7 +5298,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -5595,7 +5595,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -5800,7 +5800,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -6031,7 +6031,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -6303,7 +6303,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -6611,7 +6611,7 @@ unwrap
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -6984,7 +6984,7 @@ unwrap
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -7266,7 +7266,7 @@ unwrap
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -7486,7 +7486,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -7733,7 +7733,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -8046,7 +8046,7 @@ unwrap
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -8246,7 +8246,7 @@ unwrap
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -8473,7 +8473,7 @@ as_bytes
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -8750,7 +8750,7 @@ as_bytes
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -8959,7 +8959,7 @@ as_bytes
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -9169,7 +9169,7 @@ as_bytes
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -9420,7 +9420,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -9686,7 +9686,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -10022,7 +10022,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -10246,7 +10246,7 @@ None
 DontConnectFactory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -10398,7 +10398,7 @@ None
 DontConnectFactory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -10744,7 +10744,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -11299,7 +11299,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -11704,7 +11704,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -11988,7 +11988,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -12165,7 +12165,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -12411,7 +12411,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -12622,7 +12622,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -12755,7 +12755,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -14370,7 +14370,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -14988,7 +14988,7 @@ to_vec
 }
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
@@ -15062,7 +15062,7 @@ None
 Factory
 DEFAULT_USER_AGENT
 .
-to_owned
+into
 (
 )
 &
