@@ -295,6 +295,13 @@ FilterBar
 propTypes
 :
 {
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 filter
 :
 PropTypes

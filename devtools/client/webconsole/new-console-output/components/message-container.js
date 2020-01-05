@@ -336,6 +336,11 @@ PropTypes
 number
 .
 isRequired
+tableData
+:
+PropTypes
+.
+object
 }
 getDefaultProps
 :
