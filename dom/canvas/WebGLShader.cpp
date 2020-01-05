@@ -1064,11 +1064,11 @@ return
 if
 (
 !
-ValidateGLSLString
+ValidateGLSLPreprocString
 (
-sourceWithoutComments
 mContext
 funcName
+sourceWithoutComments
 )
 )
 return
