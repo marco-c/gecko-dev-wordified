@@ -115,10 +115,11 @@ createEnum
 require
 (
 "
-.
-.
+devtools
 /
-utils
+client
+/
+shared
 /
 enum
 "
