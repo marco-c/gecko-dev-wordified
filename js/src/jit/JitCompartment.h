@@ -1188,7 +1188,7 @@ lock
 ;
 static
 void
-TraceJitcodeGlobalTable
+TraceJitcodeGlobalTableForMinorGC
 (
 JSTracer
 *
