@@ -1359,6 +1359,7 @@ Eq
 PartialEq
 Deserialize
 Serialize
+Debug
 )
 ]
 pub
