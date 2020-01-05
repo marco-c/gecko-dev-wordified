@@ -484,8 +484,6 @@ report
 (
 {
 node
-:
-node
 message
 :
 identifier
@@ -740,8 +738,6 @@ Public
 return
 {
 CallExpression
-:
-function
 (
 node
 )
@@ -790,8 +786,6 @@ false
 }
 }
 MemberExpression
-:
-function
 (
 node
 )
@@ -930,14 +924,10 @@ node
 expression
 )
 ;
-return
-;
 }
 }
 }
 Identifier
-:
-function
 (
 node
 )
@@ -1052,8 +1042,6 @@ showError
 node
 expression
 )
-;
-return
 ;
 }
 }

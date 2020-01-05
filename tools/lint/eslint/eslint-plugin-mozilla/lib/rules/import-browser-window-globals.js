@@ -472,8 +472,6 @@ Public
 return
 {
 Program
-:
-function
 (
 node
 )

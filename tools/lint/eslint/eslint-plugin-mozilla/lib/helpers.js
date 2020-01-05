@@ -526,8 +526,6 @@ AST
 *
 /
 getAST
-:
-function
 (
 sourceText
 )
@@ -618,8 +616,6 @@ node
 *
 /
 getASTSource
-:
-function
 (
 node
 )
@@ -1328,8 +1324,6 @@ not
 *
 /
 convertWorkerExpressionToGlobals
-:
-function
 (
 node
 isGlobal
@@ -1574,8 +1568,6 @@ results
 ;
 }
 convertExpressionToGlobals
-:
-function
 (
 node
 isGlobal
@@ -1857,8 +1849,6 @@ overwritten
 *
 /
 addVarToScope
-:
-function
 (
 name
 scope
@@ -2064,8 +2054,6 @@ scope
 *
 /
 addGlobals
-:
-function
 (
 globalVars
 scope
@@ -2137,8 +2125,6 @@ config
 *
 /
 getPermissiveConfig
-:
-function
 (
 )
 {
@@ -2218,8 +2204,6 @@ false
 *
 /
 getIsGlobalScope
-:
-function
 (
 ancestors
 )
@@ -2318,8 +2302,6 @@ false
 *
 /
 getIsHeadFile
-:
-function
 (
 scope
 )
@@ -2426,8 +2408,6 @@ test
 *
 /
 getTestHeadFiles
-:
-function
 (
 scope
 )
@@ -2568,8 +2548,6 @@ properties
 *
 /
 getManifestsForDirectory
-:
-function
 (
 dir
 )
@@ -2654,9 +2632,9 @@ join
 dir
 name
 )
-'
+"
 utf8
-'
+"
 )
 )
 ;
@@ -2755,8 +2733,6 @@ file
 *
 /
 getTestManifest
-:
-function
 (
 scope
 )
@@ -2883,8 +2859,6 @@ false
 *
 /
 getIsTest
-:
-function
 (
 scope
 )
@@ -3002,8 +2976,6 @@ mochitest
 *
 /
 getTestType
-:
-function
 (
 scope
 )
@@ -3135,8 +3107,6 @@ null
 ;
 }
 getIsWorker
-:
-function
 (
 filePath
 )
@@ -3227,8 +3197,6 @@ directory
 *
 /
 getRootDir
-:
-function
 (
 fileName
 )
@@ -3400,8 +3368,6 @@ path
 *
 /
 getAbsoluteFilePath
-:
-function
 (
 context
 )
@@ -3546,8 +3512,6 @@ fileName
 )
 ;
 }
-else
-{
 /
 /
 Case
@@ -3627,7 +3591,6 @@ length
 fileName
 ;
 }
-}
 /
 *
 *
@@ -3665,8 +3628,6 @@ removed
 *
 /
 cleanUpPath
-:
-function
 (
 path
 )

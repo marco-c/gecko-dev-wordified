@@ -140,8 +140,6 @@ exports
 =
 {
 preprocess
-:
-function
 (
 text
 filename
@@ -313,8 +311,6 @@ n
 ;
 }
 postprocess
-:
-function
 (
 messages
 filename

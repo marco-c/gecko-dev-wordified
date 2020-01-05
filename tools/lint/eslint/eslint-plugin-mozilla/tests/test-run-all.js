@@ -56,9 +56,9 @@ fs
 =
 require
 (
-'
+"
 fs
-'
+"
 )
 ;
 var

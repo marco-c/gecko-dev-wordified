@@ -390,8 +390,6 @@ return
 [
 {
 message
-:
-message
 type
 :
 "
