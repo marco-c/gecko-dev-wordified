@@ -844,7 +844,9 @@ is
 not
 applicable
 on
-windows
+non
+-
+linux
         
 #
 it
@@ -859,7 +861,6 @@ here
         
 allow
 =
-not
 test
 [
 '
@@ -872,7 +873,7 @@ platform
 startswith
 (
 '
-win
+linux
 '
 )
 \
