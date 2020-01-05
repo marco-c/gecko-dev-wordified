@@ -1928,8 +1928,8 @@ self
 fatal
 (
 "
-%
-s
+{
+}
 is
 not
 defined
@@ -1938,8 +1938,11 @@ the
 config
 !
 "
-%
+.
+format
+(
 test_suite
+)
 )
         
 test_manifest
@@ -2031,8 +2034,13 @@ cmd
 append
 (
 s
-%
+.
+format
+(
+*
+*
 config_fmt_args
+)
 )
         
 return
@@ -2243,13 +2251,16 @@ manifest
 file
 failed
 :
-%
-s
+{
+}
 '
-%
+.
+format
+(
 e
 .
 message
+)
 )
         
 return
