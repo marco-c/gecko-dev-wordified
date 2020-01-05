@@ -3361,11 +3361,6 @@ PanGestureInput
 aEvent
 )
 ;
-nsEventStatus
-HandleEndOfPan
-(
-)
-;
 /
 *
 *
@@ -4084,7 +4079,7 @@ nsEventStatus
 StartPanning
 (
 const
-ParentLayerPoint
+MultiTouchInput
 &
 aStartPoint
 )
