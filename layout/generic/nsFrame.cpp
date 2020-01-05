@@ -9268,6 +9268,7 @@ containingBlock
 GetContainingBlock
 (
 SKIP_SCROLLED_FRAME
+disp
 )
 ;
 if
@@ -18265,6 +18266,8 @@ aBuilder
 this
 GetContainingBlock
 (
+0
+disp
 )
 -
 >
@@ -47354,6 +47357,10 @@ GetContainingBlock
 (
 uint32_t
 aFlags
+const
+nsStyleDisplay
+*
+aStyleDisplay
 )
 const
 {
@@ -47419,6 +47426,7 @@ if
 (
 IsAbsolutelyPositioned
 (
+aStyleDisplay
 )
 &
 &
