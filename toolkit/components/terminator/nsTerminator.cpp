@@ -3529,7 +3529,7 @@ endif
 /
 defined
 (
-MOZ_CRASH_REPORTER
+MOZ_CRASHREPORTER
 )
 }
 }
