@@ -805,6 +805,7 @@ clearing
 it
 .
 pub
+unsafe
 fn
 report_pending_exception
 (
@@ -819,8 +820,6 @@ obj
 mut
 JSObject
 )
-{
-unsafe
 {
 if
 JS_IsExceptionPending
@@ -845,7 +844,6 @@ JS_ReportPendingException
 cx
 )
 ;
-}
 }
 }
 /

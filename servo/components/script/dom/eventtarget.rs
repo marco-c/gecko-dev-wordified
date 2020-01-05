@@ -3195,6 +3195,8 @@ Step
 8
 .
 2
+unsafe
+{
 report_pending_exception
 (
 cx
@@ -3213,6 +3215,7 @@ get
 )
 )
 ;
+}
 /
 /
 Step
