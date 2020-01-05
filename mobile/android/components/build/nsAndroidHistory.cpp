@@ -94,7 +94,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "
@@ -431,7 +431,7 @@ if
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )
@@ -439,7 +439,7 @@ IsAvailable
 java
 :
 :
-GeckoAppShell
+GlobalHistory
 :
 :
 CheckURIVisited
@@ -1110,7 +1110,7 @@ if
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )
@@ -1140,7 +1140,7 @@ spec
 java
 :
 :
-GeckoAppShell
+GlobalHistory
 :
 :
 MarkURIVisited
@@ -1587,7 +1587,7 @@ if
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )
@@ -1662,7 +1662,7 @@ uri
 java
 :
 :
-GeckoAppShell
+GlobalHistory
 :
 :
 SetURITitle
