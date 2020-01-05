@@ -713,7 +713,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hash
 fn
@@ -758,7 +758,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hash
 fn
@@ -806,7 +806,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 host
 fn
@@ -851,7 +851,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 host
 fn
@@ -899,7 +899,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hostname
 fn
@@ -944,7 +944,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 hostname
 fn
@@ -992,7 +992,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 href
 fn
@@ -1037,7 +1037,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 href
 fn
@@ -1140,7 +1140,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 password
 fn
@@ -1185,7 +1185,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 password
 fn
@@ -1233,7 +1233,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 pathname
 fn
@@ -1278,7 +1278,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 pathname
 fn
@@ -1326,7 +1326,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 port
 fn
@@ -1371,7 +1371,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 port
 fn
@@ -1419,7 +1419,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 protocol
 fn
@@ -1464,7 +1464,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 protocol
 fn
@@ -1512,7 +1512,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 search
 fn
@@ -1557,7 +1557,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 search
 fn
@@ -1603,11 +1603,11 @@ whatwg
 org
 /
 #
-URLUtils
+dom
 -
-stringification
+url
 -
-behavior
+href
 fn
 Stringifier
 (
@@ -1643,7 +1643,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 username
 fn
@@ -1688,7 +1688,7 @@ org
 #
 dom
 -
-urlutils
+url
 -
 username
 fn
