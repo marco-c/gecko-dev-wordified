@@ -3974,7 +3974,6 @@ need
 to
 be
 rooted
-pub
 struct
 RootedTraceableSet
 {
