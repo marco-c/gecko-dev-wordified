@@ -93,14 +93,6 @@ core
 [
 feature
 (
-hash
-)
-]
-#
-!
-[
-feature
-(
 int_uint
 )
 ]
@@ -109,7 +101,7 @@ int_uint
 [
 feature
 (
-io
+old_io
 )
 ]
 #

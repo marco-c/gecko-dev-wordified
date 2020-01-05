@@ -88,14 +88,6 @@ int_uint
 [
 feature
 (
-core
-)
-]
-#
-!
-[
-feature
-(
 box_syntax
 )
 ]
