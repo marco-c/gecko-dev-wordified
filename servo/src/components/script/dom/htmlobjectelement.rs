@@ -601,6 +601,10 @@ node
 owner_doc
 (
 )
+.
+clone
+(
+)
 ;
 let
 window
