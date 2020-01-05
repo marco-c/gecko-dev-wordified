@@ -2662,15 +2662,6 @@ s
 "
 %
 (
-env
-[
-"
-PATH
-"
-]
-os
-.
-pathsep
 os
 .
 pathsep
@@ -2679,6 +2670,15 @@ join
 (
 extra_path
 )
+os
+.
+pathsep
+env
+[
+"
+PATH
+"
+]
 )
         
 if
