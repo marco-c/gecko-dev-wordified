@@ -1218,7 +1218,7 @@ column
 =
 0
 ;
-writePerfSpewerAsmJSFunctionMap
+writePerfSpewerWasmFunctionMap
 (
 start
 size
