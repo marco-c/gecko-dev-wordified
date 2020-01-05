@@ -4400,12 +4400,6 @@ MediaInfo
 >
 mInfo
 ;
-nsAutoPtr
-<
-MetadataTags
->
-mMetadataTags
-;
 mozilla
 :
 :
