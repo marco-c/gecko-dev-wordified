@@ -1173,6 +1173,10 @@ mResponseHeadTaken
 (
 false
 )
+mTopLevelOuterContentWindowId
+(
+0
+)
 mSubmittedRatePacing
 (
 false
@@ -1392,6 +1396,8 @@ callbacks
 nsITransportEventSink
 *
 eventsink
+uint64_t
+topLevelOuterContentWindowId
 nsIAsyncInputStream
 *
 *
@@ -1448,6 +1454,10 @@ NS_IsMainThread
 (
 )
 )
+;
+mTopLevelOuterContentWindowId
+=
+topLevelOuterContentWindowId
 ;
 mActivityDistributor
 =

@@ -6215,6 +6215,10 @@ mCaps
 NS_HTTP_ONPUSH_LISTENER
 ;
 }
+EnsureTopLevelOuterContentWindowId
+(
+)
+;
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -6239,6 +6243,7 @@ NS_GetCurrentThread
 )
 callbacks
 this
+mTopLevelOuterContentWindowId
 getter_AddRefs
 (
 responseStream
