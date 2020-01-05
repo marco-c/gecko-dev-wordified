@@ -23718,6 +23718,13 @@ ICTailCallReg
 ;
 masm
 .
+loadJSContext
+(
+scratch
+)
+;
+masm
+.
 enterFakeExitFrameForNative
 (
 scratch
@@ -24371,6 +24378,13 @@ masm
 push
 (
 ICTailCallReg
+)
+;
+masm
+.
+loadJSContext
+(
+scratch
 )
 ;
 masm

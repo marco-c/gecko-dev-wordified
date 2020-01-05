@@ -5099,7 +5099,7 @@ void
 enterExitFrame
 (
 Register
-temp
+cxreg
 const
 VMFunction
 *
@@ -5133,7 +5133,7 @@ void
 enterFakeExitFrame
 (
 Register
-temp
+cxreg
 enum
 ExitFrameTokenValues
 token
@@ -5156,7 +5156,7 @@ void
 enterFakeExitFrameForNative
 (
 Register
-temp
+cxreg
 bool
 isConstructing
 )
@@ -5219,7 +5219,7 @@ void
 linkExitFrame
 (
 Register
-temp
+cxreg
 )
 ;
 /
