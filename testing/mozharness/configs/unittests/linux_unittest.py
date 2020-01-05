@@ -2425,6 +2425,18 @@ disable
 -
 e10s
 "
+                        
+"
+-
+-
+setpref
+=
+reftest
+.
+compareStyloToGecko
+=
+true
+"
 ]
             
 "
