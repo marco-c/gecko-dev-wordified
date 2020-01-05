@@ -649,10 +649,6 @@ owning
 UniqueCERTCertificate
 mTrustedRoot
 ;
-unsigned
-int
-mMinRSABits
-;
 static
 StaticMutex
 sMutex
