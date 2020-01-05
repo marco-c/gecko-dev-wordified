@@ -779,7 +779,7 @@ This
 function
 pointer
 uses
-NS_CALLBACK
+NS_CALLBACK_
 because
 it
 '
@@ -799,8 +799,9 @@ on
 Win32
 .
 typedef
-NS_CALLBACK
+NS_CALLBACK_
 (
+nsresult
 GetInterfacesProc
 )
 (
@@ -826,7 +827,7 @@ doesn
 '
 t
 use
-NS_CALLBACK
+NS_CALLBACK_
 because
 it
 '

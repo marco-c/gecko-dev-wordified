@@ -926,8 +926,9 @@ PRIVATE
 AND
 DEPRECATED
 typedef
-NS_CALLBACK
+NS_CALLBACK_
 (
+nsresult
 XPCOMExitRoutine
 )
 (
