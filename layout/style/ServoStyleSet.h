@@ -311,10 +311,6 @@ static
 bool
 IsInServoTraversal
 (
-bool
-aAssertServoTraversalOrMainThread
-=
-true
 )
 {
 /
@@ -444,9 +440,8 @@ thread
 callers
 here
 .
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-aAssertServoTraversalOrMainThread
 sInServoTraversal
 |
 |
