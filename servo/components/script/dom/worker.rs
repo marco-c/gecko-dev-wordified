@@ -660,7 +660,7 @@ r
 )
 global
 .
-dom_manipulation_task_source
+script_chan
 (
 )
 )
@@ -842,7 +842,7 @@ devtools_receiver
 worker_ref
 global
 .
-dom_manipulation_task_source
+script_chan
 (
 )
 sender
@@ -1188,7 +1188,7 @@ multipage
 #
 dom
 -
-dedicatedworkerglobalscope
+worker
 -
 postmessage
 fn
@@ -1244,7 +1244,7 @@ r
 (
 )
 .
-dom_manipulation_task_source
+script_chan
 (
 )
 )
@@ -1296,7 +1296,7 @@ multipage
 #
 handler
 -
-dedicatedworkerglobalscope
+worker
 -
 onmessage
 event_handler

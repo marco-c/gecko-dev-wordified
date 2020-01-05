@@ -492,6 +492,9 @@ pub
 mod
 script_thread
 ;
+mod
+task_source
+;
 pub
 mod
 textinput
