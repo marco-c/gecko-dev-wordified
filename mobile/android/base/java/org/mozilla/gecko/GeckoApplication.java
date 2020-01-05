@@ -1013,6 +1013,16 @@ init
 context
 )
 ;
+GlobalPageMetadata
+.
+getInstance
+(
+)
+.
+init
+(
+)
+;
 /
 /
 We
