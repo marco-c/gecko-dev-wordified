@@ -222,6 +222,10 @@ v4_upgrade
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 clients
 =
@@ -1512,6 +1516,10 @@ v5_upgrade
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 /
 /
 Tracking

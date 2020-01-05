@@ -252,6 +252,10 @@ test_locally_changed_keys
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 hmacErrorCount
 =
