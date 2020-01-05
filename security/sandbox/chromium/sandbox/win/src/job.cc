@@ -61,11 +61,6 @@ h
 >
 #
 include
-<
-utility
->
-#
-include
 "
 base
 /
@@ -518,12 +513,10 @@ Take
 )
 {
 return
-std
-:
-:
-move
-(
 job_handle_
+.
+Pass
+(
 )
 ;
 }

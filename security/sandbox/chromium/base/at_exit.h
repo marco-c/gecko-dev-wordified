@@ -454,9 +454,6 @@ Closure
 >
 stack_
 ;
-bool
-processing_callbacks_
-;
 AtExitManager
 *
 next_manager_

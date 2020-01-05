@@ -90,7 +90,7 @@ typedef
 subtle
 :
 :
-AtomicWord
+Atomic32
 AtomicRefCount
 ;
 /

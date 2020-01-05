@@ -1069,7 +1069,7 @@ AFTER_REVERT
 :
 for
 (
-HANDLE
+auto
 handle
 :
 to_check

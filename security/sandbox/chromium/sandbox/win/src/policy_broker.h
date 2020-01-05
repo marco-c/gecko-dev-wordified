@@ -97,8 +97,6 @@ SetupBasicInterceptions
 InterceptionManager
 *
 manager
-bool
-is_csrss_connected
 )
 ;
 /

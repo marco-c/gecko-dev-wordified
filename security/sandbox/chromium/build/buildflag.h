@@ -143,7 +143,7 @@ headers
 See
 build
 /
-buildflag_header
+build_header
 .
 gni
 .

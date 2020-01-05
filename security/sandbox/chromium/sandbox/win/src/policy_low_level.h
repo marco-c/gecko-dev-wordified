@@ -417,7 +417,7 @@ const
 size_t
 kMaxServiceCount
 =
-64
+32
 ;
 static_assert
 (

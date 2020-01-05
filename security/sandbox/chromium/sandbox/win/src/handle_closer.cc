@@ -61,11 +61,6 @@ h
 >
 #
 include
-<
-memory
->
-#
-include
 "
 base
 /
@@ -80,7 +75,7 @@ base
 /
 memory
 /
-free_deleter
+scoped_ptr
 .
 h
 "
@@ -738,10 +733,7 @@ GetBufferSize
 (
 )
 ;
-std
-:
-:
-unique_ptr
+scoped_ptr
 <
 size_t
 [
@@ -1368,10 +1360,7 @@ size
 =
 MAX_PATH
 ;
-std
-:
-:
-unique_ptr
+scoped_ptr
 <
 UNICODE_STRING
 base
