@@ -243,10 +243,6 @@ Self
 {
 SpecifiedValue
 (
-CSSColor
-{
-parsed
-:
 Color
 :
 :
@@ -255,10 +251,10 @@ RGBA
 *
 computed
 )
-authored
-:
-None
-}
+.
+into
+(
+)
 )
 }
 }
