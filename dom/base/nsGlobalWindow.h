@@ -11920,6 +11920,16 @@ ScheduleIdleRequestDispatch
 (
 )
 ;
+void
+SuspendIdleRequests
+(
+)
+;
+void
+ResumeIdleRequests
+(
+)
+;
 typedef
 mozilla
 :
