@@ -351,14 +351,14 @@ Support
 versions
 >
 =
-Marshmallow
+LOLLIPOP
 if
 (
 AppConstants
 .
 Versions
 .
-preMarshmallow
+preLollipop
 )
 {
 if
