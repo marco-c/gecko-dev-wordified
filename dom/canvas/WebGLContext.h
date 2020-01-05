@@ -12041,6 +12041,10 @@ return
 false
 ;
 }
+/
+/
+/
+/
 explicit
 ScopedDrawCallWrapper
 (
@@ -12055,6 +12059,11 @@ ScopedDrawCallWrapper
 )
 ;
 }
+;
+void
+OnBeforeReadCall
+(
+)
 ;
 void
 LoseOldestWebGLContextIfLimitExceeded

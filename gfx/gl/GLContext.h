@@ -4053,6 +4053,10 @@ GLenum
 attachments
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
@@ -4070,6 +4074,10 @@ attachments
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
@@ -4093,6 +4101,10 @@ GLsizei
 height
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
@@ -4114,6 +4126,10 @@ height
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 void
@@ -15331,6 +15347,10 @@ GLsizei
 height
 )
 {
+BeforeGLReadCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
@@ -15354,6 +15374,10 @@ height
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLReadCall
+(
+)
 ;
 }
 void
