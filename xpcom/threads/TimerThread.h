@@ -304,6 +304,12 @@ NS_GetCurrentThread
 )
 ;
 }
+uint32_t
+AllowedEarlyFiringMicroseconds
+(
+)
+const
+;
 private
 :
 ~
@@ -564,6 +570,9 @@ Entry
 >
 >
 mTimers
+;
+uint32_t
+mAllowedEarlyFiringMicroseconds
 ;
 }
 ;

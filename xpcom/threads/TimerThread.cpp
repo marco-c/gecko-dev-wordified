@@ -272,6 +272,10 @@ mSleeping
 (
 false
 )
+mAllowedEarlyFiringMicroseconds
+(
+0
+)
 {
 }
 TimerThread
@@ -2032,8 +2036,7 @@ our
 wait
 times
 later
-int32_t
-halfMicrosecondsIntervalResolution
+mAllowedEarlyFiringMicroseconds
 =
 usIntervalResolution
 /
@@ -2703,7 +2706,7 @@ resolution
 .
 We
 use
-halfMicrosecondsIntervalResolution
+mAllowedEarlyFiringMicroseconds
 calculated
 /
 /
@@ -2857,7 +2860,7 @@ if
 (
 microseconds
 <
-halfMicrosecondsIntervalResolution
+mAllowedEarlyFiringMicroseconds
 )
 {
 forceRunNextTimer
@@ -4453,5 +4456,18 @@ DoAfterSleep
 }
 return
 NS_OK
+;
+}
+uint32_t
+TimerThread
+:
+:
+AllowedEarlyFiringMicroseconds
+(
+)
+const
+{
+return
+mAllowedEarlyFiringMicroseconds
 ;
 }
