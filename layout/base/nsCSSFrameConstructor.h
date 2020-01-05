@@ -14095,10 +14095,6 @@ mDocElementContainingBlock
 ;
 nsIFrame
 *
-mGfxScrollFrame
-;
-nsIFrame
-*
 mPageSequenceFrame
 ;
 nsQuoteList
