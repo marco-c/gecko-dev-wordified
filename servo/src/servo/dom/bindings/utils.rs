@@ -3373,7 +3373,7 @@ let
 protoArray
 =
 mut
-~
+(
 [
 0
 as
@@ -3383,6 +3383,7 @@ JSObject
 .
 3
 ]
+)
 ;
 /
 /
