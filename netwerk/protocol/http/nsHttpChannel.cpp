@@ -539,6 +539,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

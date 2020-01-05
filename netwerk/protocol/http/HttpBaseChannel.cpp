@@ -513,6 +513,13 @@ h
 #
 include
 "
+nsHttpChannel
+.
+h
+"
+#
+include
+"
 nsRedirectHistoryEntry
 .
 h

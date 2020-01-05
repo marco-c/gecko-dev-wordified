@@ -6390,7 +6390,10 @@ return
 true
 ;
 #
-endif
+else
+/
+/
+DEBUG
 if
 (
 !
@@ -6604,6 +6607,11 @@ VerifyStream
 return
 false
 ;
+#
+endif
+/
+/
+DEBUG
 }
 void
 Http2Session

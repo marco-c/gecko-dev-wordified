@@ -200,6 +200,13 @@ h
 #
 include
 "
+nsIWindowWatcher
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h
