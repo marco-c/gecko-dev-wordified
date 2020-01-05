@@ -89,6 +89,15 @@ use
 servo_util
 :
 :
+atom
+:
+:
+Atom
+;
+use
+servo_util
+:
+:
 namespace
 :
 :
@@ -259,7 +268,7 @@ self
 &
 '
 a
-str
+Atom
 ;
 fn
 get_namespace

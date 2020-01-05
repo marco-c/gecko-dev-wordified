@@ -1145,6 +1145,10 @@ element
 get_local_name
 (
 )
+.
+as_slice
+(
+)
 matching_rules_list
 shareable
 )
@@ -4387,6 +4391,10 @@ as_element
 element
 .
 get_local_name
+(
+)
+.
+as_slice
 (
 )
 .
