@@ -1944,12 +1944,6 @@ i
 %
 2
 )
-mozilla
-:
-:
-void_t
-(
-)
 spec
 )
 ;
@@ -5757,12 +5751,6 @@ OriginAttributes
 (
 0
 false
-)
-mozilla
-:
-:
-void_t
-(
 )
 spec
 )

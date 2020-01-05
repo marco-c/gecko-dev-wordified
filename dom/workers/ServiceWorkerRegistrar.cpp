@@ -1731,9 +1731,6 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-void_t
-(
-)
 entry
 -
 >
@@ -1965,9 +1962,6 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-void_t
-(
-)
 entry
 -
 >
@@ -2137,9 +2131,6 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-void_t
-(
-)
 entry
 -
 >
@@ -2298,9 +2289,6 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-void_t
-(
-)
 entry
 -
 >
@@ -2459,9 +2447,6 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-void_t
-(
-)
 entry
 -
 >
